@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuner.put_TuneRequest
 title: ITuner::put_TuneRequest (tuner.h)
-description: The put_TuneRequest method sets the tune request currently in effect for the Network Provider.
+description: The put_TuneRequest method sets the tune request currently in effect for the Network Provider.helpviewer_keywords: ["ITuner interface [Microsoft TV Technologies]","put_TuneRequest method","ITuner.put_TuneRequest","ITuner::put_TuneRequest","ITunerput_TuneRequest","mstv.ituner_put_tunerequest","put_TuneRequest","put_TuneRequest method [Microsoft TV Technologies]","put_TuneRequest method [Microsoft TV Technologies]","ITuner interface","tuner/ITuner::put_TuneRequest"]
 old-location: mstv\ituner_put_tunerequest.htm
 tech.root: mstv
 ms.assetid: 69f71855-86d0-4ef9-a168-14e79461ec98

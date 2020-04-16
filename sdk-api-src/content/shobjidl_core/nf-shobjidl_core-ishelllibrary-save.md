@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.Save
 title: IShellLibrary::Save (shobjidl_core.h)
-description: Saves the library to a new Library Description (*.library-ms) file.
+description: Saves the library to a new Library Description (*.library-ms) file.helpviewer_keywords: ["IShellLibrary interface [Windows Shell]","Save method","IShellLibrary.Save","IShellLibrary::Save","Save","Save method [Windows Shell]","Save method [Windows Shell]","IShellLibrary interface","_shell_IShellLibrary_Save","shell.IShellLibrary_Save","shobjidl_core/IShellLibrary::Save"]
 old-location: shell\IShellLibrary_Save.htm
 tech.root: shell
 ms.assetid: 2a7de829-f0bc-4ace-aed4-83d0611ae292

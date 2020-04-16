@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.SetBoolArray
 title: ID3D10EffectScalarVariable::SetBoolArray (d3d10effect.h)
-description: Set an array of boolean variables.
+description: Set an array of boolean variables.helpviewer_keywords: ["596545fb-be65-5d46-6b19-d6fd77f59c4b","ID3D10EffectScalarVariable interface [Direct3D 10]","SetBoolArray method","ID3D10EffectScalarVariable.SetBoolArray","ID3D10EffectScalarVariable::SetBoolArray","SetBoolArray","SetBoolArray method [Direct3D 10]","SetBoolArray method [Direct3D 10]","ID3D10EffectScalarVariable interface","d3d10effect/ID3D10EffectScalarVariable::SetBoolArray","direct3d10.id3d10effectscalarvariable_setboolarray"]
 old-location: direct3d10\id3d10effectscalarvariable_setboolarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setboolarray.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetLastPresentCount
 title: IDXGISwapChain::GetLastPresentCount (dxgi.h)
-description: Gets the number of times that IDXGISwapChain::Present or IDXGISwapChain1::Present1 has been called.
+description: Gets the number of times that IDXGISwapChain::Present or IDXGISwapChain1::Present1 has been called.helpviewer_keywords: ["GetLastPresentCount","GetLastPresentCount method [DXGI]","GetLastPresentCount method [DXGI]","IDXGISwapChain interface","IDXGISwapChain interface [DXGI]","GetLastPresentCount method","IDXGISwapChain.GetLastPresentCount","IDXGISwapChain::GetLastPresentCount","direct3ddxgi.idxgiswapchain_getlastpresentcount","dxgi/IDXGISwapChain::GetLastPresentCount","f6292a4d-50a6-18b3-5edc-a581c15fa784"]
 old-location: direct3ddxgi\idxgiswapchain_getlastpresentcount.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getlastpresentcount.htm

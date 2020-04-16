@@ -1,7 +1,7 @@
 ---
 UID: NF:ondemandconnroutehelper.OnDemandGetRoutingHint
 title: OnDemandGetRoutingHint function (ondemandconnroutehelper.h)
-description: The OnDemandGetRoutingHint function looks up a destination in the Route Request cache and, if a match is found, return the corresponding Interface ID.
+description: The OnDemandGetRoutingHint function looks up a destination in the Route Request cache and, if a match is found, return the corresponding Interface ID.helpviewer_keywords: ["OnDemandGetRoutingHint","OnDemandGetRoutingHint function [Network Awareness]","nla.ondemandgetroutinghint","ondemandconnroutehelper/OnDemandGetRoutingHint"]
 old-location: nla\ondemandgetroutinghint.htm
 tech.root: nla
 ms.assetid: 6B98416F-A196-4015-836B-D6D649CCA9B1

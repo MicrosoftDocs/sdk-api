@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope2.get_RoleDefinitions
 title: IAzScope2::get_RoleDefinitions (azroles.h)
-description: Retrieves an IAzRoleDefinitions object that represents the collection of IAzRoleDefinition objects associated with this scope.
+description: Retrieves an IAzRoleDefinitions object that represents the collection of IAzRoleDefinition objects associated with this scope.helpviewer_keywords: ["IAzScope2 interface [Security]","RoleDefinitions property","IAzScope2.RoleDefinitions","IAzScope2.get_RoleDefinitions","IAzScope2::RoleDefinitions","IAzScope2::get_RoleDefinitions","RoleDefinitions property [Security]","RoleDefinitions property [Security]","IAzScope2 interface","azroles/IAzScope2::RoleDefinitions","azroles/IAzScope2::get_RoleDefinitions","get_RoleDefinitions","security.iazscope2_roledefinitions"]
 old-location: security\iazscope2_roledefinitions.htm
 tech.root: SecAuthZ
 ms.assetid: cff40ce8-fa5f-4673-9338-58cff2c941aa

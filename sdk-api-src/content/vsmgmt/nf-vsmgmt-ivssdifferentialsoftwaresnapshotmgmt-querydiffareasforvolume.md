@@ -1,7 +1,7 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForVolume
 title: IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume (vsmgmt.h)
-description: Queries shadow copy storage areas in use by the volume.
+description: Queries shadow copy storage areas in use by the volume.helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt interface [VSS]","QueryDiffAreasForVolume method","IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForVolume","IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume","QueryDiffAreasForVolume","QueryDiffAreasForVolume method [VSS]","QueryDiffAreasForVolume method [VSS]","IVssDifferentialSoftwareSnapshotMgmt interface","base.ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforvolume","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforvolume.htm
 tech.root: VSS
 ms.assetid: 381f8a4a-c88f-4bd3-bff1-6828fe034e66

@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.get_Count
 title: INetFwAuthorizedApplications::get_Count (netfw.h)
-description: Specifies the number of items in the collection.
+description: Specifies the number of items in the collection.helpviewer_keywords: ["Count property [ICS/ICF]","Count property [ICS/ICF]","INetFwAuthorizedApplications interface","INetFwAuthorizedApplications interface [ICS/ICF]","Count property","INetFwAuthorizedApplications.Count","INetFwAuthorizedApplications.get_Count","INetFwAuthorizedApplications::Count","INetFwAuthorizedApplications::get_Count","get_Count","ics.count_property_of_inetfwauthorizedapplications_count","netfw/INetFwAuthorizedApplications::Count","netfw/INetFwAuthorizedApplications::get_Count"]
 old-location: ics\count_property_of_inetfwauthorizedapplications_count.htm
 tech.root: ics
 ms.assetid: 6b0cc653-d5be-42af-ac8b-551b961550da

@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionTransform3D
 title: IDCompositionTransform3D (dcomp.h)
-description: Represents a 3D transformation effect that can be used to modify the rasterization of a visual subtree.
+description: Represents a 3D transformation effect that can be used to modify the rasterization of a visual subtree.helpviewer_keywords: ["IDCompositionTransform3D","IDCompositionTransform3D interface [DirectComposition]","IDCompositionTransform3D interface [DirectComposition]","described","dcomp/IDCompositionTransform3D","directcomp.idcompositiontransform3d"]
 old-location: directcomp\idcompositiontransform3d.htm
 tech.root: directcomp
 ms.assetid: 81239AB4-C2A3-4E37-95E3-B3C10532EE15

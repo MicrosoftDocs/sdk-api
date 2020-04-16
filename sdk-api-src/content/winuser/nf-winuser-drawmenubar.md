@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DrawMenuBar
 title: DrawMenuBar function (winuser.h)
-description: Redraws the menu bar of the specified window. If the menu bar changes after the system has created the window, this function must be called to draw the changed menu bar.
+description: Redraws the menu bar of the specified window. If the menu bar changes after the system has created the window, this function must be called to draw the changed menu bar.helpviewer_keywords: ["DrawMenuBar","DrawMenuBar function [Menus and Other Resources]","_win32_DrawMenuBar","_win32_drawmenubar_cpp","menurc.drawmenubar","winui._win32_drawmenubar","winuser/DrawMenuBar"]
 old-location: menurc\drawmenubar.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\drawmenubar.htm

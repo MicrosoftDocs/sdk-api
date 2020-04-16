@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.devices.display.core.interop.IDisplayPathInterop
 title: interop::IDisplayPathInterop
-description: Provides methods for interoperating between the Windows Runtime class [DisplayPath](/uwp/api/windows.devices.display.core.displaypath) and other display-related APIs.
+description: Provides methods for interoperating between the Windows Runtime class [DisplayPath](/uwp/api/windows.devices.display.core.displaypath) and other display-related APIs.helpviewer_keywords: ["interop::IDisplayPathInterop"]
 ms.date: 02/10/2020
 tech.root: winrt
 dev_langs:

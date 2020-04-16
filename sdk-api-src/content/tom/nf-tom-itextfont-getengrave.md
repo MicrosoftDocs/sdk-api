@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.GetEngrave
 title: ITextFont::GetEngrave (tom.h)
-description: Gets whether characters are displayed as imprinted characters.
+description: Gets whether characters are displayed as imprinted characters.helpviewer_keywords: ["GetEngrave","GetEngrave method [Windows Controls]","GetEngrave method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetEngrave method","ITextFont.GetEngrave","ITextFont::GetEngrave","_win32_ITextFont_GetEngrave","_win32_ITextFont_GetEngrave_cpp","controls.ITextFont_GetEngrave","controls._win32_ITextFont_GetEngrave","tom/ITextFont::GetEngrave"]
 old-location: controls\ITextFont_GetEngrave.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getengrave.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineClose
 title: lineClose function (tapi.h)
-description: The lineClose function closes the specified open line device.
+description: The lineClose function closes the specified open line device.helpviewer_keywords: ["_tapi2_lineclose","lineClose","lineClose function [TAPI 2.2]","tapi/lineClose","tapi2.lineclose"]
 old-location: tapi2\lineclose.htm
 tech.root: Tapi
 ms.assetid: ec47a351-c693-4e71-bf23-c31110ca90a1

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.Initialize
 title: IISDB_SDTT::Initialize (dvbsiparser.h)
-description: Initializes the object by using captured table section data from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
+description: Initializes the object by using captured table section data from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).helpviewer_keywords: ["IISDB_SDTT interface [Microsoft TV Technologies]","Initialize method","IISDB_SDTT.Initialize","IISDB_SDTT::Initialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","IISDB_SDTT interface","dvbsiparser/IISDB_SDTT::Initialize","mstv.iisdb_sdtt_initialize"]
 old-location: mstv\iisdb_sdtt_initialize.htm
 tech.root: mstv
 ms.assetid: f1018e3a-00dd-4964-b491-0193a71e7d51

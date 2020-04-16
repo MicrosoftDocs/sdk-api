@@ -1,7 +1,7 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1541
 title: SERVER_INFO_1541 (lmserver.h)
-description: The SERVER_INFO_1541 structure specifies the minimum number of free connection blocks the server sets aside to handle bursts of requests by clients to connect to the server.
+description: The SERVER_INFO_1541 structure specifies the minimum number of free connection blocks the server sets aside to handle bursts of requests by clients to connect to the server.helpviewer_keywords: ["*LPSERVER_INFO_1541","*PSERVER_INFO_1541","LPSERVER_INFO_1541","LPSERVER_INFO_1541 structure pointer [Network Management]","PSERVER_INFO_1541","PSERVER_INFO_1541 structure pointer [Network Management]","SERVER_INFO_1541","SERVER_INFO_1541 structure [Network Management]","_win32_server_info_1541_str","lmserver/LPSERVER_INFO_1541","lmserver/PSERVER_INFO_1541","lmserver/SERVER_INFO_1541","netmgmt.server_info_1541_str"]
 old-location: netmgmt\server_info_1541_str.htm
 tech.root: NetMgmt
 ms.assetid: 22ae4f90-822b-4594-8484-893630f6b680

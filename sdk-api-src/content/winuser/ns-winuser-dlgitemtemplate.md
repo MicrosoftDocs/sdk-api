@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.__unnamed_struct_5
 title: DLGITEMTEMPLATE (winuser.h)
-description: Defines the dimensions and style of a control in a dialog box. One or more of these structures are combined with a DLGTEMPLATE structure to form a standard template for a dialog box.
+description: Defines the dimensions and style of a control in a dialog box. One or more of these structures are combined with a DLGTEMPLATE structure to form a standard template for a dialog box.helpviewer_keywords: ["*LPDLGITEMTEMPLATEA","*LPDLGITEMTEMPLATEW","*PDLGITEMTEMPLATEA","*PDLGITEMTEMPLATEW","DLGITEMTEMPLATE","DLGITEMTEMPLATE structure [Dialog Boxes]","PDLGITEMTEMPLATE","PDLGITEMTEMPLATE structure pointer [Dialog Boxes]","_win32_DLGITEMTEMPLATE_str","_win32_dlgitemtemplate_str_cpp","dlgbox.dlgitemtemplate","winui._win32_dlgitemtemplate_str","winuser/DLGITEMTEMPLATE","winuser/PDLGITEMTEMPLATE"]
 old-location: dlgbox\dlgitemtemplate.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\dlgitemtemplate.htm

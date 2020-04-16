@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMallocSpy.PostGetSize
 title: IMallocSpy::PostGetSize (objidl.h)
-description: Performs operations required after calling IMalloc::GetSize.
+description: Performs operations required after calling IMalloc::GetSize.helpviewer_keywords: ["IMallocSpy interface [COM]","PostGetSize method","IMallocSpy.PostGetSize","IMallocSpy::PostGetSize","PostGetSize","PostGetSize method [COM]","PostGetSize method [COM]","IMallocSpy interface","_com_imallocspy_postgetsize","com.imallocspy_postgetsize","objidl/IMallocSpy::PostGetSize"]
 old-location: com\imallocspy_postgetsize.htm
 tech.root: com
 ms.assetid: ac619736-a434-46c0-9874-0cb646fdecae

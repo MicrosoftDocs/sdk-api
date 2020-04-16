@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetSurfaceDesc
 title: IDirectDrawSurface7::SetSurfaceDesc (ddraw.h)
-description: Sets the characteristics of an existing surface.
+description: Sets the characteristics of an existing surface.helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","SetSurfaceDesc method","IDirectDrawSurface7.SetSurfaceDesc","IDirectDrawSurface7::SetSurfaceDesc","SetSurfaceDesc","SetSurfaceDesc method [DirectDraw]","SetSurfaceDesc method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::SetSurfaceDesc","directdraw.idirectdrawsurface7_setsurfacedesc"]
 old-location: directdraw\idirectdrawsurface7_setsurfacedesc.htm
 tech.root: directdraw
 ms.assetid: 541bd833-20c4-4b47-a3ed-c29f228a0626

@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.ScanNetwork
 title: IMbnMultiCarrier::ScanNetwork (mbnapi.h)
-description: Scans the network to get a list of visible providers for a multi-carrier device.
+description: Scans the network to get a list of visible providers for a multi-carrier device.helpviewer_keywords: ["IMbnMultiCarrier interface [Microsoft Broadband Networks]","ScanNetwork method","IMbnMultiCarrier.ScanNetwork","IMbnMultiCarrier::ScanNetwork","ScanNetwork","ScanNetwork method [Microsoft Broadband Networks]","ScanNetwork method [Microsoft Broadband Networks]","IMbnMultiCarrier interface","mbn.imbnmulticarrier_scannetwork","mbnapi/IMbnMultiCarrier::ScanNetwork"]
 old-location: mbn\imbnmulticarrier_scannetwork.htm
 tech.root: mbn
 ms.assetid: D249B5D4-B2C3-436A-B38A-041289422F12

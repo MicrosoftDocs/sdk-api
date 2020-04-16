@@ -1,7 +1,7 @@
 ---
 UID: NS:wsman._WSMAN_PLUGIN_REQUEST
 title: WSMAN_PLUGIN_REQUEST (wsman.h)
-description: Specifies information for a plug-in request.
+description: Specifies information for a plug-in request.helpviewer_keywords: ["WSMAN_PLUGIN_REQUEST","WSMAN_PLUGIN_REQUEST structure [Windows Remote Management]","winrm.wsman_plugin_request","wsman/WSMAN_PLUGIN_REQUEST"]
 old-location: winrm\wsman_plugin_request.htm
 tech.root: winrm
 ms.assetid: 3191f2b3-e754-4f2d-ae8b-11da859c94b7

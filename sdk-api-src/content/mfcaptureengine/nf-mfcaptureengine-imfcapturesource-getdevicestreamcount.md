@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetDeviceStreamCount
 title: IMFCaptureSource::GetDeviceStreamCount (mfcaptureengine.h)
-description: Gets the number of device streams.
+description: Gets the number of device streams.helpviewer_keywords: ["GetDeviceStreamCount","GetDeviceStreamCount method [Media Foundation]","GetDeviceStreamCount method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","GetDeviceStreamCount method","IMFCaptureSource.GetDeviceStreamCount","IMFCaptureSource::GetDeviceStreamCount","mf.imfcapturesource_getdevicestreamcount","mfcaptureengine/IMFCaptureSource::GetDeviceStreamCount"]
 old-location: mf\imfcapturesource_getdevicestreamcount.htm
 tech.root: medfound
 ms.assetid: 0CD466EF-4753-42F6-A9B9-71CBB0668342

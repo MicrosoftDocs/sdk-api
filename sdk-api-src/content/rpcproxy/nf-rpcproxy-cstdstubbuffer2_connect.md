@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer2_Connect
 title: CStdStubBuffer2_Connect function (rpcproxy.h)
-description: Implements the IRpcStubBuffer::Connect method and connects the server object to the stub.
+description: Implements the IRpcStubBuffer::Connect method and connects the server object to the stub.helpviewer_keywords: ["CStdStubBuffer2_Connect","CStdStubBuffer2_Connect function [RPC]","rpc.cstdstubbuffer2_connect","rpcproxy/CStdStubBuffer2_Connect"]
 old-location: rpc\cstdstubbuffer2_connect.htm
 tech.root: Rpc
 ms.assetid: ED3BA34C-1BAE-4CA0-A701-C64B8B9E717E

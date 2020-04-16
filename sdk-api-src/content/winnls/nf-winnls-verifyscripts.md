@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.VerifyScripts
 title: VerifyScripts function (winnls.h)
-description: Compares two enumerated lists of scripts.
+description: Compares two enumerated lists of scripts.helpviewer_keywords: ["VS_ALLOW_LATIN","VerifyScripts","VerifyScripts function [Internationalization for Windows Applications]","_win32_VerifyScripts","intl.verifyscripts","winnls/VerifyScripts"]
 old-location: intl\verifyscripts.htm
 tech.root: Intl
 ms.assetid: 4780aa9f-6df0-4901-8de4-3f9118320e1b

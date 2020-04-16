@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.ILayoutStorage.BeginMonitor
 title: ILayoutStorage::BeginMonitor (objidl.h)
-description: The BeginMonitor method is used to begin monitoring when a loading operation is started. When the operation is complete, the application must call ILayoutStorage::EndMonitor.
+description: The BeginMonitor method is used to begin monitoring when a loading operation is started. When the operation is complete, the application must call ILayoutStorage::EndMonitor.helpviewer_keywords: ["BeginMonitor","BeginMonitor method [Structured Storage]","BeginMonitor method [Structured Storage]","ILayoutStorage interface","ILayoutStorage interface [Structured Storage]","BeginMonitor method","ILayoutStorage.BeginMonitor","ILayoutStorage::BeginMonitor","_stg_ilayoutstorage_beginmonitor","objidl/ILayoutStorage::BeginMonitor","stg.ilayoutstorage_beginmonitor"]
 old-location: stg\ilayoutstorage_beginmonitor.htm
 tech.root: Stg
 ms.assetid: 16371d6c-adb9-43c2-80a4-377e94854bbb

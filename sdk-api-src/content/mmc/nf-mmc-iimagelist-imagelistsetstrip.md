@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IImageList.ImageListSetStrip
 title: IImageList::ImageListSetStrip (mmc.h)
-description: The IImageList::ImageListSetStrip method enables a user to add a strip of icons to the image list using a pair of bitmaps (large and small icons), starting at a location identified by nStartLoc.
+description: The IImageList::ImageListSetStrip method enables a user to add a strip of icons to the image list using a pair of bitmaps (large and small icons), starting at a location identified by nStartLoc.helpviewer_keywords: ["IImageList interface [MMC]","ImageListSetStrip method","IImageList.ImageListSetStrip","IImageList::ImageListSetStrip","ImageListSetStrip","ImageListSetStrip method [MMC]","ImageListSetStrip method [MMC]","IImageList interface","_slate_iimagelist_imagelistsetstrip","mmc.iimagelist_imagelistsetstrip","mmc/IImageList::ImageListSetStrip"]
 old-location: mmc\iimagelist_imagelistsetstrip.htm
 tech.root: mmc
 ms.assetid: b736a5ab-86a7-4c8d-82b7-bbe9f98bc402

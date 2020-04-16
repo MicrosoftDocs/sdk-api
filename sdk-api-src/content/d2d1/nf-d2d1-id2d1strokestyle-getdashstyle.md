@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetDashStyle
 title: ID2D1StrokeStyle::GetDashStyle (d2d1.h)
-description: Gets a value that describes the stroke's dash pattern.
+description: Gets a value that describes the stroke's dash pattern.helpviewer_keywords: ["GetDashStyle","GetDashStyle method [Direct2D]","GetDashStyle method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetDashStyle method","ID2D1StrokeStyle.GetDashStyle","ID2D1StrokeStyle::GetDashStyle","d2d1/ID2D1StrokeStyle::GetDashStyle","direct2d.ID2D1StrokeStyle_GetDashStyle"]
 old-location: direct2d\ID2D1StrokeStyle_GetDashStyle.htm
 tech.root: Direct2D
 ms.assetid: 15d61f2c-9348-47af-a9cf-4706ab0033b7

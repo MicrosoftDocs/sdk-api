@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymEnumTypesByName
 title: SymEnumTypesByName function (dbghelp.h)
-description: Enumerates all user-defined types.
+description: Enumerates all user-defined types.helpviewer_keywords: ["SymEnumTypesByName","SymEnumTypesByName function","SymEnumTypesByNameW","base.symenumtypesbyname","dbghelp/SymEnumTypesByName","dbghelp/SymEnumTypesByNameW"]
 old-location: base\symenumtypesbyname.htm
 tech.root: Debug
 ms.assetid: 48acb588-23fa-44f3-8b8c-f3c76371d1fd

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderWindowlessSite.GetRuntimeIdPrefix
 title: IRawElementProviderWindowlessSite::GetRuntimeIdPrefix (uiautomationcore.h)
-description: Retrieves a Microsoft UI Automation runtime ID that is unique to the windowless Microsoft ActiveX control site.
+description: Retrieves a Microsoft UI Automation runtime ID that is unique to the windowless Microsoft ActiveX control site.helpviewer_keywords: ["GetRuntimeIdPrefix","GetRuntimeIdPrefix method [Windows Accessibility]","GetRuntimeIdPrefix method [Windows Accessibility]","IRawElementProviderWindowlessSite interface","IRawElementProviderWindowlessSite interface [Windows Accessibility]","GetRuntimeIdPrefix method","IRawElementProviderWindowlessSite.GetRuntimeIdPrefix","IRawElementProviderWindowlessSite::GetRuntimeIdPrefix","uiautomationcore/IRawElementProviderWindowlessSite::GetRuntimeIdPrefix","winauto.uiauto_IRawElementProviderWindowlessSite_getRuntimeIdPrefix"]
 old-location: winauto\uiauto_IRawElementProviderWindowlessSite_getRuntimeIdPrefix.htm
 tech.root: WinAuto
 ms.assetid: E10BBE53-5AAB-4BAB-AFC8-866224011E43

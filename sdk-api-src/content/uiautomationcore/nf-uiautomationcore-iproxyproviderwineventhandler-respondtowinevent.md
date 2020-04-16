@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IProxyProviderWinEventHandler.RespondToWinEvent
 title: IProxyProviderWinEventHandler::RespondToWinEvent (uiautomationcore.h)
-description: Handles a WinEvent.
+description: Handles a WinEvent.helpviewer_keywords: ["IProxyProviderWinEventHandler interface [Windows Accessibility]","RespondToWinEvent method","IProxyProviderWinEventHandler.RespondToWinEvent","IProxyProviderWinEventHandler::RespondToWinEvent","RespondToWinEvent","RespondToWinEvent method [Windows Accessibility]","RespondToWinEvent method [Windows Accessibility]","IProxyProviderWinEventHandler interface","uiauto.uiauto_IProxyProviderWinEventHandler_RespondToWinEvent","uiauto_IProxyProviderWinEventHandler_RespondToWinEvent","uiautomationcore/IProxyProviderWinEventHandler::RespondToWinEvent","winauto.uiauto_IProxyProviderWinEventHandler_RespondToWinEvent"]
 old-location: winauto\uiauto_IProxyProviderWinEventHandler_RespondToWinEvent.htm
 tech.root: WinAuto
 ms.assetid: b3a63cb9-3eae-43ec-aba1-2f038ca0896f

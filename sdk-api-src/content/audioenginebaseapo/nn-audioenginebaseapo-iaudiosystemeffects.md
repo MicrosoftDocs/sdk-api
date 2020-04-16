@@ -1,7 +1,7 @@
 ---
 UID: NN:audioenginebaseapo.IAudioSystemEffects
 title: IAudioSystemEffects (audioenginebaseapo.h)
-description: The IAudioSystemEffects interface uses the basic methods that are inherited from IUnknown, and must implement an Initialize method.
+description: The IAudioSystemEffects interface uses the basic methods that are inherited from IUnknown, and must implement an Initialize method.helpviewer_keywords: ["IAudioSystemEffects","IAudioSystemEffects interface [Audio Devices]","IAudioSystemEffects interface [Audio Devices]","described","audio.iaudiosystemeffects","audio_syseffects_r_bdd8290f-b7ec-4c4d-b52f-2e05e9e5c074.xml","audioenginebaseapo/IAudioSystemEffects"]
 old-location: audio\iaudiosystemeffects.htm
 tech.root: audio
 ms.assetid: 86429c51-6831-4266-9774-1547dc04bcb0

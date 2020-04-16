@@ -1,7 +1,7 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetSize
 title: IShellImageData::GetSize (shimgdata.h)
-description: Gets the dimensions of the image file.
+description: Gets the dimensions of the image file.helpviewer_keywords: ["GetSize","GetSize method [Windows Shell]","GetSize method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","GetSize method","IShellImageData.GetSize","IShellImageData::GetSize","_shell_IShellImageData_GetSize","shell.IShellImageData_GetSize","shimgdata/IShellImageData::GetSize"]
 old-location: shell\IShellImageData_GetSize.htm
 tech.root: shell
 ms.assetid: 50294d95-801d-4cd6-94ae-8b48c68af50f

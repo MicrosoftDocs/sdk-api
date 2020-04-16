@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IESEventServiceConfiguration.SetParent
 title: IESEventServiceConfiguration::SetParent (tuner.h)
-description: Sets a parent event service for an event service that implements the IESEventService interface. Once an event service has set a parent, it can receive advise events from the parent.
+description: Sets a parent event service for an event service that implements the IESEventService interface. Once an event service has set a parent, it can receive advise events from the parent.helpviewer_keywords: ["IESEventServiceConfiguration interface [Microsoft TV Technologies]","SetParent method","IESEventServiceConfiguration.SetParent","IESEventServiceConfiguration::SetParent","SetParent","SetParent method [Microsoft TV Technologies]","SetParent method [Microsoft TV Technologies]","IESEventServiceConfiguration interface","mstv.ieseventserviceconfiguration_setparent","tuner/IESEventServiceConfiguration::SetParent"]
 old-location: mstv\ieseventserviceconfiguration_setparent.htm
 tech.root: mstv
 ms.assetid: cfb931e9-f20f-4812-9d6b-cf8b651b7e7a

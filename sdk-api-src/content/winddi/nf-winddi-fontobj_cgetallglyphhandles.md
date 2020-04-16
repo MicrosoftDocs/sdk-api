@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.FONTOBJ_cGetAllGlyphHandles
 title: FONTOBJ_cGetAllGlyphHandles function (winddi.h)
-description: The FONTOBJ_cGetAllGlyphHandles function allows the device driver to find every glyph handle of a GDI font.
+description: The FONTOBJ_cGetAllGlyphHandles function allows the device driver to find every glyph handle of a GDI font.helpviewer_keywords: ["FONTOBJ_cGetAllGlyphHandles","FONTOBJ_cGetAllGlyphHandles function [Display Devices]","display.fontobj_cgetallglyphhandles","gdifncs_b082dddb-7eb3-4676-a05b-8eb731d96fc4.xml","winddi/FONTOBJ_cGetAllGlyphHandles"]
 old-location: display\fontobj_cgetallglyphhandles.htm
 tech.root: display
 ms.assetid: b3901f9e-14e6-42c2-851c-47c0f386f2d3

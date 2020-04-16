@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTransformPattern
 title: IUIAutomationTransformPattern (uiautomationclient.h)
-description: Provides access to a control that can be moved, resized, or rotated.
+description: Provides access to a control that can be moved, resized, or rotated.helpviewer_keywords: ["IUIAutomationTransformPattern","IUIAutomationTransformPattern interface [Windows Accessibility]","IUIAutomationTransformPattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationTransformPattern","uiauto_IUIAutomationTransformPattern","uiautomationclient/IUIAutomationTransformPattern","winauto.uiauto_IUIAutomationTransformPattern"]
 old-location: winauto\uiauto_IUIAutomationTransformPattern.htm
 tech.root: WinAuto
 ms.assetid: 276b44d9-a335-4d4e-8fe9-de03584dadb4

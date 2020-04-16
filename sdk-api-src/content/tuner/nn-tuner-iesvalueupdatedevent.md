@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IESValueUpdatedEvent
 title: IESValueUpdatedEvent (tuner.h)
-description: Implements an event that Protected Broadcast Driver Architecture (PBDA) Media Transform Devices (MTDs) use to inform a Media Sink Device that the MTD has updated the value for a name-value pair or exposed a new name-value pair.
+description: Implements an event that Protected Broadcast Driver Architecture (PBDA) Media Transform Devices (MTDs) use to inform a Media Sink Device that the MTD has updated the value for a name-value pair or exposed a new name-value pair.helpviewer_keywords: ["IESValueUpdatedEvent","IESValueUpdatedEvent interface [Microsoft TV Technologies]","IESValueUpdatedEvent interface [Microsoft TV Technologies]","described","mstv.iesvalueupdatedevent","tuner/IESValueUpdatedEvent"]
 old-location: mstv\iesvalueupdatedevent.htm
 tech.root: mstv
 ms.assetid: 6639c483-aebe-43b4-94cd-494b820c1b14

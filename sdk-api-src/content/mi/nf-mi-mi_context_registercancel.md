@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Context_RegisterCancel
 title: MI_Context_RegisterCancel function (mi.h)
-description: Registers a callback that is invoked when the operation is canceled.
+description: Registers a callback that is invoked when the operation is canceled.helpviewer_keywords: ["MI_Context_RegisterCancel","MI_Context_RegisterCancel function [Windows Management Infrastructure (MI)]","mi/MI_Context_RegisterCancel","wmi.mi_registercancel","wmi_v2.mi_context_registercancel"]
 old-location: wmi_v2\mi_context_registercancel.htm
 tech.root: wmi_v2
 ms.assetid: 7e6b2016-6ce5-4dcd-b5f4-6e6d24c46f0a

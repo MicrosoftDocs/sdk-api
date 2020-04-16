@@ -1,7 +1,7 @@
 ---
 UID: NF:powrprof.PowerDeleteScheme
 title: PowerDeleteScheme function (powrprof.h)
-description: Deletes the specified power scheme from the database.
+description: Deletes the specified power scheme from the database.helpviewer_keywords: ["PowerDeleteScheme","PowerDeleteScheme function","base.powerdeletescheme","powrprof/PowerDeleteScheme"]
 old-location: base\powerdeletescheme.htm
 tech.root: power
 ms.assetid: 5f9969a1-e598-4ca8-a5b8-f8bb3410223d

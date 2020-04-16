@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.Refresh
 title: IFaxConfiguration::Refresh (faxcomex.h)
-description: Refreshes the object.
+description: Refreshes the object.helpviewer_keywords: ["IFaxConfiguration interface [Fax Service]","Refresh method","IFaxConfiguration.Refresh","IFaxConfiguration::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxConfiguration interface","_mfax_IFaxConfiguration_Refresh","fax._mfax_IFaxConfiguration_Refresh","faxcomex/IFaxConfiguration::Refresh"]
 old-location: fax\_mfax_IFaxConfiguration_Refresh.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\refresh.htm

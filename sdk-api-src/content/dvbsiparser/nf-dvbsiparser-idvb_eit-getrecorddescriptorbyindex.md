@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetRecordDescriptorByIndex
 title: IDVB_EIT::GetRecordDescriptorByIndex (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordDescriptorByIndex","GetRecordDescriptorByIndex method [Microsoft TV Technologies]","GetRecordDescriptorByIndex method [Microsoft TV Technologies]","IDVB_EIT interface","IDVB_EIT interface [Microsoft TV Technologies]","GetRecordDescriptorByIndex method","IDVB_EIT.GetRecordDescriptorByIndex","IDVB_EIT::GetRecordDescriptorByIndex","IDVB_EITGetRecordDescriptorByIndex","dvbsiparser/IDVB_EIT::GetRecordDescriptorByIndex","mstv.idvb_eit_getrecorddescriptorbyindex"]
 old-location: mstv\idvb_eit_getrecorddescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: f0b8b918-c41c-468c-b289-e3cfc186fa1b

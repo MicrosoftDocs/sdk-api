@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_TrackInfo
 title: IRawCDImageCreator::get_TrackInfo (imapi2.h)
-description: Retrieves an indexed property, which takes a LONG value with a range of 1 to 99 as the index to determine which track the user is querying. The returned object is then queried/set for the particular per-track property of interest.
+description: Retrieves an indexed property, which takes a LONG value with a range of 1 to 99 as the index to determine which track the user is querying. The returned object is then queried/set for the particular per-track property of interest.helpviewer_keywords: ["IRawCDImageCreator interface [IMAPI]","get_TrackInfo method","IRawCDImageCreator.get_TrackInfo","IRawCDImageCreator::get_TrackInfo","get_TrackInfo","get_TrackInfo method [IMAPI]","get_TrackInfo method [IMAPI]","IRawCDImageCreator interface","imapi.irawcdimagecreator_get_trackinfo","imapi2/IRawCDImageCreator::get_TrackInfo"]
 old-location: imapi\irawcdimagecreator_get_trackinfo.htm
 tech.root: imapi
 ms.assetid: e6bc12fe-9274-4339-baf5-80a80512759e

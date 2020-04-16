@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DestroyWindow
 title: DestroyWindow function (winuser.h)
-description: Destroys the specified window.
+description: Destroys the specified window.helpviewer_keywords: ["DestroyWindow","DestroyWindow function [Windows and Messages]","_win32_DestroyWindow","_win32_destroywindow_cpp","winmsg.destroywindow","winui._win32_destroywindow","winuser/DestroyWindow"]
 old-location: winmsg\destroywindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\destroywindow.htm

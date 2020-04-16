@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.RegisterTouchWindow
 title: RegisterTouchWindow function (winuser.h)
-description: Registers a window as being touch-capable.
+description: Registers a window as being touch-capable.helpviewer_keywords: ["RegisterTouchWindow","RegisterTouchWindow function [Windows Touch]","TWF_FINETOUCH","TWF_WANTPALM","wintouch.registertouchwindow","winuser/RegisterTouchWindow"]
 old-location: wintouch\registertouchwindow.htm
 tech.root: wintouch
 ms.assetid: a70a7418-f79d-40c8-9219-3ce38a74da9f

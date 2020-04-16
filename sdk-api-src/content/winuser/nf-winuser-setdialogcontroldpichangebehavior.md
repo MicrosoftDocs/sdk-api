@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetDialogControlDpiChangeBehavior
 title: SetDialogControlDpiChangeBehavior function (winuser.h)
-description: Overrides the default per-monitor DPI scaling behavior of a child window in a dialog.
+description: Overrides the default per-monitor DPI scaling behavior of a child window in a dialog.helpviewer_keywords: ["SetDialogControlDpiChangeBehavior","SetDialogResizeBehavior","SetDialogResizeBehavior function [High DPI]","hidpi.setdialogresizebehavior","winuser/SetDialogResizeBehavior"]
 old-location: hidpi\setdialogresizebehavior.htm
 tech.root: hidpi
 ms.assetid: 52BB557B-0D70-4189-9BD0-EB94188EA4E7

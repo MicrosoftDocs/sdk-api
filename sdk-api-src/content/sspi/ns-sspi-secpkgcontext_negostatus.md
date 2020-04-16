@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_NegoStatus
 title: SecPkgContext_NegoStatus (sspi.h)
-description: Specifies the error status of the last attempt to create a client context.
+description: Specifies the error status of the last attempt to create a client context.helpviewer_keywords: ["*PSecPkgContext_NegoStatus","PSecPkgContext_NegoStatus","PSecPkgContext_NegoStatus structure pointer [Security]","SecPkgContext_NegoStatus","SecPkgContext_NegoStatus structure [Security]","security.secpkgcontext_negostatus","sspi/PSecPkgContext_NegoStatus","sspi/SecPkgContext_NegoStatus"]
 old-location: security\secpkgcontext_negostatus.htm
 tech.root: SecAuthN
 ms.assetid: 09201338-4743-44a2-b84f-35b26116976d

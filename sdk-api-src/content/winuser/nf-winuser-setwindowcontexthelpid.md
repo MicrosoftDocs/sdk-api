@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetWindowContextHelpId
 title: SetWindowContextHelpId function (winuser.h)
-description: Associates a Help context identifier with the specified window.
+description: Associates a Help context identifier with the specified window.helpviewer_keywords: ["SetWindowContextHelpId","SetWindowContextHelpId function [Windows Shell]","_win32_SetWindowContextHelpId","shell.SetWindowContextHelpId","winuser/SetWindowContextHelpId"]
 old-location: shell\SetWindowContextHelpId.htm
 tech.root: shell
 ms.assetid: 7e0963d1-5807-4db5-9abf-cdb21a03b525

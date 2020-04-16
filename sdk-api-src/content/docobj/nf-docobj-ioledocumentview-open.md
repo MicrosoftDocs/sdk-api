@@ -1,7 +1,7 @@
 ---
 UID: NF:docobj.IOleDocumentView.Open
 title: IOleDocumentView::Open (docobj.h)
-description: Displays a document view in a separate pop-up window. The semantics are equivalent to IOleObject::DoVerb with OLEIVERB_OPEN.
+description: Displays a document view in a separate pop-up window. The semantics are equivalent to IOleObject::DoVerb with OLEIVERB_OPEN.helpviewer_keywords: ["IOleDocumentView interface [COM]","Open method","IOleDocumentView.Open","IOleDocumentView::Open","Open","Open method [COM]","Open method [COM]","IOleDocumentView interface","_ole_ioledocumentview_open","com.ioledocumentview_open","docobj/IOleDocumentView::Open"]
 old-location: com\ioledocumentview_open.htm
 tech.root: com
 ms.assetid: 46f801ae-ae03-4567-9442-cf3fbb6d06d7

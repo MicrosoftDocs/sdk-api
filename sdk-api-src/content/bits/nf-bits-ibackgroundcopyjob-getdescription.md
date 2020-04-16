@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetDescription
 title: IBackgroundCopyJob::GetDescription (bits.h)
-description: Retrieves the description of the job.
+description: Retrieves the description of the job.helpviewer_keywords: ["GetDescription","GetDescription method [BITS]","GetDescription method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetDescription method","IBackgroundCopyJob.GetDescription","IBackgroundCopyJob::GetDescription","_drz_ibackgroundcopyjob_getdescription","bits.ibackgroundcopyjob_getdescription","bits/IBackgroundCopyJob::GetDescription"]
 old-location: bits\ibackgroundcopyjob_getdescription.htm
 tech.root: Bits
 ms.assetid: 1a791390-2bd8-4732-98a2-74f740cfd822

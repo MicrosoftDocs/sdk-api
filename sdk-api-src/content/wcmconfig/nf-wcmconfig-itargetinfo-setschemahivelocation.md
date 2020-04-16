@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetSchemaHiveLocation
 title: ITargetInfo::SetSchemaHiveLocation (wcmconfig.h)
-description: Sets the location of the schema hive.
+description: Sets the location of the schema hive.helpviewer_keywords: ["ITargetInfo interface [SMI]","SetSchemaHiveLocation method","ITargetInfo.SetSchemaHiveLocation","ITargetInfo::SetSchemaHiveLocation","SetSchemaHiveLocation","SetSchemaHiveLocation method [SMI]","SetSchemaHiveLocation method [SMI]","ITargetInfo interface","smi.itargetinfo_setschemahivelocation","wcmconfig/ITargetInfo::SetSchemaHiveLocation"]
 old-location: smi\itargetinfo_setschemahivelocation.htm
 tech.root: SMI
 ms.assetid: 223ce821-4f31-4673-95e2-ec9cf94d5726

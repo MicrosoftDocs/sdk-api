@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.MCIWndGetInactiveTimer
 title: MCIWndGetInactiveTimer macro (vfw.h)
-description: The MCIWndGetInactiveTimer macro retrieves the update period used when the MCIWnd window is the inactive window. You can use this macro or explicitly send the MCIWNDM_GETINACTIVETIMER message.
+description: The MCIWndGetInactiveTimer macro retrieves the update period used when the MCIWnd window is the inactive window. You can use this macro or explicitly send the MCIWNDM_GETINACTIVETIMER message.helpviewer_keywords: ["MCIWndGetInactiveTimer","MCIWndGetInactiveTimer macro [Windows Multimedia]","_win32_MCIWndGetInactiveTimer","multimedia.mciwndgetinactivetimer","vfw/MCIWndGetInactiveTimer"]
 old-location: multimedia\mciwndgetinactivetimer.htm
 tech.root: Multimedia
 ms.assetid: a9683a34-7fbd-4878-a547-4421d5888308

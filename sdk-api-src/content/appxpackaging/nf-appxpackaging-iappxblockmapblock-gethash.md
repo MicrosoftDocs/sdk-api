@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlock.GetHash
 title: IAppxBlockMapBlock::GetHash (appxpackaging.h)
-description: Retrieves the hash value of the block.
+description: Retrieves the hash value of the block.helpviewer_keywords: ["GetHash","GetHash method [App packaging and management]","GetHash method [App packaging and management]","IAppxBlockMapBlock interface","IAppxBlockMapBlock interface [App packaging and management]","GetHash method","IAppxBlockMapBlock.GetHash","IAppxBlockMapBlock::GetHash","appxpackaging/IAppxBlockMapBlock::GetHash","appxpkg.iappxblockmapblock_gethash"]
 old-location: appxpkg\iappxblockmapblock_gethash.htm
 tech.root: appxpkg
 ms.assetid: 9A8460C2-2BEE-4CEC-BAF4-779E6F58664D

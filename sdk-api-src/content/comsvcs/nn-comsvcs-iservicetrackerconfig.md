@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IServiceTrackerConfig
 title: IServiceTrackerConfig (comsvcs.h)
-description: Configures the tracker property for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
+description: Configures the tracker property for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.helpviewer_keywords: ["IServiceTrackerConfig","IServiceTrackerConfig interface [COM+]","IServiceTrackerConfig interface [COM+]","described","_cos_IServiceTrackerConfig","comsvcs/IServiceTrackerConfig","cos.iservicetrackerconfig"]
 old-location: cos\iservicetrackerconfig.htm
 tech.root: cossdk
 ms.assetid: 342713d0-be5e-4d47-85ba-b18673a17fb5

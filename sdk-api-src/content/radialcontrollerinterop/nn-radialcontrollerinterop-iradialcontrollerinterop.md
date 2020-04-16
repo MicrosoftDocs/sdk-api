@@ -1,7 +1,7 @@
 ---
 UID: NN:radialcontrollerinterop.IRadialControllerInterop
 title: IRadialControllerInterop (radialcontrollerinterop.h)
-description: Enables interoperability with a Universal Windows Platform (UWP)&#160;RadialController object and provides access to RadialController members for customizing the interaction experience.
+description: Enables interoperability with a Universal Windows Platform (UWP)&#160;RadialController object and provides access to RadialController members for customizing the interaction experience.helpviewer_keywords: ["IRadialControllerInterop","IRadialControllerInterop interface","IRadialControllerInterop interface","described","Input_Radial.iradialcontrollerinterop","radialcontrollerinterop/IRadialControllerInterop"]
 old-location: input_radial\iradialcontrollerinterop.htm
 tech.root: Input_Radial
 ms.assetid: ed701930-fae7-4c42-9e6b-b1cb3fac861c

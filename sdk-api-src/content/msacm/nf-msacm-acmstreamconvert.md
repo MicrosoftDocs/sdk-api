@@ -1,7 +1,7 @@
 ---
 UID: NF:msacm.acmStreamConvert
 title: acmStreamConvert function (msacm.h)
-description: The acmStreamConvert function requests the ACM to perform a conversion on the specified conversion stream. A conversion may be synchronous or asynchronous, depending on how the stream was opened.
+description: The acmStreamConvert function requests the ACM to perform a conversion on the specified conversion stream. A conversion may be synchronous or asynchronous, depending on how the stream was opened.helpviewer_keywords: ["_win32_acmStreamConvert","acmStreamConvert","acmStreamConvert function [Windows Multimedia]","msacm/acmStreamConvert","multimedia.acmstreamconvert"]
 old-location: multimedia\acmstreamconvert.htm
 tech.root: Multimedia
 ms.assetid: 97537dcc-acf4-4fea-b17f-2301a72a6a78

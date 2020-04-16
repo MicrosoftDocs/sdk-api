@@ -1,7 +1,7 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_CALLBACK_INPUT
 title: MINIDUMP_CALLBACK_INPUT (minidumpapiset.h)
-description: Contains information used by the MiniDumpCallback function.
+description: Contains information used by the MiniDumpCallback function.helpviewer_keywords: ["*PMINIDUMP_CALLBACK_INPUT","MINIDUMP_CALLBACK_INPUT","MINIDUMP_CALLBACK_INPUT structure","PMINIDUMP_CALLBACK_INPUT","PMINIDUMP_CALLBACK_INPUT structure pointer","_MINIDUMP_CALLBACK_INPUT","_win32_minidump_callback_input_str","base.minidump_callback_input_str","minidumpapiset/MINIDUMP_CALLBACK_INPUT","minidumpapiset/PMINIDUMP_CALLBACK_INPUT"]
 old-location: base\minidump_callback_input_str.htm
 tech.root: Debug
 ms.assetid: 0ce3083c-21c9-48a4-9099-1dab31afcafa

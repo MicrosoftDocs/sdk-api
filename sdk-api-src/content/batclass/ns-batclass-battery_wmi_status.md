@@ -1,7 +1,7 @@
 ---
 UID: NS:batclass._BATTERY_WMI_STATUS
 title: BATTERY_WMI_STATUS (batclass.h)
-description: Defines battery status information.
+description: Defines battery status information.helpviewer_keywords: ["*PBATTERY_WMI_STATUS","BATTERY_WMI_STATUS","BATTERY_WMI_STATUS structure [Battery Devices]","PBATTERY_WMI_STATUS","PBATTERY_WMI_STATUS structure pointer [Battery Devices]","batclass/BATTERY_WMI_STATUS","batclass/PBATTERY_WMI_STATUS","battery.battery_wmi_status"]
 old-location: battery\battery_wmi_status.htm
 tech.root: battery
 ms.assetid: BE3FB7CA-928D-4A2E-A11D-20E9D3F8841E

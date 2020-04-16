@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsWddmIddProps.GetHardwareId
 title: IWRdsWddmIddProps::GetHardwareId (wtsprotocol.h)
-description: Protocol stack uses this method to return hardware Id of WDDM ID driver.
+description: Protocol stack uses this method to return hardware Id of WDDM ID driver.helpviewer_keywords: ["GetHardwareId","GetHardwareId method [Remote Desktop Services]","GetHardwareId method [Remote Desktop Services]","IWRdsWddmIddProps interface","IWRdsWddmIddProps interface [Remote Desktop Services]","GetHardwareId method","IWRdsWddmIddProps.GetHardwareId","IWRdsWddmIddProps::GetHardwareId","termserv.iwrdswddmiddprops_gethardwareid","wtsprotocol/IWRdsWddmIddProps::GetHardwareId"]
 old-location: termserv\iwrdswddmiddprops_gethardwareid.htm
 tech.root: TermServ
 ms.assetid: 4F9D2C6D-6555-4ABE-B856-6DD59B139978

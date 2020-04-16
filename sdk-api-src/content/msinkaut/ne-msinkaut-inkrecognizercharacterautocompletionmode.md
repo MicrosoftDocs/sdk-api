@@ -1,7 +1,7 @@
 ---
 UID: NE:msinkaut.InkRecognizerCharacterAutoCompletionMode
 title: InkRecognizerCharacterAutoCompletionMode (msinkaut.h)
-description: Specifies types of character input modes.
+description: Specifies types of character input modes.helpviewer_keywords: ["69677379-6700-4128-9e8e-675a9a61a25e","IRCACM_Full","IRCACM_Prefix","IRCACM_Random","InkRecognizerCharacterAutoCompletionMode","InkRecognizerCharacterAutoCompletionMode enumeration [Tablet PC]","msinkaut/IRCACM_Full","msinkaut/IRCACM_Prefix","msinkaut/IRCACM_Random","msinkaut/InkRecognizerCharacterAutoCompletionMode","tablet.inkrecognizercharacterautocompletionmode"]
 old-location: tablet\inkrecognizercharacterautocompletionmode.htm
 tech.root: tablet
 ms.assetid: 69677379-6700-4128-9e8e-675a9a61a25e

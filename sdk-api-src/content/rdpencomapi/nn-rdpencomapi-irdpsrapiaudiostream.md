@@ -1,7 +1,7 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIAudioStream
 title: IRDPSRAPIAudioStream (rdpencomapi.h)
-description: Enables sending an audio stream from the collaboration sharer Microsoft ActiveX control to collaboration viewer controls.
+description: Enables sending an audio stream from the collaboration sharer Microsoft ActiveX control to collaboration viewer controls.helpviewer_keywords: ["IRDPSRAPIAudioStream","IRDPSRAPIAudioStream class [RDP]","IRDPSRAPIAudioStream class [RDP]","described","rdp.irdpsrapiaudiostream","rdpencomapi/IRDPSRAPIAudioStream"]
 old-location: rdp\irdpsrapiaudiostream.htm
 tech.root: rdp
 ms.assetid: B2BC04A1-DE22-4543-9F10-33B0B99E0F92

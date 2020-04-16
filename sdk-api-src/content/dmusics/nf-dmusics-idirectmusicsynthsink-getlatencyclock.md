@@ -1,7 +1,7 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.GetLatencyClock
 title: IDirectMusicSynthSink::GetLatencyClock (dmusics.h)
-description: The GetLatencyClock method retrieves the latency clock, which measures the progress of the output audio stream.
+description: The GetLatencyClock method retrieves the latency clock, which measures the progress of the output audio stream.helpviewer_keywords: ["GetLatencyClock","GetLatencyClock method [Audio Devices]","GetLatencyClock method [Audio Devices]","IDirectMusicSynthSink interface","IDirectMusicSynthSink interface [Audio Devices]","GetLatencyClock method","IDirectMusicSynthSink.GetLatencyClock","IDirectMusicSynthSink::GetLatencyClock","audio.idirectmusicsynthsink_getlatencyclock","audmp-routines_13de73b3-d0c6-4693-a56c-919628c63efb.xml","dmusics/IDirectMusicSynthSink::GetLatencyClock"]
 old-location: audio\idirectmusicsynthsink_getlatencyclock.htm
 tech.root: audio
 ms.assetid: 6f767ef2-6f7e-49b7-a169-09db49f55622

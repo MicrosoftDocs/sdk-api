@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPSENDDISCONNECT
 title: LPWSPSENDDISCONNECT
-description: The LPWSPSendDisconnect function initiates termination of the connection for the socket and sends disconnect data.
+description: The LPWSPSendDisconnect function initiates termination of the connection for the socket and sends disconnect data.helpviewer_keywords: ["LPWSPSENDDISCONNECT"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPSENDDISCONNECT
 targetos: Windows

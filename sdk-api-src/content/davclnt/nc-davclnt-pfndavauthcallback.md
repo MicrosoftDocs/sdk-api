@@ -1,7 +1,7 @@
 ---
 UID: NC:davclnt.PFNDAVAUTHCALLBACK
 title: PFNDAVAUTHCALLBACK (davclnt.h)
-description: The WebDAV client calls the application-defined DavAuthCallback callback function to prompt the user for credentials.
+description: The WebDAV client calls the application-defined DavAuthCallback callback function to prompt the user for credentials.helpviewer_keywords: ["DAV_AUTHN_SCHEME_BASIC","DAV_AUTHN_SCHEME_CERT","DAV_AUTHN_SCHEME_DIGEST","DAV_AUTHN_SCHEME_FBA","DAV_AUTHN_SCHEME_NEGOTIATE","DAV_AUTHN_SCHEME_NTLM","DAV_AUTHN_SCHEME_PASSPORT","DavAuthCallback","DavAuthCallback callback function [WebDAV]","PFNDAVAUTHCALLBACK","PFNDAVAUTHCALLBACK callback","davclnt/DavAuthCallback","webdav.authcallback"]
 old-location: webdav\authcallback.htm
 tech.root: WebDAV
 ms.assetid: 6ac191ac-e63f-431f-893b-92c69320db58

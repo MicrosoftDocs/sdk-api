@@ -1,7 +1,7 @@
 ---
 UID: NF:txfw32.TxfLogCreateRangeReadContext
 title: TxfLogCreateRangeReadContext
-description: Creates a context that is required to read any replication records.
+description: Creates a context that is required to read any replication records.helpviewer_keywords: ["TxfLogCreateRangeReadContext"]
 ms.date: 4/26/2019
 ms.keywords: TxfLogCreateRangeReadContext
 f1_keywords:

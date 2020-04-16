@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHCreateStdEnumFmtEtc
 title: SHCreateStdEnumFmtEtc function (shlobj_core.h)
-description: SHCreateStdEnumFmtEtc may be altered or unavailable.
+description: SHCreateStdEnumFmtEtc may be altered or unavailable.helpviewer_keywords: ["SHCreateStdEnumFmtEtc","SHCreateStdEnumFmtEtc function [Windows Shell]","_win32_SHCreateStdEnumFmtEtc","shell.SHCreateStdEnumFmtEtc","shlobj_core/SHCreateStdEnumFmtEtc"]
 old-location: shell\SHCreateStdEnumFmtEtc.htm
 tech.root: shell
 ms.assetid: c391c8c8-6062-4e70-9a1f-de0eb610250d

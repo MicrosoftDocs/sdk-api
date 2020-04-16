@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetClipper
 title: IDirectDrawSurface7::GetClipper (ddraw.h)
-description: Retrieves the DirectDrawClipper object that is associated with this surface, and increments the reference count of the returned clipper.
+description: Retrieves the DirectDrawClipper object that is associated with this surface, and increments the reference count of the returned clipper.helpviewer_keywords: ["GetClipper","GetClipper method [DirectDraw]","GetClipper method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetClipper method","IDirectDrawSurface7.GetClipper","IDirectDrawSurface7::GetClipper","ddraw/IDirectDrawSurface7::GetClipper","directdraw.idirectdrawsurface7_getclipper"]
 old-location: directdraw\idirectdrawsurface7_getclipper.htm
 tech.root: directdraw
 ms.assetid: f2156dbe-88b5-4ab1-a310-13a38ebdbb4b

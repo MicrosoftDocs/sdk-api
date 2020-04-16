@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmProviderGetByKey0
 title: FwpmProviderGetByKey0 function (fwpmu.h)
-description: Retrieves a provider.
+description: Retrieves a provider.helpviewer_keywords: ["FwpmProviderGetByKey0","FwpmProviderGetByKey0 function [Filtering]","fwp.fwpmprovidergetbykey0_func","fwpmu/FwpmProviderGetByKey0"]
 old-location: fwp\fwpmprovidergetbykey0_func.htm
 tech.root: fwp
 ms.assetid: e5ed3f8e-a740-4cd9-9311-278abc9444e1

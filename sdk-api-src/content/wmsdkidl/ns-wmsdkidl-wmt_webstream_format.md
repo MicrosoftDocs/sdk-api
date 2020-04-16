@@ -1,7 +1,7 @@
 ---
 UID: NS:wmsdkidl._WMT_WEBSTREAM_FORMAT
 title: WMT_WEBSTREAM_FORMAT (wmsdkidl.h)
-description: The WMT_WEBSTREAM_FORMAT structure contains information about a Web stream. This structure is used as the pbFormat member of the WM_MEDIA_TYPE structure for Web streams.
+description: The WMT_WEBSTREAM_FORMAT structure contains information about a Web stream. This structure is used as the pbFormat member of the WM_MEDIA_TYPE structure for Web streams.helpviewer_keywords: ["WMT_WEBSTREAM_FORMAT","WMT_WEBSTREAM_FORMAT structure [windows Media Format]","wmformat.wmt_webstream_format","wmsdkidl/WMT_WEBSTREAM_FORMAT"]
 old-location: wmformat\wmt_webstream_format.htm
 tech.root: wmformat
 ms.assetid: 3a392b33-6c2b-4465-86b4-6614940d7383

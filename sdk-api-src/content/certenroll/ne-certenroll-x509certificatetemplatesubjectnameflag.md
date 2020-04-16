@@ -1,7 +1,7 @@
 ---
 UID: NE:certenroll.X509CertificateTemplateSubjectNameFlag
 title: X509CertificateTemplateSubjectNameFlag (certenroll.h)
-description: Contains values that specify server and client actions concerning subject names.
+description: Contains values that specify server and client actions concerning subject names.helpviewer_keywords: ["SubjectAlternativeNameEnrolleeSupplies","SubjectAlternativeNameRequireDNS","SubjectAlternativeNameRequireDirectoryGUID","SubjectAlternativeNameRequireDomainDNS","SubjectAlternativeNameRequireEmail","SubjectAlternativeNameRequireSPN","SubjectAlternativeNameRequireUPN","SubjectNameAndAlternativeNameOldCertSupplies","SubjectNameEnrolleeSupplies","SubjectNameRequireCommonName","SubjectNameRequireDNS","SubjectNameRequireDirectoryPath","SubjectNameRequireEmail","X509CertificateTemplateSubjectNameFlag","X509CertificateTemplateSubjectNameFlag enumeration [Security]","certenroll/SubjectAlternativeNameEnrolleeSupplies","certenroll/SubjectAlternativeNameRequireDNS","certenroll/SubjectAlternativeNameRequireDirectoryGUID","certenroll/SubjectAlternativeNameRequireDomainDNS","certenroll/SubjectAlternativeNameRequireEmail","certenroll/SubjectAlternativeNameRequireSPN","certenroll/SubjectAlternativeNameRequireUPN","certenroll/SubjectNameAndAlternativeNameOldCertSupplies","certenroll/SubjectNameEnrolleeSupplies","certenroll/SubjectNameRequireCommonName","certenroll/SubjectNameRequireDNS","certenroll/SubjectNameRequireDirectoryPath","certenroll/SubjectNameRequireEmail","certenroll/X509CertificateTemplateSubjectNameFlag","security.x509certificatetemplatesubjectnameflag"]
 old-location: security\x509certificatetemplatesubjectnameflag.htm
 tech.root: seccertenroll
 ms.assetid: 0880bb94-d26f-49a7-9749-f8be272fa4f6

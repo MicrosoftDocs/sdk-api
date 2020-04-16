@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_STATISTICS0_
 title: IKEEXT_STATISTICS0 (iketypes.h)
-description: Stores various IKE/AuthIP statistics.
+description: Stores various IKE/AuthIP statistics.helpviewer_keywords: ["IKEEXT_STATISTICS0","IKEEXT_STATISTICS0 structure [Filtering]","fwp.ikeext_statistics0","iketypes/IKEEXT_STATISTICS0"]
 old-location: fwp\ikeext_statistics0.htm
 tech.root: fwp
 ms.assetid: aefacc39-92a5-4d73-ac3c-0b5bf1407a90

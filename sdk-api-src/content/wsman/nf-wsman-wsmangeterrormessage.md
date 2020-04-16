@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManGetErrorMessage
 title: WSManGetErrorMessage function (wsman.h)
-description: Retrieves the error messages associated with a particular error and language codes.
+description: Retrieves the error messages associated with a particular error and language codes.helpviewer_keywords: ["WSManGetErrorMessage","WSManGetErrorMessage function [Windows Remote Management]","winrm.wsmangeterrormessage","wsman/WSManGetErrorMessage"]
 old-location: winrm\wsmangeterrormessage.htm
 tech.root: winrm
 ms.assetid: 95fbded5-859d-4111-914c-871a05530726

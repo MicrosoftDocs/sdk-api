@@ -1,7 +1,7 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.UnregisterEndpointNotificationCallback
 title: IMMDeviceEnumerator::UnregisterEndpointNotificationCallback (mmdeviceapi.h)
-description: The UnregisterEndpointNotificationCallback method deletes the registration of a notification interface that the client registered in a previous call to the IMMDeviceEnumerator::RegisterEndpointNotificationCallback method.
+description: The UnregisterEndpointNotificationCallback method deletes the registration of a notification interface that the client registered in a previous call to the IMMDeviceEnumerator::RegisterEndpointNotificationCallback method.helpviewer_keywords: ["IMMDeviceEnumerator interface [Core Audio]","UnregisterEndpointNotificationCallback method","IMMDeviceEnumerator.UnregisterEndpointNotificationCallback","IMMDeviceEnumerator::UnregisterEndpointNotificationCallback","IMMDeviceEnumeratorUnregisterEndpointNotificationC","UnregisterEndpointNotificationCallback","UnregisterEndpointNotificationCallback method [Core Audio]","UnregisterEndpointNotificationCallback method [Core Audio]","IMMDeviceEnumerator interface","coreaudio.immdeviceenumerator_unregisterendpointnotificationcallback","mmdeviceapi/IMMDeviceEnumerator::UnregisterEndpointNotificationCallback"]
 old-location: coreaudio\immdeviceenumerator_unregisterendpointnotificationcallback.htm
 tech.root: CoreAudio
 ms.assetid: dc1e85af-f399-469d-806a-a2d80b700b75

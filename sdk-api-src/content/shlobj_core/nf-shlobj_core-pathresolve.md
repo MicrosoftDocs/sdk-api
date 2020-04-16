@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.PathResolve
 title: PathResolve function (shlobj_core.h)
-description: PathResolve may be altered or unavailable.
+description: PathResolve may be altered or unavailable.helpviewer_keywords: ["PRF_DONTFINDLNK","PRF_FIRSTDIRDEF","PRF_REQUIREABSOLUTE","PRF_TRYPROGRAMEXTENSIONS","PRF_VERIFYEXISTS","PathResolve","PathResolve function [Windows Shell]","_win32_PathResolve","shell.PathResolve","shlobj_core/PathResolve"]
 old-location: shell\PathResolve.htm
 tech.root: shell
 ms.assetid: 84bf0b56-513f-4ac6-b2cf-11f0c471da1e

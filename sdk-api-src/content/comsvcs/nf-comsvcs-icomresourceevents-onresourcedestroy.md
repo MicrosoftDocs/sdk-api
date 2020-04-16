@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceDestroy
 title: IComResourceEvents::OnResourceDestroy (comsvcs.h)
-description: Generated when a resource is destroyed.
+description: Generated when a resource is destroyed.helpviewer_keywords: ["IComResourceEvents interface [COM+]","OnResourceDestroy method","IComResourceEvents.OnResourceDestroy","IComResourceEvents::OnResourceDestroy","OnResourceDestroy","OnResourceDestroy method [COM+]","OnResourceDestroy method [COM+]","IComResourceEvents interface","_dtc_IComResourceEvents_OnResourceDestroy","comsvcs/IComResourceEvents::OnResourceDestroy","cos.icomresourceevents_onresourcedestroy"]
 old-location: cos\icomresourceevents_onresourcedestroy.htm
 tech.root: cossdk
 ms.assetid: cc934b47-8031-4dab-ae00-6389f54749b8

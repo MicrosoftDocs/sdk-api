@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtGetChannelConfigProperty
 title: EvtGetChannelConfigProperty function (winevt.h)
-description: Gets the specified channel configuration property.
+description: Gets the specified channel configuration property.helpviewer_keywords: ["EvtGetChannelConfigProperty","EvtGetChannelConfigProperty function [EventLog]","wes.evtgetchannelconfigproperty","winevt/EvtGetChannelConfigProperty"]
 old-location: wes\evtgetchannelconfigproperty.htm
 tech.root: wes
 ms.assetid: 0f84f51c-716e-4a70-b31c-2b4f40b3fd83

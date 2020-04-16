@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.RemoveAccessEntry
 title: IWMAddressAccess::RemoveAccessEntry (wmsdkidl.h)
-description: The RemoveAccessEntry method removes an access entry.
+description: The RemoveAccessEntry method removes an access entry.helpviewer_keywords: ["IWMAddressAccess interface [windows Media Format]","RemoveAccessEntry method","IWMAddressAccess.RemoveAccessEntry","IWMAddressAccess::RemoveAccessEntry","IWMAddressAccessRemoveAccessEntry","RemoveAccessEntry","RemoveAccessEntry method [windows Media Format]","RemoveAccessEntry method [windows Media Format]","IWMAddressAccess interface","wmformat.iwmaddressaccess_removeaccessentry","wmsdkidl/IWMAddressAccess::RemoveAccessEntry"]
 old-location: wmformat\iwmaddressaccess_removeaccessentry.htm
 tech.root: wmformat
 ms.assetid: f3f9d493-90b4-4b2a-ad18-baf2b09bc72e

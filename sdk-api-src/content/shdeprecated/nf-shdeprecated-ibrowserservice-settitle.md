@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetTitle
 title: IBrowserService::SetTitle (shdeprecated.h)
-description: Deprecated. Sets the title of a browser window.
+description: Deprecated. Sets the title of a browser window.helpviewer_keywords: ["IBrowserService interface [Windows Shell]","SetTitle method","IBrowserService.SetTitle","IBrowserService::SetTitle","SetTitle","SetTitle method [Windows Shell]","SetTitle method [Windows Shell]","IBrowserService interface","shdeprecated/IBrowserService::SetTitle","shell.IBrowserService_SetTitle","zone_IBrowserService_SetTitle"]
 old-location: shell\IBrowserService_SetTitle.htm
 tech.root: shell
 ms.assetid: 236f05a3-d31b-46fe-9e10-1f5df6823fa3

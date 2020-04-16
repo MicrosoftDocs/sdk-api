@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMScalarModAngle
 title: XMScalarModAngle function (directxmath.h)
-description: Computes an angle between -XM_PI and XM_PI.
+description: Computes an angle between -XM_PI and XM_PI.helpviewer_keywords: ["Use DirectX..XMScalarModAngle","XMScalarModAngle","XMScalarModAngle method [DirectX Math Support APIs]","dxmath.xmscalarmodangle"]
 old-location: dxmath\xmscalarmodangle.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarModAngle(float)

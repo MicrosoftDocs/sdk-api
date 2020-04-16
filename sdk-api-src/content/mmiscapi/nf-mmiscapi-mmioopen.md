@@ -1,7 +1,7 @@
 ---
 UID: NF:mmiscapi.mmioOpen
 title: mmioOpen function (mmiscapi.h)
-description: The mmioOpen function opens a file for unbuffered or buffered I/O; creates a file; deletes a file; or checks whether a file exists.
+description: The mmioOpen function opens a file for unbuffered or buffered I/O; creates a file; deletes a file; or checks whether a file exists.helpviewer_keywords: ["_win32_mmioOpen","mmioOpen","mmioOpen function [Windows Multimedia]","mmioOpenA","mmioOpenW","mmsystem/mmioOpen","mmsystem/mmioOpenA","mmsystem/mmioOpenW","multimedia.mmioopen"]
 old-location: multimedia\mmioopen.htm
 tech.root: Multimedia
 ms.assetid: 7361f0f2-1c3c-49f1-aec1-2927e05ef0f0

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.WMCreateBackupRestorer
 title: WMCreateBackupRestorer function (wmsdkidl.h)
-description: The WMCreateBackupRestorer function creates a backup restorer object.
+description: The WMCreateBackupRestorer function creates a backup restorer object.helpviewer_keywords: ["WMCreateBackupRestorer","WMCreateBackupRestorer function [windows Media Format]","wmformat.wmcreatebackuprestorer","wmsdkidl/WMCreateBackupRestorer"]
 old-location: wmformat\wmcreatebackuprestorer.htm
 tech.root: wmformat
 ms.assetid: 529a5066-df03-4747-bca5-10e3f223d4d2

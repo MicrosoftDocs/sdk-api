@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsNameTranslate.SetEx
 title: IADsNameTranslate::SetEx (iads.h)
-description: Establishes an array of objects for name translation.
+description: Establishes an array of objects for name translation.helpviewer_keywords: ["IADsNameTranslate interface [ADSI]","SetEx method","IADsNameTranslate.SetEx","IADsNameTranslate::SetEx","SetEx","SetEx method [ADSI]","SetEx method [ADSI]","IADsNameTranslate interface","_ds_iadsnametranslate_setex","adsi.iadsnametranslate__setex","adsi.iadsnametranslate_setex","iads/IADsNameTranslate::SetEx"]
 old-location: adsi\iadsnametranslate_setex.htm
 tech.root: adsi
 ms.assetid: e8a5014e-d848-46b7-a336-7801ff1f6b08

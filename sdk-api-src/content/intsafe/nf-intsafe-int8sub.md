@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.Int8Sub
 title: Int8Sub function (intsafe.h)
-description: Subtracts one value of type INT8 from another.
+description: Subtracts one value of type INT8 from another.helpviewer_keywords: ["Int8Sub","Int8Sub function [Windows Shell]","intsafe/Int8Sub","shell.Int8Sub"]
 old-location: shell\Int8Sub.htm
 tech.root: shell
 ms.assetid: 2dfab719-3c16-49db-9cf3-1db236eae141

@@ -1,7 +1,7 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetCurrentService
 title: IAMLine21Decoder::GetCurrentService (il21dec.h)
-description: The GetCurrentService method retrieves the current closed captioning service.
+description: The GetCurrentService method retrieves the current closed captioning service.helpviewer_keywords: ["GetCurrentService","GetCurrentService method [DirectShow]","GetCurrentService method [DirectShow]","IAMLine21Decoder interface","IAMLine21Decoder interface [DirectShow]","GetCurrentService method","IAMLine21Decoder.GetCurrentService","IAMLine21Decoder::GetCurrentService","IAMLine21DecoderGetCurrentService","dshow.iamline21decoder_getcurrentservice","il21dec/IAMLine21Decoder::GetCurrentService"]
 old-location: dshow\iamline21decoder_getcurrentservice.htm
 tech.root: DirectShow
 ms.assetid: bfd1c33d-27e0-4923-9c80-5d1bedb4fd25

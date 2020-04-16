@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.SetSecurityInfo
 title: IGPMSOM::SetSecurityInfo (gpmgmt.h)
-description: Sets the list of permissions for the scope of management (SOM) to that of the specified object.
+description: Sets the list of permissions for the scope of management (SOM) to that of the specified object.helpviewer_keywords: ["GPMSOM class [GPMC]","SetSecurityInfo method","IGPMSOM interface [GPMC]","SetSecurityInfo method","IGPMSOM.SetSecurityInfo","IGPMSOM::SetSecurityInfo","SetSecurityInfo","SetSecurityInfo method [GPMC]","SetSecurityInfo method [GPMC]","GPMSOM class","SetSecurityInfo method [GPMC]","IGPMSOM interface","_win32_igpmsom_setsecurityinfo","gpmc.igpmsom_setsecurityinfo","gpmgmt/IGPMSOM::SetSecurityInfo"]
 old-location: gpmc\igpmsom_setsecurityinfo.htm
 tech.root: gpmc
 ms.assetid: 675de64c-4eef-47c8-a06c-9167559b11a9

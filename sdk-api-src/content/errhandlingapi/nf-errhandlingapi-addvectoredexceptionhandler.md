@@ -1,7 +1,7 @@
 ---
 UID: NF:errhandlingapi.AddVectoredExceptionHandler
 title: AddVectoredExceptionHandler function (errhandlingapi.h)
-description: Registers a vectored exception handler.
+description: Registers a vectored exception handler.helpviewer_keywords: ["AddVectoredExceptionHandler","AddVectoredExceptionHandler function","_win32_addvectoredexceptionhandler","base.addvectoredexceptionhandler","errhandlingapi/AddVectoredExceptionHandler"]
 old-location: base\addvectoredexceptionhandler.htm
 tech.root: Debug
 ms.assetid: 0e956746-e6da-49d8-a534-753cb6755673

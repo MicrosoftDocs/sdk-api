@@ -1,7 +1,7 @@
 ---
 UID: NE:structuredquery.CONDITION_CREATION_OPTIONS
 title: CONDITION_CREATION_OPTIONS (structuredquery.h)
-description: Provides a set of flags to be used with the following interfaces to indicate the type of condition tree node:\_ICondition, ICondition2, IConditionFactory, IConditionFactory2, and IConditionGenerator.
+description: Provides a set of flags to be used with the following interfaces to indicate the type of condition tree node:\_ICondition, ICondition2, IConditionFactory, IConditionFactory2, and IConditionGenerator.helpviewer_keywords: ["CONDITION_CREATION_DEFAULT","CONDITION_CREATION_NONE","CONDITION_CREATION_OPTIONS","CONDITION_CREATION_OPTIONS enumeration [search]","CONDITION_CREATION_SIMPLIFY","CONDITION_CREATION_USE_CONTENT_LOCALE","CONDITION_CREATION_VECTOR_AND","CONDITION_CREATION_VECTOR_LEAF","CONDITION_CREATION_VECTOR_OR","_search_CONDITION_CREATION_OPTIONS","search._search_CONDITION_CREATION_OPTIONS","structuredquery/CONDITION_CREATION_DEFAULT","structuredquery/CONDITION_CREATION_NONE","structuredquery/CONDITION_CREATION_OPTIONS","structuredquery/CONDITION_CREATION_SIMPLIFY","structuredquery/CONDITION_CREATION_USE_CONTENT_LOCALE","structuredquery/CONDITION_CREATION_VECTOR_AND","structuredquery/CONDITION_CREATION_VECTOR_LEAF","structuredquery/CONDITION_CREATION_VECTOR_OR"]
 old-location: search\_search_CONDITION_CREATION_OPTIONS.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\condition_creation_options.htm

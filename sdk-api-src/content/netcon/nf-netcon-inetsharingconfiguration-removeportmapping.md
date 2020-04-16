@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.RemovePortMapping
 title: INetSharingConfiguration::RemovePortMapping (netcon.h)
-description: The RemovePortMapping method removes a service port mapping from the list of mappings for this connection.
+description: The RemovePortMapping method removes a service port mapping from the list of mappings for this connection.helpviewer_keywords: ["INetSharingConfiguration interface [ICS/ICF]","RemovePortMapping method","INetSharingConfiguration.RemovePortMapping","INetSharingConfiguration::RemovePortMapping","RemovePortMapping","RemovePortMapping method [ICS/ICF]","RemovePortMapping method [ICS/ICF]","INetSharingConfiguration interface","_ics_inetsharingconfiguration_removeportmapping","ics.inetsharingconfiguration_removeportmapping","netcon/INetSharingConfiguration::RemovePortMapping"]
 old-location: ics\inetsharingconfiguration_removeportmapping.htm
 tech.root: ics
 ms.assetid: 2790aced-a3a9-425d-9e0f-fe8df4fcb934

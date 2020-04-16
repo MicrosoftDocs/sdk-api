@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.ICDBurn.HasRecordableDrive
 title: ICDBurn::HasRecordableDrive (shobjidl.h)
-description: Scans the system for a CD drive with write-capability, returning TRUE if one is found.
+description: Scans the system for a CD drive with write-capability, returning TRUE if one is found.helpviewer_keywords: ["HasRecordableDrive","HasRecordableDrive method [Windows Shell]","HasRecordableDrive method [Windows Shell]","ICDBurn interface","ICDBurn interface [Windows Shell]","HasRecordableDrive method","ICDBurn.HasRecordableDrive","ICDBurn::HasRecordableDrive","_shell_ICDBurn_HasRecordableDrive","shell.ICDBurn_HasRecordableDrive","shobjidl/ICDBurn::HasRecordableDrive"]
 old-location: shell\ICDBurn_HasRecordableDrive.htm
 tech.root: shell
 ms.assetid: b20b5242-2d38-4f86-9267-a2211ef07a00

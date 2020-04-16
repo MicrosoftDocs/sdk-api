@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DestroyAcceleratorTable
 title: DestroyAcceleratorTable function (winuser.h)
-description: Destroys an accelerator table.
+description: Destroys an accelerator table.helpviewer_keywords: ["DestroyAcceleratorTable","DestroyAcceleratorTable function [Menus and Other Resources]","_win32_DestroyAcceleratorTable","_win32_destroyacceleratortable_cpp","menurc.destroyacceleratortable","winui._win32_destroyacceleratortable","winuser/DestroyAcceleratorTable"]
 old-location: menurc\destroyacceleratortable.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\destroyacceleratortable.htm

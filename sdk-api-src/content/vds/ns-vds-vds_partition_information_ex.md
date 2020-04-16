@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_PARTITION_INFORMATION_EX
 title: VDS_PARTITION_INFORMATION_EX (vds.h)
-description: This structure is reserved for system use.
+description: This structure is reserved for system use.helpviewer_keywords: ["PVDS_PARTITION_INFORMATION_EX","PVDS_PARTITION_INFORMATION_EX structure pointer","VDS_PARTITION_INFORMATION_EX","VDS_PARTITION_INFORMATION_EX structure","base.vds_partition_information_ex","vds/PVDS_PARTITION_INFORMATION_EX","vds/VDS_PARTITION_INFORMATION_EX"]
 old-location: base\vds_partition_information_ex.htm
 tech.root: VDS
 ms.assetid: 99ded61d-fcbc-4e1c-8b3a-69c14d4c20bb

@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcasync.RpcErrorGetNextRecord
 title: RpcErrorGetNextRecord function (rpcasync.h)
-description: The RpcErrorGetNextRecord function retrieves the next extended error information record for an enumeration handle.
+description: The RpcErrorGetNextRecord function retrieves the next extended error information record for an enumeration handle.helpviewer_keywords: ["RpcErrorGetNextRecord","RpcErrorGetNextRecord function [RPC]","_rpc_rpcerrorgetnextrecord","rpc.rpcerrorgetnextrecord","rpcasync/RpcErrorGetNextRecord"]
 old-location: rpc\rpcerrorgetnextrecord.htm
 tech.root: Rpc
 ms.assetid: cc2d3aa0-2956-4710-ad31-a347d9ef9043

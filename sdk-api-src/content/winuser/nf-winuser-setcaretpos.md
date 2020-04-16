@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetCaretPos
 title: SetCaretPos function (winuser.h)
-description: Moves the caret to the specified coordinates. If the window that owns the caret was created with the CS_OWNDC class style, then the specified coordinates are subject to the mapping mode of the device context associated with that window.
+description: Moves the caret to the specified coordinates. If the window that owns the caret was created with the CS_OWNDC class style, then the specified coordinates are subject to the mapping mode of the device context associated with that window.helpviewer_keywords: ["SetCaretPos","SetCaretPos function [Menus and Other Resources]","_win32_SetCaretPos","_win32_setcaretpos_cpp","menurc.setcaretpos","winui._win32_setcaretpos","winuser/SetCaretPos"]
 old-location: menurc\setcaretpos.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\setcaretpos.htm

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_COLOR_WRITE_ENABLE
 title: D3D12_COLOR_WRITE_ENABLE (d3d12.h)
-description: Identifies which components of each pixel of a render target are writable during blending.
+description: Identifies which components of each pixel of a render target are writable during blending.helpviewer_keywords: ["D3D12_COLOR_WRITE_ENABLE","D3D12_COLOR_WRITE_ENABLE enumeration","D3D12_COLOR_WRITE_ENABLE_ALL","D3D12_COLOR_WRITE_ENABLE_ALPHA","D3D12_COLOR_WRITE_ENABLE_BLUE","D3D12_COLOR_WRITE_ENABLE_GREEN","D3D12_COLOR_WRITE_ENABLE_RED","d3d12/D3D12_COLOR_WRITE_ENABLE","d3d12/D3D12_COLOR_WRITE_ENABLE_ALL","d3d12/D3D12_COLOR_WRITE_ENABLE_ALPHA","d3d12/D3D12_COLOR_WRITE_ENABLE_BLUE","d3d12/D3D12_COLOR_WRITE_ENABLE_GREEN","d3d12/D3D12_COLOR_WRITE_ENABLE_RED","direct3d12.d3d12_color_write_enable"]
 old-location: direct3d12\d3d12_color_write_enable.htm
 tech.root: direct3d12
 ms.assetid: BC07C5E7-CFEC-4902-9FB1-74A4396190BC

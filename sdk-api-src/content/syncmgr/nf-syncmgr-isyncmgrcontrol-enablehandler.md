@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.EnableHandler
 title: ISyncMgrControl::EnableHandler (syncmgr.h)
-description: Enables or disables a handler.
+description: Enables or disables a handler.helpviewer_keywords: ["EnableHandler","EnableHandler method [Windows Shell]","EnableHandler method [Windows Shell]","ISyncMgrControl interface","ISyncMgrControl interface [Windows Shell]","EnableHandler method","ISyncMgrControl.EnableHandler","ISyncMgrControl::EnableHandler","_shell_ISyncMgrControl_EnableHandler","shell.ISyncMgrControl_EnableHandler","syncmgr/ISyncMgrControl::EnableHandler"]
 old-location: shell\ISyncMgrControl_EnableHandler.htm
 tech.root: shell
 ms.assetid: 92a9525c-bf06-4720-a3e2-5352fa693c8e

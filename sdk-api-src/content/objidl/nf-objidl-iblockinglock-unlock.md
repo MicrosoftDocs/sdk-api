@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IBlockingLock.Unlock
 title: IBlockingLock::Unlock (objidl.h)
-description: Releases a lock on a shared resource.
+description: Releases a lock on a shared resource.helpviewer_keywords: ["IBlockingLock interface [COM]","Unlock method","IBlockingLock.Unlock","IBlockingLock::Unlock","Unlock","Unlock method [COM]","Unlock method [COM]","IBlockingLock interface","_com_iblockinglock_unlock","com.iblockinglock_unlock","objidl/IBlockingLock::Unlock"]
 old-location: com\iblockinglock_unlock.htm
 tech.root: com
 ms.assetid: 152c2d72-fa49-4213-8916-81a6383900cc

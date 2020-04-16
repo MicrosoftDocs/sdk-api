@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnOutgoingJobChanged
 title: _IFaxServerNotify2::OnOutgoingJobChanged (faxcomex.h)
-description: The fax service calls the IFaxServerNotify2::OnOutgoingJobChanged method when the status of an outgoing fax job changes.
+description: The fax service calls the IFaxServerNotify2::OnOutgoingJobChanged method when the status of an outgoing fax job changes.helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnOutgoingJobChanged method","IFaxServerNotify2.OnOutgoingJobChanged","IFaxServerNotify2::OnOutgoingJobChanged","OnOutgoingJobChanged","OnOutgoingJobChanged method [Fax Service]","OnOutgoingJobChanged method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnOutgoingJobChanged","_IFaxServerNotify2::OnOutgoingJobChanged","_mfax_ifaxservernotify2_onoutgoingjobchanged","fax._mfax_ifaxservernotify2_onoutgoingjobchanged","faxcomex/IFaxServerNotify2::OnOutgoingJobChanged"]
 old-location: fax\_mfax_ifaxservernotify2_onoutgoingjobchanged.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingjobchanged.htm

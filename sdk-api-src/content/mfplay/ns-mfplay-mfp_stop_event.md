@@ -1,7 +1,7 @@
 ---
 UID: NS:mfplay.MFP_STOP_EVENT
 title: MFP_STOP_EVENT (mfplay.h)
-description: Event structure for the MFP_EVENT_TYPE_STOP event.
+description: Event structure for the MFP_EVENT_TYPE_STOP event.helpviewer_keywords: ["MFP_STOP_EVENT","MFP_STOP_EVENT structure [Media Foundation]","mf.mfp_stop_event","mfplay/MFP_STOP_EVENT"]
 old-location: mf\mfp_stop_event.htm
 tech.root: medfound
 ms.assetid: 67459c57-7912-4c51-9d76-3dc98f0e65ba

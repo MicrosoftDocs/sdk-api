@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_RESET_LISTENER_CALLBACK
 title: WS_RESET_LISTENER_CALLBACK (webservices.h)
-description: Handles the WsResetListener call for a WS_CUSTOM_CHANNEL_BINDING.
+description: Handles the WsResetListener call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_RESET_LISTENER_CALLBACK","WS_RESET_LISTENER_CALLBACK callback","WS_RESET_LISTENER_CALLBACK callback function [Web Services for Windows]","webservices/WS_RESET_LISTENER_CALLBACK","wsw.ws_reset_listener_callback"]
 old-location: wsw\ws_reset_listener_callback.htm
 tech.root: wsw
 ms.assetid: 98a48403-5ac6-44c2-8a43-c81746390a0d

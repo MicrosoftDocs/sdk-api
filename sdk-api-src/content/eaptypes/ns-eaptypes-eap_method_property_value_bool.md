@@ -1,7 +1,7 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE_BOOL
 title: EAP_METHOD_PROPERTY_VALUE_BOOL (eaptypes.h)
-description: Contains a Boolean value of an EAP method property.
+description: Contains a Boolean value of an EAP method property.helpviewer_keywords: ["EAP_METHOD_PROPERTY_VALUE_BOOL","EAP_METHOD_PROPERTY_VALUE_BOOL structure [EAPHost]","PEAP_METHOD_PROPERTY_VALUE_BOOL","PEAP_METHOD_PROPERTY_VALUE_BOOL structure pointer [EAPHost]","eaphost.eap_method_property_value_bool","eaptypes/EAP_METHOD_PROPERTY_VALUE_BOOL","eaptypes/PEAP_METHOD_PROPERTY_VALUE_BOOL"]
 old-location: eaphost\eap_method_property_value_bool.htm
 tech.root: eaphost
 ms.assetid: ff482df6-a9c9-41b3-bedf-880fee71b968

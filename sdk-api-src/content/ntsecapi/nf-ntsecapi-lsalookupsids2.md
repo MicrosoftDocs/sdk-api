@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.LsaLookupSids2
 title: LsaLookupSids2 function (ntsecapi.h)
-description: Looks up the names that correspond to an array of security identifiers (SIDs) and supports Internet provider identities. If LsaLookupSids2 cannot find a name that corresponds to a SID, the function returns the SID in character form.
+description: Looks up the names that correspond to an array of security identifiers (SIDs) and supports Internet provider identities. If LsaLookupSids2 cannot find a name that corresponds to a SID, the function returns the SID in character form.helpviewer_keywords: ["LSA_LOOKUP_DISALLOW_CONNECTED_ACCOUNT_INTERNET_SID","LSA_LOOKUP_PREFER_INTERNET_NAMES","LSA_LOOKUP_RETURN_LOCAL_NAMES","LsaLookupSids2","LsaLookupSids2 function [Security]","ntsecapi/LsaLookupSids2","security.lsalookupsids2"]
 old-location: security\lsalookupsids2.htm
 tech.root: SecMgmt
 ms.assetid: 6B30D1FF-35DC-44E8-A765-36A5761EC0CE

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsecure.IWMAuthorizer.GetCertCount
 title: IWMAuthorizer::GetCertCount (wmsecure.h)
-description: Get the number of certificates.
+description: Get the number of certificates.helpviewer_keywords: ["GetCertCount","GetCertCount method [windows Media Format]","GetCertCount method [windows Media Format]","IWMAuthorizer interface","IWMAuthorizer interface [windows Media Format]","GetCertCount method","IWMAuthorizer.GetCertCount","IWMAuthorizer::GetCertCount","wmformat.iwmauthorizer_getcertcount","wmsecure/IWMAuthorizer::GetCertCount"]
 old-location: wmformat\iwmauthorizer_getcertcount.htm
 tech.root: wmformat
 ms.assetid: afe8a924-3d2b-42e6-9700-a6075f51ff10

@@ -1,7 +1,7 @@
 ---
 UID: NE:naptypes.tagExtendedIsolationState
 title: ExtendedIsolationState (naptypes.h)
-description: Describes the extended isolation state of a connection.
+description: Describes the extended isolation state of a connection.helpviewer_keywords: ["ExtendedIsolationState","ExtendedIsolationState enumeration [NAP]","extendedIsolationStateInfected","extendedIsolationStateNoData","extendedIsolationStateTransition","extendedIsolationStateUnknown","nap.extendedisolationstate","naptypes/ExtendedIsolationState","naptypes/extendedIsolationStateInfected","naptypes/extendedIsolationStateNoData","naptypes/extendedIsolationStateTransition","naptypes/extendedIsolationStateUnknown"]
 old-location: nap\extendedisolationstate.htm
 tech.root: NAP
 ms.assetid: 1466247a-eecf-4912-810a-07cabb9c83da

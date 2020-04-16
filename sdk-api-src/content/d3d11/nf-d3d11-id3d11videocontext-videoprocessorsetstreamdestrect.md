@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamDestRect
 title: ID3D11VideoContext::VideoProcessorSetStreamDestRect (d3d11.h)
-description: Sets the destination rectangle for an input stream on the video processor.
+description: Sets the destination rectangle for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamDestRect method","ID3D11VideoContext.VideoProcessorSetStreamDestRect","ID3D11VideoContext::VideoProcessorSetStreamDestRect","VideoProcessorSetStreamDestRect","VideoProcessorSetStreamDestRect method [Media Foundation]","VideoProcessorSetStreamDestRect method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamDestRect","mf.id3d11videocontext_videoprocessorsetstreamdestrect"]
 old-location: mf\id3d11videocontext_videoprocessorsetstreamdestrect.htm
 tech.root: medfound
 ms.assetid: F3C77812-9096-4D65-9D6C-082133C873A7

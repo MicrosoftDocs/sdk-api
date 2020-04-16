@@ -1,7 +1,7 @@
 ---
 UID: NN:msime.IFECommon
 title: IFECommon (msime.h)
-description: The IFECommon interface provides IME-related services that are common for different languages.
+description: The IFECommon interface provides IME-related services that are common for different languages.helpviewer_keywords: ["IFECommon","IFECommon interface [Internationalization for Windows Applications]","IFECommon interface [Internationalization for Windows Applications]","described","intl.ifecommon","msime/IFECommon"]
 old-location: intl\ifecommon.htm
 tech.root: Intl
 ms.assetid: 9FBECA6F-F162-485D-938F-FADC2D47083E

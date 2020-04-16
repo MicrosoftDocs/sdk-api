@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.NdrStubGetBuffer
 title: NdrStubGetBuffer function (rpcproxy.h)
-description: The NdrStubGetBuffer function retrieves a buffer from the RPC channel.
+description: The NdrStubGetBuffer function retrieves a buffer from the RPC channel.helpviewer_keywords: ["NdrStubGetBuffer","NdrStubGetBuffer function [RPC]","rpc.ndrstubgetbuffer","rpcproxy/NdrStubGetBuffer"]
 old-location: rpc\ndrstubgetbuffer.htm
 tech.root: Rpc
 ms.assetid: ab877b5a-5c44-46eb-bd03-26410eccc765

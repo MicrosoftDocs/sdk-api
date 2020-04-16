@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateDeviceSourceActivate
 title: MFCreateDeviceSourceActivate function (mfidl.h)
-description: Creates an activation object that represents a hardware capture device.
+description: Creates an activation object that represents a hardware capture device.helpviewer_keywords: ["MFCreateDeviceSourceActivate","MFCreateDeviceSourceActivate function [Media Foundation]","mf.mfcreatedevicesourceactivate","mfidl/MFCreateDeviceSourceActivate"]
 old-location: mf\mfcreatedevicesourceactivate.htm
 tech.root: medfound
 ms.assetid: c52cb35a-8f5b-479e-9c08-3185c9a561f2

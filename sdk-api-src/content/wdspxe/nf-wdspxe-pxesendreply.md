@@ -1,7 +1,7 @@
 ---
 UID: NF:wdspxe.PxeSendReply
 title: PxeSendReply function (wdspxe.h)
-description: Sends a packet to a client request.
+description: Sends a packet to a client request.helpviewer_keywords: ["PxeSendReply","PxeSendReply function [Windows Deployment Services]","wds.pxesendreply","wdspxe/PxeSendReply"]
 old-location: wds\pxesendreply.htm
 tech.root: wds
 ms.assetid: b4809f0b-b8a5-45d1-b6ef-8f812379e706

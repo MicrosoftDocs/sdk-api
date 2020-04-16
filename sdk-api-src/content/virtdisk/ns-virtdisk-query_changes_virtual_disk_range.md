@@ -1,7 +1,7 @@
 ---
 UID: NS:virtdisk._QUERY_CHANGES_VIRTUAL_DISK_RANGE
 title: QUERY_CHANGES_VIRTUAL_DISK_RANGE (virtdisk.h)
-description: Identifies an area on a virtual hard disk (VHD) that has changed as tracked by resilient change tracking (RCT).
+description: Identifies an area on a virtual hard disk (VHD) that has changed as tracked by resilient change tracking (RCT).helpviewer_keywords: ["*PQUERY_CHANGES_VIRTUAL_DISK_RANGE","PQUERY_CHANGES_VIRTUAL_DISK_RANGE","PQUERY_CHANGES_VIRTUAL_DISK_RANGE structure pointer [VHD]","QUERY_CHANGES_VIRTUAL_DISK_RANGE","QUERY_CHANGES_VIRTUAL_DISK_RANGE structure [VHD]","__QUERY_CHANGES_VIRTUAL_DISK_RANGE","vdssys/PQUERY_CHANGES_VIRTUAL_DISK_RANGE","vdssys/QUERY_CHANGES_VIRTUAL_DISK_RANGE","vhd.query_changes_virtual_disk_range","virtdisk/PQUERY_CHANGES_VIRTUAL_DISK_RANGE","virtdisk/QUERY_CHANGES_VIRTUAL_DISK_RANGE"]
 old-location: vhd\query_changes_virtual_disk_range.htm
 tech.root: VStor
 ms.assetid: 9DA53F46-AE1E-425B-BA50-05DC4A327F75

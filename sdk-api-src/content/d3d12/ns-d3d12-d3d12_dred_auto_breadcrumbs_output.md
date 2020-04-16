@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
 title: D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT
-description: Contains a pointer to the head of a linked list of D3D12_AUTO_BREADCRUMB_NODE objects.
+description: Contains a pointer to the head of a linked list of D3D12_AUTO_BREADCRUMB_NODE objects.helpviewer_keywords: ["D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT","D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT structure","d3d12/D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT","direct3d12.d3d12_dred_auto_breadcrumbs_output"]
 tech.root: direct3d12
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT, D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT structure, d3d12/D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT, direct3d12.d3d12_dred_auto_breadcrumbs_output

@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemAddedToCache
 title: IOfflineFilesEvents::ItemAddedToCache (cscobj.h)
-description: Reports that an item has been added to the Offline Files cache.
+description: Reports that an item has been added to the Offline Files cache.helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemAddedToCache method","IOfflineFilesEvents.ItemAddedToCache","IOfflineFilesEvents::ItemAddedToCache","ItemAddedToCache","ItemAddedToCache method [Offline Files]","ItemAddedToCache method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemAddedToCache","of.iofflinefilesevents_itemaddedtocache"]
 old-location: of\iofflinefilesevents_itemaddedtocache.htm
 tech.root: offlinefiles
 ms.assetid: 7ab04b07-f72a-4a04-a470-4b85c21005c0

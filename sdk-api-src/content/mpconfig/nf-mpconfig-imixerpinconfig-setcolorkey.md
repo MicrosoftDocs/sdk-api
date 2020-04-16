@@ -1,7 +1,7 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetColorKey
 title: IMixerPinConfig::SetColorKey (mpconfig.h)
-description: The SetColorKey method sets the color key being used by a video stream.
+description: The SetColorKey method sets the color key being used by a video stream.helpviewer_keywords: ["IMixerPinConfig interface [DirectShow]","SetColorKey method","IMixerPinConfig.SetColorKey","IMixerPinConfig::SetColorKey","IMixerPinConfigSetColorKey","SetColorKey","SetColorKey method [DirectShow]","SetColorKey method [DirectShow]","IMixerPinConfig interface","dshow.imixerpinconfig_setcolorkey","mpconfig/IMixerPinConfig::SetColorKey"]
 old-location: dshow\imixerpinconfig_setcolorkey.htm
 tech.root: DirectShow
 ms.assetid: b2d4ffa2-0b10-4bc5-9af1-83f4ee68b35f

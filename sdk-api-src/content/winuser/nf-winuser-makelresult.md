@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.MAKELRESULT
 title: MAKELRESULT macro (winuser.h)
-description: Creates a value for use as a return value from a window procedure. The macro concatenates the specified values.
+description: Creates a value for use as a return value from a window procedure. The macro concatenates the specified values.helpviewer_keywords: ["MAKELRESULT","MAKELRESULT macro [Windows and Messages]","_win32_MAKELRESULT","_win32_makelresult_cpp","winmsg.makelresult","winui._win32_makelresult","winuser/MAKELRESULT"]
 old-location: winmsg\makelresult.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makelresult.htm

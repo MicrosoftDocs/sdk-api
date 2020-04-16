@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecNotificationQueryAsync
 title: IWbemServices::ExecNotificationQueryAsync (wbemcli.h)
-description: The IWbemServices::ExecNotificationQueryAsync method performs the same task as IWbemServices::ExecNotificationQuery except that events are supplied to the specified response handler until CancelAsyncCall is called to stop the event notification.
+description: The IWbemServices::ExecNotificationQueryAsync method performs the same task as IWbemServices::ExecNotificationQuery except that events are supplied to the specified response handler until CancelAsyncCall is called to stop the event notification.helpviewer_keywords: ["ExecNotificationQueryAsync","ExecNotificationQueryAsync method [Windows Management Instrumentation]","ExecNotificationQueryAsync method [Windows Management Instrumentation]","IWbemServices interface","IWbemServices interface [Windows Management Instrumentation]","ExecNotificationQueryAsync method","IWbemServices.ExecNotificationQueryAsync","IWbemServices::ExecNotificationQueryAsync","WBEM_FLAG_SEND_STATUS","_hmm_iwbemservices_execnotificationqueryasync","wbemcli/IWbemServices::ExecNotificationQueryAsync","wmi.iwbemservices_execnotificationqueryasync"]
 old-location: wmi\iwbemservices_execnotificationqueryasync.htm
 tech.root: WmiSdk
 ms.assetid: f26eb44a-e0c4-418b-b849-d38d85ef236a

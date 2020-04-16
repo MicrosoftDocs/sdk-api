@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathAllocCombine
 title: PathAllocCombine function (pathcch.h)
-description: Concatenates two path fragments into a single path.
+description: Concatenates two path fragments into a single path.helpviewer_keywords: ["PATHCCH_ALLOW_LONG_PATHS","PATHCCH_DO_NOT_NORMALIZE_SEGMENTS","PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH","PATHCCH_ENSURE_TRAILING_SLASH","PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS","PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS","PATHCCH_NONE","PathAllocCombine","PathAllocCombine function [Windows Shell]","pathcch/PathAllocCombine","shell.PathAllocCombine"]
 old-location: shell\PathAllocCombine.htm
 tech.root: shell
 ms.assetid: dd619138-f867-4517-bc67-a52c598efad0

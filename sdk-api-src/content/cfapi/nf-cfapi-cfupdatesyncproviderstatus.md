@@ -1,7 +1,7 @@
 ---
 UID: NF:cfapi.CfUpdateSyncProviderStatus
 title: CfUpdateSyncProviderStatus function (cfapi.h)
-description: Updates the current status of the sync provider.
+description: Updates the current status of the sync provider.helpviewer_keywords: ["CfUpdateSyncProviderStatus","CfUpdateSyncProviderStatus function","cfapi/CfUpdateSyncProviderStatus","cloudApi.cfupdatesyncproviderstatus"]
 old-location: cloudapi\cfupdatesyncproviderstatus.htm
 tech.root: cfApi
 ms.assetid: E0CB6CA2-439A-4919-95EF-B519ABBBB085

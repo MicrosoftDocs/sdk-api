@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Operation_GetIndication
 title: MI_Operation_GetIndication function (mi.h)
-description: Get the synchronous results from a subscription.
+description: Get the synchronous results from a subscription.helpviewer_keywords: ["MI_Operation_GetIndication","MI_Operation_GetIndication function [Windows Management Infrastructure (MI)]","mi/MI_Operation_GetIndication","wmi_v2.mi_operation_getindication"]
 old-location: wmi_v2\mi_operation_getindication.htm
 tech.root: wmi_v2
 ms.assetid: 3e3e8472-ea33-485b-9e86-b5ba770af95b

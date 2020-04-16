@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetTcpStatisticsEx
 title: GetTcpStatisticsEx function (iphlpapi.h)
-description: The GetTcpStatisticsEx function retrieves the Transmission Control Protocol (TCP) statistics for the current computer.
+description: The GetTcpStatisticsEx function retrieves the Transmission Control Protocol (TCP) statistics for the current computer.helpviewer_keywords: ["AF_INET","AF_INET6","GetTcpStatisticsEx","GetTcpStatisticsEx function [IP Helper]","_iphlp_gettcpstatisticsex","iphlp.gettcpstatisticsex","iphlpapi/GetTcpStatisticsEx"]
 old-location: iphlp\gettcpstatisticsex.htm
 tech.root: IpHlp
 ms.assetid: 78cfc69d-eae8-49c1-a460-6527a61f773d

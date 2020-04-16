@@ -1,7 +1,7 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioObjectForMetadataCommands
 title: ISpatialAudioObjectForMetadataCommands (spatialaudiometadata.h)
-description: Used to write metadata commands for spatial audio.
+description: Used to write metadata commands for spatial audio.helpviewer_keywords: ["ISpatialAudioObjectForMetadataCommands","ISpatialAudioObjectForMetadataCommands interface [Core Audio]","ISpatialAudioObjectForMetadataCommands interface [Core Audio]","described","coreaudio.ispatialaudioobjectformetadatacommands","spatialaudiometadata/ISpatialAudioObjectForMetadataCommands"]
 old-location: coreaudio\ispatialaudioobjectformetadatacommands.htm
 tech.root: CoreAudio
 ms.assetid: B142D5CC-7321-4F3C-804D-50E728C37D10

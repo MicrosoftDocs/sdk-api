@@ -1,7 +1,7 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataReaderInfo
 title: IWICMetadataReaderInfo (wincodecsdk.h)
-description: Exposes methods that provide basic information about the registered metadata reader.
+description: Exposes methods that provide basic information about the registered metadata reader.helpviewer_keywords: ["IWICMetadataReaderInfo","IWICMetadataReaderInfo interface [Windows Imaging Component]","IWICMetadataReaderInfo interface [Windows Imaging Component]","described","_wic_codec_iwicmetadatareaderinfo","wic._wic_codec_iwicmetadatareaderinfo","wincodecsdk/IWICMetadataReaderInfo"]
 old-location: wic\_wic_codec_iwicmetadatareaderinfo.htm
 tech.root: wic
 ms.assetid: f72d9a06-0568-4e46-a904-202aad2f8859

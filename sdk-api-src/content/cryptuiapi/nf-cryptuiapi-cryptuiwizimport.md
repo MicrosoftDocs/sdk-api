@@ -1,7 +1,7 @@
 ---
 UID: NF:cryptuiapi.CryptUIWizImport
 title: CryptUIWizImport function (cryptuiapi.h)
-description: Imports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a certificate store.
+description: Imports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a certificate store.helpviewer_keywords: ["CRYPTUI_WIZ_IGNORE_NO_UI_FLAG_FOR_CSPS","CRYPTUI_WIZ_IMPORT_ALLOW_CERT","CRYPTUI_WIZ_IMPORT_ALLOW_CRL","CRYPTUI_WIZ_IMPORT_ALLOW_CTL","CRYPTUI_WIZ_IMPORT_NO_CHANGE_DEST_STORE","CRYPTUI_WIZ_IMPORT_REMOTE_DEST_STORE","CRYPTUI_WIZ_IMPORT_TO_CURRENTUSER","CRYPTUI_WIZ_IMPORT_TO_LOCALMACHINE","CRYPTUI_WIZ_NO_UI","CRYPTUI_WIZ_NO_UI_EXCEPT_CSP","CryptUIWizImport","CryptUIWizImport function [Security]","cryptuiapi/CryptUIWizImport","security.cryptuiwizimport"]
 old-location: security\cryptuiwizimport.htm
 tech.root: SecCrypto
 ms.assetid: 6b2b9c89-229a-4626-a8b4-fe2b7cc0af86

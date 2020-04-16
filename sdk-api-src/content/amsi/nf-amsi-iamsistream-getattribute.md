@@ -1,7 +1,7 @@
 ---
 UID: NF:amsi.IAmsiStream.GetAttribute
 title: IAmsiStream::GetAttribute (amsi.h)
-description: Returns a requested attribute from the stream.
+description: Returns a requested attribute from the stream.helpviewer_keywords: ["GetAttribute","GetAttribute method [Antimalware Scan Interface]","GetAttribute method [Antimalware Scan Interface]","IAmsiStream interface","IAmsiStream interface [Antimalware Scan Interface]","GetAttribute method","IAmsiStream.GetAttribute","IAmsiStream::GetAttribute","amsi.iamsistream_getattribute","amsi/IAmsiStream::GetAttribute"]
 old-location: amsi\iamsistream_getattribute.htm
 tech.root: AMSI
 ms.assetid: 7AD74D85-1A1E-4AFD-91C1-670AC7280285

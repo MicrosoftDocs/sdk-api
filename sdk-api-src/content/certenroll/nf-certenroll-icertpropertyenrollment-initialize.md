@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.Initialize
 title: ICertPropertyEnrollment::Initialize (certenroll.h)
-description: Initializes the property from the certificate request ID, the certification authority (CA) configuration string, and an optional certificate display name.
+description: Initializes the property from the certificate request ID, the certification authority (CA) configuration string, and an optional certificate display name.helpviewer_keywords: ["ICertPropertyEnrollment interface [Security]","Initialize method","ICertPropertyEnrollment.Initialize","ICertPropertyEnrollment::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICertPropertyEnrollment interface","certenroll/ICertPropertyEnrollment::Initialize","security.icertpropertyenrollment_initialize_method"]
 old-location: security\icertpropertyenrollment_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 47e9b11f-3f23-4e2f-817a-4b6311e3d710

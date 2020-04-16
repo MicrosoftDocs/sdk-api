@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquerycondition.ICondition.Clone
 title: ICondition::Clone (structuredquerycondition.h)
-description: Creates a deep copy of this ICondition object.
+description: Creates a deep copy of this ICondition object.helpviewer_keywords: ["Clone","Clone method [search]","Clone method [search]","ICondition interface","ICondition interface [search]","Clone method","ICondition.Clone","ICondition::Clone","_search_ICondition_Clone","search._search_ICondition_Clone","structuredquerycondition/ICondition::Clone"]
 old-location: search\_search_ICondition_Clone.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\clone.htm

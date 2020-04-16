@@ -1,7 +1,7 @@
 ---
 UID: NE:mfidl._MFNETSOURCE_CACHE_STATE
 title: MFNETSOURCE_CACHE_STATE (mfidl.h)
-description: Defines the status of the cache for a media file or entry.
+description: Defines the status of the cache for a media file or entry.helpviewer_keywords: ["MFNETSOURCE_CACHE_ACTIVE_COMPLETE","MFNETSOURCE_CACHE_ACTIVE_WRITING","MFNETSOURCE_CACHE_STATE","MFNETSOURCE_CACHE_STATE enumeration [Media Foundation]","MFNETSOURCE_CACHE_UNAVAILABLE","fc7f2f66-02a3-455a-820b-304a53494ef1","mf.mfnetsource_cache_state","mfidl/MFNETSOURCE_CACHE_ACTIVE_COMPLETE","mfidl/MFNETSOURCE_CACHE_ACTIVE_WRITING","mfidl/MFNETSOURCE_CACHE_STATE","mfidl/MFNETSOURCE_CACHE_UNAVAILABLE"]
 old-location: mf\mfnetsource_cache_state.htm
 tech.root: medfound
 ms.assetid: fc7f2f66-02a3-455a-820b-304a53494ef1

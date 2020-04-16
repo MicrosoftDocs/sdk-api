@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetAlignment
 title: ICreateTypeInfo::SetAlignment (oaidl.h)
-description: Specifies the data alignment for an item of TYPEKIND=TKIND_RECORD.
+description: Specifies the data alignment for an item of TYPEKIND=TKIND_RECORD.helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetAlignment method","ICreateTypeInfo.SetAlignment","ICreateTypeInfo::SetAlignment","SetAlignment","SetAlignment method [Automation]","SetAlignment method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetAlignment","automat.icreatetypeinfo_setalignment","oaidl/ICreateTypeInfo::SetAlignment"]
 old-location: automat\icreatetypeinfo_setalignment.htm
 tech.root: automat
 ms.assetid: db21ab80-ea2f-4f9e-a43c-0d202e235516

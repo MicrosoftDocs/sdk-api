@@ -1,7 +1,7 @@
 ---
 UID: NC:mswsock.LPFN_RIONOTIFY
 title: LPFN_RIONOTIFY
-description: Registers the method to use for notification behavior with an I/O completion queue for use with the Winsock registered I/O extensions.
+description: Registers the method to use for notification behavior with an I/O completion queue for use with the Winsock registered I/O extensions.helpviewer_keywords: ["LPFN_RIONOTIFY"]
 old-location: 
 tech.root: WinSock
 ms.assetid: 02264DAC-A3A1-4F7D-9728-17BE7F10E859

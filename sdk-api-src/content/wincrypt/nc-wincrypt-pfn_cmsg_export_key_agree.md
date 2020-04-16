@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CMSG_EXPORT_KEY_AGREE
 title: PFN_CMSG_EXPORT_KEY_AGREE (wincrypt.h)
-description: Encrypts and exports the content encryption key for a key agreement recipient of an enveloped message.
+description: Encrypts and exports the content encryption key for a key agreement recipient of an enveloped message.helpviewer_keywords: ["PFN_CMSG_EXPORT_KEY_AGREE","PFN_CMSG_EXPORT_KEY_AGREE callback","PFN_CMSG_EXPORT_KEY_AGREE callback function [Security]","security.pfn_cmsg_export_key_agree","wincrypt/PFN_CMSG_EXPORT_KEY_AGREE"]
 old-location: security\pfn_cmsg_export_key_agree.htm
 tech.root: SecCrypto
 ms.assetid: 5283f3be-7451-4896-82a5-bcfe63db9344

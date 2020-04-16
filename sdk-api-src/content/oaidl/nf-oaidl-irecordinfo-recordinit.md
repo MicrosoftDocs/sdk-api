@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordInit
 title: IRecordInfo::RecordInit (oaidl.h)
-description: Initializes a new instance of a record.
+description: Initializes a new instance of a record.helpviewer_keywords: ["IRecordInfo interface [Automation]","RecordInit method","IRecordInfo.RecordInit","IRecordInfo::RecordInit","RecordInit","RecordInit method [Automation]","RecordInit method [Automation]","IRecordInfo interface","_oa96_IRecordInfo_RecordInit","automat.irecordinfo_recordinit","oaidl/IRecordInfo::RecordInit"]
 old-location: automat\irecordinfo_recordinit.htm
 tech.root: automat
 ms.assetid: e10355b3-b751-487d-b7ce-77a39803c38c

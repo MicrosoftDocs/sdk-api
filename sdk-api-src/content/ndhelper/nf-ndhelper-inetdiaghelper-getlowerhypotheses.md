@@ -1,7 +1,7 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetLowerHypotheses
 title: INetDiagHelper::GetLowerHypotheses (ndhelper.h)
-description: Generate hypotheses for possible causes of low health in the local components.
+description: Generate hypotheses for possible causes of low health in the local components.helpviewer_keywords: ["GetLowerHypotheses","GetLowerHypotheses method [NDF]","GetLowerHypotheses method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","GetLowerHypotheses method","INetDiagHelper.GetLowerHypotheses","INetDiagHelper::GetLowerHypotheses","ndf.inetdiaghelpe_getlowerhypotheses","ndhelper/INetDiagHelper::GetLowerHypotheses"]
 old-location: ndf\inetdiaghelpe_getlowerhypotheses.htm
 tech.root: NDF
 ms.assetid: d17f5241-6efb-45a7-b355-8343e48b3261

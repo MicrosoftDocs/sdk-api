@@ -1,7 +1,7 @@
 ---
 UID: NF:lmerrlog.NetErrorLogRead
 title: NetErrorLogRead function (lmerrlog.h)
-description: The NetErrorLogRead function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.
+description: The NetErrorLogRead function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.helpviewer_keywords: ["NetErrorLogRead","NetErrorLogRead function [Network Management]","_win32_neterrorlogread","lmerrlog/NetErrorLogRead","netmgmt.neterrorlogread"]
 old-location: netmgmt\neterrorlogread.htm
 tech.root: NetMgmt
 ms.assetid: 90f86d91-e19e-4386-b263-5479680bc6f7

@@ -1,7 +1,7 @@
 ---
 UID: NS:usbuser._USB_UNICODE_NAME
 title: USB_UNICODE_NAME (usbuser.h)
-description: The USB_UNICODE_NAME structure contains a Unicode string that specifies a symbolic link name.
+description: The USB_UNICODE_NAME structure contains a Unicode string that specifies a symbolic link name.helpviewer_keywords: ["*PUSB_UNICODE_NAME","PUSB_UNICODE_NAME","PUSB_UNICODE_NAME structure pointer [Buses]","USB_UNICODE_NAME","USB_UNICODE_NAME structure [Buses]","buses.usb_unicode_name","usbstrct_6c02ad3d-6b23-469c-86ea-90edf02c1ad8.xml","usbuser/PUSB_UNICODE_NAME","usbuser/USB_UNICODE_NAME"]
 old-location: buses\usb_unicode_name.htm
 tech.root: usbref
 ms.assetid: d388332c-2f7c-410f-88f4-d0e56fed7a99

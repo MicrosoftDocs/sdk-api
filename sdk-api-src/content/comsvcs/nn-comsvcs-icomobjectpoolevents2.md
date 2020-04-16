@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IComObjectPoolEvents2
 title: IComObjectPoolEvents2 (comsvcs.h)
-description: Notifies the subscriber when a new object is created for or removed from the pool.
+description: Notifies the subscriber when a new object is created for or removed from the pool.helpviewer_keywords: ["IComObjectPoolEvents2","IComObjectPoolEvents2 interface [COM+]","IComObjectPoolEvents2 interface [COM+]","described","_dtc_IComObjectPoolEvents2","comsvcs/IComObjectPoolEvents2","cos.icomobjectpoolevents2"]
 old-location: cos\icomobjectpoolevents2.htm
 tech.root: cossdk
 ms.assetid: f1891d8b-e3d0-4378-ac67-c2c0ddd65602

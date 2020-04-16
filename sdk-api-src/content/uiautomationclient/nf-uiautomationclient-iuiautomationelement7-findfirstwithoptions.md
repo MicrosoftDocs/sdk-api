@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.FindFirstWithOptions
 title: IUIAutomationElement7::FindFirstWithOptions (uiautomationclient.h)
-description: Finds the first matching element in the specified order.
+description: Finds the first matching element in the specified order.helpviewer_keywords: ["FindFirstWithOptions","FindFirstWithOptions method [Windows Accessibility]","FindFirstWithOptions method [Windows Accessibility]","IUIAutomationElement7 interface","IUIAutomationElement7 interface [Windows Accessibility]","FindFirstWithOptions method","IUIAutomationElement7.FindFirstWithOptions","IUIAutomationElement7::FindFirstWithOptions","uiautomationclient/IUIAutomationElement7::FindFirstWithOptions","winauto.uiauto_IUIAutomationElement7_FindFirstWithOptions","winauto.uiauto_iuiautomationelement_findfirstwithoptions"]
 old-location: winauto\uiauto_IUIAutomationElement7_FindFirstWithOptions.htm
 tech.root: WinAuto
 ms.assetid: D6A872E7-290D-45E7-B4FD-7201A4E990A2

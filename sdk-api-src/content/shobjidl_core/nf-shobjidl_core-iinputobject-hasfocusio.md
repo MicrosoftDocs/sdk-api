@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IInputObject.HasFocusIO
 title: IInputObject::HasFocusIO (shobjidl_core.h)
-description: Determines if one of the object's windows has the keyboard focus.
+description: Determines if one of the object's windows has the keyboard focus.helpviewer_keywords: ["HasFocusIO","HasFocusIO method [Windows Shell]","HasFocusIO method [Windows Shell]","IInputObject interface","IInputObject interface [Windows Shell]","HasFocusIO method","IInputObject.HasFocusIO","IInputObject::HasFocusIO","_win32_IInputObject_HasFocusIO","shell.IInputObject_HasFocusIO","shobjidl_core/IInputObject::HasFocusIO"]
 old-location: shell\IInputObject_HasFocusIO.htm
 tech.root: shell
 ms.assetid: f22f6b54-9d71-4451-81bf-6e3fd01ab36a

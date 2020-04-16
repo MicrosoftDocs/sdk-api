@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.FlatSB_GetScrollRange
 title: FlatSB_GetScrollRange function (commctrl.h)
-description: Gets the scroll range for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard GetScrollRange function.
+description: Gets the scroll range for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard GetScrollRange function.helpviewer_keywords: ["FlatSB_GetScrollRange","FlatSB_GetScrollRange function [Windows Controls]","SB_HORZ","SB_VERT","_win32_FlatSB_GetScrollRange","_win32_FlatSB_GetScrollRange_cpp","commctrl/FlatSB_GetScrollRange","controls.FlatSB_GetScrollRange","controls._win32_FlatSB_GetScrollRange"]
 old-location: controls\FlatSB_GetScrollRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollrange.htm

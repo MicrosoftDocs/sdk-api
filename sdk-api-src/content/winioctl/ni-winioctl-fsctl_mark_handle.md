@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_MARK_HANDLE
 title: FSCTL_MARK_HANDLE
-description: Marks a specified file or directory and its change journal record with information about changes to that file or directory.
+description: Marks a specified file or directory and its change journal record with information about changes to that file or directory.helpviewer_keywords: ["FSCTL_MARK_HANDLE","FSCTL_MARK_HANDLE control","FSCTL_MARK_HANDLE control code [Files]","_win32_fsctl_mark_handle","base.fsctl_mark_handle","fs.fsctl_mark_handle","winioctl/FSCTL_MARK_HANDLE"]
 old-location: fs\fsctl_mark_handle.htm
 tech.root: FileIO
 ms.assetid: c96b49d8-12f3-4281-9f9f-6621769359f0

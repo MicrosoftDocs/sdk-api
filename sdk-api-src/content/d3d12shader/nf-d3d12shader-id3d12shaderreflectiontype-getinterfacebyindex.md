@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetInterfaceByIndex
 title: ID3D12ShaderReflectionType::GetInterfaceByIndex (d3d12shader.h)
-description: Gets an interface by index.
+description: Gets an interface by index.helpviewer_keywords: ["GetInterfaceByIndex","GetInterfaceByIndex method","GetInterfaceByIndex method","ID3D12ShaderReflectionType interface","ID3D12ShaderReflectionType interface","GetInterfaceByIndex method","ID3D12ShaderReflectionType.GetInterfaceByIndex","ID3D12ShaderReflectionType::GetInterfaceByIndex","d3d12shader/ID3D12ShaderReflectionType::GetInterfaceByIndex","direct3d12.id3d12shaderreflectiontype_getinterfacebyindex"]
 old-location: direct3d12\id3d12shaderreflectiontype_getinterfacebyindex.htm
 tech.root: direct3d12
 ms.assetid: 1B9DABC6-65CA-47E3-95BF-77F29AC9D751

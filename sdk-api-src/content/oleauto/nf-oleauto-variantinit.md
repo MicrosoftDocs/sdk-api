@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VariantInit
 title: VariantInit function (oleauto.h)
-description: Initializes a variant.
+description: Initializes a variant.helpviewer_keywords: ["VariantInit","VariantInit function [Automation]","_oa96_VariantInit","automat.variantinit","oleauto/VariantInit"]
 old-location: automat\variantinit.htm
 tech.root: automat
 ms.assetid: 96aeb671-5528-4d3c-8e70-313716550b42

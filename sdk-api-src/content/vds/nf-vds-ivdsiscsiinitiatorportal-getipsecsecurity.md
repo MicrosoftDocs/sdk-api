@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.GetIpsecSecurity
 title: IVdsIscsiInitiatorPortal::GetIpsecSecurity (vds.h)
-description: Not supported.This method is reserved for future use.
+description: Not supported.This method is reserved for future use.helpviewer_keywords: ["GetIpsecSecurity","GetIpsecSecurity method [VDS]","GetIpsecSecurity method [VDS]","IVdsIscsiInitiatorPortal interface","IVdsIscsiInitiatorPortal interface [VDS]","GetIpsecSecurity method","IVdsIscsiInitiatorPortal.GetIpsecSecurity","IVdsIscsiInitiatorPortal::GetIpsecSecurity","base.ivdsiscsiinitiatorportal_getipsecsecurity","vds/IVdsIscsiInitiatorPortal::GetIpsecSecurity"]
 old-location: base\ivdsiscsiinitiatorportal_getipsecsecurity.htm
 tech.root: VDS
 ms.assetid: 755ff0fb-c61f-4427-b7dc-a91dd203fb64

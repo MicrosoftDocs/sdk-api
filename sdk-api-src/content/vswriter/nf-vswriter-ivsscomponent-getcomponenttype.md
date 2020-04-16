@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssComponent.GetComponentType
 title: IVssComponent::GetComponentType (vswriter.h)
-description: The GetComponentType method returns the type of this component in terms of the VSS_COMPONENT_TYPE enumeration.
+description: The GetComponentType method returns the type of this component in terms of the VSS_COMPONENT_TYPE enumeration.helpviewer_keywords: ["GetComponentType","GetComponentType method [VSS]","GetComponentType method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetComponentType method","IVssComponent.GetComponentType","IVssComponent::GetComponentType","_win32_ivsscomponent_getcomponenttype","base.ivsscomponent_getcomponenttype","vswriter/IVssComponent::GetComponentType"]
 old-location: base\ivsscomponent_getcomponenttype.htm
 tech.root: VSS
 ms.assetid: 89675df6-dcfd-4167-aa6f-5c88e619ef1c

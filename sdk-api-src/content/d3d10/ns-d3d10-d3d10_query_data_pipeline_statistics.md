@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_QUERY_DATA_PIPELINE_STATISTICS
 title: D3D10_QUERY_DATA_PIPELINE_STATISTICS (d3d10.h)
-description: Query information about graphics-pipeline activity in between calls to ID3D10Asynchronous::Begin and ID3D10Asynchronous::End.
+description: Query information about graphics-pipeline activity in between calls to ID3D10Asynchronous::Begin and ID3D10Asynchronous::End.helpviewer_keywords: ["0f1e36bb-cb67-6e39-ddb2-784ed615c5bb","D3D10_QUERY_DATA_PIPELINE_STATISTICS","D3D10_QUERY_DATA_PIPELINE_STATISTICS structure [Direct3D 10]","d3d10/D3D10_QUERY_DATA_PIPELINE_STATISTICS","direct3d10.d3d10_query_data_pipeline_statistics"]
 old-location: direct3d10\d3d10_query_data_pipeline_statistics.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_data_pipeline_statistics.htm

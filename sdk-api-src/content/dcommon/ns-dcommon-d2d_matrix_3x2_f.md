@@ -1,7 +1,7 @@
 ---
 UID: NS:dcommon.D2D_MATRIX_3X2_F
 title: D2D_MATRIX_3X2_F (dcommon.h)
-description: Represents a 3-by-2 matrix.
+description: Represents a 3-by-2 matrix.helpviewer_keywords: ["D2D1_MATRIX_3X2_F","D2D_MATRIX_3X2_F","D2D_MATRIX_3X2_F structure [Direct2D]","dcommon/D2D_MATRIX_3X2_F","direct2d.D2D_MATRIX_3X2_F"]
 old-location: direct2d\D2D_MATRIX_3X2_F.htm
 tech.root: Direct2D
 ms.assetid: c8a54bad-4376-479b-8529-1e407623e473

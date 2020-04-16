@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_SignerCertificates
 title: IX509CertificateRequestCmc::get_SignerCertificates (certenroll.h)
-description: Retrieves a collection of certificates used to sign the request.
+description: Retrieves a collection of certificates used to sign the request.helpviewer_keywords: ["IX509CertificateRequestCmc interface [Security]","SignerCertificates property","IX509CertificateRequestCmc.SignerCertificates","IX509CertificateRequestCmc.get_SignerCertificates","IX509CertificateRequestCmc::SignerCertificates","IX509CertificateRequestCmc::get_SignerCertificates","SignerCertificates property [Security]","SignerCertificates property [Security]","IX509CertificateRequestCmc interface","certenroll/IX509CertificateRequestCmc::SignerCertificates","certenroll/IX509CertificateRequestCmc::get_SignerCertificates","get_SignerCertificates","security.ix509certificaterequestcmc_signercertificates_property"]
 old-location: security\ix509certificaterequestcmc_signercertificates_property.htm
 tech.root: seccertenroll
 ms.assetid: 0b963fe2-32bd-4f99-9d4f-b17cb2d65909

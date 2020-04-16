@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IFont.get_hFont
 title: IFont::get_hFont (ocidl.h)
-description: Retrieves a handle to the font described by this font object.
+description: Retrieves a handle to the font described by this font object.helpviewer_keywords: ["IFont interface [COM]","get_hFont method","IFont.get_hFont","IFont::get_hFont","_ctrl_ifont_get_hfont","com.ifont_get_hfont","get_hFont","get_hFont method [COM]","get_hFont method [COM]","IFont interface","ocidl/IFont::get_hFont"]
 old-location: com\ifont_get_hfont.htm
 tech.root: com
 ms.assetid: 19bfd78a-0e81-45c3-a3b8-bc893669e9f5

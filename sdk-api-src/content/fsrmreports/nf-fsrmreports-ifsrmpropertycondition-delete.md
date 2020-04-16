@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.Delete
 title: IFsrmPropertyCondition::Delete (fsrmreports.h)
-description: Removes this property condition from the collection of property conditions specified for the file management job.
+description: Removes this property condition from the collection of property conditions specified for the file management job.helpviewer_keywords: ["Delete","Delete method [File Server Resource Manager]","Delete method [File Server Resource Manager]","IFsrmPropertyCondition interface","IFsrmPropertyCondition interface [File Server Resource Manager]","Delete method","IFsrmPropertyCondition.Delete","IFsrmPropertyCondition::Delete","fs.ifsrmpropertycondition_delete","fsrm.ifsrmpropertycondition_delete","fsrmreports/IFsrmPropertyCondition::Delete"]
 old-location: fsrm\ifsrmpropertycondition_delete.htm
 tech.root: fsrm
 ms.assetid: 1d177c1c-e36e-4e69-868b-ade55e2378aa

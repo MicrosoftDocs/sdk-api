@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmEnableComposition
 title: DwmEnableComposition function (dwmapi.h)
-description: Enables or disables Desktop Window Manager (DWM) composition.
+description: Enables or disables Desktop Window Manager (DWM) composition.helpviewer_keywords: ["DwmEnableComposition","DwmEnableComposition function [Desktop Window Manager]","_udwm_dwmenablecomposition","_udwm_dwmenablecomposition_cpp","dwm.dwmenablecomposition","dwmapi/DwmEnableComposition","winui._udwm_dwmenablecomposition"]
 old-location: dwm\dwmenablecomposition.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmenablecomposition.htm

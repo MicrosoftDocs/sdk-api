@@ -1,7 +1,7 @@
 ---
 UID: NN:eventsys.IPublisherFilter
 title: IPublisherFilter (eventsys.h)
-description: Acts as a callback interface so that event publishers can control which subscribers receive event notifications or the order in which subscribers are notified.
+description: Acts as a callback interface so that event publishers can control which subscribers receive event notifications or the order in which subscribers are notified.helpviewer_keywords: ["IPublisherFilter","IPublisherFilter interface [COM+]","IPublisherFilter interface [COM+]","described","_cos_IPublisherFilter","cos.ipublisherfilter","eventsys/IPublisherFilter"]
 old-location: cos\ipublisherfilter.htm
 tech.root: cossdk
 ms.assetid: affc0af4-36f8-4479-8685-f91c29111d76

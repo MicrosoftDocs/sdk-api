@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.LockBits
 title: Bitmap::LockBits (gdiplusheaders.h)
-description: The Bitmap::LockBits method locks a rectangular portion of this bitmap and provides a temporary buffer that you can use to read or write pixel data in a specified format.
+description: The Bitmap::LockBits method locks a rectangular portion of this bitmap and provides a temporary buffer that you can use to read or write pixel data in a specified format.helpviewer_keywords: ["Bitmap class [GDI+]","LockBits method","Bitmap.LockBits","Bitmap::LockBits","LockBits","LockBits method [GDI+]","LockBits method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBitmapData_","gdiplus._gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBitmapData_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_LockBits_rect_flags_format_lockedBitmapData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\lockbits.htm

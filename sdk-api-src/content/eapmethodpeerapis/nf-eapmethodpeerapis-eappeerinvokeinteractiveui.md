@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerInvokeInteractiveUI
 title: EapPeerInvokeInteractiveUI function (eapmethodpeerapis.h)
-description: Raises a custom interactive user interface dialog for the EAP method on the client.
+description: Raises a custom interactive user interface dialog for the EAP method on the client.helpviewer_keywords: ["EapPeerInvokeInteractiveUI","EapPeerInvokeInteractiveUI function [EAPHost]","eaphost.eappeerinvokeinteractiveui","eapmethodpeerapis/EapPeerInvokeInteractiveUI"]
 old-location: eaphost\eappeerinvokeinteractiveui.htm
 tech.root: eaphost
 ms.assetid: 16301c49-4415-4ebe-abdd-a03183db5f20

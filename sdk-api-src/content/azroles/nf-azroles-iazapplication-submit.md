@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.Submit
 title: IAzApplication::Submit (azroles.h)
-description: Persists changes made to the IAzApplication object.
+description: Persists changes made to the IAzApplication object.helpviewer_keywords: ["AzApplication object [Security]","Submit method","IAzApplication interface [Security]","Submit method","IAzApplication.Submit","IAzApplication::Submit","Submit","Submit method [Security]","Submit method [Security]","AzApplication object","Submit method [Security]","IAzApplication interface","azroles/IAzApplication::Submit","security.iazapplication_submit"]
 old-location: security\iazapplication_submit.htm
 tech.root: SecAuthZ
 ms.assetid: d00d55a1-884f-46c2-b80b-f90ce8f5c648

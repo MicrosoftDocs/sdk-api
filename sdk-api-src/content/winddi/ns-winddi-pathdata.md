@@ -1,7 +1,7 @@
 ---
 UID: NS:winddi._PATHDATA
 title: PATHDATA (winddi.h)
-description: The PATHDATA structure describes all or part of a subpath.
+description: The PATHDATA structure describes all or part of a subpath.helpviewer_keywords: ["*PPATHDATA","PATHDATA","PATHDATA structure [Display Devices]","PPATHDATA","PPATHDATA structure pointer [Display Devices]","display.pathdata","grstrcts_43da3a1c-2330-4cdf-81d6-aefa9d61eda3.xml","winddi/PATHDATA","winddi/PPATHDATA"]
 old-location: display\pathdata.htm
 tech.root: display
 ms.assetid: ba86d245-1ec2-42aa-9502-256981109700

@@ -1,7 +1,7 @@
 ---
 UID: NE:minidumpapiset._MODULE_WRITE_FLAGS
 title: MODULE_WRITE_FLAGS (minidumpapiset.h)
-description: Identifies the type of module information that will be written to the minidump file by the MiniDumpWriteDump function.
+description: Identifies the type of module information that will be written to the minidump file by the MiniDumpWriteDump function.helpviewer_keywords: ["MODULE_WRITE_FLAGS","MODULE_WRITE_FLAGS enumeration","ModuleReferencedByMemory","ModuleWriteCodeSegs","ModuleWriteCvRecord","ModuleWriteDataSeg","ModuleWriteMiscRecord","ModuleWriteModule","ModuleWriteTlsData","_win32_module_write_flags","base.module_write_flags","minidumpapiset/MODULE_WRITE_FLAGS","minidumpapiset/ModuleReferencedByMemory","minidumpapiset/ModuleWriteCodeSegs","minidumpapiset/ModuleWriteCvRecord","minidumpapiset/ModuleWriteDataSeg","minidumpapiset/ModuleWriteMiscRecord","minidumpapiset/ModuleWriteModule","minidumpapiset/ModuleWriteTlsData"]
 old-location: base\module_write_flags.htm
 tech.root: Debug
 ms.assetid: f074edb2-2cd7-44f6-994b-c649201c1e9d

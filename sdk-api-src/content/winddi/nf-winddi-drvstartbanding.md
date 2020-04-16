@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvStartBanding
 title: DrvStartBanding function (winddi.h)
-description: The DrvStartBanding function is called by GDI when it is ready to start sending bands of a physical page to the driver for rendering.
+description: The DrvStartBanding function is called by GDI when it is ready to start sending bands of a physical page to the driver for rendering.helpviewer_keywords: ["DrvStartBanding","DrvStartBanding function [Display Devices]","ddifncs_d0cd5c63-cf46-472a-be6c-8d9dd124a2b2.xml","display.drvstartbanding","winddi/DrvStartBanding"]
 old-location: display\drvstartbanding.htm
 tech.root: display
 ms.assetid: c9006dd1-055b-4fb0-92e8-c7b6bc294941

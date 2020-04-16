@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_INFO_ARRAY
 title: DHCP_SUBNET_ELEMENT_INFO_ARRAY (dhcpsapi.h)
-description: Defines an array of subnet element data.
+description: Defines an array of subnet element data.helpviewer_keywords: ["*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY","DHCP_SUBNET_ELEMENT_INFO_ARRAY","DHCP_SUBNET_ELEMENT_INFO_ARRAY structure [DHCP]","LPDHCP_SUBNET_ELEMENT_INFO_ARRAY","LPDHCP_SUBNET_ELEMENT_INFO_ARRAY structure pointer [DHCP]","dhcp.dhcp_subnet_element_info_array","dhcpsapi/LPDHCP_SUBNET_ELEMENT_INFO_ARRAY","dhcpsapi/_DHCP_SUBNET_ELEMENT_INFO_ARRAY"]
 old-location: dhcp\dhcp_subnet_element_info_array.htm
 tech.root: DHCP
 ms.assetid: 50fbcae7-ea0c-4b46-a042-d463ab496e12

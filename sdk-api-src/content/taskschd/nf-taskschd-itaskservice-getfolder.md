@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskService.GetFolder
 title: ITaskService::GetFolder (taskschd.h)
-description: Gets a folder of registered tasks.
+description: Gets a folder of registered tasks.helpviewer_keywords: ["GetFolder","GetFolder method [Task Scheduler]","GetFolder method [Task Scheduler]","ITaskService interface","ITaskService interface [Task Scheduler]","GetFolder method","ITaskService.GetFolder","ITaskService::GetFolder","taskschd.itaskservice_getfolder","taskschd/ITaskService::GetFolder"]
 old-location: taskschd\itaskservice_getfolder.htm
 tech.root: taskschd
 ms.assetid: 144b070f-43e9-40d6-8461-832abc7facd3

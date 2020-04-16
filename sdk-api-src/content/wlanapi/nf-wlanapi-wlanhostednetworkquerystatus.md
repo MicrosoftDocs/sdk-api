@@ -1,7 +1,7 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkQueryStatus
 title: WlanHostedNetworkQueryStatus function (wlanapi.h)
-description: Queries the current status of the wireless Hosted Network.
+description: Queries the current status of the wireless Hosted Network.helpviewer_keywords: ["WlanHostedNetworkQueryStatus","WlanHostedNetworkQueryStatus function [NativeWIFI]","nwifi.wlanhostednetworkquerystatus","wlanapi/WlanHostedNetworkQueryStatus"]
 old-location: nwifi\wlanhostednetworkquerystatus.htm
 tech.root: NativeWiFi
 ms.assetid: 896cff65-74ec-41d5-89e3-95fa85fd54cd

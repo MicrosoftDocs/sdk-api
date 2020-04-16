@@ -1,7 +1,7 @@
 ---
 UID: NN:wmlss.IWindowsMediaLibrarySharingDeviceProperty
 title: IWindowsMediaLibrarySharingDeviceProperty (wmlss.h)
-description: The IWindowsMediaLibrarySharingDeviceProperty interface defines methods that provide access to the name and value of an individual property of a media device.
+description: The IWindowsMediaLibrarySharingDeviceProperty interface defines methods that provide access to the name and value of an individual property of a media device.helpviewer_keywords: ["IWindowsMediaLibrarySharingDeviceProperty","IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services]","described","wmlss.IWindowsMediaLibrarySharingDevicePropertyInterface","wmlss/IWindowsMediaLibrarySharingDeviceProperty"]
 old-location: wmlss\IWindowsMediaLibrarySharingDevicePropertyInterface.htm
 tech.root: WMLSS
 ms.assetid: 7b76cf66-0096-4b63-a30c-2df7d1a14527

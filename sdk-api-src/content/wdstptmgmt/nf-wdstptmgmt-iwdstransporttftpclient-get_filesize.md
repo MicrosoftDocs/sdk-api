@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_FileSize
 title: IWdsTransportTftpClient::get_FileSize (wdstptmgmt.h)
-description: Receives the size in bytes of the file being transferred.
+description: Receives the size in bytes of the file being transferred.helpviewer_keywords: ["FileSize property [Windows Deployment Services]","FileSize property [Windows Deployment Services]","IWdsTransportTftpClient interface","IWdsTransportTftpClient interface [Windows Deployment Services]","FileSize property","IWdsTransportTftpClient.FileSize","IWdsTransportTftpClient.get_FileSize","IWdsTransportTftpClient::FileSize","IWdsTransportTftpClient::get_FileSize","get_FileSize","wds.iwdstransporttftpclient_filesize","wdstptmgmt/IWdsTransportTftpClient::FileSize","wdstptmgmt/IWdsTransportTftpClient::get_FileSize"]
 old-location: wds\iwdstransporttftpclient_filesize.htm
 tech.root: wds
 ms.assetid: 1F9E948E-BE0B-4B7C-8693-5B01D1B4098F

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11shader.ID3D11LinkingNode
 title: ID3D11LinkingNode (d3d11shader.h)
-description: A linking-node interface is used for shader linking.
+description: A linking-node interface is used for shader linking.helpviewer_keywords: ["ID3D11LinkingNode","ID3D11LinkingNode interface [Direct3D 11]","ID3D11LinkingNode interface [Direct3D 11]","described","d3d11shader/ID3D11LinkingNode","direct3d11.id3d11linkingnode"]
 old-location: direct3d11\id3d11linkingnode.htm
 tech.root: direct3d11
 ms.assetid: 533D2DA8-107A-48B1-928F-5788DC9CF706

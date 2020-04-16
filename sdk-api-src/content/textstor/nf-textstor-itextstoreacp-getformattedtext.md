@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetFormattedText
 title: ITextStoreACP::GetFormattedText (textstor.h)
-description: The ITextStoreACP::GetFormattedText method returns formatted text data about a specified text string. The caller must have a read/write lock on the document before calling this method.
+description: The ITextStoreACP::GetFormattedText method returns formatted text data about a specified text string. The caller must have a read/write lock on the document before calling this method.helpviewer_keywords: ["GetFormattedText","GetFormattedText method [Text Services Framework]","GetFormattedText method [Text Services Framework]","ITextStoreACP interface","ITextStoreACP interface [Text Services Framework]","GetFormattedText method","ITextStoreACP.GetFormattedText","ITextStoreACP::GetFormattedText","_tsf_itextstoreacp_getformattedtext_ref","textstor/ITextStoreACP::GetFormattedText","tsf.itextstoreacp_getformattedtext"]
 old-location: tsf\itextstoreacp_getformattedtext.htm
 tech.root: TSF
 ms.assetid: 1c4e6f8d-d7c6-455d-8efe-7da8dfdd9c4b

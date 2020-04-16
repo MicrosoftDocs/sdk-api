@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Open
 title: IMDSPObject::Open (mswmdm.h)
-description: The Open method opens the associated object and prepares it for Read or Write operations. This operation is valid only if the storage object represents a file.
+description: The Open method opens the associated object and prepares it for Read or Write operations. This operation is valid only if the storage object represents a file.helpviewer_keywords: ["IMDSPObject interface [windows Media Device Manager]","Open method","IMDSPObject.Open","IMDSPObject::Open","IMDSPObjectOpen","Open","Open method [windows Media Device Manager]","Open method [windows Media Device Manager]","IMDSPObject interface","mswmdm/IMDSPObject::Open","wmdm.imdspobject_open"]
 old-location: wmdm\imdspobject_open.htm
 tech.root: WMDM
 ms.assetid: 9e54bcbd-4f14-49e0-8211-2f79f024c80a

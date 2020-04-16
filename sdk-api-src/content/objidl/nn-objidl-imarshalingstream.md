@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IMarshalingStream
 title: IMarshalingStream (objidl.h)
-description: Provides additional information about the marshaling context to custom-marshaled objects and unmarshalers.
+description: Provides additional information about the marshaling context to custom-marshaled objects and unmarshalers.helpviewer_keywords: ["IMarshalingStream","IMarshalingStream interface [COM]","IMarshalingStream interface [COM]","described","com.imarshalingstream","objidl/IMarshalingStream"]
 old-location: com\imarshalingstream.htm
 tech.root: com
 ms.assetid: 7C4A3982-3623-4F1F-929C-6D0503700450

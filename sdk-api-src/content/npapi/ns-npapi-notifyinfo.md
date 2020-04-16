@@ -1,7 +1,7 @@
 ---
 UID: NS:npapi._NOTIFYINFO
 title: NOTIFYINFO (npapi.h)
-description: The NOTIFYINFO structure contains status information about a network connect or disconnect operation. It is used by the AddConnectNotify and CancelConnectNotify functions.
+description: The NOTIFYINFO structure contains status information about a network connect or disconnect operation. It is used by the AddConnectNotify and CancelConnectNotify functions.helpviewer_keywords: ["*LPNOTIFYINFO","LPNOTIFYINFO","LPNOTIFYINFO structure pointer [Security]","NOTIFYINFO","NOTIFYINFO structure [Security]","_mnp_notifyinfo","npapi/LPNOTIFYINFO","npapi/NOTIFYINFO","security.notifyinfo"]
 old-location: security\notifyinfo.htm
 tech.root: SecAuthN
 ms.assetid: 43b31128-da9c-470b-b030-0010b250a291

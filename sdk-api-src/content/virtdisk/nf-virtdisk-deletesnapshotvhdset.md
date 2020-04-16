@@ -1,7 +1,7 @@
 ---
 UID: NF:virtdisk.DeleteSnapshotVhdSet
 title: DeleteSnapshotVhdSet function (virtdisk.h)
-description: Deletes a snapshot from a VHD Set file.
+description: Deletes a snapshot from a VHD Set file.helpviewer_keywords: ["DeleteSnapshotVhdSet","DeleteSnapshotVhdSet function [VHD]","vdssys/DeleteSnapshotVhdSet","vhd.deletesnapshotvhdset","virtdisk/DeleteSnapshotVhdSet"]
 old-location: vhd\deletesnapshotvhdset.htm
 tech.root: VStor
 ms.assetid: F6A65E00-857A-44CF-A827-747518564DAB

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.ComputeSiteCosts
 title: ICertificationAuthorities::ComputeSiteCosts (certenroll.h)
-description: Is not currently used.
+description: Is not currently used.helpviewer_keywords: ["ComputeSiteCosts","ComputeSiteCosts method [Security]","ComputeSiteCosts method [Security]","ICertificationAuthorities interface","ICertificationAuthorities interface [Security]","ComputeSiteCosts method","ICertificationAuthorities.ComputeSiteCosts","ICertificationAuthorities::ComputeSiteCosts","certenroll/ICertificationAuthorities::ComputeSiteCosts","security.icertificationauthorities_computesitecosts"]
 old-location: security\icertificationauthorities_computesitecosts.htm
 tech.root: seccertenroll
 ms.assetid: 8dae92da-e4b9-4512-b4f4-463b5a92a0d1

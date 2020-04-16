@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetElementsV5
 title: DhcpEnumSubnetElementsV5 function (dhcpsapi.h)
-description: The DhcpEnumSubnetElementsV5 function returns an enumerated list of elements for a specific DHCP subnet.
+description: The DhcpEnumSubnetElementsV5 function returns an enumerated list of elements for a specific DHCP subnet.helpviewer_keywords: ["DhcpEnumSubnetElementsV5","DhcpEnumSubnetElementsV5 function [DHCP]","dhcp.dhcpenumsubnetelementsv5","dhcpsapi/DhcpEnumSubnetElementsV5"]
 old-location: dhcp\dhcpenumsubnetelementsv5.htm
 tech.root: DHCP
 ms.assetid: d6fd543c-5036-469e-9e48-02573c7dcb9f

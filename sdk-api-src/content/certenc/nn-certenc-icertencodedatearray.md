@@ -1,7 +1,7 @@
 ---
 UID: NN:certenc.ICertEncodeDateArray
 title: ICertEncodeDateArray (certenc.h)
-description: Provides methods for handling Date arrays used in certificate extensions.
+description: Provides methods for handling Date arrays used in certificate extensions.helpviewer_keywords: ["ICertEncodeDateArray","ICertEncodeDateArray interface [Security]","ICertEncodeDateArray interface [Security]","described","_certsrv_icertencodedatearray","certenc/ICertEncodeDateArray","security.icertencodedatearray"]
 old-location: security\icertencodedatearray.htm
 tech.root: SecCrypto
 ms.assetid: 9973c49a-d886-4cc4-b75e-7ff46f56d51c

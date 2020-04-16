@@ -1,7 +1,7 @@
 ---
 UID: NE:ntsecpkg._SECPKG_EXTENDED_INFORMATION_CLASS
 title: SECPKG_EXTENDED_INFORMATION_CLASS (ntsecpkg.h)
-description: The SECPKG_EXTENDED_INFORMATION_CLASS enumeration describes the type of information to set or get for a security package.This enumeration is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.
+description: The SECPKG_EXTENDED_INFORMATION_CLASS enumeration describes the type of information to set or get for a security package.This enumeration is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.helpviewer_keywords: ["SECPKG_EXTENDED_INFORMATION_CLASS","SECPKG_EXTENDED_INFORMATION_CLASS enumeration [Security]","SecpkgContextThunks","SecpkgExtraOids","SecpkgGssInfo","SecpkgMaxInfo","SecpkgMutualAuthLevel","SecpkgNego2Info","SecpkgWowClientDll","_ssp_secpkg_extended_information_class","ntsecpkg/SECPKG_EXTENDED_INFORMATION_CLASS","ntsecpkg/SecpkgContextThunks","ntsecpkg/SecpkgExtraOids","ntsecpkg/SecpkgGssInfo","ntsecpkg/SecpkgMaxInfo","ntsecpkg/SecpkgMutualAuthLevel","ntsecpkg/SecpkgNego2Info","ntsecpkg/SecpkgWowClientDll","security.secpkg_extended_information_class"]
 old-location: security\secpkg_extended_information_class.htm
 tech.root: SecAuthN
 ms.assetid: 52c24886-ae81-4ac8-97d5-d638016e82bf

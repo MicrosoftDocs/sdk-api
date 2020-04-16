@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsReleaseContextHandle
 title: DnsReleaseContextHandle function (windns.h)
-description: The DnsReleaseContextHandle function releases memory used to store the credentials of a specific account.
+description: The DnsReleaseContextHandle function releases memory used to store the credentials of a specific account.helpviewer_keywords: ["DnsReleaseContextHandle","DnsReleaseContextHandle function [DNS]","_dns_dnsreleasecontexthandle","dns.dnsreleasecontexthandle","windns/DnsReleaseContextHandle"]
 old-location: dns\dnsreleasecontexthandle.htm
 tech.root: DNS
 ms.assetid: 08a5fa73-4583-4e87-bddb-09bfbfe1b36f

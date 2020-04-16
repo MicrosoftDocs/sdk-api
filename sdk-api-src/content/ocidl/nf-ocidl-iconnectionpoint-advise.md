@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IConnectionPoint.Advise
 title: IConnectionPoint::Advise (ocidl.h)
-description: Establishes a connection between a connection point object and the client's sink.
+description: Establishes a connection between a connection point object and the client's sink.helpviewer_keywords: ["Advise","Advise method [COM]","Advise method [COM]","IConnectionPoint interface","IConnectionPoint interface [COM]","Advise method","IConnectionPoint.Advise","IConnectionPoint::Advise","_com_iconnectionpoint_advise","com.iconnectionpoint_advise","ocidl/IConnectionPoint::Advise"]
 old-location: com\iconnectionpoint_advise.htm
 tech.root: com
 ms.assetid: 11257f24-096c-4240-8fac-4e42a6161d66

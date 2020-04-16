@@ -1,7 +1,7 @@
 ---
 UID: NS:tapi.lineproviderentry_tag
 title: LINEPROVIDERENTRY (tapi.h)
-description: The LINEPROVIDERENTRY structure provides the information for a single service provider entry. An array of these structures is returned as part of the LINEPROVIDERLIST structure returned by the function lineGetProviderList.
+description: The LINEPROVIDERENTRY structure provides the information for a single service provider entry. An array of these structures is returned as part of the LINEPROVIDERLIST structure returned by the function lineGetProviderList.helpviewer_keywords: ["*LPLINEPROVIDERENTRY","LINEPROVIDERENTRY","LINEPROVIDERENTRY structure [TAPI 2.2]","LPLINEPROVIDERENTRY","LPLINEPROVIDERENTRY structure pointer [TAPI 2.2]","_tapi2_lineproviderentry_str","tapi/LINEPROVIDERENTRY","tapi/LPLINEPROVIDERENTRY","tapi2.lineproviderentry_str"]
 old-location: tapi2\lineproviderentry_str.htm
 tech.root: Tapi
 ms.assetid: e54a8244-e773-441f-a387-b3b22c4a0a54

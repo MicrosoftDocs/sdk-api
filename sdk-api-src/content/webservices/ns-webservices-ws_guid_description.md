@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_GUID_DESCRIPTION
 title: WS_GUID_DESCRIPTION (webservices.h)
-description: An optional type description used with WS_GUID_TYPE to specify constraints on the set of values which can be deserialized.
+description: An optional type description used with WS_GUID_TYPE to specify constraints on the set of values which can be deserialized.helpviewer_keywords: ["WS_GUID_DESCRIPTION","WS_GUID_DESCRIPTION structure [Web Services for Windows]","webservices/WS_GUID_DESCRIPTION","wsw.ws_guid_description"]
 old-location: wsw\ws_guid_description.htm
 tech.root: wsw
 ms.assetid: e0a98163-66c3-4b6d-a91c-f143b3aad864

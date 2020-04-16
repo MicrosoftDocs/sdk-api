@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.BreakSnapshotSetEx
 title: IVssBackupComponentsEx2::BreakSnapshotSetEx (vsbackup.h)
-description: Breaks a shadow copy set according to requester-specified options.
+description: Breaks a shadow copy set according to requester-specified options.helpviewer_keywords: ["BreakSnapshotSetEx","BreakSnapshotSetEx method","BreakSnapshotSetEx method","IVssBackupComponentsEx2 interface","IVssBackupComponentsEx2 interface","BreakSnapshotSetEx method","IVssBackupComponentsEx2.BreakSnapshotSetEx","IVssBackupComponentsEx2::BreakSnapshotSetEx","base.ivssbackupcomponentsex2_breaksnapshotsetex","vsbackup/IVssBackupComponentsEx2::BreakSnapshotSetEx"]
 old-location: base\ivssbackupcomponentsex2_breaksnapshotsetex.htm
 tech.root: VSS
 ms.assetid: 595fe295-082d-4130-9698-952df49a922e

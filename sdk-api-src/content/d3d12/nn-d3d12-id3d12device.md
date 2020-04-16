@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12Device
 title: ID3D12Device (d3d12.h)
-description: Represents a virtual adapter; it is used to create command allocators, command lists, command queues, fences, resources, pipeline state objects, heaps, root signatures, samplers, and many resource views.
+description: Represents a virtual adapter; it is used to create command allocators, command lists, command queues, fences, resources, pipeline state objects, heaps, root signatures, samplers, and many resource views.helpviewer_keywords: ["ID3D12Device","ID3D12Device interface","ID3D12Device interface","described","d3d12/ID3D12Device","direct3d12.id3d12device"]
 old-location: direct3d12\id3d12device.htm
 tech.root: direct3d12
 ms.assetid: D32B3397-A1E0-48AF-9251-2EDA96261A9F

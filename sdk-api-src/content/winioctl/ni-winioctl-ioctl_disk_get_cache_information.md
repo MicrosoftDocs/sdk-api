@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_CACHE_INFORMATION
 title: IOCTL_DISK_GET_CACHE_INFORMATION
-description: Retrieves the disk cache configuration data.
+description: Retrieves the disk cache configuration data.helpviewer_keywords: ["IOCTL_DISK_GET_CACHE_INFORMATION","IOCTL_DISK_GET_CACHE_INFORMATION control","IOCTL_DISK_GET_CACHE_INFORMATION control code [Files]","base.ioctl_disk_get_cache_information","fs.ioctl_disk_get_cache_information","winioctl/IOCTL_DISK_GET_CACHE_INFORMATION"]
 old-location: fs\ioctl_disk_get_cache_information.htm
 tech.root: FileIO
 ms.assetid: 025a92e8-6169-4d7e-9029-f22acb2bdc9f

@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpCreateHttpHandle
 title: HttpCreateHttpHandle function (http.h)
-description: Creates an HTTP request queue for the calling application and returns a handle to it.
+description: Creates an HTTP request queue for the calling application and returns a handle to it.helpviewer_keywords: ["HttpCreateHttpHandle","HttpCreateHttpHandle function [HTTP]","_http_httpcreatehttphandle","http.httpcreatehttphandle","http/HttpCreateHttpHandle"]
 old-location: http\httpcreatehttphandle.htm
 tech.root: http
 ms.assetid: c3741092-c23a-465f-9a65-5bcbf977fad3

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.GetAppName
 title: IFileIsInUse::GetAppName (shobjidl_core.h)
-description: Retrieves the name of the application that is using the file.
+description: Retrieves the name of the application that is using the file.helpviewer_keywords: ["GetAppName","GetAppName method [Windows Shell]","GetAppName method [Windows Shell]","IFileIsInUse interface","IFileIsInUse interface [Windows Shell]","GetAppName method","IFileIsInUse.GetAppName","IFileIsInUse::GetAppName","_shell_IFileIsInUse_GetAppName","shell.IFileIsInUse_GetAppName","shobjidl_core/IFileIsInUse::GetAppName"]
 old-location: shell\IFileIsInUse_GetAppName.htm
 tech.root: shell
 ms.assetid: 282334a9-28b4-4c3f-977e-824011efe381

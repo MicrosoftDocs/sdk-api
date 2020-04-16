@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.UnregisterHotKey
 title: UnregisterHotKey function (winuser.h)
-description: Frees a hot key previously registered by the calling thread.
+description: Frees a hot key previously registered by the calling thread.helpviewer_keywords: ["UnregisterHotKey","UnregisterHotKey function [Keyboard and Mouse Input]","_win32_UnregisterHotKey","_win32_unregisterhotkey_cpp","inputdev.unregisterhotkey","winui._win32_unregisterhotkey","winuser/UnregisterHotKey"]
 old-location: inputdev\unregisterhotkey.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\unregisterhotkey.htm

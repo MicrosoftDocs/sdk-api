@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IQuickActivate.SetContentExtent
 title: IQuickActivate::SetContentExtent (ocidl.h)
-description: Sets the content extent of a control.
+description: Sets the content extent of a control.helpviewer_keywords: ["IQuickActivate interface [COM]","SetContentExtent method","IQuickActivate.SetContentExtent","IQuickActivate::SetContentExtent","SetContentExtent","SetContentExtent method [COM]","SetContentExtent method [COM]","IQuickActivate interface","_ctrl_iquickactivate_setcontentextent","com.iquickactivate_setcontentextent","ocidl/IQuickActivate::SetContentExtent"]
 old-location: com\iquickactivate_setcontentextent.htm
 tech.root: com
 ms.assetid: 0f763bd3-08b9-4804-8e52-2c8014428a45

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.CreateFromPoints
 title: BoundingSphere::CreateFromPoints
-description: Creates a new BoundingSphere from a list of points.
+description: Creates a new BoundingSphere from a list of points.helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","CreateFromPoints method","BoundingSphere.CreateFromPoints","BoundingSphere::CreateFromPoints","CreateFromPoints","CreateFromPoints method [DirectX Math Support APIs]","CreateFromPoints method [DirectX Math Support APIs]","BoundingSphere interface","Use DirectX..BoundingSphere.CreateFromPoints","Use DirectX::::BoundingSphere::CreateFromPoints","dxmath.boundingsphere_createfrompoints"]
 old-location: dxmath\boundingsphere_createfrompoints.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.CreateFromPoints(BoundingSphere@,size_t,XMFLOAT3,size_t)

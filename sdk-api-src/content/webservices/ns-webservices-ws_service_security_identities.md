@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SERVICE_SECURITY_IDENTITIES
 title: WS_SERVICE_SECURITY_IDENTITIES (webservices.h)
-description: A list of Server Principal Names (SPNs) that are used to validate Extended Protection.
+description: A list of Server Principal Names (SPNs) that are used to validate Extended Protection.helpviewer_keywords: ["WS_SERVICE_SECURITY_IDENTITIES","WS_SERVICE_SECURITY_IDENTITIES structure [Web Services for Windows]","webservices/WS_SERVICE_SECURITY_IDENTITIES","wsw.ws_service_security_identities"]
 old-location: wsw\ws_service_security_identities.htm
 tech.root: wsw
 ms.assetid: d38f0efd-2570-4db1-b4f7-113a45fe4449

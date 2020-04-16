@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetDisplayName
 title: IPropertyUI::GetDisplayName (shobjidl_core.h)
-description: Developers should use IPropertyDescription instead. Gets a string specifying the name of the property suitable for display to users.
+description: Developers should use IPropertyDescription instead. Gets a string specifying the name of the property suitable for display to users.helpviewer_keywords: ["GetDisplayName","GetDisplayName method [Windows Properties]","GetDisplayName method [Windows Properties]","IPropertyUI interface","IPropertyUI interface [Windows Properties]","GetDisplayName method","IPropertyUI.GetDisplayName","IPropertyUI::GetDisplayName","PUIFNF_DEFAULT","PUIFNF_MNEMONIC","_shell_IPropertyUI_GetDisaplayName","properties.IPropertyUI_GetDisaplayName","shell.IPropertyUI_GetDisaplayName","shobjidl_core/IPropertyUI::GetDisplayName"]
 old-location: properties\IPropertyUI_GetDisaplayName.htm
 tech.root: properties
 ms.assetid: F1B97A0C-B21F-45d6-8B2D-02BFF74C9CEE

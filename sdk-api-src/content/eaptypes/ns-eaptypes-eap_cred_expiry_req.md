@@ -1,7 +1,7 @@
 ---
 UID: NS:eaptypes._EAP_CRED_EXPIRY_REQ
 title: EAP_CRED_EXPIRY_REQ (eaptypes.h)
-description: Contains both the old and new EAP credentials for credential expiry operations.
+description: Contains both the old and new EAP credentials for credential expiry operations.helpviewer_keywords: ["EAP_CRED_EXPIRY_REQ","EAP_CRED_EXPIRY_REQ structure [EAPHost]","EAP_CRED_EXPIRY_RESP","PEAP_CRED_EXPIRY_REQ","PEAP_CRED_EXPIRY_REQ structure pointer [EAPHost]","_EAP_CRED_EXPIRY_REQ","eaphost.eap_cred_expiry_req","eaptypes/EAP_CRED_EXPIRY_REQ","eaptypes/PEAP_CRED_EXPIRY_REQ"]
 old-location: eaphost\eap_cred_expiry_req.htm
 tech.root: eaphost
 ms.assetid: baa2a580-0bfc-450a-9a96-f32d00127fa4

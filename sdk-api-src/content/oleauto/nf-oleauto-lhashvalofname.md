@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.LHashValOfName
 title: LHashValOfName macro (oleauto.h)
-description: Computes a hash value for a name.
+description: Computes a hash value for a name.helpviewer_keywords: ["LHashValOfName","LHashValOfName function [Automation]","_oa96_LHashValOfName","automat.lhashvalofname","oleauto/LHashValOfName"]
 old-location: automat\lhashvalofname.htm
 tech.root: automat
 ms.assetid: 7cd401dc-95d0-4628-88f9-d00969228ea8

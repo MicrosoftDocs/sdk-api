@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmInvokeMethod
 title: RtmInvokeMethod function (rtmv2.h)
-description: The RtmInvokeMethod function invokes a method exported by another client.
+description: The RtmInvokeMethod function invokes a method exported by another client.helpviewer_keywords: ["RtmInvokeMethod","RtmInvokeMethod function [RAS]","_rtmv2ref_rtminvokemethod","rras.rtminvokemethod","rtmv2/RtmInvokeMethod"]
 old-location: rras\rtminvokemethod.htm
 tech.root: RRAS
 ms.assetid: 97506565-2fa7-4ff7-b397-7ab712759a5d

@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.AVIFileAddRef
 title: AVIFileAddRef function (vfw.h)
-description: The AVIFileAddRef function increments the reference count of an AVI file.
+description: The AVIFileAddRef function increments the reference count of an AVI file.helpviewer_keywords: ["AVIFileAddRef","AVIFileAddRef function [Windows Multimedia]","_win32_AVIFileAddRef","multimedia.avifileaddref","vfw/AVIFileAddRef"]
 old-location: multimedia\avifileaddref.htm
 tech.root: Multimedia
 ms.assetid: f3dd4fa0-69e3-4249-8c74-7502d09ff341

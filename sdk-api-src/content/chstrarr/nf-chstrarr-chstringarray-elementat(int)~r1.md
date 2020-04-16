@@ -1,7 +1,7 @@
 ---
 UID: NF:chstrarr.CHStringArray.ElementAt(int)~r1
 title: CHStringArray::ElementAt (chstrarr.h)
-description: The ElementAt method returns a temporary reference to the element pointer within the array.
+description: The ElementAt method returns a temporary reference to the element pointer within the array.helpviewer_keywords: ["CHStringArray interface [Windows Management Instrumentation]","ElementAt method","CHStringArray.ElementAt","CHStringArray::ElementAt","ElementAt","ElementAt method [Windows Management Instrumentation]","ElementAt method [Windows Management Instrumentation]","CHStringArray interface","_hmm_chstringarray_elementat","chstrarr/CHStringArray::ElementAt","wmi.chstringarray_elementat"]
 old-location: wmi\chstringarray_elementat.htm
 tech.root: WmiSdk
 ms.assetid: 5431a9ae-e009-4457-87e4-bb91da8bfdb6

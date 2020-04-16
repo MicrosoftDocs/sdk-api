@@ -1,7 +1,7 @@
 ---
 UID: NE:minidumpapiset._MINIDUMP_SECONDARY_FLAGS
 title: MINIDUMP_SECONDARY_FLAGS (minidumpapiset.h)
-description: Specifies the secondary flags for the minidump.
+description: Specifies the secondary flags for the minidump.helpviewer_keywords: ["MINIDUMP_SECONDARY_FLAGS","MINIDUMP_SECONDARY_FLAGS enumeration","MiniSecondaryWithoutPowerInfo","base.minidump_secondary_flags","minidumpapiset/MINIDUMP_SECONDARY_FLAGS","minidumpapiset/MiniSecondaryWithoutPowerInfo"]
 old-location: base\minidump_secondary_flags.htm
 tech.root: Debug
 ms.assetid: c8485db1-0cc0-4baa-90fb-b5c1f9236b80

@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.PackageNameAndPublisherIdFromFamilyName
 title: PackageNameAndPublisherIdFromFamilyName function (appmodel.h)
-description: Gets the package name and publisher identifier (ID) for the specified package family name.
+description: Gets the package name and publisher identifier (ID) for the specified package family name.helpviewer_keywords: ["PackageNameAndPublisherIdFromFamilyName","PackageNameAndPublisherIdFromFamilyName function [App packaging and management]","appmodel/PackageNameAndPublisherIdFromFamilyName","appxpkg.packagenameandpublisheridfromfamilyname"]
 old-location: appxpkg\packagenameandpublisheridfromfamilyname.htm
 tech.root: appxpkg
 ms.assetid: 4AA5BD75-F865-40D6-9C10-E54C197D47C4

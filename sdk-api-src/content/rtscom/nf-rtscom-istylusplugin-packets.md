@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IStylusPlugin.Packets
 title: IStylusPlugin::Packets (rtscom.h)
-description: Notifies the object implementing the plug-in that the tablet pen is moving on the digitizer.
+description: Notifies the object implementing the plug-in that the tablet pen is moving on the digitizer.helpviewer_keywords: ["IStylusPlugin interface [Tablet PC]","Packets method","IStylusPlugin.Packets","IStylusPlugin::Packets","Packets","Packets method [Tablet PC]","Packets method [Tablet PC]","IStylusPlugin interface","c6a3d563-4776-4ac6-bdc3-798192ba4546","rtscom/IStylusPlugin::Packets","tablet.istylusplugin_packets"]
 old-location: tablet\istylusplugin_packets.htm
 tech.root: tablet
 ms.assetid: c6a3d563-4776-4ac6-bdc3-798192ba4546

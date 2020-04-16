@@ -1,7 +1,7 @@
 ---
 UID: NN:msopc.IOpcDigitalSignatureManager
 title: IOpcDigitalSignatureManager (msopc.h)
-description: Provides access to Packaging Digital Signature Interfaces for a package that is represented by Packaging API objects.
+description: Provides access to Packaging Digital Signature Interfaces for a package that is represented by Packaging API objects.helpviewer_keywords: ["IOpcDigitalSignatureManager","IOpcDigitalSignatureManager interface [Open Packaging Conventions]","IOpcDigitalSignatureManager interface [Open Packaging Conventions]","described","msopc/IOpcDigitalSignatureManager","opc.iopcdigitalsignaturemanager"]
 old-location: opc\iopcdigitalsignaturemanager.htm
 tech.root: OPC
 ms.assetid: 13e8a7b9-1d25-421b-bc81-adc495e6d9c7

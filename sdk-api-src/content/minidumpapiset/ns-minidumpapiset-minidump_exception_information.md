@@ -1,7 +1,7 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_EXCEPTION_INFORMATION
 title: MINIDUMP_EXCEPTION_INFORMATION (minidumpapiset.h)
-description: Contains the exception information written to the minidump file by the MiniDumpWriteDump function.
+description: Contains the exception information written to the minidump file by the MiniDumpWriteDump function.helpviewer_keywords: ["*PMINIDUMP_EXCEPTION_INFORMATION","MINIDUMP_EXCEPTION_INFORMATION","MINIDUMP_EXCEPTION_INFORMATION structure","PMINIDUMP_EXCEPTION_INFORMATION","PMINIDUMP_EXCEPTION_INFORMATION structure pointer","_MINIDUMP_EXCEPTION_INFORMATION","_win32_minidump_exception_information_str","base.minidump_exception_information_str","minidumpapiset/MINIDUMP_EXCEPTION_INFORMATION","minidumpapiset/PMINIDUMP_EXCEPTION_INFORMATION"]
 old-location: base\minidump_exception_information_str.htm
 tech.root: Debug
 ms.assetid: 86416432-99e4-45ae-84e0-84b7b2341d11

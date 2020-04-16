@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDistributorNotify.SetSyncSource
 title: IDistributorNotify::SetSyncSource (strmif.h)
-description: The SetSyncSource method is called when a new clock is registered.
+description: The SetSyncSource method is called when a new clock is registered.helpviewer_keywords: ["IDistributorNotify interface [DirectShow]","SetSyncSource method","IDistributorNotify.SetSyncSource","IDistributorNotify::SetSyncSource","IDistributorNotifySetSyncSource","SetSyncSource","SetSyncSource method [DirectShow]","SetSyncSource method [DirectShow]","IDistributorNotify interface","dshow.idistributornotify_setsyncsource","strmif/IDistributorNotify::SetSyncSource"]
 old-location: dshow\idistributornotify_setsyncsource.htm
 tech.root: DirectShow
 ms.assetid: 671af56f-a333-441e-9a97-04226b1c3225

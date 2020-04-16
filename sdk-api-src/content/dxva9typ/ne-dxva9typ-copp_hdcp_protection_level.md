@@ -1,7 +1,7 @@
 ---
 UID: NE:dxva9typ._COPP_HDCP_Protection_Level
 title: COPP_HDCP_Protection_Level (dxva9typ.h)
-description: Specifies the HDCP protection level.
+description: Specifies the HDCP protection level.helpviewer_keywords: ["COPP_HDCP_ForceDWORD","COPP_HDCP_Level0","COPP_HDCP_Level1","COPP_HDCP_LevelMax","COPP_HDCP_LevelMin","COPP_HDCP_Protection_Level","COPP_HDCP_Protection_Level","COPP_HDCP_Protection_Level enumeration [DirectShow]","COPP_HDCP_Protection_LevelEnumeration","dshow.copp_hdcp_protection_level","dxva9typ/COPP_HDCP_ForceDWORD","dxva9typ/COPP_HDCP_Level0","dxva9typ/COPP_HDCP_Level1","dxva9typ/COPP_HDCP_LevelMax","dxva9typ/COPP_HDCP_LevelMin","dxva9typ/COPP_HDCP_Protection_Level"]
 old-location: dshow\copp_hdcp_protection_level.htm
 tech.root: DirectShow
 ms.assetid: 902ea4c6-8eba-4bfd-b986-5e7a5a2a5971

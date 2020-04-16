@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.AddDirectory
 title: IFsiDirectoryItem::AddDirectory (imapi2fs.h)
-description: Adds a directory to the file system image.
+description: Adds a directory to the file system image.helpviewer_keywords: ["AddDirectory","AddDirectory method [IMAPI]","AddDirectory method [IMAPI]","IFsiDirectoryItem interface","IFsiDirectoryItem interface [IMAPI]","AddDirectory method","IFsiDirectoryItem.AddDirectory","IFsiDirectoryItem::AddDirectory","imapi.ifsidirectoryitem_adddirectory","imapi2fs/IFsiDirectoryItem::AddDirectory"]
 old-location: imapi\ifsidirectoryitem_adddirectory.htm
 tech.root: imapi
 ms.assetid: bb716e60-163c-45e7-bdbb-373666cbdc93

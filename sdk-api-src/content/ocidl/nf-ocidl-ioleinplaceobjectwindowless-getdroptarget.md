@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleInPlaceObjectWindowless.GetDropTarget
 title: IOleInPlaceObjectWindowless::GetDropTarget (ocidl.h)
-description: Retrieves the IDropTarget interface for an in-place active, windowless object that supports drag and drop.
+description: Retrieves the IDropTarget interface for an in-place active, windowless object that supports drag and drop.helpviewer_keywords: ["GetDropTarget","GetDropTarget method [COM]","GetDropTarget method [COM]","IOleInPlaceObjectWindowless interface","IOleInPlaceObjectWindowless interface [COM]","GetDropTarget method","IOleInPlaceObjectWindowless.GetDropTarget","IOleInPlaceObjectWindowless::GetDropTarget","_ole_ioleinplaceobjectwindowless_getdroptarget","com.ioleinplaceobjectwindowless_getdroptarget","ocidl/IOleInPlaceObjectWindowless::GetDropTarget"]
 old-location: com\ioleinplaceobjectwindowless_getdroptarget.htm
 tech.root: com
 ms.assetid: 0dfed2c7-d513-4c29-8182-af1bd6f26834

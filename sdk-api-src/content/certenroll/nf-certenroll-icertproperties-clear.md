@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertProperties.Clear
 title: ICertProperties::Clear (certenroll.h)
-description: Removes all properties from the collection.
+description: Removes all properties from the collection.helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","ICertProperties interface","ICertProperties interface [Security]","Clear method","ICertProperties.Clear","ICertProperties::Clear","certenroll/ICertProperties::Clear","security.icertproperties_clear_method"]
 old-location: security\icertproperties_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: b75f6ed2-7f7e-48d6-b5f3-a49dfac68d08

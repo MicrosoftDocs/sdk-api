@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetBorderColor
 title: IVMRWindowlessControl::GetBorderColor (strmif.h)
-description: The GetBorderColor method retrieves the current border color used by the VMR.
+description: The GetBorderColor method retrieves the current border color used by the VMR.helpviewer_keywords: ["GetBorderColor","GetBorderColor method [DirectShow]","GetBorderColor method [DirectShow]","IVMRWindowlessControl interface","IVMRWindowlessControl interface [DirectShow]","GetBorderColor method","IVMRWindowlessControl.GetBorderColor","IVMRWindowlessControl::GetBorderColor","IVMRWindowlessControlGetBorderColor","dshow.ivmrwindowlesscontrol_getbordercolor","strmif/IVMRWindowlessControl::GetBorderColor"]
 old-location: dshow\ivmrwindowlesscontrol_getbordercolor.htm
 tech.root: DirectShow
 ms.assetid: f0bf04c8-17e6-4e1f-b35f-2e10c9de8b92

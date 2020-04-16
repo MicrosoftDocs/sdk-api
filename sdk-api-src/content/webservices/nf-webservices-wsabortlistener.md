@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsAbortListener
 title: WsAbortListener function (webservices.h)
-description: Cancels any pending I/O for the specified listener.
+description: Cancels any pending I/O for the specified listener.helpviewer_keywords: ["WsAbortListener","WsAbortListener function [Web Services for Windows]","webservices/WsAbortListener","wsw.wsabortlistener"]
 old-location: wsw\wsabortlistener.htm
 tech.root: wsw
 ms.assetid: 894a325b-53ac-4f45-ac24-87ed3a40b03d

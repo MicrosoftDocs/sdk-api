@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.SetCaptureToken
 title: IBDA_ConditionalAccessEx::SetCaptureToken (bdaiface.h)
-description: Requests special events that are identified by a capture token.
+description: Requests special events that are identified by a capture token.helpviewer_keywords: ["IBDA_ConditionalAccessEx interface [Microsoft TV Technologies]","SetCaptureToken method","IBDA_ConditionalAccessEx.SetCaptureToken","IBDA_ConditionalAccessEx::SetCaptureToken","SetCaptureToken","SetCaptureToken method [Microsoft TV Technologies]","SetCaptureToken method [Microsoft TV Technologies]","IBDA_ConditionalAccessEx interface","bdaiface/IBDA_ConditionalAccessEx::SetCaptureToken","mstv.ibda_conditionalaccessex_setcapturetoken"]
 old-location: mstv\ibda_conditionalaccessex_setcapturetoken.htm
 tech.root: mstv
 ms.assetid: b9e3d319-c76c-45df-aca3-d5447605b7c0

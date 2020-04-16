@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPropertySize
 title: Image::GetPropertySize (gdiplusheaders.h)
-description: The Image::GetPropertySize method gets the total size, in bytes, of all the property items stored in this Image object. The Image::GetPropertySize method also gets the number of property items stored in this Image object.
+description: The Image::GetPropertySize method gets the total size, in bytes, of all the property items stored in this Image object. The Image::GetPropertySize method also gets the number of property items stored in this Image object.helpviewer_keywords: ["GetPropertySize","GetPropertySize method [GDI+]","GetPropertySize method [GDI+]","Image class","Image class [GDI+]","GetPropertySize method","Image.GetPropertySize","Image::GetPropertySize","_gdiplus_CLASS_Image_GetPropertySize_totalBufferSize_numProperties_","gdiplus._gdiplus_CLASS_Image_GetPropertySize_totalBufferSize_numProperties_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertySize_totalBufferSize_numProperties_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertysize.htm

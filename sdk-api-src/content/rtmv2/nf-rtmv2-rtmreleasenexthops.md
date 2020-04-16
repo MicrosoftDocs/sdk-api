@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmReleaseNextHops
 title: RtmReleaseNextHops function (rtmv2.h)
-description: The RtmReleaseNextHops function releases the next-hop handles.
+description: The RtmReleaseNextHops function releases the next-hop handles.helpviewer_keywords: ["RtmReleaseNextHops","RtmReleaseNextHops function [RAS]","_rtmv2ref_rtmreleasenexthops","rras.rtmreleasenexthops","rtmv2/RtmReleaseNextHops"]
 old-location: rras\rtmreleasenexthops.htm
 tech.root: RRAS
 ms.assetid: a21de428-7e9d-4596-a7ab-06a29b9852f7

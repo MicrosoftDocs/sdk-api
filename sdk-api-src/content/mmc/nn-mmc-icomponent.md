@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.IComponent
 title: IComponent (mmc.h)
-description: The IComponent interface enables MMC to communicate with snap-ins. Similar to the IComponentData interface, IComponent is typically implemented at the view level and is closely associated with items being displayed in the result pane.
+description: The IComponent interface enables MMC to communicate with snap-ins. Similar to the IComponentData interface, IComponent is typically implemented at the view level and is closely associated with items being displayed in the result pane.helpviewer_keywords: ["IComponent","IComponent interface [MMC]","IComponent interface [MMC]","described","_slate_icomponent","mmc.icomponent","mmc/IComponent"]
 old-location: mmc\icomponent.htm
 tech.root: mmc
 ms.assetid: 65eaa5ef-182b-4fec-bb3d-a308ac9dc660

@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCertificateEmbeddingOption
 title: IOpcSigningOptions::GetCertificateEmbeddingOption (msopc.h)
-description: Gets a value that specifies the storage location in the package of the certificate to be used for the signature.
+description: Gets a value that specifies the storage location in the package of the certificate to be used for the signature.helpviewer_keywords: ["GetCertificateEmbeddingOption","GetCertificateEmbeddingOption method [Open Packaging Conventions]","GetCertificateEmbeddingOption method [Open Packaging Conventions]","IOpcSigningOptions interface","IOpcSigningOptions interface [Open Packaging Conventions]","GetCertificateEmbeddingOption method","IOpcSigningOptions.GetCertificateEmbeddingOption","IOpcSigningOptions::GetCertificateEmbeddingOption","msopc/IOpcSigningOptions::GetCertificateEmbeddingOption","opc.iopcsigningoptions_getcertificateembeddingoption"]
 old-location: opc\iopcsigningoptions_getcertificateembeddingoption.htm
 tech.root: OPC
 ms.assetid: 86f83829-0507-4918-ae7f-71738f985068

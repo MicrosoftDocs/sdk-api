@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetKey
 title: IDefaultExtractIconInit::SetKey (shobjidl_core.h)
-description: Sets the registry key from which to load the &#0034;DefaultIcon&#0034; value.
+description: Sets the registry key from which to load the &#0034;DefaultIcon&#0034; value.helpviewer_keywords: ["IDefaultExtractIconInit interface [Windows Shell]","SetKey method","IDefaultExtractIconInit.SetKey","IDefaultExtractIconInit::SetKey","SetKey","SetKey method [Windows Shell]","SetKey method [Windows Shell]","IDefaultExtractIconInit interface","_shell_IDefaultExtractIconInit_SetKey","shell.IDefaultExtractIconInit_SetKey","shobjidl_core/IDefaultExtractIconInit::SetKey"]
 old-location: shell\IDefaultExtractIconInit_SetKey.htm
 tech.root: shell
 ms.assetid: dce75b90-f569-4983-a540-82a021377287

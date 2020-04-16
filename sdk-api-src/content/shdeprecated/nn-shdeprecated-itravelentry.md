@@ -1,7 +1,7 @@
 ---
 UID: NN:shdeprecated.ITravelEntry
 title: ITravelEntry (shdeprecated.h)
-description: Deprecated. Exposes methods to identify, invoke, and update an individual item in the browser's travel history.
+description: Deprecated. Exposes methods to identify, invoke, and update an individual item in the browser's travel history.helpviewer_keywords: ["ITravelEntry","ITravelEntry interface [Windows Shell]","ITravelEntry interface [Windows Shell]","described","shdeprecated/ITravelEntry","shell.ITravelEntry","zone_ITravelEntry"]
 old-location: shell\ITravelEntry.htm
 tech.root: shell
 ms.assetid: b8a5d532-c1fd-4302-b983-cc9a74270321

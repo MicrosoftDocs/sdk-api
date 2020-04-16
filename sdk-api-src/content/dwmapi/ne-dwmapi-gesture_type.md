@@ -1,7 +1,7 @@
 ---
 UID: NE:dwmapi.GESTURE_TYPE
 title: GESTURE_TYPE (dwmapi.h)
-description: Identifies the gesture type specified in DwmRenderGesture.
+description: Identifies the gesture type specified in DwmRenderGesture.helpviewer_keywords: ["GESTURE_TYPE","GESTURE_TYPE enumeration [Desktop Window Manager]","GT_PEN_DOUBLETAP","GT_PEN_PRESSANDHOLD","GT_PEN_PRESSANDHOLDABORT","GT_PEN_RIGHTTAP","GT_PEN_TAP","GT_TOUCH_DOUBLETAP","GT_TOUCH_PRESSANDHOLD","GT_TOUCH_PRESSANDHOLDABORT","GT_TOUCH_PRESSANDTAP","GT_TOUCH_RIGHTTAP","GT_TOUCH_TAP","dwm.gesture_type","dwmapi/GESTURE_TYPE","dwmapi/GT_PEN_DOUBLETAP","dwmapi/GT_PEN_PRESSANDHOLD","dwmapi/GT_PEN_PRESSANDHOLDABORT","dwmapi/GT_PEN_RIGHTTAP","dwmapi/GT_PEN_TAP","dwmapi/GT_TOUCH_DOUBLETAP","dwmapi/GT_TOUCH_PRESSANDHOLD","dwmapi/GT_TOUCH_PRESSANDHOLDABORT","dwmapi/GT_TOUCH_PRESSANDTAP","dwmapi/GT_TOUCH_RIGHTTAP","dwmapi/GT_TOUCH_TAP"]
 old-location: dwm\gesture_type.htm
 tech.root: dwm
 ms.assetid: 3FBDDFC9-A3E7-43DC-B7C6-A23976861C28

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GSGetSamplers
 title: ID3D11DeviceContext::GSGetSamplers (d3d11.h)
-description: Get an array of sampler state interfaces from the geometry shader pipeline stage.
+description: Get an array of sampler state interfaces from the geometry shader pipeline stage.helpviewer_keywords: ["GSGetSamplers","GSGetSamplers method [Direct3D 11]","GSGetSamplers method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GSGetSamplers method","ID3D11DeviceContext.GSGetSamplers","ID3D11DeviceContext::GSGetSamplers","d3d11/ID3D11DeviceContext::GSGetSamplers","direct3d11.id3d11devicecontext_gsgetsamplers","ebfcd5c2-8164-421f-c5f3-466bdd187a65"]
 old-location: direct3d11\id3d11devicecontext_gsgetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 7f3d4eb4-30e6-42bf-98e2-08a9abcb3e94

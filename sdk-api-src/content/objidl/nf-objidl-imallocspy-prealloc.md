@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMallocSpy.PreAlloc
 title: IMallocSpy::PreAlloc (objidl.h)
-description: Performs operations required before calling IMalloc::Alloc.
+description: Performs operations required before calling IMalloc::Alloc.helpviewer_keywords: ["IMallocSpy interface [COM]","PreAlloc method","IMallocSpy.PreAlloc","IMallocSpy::PreAlloc","PreAlloc","PreAlloc method [COM]","PreAlloc method [COM]","IMallocSpy interface","_com_imallocspy_prealloc","com.imallocspy_prealloc","objidl/IMallocSpy::PreAlloc"]
 old-location: com\imallocspy_prealloc.htm
 tech.root: com
 ms.assetid: 43d8223b-a3fb-432c-ab4e-009d79ad8658

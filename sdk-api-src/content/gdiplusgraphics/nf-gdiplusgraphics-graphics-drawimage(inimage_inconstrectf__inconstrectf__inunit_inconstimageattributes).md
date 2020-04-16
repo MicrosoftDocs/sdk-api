@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN const RectF &,IN const RectF &,IN Unit,IN const ImageAttributes)
 title: Graphics::DrawImage(IN Image,IN const RectF &,IN const RectF &,IN Unit,IN const ImageAttributes) (gdiplusgraphics.h)
-description: The Graphics::DrawImage method draws a specified portion of an image at a specified location.
+description: The Graphics::DrawImage method draws a specified portion of an image at a specified location.helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN const RectF &","IN const RectF &","IN Unit","IN const ImageAttributes)","Graphics.DrawImage(Image*","RectF&","RectF&","Unit","ImageAttributes*)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN const RectF &","IN const RectF &","IN Unit","IN const ImageAttributes)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_destRect_RectF_sourceRect_","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_destRect_RectF_sourceRect_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_destRect_RectF_sourceRect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_imageimage_rectfdestrect_rectfsourcerect.htm

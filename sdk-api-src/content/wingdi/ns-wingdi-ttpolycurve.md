@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagTTPOLYCURVE
 title: TTPOLYCURVE (wingdi.h)
-description: The TTPOLYCURVE structure contains information about a curve in the outline of a TrueType character.
+description: The TTPOLYCURVE structure contains information about a curve in the outline of a TrueType character.helpviewer_keywords: ["*LPTTPOLYCURVE","LPTTPOLYCURVE","LPTTPOLYCURVE structure pointer [Windows GDI]","TTPOLYCURVE","TTPOLYCURVE structure [Windows GDI]","_win32_TTPOLYCURVE_str","gdi.ttpolycurve","wingdi/LPTTPOLYCURVE","wingdi/TTPOLYCURVE"]
 old-location: gdi\ttpolycurve.htm
 tech.root: gdi
 ms.assetid: 59a26aec-786e-471b-8e08-ddffb04874d6

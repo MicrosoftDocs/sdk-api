@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_RESOURCE_ALLOCATION_INFO1
 title: D3D12_RESOURCE_ALLOCATION_INFO1
-description: Describes parameters needed to allocate resources, including offset.
+description: Describes parameters needed to allocate resources, including offset.helpviewer_keywords: ["D3D12_RESOURCE_ALLOCATION_INFO1","D3D12_RESOURCE_ALLOCATION_INFO1 structure","d3d12/D3D12_RESOURCE_ALLOCATION_INFO1","direct3d12.d3d12_resource_allocation_info1"]
 tech.root: direct3d12
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_ALLOCATION_INFO1, D3D12_RESOURCE_ALLOCATION_INFO1 structure, d3d12/D3D12_RESOURCE_ALLOCATION_INFO1, direct3d12.d3d12_resource_allocation_info1

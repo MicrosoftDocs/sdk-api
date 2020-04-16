@@ -1,7 +1,7 @@
 ---
 UID: NF:winsxs.IAssemblyCache.InstallAssembly
 title: IAssemblyCache::InstallAssembly (winsxs.h)
-description: The InstallAssembly method adds an application reference to an assembly to the side-by-side store and copies the files of the assembly to the side-by-side store. The files of the assembly being installed must be present in the current file system.
+description: The InstallAssembly method adds an application reference to an assembly to the side-by-side store and copies the files of the assembly to the side-by-side store. The files of the assembly being installed must be present in the current file system.helpviewer_keywords: ["IASSEMBLYCACHE_INSTALL_FLAG_FORCE_REFRESH","IASSEMBLYCACHE_INSTALL_FLAG_REFRESH","IAssemblyCache interface [Side-by-side Assemblies]","InstallAssembly method","IAssemblyCache.InstallAssembly","IAssemblyCache::InstallAssembly","InstallAssembly","InstallAssembly method [Side-by-side Assemblies]","InstallAssembly method [Side-by-side Assemblies]","IAssemblyCache interface","setup.iassemblycache_installassembly","winsxs/IAssemblyCache::InstallAssembly"]
 old-location: setup\iassemblycache_installassembly.htm
 tech.root: SbsCs
 ms.assetid: aff1da20-9e82-43d5-b601-f73ee2dba0fe

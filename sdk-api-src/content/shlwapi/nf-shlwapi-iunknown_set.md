@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IUnknown_Set
 title: IUnknown_Set function (shlwapi.h)
-description: Changes the value of a Component Object Model (COM) interface pointer and releases the previous interface.
+description: Changes the value of a Component Object Model (COM) interface pointer and releases the previous interface.helpviewer_keywords: ["IUnknown_Set","IUnknown_Set function [Windows Shell]","_win32_IUnknown_Set","shell.IUnknown_Set","shlwapi/IUnknown_Set"]
 old-location: shell\IUnknown_Set.htm
 tech.root: shell
 ms.assetid: b3c4bee2-12cb-483e-9a46-f09d63ae9a2e

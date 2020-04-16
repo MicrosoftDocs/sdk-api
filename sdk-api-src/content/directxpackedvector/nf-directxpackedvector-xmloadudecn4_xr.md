@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMLoadUDecN4_XR
 title: XMLoadUDecN4_XR function (directxpackedvector.h)
-description: Loads an extended range XMUDECN4 into an XMVECTOR.
+description: Loads an extended range XMUDECN4 into an XMVECTOR.helpviewer_keywords: ["DirectX::PackedVector.XMLoadUDecN4_XR","XMLoadUDecN4_XR","XMLoadUDecN4_XR method [DirectX Math Support APIs]","dxmath._xmloadudecn4_xr"]
 old-location: dxmath\_xmloadudecn4_xr.htm
 tech.root: dxmath
 ms.assetid: C67EEA1C-C416-4E8F-A0D9-F061EF1CD119

@@ -1,7 +1,7 @@
 ---
 UID: NN:commdlg.IPrintDialogCallback
 title: IPrintDialogCallback (commdlg.h)
-description: Provides methods that enable an application to receive notifications and messages from the PrintDlgEx function while the Print Property Sheet is displayed.
+description: Provides methods that enable an application to receive notifications and messages from the PrintDlgEx function while the Print Property Sheet is displayed.helpviewer_keywords: ["IPrintDialogCallback","IPrintDialogCallback interface [Dialog Boxes]","IPrintDialogCallback interface [Dialog Boxes]","described","_win32_IPrintDialogCallback","_win32_iprintdialogcallback_cpp","commdlg/IPrintDialogCallback","dlgbox.iprintdialogcallback","winui._win32_iprintdialogcallback"]
 old-location: dlgbox\iprintdialogcallback.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogcallback.htm

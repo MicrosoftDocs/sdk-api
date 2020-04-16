@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.Int8ToUInt8
 title: Int8ToUInt8 function (intsafe.h)
-description: Converts a value of type INT8 to a value of type UINT8.
+description: Converts a value of type INT8 to a value of type UINT8.helpviewer_keywords: ["Int8ToUInt8","Int8ToUInt8 function [Windows Shell]","intsafe/Int8ToUInt8","shell.Int8ToUInt8"]
 old-location: shell\Int8ToUInt8.htm
 tech.root: shell
 ms.assetid: 1638bfca-9cec-4d01-b3b0-47a4358e35d1

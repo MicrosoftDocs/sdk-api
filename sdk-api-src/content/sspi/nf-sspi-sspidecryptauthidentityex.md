@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SspiDecryptAuthIdentityEx
 title: SspiDecryptAuthIdentityEx function (sspi.h)
-description: Decrypts a SEC_WINNT_AUTH_IDENTITY_OPAQUE structure.
+description: Decrypts a SEC_WINNT_AUTH_IDENTITY_OPAQUE structure.helpviewer_keywords: ["SspiDecryptAuthIdentityEx","SspiDecryptAuthIdentityEx function [Security]","security.sspidecryptauthidentityex","sspi/SspiDecryptAuthIdentityEx"]
 old-location: security\sspidecryptauthidentityex.htm
 tech.root: SecAuthN
 ms.assetid: 86598BAA-0E87-46A9-AA1A-BF04BF0CDAFA

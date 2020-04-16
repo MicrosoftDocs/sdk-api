@@ -1,7 +1,7 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.Synchronize
 title: ISyncMgrSynchronize::Synchronize (mobsync.h)
-description: Called by the synchronization manager once for each selected group after the user has chosen the registered applications to be synchronized.
+description: Called by the synchronization manager once for each selected group after the user has chosen the registered applications to be synchronized.helpviewer_keywords: ["ISyncMgrSynchronize interface [Windows Shell]","Synchronize method","ISyncMgrSynchronize.Synchronize","ISyncMgrSynchronize::Synchronize","Synchronize","Synchronize method [Windows Shell]","Synchronize method [Windows Shell]","ISyncMgrSynchronize interface","mobsync/ISyncMgrSynchronize::Synchronize","shell.syncmgr_isyncmgrsynchronize_synchronize","syncmgr.isyncmgrsynchronize_synchronize"]
 old-location: shell\syncmgr_isyncmgrsynchronize_synchronize.htm
 tech.root: shell
 ms.assetid: 78c202dd-9f8c-43c1-a7be-48030bc34a9c

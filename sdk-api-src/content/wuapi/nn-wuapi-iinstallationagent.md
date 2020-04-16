@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IInstallationAgent
 title: IInstallationAgent (wuapi.h)
-description: Records the result for an update.
+description: Records the result for an update.helpviewer_keywords: ["IInstallationAgent","IInstallationAgent interface [Windows Update Agent]","IInstallationAgent interface [Windows Update Agent]","described","wua.iinstallationagent","wuapi/IInstallationAgent"]
 old-location: wua\iinstallationagent.htm
 tech.root: Wua_Sdk
 ms.assetid: B24B527C-D92B-4BEB-ADCC-5E2BA684A478

@@ -1,7 +1,7 @@
 ---
 UID: NF:icontact.IContactCollection.GetCurrent
 title: IContactCollection::GetCurrent (icontact.h)
-description: Retrieves the current contact in the enumeration.
+description: Retrieves the current contact in the enumeration.helpviewer_keywords: ["GetCurrent","GetCurrent method [Windows Contacts]","GetCurrent method [Windows Contacts]","IContactCollection interface","IContactCollection interface [Windows Contacts]","GetCurrent method","IContactCollection.GetCurrent","IContactCollection::GetCurrent","_wincontacts_IContactCollection_GetCurrent","icontact/IContactCollection::GetCurrent","wincontacts._wincontacts_IContactCollection_GetCurrent"]
 old-location: wincontacts\_wincontacts_IContactCollection_GetCurrent.htm
 tech.root: wincontacts
 ms.assetid: e5a5d27d-121a-4755-892e-53d148facd74

@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqStats
 title: RpcMgmtInqStats function (rpcdce.h)
-description: The RpcMgmtInqStats function returns RPC run-time statistics.
+description: The RpcMgmtInqStats function returns RPC run-time statistics.helpviewer_keywords: ["RpcMgmtInqStats","RpcMgmtInqStats function [RPC]","_rpc_rpcmgmtinqstats","rpc.rpcmgmtinqstats","rpcdce/RpcMgmtInqStats"]
 old-location: rpc\rpcmgmtinqstats.htm
 tech.root: Rpc
 ms.assetid: 478b9f33-db01-4a1d-9b5b-dc2662ee8d7b

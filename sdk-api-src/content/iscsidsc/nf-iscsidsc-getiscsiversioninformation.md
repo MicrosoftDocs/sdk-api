@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.GetIScsiVersionInformation
 title: GetIScsiVersionInformation function (iscsidsc.h)
-description: GetIscsiVersionInformation function retrieves information about the initiator version.
+description: GetIscsiVersionInformation function retrieves information about the initiator version.helpviewer_keywords: ["GetIScsiVersionInformation","GetIscsiVersionInformation","GetIscsiVersionInformation function [iSCSI Discovery Library API]","iscsidisc.getiscsiversioninformation","iscsidsc/GetIscsiVersionInformation"]
 old-location: iscsidisc\getiscsiversioninformation.htm
 tech.root: iSCSIDisc
 ms.assetid: b1b17aa4-1aa8-440e-a9d8-f11c03e48afc

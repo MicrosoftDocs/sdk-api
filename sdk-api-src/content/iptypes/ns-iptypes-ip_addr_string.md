@@ -1,7 +1,7 @@
 ---
 UID: NS:iptypes._IP_ADDR_STRING
 title: IP_ADDR_STRING (iptypes.h)
-description: Represents a node in a linked-list of IPv4 addresses.
+description: Represents a node in a linked-list of IPv4 addresses.helpviewer_keywords: ["*PIP_ADDR_STRING","IP_ADDR_STRING","IP_ADDR_STRING structure [IP Helper]","PIP_ADDR_STRING","PIP_ADDR_STRING structure pointer [IP Helper]","_iphlp_ip_addr_string","iphlp.ip_addr_string","iptypes/IP_ADDR_STRING","iptypes/PIP_ADDR_STRING"]
 old-location: iphlp\ip_addr_string.htm
 tech.root: IpHlp
 ms.assetid: 783c383d-7fd3-45bc-90f6-2e8ce01db3c3

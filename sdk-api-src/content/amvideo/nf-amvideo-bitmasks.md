@@ -1,7 +1,7 @@
 ---
 UID: NF:amvideo.BITMASKS
 title: BITMASKS macro (amvideo.h)
-description: The BITMASKS macro retrieves the color masks from a VIDEOINFO structure.
+description: The BITMASKS macro retrieves the color masks from a VIDEOINFO structure.helpviewer_keywords: ["BITMASKS","BITMASKS macro [DirectShow]","amvideo/BITMASKS","dshow.bitmasks"]
 old-location: dshow\bitmasks.htm
 tech.root: DirectShow
 ms.assetid: e90ddeab-a3d6-4d34-8608-4d8831d81fe5

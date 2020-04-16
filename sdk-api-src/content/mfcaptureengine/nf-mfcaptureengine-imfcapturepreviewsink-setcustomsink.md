@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetCustomSink
 title: IMFCapturePreviewSink::SetCustomSink (mfcaptureengine.h)
-description: Sets a custom media sink for preview.
+description: Sets a custom media sink for preview.helpviewer_keywords: ["IMFCapturePreviewSink interface [Media Foundation]","SetCustomSink method","IMFCapturePreviewSink.SetCustomSink","IMFCapturePreviewSink::SetCustomSink","SetCustomSink","SetCustomSink method [Media Foundation]","SetCustomSink method [Media Foundation]","IMFCapturePreviewSink interface","mf.imfcapturepreviewsink_setcustomsink","mfcaptureengine/IMFCapturePreviewSink::SetCustomSink"]
 old-location: mf\imfcapturepreviewsink_setcustomsink.htm
 tech.root: medfound
 ms.assetid: 98D6F026-408F-4C22-B4A3-68C1B0EFD1E9

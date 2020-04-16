@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IAMTVAudioNotification
 title: IAMTVAudioNotification (strmif.h)
-description: Note  This callback interface has been deprecated, because the TV Audio filter does not implement the callback mechanism. .
+description: Note  This callback interface has been deprecated, because the TV Audio filter does not implement the callback mechanism. .helpviewer_keywords: ["IAMTVAudioNotification","IAMTVAudioNotification interface [DirectShow]","IAMTVAudioNotification interface [DirectShow]","described","IAMTVAudioNotificationInterface","dshow.iamtvaudionotification","strmif/IAMTVAudioNotification"]
 old-location: dshow\iamtvaudionotification.htm
 tech.root: DirectShow
 ms.assetid: 4f84586f-7384-4dd7-99ce-325fb609daae

@@ -1,7 +1,7 @@
 ---
 UID: NF:certbcli.CertSrvIsServerOnlineW
 title: CertSrvIsServerOnlineW function (certbcli.h)
-description: Determines if a Certificate Services server is online; if the Certificate Services server is not online, backup operations will not be successful.
+description: Determines if a Certificate Services server is online; if the Certificate Services server is not online, backup operations will not be successful.helpviewer_keywords: ["CertSrvIsServerOnline","CertSrvIsServerOnline function [Security]","CertSrvIsServerOnlineW","_certsrv_certsrvisserveronline","certbcli/CertSrvIsServerOnline","certbcli/CertSrvIsServerOnlineW","security.certsrvisserveronline"]
 old-location: security\certsrvisserveronline.htm
 tech.root: SecCrypto
 ms.assetid: fce1ea87-6c02-433e-af38-99b33528b1f1

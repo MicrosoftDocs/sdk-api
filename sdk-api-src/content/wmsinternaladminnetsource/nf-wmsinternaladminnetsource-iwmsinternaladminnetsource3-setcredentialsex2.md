@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource3.SetCredentialsEx2
 title: IWMSInternalAdminNetSource3::SetCredentialsEx2 (wmsinternaladminnetsource.h)
-description: The SetCredentialsEx2 method adds a password to the cache. This improved version of IWMSInternalAdminNetSource2::SetCredentialsEx adds a flag (fClearTextAuthentication) that indicates whether credentials were sent in unencrypted form over the network.
+description: The SetCredentialsEx2 method adds a password to the cache. This improved version of IWMSInternalAdminNetSource2::SetCredentialsEx adds a flag (fClearTextAuthentication) that indicates whether credentials were sent in unencrypted form over the network.helpviewer_keywords: ["IWMSInternalAdminNetSource3 interface [windows Media Format]","SetCredentialsEx2 method","IWMSInternalAdminNetSource3.SetCredentialsEx2","IWMSInternalAdminNetSource3::SetCredentialsEx2","IWMSInternalAdminNetSource3SetCredentialsEx3","SetCredentialsEx2","SetCredentialsEx2 method [windows Media Format]","SetCredentialsEx2 method [windows Media Format]","IWMSInternalAdminNetSource3 interface","wmformat.iwmsinternaladminnetsource3_setcredentialsex2","wmsinternaladminnetsource/IWMSInternalAdminNetSource3::SetCredentialsEx2"]
 old-location: wmformat\iwmsinternaladminnetsource3_setcredentialsex2.htm
 tech.root: wmformat
 ms.assetid: 6d4fbd40-46f8-4f9e-b2bc-43c09acf4d67

@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Skip
 title: IEnumWorkItems::Skip (mstask.h)
-description: Skips the next specified number of tasks in the enumeration sequence.
+description: Skips the next specified number of tasks in the enumeration sequence.helpviewer_keywords: ["IEnumWorkItems interface [Task Scheduler]","Skip method","IEnumWorkItems.Skip","IEnumWorkItems::Skip","Skip","Skip method [Task Scheduler]","Skip method [Task Scheduler]","IEnumWorkItems interface","_msb_ienumworkitems_skip","mstask/IEnumWorkItems::Skip","taskschd.ienumworkitems_skip"]
 old-location: taskschd\ienumworkitems_skip.htm
 tech.root: taskschd
 ms.assetid: 5f4c7c98-a802-4fc3-b88f-bb37826f8199

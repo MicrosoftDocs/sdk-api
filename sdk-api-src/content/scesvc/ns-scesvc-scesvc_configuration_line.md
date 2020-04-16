@@ -1,7 +1,7 @@
 ---
 UID: NS:scesvc._SCESVC_CONFIGURATION_LINE_
 title: SCESVC_CONFIGURATION_LINE (scesvc.h)
-description: The SCESVC_CONFIGURATION_LINE structure contains information about a line of configuration data. It is used by the SCESVC_CONFIGURATION_INFO structure.
+description: The SCESVC_CONFIGURATION_LINE structure contains information about a line of configuration data. It is used by the SCESVC_CONFIGURATION_INFO structure.helpviewer_keywords: ["*PSCESVC_CONFIGURATION_LINE","PSCESVC_CONFIGURATION_LINE","PSCESVC_CONFIGURATION_LINE structure pointer [Security]","SCESVC_CONFIGURATION_LINE","SCESVC_CONFIGURATION_LINE structure [Security]","_config_scesvc_configuration_line","scesvc/PSCESVC_CONFIGURATION_LINE","scesvc/SCESVC_CONFIGURATION_LINE","security.scesvc_configuration_line"]
 old-location: security\scesvc_configuration_line.htm
 tech.root: SecMgmt
 ms.assetid: 25801b20-9a7a-423e-8fa3-86896a8fbae4

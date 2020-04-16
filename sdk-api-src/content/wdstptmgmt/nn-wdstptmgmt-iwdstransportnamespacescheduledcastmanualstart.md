@@ -1,7 +1,7 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceScheduledCastManualStart
 title: IWdsTransportNamespaceScheduledCastManualStart (wdstptmgmt.h)
-description: An administrator must start transmission on an object of an IWdsTransportNamespaceScheduledCastManualStart interface. Applications can continue to join sessions of the namespace until the administrator starts transmission.
+description: An administrator must start transmission on an object of an IWdsTransportNamespaceScheduledCastManualStart interface. Applications can continue to join sessions of the namespace until the administrator starts transmission.helpviewer_keywords: ["IWdsTransportNamespaceScheduledCastManualStart","IWdsTransportNamespaceScheduledCastManualStart interface [Windows Deployment Services]","IWdsTransportNamespaceScheduledCastManualStart interface [Windows Deployment Services]","described","wds.iwdstransportnamespacescheduledcastmanualstart","wdstptmgmt/IWdsTransportNamespaceScheduledCastManualStart"]
 old-location: wds\iwdstransportnamespacescheduledcastmanualstart.htm
 tech.root: wds
 ms.assetid: ffbbdd4c-5d64-4ec0-a2f3-a5d31aec6402

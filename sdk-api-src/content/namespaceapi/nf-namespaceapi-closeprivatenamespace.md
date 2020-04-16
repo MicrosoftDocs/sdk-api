@@ -1,7 +1,7 @@
 ---
 UID: NF:namespaceapi.ClosePrivateNamespace
 title: ClosePrivateNamespace function (namespaceapi.h)
-description: Closes an open namespace handle.
+description: Closes an open namespace handle.helpviewer_keywords: ["ClosePrivateNamespace","ClosePrivateNamespace function","base.closeprivatenamespace","namespaceapi/ClosePrivateNamespace","winbase/ClosePrivateNamespace"]
 old-location: base\closeprivatenamespace.htm
 tech.root: Sync
 ms.assetid: b9b74cf2-bf13-4ceb-9242-bc6a884ac6f1

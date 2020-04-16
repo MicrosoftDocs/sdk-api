@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcFactory.CreatePackage
 title: IOpcFactory::CreatePackage (msopc.h)
-description: Creates a package object that represents an empty package.
+description: Creates a package object that represents an empty package.helpviewer_keywords: ["CreatePackage","CreatePackage method [Open Packaging Conventions]","CreatePackage method [Open Packaging Conventions]","IOpcFactory interface","IOpcFactory interface [Open Packaging Conventions]","CreatePackage method","IOpcFactory.CreatePackage","IOpcFactory::CreatePackage","msopc/IOpcFactory::CreatePackage","opc.iopcfactory_createpackage"]
 old-location: opc\iopcfactory_createpackage.htm
 tech.root: OPC
 ms.assetid: 9cd4ef3a-f890-40d5-a398-cb8f9746c380

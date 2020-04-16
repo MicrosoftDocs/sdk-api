@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IATSCChannelTuneRequest
 title: IATSCChannelTuneRequest (tuner.h)
-description: The IATSCChannelTuneRequest interface provides methods for tuning to a channel in an ATSC network. The ATSCChannelTuneRequest object implements this interface.
+description: The IATSCChannelTuneRequest interface provides methods for tuning to a channel in an ATSC network. The ATSCChannelTuneRequest object implements this interface.helpviewer_keywords: ["IATSCChannelTuneRequest","IATSCChannelTuneRequest interface [Microsoft TV Technologies]","IATSCChannelTuneRequest interface [Microsoft TV Technologies]","described","IATSCChannelTuneRequestInterface","mstv.iatscchanneltunerequest","tuner/IATSCChannelTuneRequest"]
 old-location: mstv\iatscchanneltunerequest.htm
 tech.root: mstv
 ms.assetid: 9b55e181-ae03-473c-a85a-f169744d911d

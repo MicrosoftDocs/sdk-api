@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector2LessOrEqual
 title: XMVector2LessOrEqual function (directxmath.h)
-description: Tests whether one 2D vector is less-than-or-equal-to another 2D vector.
+description: Tests whether one 2D vector is less-than-or-equal-to another 2D vector.helpviewer_keywords: ["Use DirectX..XMVector2LessOrEqual","XMVector2LessOrEqual","XMVector2LessOrEqual method [DirectX Math Support APIs]","dxmath.xmvector2lessorequal"]
 old-location: dxmath\xmvector2lessorequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2LessOrEqual(XMVECTOR,XMVECTOR)

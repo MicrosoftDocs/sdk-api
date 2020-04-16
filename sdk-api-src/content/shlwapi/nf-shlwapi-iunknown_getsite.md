@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IUnknown_GetSite
 title: IUnknown_GetSite function (shlwapi.h)
-description: Calls the specified object's IObjectWithSite::GetSite method.
+description: Calls the specified object's IObjectWithSite::GetSite method.helpviewer_keywords: ["IUnknown_GetSite","IUnknown_GetSite function [Windows Shell]","_win32_IUnknown_GetSite","shell.IUnknown_GetSite","shlwapi/IUnknown_GetSite"]
 old-location: shell\IUnknown_GetSite.htm
 tech.root: shell
 ms.assetid: 95e83078-ab74-40d6-8e31-653e578770f2

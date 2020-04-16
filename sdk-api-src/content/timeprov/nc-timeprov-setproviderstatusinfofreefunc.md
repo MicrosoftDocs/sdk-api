@@ -1,7 +1,7 @@
 ---
 UID: NC:timeprov.SetProviderStatusInfoFreeFunc
 title: SetProviderStatusInfoFreeFunc (timeprov.h)
-description: Frees a SetProviderStatusInfo structure.
+description: Frees a SetProviderStatusInfo structure.helpviewer_keywords: ["SetProviderStatusInfoFreeFunc","SetProviderStatusInfoFreeFunc callback","SetProviderStatusInfoFreeFunc callback function","_win32_setproviderstatusinfofreefunc","base.setproviderstatusinfofreefunc","timeprov/SetProviderStatusInfoFreeFunc"]
 old-location: base\setproviderstatusinfofreefunc.htm
 tech.root: SysInfo
 ms.assetid: ea26aa92-af2a-4764-934d-2a21989a216f

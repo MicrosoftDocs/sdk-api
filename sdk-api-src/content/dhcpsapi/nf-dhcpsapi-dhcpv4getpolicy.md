@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpV4GetPolicy
 title: DhcpV4GetPolicy function (dhcpsapi.h)
-description: Retrieves a policy from the DHCP Server.
+description: Retrieves a policy from the DHCP Server.helpviewer_keywords: ["DhcpV4GetPolicy","DhcpV4GetPolicy function [DHCP]","dhcp.dhcpv4getpolicy","dhcpsapi/DhcpV4GetPolicy"]
 old-location: dhcp\dhcpv4getpolicy.htm
 tech.root: DHCP
 ms.assetid: a6112bf8-5c1f-4f33-ba1f-b4903cc6befa

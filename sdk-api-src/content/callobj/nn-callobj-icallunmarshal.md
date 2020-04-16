@@ -1,7 +1,7 @@
 ---
 UID: NN:callobj.ICallUnmarshal
 title: ICallUnmarshal (callobj.h)
-description: Is used on the server (receiving) side of a remote invocation.
+description: Is used on the server (receiving) side of a remote invocation.helpviewer_keywords: ["ICallUnmarshal","ICallUnmarshal interface [COM]","ICallUnmarshal interface [COM]","described","_com_icallunmarshal_interface","callobj/ICallUnmarshal","com.icallunmarshal"]
 old-location: com\icallunmarshal.htm
 tech.root: com
 ms.assetid: 66de8d71-c27c-41bd-a741-02de5c779290

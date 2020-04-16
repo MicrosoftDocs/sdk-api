@@ -1,7 +1,7 @@
 ---
 UID: NS:appxpackaging.APPX_PACKAGE_WRITER_PAYLOAD_STREAM
 title: APPX_PACKAGE_WRITER_PAYLOAD_STREAM (appxpackaging.h)
-description: Contains the data and metadata of files to write into the app package.
+description: Contains the data and metadata of files to write into the app package.helpviewer_keywords: ["APPX_PACKAGE_WRITER_PAYLOAD_STREAM","APPX_PACKAGE_WRITER_PAYLOAD_STREAM structure [App packaging and management]","appxpackaging/APPX_PACKAGE_WRITER_PAYLOAD_STREAM","appxpkg.appx_package_writer_payload_stream"]
 old-location: appxpkg\appx_package_writer_payload_stream.htm
 tech.root: appxpkg
 ms.assetid: 0AB54C4B-6982-49A3-BFD3-E46E75954B08

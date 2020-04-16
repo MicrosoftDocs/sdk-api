@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PropVariantToWinRTPropertyValue
 title: PropVariantToWinRTPropertyValue function (propsys.h)
-description: Extracts data from a PROPVARIANT structure into a Windows Runtime property value.
+description: Extracts data from a PROPVARIANT structure into a Windows Runtime property value.helpviewer_keywords: ["PropVariantToWinRTPropertyValue","PropVariantToWinRTPropertyValue function [Windows Properties]","properties.propvarianttowinrtpropertyvalue","propsys/PropVariantToWinRTPropertyValue"]
 old-location: properties\propvarianttowinrtpropertyvalue.htm
 tech.root: properties
 ms.assetid: 38DD3673-17FD-4F2A-BA58-A1A9983B92BF

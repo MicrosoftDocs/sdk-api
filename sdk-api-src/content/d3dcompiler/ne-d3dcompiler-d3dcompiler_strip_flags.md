@@ -1,7 +1,7 @@
 ---
 UID: NE:d3dcompiler.D3DCOMPILER_STRIP_FLAGS
 title: D3DCOMPILER_STRIP_FLAGS (d3dcompiler.h)
-description: Strip flag options.
+description: Strip flag options.helpviewer_keywords: ["D3DCOMPILER_STRIP_DEBUG_INFO","D3DCOMPILER_STRIP_FLAGS","D3DCOMPILER_STRIP_FLAGS enumeration [HLSL]","D3DCOMPILER_STRIP_FORCE_DWORD","D3DCOMPILER_STRIP_PRIVATE_DATA","D3DCOMPILER_STRIP_REFLECTION_DATA","D3DCOMPILER_STRIP_ROOT_SIGNATURE","D3DCOMPILER_STRIP_TEST_BLOBS","d2322971-23ee-a7bd-cf13-8a393a03e8a9","d3dcompiler/D3DCOMPILER_STRIP_DEBUG_INFO","d3dcompiler/D3DCOMPILER_STRIP_FLAGS","d3dcompiler/D3DCOMPILER_STRIP_FORCE_DWORD","d3dcompiler/D3DCOMPILER_STRIP_PRIVATE_DATA","d3dcompiler/D3DCOMPILER_STRIP_REFLECTION_DATA","d3dcompiler/D3DCOMPILER_STRIP_ROOT_SIGNATURE","d3dcompiler/D3DCOMPILER_STRIP_TEST_BLOBS","direct3dhlsl.d3dcompiler_strip_flags"]
 old-location: direct3dhlsl\d3dcompiler_strip_flags.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dcompiler_strip_flags.htm

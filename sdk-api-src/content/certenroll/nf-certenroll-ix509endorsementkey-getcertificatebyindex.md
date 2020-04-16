@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.GetCertificateByIndex
 title: IX509EndorsementKey::GetCertificateByIndex (certenroll.h)
-description: Gets the endorsement certificate associated with the endorsement key from the key storage provider for the specified index.
+description: Gets the endorsement certificate associated with the endorsement key from the key storage provider for the specified index.helpviewer_keywords: ["GetCertificateByIndex","GetCertificateByIndex method [Security]","GetCertificateByIndex method [Security]","IX509EndorsementKey interface","IX509EndorsementKey interface [Security]","GetCertificateByIndex method","IX509EndorsementKey.GetCertificateByIndex","IX509EndorsementKey::GetCertificateByIndex","certenroll/IX509EndorsementKey::GetCertificateByIndex","security.ix509endorsementkey_getcertificatebyindex"]
 old-location: security\ix509endorsementkey_getcertificatebyindex.htm
 tech.root: seccertenroll
 ms.assetid: ab1eb37a-d79e-4d02-8e60-6c093f42c68f

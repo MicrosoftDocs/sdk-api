@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsOffscreen
 title: IUIAutomationElement::get_CurrentIsOffscreen (uiautomationclient.h)
-description: Indicates whether the element is off-screen.
+description: Indicates whether the element is off-screen.helpviewer_keywords: ["CurrentIsOffscreen property [Windows Accessibility]","CurrentIsOffscreen property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentIsOffscreen property","IUIAutomationElement.CurrentIsOffscreen","IUIAutomationElement.get_CurrentIsOffscreen","IUIAutomationElement::CurrentIsOffscreen","IUIAutomationElement::get_CurrentIsOffscreen","get_CurrentIsOffscreen","uiauto.uiauto_IUIAutomationElement_CurrentIsOffscreen","uiauto_IUIAutomationElement_CurrentIsOffscreen","uiautomationclient/IUIAutomationElement::CurrentIsOffscreen","uiautomationclient/IUIAutomationElement::get_CurrentIsOffscreen","winauto.uiauto_IUIAutomationElement_CurrentIsOffscreen"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsOffscreen.htm
 tech.root: WinAuto
 ms.assetid: 51bec7bd-a547-4c75-ab8a-ebdd9bbd6c01

@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.IEnumNetSharingPrivateConnection.Reset
 title: IEnumNetSharingPrivateConnection::Reset (netcon.h)
-description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.
+description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.helpviewer_keywords: ["IEnumNetSharingPrivateConnection interface [ICS/ICF]","Reset method","IEnumNetSharingPrivateConnection.Reset","IEnumNetSharingPrivateConnection::Reset","Reset","Reset method [ICS/ICF]","Reset method [ICS/ICF]","IEnumNetSharingPrivateConnection interface","_ics_ienumnetsharingprivateconnection_reset","ics.ienumnetsharingprivateconnection_reset","netcon/IEnumNetSharingPrivateConnection::Reset"]
 old-location: ics\ienumnetsharingprivateconnection_reset.htm
 tech.root: ics
 ms.assetid: 9d68eccf-eb96-47f9-8ca3-97b7918a52fe

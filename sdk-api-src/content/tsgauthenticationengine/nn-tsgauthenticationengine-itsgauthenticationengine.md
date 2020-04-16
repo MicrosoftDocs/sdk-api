@@ -1,7 +1,7 @@
 ---
 UID: NN:tsgauthenticationengine.ITSGAuthenticationEngine
 title: ITSGAuthenticationEngine (tsgauthenticationengine.h)
-description: Exposes methods that authenticate users for Remote Desktop Gateway (RD Gateway).
+description: Exposes methods that authenticate users for Remote Desktop Gateway (RD Gateway).helpviewer_keywords: ["ITSGAuthenticationEngine","ITSGAuthenticationEngine interface [Remote Desktop Services]","ITSGAuthenticationEngine interface [Remote Desktop Services]","described","termserv.itsgauthenticationengine","tsgauthenticationengine/ITSGAuthenticationEngine"]
 old-location: termserv\itsgauthenticationengine.htm
 tech.root: TermServ
 ms.assetid: c72f3f22-a403-45b0-9ccb-6339ae001024

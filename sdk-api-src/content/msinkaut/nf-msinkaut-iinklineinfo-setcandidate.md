@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.SetCandidate
 title: IInkLineInfo::SetCandidate (msinkaut.h)
-description: Updates one recognition alternate in the recognition result list, either by replacing an existing alternate, or by adding an alternate to the list.
+description: Updates one recognition alternate in the recognition result list, either by replacing an existing alternate, or by adding an alternate to the list.helpviewer_keywords: ["0301706b-6d3e-4fe4-af87-764b1c959707","IInkLineInfo interface [Tablet PC]","SetCandidate method","IInkLineInfo.SetCandidate","IInkLineInfo::SetCandidate","SetCandidate","SetCandidate method [Tablet PC]","SetCandidate method [Tablet PC]","IInkLineInfo interface","msinkaut/IInkLineInfo::SetCandidate","tablet.iinklineinfo_setcandidate"]
 old-location: tablet\iinklineinfo_setcandidate.htm
 tech.root: tablet
 ms.assetid: 0301706b-6d3e-4fe4-af87-764b1c959707

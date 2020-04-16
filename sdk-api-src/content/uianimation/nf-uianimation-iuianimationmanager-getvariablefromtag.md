@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.GetVariableFromTag
 title: IUIAnimationManager::GetVariableFromTag (uianimation.h)
-description: Gets the animation variable with the specified tag.
+description: Gets the animation variable with the specified tag.helpviewer_keywords: ["GetVariableFromTag","GetVariableFromTag method [Windows Animation]","GetVariableFromTag method [Windows Animation]","IUIAnimationManager interface","IUIAnimationManager interface [Windows Animation]","GetVariableFromTag method","IUIAnimationManager.GetVariableFromTag","IUIAnimationManager::GetVariableFromTag","uianimation.iuianimationmanager_getvariablefromtag","uianimation/IUIAnimationManager::GetVariableFromTag"]
 old-location: uianimation\iuianimationmanager_getvariablefromtag.htm
 tech.root: UIAnimation
 ms.assetid: 611c5341-f225-461d-9718-a2432d796764

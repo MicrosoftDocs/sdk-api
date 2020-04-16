@@ -1,7 +1,7 @@
 ---
 UID: NS:udpmib._MIB_UDP6TABLE_OWNER_MODULE
 title: MIB_UDP6TABLE_OWNER_MODULE (udpmib.h)
-description: Contains the User Datagram Protocol (UDP) listener table for IPv6 on the local computer. The table also includes any available ownership data and the process ID (PID) that issued the call to the bind function for each UDP endpoint.
+description: Contains the User Datagram Protocol (UDP) listener table for IPv6 on the local computer. The table also includes any available ownership data and the process ID (PID) that issued the call to the bind function for each UDP endpoint.helpviewer_keywords: ["*PMIB_UDP6TABLE_OWNER_MODULE","MIB_UDP6TABLE_OWNER_MODULE","MIB_UDP6TABLE_OWNER_MODULE structure [MIB]","PMIB_UDP6TABLE_OWNER_MODULE","PMIB_UDP6TABLE_OWNER_MODULE structure pointer [MIB]","iprtrmib/MIB_UDP6TABLE_OWNER_MODULE","iprtrmib/PMIB_UDP6TABLE_OWNER_MODULE","mib.mib_udp6table_owner_module","udpmib/MIB_UDP6TABLE_OWNER_MODULE","udpmib/PMIB_UDP6TABLE_OWNER_MODULE"]
 old-location: mib\mib_udp6table_owner_module.htm
 tech.root: MIB
 ms.assetid: 11bf2d6d-b9bc-4a4d-b7b0-6f7d61eb3756

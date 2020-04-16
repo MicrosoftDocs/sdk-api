@@ -1,7 +1,7 @@
 ---
 UID: NS:evntrace._TRACE_GUID_INFO
 title: TRACE_GUID_INFO (evntrace.h)
-description: Defines the header to the list of sessions that enabled the provider specified in the InBuffer parameter of EnumerateTraceGuidsEx.
+description: Defines the header to the list of sessions that enabled the provider specified in the InBuffer parameter of EnumerateTraceGuidsEx.helpviewer_keywords: ["*PTRACE_GUID_INFO","PTRACE_GUID_INFO","PTRACE_GUID_INFO structure pointer [ETW]","TRACE_GUID_INFO","TRACE_GUID_INFO structure [ETW]","_TRACE_GUID_INFO","etw.trace_guid_info","evntrace/PTRACE_GUID_INFO","evntrace/TRACE_GUID_INFO"]
 old-location: etw\trace_guid_info.htm
 tech.root: ETW
 ms.assetid: 2c484adf-605d-420b-8059-942b35305acd

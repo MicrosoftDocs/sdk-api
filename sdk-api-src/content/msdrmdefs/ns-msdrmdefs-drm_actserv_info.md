@@ -1,7 +1,7 @@
 ---
 UID: NS:msdrmdefs._DRM_ACTSERV_INFO
 title: DRM_ACTSERV_INFO (msdrmdefs.h)
-description: The DRM_ACTSERV_INFO structure stores information about the activation server.
+description: The DRM_ACTSERV_INFO structure stores information about the activation server.helpviewer_keywords: ["DRM_ACTSERV_INFO","DRM_ACTSERV_INFO structure [Active Directory Rights Management Services SDK 1.0]","msdrmdefs/DRM_ACTSERV_INFO","rm.drm_actserv_info"]
 old-location: rm\drm_actserv_info.htm
 tech.root: AdRms_Sdk
 ms.assetid: 2ea83a08-ab86-4635-8684-519808430ce9

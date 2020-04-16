@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSigningOptions
 title: IXpsSigningOptions (xpsdigitalsignature.h)
-description: Provides access to the individual signing options that are used by new signatures.
+description: Provides access to the individual signing options that are used by new signatures.helpviewer_keywords: ["IXpsSigningOptions","IXpsSigningOptions interface [XPS Documents and Packaging]","IXpsSigningOptions interface [XPS Documents and Packaging]","described","xps.ixpssigningoptions","xpsdigitalsignature/IXpsSigningOptions"]
 old-location: xps\ixpssigningoptions.htm
 tech.root: printdocs
 ms.assetid: 71b9b348-1078-4f55-a071-e5e2f273f85c

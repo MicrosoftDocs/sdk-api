@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.OpenInputDesktop
 title: OpenInputDesktop function (winuser.h)
-description: Opens the desktop that receives user input.
+description: Opens the desktop that receives user input.helpviewer_keywords: ["DF_ALLOWOTHERACCOUNTHOOK","OpenInputDesktop","OpenInputDesktop function [Windows Stations and Desktops]","base.openinputdesktop","winstation.openinputdesktop","winuser/OpenInputDesktop"]
 old-location: winstation\openinputdesktop.htm
 tech.root: winstation
 ms.assetid: 023d421e-bf32-4e08-b5b3-b7b2ca6c4e00

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptHashPublicKeyInfo
 title: CryptHashPublicKeyInfo function (wincrypt.h)
-description: Encodes the public key information in a CERT_PUBLIC_KEY_INFO structure and computes the hash of the encoded bytes.
+description: Encodes the public key information in a CERT_PUBLIC_KEY_INFO structure and computes the hash of the encoded bytes.helpviewer_keywords: ["CryptHashPublicKeyInfo","CryptHashPublicKeyInfo function [Security]","_crypto2_crypthashpublickeyinfo","security.crypthashpublickeyinfo","wincrypt/CryptHashPublicKeyInfo"]
 old-location: security\crypthashpublickeyinfo.htm
 tech.root: SecCrypto
 ms.assetid: b0c419b7-ebb3-42c6-9f6a-59b55a2db1b2

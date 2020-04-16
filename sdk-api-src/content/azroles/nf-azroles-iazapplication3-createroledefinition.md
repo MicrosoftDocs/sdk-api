@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication3.CreateRoleDefinition
 title: IAzApplication3::CreateRoleDefinition (azroles.h)
-description: Creates a new IAzRoleDefinition object with the specified name.
+description: Creates a new IAzRoleDefinition object with the specified name.helpviewer_keywords: ["CreateRoleDefinition","CreateRoleDefinition method [Security]","CreateRoleDefinition method [Security]","IAzApplication3 interface","IAzApplication3 interface [Security]","CreateRoleDefinition method","IAzApplication3.CreateRoleDefinition","IAzApplication3::CreateRoleDefinition","azroles/IAzApplication3::CreateRoleDefinition","security.iazapplication3_createroledefinition"]
 old-location: security\iazapplication3_createroledefinition.htm
 tech.root: SecAuthZ
 ms.assetid: 014410be-4b2c-452b-b671-0a9bd9c0a448

@@ -1,7 +1,7 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.GetOptionValue
 title: ISpellCheckProvider::GetOptionValue (spellcheckprovider.h)
-description: Retrieves the value associated with the given option.
+description: Retrieves the value associated with the given option.helpviewer_keywords: ["GetOptionValue","GetOptionValue method [Internationalization for Windows Applications]","GetOptionValue method [Internationalization for Windows Applications]","ISpellCheckProvider interface","ISpellCheckProvider interface [Internationalization for Windows Applications]","GetOptionValue method","ISpellCheckProvider.GetOptionValue","ISpellCheckProvider::GetOptionValue","intl.ispellcheckprovider_getoptionvalue","spellcheckprovider/ISpellCheckProvider::GetOptionValue"]
 old-location: intl\ispellcheckprovider_getoptionvalue.htm
 tech.root: Intl
 ms.assetid: 4EE5DE54-DCA2-4DDC-BDE1-6417E4ADF4A2

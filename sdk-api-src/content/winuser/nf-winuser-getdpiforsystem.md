@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetDpiForSystem
 title: GetDpiForSystem function (winuser.h)
-description: Returns the system DPI.
+description: Returns the system DPI.helpviewer_keywords: ["GetDpiForSystem","GetDpiForSystem function [High DPI]","hidpi.getdpiforsystem","winuser/GetDpiForSystem"]
 old-location: hidpi\getdpiforsystem.htm
 tech.root: hidpi
 ms.assetid: B744EC4A-DB78-4654-B50F-C27CB7702899

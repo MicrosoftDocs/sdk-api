@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_GETSPI0_
 title: IPSEC_GETSPI0 (ipsectypes.h)
-description: The IPSEC_GETSPI0 structure contains information that must be supplied when requesting a security parameter index (SPI) from the IPsec driver.Note  IPSEC_GETSPI0 is the specific implementation of IPSEC_GETSPI used in Windows Vista.
+description: The IPSEC_GETSPI0 structure contains information that must be supplied when requesting a security parameter index (SPI) from the IPsec driver.Note  IPSEC_GETSPI0 is the specific implementation of IPSEC_GETSPI used in Windows Vista.helpviewer_keywords: ["IPSEC_GETSPI0","IPSEC_GETSPI0 structure [Filtering]","fwp.ipsec_getspi0","ipsectypes/IPSEC_GETSPI0"]
 old-location: fwp\ipsec_getspi0.htm
 tech.root: fwp
 ms.assetid: a43c447c-83b4-4ca4-a7c5-7e10e6607692

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.RegisterPointerInputTarget
 title: RegisterPointerInputTarget function (winuser.h)
-description: Allows the caller to register a target window to which all pointer input of the specified type is redirected.
+description: Allows the caller to register a target window to which all pointer input of the specified type is redirected.helpviewer_keywords: ["RegisterPointerInputTarget","RegisterPointerInputTarget function [Windows Accessibility]","inputmsg.registerpointerinputtarget","winauto.RegisterPointerInputTarget","winuser/RegisterPointerInputTarget"]
 old-location: winauto\RegisterPointerInputTarget.htm
 tech.root: WinAuto
 ms.assetid: 75faea24-91cd-448b-b67a-09fe530f1830

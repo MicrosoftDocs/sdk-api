@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.ObjectType
 title: ObjectType (gdiplusenums.h)
-description: The ObjectType enumeration indicates the object type value of an EMF+ record.
+description: The ObjectType enumeration indicates the object type value of an EMF+ record.helpviewer_keywords: ["ObjectType","ObjectType enumeration [GDI+]","ObjectTypeBrush","ObjectTypeCustomLineCap","ObjectTypeFont","ObjectTypeGraphics","ObjectTypeImageAttributes","ObjectTypeInvalid","ObjectTypeMax","ObjectTypeMin","ObjectTypePath","ObjectTypePen","ObjectTypeRegion","ObjectTypeStringFormat","_gdiplus_ENUM_ObjectType","gdiplus._gdiplus_ENUM_ObjectType","gdiplusenums/ObjectType","gdiplusenums/ObjectTypeBrush","gdiplusenums/ObjectTypeCustomLineCap","gdiplusenums/ObjectTypeFont","gdiplusenums/ObjectTypeGraphics","gdiplusenums/ObjectTypeImageAttributes","gdiplusenums/ObjectTypeInvalid","gdiplusenums/ObjectTypeMax","gdiplusenums/ObjectTypeMin","gdiplusenums/ObjectTypePath","gdiplusenums/ObjectTypePen","gdiplusenums/ObjectTypeRegion","gdiplusenums/ObjectTypeStringFormat"]
 old-location: gdiplus\_gdiplus_ENUM_ObjectType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\objecttype.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_TDT.GetUTCTime
 title: IDVB_TDT::GetUTCTime (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetUTCTime","GetUTCTime method [Microsoft TV Technologies]","GetUTCTime method [Microsoft TV Technologies]","IDVB_TDT interface","IDVB_TDT interface [Microsoft TV Technologies]","GetUTCTime method","IDVB_TDT.GetUTCTime","IDVB_TDT::GetUTCTime","IDVB_TDTGetUTCTime","dvbsiparser/IDVB_TDT::GetUTCTime","mstv.idvb_tdt_getutctime"]
 old-location: mstv\idvb_tdt_getutctime.htm
 tech.root: mstv
 ms.assetid: a3c45e91-3e30-4f22-aedb-d81024160e88

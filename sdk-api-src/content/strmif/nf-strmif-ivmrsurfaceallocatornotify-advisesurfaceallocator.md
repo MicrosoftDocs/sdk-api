@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator
 title: IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator (strmif.h)
-description: The AdviseSurfaceAllocator method is called by an application to instruct the VMR to use a custom allocator-presenter.
+description: The AdviseSurfaceAllocator method is called by an application to instruct the VMR to use a custom allocator-presenter.helpviewer_keywords: ["AdviseSurfaceAllocator","AdviseSurfaceAllocator method [DirectShow]","AdviseSurfaceAllocator method [DirectShow]","IVMRSurfaceAllocatorNotify interface","IVMRSurfaceAllocatorNotify interface [DirectShow]","AdviseSurfaceAllocator method","IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator","IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator","IVMRSurfaceAllocatorNotifyAdviseSurfaceAllocator","dshow.ivmrsurfaceallocatornotify_advisesurfaceallocator","strmif/IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator"]
 old-location: dshow\ivmrsurfaceallocatornotify_advisesurfaceallocator.htm
 tech.root: DirectShow
 ms.assetid: fdb0837c-1ee3-4dc9-b797-3d726c8ba3dc

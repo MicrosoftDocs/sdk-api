@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument2.ReleaseCallManager
 title: ITextDocument2::ReleaseCallManager (tom.h)
-description: Releases the call manager.
+description: Releases the call manager.helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","ReleaseCallManager method","ITextDocument2.ReleaseCallManager","ITextDocument2::ReleaseCallManager","ReleaseCallManager","ReleaseCallManager method [Windows Controls]","ReleaseCallManager method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_releasecallmanager","tom/ITextDocument2::ReleaseCallManager"]
 old-location: controls\itextdocument2_releasecallmanager.htm
 tech.root: Controls
 ms.assetid: 4d17fdcb-502c-43ab-9f74-7247a1f14f45

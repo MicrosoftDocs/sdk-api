@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IBindCtx.GetBindOptions
 title: IBindCtx::GetBindOptions (objidl.h)
-description: Retrieves the binding options stored in this bind context.
+description: Retrieves the binding options stored in this bind context.helpviewer_keywords: ["GetBindOptions","GetBindOptions method [COM]","GetBindOptions method [COM]","IBindCtx interface","IBindCtx interface [COM]","GetBindOptions method","IBindCtx.GetBindOptions","IBindCtx::GetBindOptions","_com_ibindctx_getbindoptions","com.ibindctx_getbindoptions","objidl/IBindCtx::GetBindOptions"]
 old-location: com\ibindctx_getbindoptions.htm
 tech.root: com
 ms.assetid: ccb239ee-922f-4e66-8aca-7651c0243a2b

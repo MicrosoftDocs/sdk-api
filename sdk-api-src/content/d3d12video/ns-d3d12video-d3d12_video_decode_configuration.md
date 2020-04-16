@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_CONFIGURATION
 title: D3D12_VIDEO_DECODE_CONFIGURATION
-description: Describes the configuration for a video decoder.
+description: Describes the configuration for a video decoder.helpviewer_keywords: ["D3D12_VIDEO_DECODE_CONFIGURATION","D3D12_VIDEO_DECODE_CONFIGURATION",""]
 tech.root: mf
 ms.assetid: 5caab68c-7bdb-4344-beab-ca09341459a1
 ms.date: 05/28/2019

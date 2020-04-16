@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_MapIDToIndex
 title: ListView_MapIDToIndex macro (commctrl.h)
-description: Maps the ID of an item to an index. You can use this macro or send the LVM_MAPIDTOINDEX message explicitly.
+description: Maps the ID of an item to an index. You can use this macro or send the LVM_MAPIDTOINDEX message explicitly.helpviewer_keywords: ["ListView_MapIDToIndex","ListView_MapIDToIndex macro [Windows Controls]","_win32_ListView_MapIDToIndex","_win32_ListView_MapIDToIndex_cpp","commctrl/ListView_MapIDToIndex","controls.ListView_MapIDToIndex","controls._win32_ListView_MapIDToIndex"]
 old-location: controls\ListView_MapIDToIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_mapidtoindex.htm

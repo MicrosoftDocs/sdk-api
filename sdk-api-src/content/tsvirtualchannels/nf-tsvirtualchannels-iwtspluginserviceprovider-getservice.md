@@ -1,7 +1,7 @@
 ---
 UID: NF:tsvirtualchannels.IWTSPluginServiceProvider.GetService
 title: IWTSPluginServiceProvider::GetService (tsvirtualchannels.h)
-description: Obtains the specified service.
+description: Obtains the specified service.helpviewer_keywords: ["GetService","GetService method [Remote Desktop Services]","GetService method [Remote Desktop Services]","IWTSPluginServiceProvider interface","IWTSPluginServiceProvider interface [Remote Desktop Services]","GetService method","IWTSPluginServiceProvider.GetService","IWTSPluginServiceProvider::GetService","RDCLIENT_BITMAP_RENDER_SERVICE","termserv.iwtspluginserviceprovider_getservice","tsvirtualchannels/IWTSPluginServiceProvider::GetService"]
 old-location: termserv\iwtspluginserviceprovider_getservice.htm
 tech.root: TermServ
 ms.assetid: dd99c312-7899-4a94-ad40-abfd1a168332

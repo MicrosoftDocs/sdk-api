@@ -1,7 +1,7 @@
 ---
 UID: NN:syncregistration.ISyncRegistrationChange
 title: ISyncRegistrationChange (syncregistration.h)
-description: Represents a change to the registration of a synchronization provider or a synchronization provider configuration UI. The changes are reported as registration events.
+description: Represents a change to the registration of a synchronization provider or a synchronization provider configuration UI. The changes are reported as registration events.helpviewer_keywords: ["ISyncRegistrationChange","ISyncRegistrationChange interface [Windows Sync]","ISyncRegistrationChange interface [Windows Sync]","described","syncregistration/ISyncRegistrationChange","winsync.isyncregistrationchange"]
 old-location: winsync\isyncregistrationchange.htm
 tech.root: winsync
 ms.assetid: 45376bd2-1f5f-4f4c-9c4c-f5add9438d5c

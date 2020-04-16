@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMShareable.GetType
 title: IXpsOMShareable::GetType (xpsobjectmodel.h)
-description: Gets the object type of the interface.
+description: Gets the object type of the interface.helpviewer_keywords: ["GetType","GetType method [XPS Documents and Packaging]","GetType method [XPS Documents and Packaging]","IXpsOMShareable interface","IXpsOMShareable interface [XPS Documents and Packaging]","GetType method","IXpsOMShareable.GetType","IXpsOMShareable::GetType","xps.ixpsomshareable_gettype","xpsobjectmodel/IXpsOMShareable::GetType"]
 old-location: xps\ixpsomshareable_gettype.htm
 tech.root: printdocs
 ms.assetid: 1d30e11e-1306-4721-b5fc-0419715ba2c8

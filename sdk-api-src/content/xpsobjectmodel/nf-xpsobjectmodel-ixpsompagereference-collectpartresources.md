@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.CollectPartResources
 title: IXpsOMPageReference::CollectPartResources (xpsobjectmodel.h)
-description: Creates a list of all part-based resources that are associated with the page.
+description: Creates a list of all part-based resources that are associated with the page.helpviewer_keywords: ["CollectPartResources","CollectPartResources method [XPS Documents and Packaging]","CollectPartResources method [XPS Documents and Packaging]","IXpsOMPageReference interface","IXpsOMPageReference interface [XPS Documents and Packaging]","CollectPartResources method","IXpsOMPageReference.CollectPartResources","IXpsOMPageReference::CollectPartResources","xps.ixpsompagereference_collectpartresources","xpsobjectmodel/IXpsOMPageReference::CollectPartResources"]
 old-location: xps\ixpsompagereference_collectpartresources.htm
 tech.root: printdocs
 ms.assetid: 52a45351-669c-42f3-b02b-afbf42727313

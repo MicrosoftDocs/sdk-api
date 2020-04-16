@@ -1,7 +1,7 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_TYPE
 title: EAP_METHOD_TYPE (eaptypes.h)
-description: Contains type, identification, and author information about an EAP method.
+description: Contains type, identification, and author information about an EAP method.helpviewer_keywords: ["EAP_METHOD_TYPE","EAP_METHOD_TYPE structure [EAPHost]","eaphost.eap_method_type","eaptypes/EAP_METHOD_TYPE"]
 old-location: eaphost\eap_method_type.htm
 tech.root: eaphost
 ms.assetid: 47702dd9-d9c2-4dd5-a12d-23a55b031d27

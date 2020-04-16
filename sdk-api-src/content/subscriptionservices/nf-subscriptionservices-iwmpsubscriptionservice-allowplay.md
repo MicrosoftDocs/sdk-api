@@ -1,7 +1,7 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService.allowPlay
 title: IWMPSubscriptionService::allowPlay (subscriptionservices.h)
-description: Note  This section describes functionality designed for use by online stores.
+description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPSubscriptionService interface [Windows Media Player]","allowPlay method","IWMPSubscriptionService.allowPlay","IWMPSubscriptionService::allowPlay","IWMPSubscriptionServiceallowPlay","allowPlay","allowPlay method [Windows Media Player]","allowPlay method [Windows Media Player]","IWMPSubscriptionService interface","subscriptionservices/IWMPSubscriptionService::allowPlay","wmp.iwmpsubscriptionservice_allowplay"]
 old-location: wmp\iwmpsubscriptionservice_allowplay.htm
 tech.root: WMP
 ms.assetid: 6350bf9d-f046-494f-8052-2a6f5339b4bd

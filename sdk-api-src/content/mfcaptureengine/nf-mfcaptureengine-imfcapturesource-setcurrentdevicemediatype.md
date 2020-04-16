@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.SetCurrentDeviceMediaType
 title: IMFCaptureSource::SetCurrentDeviceMediaType (mfcaptureengine.h)
-description: Sets the output format for a capture stream.
+description: Sets the output format for a capture stream.helpviewer_keywords: ["IMFCaptureSource interface [Media Foundation]","SetCurrentDeviceMediaType method","IMFCaptureSource.SetCurrentDeviceMediaType","IMFCaptureSource::SetCurrentDeviceMediaType","MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM","SetCurrentDeviceMediaType","SetCurrentDeviceMediaType method [Media Foundation]","SetCurrentDeviceMediaType method [Media Foundation]","IMFCaptureSource interface","mf.imfcapturesource_setcurrentdevicemediatype","mfcaptureengine/IMFCaptureSource::SetCurrentDeviceMediaType"]
 old-location: mf\imfcapturesource_setcurrentdevicemediatype.htm
 tech.root: medfound
 ms.assetid: 2B88BBAE-E837-4F4A-B697-64772F25C89D

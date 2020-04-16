@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICProgressiveLevelControl.GetLevelCount
 title: IWICProgressiveLevelControl::GetLevelCount (wincodec.h)
-description: Gets the number of levels of progressive decoding supported by the CODEC.
+description: Gets the number of levels of progressive decoding supported by the CODEC.helpviewer_keywords: ["GetLevelCount","GetLevelCount method [Windows Imaging Component]","GetLevelCount method [Windows Imaging Component]","IWICProgressiveLevelControl interface","IWICProgressiveLevelControl interface [Windows Imaging Component]","GetLevelCount method","IWICProgressiveLevelControl.GetLevelCount","IWICProgressiveLevelControl::GetLevelCount","_wic_codec_iwicprogressivelevelcontrol_getlevelcount","wic._wic_codec_iwicprogressivelevelcontrol_getlevelcount","wincodec/IWICProgressiveLevelControl::GetLevelCount"]
 old-location: wic\_wic_codec_iwicprogressivelevelcontrol_getlevelcount.htm
 tech.root: wic
 ms.assetid: f7949d31-c679-43ea-aa07-5f9f8579b4f7

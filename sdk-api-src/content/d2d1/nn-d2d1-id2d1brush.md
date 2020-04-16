@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1Brush
 title: ID2D1Brush (d2d1.h)
-description: Defines an object that paints an area. Interfaces that derive from ID2D1Brush describe how the area is painted.
+description: Defines an object that paints an area. Interfaces that derive from ID2D1Brush describe how the area is painted.helpviewer_keywords: ["ID2D1Brush","ID2D1Brush interface [Direct2D]","ID2D1Brush interface [Direct2D]","described","d2d1/ID2D1Brush","direct2d.ID2D1Brush"]
 old-location: direct2d\ID2D1Brush.htm
 tech.root: Direct2D
 ms.assetid: 5b8f6ff8-ba52-4d30-9bea-3de89793c868

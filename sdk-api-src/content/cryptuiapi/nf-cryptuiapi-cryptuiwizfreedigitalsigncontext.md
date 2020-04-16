@@ -1,7 +1,7 @@
 ---
 UID: NF:cryptuiapi.CryptUIWizFreeDigitalSignContext
 title: CryptUIWizFreeDigitalSignContext function (cryptuiapi.h)
-description: Frees the CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure allocated by the CryptUIWizDigitalSign function.
+description: Frees the CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure allocated by the CryptUIWizDigitalSign function.helpviewer_keywords: ["CryptUIWizFreeDigitalSignContext","CryptUIWizFreeDigitalSignContext function [Security]","cryptuiapi/CryptUIWizFreeDigitalSignContext","security.cryptuiwizfreedigitalsigncontext"]
 old-location: security\cryptuiwizfreedigitalsigncontext.htm
 tech.root: SecCrypto
 ms.assetid: 039615ee-0485-4698-944f-23359253767a

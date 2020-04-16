@@ -1,7 +1,7 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Decompose
 title: IMSVidCtl::Decompose (msvidctl.h)
-description: The Decompose method tears down the filter graph.
+description: The Decompose method tears down the filter graph.helpviewer_keywords: ["Decompose","Decompose method [Microsoft TV Technologies]","Decompose method [Microsoft TV Technologies]","IMSVidCtl interface","IMSVidCtl interface [Microsoft TV Technologies]","Decompose method","IMSVidCtl.Decompose","IMSVidCtl::Decompose","IMSVidCtlDecompose","mstv.imsvidctl_decompose","msvidctl/IMSVidCtl::Decompose"]
 old-location: mstv\imsvidctl_decompose.htm
 tech.root: mstv
 ms.assetid: e67bf380-dc2c-42c9-a995-17951c65fbda

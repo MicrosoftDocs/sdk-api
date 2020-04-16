@@ -1,7 +1,7 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.get_GroupBy
 title: IShellFolderViewDual3::get_GroupBy (shldisp.h)
-description: Gets the column used for grouping the folder view.
+description: Gets the column used for grouping the folder view.helpviewer_keywords: ["IShellFolderViewDual3 interface [Windows Shell]","get_GroupBy method","IShellFolderViewDual3.get_GroupBy","IShellFolderViewDual3::get_GroupBy","_shell_IShellFolderViewDual3_get_GroupBy","get_GroupBy","get_GroupBy method [Windows Shell]","get_GroupBy method [Windows Shell]","IShellFolderViewDual3 interface","shell.IShellFolderViewDual3_get_GroupBy","shldisp/IShellFolderViewDual3::get_GroupBy"]
 old-location: shell\IShellFolderViewDual3_get_GroupBy.htm
 tech.root: shell
 ms.assetid: 144fa908-01d3-43f4-95e6-2aad62c23912

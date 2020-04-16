@@ -1,7 +1,7 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE_PROPERTIES
 title: RECO_LATTICE_PROPERTIES (rectypes.h)
-description: Contains an array of pointers to property structures.
+description: Contains an array of pointers to property structures.helpviewer_keywords: ["1c3501a9-398d-4db1-82b2-82908e132a4a","RECO_LATTICE_PROPERTIES","RECO_LATTICE_PROPERTIES structure [Tablet PC]","rectypes/RECO_LATTICE_PROPERTIES","tablet.reco_lattice_properties"]
 old-location: tablet\reco_lattice_properties.htm
 tech.root: tablet
 ms.assetid: 1c3501a9-398d-4db1-82b2-82908e132a4a

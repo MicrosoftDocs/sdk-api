@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ComputeTransform.CalculateThreadgroups
 title: ID2D1ComputeTransform::CalculateThreadgroups (d2d1effectauthor.h)
-description: This method allows a compute-shader–based transform to select the number of thread groups to execute based on the number of output pixels it needs to fill.
+description: This method allows a compute-shader–based transform to select the number of thread groups to execute based on the number of output pixels it needs to fill.helpviewer_keywords: ["CalculateThreadgroups","CalculateThreadgroups method [Direct2D]","CalculateThreadgroups method [Direct2D]","ID2D1ComputeTransform interface","ID2D1ComputeTransform interface [Direct2D]","CalculateThreadgroups method","ID2D1ComputeTransform.CalculateThreadgroups","ID2D1ComputeTransform::CalculateThreadgroups","d2d1effectauthor/ID2D1ComputeTransform::CalculateThreadgroups","direct2d.id2d1computetransform_calculatethreadgroups"]
 old-location: direct2d\id2d1computetransform_calculatethreadgroups.htm
 tech.root: Direct2D
 ms.assetid: 6B662297-3EBE-459F-8284-7A59F67DB025

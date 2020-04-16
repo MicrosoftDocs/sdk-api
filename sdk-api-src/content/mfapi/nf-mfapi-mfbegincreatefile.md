@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFBeginCreateFile
 title: MFBeginCreateFile function (mfapi.h)
-description: Begins an asynchronous request to create a byte stream from a file.
+description: Begins an asynchronous request to create a byte stream from a file.helpviewer_keywords: ["MFBeginCreateFile","MFBeginCreateFile function [Media Foundation]","aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd","mf.mfbegincreatefile","mfapi/MFBeginCreateFile"]
 old-location: mf\mfbegincreatefile.htm
 tech.root: medfound
 ms.assetid: aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd

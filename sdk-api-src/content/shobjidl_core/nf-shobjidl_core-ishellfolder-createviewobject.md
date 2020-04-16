@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.CreateViewObject
 title: IShellFolder::CreateViewObject (shobjidl_core.h)
-description: Requests an object that can be used to obtain information from or interact with a folder object.
+description: Requests an object that can be used to obtain information from or interact with a folder object.helpviewer_keywords: ["CreateViewObject","CreateViewObject method [Windows Shell]","CreateViewObject method [Windows Shell]","IShellFolder interface","CreateViewObject method [Windows Shell]","IShellFolder2 interface","IShellFolder interface [Windows Shell]","CreateViewObject method","IShellFolder.CreateViewObject","IShellFolder2 interface [Windows Shell]","CreateViewObject method","IShellFolder2::CreateViewObject","IShellFolder::CreateViewObject","_win32_IShellFolder_CreateViewObject","shell.IShellFolder_CreateViewObject","shobjidl_core/IShellFolder2::CreateViewObject","shobjidl_core/IShellFolder::CreateViewObject"]
 old-location: shell\IShellFolder_CreateViewObject.htm
 tech.root: shell
 ms.assetid: 8a1b73ad-6719-403a-a8aa-27bef537b7a9

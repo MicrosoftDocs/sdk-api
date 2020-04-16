@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLInstallProofOfPurchaseEx
 title: SLInstallProofOfPurchaseEx function (slpublic.h)
-description: Register the product key with SL.
+description: Register the product key with SL.helpviewer_keywords: ["SLInstallProofOfPurchaseEx","SLInstallProofOfPurchaseEx function [Security]","security.slinstallproofofpurchaseex","slpublic/SLInstallProofOfPurchaseEx"]
 old-location: security\slinstallproofofpurchaseex.htm
 tech.root: SecSLApi
 ms.assetid: 3e80137d-a3e5-4f9e-a114-ac8d5dd69187

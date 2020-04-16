@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataCopier
 title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier (spatialaudiometadata.h)
-description: Creates an ISpatialAudioMetadataWriter object for copying spatial audio metadata items from one ISpatialAudioMetadataItems object to another.
+description: Creates an ISpatialAudioMetadataWriter object for copying spatial audio metadata items from one ISpatialAudioMetadataItems object to another.helpviewer_keywords: ["ActivateSpatialAudioMetadataCopier","ActivateSpatialAudioMetadataCopier method [Core Audio]","ActivateSpatialAudioMetadataCopier method [Core Audio]","ISpatialAudioMetadataClient interface","ISpatialAudioMetadataClient interface [Core Audio]","ActivateSpatialAudioMetadataCopier method","ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataCopier","ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier","coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatacopier","spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier"]
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadatacopier.htm
 tech.root: CoreAudio
 ms.assetid: 52534220-65A0-46BE-9A05-E00B84170382

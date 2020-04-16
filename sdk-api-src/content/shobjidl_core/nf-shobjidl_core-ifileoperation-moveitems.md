@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.MoveItems
 title: IFileOperation::MoveItems (shobjidl_core.h)
-description: Declares a set of items that are to be moved to a specified destination.
+description: Declares a set of items that are to be moved to a specified destination.helpviewer_keywords: ["IFileOperation interface [Windows Shell]","MoveItems method","IFileOperation.MoveItems","IFileOperation::MoveItems","MoveItems","MoveItems method [Windows Shell]","MoveItems method [Windows Shell]","IFileOperation interface","_shell_IFileOperation_MoveItems","shell.IFileOperation_MoveItems","shobjidl_core/IFileOperation::MoveItems"]
 old-location: shell\IFileOperation_MoveItems.htm
 tech.root: shell
 ms.assetid: 7b3c3fc9-5e08-44be-b0ba-a67702e2deb6

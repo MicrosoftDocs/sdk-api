@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.IClockVectorElement
 title: IClockVectorElement (winsync.h)
-description: Represents a clock vector element of a knowledge structure.
+description: Represents a clock vector element of a knowledge structure.helpviewer_keywords: ["IClockVectorElement","IClockVectorElement interface [Windows Sync]","IClockVectorElement interface [Windows Sync]","described","winsync.iclockvectorelement","winsync/IClockVectorElement"]
 old-location: winsync\iclockvectorelement.htm
 tech.root: winsync
 ms.assetid: cae24ef0-5b31-48c2-99bd-9e0954ec3b37

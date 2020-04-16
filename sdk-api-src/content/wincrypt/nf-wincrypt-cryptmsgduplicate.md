@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptMsgDuplicate
 title: CryptMsgDuplicate function (wincrypt.h)
-description: The CryptMsgDuplicate function duplicates a cryptographic message handle by incrementing its reference count.
+description: The CryptMsgDuplicate function duplicates a cryptographic message handle by incrementing its reference count.helpviewer_keywords: ["CryptMsgDuplicate","CryptMsgDuplicate function [Security]","_crypto2_cryptmsgduplicate","security.cryptmsgduplicate","wincrypt/CryptMsgDuplicate"]
 old-location: security\cryptmsgduplicate.htm
 tech.root: SecCrypto
 ms.assetid: 9b1142b9-0caa-4304-bfe6-1c27c6a7b782

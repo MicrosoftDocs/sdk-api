@@ -1,7 +1,7 @@
 ---
 UID: NS:raseapif._PPP_EAP_OUTPUT
 title: PPP_EAP_OUTPUT (raseapif.h)
-description: The authentication protocol uses the PPP_EAP_OUTPUT structure to communicate requests and status information to the Connection Manager on return from calls to RasEapMakeMessage.
+description: The authentication protocol uses the PPP_EAP_OUTPUT structure to communicate requests and status information to the Connection Manager on return from calls to RasEapMakeMessage.helpviewer_keywords: ["*PPPP_EAP_OUTPUT","PPPP_EAP_OUTPUT","PPPP_EAP_OUTPUT structure pointer [EAP]","PPP_EAP_OUTPUT","PPP_EAP_OUTPUT structure [EAP]","_eap_ppp_eap_output","eap.ppp_eap_output","raseapif/PPPP_EAP_OUTPUT","raseapif/PPP_EAP_OUTPUT"]
 old-location: eap\ppp_eap_output.htm
 tech.root: EAP
 ms.assetid: d1634973-f6af-4be3-914a-513098c5fccf

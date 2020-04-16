@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.IpRenewAddress
 title: IpRenewAddress function (iphlpapi.h)
-description: The IpRenewAddressfunction renews a lease on an IPv4 address previously obtained through Dynamic Host Configuration Protocol (DHCP).
+description: The IpRenewAddressfunction renews a lease on an IPv4 address previously obtained through Dynamic Host Configuration Protocol (DHCP).helpviewer_keywords: ["IpRenewAddress","IpRenewAddress function [IP Helper]","_iphlp_iprenewaddress","iphlp.iprenewaddress","iphlpapi/IpRenewAddress"]
 old-location: iphlp\iprenewaddress.htm
 tech.root: IpHlp
 ms.assetid: 25b1bf9f-3ae1-453c-baae-5f70ae46cd24

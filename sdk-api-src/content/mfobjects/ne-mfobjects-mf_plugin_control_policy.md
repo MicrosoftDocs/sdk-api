@@ -1,7 +1,7 @@
 ---
 UID: NE:mfobjects.MF_PLUGIN_CONTROL_POLICY
 title: MF_PLUGIN_CONTROL_POLICY (mfobjects.h)
-description: Defines policy settings for the IMFPluginControl2::SetPolicy method.
+description: Defines policy settings for the IMFPluginControl2::SetPolicy method.helpviewer_keywords: ["MF_PLUGIN_CONTROL_POLICY","MF_PLUGIN_CONTROL_POLICY enumeration [Media Foundation]","MF_PLUGIN_CONTROL_POLICY_USE_ALL_PLUGINS","MF_PLUGIN_CONTROL_POLICY_USE_APPROVED_PLUGINS","MF_PLUGIN_CONTROL_POLICY_USE_WEB_PLUGINS","mf.mf_plugin_control_policy","mfobjects/MF_PLUGIN_CONTROL_POLICY","mfobjects/MF_PLUGIN_CONTROL_POLICY_USE_ALL_PLUGINS","mfobjects/MF_PLUGIN_CONTROL_POLICY_USE_APPROVED_PLUGINS","mfobjects/MF_PLUGIN_CONTROL_POLICY_USE_WEB_PLUGINS"]
 old-location: mf\mf_plugin_control_policy.htm
 tech.root: medfound
 ms.assetid: AEA55D69-B3F1-463E-9DEC-B6BF7B9859D6

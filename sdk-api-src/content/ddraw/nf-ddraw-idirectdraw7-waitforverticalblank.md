@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDraw7.WaitForVerticalBlank
 title: IDirectDraw7::WaitForVerticalBlank (ddraw.h)
-description: Helps the application synchronize itself with the vertical-blank interval.
+description: Helps the application synchronize itself with the vertical-blank interval.helpviewer_keywords: ["DDWAITVB_BLOCKBEGIN","DDWAITVB_BLOCKBEGINEVENT","DDWAITVB_BLOCKEND","IDirectDraw7 interface [DirectDraw]","WaitForVerticalBlank method","IDirectDraw7.WaitForVerticalBlank","IDirectDraw7::WaitForVerticalBlank","WaitForVerticalBlank","WaitForVerticalBlank method [DirectDraw]","WaitForVerticalBlank method [DirectDraw]","IDirectDraw7 interface","ddraw/IDirectDraw7::WaitForVerticalBlank","directdraw.idirectdraw7_waitforverticalblank"]
 old-location: directdraw\idirectdraw7_waitforverticalblank.htm
 tech.root: directdraw
 ms.assetid: ea52805d-201d-4fbe-a99f-5c04b7d620b5

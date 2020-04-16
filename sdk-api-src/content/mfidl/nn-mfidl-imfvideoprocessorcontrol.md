@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFVideoProcessorControl
 title: IMFVideoProcessorControl (mfidl.h)
-description: Configures the Video Processor MFT.
+description: Configures the Video Processor MFT.helpviewer_keywords: ["IMFVideoProcessorControl","IMFVideoProcessorControl interface [Media Foundation]","IMFVideoProcessorControl interface [Media Foundation]","described","mf.imfvideoprocessorcontrol","mfidl/IMFVideoProcessorControl"]
 old-location: mf\imfvideoprocessorcontrol.htm
 tech.root: medfound
 ms.assetid: 6803B69E-CF84-45D5-804C-BD961BD5E13D

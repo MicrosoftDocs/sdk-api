@@ -1,7 +1,7 @@
 ---
 UID: NS:mbnapi.MBN_SMS_STATUS_INFO
 title: MBN_SMS_STATUS_INFO (mbnapi.h)
-description: The MBN_SMS_STATUS_INFO structure contains the status of the SMS message store of a device.
+description: The MBN_SMS_STATUS_INFO structure contains the status of the SMS message store of a device.helpviewer_keywords: ["MBN_SMS_STATUS_INFO","MBN_SMS_STATUS_INFO structure [Microsoft Broadband Networks]","mbn.mbn_sms_status_info","mbnapi/MBN_SMS_STATUS_INFO"]
 old-location: mbn\mbn_sms_status_info.htm
 tech.root: mbn
 ms.assetid: 9146d230-c96c-4d70-9bc5-e91896e19d35

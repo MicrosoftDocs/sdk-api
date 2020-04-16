@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineSetTerminal
 title: lineSetTerminal function (tapi.h)
-description: The lineSetTerminal function enables an application to specify which terminal information related to the specified line, address, or call is to be routed.
+description: The lineSetTerminal function enables an application to specify which terminal information related to the specified line, address, or call is to be routed.helpviewer_keywords: ["_tapi2_linesetterminal","lineSetTerminal","lineSetTerminal function [TAPI 2.2]","tapi/lineSetTerminal","tapi2.linesetterminal"]
 old-location: tapi2\linesetterminal.htm
 tech.root: Tapi
 ms.assetid: 362114d9-c5b6-4b78-bb31-811eb89fe82d

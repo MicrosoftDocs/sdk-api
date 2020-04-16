@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.TuningSpacesForName
 title: ITuningSpaceContainer::TuningSpacesForName (tuner.h)
-description: The TuningSpacesForName method retrieves a collection of tuning spaces that match the specified name.
+description: The TuningSpacesForName method retrieves a collection of tuning spaces that match the specified name.helpviewer_keywords: ["ITuningSpaceContainer interface [Microsoft TV Technologies]","TuningSpacesForName method","ITuningSpaceContainer.TuningSpacesForName","ITuningSpaceContainer::TuningSpacesForName","ITuningSpaceContainerTuningSpacesForName","TuningSpacesForName","TuningSpacesForName method [Microsoft TV Technologies]","TuningSpacesForName method [Microsoft TV Technologies]","ITuningSpaceContainer interface","mstv.ituningspacecontainer_tuningspacesforname","tuner/ITuningSpaceContainer::TuningSpacesForName"]
 old-location: mstv\ituningspacecontainer_tuningspacesforname.htm
 tech.root: mstv
 ms.assetid: de16a50e-7f5d-41e5-a17f-bb6d97179e4e

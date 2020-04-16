@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_REMOVEDEVICE_PARAMS
 title: SP_REMOVEDEVICE_PARAMS (setupapi.h)
-description: An SP_REMOVEDEVICE_PARAMS structure corresponds to the DIF_REMOVE installation request.
+description: An SP_REMOVEDEVICE_PARAMS structure corresponds to the DIF_REMOVE installation request.helpviewer_keywords: ["*PSP_REMOVEDEVICE_PARAMS","PSP_REMOVEDEVICE_PARAMS","PSP_REMOVEDEVICE_PARAMS structure pointer [Device and Driver Installation]","SP_REMOVEDEVICE_PARAMS","SP_REMOVEDEVICE_PARAMS structure [Device and Driver Installation]","devinst.sp_removedevice_params","di-struct_a1c87aad-2f81-4545-a088-1dadc98372d7.xml","setupapi/PSP_REMOVEDEVICE_PARAMS","setupapi/SP_REMOVEDEVICE_PARAMS"]
 old-location: devinst\sp_removedevice_params.htm
 tech.root: devinst
 ms.assetid: 08d3a5c7-9350-4fb3-8476-fb22e34d7054

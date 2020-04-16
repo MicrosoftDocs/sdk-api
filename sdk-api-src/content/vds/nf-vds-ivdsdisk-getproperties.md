@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsDisk.GetProperties
 title: IVdsDisk::GetProperties (vds.h)
-description: Returns property information for a disk.
+description: Returns property information for a disk.helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsDisk interface","IVdsDisk interface [VDS]","GetProperties method","IVdsDisk.GetProperties","IVdsDisk::GetProperties","base.ivdsdisk_getproperties","vds/IVdsDisk::GetProperties"]
 old-location: base\ivdsdisk_getproperties.htm
 tech.root: VDS
 ms.assetid: d2046a26-852d-46b2-b060-98b4a2a92387

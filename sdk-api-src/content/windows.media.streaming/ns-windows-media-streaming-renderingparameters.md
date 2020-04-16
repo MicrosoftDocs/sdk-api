@@ -1,7 +1,7 @@
 ---
 UID: NS:windows.media.streaming.RenderingParameters
 title: RenderingParameters (windows.media.streaming.h)
-description: Contains the current values of rendering parameters on the DMR.
+description: Contains the current values of rendering parameters on the DMR.helpviewer_keywords: ["RenderingParameters","RenderingParameters structure [Media Streaming API]","mediastreaming.renderingparameters","windows/RenderingParameters"]
 old-location: mediastreaming\renderingparameters.htm
 tech.root: mediastreaming
 ms.assetid: d5a558e1-75c3-4276-a6e7-4b688f871031

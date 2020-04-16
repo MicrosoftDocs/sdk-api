@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IFileDialog2
 title: IFileDialog2 (shobjidl.h)
-description: Extends the IFileDialog interface by providing methods that allow the caller to name a specific, restricted location that can be browsed in the common file dialog as well as to specify alternate text to display as a label on the Cancel button.
+description: Extends the IFileDialog interface by providing methods that allow the caller to name a specific, restricted location that can be browsed in the common file dialog as well as to specify alternate text to display as a label on the Cancel button.helpviewer_keywords: ["IFileDialog2","IFileDialog2 interface [Windows Shell]","IFileDialog2 interface [Windows Shell]","described","_shell_IFileDialog2","shell.IFileDialog2","shobjidl/IFileDialog2"]
 old-location: shell\IFileDialog2.htm
 tech.root: shell
 ms.assetid: be67a020-285d-4c1e-a8b5-8e1e90fae594

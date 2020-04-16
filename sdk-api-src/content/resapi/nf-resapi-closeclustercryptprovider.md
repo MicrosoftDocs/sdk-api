@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.CloseClusterCryptProvider
 title: CloseClusterCryptProvider function (resapi.h)
-description: Closes a handle to a Cryptographic Service Provider (CSP). The PCLOSE_CLUSTER_CRYPT_PROVIDER type defines a pointer to this function.
+description: Closes a handle to a Cryptographic Service Provider (CSP). The PCLOSE_CLUSTER_CRYPT_PROVIDER type defines a pointer to this function.helpviewer_keywords: ["CloseClusterCryptProvider","CloseClusterCryptProvider function [Failover Cluster]","PCLOSE_CLUSTER_CRYPT_PROVIDER","PCLOSE_CLUSTER_CRYPT_PROVIDER function [Failover Cluster]","mscs.closeclustercryptprovider","resapi/CloseClusterCryptProvider","resapi/PCLOSE_CLUSTER_CRYPT_PROVIDER"]
 old-location: mscs\closeclustercryptprovider.htm
 tech.root: MsCS
 ms.assetid: 844D991A-6B29-4ADE-8CFE-114FD4AF7C9B

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteTextRenderer1.DrawGlyphRun
 title: IDWriteTextRenderer1::DrawGlyphRun (dwrite_2.h)
-description: IDWriteTextLayout::Draw calls this function to instruct the client to render a run of glyphs.
+description: IDWriteTextLayout::Draw calls this function to instruct the client to render a run of glyphs.helpviewer_keywords: ["DrawGlyphRun","DrawGlyphRun method [Direct Write]","DrawGlyphRun method [Direct Write]","IDWriteTextRenderer1 interface","IDWriteTextRenderer1 interface [Direct Write]","DrawGlyphRun method","IDWriteTextRenderer1.DrawGlyphRun","IDWriteTextRenderer1::DrawGlyphRun","directwrite.idwritetextrenderer1_drawglyphrun","dwrite_2/IDWriteTextRenderer1::DrawGlyphRun"]
 old-location: directwrite\idwritetextrenderer1_drawglyphrun.htm
 tech.root: DirectWrite
 ms.assetid: b5f24a23-fb81-90f3-85de-55d8599a18d3

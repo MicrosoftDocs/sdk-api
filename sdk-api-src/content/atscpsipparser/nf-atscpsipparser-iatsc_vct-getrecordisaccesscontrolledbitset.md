@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordIsAccessControlledBitSet
 title: IATSC_VCT::GetRecordIsAccessControlledBitSet (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordIsAccessControlledBitSet","GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies]","GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetRecordIsAccessControlledBitSet method","IATSC_VCT.GetRecordIsAccessControlledBitSet","IATSC_VCT::GetRecordIsAccessControlledBitSet","IATSC_VCTGetRecordIsAccessControlledBitSet","atscpsipparser/IATSC_VCT::GetRecordIsAccessControlledBitSet","mstv.iatsc_vct_getrecordisaccesscontrolledbitset"]
 old-location: mstv\iatsc_vct_getrecordisaccesscontrolledbitset.htm
 tech.root: mstv
 ms.assetid: c94dc694-dc3f-4639-997e-fb6d534c9e4c

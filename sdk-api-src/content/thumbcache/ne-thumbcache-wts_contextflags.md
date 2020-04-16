@@ -1,7 +1,7 @@
 ---
 UID: NE:thumbcache.WTS_CONTEXTFLAGS
 title: WTS_CONTEXTFLAGS (thumbcache.h)
-description: Specifies the context of a thumbnail extraction. Used by IThumbnailSettings::SetContext.
+description: Specifies the context of a thumbnail extraction. Used by IThumbnailSettings::SetContext.helpviewer_keywords: ["WTSCF_APPSTYLE","WTSCF_DEFAULT","WTSCF_FAST","WTSCF_SQUARE","WTSCF_WIDE","WTS_CONTEXTFLAGS","WTS_CONTEXTFLAGS enumeration [Windows Shell]","shell.WTS_CONTEXTFLAGS","thumbcache/WTSCF_APPSTYLE","thumbcache/WTSCF_DEFAULT","thumbcache/WTSCF_FAST","thumbcache/WTSCF_SQUARE","thumbcache/WTSCF_WIDE","thumbcache/WTS_CONTEXTFLAGS"]
 old-location: shell\WTS_CONTEXTFLAGS.htm
 tech.root: shell
 ms.assetid: 062B148E-19FB-4bcd-82CE-669B2ACD0BF6

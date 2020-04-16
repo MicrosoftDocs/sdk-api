@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorColorTemperature
 title: GetMonitorColorTemperature function (highlevelmonitorconfigurationapi.h)
-description: Retrieves a monitor's current color temperature.
+description: Retrieves a monitor's current color temperature.helpviewer_keywords: ["GetMonitorColorTemperature","GetMonitorColorTemperature function [Monitor Configuration]","highlevelmonitorconfigurationapi/GetMonitorColorTemperature","monitor.getmonitorcolortemperature"]
 old-location: monitor\getmonitorcolortemperature.htm
 tech.root: Monitor
 ms.assetid: 872aabcc-b274-454c-a08b-6c4c5aa83012

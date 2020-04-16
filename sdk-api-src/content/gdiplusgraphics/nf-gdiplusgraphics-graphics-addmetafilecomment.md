@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.AddMetafileComment
 title: Graphics::AddMetafileComment (gdiplusgraphics.h)
-description: The Graphics::AddMetafileComment method adds a text comment to an existing metafile.
+description: The Graphics::AddMetafileComment method adds a text comment to an existing metafile.helpviewer_keywords: ["AddMetafileComment","AddMetafileComment method [GDI+]","AddMetafileComment method [GDI+]","Graphics class","Graphics class [GDI+]","AddMetafileComment method","Graphics.AddMetafileComment","Graphics::AddMetafileComment","_gdiplus_CLASS_Graphics_AddMetafileComment_data_sizeData_","gdiplus._gdiplus_CLASS_Graphics_AddMetafileComment_data_sizeData_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_AddMetafileComment_data_sizeData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\addmetafilecomment.htm

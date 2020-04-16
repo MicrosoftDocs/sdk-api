@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.SetClusterName
 title: SetClusterName function (clusapi.h)
-description: Sets the name for a cluster.
+description: Sets the name for a cluster.helpviewer_keywords: ["PCLUSAPI_SetClusterName","PCLUSAPI_SetClusterName function [Failover Cluster]","SetClusterName","SetClusterName function [Failover Cluster]","_wolf_setclustername","clusapi/PCLUSAPI_SetClusterName","clusapi/SetClusterName","mscs.setclustername"]
 old-location: mscs\setclustername.htm
 tech.root: MsCS
 ms.assetid: fac59879-d73c-4955-8454-a2e9d185da10

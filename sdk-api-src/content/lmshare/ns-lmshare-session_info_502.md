@@ -1,7 +1,7 @@
 ---
 UID: NS:lmshare._SESSION_INFO_502
 title: SESSION_INFO_502 (lmshare.h)
-description: Contains information about the session, including name of the computer; name of the user; open files, pipes, and devices on the computer; and the name of the transport the client is using.
+description: Contains information about the session, including name of the computer; name of the user; open files, pipes, and devices on the computer; and the name of the transport the client is using.helpviewer_keywords: ["*LPSESSION_INFO_502","*PSESSION_INFO_502","DOS LM 1.0","DOS LM 2.0","LPSESSION_INFO_502","LPSESSION_INFO_502 structure pointer [Files]","OS/2 LM 1.0","OS/2 LM 2.0","PSESSION_INFO_502","PSESSION_INFO_502 structure pointer [Files]","SESSION_INFO_502","SESSION_INFO_502 structure [Files]","SESS_GUEST","SESS_NOENCRYPTION","_win32_session_info_502_str","fs.session_info_502_str","lmshare/LPSESSION_INFO_502","lmshare/PSESSION_INFO_502","lmshare/SESSION_INFO_502","netmgmt.session_info_502_str"]
 old-location: fs\session_info_502_str.htm
 tech.root: NetShare
 ms.assetid: a86a00ae-f60a-4b12-a9ac-4b96f9abd6a2

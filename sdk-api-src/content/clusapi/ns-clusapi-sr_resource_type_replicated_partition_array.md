@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY
 title: SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY (clusapi.h)
-description: Lists the all replicated partitions on a disk.
+description: Lists the all replicated partitions on a disk.helpviewer_keywords: ["*PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY","PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY","PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY structure pointer [Failover Cluster]","SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY","SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY structure [Failover Cluster]","clusapi/PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY","clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY","mscs.sr_resource_type_replicated_partition_array"]
 old-location: mscs\sr_resource_type_replicated_partition_array.htm
 tech.root: MsCS
 ms.assetid: 3FD68FF6-3377-4EBF-95F4-94835ABB1274

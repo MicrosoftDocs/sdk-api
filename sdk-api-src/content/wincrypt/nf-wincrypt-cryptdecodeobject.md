@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptDecodeObject
 title: CryptDecodeObject function (wincrypt.h)
-description: The CryptDecodeObject function decodes a structure of the type indicated by the lpszStructType parameter. The use of CryptDecodeObjectEx is recommended as an API that performs the same function with significant performance improvements.
+description: The CryptDecodeObject function decodes a structure of the type indicated by the lpszStructType parameter. The use of CryptDecodeObjectEx is recommended as an API that performs the same function with significant performance improvements.helpviewer_keywords: ["CRYPT_DECODE_NOCOPY_FLAG","CRYPT_DECODE_NO_SIGNATURE_BYTE_REVERSAL_FLAG","CRYPT_DECODE_SHARE_OID_STRING_FLAG","CRYPT_DECODE_TO_BE_SIGNED_FLAG","CRYPT_UNICODE_NAME_DECODE_DISABLE_IE4_UTF8_FLAG","CryptDecodeObject","CryptDecodeObject function [Security]","_crypto2_cryptdecodeobject","security.cryptdecodeobject","wincrypt/CryptDecodeObject"]
 old-location: security\cryptdecodeobject.htm
 tech.root: SecCrypto
 ms.assetid: 7d5ed4f4-9d76-4a16-9059-27b0edd83459

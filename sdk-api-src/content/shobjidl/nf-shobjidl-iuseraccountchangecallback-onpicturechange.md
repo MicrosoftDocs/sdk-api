@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IUserAccountChangeCallback.OnPictureChange
 title: IUserAccountChangeCallback::OnPictureChange (shobjidl.h)
-description: Called to send notifications when the picture that represents a user account is changed.
+description: Called to send notifications when the picture that represents a user account is changed.helpviewer_keywords: ["IUserAccountChangeCallback interface [Windows Shell]","OnPictureChange method","IUserAccountChangeCallback.OnPictureChange","IUserAccountChangeCallback::OnPictureChange","OnPictureChange","OnPictureChange method [Windows Shell]","OnPictureChange method [Windows Shell]","IUserAccountChangeCallback interface","_shell_IUserAccountChangeCallback_OnPictureChange","shell.IUserAccountChangeCallback_OnPictureChange","shobjidl/IUserAccountChangeCallback::OnPictureChange"]
 old-location: shell\IUserAccountChangeCallback_OnPictureChange.htm
 tech.root: shell
 ms.assetid: 9e524edc-3921-4fec-9999-4fd9f51f347b

@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcMgmtEpEltInqDone
 title: RpcMgmtEpEltInqDone function (rpcdce.h)
-description: The RpcMgmtEpEltInqDone function deletes the inquiry context for viewing the elements in an endpoint map.
+description: The RpcMgmtEpEltInqDone function deletes the inquiry context for viewing the elements in an endpoint map.helpviewer_keywords: ["RpcMgmtEpEltInqDone","RpcMgmtEpEltInqDone function [RPC]","_rpc_rpcmgmtepeltinqdone","rpc.rpcmgmtepeltinqdone","rpcdce/RpcMgmtEpEltInqDone"]
 old-location: rpc\rpcmgmtepeltinqdone.htm
 tech.root: Rpc
 ms.assetid: 7a0aac99-8829-4720-a388-da88d015d596

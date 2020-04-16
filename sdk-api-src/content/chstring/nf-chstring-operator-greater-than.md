@@ -1,7 +1,7 @@
 ---
 UID: NF:chstring.operator-greater-than
 title: operator>
-description: 
+description: helpviewer_keywords: ["operator>"]
 ms.assetid: db9344bb-e0e8-408e-881f-17cea7fc541e
 ms.date: 05/20/2019
 ms.keywords: operator>

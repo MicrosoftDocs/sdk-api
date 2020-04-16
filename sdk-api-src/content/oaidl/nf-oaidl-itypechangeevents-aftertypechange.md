@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeChangeEvents.AfterTypeChange
 title: ITypeChangeEvents::AfterTypeChange (oaidl.h)
-description: Raised after a type has been changed.
+description: Raised after a type has been changed.helpviewer_keywords: ["AfterTypeChange","AfterTypeChange method [Automation]","AfterTypeChange method [Automation]","ITypeChangeEvents interface","CHANGEKIND_ADDMEMBER","CHANGEKIND_CHANGEFAILED","CHANGEKIND_DELETEMEMBER","CHANGEKIND_GENERAL","CHANGEKIND_INVALIDATE","CHANGEKIND_SETDOCUMENTATION","CHANGEKIND_SETNAMES","ITypeChangeEvents interface [Automation]","AfterTypeChange method","ITypeChangeEvents.AfterTypeChange","ITypeChangeEvents::AfterTypeChange","_oa96_ITypeChangeEvents_AfterTypeChange","automat.itypechangeevents_aftertypechange","oaidl/ITypeChangeEvents::AfterTypeChange"]
 old-location: automat\itypechangeevents_aftertypechange.htm
 tech.root: automat
 ms.assetid: 902663be-4cdb-47e5-916a-004483d6758e

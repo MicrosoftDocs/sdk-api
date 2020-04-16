@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetSigFromToken
 title: IMetaDataImport::GetSigFromToken (rometadataapi.h)
-description: Gets the binary metadata signature associated with the specified token.
+description: Gets the binary metadata signature associated with the specified token.helpviewer_keywords: ["GetSigFromToken","GetSigFromToken method [Windows Runtime]","GetSigFromToken method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetSigFromToken method","IMetaDataImport.GetSigFromToken","IMetaDataImport::GetSigFromToken","rometadataapi/IMetaDataImport::GetSigFromToken","winrt.imetadataimport_getsigfromtoken"]
 old-location: winrt\imetadataimport_getsigfromtoken.htm
 tech.root: WinRT
 ms.assetid: babd95ef-7786-47da-b5f6-c1fef93a4504

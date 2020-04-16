@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IPersistStorage.Load
 title: IPersistStorage::Load (objidl.h)
-description: Loads an object from its existing storage.
+description: Loads an object from its existing storage.helpviewer_keywords: ["IPersistStorage interface [COM]","Load method","IPersistStorage.Load","IPersistStorage::Load","Load","Load method [COM]","Load method [COM]","IPersistStorage interface","_com_ipersiststorage_load","com.ipersiststorage_load","objidl/IPersistStorage::Load"]
 old-location: com\ipersiststorage_load.htm
 tech.root: com
 ms.assetid: 34379b8d-4e00-49cd-9fd1-65f88746c61a

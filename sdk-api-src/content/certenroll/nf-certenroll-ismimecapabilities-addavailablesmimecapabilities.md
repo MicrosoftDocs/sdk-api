@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.AddAvailableSmimeCapabilities
 title: ISmimeCapabilities::AddAvailableSmimeCapabilities (certenroll.h)
-description: Adds ISmimeCapability objects to the collection by identifying the encryption algorithms supported by the default RSA cryptographic provider.
+description: Adds ISmimeCapability objects to the collection by identifying the encryption algorithms supported by the default RSA cryptographic provider.helpviewer_keywords: ["AddAvailableSmimeCapabilities","AddAvailableSmimeCapabilities method [Security]","AddAvailableSmimeCapabilities method [Security]","ISmimeCapabilities interface","ISmimeCapabilities interface [Security]","AddAvailableSmimeCapabilities method","ISmimeCapabilities.AddAvailableSmimeCapabilities","ISmimeCapabilities::AddAvailableSmimeCapabilities","certenroll/ISmimeCapabilities::AddAvailableSmimeCapabilities","security.ismimecapabilities_addavailablesmimecapabilities_method"]
 old-location: security\ismimecapabilities_addavailablesmimecapabilities_method.htm
 tech.root: seccertenroll
 ms.assetid: b3b087e7-9934-4d29-a516-db5bba824774

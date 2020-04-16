@@ -1,7 +1,7 @@
 ---
 UID: NS:naptypes.tagNetworkSoH
 title: NetworkSoH (naptypes.h)
-description: Defines the wire SoH protocol.
+description: Defines the wire SoH protocol.helpviewer_keywords: ["NetworkSoH","NetworkSoH structure [NAP]","NetworkSoHRequest","NetworkSoHRequest structure [NAP]","NetworkSoHResponse","NetworkSoHResponse structure [NAP]","nap.networksoh_struct","naptypes/NetworkSoH","naptypes/NetworkSoHRequest","naptypes/NetworkSoHResponse"]
 old-location: nap\networksoh_struct.htm
 tech.root: NAP
 ms.assetid: 7b1d4563-4758-40d8-be6c-51533bbcb09e

@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateCompoundFromArray
 title: IConditionFactory2::CreateCompoundFromArray (structuredquery.h)
-description: Creates a leaf condition node that is a conjunction (AND) or a disjunction (OR) from an array of condition nodes. The returned object supports ICondition and ICondition2.
+description: Creates a leaf condition node that is a conjunction (AND) or a disjunction (OR) from an array of condition nodes. The returned object supports ICondition and ICondition2.helpviewer_keywords: ["CreateCompoundFromArray","CreateCompoundFromArray method [search]","CreateCompoundFromArray method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateCompoundFromArray method","IConditionFactory2.CreateCompoundFromArray","IConditionFactory2::CreateCompoundFromArray","_search_IConditionFactory2_CreateCompoundFromArray","search._search_IConditionFactory2_CreateCompoundFromArray","structuredquery/IConditionFactory2::CreateCompoundFromArray"]
 old-location: search\_search_IConditionFactory2_CreateCompoundFromArray.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory\createcompoundfromarray.htm

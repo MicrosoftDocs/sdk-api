@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.media.streaming.IMediaRendererFactory
 title: IMediaRendererFactory (windows.media.streaming.h)
-description: Encapsulates the methods needed to asynchronously create a new instance of an object that implements the IMediaRenderer interface.
+description: Encapsulates the methods needed to asynchronously create a new instance of an object that implements the IMediaRenderer interface.helpviewer_keywords: ["IMediaRendererFactory","IMediaRendererFactory interface [Media Streaming API]","IMediaRendererFactory interface [Media Streaming API]","described","mediastreaming.imediarendererfactory","windows/IMediaRendererFactory"]
 old-location: mediastreaming\imediarendererfactory.htm
 tech.root: mediastreaming
 ms.assetid: E07EC208-CF00-46D0-B00D-AA8E59F12A0A

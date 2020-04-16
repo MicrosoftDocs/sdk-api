@@ -1,7 +1,7 @@
 ---
 UID: NF:mscat.CryptCATCDFClose
 title: CryptCATCDFClose function (mscat.h)
-description: Closes a catalog definition file (CDF) and frees the memory for the corresponding CRYPTCATCDF structure.
+description: Closes a catalog definition file (CDF) and frees the memory for the corresponding CRYPTCATCDF structure.helpviewer_keywords: ["CryptCATCDFClose","CryptCATCDFClose function [Security]","mscat/CryptCATCDFClose","security.cryptcatcdfclose"]
 old-location: security\cryptcatcdfclose.htm
 tech.root: SecCrypto
 ms.assetid: 9f2a1175-f9fe-4f4d-bf6f-e4f4c59739ec

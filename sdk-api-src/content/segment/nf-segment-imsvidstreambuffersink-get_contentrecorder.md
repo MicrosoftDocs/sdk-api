@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_ContentRecorder
 title: IMSVidStreamBufferSink::get_ContentRecorder (segment.h)
-description: The get_ContentRecorder method creates a new content recording object.
+description: The get_ContentRecorder method creates a new content recording object.helpviewer_keywords: ["IMSVidStreamBufferSink interface [Microsoft TV Technologies]","get_ContentRecorder method","IMSVidStreamBufferSink.get_ContentRecorder","IMSVidStreamBufferSink::get_ContentRecorder","IMSVidStreamBufferSinkget_ContentRecorder","get_ContentRecorder","get_ContentRecorder method [Microsoft TV Technologies]","get_ContentRecorder method [Microsoft TV Technologies]","IMSVidStreamBufferSink interface","mstv.imsvidstreambuffersink_get_contentrecorder","segment/IMSVidStreamBufferSink::get_ContentRecorder"]
 old-location: mstv\imsvidstreambuffersink_get_contentrecorder.htm
 tech.root: mstv
 ms.assetid: 9fecdf37-0ad2-499b-8604-5e60bb0aa6e2

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerCompleteRead
 title: WdsTransportServerCompleteRead function (wdstpdi.h)
-description: Provides status of read operation.
+description: Provides status of read operation.helpviewer_keywords: ["WdsTransportServerCompleteRead","WdsTransportServerCompleteRead function [Windows Deployment Services]","wds.wdstransportservercompleteread","wdstpdi/WdsTransportServerCompleteRead"]
 old-location: wds\wdstransportservercompleteread.htm
 tech.root: wds
 ms.assetid: 0f98305d-4173-4d6f-9132-f1fcc12364ed

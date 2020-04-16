@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplates.get_ItemByIndex
 title: IX509CertificateTemplates::get_ItemByIndex (certenroll.h)
-description: Retrieves an IX509CertificateTemplate object from the collection by index number.
+description: Retrieves an IX509CertificateTemplate object from the collection by index number.helpviewer_keywords: ["IX509CertificateTemplates interface [Security]","ItemByIndex property","IX509CertificateTemplates.ItemByIndex","IX509CertificateTemplates.get_ItemByIndex","IX509CertificateTemplates::ItemByIndex","IX509CertificateTemplates::get_ItemByIndex","ItemByIndex property [Security]","ItemByIndex property [Security]","IX509CertificateTemplates interface","certenroll/IX509CertificateTemplates::ItemByIndex","certenroll/IX509CertificateTemplates::get_ItemByIndex","get_ItemByIndex","security.ix509certificatetemplates_itembyindex"]
 old-location: security\ix509certificatetemplates_itembyindex.htm
 tech.root: seccertenroll
 ms.assetid: 1d7ddfd8-89f4-485a-ba90-83f2331168d2

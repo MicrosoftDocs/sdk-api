@@ -1,7 +1,7 @@
 ---
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManager.CreateVirtualSmartCard
 title: ITpmVirtualSmartCardManager::CreateVirtualSmartCard (tpmvscmgr.h)
-description: Creates a TPM virtual smart card with the given parameters.
+description: Creates a TPM virtual smart card with the given parameters.helpviewer_keywords: ["CreateVirtualSmartCard","CreateVirtualSmartCard method [Security]","CreateVirtualSmartCard method [Security]","ITpmVirtualSmartCardManager interface","ITpmVirtualSmartCardManager interface [Security]","CreateVirtualSmartCard method","ITpmVirtualSmartCardManager.CreateVirtualSmartCard","ITpmVirtualSmartCardManager::CreateVirtualSmartCard","security.itpmvirtualsmartcardmanager_createvirtualsmartcard","tpmvscmgr/ITpmVirtualSmartCardManager::CreateVirtualSmartCard"]
 old-location: security\itpmvirtualsmartcardmanager_createvirtualsmartcard.htm
 tech.root: SecAuthN
 ms.assetid: C80C4DE2-0C43-40A5-81E6-7036A0B8DEB7

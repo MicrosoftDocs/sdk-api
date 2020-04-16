@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_SmallChange
 title: IRangeValueProvider::get_SmallChange (uiautomationcore.h)
-description: Specifies the value that is added to or subtracted from the IRangeValueProvider::Value property when a small change is made, such as when an arrow key is pressed.
+description: Specifies the value that is added to or subtracted from the IRangeValueProvider::Value property when a small change is made, such as when an arrow key is pressed.helpviewer_keywords: ["IRangeValueProvider interface [Windows Accessibility]","SmallChange property","IRangeValueProvider.SmallChange","IRangeValueProvider.get_SmallChange","IRangeValueProvider::SmallChange","IRangeValueProvider::get_SmallChange","SmallChange property [Windows Accessibility]","SmallChange property [Windows Accessibility]","IRangeValueProvider interface","get_SmallChange","uiauto.uiauto_IRangeValueProvider_SmallChange","uiauto_IRangeValueProvider_SmallChange","uiautomationcore/IRangeValueProvider::SmallChange","uiautomationcore/IRangeValueProvider::get_SmallChange","winauto.uiauto_IRangeValueProvider_SmallChange"]
 old-location: winauto\uiauto_IRangeValueProvider_SmallChange.htm
 tech.root: WinAuto
 ms.assetid: 8230747d-d8c3-4708-a77a-7c76a62f39dd

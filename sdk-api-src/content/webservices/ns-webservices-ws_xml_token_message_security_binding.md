@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
 title: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING (webservices.h)
-description: The security binding subtype for specifying the use of a security token that is already available to the application in XML form.
+description: The security binding subtype for specifying the use of a security token that is already available to the application in XML form.helpviewer_keywords: ["WS_XML_TOKEN_MESSAGE_SECURITY_BINDING","WS_XML_TOKEN_MESSAGE_SECURITY_BINDING structure [Web Services for Windows]","webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING","wsw.ws_xml_token_message_security_binding"]
 old-location: wsw\ws_xml_token_message_security_binding.htm
 tech.root: wsw
 ms.assetid: 5ca1e67a-11f5-44bb-afe8-c934837d711b

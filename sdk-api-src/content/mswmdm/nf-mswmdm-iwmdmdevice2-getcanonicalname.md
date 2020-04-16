@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMDevice2.GetCanonicalName
 title: IWMDMDevice2::GetCanonicalName (mswmdm.h)
-description: The GetCanonicalName method retrieves the canonical name of the device.
+description: The GetCanonicalName method retrieves the canonical name of the device.helpviewer_keywords: ["GetCanonicalName","GetCanonicalName method [windows Media Device Manager]","GetCanonicalName method [windows Media Device Manager]","IWMDMDevice2 interface","IWMDMDevice2 interface [windows Media Device Manager]","GetCanonicalName method","IWMDMDevice2.GetCanonicalName","IWMDMDevice2::GetCanonicalName","IWMDMDevice2GetPnPName","mswmdm/IWMDMDevice2::GetCanonicalName","wmdm.iwmdmdevice2_getcanonicalname"]
 old-location: wmdm\iwmdmdevice2_getcanonicalname.htm
 tech.root: WMDM
 ms.assetid: 16e18a9e-315f-41a2-b895-e3e478720864

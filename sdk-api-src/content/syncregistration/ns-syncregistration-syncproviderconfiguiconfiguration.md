@@ -1,7 +1,7 @@
 ---
 UID: NS:syncregistration._SyncProviderConfigUIConfiguration
 title: SyncProviderConfigUIConfiguration (syncregistration.h)
-description: Represents the information for a synchronization provider configuration UI.
+description: Represents the information for a synchronization provider configuration UI.helpviewer_keywords: ["SyncProviderConfigUI","SyncProviderConfigUI structure [Windows Sync]","SyncProviderConfigUIConfiguration","SyncProviderConfigUIConfiguration structure [Windows Sync]","syncregistration/SyncProviderConfigUI","winsync.syncproviderconfiguiconfiguration"]
 old-location: winsync\syncproviderconfiguiconfiguration.htm
 tech.root: winsync
 ms.assetid: 4f07719b-c1e5-4985-a952-0ff07601bf1a

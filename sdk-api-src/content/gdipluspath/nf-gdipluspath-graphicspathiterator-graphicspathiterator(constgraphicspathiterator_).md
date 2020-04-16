@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.GraphicsPathIterator(const GraphicsPathIterator &)
 title: GraphicsPathIterator::GraphicsPathIterator(const GraphicsPathIterator &) (gdipluspath.h)
-description: Creates a new GraphicsPathIterator::GraphicsPathIterator object and associates it with a GraphicsPath object.
+description: Creates a new GraphicsPathIterator::GraphicsPathIterator object and associates it with a GraphicsPath object.helpviewer_keywords: ["GraphicsPathIterator","GraphicsPathIterator class [GDI+]","GraphicsPathIterator constructor","GraphicsPathIterator constructor [GDI+]","GraphicsPathIterator constructor [GDI+]","GraphicsPathIterator class","GraphicsPathIterator.GraphicsPathIterator","GraphicsPathIterator.GraphicsPathIterator(const GraphicsPathIterator &)","GraphicsPathIterator::GraphicsPathIterator","GraphicsPathIterator::GraphicsPathIterator(const GraphicsPathIterator &)","_gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_","gdiplus._gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiterator_66path.htm

@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmpipeline.IFsrmStorageModuleImplementation
 title: IFsrmStorageModuleImplementation (fsrmpipeline.h)
-description: Storage modules implement this interface.
+description: Storage modules implement this interface.helpviewer_keywords: ["IFsrmStorageModuleImplementation","IFsrmStorageModuleImplementation interface [File Server Resource Manager]","IFsrmStorageModuleImplementation interface [File Server Resource Manager]","described","fs.ifsrmstoragemoduleimplementation","fsrm.ifsrmstoragemoduleimplementation","fsrm/IFsrmStorageModuleImplementation"]
 old-location: fsrm\ifsrmstoragemoduleimplementation.htm
 tech.root: fsrm
 ms.assetid: 8540f1f4-8ed1-4e4d-b940-3e232eb8c2d6

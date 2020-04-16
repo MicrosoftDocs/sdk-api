@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.ISyncRegistrationChange.GetInstanceId
 title: ISyncRegistrationChange::GetInstanceId (syncregistration.h)
-description: Gets the instance ID of the synchronization provider or synchronization provider configuration UI associated with the event.
+description: Gets the instance ID of the synchronization provider or synchronization provider configuration UI associated with the event.helpviewer_keywords: ["GetInstanceId","GetInstanceId method [Windows Sync]","GetInstanceId method [Windows Sync]","ISyncRegistrationChange interface","ISyncRegistrationChange interface [Windows Sync]","GetInstanceId method","ISyncRegistrationChange.GetInstanceId","ISyncRegistrationChange::GetInstanceId","syncregistration/ISyncRegistrationChange::GetInstanceId","winsync.isyncregistrationchange_getinstanceid"]
 old-location: winsync\isyncregistrationchange_getinstanceid.htm
 tech.root: winsync
 ms.assetid: 2b2655f4-2a67-405d-93dc-dd8242992ce5

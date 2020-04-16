@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgStrokeDashArray
 title: ID2D1SvgStrokeDashArray (d2d1svg.h)
-description: Interface describing an SVG stroke-dasharray value.
+description: Interface describing an SVG stroke-dasharray value.helpviewer_keywords: ["ID2D1SvgStrokeDashArray","ID2D1SvgStrokeDashArray interface [Direct2D]","ID2D1SvgStrokeDashArray interface [Direct2D]","described","d2d1svg/ID2D1SvgStrokeDashArray","direct2d.id2d1svgstrokedasharray"]
 old-location: direct2d\id2d1svgstrokedasharray.htm
 tech.root: Direct2D
 ms.assetid: D3C82EC8-4172-48FE-AE8C-5F15BDBBCD30

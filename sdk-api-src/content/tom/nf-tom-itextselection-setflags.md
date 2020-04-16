@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextSelection.SetFlags
 title: ITextSelection::SetFlags (tom.h)
-description: Sets the text selection flags.
+description: Sets the text selection flags.helpviewer_keywords: ["ITextSelection interface [Windows Controls]","SetFlags method","ITextSelection.SetFlags","ITextSelection::SetFlags","SetFlags","SetFlags method [Windows Controls]","SetFlags method [Windows Controls]","ITextSelection interface","_win32_ITextSelection_SetFlags","_win32_ITextSelection_SetFlags_cpp","controls.ITextSelection_SetFlags","controls._win32_ITextSelection_SetFlags","tom/ITextSelection::SetFlags"]
 old-location: controls\ITextSelection_SetFlags.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setflags.htm

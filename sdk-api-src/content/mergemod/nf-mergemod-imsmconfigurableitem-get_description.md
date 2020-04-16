@@ -1,7 +1,7 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Description
 title: IMsmConfigurableItem::get_Description (mergemod.h)
-description: The get_Description method retrieves the Description property of the ConfigurableItem object.
+description: The get_Description method retrieves the Description property of the ConfigurableItem object.helpviewer_keywords: ["IMsmConfigurableItem interface","get_Description method","IMsmConfigurableItem.get_Description","IMsmConfigurableItem::get_Description","_msi_get_description_function","get_Description","get_Description method","get_Description method","IMsmConfigurableItem interface","mergemod/IMsmConfigurableItem::get_Description","setup.imsmconfigurableitem_get_description"]
 old-location: setup\imsmconfigurableitem_get_description.htm
 tech.root: Msi
 ms.assetid: aafc79a0-51cb-4147-b72c-b5218835dc03

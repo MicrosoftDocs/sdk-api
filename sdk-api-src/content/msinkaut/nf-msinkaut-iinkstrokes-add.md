@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Add
 title: IInkStrokes::Add (msinkaut.h)
-description: Adds an IInkStrokeDisp object or InkStrokes collection to an existing InkStrokes collection.
+description: Adds an IInkStrokeDisp object or InkStrokes collection to an existing InkStrokes collection.helpviewer_keywords: ["5ea0932a-ba21-4c6a-a3bc-c122b5805e86","Add","Add method [Tablet PC]","Add method [Tablet PC]","IInkStrokes interface","IInkStrokes interface [Tablet PC]","Add method","IInkStrokes.Add","IInkStrokes::Add","msinkaut/IInkStrokes::Add","tablet.inkstrokes_add"]
 old-location: tablet\inkstrokes_add.htm
 tech.root: tablet
 ms.assetid: 5ea0932a-ba21-4c6a-a3bc-c122b5805e86

@@ -1,7 +1,7 @@
 ---
 UID: NE:wincred._CRED_MARSHAL_TYPE
 title: CRED_MARSHAL_TYPE (wincred.h)
-description: Specifies the types of credential to be marshaled by CredMarshalCredential or unmarshaled by CredUnmarshalCredential.
+description: Specifies the types of credential to be marshaled by CredMarshalCredential or unmarshaled by CredUnmarshalCredential.helpviewer_keywords: ["*PCRED_MARSHAL_TYPE","CRED_MARSHAL_TYPE","CRED_MARSHAL_TYPE enumeration [Security]","CertCredential","PCRED_MARSHAL_TYPE","PCRED_MARSHAL_TYPE enumeration pointer [Security]","UsernameTargetCredential","_cred_cred_marshal_type","security.cred_marshal_type","wincred/CRED_MARSHAL_TYPE","wincred/CertCredential","wincred/PCRED_MARSHAL_TYPE","wincred/UsernameTargetCredential"]
 old-location: security\cred_marshal_type.htm
 tech.root: SecAuthN
 ms.assetid: 612fdd6f-2b4c-4f41-a00b-250f90eb85d3

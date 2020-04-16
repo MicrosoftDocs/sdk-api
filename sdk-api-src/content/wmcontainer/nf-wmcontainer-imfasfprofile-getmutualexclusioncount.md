@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetMutualExclusionCount
 title: IMFASFProfile::GetMutualExclusionCount (wmcontainer.h)
-description: Retrieves the number of Advanced Systems Format (ASF) mutual exclusion objects that are associated with the profile.
+description: Retrieves the number of Advanced Systems Format (ASF) mutual exclusion objects that are associated with the profile.helpviewer_keywords: ["5e275b83-9e59-4730-b8e2-e45f78077891","GetMutualExclusionCount","GetMutualExclusionCount method [Media Foundation]","GetMutualExclusionCount method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","GetMutualExclusionCount method","IMFASFProfile.GetMutualExclusionCount","IMFASFProfile::GetMutualExclusionCount","mf.imfasfprofile_getmutualexclusioncount","wmcontainer/IMFASFProfile::GetMutualExclusionCount"]
 old-location: mf\imfasfprofile_getmutualexclusioncount.htm
 tech.root: medfound
 ms.assetid: 5e275b83-9e59-4730-b8e2-e45f78077891

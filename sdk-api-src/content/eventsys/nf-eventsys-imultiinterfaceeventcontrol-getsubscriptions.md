@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.GetSubscriptions
 title: IMultiInterfaceEventControl::GetSubscriptions (eventsys.h)
-description: Retrieves the collection of subscription objects associated with an event method.
+description: Retrieves the collection of subscription objects associated with an event method.helpviewer_keywords: ["GetSubscriptions","GetSubscriptions method [COM+]","GetSubscriptions method [COM+]","IMultiInterfaceEventControl interface","IMultiInterfaceEventControl interface [COM+]","GetSubscriptions method","IMultiInterfaceEventControl.GetSubscriptions","IMultiInterfaceEventControl::GetSubscriptions","_cos_IMultiInterfaceEventControl_GetSubscriptions","cos.imultiinterfaceeventcontrol_getsubscriptions","eventsys/IMultiInterfaceEventControl::GetSubscriptions"]
 old-location: cos\imultiinterfaceeventcontrol_getsubscriptions.htm
 tech.root: cossdk
 ms.assetid: 38b1d0fe-c32e-41d5-a0c1-2b4e72908fce

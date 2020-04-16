@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmGetRegisteredEntities
 title: RtmGetRegisteredEntities function (rtmv2.h)
-description: The RtmGetRegisteredEntities function returns information about all clients that have registered with the specified instance of the routing table manager and specified address family.
+description: The RtmGetRegisteredEntities function returns information about all clients that have registered with the specified instance of the routing table manager and specified address family.helpviewer_keywords: ["RtmGetRegisteredEntities","RtmGetRegisteredEntities function [RAS]","_rtmv2ref_rtmgetregisteredentities","rras.rtmgetregisteredentities","rtmv2/RtmGetRegisteredEntities"]
 old-location: rras\rtmgetregisteredentities.htm
 tech.root: RRAS
 ms.assetid: 411e15bc-7f47-4ef7-9400-292203b581af

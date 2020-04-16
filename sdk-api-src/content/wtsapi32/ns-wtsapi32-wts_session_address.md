@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTS_SESSION_ADDRESS
 title: WTS_SESSION_ADDRESS (wtsapi32.h)
-description: Contains the virtual IP address assigned to a session.
+description: Contains the virtual IP address assigned to a session.helpviewer_keywords: ["*PWTS_SESSION_ADDRESS","PWTS_SESSION_ADDRESS","PWTS_SESSION_ADDRESS structure pointer [Remote Desktop Services]","WTS_SESSION_ADDRESS","WTS_SESSION_ADDRESS structure [Remote Desktop Services]","termserv.wts_session_address","wtsapi32/PWTS_SESSION_ADDRESS","wtsapi32/WTS_SESSION_ADDRESS"]
 old-location: termserv\wts_session_address.htm
 tech.root: TermServ
 ms.assetid: 4a8846a3-2bad-4ea1-b614-aca18484ea86

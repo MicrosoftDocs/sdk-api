@@ -1,7 +1,7 @@
 ---
 UID: NS:sysinfoapi._SYSTEM_INFO
 title: SYSTEM_INFO (sysinfoapi.h)
-description: Contains information about the current computer system. This includes the architecture and type of the processor, the number of processors in the system, the page size, and other such information.
+description: Contains information about the current computer system. This includes the architecture and type of the processor, the number of processors in the system, the page size, and other such information.helpviewer_keywords: ["*LPSYSTEM_INFO","PROCESSOR_AMD_X8664","PROCESSOR_ARCHITECTURE_AMD64","PROCESSOR_ARCHITECTURE_ARM","PROCESSOR_ARCHITECTURE_ARM64","PROCESSOR_ARCHITECTURE_IA64","PROCESSOR_ARCHITECTURE_INTEL","PROCESSOR_ARCHITECTURE_UNKNOWN","PROCESSOR_ARM","PROCESSOR_INTEL_386","PROCESSOR_INTEL_486","PROCESSOR_INTEL_IA64","PROCESSOR_INTEL_PENTIUM","SYSTEM_INFO","SYSTEM_INFO structure","_SYSTEM_INFO","_win32_system_info_str","base.system_info_str","sysinfoapi/_SYSTEM_INFO"]
 old-location: base\system_info_str.htm
 tech.root: SysInfo
 ms.assetid: 971293b8-0af0-4bdf-a7d7-6b1bb80a469c

@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_EditLabel
 title: ListView_EditLabel macro (commctrl.h)
-description: Begins in-place editing of the specified list-view item's text. The message implicitly selects and focuses the specified item. You can use this macro or send the LVM_EDITLABEL message explicitly.
+description: Begins in-place editing of the specified list-view item's text. The message implicitly selects and focuses the specified item. You can use this macro or send the LVM_EDITLABEL message explicitly.helpviewer_keywords: ["ListView_EditLabel","ListView_EditLabel macro [Windows Controls]","_win32_ListView_EditLabel","_win32_ListView_EditLabel_cpp","commctrl/ListView_EditLabel","controls.ListView_EditLabel","controls._win32_ListView_EditLabel"]
 old-location: controls\ListView_EditLabel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_editlabel.htm

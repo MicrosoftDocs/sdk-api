@@ -1,7 +1,7 @@
 ---
 UID: NF:icontact.IContactManager.MergeContactIDs
 title: IContactManager::MergeContactIDs (icontact.h)
-description: Makes an old Contact ID resolve to the same value as a new Contact ID. Subsequent calls to IContactManager::Load with the old contact ID now loads the new contact ID contact.
+description: Makes an old Contact ID resolve to the same value as a new Contact ID. Subsequent calls to IContactManager::Load with the old contact ID now loads the new contact ID contact.helpviewer_keywords: ["IContactManager interface [Windows Contacts]","MergeContactIDs method","IContactManager.MergeContactIDs","IContactManager::MergeContactIDs","MergeContactIDs","MergeContactIDs method [Windows Contacts]","MergeContactIDs method [Windows Contacts]","IContactManager interface","_wincontacts_IContactManager_MergeContactIDs","icontact/IContactManager::MergeContactIDs","wincontacts._wincontacts_IContactManager_MergeContactIDs"]
 old-location: wincontacts\_wincontacts_IContactManager_MergeContactIDs.htm
 tech.root: wincontacts
 ms.assetid: 1a3aea59-ef92-4775-b942-7383a5e8a63c

@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.ISyncFullEnumerationChangeBatch
 title: ISyncFullEnumerationChangeBatch (winsync.h)
-description: Represents the metadata for a set of changes that is created as part of a recovery synchronization.
+description: Represents the metadata for a set of changes that is created as part of a recovery synchronization.helpviewer_keywords: ["ISyncFullEnumerationChangeBatch","ISyncFullEnumerationChangeBatch interface [Windows Sync]","ISyncFullEnumerationChangeBatch interface [Windows Sync]","described","winsync.isyncfullenumerationchangebatch","winsync/ISyncFullEnumerationChangeBatch"]
 old-location: winsync\isyncfullenumerationchangebatch.htm
 tech.root: winsync
 ms.assetid: 9086991d-03e3-4f2c-ad03-c1f554fe32ce

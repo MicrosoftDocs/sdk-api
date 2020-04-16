@@ -1,7 +1,7 @@
 ---
 UID: NS:batclass._BATTERY_WMI_TEMPERATURE
 title: BATTERY_WMI_TEMPERATURE (batclass.h)
-description: Defines information about temperature of the battery for use with the BatteryClassQueryWmiDataBlock function.
+description: Defines information about temperature of the battery for use with the BatteryClassQueryWmiDataBlock function.helpviewer_keywords: ["*PBATTERY_WMI_TEMPERATURE","BATTERY_WMI_TEMPERATURE","BATTERY_WMI_TEMPERATURE structure [Battery Devices]","PBATTERY_WMI_TEMPERATURE","PBATTERY_WMI_TEMPERATURE structure pointer [Battery Devices]","batclass/BATTERY_WMI_TEMPERATURE","batclass/PBATTERY_WMI_TEMPERATURE","battery.battery_wmi_temperature"]
 old-location: battery\battery_wmi_temperature.htm
 tech.root: battery
 ms.assetid: 341DA703-EB96-4680-AFB8-68043988AF56

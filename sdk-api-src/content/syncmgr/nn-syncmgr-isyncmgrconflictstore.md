@@ -1,7 +1,7 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictStore
 title: ISyncMgrConflictStore (syncmgr.h)
-description: Exposes methods that allow a handler to provide conflicts that appear in the Conflicts folder.
+description: Exposes methods that allow a handler to provide conflicts that appear in the Conflicts folder.helpviewer_keywords: ["ISyncMgrConflictStore","ISyncMgrConflictStore interface [Windows Shell]","ISyncMgrConflictStore interface [Windows Shell]","described","_shell_ISyncMgrConflictStore","shell.ISyncMgrConflictStore","syncmgr/ISyncMgrConflictStore"]
 old-location: shell\ISyncMgrConflictStore.htm
 tech.root: shell
 ms.assetid: 25f47c73-eb9f-4beb-aa10-4f12b38d6507

@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IToolbar.AddBitmap
 title: IToolbar::AddBitmap (mmc.h)
-description: Enables a snap-in to add an image to the toolbar.
+description: Enables a snap-in to add an image to the toolbar.helpviewer_keywords: ["AddBitmap","AddBitmap method [MMC]","AddBitmap method [MMC]","IToolbar interface","IToolbar interface [MMC]","AddBitmap method","IToolbar.AddBitmap","IToolbar::AddBitmap","_slate_itoolbar_addbitmap","mmc.itoolbar_addbitmap","mmc/IToolbar::AddBitmap"]
 old-location: mmc\itoolbar_addbitmap.htm
 tech.root: mmc
 ms.assetid: f2ef31a7-61ce-4ac6-814a-c3a46964c4f1

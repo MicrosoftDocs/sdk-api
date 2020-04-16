@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi1_3.IDXGIFactoryMedia
 title: IDXGIFactoryMedia (dxgi1_3.h)
-description: Creates swap chains for desktop media apps that use DirectComposition surfaces to decode and display video.
+description: Creates swap chains for desktop media apps that use DirectComposition surfaces to decode and display video.helpviewer_keywords: ["IDXGIFactoryMedia","IDXGIFactoryMedia interface [DXGI]","IDXGIFactoryMedia interface [DXGI]","described","direct3ddxgi.idxgifactorymedia","dxgi1_3/IDXGIFactoryMedia"]
 old-location: direct3ddxgi\idxgifactorymedia.htm
 tech.root: direct3ddxgi
 ms.assetid: 5646B34D-EB2C-4161-8FF0-67F96254AFBC

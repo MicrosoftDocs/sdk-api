@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.ModifyNotification
 title: IFsrmFileManagementJob::ModifyNotification (fsrmreports.h)
-description: Change a notification value in the file management job's list of notifications.
+description: Change a notification value in the file management job's list of notifications.helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","ModifyNotification method","IFsrmFileManagementJob.ModifyNotification","IFsrmFileManagementJob::ModifyNotification","ModifyNotification","ModifyNotification method [File Server Resource Manager]","ModifyNotification method [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_modifynotification","fsrm.ifsrmfilemanagementjob_modifynotification","fsrmreports/IFsrmFileManagementJob::ModifyNotification"]
 old-location: fsrm\ifsrmfilemanagementjob_modifynotification.htm
 tech.root: fsrm
 ms.assetid: f2b26ed7-5bbc-4b34-ae11-7fcdb621a55b

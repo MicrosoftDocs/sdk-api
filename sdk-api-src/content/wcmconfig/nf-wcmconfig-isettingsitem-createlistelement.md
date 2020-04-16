@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.CreateListElement
 title: ISettingsItem::CreateListElement (wcmconfig.h)
-description: Creates a new list element.
+description: Creates a new list element.helpviewer_keywords: ["CreateListElement","CreateListElement method [SMI]","CreateListElement method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","CreateListElement method","ISettingsItem.CreateListElement","ISettingsItem::CreateListElement","smi.isettingsitem_createlistelement","wcmconfig/ISettingsItem::CreateListElement"]
 old-location: smi\isettingsitem_createlistelement.htm
 tech.root: SMI
 ms.assetid: c18fd849-aaa5-49d0-9e72-b3134a6f2be8

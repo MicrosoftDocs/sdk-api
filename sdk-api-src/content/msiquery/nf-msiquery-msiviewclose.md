@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiViewClose
 title: MsiViewClose function (msiquery.h)
-description: The MsiViewClose function releases the result set for an executed view.
+description: The MsiViewClose function releases the result set for an executed view.helpviewer_keywords: ["MsiViewClose","MsiViewClose function","_msi_msiviewclose","msiquery/MsiViewClose","setup.msiviewclose"]
 old-location: setup\msiviewclose.htm
 tech.root: Msi
 ms.assetid: bd38be52-d76c-4f1b-bc29-12f93aac2aa9

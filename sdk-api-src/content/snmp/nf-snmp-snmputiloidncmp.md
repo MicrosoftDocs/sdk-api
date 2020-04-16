@@ -1,7 +1,7 @@
 ---
 UID: NF:snmp.SnmpUtilOidNCmp
 title: SnmpUtilOidNCmp function (snmp.h)
-description: The SnmpUtilOidNCmp function compares two object identifiers.
+description: The SnmpUtilOidNCmp function compares two object identifiers.helpviewer_keywords: ["SnmpUtilOidNCmp","SnmpUtilOidNCmp function [SNMP]","_snmp_snmputiloidncmp","snmp.snmputiloidncmp","snmp/SnmpUtilOidNCmp"]
 old-location: snmp\snmputiloidncmp.htm
 tech.root: SNMP
 ms.assetid: a23df516-9559-4209-bf2d-8268737d1dfb

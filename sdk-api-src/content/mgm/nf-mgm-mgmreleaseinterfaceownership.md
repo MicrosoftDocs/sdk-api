@@ -1,7 +1,7 @@
 ---
 UID: NF:mgm.MgmReleaseInterfaceOwnership
 title: MgmReleaseInterfaceOwnership function (mgm.h)
-description: The MgmReleaseInterfaceOwnership function is used by a client to relinquish ownership of an interface. When this function is called, all MFEs maintained by the multicast group manager on behalf of the client and for the specified interface are deleted.
+description: The MgmReleaseInterfaceOwnership function is used by a client to relinquish ownership of an interface. When this function is called, all MFEs maintained by the multicast group manager on behalf of the client and for the specified interface are deleted.helpviewer_keywords: ["MgmReleaseInterfaceOwnership","MgmReleaseInterfaceOwnership function [RAS]","_mpr_mgmreleaseinterfaceownership","mgm/MgmReleaseInterfaceOwnership","rras.mgmreleaseinterfaceownership"]
 old-location: rras\mgmreleaseinterfaceownership.htm
 tech.root: RRAS
 ms.assetid: 501970f7-7728-4a83-8f4b-207579d65d01

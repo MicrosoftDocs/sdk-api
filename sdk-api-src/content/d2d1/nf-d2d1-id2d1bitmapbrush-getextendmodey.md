@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.GetExtendModeY
 title: ID2D1BitmapBrush::GetExtendModeY (d2d1.h)
-description: Gets the method by which the brush vertically tiles those areas that extend past its bitmap.
+description: Gets the method by which the brush vertically tiles those areas that extend past its bitmap.helpviewer_keywords: ["GetExtendModeY","GetExtendModeY method [Direct2D]","GetExtendModeY method [Direct2D]","ID2D1BitmapBrush interface","ID2D1BitmapBrush interface [Direct2D]","GetExtendModeY method","ID2D1BitmapBrush.GetExtendModeY","ID2D1BitmapBrush::GetExtendModeY","d2d1/ID2D1BitmapBrush::GetExtendModeY","direct2d.ID2D1BitmapBrush_GetExtendModeY"]
 old-location: direct2d\ID2D1BitmapBrush_GetExtendModeY.htm
 tech.root: Direct2D
 ms.assetid: e71fef61-9d6a-441b-a88f-9f2cead23ecd

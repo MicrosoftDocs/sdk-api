@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.ISequentialStream
 title: ISequentialStream (objidl.h)
-description: The ISequentialStream interface supports simplified sequential access to stream objects. The IStream interface inherits its Read and Write methods from ISequentialStream.
+description: The ISequentialStream interface supports simplified sequential access to stream objects. The IStream interface inherits its Read and Write methods from ISequentialStream.helpviewer_keywords: ["ISequentialStream","ISequentialStream interface [Structured Storage]","ISequentialStream interface [Structured Storage]","described","_stg_isequentialstream","objidl/ISequentialStream","stg.isequentialstream"]
 old-location: stg\isequentialstream.htm
 tech.root: Stg
 ms.assetid: c1d33800-d2f1-4942-92fa-e115f524c23c

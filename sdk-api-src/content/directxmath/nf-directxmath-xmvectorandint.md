@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorAndInt
 title: XMVectorAndInt function (directxmath.h)
-description: Computes the logical AND of two vectors, treating each component as an unsigned integer.
+description: Computes the logical AND of two vectors, treating each component as an unsigned integer.helpviewer_keywords: ["Use DirectX..XMVectorAndInt","XMVectorAndInt","XMVectorAndInt method [DirectX Math Support APIs]","dxmath.xmvectorandint"]
 old-location: dxmath\xmvectorandint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.bit-wise.XMVectorAndInt(XMVECTOR,XMVECTOR)

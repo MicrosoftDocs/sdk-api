@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.IRequestFilteredSync
 title: IRequestFilteredSync (winsync.h)
-description: When implemented by a derived class, represents a destination provider that can specify a filter to be used by the source provider during change enumeration.
+description: When implemented by a derived class, represents a destination provider that can specify a filter to be used by the source provider during change enumeration.helpviewer_keywords: ["IRequestFilteredSync","IRequestFilteredSync interface [Windows Sync]","IRequestFilteredSync interface [Windows Sync]","described","winsync.irequestfilteredsync","winsync/IRequestFilteredSync"]
 old-location: winsync\irequestfilteredsync.htm
 tech.root: winsync
 ms.assetid: e4b76bb3-d572-4441-94db-7088e881ede2

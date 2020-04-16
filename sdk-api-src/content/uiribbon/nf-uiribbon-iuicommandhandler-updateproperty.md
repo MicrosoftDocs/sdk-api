@@ -1,7 +1,7 @@
 ---
 UID: NF:uiribbon.IUICommandHandler.UpdateProperty
 title: IUICommandHandler::UpdateProperty (uiribbon.h)
-description: Responds to property update requests from the Windows Ribbon framework.
+description: Responds to property update requests from the Windows Ribbon framework.helpviewer_keywords: ["IUICommandHandler interface [Windows Ribbon]","UpdateProperty method","IUICommandHandler.UpdateProperty","IUICommandHandler::UpdateProperty","UpdateProperty","UpdateProperty method [Windows Ribbon]","UpdateProperty method [Windows Ribbon]","IUICommandHandler interface","scenicintent_IUICommandHandler_UpdateProperty","uiribbon/IUICommandHandler::UpdateProperty","windowsribbon.windowsribbon_iuicommandhandler_updateproperty"]
 old-location: windowsribbon\windowsribbon_iuicommandhandler_updateproperty.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicommandhandler\updateproperty.htm

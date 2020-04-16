@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IComponents.Remove
 title: IComponents::Remove (tuner.h)
-description: The Remove method removes a Component object from the collection.
+description: The Remove method removes a Component object from the collection.helpviewer_keywords: ["IComponents interface [Microsoft TV Technologies]","Remove method","IComponents.Remove","IComponents::Remove","IComponentsRemove","Remove","Remove method [Microsoft TV Technologies]","Remove method [Microsoft TV Technologies]","IComponents interface","mstv.icomponents_remove","tuner/IComponents::Remove"]
 old-location: mstv\icomponents_remove.htm
 tech.root: mstv
 ms.assetid: 0d71b1f0-1a15-4206-b22f-624cc4b246a3

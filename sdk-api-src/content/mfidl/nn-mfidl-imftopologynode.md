@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFTopologyNode
 title: IMFTopologyNode (mfidl.h)
-description: Represents a node in a topology.
+description: Represents a node in a topology.helpviewer_keywords: ["01d7eb7c-a3d3-4924-a8ec-a67e9dc17424","IMFTopologyNode","IMFTopologyNode interface [Media Foundation]","IMFTopologyNode interface [Media Foundation]","described","mf.imftopologynode","mfidl/IMFTopologyNode"]
 old-location: mf\imftopologynode.htm
 tech.root: medfound
 ms.assetid: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424

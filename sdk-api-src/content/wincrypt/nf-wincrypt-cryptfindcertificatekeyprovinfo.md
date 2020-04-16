@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptFindCertificateKeyProvInfo
 title: CryptFindCertificateKeyProvInfo function (wincrypt.h)
-description: Enumerates the cryptographic providers and their containers to find the private key that corresponds to the certificate's public key.
+description: Enumerates the cryptographic providers and their containers to find the private key that corresponds to the certificate's public key.helpviewer_keywords: ["CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG","CRYPT_FIND_MACHINE_KEYSET_FLAG","CRYPT_FIND_SILENT_KEYSET_FLAG","CRYPT_FIND_USER_KEYSET_FLAG","CryptFindCertificateKeyProvInfo","CryptFindCertificateKeyProvInfo function [Security]","_crypto2_cryptfindcertificatekeyprovinfo","security.cryptfindcertificatekeyprovinfo","wincrypt/CryptFindCertificateKeyProvInfo"]
 old-location: security\cryptfindcertificatekeyprovinfo.htm
 tech.root: SecCrypto
 ms.assetid: 9e63517d-a56e-45a9-972c-de9a297e9e25

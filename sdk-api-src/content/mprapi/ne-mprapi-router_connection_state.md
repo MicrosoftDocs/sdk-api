@@ -1,7 +1,7 @@
 ---
 UID: NE:mprapi._ROUTER_CONNECTION_STATE
 title: ROUTER_CONNECTION_STATE (mprapi.h)
-description: Enumerates the possible states of an interface on a router.
+description: Enumerates the possible states of an interface on a router.helpviewer_keywords: ["ROUTER_CONNECTION_STATE","ROUTER_CONNECTION_STATE enumeration [RAS]","ROUTER_IF_STATE_CONNECTED","ROUTER_IF_STATE_CONNECTING","ROUTER_IF_STATE_DISCONNECTED","ROUTER_IF_STATE_UNREACHABLE","_mpr_router_connection_state","mprapi/ROUTER_CONNECTION_STATE","mprapi/ROUTER_IF_STATE_CONNECTED","mprapi/ROUTER_IF_STATE_CONNECTING","mprapi/ROUTER_IF_STATE_DISCONNECTED","mprapi/ROUTER_IF_STATE_UNREACHABLE","rras.router_connection_state"]
 old-location: rras\router_connection_state.htm
 tech.root: RRAS
 ms.assetid: e98f9843-c5a2-4714-8e22-58f24256d08f

@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetActiveView
 title: ITextStoreACP2::GetActiveView (textstor.h)
-description: Gets a TsViewCookie that represents the current active view.
+description: Gets a TsViewCookie that represents the current active view.helpviewer_keywords: ["GetActiveView","GetActiveView method [Text Services Framework]","GetActiveView method [Text Services Framework]","ITextStoreACP2 interface","ITextStoreACP2 interface [Text Services Framework]","GetActiveView method","ITextStoreACP2.GetActiveView","ITextStoreACP2::GetActiveView","textstor/ITextStoreACP2::GetActiveView","tsf.itextstoreacp2_getactiveview"]
 old-location: tsf\itextstoreacp2_getactiveview.htm
 tech.root: TSF
 ms.assetid: 38db4fd3-3268-4b3d-9e2c-19d80afeba47

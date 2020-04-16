@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.SavePackageToFile
 title: IXpsSignatureManager::SavePackageToFile (xpsdigitalsignature.h)
-description: Saves the XPS package to a file.
+description: Saves the XPS package to a file.helpviewer_keywords: ["IXpsSignatureManager interface [XPS Documents and Packaging]","SavePackageToFile method","IXpsSignatureManager.SavePackageToFile","IXpsSignatureManager::SavePackageToFile","SavePackageToFile","SavePackageToFile method [XPS Documents and Packaging]","SavePackageToFile method [XPS Documents and Packaging]","IXpsSignatureManager interface","xps.ixpssignaturemanager_savepackagetofile","xpsdigitalsignature/IXpsSignatureManager::SavePackageToFile"]
 old-location: xps\ixpssignaturemanager_savepackagetofile.htm
 tech.root: printdocs
 ms.assetid: 954d8eb1-8680-410b-909b-da7a6572c0f3

@@ -1,7 +1,7 @@
 ---
 UID: NC:resapi.PIS_ALIVE_ROUTINE
 title: PIS_ALIVE_ROUTINE (resapi.h)
-description: Determines whether a resource is available for use.
+description: Determines whether a resource is available for use.helpviewer_keywords: ["IsAlive","IsAlive callback","IsAlive callback function [Failover Cluster]","PIS_ALIVE_ROUTINE","PIS_ALIVE_ROUTINE callback function [Failover Cluster]","_wolf_isalive","mscs.isalive","resapi/IsAlive","resapi/PIS_ALIVE_ROUTINE"]
 old-location: mscs\isalive.htm
 tech.root: MsCS
 ms.assetid: ff7661af-0a24-4a2e-bb31-c967845a4ff4

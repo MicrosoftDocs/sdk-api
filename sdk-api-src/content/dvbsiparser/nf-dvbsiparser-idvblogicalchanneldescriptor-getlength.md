@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetLength
 title: IDvbLogicalChannelDescriptor::GetLength (dvbsiparser.h)
-description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
+description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .helpviewer_keywords: ["GetLength","GetLength method [DirectShow]","GetLength method [DirectShow]","IDvbLogicalChannelDescriptor interface","IDvbLogicalChannelDescriptor interface [DirectShow]","GetLength method","IDvbLogicalChannelDescriptor.GetLength","IDvbLogicalChannelDescriptor::GetLength","IDvbLogicalChannelDescriptorGetLength","dvbsiparser/IDvbLogicalChannelDescriptor::GetLength","mstv.idvblogicalchanneldescriptor_getlength"]
 old-location: mstv\idvblogicalchanneldescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 20c0f2a8-e4f5-4516-8c19-30cd19f0816e

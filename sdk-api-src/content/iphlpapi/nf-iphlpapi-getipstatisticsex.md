@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetIpStatisticsEx
 title: GetIpStatisticsEx function (iphlpapi.h)
-description: The GetIpStatisticsEx function retrieves the Internet Protocol (IP) statistics for the current computer.
+description: The GetIpStatisticsEx function retrieves the Internet Protocol (IP) statistics for the current computer.helpviewer_keywords: ["AF_INET","AF_INET6","GetIpStatisticsEx","GetIpStatisticsEx function [IP Helper]","_iphlp_getipstatisticsex","iphlp.getipstatisticsex","iphlpapi/GetIpStatisticsEx"]
 old-location: iphlp\getipstatisticsex.htm
 tech.root: IpHlp
 ms.assetid: da9143cd-ccc9-4229-aa1e-d9949bbcb736

@@ -1,7 +1,7 @@
 ---
 UID: NS:mbnapi.MBN_INTERFACE_CAPS
 title: MBN_INTERFACE_CAPS (mbnapi.h)
-description: The MBN_INTERFACE_CAPS structure represents the interface capabilities.
+description: The MBN_INTERFACE_CAPS structure represents the interface capabilities.helpviewer_keywords: ["MBN_INTERFACE_CAPS","MBN_INTERFACE_CAPS structure [Microsoft Broadband Networks]","mbn.mbn_interface_caps","mbnapi/MBN_INTERFACE_CAPS"]
 old-location: mbn\mbn_interface_caps.htm
 tech.root: mbn
 ms.assetid: faee7f53-b465-4240-b163-ce88fae764df

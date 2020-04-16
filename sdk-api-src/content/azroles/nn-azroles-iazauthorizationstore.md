@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzAuthorizationStore
 title: IAzAuthorizationStore (azroles.h)
-description: Defines the container that is the root of the authorization policy store.
+description: Defines the container that is the root of the authorization policy store.helpviewer_keywords: ["IAzAuthorizationStore","IAzAuthorizationStore interface [Security]","IAzAuthorizationStore interface [Security]","described","azroles/IAzAuthorizationStore","security.azauthorizationstore"]
 old-location: security\azauthorizationstore.htm
 tech.root: SecAuthZ
 ms.assetid: f848cca6-3838-46bc-b1f4-d6eab5096046

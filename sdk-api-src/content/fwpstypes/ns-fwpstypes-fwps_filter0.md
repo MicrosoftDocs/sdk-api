@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpstypes.FWPS_FILTER0_
 title: FWPS_FILTER0 (fwpstypes.h)
-description: The FWPS_FILTER0 structure defines a run-time filter in the filter engine.Note  FWPS_FILTER0 is the specific version of FWPS_FILTER used in Windows Vista and later.
+description: The FWPS_FILTER0 structure defines a run-time filter in the filter engine.Note  FWPS_FILTER0 is the specific version of FWPS_FILTER used in Windows Vista and later.helpviewer_keywords: ["FWPS_FILTER0","FWPS_FILTER0 structure [Network Drivers Starting with Windows Vista]","FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT","FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED","fwpstypes/FWPS_FILTER0","netvista.fwps_filter0","wfp_ref_3_struct_3_fwps_F-O_3dd55c70-e1ab-4bb4-b177-24c4a185c69c.xml"]
 old-location: netvista\fwps_filter0.htm
 tech.root: NetVista
 ms.assetid: cf5e3372-466e-44f0-8312-78318c5efb13

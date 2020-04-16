@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbShortEventDescriptor.GetLanguageCode
 title: IDvbShortEventDescriptor::GetLanguageCode (dvbsiparser.h)
-description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) short event descriptor.
+description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) short event descriptor.helpviewer_keywords: ["GetLanguageCode","GetLanguageCode method [Microsoft TV Technologies]","GetLanguageCode method [Microsoft TV Technologies]","IDvbShortEventDescriptor interface","IDvbShortEventDescriptor interface [Microsoft TV Technologies]","GetLanguageCode method","IDvbShortEventDescriptor.GetLanguageCode","IDvbShortEventDescriptor::GetLanguageCode","dvbsiparser/IDvbShortEventDescriptor::GetLanguageCode","mstv.idvbshorteventdescriptor_getlanguagecode"]
 old-location: mstv\idvbshorteventdescriptor_getlanguagecode.htm
 tech.root: mstv
 ms.assetid: c531ae74-586f-4191-9b77-5f5837e551c4

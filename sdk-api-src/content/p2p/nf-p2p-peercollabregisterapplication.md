@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabRegisterApplication
 title: PeerCollabRegisterApplication function (p2p.h)
-description: Registers an application with the local computer so that it can be launched in a peer collaboration activity.
+description: Registers an application with the local computer so that it can be launched in a peer collaboration activity.helpviewer_keywords: ["PeerCollabRegisterApplication","PeerCollabRegisterApplication function [Peer Networking]","p2p.peercollabregisterapplication","p2p/PeerCollabRegisterApplication"]
 old-location: p2p\peercollabregisterapplication.htm
 tech.root: P2PSdk
 ms.assetid: 962982a6-171f-4c13-ae03-84698482dea4

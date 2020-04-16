@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncCallback.OnFullEnumerationNeeded
 title: ISyncCallback::OnFullEnumerationNeeded (winsync.h)
-description: Occurs when the forgotten knowledge from the source provider is not contained in the current knowledge of the destination provider.
+description: Occurs when the forgotten knowledge from the source provider is not contained in the current knowledge of the destination provider.helpviewer_keywords: ["ISyncCallback interface [Windows Sync]","OnFullEnumerationNeeded method","ISyncCallback.OnFullEnumerationNeeded","ISyncCallback::OnFullEnumerationNeeded","OnFullEnumerationNeeded","OnFullEnumerationNeeded method [Windows Sync]","OnFullEnumerationNeeded method [Windows Sync]","ISyncCallback interface","winsync.isynccallback_onfullenumerationneeded","winsync/ISyncCallback::OnFullEnumerationNeeded"]
 old-location: winsync\isynccallback_onfullenumerationneeded.htm
 tech.root: winsync
 ms.assetid: f52ddaf2-9ce2-4ebb-bace-024c059b2594

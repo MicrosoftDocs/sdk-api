@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRange.CompareStart
 title: ITfRange::CompareStart (msctf.h)
-description: The ITfRange::CompareStart method compares the start anchor position of this range of text to an anchor in another range.
+description: The ITfRange::CompareStart method compares the start anchor position of this range of text to an anchor in another range.helpviewer_keywords: ["+1","-1","0","CompareStart","CompareStart method [Text Services Framework]","CompareStart method [Text Services Framework]","ITfRange interface","ITfRange interface [Text Services Framework]","CompareStart method","ITfRange.CompareStart","ITfRange::CompareStart","TF_ANCHOR_END","TF_ANCHOR_START","_tsf_itfrange_comparestart_ref","msctf/ITfRange::CompareStart","tsf.itfrange_comparestart"]
 old-location: tsf\itfrange_comparestart.htm
 tech.root: TSF
 ms.assetid: b84375ec-e00a-4cb3-97b7-f10688814968

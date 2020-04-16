@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_3.ID2D1CommandSink2
 title: ID2D1CommandSink2 (d2d1_3.h)
-description: This interface performs all the same functions as the existing ID2D1CommandSink1 interface. It also enables access to ink rendering and gradient mesh rendering.
+description: This interface performs all the same functions as the existing ID2D1CommandSink1 interface. It also enables access to ink rendering and gradient mesh rendering.helpviewer_keywords: ["ID2D1CommandSink2","ID2D1CommandSink2 interface [Direct2D]","ID2D1CommandSink2 interface [Direct2D]","described","d2d1_3/ID2D1CommandSink2","direct2d.id2d1commandsink2"]
 old-location: direct2d\id2d1commandsink2.htm
 tech.root: Direct2D
 ms.assetid: bd1a22a8-bbf3-d515-5596-1797e261cd1e

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange2.ShowContextMenu
 title: IUIAutomationTextRange2::ShowContextMenu (uiautomationclient.h)
-description: Programmatically invokes a context menu on the target text range.
+description: Programmatically invokes a context menu on the target text range.helpviewer_keywords: ["IUIAutomationTextRange2 interface [Windows Accessibility]","ShowContextMenu method","IUIAutomationTextRange2.ShowContextMenu","IUIAutomationTextRange2::ShowContextMenu","ShowContextMenu","ShowContextMenu method [Windows Accessibility]","ShowContextMenu method [Windows Accessibility]","IUIAutomationTextRange2 interface","uiautomationclient/IUIAutomationTextRange2::ShowContextMenu","winauto.uiauto_IUIAutomationTextRange2_ShowContextMenu"]
 old-location: winauto\uiauto_IUIAutomationTextRange2_ShowContextMenu.htm
 tech.root: WinAuto
 ms.assetid: 03165205-C56C-6002-A820-9214725B93E1

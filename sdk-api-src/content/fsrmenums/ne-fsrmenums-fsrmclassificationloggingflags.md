@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._FsrmClassificationLoggingFlags
 title: FsrmClassificationLoggingFlags (fsrmenums.h)
-description: Defines the different options for logging information while running classification.
+description: Defines the different options for logging information while running classification.helpviewer_keywords: ["FsrmClassificationLoggingFlags","FsrmClassificationLoggingFlags enumeration [File Server Resource Manager]","FsrmClassificationLoggingFlags_ClassificationsInLogFile","FsrmClassificationLoggingFlags_ClassificationsInSystemLog","FsrmClassificationLoggingFlags_ErrorsInLogFile","FsrmClassificationLoggingFlags_ErrorsInSystemLog","FsrmClassificationLoggingFlags_None","fs.fsrmclassificationloggingflags","fsrm.fsrmclassificationloggingflags","fsrmenums/FsrmClassificationLoggingFlags","fsrmenums/FsrmClassificationLoggingFlags_ClassificationsInLogFile","fsrmenums/FsrmClassificationLoggingFlags_ClassificationsInSystemLog","fsrmenums/FsrmClassificationLoggingFlags_ErrorsInLogFile","fsrmenums/FsrmClassificationLoggingFlags_ErrorsInSystemLog","fsrmenums/FsrmClassificationLoggingFlags_None"]
 old-location: fsrm\fsrmclassificationloggingflags.htm
 tech.root: fsrm
 ms.assetid: 339a50d6-cc34-46ba-a116-745abe0d2871

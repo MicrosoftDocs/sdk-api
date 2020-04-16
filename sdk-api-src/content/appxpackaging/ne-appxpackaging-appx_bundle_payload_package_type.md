@@ -1,7 +1,7 @@
 ---
 UID: NE:appxpackaging.APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE
 title: APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE (appxpackaging.h)
-description: Specifies the type of package for a IAppxBundleManifestPackageInfo object.
+description: Specifies the type of package for a IAppxBundleManifestPackageInfo object.helpviewer_keywords: ["APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE","APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE enumeration [App packaging and management]","APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_APPLICATION","APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_RESOURCE","appxpackaging/APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE","appxpackaging/APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_APPLICATION","appxpackaging/APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_RESOURCE","appxpkg.appx_bundle_payload_package_type"]
 old-location: appxpkg\appx_bundle_payload_package_type.htm
 tech.root: appxpkg
 ms.assetid: 90A53E6D-D6DD-4E26-A343-9E6888675348

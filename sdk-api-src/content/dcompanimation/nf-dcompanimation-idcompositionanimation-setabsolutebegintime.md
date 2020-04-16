@@ -1,7 +1,7 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.SetAbsoluteBeginTime
 title: IDCompositionAnimation::SetAbsoluteBeginTime (dcompanimation.h)
-description: Sets the absolute time at which the animation function starts.
+description: Sets the absolute time at which the animation function starts.helpviewer_keywords: ["IDCompositionAnimation interface [DirectComposition]","SetAbsoluteBeginTime method","IDCompositionAnimation.SetAbsoluteBeginTime","IDCompositionAnimation::SetAbsoluteBeginTime","SetAbsoluteBeginTime","SetAbsoluteBeginTime method [DirectComposition]","SetAbsoluteBeginTime method [DirectComposition]","IDCompositionAnimation interface","dcompanimation/IDCompositionAnimation::SetAbsoluteBeginTime","directcomp.idcompositionanimation_setabsolutebegintime"]
 old-location: directcomp\idcompositionanimation_setabsolutebegintime.htm
 tech.root: directcomp
 ms.assetid: 661049EC-DAA2-46A5-B600-C3F0EF8B3EDF

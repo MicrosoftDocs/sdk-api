@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsValidateServerStatus
 title: DnsValidateServerStatus function (windns.h)
-description: The DnsValidateServerStatus function validates an IP address as a suitable DNS server.
+description: The DnsValidateServerStatus function validates an IP address as a suitable DNS server.helpviewer_keywords: ["DNS_VALSVR_ERROR_INVALID_ADDR","DNS_VALSVR_ERROR_INVALID_NAME","DNS_VALSVR_ERROR_NO_AUTH","DNS_VALSVR_ERROR_NO_RESPONSE","DNS_VALSVR_ERROR_NO_TCP","DNS_VALSVR_ERROR_REFUSED","DNS_VALSVR_ERROR_UNKNOWN","DNS_VALSVR_ERROR_UNREACHABLE","DnsValidateServerStatus","DnsValidateServerStatus function [DNS]","ERROR_SUCCESS","dns.dnsvalidateserverstatus","windns/DnsValidateServerStatus"]
 old-location: dns\dnsvalidateserverstatus.htm
 tech.root: DNS
 ms.assetid: 5b362d05-87b2-44dd-8198-bcb5ab5a64f6

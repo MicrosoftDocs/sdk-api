@@ -1,7 +1,7 @@
 ---
 UID: NL:gdipluseffects.ColorMatrixEffect
 title: ColorMatrixEffect (gdipluseffects.h)
-description: The ColorMatrixEffect class enables you to apply an affine transformation to a bitmap.
+description: The ColorMatrixEffect class enables you to apply an affine transformation to a bitmap.helpviewer_keywords: ["ColorMatrixEffect","ColorMatrixEffect class [GDI+]","ColorMatrixEffect class [GDI+]","described","_gdiplus_CLASS_ColorMatrixEffect_Class","gdiplus._gdiplus_CLASS_ColorMatrixEffect_Class","gdipluseffects/ColorMatrixEffect"]
 old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colormatrixeffect.htm

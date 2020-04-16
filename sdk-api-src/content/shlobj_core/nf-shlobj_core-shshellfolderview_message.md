@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHShellFolderView_Message
 title: SHShellFolderView_Message function (shlobj_core.h)
-description: SHShellFolderView_Message may be altered or unavailable.
+description: SHShellFolderView_Message may be altered or unavailable.helpviewer_keywords: ["SHShellFolderView_Message","SHShellFolderView_Message function [Windows Shell]","_win32_SHShellFolderView_Message","shell.SHShellFolderView_Message","shlobj_core/SHShellFolderView_Message"]
 old-location: shell\SHShellFolderView_Message.htm
 tech.root: shell
 ms.assetid: f5722a4f-d830-4c31-9275-13e800408681

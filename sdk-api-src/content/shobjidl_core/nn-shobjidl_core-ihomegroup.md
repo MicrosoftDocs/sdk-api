@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IHomeGroup
 title: IHomeGroup (shobjidl_core.h)
-description: Exposes methods that determine a computer's HomeGroup membership status and display the sharing wizard.
+description: Exposes methods that determine a computer's HomeGroup membership status and display the sharing wizard.helpviewer_keywords: ["IHomeGroup","IHomeGroup interface [Windows Shell]","IHomeGroup interface [Windows Shell]","described","_shell_IHomeGroup","shell.IHomeGroup","shobjidl_core/IHomeGroup"]
 old-location: shell\IHomeGroup.htm
 tech.root: shell
 ms.assetid: 97d693c0-1126-4cd3-8aee-b5499b538403

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.IsRealTime
 title: IWMWriterAdvanced::IsRealTime (wmsdkidl.h)
-description: The IsRealTime method ascertains whether the writer is running in real time.
+description: The IsRealTime method ascertains whether the writer is running in real time.helpviewer_keywords: ["IWMWriterAdvanced interface [windows Media Format]","IsRealTime method","IWMWriterAdvanced.IsRealTime","IWMWriterAdvanced::IsRealTime","IWMWriterAdvancedIsRealTime","IsRealTime","IsRealTime method [windows Media Format]","IsRealTime method [windows Media Format]","IWMWriterAdvanced interface","wmformat.iwmwriteradvanced_isrealtime","wmsdkidl/IWMWriterAdvanced::IsRealTime"]
 old-location: wmformat\iwmwriteradvanced_isrealtime.htm
 tech.root: wmformat
 ms.assetid: 3d00eb78-d90e-41a0-9bba-305ac65057f3

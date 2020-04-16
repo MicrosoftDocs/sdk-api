@@ -1,7 +1,7 @@
 ---
 UID: NF:winstring.WindowsIsStringEmpty
 title: WindowsIsStringEmpty function (winstring.h)
-description: Indicates whether the specified string is the empty string.
+description: Indicates whether the specified string is the empty string.helpviewer_keywords: ["WindowsIsStringEmpty","WindowsIsStringEmpty function [Windows Runtime]","winrt.windowsisstringempty","winstring/WindowsIsStringEmpty"]
 old-location: winrt\windowsisstringempty.htm
 tech.root: WinRT
 ms.assetid: F354F692-4D64-4A3F-8B27-1951C93A6FCA

@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.SpAcceptCredentialsFn
 title: SpAcceptCredentialsFn (ntsecpkg.h)
-description: Called by the Local Security Authority (LSA) to pass the security package any credentials stored for the authenticated security principal.
+description: Called by the Local Security Authority (LSA) to pass the security package any credentials stored for the authenticated security principal.helpviewer_keywords: ["SpAcceptCredentials","SpAcceptCredentials callback function [Security]","SpAcceptCredentialsFn","SpAcceptCredentialsFn callback","_ssp_spacceptcredentials","ntsecpkg/SpAcceptCredentials","security.spacceptcredentials"]
 old-location: security\spacceptcredentials.htm
 tech.root: SecAuthN
 ms.assetid: bb382937-e5d6-452b-b166-505d0c80412c

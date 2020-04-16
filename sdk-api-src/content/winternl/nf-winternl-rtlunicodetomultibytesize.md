@@ -1,7 +1,7 @@
 ---
 UID: NF:winternl.RtlUnicodeToMultiByteSize
 title: RtlUnicodeToMultiByteSize function (winternl.h)
-description: Determines how many bytes are needed to represent a Unicode string as an ANSI string.
+description: Determines how many bytes are needed to represent a Unicode string as an ANSI string.helpviewer_keywords: ["RtlUnicodeToMultiByteSize","RtlUnicodeToMultiByteSize function [Windows API]","winprog.rtlunicodetomultibytesize","winternl/RtlUnicodeToMultiByteSize","winui.rtlunicodetomultibytesize"]
 old-location: winprog\rtlunicodetomultibytesize.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodetomultibytesize.htm

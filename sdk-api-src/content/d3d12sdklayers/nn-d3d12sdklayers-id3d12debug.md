@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12Debug
 title: ID3D12Debug (d3d12sdklayers.h)
-description: A debug interface controls debug settings and validates pipeline state. It can only be used if the debug layer is turned on.
+description: A debug interface controls debug settings and validates pipeline state. It can only be used if the debug layer is turned on.helpviewer_keywords: ["ID3D12Debug","ID3D12Debug interface","ID3D12Debug interface","described","d3d12sdklayers/ID3D12Debug","direct3d12.id3d12debug"]
 old-location: direct3d12\id3d12debug.htm
 tech.root: direct3d12
 ms.assetid: 6CFAE096-EE09-4DD0-ADA3-A700FD9FDCB9

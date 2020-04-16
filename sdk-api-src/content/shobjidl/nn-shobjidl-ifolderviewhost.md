@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IFolderViewHost
 title: IFolderViewHost (shobjidl.h)
-description: Exposes a method that hosts an IFolderView object in a window.
+description: Exposes a method that hosts an IFolderView object in a window.helpviewer_keywords: ["IFolderViewHost","IFolderViewHost interface [Windows Shell]","IFolderViewHost interface [Windows Shell]","described","_shell_IFolderViewHost","shell.IFolderViewHost","shobjidl/IFolderViewHost"]
 old-location: shell\IFolderViewHost.htm
 tech.root: shell
 ms.assetid: 1e3d4a9a-6336-4667-92dd-9dc9678606e9

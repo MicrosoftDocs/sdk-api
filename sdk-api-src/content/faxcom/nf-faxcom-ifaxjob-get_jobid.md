@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxJob.get_JobId
 title: IFaxJob::get_JobId (faxcom.h)
-description: The IFaxJob::get_JobId property is a number that uniquely identifies the specified fax job.
+description: The IFaxJob::get_JobId property is a number that uniquely identifies the specified fax job.helpviewer_keywords: ["IFaxJob interface [Fax Service]","JobId property","IFaxJob.JobId","IFaxJob.get_JobId","IFaxJob::JobId","IFaxJob::get_JobId","JobId property [Fax Service]","JobId property [Fax Service]","IFaxJob interface","_mfax_ifaxjob_get_jobid","fax._mfax_ifaxjob_get_jobid","fax._mfax_ifaxjob_mfax_ifaxjob_get_jobid_cpp","faxcom/IFaxJob::JobId","faxcom/IFaxJob::get_JobId","get_JobId"]
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_jobid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0xwk.htm

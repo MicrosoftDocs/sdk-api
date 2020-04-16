@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IESEventServiceConfiguration.RemoveOwner
 title: IESEventServiceConfiguration::RemoveOwner (tuner.h)
-description: Removes the owner of an event service, where event service refers to a generic Windows event service that implements the IESEventService interface.
+description: Removes the owner of an event service, where event service refers to a generic Windows event service that implements the IESEventService interface.helpviewer_keywords: ["IESEventServiceConfiguration interface [Microsoft TV Technologies]","RemoveOwner method","IESEventServiceConfiguration.RemoveOwner","IESEventServiceConfiguration::RemoveOwner","RemoveOwner","RemoveOwner method [Microsoft TV Technologies]","RemoveOwner method [Microsoft TV Technologies]","IESEventServiceConfiguration interface","mstv.ieseventserviceconfiguration_removeowner","tuner/IESEventServiceConfiguration::RemoveOwner"]
 old-location: mstv\ieseventserviceconfiguration_removeowner.htm
 tech.root: mstv
 ms.assetid: c55b732e-960c-4a0c-939b-2f3628b5c9b6

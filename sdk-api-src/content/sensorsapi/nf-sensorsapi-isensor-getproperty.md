@@ -1,7 +1,7 @@
 ---
 UID: NF:sensorsapi.ISensor.GetProperty
 title: ISensor::GetProperty (sensorsapi.h)
-description: Retrieves a property value.
+description: Retrieves a property value.helpviewer_keywords: ["GetProperty","GetProperty method","GetProperty method","ISensor interface","ISensor interface","GetProperty method","ISensor.GetProperty","ISensor::GetProperty","sensorsapi/ISensor::GetProperty","winsensors_com_ref.isensor_getproperty"]
 old-location: winsensors_com_ref\isensor_getproperty.htm
 tech.root: SensorsAPI
 ms.assetid: 205f372e-a8ca-4494-a431-84d985ec4f9f

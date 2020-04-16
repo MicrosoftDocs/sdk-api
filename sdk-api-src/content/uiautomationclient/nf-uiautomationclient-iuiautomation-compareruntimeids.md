@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CompareRuntimeIds
 title: IUIAutomation::CompareRuntimeIds (uiautomationclient.h)
-description: Compares two integer arrays containing run-time identifiers (IDs) to determine whether their content is the same and they belong to the same UI element.
+description: Compares two integer arrays containing run-time identifiers (IDs) to determine whether their content is the same and they belong to the same UI element.helpviewer_keywords: ["CompareRuntimeIds","CompareRuntimeIds method [Windows Accessibility]","CompareRuntimeIds method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CompareRuntimeIds method","IUIAutomation.CompareRuntimeIds","IUIAutomation::CompareRuntimeIds","uiauto.uiauto_IUIAutomation_CompareRuntimeIds","uiauto_IUIAutomation_CompareRuntimeIds","uiautomationclient/IUIAutomation::CompareRuntimeIds","winauto.uiauto_IUIAutomation_CompareRuntimeIds"]
 old-location: winauto\uiauto_IUIAutomation_CompareRuntimeIds.htm
 tech.root: WinAuto
 ms.assetid: b0c481eb-3545-439c-bf6a-347b98ea35de

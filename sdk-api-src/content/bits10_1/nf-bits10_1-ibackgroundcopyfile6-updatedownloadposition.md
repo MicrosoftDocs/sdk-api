@@ -1,7 +1,7 @@
 ---
 UID: NF:bits10_1.IBackgroundCopyFile6.UpdateDownloadPosition
 title: IBackgroundCopyFile6::UpdateDownloadPosition (bits10_1.h)
-description: Specifies a position to prioritize downloading missing data from.
+description: Specifies a position to prioritize downloading missing data from.helpviewer_keywords: ["IBackgroundCopyFile6 interface [BITS]","UpdateDownloadPosition method","IBackgroundCopyFile6.UpdateDownloadPosition","IBackgroundCopyFile6::UpdateDownloadPosition","UpdateDownloadPosition","UpdateDownloadPosition method [BITS]","UpdateDownloadPosition method [BITS]","IBackgroundCopyFile6 interface","bits.ibackgroundcopyfile6_updatedownloadposition","bits10_1/IBackgroundCopyFile6::UpdateDownloadPosition"]
 old-location: bits\ibackgroundcopyfile6_updatedownloadposition.htm
 tech.root: Bits
 ms.assetid: 243F9D5A-32D8-4D39-A9B2-E452CF745844

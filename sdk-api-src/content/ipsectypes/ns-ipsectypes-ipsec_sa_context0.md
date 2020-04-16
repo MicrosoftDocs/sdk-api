@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT0_
 title: IPSEC_SA_CONTEXT0 (ipsectypes.h)
-description: Encapsulates an inbound and outbound SA pair.
+description: Encapsulates an inbound and outbound SA pair.helpviewer_keywords: ["IPSEC_SA_CONTEXT0","IPSEC_SA_CONTEXT0 structure [Filtering]","fwp.ipsec_sa_context0","ipsectypes/IPSEC_SA_CONTEXT0"]
 old-location: fwp\ipsec_sa_context0.htm
 tech.root: fwp
 ms.assetid: 1cf191f0-5052-40f6-8665-747ae3f38fb1

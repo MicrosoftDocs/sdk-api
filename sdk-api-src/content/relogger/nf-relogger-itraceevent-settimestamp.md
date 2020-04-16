@@ -1,7 +1,7 @@
 ---
 UID: NF:relogger.ITraceEvent.SetTimeStamp
 title: ITraceEvent::SetTimeStamp (relogger.h)
-description: Sets the time at which an event occurred.
+description: Sets the time at which an event occurred.helpviewer_keywords: ["ITraceEvent interface [ETW]","SetTimeStamp method","ITraceEvent.SetTimeStamp","ITraceEvent::SetTimeStamp","SetTimeStamp","SetTimeStamp method [ETW]","SetTimeStamp method [ETW]","ITraceEvent interface","etw.ievent_settimestamp","relogger/ITraceEvent::SetTimeStamp"]
 old-location: etw\ievent_settimestamp.htm
 tech.root: ETW
 ms.assetid: e1f76887-8edd-414e-bee3-36b61709c2b5

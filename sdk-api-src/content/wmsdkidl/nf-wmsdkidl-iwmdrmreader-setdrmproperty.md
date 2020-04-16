@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.SetDRMProperty
 title: IWMDRMReader::SetDRMProperty (wmsdkidl.h)
-description: The SetDRMProperty method on the reader object is used to set a DRM property, such as the DRM_Rights property.
+description: The SetDRMProperty method on the reader object is used to set a DRM property, such as the DRM_Rights property.helpviewer_keywords: ["IWMDRMReader interface [windows Media Format]","SetDRMProperty method","IWMDRMReader.SetDRMProperty","IWMDRMReader::SetDRMProperty","IWMDRMReaderSetDRMProperty","SetDRMProperty","SetDRMProperty method [windows Media Format]","SetDRMProperty method [windows Media Format]","IWMDRMReader interface","wmformat.iwmdrmreader_setdrmproperty","wmsdkidl/IWMDRMReader::SetDRMProperty"]
 old-location: wmformat\iwmdrmreader_setdrmproperty.htm
 tech.root: wmformat
 ms.assetid: 52f606c2-a746-488f-bbf7-0d0e54b89bf9

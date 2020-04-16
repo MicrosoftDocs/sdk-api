@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IFillLockBytes.FillAppend
 title: IFillLockBytes::FillAppend (objidl.h)
-description: The FillAppend method writes a new block of bytes to the end of a byte array.
+description: The FillAppend method writes a new block of bytes to the end of a byte array.helpviewer_keywords: ["FillAppend","FillAppend method [Structured Storage]","FillAppend method [Structured Storage]","IFillLockBytes interface","IFillLockBytes interface [Structured Storage]","FillAppend method","IFillLockBytes.FillAppend","IFillLockBytes::FillAppend","_stg_ifilllockbytes_fillappend","objidl/IFillLockBytes::FillAppend","stg.ifilllockbytes_fillappend"]
 old-location: stg\ifilllockbytes_fillappend.htm
 tech.root: Stg
 ms.assetid: 3f25c48f-85a4-4778-b262-ad0c52cb1ac9

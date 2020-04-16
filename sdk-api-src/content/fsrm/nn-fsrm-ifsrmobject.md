@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrm.IFsrmObject
 title: IFsrmObject (fsrm.h)
-description: Base class for all FSRM objects.
+description: Base class for all FSRM objects.helpviewer_keywords: ["IFsrmObject","IFsrmObject interface [File Server Resource Manager]","IFsrmObject interface [File Server Resource Manager]","described","fs.ifsrmobject","fsrm.ifsrmobject","fsrm/IFsrmObject"]
 old-location: fsrm\ifsrmobject.htm
 tech.root: fsrm
 ms.assetid: bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7

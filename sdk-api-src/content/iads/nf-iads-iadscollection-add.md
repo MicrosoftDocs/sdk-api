@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsCollection.Add
 title: IADsCollection::Add (iads.h)
-description: Adds a named item to the collection.
+description: Adds a named item to the collection.helpviewer_keywords: ["Add","Add method [ADSI]","Add method [ADSI]","IADsCollection interface","IADsCollection interface [ADSI]","Add method","IADsCollection.Add","IADsCollection::Add","_ds_iadscollection_add","adsi.iadscollection__add","adsi.iadscollection_add","iads/IADsCollection::Add"]
 old-location: adsi\iadscollection_add.htm
 tech.root: adsi
 ms.assetid: c4f0dc3e-238c-4fd3-adb7-9d467efc8c3d

@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.Get
 title: ISimilarityTraitsMappedView::Get (msrdc.h)
-description: Returns information about the mapped view of a similarity traits table file.
+description: Returns information about the mapped view of a similarity traits table file.helpviewer_keywords: ["Get","Get method [Remote Differential Compression]","Get method [Remote Differential Compression]","ISimilarityTraitsMappedView interface","ISimilarityTraitsMappedView interface [Remote Differential Compression]","Get method","ISimilarityTraitsMappedView.Get","ISimilarityTraitsMappedView::Get","fs.isimilaritytraitsmappedview_get","msrdc/ISimilarityTraitsMappedView::Get","rdc.isimilaritytraitsmappedview_get"]
 old-location: rdc\isimilaritytraitsmappedview_get.htm
 tech.root: rdc
 ms.assetid: 57542583-528e-49cb-9ece-f49ecfc6b1cd

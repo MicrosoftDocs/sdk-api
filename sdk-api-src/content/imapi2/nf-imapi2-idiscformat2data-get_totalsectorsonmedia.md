@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_TotalSectorsOnMedia
 title: IDiscFormat2Data::get_TotalSectorsOnMedia (imapi2.h)
-description: Retrieves the number of sectors on the media in the device.
+description: Retrieves the number of sectors on the media in the device.helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_TotalSectorsOnMedia method","IDiscFormat2Data.get_TotalSectorsOnMedia","IDiscFormat2Data::get_TotalSectorsOnMedia","get_TotalSectorsOnMedia","get_TotalSectorsOnMedia method [IMAPI]","get_TotalSectorsOnMedia method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_totalsectorsonmedia","imapi2/IDiscFormat2Data::get_TotalSectorsOnMedia"]
 old-location: imapi\idiscformat2data_get_totalsectorsonmedia.htm
 tech.root: imapi
 ms.assetid: 9ad23657-36db-4edd-841d-eecb591209f5

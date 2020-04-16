@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.IEnumTerminal
 title: IEnumTerminal (tapi3if.h)
-description: The IEnumTerminal interface provides COM-standard enumeration methods for the ITTerminal interface.
+description: The IEnumTerminal interface provides COM-standard enumeration methods for the ITTerminal interface.helpviewer_keywords: ["IEnumTerminal","IEnumTerminal interface [TAPI 2.2]","IEnumTerminal interface [TAPI 2.2]","described","_tapi3_ienumterminal","tapi3.ienumterminal","tapi3if/IEnumTerminal"]
 old-location: tapi3\ienumterminal.htm
 tech.root: Tapi
 ms.assetid: a364e466-1d10-402f-935d-ff2713522fed

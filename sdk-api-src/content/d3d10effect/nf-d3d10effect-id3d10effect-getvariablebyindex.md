@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetVariableByIndex
 title: ID3D10Effect::GetVariableByIndex (d3d10effect.h)
-description: Get a variable by index.
+description: Get a variable by index.helpviewer_keywords: ["2e86399d-6be5-f4d4-507f-83c86d62cf4d","GetVariableByIndex","GetVariableByIndex method [Direct3D 10]","GetVariableByIndex method [Direct3D 10]","ID3D10Effect interface","ID3D10Effect interface [Direct3D 10]","GetVariableByIndex method","ID3D10Effect.GetVariableByIndex","ID3D10Effect::GetVariableByIndex","d3d10effect/ID3D10Effect::GetVariableByIndex","direct3d10.id3d10effect_getvariablebyindex"]
 old-location: direct3d10\id3d10effect_getvariablebyindex.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getvariablebyindex.htm

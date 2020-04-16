@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.GetType
 title: Image::GetType (gdiplusheaders.h)
-description: The Image::GetType method gets the type (bitmap or metafile) of this Image object.
+description: The Image::GetType method gets the type (bitmap or metafile) of this Image object.helpviewer_keywords: ["GetType","GetType method [GDI+]","GetType method [GDI+]","Image class","Image class [GDI+]","GetType method","Image.GetType","Image::GetType","_gdiplus_CLASS_Image_GetType_","gdiplus._gdiplus_CLASS_Image_GetType_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetType_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\gettype_36.htm

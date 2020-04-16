@@ -1,7 +1,7 @@
 ---
 UID: NE:projectedfslib.PRJ_CALLBACK_DATA_FLAGS
 title: PRJ_CALLBACK_DATA_FLAGS (projectedfslib.h)
-description: Flags controlling what is returned in the enumeration.
+description: Flags controlling what is returned in the enumeration.helpviewer_keywords: ["PRJ_CALLBACK_DATA_FLAGS","PRJ_CALLBACK_DATA_FLAGS enumeration","PRJ_CB_DATA_FLAG_ENUM_RESTART_SCAN","PRJ_CB_DATA_FLAG_ENUM_RETURN_SINGLE_ENTRY","ProjFS.prj_callback_data_flags","projectedfslib/PRJ_CALLBACK_DATA_FLAGS","projectedfslib/PRJ_CB_DATA_FLAG_ENUM_RESTART_SCAN","projectedfslib/PRJ_CB_DATA_FLAG_ENUM_RETURN_SINGLE_ENTRY"]
 old-location: projfs\prj_callback_data_flags.htm
 tech.root: ProjFS
 ms.assetid: 5046714B-64AC-458D-93C7-013B1466C655

@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.SetListAlignment
 title: ITextPara::SetListAlignment (tom.h)
-description: Sets the alignment of bulleted or numbered text used for paragraphs.
+description: Sets the alignment of bulleted or numbered text used for paragraphs.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetListAlignment method","ITextPara.SetListAlignment","ITextPara::SetListAlignment","SetListAlignment","SetListAlignment method [Windows Controls]","SetListAlignment method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetListAlignment","_win32_ITextPara_SetListAlignment_cpp","controls.ITextPara_SetListAlignment","controls._win32_ITextPara_SetListAlignment","tom/ITextPara::SetListAlignment"]
 old-location: controls\ITextPara_SetListAlignment.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlistalignment.htm

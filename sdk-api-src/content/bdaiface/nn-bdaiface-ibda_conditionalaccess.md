@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_ConditionalAccess
 title: IBDA_ConditionalAccess (bdaiface.h)
-description: The IBDA_ConditionalAccess interface provides conditional access to program content.
+description: The IBDA_ConditionalAccess interface provides conditional access to program content.helpviewer_keywords: ["IBDA_ConditionalAccess","IBDA_ConditionalAccess interface [Microsoft TV Technologies]","IBDA_ConditionalAccess interface [Microsoft TV Technologies]","described","IBDA_ConditionalAccessInterface","bdaiface/IBDA_ConditionalAccess","mstv.ibda_conditionalaccess"]
 old-location: mstv\ibda_conditionalaccess.htm
 tech.root: mstv
 ms.assetid: 93bd3c38-2591-4d36-b296-5ad939487277

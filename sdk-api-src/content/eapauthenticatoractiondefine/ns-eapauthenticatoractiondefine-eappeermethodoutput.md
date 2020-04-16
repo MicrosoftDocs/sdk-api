@@ -1,7 +1,7 @@
 ---
 UID: NS:eapauthenticatoractiondefine.tagEapPeerMethodOuput
 title: EapPeerMethodOutput (eapauthenticatoractiondefine.h)
-description: Contains the action information returned by an EAP peer method.
+description: Contains the action information returned by an EAP peer method.helpviewer_keywords: ["EapPeerMethodOutput","EapPeerMethodOutput structure [EAPHost]","eapauthenticatoractiondefine/EapPeerMethodOutput","eaphost.eappeermethodoutput"]
 old-location: eaphost\eappeermethodoutput.htm
 tech.root: eaphost
 ms.assetid: fb3d423e-8509-4478-87d5-86bcbd90a8e7

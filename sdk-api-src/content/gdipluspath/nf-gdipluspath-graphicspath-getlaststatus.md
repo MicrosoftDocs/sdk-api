@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetLastStatus
 title: GraphicsPath::GetLastStatus (gdipluspath.h)
-description: The GraphicsPath::GetLastStatus method returns a value that indicates the nature of this GraphicsPath object's most recent method failure.
+description: The GraphicsPath::GetLastStatus method returns a value that indicates the nature of this GraphicsPath object's most recent method failure.helpviewer_keywords: ["GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","GetLastStatus method","GraphicsPath.GetLastStatus","GraphicsPath::GetLastStatus","_gdiplus_CLASS_GraphicsPath_GetLastStatus_","gdiplus._gdiplus_CLASS_GraphicsPath_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getlaststatus_91.htm

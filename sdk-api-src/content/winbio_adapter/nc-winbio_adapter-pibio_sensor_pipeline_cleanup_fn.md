@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_PIPELINE_CLEANUP_FN
 title: PIBIO_SENSOR_PIPELINE_CLEANUP_FN (winbio_adapter.h)
-description: Gives the Sensor Adapter the chance to perform any cleanup in that requires help from the Engine or Storage adapter components.
+description: Gives the Sensor Adapter the chance to perform any cleanup in that requires help from the Engine or Storage adapter components.helpviewer_keywords: ["PIBIO_SENSOR_PIPELINE_CLEANUP_FN","PIBIO_SENSOR_PIPELINE_CLEANUP_FN callback","SensorAdapterPipelineCleanup","SensorAdapterPipelineCleanup callback function [Windows Biometric Framework API]","secbiomet.sensoradapterpipelinecleanup","winbio_adapter/SensorAdapterPipelineCleanup"]
 old-location: secbiomet\sensoradapterpipelinecleanup.htm
 tech.root: SecBioMet
 ms.assetid: 36238A6F-BDE2-454E-A183-ED10A455AF13

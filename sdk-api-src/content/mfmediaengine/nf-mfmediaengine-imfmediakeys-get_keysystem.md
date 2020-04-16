@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeys.get_KeySystem
 title: IMFMediaKeys::get_KeySystem (mfmediaengine.h)
-description: Gets the key system string the IMFMediaKeys object was created with.
+description: Gets the key system string the IMFMediaKeys object was created with.helpviewer_keywords: ["IMFMediaKeys interface [Media Foundation]","get_KeySystem method","IMFMediaKeys.get_KeySystem","IMFMediaKeys::get_KeySystem","get_KeySystem","get_KeySystem method [Media Foundation]","get_KeySystem method [Media Foundation]","IMFMediaKeys interface","mf.imfmediakeys_get_keysystem","mfmediaengine/IMFMediaKeys::get_KeySystem"]
 old-location: mf\imfmediakeys_get_keysystem.htm
 tech.root: medfound
 ms.assetid: d60ee85b-b5fc-4d06-a3a2-f61ff3635d99

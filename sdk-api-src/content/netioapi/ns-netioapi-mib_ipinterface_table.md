@@ -1,7 +1,7 @@
 ---
 UID: NS:netioapi._MIB_IPINTERFACE_TABLE
 title: MIB_IPINTERFACE_TABLE (netioapi.h)
-description: Contains a table of IP interface entries.
+description: Contains a table of IP interface entries.helpviewer_keywords: ["*PMIB_IPINTERFACE_TABLE","MIB_IPINTERFACE_TABLE","MIB_IPINTERFACE_TABLE structure [MIB]","PMIB_IPINTERFACE_TABLE","PMIB_IPINTERFACE_TABLE structure pointer [MIB]","_MIB_IPINTERFACE_TABLE","mib.mib_ipinterface_table","netioapi/MIB_IPINTERFACE_TABLE","netioapi/PMIB_IPINTERFACE_TABLE"]
 old-location: mib\mib_ipinterface_table.htm
 tech.root: MIB
 ms.assetid: c4bbb949-5573-42cd-bb03-e308ac40d569

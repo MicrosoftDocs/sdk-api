@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextRangeArray
 title: IUIAutomationTextRangeArray (uiautomationclient.h)
-description: Represents a collection of IUIAutomationTextRange objects.
+description: Represents a collection of IUIAutomationTextRange objects.helpviewer_keywords: ["IUIAutomationTextRangeArray","IUIAutomationTextRangeArray interface [Windows Accessibility]","IUIAutomationTextRangeArray interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationTextRangeArray","uiauto_IUIAutomationTextRangeArray","uiautomationclient/IUIAutomationTextRangeArray","winauto.uiauto_IUIAutomationTextRangeArray"]
 old-location: winauto\uiauto_IUIAutomationTextRangeArray.htm
 tech.root: WinAuto
 ms.assetid: 9f059173-7539-4164-b7af-182fa851d11a

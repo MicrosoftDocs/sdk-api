@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsSession
 title: IADsSession (iads.h)
-description: The IADsSession interface is a dual interface that inherits from IADs. It is designed to represent an active session for file service across a network.
+description: The IADsSession interface is a dual interface that inherits from IADs. It is designed to represent an active session for file service across a network.helpviewer_keywords: ["IADsSession","IADsSession interface [ADSI]","IADsSession interface [ADSI]","described","_ds_iadssession","adsi.iadssession","iads/IADsSession"]
 old-location: adsi\iadssession.htm
 tech.root: adsi
 ms.assetid: 54621f0d-7478-4a6f-a96f-f3f93e64b281

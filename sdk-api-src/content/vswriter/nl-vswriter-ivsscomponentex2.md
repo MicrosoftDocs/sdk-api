@@ -1,7 +1,7 @@
 ---
 UID: NL:vswriter.IVssComponentEx2
 title: IVssComponentEx2 (vswriter.h)
-description: Defines additional methods for reporting and retrieving component-level writer errors.
+description: Defines additional methods for reporting and retrieving component-level writer errors.helpviewer_keywords: ["IVssComponentEx2","IVssComponentEx2 interface","IVssComponentEx2 interface","described","base.ivsscomponentex2","vswriter/IVssComponentEx2"]
 old-location: base\ivsscomponentex2.htm
 tech.root: VSS
 ms.assetid: f40705bf-46a9-464d-a545-1d68d89876c2

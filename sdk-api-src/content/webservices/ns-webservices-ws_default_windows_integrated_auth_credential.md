@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 title: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL (webservices.h)
-description: Type for supplying a Windows Integrated Authentication credential based on the current Windows identity.
+description: Type for supplying a Windows Integrated Authentication credential based on the current Windows identity.helpviewer_keywords: ["WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL","WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows]","webservices/WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL","wsw.ws_default_windows_integrated_auth_credential"]
 old-location: wsw\ws_default_windows_integrated_auth_credential.htm
 tech.root: wsw
 ms.assetid: 14753a2d-6054-4041-a72b-4cd7a9576f3b

@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.phoneSetHookSwitch
 title: phoneSetHookSwitch function (tapi.h)
-description: The phoneSetHookSwitch function sets the hook state of the specified open phone's hookswitch devices to the specified mode. Only the hookswitch state of the hookswitch devices listed is affected.
+description: The phoneSetHookSwitch function sets the hook state of the specified open phone's hookswitch devices to the specified mode. Only the hookswitch state of the hookswitch devices listed is affected.helpviewer_keywords: ["_tapi2_phonesethookswitch","phoneSetHookSwitch","phoneSetHookSwitch function [TAPI 2.2]","tapi/phoneSetHookSwitch","tapi2.phonesethookswitch"]
 old-location: tapi2\phonesethookswitch.htm
 tech.root: Tapi
 ms.assetid: 048f98e3-ac1b-47f8-85c8-97e7b7690030

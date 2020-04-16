@@ -1,7 +1,7 @@
 ---
 UID: NF:winstring.WindowsSubstring
 title: WindowsSubstring function (winstring.h)
-description: Retrieves a substring from the specified string. The substring starts at the specified character position.
+description: Retrieves a substring from the specified string. The substring starts at the specified character position.helpviewer_keywords: ["WindowsSubstring","WindowsSubstring function [Windows Runtime]","winrt.windowssubstring","winstring/WindowsSubstring"]
 old-location: winrt\windowssubstring.htm
 tech.root: WinRT
 ms.assetid: 15DB3383-D7EC-4047-A1B8-90F8A47428EE

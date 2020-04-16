@@ -1,7 +1,7 @@
 ---
 UID: NE:propsys.PROPDESC_SEARCHINFO_FLAGS
 title: PROPDESC_SEARCHINFO_FLAGS (propsys.h)
-description: Determines whether and how a property is indexed by Windows Search.
+description: Determines whether and how a property is indexed by Windows Search.helpviewer_keywords: ["PDSIF_ALWAYSINCLUDE","PDSIF_DEFAULT","PDSIF_ININVERTEDINDEX","PDSIF_ISCOLUMN","PDSIF_ISCOLUMNSPARSE","PDSIF_USEFORTYPEAHEAD","PROPDESC_SEARCHINFO_FLAGS","PROPDESC_SEARCHINFO_FLAGS enumeration [Windows Properties]","_shell_PROPDESC_SEARCHINFO_FLAGS","properties.PROPDESC_SEARCHINFO_FLAGS","propsys/PDSIF_ALWAYSINCLUDE","propsys/PDSIF_DEFAULT","propsys/PDSIF_ININVERTEDINDEX","propsys/PDSIF_ISCOLUMN","propsys/PDSIF_ISCOLUMNSPARSE","propsys/PDSIF_USEFORTYPEAHEAD","propsys/PROPDESC_SEARCHINFO_FLAGS","shell.PROPDESC_SEARCHINFO_FLAGS"]
 old-location: properties\PROPDESC_SEARCHINFO_FLAGS.htm
 tech.root: properties
 ms.assetid: 49e858e3-0231-45ce-a5a8-a1c4536577a8

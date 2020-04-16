@@ -1,7 +1,7 @@
 ---
 UID: NC:routprot.PGET_EVENT_MESSAGE
 title: PGET_EVENT_MESSAGE (routprot.h)
-description: The GetEventMessage function gets an entry from the routing protocol's message queue. The routing protocol uses the queue to inform the router manager of asynchronous events.
+description: The GetEventMessage function gets an entry from the routing protocol's message queue. The routing protocol uses the queue to inform the router manager of asynchronous events.helpviewer_keywords: ["GetEventMessage","PGET_EVENT_MESSAGE","PGET_EVENT_MESSAGE callback","PGET_EVENT_MESSAGE callback function [RAS]","ROUTER_STOPPED","SAVE_GLOBAL_CONFIG_INFO","SAVE_INTERFACE_CONFIG_INFO","UPDATE_COMPLETE","_mpr_geteventmessage","routprot/PGET_EVENT_MESSAGE","rras.geteventmessage"]
 old-location: rras\geteventmessage.htm
 tech.root: RRAS
 ms.assetid: 59aa7bd8-3510-4ca0-90f1-2667dcb4abf0

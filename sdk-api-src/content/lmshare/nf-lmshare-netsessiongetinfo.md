@@ -1,7 +1,7 @@
 ---
 UID: NF:lmshare.NetSessionGetInfo
 title: NetSessionGetInfo function (lmshare.h)
-description: Retrieves information about a session established between a particular server and workstation.
+description: Retrieves information about a session established between a particular server and workstation.helpviewer_keywords: ["0","1","10","2","NetSessionGetInfo","NetSessionGetInfo function [Files]","_win32_netsessiongetinfo","fs.netsessiongetinfo","lmshare/NetSessionGetInfo","netmgmt.netsessiongetinfo"]
 old-location: fs\netsessiongetinfo.htm
 tech.root: NetShare
 ms.assetid: d44fb8d8-2b64-4268-8603-7784e2c5f2d5

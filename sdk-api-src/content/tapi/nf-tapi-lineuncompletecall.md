@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineUncompleteCall
 title: lineUncompleteCall function (tapi.h)
-description: The lineUncompleteCall function cancels the specified call completion request on the specified line.
+description: The lineUncompleteCall function cancels the specified call completion request on the specified line.helpviewer_keywords: ["_tapi2_lineuncompletecall","lineUncompleteCall","lineUncompleteCall function [TAPI 2.2]","tapi/lineUncompleteCall","tapi2.lineuncompletecall"]
 old-location: tapi2\lineuncompletecall.htm
 tech.root: Tapi
 ms.assetid: e6b87d84-071c-4b75-afbf-569a5a861e3a

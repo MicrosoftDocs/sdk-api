@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetTrackKind
 title: IMFTimedTextTrack::GetTrackKind (mfmediaengine.h)
-description: Gets the kind of timed-text track.
+description: Gets the kind of timed-text track.helpviewer_keywords: ["GetTrackKind","GetTrackKind method [Media Foundation]","GetTrackKind method [Media Foundation]","IMFTimedTextTrack interface","IMFTimedTextTrack interface [Media Foundation]","GetTrackKind method","IMFTimedTextTrack.GetTrackKind","IMFTimedTextTrack::GetTrackKind","mf.imftimedtexttrack_gettrackkind","mfmediaengine/IMFTimedTextTrack::GetTrackKind"]
 old-location: mf\imftimedtexttrack_gettrackkind.htm
 tech.root: medfound
 ms.assetid: 6B4752EC-553B-42F8-8C8B-52388C803E2E

@@ -1,7 +1,7 @@
 ---
 UID: NN:inputpaneinterop.IInputPaneInterop
 title: IInputPaneInterop (inputpaneinterop.h)
-description: Enables access to the members of the InputPane class in a desktop app.
+description: Enables access to the members of the InputPane class in a desktop app.helpviewer_keywords: ["IInputPaneInterop","IInputPaneInterop interface [Windows Runtime]","IInputPaneInterop interface [Windows Runtime]","described","inputpaneinterop/IInputPaneInterop","winrt.iinputpaneinterop"]
 old-location: winrt\iinputpaneinterop.htm
 tech.root: WinRT
 ms.assetid: DAE4705C-B786-44D4-8B03-1523EFC4C190

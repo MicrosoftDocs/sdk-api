@@ -1,7 +1,7 @@
 ---
 UID: NS:projectedfslib.PRJ_FILE_BASIC_INFO
 title: PRJ_FILE_BASIC_INFO (projectedfslib.h)
-description: Basic information about an item.
+description: Basic information about an item.helpviewer_keywords: ["PRJ_FILE_BASIC_INFO","PRJ_FILE_BASIC_INFO structure","ProjFS.prj_file_basic_info","projectedfslib/PRJ_FILE_BASIC_INFO"]
 old-location: projfs\prj_file_basic_info.htm
 tech.root: ProjFS
 ms.assetid: 5B5D157E-DEAF-47F2-BDB2-2CF3D307CB7F

@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetId
 title: IOpcSignatureReference::GetId (msopc.h)
-description: Gets the identifier for the reference.
+description: Gets the identifier for the reference.helpviewer_keywords: ["GetId","GetId method [Open Packaging Conventions]","GetId method [Open Packaging Conventions]","IOpcSignatureReference interface","IOpcSignatureReference interface [Open Packaging Conventions]","GetId method","IOpcSignatureReference.GetId","IOpcSignatureReference::GetId","msopc/IOpcSignatureReference::GetId","opc.iopcsignaturereference_getid"]
 old-location: opc\iopcsignaturereference_getid.htm
 tech.root: OPC
 ms.assetid: 741fd38e-910a-42c7-8bd2-006cf29843d9

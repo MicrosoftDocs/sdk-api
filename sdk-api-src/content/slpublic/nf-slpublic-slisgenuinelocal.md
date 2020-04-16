@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLIsGenuineLocal
 title: SLIsGenuineLocal function (slpublic.h)
-description: Checks whether the specified application is a genuine Windows installation.
+description: Checks whether the specified application is a genuine Windows installation.helpviewer_keywords: ["SLIsGenuineLocal","SLIsGenuineLocal function [Security]","security.slisgenuinelocal","slpublic/SLIsGenuineLocal"]
 old-location: security\slisgenuinelocal.htm
 tech.root: SecSLApi
 ms.assetid: e1983777-13c1-4bf5-834d-471db3bfa0f6

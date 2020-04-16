@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTSINFOA
 title: WTSINFOA (wtsapi32.h)
-description: Contains information about a Remote Desktop Services session.
+description: Contains information about a Remote Desktop Services session.helpviewer_keywords: ["*PWTSINFOA","PWTSINFO","PWTSINFO structure pointer [Remote Desktop Services]","WTSINFO","WTSINFO structure [Remote Desktop Services]","WTSINFOA","WTSINFOW","termserv.wtsinfo","wtsapi32/PWTSINFO","wtsapi32/WTSINFO","wtsapi32/WTSINFOA","wtsapi32/WTSINFOW"]
 old-location: termserv\wtsinfo.htm
 tech.root: TermServ
 ms.assetid: 14e2d3bb-8c83-45aa-aa63-87afef3008b3

@@ -1,7 +1,7 @@
 ---
 UID: NF:mspaddr.CMSPAddress.GetDynamicTerminalClasses
 title: CMSPAddress::GetDynamicTerminalClasses (mspaddr.h)
-description: The GetDynamicTerminalClasses method is called by our wrapper methods to get an array of dynamic terminal classes that can be used on this address.
+description: The GetDynamicTerminalClasses method is called by our wrapper methods to get an array of dynamic terminal classes that can be used on this address.helpviewer_keywords: ["CMSPAddress interface [TAPI 2.2]","GetDynamicTerminalClasses method","CMSPAddress.GetDynamicTerminalClasses","CMSPAddress::GetDynamicTerminalClasses","GetDynamicTerminalClasses","GetDynamicTerminalClasses method [TAPI 2.2]","GetDynamicTerminalClasses method [TAPI 2.2]","CMSPAddress interface","_tapi3_cmspaddress_getdynamicterminalclasses","mspaddr/CMSPAddress::GetDynamicTerminalClasses","tapi3.cmspaddress_getdynamicterminalclasses"]
 old-location: tapi3\cmspaddress_getdynamicterminalclasses.htm
 tech.root: Tapi
 ms.assetid: 62ded118-ee43-4500-97e2-4177518465a6

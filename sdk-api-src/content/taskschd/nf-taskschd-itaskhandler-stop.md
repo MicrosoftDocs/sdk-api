@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskHandler.Stop
 title: ITaskHandler::Stop (taskschd.h)
-description: Called to stop the COM handler.
+description: Called to stop the COM handler.helpviewer_keywords: ["ITaskHandler interface [Task Scheduler]","Stop method","ITaskHandler.Stop","ITaskHandler::Stop","Stop","Stop method [Task Scheduler]","Stop method [Task Scheduler]","ITaskHandler interface","taskschd.itaskhandler_stop","taskschd/ITaskHandler::Stop"]
 old-location: taskschd\itaskhandler_stop.htm
 tech.root: taskschd
 ms.assetid: 93a112e7-5e44-42a9-a5f5-d61e1ad1eabc

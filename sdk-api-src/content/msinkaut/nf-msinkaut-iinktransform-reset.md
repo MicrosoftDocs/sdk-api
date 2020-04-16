@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTransform.Reset
 title: IInkTransform::Reset (msinkaut.h)
-description: Resets the transform to its default state, the identity transform.
+description: Resets the transform to its default state, the identity transform.helpviewer_keywords: ["IInkTransform interface [Tablet PC]","Reset method","IInkTransform.Reset","IInkTransform::Reset","Reset","Reset method [Tablet PC]","Reset method [Tablet PC]","IInkTransform interface","ea593b1c-0986-4969-8f6f-726987b7c4a6","msinkaut/IInkTransform::Reset","tablet.inktransform_reset"]
 old-location: tablet\inktransform_reset.htm
 tech.root: tablet
 ms.assetid: ea593b1c-0986-4969-8f6f-726987b7c4a6

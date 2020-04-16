@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.MkParseDisplayName
 title: MkParseDisplayName function (objbase.h)
-description: Converts a string into a moniker that identifies the object named by the string.
+description: Converts a string into a moniker that identifies the object named by the string.helpviewer_keywords: ["MkParseDisplayName","MkParseDisplayName function [COM]","_com_MkParseDisplayName","com.mkparsedisplayname","objbase/MkParseDisplayName"]
 old-location: com\mkparsedisplayname.htm
 tech.root: com
 ms.assetid: ada46dd3-e2c5-4ff5-89bd-3805f98b247b

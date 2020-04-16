@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IFeedClockVector.IsNoConflictsSpecified
 title: IFeedClockVector::IsNoConflictsSpecified (winsync.h)
-description: Gets a value that indicates whether conflicts are preserved for the FeedSync item.
+description: Gets a value that indicates whether conflicts are preserved for the FeedSync item.helpviewer_keywords: ["IFeedClockVector interface [Windows Sync]","IsNoConflictsSpecified method","IFeedClockVector.IsNoConflictsSpecified","IFeedClockVector::IsNoConflictsSpecified","IsNoConflictsSpecified","IsNoConflictsSpecified method [Windows Sync]","IsNoConflictsSpecified method [Windows Sync]","IFeedClockVector interface","winsync.ifeedclockvector_isnoconflictsspecified","winsync/IFeedClockVector::IsNoConflictsSpecified"]
 old-location: winsync\ifeedclockvector_isnoconflictsspecified.htm
 tech.root: winsync
 ms.assetid: d43d193b-d0c4-4b01-be90-a322fcc8b672

@@ -1,7 +1,7 @@
 ---
 UID: NS:strmif._VIDEO_STREAM_CONFIG_CAPS
 title: VIDEO_STREAM_CONFIG_CAPS (strmif.h)
-description: The VIDEO_STREAM_CONFIG_CAPS structure describes a range of video formats. Video compression and video capture filters use this structure to describe what formats they can produce.
+description: The VIDEO_STREAM_CONFIG_CAPS structure describes a range of video formats. Video compression and video capture filters use this structure to describe what formats they can produce.helpviewer_keywords: ["0","1","2","3 and higher","VIDEO_STREAM_CONFIG_CAPS","VIDEO_STREAM_CONFIG_CAPS structure [DirectShow]","VIDEO_STREAM_CONFIG_CAPSStructure","dshow.video_stream_config_caps","strmif/VIDEO_STREAM_CONFIG_CAPS"]
 old-location: dshow\video_stream_config_caps.htm
 tech.root: DirectShow
 ms.assetid: c4e68065-79d0-4e2e-abe5-2e5b6a51bd40

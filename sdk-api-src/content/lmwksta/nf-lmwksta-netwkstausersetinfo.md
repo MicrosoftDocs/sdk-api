@@ -1,7 +1,7 @@
 ---
 UID: NF:lmwksta.NetWkstaUserSetInfo
 title: NetWkstaUserSetInfo function (lmwksta.h)
-description: The NetWkstaUserSetInfo function sets the user-specific information about the configuration elements for a workstation.
+description: The NetWkstaUserSetInfo function sets the user-specific information about the configuration elements for a workstation.helpviewer_keywords: ["1","1101","NetWkstaUserSetInfo","NetWkstaUserSetInfo function [Network Management]","_win32_netwkstausersetinfo","lmwksta/NetWkstaUserSetInfo","netmgmt.netwkstausersetinfo"]
 old-location: netmgmt\netwkstausersetinfo.htm
 tech.root: NetMgmt
 ms.assetid: d48667a3-5ae9-4a7d-9af6-14f08835940d

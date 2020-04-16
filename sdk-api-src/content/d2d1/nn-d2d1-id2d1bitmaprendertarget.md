@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1BitmapRenderTarget
 title: ID2D1BitmapRenderTarget (d2d1.h)
-description: Renders to an intermediate texture created by the CreateCompatibleRenderTarget method.
+description: Renders to an intermediate texture created by the CreateCompatibleRenderTarget method.helpviewer_keywords: ["ID2D1BitmapRenderTarget","ID2D1BitmapRenderTarget interface [Direct2D]","ID2D1BitmapRenderTarget interface [Direct2D]","described","d2d1/ID2D1BitmapRenderTarget","direct2d.ID2D1BitmapRenderTarget"]
 old-location: direct2d\ID2D1BitmapRenderTarget.htm
 tech.root: Direct2D
 ms.assetid: f298d4f7-acb8-4fbe-89f7-2410e3b753bd

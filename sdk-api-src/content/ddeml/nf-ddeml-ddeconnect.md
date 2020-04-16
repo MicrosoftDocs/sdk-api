@@ -1,7 +1,7 @@
 ---
 UID: NF:ddeml.DdeConnect
 title: DdeConnect function (ddeml.h)
-description: Establishes a conversation with a server application that supports the specified service name and topic name pair. If more than one such server exists, the system selects only one.
+description: Establishes a conversation with a server application that supports the specified service name and topic name pair. If more than one such server exists, the system selects only one.helpviewer_keywords: ["DdeConnect","DdeConnect function [Data Exchange]","_win32_DdeConnect","_win32_ddeconnect_cpp","dataxchg.ddeconnect","ddeml/DdeConnect","winui._win32_ddeconnect"]
 old-location: dataxchg\ddeconnect.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeconnect.htm

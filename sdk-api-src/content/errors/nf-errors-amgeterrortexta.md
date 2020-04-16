@@ -1,7 +1,7 @@
 ---
 UID: NF:errors.AMGetErrorTextA
 title: AMGetErrorTextA function (errors.h)
-description: The AMGetErrorText function retrieves the error message for a given return code, using the current language setting.
+description: The AMGetErrorText function retrieves the error message for a given return code, using the current language setting.helpviewer_keywords: ["AMGetErrorText","AMGetErrorText function [DirectShow]","AMGetErrorTextA","AMGetErrorTextW","dshow.amgeterrortext","errors/AMGetErrorText"]
 old-location: dshow\amgeterrortext.htm
 tech.root: DirectShow
 ms.assetid: 268fd554-99f4-4400-8e33-4d98c51b76cf

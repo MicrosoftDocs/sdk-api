@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.SizeF.Equals
 title: SizeF::Equals (gdiplustypes.h)
-description: The SizeF::Equals method determines whether two SizeF objects are equal.
+description: The SizeF::Equals method determines whether two SizeF objects are equal.helpviewer_keywords: ["Equals","Equals method [GDI+]","Equals method [GDI+]","SizeF class","SizeF class [GDI+]","Equals method","SizeF.Equals","SizeF::Equals","_gdiplus_CLASS_SizeF_Equals_sz_","gdiplus._gdiplus_CLASS_SizeF_Equals_sz_"]
 old-location: gdiplus\_gdiplus_CLASS_SizeF_Equals_sz_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefmethods\equals_12sz.htm

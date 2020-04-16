@@ -1,7 +1,7 @@
 ---
 UID: NE:powrprof._POWER_DATA_ACCESSOR
 title: POWER_DATA_ACCESSOR (powrprof.h)
-description: Enumeration values used by PowerEnumerate and PowerSettingAccessCheck.
+description: Enumeration values used by PowerEnumerate and PowerSettingAccessCheck.helpviewer_keywords: ["*PPOWER_DATA_ACCESSOR","ACCESS_ACTIVE_SCHEME","ACCESS_AC_POWER_SETTING_INDEX","ACCESS_CREATE_SCHEME","ACCESS_DC_POWER_SETTING_INDEX","ACCESS_INDIVIDUAL_SETTING","ACCESS_SCHEME","ACCESS_SUBGROUP","POWER_DATA_ACCESSOR","POWER_DATA_ACCESSOR enumeration","PPOWER_DATA_ACCESSOR","PPOWER_DATA_ACCESSOR enumeration pointer","base.power_data_accessor","powrprof/ACCESS_ACTIVE_SCHEME","powrprof/ACCESS_AC_POWER_SETTING_INDEX","powrprof/ACCESS_CREATE_SCHEME","powrprof/ACCESS_DC_POWER_SETTING_INDEX","powrprof/ACCESS_INDIVIDUAL_SETTING","powrprof/ACCESS_SCHEME","powrprof/ACCESS_SUBGROUP","powrprof/POWER_DATA_ACCESSOR","powrprof/PPOWER_DATA_ACCESSOR"]
 old-location: base\power_data_accessor.htm
 tech.root: power
 ms.assetid: 4b3f8f89-2ade-4594-b055-b1873e74cda6

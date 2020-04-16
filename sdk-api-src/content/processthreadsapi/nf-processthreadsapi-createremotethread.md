@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.CreateRemoteThread
 title: CreateRemoteThread function (processthreadsapi.h)
-description: Creates a thread that runs in the virtual address space of another process.
+description: Creates a thread that runs in the virtual address space of another process.helpviewer_keywords: ["CREATE_SUSPENDED","CreateRemoteThread","CreateRemoteThread function","STACK_SIZE_PARAM_IS_A_RESERVATION","_win32_createremotethread","base.createremotethread","processthreadsapi/CreateRemoteThread","winbase/CreateRemoteThread"]
 old-location: base\createremotethread.htm
 tech.root: ProcThread
 ms.assetid: f5257f78-b20f-4db5-b63e-3bb4e41a4b19

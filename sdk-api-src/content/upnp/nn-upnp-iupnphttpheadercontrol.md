@@ -1,7 +1,7 @@
 ---
 UID: NN:upnp.IUPnPHttpHeaderControl
 title: IUPnPHttpHeaderControl (upnp.h)
-description: Enables the caller to specify additional HTTP headers sent in HTTP requests to a device.
+description: Enables the caller to specify additional HTTP headers sent in HTTP requests to a device.helpviewer_keywords: ["IUPnPHttpHeaderControl","IUPnPHttpHeaderControl interface [UPnP APIs]","IUPnPHttpHeaderControl interface [UPnP APIs]","described","upnp.iupnphttpheadercontrol","upnp/IUPnPHttpHeaderControl"]
 old-location: upnp\iupnphttpheadercontrol.htm
 tech.root: upnp
 ms.assetid: aed33117-9bfd-4a23-998f-4b8d040d6e3b

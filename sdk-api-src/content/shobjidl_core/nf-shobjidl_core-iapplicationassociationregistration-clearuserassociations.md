@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.ClearUserAssociations
 title: IApplicationAssociationRegistration::ClearUserAssociations (shobjidl_core.h)
-description: Removes all per-user associations for the current user. This results in a reversion to machine defaults, if they exist. Not intended for use in Windows 8.
+description: Removes all per-user associations for the current user. This results in a reversion to machine defaults, if they exist. Not intended for use in Windows 8.helpviewer_keywords: ["ClearUserAssociations","ClearUserAssociations method [Windows Shell]","ClearUserAssociations method [Windows Shell]","IApplicationAssociationRegistration interface","IApplicationAssociationRegistration interface [Windows Shell]","ClearUserAssociations method","IApplicationAssociationRegistration.ClearUserAssociations","IApplicationAssociationRegistration::ClearUserAssociations","_shell_IApplicationAssociationRegistration_ClearUserAssociations","shell.IApplicationAssociationRegistration_ClearUserAssociations","shobjidl_core/IApplicationAssociationRegistration::ClearUserAssociations"]
 old-location: shell\IApplicationAssociationRegistration_ClearUserAssociations.htm
 tech.root: shell
 ms.assetid: dcc0990a-f678-47bb-9462-905940ac87d6

@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument2.GetGenerator
 title: ITextDocument2::GetGenerator (tom.h)
-description: Gets the name of the Text Object Model (TOM) engine.
+description: Gets the name of the Text Object Model (TOM) engine.helpviewer_keywords: ["GetGenerator","GetGenerator method [Windows Controls]","GetGenerator method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","GetGenerator method","ITextDocument2.GetGenerator","ITextDocument2::GetGenerator","controls.itextdocument2_getgenerator","tom/ITextDocument2::GetGenerator"]
 old-location: controls\itextdocument2_getgenerator.htm
 tech.root: Controls
 ms.assetid: 22cfa44e-3603-458b-991e-6e536df63803

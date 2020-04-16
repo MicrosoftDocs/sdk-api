@@ -1,7 +1,7 @@
 ---
 UID: NF:virtdisk.GetVirtualDiskInformation
 title: GetVirtualDiskInformation function (virtdisk.h)
-description: Retrieves information about a VHD.
+description: Retrieves information about a VHD.helpviewer_keywords: ["GetVirtualDiskInformation","GetVirtualDiskInformation function [VHD]","vdssys/GetVirtualDiskInformation","vhd.getvirtualdiskinformation","virtdisk/GetVirtualDiskInformation"]
 old-location: vhd\getvirtualdiskinformation.htm
 tech.root: VStor
 ms.assetid: c3832be0-e9b8-4f6a-a663-06349c7fd639

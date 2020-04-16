@@ -1,7 +1,7 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.GetProgress
 title: IBackgroundCopyJob1::GetProgress (qmgr.h)
-description: Use the GetProgress method to retrieve the job's progress.
+description: Use the GetProgress method to retrieve the job's progress.helpviewer_keywords: ["GetProgress","GetProgress method [BITS]","GetProgress method [BITS]","IBackgroundCopyJob1 interface","IBackgroundCopyJob1 interface [BITS]","GetProgress method","IBackgroundCopyJob1.GetProgress","IBackgroundCopyJob1::GetProgress","QM_PROGRESS_PERCENT_DONE","QM_PROGRESS_SIZE_DONE","QM_PROGRESS_TIME_DONE","bits.ibackgroundcopyjob1_getprogress","qmgr/IBackgroundCopyJob1::GetProgress"]
 old-location: bits\ibackgroundcopyjob1_getprogress.htm
 tech.root: Bits
 ms.assetid: 4d4444b6-e40a-4138-9462-49809ec84ccd

@@ -1,7 +1,7 @@
 ---
 UID: NF:evcoll.EcRemoveObjectArrayElement
 title: EcRemoveObjectArrayElement function (evcoll.h)
-description: Removes an element from an array of objects that contain property values for the event sources of a subscription.
+description: Removes an element from an array of objects that contain property values for the event sources of a subscription.helpviewer_keywords: ["EcRemoveObjectArrayElement","EcRemoveObjectArrayElement function","evcoll/EcRemoveObjectArrayElement","wec.ecremoveobjectarrayelement","wes.ecremoveobjectarrayelement"]
 old-location: wec\ecremoveobjectarrayelement.htm
 tech.root: WEC
 ms.assetid: 6c76ca94-b7bc-4590-be0b-6d6f499dda5a

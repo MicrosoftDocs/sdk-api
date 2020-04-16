@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayForwards
 title: IDvdControl2::PlayForwards (strmif.h)
-description: The PlayForwards method plays forward at the specified speed from the current location.
+description: The PlayForwards method plays forward at the specified speed from the current location.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","PlayForwards method","IDvdControl2.PlayForwards","IDvdControl2::PlayForwards","IDvdControl2PlayForwards","PlayForwards","PlayForwards method [DirectShow]","PlayForwards method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_playforwards","strmif/IDvdControl2::PlayForwards"]
 old-location: dshow\idvdcontrol2_playforwards.htm
 tech.root: DirectShow
 ms.assetid: bf57e2fd-c85f-430d-a1fa-5b59f7bfb8af

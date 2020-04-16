@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICryptAttribute.InitializeFromValues
 title: ICryptAttribute::InitializeFromValues (certenroll.h)
-description: Initializes a cryptographic attribute by using an IX509Attributes object.
+description: Initializes a cryptographic attribute by using an IX509Attributes object.helpviewer_keywords: ["ICryptAttribute interface [Security]","InitializeFromValues method","ICryptAttribute.InitializeFromValues","ICryptAttribute::InitializeFromValues","InitializeFromValues","InitializeFromValues method [Security]","InitializeFromValues method [Security]","ICryptAttribute interface","certenroll/ICryptAttribute::InitializeFromValues","security.icryptattribute_initializefromvalues_method"]
 old-location: security\icryptattribute_initializefromvalues_method.htm
 tech.root: seccertenroll
 ms.assetid: 763fd244-173d-4b0b-8809-e98c18b8e5b5

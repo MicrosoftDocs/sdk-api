@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetColorMatrix
 title: ImageAttributes::SetColorMatrix (gdiplusimageattributes.h)
-description: The ImageAttributes::SetColorMatrix method sets the color-adjustment matrix for a specified category.
+description: The ImageAttributes::SetColorMatrix method sets the color-adjustment matrix for a specified category.helpviewer_keywords: ["ImageAttributes class [GDI+]","SetColorMatrix method","ImageAttributes.SetColorMatrix","ImageAttributes::SetColorMatrix","SetColorMatrix","SetColorMatrix method [GDI+]","SetColorMatrix method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetColorMatrix_colorMatrix_mode_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetColorMatrix_colorMatrix_mode_type_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetColorMatrix_colorMatrix_mode_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setcolormatrix.htm

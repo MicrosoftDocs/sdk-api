@@ -1,7 +1,7 @@
 ---
 UID: NF:ioapiset.GetQueuedCompletionStatus
 title: GetQueuedCompletionStatus function (ioapiset.h)
-description: Attempts to dequeue an I/O completion packet from the specified I/O completion port.
+description: Attempts to dequeue an I/O completion packet from the specified I/O completion port.helpviewer_keywords: ["GetQueuedCompletionStatus","GetQueuedCompletionStatus function [Files]","_win32_getqueuedcompletionstatus","base.getqueuedcompletionstatus","fs.getqueuedcompletionstatus","ioapiset/GetQueuedCompletionStatus"]
 old-location: fs\getqueuedcompletionstatus.htm
 tech.root: FileIO
 ms.assetid: 8121a38b-0fe1-43b8-aed6-4b85af1feba9

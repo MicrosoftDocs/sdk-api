@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineGatherDigitsW
 title: lineGatherDigitsW function (tapi.h)
-description: The lineGatherDigits function initiates the buffered gathering of digits on the specified call. The application specifies a buffer in which to place the digits and the maximum number of digits to be collected.
+description: The lineGatherDigits function initiates the buffered gathering of digits on the specified call. The application specifies a buffer in which to place the digits and the maximum number of digits to be collected.helpviewer_keywords: ["_tapi2_linegatherdigits","lineGatherDigits","lineGatherDigits function [TAPI 2.2]","lineGatherDigitsA","lineGatherDigitsW","tapi/lineGatherDigits","tapi/lineGatherDigitsA","tapi/lineGatherDigitsW","tapi2.linegatherdigits"]
 old-location: tapi2\linegatherdigits.htm
 tech.root: Tapi
 ms.assetid: 87d5f777-e536-46be-8ad4-437386f04c9b

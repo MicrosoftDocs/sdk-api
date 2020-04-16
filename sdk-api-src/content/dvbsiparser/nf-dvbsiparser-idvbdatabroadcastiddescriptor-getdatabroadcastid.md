@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastIDDescriptor.GetDataBroadcastID
 title: IDvbDataBroadcastIDDescriptor::GetDataBroadcastID (dvbsiparser.h)
-description: Gets the identifier that identifies the network broadcast from a Digital Video Broadcast (DVB) data broadcast descriptor.
+description: Gets the identifier that identifies the network broadcast from a Digital Video Broadcast (DVB) data broadcast descriptor.helpviewer_keywords: ["GetDataBroadcastID","GetDataBroadcastID method [Microsoft TV Technologies]","GetDataBroadcastID method [Microsoft TV Technologies]","IDvbDataBroadcastIDDescriptor interface","IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies]","GetDataBroadcastID method","IDvbDataBroadcastIDDescriptor.GetDataBroadcastID","IDvbDataBroadcastIDDescriptor::GetDataBroadcastID","dvbsiparser/IDvbDataBroadcastIDDescriptor::GetDataBroadcastID","mstv.idvbdatabroadcastiddescriptor_getdatabroadcastid"]
 old-location: mstv\idvbdatabroadcastiddescriptor_getdatabroadcastid.htm
 tech.root: mstv
 ms.assetid: 2addfb2b-80ab-47a7-81dd-f660e5fe1138

@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IAudioMute.SetMute
 title: IAudioMute::SetMute (devicetopology.h)
-description: The SetMute method enables or disables the mute control.
+description: The SetMute method enables or disables the mute control.helpviewer_keywords: ["IAudioMute interface [Core Audio]","SetMute method","IAudioMute.SetMute","IAudioMute::SetMute","IAudioMuteSetMute","SetMute","SetMute method [Core Audio]","SetMute method [Core Audio]","IAudioMute interface","coreaudio.iaudiomute_setmute","devicetopology/IAudioMute::SetMute"]
 old-location: coreaudio\iaudiomute_setmute.htm
 tech.root: CoreAudio
 ms.assetid: e99cb894-b39e-42ec-be8f-dc3fa6e7abcd

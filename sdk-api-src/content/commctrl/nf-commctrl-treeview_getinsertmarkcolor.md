@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.TreeView_GetInsertMarkColor
 title: TreeView_GetInsertMarkColor macro (commctrl.h)
-description: Retrieves the color used to draw the insertion mark for the tree view. You can use this macro or send the TVM_GETINSERTMARKCOLOR message explicitly.
+description: Retrieves the color used to draw the insertion mark for the tree view. You can use this macro or send the TVM_GETINSERTMARKCOLOR message explicitly.helpviewer_keywords: ["TreeView_GetInsertMarkColor","TreeView_GetInsertMarkColor macro [Windows Controls]","_win32_TreeView_GetInsertMarkColor","_win32_TreeView_GetInsertMarkColor_cpp","commctrl/TreeView_GetInsertMarkColor","controls.TreeView_GetInsertMarkColor","controls._win32_TreeView_GetInsertMarkColor"]
 old-location: controls\TreeView_GetInsertMarkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getinsertmarkcolor.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxSender.LoadDefaultSender
 title: IFaxSender::LoadDefaultSender (faxcomex.h)
-description: The IFaxSender::get_LoadDefaultSender method fills the FaxSender object with the default sender information.
+description: The IFaxSender::get_LoadDefaultSender method fills the FaxSender object with the default sender information.helpviewer_keywords: ["IFaxSender interface [Fax Service]","LoadDefaultSender method","IFaxSender.LoadDefaultSender","IFaxSender::LoadDefaultSender","LoadDefaultSender","LoadDefaultSender method [Fax Service]","LoadDefaultSender method [Fax Service]","IFaxSender interface","_mfax_faxsender.loaddefaultsender","fax._mfax_faxsender_cpp_mfax_faxsender_loaddefaultsender_cpp","fax._mfax_faxsender_loaddefaultsender","faxcomex/IFaxSender::LoadDefaultSender"]
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_loaddefaultsender_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9ak2.htm

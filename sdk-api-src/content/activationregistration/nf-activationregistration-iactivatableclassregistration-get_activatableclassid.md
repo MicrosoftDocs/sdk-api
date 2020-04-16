@@ -1,7 +1,7 @@
 ---
 UID: NF:activationregistration.IActivatableClassRegistration.get_ActivatableClassId
 title: IActivatableClassRegistration::get_ActivatableClassId (activationregistration.h)
-description: Gets the class identifier for the current activatable class.
+description: Gets the class identifier for the current activatable class.helpviewer_keywords: ["IActivatableClassRegistration interface [Windows Runtime]","get_ActivatableClassId method","IActivatableClassRegistration.get_ActivatableClassId","IActivatableClassRegistration::get_ActivatableClassId","activationregistration/IActivatableClassRegistration::get_ActivatableClassId","get_ActivatableClassId","get_ActivatableClassId method [Windows Runtime]","get_ActivatableClassId method [Windows Runtime]","IActivatableClassRegistration interface","winrt.iactivatableclassregistration_activatableclassid"]
 old-location: winrt\iactivatableclassregistration_activatableclassid.htm
 tech.root: WinRT
 ms.assetid: 8AE55B74-8AC3-4F13-8FEE-7C3C52DEE96F

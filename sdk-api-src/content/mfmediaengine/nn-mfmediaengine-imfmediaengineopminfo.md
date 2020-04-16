@@ -1,7 +1,7 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineOPMInfo
 title: IMFMediaEngineOPMInfo (mfmediaengine.h)
-description: Provides methods for getting information about the Output Protection Manager (OPM).
+description: Provides methods for getting information about the Output Protection Manager (OPM).helpviewer_keywords: ["IMFMediaEngineOPMInfo","IMFMediaEngineOPMInfo interface [Media Foundation]","IMFMediaEngineOPMInfo interface [Media Foundation]","described","mf.imfmediaengineopminfo","mfmediaengine/IMFMediaEngineOPMInfo"]
 old-location: mf\imfmediaengineopminfo.htm
 tech.root: medfound
 ms.assetid: 399f81ac-38f8-4aaa-8b34-f5fd13b71402

@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterNetInterfaceCloseEnum
 title: ClusterNetInterfaceCloseEnum function (clusapi.h)
-description: Closes a network interface enumeration handle.
+description: Closes a network interface enumeration handle.helpviewer_keywords: ["ClusterNetInterfaceCloseEnum","ClusterNetInterfaceCloseEnum function [Failover Cluster]","clusapi/ClusterNetInterfaceCloseEnum","mscs.clusternetinterfacecloseenum"]
 old-location: mscs\clusternetinterfacecloseenum.htm
 tech.root: MsCS
 ms.assetid: da7819b5-0f18-44e3-83e7-f6d5ccbc0de6

@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._CLUS_STORAGE_SET_DRIVELETTER
 title: CLUS_STORAGE_SET_DRIVELETTER (clusapi.h)
-description: Supplies drive letter information for a disk partition associated with a storage class resource.
+description: Supplies drive letter information for a disk partition associated with a storage class resource.helpviewer_keywords: ["*PCLUS_STORAGE_SET_DRIVELETTER","CLUS_STORAGE_SET_DRIVELETTER","CLUS_STORAGE_SET_DRIVELETTER structure [Failover Cluster]","PCLUS_STORAGE_SET_DRIVELETTER","PCLUS_STORAGE_SET_DRIVELETTER structure pointer [Failover Cluster]","clusapi/CLUS_STORAGE_SET_DRIVELETTER","clusapi/PCLUS_STORAGE_SET_DRIVELETTER","mscs.clus_storage_set_driveletter"]
 old-location: mscs\clus_storage_set_driveletter.htm
 tech.root: MsCS
 ms.assetid: 71f3a009-c4af-4c7a-973d-4bd2eba25b94

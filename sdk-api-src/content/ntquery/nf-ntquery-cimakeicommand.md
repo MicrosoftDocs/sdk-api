@@ -1,7 +1,7 @@
 ---
 UID: NF:ntquery.CIMakeICommand
 title: CIMakeICommand function (ntquery.h)
-description: Creates a Command object, specifying computers, catalogs, and scopes.
+description: Creates a Command object, specifying computers, catalogs, and scopes.helpviewer_keywords: ["CIMakeICommand","CIMakeICommand function [Indexing Service]","_idxs_CIMakeICommand","indexsrv.cimakeicommand","ntquery/CIMakeICommand"]
 old-location: indexsrv\cimakeicommand.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9u90.htm

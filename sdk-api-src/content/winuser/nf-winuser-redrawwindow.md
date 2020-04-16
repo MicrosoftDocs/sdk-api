@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.RedrawWindow
 title: RedrawWindow function (winuser.h)
-description: The RedrawWindow function updates the specified rectangle or region in a window's client area.
+description: The RedrawWindow function updates the specified rectangle or region in a window's client area.helpviewer_keywords: ["RDW_ALLCHILDREN","RDW_ERASE","RDW_ERASENOW","RDW_FRAME","RDW_INTERNALPAINT","RDW_INVALIDATE","RDW_NOCHILDREN","RDW_NOERASE","RDW_NOFRAME","RDW_NOINTERNALPAINT","RDW_UPDATENOW","RDW_VALIDATE","RedrawWindow","RedrawWindow function [Windows GDI]","_win32_RedrawWindow","gdi.redrawwindow","winuser/RedrawWindow"]
 old-location: gdi\redrawwindow.htm
 tech.root: gdi
 ms.assetid: c6cb7f74-237e-4d3e-a852-894da36e990c

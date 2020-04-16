@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellView.AddPropertySheetPages
 title: IShellView::AddPropertySheetPages (shobjidl_core.h)
-description: Allows the view to add pages to the Options property sheet from the View menu.
+description: Allows the view to add pages to the Options property sheet from the View menu.helpviewer_keywords: ["AddPropertySheetPages","AddPropertySheetPages method [Windows Shell]","AddPropertySheetPages method [Windows Shell]","IShellView interface","IShellView interface [Windows Shell]","AddPropertySheetPages method","IShellView.AddPropertySheetPages","IShellView::AddPropertySheetPages","_win32_IShellView_AddPropertySheetPages","shell.IShellView_AddPropertySheetPages","shobjidl_core/IShellView::AddPropertySheetPages"]
 old-location: shell\IShellView_AddPropertySheetPages.htm
 tech.root: shell
 ms.assetid: 6f05ddf7-190e-41f5-b24a-d18112b34600

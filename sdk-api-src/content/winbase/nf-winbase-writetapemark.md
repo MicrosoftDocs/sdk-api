@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.WriteTapemark
 title: WriteTapemark function (winbase.h)
-description: Writes a specified number of filemarks, setmarks, short filemarks, or long filemarks to a tape device.
+description: Writes a specified number of filemarks, setmarks, short filemarks, or long filemarks to a tape device.helpviewer_keywords: ["TAPE_FILEMARKS","TAPE_LONG_FILEMARKS","TAPE_SETMARKS","TAPE_SHORT_FILEMARKS","WriteTapemark","WriteTapemark function [Backup]","_win32_writetapemark","backup.writetapemark","base.writetapemark","winbase/WriteTapemark"]
 old-location: backup\writetapemark.htm
 tech.root: Backup
 ms.assetid: 74effd3b-693d-4808-9d80-6c70e2aef7fb

@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_FILTER_ADD_INFOV4
 title: DHCP_FILTER_ADD_INFO (dhcpsapi.h)
-description: Contains information regarding the link-layer filter to be added to the allow and deny filter list.
+description: Contains information regarding the link-layer filter to be added to the allow and deny filter list.helpviewer_keywords: ["*LPDHCP_FILTER_ADD_INFO","DHCP_FILTER_ADD_INFO","DHCP_FILTER_ADD_INFO structure [DHCP]","PDHCP_FILTER_ADD_INFO","PDHCP_FILTER_ADD_INFO structure pointer [DHCP]","dhcp.dhcp_filter_add_info","dhcpsapi/DHCP_FILTER_ADD_INFO","dhcpsapi/PDHCP_FILTER_ADD_INFO"]
 old-location: dhcp\dhcp_filter_add_info.htm
 tech.root: DHCP
 ms.assetid: eed7fffa-a48c-4ebc-ba3a-a118d2b0e20b

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Buffer.Unmap
 title: ID3D10Buffer::Unmap (d3d10.h)
-description: Invalidate the pointer to the resource retrieved by ID3D10Buffer::Map and reenable GPU access to the resource.
+description: Invalidate the pointer to the resource retrieved by ID3D10Buffer::Map and reenable GPU access to the resource.helpviewer_keywords: ["13d21090-d886-01c2-e3ba-12169dea4cc5","ID3D10Buffer interface [Direct3D 10]","Unmap method","ID3D10Buffer.Unmap","ID3D10Buffer::Unmap","Unmap","Unmap method [Direct3D 10]","Unmap method [Direct3D 10]","ID3D10Buffer interface","d3d10/ID3D10Buffer::Unmap","direct3d10.id3d10buffer_unmap"]
 old-location: direct3d10\id3d10buffer_unmap.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10buffer_unmap.htm

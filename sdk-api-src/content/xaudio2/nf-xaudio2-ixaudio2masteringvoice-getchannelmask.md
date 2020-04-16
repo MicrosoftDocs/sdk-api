@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2MasteringVoice.GetChannelMask
 title: IXAudio2MasteringVoice::GetChannelMask (xaudio2.h)
-description: Returns the channel mask for this voice.
+description: Returns the channel mask for this voice.helpviewer_keywords: ["GetChannelMask","GetChannelMask method [XAudio2 Audio Mixing APIs]","GetChannelMask method [XAudio2 Audio Mixing APIs]","IXAudio2MasteringVoice interface","IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs]","GetChannelMask method","IXAudio2MasteringVoice.GetChannelMask","IXAudio2MasteringVoice::GetChannelMask","xaudio2.ixaudio2masteringvoice_interface_getchannelmask","xaudio2/IXAudio2MasteringVoice::GetChannelMask"]
 old-location: xaudio2\ixaudio2masteringvoice_interface_getchannelmask.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2masteringvoice.IXAudio2MasteringVoice.GetChannelMask(DWORD@)

@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.ITransferDestination
 title: ITransferDestination (shobjidl_core.h)
-description: Exposes methods that create a destination Shell item for a copy or move operation. This interface is provided to allow more control over file operations by providing an ITransferDestination::Advise method.
+description: Exposes methods that create a destination Shell item for a copy or move operation. This interface is provided to allow more control over file operations by providing an ITransferDestination::Advise method.helpviewer_keywords: ["ITransferDestination","ITransferDestination interface [Windows Shell]","ITransferDestination interface [Windows Shell]","described","_shell_ITransferDestination","shell.ITransferDestination","shobjidl_core/ITransferDestination"]
 old-location: shell\ITransferDestination.htm
 tech.root: shell
 ms.assetid: 8d0049e0-e227-40ae-a282-cdc17f227e24

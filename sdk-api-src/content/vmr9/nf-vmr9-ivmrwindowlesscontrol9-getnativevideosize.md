@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetNativeVideoSize
 title: IVMRWindowlessControl9::GetNativeVideoSize (vmr9.h)
-description: The GetNativeVideoSize method retrieves the un-stretched video size and aspect ratio of the video.
+description: The GetNativeVideoSize method retrieves the un-stretched video size and aspect ratio of the video.helpviewer_keywords: ["GetNativeVideoSize","GetNativeVideoSize method [DirectShow]","GetNativeVideoSize method [DirectShow]","IVMRWindowlessControl9 interface","IVMRWindowlessControl9 interface [DirectShow]","GetNativeVideoSize method","IVMRWindowlessControl9.GetNativeVideoSize","IVMRWindowlessControl9::GetNativeVideoSize","IVMRWindowlessControl9GetNativeVideoSize","dshow.ivmrwindowlesscontrol9_getnativevideosize","vmr9/IVMRWindowlessControl9::GetNativeVideoSize"]
 old-location: dshow\ivmrwindowlesscontrol9_getnativevideosize.htm
 tech.root: DirectShow
 ms.assetid: 4e70c94e-7c20-4a4e-b276-feb7a9f9784c

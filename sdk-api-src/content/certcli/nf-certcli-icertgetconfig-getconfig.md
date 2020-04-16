@@ -1,7 +1,7 @@
 ---
 UID: NF:certcli.ICertGetConfig.GetConfig
 title: ICertGetConfig::GetConfig (certcli.h)
-description: The ICertGetConfig::GetConfig method retrieves the configuration string for a Certificate Services server.
+description: The ICertGetConfig::GetConfig method retrieves the configuration string for a Certificate Services server.helpviewer_keywords: ["CC_DEFAULTCONFIG","CC_FIRSTCONFIG","CC_LOCALACTIVECONFIG","CC_LOCALCONFIG","CC_UIPICKCONFIG","CC_UIPICKCONFIGSKIPLOCALCA","GetConfig","GetConfig method [Security]","GetConfig method [Security]","ICertGetConfig interface","ICertGetConfig interface [Security]","GetConfig method","ICertGetConfig.GetConfig","ICertGetConfig::GetConfig","certcli/ICertGetConfig::GetConfig","security.icertgetconfig_getconfig"]
 old-location: security\icertgetconfig_getconfig.htm
 tech.root: SecCrypto
 ms.assetid: 5935bf37-4a4a-4c0f-ae3f-bd76f97d0d9a

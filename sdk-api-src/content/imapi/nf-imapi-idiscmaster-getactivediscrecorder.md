@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi.IDiscMaster.GetActiveDiscRecorder
 title: IDiscMaster::GetActiveDiscRecorder (imapi.h)
-description: Retrieves an interface pointer to the active disc recorder. The active disc recorder is the recorder where a burn will occur when RecordDisc is called.
+description: Retrieves an interface pointer to the active disc recorder. The active disc recorder is the recorder where a burn will occur when RecordDisc is called.helpviewer_keywords: ["GetActiveDiscRecorder","GetActiveDiscRecorder method [IMAPI]","GetActiveDiscRecorder method [IMAPI]","IDiscMaster interface","IDiscMaster interface [IMAPI]","GetActiveDiscRecorder method","IDiscMaster.GetActiveDiscRecorder","IDiscMaster::GetActiveDiscRecorder","_win32_idiscmaster_getactivediscrecorder","base.idiscmaster_getactivediscrecorder","imapi.idiscmaster_getactivediscrecorder","imapi/IDiscMaster::GetActiveDiscRecorder"]
 old-location: imapi\idiscmaster_getactivediscrecorder.htm
 tech.root: imapi
 ms.assetid: bdbc6108-c5c9-4083-84cd-7eae63d45c0f

@@ -1,7 +1,7 @@
 ---
 UID: NF:contentpartner.IWMPContentContainer.GetContentID
 title: IWMPContentContainer::GetContentID (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.
+description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["GetContentID","GetContentID method [Windows Media Player]","GetContentID method [Windows Media Player]","IWMPContentContainer interface","IWMPContentContainer interface [Windows Media Player]","GetContentID method","IWMPContentContainer.GetContentID","IWMPContentContainer::GetContentID","IWMPContentContainerGetContentID","contentpartner/IWMPContentContainer::GetContentID","wmp.iwmpcontentcontainer_getcontentid"]
 old-location: wmp\iwmpcontentcontainer_getcontentid.htm
 tech.root: WMP
 ms.assetid: 95519f7e-aa78-4d66-87ba-71978d404412

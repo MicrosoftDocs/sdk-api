@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFTopology.GetOutputNodeCollection
 title: IMFTopology::GetOutputNodeCollection (mfidl.h)
-description: Gets the output nodes in the topology.
+description: Gets the output nodes in the topology.helpviewer_keywords: ["0862cd4a-4d22-4d8d-a754-0cd376d44b22","GetOutputNodeCollection","GetOutputNodeCollection method [Media Foundation]","GetOutputNodeCollection method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","GetOutputNodeCollection method","IMFTopology.GetOutputNodeCollection","IMFTopology::GetOutputNodeCollection","mf.imftopology_getoutputnodecollection","mfidl/IMFTopology::GetOutputNodeCollection"]
 old-location: mf\imftopology_getoutputnodecollection.htm
 tech.root: medfound
 ms.assetid: 0862cd4a-4d22-4d8d-a754-0cd376d44b22

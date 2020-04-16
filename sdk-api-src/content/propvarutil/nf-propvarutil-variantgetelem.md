@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.VariantGetElem
 title: VariantGetElem function (propvarutil.h)
-description: Initializes a VARIANT structure from a specified variant element.
+description: Initializes a VARIANT structure from a specified variant element.helpviewer_keywords: ["VariantGetElem","VariantGetElem function [Windows Properties]","_shell_VariantGetElem","properties.VariantGetElem","propvarutil/VariantGetElem","shell.VariantGetElem"]
 old-location: properties\VariantGetElem.htm
 tech.root: properties
 ms.assetid: e1541e66-3ccc-494c-a909-72eeb9159d11

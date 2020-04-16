@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICEnumMetadataItem.Next
 title: IWICEnumMetadataItem::Next (wincodec.h)
-description: Advanced the current position in the enumeration.
+description: Advanced the current position in the enumeration.helpviewer_keywords: ["IWICEnumMetadataItem interface [Windows Imaging Component]","Next method","IWICEnumMetadataItem.Next","IWICEnumMetadataItem::Next","Next","Next method [Windows Imaging Component]","Next method [Windows Imaging Component]","IWICEnumMetadataItem interface","_wic_codec_iwicenummetadataitem_next","wic._wic_codec_iwicenummetadataitem_next","wincodec/IWICEnumMetadataItem::Next"]
 old-location: wic\_wic_codec_iwicenummetadataitem_next.htm
 tech.root: wic
 ms.assetid: e502f42e-573c-416b-9282-dd50827ef132

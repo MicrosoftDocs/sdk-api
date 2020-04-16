@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._ROUTER_IKEv2_IF_CUSTOM_CONFIG0
 title: ROUTER_IKEv2_IF_CUSTOM_CONFIG0 (mprapi.h)
-description: Gets or sets IKEv2 tunnel configuration parameter for IKEv2 tunnel based demand dial interfaces.
+description: Gets or sets IKEv2 tunnel configuration parameter for IKEv2 tunnel based demand dial interfaces.helpviewer_keywords: ["*PROUTER_IKEv2_IF_CUSTOM_CONFIG0","PROUTER_IKEv2_IF_CUSTOM_CONFIG0","PROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure pointer [RAS]","ROUTER_IKEv2_IF_CUSTOM_CONFIG0","ROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure [RAS]","mprapi/PROUTER_IKEv2_IF_CUSTOM_CONFIG0","mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0","rras.router_ikev2_if_custom_config0"]
 old-location: rras\router_ikev2_if_custom_config0.htm
 tech.root: RRAS
 ms.assetid: c81611c6-3bad-4965-b4fb-b2c8074cee28

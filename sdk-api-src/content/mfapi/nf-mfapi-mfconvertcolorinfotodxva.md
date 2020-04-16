@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFConvertColorInfoToDXVA
 title: MFConvertColorInfoToDXVA function (mfapi.h)
-description: Converts the extended color information from an MFVIDEOFORMAT to the equivalent DirectX Video Acceleration (DXVA) color information.
+description: Converts the extended color information from an MFVIDEOFORMAT to the equivalent DirectX Video Acceleration (DXVA) color information.helpviewer_keywords: ["52a3be2b-f715-4e12-9f69-6a832153ff5e","MFConvertColorInfoToDXVA","MFConvertColorInfoToDXVA function [Media Foundation]","mf.mfconvertcolorinfotodxva","mfapi/MFConvertColorInfoToDXVA"]
 old-location: mf\mfconvertcolorinfotodxva.htm
 tech.root: medfound
 ms.assetid: 52a3be2b-f715-4e12-9f69-6a832153ff5e

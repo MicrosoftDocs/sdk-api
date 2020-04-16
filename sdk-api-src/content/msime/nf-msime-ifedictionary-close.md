@@ -1,7 +1,7 @@
 ---
 UID: NF:msime.IFEDictionary.Close
 title: IFEDictionary::Close (msime.h)
-description: Closes a dictionary file.
+description: Closes a dictionary file.helpviewer_keywords: ["Close","Close method [Internationalization for Windows Applications]","Close method [Internationalization for Windows Applications]","IFEDictionary interface","IFEDictionary interface [Internationalization for Windows Applications]","Close method","IFEDictionary.Close","IFEDictionary::Close","intl.ifedictionary_close","msime/IFEDictionary::Close"]
 old-location: intl\ifedictionary_close.htm
 tech.root: Intl
 ms.assetid: 424FE6C8-2903-429C-AAC9-F9808E94047A

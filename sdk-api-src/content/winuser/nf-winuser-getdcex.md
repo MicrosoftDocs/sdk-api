@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetDCEx
 title: GetDCEx function (winuser.h)
-description: The GetDCEx function retrieves a handle to a device context (DC) for the client area of a specified window or for the entire screen.
+description: The GetDCEx function retrieves a handle to a device context (DC) for the client area of a specified window or for the entire screen.helpviewer_keywords: ["DCX_CACHE","DCX_CLIPCHILDREN","DCX_CLIPSIBLINGS","DCX_EXCLUDERGN","DCX_INTERSECTRGN","DCX_INTERSECTUPDATE","DCX_LOCKWINDOWUPDATE","DCX_NORESETATTRS","DCX_PARENTCLIP","DCX_VALIDATE","DCX_WINDOW","GetDCEx","GetDCEx function [Windows GDI]","_win32_GetDCEx","gdi.getdcex","winuser/GetDCEx"]
 old-location: gdi\getdcex.htm
 tech.root: gdi
 ms.assetid: 590cf928-0ad6-43f8-97e9-1dafbcfa9f49

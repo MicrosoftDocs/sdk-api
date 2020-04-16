@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.GenerateForLeaf
 title: IConditionGenerator::GenerateForLeaf (structuredquery.h)
-description: Generates a special query expression for what would otherwise become a leaf query expression.
+description: Generates a special query expression for what would otherwise become a leaf query expression.helpviewer_keywords: ["GenerateForLeaf","GenerateForLeaf method [search]","GenerateForLeaf method [search]","IConditionGenerator interface","IConditionGenerator interface [search]","GenerateForLeaf method","IConditionGenerator.GenerateForLeaf","IConditionGenerator::GenerateForLeaf","_search_IConditionGenerator_GenerateForLeaf","search._search_IConditionGenerator_GenerateForLeaf","structuredquery/IConditionGenerator::GenerateForLeaf"]
 old-location: search\_search_IConditionGenerator_GenerateForLeaf.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\generateforleaf.htm

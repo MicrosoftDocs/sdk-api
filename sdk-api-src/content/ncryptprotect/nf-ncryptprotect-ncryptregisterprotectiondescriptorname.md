@@ -1,7 +1,7 @@
 ---
 UID: NF:ncryptprotect.NCryptRegisterProtectionDescriptorName
 title: NCryptRegisterProtectionDescriptorName function (ncryptprotect.h)
-description: Registers the display name and the associated rule string for a protection descriptor.
+description: Registers the display name and the associated rule string for a protection descriptor.helpviewer_keywords: ["NCryptRegisterProtectionDescriptorName","NCryptRegisterProtectionDescriptorName function [Security]","ncryptprotect/NCryptRegisterProtectionDescriptorName","security.ncryptregisterprotectiondescriptorname"]
 old-location: security\ncryptregisterprotectiondescriptorname.htm
 tech.root: SecCNG
 ms.assetid: DAB03CB2-630F-4BB3-93BD-06BE9126B1C4

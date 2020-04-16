@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MonthCal_GetCalendarBorder
 title: MonthCal_GetCalendarBorder macro (commctrl.h)
-description: Gets the border size, in pixels, of a month calendar control. You can use this macro or send the MCM_GETCALENDARBORDER message explicitly.
+description: Gets the border size, in pixels, of a month calendar control. You can use this macro or send the MCM_GETCALENDARBORDER message explicitly.helpviewer_keywords: ["MonthCal_GetCalendarBorder","MonthCal_GetCalendarBorder macro [Windows Controls]","_shell_MonthCal_GetCalendarBorder","_shell_MonthCal_GetCalendarBorder_cpp","commctrl/MonthCal_GetCalendarBorder","controls.MonthCal_GetCalendarBorder","controls._shell_MonthCal_GetCalendarBorder"]
 old-location: controls\MonthCal_GetCalendarBorder.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendarborder.htm

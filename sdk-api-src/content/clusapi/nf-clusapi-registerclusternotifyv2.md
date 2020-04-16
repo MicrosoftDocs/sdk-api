@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.RegisterClusterNotifyV2
 title: RegisterClusterNotifyV2 function (clusapi.h)
-description: Registers an event type with a notification port by adding the notification key to the event type.
+description: Registers an event type with a notification port by adding the notification key to the event type.helpviewer_keywords: ["PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2","PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2 function [Failover Cluster]","RegisterClusterNotifyV2","RegisterClusterNotifyV2 function [Failover Cluster]","clusapi/PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2","clusapi/RegisterClusterNotifyV2","mscs.registerclusternotifyv2"]
 old-location: mscs\registerclusternotifyv2.htm
 tech.root: MsCS
 ms.assetid: DCBE285A-7386-4922-8599-19149FEBBD9F

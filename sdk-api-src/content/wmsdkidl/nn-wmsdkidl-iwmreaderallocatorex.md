@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAllocatorEx
 title: IWMReaderAllocatorEx (wmsdkidl.h)
-description: The IWMReaderAllocatorEx interface provides expanded alternatives to the AllocateForOutput and AllocateForStream methods of the IWMReaderCallbackAdvanced interface.
+description: The IWMReaderAllocatorEx interface provides expanded alternatives to the AllocateForOutput and AllocateForStream methods of the IWMReaderCallbackAdvanced interface.helpviewer_keywords: ["IWMReaderAllocatorEx","IWMReaderAllocatorEx interface [windows Media Format]","IWMReaderAllocatorEx interface [windows Media Format]","described","IWMReaderAllocatorExInterface","wmformat.iwmreaderallocatorex","wmsdkidl/IWMReaderAllocatorEx"]
 old-location: wmformat\iwmreaderallocatorex.htm
 tech.root: wmformat
 ms.assetid: be727c7b-b252-44db-825b-5c683e551fd2

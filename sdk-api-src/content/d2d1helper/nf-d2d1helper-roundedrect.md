@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.RoundedRect
 title: RoundedRect function (d2d1helper.h)
-description: Creates a D2D1_ROUNDED_RECT structure.
+description: Creates a D2D1_ROUNDED_RECT structure.helpviewer_keywords: ["RoundedRect","RoundedRect function [Direct2D]","d2d1helper/RoundedRect","direct2d.roundedrect"]
 old-location: direct2d\roundedrect.htm
 tech.root: Direct2D
 ms.assetid: 200119a2-941c-493f-9e56-c9f306dc5322

@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.IRegistrationInfo
 title: IRegistrationInfo (taskschd.h)
-description: Provides the administrative information that can be used to describe the task.
+description: Provides the administrative information that can be used to describe the task.helpviewer_keywords: ["IRegistrationInfo","IRegistrationInfo interface [Task Scheduler]","IRegistrationInfo interface [Task Scheduler]","described","registration information [Task Scheduler]","interface","taskschd.iregistrationinfo","taskschd/IRegistrationInfo"]
 old-location: taskschd\iregistrationinfo.htm
 tech.root: taskschd
 ms.assetid: e04f0c47-ab89-49e4-aac6-028d2555ecf1

@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetAttribute
 title: ISettingsItem::GetAttribute (wcmconfig.h)
-description: Gets the value of an attribute by specifying its name.
+description: Gets the value of an attribute by specifying its name.helpviewer_keywords: ["GetAttribute","GetAttribute method [SMI]","GetAttribute method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetAttribute method","ISettingsItem.GetAttribute","ISettingsItem::GetAttribute","smi.isettingsitem_getattribute","wcmconfig/ISettingsItem::GetAttribute"]
 old-location: smi\isettingsitem_getattribute.htm
 tech.root: SMI
 ms.assetid: 995184e4-05ff-41f1-9404-872a82bedd49

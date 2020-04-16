@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.SleepEx
 title: SleepEx function (synchapi.h)
-description: Suspends the current thread until the specified condition is met.
+description: Suspends the current thread until the specified condition is met.helpviewer_keywords: ["SleepEx","SleepEx function","_win32_sleepex","base.sleepex","synchapi/SleepEx","winbase/SleepEx"]
 old-location: base\sleepex.htm
 tech.root: ProcThread
 ms.assetid: a73cff94-ad63-4110-9f01-6469481c3d55

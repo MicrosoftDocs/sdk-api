@@ -1,7 +1,7 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0026
 title: MPEG_DATE_AND_TIME (mpeg2structs.h)
-description: The MPEG_DATE_AND_TIME structure specifies a date and time.
+description: The MPEG_DATE_AND_TIME structure specifies a date and time.helpviewer_keywords: ["MPEG_DATE_AND_TIME","MPEG_DATE_AND_TIME structure [Microsoft TV Technologies]","mpeg2structs/MPEG_DATE_AND_TIME","mstv.mpeg_date_and_time"]
 old-location: mstv\mpeg_date_and_time.htm
 tech.root: mstv
 ms.assetid: 586269c5-3415-4a5c-8c8f-b405a7bc3f56

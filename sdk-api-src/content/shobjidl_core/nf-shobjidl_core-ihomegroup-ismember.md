@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IHomeGroup.IsMember
 title: IHomeGroup::IsMember (shobjidl_core.h)
-description: Determines whether the local computer is a member of a HomeGroup.
+description: Determines whether the local computer is a member of a HomeGroup.helpviewer_keywords: ["IHomeGroup interface [Windows Shell]","IsMember method","IHomeGroup.IsMember","IHomeGroup::IsMember","IsMember","IsMember method [Windows Shell]","IsMember method [Windows Shell]","IHomeGroup interface","_shell_IHomeGroup_IsMember","shell.IHomeGroup_IsMember","shobjidl_core/IHomeGroup::IsMember"]
 old-location: shell\IHomeGroup_IsMember.htm
 tech.root: shell
 ms.assetid: 9ce98b11-46fd-4168-828d-a5ba8f71b7c9

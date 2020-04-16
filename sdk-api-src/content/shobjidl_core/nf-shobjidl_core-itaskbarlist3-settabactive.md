@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetTabActive
 title: ITaskbarList3::SetTabActive (shobjidl_core.h)
-description: Informs the taskbar that a tab or document window has been made the active window.
+description: Informs the taskbar that a tab or document window has been made the active window.helpviewer_keywords: ["ITaskbarList3 interface [Windows Shell]","SetTabActive method","ITaskbarList3.SetTabActive","ITaskbarList3::SetTabActive","SetTabActive","SetTabActive method [Windows Shell]","SetTabActive method [Windows Shell]","ITaskbarList3 interface","_shell_ITaskbarList3_SetTabActive","shell.ITaskbarList3_SetTabActive","shobjidl_core/ITaskbarList3::SetTabActive"]
 old-location: shell\ITaskbarList3_SetTabActive.htm
 tech.root: shell
 ms.assetid: d82f11eb-bfff-4661-8e2e-520f8226809b

@@ -1,7 +1,7 @@
 ---
 UID: NS:searchapi._SEARCH_COLUMN_PROPERTIES
 title: SEARCH_COLUMN_PROPERTIES (searchapi.h)
-description: This structure is not implemented.
+description: This structure is not implemented.helpviewer_keywords: ["SEARCH_COLUMN_PROPERTIES","SEARCH_COLUMN_PROPERTIES structure [search]","_SEARCH_COLUMN_PROPERTIES","_search_SEARCH_COLUMN_PROPERTIES","search._search_SEARCH_COLUMN_PROPERTIES","searchapi/SEARCH_COLUMN_PROPERTIES"]
 old-location: search\_search_SEARCH_COLUMN_PROPERTIES.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_column_properties.htm

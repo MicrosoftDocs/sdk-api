@@ -1,7 +1,7 @@
 ---
 UID: NF:msacm.acmStreamOpen
 title: acmStreamOpen function (msacm.h)
-description: The acmStreamOpen function opens an ACM conversion stream. Conversion streams are used to convert data from one specified audio format to another.
+description: The acmStreamOpen function opens an ACM conversion stream. Conversion streams are used to convert data from one specified audio format to another.helpviewer_keywords: ["_win32_acmStreamOpen","acmStreamOpen","acmStreamOpen function [Windows Multimedia]","msacm/acmStreamOpen","multimedia.acmstreamopen"]
 old-location: multimedia\acmstreamopen.htm
 tech.root: Multimedia
 ms.assetid: 9e323d35-e640-4c6d-ab74-c4abacaea1bd

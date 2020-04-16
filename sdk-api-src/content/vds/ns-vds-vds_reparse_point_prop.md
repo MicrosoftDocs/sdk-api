@@ -1,7 +1,7 @@
 ---
 UID: NS:vds.VDS_REPARSE_POINT_PROP
 title: VDS_REPARSE_POINT_PROP (vds.h)
-description: Defines the reparse-point properties of a volume object.
+description: Defines the reparse-point properties of a volume object.helpviewer_keywords: ["*PVDS_REPARSE_POINT_PROP","PVDS_REPARSE_POINT_PROP","PVDS_REPARSE_POINT_PROP structure pointer [VDS]","VDS_REPARSE_POINT_PROP","VDS_REPARSE_POINT_PROP structure [VDS]","base.vds_reparse_point_prop","vds/PVDS_REPARSE_POINT_PROP","vds/VDS_REPARSE_POINT_PROP"]
 old-location: base\vds_reparse_point_prop.htm
 tech.root: VDS
 ms.assetid: 7e224f49-c51f-447e-bc0b-6af3843e01ae

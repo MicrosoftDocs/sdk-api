@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetStorageFilter
 title: ID3D12InfoQueue::GetStorageFilter (d3d12sdklayers.h)
-description: Get the storage filter at the top of the storage-filter stack.
+description: Get the storage filter at the top of the storage-filter stack.helpviewer_keywords: ["GetStorageFilter","GetStorageFilter method","GetStorageFilter method","ID3D12InfoQueue interface","ID3D12InfoQueue interface","GetStorageFilter method","ID3D12InfoQueue.GetStorageFilter","ID3D12InfoQueue::GetStorageFilter","d3d12sdklayers/ID3D12InfoQueue::GetStorageFilter","direct3d12.id3d12infoqueue_getstoragefilter"]
 old-location: direct3d12\id3d12infoqueue_getstoragefilter.htm
 tech.root: direct3d12
 ms.assetid: 077C3BA1-9686-4405-A561-4A6A2B128320

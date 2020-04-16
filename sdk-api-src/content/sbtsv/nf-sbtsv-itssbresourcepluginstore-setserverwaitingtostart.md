@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetServerWaitingToStart
 title: ITsSbResourcePluginStore::SetServerWaitingToStart (sbtsv.h)
-description: Indicates to the session host that the server is waiting to start.
+description: Indicates to the session host that the server is waiting to start.helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","SetServerWaitingToStart method","ITsSbResourcePluginStore.SetServerWaitingToStart","ITsSbResourcePluginStore::SetServerWaitingToStart","SetServerWaitingToStart","SetServerWaitingToStart method [Remote Desktop Services]","SetServerWaitingToStart method [Remote Desktop Services]","ITsSbResourcePluginStore interface","sbtsv/ITsSbResourcePluginStore::SetServerWaitingToStart","termserv.itssbresourcepluginstore_setserverwaitingtostart"]
 old-location: termserv\itssbresourcepluginstore_setserverwaitingtostart.htm
 tech.root: TermServ
 ms.assetid: cf677be1-387b-4a63-902b-bacda8729b23

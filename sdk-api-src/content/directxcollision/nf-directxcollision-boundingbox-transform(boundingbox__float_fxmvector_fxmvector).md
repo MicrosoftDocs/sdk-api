@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingBox.Transform(BoundingBox &,float,FXMVECTOR,FXMVECTOR)
 title: BoundingBox::Transform(BoundingBox &,float,FXMVECTOR,FXMVECTOR)
-description: Transforms the BoundingBox.
+description: Transforms the BoundingBox.helpviewer_keywords: ["BoundingBox interface [DirectX Math Support APIs]","Transform method","BoundingBox.Transform","BoundingBox.Transform(BoundingBox &","float","FXMVECTOR","FXMVECTOR)","BoundingBox.Transform(BoundingBox&","float","XMVECTOR","XMVECTOR)","BoundingBox::Transform","BoundingBox::Transform(BoundingBox &","float","FXMVECTOR","FXMVECTOR)","Transform","Transform method [DirectX Math Support APIs]","Transform method [DirectX Math Support APIs]","BoundingBox interface","dxmath.boundingbox_transform_1"]
 old-location: dxmath\boundingbox_transform_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.Transform(BoundingBox@,float,XMVECTOR,XMVECTOR)

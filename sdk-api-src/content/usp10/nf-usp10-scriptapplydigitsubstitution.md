@@ -1,7 +1,7 @@
 ---
 UID: NF:usp10.ScriptApplyDigitSubstitution
 title: ScriptApplyDigitSubstitution function (usp10.h)
-description: Applies the specified digit substitution settings to the specified script control and script state structures.
+description: Applies the specified digit substitution settings to the specified script control and script state structures.helpviewer_keywords: ["ScriptApplyDigitSubstitution","ScriptApplyDigitSubstitution function [Internationalization for Windows Applications]","_win32_ScriptApplyDigitSubstitution","intl.scriptapplydigitsubstitution","usp10/ScriptApplyDigitSubstitution"]
 old-location: intl\scriptapplydigitsubstitution.htm
 tech.root: Intl
 ms.assetid: 486b8a56-eb14-48c3-b2f0-f5494f79baea

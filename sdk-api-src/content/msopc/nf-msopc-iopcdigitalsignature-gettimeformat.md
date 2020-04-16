@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetTimeFormat
 title: IOpcDigitalSignature::GetTimeFormat (msopc.h)
-description: Gets the format of the string returned by the GetSigningTime method.
+description: Gets the format of the string returned by the GetSigningTime method.helpviewer_keywords: ["GetTimeFormat","GetTimeFormat method [Open Packaging Conventions]","GetTimeFormat method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetTimeFormat method","IOpcDigitalSignature.GetTimeFormat","IOpcDigitalSignature::GetTimeFormat","msopc/IOpcDigitalSignature::GetTimeFormat","opc.iopcdigitalsignature_gettimeformat"]
 old-location: opc\iopcdigitalsignature_gettimeformat.htm
 tech.root: OPC
 ms.assetid: df142c4d-27dc-4db3-9a37-78c5703c8119

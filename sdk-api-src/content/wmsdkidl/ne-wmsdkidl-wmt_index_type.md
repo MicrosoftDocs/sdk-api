@@ -1,7 +1,7 @@
 ---
 UID: NE:wmsdkidl.tagWMT_INDEX_TYPE
 title: WMT_INDEX_TYPE (wmsdkidl.h)
-description: The WMT_INDEX_TYPE enumeration type defines the type of object that will be associated with an index.
+description: The WMT_INDEX_TYPE enumeration type defines the type of object that will be associated with an index.helpviewer_keywords: ["WMT_INDEX_TYPE","WMT_INDEX_TYPE enumeration [windows Media Format]","WMT_IT_NEAREST_CLEAN_POINT","WMT_IT_NEAREST_DATA_UNIT","WMT_IT_NEAREST_OBJECT","wmformat.wmt_index_type","wmsdkidl/WMT_INDEX_TYPE","wmsdkidl/WMT_IT_NEAREST_CLEAN_POINT","wmsdkidl/WMT_IT_NEAREST_DATA_UNIT","wmsdkidl/WMT_IT_NEAREST_OBJECT"]
 old-location: wmformat\wmt_index_type.htm
 tech.root: wmformat
 ms.assetid: 250f12ba-2334-41e4-9258-0da79dd4cb3d

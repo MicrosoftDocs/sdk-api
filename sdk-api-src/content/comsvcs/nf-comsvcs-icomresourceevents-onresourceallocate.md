@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceAllocate
 title: IComResourceEvents::OnResourceAllocate (comsvcs.h)
-description: Generated when an existing resource is allocated.
+description: Generated when an existing resource is allocated.helpviewer_keywords: ["IComResourceEvents interface [COM+]","OnResourceAllocate method","IComResourceEvents.OnResourceAllocate","IComResourceEvents::OnResourceAllocate","OnResourceAllocate","OnResourceAllocate method [COM+]","OnResourceAllocate method [COM+]","IComResourceEvents interface","_dtc_IComResourceEvents_OnResourceAllocate","comsvcs/IComResourceEvents::OnResourceAllocate","cos.icomresourceevents_onresourceallocate"]
 old-location: cos\icomresourceevents_onresourceallocate.htm
 tech.root: cossdk
 ms.assetid: f063230d-a0b8-46c5-845c-f94aefb706a7

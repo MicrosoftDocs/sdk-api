@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMTVAudio.UnRegisterNotificationCallBack
 title: IAMTVAudio::UnRegisterNotificationCallBack (strmif.h)
-description: The UnRegisterNotificationCallBack method unregisters an object for event notifications.
+description: The UnRegisterNotificationCallBack method unregisters an object for event notifications.helpviewer_keywords: ["IAMTVAudio interface [DirectShow]","UnRegisterNotificationCallBack method","IAMTVAudio.UnRegisterNotificationCallBack","IAMTVAudio::UnRegisterNotificationCallBack","IAMTVAudioUnRegisterNotificationCallBack","UnRegisterNotificationCallBack","UnRegisterNotificationCallBack method [DirectShow]","UnRegisterNotificationCallBack method [DirectShow]","IAMTVAudio interface","dshow.iamtvaudio_unregisternotificationcallback","strmif/IAMTVAudio::UnRegisterNotificationCallBack"]
 old-location: dshow\iamtvaudio_unregisternotificationcallback.htm
 tech.root: DirectShow
 ms.assetid: 17a2f882-f6a8-467d-a6f9-eb8e6309e878

@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.HasParentScopeRule
 title: ISearchCrawlScopeManager::HasParentScopeRule (searchapi.h)
-description: Identifies whether a given URL has a parent rule in scope.
+description: Identifies whether a given URL has a parent rule in scope.helpviewer_keywords: ["HasParentScopeRule","HasParentScopeRule method [search]","HasParentScopeRule method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","HasParentScopeRule method","ISearchCrawlScopeManager.HasParentScopeRule","ISearchCrawlScopeManager::HasParentScopeRule","_search_ISearchCrawlScopeManager_HasParentScopeRule","search._search_ISearchCrawlScopeManager_HasParentScopeRule","searchapi/ISearchCrawlScopeManager::HasParentScopeRule"]
 old-location: search\_search_ISearchCrawlScopeManager_HasParentScopeRule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\hasparentscoperule.htm

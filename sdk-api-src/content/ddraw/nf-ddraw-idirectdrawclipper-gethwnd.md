@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.GetHWnd
 title: IDirectDrawClipper::GetHWnd (ddraw.h)
-description: Retrieves the window handle that was previously associated with this DirectDrawClipper object by the IDirectDrawClipper::SetHWnd method.
+description: Retrieves the window handle that was previously associated with this DirectDrawClipper object by the IDirectDrawClipper::SetHWnd method.helpviewer_keywords: ["GetHWnd","GetHWnd method [DirectDraw]","GetHWnd method [DirectDraw]","IDirectDrawClipper interface","IDirectDrawClipper interface [DirectDraw]","GetHWnd method","IDirectDrawClipper.GetHWnd","IDirectDrawClipper::GetHWnd","ddraw/IDirectDrawClipper::GetHWnd","directdraw.idirectdrawclipper_gethwnd"]
 old-location: directdraw\idirectdrawclipper_gethwnd.htm
 tech.root: directdraw
 ms.assetid: 025e898f-e160-4485-87cf-f5fbc014e9f1

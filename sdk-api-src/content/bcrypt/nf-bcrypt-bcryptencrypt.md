@@ -2,6 +2,7 @@
 UID: NF:bcrypt.BCryptEncrypt
 title: BCryptEncrypt function (bcrypt.h)
 description: Encrypts a block of data.
+helpviewer_keywords: ["BCRYPT_BLOCK_PADDING","BCRYPT_PAD_NONE","BCRYPT_PAD_OAEP","BCRYPT_PAD_PKCS1","BCryptEncrypt","BCryptEncrypt function [Security]","bcrypt/BCryptEncrypt","security.bcryptencrypt_func"]
 old-location: security\bcryptencrypt_func.htm
 tech.root: SecCNG
 ms.assetid: 69fe4530-4b7c-40db-a85c-f9dc458735e7

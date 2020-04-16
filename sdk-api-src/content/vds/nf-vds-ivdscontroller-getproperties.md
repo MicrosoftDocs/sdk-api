@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsController.GetProperties
 title: IVdsController::GetProperties (vds.h)
-description: Returns the properties of a controller.
+description: Returns the properties of a controller.helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsController interface","IVdsController interface [VDS]","GetProperties method","IVdsController.GetProperties","IVdsController::GetProperties","base.ivdscontroller_getproperties","vds/IVdsController::GetProperties","vdshwprv/IVdsController::GetProperties"]
 old-location: base\ivdscontroller_getproperties.htm
 tech.root: VDS
 ms.assetid: 37230ac4-45f5-46ba-9a1c-072409e9362c

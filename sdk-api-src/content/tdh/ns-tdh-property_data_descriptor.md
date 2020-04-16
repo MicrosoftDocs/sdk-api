@@ -1,7 +1,7 @@
 ---
 UID: NS:tdh._PROPERTY_DATA_DESCRIPTOR
 title: PROPERTY_DATA_DESCRIPTOR (tdh.h)
-description: Defines the property to retrieve.
+description: Defines the property to retrieve.helpviewer_keywords: ["*PPROPERTY_DATA_DESCRIPTOR","PROPERTY_DATA_DESCRIPTOR","PROPERTY_DATA_DESCRIPTOR structure [ETW]","etw.property_data_descriptor_struct","tdh.property_data_descriptor_struct","tdh/PROPERTY_DATA_DESCRIPTOR"]
 old-location: etw\property_data_descriptor_struct.htm
 tech.root: ETW
 ms.assetid: 38e6f5b1-fce5-45e4-ac7a-09ba40d29837

@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsWriteEndElement
 title: WsWriteEndElement function (webservices.h)
-description: Writes an end element to a Writer.
+description: Writes an end element to a Writer.helpviewer_keywords: ["WsWriteEndElement","WsWriteEndElement function [Web Services for Windows]","webservices/WsWriteEndElement","wsw.wswriteendelement"]
 old-location: wsw\wswriteendelement.htm
 tech.root: wsw
 ms.assetid: cfb23857-bc51-4467-9aeb-6ce8810ae1b0

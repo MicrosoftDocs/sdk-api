@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer
 title: ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer (spatialaudiometadata.h)
-description: Attaches a previously populated buffer for storage of ISpatialAudioMetadataItems objects. The metadata items already in the buffer are retained.
+description: Attaches a previously populated buffer for storage of ISpatialAudioMetadataItems objects. The metadata items already in the buffer are retained.helpviewer_keywords: ["AttachToPopulatedBuffer","AttachToPopulatedBuffer method [Core Audio]","AttachToPopulatedBuffer method [Core Audio]","ISpatialAudioMetadataItemsBuffer interface","ISpatialAudioMetadataItemsBuffer interface [Core Audio]","AttachToPopulatedBuffer method","ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer","ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer","coreaudio.ispatialaudiometadataitemsbuffer_attachtopopulatedbuffer","spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer"]
 old-location: coreaudio\ispatialaudiometadataitemsbuffer_attachtopopulatedbuffer.htm
 tech.root: CoreAudio
 ms.assetid: 7C17F504-6EB7-4A8D-B3E1-203D5D9B7E3C

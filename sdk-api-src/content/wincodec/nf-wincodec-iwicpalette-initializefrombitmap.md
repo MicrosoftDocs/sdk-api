@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICPalette.InitializeFromBitmap
 title: IWICPalette::InitializeFromBitmap (wincodec.h)
-description: Initializes a palette using a computed optimized values based on the reference bitmap.
+description: Initializes a palette using a computed optimized values based on the reference bitmap.helpviewer_keywords: ["IWICPalette interface [Windows Imaging Component]","InitializeFromBitmap method","IWICPalette.InitializeFromBitmap","IWICPalette::InitializeFromBitmap","InitializeFromBitmap","InitializeFromBitmap method [Windows Imaging Component]","InitializeFromBitmap method [Windows Imaging Component]","IWICPalette interface","_wic_codec_iwicpalette_initializefrombitmap","wic._wic_codec_iwicpalette_initializefrombitmap","wincodec/IWICPalette::InitializeFromBitmap"]
 old-location: wic\_wic_codec_iwicpalette_initializefrombitmap.htm
 tech.root: wic
 ms.assetid: f17d0f16-729e-466c-902f-61398daf2921

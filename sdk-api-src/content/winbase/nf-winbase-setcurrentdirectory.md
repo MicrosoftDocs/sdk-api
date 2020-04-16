@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetCurrentDirectory
 title: SetCurrentDirectory function (winbase.h)
-description: Changes the current directory for the current process.
+description: Changes the current directory for the current process.helpviewer_keywords: ["SetCurrentDirectory","SetCurrentDirectory function [Files]","SetCurrentDirectoryA","SetCurrentDirectoryW","_win32_setcurrentdirectory","base.setcurrentdirectory","fs.setcurrentdirectory","winbase/SetCurrentDirectory","winbase/SetCurrentDirectoryA","winbase/SetCurrentDirectoryW"]
 old-location: fs\setcurrentdirectory.htm
 tech.root: FileIO
 ms.assetid: 02dd0a2b-8072-4ce5-99b4-ffa6dcbd46cd

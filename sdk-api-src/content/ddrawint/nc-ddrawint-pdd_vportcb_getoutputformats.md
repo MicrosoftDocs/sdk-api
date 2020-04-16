@@ -1,7 +1,7 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_GETOUTPUTFORMATS
 title: PDD_VPORTCB_GETOUTPUTFORMATS (ddrawint.h)
-description: The DdVideoPortGetOutputFormats callback function determines the output formats that the VPE object supports.
+description: The DdVideoPortGetOutputFormats callback function determines the output formats that the VPE object supports.helpviewer_keywords: ["DdVideoPortGetOutputFormats","DdVideoPortGetOutputFormats callback function [Display Devices]","PDD_VPORTCB_GETOUTPUTFORMATS","PDD_VPORTCB_GETOUTPUTFORMATS callback","ddfncs_24c5f4e8-c9ee-4104-80e5-7f6ef21a1f22.xml","ddrawint/DdVideoPortGetOutputFormats","display.ddvideoportgetoutputformats"]
 old-location: display\ddvideoportgetoutputformats.htm
 tech.root: display
 ms.assetid: 8e9df88b-a50a-4838-9732-9f818936cbcb

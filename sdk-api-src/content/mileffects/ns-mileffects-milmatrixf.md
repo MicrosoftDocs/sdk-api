@@ -1,7 +1,7 @@
 ---
 UID: NS:mileffects.MILMatrixF
 title: MILMatrixF (mileffects.h)
-description: Represents a 4x4 affine transformation matrix.
+description: Represents a 4x4 affine transformation matrix.helpviewer_keywords: ["MILMatrixF","MILMatrixF structure [WPF Bitmap Effects]","_wibe_milmatrixf","mileffects/MILMatrixF","wibe._wibe_milmatrixf"]
 old-location: wibe\_wibe_milmatrixf.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\structs\milmatrixf.htm

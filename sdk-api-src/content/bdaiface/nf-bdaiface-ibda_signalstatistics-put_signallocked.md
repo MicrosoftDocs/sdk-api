@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.put_SignalLocked
 title: IBDA_SignalStatistics::put_SignalLocked (bdaiface.h)
-description: The put_SignalLocked method specifies whether the signal is locked.
+description: The put_SignalLocked method specifies whether the signal is locked.helpviewer_keywords: ["IBDA_SignalStatistics interface [Microsoft TV Technologies]","put_SignalLocked method","IBDA_SignalStatistics.put_SignalLocked","IBDA_SignalStatistics::put_SignalLocked","IBDA_SignalStatisticsput_SignalLocked","bdaiface/IBDA_SignalStatistics::put_SignalLocked","mstv.ibda_signalstatistics_put_signallocked","put_SignalLocked","put_SignalLocked method [Microsoft TV Technologies]","put_SignalLocked method [Microsoft TV Technologies]","IBDA_SignalStatistics interface"]
 old-location: mstv\ibda_signalstatistics_put_signallocked.htm
 tech.root: mstv
 ms.assetid: 26e4053f-7e43-464d-8ea1-076f741d5b63

@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.GetUserData
 title: ISettingsContext::GetUserData (wcmconfig.h)
-description: Gets a user-defined data.
+description: Gets a user-defined data.helpviewer_keywords: ["GetUserData","GetUserData method [SMI]","GetUserData method [SMI]","ISettingsContext interface","ISettingsContext interface [SMI]","GetUserData method","ISettingsContext.GetUserData","ISettingsContext::GetUserData","smi.isettingscontext_getuserdata","wcmconfig/ISettingsContext::GetUserData"]
 old-location: smi\isettingscontext_getuserdata.htm
 tech.root: SMI
 ms.assetid: 9054edee-9751-4aaa-a9bb-65badfb34fc6

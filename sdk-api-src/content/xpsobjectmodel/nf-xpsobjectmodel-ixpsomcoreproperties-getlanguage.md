@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetLanguage
 title: IXpsOMCoreProperties::GetLanguage (xpsobjectmodel.h)
-description: Gets the language property.
+description: Gets the language property.helpviewer_keywords: ["GetLanguage","GetLanguage method [XPS Documents and Packaging]","GetLanguage method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetLanguage method","IXpsOMCoreProperties.GetLanguage","IXpsOMCoreProperties::GetLanguage","xps.ixpsomcoreproperties_getlanguage","xpsobjectmodel/IXpsOMCoreProperties::GetLanguage"]
 old-location: xps\ixpsomcoreproperties_getlanguage.htm
 tech.root: printdocs
 ms.assetid: 3a35185a-0dbc-48bb-8ae1-53fafa197bb7

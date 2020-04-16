@@ -1,7 +1,7 @@
 ---
 UID: NS:winwlx._WLX_NOTIFICATION_INFO
 title: WLX_NOTIFICATION_INFO (winwlx.h)
-description: This structure stores information about a Winlogon event.
+description: This structure stores information about a Winlogon event.helpviewer_keywords: ["*PWLX_NOTIFICATION_INFO","PWLX_NOTIFICATION_INFO","PWLX_NOTIFICATION_INFO structure pointer [Security]","WLX_NOTIFICATION_INFO","WLX_NOTIFICATION_INFO structure [Security]","_gina_wlx_notification_info","security.wlx_notification_info","winwlx/PWLX_NOTIFICATION_INFO","winwlx/WLX_NOTIFICATION_INFO"]
 old-location: security\wlx_notification_info.htm
 tech.root: SecAuthN
 ms.assetid: 12584a05-b8dc-40a2-83b7-fbecb93ea6f2

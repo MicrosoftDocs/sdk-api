@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_Name
 title: ICatalogCollection::get_Name (comadmin.h)
-description: Retrieves the name of the collection.
+description: Retrieves the name of the collection.helpviewer_keywords: ["ICatalogCollection interface [COM+]","Name property","ICatalogCollection.Name","ICatalogCollection.get_Name","ICatalogCollection::Name","ICatalogCollection::get_Name","Name property [COM+]","Name property [COM+]","ICatalogCollection interface","_cos_ICatalogCollection_get_Name","comadmin/ICatalogCollection::Name","comadmin/ICatalogCollection::get_Name","cos.icatalogcollection_name","get_Name"]
 old-location: cos\icatalogcollection_name.htm
 tech.root: cossdk
 ms.assetid: 0a90538b-a562-40f7-b7d6-16e786db0e1e

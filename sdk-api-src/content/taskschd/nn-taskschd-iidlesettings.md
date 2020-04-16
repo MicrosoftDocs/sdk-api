@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.IIdleSettings
 title: IIdleSettings (taskschd.h)
-description: Specifies how the Task Scheduler performs tasks when the computer is in an idle condition.
+description: Specifies how the Task Scheduler performs tasks when the computer is in an idle condition.helpviewer_keywords: ["IIdleSettings","IIdleSettings interface [Task Scheduler]","IIdleSettings interface [Task Scheduler]","described","taskschd.iidlesettings","taskschd/IIdleSettings"]
 old-location: taskschd\iidlesettings.htm
 tech.root: taskschd
 ms.assetid: a6bd9278-b9ac-4eb3-957a-5191cee12a6f

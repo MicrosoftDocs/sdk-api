@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_REINITIALIZE_TRANSPORT
 title: IOCTL_CHANGER_REINITIALIZE_TRANSPORT
-description: Physically recalibrates a transport element. Recalibration may involve returning the transport to its home position.
+description: Physically recalibrates a transport element. Recalibration may involve returning the transport to its home position.helpviewer_keywords: ["IOCTL_CHANGER_REINITIALIZE_TRANSPORT","IOCTL_CHANGER_REINITIALIZE_TRANSPORT control","IOCTL_CHANGER_REINITIALIZE_TRANSPORT control code","_win32_ioctl_changer_reinitialize_transport","base.ioctl_changer_reinitialize_transport","winioctl/IOCTL_CHANGER_REINITIALIZE_TRANSPORT"]
 old-location: base\ioctl_changer_reinitialize_transport.htm
 tech.root: devio
 ms.assetid: 0745ee19-34f3-44c8-a52d-fb47448f0084

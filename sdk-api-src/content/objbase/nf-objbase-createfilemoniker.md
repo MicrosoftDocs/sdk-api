@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CreateFileMoniker
 title: CreateFileMoniker function (objbase.h)
-description: Creates a file moniker based on the specified path.
+description: Creates a file moniker based on the specified path.helpviewer_keywords: ["CreateFileMoniker","CreateFileMoniker function [COM]","_com_CreateFileMoniker","com.createfilemoniker","objbase/CreateFileMoniker"]
 old-location: com\createfilemoniker.htm
 tech.root: com
 ms.assetid: d9677fa0-cda0-4b63-a21f-1fd0e27c8f3f

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetTypography
 title: IDWriteTextLayout::GetTypography (dwrite.h)
-description: Gets the typography setting of the text at the specified position.
+description: Gets the typography setting of the text at the specified position.helpviewer_keywords: ["GetTypography","GetTypography method [Direct Write]","GetTypography method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetTypography method","IDWriteTextLayout.GetTypography","IDWriteTextLayout::GetTypography","directwrite.IDWriteTextLayout_GetTypography","dwrite/IDWriteTextLayout::GetTypography"]
 old-location: directwrite\IDWriteTextLayout_GetTypography.htm
 tech.root: DirectWrite
 ms.assetid: cb7d8bf5-8368-426d-a321-f5c9ef8c7d40

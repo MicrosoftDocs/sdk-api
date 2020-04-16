@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecSaContextCreateEnumHandle0
 title: IPsecSaContextCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of IPsec security association (SA) context objects.
+description: Creates a handle used to enumerate a set of IPsec security association (SA) context objects.helpviewer_keywords: ["IPsecSaContextCreateEnumHandle0","IPsecSaContextCreateEnumHandle0 function [Filtering]","fwp.ipsecsacontextcreateenumhandle0","fwpmu/IPsecSaContextCreateEnumHandle0"]
 old-location: fwp\ipsecsacontextcreateenumhandle0.htm
 tech.root: fwp
 ms.assetid: ce4340df-e4e0-48ca-b827-2216803a8a94

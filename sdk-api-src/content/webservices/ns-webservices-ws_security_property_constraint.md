@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SECURITY_PROPERTY_CONSTRAINT
 title: WS_SECURITY_PROPERTY_CONSTRAINT (webservices.h)
-description: This structure is used to specify a set of constraints for a particular security property. Any property constraints that are not specified will use the default constraints.
+description: This structure is used to specify a set of constraints for a particular security property. Any property constraints that are not specified will use the default constraints.helpviewer_keywords: ["WS_SECURITY_PROPERTY_CONSTRAINT","WS_SECURITY_PROPERTY_CONSTRAINT structure [Web Services for Windows]","webservices/WS_SECURITY_PROPERTY_CONSTRAINT","wsw.ws_security_property_constraint"]
 old-location: wsw\ws_security_property_constraint.htm
 tech.root: wsw
 ms.assetid: 382d75be-2c56-44f5-8069-740ad9b9d1c4

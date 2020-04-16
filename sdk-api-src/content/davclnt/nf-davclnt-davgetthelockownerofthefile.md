@@ -1,7 +1,7 @@
 ---
 UID: NF:davclnt.DavGetTheLockOwnerOfTheFile
 title: DavGetTheLockOwnerOfTheFile function (davclnt.h)
-description: Returns the file lock owner for a file that is locked on a WebDAV server.
+description: Returns the file lock owner for a file that is locked on a WebDAV server.helpviewer_keywords: ["DavGetTheLockOwnerOfTheFile","DavGetTheLockOwnerOfTheFile function [WebDAV]","davclnt/DavGetTheLockOwnerOfTheFile","webdav.davgetthelockownerofthefile"]
 old-location: webdav\davgetthelockownerofthefile.htm
 tech.root: WebDAV
 ms.assetid: 94a4607c-2770-4656-8710-987d6b951e0e

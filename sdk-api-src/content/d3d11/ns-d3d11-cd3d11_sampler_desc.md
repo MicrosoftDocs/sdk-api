@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.CD3D11_SAMPLER_DESC
 title: CD3D11_SAMPLER_DESC (d3d11.h)
-description: Represents a sampler state and provides convenience methods for creating sampler states.
+description: Represents a sampler state and provides convenience methods for creating sampler states.helpviewer_keywords: ["CD3D11_SAMPLER_DESC","CD3D11_SAMPLER_DESC structure [Direct3D 11]","d3d11/CD3D11_SAMPLER_DESC","direct3d11.cd3d11_sampler_desc"]
 old-location: direct3d11\cd3d11_sampler_desc.htm
 tech.root: direct3d11
 ms.assetid: 1FE748DB-7DC6-4C6E-94D5-DF88477B3DEC

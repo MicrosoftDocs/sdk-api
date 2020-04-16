@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetAppendWindowStart
 title: IMFSourceBuffer::GetAppendWindowStart (mfmediaengine.h)
-description: Gets the timestamp for the start of the append window.
+description: Gets the timestamp for the start of the append window.helpviewer_keywords: ["GetAppendWindowStart","GetAppendWindowStart method [Media Foundation]","GetAppendWindowStart method [Media Foundation]","IMFSourceBuffer interface","IMFSourceBuffer interface [Media Foundation]","GetAppendWindowStart method","IMFSourceBuffer.GetAppendWindowStart","IMFSourceBuffer::GetAppendWindowStart","mf.imfsourcebuffer_getappendwindowstart","mfmediaengine/IMFSourceBuffer::GetAppendWindowStart"]
 old-location: mf\imfsourcebuffer_getappendwindowstart.htm
 tech.root: medfound
 ms.assetid: e5feb451-5bf9-475c-b501-599e2188a3f5

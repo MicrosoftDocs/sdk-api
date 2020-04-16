@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarFormatPercent
 title: VarFormatPercent function (oleauto.h)
-description: Formats a variant containing percentages into a string form.
+description: Formats a variant containing percentages into a string form.helpviewer_keywords: ["VarFormatPercent","VarFormatPercent function [Automation]","_oa96_VarFormatPercent","automat.varformatpercent","oleauto/VarFormatPercent"]
 old-location: automat\varformatpercent.htm
 tech.root: automat
 ms.assetid: 3b0e4f05-6ca4-4685-bdaa-dd44a6a7d89e

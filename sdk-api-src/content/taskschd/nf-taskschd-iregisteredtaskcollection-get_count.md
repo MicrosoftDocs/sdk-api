@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegisteredTaskCollection.get_Count
 title: IRegisteredTaskCollection::get_Count (taskschd.h)
-description: Gets the number of registered tasks in the collection.
+description: Gets the number of registered tasks in the collection.helpviewer_keywords: ["Count property [Task Scheduler]","Count property [Task Scheduler]","IRegisteredTaskCollection interface","IRegisteredTaskCollection interface [Task Scheduler]","Count property","IRegisteredTaskCollection.Count","IRegisteredTaskCollection.get_Count","IRegisteredTaskCollection::Count","IRegisteredTaskCollection::get_Count","get_Count","taskschd.iregisteredtaskcollection_count","taskschd/IRegisteredTaskCollection::Count","taskschd/IRegisteredTaskCollection::get_Count"]
 old-location: taskschd\iregisteredtaskcollection_count.htm
 tech.root: taskschd
 ms.assetid: 62667998-2743-488d-bea1-957a65006ad9

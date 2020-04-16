@@ -1,7 +1,7 @@
 ---
 UID: NE:searchapi._SEARCH_KIND_OF_CHANGE
 title: SEARCH_KIND_OF_CHANGE (searchapi.h)
-description: Indicates the kind of change affecting an item when a source sink notifies a client that an item has been changed.
+description: Indicates the kind of change affecting an item when a source sink notifies a client that an item has been changed.helpviewer_keywords: ["SEARCH_CHANGE_ADD","SEARCH_CHANGE_DELETE","SEARCH_CHANGE_MODIFY","SEARCH_CHANGE_MOVE_RENAME","SEARCH_CHANGE_SEMANTICS_DIRECTORY","SEARCH_CHANGE_SEMANTICS_SHALLOW","SEARCH_CHANGE_SEMANTICS_UPDATE_SECURITY","SEARCH_KIND_OF_CHANGE","SEARCH_KIND_OF_CHANGE enumeration [search]","_search_SEARCH_KIND_OF_CHANGE","search._search_SEARCH_KIND_OF_CHANGE","searchapi/SEARCH_CHANGE_ADD","searchapi/SEARCH_CHANGE_DELETE","searchapi/SEARCH_CHANGE_MODIFY","searchapi/SEARCH_CHANGE_MOVE_RENAME","searchapi/SEARCH_CHANGE_SEMANTICS_DIRECTORY","searchapi/SEARCH_CHANGE_SEMANTICS_SHALLOW","searchapi/SEARCH_CHANGE_SEMANTICS_UPDATE_SECURITY","searchapi/SEARCH_KIND_OF_CHANGE"]
 old-location: search\_search_SEARCH_KIND_OF_CHANGE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_kind_of_change.htm

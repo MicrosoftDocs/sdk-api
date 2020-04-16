@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationExpandCollapsePattern
 title: IUIAutomationExpandCollapsePattern (uiautomationclient.h)
-description: Provides access to a control that can visually expand to display content, and collapse to hide content.
+description: Provides access to a control that can visually expand to display content, and collapse to hide content.helpviewer_keywords: ["IUIAutomationExpandCollapsePattern","IUIAutomationExpandCollapsePattern interface [Windows Accessibility]","IUIAutomationExpandCollapsePattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationExpandCollapsePattern","uiauto_IUIAutomationExpandCollapsePattern","uiautomationclient/IUIAutomationExpandCollapsePattern","winauto.uiauto_IUIAutomationExpandCollapsePattern"]
 old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern.htm
 tech.root: WinAuto
 ms.assetid: 816c28a9-2486-403e-bfbd-94d040d0aac5

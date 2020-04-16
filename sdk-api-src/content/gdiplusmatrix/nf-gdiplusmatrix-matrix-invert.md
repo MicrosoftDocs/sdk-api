@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Invert
 title: Matrix::Invert (gdiplusmatrix.h)
-description: If this matrix is invertible, the Matrix::Invert method replaces the elements of this matrix with the elements of its inverse.
+description: If this matrix is invertible, the Matrix::Invert method replaces the elements of this matrix with the elements of its inverse.helpviewer_keywords: ["Invert","Invert method [GDI+]","Invert method [GDI+]","Matrix class","Matrix class [GDI+]","Invert method","Matrix.Invert","Matrix::Invert","_gdiplus_CLASS_Matrix_Invert_","gdiplus._gdiplus_CLASS_Matrix_Invert_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Invert_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\invert.htm

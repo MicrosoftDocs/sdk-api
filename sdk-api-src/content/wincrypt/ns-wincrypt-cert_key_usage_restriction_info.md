@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_KEY_USAGE_RESTRICTION_INFO
 title: CERT_KEY_USAGE_RESTRICTION_INFO (wincrypt.h)
-description: The CERT_KEY_USAGE_RESTRICTION_INFO structure contains restrictions imposed on the usage of a certificate's public key. This includes purposes for use of the key and policies under which the key can be used.
+description: The CERT_KEY_USAGE_RESTRICTION_INFO structure contains restrictions imposed on the usage of a certificate's public key. This includes purposes for use of the key and policies under which the key can be used.helpviewer_keywords: ["*PCERT_KEY_USAGE_RESTRICTION_INFO","CERT_KEY_USAGE_RESTRICTION_INFO","CERT_KEY_USAGE_RESTRICTION_INFO structure [Security]","PCERT_KEY_USAGE_RESTRICTION_INFO","PCERT_KEY_USAGE_RESTRICTION_INFO structure pointer [Security]","_crypto2_cert_key_usage_restriction_info","security.cert_key_usage_restriction_info","wincrypt/CERT_KEY_USAGE_RESTRICTION_INFO","wincrypt/PCERT_KEY_USAGE_RESTRICTION_INFO"]
 old-location: security\cert_key_usage_restriction_info.htm
 tech.root: SecCrypto
 ms.assetid: f949c8e5-055d-4919-abcc-441880ccce56

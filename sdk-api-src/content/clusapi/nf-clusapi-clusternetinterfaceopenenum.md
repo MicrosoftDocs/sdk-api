@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterNetInterfaceOpenEnum
 title: ClusterNetInterfaceOpenEnum function (clusapi.h)
-description: Opens an enumerator for iterating through the installed network interfaces.
+description: Opens an enumerator for iterating through the installed network interfaces.helpviewer_keywords: ["ClusterNetInterfaceOpenEnum","ClusterNetInterfaceOpenEnum function [Failover Cluster]","clusapi/ClusterNetInterfaceOpenEnum","mscs.clusternetinterfaceopenenum"]
 old-location: mscs\clusternetinterfaceopenenum.htm
 tech.root: MsCS
 ms.assetid: fd300162-2472-4bd2-91d6-357397c4134c

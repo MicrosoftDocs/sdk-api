@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingKeyword
 title: TraceLoggingKeyword macro (traceloggingprovider.h)
-description: Wrapper macro for setting the event's keyword(s).
+description: Wrapper macro for setting the event's keyword(s).helpviewer_keywords: ["TraceLoggingKeyword","TraceLoggingKeyword macro","tracelogging.traceloggingkeyword","traceloggingprovider/TraceLoggingKeyword"]
 old-location: tracelogging\traceloggingkeyword.htm
 tech.root: tracelogging
 ms.assetid: 4837DCE3-929F-458B-95E1-8720FD3E9FFA

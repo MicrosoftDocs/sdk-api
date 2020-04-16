@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.get_CdmaShortMsgSize
 title: IMbnSmsConfiguration::get_CdmaShortMsgSize (mbnapi.h)
-description: Maximum CDMA short message character length.
+description: Maximum CDMA short message character length.helpviewer_keywords: ["CdmaShortMsgSize property [Microsoft Broadband Networks]","CdmaShortMsgSize property [Microsoft Broadband Networks]","IMbnSmsConfiguration interface","IMbnSmsConfiguration interface [Microsoft Broadband Networks]","CdmaShortMsgSize property","IMbnSmsConfiguration.CdmaShortMsgSize","IMbnSmsConfiguration.get_CdmaShortMsgSize","IMbnSmsConfiguration::CdmaShortMsgSize","IMbnSmsConfiguration::get_CdmaShortMsgSize","get_CdmaShortMsgSize","mbn.imbnsmsconfiguration_cdmashortmsgsize","mbnapi/IMbnSmsConfiguration::CdmaShortMsgSize","mbnapi/IMbnSmsConfiguration::get_CdmaShortMsgSize"]
 old-location: mbn\imbnsmsconfiguration_cdmashortmsgsize.htm
 tech.root: mbn
 ms.assetid: 2aac8cad-565e-45e4-a7a4-88ebfab420ea

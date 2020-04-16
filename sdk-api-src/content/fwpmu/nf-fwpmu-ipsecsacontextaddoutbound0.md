@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecSaContextAddOutbound0
 title: IPsecSaContextAddOutbound0 function (fwpmu.h)
-description: The IPsecSaContextAddOutbound0 function adds an outbound IPsec security association (SA) bundle to an existing SA context.Note  IPsecSaContextAddOutbound0 is the specific implementation of IPsecSaContextAddOutbound used in Windows Vista.
+description: The IPsecSaContextAddOutbound0 function adds an outbound IPsec security association (SA) bundle to an existing SA context.Note  IPsecSaContextAddOutbound0 is the specific implementation of IPsecSaContextAddOutbound used in Windows Vista.helpviewer_keywords: ["IPsecSaContextAddOutbound0","IPsecSaContextAddOutbound0 function [Filtering]","fwp.ipsecsacontextaddoutbound0","fwpmu/IPsecSaContextAddOutbound0"]
 old-location: fwp\ipsecsacontextaddoutbound0.htm
 tech.root: fwp
 ms.assetid: f7aa0b1f-160c-44d4-9dbc-5c692d0a4467

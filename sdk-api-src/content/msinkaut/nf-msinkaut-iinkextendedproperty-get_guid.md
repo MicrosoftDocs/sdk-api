@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperty.get_Guid
 title: IInkExtendedProperty::get_Guid (msinkaut.h)
-description: Gets the globally unique identifier (GUID) of the IInkExtendedProperty object.
+description: Gets the globally unique identifier (GUID) of the IInkExtendedProperty object.helpviewer_keywords: ["Guid property [Tablet PC]","Guid property [Tablet PC]","IInkExtendedProperty interface","IInkExtendedProperty interface [Tablet PC]","Guid property","IInkExtendedProperty.Guid","IInkExtendedProperty.get_Guid","IInkExtendedProperty::Guid","IInkExtendedProperty::get_Guid","cd029ffc-11c4-41f7-86bc-c11fac38ec72","get_Guid","msinkaut/IInkExtendedProperty::Guid","msinkaut/IInkExtendedProperty::get_Guid","tablet.iinkextendedproperty_guid"]
 old-location: tablet\iinkextendedproperty_guid.htm
 tech.root: tablet
 ms.assetid: cd029ffc-11c4-41f7-86bc-c11fac38ec72

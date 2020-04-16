@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN2.XMBYTEN2
 title: XMBYTEN2::XMBYTEN2 (directxpackedvector.h)
-description: Default constructor for XMBYTEN2.
+description: Default constructor for XMBYTEN2.helpviewer_keywords: ["XMBYTEN2","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 structure","XMBYTEN2 structure [DirectX Math Support APIs]","XMBYTEN2 constructor","XMBYTEN2.XMBYTEN2","XMBYTEN2.XMBYTEN2()","XMBYTEN2::XMBYTEN2","dxmath.xmbyten2_ctor_1"]
 old-location: dxmath\xmbyten2_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTEN2.#ctor

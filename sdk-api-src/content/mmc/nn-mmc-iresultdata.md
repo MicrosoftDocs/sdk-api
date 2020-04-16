@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.IResultData
 title: IResultData (mmc.h)
-description: The IResultData interface enables a user to add, remove, find, and modify items associated with the result view pane. It also enables the manipulation of the view style of the result view pane.
+description: The IResultData interface enables a user to add, remove, find, and modify items associated with the result view pane. It also enables the manipulation of the view style of the result view pane.helpviewer_keywords: ["IResultData","IResultData interface [MMC]","IResultData interface [MMC]","described","_slate_iresultdata","mmc.iresultdata","mmc/IResultData"]
 old-location: mmc\iresultdata.htm
 tech.root: mmc
 ms.assetid: 58f8bcdb-b062-4048-92fc-eb652ce62c5b

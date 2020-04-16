@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmTransactionBegin0
 title: FwpmTransactionBegin0 function (fwpmu.h)
-description: Begins an explicit transaction within the current session.
+description: Begins an explicit transaction within the current session.helpviewer_keywords: ["FWPM_TXN_READ_ONLY","FwpmTransactionBegin0","FwpmTransactionBegin0 function [Filtering]","fwp.fwpmtransactionbegin0_func","fwpmu/FwpmTransactionBegin0"]
 old-location: fwp\fwpmtransactionbegin0_func.htm
 tech.root: fwp
 ms.assetid: 9eaf1101-7cf3-4eb2-9ca0-47108a5c80c7

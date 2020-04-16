@@ -1,7 +1,7 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.RegisterDevice
 title: IUPnPRegistrar::RegisterDevice (upnphost.h)
-description: The RegisterDevice method registers a device with the device host. The device information is stored by the device host. Then, the device host returns a device identifier and publishes and announces the device on the network.
+description: The RegisterDevice method registers a device with the device host. The device information is stored by the device host. Then, the device host returns a device identifier and publishes and announces the device on the network.helpviewer_keywords: ["IUPnPRegistrar interface [UPnP APIs]","RegisterDevice method","IUPnPRegistrar.RegisterDevice","IUPnPRegistrar::RegisterDevice","RegisterDevice","RegisterDevice method [UPnP APIs]","RegisterDevice method [UPnP APIs]","IUPnPRegistrar interface","_upnp_iupnpregistrar_registerdevice","upnp.iupnpregistrar_registerdevice","upnphost/IUPnPRegistrar::RegisterDevice"]
 old-location: upnp\iupnpregistrar_registerdevice.htm
 tech.root: upnp
 ms.assetid: 1bb99a42-143b-495a-8b02-efa7ca1d4d29

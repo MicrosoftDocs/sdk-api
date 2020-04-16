@@ -1,7 +1,7 @@
 ---
 UID: NF:winternl.RtlNtStatusToDosError
 title: RtlNtStatusToDosError function (winternl.h)
-description: Converts the specified NTSTATUS code to its equivalent system error code.
+description: Converts the specified NTSTATUS code to its equivalent system error code.helpviewer_keywords: ["RtlNtStatusToDosError","RtlNtStatusToDosError function","base.rtlntstatustodoserror","winternl/RtlNtStatusToDosError"]
 old-location: base\rtlntstatustodoserror.htm
 tech.root: Debug
 ms.assetid: 4a28be1f-28b9-45a4-8ac7-58e43452558a

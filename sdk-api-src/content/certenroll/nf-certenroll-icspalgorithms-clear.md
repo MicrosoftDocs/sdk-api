@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.Clear
 title: ICspAlgorithms::Clear (certenroll.h)
-description: Removes all ICspAlgorithm objects from the collection.
+description: Removes all ICspAlgorithm objects from the collection.helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","ICspAlgorithms interface","ICspAlgorithms interface [Security]","Clear method","ICspAlgorithms.Clear","ICspAlgorithms::Clear","certenroll/ICspAlgorithms::Clear","security.icspalgorithms_clear_method"]
 old-location: security\icspalgorithms_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: 22b8e3a3-48b3-41a1-a135-0f23dd0060f8

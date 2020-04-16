@@ -1,7 +1,7 @@
 ---
 UID: NS:lmshare._SHARE_INFO_1501
 title: SHARE_INFO_1501 (lmshare.h)
-description: Contains the security descriptor associated with the specified share. For more information, see Security Descriptors.
+description: Contains the security descriptor associated with the specified share. For more information, see Security Descriptors.helpviewer_keywords: ["*LPSHARE_INFO_1501","*PSHARE_INFO_1501","LPSHARE_INFO_1501","LPSHARE_INFO_1501 structure pointer [Files]","PSHARE_INFO_1501","PSHARE_INFO_1501 structure pointer [Files]","SHARE_INFO_1501","SHARE_INFO_1501 structure [Files]","_win32_share_info_1501_str","fs.share_info_1501_str","lmshare/LPSHARE_INFO_1501","lmshare/PSHARE_INFO_1501","lmshare/SHARE_INFO_1501","netmgmt.share_info_1501_str"]
 old-location: fs\share_info_1501_str.htm
 tech.root: NetShare
 ms.assetid: ef5d4936-8c0b-4a3c-b2b9-34868eb01a2e

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.InsertChildBefore
 title: ID2D1SvgElement::InsertChildBefore (d2d1svg.h)
-description: Inserts newChild as a child of this element, before the referenceChild element.
+description: Inserts newChild as a child of this element, before the referenceChild element.helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","InsertChildBefore method","ID2D1SvgElement.InsertChildBefore","ID2D1SvgElement::InsertChildBefore","InsertChildBefore","InsertChildBefore method [Direct2D]","InsertChildBefore method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::InsertChildBefore","direct2d.id2d1svgelement_insertchildbefore"]
 old-location: direct2d\id2d1svgelement_insertchildbefore.htm
 tech.root: Direct2D
 ms.assetid: 09BBABC1-0644-473E-A751-C84437941A2B

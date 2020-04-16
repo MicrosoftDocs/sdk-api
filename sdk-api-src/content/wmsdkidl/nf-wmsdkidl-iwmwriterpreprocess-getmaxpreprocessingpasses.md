@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.GetMaxPreprocessingPasses
 title: IWMWriterPreprocess::GetMaxPreprocessingPasses (wmsdkidl.h)
-description: The GetMaxPreprocessingPasses method retrieves the maximum number of preprocessing passes for a specified input stream.
+description: The GetMaxPreprocessingPasses method retrieves the maximum number of preprocessing passes for a specified input stream.helpviewer_keywords: ["GetMaxPreprocessingPasses","GetMaxPreprocessingPasses method [windows Media Format]","GetMaxPreprocessingPasses method [windows Media Format]","IWMWriterPreprocess interface","IWMWriterPreprocess interface [windows Media Format]","GetMaxPreprocessingPasses method","IWMWriterPreprocess.GetMaxPreprocessingPasses","IWMWriterPreprocess::GetMaxPreprocessingPasses","IWMWriterPreprocessGetMaxPreprocessingPasses","wmformat.iwmwriterpreprocess_getmaxpreprocessingpasses","wmsdkidl/IWMWriterPreprocess::GetMaxPreprocessingPasses"]
 old-location: wmformat\iwmwriterpreprocess_getmaxpreprocessingpasses.htm
 tech.root: wmformat
 ms.assetid: 6acdc536-8b38-4fd4-9705-f4399dfc3faa

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICProgressiveLevelControl.GetCurrentLevel
 title: IWICProgressiveLevelControl::GetCurrentLevel (wincodec.h)
-description: Gets the decoder's current progressive level.
+description: Gets the decoder's current progressive level.helpviewer_keywords: ["GetCurrentLevel","GetCurrentLevel method [Windows Imaging Component]","GetCurrentLevel method [Windows Imaging Component]","IWICProgressiveLevelControl interface","IWICProgressiveLevelControl interface [Windows Imaging Component]","GetCurrentLevel method","IWICProgressiveLevelControl.GetCurrentLevel","IWICProgressiveLevelControl::GetCurrentLevel","_wic_codec_iwicprogressivelevelcontrol_getcurrentlevel","wic._wic_codec_iwicprogressivelevelcontrol_getcurrentlevel","wincodec/IWICProgressiveLevelControl::GetCurrentLevel"]
 old-location: wic\_wic_codec_iwicprogressivelevelcontrol_getcurrentlevel.htm
 tech.root: wic
 ms.assetid: c6f848a0-e373-4344-8923-3ad77165ef71

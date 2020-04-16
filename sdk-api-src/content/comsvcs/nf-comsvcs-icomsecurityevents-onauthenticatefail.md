@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComSecurityEvents.OnAuthenticateFail
 title: IComSecurityEvents::OnAuthenticateFail (comsvcs.h)
-description: Generated when a method call level authentication fails.
+description: Generated when a method call level authentication fails.helpviewer_keywords: ["IComSecurityEvents interface [COM+]","OnAuthenticateFail method","IComSecurityEvents.OnAuthenticateFail","IComSecurityEvents::OnAuthenticateFail","OnAuthenticateFail","OnAuthenticateFail method [COM+]","OnAuthenticateFail method [COM+]","IComSecurityEvents interface","_dtc_IComSecurityEvents_OnAuthenticateFail","comsvcs/IComSecurityEvents::OnAuthenticateFail","cos.icomsecurityevents_onauthenticatefail"]
 old-location: cos\icomsecurityevents_onauthenticatefail.htm
 tech.root: cossdk
 ms.assetid: 3ead4865-924c-40fb-9ed8-5b98c603c5cf

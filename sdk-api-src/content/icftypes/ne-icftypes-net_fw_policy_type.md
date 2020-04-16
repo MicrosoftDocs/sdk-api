@@ -1,7 +1,7 @@
 ---
 UID: NE:icftypes.NET_FW_POLICY_TYPE_
 title: NET_FW_POLICY_TYPE (icftypes.h)
-description: The NET_FW_POLICY_TYPE enumerated type specifies the type of policy.
+description: The NET_FW_POLICY_TYPE enumerated type specifies the type of policy.helpviewer_keywords: ["NET_FW_POLICY_EFFECTIVE","NET_FW_POLICY_GROUP","NET_FW_POLICY_LOCAL","NET_FW_POLICY_TYPE","NET_FW_POLICY_TYPE enumeration [ICS/ICF]","NET_FW_POLICY_TYPE_MAX","icftypes/NET_FW_POLICY_EFFECTIVE","icftypes/NET_FW_POLICY_GROUP","icftypes/NET_FW_POLICY_LOCAL","icftypes/NET_FW_POLICY_TYPE","icftypes/NET_FW_POLICY_TYPE_MAX","ics.net_fw_policy_type"]
 old-location: ics\net_fw_policy_type.htm
 tech.root: ics
 ms.assetid: 10b052d6-55d1-4583-9fd4-ebb02548d1db

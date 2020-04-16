@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoDecrementMTAUsage
 title: CoDecrementMTAUsage function (combaseapi.h)
-description: Releases the increment made by a previous call to the CoIncrementMTAUsage function.
+description: Releases the increment made by a previous call to the CoIncrementMTAUsage function.helpviewer_keywords: ["CoDecrementMTAUsage","CoDecrementMTAUsage function [COM]","com.codecrementmtausage","combaseapi/CoDecrementMTAUsage"]
 old-location: com\codecrementmtausage.htm
 tech.root: com
 ms.assetid: 66AA2783-7F24-41BB-911B-D452DF54C003

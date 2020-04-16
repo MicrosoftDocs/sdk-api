@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCustomNavigationPattern.Navigate
 title: IUIAutomationCustomNavigationPattern::Navigate (uiautomationclient.h)
-description: Gets the next element in the specified direction within the logical UI tree.
+description: Gets the next element in the specified direction within the logical UI tree.helpviewer_keywords: ["IUIAutomationCustomNavigationPattern interface [Windows Accessibility]","Navigate method","IUIAutomationCustomNavigationPattern.Navigate","IUIAutomationCustomNavigationPattern::Navigate","Navigate","Navigate method [Windows Accessibility]","Navigate method [Windows Accessibility]","IUIAutomationCustomNavigationPattern interface","uiautomationclient/IUIAutomationCustomNavigationPattern::Navigate","winauto.uiauto_IUIAutomationCustomNavigationPattern_Navigate"]
 old-location: winauto\uiauto_IUIAutomationCustomNavigationPattern_Navigate.htm
 tech.root: WinAuto
 ms.assetid: 82481F62-9FBB-42C8-BDCB-2462FEEB5A0F

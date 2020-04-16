@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetTag
 title: IIsdbSIParameterDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag that identifies a service information (SI) parameter descriptor.
+description: Gets the tag that identifies a service information (SI) parameter descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbSIParameterDescriptor interface","IIsdbSIParameterDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbSIParameterDescriptor.GetTag","IIsdbSIParameterDescriptor::GetTag","dvbsiparser/IIsdbSIParameterDescriptor::GetTag","mstv.iisdbsiparameterdescriptor_gettag"]
 old-location: mstv\iisdbsiparameterdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 9d38b158-39b0-4960-b392-086595680133

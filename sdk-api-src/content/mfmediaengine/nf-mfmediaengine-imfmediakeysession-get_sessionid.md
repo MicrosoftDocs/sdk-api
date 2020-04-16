@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySession.get_SessionId
 title: IMFMediaKeySession::get_SessionId (mfmediaengine.h)
-description: Gets a unique session id created for this session.
+description: Gets a unique session id created for this session.helpviewer_keywords: ["IMFMediaKeySession interface [Media Foundation]","get_SessionId method","IMFMediaKeySession.get_SessionId","IMFMediaKeySession::get_SessionId","get_SessionId","get_SessionId method [Media Foundation]","get_SessionId method [Media Foundation]","IMFMediaKeySession interface","mf.imfmediakeysession_get_sessionid","mfmediaengine/IMFMediaKeySession::get_SessionId"]
 old-location: mf\imfmediakeysession_get_sessionid.htm
 tech.root: medfound
 ms.assetid: 779ebea9-69ff-469a-8ee0-06d570ede6cb

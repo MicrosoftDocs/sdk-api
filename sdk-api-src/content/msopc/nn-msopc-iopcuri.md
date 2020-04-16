@@ -1,7 +1,7 @@
 ---
 UID: NN:msopc.IOpcUri
 title: IOpcUri (msopc.h)
-description: Represents the URI of the package root or of a part that is relative to the package root.
+description: Represents the URI of the package root or of a part that is relative to the package root.helpviewer_keywords: ["IOpcUri","IOpcUri interface [Open Packaging Conventions]","IOpcUri interface [Open Packaging Conventions]","described","msopc/IOpcUri","opc.iopcuri"]
 old-location: opc\iopcuri.htm
 tech.root: OPC
 ms.assetid: 35ce7946-f7e7-4ac3-852f-e3fcca23d6d4

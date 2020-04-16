@@ -1,7 +1,7 @@
 ---
 UID: NF:ndfapi.NdfDiagnoseIncident
 title: NdfDiagnoseIncident function (ndfapi.h)
-description: Diagnoses the root cause of an incident without displaying a user interface.
+description: Diagnoses the root cause of an incident without displaying a user interface.helpviewer_keywords: ["NDF_ADD_CAPTURE_TRACE","NDF_APPLY_INCLUSION_LIST_FILTER","NdfDiagnoseIncident","NdfDiagnoseIncident function [NDF]","ndf.ndfdiagnoseincident","ndfapi/NdfDiagnoseIncident"]
 old-location: ndf\ndfdiagnoseincident.htm
 tech.root: NDF
 ms.assetid: 69ae5624-7c3b-44a2-8468-d587739fc666

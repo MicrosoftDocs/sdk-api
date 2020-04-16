@@ -1,7 +1,7 @@
 ---
 UID: NN:ctffunc.ITfFnShowHelp
 title: ITfFnShowHelp (ctffunc.h)
-description: The ITfFnShowHelp interface is implemented by a text service to enable the language bar to place a help command for the text service in the language bar help menu.
+description: The ITfFnShowHelp interface is implemented by a text service to enable the language bar to place a help command for the text service in the language bar help menu.helpviewer_keywords: ["ITfFnShowHelp","ITfFnShowHelp interface [Text Services Framework]","ITfFnShowHelp interface [Text Services Framework]","described","_tsf_itffnshowhelp_ref","ctffunc/ITfFnShowHelp","tsf.itffnshowhelp"]
 old-location: tsf\itffnshowhelp.htm
 tech.root: TSF
 ms.assetid: d5d60767-95f3-4ed0-b61e-58e06d1e1a98

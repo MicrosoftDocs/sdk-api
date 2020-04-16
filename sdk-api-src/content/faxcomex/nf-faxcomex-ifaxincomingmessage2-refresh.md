@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.Refresh
 title: IFaxIncomingMessage2::Refresh (faxcomex.h)
-description: Refreshes FaxIncomingMessage object information from the fax server.
+description: Refreshes FaxIncomingMessage object information from the fax server.helpviewer_keywords: ["IFaxIncomingMessage2 interface [Fax Service]","Refresh method","IFaxIncomingMessage2.Refresh","IFaxIncomingMessage2::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxIncomingMessage2 interface","_mfax_faxincomingmessage.refresh","fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_refresh_cpp","fax._mfax_faxincomingmessage_refresh","faxcomex/IFaxIncomingMessage2::Refresh"]
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\refresh.htm

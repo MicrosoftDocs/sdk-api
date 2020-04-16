@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Class_GetMethodCount
 title: MI_Class_GetMethodCount function (mi.h)
-description: Gets the number of methods in the class.
+description: Gets the number of methods in the class.helpviewer_keywords: ["MI_Class_GetMethodCount","MI_Class_GetMethodCount function [Windows Management Infrastructure (MI)]","mi/MI_Class_GetMethodCount","wmi_v2.mi_class_getmethodcount"]
 old-location: wmi_v2\mi_class_getmethodcount.htm
 tech.root: wmi_v2
 ms.assetid: 7190273e-bed5-4888-87c6-7e2d44aae703

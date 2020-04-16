@@ -1,7 +1,7 @@
 ---
 UID: NS:winbase._FILE_BASIC_INFO
 title: FILE_BASIC_INFO (winbase.h)
-description: Contains the basic information for a file. Used for file handles.
+description: Contains the basic information for a file. Used for file handles.helpviewer_keywords: ["*PFILE_BASIC_INFO","FILE_BASIC_INFO","FILE_BASIC_INFO structure [Files]","PFILE_BASIC_INFO","PFILE_BASIC_INFO structure pointer [Files]","fileextd/FILE_BASIC_INFO","fileextd/PFILE_BASIC_INFO","fs.file_basic_info","winbase/FILE_BASIC_INFO","winbase/PFILE_BASIC_INFO"]
 old-location: fs\file_basic_info.htm
 tech.root: FileIO
 ms.assetid: 7765e430-cf6b-4ccf-b5e7-9fb6e15ca6d6

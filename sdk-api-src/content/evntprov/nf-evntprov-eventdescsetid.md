@@ -1,7 +1,7 @@
 ---
 UID: NF:evntprov.EventDescSetId
 title: EventDescSetId function (evntprov.h)
-description: Sets the Id member of the event descriptor.
+description: Sets the Id member of the event descriptor.helpviewer_keywords: ["EventDescSetId","EventDescSetId function [ETW]","base.eventdescsetid_func","etw.eventdescsetid_func","evntprov/EventDescSetId"]
 old-location: etw\eventdescsetid_func.htm
 tech.root: ETW
 ms.assetid: 1c110ea3-651c-4e2c-9675-64f6975e5fc5

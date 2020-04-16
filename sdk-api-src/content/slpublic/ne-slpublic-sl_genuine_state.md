@@ -1,7 +1,7 @@
 ---
 UID: NE:slpublic._SL_GENUINE_STATE
 title: SL_GENUINE_STATE (slpublic.h)
-description: Specifies the state of an application installation.
+description: Specifies the state of an application installation.helpviewer_keywords: ["SL_GENUINE_STATE","SL_GENUINE_STATE enumeration [Security]","SL_GEN_STATE_INVALID_LICENSE","SL_GEN_STATE_IS_GENUINE","SL_GEN_STATE_LAST","SL_GEN_STATE_OFFLINE","SL_GEN_STATE_TAMPERED","security.sl_genuine_state","slpublic/SL_GENUINE_STATE","slpublic/SL_GEN_STATE_INVALID_LICENSE","slpublic/SL_GEN_STATE_IS_GENUINE","slpublic/SL_GEN_STATE_LAST","slpublic/SL_GEN_STATE_OFFLINE","slpublic/SL_GEN_STATE_TAMPERED"]
 old-location: security\sl_genuine_state.htm
 tech.root: SecSLApi
 ms.assetid: 3be69be1-289c-466a-9271-5309fd1319fe

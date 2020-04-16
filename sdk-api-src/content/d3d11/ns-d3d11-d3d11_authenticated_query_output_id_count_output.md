@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_OUTPUT
 title: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_OUTPUT (d3d11.h)
-description: Contains the response to a D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT query.
+description: Contains the response to a D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT query.helpviewer_keywords: ["D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_OUTPUT","D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_OUTPUT structure [Media Foundation]","d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_OUTPUT","mf.d3d11_authenticated_query_output_id_count_output"]
 old-location: mf\d3d11_authenticated_query_output_id_count_output.htm
 tech.root: medfound
 ms.assetid: DDA18765-A086-40CE-8502-3A48B29DFCB6

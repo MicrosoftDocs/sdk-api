@@ -1,7 +1,7 @@
 ---
 UID: NN:casetup.ICertificateEnrollmentServerSetup
 title: ICertificateEnrollmentServerSetup (casetup.h)
-description: The ICertificateEnrollmentServerSetup interface represents the Certificate Enrollment Web Service (CES) within Active Directory Certificate Services (ADCS).
+description: The ICertificateEnrollmentServerSetup interface represents the Certificate Enrollment Web Service (CES) within Active Directory Certificate Services (ADCS).helpviewer_keywords: ["ICertificateEnrollmentServerSetup","ICertificateEnrollmentServerSetup interface [Security]","ICertificateEnrollmentServerSetup interface [Security]","described","casetup/ICertificateEnrollmentServerSetup","security.icertificateenrollmentserversetup"]
 old-location: security\icertificateenrollmentserversetup.htm
 tech.root: SecCrypto
 ms.assetid: B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE

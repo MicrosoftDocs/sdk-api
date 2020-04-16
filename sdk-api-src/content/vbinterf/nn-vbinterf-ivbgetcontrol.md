@@ -1,7 +1,7 @@
 ---
 UID: NN:vbinterf.IVBGetControl
 title: IVBGetControl (vbinterf.h)
-description: Provides access to all the controls on a Visual Basic container.
+description: Provides access to all the controls on a Visual Basic container.helpviewer_keywords: ["IVBGetControl","IVBGetControl interface [COM]","IVBGetControl interface [COM]","described","_com_IVBGetControl","com.ivbgetcontrol","vbinterf/IVBGetControl"]
 old-location: com\ivbgetcontrol.htm
 tech.root: com
 ms.assetid: 22309920-f32c-4639-8869-b915a337d86f

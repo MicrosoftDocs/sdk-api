@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPathname.AddLeafElement
 title: IADsPathname::AddLeafElement (iads.h)
-description: Adds an element to the end of the directory path already set on the Pathname object.
+description: Adds an element to the end of the directory path already set on the Pathname object.helpviewer_keywords: ["AddLeafElement","AddLeafElement method [ADSI]","AddLeafElement method [ADSI]","IADsPathname interface","IADsPathname interface [ADSI]","AddLeafElement method","IADsPathname.AddLeafElement","IADsPathname::AddLeafElement","_ds_iadspathname_addleafelement","adsi.iadspathname__addleafelement","adsi.iadspathname_addleafelement","iads/IADsPathname::AddLeafElement"]
 old-location: adsi\iadspathname_addleafelement.htm
 tech.root: adsi
 ms.assetid: 6f29f11f-965e-4556-af74-2bc06588410f

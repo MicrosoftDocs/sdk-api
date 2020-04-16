@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroupImpl.GetNumberChildren
 title: IMILBitmapEffectGroupImpl::GetNumberChildren (mileffects.h)
-description: Retrieves the number of children in an effect group.
+description: Retrieves the number of children in an effect group.helpviewer_keywords: ["GetNumberChildren","GetNumberChildren method [WPF Bitmap Effects]","GetNumberChildren method [WPF Bitmap Effects]","IMILBitmapEffectGroupImpl interface","IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects]","GetNumberChildren method","IMILBitmapEffectGroupImpl.GetNumberChildren","IMILBitmapEffectGroupImpl::GetNumberChildren","_wibe_imilbitmapeffectgroupimpl_getnumberchildren","mileffects/IMILBitmapEffectGroupImpl::GetNumberChildren","wibe._wibe_imilbitmapeffectgroupimpl_getnumberchildren"]
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl_getnumberchildren.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\getnumberchildren.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:wlanapi.WFDCloseSession
 title: WFDCloseSession function (wlanapi.h)
-description: Closes a session after a previously successful call to the WFDStartOpenSession function.
+description: Closes a session after a previously successful call to the WFDStartOpenSession function.helpviewer_keywords: ["WFDCloseSession","WFDCloseSession function [NativeWIFI]","nwifi.wfdclosesession","wlanapi/WFDCloseSession"]
 old-location: nwifi\wfdclosesession.htm
 tech.root: NativeWiFi
 ms.assetid: DEAF32C9-64A6-419A-A466-DE2313AE534C

@@ -1,7 +1,7 @@
 ---
 UID: NF:audioengineendpoint.IAudioOutputEndpointRT.ReleaseOutputDataPointer
 title: IAudioOutputEndpointRT::ReleaseOutputDataPointer (audioengineendpoint.h)
-description: Releases the pointer to the output buffer.
+description: Releases the pointer to the output buffer.helpviewer_keywords: ["IAudioOutputEndpointRT interface [Remote Desktop Services]","ReleaseOutputDataPointer method","IAudioOutputEndpointRT.ReleaseOutputDataPointer","IAudioOutputEndpointRT::ReleaseOutputDataPointer","ReleaseOutputDataPointer","ReleaseOutputDataPointer method [Remote Desktop Services]","ReleaseOutputDataPointer method [Remote Desktop Services]","IAudioOutputEndpointRT interface","audioengineendpoint/IAudioOutputEndpointRT::ReleaseOutputDataPointer","termserv.iaudiooutputendpointrt_releaseoutputdatapointer"]
 old-location: termserv\iaudiooutputendpointrt_releaseoutputdatapointer.htm
 tech.root: TermServ
 ms.assetid: 55b7d55e-b684-4c6e-a937-e8922732857d

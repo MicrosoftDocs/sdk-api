@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d9caps._D3DCONTENTPROTECTIONCAPS
 title: D3DCONTENTPROTECTIONCAPS (d3d9caps.h)
-description: Describes the content protection capabilities of a display driver.
+description: Describes the content protection capabilities of a display driver.helpviewer_keywords: ["D3DCONTENTPROTECTIONCAPS","D3DCONTENTPROTECTIONCAPS structure [Media Foundation]","D3DCPCAPS_CONTENTKEY","D3DCPCAPS_ENCRYPTEDREADBACK","D3DCPCAPS_ENCRYPTEDREADBACKKEY","D3DCPCAPS_FRESHENSESSIONKEY","D3DCPCAPS_HARDWARE","D3DCPCAPS_PARTIALDECRYPTION","D3DCPCAPS_PROTECTIONALWAYSON","D3DCPCAPS_SEQUENTIAL_CTR_IV","D3DCPCAPS_SOFTWARE","D3DKEYEXCHANGE_DXVA","D3DKEYEXCHANGE_RSAES_OAEP","d3d9caps/D3DCONTENTPROTECTIONCAPS","mf.d3dcontentprotectioncaps"]
 old-location: mf\d3dcontentprotectioncaps.htm
 tech.root: medfound
 ms.assetid: 73ef2e12-d376-4bc2-a940-d421acfdd43e

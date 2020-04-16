@@ -1,7 +1,7 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectGroupImpl
 title: IMILBitmapEffectGroupImpl (mileffects.h)
-description: Exposes methods that define an effect group.
+description: Exposes methods that define an effect group.helpviewer_keywords: ["IMILBitmapEffectGroupImpl","IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects]","IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectgroupimpl","mileffects/IMILBitmapEffectGroupImpl","wibe._wibe_imilbitmapeffectgroupimpl"]
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\imilbitmapeffectgroupimpl.htm

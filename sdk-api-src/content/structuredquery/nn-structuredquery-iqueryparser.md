@@ -1,7 +1,7 @@
 ---
 UID: NN:structuredquery.IQueryParser
 title: IQueryParser (structuredquery.h)
-description: Provides methods to parse an input string into an IQuerySolution object.
+description: Provides methods to parse an input string into an IQuerySolution object.helpviewer_keywords: ["IQueryParser","IQueryParser interface [search]","IQueryParser interface [search]","described","_search_IQueryParser","search._search_IQueryParser","structuredquery/IQueryParser"]
 old-location: search\_search_IQueryParser.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\iqueryparser.htm

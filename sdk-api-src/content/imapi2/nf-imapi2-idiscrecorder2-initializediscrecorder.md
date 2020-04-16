@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.InitializeDiscRecorder
 title: IDiscRecorder2::InitializeDiscRecorder (imapi2.h)
-description: Associates the object with the specified disc device.
+description: Associates the object with the specified disc device.helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","InitializeDiscRecorder method","IDiscRecorder2.InitializeDiscRecorder","IDiscRecorder2::InitializeDiscRecorder","InitializeDiscRecorder","InitializeDiscRecorder method [IMAPI]","InitializeDiscRecorder method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_initializediscrecorder","imapi2/IDiscRecorder2::InitializeDiscRecorder"]
 old-location: imapi\idiscrecorder2_initializediscrecorder.htm
 tech.root: imapi
 ms.assetid: 19a647b3-ef39-4208-9dfc-e52242a88c6c

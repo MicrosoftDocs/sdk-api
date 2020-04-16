@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilGetSzValue
 title: ResUtilGetSzValue function (resapi.h)
-description: Returns a string value from the cluster database.
+description: Returns a string value from the cluster database.helpviewer_keywords: ["PRESUTIL_GET_SZ_VALUE","PRESUTIL_GET_SZ_VALUE function [Failover Cluster]","ResUtilGetSzValue","ResUtilGetSzValue function [Failover Cluster]","_wolf_resutilgetszvalue","mscs.resutilgetszvalue","resapi/PRESUTIL_GET_SZ_VALUE","resapi/ResUtilGetSzValue"]
 old-location: mscs\resutilgetszvalue.htm
 tech.root: MsCS
 ms.assetid: c2ba04ea-0f98-4513-b8f8-658056a493e6

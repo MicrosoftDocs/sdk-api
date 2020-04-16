@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.CreateCustomAction
 title: IFsrmFileManagementJob::CreateCustomAction (fsrmreports.h)
-description: Creates a custom action object.
+description: Creates a custom action object.helpviewer_keywords: ["CreateCustomAction","CreateCustomAction method [File Server Resource Manager]","CreateCustomAction method [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","CreateCustomAction method","IFsrmFileManagementJob.CreateCustomAction","IFsrmFileManagementJob::CreateCustomAction","fs.ifsrmfilemanagementjob_createcustomaction","fsrm.ifsrmfilemanagementjob_createcustomaction","fsrmreports/IFsrmFileManagementJob::CreateCustomAction"]
 old-location: fsrm\ifsrmfilemanagementjob_createcustomaction.htm
 tech.root: fsrm
 ms.assetid: 886992bd-ca0b-4f21-8036-39703c7c99ba

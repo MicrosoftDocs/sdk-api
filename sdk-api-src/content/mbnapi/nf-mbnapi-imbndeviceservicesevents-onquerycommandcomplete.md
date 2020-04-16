@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnQueryCommandComplete
 title: IMbnDeviceServicesEvents::OnQueryCommandComplete (mbnapi.h)
-description: Notification method indicating that a device service QUERY request has completed.
+description: Notification method indicating that a device service QUERY request has completed.helpviewer_keywords: ["IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","OnQueryCommandComplete method","IMbnDeviceServicesEvents.OnQueryCommandComplete","IMbnDeviceServicesEvents::OnQueryCommandComplete","OnQueryCommandComplete","OnQueryCommandComplete method [Microsoft Broadband Networks]","OnQueryCommandComplete method [Microsoft Broadband Networks]","IMbnDeviceServicesEvents interface","mbn.imbndeviceservicesevents_onquerycommandcomplete","mbnapi/IMbnDeviceServicesEvents::OnQueryCommandComplete"]
 old-location: mbn\imbndeviceservicesevents_onquerycommandcomplete.htm
 tech.root: mbn
 ms.assetid: 6A04FA3F-D5E4-4E02-A334-218A168762AB

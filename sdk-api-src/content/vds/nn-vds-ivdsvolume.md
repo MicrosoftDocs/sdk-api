@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsVolume
 title: IVdsVolume (vds.h)
-description: Provides methods to manage volumes.
+description: Provides methods to manage volumes.helpviewer_keywords: ["IVdsVolume","IVdsVolume interface [VDS]","IVdsVolume interface [VDS]","described","base.ivdsvolume","vds/IVdsVolume"]
 old-location: base\ivdsvolume.htm
 tech.root: VDS
 ms.assetid: a02ee0a6-ac29-406c-9fc0-4f632d32424f

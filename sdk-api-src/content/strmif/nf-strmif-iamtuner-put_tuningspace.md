@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMTuner.put_TuningSpace
 title: IAMTuner::put_TuningSpace (strmif.h)
-description: The put_TuningSpace method sets a storage index for regional channel-to-frequency mappings.
+description: The put_TuningSpace method sets a storage index for regional channel-to-frequency mappings.helpviewer_keywords: ["IAMTuner interface [DirectShow]","put_TuningSpace method","IAMTuner.put_TuningSpace","IAMTuner::put_TuningSpace","IAMTunerput_TuningSpace","dshow.iamtuner_put_tuningspace","put_TuningSpace","put_TuningSpace method [DirectShow]","put_TuningSpace method [DirectShow]","IAMTuner interface","strmif/IAMTuner::put_TuningSpace"]
 old-location: dshow\iamtuner_put_tuningspace.htm
 tech.root: DirectShow
 ms.assetid: fd0c0bc5-2c46-4c5a-8f93-9021f37a6e6a

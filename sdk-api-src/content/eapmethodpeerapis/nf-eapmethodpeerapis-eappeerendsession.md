@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerEndSession
 title: EapPeerEndSession function (eapmethodpeerapis.h)
-description: Ends an EAP authentication session for the EAP method.
+description: Ends an EAP authentication session for the EAP method.helpviewer_keywords: ["EapPeerEndSession","EapPeerEndSession function [EAPHost]","eaphost.eappeerendsession","eapmethodpeerapis/EapPeerEndSession"]
 old-location: eaphost\eappeerendsession.htm
 tech.root: eaphost
 ms.assetid: e4740a71-bf80-41ae-b9c1-91b9769854e7

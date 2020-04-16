@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_RANGE
 title: DEVICE_DATA_SET_RANGE
-description: Provides data set range information for use with the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
+description: Provides data set range information for use with the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.helpviewer_keywords: ["*PDEVICE_DATA_SET_RANGE","*PDEVICE_DSM_RANGE","DEVICE_DATA_SET_RANGE","DEVICE_DATA_SET_RANGE structure","DEVICE_DSM_RANGE","PDEVICE_DATA_SET_RANGE","PDEVICE_DATA_SET_RANGE structure pointer","base.device_data_set_range","winioctl/DEVICE_DATA_SET_RANGE","winioctl/PDEVICE_DATA_SET_RANGE"]
 old-location: base\device_data_set_range.htm
 tech.root: devio
 ms.assetid: 5eea412e-ea16-4f47-ac69-46b543069eae

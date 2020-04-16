@@ -1,7 +1,7 @@
 ---
 UID: NF:mdmregistration.DiscoverManagementService
 title: DiscoverManagementService function (mdmregistration.h)
-description: Discovers the MDM service.
+description: Discovers the MDM service.helpviewer_keywords: ["DiscoverManagementService","DiscoverManagementService function [MDM Registration]","mdmreg.discovermanagementservice","mdmregistration/DiscoverManagementService"]
 old-location: mdmreg\discovermanagementservice.htm
 tech.root: MDMReg
 ms.assetid: 0b01225c-83db-4b13-ad7e-52beae05a8ee

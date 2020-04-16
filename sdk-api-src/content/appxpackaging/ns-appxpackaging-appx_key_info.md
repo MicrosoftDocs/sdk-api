@@ -1,7 +1,7 @@
 ---
 UID: NS:appxpackaging.APPX_KEY_INFO
 title: APPX_KEY_INFO (appxpackaging.h)
-description: Windows app package key information.
+description: Windows app package key information.helpviewer_keywords: ["APPX_KEY_INFO","APPX_KEY_INFO structure [App packaging and management]","PAPPX_KEY_INFO","PAPPX_KEY_INFO structure pointer [App packaging and management]","appxpackaging/APPX_KEY_INFO","appxpackaging/PAPPX_KEY_INFO","appxpkg.appx_key_info"]
 old-location: appxpkg\appx_key_info.htm
 tech.root: appxpkg
 ms.assetid: 16D21F7E-0F98-47F3-BB96-0E2D263B249B

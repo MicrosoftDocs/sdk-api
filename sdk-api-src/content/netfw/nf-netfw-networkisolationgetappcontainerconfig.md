@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.NetworkIsolationGetAppContainerConfig
 title: NetworkIsolationGetAppContainerConfig function (netfw.h)
-description: Is used to retrieve configuration information about one or more app containers.
+description: Is used to retrieve configuration information about one or more app containers.helpviewer_keywords: ["NetworkIsolationGetAppContainerConfig","NetworkIsolationGetAppContainerConfig function [ICS/ICF]","ics.networkisolationgetappcontainerconfig","networkisolation/NetworkIsolationGetAppContainerConfig"]
 old-location: ics\networkisolationgetappcontainerconfig.htm
 tech.root: ics
 ms.assetid: 5ddb9dde-c989-4235-9784-af3168b7a151

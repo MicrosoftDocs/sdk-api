@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ScreenToClient
 title: ScreenToClient function (winuser.h)
-description: The ScreenToClient function converts the screen coordinates of a specified point on the screen to client-area coordinates.
+description: The ScreenToClient function converts the screen coordinates of a specified point on the screen to client-area coordinates.helpviewer_keywords: ["ScreenToClient","ScreenToClient function [Windows GDI]","_win32_ScreenToClient","gdi.screentoclient","winuser/ScreenToClient"]
 old-location: gdi\screentoclient.htm
 tech.root: gdi
 ms.assetid: 5d3e65d1-e0c8-4063-b2e8-dd9f482d3378

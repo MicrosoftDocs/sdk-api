@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SoundSentry
 title: SoundSentry function (winuser.h)
-description: Triggers a visual signal to indicate that a sound is playing.
+description: Triggers a visual signal to indicate that a sound is playing.helpviewer_keywords: ["SoundSentry","SoundSentry function [Windows and Messages]","_win32_SoundSentry","_win32_soundsentry_cpp","winmsg.soundsentry","winui._win32_soundsentry","winuser/SoundSentry"]
 old-location: winmsg\soundsentry.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\soundsentry.htm

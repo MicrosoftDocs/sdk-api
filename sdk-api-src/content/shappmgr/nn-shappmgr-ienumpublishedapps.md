@@ -1,7 +1,7 @@
 ---
 UID: NN:shappmgr.IEnumPublishedApps
 title: IEnumPublishedApps (shappmgr.h)
-description: Exposes methods that enumerate published applications to Add/Remove Programs in the Control Panel. The object exposing this interface is requested through IAppPublisher::EnumApps.
+description: Exposes methods that enumerate published applications to Add/Remove Programs in the Control Panel. The object exposing this interface is requested through IAppPublisher::EnumApps.helpviewer_keywords: ["IEnumPublishedApps","IEnumPublishedApps interface [Windows Shell]","IEnumPublishedApps interface [Windows Shell]","described","inet_IEnumPublishedApps","shappmgr/IEnumPublishedApps","shell.IEnumPublishedApps"]
 old-location: shell\IEnumPublishedApps.htm
 tech.root: shell
 ms.assetid: 89a06b1d-1b72-46ca-91cd-bb63ea0cbff7

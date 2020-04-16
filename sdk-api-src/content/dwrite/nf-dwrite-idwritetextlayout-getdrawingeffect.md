@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetDrawingEffect
 title: IDWriteTextLayout::GetDrawingEffect (dwrite.h)
-description: Gets the application-defined drawing effect at the specified text position.
+description: Gets the application-defined drawing effect at the specified text position.helpviewer_keywords: ["GetDrawingEffect","GetDrawingEffect method [Direct Write]","GetDrawingEffect method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetDrawingEffect method","IDWriteTextLayout.GetDrawingEffect","IDWriteTextLayout::GetDrawingEffect","directwrite.IDWriteTextLayout_GetDrawingEffect","dwrite/IDWriteTextLayout::GetDrawingEffect"]
 old-location: directwrite\IDWriteTextLayout_GetDrawingEffect.htm
 tech.root: DirectWrite
 ms.assetid: 1b8d30d1-4da0-40bc-9fee-d06eccae6539

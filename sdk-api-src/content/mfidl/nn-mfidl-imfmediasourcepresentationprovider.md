@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFMediaSourcePresentationProvider
 title: IMFMediaSourcePresentationProvider (mfidl.h)
-description: Provides notifications to the sequencer source.
+description: Provides notifications to the sequencer source.helpviewer_keywords: ["IMFMediaSourcePresentationProvider","IMFMediaSourcePresentationProvider interface [Media Foundation]","IMFMediaSourcePresentationProvider interface [Media Foundation]","described","b6b36324-a315-42a0-bdbf-8d2cec6cde3f","mf.imfmediasourcepresentationprovider","mfidl/IMFMediaSourcePresentationProvider"]
 old-location: mf\imfmediasourcepresentationprovider.htm
 tech.root: medfound
 ms.assetid: b6b36324-a315-42a0-bdbf-8d2cec6cde3f

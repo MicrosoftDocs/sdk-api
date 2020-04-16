@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.TabCtrl_GetRowCount
 title: TabCtrl_GetRowCount macro (commctrl.h)
-description: Retrieves the current number of rows of tabs in a tab control. You can use this macro or send the TCM_GETROWCOUNT message explicitly.
+description: Retrieves the current number of rows of tabs in a tab control. You can use this macro or send the TCM_GETROWCOUNT message explicitly.helpviewer_keywords: ["TabCtrl_GetRowCount","TabCtrl_GetRowCount macro [Windows Controls]","_win32_TabCtrl_GetRowCount","_win32_TabCtrl_GetRowCount_cpp","commctrl/TabCtrl_GetRowCount","controls.TabCtrl_GetRowCount","controls._win32_TabCtrl_GetRowCount"]
 old-location: controls\TabCtrl_GetRowCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getrowcount.htm

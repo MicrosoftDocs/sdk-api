@@ -1,7 +1,7 @@
 ---
 UID: NC:imagehlp.DIGEST_FUNCTION
 title: DIGEST_FUNCTION (imagehlp.h)
-description: An application-defined callback function used by the ImageGetDigestStream function to process data.
+description: An application-defined callback function used by the ImageGetDigestStream function to process data.helpviewer_keywords: ["DIGEST_FUNCTION","DigestFunction","DigestFunction callback","DigestFunction callback function","_win32_digestfunction","base.digestfunction","imagehlp/DigestFunction"]
 old-location: base\digestfunction.htm
 tech.root: Debug
 ms.assetid: 4d5d2593-d9e2-43e8-914b-11f578192085

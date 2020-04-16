@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IMDSPStorage3.SetMetadata
 title: IMDSPStorage3::SetMetadata (mswmdm.h)
-description: The SetMetadata method provides the metadata associated with a specified content.
+description: The SetMetadata method provides the metadata associated with a specified content.helpviewer_keywords: ["IMDSPStorage3 interface [windows Media Device Manager]","SetMetadata method","IMDSPStorage3.SetMetadata","IMDSPStorage3::SetMetadata","IMDSPStorage3SetMetadata","SetMetadata","SetMetadata method [windows Media Device Manager]","SetMetadata method [windows Media Device Manager]","IMDSPStorage3 interface","mswmdm/IMDSPStorage3::SetMetadata","wmdm.imdspstorage3_setmetadata"]
 old-location: wmdm\imdspstorage3_setmetadata.htm
 tech.root: WMDM
 ms.assetid: bfb9a1e4-3cf6-4605-9613-d93f9cce201b

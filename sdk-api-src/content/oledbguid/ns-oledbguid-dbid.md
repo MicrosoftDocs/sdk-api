@@ -1,7 +1,7 @@
 ---
 UID: NS:oledbguid.tagDBID
 title: DBID (oledbguid.h)
-description: The DBID structure encapsulates various ways of identifying a database object.
+description: The DBID structure encapsulates various ways of identifying a database object.helpviewer_keywords: ["DBID","DBID structure [Indexing Service]","_idxs_DBID","indexsrv.dbid","oledbguid/DBID","tagDBID"]
 old-location: indexsrv\dbid.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_4bhg.htm

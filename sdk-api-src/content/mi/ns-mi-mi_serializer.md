@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Serializer
 title: MI_Serializer (mi.h)
-description: An object tied to a specific serialization technique.
+description: An object tied to a specific serialization technique.helpviewer_keywords: ["MI_Serializer","MI_Serializer structure [Windows Management Infrastructure (MI)]","mi/MI_Serializer","wmi_v2.mi_serializer"]
 old-location: wmi_v2\mi_serializer.htm
 tech.root: wmi_v2
 ms.assetid: 396b01f2-5238-4cc1-baf2-b602967e4333

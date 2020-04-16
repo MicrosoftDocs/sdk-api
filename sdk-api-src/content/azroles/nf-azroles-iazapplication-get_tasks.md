@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.get_Tasks
 title: IAzApplication::get_Tasks (azroles.h)
-description: The Tasks property of IAzApplication retrieves an IAzTasks object that is used to enumerate IAzTask objects from the policy data.
+description: The Tasks property of IAzApplication retrieves an IAzTasks object that is used to enumerate IAzTask objects from the policy data.helpviewer_keywords: ["AzApplication object [Security]","Tasks property","IAzApplication interface [Security]","Tasks property","IAzApplication.Tasks","IAzApplication.get_Tasks","IAzApplication::Tasks","IAzApplication::get_Tasks","Tasks property [Security]","Tasks property [Security]","AzApplication object","Tasks property [Security]","IAzApplication interface","azroles/IAzApplication::Tasks","azroles/IAzApplication::get_Tasks","get_Tasks","security.iazapplication_tasks"]
 old-location: security\iazapplication_tasks.htm
 tech.root: SecAuthZ
 ms.assetid: 86126517-d239-4ee8-a7e4-7ad5b0aac6c7

@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADs
 title: IADs (iads.h)
-description: The IADs interface defines the basic object features, that is, properties and methods, of any ADSI object.
+description: The IADs interface defines the basic object features, that is, properties and methods, of any ADSI object.helpviewer_keywords: ["IADs","IADs interface [ADSI]","IADs interface [ADSI]","described","_ds_iads","adsi.iads","iads/IADs"]
 old-location: adsi\iads.htm
 tech.root: adsi
 ms.assetid: f53d9ee0-3f4d-4a01-b953-98d168ad94cb

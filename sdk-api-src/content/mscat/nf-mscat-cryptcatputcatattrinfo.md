@@ -1,7 +1,7 @@
 ---
 UID: NF:mscat.CryptCATPutCatAttrInfo
 title: CryptCATPutCatAttrInfo function (mscat.h)
-description: Allocates memory for a catalog file attribute and adds it to the catalog.
+description: Allocates memory for a catalog file attribute and adds it to the catalog.helpviewer_keywords: ["CRYPTCAT_ATTR_AUTHENTICATED","CRYPTCAT_ATTR_DATAASCII","CRYPTCAT_ATTR_DATABASE64","CRYPTCAT_ATTR_DATAREPLACE","CRYPTCAT_ATTR_NAMEASCII","CRYPTCAT_ATTR_NAMEOBJID","CRYPTCAT_ATTR_UNAUTHENTICATED","CryptCATPutCatAttrInfo","CryptCATPutCatAttrInfo function [Security]","mscat/CryptCATPutCatAttrInfo","security.cryptcatputcatattrinfo"]
 old-location: security\cryptcatputcatattrinfo.htm
 tech.root: SecCrypto
 ms.assetid: 16bb8560-d4fc-4c81-8eed-21a2da7f396d

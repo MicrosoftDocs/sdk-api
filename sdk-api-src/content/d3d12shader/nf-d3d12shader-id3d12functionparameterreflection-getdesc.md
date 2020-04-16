@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionParameterReflection.GetDesc
 title: ID3D12FunctionParameterReflection::GetDesc (d3d12shader.h)
-description: Fills the parameter descriptor structure for the function's parameter.
+description: Fills the parameter descriptor structure for the function's parameter.helpviewer_keywords: ["GetDesc","GetDesc method","GetDesc method","ID3D12FunctionParameterReflection interface","ID3D12FunctionParameterReflection interface","GetDesc method","ID3D12FunctionParameterReflection.GetDesc","ID3D12FunctionParameterReflection::GetDesc","d3d12shader/ID3D12FunctionParameterReflection::GetDesc","direct3d12.id3d12functionparameterreflection_getdesc"]
 old-location: direct3d12\id3d12functionparameterreflection_getdesc.htm
 tech.root: direct3d12
 ms.assetid: E10ACB2E-EF77-4C71-A5C7-CEFA31218091

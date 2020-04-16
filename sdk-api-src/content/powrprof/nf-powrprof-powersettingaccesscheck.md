@@ -1,7 +1,7 @@
 ---
 UID: NF:powrprof.PowerSettingAccessCheck
 title: PowerSettingAccessCheck function (powrprof.h)
-description: Queries for a group policy override for specified power settings.
+description: Queries for a group policy override for specified power settings.helpviewer_keywords: ["ACCESS_ACTIVE_SCHEME","ACCESS_AC_POWER_SETTING_INDEX","ACCESS_CREATE_SCHEME","ACCESS_DC_POWER_SETTING_INDEX","ACCESS_SCHEME","PowerSettingAccessCheck","PowerSettingAccessCheck function","base.powersettingaccesscheck","powrprof/PowerSettingAccessCheck"]
 old-location: base\powersettingaccesscheck.htm
 tech.root: power
 ms.assetid: 0b89c189-b162-44d4-aa50-d78385e40c27

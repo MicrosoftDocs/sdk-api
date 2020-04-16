@@ -1,7 +1,7 @@
 ---
 UID: NE:waasapitypes.tagUpdateImpactLevel
 title: UpdateImpactLevel (waasapitypes.h)
-description: Indicates a high, medium, or low impact of a device running an out-of-date OS.
+description: Indicates a high, medium, or low impact of a device running an out-of-date OS.helpviewer_keywords: ["UpdateImpactLevel","UpdateImpactLevel enumeration","UpdateImpactLevel_High","UpdateImpactLevel_Low","UpdateImpactLevel_Medium","UpdateImpactLevel_None","base.updateimpactlevel","waasapitypes/ UpdateImpactLevel_Medium","waasapitypes/ UpdateImpactLevel_None","waasapitypes/UpdateImpactLevel","waasapitypes/UpdateImpactLevel_High","waasapitypes/UpdateImpactLevel_Low"]
 old-location: base\updateimpactlevel.htm
 tech.root: SysInfo
 ms.assetid: C7F30B63-66B0-4F37-A05B-7D366A12B640

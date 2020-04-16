@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetParagraphAlignment
 title: IDWriteTextFormat::GetParagraphAlignment (dwrite.h)
-description: Gets the alignment option of a paragraph which is relative to the top and bottom edges of a layout box.
+description: Gets the alignment option of a paragraph which is relative to the top and bottom edges of a layout box.helpviewer_keywords: ["GetParagraphAlignment","GetParagraphAlignment method [Direct Write]","GetParagraphAlignment method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetParagraphAlignment method","IDWriteTextFormat.GetParagraphAlignment","IDWriteTextFormat::GetParagraphAlignment","directwrite.IDWriteTextFormat_GetParagraphAlignment","dwrite/IDWriteTextFormat::GetParagraphAlignment"]
 old-location: directwrite\IDWriteTextFormat_GetParagraphAlignment.htm
 tech.root: DirectWrite
 ms.assetid: c05e1b59-0263-45a7-872c-b44b04858a5a

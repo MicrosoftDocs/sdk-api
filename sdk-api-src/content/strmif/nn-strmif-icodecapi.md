@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.ICodecAPI
 title: ICodecAPI (strmif.h)
-description: The ICodecAPI interface sets and retrieves settings on an encoder or decoder filter.
+description: The ICodecAPI interface sets and retrieves settings on an encoder or decoder filter.helpviewer_keywords: ["ICodecAPI","ICodecAPI interface [DirectShow]","ICodecAPI interface [DirectShow]","described","ICodecAPIInterface","dshow.icodecapi","strmif/ICodecAPI"]
 old-location: dshow\icodecapi.htm
 tech.root: DirectShow
 ms.assetid: cc3f1bd9-1d36-45e6-94e2-07f2800fd073

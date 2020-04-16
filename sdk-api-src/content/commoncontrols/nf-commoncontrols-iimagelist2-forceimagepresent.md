@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList2.ForceImagePresent
 title: IImageList2::ForceImagePresent (commoncontrols.h)
-description: Forces an image present, as specified.
+description: Forces an image present, as specified.helpviewer_keywords: ["ForceImagePresent","ForceImagePresent method [Windows Controls]","ForceImagePresent method [Windows Controls]","IImageList2 interface","IImageList2 interface [Windows Controls]","ForceImagePresent method","IImageList2.ForceImagePresent","IImageList2::ForceImagePresent","ILFIP_ALWAYS","ILFIP_FROMSTANDBY","_shell_IImageList2_ForceImagePresent","_shell_IImageList2_ForceImagePresent_cpp","commoncontrols/IImageList2::ForceImagePresent","controls.IImageList2_ForceImagePresent","controls._shell_IImageList2_ForceImagePresent"]
 old-location: controls\IImageList2_ForceImagePresent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\forceimagepresent.htm

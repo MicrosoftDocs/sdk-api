@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.GetDiacriticSensitivity
 title: ISearchLanguageSupport::GetDiacriticSensitivity (searchapi.h)
-description: Gets the sensitivity of an implemented ISearchLanguageSupport interface to diacritics. A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
+description: Gets the sensitivity of an implemented ISearchLanguageSupport interface to diacritics. A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.helpviewer_keywords: ["GetDiacriticSensitivity","GetDiacriticSensitivity method [search]","GetDiacriticSensitivity method [search]","ISearchLanguageSupport interface","ISearchLanguageSupport interface [search]","GetDiacriticSensitivity method","ISearchLanguageSupport.GetDiacriticSensitivity","ISearchLanguageSupport::GetDiacriticSensitivity","_search_ISearchLanguageSupport_GetDiacriticSensitivity","search._search_ISearchLanguageSupport_GetDiacriticSensitivity","searchapi/ISearchLanguageSupport::GetDiacriticSensitivity"]
 old-location: search\_search_ISearchLanguageSupport_GetDiacriticSensitivity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\getdiacriticsensitivity.htm

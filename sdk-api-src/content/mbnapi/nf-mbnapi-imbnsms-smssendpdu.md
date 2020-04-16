@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsSendPdu
 title: IMbnSms::SmsSendPdu (mbnapi.h)
-description: Sends a message in PDU format.
+description: Sends a message in PDU format.helpviewer_keywords: ["IMbnSms interface [Microsoft Broadband Networks]","SmsSendPdu method","IMbnSms.SmsSendPdu","IMbnSms::SmsSendPdu","SmsSendPdu","SmsSendPdu method [Microsoft Broadband Networks]","SmsSendPdu method [Microsoft Broadband Networks]","IMbnSms interface","mbn.imbnsms_smssendpdu","mbnapi/IMbnSms::SmsSendPdu"]
 old-location: mbn\imbnsms_smssendpdu.htm
 tech.root: mbn
 ms.assetid: c8f5bde5-d28c-4799-9f46-7b02745e6bfb

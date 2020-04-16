@@ -1,7 +1,7 @@
 ---
 UID: NS:ipxrtdef._IPX_IF_INFO
 title: IPX_IF_INFO (ipxrtdef.h)
-description: The IPX_IF_INFO structure stores information for an IPX interface.
+description: The IPX_IF_INFO structure stores information for an IPX interface.helpviewer_keywords: ["*PIPX_IF_INFO","IPX_IF_INFO","IPX_IF_INFO structure [RAS]","PIPX_IF_INFO","PIPX_IF_INFO structure pointer [RAS]","_mpr_ipx_if_info","ipxrtdef/IPX_IF_INFO","ipxrtdef/PIPX_IF_INFO","rras.ipx_if_info"]
 old-location: rras\ipx_if_info.htm
 tech.root: RRAS
 ms.assetid: f1c07033-dbfa-4bbe-b275-f5bfc629b2d7

@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchAppend
 title: PathCchAppend function (pathcch.h)
-description: Appends one path to the end of another.This function differs from PathCchAppendEx in that you are restricted to a final path of length MAX_PATH.This function differs from PathAppend in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
+description: Appends one path to the end of another.This function differs from PathCchAppendEx in that you are restricted to a final path of length MAX_PATH.This function differs from PathAppend in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.helpviewer_keywords: ["PathCchAppend","PathCchAppend function [Windows Shell]","pathcch/PathCchAppend","shell.PathCchAppend"]
 old-location: shell\PathCchAppend.htm
 tech.root: shell
 ms.assetid: b64884ad-15c7-495e-8037-34daf68f8cf7

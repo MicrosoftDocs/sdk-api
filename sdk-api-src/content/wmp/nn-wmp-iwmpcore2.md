@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPCore2
 title: IWMPCore2 (wmp.h)
-description: The IWMPCore2 interface provides a method that supplements the IWMPCore interface.
+description: The IWMPCore2 interface provides a method that supplements the IWMPCore interface.helpviewer_keywords: ["IWMPCore2","IWMPCore2 interface [Windows Media Player]","IWMPCore2 interface [Windows Media Player]","described","IWMPCore2Interface","wmp.iwmpcore2","wmp/IWMPCore2"]
 old-location: wmp\iwmpcore2.htm
 tech.root: WMP
 ms.assetid: 5f839bfe-bf67-49eb-8743-57713e1be7c5

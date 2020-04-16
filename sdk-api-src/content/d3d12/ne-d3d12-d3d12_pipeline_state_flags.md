@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_PIPELINE_STATE_FLAGS
 title: D3D12_PIPELINE_STATE_FLAGS (d3d12.h)
-description: Flags to control pipeline state.
+description: Flags to control pipeline state.helpviewer_keywords: ["D3D12_PIPELINE_STATE_FLAGS","D3D12_PIPELINE_STATE_FLAGS enumeration","D3D12_PIPELINE_STATE_FLAG_NONE","D3D12_PIPELINE_STATE_FLAG_TOOL_DEBUG","d3d12/D3D12_PIPELINE_STATE_FLAGS","d3d12/D3D12_PIPELINE_STATE_FLAG_NONE","d3d12/D3D12_PIPELINE_STATE_FLAG_TOOL_DEBUG","direct3d12.d3d12_pipeline_state_flags"]
 old-location: direct3d12\d3d12_pipeline_state_flags.htm
 tech.root: direct3d12
 ms.assetid: DAE5C06B-ED1F-4B35-812E-31E26B51704C

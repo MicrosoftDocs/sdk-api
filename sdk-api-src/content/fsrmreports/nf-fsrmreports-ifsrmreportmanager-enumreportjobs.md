@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.EnumReportJobs
 title: IFsrmReportManager::EnumReportJobs (fsrmreports.h)
-description: Enumerates the report jobs.
+description: Enumerates the report jobs.helpviewer_keywords: ["EnumReportJobs","EnumReportJobs method [File Server Resource Manager]","EnumReportJobs method [File Server Resource Manager]","FsrmReportManager class","EnumReportJobs method [File Server Resource Manager]","IFsrmReportManager interface","FsrmReportManager class [File Server Resource Manager]","EnumReportJobs method","IFsrmReportManager interface [File Server Resource Manager]","EnumReportJobs method","IFsrmReportManager.EnumReportJobs","IFsrmReportManager::EnumReportJobs","fs.ifsrmreportmanager_enumreportjobs","fsrm.ifsrmreportmanager_enumreportjobs","fsrmreports/IFsrmReportManager::EnumReportJobs"]
 old-location: fsrm\ifsrmreportmanager_enumreportjobs.htm
 tech.root: fsrm
 ms.assetid: af66beb6-e82c-47e6-8658-da9702041053

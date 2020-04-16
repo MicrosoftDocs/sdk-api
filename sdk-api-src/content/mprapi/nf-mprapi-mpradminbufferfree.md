@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminBufferFree
 title: MprAdminBufferFree function (mprapi.h)
-description: The MprAdminBufferFree function frees memory buffers returned by _MprAdminDeviceEnum, MprAdminInterfaceGetInfo, MprAdminInterfaceDeviceGetInfo, MprAdminInterfaceEnum, MprAdminServerGetInfo, MprAdminInterfaceTransportGetInfo, and MprAdminTransportGetInfo.
+description: The MprAdminBufferFree function frees memory buffers returned by _MprAdminDeviceEnum, MprAdminInterfaceGetInfo, MprAdminInterfaceDeviceGetInfo, MprAdminInterfaceEnum, MprAdminServerGetInfo, MprAdminInterfaceTransportGetInfo, and MprAdminTransportGetInfo.helpviewer_keywords: ["MprAdminBufferFree","MprAdminBufferFree function [RAS]","_mpr_mpradminbufferfree","mprapi/MprAdminBufferFree","rras.mpradminbufferfree"]
 old-location: rras\mpradminbufferfree.htm
 tech.root: RRAS
 ms.assetid: 60cae055-841a-4435-bf0e-4198b1ccdd4e

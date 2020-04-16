@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.ICspAlgorithms
 title: ICspAlgorithms (certenroll.h)
-description: The ICspAlgorithms interface defines the following methods and properties that manage a collection of ICspAlgorithm objects.
+description: The ICspAlgorithms interface defines the following methods and properties that manage a collection of ICspAlgorithm objects.helpviewer_keywords: ["ICspAlgorithms","ICspAlgorithms interface [Security]","ICspAlgorithms interface [Security]","described","certenroll/ICspAlgorithms","security.icspalgorithms"]
 old-location: security\icspalgorithms.htm
 tech.root: seccertenroll
 ms.assetid: bbf8cff4-b1b2-480e-8c30-eb34166db143

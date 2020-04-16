@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMPropertyVault
 title: IWMPropertyVault (wmsdkidl.h)
-description: The IWMPropertyVault interface provides methods to store and retrieve properties.
+description: The IWMPropertyVault interface provides methods to store and retrieve properties.helpviewer_keywords: ["IWMPropertyVault","IWMPropertyVault interface [windows Media Format]","IWMPropertyVault interface [windows Media Format]","described","IWMPropertyVaultInterface","wmformat.iwmpropertyvault","wmsdkidl/IWMPropertyVault"]
 old-location: wmformat\iwmpropertyvault.htm
 tech.root: wmformat
 ms.assetid: 0e51a9be-afd4-430b-8339-f45e8f9a7d20

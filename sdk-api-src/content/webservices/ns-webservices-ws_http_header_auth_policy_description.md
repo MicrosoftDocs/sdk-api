@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION
 title: WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION (webservices.h)
-description: Describes the policy specifying http channel binding.
+description: Describes the policy specifying http channel binding.helpviewer_keywords: ["WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION","WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION structure [Web Services for Windows]","webservices/WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION","wsw.ws_http_header_auth_policy_description"]
 old-location: wsw\ws_http_header_auth_policy_description.htm
 tech.root: wsw
 ms.assetid: 2d5d90d5-498e-48a3-af21-f15349a391bf

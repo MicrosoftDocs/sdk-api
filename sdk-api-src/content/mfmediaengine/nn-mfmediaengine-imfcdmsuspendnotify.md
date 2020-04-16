@@ -1,7 +1,7 @@
 ---
 UID: NN:mfmediaengine.IMFCdmSuspendNotify
 title: IMFCdmSuspendNotify (mfmediaengine.h)
-description: Used to enable the client to notify the Content Decryption Module (CDM) when global resources should be brought into a consistent state prior to suspending.
+description: Used to enable the client to notify the Content Decryption Module (CDM) when global resources should be brought into a consistent state prior to suspending.helpviewer_keywords: ["IMFCdmSuspendNotify","IMFCdmSuspendNotify interface [Media Foundation]","IMFCdmSuspendNotify interface [Media Foundation]","described","mf.imfcdmsuspendnotify","mfmediaengine/IMFCdmSuspendNotify"]
 old-location: mf\imfcdmsuspendnotify.htm
 tech.root: medfound
 ms.assetid: b2671b66-fa9e-46a4-887e-d3ba9dd9025b

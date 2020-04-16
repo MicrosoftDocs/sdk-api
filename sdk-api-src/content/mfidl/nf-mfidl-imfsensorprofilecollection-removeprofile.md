@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.RemoveProfile
 title: IMFSensorProfileCollection::RemoveProfile (mfidl.h)
-description: Removes the specified profile based on the specified profile ID.
+description: Removes the specified profile based on the specified profile ID.helpviewer_keywords: ["IMFSensorProfileCollection interface [Media Foundation]","RemoveProfile method","IMFSensorProfileCollection.RemoveProfile","IMFSensorProfileCollection::RemoveProfile","RemoveProfile","RemoveProfile method [Media Foundation]","RemoveProfile method [Media Foundation]","IMFSensorProfileCollection interface","mf.imfsensorprofilecollection_removeprofile","mfidl/IMFSensorProfileCollection::RemoveProfile"]
 old-location: mf\imfsensorprofilecollection_removeprofile.htm
 tech.root: medfound
 ms.assetid: E0A0C773-7B60-46C7-9B89-07DF5CAA1E84

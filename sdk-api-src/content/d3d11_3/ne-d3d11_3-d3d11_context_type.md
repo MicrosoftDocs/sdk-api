@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11_3.D3D11_CONTEXT_TYPE
 title: D3D11_CONTEXT_TYPE (d3d11_3.h)
-description: Specifies the context in which a query occurs.
+description: Specifies the context in which a query occurs.helpviewer_keywords: ["D3D11_CONTEXT_TYPE","D3D11_CONTEXT_TYPE enumeration [Direct3D 11]","D3D11_CONTEXT_TYPE_3D","D3D11_CONTEXT_TYPE_ALL","D3D11_CONTEXT_TYPE_COMPUTE","D3D11_CONTEXT_TYPE_COPY","D3D11_CONTEXT_TYPE_VIDEO","d3d11_3/D3D11_CONTEXT_TYPE","d3d11_3/D3D11_CONTEXT_TYPE_3D","d3d11_3/D3D11_CONTEXT_TYPE_ALL","d3d11_3/D3D11_CONTEXT_TYPE_COMPUTE","d3d11_3/D3D11_CONTEXT_TYPE_COPY","d3d11_3/D3D11_CONTEXT_TYPE_VIDEO","direct3d11.d3d11_context_type"]
 old-location: direct3d11\d3d11_context_type.htm
 tech.root: direct3d11
 ms.assetid: 5467F07C-E429-4324-B52E-FDC25B4DB9FE

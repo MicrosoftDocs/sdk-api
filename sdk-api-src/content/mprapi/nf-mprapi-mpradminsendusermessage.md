@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminSendUserMessage
 title: MprAdminSendUserMessage function (mprapi.h)
-description: The MprAdminSendUserMessage function sends a message to the user connected on the specified connection.
+description: The MprAdminSendUserMessage function sends a message to the user connected on the specified connection.helpviewer_keywords: ["MprAdminSendUserMessage","MprAdminSendUserMessage function [RAS]","_mpr_mpradminsendusermessage","mprapi/MprAdminSendUserMessage","rras.mpradminsendusermessage"]
 old-location: rras\mpradminsendusermessage.htm
 tech.root: RRAS
 ms.assetid: 3c0d8b6c-25c1-47c3-baef-d82e6d2fa52f

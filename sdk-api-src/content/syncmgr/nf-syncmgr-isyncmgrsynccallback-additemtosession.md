@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.AddItemToSession
 title: ISyncMgrSyncCallback::AddItemToSession (syncmgr.h)
-description: Adds a specified item to the set of items currently being synchronized.
+description: Adds a specified item to the set of items currently being synchronized.helpviewer_keywords: ["AddItemToSession","AddItemToSession method [Windows Shell]","AddItemToSession method [Windows Shell]","ISyncMgrSyncCallback interface","ISyncMgrSyncCallback interface [Windows Shell]","AddItemToSession method","ISyncMgrSyncCallback.AddItemToSession","ISyncMgrSyncCallback::AddItemToSession","_shell_ISyncMgrSyncCallback_AddItemToSession","shell.ISyncMgrSyncCallback_AddItemToSession","syncmgr/ISyncMgrSyncCallback::AddItemToSession"]
 old-location: shell\ISyncMgrSyncCallback_AddItemToSession.htm
 tech.root: shell
 ms.assetid: 1de3d6c0-cdf8-48fa-b7ff-2dc75f6757fc

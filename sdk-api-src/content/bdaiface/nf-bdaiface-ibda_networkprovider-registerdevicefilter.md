@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.RegisterDeviceFilter
 title: IBDA_NetworkProvider::RegisterDeviceFilter (bdaiface.h)
-description: The RegisterDeviceFilter method is called by a BDA device filter to register itself in the filter graph.
+description: The RegisterDeviceFilter method is called by a BDA device filter to register itself in the filter graph.helpviewer_keywords: ["IBDA_NetworkProvider interface [Microsoft TV Technologies]","RegisterDeviceFilter method","IBDA_NetworkProvider.RegisterDeviceFilter","IBDA_NetworkProvider::RegisterDeviceFilter","IBDA_NetworkProviderRegisterDeviceFilter","RegisterDeviceFilter","RegisterDeviceFilter method [Microsoft TV Technologies]","RegisterDeviceFilter method [Microsoft TV Technologies]","IBDA_NetworkProvider interface","bdaiface/IBDA_NetworkProvider::RegisterDeviceFilter","mstv.ibda_networkprovider_registerdevicefilter"]
 old-location: mstv\ibda_networkprovider_registerdevicefilter.htm
 tech.root: mstv
 ms.assetid: 88050024-5960-4ce5-8645-82db3e17b12c

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IHomeGroup.ShowSharingWizard
 title: IHomeGroup::ShowSharingWizard (shobjidl_core.h)
-description: Displays a wizard that allows a user to create a Home Group, and then retrieves the sharing options that the user selected through the wizard.
+description: Displays a wizard that allows a user to create a Home Group, and then retrieves the sharing options that the user selected through the wizard.helpviewer_keywords: ["HGSC_DOCUMENTSLIBRARY","HGSC_MUSICLIBRARY","HGSC_NONE","HGSC_PICTURESLIBRARY","HGSC_PRINTERS","HGSC_VIDEOSLIBRARY","IHomeGroup interface [Windows Shell]","ShowSharingWizard method","IHomeGroup.ShowSharingWizard","IHomeGroup::ShowSharingWizard","ShowSharingWizard","ShowSharingWizard method [Windows Shell]","ShowSharingWizard method [Windows Shell]","IHomeGroup interface","_shell_IHomeGroup_ShowSharingWizard","shell.IHomeGroup_ShowSharingWizard","shobjidl_core/IHomeGroup::ShowSharingWizard"]
 old-location: shell\IHomeGroup_ShowSharingWizard.htm
 tech.root: shell
 ms.assetid: D73A97EE-B427-4c53-B023-3662D864E801

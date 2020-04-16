@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnSmsConfiguration
 title: IMbnSmsConfiguration (mbnapi.h)
-description: Provides access to the SMS configuration of a device.
+description: Provides access to the SMS configuration of a device.helpviewer_keywords: ["IMbnSmsConfiguration","IMbnSmsConfiguration interface [Microsoft Broadband Networks]","IMbnSmsConfiguration interface [Microsoft Broadband Networks]","described","mbn.imbnsmsconfiguration","mbnapi/IMbnSmsConfiguration"]
 old-location: mbn\imbnsmsconfiguration.htm
 tech.root: mbn
 ms.assetid: ee261c32-aa17-496a-a568-d9da43e1e23a

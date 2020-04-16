@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.GetDesc
 title: ID3D12CommandQueue::GetDesc (d3d12.h)
-description: Gets the description of the command queue.
+description: Gets the description of the command queue.helpviewer_keywords: ["GetDesc","GetDesc method","GetDesc method","ID3D12CommandQueue interface","ID3D12CommandQueue interface","GetDesc method","ID3D12CommandQueue.GetDesc","ID3D12CommandQueue::GetDesc","d3d12/ID3D12CommandQueue::GetDesc","direct3d12.id3d12commandqueue_getdesc"]
 old-location: direct3d12\id3d12commandqueue_getdesc.htm
 tech.root: direct3d12
 ms.assetid: AEEE6B15-AEB0-47C5-A3F8-9957516BFBEE

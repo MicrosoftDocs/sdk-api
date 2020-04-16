@@ -1,7 +1,7 @@
 ---
 UID: NF:faxdev.FaxDevReportStatus
 title: FaxDevReportStatus function (faxdev.h)
-description: The fax service calls the FaxDevReportStatus function to query a fax service provider (FSP) for status information about an individual active fax operation, or for status information after a failed fax operation.
+description: The fax service calls the FaxDevReportStatus function to query a fax service provider (FSP) for status information about an individual active fax operation, or for status information after a failed fax operation.helpviewer_keywords: ["FaxDevReportStatus","FaxDevReportStatus function [Fax Service]","_mfax_faxdevreportstatus","fax._mfax_faxdevreportstatus","faxdev/FaxDevReportStatus"]
 old-location: fax\_mfax_faxdevreportstatus.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_65gz.htm

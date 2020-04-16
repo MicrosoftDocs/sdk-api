@@ -1,7 +1,7 @@
 ---
 UID: NN:exdisp.IWebBrowser2
 title: IWebBrowser2 (exdisp.h)
-description: Exposes methods that are implemented by the WebBrowser control (Microsoft ActiveX control) or implemented by an instance of the InternetExplorer application (OLE Automation).
+description: Exposes methods that are implemented by the WebBrowser control (Microsoft ActiveX control) or implemented by an instance of the InternetExplorer application (OLE Automation).helpviewer_keywords: ["IWebBrowser2","IWebBrowser2 interface [Windows API]","IWebBrowser2 interface [Windows API]","described","exdisp/IWebBrowser2","winprog.iwebbrowser2"]
 old-location: winprog\iwebbrowser2.htm
 tech.root: DevNotes
 ms.assetid: AFED694C-8D7B-4539-9A1A-B2DA546F3A07

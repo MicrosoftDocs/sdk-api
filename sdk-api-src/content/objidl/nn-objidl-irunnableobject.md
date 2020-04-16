@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IRunnableObject
 title: IRunnableObject (objidl.h)
-description: Enables a container to control the running of its embedded objects.
+description: Enables a container to control the running of its embedded objects.helpviewer_keywords: ["IRunnableObject","IRunnableObject interface [COM]","IRunnableObject interface [COM]","described","_com_irunnableobject","com.irunnableobject","objidl/IRunnableObject"]
 old-location: com\irunnableobject.htm
 tech.root: com
 ms.assetid: c682447b-5b12-41d5-a81d-fe94a117f740

@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.ISystemInformation.get_OemHardwareSupportLink
 title: ISystemInformation::get_OemHardwareSupportLink (wuapi.h)
-description: Gets a hyperlink to technical support information for OEM hardware.
+description: Gets a hyperlink to technical support information for OEM hardware.helpviewer_keywords: ["ISystemInformation interface [Windows Update Agent]","OemHardwareSupportLink property","ISystemInformation.OemHardwareSupportLink","ISystemInformation.get_OemHardwareSupportLink","ISystemInformation::OemHardwareSupportLink","ISystemInformation::get_OemHardwareSupportLink","OemHardwareSupportLink property [Windows Update Agent]","OemHardwareSupportLink property [Windows Update Agent]","ISystemInformation interface","get_OemHardwareSupportLink","wua.isysteminformation_oemhardwaresupportlink","wuapi/ISystemInformation::OemHardwareSupportLink","wuapi/ISystemInformation::get_OemHardwareSupportLink"]
 old-location: wua\isysteminformation_oemhardwaresupportlink.htm
 tech.root: Wua_Sdk
 ms.assetid: 38d7b629-39e1-4265-8f1b-7fb187e1cab3

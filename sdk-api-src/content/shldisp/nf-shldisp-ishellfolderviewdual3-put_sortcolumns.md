@@ -1,7 +1,7 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.put_SortColumns
 title: IShellFolderViewDual3::put_SortColumns (shldisp.h)
-description: Sets the names of the columns to be sorted.
+description: Sets the names of the columns to be sorted.helpviewer_keywords: ["IShellFolderViewDual3 interface [Windows Shell]","put_SortColumns method","IShellFolderViewDual3.put_SortColumns","IShellFolderViewDual3::put_SortColumns","_shell_IShellFolderViewDual3_put_SortColumns","put_SortColumns","put_SortColumns method [Windows Shell]","put_SortColumns method [Windows Shell]","IShellFolderViewDual3 interface","shell.IShellFolderViewDual3_put_SortColumns","shldisp/IShellFolderViewDual3::put_SortColumns"]
 old-location: shell\IShellFolderViewDual3_put_SortColumns.htm
 tech.root: shell
 ms.assetid: cd61c44e-1612-48e3-9230-1a3a4667ece6

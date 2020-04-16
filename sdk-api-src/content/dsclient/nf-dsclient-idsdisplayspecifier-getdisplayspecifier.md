@@ -1,7 +1,7 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetDisplaySpecifier
 title: IDsDisplaySpecifier::GetDisplaySpecifier (dsclient.h)
-description: The IDsDisplaySpecifier::GetDisplaySpecifier method binds to the display specifier object for a given class in Active Directory Domain Services.
+description: The IDsDisplaySpecifier::GetDisplaySpecifier method binds to the display specifier object for a given class in Active Directory Domain Services.helpviewer_keywords: ["GetDisplaySpecifier","GetDisplaySpecifier method [Active Directory]","GetDisplaySpecifier method [Active Directory]","IDsDisplaySpecifier interface","IDsDisplaySpecifier interface [Active Directory]","GetDisplaySpecifier method","IDsDisplaySpecifier.GetDisplaySpecifier","IDsDisplaySpecifier::GetDisplaySpecifier","_glines_idsdisplayspecifier_getdisplayspecifier","ad.idsdisplayspecifier__getdisplayspecifier","ad.idsdisplayspecifier_getdisplayspecifier","dsclient/IDsDisplaySpecifier::GetDisplaySpecifier"]
 old-location: ad\idsdisplayspecifier_getdisplayspecifier.htm
 tech.root: ad
 ms.assetid: c4fc25f6-0157-406d-b523-8542183291ed

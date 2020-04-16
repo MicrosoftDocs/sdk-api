@@ -1,7 +1,7 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MODULE
 title: MINIDUMP_MODULE (minidumpapiset.h)
-description: Contains information for a specific module.
+description: Contains information for a specific module.helpviewer_keywords: ["*PMINIDUMP_MODULE","MINIDUMP_MODULE","MINIDUMP_MODULE structure","PMINIDUMP_MODULE","PMINIDUMP_MODULE structure pointer","_MINIDUMP_MODULE","_win32_minidump_module_str","base.minidump_module_str","minidumpapiset/MINIDUMP_MODULE","minidumpapiset/PMINIDUMP_MODULE"]
 old-location: base\minidump_module_str.htm
 tech.root: Debug
 ms.assetid: 17e32c6e-29df-4308-b22d-39e13bc6a2a5

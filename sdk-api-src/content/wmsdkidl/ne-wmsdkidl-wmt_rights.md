@@ -1,7 +1,7 @@
 ---
 UID: NE:wmsdkidl.WMT_RIGHTS
 title: WMT_RIGHTS (wmsdkidl.h)
-description: Defines the rights that may be specified in a DRM license.
+description: Defines the rights that may be specified in a DRM license.helpviewer_keywords: ["WMT_RIGHTS","WMT_RIGHTS enumeration [windows Media Format]","WMT_RIGHT_COLLABORATIVE_PLAY","WMT_RIGHT_COPY","WMT_RIGHT_COPY_TO_CD","WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE","WMT_RIGHT_COPY_TO_SDMI_DEVICE","WMT_RIGHT_ONE_TIME","WMT_RIGHT_PLAYBACK","WMT_RIGHT_SAVE_STREAM_PROTECTED","WMT_RIGHT_SDMI_NOMORECOPIES","WMT_RIGHT_SDMI_TRIGGER","enumeration [windows Media Format]","wmformat.wmt_rights","wmsdkidl/WMT_RIGHTS","wmsdkidl/WMT_RIGHT_COLLABORATIVE_PLAY","wmsdkidl/WMT_RIGHT_COPY","wmsdkidl/WMT_RIGHT_COPY_TO_CD","wmsdkidl/WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE","wmsdkidl/WMT_RIGHT_COPY_TO_SDMI_DEVICE","wmsdkidl/WMT_RIGHT_ONE_TIME","wmsdkidl/WMT_RIGHT_PLAYBACK","wmsdkidl/WMT_RIGHT_SAVE_STREAM_PROTECTED","wmsdkidl/WMT_RIGHT_SDMI_NOMORECOPIES","wmsdkidl/WMT_RIGHT_SDMI_TRIGGER"]
 old-location: wmformat\wmt_rights.htm
 tech.root: wmformat
 ms.assetid: 52a9a5ec-58fb-4804-8f56-4d863c738934

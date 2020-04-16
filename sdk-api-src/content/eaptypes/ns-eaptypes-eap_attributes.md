@@ -1,7 +1,7 @@
 ---
 UID: NS:eaptypes._EAP_ATTRIBUTES
 title: EAP_ATTRIBUTES (eaptypes.h)
-description: Contains an array of EAP attributes.
+description: Contains an array of EAP attributes.helpviewer_keywords: ["EAP_ATTRIBUTES","EAP_ATTRIBUTES structure [EAPHost]","EapAttributes","EapAttributes structure [EAPHost]","eaphost.eap_attributes","eaptypes/EAP_ATTRIBUTES","eaptypes/EapAttributes"]
 old-location: eaphost\eap_attributes.htm
 tech.root: eaphost
 ms.assetid: 2f88b475-a4ae-4c40-b0f8-2dd05c676619

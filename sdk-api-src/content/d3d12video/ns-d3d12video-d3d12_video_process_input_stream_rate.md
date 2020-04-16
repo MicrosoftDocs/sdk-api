@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE
 title: D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE
-description: Provides information about the stream rate.
+description: Provides information about the stream rate.helpviewer_keywords: ["D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE","D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE",""]
 tech.root: mf
 ms.assetid: 42b631e5-a80c-409e-a16e-276e355798e3
 ms.date: 05/28/2019

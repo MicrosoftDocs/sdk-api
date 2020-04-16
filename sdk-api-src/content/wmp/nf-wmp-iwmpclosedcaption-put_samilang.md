@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.put_SAMILang
 title: IWMPClosedCaption::put_SAMILang (wmp.h)
-description: The put_SAMILang method specifies the language displayed for closed captioning.
+description: The put_SAMILang method specifies the language displayed for closed captioning.helpviewer_keywords: ["IWMPClosedCaption interface [Windows Media Player]","put_SAMILang method","IWMPClosedCaption.put_SAMILang","IWMPClosedCaption::put_SAMILang","IWMPClosedCaptionput_SAMILang","put_SAMILang","put_SAMILang method [Windows Media Player]","put_SAMILang method [Windows Media Player]","IWMPClosedCaption interface","wmp.iwmpclosedcaption_put_samilang","wmp/IWMPClosedCaption::put_SAMILang"]
 old-location: wmp\iwmpclosedcaption_put_samilang.htm
 tech.root: WMP
 ms.assetid: 2027d8cd-2528-45ad-9f36-f03cc3001ba7

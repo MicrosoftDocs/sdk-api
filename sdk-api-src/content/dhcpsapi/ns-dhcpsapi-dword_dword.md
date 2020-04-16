@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DWORD_DWORD
 title: DWORD_DWORD (dhcpsapi.h)
-description: The DWORD_DWORD structure defines a 64-bit integer value.
+description: The DWORD_DWORD structure defines a 64-bit integer value.helpviewer_keywords: ["*LPDWORD_DWORD","DWORD_DWORD","DWORD_DWORD structure [DHCP]","LPDWORD_DWORD","LPDWORD_DWORD structure pointer [DHCP]","dhcp.dword_dword","dhcpsapi/LPDWORD_DWORD","dhcpsapi/_DWORD_DWORD"]
 old-location: dhcp\dword_dword.htm
 tech.root: DHCP
 ms.assetid: a7e61aa6-a8ab-4792-bb93-b492e904b098

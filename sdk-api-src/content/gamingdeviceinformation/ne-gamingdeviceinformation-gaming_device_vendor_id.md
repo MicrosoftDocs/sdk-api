@@ -1,7 +1,7 @@
 ---
 UID: NE:gamingdeviceinformation.GAMING_DEVICE_VENDOR_ID
 title: GAMING_DEVICE_VENDOR_ID (gamingdeviceinformation.h)
-description: Indicates the vendor of the console that the game is running on.
+description: Indicates the vendor of the console that the game is running on.helpviewer_keywords: ["GAMING_DEVICE_VENDOR_ID","GAMING_DEVICE_VENDOR_ID enumeration","GAMING_DEVICE_VENDOR_ID_MICROSOFT","GAMING_DEVICE_VENDOR_ID_NONE","gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID","gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID_MICROSOFT","gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID_NONE","gamingdvcinfo.gaming_device_vendor_id"]
 old-location: gamingdvcinfo\gaming_device_vendor_id.htm
 tech.root: gamingdvcinfo
 ms.assetid: 0A74E610-9853-4299-A278-41C3B7F47D9C

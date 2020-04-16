@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetMuteDebugOutput
 title: IDXGIInfoQueue::SetMuteDebugOutput (dxgidebug.h)
-description: Turns the debug output on or off.
+description: Turns the debug output on or off.helpviewer_keywords: ["IDXGIInfoQueue interface [DXGI]","SetMuteDebugOutput method","IDXGIInfoQueue.SetMuteDebugOutput","IDXGIInfoQueue::SetMuteDebugOutput","SetMuteDebugOutput","SetMuteDebugOutput method [DXGI]","SetMuteDebugOutput method [DXGI]","IDXGIInfoQueue interface","direct3ddxgi.idxgiinfoqueue_setmutedebugoutput","dxgidebug/IDXGIInfoQueue::SetMuteDebugOutput"]
 old-location: direct3ddxgi\idxgiinfoqueue_setmutedebugoutput.htm
 tech.root: direct3ddxgi
 ms.assetid: F01E8BCC-CF82-4008-9829-C7EE4AD2973C

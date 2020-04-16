@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.GetThemeSysBool
 title: GetThemeSysBool function (uxtheme.h)
-description: Retrieves the Boolean value of a system metric.
+description: Retrieves the Boolean value of a system metric.helpviewer_keywords: ["GetThemeSysBool","GetThemeSysBool function [Windows Controls]","TMT_FLATMENUS","controls.GetThemeSysBool","controls.inet_GetThemeSysBool","inet_GetThemeSysBool","inet_GetThemeSysBool_cpp","uxtheme/GetThemeSysBool"]
 old-location: controls\GetThemeSysBool.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysbool.htm

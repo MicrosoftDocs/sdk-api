@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetAdvisoryPageDimensions
 title: IXpsOMPageReference::SetAdvisoryPageDimensions (xpsobjectmodel.h)
-description: Sets the suggested dimensions of the page.
+description: Sets the suggested dimensions of the page.helpviewer_keywords: ["IXpsOMPageReference interface [XPS Documents and Packaging]","SetAdvisoryPageDimensions method","IXpsOMPageReference.SetAdvisoryPageDimensions","IXpsOMPageReference::SetAdvisoryPageDimensions","SetAdvisoryPageDimensions","SetAdvisoryPageDimensions method [XPS Documents and Packaging]","SetAdvisoryPageDimensions method [XPS Documents and Packaging]","IXpsOMPageReference interface","xps.ixpsompagereference_setadvisorypagedimensions","xpsobjectmodel/IXpsOMPageReference::SetAdvisoryPageDimensions"]
 old-location: xps\ixpsompagereference_setadvisorypagedimensions.htm
 tech.root: printdocs
 ms.assetid: 8286fd78-a7d8-4bf4-9b08-b93e19abccf9

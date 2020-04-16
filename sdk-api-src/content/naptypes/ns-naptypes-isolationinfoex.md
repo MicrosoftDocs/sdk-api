@@ -1,7 +1,7 @@
 ---
 UID: NS:naptypes.tagIsolationInfoEx
 title: IsolationInfoEx (naptypes.h)
-description: Defines the extended isolation status of the machine or the connection.
+description: Defines the extended isolation status of the machine or the connection.helpviewer_keywords: ["IsolationInfoEx","IsolationInfoEx structure [NAP]","nap.isolationinfoex","naptypes/IsolationInfoEx"]
 old-location: nap\isolationinfoex.htm
 tech.root: NAP
 ms.assetid: 7b361429-015f-4ecc-8569-3075b5b7b85d

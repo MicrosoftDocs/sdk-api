@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_Flags
 title: IRDPSRAPIAttendee::get_Flags (rdpencomapi.h)
-description: Retrieves the attendee specific flags that are defined in the RDPENCOMAPI_ATTENDEE_FLAGS enumeration type.
+description: Retrieves the attendee specific flags that are defined in the RDPENCOMAPI_ATTENDEE_FLAGS enumeration type.helpviewer_keywords: ["Flags property [RDP]","Flags property [RDP]","IRDPSRAPIAttendee interface","Flags property [RDP]","RDPSRAPIAttendee object","IRDPSRAPIAttendee interface [RDP]","Flags property","IRDPSRAPIAttendee.Flags","IRDPSRAPIAttendee.get_Flags","IRDPSRAPIAttendee::Flags","IRDPSRAPIAttendee::get_Flags","RDPSRAPIAttendee object [RDP]","Flags property","get_Flags","rdp.irdpsrapiattendee_flags","rdpencomapi/IRDPSRAPIAttendee::Flags","rdpencomapi/IRDPSRAPIAttendee::get_Flags"]
 old-location: rdp\irdpsrapiattendee_flags.htm
 tech.root: rdp
 ms.assetid: e2e6bef1-6828-473c-aa33-ab30ebe56948

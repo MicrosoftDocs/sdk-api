@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileGroupImported
 title: IFsrmFileGroupImported (fsrmscreen.h)
-description: Used to configure imported file group objects.
+description: Used to configure imported file group objects.helpviewer_keywords: ["IFsrmFileGroupImported","IFsrmFileGroupImported interface [File Server Resource Manager]","IFsrmFileGroupImported interface [File Server Resource Manager]","described","fs.ifsrmfilegroupimported","fsrm.ifsrmfilegroupimported","fsrm/IFsrmFileGroupImported"]
 old-location: fsrm\ifsrmfilegroupimported.htm
 tech.root: fsrm
 ms.assetid: fb4f6b03-01cc-4855-8bc7-de5191068040

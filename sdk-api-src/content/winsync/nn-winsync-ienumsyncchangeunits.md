@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.IEnumSyncChangeUnits
 title: IEnumSyncChangeUnits (winsync.h)
-description: Enumerates a list of change units.
+description: Enumerates a list of change units.helpviewer_keywords: ["IEnumSyncChangeUnits","IEnumSyncChangeUnits interface [Windows Sync]","IEnumSyncChangeUnits interface [Windows Sync]","described","winsync.ienumsyncchangeunits","winsync/IEnumSyncChangeUnits"]
 old-location: winsync\ienumsyncchangeunits.htm
 tech.root: winsync
 ms.assetid: 77c1ef9a-9b76-433d-9654-fefb195a0f59

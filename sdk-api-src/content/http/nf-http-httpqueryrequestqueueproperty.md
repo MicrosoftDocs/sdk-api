@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpQueryRequestQueueProperty
 title: HttpQueryRequestQueueProperty function (http.h)
-description: Queries a property of the request queue identified by the specified handle.
+description: Queries a property of the request queue identified by the specified handle.helpviewer_keywords: ["HttpQueryRequestQueueProperty","HttpQueryRequestQueueProperty function [HTTP]","HttpServer503VerbosityProperty","HttpServerQueueLengthProperty","HttpServerStateProperty","http.httpqueryrequestqueueproperty","http/HttpQueryRequestQueueProperty"]
 old-location: http\httpqueryrequestqueueproperty.htm
 tech.root: http
 ms.assetid: a3b1e85e-f152-4038-a56a-3d5985757c45

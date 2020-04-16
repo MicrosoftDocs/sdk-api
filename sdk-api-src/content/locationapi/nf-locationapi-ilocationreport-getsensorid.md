@@ -1,7 +1,7 @@
 ---
 UID: NF:locationapi.ILocationReport.GetSensorID
 title: ILocationReport::GetSensorID (locationapi.h)
-description: Retrieves the ID of the sensor that generated the location report.
+description: Retrieves the ID of the sensor that generated the location report.helpviewer_keywords: ["GetSensorID","GetSensorID method [WinLocation]","GetSensorID method [WinLocation]","ILocationReport interface","ILocationReport interface [WinLocation]","GetSensorID method","ILocationReport.GetSensorID","ILocationReport::GetSensorID","WinLocation_COM_Ref.ilocationreport_getsensorid","locationapi/ILocationReport::GetSensorID"]
 old-location: winlocation_com_ref\ilocationreport_getsensorid.htm
 tech.root: locationapi
 ms.assetid: c75b2ce3-8c60-4e26-870f-2bec599ea3b8

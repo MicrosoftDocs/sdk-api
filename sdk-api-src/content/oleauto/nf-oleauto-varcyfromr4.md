@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarCyFromR4
 title: VarCyFromR4 function (oleauto.h)
-description: Converts a float value to a currency value.
+description: Converts a float value to a currency value.helpviewer_keywords: ["VarCyFromR4","VarCyFromR4 function [Automation]","_oa96_VarCyFromR4","automat.varcyfromr4","oleauto/VarCyFromR4"]
 old-location: automat\varcyfromr4.htm
 tech.root: automat
 ms.assetid: 6ee9eb83-5358-496e-ba4d-8ad529bc42ca

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetPrivateData
 title: IDvbLinkageDescriptor::GetPrivateData (dvbsiparser.h)
-description: Gets the private data from a Digital Video Broadcast (DVB) linkage descriptor.
+description: Gets the private data from a Digital Video Broadcast (DVB) linkage descriptor.helpviewer_keywords: ["GetPrivateData","GetPrivateData method [Microsoft TV Technologies]","GetPrivateData method [Microsoft TV Technologies]","IDvbLinkageDescriptor interface","IDvbLinkageDescriptor interface [Microsoft TV Technologies]","GetPrivateData method","IDvbLinkageDescriptor.GetPrivateData","IDvbLinkageDescriptor::GetPrivateData","dvbsiparser/IDvbLinkageDescriptor::GetPrivateData","mstv.idvblinkagedescriptor_getprivatedata"]
 old-location: mstv\idvblinkagedescriptor_getprivatedata.htm
 tech.root: mstv
 ms.assetid: 959aeb87-b661-4567-a6fd-2d28be6b0a02

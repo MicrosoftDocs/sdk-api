@@ -1,7 +1,7 @@
 ---
 UID: NF:websocket.WebSocketDeleteHandle
 title: WebSocketDeleteHandle function (websocket.h)
-description: Deletes a WebSocket session handle created by WebSocketCreateClientHandle or WebSocketCreateServerHandle.
+description: Deletes a WebSocket session handle created by WebSocketCreateClientHandle or WebSocketCreateServerHandle.helpviewer_keywords: ["WebSocketDeleteHandle","WebSocketDeleteHandle function [Websocket Protocol Component API]","websock.websocketdeletehandle","websocket/WebSocketDeleteHandle"]
 old-location: websock\websocketdeletehandle.htm
 tech.root: WebSock
 ms.assetid: 0ee21ee8-1375-4b42-8d04-64368e299b3e

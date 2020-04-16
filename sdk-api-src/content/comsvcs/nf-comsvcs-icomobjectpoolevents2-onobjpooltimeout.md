@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolTimeout
 title: IComObjectPoolEvents2::OnObjPoolTimeout (comsvcs.h)
-description: Generated when the request for a pooled object times out.
+description: Generated when the request for a pooled object times out.helpviewer_keywords: ["IComObjectPoolEvents2 interface [COM+]","OnObjPoolTimeout method","IComObjectPoolEvents2.OnObjPoolTimeout","IComObjectPoolEvents2::OnObjPoolTimeout","OnObjPoolTimeout","OnObjPoolTimeout method [COM+]","OnObjPoolTimeout method [COM+]","IComObjectPoolEvents2 interface","_dtc_IComObjectPoolEvents2_OnObjPoolTimeout","comsvcs/IComObjectPoolEvents2::OnObjPoolTimeout","cos.icomobjectpoolevents2_onobjpooltimeout"]
 old-location: cos\icomobjectpoolevents2_onobjpooltimeout.htm
 tech.root: cossdk
 ms.assetid: a5468ae6-6c7e-4ae1-afbc-24cc9b08102f

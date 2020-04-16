@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMDroppedFrames.GetDroppedInfo
 title: IAMDroppedFrames::GetDroppedInfo (strmif.h)
-description: The GetDroppedInfo method retrieves an array of frame numbers that were dropped.
+description: The GetDroppedInfo method retrieves an array of frame numbers that were dropped.helpviewer_keywords: ["GetDroppedInfo","GetDroppedInfo method [DirectShow]","GetDroppedInfo method [DirectShow]","IAMDroppedFrames interface","IAMDroppedFrames interface [DirectShow]","GetDroppedInfo method","IAMDroppedFrames.GetDroppedInfo","IAMDroppedFrames::GetDroppedInfo","IAMDroppedFramesGetDroppedInfo","dshow.iamdroppedframes_getdroppedinfo","strmif/IAMDroppedFrames::GetDroppedInfo"]
 old-location: dshow\iamdroppedframes_getdroppedinfo.htm
 tech.root: DirectShow
 ms.assetid: d4dc9e68-f814-4bb4-88ea-88eea32b2577

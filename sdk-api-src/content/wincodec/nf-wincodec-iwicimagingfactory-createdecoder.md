@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateDecoder
 title: IWICImagingFactory::CreateDecoder (wincodec.h)
-description: Creates a new instance of IWICBitmapDecoder.
+description: Creates a new instance of IWICBitmapDecoder.helpviewer_keywords: ["CreateDecoder","CreateDecoder method [Windows Imaging Component]","CreateDecoder method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateDecoder method","IWICImagingFactory.CreateDecoder","IWICImagingFactory::CreateDecoder","_wic_codec_iwicimagingfactory_createdecoder","wic._wic_codec_iwicimagingfactory_createdecoder","wincodec/IWICImagingFactory::CreateDecoder"]
 old-location: wic\_wic_codec_iwicimagingfactory_createdecoder.htm
 tech.root: wic
 ms.assetid: 0d0072ce-3480-4687-a4ea-640953cf5a36

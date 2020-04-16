@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_4
 title: EXP_SZ_LINK (shlobj_core.h)
-description: Holds an extra data block used by IShellLinkDataList. It holds expandable environment strings for the icon or target.
+description: Holds an extra data block used by IShellLinkDataList. It holds expandable environment strings for the icon or target.helpviewer_keywords: ["*LPEXP_SZ_LINK","EXP_SZ_ICON_SIG","EXP_SZ_LINK","EXP_SZ_LINK structure [Windows Shell]","EXP_SZ_LINK_SIG","LPEXP_SZ_LINK","LPEXP_SZ_LINK structure pointer [Windows Shell]","_win32_EXP_SZ_LINK_str","shell.EXP_SZ_LINK_str","shlobj_core/EXP_SZ_LINK","shlobj_core/LPEXP_SZ_LINK"]
 old-location: shell\EXP_SZ_LINK_str.htm
 tech.root: shell
 ms.assetid: 2016c06f-8436-407b-9eed-1ec9ccd1c307

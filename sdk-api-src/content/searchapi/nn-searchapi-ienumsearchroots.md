@@ -1,7 +1,7 @@
 ---
 UID: NN:searchapi.IEnumSearchRoots
 title: IEnumSearchRoots (searchapi.h)
-description: Provides methods to enumerate the search roots of a catalog, for example, SystemIndex.
+description: Provides methods to enumerate the search roots of a catalog, for example, SystemIndex.helpviewer_keywords: ["IEnumSearchRoots","IEnumSearchRoots interface [search]","IEnumSearchRoots interface [search]","described","_search_IEnumSearchRoots","search._search_IEnumSearchRoots","searchapi/IEnumSearchRoots"]
 old-location: search\_search_IEnumSearchRoots.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\ienumsearchroots.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarAbs
 title: VarAbs function (oleauto.h)
-description: Returns the absolute value of a variant.
+description: Returns the absolute value of a variant.helpviewer_keywords: ["VarAbs","VarAbs function [Automation]","_oa96_VarAbs","automat.varabs","oleauto/VarAbs"]
 old-location: automat\varabs.htm
 tech.root: automat
 ms.assetid: 720f5b1b-1b89-4167-8d89-9da267ecb85e

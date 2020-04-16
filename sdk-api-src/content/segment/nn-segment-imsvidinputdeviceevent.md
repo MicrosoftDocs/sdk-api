@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidInputDeviceEvent
 title: IMSVidInputDeviceEvent (segment.h)
-description: This topic applies to Windows XP or later. The IMSVidInputDeviceEvent interface is the base interface for input device events. Do not implement this interface directly. Other event interfaces derive from this interface.
+description: This topic applies to Windows XP or later. The IMSVidInputDeviceEvent interface is the base interface for input device events. Do not implement this interface directly. Other event interfaces derive from this interface.helpviewer_keywords: ["IMSVidInputDeviceEvent","IMSVidInputDeviceEvent interface [Microsoft TV Technologies]","IMSVidInputDeviceEvent interface [Microsoft TV Technologies]","described","IMSVidInputDeviceEventInterface","mstv.imsvidinputdeviceevent","segment/IMSVidInputDeviceEvent"]
 old-location: mstv\imsvidinputdeviceevent.htm
 tech.root: mstv
 ms.assetid: 9f35953a-3fea-4187-ad14-28f2c8dc2716

@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RESERVATION_INFO
 title: DHCP_IP_RESERVATION_INFO (dhcpsapi.h)
-description: The DHCP_IP_RESERVATION_INFO structure defines an IPv4 reservation for a DHCPv4 client.
+description: The DHCP_IP_RESERVATION_INFO structure defines an IPv4 reservation for a DHCPv4 client.helpviewer_keywords: ["*LPDHCP_IP_RESERVATION_INFO","CLIENT_TYPE_BOOTP","CLIENT_TYPE_BOTH","CLIENT_TYPE_DHCP","DHCP_IP_RESERVATION_INFO","DHCP_IP_RESERVATION_INFO structure [DHCP]","LPDHCP_IP_RESERVATION_INFO","LPDHCP_IP_RESERVATION_INFO structure pointer [DHCP]","dhcp.dhcp_ip_reservation_info","dhcpsapi/DHCP_IP_RESERVATION_INFO","dhcpsapi/LPDHCP_IP_RESERVATION_INFO"]
 old-location: dhcp\dhcp_ip_reservation_info.htm
 tech.root: DHCP
 ms.assetid: 4f0110b5-3770-4aae-8df7-d2481eac3417

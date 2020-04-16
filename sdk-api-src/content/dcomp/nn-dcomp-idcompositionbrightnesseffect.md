@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionBrightnessEffect
 title: IDCompositionBrightnessEffect (dcomp.h)
-description: The brightness effect controls the brightness of the image.
+description: The brightness effect controls the brightness of the image.helpviewer_keywords: ["IDCompositionBrightnessEffect","IDCompositionBrightnessEffect interface [DirectComposition]","IDCompositionBrightnessEffect interface [DirectComposition]","described","dcomp/IDCompositionBrightnessEffect","directcomp.idcompositionbrightnesseffect"]
 old-location: directcomp\idcompositionbrightnesseffect.htm
 tech.root: directcomp
 ms.assetid: 22503D7B-A359-4877-A437-6A97D8835BC7

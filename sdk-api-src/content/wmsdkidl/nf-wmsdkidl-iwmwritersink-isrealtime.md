@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.IsRealTime
 title: IWMWriterSink::IsRealTime (wmsdkidl.h)
-description: The IsRealTime is called by the writer to determine whether the sink needs data units to be delivered in real time. It is up to you to decide whether your custom sink requires real-time delivery.
+description: The IsRealTime is called by the writer to determine whether the sink needs data units to be delivered in real time. It is up to you to decide whether your custom sink requires real-time delivery.helpviewer_keywords: ["IWMWriterSink interface [windows Media Format]","IsRealTime method","IWMWriterSink.IsRealTime","IWMWriterSink::IsRealTime","IWMWriterSinkIsRealTime","IsRealTime","IsRealTime method [windows Media Format]","IsRealTime method [windows Media Format]","IWMWriterSink interface","wmformat.iwmwritersink_isrealtime","wmsdkidl/IWMWriterSink::IsRealTime"]
 old-location: wmformat\iwmwritersink_isrealtime.htm
 tech.root: wmformat
 ms.assetid: 95a32114-4581-4870-8c7f-b79b5af8f0a4

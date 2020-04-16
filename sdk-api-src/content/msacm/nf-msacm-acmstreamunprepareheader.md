@@ -1,7 +1,7 @@
 ---
 UID: NF:msacm.acmStreamUnprepareHeader
 title: acmStreamUnprepareHeader function (msacm.h)
-description: The acmStreamUnprepareHeader function cleans up the preparation performed by the acmStreamPrepareHeader function for an ACM stream.
+description: The acmStreamUnprepareHeader function cleans up the preparation performed by the acmStreamPrepareHeader function for an ACM stream.helpviewer_keywords: ["_win32_acmStreamUnprepareHeader","acmStreamUnprepareHeader","acmStreamUnprepareHeader function [Windows Multimedia]","msacm/acmStreamUnprepareHeader","multimedia.acmstreamunprepareheader"]
 old-location: multimedia\acmstreamunprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 6d693a74-13b6-4923-8267-2e2ecebf78e5

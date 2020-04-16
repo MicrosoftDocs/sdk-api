@@ -1,7 +1,7 @@
 ---
 UID: NE:termmgr.__MIDL___MIDL_itf_termmgr_0000_0000_0001
 title: TMGR_DIRECTION (termmgr.h)
-description: The TMGR_DIRECTION enum is used by the pluggable terminal methods to indicate terminal direction.
+description: The TMGR_DIRECTION enum is used by the pluggable terminal methods to indicate terminal direction.helpviewer_keywords: ["TMGR_DIRECTION","TMGR_DIRECTION enumeration [TAPI 2.2]","TMGR_TD_BOTH","TMGR_TD_CAPTURE","TMGR_TD_RENDER","_tapi3_tmgr_direction","tapi3.tmgr_direction","termmgr/TMGR_DIRECTION","termmgr/TMGR_TD_BOTH","termmgr/TMGR_TD_CAPTURE","termmgr/TMGR_TD_RENDER"]
 old-location: tapi3\tmgr_direction.htm
 tech.root: Tapi
 ms.assetid: 1758efb7-55fc-4925-be56-7f43177db64f

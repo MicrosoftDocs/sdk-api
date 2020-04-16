@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.GetClusterNetworkId
 title: GetClusterNetworkId function (clusapi.h)
-description: Returns the identifier of a network.
+description: Returns the identifier of a network.helpviewer_keywords: ["GetClusterNetworkId","GetClusterNetworkId function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_NETWORK_ID","PCLUSAPI_GET_CLUSTER_NETWORK_ID function [Failover Cluster]","_wolf_getclusternetworkid","clusapi/GetClusterNetworkId","clusapi/PCLUSAPI_GET_CLUSTER_NETWORK_ID","mscs.getclusternetworkid"]
 old-location: mscs\getclusternetworkid.htm
 tech.root: MsCS
 ms.assetid: 25091883-12fa-41b6-9ac0-70bc22db3f05

@@ -1,7 +1,7 @@
 ---
 UID: NS:wcsplugin._PrimaryJabColors
 title: PrimaryJabColors (wcsplugin.h)
-description: This structure contains eight primary colors in Jab coordinates.
+description: This structure contains eight primary colors in Jab coordinates.helpviewer_keywords: ["PrimaryJabColors","PrimaryJabColors structure [Windows Color System]","_color_PrimaryJabColors_str","wcs.primaryjabcolors","wcsplugin/PrimaryJabColors"]
 old-location: wcs\primaryjabcolors.htm
 tech.root: WCS
 ms.assetid: 510dce85-23de-4c1c-a794-8ad53cc9fdfb

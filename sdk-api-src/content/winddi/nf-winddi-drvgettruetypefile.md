@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvGetTrueTypeFile
 title: DrvGetTrueTypeFile function (winddi.h)
-description: The DrvGetTrueTypeFile function accesses a memory-mapped TrueType font file.
+description: The DrvGetTrueTypeFile function accesses a memory-mapped TrueType font file.helpviewer_keywords: ["DrvGetTrueTypeFile","DrvGetTrueTypeFile function [Display Devices]","ddifncs_ce14ab7e-837a-4e44-bae6-7630912ff16a.xml","display.drvgettruetypefile","winddi/DrvGetTrueTypeFile"]
 old-location: display\drvgettruetypefile.htm
 tech.root: display
 ms.assetid: a9e83067-1fd2-4f31-ac6e-545623613f88

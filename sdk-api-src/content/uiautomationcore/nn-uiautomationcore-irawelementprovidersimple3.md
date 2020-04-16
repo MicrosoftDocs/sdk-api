@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderSimple3
 title: IRawElementProviderSimple3 (uiautomationcore.h)
-description: Extends the IRawElementProviderSimple2 interface to enable retrieving metadata about how accessible technology should say the preferred content type.
+description: Extends the IRawElementProviderSimple2 interface to enable retrieving metadata about how accessible technology should say the preferred content type.helpviewer_keywords: ["IRawElementProviderSimple3","IRawElementProviderSimple3 interface [Windows Accessibility]","IRawElementProviderSimple3 interface [Windows Accessibility]","described","uiautomationcore/IRawElementProviderSimple3","winauto.uiauto_IRawElementProviderSimple3"]
 old-location: winauto\uiauto_IRawElementProviderSimple3.htm
 tech.root: WinAuto
 ms.assetid: 33D6DD52-B6D4-4AD4-AED9-9BFA6230C86B

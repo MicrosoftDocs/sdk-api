@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IIsdbSIParameterDescriptor
 title: IIsdbSIParameterDescriptor (dvbsiparser.h)
-description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) service information (SI) parameter descriptor. The SI parameter descriptor appears in the program map table (PMT) or network information table (NIT).
+description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) service information (SI) parameter descriptor. The SI parameter descriptor appears in the program map table (PMT) or network information table (NIT).helpviewer_keywords: ["IIsdbSIParameterDescriptor","IIsdbSIParameterDescriptor interface [Microsoft TV Technologies]","IIsdbSIParameterDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IIsdbSIParameterDescriptor","mstv.iisdbsiparameterdescriptor"]
 old-location: mstv\iisdbsiparameterdescriptor.htm
 tech.root: mstv
 ms.assetid: 264ae78d-cd72-49ff-b99b-2af637cc2917

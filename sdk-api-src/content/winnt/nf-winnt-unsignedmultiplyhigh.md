@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.UnsignedMultiplyHigh
 title: UnsignedMultiplyHigh function (winnt.h)
-description: Multiplies two 64-bit integers to produce a 128-bit integer and gets the high unsigned 64 bits.
+description: Multiplies two 64-bit integers to produce a 128-bit integer and gets the high unsigned 64 bits.helpviewer_keywords: ["UnsignedMulitplyHigh","UnsignedMultiplyHigh","UnsignedMultiplyHigh function [Windows API]","winnt/UnsignedMultiplyHigh","winprog.unsignedmulitplyhigh"]
 old-location: winprog\unsignedmulitplyhigh.htm
 tech.root: WinProg
 ms.assetid: 2275A6AC-E9F9-4469-884B-38D86B53E0DE

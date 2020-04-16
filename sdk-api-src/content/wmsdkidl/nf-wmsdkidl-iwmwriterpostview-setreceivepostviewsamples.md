@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.SetReceivePostViewSamples
 title: IWMWriterPostView::SetReceivePostViewSamples (wmsdkidl.h)
-description: The SetReceivePostViewSamples method enables or disables delivery of postview samples for the specified stream.
+description: The SetReceivePostViewSamples method enables or disables delivery of postview samples for the specified stream.helpviewer_keywords: ["IWMWriterPostView interface [windows Media Format]","SetReceivePostViewSamples method","IWMWriterPostView.SetReceivePostViewSamples","IWMWriterPostView::SetReceivePostViewSamples","IWMWriterPostViewSetReceivePostViewSamples","SetReceivePostViewSamples","SetReceivePostViewSamples method [windows Media Format]","SetReceivePostViewSamples method [windows Media Format]","IWMWriterPostView interface","wmformat.iwmwriterpostview_setreceivepostviewsamples","wmsdkidl/IWMWriterPostView::SetReceivePostViewSamples"]
 old-location: wmformat\iwmwriterpostview_setreceivepostviewsamples.htm
 tech.root: wmformat
 ms.assetid: 6d58671a-357b-412b-ad77-61866b0dcce3

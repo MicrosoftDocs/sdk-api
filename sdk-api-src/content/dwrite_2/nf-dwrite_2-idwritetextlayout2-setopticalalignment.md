@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.SetOpticalAlignment
 title: IDWriteTextLayout2::SetOpticalAlignment (dwrite_2.h)
-description: Set how the glyphs align to the edges the margin.
+description: Set how the glyphs align to the edges the margin.helpviewer_keywords: ["IDWriteTextLayout2 interface [Direct Write]","SetOpticalAlignment method","IDWriteTextLayout2.SetOpticalAlignment","IDWriteTextLayout2::SetOpticalAlignment","SetOpticalAlignment","SetOpticalAlignment method [Direct Write]","SetOpticalAlignment method [Direct Write]","IDWriteTextLayout2 interface","directwrite.idwritetextlayout2_setopticalalignment","dwrite_2/IDWriteTextLayout2::SetOpticalAlignment"]
 old-location: directwrite\idwritetextlayout2_setopticalalignment.htm
 tech.root: DirectWrite
 ms.assetid: 10C9C3E7-4556-4848-A4CB-F822A689CAB0

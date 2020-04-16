@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.SetOutputFilename
 title: IWMWriter::SetOutputFilename (wmsdkidl.h)
-description: The SetOutputFilename method specifies the name of the file to be written.
+description: The SetOutputFilename method specifies the name of the file to be written.helpviewer_keywords: ["IWMWriter interface [windows Media Format]","SetOutputFilename method","IWMWriter.SetOutputFilename","IWMWriter::SetOutputFilename","IWMWriterSetOutputFilename","SetOutputFilename","SetOutputFilename method [windows Media Format]","SetOutputFilename method [windows Media Format]","IWMWriter interface","wmformat.iwmwriter_setoutputfilename","wmsdkidl/IWMWriter::SetOutputFilename"]
 old-location: wmformat\iwmwriter_setoutputfilename.htm
 tech.root: wmformat
 ms.assetid: 352cf497-f7d6-41e8-bdbb-c59215b617a3

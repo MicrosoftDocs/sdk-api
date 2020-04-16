@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.Unserialize
 title: ITextStoreACPServices::Unserialize (msctf.h)
-description: ITextStoreACPServices::Unserialize method
+description: ITextStoreACPServices::Unserialize methodhelpviewer_keywords: ["ITextStoreACPServices interface [Text Services Framework]","Unserialize method","ITextStoreACPServices.Unserialize","ITextStoreACPServices::Unserialize","Unserialize","Unserialize method [Text Services Framework]","Unserialize method [Text Services Framework]","ITextStoreACPServices interface","_tsf_itextstoreacpservices_unserialize_ref","msctf/ITextStoreACPServices::Unserialize","tsf.itextstoreacpservices_unserialize"]
 old-location: tsf\itextstoreacpservices_unserialize.htm
 tech.root: TSF
 ms.assetid: 4eb2f2b9-51fb-4970-a195-c05e1d19ff99

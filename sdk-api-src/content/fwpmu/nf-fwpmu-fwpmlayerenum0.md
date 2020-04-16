@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmLayerEnum0
 title: FwpmLayerEnum0 function (fwpmu.h)
-description: Returns the next page of results from the layer enumerator.
+description: Returns the next page of results from the layer enumerator.helpviewer_keywords: ["FwpmLayerEnum0","FwpmLayerEnum0 function [Filtering]","fwp.fwpmlayerenum0_func","fwpmu/FwpmLayerEnum0"]
 old-location: fwp\fwpmlayerenum0_func.htm
 tech.root: fwp
 ms.assetid: 0bcf0b85-713f-4f82-9cb5-cb1725c8167b

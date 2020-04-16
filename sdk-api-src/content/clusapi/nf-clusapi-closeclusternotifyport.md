@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CloseClusterNotifyPort
 title: CloseClusterNotifyPort function (clusapi.h)
-description: Closes a notification port established through CreateClusterNotifyPort.
+description: Closes a notification port established through CreateClusterNotifyPort.helpviewer_keywords: ["CloseClusterNotifyPort","CloseClusterNotifyPort function [Failover Cluster]","PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT","PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT function [Failover Cluster]","_wolf_closeclusternotifyport","clusapi/CloseClusterNotifyPort","clusapi/PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT","mscs.closeclusternotifyport"]
 old-location: mscs\closeclusternotifyport.htm
 tech.root: MsCS
 ms.assetid: abf7145c-780b-4ec7-babb-0e3975520f4a

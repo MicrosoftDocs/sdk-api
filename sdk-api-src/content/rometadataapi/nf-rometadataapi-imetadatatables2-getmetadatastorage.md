@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables2.GetMetaDataStorage
 title: IMetaDataTables2::GetMetaDataStorage (rometadataapi.h)
-description: Gets the size and contents of the metadata stored in the specified section.
+description: Gets the size and contents of the metadata stored in the specified section.helpviewer_keywords: ["GetMetaDataStorage","GetMetaDataStorage method [Windows Runtime]","GetMetaDataStorage method [Windows Runtime]","IMetaDataTables2 interface","IMetaDataTables2 interface [Windows Runtime]","GetMetaDataStorage method","IMetaDataTables2.GetMetaDataStorage","IMetaDataTables2::GetMetaDataStorage","rometadataapi/IMetaDataTables2::GetMetaDataStorage","winrt.imetadatatables2_getmetadatastorage"]
 old-location: winrt\imetadatatables2_getmetadatastorage.htm
 tech.root: WinRT
 ms.assetid: 7de4fccb-9cd6-443d-bbd3-ba545e040ca6

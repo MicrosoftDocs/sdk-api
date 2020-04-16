@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.AVIStreamAddRef
 title: AVIStreamAddRef function (vfw.h)
-description: The AVIStreamAddRef function increments the reference count of an AVI stream.
+description: The AVIStreamAddRef function increments the reference count of an AVI stream.helpviewer_keywords: ["AVIStreamAddRef","AVIStreamAddRef function [Windows Multimedia]","_win32_AVIStreamAddRef","multimedia.avistreamaddref","vfw/AVIStreamAddRef"]
 old-location: multimedia\avistreamaddref.htm
 tech.root: Multimedia
 ms.assetid: 4d5e6b0f-6753-4ac0-b074-51016634cc10

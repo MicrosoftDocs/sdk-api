@@ -1,7 +1,7 @@
 ---
 UID: NS:dxvahd._DXVAHDSW_CALLBACKS
 title: DXVAHDSW_CALLBACKS (dxvahd.h)
-description: Contains pointers to functions implemented by a software plug-in for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+description: Contains pointers to functions implemented by a software plug-in for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).helpviewer_keywords: ["DXVAHDSW_CALLBACKS","DXVAHDSW_CALLBACKS structure [Media Foundation]","dxvahd/DXVAHDSW_CALLBACKS","mf.dxvahdsw_callbacks"]
 old-location: mf\dxvahdsw_callbacks.htm
 tech.root: medfound
 ms.assetid: 74c329cc-af54-4cf8-8cb6-eed9e96db4c5

@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_lineSetCallData
 title: TSPI_lineSetCallData function (tspi.h)
-description: The TSPI_lineSetCallData function service provider stores the indicated call data with its information related to the call, and subsequently delivers it whenever TSPI_lineGetCallInfo is called.
+description: The TSPI_lineSetCallData function service provider stores the indicated call data with its information related to the call, and subsequently delivers it whenever TSPI_lineGetCallInfo is called.helpviewer_keywords: ["TSPI_lineSetCallData","TSPI_lineSetCallData function [TAPI 2.2]","_tspi_tspi_linesetcalldata","tspi.tspi_linesetcalldata","tspi/TSPI_lineSetCallData"]
 old-location: tspi\tspi_linesetcalldata.htm
 tech.root: Tapi
 ms.assetid: 0a4b1dba-df2b-4c9e-9a17-4c5f24d152a7

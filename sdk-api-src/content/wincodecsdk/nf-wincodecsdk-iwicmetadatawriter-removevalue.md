@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.RemoveValue
 title: IWICMetadataWriter::RemoveValue (wincodecsdk.h)
-description: Removes the metadata item that matches the given parameters.
+description: Removes the metadata item that matches the given parameters.helpviewer_keywords: ["IWICMetadataWriter interface [Windows Imaging Component]","RemoveValue method","IWICMetadataWriter.RemoveValue","IWICMetadataWriter::RemoveValue","RemoveValue","RemoveValue method [Windows Imaging Component]","RemoveValue method [Windows Imaging Component]","IWICMetadataWriter interface","_wic_codec_iwicmetadatawriter_removevalue","wic._wic_codec_iwicmetadatawriter_removevalue","wincodecsdk/IWICMetadataWriter::RemoveValue"]
 old-location: wic\_wic_codec_iwicmetadatawriter_removevalue.htm
 tech.root: wic
 ms.assetid: cc47b0d1-5772-4609-9696-816d39d04b34

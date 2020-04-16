@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.MoveClusterGroup
 title: MoveClusterGroup function (clusapi.h)
-description: Moves a group and all of its resources from one node to another.
+description: Moves a group and all of its resources from one node to another.helpviewer_keywords: ["MoveClusterGroup","MoveClusterGroup function [Failover Cluster]","PCLUSAPI_MOVE_CLUSTER_GROUP","PCLUSAPI_MOVE_CLUSTER_GROUP function [Failover Cluster]","_wolf_moveclustergroup","clusapi/MoveClusterGroup","clusapi/PCLUSAPI_MOVE_CLUSTER_GROUP","mscs.moveclustergroup"]
 old-location: mscs\moveclustergroup.htm
 tech.root: MsCS
 ms.assetid: 32408600-5118-47fb-890b-9c31faef2299

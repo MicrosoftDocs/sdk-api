@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IFileOperationProgressSink
 title: IFileOperationProgressSink (shobjidl_core.h)
-description: Exposes methods that provide a rich notification system used by callers of IFileOperation to monitor the details of the operations they are performing through that interface.
+description: Exposes methods that provide a rich notification system used by callers of IFileOperation to monitor the details of the operations they are performing through that interface.helpviewer_keywords: ["IFileOperationProgressSink","IFileOperationProgressSink interface [Windows Shell]","IFileOperationProgressSink interface [Windows Shell]","described","_shell_IFileOperationProgressSink","shell.IFileOperationProgressSink","shobjidl_core/IFileOperationProgressSink"]
 old-location: shell\IFileOperationProgressSink.htm
 tech.root: shell
 ms.assetid: 24b20e05-d8be-4060-a966-7b32d9225403

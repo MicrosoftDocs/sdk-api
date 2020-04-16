@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextSubscriptionsGet0
 title: FwpmProviderContextSubscriptionsGet0 function (fwpmu.h)
-description: Retrieves an array of all the current provider context change notification subscriptions.
+description: Retrieves an array of all the current provider context change notification subscriptions.helpviewer_keywords: ["FwpmProviderContextSubscriptionsGet0","FwpmProviderContextSubscriptionsGet0 function [Filtering]","fwp.fwpmprovidercontextsubscriptionsget0_func","fwpmu/FwpmProviderContextSubscriptionsGet0"]
 old-location: fwp\fwpmprovidercontextsubscriptionsget0_func.htm
 tech.root: fwp
 ms.assetid: 68c8c360-3b12-4a7c-8a68-5128139a862a

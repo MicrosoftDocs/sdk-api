@@ -1,7 +1,7 @@
 ---
 UID: NS:dxvahd._DXVAHD_BLT_STATE_PRIVATE_DATA
 title: DXVAHD_BLT_STATE_PRIVATE_DATA (dxvahd.h)
-description: Contains data for a private blit state for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+description: Contains data for a private blit state for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).helpviewer_keywords: ["DXVAHD_BLT_STATE_PRIVATE_DATA","DXVAHD_BLT_STATE_PRIVATE_DATA structure [Media Foundation]","dxvahd/DXVAHD_BLT_STATE_PRIVATE_DATA","mf.dxvahd_blt_state_private_data"]
 old-location: mf\dxvahd_blt_state_private_data.htm
 tech.root: medfound
 ms.assetid: b85d4429-9346-4c85-8c3d-efffe0c1e63a

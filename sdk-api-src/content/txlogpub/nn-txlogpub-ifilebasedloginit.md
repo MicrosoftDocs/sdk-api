@@ -1,7 +1,7 @@
 ---
 UID: NN:txlogpub.IFileBasedLogInit
 title: IFileBasedLogInit (txlogpub.h)
-description: Initializes an instance of a file based implementation of ILog.
+description: Initializes an instance of a file based implementation of ILog.helpviewer_keywords: ["IFileBasedLogInit","IFileBasedLogInit interface [COM]","IFileBasedLogInit interface [COM]","described","_com_ifilebasedloginit","com.ifilebasedloginit","txlogpub/IFileBasedLogInit"]
 old-location: com\ifilebasedloginit.htm
 tech.root: com
 ms.assetid: c499f32b-3897-4c61-b9c1-d660648aab76

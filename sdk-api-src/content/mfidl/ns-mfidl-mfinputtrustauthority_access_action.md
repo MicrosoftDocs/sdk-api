@@ -1,7 +1,7 @@
 ---
 UID: NS:mfidl._MFINPUTTRUSTAUTHORITY_ACTION
 title: MFINPUTTRUSTAUTHORITY_ACCESS_ACTION (mfidl.h)
-description: Describes an action requested by an output trust authority (OTA). The request is sent to an input trust authority (ITA).
+description: Describes an action requested by an output trust authority (OTA). The request is sent to an input trust authority (ITA).helpviewer_keywords: ["24e74739-054c-46ef-8df7-b29a9a2ea94a","MFINPUTTRUSTAUTHORITY_ACCESS_ACTION","MFINPUTTRUSTAUTHORITY_ACCESS_ACTION structure [Media Foundation]","mf.mfinputtrustauthority_access_action","mfidl/MFINPUTTRUSTAUTHORITY_ACCESS_ACTION"]
 old-location: mf\mfinputtrustauthority_access_action.htm
 tech.root: medfound
 ms.assetid: 24e74739-054c-46ef-8df7-b29a9a2ea94a

@@ -1,7 +1,7 @@
 ---
 UID: NS:netlistmgr.NLM_SOCKADDR
 title: NLM_SOCKADDR (netlistmgr.h)
-description: NLM_SOCKADDR structure contains the IPv4/IPv6 destination address.
+description: NLM_SOCKADDR structure contains the IPv4/IPv6 destination address.helpviewer_keywords: ["NLM_SOCKADDR","NLM_SOCKADDR structure [Network Awareness]","PNLM_SOCKADDR","PNLM_SOCKADDR structure pointer [Network Awareness]","netlistmgr/NLM_SOCKADDR","netlistmgr/PNLM_SOCKADDR","nla.nlm_sockaddr"]
 old-location: nla\nlm_sockaddr.htm
 tech.root: nla
 ms.assetid: BEAF672C-F9B3-4544-878B-BBCF96F502C6

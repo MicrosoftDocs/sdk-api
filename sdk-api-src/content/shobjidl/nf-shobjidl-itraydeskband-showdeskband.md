@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.ITrayDeskBand.ShowDeskBand
 title: ITrayDeskBand::ShowDeskBand (shobjidl.h)
-description: Shows a specified deskband.
+description: Shows a specified deskband.helpviewer_keywords: ["ITrayDeskBand interface [Windows Shell]","ShowDeskBand method","ITrayDeskBand.ShowDeskBand","ITrayDeskBand::ShowDeskBand","ShowDeskBand","ShowDeskBand method [Windows Shell]","ShowDeskBand method [Windows Shell]","ITrayDeskBand interface","_shell_ITrayDeskBand_ShowDeskBand","shell.ITrayDeskBand_ShowDeskBand","shobjidl/ITrayDeskBand::ShowDeskBand"]
 old-location: shell\ITrayDeskBand_ShowDeskBand.htm
 tech.root: shell
 ms.assetid: 6fd46acd-47b3-46dd-955d-c036995dd01b

@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureEnumerator.Clone
 title: IOpcDigitalSignatureEnumerator::Clone (msopc.h)
-description: Creates a copy of the current IOpcDigitalSignatureEnumerator interface pointer and all its descendants.
+description: Creates a copy of the current IOpcDigitalSignatureEnumerator interface pointer and all its descendants.helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcDigitalSignatureEnumerator interface","IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions]","Clone method","IOpcDigitalSignatureEnumerator.Clone","IOpcDigitalSignatureEnumerator::Clone","msopc/IOpcDigitalSignatureEnumerator::Clone","opc.iopcdigitalsignatureenumerator_clone"]
 old-location: opc\iopcdigitalsignatureenumerator_clone.htm
 tech.root: OPC
 ms.assetid: f7a544b6-6c2d-40ce-9148-63780cbbf44f

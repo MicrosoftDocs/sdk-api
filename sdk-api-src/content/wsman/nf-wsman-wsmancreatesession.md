@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManCreateSession
 title: WSManCreateSession function (wsman.h)
-description: Creates a session object.
+description: Creates a session object.helpviewer_keywords: ["WSManCreateSession","WSManCreateSession function [Windows Remote Management]","winrm.wsmancreatesession","wsman/WSManCreateSession"]
 old-location: winrm\wsmancreatesession.htm
 tech.root: winrm
 ms.assetid: 5123d876-5123-4fa4-8f6f-859a26aad825

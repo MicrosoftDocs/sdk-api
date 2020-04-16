@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ContainsKnowledge
 title: ISyncKnowledge::ContainsKnowledge (winsync.h)
-description: Indicates whether the specified knowledge is known by this knowledge.
+description: Indicates whether the specified knowledge is known by this knowledge.helpviewer_keywords: ["ContainsKnowledge","ContainsKnowledge method [Windows Sync]","ContainsKnowledge method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","ContainsKnowledge method","ISyncKnowledge.ContainsKnowledge","ISyncKnowledge::ContainsKnowledge","winsync.isyncknowledge_containsknowledge","winsync/ISyncKnowledge::ContainsKnowledge"]
 old-location: winsync\isyncknowledge_containsknowledge.htm
 tech.root: winsync
 ms.assetid: b6b58390-84be-48ff-a3b9-3b3c83d4f661

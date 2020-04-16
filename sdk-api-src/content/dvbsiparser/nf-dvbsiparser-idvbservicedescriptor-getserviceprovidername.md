@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor.GetServiceProviderName
 title: IDvbServiceDescriptor::GetServiceProviderName (dvbsiparser.h)
-description: Gets the service provider name from a Digital Video Broadcast (DVB) service descriptor.
+description: Gets the service provider name from a Digital Video Broadcast (DVB) service descriptor.helpviewer_keywords: ["GetServiceProviderName","GetServiceProviderName method [Microsoft TV Technologies]","GetServiceProviderName method [Microsoft TV Technologies]","IDvbServiceDescriptor interface","IDvbServiceDescriptor interface [Microsoft TV Technologies]","GetServiceProviderName method","IDvbServiceDescriptor.GetServiceProviderName","IDvbServiceDescriptor::GetServiceProviderName","dvbsiparser/IDvbServiceDescriptor::GetServiceProviderName","mstv.idvbservicedescriptor_getserviceprovidername"]
 old-location: mstv\idvbservicedescriptor_getserviceprovidername.htm
 tech.root: mstv
 ms.assetid: ea5d358f-7da3-47c4-9172-7e5c60a61f84

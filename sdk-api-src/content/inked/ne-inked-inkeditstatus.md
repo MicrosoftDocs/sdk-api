@@ -1,7 +1,7 @@
 ---
 UID: NE:inked.InkEditStatus
 title: InkEditStatus (inked.h)
-description: Specifies whether the InkEdit control is idle, collecting ink, or recognizing ink.
+description: Specifies whether the InkEdit control is idle, collecting ink, or recognizing ink.helpviewer_keywords: ["94c3a863-4c8a-4471-be1b-b4d5f8ded374","IES_Collecting","IES_Idle","IES_Recognizing","InkEditStatus","InkEditStatus enumeration [Tablet PC]","inked/IES_Collecting","inked/IES_Idle","inked/IES_Recognizing","inked/InkEditStatus","tablet.inkeditstatus"]
 old-location: tablet\inkeditstatus.htm
 tech.root: tablet
 ms.assetid: 94c3a863-4c8a-4471-be1b-b4d5f8ded374

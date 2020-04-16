@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetCABroadcasterGroupId
 title: IIsdbCAServiceDescriptor::GetCABroadcasterGroupId (dvbsiparser.h)
-description: Gets the conditional access (CA) broadcaster group identifier from a CA service descriptor.
+description: Gets the conditional access (CA) broadcaster group identifier from a CA service descriptor.helpviewer_keywords: ["GetCABroadcasterGroupId","GetCABroadcasterGroupId method [Microsoft TV Technologies]","GetCABroadcasterGroupId method [Microsoft TV Technologies]","IIsdbCAServiceDescriptor interface","IIsdbCAServiceDescriptor interface [Microsoft TV Technologies]","GetCABroadcasterGroupId method","IIsdbCAServiceDescriptor.GetCABroadcasterGroupId","IIsdbCAServiceDescriptor::GetCABroadcasterGroupId","dvbsiparser/IIsdbCAServiceDescriptor::GetCABroadcasterGroupId","mstv.iisdbcaservicedescriptor_getcabroadcastergroupid"]
 old-location: mstv\iisdbcaservicedescriptor_getcabroadcastergroupid.htm
 tech.root: mstv
 ms.assetid: cc783e34-3544-4bcf-9e76-cb098c89cd65

@@ -1,7 +1,7 @@
 ---
 UID: NS:cfgmgr32.IO_Range_s
 title: IO_RANGE (cfgmgr32.h)
-description: The IO_RANGE structure specifies a resource requirements list that describes I/O port usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
+description: The IO_RANGE structure specifies a resource requirements list that describes I/O port usage for a device instance. For more information about resource requirements lists, see Hardware Resources.helpviewer_keywords: ["*PIO_RANGE","IO_RANGE","IO_RANGE structure [Device and Driver Installation]","PIO_RANGE","PIO_RANGE structure pointer [Device and Driver Installation]","cfgmgr32/IO_RANGE","cfgmgr32/PIO_RANGE","cfgmgrst_50f5c8b2-3154-4bda-aee0-3a8aea22ff4a.xml","devinst.io_range"]
 old-location: devinst\io_range.htm
 tech.root: devinst
 ms.assetid: 1793684b-b4c4-4467-9ac9-8c6b1eea65e3

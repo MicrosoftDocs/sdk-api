@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DestroyCursor
 title: DestroyCursor function (winuser.h)
-description: Destroys a cursor and frees any memory the cursor occupied. Do not use this function to destroy a shared cursor.
+description: Destroys a cursor and frees any memory the cursor occupied. Do not use this function to destroy a shared cursor.helpviewer_keywords: ["DestroyCursor","DestroyCursor function [Menus and Other Resources]","_win32_DestroyCursor","_win32_destroycursor_cpp","menurc.destroycursor","winui._win32_destroycursor","winuser/DestroyCursor"]
 old-location: menurc\destroycursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\destroycursor.htm

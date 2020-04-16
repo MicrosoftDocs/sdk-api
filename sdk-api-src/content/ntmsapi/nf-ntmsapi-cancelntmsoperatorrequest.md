@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.CancelNtmsOperatorRequest
 title: CancelNtmsOperatorRequest function (ntmsapi.h)
-description: The CancelNtmsOperatorRequest function cancels the specified RSM operator request.
+description: The CancelNtmsOperatorRequest function cancels the specified RSM operator request.helpviewer_keywords: ["CancelNtmsOperatorRequest","CancelNtmsOperatorRequest function [Files]","_zaw_cancelntmsoperatorrequest","base.cancelntmsoperatorrequest","fs.cancelntmsoperatorrequest","ntmsapi/CancelNtmsOperatorRequest"]
 old-location: fs\cancelntmsoperatorrequest.htm
 tech.root: Rsm
 ms.assetid: d0ba65fe-0355-4bd6-b9ad-98e8f7992827

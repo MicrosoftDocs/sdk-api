@@ -1,7 +1,7 @@
 ---
 UID: NF:prntvpt.PTConvertPrintTicketToDevMode
 title: PTConvertPrintTicketToDevMode function (prntvpt.h)
-description: Converts a print ticket into a DEVMODE structure.
+description: Converts a print ticket into a DEVMODE structure.helpviewer_keywords: ["PTConvertPrintTicketToDevMode","PTConvertPrintTicketToDevMode function [Windows GDI]","_win32_PTConvertPrintTicketToDevMode","gdi.ptconvertprinttickettodevmode","prntvpt/PTConvertPrintTicketToDevMode"]
 old-location: gdi\ptconvertprinttickettodevmode.htm
 tech.root: printdocs
 ms.assetid: 5eec91b9-d554-4440-bc9e-6a26af34994b

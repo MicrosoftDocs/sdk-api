@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS5
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS5 (d3d12.h)
-description: Indicates the level of support that the adapter provides for render passes, ray tracing, and shader-resource view tier 3 tiled resources.
+description: Indicates the level of support that the adapter provides for render passes, ray tracing, and shader-resource view tier 3 tiled resources.helpviewer_keywords: ["D3D12_FEATURE_DATA_D3D12_OPTIONS5","D3D12_FEATURE_DATA_D3D12_OPTIONS5 structure","PD3D12_FEATURE_DATA_D3D12_OPTIONS5","PD3D12_FEATURE_DATA_D3D12_OPTIONS5 structure pointer","d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS5","d3d12/PD3D12_FEATURE_DATA_D3D12_OPTIONS5","direct3d12.d3d12_feature_data_d3d12_options5"]
 old-location: direct3d12\d3d12_feature_data_d3d12_options5.htm
 tech.root: direct3d12
 ms.assetid: 7B786C22-56C1-44A0-BE67-DE04EB367FD2

@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.BufferedPaintRenderAnimation
 title: BufferedPaintRenderAnimation function (uxtheme.h)
-description: Paints the next frame of a buffered paint animation.
+description: Paints the next frame of a buffered paint animation.helpviewer_keywords: ["BufferedPaintRenderAnimation","BufferedPaintRenderAnimation function [Windows Controls]","_shell_BufferedPaintRenderAnimation","_shell_BufferedPaintRenderAnimation_cpp","controls.BufferedPaintRenderAnimation","controls._shell_BufferedPaintRenderAnimation","uxtheme/BufferedPaintRenderAnimation"]
 old-location: controls\BufferedPaintRenderAnimation.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintrenderanimation.htm

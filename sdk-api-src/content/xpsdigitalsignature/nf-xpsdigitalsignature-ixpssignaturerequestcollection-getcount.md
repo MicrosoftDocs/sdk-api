@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequestCollection.GetCount
 title: IXpsSignatureRequestCollection::GetCount (xpsdigitalsignature.h)
-description: Gets the number of IXpsSignatureRequest interface pointers in the collection.
+description: Gets the number of IXpsSignatureRequest interface pointers in the collection.helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsSignatureRequestCollection interface","IXpsSignatureRequestCollection interface [XPS Documents and Packaging]","GetCount method","IXpsSignatureRequestCollection.GetCount","IXpsSignatureRequestCollection::GetCount","xps.ixpssignaturerequestcollection_getcount","xpsdigitalsignature/IXpsSignatureRequestCollection::GetCount"]
 old-location: xps\ixpssignaturerequestcollection_getcount.htm
 tech.root: printdocs
 ms.assetid: e85d776e-6e26-46fa-bcaa-d99737ec1211

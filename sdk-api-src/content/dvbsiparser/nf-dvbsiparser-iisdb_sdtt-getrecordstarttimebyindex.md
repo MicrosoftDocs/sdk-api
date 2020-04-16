@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordStartTimeByIndex
 title: IISDB_SDTT::GetRecordStartTimeByIndex (dvbsiparser.h)
-description: Gets an event start time from a schedule record in in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
+description: Gets an event start time from a schedule record in in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).helpviewer_keywords: ["GetRecordStartTimeByIndex","GetRecordStartTimeByIndex method [Microsoft TV Technologies]","GetRecordStartTimeByIndex method [Microsoft TV Technologies]","IISDB_SDTT interface","IISDB_SDTT interface [Microsoft TV Technologies]","GetRecordStartTimeByIndex method","IISDB_SDTT.GetRecordStartTimeByIndex","IISDB_SDTT::GetRecordStartTimeByIndex","dvbsiparser/IISDB_SDTT::GetRecordStartTimeByIndex","mstv.iisdb_sdtt_getrecordstarttimebyindex"]
 old-location: mstv\iisdb_sdtt_getrecordstarttimebyindex.htm
 tech.root: mstv
 ms.assetid: ccbeb664-6c84-4f50-9376-dfa0492aa9e1

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(float,float,float,float)
 title: XMUNIBBLE4::XMUNIBBLE4(float,float,float,float) (directxpackedvector.h)
-description: Initializes a new instance of XMUNIBBLE4 from four float arguments.
+description: Initializes a new instance of XMUNIBBLE4 from four float arguments.helpviewer_keywords: ["XMUNIBBLE4","XMUNIBBLE4 constructor [DirectX Math Support APIs]","XMUNIBBLE4 constructor [DirectX Math Support APIs]","XMUNIBBLE4 structure","XMUNIBBLE4 structure [DirectX Math Support APIs]","XMUNIBBLE4 constructor","XMUNIBBLE4.XMUNIBBLE4","XMUNIBBLE4.XMUNIBBLE4(float","float","float","float)","XMUNIBBLE4::XMUNIBBLE4","XMUNIBBLE4::XMUNIBBLE4(float","float","float","float)","dxmath.xmunibble4_ctor_5"]
 old-location: dxmath\xmunibble4_ctor_5.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUNIBBLE4.#ctor(float,float,float,float)

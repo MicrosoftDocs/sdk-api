@@ -1,7 +1,7 @@
 ---
 UID: NF:mspaddr.CMSPAddress.UpdateTerminalList
 title: CMSPAddress::UpdateTerminalList (mspaddr.h)
-description: The UpdateTerminalList method populates the MSP's list of static terminals.
+description: The UpdateTerminalList method populates the MSP's list of static terminals.helpviewer_keywords: ["CMSPAddress interface [TAPI 2.2]","UpdateTerminalList method","CMSPAddress.UpdateTerminalList","CMSPAddress::UpdateTerminalList","UpdateTerminalList","UpdateTerminalList method [TAPI 2.2]","UpdateTerminalList method [TAPI 2.2]","CMSPAddress interface","_tapi3_cmspaddress_updateterminallist","mspaddr/CMSPAddress::UpdateTerminalList","tapi3.cmspaddress_updateterminallist"]
 old-location: tapi3\cmspaddress_updateterminallist.htm
 tech.root: Tapi
 ms.assetid: f40964fe-21fe-4dad-8e56-71623ed2be1d

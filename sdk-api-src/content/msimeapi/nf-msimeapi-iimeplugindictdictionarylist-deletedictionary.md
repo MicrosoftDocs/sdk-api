@@ -1,7 +1,7 @@
 ---
 UID: NF:msimeapi.IImePlugInDictDictionaryList.DeleteDictionary
 title: IImePlugInDictDictionaryList::DeleteDictionary (msimeapi.h)
-description: Deletes a dictionary from the IME's plug-in dictionary list.
+description: Deletes a dictionary from the IME's plug-in dictionary list.helpviewer_keywords: ["DeleteDictionary","DeleteDictionary method [Internationalization for Windows Applications]","DeleteDictionary method [Internationalization for Windows Applications]","IImePlugInDictDictionaryList interface","IImePlugInDictDictionaryList interface [Internationalization for Windows Applications]","DeleteDictionary method","IImePlugInDictDictionaryList.DeleteDictionary","IImePlugInDictDictionaryList::DeleteDictionary","intl.iimeplugindictdictionarylist_deletedictionary","msimeapi/IImePlugInDictDictionaryList::DeleteDictionary"]
 old-location: intl\iimeplugindictdictionarylist_deletedictionary.htm
 tech.root: Intl
 ms.assetid: 38A17092-E545-4018-9D16-2C0406234D62

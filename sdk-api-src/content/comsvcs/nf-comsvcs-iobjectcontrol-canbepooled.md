@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IObjectControl.CanBePooled
 title: IObjectControl::CanBePooled (comsvcs.h)
-description: Notifies the COM+ run-time environment whether the object can be pooled for reuse when it is deactivated.
+description: Notifies the COM+ run-time environment whether the object can be pooled for reuse when it is deactivated.helpviewer_keywords: ["CanBePooled","CanBePooled method [COM+]","CanBePooled method [COM+]","IObjectControl interface","IObjectControl interface [COM+]","CanBePooled method","IObjectControl.CanBePooled","IObjectControl::CanBePooled","_cos_IObjectControl_CanBePooled","comsvcs/IObjectControl::CanBePooled","cos.iobjectcontrol_canbepooled"]
 old-location: cos\iobjectcontrol_canbepooled.htm
 tech.root: cossdk
 ms.assetid: 97f585f1-e9c2-4122-a5e9-0a10b874b06e

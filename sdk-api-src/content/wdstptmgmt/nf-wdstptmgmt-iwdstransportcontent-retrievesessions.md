@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.RetrieveSessions
 title: IWdsTransportContent::RetrieveSessions (wdstptmgmt.h)
-description: Retrieves a collection of active transport sessions associated with this content.
+description: Retrieves a collection of active transport sessions associated with this content.helpviewer_keywords: ["IWdsTransportContent interface [Windows Deployment Services]","RetrieveSessions method","IWdsTransportContent.RetrieveSessions","IWdsTransportContent::RetrieveSessions","RetrieveSessions","RetrieveSessions method [Windows Deployment Services]","RetrieveSessions method [Windows Deployment Services]","IWdsTransportContent interface","wds.iwdstransportcontent_retrievesessions","wdstptmgmt/IWdsTransportContent::RetrieveSessions"]
 old-location: wds\iwdstransportcontent_retrievesessions.htm
 tech.root: wds
 ms.assetid: 8901f9c5-931e-40d5-8a5c-d3a814556400

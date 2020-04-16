@@ -1,7 +1,7 @@
 ---
 UID: NF:propidl.IPropertySetStorage.Enum
 title: IPropertySetStorage::Enum (propidl.h)
-description: The Enum method creates an enumerator object which contains information on the property sets stored in this property set storage. On return, this method supplies a pointer to the IEnumSTATPROPSETSTG pointer on the enumerator object.
+description: The Enum method creates an enumerator object which contains information on the property sets stored in this property set storage. On return, this method supplies a pointer to the IEnumSTATPROPSETSTG pointer on the enumerator object.helpviewer_keywords: ["Enum","Enum method [Structured Storage]","Enum method [Structured Storage]","IPropertySetStorage interface","IPropertySetStorage [Strctd Stg]","Enum","IPropertySetStorage interface [Structured Storage]","Enum method","IPropertySetStorage.Enum","IPropertySetStorage::Enum","_stg_ipropertysetstorage_enum","propidl/IPropertySetStorage::Enum","stg.ipropertysetstorage_enum"]
 old-location: stg\ipropertysetstorage_enum.htm
 tech.root: Stg
 ms.assetid: 979ee86b-fabc-428c-8134-f16c2a33270f

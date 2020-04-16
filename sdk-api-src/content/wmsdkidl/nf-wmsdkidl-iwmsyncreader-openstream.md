@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.OpenStream
 title: IWMSyncReader::OpenStream (wmsdkidl.h)
-description: The OpenStream method opens a stream for reading.
+description: The OpenStream method opens a stream for reading.helpviewer_keywords: ["IWMSyncReader interface [windows Media Format]","OpenStream method","IWMSyncReader.OpenStream","IWMSyncReader::OpenStream","IWMSyncReaderOpenStream","OpenStream","OpenStream method [windows Media Format]","OpenStream method [windows Media Format]","IWMSyncReader interface","wmformat.iwmsyncreader_openstream","wmsdkidl/IWMSyncReader::OpenStream"]
 old-location: wmformat\iwmsyncreader_openstream.htm
 tech.root: wmformat
 ms.assetid: ef42495a-2565-4925-882e-c3c42f9d418b

@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationcore.CapStyle
 title: CapStyle (uiautomationcore.h)
-description: Contains values that specify the value of the CapStyle text attribute.
+description: Contains values that specify the value of the CapStyle text attribute.helpviewer_keywords: ["CapStyle","CapStyle enumeration [Windows Accessibility]","CapStyle_AllCap","CapStyle_AllPetiteCaps","CapStyle_None","CapStyle_PetiteCaps","CapStyle_SmallCap","CapStyle_Titling","CapStyle_Unicase","Other","uiauto.uiauto_CapStyleEnum","uiauto_CapStyleEnum","uiautomationcore/CapStyle","uiautomationcore/CapStyle_AllCap","uiautomationcore/CapStyle_AllPetiteCaps","uiautomationcore/CapStyle_None","uiautomationcore/CapStyle_PetiteCaps","uiautomationcore/CapStyle_SmallCap","uiautomationcore/CapStyle_Titling","uiautomationcore/CapStyle_Unicase","uiautomationcore/Other","winauto.uiauto_CapStyleEnum"]
 old-location: winauto\uiauto_CapStyleEnum.htm
 tech.root: WinAuto
 ms.assetid: 4efb85db-92da-4d5a-94b4-c556e70a693c

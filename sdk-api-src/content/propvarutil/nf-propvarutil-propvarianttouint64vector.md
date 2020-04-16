@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt64Vector
 title: PropVariantToUInt64Vector function (propvarutil.h)
-description: Extracts data from a PROPVARIANT structure into a ULONGLONG vector.
+description: Extracts data from a PROPVARIANT structure into a ULONGLONG vector.helpviewer_keywords: ["PropVariantToUInt64Vector","PropVariantToUInt64Vector function [Windows Properties]","_shell_PropVariantToUInt64Vector","properties.PropVariantToUInt64Vector","propvarutil/PropVariantToUInt64Vector","shell.PropVariantToUInt64Vector"]
 old-location: properties\PropVariantToUInt64Vector.htm
 tech.root: properties
 ms.assetid: 596c7a35-6645-4f66-b924-b71278778776

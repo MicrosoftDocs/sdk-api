@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IConnector.Disconnect
 title: IConnector::Disconnect (devicetopology.h)
-description: The Disconnect method disconnects this connector from another connector.
+description: The Disconnect method disconnects this connector from another connector.helpviewer_keywords: ["Disconnect","Disconnect method [Core Audio]","Disconnect method [Core Audio]","IConnector interface","IConnector interface [Core Audio]","Disconnect method","IConnector.Disconnect","IConnector::Disconnect","IConnectorDisconnect","coreaudio.iconnector_disconnect","devicetopology/IConnector::Disconnect"]
 old-location: coreaudio\iconnector_disconnect.htm
 tech.root: CoreAudio
 ms.assetid: f1ca8863-4756-4d08-97b3-959a76d6f991

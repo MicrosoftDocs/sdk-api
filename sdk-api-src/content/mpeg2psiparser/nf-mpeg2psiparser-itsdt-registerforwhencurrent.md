@@ -1,7 +1,7 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.RegisterForWhenCurrent
 title: ITSDT::RegisterForWhenCurrent (mpeg2psiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["ITSDT interface [Microsoft TV Technologies]","RegisterForWhenCurrent method","ITSDT.RegisterForWhenCurrent","ITSDT::RegisterForWhenCurrent","ITSDTRegisterForWhenCurrent","RegisterForWhenCurrent","RegisterForWhenCurrent method [Microsoft TV Technologies]","RegisterForWhenCurrent method [Microsoft TV Technologies]","ITSDT interface","mpeg2psiparser/ITSDT::RegisterForWhenCurrent","mstv.itsdt_registerforwhencurrent"]
 old-location: mstv\itsdt_registerforwhencurrent.htm
 tech.root: mstv
 ms.assetid: f2ce7908-3650-4ecf-8014-6bae377dcb5c

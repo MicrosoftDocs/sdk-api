@@ -1,7 +1,7 @@
 ---
 UID: NE:taskschd._TASK_RUNLEVEL
 title: TASK_RUNLEVEL_TYPE (taskschd.h)
-description: Defines LUA elevation flags that specify with what privilege level the task will be run.
+description: Defines LUA elevation flags that specify with what privilege level the task will be run.helpviewer_keywords: ["TASK_RUNLEVEL_HIGHEST","TASK_RUNLEVEL_LUA","TASK_RUNLEVEL_TYPE","TASK_RUNLEVEL_TYPE enumeration [Task Scheduler]","taskschd.task_runlevel_type","taskschd/TASK_RUNLEVEL_HIGHEST","taskschd/TASK_RUNLEVEL_LUA","taskschd/TASK_RUNLEVEL_TYPE"]
 old-location: taskschd\task_runlevel_type.htm
 tech.root: taskschd
 ms.assetid: 27e8e4c2-6898-4785-a311-b7fbbf7e0108

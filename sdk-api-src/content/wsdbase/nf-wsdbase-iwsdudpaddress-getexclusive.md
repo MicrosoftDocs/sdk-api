@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetExclusive
 title: IWSDUdpAddress::GetExclusive (wsdbase.h)
-description: Determines whether the socket is in exclusive mode.
+description: Determines whether the socket is in exclusive mode.helpviewer_keywords: ["GetExclusive","GetExclusive method","GetExclusive method","IWSDUdpAddress interface","IWSDUdpAddress interface","GetExclusive method","IWSDUdpAddress.GetExclusive","IWSDUdpAddress::GetExclusive","ncd.iwsdudpaddress_getexclusive","wsdbase/IWSDUdpAddress::GetExclusive"]
 old-location: ncd\iwsdudpaddress_getexclusive.htm
 tech.root: WsdApi
 ms.assetid: 9ee62901-242a-47bc-a50d-4ced245392de

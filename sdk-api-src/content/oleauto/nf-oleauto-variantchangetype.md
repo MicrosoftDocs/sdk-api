@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VariantChangeType
 title: VariantChangeType function (oleauto.h)
-description: Converts a variant from one type to another.
+description: Converts a variant from one type to another.helpviewer_keywords: ["VARIANT_ALPHABOOL","VARIANT_LOCALBOOL","VARIANT_NOUSEROVERRIDE","VARIANT_NOVALUEPROP","VariantChangeType","VariantChangeType function [Automation]","_oa96_VariantChangeType","automat.variantchangetype","oleauto/VariantChangeType"]
 old-location: automat\variantchangetype.htm
 tech.root: automat
 ms.assetid: 48a51e32-95d7-4eeb-8106-f5043ffa2fd1

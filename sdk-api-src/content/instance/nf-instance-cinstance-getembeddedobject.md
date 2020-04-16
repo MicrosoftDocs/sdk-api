@@ -1,7 +1,7 @@
 ---
 UID: NF:instance.CInstance.GetEmbeddedObject
 title: CInstance::GetEmbeddedObject (instance.h)
-description: The GetEmbeddedObject method retrieves a pointer to an embedded CInstance object. The pointer can be used to get and set properties of that embedded object.
+description: The GetEmbeddedObject method retrieves a pointer to an embedded CInstance object. The pointer can be used to get and set properties of that embedded object.helpviewer_keywords: ["?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z","CInstance interface [Windows Management Instrumentation]","GetEmbeddedObject method","CInstance.GetEmbeddedObject","CInstance::GetEmbeddedObject","GetEmbeddedObject","GetEmbeddedObject method [Windows Management Instrumentation]","GetEmbeddedObject method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_getembeddedobject","instance/CInstance::GetEmbeddedObject","wmi.cinstance_getembeddedobject"]
 old-location: wmi\cinstance_getembeddedobject.htm
 tech.root: WmiSdk
 ms.assetid: e7daf313-d454-4e2c-8a8b-4f1bd9e19c58

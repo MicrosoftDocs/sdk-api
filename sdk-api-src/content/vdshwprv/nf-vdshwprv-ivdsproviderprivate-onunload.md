@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsProviderPrivate.OnUnload
 title: IVdsProviderPrivate::OnUnload (vdshwprv.h)
-description: Prompts the provider object to uninitialize itself.
+description: Prompts the provider object to uninitialize itself.helpviewer_keywords: ["IVdsProviderPrivate interface [VDS]","OnUnload method","IVdsProviderPrivate.OnUnload","IVdsProviderPrivate::OnUnload","OnUnload","OnUnload method [VDS]","OnUnload method [VDS]","IVdsProviderPrivate interface","base.ivdsproviderprivate_onunload","vdshwprv/IVdsProviderPrivate::OnUnload"]
 old-location: base\ivdsproviderprivate_onunload.htm
 tech.root: VDS
 ms.assetid: 8c4b2a0b-f056-4d3f-976c-0339c930e3cf

@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilCreateDirectoryTree
 title: ResUtilCreateDirectoryTree function (resapi.h)
-description: Creates every directory specified in a path, skipping directories that already exist. The PRESUTIL_CREATE_DIRECTORY_TREE type defines a pointer to this function.
+description: Creates every directory specified in a path, skipping directories that already exist. The PRESUTIL_CREATE_DIRECTORY_TREE type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_CREATE_DIRECTORY_TREE","PRESUTIL_CREATE_DIRECTORY_TREE function [Failover Cluster]","ResUtilCreateDirectoryTree","ResUtilCreateDirectoryTree function [Failover Cluster]","_wolf_resutilcreatedirectorytree","mscs.resutilcreatedirectorytree","resapi/PRESUTIL_CREATE_DIRECTORY_TREE","resapi/ResUtilCreateDirectoryTree"]
 old-location: mscs\resutilcreatedirectorytree.htm
 tech.root: MsCS
 ms.assetid: 5e1e689f-cc33-4cc7-9c6c-9799a6d6f70a

@@ -1,7 +1,7 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsEditable
 title: IShellImageData::IsEditable (shimgdata.h)
-description: Determines whether the image can be edited.
+description: Determines whether the image can be edited.helpviewer_keywords: ["IShellImageData interface [Windows Shell]","IsEditable method","IShellImageData.IsEditable","IShellImageData::IsEditable","IsEditable","IsEditable method [Windows Shell]","IsEditable method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_IsEditable","shell.IShellImageData_IsEditable","shimgdata/IShellImageData::IsEditable"]
 old-location: shell\IShellImageData_IsEditable.htm
 tech.root: shell
 ms.assetid: 81dbb486-0b35-44ff-9aa2-2e449995591e

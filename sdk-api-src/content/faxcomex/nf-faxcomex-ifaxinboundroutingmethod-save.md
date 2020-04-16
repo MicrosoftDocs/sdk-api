@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.Save
 title: IFaxInboundRoutingMethod::Save (faxcomex.h)
-description: The IFaxInboundRoutingMethod::Save method saves the IFaxInboundRoutingMethod interface's data.
+description: The IFaxInboundRoutingMethod::Save method saves the IFaxInboundRoutingMethod interface's data.helpviewer_keywords: ["IFaxInboundRoutingMethod interface [Fax Service]","Save method","IFaxInboundRoutingMethod.Save","IFaxInboundRoutingMethod::Save","Save","Save method [Fax Service]","Save method [Fax Service]","IFaxInboundRoutingMethod interface","_mfax_faxinboundroutingmethod.save","fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_save_cpp","fax._mfax_faxinboundroutingmethod_save","faxcomex/IFaxInboundRoutingMethod::Save"]
 old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1cv9.htm

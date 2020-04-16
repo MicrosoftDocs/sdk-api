@@ -1,7 +1,7 @@
 ---
 UID: NE:adhoc.tagDOT11_ADHOC_CONNECT_FAIL_REASON
 title: DOT11_ADHOC_CONNECT_FAIL_REASON (adhoc.h)
-description: Specifies the reason why a connection attempt failed.
+description: Specifies the reason why a connection attempt failed.helpviewer_keywords: ["DOT11_ADHOC_CONNECT_FAIL_DOMAIN_MISMATCH","DOT11_ADHOC_CONNECT_FAIL_OTHER","DOT11_ADHOC_CONNECT_FAIL_PASSPHRASE_MISMATCH","DOT11_ADHOC_CONNECT_FAIL_REASON","DOT11_ADHOC_CONNECT_FAIL_REASON enumeration [NativeWIFI]","adhoc/DOT11_ADHOC_CONNECT_FAIL_DOMAIN_MISMATCH","adhoc/DOT11_ADHOC_CONNECT_FAIL_OTHER","adhoc/DOT11_ADHOC_CONNECT_FAIL_PASSPHRASE_MISMATCH","adhoc/DOT11_ADHOC_CONNECT_FAIL_REASON","nwifi.dot11_adhoc_connect_fail_reason"]
 old-location: nwifi\dot11_adhoc_connect_fail_reason.htm
 tech.root: NativeWiFi
 ms.assetid: ea95f0b8-14ce-40a6-b5a3-853c414c52af

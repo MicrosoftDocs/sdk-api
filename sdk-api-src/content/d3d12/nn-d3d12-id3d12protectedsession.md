@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12ProtectedSession
 title: ID3D12ProtectedSession (d3d12.h)
-description: Offers base functionality that allows for a consistent way to monitor the validity of a session across the different types of sessions.
+description: Offers base functionality that allows for a consistent way to monitor the validity of a session across the different types of sessions.helpviewer_keywords: ["ID3D12ProtectedSession","ID3D12ProtectedSession interface","ID3D12ProtectedSession interface","described","d3d12/ID3D12ProtectedSession","direct3d12.id3d12protectedsession"]
 old-location: direct3d12\id3d12protectedsession.htm
 tech.root: direct3d12
 ms.assetid: BBB87F18-A4F4-44E7-AFD8-803BD2C7C753

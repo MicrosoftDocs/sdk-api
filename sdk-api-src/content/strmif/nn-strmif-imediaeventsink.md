@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IMediaEventSink
 title: IMediaEventSink (strmif.h)
-description: Notifies the Filter Graph Manager of events that occur within the filter graph.
+description: Notifies the Filter Graph Manager of events that occur within the filter graph.helpviewer_keywords: ["IMediaEventSink","IMediaEventSink interface [DirectShow]","IMediaEventSink interface [DirectShow]","described","IMediaEventSinkInterface","dshow.imediaeventsink","strmif/IMediaEventSink"]
 old-location: dshow\imediaeventsink.htm
 tech.root: DirectShow
 ms.assetid: 50aa04b4-9a04-4d0d-a558-42595a69aef7

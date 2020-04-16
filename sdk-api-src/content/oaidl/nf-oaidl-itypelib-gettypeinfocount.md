@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeInfoCount
 title: ITypeLib::GetTypeInfoCount (oaidl.h)
-description: Provides the number of type descriptions that are in a type library.
+description: Provides the number of type descriptions that are in a type library.helpviewer_keywords: ["GetTypeInfoCount","GetTypeInfoCount method [Automation]","GetTypeInfoCount method [Automation]","ITypeLib interface","ITypeLib interface [Automation]","GetTypeInfoCount method","ITypeLib.GetTypeInfoCount","ITypeLib::GetTypeInfoCount","_oa96_ITypeLib_GetTypeInfoCount","automat.itypelib_gettypeinfocount","oaidl/ITypeLib::GetTypeInfoCount"]
 old-location: automat\itypelib_gettypeinfocount.htm
 tech.root: automat
 ms.assetid: 63436bee-c71b-4d32-bfca-426c8953a75b

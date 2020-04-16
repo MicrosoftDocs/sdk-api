@@ -1,7 +1,7 @@
 ---
 UID: NN:ddraw.IDirectDrawClipper
 title: IDirectDrawClipper (ddraw.h)
-description: Applications use the methods of the IDirectDrawClipper interface to manage clip lists. This section is a reference to the methods of this interface.
+description: Applications use the methods of the IDirectDrawClipper interface to manage clip lists. This section is a reference to the methods of this interface.helpviewer_keywords: ["IDirectDrawClipper","IDirectDrawClipper interface [DirectDraw]","IDirectDrawClipper interface [DirectDraw]","described","ddraw/IDirectDrawClipper","directdraw.idirectdrawclipper"]
 old-location: directdraw\idirectdrawclipper.htm
 tech.root: directdraw
 ms.assetid: 2e93583a-59a8-4a0f-9299-ed57fdcebf33

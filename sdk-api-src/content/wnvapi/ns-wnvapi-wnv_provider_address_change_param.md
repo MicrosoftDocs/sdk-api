@@ -1,7 +1,7 @@
 ---
 UID: NS:wnvapi._WNV_PROVIDER_ADDRESS_CHANGE_PARAM
 title: WNV_PROVIDER_ADDRESS_CHANGE_PARAM (wnvapi.h)
-description: Specifies the provider address's DAD (duplicate address detection) status change, which causes the Windows Network Virtualization (WNV) driver to generate a WnvObjectChangeType notification that specifies the WnvProviderAddressType object type containing this structure.
+description: Specifies the provider address's DAD (duplicate address detection) status change, which causes the Windows Network Virtualization (WNV) driver to generate a WnvObjectChangeType notification that specifies the WnvProviderAddressType object type containing this structure.helpviewer_keywords: ["*PWNV_PROVIDER_ADDRESS_CHANGE_PARAM","IpDadStateDeprecated","IpDadStateDuplicate","IpDadStateInvalid","IpDadStatePreferred","IpDadStateTentative","PWNV_PROVIDER_ADDRESS_CHANGE_PARAM","PWNV_PROVIDER_ADDRESS_CHANGE_PARAM structure pointer [Windows Network Virtualization]","WNV_PROVIDER_ADDRESS_CHANGE_PARAM","WNV_PROVIDER_ADDRESS_CHANGE_PARAM structure [Windows Network Virtualization]","wnv.wnv_provider_address_change_param","wnvapi/PWNV_PROVIDER_ADDRESS_CHANGE_PARAM","wnvapi/WNV_PROVIDER_ADDRESS_CHANGE_PARAM"]
 old-location: wnv\wnv_provider_address_change_param.htm
 tech.root: wnv
 ms.assetid: 9FC20DFE-663C-47ED-8183-76C10D4E7615

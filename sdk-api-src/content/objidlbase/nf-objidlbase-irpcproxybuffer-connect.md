@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IRpcProxyBuffer.Connect
 title: IRpcProxyBuffer::Connect (objidlbase.h)
-description: Initializes a client proxy, binding it to the specified RPC channel.
+description: Initializes a client proxy, binding it to the specified RPC channel.helpviewer_keywords: ["Connect","Connect method [COM]","Connect method [COM]","IRpcProxyBuffer interface","IRpcProxyBuffer interface [COM]","Connect method","IRpcProxyBuffer.Connect","IRpcProxyBuffer::Connect","_com_irpcproxybuffer_connect","com.irpcproxybuffer_connect","objidlbase/IRpcProxyBuffer::Connect"]
 old-location: com\irpcproxybuffer_connect.htm
 tech.root: com
 ms.assetid: 18651110-9d20-4acc-b21e-9a93099e31bd

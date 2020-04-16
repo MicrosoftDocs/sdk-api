@@ -1,7 +1,7 @@
 ---
 UID: NE:oaidl.tagINVOKEKIND
 title: INVOKEKIND (oaidl.h)
-description: Specifies the way a function is invoked.
+description: Specifies the way a function is invoked.helpviewer_keywords: ["INVOKEKIND","INVOKEKIND enumeration [Automation]","INVOKE_FUNC","INVOKE_PROPERTYGET","INVOKE_PROPERTYPUT","INVOKE_PROPERTYPUTREF","_oa96_INVOKEKIND","automat.invokekind","oaidl/INVOKEKIND","oaidl/INVOKE_FUNC","oaidl/INVOKE_PROPERTYGET","oaidl/INVOKE_PROPERTYPUT","oaidl/INVOKE_PROPERTYPUTREF"]
 old-location: automat\invokekind.htm
 tech.root: automat
 ms.assetid: df6d392e-88f9-4d22-b257-fb6de8abd289

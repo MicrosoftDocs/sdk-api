@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.GetFocus
 title: ITfThreadMgr2::GetFocus (msctf.h)
-description: Returns the document manager that has the input focus.
+description: Returns the document manager that has the input focus.helpviewer_keywords: ["GetFocus","GetFocus method [Text Services Framework]","GetFocus method [Text Services Framework]","ITfThreadMgr2 interface","ITfThreadMgr2 interface [Text Services Framework]","GetFocus method","ITfThreadMgr2.GetFocus","ITfThreadMgr2::GetFocus","msctf/ITfThreadMgr2::GetFocus","tsf.itfthreadmgr2_getfocus"]
 old-location: tsf\itfthreadmgr2_getfocus.htm
 tech.root: TSF
 ms.assetid: A4106774-1817-4308-BD7E-C303AED2B576

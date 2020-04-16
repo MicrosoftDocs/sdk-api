@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnEventLoggingConfigChange
 title: _IFaxServerNotify2::OnEventLoggingConfigChange (faxcomex.h)
-description: The fax service calls the IFaxServerNotify2::OnEventLoggingConfigChange method when there is a configuration change related to event logging.
+description: The fax service calls the IFaxServerNotify2::OnEventLoggingConfigChange method when there is a configuration change related to event logging.helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnEventLoggingConfigChange method","IFaxServerNotify2.OnEventLoggingConfigChange","IFaxServerNotify2::OnEventLoggingConfigChange","OnEventLoggingConfigChange","OnEventLoggingConfigChange method [Fax Service]","OnEventLoggingConfigChange method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnEventLoggingConfigChange","_IFaxServerNotify2::OnEventLoggingConfigChange","_mfax_ifaxservernotify2_oneventloggingconfigchange","fax._mfax_ifaxservernotify2_oneventloggingconfigchange","faxcomex/IFaxServerNotify2::OnEventLoggingConfigChange"]
 old-location: fax\_mfax_ifaxservernotify2_oneventloggingconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_oneventloggingconfigchange.htm

@@ -1,7 +1,7 @@
 ---
 UID: NN:oaidl.ITypeChangeEvents
 title: ITypeChangeEvents (oaidl.h)
-description: Enables clients to subscribe to type change notifications on objects that implement the ITypeInfo, ITypeInfo2, ICreateTypeInfo, and ICreateTypeInfo2 interfaces.
+description: Enables clients to subscribe to type change notifications on objects that implement the ITypeInfo, ITypeInfo2, ICreateTypeInfo, and ICreateTypeInfo2 interfaces.helpviewer_keywords: ["ITypeChangeEvents","ITypeChangeEvents interface [Automation]","ITypeChangeEvents interface [Automation]","described","automat.itypechangeevents","oaidl/ITypeChangeEvents"]
 old-location: automat\itypechangeevents.htm
 tech.root: automat
 ms.assetid: 5e286a4b-b36b-40d6-9a39-d572086e5a2d

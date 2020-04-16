@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptFinalizeKeyPair
 title: BCryptFinalizeKeyPair function (bcrypt.h)
-description: Completes a public/private key pair.
+description: Completes a public/private key pair.helpviewer_keywords: ["BCryptFinalizeKeyPair","BCryptFinalizeKeyPair function [Security]","bcrypt/BCryptFinalizeKeyPair","security.bcryptfinalizekeypair_func"]
 old-location: security\bcryptfinalizekeypair_func.htm
 tech.root: SecCNG
 ms.assetid: bf0b90f1-6da8-464e-9271-ad60ea762653

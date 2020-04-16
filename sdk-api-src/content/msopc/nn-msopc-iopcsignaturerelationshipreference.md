@@ -1,7 +1,7 @@
 ---
 UID: NN:msopc.IOpcSignatureRelationshipReference
 title: IOpcSignatureRelationshipReference (msopc.h)
-description: Represents a reference to a Relationships part that contains relationships that have been or will be signed.
+description: Represents a reference to a Relationships part that contains relationships that have been or will be signed.helpviewer_keywords: ["IOpcSignatureRelationshipReference","IOpcSignatureRelationshipReference interface [Open Packaging Conventions]","IOpcSignatureRelationshipReference interface [Open Packaging Conventions]","described","msopc/IOpcSignatureRelationshipReference","opc.iopcsignaturerelationshipreference"]
 old-location: opc\iopcsignaturerelationshipreference.htm
 tech.root: OPC
 ms.assetid: 24aebfff-6b4f-49cb-988f-670ffed7d815

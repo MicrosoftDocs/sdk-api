@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IBrowserService.OnHttpEquiv
 title: IBrowserService::OnHttpEquiv (shdeprecated.h)
-description: Deprecated. Called when the document object responds to an HTTP-EQUIV metatag by issuing either the OLECMDID_HTTPEQUIV or OLECMDID_HTTPEQUIV_DONE command through IOleCommandTarget::Exec.
+description: Deprecated. Called when the document object responds to an HTTP-EQUIV metatag by issuing either the OLECMDID_HTTPEQUIV or OLECMDID_HTTPEQUIV_DONE command through IOleCommandTarget::Exec.helpviewer_keywords: ["FALSE","IBrowserService interface [Windows Shell]","OnHttpEquiv method","IBrowserService.OnHttpEquiv","IBrowserService::OnHttpEquiv","OnHttpEquiv","OnHttpEquiv method [Windows Shell]","OnHttpEquiv method [Windows Shell]","IBrowserService interface","TRUE","shdeprecated/IBrowserService::OnHttpEquiv","shell.IBrowserService_OnHttpEquiv","zone_IBrowserService_OnHttpEquiv"]
 old-location: shell\IBrowserService_OnHttpEquiv.htm
 tech.root: shell
 ms.assetid: 9920c08b-c0c3-4359-9c00-3a1063cea0c7

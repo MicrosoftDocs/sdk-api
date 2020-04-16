@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBstrFromUI2
 title: VarBstrFromUI2 function (oleauto.h)
-description: Converts an unsigned short value to a BSTR value.
+description: Converts an unsigned short value to a BSTR value.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VarBstrFromUI2","VarBstrFromUI2 function [Automation]","_oa96_VarBstrFromUI2","automat.varbstrfromui2","oleauto/VarBstrFromUI2"]
 old-location: automat\varbstrfromui2.htm
 tech.root: automat
 ms.assetid: ee5c6582-f040-4b65-8ed7-3ba571d3a348

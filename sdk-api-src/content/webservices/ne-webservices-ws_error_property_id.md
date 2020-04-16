@@ -1,7 +1,7 @@
 ---
 UID: NE:webservices.__unnamed_enum_30
 title: WS_ERROR_PROPERTY_ID (webservices.h)
-description: A set of property values associated with the error. They are set and retrieved using WsGetErrorProperty and WsSetErrorProperty.
+description: A set of property values associated with the error. They are set and retrieved using WsGetErrorProperty and WsSetErrorProperty.helpviewer_keywords: ["WS_ERROR_PROPERTY_ID","WS_ERROR_PROPERTY_ID enumeration [Web Services for Windows]","WS_ERROR_PROPERTY_LANGID","WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE","WS_ERROR_PROPERTY_STRING_COUNT","webservices/WS_ERROR_PROPERTY_ID","webservices/WS_ERROR_PROPERTY_LANGID","webservices/WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE","webservices/WS_ERROR_PROPERTY_STRING_COUNT","wsw.ws_error_property_id"]
 old-location: wsw\ws_error_property_id.htm
 tech.root: wsw
 ms.assetid: 527e39be-c959-40db-8f0b-14dcd49a7ca7

@@ -1,7 +1,7 @@
 ---
 UID: NE:ntdsapi.__unnamed_enum_3
 title: DS_SPN_NAME_TYPE (ntdsapi.h)
-description: The DS_SPN_NAME_TYPE enumeration is used by the DsGetSPN function to identify the format for composing SPNs.
+description: The DS_SPN_NAME_TYPE enumeration is used by the DsGetSPN function to identify the format for composing SPNs.helpviewer_keywords: ["DS_SPN_DNS_HOST","DS_SPN_DN_HOST","DS_SPN_DOMAIN","DS_SPN_NAME_TYPE","DS_SPN_NAME_TYPE enumeration [Active Directory]","DS_SPN_NB_DOMAIN","DS_SPN_NB_HOST","DS_SPN_SERVICE","_glines_ds_spn_name_type","ad.ds__spn__name__type","ad.ds_spn_name_type","ntdsapi/DS_SPN_DNS_HOST","ntdsapi/DS_SPN_DN_HOST","ntdsapi/DS_SPN_DOMAIN","ntdsapi/DS_SPN_NAME_TYPE","ntdsapi/DS_SPN_NB_DOMAIN","ntdsapi/DS_SPN_NB_HOST","ntdsapi/DS_SPN_SERVICE"]
 old-location: ad\ds_spn_name_type.htm
 tech.root: ad
 ms.assetid: 7aab22a6-1fe1-4127-97d3-54287d770790

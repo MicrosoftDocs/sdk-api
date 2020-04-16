@@ -1,7 +1,7 @@
 ---
 UID: NS:wcsplugin._JChColorF
 title: JChColorF (wcsplugin.h)
-description: TBD.
+description: TBD.helpviewer_keywords: ["JChColorF","JChColorF structure [Windows Color System]","wcs.jchcolorf","wcsplugin/JChColorF"]
 old-location: wcs\jchcolorf.htm
 tech.root: WCS
 ms.assetid: a7bf9e3c-b718-437b-a4d9-3edaef29f3ff

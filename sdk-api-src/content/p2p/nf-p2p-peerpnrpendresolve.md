@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerPnrpEndResolve
 title: PeerPnrpEndResolve function (p2p.h)
-description: Closes the handle for an asynchronous PNRP resolution operation initiated with a previous call to PeerPnrpStartResolve.
+description: Closes the handle for an asynchronous PNRP resolution operation initiated with a previous call to PeerPnrpStartResolve.helpviewer_keywords: ["PeerPnrpEndResolve","PeerPnrpEndResolve function [Peer Networking]","p2p.peerpnrpendresolve","p2p/PeerPnrpEndResolve"]
 old-location: p2p\peerpnrpendresolve.htm
 tech.root: P2PSdk
 ms.assetid: b700a195-57c4-481a-93d2-82d543f5c6c6

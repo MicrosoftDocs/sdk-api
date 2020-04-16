@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFSecureChannel
 title: IMFSecureChannel (mfidl.h)
-description: Establishes a one-way secure channel between two objects.
+description: Establishes a one-way secure channel between two objects.helpviewer_keywords: ["063170b8-9483-4acd-9b42-a226e9c38f0e","IMFSecureChannel","IMFSecureChannel interface [Media Foundation]","IMFSecureChannel interface [Media Foundation]","described","mf.imfsecurechannel","mfidl/IMFSecureChannel"]
 old-location: mf\imfsecurechannel.htm
 tech.root: medfound
 ms.assetid: 063170b8-9483-4acd-9b42-a226e9c38f0e

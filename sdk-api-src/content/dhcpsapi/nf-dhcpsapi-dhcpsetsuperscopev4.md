@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpSetSuperScopeV4
 title: DhcpSetSuperScopeV4 function (dhcpsapi.h)
-description: Sets a subnet as the superscope on a DHCP server.
+description: Sets a subnet as the superscope on a DHCP server.helpviewer_keywords: ["DhcpSetSuperScopeV4","DhcpSetSuperScopeV4 function [DHCP]","dhcp.dhcpsetsuperscopev4","dhcpsapi/DhcpSetSuperScopeV4"]
 old-location: dhcp\dhcpsetsuperscopev4.htm
 tech.root: DHCP
 ms.assetid: 70da0113-0c4a-4c4e-80ae-1e55773f9904

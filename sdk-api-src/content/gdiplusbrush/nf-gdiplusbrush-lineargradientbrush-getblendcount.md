@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetBlendCount
 title: LinearGradientBrush::GetBlendCount (gdiplusbrush.h)
-description: The LinearGradientBrush::GetBlendCount method gets the number of blend factors currently set for this LinearGradientBrush object.
+description: The LinearGradientBrush::GetBlendCount method gets the number of blend factors currently set for this LinearGradientBrush object.helpviewer_keywords: ["GetBlendCount","GetBlendCount method [GDI+]","GetBlendCount method [GDI+]","LinearGradientBrush class","LinearGradientBrush class [GDI+]","GetBlendCount method","LinearGradientBrush.GetBlendCount","LinearGradientBrush::GetBlendCount","_gdiplus_CLASS_LinearGradientBrush_GetBlendCount_","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetBlendCount_"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetBlendCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getblendcount.htm

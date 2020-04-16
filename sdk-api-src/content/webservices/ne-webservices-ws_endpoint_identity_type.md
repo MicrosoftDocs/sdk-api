@@ -1,7 +1,7 @@
 ---
 UID: NE:webservices.__unnamed_enum_28
 title: WS_ENDPOINT_IDENTITY_TYPE (webservices.h)
-description: The type of the endpoint IDentity, used as a selector for subtypes of WS_ENDPOINT_IDENTITY.
+description: The type of the endpoint IDentity, used as a selector for subtypes of WS_ENDPOINT_IDENTITY.helpviewer_keywords: ["WS_DNS_ENDPOINT_IDENTITY_TYPE","WS_ENDPOINT_IDENTITY_TYPE","WS_ENDPOINT_IDENTITY_TYPE enumeration [Web Services for Windows]","WS_SPN_ENDPOINT_IDENTITY_TYPE","WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE","WS_UPN_ENDPOINT_IDENTITY_TYPE","webservices/WS_DNS_ENDPOINT_IDENTITY_TYPE","webservices/WS_ENDPOINT_IDENTITY_TYPE","webservices/WS_SPN_ENDPOINT_IDENTITY_TYPE","webservices/WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE","webservices/WS_UPN_ENDPOINT_IDENTITY_TYPE","wsw.ws_endpoint_identity_type"]
 old-location: wsw\ws_endpoint_identity_type.htm
 tech.root: wsw
 ms.assetid: e8c0b166-8b52-4ca7-ae31-4da335241562

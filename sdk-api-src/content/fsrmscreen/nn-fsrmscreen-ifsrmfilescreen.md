@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreen
 title: IFsrmFileScreen (fsrmscreen.h)
-description: Used to configure a file screen that blocks groups of files from being saved to the specified directory.
+description: Used to configure a file screen that blocks groups of files from being saved to the specified directory.helpviewer_keywords: ["IFsrmFileScreen","IFsrmFileScreen interface [File Server Resource Manager]","IFsrmFileScreen interface [File Server Resource Manager]","described","fs.ifsrmfilescreen","fsrm.ifsrmfilescreen","fsrmscreen/IFsrmFileScreen"]
 old-location: fsrm\ifsrmfilescreen.htm
 tech.root: fsrm
 ms.assetid: 69b831a1-c935-4de0-b222-009bafc45ec5

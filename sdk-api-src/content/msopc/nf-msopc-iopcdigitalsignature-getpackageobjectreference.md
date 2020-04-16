@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetPackageObjectReference
 title: IOpcDigitalSignature::GetPackageObjectReference (msopc.h)
-description: Gets an IOpcSignatureReference interface pointer that represents the reference to the package-specific Object element that has been signed.
+description: Gets an IOpcSignatureReference interface pointer that represents the reference to the package-specific Object element that has been signed.helpviewer_keywords: ["GetPackageObjectReference","GetPackageObjectReference method [Open Packaging Conventions]","GetPackageObjectReference method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetPackageObjectReference method","IOpcDigitalSignature.GetPackageObjectReference","IOpcDigitalSignature::GetPackageObjectReference","msopc/IOpcDigitalSignature::GetPackageObjectReference","opc.iopcdigitalsignature_getpackageobjectreference"]
 old-location: opc\iopcdigitalsignature_getpackageobjectreference.htm
 tech.root: OPC
 ms.assetid: 67f4404f-518c-4a47-8c8e-b5b8d13e18cb

@@ -1,7 +1,7 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_GETLINE
 title: PDD_VPORTCB_GETLINE (ddrawint.h)
-description: The DdVideoPortGetLine callback function returns the current line number of the hardware video port.
+description: The DdVideoPortGetLine callback function returns the current line number of the hardware video port.helpviewer_keywords: ["DdVideoPortGetLine","DdVideoPortGetLine callback function [Display Devices]","PDD_VPORTCB_GETLINE","PDD_VPORTCB_GETLINE callback","ddfncs_7695bbcc-355a-4934-bf3f-ad9a58607917.xml","ddrawint/DdVideoPortGetLine","display.ddvideoportgetline"]
 old-location: display\ddvideoportgetline.htm
 tech.root: display
 ms.assetid: 6c0cfa87-bc16-47a6-8106-e5a1b1456813

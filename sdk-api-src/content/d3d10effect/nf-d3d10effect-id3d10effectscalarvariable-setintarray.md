@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.SetIntArray
 title: ID3D10EffectScalarVariable::SetIntArray (d3d10effect.h)
-description: Set an array of integer variables.
+description: Set an array of integer variables.helpviewer_keywords: ["557a34dc-1dce-4cb2-5269-cebf5fc86f76","ID3D10EffectScalarVariable interface [Direct3D 10]","SetIntArray method","ID3D10EffectScalarVariable.SetIntArray","ID3D10EffectScalarVariable::SetIntArray","SetIntArray","SetIntArray method [Direct3D 10]","SetIntArray method [Direct3D 10]","ID3D10EffectScalarVariable interface","d3d10effect/ID3D10EffectScalarVariable::SetIntArray","direct3d10.id3d10effectscalarvariable_setintarray"]
 old-location: direct3d10\id3d10effectscalarvariable_setintarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setintarray.htm

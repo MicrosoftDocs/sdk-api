@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRunningTask.get_Name
 title: IRunningTask::get_Name (taskschd.h)
-description: Gets the name of the task.
+description: Gets the name of the task.helpviewer_keywords: ["IRunningTask interface [Task Scheduler]","Name property","IRunningTask.Name","IRunningTask.get_Name","IRunningTask::Name","IRunningTask::get_Name","Name property [Task Scheduler]","Name property [Task Scheduler]","IRunningTask interface","get_Name","taskschd.irunningtask_name","taskschd/IRunningTask::Name","taskschd/IRunningTask::get_Name"]
 old-location: taskschd\irunningtask_name.htm
 tech.root: taskschd
 ms.assetid: 26938b6c-9c83-4065-9714-6bd0d187c7f1

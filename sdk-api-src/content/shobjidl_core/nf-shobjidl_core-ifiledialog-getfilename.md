@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetFileName
 title: IFileDialog::GetFileName (shobjidl_core.h)
-description: Retrieves the text currently entered in the dialog's File name edit box.
+description: Retrieves the text currently entered in the dialog's File name edit box.helpviewer_keywords: ["GetFileName","GetFileName method [Windows Shell]","GetFileName method [Windows Shell]","IFileDialog interface","IFileDialog interface [Windows Shell]","GetFileName method","IFileDialog.GetFileName","IFileDialog::GetFileName","shell.IFileDialog_GetFileName","shell_IFileDialog_GetFileName","shobjidl_core/IFileDialog::GetFileName"]
 old-location: shell\IFileDialog_GetFileName.htm
 tech.root: shell
 ms.assetid: d27acb22-906a-4e5e-9239-6de3162fd263

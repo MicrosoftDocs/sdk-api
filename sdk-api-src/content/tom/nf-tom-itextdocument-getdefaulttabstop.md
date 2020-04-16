@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument.GetDefaultTabStop
 title: ITextDocument::GetDefaultTabStop (tom.h)
-description: Gets the default tab width.
+description: Gets the default tab width.helpviewer_keywords: ["GetDefaultTabStop","GetDefaultTabStop method [Windows Controls]","GetDefaultTabStop method [Windows Controls]","ITextDocument interface","ITextDocument interface [Windows Controls]","GetDefaultTabStop method","ITextDocument.GetDefaultTabStop","ITextDocument::GetDefaultTabStop","_win32_ITextDocument_GetDefaultTabStop","_win32_ITextDocument_GetDefaultTabStop_cpp","controls.ITextDocument_GetDefaultTabStop","controls._win32_ITextDocument_GetDefaultTabStop","tom/ITextDocument::GetDefaultTabStop"]
 old-location: controls\ITextDocument_GetDefaultTabStop.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getdefaulttabstop.htm

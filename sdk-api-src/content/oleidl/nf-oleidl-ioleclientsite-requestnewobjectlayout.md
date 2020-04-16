@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleClientSite.RequestNewObjectLayout
 title: IOleClientSite::RequestNewObjectLayout (oleidl.h)
-description: Asks a container to resize the display site for embedded objects.
+description: Asks a container to resize the display site for embedded objects.helpviewer_keywords: ["IOleClientSite interface [COM]","RequestNewObjectLayout method","IOleClientSite.RequestNewObjectLayout","IOleClientSite::RequestNewObjectLayout","RequestNewObjectLayout","RequestNewObjectLayout method [COM]","RequestNewObjectLayout method [COM]","IOleClientSite interface","_ole_ioleclientsite_requestnewobjectlayout","com.ioleclientsite_requestnewobjectlayout","oleidl/IOleClientSite::RequestNewObjectLayout"]
 old-location: com\ioleclientsite_requestnewobjectlayout.htm
 tech.root: com
 ms.assetid: 68867ddd-fad0-4eef-8e5c-8198366e8e64

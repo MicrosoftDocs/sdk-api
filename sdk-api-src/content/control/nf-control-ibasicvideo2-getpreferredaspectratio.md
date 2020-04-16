@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IBasicVideo2.GetPreferredAspectRatio
 title: IBasicVideo2::GetPreferredAspectRatio (control.h)
-description: The GetPreferredAspectRatio method retrieves the preferred aspect ratio.
+description: The GetPreferredAspectRatio method retrieves the preferred aspect ratio.helpviewer_keywords: ["GetPreferredAspectRatio","GetPreferredAspectRatio method [DirectShow]","GetPreferredAspectRatio method [DirectShow]","IBasicVideo2 interface","IBasicVideo2 interface [DirectShow]","GetPreferredAspectRatio method","IBasicVideo2.GetPreferredAspectRatio","IBasicVideo2::GetPreferredAspectRatio","IBasicVideo2GetPreferredAspectRatio","control/IBasicVideo2::GetPreferredAspectRatio","dshow.ibasicvideo2_getpreferredaspectratio"]
 old-location: dshow\ibasicvideo2_getpreferredaspectratio.htm
 tech.root: DirectShow
 ms.assetid: eabfb5a3-201c-483c-81d6-efd19a4b5cef

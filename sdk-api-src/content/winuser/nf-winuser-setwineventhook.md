@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetWinEventHook
 title: SetWinEventHook function (winuser.h)
-description: Sets an event hook function for a range of events.
+description: Sets an event hook function for a range of events.helpviewer_keywords: ["SetWinEventHook","SetWinEventHook function [Windows Accessibility]","WINEVENT_INCONTEXT","WINEVENT_OUTOFCONTEXT","WINEVENT_SKIPOWNPROCESS","WINEVENT_SKIPOWNTHREAD","_msaa_SetWinEventHook","msaa.setwineventhook","winauto.setwineventhook","winuser/SetWinEventHook"]
 old-location: winauto\setwineventhook.htm
 tech.root: WinAuto
 ms.assetid: 090bda1b-0635-4aa3-ae33-3987b36e30b8

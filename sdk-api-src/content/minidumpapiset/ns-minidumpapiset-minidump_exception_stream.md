@@ -1,7 +1,7 @@
 ---
 UID: NS:minidumpapiset.MINIDUMP_EXCEPTION_STREAM
 title: MINIDUMP_EXCEPTION_STREAM (minidumpapiset.h)
-description: Represents an exception information stream.
+description: Represents an exception information stream.helpviewer_keywords: ["*PMINIDUMP_EXCEPTION_STREAM","MINIDUMP_EXCEPTION_STREAM","MINIDUMP_EXCEPTION_STREAM structure","PMINIDUMP_EXCEPTION_STREAM","PMINIDUMP_EXCEPTION_STREAM structure pointer","_win32_minidump_exception_stream_str","base.minidump_exception_stream_str","minidumpapiset/MINIDUMP_EXCEPTION_STREAM","minidumpapiset/PMINIDUMP_EXCEPTION_STREAM"]
 old-location: base\minidump_exception_stream_str.htm
 tech.root: Debug
 ms.assetid: 2de717dc-a9ac-4b81-9fab-992f22da9a0d

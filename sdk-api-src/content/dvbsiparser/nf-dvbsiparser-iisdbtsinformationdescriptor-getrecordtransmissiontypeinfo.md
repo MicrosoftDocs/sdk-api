@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo
 title: IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo (dvbsiparser.h)
-description: Gets the transmission_type_info field from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
+description: Gets the transmission_type_info field from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.helpviewer_keywords: ["GetRecordTransmissionTypeInfo","GetRecordTransmissionTypeInfo method [Microsoft TV Technologies]","GetRecordTransmissionTypeInfo method [Microsoft TV Technologies]","IIsdbTSInformationDescriptor interface","IIsdbTSInformationDescriptor interface [Microsoft TV Technologies]","GetRecordTransmissionTypeInfo method","IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo","IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo","dvbsiparser/IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo","mstv.iisdbtsinformationdescriptor_getrecordtransmissiontypeinfo"]
 old-location: mstv\iisdbtsinformationdescriptor_getrecordtransmissiontypeinfo.htm
 tech.root: mstv
 ms.assetid: 992ef7de-ccf8-42a1-bb83-4b5f396164ce

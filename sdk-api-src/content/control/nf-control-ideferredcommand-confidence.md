@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IDeferredCommand.Confidence
 title: IDeferredCommand::Confidence (control.h)
-description: The Confidence method retrieves a confidence value that indicates how likely it is for the command to be invoked at the requested time.
+description: The Confidence method retrieves a confidence value that indicates how likely it is for the command to be invoked at the requested time.helpviewer_keywords: ["Confidence","Confidence method [DirectShow]","Confidence method [DirectShow]","IDeferredCommand interface","IDeferredCommand interface [DirectShow]","Confidence method","IDeferredCommand.Confidence","IDeferredCommand::Confidence","IDeferredCommandConfidence","control/IDeferredCommand::Confidence","dshow.ideferredcommand_confidence"]
 old-location: dshow\ideferredcommand_confidence.htm
 tech.root: DirectShow
 ms.assetid: fb3e97a5-b9bc-4a72-9ee7-0a6292fad99d

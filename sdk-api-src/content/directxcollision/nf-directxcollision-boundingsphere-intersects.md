@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Intersects
 title: BoundingSphere::Intersects
-description: Tests the BoundingSphere for intersection with a BoundingSphere.
+description: Tests the BoundingSphere for intersection with a BoundingSphere.helpviewer_keywords: ["BoundingSphere::Intersects"]
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Intersects
 f1_keywords:

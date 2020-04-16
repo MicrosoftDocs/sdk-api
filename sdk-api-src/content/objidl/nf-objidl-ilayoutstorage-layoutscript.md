@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.ILayoutStorage.LayoutScript
 title: ILayoutStorage::LayoutScript (objidl.h)
-description: The LayoutScript method provides explicit directions for reordering the storages, streams, and controls in a compound file to match the order in which they are accessed during the download.
+description: The LayoutScript method provides explicit directions for reordering the storages, streams, and controls in a compound file to match the order in which they are accessed during the download.helpviewer_keywords: ["ILayoutStorage interface [Structured Storage]","LayoutScript method","ILayoutStorage.LayoutScript","ILayoutStorage::LayoutScript","LayoutScript","LayoutScript method [Structured Storage]","LayoutScript method [Structured Storage]","ILayoutStorage interface","_stg_ilayoutstorage_layoutscript","objidl/ILayoutStorage::LayoutScript","stg.ilayoutstorage_layoutscript"]
 old-location: stg\ilayoutstorage_layoutscript.htm
 tech.root: Stg
 ms.assetid: 22ae3485-15d9-47e4-988e-fb760e67595b

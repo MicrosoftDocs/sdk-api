@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery3.MakeDecisionOnClearChannel
 title: ISCPSecureQuery3::MakeDecisionOnClearChannel (mswmdm.h)
-description: The MakeDecisionOnClearChannel method determines whether access to the content is allowed on a clear channel. If access is allowed, this method returns the interface used to access the content.
+description: The MakeDecisionOnClearChannel method determines whether access to the content is allowed on a clear channel. If access is allowed, this method returns the interface used to access the content.helpviewer_keywords: ["ISCPSecureQuery3 interface [windows Media Device Manager]","MakeDecisionOnClearChannel method","ISCPSecureQuery3.MakeDecisionOnClearChannel","ISCPSecureQuery3::MakeDecisionOnClearChannel","ISCPSecureQuery3MakeDecisionOnClearChannel","MakeDecisionOnClearChannel","MakeDecisionOnClearChannel method [windows Media Device Manager]","MakeDecisionOnClearChannel method [windows Media Device Manager]","ISCPSecureQuery3 interface","mswmdm/ISCPSecureQuery3::MakeDecisionOnClearChannel","wmdm.iscpsecurequery3_makedecisiononclearchannel"]
 old-location: wmdm\iscpsecurequery3_makedecisiononclearchannel.htm
 tech.root: WMDM
 ms.assetid: 63ffa9ec-b8bb-4d5d-b380-e4dbe0fc865a

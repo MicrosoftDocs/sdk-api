@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_6.IDXGIAdapter4.GetDesc3
 title: IDXGIAdapter4::GetDesc3 (dxgi1_6.h)
-description: Gets a Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 description of an adapter or video card. This description includes information about ACG compatibility.
+description: Gets a Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 description of an adapter or video card. This description includes information about ACG compatibility.helpviewer_keywords: ["GetDesc3","GetDesc3 method [DXGI]","GetDesc3 method [DXGI]","IDXGIAdapter4 interface","IDXGIAdapter4 interface [DXGI]","GetDesc3 method","IDXGIAdapter4.GetDesc3","IDXGIAdapter4::GetDesc3","direct3ddxgi.idxgiadapter4_getdesc3","dxgi1_6/IDXGIAdapter4::GetDesc3"]
 old-location: direct3ddxgi\idxgiadapter4_getdesc3.htm
 tech.root: direct3ddxgi
 ms.assetid: 2C6C215C-8CD6-4650-A851-B82068E0F252

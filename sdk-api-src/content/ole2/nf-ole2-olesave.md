@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleSave
 title: OleSave function (ole2.h)
-description: Saves an object opened in transacted mode into the specified storage object.
+description: Saves an object opened in transacted mode into the specified storage object.helpviewer_keywords: ["OleSave","OleSave function [COM]","_ole_OleSave","com.olesave","ole2/OleSave"]
 old-location: com\olesave.htm
 tech.root: com
 ms.assetid: b8d8e1af-05a3-42f5-8672-910a2606e613

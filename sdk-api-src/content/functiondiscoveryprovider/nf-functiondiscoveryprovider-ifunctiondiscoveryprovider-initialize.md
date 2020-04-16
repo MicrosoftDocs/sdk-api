@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.Initialize
 title: IFunctionDiscoveryProvider::Initialize (functiondiscoveryprovider.h)
-description: Initializes the Function Discovery provider object.
+description: Initializes the Function Discovery provider object.helpviewer_keywords: ["IFunctionDiscoveryProvider interface","Initialize method","IFunctionDiscoveryProvider.Initialize","IFunctionDiscoveryProvider::Initialize","Initialize","Initialize method","Initialize method","IFunctionDiscoveryProvider interface","STGM_READ","STGM_READWRITE","STGM_WRITE","functiondiscoveryprovider/IFunctionDiscoveryProvider::Initialize","ncd.ifunctiondiscoveryprovider_initialize_method"]
 old-location: ncd\ifunctiondiscoveryprovider_initialize_method.htm
 tech.root: FunDisc
 ms.assetid: 084d6d91-4637-4325-887b-e9f46ecaaee4

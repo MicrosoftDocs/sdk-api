@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_ID0_
 title: IPSEC_ID0 (ipsectypes.h)
-description: Contains information corresponding to identities that are authenticated by IPsec.
+description: Contains information corresponding to identities that are authenticated by IPsec.helpviewer_keywords: ["IPSEC_ID0","IPSEC_ID0 structure [Filtering]","fwp.ipsec_id0","ipsectypes/IPSEC_ID0"]
 old-location: fwp\ipsec_id0.htm
 tech.root: fwp
 ms.assetid: e8881c50-9586-447e-a514-cc28895e5e90

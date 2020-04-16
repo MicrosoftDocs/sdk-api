@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPSOCKET
 title: LPWSPSOCKET (ws2spi.h)
-description: The LPWSPSocket function creates a socket.
+description: The LPWSPSocket function creates a socket.helpviewer_keywords: ["LPWSPSOCKET","WSPSocket","LPWSPSocket function [Winsock]","_win32_wspsocket_2","winsock.wspsocket_2","ws2spi/LPWSPSocket"]
 old-location: winsock\wspsocket_2.htm
 tech.root: WinSock
 ms.assetid: 16735fd1-289d-425a-8ad2-c20d73888b1b

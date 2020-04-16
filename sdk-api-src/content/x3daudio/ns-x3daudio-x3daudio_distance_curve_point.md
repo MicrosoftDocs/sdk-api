@@ -1,7 +1,7 @@
 ---
 UID: NS:x3daudio.X3DAUDIO_DISTANCE_CURVE_POINT
 title: X3DAUDIO_DISTANCE_CURVE_POINT (x3daudio.h)
-description: Defines a DSP setting at a given normalized distance.
+description: Defines a DSP setting at a given normalized distance.helpviewer_keywords: ["*LPX3DAUDIO_DISTANCE_CURVE_POINT","LPX3DAUDIO_DISTANCE_CURVE_POINT","LPX3DAUDIO_DISTANCE_CURVE_POINT structure pointer [XAudio2 Audio Mixing APIs]","X3DAUDIO_DISTANCE_CURVE_POINT","X3DAUDIO_DISTANCE_CURVE_POINT structure [XAudio2 Audio Mixing APIs]","x3daudio/LPX3DAUDIO_DISTANCE_CURVE_POINT","x3daudio/X3DAUDIO_DISTANCE_CURVE_POINT","xaudio2.x3daudio_distance_curve_point"]
 old-location: xaudio2\x3daudio_distance_curve_point.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_DISTANCE_CURVE_POINT

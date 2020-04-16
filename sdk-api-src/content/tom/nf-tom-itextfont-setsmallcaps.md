@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.SetSmallCaps
 title: ITextFont::SetSmallCaps (tom.h)
-description: Sets whether characters are in small capital letters.
+description: Sets whether characters are in small capital letters.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetSmallCaps method","ITextFont.SetSmallCaps","ITextFont::SetSmallCaps","SetSmallCaps","SetSmallCaps method [Windows Controls]","SetSmallCaps method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetSmallCaps","_win32_ITextFont_SetSmallCaps_cpp","controls.ITextFont_SetSmallCaps","controls._win32_ITextFont_SetSmallCaps","tom/ITextFont::SetSmallCaps"]
 old-location: controls\ITextFont_SetSmallCaps.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsmallcaps.htm

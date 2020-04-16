@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.WaitForNtmsNotification
 title: WaitForNtmsNotification function (ntmsapi.h)
-description: The WaitForNtmsNotification function waits for the next object change notification.
+description: The WaitForNtmsNotification function waits for the next object change notification.helpviewer_keywords: ["WaitForNtmsNotification","WaitForNtmsNotification function [Files]","_zaw_waitforntmsnotification","base.waitforntmsnotification","fs.waitforntmsnotification","ntmsapi/WaitForNtmsNotification"]
 old-location: fs\waitforntmsnotification.htm
 tech.root: Rsm
 ms.assetid: ecb39bac-f062-4835-bbae-f9f643ffde9b

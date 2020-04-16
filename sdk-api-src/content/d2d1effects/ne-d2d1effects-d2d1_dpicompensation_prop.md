@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects.D2D1_DPICOMPENSATION_PROP
 title: D2D1_DPICOMPENSATION_PROP (d2d1effects.h)
-description: Identifiers for properties of the DPI compensation effect.
+description: Identifiers for properties of the DPI compensation effect.helpviewer_keywords: ["D2D1_DPICOMPENSATION_PROP","D2D1_DPICOMPENSATION_PROP enumeration [Direct2D]","D2D1_DPICOMPENSATION_PROP_BORDER_MODE","D2D1_DPICOMPENSATION_PROP_INPUT_DPI","D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE","d2d1effects/D2D1_DPICOMPENSATION_PROP","d2d1effects/D2D1_DPICOMPENSATION_PROP_BORDER_MODE","d2d1effects/D2D1_DPICOMPENSATION_PROP_INPUT_DPI","d2d1effects/D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE","direct2d.d2d1_dpicompensation_prop"]
 old-location: direct2d\d2d1_dpicompensation_prop.htm
 tech.root: Direct2D
 ms.assetid: B8956D69-B014-49EA-BCBA-5AE9DC051A5A

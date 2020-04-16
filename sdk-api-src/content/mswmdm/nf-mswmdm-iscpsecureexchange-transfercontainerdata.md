@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.ISCPSecureExchange.TransferContainerData
 title: ISCPSecureExchange::TransferContainerData (mswmdm.h)
-description: The TransferContainerData method transfers container file data to the secure content provider. The secure content provider breaks down the container internally and reports which parts of the content are available as they are extracted from the container.
+description: The TransferContainerData method transfers container file data to the secure content provider. The secure content provider breaks down the container internally and reports which parts of the content are available as they are extracted from the container.helpviewer_keywords: ["ISCPSecureExchange interface [windows Media Device Manager]","TransferContainerData method","ISCPSecureExchange.TransferContainerData","ISCPSecureExchange::TransferContainerData","ISCPSecureExchangeTransferContainerData","TransferContainerData","TransferContainerData method [windows Media Device Manager]","TransferContainerData method [windows Media Device Manager]","ISCPSecureExchange interface","mswmdm/ISCPSecureExchange::TransferContainerData","wmdm.iscpsecureexchange_transfercontainerdata"]
 old-location: wmdm\iscpsecureexchange_transfercontainerdata.htm
 tech.root: WMDM
 ms.assetid: 97b55751-b45e-4204-87e2-1e653d55a718

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.GetPropertyCount
 title: IWMPropertyVault::GetPropertyCount (wmsdkidl.h)
-description: The GetPropertyCount method retrieves a count of all the properties in the property vault.
+description: The GetPropertyCount method retrieves a count of all the properties in the property vault.helpviewer_keywords: ["GetPropertyCount","GetPropertyCount method [windows Media Format]","GetPropertyCount method [windows Media Format]","IWMPropertyVault interface","IWMPropertyVault interface [windows Media Format]","GetPropertyCount method","IWMPropertyVault.GetPropertyCount","IWMPropertyVault::GetPropertyCount","IWMPropertyVaultGetPropertyCount","wmformat.iwmpropertyvault_getpropertycount","wmsdkidl/IWMPropertyVault::GetPropertyCount"]
 old-location: wmformat\iwmpropertyvault_getpropertycount.htm
 tech.root: wmformat
 ms.assetid: 2045183d-8683-416f-bda0-87c5fecf8c11

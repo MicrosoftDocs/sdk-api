@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymCleanup
 title: SymCleanup function (dbghelp.h)
-description: Deallocates all resources associated with the process handle.
+description: Deallocates all resources associated with the process handle.helpviewer_keywords: ["SymCleanup","SymCleanup function","_win32_symcleanup","base.symcleanup","dbghelp/SymCleanup"]
 old-location: base\symcleanup.htm
 tech.root: Debug
 ms.assetid: 56107b71-a3f9-49af-9a90-df3585aed7c8

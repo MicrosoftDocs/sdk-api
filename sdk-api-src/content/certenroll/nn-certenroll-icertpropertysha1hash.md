@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.ICertPropertySHA1Hash
 title: ICertPropertySHA1Hash (certenroll.h)
-description: Represents a certificate property that contains a SHA-1 hash of the certificate.
+description: Represents a certificate property that contains a SHA-1 hash of the certificate.helpviewer_keywords: ["ICertPropertySHA1Hash","ICertPropertySHA1Hash interface [Security]","ICertPropertySHA1Hash interface [Security]","described","certenroll/ICertPropertySHA1Hash","security.icertpropertysha1hash"]
 old-location: security\icertpropertysha1hash.htm
 tech.root: seccertenroll
 ms.assetid: 0946827b-c933-472c-9466-aaa3495ab202

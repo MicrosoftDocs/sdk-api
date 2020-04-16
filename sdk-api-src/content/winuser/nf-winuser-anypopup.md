@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.AnyPopup
 title: AnyPopup function (winuser.h)
-description: Indicates whether an owned, visible, top-level pop-up, or overlapped window exists on the screen. The function searches the entire screen, not just the calling application's client area.
+description: Indicates whether an owned, visible, top-level pop-up, or overlapped window exists on the screen. The function searches the entire screen, not just the calling application's client area.helpviewer_keywords: ["AnyPopup","AnyPopup function [Windows and Messages]","_win32_AnyPopup","_win32_anypopup_cpp","winmsg.anypopup","winui._win32_anypopup","winuser/AnyPopup"]
 old-location: winmsg\anypopup.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\anypopup.htm

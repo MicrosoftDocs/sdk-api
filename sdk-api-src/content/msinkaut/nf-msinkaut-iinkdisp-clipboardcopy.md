@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDisp.ClipboardCopy
 title: IInkDisp::ClipboardCopy (msinkaut.h)
-description: Copies the InkStrokes collection to the Clipboard.
+description: Copies the InkStrokes collection to the Clipboard.helpviewer_keywords: ["ClipboardCopy","ClipboardCopy method [Tablet PC]","ClipboardCopy method [Tablet PC]","IInkDisp interface","IInkDisp interface [Tablet PC]","ClipboardCopy method","IInkDisp.ClipboardCopy","IInkDisp::ClipboardCopy","ad62c9b3-6df6-445b-9085-7cd5c4b6b31f","msinkaut/IInkDisp::ClipboardCopy","tablet.inkdisp_clipboardcopy"]
 old-location: tablet\inkdisp_clipboardcopy.htm
 tech.root: tablet
 ms.assetid: ad62c9b3-6df6-445b-9085-7cd5c4b6b31f

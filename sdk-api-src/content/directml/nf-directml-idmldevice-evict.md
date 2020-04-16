@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.IDMLDevice.Evict
 title: IDMLDevice::Evict
-description: Evicts one or more pageable objects from GPU memory. Also see IDMLDevice::MakeResident.
+description: Evicts one or more pageable objects from GPU memory. Also see IDMLDevice::MakeResident.helpviewer_keywords: ["Evict","Evict method","Evict method","IDMLDevice interface","IDMLDevice interface","Evict method","IDMLDevice.Evict","IDMLDevice::Evict","direct3d12.idmldevice_evict","directml/IDMLDevice::Evict"]
 old-location: direct3d12\idmldevice_evict.htm
 tech.root: direct3d12
 ms.assetid: 45FF300A-A645-4A1D-B2E1-924CD0E32F2B

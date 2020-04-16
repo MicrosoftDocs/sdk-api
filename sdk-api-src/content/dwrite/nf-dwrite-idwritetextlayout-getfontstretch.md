@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontStretch
 title: IDWriteTextLayout::GetFontStretch (dwrite.h)
-description: Gets the font stretch of the text at the specified position.
+description: Gets the font stretch of the text at the specified position.helpviewer_keywords: ["GetFontStretch","GetFontStretch method [Direct Write]","GetFontStretch method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetFontStretch method","IDWriteTextLayout.GetFontStretch","IDWriteTextLayout::GetFontStretch","directwrite.IDWriteTextLayout_GetFontStretch","dwrite/IDWriteTextLayout::GetFontStretch"]
 old-location: directwrite\IDWriteTextLayout_GetFontStretch.htm
 tech.root: DirectWrite
 ms.assetid: f72cdbbf-71ca-45fe-8250-c920c82519e3

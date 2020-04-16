@@ -1,7 +1,7 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetServiceState
 title: IAMWstDecoder::GetServiceState (iwstdec.h)
-description: Applications use the GetServiceState method to retrieve the current service state.
+description: Applications use the GetServiceState method to retrieve the current service state.helpviewer_keywords: ["GetServiceState","GetServiceState method [DirectShow]","GetServiceState method [DirectShow]","IAMWstDecoder interface","IAMWstDecoder interface [DirectShow]","GetServiceState method","IAMWstDecoder.GetServiceState","IAMWstDecoder::GetServiceState","IAMWstDecoderGetServiceState","dshow.iamwstdecoder_getservicestate","iwstdec/IAMWstDecoder::GetServiceState"]
 old-location: dshow\iamwstdecoder_getservicestate.htm
 tech.root: DirectShow
 ms.assetid: 7a927341-6ff4-41f5-918b-ea5b9e1ebe9a

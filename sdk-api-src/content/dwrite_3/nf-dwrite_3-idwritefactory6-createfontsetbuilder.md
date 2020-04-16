@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory6.CreateFontSetBuilder
 title: IDWriteFactory6::CreateFontSetBuilder
-description: Creates an empty font set builder, ready to add font instances to, and create a custom font set.
+description: Creates an empty font set builder, ready to add font instances to, and create a custom font set.helpviewer_keywords: ["IDWriteFactory6 interface [Direct Write]","CreateFontSetBuilder method","IDWriteFactory6.CreateFontSetBuilder","IDWriteFactory6::CreateFontSetBuilder","CreateFontSetBuilder","CreateFontSetBuilder method [Direct Write]","CreateFontSetBuilder method [Direct Write]","IDWriteFactory6 interface","directwrite.idwritefactory6_createfontsetbuilder","dwrite_3/IDWriteFactory6::CreateFontSetBuilder"]
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontSetBuilder method, IDWriteFactory6.CreateFontSetBuilder, IDWriteFactory6::CreateFontSetBuilder, CreateFontSetBuilder, CreateFontSetBuilder method [Direct Write], CreateFontSetBuilder method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontsetbuilder, dwrite_3/IDWriteFactory6::CreateFontSetBuilder

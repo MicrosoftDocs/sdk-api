@@ -1,7 +1,7 @@
 ---
 UID: NF:lmdfs.NetDfsGetClientInfo
 title: NetDfsGetClientInfo function (lmdfs.h)
-description: Retrieves information about a Distributed File System (DFS) root or link from the cache maintained by the DFS client.
+description: Retrieves information about a Distributed File System (DFS) root or link from the cache maintained by the DFS client.helpviewer_keywords: ["1","2","3","4","NetDfsGetClientInfo","NetDfsGetClientInfo function [Distributed File System]","_win32_netdfsgetclientinfo","dfs.netdfsgetclientinfo","fs.netdfsgetclientinfo","lmdfs/NetDfsGetClientInfo"]
 old-location: dfs\netdfsgetclientinfo.htm
 tech.root: Dfs
 ms.assetid: 065ec002-cb90-4d78-a70c-6ac37f71994f

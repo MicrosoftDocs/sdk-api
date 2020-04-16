@@ -1,7 +1,7 @@
 ---
 UID: NS:mmc._MMC_VISIBLE_COLUMNS
 title: MMC_VISIBLE_COLUMNS (mmc.h)
-description: Used by MMC with the MMCN_COLUMNS_CHANGED notification to inform the snap-in which columns in a column set are visible.
+description: Used by MMC with the MMCN_COLUMNS_CHANGED notification to inform the snap-in which columns in a column set are visible.helpviewer_keywords: ["MMC_VISIBLE_COLUMNS","MMC_VISIBLE_COLUMNS structure [MMC]","_slate_mmc_visible_columns","mmc.mmc_visible_columns","mmc/MMC_VISIBLE_COLUMNS"]
 old-location: mmc\mmc_visible_columns.htm
 tech.root: mmc
 ms.assetid: b2f54c36-a446-4c16-8595-ab7e3411eb88

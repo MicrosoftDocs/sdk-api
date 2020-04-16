@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core._SHGDNF
 title: _SHGDNF (shobjidl_core.h)
-description: Defines the values used with the IShellFolder::GetDisplayNameOf and IShellFolder::SetNameOf methods to specify the type of file or folder names used by those methods.
+description: Defines the values used with the IShellFolder::GetDisplayNameOf and IShellFolder::SetNameOf methods to specify the type of file or folder names used by those methods.helpviewer_keywords: ["SHGDNF","SHGDNF enumeration [Windows Shell]","SHGDN_FORADDRESSBAR","SHGDN_FOREDITING","SHGDN_FORPARSING","SHGDN_INFOLDER","SHGDN_NORMAL","_SHGDNF","_win32_SHGNO","shell.SHGNO","shobjidl_core/SHGDNF","shobjidl_core/SHGDN_FORADDRESSBAR","shobjidl_core/SHGDN_FOREDITING","shobjidl_core/SHGDN_FORPARSING","shobjidl_core/SHGDN_INFOLDER","shobjidl_core/SHGDN_NORMAL"]
 old-location: shell\SHGNO.htm
 tech.root: shell
 ms.assetid: 5d87609d-bcbf-4a4f-a97e-017ee8a9879e

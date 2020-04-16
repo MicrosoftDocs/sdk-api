@@ -4,7 +4,7 @@ title: WlxReconnectNotify
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: Winlogon calls this function when a Terminal Services network session is reconnected.
+description: Winlogon calls this function when a Terminal Services network session is reconnected.helpviewer_keywords: ["WlxReconnectNotify"]
 tech.root: SecAuthN
 req.assembly: 
 req.construct-type: function

@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.SearchGPOs
 title: IGPMDomain::SearchGPOs (gpmgmt.h)
-description: Executes a search for GPMGPO objects in the domain and then returns a GPMGPOCollection object.
+description: Executes a search for GPMGPO objects in the domain and then returns a GPMGPOCollection object.helpviewer_keywords: ["GPMDomain object [GPMC]","SearchGPOs method","IGPMDomain interface [GPMC]","SearchGPOs method","IGPMDomain.SearchGPOs","IGPMDomain::SearchGPOs","SearchGPOs","SearchGPOs method [GPMC]","SearchGPOs method [GPMC]","GPMDomain object","SearchGPOs method [GPMC]","IGPMDomain interface","_win32_igpmdomain_searchgpos","gpmc.igpmdomain_searchgpos","gpmgmt/IGPMDomain::SearchGPOs","gpoComputerExtensions","gpoDisplayName","gpoEffectivePermissions","gpoID","gpoPermissions","gpoUserExtensions","gpoWMIFilter"]
 old-location: gpmc\igpmdomain_searchgpos.htm
 tech.root: gpmc
 ms.assetid: 19a8efae-0b85-49ba-bf7e-08ed700874c3

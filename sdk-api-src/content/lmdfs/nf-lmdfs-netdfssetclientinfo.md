@@ -1,7 +1,7 @@
 ---
 UID: NF:lmdfs.NetDfsSetClientInfo
 title: NetDfsSetClientInfo function (lmdfs.h)
-description: Modifies information about a Distributed File System (DFS) root or link in the cache maintained by the DFS client.
+description: Modifies information about a Distributed File System (DFS) root or link in the cache maintained by the DFS client.helpviewer_keywords: ["101","102","NetDfsSetClientInfo","NetDfsSetClientInfo function [Distributed File System]","_win32_netdfssetclientinfo","dfs.netdfssetclientinfo","fs.netdfssetclientinfo","lmdfs/NetDfsSetClientInfo","netmgmt.netdfssetclientinfo"]
 old-location: dfs\netdfssetclientinfo.htm
 tech.root: Dfs
 ms.assetid: 4c95dffb-a092-45ad-9a3f-37d3abbf4427

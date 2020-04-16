@@ -1,7 +1,7 @@
 ---
 UID: NE:virtdisk._RESIZE_VIRTUAL_DISK_VERSION
 title: RESIZE_VIRTUAL_DISK_VERSION (virtdisk.h)
-description: Enumerates the possible versions for parameters for the ResizeVirtualDisk function.
+description: Enumerates the possible versions for parameters for the ResizeVirtualDisk function.helpviewer_keywords: ["RESIZE_VIRTUAL_DISK_VERSION","RESIZE_VIRTUAL_DISK_VERSION enumeration [Virtual Storage]","RESIZE_VIRTUAL_DISK_VERSION_1","RESIZE_VIRTUAL_DISK_VERSION_UNSPECIFIED","virtdisk/RESIZE_VIRTUAL_DISK_VERSION","virtdisk/RESIZE_VIRTUAL_DISK_VERSION_1","virtdisk/RESIZE_VIRTUAL_DISK_VERSION_UNSPECIFIED","vstor.resize_virtual_disk_version"]
 old-location: vstor\resize_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 779381fb-4433-46c5-8caf-b830cd015c95

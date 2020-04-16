@@ -1,7 +1,7 @@
 ---
 UID: NF:winsafer.SaferCloseLevel
 title: SaferCloseLevel function (winsafer.h)
-description: Closes a SAFER_LEVEL_HANDLE that was opened by using the SaferIdentifyLevel function or the SaferCreateLevel function.
+description: Closes a SAFER_LEVEL_HANDLE that was opened by using the SaferIdentifyLevel function or the SaferCreateLevel function.helpviewer_keywords: ["SaferCloseLevel","SaferCloseLevel function [Security]","_mnp_safercloselevel","security.safercloselevel","winsafer/SaferCloseLevel"]
 old-location: security\safercloselevel.htm
 tech.root: SecMgmt
 ms.assetid: 8daffb35-5bb0-45b3-aff1-a8ea6a142ba5

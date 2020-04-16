@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupSetNonInteractiveMode
 title: SetupSetNonInteractiveMode function (setupapi.h)
-description: The SetupSetNonInteractiveMode function sets a non-interactive SetupAPI flag that determines whether SetupAPI can interact with a user in the caller's context.
+description: The SetupSetNonInteractiveMode function sets a non-interactive SetupAPI flag that determines whether SetupAPI can interact with a user in the caller's context.helpviewer_keywords: ["SetupSetNonInteractiveMode","SetupSetNonInteractiveMode function [Device and Driver Installation]","devinst.setupsetnoninteractivemode","setup-ref_6afe961a-ba91-4ab8-b296-39308b6413c7.xml","setupapi/SetupSetNonInteractiveMode"]
 old-location: devinst\setupsetnoninteractivemode.htm
 tech.root: devinst
 ms.assetid: 5858547d-cd0e-4067-a94b-fff58b4f1334

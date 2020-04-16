@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleContainer.LockContainer
 title: IOleContainer::LockContainer (oleidl.h)
-description: Keeps the container for embedded objects running until explicitly released.
+description: Keeps the container for embedded objects running until explicitly released.helpviewer_keywords: ["IOleContainer interface [COM]","LockContainer method","IOleContainer.LockContainer","IOleContainer::LockContainer","LockContainer","LockContainer method [COM]","LockContainer method [COM]","IOleContainer interface","_ole_iolecontainer_lockcontainer","com.iolecontainer_lockcontainer","oleidl/IOleContainer::LockContainer"]
 old-location: com\iolecontainer_lockcontainer.htm
 tech.root: com
 ms.assetid: 31b9961a-29a2-48bf-9d39-d86718983682

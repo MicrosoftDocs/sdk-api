@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IAdviseSink
 title: IAdviseSink (objidl.h)
-description: Enables containers and other objects to receive notifications of data changes, view changes, and compound-document changes occurring in objects of interest.
+description: Enables containers and other objects to receive notifications of data changes, view changes, and compound-document changes occurring in objects of interest.helpviewer_keywords: ["IAdviseSink","IAdviseSink interface [COM]","IAdviseSink interface [COM]","described","_ole_iadvisesink","com.iadvisesink","objidl/IAdviseSink"]
 old-location: com\iadvisesink.htm
 tech.root: com
 ms.assetid: bc9f217a-75bd-4155-9d00-df44b00cf0e5

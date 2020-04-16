@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellItem.GetAttributes
 title: IShellItem::GetAttributes (shobjidl_core.h)
-description: Gets a requested set of attributes of the IShellItem object.
+description: Gets a requested set of attributes of the IShellItem object.helpviewer_keywords: ["GetAttributes","GetAttributes method [Windows Shell]","GetAttributes method [Windows Shell]","IShellItem interface","IShellItem interface [Windows Shell]","GetAttributes method","IShellItem.GetAttributes","IShellItem::GetAttributes","_win32_IShellItem_GetAttributes","shell.IShellItem_GetAttributes","shobjidl_core/IShellItem::GetAttributes"]
 old-location: shell\IShellItem_GetAttributes.htm
 tech.root: shell
 ms.assetid: d8d48b4b-979e-48ed-9e57-279fd6fad5cc

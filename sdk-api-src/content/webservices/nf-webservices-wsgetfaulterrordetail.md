@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsGetFaultErrorDetail
 title: WsGetFaultErrorDetail function (webservices.h)
-description: Read the fault detail stored in a WS_ERROR object.
+description: Read the fault detail stored in a WS_ERROR object.helpviewer_keywords: ["WsGetFaultErrorDetail","WsGetFaultErrorDetail function [Web Services for Windows]","webservices/WsGetFaultErrorDetail","wsw.wsgetfaulterrordetail"]
 old-location: wsw\wsgetfaulterrordetail.htm
 tech.root: wsw
 ms.assetid: 426c292f-64a5-411f-a63e-6be05fe93438

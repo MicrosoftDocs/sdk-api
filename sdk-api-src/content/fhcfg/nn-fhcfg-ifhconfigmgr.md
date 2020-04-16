@@ -1,7 +1,7 @@
 ---
 UID: NN:fhcfg.IFhConfigMgr
 title: IFhConfigMgr (fhcfg.h)
-description: The IFhConfigMgr interface allows client applications to read and modify the File History configuration for the user account under which the methods of this interface are called.
+description: The IFhConfigMgr interface allows client applications to read and modify the File History configuration for the user account under which the methods of this interface are called.helpviewer_keywords: ["IFhConfigMgr","IFhConfigMgr interface [Windows API]","IFhConfigMgr interface [Windows API]","described","fhcfg/IFhConfigMgr","winprog.ifhconfigmgr"]
 old-location: winprog\ifhconfigmgr.htm
 tech.root: DevNotes
 ms.assetid: CDE8A011-6E78-49DF-A5E1-8E968355BA11

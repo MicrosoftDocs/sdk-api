@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmLayerSetSecurityInfoByKey0
 title: FwpmLayerSetSecurityInfoByKey0 function (fwpmu.h)
-description: Sets specified security information in the security descriptor of a layer object.
+description: Sets specified security information in the security descriptor of a layer object.helpviewer_keywords: ["FwpmLayerSetSecurityInfoByKey0","FwpmLayerSetSecurityInfoByKey0 function [Filtering]","fwp.fwpmlayersetsecurityinfobykey0_func","fwpmu/FwpmLayerSetSecurityInfoByKey0"]
 old-location: fwp\fwpmlayersetsecurityinfobykey0_func.htm
 tech.root: fwp
 ms.assetid: a6f1e50b-bce1-42db-bb6f-dc0c93859015

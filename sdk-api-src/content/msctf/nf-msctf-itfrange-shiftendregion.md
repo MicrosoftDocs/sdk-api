@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRange.ShiftEndRegion
 title: ITfRange::ShiftEndRegion (msctf.h)
-description: ITfRange::ShiftEndRegion method
+description: ITfRange::ShiftEndRegion methodhelpviewer_keywords: ["ITfRange interface [Text Services Framework]","ShiftEndRegion method","ITfRange.ShiftEndRegion","ITfRange::ShiftEndRegion","ShiftEndRegion","ShiftEndRegion method [Text Services Framework]","ShiftEndRegion method [Text Services Framework]","ITfRange interface","_tsf_itfrange_shiftendregion_ref","msctf/ITfRange::ShiftEndRegion","tsf.itfrange_shiftendregion"]
 old-location: tsf\itfrange_shiftendregion.htm
 tech.root: TSF
 ms.assetid: cda2282f-3d3c-4763-9892-b889b29963a6

@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_GetImageList
 title: ListView_GetImageList macro (commctrl.h)
-description: Gets the handle to an image list used for drawing list-view items. You can use this macro or send the LVM_GETIMAGELIST message explicitly.
+description: Gets the handle to an image list used for drawing list-view items. You can use this macro or send the LVM_GETIMAGELIST message explicitly.helpviewer_keywords: ["LVSIL_GROUPHEADER","LVSIL_NORMAL","LVSIL_SMALL","LVSIL_STATE","ListView_GetImageList","ListView_GetImageList macro [Windows Controls]","_win32_ListView_GetImageList","_win32_ListView_GetImageList_cpp","commctrl/ListView_GetImageList","controls.ListView_GetImageList","controls._win32_ListView_GetImageList"]
 old-location: controls\ListView_GetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getimagelist.htm

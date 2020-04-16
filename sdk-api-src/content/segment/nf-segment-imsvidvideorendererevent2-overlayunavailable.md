@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidVideoRendererEvent2.OverlayUnavailable
 title: IMSVidVideoRendererEvent2::OverlayUnavailable (segment.h)
-description: This method is not implemented.
+description: This method is not implemented.helpviewer_keywords: ["IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies]","OverlayUnavailable method","IMSVidVideoRendererEvent2.OverlayUnavailable","IMSVidVideoRendererEvent2::OverlayUnavailable","OverlayUnavailable","OverlayUnavailable method [Microsoft TV Technologies]","OverlayUnavailable method [Microsoft TV Technologies]","IMSVidVideoRendererEvent2 interface","mstv.imsvidvideorendererevent2_overlayunavailable","segment/IMSVidVideoRendererEvent2::OverlayUnavailable"]
 old-location: mstv\imsvidvideorendererevent2_overlayunavailable.htm
 tech.root: mstv
 ms.assetid: 52571daa-c955-4bd3-bb97-afc480984cdf

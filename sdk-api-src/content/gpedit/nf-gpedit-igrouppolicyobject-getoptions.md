@@ -1,7 +1,7 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetOptions
 title: IGroupPolicyObject::GetOptions (gpedit.h)
-description: The GetOptions method retrieves the options for the GPO.
+description: The GetOptions method retrieves the options for the GPO.helpviewer_keywords: ["GPO_OPTION_DISABLE_MACHINE","GPO_OPTION_DISABLE_USER","GetOptions","GetOptions method [Group Policy]","GetOptions method [Group Policy]","IGroupPolicyObject interface","IGroupPolicyObject interface [Group Policy]","GetOptions method","IGroupPolicyObject.GetOptions","IGroupPolicyObject::GetOptions","_win32_igrouppolicyobject_getoptions","gpedit/IGroupPolicyObject::GetOptions","policy.igrouppolicyobject_getoptions"]
 old-location: policy\igrouppolicyobject_getoptions.htm
 tech.root: Policy
 ms.assetid: a4b86196-04c8-4ec1-bf26-2a33e44020d2

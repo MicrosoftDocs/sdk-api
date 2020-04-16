@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFPMPHost.CreateObjectByCLSID
 title: IMFPMPHost::CreateObjectByCLSID (mfidl.h)
-description: Creates an object in the protect media path (PMP) process, from a CLSID.
+description: Creates an object in the protect media path (PMP) process, from a CLSID.helpviewer_keywords: ["787fc392-1858-41f4-a1ce-2da02a5e789f","CreateObjectByCLSID","CreateObjectByCLSID method [Media Foundation]","CreateObjectByCLSID method [Media Foundation]","IMFPMPHost interface","IMFPMPHost interface [Media Foundation]","CreateObjectByCLSID method","IMFPMPHost.CreateObjectByCLSID","IMFPMPHost::CreateObjectByCLSID","mf.imfpmphost_createobjectbyclsid","mfidl/IMFPMPHost::CreateObjectByCLSID"]
 old-location: mf\imfpmphost_createobjectbyclsid.htm
 tech.root: medfound
 ms.assetid: 787fc392-1858-41f4-a1ce-2da02a5e789f

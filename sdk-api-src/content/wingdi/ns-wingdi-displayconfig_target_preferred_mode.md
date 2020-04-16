@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_PREFERRED_MODE
 title: DISPLAYCONFIG_TARGET_PREFERRED_MODE (wingdi.h)
-description: The DISPLAYCONFIG_TARGET_PREFERRED_MODE structure contains information about the preferred mode of a display.
+description: The DISPLAYCONFIG_TARGET_PREFERRED_MODE structure contains information about the preferred mode of a display.helpviewer_keywords: ["CCD_Structures_d19517fa-c72d-47bf-9198-c447efe1ba90.xml","DISPLAYCONFIG_TARGET_PREFERRED_MODE","DISPLAYCONFIG_TARGET_PREFERRED_MODE structure [Display Devices]","display.displayconfig_target_preferred_mode","wingdi/DISPLAYCONFIG_TARGET_PREFERRED_MODE"]
 old-location: display\displayconfig_target_preferred_mode.htm
 tech.root: display
 ms.assetid: 1a4926ca-36d2-466c-b3d2-b59d34a89ee6

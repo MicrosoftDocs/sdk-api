@@ -1,7 +1,7 @@
 ---
 UID: NE:wincodec.WICRawCapabilities
 title: WICRawCapabilities (wincodec.h)
-description: Specifies the capability support of a raw image.
+description: Specifies the capability support of a raw image.helpviewer_keywords: ["WICRawCapabilities","WICRawCapabilities enumeration [Windows Imaging Component]","WICRawCapabilityFullySupported","WICRawCapabilityGetSupported","WICRawCapabilityNotSupported","_wic_codec_wicrawcapabilities","wic._wic_codec_wicrawcapabilities","wincodec/WICRawCapabilities","wincodec/WICRawCapabilityFullySupported","wincodec/WICRawCapabilityGetSupported","wincodec/WICRawCapabilityNotSupported"]
 old-location: wic\_wic_codec_wicrawcapabilities.htm
 tech.root: wic
 ms.assetid: a82edbbe-a069-4ba8-ba15-524830cdf330

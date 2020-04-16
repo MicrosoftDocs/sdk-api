@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITToneTerminalEvent.get_Terminal
 title: ITToneTerminalEvent::get_Terminal (tapi3if.h)
-description: The get_Terminal method returns an ITTerminal pointer for the tone terminal on which the event occurred.
+description: The get_Terminal method returns an ITTerminal pointer for the tone terminal on which the event occurred.helpviewer_keywords: ["ITToneTerminalEvent interface [TAPI 2.2]","get_Terminal method","ITToneTerminalEvent.get_Terminal","ITToneTerminalEvent::get_Terminal","_tapi3_ittoneterminalevent_get_terminal","get_Terminal","get_Terminal method [TAPI 2.2]","get_Terminal method [TAPI 2.2]","ITToneTerminalEvent interface","tapi3.ittoneterminalevent_get_terminal","tapi3if/ITToneTerminalEvent::get_Terminal"]
 old-location: tapi3\ittoneterminalevent_get_terminal.htm
 tech.root: Tapi
 ms.assetid: 3358e219-fde9-4b60-bf75-c6d8c42a51ea

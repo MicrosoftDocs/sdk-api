@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1GeometrySink.AddQuadraticBezier(const D2D1_QUADRATIC_BEZIER_SEGMENT)
 title: ID2D1GeometrySink::AddQuadraticBezier (d2d1.h)
-description: Creates a quadratic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
+description: Creates a quadratic Bezier curve between the current point and the specified end point and adds it to the geometry sink.helpviewer_keywords: ["AddQuadraticBezier","AddQuadraticBezier methods [Direct2D]","ID2D1GeometrySink.AddQuadraticBezier","ID2D1GeometrySink::AddQuadraticBezier","d2d1/AddQuadraticBezier","direct2d.id2d1geometrysink_addquadraticbezier"]
 old-location: direct2d\id2d1geometrysink_addquadraticbezier.htm
 tech.root: Direct2D
 ms.assetid: 142f0823-0d8d-4216-8f40-9dec7f48032e

@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetImplTypeFlags
 title: ITypeInfo::GetImplTypeFlags (oaidl.h)
-description: Retrieves the IMPLTYPEFLAGS enumeration for one implemented interface or base interface in a type description.
+description: Retrieves the IMPLTYPEFLAGS enumeration for one implemented interface or base interface in a type description.helpviewer_keywords: ["GetImplTypeFlags","GetImplTypeFlags method [Automation]","GetImplTypeFlags method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetImplTypeFlags method","ITypeInfo.GetImplTypeFlags","ITypeInfo::GetImplTypeFlags","_oa96_ITypeInfo_GetImplTypeFlags","automat.itypeinfo_getimpltypeflags","oaidl/ITypeInfo::GetImplTypeFlags"]
 old-location: automat\itypeinfo_getimpltypeflags.htm
 tech.root: automat
 ms.assetid: b3773111-b09d-4ae0-9a91-3c4adff5b803

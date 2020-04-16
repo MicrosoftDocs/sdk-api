@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantCompare
 title: PropVariantCompare function (propvarutil.h)
-description: Compares two PROPVARIANT structures, based on default comparison units and settings.
+description: Compares two PROPVARIANT structures, based on default comparison units and settings.helpviewer_keywords: ["PropVariantCompare","PropVariantCompare function [Windows Properties]","_shell_PropVariantCompare","properties.PropVariantCompare","propvarutil/PropVariantCompare","shell.PropVariantCompare"]
 old-location: properties\PropVariantCompare.htm
 tech.root: properties
 ms.assetid: f296a583-3af2-4165-8b3a-0b47eba8e89d

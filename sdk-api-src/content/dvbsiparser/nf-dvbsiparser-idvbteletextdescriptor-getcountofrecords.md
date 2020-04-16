@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetCountOfRecords
 title: IDvbTeletextDescriptor::GetCountOfRecords (dvbsiparser.h)
-description: Gets the number of service records in a Digital Video Broadcast (DVB) teletext descriptor.
+description: Gets the number of service records in a Digital Video Broadcast (DVB) teletext descriptor.helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IDvbTeletextDescriptor interface","IDvbTeletextDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IDvbTeletextDescriptor.GetCountOfRecords","IDvbTeletextDescriptor::GetCountOfRecords","dvbsiparser/IDvbTeletextDescriptor::GetCountOfRecords","mstv.idvbteletextdescriptor_getcountofrecords"]
 old-location: mstv\idvbteletextdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: a802c685-9d7a-446a-a29c-4fc3e9ad3dc4

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo.GetTotalTitleTime
 title: IDvdInfo::GetTotalTitleTime (strmif.h)
-description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the total playback time for the current title.
+description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the total playback time for the current title.helpviewer_keywords: ["GetTotalTitleTime","GetTotalTitleTime method [DirectShow]","GetTotalTitleTime method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetTotalTitleTime method","IDvdInfo.GetTotalTitleTime","IDvdInfo::GetTotalTitleTime","IDvdInfoGetTotalTitleTime","dshow.idvdinfo_gettotaltitletime","strmif/IDvdInfo::GetTotalTitleTime"]
 old-location: dshow\idvdinfo_gettotaltitletime.htm
 tech.root: DirectShow
 ms.assetid: 90f3a053-edc8-4e42-ae00-31d66d9e3115

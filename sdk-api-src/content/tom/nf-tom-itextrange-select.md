@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.Select
 title: ITextRange::Select (tom.h)
-description: Sets the start and end positions, and story values of the active selection, to those of this range.
+description: Sets the start and end positions, and story values of the active selection, to those of this range.helpviewer_keywords: ["ITextRange interface [Windows Controls]","Select method","ITextRange.Select","ITextRange::Select","Select","Select method [Windows Controls]","Select method [Windows Controls]","ITextRange interface","_win32_ITextRange_Select","_win32_ITextRange_Select_cpp","controls.ITextRange_Select","controls._win32_ITextRange_Select","tom/ITextRange::Select"]
 old-location: controls\ITextRange_Select.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\select.htm

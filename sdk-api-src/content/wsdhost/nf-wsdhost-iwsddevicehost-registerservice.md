@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RegisterService
 title: IWSDDeviceHost::RegisterService (wsdhost.h)
-description: Registers a service object for incoming requests and adds the service to the device host metadata.
+description: Registers a service object for incoming requests and adds the service to the device host metadata.helpviewer_keywords: ["IWSDDeviceHost interface","RegisterService method","IWSDDeviceHost.RegisterService","IWSDDeviceHost::RegisterService","RegisterService","RegisterService method","RegisterService method","IWSDDeviceHost interface","ncd.iwsddevicehost_registerservice_method","wsdhost/IWSDDeviceHost::RegisterService"]
 old-location: ncd\iwsddevicehost_registerservice_method.htm
 tech.root: WsdApi
 ms.assetid: 8e125e72-4060-4be6-b370-b2f6b24d9da7

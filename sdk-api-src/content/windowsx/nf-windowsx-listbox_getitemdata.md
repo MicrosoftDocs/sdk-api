@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ListBox_GetItemData
 title: ListBox_GetItemData macro (windowsx.h)
-description: Gets the application-defined value associated with the specified list box item. You can use this macro or send the LB_GETITEMDATA message explicitly.
+description: Gets the application-defined value associated with the specified list box item. You can use this macro or send the LB_GETITEMDATA message explicitly.helpviewer_keywords: ["ListBox_GetItemData","ListBox_GetItemData macro [Windows Controls]","_win32_ListBox_GetItemData","_win32_ListBox_GetItemData_cpp","controls.ListBox_GetItemData","controls._win32_ListBox_GetItemData","windowsx/ListBox_GetItemData"]
 old-location: controls\ListBox_GetItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemdata.htm

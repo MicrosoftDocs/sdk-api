@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT
 title: SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT (clusapi.h)
-description: Describes a retrieved set of replicated disks.
+description: Describes a retrieved set of replicated disks.helpviewer_keywords: ["*PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT","PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT","PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT structure pointer [Failover Cluster]","SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT","SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT structure [Failover Cluster]","clusapi/PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT","clusapi/SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT","mscs.sr_resource_type_replicated_disks_result"]
 old-location: mscs\sr_resource_type_replicated_disks_result.htm
 tech.root: MsCS
 ms.assetid: 1A4FA103-542A-4B9B-83F5-4ED5AE266389

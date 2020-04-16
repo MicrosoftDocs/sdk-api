@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingBox.operator-assign
 title: BoundingBox::operator-assign
-description: Copies values from another BoundingBox.
+description: Copies values from another BoundingBox.helpviewer_keywords: ["BoundingBox interface [DirectX Math Support APIs]","op_Assignment method","BoundingBox.op_Assignment","BoundingBox.operator-assign","BoundingBox.operator=","BoundingBox::operator-assign","BoundingBox::operator=","Use DirectX..BoundingBox.op_Assignment","Use DirectX::::BoundingBox::op_Assignment","dxmath.boundingbox_op_assignment","op_Assignment method [DirectX Math Support APIs]","op_Assignment method [DirectX Math Support APIs]","BoundingBox interface","operator="]
 old-location: dxmath\boundingbox_op_assignment.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.op_Assignment(BoundingBox)

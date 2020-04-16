@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.InitializeSynchronizationBarrier
 title: InitializeSynchronizationBarrier function (synchapi.h)
-description: Initializes a new synchronization barrier.
+description: Initializes a new synchronization barrier.helpviewer_keywords: ["InitializeSynchronizationBarrier","InitializeSynchronizationBarrier function","base.initializesynchronizationbarrier","synchapi/InitializeSynchronizationBarrier"]
 old-location: base\initializesynchronizationbarrier.htm
 tech.root: Sync
 ms.assetid: f69934a1-ee1f-4400-ae3e-cb9a19feff93

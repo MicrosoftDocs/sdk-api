@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_OwnerSid
 title: IFsrmPropertyBag::get_OwnerSid (fsrmpipeline.h)
-description: The SID of the owner of the file.
+description: The SID of the owner of the file.helpviewer_keywords: ["IFsrmPropertyBag interface [File Server Resource Manager]","OwnerSid property","IFsrmPropertyBag.OwnerSid","IFsrmPropertyBag.get_OwnerSid","IFsrmPropertyBag::OwnerSid","IFsrmPropertyBag::get_OwnerSid","OwnerSid property [File Server Resource Manager]","OwnerSid property [File Server Resource Manager]","IFsrmPropertyBag interface","fs.ifsrmpropertybag_ownersid","fsrm.ifsrmpropertybag_ownersid","fsrmpipeline/IFsrmPropertyBag::OwnerSid","fsrmpipeline/IFsrmPropertyBag::get_OwnerSid","get_OwnerSid"]
 old-location: fsrm\ifsrmpropertybag_ownersid.htm
 tech.root: fsrm
 ms.assetid: bb2b0872-9553-40d3-a9b0-7602266c28da

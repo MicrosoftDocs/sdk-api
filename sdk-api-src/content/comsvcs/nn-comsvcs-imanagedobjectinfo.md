@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IManagedObjectInfo
 title: IManagedObjectInfo (comsvcs.h)
-description: Describes the stub for a managed object.
+description: Describes the stub for a managed object.helpviewer_keywords: ["IManagedObjectInfo","IManagedObjectInfo interface [COM+]","IManagedObjectInfo interface [COM+]","described","_cos_IManagedObjectInfo","comsvcs/IManagedObjectInfo","cos.imanagedobjectinfo"]
 old-location: cos\imanagedobjectinfo.htm
 tech.root: cossdk
 ms.assetid: 7fa5f76e-df07-41b3-8fb0-62b84a034aa5

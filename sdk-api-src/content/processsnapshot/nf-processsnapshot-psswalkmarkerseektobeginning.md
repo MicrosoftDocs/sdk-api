@@ -1,7 +1,7 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerSeekToBeginning
 title: PssWalkMarkerSeekToBeginning function (processsnapshot.h)
-description: Rewinds a walk marker back to the beginning.
+description: Rewinds a walk marker back to the beginning.helpviewer_keywords: ["PssWalkMarkerSeekToBeginning","PssWalkMarkerSeekToBeginning function","proc_snap.psswalkmarkerseektobeginning","processsnapshot/PssWalkMarkerSeekToBeginning"]
 old-location: proc_snap\psswalkmarkerseektobeginning.htm
 tech.root: proc_snap
 ms.assetid: BE0FA122-3966-4827-9DA3-A98A162EF270

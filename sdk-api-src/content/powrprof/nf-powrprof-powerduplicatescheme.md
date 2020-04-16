@@ -1,7 +1,7 @@
 ---
 UID: NF:powrprof.PowerDuplicateScheme
 title: PowerDuplicateScheme function (powrprof.h)
-description: Duplicates an existing power scheme.
+description: Duplicates an existing power scheme.helpviewer_keywords: ["PowerDuplicateScheme","PowerDuplicateScheme function","base.powerduplicatescheme","powrprof/PowerDuplicateScheme"]
 old-location: base\powerduplicatescheme.htm
 tech.root: power
 ms.assetid: e58dee69-309c-4b52-bf28-f54b300801b9

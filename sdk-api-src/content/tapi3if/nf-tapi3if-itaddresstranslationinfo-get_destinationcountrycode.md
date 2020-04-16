@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITAddressTranslationInfo.get_DestinationCountryCode
 title: ITAddressTranslationInfo::get_DestinationCountryCode (tapi3if.h)
-description: Retrieves the country/region code for the call destination.
+description: Retrieves the country/region code for the call destination.helpviewer_keywords: ["ITAddressTranslationInfo interface [TAPI 2.2]","get_DestinationCountryCode method","ITAddressTranslationInfo.get_DestinationCountryCode","ITAddressTranslationInfo::get_DestinationCountryCode","_tapi3_itaddresstranslationinfo_get_destinationcountrycode","get_DestinationCountryCode","get_DestinationCountryCode method [TAPI 2.2]","get_DestinationCountryCode method [TAPI 2.2]","ITAddressTranslationInfo interface","tapi3.itaddresstranslationinfo_get_destinationcountrycode","tapi3if/ITAddressTranslationInfo::get_DestinationCountryCode"]
 old-location: tapi3\itaddresstranslationinfo_get_destinationcountrycode.htm
 tech.root: Tapi
 ms.assetid: 29880773-ce19-489f-81d8-d2c91779350f

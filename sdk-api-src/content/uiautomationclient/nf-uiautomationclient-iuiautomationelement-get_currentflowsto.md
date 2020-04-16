@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentFlowsTo
 title: IUIAutomationElement::get_CurrentFlowsTo (uiautomationclient.h)
-description: Retrieves an array of elements that indicates the reading order after the current element.
+description: Retrieves an array of elements that indicates the reading order after the current element.helpviewer_keywords: ["CurrentFlowsTo property [Windows Accessibility]","CurrentFlowsTo property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentFlowsTo property","IUIAutomationElement.CurrentFlowsTo","IUIAutomationElement.get_CurrentFlowsTo","IUIAutomationElement::CurrentFlowsTo","IUIAutomationElement::get_CurrentFlowsTo","get_CurrentFlowsTo","uiauto.uiauto_IUIAutomationElement_CurrentFlowsTo","uiauto_IUIAutomationElement_CurrentFlowsTo","uiautomationclient/IUIAutomationElement::CurrentFlowsTo","uiautomationclient/IUIAutomationElement::get_CurrentFlowsTo","winauto.uiauto_IUIAutomationElement_CurrentFlowsTo"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentFlowsTo.htm
 tech.root: WinAuto
 ms.assetid: 4b807101-1a80-4f2b-a1d3-a08cd654ec44

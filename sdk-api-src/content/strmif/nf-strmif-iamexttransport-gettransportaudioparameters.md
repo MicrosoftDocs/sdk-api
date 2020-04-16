@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetTransportAudioParameters
 title: IAMExtTransport::GetTransportAudioParameters (strmif.h)
-description: The GetTransportAudioParameters method retrieves audio parameter setting for external transport.
+description: The GetTransportAudioParameters method retrieves audio parameter setting for external transport.helpviewer_keywords: ["GetTransportAudioParameters","GetTransportAudioParameters method [DirectShow]","GetTransportAudioParameters method [DirectShow]","IAMExtTransport interface","IAMExtTransport interface [DirectShow]","GetTransportAudioParameters method","IAMExtTransport.GetTransportAudioParameters","IAMExtTransport::GetTransportAudioParameters","IAMExtTransportGetTransportAudioParameters","dshow.iamexttransport_gettransportaudioparameters","strmif/IAMExtTransport::GetTransportAudioParameters"]
 old-location: dshow\iamexttransport_gettransportaudioparameters.htm
 tech.root: DirectShow
 ms.assetid: 90650920-f151-4e19-9133-4f1eb5eecbc2

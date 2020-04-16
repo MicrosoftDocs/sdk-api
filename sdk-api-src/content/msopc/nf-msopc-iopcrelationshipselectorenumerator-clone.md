@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorEnumerator.Clone
 title: IOpcRelationshipSelectorEnumerator::Clone (msopc.h)
-description: Creates a copy of the current IOpcRelationshipSelectorEnumeratorinterface pointer and all its descendants.
+description: Creates a copy of the current IOpcRelationshipSelectorEnumeratorinterface pointer and all its descendants.helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcRelationshipSelectorEnumerator interface","IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions]","Clone method","IOpcRelationshipSelectorEnumerator.Clone","IOpcRelationshipSelectorEnumerator::Clone","msopc/IOpcRelationshipSelectorEnumerator::Clone","opc.iopcrelationshipselectorenumerator_clone"]
 old-location: opc\iopcrelationshipselectorenumerator_clone.htm
 tech.root: OPC
 ms.assetid: 3eaf4b51-201d-43de-a9b7-408306992629

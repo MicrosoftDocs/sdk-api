@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetGeometry
 title: IXpsOMPath::GetGeometry (xpsobjectmodel.h)
-description: Gets a pointer to the path's IXpsOMGeometry interface, which describes the resolved fill area for this path.
+description: Gets a pointer to the path's IXpsOMGeometry interface, which describes the resolved fill area for this path.helpviewer_keywords: ["GetGeometry","GetGeometry method [XPS Documents and Packaging]","GetGeometry method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetGeometry method","IXpsOMPath.GetGeometry","IXpsOMPath::GetGeometry","xps.ixpsompath_getgeometry","xpsobjectmodel/IXpsOMPath::GetGeometry"]
 old-location: xps\ixpsompath_getgeometry.htm
 tech.root: printdocs
 ms.assetid: c4a99bf6-09d8-426a-8878-1126578c4518

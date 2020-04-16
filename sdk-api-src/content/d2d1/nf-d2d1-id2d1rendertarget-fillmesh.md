@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillMesh
 title: ID2D1RenderTarget::FillMesh (d2d1.h)
-description: Paints the interior of the specified mesh.
+description: Paints the interior of the specified mesh.helpviewer_keywords: ["FillMesh","FillMesh method [Direct2D]","FillMesh method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","FillMesh method","ID2D1RenderTarget.FillMesh","ID2D1RenderTarget::FillMesh","d2d1/ID2D1RenderTarget::FillMesh","direct2d.ID2D1RenderTarget_FillMesh"]
 old-location: direct2d\ID2D1RenderTarget_FillMesh.htm
 tech.root: Direct2D
 ms.assetid: e22c9169-e770-4f3d-819b-b9363b6e6542

@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilEnumResourcesEx
 title: ResUtilEnumResourcesEx function (resapi.h)
-description: Enumerates all of the resources in a specified cluster and initiates a user-defined operation for each resource. The PRESUTIL_ENUM_RESOURCES_EX type defines a pointer to this function.
+description: Enumerates all of the resources in a specified cluster and initiates a user-defined operation for each resource. The PRESUTIL_ENUM_RESOURCES_EX type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_ENUM_RESOURCES_EX","PRESUTIL_ENUM_RESOURCES_EX function [Failover Cluster]","ResUtilEnumResourcesEx","ResUtilEnumResourcesEx function [Failover Cluster]","_wolf_resutilenumresourcesex","mscs.resutilenumresourcesex","resapi/PRESUTIL_ENUM_RESOURCES_EX","resapi/ResUtilEnumResourcesEx"]
 old-location: mscs\resutilenumresourcesex.htm
 tech.root: MsCS
 ms.assetid: e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f

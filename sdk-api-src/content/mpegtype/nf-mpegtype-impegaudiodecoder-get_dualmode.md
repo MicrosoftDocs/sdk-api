@@ -1,7 +1,7 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_DualMode
 title: IMpegAudioDecoder::get_DualMode (mpegtype.h)
-description: Returns which channel is currently being decoded.
+description: Returns which channel is currently being decoded.helpviewer_keywords: ["IMpegAudioDecoder interface [DirectShow]","get_DualMode method","IMpegAudioDecoder.get_DualMode","IMpegAudioDecoder::get_DualMode","IMpegAudioDecodergetDualMode","dshow.impegaudiodecoder_get_dualmode","get_DualMode","get_DualMode method [DirectShow]","get_DualMode method [DirectShow]","IMpegAudioDecoder interface","mpegtype/IMpegAudioDecoder::get_DualMode"]
 old-location: dshow\impegaudiodecoder_get_dualmode.htm
 tech.root: DirectShow
 ms.assetid: 3b536e8c-91eb-4c32-955f-b343f2c8e16f

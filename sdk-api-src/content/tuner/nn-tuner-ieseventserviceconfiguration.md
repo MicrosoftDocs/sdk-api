@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IESEventServiceConfiguration
 title: IESEventServiceConfiguration (tuner.h)
-description: Contains methods that configure an event service that implements the IESEventService interface.
+description: Contains methods that configure an event service that implements the IESEventService interface.helpviewer_keywords: ["IESEventServiceConfiguration","IESEventServiceConfiguration interface [Microsoft TV Technologies]","IESEventServiceConfiguration interface [Microsoft TV Technologies]","described","mstv.ieseventserviceconfiguration","tuner/IESEventServiceConfiguration"]
 old-location: mstv\ieseventserviceconfiguration.htm
 tech.root: mstv
 ms.assetid: 0b901732-42e1-4f50-904c-75d8202bb5b7

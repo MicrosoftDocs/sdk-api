@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IESIsdbCasResponseEvent.GetRequestId
 title: IESIsdbCasResponseEvent::GetRequestId (tuner.h)
-description: Gets the request identifier returned in an IsdbCasResponse event. The request identifier identifies the request originated by a PBDA media sink device (MSD).
+description: Gets the request identifier returned in an IsdbCasResponse event. The request identifier identifies the request originated by a PBDA media sink device (MSD).helpviewer_keywords: ["GetRequestId","GetRequestId method [DirectShow]","GetRequestId method [DirectShow]","IESIsdbCasResponseEvent interface","IESIsdbCasResponseEvent interface [DirectShow]","GetRequestId method","IESIsdbCasResponseEvent.GetRequestId","IESIsdbCasResponseEvent::GetRequestId","mstv.iesisdbcasresponseevent_getrequestid","tuner/IESIsdbCasResponseEvent::GetRequestId"]
 old-location: mstv\iesisdbcasresponseevent_getrequestid.htm
 tech.root: mstv
 ms.assetid: b3ab39b4-567f-49a5-b3d2-460ec648ab26

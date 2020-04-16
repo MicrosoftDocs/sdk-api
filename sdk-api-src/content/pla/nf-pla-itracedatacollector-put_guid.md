@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_Guid
 title: ITraceDataCollector::put_Guid (pla.h)
-description: Retrieves or sets the session GUID.
+description: Retrieves or sets the session GUID.helpviewer_keywords: ["Guid property [PLA]","Guid property [PLA]","ITraceDataCollector interface","ITraceDataCollector interface [PLA]","Guid property","ITraceDataCollector.Guid","ITraceDataCollector.put_Guid","ITraceDataCollector::Guid","ITraceDataCollector::get_Guid","ITraceDataCollector::put_Guid","base.itracedatacollector_guid","pla.itracedatacollector_guid","pla/ITraceDataCollector::Guid","pla/ITraceDataCollector::get_Guid","pla/ITraceDataCollector::put_Guid","put_Guid"]
 old-location: pla\itracedatacollector_guid.htm
 tech.root: PLA
 ms.assetid: 9f5ef256-725f-4cba-8fe7-a689045b8e66

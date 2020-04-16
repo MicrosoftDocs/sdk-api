@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IInstallationJob.get_AsyncState
 title: IInstallationJob::get_AsyncState (wuapi.h)
-description: Gets the caller-specific state object that is passed to the IUpdateInstaller.BeginInstall method or to the IUpdateInstaller.BeginUninstall method.
+description: Gets the caller-specific state object that is passed to the IUpdateInstaller.BeginInstall method or to the IUpdateInstaller.BeginUninstall method.helpviewer_keywords: ["AsyncState property [Windows Update Agent]","AsyncState property [Windows Update Agent]","IInstallationJob interface","IInstallationJob interface [Windows Update Agent]","AsyncState property","IInstallationJob.AsyncState","IInstallationJob.get_AsyncState","IInstallationJob::AsyncState","IInstallationJob::get_AsyncState","get_AsyncState","wua.iinstallationjob_asyncstate","wuapi/IInstallationJob::AsyncState","wuapi/IInstallationJob::get_AsyncState"]
 old-location: wua\iinstallationjob_asyncstate.htm
 tech.root: Wua_Sdk
 ms.assetid: ff3632de-4fb7-4e82-a642-9c9b38f4063c

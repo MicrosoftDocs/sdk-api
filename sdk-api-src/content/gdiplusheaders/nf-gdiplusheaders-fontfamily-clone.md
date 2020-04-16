@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.Clone
 title: FontFamily::Clone (gdiplusheaders.h)
-description: The FontFamily::Clone method creates a new FontFamily object based on this FontFamily object.
+description: The FontFamily::Clone method creates a new FontFamily object based on this FontFamily object.helpviewer_keywords: ["Clone","Clone method [GDI+]","Clone method [GDI+]","FontFamily class","FontFamily class [GDI+]","Clone method","FontFamily.Clone","FontFamily::Clone","_gdiplus_CLASS_FontFamily_Clone_","gdiplus._gdiplus_CLASS_FontFamily_Clone_"]
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\clone_58.htm

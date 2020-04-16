@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.CloseMmiDialog
 title: IBDA_ConditionalAccessEx::CloseMmiDialog (bdaiface.h)
-description: Notifies the Conditional Access Service (CAS) that the media sink device (MSD) has closed a user interface (MMI) dialog.
+description: Notifies the Conditional Access Service (CAS) that the media sink device (MSD) has closed a user interface (MMI) dialog.helpviewer_keywords: ["CloseMmiDialog","CloseMmiDialog method [Microsoft TV Technologies]","CloseMmiDialog method [Microsoft TV Technologies]","IBDA_ConditionalAccessEx interface","IBDA_ConditionalAccessEx interface [Microsoft TV Technologies]","CloseMmiDialog method","IBDA_ConditionalAccessEx.CloseMmiDialog","IBDA_ConditionalAccessEx::CloseMmiDialog","bdaiface/IBDA_ConditionalAccessEx::CloseMmiDialog","mstv.ibda_conditionalaccessex_closemmidialog"]
 old-location: mstv\ibda_conditionalaccessex_closemmidialog.htm
 tech.root: mstv
 ms.assetid: 30cba76b-ae52-4c87-a88e-faa9ad3f12f9

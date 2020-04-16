@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.XAudio2CutoffFrequencyToRadians
 title: XAudio2CutoffFrequencyToRadians function (xaudio2.h)
-description: Inline function that converts from filter cutoff frequencies expressed in hertz to the radian frequency values used in the Frequency member of the XAUDIO2_FILTER_PARAMETERS structure.
+description: Inline function that converts from filter cutoff frequencies expressed in hertz to the radian frequency values used in the Frequency member of the XAUDIO2_FILTER_PARAMETERS structure.helpviewer_keywords: ["XAudio2CutoffFrequencyToRadians","XAudio2CutoffFrequencyToRadians function [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2cutofffrequencytoradians","xaudio2/XAudio2CutoffFrequencyToRadians"]
 old-location: xaudio2\xaudio2cutofffrequencytoradians.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CutoffFrequencyToRadians(float,UINT32)

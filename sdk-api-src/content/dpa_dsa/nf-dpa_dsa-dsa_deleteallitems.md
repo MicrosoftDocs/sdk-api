@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DSA_DeleteAllItems
 title: DSA_DeleteAllItems function (dpa_dsa.h)
-description: Deletes all items from a dynamic structure array (DSA).
+description: Deletes all items from a dynamic structure array (DSA).helpviewer_keywords: ["DSA_DeleteAllItems","DSA_DeleteAllItems function [Windows Controls]","_shell_DSA_DeleteAllItems","_shell_DSA_DeleteAllItems_cpp","controls.DSA_DeleteAllItems","controls._shell_DSA_DeleteAllItems","dpa_dsa/DSA_DeleteAllItems"]
 old-location: controls\DSA_DeleteAllItems.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_deleteallitems.htm

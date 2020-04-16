@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.CheckEntitlementToken
 title: IBDA_ConditionalAccessEx::CheckEntitlementToken (bdaiface.h)
-description: Checks the access availability of content that is identified by an entitlement token.
+description: Checks the access availability of content that is identified by an entitlement token.helpviewer_keywords: ["CheckEntitlementToken","CheckEntitlementToken method [Microsoft TV Technologies]","CheckEntitlementToken method [Microsoft TV Technologies]","IBDA_ConditionalAccessEx interface","IBDA_ConditionalAccessEx interface [Microsoft TV Technologies]","CheckEntitlementToken method","IBDA_ConditionalAccessEx.CheckEntitlementToken","IBDA_ConditionalAccessEx::CheckEntitlementToken","bdaiface/IBDA_ConditionalAccessEx::CheckEntitlementToken","mstv.ibda_conditionalaccessex_checkentitlementtoken"]
 old-location: mstv\ibda_conditionalaccessex_checkentitlementtoken.htm
 tech.root: mstv
 ms.assetid: ea581065-b10b-4a2a-9090-99d6fd140ea9

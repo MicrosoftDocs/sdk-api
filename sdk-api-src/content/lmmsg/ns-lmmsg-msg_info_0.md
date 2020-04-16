@@ -1,7 +1,7 @@
 ---
 UID: NS:lmmsg._MSG_INFO_0
 title: MSG_INFO_0 (lmmsg.h)
-description: The MSG_INFO_0 structure specifies a message alias.
+description: The MSG_INFO_0 structure specifies a message alias.helpviewer_keywords: ["*LPMSG_INFO_0","*PMSG_INFO_0","LPMSG_INFO_0","LPMSG_INFO_0 structure pointer [Network Management]","MSG_INFO_0","MSG_INFO_0 structure [Network Management]","PMSG_INFO_0","PMSG_INFO_0 structure pointer [Network Management]","_win32_msg_info_0_str","lmmsg/LPMSG_INFO_0","lmmsg/MSG_INFO_0","lmmsg/PMSG_INFO_0","netmgmt.msg_info_0_str"]
 old-location: netmgmt\msg_info_0_str.htm
 tech.root: NetMgmt
 ms.assetid: bc409abd-8c76-4310-b9e3-05fc4e0d253e

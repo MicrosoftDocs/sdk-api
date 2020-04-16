@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.IsSystemResumeAutomatic
 title: IsSystemResumeAutomatic function (winbase.h)
-description: Determines the current state of the computer.
+description: Determines the current state of the computer.helpviewer_keywords: ["IsSystemResumeAutomatic","IsSystemResumeAutomatic function","_win32_issystemresumeautomatic","base.issystemresumeautomatic","winbase/IsSystemResumeAutomatic"]
 old-location: base\issystemresumeautomatic.htm
 tech.root: power
 ms.assetid: fc9d69cf-26cf-4973-a154-1acb26773738

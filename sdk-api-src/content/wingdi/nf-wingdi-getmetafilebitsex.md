@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetMetaFileBitsEx
 title: GetMetaFileBitsEx function (wingdi.h)
-description: The GetMetaFileBitsEx function retrieves the contents of a Windows-format metafile and copies them into the specified buffer.
+description: The GetMetaFileBitsEx function retrieves the contents of a Windows-format metafile and copies them into the specified buffer.helpviewer_keywords: ["GetMetaFileBitsEx","GetMetaFileBitsEx function [Windows GDI]","_win32_GetMetaFileBitsEx","gdi.getmetafilebitsex","wingdi/GetMetaFileBitsEx"]
 old-location: gdi\getmetafilebitsex.htm
 tech.root: gdi
 ms.assetid: 6ca6de2e-79cb-4503-a0d7-f616b8e383eb

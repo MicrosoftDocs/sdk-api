@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoGetStdMarshalEx
 title: CoGetStdMarshalEx function (combaseapi.h)
-description: Creates an aggregated standard marshaler for use with lightweight client-side handlers.
+description: Creates an aggregated standard marshaler for use with lightweight client-side handlers.helpviewer_keywords: ["CoGetStdMarshalEx","CoGetStdMarshalEx function [COM]","SMEXF_HANDLER","SMEXF_SERVER","_com_CoGetStdMarshalEx","com.cogetstdmarshalex","combaseapi/CoGetStdMarshalEx"]
 old-location: com\cogetstdmarshalex.htm
 tech.root: com
 ms.assetid: 405c5ff3-8702-48b3-9be9-df4a9461696e

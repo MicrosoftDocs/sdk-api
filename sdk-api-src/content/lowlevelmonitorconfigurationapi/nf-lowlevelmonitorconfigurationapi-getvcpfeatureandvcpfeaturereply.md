@@ -1,7 +1,7 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.GetVCPFeatureAndVCPFeatureReply
 title: GetVCPFeatureAndVCPFeatureReply function (lowlevelmonitorconfigurationapi.h)
-description: Retrieves the current value, maximum value, and code type of a Virtual Control Panel (VCP) code for a monitor.
+description: Retrieves the current value, maximum value, and code type of a Virtual Control Panel (VCP) code for a monitor.helpviewer_keywords: ["GetVCPFeatureAndVCPFeatureReply","GetVCPFeatureAndVCPFeatureReply function [Monitor Configuration]","lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply","monitor.getvcpfeatureandvcpfeaturereply"]
 old-location: monitor\getvcpfeatureandvcpfeaturereply.htm
 tech.root: Monitor
 ms.assetid: b0b06137-8f67-46fc-ba6b-3022f3331fa5

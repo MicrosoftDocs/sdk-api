@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex._IFaxAccountNotify.OnOutgoingMessageRemoved
 title: _IFaxAccountNotify::OnOutgoingMessageRemoved (faxcomex.h)
-description: Called by the fax service when an outgoing message is removed from the outbound fax archive.
+description: Called by the fax service when an outgoing message is removed from the outbound fax archive.helpviewer_keywords: ["IFaxAccountNotify.OnOutgoingMessageRemoved","OnOutgoingMessageRemoved","OnOutgoingMessageRemoved method [Fax Service]","OnOutgoingMessageRemoved method [Fax Service]","_IFaxAccountNotify interface","_IFaxAccountNotify interface [Fax Service]","OnOutgoingMessageRemoved method","_IFaxAccountNotify.OnOutgoingMessageRemoved","_IFaxAccountNotify::OnOutgoingMessageRemoved","_mfax_ifaxaccountnotify_onoutgoingmessageremoved","fax._mfax_ifaxaccountnotify_onoutgoingmessageremoved","faxcomex/_IFaxAccountNotify::OnOutgoingMessageRemoved"]
 old-location: fax\_mfax_ifaxaccountnotify_onoutgoingmessageremoved.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onongoingmessageremoved.htm

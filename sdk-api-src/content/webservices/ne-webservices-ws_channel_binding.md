@@ -1,7 +1,7 @@
 ---
 UID: NE:webservices.__unnamed_enum_18
 title: WS_CHANNEL_BINDING (webservices.h)
-description: Indicates the protocol stack to use for the channel.
+description: Indicates the protocol stack to use for the channel.helpviewer_keywords: ["WS_CHANNEL_BINDING","WS_CHANNEL_BINDING enumeration [Web Services for Windows]","WS_CUSTOM_CHANNEL_BINDING","WS_HTTP_CHANNEL_BINDING","WS_NAMEDPIPE_CHANNEL_BINDING","WS_TCP_CHANNEL_BINDING","WS_UDP_CHANNEL_BINDING","webservices/WS_CHANNEL_BINDING","webservices/WS_CUSTOM_CHANNEL_BINDING","webservices/WS_HTTP_CHANNEL_BINDING","webservices/WS_NAMEDPIPE_CHANNEL_BINDING","webservices/WS_TCP_CHANNEL_BINDING","webservices/WS_UDP_CHANNEL_BINDING","wsw.ws_channel_binding"]
 old-location: wsw\ws_channel_binding.htm
 tech.root: wsw
 ms.assetid: 554cc239-feab-4262-9821-6478a3d93ffc

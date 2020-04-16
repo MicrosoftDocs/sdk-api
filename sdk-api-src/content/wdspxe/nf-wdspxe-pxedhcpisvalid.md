@@ -1,7 +1,7 @@
 ---
 UID: NF:wdspxe.PxeDhcpIsValid
 title: PxeDhcpIsValid function (wdspxe.h)
-description: Validates that a packet is a DHCP packet.
+description: Validates that a packet is a DHCP packet.helpviewer_keywords: ["FALSE","PxeDhcpIsValid","PxeDhcpIsValid function [Windows Deployment Services]","TRUE","wds.pxedhcpisvalid","wdspxe/PxeDhcpIsValid"]
 old-location: wds\pxedhcpisvalid.htm
 tech.root: wds
 ms.assetid: b5f43afb-ab71-4edf-a48a-7315d19af913

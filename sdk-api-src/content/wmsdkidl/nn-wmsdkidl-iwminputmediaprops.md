@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMInputMediaProps
 title: IWMInputMediaProps (wmsdkidl.h)
-description: The IWMInputMediaProps interface is used to retrieve the properties of digital media that will be passed to the writer.An input media properties object is created by a call to either the IWMWriter::GetInputProps or IWMWriter::GetInputFormat method.
+description: The IWMInputMediaProps interface is used to retrieve the properties of digital media that will be passed to the writer.An input media properties object is created by a call to either the IWMWriter::GetInputProps or IWMWriter::GetInputFormat method.helpviewer_keywords: ["IWMInputMediaProps","IWMInputMediaProps interface [windows Media Format]","IWMInputMediaProps interface [windows Media Format]","described","IWMInputMediaPropsInterface","wmformat.iwminputmediaprops","wmsdkidl/IWMInputMediaProps"]
 old-location: wmformat\iwminputmediaprops.htm
 tech.root: wmformat
 ms.assetid: d901ac66-d4b3-4256-bd7b-53cccb3de644

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateCommandSignature
 title: ID3D12Device::CreateCommandSignature (d3d12.h)
-description: This method creates a command signature.
+description: This method creates a command signature.helpviewer_keywords: ["CreateCommandSignature","CreateCommandSignature method","CreateCommandSignature method","ID3D12Device interface","ID3D12Device interface","CreateCommandSignature method","ID3D12Device.CreateCommandSignature","ID3D12Device::CreateCommandSignature","d3d12/ID3D12Device::CreateCommandSignature","direct3d12.id3d12device_createcommandsignature"]
 old-location: direct3d12\id3d12device_createcommandsignature.htm
 tech.root: direct3d12
 ms.assetid: 5A44F907-C6E0-4548-A227-84F0CF2EE837

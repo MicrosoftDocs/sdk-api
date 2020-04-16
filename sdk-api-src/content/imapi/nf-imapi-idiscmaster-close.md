@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi.IDiscMaster.Close
 title: IDiscMaster::Close (imapi.h)
-description: Closes the interface so other applications can use it.
+description: Closes the interface so other applications can use it.helpviewer_keywords: ["Close","Close method [IMAPI]","Close method [IMAPI]","IDiscMaster interface","IDiscMaster interface [IMAPI]","Close method","IDiscMaster.Close","IDiscMaster::Close","_win32_idiscmaster_close","base.idiscmaster_close","imapi.idiscmaster_close","imapi/IDiscMaster::Close"]
 old-location: imapi\idiscmaster_close.htm
 tech.root: imapi
 ms.assetid: c5ebeca1-baaa-49ac-87ac-134d4b37e8c9

@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemContext.Next
 title: IWbemContext::Next (wbemcli.h)
-description: The IWbemContext::Next method retrieves the next value in an enumeration of all context values beginning with IWbemContext::BeginEnumeration.
+description: The IWbemContext::Next method retrieves the next value in an enumeration of all context values beginning with IWbemContext::BeginEnumeration.helpviewer_keywords: ["IWbemContext interface [Windows Management Instrumentation]","Next method","IWbemContext.Next","IWbemContext::Next","Next","Next method [Windows Management Instrumentation]","Next method [Windows Management Instrumentation]","IWbemContext interface","_hmm_iwbemcontext_next","wbemcli/IWbemContext::Next","wmi.iwbemcontext_next"]
 old-location: wmi\iwbemcontext_next.htm
 tech.root: WmiSdk
 ms.assetid: e316564c-a739-472b-b7a8-8acbf71e1c58

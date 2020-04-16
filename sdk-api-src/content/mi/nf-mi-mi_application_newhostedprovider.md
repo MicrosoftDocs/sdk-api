@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Application_NewHostedProvider
 title: MI_Application_NewHostedProvider function (mi.h)
-description: Registers a hosted provider with the WMI engine on the local machine.
+description: Registers a hosted provider with the WMI engine on the local machine.helpviewer_keywords: ["MI_Application_NewHostedProvider","MI_Application_NewHostedProvider function [Windows Management Infrastructure (MI)]","mi/MI_Application_NewHostedProvider","wmi_v2.mi_application_newhostedprovider"]
 old-location: wmi_v2\mi_application_newhostedprovider.htm
 tech.root: wmi_v2
 ms.assetid: 4f39ffca-4ae3-4ce5-9460-c7ac27c06a50

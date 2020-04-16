@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IMemAllocatorNotifyCallbackTemp
 title: IMemAllocatorNotifyCallbackTemp (strmif.h)
-description: Enables a filter to receive a callback notification from an allocator whenever a sample is returned to the allocator's free list.
+description: Enables a filter to receive a callback notification from an allocator whenever a sample is returned to the allocator's free list.helpviewer_keywords: ["IMemAllocatorNotifyCallbackTemp","IMemAllocatorNotifyCallbackTemp interface [DirectShow]","IMemAllocatorNotifyCallbackTemp interface [DirectShow]","described","IMemAllocatorNotifyCallbackTempInterface","dshow.imemallocatornotifycallbacktemp","strmif/IMemAllocatorNotifyCallbackTemp"]
 old-location: dshow\imemallocatornotifycallbacktemp.htm
 tech.root: DirectShow
 ms.assetid: 63097b58-8197-4354-8b92-25baaf265df2

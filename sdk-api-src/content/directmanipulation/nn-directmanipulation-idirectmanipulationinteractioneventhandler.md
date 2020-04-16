@@ -1,7 +1,7 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationInteractionEventHandler
 title: IDirectManipulationInteractionEventHandler (directmanipulation.h)
-description: Defines methods to handle interactions when they are detected.
+description: Defines methods to handle interactions when they are detected.helpviewer_keywords: ["IDirectManipulationInteractionEventHandler","IDirectManipulationInteractionEventHandler interface [Direct Manipulation]","IDirectManipulationInteractionEventHandler interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationinteractioneventhandler","directmanipulation/IDirectManipulationInteractionEventHandler"]
 old-location: directmanipulation\idirectmanipulationinteractioneventhandler.htm
 tech.root: directmanipulation
 ms.assetid: 9B832530-54B8-4D18-A5E4-4F4CAE65073A

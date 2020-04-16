@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMScalarNearEqual
 title: XMScalarNearEqual function (directxmath.h)
-description: Determines if two floating-point values are nearly equal.
+description: Determines if two floating-point values are nearly equal.helpviewer_keywords: ["Use DirectX..XMScalarNearEqual","XMScalarNearEqual","XMScalarNearEqual method [DirectX Math Support APIs]","dxmath.xmscalarnearequal"]
 old-location: dxmath\xmscalarnearequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarNearEqual(float,float,float)

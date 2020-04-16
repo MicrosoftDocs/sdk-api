@@ -1,7 +1,7 @@
 ---
 UID: NE:virtdisk._DELETE_SNAPSHOT_VHDSET_FLAG
 title: DELETE_SNAPSHOT_VHDSET_FLAG (virtdisk.h)
-description: Contains flags affecting the behavior of the DeleteSnapshotVhdSet function.
+description: Contains flags affecting the behavior of the DeleteSnapshotVhdSet function.helpviewer_keywords: ["*PDELETE_SNAPSHOT_VHDSET_FLAG","DELETE_SNAPSHOT_VHDSET_FLAG","DELETE_SNAPSHOT_VHDSET_FLAG enumeration [VHD]","DELETE_SNAPSHOT_VHDSET_FLAG_NONE","DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT","PDELETE_SNAPSHOT_VHDSET_FLAG","PDELETE_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD]","vdssys/DELETE_SNAPSHOT_VHDSET_FLAG","vdssys/DELETE_SNAPSHOT_VHDSET_FLAG_NONE","vdssys/DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT","vdssys/PDELETE_SNAPSHOT_VHDSET_FLAG","vhd.delete_snapshot_vhdset_flag","virtdisk/DELETE_SNAPSHOT_VHDSET_FLAG","virtdisk/DELETE_SNAPSHOT_VHDSET_FLAG_NONE","virtdisk/DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT","virtdisk/PDELETE_SNAPSHOT_VHDSET_FLAG"]
 old-location: vhd\delete_snapshot_vhdset_flag.htm
 tech.root: VStor
 ms.assetid: 42B56389-8ECE-4127-A641-7F0A0A1E7D2D

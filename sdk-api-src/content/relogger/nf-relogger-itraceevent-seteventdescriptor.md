@@ -1,7 +1,7 @@
 ---
 UID: NF:relogger.ITraceEvent.SetEventDescriptor
 title: ITraceEvent::SetEventDescriptor (relogger.h)
-description: Sets the event descriptor for an event.
+description: Sets the event descriptor for an event.helpviewer_keywords: ["ITraceEvent interface [ETW]","SetEventDescriptor method","ITraceEvent.SetEventDescriptor","ITraceEvent::SetEventDescriptor","SetEventDescriptor","SetEventDescriptor method [ETW]","SetEventDescriptor method [ETW]","ITraceEvent interface","etw.ievent_seteventdescriptor","relogger/ITraceEvent::SetEventDescriptor"]
 old-location: etw\ievent_seteventdescriptor.htm
 tech.root: ETW
 ms.assetid: 729a887e-1759-44d5-a7d5-8385d648eebf

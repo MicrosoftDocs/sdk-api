@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IDirectorySearch.GetColumn
 title: IDirectorySearch::GetColumn (iads.h)
-description: The IDirectorySearch::GetColumn method gets data from a named column of the search result.
+description: The IDirectorySearch::GetColumn method gets data from a named column of the search result.helpviewer_keywords: ["GetColumn","GetColumn method [ADSI]","GetColumn method [ADSI]","IDirectorySearch interface","IDirectorySearch interface [ADSI]","GetColumn method","IDirectorySearch.GetColumn","IDirectorySearch::GetColumn","_ds_idirectorysearch_getcolumn","adsi.idirectorysearch__getcolumn","adsi.idirectorysearch_getcolumn","iads/IDirectorySearch::GetColumn"]
 old-location: adsi\idirectorysearch_getcolumn.htm
 tech.root: adsi
 ms.assetid: 3bcacb24-a4b4-4fad-ab7c-79ef7a67064d

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetIconSize
 title: ISearchFolderItemFactory::SetIconSize (shobjidl_core.h)
-description: Sets the search folder icon size, as specified. The default settings are based on the FolderTypeID which is set by the ISearchFolderItemFactory::SetFolderTypeID method.
+description: Sets the search folder icon size, as specified. The default settings are based on the FolderTypeID which is set by the ISearchFolderItemFactory::SetFolderTypeID method.helpviewer_keywords: ["ISearchFolderItemFactory interface [Windows Shell]","SetIconSize method","ISearchFolderItemFactory.SetIconSize","ISearchFolderItemFactory::SetIconSize","SetIconSize","SetIconSize method [Windows Shell]","SetIconSize method [Windows Shell]","ISearchFolderItemFactory interface","_shell_ISearchFolderItemFactory_SetIconSize","shell.ISearchFolderItemFactory_SetIconSize","shobjidl_core/ISearchFolderItemFactory::SetIconSize"]
 old-location: shell\ISearchFolderItemFactory_SetIconSize.htm
 tech.root: shell
 ms.assetid: a9a6650f-d9fe-43e8-aed5-9a7006883148

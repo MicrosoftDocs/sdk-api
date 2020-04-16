@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1Device6.CreateDeviceContext
 title: ID2D1Device6::CreateDeviceContext (d2d1_3.h)
-description: Creates a new device context with no initially assigned target.
+description: Creates a new device context with no initially assigned target.helpviewer_keywords: ["CreateDeviceContext","CreateDeviceContext method [Direct2D]","CreateDeviceContext method [Direct2D]","ID2D1Device6 interface","ID2D1Device6 interface [Direct2D]","CreateDeviceContext method","ID2D1Device6.CreateDeviceContext","ID2D1Device6::CreateDeviceContext","d2d1_3/ID2D1Device6::CreateDeviceContext","direct2d.id2d1device6_createdevicecontext"]
 old-location: direct2d\id2d1device6_createdevicecontext.htm
 tech.root: Direct2D
 ms.assetid: DF0BF258-7817-4F5A-A5FA-C04D4A1D0AB6

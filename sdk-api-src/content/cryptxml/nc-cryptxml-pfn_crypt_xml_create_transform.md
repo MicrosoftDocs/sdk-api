@@ -1,7 +1,7 @@
 ---
 UID: NC:cryptxml.PFN_CRYPT_XML_CREATE_TRANSFORM
 title: PFN_CRYPT_XML_CREATE_TRANSFORM (cryptxml.h)
-description: Creates a transform for a specified data provider.
+description: Creates a transform for a specified data provider.helpviewer_keywords: ["PFN_CRYPT_XML_CREATE_TRANSFORM","PFN_CRYPT_XML_CREATE_TRANSFORM callback","PFN_CRYPT_XML_CREATE_TRANSFORM callback function [Security]","cryptxml/PFN_CRYPT_XML_CREATE_TRANSFORM","security.pfn_crypt_xml_create_transform"]
 old-location: security\pfn_crypt_xml_create_transform.htm
 tech.root: SecCrypto
 ms.assetid: d9228015-d5e7-4c72-9561-be4ee5fa4264

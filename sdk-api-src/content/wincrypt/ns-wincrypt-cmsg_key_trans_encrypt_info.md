@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_TRANS_ENCRYPT_INFO
 title: CMSG_KEY_TRANS_ENCRYPT_INFO (wincrypt.h)
-description: Contains encryption information for a key transport recipient of enveloped data.
+description: Contains encryption information for a key transport recipient of enveloped data.helpviewer_keywords: ["*PCMSG_KEY_TRANS_ENCRYPT_INFO","CMSG_KEY_TRANS_ENCRYPT_FREE_OBJID_FLAG","CMSG_KEY_TRANS_ENCRYPT_FREE_PARA_FLAG","CMSG_KEY_TRANS_ENCRYPT_INFO","CMSG_KEY_TRANS_ENCRYPT_INFO structure [Security]","PCMSG_KEY_TRANS_ENCRYPT_INFO","PCMSG_KEY_TRANS_ENCRYPT_INFO structure pointer [Security]","security.cmsg_key_trans_encrypt_info","wincrypt/CMSG_KEY_TRANS_ENCRYPT_INFO","wincrypt/PCMSG_KEY_TRANS_ENCRYPT_INFO"]
 old-location: security\cmsg_key_trans_encrypt_info.htm
 tech.root: SecCrypto
 ms.assetid: f3122acb-92c8-4803-8c74-8b3a2cf2e16e

@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPService.InvokeAction
 title: IUPnPService::InvokeAction (upnp.h)
-description: Invokes a method on the device.
+description: Invokes a method on the device.helpviewer_keywords: ["IUPnPService interface [UPnP APIs]","InvokeAction method","IUPnPService.InvokeAction","IUPnPService::InvokeAction","InvokeAction","InvokeAction method [UPnP APIs]","InvokeAction method [UPnP APIs]","IUPnPService interface","_upnp_iupnpservice_invokeaction","upnp.iupnpservice_invokeaction","upnp/IUPnPService::InvokeAction"]
 old-location: upnp\iupnpservice_invokeaction.htm
 tech.root: upnp
 ms.assetid: fe8b4761-63cb-46a9-a7d0-5603cc1a5a58

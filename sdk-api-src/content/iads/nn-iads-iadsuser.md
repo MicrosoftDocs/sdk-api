@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsUser
 title: IADsUser (iads.h)
-description: The IADsUser interface is a dual interface that inherits from IADs.
+description: The IADsUser interface is a dual interface that inherits from IADs.helpviewer_keywords: ["IADsUser","IADsUser interface [ADSI]","IADsUser interface [ADSI]","described","_ds_iadsuser","adsi.iadsuser","iads/IADsUser"]
 old-location: adsi\iadsuser.htm
 tech.root: adsi
 ms.assetid: 6eea74c2-2d6d-4dfd-9a22-3da2d5ce49bf

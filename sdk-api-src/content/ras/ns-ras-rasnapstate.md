@@ -1,7 +1,7 @@
 ---
 UID: NS:ras._tagRasNapState
 title: RASNAPSTATE (ras.h)
-description: The Network Access Protection (NAP) variables for a remote access connection.
+description: The Network Access Protection (NAP) variables for a remote access connection.helpviewer_keywords: ["*LPRASNAPSTATE","LPRASNAPSTATE","LPRASNAPSTATE structure pointer [RAS]","RASNAPSTATE","RASNAPSTATE structure [RAS]","ras/LPRASNAPSTATE","ras/RASNAPSTATE","rras.rasnapstate"]
 old-location: rras\rasnapstate.htm
 tech.root: RRAS
 ms.assetid: 1cba931c-041a-4ec6-8c30-db3a02b59ec3

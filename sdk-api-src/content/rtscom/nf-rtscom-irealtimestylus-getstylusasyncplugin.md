@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStylusAsyncPlugin
 title: IRealTimeStylus::GetStylusAsyncPlugin (rtscom.h)
-description: Retrieves the plug-in at the specified index in the asynchronous plug-in collection.
+description: Retrieves the plug-in at the specified index in the asynchronous plug-in collection.helpviewer_keywords: ["229e14f6-e0b1-40e0-a58e-daf1ba08cd1f","GetStylusAsyncPlugin","GetStylusAsyncPlugin method [Tablet PC]","GetStylusAsyncPlugin method [Tablet PC]","IRealTimeStylus interface","IRealTimeStylus interface [Tablet PC]","GetStylusAsyncPlugin method","IRealTimeStylus.GetStylusAsyncPlugin","IRealTimeStylus::GetStylusAsyncPlugin","rtscom/IRealTimeStylus::GetStylusAsyncPlugin","tablet.irealtimestylus_getstylusasyncplugin"]
 old-location: tablet\irealtimestylus_getstylusasyncplugin.htm
 tech.root: tablet
 ms.assetid: 229e14f6-e0b1-40e0-a58e-daf1ba08cd1f

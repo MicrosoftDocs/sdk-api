@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_WasReAssigned
 title: IFaxIncomingMessage2::get_WasReAssigned (faxcomex.h)
-description: Indicates if the fax has been reassigned.
+description: Indicates if the fax has been reassigned.helpviewer_keywords: ["IFaxIncomingMessage2 interface [Fax Service]","WasReAssigned property","IFaxIncomingMessage2.WasReAssigned","IFaxIncomingMessage2.get_WasReAssigned","IFaxIncomingMessage2::WasReAssigned","IFaxIncomingMessage2::get_WasReAssigned","WasReAssigned property [Fax Service]","WasReAssigned property [Fax Service]","IFaxIncomingMessage2 interface","_mfax_faxincomingmessage.wasreassigned","fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_wasreassigned_cpp","fax._mfax_faxincomingmessage_wasreassigned","faxcomex/IFaxIncomingMessage2::WasReAssigned","faxcomex/IFaxIncomingMessage2::get_WasReAssigned","get_WasReAssigned"]
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_wasreassigned_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\wasreassigned.htm

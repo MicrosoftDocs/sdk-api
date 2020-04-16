@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesPinInfo.IsPinnedForUserByPolicy
 title: IOfflineFilesPinInfo::IsPinnedForUserByPolicy (cscobj.h)
-description: Determines whether the item was pinned for users by Group Policy.
+description: Determines whether the item was pinned for users by Group Policy.helpviewer_keywords: ["IOfflineFilesPinInfo interface [Offline Files]","IsPinnedForUserByPolicy method","IOfflineFilesPinInfo.IsPinnedForUserByPolicy","IOfflineFilesPinInfo::IsPinnedForUserByPolicy","IsPinnedForUserByPolicy","IsPinnedForUserByPolicy method [Offline Files]","IsPinnedForUserByPolicy method [Offline Files]","IOfflineFilesPinInfo interface","cscobj/IOfflineFilesPinInfo::IsPinnedForUserByPolicy","of.iofflinefilespininfo_ispinnedforuserbypolicy"]
 old-location: of\iofflinefilespininfo_ispinnedforuserbypolicy.htm
 tech.root: offlinefiles
 ms.assetid: fa5548e9-0a4e-4e66-a5ea-45d092c239b2

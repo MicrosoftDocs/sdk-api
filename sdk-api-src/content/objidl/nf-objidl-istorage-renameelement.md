@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IStorage.RenameElement
 title: IStorage::RenameElement (objidl.h)
-description: The RenameElement method renames the specified substorage or stream in this storage object.
+description: The RenameElement method renames the specified substorage or stream in this storage object.helpviewer_keywords: ["IStorage interface [Structured Storage]","RenameElement method","IStorage.RenameElement","IStorage::RenameElement","RenameElement","RenameElement method [Structured Storage]","RenameElement method [Structured Storage]","IStorage interface","_stg_istorage_renameelement","objidl/IStorage::RenameElement","stg.istorage_renameelement"]
 old-location: stg\istorage_renameelement.htm
 tech.root: Stg
 ms.assetid: 9d88b2e0-8b68-4607-8f96-5e36e831c283

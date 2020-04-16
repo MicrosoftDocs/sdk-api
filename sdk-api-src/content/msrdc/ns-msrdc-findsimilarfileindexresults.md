@@ -1,7 +1,7 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0013
 title: FindSimilarFileIndexResults (msrdc.h)
-description: Contains the file index information that the ISimilarityTraitsTable::FindSimilarFileIndex method returned for a matching file.
+description: Contains the file index information that the ISimilarityTraitsTable::FindSimilarFileIndex method returned for a matching file.helpviewer_keywords: ["FindSimilarFileIndexResults","FindSimilarFileIndexResults structure [Remote Differential Compression]","fs.findsimilarfileindexresults","msrdc/FindSimilarFileIndexResults","rdc.findsimilarfileindexresults"]
 old-location: rdc\findsimilarfileindexresults.htm
 tech.root: rdc
 ms.assetid: 2e0d39ab-d491-496e-8753-e7223a5c5029

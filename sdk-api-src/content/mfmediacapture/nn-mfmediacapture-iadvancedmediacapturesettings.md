@@ -1,7 +1,7 @@
 ---
 UID: NN:mfmediacapture.IAdvancedMediaCaptureSettings
 title: IAdvancedMediaCaptureSettings (mfmediacapture.h)
-description: Provides settings for advanced media capture.
+description: Provides settings for advanced media capture.helpviewer_keywords: ["IAdvancedMediaCaptureSettings","IAdvancedMediaCaptureSettings interface [Media Foundation]","IAdvancedMediaCaptureSettings interface [Media Foundation]","described","mf.iadvancedmediacapturesettings","mfmediacapture/IAdvancedMediaCaptureSettings"]
 old-location: mf\iadvancedmediacapturesettings.htm
 tech.root: medfound
 ms.assetid: f99669a1-5e6e-4e3b-8907-5fb537ecadfe

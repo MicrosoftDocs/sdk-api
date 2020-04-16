@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnIncomingJobAdded
 title: _IFaxServerNotify2::OnIncomingJobAdded (faxcomex.h)
-description: The fax service calls the IFaxServerNotify2::OnIncomingJobAdded method when an incoming fax job is added to the job queue.
+description: The fax service calls the IFaxServerNotify2::OnIncomingJobAdded method when an incoming fax job is added to the job queue.helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnIncomingJobAdded method","IFaxServerNotify2.OnIncomingJobAdded","IFaxServerNotify2::OnIncomingJobAdded","OnIncomingJobAdded","OnIncomingJobAdded method [Fax Service]","OnIncomingJobAdded method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnIncomingJobAdded","_IFaxServerNotify2::OnIncomingJobAdded","_mfax_ifaxservernotify2_onincomingjobadded","fax._mfax_ifaxservernotify2_onincomingjobadded","faxcomex/IFaxServerNotify2::OnIncomingJobAdded"]
 old-location: fax\_mfax_ifaxservernotify2_onincomingjobadded.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onincomingjobadded.htm

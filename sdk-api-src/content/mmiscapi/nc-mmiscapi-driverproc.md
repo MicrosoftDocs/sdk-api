@@ -1,7 +1,7 @@
 ---
 UID: NC:mmiscapi.DRIVERPROC
 title: DRIVERPROC (mmiscapi.h)
-description: Processes driver messages for the installable driver. DriverProc is a driver-supplied function.
+description: Processes driver messages for the installable driver. DriverProc is a driver-supplied function.helpviewer_keywords: ["DRIVERPROC","DRIVERPROC callback function [Windows Multimedia]","DRV_CLOSE","DRV_CONFIGURE","DRV_DISABLE","DRV_ENABLE","DRV_FREE","DRV_INSTALL","DRV_LOAD","DRV_OPEN","DRV_POWER","DRV_QUERYCONFIGURE","DRV_REMOVE","DriverProc callback","_win32_DriverProc","mmsystem/DRIVERPROC","multimedia.driverproc"]
 old-location: multimedia\driverproc.htm
 tech.root: Multimedia
 ms.assetid: d9a5535f-6b80-40cc-a20b-b7a342414d7f

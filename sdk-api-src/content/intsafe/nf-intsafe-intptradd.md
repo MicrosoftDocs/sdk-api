@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.IntPtrAdd
 title: IntPtrAdd function (intsafe.h)
-description: Adds two values of type INT_PTR.
+description: Adds two values of type INT_PTR.helpviewer_keywords: ["IntPtrAdd","IntPtrAdd function [Windows Shell]","intsafe/IntPtrAdd","shell.IntPtrAdd"]
 old-location: shell\IntPtrAdd.htm
 tech.root: shell
 ms.assetid: eceb36c4-287c-48e6-ad7d-0abf3d0a3893

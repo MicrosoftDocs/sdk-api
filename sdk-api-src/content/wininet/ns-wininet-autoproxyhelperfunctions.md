@@ -1,7 +1,7 @@
 ---
 UID: NS:wininet.AutoProxyHelperFunctions
 title: AutoProxyHelperFunctions (wininet.h)
-description: The AutoProxyHelperFunctions structure is used create a v-table of Proxy Auto-Config functions that can be passed to InternetInitializeAutoProxyDll.
+description: The AutoProxyHelperFunctions structure is used create a v-table of Proxy Auto-Config functions that can be passed to InternetInitializeAutoProxyDll.helpviewer_keywords: ["AutoProxyHelperFunctions","AutoProxyHelperFunctions structure [WinINet]","wininet.autoproxyhelperfunctions","wininet/AutoProxyHelperFunctions"]
 old-location: wininet\autoproxyhelperfunctions.htm
 tech.root: wininet
 ms.assetid: 00574c2a-d72f-4744-82b7-3a980af59427

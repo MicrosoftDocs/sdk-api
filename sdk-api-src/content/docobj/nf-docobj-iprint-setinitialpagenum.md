@@ -1,7 +1,7 @@
 ---
 UID: NF:docobj.IPrint.SetInitialPageNum
 title: IPrint::SetInitialPageNum (docobj.h)
-description: Sets the page number of the first page of a document.
+description: Sets the page number of the first page of a document.helpviewer_keywords: ["IPrint interface [COM]","SetInitialPageNum method","IPrint.SetInitialPageNum","IPrint::SetInitialPageNum","SetInitialPageNum","SetInitialPageNum method [COM]","SetInitialPageNum method [COM]","IPrint interface","_ctrl_iprint_setinitialpagenum","com.iprint_setinitialpagenum","docobj/IPrint::SetInitialPageNum"]
 old-location: com\iprint_setinitialpagenum.htm
 tech.root: com
 ms.assetid: 352a4dc0-c79e-46e3-8212-55fd7d2916bc

@@ -1,7 +1,7 @@
 ---
 UID: NS:mmc._MMCButton
 title: MMCBUTTON (mmc.h)
-description: The MMCBUTTON structure contains values used in creating buttons on a toolbar. This structure is similar to the TBBUTTON structure discussed in the Platform Software Development Kit (SDK) topics related to common controls.
+description: The MMCBUTTON structure contains values used in creating buttons on a toolbar. This structure is similar to the TBBUTTON structure discussed in the Platform Software Development Kit (SDK) topics related to common controls.helpviewer_keywords: ["*LPMMCBUTTON","LPMMCBUTTON","LPMMCBUTTON structure pointer [MMC]","MMCBUTTON","MMCBUTTON structure [MMC]","TBSTATE_CHECKED","TBSTATE_ENABLED","TBSTATE_HIDDEN","TBSTATE_INDETERMINATE","TBSTATE_PRESSED","TBSTYLE_BUTTON","TBSTYLE_CHECK","TBSTYLE_CHECKGROUP","TBSTYLE_GROUP","TBSTYLE_SEP","_slate_mmcbutton","mmc.mmcbutton","mmc/LPMMCBUTTON","mmc/MMCBUTTON"]
 old-location: mmc\mmcbutton.htm
 tech.root: mmc
 ms.assetid: 340fed49-3003-4dd6-80c9-6cefc8c5b750

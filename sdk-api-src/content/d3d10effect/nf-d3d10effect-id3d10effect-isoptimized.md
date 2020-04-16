@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.IsOptimized
 title: ID3D10Effect::IsOptimized (d3d10effect.h)
-description: Test an effect to see if the reflection metadata has been removed from memory.
+description: Test an effect to see if the reflection metadata has been removed from memory.helpviewer_keywords: ["0d82fdb1-e0b0-7198-dd16-2dfcd0280bfe","ID3D10Effect interface [Direct3D 10]","IsOptimized method","ID3D10Effect.IsOptimized","ID3D10Effect::IsOptimized","IsOptimized","IsOptimized method [Direct3D 10]","IsOptimized method [Direct3D 10]","ID3D10Effect interface","d3d10effect/ID3D10Effect::IsOptimized","direct3d10.id3d10effect_isoptimized"]
 old-location: direct3d10\id3d10effect_isoptimized.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_isoptimized.htm

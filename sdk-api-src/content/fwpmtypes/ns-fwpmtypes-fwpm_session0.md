@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_SESSION0_
 title: FWPM_SESSION0 (fwpmtypes.h)
-description: Stores the state associated with a client session.
+description: Stores the state associated with a client session.helpviewer_keywords: ["FWPM_SESSION0","FWPM_SESSION0 structure [Filtering]","FWPM_SESSION_FLAG_DYNAMIC","FWPM_SESSION_FLAG_RESERVED","fwp.fwpm_session0_struct","fwpmtypes/FWPM_SESSION0"]
 old-location: fwp\fwpm_session0_struct.htm
 tech.root: fwp
 ms.assetid: 9f259ab7-cec9-44c1-8914-2850235470b3

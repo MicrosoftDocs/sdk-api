@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IStringTable.FindString
 title: IStringTable::FindString (mmc.h)
-description: Enables a snap-in to search for a string in the snap-in string table.
+description: Enables a snap-in to search for a string in the snap-in string table.helpviewer_keywords: ["FindString","FindString method [MMC]","FindString method [MMC]","IStringTable interface","IStringTable interface [MMC]","FindString method","IStringTable.FindString","IStringTable::FindString","_slate_istringtable_findstring","mmc.istringtable_findstring","mmc/IStringTable::FindString"]
 old-location: mmc\istringtable_findstring.htm
 tech.root: mmc
 ms.assetid: c239618d-ed27-4d73-9e88-7323960a0e68

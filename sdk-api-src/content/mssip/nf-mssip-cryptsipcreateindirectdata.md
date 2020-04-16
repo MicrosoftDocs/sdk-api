@@ -1,7 +1,7 @@
 ---
 UID: NF:mssip.CryptSIPCreateIndirectData
 title: CryptSIPCreateIndirectData function (mssip.h)
-description: Returns a SIP_INDIRECT_DATA structure that contains a hash of the supplied SIP_SUBJECTINFO structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.
+description: Returns a SIP_INDIRECT_DATA structure that contains a hash of the supplied SIP_SUBJECTINFO structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.helpviewer_keywords: ["CryptSIPCreateIndirectData","CryptSIPCreateIndirectData function [Security]","mssip/CryptSIPCreateIndirectData","security.cryptsipcreateindirectdata"]
 old-location: security\cryptsipcreateindirectdata.htm
 tech.root: SecCrypto
 ms.assetid: bb4ecc95-972f-415c-9722-59b00a27cddc

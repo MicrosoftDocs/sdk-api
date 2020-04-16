@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkPropertyChanged
 title: INetworkEvents::NetworkPropertyChanged (netlistmgr.h)
-description: The NetworkPropertyChanged method is called when a network property change is detected.
+description: The NetworkPropertyChanged method is called when a network property change is detected.helpviewer_keywords: ["INetworkEvents interface [Network Awareness]","NetworkPropertyChanged method","INetworkEvents.NetworkPropertyChanged","INetworkEvents::NetworkPropertyChanged","NetworkPropertyChanged","NetworkPropertyChanged method [Network Awareness]","NetworkPropertyChanged method [Network Awareness]","INetworkEvents interface","netlistmgr/INetworkEvents::NetworkPropertyChanged","nla.inetworkevents_networkpropertychanged"]
 old-location: nla\inetworkevents_networkpropertychanged.htm
 tech.root: nla
 ms.assetid: a84f49ee-9efd-450e-a6e6-3f140330a9d0

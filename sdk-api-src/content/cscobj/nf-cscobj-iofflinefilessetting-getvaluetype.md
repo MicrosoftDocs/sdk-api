@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetValueType
 title: IOfflineFilesSetting::GetValueType (cscobj.h)
-description: Retrieves the data type of a particular Offline Files setting.
+description: Retrieves the data type of a particular Offline Files setting.helpviewer_keywords: ["GetValueType","GetValueType method [Offline Files]","GetValueType method [Offline Files]","IOfflineFilesSetting interface","IOfflineFilesSetting interface [Offline Files]","GetValueType method","IOfflineFilesSetting.GetValueType","IOfflineFilesSetting::GetValueType","cscobj/IOfflineFilesSetting::GetValueType","of.iofflinefilessetting_getvaluetype"]
 old-location: of\iofflinefilessetting_getvaluetype.htm
 tech.root: offlinefiles
 ms.assetid: 2b5567bf-a7c6-40b3-ac16-9da805ddb3b3

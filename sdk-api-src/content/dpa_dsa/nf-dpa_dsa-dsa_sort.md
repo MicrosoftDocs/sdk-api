@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DSA_Sort
 title: DSA_Sort function (dpa_dsa.h)
-description: Sorts the items in a dynamic structure array (DSA).
+description: Sorts the items in a dynamic structure array (DSA).helpviewer_keywords: ["DSA_Sort","DSA_Sort function [Windows Controls]","_shell_DSA_Sort","_shell_DSA_Sort_cpp","controls.DSA_Sort","controls._shell_DSA_Sort","dpa_dsa/DSA_Sort"]
 old-location: controls\DSA_Sort.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_sort.htm

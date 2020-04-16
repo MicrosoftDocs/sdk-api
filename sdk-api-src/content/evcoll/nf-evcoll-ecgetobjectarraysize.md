@@ -1,7 +1,7 @@
 ---
 UID: NF:evcoll.EcGetObjectArraySize
 title: EcGetObjectArraySize function (evcoll.h)
-description: Retrieves the number of indexes of the array of property values for the event sources of a subscription.
+description: Retrieves the number of indexes of the array of property values for the event sources of a subscription.helpviewer_keywords: ["EcGetObjectArraySize","EcGetObjectArraySize function","evcoll/EcGetObjectArraySize","wec.ecgetobjectarraysize","wes.ecgetobjectarraysize"]
 old-location: wec\ecgetobjectarraysize.htm
 tech.root: WEC
 ms.assetid: f04c1748-d8b3-4000-a322-7854f8e7f5f9

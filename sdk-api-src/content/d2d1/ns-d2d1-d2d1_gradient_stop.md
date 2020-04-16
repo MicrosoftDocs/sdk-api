@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1.D2D1_GRADIENT_STOP
 title: D2D1_GRADIENT_STOP (d2d1.h)
-description: Contains the position and color of a gradient stop.
+description: Contains the position and color of a gradient stop.helpviewer_keywords: ["D2D1_GRADIENT_STOP","D2D1_GRADIENT_STOP structure [Direct2D]","d2d1/D2D1_GRADIENT_STOP","direct2d.D2D1_GRADIENT_STOP"]
 old-location: direct2d\D2D1_GRADIENT_STOP.htm
 tech.root: Direct2D
 ms.assetid: f6798542-382a-4074-bbe1-707bc00b3575

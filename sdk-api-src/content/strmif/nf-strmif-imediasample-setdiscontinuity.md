@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IMediaSample.SetDiscontinuity
 title: IMediaSample::SetDiscontinuity (strmif.h)
-description: The SetDiscontinuity method specifies whether this sample represents a break in the data stream.
+description: The SetDiscontinuity method specifies whether this sample represents a break in the data stream.helpviewer_keywords: ["IMediaSample interface [DirectShow]","SetDiscontinuity method","IMediaSample.SetDiscontinuity","IMediaSample::SetDiscontinuity","IMediaSampleSetDiscontinuity","SetDiscontinuity","SetDiscontinuity method [DirectShow]","SetDiscontinuity method [DirectShow]","IMediaSample interface","dshow.imediasample_setdiscontinuity","strmif/IMediaSample::SetDiscontinuity"]
 old-location: dshow\imediasample_setdiscontinuity.htm
 tech.root: DirectShow
 ms.assetid: 57041c71-4c7e-463a-92f5-c77a76aa545a

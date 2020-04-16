@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_VolumeNameUDF
 title: IFileSystemImage::get_VolumeNameUDF (imapi2fs.h)
-description: Retrieves the volume name for the UDF system image.
+description: Retrieves the volume name for the UDF system image.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_VolumeNameUDF method","IFileSystemImage.get_VolumeNameUDF","IFileSystemImage::get_VolumeNameUDF","get_VolumeNameUDF","get_VolumeNameUDF method [IMAPI]","get_VolumeNameUDF method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_volumenameudf","imapi2fs/IFileSystemImage::get_VolumeNameUDF"]
 old-location: imapi\ifilesystemimage_get_volumenameudf.htm
 tech.root: imapi
 ms.assetid: d034f8cb-38f5-42ab-8952-e4a76dc1f27d

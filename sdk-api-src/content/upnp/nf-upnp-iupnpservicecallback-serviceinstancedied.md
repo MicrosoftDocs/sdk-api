@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPServiceCallback.ServiceInstanceDied
 title: IUPnPServiceCallback::ServiceInstanceDied (upnp.h)
-description: The ServiceInstanceDied method is invoked when a service is no longer sending events.
+description: The ServiceInstanceDied method is invoked when a service is no longer sending events.helpviewer_keywords: ["IUPnPServiceCallback interface [UPnP APIs]","ServiceInstanceDied method","IUPnPServiceCallback.ServiceInstanceDied","IUPnPServiceCallback::ServiceInstanceDied","ServiceInstanceDied","ServiceInstanceDied method [UPnP APIs]","ServiceInstanceDied method [UPnP APIs]","IUPnPServiceCallback interface","_upnp_iupnpservicecallback_serviceinstancedied","upnp.iupnpservicecallback_serviceinstancedied","upnp/IUPnPServiceCallback::ServiceInstanceDied"]
 old-location: upnp\iupnpservicecallback_serviceinstancedied.htm
 tech.root: upnp
 ms.assetid: 13b6d2b1-f95d-4b07-bd69-2793158ee27b

@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngGetFilePath
 title: EngGetFilePath function (winddi.h)
-description: The EngGetFilePath function determines the file path associated with the specified font file.
+description: The EngGetFilePath function determines the file path associated with the specified font file.helpviewer_keywords: ["EngGetFilePath","EngGetFilePath function [Display Devices]","display.enggetfilepath","gdifncs_219a84bc-93a3-4a5f-bf0e-d0087737fdb0.xml","winddi/EngGetFilePath"]
 old-location: display\enggetfilepath.htm
 tech.root: display
 ms.assetid: 751a9bef-f1ee-43a0-958b-f90ac63b2f37

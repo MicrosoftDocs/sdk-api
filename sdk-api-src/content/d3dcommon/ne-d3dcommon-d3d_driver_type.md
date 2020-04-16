@@ -1,7 +1,7 @@
 ---
 UID: NE:d3dcommon.D3D_DRIVER_TYPE
 title: D3D_DRIVER_TYPE (d3dcommon.h)
-description: Driver type options.
+description: Driver type options.helpviewer_keywords: ["5f2e6561-a389-e8e8-0b80-96db66f58139","D3D_DRIVER_TYPE","D3D_DRIVER_TYPE enumeration [Direct3D 11]","D3D_DRIVER_TYPE_HARDWARE","D3D_DRIVER_TYPE_NULL","D3D_DRIVER_TYPE_REFERENCE","D3D_DRIVER_TYPE_SOFTWARE","D3D_DRIVER_TYPE_UNKNOWN","D3D_DRIVER_TYPE_WARP","d3dcommon/D3D_DRIVER_TYPE","d3dcommon/D3D_DRIVER_TYPE_HARDWARE","d3dcommon/D3D_DRIVER_TYPE_NULL","d3dcommon/D3D_DRIVER_TYPE_REFERENCE","d3dcommon/D3D_DRIVER_TYPE_SOFTWARE","d3dcommon/D3D_DRIVER_TYPE_UNKNOWN","d3dcommon/D3D_DRIVER_TYPE_WARP","direct3d11.d3d_driver_type"]
 old-location: direct3d11\d3d_driver_type.htm
 tech.root: direct3d11
 ms.assetid: ceeec7d6-4bdc-488c-80a8-6c5e11986d6a

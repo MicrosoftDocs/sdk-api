@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetSurroundColors
 title: PathGradientBrush::GetSurroundColors (gdipluspath.h)
-description: The PathGradientBrush::GetSurroundColors method gets the surround colors currently specified for this path gradient brush.
+description: The PathGradientBrush::GetSurroundColors method gets the surround colors currently specified for this path gradient brush.helpviewer_keywords: ["GetSurroundColors","GetSurroundColors method [GDI+]","GetSurroundColors method [GDI+]","PathGradientBrush class","PathGradientBrush class [GDI+]","GetSurroundColors method","PathGradientBrush.GetSurroundColors","PathGradientBrush::GetSurroundColors","_gdiplus_CLASS_PathGradientBrush_GetSurroundColors_colors_count_","gdiplus._gdiplus_CLASS_PathGradientBrush_GetSurroundColors_colors_count_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetSurroundColors_colors_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getsurroundcolors.htm

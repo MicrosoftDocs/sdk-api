@@ -1,7 +1,7 @@
 ---
 UID: NS:minwinbase._RIP_INFO
 title: RIP_INFO (minwinbase.h)
-description: Contains the error that caused the RIP debug event.
+description: Contains the error that caused the RIP debug event.helpviewer_keywords: ["*LPRIP_INFO","LPRIP_INFO","LPRIP_INFO structure pointer","RIP_INFO","RIP_INFO structure","SLE_ERROR","SLE_MINORERROR","SLE_WARNING","_RIP_INFO","_win32_rip_info_str","base.rip_info_str","winbase/LPRIP_INFO","winbase/RIP_INFO"]
 old-location: base\rip_info_str.htm
 tech.root: Debug
 ms.assetid: 2aef4de7-bf3d-4add-9801-e26081f0f76b

@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core.PACKAGE_EXECUTION_STATE
 title: PACKAGE_EXECUTION_STATE (shobjidl_core.h)
-description: .
+description: .helpviewer_keywords: ["PACKAGE_EXECUTION_STATE","PACKAGE_EXECUTION_STATE enumeration [Windows Shell]","PES_RUNNING","PES_SUSPENDED","PES_SUSPENDING","PES_TERMINATED","PES_UNKNOWN","shell.PACKAGE_EXECUTION_STATE","shobjidl_core/PACKAGE_EXECUTION_STATE","shobjidl_core/PES_RUNNING","shobjidl_core/PES_SUSPENDED","shobjidl_core/PES_SUSPENDING","shobjidl_core/PES_TERMINATED","shobjidl_core/PES_UNKNOWN"]
 old-location: shell\PACKAGE_EXECUTION_STATE.htm
 tech.root: shell
 ms.assetid: 8BE433AC-34E6-42D7-9F8B-63AECAC96996

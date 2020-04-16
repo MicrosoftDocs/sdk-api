@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.UnloadKeyboardLayout
 title: UnloadKeyboardLayout function (winuser.h)
-description: Unloads an input locale identifier (formerly called a keyboard layout).
+description: Unloads an input locale identifier (formerly called a keyboard layout).helpviewer_keywords: ["UnloadKeyboardLayout","UnloadKeyboardLayout function [Keyboard and Mouse Input]","_win32_UnloadKeyboardLayout","_win32_unloadkeyboardlayout_cpp","inputdev.unloadkeyboardlayout","winui._win32_unloadkeyboardlayout","winuser/UnloadKeyboardLayout"]
 old-location: inputdev\unloadkeyboardlayout.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\unloadkeyboardlayout.htm

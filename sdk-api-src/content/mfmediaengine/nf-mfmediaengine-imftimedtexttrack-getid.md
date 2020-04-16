@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetId
 title: IMFTimedTextTrack::GetId (mfmediaengine.h)
-description: Gets the identifier of the track of timed text.
+description: Gets the identifier of the track of timed text.helpviewer_keywords: ["GetId","GetId method [Media Foundation]","GetId method [Media Foundation]","IMFTimedTextTrack interface","IMFTimedTextTrack interface [Media Foundation]","GetId method","IMFTimedTextTrack.GetId","IMFTimedTextTrack::GetId","mf.imftimedtexttrack_getid","mfmediaengine/IMFTimedTextTrack::GetId"]
 old-location: mf\imftimedtexttrack_getid.htm
 tech.root: medfound
 ms.assetid: 0DDC7864-654E-416B-9EF5-4CD47244E8BE

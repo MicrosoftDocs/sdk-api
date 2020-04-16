@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityCreate
 title: IComActivityEvents::OnActivityCreate (comsvcs.h)
-description: Generated when an activity starts.
+description: Generated when an activity starts.helpviewer_keywords: ["IComActivityEvents interface [COM+]","OnActivityCreate method","IComActivityEvents.OnActivityCreate","IComActivityEvents::OnActivityCreate","OnActivityCreate","OnActivityCreate method [COM+]","OnActivityCreate method [COM+]","IComActivityEvents interface","_dtc_IComActivityEvents_OnActivityCreate","comsvcs/IComActivityEvents::OnActivityCreate","cos.icomactivityevents_onactivitycreate"]
 old-location: cos\icomactivityevents_onactivitycreate.htm
 tech.root: cossdk
 ms.assetid: 27d6dfd6-24c8-480b-9d91-6c6cce08384c

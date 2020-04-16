@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHAllocShared
 title: SHAllocShared function (shlwapi.h)
-description: SHAllocShared may be altered or unavailable.
+description: SHAllocShared may be altered or unavailable.helpviewer_keywords: ["SHAllocShared","SHAllocShared function [Windows Shell]","_win32_SHAllocShared","shell.SHAllocShared","shlwapi/SHAllocShared"]
 old-location: shell\SHAllocShared.htm
 tech.root: shell
 ms.assetid: 0388b6a0-24d9-48eb-bef2-3a1658d8bb3c

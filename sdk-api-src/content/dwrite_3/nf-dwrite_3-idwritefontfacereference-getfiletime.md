@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetFileTime
 title: IDWriteFontFaceReference::GetFileTime (dwrite_3.h)
-description: Get the last modified date.
+description: Get the last modified date.helpviewer_keywords: ["GetFileTime","GetFileTime method [Direct Write]","GetFileTime method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","GetFileTime method","IDWriteFontFaceReference.GetFileTime","IDWriteFontFaceReference::GetFileTime","directwrite.idwritefontfacereference_getfiletime","dwrite_3/IDWriteFontFaceReference::GetFileTime"]
 old-location: directwrite\idwritefontfacereference_getfiletime.htm
 tech.root: DirectWrite
 ms.assetid: 98de8a3d-073e-78df-2e2c-8ab64632091c

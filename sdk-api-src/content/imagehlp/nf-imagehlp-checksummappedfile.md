@@ -1,7 +1,7 @@
 ---
 UID: NF:imagehlp.CheckSumMappedFile
 title: CheckSumMappedFile function (imagehlp.h)
-description: Computes the checksum of the specified image file.
+description: Computes the checksum of the specified image file.helpviewer_keywords: ["CheckSumMappedFile","CheckSumMappedFile function","_win32_checksummappedfile","base.checksummappedfile","imagehlp/CheckSumMappedFile"]
 old-location: base\checksummappedfile.htm
 tech.root: Debug
 ms.assetid: 01a99601-64de-412d-991e-b1708286ca8c

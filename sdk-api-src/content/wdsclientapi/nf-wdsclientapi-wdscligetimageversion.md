@@ -1,7 +1,7 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageVersion
 title: WdsCliGetImageVersion function (wdsclientapi.h)
-description: Returns the version of the current image.
+description: Returns the version of the current image.helpviewer_keywords: ["WdsCliGetImageVersion","WdsCliGetImageVersion function [Windows Deployment Services]","wds.wdscligetimageversion","wdsclientapi/WdsCliGetImageVersion"]
 old-location: wds\wdscligetimageversion.htm
 tech.root: wds
 ms.assetid: 50cd6ca0-dffd-452c-9e68-904037f71ccc

@@ -1,7 +1,7 @@
 ---
 UID: NF:winineti.PrivacyGetZonePreferenceW
 title: PrivacyGetZonePreferenceW function (winineti.h)
-description: Retrieves the privacy settings for a given URLZONE and PrivacyType.
+description: Retrieves the privacy settings for a given URLZONE and PrivacyType.helpviewer_keywords: ["PrivacyGetZonePreferenceW","PrivacyGetZonePreferenceW function [WinINet]","wininet.privacygetzonepreferencew","winineti/PrivacyGetZonePreferenceW"]
 old-location: wininet\privacygetzonepreferencew.htm
 tech.root: wininet
 ms.assetid: 530a86a0-bb67-406a-be83-5f2b463a1aa1

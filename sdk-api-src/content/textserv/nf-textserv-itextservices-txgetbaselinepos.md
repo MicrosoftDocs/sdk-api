@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextServices.TxGetBaseLinePos
 title: ITextServices::TxGetBaseLinePos (textserv.h)
-description: Gets the base line position of the first visible line, in pixels, relative to the text services client rectangle. This permits aligning controls on their base lines.
+description: Gets the base line position of the first visible line, in pixels, relative to the text services client rectangle. This permits aligning controls on their base lines.helpviewer_keywords: ["ITextServices interface [Windows Controls]","TxGetBaseLinePos method","ITextServices.TxGetBaseLinePos","ITextServices::TxGetBaseLinePos","TxGetBaseLinePos","TxGetBaseLinePos method [Windows Controls]","TxGetBaseLinePos method [Windows Controls]","ITextServices interface","_win32_ITextServices_TxGetBaseLinePos","_win32_ITextServices_TxGetBaseLinePos_cpp","controls.ITextServices_TxGetBaseLinePos","controls._win32_ITextServices_TxGetBaseLinePos","textserv/ITextServices::TxGetBaseLinePos"]
 old-location: controls\ITextServices_TxGetBaseLinePos.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetbaselinepos.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.ICEnroll3.Reset
 title: ICEnroll3::Reset (xenroll.h)
-description: Returns the certificate enrollment control object to its initial state and thereby allow reuse of the control. This method was first defined in the ICEnroll3 interface.
+description: Returns the certificate enrollment control object to its initial state and thereby allow reuse of the control. This method was first defined in the ICEnroll3 interface.helpviewer_keywords: ["CEnroll object [Security]","Reset method","ICEnroll3 interface [Security]","Reset method","ICEnroll3.Reset","ICEnroll3::Reset","ICEnroll4 interface [Security]","Reset method","ICEnroll4::Reset","Reset","Reset method [Security]","Reset method [Security]","CEnroll object","Reset method [Security]","ICEnroll3 interface","Reset method [Security]","ICEnroll4 interface","security.icenroll4_reset","xenroll/ICEnroll3::Reset","xenroll/ICEnroll4::Reset"]
 old-location: security\icenroll4_reset.htm
 tech.root: SecCrypto
 ms.assetid: 503062c3-8a73-4218-a826-c72f926f36db

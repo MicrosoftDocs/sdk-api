@@ -1,7 +1,7 @@
 ---
 UID: NF:bits10_1.IBackgroundCopyFile6.RequestFileRanges
 title: IBackgroundCopyFile6::RequestFileRanges (bits10_1.h)
-description: Adds a new set of file ranges to be prioritized for download.
+description: Adds a new set of file ranges to be prioritized for download.helpviewer_keywords: ["IBackgroundCopyFile6 interface [BITS]","RequestFileRanges method","IBackgroundCopyFile6.RequestFileRanges","IBackgroundCopyFile6::RequestFileRanges","RequestFileRanges","RequestFileRanges method [BITS]","RequestFileRanges method [BITS]","IBackgroundCopyFile6 interface","bits.ibackgroundcopyfile6_requestfileranges","bits10_1/IBackgroundCopyFile6::RequestFileRanges"]
 old-location: bits\ibackgroundcopyfile6_requestfileranges.htm
 tech.root: Bits
 ms.assetid: C36BDE94-03AC-4F06-B17B-B8729226F8AC

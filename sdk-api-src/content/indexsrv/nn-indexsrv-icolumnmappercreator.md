@@ -1,7 +1,7 @@
 ---
 UID: NN:indexsrv.IColumnMapperCreator
 title: IColumnMapperCreator (indexsrv.h)
-description: Contains a method to retrieves a column mapper object.
+description: Contains a method to retrieves a column mapper object.helpviewer_keywords: ["IColumnMapperCreator","IColumnMapperCreator interface [search]","IColumnMapperCreator interface [search]","described","indexsrv/IColumnMapperCreator","search.icolumnmappercreator"]
 old-location: search\icolumnmappercreator.htm
 tech.root: search
 ms.assetid: 3598C736-5736-4B08-83B7-E80BA69FCBAB

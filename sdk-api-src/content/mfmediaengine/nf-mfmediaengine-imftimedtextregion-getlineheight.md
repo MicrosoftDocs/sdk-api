@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetLineHeight
 title: IMFTimedTextRegion::GetLineHeight (mfmediaengine.h)
-description: Gets the height of each line of text in the region.
+description: Gets the height of each line of text in the region.helpviewer_keywords: ["GetLineHeight","GetLineHeight method [Media Foundation]","GetLineHeight method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetLineHeight method","IMFTimedTextRegion.GetLineHeight","IMFTimedTextRegion::GetLineHeight","mf.imftimedtextregion_getlineheight","mfmediaengine/IMFTimedTextRegion::GetLineHeight"]
 old-location: mf\imftimedtextregion_getlineheight.htm
 tech.root: medfound
 ms.assetid: 41514FCA-5C2A-48E5-A9F8-72B5B9160CD6

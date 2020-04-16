@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetName
 title: ISyncMgrEvent::GetName (syncmgr.h)
-description: Gets the name of the event. This string can be a simple name for the event or a short summary. It is displayed in the folder and in the property sheet for the event.
+description: Gets the name of the event. This string can be a simple name for the event or a short summary. It is displayed in the folder and in the property sheet for the event.helpviewer_keywords: ["GetName","GetName method [Windows Shell]","GetName method [Windows Shell]","ISyncMgrEvent interface","ISyncMgrEvent interface [Windows Shell]","GetName method","ISyncMgrEvent.GetName","ISyncMgrEvent::GetName","_shell_ISyncMgrEvent_GetName","shell.ISyncMgrEvent_GetName","syncmgr/ISyncMgrEvent::GetName"]
 old-location: shell\ISyncMgrEvent_GetName.htm
 tech.root: shell
 ms.assetid: d533ab62-f6b2-4be9-ac58-98250d99a8c3

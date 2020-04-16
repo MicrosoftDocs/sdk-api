@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilPropertyListFromParameterBlock
 title: ResUtilPropertyListFromParameterBlock function (resapi.h)
-description: Constructs a property list from a property table and a parameter block.
+description: Constructs a property list from a property table and a parameter block.helpviewer_keywords: ["PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK","PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK function [Failover Cluster]","ResUtilPropertyListFromParameterBlock","ResUtilPropertyListFromParameterBlock function [Failover Cluster]","_wolf_resutilpropertylistfromparameterblock","mscs.resutilpropertylistfromparameterblock","resapi/PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK","resapi/ResUtilPropertyListFromParameterBlock"]
 old-location: mscs\resutilpropertylistfromparameterblock.htm
 tech.root: MsCS
 ms.assetid: 6993e279-07c7-4444-b1b9-0d25360e43e3

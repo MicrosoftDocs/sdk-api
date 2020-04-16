@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection
 title: IXpsOMRemoteDictionaryResourceCollection (xpsobjectmodel.h)
-description: A collection of IXpsOMRemoteDictionaryResource interface pointers.
+description: A collection of IXpsOMRemoteDictionaryResource interface pointers.helpviewer_keywords: ["IXpsOMRemoteDictionaryResourceCollection","IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging]","described","xps.ixpsomremotedictionaryresourcecollection","xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection"]
 old-location: xps\ixpsomremotedictionaryresourcecollection.htm
 tech.root: printdocs
 ms.assetid: 50c9bd7a-226f-4785-96b4-d0b5e861ae37

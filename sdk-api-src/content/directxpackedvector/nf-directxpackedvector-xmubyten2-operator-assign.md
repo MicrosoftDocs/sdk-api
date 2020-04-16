@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUBYTEN2.operator-assign
 title: XMUBYTEN2::operator-assign (directxpackedvector.h)
-description: Assigns the vector component data from one instance of XMUBYTEN2 to the current instance of XMUBYTEN2.
+description: Assigns the vector component data from one instance of XMUBYTEN2 to the current instance of XMUBYTEN2.helpviewer_keywords: ["DirectX::PackedVector.XMUBYTEN2.operator =","DirectX::PackedVector::XMUBYTEN2::operator =","XMUBYTEN2 structure [DirectX Math Support APIs]","operator = method","XMUBYTEN2.operator =","XMUBYTEN2.operator-assign","XMUBYTEN2.operator=","XMUBYTEN2::operator-assign","XMUBYTEN2::operator=","dxmath.xmubyten2_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMUBYTEN2 structure","operator="]
 old-location: dxmath\xmubyten2_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTEN2.operator = (const XMUBYTEN2)

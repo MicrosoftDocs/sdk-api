@@ -1,7 +1,7 @@
 ---
 UID: NN:gpmgmt.IGPMSecurityInfo
 title: IGPMSecurityInfo (gpmgmt.h)
-description: The IGPMSecurityInfo interface defines the methods of the GPMSecurityInfo collection. This collection represents a set of policy-related permissions that can be set on a particular object, such as a scope of management (SOM), a GPO, or a WMI filter.
+description: The IGPMSecurityInfo interface defines the methods of the GPMSecurityInfo collection. This collection represents a set of policy-related permissions that can be set on a particular object, such as a scope of management (SOM), a GPO, or a WMI filter.helpviewer_keywords: ["GPMSecurityInfo","IGPMSecurityInfo","IGPMSecurityInfo interface [GPMC]","IGPMSecurityInfo interface [GPMC]","described","_win32_igpmsecurityinfo","gpmc.igpmsecurityinfo","gpmgmt/IGPMSecurityInfo"]
 old-location: gpmc\igpmsecurityinfo.htm
 tech.root: gpmc
 ms.assetid: 1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74

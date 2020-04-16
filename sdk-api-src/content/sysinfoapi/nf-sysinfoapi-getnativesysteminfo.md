@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.GetNativeSystemInfo
 title: GetNativeSystemInfo function (sysinfoapi.h)
-description: Retrieves information about the current system to an application running under WOW64.
+description: Retrieves information about the current system to an application running under WOW64.helpviewer_keywords: ["GetNativeSystemInfo","GetNativeSystemInfo function","_win32_getnativesysteminfo","base.getnativesysteminfo","sysinfoapi/GetNativeSystemInfo"]
 old-location: base\getnativesysteminfo.htm
 tech.root: SysInfo
 ms.assetid: a4a1123b-83d7-4ee2-aa38-68fff5373618

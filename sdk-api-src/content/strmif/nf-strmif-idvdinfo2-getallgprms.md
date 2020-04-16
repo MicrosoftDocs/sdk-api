@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetAllGPRMs
 title: IDvdInfo2::GetAllGPRMs (strmif.h)
-description: The GetAllGPRMs method retrieves the current contents of all general parameter registers (GPRMs).
+description: The GetAllGPRMs method retrieves the current contents of all general parameter registers (GPRMs).helpviewer_keywords: ["GetAllGPRMs","GetAllGPRMs method [DirectShow]","GetAllGPRMs method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetAllGPRMs method","IDvdInfo2.GetAllGPRMs","IDvdInfo2::GetAllGPRMs","IDvdInfo2GetAllGPRMs","dshow.idvdinfo2_getallgprms","strmif/IDvdInfo2::GetAllGPRMs"]
 old-location: dshow\idvdinfo2_getallgprms.htm
 tech.root: DirectShow
 ms.assetid: 994f57b5-8514-4768-a679-21133ec92e32

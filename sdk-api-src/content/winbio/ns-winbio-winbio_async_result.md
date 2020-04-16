@@ -1,7 +1,7 @@
 ---
 UID: NS:winbio._WINBIO_ASYNC_RESULT
 title: WINBIO_ASYNC_RESULT (winbio.h)
-description: Contains the results of an asynchronous operation.
+description: Contains the results of an asynchronous operation.helpviewer_keywords: ["*PWINBIO_ASYNC_RESULT","PWINBIO_ASYNC_RESULT","PWINBIO_ASYNC_RESULT structure pointer [Windows Biometric Framework API]","WINBIO_ASYNC_RESULT","WINBIO_ASYNC_RESULT structure [Windows Biometric Framework API]","secbiomet.winbio_async_result","winbio/PWINBIO_ASYNC_RESULT","winbio/WINBIO_ASYNC_RESULT"]
 old-location: secbiomet\winbio_async_result.htm
 tech.root: SecBioMet
 ms.assetid: 1C8A4557-3851-4AB2-BB9B-AE199EB9D024

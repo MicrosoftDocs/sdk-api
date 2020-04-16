@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetContentBox
 title: IXpsOMPage::SetContentBox (xpsobjectmodel.h)
-description: Sets the dimensions of the page's content box.
+description: Sets the dimensions of the page's content box.helpviewer_keywords: ["IXpsOMPage interface [XPS Documents and Packaging]","SetContentBox method","IXpsOMPage.SetContentBox","IXpsOMPage::SetContentBox","SetContentBox","SetContentBox method [XPS Documents and Packaging]","SetContentBox method [XPS Documents and Packaging]","IXpsOMPage interface","xps.ixpsompage_setcontentbox","xpsobjectmodel/IXpsOMPage::SetContentBox"]
 old-location: xps\ixpsompage_setcontentbox.htm
 tech.root: printdocs
 ms.assetid: 5262ce99-8112-4f4f-a173-5927341b4a2e

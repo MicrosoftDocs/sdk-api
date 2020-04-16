@@ -1,7 +1,7 @@
 ---
 UID: NS:mbnapi.MBN_SMS_FILTER
 title: MBN_SMS_FILTER (mbnapi.h)
-description: The MBN_SMS_FILTER structure contains the values that describe a set of SMS messages.
+description: The MBN_SMS_FILTER structure contains the values that describe a set of SMS messages.helpviewer_keywords: ["MBN_SMS_FILTER","MBN_SMS_FILTER structure [Microsoft Broadband Networks]","mbn.mbn_sms_filter","mbnapi/MBN_SMS_FILTER"]
 old-location: mbn\mbn_sms_filter.htm
 tech.root: mbn
 ms.assetid: f8dffd7b-3c12-43da-b61c-3c9aa8f1136f

@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2fs.IFileSystemImage3
 title: IFileSystemImage3 (imapi2fs.h)
-description: Use this interface to set or check the metadata and metadata mirror files in a UDF file system (rev 2.50 and later) to determine redundancy.
+description: Use this interface to set or check the metadata and metadata mirror files in a UDF file system (rev 2.50 and later) to determine redundancy.helpviewer_keywords: ["IFileSystemImage3","IFileSystemImage3 interface [IMAPI]","IFileSystemImage3 interface [IMAPI]","described","imapi.ifilesystemimage3","imapi2fs/IFileSystemImage3"]
 old-location: imapi\ifilesystemimage3.htm
 tech.root: imapi
 ms.assetid: ffe343fa-2837-41f7-b7e0-097788fb5d4e

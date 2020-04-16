@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilPaxosComparer
 title: ResUtilPaxosComparer function (resapi.h)
-description: Compares two Paxos tags and indicates whether they have the same values.
+description: Compares two Paxos tags and indicates whether they have the same values.helpviewer_keywords: ["ResUtilPaxosComparer","ResUtilPaxosComparer function [Failover Cluster]","mscs.resutilpaxoscomparer","resapi/ResUtilPaxosComparer"]
 old-location: mscs\resutilpaxoscomparer.htm
 tech.root: MsCS
 ms.assetid: 414F9BB0-2490-43A9-BE38-877B283573E1

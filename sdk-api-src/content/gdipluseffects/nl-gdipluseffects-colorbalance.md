@@ -1,7 +1,7 @@
 ---
 UID: NL:gdipluseffects.ColorBalance
 title: ColorBalance (gdipluseffects.h)
-description: The ColorBalance class enables you to change the color balance (relative amounts of red, green, and blue) of a bitmap.
+description: The ColorBalance class enables you to change the color balance (relative amounts of red, green, and blue) of a bitmap.helpviewer_keywords: ["ColorBalance","ColorBalance class [GDI+]","ColorBalance class [GDI+]","described","_gdiplus_CLASS_ColorBalance_Class","gdiplus._gdiplus_CLASS_ColorBalance_Class","gdipluseffects/ColorBalance"]
 old-location: gdiplus\_gdiplus_CLASS_ColorBalance_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalance.htm

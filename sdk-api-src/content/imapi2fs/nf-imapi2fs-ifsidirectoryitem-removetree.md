@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.RemoveTree
 title: IFsiDirectoryItem::RemoveTree (imapi2fs.h)
-description: Remove the specified directory tree from the file system image.
+description: Remove the specified directory tree from the file system image.helpviewer_keywords: ["IFsiDirectoryItem interface [IMAPI]","RemoveTree method","IFsiDirectoryItem.RemoveTree","IFsiDirectoryItem::RemoveTree","RemoveTree","RemoveTree method [IMAPI]","RemoveTree method [IMAPI]","IFsiDirectoryItem interface","imapi.ifsidirectoryitem_removetree","imapi2fs/IFsiDirectoryItem::RemoveTree"]
 old-location: imapi\ifsidirectoryitem_removetree.htm
 tech.root: imapi
 ms.assetid: d0aad985-306c-41a2-9711-9265a4f492c5

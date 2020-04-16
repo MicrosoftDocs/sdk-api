@@ -1,7 +1,7 @@
 ---
 UID: NS:tspubplugin2com.__MIDL_ItsPubPlugin2_0001
 title: pluginResource2FileAssociation (tspubplugin2com.h)
-description: Contains information about a file association in RemoteApp and Desktop Connection.
+description: Contains information about a file association in RemoteApp and Desktop Connection.helpviewer_keywords: ["pluginResource2FileAssociation","pluginResource2FileAssociation structure [Remote Desktop Services]","termserv.pluginresource2fileassociation","tspubplugin2com/pluginResource2FileAssociation"]
 old-location: termserv\pluginresource2fileassociation.htm
 tech.root: TermServ
 ms.assetid: A3485D5F-EBF0-480B-9AD2-534361E82B40

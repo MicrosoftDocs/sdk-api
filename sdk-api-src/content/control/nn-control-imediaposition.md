@@ -1,7 +1,7 @@
 ---
 UID: NN:control.IMediaPosition
 title: IMediaPosition (control.h)
-description: The IMediaPosition interface contains methods for seeking to a position within a stream.
+description: The IMediaPosition interface contains methods for seeking to a position within a stream.helpviewer_keywords: ["IMediaPosition","IMediaPosition interface [DirectShow]","IMediaPosition interface [DirectShow]","described","IMediaPositionInterface","control/IMediaPosition","dshow.imediaposition"]
 old-location: dshow\imediaposition.htm
 tech.root: DirectShow
 ms.assetid: 325dd9a4-80ca-43e3-9ff8-473df1b833e9

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IObjectWithAppUserModelID.GetAppID
 title: IObjectWithAppUserModelID::GetAppID (shobjidl_core.h)
-description: Retrieves a file type handler's explicit Application User Model ID (AppUserModelID), if one has been declared.
+description: Retrieves a file type handler's explicit Application User Model ID (AppUserModelID), if one has been declared.helpviewer_keywords: ["GetAppID","GetAppID method [Windows Shell]","GetAppID method [Windows Shell]","IObjectWithAppUserModelID interface","IObjectWithAppUserModelID interface [Windows Shell]","GetAppID method","IObjectWithAppUserModelID.GetAppID","IObjectWithAppUserModelID::GetAppID","_shell_IObjectWithAppUserModelID_GetAppID","shell.IObjectWithAppUserModelID_GetAppID","shobjidl_core/IObjectWithAppUserModelID::GetAppID"]
 old-location: shell\IObjectWithAppUserModelID_GetAppID.htm
 tech.root: shell
 ms.assetid: da6c4799-fda9-43e5-86eb-91a40db5ab6c

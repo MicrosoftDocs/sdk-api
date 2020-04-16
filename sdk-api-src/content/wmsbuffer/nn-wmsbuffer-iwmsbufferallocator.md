@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsbuffer.IWMSBufferAllocator
 title: IWMSBufferAllocator (wmsbuffer.h)
-description: The IWMSSBufferAllocator interface provides methods for allocating a buffer.
+description: The IWMSSBufferAllocator interface provides methods for allocating a buffer.helpviewer_keywords: ["IWMSBufferAllocator","IWMSBufferAllocator interface [windows Media Format]","IWMSBufferAllocator interface [windows Media Format]","described","IWMSBufferAllocatorInterface","wmformat.iwmsbufferallocator","wmsbuffer/IWMSBufferAllocator"]
 old-location: wmformat\iwmsbufferallocator.htm
 tech.root: wmformat
 ms.assetid: 021ced93-4b79-4821-a380-7fed43fd5391

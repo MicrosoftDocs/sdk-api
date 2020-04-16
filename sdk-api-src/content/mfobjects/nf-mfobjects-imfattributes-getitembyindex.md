@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetItemByIndex
 title: IMFAttributes::GetItemByIndex (mfobjects.h)
-description: Retrieves an attribute at the specified index.
+description: Retrieves an attribute at the specified index.helpviewer_keywords: ["1290bc45-fcac-4379-b26c-e67ef678f193","GetItemByIndex","GetItemByIndex method [Media Foundation]","GetItemByIndex method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetItemByIndex method","IMFAttributes.GetItemByIndex","IMFAttributes::GetItemByIndex","mf.imfattributes_getitembyindex","mfobjects/IMFAttributes::GetItemByIndex"]
 old-location: mf\imfattributes_getitembyindex.htm
 tech.root: medfound
 ms.assetid: 1290bc45-fcac-4379-b26c-e67ef678f193

@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMsaPolicy
 title: IXblIdpAuthTokenResult::GetMsaPolicy (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use.helpviewer_keywords: ["GetMsaPolicy","GetMsaPolicy method","GetMsaPolicy method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetMsaPolicy method","IXblIdpAuthTokenResult.GetMsaPolicy","IXblIdpAuthTokenResult::GetMsaPolicy","xblidp.ixblidpauthtokenresult_getmsapolicy","xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaPolicy"]
 old-location: xblidp\ixblidpauthtokenresult_getmsapolicy.htm
 tech.root: xblidp
 ms.assetid: C2DFE2D9-EDDF-41BF-9E58-3D35054434DA

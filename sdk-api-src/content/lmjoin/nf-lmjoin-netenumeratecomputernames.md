@@ -1,7 +1,7 @@
 ---
 UID: NF:lmjoin.NetEnumerateComputerNames
 title: NetEnumerateComputerNames function (lmjoin.h)
-description: Enumerates names for the specified computer.
+description: Enumerates names for the specified computer.helpviewer_keywords: ["NetAllComputerNames","NetAlternateComputerNames","NetComputerNameTypeMax","NetEnumerateComputerNames","NetEnumerateComputerNames function [Network Management]","NetPrimaryComputerName","lmjoin/NetEnumerateComputerNames","netmgmt.netenumeratecomputernames"]
 old-location: netmgmt\netenumeratecomputernames.htm
 tech.root: NetMgmt
 ms.assetid: c657ae33-404e-4c36-a956-5fbcfa540be7

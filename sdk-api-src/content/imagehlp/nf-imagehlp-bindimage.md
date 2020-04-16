@@ -1,7 +1,7 @@
 ---
 UID: NF:imagehlp.BindImage
 title: BindImage function (imagehlp.h)
-description: Computes the virtual address of each imported function.
+description: Computes the virtual address of each imported function.helpviewer_keywords: ["BindImage","BindImage function","_win32_bindimage","base.bindimage","imagehlp/BindImage"]
 old-location: base\bindimage.htm
 tech.root: Debug
 ms.assetid: d586bf3a-c911-44a3-bf92-7de35009f742

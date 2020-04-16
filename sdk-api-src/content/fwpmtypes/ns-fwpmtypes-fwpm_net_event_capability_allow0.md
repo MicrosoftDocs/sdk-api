@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_CAPABILITY_ALLOW0_
 title: FWPM_NET_EVENT_CAPABILITY_ALLOW0 (fwpmtypes.h)
-description: Contains information about network traffic allowed in relation to an app container network capability.
+description: Contains information about network traffic allowed in relation to an app container network capability.helpviewer_keywords: ["FWPM_NET_EVENT_CAPABILITY_ALLOW0","FWPM_NET_EVENT_CAPABILITY_ALLOW0 structure [Filtering]","fwp.fwpm_net_event_capability_allow0","fwpmtypes/FWPM_NET_EVENT_CAPABILITY_ALLOW0"]
 old-location: fwp\fwpm_net_event_capability_allow0.htm
 tech.root: fwp
 ms.assetid: e53e92e5-f7fa-4457-8681-754b50b24273

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IHandlerActivationHost.BeforeCreateProcess
 title: IHandlerActivationHost::BeforeCreateProcess (shobjidl_core.h)
-description: .
+description: .helpviewer_keywords: ["BeforeCreateProcess","BeforeCreateProcess method [Windows Shell]","BeforeCreateProcess method [Windows Shell]","IHandlerActivationHost interface","IHandlerActivationHost interface [Windows Shell]","BeforeCreateProcess method","IHandlerActivationHost.BeforeCreateProcess","IHandlerActivationHost::BeforeCreateProcess","shell.IHandlerActivationHost_BeforeCreateProcess","shobjidl_core/IHandlerActivationHost::BeforeCreateProcess"]
 old-location: shell\IHandlerActivationHost_BeforeCreateProcess.htm
 tech.root: shell
 ms.assetid: aa0ea3cb-7fe3-498c-a105-b78492166f65

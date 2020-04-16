@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformNode.GetInputCount
 title: ID2D1TransformNode::GetInputCount (d2d1effectauthor.h)
-description: Gets the number of inputs to the transform node.
+description: Gets the number of inputs to the transform node.helpviewer_keywords: ["GetInputCount","GetInputCount method [Direct2D]","GetInputCount method [Direct2D]","ID2D1TransformNode interface","ID2D1TransformNode interface [Direct2D]","GetInputCount method","ID2D1TransformNode.GetInputCount","ID2D1TransformNode::GetInputCount","d2d1effectauthor/ID2D1TransformNode::GetInputCount","direct2d.id2d1transformnode_getinputcount"]
 old-location: direct2d\id2d1transformnode_getinputcount.htm
 tech.root: Direct2D
 ms.assetid: 8F8D2BD1-AF03-4EEA-8F5E-DED174074333

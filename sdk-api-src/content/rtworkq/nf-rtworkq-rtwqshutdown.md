@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqShutdown
 title: RtwqShutdown function (rtworkq.h)
-description: Shuts down the platform. Call this function once for every call to RtwqStartup. Do not call this function from work queue threads.
+description: Shuts down the platform. Call this function once for every call to RtwqStartup. Do not call this function from work queue threads.helpviewer_keywords: ["RtwqShutdown","RtwqShutdown function","base.rtwqshutdown","rtworkq/RtwqShutdown"]
 old-location: base\rtwqshutdown.htm
 tech.root: ProcThread
 ms.assetid: 806c4142-b628-4ea0-b5e2-d2b4ead73c04

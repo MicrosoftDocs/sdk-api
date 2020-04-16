@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchStripToRoot
 title: PathCchStripToRoot function (pathcch.h)
-description: Removes all file and directory elements in a path except for the root information.This function differs from PathStripToRoot in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
+description: Removes all file and directory elements in a path except for the root information.This function differs from PathStripToRoot in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.helpviewer_keywords: ["PathCchStripToRoot","PathCchStripToRoot function [Windows Shell]","pathcch/PathCchStripToRoot","shell.PathCchStripToRoot"]
 old-location: shell\PathCchStripToRoot.htm
 tech.root: shell
 ms.assetid: e0539478-8c64-4445-ab99-22f1df70afe8

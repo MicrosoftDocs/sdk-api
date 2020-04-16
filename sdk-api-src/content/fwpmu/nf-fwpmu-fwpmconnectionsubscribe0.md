@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmConnectionSubscribe0
 title: FwpmConnectionSubscribe0 function (fwpmu.h)
-description: Is used to request the delivery of notifications about changes to a connection object.
+description: Is used to request the delivery of notifications about changes to a connection object.helpviewer_keywords: ["FwpmConnectionSubscribe0","FwpmConnectionSubscribe0 function [Filtering]","fwp.fwpmconnectionsubscribe0","fwpmu/FwpmConnectionSubscribe0"]
 old-location: fwp\fwpmconnectionsubscribe0.htm
 tech.root: fwp
 ms.assetid: 86fe40b0-aada-44e1-91dd-0e825589159d

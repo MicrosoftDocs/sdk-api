@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.SetStart
 title: ITextRange::SetStart (tom.h)
-description: Sets the character position for the start of this range.
+description: Sets the character position for the start of this range.helpviewer_keywords: ["ITextRange interface [Windows Controls]","SetStart method","ITextRange.SetStart","ITextRange::SetStart","SetStart","SetStart method [Windows Controls]","SetStart method [Windows Controls]","ITextRange interface","_win32_ITextRange_SetStart","_win32_ITextRange_SetStart_cpp","controls.ITextRange_SetStart","controls._win32_ITextRange_SetStart","tom/ITextRange::SetStart"]
 old-location: controls\ITextRange_SetStart.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setstart.htm

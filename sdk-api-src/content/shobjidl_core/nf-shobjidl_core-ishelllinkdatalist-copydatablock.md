@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.CopyDataBlock
 title: IShellLinkDataList::CopyDataBlock (shobjidl_core.h)
-description: Retrieves a copy of a link's data block.
+description: Retrieves a copy of a link's data block.helpviewer_keywords: ["CopyDataBlock","CopyDataBlock method [Windows Shell]","CopyDataBlock method [Windows Shell]","IShellLinkDataList interface","IShellLinkDataList interface [Windows Shell]","CopyDataBlock method","IShellLinkDataList.CopyDataBlock","IShellLinkDataList::CopyDataBlock","_win32_IShellLinkDataList_CopyDataBlock","shell.IShellLinkDataList_CopyDataBlock","shobjidl_core/IShellLinkDataList::CopyDataBlock"]
 old-location: shell\IShellLinkDataList_CopyDataBlock.htm
 tech.root: shell
 ms.assetid: e02fb4c3-faec-40cc-ab97-d05cdcc148ed

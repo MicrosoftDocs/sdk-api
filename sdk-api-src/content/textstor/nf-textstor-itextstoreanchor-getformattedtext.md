@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetFormattedText
 title: ITextStoreAnchor::GetFormattedText (textstor.h)
-description: The ITextStoreAnchor::GetFormattedText method returns formatted text information from a text stream.
+description: The ITextStoreAnchor::GetFormattedText method returns formatted text information from a text stream.helpviewer_keywords: ["GetFormattedText","GetFormattedText method [Text Services Framework]","GetFormattedText method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","GetFormattedText method","ITextStoreAnchor.GetFormattedText","ITextStoreAnchor::GetFormattedText","textstor/ITextStoreAnchor::GetFormattedText","tsf.itextstoreanchor_getformattedtext"]
 old-location: tsf\itextstoreanchor_getformattedtext.htm
 tech.root: TSF
 ms.assetid: 2b104b0a-b900-4acb-801e-d9716e3a0146

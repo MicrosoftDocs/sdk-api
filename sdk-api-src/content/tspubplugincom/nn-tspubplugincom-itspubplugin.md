@@ -1,7 +1,7 @@
 ---
 UID: NN:tspubplugincom.ItsPubPlugin
 title: ItsPubPlugin (tspubplugincom.h)
-description: Exposes properties and methods that provide information about resources available to users of RemoteApp and Desktop Connections.
+description: Exposes properties and methods that provide information about resources available to users of RemoteApp and Desktop Connections.helpviewer_keywords: ["ItsPubPlugin","ItsPubPlugin interface [Remote Desktop Services]","ItsPubPlugin interface [Remote Desktop Services]","described","termserv.itspubplugin","tspubplugincom/ItsPubPlugin"]
 old-location: termserv\itspubplugin.htm
 tech.root: TermServ
 ms.assetid: 37d33f27-a811-4c97-bc80-ff8a5b8fcb7c

@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._GROUP_RELATIONSHIP
 title: GROUP_RELATIONSHIP (winnt.h)
-description: Represents information about processor groups. This structure is used with the GetLogicalProcessorInformationEx function.
+description: Represents information about processor groups. This structure is used with the GetLogicalProcessorInformationEx function.helpviewer_keywords: ["*PGROUP_RELATIONSHIP","GROUP_RELATIONSHIP","GROUP_RELATIONSHIP structure","PGROUP_RELATIONSHIP","PGROUP_RELATIONSHIP structure pointer","_GROUP_RELATIONSHIP","base.group_relationship","winnt/GROUP_RELATIONSHIP","winnt/PGROUP_RELATIONSHIP"]
 old-location: base\group_relationship.htm
 tech.root: ProcThread
 ms.assetid: 3529ddef-04c5-4573-877d-c225da684e38

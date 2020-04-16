@@ -1,7 +1,7 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1503
 title: SERVER_INFO_1503 (lmserver.h)
-description: The SERVER_INFO_1503 structure specifies the number of search operations that can be carried out simultaneously.
+description: The SERVER_INFO_1503 structure specifies the number of search operations that can be carried out simultaneously.helpviewer_keywords: ["*LPSERVER_INFO_1503","*PSERVER_INFO_1503","LPSERVER_INFO_1503","LPSERVER_INFO_1503 structure pointer [Network Management]","PSERVER_INFO_1503","PSERVER_INFO_1503 structure pointer [Network Management]","SERVER_INFO_1503","SERVER_INFO_1503 structure [Network Management]","_win32_server_info_1503_str","lmserver/LPSERVER_INFO_1503","lmserver/PSERVER_INFO_1503","lmserver/SERVER_INFO_1503","netmgmt.server_info_1503_str"]
 old-location: netmgmt\server_info_1503_str.htm
 tech.root: NetMgmt
 ms.assetid: c369b350-a172-4989-a691-e7af0236c6a0

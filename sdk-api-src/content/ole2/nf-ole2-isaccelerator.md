@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.IsAccelerator
 title: IsAccelerator function (ole2.h)
-description: Determines whether the specified keystroke maps to an accelerator in the specified accelerator table.
+description: Determines whether the specified keystroke maps to an accelerator in the specified accelerator table.helpviewer_keywords: ["IsAccelerator","IsAccelerator function [COM]","_com_IsAccelerator","com.isaccelerator","ole2/IsAccelerator"]
 old-location: com\isaccelerator.htm
 tech.root: com
 ms.assetid: 2d09f81a-b422-4379-89c8-d50992ebb24c

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetAudioEndpointRole
 title: IMFMediaEngineEx::GetAudioEndpointRole (mfmediaengine.h)
-description: Gets the audio device endpoint role used for the next call to SetSource or Load.
+description: Gets the audio device endpoint role used for the next call to SetSource or Load.helpviewer_keywords: ["GetAudioEndpointRole","GetAudioEndpointRole method [Media Foundation]","GetAudioEndpointRole method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","GetAudioEndpointRole method","IMFMediaEngineEx.GetAudioEndpointRole","IMFMediaEngineEx::GetAudioEndpointRole","mf.imfmediaengineex_getaudioendpointrole","mfmediaengine/IMFMediaEngineEx::GetAudioEndpointRole"]
 old-location: mf\imfmediaengineex_getaudioendpointrole.htm
 tech.root: medfound
 ms.assetid: f63fa14e-44e6-41b9-a8c9-4b8eb66e98e0

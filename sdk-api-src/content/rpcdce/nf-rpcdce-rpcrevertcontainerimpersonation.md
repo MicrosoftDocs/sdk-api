@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcRevertContainerImpersonation
 title: RpcRevertContainerImpersonation function (rpcdce.h)
-description: RpcRevertContainerImpersonation may be altered or unavailable.
+description: RpcRevertContainerImpersonation may be altered or unavailable.helpviewer_keywords: ["RpcRevertContainerImpersonation","RpcRevertContainerImpersonation function [RPC]","rpc.rpcrevertcontainerimpersonation","rpcdce/RpcRevertContainerImpersonation"]
 old-location: rpc\rpcrevertcontainerimpersonation.htm
 tech.root: Rpc
 ms.assetid: 331D32B5-1583-4A2C-9A1A-0D546DDE846D

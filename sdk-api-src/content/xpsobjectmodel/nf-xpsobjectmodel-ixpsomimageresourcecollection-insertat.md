@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.InsertAt
 title: IXpsOMImageResourceCollection::InsertAt (xpsobjectmodel.h)
-description: Inserts an IXpsOMImageResource interface pointer at a specified location in the collection.
+description: Inserts an IXpsOMImageResource interface pointer at a specified location in the collection.helpviewer_keywords: ["IXpsOMImageResourceCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMImageResourceCollection.InsertAt","IXpsOMImageResourceCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMImageResourceCollection interface","xps.ixpsomimageresourcecollection_insertat","xpsobjectmodel/IXpsOMImageResourceCollection::InsertAt"]
 old-location: xps\ixpsomimageresourcecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 46bb3a49-f875-4b52-98f4-cec475f46019

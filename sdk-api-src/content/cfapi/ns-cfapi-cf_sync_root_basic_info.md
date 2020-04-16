@@ -1,7 +1,7 @@
 ---
 UID: NS:cfapi.CF_SYNC_ROOT_BASIC_INFO
 title: CF_SYNC_ROOT_BASIC_INFO (cfapi.h)
-description: Basic sync root information.
+description: Basic sync root information.helpviewer_keywords: ["CF_SYNC_ROOT_BASIC_INFO","CF_SYNC_ROOT_BASIC_INFO structure","cfapi/CF_SYNC_ROOT_BASIC_INFO","cloudApi.cf_sync_root_basic_info"]
 old-location: cloudapi\cf_sync_root_basic_info.htm
 tech.root: cfApi
 ms.assetid: 7499D9DD-BAF6-449A-A34E-CEAE3EE10543

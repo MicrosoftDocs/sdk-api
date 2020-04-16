@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl.UpperButtonSelect
 title: IDvdControl::UpperButtonSelect (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the upper directional button from the displayed menu.
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the upper directional button from the displayed menu.helpviewer_keywords: ["IDvdControl interface [DirectShow]","UpperButtonSelect method","IDvdControl.UpperButtonSelect","IDvdControl::UpperButtonSelect","IDvdControlUpperButtonSelect","UpperButtonSelect","UpperButtonSelect method [DirectShow]","UpperButtonSelect method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_upperbuttonselect","strmif/IDvdControl::UpperButtonSelect"]
 old-location: dshow\idvdcontrol_upperbuttonselect.htm
 tech.root: DirectShow
 ms.assetid: bd0e4086-087b-460f-a6af-fa073644f1bb

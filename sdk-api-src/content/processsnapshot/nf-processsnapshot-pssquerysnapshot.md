@@ -1,7 +1,7 @@
 ---
 UID: NF:processsnapshot.PssQuerySnapshot
 title: PssQuerySnapshot function (processsnapshot.h)
-description: Queries the snapshot.
+description: Queries the snapshot.helpviewer_keywords: ["PssQuerySnapshot","PssQuerySnapshot function","proc_snap.pssquerysnapshot","processsnapshot/PssQuerySnapshot"]
 old-location: proc_snap\pssquerysnapshot.htm
 tech.root: proc_snap
 ms.assetid: D9580147-28ED-4FF5-B7DB-844ACB19769F

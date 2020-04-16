@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.AssocGetDetailsOfPropKey
 title: AssocGetDetailsOfPropKey function (shlobj_core.h)
-description: Retrieves the value for a given property key using the file association information provided by the Namespace Extensions.
+description: Retrieves the value for a given property key using the file association information provided by the Namespace Extensions.helpviewer_keywords: ["AssocGetDetailsOfPropKey","AssocGetDetailsOfPropKey function [Windows Shell]","_shell_AssocGetDetailsOfPropKey","shell.AssocGetDetailsOfPropKey","shlobj_core/AssocGetDetailsOfPropKey"]
 old-location: shell\AssocGetDetailsOfPropKey.htm
 tech.root: shell
 ms.assetid: f13af5f4-1b6a-419c-a042-e05c9ec51d02

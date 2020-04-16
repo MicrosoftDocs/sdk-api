@@ -1,7 +1,7 @@
 ---
 UID: NF:wiavideo.IWiaVideo.GetCurrentState
 title: IWiaVideo::GetCurrentState (wiavideo.h)
-description: The IWiaVideo::GetCurrentState method specifies the state of the video stream as a member of the WIAVIDEO_STATE enumeration.
+description: The IWiaVideo::GetCurrentState method specifies the state of the video stream as a member of the WIAVIDEO_STATE enumeration.helpviewer_keywords: ["GetCurrentState","GetCurrentState method [WIA]","GetCurrentState method [WIA]","IWiaVideo interface","IWiaVideo interface [WIA]","GetCurrentState method","IWiaVideo.GetCurrentState","IWiaVideo::GetCurrentState","_wia_IWiaVideo_GetCurrentState","wia._wia_IWiaVideo_GetCurrentState","wiavideo/IWiaVideo::GetCurrentState"]
 old-location: wia\_wia_IWiaVideo_GetCurrentState.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\getcurrentstate.htm

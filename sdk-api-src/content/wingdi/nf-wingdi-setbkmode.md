@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.SetBkMode
 title: SetBkMode function (wingdi.h)
-description: The SetBkMode function sets the background mix mode of the specified device context. The background mix mode is used with text, hatched brushes, and pen styles that are not solid lines.
+description: The SetBkMode function sets the background mix mode of the specified device context. The background mix mode is used with text, hatched brushes, and pen styles that are not solid lines.helpviewer_keywords: ["OPAQUE","SetBkMode","SetBkMode function [Windows GDI]","TRANSPARENT","_win32_SetBkMode","gdi.setbkmode","wingdi/SetBkMode"]
 old-location: gdi\setbkmode.htm
 tech.root: gdi
 ms.assetid: 60e4467a-14ab-421e-b174-4b9c0134ce72

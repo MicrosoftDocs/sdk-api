@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core.STPFLAG
 title: STPFLAG (shobjidl_core.h)
-description: Used by the ITaskbarList4::SetTabProperties method to specify tab properties.
+description: Used by the ITaskbarList4::SetTabProperties method to specify tab properties.helpviewer_keywords: ["STPFLAG","STPFLAG enumeration [Windows Shell]","STPF_NONE","STPF_USEAPPPEEKALWAYS","STPF_USEAPPPEEKWHENACTIVE","STPF_USEAPPTHUMBNAILALWAYS","STPF_USEAPPTHUMBNAILWHENACTIVE","_shell_STPFLAG","shell.STPFLAG","shobjidl_core/STPFLAG","shobjidl_core/STPF_NONE","shobjidl_core/STPF_USEAPPPEEKALWAYS","shobjidl_core/STPF_USEAPPPEEKWHENACTIVE","shobjidl_core/STPF_USEAPPTHUMBNAILALWAYS","shobjidl_core/STPF_USEAPPTHUMBNAILWHENACTIVE"]
 old-location: shell\STPFLAG.htm
 tech.root: shell
 ms.assetid: 7d50e4fe-1689-4dbd-b367-f4881d8d5d78

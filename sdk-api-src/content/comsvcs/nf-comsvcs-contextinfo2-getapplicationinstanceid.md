@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ContextInfo2.GetApplicationInstanceId
 title: ContextInfo2::GetApplicationInstanceId (comsvcs.h)
-description: Retrieves the GUID of the application instance of the current object context.
+description: Retrieves the GUID of the application instance of the current object context.helpviewer_keywords: ["ContextInfo2 interface [COM+]","GetApplicationInstanceId method","ContextInfo2.GetApplicationInstanceId","ContextInfo2::GetApplicationInstanceId","GetApplicationInstanceId","GetApplicationInstanceId method [COM+]","GetApplicationInstanceId method [COM+]","ContextInfo2 interface","_cos_ContextInfo2_GetApplicationInstanceId","comsvcs/ContextInfo2::GetApplicationInstanceId","cos.contextinfo2_getapplicationinstanceid"]
 old-location: cos\contextinfo2_getapplicationinstanceid.htm
 tech.root: cossdk
 ms.assetid: 77149329-db3a-4ff4-a522-c290c2d0a915

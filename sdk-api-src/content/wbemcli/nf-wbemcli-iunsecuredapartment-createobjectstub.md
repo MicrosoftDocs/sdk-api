@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IUnsecuredApartment.CreateObjectStub
 title: IUnsecuredApartment::CreateObjectStub (wbemcli.h)
-description: The CreateObjectStub method creates an object forwarder sink to assist in receiving asynchronous calls from Windows Management.
+description: The CreateObjectStub method creates an object forwarder sink to assist in receiving asynchronous calls from Windows Management.helpviewer_keywords: ["CreateObjectStub","CreateObjectStub method [Windows Management Instrumentation]","CreateObjectStub method [Windows Management Instrumentation]","IUnsecuredApartment interface","IUnsecuredApartment interface [Windows Management Instrumentation]","CreateObjectStub method","IUnsecuredApartment.CreateObjectStub","IUnsecuredApartment::CreateObjectStub","_hmm_iunsecuredapartment_createobjectstub","wbemcli/IUnsecuredApartment::CreateObjectStub","wmi.iunsecuredapartment_createobjectstub"]
 old-location: wmi\iunsecuredapartment_createobjectstub.htm
 tech.root: WmiSdk
 ms.assetid: 76a376e4-bd0d-4b8b-b49a-162630c47220

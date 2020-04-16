@@ -1,7 +1,7 @@
 ---
 UID: NE:appmodel.AppPolicyThreadInitializationType
 title: AppPolicyThreadInitializationType (appmodel.h)
-description: The AppPolicyThreadInitializationType enumeration indicates the kind of initialization that should be automatically performed for a process when beginthread[ex] creates a thread.
+description: The AppPolicyThreadInitializationType enumeration indicates the kind of initialization that should be automatically performed for a process when beginthread[ex] creates a thread.helpviewer_keywords: ["AppPolicyThreadInitializationType","AppPolicyThreadInitializationType enumeration [App packaging and management]","AppPolicyThreadInitializationType_InitializeWinRT","AppPolicyThreadInitializationType_None","appmodel/AppPolicyThreadInitializationType","appmodel/AppPolicyThreadInitializationType_InitializeWinRT","appmodel/AppPolicyThreadInitializationType_None","appxpkg.apppolicythreadinitializationtype_enumeration"]
 old-location: appxpkg\apppolicythreadinitializationtype_enumeration.htm
 tech.root: appxpkg
 ms.assetid: F31AC156-5C27-4707-898A-3C8125E11FB3

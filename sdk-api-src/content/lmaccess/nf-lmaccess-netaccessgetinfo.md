@@ -1,7 +1,7 @@
 ---
 UID: NF:lmaccess.NetAccessGetInfo
 title: NetAccessGetInfo function (lmaccess.h)
-description: Not supported.
+description: Not supported.helpviewer_keywords: ["0","1","NetAccessGetInfo","NetAccessGetInfo function [Network Management]","_win32_netaccessgetinfo","lmaccess/NetAccessGetInfo","netmgmt.netaccessgetinfo"]
 old-location: netmgmt\netaccessgetinfo.htm
 tech.root: NetMgmt
 ms.assetid: 76d818db-ce13-4879-9ba5-c26d13fe098a

@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddExcludeFiles
 title: IVssCreateWriterMetadata::AddExcludeFiles (vswriter.h)
-description: The AddExcludeFiles method is used to explicitly exclude a file set (a specified file or files) that might otherwise be implicitly included when a component of the current writer is backed up.
+description: The AddExcludeFiles method is used to explicitly exclude a file set (a specified file or files) that might otherwise be implicitly included when a component of the current writer is backed up.helpviewer_keywords: ["AddExcludeFiles","AddExcludeFiles method [VSS]","AddExcludeFiles method [VSS]","IVssCreateWriterMetadata interface","IVssCreateWriterMetadata interface [VSS]","AddExcludeFiles method","IVssCreateWriterMetadata.AddExcludeFiles","IVssCreateWriterMetadata::AddExcludeFiles","_win32_ivsscreatewritermetadata_addexcludefiles","base.ivsscreatewritermetadata_addexcludefiles","vswriter/IVssCreateWriterMetadata::AddExcludeFiles"]
 old-location: base\ivsscreatewritermetadata_addexcludefiles.htm
 tech.root: VSS
 ms.assetid: 705bb666-9080-4b42-af58-9cc21fbf88cf

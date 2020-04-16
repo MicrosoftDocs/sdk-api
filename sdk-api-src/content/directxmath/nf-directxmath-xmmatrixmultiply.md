@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixMultiply
 title: XMMatrixMultiply function (directxmath.h)
-description: Computes the product of two matrices.
+description: Computes the product of two matrices.helpviewer_keywords: ["Use DirectX..XMMatrixMultiply","XMMatrixMultiply","XMMatrixMultiply method [DirectX Math Support APIs]","dxmath.xmmatrixmultiply"]
 old-location: dxmath\xmmatrixmultiply.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixMultiply(XMMATRIX,XMMATRIX)

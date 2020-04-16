@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IConsoleVerb.GetVerbState
 title: IConsoleVerb::GetVerbState (mmc.h)
-description: The GetVerbState method enables a snap-in to obtain a given verb's current state.
+description: The GetVerbState method enables a snap-in to obtain a given verb's current state.helpviewer_keywords: ["GetVerbState","GetVerbState method [MMC]","GetVerbState method [MMC]","IConsoleVerb interface","IConsoleVerb interface [MMC]","GetVerbState method","IConsoleVerb.GetVerbState","IConsoleVerb::GetVerbState","_slate_iconsoleverb_getverbstate","mmc.iconsoleverb_getverbstate","mmc/IConsoleVerb::GetVerbState"]
 old-location: mmc\iconsoleverb_getverbstate.htm
 tech.root: mmc
 ms.assetid: 86388a22-5156-45e9-a601-33b7c5ca15f3

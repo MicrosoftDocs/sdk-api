@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteTextRenderer1.DrawUnderline
 title: IDWriteTextRenderer1::DrawUnderline (dwrite_2.h)
-description: IDWriteTextLayout::Draw calls this function to instruct the client to draw an underline.
+description: IDWriteTextLayout::Draw calls this function to instruct the client to draw an underline.helpviewer_keywords: ["DrawUnderline","DrawUnderline method [Direct Write]","DrawUnderline method [Direct Write]","IDWriteTextRenderer1 interface","IDWriteTextRenderer1 interface [Direct Write]","DrawUnderline method","IDWriteTextRenderer1.DrawUnderline","IDWriteTextRenderer1::DrawUnderline","directwrite.idwritetextrenderer1_drawunderline","dwrite_2/IDWriteTextRenderer1::DrawUnderline"]
 old-location: directwrite\idwritetextrenderer1_drawunderline.htm
 tech.root: DirectWrite
 ms.assetid: c2c5ea68-c1d0-b467-a9a7-cb3a457ff68d

@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsecure.IWMAuthorizer
 title: IWMAuthorizer (wmsecure.h)
-description: Provides access to certificates.
+description: Provides access to certificates.helpviewer_keywords: ["IWMAuthorizer","IWMAuthorizer interface [windows Media Format]","IWMAuthorizer interface [windows Media Format]","described","wmformat.iwmauthorizer","wmsecure/IWMAuthorizer"]
 old-location: wmformat\iwmauthorizer.htm
 tech.root: wmformat
 ms.assetid: eece7e36-7c3e-4bc4-9b5a-8142a062dbce

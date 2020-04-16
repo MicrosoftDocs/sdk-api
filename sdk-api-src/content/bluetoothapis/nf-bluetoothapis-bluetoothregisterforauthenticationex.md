@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothRegisterForAuthenticationEx
 title: BluetoothRegisterForAuthenticationEx function (bluetoothapis.h)
-description: The BluetoothRegisterForAuthenticationEx function registers an application for a pin request, numeric comparison and callback function.
+description: The BluetoothRegisterForAuthenticationEx function registers an application for a pin request, numeric comparison and callback function.helpviewer_keywords: ["BluetoothRegisterForAuthenticationEx","BluetoothRegisterForAuthenticationEx function [Bluetooth]","bluetooth.bluetoothregisterforauthenticationex","bluetoothapis/BluetoothRegisterForAuthenticationEx"]
 old-location: bluetooth\bluetoothregisterforauthenticationex.htm
 tech.root: bluetooth
 ms.assetid: c9838f27-3450-4d51-be58-ce515d06d5cb

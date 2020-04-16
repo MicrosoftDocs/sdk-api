@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMTuner.Logout
 title: IAMTuner::Logout (strmif.h)
-description: The Logout method logs out the current user.
+description: The Logout method logs out the current user.helpviewer_keywords: ["IAMTuner interface [DirectShow]","Logout method","IAMTuner.Logout","IAMTuner::Logout","IAMTunerLogout","Logout","Logout method [DirectShow]","Logout method [DirectShow]","IAMTuner interface","dshow.iamtuner_logout","strmif/IAMTuner::Logout"]
 old-location: dshow\iamtuner_logout.htm
 tech.root: DirectShow
 ms.assetid: 637823ec-0de9-431d-96b7-606abcc9013a

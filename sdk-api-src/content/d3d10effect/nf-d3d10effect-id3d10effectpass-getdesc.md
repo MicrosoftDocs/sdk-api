@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.GetDesc
 title: ID3D10EffectPass::GetDesc (d3d10effect.h)
-description: Get a pass description.
+description: Get a pass description.helpviewer_keywords: ["GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10EffectPass interface","ID3D10EffectPass interface [Direct3D 10]","GetDesc method","ID3D10EffectPass.GetDesc","ID3D10EffectPass::GetDesc","d144db62-661e-4008-27bf-01ee2d40f810","d3d10effect/ID3D10EffectPass::GetDesc","direct3d10.id3d10effectpass_getdesc"]
 old-location: direct3d10\id3d10effectpass_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_getdesc.htm

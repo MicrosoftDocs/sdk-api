@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsAcl
 title: IADsAcl (iads.h)
-description: The IADsAcl interface provides methods for an ADSI client to access and manipulate the ACL or Inherited ACL attribute values. This interface manipulates the attributes.
+description: The IADsAcl interface provides methods for an ADSI client to access and manipulate the ACL or Inherited ACL attribute values. This interface manipulates the attributes.helpviewer_keywords: ["IADsAcl","IADsAcl interface [ADSI]","IADsAcl interface [ADSI]","described","_ds_iadsacl","adsi.iadsacl","iads/IADsAcl"]
 old-location: adsi\iadsacl.htm
 tech.root: adsi
 ms.assetid: 71aebf28-f906-4a86-8bdb-ecb0626a350f

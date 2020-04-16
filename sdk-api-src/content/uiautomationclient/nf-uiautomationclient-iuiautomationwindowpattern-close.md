@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.Close
 title: IUIAutomationWindowPattern::Close (uiautomationclient.h)
-description: Closes the window.
+description: Closes the window.helpviewer_keywords: ["Close","Close method [Windows Accessibility]","Close method [Windows Accessibility]","IUIAutomationWindowPattern interface","IUIAutomationWindowPattern interface [Windows Accessibility]","Close method","IUIAutomationWindowPattern.Close","IUIAutomationWindowPattern::Close","uiauto.uiauto_IUIAutomationWindowPattern_Close","uiauto_IUIAutomationWindowPattern_Close","uiautomationclient/IUIAutomationWindowPattern::Close","winauto.uiauto_IUIAutomationWindowPattern_Close"]
 old-location: winauto\uiauto_IUIAutomationWindowPattern_Close.htm
 tech.root: WinAuto
 ms.assetid: 925484e2-6ad1-49ca-b2d4-a6436e7a3ddd

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.IS_POINTER_INRANGE_WPARAM
 title: IS_POINTER_INRANGE_WPARAM macro (winuser.h)
-description: Checks whether the specified pointer is in range.
+description: Checks whether the specified pointer is in range.helpviewer_keywords: ["IS_POINTER_INRANGE_WPARAM","IS_POINTER_INRANGE_WPARAM","IS_POINTER_INRANGE_WPARAM macro","inputmsg.is_pointer_inrange_wparam","winuser/IS_POINTER_INRANGE_WPARAM"]
 old-location: inputmsg\is_pointer_inrange_wparam.htm
 tech.root: InputMsg
 ms.assetid: 41f7dde6-1486-4050-b9b6-ffc2ed9912a8

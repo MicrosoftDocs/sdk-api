@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertPropertyBackedUp.InitializeFromCurrentTime
 title: ICertPropertyBackedUp::InitializeFromCurrentTime (certenroll.h)
-description: Initializes the property from a Boolean value and the current system date and time.
+description: Initializes the property from a Boolean value and the current system date and time.helpviewer_keywords: ["ICertPropertyBackedUp interface [Security]","InitializeFromCurrentTime method","ICertPropertyBackedUp.InitializeFromCurrentTime","ICertPropertyBackedUp::InitializeFromCurrentTime","InitializeFromCurrentTime","InitializeFromCurrentTime method [Security]","InitializeFromCurrentTime method [Security]","ICertPropertyBackedUp interface","certenroll/ICertPropertyBackedUp::InitializeFromCurrentTime","security.icertpropertybackedup_initializefromcurrenttime_method"]
 old-location: security\icertpropertybackedup_initializefromcurrenttime_method.htm
 tech.root: seccertenroll
 ms.assetid: 2033c947-661c-4a52-b24f-82fa71ba7868

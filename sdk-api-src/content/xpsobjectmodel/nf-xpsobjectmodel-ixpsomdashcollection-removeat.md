@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.RemoveAt
 title: IXpsOMDashCollection::RemoveAt (xpsobjectmodel.h)
-description: Removes and frees an XPS_DASH structure from a specified location in the collection.
+description: Removes and frees an XPS_DASH structure from a specified location in the collection.helpviewer_keywords: ["IXpsOMDashCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMDashCollection.RemoveAt","IXpsOMDashCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMDashCollection interface","xps.ixpsomdashcollection_removeat","xpsobjectmodel/IXpsOMDashCollection::RemoveAt"]
 old-location: xps\ixpsomdashcollection_removeat.htm
 tech.root: printdocs
 ms.assetid: 5ccce0d4-c764-4da4-9d7c-463921a92a6a

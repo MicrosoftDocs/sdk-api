@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IUserAccountChangeCallback
 title: IUserAccountChangeCallback (shobjidl.h)
-description: Exposes a method which is called when the picture that represents a user account is changed.
+description: Exposes a method which is called when the picture that represents a user account is changed.helpviewer_keywords: ["IUserAccountChangeCallback","IUserAccountChangeCallback interface [Windows Shell]","IUserAccountChangeCallback interface [Windows Shell]","described","_shell_IUserAccountChangeCallback","shell.IUserAccountChangeCallback","shobjidl/IUserAccountChangeCallback"]
 old-location: shell\IUserAccountChangeCallback.htm
 tech.root: shell
 ms.assetid: de72aa25-7d0c-445c-aa1b-f0f3bdc07d10

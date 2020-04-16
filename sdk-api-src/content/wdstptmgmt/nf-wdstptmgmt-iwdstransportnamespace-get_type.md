@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Type
 title: IWdsTransportNamespace::get_Type (wdstptmgmt.h)
-description: Enables an application to retrieve the type of the namespace for this object.
+description: Enables an application to retrieve the type of the namespace for this object.helpviewer_keywords: ["IWdsTransportNamespace interface [Windows Deployment Services]","Type property","IWdsTransportNamespace.Type","IWdsTransportNamespace.get_Type","IWdsTransportNamespace::Type","IWdsTransportNamespace::get_Type","Type property [Windows Deployment Services]","Type property [Windows Deployment Services]","IWdsTransportNamespace interface","get_Type","wds.iwdstransportnamespace_type","wdstptmgmt/IWdsTransportNamespace::Type","wdstptmgmt/IWdsTransportNamespace::get_Type"]
 old-location: wds\iwdstransportnamespace_type.htm
 tech.root: wds
 ms.assetid: 7c7f8d4b-917c-47e9-b82f-f3e601348201

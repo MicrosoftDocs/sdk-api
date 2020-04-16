@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl.AudioStreamChange
 title: IDvdControl::AudioStreamChange (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the current audio stream.
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the current audio stream.helpviewer_keywords: ["AudioStreamChange","AudioStreamChange method [DirectShow]","AudioStreamChange method [DirectShow]","IDvdControl interface","IDvdControl interface [DirectShow]","AudioStreamChange method","IDvdControl.AudioStreamChange","IDvdControl::AudioStreamChange","IDvdControlAudioStreamChange","dshow.idvdcontrol_audiostreamchange","strmif/IDvdControl::AudioStreamChange"]
 old-location: dshow\idvdcontrol_audiostreamchange.htm
 tech.root: DirectShow
 ms.assetid: 08fca00b-e187-40db-99c0-8b978dd0f10e

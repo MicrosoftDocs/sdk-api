@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingService.DockWindow
 title: IAccessibilityDockingService::DockWindow (shobjidl.h)
-description: Docks the specified window handle to the specified monitor handle.
+description: Docks the specified window handle to the specified monitor handle.helpviewer_keywords: ["DockWindow","DockWindow method [COM]","DockWindow method [COM]","IAccessibilityDockingService interface","IAccessibilityDockingService interface [COM]","DockWindow method","IAccessibilityDockingService.DockWindow","IAccessibilityDockingService::DockWindow","com.iaccessibilitydockingservice_dockwindow","shobjidl/IAccessibilityDockingService::DockWindow"]
 old-location: com\iaccessibilitydockingservice_dockwindow.htm
 tech.root: com
 ms.assetid: 99C6A82C-A421-4A5E-B23A-167384A7AB90

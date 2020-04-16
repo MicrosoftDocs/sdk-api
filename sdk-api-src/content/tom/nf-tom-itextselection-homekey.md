@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextSelection.HomeKey
 title: ITextSelection::HomeKey (tom.h)
-description: Generalizes the functionality of the Home key.
+description: Generalizes the functionality of the Home key.helpviewer_keywords: ["HomeKey","HomeKey method [Windows Controls]","HomeKey method [Windows Controls]","ITextSelection interface","ITextSelection interface [Windows Controls]","HomeKey method","ITextSelection.HomeKey","ITextSelection::HomeKey","_win32_ITextSelection_HomeKey","_win32_ITextSelection_HomeKey_cpp","controls.ITextSelection_HomeKey","controls._win32_ITextSelection_HomeKey","tom/ITextSelection::HomeKey","tomColumn","tomLine","tomRow","tomStory"]
 old-location: controls\ITextSelection_HomeKey.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\homekey.htm

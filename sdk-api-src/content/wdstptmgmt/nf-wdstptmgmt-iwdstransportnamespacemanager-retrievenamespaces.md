@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespaceManager.RetrieveNamespaces
 title: IWdsTransportNamespaceManager::RetrieveNamespaces (wdstptmgmt.h)
-description: Returns a collection of objects of the IWdsTransportNamespace interface that represent namespaces on the server that match specified criteria.
+description: Returns a collection of objects of the IWdsTransportNamespace interface that represent namespaces on the server that match specified criteria.helpviewer_keywords: ["IWdsTransportNamespaceManager interface [Windows Deployment Services]","RetrieveNamespaces method","IWdsTransportNamespaceManager.RetrieveNamespaces","IWdsTransportNamespaceManager::RetrieveNamespaces","RetrieveNamespaces","RetrieveNamespaces method [Windows Deployment Services]","RetrieveNamespaces method [Windows Deployment Services]","IWdsTransportNamespaceManager interface","wds.iwdstransportnamespacemanager_retrievenamespaces","wdstptmgmt/IWdsTransportNamespaceManager::RetrieveNamespaces"]
 old-location: wds\iwdstransportnamespacemanager_retrievenamespaces.htm
 tech.root: wds
 ms.assetid: 3151ab6b-7ceb-4ecc-8480-cb5f9700ca9a

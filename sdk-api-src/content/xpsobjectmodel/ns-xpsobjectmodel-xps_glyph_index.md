@@ -1,7 +1,7 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0021
 title: XPS_GLYPH_INDEX (xpsobjectmodel.h)
-description: Describes the placement and location of a glyph.
+description: Describes the placement and location of a glyph.helpviewer_keywords: ["XPS_GLYPH_INDEX","XPS_GLYPH_INDEX structure [XPS Documents and Packaging]","xps.xps_glyph_index","xpsobjectmodel/XPS_GLYPH_INDEX"]
 old-location: xps\xps_glyph_index.htm
 tech.root: printdocs
 ms.assetid: 0ea30e0f-f32b-4a38-9591-27cb1fe7f234

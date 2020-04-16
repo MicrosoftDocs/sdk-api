@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.UpdateTileMappings
 title: ID3D11DeviceContext2::UpdateTileMappings (d3d11_2.h)
-description: Updates mappings of tile locations in tiled resources to memory locations in a tile pool.
+description: Updates mappings of tile locations in tiled resources to memory locations in a tile pool.helpviewer_keywords: ["ID3D11DeviceContext2 interface [Direct3D 11]","UpdateTileMappings method","ID3D11DeviceContext2.UpdateTileMappings","ID3D11DeviceContext2::UpdateTileMappings","UpdateTileMappings","UpdateTileMappings method [Direct3D 11]","UpdateTileMappings method [Direct3D 11]","ID3D11DeviceContext2 interface","d3d11_2/ID3D11DeviceContext2::UpdateTileMappings","direct3d11.id3d11devicecontext2_updatetilemappings"]
 old-location: direct3d11\id3d11devicecontext2_updatetilemappings.htm
 tech.root: direct3d11
 ms.assetid: 542735C4-BFDE-4EA9-9595-BA30BD06422B

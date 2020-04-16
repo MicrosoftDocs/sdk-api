@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateRootSignature
 title: ID3D12Device::CreateRootSignature (d3d12.h)
-description: Creates a root signature layout.
+description: Creates a root signature layout.helpviewer_keywords: ["CreateRootSignature","CreateRootSignature method","CreateRootSignature method","ID3D12Device interface","ID3D12Device interface","CreateRootSignature method","ID3D12Device.CreateRootSignature","ID3D12Device::CreateRootSignature","d3d12/ID3D12Device::CreateRootSignature","direct3d12.id3d12device_createrootsignature"]
 old-location: direct3d12\id3d12device_createrootsignature.htm
 tech.root: direct3d12
 ms.assetid: CD3389EC-4086-40F0-B1DB-BCBCF9DDE6BA

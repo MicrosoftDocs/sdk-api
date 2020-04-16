@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_VPOV_DIMENSION
 title: D3D11_VPOV_DIMENSION (d3d11.h)
-description: Specifies how to access a resource that is used in a video processor output view.
+description: Specifies how to access a resource that is used in a video processor output view.helpviewer_keywords: ["D3D11_VPOV_DIMENSION","D3D11_VPOV_DIMENSION enumeration [Media Foundation]","D3D11_VPOV_DIMENSION_TEXTURE2D","D3D11_VPOV_DIMENSION_TEXTURE2DARRAY","D3D11_VPOV_DIMENSION_UNKNOWN","d3d11/D3D11_VPOV_DIMENSION","d3d11/D3D11_VPOV_DIMENSION_TEXTURE2D","d3d11/D3D11_VPOV_DIMENSION_TEXTURE2DARRAY","d3d11/D3D11_VPOV_DIMENSION_UNKNOWN","mf.d3d11_vpov_dimension"]
 old-location: mf\d3d11_vpov_dimension.htm
 tech.root: medfound
 ms.assetid: EB334FA2-B174-45B2-8087-AAB72BB41795

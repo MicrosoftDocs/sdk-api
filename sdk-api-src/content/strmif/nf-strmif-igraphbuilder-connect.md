@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IGraphBuilder.Connect
 title: IGraphBuilder::Connect (strmif.h)
-description: The Connect method connects the two pins, using intermediates if necessary.
+description: The Connect method connects the two pins, using intermediates if necessary.helpviewer_keywords: ["Connect","Connect method [DirectShow]","Connect method [DirectShow]","IGraphBuilder interface","IGraphBuilder interface [DirectShow]","Connect method","IGraphBuilder.Connect","IGraphBuilder::Connect","IGraphBuilderConnect","dshow.igraphbuilder_connect","strmif/IGraphBuilder::Connect"]
 old-location: dshow\igraphbuilder_connect.htm
 tech.root: DirectShow
 ms.assetid: 8ddcbb73-8220-4d70-9ab3-58d99fa8a958

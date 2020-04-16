@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetPlaybackRate
 title: IMFMediaEngine::GetPlaybackRate (mfmediaengine.h)
-description: Gets the current playback rate.
+description: Gets the current playback rate.helpviewer_keywords: ["GetPlaybackRate","GetPlaybackRate method [Media Foundation]","GetPlaybackRate method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetPlaybackRate method","IMFMediaEngine.GetPlaybackRate","IMFMediaEngine::GetPlaybackRate","mf.imfmediaengine_getplaybackrate","mfmediaengine/IMFMediaEngine::GetPlaybackRate"]
 old-location: mf\imfmediaengine_getplaybackrate.htm
 tech.root: medfound
 ms.assetid: E270CB86-D90B-43FA-843B-F824970BD4F3

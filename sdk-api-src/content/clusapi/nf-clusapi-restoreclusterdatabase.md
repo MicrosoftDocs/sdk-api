@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.RestoreClusterDatabase
 title: RestoreClusterDatabase function (clusapi.h)
-description: Restores the cluster database and restarts the Cluster service on the node from which the function is called. This node is called the restoring node.
+description: Restores the cluster database and restarts the Cluster service on the node from which the function is called. This node is called the restoring node.helpviewer_keywords: ["RestoreClusterDatabase","RestoreClusterDatabase function [Failover Cluster]","_wolf_restoreclusterdatabase","clusapi/RestoreClusterDatabase","mscs.restoreclusterdatabase"]
 old-location: mscs\restoreclusterdatabase.htm
 tech.root: MsCS
 ms.assetid: a0524363-c5dc-449a-aaf6-9bcd9522c9eb

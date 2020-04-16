@@ -1,7 +1,7 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_FeaturesActive
 title: IMSVidCtl::get_FeaturesActive (msvidctl.h)
-description: The get_FeaturesActive method retrieves the features that are currently active.
+description: The get_FeaturesActive method retrieves the features that are currently active.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","get_FeaturesActive method","IMSVidCtl.get_FeaturesActive","IMSVidCtl::get_FeaturesActive","IMSVidCtlget_FeaturesActive","get_FeaturesActive","get_FeaturesActive method [Microsoft TV Technologies]","get_FeaturesActive method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_get_featuresactive","msvidctl/IMSVidCtl::get_FeaturesActive"]
 old-location: mstv\imsvidctl_get_featuresactive.htm
 tech.root: mstv
 ms.assetid: 33832fe2-e8ef-4e37-9af9-90f566feb559

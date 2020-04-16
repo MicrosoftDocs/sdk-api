@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegEnableReflectionKey
 title: RegEnableReflectionKey function (winreg.h)
-description: Restores registry reflection for the specified disabled key. Restoring reflection for a key does not affect reflection of any subkeys.
+description: Restores registry reflection for the specified disabled key. Restoring reflection for a key does not affect reflection of any subkeys.helpviewer_keywords: ["RegEnableReflectionKey","RegEnableReflectionKey function","base.regenablereflectionkey","winreg/RegEnableReflectionKey"]
 old-location: base\regenablereflectionkey.htm
 tech.root: SysInfo
 ms.assetid: 6dfbc3d8-cd71-4ee9-a10b-955c26a6894c

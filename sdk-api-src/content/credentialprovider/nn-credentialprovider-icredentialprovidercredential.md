@@ -1,7 +1,7 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderCredential
 title: ICredentialProviderCredential (credentialprovider.h)
-description: Exposes methods that enable the handling of a credential.
+description: Exposes methods that enable the handling of a credential.helpviewer_keywords: ["ICredentialProviderCredential","ICredentialProviderCredential interface [Windows Shell]","ICredentialProviderCredential interface [Windows Shell]","described","credentialprovider/ICredentialProviderCredential","shell.ICredentialProviderCredential","shell_ICredentialProviderCredential"]
 old-location: shell\ICredentialProviderCredential.htm
 tech.root: shell
 ms.assetid: ef9bb148-0b4e-4c13-b69d-3e63a5592e4a

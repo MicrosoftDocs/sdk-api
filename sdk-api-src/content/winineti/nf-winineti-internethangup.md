@@ -1,7 +1,7 @@
 ---
 UID: NF:winineti.InternetHangUp
 title: InternetHangUp function (winineti.h)
-description: Instructs the modem to disconnect from the Internet.
+description: Instructs the modem to disconnect from the Internet.helpviewer_keywords: ["InternetHangUp","InternetHangUp function [WinINet]","_inet_internethangup_function","wininet.internethangup","winineti/InternetHangUp"]
 old-location: wininet\internethangup.htm
 tech.root: wininet
 ms.assetid: 5d74532e-14cd-45c1-b16b-b302bed89c12

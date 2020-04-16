@@ -1,7 +1,7 @@
 ---
 UID: NF:gpedit.DeleteGPOLink
 title: DeleteGPOLink function (gpedit.h)
-description: The DeleteGPOLink function deletes the link between the specified GPO and the specified site, domain, or organizational unit.
+description: The DeleteGPOLink function deletes the link between the specified GPO and the specified site, domain, or organizational unit.helpviewer_keywords: ["DeleteGPOLink","DeleteGPOLink function [Group Policy]","_win32_deletegpolink","gpedit/DeleteGPOLink","policy.deletegpolink"]
 old-location: policy\deletegpolink.htm
 tech.root: Policy
 ms.assetid: e797bc8d-c0c5-4d93-b553-6c07029af01f

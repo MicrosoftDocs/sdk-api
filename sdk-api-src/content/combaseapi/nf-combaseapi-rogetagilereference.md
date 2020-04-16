@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.RoGetAgileReference
 title: RoGetAgileReference function (combaseapi.h)
-description: Creates an agile reference for an object specified by the given interface.
+description: Creates an agile reference for an object specified by the given interface.helpviewer_keywords: ["RoGetAgileReference","RoGetAgileReference function [Windows Runtime]","combaseapi/RoGetAgileReference","winrt.rogetagilereference"]
 old-location: winrt\rogetagilereference.htm
 tech.root: WinRT
 ms.assetid: D16224C7-1BB7-46F5-B66C-54D0B9679006

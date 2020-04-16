@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_ATTACH_FN
 title: PIBIO_ENGINE_ATTACH_FN (winbio_adapter.h)
-description: Adds an engine adapter to the processing pipeline of the biometric unit.
+description: Adds an engine adapter to the processing pipeline of the biometric unit.helpviewer_keywords: ["EngineAdapterAttach","EngineAdapterAttach callback function [Windows Biometric Framework API]","PIBIO_ENGINE_ATTACH_FN","PIBIO_ENGINE_ATTACH_FN callback","secbiomet.engineadapterattach","winbio_adapter/EngineAdapterAttach"]
 old-location: secbiomet\engineadapterattach.htm
 tech.root: SecBioMet
 ms.assetid: e797952b-c7dd-41ad-9536-97d7ce1a7a5d

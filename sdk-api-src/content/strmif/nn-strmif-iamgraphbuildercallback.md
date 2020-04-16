@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IAMGraphBuilderCallback
 title: IAMGraphBuilderCallback (strmif.h)
-description: The IAMGraphBuilderCallback interface provides a callback mechanism during graph building.To use this interface, implement the interface in your application or client object.
+description: The IAMGraphBuilderCallback interface provides a callback mechanism during graph building.To use this interface, implement the interface in your application or client object.helpviewer_keywords: ["IAMGraphBuilderCallback","IAMGraphBuilderCallback interface [DirectShow]","IAMGraphBuilderCallback interface [DirectShow]","described","IAMGraphBuilderCallbackInterface","dshow.iamgraphbuildercallback","strmif/IAMGraphBuilderCallback"]
 old-location: dshow\iamgraphbuildercallback.htm
 tech.root: DirectShow
 ms.assetid: 4d8e45e3-7144-44ad-b79e-5acc0cec6ed4

@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.InitVariantFromStrRet
 title: InitVariantFromStrRet function (propvarutil.h)
-description: Initializes a VARIANT structure with a string stored in a STRRET structure.
+description: Initializes a VARIANT structure with a string stored in a STRRET structure.helpviewer_keywords: ["InitVariantFromStrRet","InitVariantFromStrRet function [Windows Properties]","_shell_InitVariantFromStrRet","properties.InitVariantFromStrRet","propvarutil/InitVariantFromStrRet","shell.InitVariantFromStrRet"]
 old-location: properties\InitVariantFromStrRet.htm
 tech.root: properties
 ms.assetid: 8e9542a9-9ed0-4e44-b9b1-32b31151bd8e

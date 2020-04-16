@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetItemState
 title: INameSpaceTreeControl::GetItemState (shobjidl_core.h)
-description: Gets state information about a Shell item.
+description: Gets state information about a Shell item.helpviewer_keywords: ["GetItemState","GetItemState method [Windows Shell]","GetItemState method [Windows Shell]","INameSpaceTreeControl interface","INameSpaceTreeControl interface [Windows Shell]","GetItemState method","INameSpaceTreeControl.GetItemState","INameSpaceTreeControl::GetItemState","_shell_INameSpaceTreeControl_GetItemState","shell.INameSpaceTreeControl_GetItemState","shobjidl_core/INameSpaceTreeControl::GetItemState"]
 old-location: shell\INameSpaceTreeControl_GetItemState.htm
 tech.root: shell
 ms.assetid: 78bee2db-6a28-4fcb-9c43-ab411196ab04

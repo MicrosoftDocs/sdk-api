@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmFilterCreateEnumHandle0
 title: FwpmFilterCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of filter objects.
+description: Creates a handle used to enumerate a set of filter objects.helpviewer_keywords: ["FwpmFilterCreateEnumHandle0","FwpmFilterCreateEnumHandle0 function [Filtering]","fwp.fwpmfiltercreateenumhandle0_func","fwpmu/FwpmFilterCreateEnumHandle0"]
 old-location: fwp\fwpmfiltercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: fd8ffa91-a205-441c-9145-da8b441cef28

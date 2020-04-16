@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzTask.get_Operations
 title: IAzTask::get_Operations (azroles.h)
-description: Retrieves the operations associated with the task.
+description: Retrieves the operations associated with the task.helpviewer_keywords: ["AzTask object [Security]","Operations property","IAzTask interface [Security]","Operations property","IAzTask.Operations","IAzTask.get_Operations","IAzTask::Operations","IAzTask::get_Operations","Operations property [Security]","Operations property [Security]","AzTask object","Operations property [Security]","IAzTask interface","azroles/IAzTask::Operations","azroles/IAzTask::get_Operations","get_Operations","security.iaztask_operations"]
 old-location: security\iaztask_operations.htm
 tech.root: SecAuthZ
 ms.assetid: b05fd157-6526-49d6-9bb1-fcf8c59cc74e

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetOutputParameterDesc
 title: ID3D12ShaderReflection::GetOutputParameterDesc (d3d12shader.h)
-description: Gets an output-parameter description for a shader.
+description: Gets an output-parameter description for a shader.helpviewer_keywords: ["GetOutputParameterDesc","GetOutputParameterDesc method","GetOutputParameterDesc method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetOutputParameterDesc method","ID3D12ShaderReflection.GetOutputParameterDesc","ID3D12ShaderReflection::GetOutputParameterDesc","d3d12shader/ID3D12ShaderReflection::GetOutputParameterDesc","direct3d12.id3d12shaderreflection_getoutputparameterdesc"]
 old-location: direct3d12\id3d12shaderreflection_getoutputparameterdesc.htm
 tech.root: direct3d12
 ms.assetid: 6B767F3A-54A7-40F0-B9A9-FD69FA07C689

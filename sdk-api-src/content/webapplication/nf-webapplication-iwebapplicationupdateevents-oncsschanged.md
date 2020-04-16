@@ -1,7 +1,7 @@
 ---
 UID: NF:webapplication.IWebApplicationUpdateEvents.OnCssChanged
 title: IWebApplicationUpdateEvents::OnCssChanged (webapplication.h)
-description: Notifies the authoring app that the Cascading Style Sheets (CSS) has changed.
+description: Notifies the authoring app that the Cascading Style Sheets (CSS) has changed.helpviewer_keywords: ["IWebApplicationUpdateEvents interface [Debugging Windows Store apps]","OnCssChanged method","IWebApplicationUpdateEvents.OnCssChanged","IWebApplicationUpdateEvents::OnCssChanged","OnCssChanged","OnCssChanged method [Debugging Windows Store apps]","OnCssChanged method [Debugging Windows Store apps]","IWebApplicationUpdateEvents interface","debug.iwebapplicationupdateevents_oncsschanged","webapplication/IWebApplicationUpdateEvents::OnCssChanged"]
 old-location: debug\iwebapplicationupdateevents_oncsschanged.htm
 tech.root: debug_wwahost
 ms.assetid: 8C959152-3576-4131-BD32-5777F1F570A1

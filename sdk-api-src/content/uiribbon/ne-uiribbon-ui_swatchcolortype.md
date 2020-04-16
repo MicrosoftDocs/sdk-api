@@ -1,7 +1,7 @@
 ---
 UID: NE:uiribbon.UI_SWATCHCOLORTYPE
 title: UI_SWATCHCOLORTYPE (uiribbon.h)
-description: Specifies the values that identify how a color swatch in a DropDownColorPicker or a FontControl color picker (Text color or Text highlight) is filled.Note  These are recommendations only.
+description: Specifies the values that identify how a color swatch in a DropDownColorPicker or a FontControl color picker (Text color or Text highlight) is filled.Note  These are recommendations only.helpviewer_keywords: ["UI_SWATCHCOLORTYPE","UI_SWATCHCOLORTYPE enumeration [Windows Ribbon]","UI_SWATCHCOLORTYPE_AUTOMATIC","UI_SWATCHCOLORTYPE_NOCOLOR","UI_SWATCHCOLORTYPE_RGB","scenicintent_UI_SWATCHCOLORTYPE","uiribbon/UI_SWATCHCOLORTYPE","uiribbon/UI_SWATCHCOLORTYPE_AUTOMATIC","uiribbon/UI_SWATCHCOLORTYPE_NOCOLOR","uiribbon/UI_SWATCHCOLORTYPE_RGB","windowsribbon.windowsribbon_ui_swatchcolortype"]
 old-location: windowsribbon\windowsribbon_ui_swatchcolortype.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_swatchcolortype.htm

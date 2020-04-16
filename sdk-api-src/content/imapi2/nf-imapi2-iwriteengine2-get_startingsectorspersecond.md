@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_StartingSectorsPerSecond
 title: IWriteEngine2::get_StartingSectorsPerSecond (imapi2.h)
-description: Retrieves the estimated number of sectors per second that the recording device can write to the media at the start of the writing process.
+description: Retrieves the estimated number of sectors per second that the recording device can write to the media at the start of the writing process.helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","get_StartingSectorsPerSecond method","IWriteEngine2.get_StartingSectorsPerSecond","IWriteEngine2::get_StartingSectorsPerSecond","get_StartingSectorsPerSecond","get_StartingSectorsPerSecond method [IMAPI]","get_StartingSectorsPerSecond method [IMAPI]","IWriteEngine2 interface","imapi.iwriteengine2_get_startingsectorspersecond","imapi2/IWriteEngine2::get_StartingSectorsPerSecond"]
 old-location: imapi\iwriteengine2_get_startingsectorspersecond.htm
 tech.root: imapi
 ms.assetid: 335da519-7378-469d-83dc-7c6a265fe67b

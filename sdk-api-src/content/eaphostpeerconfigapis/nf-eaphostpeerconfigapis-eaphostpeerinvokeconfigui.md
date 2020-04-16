@@ -1,7 +1,7 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerInvokeConfigUI
 title: EapHostPeerInvokeConfigUI function (eaphostpeerconfigapis.h)
-description: Starts the configuration user interface of the specified EAP method.
+description: Starts the configuration user interface of the specified EAP method.helpviewer_keywords: ["EapHostPeerInvokeConfigUI","EapHostPeerInvokeConfigUI function [EAPHost]","eaphost.eaphostpeerinvokeconfigui","eaphostpeerconfigapis/EapHostPeerInvokeConfigUI"]
 old-location: eaphost\eaphostpeerinvokeconfigui.htm
 tech.root: eaphost
 ms.assetid: afb20482-a439-437d-9c8f-c4e87e440113

@@ -1,7 +1,7 @@
 ---
 UID: NE:restartmanager._RM_FILTER_TRIGGER
 title: RM_FILTER_TRIGGER (restartmanager.h)
-description: Describes the restart or shutdown actions for an application or service.
+description: Describes the restart or shutdown actions for an application or service.helpviewer_keywords: ["RM_FILTER_TRIGGER","RM_FILTER_TRIGGER enumeration [Restart Mgr]","RmFilterTriggerFile","RmFilterTriggerInvalid","RmFilterTriggerProcess","RmFilterTriggerService","restartmanager/RM_FILTER_TRIGGER","restartmanager/RmFilterTriggerFile","restartmanager/RmFilterTriggerInvalid","restartmanager/RmFilterTriggerProcess","restartmanager/RmFilterTriggerService","rstmgr.rm_filter_trigger"]
 old-location: rstmgr\rm_filter_trigger.htm
 tech.root: rstmgr
 ms.assetid: 1198c52b-f5f5-46e9-878e-39143687d645

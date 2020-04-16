@@ -1,7 +1,7 @@
 ---
 UID: NS:dvp._DDVIDEOPORTINFO
 title: DDVIDEOPORTINFO (dvp.h)
-description: The DDVIDEOPORTINFO structure describes how the driver should transfer video data to a surface (or to surfaces); DDVIDEOPORTINFO is a member of the DD_VIDEOPORT_LOCAL structure.
+description: The DDVIDEOPORTINFO structure describes how the driver should transfer video data to a surface (or to surfaces); DDVIDEOPORTINFO is a member of the DD_VIDEOPORT_LOCAL structure.helpviewer_keywords: ["*LPDDVIDEOPORTINFO","DDVIDEOPORTINFO","DDVIDEOPORTINFO structure [Display Devices]","ddstrcts_7190df68-6789-4dd1-8cbf-697a863435c5.xml","display.ddvideoportinfo","dvp/DDVIDEOPORTINFO"]
 old-location: display\ddvideoportinfo.htm
 tech.root: display
 ms.assetid: 65423d9e-d3b8-4545-8afe-09b3375dbac2

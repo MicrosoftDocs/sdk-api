@@ -1,7 +1,7 @@
 ---
 UID: NS:nb30._ACTION_HEADER
 title: ACTION_HEADER (nb30.h)
-description: The ACTION_HEADER structure contains information about an action. This action is an extension to the standard transport interface.
+description: The ACTION_HEADER structure contains information about an action. This action is an extension to the standard transport interface.helpviewer_keywords: ["*PACTION_HEADER","ACTION_HEADER","ACTION_HEADER structure [NetBIOS]","MABF","MNBF","MOOO","MXNS","PACTION_HEADER","PACTION_HEADER structure pointer [NetBIOS]","nb30/ACTION_HEADER","nb30/PACTION_HEADER","netbios.action_header"]
 old-location: netbios\action_header.htm
 tech.root: NetBIOS
 ms.assetid: f2bbf394-972a-4e96-8cc6-9f230359cbfc

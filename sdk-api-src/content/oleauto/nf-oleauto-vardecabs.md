@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarDecAbs
 title: VarDecAbs function (oleauto.h)
-description: Retrieves the absolute value of a variant of type decimal.
+description: Retrieves the absolute value of a variant of type decimal.helpviewer_keywords: ["VarDecAbs","VarDecAbs function [Automation]","_oa96_VarDecAbs","automat.vardecabs","oleauto/VarDecAbs"]
 old-location: automat\vardecabs.htm
 tech.root: automat
 ms.assetid: edd11182-319f-4f7d-917e-b0fec57574d7

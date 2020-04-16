@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetInputCurrentType
 title: IMFDeviceTransform::GetInputCurrentType (mftransform.h)
-description: The GetInputCurrentType method gets the current media type for an input stream on this Media Foundation transform (MFT).
+description: The GetInputCurrentType method gets the current media type for an input stream on this Media Foundation transform (MFT).helpviewer_keywords: ["GetInputCurrentType","GetInputCurrentType method [Streaming Media Devices]","GetInputCurrentType method [Streaming Media Devices]","IMFDeviceTransform interface","IMFDeviceTransform interface [Streaming Media Devices]","GetInputCurrentType method","IMFDeviceTransform.GetInputCurrentType","IMFDeviceTransform::GetInputCurrentType","mftransform/IMFDeviceTransform::GetInputCurrentType","stream.imfdevicetransform_getinputcurrenttype"]
 old-location: stream\imfdevicetransform_getinputcurrenttype.htm
 tech.root: stream
 ms.assetid: 8E2955AD-ECBD-4C24-972A-8F670DC08F0F

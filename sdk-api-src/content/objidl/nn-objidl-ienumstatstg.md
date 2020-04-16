@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IEnumSTATSTG
 title: IEnumSTATSTG (objidl.h)
-description: Enumerates an array of STATSTG structures.
+description: Enumerates an array of STATSTG structures.helpviewer_keywords: ["IEnumSTATSTG","IEnumSTATSTG interface [Structured Storage]","IEnumSTATSTG interface [Structured Storage]","described","_stg_ienumstatstg","objidl/IEnumSTATSTG","stg.ienumstatstg"]
 old-location: stg\ienumstatstg.htm
 tech.root: Stg
 ms.assetid: 93b8b14e-94e4-460b-9846-413affad8e4f

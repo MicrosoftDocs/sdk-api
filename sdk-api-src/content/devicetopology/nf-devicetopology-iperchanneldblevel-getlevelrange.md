@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.GetLevelRange
 title: IPerChannelDbLevel::GetLevelRange (devicetopology.h)
-description: The GetLevelRange method gets the range, in decibels, of the volume level of the specified channel.
+description: The GetLevelRange method gets the range, in decibels, of the volume level of the specified channel.helpviewer_keywords: ["GetLevelRange","GetLevelRange method [Core Audio]","GetLevelRange method [Core Audio]","IPerChannelDbLevel interface","IPerChannelDbLevel interface [Core Audio]","GetLevelRange method","IPerChannelDbLevel.GetLevelRange","IPerChannelDbLevel::GetLevelRange","IPerChannelDbLevelGetLevelRange","coreaudio.iperchanneldblevel_getlevelrange","devicetopology/IPerChannelDbLevel::GetLevelRange"]
 old-location: coreaudio\iperchanneldblevel_getlevelrange.htm
 tech.root: CoreAudio
 ms.assetid: 492eddb0-f8f2-4639-b5fe-1d02bf8c983a

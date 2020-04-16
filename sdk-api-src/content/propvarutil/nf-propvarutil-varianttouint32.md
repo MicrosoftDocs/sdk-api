@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.VariantToUInt32
 title: VariantToUInt32 function (propvarutil.h)
-description: Extracts unsigned Int32 property value of a variant structure. If no value can be extracted, then a default value is assigned.
+description: Extracts unsigned Int32 property value of a variant structure. If no value can be extracted, then a default value is assigned.helpviewer_keywords: ["VariantToUInt32","VariantToUInt32 function [Windows Properties]","_shell_VariantToUInt32","properties.VariantToUInt32","propvarutil/VariantToUInt32","shell.VariantToUInt32"]
 old-location: properties\VariantToUInt32.htm
 tech.root: properties
 ms.assetid: 24421477-8930-4c8f-8fee-5d8367123c7e

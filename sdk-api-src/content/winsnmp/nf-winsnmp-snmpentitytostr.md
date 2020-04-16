@@ -1,7 +1,7 @@
 ---
 UID: NF:winsnmp.SnmpEntityToStr
 title: SnmpEntityToStr function (winsnmp.h)
-description: The WinSNMP SnmpEntityToStr function returns a string that identifies an SNMP management entity.
+description: The WinSNMP SnmpEntityToStr function returns a string that identifies an SNMP management entity.helpviewer_keywords: ["SnmpEntityToStr","SnmpEntityToStr function [SNMP]","_snmp_snmpentitytostr","snmp.snmpentitytostr","winsnmp/SnmpEntityToStr"]
 old-location: snmp\snmpentitytostr.htm
 tech.root: SNMP
 ms.assetid: 3a5bca7e-a0a2-4bf5-86cc-f8d9f3ac8660

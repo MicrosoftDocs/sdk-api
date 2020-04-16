@@ -1,7 +1,7 @@
 ---
 UID: NE:rdpappcontainerclient.__MIDL_IRemoteDesktopClientActions_0003
 title: SnapshotFormatType (rdpappcontainerclient.h)
-description: The data format used for a Remote Desktop Protocol (RDP) app container client snapshot.
+description: The data format used for a Remote Desktop Protocol (RDP) app container client snapshot.helpviewer_keywords: ["SnapshotFormatBmp","SnapshotFormatJpeg","SnapshotFormatPng","SnapshotFormatType","SnapshotFormatType enumeration [Remote Desktop Services]","rdpappcontainerclient/SnapshotFormatBmp","rdpappcontainerclient/SnapshotFormatJpeg","rdpappcontainerclient/SnapshotFormatPng","rdpappcontainerclient/SnapshotFormatType","termserv.snapshotformattype"]
 old-location: termserv\snapshotformattype.htm
 tech.root: TermServ
 ms.assetid: 18B73928-F797-457A-84A1-0E1B2B1208A2

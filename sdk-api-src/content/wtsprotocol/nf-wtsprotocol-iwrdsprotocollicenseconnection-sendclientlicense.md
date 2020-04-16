@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLicenseConnection.SendClientLicense
 title: IWRdsProtocolLicenseConnection::SendClientLicense (wtsprotocol.h)
-description: Sends a license to the client.
+description: Sends a license to the client.helpviewer_keywords: ["IWRdsProtocolLicenseConnection interface [Remote Desktop Services]","SendClientLicense method","IWRdsProtocolLicenseConnection.SendClientLicense","IWRdsProtocolLicenseConnection::SendClientLicense","SendClientLicense","SendClientLicense method [Remote Desktop Services]","SendClientLicense method [Remote Desktop Services]","IWRdsProtocolLicenseConnection interface","termserv.iwrdsprotocollicenseconnection_sendclientlicense","wtsprotocol/IWRdsProtocolLicenseConnection::SendClientLicense"]
 old-location: termserv\iwrdsprotocollicenseconnection_sendclientlicense.htm
 tech.root: TermServ
 ms.assetid: a758f6c8-1f84-4c20-857c-019cde68915c

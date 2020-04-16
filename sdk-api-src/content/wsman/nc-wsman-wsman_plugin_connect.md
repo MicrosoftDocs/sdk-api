@@ -1,7 +1,7 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_CONNECT
 title: WSMAN_PLUGIN_CONNECT (wsman.h)
-description: Defines the connect callback for a plug-in.
+description: Defines the connect callback for a plug-in.helpviewer_keywords: ["WSMAN_PLUGIN_CONNECT","WSMAN_PLUGIN_CONNECT callback","WSMAN_PLUGIN_CONNECT callback function [Windows Remote Management]","WSManPluginConnect","winrm.wsman_plugin_connect","wsman/WSMAN_PLUGIN_CONNECT"]
 old-location: winrm\wsman_plugin_connect.htm
 tech.root: winrm
 ms.assetid: 694C732B-EAA0-4C8A-B3D5-E55ECA5EF733

@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.GetOverlayImage
 title: IImageList::GetOverlayImage (commoncontrols.h)
-description: Retrieves a specified image from the list of images used as overlay masks.
+description: Retrieves a specified image from the list of images used as overlay masks.helpviewer_keywords: ["GetOverlayImage","GetOverlayImage method [Windows Controls]","GetOverlayImage method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","GetOverlayImage method","IImageList.GetOverlayImage","IImageList::GetOverlayImage","comctl_IImageList_GetOverlayImage","comctl_IImageList_GetOverlayImage_cpp","commoncontrols/IImageList::GetOverlayImage","controls.IImageList_GetOverlayImage","controls.comctl_IImageList_GetOverlayImage"]
 old-location: controls\IImageList_GetOverlayImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getoverlayimage.htm

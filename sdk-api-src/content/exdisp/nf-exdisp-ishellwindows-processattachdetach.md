@@ -1,7 +1,7 @@
 ---
 UID: NF:exdisp.IShellWindows.ProcessAttachDetach
 title: IShellWindows::ProcessAttachDetach (exdisp.h)
-description: Deprecated. Always returns S_OK.
+description: Deprecated. Always returns S_OK.helpviewer_keywords: ["IShellWindows interface [Windows Shell]","ProcessAttachDetach method","IShellWindows.ProcessAttachDetach","IShellWindows::ProcessAttachDetach","ProcessAttachDetach","ProcessAttachDetach method [Windows Shell]","ProcessAttachDetach method [Windows Shell]","IShellWindows interface","_win32_IShellWindows_ProcessAttachDetach","exdisp/IShellWindows::ProcessAttachDetach","shell.IShellWindows_ProcessAttachDetach"]
 old-location: shell\IShellWindows_ProcessAttachDetach.htm
 tech.root: shell
 ms.assetid: 79bc04f0-7b03-40aa-8324-7b4eccc8c527

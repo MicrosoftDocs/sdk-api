@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ALIGN_CLUSPROP
 title: ALIGN_CLUSPROP macro (clusapi.h)
-description: Aligns structures properly within value lists.
+description: Aligns structures properly within value lists.helpviewer_keywords: ["ALIGN_CLUSPROP","ALIGN_CLUSPROP macro [Failover Cluster]","_wolf_align_clusprop","clusapi/ALIGN_CLUSPROP","mscs.align_clusprop"]
 old-location: mscs\align_clusprop.htm
 tech.root: MsCS
 ms.assetid: af7c9d39-b76f-494d-af5d-7e0baf0ace2d

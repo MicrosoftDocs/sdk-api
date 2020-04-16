@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_Remove
 title: ImageList_Remove function (commctrl.h)
-description: Removes an image from an image list.
+description: Removes an image from an image list.helpviewer_keywords: ["ImageList_Remove","ImageList_Remove function [Windows Controls]","_win32_ImageList_Remove","_win32_ImageList_Remove_cpp","commctrl/ImageList_Remove","controls.ImageList_Remove","controls._win32_ImageList_Remove"]
 old-location: controls\ImageList_Remove.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_remove.htm

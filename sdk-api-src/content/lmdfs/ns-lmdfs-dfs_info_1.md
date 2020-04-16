@@ -1,7 +1,7 @@
 ---
 UID: NS:lmdfs._DFS_INFO_1
 title: DFS_INFO_1 (lmdfs.h)
-description: Contains the name of a Distributed File System (DFS) root or link.
+description: Contains the name of a Distributed File System (DFS) root or link.helpviewer_keywords: ["*LPDFS_INFO_1","*PDFS_INFO_1","DFS_INFO_1","DFS_INFO_1 structure [Distributed File System]","LPDFS_INFO_1","LPDFS_INFO_1 structure pointer [Distributed File System]","PDFS_INFO_1","PDFS_INFO_1 structure pointer [Distributed File System]","_win32_dfs_info_1_str","dfs.dfs_info_1_str","fs.dfs_info_1_str","lmdfs/DFS_INFO_1","lmdfs/LPDFS_INFO_1","lmdfs/PDFS_INFO_1","netmgmt.dfs_info_1_str"]
 old-location: dfs\dfs_info_1_str.htm
 tech.root: Dfs
 ms.assetid: 96647570-badd-4925-ab90-054a00ba04c4

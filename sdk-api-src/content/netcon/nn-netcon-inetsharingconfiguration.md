@@ -1,7 +1,7 @@
 ---
 UID: NN:netcon.INetSharingConfiguration
 title: INetSharingConfiguration (netcon.h)
-description: The INetSharingConfiguration interface provides methods to manage connection sharing, port mapping, and Internet Connection Firewall.
+description: The INetSharingConfiguration interface provides methods to manage connection sharing, port mapping, and Internet Connection Firewall.helpviewer_keywords: ["INetSharingConfiguration","INetSharingConfiguration interface [ICS/ICF]","INetSharingConfiguration interface [ICS/ICF]","described","_ics_inetsharingconfiguration","ics.inetsharingconfiguration","netcon/INetSharingConfiguration"]
 old-location: ics\inetsharingconfiguration.htm
 tech.root: ics
 ms.assetid: 3ed1a3ae-87af-4415-b149-c66ae65cd053

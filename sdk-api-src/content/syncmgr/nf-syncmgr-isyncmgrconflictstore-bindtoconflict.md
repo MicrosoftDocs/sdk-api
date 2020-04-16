@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.BindToConflict
 title: ISyncMgrConflictStore::BindToConflict (syncmgr.h)
-description: Binds to a particular conflict specified by IID.
+description: Binds to a particular conflict specified by IID.helpviewer_keywords: ["BindToConflict","BindToConflict method [Windows Shell]","BindToConflict method [Windows Shell]","ISyncMgrConflictStore interface","ISyncMgrConflictStore interface [Windows Shell]","BindToConflict method","ISyncMgrConflictStore.BindToConflict","ISyncMgrConflictStore::BindToConflict","_shell_ISyncMgrConflictStore_BindToConflict","shell.ISyncMgrConflictStore_BindToConflict","syncmgr/ISyncMgrConflictStore::BindToConflict"]
 old-location: shell\ISyncMgrConflictStore_BindToConflict.htm
 tech.root: shell
 ms.assetid: 86414360-7dc5-4819-8372-0cede07ba41b

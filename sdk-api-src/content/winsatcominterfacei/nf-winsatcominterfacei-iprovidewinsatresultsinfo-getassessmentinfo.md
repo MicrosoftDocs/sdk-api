@@ -1,7 +1,7 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.GetAssessmentInfo
 title: IProvideWinSATResultsInfo::GetAssessmentInfo (winsatcominterfacei.h)
-description: Retrieves summary information for a subcomponent of the assessment.
+description: Retrieves summary information for a subcomponent of the assessment.helpviewer_keywords: ["GetAssessmentInfo","GetAssessmentInfo method [WinSAT]","GetAssessmentInfo method [WinSAT]","IProvideWinSATResultsInfo interface","IProvideWinSATResultsInfo interface [WinSAT]","GetAssessmentInfo method","IProvideWinSATResultsInfo.GetAssessmentInfo","IProvideWinSATResultsInfo::GetAssessmentInfo","winsat.iprovidewinsatresultsinfo_getassessmentinfo","winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo"]
 old-location: winsat\iprovidewinsatresultsinfo_getassessmentinfo.htm
 tech.root: WinSAT
 ms.assetid: dfa4d740-2dfd-41b5-a0be-a241f9ece939

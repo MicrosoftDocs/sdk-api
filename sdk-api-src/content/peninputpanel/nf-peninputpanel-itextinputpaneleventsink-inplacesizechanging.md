@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceSizeChanging
 title: ITextInputPanelEventSink::InPlaceSizeChanging (peninputpanel.h)
-description: Occurs when the in-place Input Panel size is about to change due to a user resize, auto growth, or an input area change.
+description: Occurs when the in-place Input Panel size is about to change due to a user resize, auto growth, or an input area change.helpviewer_keywords: ["ITextInputPanelEventSink interface [Tablet PC]","InPlaceSizeChanging method","ITextInputPanelEventSink.InPlaceSizeChanging","ITextInputPanelEventSink::InPlaceSizeChanging","InPlaceSizeChanging","InPlaceSizeChanging method [Tablet PC]","InPlaceSizeChanging method [Tablet PC]","ITextInputPanelEventSink interface","af9998a0-42ab-410d-980e-59a765d44667","peninputpanel/ITextInputPanelEventSink::InPlaceSizeChanging","tablet.itextinputpaneleventsink_inplacesizechanging"]
 old-location: tablet\itextinputpaneleventsink_inplacesizechanging.htm
 tech.root: tablet
 ms.assetid: af9998a0-42ab-410d-980e-59a765d44667

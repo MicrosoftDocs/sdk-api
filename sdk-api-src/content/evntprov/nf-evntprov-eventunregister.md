@@ -1,7 +1,7 @@
 ---
 UID: NF:evntprov.EventUnregister
 title: EventUnregister function (evntprov.h)
-description: Removes the provider's registration. You must call this function before your process exits.
+description: Removes the provider's registration. You must call this function before your process exits.helpviewer_keywords: ["EventUnregister","EventUnregister function [ETW]","base.eventunregister_func","etw.eventunregister_func","evntprov/EventUnregister"]
 old-location: etw\eventunregister_func.htm
 tech.root: ETW
 ms.assetid: fdcccf6f-2f31-4356-a4ee-3b6229c01b75

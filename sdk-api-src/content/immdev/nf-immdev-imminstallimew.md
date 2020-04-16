@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmInstallIMEW
 title: ImmInstallIMEW function (immdev.h)
-description: Installs an IME.
+description: Installs an IME.helpviewer_keywords: ["ImmInstallIME","ImmInstallIME function [Internationalization for Windows Applications]","ImmInstallIMEA","ImmInstallIMEW","_win32_ImmInstallIME","imm/ImmInstallIME","imm/ImmInstallIMEA","imm/ImmInstallIMEW","intl.imminstallime"]
 old-location: intl\imminstallime.htm
 tech.root: Intl
 ms.assetid: 8743908b-c9b4-41ff-952e-039253fb1246

@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSAPROTOCOLCHAIN
 title: WSAPROTOCOLCHAIN (winsock2.h)
-description: The WSAPROTOCOLCHAIN structure contains a counted list of Catalog Entry identifiers that comprise a protocol chain.
+description: The WSAPROTOCOLCHAIN structure contains a counted list of Catalog Entry identifiers that comprise a protocol chain.helpviewer_keywords: ["*LPWSAPROTOCOLCHAIN","LPWSAPROTOCOLCHAIN","LPWSAPROTOCOLCHAIN structure pointer [Winsock]","WSAPROTOCOLCHAIN","WSAPROTOCOLCHAIN structure [Winsock]","_win32_wsaprotocolchain_2","winsock.wsaprotocolchain_2","winsock2/LPWSAPROTOCOLCHAIN","winsock2/WSAPROTOCOLCHAIN"]
 old-location: winsock\wsaprotocolchain_2.htm
 tech.root: WinSock
 ms.assetid: c0676f45-e3e3-45f2-9b34-d7318fddc282

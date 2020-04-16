@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsServiceOperations.Start
 title: IADsServiceOperations::Start (iads.h)
-description: The IADsServiceOperations::Start method starts a network service.
+description: The IADsServiceOperations::Start method starts a network service.helpviewer_keywords: ["IADsServiceOperations interface [ADSI]","Start method","IADsServiceOperations.Start","IADsServiceOperations::Start","Start","Start method [ADSI]","Start method [ADSI]","IADsServiceOperations interface","_ds_iadsserviceoperations_start","adsi.iadsserviceoperations__start","adsi.iadsserviceoperations_start","iads/IADsServiceOperations::Start"]
 old-location: adsi\iadsserviceoperations_start.htm
 tech.root: adsi
 ms.assetid: 8eabd59e-2abf-4e6f-be42-342f3b722d75

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFMediaSession.GetSessionCapabilities
 title: IMFMediaSession::GetSessionCapabilities (mfidl.h)
-description: Retrieves the capabilities of the Media Session, based on the current presentation.
+description: Retrieves the capabilities of the Media Session, based on the current presentation.helpviewer_keywords: ["3534cfb9-23ff-42a6-a3db-b5032d427cf2","GetSessionCapabilities","GetSessionCapabilities method [Media Foundation]","GetSessionCapabilities method [Media Foundation]","IMFMediaSession interface","IMFMediaSession interface [Media Foundation]","GetSessionCapabilities method","IMFMediaSession.GetSessionCapabilities","IMFMediaSession::GetSessionCapabilities","MFSESSIONCAP_PAUSE","MFSESSIONCAP_RATE_FORWARD","MFSESSIONCAP_RATE_REVERSE","MFSESSIONCAP_SEEK","MFSESSIONCAP_START","mf.imfmediasession_getsessioncapabilities","mfidl/IMFMediaSession::GetSessionCapabilities"]
 old-location: mf\imfmediasession_getsessioncapabilities.htm
 tech.root: medfound
 ms.assetid: 3534cfb9-23ff-42a6-a3db-b5032d427cf2

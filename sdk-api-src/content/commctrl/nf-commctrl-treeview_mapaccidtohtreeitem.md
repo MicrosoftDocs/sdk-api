@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.TreeView_MapAccIDToHTREEITEM
 title: TreeView_MapAccIDToHTREEITEM macro (commctrl.h)
-description: Maps an accessibility ID to an HTREEITEM. You can use this macro or send the TVM_MAPACCIDTOHTREEITEM message explicitly.
+description: Maps an accessibility ID to an HTREEITEM. You can use this macro or send the TVM_MAPACCIDTOHTREEITEM message explicitly.helpviewer_keywords: ["TreeView_MapAccIDToHTREEITEM","TreeView_MapAccIDToHTREEITEM macro [Windows Controls]","_win32_TreeView_MapAccIDToHTREEITEM","_win32_TreeView_MapAccIDToHTREEITEM_cpp","commctrl/TreeView_MapAccIDToHTREEITEM","controls.TreeView_MapAccIDToHTREEITEM","controls._win32_TreeView_MapAccIDToHTREEITEM"]
 old-location: controls\TreeView_MapAccIDToHTREEITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_mapaccidtohtreeitem.htm

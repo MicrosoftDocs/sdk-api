@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterRegDeleteKey
 title: ClusterRegDeleteKey function (clusapi.h)
-description: Deletes a cluster database key.
+description: Deletes a cluster database key.helpviewer_keywords: ["ClusterRegDeleteKey","ClusterRegDeleteKey function [Failover Cluster]","_wolf_clusterregdeletekey","clusapi/ClusterRegDeleteKey","mscs.clusterregdeletekey"]
 old-location: mscs\clusterregdeletekey.htm
 tech.root: MsCS
 ms.assetid: af2b3b9c-2ff1-483e-a9cf-5db7b1fcbd85

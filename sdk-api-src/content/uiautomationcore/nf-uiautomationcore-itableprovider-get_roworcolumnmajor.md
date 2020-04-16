@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITableProvider.get_RowOrColumnMajor
 title: ITableProvider::get_RowOrColumnMajor (uiautomationcore.h)
-description: Specifies the primary direction of traversal for the table.
+description: Specifies the primary direction of traversal for the table.helpviewer_keywords: ["ITableProvider interface [Windows Accessibility]","RowOrColumnMajor property","ITableProvider.RowOrColumnMajor","ITableProvider.get_RowOrColumnMajor","ITableProvider::RowOrColumnMajor","ITableProvider::get_RowOrColumnMajor","RowOrColumnMajor property [Windows Accessibility]","RowOrColumnMajor property [Windows Accessibility]","ITableProvider interface","get_RowOrColumnMajor","uiauto.uiauto_ITableProvider_RowOrColumnMajor","uiauto_ITableProvider_RowOrColumnMajor","uiautomationcore/ITableProvider::RowOrColumnMajor","uiautomationcore/ITableProvider::get_RowOrColumnMajor","winauto.uiauto_ITableProvider_RowOrColumnMajor"]
 old-location: winauto\uiauto_ITableProvider_RowOrColumnMajor.htm
 tech.root: WinAuto
 ms.assetid: 9123bc22-2e48-4e4b-acc9-f11098970197

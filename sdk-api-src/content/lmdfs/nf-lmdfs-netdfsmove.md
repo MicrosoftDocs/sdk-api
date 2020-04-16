@@ -1,7 +1,7 @@
 ---
 UID: NF:lmdfs.NetDfsMove
 title: NetDfsMove function (lmdfs.h)
-description: Renames or moves a DFS link.
+description: Renames or moves a DFS link.helpviewer_keywords: ["DFS_MOVE_FLAG_REPLACE_IF_EXISTS","NetDfsMove","NetDfsMove function [Distributed File System]","dfs.netdfsmove","fs.netdfsmove","lmdfs/NetDfsMove","netmgmt.netdfsmove"]
 old-location: dfs\netdfsmove.htm
 tech.root: Dfs
 ms.assetid: d9d225ac-26b9-4074-93b6-6294538a3504

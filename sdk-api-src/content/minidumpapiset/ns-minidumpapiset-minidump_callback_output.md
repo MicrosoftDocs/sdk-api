@@ -1,7 +1,7 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_CALLBACK_OUTPUT
 title: MINIDUMP_CALLBACK_OUTPUT (minidumpapiset.h)
-description: Contains information returned by the MiniDumpCallback function.
+description: Contains information returned by the MiniDumpCallback function.helpviewer_keywords: ["*PMINIDUMP_CALLBACK_OUTPUT","MINIDUMP_CALLBACK_OUTPUT","MINIDUMP_CALLBACK_OUTPUT structure","PMINIDUMP_CALLBACK_OUTPUT","PMINIDUMP_CALLBACK_OUTPUT structure pointer","_MINIDUMP_CALLBACK_OUTPUT","_win32_minidump_callback_output_str","base.minidump_callback_output_str","minidumpapiset/MINIDUMP_CALLBACK_OUTPUT","minidumpapiset/PMINIDUMP_CALLBACK_OUTPUT"]
 old-location: base\minidump_callback_output_str.htm
 tech.root: Debug
 ms.assetid: 57949087-0f22-40c8-ab56-326a8304c310

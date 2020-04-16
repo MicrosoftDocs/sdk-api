@@ -1,7 +1,7 @@
 ---
 UID: NF:wlanapi.WlanQueryInterface
 title: WlanQueryInterface function (wlanapi.h)
-description: The WlanQueryInterface function queries various parameters of a specified interface.
+description: The WlanQueryInterface function queries various parameters of a specified interface.helpviewer_keywords: ["WlanQueryInterface","WlanQueryInterface function [NativeWIFI]","nwifi.wlanqueryinterface","wlanapi/WlanQueryInterface"]
 old-location: nwifi\wlanqueryinterface.htm
 tech.root: NativeWiFi
 ms.assetid: e20eb9a3-5824-48ee-b13e-b0252bbf495e

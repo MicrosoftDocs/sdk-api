@@ -1,7 +1,7 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter2.GetParam
 title: IConfigAsfWriter2::GetParam (dshowasf.h)
-description: The GetParam method retrieves the current value of the specified filter configuration parameter.
+description: The GetParam method retrieves the current value of the specified filter configuration parameter.helpviewer_keywords: ["GetParam","GetParam method [DirectShow]","GetParam method [DirectShow]","IConfigAsfWriter2 interface","IConfigAsfWriter2 interface [DirectShow]","GetParam method","IConfigAsfWriter2.GetParam","IConfigAsfWriter2::GetParam","IConfigAsfWriter2GetParam","dshow.iconfigasfwriter2_getparam","dshowasf/IConfigAsfWriter2::GetParam"]
 old-location: dshow\iconfigasfwriter2_getparam.htm
 tech.root: DirectShow
 ms.assetid: 2a875d02-3814-46a1-9eee-61bad36475fc

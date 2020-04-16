@@ -1,7 +1,7 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDefaultDeviceChanged
 title: IMMNotificationClient::OnDefaultDeviceChanged (mmdeviceapi.h)
-description: The OnDefaultDeviceChanged method notifies the client that the default audio endpoint device for a particular device role has changed.
+description: The OnDefaultDeviceChanged method notifies the client that the default audio endpoint device for a particular device role has changed.helpviewer_keywords: ["IMMNotificationClient interface [Core Audio]","OnDefaultDeviceChanged method","IMMNotificationClient.OnDefaultDeviceChanged","IMMNotificationClient::OnDefaultDeviceChanged","IMMNotificationClientOnDefaultDeviceChanged","OnDefaultDeviceChanged","OnDefaultDeviceChanged method [Core Audio]","OnDefaultDeviceChanged method [Core Audio]","IMMNotificationClient interface","coreaudio.immnotificationclient_ondefaultdevicechanged","mmdeviceapi/IMMNotificationClient::OnDefaultDeviceChanged"]
 old-location: coreaudio\immnotificationclient_ondefaultdevicechanged.htm
 tech.root: CoreAudio
 ms.assetid: 3d484e5d-bdc6-41f1-bd94-ab0c9e109222

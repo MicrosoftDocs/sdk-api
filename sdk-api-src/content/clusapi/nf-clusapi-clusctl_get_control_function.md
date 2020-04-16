@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CLUSCTL_GET_CONTROL_FUNCTION
 title: CLUSCTL_GET_CONTROL_FUNCTION macro (clusapi.h)
-description: Extracts the operation code from a control code. For more information on the various codes that comprise a control code, see Control Code Architecture.
+description: Extracts the operation code from a control code. For more information on the various codes that comprise a control code, see Control Code Architecture.helpviewer_keywords: ["CLUSCTL_GET_CONTROL_FUNCTION","CLUSCTL_GET_CONTROL_FUNCTION macro [Failover Cluster]","_wolf_clusctl_get_control_function","clusapi/CLUSCTL_GET_CONTROL_FUNCTION","mscs.clusctl_get_control_function"]
 old-location: mscs\clusctl_get_control_function.htm
 tech.root: MsCS
 ms.assetid: 0f1abfdd-e6b2-42a8-8c77-54590e3b3a89

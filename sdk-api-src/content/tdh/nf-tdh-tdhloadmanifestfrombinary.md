@@ -1,7 +1,7 @@
 ---
 UID: NF:tdh.TdhLoadManifestFromBinary
 title: TdhLoadManifestFromBinary function (tdh.h)
-description: Takes a NULL-terminated path to a binary file that contains metadata resources needed to decode a specific event provider.
+description: Takes a NULL-terminated path to a binary file that contains metadata resources needed to decode a specific event provider.helpviewer_keywords: ["TdhLoadManifestFromBinary","TdhLoadManifestFromBinary function [ETW]","etw.tdhloadmanifestfrombinary","tdh/TdhLoadManifestFromBinary"]
 old-location: etw\tdhloadmanifestfrombinary.htm
 tech.root: ETW
 ms.assetid: e152d25c-bbc9-4573-9575-9cf9583433a7

@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.GetThemeDocumentationProperty
 title: GetThemeDocumentationProperty function (uxtheme.h)
-description: Retrieves the value for a theme property from the documentation section of the specified theme file.
+description: Retrieves the value for a theme property from the documentation section of the specified theme file.helpviewer_keywords: ["GetThemeDocumentationProperty","GetThemeDocumentationProperty function [Windows Controls]","SZ_THDOCPROP_AUTHOR","SZ_THDOCPROP_CANONICALNAME","SZ_THDOCPROP_DISPLAYNAME","SZ_THDOCPROP_TOOLTIP","controls.GetThemeDocumentationProperty","controls.inet_GetThemeDocumentationProperty","inet_GetThemeDocumentationProperty","inet_GetThemeDocumentationProperty_cpp","uxtheme/GetThemeDocumentationProperty"]
 old-location: controls\GetThemeDocumentationProperty.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemedocumentationproperty.htm

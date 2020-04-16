@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.GetStatus
 title: ITfContext::GetStatus (msctf.h)
-description: ITfContext::GetStatus method
+description: ITfContext::GetStatus methodhelpviewer_keywords: ["GetStatus","GetStatus method [Text Services Framework]","GetStatus method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetStatus method","ITfContext.GetStatus","ITfContext::GetStatus","_tsf_itfcontext_getstatus_ref","msctf/ITfContext::GetStatus","tsf.itfcontext_getstatus"]
 old-location: tsf\itfcontext_getstatus.htm
 tech.root: TSF
 ms.assetid: a1f193b0-fcfc-4db6-90e9-61d528b08672

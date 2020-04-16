@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextServices.TxSendMessage
 title: ITextServices::TxSendMessage (textserv.h)
-description: Used by the window host to forward messages sent from its window to the text services object.
+description: Used by the window host to forward messages sent from its window to the text services object.helpviewer_keywords: ["ITextServices interface [Windows Controls]","TxSendMessage method","ITextServices.TxSendMessage","ITextServices::TxSendMessage","TxSendMessage","TxSendMessage method [Windows Controls]","TxSendMessage method [Windows Controls]","ITextServices interface","_win32_ITextServices_TxSendMessage","_win32_ITextServices_TxSendMessage_cpp","controls.ITextServices_TxSendMessage","controls._win32_ITextServices_TxSendMessage","textserv/ITextServices::TxSendMessage"]
 old-location: controls\ITextServices_TxSendMessage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsendmessage.htm

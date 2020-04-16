@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.put_ResultingImageType
 title: IRawCDImageCreator::put_ResultingImageType (imapi2.h)
-description: Sets the value that defines the type of image file that will be generated.
+description: Sets the value that defines the type of image file that will be generated.helpviewer_keywords: ["IRawCDImageCreator interface [IMAPI]","put_ResultingImageType method","IRawCDImageCreator.put_ResultingImageType","IRawCDImageCreator::put_ResultingImageType","imapi.irawcdimagecreator_put_resultingimagetype","imapi2/IRawCDImageCreator::put_ResultingImageType","put_ResultingImageType","put_ResultingImageType method [IMAPI]","put_ResultingImageType method [IMAPI]","IRawCDImageCreator interface"]
 old-location: imapi\irawcdimagecreator_put_resultingimagetype.htm
 tech.root: imapi
 ms.assetid: 1800717a-3b8a-45b2-849b-55c37d3b1b32

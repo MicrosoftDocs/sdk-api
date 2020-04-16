@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.DrawRectangle
 title: ID2D1CommandSink::DrawRectangle (d2d1_1.h)
-description: Draws a rectangle.
+description: Draws a rectangle.helpviewer_keywords: ["DrawRectangle","DrawRectangle method [Direct2D]","DrawRectangle method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","DrawRectangle method","ID2D1CommandSink.DrawRectangle","ID2D1CommandSink::DrawRectangle","d2d1_1/ID2D1CommandSink::DrawRectangle","direct2d.id2d1commandsink_drawrectangle"]
 old-location: direct2d\id2d1commandsink_drawrectangle.htm
 tech.root: Direct2D
 ms.assetid: 93c617fb-3c9d-4735-a077-7a3a58033369

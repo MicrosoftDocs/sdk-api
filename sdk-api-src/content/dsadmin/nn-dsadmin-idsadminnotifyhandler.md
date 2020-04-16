@@ -1,7 +1,7 @@
 ---
 UID: NN:dsadmin.IDsAdminNotifyHandler
 title: IDsAdminNotifyHandler (dsadmin.h)
-description: The IDsAdminNotifyHandler interface is implemented by an Active Directory administrative notification handler.
+description: The IDsAdminNotifyHandler interface is implemented by an Active Directory administrative notification handler.helpviewer_keywords: ["IDsAdminNotifyHandler","IDsAdminNotifyHandler interface [Active Directory]","IDsAdminNotifyHandler interface [Active Directory]","described","_glines_idsadminnotifyhandler","ad.idsadminnotifyhandler","dsadmin/IDsAdminNotifyHandler"]
 old-location: ad\idsadminnotifyhandler.htm
 tech.root: ad
 ms.assetid: d55e1473-8e51-441e-bd22-63208b294e14

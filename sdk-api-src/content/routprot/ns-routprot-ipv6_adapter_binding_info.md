@@ -1,7 +1,7 @@
 ---
 UID: NS:routprot.IPV6_ADAPTER_BINDING_INFO
 title: IPV6_ADAPTER_BINDING_INFO (routprot.h)
-description: The IPV6_ADAPTER_BINDING_INFO structure contains IPv6-specific information for a particular network adapter.
+description: The IPV6_ADAPTER_BINDING_INFO structure contains IPv6-specific information for a particular network adapter.helpviewer_keywords: ["*PIPV6_ADAPTER_BINDING_INFO","IPV6_ADAPTER_BINDING_INFO","IPV6_ADAPTER_BINDING_INFO structure [RAS]","PIPV6_ADAPTER_BINDING_INFO","PIPV6_ADAPTER_BINDING_INFO structure pointer [RAS]","routprot/IPV6_ADAPTER_BINDING_INFO","routprot/PIPV6_ADAPTER_BINDING_INFO","rras.ipv6_adapter_binding_info"]
 old-location: rras\ipv6_adapter_binding_info.htm
 tech.root: RRAS
 ms.assetid: 1e964f09-96c6-432b-bb1a-026a3ea0deba

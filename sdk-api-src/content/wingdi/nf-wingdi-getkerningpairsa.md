@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetKerningPairsA
 title: GetKerningPairsA function (wingdi.h)
-description: The GetKerningPairs function retrieves the character-kerning pairs for the currently selected font for the specified device context.
+description: The GetKerningPairs function retrieves the character-kerning pairs for the currently selected font for the specified device context.helpviewer_keywords: ["GetKerningPairs","GetKerningPairs function [Windows GDI]","GetKerningPairsA","GetKerningPairsW","_win32_GetKerningPairs","gdi.getkerningpairs","wingdi/GetKerningPairs","wingdi/GetKerningPairsA","wingdi/GetKerningPairsW"]
 old-location: gdi\getkerningpairs.htm
 tech.root: gdi
 ms.assetid: 9aba629f-afab-4ef3-8e1d-d0b90e122e94

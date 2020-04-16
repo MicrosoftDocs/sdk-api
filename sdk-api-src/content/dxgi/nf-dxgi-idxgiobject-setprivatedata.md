@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi.IDXGIObject.SetPrivateData
 title: IDXGIObject::SetPrivateData (dxgi.h)
-description: Sets application-defined data to the object and associates that data with a GUID.
+description: Sets application-defined data to the object and associates that data with a GUID.helpviewer_keywords: ["5949633e-2d65-5d04-b6ba-29414dfded94","IDXGIObject interface [DXGI]","SetPrivateData method","IDXGIObject.SetPrivateData","IDXGIObject::SetPrivateData","SetPrivateData","SetPrivateData method [DXGI]","SetPrivateData method [DXGI]","IDXGIObject interface","direct3ddxgi.idxgiobject_setprivatedata","dxgi/IDXGIObject::SetPrivateData"]
 old-location: direct3ddxgi\idxgiobject_setprivatedata.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_setprivatedata.htm

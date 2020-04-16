@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.RatingsUnblocked
 title: IMSVidStreamBufferSourceEvent::RatingsUnblocked (segment.h)
-description: This topic applies to Windows XP Service Pack 1 or later.
+description: This topic applies to Windows XP Service Pack 1 or later.helpviewer_keywords: ["IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies]","RatingsUnblocked method","IMSVidStreamBufferSourceEvent.RatingsUnblocked","IMSVidStreamBufferSourceEvent::RatingsUnblocked","IMSVidStreamBufferSourceEventRatingsUnblocked","RatingsUnblocked","RatingsUnblocked method [Microsoft TV Technologies]","RatingsUnblocked method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent interface","mstv.imsvidstreambuffersourceevent_ratingsunblocked","segment/IMSVidStreamBufferSourceEvent::RatingsUnblocked"]
 old-location: mstv\imsvidstreambuffersourceevent_ratingsunblocked.htm
 tech.root: mstv
 ms.assetid: a255df5b-f7fe-4f99-9d29-59e30b922975

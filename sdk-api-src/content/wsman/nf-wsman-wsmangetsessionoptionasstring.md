@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManGetSessionOptionAsString
 title: WSManGetSessionOptionAsString function (wsman.h)
-description: Gets the value of a session option.
+description: Gets the value of a session option.helpviewer_keywords: ["WSManGetSessionOptionAsString","WSManGetSessionOptionAsString function [Windows Remote Management]","winrm.wsmangetsessionoptionasstring","wsman/WSManGetSessionOptionAsString"]
 old-location: winrm\wsmangetsessionoptionasstring.htm
 tech.root: winrm
 ms.assetid: 7fb1cec5-059f-4710-868a-d34c6ae2fd2a

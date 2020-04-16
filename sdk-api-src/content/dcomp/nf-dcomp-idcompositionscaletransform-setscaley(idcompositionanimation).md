@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetScaleY(IDCompositionAnimation)
 title: IDCompositionScaleTransform::SetScaleY(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the ScaleY property of a 2D scale transform.
+description: Animates the value of the ScaleY property of a 2D scale transform.helpviewer_keywords: ["IDCompositionScaleTransform interface [DirectComposition]","SetScaleY method","IDCompositionScaleTransform.SetScaleY","IDCompositionScaleTransform.SetScaleY(IDCompositionAnimation)","IDCompositionScaleTransform::SetScaleY","IDCompositionScaleTransform::SetScaleY(IDCompositionAnimation)","IDCompositionScaleTransform::SetScaleY(IDCompositionAnimation*)","SetScaleY","SetScaleY method [DirectComposition]","SetScaleY method [DirectComposition]","IDCompositionScaleTransform interface","dcomp/IDCompositionScaleTransform::SetScaleY","directcomp.idcompositionscaletransform_setscaley_idcompositionanimation"]
 old-location: directcomp\idcompositionscaletransform_setscaley_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: B9F747BF-C2FA-442D-B4B7-F76B9559B87E

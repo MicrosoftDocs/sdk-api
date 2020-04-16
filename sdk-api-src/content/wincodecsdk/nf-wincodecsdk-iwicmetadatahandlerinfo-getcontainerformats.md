@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.GetContainerFormats
 title: IWICMetadataHandlerInfo::GetContainerFormats (wincodecsdk.h)
-description: Retrieves the container formats supported by the metadata handler.
+description: Retrieves the container formats supported by the metadata handler.helpviewer_keywords: ["GetContainerFormats","GetContainerFormats method [Windows Imaging Component]","GetContainerFormats method [Windows Imaging Component]","IWICMetadataHandlerInfo interface","IWICMetadataHandlerInfo interface [Windows Imaging Component]","GetContainerFormats method","IWICMetadataHandlerInfo.GetContainerFormats","IWICMetadataHandlerInfo::GetContainerFormats","_wic_codec_iwicmetadatahandlerinfo_getcontainerformats","wic._wic_codec_iwicmetadatahandlerinfo_getcontainerformats","wincodecsdk/IWICMetadataHandlerInfo::GetContainerFormats"]
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getcontainerformats.htm
 tech.root: wic
 ms.assetid: 46d5246d-4ef5-457c-b36b-68e0f956952b

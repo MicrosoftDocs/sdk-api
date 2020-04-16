@@ -1,7 +1,7 @@
 ---
 UID: NF:mscat.CryptCATAdminResolveCatalogPath
 title: CryptCATAdminResolveCatalogPath function (mscat.h)
-description: Retrieves the fully qualified path of the specified catalog.
+description: Retrieves the fully qualified path of the specified catalog.helpviewer_keywords: ["CryptCATAdminResolveCatalogPath","CryptCATAdminResolveCatalogPath function [Security]","mscat/CryptCATAdminResolveCatalogPath","security.cryptcatadminresolvecatalogpath"]
 old-location: security\cryptcatadminresolvecatalogpath.htm
 tech.root: SecCrypto
 ms.assetid: bdbfa02d-8801-40d4-84f4-bc5a449bce50

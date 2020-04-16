@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPPlaylist.insertItem
 title: IWMPPlaylist::insertItem (wmp.h)
-description: The insertItem method adds a media item at the specified location in the playlist.
+description: The insertItem method adds a media item at the specified location in the playlist.helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","insertItem method","IWMPPlaylist.insertItem","IWMPPlaylist::insertItem","IWMPPlaylistinsertItem","insertItem","insertItem method [Windows Media Player]","insertItem method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_insertitem","wmp/IWMPPlaylist::insertItem"]
 old-location: wmp\iwmpplaylist_insertitem.htm
 tech.root: WMP
 ms.assetid: 2db2d28d-4cbf-423c-824f-e1e212c46f7a

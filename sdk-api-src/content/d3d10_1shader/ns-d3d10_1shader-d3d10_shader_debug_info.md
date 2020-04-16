@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_INFO
 title: D3D10_SHADER_DEBUG_INFO (d3d10_1shader.h)
-description: Describes the format of the ID3D10Blob Interface returned by D3D10GetShaderDebugInfo.
+description: Describes the format of the ID3D10Blob Interface returned by D3D10GetShaderDebugInfo.helpviewer_keywords: ["18092958-2031-f4f8-2da4-c36244bd2989","D3D10_SHADER_DEBUG_INFO","D3D10_SHADER_DEBUG_INFO structure [Direct3D 10]","d3d10_1shader/D3D10_SHADER_DEBUG_INFO","direct3d10.d3d10_shader_debug_info"]
 old-location: direct3d10\d3d10_shader_debug_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_info.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:midles.MesBufferHandleReset
 title: MesBufferHandleReset function (midles.h)
-description: The MesBufferHandleReset function re-initializes the handle for buffer serialization.
+description: The MesBufferHandleReset function re-initializes the handle for buffer serialization.helpviewer_keywords: ["MesBufferHandleReset","MesBufferHandleReset function [RPC]","_rpc_mesbufferhandlereset","midles/MesBufferHandleReset","rpc.mesbufferhandlereset"]
 old-location: rpc\mesbufferhandlereset.htm
 tech.root: Rpc
 ms.assetid: adc9681f-267e-4f6f-88a3-ec913e886dd1

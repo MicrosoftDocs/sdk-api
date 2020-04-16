@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptEnumKeyIdentifierProperties
 title: CryptEnumKeyIdentifierProperties function (wincrypt.h)
-description: The CryptEnumKeyIdentifierProperties function enumerates key identifiers and their properties.
+description: The CryptEnumKeyIdentifierProperties function enumerates key identifiers and their properties.helpviewer_keywords: ["CryptEnumKeyIdentifierProperties","CryptEnumKeyIdentifierProperties function [Security]","_crypto2_cryptenumkeyidentifierproperties","security.cryptenumkeyidentifierproperties","wincrypt/CryptEnumKeyIdentifierProperties"]
 old-location: security\cryptenumkeyidentifierproperties.htm
 tech.root: SecCrypto
 ms.assetid: 6e57d935-4cfb-44af-b1c6-6c399c959452

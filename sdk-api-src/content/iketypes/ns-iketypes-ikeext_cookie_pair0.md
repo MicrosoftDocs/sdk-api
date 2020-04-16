@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_COOKIE_PAIR0_
 title: IKEEXT_COOKIE_PAIR0 (iketypes.h)
-description: Used to store a pair of IKE/Authip cookies.
+description: Used to store a pair of IKE/Authip cookies.helpviewer_keywords: ["IKEEXT_COOKIE_PAIR0","IKEEXT_COOKIE_PAIR0 structure [Filtering]","fwp.ikeext_cookie_pair0","iketypes/IKEEXT_COOKIE_PAIR0"]
 old-location: fwp\ikeext_cookie_pair0.htm
 tech.root: fwp
 ms.assetid: c752545b-1880-40ac-871e-e36d4b81668f

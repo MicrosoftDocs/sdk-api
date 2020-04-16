@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorGetResult
 title: EapMethodAuthenticatorGetResult function (eapmethodauthenticatorapis.h)
-description: Obtains the authentication result from the EAP authenticator method.
+description: Obtains the authentication result from the EAP authenticator method.helpviewer_keywords: ["EapMethodAuthenticatorGetResult","EapMethodAuthenticatorGetResult function [EAPHost]","eaphost.eapmethodauthenticatorgetresult","eapmethodauthenticatorapis/EapMethodAuthenticatorGetResult"]
 old-location: eaphost\eapmethodauthenticatorgetresult.htm
 tech.root: eaphost
 ms.assetid: 898b5465-a030-4df6-a51f-0725c6332e80

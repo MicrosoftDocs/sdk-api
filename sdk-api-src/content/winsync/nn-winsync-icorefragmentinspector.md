@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.ICoreFragmentInspector
 title: ICoreFragmentInspector (winsync.h)
-description: Enumerates the ICoreFragment objects that are contained in a knowledge object.
+description: Enumerates the ICoreFragment objects that are contained in a knowledge object.helpviewer_keywords: ["ICoreFragmentInspector","ICoreFragmentInspector interface [Windows Sync]","ICoreFragmentInspector interface [Windows Sync]","described","winsync.icorefragmentinspector","winsync/ICoreFragmentInspector"]
 old-location: winsync\icorefragmentinspector.htm
 tech.root: winsync
 ms.assetid: 10c22b92-bda8-42f6-9fd6-58e77e5a18d4

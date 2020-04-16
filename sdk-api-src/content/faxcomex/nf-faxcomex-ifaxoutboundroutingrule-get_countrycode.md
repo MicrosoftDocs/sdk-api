@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.get_CountryCode
 title: IFaxOutboundRoutingRule::get_CountryCode (faxcomex.h)
-description: The IFaxOutboundRoutingRule::get_CountryCode property specifies the country/region code to which the outbound routing rule applies.
+description: The IFaxOutboundRoutingRule::get_CountryCode property specifies the country/region code to which the outbound routing rule applies.helpviewer_keywords: ["CountryCode property [Fax Service]","CountryCode property [Fax Service]","IFaxOutboundRoutingRule interface","IFaxOutboundRoutingRule interface [Fax Service]","CountryCode property","IFaxOutboundRoutingRule.CountryCode","IFaxOutboundRoutingRule.get_CountryCode","IFaxOutboundRoutingRule::CountryCode","IFaxOutboundRoutingRule::get_CountryCode","_mfax_faxoutboundroutingrule.countrycode","fax._mfax_faxoutboundroutingrule_countrycode","fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_countrycode_cpp","faxcomex/IFaxOutboundRoutingRule::CountryCode","faxcomex/IFaxOutboundRoutingRule::get_CountryCode","get_CountryCode"]
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_countrycode_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5ysl.htm

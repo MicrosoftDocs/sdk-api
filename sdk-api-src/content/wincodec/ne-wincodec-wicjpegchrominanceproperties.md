@@ -1,7 +1,7 @@
 ---
 UID: NE:wincodec.WICJpegChrominanceProperties
 title: WICJpegChrominanceProperties (wincodec.h)
-description: Specifies the JPEG chrominance table property.
+description: Specifies the JPEG chrominance table property.helpviewer_keywords: ["WICJpegChrominanceProperties","WICJpegChrominanceProperties enumeration [Windows Imaging Component]","WICJpegChrominanceTable","_wic_codec_wicjpegchrominanceproperties","wic._wic_codec_wicjpegchrominanceproperties","wincodec/WICJpegChrominanceProperties","wincodec/WICJpegChrominanceTable"]
 old-location: wic\_wic_codec_wicjpegchrominanceproperties.htm
 tech.root: wic
 ms.assetid: edfa5f86-4c8b-4ba7-a017-d3ff9525b659

@@ -1,7 +1,7 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.GetVideoProcessorService
 title: IDirectXVideoProcessor::GetVideoProcessorService (dxva2api.h)
-description: Retrieves the DirectX Video Acceleration (DXVA) video processor service that created this video processor device.
+description: Retrieves the DirectX Video Acceleration (DXVA) video processor service that created this video processor device.helpviewer_keywords: ["920bc584-16ea-4f66-b507-2fe63bfd4fd5","GetVideoProcessorService","GetVideoProcessorService method [Media Foundation]","GetVideoProcessorService method [Media Foundation]","IDirectXVideoProcessor interface","IDirectXVideoProcessor interface [Media Foundation]","GetVideoProcessorService method","IDirectXVideoProcessor.GetVideoProcessorService","IDirectXVideoProcessor::GetVideoProcessorService","dxva2api/IDirectXVideoProcessor::GetVideoProcessorService","mf.idirectxvideoprocessor_getvideoprocessorservice"]
 old-location: mf\idirectxvideoprocessor_getvideoprocessorservice.htm
 tech.root: medfound
 ms.assetid: 920bc584-16ea-4f66-b507-2fe63bfd4fd5

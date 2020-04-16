@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument.Open
 title: ITextDocument::Open (tom.h)
-description: Opens a specified document. There are parameters to specify access and sharing privileges, creation and conversion of the file, as well as the code page for the file.
+description: Opens a specified document. There are parameters to specify access and sharing privileges, creation and conversion of the file, as well as the code page for the file.helpviewer_keywords: ["ITextDocument interface [Windows Controls]","Open method","ITextDocument.Open","ITextDocument::Open","Open","Open method [Windows Controls]","Open method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_Open","_win32_ITextDocument_Open_cpp","controls.ITextDocument_Open","controls._win32_ITextDocument_Open","tom/ITextDocument::Open","tomCreateAlways","tomCreateNew","tomHTML","tomOpenAlways","tomOpenExisting","tomPasteFile","tomRTF","tomReadOnly","tomShareDenyRead","tomShareDenyWrite","tomText","tomTruncateExisting","tomWordDocument"]
 old-location: controls\ITextDocument_Open.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\open.htm

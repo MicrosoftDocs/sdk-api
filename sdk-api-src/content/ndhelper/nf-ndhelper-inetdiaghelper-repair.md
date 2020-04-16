@@ -1,7 +1,7 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Repair
 title: INetDiagHelper::Repair (ndhelper.h)
-description: Performs a repair specified by the input parameter.
+description: Performs a repair specified by the input parameter.helpviewer_keywords: ["INetDiagHelper interface [NDF]","Repair method","INetDiagHelper.Repair","INetDiagHelper::Repair","Repair","Repair method [NDF]","Repair method [NDF]","INetDiagHelper interface","ndf.inetdiaghelpe_repair","ndhelper/INetDiagHelper::Repair"]
 old-location: ndf\inetdiaghelpe_repair.htm
 tech.root: NDF
 ms.assetid: 1892cbc8-01fd-4536-b29e-de733b0f6732

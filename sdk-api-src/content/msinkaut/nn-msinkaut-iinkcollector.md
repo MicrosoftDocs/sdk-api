@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkCollector
 title: IInkCollector (msinkaut.h)
-description: .
+description: .helpviewer_keywords: ["IInkCollector","IInkCollector interface [Tablet PC]","IInkCollector interface [Tablet PC]","described","msinkaut/IInkCollector","tablet.iinkcollector"]
 old-location: tablet\iinkcollector.htm
 tech.root: tablet
 ms.assetid: 4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB

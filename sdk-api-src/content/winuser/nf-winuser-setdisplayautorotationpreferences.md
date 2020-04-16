@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetDisplayAutoRotationPreferences
 title: SetDisplayAutoRotationPreferences function (winuser.h)
-description: Sets the screen auto-rotation preferences for the current process.
+description: Sets the screen auto-rotation preferences for the current process.helpviewer_keywords: ["SetDisplayAutoRotationPreferences","SetDisplayAutoRotationPreferences function","base.setdisplayautorotationpreferences","winuser/SetDisplayAutoRotationPreferences"]
 old-location: base\setdisplayautorotationpreferences.htm
 tech.root: ProcThread
 ms.assetid: 99A92E92-7FED-468C-9A00-D8D4B212CBFF

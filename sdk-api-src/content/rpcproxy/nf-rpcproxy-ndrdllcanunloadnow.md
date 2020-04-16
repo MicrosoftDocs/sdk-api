@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.NdrDllCanUnloadNow
 title: NdrDllCanUnloadNow function (rpcproxy.h)
-description: The NdrDllCanUnloadNow function determines whether the DLL that implements the proxy and stub is still in use. If not, the caller can safely unload the DLL from memory.
+description: The NdrDllCanUnloadNow function determines whether the DLL that implements the proxy and stub is still in use. If not, the caller can safely unload the DLL from memory.helpviewer_keywords: ["NdrDllCanUnloadNow","NdrDllCanUnloadNow function [RPC]","rpc.ndrdllcanunloadnow","rpcproxy/NdrDllCanUnloadNow"]
 old-location: rpc\ndrdllcanunloadnow.htm
 tech.root: Rpc
 ms.assetid: 25cc5909-87f7-4670-a123-69bb28d891a5

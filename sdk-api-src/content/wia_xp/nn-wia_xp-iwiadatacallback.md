@@ -1,7 +1,7 @@
 ---
 UID: NN:wia_xp.IWiaDataCallback
 title: IWiaDataCallback (wia_xp.h)
-description: Provides an application callback mechanism during data transfers from Windows Image Acquisition (WIA) hardware devices to applications.Note  For Windows Vista applications, use IWiaTransferCallback instead of IWiaDataCallback.
+description: Provides an application callback mechanism during data transfers from Windows Image Acquisition (WIA) hardware devices to applications.Note  For Windows Vista applications, use IWiaTransferCallback instead of IWiaDataCallback.helpviewer_keywords: ["IWiaDataCallback","IWiaDataCallback interface [WIA]","IWiaDataCallback interface [WIA]","described","_wia_IWiaDataCallback","wia._wia_IWiaDataCallback","wia_xp/IWiaDataCallback"]
 old-location: wia\_wia_IWiaDataCallback.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatacallback\iwiadatacallback.htm

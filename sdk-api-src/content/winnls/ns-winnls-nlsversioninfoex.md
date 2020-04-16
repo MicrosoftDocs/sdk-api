@@ -1,7 +1,7 @@
 ---
 UID: NS:winnls._nlsversioninfoex
 title: NLSVERSIONINFOEX (winnls.h)
-description: Contains version information about an NLS capability.
+description: Contains version information about an NLS capability.helpviewer_keywords: ["*LPNLSVERSIONINFOEX","LPNLSVERSIONINFOEX","LPNLSVERSIONINFOEX structure pointer [Internationalization for Windows Applications]","NLSVERSIONINFOEX","NLSVERSIONINFOEX structure [Internationalization for Windows Applications]","_win32_NLSVERSIONINFOEX_str","intl.nlsversioninfoex","winnls/LPNLSVERSIONINFOEX","winnls/NLSVERSIONINFOEX"]
 old-location: intl\nlsversioninfoex.htm
 tech.root: Intl
 ms.assetid: 97f637df-3e0e-4349-a617-96b7c640b19d

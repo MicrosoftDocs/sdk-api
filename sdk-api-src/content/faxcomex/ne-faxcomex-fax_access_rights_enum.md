@@ -1,7 +1,7 @@
 ---
 UID: NE:faxcomex.FAX_ACCESS_RIGHTS_ENUM
 title: FAX_ACCESS_RIGHTS_ENUM (faxcomex.h)
-description: The FAX_ACCESS_RIGHTS_ENUM enumeration defines access rights to the fax server.
+description: The FAX_ACCESS_RIGHTS_ENUM enumeration defines access rights to the fax server.helpviewer_keywords: ["FAX_ACCESS_RIGHTS_ENUM","FAX_ACCESS_RIGHTS_ENUM enumeration [Fax Service]","_mfax_fax_access_rights_enum","farMANAGE_CONFIG","farMANAGE_IN_ARCHIVE","farMANAGE_JOBS","farMANAGE_OUT_ARCHIVE","farQUERY_CONFIG","farQUERY_IN_ARCHIVE","farQUERY_JOBS","farQUERY_OUT_ARCHIVE","farSUBMIT_HIGH","farSUBMIT_LOW","farSUBMIT_NORMAL","fax._mfax_fax_access_rights_enum","faxcomex/FAX_ACCESS_RIGHTS_ENUM","faxcomex/farMANAGE_CONFIG","faxcomex/farMANAGE_IN_ARCHIVE","faxcomex/farMANAGE_JOBS","faxcomex/farMANAGE_OUT_ARCHIVE","faxcomex/farQUERY_CONFIG","faxcomex/farQUERY_IN_ARCHIVE","faxcomex/farQUERY_JOBS","faxcomex/farQUERY_OUT_ARCHIVE","faxcomex/farSUBMIT_HIGH","faxcomex/farSUBMIT_LOW","faxcomex/farSUBMIT_NORMAL"]
 old-location: fax\_mfax_fax_access_rights_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_60fh.htm

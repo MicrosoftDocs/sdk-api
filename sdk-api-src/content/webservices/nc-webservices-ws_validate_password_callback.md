@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_VALIDATE_PASSWORD_CALLBACK
 title: WS_VALIDATE_PASSWORD_CALLBACK (webservices.h)
-description: Validates a username/password pair on the receiver side.
+description: Validates a username/password pair on the receiver side.helpviewer_keywords: ["WS_VALIDATE_PASSWORD_CALLBACK","WS_VALIDATE_PASSWORD_CALLBACK callback","WS_VALIDATE_PASSWORD_CALLBACK callback function [Web Services for Windows]","webservices/WS_VALIDATE_PASSWORD_CALLBACK","wsw.ws_validate_password_callback"]
 old-location: wsw\ws_validate_password_callback.htm
 tech.root: wsw
 ms.assetid: 3cf8f2a1-61b4-4702-954e-e5eb260820c7

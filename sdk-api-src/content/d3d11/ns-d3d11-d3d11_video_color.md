@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_COLOR
 title: D3D11_VIDEO_COLOR (d3d11.h)
-description: Defines a color value for Microsoft Direct3D 11 video.
+description: Defines a color value for Microsoft Direct3D 11 video.helpviewer_keywords: ["D3D11_VIDEO_COLOR","D3D11_VIDEO_COLOR structure [Media Foundation]","d3d11/D3D11_VIDEO_COLOR","mf.d3d11_video_color"]
 old-location: mf\d3d11_video_color.htm
 tech.root: medfound
 ms.assetid: F8E070EE-F8F6-4AAF-9A8A-6D0AF6B857B5

@@ -1,7 +1,7 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.RegisterEndpointNotificationCallback
 title: IMMDeviceEnumerator::RegisterEndpointNotificationCallback (mmdeviceapi.h)
-description: The RegisterEndpointNotificationCallback method registers a client's notification callback interface.
+description: The RegisterEndpointNotificationCallback method registers a client's notification callback interface.helpviewer_keywords: ["IMMDeviceEnumerator interface [Core Audio]","RegisterEndpointNotificationCallback method","IMMDeviceEnumerator.RegisterEndpointNotificationCallback","IMMDeviceEnumerator::RegisterEndpointNotificationCallback","IMMDeviceEnumeratorRegisterEndpointNotificationCal","RegisterEndpointNotificationCallback","RegisterEndpointNotificationCallback method [Core Audio]","RegisterEndpointNotificationCallback method [Core Audio]","IMMDeviceEnumerator interface","coreaudio.immdeviceenumerator_registerendpointnotificationcallback","mmdeviceapi/IMMDeviceEnumerator::RegisterEndpointNotificationCallback"]
 old-location: coreaudio\immdeviceenumerator_registerendpointnotificationcallback.htm
 tech.root: CoreAudio
 ms.assetid: 2c524f64-0b35-4433-9768-582dcb580a74

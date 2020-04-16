@@ -1,7 +1,7 @@
 ---
 UID: NE:peninputpanel.PanelType
 title: PanelType (peninputpanel.h)
-description: Defines the type of input currently available in the PenInputPanel object.
+description: Defines the type of input currently available in the PenInputPanel object.helpviewer_keywords: ["PT_Default","PT_Handwriting","PT_Inactive","PT_Keyboard","PanelType","PanelType enumeration [Tablet PC]","fbf0ecce-0286-4d1b-99ba-9d28fc25da30","peninputpanel/PT_Default","peninputpanel/PT_Handwriting","peninputpanel/PT_Inactive","peninputpanel/PT_Keyboard","peninputpanel/PanelType","tablet.paneltype"]
 old-location: tablet\paneltype.htm
 tech.root: tablet
 ms.assetid: fbf0ecce-0286-4d1b-99ba-9d28fc25da30

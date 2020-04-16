@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMRecoveryDone
 title: IComCRMEvents::OnCRMRecoveryDone (comsvcs.h)
-description: Generated when CRM recovery is done.
+description: Generated when CRM recovery is done.helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMRecoveryDone method","IComCRMEvents.OnCRMRecoveryDone","IComCRMEvents::OnCRMRecoveryDone","OnCRMRecoveryDone","OnCRMRecoveryDone method [COM+]","OnCRMRecoveryDone method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMRecoveryDone","comsvcs/IComCRMEvents::OnCRMRecoveryDone","cos.icomcrmevents_oncrmrecoverydone"]
 old-location: cos\icomcrmevents_oncrmrecoverydone.htm
 tech.root: cossdk
 ms.assetid: 533148f3-ecb4-495c-81c4-c75db7284ded

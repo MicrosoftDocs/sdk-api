@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery.GetRights
 title: ISCPSecureQuery::GetRights (mswmdm.h)
-description: The GetRights method retrieves rights information for the current piece of content. Rights are file-specific.
+description: The GetRights method retrieves rights information for the current piece of content. Rights are file-specific.helpviewer_keywords: ["GetRights","GetRights method [windows Media Device Manager]","GetRights method [windows Media Device Manager]","ISCPSecureQuery interface","ISCPSecureQuery interface [windows Media Device Manager]","GetRights method","ISCPSecureQuery.GetRights","ISCPSecureQuery::GetRights","ISCPSecureQueryGetRights","mswmdm/ISCPSecureQuery::GetRights","wmdm.iscpsecurequery_getrights"]
 old-location: wmdm\iscpsecurequery_getrights.htm
 tech.root: WMDM
 ms.assetid: 3d9991f4-ce20-45c4-a408-d7a846b019ef

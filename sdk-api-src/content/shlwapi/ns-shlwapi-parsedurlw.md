@@ -1,7 +1,7 @@
 ---
 UID: NS:shlwapi.tagPARSEDURLW
 title: PARSEDURLW (shlwapi.h)
-description: Used by the ParseURL function to return the parsed URL.
+description: Used by the ParseURL function to return the parsed URL.helpviewer_keywords: ["*PPARSEDURLW","PARSEDURL","PARSEDURL structure [Windows Shell]","PARSEDURLA","PARSEDURLW","PPARSEDURL","PPARSEDURL structure pointer [Windows Shell]","_win32_PARSEDURL","shell.PARSEDURL","shlwapi/PARSEDURL","shlwapi/PARSEDURLA","shlwapi/PARSEDURLW","shlwapi/PPARSEDURL"]
 old-location: shell\PARSEDURL.htm
 tech.root: shell
 ms.assetid: 9092dd7a-ff5b-465f-a808-ef4e0067f540

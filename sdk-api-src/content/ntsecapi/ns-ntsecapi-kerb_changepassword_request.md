@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._KERB_CHANGEPASSWORD_REQUEST
 title: KERB_CHANGEPASSWORD_REQUEST (ntsecapi.h)
-description: Contains information used to change a password.
+description: Contains information used to change a password.helpviewer_keywords: ["*PKERB_CHANGEPASSWORD_REQUEST","KERB_CHANGEPASSWORD_REQUEST","KERB_CHANGEPASSWORD_REQUEST structure [Security]","PKERB_CHANGEPASSWORD_REQUEST","PKERB_CHANGEPASSWORD_REQUEST structure pointer [Security]","ntsecapi/KERB_CHANGEPASSWORD_REQUEST","ntsecapi/PKERB_CHANGEPASSWORD_REQUEST","security.kerb_changepassword_request"]
 old-location: security\kerb_changepassword_request.htm
 tech.root: SecAuthN
 ms.assetid: 96463bac-0833-4a5e-b054-e32a29bc903d

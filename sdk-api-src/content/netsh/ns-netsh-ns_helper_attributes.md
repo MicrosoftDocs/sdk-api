@@ -1,7 +1,7 @@
 ---
 UID: NS:netsh._NS_HELPER_ATTRIBUTES
 title: NS_HELPER_ATTRIBUTES (netsh.h)
-description: Provides attributes of a helper.
+description: Provides attributes of a helper.helpviewer_keywords: ["*PNS_HELPER_ATTRIBUTES","NS_HELPER_ATTRIBUTES","NS_HELPER_ATTRIBUTES structure [NetShell]","PNS_HELPER_ATTRIBUTES","PNS_HELPER_ATTRIBUTES structure pointer [NetShell]","_netsh_ns_helper_attributes","netsh/NS_HELPER_ATTRIBUTES","netsh/PNS_HELPER_ATTRIBUTES","netshell.ns_helper_attributes"]
 old-location: netshell\ns_helper_attributes.htm
 tech.root: netshell
 ms.assetid: b2a3ae40-4aaa-41b2-965c-1467a07ab2de

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.Exists
 title: IFileSystemImage::Exists (imapi2fs.h)
-description: Checks for the existence of a given file or directory.
+description: Checks for the existence of a given file or directory.helpviewer_keywords: ["Exists","Exists method [IMAPI]","Exists method [IMAPI]","IFileSystemImage interface","IFileSystemImage interface [IMAPI]","Exists method","IFileSystemImage.Exists","IFileSystemImage::Exists","imapi.ifilesystemimage_exists","imapi2fs/IFileSystemImage::Exists"]
 old-location: imapi\ifilesystemimage_exists.htm
 tech.root: imapi
 ms.assetid: c3a86e85-1ffd-47c1-9dba-0fc207d76a1a

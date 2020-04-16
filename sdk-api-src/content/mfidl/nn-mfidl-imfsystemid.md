@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFSystemId
 title: IMFSystemId (mfidl.h)
-description: Provides a method that retireves system id data.
+description: Provides a method that retireves system id data.helpviewer_keywords: ["IMFSystemId","IMFSystemId interface [Media Foundation]","IMFSystemId interface [Media Foundation]","described","mf.imfsystemid","mfidl/IMFSystemId"]
 old-location: mf\imfsystemid.htm
 tech.root: medfound
 ms.assetid: 45c80fc5-5ea7-4d4e-9c9c-5a38f62b2d28

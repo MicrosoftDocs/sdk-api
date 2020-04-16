@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.DirectDrawCreateEx
 title: DirectDrawCreateEx function (ddraw.h)
-description: Creates an instance of a DirectDraw object that supports the set of Direct3D interfaces in DirectX 7.0. To use the features of Direct3D in DirectX 7.0, create a DirectDraw object with this function.
+description: Creates an instance of a DirectDraw object that supports the set of Direct3D interfaces in DirectX 7.0. To use the features of Direct3D in DirectX 7.0, create a DirectDraw object with this function.helpviewer_keywords: ["DDCREATE_EMULATIONONLY","DDCREATE_HARDWAREONLY","DirectDrawCreateEx","DirectDrawCreateEx function [DirectDraw]","ddraw/DirectDrawCreateEx","directdraw.directdrawcreateex"]
 old-location: directdraw\directdrawcreateex.htm
 tech.root: directdraw
 ms.assetid: 67fa1cd0-e47f-4dc4-b92c-b3401b4cbb57

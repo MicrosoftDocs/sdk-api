@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothGetDeviceInfo
 title: BluetoothGetDeviceInfo function (bluetoothapis.h)
-description: Retrieves information about a remote Bluetooth device.
+description: Retrieves information about a remote Bluetooth device.helpviewer_keywords: ["BluetoothGetDeviceInfo","BluetoothGetDeviceInfo function [Bluetooth]","bluetooth.bluetoothgetdeviceinfo","bluetoothapis/BluetoothGetDeviceInfo"]
 old-location: bluetooth\bluetoothgetdeviceinfo.htm
 tech.root: bluetooth
 ms.assetid: 530e5131-a0ab-4ddd-be73-a07f94e74f73

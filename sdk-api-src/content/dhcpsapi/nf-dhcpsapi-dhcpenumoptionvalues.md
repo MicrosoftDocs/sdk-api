@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumOptionValues
 title: DhcpEnumOptionValues function (dhcpsapi.h)
-description: Returns an enumerated list of option values (just the option data and the associated ID number) for a given scope.
+description: Returns an enumerated list of option values (just the option data and the associated ID number) for a given scope.helpviewer_keywords: ["DhcpEnumOptionValues","DhcpEnumOptionValues function [DHCP]","dhcp.dhcpenumoptionvalues","dhcpsapi/DhcpEnumOptionValues"]
 old-location: dhcp\dhcpenumoptionvalues.htm
 tech.root: DHCP
 ms.assetid: 4054cab9-b5f9-4ffa-8151-3ea705bc0755

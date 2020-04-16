@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IBaseFilter
 title: IBaseFilter (strmif.h)
-description: The IBaseFilter interface is the primary interface for DirectShow filters.
+description: The IBaseFilter interface is the primary interface for DirectShow filters.helpviewer_keywords: ["IBaseFilter","IBaseFilter interface [DirectShow]","IBaseFilter interface [DirectShow]","described","IBaseFilterInterface","dshow.ibasefilter","strmif/IBaseFilter"]
 old-location: dshow\ibasefilter.htm
 tech.root: DirectShow
 ms.assetid: d8c09dc7-dae8-4b51-8da8-69e64928a091

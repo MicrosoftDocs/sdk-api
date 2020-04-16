@@ -1,7 +1,7 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.Unacquire
 title: IDirectInputJoyConfig8::Unacquire (dinputd.h)
-description: The IDirectInputJoyConfig8::Unacquire method unacquires &#0034;joystick configuration mode&#0034;.
+description: The IDirectInputJoyConfig8::Unacquire method unacquires &#0034;joystick configuration mode&#0034;.helpviewer_keywords: ["IDirectInputJoyConfig8 interface [Human Input Devices]","Unacquire method","IDirectInputJoyConfig8.Unacquire","IDirectInputJoyConfig8::Unacquire","Unacquire","Unacquire method [Human Input Devices]","Unacquire method [Human Input Devices]","IDirectInputJoyConfig8 interface","di_ref_df66f848-ee07-47f7-afc3-3f1d2883c070.xml","dinputd/IDirectInputJoyConfig8::Unacquire","hid.idirectinputjoyconfig8_unacquire"]
 old-location: hid\idirectinputjoyconfig8_unacquire.htm
 tech.root: hid
 ms.assetid: d6eb4743-5845-4acd-8526-f2ab562aa24f
