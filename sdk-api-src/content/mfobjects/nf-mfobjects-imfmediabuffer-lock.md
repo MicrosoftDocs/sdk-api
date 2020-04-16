@@ -136,11 +136,11 @@ The pointer returned in <i>ppbBuffer</i> is guaranteed to be valid, and can safe
 
 Locking the buffer does not prevent other threads from calling <b>Lock</b>, so you should not rely on this method to synchronize threads.
 
-This method does not allocate any memory, or transfer ownership of the memory to the caller. Do not release or free the memory; the media buffer will free the memory when the media buffer is destroyed.
+This method does not return a newly allocated memory block, nor transfer ownership of the memory to the caller. Do not release or free the memory; the media buffer will free the memory when the media buffer is destroyed.
 
 If you modify the contents of the buffer, update the current length by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength">IMFMediaBuffer::SetCurrentLength</a>.
 
-If the buffer supports the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface, you should use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-lock2d">IMF2DBuffer::Lock2D</a> method to lock the buffer. For 2-D buffers, the <b>Lock2D</b> method is more efficient than the <b>Lock</b> method. If the buffer is locked using <b>Lock2D</b>, the Lock method might return <b>MF_E_INVALIDREQUEST</b>.
+This method may internally allocate some memory. Depending on the interfaces the buffer supports, some better alternatives might exist which reduce the chance of allocating memory. If the buffer supports the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a> interface, you should use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer2-lock2dsize">IMF2DBuffer2::Lock2DSize</a> method to lock the buffer. For 2-D buffers, the <b>Lock2DSize</b> method is more efficient than the <b>Lock</b> method. If the buffer does not support the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a> interface but supports the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface, you should use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-lock2d">IMF2DBuffer::Lock2D</a> method to lock the buffer. For 2-D buffers, the <b>Lock2D</b> method is more efficient than the <b>Lock</b> method (but less efficient than the <b>Lock2DSize</b> method). If the buffer is locked using <b>Lock2D</b> or <b>Lock2DSize</b>, the <b>Lock</b> method might return <b>MF_E_INVALIDREQUEST</b>.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -153,12 +153,11 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a>
 
-
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
  
