@@ -65,15 +65,6 @@ The <b>CurrentItemChange</b> event occurs when the user or the <b>IWMPControls::
 Pointer to an <b>IDispatch</b> interface that identifies the new current item.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

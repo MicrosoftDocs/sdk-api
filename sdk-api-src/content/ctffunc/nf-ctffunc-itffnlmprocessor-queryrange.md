@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the range of text that a reconversion applies to.
 
 ## -parameters
 

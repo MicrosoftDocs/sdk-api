@@ -64,15 +64,6 @@ Frees memory that a function related to job objects allocated. Functions related
 A pointer to the buffer of allocated memory that you want to free.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

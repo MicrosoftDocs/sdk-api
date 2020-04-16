@@ -64,15 +64,6 @@ Sets the reporting state of XInput.
 If enable is <b>FALSE</b>, XInput will only send neutral data in response to <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetState</a> (all buttons up, axes centered, and triggers at 0). <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a> calls will be registered but not sent to the device. Sending any value other than <b>FALSE </b>will restore reading and writing functionality to normal.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

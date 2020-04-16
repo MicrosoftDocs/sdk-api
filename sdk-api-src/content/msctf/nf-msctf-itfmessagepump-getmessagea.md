@@ -49,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a message from the message queue and does not return until a message is obtained. This is the ANSI version of this method.
 
 ## -parameters
 

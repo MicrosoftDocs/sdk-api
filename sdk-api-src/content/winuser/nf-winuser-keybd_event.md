@@ -115,15 +115,6 @@ Type: <b>ULONG_PTR</b>
 An additional value associated with the key stroke. 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

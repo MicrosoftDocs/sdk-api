@@ -62,15 +62,6 @@ The <b>CertFreeCertificateChainList</b> function frees the array of pointers to 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">PCCERT_CHAIN_CONTEXT</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains">CertSelectCertificateChains</a> function.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

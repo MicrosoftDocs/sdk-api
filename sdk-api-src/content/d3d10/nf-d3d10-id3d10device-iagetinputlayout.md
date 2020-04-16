@@ -64,15 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-
 A pointer to the input-layout object (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10inputlayout">ID3D10InputLayout</a>), which describes the input buffers that will be read by the IA stage.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

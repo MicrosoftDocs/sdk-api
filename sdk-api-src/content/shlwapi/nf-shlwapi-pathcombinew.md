@@ -113,7 +113,7 @@ The directory path should be in the form of A:,B:, ..., Z:. The file path should
 #include <iostream.h>
 #include "Shlwapi.h"
 
-void main( void )
+int main( void )
 {
 // Buffer to hold combined path.
 char buffer_1[MAX_PATH] = "";

@@ -87,15 +87,6 @@ Specifies the y-coordinate, in logical units, of the current point.
 Pointer to the application-defined data.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -99,15 +99,6 @@ Specifies the
 Specifies the type of event that has occurred. Currently, the only event defined is WM_RASDIALEVENT.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Not currently implemented.
 
 ## -parameters
 
@@ -100,6 +99,6 @@ This method is not currently implemented.
 </tr>
 </table>
  
+## -see-also
 
-
-
+[IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfContextComposition interface](nn-msctf-itfcontextcomposition.md)

@@ -65,15 +65,6 @@ A pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> certificate chain context to be freed. If the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> on the context reaches zero, the storage allocated for the context is freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -63,15 +63,6 @@ Used to notify an authentication package when a logon session terminates.
 Pointer to the logon ID of the session that just ended.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

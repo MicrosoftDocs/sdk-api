@@ -82,16 +82,6 @@ The number of class-instance elements in the array.
           
 
 
-## -returns
-
-
-
-Returns nothing.
-          
-
-
-
-
 ## -remarks
 
 

@@ -65,15 +65,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-
 Address of a pointer to the resource that is accessed through this view. (See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>.)
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

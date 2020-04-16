@@ -151,15 +151,6 @@ If the <i>Reason</i> parameter is <b>UmsSchedulerThreadYield</b> this parameter 
 If the <i>Reason</i> parameter is <b>UmsSchedulerThreadBlocked</b>, this parameter is NULL.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

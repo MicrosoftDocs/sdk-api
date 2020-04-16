@@ -72,15 +72,6 @@ Receives the value <b>TRUE</b> if the target rectangle was explicitly set using 
 If <i>Enabled</i> receives the value <b>TRUE</b>, this parameter receives the target rectangle. Otherwise, this parameter is ignored.  
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

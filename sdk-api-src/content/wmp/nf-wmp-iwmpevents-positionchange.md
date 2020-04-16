@@ -70,15 +70,6 @@ Specifies the original position.
 Specifies the new position.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

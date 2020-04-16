@@ -64,15 +64,6 @@ Type: <b><a href="https://msdn.microsoft.com/1da6dc74-ff15-4707-866d-5aaf80c495f
 A pointer to the blend state (see <a href="https://msdn.microsoft.com/1da6dc74-ff15-4707-866d-5aaf80c495f9">D3D10_BLEND_DESC1</a>).
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

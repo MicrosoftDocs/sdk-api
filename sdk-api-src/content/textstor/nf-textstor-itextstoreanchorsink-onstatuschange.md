@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the text stream status changes.
 
 ## -parameters
 

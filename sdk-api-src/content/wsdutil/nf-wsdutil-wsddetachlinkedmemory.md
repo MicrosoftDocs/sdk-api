@@ -62,15 +62,6 @@ Detaches a child memory block from its parent memory block.
 Pointer to the memory block to be detached.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

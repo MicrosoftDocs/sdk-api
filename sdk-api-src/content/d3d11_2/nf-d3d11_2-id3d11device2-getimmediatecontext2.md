@@ -65,15 +65,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d1
 Upon completion of the method, the passed pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a> interface pointer is initialized.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

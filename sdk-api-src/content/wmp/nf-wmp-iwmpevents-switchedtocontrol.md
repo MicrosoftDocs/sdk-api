@@ -62,15 +62,6 @@ The <b>SwitchedToControl</b> event occurs when a remoted Windows Media Player co
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

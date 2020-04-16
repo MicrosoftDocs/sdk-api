@@ -81,15 +81,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3
         If this parameter is <b>NULL</b>, the depth-stencil state is not bound.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

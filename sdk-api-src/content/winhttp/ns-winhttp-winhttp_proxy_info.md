@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp._WINHTTP_PROXY_INFO
+UID: NS:winhttp.__unnamed_struct_3
 title: WINHTTP_PROXY_INFO (winhttp.h)
 description: The WINHTTP_PROXY_INFO structure contains the session or default proxy configuration.
 old-location: http\internet_proxy_info.htm
@@ -43,19 +43,11 @@ req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and W
 ms.custom: 19H1
 ---
 
-# WINHTTP_PROXY_INFO structure
-
-
 ## -description
-
 
 The <b>WINHTTP_PROXY_INFO</b> structure contains the session or default proxy configuration.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwAccessType
 
@@ -97,22 +89,16 @@ Internet accessed using a proxy.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpszProxy
 
 Pointer to a string value that contains the proxy server list.
 
-
 ### -field lpszProxyBypass
 
 Pointer to a string value that contains the proxy bypass list.
 
-
 ## -remarks
-
-
 
 This structure is used with 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetoption">WinHttpSetOption</a> and 
@@ -132,16 +118,7 @@ The proxy bypass list contains one or more server names separated by semicolons 
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
- 
-
- 
-

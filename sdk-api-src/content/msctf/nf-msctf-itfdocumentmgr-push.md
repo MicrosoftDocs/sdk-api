@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Adds a context to the top of the context stack.
 
 ## -parameters
 

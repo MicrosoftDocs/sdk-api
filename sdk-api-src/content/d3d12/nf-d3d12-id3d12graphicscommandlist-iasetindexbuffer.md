@@ -66,16 +66,6 @@ The view specifies the index buffer's address, size, and <a href="https://docs.m
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

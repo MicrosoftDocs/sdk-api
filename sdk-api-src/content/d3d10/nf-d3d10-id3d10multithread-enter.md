@@ -60,15 +60,6 @@ Enter a device's critical section.
 
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

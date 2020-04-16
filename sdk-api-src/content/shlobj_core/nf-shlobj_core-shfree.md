@@ -69,11 +69,3 @@ Type: <b>void*</b>
 A pointer to the memory allocated by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc">SHAlloc</a>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

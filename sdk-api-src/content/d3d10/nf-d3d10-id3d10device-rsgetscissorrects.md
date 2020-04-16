@@ -72,15 +72,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-re
 An array of scissor rectangles (see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-rect">D3D10_RECT</a>). If NumRects is greater than the number of scissor rects currently bound, then unused members of the array will contain 0.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -see-also
 
 

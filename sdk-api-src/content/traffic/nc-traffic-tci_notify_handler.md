@@ -93,15 +93,6 @@ Size of the buffer included with the notification event, in bytes.
 Buffer containing the detailed event information associated with <i>Event</i> and <i>SubCode</i>.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

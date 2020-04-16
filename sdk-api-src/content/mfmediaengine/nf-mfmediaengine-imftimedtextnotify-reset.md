@@ -59,15 +59,6 @@ Resets the timed-text-notify object.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

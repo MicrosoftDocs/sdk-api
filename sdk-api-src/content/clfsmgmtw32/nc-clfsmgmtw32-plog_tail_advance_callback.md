@@ -73,15 +73,6 @@ Specifies the log sequence number (LSN) to which the client is advised to advanc
 A pointer to the client context.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

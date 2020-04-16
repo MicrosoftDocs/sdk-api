@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the active view for the context.
 
 ## -parameters
 
@@ -124,16 +123,4 @@ An unspecified error occurred.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfContextView interface](nn-msctf-itfcontextview.md)

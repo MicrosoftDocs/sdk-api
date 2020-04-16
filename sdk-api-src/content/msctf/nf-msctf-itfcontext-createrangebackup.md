@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates a backup of a range.
 
 ## -parameters
 
@@ -165,35 +164,4 @@ This method creates a copy of the range that it can use to restore the data in <
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangebackup">ITfRangeBackup
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrangebackup-restore">ITfRangeBackup::Restore
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges: Clones and Backups</a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfRangeBackup interface](nn-msctf-itfrangebackup.md), [ITfRangeBackup::Restore](nf-msctf-itfrangebackup-restore.md), [Ranges: Clones and Backups](/windows/desktop/TSF/ranges)

@@ -62,15 +62,6 @@ Creates <a href="https://docs.microsoft.com/windows/desktop/shell/manage">My Doc
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

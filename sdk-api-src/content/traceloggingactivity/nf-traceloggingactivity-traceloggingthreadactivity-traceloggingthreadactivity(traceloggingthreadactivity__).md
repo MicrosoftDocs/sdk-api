@@ -67,15 +67,6 @@ A reference to a <b>TraceLoggingThreadActivity</b>.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

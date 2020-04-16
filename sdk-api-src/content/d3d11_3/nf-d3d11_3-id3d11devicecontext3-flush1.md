@@ -82,16 +82,6 @@ An optional event handle. When specified, this method creates an event query.
             
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

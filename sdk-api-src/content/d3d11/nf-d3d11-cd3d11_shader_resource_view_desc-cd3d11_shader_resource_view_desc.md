@@ -53,10 +53,6 @@ Instantiates a new instance of an uninitialized <a href="https://docs.microsoft.
 
 ## -parameters
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151684(v=vs.85)">CD3D11_SHADER_RESOURCE_VIEW_DESC</a>

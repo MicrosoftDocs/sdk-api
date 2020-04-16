@@ -62,11 +62,3 @@ ms.custom: 19H1
 Reserved.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

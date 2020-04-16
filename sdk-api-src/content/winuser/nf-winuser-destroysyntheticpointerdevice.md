@@ -62,11 +62,3 @@ Destroys the specified pointer injection device.
 A handle to the pointer injection device.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

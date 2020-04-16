@@ -59,15 +59,6 @@ Disconnects a server stub from any interface to which it is connected.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

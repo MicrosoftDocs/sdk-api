@@ -77,15 +77,6 @@ The context that was optionally supplied by the client app to <a href="https://d
 The device instance ID that PnP assigned to the device.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

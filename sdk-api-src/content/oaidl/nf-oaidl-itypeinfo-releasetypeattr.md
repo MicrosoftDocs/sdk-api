@@ -62,15 +62,6 @@ Releases a TYPEATTR previously returned by <a href="https://docs.microsoft.com/p
 The TYPEATTR to be freed.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

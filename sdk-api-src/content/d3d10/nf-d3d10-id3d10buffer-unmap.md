@@ -60,15 +60,6 @@ Invalidate the pointer to the resource retrieved by <a href="https://docs.micros
 
 
 
-## -returns
-
-
-
-Returns nothing
-
-
-
-
 ## -remarks
 
 

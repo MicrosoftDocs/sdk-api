@@ -72,11 +72,3 @@ Pointer to the caller specific data for this session.  This data was specified i
 This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/ns-wdstci-transportclient_session_info">TRANSPORTCLIENT_SESSION_INFO</a> structure.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

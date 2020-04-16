@@ -72,15 +72,6 @@ Pointer to the caller specific data for this session.  This data was specified i
 The overall status of the file transfer.  If the session succeeded, this value will be set to <b>ERROR_SUCCESS</b>.  If the session did not succeed, the error code for the session will be set.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

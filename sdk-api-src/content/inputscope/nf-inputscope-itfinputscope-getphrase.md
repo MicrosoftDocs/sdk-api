@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Gets the phrase list set to this context.
 
 ## -parameters
 

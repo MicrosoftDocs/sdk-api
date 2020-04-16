@@ -64,15 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id
 When this method returns, contains a pointer to a pointer to the source geometry for this transformed geometry object. This parameter is passed uninitialized.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -72,11 +72,3 @@ Pointer to the user marshal object to be calculated.
 Pointer to the format string description.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

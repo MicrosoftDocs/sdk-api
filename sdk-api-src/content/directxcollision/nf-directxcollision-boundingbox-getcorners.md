@@ -62,15 +62,6 @@ Retrieves the corners of the BoundingBox.
 A pointer to a buffer that the corners will be written to.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

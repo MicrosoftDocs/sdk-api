@@ -66,15 +66,6 @@ A filled <a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_font_metrics1">
      The metrics returned by this method are in font design units.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

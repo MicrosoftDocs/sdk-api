@@ -67,15 +67,6 @@ Pointer to the FLOATOBJ that will receive the value of <i>f</i>.
 Specifies the FLOATL value. This value is converted to a FLOATOBJ for the assignment.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

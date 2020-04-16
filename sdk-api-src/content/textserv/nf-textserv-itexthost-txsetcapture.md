@@ -64,15 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Indicates whether to set or release the mouse capture. If <b>TRUE</b>, the mouse capture is set. If <b>FALSE</b>, the mouse capture is released. 
 
 
-## -returns
-
-
-
-There is no return value.
-
-
-
-
 ## -remarks
 
 

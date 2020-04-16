@@ -62,11 +62,3 @@ Frees memory associated with an ATL thunk.
 The ATL thunk.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

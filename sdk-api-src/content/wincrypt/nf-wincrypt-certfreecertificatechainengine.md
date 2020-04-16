@@ -62,15 +62,6 @@ The <b>CertFreeCertificateChainEngine</b> function frees a certificate trust eng
 Handle of the chain engine to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

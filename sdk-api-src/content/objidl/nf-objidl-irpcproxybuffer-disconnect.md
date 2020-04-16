@@ -59,15 +59,6 @@ Disconnects a client proxy from any RPC channel to which it is connected.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

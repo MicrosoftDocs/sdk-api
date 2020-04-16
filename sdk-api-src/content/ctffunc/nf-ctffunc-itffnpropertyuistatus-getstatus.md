@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the status of a text service property UI.
 
 ## -parameters
 

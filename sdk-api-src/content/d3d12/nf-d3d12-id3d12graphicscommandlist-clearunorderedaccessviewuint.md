@@ -88,10 +88,6 @@ Type: <b>const D3D12_RECT*</b>
 
 An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view to clear. If <b>NULL</b>, then <b>ClearUnorderedAccessViewUint</b> clears the entire resource view.
           
-## -returns
-
-This method doesn't return a value.
-
 ## -remarks
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>

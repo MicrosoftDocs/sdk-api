@@ -73,16 +73,6 @@ A GPU_descriptor_handle object for the base descriptor to set.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -see-also
 
 

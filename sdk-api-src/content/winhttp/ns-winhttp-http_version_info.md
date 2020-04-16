@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp._HTTP_VERSION_INFO
+UID: NS:winhttp.__unnamed_struct_1
 title: HTTP_VERSION_INFO (winhttp.h)
 description: The HTTP_VERSION_INFO structure contains the global HTTP version.
 old-location: http\http_version_info.htm
@@ -43,47 +43,25 @@ req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and W
 ms.custom: 19H1
 ---
 
-# HTTP_VERSION_INFO structure
-
-
 ## -description
-
 
 The <b>HTTP_VERSION_INFO</b> structure contains the global HTTP version.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwMajorVersion
 
 Major version number. Must be 1. 
 
-
 ### -field dwMinorVersion
 
 Minor version number. Can be either 1 or 0. 
 
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
-		  Versions</a>
- 
-
- 
-
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>

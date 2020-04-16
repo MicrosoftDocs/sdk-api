@@ -52,10 +52,6 @@ Instantiates a new instance of an uninitialized <a href="https://docs.microsoft.
 
 ## -parameters
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151706(v=vs.85)">CD3D11_TEXTURE3D_DESC</a>

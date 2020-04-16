@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumerator that contains all the candidate string objects in the candidate list.
 
 ## -parameters
 

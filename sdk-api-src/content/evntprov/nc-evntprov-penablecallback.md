@@ -152,15 +152,6 @@ This value is passed in the <i>MatchAllKeywords</i> parameter of the
 <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

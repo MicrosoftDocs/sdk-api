@@ -81,16 +81,6 @@ Specifies the vertex buffer views in an array of <a href="https://docs.microsoft
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -see-also
 
 

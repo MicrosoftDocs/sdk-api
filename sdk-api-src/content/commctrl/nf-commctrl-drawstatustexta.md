@@ -126,15 +126,6 @@ Indicates that the string pointed to by
  
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

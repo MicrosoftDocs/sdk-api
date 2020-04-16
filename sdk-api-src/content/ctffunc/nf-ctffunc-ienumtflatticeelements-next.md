@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the specified number of elements in the enumeration sequence from the current position.
 
 ## -parameters
 

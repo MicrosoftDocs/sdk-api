@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::GetGUIDDWORD
 
-
 ## -description
 
-
-
+Obtains the DWORD value of the specified GUID from the Windows registry.
 
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 Specifies the address of the GUID for which to get the value.
 
-
 ### -param pdw [out]
 
 Pointer to the <b>DWORD</b> variable that receives the value of the GUID.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,25 +103,6 @@ The specified <i>pdw</i> parameter was <b>NULL</b> on input.
 </tr>
 </table>
  
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguiddword">ITfCategoryMgr::RegisterGUIDDWORD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregisterguiddword">ITfCategoryMgr::UnregisterGUIDDWORD</a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::RegisterGUIDDWORD](nf-msctf-itfcategorymgr-registerguiddword.md), [ITfCategoryMgr::UnregisterGUIDDWORD](nf-msctf-itfcategorymgr-unregisterguiddword.md)

@@ -74,15 +74,6 @@ An integer index that is greater than or equal to zero and less than or equal to
 The object pointer that is inserted in this array. A <b>NULL</b> value is allowed.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

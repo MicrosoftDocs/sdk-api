@@ -62,15 +62,6 @@ The <b>NewStream</b> event is reserved for future use.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

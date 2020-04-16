@@ -64,11 +64,3 @@ Type: <b>HANDLE</b>
 A handle to the file name mapping object to be freed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

@@ -67,15 +67,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/n
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_color_space">D3D11_VIDEO_PROCESSOR_COLOR_SPACE</a> structure that specifies the color space.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

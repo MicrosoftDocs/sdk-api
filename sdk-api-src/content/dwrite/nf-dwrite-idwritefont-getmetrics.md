@@ -65,15 +65,6 @@ Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_font_metrics">DWRIT
 When this method returns, contains a structure that has font metrics for the current font face. The metrics returned by this function are in font design units.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -67,15 +67,6 @@ The new BoundingSphere.
 The BoundingBox the new BoundingSphere should contain.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

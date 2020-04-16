@@ -71,15 +71,6 @@ Type: <b>DXGI_COLOR_SPACE_TYPE*</b>
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a> value that indicates the colorspace for the video processor output surface.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

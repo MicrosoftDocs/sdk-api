@@ -62,15 +62,6 @@ The
 
 
 
-## -returns
-
-
-
-This function has no return values.
-
-
-
-
 ## -see-also
 
 

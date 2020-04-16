@@ -72,15 +72,6 @@ If <b>TRUE</b>, downsampling is enabled. Otherwise, downsampling is disabled and
 The sampling size.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

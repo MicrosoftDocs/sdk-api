@@ -89,11 +89,3 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-
       optional inbound object that contains extra data for the connection.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

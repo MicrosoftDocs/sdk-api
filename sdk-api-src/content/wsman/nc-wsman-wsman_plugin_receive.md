@@ -84,15 +84,6 @@ If this request is aimed at a command and not a shell, this is the context retur
 A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_stream_id_set">WSMAN_STREAM_ID_SET</a> structure that contains a list of streams for which  data is to be received.  If this list is empty, all streams that were configured in the shell are implied, which means  that all streams are available.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

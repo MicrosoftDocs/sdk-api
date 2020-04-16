@@ -79,15 +79,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Offset (in bytes) from the start of the index buffer to the first index to use.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

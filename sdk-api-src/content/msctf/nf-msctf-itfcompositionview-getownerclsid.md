@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the class identifier of the text service that created the composition object.
 
 ## -parameters
 
@@ -128,5 +127,6 @@ The composition has been terminated.
 
 This method can be used to enable a text service to filter compositions that it does not own.
 
+## -see-also
 
-
+[ITfCompositionView interface](nn-msctf-itfcompositionview.md)

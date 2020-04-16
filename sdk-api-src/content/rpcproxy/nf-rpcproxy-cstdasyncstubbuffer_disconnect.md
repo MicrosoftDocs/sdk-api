@@ -66,15 +66,6 @@ Implements  the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/n
 Pointer to  the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

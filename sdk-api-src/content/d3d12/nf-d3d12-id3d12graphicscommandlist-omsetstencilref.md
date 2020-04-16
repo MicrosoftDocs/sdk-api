@@ -65,16 +65,6 @@ Reference value to perform against when doing a depth-stencil test.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -see-also
 
 

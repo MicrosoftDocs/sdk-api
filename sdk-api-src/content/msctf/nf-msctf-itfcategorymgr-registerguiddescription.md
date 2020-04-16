@@ -45,40 +45,29 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::RegisterGUIDDescription
 
-
 ## -description
 
-
-
+Enters a description for a GUID previously registered in the Windows registry.
 
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 Contains the CLSID of the text service that owns the GUID.
 
-
 ### -param rguid [in]
 
 Contains the GUID that the description is registered for.
-
 
 ### -param pchDesc [in]
 
 Pointer to a <b>WCHAR</b> buffer that contains the description for the GUID.
 
-
 ### -param cch [in]
 
 Contains the length, in characters, of the description string.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -121,29 +110,7 @@ The method was unable to register the description string.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguiddescription">ITfCategoryMgr::GetGUIDDescription
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregisterguiddescription">ITfCategoryMgr::UnregisterGUIDDescription
-      </a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::GetGUIDDescription](nf-msctf-itfcategorymgr-getguiddescription.md), [ITfCategoryMgr::UnregisterGUIDDescription](nf-msctf-itfcategorymgr-unregisterguiddescription.md)

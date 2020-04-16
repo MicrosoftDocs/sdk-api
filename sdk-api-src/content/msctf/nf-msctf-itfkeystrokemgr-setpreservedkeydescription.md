@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Modifies the description string of an existing preserved key.
 
 ## -parameters
 

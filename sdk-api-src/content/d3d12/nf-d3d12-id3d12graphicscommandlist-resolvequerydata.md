@@ -111,16 +111,6 @@ Specifies an alignment offset into the destination buffer.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

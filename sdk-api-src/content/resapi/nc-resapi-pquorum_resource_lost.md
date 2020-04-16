@@ -75,15 +75,6 @@ Handle identifying the <a href="https://docs.microsoft.com/previous-versions/win
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a> call for this resource.
 
 
-## -returns
-
-
-
-This function has no return values.
-
-
-
-
 ## -remarks
 
 

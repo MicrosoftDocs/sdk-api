@@ -67,15 +67,6 @@ Pointer to the first FLOATOBJ operand. When the function returns, *<i>pf</i> wil
 Pointer to the second FLOATOBJ operand.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -69,15 +69,6 @@ The callback should free this pointer.
                 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

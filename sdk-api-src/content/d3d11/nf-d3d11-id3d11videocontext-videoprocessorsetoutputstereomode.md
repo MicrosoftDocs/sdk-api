@@ -67,15 +67,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/n
 If <b>TRUE</b>, stereo output is enabled. Otherwise, the video processor produces mono video frames.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

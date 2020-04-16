@@ -64,11 +64,3 @@ The DLL entry point name must be <a href="https://docs.microsoft.com/windows/des
 Specifies the context that was received when the shell was created.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

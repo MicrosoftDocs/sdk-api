@@ -65,15 +65,6 @@ The <b>LibraryDisconnect</b> event occurs when a library is no longer available.
 Pointer to the <b>IWMPLibrary</b> interface that represents the library that disconnected.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

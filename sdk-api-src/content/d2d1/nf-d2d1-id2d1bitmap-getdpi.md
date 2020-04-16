@@ -71,15 +71,6 @@ Type: <b>FLOAT*</b>
 The vertical DPI of the image.  You must allocate storage for this parameter.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

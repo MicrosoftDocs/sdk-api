@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a range object that contains the text covered by the composition.
 
 ## -parameters
 
@@ -135,16 +134,4 @@ The composition has already terminated.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfRange
-      </a>
- 
-
- 
-
+[ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfRange interface](nn-msctf-itfrange.md)

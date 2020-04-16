@@ -78,15 +78,6 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11
 Number of rectangles in the array that the  <i>pRect</i> parameter specifies.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

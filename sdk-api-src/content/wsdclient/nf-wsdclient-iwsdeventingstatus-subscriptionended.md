@@ -62,15 +62,6 @@ Called when the device terminated the subscription.
 URI of the event action.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -59,15 +59,6 @@ The <b>DhcpDsCleanup</b> function frees up directory service resources allocated
 
 
 
-## -returns
-
-
-
-This function has no return values.
-
-
-
-
 ## -see-also
 
 

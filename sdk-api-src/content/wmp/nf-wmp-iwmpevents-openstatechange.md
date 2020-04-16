@@ -65,15 +65,6 @@ The <b>OpenStateChange</b> event occurs when the Windows Media Player control ch
 Specifies the new open state.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

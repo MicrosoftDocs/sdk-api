@@ -65,15 +65,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a> interface that represents the shader resource.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

@@ -67,15 +67,6 @@ The handle of type HAMSICONTEXT that was initially received from <a href="https:
 The handle of type HAMSISESSION that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

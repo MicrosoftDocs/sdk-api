@@ -59,15 +59,6 @@ Signals to the processor to give resources to threads that are waiting for them.
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

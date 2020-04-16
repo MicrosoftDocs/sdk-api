@@ -105,15 +105,6 @@ Specifies that web content displayed in an application will have visual styles a
  
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

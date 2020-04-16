@@ -72,15 +72,6 @@ Receives the value <b>TRUE</b> if the background color is a YCbCr color, or <b>F
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_color">D3D11_VIDEO_COLOR</a> structure. The method fills in the structure with the background color.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

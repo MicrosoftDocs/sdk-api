@@ -68,15 +68,6 @@ A pointer to the DNS data to be freed.
 A value that specifies the type of DNS data in <i>pData</i>. For more information and a list of values, see the <a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_free_type">DNS_FREE_TYPE</a> enumeration.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

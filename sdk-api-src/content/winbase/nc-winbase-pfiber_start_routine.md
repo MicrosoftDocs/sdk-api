@@ -74,15 +74,6 @@ The fiber data passed using the <i>lpParameter</i> parameter of the
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> function.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

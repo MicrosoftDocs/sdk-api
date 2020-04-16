@@ -71,15 +71,6 @@ Type: <b>FLOAT*</b>
 When this method returns, contains the vertical DPI of the desktop. You must allocate storage for this parameter. 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -190,15 +190,6 @@ Pointer to an additional buffer argument whose meaning depends on the event indi
 Pointer to an additional string argument whose meaning depends on the event indicated in the <i>dwEvent</i> parameter.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Activates TSF for the calling thread.
 
 ## -parameters
 

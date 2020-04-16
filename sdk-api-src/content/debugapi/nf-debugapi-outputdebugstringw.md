@@ -71,15 +71,6 @@ Sends a string to the debugger for display.
 The null-terminated string to be displayed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

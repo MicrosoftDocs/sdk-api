@@ -45,16 +45,11 @@ ms.custom: 19H1
 
 # ITfCompositionSink::OnCompositionTerminated
 
-
 ## -description
 
-
-
+Called when a composition is terminated.
 
 ## -parameters
-
-
-
 
 ### -param ecWrite [in]
 
@@ -86,26 +81,4 @@ There is no required action for the TSF text service when this method is called.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionsink">ITfCompositionSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition">ITfContextComposition::StartComposition
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tfeditcookie">TfEditCookie
-      </a>
- 
-
- 
-
+[ITfComposition interface](nn-msctf-itfcomposition.md), [ITfCompositionSink interface](nn-msctf-itfcompositionsink.md), [ITfContextComposition::StartComposition](nf-msctf-itfcontextcomposition-startcomposition.md), [TfEditCookie](/windows/desktop/TSF/tfeditcookie)

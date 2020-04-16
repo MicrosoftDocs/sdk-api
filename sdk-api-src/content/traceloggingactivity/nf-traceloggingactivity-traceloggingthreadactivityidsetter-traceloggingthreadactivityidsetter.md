@@ -64,15 +64,6 @@ Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/traceloggi
 A reference to the unique identifier that should be associated with this instance.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

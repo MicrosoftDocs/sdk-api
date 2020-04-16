@@ -61,10 +61,6 @@ Type: <b>const <a href="https://msdn.microsoft.com/49F02D65-767E-4BA4-A90D-68AA2
 Pointer to an array of barrier descriptions.
           
 
-## -returns
-
-This method returns void.
-
 ## -remarks
 
 ## -see-also

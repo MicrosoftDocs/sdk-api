@@ -75,15 +75,6 @@ Flags controlling which voice state data should be returned. Valid values are 0 
 <b>XAUDIO2_VOICE_NOSAMPLESPLAYED</b>.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

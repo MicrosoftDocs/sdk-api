@@ -62,15 +62,6 @@ ms.custom: 19H1
 The safe array for which the pinning reference count of the descriptor should decrease.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

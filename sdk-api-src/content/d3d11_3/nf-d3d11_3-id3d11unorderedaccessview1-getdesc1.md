@@ -65,15 +65,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d1
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_unordered_access_view_desc1">D3D11_UNORDERED_ACCESS_VIEW_DESC1</a> structure that receives the description of the unordered-access resource.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -see-also
 
 

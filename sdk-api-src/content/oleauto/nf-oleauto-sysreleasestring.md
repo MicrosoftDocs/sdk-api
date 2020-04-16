@@ -62,15 +62,6 @@ ms.custom: 19H1
 The string for which the  pinning reference count should decrease. 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

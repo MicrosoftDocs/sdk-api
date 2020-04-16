@@ -67,15 +67,6 @@ Posts a work object to the thread pool. A worker thread calls the work object's 
 A <b>TP_WORK</b> structure that defines the work object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork">CreateThreadpoolWork</a> function returns this structure.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

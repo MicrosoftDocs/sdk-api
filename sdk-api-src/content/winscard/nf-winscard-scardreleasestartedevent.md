@@ -61,11 +61,3 @@ The <b>SCardReleaseStartedEvent</b> function decrements the reference count for 
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

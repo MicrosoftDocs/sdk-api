@@ -49,10 +49,6 @@ Resets the state of a direct command list back to the state it was in when the c
 ## -parameters
 
 
-## -returns
-
-This method returns void.
-
 ## -remarks
 
 ## -see-also

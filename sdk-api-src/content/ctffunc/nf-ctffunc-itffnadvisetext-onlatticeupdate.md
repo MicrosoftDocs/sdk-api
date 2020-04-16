@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when a lattice element within a context changes.
 
 ## -parameters
 

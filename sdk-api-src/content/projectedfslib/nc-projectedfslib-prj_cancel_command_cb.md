@@ -67,15 +67,6 @@ Information about the operation. The following <i>callbackData</i> members are n
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

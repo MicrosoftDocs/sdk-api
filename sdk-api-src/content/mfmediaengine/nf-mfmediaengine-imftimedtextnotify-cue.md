@@ -78,15 +78,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/n
 The <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextcue">IMFTimedTextCue</a> object representing the cue.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

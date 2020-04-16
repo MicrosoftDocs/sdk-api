@@ -64,15 +64,6 @@ Type: <b>ID2D1SvgElement**</b>
 When this method completes, this will contain a pointer to the element on which this attribute is set.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -64,15 +64,6 @@ Type: <b>UINT64</b>
 The maximum capacity of the color glyph cache.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

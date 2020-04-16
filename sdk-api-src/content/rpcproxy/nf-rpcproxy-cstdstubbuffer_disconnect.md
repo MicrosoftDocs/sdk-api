@@ -64,11 +64,3 @@ The <b>CStdStubBuffer_Disconnect</b> function implements  the <a href="https://d
 Pointer to the <b>IRpcStubBuffer</b> object.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

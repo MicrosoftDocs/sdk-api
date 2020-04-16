@@ -64,15 +64,6 @@ Releases all memory associated with an opaque user interface context data buffer
 A pointer to a BLOB that contains supplicant user interface context data.
 
 
-## -returns
-
-
-
-This function does not return any values
-
-
-
-
 ## -see-also
 
 

@@ -74,15 +74,6 @@ Offset in <i>pBufferForArgs</i> to the start of the GPU generated primitives.
           
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

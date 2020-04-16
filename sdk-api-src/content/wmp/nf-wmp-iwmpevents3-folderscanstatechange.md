@@ -65,15 +65,6 @@ The <b>FolderScanStateChange</b> event occurs when a folder monitoring operation
 <b>WMPFolderScanState</b> enumeration value that indicates the new state.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

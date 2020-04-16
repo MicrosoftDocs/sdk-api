@@ -88,15 +88,6 @@ Specifies an array of D3D12_SAMPLE_POSITION elements. The size of the array is N
 If centroid interpolation is used during rendering, the order of positions for each pixel determines centroid-sampling prioritiy. That is, the first covered sample in the order specified is chosen as the centroid sample location.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

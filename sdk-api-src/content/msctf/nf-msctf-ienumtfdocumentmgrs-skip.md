@@ -45,11 +45,9 @@ ms.custom: 19H1
 
 # IEnumTfDocumentMgrs::Skip
 
-
 ## -description
 
-
-
+Moves the current position forward in the enumeration sequence by the specified number of elements.
 
 ## -parameters
 
@@ -95,7 +93,7 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfDocumentMgrs interface](nn-msctf-ienumtfdocumentmgrs.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md)

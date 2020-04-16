@@ -59,15 +59,6 @@ Leave a device's critical section.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

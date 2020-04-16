@@ -59,15 +59,6 @@ Performs operations required before calling <a href="https://docs.microsoft.com/
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

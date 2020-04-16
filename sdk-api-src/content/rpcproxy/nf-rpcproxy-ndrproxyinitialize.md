@@ -82,11 +82,3 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-r
 Procedure  number for the object method.
 
 
-## -returns
-
-
-
-This function has no return values. Throws an exception upon error.
-
-
-

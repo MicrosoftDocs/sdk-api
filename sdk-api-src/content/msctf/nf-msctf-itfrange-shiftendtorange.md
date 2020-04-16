@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Moves the end anchor of this range to an anchor within another range.
 
 ## -parameters
 

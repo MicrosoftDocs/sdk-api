@@ -73,15 +73,6 @@ Pointer to the parameter block to use as a reference.
 Pointer to an array of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures describing the properties in the input parameter block.
 
 
-## -returns
-
-
-
-This function has no return values.
-
-
-
-
 ## -remarks
 
 

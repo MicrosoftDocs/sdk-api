@@ -65,15 +65,6 @@ The <b>DeviceConnect</b> event occurs when the user connects a device to the com
 Address of the <b>IWMPSyncDevice</b> interface that represents the device that the user connected.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the type identifier for the function provider.
 
 ## -parameters
 

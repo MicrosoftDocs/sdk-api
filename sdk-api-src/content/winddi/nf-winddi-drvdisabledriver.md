@@ -59,15 +59,6 @@ The <b>DrvDisableDriver</b> function is used by GDI to notify a driver that it n
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

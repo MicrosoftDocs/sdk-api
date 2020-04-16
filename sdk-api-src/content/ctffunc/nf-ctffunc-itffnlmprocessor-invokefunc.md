@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Invokes a function of the language model text service.
 
 ## -parameters
 

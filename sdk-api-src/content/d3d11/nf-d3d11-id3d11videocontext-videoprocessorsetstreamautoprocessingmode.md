@@ -72,15 +72,6 @@ The zero-based index of the input stream. To get the maximum number of streams, 
 If <b>TRUE</b>, automatic processing features are enabled. If <b>FALSE</b>, the driver disables any  extra video processing that it might be performing.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

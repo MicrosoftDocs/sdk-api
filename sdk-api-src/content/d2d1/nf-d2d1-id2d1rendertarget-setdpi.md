@@ -71,15 +71,6 @@ Type: <b>FLOAT</b>
 A value greater than or equal to zero that specifies the vertical DPI of the render target.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

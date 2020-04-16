@@ -64,15 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2
 Stroke and join options to be applied to new segments added to the geometry sink.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

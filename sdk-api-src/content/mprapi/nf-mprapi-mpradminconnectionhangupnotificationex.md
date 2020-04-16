@@ -64,15 +64,6 @@ A pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure that describes this connection.
 
 
-## -returns
-
-
-
-This function does not have a return value.
-
-
-
-
 ## -see-also
 
 

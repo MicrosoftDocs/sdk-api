@@ -64,15 +64,6 @@ Type: <b>UINT</b>
 A mask that specifies which views are enabled or disabled. If bit <i>i</i> starting from the least-significant bit is set, view instance <i>i</i> is enabled.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

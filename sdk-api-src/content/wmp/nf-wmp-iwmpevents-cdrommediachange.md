@@ -65,15 +65,6 @@ The <b>CdromMediaChange</b> event occurs when a CD or DVD is inserted into or ej
 Specifies the index of the CD or DVD drive.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

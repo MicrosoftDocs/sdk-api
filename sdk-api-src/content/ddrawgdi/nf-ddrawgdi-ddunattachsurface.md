@@ -76,15 +76,6 @@ Pointer to the kernel-mode surface object that was passed as the <i>pSurfaceTo</
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

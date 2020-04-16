@@ -60,15 +60,6 @@ Ends the collection of GPU data.
 
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

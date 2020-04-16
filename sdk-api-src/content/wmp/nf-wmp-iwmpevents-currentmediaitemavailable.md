@@ -65,15 +65,6 @@ The <b>CurrentMediaItemAvailable</b> event occurs when the current media item be
 Specifies the item name.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -78,15 +78,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windo
 A pointer to a null-terminated array of integers that identify controls in the client area. Each control requires a pair of consecutive elements. The first element of the pair must be nonzero and the second element of the pair must be the control identifier. The first pair represents the menu and is ignored. The last element must be zero to identify the end of the array. 
 
 
-## -returns
-
-
-
-No return value. 
-
-
-
-
 ## -remarks
 
 

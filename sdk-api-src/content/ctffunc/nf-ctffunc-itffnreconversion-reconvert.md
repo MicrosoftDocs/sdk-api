@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Invokes the reconversion process for a range of text.
 
 ## -parameters
 

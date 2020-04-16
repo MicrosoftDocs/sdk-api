@@ -64,15 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrit
 The text-rendering configuration of the drawing state, or NULL to use default settings.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

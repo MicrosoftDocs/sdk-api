@@ -53,10 +53,6 @@ Instantiates a new instance of an uninitialized <a href="https://docs.microsoft.
 
 ## -parameters
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_buffer_desc">CD3D11_BUFFER_DESC</a>

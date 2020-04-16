@@ -59,15 +59,6 @@ Occurs when the camera UI control is closed.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

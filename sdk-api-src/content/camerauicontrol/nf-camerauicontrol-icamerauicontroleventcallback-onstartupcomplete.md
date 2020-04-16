@@ -59,15 +59,6 @@ Occurs when startup for the camera UI control has completed.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

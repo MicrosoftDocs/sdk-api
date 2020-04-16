@@ -85,11 +85,3 @@ A callback data pointer. This pointer is, in turn, passed as a parameter to <i>p
         
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

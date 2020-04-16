@@ -82,15 +82,6 @@ The lower bound for the luma key. The valid range is [0…1]. If <i>Enable</i> i
 The upper bound for the luma key. The valid range is [0…1]. If <i>Enable</i> is <b>FALSE</b>, this parameter is ignored.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

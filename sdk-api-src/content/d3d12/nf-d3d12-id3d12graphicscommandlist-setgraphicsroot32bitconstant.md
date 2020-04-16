@@ -82,16 +82,6 @@ The offset, in 32-bit values, to set the constant in the root signature.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -see-also
 
 

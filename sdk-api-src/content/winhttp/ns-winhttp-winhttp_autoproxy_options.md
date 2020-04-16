@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp._WINHTTP_AUTOPROXY_OPTIONS
+UID: NS:winhttp.__unnamed_struct_4
 title: WINHTTP_AUTOPROXY_OPTIONS (winhttp.h)
 description: The WINHTTP_AUTOPROXY_OPTIONS structure is used to indicate to the WinHttpGetProxyForURL function whether to specify the URL of the Proxy Auto-Configuration (PAC) file or to automatically locate the URL with DHCP or DNS queries to the network.
 old-location: http\winhttp_autoproxy_options.htm
@@ -43,19 +43,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WINHTTP_AUTOPROXY_OPTIONS structure
-
-
 ## -description
-
 
 The <b>WINHTTP_AUTOPROXY_OPTIONS</b> structure is used to indicate to the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForURL</a> function whether to specify the URL of the Proxy Auto-Configuration (PAC) file or to automatically locate the URL with DHCP or DNS queries to the network.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -65,6 +57,36 @@ Mechanisms should be used to obtain the PAC file.
 <tr>
 <th>Value</th>
 <th>Meaning</th>
+</tr>
+<tr>
+<tr>
+<td width="40%"><a id="WINHTTP_AUTOPROXY_ALLOW_AUTOCONFIG"></a><a id="winhttp_autoproxy_allow_autoconfig"></a><dl>
+<dt><b>WINHTTP_AUTOPROXY_ALLOW_AUTOCONFIG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables proxy detection via autoconfig URL.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINHTTP_AUTOPROXY_ALLOW_CM"></a><a id="winhttp_autoproxy_allow_cm"></a><dl>
+<dt><b>WINHTTP_AUTOPROXY_ALLOW_CM</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables proxy detection via connection manager.
+
+</td>
+</tr>
+<td width="40%"><a id="WINHTTP_AUTOPROXY_ALLOW_STATIC"></a><a id="winhttp_autoproxy_allow_static"></a><dl>
+<dt><b>WINHTTP_AUTOPROXY_ALLOW_STATIC</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables proxy detection via static configuration.
+
+</td>
 </tr>
 <tr>
 <td width="40%"><a id="WINHTTP_AUTOPROXY_AUTO_DETECT"></a><a id="winhttp_autoproxy_auto_detect"></a><dl>
@@ -87,8 +109,28 @@ Download the PAC file from the URL specified by <b>lpszAutoConfigUrl</b> in the 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="WINHTTP_AUTOPROXY_NO_CACHE_CLIENT_"></a><a id="winhttp_autoproxy_no_cache_client_"></a><dl>
-<dt><b>WINHTTP_AUTOPROXY_NO_CACHE_CLIENT </b></dt>
+<td width="40%"><a id="WINHTTP_AUTOPROXY_HOST_KEEPCASE"></a><a id="winhttp_autoproxy_host_keepcase"></a><dl>
+<dt><b>WINHTTP_AUTOPROXY_HOST_KEEPCASE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Maintains the case of the hostnames passed to the PAC script. This is the default behavior.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINHTTP_AUTOPROXY_HOST_LOWERCASE"></a><a id="winhttp_autoproxy_host_lowercase"></a><dl>
+<dt><b>WINHTTP_AUTOPROXY_HOST_LOWERCASE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Converts hostnames to lowercase before passing them to the PAC script.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINHTTP_AUTOPROXY_NO_CACHE_CLIENT"></a><a id="winhttp_autoproxy_no_cache_client"></a><dl>
+<dt><b>WINHTTP_AUTOPROXY_NO_CACHE_CLIENT</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,6 +168,10 @@ Executes the Web Proxy Auto-Discovery (WPAD) protocol in-process instead of dele
 
 This option has no effect when passed to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
 
+<div class="alert"><b>Note</b>  This flag is deprecated.</div>
+<div> </div>
+
+
 </td>
 </tr>
 <tr>
@@ -134,7 +180,7 @@ This option has no effect when passed to <a href="https://docs.microsoft.com/win
 </dl>
 </td>
 <td width="60%">
-By default,  WinHTTP is configured to fall back to auto-discover a proxy in-process. If this fallback behavior is undesirable in the event that an out-of-process discovery  fails,  it can be  disabled using  this flag.
+By default, WinHTTP is configured to fall back to auto-discover a proxy in-process. If this fallback behavior is undesirable in the event that an out-of-process discovery fails, it can be disabled using this flag.
 
 This option has no effect when passed to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
 
@@ -156,8 +202,6 @@ Orders the proxy results based on a heuristic placing the fastest proxies first.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwAutoDetectFlags
 
@@ -191,8 +235,6 @@ Use DNS to attempt to locate the proxy auto-configuration file at a well-known l
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpszAutoConfigUrl
 
@@ -200,16 +242,13 @@ If <b>dwFlags</b> includes the WINHTTP_AUTOPROXY_CONFIG_URL flag, the <b>lpszAut
 
 If <b>dwFlags</b> does not include the WINHTTP_AUTOPROXY_CONFIG_URL flag, then <b>lpszAutoConfigUrl</b> must be <b>NULL</b>.
 
-
 ### -field lpvReserved
 
 Reserved for future use; must be <b>NULL</b>.
 
-
 ### -field dwReserved
 
 Reserved for future use; must be zero.
-
 
 ### -field fAutoLogonIfChallenged
 
@@ -217,15 +256,6 @@ Specifies whether the client's domain credentials should be automatically sent i
 
 If this flag is TRUE, credentials should automatically be sent in response to an authentication challenge. If this flag is FALSE and authentication is required to download the PAC file, the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForUrl</a> function fails.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
-		  Versions</a>
- 
-
- 
-
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>

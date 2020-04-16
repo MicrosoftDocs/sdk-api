@@ -72,15 +72,6 @@ The number of indexed resource qualifiers that the list in the <i>ppQualifiers</
 A list of indexed resource qualifiers that declare the context under which the resources are appropriate.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

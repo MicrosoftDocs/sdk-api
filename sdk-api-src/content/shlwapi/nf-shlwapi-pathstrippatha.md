@@ -70,11 +70,3 @@ Type: <b>LPTSTR</b>
 A pointer to a null-terminated string of length MAX_PATH that contains the path and file name. When this function returns successfully, the string contains only the file name, with the path removed.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

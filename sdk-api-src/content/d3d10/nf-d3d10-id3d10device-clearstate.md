@@ -59,15 +59,6 @@ Restore all default device settings; return the device to the state it was in wh
 
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -see-also
 
 

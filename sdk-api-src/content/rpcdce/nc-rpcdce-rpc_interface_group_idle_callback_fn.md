@@ -72,15 +72,6 @@ A user-defined context provided at interface group creation.
 <b>TRUE</b> if the interface group has just become idle.  <b>FALSE</b> if the interface group was previously idle but has since received new activity.  
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

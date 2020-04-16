@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains access to the document text and properties.
 
 ## -parameters
 
@@ -241,31 +240,4 @@ A synchronous read/write request will fail if made when processing one of the fo
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfeditsession">ITfEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfstatussink-onstatuschange">ITfStatusSink::OnStatusChange
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession interface](nn-msctf-itfeditsession.md), [ITfStatusSink::OnStatusChange](nf-msctf-itfstatussink-onstatuschange.md), [ITfTextEditSink::OnEndEdit](nf-msctf-itftexteditsink-onendedit.md), [ITfTextLayoutSink::OnLayoutChange](nf-msctf-itftextlayoutsink-onlayoutchange.md)

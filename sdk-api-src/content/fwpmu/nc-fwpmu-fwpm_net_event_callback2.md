@@ -67,15 +67,6 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 The net event information.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

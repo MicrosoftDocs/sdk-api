@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumerator that contains all of the profiles for a specific langauage.
 
 ## -parameters
 
@@ -96,7 +95,7 @@ The method was successful.
 </td>
 <td width="60%">
 No corresponding language profile was found in the operating system.<div> </div>-or-<div> </div> 
-				  An unspecified error occurred.
+                  An unspecified error occurred.
 
 </td>
 </tr>

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when a display attribute is changed.
 
 ## -parameters
 
@@ -88,16 +87,4 @@ The method was successful.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributemgr">ITfDisplayAttributeMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributenotifysink-onupdateinfo">ITfDisplayAttributeNotifySink::OnUpdate
-      </a>
- 
-
- 
-
+[ITfDisplayAttributeMgr interface](nn-msctf-itfdisplayattributemgr.md), [ITfDisplayAttributeNotifySink::OnUpdateInfo](nf-msctf-itfdisplayattributenotifysink-onupdateinfo.md)

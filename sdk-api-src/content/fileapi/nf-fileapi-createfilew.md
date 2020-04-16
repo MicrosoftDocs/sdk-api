@@ -672,7 +672,7 @@ For additional information, see the <a href="#caching-behavior">Caching Behavior
 </table>
  
 
-The <i>dwFlagsAndAttributes</i>parameter can also specify SQOS information. For more 
+The <i>dwFlagsAndAttributes</i> parameter can also specify SQOS information. For more 
        information, see 
        <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/impersonation-levels">Impersonation Levels</a>. When the 
        calling application specifies the <b>SECURITY_SQOS_PRESENT</b> flag as part of 

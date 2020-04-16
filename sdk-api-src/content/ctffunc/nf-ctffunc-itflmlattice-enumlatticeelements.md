@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumerator that contains all lattice elements contained in the lattice property that start at or after a specific offset from the start of the frame.
 
 ## -parameters
 

@@ -67,11 +67,3 @@ The <b>EndRead</b> method provides thread safety by indicating the end of a data
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

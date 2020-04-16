@@ -39,11 +39,19 @@ req.redist:
 
 ## -description
 
+Gets the unique identifier of the [DisplaySource](/uwp/api/windows.devices.display.core.displaysource) object.
+
 ## -parameters
 
-### -param pSourceId
+### -param pSourceId [out]
+
+The unique identifier.
 
 ## -returns
+
+Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
+
+This method returns **S_OK** if it succeeded, otherwise a failure code indicating why it failed. 
 
 ## -remarks
 

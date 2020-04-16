@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Associates the focus for a window with a document manager object.
 
 ## -parameters
 

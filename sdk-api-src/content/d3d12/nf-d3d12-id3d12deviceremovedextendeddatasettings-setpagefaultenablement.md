@@ -55,10 +55,6 @@ Configures the enablement settings for Device Removed Extended Data (DRED) page 
 
 A [D3D12_DRED_ENABLEMENT](ne-d3d12-d3d12_dred_enablement.md) value. The default is **D3D12_DRED_ENABLEMENT_SYSTEM_CONTROLLED**.
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 * [ID3D12DeviceRemovedExtendedDataSettings interface](nn-d3d12-id3d12deviceremovedextendeddatasettings.md)

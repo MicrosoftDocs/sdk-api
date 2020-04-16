@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the GUID for the display attribute.
 
 ## -parameters
 
@@ -96,6 +95,7 @@ The method was successful.
 </tr>
 </table>
  
+## -see-also
 
-
+[ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md)
 

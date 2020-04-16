@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumerator that contains all display attribute info objects supported by the display attribute provider.
 
 ## -parameters
 

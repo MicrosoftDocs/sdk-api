@@ -62,15 +62,6 @@ Application-defined callback function used with the <a href="https://docs.micros
 Pointer to the callback context. This is the value passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a> function as the <i>CallbackContext</i> parameter.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

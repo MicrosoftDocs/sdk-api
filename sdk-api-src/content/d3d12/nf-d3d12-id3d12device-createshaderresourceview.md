@@ -84,15 +84,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-
 Describes the CPU descriptor handle that represents the shader-resource view. This handle can be created in a shader-visible or non-shader-visible descriptor heap.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

@@ -64,15 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrit
  When this method returns, <i>textRenderingParams</i>contains the address  of a pointer to the render target's current text rendering options. 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

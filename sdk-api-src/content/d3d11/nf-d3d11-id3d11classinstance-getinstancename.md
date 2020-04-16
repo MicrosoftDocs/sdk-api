@@ -73,15 +73,6 @@ The length of the <i>pInstanceName</i> parameter.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

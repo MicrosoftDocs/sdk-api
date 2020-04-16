@@ -74,15 +74,6 @@ A Boolean flag that determines whether the target context state is saved prior t
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -65,15 +65,6 @@ The <b>PlaylistCollectionPlaylistAdded</b> event occurs when a playlist is added
 Specifies the name of the playlist that was added.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

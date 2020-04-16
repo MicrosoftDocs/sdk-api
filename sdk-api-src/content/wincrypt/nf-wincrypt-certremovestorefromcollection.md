@@ -67,15 +67,6 @@ A handle of the collection certificate store.
 Handle of the sibling certificate store to be removed from the collection store.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

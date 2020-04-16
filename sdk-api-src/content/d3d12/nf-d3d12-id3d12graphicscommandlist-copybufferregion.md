@@ -98,16 +98,6 @@ Specifies the number of bytes to copy.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

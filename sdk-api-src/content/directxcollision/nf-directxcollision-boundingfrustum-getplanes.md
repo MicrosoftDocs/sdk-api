@@ -87,15 +87,6 @@ A vector that will hold the top plane.
 A vector that will hold the bottom plane.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

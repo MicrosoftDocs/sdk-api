@@ -67,15 +67,6 @@ This parameter can be used to specify a pointer to user-defined
                 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

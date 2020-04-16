@@ -94,15 +94,6 @@ Type: <b>FLOAT*</b>
 The 'context-value' for the 'stroke-dashoffset' property.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

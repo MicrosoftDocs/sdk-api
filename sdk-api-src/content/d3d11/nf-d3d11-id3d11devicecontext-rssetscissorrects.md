@@ -73,15 +73,6 @@ An array of scissor rectangles (see <a href="https://docs.microsoft.com/windows/
           
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

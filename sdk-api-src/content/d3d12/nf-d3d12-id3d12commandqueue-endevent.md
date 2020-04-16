@@ -60,16 +60,6 @@ Not intended to be called directly.  Use the
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 

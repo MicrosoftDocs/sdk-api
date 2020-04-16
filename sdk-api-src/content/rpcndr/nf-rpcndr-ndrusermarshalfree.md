@@ -73,15 +73,6 @@ Pointer to be freed.
 Pointer's format string description.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

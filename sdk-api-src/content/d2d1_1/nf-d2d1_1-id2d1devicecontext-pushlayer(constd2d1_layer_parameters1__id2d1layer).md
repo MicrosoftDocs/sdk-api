@@ -73,15 +73,6 @@ The layer resource to push on the device context that receives subsequent drawin
 <div class="alert"><b>Note</b>  If a layer is not specified, Direct2D manages the layer resource automatically.</div>
 <div> </div>
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

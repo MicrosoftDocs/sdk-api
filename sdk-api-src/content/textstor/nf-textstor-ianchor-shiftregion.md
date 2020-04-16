@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Shifts the anchor into an adjacent region in the text stream.
 
 ## -parameters
 

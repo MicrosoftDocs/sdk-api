@@ -108,15 +108,6 @@ Type: <b>LPUINT</b>
 Pointer to an array of values that contains pairs of string resource identifiers and menu handles. The function searches the array for the handle to the selected menu and, if found, uses the corresponding resource identifier to load the appropriate Help string. 
 
 
-## -returns
-
-
-
-No return value.
-
-
-
-
 ## -remarks
 
 

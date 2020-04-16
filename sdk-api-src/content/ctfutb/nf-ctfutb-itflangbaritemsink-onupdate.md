@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Notifies the language bar of a change in a language bar item.
 
 ## -parameters
 

@@ -83,16 +83,6 @@ Specifies an array of  <a href="https://docs.microsoft.com/windows/desktop/api/d
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -see-also
 
 

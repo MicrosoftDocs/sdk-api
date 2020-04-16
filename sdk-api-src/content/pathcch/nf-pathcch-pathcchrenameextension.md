@@ -57,7 +57,7 @@ Replaces a file name's extension at the end of a path string with a new extensio
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathrenameextensiona">PathRenameExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathrenameextensiona">PathRenameExtension</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathrenameextensiona">PathRenameExtension</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
 

@@ -86,15 +86,6 @@ Type: <b>UINT8</b>
 Clear the stencil buffer with this value.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

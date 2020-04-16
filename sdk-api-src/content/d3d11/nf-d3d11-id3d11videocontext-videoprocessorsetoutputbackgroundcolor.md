@@ -72,15 +72,6 @@ If <b>TRUE</b>, the color is specified as a YCbCr value. Otherwise, the color is
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_color">D3D11_VIDEO_COLOR</a> structure that specifies the background color.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

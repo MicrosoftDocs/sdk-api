@@ -65,16 +65,6 @@ Array of blend factors, one for each RGBA component.
           
 
 
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
-
 ## -remarks
 
 If you created the blend-state object with [D3D12_BLEND_BLEND_FACTOR](/windows/win32/api/d3d12/ne-d3d12-d3d12_blend) or **D3D12_BLEND_INV_BLEND_FACTOR**, then the blending stage uses the non-NULL array of blend factors. Otherwise,the blending stage doesn't use the non-NULL array of blend factors; the runtime stores the blend factors.

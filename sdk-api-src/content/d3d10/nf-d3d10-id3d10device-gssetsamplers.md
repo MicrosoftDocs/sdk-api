@@ -79,15 +79,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-
 Pointer to an array of sampler-state interfaces (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>). See Remarks.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if a client has a read/write lock on the context.
 
 ## -parameters
 
@@ -112,4 +111,7 @@ The method was successful.
 A client uses this method, from inside a notification callback, to determine if it must make the change.
 
 
+## -see-also
+
+[ITfContext interface](nn-msctf-itfcontext.md)
 

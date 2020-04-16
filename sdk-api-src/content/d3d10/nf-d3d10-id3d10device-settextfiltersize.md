@@ -72,15 +72,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Not applicable
 
 
-## -returns
-
-
-
-Not applicable
-
-
-
-
 ## -remarks
 
 

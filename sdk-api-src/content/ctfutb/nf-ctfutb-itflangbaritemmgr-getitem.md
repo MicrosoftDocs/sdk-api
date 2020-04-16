@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the ITfLangBarItem interface for an item in the language bar.
 
 ## -parameters
 

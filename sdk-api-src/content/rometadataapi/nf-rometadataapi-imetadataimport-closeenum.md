@@ -62,15 +62,6 @@ Closes the enumerator that is identified by the specified handle.
 The handle of the enumerator to close.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

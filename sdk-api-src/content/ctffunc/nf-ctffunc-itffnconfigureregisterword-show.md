@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to cause the text service to display a dialog box to register a word with the text service.
 
 ## -parameters
 

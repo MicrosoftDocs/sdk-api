@@ -70,15 +70,6 @@ Specifies the type of script command.
 Specifies the script command.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

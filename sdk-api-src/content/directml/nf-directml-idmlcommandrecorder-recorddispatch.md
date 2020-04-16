@@ -120,15 +120,6 @@ A pointer to an [IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idm
           flag was not set, then you must fill out all required bindings, otherwise an error will result.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

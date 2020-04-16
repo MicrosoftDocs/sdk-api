@@ -78,15 +78,6 @@ Type: <b>BOOL</b>
 Whether to invalidate the graph at the location of the effect input
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

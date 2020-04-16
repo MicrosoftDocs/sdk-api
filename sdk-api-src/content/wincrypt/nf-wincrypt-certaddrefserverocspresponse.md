@@ -62,15 +62,6 @@ The <b>CertAddRefServerOcspResponse</b> function increments the reference count 
 A handle to an <b>HCERT_SERVER_OCSP_RESPONSE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a>.
 
 
-## -returns
-
-
-
-This function has no return value.
-
-
-
-
 ## -remarks
 
 

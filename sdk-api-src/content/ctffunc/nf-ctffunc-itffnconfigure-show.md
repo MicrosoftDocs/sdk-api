@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the user opens the Text Services control panel application, selects the text service from the list and presses the Properties pushbutton.
 
 ## -parameters
 

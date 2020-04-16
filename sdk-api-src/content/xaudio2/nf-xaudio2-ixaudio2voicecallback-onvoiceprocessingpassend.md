@@ -59,15 +59,6 @@ Called just after the processing pass for the voice ends.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

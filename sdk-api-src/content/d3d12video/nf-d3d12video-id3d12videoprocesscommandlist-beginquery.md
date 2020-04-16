@@ -60,10 +60,6 @@ A member of the [D3D12_QUERY_TYPE](https://docs.microsoft.com/windows/desktop/ap
 
 The index of the query within the query heap.
 
-## -returns
-
-This method returns void.
-
 ## -remarks
 
 Some queries do not use **BeginQuery** and only have an **EndQuery**.  See each query type in [D3D12_QUERY_TYPE](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type) to determine proper usage.

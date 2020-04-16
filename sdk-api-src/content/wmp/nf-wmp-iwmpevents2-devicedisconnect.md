@@ -65,15 +65,6 @@ The <b>DeviceDisconnect</b> event occurs when the user disconnects a device from
 Address of the <b>IWMPSyncDevice</b> interface that represents the device that the user disconnected.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

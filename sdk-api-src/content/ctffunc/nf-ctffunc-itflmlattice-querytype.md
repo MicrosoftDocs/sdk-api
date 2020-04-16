@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if a specific lattice element type is supported by the lattice property.
 
 ## -parameters
 

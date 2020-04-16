@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Invokes the reconversion process in the language model text service for a range.
 
 ## -parameters
 

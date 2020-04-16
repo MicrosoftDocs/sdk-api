@@ -75,15 +75,6 @@ A value from the
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpc_async_event">RPC_ASYNC_EVENT</a> enumerated type that identifies the current asynchronous event.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

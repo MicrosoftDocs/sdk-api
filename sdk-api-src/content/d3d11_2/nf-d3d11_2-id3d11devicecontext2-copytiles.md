@@ -105,15 +105,6 @@ A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2
           
 
 
-## -returns
-
-
-
-Returns nothing
-
-
-
-
 ## -remarks
 
 

@@ -62,15 +62,6 @@ Releases the output data pointer for the last buffer.
 The APO connection property.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

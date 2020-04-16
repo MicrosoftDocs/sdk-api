@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Receives a notification when the layout of a context view changes.
 
 ## -parameters
 

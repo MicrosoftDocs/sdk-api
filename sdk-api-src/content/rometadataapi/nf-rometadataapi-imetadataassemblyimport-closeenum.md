@@ -62,15 +62,6 @@ Releases a reference to the specified enumeration instance.
 The enumeration instance to be closed.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

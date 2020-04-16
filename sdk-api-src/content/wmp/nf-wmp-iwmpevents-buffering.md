@@ -65,15 +65,6 @@ The <b>Buffering</b> event occurs when the Windows Media Player control begins o
 Specifies whether buffering has begun or ended. A value of true indicates that it has begun; a value of false indicates that it has ended.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ This setting is only used if neither the <b>SPC_EXC_PE_PAGE_HASHES_FLAG</b> or t
 Determines whether page hashes are included when creating SIP indirect data for PE files. If this parameter is nonzero, page hashes are included. If this parameter is zero, page hashes are not included. The value is zero by default.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

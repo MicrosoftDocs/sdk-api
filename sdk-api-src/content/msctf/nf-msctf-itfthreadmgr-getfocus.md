@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Returns the document manager that has the input focus.
 
 ## -parameters
 

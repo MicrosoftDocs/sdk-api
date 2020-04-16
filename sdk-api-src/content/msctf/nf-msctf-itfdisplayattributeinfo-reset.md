@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Resets the display attribute data to its default value.
 
 ## -parameters
 
@@ -108,16 +107,4 @@ The implementation of this method should not call <a href="https://docs.microsof
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-onupdateinfo">ITfDisplayAttributeMgr::OnUpdateInfo
-      </a>
- 
-
- 
-
+[ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md), [ITfDisplayAttributeMgr::OnUpdateInfo](nf-msctf-itfdisplayattributemgr-onupdateinfo.md),

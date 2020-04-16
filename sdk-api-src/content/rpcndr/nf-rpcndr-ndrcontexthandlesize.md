@@ -72,15 +72,6 @@ Pointer to a string buffer that contains an RPC context handle.
 Pointer to a <b>FORMAT_STRING</b> structure that contains the format of the context handle specified in <i>pMemory</i>.
 
 
-## -returns
-
-
-
-This function has no return value. However, it throws an exception upon error.
-
-
-
-
 ## -see-also
 
 

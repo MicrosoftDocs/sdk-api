@@ -100,15 +100,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcom
 Indicates the measuring method used for text layout.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

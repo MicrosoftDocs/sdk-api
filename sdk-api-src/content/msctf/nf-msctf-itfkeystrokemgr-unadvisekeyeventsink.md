@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Removes a key event sink.
 
 ## -parameters
 

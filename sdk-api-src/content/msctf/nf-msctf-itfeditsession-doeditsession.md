@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to enable a text service to read and/or modify the contents of a context.
 
 ## -parameters
 

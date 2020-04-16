@@ -71,15 +71,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-
 Describes the CPU descriptor handle that represents the start of the heap that holds the sampler.
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -see-also
 
 

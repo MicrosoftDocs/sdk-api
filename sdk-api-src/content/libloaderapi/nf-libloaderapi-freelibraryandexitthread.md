@@ -80,15 +80,6 @@ Do not call this function with a handle returned by the <a href="https://docs.mi
 The exit code for the calling thread.
 
 
-## -returns
-
-
-
-This function does not return a value. Invalid module handles are ignored.
-
-
-
-
 ## -remarks
 
 

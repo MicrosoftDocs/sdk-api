@@ -59,15 +59,6 @@ Minimizes the heap as much as possible by releasing unused memory to the operati
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

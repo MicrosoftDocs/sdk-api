@@ -154,15 +154,6 @@ Receives a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d1
 Receives the pixel offset used for <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b> format. This parameter is ignored for other stereo formats.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

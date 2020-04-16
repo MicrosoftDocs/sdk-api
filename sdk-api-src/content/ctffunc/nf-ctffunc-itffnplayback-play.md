@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Causes the audio data for a range of text to be played.
 
 ## -parameters
 

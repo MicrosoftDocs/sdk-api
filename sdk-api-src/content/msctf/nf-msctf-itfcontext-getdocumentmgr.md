@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the document manager that contains the context.
 
 ## -parameters
 
@@ -122,21 +121,4 @@ If the context is not contained within a document manager, this method returns S
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">ITfDocumentMgr::Pop
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md), [ITfDocumentMgr::Pop](nf-msctf-itfdocumentmgr-pop.md)

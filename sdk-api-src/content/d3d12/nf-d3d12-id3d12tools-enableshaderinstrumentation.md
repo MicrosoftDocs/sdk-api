@@ -64,15 +64,6 @@ Type: <b>BOOL</b>
 TRUE to enable shader instrumentation; otherwise, FALSE.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

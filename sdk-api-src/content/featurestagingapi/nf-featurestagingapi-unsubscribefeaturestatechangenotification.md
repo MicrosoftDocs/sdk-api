@@ -62,11 +62,3 @@ This function is intended for infrastructure use only. Do not use this function.
 Infrastructure use only.
 
 
-## -returns
-
-
-
-Infrastructure use only.
-
-
-

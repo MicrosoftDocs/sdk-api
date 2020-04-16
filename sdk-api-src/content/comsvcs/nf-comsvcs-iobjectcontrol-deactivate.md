@@ -62,15 +62,6 @@ This method is called by the COM+ run-time environment whenever an object is dea
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

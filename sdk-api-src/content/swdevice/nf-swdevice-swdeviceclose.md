@@ -64,15 +64,6 @@ Closes the software device handle.  When the handle is closed, PnP will initiate
 The <b>HSWDEVICE</b> handle to close.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

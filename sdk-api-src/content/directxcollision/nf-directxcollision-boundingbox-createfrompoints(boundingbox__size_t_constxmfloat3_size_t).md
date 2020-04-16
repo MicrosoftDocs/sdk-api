@@ -76,15 +76,6 @@ A buffer containing points to create the BoundingBox from.
 The stride of the buffer.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Installs a mouse event sink.
 
 ## -parameters
 

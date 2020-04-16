@@ -71,15 +71,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectype
 The IPsec SA context information.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumerator that contains the class identifiers of all registered text services.
 
 ## -parameters
 

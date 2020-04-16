@@ -62,15 +62,6 @@ The <b>DrvDeleteDeviceBitmap</b> function deletes a device bitmap created by <a 
 Handle to the bitmap to be deleted. This handle identifies the bitmap created by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

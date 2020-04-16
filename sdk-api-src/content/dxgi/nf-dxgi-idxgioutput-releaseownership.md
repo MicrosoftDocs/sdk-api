@@ -60,15 +60,6 @@ Releases ownership of the output.
 
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
 
 

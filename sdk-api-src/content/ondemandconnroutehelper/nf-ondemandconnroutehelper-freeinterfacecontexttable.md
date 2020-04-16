@@ -63,15 +63,6 @@ This function frees the interface context table retrieved using the <a href="htt
 The interface context table retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a> function.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

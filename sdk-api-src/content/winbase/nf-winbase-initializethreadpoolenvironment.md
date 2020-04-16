@@ -62,15 +62,6 @@ Initializes a callback environment.
 A <b>TP_CALLBACK_ENVIRON</b> structure that defines a callback environment.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

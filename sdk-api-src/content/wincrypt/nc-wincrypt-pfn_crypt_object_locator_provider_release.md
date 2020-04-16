@@ -119,15 +119,6 @@ The provider DLL is unloading.
 Pointer to an optional buffer defined by this provider and returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_initialize">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</a> function. The buffer is not modified by the caller. Your provider can use the data to help it determine what actions to perform or to maintain additional information. 
 
 
-## -returns
-
-
-
-Do not return a value from this function. 
-
-
-
-
 ## -remarks
 
 

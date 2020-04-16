@@ -45,18 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfLanguageProfiles::Reset
 
-
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
@@ -81,7 +74,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfLanguageProfiles interface](nn-msctf-ienumtflanguageprofiles.md), [TF_LANGUAGEPROFILE](ns-msctf-tf_languageprofile.md)

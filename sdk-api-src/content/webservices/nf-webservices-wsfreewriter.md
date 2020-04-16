@@ -65,15 +65,6 @@ A pointer to the <b>XML Writer</b> object to release.  The pointer must referenc
                 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

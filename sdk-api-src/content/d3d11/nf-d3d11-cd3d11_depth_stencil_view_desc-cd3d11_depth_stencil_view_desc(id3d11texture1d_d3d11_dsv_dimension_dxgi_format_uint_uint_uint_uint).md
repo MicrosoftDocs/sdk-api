@@ -81,10 +81,6 @@ Number of elements in the array.
 A value that describes whether the texture is read only.
 Pass 0 to specify that it is not read only; otherwise, pass one of the members of the **D3D11_DSV_FLAG** enumerated type.
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a>

@@ -92,15 +92,6 @@ Type: <b>BOOL</b>
 True if the stream should be flipped vertically; otherwise, false.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

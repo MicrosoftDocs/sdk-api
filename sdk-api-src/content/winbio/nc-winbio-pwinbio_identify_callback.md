@@ -98,15 +98,6 @@ A <b>WINBIO_BIOMETRIC_SUBTYPE</b> value that receives the sub-factor associated 
 Additional information about the failure, if any, to perform the operation. For more information,  see Remarks.
 
 
-## -returns
-
-
-
-Do not return a value from your implementation of this function.
-
-
-
-
 ## -remarks
 
 

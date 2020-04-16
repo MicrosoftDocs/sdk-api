@@ -71,15 +71,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-tag">
 When this method returns, contains the second label for subsequent drawing operations. This parameter is passed uninitialized. If <b>NULL</b> is specified, no value is retrieved for this parameter.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

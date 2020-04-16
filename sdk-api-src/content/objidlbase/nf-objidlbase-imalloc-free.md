@@ -62,15 +62,6 @@ Frees a previously allocated block of memory.
 A pointer to the memory block to be freed. If this parameter is <b>NULL</b>, this method has no effect.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

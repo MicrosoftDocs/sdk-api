@@ -73,10 +73,6 @@ First depth level to use.
 
 Number of depth levels to use in the render-target view, starting from *firstWSlice*. A value of -1 indicates all of the slices along the w axis, starting from *firstWSlice*.
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151668(v=vs.85)">CD3D11_RENDER_TARGET_VIEW_DESC</a>

@@ -67,15 +67,6 @@ Pointer to a location that receives the start of the data that is mapped for thi
 Pointer to a location that receives the end of the data that is mapped for this view, plus one.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

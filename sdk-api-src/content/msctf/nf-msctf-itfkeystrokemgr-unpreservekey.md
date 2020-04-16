@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Unregisters a preserved key.
 
 ## -parameters
 

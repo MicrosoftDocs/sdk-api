@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the number of candidate string objects in the candidate list.
 
 ## -parameters
 

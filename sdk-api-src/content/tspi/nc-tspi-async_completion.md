@@ -70,15 +70,6 @@ The identifier passed in the original request that the service provider executed
 The outcome of the operation. This can be zero to indicate success or a negative number to indicate an error. The possible specific error values that can result from a function are the same for asynchronous or synchronous execution.
 
 
-## -returns
-
-
-
-This function has no return value.
-
-
-
-
 ## -remarks
 
 

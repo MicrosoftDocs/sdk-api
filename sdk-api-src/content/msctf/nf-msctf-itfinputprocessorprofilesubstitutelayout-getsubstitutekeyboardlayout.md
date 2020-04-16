@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Retrieves the input locale identifier (keyboard layout).
 
 ## -parameters
 

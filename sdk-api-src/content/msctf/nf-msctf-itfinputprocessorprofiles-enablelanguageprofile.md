@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Enables or disables a language profile for the current user.
 
 ## -parameters
 

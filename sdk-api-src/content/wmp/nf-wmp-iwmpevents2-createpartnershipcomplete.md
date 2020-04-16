@@ -70,15 +70,6 @@ Address of the <b>IWMPSyncDevice</b> interface that represents the device object
 The success or error <b>HRESULT</b> for the create partnership operation.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

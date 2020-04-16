@@ -74,15 +74,6 @@ Pointer to the address of the variable that is to contain the type UUID derived 
 Pointer to a return value for the function.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

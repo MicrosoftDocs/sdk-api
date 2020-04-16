@@ -74,15 +74,6 @@ Type: <b>INT</b>
 Integer that specifies the amount to move the rectangle vertically. 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

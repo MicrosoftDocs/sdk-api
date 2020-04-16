@@ -62,15 +62,6 @@ The <b>SwitchedToPlayerApplication</b> event occurs when a remoted Windows Media
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

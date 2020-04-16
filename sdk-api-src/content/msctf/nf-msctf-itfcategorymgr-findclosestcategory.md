@@ -45,40 +45,29 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::FindClosestCategory
 
-
 ## -description
 
-
-
+Finds the category closest to the specified GUID from a list of categories.
 
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 Specifies the address of the GUID for which to find the closest category.
 
-
 ### -param pcatid [out]
 
-Pointer to the <b>GUID</b> that receives the CATID for the closest category.
-
+Pointer to the **GUID** that receives the CATID for the closest category.
 
 ### -param ppcatidList [in]
 
 Pointer to a pointer that specifies an array of CATIDs to search for the closest category.
 
-
 ### -param ulCount [in]
 
 Specifies the number of elements in the array of the <i>ppcatidList</i> parameter.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -143,39 +132,11 @@ There is insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The closest category to a <b>GUID</b> is chosen in one of two modes. In the first mode, the method receives a non-empty category list. It chooses the first matching <b>CATID</b> from that list or GUID_NULL if the list does not contain a category that contains the <b>GUID</b> . In the second mode, it receives an empty category list. It chooses the first category that contains the <b>GUID</b> or GUID_NULL if no category contains the <b>GUID</b> .
-
-
-
+The closest category to a **GUID** is chosen in one of two modes. In the first mode, the method receives a non-empty category list. It chooses the first matching **CATID** from that list or GUID_NULL if the list does not contain a category that contains the **GUID** . In the second mode, it receives an empty category list. It chooses the first category that contains the **GUID** or GUID_NULL if no category contains the **GUID** .
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumcategoriesinitem">ITfCategoryMgr::EnumCategoriesInItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumitemsincategory">ITfCategoryMgr::EnumItemsInCategory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory</a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::EnumCategoriesInItem](nf-msctf-itfcategorymgr-enumcategoriesinitem.md), [ITfCategoryMgr::EnumItemsInCategory](nf-msctf-itfcategorymgr-enumitemsincategory.md), [ITfCategoryMgr::RegisterCategory](nf-msctf-itfcategorymgr-registercategory.md)

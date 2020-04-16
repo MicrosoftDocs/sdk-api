@@ -65,15 +65,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-
 A pointer to the blend state (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_blend_desc">D3D10_BLEND_DESC</a>).
 
 
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -see-also
 
 

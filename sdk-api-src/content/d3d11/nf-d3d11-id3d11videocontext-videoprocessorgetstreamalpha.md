@@ -79,15 +79,6 @@ Receives the value <b>TRUE</b> if planar alpha is enabled, or <b>FALSE</b> other
 Receives the planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaque).
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

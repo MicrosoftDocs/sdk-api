@@ -60,15 +60,6 @@ Clears the transform nodes and all connections from the transform graph.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

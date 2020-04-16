@@ -75,15 +75,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 The interface pointer to be copied to <i>ppunk</i>. If the value is non-<b>NULL</b>, the function increments the interface's reference count.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

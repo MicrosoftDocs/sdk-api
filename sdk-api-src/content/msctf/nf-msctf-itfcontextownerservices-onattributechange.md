@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called by a context owner to generate notifications that a support attribute value changed.
 
 ## -parameters
 
@@ -95,5 +94,8 @@ The method was successful.
 
 A support attribute is a read-only property maintained by the context owner. The supported attributes are in the Tsattrs.h header file.
 
+## -see-also
+
+[ITfContextOwnerServices interface](nn-msctf-itfcontextownerservices.md)
 
 

@@ -72,15 +72,6 @@ Type: <b>FLOAT*</b>
 The dpi on the y-axis.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

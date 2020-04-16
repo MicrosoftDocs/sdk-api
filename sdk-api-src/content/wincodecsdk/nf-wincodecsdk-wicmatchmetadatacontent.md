@@ -25,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Windowscodecs.dll; Wincodec.lib
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
 - APIRef
@@ -35,7 +35,7 @@ api_type:
 - DllExport
 api_location:
 - Windowscodecs.dll
-- Wincodec.lib
+- Windowscodecs.lib
 api_name:
 - WICMatchMetadataContent
 targetos: Windows

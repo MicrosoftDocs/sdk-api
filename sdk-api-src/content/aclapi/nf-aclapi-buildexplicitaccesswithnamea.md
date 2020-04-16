@@ -224,15 +224,6 @@ Noncontainer objects contained by the primary object inherit the ACE. This flag 
  
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -67,15 +67,6 @@ Wake a single thread waiting on the specified condition variable.
 A pointer to the condition variable.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -118,15 +118,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-
 An array of subresource ranges that specify the dependent elements of the data payload. These elements are completely updated before the primary data element is itself atomically copied. This ensures that the entire operation is logically atomic; that is, the primary data element never refers to an incomplete data payload.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

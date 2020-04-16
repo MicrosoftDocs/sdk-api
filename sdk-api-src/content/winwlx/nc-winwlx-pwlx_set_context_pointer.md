@@ -75,15 +75,6 @@ Specifies the Winlogon handle passed to GINA in the
 Pointer to the new context that Winlogon will use in future calls to GINA.
 
 
-## -returns
-
-
-
-This function has no return values.
-
-
-
-
 ## -remarks
 
 
