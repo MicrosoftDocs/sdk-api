@@ -52,11 +52,11 @@ To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapise
 
 ```cpp
 BOOL DeviceIoControl(
-  (HANDLE) hDevice,                 // handle to device 
+  (HANDLE) hDevice,                 // handle to device
   IOCTL_DISK_GET_DISK_ATTRIBUTES,   // dwIoControlCode
-  NULL,                             // lpInBuffer 
-  0,                                // nInBufferSize 
-  (LPVOID) lpOutBuffer,             // output buffer:GET_DISK_ATTRIBUTES
+  NULL,                             // lpInBuffer
+  0,                                // nInBufferSize
+  (LPVOID) lpOutBuffer,             // output buffer: GET_DISK_ATTRIBUTES
   (DWORD) nOutBufferSize,           // size of output buffer
   (LPDWORD) lpBytesReturned,        // number of bytes returned
   (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
