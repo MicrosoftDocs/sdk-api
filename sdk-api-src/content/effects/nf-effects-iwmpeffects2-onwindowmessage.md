@@ -1,7 +1,7 @@
 ---
 UID: NF:effects.IWMPEffects2.OnWindowMessage
 title: IWMPEffects2::OnWindowMessage (effects.h)
-description: The OnWindowMessage method is called by Windows Media Player to pass window messages to a visualization.
+description: The OnWindowMessage method is called by Windows Media Player to pass window messages to a visualization.helpviewer_keywords: ["IWMPEffects2 interface [Windows Media Player]","OnWindowMessage method","IWMPEffects2.OnWindowMessage","IWMPEffects2::OnWindowMessage","IWMPEffectsOnWindowMessage","OnWindowMessage","OnWindowMessage method [Windows Media Player]","OnWindowMessage method [Windows Media Player]","IWMPEffects2 interface","effects/IWMPEffects2::OnWindowMessage","wmp.iwmpeffects2_onwindowmessage"]
 old-location: wmp\iwmpeffects2_onwindowmessage.htm
 tech.root: WMP
 ms.assetid: c4efdac9-b50f-4448-98f2-efe015527a4e

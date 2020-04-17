@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IChannelTuneRequest
 title: IChannelTuneRequest (tuner.h)
-description: The IChannelTuneRequest interface is implemented on tuning request objects that support channel numbers, including analog TV and ATSC.
+description: The IChannelTuneRequest interface is implemented on tuning request objects that support channel numbers, including analog TV and ATSC.helpviewer_keywords: ["IChannelTuneRequest","IChannelTuneRequest interface [Microsoft TV Technologies]","IChannelTuneRequest interface [Microsoft TV Technologies]","described","IChannelTuneRequestInterface","mstv.ichanneltunerequest","tuner/IChannelTuneRequest"]
 old-location: mstv\ichanneltunerequest.htm
 tech.root: mstv
 ms.assetid: cdb65c1a-bd86-4dc8-a72f-c08e36999880

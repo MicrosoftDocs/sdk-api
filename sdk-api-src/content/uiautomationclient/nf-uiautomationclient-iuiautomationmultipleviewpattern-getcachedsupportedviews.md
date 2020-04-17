@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.GetCachedSupportedViews
 title: IUIAutomationMultipleViewPattern::GetCachedSupportedViews (uiautomationclient.h)
-description: Retrieves a collection of control-specific view identifiers from the cache.
+description: Retrieves a collection of control-specific view identifiers from the cache.helpviewer_keywords: ["GetCachedSupportedViews","GetCachedSupportedViews method [Windows Accessibility]","GetCachedSupportedViews method [Windows Accessibility]","IUIAutomationMultipleViewPattern interface","IUIAutomationMultipleViewPattern interface [Windows Accessibility]","GetCachedSupportedViews method","IUIAutomationMultipleViewPattern.GetCachedSupportedViews","IUIAutomationMultipleViewPattern::GetCachedSupportedViews","uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews","uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews","uiautomationclient/IUIAutomationMultipleViewPattern::GetCachedSupportedViews","winauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews"]
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews.htm
 tech.root: WinAuto
 ms.assetid: 7d6874c2-adf9-441a-931e-15b65b7a427c

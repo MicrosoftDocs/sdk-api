@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.ICertPropertyFriendlyName
 title: ICertPropertyFriendlyName (certenroll.h)
-description: Enables you to specify and retrieve a string that contains the display name of a certificate.
+description: Enables you to specify and retrieve a string that contains the display name of a certificate.helpviewer_keywords: ["ICertPropertyFriendlyName","ICertPropertyFriendlyName interface [Security]","ICertPropertyFriendlyName interface [Security]","described","certenroll/ICertPropertyFriendlyName","security.icertpropertyfriendlyname"]
 old-location: security\icertpropertyfriendlyname.htm
 tech.root: seccertenroll
 ms.assetid: d2bfe2f2-423e-4620-8933-bbae4f98c62a

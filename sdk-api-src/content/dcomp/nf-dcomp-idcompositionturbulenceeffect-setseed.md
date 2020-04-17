@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetSeed
 title: IDCompositionTurbulenceEffect::SetSeed (dcomp.h)
-description: Sets the seed for the pseudo random generator.
+description: Sets the seed for the pseudo random generator.helpviewer_keywords: ["IDCompositionTurbulenceEffect interface [DirectComposition]","SetSeed method","IDCompositionTurbulenceEffect.SetSeed","IDCompositionTurbulenceEffect::SetSeed","SetSeed","SetSeed method [DirectComposition]","SetSeed method [DirectComposition]","IDCompositionTurbulenceEffect interface","dcomp/IDCompositionTurbulenceEffect::SetSeed","directcomp.idcompositionturbulenceeffect_setseed"]
 old-location: directcomp\idcompositionturbulenceeffect_setseed.htm
 tech.root: directcomp
 ms.assetid: FF980DF7-9DD2-4B98-AE84-CB4CA3A1226B

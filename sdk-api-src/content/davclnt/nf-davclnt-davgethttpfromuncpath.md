@@ -1,7 +1,7 @@
 ---
 UID: NF:davclnt.DavGetHTTPFromUNCPath
 title: DavGetHTTPFromUNCPath function (davclnt.h)
-description: Converts the specified UNC path to an equivalent HTTP path.
+description: Converts the specified UNC path to an equivalent HTTP path.helpviewer_keywords: ["DavGetHTTPFromUNCPath","DavGetHTTPFromUNCPath function [WebDAV]","davclnt/DavGetHTTPFromUNCPath","webdav.davgethttpfromuncpath"]
 old-location: webdav\davgethttpfromuncpath.htm
 tech.root: WebDAV
 ms.assetid: caa83e54-a029-45aa-9681-26b2be54fea3

@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleRegEnumFormatEtc
 title: OleRegEnumFormatEtc function (ole2.h)
-description: Creates an enumeration object that can be used to enumerate data formats that an OLE object server has registered in the system registry.
+description: Creates an enumeration object that can be used to enumerate data formats that an OLE object server has registered in the system registry.helpviewer_keywords: ["OleRegEnumFormatEtc","OleRegEnumFormatEtc function [COM]","_ole_OleRegEnumFormatEtc","com.oleregenumformatetc","ole2/OleRegEnumFormatEtc"]
 old-location: com\oleregenumformatetc.htm
 tech.root: com
 ms.assetid: 6caebc68-a136-40f2-92d8-7f8003c18e5c

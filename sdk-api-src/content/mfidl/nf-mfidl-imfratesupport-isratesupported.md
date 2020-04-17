@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFRateSupport.IsRateSupported
 title: IMFRateSupport::IsRateSupported (mfidl.h)
-description: Queries whether the object supports a specified playback rate.
+description: Queries whether the object supports a specified playback rate.helpviewer_keywords: ["3ac04683-17d3-4d87-b260-39b04eab9e59","IMFRateSupport interface [Media Foundation]","IsRateSupported method","IMFRateSupport.IsRateSupported","IMFRateSupport::IsRateSupported","IsRateSupported","IsRateSupported method [Media Foundation]","IsRateSupported method [Media Foundation]","IMFRateSupport interface","mf.imfratesupport_isratesupported","mfidl/IMFRateSupport::IsRateSupported"]
 old-location: mf\imfratesupport_isratesupported.htm
 tech.root: medfound
 ms.assetid: 3ac04683-17d3-4d87-b260-39b04eab9e59

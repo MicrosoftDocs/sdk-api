@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Delete_DevNode_Key
 title: CM_Delete_DevNode_Key function (cfgmgr32.h)
-description: The CM_Delete_DevNode_Key function deletes the specified user-accessible registry keys that are associated with a device.
+description: The CM_Delete_DevNode_Key function deletes the specified user-accessible registry keys that are associated with a device.helpviewer_keywords: ["CM_Delete_DevNode_Key","CM_Delete_DevNode_Key function [Device and Driver Installation]","cfgmgr32/CM_Delete_DevNode_Key","cfgmgrfn_20a14360-4506-465d-bb5c-79116c3bc78f.xml","devinst.cm_delete_devnode_key"]
 old-location: devinst\cm_delete_devnode_key.htm
 tech.root: devinst
 ms.assetid: a2b6faf3-bd24-416a-b7ea-1ef1b48f965b

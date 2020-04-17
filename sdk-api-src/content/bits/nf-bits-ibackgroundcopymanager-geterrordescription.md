@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IBackgroundCopyManager.GetErrorDescription
 title: IBackgroundCopyManager::GetErrorDescription (bits.h)
-description: Retrieves a description for the specified error code.
+description: Retrieves a description for the specified error code.helpviewer_keywords: ["GetErrorDescription","GetErrorDescription method [BITS]","GetErrorDescription method [BITS]","IBackgroundCopyManager interface","IBackgroundCopyManager interface [BITS]","GetErrorDescription method","IBackgroundCopyManager.GetErrorDescription","IBackgroundCopyManager::GetErrorDescription","_drz_ibackgroundcopymanager_geterrordescription","bits.ibackgroundcopymanager_geterrordescription","bits/IBackgroundCopyManager::GetErrorDescription"]
 old-location: bits\ibackgroundcopymanager_geterrordescription.htm
 tech.root: Bits
 ms.assetid: e62e2bde-485d-42d4-b824-a682ab9e16ca

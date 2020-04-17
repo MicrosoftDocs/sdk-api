@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._CLUSTER_BATCH_COMMAND
 title: CLUSTER_BATCH_COMMAND (clusapi.h)
-description: Represents the order in which current batch command data is sent to the ClusterRegBatchReadCommand function.
+description: Represents the order in which current batch command data is sent to the ClusterRegBatchReadCommand function.helpviewer_keywords: ["CLUSREG_CREATE_KEY","CLUSREG_DELETE_KEY","CLUSREG_DELETE_VALUE","CLUSREG_SET_VALUE","CLUSREG_VALUE_DELETED","CLUSTER_BATCH_COMMAND","CLUSTER_BATCH_COMMAND structure [Failover Cluster]","clusapi/CLUSTER_BATCH_COMMAND","mscs.cluster_batch_command"]
 old-location: mscs\cluster_batch_command.htm
 tech.root: MsCS
 ms.assetid: 31f8e255-80c8-4381-a8f3-0d48a3831a89

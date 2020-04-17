@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IDvbDefaultAuthorityDescriptor
 title: IDvbDefaultAuthorityDescriptor (dvbsiparser.h)
-description: Implements methods that get data from the default authority descriptor for a content reference identifier (CRID). The default authority descriptor is the first part of the CRID and identifies the body that created the CRID.
+description: Implements methods that get data from the default authority descriptor for a content reference identifier (CRID). The default authority descriptor is the first part of the CRID and identifies the body that created the CRID.helpviewer_keywords: ["IDvbDefaultAuthorityDescriptor","IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies]","IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbDefaultAuthorityDescriptor","mstv.idvbdefaultauthoritydescriptor"]
 old-location: mstv\idvbdefaultauthoritydescriptor.htm
 tech.root: mstv
 ms.assetid: 42d10cb5-dea9-4fdb-a588-7bc647e0b95b

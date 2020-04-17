@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPService.get_Id
 title: IUPnPService::get_Id (upnp.h)
-description: The Id property specifies the service ID for the service.
+description: The Id property specifies the service ID for the service.helpviewer_keywords: ["IUPnPService interface [UPnP APIs]","get_Id method","IUPnPService.get_Id","IUPnPService::get_Id","_upnp_iupnpservice_id","get_Id","get_Id method [UPnP APIs]","get_Id method [UPnP APIs]","IUPnPService interface","upnp.iupnpservice_id","upnp/IUPnPService::get_Id"]
 old-location: upnp\iupnpservice_id.htm
 tech.root: upnp
 ms.assetid: daa2ed07-8ee5-4e1f-84f4-77f58d4958e2

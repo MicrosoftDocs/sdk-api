@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_GET_DEVICE_NUMBER
 title: IOCTL_STORAGE_GET_DEVICE_NUMBER
-description: Retrieves the device type, device number, and, for a partitionable device, the partition number of a device.
+description: Retrieves the device type, device number, and, for a partitionable device, the partition number of a device.helpviewer_keywords: ["IOCTL_STORAGE_GET_DEVICE_NUMBER","IOCTL_STORAGE_GET_DEVICE_NUMBER control","IOCTL_STORAGE_GET_DEVICE_NUMBER control code","base.ioctl_storage_get_device_number","winioctl/IOCTL_STORAGE_GET_DEVICE_NUMBER"]
 old-location: base\ioctl_storage_get_device_number.htm
 tech.root: devio
 ms.assetid: 2cd9610b-aa83-4d0a-a7a9-1d4dab8be331

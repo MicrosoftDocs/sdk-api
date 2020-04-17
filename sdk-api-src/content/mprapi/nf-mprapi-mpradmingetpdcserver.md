@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminGetPDCServer
 title: MprAdminGetPDCServer function (mprapi.h)
-description: The MprAdminGetPDCServer function retrieves the name of the server with the master User Accounts Subsystem (UAS) from either a domain name or a server name. Either the domain name parameter or the server name parameter may be NULL, but not both.
+description: The MprAdminGetPDCServer function retrieves the name of the server with the master User Accounts Subsystem (UAS) from either a domain name or a server name. Either the domain name parameter or the server name parameter may be NULL, but not both.helpviewer_keywords: ["MprAdminGetPDCServer","MprAdminGetPDCServer function [RAS]","_mpr_mpradmingetpdcserver","mprapi/MprAdminGetPDCServer","rras.mpradmingetpdcserver"]
 old-location: rras\mpradmingetpdcserver.htm
 tech.root: RRAS
 ms.assetid: 96bd5e88-5b13-41b2-ab3a-f9995cae36f8

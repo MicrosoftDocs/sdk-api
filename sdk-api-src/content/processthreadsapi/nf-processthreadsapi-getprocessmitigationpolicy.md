@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.GetProcessMitigationPolicy
 title: GetProcessMitigationPolicy function (processthreadsapi.h)
-description: Retrieves mitigation policy settings for the calling process.
+description: Retrieves mitigation policy settings for the calling process.helpviewer_keywords: ["GetProcessMitigationPolicy","GetProcessMitigationPolicy function","ProcessASLRPolicy","ProcessControlFlowGuardPolicy","ProcessDEPPolicy","ProcessDynamicCodePolicy","ProcessExtensionPointDisablePolicy","ProcessFontDisablePolicy","ProcessImageLoadPolicy","ProcessMitigationOptionsMask","ProcessSideChannelIsolationPolicy","ProcessSignaturePolicy","ProcessStrictHandleCheckPolicy","ProcessSystemCallDisablePolicy","base.getprocessmitigationpolicy","processthreadsapi/GetProcessMitigationPolicy"]
 old-location: base\getprocessmitigationpolicy.htm
 tech.root: ProcThread
 ms.assetid: 89f9c883-6976-4af2-9a8b-c76101d8ed02

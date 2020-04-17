@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.IHeaderCtrl2
 title: IHeaderCtrl2 (mmc.h)
-description: The IHeaderCtrl2 interface is introduced in MMC 1.2.
+description: The IHeaderCtrl2 interface is introduced in MMC 1.2.helpviewer_keywords: ["IHeaderCtrl2","IHeaderCtrl2 interface [MMC]","IHeaderCtrl2 interface [MMC]","described","_slate_iheaderctrl2","mmc.iheaderctrl2","mmc/IHeaderCtrl2"]
 old-location: mmc\iheaderctrl2.htm
 tech.root: mmc
 ms.assetid: fecf38be-6f45-45ea-a689-ff37b2b92922

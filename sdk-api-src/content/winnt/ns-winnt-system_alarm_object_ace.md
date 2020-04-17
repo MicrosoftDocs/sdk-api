@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._SYSTEM_ALARM_OBJECT_ACE
 title: SYSTEM_ALARM_OBJECT_ACE (winnt.h)
-description: The SYSTEM_ALARM_OBJECT_ACE structure is reserved for future use.
+description: The SYSTEM_ALARM_OBJECT_ACE structure is reserved for future use.helpviewer_keywords: ["*PSYSTEM_ALARM_OBJECT_ACE","SYSTEM_ALARM_OBJECT_ACE","SYSTEM_ALARM_OBJECT_ACE structure [Security]","_win32_system_alarm_object_ace_str","security.system_alarm_object_ace","winnt/SYSTEM_ALARM_OBJECT_ACE"]
 old-location: security\system_alarm_object_ace.htm
 tech.root: SecAuthZ
 ms.assetid: a55f6039-d1d2-4a7d-a6c9-e8f51b291582

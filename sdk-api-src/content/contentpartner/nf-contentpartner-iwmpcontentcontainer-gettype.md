@@ -1,7 +1,7 @@
 ---
 UID: NF:contentpartner.IWMPContentContainer.GetType
 title: IWMPContentContainer::GetType (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetType method retrieves the type of the content container.
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetType method retrieves the type of the content container.helpviewer_keywords: ["GetType","GetType method [Windows Media Player]","GetType method [Windows Media Player]","IWMPContentContainer interface","IWMPContentContainer interface [Windows Media Player]","GetType method","IWMPContentContainer.GetType","IWMPContentContainer::GetType","IWMPContentContainerGetType","contentpartner/IWMPContentContainer::GetType","wmp.iwmpcontentcontainer_gettype"]
 old-location: wmp\iwmpcontentcontainer_gettype.htm
 tech.root: WMP
 ms.assetid: 34c8ab5a-1f9f-4a71-9bf8-3b762d065da9

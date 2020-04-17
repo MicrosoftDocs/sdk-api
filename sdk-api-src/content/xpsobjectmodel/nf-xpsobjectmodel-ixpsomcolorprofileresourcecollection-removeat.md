@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.RemoveAt
 title: IXpsOMColorProfileResourceCollection::RemoveAt (xpsobjectmodel.h)
-description: Removes and releases an IXpsOMColorProfileResource interface pointer from a specified location in the collection.
+description: Removes and releases an IXpsOMColorProfileResource interface pointer from a specified location in the collection.helpviewer_keywords: ["IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMColorProfileResourceCollection.RemoveAt","IXpsOMColorProfileResourceCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMColorProfileResourceCollection interface","xps.ixpsomcolorprofileresourcecollection_removeat","xpsobjectmodel/IXpsOMColorProfileResourceCollection::RemoveAt"]
 old-location: xps\ixpsomcolorprofileresourcecollection_removeat.htm
 tech.root: printdocs
 ms.assetid: c1c112fc-5b9d-4db8-b7b9-94a75755801e

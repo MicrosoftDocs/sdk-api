@@ -1,7 +1,7 @@
 ---
 UID: NE:rdpappcontainerclient.__MIDL_IRemoteDesktopClientActions_0002
 title: SnapshotEncodingType (rdpappcontainerclient.h)
-description: The type of encoding used for a Remote Desktop Protocol (RDP) app container client snapshot.
+description: The type of encoding used for a Remote Desktop Protocol (RDP) app container client snapshot.helpviewer_keywords: ["SnapshotEncodingDataUri","SnapshotEncodingType","SnapshotEncodingType enumeration [Remote Desktop Services]","rdpappcontainerclient/SnapshotEncodingDataUri","rdpappcontainerclient/SnapshotEncodingType","termserv.snapshotencodingtype"]
 old-location: termserv\snapshotencodingtype.htm
 tech.root: TermServ
 ms.assetid: 529FDC80-3B4D-4B9A-90D6-054B05E68367

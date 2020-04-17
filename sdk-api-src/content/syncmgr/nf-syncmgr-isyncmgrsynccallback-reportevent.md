@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.ReportEvent
 title: ISyncMgrSyncCallback::ReportEvent (syncmgr.h)
-description: Provides an event to add to the Sync Results folder for an item being synchronized.
+description: Provides an event to add to the Sync Results folder for an item being synchronized.helpviewer_keywords: ["ISyncMgrSyncCallback interface [Windows Shell]","ReportEvent method","ISyncMgrSyncCallback.ReportEvent","ISyncMgrSyncCallback::ReportEvent","ReportEvent","ReportEvent method [Windows Shell]","ReportEvent method [Windows Shell]","ISyncMgrSyncCallback interface","_shell_ISyncMgrSyncCallback_ReportEvent","shell.ISyncMgrSyncCallback_ReportEvent","syncmgr/ISyncMgrSyncCallback::ReportEvent"]
 old-location: shell\ISyncMgrSyncCallback_ReportEvent.htm
 tech.root: shell
 ms.assetid: 4c7d6627-1652-4920-9dce-a61673e6e656

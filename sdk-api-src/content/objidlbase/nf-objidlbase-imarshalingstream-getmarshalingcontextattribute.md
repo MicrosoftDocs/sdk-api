@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IMarshalingStream.GetMarshalingContextAttribute
 title: IMarshalingStream::GetMarshalingContextAttribute (objidlbase.h)
-description: Gets information about the marshaling context.
+description: Gets information about the marshaling context.helpviewer_keywords: ["GetMarshalingContextAttribute","GetMarshalingContextAttribute method [COM]","GetMarshalingContextAttribute method [COM]","IMarshalingStream interface","IMarshalingStream interface [COM]","GetMarshalingContextAttribute method","IMarshalingStream.GetMarshalingContextAttribute","IMarshalingStream::GetMarshalingContextAttribute","com.imarshalingstream_getmarshalingcontextattribute","objidl/IMarshalingStream::GetMarshalingContextAttribute"]
 old-location: com\imarshalingstream_getmarshalingcontextattribute.htm
 tech.root: com
 ms.assetid: 60B401C8-1ACA-412D-B754-997C39454821

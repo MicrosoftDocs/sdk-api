@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RemoveRoot
 title: ISearchCrawlScopeManager::RemoveRoot (searchapi.h)
-description: Removes a search root from the search engine.
+description: Removes a search root from the search engine.helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","RemoveRoot method","ISearchCrawlScopeManager.RemoveRoot","ISearchCrawlScopeManager::RemoveRoot","RemoveRoot","RemoveRoot method [search]","RemoveRoot method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_RemoveRoot","search._search_ISearchCrawlScopeManager_RemoveRoot","searchapi/ISearchCrawlScopeManager::RemoveRoot"]
 old-location: search\_search_ISearchCrawlScopeManager_RemoveRoot.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removeroot.htm

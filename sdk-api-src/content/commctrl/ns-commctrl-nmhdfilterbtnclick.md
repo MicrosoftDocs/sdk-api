@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMHDFILTERBTNCLICK
 title: NMHDFILTERBTNCLICK (commctrl.h)
-description: Specifies or receives the attributes of a filter button click.
+description: Specifies or receives the attributes of a filter button click.helpviewer_keywords: ["*LPNMHDFILTERBTNCLICK","LPNMHDFILTERBTNCLICK","LPNMHDFILTERBTNCLICK structure pointer [Windows Controls]","NMHDFILTERBTNCLICK","NMHDFILTERBTNCLICK structure [Windows Controls]","_win32_NMHDFILTERBTNCLICK_Structure","_win32_NMHDFILTERBTNCLICK_Structure_cpp","commctrl/LPNMHDFILTERBTNCLICK","commctrl/NMHDFILTERBTNCLICK","controls.NMHDFILTERBTNCLICK","controls._win32_NMHDFILTERBTNCLICK_Structure"]
 old-location: controls\NMHDFILTERBTNCLICK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmhdfilterbtnclick.htm

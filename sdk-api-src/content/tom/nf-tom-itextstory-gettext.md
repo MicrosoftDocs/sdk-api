@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextStory.GetText
 title: ITextStory::GetText (tom.h)
-description: Gets the text in a story according to the specified conversion flags.
+description: Gets the text in a story according to the specified conversion flags.helpviewer_keywords: ["GetText","GetText method [Windows Controls]","GetText method [Windows Controls]","ITextStory interface","ITextStory interface [Windows Controls]","GetText method","ITextStory.GetText","ITextStory::GetText","controls.itextstory_gettext","tom/ITextStory::GetText","tomAdjustCRLF","tomAllowFinalEOP","tomFoldMathAlpha","tomIncludeNumbering","tomLanguageTag","tomNoHidden","tomNoMathZoneBrackets","tomTextize","tomTranslateTableCell","tomUseCRLF"]
 old-location: controls\itextstory_gettext.htm
 tech.root: Controls
 ms.assetid: 8107910f-eb77-4313-97f5-1bd8126d6dec

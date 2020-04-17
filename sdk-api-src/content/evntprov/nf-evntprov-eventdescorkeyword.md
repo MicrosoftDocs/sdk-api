@@ -1,7 +1,7 @@
 ---
 UID: NF:evntprov.EventDescOrKeyword
 title: EventDescOrKeyword function (evntprov.h)
-description: Adds another keyword to the event descriptor.
+description: Adds another keyword to the event descriptor.helpviewer_keywords: ["EventDescOrKeyword","EventDescOrKeyword function [ETW]","base.eventdescorkeyword_func","etw.eventdescorkeyword_func","evntprov/EventDescOrKeyword"]
 old-location: etw\eventdescorkeyword_func.htm
 tech.root: ETW
 ms.assetid: ad5e06cf-e2fa-4696-9521-61ff012b9204

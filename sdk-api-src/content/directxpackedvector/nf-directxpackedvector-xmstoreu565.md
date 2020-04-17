@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMStoreU565
 title: XMStoreU565 function (directxpackedvector.h)
-description: Stores an XMVECTOR in an XMU565.
+description: Stores an XMVECTOR in an XMU565.helpviewer_keywords: ["DirectX::PackedVector.XMStoreU565","XMStoreU565","XMStoreU565 method [DirectX Math Support APIs]","dxmath.xmstoreu565"]
 old-location: dxmath\xmstoreu565.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreU565(XMU565@,XMVECTOR)

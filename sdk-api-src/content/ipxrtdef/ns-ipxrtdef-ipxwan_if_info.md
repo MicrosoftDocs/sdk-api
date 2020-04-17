@@ -1,7 +1,7 @@
 ---
 UID: NS:ipxrtdef._IPXWAN_IF_INFO
 title: IPXWAN_IF_INFO (ipxrtdef.h)
-description: The IPXWAN_IF_INFO structure stores the administrative state for an IPX WAN interface.
+description: The IPXWAN_IF_INFO structure stores the administrative state for an IPX WAN interface.helpviewer_keywords: ["*PIPXWAN_IF_INFO","IPXWAN_IF_INFO","IPXWAN_IF_INFO structure [RAS]","PIPXWAN_IF_INFO","PIPXWAN_IF_INFO structure pointer [RAS]","_mpr_ipxwan_if_info","ipxrtdef/IPXWAN_IF_INFO","ipxrtdef/PIPXWAN_IF_INFO","rras.ipxwan_if_info"]
 old-location: rras\ipxwan_if_info.htm
 tech.root: RRAS
 ms.assetid: c28ef4c9-ba7d-429a-ba43-82bfc9c7c58b

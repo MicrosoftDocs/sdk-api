@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1_1.D2D1_UNIT_MODE
 title: D2D1_UNIT_MODE (d2d1_1.h)
-description: Specifies how units in Direct2D will be interpreted.
+description: Specifies how units in Direct2D will be interpreted.helpviewer_keywords: ["D2D1_UNIT_MODE","D2D1_UNIT_MODE enumeration [Direct2D]","D2D1_UNIT_MODE_DIPS","D2D1_UNIT_MODE_PIXELS","d2d1_1/D2D1_UNIT_MODE","d2d1_1/D2D1_UNIT_MODE_DIPS","d2d1_1/D2D1_UNIT_MODE_PIXELS","direct2d.__d2d1_unit_mode"]
 old-location: direct2d\__d2d1_unit_mode.htm
 tech.root: Direct2D
 ms.assetid: 1ba11761-f3e9-4996-8494-384db5bddc99

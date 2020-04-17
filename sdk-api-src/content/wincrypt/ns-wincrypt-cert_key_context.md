@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_KEY_CONTEXT
 title: CERT_KEY_CONTEXT (wincrypt.h)
-description: Contains data associated with a CERT_KEY_CONTEXT_PROP_ID property.
+description: Contains data associated with a CERT_KEY_CONTEXT_PROP_ID property.helpviewer_keywords: ["*PCERT_KEY_CONTEXT","AT_KEYEXCHANGE","AT_SIGNATURE","CERT_KEY_CONTEXT","CERT_KEY_CONTEXT structure [Security]","CERT_NCRYPT_KEY_SPEC","PCERT_KEY_CONTEXT","PCERT_KEY_CONTEXT structure pointer [Security]","_crypto2_cert_key_context","security.cert_key_context","wincrypt/CERT_KEY_CONTEXT","wincrypt/PCERT_KEY_CONTEXT"]
 old-location: security\cert_key_context.htm
 tech.root: SecCrypto
 ms.assetid: 796adb9c-ec38-41d0-8f8b-ea1053e9f9f0

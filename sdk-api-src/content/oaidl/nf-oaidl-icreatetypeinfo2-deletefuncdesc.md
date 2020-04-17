@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteFuncDesc
 title: ICreateTypeInfo2::DeleteFuncDesc (oaidl.h)
-description: Deletes a function description specified by the index number.
+description: Deletes a function description specified by the index number.helpviewer_keywords: ["DeleteFuncDesc","DeleteFuncDesc method [Automation]","DeleteFuncDesc method [Automation]","ICreateTypeInfo2 interface","ICreateTypeInfo2 interface [Automation]","DeleteFuncDesc method","ICreateTypeInfo2.DeleteFuncDesc","ICreateTypeInfo2::DeleteFuncDesc","_oa96_ICreateTypeInfo2_DeleteFuncDesc","automat.icreatetypeinfo2_deletefuncdesc","oaidl/ICreateTypeInfo2::DeleteFuncDesc"]
 old-location: automat\icreatetypeinfo2_deletefuncdesc.htm
 tech.root: automat
 ms.assetid: 5e157287-e4f3-49c4-9c18-a7b3ba1a965d

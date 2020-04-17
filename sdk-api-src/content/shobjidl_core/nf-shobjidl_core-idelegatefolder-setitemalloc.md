@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IDelegateFolder.SetItemAlloc
 title: IDelegateFolder::SetItemAlloc (shobjidl_core.h)
-description: Provides the delegate folder an IMalloc interface used to allocate and free item IDs.
+description: Provides the delegate folder an IMalloc interface used to allocate and free item IDs.helpviewer_keywords: ["IDelegateFolder interface [Windows Shell]","SetItemAlloc method","IDelegateFolder.SetItemAlloc","IDelegateFolder::SetItemAlloc","SetItemAlloc","SetItemAlloc method [Windows Shell]","SetItemAlloc method [Windows Shell]","IDelegateFolder interface","shell.IDelegateFolder_SetItemAlloc","shell_IDelegateFolder_SetItemAlloc","shobjidl_core/IDelegateFolder::SetItemAlloc"]
 old-location: shell\IDelegateFolder_SetItemAlloc.htm
 tech.root: shell
 ms.assetid: ce1ee472-e245-4112-858a-1d9739f5a36d

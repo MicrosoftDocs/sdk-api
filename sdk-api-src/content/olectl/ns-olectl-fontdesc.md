@@ -1,7 +1,7 @@
 ---
 UID: NS:olectl.tagFONTDESC
 title: FONTDESC (olectl.h)
-description: Contains parameters used to create a font object through the OleCreateFontIndirect function.
+description: Contains parameters used to create a font object through the OleCreateFontIndirect function.helpviewer_keywords: ["*LPFONTDESC","FONTDESC","FONTDESC structure [COM]","LPFONTDESC","LPFONTDESC structure pointer [COM]","_ctrl_FONTDESC","com.fontdesc","olectl/FONTDESC","olectl/LPFONTDESC"]
 old-location: com\fontdesc.htm
 tech.root: com
 ms.assetid: c677b0ba-fd52-40e8-b7c3-b80a01c9fb26

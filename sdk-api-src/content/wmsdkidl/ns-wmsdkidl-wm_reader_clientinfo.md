@@ -1,7 +1,7 @@
 ---
 UID: NS:wmsdkidl._WMReaderClientInfo
 title: WM_READER_CLIENTINFO (wmsdkidl.h)
-description: The WM_READER_CLIENTINFO structure describes the client reader (player) accessing the media stream.
+description: The WM_READER_CLIENTINFO structure describes the client reader (player) accessing the media stream.helpviewer_keywords: ["WM_READER_CLIENTINFO","WM_READER_CLIENTINFO structure [windows Media Format]","wmformat.wm_reader_clientinfo","wmsdkidl/WM_READER_CLIENTINFO"]
 old-location: wmformat\wm_reader_clientinfo.htm
 tech.root: wmformat
 ms.assetid: 9c8d1534-976d-4a9e-9c89-368e1a11bd26

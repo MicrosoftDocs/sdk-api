@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawGammaControl.GetGammaRamp
 title: IDirectDrawGammaControl::GetGammaRamp (ddraw.h)
-description: Retrieves the red, green, and blue gamma ramps for the primary surface.
+description: Retrieves the red, green, and blue gamma ramps for the primary surface.helpviewer_keywords: ["GetGammaRamp","GetGammaRamp method [DirectDraw]","GetGammaRamp method [DirectDraw]","IDirectDrawGammaControl interface","IDirectDrawGammaControl interface [DirectDraw]","GetGammaRamp method","IDirectDrawGammaControl.GetGammaRamp","IDirectDrawGammaControl::GetGammaRamp","ddraw/IDirectDrawGammaControl::GetGammaRamp","directdraw.idirectdrawgammacontrol_getgammaramp"]
 old-location: directdraw\idirectdrawgammacontrol_getgammaramp.htm
 tech.root: directdraw
 ms.assetid: ba83605c-c388-42c0-9297-1666c80a278e

@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects.D2D1_HISTOGRAM_PROP
 title: D2D1_HISTOGRAM_PROP (d2d1effects.h)
-description: Identifiers for properties of the Histogram effect.
+description: Identifiers for properties of the Histogram effect.helpviewer_keywords: ["D2D1_HISTOGRAM_PROP","D2D1_HISTOGRAM_PROP enumeration [Direct2D]","D2D1_HISTOGRAM_PROP_CHANNEL_SELECT","D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT","D2D1_HISTOGRAM_PROP_NUM_BINS","d2d1effects/D2D1_HISTOGRAM_PROP","d2d1effects/D2D1_HISTOGRAM_PROP_CHANNEL_SELECT","d2d1effects/D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT","d2d1effects/D2D1_HISTOGRAM_PROP_NUM_BINS","direct2d.d2d1_histogram_prop"]
 old-location: direct2d\d2d1_histogram_prop.htm
 tech.root: Direct2D
 ms.assetid: 7CBF945C-3BBA-4243-A76B-5CDAC045E79C

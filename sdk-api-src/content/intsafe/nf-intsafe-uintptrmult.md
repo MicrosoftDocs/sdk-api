@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.UIntPtrMult
 title: UIntPtrMult function (intsafe.h)
-description: Multiplies one value of type UINT_PTR by another.
+description: Multiplies one value of type UINT_PTR by another.helpviewer_keywords: ["UIntPtrMult","UIntPtrMult function [Windows Shell]","_shell_UIntPtrMult","intsafe/UIntPtrMult","shell.UIntPtrMult"]
 old-location: shell\UIntPtrMult.htm
 tech.root: shell
 ms.assetid: c34708d1-50e8-47dd-ac79-cfef24ce6060

@@ -1,7 +1,7 @@
 ---
 UID: NE:imapi2fs.PlatformId
 title: PlatformId (imapi2fs.h)
-description: Defines values for the operating system architecture that the boot image supports.
+description: Defines values for the operating system architecture that the boot image supports.helpviewer_keywords: ["PlatformEFI","PlatformId","PlatformId enumeration [IMAPI]","PlatformMac","PlatformPowerPC","PlatformX86","imapi.platformid","imapi2fs/PlatformEFI","imapi2fs/PlatformId","imapi2fs/PlatformMac","imapi2fs/PlatformPowerPC","imapi2fs/PlatformX86"]
 old-location: imapi\platformid.htm
 tech.root: imapi
 ms.assetid: 296f9da1-99be-4d20-8961-f99cf220404a

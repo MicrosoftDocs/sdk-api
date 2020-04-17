@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI2FromCy
 title: VarUI2FromCy function (oleauto.h)
-description: Converts a currency value to an unsigned short value.
+description: Converts a currency value to an unsigned short value.helpviewer_keywords: ["VarUI2FromCy","VarUI2FromCy function [Automation]","_oa96_VarUI2FromCy","automat.varui2fromcy","oleauto/VarUI2FromCy"]
 old-location: automat\varui2fromcy.htm
 tech.root: automat
 ms.assetid: 0147c95b-5fd9-4ab1-9d68-62d852c8b00c

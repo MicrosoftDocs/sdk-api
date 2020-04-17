@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteRenderingParams1.GetGrayscaleEnhancedContrast
 title: IDWriteRenderingParams1::GetGrayscaleEnhancedContrast (dwrite_1.h)
-description: Gets the amount of contrast enhancement to use for grayscale antialiasing.
+description: Gets the amount of contrast enhancement to use for grayscale antialiasing.helpviewer_keywords: ["GetGrayscaleEnhancedContrast","GetGrayscaleEnhancedContrast method [Direct Write]","GetGrayscaleEnhancedContrast method [Direct Write]","IDWriteRenderingParams1 interface","IDWriteRenderingParams1 interface [Direct Write]","GetGrayscaleEnhancedContrast method","IDWriteRenderingParams1.GetGrayscaleEnhancedContrast","IDWriteRenderingParams1::GetGrayscaleEnhancedContrast","directwrite.idwriterenderingparams1_getgrayscaleenhancedcontrast","dwrite_1/IDWriteRenderingParams1::GetGrayscaleEnhancedContrast"]
 old-location: directwrite\idwriterenderingparams1_getgrayscaleenhancedcontrast.htm
 tech.root: DirectWrite
 ms.assetid: 986917A6-AAC1-4676-A7A0-7A8FC4796E72

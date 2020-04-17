@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PublicKey.get_EncodedParameters
 title: IX509PublicKey::get_EncodedParameters (certenroll.h)
-description: Retrieves a byte array that contains the parameters associated with the public key algorithm.
+description: Retrieves a byte array that contains the parameters associated with the public key algorithm.helpviewer_keywords: ["EncodedParameters property [Security]","EncodedParameters property [Security]","IX509PublicKey interface","IX509PublicKey interface [Security]","EncodedParameters property","IX509PublicKey.EncodedParameters","IX509PublicKey.get_EncodedParameters","IX509PublicKey::EncodedParameters","IX509PublicKey::get_EncodedParameters","certenroll/IX509PublicKey::EncodedParameters","certenroll/IX509PublicKey::get_EncodedParameters","get_EncodedParameters","security.ix509publickey_encodedparameters_property"]
 old-location: security\ix509publickey_encodedparameters_property.htm
 tech.root: seccertenroll
 ms.assetid: f7c7bf0a-0b66-4676-9448-f74937823f90

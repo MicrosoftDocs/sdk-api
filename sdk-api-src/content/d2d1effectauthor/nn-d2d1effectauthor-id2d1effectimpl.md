@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1EffectImpl
 title: ID2D1EffectImpl (d2d1effectauthor.h)
-description: Allows a custom effect's interface and behavior to be specified by the effect author.
+description: Allows a custom effect's interface and behavior to be specified by the effect author.helpviewer_keywords: ["ID2D1EffectImpl","ID2D1EffectImpl interface [Direct2D]","ID2D1EffectImpl interface [Direct2D]","described","d2d1effectauthor/ID2D1EffectImpl","direct2d.id2d1effectimpl"]
 old-location: direct2d\id2d1effectimpl.htm
 tech.root: Direct2D
 ms.assetid: 3D87A908-FC57-4AA9-A508-C402D8413363

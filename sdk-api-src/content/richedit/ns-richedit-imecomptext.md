@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._imecomptext
 title: IMECOMPTEXT (richedit.h)
-description: Contains information about the Input Method Editor (IME) composition text in a Microsoft Rich Edit control.
+description: Contains information about the Input Method Editor (IME) composition text in a Microsoft Rich Edit control.helpviewer_keywords: ["ICT_RESULTREADSTR","IMECOMPTEXT","IMECOMPTEXT structure [Windows Controls]","_win32_IMECOMPTEXT_str","_win32_IMECOMPTEXT_str_cpp","controls.IMECOMPTEXT","controls._win32_IMECOMPTEXT_str","richedit/IMECOMPTEXT"]
 old-location: controls\IMECOMPTEXT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\imecomptext.htm

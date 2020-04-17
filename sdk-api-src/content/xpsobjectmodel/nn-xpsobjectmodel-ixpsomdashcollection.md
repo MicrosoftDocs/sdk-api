@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDashCollection
 title: IXpsOMDashCollection (xpsobjectmodel.h)
-description: A collection of XPS_DASH structures.
+description: A collection of XPS_DASH structures.helpviewer_keywords: ["IXpsOMDashCollection","IXpsOMDashCollection interface [XPS Documents and Packaging]","IXpsOMDashCollection interface [XPS Documents and Packaging]","described","xps.ixpsomdashcollection","xpsobjectmodel/IXpsOMDashCollection"]
 old-location: xps\ixpsomdashcollection.htm
 tech.root: printdocs
 ms.assetid: 02a152a1-e117-42fb-8428-a2b28e6540a9

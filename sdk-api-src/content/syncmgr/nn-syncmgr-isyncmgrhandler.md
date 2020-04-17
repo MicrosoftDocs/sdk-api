@@ -1,7 +1,7 @@
 ---
 UID: NN:syncmgr.ISyncMgrHandler
 title: ISyncMgrHandler (syncmgr.h)
-description: Exposes methods that make up the primary interface implemented by a sync handler.
+description: Exposes methods that make up the primary interface implemented by a sync handler.helpviewer_keywords: ["ISyncMgrHandler","ISyncMgrHandler interface [Windows Shell]","ISyncMgrHandler interface [Windows Shell]","described","_shell_ISyncMgrHandler","shell.ISyncMgrHandler","syncmgr/ISyncMgrHandler"]
 old-location: shell\ISyncMgrHandler.htm
 tech.root: shell
 ms.assetid: 39579030-1cf5-4e82-a5e7-cb3415903d02

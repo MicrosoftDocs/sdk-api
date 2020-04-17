@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CachedAnnotationTypes
 title: IUIAutomationElement4::get_CachedAnnotationTypes (uiautomationclient.h)
-description: Returns the cached list of annotation types associated with this element, such as comment, header, footer, and so on.
+description: Returns the cached list of annotation types associated with this element, such as comment, header, footer, and so on.helpviewer_keywords: ["CachedAnnotationTypes property [Windows Accessibility]","CachedAnnotationTypes property [Windows Accessibility]","IUIAutomationElement4 interface","IUIAutomationElement4 interface [Windows Accessibility]","CachedAnnotationTypes property","IUIAutomationElement4.CachedAnnotationTypes","IUIAutomationElement4.get_CachedAnnotationTypes","IUIAutomationElement4::CachedAnnotationTypes","IUIAutomationElement4::get_CachedAnnotationTypes","get_CachedAnnotationTypes","uiautomationclient/IUIAutomationElement4::CachedAnnotationTypes","uiautomationclient/IUIAutomationElement4::get_CachedAnnotationTypes","winauto.uiauto_IUIAutomationElement4_CachedAnnotationTypes"]
 old-location: winauto\uiauto_IUIAutomationElement4_CachedAnnotationTypes.htm
 tech.root: WinAuto
 ms.assetid: 1F3E9CD4-8E4A-47B0-BDEA-A869735B2538

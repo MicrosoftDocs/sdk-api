@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_OPLOCK_BREAK_NOTIFY
 title: FSCTL_OPLOCK_BREAK_NOTIFY
-description: Enables the calling application to wait for completion of an opportunistic lock break.
+description: Enables the calling application to wait for completion of an opportunistic lock break.helpviewer_keywords: ["FSCTL_OPLOCK_BREAK_NOTIFY","FSCTL_OPLOCK_BREAK_NOTIFY control","FSCTL_OPLOCK_BREAK_NOTIFY control code [Files]","_win32_fsctl_oplock_break_notify","base.fsctl_oplock_break_notify","fs.fsctl_oplock_break_notify","winioctl/FSCTL_OPLOCK_BREAK_NOTIFY"]
 old-location: fs\fsctl_oplock_break_notify.htm
 tech.root: FileIO
 ms.assetid: 5d064b92-4d30-4213-a9f0-713fd0e7c321

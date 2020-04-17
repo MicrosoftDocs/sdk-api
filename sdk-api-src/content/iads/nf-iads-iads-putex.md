@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADs.PutEx
 title: IADs::PutEx (iads.h)
-description: Modifies the values of an attribute in the ADSI attribute cache.
+description: Modifies the values of an attribute in the ADSI attribute cache.helpviewer_keywords: ["IADs interface [ADSI]","PutEx method","IADs.PutEx","IADs::PutEx","PutEx","PutEx method [ADSI]","PutEx method [ADSI]","IADs interface","_ds_iads_putex","adsi.iads__putex","adsi.iads_putex","iads/IADs::PutEx"]
 old-location: adsi\iads_putex.htm
 tech.root: adsi
 ms.assetid: fb9d9b2c-9efc-4462-ac4b-9a2fbf0b5ec7

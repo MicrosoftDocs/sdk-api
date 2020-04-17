@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.GetMenuRestrictions
 title: IDefaultFolderMenuInitialize::GetMenuRestrictions (shobjidl_core.h)
-description: .
+description: .helpviewer_keywords: ["GetMenuRestrictions","GetMenuRestrictions method [Windows Shell]","GetMenuRestrictions method [Windows Shell]","IDefaultFolderMenuInitialize interface","IDefaultFolderMenuInitialize interface [Windows Shell]","GetMenuRestrictions method","IDefaultFolderMenuInitialize.GetMenuRestrictions","IDefaultFolderMenuInitialize::GetMenuRestrictions","shell.IDefaultFolderMenuInitialize_GetMenuRestrictions","shobjidl_core/IDefaultFolderMenuInitialize::GetMenuRestrictions"]
 old-location: shell\IDefaultFolderMenuInitialize_GetMenuRestrictions.htm
 tech.root: shell
 ms.assetid: 373240B8-E99E-4ff9-B47A-3B31B4F0B81E

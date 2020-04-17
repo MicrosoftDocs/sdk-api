@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPPlaylist.appendItem
 title: IWMPPlaylist::appendItem (wmp.h)
-description: The appendItem method adds a media item to the end of the playlist.
+description: The appendItem method adds a media item to the end of the playlist.helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","appendItem method","IWMPPlaylist.appendItem","IWMPPlaylist::appendItem","IWMPPlaylistappendItem","appendItem","appendItem method [Windows Media Player]","appendItem method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_appenditem","wmp/IWMPPlaylist::appendItem"]
 old-location: wmp\iwmpplaylist_appenditem.htm
 tech.root: WMP
 ms.assetid: e6db41d8-a4d5-4cab-9612-0562f3e92c25

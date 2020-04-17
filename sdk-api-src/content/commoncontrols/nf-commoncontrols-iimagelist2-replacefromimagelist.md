@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList2.ReplaceFromImageList
 title: IImageList2::ReplaceFromImageList (commoncontrols.h)
-description: Replaces an image in one image list with an image from another image list.
+description: Replaces an image in one image list with an image from another image list.helpviewer_keywords: ["IImageList2 interface [Windows Controls]","ReplaceFromImageList method","IImageList2.ReplaceFromImageList","IImageList2::ReplaceFromImageList","ReplaceFromImageList","ReplaceFromImageList method [Windows Controls]","ReplaceFromImageList method [Windows Controls]","IImageList2 interface","_shell_IImageList2_ReplaceFromImageList","_shell_IImageList2_ReplaceFromImageList_cpp","commoncontrols/IImageList2::ReplaceFromImageList","controls.IImageList2_ReplaceFromImageList","controls._shell_IImageList2_ReplaceFromImageList"]
 old-location: controls\IImageList2_ReplaceFromImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\replacefromimagelist.htm

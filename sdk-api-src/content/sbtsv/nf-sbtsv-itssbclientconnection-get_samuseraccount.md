@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_SamUserAccount
 title: ITsSbClientConnection::get_SamUserAccount (sbtsv.h)
-description: Retrieves a value that indicates the domain name and user name of the user who initiated the connection.
+description: Retrieves a value that indicates the domain name and user name of the user who initiated the connection.helpviewer_keywords: ["ITsSbClientConnection interface [Remote Desktop Services]","SamUserAccount property","ITsSbClientConnection.SamUserAccount","ITsSbClientConnection.get_SamUserAccount","ITsSbClientConnection::SamUserAccount","ITsSbClientConnection::get_SamUserAccount","SamUserAccount property [Remote Desktop Services]","SamUserAccount property [Remote Desktop Services]","ITsSbClientConnection interface","get_SamUserAccount","sbtsv/ITsSbClientConnection::SamUserAccount","sbtsv/ITsSbClientConnection::get_SamUserAccount","termserv.itssbclientconnection_samuseraccount"]
 old-location: termserv\itssbclientconnection_samuseraccount.htm
 tech.root: TermServ
 ms.assetid: eb3d8e6b-60c6-4d24-824c-94b642f44956

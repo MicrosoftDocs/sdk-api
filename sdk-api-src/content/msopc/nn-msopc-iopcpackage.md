@@ -1,7 +1,7 @@
 ---
 UID: NN:msopc.IOpcPackage
 title: IOpcPackage (msopc.h)
-description: Represents a package and provides methods to access the package's parts and relationships.
+description: Represents a package and provides methods to access the package's parts and relationships.helpviewer_keywords: ["IOpcPackage","IOpcPackage interface [Open Packaging Conventions]","IOpcPackage interface [Open Packaging Conventions]","described","msopc/IOpcPackage","opc.iopcpackage"]
 old-location: opc\iopcpackage.htm
 tech.root: OPC
 ms.assetid: e7052dd2-c910-41d8-a58a-8f3e68e09dd0

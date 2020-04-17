@@ -1,7 +1,7 @@
 ---
 UID: NE:searchapi.tagPRIORITIZE_FLAGS
 title: tagPRIORITIZE_FLAGS (searchapi.h)
-description: Used by PrioritizeMatchingURLs to specify how to process items the indexer has previously failed to index.
+description: Used by PrioritizeMatchingURLs to specify how to process items the indexer has previously failed to index.helpviewer_keywords: ["PRIORITIZE_FLAGS","PRIORITIZE_FLAGS enumeration [search]","PRIORITIZE_FLAG_IGNOREFAILURECOUNT","PRIORITIZE_FLAG_RETRYFAILEDITEMS","_search_PRIORITIZE_FLAGS","search._search_PRIORITIZE_FLAGS","searchapi/PRIORITIZE_FLAGS","searchapi/PRIORITIZE_FLAG_IGNOREFAILURECOUNT","searchapi/PRIORITIZE_FLAG_RETRYFAILEDITEMS","tagPRIORITIZE_FLAGS"]
 old-location: search\_search_PRIORITIZE_FLAGS.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\prioritize_flags.htm

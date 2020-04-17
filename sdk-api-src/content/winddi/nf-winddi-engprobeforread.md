@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngProbeForRead
 title: EngProbeForRead function (winddi.h)
-description: The EngProbeForRead function probes a structure for read accessibility.
+description: The EngProbeForRead function probes a structure for read accessibility.helpviewer_keywords: ["EngProbeForRead","EngProbeForRead function [Display Devices]","display.engprobeforread","gdifncs_35c5929d-d559-42ea-9925-b00bc7af551e.xml","winddi/EngProbeForRead"]
 old-location: display\engprobeforread.htm
 tech.root: display
 ms.assetid: 7c64c9a8-45e6-4afa-a358-457c04a333d7

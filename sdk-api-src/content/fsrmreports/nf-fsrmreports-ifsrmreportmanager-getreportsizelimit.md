@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.GetReportSizeLimit
 title: IFsrmReportManager::GetReportSizeLimit (fsrmreports.h)
-description: Retrieves the current value of the specified report size limit.
+description: Retrieves the current value of the specified report size limit.helpviewer_keywords: ["FsrmReportManager class [File Server Resource Manager]","GetReportSizeLimit method","GetReportSizeLimit","GetReportSizeLimit method [File Server Resource Manager]","GetReportSizeLimit method [File Server Resource Manager]","FsrmReportManager class","GetReportSizeLimit method [File Server Resource Manager]","IFsrmReportManager interface","IFsrmReportManager interface [File Server Resource Manager]","GetReportSizeLimit method","IFsrmReportManager.GetReportSizeLimit","IFsrmReportManager::GetReportSizeLimit","fs.ifsrmreportmanager_getreportsizelimit","fsrm.ifsrmreportmanager_getreportsizelimit","fsrmreports/IFsrmReportManager::GetReportSizeLimit"]
 old-location: fsrm\ifsrmreportmanager_getreportsizelimit.htm
 tech.root: fsrm
 ms.assetid: 1fe2546c-d70c-466a-8640-77cc2403a91d

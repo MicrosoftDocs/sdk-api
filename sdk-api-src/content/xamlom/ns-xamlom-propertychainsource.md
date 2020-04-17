@@ -1,7 +1,7 @@
 ---
 UID: NS:xamlom.PropertyChainSource
 title: PropertyChainSource (xamlom.h)
-description: Represents the source object (a Style) of a target type.
+description: Represents the source object (a Style) of a target type.helpviewer_keywords: ["PPropertyChainSource","PPropertyChainSource structure pointer","PropertyChainSource","PropertyChainSource structure","xaml_diagnostics.propertychainsource","xamlom/PPropertyChainSource","xamlom/PropertyChainSource"]
 old-location: xaml_diagnostics\propertychainsource.htm
 tech.root: xaml_diagnostics
 ms.assetid: B9A506D5-5F7B-429C-AA62-52B4C5BF78E0

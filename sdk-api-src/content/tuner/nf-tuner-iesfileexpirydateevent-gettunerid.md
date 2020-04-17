@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.GetTunerId
 title: IESFileExpiryDateEvent::GetTunerId (tuner.h)
-description: Gets a globally unique identifier (GUID) from a FileExpiryDate event that identifies the media transform device (MTD) that originated the event.
+description: Gets a globally unique identifier (GUID) from a FileExpiryDate event that identifies the media transform device (MTD) that originated the event.helpviewer_keywords: ["GetTunerId","GetTunerId method [Microsoft TV Technologies]","GetTunerId method [Microsoft TV Technologies]","IESFileExpiryDateEvent interface","IESFileExpiryDateEvent interface [Microsoft TV Technologies]","GetTunerId method","IESFileExpiryDateEvent.GetTunerId","IESFileExpiryDateEvent::GetTunerId","mstv.iesfileexpirydateevent_gettunerid","tuner/IESFileExpiryDateEvent::GetTunerId"]
 old-location: mstv\iesfileexpirydateevent_gettunerid.htm
 tech.root: mstv
 ms.assetid: 1271df60-7830-4e10-9af8-caf59aff56f8

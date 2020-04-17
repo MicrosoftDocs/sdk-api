@@ -1,7 +1,7 @@
 ---
 UID: NE:cfapi.CF_OPERATION_ACK_DATA_FLAGS
 title: CF_OPERATION_ACK_DATA_FLAGS (cfapi.h)
-description: Flags to verify and acknowledge data for a placeholder file or folder.
+description: Flags to verify and acknowledge data for a placeholder file or folder.helpviewer_keywords: ["CF_OPERATION_ACK_DATA_FLAGS","CF_OPERATION_ACK_DATA_FLAGS enumeration","CF_OPERATION_ACK_DATA_FLAG_NONE","cfapi/CF_OPERATION_ACK_DATA_FLAGS","cfapi/CF_OPERATION_ACK_DATA_FLAG_NONE","cloudApi.cf_operation_ack_data_flags"]
 old-location: cloudapi\cf_operation_ack_data_flags.htm
 tech.root: cfApi
 ms.assetid: 9465B686-7C8A-44AD-BC65-41F22FFEC741

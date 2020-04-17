@@ -1,7 +1,7 @@
 ---
 UID: NN:control.IQueueCommand
 title: IQueueCommand (control.h)
-description: The IQueueCommand interface queues a command for processing at a designated time.
+description: The IQueueCommand interface queues a command for processing at a designated time.helpviewer_keywords: ["IQueueCommand","IQueueCommand interface [DirectShow]","IQueueCommand interface [DirectShow]","described","IQueueCommandInterface","control/IQueueCommand","dshow.iqueuecommand"]
 old-location: dshow\iqueuecommand.htm
 tech.root: DirectShow
 ms.assetid: 08efcbec-ce17-44e8-a3c1-4b5b95dcaaa4

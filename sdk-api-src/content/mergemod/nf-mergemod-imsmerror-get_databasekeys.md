@@ -1,7 +1,7 @@
 ---
 UID: NF:mergemod.IMsmError.get_DatabaseKeys
 title: IMsmError::get_DatabaseKeys (mergemod.h)
-description: The get_DatabaseKeys method retrieves the DatabaseKeys property of the Error object. This method returns a pointer to a string collection containing the primary keys of the row in the database causing the error, one key per entry in the collection.
+description: The get_DatabaseKeys method retrieves the DatabaseKeys property of the Error object. This method returns a pointer to a string collection containing the primary keys of the row in the database causing the error, one key per entry in the collection.helpviewer_keywords: ["IMsmError interface","get_DatabaseKeys method","IMsmError.get_DatabaseKeys","IMsmError::get_DatabaseKeys","_msi_get_databasekeys_function","get_DatabaseKeys","get_DatabaseKeys method","get_DatabaseKeys method","IMsmError interface","mergemod/IMsmError::get_DatabaseKeys","setup.imsmerror_get_databasekeys"]
 old-location: setup\imsmerror_get_databasekeys.htm
 tech.root: Msi
 ms.assetid: 7c256f03-208c-4adf-9b57-7648064f0dce

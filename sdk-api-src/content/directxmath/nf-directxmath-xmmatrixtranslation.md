@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixTranslation
 title: XMMatrixTranslation function (directxmath.h)
-description: Builds a translation matrix from the specified offsets.
+description: Builds a translation matrix from the specified offsets.helpviewer_keywords: ["Use DirectX..XMMatrixTranslation","XMMatrixTranslation","XMMatrixTranslation method [DirectX Math Support APIs]","dxmath.xmmatrixtranslation"]
 old-location: dxmath\xmmatrixtranslation.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixTranslation(float,float,float)

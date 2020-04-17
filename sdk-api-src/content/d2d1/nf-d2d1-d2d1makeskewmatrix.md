@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.D2D1MakeSkewMatrix
 title: D2D1MakeSkewMatrix function (d2d1.h)
-description: Creates a skew transformation that has the specified x-axis angle, y-axis angle, and center point.
+description: Creates a skew transformation that has the specified x-axis angle, y-axis angle, and center point.helpviewer_keywords: ["D2D1MakeSkewMatrix","D2D1MakeSkewMatrix function [Direct2D]","d2d1/D2D1MakeSkewMatrix","direct2d.d2d1makeskewmatrix"]
 old-location: direct2d\d2d1makeskewmatrix.htm
 tech.root: Direct2D
 ms.assetid: 9f29488c-37f0-4d53-9e3b-3b27e841c8b4

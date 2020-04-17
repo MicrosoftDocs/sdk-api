@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertSaveStore
 title: CertSaveStore function (wincrypt.h)
-description: Saves the certificate store to a file or to a memory BLOB.
+description: Saves the certificate store to a file or to a memory BLOB.helpviewer_keywords: ["CERT_STORE_SAVE_AS_PKCS7","CERT_STORE_SAVE_AS_STORE","CERT_STORE_SAVE_TO_FILE","CERT_STORE_SAVE_TO_FILENAME","CERT_STORE_SAVE_TO_FILENAME_A","CERT_STORE_SAVE_TO_FILENAME_W","CERT_STORE_SAVE_TO_MEMORY","CertSaveStore","CertSaveStore function [Security]","PKCS_7_ASN_ENCODING","X509_ASN_ENCODING","_crypto2_certsavestore","security.certsavestore","wincrypt/CertSaveStore"]
 old-location: security\certsavestore.htm
 tech.root: SecCrypto
 ms.assetid: 5cc818d7-b079-4962-aabc-fc512d4e92ac

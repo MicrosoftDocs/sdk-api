@@ -1,7 +1,7 @@
 ---
 UID: NE:dhcpsapi._DHCP_FILTER_LIST_TYPE
 title: DHCP_FILTER_LIST_TYPE (dhcpsapi.h)
-description: Specifies the types of filter lists available on the DHCP server.
+description: Specifies the types of filter lists available on the DHCP server.helpviewer_keywords: ["*LPDHCP_FILTER_LIST_TYPE","Allow","DHCP_FILTER_LIST_TYPE","DHCP_FILTER_LIST_TYPE enumeration [DHCP]","Deny","dhcp.dhcp_filter_list_type","dhcpsapi/Allow","dhcpsapi/DHCP_FILTER_LIST_TYPE","dhcpsapi/Deny"]
 old-location: dhcp\dhcp_filter_list_type.htm
 tech.root: DHCP
 ms.assetid: 369b705c-2322-4be7-8550-41a42318204b

@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmReferenceHandles
 title: RtmReferenceHandles function (rtmv2.h)
-description: The RtmReferenceHandles function increases the reference count for objects pointed to by one or more handles that the routing manager used to access those objects.
+description: The RtmReferenceHandles function increases the reference count for objects pointed to by one or more handles that the routing manager used to access those objects.helpviewer_keywords: ["RtmReferenceHandles","RtmReferenceHandles function [RAS]","_rtmv2ref_rtmreferencehandles","rras.rtmreferencehandles","rtmv2/RtmReferenceHandles"]
 old-location: rras\rtmreferencehandles.htm
 tech.root: RRAS
 ms.assetid: 99031574-a941-451f-ad2e-b99044c9c716

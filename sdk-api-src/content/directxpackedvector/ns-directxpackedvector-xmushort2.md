@@ -1,7 +1,7 @@
 ---
 UID: NS:directxpackedvector.XMUSHORT2
 title: XMUSHORT2 (directxpackedvector.h)
-description: Describes a 2D vector consisting of 16-bit unsigned integer components.
+description: Describes a 2D vector consisting of 16-bit unsigned integer components.helpviewer_keywords: ["XMUSHORT2","XMUSHORT2 structure [DirectX Math Support APIs]","directxpackedvector/XMUSHORT2","dxmath.xmushort2"]
 old-location: dxmath\xmushort2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUSHORT2

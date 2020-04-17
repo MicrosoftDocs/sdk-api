@@ -1,7 +1,7 @@
 ---
 UID: NE:fwptypes.FWP_NE_FAMILY_
 title: FWP_AF (fwptypes.h)
-description: The FWP_AF enumerated type.
+description: The FWP_AF enumerated type.helpviewer_keywords: ["FWP_AF","FWP_AF enumeration [Filtering]","FWP_AF_ETHER","FWP_AF_INET","FWP_AF_INET6","FWP_AF_NONE","fwp.fwp_af","fwptypes/FWP_AF","fwptypes/FWP_AF_ETHER","fwptypes/FWP_AF_INET","fwptypes/FWP_AF_INET6","fwptypes/FWP_AF_NONE"]
 old-location: fwp\fwp_af.htm
 tech.root: fwp
 ms.assetid: 358305a6-e0a6-4d01-92be-fd88b3bd32a0

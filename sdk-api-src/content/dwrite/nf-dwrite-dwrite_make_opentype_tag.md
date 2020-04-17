@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.DWRITE_MAKE_OPENTYPE_TAG
 title: DWRITE_MAKE_OPENTYPE_TAG macro (dwrite.h)
-description: Creates an OpenType tag as a 32-bit integer, such that the first character in the tag is the lowest byte (least significant on little endian architectures), which can be used to compare with tags in the font file.
+description: Creates an OpenType tag as a 32-bit integer, such that the first character in the tag is the lowest byte (least significant on little endian architectures), which can be used to compare with tags in the font file.helpviewer_keywords: ["DWRITE_MAKE_OPENTYPE_TAG","DWRITE_MAKE_OPENTYPE_TAG macro [Direct Write]","directwrite.dwrite_make_opentype_tag","dwrite/DWRITE_MAKE_OPENTYPE_TAG"]
 old-location: directwrite\dwrite_make_opentype_tag.htm
 tech.root: DirectWrite
 ms.assetid: fe93a24a-5f3d-4e73-87ac-b33357c838e3

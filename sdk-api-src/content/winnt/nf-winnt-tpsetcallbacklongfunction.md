@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.TpSetCallbackLongFunction
 title: TpSetCallbackLongFunction function (winnt.h)
-description: Indicates that callbacks associated with this callback environment may not return quickly.
+description: Indicates that callbacks associated with this callback environment may not return quickly.helpviewer_keywords: ["TpSetCallbackLongFunction","TpSetCallbackLongFunction function","base.tpsetcallbacklongfunction","winnt/TpSetCallbackLongFunction"]
 old-location: base\tpsetcallbacklongfunction.htm
 tech.root: ProcThread
 ms.assetid: 27E7F647-1005-4499-9787-F2CE6E8B6AFF

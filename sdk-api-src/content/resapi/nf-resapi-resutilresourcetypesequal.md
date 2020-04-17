@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilResourceTypesEqual
 title: ResUtilResourceTypesEqual function (resapi.h)
-description: Tests whether a resource type matches the resource type name of a specified resource. The PRESUTIL_RESOURCE_TYPES_EQUAL type defines a pointer to this function.
+description: Tests whether a resource type matches the resource type name of a specified resource. The PRESUTIL_RESOURCE_TYPES_EQUAL type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_RESOURCE_TYPES_EQUAL","PRESUTIL_RESOURCE_TYPES_EQUAL function [Failover Cluster]","ResUtilResourceTypesEqual","ResUtilResourceTypesEqual function [Failover Cluster]","_wolf_resutilresourcetypesequal","mscs.resutilresourcetypesequal","resapi/PRESUTIL_RESOURCE_TYPES_EQUAL","resapi/ResUtilResourceTypesEqual"]
 old-location: mscs\resutilresourcetypesequal.htm
 tech.root: MsCS
 ms.assetid: 716d2174-5fa7-4868-9f33-ab6f815e6335

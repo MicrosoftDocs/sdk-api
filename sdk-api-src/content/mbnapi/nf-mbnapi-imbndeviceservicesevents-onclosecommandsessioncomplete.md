@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnCloseCommandSessionComplete
 title: IMbnDeviceServicesEvents::OnCloseCommandSessionComplete (mbnapi.h)
-description: Notification method indicating that a device service CloseCommandSession request has completed.
+description: Notification method indicating that a device service CloseCommandSession request has completed.helpviewer_keywords: ["IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","OnCloseCommandSessionComplete method","IMbnDeviceServicesEvents.OnCloseCommandSessionComplete","IMbnDeviceServicesEvents::OnCloseCommandSessionComplete","OnCloseCommandSessionComplete","OnCloseCommandSessionComplete method [Microsoft Broadband Networks]","OnCloseCommandSessionComplete method [Microsoft Broadband Networks]","IMbnDeviceServicesEvents interface","mbn.imbndeviceservicesevents_onclosecommandsessioncomplete","mbnapi/IMbnDeviceServicesEvents::OnCloseCommandSessionComplete"]
 old-location: mbn\imbndeviceservicesevents_onclosecommandsessioncomplete.htm
 tech.root: mbn
 ms.assetid: DD313EF9-E45A-418E-91D5-0BD16C42972A

@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._OCSP_CERT_ID
 title: OCSP_CERT_ID (wincrypt.h)
-description: Contains information to identify a certificate in an online certificate status protocol (OCSP) request or response.
+description: Contains information to identify a certificate in an online certificate status protocol (OCSP) request or response.helpviewer_keywords: ["*POCSP_CERT_ID","OCSP_CERT_ID","OCSP_CERT_ID structure [Security]","POCSP_CERT_ID","POCSP_CERT_ID structure pointer [Security]","security.ocsp_cert_id","wincrypt/OCSP_CERT_ID","wincrypt/POCSP_CERT_ID"]
 old-location: security\ocsp_cert_id.htm
 tech.root: SecCrypto
 ms.assetid: 58717990-a7f7-4b41-aceb-cbce55411396

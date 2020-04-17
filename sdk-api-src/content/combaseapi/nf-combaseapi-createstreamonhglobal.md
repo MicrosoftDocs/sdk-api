@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CreateStreamOnHGlobal
 title: CreateStreamOnHGlobal function (combaseapi.h)
-description: Creates a stream object that uses an HGLOBAL memory handle to store the stream contents.
+description: Creates a stream object that uses an HGLOBAL memory handle to store the stream contents.helpviewer_keywords: ["CreateStreamOnHGlobal","CreateStreamOnHGlobal function [Structured Storage]","_stg_createstreamonhglobal","combaseapi/CreateStreamOnHGlobal","stg.createstreamonhglobal"]
 old-location: stg\createstreamonhglobal.htm
 tech.root: Stg
 ms.assetid: 413c107b-a943-4c02-9c00-aea708e876d7

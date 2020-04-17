@@ -1,7 +1,7 @@
 ---
 UID: NN:webapplication.IWebApplicationAuthoringMode
 title: IWebApplicationAuthoringMode (webapplication.h)
-description: Provides the full local path to the authoring binary to be loaded into the WWAHost process.
+description: Provides the full local path to the authoring binary to be loaded into the WWAHost process.helpviewer_keywords: ["IWebApplicationAuthoringMode","IWebApplicationAuthoringMode interface [Debugging Windows Store apps]","IWebApplicationAuthoringMode interface [Debugging Windows Store apps]","described","debug.iwebapplicationauthoringmode","webapplication/IWebApplicationAuthoringMode"]
 old-location: debug\iwebapplicationauthoringmode.htm
 tech.root: debug_wwahost
 ms.assetid: c33793c9-499e-4a57-b52d-345d3b360789

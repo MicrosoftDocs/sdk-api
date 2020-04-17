@@ -1,7 +1,7 @@
 ---
 UID: NS:lmaccess._USER_INFO_1009
 title: USER_INFO_1009 (lmaccess.h)
-description: The USER_INFO_1009 structure contains the path for a user's logon script file. This information level is valid only when you call the NetUserSetInfo function.
+description: The USER_INFO_1009 structure contains the path for a user's logon script file. This information level is valid only when you call the NetUserSetInfo function.helpviewer_keywords: ["*LPUSER_INFO_1009","*PUSER_INFO_1009","LPUSER_INFO_1009","LPUSER_INFO_1009 structure pointer [Network Management]","PUSER_INFO_1009","PUSER_INFO_1009 structure pointer [Network Management]","USER_INFO_1009","USER_INFO_1009 structure [Network Management]","_win32_user_info_1009_str","lmaccess/LPUSER_INFO_1009","lmaccess/PUSER_INFO_1009","lmaccess/USER_INFO_1009","netmgmt.user_info_1009_str"]
 old-location: netmgmt\user_info_1009_str.htm
 tech.root: NetMgmt
 ms.assetid: baaabbf9-9571-49db-bf38-a3fc2d0a200a

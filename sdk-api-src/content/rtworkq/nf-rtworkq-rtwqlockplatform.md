@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqLockPlatform
 title: RtwqLockPlatform function (rtworkq.h)
-description: Adds a reference to indicate to the platform that there are still pending asynchronous items. Blocks the RtwqShutdown function if there are active asynchronous items.
+description: Adds a reference to indicate to the platform that there are still pending asynchronous items. Blocks the RtwqShutdown function if there are active asynchronous items.helpviewer_keywords: ["RtwqLockPlatform","RtwqLockPlatform function","base.rtwqlockplatform","rtworkq/RtwqLockPlatform"]
 old-location: base\rtwqlockplatform.htm
 tech.root: ProcThread
 ms.assetid: 25baa2ad-95b8-4ac0-a838-e95c6141e13b

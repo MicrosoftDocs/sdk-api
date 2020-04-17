@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_FillPatternStyle
 title: IStylesProvider::get_FillPatternStyle (uiautomationcore.h)
-description: Specifies the fill pattern style of an element in a document.
+description: Specifies the fill pattern style of an element in a document.helpviewer_keywords: ["FillPatternStyle property [Windows Accessibility]","FillPatternStyle property [Windows Accessibility]","IStylesProvider interface","IStylesProvider interface [Windows Accessibility]","FillPatternStyle property","IStylesProvider.FillPatternStyle","IStylesProvider.get_FillPatternStyle","IStylesProvider::FillPatternStyle","IStylesProvider::get_FillPatternStyle","get_FillPatternStyle","uiautomationcore/IStylesProvider::FillPatternStyle","uiautomationcore/IStylesProvider::get_FillPatternStyle","winauto.uiauto_istylesprovider_fillpatternstyle"]
 old-location: winauto\uiauto_istylesprovider_fillpatternstyle.htm
 tech.root: WinAuto
 ms.assetid: 0ED4635C-8327-45B6-B546-D529C3EE6C8B

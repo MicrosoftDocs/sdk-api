@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_CompareEndpoints
 title: TextRange_CompareEndpoints function (uiautomationcoreapi.h)
-description: Returns a value indicating whether two text ranges have identical endpoints.
+description: Returns a value indicating whether two text ranges have identical endpoints.helpviewer_keywords: ["TextRange_CompareEndpoints","TextRange_CompareEndpoints function [Windows Accessibility]","uiauto.uiauto_TextRange_CompareEndpointsConPat","uiauto_TextRange_CompareEndpointsConPat","uiautomationcoreapi/TextRange_CompareEndpoints","winauto.uiauto_TextRange_CompareEndpointsConPat"]
 old-location: winauto\uiauto_TextRange_CompareEndpointsConPat.htm
 tech.root: WinAuto
 ms.assetid: f396ec3e-f491-48be-8282-42c3b8698f3a

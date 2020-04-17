@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.GetIndex
 title: ITextRange::GetIndex (tom.h)
-description: Retrieves the story index of the Unit parameter at the specified range Start character position.
+description: Retrieves the story index of the Unit parameter at the specified range Start character position.helpviewer_keywords: ["GetIndex","GetIndex method [Windows Controls]","GetIndex method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","GetIndex method","ITextRange.GetIndex","ITextRange::GetIndex","_win32_ITextRange_GetIndex","_win32_ITextRange_GetIndex_cpp","controls.ITextRange_GetIndex","controls._win32_ITextRange_GetIndex","tom/ITextRange::GetIndex"]
 old-location: controls\ITextRange_GetIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getindex.htm

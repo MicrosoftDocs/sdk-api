@@ -1,7 +1,7 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.GetCount
 title: ICertEncodeStringArray::GetCount (certenc.h)
-description: Returns the number of string values in the string array.
+description: Returns the number of string values in the string array.helpviewer_keywords: ["CCertEncodeStringArray object [Security]","GetCount method","GetCount","GetCount method [Security]","GetCount method [Security]","CCertEncodeStringArray object","GetCount method [Security]","ICertEncodeStringArray interface","ICertEncodeStringArray interface [Security]","GetCount method","ICertEncodeStringArray.GetCount","ICertEncodeStringArray::GetCount","_certsrv_icertencodestringarray_getcount","certenc/ICertEncodeStringArray::GetCount","security.icertencodestringarray_getcount"]
 old-location: security\icertencodestringarray_getcount.htm
 tech.root: SecCrypto
 ms.assetid: c02a23ea-87c2-4458-8b1a-b010e8103a90

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Bitmap1.Unmap
 title: ID2D1Bitmap1::Unmap (d2d1_1.h)
-description: Unmaps the bitmap from memory.
+description: Unmaps the bitmap from memory.helpviewer_keywords: ["ID2D1Bitmap1 interface [Direct2D]","Unmap method","ID2D1Bitmap1.Unmap","ID2D1Bitmap1::Unmap","Unmap","Unmap method [Direct2D]","Unmap method [Direct2D]","ID2D1Bitmap1 interface","d2d1_1/ID2D1Bitmap1::Unmap","direct2d.id2d1bitmap1_unmap"]
 old-location: direct2d\id2d1bitmap1_unmap.htm
 tech.root: Direct2D
 ms.assetid: 471c6e8a-4412-4efc-a7bf-688b1da7e367

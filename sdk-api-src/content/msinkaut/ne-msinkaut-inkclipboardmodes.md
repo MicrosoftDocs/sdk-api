@@ -1,7 +1,7 @@
 ---
 UID: NE:msinkaut.InkClipboardModes
 title: InkClipboardModes (msinkaut.h)
-description: Specifies the copy options of the Clipboard.
+description: Specifies the copy options of the Clipboard.helpviewer_keywords: ["ICB_Copy","ICB_Cut","ICB_Default","ICB_DelayedCopy","ICB_ExtractOnly","InkClipboardModes","InkClipboardModes enumeration [Tablet PC]","a9718b79-8f98-4bfc-a5db-208899d1f59e","msinkaut/ICB_Copy","msinkaut/ICB_Cut","msinkaut/ICB_Default","msinkaut/ICB_DelayedCopy","msinkaut/ICB_ExtractOnly","msinkaut/InkClipboardModes","tablet.inkclipboardmodes"]
 old-location: tablet\inkclipboardmodes.htm
 tech.root: tablet
 ms.assetid: a9718b79-8f98-4bfc-a5db-208899d1f59e

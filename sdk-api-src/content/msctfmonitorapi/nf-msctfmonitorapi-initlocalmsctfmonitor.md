@@ -1,7 +1,7 @@
 ---
 UID: NF:msctfmonitorapi.InitLocalMsCtfMonitor
 title: InitLocalMsCtfMonitor function (msctfmonitorapi.h)
-description: The InitLocalMsCtfMonitor function initializes TextServicesFramework on the current desktop and prepares the floating language bar, if necessary. This function must be called on the app's desktop.
+description: The InitLocalMsCtfMonitor function initializes TextServicesFramework on the current desktop and prepares the floating language bar, if necessary. This function must be called on the app's desktop.helpviewer_keywords: ["ILMCM_CHECKLAYOUTANDTIPENABLED","ILMCM_LANGUAGEBAROFF","InitLocalMsCtfMonitor","InitLocalMsCtfMonitor function [Text Services Framework]","msctfmonitorapi/InitLocalMsCtfMonitor","tsf.InitLocalMsCtfMonitor"]
 old-location: tsf\InitLocalMsCtfMonitor.htm
 tech.root: TSF
 ms.assetid: d382afea-e30a-4aeb-a357-551fee6229ae

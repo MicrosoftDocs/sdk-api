@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IROTData
 title: IROTData (objidl.h)
-description: Implemented by monikers to enable the running object table (ROT) to compare monikers against each other.
+description: Implemented by monikers to enable the running object table (ROT) to compare monikers against each other.helpviewer_keywords: ["IROTData","IROTData interface [COM]","IROTData interface [COM]","described","_com_irotdata","com.irotdata","objidl/IROTData"]
 old-location: com\irotdata.htm
 tech.root: com
 ms.assetid: 44ae8377-c375-4dc3-9f54-a5674e24763f

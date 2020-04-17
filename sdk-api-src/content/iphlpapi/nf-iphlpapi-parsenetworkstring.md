@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.ParseNetworkString
 title: ParseNetworkString function (iphlpapi.h)
-description: Parses the input network string and checks whether it is a legal representation of the specified IP network string type. If the string matches a type and its specification, the function can optionally return the parsed result.
+description: Parses the input network string and checks whether it is a legal representation of the specified IP network string type. If the string matches a type and its specification, the function can optionally return the parsed result.helpviewer_keywords: ["NET_STRING_ANY_ADDRESS","NET_STRING_ANY_ADDRESS_NO_SCOPE","NET_STRING_ANY_SERVICE","NET_STRING_ANY_SERVICE_NO_SCOPE","NET_STRING_IPV4_ADDRESS","NET_STRING_IPV4_NETWORK","NET_STRING_IPV4_SERVICE","NET_STRING_IPV6_ADDRESS","NET_STRING_IPV6_ADDRESS_NO_SCOPE","NET_STRING_IPV6_NETWORK","NET_STRING_IPV6_SERVICE","NET_STRING_IPV6_SERVICE_NO_SCOPE","NET_STRING_IP_ADDRESS","NET_STRING_IP_ADDRESS_NO_SCOPE","NET_STRING_IP_NETWORK","NET_STRING_IP_SERVICE","NET_STRING_IP_SERVICE_NO_SCOPE","NET_STRING_NAMED_ADDRESS","NET_STRING_NAMED_SERVICE","ParseNetworkString","ParseNetworkString function [IP Helper]","iphlp.parsenetworkstring","iphlpapi/ParseNetworkString"]
 old-location: iphlp\parsenetworkstring.htm
 tech.root: IpHlp
 ms.assetid: 43bc866f-7776-4f59-9ed6-4c6fc4da7f83

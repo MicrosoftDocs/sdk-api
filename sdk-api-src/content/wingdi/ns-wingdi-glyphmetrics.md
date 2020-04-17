@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi._GLYPHMETRICS
 title: GLYPHMETRICS (wingdi.h)
-description: The GLYPHMETRICS structure contains information about the placement and orientation of a glyph in a character cell.
+description: The GLYPHMETRICS structure contains information about the placement and orientation of a glyph in a character cell.helpviewer_keywords: ["*LPGLYPHMETRICS","GLYPHMETRICS","GLYPHMETRICS structure [Windows GDI]","LPGLYPHMETRICS","LPGLYPHMETRICS structure pointer [Windows GDI]","_win32_GLYPHMETRICS_str","gdi.glyphmetrics","wingdi/GLYPHMETRICS","wingdi/LPGLYPHMETRICS"]
 old-location: gdi\glyphmetrics.htm
 tech.root: gdi
 ms.assetid: a6fa3813-56f7-4b54-b21d-8aabc2309a34

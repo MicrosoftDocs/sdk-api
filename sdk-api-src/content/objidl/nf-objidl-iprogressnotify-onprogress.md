@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IProgressNotify.OnProgress
 title: IProgressNotify::OnProgress (objidl.h)
-description: Notifies registered objects and applications of the progress of a downloading operation.
+description: Notifies registered objects and applications of the progress of a downloading operation.helpviewer_keywords: ["IProgressNotify interface [COM]","OnProgress method","IProgressNotify.OnProgress","IProgressNotify::OnProgress","OnProgress","OnProgress method [COM]","OnProgress method [COM]","IProgressNotify interface","_com_iprogressnotify_onprogress","com.iprogressnotify_onprogress","objidl/IProgressNotify::OnProgress"]
 old-location: com\iprogressnotify_onprogress.htm
 tech.root: com
 ms.assetid: 07b3e629-a558-4a0e-8307-ca922f56e00c

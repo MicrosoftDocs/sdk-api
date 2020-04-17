@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi._TRIVERTEX
 title: TRIVERTEX (wingdi.h)
-description: The TRIVERTEX structure contains color information and position information.
+description: The TRIVERTEX structure contains color information and position information.helpviewer_keywords: ["*LPTRIVERTEX","*PTRIVERTEX","PTRIVERTEX","PTRIVERTEX structure pointer [Windows GDI]","TRIVERTEX","TRIVERTEX structure [Windows GDI]","_win32_TRIVERTEX_str","gdi.trivertex","wingdi/PTRIVERTEX","wingdi/TRIVERTEX"]
 old-location: gdi\trivertex.htm
 tech.root: gdi
 ms.assetid: 47b700aa-3410-4610-ba06-dab2b2662f5e

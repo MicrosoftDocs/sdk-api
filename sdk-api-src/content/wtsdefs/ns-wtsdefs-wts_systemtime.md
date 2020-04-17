@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsdefs._WTS_SYSTEMTIME
 title: WTS_SYSTEMTIME (wtsdefs.h)
-description: Specifies date and time information for transitions between standard time and daylight saving time.
+description: Specifies date and time information for transitions between standard time and daylight saving time.helpviewer_keywords: ["*PWTS_SYSTEMTIME","0","1","10","11","12","2","3","4","5","6","7","8","9","PWRDS_SYSTEMTIME","PWRDS_SYSTEMTIME structure [Remote Desktop Services]","PWTS_SYSTEMTIME","PWTS_SYSTEMTIME structure pointer [Remote Desktop Services]","WRDS_SYSTEMTIME","WRDS_SYSTEMTIME structure [Remote Desktop Services]","WTS_SYSTEMTIME","WTS_SYSTEMTIME structure [Remote Desktop Services]","termserv.wts_systemtime","wtsdefs/PWRDS_SYSTEMTIME","wtsdefs/PWTS_SYSTEMTIME","wtsdefs/WRDS_SYSTEMTIME","wtsdefs/WTS_SYSTEMTIME"]
 old-location: termserv\wts_systemtime.htm
 tech.root: TermServ
 ms.assetid: 3d123666-c13c-4061-9c03-a84cc3ab2a51

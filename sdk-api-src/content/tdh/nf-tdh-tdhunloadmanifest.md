@@ -1,7 +1,7 @@
 ---
 UID: NF:tdh.TdhUnloadManifest
 title: TdhUnloadManifest function (tdh.h)
-description: Unloads the manifest that was loaded by the TdhLoadManifest function.
+description: Unloads the manifest that was loaded by the TdhLoadManifest function.helpviewer_keywords: ["TdhUnloadManifest","TdhUnloadManifest function [ETW]","etw.tdhunloadmanifest","tdh/TdhUnloadManifest"]
 old-location: etw\tdhunloadmanifest.htm
 tech.root: ETW
 ms.assetid: ce0dd781-04b2-4e0c-9e79-44864f53f176

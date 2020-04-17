@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetByKey
 title: IXpsOMDictionary::GetByKey (xpsobjectmodel.h)
-description: Gets the IXpsOMShareable interface pointer of the entry that contains the specified key.
+description: Gets the IXpsOMShareable interface pointer of the entry that contains the specified key.helpviewer_keywords: ["GetByKey","GetByKey method [XPS Documents and Packaging]","GetByKey method [XPS Documents and Packaging]","IXpsOMDictionary interface","IXpsOMDictionary interface [XPS Documents and Packaging]","GetByKey method","IXpsOMDictionary.GetByKey","IXpsOMDictionary::GetByKey","xps.ixpsomdictionary_getbykey","xpsobjectmodel/IXpsOMDictionary::GetByKey"]
 old-location: xps\ixpsomdictionary_getbykey.htm
 tech.root: printdocs
 ms.assetid: 6efc2fed-e372-4416-9645-50c1430f0e75

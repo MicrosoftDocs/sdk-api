@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.Pie
 title: Pie function (wingdi.h)
-description: The Pie function draws a pie-shaped wedge bounded by the intersection of an ellipse and two radials. The pie is outlined by using the current pen and filled by using the current brush.
+description: The Pie function draws a pie-shaped wedge bounded by the intersection of an ellipse and two radials. The pie is outlined by using the current pen and filled by using the current brush.helpviewer_keywords: ["Pie","Pie function [Windows GDI]","_win32_Pie","gdi.pie","wingdi/Pie"]
 old-location: gdi\pie.htm
 tech.root: gdi
 ms.assetid: 86daa936-b483-4432-aa32-0b9328ff76f9

@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPrintQueueOperations.Purge
 title: IADsPrintQueueOperations::Purge (iads.h)
-description: The IADsPrintQueueOperations::Purge method clears the print queue of all print jobs without processing them.
+description: The IADsPrintQueueOperations::Purge method clears the print queue of all print jobs without processing them.helpviewer_keywords: ["IADsPrintQueueOperations interface [ADSI]","Purge method","IADsPrintQueueOperations.Purge","IADsPrintQueueOperations::Purge","Purge","Purge method [ADSI]","Purge method [ADSI]","IADsPrintQueueOperations interface","_ds_iadsprintqueueoperations_purge","adsi.iadsprintqueueoperations__purge","adsi.iadsprintqueueoperations_purge","iads/IADsPrintQueueOperations::Purge"]
 old-location: adsi\iadsprintqueueoperations_purge.htm
 tech.root: adsi
 ms.assetid: d3af8fab-83fc-46e2-b924-9a4c5a362970

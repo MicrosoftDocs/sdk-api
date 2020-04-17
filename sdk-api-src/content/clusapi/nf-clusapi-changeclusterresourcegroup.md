@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ChangeClusterResourceGroup
 title: ChangeClusterResourceGroup function (clusapi.h)
-description: Moves a resource from one group to another.
+description: Moves a resource from one group to another.helpviewer_keywords: ["ChangeClusterResourceGroup","ChangeClusterResourceGroup function [Failover Cluster]","PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP","PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP function [Failover Cluster]","_wolf_changeclusterresourcegroup","clusapi/ChangeClusterResourceGroup","clusapi/PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP","mscs.changeclusterresourcegroup"]
 old-location: mscs\changeclusterresourcegroup.htm
 tech.root: MsCS
 ms.assetid: 99720615-ad5d-4d9a-a6ae-8ba1cd2499f2

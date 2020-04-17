@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite.IDWriteTextAnalysisSource
 title: IDWriteTextAnalysisSource (dwrite.h)
-description: Implemented by the text analyzer's client to provide text to the analyzer.
+description: Implemented by the text analyzer's client to provide text to the analyzer.helpviewer_keywords: ["IDWriteTextAnalysisSource","IDWriteTextAnalysisSource interface [Direct Write]","IDWriteTextAnalysisSource interface [Direct Write]","described","directwrite.idwritetextanalysissource","dwrite/IDWriteTextAnalysisSource"]
 old-location: directwrite\idwritetextanalysissource.htm
 tech.root: DirectWrite
 ms.assetid: 7e2a523d-9191-4f99-9e73-a7955c432126

@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IRelationship.IsReal
 title: IRelationship::IsReal (structuredquery.h)
-description: Reports whether a relationship is real.
+description: Reports whether a relationship is real.helpviewer_keywords: ["IRelationship interface [search]","IsReal method","IRelationship.IsReal","IRelationship::IsReal","IsReal","IsReal method [search]","IsReal method [search]","IRelationship interface","_search_IRelationship_IsReal","search._search_IRelationship_IsReal","structuredquery/IRelationship::IsReal"]
 old-location: search\_search_IRelationship_IsReal.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\isreal.htm

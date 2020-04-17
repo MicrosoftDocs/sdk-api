@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetCertRevocationCheck
 title: MI_DestinationOptions_GetCertRevocationCheck function (mi.h)
-description: Gets the server certificate's revocation check value.
+description: Gets the server certificate's revocation check value.helpviewer_keywords: ["MI_DestinationOptions_GetCertRevocationCheck","MI_DestinationOptions_GetCertRevocationCheck function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetCertRevocationCheck","wmi_v2.mi_destinationoptions_getcertrevocationcheck"]
 old-location: wmi_v2\mi_destinationoptions_getcertrevocationcheck.htm
 tech.root: wmi_v2
 ms.assetid: 85af8514-a448-44c4-b1ad-f0a6b5c4a8a4

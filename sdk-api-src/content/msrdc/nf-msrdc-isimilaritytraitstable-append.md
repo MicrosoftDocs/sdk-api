@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.Append
 title: ISimilarityTraitsTable::Append (msrdc.h)
-description: Adds a SimilarityData structure to the similarity traits table.
+description: Adds a SimilarityData structure to the similarity traits table.helpviewer_keywords: ["Append","Append method [Remote Differential Compression]","Append method [Remote Differential Compression]","ISimilarityTraitsTable interface","ISimilarityTraitsTable interface [Remote Differential Compression]","Append method","ISimilarityTraitsTable.Append","ISimilarityTraitsTable::Append","fs.isimilaritytraitstable_append","msrdc/ISimilarityTraitsTable::Append","rdc.isimilaritytraitstable_append"]
 old-location: rdc\isimilaritytraitstable_append.htm
 tech.root: rdc
 ms.assetid: e4c5f75c-282e-4c99-8c5a-53421f4bfc92

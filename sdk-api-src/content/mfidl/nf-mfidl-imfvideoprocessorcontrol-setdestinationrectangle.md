@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetDestinationRectangle
 title: IMFVideoProcessorControl::SetDestinationRectangle (mfidl.h)
-description: Sets the destination rectangle.
+description: Sets the destination rectangle.helpviewer_keywords: ["IMFVideoProcessorControl interface [Media Foundation]","SetDestinationRectangle method","IMFVideoProcessorControl.SetDestinationRectangle","IMFVideoProcessorControl::SetDestinationRectangle","SetDestinationRectangle","SetDestinationRectangle method [Media Foundation]","SetDestinationRectangle method [Media Foundation]","IMFVideoProcessorControl interface","mf.imfvideoprocessorcontrol_setdestinationrectangle","mfidl/IMFVideoProcessorControl::SetDestinationRectangle"]
 old-location: mf\imfvideoprocessorcontrol_setdestinationrectangle.htm
 tech.root: medfound
 ms.assetid: 8AD1BDF4-2508-4A99-85A1-9DBC969D511B

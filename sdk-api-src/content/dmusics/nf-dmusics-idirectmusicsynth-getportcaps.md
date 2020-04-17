@@ -1,7 +1,7 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.GetPortCaps
 title: IDirectMusicSynth::GetPortCaps (dmusics.h)
-description: The GetPortCaps method retrieves the capabilities of a DirectMusic &#0034;port&#0034;, which is a DirectMusic term for a device that sends or receives music data.
+description: The GetPortCaps method retrieves the capabilities of a DirectMusic &#0034;port&#0034;, which is a DirectMusic term for a device that sends or receives music data.helpviewer_keywords: ["GetPortCaps","GetPortCaps method [Audio Devices]","GetPortCaps method [Audio Devices]","IDirectMusicSynth interface","IDirectMusicSynth interface [Audio Devices]","GetPortCaps method","IDirectMusicSynth.GetPortCaps","IDirectMusicSynth::GetPortCaps","audio.idirectmusicsynth_getportcaps","audmp-routines_b2b05c43-5c58-414c-aac4-3a37eceab293.xml","dmusics/IDirectMusicSynth::GetPortCaps"]
 old-location: audio\idirectmusicsynth_getportcaps.htm
 tech.root: audio
 ms.assetid: 9e4ba4e3-5bd7-4a90-a591-8bffaa0265d0

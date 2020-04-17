@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetWnd
 title: ITextStoreAnchor::GetWnd (textstor.h)
-description: The ITextStoreAnchor::GetWnd method returns the handle to a window that corresponds to the current text stream.
+description: The ITextStoreAnchor::GetWnd method returns the handle to a window that corresponds to the current text stream.helpviewer_keywords: ["GetWnd","GetWnd method [Text Services Framework]","GetWnd method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","GetWnd method","ITextStoreAnchor.GetWnd","ITextStoreAnchor::GetWnd","textstor/ITextStoreAnchor::GetWnd","tsf.itextstoreanchor_getwnd"]
 old-location: tsf\itextstoreanchor_getwnd.htm
 tech.root: TSF
 ms.assetid: e77b5218-45e4-4fe1-a41f-1d7b5887ba30

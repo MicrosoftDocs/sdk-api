@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxManifestOptionalPackageInfo
 title: IAppxManifestOptionalPackageInfo (appxpackaging.h)
-description: Provides access to attribute values of the optional package information.
+description: Provides access to attribute values of the optional package information.helpviewer_keywords: ["IAppxManifestOptionalPackageInfo","IAppxManifestOptionalPackageInfo interface [App packaging and management]","IAppxManifestOptionalPackageInfo interface [App packaging and management]","described","appxpackaging/IAppxManifestOptionalPackageInfo","appxpkg.iappxmanifestoptionalpackageinfo"]
 old-location: appxpkg\iappxmanifestoptionalpackageinfo.htm
 tech.root: appxpkg
 ms.assetid: 2B21676C-90AF-418D-8213-065EBB6C165C

@@ -1,7 +1,7 @@
 ---
 UID: NE:p2p.peer_application_registration_type_tag
 title: PEER_APPLICATION_REGISTRATION_TYPE (p2p.h)
-description: The PEER_APPLICATION_REGISTRATION_TYPE enumeration defines the set of peer application registration flags.
+description: The PEER_APPLICATION_REGISTRATION_TYPE enumeration defines the set of peer application registration flags.helpviewer_keywords: ["PEER_APPLICATION_ALL_USERS","PEER_APPLICATION_CURRENT_USER","PEER_APPLICATION_REGISTRATION_TYPE","PEER_APPLICATION_REGISTRATION_TYPE enumeration [Peer Networking]","p2p.peer_application_registration_type","p2p/PEER_APPLICATION_ALL_USERS","p2p/PEER_APPLICATION_CURRENT_USER","p2p/PEER_APPLICATION_REGISTRATION_TYPE"]
 old-location: p2p\peer_application_registration_type.htm
 tech.root: P2PSdk
 ms.assetid: 58f14e46-377e-494b-93ef-fc19e8d87fcc

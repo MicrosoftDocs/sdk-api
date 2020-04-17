@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidInputDevice.IsViewable
 title: IMSVidInputDevice::IsViewable (segment.h)
-description: The IsViewable method determines whether this device can view the specified tune request.
+description: The IsViewable method determines whether this device can view the specified tune request.helpviewer_keywords: ["IMSVidInputDevice interface [Microsoft TV Technologies]","IsViewable method","IMSVidInputDevice.IsViewable","IMSVidInputDevice::IsViewable","IMSVidInputDeviceIsViewable","IsViewable","IsViewable method [Microsoft TV Technologies]","IsViewable method [Microsoft TV Technologies]","IMSVidInputDevice interface","mstv.imsvidinputdevice_isviewable","segment/IMSVidInputDevice::IsViewable"]
 old-location: mstv\imsvidinputdevice_isviewable.htm
 tech.root: mstv
 ms.assetid: 4f62bcc4-8c58-4663-9b1f-a5ed7d000a79

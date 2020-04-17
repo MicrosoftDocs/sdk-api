@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.Commit
 title: IWICBitmapEncoder::Commit (wincodec.h)
-description: Commits all changes for the image and closes the stream.
+description: Commits all changes for the image and closes the stream.helpviewer_keywords: ["Commit","Commit method [Windows Imaging Component]","Commit method [Windows Imaging Component]","IWICBitmapEncoder interface","IWICBitmapEncoder interface [Windows Imaging Component]","Commit method","IWICBitmapEncoder.Commit","IWICBitmapEncoder::Commit","_wic_codec_iwicbitmapencoder_commit","wic._wic_codec_iwicbitmapencoder_commit","wincodec/IWICBitmapEncoder::Commit"]
 old-location: wic\_wic_codec_iwicbitmapencoder_commit.htm
 tech.root: wic
 ms.assetid: 97e39e73-3494-4679-8962-eb48242f9b9f

@@ -1,7 +1,7 @@
 ---
 UID: NE:strmif.tagCameraControlFlags
 title: CameraControlFlags (strmif.h)
-description: The CameraControlFlags enumeration defines whether a camera setting is controlled manually or automatically.
+description: The CameraControlFlags enumeration defines whether a camera setting is controlled manually or automatically.helpviewer_keywords: ["CameraControlFlags","CameraControlFlags enumeration [DirectShow]","CameraControlFlagsEnumeration","CameraControl_Flags_Auto","CameraControl_Flags_Manual","dshow.cameracontrolflags","strmif/CameraControlFlags","strmif/CameraControl_Flags_Auto","strmif/CameraControl_Flags_Manual"]
 old-location: dshow\cameracontrolflags.htm
 tech.root: DirectShow
 ms.assetid: 806322e7-9a70-4dc1-8b10-2479fb3ec935

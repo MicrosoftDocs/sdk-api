@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.put_Shared
 title: IRDPSRAPIApplication::put_Shared (rdpencomapi.h)
-description: The sharing state.
+description: The sharing state.helpviewer_keywords: ["IRDPSRAPIApplication interface [RDP]","Shared property","IRDPSRAPIApplication.Shared","IRDPSRAPIApplication.put_Shared","IRDPSRAPIApplication::Shared","IRDPSRAPIApplication::get_Shared","IRDPSRAPIApplication::put_Shared","RDPSRAPIApplication object [RDP]","Shared property","Shared property [RDP]","Shared property [RDP]","IRDPSRAPIApplication interface","Shared property [RDP]","RDPSRAPIApplication object","put_Shared","rdp.irdpsrapiapplication_shared","rdpencomapi/IRDPSRAPIApplication::Shared","rdpencomapi/IRDPSRAPIApplication::get_Shared","rdpencomapi/IRDPSRAPIApplication::put_Shared"]
 old-location: rdp\irdpsrapiapplication_shared.htm
 tech.root: rdp
 ms.assetid: 13ca4f77-b50b-410e-a2b2-257056e9ad1b

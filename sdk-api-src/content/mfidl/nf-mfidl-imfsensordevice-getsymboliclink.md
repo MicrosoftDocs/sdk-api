@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetSymbolicLink
 title: IMFSensorDevice::GetSymbolicLink (mfidl.h)
-description: Gets the symbolic link name of the sensor device.
+description: Gets the symbolic link name of the sensor device.helpviewer_keywords: ["GetSymbolicLink","GetSymbolicLink method [Media Foundation]","GetSymbolicLink method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetSymbolicLink method","IMFSensorDevice.GetSymbolicLink","IMFSensorDevice::GetSymbolicLink","mf.imfsensordevice_getsymboliclink","mfidl/IMFSensorDevice::GetSymbolicLink"]
 old-location: mf\imfsensordevice_getsymboliclink.htm
 tech.root: medfound
 ms.assetid: F9244454-DF1D-4A3D-8A63-830A8422AFA2

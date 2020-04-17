@@ -1,7 +1,7 @@
 ---
 UID: NF:dsrole.DsRoleGetPrimaryDomainInformation
 title: DsRoleGetPrimaryDomainInformation function (dsrole.h)
-description: Retrieves state data for the computer.
+description: Retrieves state data for the computer.helpviewer_keywords: ["DsRoleGetPrimaryDomainInformation","DsRoleGetPrimaryDomainInformation function [Active Directory]","_glines_dsrolegetprimarydomaininformation","ad.dsrolegetprimarydomaininformation","dsrole/DsRoleGetPrimaryDomainInformation"]
 old-location: ad\dsrolegetprimarydomaininformation.htm
 tech.root: ad
 ms.assetid: d54876e3-a622-4b44-a597-db0f710f7758

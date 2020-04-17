@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprInfoBlockRemove
 title: MprInfoBlockRemove function (mprapi.h)
-description: The MprInfoBlockRemove function creates a new header that is identical to an existing header with a specified block removed.
+description: The MprInfoBlockRemove function creates a new header that is identical to an existing header with a specified block removed.helpviewer_keywords: ["MprInfoBlockRemove","MprInfoBlockRemove function [RAS]","_mpr_mprinfoblockremove","mprapi/MprInfoBlockRemove","rras.mprinfoblockremove"]
 old-location: rras\mprinfoblockremove.htm
 tech.root: RRAS
 ms.assetid: 2d124541-c954-4031-95cd-68a96c8e0a77

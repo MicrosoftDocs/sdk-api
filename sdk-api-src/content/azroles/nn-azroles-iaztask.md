@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzTask
 title: IAzTask (azroles.h)
-description: Describes a set of operations.
+description: Describes a set of operations.helpviewer_keywords: ["IAzTask","IAzTask interface [Security]","IAzTask interface [Security]","described","azroles/IAzTask","security.iaztask"]
 old-location: security\iaztask.htm
 tech.root: SecAuthZ
 ms.assetid: 90eb19c9-1490-43f4-ab4b-393e825aeb2f

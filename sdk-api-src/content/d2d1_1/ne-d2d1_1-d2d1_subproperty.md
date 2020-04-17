@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1_1.D2D1_SUBPROPERTY
 title: D2D1_SUBPROPERTY (d2d1_1.h)
-description: Specifies the indices of the system sub-properties that may be present in any property.
+description: Specifies the indices of the system sub-properties that may be present in any property.helpviewer_keywords: ["D2D1_SUBPROPERTY","D2D1_SUBPROPERTY enumeration [Direct2D]","D2D1_SUBPROPERTY_DEFAULT","D2D1_SUBPROPERTY_DISPLAYNAME","D2D1_SUBPROPERTY_FIELDS","D2D1_SUBPROPERTY_INDEX","D2D1_SUBPROPERTY_ISREADONLY","D2D1_SUBPROPERTY_MAX","D2D1_SUBPROPERTY_MIN","d2d1_1/D2D1_SUBPROPERTY","d2d1_1/D2D1_SUBPROPERTY_DEFAULT","d2d1_1/D2D1_SUBPROPERTY_DISPLAYNAME","d2d1_1/D2D1_SUBPROPERTY_FIELDS","d2d1_1/D2D1_SUBPROPERTY_INDEX","d2d1_1/D2D1_SUBPROPERTY_ISREADONLY","d2d1_1/D2D1_SUBPROPERTY_MAX","d2d1_1/D2D1_SUBPROPERTY_MIN","direct2d.__d2d1_subproperty"]
 old-location: direct2d\__d2d1_subproperty.htm
 tech.root: Direct2D
 ms.assetid: 311a1b6f-ef0e-4453-a5fe-d06ebb0bb222

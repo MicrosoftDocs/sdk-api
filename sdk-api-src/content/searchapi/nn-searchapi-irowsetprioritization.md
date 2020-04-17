@@ -1,7 +1,7 @@
 ---
 UID: NN:searchapi.IRowsetPrioritization
 title: IRowsetPrioritization (searchapi.h)
-description: Sets or retrieves the current indexer prioritization level for the scope specified by this query.
+description: Sets or retrieves the current indexer prioritization level for the scope specified by this query.helpviewer_keywords: ["IRowsetPrioritization","IRowsetPrioritization interface [search]","IRowsetPrioritization interface [search]","described","_search_IRowsetPrioritization","search._search_IRowsetPrioritization","searchapi/IRowsetPrioritization"]
 old-location: search\_search_IRowsetPrioritization.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\irowsetprioritization.htm

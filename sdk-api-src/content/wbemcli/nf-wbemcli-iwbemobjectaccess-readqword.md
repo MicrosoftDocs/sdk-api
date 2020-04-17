@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.ReadQWORD
 title: IWbemObjectAccess::ReadQWORD (wbemcli.h)
-description: The ReadQWORD method reads 64 bits of property data identified by a property handle.
+description: The ReadQWORD method reads 64 bits of property data identified by a property handle.helpviewer_keywords: ["IWbemObjectAccess interface [Windows Management Instrumentation]","ReadQWORD method","IWbemObjectAccess.ReadQWORD","IWbemObjectAccess::ReadQWORD","ReadQWORD","ReadQWORD method [Windows Management Instrumentation]","ReadQWORD method [Windows Management Instrumentation]","IWbemObjectAccess interface","_hmm_iwbemobjectaccess_readqword","wbemcli/IWbemObjectAccess::ReadQWORD","wmi.iwbemobjectaccess_readqword"]
 old-location: wmi\iwbemobjectaccess_readqword.htm
 tech.root: WmiSdk
 ms.assetid: cb76eb26-e407-411a-9ccb-a03eaa8bf22e

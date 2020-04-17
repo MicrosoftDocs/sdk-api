@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.ContainedBy
 title: BoundingSphere::ContainedBy
-description: Tests whether the BoundingSphere is contained by the specified frustum.
+description: Tests whether the BoundingSphere is contained by the specified frustum.helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","ContainedBy method","BoundingSphere.ContainedBy","BoundingSphere::ContainedBy","ContainedBy","ContainedBy method [DirectX Math Support APIs]","ContainedBy method [DirectX Math Support APIs]","BoundingSphere interface","dxmath.boundingsphere_containedby"]
 old-location: dxmath\boundingsphere_containedby.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.ContainedBy(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)

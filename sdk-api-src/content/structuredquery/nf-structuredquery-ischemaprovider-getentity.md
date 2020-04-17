@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.GetEntity
 title: ISchemaProvider::GetEntity (structuredquery.h)
-description: Retrieves an entity by name from the loaded schema.
+description: Retrieves an entity by name from the loaded schema.helpviewer_keywords: ["GetEntity","GetEntity method [search]","GetEntity method [search]","ISchemaProvider interface","ISchemaProvider interface [search]","GetEntity method","ISchemaProvider.GetEntity","ISchemaProvider::GetEntity","_search_ISchemaProvider_GetEntity","search._search_ISchemaProvider_GetEntity","structuredquery/ISchemaProvider::GetEntity"]
 old-location: search\_search_ISchemaProvider_GetEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\getentity.htm

@@ -1,7 +1,7 @@
 ---
 UID: NS:windns.__unnamed_struct_15
 title: DNS_AAAA_DATA (windns.h)
-description: The DNS_AAAA_DATA structure represents a DNS IPv6 (AAAA) record as specified in RFC 3596.
+description: The DNS_AAAA_DATA structure represents a DNS IPv6 (AAAA) record as specified in RFC 3596.helpviewer_keywords: ["*PDNS_AAAA_DATA","DNS_AAAA_DATA","DNS_AAAA_DATA structure [DNS]","PDNS_AAAA_DATA","PDNS_AAAA_DATA structure pointer [DNS]","_dns_dns_aaaa_data","dns.dns_aaaa_data","windns/DNS_AAAA_DATA","windns/PDNS_AAAA_DATA"]
 old-location: dns\dns_aaaa_data.htm
 tech.root: DNS
 ms.assetid: 0bc48e86-368c-431c-b67a-b7689dca8d3c

@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsWriteValue
 title: WsWriteValue function (webservices.h)
-description: This operation derives the best representation for a primitive value from the underlying encoding and passes the derived value to a Writer object.
+description: This operation derives the best representation for a primitive value from the underlying encoding and passes the derived value to a Writer object.helpviewer_keywords: ["WsWriteValue","WsWriteValue function [Web Services for Windows]","webservices/WsWriteValue","wsw.wswritevalue"]
 old-location: wsw\wswritevalue.htm
 tech.root: wsw
 ms.assetid: c7b9d014-89b5-4959-b49e-ee2cdeb41f7c

@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetName
 title: IAppxBlockMapFile::GetName (appxpackaging.h)
-description: Retrieves the name of the associated zip file item.
+description: Retrieves the name of the associated zip file item.helpviewer_keywords: ["GetName","GetName method [App packaging and management]","GetName method [App packaging and management]","IAppxBlockMapFile interface","IAppxBlockMapFile interface [App packaging and management]","GetName method","IAppxBlockMapFile.GetName","IAppxBlockMapFile::GetName","appxpackaging/IAppxBlockMapFile::GetName","appxpkg.iappxblockmapfile_getname"]
 old-location: appxpkg\iappxblockmapfile_getname.htm
 tech.root: appxpkg
 ms.assetid: 82D100DB-CAE8-4FF7-B428-B14E8CBDE7A5

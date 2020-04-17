@@ -1,7 +1,7 @@
 ---
 UID: NS:tapi.phoneextensionid_tag
 title: PHONEEXTENSIONID (tapi.h)
-description: The PHONEEXTENSIONID structure describes an extension identifier.
+description: The PHONEEXTENSIONID structure describes an extension identifier.helpviewer_keywords: ["*LPPHONEEXTENSIONID","LPPHONEEXTENSIONID","LPPHONEEXTENSIONID structure pointer [TAPI 2.2]","PHONEEXTENSIONID","PHONEEXTENSIONID structure [TAPI 2.2]","_tapi2_phoneextensionid_str","tapi/LPPHONEEXTENSIONID","tapi/PHONEEXTENSIONID","tapi2.phoneextensionid_str"]
 old-location: tapi2\phoneextensionid_str.htm
 tech.root: Tapi
 ms.assetid: 61f376fd-2287-4425-9445-163f71aebf04

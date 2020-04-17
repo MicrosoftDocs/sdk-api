@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.StgOpenLayoutDocfile
 title: StgOpenLayoutDocfile function (objbase.h)
-description: Opens a compound file on an ILockBytes implementation that is capable of monitoring sector data.
+description: Opens a compound file on an ILockBytes implementation that is capable of monitoring sector data.helpviewer_keywords: ["StgOpenLayoutDocfile","StgOpenLayoutDocfile function [Structured Storage]","_stg_stgopenlayoutdocfile","objbase/StgOpenLayoutDocfile","stg.stgopenlayoutdocfile"]
 old-location: stg\stgopenlayoutdocfile.htm
 tech.root: Stg
 ms.assetid: 6ecfb6bd-e623-42b6-9b95-f0563921ac15

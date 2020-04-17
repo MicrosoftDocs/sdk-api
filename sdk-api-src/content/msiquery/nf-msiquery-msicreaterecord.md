@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiCreateRecord
 title: MsiCreateRecord function (msiquery.h)
-description: The MsiCreateRecord function creates a new record object with the specified number of fields. This function returns a handle that should be closed using MsiCloseHandle.
+description: The MsiCreateRecord function creates a new record object with the specified number of fields. This function returns a handle that should be closed using MsiCloseHandle.helpviewer_keywords: ["MsiCreateRecord","MsiCreateRecord function","_msi_msicreaterecord","msiquery/MsiCreateRecord","setup.msicreaterecord"]
 old-location: setup\msicreaterecord.htm
 tech.root: Msi
 ms.assetid: fc1d5a09-3097-4a1c-a615-1b93f7eacb04

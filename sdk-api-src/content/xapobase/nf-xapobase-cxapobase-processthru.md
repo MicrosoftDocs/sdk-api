@@ -1,7 +1,7 @@
 ---
 UID: NF:xapobase.CXAPOBase.ProcessThru
 title: CXAPOBase::ProcessThru (xapobase.h)
-description: Called by an IXAPO::Process implementation when an XAPO is disabled for thru processing.
+description: Called by an IXAPO::Process implementation when an XAPO is disabled for thru processing.helpviewer_keywords: ["CXAPOBase interface [XAudio2 Audio Mixing APIs]","ProcessThru method","CXAPOBase.ProcessThru","CXAPOBase::ProcessThru","ProcessThru","ProcessThru method [XAudio2 Audio Mixing APIs]","ProcessThru method [XAudio2 Audio Mixing APIs]","CXAPOBase interface","xapobase/CXAPOBase::ProcessThru","xaudio2.cxapobase_processthru"]
 old-location: xaudio2\cxapobase_processthru.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ProcessThru(void,FLOAT32,UINT32,WORD,WORD,BOOL)

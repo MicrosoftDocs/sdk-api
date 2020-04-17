@@ -1,7 +1,7 @@
 ---
 UID: NE:tapi3if.PHONE_TONE
 title: PHONE_TONE (tapi3if.h)
-description: The PHONE_TONE enum identifies a phone tone.
+description: The PHONE_TONE enum identifies a phone tone.helpviewer_keywords: ["PHONE_TONE","PHONE_TONE enumeration [TAPI 2.2]","PT_BUSY","PT_ERRORTONE","PT_EXTERNALDIALTONE","PT_KEYPADA","PT_KEYPADB","PT_KEYPADC","PT_KEYPADD","PT_KEYPADEIGHT","PT_KEYPADFIVE","PT_KEYPADFOUR","PT_KEYPADNINE","PT_KEYPADONE","PT_KEYPADPOUND","PT_KEYPADSEVEN","PT_KEYPADSIX","PT_KEYPADSTAR","PT_KEYPADTHREE","PT_KEYPADTWO","PT_KEYPADZERO","PT_NORMALDIALTONE","PT_RINGBACK","PT_SILENCE","_tapi3_phone_tone","tapi3.phone_tone","tapi3if/PHONE_TONE","tapi3if/PT_BUSY","tapi3if/PT_ERRORTONE","tapi3if/PT_EXTERNALDIALTONE","tapi3if/PT_KEYPADA","tapi3if/PT_KEYPADB","tapi3if/PT_KEYPADC","tapi3if/PT_KEYPADD","tapi3if/PT_KEYPADEIGHT","tapi3if/PT_KEYPADFIVE","tapi3if/PT_KEYPADFOUR","tapi3if/PT_KEYPADNINE","tapi3if/PT_KEYPADONE","tapi3if/PT_KEYPADPOUND","tapi3if/PT_KEYPADSEVEN","tapi3if/PT_KEYPADSIX","tapi3if/PT_KEYPADSTAR","tapi3if/PT_KEYPADTHREE","tapi3if/PT_KEYPADTWO","tapi3if/PT_KEYPADZERO","tapi3if/PT_NORMALDIALTONE","tapi3if/PT_RINGBACK","tapi3if/PT_SILENCE"]
 old-location: tapi3\phone_tone.htm
 tech.root: Tapi
 ms.assetid: 93782f7e-db48-4479-b5da-77458c41e9a6

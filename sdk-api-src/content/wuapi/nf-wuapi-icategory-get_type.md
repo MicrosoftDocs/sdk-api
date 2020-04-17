@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.ICategory.get_Type
 title: ICategory::get_Type (wuapi.h)
-description: Gets the type of the category.
+description: Gets the type of the category.helpviewer_keywords: ["ICategory interface [Windows Update Agent]","Type property","ICategory.Type","ICategory.get_Type","ICategory::Type","ICategory::get_Type","Type property [Windows Update Agent]","Type property [Windows Update Agent]","ICategory interface","get_Type","wua.icategory_type","wuapi/ICategory::Type","wuapi/ICategory::get_Type"]
 old-location: wua\icategory_type.htm
 tech.root: Wua_Sdk
 ms.assetid: 3c3621bd-a76f-473c-8fcc-397370fcc42e

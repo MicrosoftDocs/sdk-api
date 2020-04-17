@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.GetClusterKey
 title: GetClusterKey function (clusapi.h)
-description: Opens the root of the cluster database subtree for a cluster.
+description: Opens the root of the cluster database subtree for a cluster.helpviewer_keywords: ["GetClusterKey","GetClusterKey function [Failover Cluster]","_wolf_getclusterkey","clusapi/GetClusterKey","mscs.getclusterkey"]
 old-location: mscs\getclusterkey.htm
 tech.root: MsCS
 ms.assetid: ddec12fc-6d4d-411d-ab24-6fb60175ba7b

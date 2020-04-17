@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsWriteQualifiedName
 title: WsWriteQualifiedName function (webservices.h)
-description: Writes an XML qualified name to the Writer.
+description: Writes an XML qualified name to the Writer.helpviewer_keywords: ["WsWriteQualifiedName","WsWriteQualifiedName function [Web Services for Windows]","webservices/WsWriteQualifiedName","wsw.wswritequalifiedname"]
 old-location: wsw\wswritequalifiedname.htm
 tech.root: wsw
 ms.assetid: 1e0f6419-ef76-4465-bd1d-a92f4bf11903

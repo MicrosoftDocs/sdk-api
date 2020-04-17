@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.TOUCH_COORD_TO_PIXEL
 title: TOUCH_COORD_TO_PIXEL macro (winuser.h)
-description: Converts touch coordinates to pixels.
+description: Converts touch coordinates to pixels.helpviewer_keywords: ["TOUCH_COORD_TO_PIXEL","TOUCH_COORD_TO_PIXEL macro [Windows Touch]","wintouch.touch_coord_to_pixel","winuser/TOUCH_COORD_TO_PIXEL"]
 old-location: wintouch\touch_coord_to_pixel.htm
 tech.root: wintouch
 ms.assetid: 719b6800-aeda-424a-86ea-d8c307bd6ad2

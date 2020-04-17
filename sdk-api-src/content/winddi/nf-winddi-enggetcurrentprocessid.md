@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngGetCurrentProcessId
 title: EngGetCurrentProcessId function (winddi.h)
-description: The EngGetCurrentProcessId function identifies an application's current process.
+description: The EngGetCurrentProcessId function identifies an application's current process.helpviewer_keywords: ["EngGetCurrentProcessId","EngGetCurrentProcessId function [Display Devices]","display.enggetcurrentprocessid","gdifncs_073e5c03-16d4-4257-bf0a-7ea183beea9d.xml","winddi/EngGetCurrentProcessId"]
 old-location: display\enggetcurrentprocessid.htm
 tech.root: display
 ms.assetid: 63ed7f38-6874-4d33-80e4-fdd00175e039

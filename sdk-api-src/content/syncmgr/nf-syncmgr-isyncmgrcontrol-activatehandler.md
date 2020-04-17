@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.ActivateHandler
 title: ISyncMgrControl::ActivateHandler (syncmgr.h)
-description: Activates or deactivates a handler.
+description: Activates or deactivates a handler.helpviewer_keywords: ["ActivateHandler","ActivateHandler method [Windows Shell]","ActivateHandler method [Windows Shell]","ISyncMgrControl interface","ISyncMgrControl interface [Windows Shell]","ActivateHandler method","ISyncMgrControl.ActivateHandler","ISyncMgrControl::ActivateHandler","_shell_ISyncMgrControl_ActivateHandler","shell.ISyncMgrControl_ActivateHandler","syncmgr/ISyncMgrControl::ActivateHandler"]
 old-location: shell\ISyncMgrControl_ActivateHandler.htm
 tech.root: shell
 ms.assetid: 95f332a4-c76c-437f-a756-528cbbb39e2d

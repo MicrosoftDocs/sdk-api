@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetPropertyIndex
 title: ID2D1Properties::GetPropertyIndex
-description: Gets the index corresponding to the given property name.
+description: Gets the index corresponding to the given property name.helpviewer_keywords: ["GetPropertyIndex","GetPropertyIndex method [Direct2D]","GetPropertyIndex method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetPropertyIndex method","ID2D1Properties.GetPropertyIndex","ID2D1Properties::GetPropertyIndex","d2d1_1/ID2D1Properties::GetPropertyIndex","direct2d.id2d1properties_getpropertyindex"]
 old-location: direct2d\id2d1properties_getpropertyindex.htm
 tech.root: Direct2D
 ms.assetid: b1c7003f-b7c2-464c-8e8e-a641068b9393

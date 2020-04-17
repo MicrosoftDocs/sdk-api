@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsGetNamespaceFromPrefix
 title: WsGetNamespaceFromPrefix function (webservices.h)
-description: This function returns a namespace from the prefix to which it is bound.
+description: This function returns a namespace from the prefix to which it is bound.helpviewer_keywords: ["WsGetNamespaceFromPrefix","WsGetNamespaceFromPrefix function [Web Services for Windows]","webservices/WsGetNamespaceFromPrefix","wsw.wsgetnamespacefromprefix"]
 old-location: wsw\wsgetnamespacefromprefix.htm
 tech.root: wsw
 ms.assetid: 35351ce3-4ff9-4a15-856b-c3ee485f9d37

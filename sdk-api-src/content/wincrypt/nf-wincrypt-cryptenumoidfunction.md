@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptEnumOIDFunction
 title: CryptEnumOIDFunction function (wincrypt.h)
-description: The CryptEnumOIDFunction function enumerates the registered object identifier (OID) functions.
+description: The CryptEnumOIDFunction function enumerates the registered object identifier (OID) functions.helpviewer_keywords: ["CryptEnumOIDFunction","CryptEnumOIDFunction function [Security]","_crypto2_cryptenumoidfunction","security.cryptenumoidfunction","wincrypt/CryptEnumOIDFunction"]
 old-location: security\cryptenumoidfunction.htm
 tech.root: SecCrypto
 ms.assetid: aa2fba03-183b-4b74-b306-8f4592995897

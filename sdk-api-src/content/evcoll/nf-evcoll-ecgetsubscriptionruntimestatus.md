@@ -1,7 +1,7 @@
 ---
 UID: NF:evcoll.EcGetSubscriptionRunTimeStatus
 title: EcGetSubscriptionRunTimeStatus function (evcoll.h)
-description: Retrieves the run time status information for an event source of a subscription or the subscription itself.
+description: Retrieves the run time status information for an event source of a subscription or the subscription itself.helpviewer_keywords: ["EcGetSubscriptionRunTimeStatus","EcGetSubscriptionRunTimeStatus function","evcoll/EcGetSubscriptionRunTimeStatus","wec.ecgetsubscriptionruntimestatus","wes.ecgetsubscriptionruntimestatus"]
 old-location: wec\ecgetsubscriptionruntimestatus.htm
 tech.root: WEC
 ms.assetid: 17d9d264-5ae3-4e31-869c-ada0c6c5c53b

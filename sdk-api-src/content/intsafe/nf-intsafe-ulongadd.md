@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ULongAdd
 title: ULongAdd function (intsafe.h)
-description: Adds two values of type ULONG.
+description: Adds two values of type ULONG.helpviewer_keywords: ["DWordAdd","ULongAdd","ULongAdd function [Windows Shell]","_shell_ULongAdd","intsafe/ULongAdd","shell.ULongAdd"]
 old-location: shell\ULongAdd.htm
 tech.root: shell
 ms.assetid: 63726f12-ba01-4cb7-a311-95d476e68174

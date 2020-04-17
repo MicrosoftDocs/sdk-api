@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.Size.Size(IN INT,IN INT)
 title: Size::Size(IN INT,IN INT) (gdiplustypes.h)
-description: Creates a Size object and initializes its Width and Height data members.
+description: Creates a Size object and initializes its Width and Height data members.helpviewer_keywords: ["Size","Size class [GDI+]","Size constructor","Size constructor [GDI+]","Size constructor [GDI+]","Size class","Size.Size","Size.Size(IN INT","IN INT)","Size.Size(INT","INT)","Size::Size","Size::Size(IN INT","IN INT)","_gdiplus_CLASS_Size_Size_width_height_","gdiplus._gdiplus_CLASS_Size_Size_width_height_"]
 old-location: gdiplus\_gdiplus_CLASS_Size_Size_width_height_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizeconstructors\size_21width_height.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Clone
 title: IEnumTfRanges::Clone (msctf.h)
-description: IEnumTfRanges::Clone method
+description: IEnumTfRanges::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfRanges interface","IEnumTfRanges interface [Text Services Framework]","Clone method","IEnumTfRanges.Clone","IEnumTfRanges::Clone","_tsf_ienumtfranges_clone_ref","msctf/IEnumTfRanges::Clone","tsf.ienumtfranges_clone"]
 old-location: tsf\ienumtfranges_clone.htm
 tech.root: TSF
 ms.assetid: 5e51a747-0b77-4ba3-b03c-217a3f81a0aa

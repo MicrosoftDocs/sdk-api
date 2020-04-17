@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE (wincrypt.h)
-description: Releases the object returned by the provider.
+description: Releases the object returned by the provider.helpviewer_keywords: ["PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE callback","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE callback function [Security]","security.pfn_crypt_object_locator_provider_free","wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE"]
 old-location: security\pfn_crypt_object_locator_provider_free.htm
 tech.root: SecCrypto
 ms.assetid: 4C27BF58-79AB-4AD3-8D43-EEE7F73071D2

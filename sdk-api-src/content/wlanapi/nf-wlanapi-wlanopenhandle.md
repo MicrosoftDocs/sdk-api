@@ -1,7 +1,7 @@
 ---
 UID: NF:wlanapi.WlanOpenHandle
 title: WlanOpenHandle function (wlanapi.h)
-description: Opens a connection to the server.
+description: Opens a connection to the server.helpviewer_keywords: ["WlanOpenHandle","WlanOpenHandle function [NativeWIFI]","nwifi.wlanopenhandle","wlanapi/WlanOpenHandle"]
 old-location: nwifi\wlanopenhandle.htm
 tech.root: NativeWiFi
 ms.assetid: 27bfa0c1-4443-47a4-a374-326f553fa3bb

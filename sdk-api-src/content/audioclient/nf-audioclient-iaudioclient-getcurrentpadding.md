@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IAudioClient.GetCurrentPadding
 title: IAudioClient::GetCurrentPadding (audioclient.h)
-description: The GetCurrentPadding method retrieves the number of frames of padding in the endpoint buffer.
+description: The GetCurrentPadding method retrieves the number of frames of padding in the endpoint buffer.helpviewer_keywords: ["GetCurrentPadding","GetCurrentPadding method [Core Audio]","GetCurrentPadding method [Core Audio]","IAudioClient interface","IAudioClient interface [Core Audio]","GetCurrentPadding method","IAudioClient.GetCurrentPadding","IAudioClient::GetCurrentPadding","IAudioClientGetCurrentPadding","audioclient/IAudioClient::GetCurrentPadding","coreaudio.iaudioclient_getcurrentpadding"]
 old-location: coreaudio\iaudioclient_getcurrentpadding.htm
 tech.root: CoreAudio
 ms.assetid: 2a2c9ddf-f668-41ff-85f0-34de593c0fe2

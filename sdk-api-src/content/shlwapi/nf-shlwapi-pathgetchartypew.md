@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathGetCharTypeW
 title: PathGetCharTypeW function (shlwapi.h)
-description: Determines the type of character in relation to a path.
+description: Determines the type of character in relation to a path.helpviewer_keywords: ["PathGetCharType","PathGetCharType function [Windows Shell]","PathGetCharTypeA","PathGetCharTypeW","_win32_PathGetCharType","shell.PathGetCharType","shlwapi/PathGetCharType","shlwapi/PathGetCharTypeA","shlwapi/PathGetCharTypeW"]
 old-location: shell\PathGetCharType.htm
 tech.root: shell
 ms.assetid: 838a255f-413e-424c-819e-47265224208d

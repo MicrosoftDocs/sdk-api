@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.GetClusterInformation
 title: GetClusterInformation function (clusapi.h)
-description: Retrieves a cluster's name and version.
+description: Retrieves a cluster's name and version.helpviewer_keywords: ["GetClusterInformation","GetClusterInformation function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_INFORMATION","PCLUSAPI_GET_CLUSTER_INFORMATION function [Failover Cluster]","_wolf_getclusterinformation","clusapi/GetClusterInformation","clusapi/PCLUSAPI_GET_CLUSTER_INFORMATION","mscs.getclusterinformation"]
 old-location: mscs\getclusterinformation.htm
 tech.root: MsCS
 ms.assetid: 5b259eb9-c5d0-4f4f-8a6b-14eaed716612

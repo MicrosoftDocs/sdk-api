@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IGraphConfig.AddFilterToCache
 title: IGraphConfig::AddFilterToCache (strmif.h)
-description: The AddFilterToCache method adds a filter to the filter cache.
+description: The AddFilterToCache method adds a filter to the filter cache.helpviewer_keywords: ["AddFilterToCache","AddFilterToCache method [DirectShow]","AddFilterToCache method [DirectShow]","IGraphConfig interface","IGraphConfig interface [DirectShow]","AddFilterToCache method","IGraphConfig.AddFilterToCache","IGraphConfig::AddFilterToCache","IGraphConfigAddFilterToCache","dshow.igraphconfig_addfiltertocache","strmif/IGraphConfig::AddFilterToCache"]
 old-location: dshow\igraphconfig_addfiltertocache.htm
 tech.root: DirectShow
 ms.assetid: 8d5c6d55-1628-462b-828a-50541b6da3e7

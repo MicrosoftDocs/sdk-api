@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetName
 title: ICreateTypeLib::SetName (oaidl.h)
-description: Sets the name of the type library.
+description: Sets the name of the type library.helpviewer_keywords: ["ICreateTypeLib interface [Automation]","SetName method","ICreateTypeLib.SetName","ICreateTypeLib::SetName","SetName","SetName method [Automation]","SetName method [Automation]","ICreateTypeLib interface","_oa96_ICreateTypeLib_SetName","automat.icreatetypelib_setname","oaidl/ICreateTypeLib::SetName"]
 old-location: automat\icreatetypelib_setname.htm
 tech.root: automat
 ms.assetid: b533d2a1-f008-4345-8545-aebe14aa44f5

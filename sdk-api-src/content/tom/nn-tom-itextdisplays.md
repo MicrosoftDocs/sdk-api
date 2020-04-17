@@ -1,7 +1,7 @@
 ---
 UID: NN:tom.ITextDisplays
 title: ITextDisplays (tom.h)
-description: Represents the displays collection for this Text Object Model (TOM) engine instance.
+description: Represents the displays collection for this Text Object Model (TOM) engine instance.helpviewer_keywords: ["ITextDisplays","ITextDisplays interface [Windows Controls]","ITextDisplays interface [Windows Controls]","described","controls.itextdisplays","tom/ITextDisplays"]
 old-location: controls\itextdisplays.htm
 tech.root: Controls
 ms.assetid: e7266734-c066-4f80-8d3d-99ffb251cd39

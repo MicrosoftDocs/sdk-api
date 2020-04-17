@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3helper.InkBezierSegment
 title: InkBezierSegment function (d2d1_3helper.h)
-description: Creates a D2D1_INK_BEZIER_SEGMENT structure.
+description: Creates a D2D1_INK_BEZIER_SEGMENT structure.helpviewer_keywords: ["InkBezierSegment","InkBezierSegment function [Direct2D]","d2d1_3helper/InkBezierSegment","direct2d.inkbeziersegment"]
 old-location: direct2d\inkbeziersegment.htm
 tech.root: Direct2D
 ms.assetid: 61f6a6fb-3304-e979-549a-3c4c528ed12d

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFTEnum2
 title: MFTEnum2 function (mfapi.h)
-description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria.
+description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria.helpviewer_keywords: ["MFTEnum2","MFTEnum2 function [Media Foundation]","mf.mftenum2","mfapi/MFTEnum2"]
 old-location: mf\mftenum2.htm
 tech.root: medfound
 ms.assetid: 1BF74B1F-46D9-46E8-A9DC-5A9666C3CAFB

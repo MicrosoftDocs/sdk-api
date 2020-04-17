@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IContextState
 title: IContextState (comsvcs.h)
-description: Controls object deactivation and transaction voting by manipulating context state flags.
+description: Controls object deactivation and transaction voting by manipulating context state flags.helpviewer_keywords: ["IContextState","IContextState interface [COM+]","IContextState interface [COM+]","described","_cos_IContextState","comsvcs/IContextState","cos.icontextstate"]
 old-location: cos\icontextstate.htm
 tech.root: cossdk
 ms.assetid: cba54ad7-c670-4efb-ad3b-aca1daabc4a3

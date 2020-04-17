@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxPackageReader
 title: IAppxPackageReader (appxpackaging.h)
-description: Provides a read-only object model for app packages.
+description: Provides a read-only object model for app packages.helpviewer_keywords: ["IAppxPackageReader","IAppxPackageReader interface [App packaging and management]","IAppxPackageReader interface [App packaging and management]","described","appxpackaging/IAppxPackageReader","appxpkg.iappxpackagereader"]
 old-location: appxpkg\iappxpackagereader.htm
 tech.root: appxpkg
 ms.assetid: D34D0909-BE2B-4182-8C3D-36A4E8DDC820

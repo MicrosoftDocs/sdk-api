@@ -1,7 +1,7 @@
 ---
 UID: NF:mmstream.IMediaStream.SendEndOfStream
 title: IMediaStream::SendEndOfStream (mmstream.h)
-description: Note  This interface is deprecated. New applications should not use it. Forces the current stream to end. If the current stream isn't writable, this method does nothing.
+description: Note  This interface is deprecated. New applications should not use it. Forces the current stream to end. If the current stream isn't writable, this method does nothing.helpviewer_keywords: ["IMediaStream interface [DirectShow]","SendEndOfStream method","IMediaStream.SendEndOfStream","IMediaStream::SendEndOfStream","IMediaStreamSendEndOfStream","SendEndOfStream","SendEndOfStream method [DirectShow]","SendEndOfStream method [DirectShow]","IMediaStream interface","dshow.imediastream_sendendofstream","mmstream/IMediaStream::SendEndOfStream"]
 old-location: dshow\imediastream_sendendofstream.htm
 tech.root: DirectShow
 ms.assetid: aa774875-1cf2-4792-a492-fef64571ae8f

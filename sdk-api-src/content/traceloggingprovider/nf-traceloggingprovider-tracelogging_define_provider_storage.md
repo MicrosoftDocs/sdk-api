@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TRACELOGGING_DEFINE_PROVIDER_STORAGE
 title: TRACELOGGING_DEFINE_PROVIDER_STORAGE macro (traceloggingprovider.h)
-description: Allocates storage for a TraceLogging provider. This macro should only be used for advanced scenarios.
+description: Allocates storage for a TraceLogging provider. This macro should only be used for advanced scenarios.helpviewer_keywords: ["TRACELOGGING_DEFINE_PROVIDER_STORAGE","TRACELOGGING_DEFINE_PROVIDER_STORAGE macro","tracelogging.TRACELOGGING_DEFINE_PROVIDER_STORAGE","tracelogging.traceloggingproviderstorage","traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER_STORAGE"]
 old-location: tracelogging\TRACELOGGING_DEFINE_PROVIDER_STORAGE.htm
 tech.root: tracelogging
 ms.assetid: C7244C95-5F02-4336-ADFF-876514665C87

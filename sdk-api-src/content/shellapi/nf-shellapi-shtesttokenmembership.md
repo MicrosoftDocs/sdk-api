@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.SHTestTokenMembership
 title: SHTestTokenMembership function (shellapi.h)
-description: Uses CheckTokenMembership to test whether the given token is a member of the local group with the specified RID.
+description: Uses CheckTokenMembership to test whether the given token is a member of the local group with the specified RID.helpviewer_keywords: ["SHTestTokenMembership","SHTestTokenMembership function [Windows Shell]","_win32_SHTestTokenMembership","shell.SHTestTokenMembership","shellapi/SHTestTokenMembership"]
 old-location: shell\SHTestTokenMembership.htm
 tech.root: shell
 ms.assetid: ac2d591a-f431-4da7-aa9f-0476634ec9cf

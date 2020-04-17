@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICspInformations.AddAvailableCsps
 title: ICspInformations::AddAvailableCsps (certenroll.h)
-description: Adds the providers installed on the computer to the collection.
+description: Adds the providers installed on the computer to the collection.helpviewer_keywords: ["AddAvailableCsps","AddAvailableCsps method [Security]","AddAvailableCsps method [Security]","ICspInformations interface","ICspInformations interface [Security]","AddAvailableCsps method","ICspInformations.AddAvailableCsps","ICspInformations::AddAvailableCsps","certenroll/ICspInformations::AddAvailableCsps","security.icspinformations_addavailablecsps_method"]
 old-location: security\icspinformations_addavailablecsps_method.htm
 tech.root: seccertenroll
 ms.assetid: f44af323-41fb-46d6-88ed-15d465fc8815

@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_TXFS_GET_TRANSACTED_VERSION
 title: FSCTL_TXFS_GET_TRANSACTED_VERSION
-description: Returns a TXFS_GET_TRANSACTED_VERSION structure. The structure identifies the most recently committed version of the specified file, the version number of the handle.
+description: Returns a TXFS_GET_TRANSACTED_VERSION structure. The structure identifies the most recently committed version of the specified file, the version number of the handle.helpviewer_keywords: ["FSCTL_TXFS_GET_TRANSACTED_VERSION","FSCTL_TXFS_GET_TRANSACTED_VERSION control","FSCTL_TXFS_GET_TRANSACTED_VERSION control code [Files]","fs.fsctl_txfs_get_transacted_version","winioctl/FSCTL_TXFS_GET_TRANSACTED_VERSION"]
 old-location: fs\fsctl_txfs_get_transacted_version.htm
 tech.root: FileIO
 ms.assetid: 71864348-1266-4ac5-a4b5-b9aaff52b0c5

@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetIdleWait
 title: IScheduledWorkItem::SetIdleWait (mstask.h)
-description: Sets the minutes that the system must be idle before the work item can run.
+description: Sets the minutes that the system must be idle before the work item can run.helpviewer_keywords: ["IScheduledWorkItem interface [Task Scheduler]","SetIdleWait method","IScheduledWorkItem.SetIdleWait","IScheduledWorkItem::SetIdleWait","SetIdleWait","SetIdleWait method [Task Scheduler]","SetIdleWait method [Task Scheduler]","IScheduledWorkItem interface","_msb_ischeduledworkitem_setidlewait","mstask/IScheduledWorkItem::SetIdleWait","taskschd.ischeduledworkitem_setidlewait"]
 old-location: taskschd\ischeduledworkitem_setidlewait.htm
 tech.root: taskschd
 ms.assetid: f7ad639a-4094-4621-9add-b89958c0bda4

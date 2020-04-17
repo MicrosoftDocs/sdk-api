@@ -1,7 +1,7 @@
 ---
 UID: NF:certcli.ICertRequest.GetDispositionMessage
 title: ICertRequest::GetDispositionMessage (certcli.h)
-description: Gets a human-readable message that gives the current disposition of the certificate request.
+description: Gets a human-readable message that gives the current disposition of the certificate request.helpviewer_keywords: ["CCertRequest object [Security]","GetDispositionMessage method","GetDispositionMessage","GetDispositionMessage method [Security]","GetDispositionMessage method [Security]","CCertRequest object","GetDispositionMessage method [Security]","ICertRequest interface","GetDispositionMessage method [Security]","ICertRequest2 interface","GetDispositionMessage method [Security]","ICertRequest3 interface","ICertRequest interface [Security]","GetDispositionMessage method","ICertRequest.GetDispositionMessage","ICertRequest2 interface [Security]","GetDispositionMessage method","ICertRequest2::GetDispositionMessage","ICertRequest3 interface [Security]","GetDispositionMessage method","ICertRequest3::GetDispositionMessage","ICertRequest::GetDispositionMessage","certcli/ICertRequest2::GetDispositionMessage","certcli/ICertRequest3::GetDispositionMessage","certcli/ICertRequest::GetDispositionMessage","security.icertrequest2_getdispositionmessage"]
 old-location: security\icertrequest2_getdispositionmessage.htm
 tech.root: SecCrypto
 ms.assetid: c3639cf6-c70f-4f15-a0ed-e60abe2955cb

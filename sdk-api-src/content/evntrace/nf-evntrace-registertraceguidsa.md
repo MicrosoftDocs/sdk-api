@@ -1,7 +1,7 @@
 ---
 UID: NF:evntrace.RegisterTraceGuidsA
 title: RegisterTraceGuidsA function (evntrace.h)
-description: The RegisterTraceGuids function registers an event trace provider and the event trace classes that it uses to generate events. This function also specifies the function the provider uses to enable and disable tracing.
+description: The RegisterTraceGuids function registers an event trace provider and the event trace classes that it uses to generate events. This function also specifies the function the provider uses to enable and disable tracing.helpviewer_keywords: ["RegisterTraceGuids","RegisterTraceGuids function [ETW]","RegisterTraceGuidsA","RegisterTraceGuidsW","_evt_registertraceguids","base.registertraceguids","etw.registertraceguids","evntrace/RegisterTraceGuids","evntrace/RegisterTraceGuidsA","evntrace/RegisterTraceGuidsW"]
 old-location: etw\registertraceguids.htm
 tech.root: ETW
 ms.assetid: c9158292-281b-4a02-b280-956e340d225c

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.CloseFile
 title: IFileIsInUse::CloseFile (shobjidl_core.h)
-description: Closes the file currently in use.
+description: Closes the file currently in use.helpviewer_keywords: ["CloseFile","CloseFile method [Windows Shell]","CloseFile method [Windows Shell]","IFileIsInUse interface","IFileIsInUse interface [Windows Shell]","CloseFile method","IFileIsInUse.CloseFile","IFileIsInUse::CloseFile","_shell_IFileIsInUse_CloseFile","shell.IFileIsInUse_CloseFile","shobjidl_core/IFileIsInUse::CloseFile"]
 old-location: shell\IFileIsInUse_CloseFile.htm
 tech.root: shell
 ms.assetid: 27338e5a-b303-4b72-b316-3059ec6f1698

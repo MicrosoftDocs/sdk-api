@@ -1,7 +1,7 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTVECTOR
 title: DBCONTENTVECTOR (cmdtree.h)
-description: The DBCONTENTVECTOR structure represents specific information required by the DBOP_content_vector_or operator.
+description: The DBCONTENTVECTOR structure represents specific information required by the DBOP_content_vector_or operator.helpviewer_keywords: ["DBCONTENTVECTOR","DBCONTENTVECTOR structure [Indexing Service]","_idxs_DBCONTENTVECTOR","cmdtree/DBCONTENTVECTOR","indexsrv.dbcontentvector","tagDBCONTENTVECTOR"]
 old-location: indexsrv\dbcontentvector.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0coi.htm

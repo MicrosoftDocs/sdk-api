@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IPSFactoryBuffer
 title: IPSFactoryBuffer (objidl.h)
-description: Provides custom methods for the creation of COM object proxies and stubs. This interface is not marshalable.
+description: Provides custom methods for the creation of COM object proxies and stubs. This interface is not marshalable.helpviewer_keywords: ["IPSFactoryBuffer","IPSFactoryBuffer interface [COM]","IPSFactoryBuffer interface [COM]","described","_com_ipsfactorybuffer","com.ipsfactorybuffer","objidlbase/IPSFactoryBuffer"]
 old-location: com\ipsfactorybuffer.htm
 tech.root: com
 ms.assetid: ffe85701-a4fa-4cf3-9b86-85f3a0cb63e9

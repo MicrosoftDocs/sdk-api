@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITPhone.get_ButtonFunction
 title: ITPhone::get_ButtonFunction (tapi3if.h)
-description: The get_ButtonFunction method retrieves the button function associated with a particular button.
+description: The get_ButtonFunction method retrieves the button function associated with a particular button.helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_ButtonFunction method","ITPhone.get_ButtonFunction","ITPhone::get_ButtonFunction","_tapi3_itphone_get_buttonfunction","get_ButtonFunction","get_ButtonFunction method [TAPI 2.2]","get_ButtonFunction method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_buttonfunction","tapi3if/ITPhone::get_ButtonFunction"]
 old-location: tapi3\itphone_get_buttonfunction.htm
 tech.root: Tapi
 ms.assetid: a884c0b4-141a-4f04-8cfb-7ae6b1ec11b3

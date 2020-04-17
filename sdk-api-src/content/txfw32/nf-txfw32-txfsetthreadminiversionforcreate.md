@@ -1,7 +1,7 @@
 ---
 UID: NF:txfw32.TxfSetThreadMiniVersionForCreate
 title: TxfSetThreadMiniVersionForCreate
-description: Sets the MiniVersion that a subsequent create should open.
+description: Sets the MiniVersion that a subsequent create should open.helpviewer_keywords: ["TxfSetThreadMiniVersionForCreate"]
 ms.date: 4/26/2019
 ms.keywords: TxfSetThreadMiniVersionForCreate
 f1_keywords:

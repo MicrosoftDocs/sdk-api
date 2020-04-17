@@ -1,7 +1,7 @@
 ---
 UID: NF:mspstrm.CMSPStream.ShutDown
 title: CMSPStream::ShutDown (mspstrm.h)
-description: The ShutDown method is called by the MSPCall object. It unselects all the terminal objects (via UnselectTerminal). It also calls MSPCallRelease on the call object. This is needed to break the circular refcount.
+description: The ShutDown method is called by the MSPCall object. It unselects all the terminal objects (via UnselectTerminal). It also calls MSPCallRelease on the call object. This is needed to break the circular refcount.helpviewer_keywords: ["CMSPStream interface [TAPI 2.2]","ShutDown method","CMSPStream.ShutDown","CMSPStream::ShutDown","ShutDown","ShutDown method [TAPI 2.2]","ShutDown method [TAPI 2.2]","CMSPStream interface","_tapi3_cmspstream_shutdown","mspstrm/CMSPStream::ShutDown","tapi3.cmspstream_shutdown"]
 old-location: tapi3\cmspstream_shutdown.htm
 tech.root: Tapi
 ms.assetid: 5434c9ea-f045-4293-802d-35fb59123922

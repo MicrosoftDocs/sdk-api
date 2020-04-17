@@ -1,7 +1,7 @@
 ---
 UID: NF:wdspxe.PxeProviderQueryIndex
 title: PxeProviderQueryIndex function (wdspxe.h)
-description: Returns the index of the specified provider in the list of registered providers.
+description: Returns the index of the specified provider in the list of registered providers.helpviewer_keywords: ["PxeProviderQueryIndex","PxeProviderQueryIndex function [Windows Deployment Services]","wds.pxeproviderqueryindex","wdspxe/PxeProviderQueryIndex"]
 old-location: wds\pxeproviderqueryindex.htm
 tech.root: wds
 ms.assetid: 0b28c075-7f2e-4149-b851-21614773e942

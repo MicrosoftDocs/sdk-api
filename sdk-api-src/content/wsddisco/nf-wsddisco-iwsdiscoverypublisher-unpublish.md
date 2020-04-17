@@ -1,7 +1,7 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.UnPublish
 title: IWSDiscoveryPublisher::UnPublish (wsddisco.h)
-description: Announces the departure of a network host by sending a Bye message.
+description: Announces the departure of a network host by sending a Bye message.helpviewer_keywords: ["IWSDiscoveryPublisher interface","UnPublish method","IWSDiscoveryPublisher.UnPublish","IWSDiscoveryPublisher::UnPublish","UnPublish","UnPublish method","UnPublish method","IWSDiscoveryPublisher interface","ncd.iwsdiscoverypublisher_unpublish_method","wsddisco/IWSDiscoveryPublisher::UnPublish"]
 old-location: ncd\iwsdiscoverypublisher_unpublish_method.htm
 tech.root: WsdApi
 ms.assetid: ef403d31-769c-499b-a199-089100725ef9

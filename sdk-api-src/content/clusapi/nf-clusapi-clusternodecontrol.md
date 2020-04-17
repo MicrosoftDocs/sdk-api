@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterNodeControl
 title: ClusterNodeControl function (clusapi.h)
-description: Initiates an operation that affects a node. The operation performed depends on the control code passed to the dwControlCode parameter.
+description: Initiates an operation that affects a node. The operation performed depends on the control code passed to the dwControlCode parameter.helpviewer_keywords: ["ClusterNodeControl","ClusterNodeControl function [Failover Cluster]","_wolf_clusternodecontrol","clusapi/ClusterNodeControl","mscs.clusternodecontrol"]
 old-location: mscs\clusternodecontrol.htm
 tech.root: MsCS
 ms.assetid: f6fc8525-a2d3-4643-9372-548df5e30900

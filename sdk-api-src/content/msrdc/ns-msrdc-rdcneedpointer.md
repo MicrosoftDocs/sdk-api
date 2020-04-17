@@ -1,7 +1,7 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0006
 title: RdcNeedPointer (msrdc.h)
-description: Describes an array of RdcNeed structures.
+description: Describes an array of RdcNeed structures.helpviewer_keywords: ["RdcNeedPointer","RdcNeedPointer structure [Remote Differential Compression]","fs.rdcneedpointer","msrdc/RdcNeedPointer","rdc.rdcneedpointer"]
 old-location: rdc\rdcneedpointer.htm
 tech.root: rdc
 ms.assetid: 92a1fae7-5ada-4f7d-a736-c93bc404a418

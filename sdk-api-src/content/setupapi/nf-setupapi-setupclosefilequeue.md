@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupCloseFileQueue
 title: SetupCloseFileQueue function (setupapi.h)
-description: The SetupCloseFileQueue function destroys a setup file queue.
+description: The SetupCloseFileQueue function destroys a setup file queue.helpviewer_keywords: ["SetupCloseFileQueue","SetupCloseFileQueue function [Setup API]","_setupapi_setupclosefilequeue","setup.setupclosefilequeue","setupapi/SetupCloseFileQueue"]
 old-location: setup\setupclosefilequeue.htm
 tech.root: SetupApi
 ms.assetid: 51c63e65-a844-46b4-93ef-8a92a9c8a604

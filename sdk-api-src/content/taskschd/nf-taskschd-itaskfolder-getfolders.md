@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskFolder.GetFolders
 title: ITaskFolder::GetFolders (taskschd.h)
-description: Gets all the subfolders in the folder.
+description: Gets all the subfolders in the folder.helpviewer_keywords: ["GetFolders","GetFolders method [Task Scheduler]","GetFolders method [Task Scheduler]","ITaskFolder interface","ITaskFolder interface [Task Scheduler]","GetFolders method","ITaskFolder.GetFolders","ITaskFolder::GetFolders","taskschd.itaskfolder_getfolders","taskschd/ITaskFolder::GetFolders"]
 old-location: taskschd\itaskfolder_getfolders.htm
 tech.root: taskschd
 ms.assetid: ee00a8be-52f5-4399-9a1f-18e06121a3da

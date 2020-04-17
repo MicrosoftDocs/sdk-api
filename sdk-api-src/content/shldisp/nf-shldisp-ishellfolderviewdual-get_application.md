@@ -1,7 +1,7 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_Application
 title: IShellFolderViewDual::get_Application (shldisp.h)
-description: Gets the application object.
+description: Gets the application object.helpviewer_keywords: ["IShellFolderViewDual interface [Windows Shell]","get_Application method","IShellFolderViewDual.get_Application","IShellFolderViewDual::get_Application","_shell_IShellFolderViewDual_get_Application","get_Application","get_Application method [Windows Shell]","get_Application method [Windows Shell]","IShellFolderViewDual interface","shell.IShellFolderViewDual_get_Application","shldisp/IShellFolderViewDual::get_Application"]
 old-location: shell\IShellFolderViewDual_get_Application.htm
 tech.root: shell
 ms.assetid: 5d1a82fd-815d-4550-aaf4-662a6eeea287

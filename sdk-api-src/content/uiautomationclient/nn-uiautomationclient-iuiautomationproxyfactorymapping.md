@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationProxyFactoryMapping
 title: IUIAutomationProxyFactoryMapping (uiautomationclient.h)
-description: Exposes properties and methods for a table of proxy factories. Each table entry is represented by an IUIAutomationProxyFactoryEntry interface. The entries are in the order in which the system will attempt to use the proxies.
+description: Exposes properties and methods for a table of proxy factories. Each table entry is represented by an IUIAutomationProxyFactoryEntry interface. The entries are in the order in which the system will attempt to use the proxies.helpviewer_keywords: ["IUIAutomationProxyFactoryMapping","IUIAutomationProxyFactoryMapping interface [Windows Accessibility]","IUIAutomationProxyFactoryMapping interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationProxyFactoryMapping","uiauto_IUIAutomationProxyFactoryMapping","uiautomationclient/IUIAutomationProxyFactoryMapping","winauto.uiauto_IUIAutomationProxyFactoryMapping"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping.htm
 tech.root: WinAuto
 ms.assetid: 7a938c1c-a11c-4fdd-a73a-e7656032f21e

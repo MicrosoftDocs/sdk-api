@@ -1,7 +1,7 @@
 ---
 UID: NS:oleidl.tagOLEVERB
 title: OLEVERB (oleidl.h)
-description: Defines a verb that an object supports. The IOleObject::EnumVerbs method creates an enumerator that can enumerate these structures for an object, and supplies a pointer to the enumerator's IEnumOLEVERB.
+description: Defines a verb that an object supports. The IOleObject::EnumVerbs method creates an enumerator that can enumerate these structures for an object, and supplies a pointer to the enumerator's IEnumOLEVERB.helpviewer_keywords: ["*LPOLEVERB","LPOLEVERB","LPOLEVERB structure pointer [COM]","OLEVERB","OLEVERB structure [COM]","_ole_OLEVERB","com.oleverb","oleidl/LPOLEVERB","oleidl/OLEVERB"]
 old-location: com\oleverb.htm
 tech.root: com
 ms.assetid: 657e3cc3-67fb-4458-8dad-f2a31df1b631

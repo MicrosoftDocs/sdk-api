@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.EndReceiveResponse
 title: IMFHttpDownloadRequest::EndReceiveResponse (mfidl.h)
-description: Invoked by Microsoft Media Foundation to complete the asynchronous operation started by BeginReceiveResponse.
+description: Invoked by Microsoft Media Foundation to complete the asynchronous operation started by BeginReceiveResponse.helpviewer_keywords: ["EndReceiveResponse","EndReceiveResponse method [Media Foundation]","EndReceiveResponse method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","EndReceiveResponse method","IMFHttpDownloadRequest.EndReceiveResponse","IMFHttpDownloadRequest::EndReceiveResponse","mf.imfhttpdownloadrequest_endreceiveresponse","mfidl/IMFHttpDownloadRequest::EndReceiveResponse"]
 old-location: mf\imfhttpdownloadrequest_endreceiveresponse.htm
 tech.root: medfound
 ms.assetid: FC342FB9-930F-4EA7-9057-51AF10D13ED9

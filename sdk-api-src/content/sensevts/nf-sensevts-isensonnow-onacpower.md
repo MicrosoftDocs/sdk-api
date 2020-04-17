@@ -1,7 +1,7 @@
 ---
 UID: NF:sensevts.ISensOnNow.OnACPower
 title: ISensOnNow::OnACPower (sensevts.h)
-description: SENS calls the OnACPower method to notify your application that the computer is using AC power.
+description: SENS calls the OnACPower method to notify your application that the computer is using AC power.helpviewer_keywords: ["ISensOnNow interface [SENS]","OnACPower method","ISensOnNow.OnACPower","ISensOnNow::OnACPower","OnACPower","OnACPower method [SENS]","OnACPower method [SENS]","ISensOnNow interface","_zaw_isensonnow_onacpower","sens.isensonnow_onacpower","sensevts/ISensOnNow::OnACPower","syncmgr.isensonnow_onacpower"]
 old-location: sens\isensonnow_onacpower.htm
 tech.root: Sens
 ms.assetid: 4d9e8de9-a329-4f8c-883b-e4baab04729b

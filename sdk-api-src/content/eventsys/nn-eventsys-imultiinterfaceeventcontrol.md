@@ -1,7 +1,7 @@
 ---
 UID: NN:eventsys.IMultiInterfaceEventControl
 title: IMultiInterfaceEventControl (eventsys.h)
-description: Controls the behavior of an event object, the object that fires an event to its subscribers.
+description: Controls the behavior of an event object, the object that fires an event to its subscribers.helpviewer_keywords: ["IMultiInterfaceEventControl","IMultiInterfaceEventControl interface [COM+]","IMultiInterfaceEventControl interface [COM+]","described","_cos_IMultiInterfaceEventControl","cos.imultiinterfaceeventcontrol","eventsys/IMultiInterfaceEventControl"]
 old-location: cos\imultiinterfaceeventcontrol.htm
 tech.root: cossdk
 ms.assetid: e603f68a-881c-468d-a3d3-738f43400e01

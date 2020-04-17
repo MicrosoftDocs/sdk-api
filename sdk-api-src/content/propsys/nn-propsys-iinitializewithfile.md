@@ -1,7 +1,7 @@
 ---
 UID: NN:propsys.IInitializeWithFile
 title: IInitializeWithFile (propsys.h)
-description: Exposes a method to initialize a handler, such as a property handler, thumbnail handler, or preview handler, with a file path.
+description: Exposes a method to initialize a handler, such as a property handler, thumbnail handler, or preview handler, with a file path.helpviewer_keywords: ["IInitializeWithFile","IInitializeWithFile interface [Windows Shell]","IInitializeWithFile interface [Windows Shell]","described","propsys/IInitializeWithFile","shell.IInitializeWithFile","shell_IInitializeWithFile"]
 old-location: shell\IInitializeWithFile.htm
 tech.root: shell
 ms.assetid: 323181ab-1dc2-4b2a-a91f-3eccd7968bcd

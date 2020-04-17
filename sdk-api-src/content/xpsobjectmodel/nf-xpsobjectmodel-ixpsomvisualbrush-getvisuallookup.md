@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.GetVisualLookup
 title: IXpsOMVisualBrush::GetVisualLookup (xpsobjectmodel.h)
-description: Gets the lookup key name of a visual in a resource dictionary; the visual is to be used as the source for the brush.
+description: Gets the lookup key name of a visual in a resource dictionary; the visual is to be used as the source for the brush.helpviewer_keywords: ["GetVisualLookup","GetVisualLookup method [XPS Documents and Packaging]","GetVisualLookup method [XPS Documents and Packaging]","IXpsOMVisualBrush interface","IXpsOMVisualBrush interface [XPS Documents and Packaging]","GetVisualLookup method","IXpsOMVisualBrush.GetVisualLookup","IXpsOMVisualBrush::GetVisualLookup","xps.ixpsomvisualbrush_getvisuallookup","xpsobjectmodel/IXpsOMVisualBrush::GetVisualLookup"]
 old-location: xps\ixpsomvisualbrush_getvisuallookup.htm
 tech.root: printdocs
 ms.assetid: 091cb7f3-6302-40a0-b509-c72e20109f75

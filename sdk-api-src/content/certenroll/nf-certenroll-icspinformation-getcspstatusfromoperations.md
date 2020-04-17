@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICspInformation.GetCspStatusFromOperations
 title: ICspInformation::GetCspStatusFromOperations (certenroll.h)
-description: Creates an ICspStatus object for the first supported algorithm that is consistent with the specified signature, encryption, hashing, or cipher operation.
+description: Creates an ICspStatus object for the first supported algorithm that is consistent with the specified signature, encryption, hashing, or cipher operation.helpviewer_keywords: ["GetCspStatusFromOperations","GetCspStatusFromOperations method [Security]","GetCspStatusFromOperations method [Security]","ICspInformation interface","ICspInformation interface [Security]","GetCspStatusFromOperations method","ICspInformation.GetCspStatusFromOperations","ICspInformation::GetCspStatusFromOperations","certenroll/ICspInformation::GetCspStatusFromOperations","security.icspinformation_getcspstatusfromoperations"]
 old-location: security\icspinformation_getcspstatusfromoperations.htm
 tech.root: seccertenroll
 ms.assetid: 6b551e72-2f0a-4ae8-ba06-dff1508a7d83

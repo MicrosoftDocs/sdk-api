@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidFeature
 title: IMSVidFeature (segment.h)
-description: The IMSVidFeature interface represents a feature that is available through the Video Control, such as data services or closed captioning.
+description: The IMSVidFeature interface represents a feature that is available through the Video Control, such as data services or closed captioning.helpviewer_keywords: ["IMSVidFeature","IMSVidFeature interface [Microsoft TV Technologies]","IMSVidFeature interface [Microsoft TV Technologies]","described","IMSVidFeatureInterface","mstv.imsvidfeature","segment/IMSVidFeature"]
 old-location: mstv\imsvidfeature.htm
 tech.root: mstv
 ms.assetid: 0512e1d6-e10e-421e-846c-4bcd7e86d0e7

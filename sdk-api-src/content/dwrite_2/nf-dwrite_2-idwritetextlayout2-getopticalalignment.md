@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetOpticalAlignment
 title: IDWriteTextLayout2::GetOpticalAlignment (dwrite_2.h)
-description: Get how the glyphs align to the edges the margin.
+description: Get how the glyphs align to the edges the margin.helpviewer_keywords: ["GetOpticalAlignment","GetOpticalAlignment method [Direct Write]","GetOpticalAlignment method [Direct Write]","IDWriteTextLayout2 interface","IDWriteTextLayout2 interface [Direct Write]","GetOpticalAlignment method","IDWriteTextLayout2.GetOpticalAlignment","IDWriteTextLayout2::GetOpticalAlignment","directwrite.idwritetextlayout2_getopticalalignment","dwrite_2/IDWriteTextLayout2::GetOpticalAlignment"]
 old-location: directwrite\idwritetextlayout2_getopticalalignment.htm
 tech.root: DirectWrite
 ms.assetid: C372B1F9-E874-48AE-B22E-72D883B6DBF9

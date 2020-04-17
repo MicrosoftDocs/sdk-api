@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi.IDXGIResource.GetUsage
 title: IDXGIResource::GetUsage (dxgi.h)
-description: Get the expected resource usage.
+description: Get the expected resource usage.helpviewer_keywords: ["1fc82eef-f409-1d78-ab65-dd0124809d16","GetUsage","GetUsage method [DXGI]","GetUsage method [DXGI]","IDXGIResource interface","IDXGIResource interface [DXGI]","GetUsage method","IDXGIResource.GetUsage","IDXGIResource::GetUsage","direct3ddxgi.idxgiresource_getusage","dxgi/IDXGIResource::GetUsage"]
 old-location: direct3ddxgi\idxgiresource_getusage.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_getusage.htm

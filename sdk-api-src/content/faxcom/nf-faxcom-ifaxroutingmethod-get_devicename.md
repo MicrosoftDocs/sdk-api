@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_DeviceName
 title: IFaxRoutingMethod::get_DeviceName (faxcom.h)
-description: The IFaxRoutingMethod::get_DeviceName property is a null-terminated string that contains the user-friendly display name for a fax port.
+description: The IFaxRoutingMethod::get_DeviceName property is a null-terminated string that contains the user-friendly display name for a fax port.helpviewer_keywords: ["DeviceName property [Fax Service]","DeviceName property [Fax Service]","IFaxRoutingMethod interface","IFaxRoutingMethod interface [Fax Service]","DeviceName property","IFaxRoutingMethod.DeviceName","IFaxRoutingMethod.get_DeviceName","IFaxRoutingMethod::DeviceName","IFaxRoutingMethod::get_DeviceName","_mfax_ifaxroutingmethod_get_devicename","fax._mfax_ifaxroutingmethod_get_devicename","fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_devicename_cpp","faxcom/IFaxRoutingMethod::DeviceName","faxcom/IFaxRoutingMethod::get_DeviceName","get_DeviceName"]
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_devicename_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0tk5.htm

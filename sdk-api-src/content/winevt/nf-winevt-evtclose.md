@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtClose
 title: EvtClose function (winevt.h)
-description: Closes an open handle.
+description: Closes an open handle.helpviewer_keywords: ["EvtClose","EvtClose function [EventLog]","wes.evtclose","winevt/EvtClose"]
 old-location: wes\evtclose.htm
 tech.root: wes
 ms.assetid: c4b82d7b-508d-45bf-b990-04e90e846525

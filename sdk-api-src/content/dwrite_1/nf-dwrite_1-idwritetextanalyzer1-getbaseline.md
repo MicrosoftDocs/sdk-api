@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetBaseline
 title: IDWriteTextAnalyzer1::GetBaseline (dwrite_1.h)
-description: Retrieves the given baseline from the font.
+description: Retrieves the given baseline from the font.helpviewer_keywords: ["GetBaseline","GetBaseline method [Direct Write]","GetBaseline method [Direct Write]","IDWriteTextAnalyzer1 interface","IDWriteTextAnalyzer1 interface [Direct Write]","GetBaseline method","IDWriteTextAnalyzer1.GetBaseline","IDWriteTextAnalyzer1::GetBaseline","directwrite.idwritetextanalyzer1_getbaseline","dwrite_1/IDWriteTextAnalyzer1::GetBaseline"]
 old-location: directwrite\idwritetextanalyzer1_getbaseline.htm
 tech.root: DirectWrite
 ms.assetid: 5ACD5075-BD96-41FC-AE36-8D5D03F2EB54

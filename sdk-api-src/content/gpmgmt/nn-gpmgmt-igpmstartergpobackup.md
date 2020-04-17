@@ -1,7 +1,7 @@
 ---
 UID: NN:gpmgmt.IGPMStarterGPOBackup
 title: IGPMStarterGPOBackup (gpmgmt.h)
-description: The IGPMStarterGPOBackup interface supports methods that allow you to delete GPMStarterGPOBackup objects and to retrieve various properties of GPMStarterGPOBackup objects.
+description: The IGPMStarterGPOBackup interface supports methods that allow you to delete GPMStarterGPOBackup objects and to retrieve various properties of GPMStarterGPOBackup objects.helpviewer_keywords: ["GPMStarterGPOBackup","IGPMStarterGPOBackup","IGPMStarterGPOBackup interface [GPMC]","IGPMStarterGPOBackup interface [GPMC]","described","gpmc.igpmstartergpobackup","gpmgmt/IGPMStarterGPOBackup"]
 old-location: gpmc\igpmstartergpobackup.htm
 tech.root: gpmc
 ms.assetid: b062da03-6d9c-42b3-a4aa-5a7a6a38e4c9

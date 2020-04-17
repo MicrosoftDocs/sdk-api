@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IMediaControl.get_RegFilterCollection
 title: IMediaControl::get_RegFilterCollection (control.h)
-description: The get_RegFilterCollection method retrieves a collection of all the filters listed in the registry.
+description: The get_RegFilterCollection method retrieves a collection of all the filters listed in the registry.helpviewer_keywords: ["IMediaControl interface [DirectShow]","get_RegFilterCollection method","IMediaControl.get_RegFilterCollection","IMediaControl::get_RegFilterCollection","IMediaControlget_RegFilterCollection","control/IMediaControl::get_RegFilterCollection","dshow.imediacontrol_get_regfiltercollection","get_RegFilterCollection","get_RegFilterCollection method [DirectShow]","get_RegFilterCollection method [DirectShow]","IMediaControl interface"]
 old-location: dshow\imediacontrol_get_regfiltercollection.htm
 tech.root: DirectShow
 ms.assetid: 55257cef-2777-4a88-8805-e474e3b13c75

@@ -1,7 +1,7 @@
 ---
 UID: NF:eappapis.EapHostPeerSetResponseAttributes
 title: EapHostPeerSetResponseAttributes function (eappapis.h)
-description: Provides updated EAP authentication attributes to EAPHost.
+description: Provides updated EAP authentication attributes to EAPHost.helpviewer_keywords: ["EapHostPeerSetResponseAttributes","EapHostPeerSetResponseAttributes function [EAPHost]","eaphost.eaphostpeersetresponseattributes","eappapis/EapHostPeerSetResponseAttributes"]
 old-location: eaphost\eaphostpeersetresponseattributes.htm
 tech.root: eaphost
 ms.assetid: b8ce5510-f5ba-403c-8709-940ae58cd10d

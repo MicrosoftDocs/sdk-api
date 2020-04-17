@@ -1,7 +1,7 @@
 ---
 UID: NF:evcoll.EcSetSubscriptionProperty
 title: EcSetSubscriptionProperty function (evcoll.h)
-description: Sets new values or updates existing values of a subscription.
+description: Sets new values or updates existing values of a subscription.helpviewer_keywords: ["EcSetSubscriptionProperty","EcSetSubscriptionProperty function","evcoll/EcSetSubscriptionProperty","wec.ecsetsubscriptionproperty","wes.ecsetsubscriptionproperty"]
 old-location: wec\ecsetsubscriptionproperty.htm
 tech.root: WEC
 ms.assetid: acba54af-d09d-4de9-bd5d-e7441bf56b9b

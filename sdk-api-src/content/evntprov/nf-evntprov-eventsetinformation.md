@@ -1,7 +1,7 @@
 ---
 UID: NF:evntprov.EventSetInformation
 title: EventSetInformation function (evntprov.h)
-description: Performs operations on a registration object.
+description: Performs operations on a registration object.helpviewer_keywords: ["EventSetInformation","EventSetInformation function [ETW]","etw.eventsetinformation","evntprov/EventSetInformation"]
 old-location: etw\eventsetinformation.htm
 tech.root: ETW
 ms.assetid: e8b408ba-4bb5-4166-bf43-d18e4fe8de32

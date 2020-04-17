@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwServiceRestriction.get_Rules
 title: INetFwServiceRestriction::get_Rules (netfw.h)
-description: Retrieves the collection of Windows Service Hardening networking rules.
+description: Retrieves the collection of Windows Service Hardening networking rules.helpviewer_keywords: ["INetFwServiceRestriction interface [ICS/ICF]","Rules property","INetFwServiceRestriction.Rules","INetFwServiceRestriction.get_Rules","INetFwServiceRestriction::Rules","INetFwServiceRestriction::get_Rules","Rules property [ICS/ICF]","Rules property [ICS/ICF]","INetFwServiceRestriction interface","get_Rules","ics.inetfwservicerestriction_rules","netfw/INetFwServiceRestriction::Rules","netfw/INetFwServiceRestriction::get_Rules"]
 old-location: ics\inetfwservicerestriction_rules.htm
 tech.root: ics
 ms.assetid: 12846607-daf7-43ce-8278-89db15b95a81

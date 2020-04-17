@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetCopyableFootprints
 title: ID3D12Device::GetCopyableFootprints (d3d12.h)
-description: Gets a resource layout that can be copied. Helps the app fill-in D3D12_PLACED_SUBRESOURCE_FOOTPRINT and D3D12_SUBRESOURCE_FOOTPRINT when suballocating space in upload heaps.
+description: Gets a resource layout that can be copied. Helps the app fill-in D3D12_PLACED_SUBRESOURCE_FOOTPRINT and D3D12_SUBRESOURCE_FOOTPRINT when suballocating space in upload heaps.helpviewer_keywords: ["GetCopyableFootprints","GetCopyableFootprints method","GetCopyableFootprints method","ID3D12Device interface","ID3D12Device interface","GetCopyableFootprints method","ID3D12Device.GetCopyableFootprints","ID3D12Device::GetCopyableFootprints","d3d12/ID3D12Device::GetCopyableFootprints","direct3d12.id3d12device_getcopyablefootprints"]
 old-location: direct3d12\id3d12device_getcopyablefootprints.htm
 tech.root: direct3d12
 ms.assetid: EB3715A9-5A73-45DA-A46F-7889188409A3

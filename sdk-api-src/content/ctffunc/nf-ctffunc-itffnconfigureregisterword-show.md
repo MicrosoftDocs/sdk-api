@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfFnConfigureRegisterWord.Show
 title: ITfFnConfigureRegisterWord::Show (ctffunc.h)
-description: ITfFnConfigureRegisterWord::Show method
+description: ITfFnConfigureRegisterWord::Show methodhelpviewer_keywords: ["ITfFnConfigureRegisterWord interface [Text Services Framework]","Show method","ITfFnConfigureRegisterWord.Show","ITfFnConfigureRegisterWord::Show","Show","Show method [Text Services Framework]","Show method [Text Services Framework]","ITfFnConfigureRegisterWord interface","_tsf_itffnconfigureregisterword_show_ref","ctffunc/ITfFnConfigureRegisterWord::Show","tsf.itffnconfigureregisterword_show"]
 old-location: tsf\itffnconfigureregisterword_show.htm
 tech.root: TSF
 ms.assetid: 61eb7452-2ada-4832-bd16-87ac56fedc6d

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI1FromCy
 title: VarUI1FromCy function (oleauto.h)
-description: Converts a currency value to an unsigned char value.
+description: Converts a currency value to an unsigned char value.helpviewer_keywords: ["VarUI1FromCy","VarUI1FromCy function [Automation]","_oa96_VarUI1FromCy","automat.varui1fromcy","oleauto/VarUI1FromCy"]
 old-location: automat\varui1fromcy.htm
 tech.root: automat
 ms.assetid: cbfa7892-2e46-4768-a7b6-f51e0cee0f81

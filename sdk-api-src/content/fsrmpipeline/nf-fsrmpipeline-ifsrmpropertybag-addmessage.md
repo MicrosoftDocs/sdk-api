@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.AddMessage
 title: IFsrmPropertyBag::AddMessage (fsrmpipeline.h)
-description: Adds an error message to the bag.
+description: Adds an error message to the bag.helpviewer_keywords: ["AddMessage","AddMessage method [File Server Resource Manager]","AddMessage method [File Server Resource Manager]","IFsrmPropertyBag interface","IFsrmPropertyBag interface [File Server Resource Manager]","AddMessage method","IFsrmPropertyBag.AddMessage","IFsrmPropertyBag::AddMessage","fs.ifsrmpropertybag_addmessage","fsrm.ifsrmpropertybag_addmessage","fsrmpipeline/IFsrmPropertyBag::AddMessage"]
 old-location: fsrm\ifsrmpropertybag_addmessage.htm
 tech.root: fsrm
 ms.assetid: 2d9166fd-5211-4114-843f-2c6563941715

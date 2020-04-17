@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.UuidToStringW
 title: UuidToStringW function (rpcdce.h)
-description: The UuidToString function converts a UUID to a string.
+description: The UuidToString function converts a UUID to a string.helpviewer_keywords: ["UuidToString","UuidToString function [RPC]","UuidToStringA","UuidToStringW","_rpc_uuidtostring","rpc.uuidtostring","rpcdce/UuidToString","rpcdce/UuidToStringA","rpcdce/UuidToStringW"]
 old-location: rpc\uuidtostring.htm
 tech.root: Rpc
 ms.assetid: 49235b28-a0c5-4f69-9932-85350d7bcbb8

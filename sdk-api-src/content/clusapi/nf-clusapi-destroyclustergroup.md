@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.DestroyClusterGroup
 title: DestroyClusterGroup function (clusapi.h)
-description: Deletes the specified group from a cluster.
+description: Deletes the specified group from a cluster.helpviewer_keywords: ["DestroyClusterGroup","DestroyClusterGroup function [Failover Cluster]","PCLUSAPI_DESTROY_CLUSTER_GROUP","PCLUSAPI_DESTROY_CLUSTER_GROUP function [Failover Cluster]","clusapi/DestroyClusterGroup","clusapi/PCLUSAPI_DESTROY_CLUSTER_GROUP","mscs.destroyclustergroup"]
 old-location: mscs\destroyclustergroup.htm
 tech.root: MsCS
 ms.assetid: ac293d5b-edc8-4c5f-9b05-9e2349bf1453

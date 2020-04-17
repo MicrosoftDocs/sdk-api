@@ -1,7 +1,7 @@
 ---
 UID: NC:winfax.PFAXOPENPORT
 title: PFAXOPENPORT (winfax.h)
-description: The FaxOpenPort function returns a fax port handle to a fax client application. The port handle is required when the application calls other fax client functions that facilitate device management and fax document routing.
+description: The FaxOpenPort function returns a fax port handle to a fax client application. The port handle is required when the application calls other fax client functions that facilitate device management and fax document routing.helpviewer_keywords: ["FaxOpenPortA","FaxOpenPortW","PFAXOPENPORT","PFAXOPENPORT callback","PFAXOPENPORT callback function [Fax Service]","PORT_OPEN_MODIFY","PORT_OPEN_QUERY","_mfax_faxopenport","fax._mfax_faxopenport","winfax/FaxOpenPortA","winfax/FaxOpenPortW","winfax/PFAXOPENPORT"]
 old-location: fax\_mfax_faxopenport.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_15ro.htm

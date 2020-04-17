@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.SetDeinterlacePrefs
 title: IVMRDeinterlaceControl::SetDeinterlacePrefs (strmif.h)
-description: The SetDeinterlacePrefs method specifies how the VMR will select a deinterlacing mode if it cannot use the preferred deinterlacing mode.
+description: The SetDeinterlacePrefs method specifies how the VMR will select a deinterlacing mode if it cannot use the preferred deinterlacing mode.helpviewer_keywords: ["IVMRDeinterlaceControl interface [DirectShow]","SetDeinterlacePrefs method","IVMRDeinterlaceControl.SetDeinterlacePrefs","IVMRDeinterlaceControl::SetDeinterlacePrefs","IVMRDeinterlaceControlSetDeinterlacePrefs","SetDeinterlacePrefs","SetDeinterlacePrefs method [DirectShow]","SetDeinterlacePrefs method [DirectShow]","IVMRDeinterlaceControl interface","dshow.ivmrdeinterlacecontrol_setdeinterlaceprefs","strmif/IVMRDeinterlaceControl::SetDeinterlacePrefs"]
 old-location: dshow\ivmrdeinterlacecontrol_setdeinterlaceprefs.htm
 tech.root: DirectShow
 ms.assetid: 5a78b8cc-ecf8-4e0a-87f0-56b7aac6abdd

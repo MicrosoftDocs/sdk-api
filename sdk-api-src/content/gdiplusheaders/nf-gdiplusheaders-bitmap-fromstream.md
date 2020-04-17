@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromStream
 title: Bitmap::FromStream (gdiplusheaders.h)
-description: The Bitmap::FromStream method creates a Bitmap object based on a stream.
+description: The Bitmap::FromStream method creates a Bitmap object based on a stream.helpviewer_keywords: ["Bitmap class [GDI+]","FromStream method","Bitmap.FromStream","Bitmap::FromStream","FromStream","FromStream method [GDI+]","FromStream method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_","gdiplus._gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromstream.htm

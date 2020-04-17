@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrm.IFsrmSetting
 title: IFsrmSetting (fsrm.h)
-description: Used to configure FSRM.
+description: Used to configure FSRM.helpviewer_keywords: ["IFsrmSetting","IFsrmSetting interface [File Server Resource Manager]","IFsrmSetting interface [File Server Resource Manager]","described","fs.ifsrmsetting","fsrm.ifsrmsetting","fsrm/IFsrmSetting"]
 old-location: fsrm\ifsrmsetting.htm
 tech.root: fsrm
 ms.assetid: 432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b

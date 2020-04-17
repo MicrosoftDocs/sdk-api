@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.StopRefreshing
 title: IWbemHiPerfProvider::StopRefreshing (wbemprov.h)
-description: Stops refreshing the object or enumerator corresponding to the supplied identifier.
+description: Stops refreshing the object or enumerator corresponding to the supplied identifier.helpviewer_keywords: ["IWbemHiPerfProvider interface [Windows Management Instrumentation]","StopRefreshing method","IWbemHiPerfProvider.StopRefreshing","IWbemHiPerfProvider::StopRefreshing","StopRefreshing","StopRefreshing method [Windows Management Instrumentation]","StopRefreshing method [Windows Management Instrumentation]","IWbemHiPerfProvider interface","_hmm_iwbemhiperfprovider_stoprefreshing","wbemprov/IWbemHiPerfProvider::StopRefreshing","wmi.iwbemhiperfprovider_stoprefreshing"]
 old-location: wmi\iwbemhiperfprovider_stoprefreshing.htm
 tech.root: WmiSdk
 ms.assetid: d1de54de-b57b-4e15-84b3-96cc36bf023b

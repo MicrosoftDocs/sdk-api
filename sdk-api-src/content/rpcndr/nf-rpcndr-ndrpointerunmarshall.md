@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.NdrPointerUnmarshall
 title: NdrPointerUnmarshall function (rpcndr.h)
-description: The NdrPointerUnmarshall function unmarshalls a top level pointer to anything. Pointers embedded in structures, arrays, or unions call NdrPointerUnmarshall directly.
+description: The NdrPointerUnmarshall function unmarshalls a top level pointer to anything. Pointers embedded in structures, arrays, or unions call NdrPointerUnmarshall directly.helpviewer_keywords: ["NdrPointerUnmarshall","NdrPointerUnmarshall function [RPC]","rpc.ndrpointerunmarshall","rpcndr/NdrPointerUnmarshall"]
 old-location: rpc\ndrpointerunmarshall.htm
 tech.root: Rpc
 ms.assetid: 6e4b0085-34bd-4f63-beea-a944ff0f853e

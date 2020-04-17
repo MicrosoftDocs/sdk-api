@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.VariantToDoubleArray
 title: VariantToDoubleArray function (propvarutil.h)
-description: Extracts an array of DOUBLE values from a VARIANT structure.
+description: Extracts an array of DOUBLE values from a VARIANT structure.helpviewer_keywords: ["VariantToDoubleArray","VariantToDoubleArray function [Windows Properties]","_shell_VariantToDoubleArray","properties.VariantToDoubleArray","propvarutil/VariantToDoubleArray","shell.VariantToDoubleArray"]
 old-location: properties\VariantToDoubleArray.htm
 tech.root: properties
 ms.assetid: 6830c2e2-d19a-45d5-af15-debfb08548bc

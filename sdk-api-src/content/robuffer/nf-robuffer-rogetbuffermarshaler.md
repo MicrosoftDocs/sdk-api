@@ -1,7 +1,7 @@
 ---
 UID: NF:robuffer.RoGetBufferMarshaler
 title: RoGetBufferMarshaler function (robuffer.h)
-description: Provides a standard IBuffer marshaler to implement the semantics associated with the IBuffer interface when it is marshaled.
+description: Provides a standard IBuffer marshaler to implement the semantics associated with the IBuffer interface when it is marshaled.helpviewer_keywords: ["RoGetBufferMarshaler","RoGetBufferMarshaler function [Windows Runtime]","robuffer/RoGetBufferMarshaler","winrt.rogetbuffermarshaler"]
 old-location: winrt\rogetbuffermarshaler.htm
 tech.root: WinRT
 ms.assetid: 7F40FDC9-C6CF-44C3-AC30-EA56AB72E635

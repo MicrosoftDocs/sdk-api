@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_RESERVATION_INFO_ARRAY
 title: DHCP_RESERVATION_INFO_ARRAY (dhcpsapi.h)
-description: The DHCP_RESERVATION_INFO_ARRAY structure defines an array of IPv4 reservations for DHCPv4 clients.
+description: The DHCP_RESERVATION_INFO_ARRAY structure defines an array of IPv4 reservations for DHCPv4 clients.helpviewer_keywords: ["*LPDHCP_RESERVATION_INFO_ARRAY","DHCP_RESERVATION_INFO_ARRAY","DHCP_RESERVATION_INFO_ARRAY structure [DHCP]","LPDHCP_RESERVATION_INFO_ARRAY","LPDHCP_RESERVATION_INFO_ARRAY structure pointer [DHCP]","dhcp.dhcp_reservation_info_array","dhcpsapi/DHCP_RESERVATION_INFO_ARRAY","dhcpsapi/LPDHCP_RESERVATION_INFO_ARRAY"]
 old-location: dhcp\dhcp_reservation_info_array.htm
 tech.root: DHCP
 ms.assetid: 9823ee47-6b61-4256-8fac-d301d72774ec

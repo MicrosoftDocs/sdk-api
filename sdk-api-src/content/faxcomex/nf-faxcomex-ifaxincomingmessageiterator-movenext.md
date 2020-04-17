@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessageIterator.MoveNext
 title: IFaxIncomingMessageIterator::MoveNext (faxcomex.h)
-description: The MoveNext method moves the archive cursor to the next message in the archive of inbound faxes.
+description: The MoveNext method moves the archive cursor to the next message in the archive of inbound faxes.helpviewer_keywords: ["IFaxIncomingMessageIterator interface [Fax Service]","MoveNext method","IFaxIncomingMessageIterator.MoveNext","IFaxIncomingMessageIterator::MoveNext","MoveNext","MoveNext method [Fax Service]","MoveNext method [Fax Service]","IFaxIncomingMessageIterator interface","_mfax_faxincomingmessageiterator.movenext","fax._mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_movenext_cpp","fax._mfax_faxincomingmessageiterator_movenext","faxcomex/IFaxIncomingMessageIterator::MoveNext"]
 old-location: fax\_mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_movenext_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_27lg.htm

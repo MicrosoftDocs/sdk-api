@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.GetEntryByIndex
 title: ITocEntryList::GetEntryByIndex (wmcodecdsp.h)
-description: The GetEntryByIndex method retrieves an entry, specified by an index, from the list.
+description: The GetEntryByIndex method retrieves an entry, specified by an index, from the list.helpviewer_keywords: ["GetEntryByIndex","GetEntryByIndex method [Media Foundation]","GetEntryByIndex method [Media Foundation]","ITocEntryList interface","ITocEntryList interface [Media Foundation]","GetEntryByIndex method","ITocEntryList.GetEntryByIndex","ITocEntryList::GetEntryByIndex","codecapi.itocentrylist_getentrybyindex","mf.itocentrylist_getentrybyindex","wmcodecdsp/ITocEntryList::GetEntryByIndex"]
 old-location: mf\itocentrylist_getentrybyindex.htm
 tech.root: medfound
 ms.assetid: cf2171c9-67ce-4acb-97cc-af17203e815b

@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsdefs._WRDS_LISTENER_SETTINGS
 title: WRDS_LISTENER_SETTINGS (wtsdefs.h)
-description: Contains listener setting information for a remote session.
+description: Contains listener setting information for a remote session.helpviewer_keywords: ["*PWRDS_LISTENER_SETTINGS","PWRDS_LISTENER_SETTINGS","PWRDS_LISTENER_SETTINGS structure pointer [Remote Desktop Services]","WRDS_LISTENER_SETTINGS","WRDS_LISTENER_SETTINGS structure [Remote Desktop Services]","WRDS_LISTENER_SETTING_LEVEL_1","termserv.wrds_listener_settings","wtsdefs/PWRDS_LISTENER_SETTINGS","wtsdefs/WRDS_LISTENER_SETTINGS"]
 old-location: termserv\wrds_listener_settings.htm
 tech.root: TermServ
 ms.assetid: 75C9C9AF-9C27-402C-886D-269BF567825F

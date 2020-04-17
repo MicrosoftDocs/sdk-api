@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetPackagesByPackageFamily
 title: GetPackagesByPackageFamily function (appmodel.h)
-description: Gets the packages with the specified family name for the current user.
+description: Gets the packages with the specified family name for the current user.helpviewer_keywords: ["GetPackagesByPackageFamily","GetPackagesByPackageFamily function [App packaging and management]","appmodel/GetPackagesByPackageFamily","appxpkg.getpackagesbypackagefamily"]
 old-location: appxpkg\getpackagesbypackagefamily.htm
 tech.root: appxpkg
 ms.assetid: C2163203-D654-4491-9090-0CC43F42EC35

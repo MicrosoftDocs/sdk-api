@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMLoadFloat4A
 title: XMLoadFloat4A function (directxmath.h)
-description: Loads an XMFLOAT4A into an XMVECTOR.
+description: Loads an XMFLOAT4A into an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMLoadFloat4A","XMLoadFloat4A","XMLoadFloat4A method [DirectX Math Support APIs]","dxmath.xmloadfloat4a"]
 old-location: dxmath\xmloadfloat4a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat4A(const XMFLOAT4A)

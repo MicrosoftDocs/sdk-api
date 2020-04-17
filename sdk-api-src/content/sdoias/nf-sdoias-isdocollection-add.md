@@ -1,7 +1,7 @@
 ---
 UID: NF:sdoias.ISdoCollection.Add
 title: ISdoCollection::Add (sdoias.h)
-description: The Add method adds an item to the Server Data Objects (SDO) collection.
+description: The Add method adds an item to the Server Data Objects (SDO) collection.helpviewer_keywords: ["Add","Add method [Network Policy Server]","Add method [Network Policy Server]","ISdoCollection interface","ISdoCollection interface [Network Policy Server]","Add method","ISdoCollection.Add","ISdoCollection::Add","_sdo_isdocollection_add","nps.SDO_isdocollection_add","sdo.isdocollection_add","sdoias/ISdoCollection::Add"]
 old-location: nps\SDO_isdocollection_add.htm
 tech.root: Nps
 ms.assetid: a575b224-9827-47f3-a819-bd793200c901

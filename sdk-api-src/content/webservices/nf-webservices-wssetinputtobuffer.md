@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsSetInputToBuffer
 title: WsSetInputToBuffer function (webservices.h)
-description: Sets Reader input to a specified XML buffer. Reader properties specified to WsSetInputToBuffer override properties set by WsCreateReader.
+description: Sets Reader input to a specified XML buffer. Reader properties specified to WsSetInputToBuffer override properties set by WsCreateReader.helpviewer_keywords: ["WsSetInputToBuffer","WsSetInputToBuffer function [Web Services for Windows]","webservices/WsSetInputToBuffer","wsw.wssetinputtobuffer"]
 old-location: wsw\wssetinputtobuffer.htm
 tech.root: wsw
 ms.assetid: 0b3ac6ab-8c16-4189-950d-84bdcdabcde0

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetCurrentDeviceMediaType
 title: IMFCaptureSource::GetCurrentDeviceMediaType (mfcaptureengine.h)
-description: Gets the current media type for a capture stream.
+description: Gets the current media type for a capture stream.helpviewer_keywords: ["GetCurrentDeviceMediaType","GetCurrentDeviceMediaType method [Media Foundation]","GetCurrentDeviceMediaType method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","GetCurrentDeviceMediaType method","IMFCaptureSource.GetCurrentDeviceMediaType","IMFCaptureSource::GetCurrentDeviceMediaType","MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM","mf.imfcapturesource_getcurrentdevicemediatype","mfcaptureengine/IMFCaptureSource::GetCurrentDeviceMediaType"]
 old-location: mf\imfcapturesource_getcurrentdevicemediatype.htm
 tech.root: medfound
 ms.assetid: 8F263F5C-D1B4-4DF7-AFCB-E27575FBAAA2

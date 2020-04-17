@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleY(float)
 title: IDCompositionSkewTransform::SetAngleY (dcomp.h)
-description: Changes the value of the AngleY property of a 2D skew transform.
+description: Changes the value of the AngleY property of a 2D skew transform.helpviewer_keywords: ["IDCompositionSkewTransform interface [DirectComposition]","SetAngleY method","IDCompositionSkewTransform.SetAngleY","IDCompositionSkewTransform::SetAngleY","IDCompositionSkewTransform::SetAngleY(float)","SetAngleY","SetAngleY method [DirectComposition]","SetAngleY method [DirectComposition]","IDCompositionSkewTransform interface","dcomp/IDCompositionSkewTransform::SetAngleY","directcomp.idcompositionskewtransform_setangley_float"]
 old-location: directcomp\idcompositionskewtransform_setangley_float.htm
 tech.root: directcomp
 ms.assetid: 5B356D5E-2F69-4620-880C-14F51786A8A5

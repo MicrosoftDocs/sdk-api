@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.ISequentialStream.Write
 title: ISequentialStream::Write (objidl.h)
-description: Writes a specified number of bytes into the stream object starting at the current seek pointer.
+description: Writes a specified number of bytes into the stream object starting at the current seek pointer.helpviewer_keywords: ["ISequentialStream interface [Structured Storage]","Write method","ISequentialStream.Write","ISequentialStream::Write","Write","Write method [Structured Storage]","Write method [Structured Storage]","ISequentialStream interface","_stg_isequentialstream_write","objidl/ISequentialStream::Write","stg.isequentialstream_write"]
 old-location: stg\isequentialstream_write.htm
 tech.root: Stg
 ms.assetid: f0323dda-6c31-4411-bf20-9650162109c0

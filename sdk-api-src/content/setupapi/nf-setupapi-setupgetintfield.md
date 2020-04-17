@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetIntField
 title: SetupGetIntField function (setupapi.h)
-description: The SetupGetIntField function retrieves an integer value from the specified field of a line in an INF file.
+description: The SetupGetIntField function retrieves an integer value from the specified field of a line in an INF file.helpviewer_keywords: ["SetupGetIntField","SetupGetIntField function [Setup API]","_setupapi_setupgetintfield","setup.setupgetintfield","setupapi/SetupGetIntField"]
 old-location: setup\setupgetintfield.htm
 tech.root: SetupApi
 ms.assetid: 4c77052a-46ef-4154-82c0-5ec447861bcf

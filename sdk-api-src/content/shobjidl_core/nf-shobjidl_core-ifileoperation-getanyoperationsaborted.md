@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.GetAnyOperationsAborted
 title: IFileOperation::GetAnyOperationsAborted (shobjidl_core.h)
-description: Gets a value that states whether any file operations initiated by a call to IFileOperation::PerformOperations were stopped before they were complete. The operations could be stopped either by user action or silently by the system.
+description: Gets a value that states whether any file operations initiated by a call to IFileOperation::PerformOperations were stopped before they were complete. The operations could be stopped either by user action or silently by the system.helpviewer_keywords: ["GetAnyOperationsAborted","GetAnyOperationsAborted method [Windows Shell]","GetAnyOperationsAborted method [Windows Shell]","IFileOperation interface","IFileOperation interface [Windows Shell]","GetAnyOperationsAborted method","IFileOperation.GetAnyOperationsAborted","IFileOperation::GetAnyOperationsAborted","_shell_IFileOperation_GetAnyOperationsAborted","shell.IFileOperation_GetAnyOperationsAborted","shobjidl_core/IFileOperation::GetAnyOperationsAborted"]
 old-location: shell\IFileOperation_GetAnyOperationsAborted.htm
 tech.root: shell
 ms.assetid: 988f78a8-3a50-44d8-9214-7cf71be72d38

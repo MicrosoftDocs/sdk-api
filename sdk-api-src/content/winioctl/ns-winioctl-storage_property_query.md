@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._STORAGE_PROPERTY_QUERY
 title: STORAGE_PROPERTY_QUERY
-description: Indicates the properties of a storage device or adapter to retrieve as the input buffer passed to the IOCTL_STORAGE_QUERY_PROPERTY control code.
+description: Indicates the properties of a storage device or adapter to retrieve as the input buffer passed to the IOCTL_STORAGE_QUERY_PROPERTY control code.helpviewer_keywords: ["*PSTORAGE_PROPERTY_QUERY","PSTORAGE_PROPERTY_QUERY","PSTORAGE_PROPERTY_QUERY structure pointer [Files]","PropertyExistsQuery","PropertyStandardQuery","STORAGE_PROPERTY_QUERY","STORAGE_PROPERTY_QUERY structure [Files]","fs.storage_property_query","winioctl/PSTORAGE_PROPERTY_QUERY","winioctl/STORAGE_PROPERTY_QUERY"]
 old-location: fs\storage_property_query.htm
 tech.root: FileIO
 ms.assetid: c97a14ab-628c-41f1-96c3-0f47654d0606

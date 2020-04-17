@@ -1,7 +1,7 @@
 ---
 UID: NN:windowsstoragecom.IStorageItemHandleAccess
 title: IStorageItemHandleAccess (windowsstoragecom.h)
-description: Provides access to the operating system handle of a storage file.
+description: Provides access to the operating system handle of a storage file.helpviewer_keywords: ["IStorageHandleAccess","IStorageItemHandleAccess","IStorageItemHandleAccess interface [Windows Runtime]","IStorageItemHandleAccess interface [Windows Runtime]","described","windowsstoragecom/IStorageHandleAccess","winrt.istoragehandleaccess"]
 old-location: winrt\istoragehandleaccess.htm
 tech.root: WinRT
 ms.assetid: 802E6D88-7AFC-4C15-8906-3C08CB44707B

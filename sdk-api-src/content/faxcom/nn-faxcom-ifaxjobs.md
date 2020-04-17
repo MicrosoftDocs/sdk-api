@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcom.IFaxJobs
 title: IFaxJobs (faxcom.h)
-description: The IFaxJobs dual interface is used by a fax client application to access the FaxJob objects derived from a FaxServer object. The interface enumerates the fax jobs associated with a connected fax server.
+description: The IFaxJobs dual interface is used by a fax client application to access the FaxJob objects derived from a FaxServer object. The interface enumerates the fax jobs associated with a connected fax server.helpviewer_keywords: ["IFaxJobs","IFaxJobs interface [Fax Service]","IFaxJobs interface [Fax Service]","described","_mfax_ifaxjobs","fax._mfax_ifaxjobs","faxcom/IFaxJobs"]
 old-location: fax\_mfax_ifaxjobs.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8bjn.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetDestinationPort
 title: MI_DestinationOptions_GetDestinationPort function (mi.h)
-description: Gets the default port for transport.
+description: Gets the default port for transport.helpviewer_keywords: ["MI_DestinationOptions_GetDestinationPort","MI_DestinationOptions_GetDestinationPort function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetDestinationPort","wmi_v2.mi_destinationoptions_getdestinationport"]
 old-location: wmi_v2\mi_destinationoptions_getdestinationport.htm
 tech.root: wmi_v2
 ms.assetid: 49621cd8-a4ce-45b3-a20e-ecdef220d7e4

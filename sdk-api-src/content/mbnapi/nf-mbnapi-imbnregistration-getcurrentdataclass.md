@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetCurrentDataClass
 title: IMbnRegistration::GetCurrentDataClass (mbnapi.h)
-description: Gets the current data class in the current network.
+description: Gets the current data class in the current network.helpviewer_keywords: ["GetCurrentDataClass","GetCurrentDataClass method [Microsoft Broadband Networks]","GetCurrentDataClass method [Microsoft Broadband Networks]","IMbnRegistration interface","IMbnRegistration interface [Microsoft Broadband Networks]","GetCurrentDataClass method","IMbnRegistration.GetCurrentDataClass","IMbnRegistration::GetCurrentDataClass","mbn.imbnregistration_getcurrentdataclass","mbnapi/IMbnRegistration::GetCurrentDataClass"]
 old-location: mbn\imbnregistration_getcurrentdataclass.htm
 tech.root: mbn
 ms.assetid: 365458a4-74df-4283-94db-3d855acadffe

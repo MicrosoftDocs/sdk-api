@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceEnumerator.GetCurrent
 title: IOpcSignatureRelationshipReferenceEnumerator::GetCurrent (msopc.h)
-description: Gets the IOpcSignatureRelationshipReference interface pointer at the current position of the enumerator.
+description: Gets the IOpcSignatureRelationshipReference interface pointer at the current position of the enumerator.helpviewer_keywords: ["GetCurrent","GetCurrent method [Open Packaging Conventions]","GetCurrent method [Open Packaging Conventions]","IOpcSignatureRelationshipReferenceEnumerator interface","IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions]","GetCurrent method","IOpcSignatureRelationshipReferenceEnumerator.GetCurrent","IOpcSignatureRelationshipReferenceEnumerator::GetCurrent","msopc/IOpcSignatureRelationshipReferenceEnumerator::GetCurrent","opc.iopcsignaturerelationshipreferenceenumerator_getcurrent"]
 old-location: opc\iopcsignaturerelationshipreferenceenumerator_getcurrent.htm
 tech.root: OPC
 ms.assetid: 18aac7c9-db1a-4fc5-896e-7a02c12788f2

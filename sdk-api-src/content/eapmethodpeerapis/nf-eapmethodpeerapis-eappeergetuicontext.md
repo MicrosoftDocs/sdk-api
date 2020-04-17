@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetUIContext
 title: EapPeerGetUIContext function (eapmethodpeerapis.h)
-description: Obtains the user interface context from the EAP method.
+description: Obtains the user interface context from the EAP method.helpviewer_keywords: ["EapPeerGetUIContext","EapPeerGetUIContext function [EAPHost]","eaphost.eappeergetuicontext","eapmethodpeerapis/EapPeerGetUIContext"]
 old-location: eaphost\eappeergetuicontext.htm
 tech.root: eaphost
 ms.assetid: 14bbffde-da24-4632-bd73-2f96dc983117

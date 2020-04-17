@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfDisplayAttributeInfo.Clone
 title: IEnumTfDisplayAttributeInfo::Clone (msctf.h)
-description: IEnumTfDisplayAttributeInfo::Clone method
+description: IEnumTfDisplayAttributeInfo::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfDisplayAttributeInfo interface","IEnumTfDisplayAttributeInfo interface [Text Services Framework]","Clone method","IEnumTfDisplayAttributeInfo.Clone","IEnumTfDisplayAttributeInfo::Clone","_tsf_ienumtfdisplayattributeinfo_clone_ref","msctf/IEnumTfDisplayAttributeInfo::Clone","tsf.ienumtfdisplayattributeinfo_clone"]
 old-location: tsf\ienumtfdisplayattributeinfo_clone.htm
 tech.root: TSF
 ms.assetid: 3cf57360-b07b-4a6c-850a-10c44895108d

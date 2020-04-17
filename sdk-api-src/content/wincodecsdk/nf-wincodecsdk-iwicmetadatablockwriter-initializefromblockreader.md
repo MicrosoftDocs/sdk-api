@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.InitializeFromBlockReader
 title: IWICMetadataBlockWriter::InitializeFromBlockReader (wincodecsdk.h)
-description: Initializes an IWICMetadataBlockWriter from the given IWICMetadataBlockReader. This will prepopulate the metadata block writer with all the metadata in the metadata block reader.
+description: Initializes an IWICMetadataBlockWriter from the given IWICMetadataBlockReader. This will prepopulate the metadata block writer with all the metadata in the metadata block reader.helpviewer_keywords: ["IWICMetadataBlockWriter interface [Windows Imaging Component]","InitializeFromBlockReader method","IWICMetadataBlockWriter.InitializeFromBlockReader","IWICMetadataBlockWriter::InitializeFromBlockReader","InitializeFromBlockReader","InitializeFromBlockReader method [Windows Imaging Component]","InitializeFromBlockReader method [Windows Imaging Component]","IWICMetadataBlockWriter interface","_wic_codec_iwicmetadatablockwriter_initializefromblockreader","wic._wic_codec_iwicmetadatablockwriter_initializefromblockreader","wincodecsdk/IWICMetadataBlockWriter::InitializeFromBlockReader"]
 old-location: wic\_wic_codec_iwicmetadatablockwriter_initializefromblockreader.htm
 tech.root: wic
 ms.assetid: 9ad9d818-7b3e-47eb-bc99-e26e7664383c

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontWeight
 title: IDWriteTextLayout::GetFontWeight (dwrite.h)
-description: Gets the font weight of the text at the specified position.
+description: Gets the font weight of the text at the specified position.helpviewer_keywords: ["GetFontWeight","GetFontWeight method [Direct Write]","GetFontWeight method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetFontWeight method","IDWriteTextLayout.GetFontWeight","IDWriteTextLayout::GetFontWeight","directwrite.IDWriteTextLayout_GetFontWeight","dwrite/IDWriteTextLayout::GetFontWeight"]
 old-location: directwrite\IDWriteTextLayout_GetFontWeight.htm
 tech.root: DirectWrite
 ms.assetid: e1c86c8e-f6d2-4c72-9117-f8ae4334a71b

@@ -1,7 +1,7 @@
 ---
 UID: NE:photoacquire.tagUSER_INPUT_STRING_TYPE
 title: USER_INPUT_STRING_TYPE (photoacquire.h)
-description: The USER_INPUT_STRING_TYPE enumeration type indicates the type of string to obtain from the user in IPhotoAcquireProgressCB::GetUserInput.
+description: The USER_INPUT_STRING_TYPE enumeration type indicates the type of string to obtain from the user in IPhotoAcquireProgressCB::GetUserInput.helpviewer_keywords: ["USER_INPUT_DEFAULT","USER_INPUT_PATH_ELEMENT","USER_INPUT_STRING_TYPE","USER_INPUT_STRING_TYPE enumeration [Picture Acquisition]","enumeration [Picture Acquisition]","photoacquire/USER_INPUT_DEFAULT","photoacquire/USER_INPUT_PATH_ELEMENT","photoacquire/USER_INPUT_STRING_TYPE","picacq.user_input_string_type"]
 old-location: picacq\user_input_string_type.htm
 tech.root: acquisition
 ms.assetid: ac05f51e-4762-4360-9c38-7baf84eeb1e9

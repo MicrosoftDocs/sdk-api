@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcPartUri.GetSourceUri
 title: IOpcPartUri::GetSourceUri (msopc.h)
-description: Gets the source URI of the relationships that are stored in a Relationships part. The current part URI object represents the part name of that Relationships part.
+description: Gets the source URI of the relationships that are stored in a Relationships part. The current part URI object represents the part name of that Relationships part.helpviewer_keywords: ["GetSourceUri","GetSourceUri method [Open Packaging Conventions]","GetSourceUri method [Open Packaging Conventions]","IOpcPartUri interface","IOpcPartUri interface [Open Packaging Conventions]","GetSourceUri method","IOpcPartUri.GetSourceUri","IOpcPartUri::GetSourceUri","msopc/IOpcPartUri::GetSourceUri","opc.iopcparturi_getsourceuri"]
 old-location: opc\iopcparturi_getsourceuri.htm
 tech.root: OPC
 ms.assetid: 02e8570b-3826-4619-b4f5-c1f74e27aefc

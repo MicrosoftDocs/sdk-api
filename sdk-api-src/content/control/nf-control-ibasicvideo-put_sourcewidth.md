@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IBasicVideo.put_SourceWidth
 title: IBasicVideo::put_SourceWidth (control.h)
-description: The put_SourceWidth method sets the width of the source rectangle.
+description: The put_SourceWidth method sets the width of the source rectangle.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","put_SourceWidth method","IBasicVideo.put_SourceWidth","IBasicVideo::put_SourceWidth","IBasicVideoput_SourceWidth","control/IBasicVideo::put_SourceWidth","dshow.ibasicvideo_put_sourcewidth","put_SourceWidth","put_SourceWidth method [DirectShow]","put_SourceWidth method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_put_sourcewidth.htm
 tech.root: DirectShow
 ms.assetid: 0747a1fb-42b6-452f-8a92-eb87931c004c

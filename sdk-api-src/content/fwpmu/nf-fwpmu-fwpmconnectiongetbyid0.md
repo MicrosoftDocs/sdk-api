@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmConnectionGetById0
 title: FwpmConnectionGetById0 function (fwpmu.h)
-description: Retrieves a connection object.
+description: Retrieves a connection object.helpviewer_keywords: ["FwpmConnectionGetById0","FwpmConnectionGetById0 function [Filtering]","fwp.fwpmconnectiongetbyid0","fwpmu/FwpmConnectionGetById0"]
 old-location: fwp\fwpmconnectiongetbyid0.htm
 tech.root: fwp
 ms.assetid: 630f513b-49c9-4d3a-a5e2-7ea6b940d333

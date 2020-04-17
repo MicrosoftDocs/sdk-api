@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRoleAssignment.AddRoleDefinition
 title: IAzRoleAssignment::AddRoleDefinition (azroles.h)
-description: Adds the specified IAzRoleDefinition object to this IAzRoleAssignment object.
+description: Adds the specified IAzRoleDefinition object to this IAzRoleAssignment object.helpviewer_keywords: ["AddRoleDefinition","AddRoleDefinition method [Security]","AddRoleDefinition method [Security]","IAzRoleAssignment interface","IAzRoleAssignment interface [Security]","AddRoleDefinition method","IAzRoleAssignment.AddRoleDefinition","IAzRoleAssignment::AddRoleDefinition","azroles/IAzRoleAssignment::AddRoleDefinition","security.iazroleassignment_addroledefinition"]
 old-location: security\iazroleassignment_addroledefinition.htm
 tech.root: SecAuthZ
 ms.assetid: 9946d273-3726-40f4-b438-7f2377fc8013

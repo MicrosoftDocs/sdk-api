@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_CAConfig
 title: IOCSPCAConfiguration::put_CAConfig (certadm.h)
-description: Gets or sets a certification authority (CA) name with which a signing certificate must be signed.
+description: Gets or sets a certification authority (CA) name with which a signing certificate must be signed.helpviewer_keywords: ["CAConfig property [Security]","CAConfig property [Security]","IOCSPCAConfiguration interface","IOCSPCAConfiguration interface [Security]","CAConfig property","IOCSPCAConfiguration.CAConfig","IOCSPCAConfiguration.put_CAConfig","IOCSPCAConfiguration::CAConfig","IOCSPCAConfiguration::get_CAConfig","IOCSPCAConfiguration::put_CAConfig","certadm/IOCSPCAConfiguration::CAConfig","certadm/IOCSPCAConfiguration::get_CAConfig","certadm/IOCSPCAConfiguration::put_CAConfig","put_CAConfig","security.iocspcaconfiguration_caconfig"]
 old-location: security\iocspcaconfiguration_caconfig.htm
 tech.root: SecCrypto
 ms.assetid: 642f8d0b-8dae-41a7-a87c-2b55d1034328

@@ -1,7 +1,7 @@
 ---
 UID: NE:strmif.tagCameraControlProperty
 title: CameraControlProperty (strmif.h)
-description: The CameraControlProperty enumeration specifies a setting on a camera.
+description: The CameraControlProperty enumeration specifies a setting on a camera.helpviewer_keywords: ["CameraControlProperty","CameraControlProperty enumeration [DirectShow]","CameraControlPropertyEnumeration","CameraControl_Exposure","CameraControl_Focus","CameraControl_Iris","CameraControl_Pan","CameraControl_Roll","CameraControl_Tilt","CameraControl_Zoom","dshow.cameracontrolproperty","strmif/CameraControlProperty","strmif/CameraControl_Exposure","strmif/CameraControl_Focus","strmif/CameraControl_Iris","strmif/CameraControl_Pan","strmif/CameraControl_Roll","strmif/CameraControl_Tilt","strmif/CameraControl_Zoom"]
 old-location: dshow\cameracontrolproperty.htm
 tech.root: DirectShow
 ms.assetid: eebf2246-960f-48ea-86b7-7542e69f2e3e

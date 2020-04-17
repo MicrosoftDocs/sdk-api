@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.SetPriorityClass
 title: SetPriorityClass function (processthreadsapi.h)
-description: Sets the priority class for the specified process. This value together with the priority value of each thread of the process determines each thread's base priority level.
+description: Sets the priority class for the specified process. This value together with the priority value of each thread of the process determines each thread's base priority level.helpviewer_keywords: ["ABOVE_NORMAL_PRIORITY_CLASS","BELOW_NORMAL_PRIORITY_CLASS","HIGH_PRIORITY_CLASS","IDLE_PRIORITY_CLASS","NORMAL_PRIORITY_CLASS","PROCESS_MODE_BACKGROUND_BEGIN","PROCESS_MODE_BACKGROUND_END","REALTIME_PRIORITY_CLASS","SetPriorityClass","SetPriorityClass function","_win32_setpriorityclass","base.setpriorityclass","processthreadsapi/SetPriorityClass","winbase/SetPriorityClass"]
 old-location: base\setpriorityclass.htm
 tech.root: ProcThread
 ms.assetid: 02686637-427a-4cf1-a4e5-60c707af3084

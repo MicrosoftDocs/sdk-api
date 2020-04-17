@@ -1,7 +1,7 @@
 ---
 UID: NE:activationregistration.RegistrationScope
 title: RegistrationScope (activationregistration.h)
-description: Represents the deployment scope of an activatable class.
+description: Represents the deployment scope of an activatable class.helpviewer_keywords: ["RegistrationScope","RegistrationScope enumeration [Windows Runtime]","RegistrationScope_InboxApp","RegistrationScope_PerMachine","RegistrationScope_PerUser","activationregistration/RegistrationScope","activationregistration/RegistrationScope_InboxApp","activationregistration/RegistrationScope_PerMachine","activationregistration/RegistrationScope_PerUser","winrt.registrationscope"]
 old-location: winrt\registrationscope.htm
 tech.root: WinRT
 ms.assetid: B4C14F6B-90BE-43AC-955B-229CDA025224

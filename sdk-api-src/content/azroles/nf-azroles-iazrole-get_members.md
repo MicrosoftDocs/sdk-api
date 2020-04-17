@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRole.get_Members
 title: IAzRole::get_Members (azroles.h)
-description: Retrieves the security identifiers (SIDs), in text form, of Windows accounts that belong to the role.
+description: Retrieves the security identifiers (SIDs), in text form, of Windows accounts that belong to the role.helpviewer_keywords: ["AzRole object [Security]","Members property","IAzRole interface [Security]","Members property","IAzRole.Members","IAzRole.get_Members","IAzRole::Members","IAzRole::get_Members","Members property [Security]","Members property [Security]","AzRole object","Members property [Security]","IAzRole interface","azroles/IAzRole::Members","azroles/IAzRole::get_Members","get_Members","security.iazrole_members"]
 old-location: security\iazrole_members.htm
 tech.root: SecAuthZ
 ms.assetid: 03391842-fc8a-4dc2-878e-4fe1c41cc4dd

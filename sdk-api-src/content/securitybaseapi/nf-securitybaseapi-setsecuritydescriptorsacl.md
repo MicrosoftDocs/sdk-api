@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.SetSecurityDescriptorSacl
 title: SetSecurityDescriptorSacl function (securitybaseapi.h)
-description: Sets information in a system access control list (SACL). If there is already a SACL present in the security descriptor, it is replaced.
+description: Sets information in a system access control list (SACL). If there is already a SACL present in the security descriptor, it is replaced.helpviewer_keywords: ["SetSecurityDescriptorSacl","SetSecurityDescriptorSacl function [Security]","_win32_setsecuritydescriptorsacl","security.setsecuritydescriptorsacl","securitybaseapi/SetSecurityDescriptorSacl"]
 old-location: security\setsecuritydescriptorsacl.htm
 tech.root: SecAuthZ
 ms.assetid: 21615b63-0619-4c0c-a1b8-88ed09a1235c

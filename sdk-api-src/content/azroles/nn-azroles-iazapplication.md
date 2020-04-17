@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzApplication
 title: IAzApplication (azroles.h)
-description: Defines an installed instance of an application. An IAzApplication object is created when an application is installed.
+description: Defines an installed instance of an application. An IAzApplication object is created when an application is installed.helpviewer_keywords: ["IAzApplication","IAzApplication interface [Security]","IAzApplication interface [Security]","described","azroles/IAzApplication","security.iazapplication"]
 old-location: security\iazapplication.htm
 tech.root: SecAuthZ
 ms.assetid: ea4a8a84-5003-44da-b75e-34da6bd898dd

@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IToolbar.GetButtonState
 title: IToolbar::GetButtonState (mmc.h)
-description: Enables a snap-in to obtain an attribute of a button.
+description: Enables a snap-in to obtain an attribute of a button.helpviewer_keywords: ["BUTTONPRESSED","CHECKED","ENABLED","GetButtonState","GetButtonState method [MMC]","GetButtonState method [MMC]","IToolbar interface","HIDDEN","INDETERMINATE","IToolbar interface [MMC]","GetButtonState method","IToolbar.GetButtonState","IToolbar::GetButtonState","_slate_itoolbar_getbuttonstate","mmc.itoolbar_getbuttonstate","mmc/IToolbar::GetButtonState"]
 old-location: mmc\itoolbar_getbuttonstate.htm
 tech.root: mmc
 ms.assetid: 94c41b13-f1ab-4368-8cfa-960caeea796e

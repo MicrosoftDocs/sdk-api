@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhGetCounterTimeBase
 title: PdhGetCounterTimeBase function (pdh.h)
-description: Returns the time base of the specified counter.
+description: Returns the time base of the specified counter.helpviewer_keywords: ["PdhGetCounterTimeBase","PdhGetCounterTimeBase function [Perf]","_win32_pdhgetcountertimebase","base.pdhgetcountertimebase","pdh/PdhGetCounterTimeBase","perf.pdhgetcountertimebase"]
 old-location: perf\pdhgetcountertimebase.htm
 tech.root: perfctrs
 ms.assetid: b034c00e-50f1-46af-aebc-0cb968c0b737

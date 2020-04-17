@@ -1,7 +1,7 @@
 ---
 UID: NF:certenc.ICertEncodeBitString.GetBitCount
 title: ICertEncodeBitString::GetBitCount (certenc.h)
-description: Returns the number of bits in a bit string that belongs to the CertEncodeBitString object and has been initialized by an earlier call to ICertEncodeBitString::Decode.
+description: Returns the number of bits in a bit string that belongs to the CertEncodeBitString object and has been initialized by an earlier call to ICertEncodeBitString::Decode.helpviewer_keywords: ["CCertEncodeBitString object [Security]","GetBitCount method","GetBitCount","GetBitCount method [Security]","GetBitCount method [Security]","CCertEncodeBitString object","GetBitCount method [Security]","ICertEncodeBitString interface","ICertEncodeBitString interface [Security]","GetBitCount method","ICertEncodeBitString.GetBitCount","ICertEncodeBitString::GetBitCount","_certsrv_icertencodebitstring_getbitcount","certenc/ICertEncodeBitString::GetBitCount","security.icertencodebitstring_getbitcount"]
 old-location: security\icertencodebitstring_getbitcount.htm
 tech.root: SecCrypto
 ms.assetid: 9fbaaf03-02b8-4c6f-8cc2-3fd897fdc81d

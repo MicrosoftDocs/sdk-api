@@ -1,7 +1,7 @@
 ---
 UID: NF:winstring.WindowsSubstringWithSpecifiedLength
 title: WindowsSubstringWithSpecifiedLength function (winstring.h)
-description: Retrieves a substring from the specified string. The substring starts at a specified character position and has a specified length.
+description: Retrieves a substring from the specified string. The substring starts at a specified character position and has a specified length.helpviewer_keywords: ["WindowsSubstringWithSpecifiedLength","WindowsSubstringWithSpecifiedLength function [Windows Runtime]","winrt.windowssubstringwithspecifiedlength","winstring/WindowsSubstringWithSpecifiedLength"]
 old-location: winrt\windowssubstringwithspecifiedlength.htm
 tech.root: WinRT
 ms.assetid: 8E5DA806-8CBA-4569-9A9B-3B30350F603D

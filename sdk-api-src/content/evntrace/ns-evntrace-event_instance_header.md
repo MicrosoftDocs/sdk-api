@@ -1,7 +1,7 @@
 ---
 UID: NS:evntrace._EVENT_INSTANCE_HEADER
 title: EVENT_INSTANCE_HEADER (evntrace.h)
-description: The EVENT_INSTANCE_HEADER structure contains standard event tracing information common to all events.
+description: The EVENT_INSTANCE_HEADER structure contains standard event tracing information common to all events.helpviewer_keywords: ["*PEVENT_INSTANCE_HEADER","EVENT_INSTANCE_HEADER","EVENT_INSTANCE_HEADER structure [ETW]","EVENT_TRACE_TYPE_CHECKPOINT","EVENT_TRACE_TYPE_DC_END","EVENT_TRACE_TYPE_DC_START","EVENT_TRACE_TYPE_DEQUEUE","EVENT_TRACE_TYPE_END","EVENT_TRACE_TYPE_EXTENSION","EVENT_TRACE_TYPE_INFO","EVENT_TRACE_TYPE_REPLY","EVENT_TRACE_TYPE_START","TRACE_LEVEL_ERROR","TRACE_LEVEL_FATAL","TRACE_LEVEL_INFORMATION","TRACE_LEVEL_VERBOSE","TRACE_LEVEL_WARNING","WNODE_FLAG_USE_GUID_PTR","WNODE_FLAG_USE_MOF_PTR","_EVENT_INSTANCE_HEADER","_evt_event_instance_header","base.event_instance_header","etw.event_instance_header","evntrace/EVENT_INSTANCE_HEADER"]
 old-location: etw\event_instance_header.htm
 tech.root: ETW
 ms.assetid: 2a79d937-2a3b-4426-b31f-a1a3ce86a334

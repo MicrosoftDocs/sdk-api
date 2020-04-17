@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSingleArray
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the array of 32-bit floating point values that is stored in the current IPropertyValue object.
+description: Gets the array of 32-bit floating point values that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetSingleArray","GetSingleArray method [Windows Runtime]","GetSingleArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetSingleArray method","IPropertyValue.GetSingleArray","IPropertyValue.IPropertyValue","IPropertyValue::GetSingleArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetSingleArray","winrt.ipropertyvalue_getsinglearray"]
 old-location: winrt\ipropertyvalue_getsinglearray.htm
 tech.root: WinRT
 ms.assetid: f4286901-92b2-4707-9da7-bb7abf83bb87

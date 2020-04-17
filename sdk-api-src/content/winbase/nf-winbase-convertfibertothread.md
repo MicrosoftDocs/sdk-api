@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.ConvertFiberToThread
 title: ConvertFiberToThread function (winbase.h)
-description: Converts the current fiber into a thread.
+description: Converts the current fiber into a thread.helpviewer_keywords: ["ConvertFiberToThread","ConvertFiberToThread function","_win32_convertfibertothread","base.convertfibertothread","winbase/ConvertFiberToThread"]
 old-location: base\convertfibertothread.htm
 tech.root: ProcThread
 ms.assetid: 194c5289-0d25-4ce1-9c32-9e87b12db825

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPointCollection.RemovePointsAtEnd
 title: ID2D1SvgPointCollection::RemovePointsAtEnd (d2d1svg.h)
-description: Removes points from the end of the array.
+description: Removes points from the end of the array.helpviewer_keywords: ["ID2D1SvgPointCollection interface [Direct2D]","RemovePointsAtEnd method","ID2D1SvgPointCollection.RemovePointsAtEnd","ID2D1SvgPointCollection::RemovePointsAtEnd","RemovePointsAtEnd","RemovePointsAtEnd method [Direct2D]","RemovePointsAtEnd method [Direct2D]","ID2D1SvgPointCollection interface","d2d1svg/ID2D1SvgPointCollection::RemovePointsAtEnd","direct2d.id2d1svgpointcollection_removepointsatend"]
 old-location: direct2d\id2d1svgpointcollection_removepointsatend.htm
 tech.root: Direct2D
 ms.assetid: F15DAC71-647D-466C-B754-6553122EC5A7

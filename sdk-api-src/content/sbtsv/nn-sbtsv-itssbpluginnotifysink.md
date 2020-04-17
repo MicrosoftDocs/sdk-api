@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbPluginNotifySink
 title: ITsSbPluginNotifySink (sbtsv.h)
-description: Exposes methods that notify Remote Desktop Connection Broker (RD Connection Broker) about initialization or termination of a plug-in.
+description: Exposes methods that notify Remote Desktop Connection Broker (RD Connection Broker) about initialization or termination of a plug-in.helpviewer_keywords: ["ITsSbPluginNotifySink","ITsSbPluginNotifySink interface [Remote Desktop Services]","ITsSbPluginNotifySink interface [Remote Desktop Services]","described","sbtsv/ITsSbPluginNotifySink","termserv.itssbpluginnotifysink"]
 old-location: termserv\itssbpluginnotifysink.htm
 tech.root: TermServ
 ms.assetid: c52a3253-74cb-4ff9-a4f3-cb9601c02e7d

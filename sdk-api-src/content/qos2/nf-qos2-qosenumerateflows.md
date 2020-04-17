@@ -1,7 +1,7 @@
 ---
 UID: NF:qos2.QOSEnumerateFlows
 title: QOSEnumerateFlows function (qos2.h)
-description: Enumerates all existing flows.
+description: Enumerates all existing flows.helpviewer_keywords: ["QOSEnumerateFlows","QOSEnumerateFlows function [QOS]","qos.qosenumerateflows","qos2/QOSEnumerateFlows"]
 old-location: qos\qosenumerateflows.htm
 tech.root: QOS
 ms.assetid: 62027f7b-9ecc-4631-b755-2302e0bb49c0

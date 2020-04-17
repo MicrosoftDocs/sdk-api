@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.SetCommand
 title: IMbnDeviceService::SetCommand (mbnapi.h)
-description: Sends a SET control command to the device service of a Mobile Broadband device.
+description: Sends a SET control command to the device service of a Mobile Broadband device.helpviewer_keywords: ["IMbnDeviceService interface [Microsoft Broadband Networks]","SetCommand method","IMbnDeviceService.SetCommand","IMbnDeviceService::SetCommand","SetCommand","SetCommand method [Microsoft Broadband Networks]","SetCommand method [Microsoft Broadband Networks]","IMbnDeviceService interface","mbn.imbndeviceservice_setcommand","mbnapi/IMbnDeviceService::SetCommand"]
 old-location: mbn\imbndeviceservice_setcommand.htm
 tech.root: mbn
 ms.assetid: DA45B319-4E6A-4999-85A7-7F5A4F9BED7B

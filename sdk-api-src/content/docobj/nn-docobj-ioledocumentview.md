@@ -1,7 +1,7 @@
 ---
 UID: NN:docobj.IOleDocumentView
 title: IOleDocumentView (docobj.h)
-description: The IOleDocumentView interface enables a container to communicate with each view supported by a document object.
+description: The IOleDocumentView interface enables a container to communicate with each view supported by a document object.helpviewer_keywords: ["IOleDocumentView","IOleDocumentView interface [COM]","IOleDocumentView interface [COM]","described","_ole_ioledocumentview","com.ioledocumentview","docobj/IOleDocumentView"]
 old-location: com\ioledocumentview.htm
 tech.root: com
 ms.assetid: 07948c08-f047-4ae0-a41b-5410b4bbf4d6

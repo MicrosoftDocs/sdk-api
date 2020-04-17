@@ -1,7 +1,7 @@
 ---
 UID: NN:msxml.IXMLElementCollection
 title: IXMLElementCollection (msxml.h)
-description: Supports collection of XML elements for indexed access.
+description: Supports collection of XML elements for indexed access.helpviewer_keywords: ["IXMLElementCollection","IXMLElementCollection interface [Windows API]","IXMLElementCollection interface [Windows API]","described","msxml/IXMLElementCollection","winprog.ixmlelementcollection"]
 old-location: winprog\ixmlelementcollection.htm
 tech.root: DevNotes
 ms.assetid: 1d27e5fc-0491-44ee-9134-40f9f909b1cb

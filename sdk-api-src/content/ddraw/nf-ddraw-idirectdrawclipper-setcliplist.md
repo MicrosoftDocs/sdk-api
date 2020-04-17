@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.SetClipList
 title: IDirectDrawClipper::SetClipList (ddraw.h)
-description: Sets or deletes the clip list that is used by the IDirectDrawSurface7::Blt, IDirectDrawSurface7::BltBatch, and IDirectDrawSurface7::UpdateOverlay methods on surfaces to which the parent DirectDrawClipper object is attached.
+description: Sets or deletes the clip list that is used by the IDirectDrawSurface7::Blt, IDirectDrawSurface7::BltBatch, and IDirectDrawSurface7::UpdateOverlay methods on surfaces to which the parent DirectDrawClipper object is attached.helpviewer_keywords: ["IDirectDrawClipper interface [DirectDraw]","SetClipList method","IDirectDrawClipper.SetClipList","IDirectDrawClipper::SetClipList","SetClipList","SetClipList method [DirectDraw]","SetClipList method [DirectDraw]","IDirectDrawClipper interface","ddraw/IDirectDrawClipper::SetClipList","directdraw.idirectdrawclipper_setcliplist"]
 old-location: directdraw\idirectdrawclipper_setcliplist.htm
 tech.root: directdraw
 ms.assetid: 717f51e0-80cb-4762-b05d-30e30d065d0c

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_COMPUTE_SHADER_TRACE_DESC
 title: D3D11_COMPUTE_SHADER_TRACE_DESC (d3d11shadertracing.h)
-description: Describes an instance of a compute shader to trace.
+description: Describes an instance of a compute shader to trace.helpviewer_keywords: ["D3D11_COMPUTE_SHADER_TRACE_DESC","D3D11_COMPUTE_SHADER_TRACE_DESC structure [Direct3D 11]","d3d11shadertracing/D3D11_COMPUTE_SHADER_TRACE_DESC","direct3d11.d3d11_compute_shader_trace_desc"]
 old-location: direct3d11\d3d11_compute_shader_trace_desc.htm
 tech.root: direct3d11
 ms.assetid: C047CA31-22D4-4512-B90C-3C77BA6AADA9

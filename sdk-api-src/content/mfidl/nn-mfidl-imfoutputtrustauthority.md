@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFOutputTrustAuthority
 title: IMFOutputTrustAuthority (mfidl.h)
-description: Encapsulates the functionality of one or more output protection systems that a trusted output supports.
+description: Encapsulates the functionality of one or more output protection systems that a trusted output supports.helpviewer_keywords: ["21594ac0-7e3c-44a3-bbee-64316dd51824","IMFOutputTrustAuthority","IMFOutputTrustAuthority interface [Media Foundation]","IMFOutputTrustAuthority interface [Media Foundation]","described","mf.imfoutputtrustauthority","mfidl/IMFOutputTrustAuthority"]
 old-location: mf\imfoutputtrustauthority.htm
 tech.root: medfound
 ms.assetid: 21594ac0-7e3c-44a3-bbee-64316dd51824

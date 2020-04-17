@@ -1,7 +1,7 @@
 ---
 UID: NS:dxvahd._DXVAHD_BLT_STATE_TARGET_RECT_DATA
 title: DXVAHD_BLT_STATE_TARGET_RECT_DATA (dxvahd.h)
-description: Specifies the target rectangle for blitting, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+description: Specifies the target rectangle for blitting, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).helpviewer_keywords: ["DXVAHD_BLT_STATE_TARGET_RECT_DATA","DXVAHD_BLT_STATE_TARGET_RECT_DATA structure [Media Foundation]","FALSE","TRUE","dxvahd/DXVAHD_BLT_STATE_TARGET_RECT_DATA","mf.dxvahd_blt_state_target_rect_data"]
 old-location: mf\dxvahd_blt_state_target_rect_data.htm
 tech.root: medfound
 ms.assetid: 2a810071-b5f7-4216-8108-83dce5c12836

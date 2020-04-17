@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Lock
 title: IDirectDrawSurface7::Lock (ddraw.h)
-description: Obtains a pointer to the surface memory.
+description: Obtains a pointer to the surface memory.helpviewer_keywords: ["DDLOCK_DISCARDCONTENTS","DDLOCK_DONOTWAIT","DDLOCK_EVENT","DDLOCK_NOOVERWRITE","DDLOCK_NOSYSLOCK","DDLOCK_OKTOSWAP","DDLOCK_READONLY","DDLOCK_SURFACEMEMORYPTR","DDLOCK_WAIT","DDLOCK_WRITEONLY","IDirectDrawSurface7 interface [DirectDraw]","Lock method","IDirectDrawSurface7.Lock","IDirectDrawSurface7::Lock","Lock","Lock method [DirectDraw]","Lock method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::Lock","directdraw.idirectdrawsurface7_lock"]
 old-location: directdraw\idirectdrawsurface7_lock.htm
 tech.root: directdraw
 ms.assetid: 0267ad70-e7cc-41e8-8325-7ede4a662d13

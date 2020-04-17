@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoMarshalInterThreadInterfaceInStream
 title: CoMarshalInterThreadInterfaceInStream function (combaseapi.h)
-description: Marshals an interface pointer from one thread to another thread in the same process.
+description: Marshals an interface pointer from one thread to another thread in the same process.helpviewer_keywords: ["CoMarshalInterThreadInterfaceInStream","CoMarshalInterThreadInterfaceInStream function [COM]","_com_CoMarshalInterThreadInterfaceInStream","com.comarshalinterthreadinterfaceinstream","combaseapi/CoMarshalInterThreadInterfaceInStream"]
 old-location: com\comarshalinterthreadinterfaceinstream.htm
 tech.root: com
 ms.assetid: c9ab8713-8604-4f0b-a11b-bdfb7d595d95

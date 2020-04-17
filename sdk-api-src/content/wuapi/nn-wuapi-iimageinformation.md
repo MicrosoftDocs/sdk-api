@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IImageInformation
 title: IImageInformation (wuapi.h)
-description: Contains information about a localized image that is associated with an update or a category.
+description: Contains information about a localized image that is associated with an update or a category.helpviewer_keywords: ["IImageInformation","IImageInformation interface [Windows Update Agent]","IImageInformation interface [Windows Update Agent]","described","wua.iimageinformation","wuapi/IImageInformation"]
 old-location: wua\iimageinformation.htm
 tech.root: Wua_Sdk
 ms.assetid: 869c10c3-a4d1-4001-86f1-30ebf2abe96f

@@ -1,7 +1,7 @@
 ---
 UID: NF:systemmediatransportcontrolsinterop.ISystemMediaTransportControlsInterop.GetForWindow
 title: ISystemMediaTransportControlsInterop::GetForWindow (systemmediatransportcontrolsinterop.h)
-description: Gets an instance of the ISystemMediaTransportControls interface for the specified window.
+description: Gets an instance of the ISystemMediaTransportControls interface for the specified window.helpviewer_keywords: ["GetForWindow","GetForWindow method","GetForWindow method","ISystemMediaTransportControlsInterop interface","ISystemMediaTransportControlsInterop interface","GetForWindow method","ISystemMediaTransportControlsInterop.GetForWindow","ISystemMediaTransportControlsInterop::GetForWindow","mediatransport.isystemmediatransportcontrolsinterop_getforwindow","systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop::GetForWindow"]
 old-location: mediatransport\isystemmediatransportcontrolsinterop_getforwindow.htm
 tech.root: mediatransport
 ms.assetid: 7E878C3B-4CE9-4DED-8082-8E37266FE8AF

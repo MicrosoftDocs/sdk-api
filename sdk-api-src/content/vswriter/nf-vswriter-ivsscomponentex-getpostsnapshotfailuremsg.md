@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssComponentEx.GetPostSnapshotFailureMsg
 title: IVssComponentEx::GetPostSnapshotFailureMsg (vswriter.h)
-description: Returns the PostSnapshot failure message string that a writer has set for a given component.
+description: Returns the PostSnapshot failure message string that a writer has set for a given component.helpviewer_keywords: ["GetPostSnapshotFailureMsg","GetPostSnapshotFailureMsg method","GetPostSnapshotFailureMsg method","IVssComponentEx interface","IVssComponentEx interface","GetPostSnapshotFailureMsg method","IVssComponentEx.GetPostSnapshotFailureMsg","IVssComponentEx::GetPostSnapshotFailureMsg","base.ivsscomponentex_getpostsnapshotfailuremsg","vswriter/IVssComponentEx::GetPostSnapshotFailureMsg"]
 old-location: base\ivsscomponentex_getpostsnapshotfailuremsg.htm
 tech.root: VSS
 ms.assetid: 51f96d3e-c783-42f4-9e04-94bf3a6b7c09

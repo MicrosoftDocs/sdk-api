@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetPublisherProperty
 title: IEventSubscription::GetPublisherProperty (eventsys.h)
-description: Retrieves the value of a property stored in the property bag to define publisher context.
+description: Retrieves the value of a property stored in the property bag to define publisher context.helpviewer_keywords: ["GetPublisherProperty","GetPublisherProperty method [COM+]","GetPublisherProperty method [COM+]","IEventSubscription interface","IEventSubscription interface [COM+]","GetPublisherProperty method","IEventSubscription.GetPublisherProperty","IEventSubscription::GetPublisherProperty","_cos_IEventSubscription_GetPublisherProperty","cos.ieventsubscription_getpublisherproperty","eventsys/IEventSubscription::GetPublisherProperty"]
 old-location: cos\ieventsubscription_getpublisherproperty.htm
 tech.root: cossdk
 ms.assetid: 7d0c2467-0ab8-4daf-b4ed-befe28d33757

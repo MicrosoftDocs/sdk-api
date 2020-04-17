@@ -1,7 +1,7 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.Reset
 title: ICertEncodeCRLDistInfo::Reset (certenc.h)
-description: Resets a certificate revocation list (CRL) distribution information array to a specified number of distribution point structures.
+description: Resets a certificate revocation list (CRL) distribution information array to a specified number of distribution point structures.helpviewer_keywords: ["CCertEncodeCRLDistInfo object [Security]","Reset method","ICertEncodeCRLDistInfo interface [Security]","Reset method","ICertEncodeCRLDistInfo.Reset","ICertEncodeCRLDistInfo::Reset","Reset","Reset method [Security]","Reset method [Security]","CCertEncodeCRLDistInfo object","Reset method [Security]","ICertEncodeCRLDistInfo interface","_certsrv_icertencodecrldistinfo_reset","certenc/ICertEncodeCRLDistInfo::Reset","security.icertencodecrldistinfo_reset"]
 old-location: security\icertencodecrldistinfo_reset.htm
 tech.root: SecCrypto
 ms.assetid: 899de888-918f-4202-a324-0e603eba2324

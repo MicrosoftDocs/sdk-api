@@ -1,7 +1,7 @@
 ---
 UID: NS:iprtrmib._MIB_PROXYARP
 title: MIB_PROXYARP (iprtrmib.h)
-description: Stores information for a Proxy Address Resolution Protocol (PARP) entry.
+description: Stores information for a Proxy Address Resolution Protocol (PARP) entry.helpviewer_keywords: ["*PMIB_PROXYARP","MIB_PROXYARP","MIB_PROXYARP structure [MIB]","PMIB_PROXYARP","PMIB_PROXYARP structure pointer [MIB]","_mpr_mib_proxyarp","iprtrmib/MIB_PROXYARP","iprtrmib/PMIB_PROXYARP","mib.mib_proxyarp","rras.mib_proxyarp"]
 old-location: mib\mib_proxyarp.htm
 tech.root: MIB
 ms.assetid: 4f919bfb-733b-4b49-8550-505626779eac

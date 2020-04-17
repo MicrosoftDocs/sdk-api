@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRunningTaskCollection.get_Item
 title: IRunningTaskCollection::get_Item (taskschd.h)
-description: Gets the specified task from the collection.
+description: Gets the specified task from the collection.helpviewer_keywords: ["IRunningTaskCollection interface [Task Scheduler]","Item property","IRunningTaskCollection.Item","IRunningTaskCollection.get_Item","IRunningTaskCollection::Item","IRunningTaskCollection::get_Item","Item property [Task Scheduler]","Item property [Task Scheduler]","IRunningTaskCollection interface","get_Item","taskschd.irunningtaskcollection_item","taskschd/IRunningTaskCollection::Item","taskschd/IRunningTaskCollection::get_Item"]
 old-location: taskschd\irunningtaskcollection_item.htm
 tech.root: taskschd
 ms.assetid: e82e7e1b-a3bd-4456-85a9-e0005f954618

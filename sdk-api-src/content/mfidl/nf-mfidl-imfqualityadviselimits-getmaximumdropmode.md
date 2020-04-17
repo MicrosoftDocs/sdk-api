@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFQualityAdviseLimits.GetMaximumDropMode
 title: IMFQualityAdviseLimits::GetMaximumDropMode (mfidl.h)
-description: Gets the maximum drop mode.
+description: Gets the maximum drop mode.helpviewer_keywords: ["GetMaximumDropMode","GetMaximumDropMode method [Media Foundation]","GetMaximumDropMode method [Media Foundation]","IMFQualityAdviseLimits interface","IMFQualityAdviseLimits interface [Media Foundation]","GetMaximumDropMode method","IMFQualityAdviseLimits.GetMaximumDropMode","IMFQualityAdviseLimits::GetMaximumDropMode","mf.imfqualityadviselimits_getmaximumdropmode","mfidl/IMFQualityAdviseLimits::GetMaximumDropMode"]
 old-location: mf\imfqualityadviselimits_getmaximumdropmode.htm
 tech.root: medfound
 ms.assetid: af3d968b-7baf-41d8-afd9-dbf673c1bb71

@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsFileServiceOperations
 title: IADsFileServiceOperations (iads.h)
-description: The IADsFileServiceOperations interface is a dual interface that inherits from IADsServiceOperations.
+description: The IADsFileServiceOperations interface is a dual interface that inherits from IADsServiceOperations.helpviewer_keywords: ["IADsFileServiceOperations","IADsFileServiceOperations interface [ADSI]","IADsFileServiceOperations interface [ADSI]","described","_ds_iadsfileserviceoperations","adsi.iadsfileserviceoperations","iads/IADsFileServiceOperations"]
 old-location: adsi\iadsfileserviceoperations.htm
 tech.root: adsi
 ms.assetid: 91335658-8efb-4945-9862-f72e78d749d6

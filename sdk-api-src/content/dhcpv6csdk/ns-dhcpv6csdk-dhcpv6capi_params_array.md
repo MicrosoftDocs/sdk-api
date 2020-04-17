@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpv6csdk._DHCPV6CAPI_PARAMS_ARRAY
 title: DHCPV6CAPI_PARAMS_ARRAY (dhcpv6csdk.h)
-description: Contains an array of requested parameters.
+description: Contains an array of requested parameters.helpviewer_keywords: ["*LPDHCPV6CAPI_PARAMS_ARRAY","*PDHCPV6CAPI_PARAMS_ARRAY","DHCPV6CAPI_PARAMS_ARRAY","DHCPV6CAPI_PARAMS_ARRAY structure [DHCP]","LPDHCPV6CAPI_PARAMS_ARRAY","LPDHCPV6CAPI_PARAMS_ARRAY structure pointer [DHCP]","PDHCPV6CAPI_PARAMS_ARRAY","PDHCPV6CAPI_PARAMS_ARRAY structure pointer [DHCP]","dhcp.dhcpv6capi_params_array","dhcpv6csdk/DHCPV6CAPI_PARAMS_ARRAY","dhcpv6csdk/LPDHCPV6CAPI_PARAMS_ARRAY","dhcpv6csdk/PDHCPV6CAPI_PARAMS_ARRAY"]
 old-location: dhcp\dhcpv6capi_params_array.htm
 tech.root: DHCP
 ms.assetid: 2392586f-94a0-4667-b59a-88c0e1d88713

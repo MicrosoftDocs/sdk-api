@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateSolidColorBrush(const D2D1_COLOR_F,const D2D1_BRUSH_PROPERTIES,ID2D1SolidColorBrush)
 title: ID2D1RenderTarget::CreateSolidColorBrush (d2d1.h)
-description: Creates a new ID2D1SolidColorBrush that can be used to paint areas with a solid color.
+description: Creates a new ID2D1SolidColorBrush that can be used to paint areas with a solid color.helpviewer_keywords: ["CreateSolidColorBrush","CreateSolidColorBrush methods [Direct2D]","ID2D1RenderTarget.CreateSolidColorBrush","ID2D1RenderTarget::CreateSolidColorBrush","d2d1/CreateSolidColorBrush","direct2d.id2d1rendertarget_createsolidcolorbrush"]
 old-location: direct2d\id2d1rendertarget_createsolidcolorbrush.htm
 tech.root: Direct2D
 ms.assetid: 3dbfe26f-cf36-47b0-925e-4934e0d7c390

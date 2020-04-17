@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IDeskBar
 title: IDeskBar (shobjidl_core.h)
-description: Exposes methods that enable desk bar manipulation.
+description: Exposes methods that enable desk bar manipulation.helpviewer_keywords: ["IDeskBar","IDeskBar interface [Windows Shell]","IDeskBar interface [Windows Shell]","described","_win32_IDeskBar","shell.IDeskBar","shobjidl_core/IDeskBar"]
 old-location: shell\IDeskBar.htm
 tech.root: shell
 ms.assetid: 78b9666b-f913-4745-975e-f8dd6e9f89b4

@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddFuncDesc
 title: ICreateTypeInfo::AddFuncDesc (oaidl.h)
-description: Adds a function description to the type description.
+description: Adds a function description to the type description.helpviewer_keywords: ["AddFuncDesc","AddFuncDesc method [Automation]","AddFuncDesc method [Automation]","ICreateTypeInfo interface","ICreateTypeInfo interface [Automation]","AddFuncDesc method","ICreateTypeInfo.AddFuncDesc","ICreateTypeInfo::AddFuncDesc","_oa96_ICreateTypeInfo_AddFuncDesc","automat.icreatetypeinfo_addfuncdesc","oaidl/ICreateTypeInfo::AddFuncDesc"]
 old-location: automat\icreatetypeinfo_addfuncdesc.htm
 tech.root: automat
 ms.assetid: f6816778-86f6-4e59-8eb2-444fd7bd6354

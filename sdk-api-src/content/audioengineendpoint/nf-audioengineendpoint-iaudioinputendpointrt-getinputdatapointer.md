@@ -1,7 +1,7 @@
 ---
 UID: NF:audioengineendpoint.IAudioInputEndpointRT.GetInputDataPointer
 title: IAudioInputEndpointRT::GetInputDataPointer (audioengineendpoint.h)
-description: Gets a pointer to the buffer from which data will be read by the audio engine.
+description: Gets a pointer to the buffer from which data will be read by the audio engine.helpviewer_keywords: ["GetInputDataPointer","GetInputDataPointer method [Remote Desktop Services]","GetInputDataPointer method [Remote Desktop Services]","IAudioInputEndpointRT interface","IAudioInputEndpointRT interface [Remote Desktop Services]","GetInputDataPointer method","IAudioInputEndpointRT.GetInputDataPointer","IAudioInputEndpointRT::GetInputDataPointer","audioengineendpoint/IAudioInputEndpointRT::GetInputDataPointer","termserv.iaudioinputendpointrt_getinputdatapointer"]
 old-location: termserv\iaudioinputendpointrt_getinputdatapointer.htm
 tech.root: TermServ
 ms.assetid: 1da81a49-d421-4643-9be6-b13d45d678f0

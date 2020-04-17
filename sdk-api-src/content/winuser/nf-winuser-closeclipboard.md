@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CloseClipboard
 title: CloseClipboard function (winuser.h)
-description: Closes the clipboard.
+description: Closes the clipboard.helpviewer_keywords: ["CloseClipboard","CloseClipboard function [Data Exchange]","_win32_CloseClipboard","_win32_closeclipboard_cpp","dataxchg.closeclipboard","winui._win32_closeclipboard","winuser/CloseClipboard"]
 old-location: dataxchg\closeclipboard.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\closeclipboard.htm

@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj.tagAASHELLMENUITEM
 title: AASHELLMENUITEM (shlobj.h)
-description: Contains information about a menu item.
+description: Contains information about a menu item.helpviewer_keywords: ["*LPAASHELLMENUITEM","AASHELLMENUITEM","AASHELLMENUITEM structure [Windows Shell]","LPAASHELLMENUITEM","LPAASHELLMENUITEM structure pointer [Windows Shell]","_win32_AASHELLMENUITEM_str","shell.AASHELLMENUITEM_str","shlobj/AASHELLMENUITEM","shlobj/LPAASHELLMENUITEM"]
 old-location: shell\AASHELLMENUITEM_str.htm
 tech.root: shell
 ms.assetid: 9d5ccbae-cc56-446f-be67-9623247d5045

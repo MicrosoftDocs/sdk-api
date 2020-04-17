@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManager.GetInterface
 title: IMbnInterfaceManager::GetInterface (mbnapi.h)
-description: Gets a specific interface.
+description: Gets a specific interface.helpviewer_keywords: ["GetInterface","GetInterface method [Microsoft Broadband Networks]","GetInterface method [Microsoft Broadband Networks]","IMbnInterfaceManager interface","IMbnInterfaceManager interface [Microsoft Broadband Networks]","GetInterface method","IMbnInterfaceManager.GetInterface","IMbnInterfaceManager::GetInterface","mbn.imbninterfacemanager_getinterface","mbnapi/IMbnInterfaceManager::GetInterface"]
 old-location: mbn\imbninterfacemanager_getinterface.htm
 tech.root: mbn
 ms.assetid: f44aa20d-7edd-4227-8eca-9aacb19619e8

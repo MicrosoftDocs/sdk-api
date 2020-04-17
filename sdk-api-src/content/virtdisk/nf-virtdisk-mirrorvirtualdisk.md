@@ -1,7 +1,7 @@
 ---
 UID: NF:virtdisk.MirrorVirtualDisk
 title: MirrorVirtualDisk function (virtdisk.h)
-description: Initiates a mirror operation for a virtual disk.
+description: Initiates a mirror operation for a virtual disk.helpviewer_keywords: ["MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE","MIRROR_VIRTUAL_DISK_FLAG_NONE","MirrorVirtualDisk","MirrorVirtualDisk function [VHD]","vdssys/MirrorVirtualDisk","vhd.mirrorvirtualdisk","virtdisk/MirrorVirtualDisk"]
 old-location: vhd\mirrorvirtualdisk.htm
 tech.root: VStor
 ms.assetid: eb72043a-7515-42c0-900d-feed4503ea7a

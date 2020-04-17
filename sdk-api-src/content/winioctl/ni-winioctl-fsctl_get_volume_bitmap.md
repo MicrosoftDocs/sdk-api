@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_GET_VOLUME_BITMAP
 title: FSCTL_GET_VOLUME_BITMAP
-description: Retrieves a bitmap of occupied and available clusters on a volume.
+description: Retrieves a bitmap of occupied and available clusters on a volume.helpviewer_keywords: ["FSCTL_GET_VOLUME_BITMAP","FSCTL_GET_VOLUME_BITMAP control","FSCTL_GET_VOLUME_BITMAP control code [Files]","_win32_fsctl_get_volume_bitmap","base.fsctl_get_volume_bitmap","fs.fsctl_get_volume_bitmap","winioctl/FSCTL_GET_VOLUME_BITMAP"]
 old-location: fs\fsctl_get_volume_bitmap.htm
 tech.root: FileIO
 ms.assetid: 80ef93ee-21a4-4766-82d2-d2ddef3ef5bb

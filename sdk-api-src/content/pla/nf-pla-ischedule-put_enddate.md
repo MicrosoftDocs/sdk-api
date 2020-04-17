@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ISchedule.put_EndDate
 title: ISchedule::put_EndDate (pla.h)
-description: Retrieves or sets the last date that the schedule is valid.
+description: Retrieves or sets the last date that the schedule is valid.helpviewer_keywords: ["EndDate property [PLA]","EndDate property [PLA]","ISchedule interface","ISchedule interface [PLA]","EndDate property","ISchedule.EndDate","ISchedule.put_EndDate","ISchedule::EndDate","ISchedule::get_EndDate","ISchedule::put_EndDate","base.ischedule_enddate","pla.ischedule_enddate","pla/ISchedule::EndDate","pla/ISchedule::get_EndDate","pla/ISchedule::put_EndDate","put_EndDate"]
 old-location: pla\ischedule_enddate.htm
 tech.root: PLA
 ms.assetid: 80a5c1a9-2d0a-4700-824b-1333b5c7c374

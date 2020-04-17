@@ -1,7 +1,7 @@
 ---
 UID: NF:micaut.IMathInputControl.Hide
 title: IMathInputControl::Hide (micaut.h)
-description: Hides the control.
+description: Hides the control.helpviewer_keywords: ["Hide","Hide method [Tablet PC]","Hide method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","Hide method","IMathInputControl.Hide","IMathInputControl::Hide","micaut/IMathInputControl::Hide","tablet.imathinputcontrol_hide"]
 old-location: tablet\imathinputcontrol_hide.htm
 tech.root: tablet
 ms.assetid: 13b227bf-3ea5-4da1-998e-8809616d88b6

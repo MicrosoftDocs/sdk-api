@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPControls.fastReverse
 title: IWMPControls::fastReverse (wmp.h)
-description: The fastReverse method starts fast play of the media item in the reverse direction.
+description: The fastReverse method starts fast play of the media item in the reverse direction.helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","fastReverse method","IWMPControls.fastReverse","IWMPControls::fastReverse","IWMPControlsfastReverse","fastReverse","fastReverse method [Windows Media Player]","fastReverse method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_fastreverse","wmp/IWMPControls::fastReverse"]
 old-location: wmp\iwmpcontrols_fastreverse.htm
 tech.root: WMP
 ms.assetid: 2adec4c7-7aca-4191-8c6f-61e137188ad9

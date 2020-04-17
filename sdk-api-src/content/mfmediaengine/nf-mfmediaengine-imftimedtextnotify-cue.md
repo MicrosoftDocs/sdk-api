@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.Cue
 title: IMFTimedTextNotify::Cue (mfmediaengine.h)
-description: Called when a cue event occurs in a text track.
+description: Called when a cue event occurs in a text track.helpviewer_keywords: ["Cue","Cue method [Media Foundation]","Cue method [Media Foundation]","IMFTimedTextNotify interface","IMFTimedTextNotify interface [Media Foundation]","Cue method","IMFTimedTextNotify.Cue","IMFTimedTextNotify::Cue","mf.imftimedtextnotify_cue","mfmediaengine/IMFTimedTextNotify::Cue"]
 old-location: mf\imftimedtextnotify_cue.htm
 tech.root: medfound
 ms.assetid: EE577250-2D75-4130-BA50-95D3E455A574

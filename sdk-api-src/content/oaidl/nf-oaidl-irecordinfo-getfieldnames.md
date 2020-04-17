@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetFieldNames
 title: IRecordInfo::GetFieldNames (oaidl.h)
-description: Gets the names of the fields of the record.
+description: Gets the names of the fields of the record.helpviewer_keywords: ["GetFieldNames","GetFieldNames method [Automation]","GetFieldNames method [Automation]","IRecordInfo interface","IRecordInfo interface [Automation]","GetFieldNames method","IRecordInfo.GetFieldNames","IRecordInfo::GetFieldNames","_oa96_IRecordInfo_GetFieldNames","automat.irecordinfo_getfieldnames","oaidl/IRecordInfo::GetFieldNames"]
 old-location: automat\irecordinfo_getfieldnames.htm
 tech.root: automat
 ms.assetid: 1cf4f149-1cdc-4884-887a-0eb44eeab8ff

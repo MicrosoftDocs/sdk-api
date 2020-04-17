@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectType.GetMemberName
 title: ID3D10EffectType::GetMemberName (d3d10effect.h)
-description: Get the name of a member.
+description: Get the name of a member.helpviewer_keywords: ["GetMemberName","GetMemberName method [Direct3D 10]","GetMemberName method [Direct3D 10]","ID3D10EffectType interface","ID3D10EffectType interface [Direct3D 10]","GetMemberName method","ID3D10EffectType.GetMemberName","ID3D10EffectType::GetMemberName","d3aad501-489a-1c7e-5669-9c1cf7cccfce","d3d10effect/ID3D10EffectType::GetMemberName","direct3d10.id3d10effecttype_getmembername"]
 old-location: direct3d10\id3d10effecttype_getmembername.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype_getmembername.htm

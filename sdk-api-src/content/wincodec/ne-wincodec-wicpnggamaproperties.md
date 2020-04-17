@@ -1,7 +1,7 @@
 ---
 UID: NE:wincodec.WICPngGamaProperties
 title: WICPngGamaProperties (wincodec.h)
-description: Specifies the Portable Network Graphics (PNG) gAMA chunk metadata properties.
+description: Specifies the Portable Network Graphics (PNG) gAMA chunk metadata properties.helpviewer_keywords: ["WICPngGamaGamma","WICPngGamaProperties","WICPngGamaProperties enumeration [Windows Imaging Component]","_wic_codec_wicpnggamaproperties","wic._wic_codec_wicpnggamaproperties","wincodec/WICPngGamaGamma","wincodec/WICPngGamaProperties"]
 old-location: wic\_wic_codec_wicpnggamaproperties.htm
 tech.root: wic
 ms.assetid: c70a3507-d598-4e33-872b-353389b19351

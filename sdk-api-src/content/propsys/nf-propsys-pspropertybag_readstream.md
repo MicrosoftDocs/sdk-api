@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadStream
 title: PSPropertyBag_ReadStream function (propsys.h)
-description: Reads the data stream stored in a given property contained in a specified property bag.
+description: Reads the data stream stored in a given property contained in a specified property bag.helpviewer_keywords: ["PSPropertyBag_ReadStream","PSPropertyBag_ReadStream function [Windows Properties]","properties.PSPropertyBag_ReadStream","propsys/PSPropertyBag_ReadStream","shell.PSPropertyBag_ReadStream","shell_PSPropertyBag_ReadStream"]
 old-location: properties\PSPropertyBag_ReadStream.htm
 tech.root: properties
 ms.assetid: 3D1D8B3E-DD16-4b34-918C-C8478EBF0930

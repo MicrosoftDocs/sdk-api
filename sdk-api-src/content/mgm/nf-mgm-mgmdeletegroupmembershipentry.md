@@ -1,7 +1,7 @@
 ---
 UID: NF:mgm.MgmDeleteGroupMembershipEntry
 title: MgmDeleteGroupMembershipEntry function (mgm.h)
-description: The MgmDeleteGroupMembershipEntry function notifies the multicast group manager that there are no more receivers present for the specified groups on the specified interface.
+description: The MgmDeleteGroupMembershipEntry function notifies the multicast group manager that there are no more receivers present for the specified groups on the specified interface.helpviewer_keywords: ["MGM_FORWARD_STATE","MGM_JOIN_STATE_FLAG","MgmDeleteGroupMembershipEntry","MgmDeleteGroupMembershipEntry function [RAS]","_mpr_mgmdeletegroupmembershipentry","mgm/MgmDeleteGroupMembershipEntry","rras.mgmdeletegroupmembershipentry"]
 old-location: rras\mgmdeletegroupmembershipentry.htm
 tech.root: RRAS
 ms.assetid: fe39d824-3154-4479-bd70-09b2b6593885

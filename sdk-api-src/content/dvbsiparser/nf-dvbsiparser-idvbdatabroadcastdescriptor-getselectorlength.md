@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetSelectorLength
 title: IDvbDataBroadcastDescriptor::GetSelectorLength (dvbsiparser.h)
-description: Gets the length of the selector in a DVB data broadcast descriptor, in bytes. The selector is defined by the data broadcast specification for the network.
+description: Gets the length of the selector in a DVB data broadcast descriptor, in bytes. The selector is defined by the data broadcast specification for the network.helpviewer_keywords: ["GetSelectorLength","GetSelectorLength method [Microsoft TV Technologies]","GetSelectorLength method [Microsoft TV Technologies]","IDvbDataBroadcastDescriptor interface","IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies]","GetSelectorLength method","IDvbDataBroadcastDescriptor.GetSelectorLength","IDvbDataBroadcastDescriptor::GetSelectorLength","dvbsiparser/IDvbDataBroadcastDescriptor::GetSelectorLength","mstv.idvbdatabroadcastdescriptor_getselectorlength"]
 old-location: mstv\idvbdatabroadcastdescriptor_getselectorlength.htm
 tech.root: mstv
 ms.assetid: fc1d25be-6f33-4281-a75c-74c7331ab6ed

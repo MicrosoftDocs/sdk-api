@@ -1,7 +1,7 @@
 ---
 UID: NF:swdevice.SwDeviceInterfaceRegister
 title: SwDeviceInterfaceRegister function (swdevice.h)
-description: Registers a device interface for a software device and optionally sets properties on that interface.
+description: Registers a device interface for a software device and optionally sets properties on that interface.helpviewer_keywords: ["SwDeviceInterfaceRegister","SwDeviceInterfaceRegister function","swdevice.swdeviceinterfaceregister","swdevice/SwDeviceInterfaceRegister"]
 old-location: swdevice\swdeviceinterfaceregister.htm
 tech.root: swdevice
 ms.assetid: A53FEBC2-E7D7-4DF7-B41C-BBB5A7EE044B

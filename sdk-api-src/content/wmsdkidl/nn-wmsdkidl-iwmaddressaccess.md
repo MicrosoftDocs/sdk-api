@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMAddressAccess
 title: IWMAddressAccess (wmsdkidl.h)
-description: The IWMAddressAccess interface controls IP access lists on the writer network sink object.
+description: The IWMAddressAccess interface controls IP access lists on the writer network sink object.helpviewer_keywords: ["IWMAddressAccess","IWMAddressAccess interface [windows Media Format]","IWMAddressAccess interface [windows Media Format]","described","IWMAddressAccessInterface","wmformat.iwmaddressaccess","wmsdkidl/IWMAddressAccess"]
 old-location: wmformat\iwmaddressaccess.htm
 tech.root: wmformat
 ms.assetid: 7251c600-90a2-4903-b26a-643b4d10b0ce

@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuningSpace.get_FriendlyName
 title: ITuningSpace::get_FriendlyName (tuner.h)
-description: The get_FriendlyName method retrieves the localized, user-friendly name of the tuning space.
+description: The get_FriendlyName method retrieves the localized, user-friendly name of the tuning space.helpviewer_keywords: ["ITuningSpace interface [Microsoft TV Technologies]","get_FriendlyName method","ITuningSpace.get_FriendlyName","ITuningSpace::get_FriendlyName","ITuningSpaceget_FriendlyName","get_FriendlyName","get_FriendlyName method [Microsoft TV Technologies]","get_FriendlyName method [Microsoft TV Technologies]","ITuningSpace interface","mstv.ituningspace_get_friendlyname","tuner/ITuningSpace::get_FriendlyName"]
 old-location: mstv\ituningspace_get_friendlyname.htm
 tech.root: mstv
 ms.assetid: d1427aae-49e9-45ce-abd9-902a895e6e44

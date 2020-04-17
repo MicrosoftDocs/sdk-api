@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetVCT
 title: IAtscPsipParser::GetVCT (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetVCT","GetVCT method [Microsoft TV Technologies]","GetVCT method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetVCT method","IAtscPsipParser.GetVCT","IAtscPsipParser::GetVCT","IAtscPsipParserGetVCT","atscpsipparser/IAtscPsipParser::GetVCT","mstv.iatscpsipparser_getvct"]
 old-location: mstv\iatscpsipparser_getvct.htm
 tech.root: mstv
 ms.assetid: d3df008e-020f-4ed3-9422-2d5f0f0b865f

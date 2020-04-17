@@ -1,7 +1,7 @@
 ---
 UID: NF:traffic.TcRegisterClient
 title: TcRegisterClient function (traffic.h)
-description: The TcRegisterClient function is used to register a client with the traffic control interface (TCI). The TcRegisterClient function must be the first function call a client makes to the TCI.
+description: The TcRegisterClient function is used to register a client with the traffic control interface (TCI). The TcRegisterClient function must be the first function call a client makes to the TCI.helpviewer_keywords: ["TcRegisterClient","TcRegisterClient function [QOS]","_gqos_tcregisterclient","qos.tcregisterclient","traffic/TcRegisterClient"]
 old-location: qos\tcregisterclient.htm
 tech.root: QOS
 ms.assetid: 10bbc08d-4bfa-4a64-b5b8-b720d7bc3185

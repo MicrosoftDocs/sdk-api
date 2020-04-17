@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmDefWindowProc
 title: DwmDefWindowProc function (dwmapi.h)
-description: Default window procedure for Desktop Window Manager (DWM) hit testing within the non-client area.
+description: Default window procedure for Desktop Window Manager (DWM) hit testing within the non-client area.helpviewer_keywords: ["DwmDefWindowProc","DwmDefWindowProc function [Desktop Window Manager]","_udwm_dwmdefwindowproc","_udwm_dwmdefwindowproc_cpp","dwm.dwmdefwindowproc","dwmapi/DwmDefWindowProc","winui._udwm_dwmdefwindowproc"]
 old-location: dwm\dwmdefwindowproc.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmdefwindowproc.htm

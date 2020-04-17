@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_SetInsertMarkColor
 title: ListView_SetInsertMarkColor macro (commctrl.h)
-description: Sets the color of the insertion point. You can use this macro or send the LVM_SETINSERTMARKCOLOR message explicitly.
+description: Sets the color of the insertion point. You can use this macro or send the LVM_SETINSERTMARKCOLOR message explicitly.helpviewer_keywords: ["ListView_SetInsertMarkColor","ListView_SetInsertMarkColor macro [Windows Controls]","_win32_ListView_SetInsertMarkColor","_win32_ListView_SetInsertMarkColor_cpp","commctrl/ListView_SetInsertMarkColor","controls.ListView_SetInsertMarkColor","controls._win32_ListView_SetInsertMarkColor"]
 old-location: controls\ListView_SetInsertMarkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinsertmarkcolor.htm

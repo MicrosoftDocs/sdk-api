@@ -1,7 +1,7 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.AddUserName
 title: IDiskQuotaControl::AddUserName (dskquota.h)
-description: Adds a new quota entry on the volume for the specified user. The user is identified by domain and account name.
+description: Adds a new quota entry on the volume for the specified user. The user is identified by domain and account name.helpviewer_keywords: ["AddUserName","AddUserName method [Files]","AddUserName method [Files]","IDiskQuotaControl interface","DISKQUOTA_USERNAME_RESOLVE_ASYNC","DISKQUOTA_USERNAME_RESOLVE_NONE","DISKQUOTA_USERNAME_RESOLVE_SYNC","IDiskQuotaControl interface [Files]","AddUserName method","IDiskQuotaControl.AddUserName","IDiskQuotaControl::AddUserName","_win32_idiskquotacontrol_addusername","base.idiskquotacontrol_addusername","dskquota/IDiskQuotaControl::AddUserName","fs.idiskquotacontrol_addusername"]
 old-location: fs\idiskquotacontrol_addusername.htm
 tech.root: FileIO
 ms.assetid: 306120e8-642a-439d-839c-944cb7fd7ee2

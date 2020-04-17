@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.VirtualUnlock
 title: VirtualUnlock function (memoryapi.h)
-description: Unlocks a specified range of pages in the virtual address space of a process, enabling the system to swap the pages out to the paging file if necessary.
+description: Unlocks a specified range of pages in the virtual address space of a process, enabling the system to swap the pages out to the paging file if necessary.helpviewer_keywords: ["VirtualUnlock","VirtualUnlock function","_win32_virtualunlock","base.virtualunlock","winbase/VirtualUnlock"]
 old-location: base\virtualunlock.htm
 tech.root: Memory
 ms.assetid: cb868c8a-ac0d-42ad-bf72-2ae617bc0427

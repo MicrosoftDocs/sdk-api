@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.GetSpaceExtension
 title: ITextFont2::GetSpaceExtension (tom.h)
-description: Gets the East Asian space extension value.
+description: Gets the East Asian space extension value.helpviewer_keywords: ["GetSpaceExtension","GetSpaceExtension method [Windows Controls]","GetSpaceExtension method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetSpaceExtension method","ITextFont2.GetSpaceExtension","ITextFont2::GetSpaceExtension","controls.itextfont2_getspaceextension","tom/ITextFont2::GetSpaceExtension"]
 old-location: controls\itextfont2_getspaceextension.htm
 tech.root: Controls
 ms.assetid: 36623ab5-3584-49c7-aeba-c34cfc8053e6

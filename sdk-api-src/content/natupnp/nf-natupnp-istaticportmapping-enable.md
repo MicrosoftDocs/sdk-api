@@ -1,7 +1,7 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.Enable
 title: IStaticPortMapping::Enable (natupnp.h)
-description: The Enable method enables or disables this port mapping.
+description: The Enable method enables or disables this port mapping.helpviewer_keywords: ["Enable","Enable method [ICS/ICF]","Enable method [ICS/ICF]","IStaticPortMapping interface","IStaticPortMapping interface [ICS/ICF]","Enable method","IStaticPortMapping.Enable","IStaticPortMapping::Enable","_ics_istaticportmapping_enable","ics.istaticportmapping_enable","natupnp/IStaticPortMapping::Enable"]
 old-location: ics\istaticportmapping_enable.htm
 tech.root: ics
 ms.assetid: 66aa27b4-83a5-4c20-b964-084dd0e48a54

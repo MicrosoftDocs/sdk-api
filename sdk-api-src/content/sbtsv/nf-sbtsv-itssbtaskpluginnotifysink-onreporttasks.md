@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnReportTasks
 title: ITsSbTaskPluginNotifySink::OnReportTasks (sbtsv.h)
-description: Notifies Remote Desktop Connection Broker (RD Connection Broker) of a new task report.
+description: Notifies Remote Desktop Connection Broker (RD Connection Broker) of a new task report.helpviewer_keywords: ["ITsSbTaskPluginNotifySink interface [Remote Desktop Services]","OnReportTasks method","ITsSbTaskPluginNotifySink.OnReportTasks","ITsSbTaskPluginNotifySink::OnReportTasks","OnReportTasks","OnReportTasks method [Remote Desktop Services]","OnReportTasks method [Remote Desktop Services]","ITsSbTaskPluginNotifySink interface","sbtsv/ITsSbTaskPluginNotifySink::OnReportTasks","termserv.itssbtaskpluginnotifysink_onreporttasks"]
 old-location: termserv\itssbtaskpluginnotifysink_onreporttasks.htm
 tech.root: TermServ
 ms.assetid: e3b722c2-e6fa-46c5-a851-a039553b8e95

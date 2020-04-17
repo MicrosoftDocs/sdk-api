@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.QueueEvent
 title: IMFMediaEventQueue::QueueEvent (mfobjects.h)
-description: Puts an event in the queue.
+description: Puts an event in the queue.helpviewer_keywords: ["IMFMediaEventQueue interface [Media Foundation]","QueueEvent method","IMFMediaEventQueue.QueueEvent","IMFMediaEventQueue::QueueEvent","QueueEvent","QueueEvent method [Media Foundation]","QueueEvent method [Media Foundation]","IMFMediaEventQueue interface","eb04ce9f-fb64-438f-ad4d-ba1fb849d59c","mf.imfmediaeventqueue_queueevent","mfobjects/IMFMediaEventQueue::QueueEvent"]
 old-location: mf\imfmediaeventqueue_queueevent.htm
 tech.root: medfound
 ms.assetid: eb04ce9f-fb64-438f-ad4d-ba1fb849d59c

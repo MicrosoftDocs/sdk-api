@@ -1,7 +1,7 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.FinishInitialization
 title: IOPMVideoOutput::FinishInitialization (opmapi.h)
-description: Completes the initialization sequence for an Output Protection Manager (OPM) session.
+description: Completes the initialization sequence for an Output Protection Manager (OPM) session.helpviewer_keywords: ["FinishInitialization","FinishInitialization method [Media Foundation]","FinishInitialization method [Media Foundation]","IOPMVideoOutput interface","IOPMVideoOutput interface [Media Foundation]","FinishInitialization method","IOPMVideoOutput.FinishInitialization","IOPMVideoOutput::FinishInitialization","mf.iopmvideooutput_iopmvideooutput__finishinitialization","opmapi/IOPMVideoOutput::FinishInitialization"]
 old-location: mf\iopmvideooutput_iopmvideooutput__finishinitialization.htm
 tech.root: medfound
 ms.assetid: 7551e374-8745-405b-9879-d35a92d661ea

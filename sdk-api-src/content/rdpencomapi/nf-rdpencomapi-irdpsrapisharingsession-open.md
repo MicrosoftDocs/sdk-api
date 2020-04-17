@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.Open
 title: IRDPSRAPISharingSession::Open (rdpencomapi.h)
-description: Puts the session in an active state.
+description: Puts the session in an active state.helpviewer_keywords: ["IRDPSRAPISharingSession interface [RDP]","Open method","IRDPSRAPISharingSession.Open","IRDPSRAPISharingSession2 interface [RDP]","Open method","IRDPSRAPISharingSession2::Open","IRDPSRAPISharingSession::Open","Open","Open method [RDP]","Open method [RDP]","IRDPSRAPISharingSession interface","Open method [RDP]","IRDPSRAPISharingSession2 interface","rdp.irdpsrapisharingsession_open","rdpencomapi/IRDPSRAPISharingSession2::Open","rdpencomapi/IRDPSRAPISharingSession::Open"]
 old-location: rdp\irdpsrapisharingsession_open.htm
 tech.root: rdp
 ms.assetid: 2c97a37d-5862-4ad3-9029-481ea0a789e0

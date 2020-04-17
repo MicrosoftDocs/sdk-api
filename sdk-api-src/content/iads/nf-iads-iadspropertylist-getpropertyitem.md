@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPropertyList.GetPropertyItem
 title: IADsPropertyList::GetPropertyItem (iads.h)
-description: Retrieves the item that matches the name from the list.
+description: Retrieves the item that matches the name from the list.helpviewer_keywords: ["GetPropertyItem","GetPropertyItem method [ADSI]","GetPropertyItem method [ADSI]","IADsPropertyList interface","IADsPropertyList interface [ADSI]","GetPropertyItem method","IADsPropertyList.GetPropertyItem","IADsPropertyList::GetPropertyItem","_ds_iadspropertylist_getpropertyitem","adsi.iadspropertylist__getpropertyitem","adsi.iadspropertylist_getpropertyitem","iads/IADsPropertyList::GetPropertyItem"]
 old-location: adsi\iadspropertylist_getpropertyitem.htm
 tech.root: adsi
 ms.assetid: 1de86caa-c14c-4dc0-bf56-5fa33279e30a

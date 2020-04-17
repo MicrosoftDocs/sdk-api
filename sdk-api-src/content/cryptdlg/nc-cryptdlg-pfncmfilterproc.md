@@ -1,7 +1,7 @@
 ---
 UID: NC:cryptdlg.PFNCMFILTERPROC
 title: PFNCMFILTERPROC (cryptdlg.h)
-description: Filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the CertSelectCertificate function.
+description: Filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the CertSelectCertificate function.helpviewer_keywords: ["PFNCMFILTERPROC","PFNCMFILTERPROC callback","PFNCMFILTERPROC callback function [Security]","cryptdlg/PFNCMFILTERPROC","security.pfncmfilterproc"]
 old-location: security\pfncmfilterproc.htm
 tech.root: SecCrypto
 ms.assetid: f870a8a7-c504-491a-b9ac-045766e46348

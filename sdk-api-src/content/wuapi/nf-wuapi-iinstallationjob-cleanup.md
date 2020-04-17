@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IInstallationJob.CleanUp
 title: IInstallationJob::CleanUp (wuapi.h)
-description: Waits for an asynchronous operation to be completed and then releases all the callbacks.
+description: Waits for an asynchronous operation to be completed and then releases all the callbacks.helpviewer_keywords: ["CleanUp","CleanUp method [Windows Update Agent]","CleanUp method [Windows Update Agent]","IInstallationJob interface","IInstallationJob interface [Windows Update Agent]","CleanUp method","IInstallationJob.CleanUp","IInstallationJob::CleanUp","wua.iinstallationjob_cleanup","wuapi/IInstallationJob::CleanUp"]
 old-location: wua\iinstallationjob_cleanup.htm
 tech.root: Wua_Sdk
 ms.assetid: ceb42a41-9df0-4075-afbe-f8753d4543d8

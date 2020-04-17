@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.Size.operator-sub
 title: Size::operator-sub (gdiplustypes.h)
-description: The Size::operator- method subtracts the Width and Height data members of two Size objects.
+description: The Size::operator- method subtracts the Width and Height data members of two Size objects.helpviewer_keywords: ["Size class [GDI+]","operator- method","Size.operator-","Size.operator-(const Size&)","Size.operator-sub","Size::operator-","Size::operator-sub","_gdiplus_CLASS_Size_operator_opminus_sz_","gdiplus._gdiplus_CLASS_Size_operator_opminus_sz_","operator-","operator- method [GDI+]","operator- method [GDI+]","Size class"]
 old-location: gdiplus\_gdiplus_CLASS_Size_operator_opminus_sz_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizemethods\operator_81sz.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Intersects(const BoundingBox &)
 title: BoundingOrientedBox::Intersects(const BoundingBox &)
-description: Tests the BoundingOrientedBox for intersection with a BoundingBox.
+description: Tests the BoundingOrientedBox for intersection with a BoundingBox.helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","Intersects method","BoundingOrientedBox.Intersects","BoundingOrientedBox.Intersects(const BoundingBox &)","BoundingOrientedBox.Intersects(const BoundingBox&)","BoundingOrientedBox::Intersects","BoundingOrientedBox::Intersects(const BoundingBox &)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingOrientedBox interface","dxmath.boundingorientedbox_intersects_4"]
 old-location: dxmath\boundingorientedbox_intersects_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Intersects(BoundingBox)

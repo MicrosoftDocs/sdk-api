@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxConfiguration
 title: IFaxConfiguration (faxcomex.h)
-description: Defines various methods that provide configuration options for the fax service.
+description: Defines various methods that provide configuration options for the fax service.helpviewer_keywords: ["IFaxConfiguration","IFaxConfiguration interface [Fax Service]","IFaxConfiguration interface [Fax Service]","described","_mfax_IFaxConfiguration","fax._mfax_IFaxConfiguration","faxcomex/IFaxConfiguration"]
 old-location: fax\_mfax_IFaxConfiguration.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxconfiguration\ifaxconfiguration.htm

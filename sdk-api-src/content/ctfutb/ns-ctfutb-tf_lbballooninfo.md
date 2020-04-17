@@ -1,7 +1,7 @@
 ---
 UID: NS:ctfutb.TF_LBBALLOONINFO
 title: TF_LBBALLOONINFO (ctfutb.h)
-description: The TF_LBBALLOONINFO structure contains information about a language bar balloon item.
+description: The TF_LBBALLOONINFO structure contains information about a language bar balloon item.helpviewer_keywords: ["TF_LBBALLOONINFO","TF_LBBALLOONINFO structure [Text Services Framework]","_tsf_tf_lbballooninfo_ref","ctfutb/TF_LBBALLOONINFO","tsf.tf_lbballooninfo"]
 old-location: tsf\tf_lbballooninfo.htm
 tech.root: TSF
 ms.assetid: 8ceed1ae-27f9-4998-b950-52865bfa2f79

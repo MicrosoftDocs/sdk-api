@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarCyMul
 title: VarCyMul function (oleauto.h)
-description: Multiplies two variants of type currency.
+description: Multiplies two variants of type currency.helpviewer_keywords: ["VarCyMul","VarCyMul function [Automation]","_oa96_VarCyMul","automat.varcymul","oleauto/VarCyMul"]
 old-location: automat\varcymul.htm
 tech.root: automat
 ms.assetid: a7cc06b2-5a19-4ffe-b055-4756a0d305ef

@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmRegisterForChangeNotification
 title: RtmRegisterForChangeNotification function (rtmv2.h)
-description: The RtmRegisterForChangeNotification function informs the routing table manager that the client should receive change notifications for the specified types of changes.
+description: The RtmRegisterForChangeNotification function informs the routing table manager that the client should receive change notifications for the specified types of changes.helpviewer_keywords: ["RTM_CHANGE_TYPE_ALL","RTM_CHANGE_TYPE_BEST","RTM_CHANGE_TYPE_FORWARDING","RTM_NOTIFY_ONLY_MARKED_DESTS","RtmRegisterForChangeNotification","RtmRegisterForChangeNotification function [RAS]","_rtmv2ref_rtmregisterforchangenotification","rras.rtmregisterforchangenotification","rtmv2/RtmRegisterForChangeNotification"]
 old-location: rras\rtmregisterforchangenotification.htm
 tech.root: RRAS
 ms.assetid: b6e04984-ac92-44a2-a18c-018c6b1b49a9

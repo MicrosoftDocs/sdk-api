@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IUpdate5
 title: IUpdate5 (wuapi.h)
-description: Contains the properties and methods that are available to an update.
+description: Contains the properties and methods that are available to an update.helpviewer_keywords: ["IUpdate5","IUpdate5 interface [Windows Update Agent]","IUpdate5 interface [Windows Update Agent]","described","wua.iupdate5","wuapi/IUpdate5"]
 old-location: wua\iupdate5.htm
 tech.root: Wua_Sdk
 ms.assetid: ff290e39-7d7c-42da-a522-ba9e672721b8

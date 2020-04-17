@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI4FromR8
 title: VarI4FromR8 function (oleauto.h)
-description: Converts a double value to a long value.
+description: Converts a double value to a long value.helpviewer_keywords: ["VarI4FromR8","VarI4FromR8 function [Automation]","_oa96_VarI4FromR8","automat.vari4fromr8","oleauto/VarI4FromR8"]
 old-location: automat\vari4fromr8.htm
 tech.root: automat
 ms.assetid: 370113c5-280c-4c69-8f67-45c7f2d84976

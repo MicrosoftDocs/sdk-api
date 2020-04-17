@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateDescriptorHeap
 title: ID3D12Device::CreateDescriptorHeap (d3d12.h)
-description: Creates a descriptor heap object.
+description: Creates a descriptor heap object.helpviewer_keywords: ["CreateDescriptorHeap","CreateDescriptorHeap method","CreateDescriptorHeap method","ID3D12Device interface","ID3D12Device interface","CreateDescriptorHeap method","ID3D12Device.CreateDescriptorHeap","ID3D12Device::CreateDescriptorHeap","d3d12/ID3D12Device::CreateDescriptorHeap","direct3d12.id3d12device_createdescriptorheap"]
 old-location: direct3d12\id3d12device_createdescriptorheap.htm
 tech.root: direct3d12
 ms.assetid: 69EE75CB-7B3D-403D-9798-279A47754ADC

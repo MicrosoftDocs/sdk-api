@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CMSG_EXPORT_MAIL_LIST
 title: PFN_CMSG_EXPORT_MAIL_LIST (wincrypt.h)
-description: Encrypts and exports the content encryption key for a mailing list recipient of an enveloped message.
+description: Encrypts and exports the content encryption key for a mailing list recipient of an enveloped message.helpviewer_keywords: ["PFN_CMSG_EXPORT_MAIL_LIST","PFN_CMSG_EXPORT_MAIL_LIST callback","PFN_CMSG_EXPORT_MAIL_LIST callback function [Security]","security.pfn_cmsg_export_mail_list","wincrypt/PFN_CMSG_EXPORT_MAIL_LIST"]
 old-location: security\pfn_cmsg_export_mail_list.htm
 tech.root: SecCrypto
 ms.assetid: 68a75714-cf47-40f9-95ab-e1ffc8936390

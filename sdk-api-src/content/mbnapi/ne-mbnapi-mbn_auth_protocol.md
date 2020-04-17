@@ -1,7 +1,7 @@
 ---
 UID: NE:mbnapi.MBN_AUTH_PROTOCOL
 title: MBN_AUTH_PROTOCOL (mbnapi.h)
-description: The MBN_AUTH_PROTOCOL enumerated type specifies the authentication protocol used for Packet Data Protocol (PDP) activation.
+description: The MBN_AUTH_PROTOCOL enumerated type specifies the authentication protocol used for Packet Data Protocol (PDP) activation.helpviewer_keywords: ["MBN_AUTH_PROTOCOL","MBN_AUTH_PROTOCOL enumeration [Microsoft Broadband Networks]","MBN_AUTH_PROTOCOL_CHAP","MBN_AUTH_PROTOCOL_MSCHAPV2","MBN_AUTH_PROTOCOL_NONE","MBN_AUTH_PROTOCOL_PAP","mbn.mbn_auth_protocol","mbnapi/MBN_AUTH_PROTOCOL","mbnapi/MBN_AUTH_PROTOCOL_CHAP","mbnapi/MBN_AUTH_PROTOCOL_MSCHAPV2","mbnapi/MBN_AUTH_PROTOCOL_NONE","mbnapi/MBN_AUTH_PROTOCOL_PAP"]
 old-location: mbn\mbn_auth_protocol.htm
 tech.root: mbn
 ms.assetid: 7a1858d4-3415-490d-b264-3033cd8f5af7

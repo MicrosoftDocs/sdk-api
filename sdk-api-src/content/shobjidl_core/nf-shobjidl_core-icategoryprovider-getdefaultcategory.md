@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.GetDefaultCategory
 title: ICategoryProvider::GetDefaultCategory (shobjidl_core.h)
-description: Enables the folder to override the default grouping.
+description: Enables the folder to override the default grouping.helpviewer_keywords: ["GetDefaultCategory","GetDefaultCategory method [Windows Shell]","GetDefaultCategory method [Windows Shell]","ICategoryProvider interface","ICategoryProvider interface [Windows Shell]","GetDefaultCategory method","ICategoryProvider.GetDefaultCategory","ICategoryProvider::GetDefaultCategory","inet_ICategoryProvider_GetDefaultCategory","shell.ICategoryProvider_GetDefaultCategory","shobjidl_core/ICategoryProvider::GetDefaultCategory"]
 old-location: shell\ICategoryProvider_GetDefaultCategory.htm
 tech.root: shell
 ms.assetid: b5a5d04c-b666-4063-bf0b-02564aa967ab

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_CspStatuses
 title: IX509CertificateRequestPkcs10::get_CspStatuses (certenroll.h)
-description: Retrieves a collection of ICspStatus objects that matches the intended use of the private key associated with the certificate request.
+description: Retrieves a collection of ICspStatus objects that matches the intended use of the private key associated with the certificate request.helpviewer_keywords: ["CspStatuses property [Security]","CspStatuses property [Security]","IX509CertificateRequestPkcs10 interface","IX509CertificateRequestPkcs10 interface [Security]","CspStatuses property","IX509CertificateRequestPkcs10.CspStatuses","IX509CertificateRequestPkcs10.get_CspStatuses","IX509CertificateRequestPkcs10::CspStatuses","IX509CertificateRequestPkcs10::get_CspStatuses","certenroll/IX509CertificateRequestPkcs10::CspStatuses","certenroll/IX509CertificateRequestPkcs10::get_CspStatuses","get_CspStatuses","security.ix509certificaterequestpkcs10_cspstatuses_property"]
 old-location: security\ix509certificaterequestpkcs10_cspstatuses_property.htm
 tech.root: seccertenroll
 ms.assetid: cad6d8f0-f7d6-4ede-96a2-b00159962a1b

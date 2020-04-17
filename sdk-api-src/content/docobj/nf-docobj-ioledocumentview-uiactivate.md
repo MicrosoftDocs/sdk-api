@@ -1,7 +1,7 @@
 ---
 UID: NF:docobj.IOleDocumentView.UIActivate
 title: IOleDocumentView::UIActivate (docobj.h)
-description: Activates or deactivates a document view's user interface elements, such as menus, toolbars, and accelerators.
+description: Activates or deactivates a document view's user interface elements, such as menus, toolbars, and accelerators.helpviewer_keywords: ["IOleDocumentView interface [COM]","UIActivate method","IOleDocumentView.UIActivate","IOleDocumentView::UIActivate","UIActivate","UIActivate method [COM]","UIActivate method [COM]","IOleDocumentView interface","_ole_ioledocumentview_uiactivate","com.ioledocumentview_uiactivate","docobj/IOleDocumentView::UIActivate"]
 old-location: com\ioledocumentview_uiactivate.htm
 tech.root: com
 ms.assetid: df92366c-89b3-44b3-bea0-1b6deb321fe4

@@ -1,7 +1,7 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerCredentialsXml2Blob
 title: EapHostPeerCredentialsXml2Blob function (eaphostpeerconfigapis.h)
-description: Generates the credentials BLOB.
+description: Generates the credentials BLOB.helpviewer_keywords: ["EapHostPeerCredentialsXml2Blob","EapHostPeerCredentialsXml2Blob function [EAPHost]","eaphost.eaphostpeercredentialsxml2blob","eaphostpeerconfigapis/EapHostPeerCredentialsXml2Blob"]
 old-location: eaphost\eaphostpeercredentialsxml2blob.htm
 tech.root: eaphost
 ms.assetid: ef8475f0-047d-4858-b3c1-3ddf41c1847f

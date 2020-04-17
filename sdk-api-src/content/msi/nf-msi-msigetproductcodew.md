@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiGetProductCodeW
 title: MsiGetProductCodeW function (msi.h)
-description: The MsiGetProductCode function returns the product code of an application by using the component code of an installed or advertised component of the application.
+description: The MsiGetProductCode function returns the product code of an application by using the component code of an installed or advertised component of the application.helpviewer_keywords: ["MsiGetProductCode","MsiGetProductCode function","MsiGetProductCodeA","MsiGetProductCodeW","_msi_msigetproductcode","msi/MsiGetProductCode","msi/MsiGetProductCodeA","msi/MsiGetProductCodeW","setup.msigetproductcode"]
 old-location: setup\msigetproductcode.htm
 tech.root: Msi
 ms.assetid: 5893c437-6827-44d6-bc22-18c402dda894

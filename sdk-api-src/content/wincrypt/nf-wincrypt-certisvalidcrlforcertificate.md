@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertIsValidCRLForCertificate
 title: CertIsValidCRLForCertificate function (wincrypt.h)
-description: The CertIsValidCRLForCertificate function checks a CRL to find out if it is a CRL that would include a specific certificate if that certificate were revoked.
+description: The CertIsValidCRLForCertificate function checks a CRL to find out if it is a CRL that would include a specific certificate if that certificate were revoked.helpviewer_keywords: ["CertIsValidCRLForCertificate","CertIsValidCRLForCertificate function [Security]","_crypto2_certisvalidcrlforcertificate","security.certisvalidcrlforcertificate","wincrypt/CertIsValidCRLForCertificate"]
 old-location: security\certisvalidcrlforcertificate.htm
 tech.root: SecCrypto
 ms.assetid: 06047b7a-4bdd-42f9-bb85-49b6ec6f35a0

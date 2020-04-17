@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10.D3D10_CLEAR_FLAG
 title: D3D10_CLEAR_FLAG (d3d10.h)
-description: Specifies the parts of the depth stencil to clear. Usually used with ID3D10Device::ClearDepthStencilView.
+description: Specifies the parts of the depth stencil to clear. Usually used with ID3D10Device::ClearDepthStencilView.helpviewer_keywords: ["6f00bddb-2778-cf66-6ca7-e2d2fe7b3c5a","D3D10_CLEAR_DEPTH","D3D10_CLEAR_FLAG","D3D10_CLEAR_FLAG enumeration [Direct3D 10]","D3D10_CLEAR_STENCIL","d3d10/D3D10_CLEAR_DEPTH","d3d10/D3D10_CLEAR_FLAG","d3d10/D3D10_CLEAR_STENCIL","direct3d10.d3d10_clear_flag"]
 old-location: direct3d10\d3d10_clear_flag.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_clear_flag.htm

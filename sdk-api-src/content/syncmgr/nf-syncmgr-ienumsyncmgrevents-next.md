@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Next
 title: IEnumSyncMgrEvents::Next (syncmgr.h)
-description: Gets the next batch of events from the event store.
+description: Gets the next batch of events from the event store.helpviewer_keywords: ["IEnumSyncMgrEvents interface [Windows Shell]","Next method","IEnumSyncMgrEvents.Next","IEnumSyncMgrEvents::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumSyncMgrEvents interface","_shell_IEnumSyncMgrEvents_Next","shell.IEnumSyncMgrEvents_Next","syncmgr/IEnumSyncMgrEvents::Next"]
 old-location: shell\IEnumSyncMgrEvents_Next.htm
 tech.root: shell
 ms.assetid: 22151b04-f4b8-46af-b55a-1ac2054900d3

@@ -1,7 +1,7 @@
 ---
 UID: NF:ktmw32.GetCurrentClockTransactionManager
 title: GetCurrentClockTransactionManager function (ktmw32.h)
-description: Obtains a virtual clock value from a transaction manager.
+description: Obtains a virtual clock value from a transaction manager.helpviewer_keywords: ["GetCurrentClockTransactionManager","GetCurrentClockTransactionManager function [Files]","fs.getcurrentclocktransactionmanager_func","ktmw32/GetCurrentClockTransactionManager"]
 old-location: fs\getcurrentclocktransactionmanager_func.htm
 tech.root: ktm
 ms.assetid: 21d7c0fa-3a49-43b3-9325-d3dfdabbcb98

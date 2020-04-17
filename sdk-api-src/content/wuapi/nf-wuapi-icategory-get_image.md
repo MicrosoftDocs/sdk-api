@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.ICategory.get_Image
 title: ICategory::get_Image (wuapi.h)
-description: Gets an interface that contains information about the image that is associated with the category.
+description: Gets an interface that contains information about the image that is associated with the category.helpviewer_keywords: ["ICategory interface [Windows Update Agent]","Image property","ICategory.Image","ICategory.get_Image","ICategory::Image","ICategory::get_Image","Image property [Windows Update Agent]","Image property [Windows Update Agent]","ICategory interface","get_Image","wua.icategory_image","wuapi/ICategory::Image","wuapi/ICategory::get_Image"]
 old-location: wua\icategory_image.htm
 tech.root: Wua_Sdk
 ms.assetid: 41f0dd44-c919-4264-8f35-ea4e48fd5503

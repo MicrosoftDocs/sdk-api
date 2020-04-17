@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetPackageApplicationIds
 title: GetPackageApplicationIds function (appmodel.h)
-description: Gets the IDs of apps in the specified package.
+description: Gets the IDs of apps in the specified package.helpviewer_keywords: ["GetPackageApplicationIds","GetPackageApplicationIds function [App packaging and management]","appmodel/GetPackageApplicationIds","appxpkg.getpackageapplicationids"]
 old-location: appxpkg\getpackageapplicationids.htm
 tech.root: appxpkg
 ms.assetid: F08135F9-FF45-4309-84B5-77F4AFD7FC0C

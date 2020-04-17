@@ -1,7 +1,7 @@
 ---
 UID: NF:indexsrv.IWordBreaker.Init
 title: IWordBreaker::Init (indexsrv.h)
-description: Initializes the IWordBreaker implementation and indicates the mode in which the component operates.
+description: Initializes the IWordBreaker implementation and indicates the mode in which the component operates.helpviewer_keywords: ["IWordBreaker interface [search]","Init method","IWordBreaker.Init","IWordBreaker::Init","Init","Init method [search]","Init method [search]","IWordBreaker interface","_search_IWordBreaker_Init","indexsrv/IWordBreaker::Init","search._search_IWordBreaker_Init"]
 old-location: search\_search_IWordBreaker_Init.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\init.htm

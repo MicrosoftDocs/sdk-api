@@ -1,7 +1,7 @@
 ---
 UID: NF:winml.IWinMLEvaluationContext.Clear
 title: IWinMLEvaluationContext::Clear (winml.h)
-description: Clears the bindings for a model.
+description: Clears the bindings for a model.helpviewer_keywords: ["Clear","Clear method","Clear method","IWinMLEvaluationContext interface","IWinMLEvaluationContext interface","Clear method","IWinMLEvaluationContext.Clear","IWinMLEvaluationContext::Clear","MachineLearning.iwinmlevaluationcontext_clear","winml/IWinMLEvaluationContext::Clear"]
 old-location: machinelearning\iwinmlevaluationcontext_clear.htm
 tech.root: MachineLearning
 ms.assetid: DBA33BEB-0843-463C-8EB8-BF86C7D106AC

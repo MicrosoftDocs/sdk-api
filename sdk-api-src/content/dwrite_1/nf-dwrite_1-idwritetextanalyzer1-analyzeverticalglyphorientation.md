@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.AnalyzeVerticalGlyphOrientation
 title: IDWriteTextAnalyzer1::AnalyzeVerticalGlyphOrientation (dwrite_1.h)
-description: Analyzes a text range for script orientation, reading text and attributes from the source and reporting results to the sink callback SetGlyphOrientation.
+description: Analyzes a text range for script orientation, reading text and attributes from the source and reporting results to the sink callback SetGlyphOrientation.helpviewer_keywords: ["AnalyzeVerticalGlyphOrientation","AnalyzeVerticalGlyphOrientation method [Direct Write]","AnalyzeVerticalGlyphOrientation method [Direct Write]","IDWriteTextAnalyzer1 interface","IDWriteTextAnalyzer1 interface [Direct Write]","AnalyzeVerticalGlyphOrientation method","IDWriteTextAnalyzer1.AnalyzeVerticalGlyphOrientation","IDWriteTextAnalyzer1::AnalyzeVerticalGlyphOrientation","directwrite.idwritetextanalyzer1_analyzeverticalglyphorientation","dwrite_1/IDWriteTextAnalyzer1::AnalyzeVerticalGlyphOrientation"]
 old-location: directwrite\idwritetextanalyzer1_analyzeverticalglyphorientation.htm
 tech.root: DirectWrite
 ms.assetid: E89C7E50-9EDA-4AC9-9FC0-B70E493ED1B4

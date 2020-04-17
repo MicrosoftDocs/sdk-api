@@ -1,7 +1,7 @@
 ---
 UID: NF:webapplication.IWebApplicationAuthoringMode.get_AuthoringClientBinary
 title: IWebApplicationAuthoringMode::get_AuthoringClientBinary (webapplication.h)
-description: Gets the full local path to a DLL to be loaded into the WWAHost process.
+description: Gets the full local path to a DLL to be loaded into the WWAHost process.helpviewer_keywords: ["AuthoringClientBinary property [Debugging Windows Store apps]","AuthoringClientBinary property [Debugging Windows Store apps]","IWebApplicationAuthoringMode interface","IWebApplicationAuthoringMode interface [Debugging Windows Store apps]","AuthoringClientBinary property","IWebApplicationAuthoringMode.AuthoringClientBinary","IWebApplicationAuthoringMode.get_AuthoringClientBinary","IWebApplicationAuthoringMode::AuthoringClientBinary","IWebApplicationAuthoringMode::get_AuthoringClientBinary","debug.iwebapplicationauthoringmode_authoringclientbinary","get_AuthoringClientBinary","webapplication/IWebApplicationAuthoringMode::AuthoringClientBinary","webapplication/IWebApplicationAuthoringMode::get_AuthoringClientBinary"]
 old-location: debug\iwebapplicationauthoringmode_authoringclientbinary.htm
 tech.root: debug_wwahost
 ms.assetid: ff75658a-af5a-42d7-be88-b3bc0daed5e2

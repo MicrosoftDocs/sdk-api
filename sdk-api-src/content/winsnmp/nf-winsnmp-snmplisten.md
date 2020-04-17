@@ -1,7 +1,7 @@
 ---
 UID: NF:winsnmp.SnmpListen
 title: SnmpListen function (winsnmp.h)
-description: The WinSNMP SnmpListen function registers a WinSNMP application as an SNMP agent.
+description: The WinSNMP SnmpListen function registers a WinSNMP application as an SNMP agent.helpviewer_keywords: ["SNMPAPI_OFF","SNMPAPI_ON","SnmpListen","SnmpListen function [SNMP]","_snmp_snmplisten","snmp.snmplisten","winsnmp/SnmpListen"]
 old-location: snmp\snmplisten.htm
 tech.root: SNMP
 ms.assetid: e89c9315-efe4-4241-a7c4-f4475b107701

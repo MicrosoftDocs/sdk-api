@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.AVIFileWriteData
 title: AVIFileWriteData function (vfw.h)
-description: The AVIFileWriteData function writes supplementary data (other than normal header, format, and stream data) to the file.
+description: The AVIFileWriteData function writes supplementary data (other than normal header, format, and stream data) to the file.helpviewer_keywords: ["AVIFileWriteData","AVIFileWriteData function [Windows Multimedia]","_win32_AVIFileWriteData","multimedia.avifilewritedata","vfw/AVIFileWriteData"]
 old-location: multimedia\avifilewritedata.htm
 tech.root: Multimedia
 ms.assetid: 27eef026-e401-44a2-9b46-a16b61026d2a

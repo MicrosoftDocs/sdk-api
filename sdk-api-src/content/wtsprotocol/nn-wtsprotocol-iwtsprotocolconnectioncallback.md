@@ -1,7 +1,7 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolConnectionCallback
 title: IWTSProtocolConnectionCallback (wtsprotocol.h)
-description: IWTSProtocolConnectionCallback is no longer available. Instead, use IWRdsProtocolConnectionCallback.
+description: IWTSProtocolConnectionCallback is no longer available. Instead, use IWRdsProtocolConnectionCallback.helpviewer_keywords: ["IWTSProtocolConnectionCallback","IWTSProtocolConnectionCallback interface [Remote Desktop Services]","IWTSProtocolConnectionCallback interface [Remote Desktop Services]","described","termserv.iwtsprotocolconnectioncallback","wtsprotocol/IWTSProtocolConnectionCallback"]
 old-location: termserv\iwtsprotocolconnectioncallback.htm
 tech.root: TermServ
 ms.assetid: ac8a2a66-fa1f-48bd-9502-def833e26f31

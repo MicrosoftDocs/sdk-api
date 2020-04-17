@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetDefaultFontAxisValues
 title: IDWriteFontResource::GetDefaultFontAxisValues
-description: Retrieves the default values for all axes supported by the font resource.
+description: Retrieves the default values for all axes supported by the font resource.helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetDefaultFontAxisValues method","IDWriteFontResource.GetDefaultFontAxisValues","IDWriteFontResource::GetDefaultFontAxisValues","GetDefaultFontAxisValues","GetDefaultFontAxisValues method [Direct Write]","GetDefaultFontAxisValues method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getdefaultfontaxisvalues","dwrite_3/IDWriteFontResource::GetDefaultFontAxisValues"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetDefaultFontAxisValues method, IDWriteFontResource.GetDefaultFontAxisValues, IDWriteFontResource::GetDefaultFontAxisValues, GetDefaultFontAxisValues, GetDefaultFontAxisValues method [Direct Write], GetDefaultFontAxisValues method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getdefaultfontaxisvalues, dwrite_3/IDWriteFontResource::GetDefaultFontAxisValues

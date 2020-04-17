@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.IExtendPropertySheet2
 title: IExtendPropertySheet2 (mmc.h)
-description: The IExtendPropertySheet2 interface is introduced in MMC 1.1.
+description: The IExtendPropertySheet2 interface is introduced in MMC 1.1.helpviewer_keywords: ["IExtendPropertySheet2","IExtendPropertySheet2 interface [MMC]","IExtendPropertySheet2 interface [MMC]","described","_slate_iextendpropertysheet2","mmc.iextendpropertysheet2","mmc/IExtendPropertySheet2"]
 old-location: mmc\iextendpropertysheet2.htm
 tech.root: mmc
 ms.assetid: 9beb0a0a-b3bf-46d0-b10c-0fc3ab25c18d

@@ -1,7 +1,7 @@
 ---
 UID: NF:swdevice.SwDeviceInterfaceSetState
 title: SwDeviceInterfaceSetState function (swdevice.h)
-description: Enables or disables a device interface for a software device.
+description: Enables or disables a device interface for a software device.helpviewer_keywords: ["SwDeviceInterfaceSetState","SwDeviceInterfaceSetState function","swdevice.swdeviceinterfacesetstate","swdevice/SwDeviceInterfaceSetState"]
 old-location: swdevice\swdeviceinterfacesetstate.htm
 tech.root: swdevice
 ms.assetid: 09430CEF-F386-4F08-9D11-78E61C44468D

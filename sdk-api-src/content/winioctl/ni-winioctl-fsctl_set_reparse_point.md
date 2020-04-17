@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_SET_REPARSE_POINT
 title: FSCTL_SET_REPARSE_POINT
-description: Sets a reparse point on a file or directory.
+description: Sets a reparse point on a file or directory.helpviewer_keywords: ["FSCTL_SET_REPARSE_POINT","FSCTL_SET_REPARSE_POINT control","FSCTL_SET_REPARSE_POINT control code [Files]","_win32_fsctl_set_reparse_point","base.fsctl_set_reparse_point","fs.fsctl_set_reparse_point","winioctl/FSCTL_SET_REPARSE_POINT"]
 old-location: fs\fsctl_set_reparse_point.htm
 tech.root: FileIO
 ms.assetid: 0bed6d69-269b-4921-8984-69c7829fb9ea

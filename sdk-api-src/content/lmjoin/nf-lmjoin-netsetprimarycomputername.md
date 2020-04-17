@@ -1,7 +1,7 @@
 ---
 UID: NF:lmjoin.NetSetPrimaryComputerName
 title: NetSetPrimaryComputerName function (lmjoin.h)
-description: Sets the primary computer name for the specified computer.
+description: Sets the primary computer name for the specified computer.helpviewer_keywords: ["NetSetPrimaryComputerName","NetSetPrimaryComputerName function [Network Management]","lmjoin/NetSetPrimaryComputerName","netmgmt.netsetprimarycomputername"]
 old-location: netmgmt\netsetprimarycomputername.htm
 tech.root: NetMgmt
 ms.assetid: 524c8219-a303-45ab-95e2-91319b477568

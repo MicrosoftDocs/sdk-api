@@ -1,7 +1,7 @@
 ---
 UID: NS:mmeapi.midiproptimediv_tag
 title: MIDIPROPTIMEDIV (mmeapi.h)
-description: The MIDIPROPTIMEDIV structure contains the time division property for a stream.
+description: The MIDIPROPTIMEDIV structure contains the time division property for a stream.helpviewer_keywords: ["*LPMIDIPROPTIMEDIV","MIDIPROPTIMEDIV","MIDIPROPTIMEDIV structure [Windows Multimedia]","_win32_MIDIPROPTIMEDIV_str","midiproptimediv_tag","mmeapi/MIDIPROPTIMEDIV","multimedia.midiproptimediv"]
 old-location: multimedia\midiproptimediv.htm
 tech.root: Multimedia
 ms.assetid: 12f8e54f-5d85-41e6-8c45-5d76d8925eb0

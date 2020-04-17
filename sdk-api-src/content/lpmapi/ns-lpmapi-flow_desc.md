@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.flow_desc
 title: FLOW_DESC (lpmapi.h)
-description: The FLOW_DESC structure contains flow descriptor information for RSVP.
+description: The FLOW_DESC structure contains flow descriptor information for RSVP.helpviewer_keywords: ["FLOW_DESC","FLOW_DESC structure [QOS]","lpmapi/FLOW_DESC","qos.flow_desc"]
 old-location: qos\flow_desc.htm
 tech.root: QOS
 ms.assetid: 11ecd7ac-13c4-4f55-9700-105153b4fead

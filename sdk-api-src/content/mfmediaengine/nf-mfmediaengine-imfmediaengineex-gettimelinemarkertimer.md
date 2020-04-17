@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetTimelineMarkerTimer
 title: IMFMediaEngineEx::GetTimelineMarkerTimer (mfmediaengine.h)
-description: Gets the time of the next timeline marker, if any.
+description: Gets the time of the next timeline marker, if any.helpviewer_keywords: ["GetTimelineMarkerTimer","GetTimelineMarkerTimer method [Media Foundation]","GetTimelineMarkerTimer method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","GetTimelineMarkerTimer method","IMFMediaEngineEx.GetTimelineMarkerTimer","IMFMediaEngineEx::GetTimelineMarkerTimer","mf.imfmediaengineex_gettimelinemarkertimer","mfmediaengine/IMFMediaEngineEx::GetTimelineMarkerTimer"]
 old-location: mf\imfmediaengineex_gettimelinemarkertimer.htm
 tech.root: medfound
 ms.assetid: 8C58DBB6-A55E-4992-B4F2-EB36E15FA7A1

@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_FILESYSTEM_GET_STATISTICS_EX
 title: FSCTL_FILESYSTEM_GET_STATISTICS_EX
-description: Retrieves the information from various file system performance counters.Support for this control code started with Windows 10.
+description: Retrieves the information from various file system performance counters.Support for this control code started with Windows 10.helpviewer_keywords: ["FSCTL_FILESYSTEM_GET_STATISTICS_EX","FSCTL_FILESYSTEM_GET_STATISTICS_EX control","FSCTL_FILESYSTEM_GET_STATISTICS_EX control code [Files]","fs.fsctl_filesystem_get_statistics_ex","winioctl/FSCTL_FILESYSTEM_GET_STATISTICS_EX"]
 old-location: fs\fsctl_filesystem_get_statistics_ex.htm
 tech.root: FileIO
 ms.assetid: 9B2C1F94-BA25-4534-BBD8-8D1EC5D05AF1

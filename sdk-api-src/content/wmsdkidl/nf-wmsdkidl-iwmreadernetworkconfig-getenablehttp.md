@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableHTTP
 title: IWMReaderNetworkConfig::GetEnableHTTP (wmsdkidl.h)
-description: The GetEnableHTTP method queries whether HTTP is enabled for protocol rollover.
+description: The GetEnableHTTP method queries whether HTTP is enabled for protocol rollover.helpviewer_keywords: ["GetEnableHTTP","GetEnableHTTP method [windows Media Format]","GetEnableHTTP method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetEnableHTTP method","IWMReaderNetworkConfig.GetEnableHTTP","IWMReaderNetworkConfig::GetEnableHTTP","IWMReaderNetworkConfigGetEnableHTTP","wmformat.iwmreadernetworkconfig_getenablehttp","wmsdkidl/IWMReaderNetworkConfig::GetEnableHTTP"]
 old-location: wmformat\iwmreadernetworkconfig_getenablehttp.htm
 tech.root: wmformat
 ms.assetid: 892879a3-8ab2-4d2c-ba47-9f6c2dd2aec3

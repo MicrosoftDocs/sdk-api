@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.SetIndents
 title: ITextPara::SetIndents (tom.h)
-description: Sets the first-line indent, the left indent, and the right indent for a paragraph.
+description: Sets the first-line indent, the left indent, and the right indent for a paragraph.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetIndents method","ITextPara.SetIndents","ITextPara::SetIndents","SetIndents","SetIndents method [Windows Controls]","SetIndents method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetIndents","_win32_ITextPara_SetIndents_cpp","controls.ITextPara_SetIndents","controls._win32_ITextPara_SetIndents","tom/ITextPara::SetIndents"]
 old-location: controls\ITextPara_SetIndents.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setindents.htm

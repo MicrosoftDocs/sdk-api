@@ -1,7 +1,7 @@
 ---
 UID: NF:msime.IFELanguage.GetConversionModeCaps
 title: IFELanguage::GetConversionModeCaps (msime.h)
-description: Gets the conversion mode capability of the IFELanguage object.
+description: Gets the conversion mode capability of the IFELanguage object.helpviewer_keywords: ["FELANG_CMODE_AUTOMATIC","FELANG_CMODE_BESTFIRST","FELANG_CMODE_BOPOMOFO","FELANG_CMODE_CONVERSATION","FELANG_CMODE_FULLWIDTHOUT","FELANG_CMODE_HALFWIDTHOUT","FELANG_CMODE_HANGUL","FELANG_CMODE_HIRAGANAOUT","FELANG_CMODE_KATAKANAOUT","FELANG_CMODE_MERGECAND","FELANG_CMODE_MONORUBY","FELANG_CMODE_NAME","FELANG_CMODE_NOINVISIBLECHAR","FELANG_CMODE_NONE","FELANG_CMODE_NOPRUNING","FELANG_CMODE_PHRASEPREDICT","FELANG_CMODE_PINYIN","FELANG_CMODE_PLAURALCLAUSE","FELANG_CMODE_PRECONV","FELANG_CMODE_RADICAL","FELANG_CMODE_ROMAN","FELANG_CMODE_SINGLECONVERT","FELANG_CMODE_UNKNOWNREADING","FELANG_CMODE_USENOREVWORDS","GetConversionModeCaps","GetConversionModeCaps method [Internationalization for Windows Applications]","GetConversionModeCaps method [Internationalization for Windows Applications]","IFELanguage interface","IFELanguage interface [Internationalization for Windows Applications]","GetConversionModeCaps method","IFELanguage.GetConversionModeCaps","IFELanguage::GetConversionModeCaps","intl.ifelanguage_getconversionmodecaps","msime/IFELanguage::GetConversionModeCaps"]
 old-location: intl\ifelanguage_getconversionmodecaps.htm
 tech.root: Intl
 ms.assetid: B1A3D121-C650-4D04-9278-791A12F73A2E

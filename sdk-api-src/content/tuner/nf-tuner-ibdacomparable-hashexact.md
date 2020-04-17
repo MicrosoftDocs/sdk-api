@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IBDAComparable.HashExact
 title: IBDAComparable::HashExact (tuner.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["HashExact","HashExact method [Microsoft TV Technologies]","HashExact method [Microsoft TV Technologies]","IBDAComparable interface","IBDAComparable interface [Microsoft TV Technologies]","HashExact method","IBDAComparable.HashExact","IBDAComparable::HashExact","IBDAComparableHashExact","mstv.ibdacomparable_hashexact","tuner/IBDAComparable::HashExact"]
 old-location: mstv\ibdacomparable_hashexact.htm
 tech.root: mstv
 ms.assetid: 41495662-835b-47bc-a8d6-b0b689ec4d51

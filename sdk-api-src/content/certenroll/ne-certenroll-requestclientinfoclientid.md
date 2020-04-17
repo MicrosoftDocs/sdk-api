@@ -1,7 +1,7 @@
 ---
 UID: NE:certenroll.RequestClientInfoClientId
 title: RequestClientInfoClientId (certenroll.h)
-description: Specifies the type of application that created a certificate request.
+description: Specifies the type of application that created a certificate request.helpviewer_keywords: ["ClientIdAutoEnroll","ClientIdAutoEnroll2003","ClientIdCertReq","ClientIdCertReq2003","ClientIdDefaultRequest","ClientIdEOBO","ClientIdNone","ClientIdRequestWizard","ClientIdTest","ClientIdUserStart","ClientIdWizard2003","ClientIdXEnroll2003","RequestClientInfoClientId","RequestClientInfoClientId enumeration [Security]","certenroll/ClientIdAutoEnroll","certenroll/ClientIdAutoEnroll2003","certenroll/ClientIdCertReq","certenroll/ClientIdCertReq2003","certenroll/ClientIdDefaultRequest","certenroll/ClientIdEOBO","certenroll/ClientIdNone","certenroll/ClientIdRequestWizard","certenroll/ClientIdTest","certenroll/ClientIdUserStart","certenroll/ClientIdWizard2003","certenroll/ClientIdXEnroll2003","certenroll/RequestClientInfoClientId","security.requestclientinfoclientid_enum"]
 old-location: security\requestclientinfoclientid_enum.htm
 tech.root: seccertenroll
 ms.assetid: 0c9ee81d-105d-4e97-9de3-169ff77e55f0

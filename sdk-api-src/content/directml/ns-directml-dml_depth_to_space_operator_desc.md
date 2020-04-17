@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_DEPTH_TO_SPACE_OPERATOR_DESC
 title: DML_DEPTH_TO_SPACE_OPERATOR_DESC
-description: Describes a DirectML data reorganization operator that rearranges (permutes) data from depth into blocks of spatial data.
+description: Describes a DirectML data reorganization operator that rearranges (permutes) data from depth into blocks of spatial data.helpviewer_keywords: ["DML_DEPTH_TO_SPACE_OPERATOR_DESC","DML_DEPTH_TO_SPACE_OPERATOR_DESC structure","direct3d12.dml_depth_to_space_operator_desc","directml/DML_DEPTH_TO_SPACE_OPERATOR_DESC"]
 old-location: direct3d12\dml_depth_to_space_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 3C4B5A64-B487-4967-840F-3CD2FBDEFD52

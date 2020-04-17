@@ -1,7 +1,7 @@
 ---
 UID: NS:ipmib._MIB_MFE_STATS_TABLE_EX_XP
 title: MIB_MFE_STATS_TABLE_EX_XP (ipmib.h)
-description: Contains a table of extended statistics for Multicast Forwarding Entries (MFEs).
+description: Contains a table of extended statistics for Multicast Forwarding Entries (MFEs).helpviewer_keywords: ["*PMIB_MFE_STATS_TABLE_EX","*PMIB_MFE_STATS_TABLE_EX_XP","MIB_MFE_STATS_TABLE_EX","MIB_MFE_STATS_TABLE_EX structure [MIB]","MIB_MFE_STATS_TABLE_EX_XP","PMIB_MFE_STATS_TABLE_EX","PMIB_MFE_STATS_TABLE_EX structure pointer [MIB]","ipmib/MIB_MFE_STATS_TABLE_EX","ipmib/PMIB_MFE_STATS_TABLE_EX","iprtrmib/MIB_MFE_STATS_TABLE_EX","iprtrmib/PMIB_MFE_STATS_TABLE_EX","mib.mib_mfe_stats_table_ex"]
 old-location: mib\mib_mfe_stats_table_ex.htm
 tech.root: MIB
 ms.assetid: a13fbca9-b09e-458f-84e5-c8bb6d9fbd19

@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IExplorerBrowser
 title: IExplorerBrowser (shobjidl_core.h)
-description: IExplorerBrowser is a browser object that can be either navigated or that can host a view of a data object. As a full-featured browser object, it also supports an automatic travel log.
+description: IExplorerBrowser is a browser object that can be either navigated or that can host a view of a data object. As a full-featured browser object, it also supports an automatic travel log.helpviewer_keywords: ["IExplorerBrowser","IExplorerBrowser interface [Windows Shell]","IExplorerBrowser interface [Windows Shell]","described","_shell_IExplorerBrowser","shell.IExplorerBrowser","shobjidl_core/IExplorerBrowser"]
 old-location: shell\IExplorerBrowser.htm
 tech.root: shell
 ms.assetid: da2cf5d4-5a68-4d18-807b-b9d4e2712c10

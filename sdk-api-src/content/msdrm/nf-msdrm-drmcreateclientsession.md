@@ -1,7 +1,7 @@
 ---
 UID: NF:msdrm.DRMCreateClientSession
 title: DRMCreateClientSession function (msdrm.h)
-description: Creates a client session, which hosts license storage sessions and is used in activation and other function calls.
+description: Creates a client session, which hosts license storage sessions and is used in activation and other function calls.helpviewer_keywords: ["DRMCreateClientSession","DRMCreateClientSession function [Active Directory Rights Management Services SDK 1.0]","DRM_DEFAULTGROUPIDTYPE_PASSPORT","DRM_DEFAULTGROUPIDTYPE_WINDOWSAUTH","msdrm/DRMCreateClientSession","rm.drmcreateclientsession"]
 old-location: rm\drmcreateclientsession.htm
 tech.root: AdRms_Sdk
 ms.assetid: 4b8928a0-1d72-47ee-a357-47fb5777d60c

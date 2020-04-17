@@ -1,7 +1,7 @@
 ---
 UID: NN:workspaceruntime.IWorkspace3
 title: IWorkspace3 (workspaceruntime.h)
-description: Exposes methods that provide information about a connection in RemoteApp and Desktop Connection, and adds the ability to retrieve or set a claims token.
+description: Exposes methods that provide information about a connection in RemoteApp and Desktop Connection, and adds the ability to retrieve or set a claims token.helpviewer_keywords: ["IWorkspace3","IWorkspace3 interface [Remote Desktop Services]","IWorkspace3 interface [Remote Desktop Services]","described","termserv.iworkspace3","workspaceruntime/IWorkspace3"]
 old-location: termserv\iworkspace3.htm
 tech.root: TermServ
 ms.assetid: a63240fb-8724-4cd2-b845-f48075f4cb57

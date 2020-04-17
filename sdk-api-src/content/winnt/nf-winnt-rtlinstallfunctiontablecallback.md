@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.RtlInstallFunctionTableCallback
 title: RtlInstallFunctionTableCallback function (winnt.h)
-description: Adds a dynamic function table to the dynamic function table list.
+description: Adds a dynamic function table to the dynamic function table list.helpviewer_keywords: ["RtlInstallFunctionTableCallback","RtlInstallFunctionTableCallback function","base.rtlinstallfunctiontablecallback","winnt/RtlInstallFunctionTableCallback"]
 old-location: base\rtlinstallfunctiontablecallback.htm
 tech.root: Debug
 ms.assetid: 63b35b17-0b0e-46ed-9dbf-98290ab08bd1

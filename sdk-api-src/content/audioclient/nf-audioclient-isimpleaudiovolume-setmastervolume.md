@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.ISimpleAudioVolume.SetMasterVolume
 title: ISimpleAudioVolume::SetMasterVolume (audioclient.h)
-description: The SetMasterVolume method sets the master volume level for the audio session.
+description: The SetMasterVolume method sets the master volume level for the audio session.helpviewer_keywords: ["ISimpleAudioVolume interface [Core Audio]","SetMasterVolume method","ISimpleAudioVolume.SetMasterVolume","ISimpleAudioVolume::SetMasterVolume","ISimpleAudioVolumeSetMasterVolume","SetMasterVolume","SetMasterVolume method [Core Audio]","SetMasterVolume method [Core Audio]","ISimpleAudioVolume interface","audioclient/ISimpleAudioVolume::SetMasterVolume","coreaudio.isimpleaudiovolume_setmastervolume"]
 old-location: coreaudio\isimpleaudiovolume_setmastervolume.htm
 tech.root: CoreAudio
 ms.assetid: 895a8564-5f06-4e20-abcc-d960d4002eb0

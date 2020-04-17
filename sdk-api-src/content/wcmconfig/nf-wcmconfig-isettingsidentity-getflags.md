@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.GetFlags
 title: ISettingsIdentity::GetFlags (wcmconfig.h)
-description: Returns the flags for a namespace identity.
+description: Returns the flags for a namespace identity.helpviewer_keywords: ["GetFlags","GetFlags method [SMI]","GetFlags method [SMI]","ISettingsIdentity interface","ISettingsIdentity interface [SMI]","GetFlags method","ISettingsIdentity.GetFlags","ISettingsIdentity::GetFlags","smi.isettingsidentity_getflags","wcmconfig/ISettingsIdentity::GetFlags"]
 old-location: smi\isettingsidentity_getflags.htm
 tech.root: SMI
 ms.assetid: aec52cd2-90e2-492d-afcf-433a762133d1

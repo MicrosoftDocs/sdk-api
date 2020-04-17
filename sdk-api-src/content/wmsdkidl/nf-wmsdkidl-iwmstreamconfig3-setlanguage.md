@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig3.SetLanguage
 title: IWMStreamConfig3::SetLanguage (wmsdkidl.h)
-description: The SetLanguage method sets the language for a stream using an RFC1766-compliant string.
+description: The SetLanguage method sets the language for a stream using an RFC1766-compliant string.helpviewer_keywords: ["IWMStreamConfig3 interface [windows Media Format]","SetLanguage method","IWMStreamConfig3.SetLanguage","IWMStreamConfig3::SetLanguage","IWMStreamConfig3SetLanguage","SetLanguage","SetLanguage method [windows Media Format]","SetLanguage method [windows Media Format]","IWMStreamConfig3 interface","wmformat.iwmstreamconfig3_setlanguage","wmsdkidl/IWMStreamConfig3::SetLanguage"]
 old-location: wmformat\iwmstreamconfig3_setlanguage.htm
 tech.root: wmformat
 ms.assetid: 3d5c65b1-5e8b-4ee7-b28c-a35376c91ac4

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptCreateHash
 title: CryptCreateHash function (wincrypt.h)
-description: Initiates the hashing of a stream of data. It creates and returns to the calling application a handle to a cryptographic service provider (CSP) hash object.
+description: Initiates the hashing of a stream of data. It creates and returns to the calling application a handle to a cryptographic service provider (CSP) hash object.helpviewer_keywords: ["CRYPT_SECRETDIGEST","CryptCreateHash","CryptCreateHash function [Security]","_crypto2_cryptcreatehash","security.cryptcreatehash","wincrypt/CryptCreateHash"]
 old-location: security\cryptcreatehash.htm
 tech.root: SecCrypto
 ms.assetid: 05e3db57-8d83-48e2-8590-68039ea27253

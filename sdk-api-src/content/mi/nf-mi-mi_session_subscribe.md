@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Session_Subscribe
 title: MI_Session_Subscribe function (mi.h)
-description: Subscribes to an indication on the server represented by the session.
+description: Subscribes to an indication on the server represented by the session.helpviewer_keywords: ["MI_Session_Subscribe","MI_Session_Subscribe function [Windows Management Infrastructure (MI)]","mi/MI_Session_Subscribe","wmi_v2.mi_session_subscribe"]
 old-location: wmi_v2\mi_session_subscribe.htm
 tech.root: wmi_v2
 ms.assetid: fed64a7a-ef16-4e9b-91b4-7ecede099585

@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_INFO.Next
 title: IEnumWIA_DEV_INFO::Next (wia_xp.h)
-description: The IEnumWIA_DEV_INFO::Next method fills an array of pointers to IWiaPropertyStorage interfaces.
+description: The IEnumWIA_DEV_INFO::Next method fills an array of pointers to IWiaPropertyStorage interfaces.helpviewer_keywords: ["IEnumWIA_DEV_INFO interface [WIA]","Next method","IEnumWIA_DEV_INFO.Next","IEnumWIA_DEV_INFO::Next","Next","Next method [WIA]","Next method [WIA]","IEnumWIA_DEV_INFO interface","_wia_IEnumWIA_DEV_INFO_Next","wia._wia_IEnumWIA_DEV_INFO_Next","wia_xp/IEnumWIA_DEV_INFO::Next"]
 old-location: wia\_wia_IEnumWIA_DEV_INFO_Next.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_info\next.htm

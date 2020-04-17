@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPropertyList.PurgePropertyList
 title: IADsPropertyList::PurgePropertyList (iads.h)
-description: Deletes all items from the property list.
+description: Deletes all items from the property list.helpviewer_keywords: ["IADsPropertyList interface [ADSI]","PurgePropertyList method","IADsPropertyList.PurgePropertyList","IADsPropertyList::PurgePropertyList","PurgePropertyList","PurgePropertyList method [ADSI]","PurgePropertyList method [ADSI]","IADsPropertyList interface","_ds_iadspropertylist_purgepropertylist","adsi.iadspropertylist__purgepropertylist","adsi.iadspropertylist_purgepropertylist","iads/IADsPropertyList::PurgePropertyList"]
 old-location: adsi\iadspropertylist_purgepropertylist.htm
 tech.root: adsi
 ms.assetid: 872c8af7-60c4-4dfc-aa37-0cbb2229a93f

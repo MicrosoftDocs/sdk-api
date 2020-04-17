@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.ClearAllTabs
 title: ITextPara::ClearAllTabs (tom.h)
-description: Clears all tabs, reverting to equally spaced tabs with the default tab spacing.
+description: Clears all tabs, reverting to equally spaced tabs with the default tab spacing.helpviewer_keywords: ["ClearAllTabs","ClearAllTabs method [Windows Controls]","ClearAllTabs method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","ClearAllTabs method","ITextPara.ClearAllTabs","ITextPara::ClearAllTabs","_win32_ITextPara_ClearAllTabs","_win32_ITextPara_ClearAllTabs_cpp","controls.ITextPara_ClearAllTabs","controls._win32_ITextPara_ClearAllTabs","tom/ITextPara::ClearAllTabs"]
 old-location: controls\ITextPara_ClearAllTabs.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\clearalltabs.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPControls3.getLanguageName
 title: IWMPControls3::getLanguageName (wmp.h)
-description: The getLanguageName method retrieves the name of the audio language with the specified locale identifier (LCID).
+description: The getLanguageName method retrieves the name of the audio language with the specified locale identifier (LCID).helpviewer_keywords: ["IWMPControls3 interface [Windows Media Player]","getLanguageName method","IWMPControls3.getLanguageName","IWMPControls3::getLanguageName","IWMPControls3getLanguageName","getLanguageName","getLanguageName method [Windows Media Player]","getLanguageName method [Windows Media Player]","IWMPControls3 interface","wmp.iwmpcontrols3_getlanguagename","wmp/IWMPControls3::getLanguageName"]
 old-location: wmp\iwmpcontrols3_getlanguagename.htm
 tech.root: WMP
 ms.assetid: cbae09f6-be4d-4736-9e02-d5b85b82ae77

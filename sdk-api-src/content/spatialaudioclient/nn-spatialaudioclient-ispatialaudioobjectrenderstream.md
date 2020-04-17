@@ -1,7 +1,7 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioObjectRenderStream
 title: ISpatialAudioObjectRenderStream (spatialaudioclient.h)
-description: Provides methods for controlling a spatial audio object render stream, including starting, stopping, and resetting the stream.
+description: Provides methods for controlling a spatial audio object render stream, including starting, stopping, and resetting the stream.helpviewer_keywords: ["ISpatialAudioObjectRenderStream","ISpatialAudioObjectRenderStream interface [Core Audio]","ISpatialAudioObjectRenderStream interface [Core Audio]","described","coreaudio.ispatialaudioobjectrenderstream","spatialaudioclient/ISpatialAudioObjectRenderStream"]
 old-location: coreaudio\ispatialaudioobjectrenderstream.htm
 tech.root: CoreAudio
 ms.assetid: B4D10CC6-62BF-4D20-910F-E39DF812010D

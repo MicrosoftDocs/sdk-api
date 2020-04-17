@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_IPV4Filter.GetMulticastList
 title: IBDA_IPV4Filter::GetMulticastList (bdaiface.h)
-description: The GetMulticastList method retrieves the list of multicast addresses on the Network Provider.
+description: The GetMulticastList method retrieves the list of multicast addresses on the Network Provider.helpviewer_keywords: ["GetMulticastList","GetMulticastList method [Microsoft TV Technologies]","GetMulticastList method [Microsoft TV Technologies]","IBDA_IPV4Filter interface","IBDA_IPV4Filter interface [Microsoft TV Technologies]","GetMulticastList method","IBDA_IPV4Filter.GetMulticastList","IBDA_IPV4Filter::GetMulticastList","IBDA_IPV4FilterGetMulticastList","bdaiface/IBDA_IPV4Filter::GetMulticastList","mstv.ibda_ipv4filter_getmulticastlist"]
 old-location: mstv\ibda_ipv4filter_getmulticastlist.htm
 tech.root: mstv
 ms.assetid: 020a4053-76ba-4e67-afa8-27abcf70c456

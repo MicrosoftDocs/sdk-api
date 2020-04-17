@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.get_IsConnected
 title: INetworkListManager::get_IsConnected (netlistmgr.h)
-description: The get_IsConnected property specifies if the local machine has network connectivity.
+description: The get_IsConnected property specifies if the local machine has network connectivity.helpviewer_keywords: ["INetworkListManager interface [Network Awareness]","get_IsConnected method","INetworkListManager.get_IsConnected","INetworkListManager::get_IsConnected","get_IsConnected","get_IsConnected method [Network Awareness]","get_IsConnected method [Network Awareness]","INetworkListManager interface","netlistmgr/INetworkListManager::get_IsConnected","nla.inetworklistmanager_get_isconnected"]
 old-location: nla\inetworklistmanager_get_isconnected.htm
 tech.root: nla
 ms.assetid: 51bdec8e-521f-4673-a2ad-07e8995f3905

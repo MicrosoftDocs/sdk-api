@@ -1,7 +1,7 @@
 ---
 UID: NF:mscat.CryptCATClose
 title: CryptCATClose function (mscat.h)
-description: Closes a catalog handle opened previously by the CryptCATOpen function.
+description: Closes a catalog handle opened previously by the CryptCATOpen function.helpviewer_keywords: ["CryptCATClose","CryptCATClose function [Security]","mscat/CryptCATClose","security.cryptcatclose"]
 old-location: security\cryptcatclose.htm
 tech.root: SecCrypto
 ms.assetid: f6fa2d10-0049-4d5e-9688-566e5c11d64e

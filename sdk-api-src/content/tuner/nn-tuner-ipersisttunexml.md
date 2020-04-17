@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IPersistTuneXml
 title: IPersistTuneXml (tuner.h)
-description: Implements methods for serializing tuning model objects. All serializable tuning model objects are required to implement this interface.
+description: Implements methods for serializing tuning model objects. All serializable tuning model objects are required to implement this interface.helpviewer_keywords: ["IPersistTuneXml","IPersistTuneXml interface [Microsoft TV Technologies]","IPersistTuneXml interface [Microsoft TV Technologies]","described","mstv.ipersisttunexml","tuner/IPersistTuneXml"]
 old-location: mstv\ipersisttunexml.htm
 tech.root: mstv
 ms.assetid: 2e08f727-9ffe-435b-9eca-4e9867fe410b

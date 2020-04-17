@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnConnectionProfileManagerEvents
 title: IMbnConnectionProfileManagerEvents (mbnapi.h)
-description: This notification interface signals an application about the arrival and removal of IMbnConnectionProfile interfaces in the system.
+description: This notification interface signals an application about the arrival and removal of IMbnConnectionProfile interfaces in the system.helpviewer_keywords: ["IMbnConnectionProfileManagerEvents","IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks]","IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks]","described","mbn.imbnconnectionprofilemanagerevents","mbnapi/IMbnConnectionProfileManagerEvents"]
 old-location: mbn\imbnconnectionprofilemanagerevents.htm
 tech.root: mbn
 ms.assetid: 08ec0bff-898f-4a54-b711-ceae80e7329d

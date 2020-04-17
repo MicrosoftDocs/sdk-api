@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarR8FromBool
 title: VarR8FromBool function (oleauto.h)
-description: Converts a Boolean value to a double value.
+description: Converts a Boolean value to a double value.helpviewer_keywords: ["VarR8FromBool","VarR8FromBool function [Automation]","_oa96_VarR8FromBool","automat.varr8frombool","oleauto/VarR8FromBool"]
 old-location: automat\varr8frombool.htm
 tech.root: automat
 ms.assetid: f1625830-72c6-4efc-b234-f4def897aae6

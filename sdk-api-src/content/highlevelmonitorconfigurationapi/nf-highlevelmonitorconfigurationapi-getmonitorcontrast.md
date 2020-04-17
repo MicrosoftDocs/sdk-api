@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorContrast
 title: GetMonitorContrast function (highlevelmonitorconfigurationapi.h)
-description: Retrieves a monitor's minimum, maximum, and current contrast settings.
+description: Retrieves a monitor's minimum, maximum, and current contrast settings.helpviewer_keywords: ["GetMonitorContrast","GetMonitorContrast function [Monitor Configuration]","highlevelmonitorconfigurationapi/GetMonitorContrast","monitor.getmonitorcontrast"]
 old-location: monitor\getmonitorcontrast.htm
 tech.root: Monitor
 ms.assetid: 996d894d-3939-418f-b7d2-c0e9d667391e

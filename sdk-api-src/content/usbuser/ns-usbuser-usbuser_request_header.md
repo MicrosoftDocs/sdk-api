@@ -1,7 +1,7 @@
 ---
 UID: NS:usbuser._USBUSER_REQUEST_HEADER
 title: USBUSER_REQUEST_HEADER (usbuser.h)
-description: The USBUSER_REQUEST_HEADER structure is used with the IOCTL_USB_USER_REQUEST I/O control request to send a user-mode request to the USB host controller driver.
+description: The USBUSER_REQUEST_HEADER structure is used with the IOCTL_USB_USER_REQUEST I/O control request to send a user-mode request to the USB host controller driver.helpviewer_keywords: ["*PUSBUSER_REQUEST_HEADER","PUSBUSER_REQUEST_HEADER","PUSBUSER_REQUEST_HEADER structure pointer [Buses]","USBUSER_REQUEST_HEADER","USBUSER_REQUEST_HEADER structure [Buses]","buses.usbuser_request_header","usbstrct_04ac2f33-ce32-4697-89d0-5f2c1516c3b6.xml","usbuser/PUSBUSER_REQUEST_HEADER","usbuser/USBUSER_REQUEST_HEADER"]
 old-location: buses\usbuser_request_header.htm
 tech.root: usbref
 ms.assetid: f5f1e136-f603-4f9a-8ebb-8f6ad847e04d

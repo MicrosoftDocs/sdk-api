@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextCreateEnumHandle0
 title: FwpmProviderContextCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of provider contexts.
+description: Creates a handle used to enumerate a set of provider contexts.helpviewer_keywords: ["FwpmProviderContextCreateEnumHandle0","FwpmProviderContextCreateEnumHandle0 function [Filtering]","fwp.fwpmprovidercontextcreateenumhandle0_func","fwpmu/FwpmProviderContextCreateEnumHandle0"]
 old-location: fwp\fwpmprovidercontextcreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 3b660e3a-fba6-4466-aa82-eb90c27ae004

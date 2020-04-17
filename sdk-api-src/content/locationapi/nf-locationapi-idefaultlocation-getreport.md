@@ -1,7 +1,7 @@
 ---
 UID: NF:locationapi.IDefaultLocation.GetReport
 title: IDefaultLocation::GetReport (locationapi.h)
-description: Retrieves the specified report type from the default location provider.
+description: Retrieves the specified report type from the default location provider.helpviewer_keywords: ["GetReport","GetReport method [WinLocation]","GetReport method [WinLocation]","IDefaultLocation interface","IDefaultLocation interface [WinLocation]","GetReport method","IDefaultLocation.GetReport","IDefaultLocation::GetReport","WinLocation_COM_Ref.idefaultlocation_getreport","locationapi/IDefaultLocation::GetReport"]
 old-location: winlocation_com_ref\idefaultlocation_getreport.htm
 tech.root: locationapi
 ms.assetid: 7b52dd6e-cba5-4248-b1be-b34e47a029d5

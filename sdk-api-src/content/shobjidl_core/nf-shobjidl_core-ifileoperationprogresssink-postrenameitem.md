@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostRenameItem
 title: IFileOperationProgressSink::PostRenameItem (shobjidl_core.h)
-description: Performs caller-implemented actions after the rename process for each item is complete.
+description: Performs caller-implemented actions after the rename process for each item is complete.helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PostRenameItem method","IFileOperationProgressSink.PostRenameItem","IFileOperationProgressSink::PostRenameItem","PostRenameItem","PostRenameItem method [Windows Shell]","PostRenameItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PostRenameItem","shell.IFileOperationProgressSink_PostRenameItem","shobjidl_core/IFileOperationProgressSink::PostRenameItem"]
 old-location: shell\IFileOperationProgressSink_PostRenameItem.htm
 tech.root: shell
 ms.assetid: 3bb55ecf-a975-4e7f-9e41-30e778d4cbac

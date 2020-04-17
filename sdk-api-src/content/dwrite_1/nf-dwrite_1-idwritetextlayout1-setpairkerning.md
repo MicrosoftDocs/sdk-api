@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteTextLayout1.SetPairKerning
 title: IDWriteTextLayout1::SetPairKerning (dwrite_1.h)
-description: Enables or disables pair-kerning on a given text range.
+description: Enables or disables pair-kerning on a given text range.helpviewer_keywords: ["IDWriteTextLayout1 interface [Direct Write]","SetPairKerning method","IDWriteTextLayout1.SetPairKerning","IDWriteTextLayout1::SetPairKerning","SetPairKerning","SetPairKerning method [Direct Write]","SetPairKerning method [Direct Write]","IDWriteTextLayout1 interface","directwrite.idwritetextlayout1_setpairkerning","dwrite_1/IDWriteTextLayout1::SetPairKerning"]
 old-location: directwrite\idwritetextlayout1_setpairkerning.htm
 tech.root: DirectWrite
 ms.assetid: AE43D7E4-CD2D-4BBD-88C3-B5287FD235AF

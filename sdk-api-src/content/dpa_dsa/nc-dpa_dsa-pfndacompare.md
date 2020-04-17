@@ -1,7 +1,7 @@
 ---
 UID: NC:dpa_dsa.PFNDACOMPARE
 title: PFNDACOMPARE (dpa_dsa.h)
-description: Defines the prototype for the compare function used by DSA_Sort.
+description: Defines the prototype for the compare function used by DSA_Sort.helpviewer_keywords: ["PFNDACOMPARE","PFNDACOMPARE callback","PFNDACOMPARE callback function [Windows Controls]","PFNDPACOMPARE","PFNDSACOMPARE","_shell_PFNDACOMPARE","_shell_PFNDACOMPARE_cpp","controls.PFNDACOMPARE","controls._shell_PFNDACOMPARE","dpa_dsa/PFNDACOMPARE"]
 old-location: controls\PFNDACOMPARE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndacompare.htm

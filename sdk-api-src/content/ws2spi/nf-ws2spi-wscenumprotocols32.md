@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2spi.WSCEnumProtocols32
 title: WSCEnumProtocols32 function (ws2spi.h)
-description: Retrieves information about available transport protocols.Note  This call is a strictly 32-bit version of WSCEnumProtocols for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs. .
+description: Retrieves information about available transport protocols.Note  This call is a strictly 32-bit version of WSCEnumProtocols for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs. .helpviewer_keywords: ["WSCEnumProtocols32","WSCEnumProtocols32 function [Winsock]","winsock.wscenumprotocols32","ws2spi/WSCEnumProtocols32"]
 old-location: winsock\wscenumprotocols32.htm
 tech.root: WinSock
 ms.assetid: f46042f6-0b14-4a14-abc1-4e40c34b1599

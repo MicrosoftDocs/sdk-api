@@ -1,7 +1,7 @@
 ---
 UID: NS:ntdsapi._DS_REPL_NEIGHBORW_BLOB
 title: DS_REPL_NEIGHBORW_BLOB (ntdsapi.h)
-description: Contains inbound replication state data for a particular naming context and source server pair.
+description: Contains inbound replication state data for a particular naming context and source server pair.helpviewer_keywords: ["DS_REPL_NBR_COMPRESS_CHANGES","DS_REPL_NBR_DO_SCHEDULED_SYNCS","DS_REPL_NBR_FULL_SYNC_IN_PROGRESS","DS_REPL_NBR_FULL_SYNC_NEXT_PACKET","DS_REPL_NBR_NEVER_SYNCED","DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS","DS_REPL_NBR_SYNC_ON_STARTUP","DS_REPL_NBR_TWO_WAY_SYNC","DS_REPL_NBR_USE_ASYNC_INTERSITE_TRANSPORT","DS_REPL_NBR_WRITEABLE","DS_REPL_NEIGHBORW_BLOB","DS_REPL_NEIGHBORW_BLOB structure [Active Directory]","ad.ds_repl_neighborw_blob","ntdsapi/DS_REPL_NEIGHBORW_BLOB"]
 old-location: ad\ds_repl_neighborw_blob.htm
 tech.root: ad
 ms.assetid: 1a56968a-29ed-4c94-80ee-02bdd279f5c2

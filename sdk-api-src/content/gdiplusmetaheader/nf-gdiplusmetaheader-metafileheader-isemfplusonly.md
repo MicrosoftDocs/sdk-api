@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsEmfPlusOnly
 title: MetafileHeader::IsEmfPlusOnly (gdiplusmetaheader.h)
-description: The MetafileHeader::IsEmfPlusOnly method determines whether the associated metafile is in the EMF+ Only format.
+description: The MetafileHeader::IsEmfPlusOnly method determines whether the associated metafile is in the EMF+ Only format.helpviewer_keywords: ["IsEmfPlusOnly","IsEmfPlusOnly method [GDI+]","IsEmfPlusOnly method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","IsEmfPlusOnly method","MetafileHeader.IsEmfPlusOnly","MetafileHeader::IsEmfPlusOnly","_gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_","gdiplus._gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemfplusonly.htm

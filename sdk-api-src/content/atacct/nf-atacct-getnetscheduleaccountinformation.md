@@ -1,7 +1,7 @@
 ---
 UID: NF:atacct.GetNetScheduleAccountInformation
 title: GetNetScheduleAccountInformation function (atacct.h)
-description: The GetNetScheduleAccountInformation function retrieves the AT Service account name.
+description: The GetNetScheduleAccountInformation function retrieves the AT Service account name.helpviewer_keywords: ["GetNetScheduleAccountInformation","GetNetScheduleAccountInformation function [Network Management]","atacct/GetNetScheduleAccountInformation","netmgmt.getnetscheduleaccountinformation"]
 old-location: netmgmt\getnetscheduleaccountinformation.htm
 tech.root: NetMgmt
 ms.assetid: 935de94a-6791-4ea2-ac39-cf71ef7cb726

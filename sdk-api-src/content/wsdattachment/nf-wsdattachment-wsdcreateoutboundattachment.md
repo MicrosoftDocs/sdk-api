@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdattachment.WSDCreateOutboundAttachment
 title: WSDCreateOutboundAttachment function (wsdattachment.h)
-description: Creates an IWSDOutboundAttachment object.
+description: Creates an IWSDOutboundAttachment object.helpviewer_keywords: ["WSDCreateOutboundAttachment","WSDCreateOutboundAttachment function","ncd.wsdcreateoutboundattachment","wsdattachment/WSDCreateOutboundAttachment"]
 old-location: ncd\wsdcreateoutboundattachment.htm
 tech.root: WsdApi
 ms.assetid: 92e4ed8a-4a17-49dd-9ed8-bc867ec8bba9

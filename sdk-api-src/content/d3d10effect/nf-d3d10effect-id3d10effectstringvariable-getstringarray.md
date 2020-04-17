@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectStringVariable.GetStringArray
 title: ID3D10EffectStringVariable::GetStringArray (d3d10effect.h)
-description: Get an array of strings.
+description: Get an array of strings.helpviewer_keywords: ["3a4b3089-4ba1-9479-73b6-84f4d49b52d8","GetStringArray","GetStringArray method [Direct3D 10]","GetStringArray method [Direct3D 10]","ID3D10EffectStringVariable interface","ID3D10EffectStringVariable interface [Direct3D 10]","GetStringArray method","ID3D10EffectStringVariable.GetStringArray","ID3D10EffectStringVariable::GetStringArray","d3d10effect/ID3D10EffectStringVariable::GetStringArray","direct3d10.id3d10effectstringvariable_getstringarray"]
 old-location: direct3d10\id3d10effectstringvariable_getstringarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectstringvariable_getstringarray.htm

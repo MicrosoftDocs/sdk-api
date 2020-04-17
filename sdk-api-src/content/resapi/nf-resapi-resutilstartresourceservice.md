@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilStartResourceService
 title: ResUtilStartResourceService function (resapi.h)
-description: Starts a service. The PRESUTIL_START_RESOURCE_SERVICE type defines a pointer to this function.
+description: Starts a service. The PRESUTIL_START_RESOURCE_SERVICE type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_START_RESOURCE_SERVICE","PRESUTIL_START_RESOURCE_SERVICE function [Failover Cluster]","ResUtilStartResourceService","ResUtilStartResourceService function [Failover Cluster]","_wolf_resutilstartresourceservice","mscs.resutilstartresourceservice","resapi/PRESUTIL_START_RESOURCE_SERVICE","resapi/ResUtilStartResourceService"]
 old-location: mscs\resutilstartresourceservice.htm
 tech.root: MsCS
 ms.assetid: 0c8a80d7-0291-4ed5-af44-67c0c251dc84

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi.IDiscMaster.ProgressUnadvise
 title: IDiscMaster::ProgressUnadvise (imapi.h)
-description: Cancels progress notifications for an application.
+description: Cancels progress notifications for an application.helpviewer_keywords: ["IDiscMaster interface [IMAPI]","ProgressUnadvise method","IDiscMaster.ProgressUnadvise","IDiscMaster::ProgressUnadvise","ProgressUnadvise","ProgressUnadvise method [IMAPI]","ProgressUnadvise method [IMAPI]","IDiscMaster interface","_win32_idiscmaster_progressunadvise","base.idiscmaster_progressunadvise","imapi.idiscmaster_progressunadvise","imapi/IDiscMaster::ProgressUnadvise"]
 old-location: imapi\idiscmaster_progressunadvise.htm
 tech.root: imapi
 ms.assetid: b2729ff7-aefb-40cf-ae7b-9451fbe10bbb

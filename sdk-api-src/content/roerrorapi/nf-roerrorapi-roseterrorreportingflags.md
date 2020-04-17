@@ -1,7 +1,7 @@
 ---
 UID: NF:roerrorapi.RoSetErrorReportingFlags
 title: RoSetErrorReportingFlags function
-description: Sets the reporting behavior of Windows Runtime error functions.
+description: Sets the reporting behavior of Windows Runtime error functions.helpviewer_keywords: ["RoSetErrorReportingFlags","RoSetErrorReportingFlags function [Windows Runtime]","WinRTSetErrorReportingFlags","roerrorapi/RoSetErrorReportingFlags","roerrorapi/WinRTSetErrorReportingFlags","winrt.roseterrorreportingflags","winrt.winrtseterrorreportingflags"]
 old-location: winrt\roseterrorreportingflags.htm
 tech.root: WinRT
 ms.assetid: 167C2EC9-9EA0-4E1D-840B-DAF5F47ED1FE

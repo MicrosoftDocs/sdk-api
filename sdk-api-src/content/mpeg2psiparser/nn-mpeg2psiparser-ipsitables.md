@@ -1,7 +1,7 @@
 ---
 UID: NN:mpeg2psiparser.IPSITables
 title: IPSITables (mpeg2psiparser.h)
-description: Gets an MPEG-2 program specific information (PSI) table from an MPEG-2 transport stream.
+description: Gets an MPEG-2 program specific information (PSI) table from an MPEG-2 transport stream.helpviewer_keywords: ["IPSITables","IPSITables interface [Microsoft TV Technologies]","IPSITables interface [Microsoft TV Technologies]","described","mpeg2psiparser/IPSITables","mstv.ipsitables"]
 old-location: mstv\ipsitables.htm
 tech.root: mstv
 ms.assetid: 6f07b4d2-7a52-448c-9e9f-729bd5261757

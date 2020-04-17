@@ -1,7 +1,7 @@
 ---
 UID: NF:webapplication.IWebApplicationHost.get_Document
 title: IWebApplicationHost::get_Document (webapplication.h)
-description: Gets the HTML document object model of the current top-level document.
+description: Gets the HTML document object model of the current top-level document.helpviewer_keywords: ["Document property [Debugging Windows Store apps]","Document property [Debugging Windows Store apps]","IWebApplicationHost interface","IWebApplicationHost interface [Debugging Windows Store apps]","Document property","IWebApplicationHost.Document","IWebApplicationHost.get_Document","IWebApplicationHost::Document","IWebApplicationHost::get_Document","debug.iwebapplicationhost_document","get_Document","webapplication/IWebApplicationHost::Document","webapplication/IWebApplicationHost::get_Document"]
 old-location: debug\iwebapplicationhost_document.htm
 tech.root: debug_wwahost
 ms.assetid: e2ba8ea7-0179-42d6-8d85-1617d14f85e4

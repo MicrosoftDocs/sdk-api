@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerCollection.GetHandlerEnumerator
 title: ISyncMgrHandlerCollection::GetHandlerEnumerator (syncmgr.h)
-description: Gets an enumerator that provides access to the IDs of sync handlers exposed to and managed by the user.
+description: Gets an enumerator that provides access to the IDs of sync handlers exposed to and managed by the user.helpviewer_keywords: ["GetHandlerEnumerator","GetHandlerEnumerator method [Windows Shell]","GetHandlerEnumerator method [Windows Shell]","ISyncMgrHandlerCollection interface","ISyncMgrHandlerCollection interface [Windows Shell]","GetHandlerEnumerator method","ISyncMgrHandlerCollection.GetHandlerEnumerator","ISyncMgrHandlerCollection::GetHandlerEnumerator","_shell_ISyncMgrHandlerCollection_GetHandlerEnumerator","shell.ISyncMgrHandlerCollection_GetHandlerEnumerator","syncmgr/ISyncMgrHandlerCollection::GetHandlerEnumerator"]
 old-location: shell\ISyncMgrHandlerCollection_GetHandlerEnumerator.htm
 tech.root: shell
 ms.assetid: 9324b621-b29f-47b1-a691-603cb96497e7

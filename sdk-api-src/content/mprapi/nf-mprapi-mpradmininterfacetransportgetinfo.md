@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceTransportGetInfo
 title: MprAdminInterfaceTransportGetInfo function (mprapi.h)
-description: The MprAdminInterfaceTransportGetInfo function retrieves information about a transport running on a specified interface.
+description: The MprAdminInterfaceTransportGetInfo function retrieves information about a transport running on a specified interface.helpviewer_keywords: ["MprAdminInterfaceTransportGetInfo","MprAdminInterfaceTransportGetInfo function [RAS]","_mpr_mpradmininterfacetransportgetinfo","mprapi/MprAdminInterfaceTransportGetInfo","rras.mpradmininterfacetransportgetinfo"]
 old-location: rras\mpradmininterfacetransportgetinfo.htm
 tech.root: RRAS
 ms.assetid: 4e8d7fdf-668e-496a-977a-7a0306173495

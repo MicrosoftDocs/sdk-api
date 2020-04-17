@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.CheckPublicKeySignature
 title: IX509CertificateRequestCertificate::CheckPublicKeySignature (certenroll.h)
-description: Verifies the certificate signature by using the public key of the signing certificate.
+description: Verifies the certificate signature by using the public key of the signing certificate.helpviewer_keywords: ["CheckPublicKeySignature","CheckPublicKeySignature method [Security]","CheckPublicKeySignature method [Security]","IX509CertificateRequestCertificate interface","IX509CertificateRequestCertificate interface [Security]","CheckPublicKeySignature method","IX509CertificateRequestCertificate.CheckPublicKeySignature","IX509CertificateRequestCertificate::CheckPublicKeySignature","certenroll/IX509CertificateRequestCertificate::CheckPublicKeySignature","security.ix509certificaterequestcertificate_checkpublickeysignature_method"]
 old-location: security\ix509certificaterequestcertificate_checkpublickeysignature_method.htm
 tech.root: seccertenroll
 ms.assetid: b7c7becc-667a-4ee2-ae61-0a009d0c87e7

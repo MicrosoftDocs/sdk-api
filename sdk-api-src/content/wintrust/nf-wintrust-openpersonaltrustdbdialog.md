@@ -1,7 +1,7 @@
 ---
 UID: NF:wintrust.OpenPersonalTrustDBDialog
 title: OpenPersonalTrustDBDialog function (wintrust.h)
-description: Displays the Certificates dialog box.
+description: Displays the Certificates dialog box.helpviewer_keywords: ["OpenPersonalTrustDBDialog","OpenPersonalTrustDBDialog function [Security]","security.openpersonaltrustdbdialog","wintrust/OpenPersonalTrustDBDialog"]
 old-location: security\openpersonaltrustdbdialog.htm
 tech.root: SecCrypto
 ms.assetid: 25f1d012-0c82-4992-b924-b539d4c6dc5f

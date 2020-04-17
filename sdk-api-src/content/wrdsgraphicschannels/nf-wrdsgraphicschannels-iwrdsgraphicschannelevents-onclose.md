@@ -1,7 +1,7 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnClose
 title: IWRdsGraphicsChannelEvents::OnClose (wrdsgraphicschannels.h)
-description: Called when the channel has been closed.
+description: Called when the channel has been closed.helpviewer_keywords: ["IWRdsGraphicsChannelEvents interface [Remote Desktop Services]","OnClose method","IWRdsGraphicsChannelEvents.OnClose","IWRdsGraphicsChannelEvents::OnClose","OnClose","OnClose method [Remote Desktop Services]","OnClose method [Remote Desktop Services]","IWRdsGraphicsChannelEvents interface","termserv.iwrdsgraphicschannelevents_onclose","wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnClose"]
 old-location: termserv\iwrdsgraphicschannelevents_onclose.htm
 tech.root: TermServ
 ms.assetid: fd195c0e-68bf-4361-9795-0e436c1abc90

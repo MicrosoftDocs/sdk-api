@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IPropertyPage
 title: IPropertyPage (ocidl.h)
-description: Provides the main features of a property page object that manages a particular page within a property sheet.
+description: Provides the main features of a property page object that manages a particular page within a property sheet.helpviewer_keywords: ["IPropertyPage","IPropertyPage interface [COM]","IPropertyPage interface [COM]","described","_ctrl_ipropertypage","com.ipropertypage","ocidl/IPropertyPage"]
 old-location: com\ipropertypage.htm
 tech.root: com
 ms.assetid: ad2cb3ae-dd24-4774-95bd-f5a0773c68b1

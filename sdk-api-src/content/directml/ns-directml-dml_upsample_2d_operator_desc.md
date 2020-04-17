@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_UPSAMPLE_2D_OPERATOR_DESC
 title: DML_UPSAMPLE_2D_OPERATOR_DESC
-description: Describes a DirectML imaging operator that upsamples the image contained in the input tensor. Each dimension value of the output tensor is output_dimension = floor(input_dimension * scale).
+description: Describes a DirectML imaging operator that upsamples the image contained in the input tensor. Each dimension value of the output tensor is output_dimension = floor(input_dimension * scale).helpviewer_keywords: ["DML_UPSAMPLE_2D_OPERATOR_DESC","DML_UPSAMPLE_2D_OPERATOR_DESC structure","direct3d12.dml_upsample_2d_operator_desc","directml/DML_UPSAMPLE_2D_OPERATOR_DESC"]
 old-location: direct3d12\dml_upsample_2d_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 45CA3670-DD38-4617-BF97-CC4133A9FD6D

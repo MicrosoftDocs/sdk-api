@@ -1,7 +1,7 @@
 ---
 UID: NE:fwpmtypes.FWPM_SYSTEM_PORT_TYPE_
 title: FWPM_SYSTEM_PORT_TYPE (fwpmtypes.h)
-description: The FWPM_SYSTEM_PORT_TYPE enumerated type.
+description: The FWPM_SYSTEM_PORT_TYPE enumerated type.helpviewer_keywords: ["FWPM_SYSTEM_PORT_IPHTTPS_IN","FWPM_SYSTEM_PORT_IPHTTPS_OUT","FWPM_SYSTEM_PORT_RPC_EPMAP","FWPM_SYSTEM_PORT_TEREDO","FWPM_SYSTEM_PORT_TYPE","FWPM_SYSTEM_PORT_TYPE enumeration [Filtering]","FWPM_SYSTEM_PORT_TYPE_MAX","fwp.fwpm_system_port_type","fwpmtypes/FWPM_SYSTEM_PORT_IPHTTPS_IN","fwpmtypes/FWPM_SYSTEM_PORT_IPHTTPS_OUT","fwpmtypes/FWPM_SYSTEM_PORT_RPC_EPMAP","fwpmtypes/FWPM_SYSTEM_PORT_TEREDO","fwpmtypes/FWPM_SYSTEM_PORT_TYPE","fwpmtypes/FWPM_SYSTEM_PORT_TYPE_MAX"]
 old-location: fwp\fwpm_system_port_type.htm
 tech.root: fwp
 ms.assetid: 7e4fbcbd-a8c5-4ae5-ba69-46d8e7cbcbc9

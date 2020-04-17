@@ -1,7 +1,7 @@
 ---
 UID: NS:dxva9typ._DXVA_COPPSetProtectionLevelCmdData
 title: DXVA_COPPSetProtectionLevelCmdData (dxva9typ.h)
-description: Contains data for the Set Protection Level command in Certified Output Protection Protocol (COPP).
+description: Contains data for the Set Protection Level command in Certified Output Protection Protocol (COPP).helpviewer_keywords: ["DXVA_COPPSetProtectionLevelCmdData","DXVA_COPPSetProtectionLevelCmdData structure [DirectShow]","DXVA_COPPSetProtectionLevelCmdDataStructure","_DXVA_COPPSetProtectionLevelCmdData","dshow.dxva_coppsetprotectionlevelcmddata","dxva9typ/DXVA_COPPSetProtectionLevelCmdData"]
 old-location: dshow\dxva_coppsetprotectionlevelcmddata.htm
 tech.root: DirectShow
 ms.assetid: 19810f8f-2d23-4b01-864d-86ac82d40fe0

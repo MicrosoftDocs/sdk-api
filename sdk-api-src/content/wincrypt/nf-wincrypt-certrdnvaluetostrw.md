@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertRDNValueToStrW
 title: CertRDNValueToStrW function (wincrypt.h)
-description: The CertRDNValueToStr function converts a name in a CERT_RDN_VALUE_BLOB to a null-terminated character string.
+description: The CertRDNValueToStr function converts a name in a CERT_RDN_VALUE_BLOB to a null-terminated character string.helpviewer_keywords: ["CertRDNValueToStr","CertRDNValueToStr function [Security]","CertRDNValueToStrA","CertRDNValueToStrW","_crypto2_certrdnvaluetostr","security.certrdnvaluetostr","wincrypt/CertRDNValueToStr","wincrypt/CertRDNValueToStrA","wincrypt/CertRDNValueToStrW"]
 old-location: security\certrdnvaluetostr.htm
 tech.root: SecCrypto
 ms.assetid: c1e0af19-320e-411e-85bf-c7f01befcac4

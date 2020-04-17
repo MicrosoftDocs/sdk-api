@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzBizRuleContext
 title: IAzBizRuleContext (azroles.h)
-description: Contains information about a Business Rule (BizRule) operation.
+description: Contains information about a Business Rule (BizRule) operation.helpviewer_keywords: ["IAzBizRuleContext","IAzBizRuleContext interface [Security]","IAzBizRuleContext interface [Security]","described","azroles/IAzBizRuleContext","security.azbizrulecontext"]
 old-location: security\azbizrulecontext.htm
 tech.root: SecAuthZ
 ms.assetid: 664d0307-8915-4435-a6a3-3f464afd9029

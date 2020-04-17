@@ -1,7 +1,7 @@
 ---
 UID: NF:perflib.PerfStopProvider
 title: PerfStopProvider function (perflib.h)
-description: Removes the provider's registration from the list of registered providers and frees all resources associated with the provider.
+description: Removes the provider's registration from the list of registered providers and frees all resources associated with the provider.helpviewer_keywords: ["PerfStopProvider","PerfStopProvider function [Perf]","base.perfstopprovider","perf.perfstopprovider","perflib/PerfStopProvider"]
 old-location: perf\perfstopprovider.htm
 tech.root: perfctrs
 ms.assetid: 4b31f88b-cadc-4bee-bdea-9079cc14c140

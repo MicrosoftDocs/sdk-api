@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateTexture1D
 title: ID3D11Device::CreateTexture1D (d3d11.h)
-description: Creates an array of 1D textures.
+description: Creates an array of 1D textures.helpviewer_keywords: ["26bbf961-5a2a-c5ce-e1d3-3723caf1e453","CreateTexture1D","CreateTexture1D method [Direct3D 11]","CreateTexture1D method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateTexture1D method","ID3D11Device.CreateTexture1D","ID3D11Device::CreateTexture1D","d3d11/ID3D11Device::CreateTexture1D","direct3d11.id3d11device_createtexture1d"]
 old-location: direct3d11\id3d11device_createtexture1d.htm
 tech.root: direct3d11
 ms.assetid: 34cdf984-8b2e-4ed3-a77b-b373752539f6

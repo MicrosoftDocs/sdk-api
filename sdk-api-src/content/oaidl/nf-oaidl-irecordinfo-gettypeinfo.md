@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetTypeInfo
 title: IRecordInfo::GetTypeInfo (oaidl.h)
-description: Retrieves the type information that describes a UDT or safearray of UDTs.
+description: Retrieves the type information that describes a UDT or safearray of UDTs.helpviewer_keywords: ["GetTypeInfo","GetTypeInfo method [Automation]","GetTypeInfo method [Automation]","IRecordInfo interface","IRecordInfo interface [Automation]","GetTypeInfo method","IRecordInfo.GetTypeInfo","IRecordInfo::GetTypeInfo","_oa96_IRecordInfo_GetTypeInfo","automat.irecordinfo_gettypeinfo","oaidl/IRecordInfo::GetTypeInfo"]
 old-location: automat\irecordinfo_gettypeinfo.htm
 tech.root: automat
 ms.assetid: c8c05c4a-000a-4e48-aace-ff9f9292e3ea

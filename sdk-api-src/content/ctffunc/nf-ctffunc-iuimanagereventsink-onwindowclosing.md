@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowClosing
 title: IUIManagerEventSink::OnWindowClosing (ctffunc.h)
-description: Called by the TSF before closing the IME UI.
+description: Called by the TSF before closing the IME UI.helpviewer_keywords: ["IUIManagerEventSink interface [Text Services Framework]","OnWindowClosing method","IUIManagerEventSink.OnWindowClosing","IUIManagerEventSink::OnWindowClosing","OnWindowClosing","OnWindowClosing method [Text Services Framework]","OnWindowClosing method [Text Services Framework]","IUIManagerEventSink interface","ctffunc/IUIManagerEventSink::OnWindowClosing","tsf.iuimanagereventsink_onwindowclosing"]
 old-location: tsf\iuimanagereventsink_onwindowclosing.htm
 tech.root: TSF
 ms.assetid: 1350286D-522D-4549-B69C-31874352AEAD

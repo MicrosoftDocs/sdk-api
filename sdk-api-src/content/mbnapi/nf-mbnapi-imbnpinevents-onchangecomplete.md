@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnChangeComplete
 title: IMbnPinEvents::OnChangeComplete (mbnapi.h)
-description: Notification method called by the Mobile Broadband service to indicate that a PIN change operation has completed.
+description: Notification method called by the Mobile Broadband service to indicate that a PIN change operation has completed.helpviewer_keywords: ["E_FAIL","E_MBN_BAD_SIM","E_MBN_PIN_DISABLED","E_MBN_PIN_REQUIRED","E_MBN_SIM_NOT_INSERTED","HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)","IMbnPinEvents interface [Microsoft Broadband Networks]","OnChangeComplete method","IMbnPinEvents.OnChangeComplete","IMbnPinEvents::OnChangeComplete","OnChangeComplete","OnChangeComplete method [Microsoft Broadband Networks]","OnChangeComplete method [Microsoft Broadband Networks]","IMbnPinEvents interface","S_OK","mbn.imbnpinevents_onchangecomplete","mbnapi/IMbnPinEvents::OnChangeComplete"]
 old-location: mbn\imbnpinevents_onchangecomplete.htm
 tech.root: mbn
 ms.assetid: 0aa9944f-2a5c-4589-a109-bc0214b03d04

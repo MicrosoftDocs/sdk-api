@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetExceptionService
 title: ISCTE_EAS::GetExceptionService (atscpsipparser.h)
-description: The GetExceptionService method returns information about an exception service.
+description: The GetExceptionService method returns information about an exception service.helpviewer_keywords: ["GetExceptionService","GetExceptionService method [Microsoft TV Technologies]","GetExceptionService method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetExceptionService method","ISCTE_EAS.GetExceptionService","ISCTE_EAS::GetExceptionService","ISCTE_EASGetExceptionService","atscpsipparser/ISCTE_EAS::GetExceptionService","mstv.iscte_eas_getexceptionservice"]
 old-location: mstv\iscte_eas_getexceptionservice.htm
 tech.root: mstv
 ms.assetid: b9431651-4f8f-40a0-abd8-b162e5ad09ae

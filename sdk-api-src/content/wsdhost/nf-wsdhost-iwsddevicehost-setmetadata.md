@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.SetMetadata
 title: IWSDDeviceHost::SetMetadata (wsdhost.h)
-description: Sets the metadata for a device, excluding user-defined service metadata.
+description: Sets the metadata for a device, excluding user-defined service metadata.helpviewer_keywords: ["IWSDDeviceHost interface","SetMetadata method","IWSDDeviceHost.SetMetadata","IWSDDeviceHost::SetMetadata","SetMetadata","SetMetadata method","SetMetadata method","IWSDDeviceHost interface","ncd.iwsddevicehost_setmetadata_method","wsdhost/IWSDDeviceHost::SetMetadata"]
 old-location: ncd\iwsddevicehost_setmetadata_method.htm
 tech.root: WsdApi
 ms.assetid: dc4cbed9-9ec4-4bbd-b1c9-89c4c11ff424

@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DSA_SetItem
 title: DSA_SetItem function (dpa_dsa.h)
-description: Sets the contents of an element in a dynamic structure array (DSA).
+description: Sets the contents of an element in a dynamic structure array (DSA).helpviewer_keywords: ["DSA_SetItem","DSA_SetItem function [Windows Controls]","_shell_DSA_SetItem","_shell_DSA_SetItem_cpp","controls.DSA_SetItem","controls._shell_DSA_SetItem","dpa_dsa/DSA_SetItem"]
 old-location: controls\DSA_SetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_setitem.htm

@@ -1,7 +1,7 @@
 ---
 UID: NS:mmc._MMC_SORT_SET_DATA
 title: MMC_SORT_SET_DATA (mmc.h)
-description: Used with setting and retrieving list view column sets whose sort data is stored persistently.
+description: Used with setting and retrieving list view column sets whose sort data is stored persistently.helpviewer_keywords: ["0","1","MMC_SORT_SET_DATA","MMC_SORT_SET_DATA structure [MMC]","_slate_mmc_sort_set_data","mmc.mmc_sort_set_data","mmc/MMC_SORT_SET_DATA"]
 old-location: mmc\mmc_sort_set_data.htm
 tech.root: mmc
 ms.assetid: bb16061d-a6bb-4816-b52d-c63097638f58

@@ -1,7 +1,7 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetDirectDrawKernelHandle
 title: IVPBaseConfig::SetDirectDrawKernelHandle (vpconfig.h)
-description: The SetDirectDrawKernelHandle method sets the kernel-mode handle to the DirectDraw object. This handle enables the device's mini-driver to communicate with DirectDraw.
+description: The SetDirectDrawKernelHandle method sets the kernel-mode handle to the DirectDraw object. This handle enables the device's mini-driver to communicate with DirectDraw.helpviewer_keywords: ["IVPBaseConfig interface [DirectShow]","SetDirectDrawKernelHandle method","IVPBaseConfig.SetDirectDrawKernelHandle","IVPBaseConfig::SetDirectDrawKernelHandle","IVPBaseConfigSetDirectDrawKernelHandle","SetDirectDrawKernelHandle","SetDirectDrawKernelHandle method [DirectShow]","SetDirectDrawKernelHandle method [DirectShow]","IVPBaseConfig interface","dshow.ivpbaseconfig_setdirectdrawkernelhandle","vpconfig/IVPBaseConfig::SetDirectDrawKernelHandle"]
 old-location: dshow\ivpbaseconfig_setdirectdrawkernelhandle.htm
 tech.root: DirectShow
 ms.assetid: f3a04341-6cca-4fb4-bf47-30659d039a0d

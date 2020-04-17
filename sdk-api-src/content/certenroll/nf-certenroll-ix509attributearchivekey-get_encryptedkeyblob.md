@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.get_EncryptedKeyBlob
 title: IX509AttributeArchiveKey::get_EncryptedKeyBlob (certenroll.h)
-description: Retrieves a byte array that contains the encrypted key.
+description: Retrieves a byte array that contains the encrypted key.helpviewer_keywords: ["EncryptedKeyBlob property [Security]","EncryptedKeyBlob property [Security]","IX509AttributeArchiveKey interface","IX509AttributeArchiveKey interface [Security]","EncryptedKeyBlob property","IX509AttributeArchiveKey.EncryptedKeyBlob","IX509AttributeArchiveKey.get_EncryptedKeyBlob","IX509AttributeArchiveKey::EncryptedKeyBlob","IX509AttributeArchiveKey::get_EncryptedKeyBlob","certenroll/IX509AttributeArchiveKey::EncryptedKeyBlob","certenroll/IX509AttributeArchiveKey::get_EncryptedKeyBlob","get_EncryptedKeyBlob","security.ix509attributearchivekey_encryptedkeyblob_property"]
 old-location: security\ix509attributearchivekey_encryptedkeyblob_property.htm
 tech.root: seccertenroll
 ms.assetid: 3230cfbf-5486-4f77-9efe-5bc542e3e096

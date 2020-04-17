@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICDdsDecoder.GetParameters
 title: IWICDdsDecoder::GetParameters (wincodec.h)
-description: Gets DDS-specific data.
+description: Gets DDS-specific data.helpviewer_keywords: ["GetParameters","GetParameters method [Windows Imaging Component]","GetParameters method [Windows Imaging Component]","IWICDdsDecoder interface","IWICDdsDecoder interface [Windows Imaging Component]","GetParameters method","IWICDdsDecoder.GetParameters","IWICDdsDecoder::GetParameters","wic.iwicddsdecoder_getparameters","wincodec/IWICDdsDecoder::GetParameters"]
 old-location: wic\iwicddsdecoder_getparameters.htm
 tech.root: wic
 ms.assetid: D4EE39D6-54DC-450D-A430-2996D349BEC6

@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsSetFaultErrorDetail
 title: WsSetFaultErrorDetail function (webservices.h)
-description: Write the fault detail stored in a WS_ERROR object.
+description: Write the fault detail stored in a WS_ERROR object.helpviewer_keywords: ["WsSetFaultErrorDetail","WsSetFaultErrorDetail function [Web Services for Windows]","webservices/WsSetFaultErrorDetail","wsw.wssetfaulterrordetail"]
 old-location: wsw\wssetfaulterrordetail.htm
 tech.root: wsw
 ms.assetid: 469982a5-42da-40e7-a053-4820fee58828

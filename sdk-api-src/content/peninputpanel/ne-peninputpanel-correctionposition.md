@@ -1,7 +1,7 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0005
 title: CorrectionPosition (peninputpanel.h)
-description: Specifies the direction, relative to Input Panel, that the post insertion correction comb displays.
+description: Specifies the direction, relative to Input Panel, that the post insertion correction comb displays.helpviewer_keywords: ["0750128e-f3f0-444a-abe0-2dc360a3685b","CorrectionPosition","CorrectionPosition enumeration [Tablet PC]","CorrectionPosition_Auto","CorrectionPosition_Bottom","CorrectionPosition_Top","peninputpanel/CorrectionPosition","peninputpanel/CorrectionPosition_Auto","peninputpanel/CorrectionPosition_Bottom","peninputpanel/CorrectionPosition_Top","tablet.correctionposition"]
 old-location: tablet\correctionposition.htm
 tech.root: tablet
 ms.assetid: 0750128e-f3f0-444a-abe0-2dc360a3685b

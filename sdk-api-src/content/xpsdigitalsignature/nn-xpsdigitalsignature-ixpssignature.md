@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignature
 title: IXpsSignature (xpsdigitalsignature.h)
-description: Represents a single digital signature.
+description: Represents a single digital signature.helpviewer_keywords: ["IXpsSignature","IXpsSignature interface [XPS Documents and Packaging]","IXpsSignature interface [XPS Documents and Packaging]","described","xps.ixpssignature","xpsdigitalsignature/IXpsSignature"]
 old-location: xps\ixpssignature.htm
 tech.root: printdocs
 ms.assetid: 23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5

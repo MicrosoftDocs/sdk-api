@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._DRIVE_LAYOUT_INFORMATION_EX
 title: DRIVE_LAYOUT_INFORMATION_EX
-description: Contains extended information about a drive's partitions.
+description: Contains extended information about a drive's partitions.helpviewer_keywords: ["*PDRIVE_LAYOUT_INFORMATION_EX","DRIVE_LAYOUT_INFORMATION_EX","DRIVE_LAYOUT_INFORMATION_EX structure [Files]","PARTITION_STYLE_GPT","PARTITION_STYLE_MBR","PARTITION_STYLE_RAW","PDRIVE_LAYOUT_INFORMATION_EX","PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Files]","_win32_drive_layout_information_ex_str","base.drive_layout_information_ex_str","fs.drive_layout_information_ex_str","winioctl/DRIVE_LAYOUT_INFORMATION_EX","winioctl/PDRIVE_LAYOUT_INFORMATION_EX"]
 old-location: fs\drive_layout_information_ex_str.htm
 tech.root: FileIO
 ms.assetid: 381c87a8-fe40-4251-a4df-dddc9e2a126d

@@ -1,7 +1,7 @@
 ---
 UID: NE:msxml6._XHR_COOKIE_FLAG
 title: XHR_COOKIE_FLAG (msxml6.h)
-description: Defines a set of flags that you can assign to a cookie in the HTTP cookie jar by calling the SetCookie method or query from the HTTP cookie jar by calling the GetCookie method.
+description: Defines a set of flags that you can assign to a cookie in the HTTP cookie jar by calling the SetCookie method or query from the HTTP cookie jar by calling the GetCookie method.helpviewer_keywords: ["XHR_COOKIE_APPLY_P3P","XHR_COOKIE_EVALUATE_P3P","XHR_COOKIE_FLAG","XHR_COOKIE_FLAG enumeration [XMLHttpRequest2]","XHR_COOKIE_HTTPONLY","XHR_COOKIE_IE6","XHR_COOKIE_IS_LEGACY","XHR_COOKIE_IS_RESTRICTED","XHR_COOKIE_IS_SECURE","XHR_COOKIE_IS_SESSION","XHR_COOKIE_NON_SCRIPT","XHR_COOKIE_P3P_ENABLED","XHR_COOKIE_PROMPT_REQUIRED","XHR_COOKIE_THIRD_PARTY","ixhr2.xhr_cookie_flag","msxml6/XHR_COOKIE_APPLY_P3P","msxml6/XHR_COOKIE_EVALUATE_P3P","msxml6/XHR_COOKIE_FLAG","msxml6/XHR_COOKIE_HTTPONLY","msxml6/XHR_COOKIE_IE6","msxml6/XHR_COOKIE_IS_LEGACY","msxml6/XHR_COOKIE_IS_RESTRICTED","msxml6/XHR_COOKIE_IS_SECURE","msxml6/XHR_COOKIE_IS_SESSION","msxml6/XHR_COOKIE_NON_SCRIPT","msxml6/XHR_COOKIE_P3P_ENABLED","msxml6/XHR_COOKIE_PROMPT_REQUIRED","msxml6/XHR_COOKIE_THIRD_PARTY"]
 old-location: ixhr2\xhr_cookie_flag.htm
 tech.root: ixhr2
 ms.assetid: 185a75cb-3901-4850-a987-803da50e14fd

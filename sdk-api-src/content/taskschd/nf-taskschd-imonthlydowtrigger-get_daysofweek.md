@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.get_DaysOfWeek
 title: IMonthlyDOWTrigger::get_DaysOfWeek (taskschd.h)
-description: Gets or sets the days of the week during which the task runs.
+description: Gets or sets the days of the week during which the task runs.helpviewer_keywords: ["DaysOfWeek property [Task Scheduler]","DaysOfWeek property [Task Scheduler]","IMonthlyDOWTrigger interface","IMonthlyDOWTrigger interface [Task Scheduler]","DaysOfWeek property","IMonthlyDOWTrigger.DaysOfWeek","IMonthlyDOWTrigger.get_DaysOfWeek","IMonthlyDOWTrigger::DaysOfWeek","IMonthlyDOWTrigger::get_DaysOfWeek","IMonthlyDOWTrigger::put_DaysOfWeek","get_DaysOfWeek","taskschd.imonthlydowtrigger_daysofweek","taskschd/IMonthlyDOWTrigger::DaysOfWeek","taskschd/IMonthlyDOWTrigger::get_DaysOfWeek","taskschd/IMonthlyDOWTrigger::put_DaysOfWeek"]
 old-location: taskschd\imonthlydowtrigger_daysofweek.htm
 tech.root: taskschd
 ms.assetid: 553a0a51-fc2f-4ace-a69d-6aef4d9b06af

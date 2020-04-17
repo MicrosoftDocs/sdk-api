@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeControlEvents
 title: INameSpaceTreeControlEvents (shobjidl.h)
-description: Exposes methods for handling INameSpaceTreeControl events.
+description: Exposes methods for handling INameSpaceTreeControl events.helpviewer_keywords: ["INameSpaceTreeControlEvents","INameSpaceTreeControlEvents interface [Windows Shell]","INameSpaceTreeControlEvents interface [Windows Shell]","described","_shell_INameSpaceTreeControlEvents","shell.INameSpaceTreeControlEvents","shobjidl/INameSpaceTreeControlEvents"]
 old-location: shell\INameSpaceTreeControlEvents.htm
 tech.root: shell
 ms.assetid: 496fa657-c27c-4f6c-a137-fb0d393aa284

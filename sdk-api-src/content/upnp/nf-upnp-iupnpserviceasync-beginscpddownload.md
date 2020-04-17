@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.BeginSCPDDownload
 title: IUPnPServiceAsync::BeginSCPDDownload (upnp.h)
-description: BeginSCPDDownload method initiates the asynchronous download of an Service Control Protocol Description (SCPD) document.
+description: BeginSCPDDownload method initiates the asynchronous download of an Service Control Protocol Description (SCPD) document.helpviewer_keywords: ["BeginSCPDDownload","BeginSCPDDownload method [UPnP APIs]","BeginSCPDDownload method [UPnP APIs]","IUPnPServiceAsync interface","IUPnPServiceAsync interface [UPnP APIs]","BeginSCPDDownload method","IUPnPServiceAsync.BeginSCPDDownload","IUPnPServiceAsync::BeginSCPDDownload","upnp.iupnpserviceasync_beginscpddownload","upnp/IUPnPServiceAsync::BeginSCPDDownload"]
 old-location: upnp\iupnpserviceasync_beginscpddownload.htm
 tech.root: upnp
 ms.assetid: CA573855-6D86-4C6C-B557-F8E8776BDBD3

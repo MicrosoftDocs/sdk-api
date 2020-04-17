@@ -1,7 +1,7 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.Close
 title: IStreamBufferRecComp::Close (sbe.h)
-description: The Close method closes the target file.
+description: The Close method closes the target file.helpviewer_keywords: ["Close","Close method [Microsoft TV Technologies]","Close method [Microsoft TV Technologies]","IStreamBufferRecComp interface","IStreamBufferRecComp interface [Microsoft TV Technologies]","Close method","IStreamBufferRecComp.Close","IStreamBufferRecComp::Close","IStreamBufferRecCompClose","mstv.istreambufferreccomp_close","sbe/IStreamBufferRecComp::Close"]
 old-location: mstv\istreambufferreccomp_close.htm
 tech.root: mstv
 ms.assetid: 0dd311ac-28c7-4cb2-bc65-fe2301c53cf2

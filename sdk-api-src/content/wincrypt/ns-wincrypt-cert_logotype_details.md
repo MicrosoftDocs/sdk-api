@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_LOGOTYPE_DETAILS
 title: CERT_LOGOTYPE_DETAILS (wincrypt.h)
-description: Contains additional information about a logotype.
+description: Contains additional information about a logotype.helpviewer_keywords: ["*PCERT_LOGOTYPE_DETAILS","CERT_LOGOTYPE_DETAILS","CERT_LOGOTYPE_DETAILS structure [Security]","PCERT_LOGOTYPE_DETAILS","PCERT_LOGOTYPE_DETAILS structure pointer [Security]","security.cert_logotype_details","wincrypt/CERT_LOGOTYPE_DETAILS","wincrypt/PCERT_LOGOTYPE_DETAILS"]
 old-location: security\cert_logotype_details.htm
 tech.root: SecCrypto
 ms.assetid: cde420a8-c755-4c45-ab81-4897b08d9dd6

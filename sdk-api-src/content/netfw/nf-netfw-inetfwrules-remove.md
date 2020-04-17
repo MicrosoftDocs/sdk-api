@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRules.Remove
 title: INetFwRules::Remove (netfw.h)
-description: The Remove method removes a rule from the collection.
+description: The Remove method removes a rule from the collection.helpviewer_keywords: ["INetFwRules interface [ICS/ICF]","Remove method","INetFwRules.Remove","INetFwRules::Remove","Remove","Remove method [ICS/ICF]","Remove method [ICS/ICF]","INetFwRules interface","ics.inetfwrules_remove","netfw/INetFwRules::Remove"]
 old-location: ics\inetfwrules_remove.htm
 tech.root: ics
 ms.assetid: 70bd45c7-b5ab-43b3-afd4-2abb2a80ff0f

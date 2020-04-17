@@ -1,7 +1,7 @@
 ---
 UID: NC:wofapi.WofEnumEntryProc
 title: WofEnumEntryProc (wofapi.h)
-description: Callback function that gets called for each data source in response to a call to WofEnumEntries.
+description: Callback function that gets called for each data source in response to a call to WofEnumEntries.helpviewer_keywords: ["WofEnumEntryProc","WofEnumEntryProc callback","WofEnumEntryProc callback function [Files]","fs.wofenumentryproc","wofapi/WofEnumEntryProc"]
 old-location: fs\wofenumentryproc.htm
 tech.root: FileIO
 ms.assetid: B0569A28-7B5F-451D-A972-89A6D42F9821

@@ -1,7 +1,7 @@
 ---
 UID: NE:syncregistration.__MIDL___MIDL_itf_syncregistration_0000_0007_0001
 title: SYNC_REGISTRATION_EVENT (syncregistration.h)
-description: Represents the different types of synchronization registration events.
+description: Represents the different types of synchronization registration events.helpviewer_keywords: ["SRE_CONFIGUI_ADDED","SRE_CONFIGUI_REMOVED","SRE_CONFIGUI_UPDATED","SRE_PROVIDER_ADDED","SRE_PROVIDER_REMOVED","SRE_PROVIDER_STATE_CHANGED","SRE_PROVIDER_UPDATED","SYNC_REGISTRATION_EVENT","SYNC_REGISTRATION_EVENT enumeration [Windows Sync]","syncregistration/SRE_CONFIGUI_ADDED","syncregistration/SRE_CONFIGUI_REMOVED","syncregistration/SRE_CONFIGUI_UPDATED","syncregistration/SRE_PROVIDER_ADDED","syncregistration/SRE_PROVIDER_REMOVED","syncregistration/SRE_PROVIDER_STATE_CHANGED","syncregistration/SRE_PROVIDER_UPDATED","syncregistration/SYNC_REGISTRATION_EVENT","winsync.sync_registration_event"]
 old-location: winsync\sync_registration_event.htm
 tech.root: winsync
 ms.assetid: c8fb3de0-0f2e-4926-b37f-3043fcc2efb3

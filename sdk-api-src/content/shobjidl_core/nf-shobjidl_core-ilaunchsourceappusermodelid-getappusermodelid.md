@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ILaunchSourceAppUserModelId.GetAppUserModelId
 title: ILaunchSourceAppUserModelId::GetAppUserModelId (shobjidl_core.h)
-description: Retrieves an AppUserModelId from the source application.
+description: Retrieves an AppUserModelId from the source application.helpviewer_keywords: ["GetAppUserModelId","GetAppUserModelId method [Windows Shell]","GetAppUserModelId method [Windows Shell]","ILaunchSourceAppUserModelId interface","ILaunchSourceAppUserModelId interface [Windows Shell]","GetAppUserModelId method","ILaunchSourceAppUserModelId.GetAppUserModelId","ILaunchSourceAppUserModelId::GetAppUserModelId","shell.ILaunchSourceAppUserModelId_GetAppUserModelId","shobjidl_core/ILaunchSourceAppUserModelId::GetAppUserModelId"]
 old-location: shell\ILaunchSourceAppUserModelId_GetAppUserModelId.htm
 tech.root: shell
 ms.assetid: 1B5E57E2-6870-4A52-BA61-3113385F03F5

@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetIterationInfo
 title: ISyncMgrConflictResolveInfo::GetIterationInfo (syncmgr.h)
-description: Gets information about which conflict in a set of conflicts is being resolved.
+description: Gets information about which conflict in a set of conflicts is being resolved.helpviewer_keywords: ["GetIterationInfo","GetIterationInfo method [Windows Shell]","GetIterationInfo method [Windows Shell]","ISyncMgrConflictResolveInfo interface","ISyncMgrConflictResolveInfo interface [Windows Shell]","GetIterationInfo method","ISyncMgrConflictResolveInfo.GetIterationInfo","ISyncMgrConflictResolveInfo::GetIterationInfo","_shell_ISyncMgrConflictResolveInfo_GetIterationInfo","shell.ISyncMgrConflictResolveInfo_GetIterationInfo","syncmgr/ISyncMgrConflictResolveInfo::GetIterationInfo"]
 old-location: shell\ISyncMgrConflictResolveInfo_GetIterationInfo.htm
 tech.root: shell
 ms.assetid: ac22d346-3012-41b0-a655-062f501af621

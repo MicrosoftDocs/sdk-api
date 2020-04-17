@@ -1,7 +1,7 @@
 ---
 UID: NS:hrtfapoapi.HrtfPosition
 title: HrtfPosition (hrtfapoapi.h)
-description: Represents a position in 3D space, using a right-handed coordinate system.
+description: Represents a position in 3D space, using a right-handed coordinate system.helpviewer_keywords: ["HrtfPosition","HrtfPosition structure [XAudio2 Audio Mixing APIs]","PHrtfPosition","PHrtfPosition structure pointer [XAudio2 Audio Mixing APIs]","hrtfapoapi/HrtfPosition","hrtfapoapi/PHrtfPosition","xaudio2.hrtfposition"]
 old-location: xaudio2\hrtfposition.htm
 tech.root: xaudio2
 ms.assetid: E6D84823-A7FA-4EB5-82E2-4F3D7B6C6174

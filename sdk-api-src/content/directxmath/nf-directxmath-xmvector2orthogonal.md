@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector2Orthogonal
 title: XMVector2Orthogonal function (directxmath.h)
-description: Computes a vector perpendicular to a 2D vector.
+description: Computes a vector perpendicular to a 2D vector.helpviewer_keywords: ["Use DirectX..XMVector2Orthogonal","XMVector2Orthogonal","XMVector2Orthogonal method [DirectX Math Support APIs]","dxmath.xmvector2orthogonal"]
 old-location: dxmath\xmvector2orthogonal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Orthogonal(XMVECTOR)

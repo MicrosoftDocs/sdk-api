@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateBlendTransform
 title: ID2D1EffectContext::CreateBlendTransform (d2d1effectauthor.h)
-description: This creates a blend transform that can be inserted into a transform graph.
+description: This creates a blend transform that can be inserted into a transform graph.helpviewer_keywords: ["CreateBlendTransform","CreateBlendTransform method [Direct2D]","CreateBlendTransform method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CreateBlendTransform method","ID2D1EffectContext.CreateBlendTransform","ID2D1EffectContext::CreateBlendTransform","d2d1effectauthor/ID2D1EffectContext::CreateBlendTransform","direct2d.id2d1contextinternal_createblendtransform"]
 old-location: direct2d\id2d1contextinternal_createblendtransform.htm
 tech.root: Direct2D
 ms.assetid: 23B8D1A5-05F4-4056-BFA8-8D9C89FE0492

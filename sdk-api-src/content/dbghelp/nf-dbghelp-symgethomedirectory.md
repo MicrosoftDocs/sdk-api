@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetHomeDirectory
 title: SymGetHomeDirectory function (dbghelp.h)
-description: Retrieves the home directory used by Dbghelp.
+description: Retrieves the home directory used by Dbghelp.helpviewer_keywords: ["SymGetHomeDirectory","SymGetHomeDirectory function","SymGetHomeDirectoryW","base.symgethomedirectory","dbghelp/SymGetHomeDirectory","dbghelp/SymGetHomeDirectoryW","hdBase","hdSrc","hdSym"]
 old-location: base\symgethomedirectory.htm
 tech.root: Debug
 ms.assetid: 490de8cd-2738-4770-b708-fa2d61b83587

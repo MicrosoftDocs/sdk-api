@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnButtonClicked
 title: IFileDialogControlEvents::OnButtonClicked (shobjidl.h)
-description: Called when the user clicks a command button.
+description: Called when the user clicks a command button.helpviewer_keywords: ["IFileDialogControlEvents interface [Windows Shell]","OnButtonClicked method","IFileDialogControlEvents.OnButtonClicked","IFileDialogControlEvents::OnButtonClicked","OnButtonClicked","OnButtonClicked method [Windows Shell]","OnButtonClicked method [Windows Shell]","IFileDialogControlEvents interface","shell.IFileDialogControlEvents_OnButtonClicked","shell_IFileDialogControlEvents_OnButtonClicked","shobjidl/IFileDialogControlEvents::OnButtonClicked"]
 old-location: shell\IFileDialogControlEvents_OnButtonClicked.htm
 tech.root: shell
 ms.assetid: 46dc28a4-717f-42b6-bff7-56f4902f075c

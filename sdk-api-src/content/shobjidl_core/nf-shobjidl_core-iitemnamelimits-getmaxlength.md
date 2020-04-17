@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IItemNameLimits.GetMaxLength
 title: IItemNameLimits::GetMaxLength (shobjidl_core.h)
-description: Returns the maximum number of characters allowed for a particular name in the namespace under which it is called.
+description: Returns the maximum number of characters allowed for a particular name in the namespace under which it is called.helpviewer_keywords: ["GetMaxLength","GetMaxLength method [Windows Shell]","GetMaxLength method [Windows Shell]","IItemNameLimits interface","IItemNameLimits interface [Windows Shell]","GetMaxLength method","IItemNameLimits.GetMaxLength","IItemNameLimits::GetMaxLength","_shell_IItemNameLimits_GetMaxLength","shell.IItemNameLimits_GetMaxLength","shobjidl_core/IItemNameLimits::GetMaxLength"]
 old-location: shell\IItemNameLimits_GetMaxLength.htm
 tech.root: shell
 ms.assetid: 4bf27218-8ad2-4268-a2e0-1ba36b0db4a3

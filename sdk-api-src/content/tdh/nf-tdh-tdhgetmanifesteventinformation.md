@@ -1,7 +1,7 @@
 ---
 UID: NF:tdh.TdhGetManifestEventInformation
 title: TdhGetManifestEventInformation function (tdh.h)
-description: Retrieves metadata about an event in a manifest.
+description: Retrieves metadata about an event in a manifest.helpviewer_keywords: ["TdhGetManifestEventInformation","TdhGetManifestEventInformation function [ETW]","etw.tdhgetmanifesteventinformation","tdh/TdhGetManifestEventInformation"]
 old-location: etw\tdhgetmanifesteventinformation.htm
 tech.root: ETW
 ms.assetid: 71702F1F-1708-4CA2-9BFB-3D7332AB6129

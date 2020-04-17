@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.ICDBurnExt
 title: ICDBurnExt (shobjidl.h)
-description: ICDBurnExt may be altered or unavailable.
+description: ICDBurnExt may be altered or unavailable.helpviewer_keywords: ["ICDBurnExt","ICDBurnExt interface [Windows Shell]","ICDBurnExt interface [Windows Shell]","described","_shell_ICDBurnExt","shell.ICDBurnExt","shobjidl/ICDBurnExt"]
 old-location: shell\ICDBurnExt.htm
 tech.root: shell
 ms.assetid: e87a635b-9614-49e1-8633-f7cbb5050b9a

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetCountOfRecords
 title: IIsdbEmergencyInformationDescriptor::GetCountOfRecords (dvbsiparser.h)
-description: Gets the number of records in an emergency information descriptor.
+description: Gets the number of records in an emergency information descriptor.helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IIsdbEmergencyInformationDescriptor interface","IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IIsdbEmergencyInformationDescriptor.GetCountOfRecords","IIsdbEmergencyInformationDescriptor::GetCountOfRecords","dvbsiparser/IIsdbEmergencyInformationDescriptor::GetCountOfRecords","mstv.iisdbemergencyinformationdescriptor_getcountofrecords"]
 old-location: mstv\iisdbemergencyinformationdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: d23f1cc0-c6b0-4054-80be-36d7675fdec7

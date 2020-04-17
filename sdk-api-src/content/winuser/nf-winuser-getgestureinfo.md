@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetGestureInfo
 title: GetGestureInfo function (winuser.h)
-description: Retrieves a GESTUREINFO structure given a handle to the gesture information.
+description: Retrieves a GESTUREINFO structure given a handle to the gesture information.helpviewer_keywords: ["GetGestureInfo","GetGestureInfo function [Windows Touch]","wintouch.getgestureinfo","winuser/GetGestureInfo"]
 old-location: wintouch\getgestureinfo.htm
 tech.root: wintouch
 ms.assetid: 407ed585-09aa-4174-8907-8bb9590f1795

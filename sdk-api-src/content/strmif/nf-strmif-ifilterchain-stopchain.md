@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IFilterChain.StopChain
 title: IFilterChain::StopChain (strmif.h)
-description: The StopChain method switches all the filters in a filter chain into a stopped state.
+description: The StopChain method switches all the filters in a filter chain into a stopped state.helpviewer_keywords: ["IFilterChain interface [DirectShow]","StopChain method","IFilterChain.StopChain","IFilterChain::StopChain","IFilterChainStopChain","StopChain","StopChain method [DirectShow]","StopChain method [DirectShow]","IFilterChain interface","dshow.ifilterchain_stopchain","strmif/IFilterChain::StopChain"]
 old-location: dshow\ifilterchain_stopchain.htm
 tech.root: DirectShow
 ms.assetid: 03821fdb-8374-4386-868b-9bf7b2d83562

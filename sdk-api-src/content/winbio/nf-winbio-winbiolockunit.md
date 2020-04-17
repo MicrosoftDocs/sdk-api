@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio.WinBioLockUnit
 title: WinBioLockUnit function (winbio.h)
-description: Locks a biometric unit for exclusive use by a single session. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
+description: Locks a biometric unit for exclusive use by a single session. Starting with Windows 10, build 1607, this function is available to use with a mobile image.helpviewer_keywords: ["WinBioLockUnit","WinBioLockUnit function [Windows Biometric Framework API]","secbiomet.winbiolockunit","winbio/WinBioLockUnit"]
 old-location: secbiomet\winbiolockunit.htm
 tech.root: SecBioMet
 ms.assetid: 421520eb-ae67-4ead-8202-ffa468a20bdd

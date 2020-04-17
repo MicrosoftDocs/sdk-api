@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumSTATSTG.Next
 title: IEnumSTATSTG::Next (objidl.h)
-description: Retrieves a specified number of STATSTG structures, that follow in the enumeration sequence.
+description: Retrieves a specified number of STATSTG structures, that follow in the enumeration sequence.helpviewer_keywords: ["IEnumSTATSTG interface [Structured Storage]","Next method","IEnumSTATSTG.Next","IEnumSTATSTG::Next","Next","Next method [Structured Storage]","Next method [Structured Storage]","IEnumSTATSTG interface","objidl/IEnumSTATSTG::Next","stg.ienumstatstg_next"]
 old-location: stg\ienumstatstg_next.htm
 tech.root: Stg
 ms.assetid: 09363d3e-a606-4a50-8758-d7ef5b3c05ab

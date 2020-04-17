@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_DETACH_FN
 title: PIBIO_SENSOR_DETACH_FN (winbio_adapter.h)
-description: Releases adapter specific resources attached to the pipeline.
+description: Releases adapter specific resources attached to the pipeline.helpviewer_keywords: ["PIBIO_SENSOR_DETACH_FN","PIBIO_SENSOR_DETACH_FN callback","SensorAdapterDetach","SensorAdapterDetach callback function [Windows Biometric Framework API]","secbiomet.sensoradapterdetach","winbio_adapter/SensorAdapterDetach"]
 old-location: secbiomet\sensoradapterdetach.htm
 tech.root: SecBioMet
 ms.assetid: 58124c44-4343-44c1-84a2-c03455d68199

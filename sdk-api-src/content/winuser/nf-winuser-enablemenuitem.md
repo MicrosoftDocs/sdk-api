@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EnableMenuItem
 title: EnableMenuItem function (winuser.h)
-description: Enables, disables, or grays the specified menu item.
+description: Enables, disables, or grays the specified menu item.helpviewer_keywords: ["EnableMenuItem","EnableMenuItem function [Menus and Other Resources]","MF_BYCOMMAND","MF_BYPOSITION","MF_DISABLED","MF_ENABLED","MF_GRAYED","_win32_EnableMenuItem","_win32_enablemenuitem_cpp","menurc.enablemenuitem","winui._win32_enablemenuitem","winuser/EnableMenuItem"]
 old-location: menurc\enablemenuitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\enablemenuitem.htm

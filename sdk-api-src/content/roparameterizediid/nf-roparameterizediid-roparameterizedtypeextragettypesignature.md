@@ -1,7 +1,7 @@
 ---
 UID: NF:roparameterizediid.RoParameterizedTypeExtraGetTypeSignature
 title: RoParameterizedTypeExtraGetTypeSignature function (roparameterizediid.h)
-description: Gets the type signature used to compute the IID from the last call to RoGetParameterizedTypeInstanceIID with the specified handle.
+description: Gets the type signature used to compute the IID from the last call to RoGetParameterizedTypeInstanceIID with the specified handle.helpviewer_keywords: ["RoParameterizedTypeExtraGetTypeSignature","RoParameterizedTypeExtraGetTypeSignature function [Windows Runtime]","roparameterizediid/RoParameterizedTypeExtraGetTypeSignature","winrt.roparameterizedtypeextragettypesignature"]
 old-location: winrt\roparameterizedtypeextragettypesignature.htm
 tech.root: WinRT
 ms.assetid: E51A7A3D-F4BF-44BD-ACF2-B0AC7A4161EA

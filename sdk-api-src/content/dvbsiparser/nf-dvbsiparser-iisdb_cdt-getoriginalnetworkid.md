@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetOriginalNetworkId
 title: IISDB_CDT::GetOriginalNetworkId (dvbsiparser.h)
-description: Gets an identifier that identifies the broadcaster that originated the MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
+description: Gets an identifier that identifies the broadcaster that originated the MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).helpviewer_keywords: ["GetOriginalNetworkId","GetOriginalNetworkId method [Microsoft TV Technologies]","GetOriginalNetworkId method [Microsoft TV Technologies]","IISDB_CDT interface","IISDB_CDT interface [Microsoft TV Technologies]","GetOriginalNetworkId method","IISDB_CDT.GetOriginalNetworkId","IISDB_CDT::GetOriginalNetworkId","dvbsiparser/IISDB_CDT::GetOriginalNetworkId","mstv.iisdb_cdt_getoriginalnetworkid"]
 old-location: mstv\iisdb_cdt_getoriginalnetworkid.htm
 tech.root: mstv
 ms.assetid: 67adf536-1163-45e3-893c-e9501fefafe7

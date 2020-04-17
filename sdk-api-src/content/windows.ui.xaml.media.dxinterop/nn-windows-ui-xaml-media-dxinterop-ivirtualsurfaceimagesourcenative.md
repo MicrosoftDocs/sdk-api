@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative
 title: IVirtualSurfaceImageSourceNative (windows.ui.xaml.media.dxinterop.h)
-description: Provides the implementation of a large (greater than the screen size) shared surface for DirectX drawing.
+description: Provides the implementation of a large (greater than the screen size) shared surface for DirectX drawing.helpviewer_keywords: ["IVirtualSurfaceImageSourceNative","IVirtualSurfaceImageSourceNative interface [Windows Runtime]","IVirtualSurfaceImageSourceNative interface [Windows Runtime]","described","windows/IVirtualSurfaceImageSourceNative","winrt.ivirtualsurfaceimagesourcenative"]
 old-location: winrt\ivirtualsurfaceimagesourcenative.htm
 tech.root: WinRT
 ms.assetid: 1CABA8F5-2380-45B9-804C-B1DC9FF34B62

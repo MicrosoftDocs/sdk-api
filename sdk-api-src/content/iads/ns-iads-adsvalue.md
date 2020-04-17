@@ -1,7 +1,7 @@
 ---
 UID: NS:iads._adsvalue
 title: ADSVALUE (iads.h)
-description: Contains a value specified as an ADSI data type.
+description: Contains a value specified as an ADSI data type.helpviewer_keywords: ["*LPADSVALUE","*PADSVALUE","ADSVALUE","ADSVALUE structure [ADSI]","LPADSVALUE","LPADSVALUE structure pointer [ADSI]","PADSVALUE","PADSVALUE structure pointer [ADSI]","_ds_adsvalue","adsi.adsvalue","iads/ADSVALUE","iads/LPADSVALUE","iads/PADSVALUE"]
 old-location: adsi\adsvalue.htm
 tech.root: adsi
 ms.assetid: b53c4a14-9965-4025-95bc-37f460ea2bc9

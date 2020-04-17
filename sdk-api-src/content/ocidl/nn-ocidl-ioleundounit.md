@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IOleUndoUnit
 title: IOleUndoUnit (ocidl.h)
-description: Serves as the main interface on an undo unit. An undo unit encapsulates the information necessary to undo or redo a single action.
+description: Serves as the main interface on an undo unit. An undo unit encapsulates the information necessary to undo or redo a single action.helpviewer_keywords: ["IOleUndoUnit","IOleUndoUnit interface [COM]","IOleUndoUnit interface [COM]","described","_ole_ioleundounit","com.ioleundounit","ocidl/IOleUndoUnit"]
 old-location: com\ioleundounit.htm
 tech.root: com
 ms.assetid: 0822c894-b96c-4b69-94d2-b052dff81f6e

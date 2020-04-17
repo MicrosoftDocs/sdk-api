@@ -1,7 +1,7 @@
 ---
 UID: NS:tabflicks.FLICK_POINT
 title: FLICK_POINT (tabflicks.h)
-description: Provides information about a pen flick.
+description: Provides information about a pen flick.helpviewer_keywords: ["FLICK_POINT","FLICK_POINT structure [Tablet PC]","c9aacc05-02aa-47b5-be58-46321cf6a99d","tabflicks/FLICK_POINT","tablet.flick_point"]
 old-location: tablet\flick_point.htm
 tech.root: tablet
 ms.assetid: c9aacc05-02aa-47b5-be58-46321cf6a99d

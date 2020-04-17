@@ -1,7 +1,7 @@
 ---
 UID: NN:identitystore.IIdentityStore
 title: IIdentityStore (identitystore.h)
-description: Provides methods to enumerate and manage identities and identity providers.
+description: Provides methods to enumerate and manage identities and identity providers.helpviewer_keywords: ["IIdentityStore","IIdentityStore interface [Security]","IIdentityStore interface [Security]","described","identitystore/IIdentityStore","security.iidentitystore"]
 old-location: security\iidentitystore.htm
 tech.root: SecAuthN
 ms.assetid: f7f0f103-411b-4fbd-9ed5-30c6ab2f0ab6

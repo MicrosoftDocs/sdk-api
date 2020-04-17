@@ -1,7 +1,7 @@
 ---
 UID: NS:mmreg.__unnamed_struct_0
 title: WAVEFORMATEXTENSIBLE (mmreg.h)
-description: The WAVEFORMATEXTENSIBLE structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by WAVEFORMATEX.
+description: The WAVEFORMATEXTENSIBLE structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by WAVEFORMATEX.helpviewer_keywords: ["*LPWAVEFORMATIEEEFLOATEX","*LPWAVEFORMATPCMEX","*NPWAVEFORMATIEEEFLOATEX","*NPWAVEFORMATPCMEX","*PWAVEFORMATEXTENSIBLE","*PWAVEFORMATIEEEFLOATEX","*PWAVEFORMATPCMEX","PWAVEFORMATEXTENSIBLE","PWAVEFORMATEXTENSIBLE structure pointer [Windows Multimedia]","WAVEFORMATEXTENSIBLE","WAVEFORMATEXTENSIBLE structure [Windows Multimedia]","WAVEFORMATIEEEFLOATEX","WAVEFORMATPCMEX","_win32_WAVEFORMATEXTENSIBLE_str","mmreg/PWAVEFORMATEXTENSIBLE","mmreg/WAVEFORMATEXTENSIBLE","multimedia.waveformatextensible"]
 old-location: multimedia\waveformatextensible.htm
 tech.root: Multimedia
 ms.assetid: 179d6c0c-ea80-4e9f-9e1b-43785f20cbd3

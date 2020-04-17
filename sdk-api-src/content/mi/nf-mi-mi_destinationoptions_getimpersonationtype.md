@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetImpersonationType
 title: MI_DestinationOptions_GetImpersonationType function (mi.h)
-description: Gets the impersonation type.
+description: Gets the impersonation type.helpviewer_keywords: ["MI_DestinationOptions_GetImpersonationType","MI_DestinationOptions_GetImpersonationType function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetImpersonationType","wmi_v2.mi_destinationoptions_getimpersonationtype"]
 old-location: wmi_v2\mi_destinationoptions_getimpersonationtype.htm
 tech.root: wmi_v2
 ms.assetid: 3178e69c-83da-4ffb-8d8e-9185b669e864

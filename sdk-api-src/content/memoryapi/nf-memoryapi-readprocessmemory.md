@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.ReadProcessMemory
 title: ReadProcessMemory function (memoryapi.h)
-description: Reads data from an area of memory in a specified process. The entire area to be read must be accessible or the operation fails.
+description: Reads data from an area of memory in a specified process. The entire area to be read must be accessible or the operation fails.helpviewer_keywords: ["ReadProcessMemory","ReadProcessMemory function","_win32_ReadProcessMemory","base.ReadProcessMemory","memoryapi/ReadProcessMemory"]
 old-location: base\ReadProcessMemory.htm
 tech.root: Debug
 ms.assetid: 8774e145-ee7f-44de-85db-0445b905f986

@@ -1,7 +1,7 @@
 ---
 UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0070_0002
 title: TF_DA_COLORTYPE (msctf.h)
-description: Elements of the TF_DA_COLORTYPE enumeration specify the format of the color contained in the TF_DA_COLOR structure.
+description: Elements of the TF_DA_COLORTYPE enumeration specify the format of the color contained in the TF_DA_COLOR structure.helpviewer_keywords: ["TF_CT_COLORREF","TF_CT_NONE","TF_CT_SYSCOLOR","TF_DA_COLORTYPE","TF_DA_COLORTYPE enumeration [Text Services Framework]","_tsf_tf_da_colortype_ref","msctf/TF_CT_COLORREF","msctf/TF_CT_NONE","msctf/TF_CT_SYSCOLOR","msctf/TF_DA_COLORTYPE","tsf.tf_da_colortype"]
 old-location: tsf\tf_da_colortype.htm
 tech.root: TSF
 ms.assetid: f692e188-d2f4-453b-a576-c6c05fd5f02a

@@ -1,7 +1,7 @@
 ---
 UID: NS:mpeg2bits.__unnamed_struct_3
 title: MPEG_HEADER_BITS (mpeg2bits.h)
-description: The MPEG_HEADER_BITS structure contains the first 16 bits that follow the table_id in a generic MPEG-2 section header.
+description: The MPEG_HEADER_BITS structure contains the first 16 bits that follow the table_id in a generic MPEG-2 section header.helpviewer_keywords: ["*PMPEG_HEADER_BITS","MPEG_HEADER_BITS","MPEG_HEADER_BITS structure [Microsoft TV Technologies]","MPEG_HEADER_BITSStructure","PMPEG_HEADER_BITS","PMPEG_HEADER_BITS structure pointer [Microsoft TV Technologies]","mpeg2bits/MPEG_HEADER_BITS","mpeg2bits/PMPEG_HEADER_BITS","mstv.mpeg_header_bits"]
 old-location: mstv\mpeg_header_bits.htm
 tech.root: mstv
 ms.assetid: e25d36af-ee72-4986-8d96-2bce8b19ac80

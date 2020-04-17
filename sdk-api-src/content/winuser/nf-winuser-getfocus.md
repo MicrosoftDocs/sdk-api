@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetFocus
 title: GetFocus function (winuser.h)
-description: Retrieves the handle to the window that has the keyboard focus, if the window is attached to the calling thread's message queue.
+description: Retrieves the handle to the window that has the keyboard focus, if the window is attached to the calling thread's message queue.helpviewer_keywords: ["GetFocus","GetFocus function [Keyboard and Mouse Input]","_win32_GetFocus","_win32_getfocus_cpp","inputdev.getfocus","winui._win32_getfocus","winuser/GetFocus"]
 old-location: inputdev\getfocus.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getfocus.htm

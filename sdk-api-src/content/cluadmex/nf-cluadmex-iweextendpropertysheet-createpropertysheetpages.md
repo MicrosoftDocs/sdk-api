@@ -1,7 +1,7 @@
 ---
 UID: NF:cluadmex.IWEExtendPropertySheet.CreatePropertySheetPages
 title: IWEExtendPropertySheet::CreatePropertySheetPages (cluadmex.h)
-description: Creates property pages for a cluster object and adds them to a Failover Cluster Administrator property sheet.
+description: Creates property pages for a cluster object and adds them to a Failover Cluster Administrator property sheet.helpviewer_keywords: ["CreatePropertySheetPages","CreatePropertySheetPages method [Failover Cluster]","CreatePropertySheetPages method [Failover Cluster]","IWEExtendPropertySheet interface","IWEExtendPropertySheet interface [Failover Cluster]","CreatePropertySheetPages method","IWEExtendPropertySheet.CreatePropertySheetPages","IWEExtendPropertySheet::CreatePropertySheetPages","_wolf_iweextendpropertysheet_createpropertysheetpages","cluadmex/IWEExtendPropertySheet::CreatePropertySheetPages","mscs.iweextendpropertysheet_createpropertysheetpages"]
 old-location: mscs\iweextendpropertysheet_createpropertysheetpages.htm
 tech.root: MsCS
 ms.assetid: 00eca370-a2c6-4f5c-94a9-7d7e4334ccd5

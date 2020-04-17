@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITTerminalControl.CompleteConnectTerminal
 title: ITTerminalControl::CompleteConnectTerminal (termmgr.h)
-description: The CompleteConnectTerminal method completes the terminal connection.
+description: The CompleteConnectTerminal method completes the terminal connection.helpviewer_keywords: ["CompleteConnectTerminal","CompleteConnectTerminal method [TAPI 2.2]","CompleteConnectTerminal method [TAPI 2.2]","ITTerminalControl interface","ITTerminalControl interface [TAPI 2.2]","CompleteConnectTerminal method","ITTerminalControl.CompleteConnectTerminal","ITTerminalControl::CompleteConnectTerminal","_tapi3_itterminalcontrol_completeconnectterminal","tapi3.itterminalcontrol_completeconnectterminal","termmgr/ITTerminalControl::CompleteConnectTerminal"]
 old-location: tapi3\itterminalcontrol_completeconnectterminal.htm
 tech.root: Tapi
 ms.assetid: 1f40b0c1-2c5e-4520-9406-6bebb3da65d0

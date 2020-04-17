@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.GetUpdateManager
 title: IDirectManipulationManager::GetUpdateManager (directmanipulation.h)
-description: Gets a pointer to an IDirectManipulationUpdateManager object that receives compositor updates.
+description: Gets a pointer to an IDirectManipulationUpdateManager object that receives compositor updates.helpviewer_keywords: ["GetUpdateManager","GetUpdateManager method [Direct Manipulation]","GetUpdateManager method [Direct Manipulation]","IDirectManipulationManager interface","IDirectManipulationManager interface [Direct Manipulation]","GetUpdateManager method","IDirectManipulationManager.GetUpdateManager","IDirectManipulationManager::GetUpdateManager","directmanipulation.idirectmanipulationmanager_getupdatemanager","directmanipulation/IDirectManipulationManager::GetUpdateManager"]
 old-location: directmanipulation\idirectmanipulationmanager_getupdatemanager.htm
 tech.root: directmanipulation
 ms.assetid: f3080fcb-3bbe-492b-a94e-322f93781cf5

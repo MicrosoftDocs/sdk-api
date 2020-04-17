@@ -1,7 +1,7 @@
 ---
 UID: NS:tcpmib._MIB_TCP6TABLE_OWNER_MODULE
 title: MIB_TCP6TABLE_OWNER_MODULE (tcpmib.h)
-description: Contains a table of process IDs (PIDs) and the IPv6 TCP links context bound to these PIDs with any available ownership data.
+description: Contains a table of process IDs (PIDs) and the IPv6 TCP links context bound to these PIDs with any available ownership data.helpviewer_keywords: ["*PMIB_TCP6TABLE_OWNER_MODULE","MIB_TCP6TABLE_OWNER_MODULE","MIB_TCP6TABLE_OWNER_MODULE structure [MIB]","PMIB_TCP6TABLE_OWNER_MODULE","PMIB_TCP6TABLE_OWNER_MODULE structure pointer [MIB]","iprtrmib/MIB_TCP6TABLE_OWNER_MODULE","iprtrmib/PMIB_TCP6TABLE_OWNER_MODULE","mib.mib_tcp6table_owner_module","tcpmib/MIB_TCP6TABLE_OWNER_MODULE","tcpmib/PMIB_TCP6TABLE_OWNER_MODULE"]
 old-location: mib\mib_tcp6table_owner_module.htm
 tech.root: MIB
 ms.assetid: aa52531c-1d4e-44f9-8638-1528beb491f3

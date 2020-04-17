@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.RemoveStream
 title: IFsiFileItem2::RemoveStream (imapi2fs.h)
-description: Removes a named stream association with a file.
+description: Removes a named stream association with a file.helpviewer_keywords: ["IFsiFileItem2 interface [IMAPI]","RemoveStream method","IFsiFileItem2.RemoveStream","IFsiFileItem2::RemoveStream","RemoveStream","RemoveStream method [IMAPI]","RemoveStream method [IMAPI]","IFsiFileItem2 interface","imapi.ifsifileitem2_removestream","imapi2fs/IFsiFileItem2::RemoveStream"]
 old-location: imapi\ifsifileitem2_removestream.htm
 tech.root: imapi
 ms.assetid: 4b758048-31e5-43af-a4ae-8916982e90a9

@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.GetCurrentThreadCompartmentId
 title: GetCurrentThreadCompartmentId function (netioapi.h)
-description: Reserved for future use. Do not use this function.
+description: Reserved for future use. Do not use this function.helpviewer_keywords: ["GetCurrentThreadCompartmentId","GetCurrentThreadCompartmentId function [Network Drivers Starting with Windows Vista]","iphelper_26fb9a5f-0050-4cea-a8bb-8954d03f5e97.xml","netioapi/GetCurrentThreadCompartmentId","netvista.getcurrentthreadcompartmentid"]
 old-location: netvista\getcurrentthreadcompartmentid.htm
 tech.root: NetVista
 ms.assetid: 3326b407-42cd-4970-b2d1-f24442b9b1c1

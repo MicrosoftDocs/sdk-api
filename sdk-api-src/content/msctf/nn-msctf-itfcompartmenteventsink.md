@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfCompartmentEventSink
 title: ITfCompartmentEventSink (msctf.h)
-description: The ITfCompartmentEventSink interface is implemented by a client (application or text service) and used by the TSF manager to notify the client when compartment data changes.
+description: The ITfCompartmentEventSink interface is implemented by a client (application or text service) and used by the TSF manager to notify the client when compartment data changes.helpviewer_keywords: ["ITfCompartmentEventSink","ITfCompartmentEventSink interface [Text Services Framework]","ITfCompartmentEventSink interface [Text Services Framework]","described","_tsf_itfcompartmenteventsink_ref","msctf/ITfCompartmentEventSink","tsf.itfcompartmenteventsink"]
 old-location: tsf\itfcompartmenteventsink.htm
 tech.root: TSF
 ms.assetid: 1bd464e7-9e34-4725-83f9-42e09ddf4778

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.PathProcessCommand
 title: PathProcessCommand function (shlobj.h)
-description: Deprecated. Processes a string that contains a command line and generates a suitably quoted string, with arguments attached if required.
+description: Deprecated. Processes a string that contains a command line and generates a suitably quoted string, with arguments attached if required.helpviewer_keywords: ["PPCF_ADDARGUMENTS","PPCF_ADDQUOTES","PPCF_FORCEQUALIFY","PPCF_LONGESTPOSSIBLE","PPCF_NODIRECTORIES","PathProcessCommand","PathProcessCommand function [Windows Shell]","_win32_PathProcessCommand","shell.PathProcessCommand","shlobj/PathProcessCommand"]
 old-location: shell\PathProcessCommand.htm
 tech.root: shell
 ms.assetid: 9dbc39e7-f73b-450f-bb87-17a38e7ab66d

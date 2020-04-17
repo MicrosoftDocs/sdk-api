@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_lineSetStatusMessages
 title: TSPI_lineSetStatusMessages function (tspi.h)
-description: The TSPI_lineSetStatusMessages function enables TAPI to specify which notification messages the service provider should generate for events related to status changes for the specified line or any of its addresses.
+description: The TSPI_lineSetStatusMessages function enables TAPI to specify which notification messages the service provider should generate for events related to status changes for the specified line or any of its addresses.helpviewer_keywords: ["TSPI_lineSetStatusMessages","TSPI_lineSetStatusMessages function [TAPI 2.2]","_tspi_tspi_linesetstatusmessages","tspi.tspi_linesetstatusmessages","tspi/TSPI_lineSetStatusMessages"]
 old-location: tspi\tspi_linesetstatusmessages.htm
 tech.root: Tapi
 ms.assetid: 546c4f6e-6bda-4b4b-91ed-51d0b64af677

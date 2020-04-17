@@ -1,7 +1,7 @@
 ---
 UID: NF:newdev.DiInstallDevice
 title: DiInstallDevice function (newdev.h)
-description: The DiInstallDevice function installs a specified driver that is preinstalled in the driver store on a specified device that is present in the system.
+description: The DiInstallDevice function installs a specified driver that is preinstalled in the driver store on a specified device that is present in the system.helpviewer_keywords: ["DiInstallDevice","DiInstallDevice function [Device and Driver Installation]","devinst.diinstalldevice","di-rtns_a2abff84-96e6-43c3-85ab-fe095d11b689.xml","newdev/DiInstallDevice"]
 old-location: devinst\diinstalldevice.htm
 tech.root: devinst
 ms.assetid: e107fc37-02cb-4d50-822c-1c6fd80d7532

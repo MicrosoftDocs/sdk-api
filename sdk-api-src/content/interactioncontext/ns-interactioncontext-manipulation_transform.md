@@ -1,7 +1,7 @@
 ---
 UID: NS:interactioncontext.MANIPULATION_TRANSFORM
 title: MANIPULATION_TRANSFORM (interactioncontext.h)
-description: Defines the transformation data for a manipulation.
+description: Defines the transformation data for a manipulation.helpviewer_keywords: ["MANIPULATION_TRANSFORM","MANIPULATION_TRANSFORM structure","input_intcontext.manipulation_transform","interactioncontext.manipulation_transform","interactioncontext/MANIPULATION_TRANSFORM"]
 old-location: input_intcontext\manipulation_transform.htm
 tech.root: Input_IntContext
 ms.assetid: f1019207-3197-4ccc-a795-01b868dcc9ca

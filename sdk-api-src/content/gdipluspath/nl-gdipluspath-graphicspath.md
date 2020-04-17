@@ -1,7 +1,7 @@
 ---
 UID: NL:gdipluspath.GraphicsPath
 title: GraphicsPath (gdipluspath.h)
-description: A GraphicsPath object stores a sequence of lines, curves, and shapes.
+description: A GraphicsPath object stores a sequence of lines, curves, and shapes.helpviewer_keywords: ["GraphicsPath","GraphicsPath class [GDI+]","GraphicsPath class [GDI+]","described","_gdiplus_CLASS_GraphicsPath_Class","gdiplus._gdiplus_CLASS_GraphicsPath_Class","gdipluspath/GraphicsPath"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspath.htm

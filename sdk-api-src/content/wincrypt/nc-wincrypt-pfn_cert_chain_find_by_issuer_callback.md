@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
 title: PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK (wincrypt.h)
-description: An application-defined callback function that allows the application to filter certificates that might be added to the certificate chain.
+description: An application-defined callback function that allows the application to filter certificates that might be added to the certificate chain.helpviewer_keywords: ["CertChainFindByIssuerCallback","PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK","PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback","PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback function [Security]","security.certchainfindbyissuercallback","wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK"]
 old-location: security\certchainfindbyissuercallback.htm
 tech.root: SecCrypto
 ms.assetid: 004c4caa-0063-41a3-8d6d-8b3a769b4112

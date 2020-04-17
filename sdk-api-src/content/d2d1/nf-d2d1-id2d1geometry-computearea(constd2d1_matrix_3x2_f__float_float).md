@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT)
 title: ID2D1Geometry::ComputeArea(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT) (d2d1.h)
-description: Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the specified tolerance.
+description: Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the specified tolerance.helpviewer_keywords: ["ComputeArea","ComputeArea method [Direct2D]","ComputeArea method [Direct2D]","ID2D1Geometry interface","ID2D1Geometry interface [Direct2D]","ComputeArea method","ID2D1Geometry.ComputeArea","ID2D1Geometry.ComputeArea(const D2D1_MATRIX_3X2_F &","FLOAT","FLOAT)","ID2D1Geometry::ComputeArea","ID2D1Geometry::ComputeArea(const D2D1_MATRIX_3X2_F &","FLOAT","FLOAT)","d2d1/ID2D1Geometry::ComputeArea","direct2d.ID2D1Geometry_ComputeArea_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT"]
 old-location: direct2d\ID2D1Geometry_ComputeArea_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT.htm
 tech.root: Direct2D
 ms.assetid: f99e7e0b-6024-4ce1-83da-cf01894f173e

@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.get_Autotune
 title: IBDA_FrequencyFilter::get_Autotune (bdaiface.h)
-description: The get_Autotune method retrieves the autotune frequency.
+description: The get_Autotune method retrieves the autotune frequency.helpviewer_keywords: ["IBDA_FrequencyFilter interface [Microsoft TV Technologies]","get_Autotune method","IBDA_FrequencyFilter.get_Autotune","IBDA_FrequencyFilter::get_Autotune","IBDA_FrequencyFilterget_Autotune","bdaiface/IBDA_FrequencyFilter::get_Autotune","get_Autotune","get_Autotune method [Microsoft TV Technologies]","get_Autotune method [Microsoft TV Technologies]","IBDA_FrequencyFilter interface","mstv.ibda_frequencyfilter_get_autotune"]
 old-location: mstv\ibda_frequencyfilter_get_autotune.htm
 tech.root: mstv
 ms.assetid: 146c4499-a8e9-4794-ab6c-b8e0e73ebad1

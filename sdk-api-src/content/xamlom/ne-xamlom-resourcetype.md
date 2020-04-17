@@ -1,7 +1,7 @@
 ---
 UID: NE:xamlom.ResourceType
 title: ResourceType (xamlom.h)
-description: Defines constants that specify the type of a resource in a resource dictionary.
+description: Defines constants that specify the type of a resource in a resource dictionary.helpviewer_keywords: ["ResourceType","ResourceType enumeration","ResourceTypeStatic","ResourceTypeTheme","xaml_diagnostics.resourcetype","xamlom/ResourceType","xamlom/ResourceTypeStatic","xamlom/ResourceTypeTheme"]
 old-location: xaml_diagnostics\resourcetype.htm
 tech.root: xaml_diagnostics
 ms.assetid: F491E78E-86AF-499F-A729-2D534FBA8460

@@ -1,7 +1,7 @@
 ---
 UID: NF:infotech.IITDatabase.Close
 title: IITDatabase::Close (infotech.h)
-description: Closes a database.
+description: Closes a database.helpviewer_keywords: ["Close","Close method [HTML Help Workshop]","Close method [HTML Help Workshop]","IITDatabase interface","IITDatabase interface [HTML Help Workshop]","Close method","IITDatabase.Close","IITDatabase::Close","htmlhelp.iitdatabase_close","infotech/IITDatabase::Close","refIITDatabaseClose"]
 old-location: htmlhelp\iitdatabase_close.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabaseclose.htm

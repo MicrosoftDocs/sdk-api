@@ -1,7 +1,7 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.GetMaxIndex
 title: IEnumCERTVIEWROW::GetMaxIndex (certview.h)
-description: Retrieves the maximum valid index value after all the rows in the row-enumeration sequence have been referenced.
+description: Retrieves the maximum valid index value after all the rows in the row-enumeration sequence have been referenced.helpviewer_keywords: ["GetMaxIndex","GetMaxIndex method [Security]","GetMaxIndex method [Security]","IEnumCERTVIEWROW interface","IEnumCERTVIEWROW interface [Security]","GetMaxIndex method","IEnumCERTVIEWROW.GetMaxIndex","IEnumCERTVIEWROW::GetMaxIndex","certview/IEnumCERTVIEWROW::GetMaxIndex","security.ienumcertviewrow_getmaxindex","security.ienumcertviewrow_getmaxtindex"]
 old-location: security\ienumcertviewrow_getmaxindex.htm
 tech.root: SecCrypto
 ms.assetid: 65ba80db-b7ee-46fa-b044-eab554720ce9

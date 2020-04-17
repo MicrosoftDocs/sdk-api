@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IPersistIDList.SetIDList
 title: IPersistIDList::SetIDList (shobjidl_core.h)
-description: Sets a persisted item identifier list.
+description: Sets a persisted item identifier list.helpviewer_keywords: ["IPersistIDList interface [Windows Shell]","SetIDList method","IPersistIDList.SetIDList","IPersistIDList::SetIDList","SetIDList","SetIDList method [Windows Shell]","SetIDList method [Windows Shell]","IPersistIDList interface","inet_IPersistIDList_SetIDList","shell.IPersistIDList_SetIDList","shobjidl_core/IPersistIDList::SetIDList"]
 old-location: shell\IPersistIDList_SetIDList.htm
 tech.root: shell
 ms.assetid: 0f509a36-e9be-46ab-8c01-067e44379615

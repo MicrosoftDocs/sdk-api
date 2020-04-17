@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetReservedNotSupportedValue
 title: UiaGetReservedNotSupportedValue function (uiautomationcoreapi.h)
-description: Retrieves a reserved value indicating that a Microsoft UI Automation property or a text attribute is not supported.
+description: Retrieves a reserved value indicating that a Microsoft UI Automation property or a text attribute is not supported.helpviewer_keywords: ["UiaGetReservedNotSupportedValue","UiaGetReservedNotSupportedValue function [Windows Accessibility]","uiauto.uiauto_UiaGetReservedNotSupportedValueAutoMeth","uiauto_UiaGetReservedNotSupportedValueAutoMeth","uiautomationcoreapi/UiaGetReservedNotSupportedValue","winauto.uiauto_UiaGetReservedNotSupportedValueAutoMeth"]
 old-location: winauto\uiauto_UiaGetReservedNotSupportedValueAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: ba789ed0-fa34-492c-90b4-acee0adb634c

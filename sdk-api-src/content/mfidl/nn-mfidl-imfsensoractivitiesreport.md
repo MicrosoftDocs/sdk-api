@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFSensorActivitiesReport
 title: IMFSensorActivitiesReport (mfidl.h)
-description: Provides access to IMFSensorActivityReport objects that describe the current activity of a sensor.
+description: Provides access to IMFSensorActivityReport objects that describe the current activity of a sensor.helpviewer_keywords: ["IMFSensorActivitiesReport","IMFSensorActivitiesReport interface [Media Foundation]","IMFSensorActivitiesReport interface [Media Foundation]","described","mf.imfsensoractivitiesreport","mfidl/IMFSensorActivitiesReport"]
 old-location: mf\imfsensoractivitiesreport.htm
 tech.root: medfound
 ms.assetid: CECDE9D5-B5D4-4DF3-80A8-F4B0B37CC5C3

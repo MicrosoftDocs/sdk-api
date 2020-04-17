@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager.SetReferenceTrackerHost
 title: IReferenceTrackerManager::xaml (windows.ui.xaml.hosting.referencetracker.h)
-description: Registers an IReferenceTrackerHost interface with XAML.
+description: Registers an IReferenceTrackerHost interface with XAML.helpviewer_keywords: ["IReferenceTrackerManager interface [Windows Runtime]","SetReferenceTrackerHost method","IReferenceTrackerManager.SetReferenceTrackerHost","IReferenceTrackerManager.xaml","IReferenceTrackerManager::SetReferenceTrackerHost","IReferenceTrackerManager::xaml","SetReferenceTrackerHost","SetReferenceTrackerHost method [Windows Runtime]","SetReferenceTrackerHost method [Windows Runtime]","IReferenceTrackerManager interface","windows/IReferenceTrackerManager::SetReferenceTrackerHost","winrt.ireferencetrackermanager_setreferencetrackerhost"]
 old-location: winrt\ireferencetrackermanager_setreferencetrackerhost.htm
 tech.root: WinRT
 ms.assetid: 02828d30-5023-4bd6-9c7a-8a3458462655

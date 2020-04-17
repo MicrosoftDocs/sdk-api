@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.RatingsBlocked
 title: IMSVidStreamBufferSourceEvent::RatingsBlocked (segment.h)
-description: This topic applies to Windows XP Service Pack 1 or later.
+description: This topic applies to Windows XP Service Pack 1 or later.helpviewer_keywords: ["IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies]","RatingsBlocked method","IMSVidStreamBufferSourceEvent.RatingsBlocked","IMSVidStreamBufferSourceEvent::RatingsBlocked","IMSVidStreamBufferSourceEventRatingsBlocked","RatingsBlocked","RatingsBlocked method [Microsoft TV Technologies]","RatingsBlocked method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent interface","mstv.imsvidstreambuffersourceevent_ratingsblocked","segment/IMSVidStreamBufferSourceEvent::RatingsBlocked"]
 old-location: mstv\imsvidstreambuffersourceevent_ratingsblocked.htm
 tech.root: mstv
 ms.assetid: 1d5e510e-9629-4249-a704-b7a995d27edf

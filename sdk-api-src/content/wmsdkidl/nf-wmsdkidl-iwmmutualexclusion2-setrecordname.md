@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.SetRecordName
 title: IWMMutualExclusion2::SetRecordName (wmsdkidl.h)
-description: The SetRecordName method assigns a name to a record. You should assign a name to every record so that you can easily identify the records in the future.
+description: The SetRecordName method assigns a name to a record. You should assign a name to every record so that you can easily identify the records in the future.helpviewer_keywords: ["IWMMutualExclusion2 interface [windows Media Format]","SetRecordName method","IWMMutualExclusion2.SetRecordName","IWMMutualExclusion2::SetRecordName","IWMMutualExclusion2SetRecordName","SetRecordName","SetRecordName method [windows Media Format]","SetRecordName method [windows Media Format]","IWMMutualExclusion2 interface","wmformat.iwmmutualexclusion2_setrecordname","wmsdkidl/IWMMutualExclusion2::SetRecordName"]
 old-location: wmformat\iwmmutualexclusion2_setrecordname.htm
 tech.root: wmformat
 ms.assetid: 9527024e-2d52-4a81-90a5-4ef5241ba6dd

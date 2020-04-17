@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IOleParentUndoUnit
 title: IOleParentUndoUnit (ocidl.h)
-description: Enables undo units to contain child undo units.
+description: Enables undo units to contain child undo units.helpviewer_keywords: ["IOleParentUndoUnit","IOleParentUndoUnit interface [COM]","IOleParentUndoUnit interface [COM]","described","_ole_ioleparentundounit","com.ioleparentundounit","ocidl/IOleParentUndoUnit"]
 old-location: com\ioleparentundounit.htm
 tech.root: com
 ms.assetid: 4407d673-286a-4221-ae35-09b9865161f8

@@ -1,7 +1,7 @@
 ---
 UID: NF:docobj.IOleDocument.GetDocMiscStatus
 title: IOleDocument::GetDocMiscStatus (docobj.h)
-description: Retrieves status information about the document object.
+description: Retrieves status information about the document object.helpviewer_keywords: ["GetDocMiscStatus","GetDocMiscStatus method [COM]","GetDocMiscStatus method [COM]","IOleDocument interface","IOleDocument interface [COM]","GetDocMiscStatus method","IOleDocument.GetDocMiscStatus","IOleDocument::GetDocMiscStatus","_ole_ioledocument_getdocmiscstatus","com.ioledocument_getdocmiscstatus","docobj/IOleDocument::GetDocMiscStatus"]
 old-location: com\ioledocument_getdocmiscstatus.htm
 tech.root: com
 ms.assetid: de279d46-057e-4c3a-8af3-14f7b65147fd

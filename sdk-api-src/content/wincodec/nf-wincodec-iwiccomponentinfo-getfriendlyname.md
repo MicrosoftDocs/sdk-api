@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetFriendlyName
 title: IWICComponentInfo::GetFriendlyName (wincodec.h)
-description: Retrieves the component's friendly name, which is a human-readable display name for the component.
+description: Retrieves the component's friendly name, which is a human-readable display name for the component.helpviewer_keywords: ["GetFriendlyName","GetFriendlyName method [Windows Imaging Component]","GetFriendlyName method [Windows Imaging Component]","IWICComponentInfo interface","IWICComponentInfo interface [Windows Imaging Component]","GetFriendlyName method","IWICComponentInfo.GetFriendlyName","IWICComponentInfo::GetFriendlyName","_wic_codec_iwiccomponentinfo_getfriendlyname","wic._wic_codec_iwiccomponentinfo_getfriendlyname","wincodec/IWICComponentInfo::GetFriendlyName"]
 old-location: wic\_wic_codec_iwiccomponentinfo_getfriendlyname.htm
 tech.root: wic
 ms.assetid: c67e7a30-8bd5-427b-8a67-c77e3cf86e78

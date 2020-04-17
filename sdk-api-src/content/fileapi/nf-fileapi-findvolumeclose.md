@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.FindVolumeClose
 title: FindVolumeClose function (fileapi.h)
-description: Closes the specified volume search handle.
+description: Closes the specified volume search handle.helpviewer_keywords: ["FindVolumeClose","FindVolumeClose function [Files]","_win32_findvolumeclose","base.findvolumeclose","fileapi/FindVolumeClose","fs.findvolumeclose","winbase/FindVolumeClose"]
 old-location: fs\findvolumeclose.htm
 tech.root: FileIO
 ms.assetid: 091a2f0c-df38-4fef-a926-3507545bb58d

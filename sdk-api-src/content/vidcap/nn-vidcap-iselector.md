@@ -1,7 +1,7 @@
 ---
 UID: NN:vidcap.ISelector
 title: ISelector (vidcap.h)
-description: The ISelector interface is used to select source nodes in a stream class driver.
+description: The ISelector interface is used to select source nodes in a stream class driver.helpviewer_keywords: ["ISelector","ISelector interface [DirectShow]","ISelector interface [DirectShow]","described","ISelectorInterface","dshow.iselector","vidcap/ISelector"]
 old-location: dshow\iselector.htm
 tech.root: DirectShow
 ms.assetid: bd6e028c-ed6d-4dad-a276-c59ba9d88e87

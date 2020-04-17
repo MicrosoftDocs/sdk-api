@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.NotifyIpInterfaceChange
 title: NotifyIpInterfaceChange function (netioapi.h)
-description: Registers to be notified for changes to all IP interfaces, IPv4 interfaces, or IPv6 interfaces on a local computer.
+description: Registers to be notified for changes to all IP interfaces, IPv4 interfaces, or IPv6 interfaces on a local computer.helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","NotifyIpInterfaceChange","NotifyIpInterfaceChange function [IP Helper]","iphlp.notifyipinterfacechange","netioapi/NotifyIpInterfaceChange"]
 old-location: iphlp\notifyipinterfacechange.htm
 tech.root: IpHlp
 ms.assetid: 745128cf-7737-4f95-9712-26e0f6ae39b4

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CopyStructureCount
 title: ID3D11DeviceContext::CopyStructureCount (d3d11.h)
-description: Copies data from a buffer holding variable length data.
+description: Copies data from a buffer holding variable length data.helpviewer_keywords: ["CopyStructureCount","CopyStructureCount method [Direct3D 11]","CopyStructureCount method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CopyStructureCount method","ID3D11DeviceContext.CopyStructureCount","ID3D11DeviceContext::CopyStructureCount","d3d11/ID3D11DeviceContext::CopyStructureCount","d927d44d-491d-b350-cc6e-49cfd29f1793","direct3d11.id3d11devicecontext_copystructurecount"]
 old-location: direct3d11\id3d11devicecontext_copystructurecount.htm
 tech.root: direct3d11
 ms.assetid: d4f8576f-8d23-4b45-a5ea-099c71e8567e

@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsVDisk.GetHostVolume
 title: IVdsVDisk::GetHostVolume (vds.h)
-description: Returns an interface pointer to the volume object for the volume where the virtual disk resides.
+description: Returns an interface pointer to the volume object for the volume where the virtual disk resides.helpviewer_keywords: ["GetHostVolume","GetHostVolume method","GetHostVolume method","IVdsVDisk interface","IVdsVDisk interface","GetHostVolume method","IVdsVDisk.GetHostVolume","IVdsVDisk::GetHostVolume","base.ivdsvdisk_gethostvolume","vds/IVdsVDisk::GetHostVolume"]
 old-location: base\ivdsvdisk_gethostvolume.htm
 tech.root: VDS
 ms.assetid: e8ab5d3a-775d-4c80-9c18-d25b5dd169e6

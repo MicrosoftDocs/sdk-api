@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.operator-sub-assign
 title: operator-=
-description: Subtracts a floating point value from the current instance of XMVECTOR, returning the result in the updated current instance.
+description: Subtracts a floating point value from the current instance of XMVECTOR, returning the result in the updated current instance.helpviewer_keywords: ["operator-="]
 ms.assetid: f5172526-34b5-4190-ba11-87e17fd1bd35
 ms.date: 05/13/2019
 ms.keywords: operator-=

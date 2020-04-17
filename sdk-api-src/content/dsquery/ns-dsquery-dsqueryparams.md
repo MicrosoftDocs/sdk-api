@@ -1,7 +1,7 @@
 ---
 UID: NS:dsquery.__unnamed_struct_2
 title: DSQUERYPARAMS (dsquery.h)
-description: The DSQUERYPARAMS structure contains query data used by the directory service query when searching the directory service.
+description: The DSQUERYPARAMS structure contains query data used by the directory service query when searching the directory service.helpviewer_keywords: ["*LPDSQUERYPARAMS","DSQUERYPARAMS","DSQUERYPARAMS structure [Active Directory]","LPDSQUERYPARAMS","LPDSQUERYPARAMS structure pointer [Active Directory]","_glines_dsqueryparams","ad.dsqueryparams","dsquery/DSQUERYPARAMS","dsquery/LPDSQUERYPARAMS"]
 old-location: ad\dsqueryparams.htm
 tech.root: ad
 ms.assetid: 78c3fb1c-275e-45b6-bbe9-ae2d85864e6a

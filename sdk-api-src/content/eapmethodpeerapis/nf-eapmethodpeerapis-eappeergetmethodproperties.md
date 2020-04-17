@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetMethodProperties
 title: EapPeerGetMethodProperties function (eapmethodpeerapis.h)
-description: EAP method-specific function that retrieves the properties of an EAP method given the connection and user data.
+description: EAP method-specific function that retrieves the properties of an EAP method given the connection and user data.helpviewer_keywords: ["EapPeerGetMethodProperties","EapPeerGetMethodProperties function [EAPHost]","eaphost.eappeergetmethodproperties","eapmethodpeerapis/EapPeerGetMethodProperties"]
 old-location: eaphost\eappeergetmethodproperties.htm
 tech.root: eaphost
 ms.assetid: A989D86D-BFF9-4EF4-AF98-7F0F41195186

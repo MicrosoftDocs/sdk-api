@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.BringWindowToTop
 title: BringWindowToTop function (winuser.h)
-description: Brings the specified window to the top of the Z order. If the window is a top-level window, it is activated. If the window is a child window, the top-level parent window associated with the child window is activated.
+description: Brings the specified window to the top of the Z order. If the window is a top-level window, it is activated. If the window is a child window, the top-level parent window associated with the child window is activated.helpviewer_keywords: ["BringWindowToTop","BringWindowToTop function [Windows and Messages]","_win32_BringWindowToTop","_win32_bringwindowtotop_cpp","winmsg.bringwindowtotop","winui._win32_bringwindowtotop","winuser/BringWindowToTop"]
 old-location: winmsg\bringwindowtotop.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\bringwindowtotop.htm

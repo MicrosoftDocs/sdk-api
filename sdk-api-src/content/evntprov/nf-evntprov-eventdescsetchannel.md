@@ -1,7 +1,7 @@
 ---
 UID: NF:evntprov.EventDescSetChannel
 title: EventDescSetChannel function (evntprov.h)
-description: Sets the Channel member of the event descriptor.
+description: Sets the Channel member of the event descriptor.helpviewer_keywords: ["EventDescSetChannel","EventDescSetChannel function [ETW]","base.eventdescsetchannel_func","etw.eventdescsetchannel_func","evntprov/EventDescSetChannel"]
 old-location: etw\eventdescsetchannel_func.htm
 tech.root: ETW
 ms.assetid: 3580935d-ab7e-4409-b4ac-58f3c6019514

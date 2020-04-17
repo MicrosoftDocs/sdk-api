@@ -1,7 +1,7 @@
 ---
 UID: NF:amsi.IAmsiStream.Read
 title: IAmsiStream::Read (amsi.h)
-description: Requests a buffer-full of content to be read.
+description: Requests a buffer-full of content to be read.helpviewer_keywords: ["IAmsiStream interface [Antimalware Scan Interface]","Read method","IAmsiStream.Read","IAmsiStream::Read","Read","Read method [Antimalware Scan Interface]","Read method [Antimalware Scan Interface]","IAmsiStream interface","amsi.iamsistream_read","amsi/IAmsiStream::Read"]
 old-location: amsi\iamsistream_read.htm
 tech.root: AMSI
 ms.assetid: ACE164EF-B49D-4AD5-BC1B-9770AFCD1951

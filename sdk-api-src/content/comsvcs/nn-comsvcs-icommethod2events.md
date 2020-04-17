@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IComMethod2Events
 title: IComMethod2Events (comsvcs.h)
-description: Notifies the subscriber if an object's method has been called, returned, or generated an exception.
+description: Notifies the subscriber if an object's method has been called, returned, or generated an exception.helpviewer_keywords: ["IComMethod2Events","IComMethod2Events interface [COM+]","IComMethod2Events interface [COM+]","described","_dtc_IComMethod2Events","comsvcs/IComMethod2Events","cos.icommethod2events"]
 old-location: cos\icommethod2events.htm
 tech.root: cossdk
 ms.assetid: e0642cb2-d5f2-4e4b-ad35-7818983ed467

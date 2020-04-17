@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.ResizeTilePool
 title: ID3D11DeviceContext2::ResizeTilePool (d3d11_2.h)
-description: Resizes a tile pool.
+description: Resizes a tile pool.helpviewer_keywords: ["ID3D11DeviceContext2 interface [Direct3D 11]","ResizeTilePool method","ID3D11DeviceContext2.ResizeTilePool","ID3D11DeviceContext2::ResizeTilePool","ResizeTilePool","ResizeTilePool method [Direct3D 11]","ResizeTilePool method [Direct3D 11]","ID3D11DeviceContext2 interface","d3d11_2/ID3D11DeviceContext2::ResizeTilePool","direct3d11.id3d11devicecontext2_resizetilepool"]
 old-location: direct3d11\id3d11devicecontext2_resizetilepool.htm
 tech.root: direct3d11
 ms.assetid: 0F464025-7BF3-47C4-BD77-B4C312E53B07

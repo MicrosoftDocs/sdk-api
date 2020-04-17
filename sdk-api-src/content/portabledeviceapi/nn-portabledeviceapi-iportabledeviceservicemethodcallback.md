@@ -1,7 +1,7 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceServiceMethodCallback
 title: IPortableDeviceServiceMethodCallback (portabledeviceapi.h)
-description: Contains a method that applications use to track the completion of a callback method. Applications that call service methods asynchronously may implement this interface, and supply it as a parameter to IPortableDeviceServiceMethods::InvokeAsync.
+description: Contains a method that applications use to track the completion of a callback method. Applications that call service methods asynchronously may implement this interface, and supply it as a parameter to IPortableDeviceServiceMethods::InvokeAsync.helpviewer_keywords: ["IPortableDeviceServiceMethodCallback","IPortableDeviceServiceMethodCallback interface [Windows Portable Devices SDK]","IPortableDeviceServiceMethodCallback interface [Windows Portable Devices SDK]","described","portabledeviceapi/IPortableDeviceServiceMethodCallback","wpdsdk.iportabledeviceservicemethodcallback"]
 old-location: wpdsdk\iportabledeviceservicemethodcallback.htm
 tech.root: wpd_sdk
 ms.assetid: cda7e4f7-0006-4b87-ac68-d07004440ce8

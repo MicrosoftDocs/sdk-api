@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_ARCHITECTURE_INFO
 title: D3D11_FEATURE_DATA_ARCHITECTURE_INFO (d3d11.h)
-description: Describes information about Direct3D 11.1 adapter architecture.
+description: Describes information about Direct3D 11.1 adapter architecture.helpviewer_keywords: ["D3D11_FEATURE_DATA_ARCHITECTURE_INFO","D3D11_FEATURE_DATA_ARCHITECTURE_INFO structure [Direct3D 11]","d3d11/D3D11_FEATURE_DATA_ARCHITECTURE_INFO","direct3d11.d3d11_feature_data_architecture_info"]
 old-location: direct3d11\d3d11_feature_data_architecture_info.htm
 tech.root: direct3d11
 ms.assetid: BC815FDB-984C-4857-AF48-8B471F46CDD4

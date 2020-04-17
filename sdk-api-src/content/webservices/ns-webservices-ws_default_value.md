@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_DEFAULT_VALUE
 title: WS_DEFAULT_VALUE (webservices.h)
-description: Defines a default value for a field. This is used in a WS_FIELD_DESCRIPTION.
+description: Defines a default value for a field. This is used in a WS_FIELD_DESCRIPTION.helpviewer_keywords: ["WS_DEFAULT_VALUE","WS_DEFAULT_VALUE structure [Web Services for Windows]","webservices/WS_DEFAULT_VALUE","wsw.ws_default_value"]
 old-location: wsw\ws_default_value.htm
 tech.root: wsw
 ms.assetid: 496b9ea6-2979-4245-ad07-9c62c396ebde

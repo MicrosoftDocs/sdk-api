@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateEllipsisTrimmingSign
 title: IDWriteFactory::CreateEllipsisTrimmingSign (dwrite.h)
-description: Creates an inline object for trimming, using an ellipsis as the omission sign.
+description: Creates an inline object for trimming, using an ellipsis as the omission sign.helpviewer_keywords: ["CreateEllipsisTrimmingSign","CreateEllipsisTrimmingSign method [Direct Write]","CreateEllipsisTrimmingSign method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateEllipsisTrimmingSign method","IDWriteFactory.CreateEllipsisTrimmingSign","IDWriteFactory::CreateEllipsisTrimmingSign","directwrite.IDWriteFactory_CreateEllipsisTrimmingSign","dwrite/IDWriteFactory::CreateEllipsisTrimmingSign"]
 old-location: directwrite\IDWriteFactory_CreateEllipsisTrimmingSign.htm
 tech.root: DirectWrite
 ms.assetid: b416d9f7-d2ce-477c-bf03-b20da2a55bb6

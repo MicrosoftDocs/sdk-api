@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsLargeInteger
 title: IADsLargeInteger (iads.h)
-description: Used to manipulate 64-bit integers of the LargeInteger type.
+description: Used to manipulate 64-bit integers of the LargeInteger type.helpviewer_keywords: ["IADsLargeInteger","IADsLargeInteger interface [ADSI]","IADsLargeInteger interface [ADSI]","described","_ds_iadslargeinteger","adsi.iadslargeinteger","iads/IADsLargeInteger"]
 old-location: adsi\iadslargeinteger.htm
 tech.root: adsi
 ms.assetid: d49e3339-8488-44c1-9d60-706492e65abc

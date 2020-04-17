@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleLockRunning
 title: OleLockRunning function (ole2.h)
-description: Locks an already running object into its running state or unlocks it from its running state.
+description: Locks an already running object into its running state or unlocks it from its running state.helpviewer_keywords: ["OleLockRunning","OleLockRunning function [COM]","_ole_OleLockRunning","com.olelockrunning","ole2/OleLockRunning"]
 old-location: com\olelockrunning.htm
 tech.root: com
 ms.assetid: 84941a59-6880-4824-b4b9-cd1b52d2bffb

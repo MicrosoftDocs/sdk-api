@@ -1,7 +1,7 @@
 ---
 UID: NC:netsh.NS_DLL_INIT_FN
 title: NS_DLL_INIT_FN (netsh.h)
-description: Called by NetShell to perform an initial loading of a helper.
+description: Called by NetShell to perform an initial loading of a helper.helpviewer_keywords: ["InitHelperDll","NS_DLL_INIT_FN","NS_DLL_INIT_FN callback","NS_DLL_INIT_FN callback function [NetShell]","_netsh_inithelperdll","netsh/NS_DLL_INIT_FN","netshell.inithelperdll"]
 old-location: netshell\inithelperdll.htm
 tech.root: netshell
 ms.assetid: 9af7e818-bb08-4d35-bab4-43cb94845f25

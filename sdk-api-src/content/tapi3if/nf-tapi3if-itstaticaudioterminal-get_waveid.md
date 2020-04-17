@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITStaticAudioTerminal.get_WaveId
 title: ITStaticAudioTerminal::get_WaveId (tapi3if.h)
-description: The get_WaveId method returns the wave ID for the audio device used to implement this terminal.
+description: The get_WaveId method returns the wave ID for the audio device used to implement this terminal.helpviewer_keywords: ["ITStaticAudioTerminal interface [TAPI 2.2]","get_WaveId method","ITStaticAudioTerminal.get_WaveId","ITStaticAudioTerminal::get_WaveId","_tapi3_itstaticaudioterminal_get_waveid","get_WaveId","get_WaveId method [TAPI 2.2]","get_WaveId method [TAPI 2.2]","ITStaticAudioTerminal interface","tapi3.itstaticaudioterminal_get_waveid","tapi3if/ITStaticAudioTerminal::get_WaveId"]
 old-location: tapi3\itstaticaudioterminal_get_waveid.htm
 tech.root: Tapi
 ms.assetid: dbbfbfe0-843b-4baf-b4f5-51a3037c5fd9

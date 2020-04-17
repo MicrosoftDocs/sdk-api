@@ -1,7 +1,7 @@
 ---
 UID: NF:fltuser.FilterFindNext
 title: FilterFindNext function (fltuser.h)
-description: The FilterFindNext function continues a filter search started by a call to FilterFindFirst.
+description: The FilterFindNext function continues a filter search started by a call to FilterFindFirst.helpviewer_keywords: ["FilterFindNext","FilterFindNext function [Installable File System Drivers]","FltWin32ApiRef_8f2234d4-aef1-47d3-9b9f-a43fbb309bef.xml","fltuser/FilterFindNext","ifsk.filterfindnext"]
 old-location: ifsk\filterfindnext.htm
 tech.root: ifsk
 ms.assetid: ce56037b-d303-4efa-956f-6bbe5127efb7

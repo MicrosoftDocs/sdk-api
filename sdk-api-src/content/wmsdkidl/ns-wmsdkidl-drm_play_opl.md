@@ -1,7 +1,7 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_PLAY_OPL
 title: DRM_PLAY_OPL (wmsdkidl.h)
-description: The DRM_PLAY_OPL structure holds information about the output protection levels (OPL) specified in a license for play actions.
+description: The DRM_PLAY_OPL structure holds information about the output protection levels (OPL) specified in a license for play actions.helpviewer_keywords: ["DRM_PLAY_OPL","DRM_PLAY_OPL structure [windows Media Format]","structure [windows Media Format]","wmformat.drm_play_opl","wmsdkidl/DRM_PLAY_OPL"]
 old-location: wmformat\drm_play_opl.htm
 tech.root: wmformat
 ms.assetid: 5d14bd02-0fb5-4982-b3dc-7f8277cb852f

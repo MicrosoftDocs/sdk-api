@@ -1,7 +1,7 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0012_0001
 title: UI_ANIMATION_IDLE_BEHAVIOR (uianimation.h)
-description: Defines the behavior of a timer when the animation manager is idle.
+description: Defines the behavior of a timer when the animation manager is idle.helpviewer_keywords: ["UI_ANIMATION_IDLE_BEHAVIOR","UI_ANIMATION_IDLE_BEHAVIOR enumeration [Windows Animation]","UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE","UI_ANIMATION_IDLE_BEHAVIOR_DISABLE","uianimation.ui_animation_idle_behavior","uianimation/UI_ANIMATION_IDLE_BEHAVIOR","uianimation/UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE","uianimation/UI_ANIMATION_IDLE_BEHAVIOR_DISABLE"]
 old-location: uianimation\ui_animation_idle_behavior.htm
 tech.root: UIAnimation
 ms.assetid: 70016fbd-060c-4f2a-89d3-d474850f9d01

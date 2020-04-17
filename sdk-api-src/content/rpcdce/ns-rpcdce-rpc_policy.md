@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcdce._RPC_POLICY
 title: RPC_POLICY (rpcdce.h)
-description: The RPC_POLICY structure contains flags that determine binding on multihomed computers, and port allocations when using the ncacn_ip_tcp and ncadg_ip_udp protocols.
+description: The RPC_POLICY structure contains flags that determine binding on multihomed computers, and port allocations when using the ncacn_ip_tcp and ncadg_ip_udp protocols.helpviewer_keywords: ["*PRPC_POLICY","0","PRPC_POLICY","PRPC_POLICY structure pointer [RPC]","RPC_C_BIND_TO_ALL_NICS","RPC_C_MQ_AUTHENTICATE","RPC_C_MQ_AUTHN_LEVEL_NONE","RPC_C_MQ_AUTHN_LEVEL_PKT_INTEGRITY","RPC_C_MQ_AUTHN_LEVEL_PKT_PRIVACY","RPC_C_MQ_CLEAR_ON_OPEN","RPC_C_MQ_ENCRYPT","RPC_C_MQ_PERMANENT","RPC_C_MQ_TEMPORARY","RPC_C_MQ_USE_EXISTING_SECURITY","RPC_C_USE_INTERNET_PORT","RPC_C_USE_INTRANET_PORT","RPC_POLICY","RPC_POLICY structure [RPC]","_rpc_rpc_policy","rpc.rpc_policy","rpcdce/PRPC_POLICY","rpcdce/RPC_POLICY"]
 old-location: rpc\rpc_policy.htm
 tech.root: Rpc
 ms.assetid: 2647d75d-09b5-48b2-9a79-4d1f95cb094b

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellItem.GetDisplayName
 title: IShellItem::GetDisplayName (shobjidl_core.h)
-description: Gets the display name of the IShellItem object.
+description: Gets the display name of the IShellItem object.helpviewer_keywords: ["GetDisplayName","GetDisplayName method [Windows Shell]","GetDisplayName method [Windows Shell]","IShellItem interface","IShellItem interface [Windows Shell]","GetDisplayName method","IShellItem.GetDisplayName","IShellItem::GetDisplayName","_win32_IShellItem_GetDisplayName","shell.IShellItem_GetDisplayName","shobjidl_core/IShellItem::GetDisplayName"]
 old-location: shell\IShellItem_GetDisplayName.htm
 tech.root: shell
 ms.assetid: 9b159be9-3797-4c8b-90f8-9d3b3a3afb71

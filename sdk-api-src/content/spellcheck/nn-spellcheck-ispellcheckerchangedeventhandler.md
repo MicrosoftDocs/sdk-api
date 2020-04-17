@@ -1,7 +1,7 @@
 ---
 UID: NN:spellcheck.ISpellCheckerChangedEventHandler
 title: ISpellCheckerChangedEventHandler (spellcheck.h)
-description: Allows the caller to create a handler for notifications that the state of the speller has changed.
+description: Allows the caller to create a handler for notifications that the state of the speller has changed.helpviewer_keywords: ["ISpellCheckerChangedEventHandler","ISpellCheckerChangedEventHandler interface [Internationalization for Windows Applications]","ISpellCheckerChangedEventHandler interface [Internationalization for Windows Applications]","described","intl.ispellcheckerchangedeventhandler","spellcheck/ISpellCheckerChangedEventHandler"]
 old-location: intl\ispellcheckerchangedeventhandler.htm
 tech.root: Intl
 ms.assetid: 9dd1f768-a901-4682-9530-019fe1dfbf0b

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.GetRenderingPrefs
 title: IVMRFilterConfig::GetRenderingPrefs (strmif.h)
-description: The GetRenderingPrefs method retrieves the current set of rendering preferences being used by the VMR.
+description: The GetRenderingPrefs method retrieves the current set of rendering preferences being used by the VMR.helpviewer_keywords: ["GetRenderingPrefs","GetRenderingPrefs method [DirectShow]","GetRenderingPrefs method [DirectShow]","IVMRFilterConfig interface","IVMRFilterConfig interface [DirectShow]","GetRenderingPrefs method","IVMRFilterConfig.GetRenderingPrefs","IVMRFilterConfig::GetRenderingPrefs","IVMRFilterConfigGetRenderingPrefs","dshow.ivmrfilterconfig_getrenderingprefs","strmif/IVMRFilterConfig::GetRenderingPrefs"]
 old-location: dshow\ivmrfilterconfig_getrenderingprefs.htm
 tech.root: DirectShow
 ms.assetid: aabf3628-3179-430c-a74b-0cb4e552cbe2

@@ -1,7 +1,7 @@
 ---
 UID: NF:certcli.ICertRequest.RetrievePending
 title: ICertRequest::RetrievePending (certcli.h)
-description: Retrieves a certificate's disposition status from an earlier request that may have previously returned CR_DISP_INCOMPLETE or CR_DISP_UNDER_SUBMISSION.
+description: Retrieves a certificate's disposition status from an earlier request that may have previously returned CR_DISP_INCOMPLETE or CR_DISP_UNDER_SUBMISSION.helpviewer_keywords: ["CCertRequest object [Security]","RetrievePending method","ICertRequest interface [Security]","RetrievePending method","ICertRequest.RetrievePending","ICertRequest2 interface [Security]","RetrievePending method","ICertRequest2::RetrievePending","ICertRequest3 interface [Security]","RetrievePending method","ICertRequest3::RetrievePending","ICertRequest::RetrievePending","RetrievePending","RetrievePending method [Security]","RetrievePending method [Security]","CCertRequest object","RetrievePending method [Security]","ICertRequest interface","RetrievePending method [Security]","ICertRequest2 interface","RetrievePending method [Security]","ICertRequest3 interface","certcli/ICertRequest2::RetrievePending","certcli/ICertRequest3::RetrievePending","certcli/ICertRequest::RetrievePending","security.icertrequest2_retrievepending"]
 old-location: security\icertrequest2_retrievepending.htm
 tech.root: SecCrypto
 ms.assetid: 07a9ac57-f90e-4c5c-b563-8aebbcf8f42e

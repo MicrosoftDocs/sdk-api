@@ -1,7 +1,7 @@
 ---
 UID: NS:eaptypes._EapSimCredential
 title: EapSimCredential (eaptypes.h)
-description: Contains information about the SIM that is used by the EAP method for authentication.
+description: Contains information about the SIM that is used by the EAP method for authentication.helpviewer_keywords: ["EapSimCredential","EapSimCredential structure [EAPHost]","eaphost.eapsimcredential","eaptypes/EAPSimCredential"]
 old-location: eaphost\eapsimcredential.htm
 tech.root: eaphost
 ms.assetid: 483BF257-BB9F-4AF6-A55C-77277AC6E21F

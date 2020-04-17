@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystem
 title: IVdsSubSystem (vdshwprv.h)
-description: Provides methods for performing query and configuration operations on a subsystem.
+description: Provides methods for performing query and configuration operations on a subsystem.helpviewer_keywords: ["IVdsSubSystem","IVdsSubSystem interface [VDS]","IVdsSubSystem interface [VDS]","described","base.ivdssubsystem","vds/IVdsSubSystem","vdshwprv/IVdsSubSystem"]
 old-location: base\ivdssubsystem.htm
 tech.root: VDS
 ms.assetid: 1f1b9735-216b-4bc5-a9b8-2d274827b2c8

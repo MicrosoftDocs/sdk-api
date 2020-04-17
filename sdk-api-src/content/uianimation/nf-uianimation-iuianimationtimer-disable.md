@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.Disable
 title: IUIAnimationTimer::Disable (uianimation.h)
-description: Disables the animation timer.
+description: Disables the animation timer.helpviewer_keywords: ["Disable","Disable method [Windows Animation]","Disable method [Windows Animation]","IUIAnimationTimer interface","IUIAnimationTimer interface [Windows Animation]","Disable method","IUIAnimationTimer.Disable","IUIAnimationTimer::Disable","uianimation.iuianimationtimer_disable","uianimation/IUIAnimationTimer::Disable"]
 old-location: uianimation\iuianimationtimer_disable.htm
 tech.root: UIAnimation
 ms.assetid: 981f2086-3588-4150-aa0a-c427b93ef8bb

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1ColorContext1.GetColorContextType
 title: ID2D1ColorContext1::GetColorContextType (d2d1_3.h)
-description: Retrieves the color context type.
+description: Retrieves the color context type.helpviewer_keywords: ["GetColorContextType","GetColorContextType method [Direct2D]","GetColorContextType method [Direct2D]","ID2D1ColorContext1 interface","ID2D1ColorContext1 interface [Direct2D]","GetColorContextType method","ID2D1ColorContext1.GetColorContextType","ID2D1ColorContext1::GetColorContextType","d2d1_3/ID2D1ColorContext1::GetColorContextType","direct2d.id2d1colorcontext1_getcolorcontexttype"]
 old-location: direct2d\id2d1colorcontext1_getcolorcontexttype.htm
 tech.root: Direct2D
 ms.assetid: 9A9E4EE4-943B-4332-B9F1-269CF629A8FA

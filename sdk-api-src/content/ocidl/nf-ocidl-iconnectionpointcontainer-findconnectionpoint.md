@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IConnectionPointContainer.FindConnectionPoint
 title: IConnectionPointContainer::FindConnectionPoint (ocidl.h)
-description: Returns a pointer to the IConnectionPoint interface of a connection point for a specified IID, if that IID describes a supported outgoing interface.
+description: Returns a pointer to the IConnectionPoint interface of a connection point for a specified IID, if that IID describes a supported outgoing interface.helpviewer_keywords: ["FindConnectionPoint","FindConnectionPoint method [COM]","FindConnectionPoint method [COM]","IConnectionPointContainer interface","IConnectionPointContainer interface [COM]","FindConnectionPoint method","IConnectionPointContainer.FindConnectionPoint","IConnectionPointContainer::FindConnectionPoint","_com_iconnectionpointcontainer_findconnectionpoint","com.iconnectionpointcontainer_findconnectionpoint","ocidl/IConnectionPointContainer::FindConnectionPoint"]
 old-location: com\iconnectionpointcontainer_findconnectionpoint.htm
 tech.root: com
 ms.assetid: bbe55013-13ca-43e8-8d5e-ef89076df039

@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_PATH_SEGMENT
 title: D2D1_PATH_SEGMENT (d2d1.h)
-description: Indicates whether a segment should be stroked and whether the join between this segment and the previous one should be smooth. This enumeration allows a bitwise combination of its member values.
+description: Indicates whether a segment should be stroked and whether the join between this segment and the previous one should be smooth. This enumeration allows a bitwise combination of its member values.helpviewer_keywords: ["D2D1_PATH_SEGMENT","D2D1_PATH_SEGMENT enumeration [Direct2D]","D2D1_PATH_SEGMENT_FORCE_ROUND_LINE_JOIN","D2D1_PATH_SEGMENT_FORCE_UNSTROKED","D2D1_PATH_SEGMENT_NONE","d2d1/D2D1_PATH_SEGMENT","d2d1/D2D1_PATH_SEGMENT_FORCE_ROUND_LINE_JOIN","d2d1/D2D1_PATH_SEGMENT_FORCE_UNSTROKED","d2d1/D2D1_PATH_SEGMENT_NONE","direct2d.D2D1_PATH_SEGMENT"]
 old-location: direct2d\D2D1_PATH_SEGMENT.htm
 tech.root: Direct2D
 ms.assetid: 375a0a40-ec98-4f41-9c15-d284f8b17a73

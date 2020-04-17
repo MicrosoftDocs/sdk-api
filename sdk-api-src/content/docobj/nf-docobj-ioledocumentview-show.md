@@ -1,7 +1,7 @@
 ---
 UID: NF:docobj.IOleDocumentView.Show
 title: IOleDocumentView::Show (docobj.h)
-description: Activates or deactivates a view.
+description: Activates or deactivates a view.helpviewer_keywords: ["IOleDocumentView interface [COM]","Show method","IOleDocumentView.Show","IOleDocumentView::Show","Show","Show method [COM]","Show method [COM]","IOleDocumentView interface","_ole_ioledocumentview_show","com.ioledocumentview_show","docobj/IOleDocumentView::Show"]
 old-location: com\ioledocumentview_show.htm
 tech.root: com
 ms.assetid: eecc0230-0713-40e9-913c-c51b8a905575

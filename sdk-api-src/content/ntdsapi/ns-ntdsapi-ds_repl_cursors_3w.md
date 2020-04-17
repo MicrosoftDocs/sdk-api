@@ -1,7 +1,7 @@
 ---
 UID: NS:ntdsapi._DS_REPL_CURSORS_3W
 title: DS_REPL_CURSORS_3W (ntdsapi.h)
-description: The DS_REPL_CURSORS_3 structure is used with the DsReplicaGetInfo2 function to provide replication state data with respect to all replicas of a given naming context.
+description: The DS_REPL_CURSORS_3 structure is used with the DsReplicaGetInfo2 function to provide replication state data with respect to all replicas of a given naming context.helpviewer_keywords: ["DS_REPL_CURSORS_3","DS_REPL_CURSORS_3 structure [Active Directory]","DS_REPL_CURSORS_3W","ad.ds_repl_cursors_3","ntdsapi/DS_REPL_CURSORS_3"]
 old-location: ad\ds_repl_cursors_3.htm
 tech.root: ad
 ms.assetid: 7b8e0015-dd8f-4cba-8ea2-683cb107f294

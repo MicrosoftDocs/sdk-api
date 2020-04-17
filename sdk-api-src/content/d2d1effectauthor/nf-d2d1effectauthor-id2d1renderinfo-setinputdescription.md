@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1RenderInfo.SetInputDescription
 title: ID2D1RenderInfo::SetInputDescription (d2d1effectauthor.h)
-description: Sets how a specific input to the transform should be handled by the renderer in terms of sampling.
+description: Sets how a specific input to the transform should be handled by the renderer in terms of sampling.helpviewer_keywords: ["ID2D1RenderInfo interface [Direct2D]","SetInputDescription method","ID2D1RenderInfo.SetInputDescription","ID2D1RenderInfo::SetInputDescription","SetInputDescription","SetInputDescription method [Direct2D]","SetInputDescription method [Direct2D]","ID2D1RenderInfo interface","d2d1effectauthor/ID2D1RenderInfo::SetInputDescription","direct2d.id2d1renderinfo_setinputdescription"]
 old-location: direct2d\id2d1renderinfo_setinputdescription.htm
 tech.root: Direct2D
 ms.assetid: 31571676-7030-4FBB-BDED-3CE3BA7E7CE6

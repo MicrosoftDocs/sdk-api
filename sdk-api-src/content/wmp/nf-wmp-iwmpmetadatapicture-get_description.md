@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPMetadataPicture.get_description
 title: IWMPMetadataPicture::get_description (wmp.h)
-description: The get_description method retrieves a pointer to the description of the metadata image.
+description: The get_description method retrieves a pointer to the description of the metadata image.helpviewer_keywords: ["IWMPMetadataPicture interface [Windows Media Player]","get_description method","IWMPMetadataPicture.get_description","IWMPMetadataPicture::get_description","IWMPMetadataPictureget_description","get_description","get_description method [Windows Media Player]","get_description method [Windows Media Player]","IWMPMetadataPicture interface","wmp.iwmpmetadatapicture_get_description","wmp/IWMPMetadataPicture::get_description"]
 old-location: wmp\iwmpmetadatapicture_get_description.htm
 tech.root: WMP
 ms.assetid: b8003560-d80d-4e0a-a6a9-88d908245477

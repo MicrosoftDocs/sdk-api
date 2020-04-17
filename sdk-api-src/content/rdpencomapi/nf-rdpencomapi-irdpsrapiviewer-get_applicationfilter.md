@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_ApplicationFilter
 title: IRDPSRAPIViewer::get_ApplicationFilter (rdpencomapi.h)
-description: Returns an object implementing the IRDPSRAPIApplicationFilter interface.
+description: Returns an object implementing the IRDPSRAPIApplicationFilter interface.helpviewer_keywords: ["ApplicationFilter property [RDP]","ApplicationFilter property [RDP]","IRDPSRAPIViewer interface","ApplicationFilter property [RDP]","RDPViewer object","IRDPSRAPIViewer interface [RDP]","ApplicationFilter property","IRDPSRAPIViewer.ApplicationFilter","IRDPSRAPIViewer.get_ApplicationFilter","IRDPSRAPIViewer::ApplicationFilter","IRDPSRAPIViewer::get_ApplicationFilter","RDPViewer object [RDP]","ApplicationFilter property","get_ApplicationFilter","rdp.irdpsrapiviewer_applicationfilter","rdpencomapi/IRDPSRAPIViewer::ApplicationFilter","rdpencomapi/IRDPSRAPIViewer::get_ApplicationFilter"]
 old-location: rdp\irdpsrapiviewer_applicationfilter.htm
 tech.root: rdp
 ms.assetid: 984c7238-99ba-438f-b122-e952f95e018d

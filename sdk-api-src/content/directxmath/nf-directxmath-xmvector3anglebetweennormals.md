@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector3AngleBetweenNormals
 title: XMVector3AngleBetweenNormals function (directxmath.h)
-description: Computes the radian angle between two normalized 3D vectors.
+description: Computes the radian angle between two normalized 3D vectors.helpviewer_keywords: ["Use DirectX..XMVector3AngleBetweenNormals","XMVector3AngleBetweenNormals","XMVector3AngleBetweenNormals method [DirectX Math Support APIs]","dxmath.xmvector3anglebetweennormals"]
 old-location: dxmath\xmvector3anglebetweennormals.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3AngleBetweenNormals(XMVECTOR,XMVECTOR)

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHRegCloseUSKey
 title: SHRegCloseUSKey function (shlwapi.h)
-description: Closes a handle to a user-specific registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
+description: Closes a handle to a user-specific registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).helpviewer_keywords: ["SHRegCloseUSKey","SHRegCloseUSKey function [Windows Shell]","_win32_SHRegCloseUSKey","shell.SHRegCloseUSKey","shlwapi/SHRegCloseUSKey"]
 old-location: shell\SHRegCloseUSKey.htm
 tech.root: shell
 ms.assetid: 1e9900d6-8411-4e6b-a9c0-006f378a2625

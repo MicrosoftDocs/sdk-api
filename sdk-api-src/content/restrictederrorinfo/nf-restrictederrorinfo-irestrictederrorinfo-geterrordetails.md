@@ -1,7 +1,7 @@
 ---
 UID: NF:restrictederrorinfo.IRestrictedErrorInfo.GetErrorDetails
 title: IRestrictedErrorInfo::GetErrorDetails (restrictederrorinfo.h)
-description: Returns information about an error, including the restricted error description.
+description: Returns information about an error, including the restricted error description.helpviewer_keywords: ["GetErrorDetails","GetErrorDetails method [Windows Runtime]","GetErrorDetails method [Windows Runtime]","IRestrictedErrorInfo interface","IRestrictedErrorInfo interface [Windows Runtime]","GetErrorDetails method","IRestrictedErrorInfo.GetErrorDetails","IRestrictedErrorInfo::GetErrorDetails","restrictederrorinfo/IRestrictedErrorInfo::GetErrorDetails","winrt.irestrictederrorinfo_geterrordetails"]
 old-location: winrt\irestrictederrorinfo_geterrordetails.htm
 tech.root: WinRT
 ms.assetid: ecfd97cf-9f8f-4940-9499-a894e0883f04

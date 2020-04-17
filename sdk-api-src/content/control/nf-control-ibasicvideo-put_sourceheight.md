@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IBasicVideo.put_SourceHeight
 title: IBasicVideo::put_SourceHeight (control.h)
-description: The put_SourceHeight method sets the height of the source rectangle.
+description: The put_SourceHeight method sets the height of the source rectangle.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","put_SourceHeight method","IBasicVideo.put_SourceHeight","IBasicVideo::put_SourceHeight","IBasicVideoput_SourceHeight","control/IBasicVideo::put_SourceHeight","dshow.ibasicvideo_put_sourceheight","put_SourceHeight","put_SourceHeight method [DirectShow]","put_SourceHeight method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_put_sourceheight.htm
 tech.root: DirectShow
 ms.assetid: d8cb4ae1-cbbf-44cb-9387-770ee95280a1

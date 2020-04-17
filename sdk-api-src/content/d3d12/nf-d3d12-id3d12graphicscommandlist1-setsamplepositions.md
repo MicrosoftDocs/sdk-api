@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.SetSamplePositions
 title: ID3D12GraphicsCommandList1::SetSamplePositions (d3d12.h)
-description: This method configures the sample positions used by subsequent draw, copy, resolve, and similar operations.
+description: This method configures the sample positions used by subsequent draw, copy, resolve, and similar operations.helpviewer_keywords: ["ID3D12GraphicsCommandList1 interface","SetSamplePositions method","ID3D12GraphicsCommandList1.SetSamplePositions","ID3D12GraphicsCommandList1::SetSamplePositions","SetSamplePositions","SetSamplePositions method","SetSamplePositions method","ID3D12GraphicsCommandList1 interface","d3d12/ID3D12GraphicsCommandList1::SetSamplePositions","direct3d12.id3d12graphicscommandlist1_setsamplepositions"]
 old-location: direct3d12\id3d12graphicscommandlist1_setsamplepositions.htm
 tech.root: direct3d12
 ms.assetid: 04627303-20C7-44B1-A62D-45003A13685B

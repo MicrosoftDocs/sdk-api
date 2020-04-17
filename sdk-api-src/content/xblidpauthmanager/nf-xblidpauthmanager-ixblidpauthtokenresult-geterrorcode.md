@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetErrorCode
 title: IXblIdpAuthTokenResult::GetErrorCode (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use.helpviewer_keywords: ["GetErrorCode","GetErrorCode method","GetErrorCode method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetErrorCode method","IXblIdpAuthTokenResult.GetErrorCode","IXblIdpAuthTokenResult::GetErrorCode","xblidp.ixblidpauthtokenresult_geterrorcode","xblidpauthmanager/IXblIdpAuthTokenResult::GetErrorCode"]
 old-location: xblidp\ixblidpauthtokenresult_geterrorcode.htm
 tech.root: xblidp
 ms.assetid: 0870EC42-9E67-4A5F-A465-CDD8B152D257

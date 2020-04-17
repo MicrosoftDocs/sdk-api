@@ -1,7 +1,7 @@
 ---
 UID: NF:evntrace.ControlTraceW
 title: ControlTraceW function (evntrace.h)
-description: The ControlTrace function flushes, queries, updates, or stops the specified event tracing session.
+description: The ControlTrace function flushes, queries, updates, or stops the specified event tracing session.helpviewer_keywords: ["ControlTrace","ControlTrace function [ETW]","ControlTraceA","ControlTraceW","EVENT_TRACE_CONTROL_FLUSH","EVENT_TRACE_CONTROL_QUERY","EVENT_TRACE_CONTROL_STOP","EVENT_TRACE_CONTROL_UPDATE","_evt_controltrace","base.controltrace","etw.controltrace","evntrace/ControlTrace","evntrace/ControlTraceA","evntrace/ControlTraceW"]
 old-location: etw\controltrace.htm
 tech.root: ETW
 ms.assetid: c39f669c-ff40-40ed-ba47-798474ec2de4

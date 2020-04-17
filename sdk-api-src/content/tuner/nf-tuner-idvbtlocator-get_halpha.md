@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_HAlpha
 title: IDVBTLocator::get_HAlpha (tuner.h)
-description: The get_HAlpha method retrieves the hierarchy alpha.
+description: The get_HAlpha method retrieves the hierarchy alpha.helpviewer_keywords: ["IDVBTLocator interface [Microsoft TV Technologies]","get_HAlpha method","IDVBTLocator.get_HAlpha","IDVBTLocator::get_HAlpha","IDVBTLocatorget_HAlpha","get_HAlpha","get_HAlpha method [Microsoft TV Technologies]","get_HAlpha method [Microsoft TV Technologies]","IDVBTLocator interface","mstv.idvbtlocator_get_halpha","tuner/IDVBTLocator::get_HAlpha"]
 old-location: mstv\idvbtlocator_get_halpha.htm
 tech.root: mstv
 ms.assetid: 523222c3-ae40-4eed-af22-6cba56df4959

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxSecurity2.Refresh
 title: IFaxSecurity2::Refresh (faxcomex.h)
-description: Refreshes FaxSecurity2 object information from the fax server.
+description: Refreshes FaxSecurity2 object information from the fax server.helpviewer_keywords: ["IFaxSecurity2 interface [Fax Service]","Refresh method","IFaxSecurity2.Refresh","IFaxSecurity2::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxSecurity2 interface","_mfax_faxsecurity2.refresh","fax._mfax_faxsecurity2_cpp_mfax_faxsecurity2_refresh_cpp","fax._mfax_faxsecurity2_refresh","faxcomex/IFaxSecurity2::Refresh"]
 old-location: fax\_mfax_faxsecurity2_cpp_mfax_faxsecurity2_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxsecurity2\refresh.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Open
 title: IWMWriterNetworkSink::Open (wmsdkidl.h)
-description: The Open method opens a network port, and starts listening for network connections.
+description: The Open method opens a network port, and starts listening for network connections.helpviewer_keywords: ["IWMWriterNetworkSink interface [windows Media Format]","Open method","IWMWriterNetworkSink.Open","IWMWriterNetworkSink::Open","IWMWriterNetworkSinkOpen","Open","Open method [windows Media Format]","Open method [windows Media Format]","IWMWriterNetworkSink interface","wmformat.iwmwriternetworksink_open","wmsdkidl/IWMWriterNetworkSink::Open"]
 old-location: wmformat\iwmwriternetworksink_open.htm
 tech.root: wmformat
 ms.assetid: 2cfd4693-794c-46c8-b72d-b7529c63f16e

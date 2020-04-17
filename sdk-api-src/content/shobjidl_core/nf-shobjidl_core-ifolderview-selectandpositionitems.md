@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFolderView.SelectAndPositionItems
 title: IFolderView::SelectAndPositionItems (shobjidl_core.h)
-description: Allows the selection and positioning of items visible in the folder's view.
+description: Allows the selection and positioning of items visible in the folder's view.helpviewer_keywords: ["IFolderView interface [Windows Shell]","SelectAndPositionItems method","IFolderView.SelectAndPositionItems","IFolderView::SelectAndPositionItems","SelectAndPositionItems","SelectAndPositionItems method [Windows Shell]","SelectAndPositionItems method [Windows Shell]","IFolderView interface","_shell_IFolderView_SelectAndPositionItems","shell.IFolderView_SelectAndPositionItems","shobjidl_core/IFolderView::SelectAndPositionItems"]
 old-location: shell\IFolderView_SelectAndPositionItems.htm
 tech.root: shell
 ms.assetid: 1263bba8-63c8-4630-ab59-bb4ae10061fc

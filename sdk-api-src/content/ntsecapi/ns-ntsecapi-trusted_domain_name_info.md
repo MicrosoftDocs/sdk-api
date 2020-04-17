@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._TRUSTED_DOMAIN_NAME_INFO
 title: TRUSTED_DOMAIN_NAME_INFO (ntsecapi.h)
-description: Used to query or set the name of a trusted domain.
+description: Used to query or set the name of a trusted domain.helpviewer_keywords: ["*PTRUSTED_DOMAIN_NAME_INFO","PTRUSTED_DOMAIN_NAME_INFO","PTRUSTED_DOMAIN_NAME_INFO structure pointer [Security]","TRUSTED_DOMAIN_NAME_INFO","TRUSTED_DOMAIN_NAME_INFO structure [Security]","_TRUSTED_DOMAIN_NAME_INFO","_lsa_trusted_domain_name_info","ntsecapi/PTRUSTED_DOMAIN_NAME_INFO","ntsecapi/TRUSTED_DOMAIN_NAME_INFO","security.trusted_domain_name_info"]
 old-location: security\trusted_domain_name_info.htm
 tech.root: SecMgmt
 ms.assetid: 9bc1301b-1d09-4cd2-8590-e7756ee4792d

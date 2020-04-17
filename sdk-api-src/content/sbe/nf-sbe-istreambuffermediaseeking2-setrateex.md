@@ -1,7 +1,7 @@
 ---
 UID: NF:sbe.IStreamBufferMediaSeeking2.SetRateEx
 title: IStreamBufferMediaSeeking2::SetRateEx (sbe.h)
-description: .
+description: .helpviewer_keywords: ["IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies]","SetRateEx method","IStreamBufferMediaSeeking2.SetRateEx","IStreamBufferMediaSeeking2::SetRateEx","IStreamBufferMediaSeeking2SetRateEx","SetRateEx","SetRateEx method [Microsoft TV Technologies]","SetRateEx method [Microsoft TV Technologies]","IStreamBufferMediaSeeking2 interface","mstv.istreambuffermediaseeking2_setrateex","sbe/IStreamBufferMediaSeeking2::SetRateEx"]
 old-location: mstv\istreambuffermediaseeking2_setrateex.htm
 tech.root: mstv
 ms.assetid: 37b80d0d-561d-4ef3-b0ad-70fb43530026

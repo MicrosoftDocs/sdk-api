@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMKEY
 title: NMKEY (commctrl.h)
-description: Contains information used with key notification messages.
+description: Contains information used with key notification messages.helpviewer_keywords: ["*LPNMKEY","LPNMKEY","LPNMKEY structure pointer [Windows Controls]","NMKEY","NMKEY structure [Windows Controls]","_win32_NMKEY","_win32_NMKEY_cpp","commctrl/LPNMKEY","commctrl/NMKEY","controls.NMKEY","controls._win32_NMKEY"]
 old-location: controls\NMKEY.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmkey.htm

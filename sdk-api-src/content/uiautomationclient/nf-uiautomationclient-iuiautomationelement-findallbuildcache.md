@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.FindAllBuildCache
 title: IUIAutomationElement::FindAllBuildCache (uiautomationclient.h)
-description: Returns all UI Automation elements that satisfy the specified condition, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
+description: Returns all UI Automation elements that satisfy the specified condition, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.helpviewer_keywords: ["FindAllBuildCache","FindAllBuildCache method [Windows Accessibility]","FindAllBuildCache method [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","FindAllBuildCache method","IUIAutomationElement.FindAllBuildCache","IUIAutomationElement::FindAllBuildCache","uiauto.uiauto_IUIAutomationElement_FindAllBuildCache","uiauto_IUIAutomationElement_FindAllBuildCache","uiautomationclient/IUIAutomationElement::FindAllBuildCache","winauto.uiauto_IUIAutomationElement_FindAllBuildCache"]
 old-location: winauto\uiauto_IUIAutomationElement_FindAllBuildCache.htm
 tech.root: WinAuto
 ms.assetid: acf16f88-2b68-4fd4-b715-b3a61340bdd0

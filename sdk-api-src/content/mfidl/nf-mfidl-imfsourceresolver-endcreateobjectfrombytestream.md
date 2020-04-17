@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.EndCreateObjectFromByteStream
 title: IMFSourceResolver::EndCreateObjectFromByteStream (mfidl.h)
-description: Completes an asynchronous request to create a media source from a byte stream.
+description: Completes an asynchronous request to create a media source from a byte stream.helpviewer_keywords: ["54532c0e-772b-45b6-95a3-5959023b9bc8","EndCreateObjectFromByteStream","EndCreateObjectFromByteStream method [Media Foundation]","EndCreateObjectFromByteStream method [Media Foundation]","IMFSourceResolver interface","IMFSourceResolver interface [Media Foundation]","EndCreateObjectFromByteStream method","IMFSourceResolver.EndCreateObjectFromByteStream","IMFSourceResolver::EndCreateObjectFromByteStream","mf.imfsourceresolver_endcreateobjectfrombytestream","mfidl/IMFSourceResolver::EndCreateObjectFromByteStream"]
 old-location: mf\imfsourceresolver_endcreateobjectfrombytestream.htm
 tech.root: medfound
 ms.assetid: 54532c0e-772b-45b6-95a3-5959023b9bc8

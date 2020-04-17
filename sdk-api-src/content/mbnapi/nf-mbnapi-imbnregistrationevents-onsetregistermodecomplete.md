@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnRegistrationEvents.OnSetRegisterModeComplete
 title: IMbnRegistrationEvents::OnSetRegisterModeComplete (mbnapi.h)
-description: Notification method called by the Mobile Broadband service to indicate that it has completed a set registration operation.
+description: Notification method called by the Mobile Broadband service to indicate that it has completed a set registration operation.helpviewer_keywords: ["E_FAIL","E_INVALIDARG","E_MBN_PIN_REQUIRED","E_MBN_PROVIDER_NOT_VISIBLE","E_MBN_SERVICE_NOT_ACTIVATED","HRESULT_FROM_WIN32(ERROR_INVALID_STATE)","HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)","IMbnRegistrationEvents interface [Microsoft Broadband Networks]","OnSetRegisterModeComplete method","IMbnRegistrationEvents.OnSetRegisterModeComplete","IMbnRegistrationEvents::OnSetRegisterModeComplete","OnSetRegisterModeComplete","OnSetRegisterModeComplete method [Microsoft Broadband Networks]","OnSetRegisterModeComplete method [Microsoft Broadband Networks]","IMbnRegistrationEvents interface","S_OK","mbn.imbnregistrationevents_onsetregistermodecomplete","mbnapi/IMbnRegistrationEvents::OnSetRegisterModeComplete"]
 old-location: mbn\imbnregistrationevents_onsetregistermodecomplete.htm
 tech.root: mbn
 ms.assetid: a5ca0776-bd1d-48a0-970a-39c8da69b394

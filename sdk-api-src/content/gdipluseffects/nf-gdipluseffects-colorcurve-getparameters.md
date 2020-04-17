@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluseffects.ColorCurve.GetParameters
 title: ColorCurve::GetParameters (gdipluseffects.h)
-description: The ColorCurve::GetParameters gets the current values of the parameters of this ColorCurve object.
+description: The ColorCurve::GetParameters gets the current values of the parameters of this ColorCurve object.helpviewer_keywords: ["ColorCurve class [GDI+]","GetParameters method","ColorCurve.GetParameters","ColorCurve::GetParameters","GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","ColorCurve class","_gdiplus_CLASS_ColorCurve_GetParameters_","gdiplus._gdiplus_CLASS_ColorCurve_GetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_ColorCurve_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurveclass\colorcurvemethods\getparameters.htm

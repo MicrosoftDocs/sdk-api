@@ -1,7 +1,7 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.GetNextTable
 title: ITSDT::GetNextTable (mpeg2psiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["GetNextTable","GetNextTable method [Microsoft TV Technologies]","GetNextTable method [Microsoft TV Technologies]","ITSDT interface","ITSDT interface [Microsoft TV Technologies]","GetNextTable method","ITSDT.GetNextTable","ITSDT::GetNextTable","ITSDTGetNextTable","mpeg2psiparser/ITSDT::GetNextTable","mstv.itsdt_getnexttable"]
 old-location: mstv\itsdt_getnexttable.htm
 tech.root: mstv
 ms.assetid: 7b60647a-b668-4884-967d-044ff0d149c2

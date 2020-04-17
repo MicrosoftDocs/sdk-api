@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsQueryEx
 title: DnsQueryEx function (windns.h)
-description: The asynchronous generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.
+description: The asynchronous generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.helpviewer_keywords: ["DnsQueryEx","DnsQueryEx function [DNS]","dns.dnsqueryex","windns/DnsQueryEx"]
 old-location: dns\dnsqueryex.htm
 tech.root: DNS
 ms.assetid: 22664B9A-5010-42E7-880B-8D5B16A9F2DC

@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLASS_INFO_ARRAY_V6
 title: DHCP_CLASS_INFO_ARRAY_V6 (dhcpsapi.h)
-description: The DHCP_CLASS_INFO_ARRAY_V6 structure contains a list of information regarding a user class or a vendor class.
+description: The DHCP_CLASS_INFO_ARRAY_V6 structure contains a list of information regarding a user class or a vendor class.helpviewer_keywords: ["*LPDHCP_CLASS_INFO_ARRAY_V6","DHCP_CLASS_INFO_ARRAY_V6","DHCP_CLASS_INFO_ARRAY_V6 structure [DHCP]","PDHCP_CLASS_INFO_ARRAY_V6","PDHCP_CLASS_INFO_ARRAY_V6 structure pointer [DHCP]","dhcp.dhcp_class_info_array_v6","dhcpsapi/DHCP_CLASS_INFO_ARRAY_V6","dhcpsapi/PDHCP_CLASS_INFO_ARRAY_V6"]
 old-location: dhcp\dhcp_class_info_array_v6.htm
 tech.root: DHCP
 ms.assetid: b724ae08-4e18-4cad-9376-174acbd5b4f7

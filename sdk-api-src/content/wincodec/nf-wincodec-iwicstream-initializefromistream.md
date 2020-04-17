@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICStream.InitializeFromIStream
 title: IWICStream::InitializeFromIStream (wincodec.h)
-description: Initializes a stream from another stream. Access rights are inherited from the underlying stream.
+description: Initializes a stream from another stream. Access rights are inherited from the underlying stream.helpviewer_keywords: ["IWICStream interface [Windows Imaging Component]","InitializeFromIStream method","IWICStream.InitializeFromIStream","IWICStream::InitializeFromIStream","InitializeFromIStream","InitializeFromIStream method [Windows Imaging Component]","InitializeFromIStream method [Windows Imaging Component]","IWICStream interface","_wic_codec_iwicstream_initializefromistream","wic._wic_codec_iwicstream_initializefromistream","wincodec/IWICStream::InitializeFromIStream"]
 old-location: wic\_wic_codec_iwicstream_initializefromistream.htm
 tech.root: wic
 ms.assetid: bfe413e1-f579-4c9c-9e88-3b369235c529

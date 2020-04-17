@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IFolderFilter
 title: IFolderFilter (shobjidl_core.h)
-description: Exposed by a client to specify how to filter the enumeration of a Shell folder by a server application.
+description: Exposed by a client to specify how to filter the enumeration of a Shell folder by a server application.helpviewer_keywords: ["IFolderFilter","IFolderFilter interface [Windows Shell]","IFolderFilter interface [Windows Shell]","described","_shell_IFolderFilter","shell.IFolderFilter","shobjidl_core/IFolderFilter"]
 old-location: shell\IFolderFilter.htm
 tech.root: shell
 ms.assetid: fd69c11c-f4c3-4681-ae85-385460e96be9

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorSin
 title: XMVectorSin function (directxmath.h)
-description: Computes the sine of each component of an XMVECTOR.
+description: Computes the sine of each component of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMVectorSin","XMVectorSin","XMVectorSin method [DirectX Math Support APIs]","dxmath.xmvectorsin"]
 old-location: dxmath\xmvectorsin.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSin(XMVECTOR)

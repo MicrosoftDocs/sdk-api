@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IPinConnection.NotifyEndOfStream
 title: IPinConnection::NotifyEndOfStream (strmif.h)
-description: The NotifyEndOfStream method requests notification from the pin when the next end-of-stream condition occurs.
+description: The NotifyEndOfStream method requests notification from the pin when the next end-of-stream condition occurs.helpviewer_keywords: ["IPinConnection interface [DirectShow]","NotifyEndOfStream method","IPinConnection.NotifyEndOfStream","IPinConnection::NotifyEndOfStream","IPinConnectionNotifyEndOfStream","NotifyEndOfStream","NotifyEndOfStream method [DirectShow]","NotifyEndOfStream method [DirectShow]","IPinConnection interface","dshow.ipinconnection_notifyendofstream","strmif/IPinConnection::NotifyEndOfStream"]
 old-location: dshow\ipinconnection_notifyendofstream.htm
 tech.root: DirectShow
 ms.assetid: 3a911436-a679-4a86-93f9-e9c57ca762c5

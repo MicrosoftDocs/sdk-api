@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ListBox_GetTextLen
 title: ListBox_GetTextLen macro (windowsx.h)
-description: Gets the length of a string in a list box. You can use this macro or send the LB_GETTEXTLEN message explicitly.
+description: Gets the length of a string in a list box. You can use this macro or send the LB_GETTEXTLEN message explicitly.helpviewer_keywords: ["ListBox_GetTextLen","ListBox_GetTextLen macro [Windows Controls]","_win32_ListBox_GetTextLen","_win32_ListBox_GetTextLen_cpp","controls.ListBox_GetTextLen","controls._win32_ListBox_GetTextLen","windowsx/ListBox_GetTextLen"]
 old-location: controls\ListBox_GetTextLen.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gettextlen.htm

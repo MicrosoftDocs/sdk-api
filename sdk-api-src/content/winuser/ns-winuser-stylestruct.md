@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagSTYLESTRUCT
 title: STYLESTRUCT (winuser.h)
-description: Contains the styles for a window.
+description: Contains the styles for a window.helpviewer_keywords: ["*LPSTYLESTRUCT","LPSTYLESTRUCT","LPSTYLESTRUCT structure pointer [Windows and Messages]","STYLESTRUCT","STYLESTRUCT structure [Windows and Messages]","_win32_STYLESTRUCT_str","_win32_stylestruct_str_cpp","winmsg.stylestruct","winui._win32_stylestruct_str","winuser/LPSTYLESTRUCT","winuser/STYLESTRUCT"]
 old-location: winmsg\stylestruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\stylestruct.htm

@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidEVREvent
 title: IMSVidEVREvent (segment.h)
-description: This topic applies to Windows Vista or later.
+description: This topic applies to Windows Vista or later.helpviewer_keywords: ["IMSVidEVREvent","IMSVidEVREvent interface [Microsoft TV Technologies]","IMSVidEVREvent interface [Microsoft TV Technologies]","described","IMSVidEVREventInterface","mstv.imsvidevrevent","segment/IMSVidEVREvent"]
 old-location: mstv\imsvidevrevent.htm
 tech.root: mstv
 ms.assetid: 70874420-64f2-43c9-b46b-492318ae0852

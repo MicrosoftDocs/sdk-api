@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoWaitForMultipleObjects
 title: CoWaitForMultipleObjects function (combaseapi.h)
-description: A replacement for CoWaitForMultipleHandles. This replacement API hides the options for CoWaitForMultipleHandles that are not supported in ASTA.
+description: A replacement for CoWaitForMultipleHandles. This replacement API hides the options for CoWaitForMultipleHandles that are not supported in ASTA.helpviewer_keywords: ["CoWaitForMultipleObjects","CoWaitForMultipleObjects function [COM]","com.cowaitformultipleobjects","combaseapi/CoWaitForMultipleObjects"]
 old-location: com\cowaitformultipleobjects.htm
 tech.root: com
 ms.assetid: 7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F

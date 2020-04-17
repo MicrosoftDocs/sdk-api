@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Bitmap.CopyFromMemory
 title: ID2D1Bitmap::CopyFromMemory (d2d1.h)
-description: Copies the specified region from memory into the current bitmap.
+description: Copies the specified region from memory into the current bitmap.helpviewer_keywords: ["CopyFromMemory","CopyFromMemory method [Direct2D]","CopyFromMemory method [Direct2D]","ID2D1Bitmap interface","ID2D1Bitmap interface [Direct2D]","CopyFromMemory method","ID2D1Bitmap.CopyFromMemory","ID2D1Bitmap::CopyFromMemory","d2d1/ID2D1Bitmap::CopyFromMemory","direct2d.ID2D1Bitmap_CopyFromMemory"]
 old-location: direct2d\ID2D1Bitmap_CopyFromMemory.htm
 tech.root: Direct2D
 ms.assetid: 594cba56-6f18-439a-ada4-0f591af094bb

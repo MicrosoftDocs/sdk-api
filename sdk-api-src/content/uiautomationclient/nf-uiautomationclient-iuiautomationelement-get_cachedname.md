@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedName
 title: IUIAutomationElement::get_CachedName (uiautomationclient.h)
-description: Retrieves the cached name of the element.
+description: Retrieves the cached name of the element.helpviewer_keywords: ["CachedName property [Windows Accessibility]","CachedName property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedName property","IUIAutomationElement.CachedName","IUIAutomationElement.get_CachedName","IUIAutomationElement::CachedName","IUIAutomationElement::get_CachedName","get_CachedName","uiauto.uiauto_IUIAutomationElement_CachedName","uiauto_IUIAutomationElement_CachedName","uiautomationclient/IUIAutomationElement::CachedName","uiautomationclient/IUIAutomationElement::get_CachedName","winauto.uiauto_IUIAutomationElement_CachedName"]
 old-location: winauto\uiauto_IUIAutomationElement_CachedName.htm
 tech.root: WinAuto
 ms.assetid: 9d70a40c-9bcf-4ca9-90dd-05d25ddb7e89

@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Is_Version_Available
 title: CM_Is_Version_Available function (cfgmgr32.h)
-description: The CM_Is_Version_Available function indicates whether a specified version of the Plug and Play (PnP) Configuration Manager DLL (Cfgmgr32.dll) is supported by a local machine.
+description: The CM_Is_Version_Available function indicates whether a specified version of the Plug and Play (PnP) Configuration Manager DLL (Cfgmgr32.dll) is supported by a local machine.helpviewer_keywords: ["CM_Is_Version_Available","CM_Is_Version_Available function [Device and Driver Installation]","cfgmgr32/CM_Is_Version_Available","cfgmgrfn_dfae29e5-44ab-4bbc-b104-5ccd4914eea0.xml","devinst.cm_is_version_available"]
 old-location: devinst\cm_is_version_available.htm
 tech.root: devinst
 ms.assetid: a7a1e8d0-7645-423a-8123-a58ed7ae9827

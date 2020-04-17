@@ -1,7 +1,7 @@
 ---
 UID: NS:shappmgr._PubAppInfo
 title: PUBAPPINFO (shappmgr.h)
-description: Provides information about a published application from an application publisher to Add/Remove Programs in Control Panel.
+description: Provides information about a published application from an application publisher to Add/Remove Programs in Control Panel.helpviewer_keywords: ["*PPUBAPPINFO","PUBAPPINFO","PUBAPPINFO structure [Windows Shell]","inet_PUBAPPINFO","shappmgr/PUBAPPINFO","shell.PUBAPPINFO"]
 old-location: shell\PUBAPPINFO.htm
 tech.root: shell
 ms.assetid: 927c58d3-4208-4fd3-a3fa-18ae7d8d3136

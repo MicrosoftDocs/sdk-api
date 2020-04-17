@@ -1,7 +1,7 @@
 ---
 UID: NS:aviriff._avioldindex
 title: AVIOLDINDEX (aviriff.h)
-description: The AVIOLDINDEX structure describes an AVI 1.0 index ('idx1' format). New AVI files should use an AVI 2.0 index ('indx' format).
+description: The AVIOLDINDEX structure describes an AVI 1.0 index ('idx1' format). New AVI files should use an AVI 2.0 index ('indx' format).helpviewer_keywords: ["AVIIF_KEYFRAME","AVIIF_LIST","AVIIF_NO_TIME","AVIOLDINDEX","AVIOLDINDEX structure [DirectShow]","AVIOLDINDEXStructure","aviriff/AVIOLDINDEX","db","dc","dshow.avioldindex","pc","wb"]
 old-location: dshow\avioldindex.htm
 tech.root: DirectShow
 ms.assetid: c36d5759-710e-4abe-85dc-13462013bb9f

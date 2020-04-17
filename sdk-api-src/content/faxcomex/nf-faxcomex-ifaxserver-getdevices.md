@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxServer.GetDevices
 title: IFaxServer::GetDevices (faxcomex.h)
-description: The IFaxServer::GetDevices method creates a IFaxDevices interface, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
+description: The IFaxServer::GetDevices method creates a IFaxDevices interface, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.helpviewer_keywords: ["GetDevices","GetDevices method [Fax Service]","GetDevices method [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","GetDevices method","IFaxServer.GetDevices","IFaxServer::GetDevices","_mfax_faxserver.getdevices_cpp","fax._mfax_faxserver_getdevices_cpp","faxcomex/IFaxServer::GetDevices"]
 old-location: fax\_mfax_faxserver_getdevices_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7hrn_cpp.htm

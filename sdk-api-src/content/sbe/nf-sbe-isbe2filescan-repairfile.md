@@ -1,7 +1,7 @@
 ---
 UID: NF:sbe.ISBE2FileScan.RepairFile
 title: ISBE2FileScan::RepairFile (sbe.h)
-description: Repairs a corrupted .WTV file.
+description: Repairs a corrupted .WTV file.helpviewer_keywords: ["ISBE2FileScan interface [Microsoft TV Technologies]","RepairFile method","ISBE2FileScan.RepairFile","ISBE2FileScan::RepairFile","RepairFile","RepairFile method [Microsoft TV Technologies]","RepairFile method [Microsoft TV Technologies]","ISBE2FileScan interface","mstv.isbe2filescan_repairfile","sbe/ISBE2FileScan::RepairFile"]
 old-location: mstv\isbe2filescan_repairfile.htm
 tech.root: mstv
 ms.assetid: 318eb0e5-2492-4ed4-8a14-764c12024f97

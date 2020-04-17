@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertSerializeCertificateStoreElement
 title: CertSerializeCertificateStoreElement function (wincrypt.h)
-description: The CertSerializeCertificateStoreElement function serializes a certificate context's encoded certificate and its encoded properties. The result can be persisted to storage so that the certificate and properties can be retrieved at a later time.
+description: The CertSerializeCertificateStoreElement function serializes a certificate context's encoded certificate and its encoded properties. The result can be persisted to storage so that the certificate and properties can be retrieved at a later time.helpviewer_keywords: ["CertSerializeCertificateStoreElement","CertSerializeCertificateStoreElement function [Security]","_crypto2_certserializecertificatestoreelement","security.certserializecertificatestoreelement","wincrypt/CertSerializeCertificateStoreElement"]
 old-location: security\certserializecertificatestoreelement.htm
 tech.root: SecCrypto
 ms.assetid: 104fc986-6344-41b7-8843-23c3c72405a2

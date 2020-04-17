@@ -1,7 +1,7 @@
 ---
 UID: NE:wcndevice.tagWCN_SESSION_STATUS
 title: WCN_SESSION_STATUS (wcndevice.h)
-description: Defines the outcome status of a WPS session.
+description: Defines the outcome status of a WPS session.helpviewer_keywords: ["WCN_SESSION_FAILURE_GENERIC","WCN_SESSION_FAILURE_TIMEOUT","WCN_SESSION_STATUS","WCN_SESSION_STATUS enumeration [Windows Connect Now]","WCN_SESSION_STATUS_SUCCESS","wcn.wcn_session_status","wcndevice/WCN_SESSION_FAILURE_GENERIC","wcndevice/WCN_SESSION_FAILURE_TIMEOUT","wcndevice/WCN_SESSION_STATUS","wcndevice/WCN_SESSION_STATUS_SUCCESS"]
 old-location: wcn\wcn_session_status.htm
 tech.root: wcn
 ms.assetid: 131D24B7-3D0D-4683-A7EA-94F5DC1E504C

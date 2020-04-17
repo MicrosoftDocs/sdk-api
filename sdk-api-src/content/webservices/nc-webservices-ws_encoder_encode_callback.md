@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_ENCODER_ENCODE_CALLBACK
 title: WS_ENCODER_ENCODE_CALLBACK (webservices.h)
-description: Encodes a message.
+description: Encodes a message.helpviewer_keywords: ["WS_ENCODER_ENCODE_CALLBACK","WS_ENCODER_ENCODE_CALLBACK callback","WS_ENCODER_ENCODE_CALLBACK callback function [Web Services for Windows]","webservices/WS_ENCODER_ENCODE_CALLBACK","wsw.ws_encoder_encode_callback"]
 old-location: wsw\ws_encoder_encode_callback.htm
 tech.root: wsw
 ms.assetid: f3b191b2-a92f-491d-bd77-500e2d3b37e8

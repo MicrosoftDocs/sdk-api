@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbProvisioningPluginNotifySink
 title: ITsSbProvisioningPluginNotifySink (sbtsv.h)
-description: Exposes methods that notify Remote Desktop Connection Broker (RD Connection Broker) about the provisioning of virtual machines.
+description: Exposes methods that notify Remote Desktop Connection Broker (RD Connection Broker) about the provisioning of virtual machines.helpviewer_keywords: ["ITsSbProvisioningPluginNotifySink","ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services]","ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services]","described","sbtsv/ITsSbProvisioningPluginNotifySink","termserv.itssbprovisioningpluginnotifysink"]
 old-location: termserv\itssbprovisioningpluginnotifysink.htm
 tech.root: TermServ
 ms.assetid: 6f91021c-d7a5-4131-bef7-b4f5f37f9f8b

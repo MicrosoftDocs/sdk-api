@@ -1,7 +1,7 @@
 ---
 UID: NN:vmr9.IVMRSurfaceAllocatorEx9
 title: IVMRSurfaceAllocatorEx9 (vmr9.h)
-description: The IVMRSurfaceAllocatorEx9 interface provides a way for custom allocator-presenters to control where the Video Mixing Renderer Filter 9 (VMR-9) draws the composited image.
+description: The IVMRSurfaceAllocatorEx9 interface provides a way for custom allocator-presenters to control where the Video Mixing Renderer Filter 9 (VMR-9) draws the composited image.helpviewer_keywords: ["IVMRSurfaceAllocatorEx9","IVMRSurfaceAllocatorEx9 interface [DirectShow]","IVMRSurfaceAllocatorEx9 interface [DirectShow]","described","IVMRSurfaceAllocatorEx9Interface","dshow.ivmrsurfaceallocatorex9","vmr9/IVMRSurfaceAllocatorEx9"]
 old-location: dshow\ivmrsurfaceallocatorex9.htm
 tech.root: DirectShow
 ms.assetid: 4c43867f-6c4b-4ed7-af83-0133c997efcb

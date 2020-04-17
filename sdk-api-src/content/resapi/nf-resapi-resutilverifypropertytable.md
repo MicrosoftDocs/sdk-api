@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilVerifyPropertyTable
 title: ResUtilVerifyPropertyTable function (resapi.h)
-description: Uses a property table to verify that a property list is correctly formatted.
+description: Uses a property table to verify that a property list is correctly formatted.helpviewer_keywords: ["PRESUTIL_VERIFY_PROPERTY_TABLE","PRESUTIL_VERIFY_PROPERTY_TABLE function [Failover Cluster]","ResUtilVerifyPropertyTable","ResUtilVerifyPropertyTable function [Failover Cluster]","_wolf_resutilverifypropertytable","mscs.resutilverifypropertytable","resapi/PRESUTIL_VERIFY_PROPERTY_TABLE","resapi/ResUtilVerifyPropertyTable"]
 old-location: mscs\resutilverifypropertytable.htm
 tech.root: MsCS
 ms.assetid: 5a079081-c11a-4f85-89d4-09a5e7fab29f

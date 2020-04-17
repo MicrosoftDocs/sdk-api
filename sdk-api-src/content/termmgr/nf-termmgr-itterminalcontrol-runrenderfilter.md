@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITTerminalControl.RunRenderFilter
 title: ITTerminalControl::RunRenderFilter (termmgr.h)
-description: The RunRenderFilter method starts the rightmost render filter in the terminal. Needed for dynamic filter graphs.
+description: The RunRenderFilter method starts the rightmost render filter in the terminal. Needed for dynamic filter graphs.helpviewer_keywords: ["ITTerminalControl interface [TAPI 2.2]","RunRenderFilter method","ITTerminalControl.RunRenderFilter","ITTerminalControl::RunRenderFilter","RunRenderFilter","RunRenderFilter method [TAPI 2.2]","RunRenderFilter method [TAPI 2.2]","ITTerminalControl interface","_tapi3_itterminalcontrol_runrenderfilter","tapi3.itterminalcontrol_runrenderfilter","termmgr/ITTerminalControl::RunRenderFilter"]
 old-location: tapi3\itterminalcontrol_runrenderfilter.htm
 tech.root: Tapi
 ms.assetid: ed02ed04-3665-47be-a77b-7804a2197767

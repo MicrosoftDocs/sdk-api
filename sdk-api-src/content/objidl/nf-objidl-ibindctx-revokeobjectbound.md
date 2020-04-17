@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IBindCtx.RevokeObjectBound
 title: IBindCtx::RevokeObjectBound (objidl.h)
-description: Removes the object from the bind context, undoing a previous call to RegisterObjectBound.
+description: Removes the object from the bind context, undoing a previous call to RegisterObjectBound.helpviewer_keywords: ["IBindCtx interface [COM]","RevokeObjectBound method","IBindCtx.RevokeObjectBound","IBindCtx::RevokeObjectBound","RevokeObjectBound","RevokeObjectBound method [COM]","RevokeObjectBound method [COM]","IBindCtx interface","_com_ibindctx_revokeobjectbound","com.ibindctx_revokeobjectbound","objidl/IBindCtx::RevokeObjectBound"]
 old-location: com\ibindctx_revokeobjectbound.htm
 tech.root: com
 ms.assetid: c49421a3-1733-4f54-8e30-d23641f13c38

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarWeekdayName
 title: VarWeekdayName function (oleauto.h)
-description: Returns a string containing the localized name of the weekday.
+description: Returns a string containing the localized name of the weekday.helpviewer_keywords: ["VarWeekdayName","VarWeekdayName function [Automation]","_oa96_VarWeekdayName","automat.varweekdayname","oleauto/VarWeekdayName"]
 old-location: automat\varweekdayname.htm
 tech.root: automat
 ms.assetid: 8bd00c31-9ebf-4342-a8c0-ef73f5b5c108

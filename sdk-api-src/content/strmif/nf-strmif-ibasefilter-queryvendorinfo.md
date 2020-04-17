@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IBaseFilter.QueryVendorInfo
 title: IBaseFilter::QueryVendorInfo (strmif.h)
-description: The QueryVendorInfo method retrieves a string containing vendor information.
+description: The QueryVendorInfo method retrieves a string containing vendor information.helpviewer_keywords: ["IBaseFilter interface [DirectShow]","QueryVendorInfo method","IBaseFilter.QueryVendorInfo","IBaseFilter::QueryVendorInfo","IBaseFilterQueryVendorInfo","QueryVendorInfo","QueryVendorInfo method [DirectShow]","QueryVendorInfo method [DirectShow]","IBaseFilter interface","dshow.ibasefilter_queryvendorinfo","strmif/IBaseFilter::QueryVendorInfo"]
 old-location: dshow\ibasefilter_queryvendorinfo.htm
 tech.root: DirectShow
 ms.assetid: 7524de26-360e-49c7-b636-7d05cf4d0ad2

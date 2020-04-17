@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidFilePlayback
 title: IMSVidFilePlayback (segment.h)
-description: The IMSVidFilePlayback interface enables the client to specify a local file for playback. It is implemented by the MSVidFilePlaybackDevice object.
+description: The IMSVidFilePlayback interface enables the client to specify a local file for playback. It is implemented by the MSVidFilePlaybackDevice object.helpviewer_keywords: ["IMSVidFilePlayback","IMSVidFilePlayback interface [Microsoft TV Technologies]","IMSVidFilePlayback interface [Microsoft TV Technologies]","described","IMSVidFilePlaybackInterface","mstv.imsvidfileplayback","segment/IMSVidFilePlayback"]
 old-location: mstv\imsvidfileplayback.htm
 tech.root: mstv
 ms.assetid: d6afaf69-5c1b-4f7f-a3cf-51268d6bc2b5

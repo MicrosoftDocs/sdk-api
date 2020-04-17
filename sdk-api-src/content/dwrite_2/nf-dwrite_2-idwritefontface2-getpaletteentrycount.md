@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFace2.GetPaletteEntryCount
 title: IDWriteFontFace2::GetPaletteEntryCount (dwrite_2.h)
-description: Get the number of entries in each color palette.
+description: Get the number of entries in each color palette.helpviewer_keywords: ["GetPaletteEntryCount","GetPaletteEntryCount method [Direct Write]","GetPaletteEntryCount method [Direct Write]","IDWriteFontFace2 interface","IDWriteFontFace2 interface [Direct Write]","GetPaletteEntryCount method","IDWriteFontFace2.GetPaletteEntryCount","IDWriteFontFace2::GetPaletteEntryCount","directwrite.idwritefontface2_getpaletteentrycount","dwrite_2/IDWriteFontFace2::GetPaletteEntryCount"]
 old-location: directwrite\idwritefontface2_getpaletteentrycount.htm
 tech.root: DirectWrite
 ms.assetid: 7DFB0D3F-18E8-44AA-A7DA-4B9D971D3C35

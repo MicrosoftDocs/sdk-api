@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBstrFromDec
 title: VarBstrFromDec function (oleauto.h)
-description: Converts a decimal value to a BSTR value.
+description: Converts a decimal value to a BSTR value.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_DATEVALUEONLY","VAR_TIMEVALUEONLY","VarBstrFromDec","VarBstrFromDec function [Automation]","_oa96_VarBstrFromDec","automat.varbstrfromdec","oleauto/VarBstrFromDec"]
 old-location: automat\varbstrfromdec.htm
 tech.root: automat
 ms.assetid: 8e4da8c0-b2e4-4611-8f7d-e415dfcc846c

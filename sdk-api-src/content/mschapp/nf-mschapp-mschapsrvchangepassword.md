@@ -1,7 +1,7 @@
 ---
 UID: NF:mschapp.MSChapSrvChangePassword
 title: MSChapSrvChangePassword function (mschapp.h)
-description: Changes the password of a user account.
+description: Changes the password of a user account.helpviewer_keywords: ["MSChapSrvChangePassword","MSChapSrvChangePassword function [MS-CHAP]","_mschap_mschapsrvchangepassword","mschap.mschapsrvchangepassword","mschapp/MSChapSrvChangePassword"]
 old-location: mschap\mschapsrvchangepassword.htm
 tech.root: MsChap
 ms.assetid: 6c154675-4c82-4305-8231-577f990eaeb1

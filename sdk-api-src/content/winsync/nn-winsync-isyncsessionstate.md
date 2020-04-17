@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.ISyncSessionState
 title: ISyncSessionState (winsync.h)
-description: Represents information about the current synchronization session.
+description: Represents information about the current synchronization session.helpviewer_keywords: ["ISyncSessionState","ISyncSessionState interface [Windows Sync]","ISyncSessionState interface [Windows Sync]","described","winsync.isyncsessionstate","winsync/ISyncSessionState"]
 old-location: winsync\isyncsessionstate.htm
 tech.root: winsync
 ms.assetid: 9b03d5af-b5f5-49fa-a10e-9f9f3c1dab0e

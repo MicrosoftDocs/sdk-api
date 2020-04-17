@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_ASYNC_CALLBACK
 title: WS_ASYNC_CALLBACK (webservices.h)
-description: The callback function parameter used with the asynchronous model.
+description: The callback function parameter used with the asynchronous model.helpviewer_keywords: ["WS_ASYNC_CALLBACK","WS_ASYNC_CALLBACK callback","WS_ASYNC_CALLBACK callback function [Web Services for Windows]","webservices/WS_ASYNC_CALLBACK","wsw.ws_async_callback"]
 old-location: wsw\ws_async_callback.htm
 tech.root: wsw
 ms.assetid: 1322652f-ed9f-435f-b4ed-fa9ea425c5ae

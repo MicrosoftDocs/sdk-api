@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Message
 title: IMbnSmsReadMsgTextCdma::get_Message (mbnapi.h)
-description: The contents of the message.
+description: The contents of the message.helpviewer_keywords: ["IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks]","Message property","IMbnSmsReadMsgTextCdma.Message","IMbnSmsReadMsgTextCdma.get_Message","IMbnSmsReadMsgTextCdma::Message","IMbnSmsReadMsgTextCdma::get_Message","Message property [Microsoft Broadband Networks]","Message property [Microsoft Broadband Networks]","IMbnSmsReadMsgTextCdma interface","get_Message","mbn.imbnsmsreadmsgtextcdma_message","mbnapi/IMbnSmsReadMsgTextCdma::Message","mbnapi/IMbnSmsReadMsgTextCdma::get_Message"]
 old-location: mbn\imbnsmsreadmsgtextcdma_message.htm
 tech.root: mbn
 ms.assetid: 4ee67021-5c28-4f29-83fe-43387a4df5cc

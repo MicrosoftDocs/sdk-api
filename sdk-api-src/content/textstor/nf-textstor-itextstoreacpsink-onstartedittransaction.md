@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnStartEditTransaction
 title: ITextStoreACPSink::OnStartEditTransaction (textstor.h)
-description: ITextStoreACPSink::OnStartEditTransaction method
+description: ITextStoreACPSink::OnStartEditTransaction methodhelpviewer_keywords: ["ITextStoreACPSink interface [Text Services Framework]","OnStartEditTransaction method","ITextStoreACPSink.OnStartEditTransaction","ITextStoreACPSink::OnStartEditTransaction","OnStartEditTransaction","OnStartEditTransaction method [Text Services Framework]","OnStartEditTransaction method [Text Services Framework]","ITextStoreACPSink interface","_tsf_itextstoreacpsink_onstartedittransaction_ref","textstor/ITextStoreACPSink::OnStartEditTransaction","tsf.itextstoreacpsink_onstartedittransaction"]
 old-location: tsf\itextstoreacpsink_onstartedittransaction.htm
 tech.root: TSF
 ms.assetid: 1d5452a1-b2f3-42d6-a32d-95965c2af8d3

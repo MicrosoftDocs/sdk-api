@@ -1,7 +1,7 @@
 ---
 UID: NN:infotech.IITDatabase
 title: IITDatabase (infotech.h)
-description: Use this interface for opening and closing the database object, and for instantiating objects stored in the database.
+description: Use this interface for opening and closing the database object, and for instantiating objects stored in the database.helpviewer_keywords: ["IITDatabase","IITDatabase interface [HTML Help Workshop]","IITDatabase interface [HTML Help Workshop]","described","htmlhelp.iitdatabase","infotech/IITDatabase","refIITDatabaseInterface"]
 old-location: htmlhelp\iitdatabase.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabaseinterface.htm

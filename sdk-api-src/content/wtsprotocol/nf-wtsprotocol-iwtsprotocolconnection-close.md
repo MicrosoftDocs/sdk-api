@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.Close
 title: IWTSProtocolConnection::Close (wtsprotocol.h)
-description: IWTSProtocolConnection::Close is no longer available. Instead, use IWRdsProtocolConnection::Close.
+description: IWTSProtocolConnection::Close is no longer available. Instead, use IWRdsProtocolConnection::Close.helpviewer_keywords: ["Close","Close method [Remote Desktop Services]","Close method [Remote Desktop Services]","IWTSProtocolConnection interface","IWTSProtocolConnection interface [Remote Desktop Services]","Close method","IWTSProtocolConnection.Close","IWTSProtocolConnection::Close","termserv.iwtsprotocolconnection_close","wtsprotocol/IWTSProtocolConnection::Close"]
 old-location: termserv\iwtsprotocolconnection_close.htm
 tech.root: TermServ
 ms.assetid: 746f5f06-7068-461b-8adf-b35d0c318942

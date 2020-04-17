@@ -1,7 +1,7 @@
 ---
 UID: NC:stm.PCREATE_STATIC_SERVICE
 title: PCREATE_STATIC_SERVICE (stm.h)
-description: The CreateStaticService function adds a static service to the table.
+description: The CreateStaticService function adds a static service to the table.helpviewer_keywords: ["CreateStaticService","CreateStaticService callback function [RAS]","PCREATE_STATIC_SERVICE","PCREATE_STATIC_SERVICE callback","_mpr_createstaticservice","rras.createstaticservice","stm/CreateStaticService"]
 old-location: rras\createstaticservice.htm
 tech.root: RRAS
 ms.assetid: 529beae6-ba39-417c-8fa6-7b97fc720352

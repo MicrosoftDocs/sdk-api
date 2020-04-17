@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.SpDeleteCredentialsFn
 title: SpDeleteCredentialsFn (ntsecpkg.h)
-description: Deletes credentials from a security package's list of primary or supplemental credentials.
+description: Deletes credentials from a security package's list of primary or supplemental credentials.helpviewer_keywords: ["SpDeleteCredentials","SpDeleteCredentials callback function [Security]","SpDeleteCredentialsFn","SpDeleteCredentialsFn callback","_ssp_spdeletecredentials","ntsecpkg/SpDeleteCredentials","security.spdeletecredentials"]
 old-location: security\spdeletecredentials.htm
 tech.root: SecAuthN
 ms.assetid: 14f41fc2-1e28-4ae5-9f2e-00f2500b7819

@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.CreateView
 title: ISimilarityTraitsMapping::CreateView (msrdc.h)
-description: Maps a view of the file mapping for a similarity traits table file.
+description: Maps a view of the file mapping for a similarity traits table file.helpviewer_keywords: ["CreateView","CreateView method [Remote Differential Compression]","CreateView method [Remote Differential Compression]","ISimilarityTraitsMapping interface","ISimilarityTraitsMapping interface [Remote Differential Compression]","CreateView method","ISimilarityTraitsMapping.CreateView","ISimilarityTraitsMapping::CreateView","fs.isimilaritytraitsmapping_createview","msrdc/ISimilarityTraitsMapping::CreateView","rdc.isimilaritytraitsmapping_createview"]
 old-location: rdc\isimilaritytraitsmapping_createview.htm
 tech.root: rdc
 ms.assetid: 222b3682-8ccc-4c52-858a-ad4ac8a65add

@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleSetContainedObject
 title: OleSetContainedObject function (ole2.h)
-description: Notifies an object that it is embedded in an OLE container, which ensures that reference counting is done correctly for containers that support links to embedded objects.
+description: Notifies an object that it is embedded in an OLE container, which ensures that reference counting is done correctly for containers that support links to embedded objects.helpviewer_keywords: ["OleSetContainedObject","OleSetContainedObject function [COM]","_ole_OleSetContainedObject","com.olesetcontainedobject","ole2/OleSetContainedObject"]
 old-location: com\olesetcontainedobject.htm
 tech.root: com
 ms.assetid: 154aa6f0-3c02-4139-8c8e-c2112b015fe0

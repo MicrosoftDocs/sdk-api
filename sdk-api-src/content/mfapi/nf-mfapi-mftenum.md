@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFTEnum
 title: MFTEnum function (mfapi.h)
-description: Enumerates Media Foundation transforms (MFTs) in the registry.
+description: Enumerates Media Foundation transforms (MFTs) in the registry.helpviewer_keywords: ["MFTEnum","MFTEnum function [Media Foundation]","a3bd2b3c-0b0b-4d64-99cc-6093c773f71c","mf.mftenum","mfapi/MFTEnum"]
 old-location: mf\mftenum.htm
 tech.root: medfound
 ms.assetid: a3bd2b3c-0b0b-4d64-99cc-6093c773f71c

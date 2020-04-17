@@ -1,7 +1,7 @@
 ---
 UID: NF:tokenbinding.TokenBindingGenerateID
 title: TokenBindingGenerateID function (tokenbinding.h)
-description: Constructs the token binding identifier by extracting the signature algorithm from the key type and copying the exported public key.
+description: Constructs the token binding identifier by extracting the signature algorithm from the key type and copying the exported public key.helpviewer_keywords: ["TokenBindingGenerateID","TokenBindingGenerateID function [Security]","security.tokenbindinggenerateid","tokenbinding/TokenBindingGenerateID"]
 old-location: security\tokenbindinggenerateid.htm
 tech.root: SecCNG
 ms.assetid: F3E30DF8-2A1D-445E-914B-62999428BB6F

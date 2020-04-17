@@ -1,7 +1,7 @@
 ---
 UID: NS:xpsprint.__MIDL___MIDL_itf_xpsprint_0000_0000_0002
 title: XPS_JOB_STATUS (xpsprint.h)
-description: Contains a snapshot of job status.
+description: Contains a snapshot of job status.helpviewer_keywords: ["XPS_JOB_STATUS","XPS_JOB_STATUS structure [Windows GDI]","gdi.xps_job_status","xpsprint/XPS_JOB_STATUS"]
 old-location: gdi\xps_job_status.htm
 tech.root: printdocs
 ms.assetid: c4e13960-4f26-460a-b47e-98b833fcdfd5

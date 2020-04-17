@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.DoesSupportMultiframe
 title: IWICBitmapCodecInfo::DoesSupportMultiframe (wincodec.h)
-description: Retrieves a value indicating whether the codec supports multi frame images.
+description: Retrieves a value indicating whether the codec supports multi frame images.helpviewer_keywords: ["DoesSupportMultiframe","DoesSupportMultiframe method [Windows Imaging Component]","DoesSupportMultiframe method [Windows Imaging Component]","IWICBitmapCodecInfo interface","IWICBitmapCodecInfo interface [Windows Imaging Component]","DoesSupportMultiframe method","IWICBitmapCodecInfo.DoesSupportMultiframe","IWICBitmapCodecInfo::DoesSupportMultiframe","_wic_codec_iwicbitmapcodecinfo_doessupportmultiframe","wic._wic_codec_iwicbitmapcodecinfo_doessupportmultiframe","wincodec/IWICBitmapCodecInfo::DoesSupportMultiframe"]
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportmultiframe.htm
 tech.root: wic
 ms.assetid: b20bceb4-71aa-4ef6-865a-0afb4850e316

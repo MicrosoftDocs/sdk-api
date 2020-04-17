@@ -1,7 +1,7 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.RegisterNotificationSink
 title: IWSDiscoveryPublisher::RegisterNotificationSink (wsddisco.h)
-description: Attaches a callback notification sink to the discovery publisher.
+description: Attaches a callback notification sink to the discovery publisher.helpviewer_keywords: ["IWSDiscoveryPublisher interface","RegisterNotificationSink method","IWSDiscoveryPublisher.RegisterNotificationSink","IWSDiscoveryPublisher::RegisterNotificationSink","RegisterNotificationSink","RegisterNotificationSink method","RegisterNotificationSink method","IWSDiscoveryPublisher interface","ncd.iwsdiscoverypublisher_registernotificationsink_method","wsddisco/IWSDiscoveryPublisher::RegisterNotificationSink"]
 old-location: ncd\iwsdiscoverypublisher_registernotificationsink_method.htm
 tech.root: WsdApi
 ms.assetid: 75a6c593-298b-45b4-bde5-2a383b7581cc

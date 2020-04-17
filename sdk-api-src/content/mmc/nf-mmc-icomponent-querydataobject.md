@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IComponent.QueryDataObject
 title: IComponent::QueryDataObject (mmc.h)
-description: The IComponent::QueryDataObject method returns a data object that can be used to retrieve context information for the specified cookie.
+description: The IComponent::QueryDataObject method returns a data object that can be used to retrieve context information for the specified cookie.helpviewer_keywords: ["CCT_RESULT = 0x8001","CCT_SCOPE = 0x8000","CCT_SNAPIN_MANAGER = 0x8002","CCT_UNINITIALIZED = 0xFFFF","IComponent interface [MMC]","QueryDataObject method","IComponent.QueryDataObject","IComponent::QueryDataObject","QueryDataObject","QueryDataObject method [MMC]","QueryDataObject method [MMC]","IComponent interface","_slate_icomponent_querydataobject","mmc.icomponent_querydataobject","mmc/IComponent::QueryDataObject"]
 old-location: mmc\icomponent_querydataobject.htm
 tech.root: mmc
 ms.assetid: 5bdbd321-4245-4c73-9071-1a9bc3853ba5

@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DPA_GetPtr
 title: DPA_GetPtr function (dpa_dsa.h)
-description: Gets an item from a dynamic pointer array (DPA).
+description: Gets an item from a dynamic pointer array (DPA).helpviewer_keywords: ["DPA_GetPtr","DPA_GetPtr function [Windows Controls]","_win32_DPA_GetPtr","_win32_DPA_GetPtr_cpp","controls.DPA_GetPtr","controls._win32_DPA_GetPtr","dpa_dsa/DPA_GetPtr"]
 old-location: controls\DPA_GetPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getptr.htm

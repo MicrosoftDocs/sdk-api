@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrSyncItems.Clone
 title: IEnumSyncMgrSyncItems::Clone (syncmgr.h)
-description: Not used. Clones an IEnumSyncMgrSyncItems object.
+description: Not used. Clones an IEnumSyncMgrSyncItems object.helpviewer_keywords: ["Clone","Clone method [Windows Shell]","Clone method [Windows Shell]","IEnumSyncMgrSyncItems interface","IEnumSyncMgrSyncItems interface [Windows Shell]","Clone method","IEnumSyncMgrSyncItems.Clone","IEnumSyncMgrSyncItems::Clone","_shell_IEnumSyncMgrSyncItems_Clone","shell.IEnumSyncMgrSyncItems_Clone","syncmgr/IEnumSyncMgrSyncItems::Clone"]
 old-location: shell\IEnumSyncMgrSyncItems_Clone.htm
 tech.root: shell
 ms.assetid: bf320918-9f63-494f-88af-a5fab91ef0e3

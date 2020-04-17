@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.SetThreadIdealProcessorEx
 title: SetThreadIdealProcessorEx function (processthreadsapi.h)
-description: Sets the ideal processor for the specified thread and optionally retrieves the previous ideal processor.
+description: Sets the ideal processor for the specified thread and optionally retrieves the previous ideal processor.helpviewer_keywords: ["SetThreadIdealProcessorEx","SetThreadIdealProcessorEx function","base.setthreadidealprocessorex","processthreadsapi/SetThreadIdealProcessorEx","winbase/SetThreadIdealProcessorEx"]
 old-location: base\setthreadidealprocessorex.htm
 tech.root: ProcThread
 ms.assetid: 6b599a99-41c5-45c7-8aeb-87d8f34e9e82

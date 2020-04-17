@@ -1,7 +1,7 @@
 ---
 UID: NE:windows.media.streaming.DeviceTypes
 title: DeviceTypes (windows.media.streaming.h)
-description: Describes the DLNA device types that are supported by the Media Streaming API.
+description: Describes the DLNA device types that are supported by the Media Streaming API.helpviewer_keywords: ["DeviceTypes","DeviceTypes enumeration [Media Streaming API]","DigitalMediaPlayer","DigitalMediaRenderer","DigitalMediaServer","Unknown","mediastreaming.devicetypes","windows/DeviceTypes","windows/DigitalMediaPlayer","windows/DigitalMediaRenderer","windows/DigitalMediaServer","windows/Unknown"]
 old-location: mediastreaming\devicetypes.htm
 tech.root: mediastreaming
 ms.assetid: ec6bbc1f-653a-414c-b458-1a5e1b101781

@@ -1,7 +1,7 @@
 ---
 UID: NF:audiomediatype.IAudioMediaType.IsEqual
 title: IAudioMediaType::IsEqual (audiomediatype.h)
-description: The IsEqual method compares two media types and determines whether they are identical.
+description: The IsEqual method compares two media types and determines whether they are identical.helpviewer_keywords: ["IAudioMediaType interface [Audio Devices]","IsEqual method","IAudioMediaType.IsEqual","IAudioMediaType::IsEqual","IsEqual","IsEqual method [Audio Devices]","IsEqual method [Audio Devices]","IAudioMediaType interface","audio.iaudiomediatype_isequal","audio_syseffects_r_0b3614f0-18af-462e-9ab4-3e625bec54ab.xml","audiomediatype/IAudioMediaType::IsEqual"]
 old-location: audio\iaudiomediatype_isequal.htm
 tech.root: audio
 ms.assetid: a8ab9ad3-251d-43ab-b099-793ffc22b45f

@@ -1,7 +1,7 @@
 ---
 UID: NF:ncrypt.NCryptGetProperty
 title: NCryptGetProperty function (ncrypt.h)
-description: Retrieves the value of a named property for a key storage object.
+description: Retrieves the value of a named property for a key storage object.helpviewer_keywords: ["DACL_SECURITY_INFORMATION","GROUP_SECURITY_INFORMATION","NCRYPT_PERSIST_ONLY_FLAG","NCRYPT_SILENT_FLAG","NCryptGetProperty","NCryptGetProperty function [Security]","OWNER_SECURITY_INFORMATION","SACL_SECURITY_INFORMATION","ncrypt/NCryptGetProperty","security.ncryptgetproperty_func"]
 old-location: security\ncryptgetproperty_func.htm
 tech.root: SecCNG
 ms.assetid: 7b857ce0-8525-489b-9987-ef40081a5577

@@ -1,7 +1,7 @@
 ---
 UID: NN:wabdefs.IDistList
 title: IDistList (wabdefs.h)
-description: Do not use. This interface is used to provide access to distribution lists in modifiable address book containers. The interface provides methods to create, copy, and delete distribution lists, in addition to performing name resolution.
+description: Do not use. This interface is used to provide access to distribution lists in modifiable address book containers. The interface provides methods to create, copy, and delete distribution lists, in addition to performing name resolution.helpviewer_keywords: ["IDistList","IDistList interface [Windows Address Book]","IDistList interface [Windows Address Book]","described","_wab_IDistList","wab._wab_IDistList","wabdefs/IDistList"]
 old-location: wab\_wab_IDistList.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\idistlist\idistlist.htm

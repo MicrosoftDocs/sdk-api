@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.UpdateSessionDisplaySettings
 title: IRemoteDesktopClient::UpdateSessionDisplaySettings (rdpappcontainerclient.h)
-description: Updates the width and height settings for the Remote Desktop Protocol (RDP) app container client control.
+description: Updates the width and height settings for the Remote Desktop Protocol (RDP) app container client control.helpviewer_keywords: ["IRemoteDesktopClient interface [Remote Desktop Services]","UpdateSessionDisplaySettings method","IRemoteDesktopClient.UpdateSessionDisplaySettings","IRemoteDesktopClient::UpdateSessionDisplaySettings","UpdateSessionDisplaySettings","UpdateSessionDisplaySettings method [Remote Desktop Services]","UpdateSessionDisplaySettings method [Remote Desktop Services]","IRemoteDesktopClient interface","rdpappcontainerclient/IRemoteDesktopClient::UpdateSessionDisplaySettings","termserv.iremotedesktopclient_updatesessiondisplaysettings"]
 old-location: termserv\iremotedesktopclient_updatesessiondisplaysettings.htm
 tech.root: TermServ
 ms.assetid: d8a7f2b7-925a-49b8-aa7b-c59736a13c67

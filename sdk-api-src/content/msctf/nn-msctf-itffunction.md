@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfFunction
 title: ITfFunction (msctf.h)
-description: The ITfFunction interface is the base interface for the individual function interfaces.
+description: The ITfFunction interface is the base interface for the individual function interfaces.helpviewer_keywords: ["ITfFunction","ITfFunction interface [Text Services Framework]","ITfFunction interface [Text Services Framework]","described","_tsf_itffunction_ref","msctf/ITfFunction","tsf.itffunction"]
 old-location: tsf\itffunction.htm
 tech.root: TSF
 ms.assetid: 140b1ed8-8876-4f06-8ed2-7b0dccdc0a69

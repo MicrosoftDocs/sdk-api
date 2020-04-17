@@ -1,7 +1,7 @@
 ---
 UID: NN:oleidl.IOleContainer
 title: IOleContainer (oleidl.h)
-description: Enumerates objects in a compound document or lock a container in the running state. Container and object applications both implement this interface.
+description: Enumerates objects in a compound document or lock a container in the running state. Container and object applications both implement this interface.helpviewer_keywords: ["IOleContainer","IOleContainer interface [COM]","IOleContainer interface [COM]","described","_ole_iolecontainer","com.iolecontainer","oleidl/IOleContainer"]
 old-location: com\iolecontainer.htm
 tech.root: com
 ms.assetid: 98549309-8ac8-4391-92ab-8a62269ff579

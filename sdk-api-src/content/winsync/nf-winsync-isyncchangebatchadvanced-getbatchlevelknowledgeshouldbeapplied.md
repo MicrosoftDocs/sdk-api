@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied
 title: ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied (winsync.h)
-description: Gets a value that indicates whether the learned knowledge for the batch must be saved after the batch is applied to the destination replica.
+description: Gets a value that indicates whether the learned knowledge for the batch must be saved after the batch is applied to the destination replica.helpviewer_keywords: ["GetBatchLevelKnowledgeShouldBeApplied","GetBatchLevelKnowledgeShouldBeApplied method [Windows Sync]","GetBatchLevelKnowledgeShouldBeApplied method [Windows Sync]","ISyncChangeBatchAdvanced interface","ISyncChangeBatchAdvanced interface [Windows Sync]","GetBatchLevelKnowledgeShouldBeApplied method","ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied","ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied","winsync.isyncchangebatchadvanced_getbatchlevelknowledgeshouldbeapplied","winsync/ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied"]
 old-location: winsync\isyncchangebatchadvanced_getbatchlevelknowledgeshouldbeapplied.htm
 tech.root: winsync
 ms.assetid: 911ac2dd-a8df-4f71-81da-032219664453

@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_Bindings
 title: SecPkgContext_Bindings (sspi.h)
-description: Specifies a structure that contains channel binding information for a security context.
+description: Specifies a structure that contains channel binding information for a security context.helpviewer_keywords: ["*PSecPkgContext_Bindings","PSecPkgContext_Bindings","PSecPkgContext_Bindings structure pointer [Security]","SecPkgContext_Bindings","SecPkgContext_Bindings structure [Security]","security.secpkgcontext_bindings","sspi/PSecPkgContext_Bindings","sspi/SecPkgContext_Bindings"]
 old-location: security\secpkgcontext_bindings.htm
 tech.root: SecAuthN
 ms.assetid: 6823cc31-acd3-4d67-92c6-65ff4d1c6aed

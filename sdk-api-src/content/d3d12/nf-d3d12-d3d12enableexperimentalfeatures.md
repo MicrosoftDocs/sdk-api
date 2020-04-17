@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.D3D12EnableExperimentalFeatures
 title: D3D12EnableExperimentalFeatures function (d3d12.h)
-description: Enables a list of experimental features.
+description: Enables a list of experimental features.helpviewer_keywords: ["D3D12EnableExperimentalFeatures","D3D12EnableExperimentalFeatures function","d3d12/D3D12EnableExperimentalFeatures","direct3d12.d3d12enableexperimentalfeatures"]
 old-location: direct3d12\d3d12enableexperimentalfeatures.htm
 tech.root: direct3d12
 ms.assetid: 290E147E-8545-4572-BB36-58481065C541

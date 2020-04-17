@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_GET_RETRIEVAL_POINTER_BASE
 title: FSCTL_GET_RETRIEVAL_POINTER_BASE
-description: Returns the sector offset to the first logical cluster number (LCN) of the file system relative to the start of the volume.
+description: Returns the sector offset to the first logical cluster number (LCN) of the file system relative to the start of the volume.helpviewer_keywords: ["FSCTL_GET_RETRIEVAL_POINTER_BASE","FSCTL_GET_RETRIEVAL_POINTER_BASE control","FSCTL_GET_RETRIEVAL_POINTER_BASE control code [Files]","fs.fsctl_get_retrieval_pointer_base","winioctl/FSCTL_GET_RETRIEVAL_POINTER_BASE"]
 old-location: fs\fsctl_get_retrieval_pointer_base.htm
 tech.root: FileIO
 ms.assetid: 17925fe8-ab5a-4bfb-8d9e-cd574c024107

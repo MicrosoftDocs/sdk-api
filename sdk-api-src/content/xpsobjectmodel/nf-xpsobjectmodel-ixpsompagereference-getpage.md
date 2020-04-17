@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetPage
 title: IXpsOMPageReference::GetPage (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMPage interface that contains the page.
+description: Gets a pointer to the IXpsOMPage interface that contains the page.helpviewer_keywords: ["GetPage","GetPage method [XPS Documents and Packaging]","GetPage method [XPS Documents and Packaging]","IXpsOMPageReference interface","IXpsOMPageReference interface [XPS Documents and Packaging]","GetPage method","IXpsOMPageReference.GetPage","IXpsOMPageReference::GetPage","xps.ixpsompagereference_getpage","xpsobjectmodel/IXpsOMPageReference::GetPage"]
 old-location: xps\ixpsompagereference_getpage.htm
 tech.root: printdocs
 ms.assetid: 0004217f-f379-4175-bbce-eea93d96f37f

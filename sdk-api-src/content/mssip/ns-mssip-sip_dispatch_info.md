@@ -1,7 +1,7 @@
 ---
 UID: NS:mssip.SIP_DISPATCH_INFO_
 title: SIP_DISPATCH_INFO (mssip.h)
-description: Contains a set of function pointers assigned by the CryptSIPLoad function that your application uses to perform subject interface package (SIP) operations.
+description: Contains a set of function pointers assigned by the CryptSIPLoad function that your application uses to perform subject interface package (SIP) operations.helpviewer_keywords: ["*LPSIP_DISPATCH_INFO","PSIP_DISPATCH_INFO","PSIP_DISPATCH_INFO structure pointer [Security]","SIP_DISPATCH_INFO","SIP_DISPATCH_INFO structure [Security]","mssip/PSIP_DISPATCH_INFO","mssip/SIP_DISPATCH_INFO","security.sip_dispatch_info"]
 old-location: security\sip_dispatch_info.htm
 tech.root: SecCrypto
 ms.assetid: d34b5081-0af8-4dcc-8133-a91d0603d419

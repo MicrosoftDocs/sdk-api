@@ -1,7 +1,7 @@
 ---
 UID: NN:ctffunc.ITfLMLattice
 title: ITfLMLattice (ctffunc.h)
-description: The ITfLMLattice interface is implemented by the speech text service to provide information about lattice element properties and is used by a client (application or other text service).
+description: The ITfLMLattice interface is implemented by the speech text service to provide information about lattice element properties and is used by a client (application or other text service).helpviewer_keywords: ["ITfLMLattice","ITfLMLattice interface [Text Services Framework]","ITfLMLattice interface [Text Services Framework]","described","_tsf_itflmlattice_ref","ctffunc/ITfLMLattice","tsf.itflmlattice"]
 old-location: tsf\itflmlattice.htm
 tech.root: TSF
 ms.assetid: 25ad6ef2-1d42-498a-852f-163a0efbc26a

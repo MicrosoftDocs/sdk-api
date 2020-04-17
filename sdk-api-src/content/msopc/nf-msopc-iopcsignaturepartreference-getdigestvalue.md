@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetDigestValue
 title: IOpcSignaturePartReference::GetDigestValue (msopc.h)
-description: Gets the digest value that is calculated for part content of the referenced part when the part is signed.
+description: Gets the digest value that is calculated for part content of the referenced part when the part is signed.helpviewer_keywords: ["GetDigestValue","GetDigestValue method [Open Packaging Conventions]","GetDigestValue method [Open Packaging Conventions]","IOpcSignaturePartReference interface","IOpcSignaturePartReference interface [Open Packaging Conventions]","GetDigestValue method","IOpcSignaturePartReference.GetDigestValue","IOpcSignaturePartReference::GetDigestValue","msopc/IOpcSignaturePartReference::GetDigestValue","opc.iopcsignaturepartreference_getdigestvalue"]
 old-location: opc\iopcsignaturepartreference_getdigestvalue.htm
 tech.root: OPC
 ms.assetid: 43ae8891-34fb-46cf-8b61-f7d1bd67a2d2

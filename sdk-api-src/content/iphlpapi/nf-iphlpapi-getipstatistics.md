@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetIpStatistics
 title: GetIpStatistics function (iphlpapi.h)
-description: The GetIpStatistics function retrieves the IP statistics for the current computer.
+description: The GetIpStatistics function retrieves the IP statistics for the current computer.helpviewer_keywords: ["GetIpStatistics","GetIpStatistics function [IP Helper]","_iphlp_getipstatistics","iphlp.getipstatistics","iphlpapi/GetIpStatistics"]
 old-location: iphlp\getipstatistics.htm
 tech.root: IpHlp
 ms.assetid: 15daaa34-2011-462a-9543-f8d7ccb9f6fd

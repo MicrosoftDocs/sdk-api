@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorACos
 title: XMVectorACos function (directxmath.h)
-description: Computes the arccosine of each component of an XMVECTOR.
+description: Computes the arccosine of each component of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMVectorACos","XMVectorACos","XMVectorACos method [DirectX Math Support APIs]","dxmath.xmvectoracos"]
 old-location: dxmath\xmvectoracos.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorACos(XMVECTOR)

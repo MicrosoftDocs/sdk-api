@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12LifetimeTracker.DestroyOwnedObject
 title: ID3D12LifetimeTracker::DestroyOwnedObject
-description: Destroys a lifetime-tracked object.
+description: Destroys a lifetime-tracked object.helpviewer_keywords: ["ID3D12LifetimeTracker::DestroyOwnedObject"]
 tech.root: direct3d12
 ms.date: 10/30/2019
 ms.keywords: ID3D12LifetimeTracker::DestroyOwnedObject

@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.ITaskNamedValueCollection
 title: ITaskNamedValueCollection (taskschd.h)
-description: Contains a collection of ITaskNamedValuePair interface name-value pairs.
+description: Contains a collection of ITaskNamedValuePair interface name-value pairs.helpviewer_keywords: ["ITaskNamedValueCollection","ITaskNamedValueCollection interface [Task Scheduler]","ITaskNamedValueCollection interface [Task Scheduler]","described","taskschd.itasknamedvaluecollection","taskschd/ITaskNamedValueCollection"]
 old-location: taskschd\itasknamedvaluecollection.htm
 tech.root: taskschd
 ms.assetid: 440dc70b-02de-4974-ad2a-462491d12775

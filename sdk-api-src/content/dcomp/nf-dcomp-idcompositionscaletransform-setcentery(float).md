@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetCenterY(float)
 title: IDCompositionScaleTransform::SetCenterY (dcomp.h)
-description: Changes the value of the CenterY property of a 2D scale transform.
+description: Changes the value of the CenterY property of a 2D scale transform.helpviewer_keywords: ["IDCompositionScaleTransform interface [DirectComposition]","SetCenterY method","IDCompositionScaleTransform.SetCenterY","IDCompositionScaleTransform::SetCenterY","IDCompositionScaleTransform::SetCenterY(float)","SetCenterY","SetCenterY method [DirectComposition]","SetCenterY method [DirectComposition]","IDCompositionScaleTransform interface","dcomp/IDCompositionScaleTransform::SetCenterY","directcomp.idcompositionscaletransform_setcentery_float"]
 old-location: directcomp\idcompositionscaletransform_setcentery_float.htm
 tech.root: directcomp
 ms.assetid: 32E8FCBD-75D8-4162-9388-57B0348BD46B

@@ -1,7 +1,7 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_COMMAND
 title: WSMAN_PLUGIN_COMMAND (wsman.h)
-description: Defines the command callback for a plug-in.
+description: Defines the command callback for a plug-in.helpviewer_keywords: ["WSMAN_PLUGIN_COMMAND","WSMAN_PLUGIN_COMMAND callback","WSMAN_PLUGIN_COMMAND callback function [Windows Remote Management]","WSManPluginCommand","winrm.wsman_plugin_command","wsman/WSMAN_PLUGIN_COMMAND"]
 old-location: winrm\wsman_plugin_command.htm
 tech.root: winrm
 ms.assetid: df4b4e7b-cf30-4eb0-b646-49b17c883a16

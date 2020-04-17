@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorIsNaN
 title: XMVectorIsNaN function (directxmath.h)
-description: Performs a per-component NaN test on a vector.
+description: Performs a per-component NaN test on a vector.helpviewer_keywords: ["Use DirectX..XMVectorIsNaN","XMVectorIsNaN","XMVectorIsNaN method [DirectX Math Support APIs]","dxmath.xmvectorisnan"]
 old-location: dxmath\xmvectorisnan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorIsNaN(XMVECTOR)

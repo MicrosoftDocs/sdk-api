@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DrawIcon
 title: DrawIcon function (winuser.h)
-description: Draws an icon or cursor into the specified device context.
+description: Draws an icon or cursor into the specified device context.helpviewer_keywords: ["DrawIcon","DrawIcon function [Menus and Other Resources]","_win32_DrawIcon","_win32_drawicon_cpp","menurc.drawicon","winui._win32_drawicon","winuser/DrawIcon"]
 old-location: menurc\drawicon.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\drawicon.htm

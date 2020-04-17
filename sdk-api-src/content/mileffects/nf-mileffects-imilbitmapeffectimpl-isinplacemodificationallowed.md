@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.IsInPlaceModificationAllowed
 title: IMILBitmapEffectImpl::IsInPlaceModificationAllowed (mileffects.h)
-description: Determines whether the effect allows in-place modifications.
+description: Determines whether the effect allows in-place modifications.helpviewer_keywords: ["IMILBitmapEffectImpl interface [WPF Bitmap Effects]","IsInPlaceModificationAllowed method","IMILBitmapEffectImpl.IsInPlaceModificationAllowed","IMILBitmapEffectImpl::IsInPlaceModificationAllowed","IsInPlaceModificationAllowed","IsInPlaceModificationAllowed method [WPF Bitmap Effects]","IsInPlaceModificationAllowed method [WPF Bitmap Effects]","IMILBitmapEffectImpl interface","_wibe_imilbitmapeffectimpl_isinplacemodificationallowed","mileffects/IMILBitmapEffectImpl::IsInPlaceModificationAllowed","wibe._wibe_imilbitmapeffectimpl_isinplacemodificationallowed"]
 old-location: wibe\_wibe_imilbitmapeffectimpl_isinplacemodificationallowed.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\isinplacemodificationallowed.htm

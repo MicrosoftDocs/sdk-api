@@ -1,7 +1,7 @@
 ---
 UID: NS:lmdfs._DFS_INFO_100
 title: DFS_INFO_100 (lmdfs.h)
-description: Contains a comment associated with a Distributed File System (DFS) root or link.
+description: Contains a comment associated with a Distributed File System (DFS) root or link.helpviewer_keywords: ["*LPDFS_INFO_100","*PDFS_INFO_100","DFS_INFO_100","DFS_INFO_100 structure [Distributed File System]","LPDFS_INFO_100","LPDFS_INFO_100 structure pointer [Distributed File System]","PDFS_INFO_100","PDFS_INFO_100 structure pointer [Distributed File System]","_win32_dfs_info_100_str","dfs.dfs_info_100_str","fs.dfs_info_100_str","lmdfs/DFS_INFO_100","lmdfs/LPDFS_INFO_100","lmdfs/PDFS_INFO_100","netmgmt.dfs_info_100_str"]
 old-location: dfs\dfs_info_100_str.htm
 tech.root: Dfs
 ms.assetid: 763ba0f0-01e9-47cf-bbe5-93e13aa83aa0

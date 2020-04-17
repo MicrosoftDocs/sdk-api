@@ -1,7 +1,7 @@
 ---
 UID: NS:mfapi._ROI_AREA
 title: ROI_AREA (mfapi.h)
-description: Defines a regions of interest.
+description: Defines a regions of interest.helpviewer_keywords: ["*PROI_AREA","PROI_AREA","PROI_AREA structure pointer [Media Foundation]","ROI_AREA","ROI_AREA structure [Media Foundation]","mf.roi_area","mfapi/PROI_AREA","mfapi/ROI_AREA"]
 old-location: mf\roi_area.htm
 tech.root: medfound
 ms.assetid: E808CAC4-97FE-4D03-B9FF-200D1DE12D47

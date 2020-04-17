@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.EmfType
 title: EmfType (gdiplusenums.h)
-description: The EmfType enumeration specifies the nature of the records that are placed in an Enhanced Metafile (EMF) file. This enumeration is used by several constructors in the Metafile class.
+description: The EmfType enumeration specifies the nature of the records that are placed in an Enhanced Metafile (EMF) file. This enumeration is used by several constructors in the Metafile class.helpviewer_keywords: ["EmfType","EmfType enumeration [GDI+]","EmfTypeEmfOnly","EmfTypeEmfPlusDual","EmfTypeEmfPlusOnly","_gdiplus_ENUM_EmfType","gdiplus._gdiplus_ENUM_EmfType","gdiplusenums/EmfType","gdiplusenums/EmfTypeEmfOnly","gdiplusenums/EmfTypeEmfPlusDual","gdiplusenums/EmfTypeEmfPlusOnly"]
 old-location: gdiplus\_gdiplus_ENUM_EmfType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\emftype.htm

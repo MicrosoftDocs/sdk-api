@@ -1,7 +1,7 @@
 ---
 UID: NN:ctffunc.ITfCandidateString
 title: ITfCandidateString (ctffunc.h)
-description: The ITfCandidateString interface is implemented by a text service and is used by the TSF manager or a client to obtain information about a candidate string object.
+description: The ITfCandidateString interface is implemented by a text service and is used by the TSF manager or a client to obtain information about a candidate string object.helpviewer_keywords: ["ITfCandidateString","ITfCandidateString interface [Text Services Framework]","ITfCandidateString interface [Text Services Framework]","described","_tsf_itfcandidatestring_ref","ctffunc/ITfCandidateString","tsf.itfcandidatestring"]
 old-location: tsf\itfcandidatestring.htm
 tech.root: TSF
 ms.assetid: 82c77b59-a50c-42ae-ba1d-25a1c196662d

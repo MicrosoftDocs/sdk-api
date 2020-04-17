@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMAnalyze
 title: IComCRMEvents::OnCRMAnalyze (comsvcs.h)
-description: Generated when a CRM clerk receives a record during the analysis phase of recovery.
+description: Generated when a CRM clerk receives a record during the analysis phase of recovery.helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMAnalyze method","IComCRMEvents.OnCRMAnalyze","IComCRMEvents::OnCRMAnalyze","OnCRMAnalyze","OnCRMAnalyze method [COM+]","OnCRMAnalyze method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMAnalyze","comsvcs/IComCRMEvents::OnCRMAnalyze","cos.icomcrmevents_oncrmanalyze"]
 old-location: cos\icomcrmevents_oncrmanalyze.htm
 tech.root: cossdk
 ms.assetid: 08bdc192-f1f8-4d0d-a432-cf6316d8033a

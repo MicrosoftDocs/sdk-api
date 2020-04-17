@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecSaContextExpire0
 title: IPsecSaContextExpire0 function (fwpmu.h)
-description: Indicates that an IPsec security association (SA) context should be expired.
+description: Indicates that an IPsec security association (SA) context should be expired.helpviewer_keywords: ["IPsecSaContextExpire0","IPsecSaContextExpire0 function [Filtering]","fwp.ipsecsacontextexpire0","fwpmu/IPsecSaContextExpire0"]
 old-location: fwp\ipsecsacontextexpire0.htm
 tech.root: fwp
 ms.assetid: 7e249e61-ba40-4dd9-b675-c3c86e8dd1bf

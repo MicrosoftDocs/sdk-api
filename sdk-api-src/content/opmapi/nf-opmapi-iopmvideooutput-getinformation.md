@@ -1,7 +1,7 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.GetInformation
 title: IOPMVideoOutput::GetInformation (opmapi.h)
-description: Sends an Output Protection Manager (OPM) status request to the display driver.
+description: Sends an Output Protection Manager (OPM) status request to the display driver.helpviewer_keywords: ["GetInformation","GetInformation method [Media Foundation]","GetInformation method [Media Foundation]","IOPMVideoOutput interface","IOPMVideoOutput interface [Media Foundation]","GetInformation method","IOPMVideoOutput.GetInformation","IOPMVideoOutput::GetInformation","mf.iopmvideooutput_iopmvideooutput__getinformation","opmapi/IOPMVideoOutput::GetInformation"]
 old-location: mf\iopmvideooutput_iopmvideooutput__getinformation.htm
 tech.root: medfound
 ms.assetid: 47d724eb-07e9-4659-886a-4b492fbb2415

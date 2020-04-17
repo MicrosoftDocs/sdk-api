@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnIncomingArchiveConfigChange
 title: _IFaxServerNotify2::OnIncomingArchiveConfigChange (faxcomex.h)
-description: The fax service calls the IFaxServerNotify2::OnIncomingArchiveConfigChange method when there is a configuration change related to the incoming fax archive.
+description: The fax service calls the IFaxServerNotify2::OnIncomingArchiveConfigChange method when there is a configuration change related to the incoming fax archive.helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnIncomingArchiveConfigChange method","IFaxServerNotify2.OnIncomingArchiveConfigChange","IFaxServerNotify2::OnIncomingArchiveConfigChange","OnIncomingArchiveConfigChange","OnIncomingArchiveConfigChange method [Fax Service]","OnIncomingArchiveConfigChange method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnIncomingArchiveConfigChange","_IFaxServerNotify2::OnIncomingArchiveConfigChange","_mfax_ifaxservernotify2_onincomingarchiveconfigchange","fax._mfax_ifaxservernotify2_onincomingarchiveconfigchange","faxcomex/IFaxServerNotify2::OnIncomingArchiveConfigChange"]
 old-location: fax\_mfax_ifaxservernotify2_onincomingarchiveconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onincomingarchiveconfigchange.htm

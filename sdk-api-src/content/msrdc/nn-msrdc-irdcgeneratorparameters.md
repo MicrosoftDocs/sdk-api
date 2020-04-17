@@ -1,7 +1,7 @@
 ---
 UID: NN:msrdc.IRdcGeneratorParameters
 title: IRdcGeneratorParameters (msrdc.h)
-description: Is the generic interface for all types of generator parameters. All generator parameter objects must support this interface.
+description: Is the generic interface for all types of generator parameters. All generator parameter objects must support this interface.helpviewer_keywords: ["IRdcGeneratorParameters","IRdcGeneratorParameters interface [Remote Differential Compression]","IRdcGeneratorParameters interface [Remote Differential Compression]","described","fs.irdcgeneratorparameters","msrdc/IRdcGeneratorParameters","rdc.irdcgeneratorparameters"]
 old-location: rdc\irdcgeneratorparameters.htm
 tech.root: rdc
 ms.assetid: 1b2db5c5-79eb-490a-ae03-36b0e926725d

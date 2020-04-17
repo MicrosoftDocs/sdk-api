@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.OnVirtualMachineStatusChanged
 title: ITsSbProvisioningPluginNotifySink::OnVirtualMachineStatusChanged (sbtsv.h)
-description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of a virtual machine is changed.
+description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of a virtual machine is changed.helpviewer_keywords: ["ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services]","OnVirtualMachineStatusChanged method","ITsSbProvisioningPluginNotifySink.OnVirtualMachineStatusChanged","ITsSbProvisioningPluginNotifySink::OnVirtualMachineStatusChanged","OnVirtualMachineStatusChanged","OnVirtualMachineStatusChanged method [Remote Desktop Services]","OnVirtualMachineStatusChanged method [Remote Desktop Services]","ITsSbProvisioningPluginNotifySink interface","sbtsv/ITsSbProvisioningPluginNotifySink::OnVirtualMachineStatusChanged","termserv.itssbprovisioningpluginnotifysink_onvirtualmachinestatuschanged"]
 old-location: termserv\itssbprovisioningpluginnotifysink_onvirtualmachinestatuschanged.htm
 tech.root: TermServ
 ms.assetid: 5a256dec-fa40-48c2-b7e3-e89ec9e75f0e

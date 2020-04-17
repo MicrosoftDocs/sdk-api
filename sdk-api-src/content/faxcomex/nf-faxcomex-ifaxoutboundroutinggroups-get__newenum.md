@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.get__NewEnum
 title: IFaxOutboundRoutingGroups::get__NewEnum (faxcomex.h)
-description: The IFaxOutboundRoutingGroups::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the FaxOutboundRoutingGroups collection.
+description: The IFaxOutboundRoutingGroups::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the FaxOutboundRoutingGroups collection.helpviewer_keywords: ["IFaxOutboundRoutingGroups interface [Fax Service]","get__NewEnum method","IFaxOutboundRoutingGroups.get__NewEnum","IFaxOutboundRoutingGroups::get__NewEnum","_mfax_ifaxoutboundroutinggroups_get__newenum","fax._mfax_ifaxoutboundroutinggroups_get__newenum","faxcomex/IFaxOutboundRoutingGroups::get__NewEnum","get__NewEnum","get__NewEnum method [Fax Service]","get__NewEnum method [Fax Service]","IFaxOutboundRoutingGroups interface"]
 old-location: fax\_mfax_ifaxoutboundroutinggroups_get__newenum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0i7h.htm

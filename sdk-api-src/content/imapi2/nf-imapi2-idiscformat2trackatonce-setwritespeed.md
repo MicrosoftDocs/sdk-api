@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.SetWriteSpeed
 title: IDiscFormat2TrackAtOnce::SetWriteSpeed (imapi2.h)
-description: Sets the write speed of the disc recorder.
+description: Sets the write speed of the disc recorder.helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","SetWriteSpeed method","IDiscFormat2TrackAtOnce.SetWriteSpeed","IDiscFormat2TrackAtOnce::SetWriteSpeed","SetWriteSpeed","SetWriteSpeed method [IMAPI]","SetWriteSpeed method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_setwritespeed","imapi2/IDiscFormat2TrackAtOnce::SetWriteSpeed"]
 old-location: imapi\idiscformat2trackatonce_setwritespeed.htm
 tech.root: imapi
 ms.assetid: 29c4487a-4247-45cf-af95-dc85fafb05c5

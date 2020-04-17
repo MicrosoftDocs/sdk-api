@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.get_FsiNamedStreams
 title: IFsiFileItem2::get_FsiNamedStreams (imapi2fs.h)
-description: Retrieves a collection of named streams associated with a file in the file system image.
+description: Retrieves a collection of named streams associated with a file in the file system image.helpviewer_keywords: ["IFsiFileItem2 interface [IMAPI]","get_FsiNamedStreams method","IFsiFileItem2.get_FsiNamedStreams","IFsiFileItem2::get_FsiNamedStreams","get_FsiNamedStreams","get_FsiNamedStreams method [IMAPI]","get_FsiNamedStreams method [IMAPI]","IFsiFileItem2 interface","imapi.ifsifileitem2_get_fsinamedstreams","imapi2fs/IFsiFileItem2::get_FsiNamedStreams"]
 old-location: imapi\ifsifileitem2_get_fsinamedstreams.htm
 tech.root: imapi
 ms.assetid: 011c6241-4989-41ca-9876-d6810797a382

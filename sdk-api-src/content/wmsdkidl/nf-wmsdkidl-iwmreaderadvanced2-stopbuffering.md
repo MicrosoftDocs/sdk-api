@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.StopBuffering
 title: IWMReaderAdvanced2::StopBuffering (wmsdkidl.h)
-description: The StopBuffering method requests that the reader send the WMT_BUFFERING_STOP message as soon as possible.
+description: The StopBuffering method requests that the reader send the WMT_BUFFERING_STOP message as soon as possible.helpviewer_keywords: ["IWMReaderAdvanced2 interface [windows Media Format]","StopBuffering method","IWMReaderAdvanced2.StopBuffering","IWMReaderAdvanced2::StopBuffering","IWMReaderAdvanced2StopBuffering","StopBuffering","StopBuffering method [windows Media Format]","StopBuffering method [windows Media Format]","IWMReaderAdvanced2 interface","wmformat.iwmreaderadvanced2_stopbuffering","wmsdkidl/IWMReaderAdvanced2::StopBuffering"]
 old-location: wmformat\iwmreaderadvanced2_stopbuffering.htm
 tech.root: wmformat
 ms.assetid: 3c380a68-d86c-421a-8102-019848893c35

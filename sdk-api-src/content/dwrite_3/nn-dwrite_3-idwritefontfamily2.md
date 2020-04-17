@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteFontFamily2
 title: IDWriteFontFamily2
-description: Represents a family of related fonts. **IDWriteFontFamily2** adds new facilities, including retrieving fonts by font axis values.
+description: Represents a family of related fonts. **IDWriteFontFamily2** adds new facilities, including retrieving fonts by font axis values.helpviewer_keywords: ["IDWriteFontFamily2","IDWriteFontFamily2 interface [Direct Write]","IDWriteFontFamily2 interface [Direct Write]","described","directwrite.idwritefontfamily2","dwrite_3/IDWriteFontFamily2"]
 tech.root: DirectWrite
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontFamily2, IDWriteFontFamily2 interface [Direct Write], IDWriteFontFamily2 interface [Direct Write],described, directwrite.idwritefontfamily2, dwrite_3/IDWriteFontFamily2

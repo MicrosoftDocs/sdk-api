@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IUnknown_SetSite
 title: IUnknown_SetSite function (shlwapi.h)
-description: Sets the specified object's site by calling its IObjectWithSite::SetSite method.
+description: Sets the specified object's site by calling its IObjectWithSite::SetSite method.helpviewer_keywords: ["IUnknown_SetSite","IUnknown_SetSite function [Windows Shell]","_win32_IUnknown_SetSite","shell.IUnknown_SetSite","shlwapi/IUnknown_SetSite"]
 old-location: shell\IUnknown_SetSite.htm
 tech.root: shell
 ms.assetid: 66175435-f85b-4e26-b148-f4edb74cb41d

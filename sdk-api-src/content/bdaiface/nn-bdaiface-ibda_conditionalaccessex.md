@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_ConditionalAccessEx
 title: IBDA_ConditionalAccessEx (bdaiface.h)
-description: Provides access to a device's Conditional Access Service (CAS), which manages access to protected content.
+description: Provides access to a device's Conditional Access Service (CAS), which manages access to protected content.helpviewer_keywords: ["IBDA_ConditionalAccessEx","IBDA_ConditionalAccessEx interface [Microsoft TV Technologies]","IBDA_ConditionalAccessEx interface [Microsoft TV Technologies]","described","bdaiface/IBDA_ConditionalAccessEx","mstv.ibda_conditionalaccessex"]
 old-location: mstv\ibda_conditionalaccessex.htm
 tech.root: mstv
 ms.assetid: 9db9b6b1-fc4f-48f0-940e-d79a321ef094

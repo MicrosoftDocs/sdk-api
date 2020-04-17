@@ -1,7 +1,7 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest3Callback.OnClientCertificateRequested
 title: IXMLHTTPRequest3Callback::OnClientCertificateRequested (msxml6.h)
-description: Occurs when a client receives a request for a client certificate during SSL negotiation with the server.
+description: Occurs when a client receives a request for a client certificate during SSL negotiation with the server.helpviewer_keywords: ["IXMLHTTPRequest3Callback interface [XMLHttpRequest2]","OnClientCertificateRequested method","IXMLHTTPRequest3Callback.OnClientCertificateRequested","IXMLHTTPRequest3Callback::OnClientCertificateRequested","OnClientCertificateRequested","OnClientCertificateRequested method [XMLHttpRequest2]","OnClientCertificateRequested method [XMLHttpRequest2]","IXMLHTTPRequest3Callback interface","ixhr2.ixmlhttprequest3callback_onclientcertificaterequested","msxml6/IXMLHTTPRequest3Callback::OnClientCertificateRequested"]
 old-location: ixhr2\ixmlhttprequest3callback_onclientcertificaterequested.htm
 tech.root: ixhr2
 ms.assetid: 9c64fbb5-b755-4f1b-90f3-3cc414b3f5a4

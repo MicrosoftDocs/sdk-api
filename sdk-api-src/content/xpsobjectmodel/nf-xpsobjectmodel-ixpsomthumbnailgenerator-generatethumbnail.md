@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMThumbnailGenerator.GenerateThumbnail
 title: IXpsOMThumbnailGenerator::GenerateThumbnail (xpsobjectmodel.h)
-description: Generates a thumbnail image of a page.
+description: Generates a thumbnail image of a page.helpviewer_keywords: ["GenerateThumbnail","GenerateThumbnail method [XPS Documents and Packaging]","GenerateThumbnail method [XPS Documents and Packaging]","IXpsOMThumbnailGenerator interface","IXpsOMThumbnailGenerator interface [XPS Documents and Packaging]","GenerateThumbnail method","IXpsOMThumbnailGenerator.GenerateThumbnail","IXpsOMThumbnailGenerator::GenerateThumbnail","xps.ixpsomthumbnailgenerator_generatethumbnail","xpsobjectmodel/IXpsOMThumbnailGenerator::GenerateThumbnail"]
 old-location: xps\ixpsomthumbnailgenerator_generatethumbnail.htm
 tech.root: printdocs
 ms.assetid: 8a2431f0-50e5-43a9-8940-62d9babad297

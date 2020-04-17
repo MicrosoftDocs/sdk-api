@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiRestartDevices
 title: SetupDiRestartDevices function (setupapi.h)
-description: The SetupDiRestartDevices function restarts a specified device or, if necessary, restarts all devices that are operated by the same function and filter drivers that operate the specified device.
+description: The SetupDiRestartDevices function restarts a specified device or, if necessary, restarts all devices that are operated by the same function and filter drivers that operate the specified device.helpviewer_keywords: ["SetupDiRestartDevices","SetupDiRestartDevices function [Device and Driver Installation]","devinst.setupdirestartdevices","di-rtns_9e27f3b7-c33c-44f1-b804-521d7403ac4f.xml","setupapi/SetupDiRestartDevices"]
 old-location: devinst\setupdirestartdevices.htm
 tech.root: devinst
 ms.assetid: 38bb2e40-e522-4155-9d2c-f6aaeea70839

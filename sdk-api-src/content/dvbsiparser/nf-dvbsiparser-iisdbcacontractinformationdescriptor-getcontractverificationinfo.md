@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetContractVerificationInfo
 title: IIsdbCAContractInformationDescriptor::GetContractVerificationInfo (dvbsiparser.h)
-description: Gets data from the contract_verification_info field in an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field is used to determine allowable uses of the conditional access service.
+description: Gets data from the contract_verification_info field in an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field is used to determine allowable uses of the conditional access service.helpviewer_keywords: ["GetContractVerificationInfo","GetContractVerificationInfo method [Microsoft TV Technologies]","GetContractVerificationInfo method [Microsoft TV Technologies]","IIsdbCAContractInformationDescriptor interface","IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies]","GetContractVerificationInfo method","IIsdbCAContractInformationDescriptor.GetContractVerificationInfo","IIsdbCAContractInformationDescriptor::GetContractVerificationInfo","dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfo","mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfo"]
 old-location: mstv\iisdbcacontractinformationdescriptor_getcontractverificationinfo.htm
 tech.root: mstv
 ms.assetid: bfec246a-df34-46c3-9529-dc1fa75582da

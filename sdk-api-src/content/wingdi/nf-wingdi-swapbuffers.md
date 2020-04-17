@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.SwapBuffers
 title: SwapBuffers function (wingdi.h)
-description: The SwapBuffers function exchanges the front and back buffers if the current pixel format for the window referenced by the specified device context includes a back buffer.
+description: The SwapBuffers function exchanges the front and back buffers if the current pixel format for the window referenced by the specified device context includes a back buffer.helpviewer_keywords: ["SwapBuffers","SwapBuffers function [OpenGL]","_ogl_SwapBuffers","opengl.swapbuffers","wingdi/SwapBuffers"]
 old-location: opengl\swapbuffers.htm
 tech.root: OpenGL
 ms.assetid: 2c9728e4-c5be-4b14-a6f7-2899c792ec3d

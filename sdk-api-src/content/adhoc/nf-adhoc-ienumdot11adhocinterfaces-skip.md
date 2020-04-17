@@ -1,7 +1,7 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocInterfaces.Skip
 title: IEnumDot11AdHocInterfaces::Skip (adhoc.h)
-description: Skips over the next specified number of elements in the enumeration sequence.
+description: Skips over the next specified number of elements in the enumeration sequence.helpviewer_keywords: ["IEnumDot11AdHocInterfaces interface [NativeWIFI]","Skip method","IEnumDot11AdHocInterfaces.Skip","IEnumDot11AdHocInterfaces::Skip","Skip","Skip method [NativeWIFI]","Skip method [NativeWIFI]","IEnumDot11AdHocInterfaces interface","adhoc/IEnumDot11AdHocInterfaces::Skip","nwifi.ienumdot11adhocinterfaces_skip"]
 old-location: nwifi\ienumdot11adhocinterfaces_skip.htm
 tech.root: NativeWiFi
 ms.assetid: e5c61005-3de0-420e-a1ff-2c5f08bcc67f

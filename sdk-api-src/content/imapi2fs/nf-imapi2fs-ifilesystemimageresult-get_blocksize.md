@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_BlockSize
 title: IFileSystemImageResult::get_BlockSize (imapi2fs.h)
-description: Retrieves the size, in bytes, of a block of data.
+description: Retrieves the size, in bytes, of a block of data.helpviewer_keywords: ["IFileSystemImageResult interface [IMAPI]","get_BlockSize method","IFileSystemImageResult.get_BlockSize","IFileSystemImageResult::get_BlockSize","get_BlockSize","get_BlockSize method [IMAPI]","get_BlockSize method [IMAPI]","IFileSystemImageResult interface","imapi.ifilesystemimageresult_get_blocksize","imapi2fs/IFileSystemImageResult::get_BlockSize"]
 old-location: imapi\ifilesystemimageresult_get_blocksize.htm
 tech.root: imapi
 ms.assetid: fe6d14d7-f3ae-4634-b8b4-1793f8007826

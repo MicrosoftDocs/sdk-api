@@ -1,7 +1,7 @@
 ---
 UID: NS:winddi._GLYPHDEF
 title: GLYPHDEF (winddi.h)
-description: The GLYPHDEF union identifies individual glyphs and provides either a pointer to a GLYPHBITS structure or a pointer to a PATHOBJ structure.
+description: The GLYPHDEF union identifies individual glyphs and provides either a pointer to a GLYPHBITS structure or a pointer to a PATHOBJ structure.helpviewer_keywords: ["GLYPHDEF","GLYPHDEF union [Display Devices]","display.glyphdef","grstrcts_d3283f02-3635-482d-a65a-b92f0a91aa54.xml","winddi/GLYPHDEF"]
 old-location: display\glyphdef.htm
 tech.root: display
 ms.assetid: d1a7a02c-acaf-46b5-9ffe-fddbb01408a5

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetExtendedOption
 title: SymGetExtendedOption function (dbghelp.h)
-description: Gets whether the specified extended symbol option on or off.
+description: Gets whether the specified extended symbol option on or off.helpviewer_keywords: ["SYMOPT_EX_DISABLEACCESSTIMEUPDATE","SymGetExtendedOption","SymGetExtendedOption function","base.symgetextendedoption","dbghelp/SymGetExtendedOption"]
 old-location: base\symgetextendedoption.htm
 tech.root: Debug
 ms.assetid: 3D6D5E31-ECCB-48B2-A46B-0BB2D7A2DEC0

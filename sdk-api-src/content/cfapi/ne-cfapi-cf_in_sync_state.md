@@ -1,7 +1,7 @@
 ---
 UID: NE:cfapi.CF_IN_SYNC_STATE
 title: CF_IN_SYNC_STATE (cfapi.h)
-description: Specifies the in-sync state for placeholder files and folders.
+description: Specifies the in-sync state for placeholder files and folders.helpviewer_keywords: ["CF_IN_SYNC_STATE","CF_IN_SYNC_STATE enumeration","CF_IN_SYNC_STATE_IN_SYNC","CF_IN_SYNC_STATE_NOT_IN_SYNC","cfapi/CF_IN_SYNC_STATE","cfapi/CF_IN_SYNC_STATE_IN_SYNC","cfapi/CF_IN_SYNC_STATE_NOT_IN_SYNC","cloudApi.cf_in_sync_state"]
 old-location: cloudapi\cf_in_sync_state.htm
 tech.root: cfApi
 ms.assetid: 05F99E47-00EE-422C-BDDF-CCCDDD4DADED

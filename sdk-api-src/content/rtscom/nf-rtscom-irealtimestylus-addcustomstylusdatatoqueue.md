@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.AddCustomStylusDataToQueue
 title: IRealTimeStylus::AddCustomStylusDataToQueue (rtscom.h)
-description: Adds custom data to the specified queue of the RealTimeStylus Class object.
+description: Adds custom data to the specified queue of the RealTimeStylus Class object.helpviewer_keywords: ["9d216853-9103-4027-a724-f35d84553a9b","AddCustomStylusDataToQueue","AddCustomStylusDataToQueue method [Tablet PC]","AddCustomStylusDataToQueue method [Tablet PC]","IRealTimeStylus interface","IRealTimeStylus interface [Tablet PC]","AddCustomStylusDataToQueue method","IRealTimeStylus.AddCustomStylusDataToQueue","IRealTimeStylus::AddCustomStylusDataToQueue","rtscom/IRealTimeStylus::AddCustomStylusDataToQueue","tablet.irealtimestylus_addcustomstylusdatatoqueue"]
 old-location: tablet\irealtimestylus_addcustomstylusdatatoqueue.htm
 tech.root: tablet
 ms.assetid: 9d216853-9103-4027-a724-f35d84553a9b

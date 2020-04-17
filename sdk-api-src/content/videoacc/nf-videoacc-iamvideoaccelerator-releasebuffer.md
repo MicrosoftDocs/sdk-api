@@ -1,7 +1,7 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.ReleaseBuffer
 title: IAMVideoAccelerator::ReleaseBuffer (videoacc.h)
-description: The ReleaseBuffer method releases a buffer that was locked by a previous call to IAMVideoAccelerator::GetBuffer.
+description: The ReleaseBuffer method releases a buffer that was locked by a previous call to IAMVideoAccelerator::GetBuffer.helpviewer_keywords: ["IAMVideoAccelerator interface [DirectShow]","ReleaseBuffer method","IAMVideoAccelerator.ReleaseBuffer","IAMVideoAccelerator::ReleaseBuffer","IAMVideoAcceleratorReleaseBuffer","ReleaseBuffer","ReleaseBuffer method [DirectShow]","ReleaseBuffer method [DirectShow]","IAMVideoAccelerator interface","dshow.iamvideoaccelerator_releasebuffer","videoacc/IAMVideoAccelerator::ReleaseBuffer"]
 old-location: dshow\iamvideoaccelerator_releasebuffer.htm
 tech.root: DirectShow
 ms.assetid: 2170cf7e-85c8-4658-84fd-96ebc0d2704f

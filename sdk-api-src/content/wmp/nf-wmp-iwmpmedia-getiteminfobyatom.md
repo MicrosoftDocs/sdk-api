@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPMedia.getItemInfoByAtom
 title: IWMPMedia::getItemInfoByAtom (wmp.h)
-description: The getItemInfoByAtom method retrieves the value of the attribute with the specified index number.
+description: The getItemInfoByAtom method retrieves the value of the attribute with the specified index number.helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","getItemInfoByAtom method","IWMPMedia.getItemInfoByAtom","IWMPMedia2 interface [Windows Media Player]","getItemInfoByAtom method","IWMPMedia2::getItemInfoByAtom","IWMPMedia3 interface [Windows Media Player]","getItemInfoByAtom method","IWMPMedia3::getItemInfoByAtom","IWMPMedia::getItemInfoByAtom","IWMPMediagetItemInfoByAtom","getItemInfoByAtom","getItemInfoByAtom method [Windows Media Player]","getItemInfoByAtom method [Windows Media Player]","IWMPMedia interface","getItemInfoByAtom method [Windows Media Player]","IWMPMedia2 interface","getItemInfoByAtom method [Windows Media Player]","IWMPMedia3 interface","wmp.iwmpmedia_getiteminfobyatom","wmp/IWMPMedia2::getItemInfoByAtom","wmp/IWMPMedia3::getItemInfoByAtom","wmp/IWMPMedia::getItemInfoByAtom"]
 old-location: wmp\iwmpmedia_getiteminfobyatom.htm
 tech.root: WMP
 ms.assetid: c2e803df-84f2-4c23-9872-a5435977d189

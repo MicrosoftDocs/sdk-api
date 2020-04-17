@@ -1,7 +1,7 @@
 ---
 UID: NC:stm.PENUMERATE_GET_NEXT_SERVICE
 title: PENUMERATE_GET_NEXT_SERVICE (stm.h)
-description: The EnumerateGetNextService function returns the next service entry in an enumeration started by CreateServiceEnumerationHandle.
+description: The EnumerateGetNextService function returns the next service entry in an enumeration started by CreateServiceEnumerationHandle.helpviewer_keywords: ["EnumerateGetNextService","EnumerateGetNextService callback function [RAS]","PENUMERATE_GET_NEXT_SERVICE","PENUMERATE_GET_NEXT_SERVICE callback","_mpr_enumerategetnextservice","rras.enumerategetnextservice","stm/EnumerateGetNextService"]
 old-location: rras\enumerategetnextservice.htm
 tech.root: RRAS
 ms.assetid: 45d0ccaa-97d5-4a14-9983-dc0ca268ed4b

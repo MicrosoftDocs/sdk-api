@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetEnvironment
 title: ISpatialAudioObjectForHrtf::SetEnvironment (spatialaudiohrtf.h)
-description: Sets the type of acoustic environment that is simulated when audio is processed for the ISpatialAudioObjectForHrtf.
+description: Sets the type of acoustic environment that is simulated when audio is processed for the ISpatialAudioObjectForHrtf.helpviewer_keywords: ["ISpatialAudioObjectForHrtf interface [Core Audio]","SetEnvironment method","ISpatialAudioObjectForHrtf.SetEnvironment","ISpatialAudioObjectForHrtf::SetEnvironment","SetEnvironment","SetEnvironment method [Core Audio]","SetEnvironment method [Core Audio]","ISpatialAudioObjectForHrtf interface","coreaudio.ispatialaudioobjectforhrtf_setenvironment","spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetEnvironment"]
 old-location: coreaudio\ispatialaudioobjectforhrtf_setenvironment.htm
 tech.root: CoreAudio
 ms.assetid: 6D96F854-0FAE-4B8B-9033-E2AEB471B38B

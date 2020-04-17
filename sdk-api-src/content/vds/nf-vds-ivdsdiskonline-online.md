@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsDiskOnline.Online
 title: IVdsDiskOnline::Online (vds.h)
-description: Brings the disk online.
+description: Brings the disk online.helpviewer_keywords: ["IVdsDiskOnline interface","Online method","IVdsDiskOnline.Online","IVdsDiskOnline::Online","Online","Online method","Online method","IVdsDiskOnline interface","base.ivdsdiskonline_online","vds/IVdsDiskOnline::Online"]
 old-location: base\ivdsdiskonline_online.htm
 tech.root: VDS
 ms.assetid: b3366bc7-18ca-4a90-b4e7-e6213a7cc002

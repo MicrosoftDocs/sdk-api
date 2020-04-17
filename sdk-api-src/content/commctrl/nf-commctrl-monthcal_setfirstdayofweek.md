@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MonthCal_SetFirstDayOfWeek
 title: MonthCal_SetFirstDayOfWeek macro (commctrl.h)
-description: Sets the first day of the week for a month calendar control. You can use this macro or send the MCM_SETFIRSTDAYOFWEEK message explicitly.
+description: Sets the first day of the week for a month calendar control. You can use this macro or send the MCM_SETFIRSTDAYOFWEEK message explicitly.helpviewer_keywords: ["MonthCal_SetFirstDayOfWeek","MonthCal_SetFirstDayOfWeek macro [Windows Controls]","_win32_MonthCal_SetFirstDayOfWeek","_win32_MonthCal_SetFirstDayOfWeek_cpp","commctrl/MonthCal_SetFirstDayOfWeek","controls.MonthCal_SetFirstDayOfWeek","controls._win32_MonthCal_SetFirstDayOfWeek"]
 old-location: controls\MonthCal_SetFirstDayOfWeek.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setfirstdayofweek.htm

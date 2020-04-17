@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId
 title: IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId (uiautomationclient.h)
-description: Retrieves the Microsoft Active Accessibility child identifier for the element.
+description: Retrieves the Microsoft Active Accessibility child identifier for the element.helpviewer_keywords: ["CurrentChildId property [Windows Accessibility]","CurrentChildId property [Windows Accessibility]","IUIAutomationLegacyIAccessiblePattern interface","IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","CurrentChildId property","IUIAutomationLegacyIAccessiblePattern.CurrentChildId","IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId","IUIAutomationLegacyIAccessiblePattern::CurrentChildId","IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId","get_CurrentChildId","uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId","uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentChildId","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId","winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId"]
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId.htm
 tech.root: WinAuto
 ms.assetid: 63277b76-bd3f-4255-82be-24797cafd175

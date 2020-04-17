@@ -1,7 +1,7 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProvider.BeginPrepareSnapshot
 title: IVssHardwareSnapshotProvider::BeginPrepareSnapshot (vsprov.h)
-description: Called for each shadow copy that is added to the shadow copy set.
+description: Called for each shadow copy that is added to the shadow copy set.helpviewer_keywords: ["BeginPrepareSnapshot","BeginPrepareSnapshot method [VSS]","BeginPrepareSnapshot method [VSS]","IVssHardwareSnapshotProvider interface","IVssHardwareSnapshotProvider interface [VSS]","BeginPrepareSnapshot method","IVssHardwareSnapshotProvider.BeginPrepareSnapshot","IVssHardwareSnapshotProvider::BeginPrepareSnapshot","base.ivsshardwaresnapshotprovider_beginpreparesnapshot","vsprov/IVssHardwareSnapshotProvider::BeginPrepareSnapshot"]
 old-location: base\ivsshardwaresnapshotprovider_beginpreparesnapshot.htm
 tech.root: VSS
 ms.assetid: 4a8bdffa-bb6e-425d-a708-1f31af302da9

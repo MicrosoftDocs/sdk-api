@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.MFPCreateMediaPlayer
 title: MFPCreateMediaPlayer function (mfplay.h)
-description: Creates a new instance of the MFPlay player object.
+description: Creates a new instance of the MFPlay player object.helpviewer_keywords: ["MFPCreateMediaPlayer","MFPCreateMediaPlayer function [Media Foundation]","mf.mfpcreatemediaplayer","mfplay/MFPCreateMediaPlayer"]
 old-location: mf\mfpcreatemediaplayer.htm
 tech.root: medfound
 ms.assetid: 80c668e2-5e93-4af2-871c-646228e18717

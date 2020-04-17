@@ -1,7 +1,7 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetPropertyValuesChain
 title: IVisualTreeService::GetPropertyValuesChain (xamlom.h)
-description: Gets an array of all the properties set on the element passed in, and an array of all the styles involved in setting the effective values of the properties.
+description: Gets an array of all the properties set on the element passed in, and an array of all the styles involved in setting the effective values of the properties.helpviewer_keywords: ["GetPropertyValuesChain","GetPropertyValuesChain method","GetPropertyValuesChain method","IVisualTreeService interface","IVisualTreeService interface","GetPropertyValuesChain method","IVisualTreeService.GetPropertyValuesChain","IVisualTreeService::GetPropertyValuesChain","xaml_diagnostics.ivisualtreeservice_getpropertyvalueschain","xamlom/IVisualTreeService::GetPropertyValuesChain"]
 old-location: xaml_diagnostics\ivisualtreeservice_getpropertyvalueschain.htm
 tech.root: xaml_diagnostics
 ms.assetid: 3D997B09-7B20-47BC-B19C-98945CA41D17

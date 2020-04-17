@@ -1,7 +1,7 @@
 ---
 UID: NF:mixerocx.IMixerOCXNotify.OnStatusChange
 title: IMixerOCXNotify::OnStatusChange (mixerocx.h)
-description: The OnStatusChange method informs the client that a status change has occurred.
+description: The OnStatusChange method informs the client that a status change has occurred.helpviewer_keywords: ["IMixerOCXNotify interface [DirectShow]","OnStatusChange method","IMixerOCXNotify.OnStatusChange","IMixerOCXNotify::OnStatusChange","IMixerOCXNotifyOnStatusChange","OnStatusChange","OnStatusChange method [DirectShow]","OnStatusChange method [DirectShow]","IMixerOCXNotify interface","dshow.imixerocxnotify_onstatuschange","mixerocx/IMixerOCXNotify::OnStatusChange"]
 old-location: dshow\imixerocxnotify_onstatuschange.htm
 tech.root: DirectShow
 ms.assetid: b6e49306-59bc-45a2-826b-cea2cf77214b

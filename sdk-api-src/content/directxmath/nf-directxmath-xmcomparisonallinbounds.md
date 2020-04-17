@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMComparisonAllInBounds
 title: XMComparisonAllInBounds function (directxmath.h)
-description: Tests the comparison value to determine if all of the compared components are within set bounds.
+description: Tests the comparison value to determine if all of the compared components are within set bounds.helpviewer_keywords: ["Use DirectX..XMComparisonAllInBounds","XMComparisonAllInBounds","XMComparisonAllInBounds method [DirectX Math Support APIs]","dxmath.xmcomparisonallinbounds"]
 old-location: dxmath\xmcomparisonallinbounds.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAllInBounds(uint32_t)

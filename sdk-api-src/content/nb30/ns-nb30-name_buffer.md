@@ -1,7 +1,7 @@
 ---
 UID: NS:nb30._NAME_BUFFER
 title: NAME_BUFFER (nb30.h)
-description: The NAME_BUFFER structure contains information about a local network name. One or more NAME_BUFFER structures follows an ADAPTER_STATUS structure when an application specifies the NCBASTAT command in the ncb_command member of the NCB structure.
+description: The NAME_BUFFER structure contains information about a local network name. One or more NAME_BUFFER structures follows an ADAPTER_STATUS structure when an application specifies the NCBASTAT command in the ncb_command member of the NCB structure.helpviewer_keywords: ["*PNAME_BUFFER","DEREGISTERED","DUPLICATE","DUPLICATE_DEREG","GROUP_NAME","NAME_BUFFER","NAME_BUFFER structure [NetBIOS]","PNAME_BUFFER","PNAME_BUFFER structure pointer [NetBIOS]","REGISTERED","REGISTERING","UNIQUE_NAME","nb30/NAME_BUFFER","nb30/PNAME_BUFFER","netbios.name_buffer"]
 old-location: netbios\name_buffer.htm
 tech.root: NetBIOS
 ms.assetid: f1059074-68c1-4a08-98bd-ccfb314e39ec

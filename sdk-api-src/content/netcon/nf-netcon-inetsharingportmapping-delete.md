@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.INetSharingPortMapping.Delete
 title: INetSharingPortMapping::Delete (netcon.h)
-description: The Delete method deletes a port mapping from the list of port mappings for a particular connection.
+description: The Delete method deletes a port mapping from the list of port mappings for a particular connection.helpviewer_keywords: ["Delete","Delete method [ICS/ICF]","Delete method [ICS/ICF]","INetSharingPortMapping interface","INetSharingPortMapping interface [ICS/ICF]","Delete method","INetSharingPortMapping.Delete","INetSharingPortMapping::Delete","_ics_inetsharingportmapping_delete","ics.inetsharingportmapping_delete","netcon/INetSharingPortMapping::Delete"]
 old-location: ics\inetsharingportmapping_delete.htm
 tech.root: ics
 ms.assetid: f9582110-a717-41a4-8ddd-26ef703b8356

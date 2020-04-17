@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.GetSwitchToHWND
 title: IFileIsInUse::GetSwitchToHWND (shobjidl_core.h)
-description: Retrieves the handle of the top-level window of the application that is using the file.
+description: Retrieves the handle of the top-level window of the application that is using the file.helpviewer_keywords: ["GetSwitchToHWND","GetSwitchToHWND method [Windows Shell]","GetSwitchToHWND method [Windows Shell]","IFileIsInUse interface","IFileIsInUse interface [Windows Shell]","GetSwitchToHWND method","IFileIsInUse.GetSwitchToHWND","IFileIsInUse::GetSwitchToHWND","_shell_IFileIsInUse_GetSwitchToHWND","shell.IFileIsInUse_GetSwitchToHWND","shobjidl_core/IFileIsInUse::GetSwitchToHWND"]
 old-location: shell\IFileIsInUse_GetSwitchToHWND.htm
 tech.root: shell
 ms.assetid: b4223cb0-2027-4073-9558-99ae27f4e52a

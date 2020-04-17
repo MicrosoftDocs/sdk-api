@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IStdMarshalInfo.GetClassForHandler
 title: IStdMarshalInfo::GetClassForHandler (objidlbase.h)
-description: Retrieves the CLSID of the object handler to be used in the destination process during standard marshaling.
+description: Retrieves the CLSID of the object handler to be used in the destination process during standard marshaling.helpviewer_keywords: ["GetClassForHandler","GetClassForHandler method [COM]","GetClassForHandler method [COM]","IStdMarshalInfo interface","IStdMarshalInfo interface [COM]","GetClassForHandler method","IStdMarshalInfo.GetClassForHandler","IStdMarshalInfo::GetClassForHandler","_com_istdmarshalinfo_getclassforhandler","com.istdmarshalinfo_getclassforhandler","objidlbase/IStdMarshalInfo::GetClassForHandler"]
 old-location: com\istdmarshalinfo_getclassforhandler.htm
 tech.root: com
 ms.assetid: ab68f292-851d-4908-b545-4df2931fceae

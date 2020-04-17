@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetScrollPos
 title: GetScrollPos function (winuser.h)
-description: The GetScrollPos function retrieves the current position of the scroll box (thumb) in the specified scroll bar.
+description: The GetScrollPos function retrieves the current position of the scroll box (thumb) in the specified scroll bar.helpviewer_keywords: ["GetScrollPos","GetScrollPos function [Windows Controls]","SB_CTL","SB_HORZ","SB_VERT","_win32_GetScrollPos","_win32_GetScrollPos_cpp","controls.GetScrollPos","controls._win32_GetScrollPos","winuser/GetScrollPos"]
 old-location: controls\GetScrollPos.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollpos.htm

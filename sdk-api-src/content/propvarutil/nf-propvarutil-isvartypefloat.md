@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.IsVarTypeFloat
 title: IsVarTypeFloat function (propvarutil.h)
-description: Returns whether a VARTYPE is a float.
+description: Returns whether a VARTYPE is a float.helpviewer_keywords: ["IsVarTypeFloat","IsVarTypeFloat function [Windows Properties]","_shell_IsVarTypeFloat","properties.IsVarTypeFloat","propvarutil/IsVarTypeFloat","shell.IsVarTypeFloat"]
 old-location: properties\IsVarTypeFloat.htm
 tech.root: properties
 ms.assetid: ff233e26-c02b-47ca-958b-a5282b280ecd

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFMediaSinkPreroll.NotifyPreroll
 title: IMFMediaSinkPreroll::NotifyPreroll (mfidl.h)
-description: Notifies the media sink that the presentation clock is about to start.
+description: Notifies the media sink that the presentation clock is about to start.helpviewer_keywords: ["IMFMediaSinkPreroll interface [Media Foundation]","NotifyPreroll method","IMFMediaSinkPreroll.NotifyPreroll","IMFMediaSinkPreroll::NotifyPreroll","NotifyPreroll","NotifyPreroll method [Media Foundation]","NotifyPreroll method [Media Foundation]","IMFMediaSinkPreroll interface","d0694ad9-a18a-4fea-a9ff-b416bd4827ba","mf.imfmediasinkpreroll_notifypreroll","mfidl/IMFMediaSinkPreroll::NotifyPreroll"]
 old-location: mf\imfmediasinkpreroll_notifypreroll.htm
 tech.root: medfound
 ms.assetid: d0694ad9-a18a-4fea-a9ff-b416bd4827ba

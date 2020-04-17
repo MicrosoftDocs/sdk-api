@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.Remove
 title: IAzBizRuleParameters::Remove (azroles.h)
-description: Removes the specified parameter from the list of parameters available to business rule (BizRule) scripts.
+description: Removes the specified parameter from the list of parameters available to business rule (BizRule) scripts.helpviewer_keywords: ["IAzBizRuleParameters interface [Security]","Remove method","IAzBizRuleParameters.Remove","IAzBizRuleParameters::Remove","Remove","Remove method [Security]","Remove method [Security]","IAzBizRuleParameters interface","azroles/IAzBizRuleParameters::Remove","security.iazbizruleparameters_remove_method"]
 old-location: security\iazbizruleparameters_remove_method.htm
 tech.root: SecAuthZ
 ms.assetid: 1874ac48-0a06-4387-89c2-c194b60bb8f2

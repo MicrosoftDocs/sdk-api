@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFMuxStreamSampleManager
 title: IMFMuxStreamSampleManager (mfobjects.h)
-description: Provides the ability to retrieve IMFSample objects for individual substreams within the output of a multiplexed media source.
+description: Provides the ability to retrieve IMFSample objects for individual substreams within the output of a multiplexed media source.helpviewer_keywords: ["IMFMuxStreamSampleManager","IMFMuxStreamSampleManager interface [Media Foundation]","IMFMuxStreamSampleManager interface [Media Foundation]","described","mf.imfmuxstreamsamplemanager","mfobjects/IMFMuxStreamSampleManager"]
 old-location: mf\imfmuxstreamsamplemanager.htm
 tech.root: medfound
 ms.assetid: DABA5955-1366-4CEE-ABDF-7CC0F3788A8E

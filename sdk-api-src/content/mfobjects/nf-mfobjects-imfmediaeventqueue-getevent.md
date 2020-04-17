@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.GetEvent
 title: IMFMediaEventQueue::GetEvent (mfobjects.h)
-description: Retrieves the next event in the queue. This method is synchronous.Call this method inside your implementation of IMFMediaEventGenerator::GetEvent. Pass the parameters from that method directly to this method.
+description: Retrieves the next event in the queue. This method is synchronous.Call this method inside your implementation of IMFMediaEventGenerator::GetEvent. Pass the parameters from that method directly to this method.helpviewer_keywords: ["GetEvent","GetEvent method [Media Foundation]","GetEvent method [Media Foundation]","IMFMediaEventQueue interface","IMFMediaEventQueue interface [Media Foundation]","GetEvent method","IMFMediaEventQueue.GetEvent","IMFMediaEventQueue::GetEvent","b7c48607-f410-47ee-8cc6-38123919da55","mf.imfmediaeventqueue_getevent","mfobjects/IMFMediaEventQueue::GetEvent"]
 old-location: mf\imfmediaeventqueue_getevent.htm
 tech.root: medfound
 ms.assetid: b7c48607-f410-47ee-8cc6-38123919da55

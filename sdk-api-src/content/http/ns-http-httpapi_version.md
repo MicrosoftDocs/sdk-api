@@ -1,7 +1,7 @@
 ---
 UID: NS:http._HTTPAPI_VERSION
 title: HTTPAPI_VERSION (http.h)
-description: Defines the version of the HTTP Server API.
+description: Defines the version of the HTTP Server API.helpviewer_keywords: ["*PHTTPAPI_VERSION","HTTPAPI_VERSION","HTTPAPI_VERSION structure [HTTP]","PHTTPAPI_VERSION","PHTTPAPI_VERSION structure pointer [HTTP]","_http_httpapi_version","http.httpapi_version","http/HTTPAPI_VERSION","http/PHTTPAPI_VERSION"]
 old-location: http\httpapi_version.htm
 tech.root: http
 ms.assetid: af89ecee-2636-4c61-b863-21fe56666ea8

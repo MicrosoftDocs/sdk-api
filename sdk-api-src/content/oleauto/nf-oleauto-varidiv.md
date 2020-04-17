@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarIdiv
 title: VarIdiv function (oleauto.h)
-description: Converts two variants of any type to integers then returns the result from dividing them.
+description: Converts two variants of any type to integers then returns the result from dividing them.helpviewer_keywords: ["VarIdiv","VarIdiv function [Automation]","_oa96_VarIdiv","automat.varidiv","oleauto/VarIdiv"]
 old-location: automat\varidiv.htm
 tech.root: automat
 ms.assetid: dd76b96f-b616-420f-9f26-d88004574411

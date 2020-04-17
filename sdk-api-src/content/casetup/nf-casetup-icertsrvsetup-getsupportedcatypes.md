@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetSupportedCATypes
 title: ICertSrvSetup::GetSupportedCATypes (casetup.h)
-description: Gets the types of certification authorities (CAs) that can be installed on a computer under the caller context.
+description: Gets the types of certification authorities (CAs) that can be installed on a computer under the caller context.helpviewer_keywords: ["GetSupportedCATypes","GetSupportedCATypes method [Security]","GetSupportedCATypes method [Security]","ICertSrvSetup interface","ICertSrvSetup interface [Security]","GetSupportedCATypes method","ICertSrvSetup.GetSupportedCATypes","ICertSrvSetup::GetSupportedCATypes","casetup/ICertSrvSetup::GetSupportedCATypes","security.icertsrvsetup_getsupportedcatypes"]
 old-location: security\icertsrvsetup_getsupportedcatypes.htm
 tech.root: SecCrypto
 ms.assetid: 404e5c34-f614-4555-9062-c28d4aac5c4b

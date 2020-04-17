@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GenerateDesktopItemHtml
 title: IActiveDesktop::GenerateDesktopItemHtml (shlobj_core.h)
-description: Generates a generic HTML page containing the given desktop item.
+description: Generates a generic HTML page containing the given desktop item.helpviewer_keywords: ["GenerateDesktopItemHtml","GenerateDesktopItemHtml method [Legacy Windows Environment Features]","GenerateDesktopItemHtml method [Legacy Windows Environment Features]","IActiveDesktop interface","IActiveDesktop interface [Legacy Windows Environment Features]","GenerateDesktopItemHtml method","IActiveDesktop.GenerateDesktopItemHtml","IActiveDesktop::GenerateDesktopItemHtml","_win32_IActiveDesktop_GenerateDesktopItemHtml","lwef.iactivedesktop_generatedesktopitemhtml","shell.iactivedesktop_generatedesktopitemhtml","shlobj_core/IActiveDesktop::GenerateDesktopItemHtml"]
 old-location: lwef\iactivedesktop_generatedesktopitemhtml.htm
 tech.root: lwef
 ms.assetid: 653c9c92-4301-4960-b25e-e8e11f9d2fb8

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.EnumItems
 title: IShellItemArray::EnumItems (shobjidl_core.h)
-description: Gets an enumerator of the items in the array.
+description: Gets an enumerator of the items in the array.helpviewer_keywords: ["EnumItems","EnumItems method [Windows Shell]","EnumItems method [Windows Shell]","IShellItemArray interface","IShellItemArray interface [Windows Shell]","EnumItems method","IShellItemArray.EnumItems","IShellItemArray::EnumItems","_shell_IShellItemArray_EnumItems","shell.IShellItemArray_EnumItems","shobjidl_core/IShellItemArray::EnumItems"]
 old-location: shell\IShellItemArray_EnumItems.htm
 tech.root: shell
 ms.assetid: c8ee210c-dab9-4678-9c62-d06677cbb395

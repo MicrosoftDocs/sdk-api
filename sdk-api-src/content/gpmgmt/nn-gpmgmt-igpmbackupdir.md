@@ -1,7 +1,7 @@
 ---
 UID: NN:gpmgmt.IGPMBackupDir
 title: IGPMBackupDir (gpmgmt.h)
-description: The IGPMBackupDir interface supports methods that allow you to query GPMBackup and GPMBackupCollection objects when you use the Group Policy Management Console (GPMC) interfaces.
+description: The IGPMBackupDir interface supports methods that allow you to query GPMBackup and GPMBackupCollection objects when you use the Group Policy Management Console (GPMC) interfaces.helpviewer_keywords: ["GPMBackupDir","IGPMBackupDir","IGPMBackupDir interface [GPMC]","IGPMBackupDir interface [GPMC]","described","_win32_igpmbackupdir","gpmc.igpmbackupdir","gpmgmt/IGPMBackupDir"]
 old-location: gpmc\igpmbackupdir.htm
 tech.root: gpmc
 ms.assetid: 2d44cf6d-a3fa-43db-b28e-3d48f6d13625

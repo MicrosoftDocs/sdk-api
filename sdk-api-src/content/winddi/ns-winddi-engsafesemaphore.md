@@ -1,7 +1,7 @@
 ---
 UID: NS:winddi._ENGSAFESEMAPHORE
 title: ENGSAFESEMAPHORE (winddi.h)
-description: The ENGSAFESEMAPHORE structure provides the driver with a thread-safe semaphore.
+description: The ENGSAFESEMAPHORE structure provides the driver with a thread-safe semaphore.helpviewer_keywords: ["ENGSAFESEMAPHORE","ENGSAFESEMAPHORE structure [Display Devices]","display.engsafesemaphore","grstrcts_63b165c2-5032-4dcb-9039-562a38f24cc4.xml","winddi/ENGSAFESEMAPHORE"]
 old-location: display\engsafesemaphore.htm
 tech.root: display
 ms.assetid: 225ca482-6a45-4726-b51b-57fa76b8c5b0

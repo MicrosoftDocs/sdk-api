@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.GetStatus
 title: IUIAnimationManager::GetStatus (uianimation.h)
-description: Gets the status of the animation manager.
+description: Gets the status of the animation manager.helpviewer_keywords: ["GetStatus","GetStatus method [Windows Animation]","GetStatus method [Windows Animation]","IUIAnimationManager interface","IUIAnimationManager interface [Windows Animation]","GetStatus method","IUIAnimationManager.GetStatus","IUIAnimationManager::GetStatus","uianimation.iuianimationmanager_getstatus","uianimation/IUIAnimationManager::GetStatus"]
 old-location: uianimation\iuianimationmanager_getstatus.htm
 tech.root: UIAnimation
 ms.assetid: 838140c3-12ca-4909-a0f8-713b5472e5a9

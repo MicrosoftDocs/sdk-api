@@ -1,7 +1,7 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordDescriptorByIndex
 title: IPMT::GetRecordDescriptorByIndex (mpeg2psiparser.h)
-description: The GetRecordDescriptorByIndex method retrieves a descriptor for a specified record in the PMT.
+description: The GetRecordDescriptorByIndex method retrieves a descriptor for a specified record in the PMT.helpviewer_keywords: ["GetRecordDescriptorByIndex","GetRecordDescriptorByIndex method [Microsoft TV Technologies]","GetRecordDescriptorByIndex method [Microsoft TV Technologies]","IPMT interface","IPMT interface [Microsoft TV Technologies]","GetRecordDescriptorByIndex method","IPMT.GetRecordDescriptorByIndex","IPMT::GetRecordDescriptorByIndex","IPMTGetRecordDescriptorByIndex","mpeg2psiparser/IPMT::GetRecordDescriptorByIndex","mstv.ipmt_getrecorddescriptorbyindex"]
 old-location: mstv\ipmt_getrecorddescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 1e37db4b-1b86-4b34-8f93-642bb603789e

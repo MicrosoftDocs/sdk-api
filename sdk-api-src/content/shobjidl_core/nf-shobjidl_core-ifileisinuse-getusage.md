@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.GetUsage
 title: IFileIsInUse::GetUsage (shobjidl_core.h)
-description: Gets a value that indicates how the file in use is being used.
+description: Gets a value that indicates how the file in use is being used.helpviewer_keywords: ["GetUsage","GetUsage method [Windows Shell]","GetUsage method [Windows Shell]","IFileIsInUse interface","IFileIsInUse interface [Windows Shell]","GetUsage method","IFileIsInUse.GetUsage","IFileIsInUse::GetUsage","_shell_IFileIsInUse_GetUsage","shell.IFileIsInUse_GetUsage","shobjidl_core/IFileIsInUse::GetUsage"]
 old-location: shell\IFileIsInUse_GetUsage.htm
 tech.root: shell
 ms.assetid: 7baba34d-b246-4d48-9f0c-e950d33ed5cf

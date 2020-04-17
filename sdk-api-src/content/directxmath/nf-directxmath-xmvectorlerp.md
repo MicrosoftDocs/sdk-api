@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorLerp
 title: XMVectorLerp function (directxmath.h)
-description: Performs a linear interpolation between two vectors.
+description: Performs a linear interpolation between two vectors.helpviewer_keywords: ["Use DirectX..XMVectorLerp","XMVectorLerp","XMVectorLerp method [DirectX Math Support APIs]","dxmath.xmvectorlerp"]
 old-location: dxmath\xmvectorlerp.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorLerp(XMVECTOR,XMVECTOR,float)

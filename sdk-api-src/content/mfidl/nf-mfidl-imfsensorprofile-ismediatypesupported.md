@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSensorProfile.IsMediaTypeSupported
 title: IMFSensorProfile::IsMediaTypeSupported (mfidl.h)
-description: Determines if a media stream supports the specified media type.
+description: Determines if a media stream supports the specified media type.helpviewer_keywords: ["IMFSensorProfile interface [Media Foundation]","IsMediaTypeSupported method","IMFSensorProfile.IsMediaTypeSupported","IMFSensorProfile::IsMediaTypeSupported","IsMediaTypeSupported","IsMediaTypeSupported method [Media Foundation]","IsMediaTypeSupported method [Media Foundation]","IMFSensorProfile interface","mf.imfsensorprofile_ismediatypesupported","mfidl/IMFSensorProfile::IsMediaTypeSupported"]
 old-location: mf\imfsensorprofile_ismediatypesupported.htm
 tech.root: medfound
 ms.assetid: 9535AF14-A6DF-49E9-B264-734B96A3DC29

@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.GenerateReport
 title: IGPMRSOP::GenerateReport (gpmgmt.h)
-description: The GenerateReport method generates a report on the RSoP data.
+description: The GenerateReport method generates a report on the RSoP data.helpviewer_keywords: ["GenerateReport","GenerateReport method [GPMC]","GenerateReport method [GPMC]","IGPMRSOP interface","IGPMRSOP interface [GPMC]","GenerateReport method","IGPMRSOP.GenerateReport","IGPMRSOP::GenerateReport","gpmc.igpmrsop_generatereport","gpmgmt/IGPMRSOP::GenerateReport"]
 old-location: gpmc\igpmrsop_generatereport.htm
 tech.root: gpmc
 ms.assetid: 86766a08-4f3a-4758-8abc-83db3408f0fd

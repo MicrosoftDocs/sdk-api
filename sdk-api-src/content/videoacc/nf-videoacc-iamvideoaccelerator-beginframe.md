@@ -1,7 +1,7 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.BeginFrame
 title: IAMVideoAccelerator::BeginFrame (videoacc.h)
-description: The BeginFrame method begins the processing to create a decoded picture.
+description: The BeginFrame method begins the processing to create a decoded picture.helpviewer_keywords: ["BeginFrame","BeginFrame method [DirectShow]","BeginFrame method [DirectShow]","IAMVideoAccelerator interface","IAMVideoAccelerator interface [DirectShow]","BeginFrame method","IAMVideoAccelerator.BeginFrame","IAMVideoAccelerator::BeginFrame","IAMVideoAcceleratorBeginFrame","dshow.iamvideoaccelerator_beginframe","videoacc/IAMVideoAccelerator::BeginFrame"]
 old-location: dshow\iamvideoaccelerator_beginframe.htm
 tech.root: DirectShow
 ms.assetid: 00077ffe-4acb-4648-9e95-652184e4449b

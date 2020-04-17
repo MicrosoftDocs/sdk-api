@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.MAKEINTATOM
 title: MAKEINTATOM macro (winbase.h)
-description: Converts the specified atom into a string, so it can be passed to functions which accept either atoms or strings.
+description: Converts the specified atom into a string, so it can be passed to functions which accept either atoms or strings.helpviewer_keywords: ["MAKEINTATOM","MAKEINTATOM macro [Data Exchange]","_win32_MAKEINTATOM","_win32_makeintatom_cpp","dataxchg.makeintatom","winbase/MAKEINTATOM","winui._win32_makeintatom"]
 old-location: dataxchg\makeintatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atommacros\makeintatom.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarR8FromI2
 title: VarR8FromI2 function (oleauto.h)
-description: Converts a short value to a double value.
+description: Converts a short value to a double value.helpviewer_keywords: ["VarR8FromI2","VarR8FromI2 function [Automation]","_oa96_VarR8FromI2","automat.varr8fromi2","oleauto/VarR8FromI2"]
 old-location: automat\varr8fromi2.htm
 tech.root: automat
 ms.assetid: b633a41c-5a47-4b88-b8ce-590b5f6d5169

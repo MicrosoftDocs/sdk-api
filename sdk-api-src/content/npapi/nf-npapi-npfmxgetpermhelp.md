@@ -1,7 +1,7 @@
 ---
 UID: NF:npapi.NPFMXGetPermHelp
 title: NPFMXGetPermHelp function (npapi.h)
-description: Retrieves the help file and help context of the permission editor dialog boxes when a menu item in the Security menu of File Manager is selected and F1 is pressed.
+description: Retrieves the help file and help context of the permission editor dialog boxes when a menu item in the Security menu of File Manager is selected and F1 is pressed.helpviewer_keywords: ["NPFMXGetPermHelp","NPFMXGetPermHelp function [Security]","WNPERM_DLG_AUDIT","WNPERM_DLG_OWNER","WNPERM_DLG_PERM","_mnp_npfmxgetpermhelp","npapi/NPFMXGetPermHelp","security.npfmxgetpermhelp"]
 old-location: security\npfmxgetpermhelp.htm
 tech.root: SecAuthN
 ms.assetid: a7bf24fb-a775-4a13-a808-86a0d4d25332

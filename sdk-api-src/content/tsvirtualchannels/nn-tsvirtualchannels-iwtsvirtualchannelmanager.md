@@ -1,7 +1,7 @@
 ---
 UID: NN:tsvirtualchannels.IWTSVirtualChannelManager
 title: IWTSVirtualChannelManager (tsvirtualchannels.h)
-description: Manages all Remote Desktop Connection (RDC) client plug-ins and dynamic virtual channel (DVC) listeners.
+description: Manages all Remote Desktop Connection (RDC) client plug-ins and dynamic virtual channel (DVC) listeners.helpviewer_keywords: ["IWTSVirtualChannelManager","IWTSVirtualChannelManager interface [Remote Desktop Services]","IWTSVirtualChannelManager interface [Remote Desktop Services]","described","termserv.iwtsvirtualchannelmanager","tsvirtualchannels/IWTSVirtualChannelManager"]
 old-location: termserv\iwtsvirtualchannelmanager.htm
 tech.root: TermServ
 ms.assetid: 289f76b8-dbb5-4f80-98e9-f39f7946494b

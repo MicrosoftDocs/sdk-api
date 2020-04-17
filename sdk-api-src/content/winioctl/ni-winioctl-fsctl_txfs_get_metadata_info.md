@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_TXFS_GET_METADATA_INFO
 title: FSCTL_TXFS_GET_METADATA_INFO
-description: Retrieves Transacted NTFS (TxF) metadata for a file and the GUID of the transaction that has locked the specified file (if the file is locked).
+description: Retrieves Transacted NTFS (TxF) metadata for a file and the GUID of the transaction that has locked the specified file (if the file is locked).helpviewer_keywords: ["FSCTL_TXFS_GET_METADATA_INFO","FSCTL_TXFS_GET_METADATA_INFO control","FSCTL_TXFS_GET_METADATA_INFO control code [Files]","fs.fsctl_txfs_get_metadata_info","winioctl/FSCTL_TXFS_GET_METADATA_INFO"]
 old-location: fs\fsctl_txfs_get_metadata_info.htm
 tech.root: FileIO
 ms.assetid: 129e682c-bc95-46d5-a0d3-adbadc7e6478

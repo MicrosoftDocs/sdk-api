@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsWmfPlaceable
 title: MetafileHeader::IsWmfPlaceable (gdiplusmetaheader.h)
-description: The MetafileHeader::IsWmfPlaceable method determines whether the associated metafile is a placeable metafile.
+description: The MetafileHeader::IsWmfPlaceable method determines whether the associated metafile is a placeable metafile.helpviewer_keywords: ["IsWmfPlaceable","IsWmfPlaceable method [GDI+]","IsWmfPlaceable method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","IsWmfPlaceable method","MetafileHeader.IsWmfPlaceable","MetafileHeader::IsWmfPlaceable","_gdiplus_CLASS_MetafileHeader_IsWmfPlaceable_","gdiplus._gdiplus_CLASS_MetafileHeader_IsWmfPlaceable_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsWmfPlaceable_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\iswmfplaceable.htm

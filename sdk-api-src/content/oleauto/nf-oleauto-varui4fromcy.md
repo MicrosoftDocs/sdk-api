@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI4FromCy
 title: VarUI4FromCy function (oleauto.h)
-description: Converts a currency value to an unsigned long value.
+description: Converts a currency value to an unsigned long value.helpviewer_keywords: ["VarUI4FromCy","VarUI4FromCy function [Automation]","_oa96_VarUI4FromCy","automat.varui4fromcy","oleauto/VarUI4FromCy"]
 old-location: automat\varui4fromcy.htm
 tech.root: automat
 ms.assetid: 8f727b0f-b326-47b1-b1e1-461bd9f8d835

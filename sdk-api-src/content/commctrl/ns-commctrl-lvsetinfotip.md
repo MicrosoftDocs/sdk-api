@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagLVSETINFOTIP
 title: LVSETINFOTIP (commctrl.h)
-description: Provides information about tooltip text that is to be set.
+description: Provides information about tooltip text that is to be set.helpviewer_keywords: ["*PLVSETINFOTIP","LVSETINFOTIP","LVSETINFOTIP structure [Windows Controls]","PLVSETINFOTIP","PLVSETINFOTIP structure pointer [Windows Controls]","commctrl/LVSETINFOTIP","commctrl/PLVSETINFOTIP","controls.LVSETINFOTIP","controls.inet_LVSETINFOTIP","inet_LVSETINFOTIP","inet_LVSETINFOTIP_cpp"]
 old-location: controls\LVSETINFOTIP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvsetinfotip.htm

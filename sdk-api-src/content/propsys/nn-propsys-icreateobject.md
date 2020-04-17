@@ -1,7 +1,7 @@
 ---
 UID: NN:propsys.ICreateObject
 title: ICreateObject (propsys.h)
-description: Exposes a method that creates an object of a specified class.
+description: Exposes a method that creates an object of a specified class.helpviewer_keywords: ["ICreateObject","ICreateObject interface [Windows Shell]","ICreateObject interface [Windows Shell]","described","_shell_ICreateObject","propsys/ICreateObject","shell.ICreateObject"]
 old-location: shell\ICreateObject.htm
 tech.root: shell
 ms.assetid: 90502b4a-dc0a-4077-83d7-e9f5445ba69b

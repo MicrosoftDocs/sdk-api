@@ -1,7 +1,7 @@
 ---
 UID: NE:projectedfslib.PRJ_STARTVIRTUALIZING_FLAGS
 title: PRJ_STARTVIRTUALIZING_FLAGS (projectedfslib.h)
-description: Flags to provide when starting a virtualization instance.
+description: Flags to provide when starting a virtualization instance.helpviewer_keywords: ["PRJ_FLAG_NONE","PRJ_FLAG_USE_NEGATIVE_PATH_CACHE","PRJ_STARTVIRTUALIZING_FLAGS","PRJ_STARTVIRTUALIZING_FLAGS enumeration","ProjFS.prj_startvirtualizing_flags","projectedfslib/PRJ_FLAG_NONE","projectedfslib/PRJ_FLAG_USE_NEGATIVE_PATH_CACHE","projectedfslib/PRJ_STARTVIRTUALIZING_FLAGS"]
 old-location: projfs\prj_startvirtualizing_flags.htm
 tech.root: ProjFS
 ms.assetid: AF67668B-E9BC-4320-AB1F-1E78CA700D8E

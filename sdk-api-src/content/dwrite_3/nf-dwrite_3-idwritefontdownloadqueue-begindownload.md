@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.BeginDownload
 title: IDWriteFontDownloadQueue::BeginDownload (dwrite_3.h)
-description: Begins an asynchronous download operation. The download operation executes in the background until it completes or is cancelled by a CancelDownload call.
+description: Begins an asynchronous download operation. The download operation executes in the background until it completes or is cancelled by a CancelDownload call.helpviewer_keywords: ["BeginDownload","BeginDownload method [Direct Write]","BeginDownload method [Direct Write]","IDWriteFontDownloadQueue interface","IDWriteFontDownloadQueue interface [Direct Write]","BeginDownload method","IDWriteFontDownloadQueue.BeginDownload","IDWriteFontDownloadQueue::BeginDownload","directwrite.idwritefontdownloadqueue_begindownload","dwrite_3/IDWriteFontDownloadQueue::BeginDownload"]
 old-location: directwrite\idwritefontdownloadqueue_begindownload.htm
 tech.root: DirectWrite
 ms.assetid: 1e3b200c-0190-f600-1cb6-4e2a46f882b4

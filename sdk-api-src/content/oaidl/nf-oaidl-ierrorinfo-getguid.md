@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetGUID
 title: IErrorInfo::GetGUID (oaidl.h)
-description: Returns the globally unique identifier (GUID) of the interface that defined the error.
+description: Returns the globally unique identifier (GUID) of the interface that defined the error.helpviewer_keywords: ["GetGUID","GetGUID method [Automation]","GetGUID method [Automation]","IErrorInfo interface","IErrorInfo interface [Automation]","GetGUID method","IErrorInfo.GetGUID","IErrorInfo::GetGUID","_oa96_IErrorInfo_GetGUID","automat.ierrorinfo_getguid","oaidl/IErrorInfo::GetGUID"]
 old-location: automat\ierrorinfo_getguid.htm
 tech.root: automat
 ms.assetid: a4223508-6e8b-41b7-b808-a0d883bc265b

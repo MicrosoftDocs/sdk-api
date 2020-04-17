@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI4FromI4
 title: VarI4FromI4 macro (oleauto.h)
-description: Converts an int value to a long value.
+description: Converts an int value to a long value.helpviewer_keywords: ["VarI4FromI4","VarI4FromInt","VarI4FromInt function [Automation]","_oa96_VarI4FromInt","automat.vari4fromint","oleauto/VarI4FromInt"]
 old-location: automat\vari4fromint.htm
 tech.root: automat
 ms.assetid: d2c387eb-02b9-4c11-b577-4c65ba8d0be9

@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.GetRemoteInfo
 title: IOfflineFilesSyncErrorInfo::GetRemoteInfo (cscobj.h)
-description: Retrieves an instance of the IOfflineFilesSyncErrorItemInfo interface containing the file times, size, and attributes of the remote copy of the item involved in the synchronization.
+description: Retrieves an instance of the IOfflineFilesSyncErrorItemInfo interface containing the file times, size, and attributes of the remote copy of the item involved in the synchronization.helpviewer_keywords: ["GetRemoteInfo","GetRemoteInfo method [Offline Files]","GetRemoteInfo method [Offline Files]","IOfflineFilesSyncErrorInfo interface","IOfflineFilesSyncErrorInfo interface [Offline Files]","GetRemoteInfo method","IOfflineFilesSyncErrorInfo.GetRemoteInfo","IOfflineFilesSyncErrorInfo::GetRemoteInfo","cscobj/IOfflineFilesSyncErrorInfo::GetRemoteInfo","of.iofflinefilessyncerrorinfo_getremoteinfo"]
 old-location: of\iofflinefilessyncerrorinfo_getremoteinfo.htm
 tech.root: offlinefiles
 ms.assetid: 8b036680-b74c-485f-adae-88e59fc5e84c

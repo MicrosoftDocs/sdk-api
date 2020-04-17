@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.SetAttribute
 title: ISettingsIdentity::SetAttribute (wcmconfig.h)
-description: Sets an identity attribute for a namespace identity.
+description: Sets an identity attribute for a namespace identity.helpviewer_keywords: ["ISettingsIdentity interface [SMI]","SetAttribute method","ISettingsIdentity.SetAttribute","ISettingsIdentity::SetAttribute","SetAttribute","SetAttribute method [SMI]","SetAttribute method [SMI]","ISettingsIdentity interface","smi.isettingsidentity_setattribute","wcmconfig/ISettingsIdentity::SetAttribute"]
 old-location: smi\isettingsidentity_setattribute.htm
 tech.root: SMI
 ms.assetid: 498bb364-3da8-456d-8e77-22b508516de0

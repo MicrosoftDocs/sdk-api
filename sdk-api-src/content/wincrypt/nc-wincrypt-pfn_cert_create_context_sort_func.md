@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CERT_CREATE_CONTEXT_SORT_FUNC
 title: PFN_CERT_CREATE_CONTEXT_SORT_FUNC (wincrypt.h)
-description: Called for each sorted context entry when a context is created.
+description: Called for each sorted context entry when a context is created.helpviewer_keywords: ["PFN_CERT_CREATE_CONTEXT_SORT_FUNC","PFN_CERT_CREATE_CONTEXT_SORT_FUNC callback","PFN_CERT_CREATE_CONTEXT_SORT_FUNC callback function [Security]","security.pfn_cert_create_context_sort_func","wincrypt/PFN_CERT_CREATE_CONTEXT_SORT_FUNC"]
 old-location: security\pfn_cert_create_context_sort_func.htm
 tech.root: SecCrypto
 ms.assetid: 5ad79970-d076-4e97-bf56-d6aad4b46eaa

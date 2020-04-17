@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IFilterGraph3
 title: IFilterGraph3 (strmif.h)
-description: The IFilterGraph3 interface extends the IFilterGraph2 interface, which contains methods for building filter graphs.The Filter Graph Manager implements this interface.
+description: The IFilterGraph3 interface extends the IFilterGraph2 interface, which contains methods for building filter graphs.The Filter Graph Manager implements this interface.helpviewer_keywords: ["IFilterGraph3","IFilterGraph3 interface [DirectShow]","IFilterGraph3 interface [DirectShow]","described","IFilterGraph3Interface","dshow.ifiltergraph3","strmif/IFilterGraph3"]
 old-location: dshow\ifiltergraph3.htm
 tech.root: DirectShow
 ms.assetid: 1d5f8eda-2b09-4627-8ae9-f43f38c3c26a

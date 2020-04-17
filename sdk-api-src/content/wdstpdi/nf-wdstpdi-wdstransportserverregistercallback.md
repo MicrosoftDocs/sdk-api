@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerRegisterCallback
 title: WdsTransportServerRegisterCallback function (wdstpdi.h)
-description: Registers a provider callback with the multicast server.
+description: Registers a provider callback with the multicast server.helpviewer_keywords: ["WdsTransportServerRegisterCallback","WdsTransportServerRegisterCallback function [Windows Deployment Services]","wds.wdstransportserverregistercallback","wdstpdi/WdsTransportServerRegisterCallback"]
 old-location: wds\wdstransportserverregistercallback.htm
 tech.root: wds
 ms.assetid: 565ceb6c-0e44-4c71-8b67-092cd33d088e

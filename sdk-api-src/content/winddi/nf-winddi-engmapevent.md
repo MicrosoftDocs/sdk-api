@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngMapEvent
 title: EngMapEvent function (winddi.h)
-description: The EngMapEvent function maps a user-mode event object to kernel mode.
+description: The EngMapEvent function maps a user-mode event object to kernel mode.helpviewer_keywords: ["EngMapEvent","EngMapEvent function [Display Devices]","display.engmapevent","gdifncs_5d41fd21-c767-4c7b-8bd6-546be9ce1439.xml","winddi/EngMapEvent"]
 old-location: display\engmapevent.htm
 tech.root: display
 ms.assetid: a48f2367-49da-4d5c-87e5-b5c67e2311eb

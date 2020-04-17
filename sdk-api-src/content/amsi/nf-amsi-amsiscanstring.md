@@ -1,7 +1,7 @@
 ---
 UID: NF:amsi.AmsiScanString
 title: AmsiScanString function (amsi.h)
-description: Scans a string for malware.
+description: Scans a string for malware.helpviewer_keywords: ["AmsiScanString","AmsiScanString function [Antimalware Scan Interface]","amsi.amsiscanstring","amsi/AmsiScanString"]
 old-location: amsi\amsiscanstring.htm
 tech.root: AMSI
 ms.assetid: 7D26C57B-014B-4506-A29D-33699808B111

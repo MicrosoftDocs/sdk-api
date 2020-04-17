@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi.CLUSPROP_RESOURCE_CLASS
 title: CLUSPROP_RESOURCE_CLASS (clusapi.h)
-description: Describes a resource class.
+description: Describes a resource class.helpviewer_keywords: ["*PCLUSPROP_RESOURCE_CLASS","CLUSPROP_RESOURCE_CLASS","CLUSPROP_RESOURCE_CLASS structure [Failover Cluster]","CLUS_RESCLASS_NETWORK","CLUS_RESCLASS_STORAGE","CLUS_RESCLASS_UNKNOWN","CLUS_RESCLASS_USER","PCLUSPROP_RESOURCE_CLASS","PCLUSPROP_RESOURCE_CLASS structure pointer [Failover Cluster]","_wolf_clusprop_resource_class","clusapi/CLUSPROP_RESOURCE_CLASS","clusapi/PCLUSPROP_RESOURCE_CLASS","mscs.clusprop_resource_class"]
 old-location: mscs\clusprop_resource_class.htm
 tech.root: MsCS
 ms.assetid: 9ec01908-3765-4e95-a9d3-fdf6daa5f64d

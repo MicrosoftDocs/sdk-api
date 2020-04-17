@@ -1,7 +1,7 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Skip
 title: IEnumDMO::Skip (mediaobj.h)
-description: The Skip method skips over a specified number of items in the enumeration sequence.
+description: The Skip method skips over a specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumDMO interface [DirectShow]","Skip method","IEnumDMO.Skip","IEnumDMO::Skip","IEnumDMOSkip","Skip","Skip method [DirectShow]","Skip method [DirectShow]","IEnumDMO interface","dshow.ienumdmo_skip","mediaobj/IEnumDMO::Skip"]
 old-location: dshow\ienumdmo_skip.htm
 tech.root: DirectShow
 ms.assetid: 32722190-52b5-468a-91d6-a828ad02b203

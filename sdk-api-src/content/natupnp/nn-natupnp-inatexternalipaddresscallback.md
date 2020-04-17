@@ -1,7 +1,7 @@
 ---
 UID: NN:natupnp.INATExternalIPAddressCallback
 title: INATExternalIPAddressCallback (natupnp.h)
-description: The INATExternalIPAddressCallback interface is implemented by the NAT application with UPnP technology. It provides a method that the system calls if the external IP address of the NAT computer changes.
+description: The INATExternalIPAddressCallback interface is implemented by the NAT application with UPnP technology. It provides a method that the system calls if the external IP address of the NAT computer changes.helpviewer_keywords: ["INATExternalIPAddressCallback","INATExternalIPAddressCallback interface [ICS/ICF]","INATExternalIPAddressCallback interface [ICS/ICF]","described","_ics_inatexternalipaddresscallback","ics.inatexternalipaddresscallback","natupnp/INATExternalIPAddressCallback"]
 old-location: ics\inatexternalipaddresscallback.htm
 tech.root: ics
 ms.assetid: f180f597-680b-47ce-b437-3395069a8c77

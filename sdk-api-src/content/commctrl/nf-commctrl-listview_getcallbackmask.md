@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_GetCallbackMask
 title: ListView_GetCallbackMask macro (commctrl.h)
-description: Gets the callback mask for a list-view control. You can use this macro or send the LVM_GETCALLBACKMASK message explicitly.
+description: Gets the callback mask for a list-view control. You can use this macro or send the LVM_GETCALLBACKMASK message explicitly.helpviewer_keywords: ["ListView_GetCallbackMask","ListView_GetCallbackMask macro [Windows Controls]","_win32_ListView_GetCallbackMask","_win32_ListView_GetCallbackMask_cpp","commctrl/ListView_GetCallbackMask","controls.ListView_GetCallbackMask","controls._win32_ListView_GetCallbackMask"]
 old-location: controls\ListView_GetCallbackMask.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcallbackmask.htm

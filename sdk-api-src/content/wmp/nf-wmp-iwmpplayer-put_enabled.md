@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPPlayer.put_enabled
 title: IWMPPlayer::put_enabled (wmp.h)
-description: The put_enabled method specifies a value indicating whether the Windows Media Player control is enabled.
+description: The put_enabled method specifies a value indicating whether the Windows Media Player control is enabled.helpviewer_keywords: ["IWMPPlayer interface [Windows Media Player]","put_enabled method","IWMPPlayer.put_enabled","IWMPPlayer::put_enabled","IWMPPlayerput_enabled","put_enabled","put_enabled method [Windows Media Player]","put_enabled method [Windows Media Player]","IWMPPlayer interface","wmp.iwmpplayer_put_enabled","wmp/IWMPPlayer::put_enabled"]
 old-location: wmp\iwmpplayer_put_enabled.htm
 tech.root: WMP
 ms.assetid: c0e29724-1689-4b59-a9bd-b9cc3f391b68

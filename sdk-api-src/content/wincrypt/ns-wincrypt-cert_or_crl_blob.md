@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_OR_CRL_BLOB
 title: CERT_OR_CRL_BLOB (wincrypt.h)
-description: Encapsulates certificates for use with Internet Key Exchange messages.
+description: Encapsulates certificates for use with Internet Key Exchange messages.helpviewer_keywords: ["*PCERT_OR_CRL_BLOB","CERT_BUNDLE_CERTIFICATE","CERT_BUNDLE_CRL","CERT_OR_CRL_BLOB","CERT_OR_CRL_BLOB structure [Security]","PCERT_OR_CRL_BLOB","PCERT_OR_CRL_BLOB structure pointer [Security]","security.cert_or_crl_blob","wincrypt/CERT_OR_CRL_BLOB","wincrypt/PCERT_OR_CRL_BLOB"]
 old-location: security\cert_or_crl_blob.htm
 tech.root: SecCrypto
 ms.assetid: f1e37c8f-7fca-4bf1-868f-8ec03a23a434

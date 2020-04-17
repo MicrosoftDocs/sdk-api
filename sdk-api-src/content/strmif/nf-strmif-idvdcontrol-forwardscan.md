@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl.ForwardScan
 title: IDvdControl::ForwardScan (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Searches forward through the current disc at the specified speed.
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Searches forward through the current disc at the specified speed.helpviewer_keywords: ["ForwardScan","ForwardScan method [DirectShow]","ForwardScan method [DirectShow]","IDvdControl interface","IDvdControl interface [DirectShow]","ForwardScan method","IDvdControl.ForwardScan","IDvdControl::ForwardScan","IDvdControlForwardScan","dshow.idvdcontrol_forwardscan","strmif/IDvdControl::ForwardScan"]
 old-location: dshow\idvdcontrol_forwardscan.htm
 tech.root: DirectShow
 ms.assetid: dedeec1c-8565-491e-ab2c-4cdc17d988a9

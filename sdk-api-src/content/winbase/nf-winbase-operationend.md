@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.OperationEnd
 title: OperationEnd function (winbase.h)
-description: Notifies the system that the application is about to end an operation.
+description: Notifies the system that the application is about to end an operation.helpviewer_keywords: ["OperationEnd","OperationEnd function [Operation Recorder]","oprec.operationend","winbase/OperationEnd"]
 old-location: oprec\operationend.htm
 tech.root: oprec
 ms.assetid: 73C6FBDD-BB4A-46A5-8E39-7862A1938F47

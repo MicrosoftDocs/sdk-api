@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MonthCal_GetRange
 title: MonthCal_GetRange macro (commctrl.h)
-description: Retrieves the minimum and maximum allowable dates set for a month calendar control. You can use this macro or send the MCM_GETRANGE message explicitly.
+description: Retrieves the minimum and maximum allowable dates set for a month calendar control. You can use this macro or send the MCM_GETRANGE message explicitly.helpviewer_keywords: ["MonthCal_GetRange","MonthCal_GetRange macro [Windows Controls]","_win32_MonthCal_GetRange","_win32_MonthCal_GetRange_cpp","commctrl/MonthCal_GetRange","controls.MonthCal_GetRange","controls._win32_MonthCal_GetRange"]
 old-location: controls\MonthCal_GetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getrange.htm

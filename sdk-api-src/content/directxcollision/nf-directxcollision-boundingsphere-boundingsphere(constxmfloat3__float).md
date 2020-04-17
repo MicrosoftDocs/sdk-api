@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.BoundingSphere(const XMFLOAT3 &,float)
 title: BoundingSphere::BoundingSphere(const XMFLOAT3 &,float)
-description: Creates an instance of the BoundingSphere class.
+description: Creates an instance of the BoundingSphere class.helpviewer_keywords: ["BoundingSphere","BoundingSphere interface [DirectX Math Support APIs]","DirectX.BoundingSphere constructor","BoundingSphere.BoundingSphere","BoundingSphere.BoundingSphere(const XMFLOAT3 &","float)","BoundingSphere.DirectX.BoundingSphere(const XMFLOAT3&","float)","BoundingSphere::BoundingSphere","BoundingSphere::BoundingSphere(const XMFLOAT3 &","float)","DirectX.BoundingSphere constructor [DirectX Math Support APIs]","DirectX.BoundingSphere constructor [DirectX Math Support APIs]","BoundingSphere interface","dxmath.boundingsphere_ctor_1"]
 old-location: dxmath\boundingsphere_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.#ctor(XMFLOAT3,float)

@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesManager.GetDeviceServicesContext
 title: IMbnDeviceServicesManager::GetDeviceServicesContext (mbnapi.h)
-description: Gets the IMbnDeviceServicesContext interface for a specific Mobile Broadband device.
+description: Gets the IMbnDeviceServicesContext interface for a specific Mobile Broadband device.helpviewer_keywords: ["GetDeviceServicesContext","GetDeviceServicesContext method [Microsoft Broadband Networks]","GetDeviceServicesContext method [Microsoft Broadband Networks]","IMbnDeviceServicesManager interface","IMbnDeviceServicesManager interface [Microsoft Broadband Networks]","GetDeviceServicesContext method","IMbnDeviceServicesManager.GetDeviceServicesContext","IMbnDeviceServicesManager::GetDeviceServicesContext","mbn.imbndeviceservicesmanager_getdeviceservicescontext","mbnapi/IMbnDeviceServicesManager::GetDeviceServicesContext"]
 old-location: mbn\imbndeviceservicesmanager_getdeviceservicescontext.htm
 tech.root: mbn
 ms.assetid: 20AD207B-6FC3-4493-81F7-41619CA703DB

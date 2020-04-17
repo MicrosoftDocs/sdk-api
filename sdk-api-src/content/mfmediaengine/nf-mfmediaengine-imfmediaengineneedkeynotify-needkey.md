@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineNeedKeyNotify.NeedKey
 title: IMFMediaEngineNeedKeyNotify::NeedKey (mfmediaengine.h)
-description: Notifies the application that a key or keys are needed along with any initialization data.
+description: Notifies the application that a key or keys are needed along with any initialization data.helpviewer_keywords: ["IMFMediaEngineNeedKeyNotify interface [Media Foundation]","NeedKey method","IMFMediaEngineNeedKeyNotify.NeedKey","IMFMediaEngineNeedKeyNotify::NeedKey","NeedKey","NeedKey method [Media Foundation]","NeedKey method [Media Foundation]","IMFMediaEngineNeedKeyNotify interface","mf.imfmediaengineneedkeynotify_needkey","mfmediaengine/IMFMediaEngineNeedKeyNotify::NeedKey"]
 old-location: mf\imfmediaengineneedkeynotify_needkey.htm
 tech.root: medfound
 ms.assetid: 2b9a64d6-1a0f-4375-973a-42734ac5658e

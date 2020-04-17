@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ShowWindowAsync
 title: ShowWindowAsync function (winuser.h)
-description: Sets the show state of a window without waiting for the operation to complete.
+description: Sets the show state of a window without waiting for the operation to complete.helpviewer_keywords: ["ShowWindowAsync","ShowWindowAsync function [Windows and Messages]","_win32_ShowWindowAsync","_win32_showwindowasync_cpp","winmsg.showwindowasync","winui._win32_showwindowasync","winuser/ShowWindowAsync"]
 old-location: winmsg\showwindowasync.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\showwindowasync.htm

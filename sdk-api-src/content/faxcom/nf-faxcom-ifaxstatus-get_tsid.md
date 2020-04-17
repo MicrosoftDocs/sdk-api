@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Tsid
 title: IFaxStatus::get_Tsid (faxcom.h)
-description: Retrieves the Tsid property for the FaxStatus object of a parent FaxPort object. The Tsid property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax port.
+description: Retrieves the Tsid property for the FaxStatus object of a parent FaxPort object. The Tsid property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax port.helpviewer_keywords: ["IFaxStatus interface [Fax Service]","Tsid property","IFaxStatus.Tsid","IFaxStatus.get_Tsid","IFaxStatus::Tsid","IFaxStatus::get_Tsid","Tsid property [Fax Service]","Tsid property [Fax Service]","IFaxStatus interface","_mfax_ifaxstatus_get_tsid","fax._mfax_ifaxstatus_get_tsid","fax._mfax_ifaxstatus_mfax_ifaxstatus_get_tsid_cpp","faxcom/IFaxStatus::Tsid","faxcom/IFaxStatus::get_Tsid","get_Tsid"]
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_22p0.htm

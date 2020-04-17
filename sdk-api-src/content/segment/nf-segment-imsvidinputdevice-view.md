@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidInputDevice.View
 title: IMSVidInputDevice::View (segment.h)
-description: The View method configures this input device to view the specified tune request.
+description: The View method configures this input device to view the specified tune request.helpviewer_keywords: ["IMSVidInputDevice interface [Microsoft TV Technologies]","View method","IMSVidInputDevice.View","IMSVidInputDevice::View","IMSVidInputDeviceView","View","View method [Microsoft TV Technologies]","View method [Microsoft TV Technologies]","IMSVidInputDevice interface","mstv.imsvidinputdevice_view","segment/IMSVidInputDevice::View"]
 old-location: mstv\imsvidinputdevice_view.htm
 tech.root: mstv
 ms.assetid: f106e520-86e5-4b7e-8e16-1f82797f128f

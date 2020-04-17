@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMPacketSize2.SetMinPacketSize
 title: IWMPacketSize2::SetMinPacketSize (wmsdkidl.h)
-description: The SetMinPacketSize method sets the minimum packet size for files created with the profile. This method cannot be called from an interface belonging to a reader or synchronous reader object.
+description: The SetMinPacketSize method sets the minimum packet size for files created with the profile. This method cannot be called from an interface belonging to a reader or synchronous reader object.helpviewer_keywords: ["IWMPacketSize2 interface [windows Media Format]","SetMinPacketSize method","IWMPacketSize2.SetMinPacketSize","IWMPacketSize2::SetMinPacketSize","IWMPacketSize2SetMinPacketSize","SetMinPacketSize","SetMinPacketSize method [windows Media Format]","SetMinPacketSize method [windows Media Format]","IWMPacketSize2 interface","wmformat.iwmpacketsize2_setminpacketsize","wmsdkidl/IWMPacketSize2::SetMinPacketSize"]
 old-location: wmformat\iwmpacketsize2_setminpacketsize.htm
 tech.root: wmformat
 ms.assetid: 6d58da65-710c-46ea-8fb9-9d161df06483

@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmCalloutSubscribeChanges0
 title: FwpmCalloutSubscribeChanges0 function (fwpmu.h)
-description: Is used to request the delivery of notifications regarding changes in a particular callout.
+description: Is used to request the delivery of notifications regarding changes in a particular callout.helpviewer_keywords: ["FwpmCalloutSubscribeChanges0","FwpmCalloutSubscribeChanges0 function [Filtering]","fwp.fwpmcalloutsubscribechanges0_func","fwpmu/FwpmCalloutSubscribeChanges0"]
 old-location: fwp\fwpmcalloutsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: 1460603c-6897-4559-b376-b87a6c2f4309

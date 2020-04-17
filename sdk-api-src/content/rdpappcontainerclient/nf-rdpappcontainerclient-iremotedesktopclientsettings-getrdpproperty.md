@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.GetRdpProperty
 title: IRemoteDesktopClientSettings::GetRdpProperty (rdpappcontainerclient.h)
-description: Retrieves a single named RDP property value.
+description: Retrieves a single named RDP property value.helpviewer_keywords: ["GetRdpProperty","GetRdpProperty method [Remote Desktop Services]","GetRdpProperty method [Remote Desktop Services]","IRemoteDesktopClientSettings interface","IRemoteDesktopClientSettings interface [Remote Desktop Services]","GetRdpProperty method","IRemoteDesktopClientSettings.GetRdpProperty","IRemoteDesktopClientSettings::GetRdpProperty","rdpappcontainerclient/IRemoteDesktopClientSettings::GetRdpProperty","termserv.iremotedesktopclientsettings_getrdpproperty"]
 old-location: termserv\iremotedesktopclientsettings_getrdpproperty.htm
 tech.root: TermServ
 ms.assetid: e172098a-d3c1-46cc-8c46-cdf14c46b43a

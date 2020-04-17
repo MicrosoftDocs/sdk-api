@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMBackupCollection.get_Item
 title: IGPMBackupCollection::get_Item (gpmgmt.h)
-description: Given an index, returns a GPMBackup object from the collection.
+description: Given an index, returns a GPMBackup object from the collection.helpviewer_keywords: ["GPMBackupCollection object [GPMC]","Item property","IGPMBackupCollection interface [GPMC]","Item property","IGPMBackupCollection.Item","IGPMBackupCollection.get_Item","IGPMBackupCollection::Item","IGPMBackupCollection::get_Item","Item property [GPMC]","Item property [GPMC]","GPMBackupCollection object","Item property [GPMC]","IGPMBackupCollection interface","get_Item","gpmc.igpmbackupcollection_get_item","gpmgmt/IGPMBackupCollection::Item","gpmgmt/IGPMBackupCollection::get_Item"]
 old-location: gpmc\igpmbackupcollection_get_item.htm
 tech.root: gpmc
 ms.assetid: 2e0ea5fb-3f91-4a64-8b4a-9fa97cd3ec3e

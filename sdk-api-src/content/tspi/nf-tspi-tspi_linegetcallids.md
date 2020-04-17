@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_lineGetCallIDs
 title: TSPI_lineGetCallIDs function (tspi.h)
-description: The TSPI_lineGetCallIDs function returns the call identifiers for the service provider. This function requires TAPI 3.0 version negotiation.
+description: The TSPI_lineGetCallIDs function returns the call identifiers for the service provider. This function requires TAPI 3.0 version negotiation.helpviewer_keywords: ["TSPI_lineGetCallIDs","TSPI_lineGetCallIDs function [TAPI 2.2]","_tspi_tspi_linegetcallids","tspi.tspi_linegetcallids","tspi/TSPI_lineGetCallIDs"]
 old-location: tspi\tspi_linegetcallids.htm
 tech.root: Tapi
 ms.assetid: d2a23712-a144-416c-a914-935f1776c256

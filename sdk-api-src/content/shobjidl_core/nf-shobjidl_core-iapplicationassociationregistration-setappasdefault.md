@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.SetAppAsDefault
 title: IApplicationAssociationRegistration::SetAppAsDefault (shobjidl_core.h)
-description: Sets an application as the default for a given extension or protocol, provided that the application's publisher matches the current default's. For more information, see Default Programs. Not intended for use in Windows 8.
+description: Sets an application as the default for a given extension or protocol, provided that the application's publisher matches the current default's. For more information, see Default Programs. Not intended for use in Windows 8.helpviewer_keywords: ["IApplicationAssociationRegistration interface [Windows Shell]","SetAppAsDefault method","IApplicationAssociationRegistration.SetAppAsDefault","IApplicationAssociationRegistration::SetAppAsDefault","SetAppAsDefault","SetAppAsDefault method [Windows Shell]","SetAppAsDefault method [Windows Shell]","IApplicationAssociationRegistration interface","_shell_IApplicationAssociationRegistration_SetAppAsDefault","shell.IApplicationAssociationRegistration_SetAppAsDefault","shobjidl_core/IApplicationAssociationRegistration::SetAppAsDefault"]
 old-location: shell\IApplicationAssociationRegistration_SetAppAsDefault.htm
 tech.root: shell
 ms.assetid: 30870adb-793f-404f-809c-1ec34a1f6b82

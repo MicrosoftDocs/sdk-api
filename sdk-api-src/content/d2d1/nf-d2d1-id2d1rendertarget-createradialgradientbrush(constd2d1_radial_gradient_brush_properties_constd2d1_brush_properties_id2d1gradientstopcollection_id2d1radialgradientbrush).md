@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES,const D2D1_BRUSH_PROPERTIES,ID2D1GradientStopCollection,ID2D1RadialGradientBrush)
 title: ID2D1RenderTarget::CreateRadialGradientBrush (d2d1.h)
-description: Creates an ID2D1RadialGradientBrush object that can be used to paint areas with a radial gradient.
+description: Creates an ID2D1RadialGradientBrush object that can be used to paint areas with a radial gradient.helpviewer_keywords: ["CreateRadialGradientBrush","CreateRadialGradientBrush methods [Direct2D]","ID2D1RenderTarget.CreateRadialGradientBrush","ID2D1RenderTarget::CreateRadialGradientBrush","d2d1/CreateRadialGradientBrush","direct2d.id2d1rendertarget_createradialgradientbrush"]
 old-location: direct2d\id2d1rendertarget_createradialgradientbrush.htm
 tech.root: Direct2D
 ms.assetid: 985a4c1b-d29b-46ed-bc55-6dcd313718a8

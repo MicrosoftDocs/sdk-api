@@ -1,7 +1,7 @@
 ---
 UID: NF:peerdist.PeerDistClientCloseContent
 title: PeerDistClientCloseContent function (peerdist.h)
-description: PeerDistClientCloseContent function closes the content handle opened by PeerDistClientOpenContent.
+description: PeerDistClientCloseContent function closes the content handle opened by PeerDistClientOpenContent.helpviewer_keywords: ["PeerDistClientCloseContent","PeerDistClientCloseContent function [Peer Networking]","p2p.peerdistclientclosecontent","peerdist/PeerDistClientCloseContent"]
 old-location: p2p\peerdistclientclosecontent.htm
 tech.root: P2PSdk
 ms.assetid: c55300b7-13b6-42bf-b673-56a5e077416d

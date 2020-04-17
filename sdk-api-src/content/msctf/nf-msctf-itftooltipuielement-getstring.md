@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfToolTipUIElement.GetString
 title: ITfToolTipUIElement::GetString (msctf.h)
-description: Returns the string of the tooltip.
+description: Returns the string of the tooltip.helpviewer_keywords: ["GetString","GetString method [Text Services Framework]","GetString method [Text Services Framework]","ITfToolTipUIElement interface","ITfToolTipUIElement interface [Text Services Framework]","GetString method","ITfToolTipUIElement.GetString","ITfToolTipUIElement::GetString","msctf/ITfToolTipUIElement::GetString","tsf.itftooltipuielement_getstring"]
 old-location: tsf\itftooltipuielement_getstring.htm
 tech.root: TSF
 ms.assetid: 2858a16a-7550-4e16-8872-ecfffa7d1b4e

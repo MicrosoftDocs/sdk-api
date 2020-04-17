@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.DrawGlyphRun
 title: IDWriteBitmapRenderTarget::DrawGlyphRun (dwrite.h)
-description: Draws a run of glyphs to a bitmap target at the specified position.
+description: Draws a run of glyphs to a bitmap target at the specified position.helpviewer_keywords: ["DrawGlyphRun","DrawGlyphRun method [Direct Write]","DrawGlyphRun method [Direct Write]","IDWriteBitmapRenderTarget interface","IDWriteBitmapRenderTarget interface [Direct Write]","DrawGlyphRun method","IDWriteBitmapRenderTarget.DrawGlyphRun","IDWriteBitmapRenderTarget::DrawGlyphRun","directwrite.IDWriteBitmapRenderTarget_DrawGlyphRun","dwrite/IDWriteBitmapRenderTarget::DrawGlyphRun"]
 old-location: directwrite\IDWriteBitmapRenderTarget_DrawGlyphRun.htm
 tech.root: DirectWrite
 ms.assetid: d766d2d1-6be7-468a-a10e-c7cab421b9a7

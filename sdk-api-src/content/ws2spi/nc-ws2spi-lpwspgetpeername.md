@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPGETPEERNAME
 title: LPWSPGETPEERNAME
-description: The LPWSPGetPeerName function gets the address of the peer to which a socket is connected.
+description: The LPWSPGetPeerName function gets the address of the peer to which a socket is connected.helpviewer_keywords: ["LPWSPGETPEERNAME"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPGETPEERNAME
 targetos: Windows

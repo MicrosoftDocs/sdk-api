@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2.linger
 title: LINGER (winsock2.h)
-description: Maintains information about a specific socket that specifies how that socket should behave when data is queued to be sent and the closesocket function is called on the socket.
+description: Maintains information about a specific socket that specifies how that socket should behave when data is queued to be sent and the closesocket function is called on the socket.helpviewer_keywords: ["*LPLINGER","*PLINGER","LINGER","_win32_linger_2","linger","linger structure [Winsock]","winsock.linger_2","winsock/linger"]
 old-location: winsock\linger_2.htm
 tech.root: WinSock
 ms.assetid: c1dbabcf-b5cd-4a9d-9bf9-b04c62117d74

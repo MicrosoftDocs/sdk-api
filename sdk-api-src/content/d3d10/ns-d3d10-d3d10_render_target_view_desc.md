@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_RENDER_TARGET_VIEW_DESC
 title: D3D10_RENDER_TARGET_VIEW_DESC (d3d10.h)
-description: Specifies the subresource(s) from a resource that are accessible using a render-target view.
+description: Specifies the subresource(s) from a resource that are accessible using a render-target view.helpviewer_keywords: ["5e255a6a-0061-9fe8-11d9-e7f4391dd52d","D3D10_RENDER_TARGET_VIEW_DESC","D3D10_RENDER_TARGET_VIEW_DESC structure [Direct3D 10]","d3d10/D3D10_RENDER_TARGET_VIEW_DESC","direct3d10.d3d10_render_target_view_desc"]
 old-location: direct3d10\d3d10_render_target_view_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_render_target_view_desc.htm

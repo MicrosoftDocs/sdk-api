@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._TXFS_MODIFY_RM
 title: TXFS_MODIFY_RM
-description: Contains the information required when modifying log parameters and logging mode for a secondary resource manager.
+description: Contains the information required when modifying log parameters and logging mode for a secondary resource manager.helpviewer_keywords: ["*PTXFS_MODIFY_RM","PTXFS_MODIFY_RM","PTXFS_MODIFY_RM structure pointer [Files]","TXFS_LOGGING_MODE_FULL","TXFS_LOGGING_MODE_SIMPLE","TXFS_MODIFY_RM","TXFS_MODIFY_RM structure [Files]","TXFS_RM_FLAG_DO_NOT_RESET_RM_AT_NEXT_START","TXFS_RM_FLAG_ENFORCE_MINIMUM_SIZE","TXFS_RM_FLAG_GROW_LOG","TXFS_RM_FLAG_LOGGING_MODE","TXFS_RM_FLAG_LOG_AUTO_SHRINK_PERCENTAGE","TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MAX","TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MIN","TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_NUM_CONTAINERS","TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_PERCENT","TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MAX","TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MIN","TXFS_RM_FLAG_PREFER_AVAILABILITY","TXFS_RM_FLAG_PREFER_CONSISTENCY","TXFS_RM_FLAG_PRESERVE_CHANGES","TXFS_RM_FLAG_RENAME_RM","TXFS_RM_FLAG_RESET_RM_AT_NEXT_START","TXFS_RM_FLAG_SHRINK_LOG","base.txfs_set_rm_information","fs.txfs_modify_rm","fs.txfs_set_rm_information","winioctl/PTXFS_MODIFY_RM","winioctl/TXFS_MODIFY_RM"]
 old-location: fs\txfs_modify_rm.htm
 tech.root: FileIO
 ms.assetid: f50d64de-4452-47ac-b2fe-a049afbd526c

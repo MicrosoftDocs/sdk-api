@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.UuidCreate
 title: UuidCreate function (rpcdce.h)
-description: The UuidCreate function creates a new UUID.
+description: The UuidCreate function creates a new UUID.helpviewer_keywords: ["UuidCreate","UuidCreate function [RPC]","_rpc_uuidcreate","rpc.uuidcreate","rpcdce/UuidCreate"]
 old-location: rpc\uuidcreate.htm
 tech.root: Rpc
 ms.assetid: 4008fb54-7770-4f1a-8e1c-4b20bef884f9

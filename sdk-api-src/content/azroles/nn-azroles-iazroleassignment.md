@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzRoleAssignment
 title: IAzRoleAssignment (azroles.h)
-description: Represents a role to which users and groups can be assigned.
+description: Represents a role to which users and groups can be assigned.helpviewer_keywords: ["IAzRoleAssignment","IAzRoleAssignment interface [Security]","IAzRoleAssignment interface [Security]","described","azroles/IAzRoleAssignment","security.iazroleassignment"]
 old-location: security\iazroleassignment.htm
 tech.root: SecAuthZ
 ms.assetid: 3f0b926f-77f4-4477-b155-5f866822baba

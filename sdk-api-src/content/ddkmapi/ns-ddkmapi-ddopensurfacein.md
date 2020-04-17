@@ -1,7 +1,7 @@
 ---
 UID: NS:ddkmapi._DDOPENSURFACEIN
 title: DDOPENSURFACEIN (ddkmapi.h)
-description: The DDOPENSURFACEIN structure contains the DirectDrawSurface object information.
+description: The DDOPENSURFACEIN structure contains the DirectDrawSurface object information.helpviewer_keywords: ["*LPDDOPENSURFACEIN","DDOPENSURFACEIN","DDOPENSURFACEIN structure [Display Devices]","LPDDOPENSURFACEIN","LPDDOPENSURFACEIN structure pointer [Display Devices]","ddkmapi/DDOPENSURFACEIN","ddkmapi/LPDDOPENSURFACEIN","ddstrcts_406539e4-c43f-4871-b00b-30c71433d1fd.xml","display.ddopensurfacein"]
 old-location: display\ddopensurfacein.htm
 tech.root: display
 ms.assetid: 98a5d436-096d-4698-8f2c-31a0455300ff

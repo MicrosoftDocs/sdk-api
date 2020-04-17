@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.LookupAuthoredNamedEntity
 title: ISchemaProvider::LookupAuthoredNamedEntity (structuredquery.h)
-description: Finds named entities of a specified type in a tokenized string, and returns the value of the entity and the number of tokens the entity value occupies.
+description: Finds named entities of a specified type in a tokenized string, and returns the value of the entity and the number of tokens the entity value occupies.helpviewer_keywords: ["ISchemaProvider interface [search]","LookupAuthoredNamedEntity method","ISchemaProvider.LookupAuthoredNamedEntity","ISchemaProvider::LookupAuthoredNamedEntity","LookupAuthoredNamedEntity","LookupAuthoredNamedEntity method [search]","LookupAuthoredNamedEntity method [search]","ISchemaProvider interface","_search_ISchemaProvider_LookupAuthoredNamedEntity","search._search_ISchemaProvider_LookupAuthoredNamedEntity","structuredquery/ISchemaProvider::LookupAuthoredNamedEntity"]
 old-location: search\_search_ISchemaProvider_LookupAuthoredNamedEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\lookupauthorednamedentity.htm

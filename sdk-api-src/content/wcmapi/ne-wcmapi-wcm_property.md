@@ -1,7 +1,7 @@
 ---
 UID: NE:wcmapi._WCM_PROPERTY
 title: WCM_PROPERTY (wcmapi.h)
-description: Specifies a property of a connection.
+description: Specifies a property of a connection.helpviewer_keywords: ["*PWCM_PROPERTY","PWCM_PROPERTY","PWCM_PROPERTY enumeration pointer [Windows Connection Manager]","WCM_PROPERTY","WCM_PROPERTY enumeration [Windows Connection Manager]","wcm.wcm_property","wcm_global_property_domain_policy","wcm_global_property_minimize_policy","wcm_global_property_powermanagement_policy","wcm_global_property_roaming_policy","wcm_intf_property_connection_cost","wcm_intf_property_dataplan_status","wcm_intf_property_hotspot_profile","wcmapi/PWCM_PROPERTY","wcmapi/WCM_PROPERTY","wcmapi/wcm_global_property_domain_policy","wcmapi/wcm_global_property_minimize_policy","wcmapi/wcm_global_property_powermanagement_policy","wcmapi/wcm_global_property_roaming_policy","wcmapi/wcm_intf_property_connection_cost","wcmapi/wcm_intf_property_dataplan_status","wcmapi/wcm_intf_property_hotspot_profile"]
 old-location: wcm\wcm_property.htm
 tech.root: wcm
 ms.assetid: 4cb5f7aa-2f06-4a8a-814d-f8e01b496fb9

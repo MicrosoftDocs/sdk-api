@@ -1,7 +1,7 @@
 ---
 UID: NN:upnp.IUPnPDevices
 title: IUPnPDevices (upnp.h)
-description: The IUPnPDevices interface enumerates a collection of devices.
+description: The IUPnPDevices interface enumerates a collection of devices.helpviewer_keywords: ["IUPnPDevices","IUPnPDevices interface [UPnP APIs]","IUPnPDevices interface [UPnP APIs]","described","_upnp_iupnpdevices","upnp.iupnpdevices","upnp/IUPnPDevices"]
 old-location: upnp\iupnpdevices.htm
 tech.root: upnp
 ms.assetid: 237715dc-2b5a-45b4-b006-d31c0b4e89e3

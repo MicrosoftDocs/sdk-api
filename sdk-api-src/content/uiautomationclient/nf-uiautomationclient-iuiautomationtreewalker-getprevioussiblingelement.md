@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetPreviousSiblingElement
 title: IUIAutomationTreeWalker::GetPreviousSiblingElement (uiautomationclient.h)
-description: Retrieves the previous sibling element of the specified UI Automation element.
+description: Retrieves the previous sibling element of the specified UI Automation element.helpviewer_keywords: ["GetPreviousSiblingElement","GetPreviousSiblingElement method [Windows Accessibility]","GetPreviousSiblingElement method [Windows Accessibility]","IUIAutomationTreeWalker interface","IUIAutomationTreeWalker interface [Windows Accessibility]","GetPreviousSiblingElement method","IUIAutomationTreeWalker.GetPreviousSiblingElement","IUIAutomationTreeWalker::GetPreviousSiblingElement","uiauto.uiauto_IUIAutomationTreeWalker_GetPreviousSibling","uiauto_IUIAutomationTreeWalker_GetPreviousSibling","uiautomationclient/IUIAutomationTreeWalker::GetPreviousSiblingElement","winauto.uiauto_IUIAutomationTreeWalker_GetPreviousSibling"]
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetPreviousSibling.htm
 tech.root: WinAuto
 ms.assetid: 6e05f421-d037-4d3b-908e-44ddd818a3f1

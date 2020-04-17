@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.put_HighOscillator
 title: IDVBSTuningSpace::put_HighOscillator (tuner.h)
-description: The put_HighOscillator method sets the high oscillator frequency.
+description: The put_HighOscillator method sets the high oscillator frequency.helpviewer_keywords: ["IDVBSTuningSpace interface [Microsoft TV Technologies]","put_HighOscillator method","IDVBSTuningSpace.put_HighOscillator","IDVBSTuningSpace::put_HighOscillator","IDVBSTuningSpaceput_HighOscillator","mstv.idvbstuningspace_put_highoscillator","put_HighOscillator","put_HighOscillator method [Microsoft TV Technologies]","put_HighOscillator method [Microsoft TV Technologies]","IDVBSTuningSpace interface","tuner/IDVBSTuningSpace::put_HighOscillator"]
 old-location: mstv\idvbstuningspace_put_highoscillator.htm
 tech.root: mstv
 ms.assetid: 0f71008b-dbb6-485b-b196-7c2d215b3064

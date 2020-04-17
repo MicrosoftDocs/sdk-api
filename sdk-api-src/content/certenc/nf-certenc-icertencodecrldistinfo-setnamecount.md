@@ -1,7 +1,7 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.SetNameCount
 title: ICertEncodeCRLDistInfo::SetNameCount (certenc.h)
-description: Sets a name count for the specified distribution point in a certificate revocation list (CRL) distribution information array.
+description: Sets a name count for the specified distribution point in a certificate revocation list (CRL) distribution information array.helpviewer_keywords: ["CCertEncodeCRLDistInfo object [Security]","SetNameCount method","ICertEncodeCRLDistInfo interface [Security]","SetNameCount method","ICertEncodeCRLDistInfo.SetNameCount","ICertEncodeCRLDistInfo::SetNameCount","SetNameCount","SetNameCount method [Security]","SetNameCount method [Security]","CCertEncodeCRLDistInfo object","SetNameCount method [Security]","ICertEncodeCRLDistInfo interface","_certsrv_icertencodecrldistinfo_setnamecount","certenc/ICertEncodeCRLDistInfo::SetNameCount","security.icertencodecrldistinfo_setnamecount"]
 old-location: security\icertencodecrldistinfo_setnamecount.htm
 tech.root: SecCrypto
 ms.assetid: ce27adfd-e21a-4e8d-882e-72041f97958a

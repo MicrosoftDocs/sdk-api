@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.IsModifiable
 title: ICodecAPI::IsModifiable (strmif.h)
-description: The IsModifiable method queries whether a codec property can be changed, given the codec's current configuration.
+description: The IsModifiable method queries whether a codec property can be changed, given the codec's current configuration.helpviewer_keywords: ["ICodecAPI interface [DirectShow]","IsModifiable method","ICodecAPI.IsModifiable","ICodecAPI::IsModifiable","ICodecAPIIsModifiable","IsModifiable","IsModifiable method [DirectShow]","IsModifiable method [DirectShow]","ICodecAPI interface","dshow.icodecapi_ismodifiable","strmif/ICodecAPI::IsModifiable"]
 old-location: dshow\icodecapi_ismodifiable.htm
 tech.root: DirectShow
 ms.assetid: 5f7c7f72-02f2-4840-aaa2-9d26fe564577

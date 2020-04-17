@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_providerFreeDialogInstance
 title: TSPI_providerFreeDialogInstance function (tspi.h)
-description: The TSPI_providerFreeDialogInstance function informs the service provider that the dialog box associated with hdDlgInst has exited.
+description: The TSPI_providerFreeDialogInstance function informs the service provider that the dialog box associated with hdDlgInst has exited.helpviewer_keywords: ["TSPI_providerFreeDialogInstance","TSPI_providerFreeDialogInstance function [TAPI 2.2]","_tspi_tspi_providerfreedialoginstance","tspi.tspi_providerfreedialoginstance","tspi/TSPI_providerFreeDialogInstance"]
 old-location: tspi\tspi_providerfreedialoginstance.htm
 tech.root: Tapi
 ms.assetid: 0408c43f-cb80-4caf-ab28-5ece4b2e4851

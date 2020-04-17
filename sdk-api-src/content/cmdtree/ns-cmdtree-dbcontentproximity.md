@@ -1,7 +1,7 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTPROXIMITY
 title: DBCONTENTPROXIMITY (cmdtree.h)
-description: The DBCONTENTPROXIMITY structure represents specific information required by the DBOP_content_proximity operator.
+description: The DBCONTENTPROXIMITY structure represents specific information required by the DBOP_content_proximity operator.helpviewer_keywords: ["DBCONTENTPROXIMITY","DBCONTENTPROXIMITY structure [Indexing Service]","_idxs_DBCONTENTPROXIMITY","cmdtree/DBCONTENTPROXIMITY","indexsrv.dbcontentproximity","tagDBCONTENTPROXIMITY"]
 old-location: indexsrv\dbcontentproximity.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_035l.htm

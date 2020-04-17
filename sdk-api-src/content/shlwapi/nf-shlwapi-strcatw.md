@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrCatW
 title: StrCatW function (shlwapi.h)
-description: Appends one string to another.
+description: Appends one string to another.helpviewer_keywords: ["StrCat","StrCat function [Windows Shell]","StrCatW","_win32_StrCat","shell.StrCat","shlwapi/StrCat","shlwapi/StrCatW"]
 old-location: shell\StrCat.htm
 tech.root: shell
 ms.assetid: fd357462-83be-42a8-9f39-1e023bd5f86e

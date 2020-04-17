@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.SaveAsXML
 title: IVssCreateExpressWriterMetadata::SaveAsXML (vswriter.h)
-description: Stores the Writer Metadata Document that contains an express writer's state information into a specified string.
+description: Stores the Writer Metadata Document that contains an express writer's state information into a specified string.helpviewer_keywords: ["IVssCreateExpressWriterMetadata interface","SaveAsXML method","IVssCreateExpressWriterMetadata.SaveAsXML","IVssCreateExpressWriterMetadata::SaveAsXML","SaveAsXML","SaveAsXML method","SaveAsXML method","IVssCreateExpressWriterMetadata interface","base.ivsscreateexpresswritermetadata_saveasxml","vswriter/IVssCreateExpressWriterMetadata::SaveAsXML"]
 old-location: base\ivsscreateexpresswritermetadata_saveasxml.htm
 tech.root: VSS
 ms.assetid: c2a1ba98-74a1-4944-ac31-fec364060a75

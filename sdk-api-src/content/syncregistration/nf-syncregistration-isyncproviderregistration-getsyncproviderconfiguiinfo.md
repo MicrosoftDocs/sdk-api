@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderConfigUIInfo
 title: ISyncProviderRegistration::GetSyncProviderConfigUIInfo (syncregistration.h)
-description: Returns an ISyncProviderConfigUIInfo object for the given unique instance ID.
+description: Returns an ISyncProviderConfigUIInfo object for the given unique instance ID.helpviewer_keywords: ["GetSyncProviderConfigUIInfo","GetSyncProviderConfigUIInfo method [Windows Sync]","GetSyncProviderConfigUIInfo method [Windows Sync]","ISyncProviderRegistration interface","ISyncProviderRegistration interface [Windows Sync]","GetSyncProviderConfigUIInfo method","ISyncProviderRegistration.GetSyncProviderConfigUIInfo","ISyncProviderRegistration::GetSyncProviderConfigUIInfo","syncregistration/ISyncProviderRegistration::GetSyncProviderConfigUIInfo","winsync.isyncproviderregistration_getsyncproviderconfiguiinfo"]
 old-location: winsync\isyncproviderregistration_getsyncproviderconfiguiinfo.htm
 tech.root: winsync
 ms.assetid: 687f2f28-378e-456c-a06a-d78e486e6635

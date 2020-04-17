@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptGetMessageSignerCount
 title: CryptGetMessageSignerCount function (wincrypt.h)
-description: The CryptGetMessageSignerCount function returns the number of signers of a signed message.
+description: The CryptGetMessageSignerCount function returns the number of signers of a signed message.helpviewer_keywords: ["CryptGetMessageSignerCount","CryptGetMessageSignerCount function [Security]","_crypto2_cryptgetmessagesignercount","security.cryptgetmessagesignercount","wincrypt/CryptGetMessageSignerCount"]
 old-location: security\cryptgetmessagesignercount.htm
 tech.root: SecCrypto
 ms.assetid: d18bda8b-b333-4b1e-8ed5-f8eff04b3168

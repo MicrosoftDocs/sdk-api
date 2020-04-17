@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.Individualize
 title: IWMDRMReader::Individualize (wmsdkidl.h)
-description: The Individualize method individualizes the client by updating their DRM system components.
+description: The Individualize method individualizes the client by updating their DRM system components.helpviewer_keywords: ["IWMDRMReader interface [windows Media Format]","Individualize method","IWMDRMReader.Individualize","IWMDRMReader::Individualize","IWMDRMReaderIndividualize","Individualize","Individualize method [windows Media Format]","Individualize method [windows Media Format]","IWMDRMReader interface","wmformat.iwmdrmreader_individualize","wmsdkidl/IWMDRMReader::Individualize"]
 old-location: wmformat\iwmdrmreader_individualize.htm
 tech.root: wmformat
 ms.assetid: 51bf9aa0-4c96-4c0b-8e5e-b63fd20dcc4d

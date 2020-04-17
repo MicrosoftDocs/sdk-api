@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_CERT_EKUS0_
 title: IKEEXT_CERT_EKUS0 (iketypes.h)
-description: Contains information about the extended key usage (EKU) properties of a certificate.
+description: Contains information about the extended key usage (EKU) properties of a certificate.helpviewer_keywords: ["IKEEXT_CERT_EKUS0","IKEEXT_CERT_EKUS0 structure [Filtering]","fwp.ikeext_cert_ekus0","iketypes/IKEEXT_CERT_EKUS0"]
 old-location: fwp\ikeext_cert_ekus0.htm
 tech.root: fwp
 ms.assetid: e9669340-a1f2-455f-a490-a94694c83531

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.EnumFunctionProviders
 title: ITfThreadMgr2::EnumFunctionProviders (msctf.h)
-description: Obtains an enumerator for all of the function providers registered for the calling thread.
+description: Obtains an enumerator for all of the function providers registered for the calling thread.helpviewer_keywords: ["EnumFunctionProviders","EnumFunctionProviders method [Text Services Framework]","EnumFunctionProviders method [Text Services Framework]","ITfThreadMgr2 interface","ITfThreadMgr2 interface [Text Services Framework]","EnumFunctionProviders method","ITfThreadMgr2.EnumFunctionProviders","ITfThreadMgr2::EnumFunctionProviders","msctf/ITfThreadMgr2::EnumFunctionProviders","tsf.itfthreadmgr2_enumfunctionproviders"]
 old-location: tsf\itfthreadmgr2_enumfunctionproviders.htm
 tech.root: TSF
 ms.assetid: 0F28BDFD-4CD8-4D50-92D9-6A60B80122B2

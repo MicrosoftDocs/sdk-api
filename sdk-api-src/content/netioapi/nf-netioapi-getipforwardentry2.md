@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.GetIpForwardEntry2
 title: GetIpForwardEntry2 function (netioapi.h)
-description: Retrieves information for an IP route entry on the local computer.
+description: Retrieves information for an IP route entry on the local computer.helpviewer_keywords: ["GetIpForwardEntry2","GetIpForwardEntry2 function [IP Helper]","iphlp.getipforwardentry2","netioapi/GetIpForwardEntry2"]
 old-location: iphlp\getipforwardentry2.htm
 tech.root: IpHlp
 ms.assetid: 53d5009a-d205-40ce-88e5-fe37e72b5a50

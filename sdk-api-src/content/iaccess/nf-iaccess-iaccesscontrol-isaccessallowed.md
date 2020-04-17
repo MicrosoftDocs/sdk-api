@@ -1,7 +1,7 @@
 ---
 UID: NF:iaccess.IAccessControl.IsAccessAllowed
 title: IAccessControl::IsAccessAllowed (iaccess.h)
-description: Determines whether the specified trustee has access rights to the object or property.
+description: Determines whether the specified trustee has access rights to the object or property.helpviewer_keywords: ["IAccessControl interface [COM]","IsAccessAllowed method","IAccessControl.IsAccessAllowed","IAccessControl::IsAccessAllowed","IsAccessAllowed","IsAccessAllowed method [COM]","IsAccessAllowed method [COM]","IAccessControl interface","_com_iaccesscontrol_isaccessallowed","com.iaccesscontrol_isaccessallowed","iaccess/IAccessControl::IsAccessAllowed"]
 old-location: com\iaccesscontrol_isaccessallowed.htm
 tech.root: com
 ms.assetid: ee9e7e2d-caec-443c-937d-b8fc64130ad4

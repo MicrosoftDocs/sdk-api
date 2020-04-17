@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRange.ShiftEndToRange
 title: ITfRange::ShiftEndToRange (msctf.h)
-description: ITfRange::ShiftEndToRange method
+description: ITfRange::ShiftEndToRange methodhelpviewer_keywords: ["ITfRange interface [Text Services Framework]","ShiftEndToRange method","ITfRange.ShiftEndToRange","ITfRange::ShiftEndToRange","ShiftEndToRange","ShiftEndToRange method [Text Services Framework]","ShiftEndToRange method [Text Services Framework]","ITfRange interface","_tsf_itfrange_shiftendtorange_ref","msctf/ITfRange::ShiftEndToRange","tsf.itfrange_shiftendtorange"]
 old-location: tsf\itfrange_shiftendtorange.htm
 tech.root: TSF
 ms.assetid: 27595909-025b-46c9-bd6f-2e64a720c97c

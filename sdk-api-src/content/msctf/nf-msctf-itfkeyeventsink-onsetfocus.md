@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnSetFocus
 title: ITfKeyEventSink::OnSetFocus (msctf.h)
-description: ITfKeyEventSink::OnSetFocus method
+description: ITfKeyEventSink::OnSetFocus methodhelpviewer_keywords: ["ITfKeyEventSink interface [Text Services Framework]","OnSetFocus method","ITfKeyEventSink.OnSetFocus","ITfKeyEventSink::OnSetFocus","OnSetFocus","OnSetFocus method [Text Services Framework]","OnSetFocus method [Text Services Framework]","ITfKeyEventSink interface","_tsf_itfkeyeventsink_onsetfocus_ref","msctf/ITfKeyEventSink::OnSetFocus","tsf.itfkeyeventsink_onsetfocus"]
 old-location: tsf\itfkeyeventsink_onsetfocus.htm
 tech.root: TSF
 ms.assetid: 999c7ead-7ca6-42a5-a530-706fb3283b21

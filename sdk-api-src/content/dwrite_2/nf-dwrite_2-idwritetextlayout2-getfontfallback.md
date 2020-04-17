@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetFontFallback
 title: IDWriteTextLayout2::GetFontFallback (dwrite_2.h)
-description: Get the current font fallback object.
+description: Get the current font fallback object.helpviewer_keywords: ["GetFontFallback","GetFontFallback method [Direct Write]","GetFontFallback method [Direct Write]","IDWriteTextLayout2 interface","IDWriteTextLayout2 interface [Direct Write]","GetFontFallback method","IDWriteTextLayout2.GetFontFallback","IDWriteTextLayout2::GetFontFallback","directwrite.idwritetextlayout2_getfontfallback","dwrite_2/IDWriteTextLayout2::GetFontFallback"]
 old-location: directwrite\idwritetextlayout2_getfontfallback.htm
 tech.root: DirectWrite
 ms.assetid: 65787E7E-7475-4810-B929-377D50A2BEF5

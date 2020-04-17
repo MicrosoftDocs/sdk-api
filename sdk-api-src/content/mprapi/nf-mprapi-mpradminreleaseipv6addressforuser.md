@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminReleaseIpv6AddressForUser
 title: MprAdminReleaseIpv6AddressForUser function (mprapi.h)
-description: The MprAdminReleaseIpv6AddressForUser function is called once for each user that needs to release an IPv6 address.
+description: The MprAdminReleaseIpv6AddressForUser function is called once for each user that needs to release an IPv6 address.helpviewer_keywords: ["MprAdminReleaseIpv6AddressForUser","MprAdminReleaseIpv6AddressForUser callback","MprAdminReleaseIpv6AddressForUser callback function [RAS]","mprapi/MprAdminReleaseIpv6AddressForUser","rras.mpradminreleaseipv6addressforuser"]
 old-location: rras\mpradminreleaseipv6addressforuser.htm
 tech.root: RRAS
 ms.assetid: c06433b3-d1b0-42d0-993d-5c1cde4cbc0f

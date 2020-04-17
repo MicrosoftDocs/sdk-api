@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.HIMAGELIST_QueryInterface
 title: HIMAGELIST_QueryInterface function (commctrl.h)
-description: Retrieves a pointer to an IImageList or IImageList2 object that corresponds to the image list's HIMAGELIST handle.
+description: Retrieves a pointer to an IImageList or IImageList2 object that corresponds to the image list's HIMAGELIST handle.helpviewer_keywords: ["HIMAGELIST_QueryInterface","HIMAGELIST_QueryInterface function [Windows Controls]","_shell_HIMAGELIST_QueryInterface","_shell_HIMAGELIST_QueryInterface_cpp","commctrl/HIMAGELIST_QueryInterface","controls.HIMAGELIST_QueryInterface","controls._shell_HIMAGELIST_QueryInterface"]
 old-location: controls\HIMAGELIST_QueryInterface.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\himagelist_queryinterface.htm

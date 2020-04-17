@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation4
 title: IUIAutomation4 (uiautomationclient.h)
-description: Extends the IUIAutomation3 interface to expose additional methods for controlling Microsoft UI Automation functionality.
+description: Extends the IUIAutomation3 interface to expose additional methods for controlling Microsoft UI Automation functionality.helpviewer_keywords: ["IUIAutomation4","IUIAutomation4 interface [Windows Accessibility]","IUIAutomation4 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomation4","winauto.uiauto_IUIAutomation4"]
 old-location: winauto\uiauto_IUIAutomation4.htm
 tech.root: WinAuto
 ms.assetid: CA616076-CD04-4753-9605-093C9529C826

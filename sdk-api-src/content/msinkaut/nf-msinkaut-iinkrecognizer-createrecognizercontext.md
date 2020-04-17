@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.CreateRecognizerContext
 title: IInkRecognizer::CreateRecognizerContext (msinkaut.h)
-description: Creates a new InkRecognizerContext object.
+description: Creates a new InkRecognizerContext object.helpviewer_keywords: ["CreateRecognizerContext","CreateRecognizerContext method [Tablet PC]","CreateRecognizerContext method [Tablet PC]","IInkRecognizer interface","IInkRecognizer interface [Tablet PC]","CreateRecognizerContext method","IInkRecognizer.CreateRecognizerContext","IInkRecognizer::CreateRecognizerContext","b6aeec3f-8d57-4667-b171-1d8cad95f45c","msinkaut/IInkRecognizer::CreateRecognizerContext","tablet.iinkrecognizer_createrecognizercontext"]
 old-location: tablet\iinkrecognizer_createrecognizercontext.htm
 tech.root: tablet
 ms.assetid: b6aeec3f-8d57-4667-b171-1d8cad95f45c

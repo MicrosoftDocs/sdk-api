@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbShortEventDescriptor.GetLength
 title: IDvbShortEventDescriptor::GetLength (dvbsiparser.h)
-description: Gets the body length of a Digital Video Broadcast (DVB) short event descriptor.
+description: Gets the body length of a Digital Video Broadcast (DVB) short event descriptor.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbShortEventDescriptor interface","IDvbShortEventDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbShortEventDescriptor.GetLength","IDvbShortEventDescriptor::GetLength","dvbsiparser/IDvbShortEventDescriptor::GetLength","mstv.idvbshorteventdescriptor_getlength"]
 old-location: mstv\idvbshorteventdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 6cccd096-eb8f-488f-9883-3e16e57d3efb

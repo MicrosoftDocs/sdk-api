@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawAlertText
 title: ISCTE_EAS::GetRawAlertText (atscpsipparser.h)
-description: Gets the raw alert_text field from the EAS table.
+description: Gets the raw alert_text field from the EAS table.helpviewer_keywords: ["GetRawAlertText","GetRawAlertText method [Microsoft TV Technologies]","GetRawAlertText method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetRawAlertText method","ISCTE_EAS.GetRawAlertText","ISCTE_EAS::GetRawAlertText","atscpsipparser/ISCTE_EAS::GetRawAlertText","mstv.iscte_eas_getrawalerttext"]
 old-location: mstv\iscte_eas_getrawalerttext.htm
 tech.root: mstv
 ms.assetid: e5ed18e8-e83e-4708-995b-99acd12427a7

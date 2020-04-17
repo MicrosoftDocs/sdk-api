@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetAuthor
 title: IWICComponentInfo::GetAuthor (wincodec.h)
-description: Retrieves the name of component's author.
+description: Retrieves the name of component's author.helpviewer_keywords: ["GetAuthor","GetAuthor method [Windows Imaging Component]","GetAuthor method [Windows Imaging Component]","IWICComponentInfo interface","IWICComponentInfo interface [Windows Imaging Component]","GetAuthor method","IWICComponentInfo.GetAuthor","IWICComponentInfo::GetAuthor","_wic_codec_iwiccomponentinfo_getauthor","wic._wic_codec_iwiccomponentinfo_getauthor","wincodec/IWICComponentInfo::GetAuthor"]
 old-location: wic\_wic_codec_iwiccomponentinfo_getauthor.htm
 tech.root: wic
 ms.assetid: c92f707f-6077-4da0-9ac4-6d1f30fb5b75

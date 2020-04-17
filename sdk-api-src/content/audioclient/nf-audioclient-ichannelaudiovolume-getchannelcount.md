@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IChannelAudioVolume.GetChannelCount
 title: IChannelAudioVolume::GetChannelCount (audioclient.h)
-description: The GetChannelCount method retrieves the number of channels in the stream format for the audio session.
+description: The GetChannelCount method retrieves the number of channels in the stream format for the audio session.helpviewer_keywords: ["GetChannelCount","GetChannelCount method [Core Audio]","GetChannelCount method [Core Audio]","IChannelAudioVolume interface","IChannelAudioVolume interface [Core Audio]","GetChannelCount method","IChannelAudioVolume.GetChannelCount","IChannelAudioVolume::GetChannelCount","IChannelAudioVolumeGetChannelCount","audioclient/IChannelAudioVolume::GetChannelCount","coreaudio.ichannelaudiovolume_getchannelcount"]
 old-location: coreaudio\ichannelaudiovolume_getchannelcount.htm
 tech.root: CoreAudio
 ms.assetid: e3149d02-b0a2-4bdd-af04-b94b063c784b

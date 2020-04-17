@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPNSPLOOKUPSERVICEEND
 title: LPNSPLOOKUPSERVICEEND (ws2spi.h)
-description: Called to free the handle after previous calls to NSPLookupServiceBegin and NSPLookupServiceNext.
+description: Called to free the handle after previous calls to NSPLookupServiceBegin and NSPLookupServiceNext.helpviewer_keywords: ["LPNSPLOOKUPSERVICEEND","NSPLookupServiceEnd","NSPLookupServiceEnd function [Winsock]","_win32_nsplookupserviceend_2","winsock.nsplookupserviceend_2","ws2spi/NSPLookupServiceEnd"]
 old-location: winsock\nsplookupserviceend_2.htm
 tech.root: WinSock
 ms.assetid: ec72c89a-a74b-449c-996a-02057dff9137

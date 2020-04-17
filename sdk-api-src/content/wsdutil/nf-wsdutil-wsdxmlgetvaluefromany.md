@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdutil.WSDXMLGetValueFromAny
 title: WSDXMLGetValueFromAny function (wsdutil.h)
-description: Retrieves a text value from a specified child element of an XML any element.
+description: Retrieves a text value from a specified child element of an XML any element.helpviewer_keywords: ["WSDXMLGetValueFromAny","WSDXMLGetValueFromAny function","ncd.wsdxmlgetvaluefromany","wsdutil/WSDXMLGetValueFromAny"]
 old-location: ncd\wsdxmlgetvaluefromany.htm
 tech.root: WsdApi
 ms.assetid: 544399f6-d98d-4a57-824a-b21567262141

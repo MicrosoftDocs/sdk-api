@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetNodeTypes
 title: IBDA_Topology::GetNodeTypes (bdaiface.h)
-description: The GetNodeTypes method retrieves a list of all the node types in the template topology for this filter and network type.
+description: The GetNodeTypes method retrieves a list of all the node types in the template topology for this filter and network type.helpviewer_keywords: ["GetNodeTypes","GetNodeTypes method [Microsoft TV Technologies]","GetNodeTypes method [Microsoft TV Technologies]","IBDA_Topology interface","IBDA_Topology interface [Microsoft TV Technologies]","GetNodeTypes method","IBDA_Topology.GetNodeTypes","IBDA_Topology::GetNodeTypes","IBDA_TopologyGetNodeTypes","bdaiface/IBDA_Topology::GetNodeTypes","mstv.ibda_topology_getnodetypes"]
 old-location: mstv\ibda_topology_getnodetypes.htm
 tech.root: mstv
 ms.assetid: 6912cd69-76c2-4dae-bda3-42139acffe4c

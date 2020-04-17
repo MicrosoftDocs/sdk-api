@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER_CHANGE0_
 title: FWPM_FILTER_CHANGE0 (fwpmtypes.h)
-description: Stores change notification dispatched to subscribers.
+description: Stores change notification dispatched to subscribers.helpviewer_keywords: ["FWPM_FILTER_CHANGE0","FWPM_FILTER_CHANGE0 structure [Filtering]","fwp.fwpm_filter_change0_struct","fwpmtypes/FWPM_FILTER_CHANGE0"]
 old-location: fwp\fwpm_filter_change0_struct.htm
 tech.root: fwp
 ms.assetid: 01c58002-5506-4e2a-ae85-30b16aad2dd6

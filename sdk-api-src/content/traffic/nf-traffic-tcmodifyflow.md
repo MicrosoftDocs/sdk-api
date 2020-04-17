@@ -1,7 +1,7 @@
 ---
 UID: NF:traffic.TcModifyFlow
 title: TcModifyFlow function (traffic.h)
-description: The TcModifyFlow function modifies an existing flow. When calling TcModifyFlow, new Flowspec parameters and any traffic control objects should be filled.
+description: The TcModifyFlow function modifies an existing flow. When calling TcModifyFlow, new Flowspec parameters and any traffic control objects should be filled.helpviewer_keywords: ["TcModifyFlow","TcModifyFlow function [QOS]","_gqos_tcmodifyflow","qos.tcmodifyflow","traffic/TcModifyFlow"]
 old-location: qos\tcmodifyflow.htm
 tech.root: QOS
 ms.assetid: e1b5d987-8365-4fea-a88b-0d574749b38a

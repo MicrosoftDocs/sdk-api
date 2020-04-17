@@ -1,7 +1,7 @@
 ---
 UID: NF:storprop.CdromEnableDigitalPlayback
 title: CdromEnableDigitalPlayback function (storprop.h)
-description: Enables digital playback for the specified CD-ROM or DVD drive.
+description: Enables digital playback for the specified CD-ROM or DVD drive.helpviewer_keywords: ["CdromEnableDigitalPlayback","CdromEnableDigitalPlayback function","base.cdromenabledigitalplayback","storprop/CdromEnableDigitalPlayback"]
 old-location: base\cdromenabledigitalplayback.htm
 tech.root: devio
 ms.assetid: a50a0c9a-21f3-4d55-97c3-144f5835b6af

@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.CreateCustomToneObject
 title: ITLegacyCallMediaControl2::CreateCustomToneObject (tapi3if.h)
-description: The CreateCustomToneObject method creates a custom tone object to use with the GenerateCustomTonesByCollection method.
+description: The CreateCustomToneObject method creates a custom tone object to use with the GenerateCustomTonesByCollection method.helpviewer_keywords: ["CreateCustomToneObject","CreateCustomToneObject method [TAPI 2.2]","CreateCustomToneObject method [TAPI 2.2]","ITLegacyCallMediaControl2 interface","ITLegacyCallMediaControl2 interface [TAPI 2.2]","CreateCustomToneObject method","ITLegacyCallMediaControl2.CreateCustomToneObject","ITLegacyCallMediaControl2::CreateCustomToneObject","_tapi3_itlegacycallmediacontrol2_createcustomtoneobject","tapi3.itlegacycallmediacontrol2_createcustomtoneobject","tapi3if/ITLegacyCallMediaControl2::CreateCustomToneObject"]
 old-location: tapi3\itlegacycallmediacontrol2_createcustomtoneobject.htm
 tech.root: Tapi
 ms.assetid: addef387-9d92-4da3-af4c-b4d40bde2e36

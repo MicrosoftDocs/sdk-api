@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetCoalescableTimer
 title: SetCoalescableTimer function (winuser.h)
-description: Creates a timer with the specified time-out value and coalescing tolerance delay.
+description: Creates a timer with the specified time-out value and coalescing tolerance delay.helpviewer_keywords: ["Any other value","SetCoalescableTimer","SetCoalescableTimer function [Windows and Messages]","TIMERV_DEFAULT_COALESCING","TIMERV_NO_COALESCING","winmsg.setcoalescabletimer","winuser/SetCoalescableTimer"]
 old-location: winmsg\setcoalescabletimer.htm
 tech.root: winmsg
 ms.assetid: 39303811-972f-4131-deea-cebf84c50867

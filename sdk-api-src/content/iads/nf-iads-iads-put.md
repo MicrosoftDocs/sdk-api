@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADs.Put
 title: IADs::Put (iads.h)
-description: Sets the values of an attribute in the ADSI attribute cache.
+description: Sets the values of an attribute in the ADSI attribute cache.helpviewer_keywords: ["IADs interface [ADSI]","Put method","IADs.Put","IADs::Put","Put","Put method [ADSI]","Put method [ADSI]","IADs interface","_ds_iads_put","adsi.iads__put","adsi.iads_put","iads/IADs::Put"]
 old-location: adsi\iads_put.htm
 tech.root: adsi
 ms.assetid: b543220d-939b-4ca5-9a27-90b04f14be5d

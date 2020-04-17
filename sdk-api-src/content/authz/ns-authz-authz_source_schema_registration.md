@@ -1,7 +1,7 @@
 ---
 UID: NS:authz._AUTHZ_SOURCE_SCHEMA_REGISTRATION
 title: AUTHZ_SOURCE_SCHEMA_REGISTRATION (authz.h)
-description: Specifies information about source schema registration.
+description: Specifies information about source schema registration.helpviewer_keywords: ["*PAUTHZ_SOURCE_SCHEMA_REGISTRATION","AUTHZ_ALLOW_MULTIPLE_SOURCE_INSTANCES","AUTHZ_MIGRATED_LEGACY_PUBLISHER","AUTHZ_SOURCE_SCHEMA_REGISTRATION","AUTHZ_SOURCE_SCHEMA_REGISTRATION structure [Security]","PAUTHZ_SOURCE_SCHEMA_REGISTRATION","PAUTHZ_SOURCE_SCHEMA_REGISTRATION structure pointer [Security]","authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION","authz/PAUTHZ_SOURCE_SCHEMA_REGISTRATION","security.authz_source_schema_registration"]
 old-location: security\authz_source_schema_registration.htm
 tech.root: SecAuthZ
 ms.assetid: 8b4d6e14-fb9c-428a-bd94-34eba668edc6

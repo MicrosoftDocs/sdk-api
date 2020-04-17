@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ClusWorkersTerminate
 title: ClusWorkersTerminate function (resapi.h)
-description: Waits for multiple worker threads to terminate up to the specified timeout.
+description: Waits for multiple worker threads to terminate up to the specified timeout.helpviewer_keywords: ["ClusWorkersTerminate","ClusWorkersTerminate function [Failover Cluster]","mscs.clusworkersterminate","resapi/ClusWorkersTerminate"]
 old-location: mscs\clusworkersterminate.htm
 tech.root: MsCS
 ms.assetid: af9bcdcf-ca92-438b-94f2-f0e7529952fb

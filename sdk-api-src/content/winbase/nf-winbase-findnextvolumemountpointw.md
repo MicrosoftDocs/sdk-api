@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.FindNextVolumeMountPointW
 title: FindNextVolumeMountPointW function (winbase.h)
-description: Continues a mounted folder search started by a call to the FindFirstVolumeMountPoint function.
+description: Continues a mounted folder search started by a call to the FindFirstVolumeMountPoint function.helpviewer_keywords: ["FindNextVolumeMountPoint","FindNextVolumeMountPoint function [Files]","FindNextVolumeMountPointA","FindNextVolumeMountPointW","_win32_findnextvolumemountpoint","base.findnextvolumemountpoint","fs.findnextvolumemountpoint","winbase/FindNextVolumeMountPoint","winbase/FindNextVolumeMountPointA","winbase/FindNextVolumeMountPointW"]
 old-location: fs\findnextvolumemountpoint.htm
 tech.root: FileIO
 ms.assetid: 299e2fed-74d8-4008-b593-981c52016532

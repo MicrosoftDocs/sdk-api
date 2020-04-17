@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsDisk2.SetSANMode
 title: IVdsDisk2::SetSANMode (vds.h)
-description: Sets the SAN mode of a disk to offline or online.
+description: Sets the SAN mode of a disk to offline or online.helpviewer_keywords: ["IVdsDisk2 interface","SetSANMode method","IVdsDisk2.SetSANMode","IVdsDisk2::SetSANMode","SetSANMode","SetSANMode method","SetSANMode method","IVdsDisk2 interface","base.ivdsdisk2_setsanmode","vds/IVdsDisk2::SetSANMode"]
 old-location: base\ivdsdisk2_setsanmode.htm
 tech.root: VDS
 ms.assetid: 17bdb6f4-7d85-4aa6-b89b-a752332cc224

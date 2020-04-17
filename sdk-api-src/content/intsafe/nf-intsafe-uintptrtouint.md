@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.UIntPtrToUInt
 title: UIntPtrToUInt function (intsafe.h)
-description: Converts a value of type UINT_PTR to a value of type UINT.
+description: Converts a value of type UINT_PTR to a value of type UINT.helpviewer_keywords: ["SizeTToUInt","UIntPtrToUInt","UIntPtrToUInt function [Windows Shell]","_shell_UIntPtrToUInt","intsafe/UIntPtrToUInt","shell.UIntPtrToUInt"]
 old-location: shell\UIntPtrToUInt.htm
 tech.root: shell
 ms.assetid: 298333ae-1efc-41b8-a8e6-83c2c0d4088e

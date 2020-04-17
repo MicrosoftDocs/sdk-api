@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IPersistStream
 title: IPersistStream (objidl.h)
-description: Enables the saving and loading of objects that use a simple serial stream for their storage needs.
+description: Enables the saving and loading of objects that use a simple serial stream for their storage needs.helpviewer_keywords: ["IPersistStream","IPersistStream interface [COM]","IPersistStream interface [COM]","described","_com_ipersiststream","com.ipersiststream","objidl/IPersistStream"]
 old-location: com\ipersiststream.htm
 tech.root: com
 ms.assetid: 97ea64ee-d950-4872-add6-1f532a6eb33f

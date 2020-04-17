@@ -1,7 +1,7 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.SetQuotaThreshold
 title: IDiskQuotaUser::SetQuotaThreshold (dskquota.h)
-description: Sets the user's warning threshold value on the volume.
+description: Sets the user's warning threshold value on the volume.helpviewer_keywords: ["IDiskQuotaUser interface [Files]","SetQuotaThreshold method","IDiskQuotaUser.SetQuotaThreshold","IDiskQuotaUser::SetQuotaThreshold","SetQuotaThreshold","SetQuotaThreshold method [Files]","SetQuotaThreshold method [Files]","IDiskQuotaUser interface","_win32_idiskquotauser_setquotathreshold","base.idiskquotauser_setquotathreshold","dskquota/IDiskQuotaUser::SetQuotaThreshold","fs.idiskquotauser_setquotathreshold"]
 old-location: fs\idiskquotauser_setquotathreshold.htm
 tech.root: FileIO
 ms.assetid: 7c641a1c-fb04-4039-92bd-d3a1c7045355

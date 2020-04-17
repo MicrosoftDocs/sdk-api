@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilGetMultiSzValue
 title: ResUtilGetMultiSzValue function (resapi.h)
-description: Returns a multiple string value from the cluster database.
+description: Returns a multiple string value from the cluster database.helpviewer_keywords: ["ResUtilGetMultiSzValue","ResUtilGetMultiSzValue function [Failover Cluster]","_wolf_resutilgetmultiszvalue","mscs.resutilgetmultiszvalue","resapi/ResUtilGetMultiSzValue"]
 old-location: mscs\resutilgetmultiszvalue.htm
 tech.root: MsCS
 ms.assetid: 09547806-16f4-40ce-8713-591a7691a588

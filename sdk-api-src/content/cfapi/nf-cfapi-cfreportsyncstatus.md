@@ -1,7 +1,7 @@
 ---
 UID: NF:cfapi.CfReportSyncStatus
 title: CfReportSyncStatus function (cfapi.h)
-description: Allows a sync provider to notify the platform of its status on a specified sync root without having to connect with a call to CfConnectSyncRoot first.
+description: Allows a sync provider to notify the platform of its status on a specified sync root without having to connect with a call to CfConnectSyncRoot first.helpviewer_keywords: ["CfReportSyncStatus","CfReportSyncStatus function","cfapi/CfReportSyncStatus","cloudApi.cfreportsyncstatus"]
 old-location: cloudapi\cfreportsyncstatus.htm
 tech.root: cfApi
 ms.assetid: DC77D18A-CBF4-4172-815A-AB49A48D10B3

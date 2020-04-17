@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplications.get_Item
 title: IAzApplications::get_Item (azroles.h)
-description: Retrieves the IAzApplication object at the specified index into the IAzApplications collection.
+description: Retrieves the IAzApplication object at the specified index into the IAzApplications collection.helpviewer_keywords: ["AzApplications object [Security]","Item property","IAzApplications interface [Security]","Item property","IAzApplications.Item","IAzApplications.get_Item","IAzApplications::Item","IAzApplications::get_Item","Item property [Security]","Item property [Security]","AzApplications object","Item property [Security]","IAzApplications interface","azroles/IAzApplications::Item","azroles/IAzApplications::get_Item","get_Item","security.iazapplications_item"]
 old-location: security\iazapplications_item.htm
 tech.root: SecAuthZ
 ms.assetid: a5d6edd2-d93d-4168-89b8-6dbe60e3d4b9

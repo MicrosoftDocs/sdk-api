@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetFormatSupport
 title: IWMDMDevice::GetFormatSupport (mswmdm.h)
-description: The GetFormatSupport method retrieves all the formats supported by the device, including codecs and file formats.
+description: The GetFormatSupport method retrieves all the formats supported by the device, including codecs and file formats.helpviewer_keywords: ["GetFormatSupport","GetFormatSupport method [windows Media Device Manager]","GetFormatSupport method [windows Media Device Manager]","IWMDMDevice interface","IWMDMDevice interface [windows Media Device Manager]","GetFormatSupport method","IWMDMDevice.GetFormatSupport","IWMDMDevice::GetFormatSupport","IWMDMDeviceGetFormatSupport","mswmdm/IWMDMDevice::GetFormatSupport","wmdm.iwmdmdevice_getformatsupport"]
 old-location: wmdm\iwmdmdevice_getformatsupport.htm
 tech.root: WMDM
 ms.assetid: a917660d-300f-4ac4-befe-a3f78172411e

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetDataComponentId
 title: IIsdbDataContentDescriptor::GetDataComponentId (dvbsiparser.h)
-description: Gets a data component identifier from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. This identifier identifies a component in the descriptor and appears in the data component descriptor for the component.
+description: Gets a data component identifier from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. This identifier identifies a component in the descriptor and appears in the data component descriptor for the component.helpviewer_keywords: ["GetDataComponentId","GetDataComponentId method [Microsoft TV Technologies]","GetDataComponentId method [Microsoft TV Technologies]","IIsdbDataContentDescriptor interface","IIsdbDataContentDescriptor interface [Microsoft TV Technologies]","GetDataComponentId method","IIsdbDataContentDescriptor.GetDataComponentId","IIsdbDataContentDescriptor::GetDataComponentId","dvbsiparser/IIsdbDataContentDescriptor::GetDataComponentId","mstv.iisdbdatacontentdescriptor_getdatacomponentid"]
 old-location: mstv\iisdbdatacontentdescriptor_getdatacomponentid.htm
 tech.root: mstv
 ms.assetid: d8a3e399-5004-41ee-a7eb-4c583a1fdd45

@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IQueueCommand.InvokeAtPresentationTime
 title: IQueueCommand::InvokeAtPresentationTime (control.h)
-description: The InvokeAtPresentationTime method queues a method to be invoked at the specified presentation time.
+description: The InvokeAtPresentationTime method queues a method to be invoked at the specified presentation time.helpviewer_keywords: ["IQueueCommand interface [DirectShow]","InvokeAtPresentationTime method","IQueueCommand.InvokeAtPresentationTime","IQueueCommand::InvokeAtPresentationTime","IQueueCommandInvokeAtPresentationTime","InvokeAtPresentationTime","InvokeAtPresentationTime method [DirectShow]","InvokeAtPresentationTime method [DirectShow]","IQueueCommand interface","control/IQueueCommand::InvokeAtPresentationTime","dshow.iqueuecommand_invokeatpresentationtime"]
 old-location: dshow\iqueuecommand_invokeatpresentationtime.htm
 tech.root: DirectShow
 ms.assetid: 95255a18-d6e3-4970-90cb-c87629560ff6

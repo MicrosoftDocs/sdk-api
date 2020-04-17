@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ContainsChange
 title: ISyncKnowledge::ContainsChange (winsync.h)
-description: Indicates whether the specified item change is known by this knowledge.
+description: Indicates whether the specified item change is known by this knowledge.helpviewer_keywords: ["ContainsChange","ContainsChange method [Windows Sync]","ContainsChange method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","ContainsChange method","ISyncKnowledge.ContainsChange","ISyncKnowledge::ContainsChange","winsync.isyncknowledge_containschange","winsync/ISyncKnowledge::ContainsChange"]
 old-location: winsync\isyncknowledge_containschange.htm
 tech.root: winsync
 ms.assetid: 4c304d76-f27a-4382-99ad-1d158da93de6

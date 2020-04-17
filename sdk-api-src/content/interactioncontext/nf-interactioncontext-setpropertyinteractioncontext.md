@@ -1,7 +1,7 @@
 ---
 UID: NF:interactioncontext.SetPropertyInteractionContext
 title: SetPropertyInteractionContext function (interactioncontext.h)
-description: Sets Interaction Context object properties.
+description: Sets Interaction Context object properties.helpviewer_keywords: ["SetPropertyInteractionContext","SetPropertyInteractionContext function","input_intcontext.setpropertyinteractioncontext","interactioncontext.setpropertyinteractioncontext","interactioncontext/SetPropertyInteractionContext"]
 old-location: input_intcontext\setpropertyinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: da24831e-9f9f-4a9f-92bf-60e1c5338554

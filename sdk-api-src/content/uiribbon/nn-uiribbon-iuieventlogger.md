@@ -1,7 +1,7 @@
 ---
 UID: NN:uiribbon.IUIEventLogger
 title: IUIEventLogger (uiribbon.h)
-description: The IUIEventLogger interface is implemented by the application and defines the ribbon events callback method.
+description: The IUIEventLogger interface is implemented by the application and defines the ribbon events callback method.helpviewer_keywords: ["IUIEventLogger","IUIEventLogger interface [Windows Ribbon]","IUIEventLogger interface [Windows Ribbon]","described","uiribbon/IUIEventLogger","windowsribbon.iuieventlogger"]
 old-location: windowsribbon\iuieventlogger.htm
 tech.root: windowsribbon
 ms.assetid: 54DB1BFF-0657-4027-8C8C-89CE998253F4

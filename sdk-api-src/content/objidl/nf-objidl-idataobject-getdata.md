@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IDataObject.GetData
 title: IDataObject::GetData (objidl.h)
-description: Called by a data consumer to obtain data from a source data object.
+description: Called by a data consumer to obtain data from a source data object.helpviewer_keywords: ["GetData","GetData method [COM]","GetData method [COM]","IDataObject interface","IDataObject interface [COM]","GetData method","IDataObject.GetData","IDataObject::GetData","_ole_idataobject_getdata","com.idataobject_getdata","objidl/IDataObject::GetData"]
 old-location: com\idataobject_getdata.htm
 tech.root: com
 ms.assetid: 05118461-0438-4715-b2c2-fc2471ce38f0

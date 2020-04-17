@@ -1,7 +1,7 @@
 ---
 UID: NF:adshlp.AllocADsStr
 title: AllocADsStr function (adshlp.h)
-description: Allocates memory for and copies a specified string.
+description: Allocates memory for and copies a specified string.helpviewer_keywords: ["AllocADsStr","AllocADsStr function [ADSI]","_ds_allocadsstr","adshlp/AllocADsStr","adsi.allocadsstr"]
 old-location: adsi\allocadsstr.htm
 tech.root: adsi
 ms.assetid: 1e2b6d42-a879-4a53-a2ce-0e841f6b8543

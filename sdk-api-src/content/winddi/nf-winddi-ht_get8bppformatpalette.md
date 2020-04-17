@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.HT_Get8BPPFormatPalette
 title: HT_Get8BPPFormatPalette function (winddi.h)
-description: The HT_Get8BPPFormatPalette function returns a halftone palette for use on standard 8-bits per pixel device types.
+description: The HT_Get8BPPFormatPalette function returns a halftone palette for use on standard 8-bits per pixel device types.helpviewer_keywords: ["HT_Get8BPPFormatPalette","HT_Get8BPPFormatPalette function [Display Devices]","display.ht_get8bppformatpalette","gdifncs_78b4c867-b035-4cc3-9386-2922df0e9c12.xml","winddi/HT_Get8BPPFormatPalette"]
 old-location: display\ht_get8bppformatpalette.htm
 tech.root: display
 ms.assetid: 0f6d81b8-2ad2-4bcc-a5cc-5b2f396aaa75

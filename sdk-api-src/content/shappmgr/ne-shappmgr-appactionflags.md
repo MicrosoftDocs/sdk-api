@@ -1,7 +1,7 @@
 ---
 UID: NE:shappmgr._tagAppActionFlags
 title: APPACTIONFLAGS (shappmgr.h)
-description: Specifies application management actions supported by an application publisher. These flags are bitmasks passed to IShellApp::GetPossibleActions.
+description: Specifies application management actions supported by an application publisher. These flags are bitmasks passed to IShellApp::GetPossibleActions.helpviewer_keywords: ["APPACTIONFLAGS","APPACTIONFLAGS enumeration [Windows Shell]","APPACTION_ADDLATER","APPACTION_CANGETSIZE","APPACTION_INSTALL","APPACTION_MODIFY","APPACTION_MODIFYREMOVE","APPACTION_REPAIR","APPACTION_UNINSTALL","APPACTION_UNSCHEDULE","APPACTION_UPGRADE","inet_APPACTIONFLAGS","shappmgr/APPACTIONFLAGS","shappmgr/APPACTION_ADDLATER","shappmgr/APPACTION_CANGETSIZE","shappmgr/APPACTION_INSTALL","shappmgr/APPACTION_MODIFY","shappmgr/APPACTION_MODIFYREMOVE","shappmgr/APPACTION_REPAIR","shappmgr/APPACTION_UNINSTALL","shappmgr/APPACTION_UNSCHEDULE","shappmgr/APPACTION_UPGRADE","shell.APPACTIONFLAGS"]
 old-location: shell\APPACTIONFLAGS.htm
 tech.root: shell
 ms.assetid: edfd9b1e-7f4d-4350-9d2c-71f59ca4f7eb

@@ -1,7 +1,7 @@
 ---
 UID: NF:chptrarr.CHPtrArray.GetAt
 title: CHPtrArray::GetAt (chptrarr.h)
-description: The GetAt method accesses an element in a CHPtrArray array.
+description: The GetAt method accesses an element in a CHPtrArray array.helpviewer_keywords: ["?GetAt@CHPtrArray@@QBEPAXH@Z","CHPtrArray interface [Windows Management Instrumentation]","GetAt method","CHPtrArray.GetAt","CHPtrArray::GetAt","GetAt","GetAt method [Windows Management Instrumentation]","GetAt method [Windows Management Instrumentation]","CHPtrArray interface","chptrarr/CHPtrArray::GetAt","wmi.chptrarray_getat"]
 old-location: wmi\chptrarray_getat.htm
 tech.root: WmiSdk
 ms.assetid: 7c2f029f-22a1-4433-971e-35ce48c004e0

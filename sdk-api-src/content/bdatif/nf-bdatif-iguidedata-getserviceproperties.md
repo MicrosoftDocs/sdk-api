@@ -1,7 +1,7 @@
 ---
 UID: NF:bdatif.IGuideData.GetServiceProperties
 title: IGuideData::GetServiceProperties (bdatif.h)
-description: The GetServiceProperties method retrieves the properties for a specified service.
+description: The GetServiceProperties method retrieves the properties for a specified service.helpviewer_keywords: ["GetServiceProperties","GetServiceProperties method [Microsoft TV Technologies]","GetServiceProperties method [Microsoft TV Technologies]","IGuideData interface","IGuideData interface [Microsoft TV Technologies]","GetServiceProperties method","IGuideData.GetServiceProperties","IGuideData::GetServiceProperties","IGuideDataGetServiceProperties","bdatif/IGuideData::GetServiceProperties","mstv.iguidedata_getserviceproperties"]
 old-location: mstv\iguidedata_getserviceproperties.htm
 tech.root: mstv
 ms.assetid: 28be3bb7-b76a-44a3-892c-2aade5dbe255

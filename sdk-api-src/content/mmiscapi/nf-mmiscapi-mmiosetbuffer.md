@@ -1,7 +1,7 @@
 ---
 UID: NF:mmiscapi.mmioSetBuffer
 title: mmioSetBuffer function (mmiscapi.h)
-description: The mmioSetBuffer function enables or disables buffered I/O, or changes the buffer or buffer size for a file opened by using the mmioOpen function.
+description: The mmioSetBuffer function enables or disables buffered I/O, or changes the buffer or buffer size for a file opened by using the mmioOpen function.helpviewer_keywords: ["_win32_mmioSetBuffer","mmioSetBuffer","mmioSetBuffer function [Windows Multimedia]","mmsystem/mmioSetBuffer","multimedia.mmiosetbuffer"]
 old-location: multimedia\mmiosetbuffer.htm
 tech.root: Multimedia
 ms.assetid: 78bee0a3-1f9e-4268-8070-8267cc6aab5a

@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabGetApplicationRegistrationInfo
 title: PeerCollabGetApplicationRegistrationInfo function (p2p.h)
-description: Obtains application-specific registration information.
+description: Obtains application-specific registration information.helpviewer_keywords: ["PeerCollabGetApplicationRegistrationInfo","PeerCollabGetApplicationRegistrationInfo function [Peer Networking]","p2p.peercollabgetapplicationregistrationinfo","p2p/PeerCollabGetApplicationRegistrationInfo"]
 old-location: p2p\peercollabgetapplicationregistrationinfo.htm
 tech.root: P2PSdk
 ms.assetid: d1a8888e-4153-4486-9384-615ae7ed7031

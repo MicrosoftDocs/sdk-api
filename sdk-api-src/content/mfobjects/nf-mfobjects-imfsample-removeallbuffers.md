@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFSample.RemoveAllBuffers
 title: IMFSample::RemoveAllBuffers (mfobjects.h)
-description: Removes all of the buffers from the sample.
+description: Removes all of the buffers from the sample.helpviewer_keywords: ["IMFSample interface [Media Foundation]","RemoveAllBuffers method","IMFSample.RemoveAllBuffers","IMFSample::RemoveAllBuffers","RemoveAllBuffers","RemoveAllBuffers method [Media Foundation]","RemoveAllBuffers method [Media Foundation]","IMFSample interface","c7ce734f-64da-4d45-905e-54a8898aa710","mf.imfsample_removeallbuffers","mfobjects/IMFSample::RemoveAllBuffers"]
 old-location: mf\imfsample_removeallbuffers.htm
 tech.root: medfound
 ms.assetid: c7ce734f-64da-4d45-905e-54a8898aa710

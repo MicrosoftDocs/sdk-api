@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Write
 title: IMFByteStream::Write (mfobjects.h)
-description: Writes data to the stream.
+description: Writes data to the stream.helpviewer_keywords: ["IMFByteStream interface [Media Foundation]","Write method","IMFByteStream.Write","IMFByteStream::Write","Write","Write method [Media Foundation]","Write method [Media Foundation]","IMFByteStream interface","d1f1195a-b6ee-441c-af8b-fce3dc163e95","mf.imfbytestream_write","mfobjects/IMFByteStream::Write"]
 old-location: mf\imfbytestream_write.htm
 tech.root: medfound
 ms.assetid: d1f1195a-b6ee-441c-af8b-fce3dc163e95

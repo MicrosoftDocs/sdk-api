@@ -1,7 +1,7 @@
 ---
 UID: NS:bthledef._BTH_LE_GATT_DESCRIPTOR_VALUE
 title: BTH_LE_GATT_DESCRIPTOR_VALUE (bthledef.h)
-description: The BTH_LE_GATT_DESCRIPTOR_VALUE structure describes a parent characteristic.
+description: The BTH_LE_GATT_DESCRIPTOR_VALUE structure describes a parent characteristic.helpviewer_keywords: ["*PBTH_LE_GATT_DESCRIPTOR_VALUE","BTH_LE_GATT_DESCRIPTOR_VALUE","BTH_LE_GATT_DESCRIPTOR_VALUE structure [Bluetooth Devices]","PBTH_LE_GATT_DESCRIPTOR_VALUE","PBTH_LE_GATT_DESCRIPTOR_VALUE structure pointer [Bluetooth Devices]","bltooth.bth_le_gatt_descriptor_value","bthledef/BTH_LE_GATT_DESCRIPTOR_VALUE","bthledef/PBTH_LE_GATT_DESCRIPTOR_VALUE"]
 old-location: bltooth\bth_le_gatt_descriptor_value.htm
 tech.root: bltooth
 ms.assetid: 81D05AA7-B16C-4705-919F-8563FFA4A58E

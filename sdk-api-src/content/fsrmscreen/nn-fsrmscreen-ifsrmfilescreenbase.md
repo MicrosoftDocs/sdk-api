@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenBase
 title: IFsrmFileScreenBase (fsrmscreen.h)
-description: Base class for all file screen interfaces.
+description: Base class for all file screen interfaces.helpviewer_keywords: ["IFsrmFileScreenBase","IFsrmFileScreenBase interface [File Server Resource Manager]","IFsrmFileScreenBase interface [File Server Resource Manager]","described","fs.ifsrmfilescreenbase","fsrm.ifsrmfilescreenbase","fsrmscreen/IFsrmFileScreenBase"]
 old-location: fsrm\ifsrmfilescreenbase.htm
 tech.root: fsrm
 ms.assetid: 9e52af8c-e03b-4b44-83bd-541fe1419d6c

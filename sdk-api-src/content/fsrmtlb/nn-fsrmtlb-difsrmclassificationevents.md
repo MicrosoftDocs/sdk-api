@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmtlb.DIFsrmClassificationEvents
 title: DIFsrmClassificationEvents (fsrmtlb.h)
-description: Handles events that are received while processing a ClassifyFiles call.
+description: Handles events that are received while processing a ClassifyFiles call.helpviewer_keywords: ["DIFsrmClassificationEvents","DIFsrmClassificationEvents interface [File Server Resource Manager]","DIFsrmClassificationEvents interface [File Server Resource Manager]","described","fs.difsrmclassificationevents","fsrm.difsrmclassificationevents","fsrmtlb/DIFsrmClassificationEvents"]
 old-location: fsrm\difsrmclassificationevents.htm
 tech.root: fsrm
 ms.assetid: 3054c0ce-e29f-4a68-bf8d-499308f495b3

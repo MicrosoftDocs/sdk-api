@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.AddIPAddress
 title: AddIPAddress function (iphlpapi.h)
-description: The AddIPAddress function adds the specified IPv4 address to the specified adapter.
+description: The AddIPAddress function adds the specified IPv4 address to the specified adapter.helpviewer_keywords: ["AddIPAddress","AddIPAddress function [IP Helper]","_iphlp_addipaddress","iphlp.addipaddress","iphlpapi/AddIPAddress"]
 old-location: iphlp\addipaddress.htm
 tech.root: IpHlp
 ms.assetid: 669264cd-a43c-4681-9416-2704d4232685

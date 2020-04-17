@@ -1,7 +1,7 @@
 ---
 UID: NF:webapplication.IWebApplicationHost.Unadvise
 title: IWebApplicationHost::Unadvise (webapplication.h)
-description: Removes a previously established connection.
+description: Removes a previously established connection.helpviewer_keywords: ["IWebApplicationHost interface [Debugging Windows Store apps]","Unadvise method","IWebApplicationHost.Unadvise","IWebApplicationHost::Unadvise","Unadvise","Unadvise method [Debugging Windows Store apps]","Unadvise method [Debugging Windows Store apps]","IWebApplicationHost interface","debug.iwebapplicationhost_unadvise","webapplication/IWebApplicationHost::Unadvise"]
 old-location: debug\iwebapplicationhost_unadvise.htm
 tech.root: debug_wwahost
 ms.assetid: daab1a3f-1f84-4559-bdc0-be8f1fb28904

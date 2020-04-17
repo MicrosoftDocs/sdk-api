@@ -1,7 +1,7 @@
 ---
 UID: NE:webservices.__unnamed_enum_2
 title: WS_XML_CANONICALIZATION_PROPERTY_ID (webservices.h)
-description: Identifies each XML canonicalization property and its associated value. This enumeration is used within the WS_XML_CANONICALIZATION_PROPERTY structure, which is used as a parameter to WsStartReaderCanonicalization and WsStartWriterCanonicalization.
+description: Identifies each XML canonicalization property and its associated value. This enumeration is used within the WS_XML_CANONICALIZATION_PROPERTY structure, which is used as a parameter to WsStartReaderCanonicalization and WsStartWriterCanonicalization.helpviewer_keywords: ["WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM","WS_XML_CANONICALIZATION_PROPERTY_ID","WS_XML_CANONICALIZATION_PROPERTY_ID enumeration [Web Services for Windows]","WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES","WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT","WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE","webservices/WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM","webservices/WS_XML_CANONICALIZATION_PROPERTY_ID","webservices/WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES","webservices/WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT","webservices/WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE","wsw.ws_xml_canonicalization_property_id"]
 old-location: wsw\ws_xml_canonicalization_property_id.htm
 tech.root: wsw
 ms.assetid: af96e1e7-d7e8-4e38-a8ae-f8f28cf0eda9

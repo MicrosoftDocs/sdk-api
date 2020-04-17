@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.OpenItem
 title: ITransferSource::OpenItem (shobjidl_core.h)
-description: Opens the item for copying. Returns an object that can be enumerated for resources (IShellItemResources).
+description: Opens the item for copying. Returns an object that can be enumerated for resources (IShellItemResources).helpviewer_keywords: ["ITransferSource interface [Windows Shell]","OpenItem method","ITransferSource.OpenItem","ITransferSource::OpenItem","OpenItem","OpenItem method [Windows Shell]","OpenItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_OpenItem","shell.ITransferSource_OpenItem","shobjidl_core/ITransferSource::OpenItem"]
 old-location: shell\ITransferSource_OpenItem.htm
 tech.root: shell
 ms.assetid: 8f051923-2798-43e9-8e8d-95eec5f618aa

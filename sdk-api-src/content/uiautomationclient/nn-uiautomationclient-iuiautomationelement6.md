@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement6
 title: IUIAutomationElement6 (uiautomationclient.h)
-description: Extends the IUIAutomationElement5 interface to provide access to current and cached full descriptions.
+description: Extends the IUIAutomationElement5 interface to provide access to current and cached full descriptions.helpviewer_keywords: ["IUIAutomationElement6","IUIAutomationElement6 interface [Windows Accessibility]","IUIAutomationElement6 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationElement6","winauto.uiauto_IUIAutomationElement6"]
 old-location: winauto\uiauto_IUIAutomationElement6.htm
 tech.root: WinAuto
 ms.assetid: 3E00CFB1-0683-4946-9E57-7E4F6E86F60C

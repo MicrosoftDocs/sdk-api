@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorEndSession
 title: EapMethodAuthenticatorEndSession function (eapmethodauthenticatorapis.h)
-description: Closes an EAP authentication session on the server EAPHost.
+description: Closes an EAP authentication session on the server EAPHost.helpviewer_keywords: ["EapMethodAuthenticatorEndSession","EapMethodAuthenticatorEndSession function [EAPHost]","eaphost.eapmethodauthenticatorendsession","eapmethodauthenticatorapis/EapMethodAuthenticatorEndSession"]
 old-location: eaphost\eapmethodauthenticatorendsession.htm
 tech.root: eaphost
 ms.assetid: 6295277d-3ad8-4c37-a6bf-8f72e8a9b404

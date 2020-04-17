@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.GetRuntimeId
 title: IAccessibleEx::GetRuntimeId (uiautomationcore.h)
-description: Retrieves the runtime identifier of this element.
+description: Retrieves the runtime identifier of this element.helpviewer_keywords: ["GetRuntimeId","GetRuntimeId method [Windows Accessibility]","GetRuntimeId method [Windows Accessibility]","IAccessibleEx interface","IAccessibleEx interface [Windows Accessibility]","GetRuntimeId method","IAccessibleEx.GetRuntimeId","IAccessibleEx::GetRuntimeId","uiauto.uiauto_IAccessibleEx_GetRuntimeId","uiauto_IAccessibleEx_GetRuntimeId","uiautomationcore/IAccessibleEx::GetRuntimeId","winauto.uiauto_IAccessibleEx_GetRuntimeId"]
 old-location: winauto\uiauto_IAccessibleEx_GetRuntimeId.htm
 tech.root: WinAuto
 ms.assetid: 00aeac66-398a-4c80-85e2-32bff0ae100f

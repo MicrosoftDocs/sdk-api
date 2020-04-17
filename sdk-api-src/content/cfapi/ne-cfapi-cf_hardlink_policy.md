@@ -1,7 +1,7 @@
 ---
 UID: NE:cfapi.CF_HARDLINK_POLICY
 title: CF_HARDLINK_POLICY (cfapi.h)
-description: Specifies whether or not hard links are allowed on placeholder files.
+description: Specifies whether or not hard links are allowed on placeholder files.helpviewer_keywords: ["CF_HARDLINK_POLICY","CF_HARDLINK_POLICY enumeration","CF_HARDLINK_POLICY_ALLOWED","CF_HARDLINK_POLICY_DEFAULT","cfapi/CF_HARDLINK_POLICY","cfapi/CF_HARDLINK_POLICY_ALLOWED","cfapi/CF_HARDLINK_POLICY_DEFAULT","cloudApi.cf_hardlink_policy"]
 old-location: cloudapi\cf_hardlink_policy.htm
 tech.root: cfApi
 ms.assetid: 23FFC4E8-0CB7-4FF4-A3C3-2E8FB2C74497

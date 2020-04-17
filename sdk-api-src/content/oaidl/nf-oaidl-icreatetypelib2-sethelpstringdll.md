@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeLib2.SetHelpStringDll
 title: ICreateTypeLib2::SetHelpStringDll (oaidl.h)
-description: Sets the DLL name to be used for Help string lookup (for localization purposes).
+description: Sets the DLL name to be used for Help string lookup (for localization purposes).helpviewer_keywords: ["ICreateTypeLib2 interface [Automation]","SetHelpStringDll method","ICreateTypeLib2.SetHelpStringDll","ICreateTypeLib2::SetHelpStringDll","SetHelpStringDll","SetHelpStringDll method [Automation]","SetHelpStringDll method [Automation]","ICreateTypeLib2 interface","_oa96_ICreateTypeLib2_SetHelpStringDll","automat.icreatetypelib2_sethelpstringdll","oaidl/ICreateTypeLib2::SetHelpStringDll"]
 old-location: automat\icreatetypelib2_sethelpstringdll.htm
 tech.root: automat
 ms.assetid: f00a3dbf-7205-48fd-abeb-1d2d80be7743

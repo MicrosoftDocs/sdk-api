@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetStreamContent
 title: IDvbComponentDescriptor::GetStreamContent (dvbsiparser.h)
-description: Gets the stream content code for a Digital Video Broadcast (DVB) component descriptor.
+description: Gets the stream content code for a Digital Video Broadcast (DVB) component descriptor.helpviewer_keywords: ["GetStreamContent","GetStreamContent method [Microsoft TV Technologies]","GetStreamContent method [Microsoft TV Technologies]","IDvbComponentDescriptor interface","IDvbComponentDescriptor interface [Microsoft TV Technologies]","GetStreamContent method","IDvbComponentDescriptor.GetStreamContent","IDvbComponentDescriptor::GetStreamContent","dvbsiparser/IDvbComponentDescriptor::GetStreamContent","mstv.idvbcomponentdescriptor_getstreamcontent"]
 old-location: mstv\idvbcomponentdescriptor_getstreamcontent.htm
 tech.root: mstv
 ms.assetid: 3bfa86c4-2b94-43cd-842e-33cc03b713a5

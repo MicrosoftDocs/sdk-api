@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.PushLayer
 title: ID2D1CommandSink::PushLayer (d2d1_1.h)
-description: Pushes a layer onto the clip and layer stack.
+description: Pushes a layer onto the clip and layer stack.helpviewer_keywords: ["ID2D1CommandSink interface [Direct2D]","PushLayer method","ID2D1CommandSink.PushLayer","ID2D1CommandSink::PushLayer","PushLayer","PushLayer method [Direct2D]","PushLayer method [Direct2D]","ID2D1CommandSink interface","d2d1_1/ID2D1CommandSink::PushLayer","direct2d.id2d1commandsink_pushlayer"]
 old-location: direct2d\id2d1commandsink_pushlayer.htm
 tech.root: Direct2D
 ms.assetid: 071d7d7a-12d7-4611-812c-103e2b9a5e56

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.get_SizeHigh
 title: IFaxIncomingArchive::get_SizeHigh (faxcomex.h)
-description: The SizeHigh property is a value that specifies the high 32-bit value (in bytes) for the size of the archive of inbound fax messages.
+description: The SizeHigh property is a value that specifies the high 32-bit value (in bytes) for the size of the archive of inbound fax messages.helpviewer_keywords: ["IFaxIncomingArchive interface [Fax Service]","SizeHigh property","IFaxIncomingArchive.SizeHigh","IFaxIncomingArchive.get_SizeHigh","IFaxIncomingArchive::SizeHigh","IFaxIncomingArchive::get_SizeHigh","SizeHigh property [Fax Service]","SizeHigh property [Fax Service]","IFaxIncomingArchive interface","_mfax_faxincomingarchive.sizehigh","fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_sizehigh_cpp","fax._mfax_faxincomingarchive_sizehigh","faxcomex/IFaxIncomingArchive::SizeHigh","faxcomex/IFaxIncomingArchive::get_SizeHigh","get_SizeHigh"]
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_sizehigh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_55bc.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFAttributes.UnlockStore
 title: IMFAttributes::UnlockStore (mfobjects.h)
-description: Unlocks the attribute store after a call to the IMFAttributes::LockStore method. While the object is unlocked, multiple threads can access the object's attributes.
+description: Unlocks the attribute store after a call to the IMFAttributes::LockStore method. While the object is unlocked, multiple threads can access the object's attributes.helpviewer_keywords: ["65e35864-868a-4ae9-86ed-772a2b2daeb6","IMFAttributes interface [Media Foundation]","UnlockStore method","IMFAttributes.UnlockStore","IMFAttributes::UnlockStore","UnlockStore","UnlockStore method [Media Foundation]","UnlockStore method [Media Foundation]","IMFAttributes interface","mf.imfattributes_unlockstore","mfobjects/IMFAttributes::UnlockStore"]
 old-location: mf\imfattributes_unlockstore.htm
 tech.root: medfound
 ms.assetid: 65e35864-868a-4ae9-86ed-772a2b2daeb6

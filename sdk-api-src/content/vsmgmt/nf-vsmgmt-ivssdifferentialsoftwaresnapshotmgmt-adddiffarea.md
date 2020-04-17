@@ -1,7 +1,7 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea
 title: IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea (vsmgmt.h)
-description: Adds a shadow copy storage area association for the specified volume.
+description: Adds a shadow copy storage area association for the specified volume.helpviewer_keywords: ["AddDiffArea","AddDiffArea method [VSS]","AddDiffArea method [VSS]","IVssDifferentialSoftwareSnapshotMgmt interface","IVssDifferentialSoftwareSnapshotMgmt interface [VSS]","AddDiffArea method","IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea","IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea","base.ivssdifferentialsoftwaresnapshotmgmt_adddiffarea","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_adddiffarea.htm
 tech.root: VSS
 ms.assetid: 7b58331c-b8a2-4333-a05d-563395d5f0c2

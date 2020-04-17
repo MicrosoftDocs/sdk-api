@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingBinary
 title: TraceLoggingBinary macro (traceloggingprovider.h)
-description: Wrapper macro for raw binary data.
+description: Wrapper macro for raw binary data.helpviewer_keywords: ["TraceLoggingBinary","TraceLoggingBinary macro","tracelogging.traceloggingbinary","traceloggingprovider/TraceLoggingBinary"]
 old-location: tracelogging\traceloggingbinary.htm
 tech.root: tracelogging
 ms.assetid: A1CE1481-7319-41BE-9639-E688365D4628

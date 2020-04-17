@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetBorderColor
 title: IMFPMediaPlayer::GetBorderColor (mfplay.h)
-description: Gets the current color of the video border.
+description: Gets the current color of the video border.helpviewer_keywords: ["GetBorderColor","GetBorderColor method [Media Foundation]","GetBorderColor method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetBorderColor method","IMFPMediaPlayer.GetBorderColor","IMFPMediaPlayer::GetBorderColor","mf.imfpmediaplayer_getbordercolor","mfplay/IMFPMediaPlayer::GetBorderColor"]
 old-location: mf\imfpmediaplayer_getbordercolor.htm
 tech.root: medfound
 ms.assetid: a07bacbd-3d45-4733-a506-3c54ec10b634

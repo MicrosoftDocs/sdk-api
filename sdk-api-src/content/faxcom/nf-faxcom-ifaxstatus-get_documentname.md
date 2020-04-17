@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_DocumentName
 title: IFaxStatus::get_DocumentName (faxcom.h)
-description: Retrieves the DocumentName property for the FaxStatus object of a parent FaxPort object. The DocumentName property is a null-terminated string that contains the user-friendly name associated with an active fax document.
+description: Retrieves the DocumentName property for the FaxStatus object of a parent FaxPort object. The DocumentName property is a null-terminated string that contains the user-friendly name associated with an active fax document.helpviewer_keywords: ["DocumentName property [Fax Service]","DocumentName property [Fax Service]","IFaxStatus interface","IFaxStatus interface [Fax Service]","DocumentName property","IFaxStatus.DocumentName","IFaxStatus.get_DocumentName","IFaxStatus::DocumentName","IFaxStatus::get_DocumentName","_mfax_ifaxstatus_get_documentname","fax._mfax_ifaxstatus_get_documentname","fax._mfax_ifaxstatus_mfax_ifaxstatus_get_documentname_cpp","faxcom/IFaxStatus::DocumentName","faxcom/IFaxStatus::get_DocumentName","get_DocumentName"]
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_documentname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jvp.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Instance_IsA
 title: MI_Instance_IsA function (mi.h)
-description: Determines if the instance self is an instance of the class given by classDecl.
+description: Determines if the instance self is an instance of the class given by classDecl.helpviewer_keywords: ["MI_Instance_IsA","MI_Instance_IsA function [Windows Management Infrastructure (MI)]","mi/MI_Instance_IsA","wmi_v2.mi_instance_isa"]
 old-location: wmi_v2\mi_instance_isa.htm
 tech.root: wmi_v2
 ms.assetid: 53fe80b3-cd34-4dee-a474-ced784d61682

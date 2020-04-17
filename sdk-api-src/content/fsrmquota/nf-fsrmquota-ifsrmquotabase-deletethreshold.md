@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.DeleteThreshold
 title: IFsrmQuotaBase::DeleteThreshold (fsrmquota.h)
-description: Deletes a threshold from the quota object.
+description: Deletes a threshold from the quota object.helpviewer_keywords: ["DeleteThreshold","DeleteThreshold method [File Server Resource Manager]","DeleteThreshold method [File Server Resource Manager]","IFsrmQuotaBase interface","IFsrmQuotaBase interface [File Server Resource Manager]","DeleteThreshold method","IFsrmQuotaBase.DeleteThreshold","IFsrmQuotaBase::DeleteThreshold","fs.ifsrmquotabase_deletethreshold","fsrm.ifsrmquotabase_deletethreshold","fsrmquota/IFsrmQuotaBase::DeleteThreshold"]
 old-location: fsrm\ifsrmquotabase_deletethreshold.htm
 tech.root: fsrm
 ms.assetid: 6f6ace15-05aa-4276-88eb-3a4315b3b51c

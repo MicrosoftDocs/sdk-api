@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspen.Pen.GetDashPattern
 title: Pen::GetDashPattern (gdipluspen.h)
-description: The Pen::GetDashPattern method gets an array of custom dashes and spaces currently set for this Pen object.
+description: The Pen::GetDashPattern method gets an array of custom dashes and spaces currently set for this Pen object.helpviewer_keywords: ["GetDashPattern","GetDashPattern method [GDI+]","GetDashPattern method [GDI+]","Pen class","Pen class [GDI+]","GetDashPattern method","Pen.GetDashPattern","Pen::GetDashPattern","_gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_","gdiplus._gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashpattern.htm

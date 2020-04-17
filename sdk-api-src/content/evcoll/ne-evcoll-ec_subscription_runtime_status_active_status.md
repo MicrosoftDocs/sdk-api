@@ -1,7 +1,7 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
 title: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS (evcoll.h)
-description: Specifies the status of a subscription or an event source with respect to a subscription.
+description: Specifies the status of a subscription or an event source with respect to a subscription.helpviewer_keywords: ["EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS","EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS enumeration","EcRuntimeStatusActiveStatusActive","EcRuntimeStatusActiveStatusDisabled","EcRuntimeStatusActiveStatusInactive","EcRuntimeStatusActiveStatusTrying","evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS","evcoll/EcRuntimeStatusActiveStatusActive","evcoll/EcRuntimeStatusActiveStatusDisabled","evcoll/EcRuntimeStatusActiveStatusInactive","evcoll/EcRuntimeStatusActiveStatusTrying","wec.ec_subscription_runtime_status_active_status","wes.ec_subscription_runtime_status_active_status"]
 old-location: wec\ec_subscription_runtime_status_active_status.htm
 tech.root: WEC
 ms.assetid: 254305fe-5646-4661-98e2-b02f5d240da1

@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_QUERY_ATTRIBUTES
 title: IOCTL_KEYBOARD_QUERY_ATTRIBUTES (ntddkbd.h)
-description: The IOCTL_KEYBOARD_QUERY_ATTRIBUTES request returns information about the keyboard attributes.
+description: The IOCTL_KEYBOARD_QUERY_ATTRIBUTES request returns information about the keyboard attributes.helpviewer_keywords: ["IOCTL_KEYBOARD_QUERY_ATTRIBUTES","IOCTL_KEYBOARD_QUERY_ATTRIBUTES control","IOCTL_KEYBOARD_QUERY_ATTRIBUTES control code [Human Input Devices]","hid.ioctl_keyboard_query_attributes2","i8042ref_51ea405d-a67d-4074-9e29-a307c9681196.xml","ntddkbd/IOCTL_KEYBOARD_QUERY_ATTRIBUTES"]
 old-location: hid\ioctl_keyboard_query_attributes2.htm
 tech.root: hid
 ms.assetid: ebf0f275-dbf6-4538-bd90-40ba47a8bfc0

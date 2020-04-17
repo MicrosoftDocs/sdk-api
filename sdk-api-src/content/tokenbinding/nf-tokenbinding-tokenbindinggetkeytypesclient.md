@@ -1,7 +1,7 @@
 ---
 UID: NF:tokenbinding.TokenBindingGetKeyTypesClient
 title: TokenBindingGetKeyTypesClient function (tokenbinding.h)
-description: Retrieves a list of the key types that the client device supports.
+description: Retrieves a list of the key types that the client device supports.helpviewer_keywords: ["TokenBindingGetKeyTypesClient","TokenBindingGetKeyTypesClient function [Security]","security.tokenbindinggetkeytypesclient","tokenbinding/TokenBindingGetKeyTypesClient"]
 old-location: security\tokenbindinggetkeytypesclient.htm
 tech.root: SecCNG
 ms.assetid: 583687B6-5A87-4616-A5EE-4FECFF06749E

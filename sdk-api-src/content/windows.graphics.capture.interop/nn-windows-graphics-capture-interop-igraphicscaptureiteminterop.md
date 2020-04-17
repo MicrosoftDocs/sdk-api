@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.graphics.capture.interop.IGraphicsCaptureItemInterop
 title: interop::IGraphicsCaptureItemInterop
-description: Desktop interop interface for the [GraphicsCaptureItem](https://docs.microsoft.com/uwp/api/windows.graphics.capture.graphicscaptureitem) activation factory.
+description: Desktop interop interface for the [GraphicsCaptureItem](https://docs.microsoft.com/uwp/api/windows.graphics.capture.graphicscaptureitem) activation factory.helpviewer_keywords: ["interop::IGraphicsCaptureItemInterop"]
 ms.date: 6/24/2019
 ms.keywords: interop::IGraphicsCaptureItemInterop
 f1_keywords:

@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IMPEG2Component.get_PCRPID
 title: IMPEG2Component::get_PCRPID (tuner.h)
-description: The get_PCRPID method returns the packet identifier (PID) for the packets that contain the PCR for this substream.
+description: The get_PCRPID method returns the packet identifier (PID) for the packets that contain the PCR for this substream.helpviewer_keywords: ["IMPEG2Component interface [Microsoft TV Technologies]","get_PCRPID method","IMPEG2Component.get_PCRPID","IMPEG2Component::get_PCRPID","IMPEG2Componentget_PCRPID","get_PCRPID","get_PCRPID method [Microsoft TV Technologies]","get_PCRPID method [Microsoft TV Technologies]","IMPEG2Component interface","mstv.impeg2component_get_pcrpid","tuner/IMPEG2Component::get_PCRPID"]
 old-location: mstv\impeg2component_get_pcrpid.htm
 tech.root: mstv
 ms.assetid: b31f04b6-e2b1-450b-9f1f-2df0c9055da2

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamLumaKey
 title: ID3D11VideoContext::VideoProcessorSetStreamLumaKey (d3d11.h)
-description: Sets the luma key for an input stream on the video processor.
+description: Sets the luma key for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamLumaKey method","ID3D11VideoContext.VideoProcessorSetStreamLumaKey","ID3D11VideoContext::VideoProcessorSetStreamLumaKey","VideoProcessorSetStreamLumaKey","VideoProcessorSetStreamLumaKey method [Media Foundation]","VideoProcessorSetStreamLumaKey method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamLumaKey","mf.id3d11videocontext_videoprocessorsetstreamlumakey"]
 old-location: mf\id3d11videocontext_videoprocessorsetstreamlumakey.htm
 tech.root: medfound
 ms.assetid: DAFDAF7C-BBE2-41AA-9E44-C1BD28CE03FE

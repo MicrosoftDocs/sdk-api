@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspixelformats.IsIndexedPixelFormat
 title: IsIndexedPixelFormat function (gdipluspixelformats.h)
-description: The IsIndexedPixelFormat method determines whether a specified pixel format is an indexed format.
+description: The IsIndexedPixelFormat method determines whether a specified pixel format is an indexed format.helpviewer_keywords: ["IsIndexedPixelFormat","IsIndexedPixelFormat function [GDI+]","_gdiplus_FUNC_IsIndexedPixelFormat_","gdiplus._gdiplus_FUNC_IsIndexedPixelFormat_","gdipluspixelformats/IsIndexedPixelFormat"]
 old-location: gdiplus\_gdiplus_FUNC_IsIndexedPixelFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isindexedpixelformat.htm

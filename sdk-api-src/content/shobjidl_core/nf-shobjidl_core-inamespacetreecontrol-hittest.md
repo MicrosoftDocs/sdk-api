@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.HitTest
 title: INameSpaceTreeControl::HitTest (shobjidl_core.h)
-description: Retrieves the item that a given point is in, if any.
+description: Retrieves the item that a given point is in, if any.helpviewer_keywords: ["HitTest","HitTest method [Windows Shell]","HitTest method [Windows Shell]","INameSpaceTreeControl interface","INameSpaceTreeControl interface [Windows Shell]","HitTest method","INameSpaceTreeControl.HitTest","INameSpaceTreeControl::HitTest","_shell_INameSpaceTreeControl_HitTest","shell.INameSpaceTreeControl_HitTest","shobjidl_core/INameSpaceTreeControl::HitTest"]
 old-location: shell\INameSpaceTreeControl_HitTest.htm
 tech.root: shell
 ms.assetid: 2287772d-2c06-4d4b-a11e-727dd5de5326

@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedPackageWriter.AddPayloadFileEncrypted
 title: IAppxEncryptedPackageWriter::AddPayloadFileEncrypted (appxpackaging.h)
-description: Adds a new encrypted payload file to the appx package.
+description: Adds a new encrypted payload file to the appx package.helpviewer_keywords: ["AddPayloadFileEncrypted","AddPayloadFileEncrypted method [App packaging and management]","AddPayloadFileEncrypted method [App packaging and management]","IAppxEncryptedPackageWriter interface","IAppxEncryptedPackageWriter interface [App packaging and management]","AddPayloadFileEncrypted method","IAppxEncryptedPackageWriter.AddPayloadFileEncrypted","IAppxEncryptedPackageWriter::AddPayloadFileEncrypted","appxpackaging/IAppxEncryptedPackageWriter::AddPayloadFileEncrypted","appxpkg.iappxencryptedpackagewriter_addpayloadfileencrypted"]
 old-location: appxpkg\iappxencryptedpackagewriter_addpayloadfileencrypted.htm
 tech.root: appxpkg
 ms.assetid: 4F5823D3-7039-4CA1-BEEA-DF2A13BC54BD

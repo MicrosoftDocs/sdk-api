@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchManager.get_UseProxy
 title: ISearchManager::get_UseProxy (searchapi.h)
-description: Retrieves the proxy server to be used.
+description: Retrieves the proxy server to be used.helpviewer_keywords: ["ISearchManager interface [search]","get_UseProxy method","ISearchManager.get_UseProxy","ISearchManager::get_UseProxy","_search_ISearchManager_get_UseProxy","get_UseProxy","get_UseProxy method [search]","get_UseProxy method [search]","ISearchManager interface","search._search_ISearchManager_get_UseProxy","searchapi/ISearchManager::get_UseProxy"]
 old-location: search\_search_ISearchManager_get_UseProxy.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_useproxy.htm

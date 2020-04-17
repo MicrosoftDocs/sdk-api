@@ -1,7 +1,7 @@
 ---
 UID: NS:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003
 title: AAAccountingData (tsgpolicyengine.h)
-description: This structure contains information about a connection event.
+description: This structure contains information about a connection event.helpviewer_keywords: ["AAAccountingData","AAAccountingData structure [Remote Desktop Services]","__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003","termserv.aaaccountingdata","tsgpolicyengine/AAAccountingData"]
 old-location: termserv\aaaccountingdata.htm
 tech.root: TermServ
 ms.assetid: 1c79f910-8dd9-47dc-80d1-f6252f0a43dd

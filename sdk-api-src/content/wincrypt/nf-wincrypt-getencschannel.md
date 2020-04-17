@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.GetEncSChannel
 title: GetEncSChannel function (wincrypt.h)
-description: This function is unavailable.
+description: This function is unavailable.helpviewer_keywords: ["GetEncSChannel","GetEncSChannel function [Security]","security.getencschannel","wincrypt/GetEncSChannel"]
 old-location: security\getencschannel.htm
 tech.root: SecCrypto
 ms.assetid: 4879895e-8bf4-4464-a344-04e4b361c5c7

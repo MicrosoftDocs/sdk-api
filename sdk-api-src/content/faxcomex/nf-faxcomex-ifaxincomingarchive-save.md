@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.Save
 title: IFaxIncomingArchive::Save (faxcomex.h)
-description: The Save method saves the FaxIncomingArchive object's data.
+description: The Save method saves the FaxIncomingArchive object's data.helpviewer_keywords: ["IFaxIncomingArchive interface [Fax Service]","Save method","IFaxIncomingArchive.Save","IFaxIncomingArchive::Save","Save","Save method [Fax Service]","Save method [Fax Service]","IFaxIncomingArchive interface","_mfax_faxincomingarchive.save","fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_save_cpp","fax._mfax_faxincomingarchive_save","faxcomex/IFaxIncomingArchive::Save"]
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_8jfp.htm

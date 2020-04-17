@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPublishing.RemoveInstance
 title: IProviderPublishing::RemoveInstance (functiondiscoveryprovider.h)
-description: Deletes an existing function instance.
+description: Deletes an existing function instance.helpviewer_keywords: ["IProviderPublishing interface","RemoveInstance method","IProviderPublishing.RemoveInstance","IProviderPublishing::RemoveInstance","RemoveInstance","RemoveInstance method","RemoveInstance method","IProviderPublishing interface","functiondiscoveryprovider/IProviderPublishing::RemoveInstance","ncd.iproviderpublishing_removeinstance_method"]
 old-location: ncd\iproviderpublishing_removeinstance_method.htm
 tech.root: FunDisc
 ms.assetid: 7b4f6122-944e-4fe9-be95-dd09ae1542f1

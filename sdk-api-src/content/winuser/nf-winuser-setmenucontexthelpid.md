@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetMenuContextHelpId
 title: SetMenuContextHelpId function (winuser.h)
-description: Associates a Help context identifier with a menu.
+description: Associates a Help context identifier with a menu.helpviewer_keywords: ["SetMenuContextHelpId","SetMenuContextHelpId function [Windows Shell]","_win32_SetMenuContextHelpId","shell.SetMenuContextHelpId","winuser/SetMenuContextHelpId"]
 old-location: shell\SetMenuContextHelpId.htm
 tech.root: shell
 ms.assetid: 55d944db-d889-468a-991a-b9779c90b44f

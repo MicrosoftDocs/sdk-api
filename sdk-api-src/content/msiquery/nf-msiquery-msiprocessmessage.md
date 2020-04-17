@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiProcessMessage
 title: MsiProcessMessage function (msiquery.h)
-description: The MsiProcessMessage function sends an error record to the installer for processing.
+description: The MsiProcessMessage function sends an error record to the installer for processing.helpviewer_keywords: ["INSTALLMESSAGE_ACTIONDATA","INSTALLMESSAGE_ACTIONSTART","INSTALLMESSAGE_COMMONDATA","INSTALLMESSAGE_ERROR","INSTALLMESSAGE_FATALEXIT","INSTALLMESSAGE_FILESINUSE","INSTALLMESSAGE_INFO","INSTALLMESSAGE_OUTOFDISKSPACE","INSTALLMESSAGE_PROGRESS","INSTALLMESSAGE_RESOLVESOURCE","INSTALLMESSAGE_RMFILESINUSE","INSTALLMESSAGE_USER","INSTALLMESSAGE_WARNING","MsiProcessMessage","MsiProcessMessage function","_msi_msiprocessmessage","msiquery/MsiProcessMessage","setup.msiprocessmessage"]
 old-location: setup\msiprocessmessage.htm
 tech.root: Msi
 ms.assetid: 136662bd-b970-4ff3-8ae5-c5e3097ee00d

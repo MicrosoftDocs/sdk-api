@@ -1,7 +1,7 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_OOB_DATA_INFO
 title: BLUETOOTH_OOB_DATA_INFO (bluetoothapis.h)
-description: BLUETOOTH_OOB_DATA_INFO structure contains data used to authenticate prior to establishing an Out-of-Band device pairing.
+description: BLUETOOTH_OOB_DATA_INFO structure contains data used to authenticate prior to establishing an Out-of-Band device pairing.helpviewer_keywords: ["*PBLUETOOTH_OOB_DATA_INFO","BLUETOOTH_OOB_DATA_INFO","BLUETOOTH_OOB_DATA_INFO structure [Bluetooth]","PBLUETOOTH_OOB_DATA_INFO","PBLUETOOTH_OOB_DATA_INFO structure pointer [Bluetooth]","bluetooth.bluetooth_oob_data_info","bluetoothapis/BLUETOOTH_OOB_DATA_INFO","bluetoothapis/PBLUETOOTH_OOB_DATA_INFO"]
 old-location: bluetooth\bluetooth_oob_data_info.htm
 tech.root: bluetooth
 ms.assetid: 0728678a-98c7-44b5-a117-5f9acae9fd25

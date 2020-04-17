@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetIncrementalTabStop
 title: IDWriteTextFormat::GetIncrementalTabStop (dwrite.h)
-description: Gets the incremental tab stop position.
+description: Gets the incremental tab stop position.helpviewer_keywords: ["GetIncrementalTabStop","GetIncrementalTabStop method [Direct Write]","GetIncrementalTabStop method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetIncrementalTabStop method","IDWriteTextFormat.GetIncrementalTabStop","IDWriteTextFormat::GetIncrementalTabStop","directwrite.IDWriteTextFormat_GetIncrementalTabStop","dwrite/IDWriteTextFormat::GetIncrementalTabStop"]
 old-location: directwrite\IDWriteTextFormat_GetIncrementalTabStop.htm
 tech.root: DirectWrite
 ms.assetid: 080c9fe3-3323-4e30-8dbc-fe44e874cf6d

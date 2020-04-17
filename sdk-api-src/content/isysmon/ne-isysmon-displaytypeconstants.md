@@ -1,7 +1,7 @@
 ---
 UID: NE:isysmon.eDisplayTypeConstant
 title: DisplayTypeConstants (isysmon.h)
-description: Determines how the performance counter data is graphed, for example, as a line graph or a histogram.
+description: Determines how the performance counter data is graphed, for example, as a line graph or a histogram.helpviewer_keywords: ["DisplayTypeConstants","DisplayTypeConstants enumeration [SysMon]","base.displaytypeconstants","isysmon/DisplayTypeConstants","isysmon/sysmonChartArea","isysmon/sysmonChartStackedArea","isysmon/sysmonHistogram","isysmon/sysmonLineGraph","isysmon/sysmonReport","sysmon.displaytypeconstants","sysmonChartArea","sysmonChartStackedArea","sysmonHistogram","sysmonLineGraph","sysmonReport"]
 old-location: sysmon\displaytypeconstants.htm
 tech.root: SysMon
 ms.assetid: c0f991cc-c547-4d4c-ae8f-9f672e11f010

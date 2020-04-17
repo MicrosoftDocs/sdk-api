@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetLastModified
 title: IUrlAccessor::GetLastModified (searchapi.h)
-description: Gets the time stamp identifying when the URL was last modified.
+description: Gets the time stamp identifying when the URL was last modified.helpviewer_keywords: ["GetLastModified","GetLastModified method [search]","GetLastModified method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetLastModified method","IUrlAccessor.GetLastModified","IUrlAccessor::GetLastModified","_search_IUrlAccessor_GetLastModified","search._search_IUrlAccessor_GetLastModified","searchapi/IUrlAccessor::GetLastModified"]
 old-location: search\_search_IUrlAccessor_GetLastModified.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getlastmodified.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565(const float)
 title: XMU565::XMU565(const float) (directxpackedvector.h)
-description: Initializes a new instance of XMU565 from a three element float array.
+description: Initializes a new instance of XMU565 from a three element float array.helpviewer_keywords: ["XMU565","XMU565 constructor [DirectX Math Support APIs]","XMU565 constructor [DirectX Math Support APIs]","XMU565 structure","XMU565 structure [DirectX Math Support APIs]","XMU565 constructor","XMU565.XMU565","XMU565.XMU565()","XMU565.XMU565(const float)","XMU565::XMU565","XMU565::XMU565(const float)","dxmath.xmu565_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 5b3d6816-55a0-4f56-9b1c-ffe8899c5477

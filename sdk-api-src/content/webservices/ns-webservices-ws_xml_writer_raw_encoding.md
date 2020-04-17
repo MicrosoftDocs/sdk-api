@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_RAW_ENCODING
 title: WS_XML_WRITER_RAW_ENCODING (webservices.h)
-description: Used to indicate that the writer should emit bytes from decoded base64 characters.
+description: Used to indicate that the writer should emit bytes from decoded base64 characters.helpviewer_keywords: ["WS_XML_WRITER_RAW_ENCODING","WS_XML_WRITER_RAW_ENCODING structure [Web Services for Windows]","webservices/WS_XML_WRITER_RAW_ENCODING","wsw.ws_xml_writer_raw_encoding"]
 old-location: wsw\ws_xml_writer_raw_encoding.htm
 tech.root: wsw
 ms.assetid: 655a7d13-8ef1-4863-a6a2-4636ba0a8983

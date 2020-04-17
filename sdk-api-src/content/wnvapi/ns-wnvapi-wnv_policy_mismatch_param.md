@@ -1,7 +1,7 @@
 ---
 UID: NS:wnvapi._WNV_POLICY_MISMATCH_PARAM
 title: WNV_POLICY_MISMATCH_PARAM (wnvapi.h)
-description: Specifies the parameters of an event (typically an incoming packet) that causes the Windows Network Virtualization (WNV) driver to generate a WnvPolicyMismatchType notification.
+description: Specifies the parameters of an event (typically an incoming packet) that causes the Windows Network Virtualization (WNV) driver to generate a WnvPolicyMismatchType notification.helpviewer_keywords: ["*PWNV_POLICY_MISMATCH_PARAM","PWNV_POLICY_MISMATCH_PARAM","PWNV_POLICY_MISMATCH_PARAM structure pointer [Windows Network Virtualization]","WNV_POLICY_MISMATCH_PARAM","WNV_POLICY_MISMATCH_PARAM structure [Windows Network Virtualization]","wnv.wnv_policy_mismatch_param","wnvapi/PWNV_POLICY_MISMATCH_PARAM","wnvapi/WNV_POLICY_MISMATCH_PARAM"]
 old-location: wnv\wnv_policy_mismatch_param.htm
 tech.root: wnv
 ms.assetid: 2781B0D6-950E-49AD-9B30-31DE4A27ED4A

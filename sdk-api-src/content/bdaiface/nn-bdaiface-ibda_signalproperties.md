@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_SignalProperties
 title: IBDA_SignalProperties (bdaiface.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IBDA_SignalProperties","IBDA_SignalProperties interface [Microsoft TV Technologies]","IBDA_SignalProperties interface [Microsoft TV Technologies]","described","IBDA_SignalPropertiesInterface","bdaiface/IBDA_SignalProperties","mstv.ibda_signalproperties"]
 old-location: mstv\ibda_signalproperties.htm
 tech.root: mstv
 ms.assetid: fe88b628-7959-4d2f-981f-7de9126146f6

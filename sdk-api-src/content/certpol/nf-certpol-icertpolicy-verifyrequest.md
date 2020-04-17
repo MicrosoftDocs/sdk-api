@@ -1,7 +1,7 @@
 ---
 UID: NF:certpol.ICertPolicy.VerifyRequest
 title: ICertPolicy::VerifyRequest (certpol.h)
-description: Notifies the policy module that a new request has entered the system.
+description: Notifies the policy module that a new request has entered the system.helpviewer_keywords: ["CCertPolicy object [Security]","VerifyRequest method","ICertPolicy interface [Security]","VerifyRequest method","ICertPolicy.VerifyRequest","ICertPolicy2 interface [Security]","VerifyRequest method","ICertPolicy2::VerifyRequest","ICertPolicy::VerifyRequest","VR_INSTANT_BAD","VR_INSTANT_OK","VR_PENDING","VerifyRequest","VerifyRequest method [Security]","VerifyRequest method [Security]","CCertPolicy object","VerifyRequest method [Security]","ICertPolicy interface","VerifyRequest method [Security]","ICertPolicy2 interface","_certsrv_icertpolicy_verifyrequest","certpol/ICertPolicy2::VerifyRequest","certpol/ICertPolicy::VerifyRequest","security.icertpolicy2_verifyrequest"]
 old-location: security\icertpolicy2_verifyrequest.htm
 tech.root: SecCrypto
 ms.assetid: 860f0eb0-5b23-44bd-8416-687a94962f1b

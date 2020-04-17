@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6ReleasePrefix
 title: Dhcpv6ReleasePrefix function (dhcpv6csdk.h)
-description: Releases a prefix.
+description: Releases a prefix.helpviewer_keywords: ["Dhcpv6ReleasePrefix","Dhcpv6ReleasePrefix function [DHCP]","dhcp.dhcpv6releaseprefix","dhcpv6csdk/Dhcpv6ReleasePrefix"]
 old-location: dhcp\dhcpv6releaseprefix.htm
 tech.root: DHCP
 ms.assetid: 252646db-f8d2-42d1-87af-2426dff2c72c

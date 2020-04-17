@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_GetText
 title: TextRange_GetText function (uiautomationcoreapi.h)
-description: Returns the text in a text range, up to a specified number of characters.
+description: Returns the text in a text range, up to a specified number of characters.helpviewer_keywords: ["TextRange_GetText","TextRange_GetText function [Windows Accessibility]","uiauto.uiauto_TextRange_GetTextConPat","uiauto_TextRange_GetTextConPat","uiautomationcoreapi/TextRange_GetText","winauto.uiauto_TextRange_GetTextConPat"]
 old-location: winauto\uiauto_TextRange_GetTextConPat.htm
 tech.root: WinAuto
 ms.assetid: 1c8ba026-0c85-46a0-a667-daba0191b115

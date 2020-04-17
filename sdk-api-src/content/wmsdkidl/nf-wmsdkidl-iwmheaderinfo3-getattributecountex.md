@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.GetAttributeCountEx
 title: IWMHeaderInfo3::GetAttributeCountEx (wmsdkidl.h)
-description: The GetAttributeCountEx method retrieves the total number of attributes associated with a specified stream number.
+description: The GetAttributeCountEx method retrieves the total number of attributes associated with a specified stream number.helpviewer_keywords: ["GetAttributeCountEx","GetAttributeCountEx method [windows Media Format]","GetAttributeCountEx method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo3 interface [windows Media Format]","GetAttributeCountEx method","IWMHeaderInfo3.GetAttributeCountEx","IWMHeaderInfo3::GetAttributeCountEx","IWMHeaderInfo3GetAttributeCountEx","wmformat.iwmheaderinfo3_getattributecountex","wmsdkidl/IWMHeaderInfo3::GetAttributeCountEx"]
 old-location: wmformat\iwmheaderinfo3_getattributecountex.htm
 tech.root: wmformat
 ms.assetid: 8c56d7b6-4f59-450e-938c-b7d0bd37ea08

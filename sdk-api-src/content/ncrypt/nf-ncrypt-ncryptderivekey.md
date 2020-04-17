@@ -1,7 +1,7 @@
 ---
 UID: NF:ncrypt.NCryptDeriveKey
 title: NCryptDeriveKey function (ncrypt.h)
-description: Derives a key from a secret agreement value.
+description: Derives a key from a secret agreement value.helpviewer_keywords: ["BCRYPT_KDF_HASH","BCRYPT_KDF_HMAC","BCRYPT_KDF_SP80056A_CONCAT","BCRYPT_KDF_TLS_PRF","KDF_USE_SECRET_AS_HMAC_KEY_FLAG","NCryptDeriveKey","NCryptDeriveKey function [Security]","ncrypt/NCryptDeriveKey","security.ncryptderivekey"]
 old-location: security\ncryptderivekey.htm
 tech.root: SecCNG
 ms.assetid: 0ff08c6a-5f30-43ca-9db8-cda3e0704b0a

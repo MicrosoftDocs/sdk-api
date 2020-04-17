@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsGroup.Members
 title: IADsGroup::Members (iads.h)
-description: Retrieves a collection of the immediate members of the group.
+description: Retrieves a collection of the immediate members of the group.helpviewer_keywords: ["IADsGroup interface [ADSI]","Members method","IADsGroup.Members","IADsGroup::Members","Members","Members method [ADSI]","Members method [ADSI]","IADsGroup interface","_ds_iadsgroup_members","adsi.iadsgroup__members","adsi.iadsgroup_members","iads/IADsGroup::Members"]
 old-location: adsi\iadsgroup_members.htm
 tech.root: adsi
 ms.assetid: c909f779-ee27-4eb3-aee2-892ccc2a196e

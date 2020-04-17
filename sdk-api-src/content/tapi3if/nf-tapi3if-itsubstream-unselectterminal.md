@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITSubStream.UnselectTerminal
 title: ITSubStream::UnselectTerminal (tapi3if.h)
-description: The UnselectTerminal method unselects the terminal from the substream.
+description: The UnselectTerminal method unselects the terminal from the substream.helpviewer_keywords: ["ITSubStream interface [TAPI 2.2]","UnselectTerminal method","ITSubStream.UnselectTerminal","ITSubStream::UnselectTerminal","UnselectTerminal","UnselectTerminal method [TAPI 2.2]","UnselectTerminal method [TAPI 2.2]","ITSubStream interface","_tapi3_itsubstream_unselectterminal","tapi3.itsubstream_unselectterminal","tapi3if/ITSubStream::UnselectTerminal"]
 old-location: tapi3\itsubstream_unselectterminal.htm
 tech.root: Tapi
 ms.assetid: a1b84377-bb1f-4e88-aca5-91105ff2ad6a

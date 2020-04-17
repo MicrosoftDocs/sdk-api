@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPCdromCollection
 title: IWMPCdromCollection (wmp.h)
-description: The IWMPCdromCollection interface provides a way to organize and access a collection of CD or DVD drives.
+description: The IWMPCdromCollection interface provides a way to organize and access a collection of CD or DVD drives.helpviewer_keywords: ["IWMPCdromCollection","IWMPCdromCollection interface [Windows Media Player]","IWMPCdromCollection interface [Windows Media Player]","described","IWMPCdromCollectionInterface","wmp.iwmpcdromcollection","wmp/IWMPCdromCollection"]
 old-location: wmp\iwmpcdromcollection.htm
 tech.root: WMP
 ms.assetid: ba55ac32-149d-4f7b-a2bb-1fdb0be806cd

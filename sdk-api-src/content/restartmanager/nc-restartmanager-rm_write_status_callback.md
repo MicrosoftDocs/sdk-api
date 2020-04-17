@@ -1,7 +1,7 @@
 ---
 UID: NC:restartmanager.RM_WRITE_STATUS_CALLBACK
 title: RM_WRITE_STATUS_CALLBACK (restartmanager.h)
-description: The RM_WRITE_STATUS_CALLBACK function can be implemented by the user interface that controls the Restart Manager.
+description: The RM_WRITE_STATUS_CALLBACK function can be implemented by the user interface that controls the Restart Manager.helpviewer_keywords: ["RM_WRITE_STATUS_CALLBACK","RM_WRITE_STATUS_CALLBACK callback","RM_WRITE_STATUS_CALLBACK callback function [Restart Mgr]","restartmanager/RM_WRITE_STATUS_CALLBACK","rstmgr.rm_write_status_callback"]
 old-location: rstmgr\rm_write_status_callback.htm
 tech.root: rstmgr
 ms.assetid: 607a6b96-8509-4599-907c-edb8410d7921

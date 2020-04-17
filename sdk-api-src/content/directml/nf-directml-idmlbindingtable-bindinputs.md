@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.IDMLBindingTable.BindInputs
 title: IDMLBindingTable::BindInputs
-description: Binds a set of resources as input tensors.
+description: Binds a set of resources as input tensors.helpviewer_keywords: ["BindInputs","BindInputs method","BindInputs method","IDMLBindingTable interface","IDMLBindingTable interface","BindInputs method","IDMLBindingTable.BindInputs","IDMLBindingTable::BindInputs","direct3d12.idmlbindingtable_bindinputs","directml/IDMLBindingTable::BindInputs"]
 old-location: direct3d12\idmlbindingtable_bindinputs.htm
 tech.root: direct3d12
 ms.assetid: 125E5CBE-8ADF-4725-9F1D-66C38CD7A567

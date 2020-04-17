@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetVerticalBlankStatus
 title: IDirectDraw7::GetVerticalBlankStatus (ddraw.h)
-description: Retrieves the status of the vertical blank.
+description: Retrieves the status of the vertical blank.helpviewer_keywords: ["GetVerticalBlankStatus","GetVerticalBlankStatus method [DirectDraw]","GetVerticalBlankStatus method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","GetVerticalBlankStatus method","IDirectDraw7.GetVerticalBlankStatus","IDirectDraw7::GetVerticalBlankStatus","ddraw/IDirectDraw7::GetVerticalBlankStatus","directdraw.idirectdraw7_getverticalblankstatus"]
 old-location: directdraw\idirectdraw7_getverticalblankstatus.htm
 tech.root: directdraw
 ms.assetid: 4bab0d24-ab11-46fb-92de-060f6afe1fde

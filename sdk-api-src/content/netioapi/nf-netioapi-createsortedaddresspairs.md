@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.CreateSortedAddressPairs
 title: CreateSortedAddressPairs function (netioapi.h)
-description: Takes a supplied list of potential IP destination addresses, pairs the destination addresses with the host machine's local IP addresses, and sorts the pairs according to which address pair is best suited for communication between the two peers.
+description: Takes a supplied list of potential IP destination addresses, pairs the destination addresses with the host machine's local IP addresses, and sorts the pairs according to which address pair is best suited for communication between the two peers.helpviewer_keywords: ["CreateSortedAddressPairs","CreateSortedAddressPairs function [IP Helper]","iphlp.createsortedaddresspairs","netioapi/CreateSortedAddressPairs"]
 old-location: iphlp\createsortedaddresspairs.htm
 tech.root: IpHlp
 ms.assetid: cdc90d63-15a4-4278-afc3-dbf9ad6ba698

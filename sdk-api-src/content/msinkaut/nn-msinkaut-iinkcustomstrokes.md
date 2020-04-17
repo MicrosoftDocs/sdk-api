@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkCustomStrokes
 title: IInkCustomStrokes (msinkaut.h)
-description: Contains a collection of user-defined InkStrokes collections.
+description: Contains a collection of user-defined InkStrokes collections.helpviewer_keywords: ["0b4eb5d6-ccf0-46c1-ae02-a393e67b817e","IInkCustomStrokes","IInkCustomStrokes interface [Tablet PC]","IInkCustomStrokes interface [Tablet PC]","described","msinkaut/IInkCustomStrokes","tablet.iinkcustomstrokes"]
 old-location: tablet\iinkcustomstrokes.htm
 tech.root: tablet
 ms.assetid: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e

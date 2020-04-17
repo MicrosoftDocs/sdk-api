@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IShellFolderViewCB.MessageSFVCB
 title: IShellFolderViewCB::MessageSFVCB (shlobj_core.h)
-description: Allows communication between the system folder view object and a system folder view callback object.
+description: Allows communication between the system folder view object and a system folder view callback object.helpviewer_keywords: ["IShellFolderViewCB interface [Windows Shell]","MessageSFVCB method","IShellFolderViewCB.MessageSFVCB","IShellFolderViewCB::MessageSFVCB","MessageSFVCB","MessageSFVCB method [Windows Shell]","MessageSFVCB method [Windows Shell]","IShellFolderViewCB interface","_win32_IShellFolderViewCB_MessageSFVCB","shell.IShellFolderViewCB_MessageSFVCB","shlobj_core/IShellFolderViewCB::MessageSFVCB"]
 old-location: shell\IShellFolderViewCB_MessageSFVCB.htm
 tech.root: shell
 ms.assetid: 1678dd76-6ed4-4625-9170-22dcd3d7e8d2

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordScheduleTimeShiftInformation
 title: IISDB_SDTT::GetRecordScheduleTimeShiftInformation (dvbsiparser.h)
-description: Receives event time shift information from a schedule record in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
+description: Receives event time shift information from a schedule record in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).helpviewer_keywords: ["GetRecordScheduleTimeShiftInformation","GetRecordScheduleTimeShiftInformation method [Microsoft TV Technologies]","GetRecordScheduleTimeShiftInformation method [Microsoft TV Technologies]","IISDB_SDTT interface","IISDB_SDTT interface [Microsoft TV Technologies]","GetRecordScheduleTimeShiftInformation method","IISDB_SDTT.GetRecordScheduleTimeShiftInformation","IISDB_SDTT::GetRecordScheduleTimeShiftInformation","dvbsiparser/IISDB_SDTT::GetRecordScheduleTimeShiftInformation","mstv.iisdb_sdtt_getrecordscheduletimeshiftinformation"]
 old-location: mstv\iisdb_sdtt_getrecordscheduletimeshiftinformation.htm
 tech.root: mstv
 ms.assetid: caf9f0b1-5529-4e8e-ab03-45d7d3268113

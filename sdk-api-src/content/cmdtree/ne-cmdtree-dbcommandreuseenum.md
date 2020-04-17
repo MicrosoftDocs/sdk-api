@@ -1,7 +1,7 @@
 ---
 UID: NE:cmdtree.DBCOMMANDREUSEENUM
 title: DBCOMMANDREUSEENUM (cmdtree.h)
-description: The DBCOMMANDREUSEENUM enumerated type specifies whether a state from the previous command is retained.
+description: The DBCOMMANDREUSEENUM enumerated type specifies whether a state from the previous command is retained.helpviewer_keywords: ["DBCOMMANDREUSEENUM","DBCOMMANDREUSEENUM enumeration [Indexing Service]","DBCOMMANDREUSE_NONE","DBCOMMANDREUSE_PARAMETERS","DBCOMMANDREUSE_PROPERTIES","_idxs_DBCOMMANDREUSEENUM","cmdtree/DBCOMMANDREUSEENUM","cmdtree/DBCOMMANDREUSE_NONE","cmdtree/DBCOMMANDREUSE_PARAMETERS","cmdtree/DBCOMMANDREUSE_PROPERTIES","indexsrv.dbcommandreuseenum"]
 old-location: indexsrv\dbcommandreuseenum.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_71v1.htm

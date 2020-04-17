@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EnableWindow
 title: EnableWindow function (winuser.h)
-description: Enables or disables mouse and keyboard input to the specified window or control. When input is disabled, the window does not receive input such as mouse clicks and key presses. When input is enabled, the window receives all input.
+description: Enables or disables mouse and keyboard input to the specified window or control. When input is disabled, the window does not receive input such as mouse clicks and key presses. When input is enabled, the window receives all input.helpviewer_keywords: ["EnableWindow","EnableWindow function [Keyboard and Mouse Input]","_win32_EnableWindow","_win32_enablewindow_cpp","inputdev.enablewindow","winui._win32_enablewindow","winuser/EnableWindow"]
 old-location: inputdev\enablewindow.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\enablewindow.htm

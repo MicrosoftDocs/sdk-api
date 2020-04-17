@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.GetPlaftormWorkQueueMMCSSClass
 title: IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass (mfidl.h)
-description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class for a specified platform work queue.
+description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class for a specified platform work queue.helpviewer_keywords: ["GetPlaftormWorkQueueMMCSSClass","GetPlaftormWorkQueueMMCSSClass method [Media Foundation]","GetPlaftormWorkQueueMMCSSClass method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","GetPlaftormWorkQueueMMCSSClass method","IMFWorkQueueServices.GetPlaftormWorkQueueMMCSSClass","IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass","f953a54b-2bc0-4ddc-9837-57f72e564c02","mf.imfworkqueueservices_getplaftormworkqueuemmcssclass","mfidl/IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass"]
 old-location: mf\imfworkqueueservices_getplaftormworkqueuemmcssclass.htm
 tech.root: medfound
 ms.assetid: f953a54b-2bc0-4ddc-9837-57f72e564c02

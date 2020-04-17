@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFace2.GetColorPaletteCount
 title: IDWriteFontFace2::GetColorPaletteCount (dwrite_2.h)
-description: Gets the number of color palettes defined by the font.
+description: Gets the number of color palettes defined by the font.helpviewer_keywords: ["GetColorPaletteCount","GetColorPaletteCount method [Direct Write]","GetColorPaletteCount method [Direct Write]","IDWriteFontFace2 interface","IDWriteFontFace2 interface [Direct Write]","GetColorPaletteCount method","IDWriteFontFace2.GetColorPaletteCount","IDWriteFontFace2::GetColorPaletteCount","directwrite.idwritefontface2_getcolorpalettecount","dwrite_2/IDWriteFontFace2::GetColorPaletteCount"]
 old-location: directwrite\idwritefontface2_getcolorpalettecount.htm
 tech.root: DirectWrite
 ms.assetid: 99BB9C72-99B1-427C-B740-55A138189459

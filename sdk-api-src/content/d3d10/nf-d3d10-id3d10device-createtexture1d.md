@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateTexture1D
 title: ID3D10Device::CreateTexture1D (d3d10.h)
-description: Create an array of 1D textures (see Texture1D).
+description: Create an array of 1D textures (see Texture1D).helpviewer_keywords: ["0ea074c9-00a2-6fa9-2aad-24c30631a07a","CreateTexture1D","CreateTexture1D method [Direct3D 10]","CreateTexture1D method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreateTexture1D method","ID3D10Device.CreateTexture1D","ID3D10Device::CreateTexture1D","d3d10/ID3D10Device::CreateTexture1D","direct3d10.id3d10device_createtexture1d"]
 old-location: direct3d10\id3d10device_createtexture1d.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createtexture1d.htm

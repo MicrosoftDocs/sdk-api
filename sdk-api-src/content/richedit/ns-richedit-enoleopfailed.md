@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._enoleopfailed
 title: ENOLEOPFAILED (richedit.h)
-description: Contains information about a failed operation.
+description: Contains information about a failed operation.helpviewer_keywords: ["ENOLEOPFAILED","ENOLEOPFAILED structure [Windows Controls]","_win32_ENOLEOPFAILED_str","_win32_ENOLEOPFAILED_str_cpp","controls.ENOLEOPFAILED","controls._win32_ENOLEOPFAILED_str","richedit/ENOLEOPFAILED"]
 old-location: controls\ENOLEOPFAILED.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enoleopfailed.htm

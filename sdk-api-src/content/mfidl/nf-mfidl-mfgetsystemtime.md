@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFGetSystemTime
 title: MFGetSystemTime function (mfidl.h)
-description: Returns the system time.
+description: Returns the system time.helpviewer_keywords: ["MFGetSystemTime","MFGetSystemTime function [Media Foundation]","e23617f6-248e-4e0b-866b-19b960ebf8eb","mf.mfgetsystemtime","mfidl/MFGetSystemTime"]
 old-location: mf\mfgetsystemtime.htm
 tech.root: medfound
 ms.assetid: e23617f6-248e-4e0b-866b-19b960ebf8eb

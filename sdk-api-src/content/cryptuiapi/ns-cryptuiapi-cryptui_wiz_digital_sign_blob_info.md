@@ -1,7 +1,7 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO
 title: CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO (cryptuiapi.h)
-description: Contains information about the public key BLOB used by the CryptUIWizDigitalSign function.
+description: Contains information about the public key BLOB used by the CryptUIWizDigitalSign function.helpviewer_keywords: ["*PCRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO structure [Security]","PCRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO","PCRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO structure pointer [Security]","cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO","cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO","security.cryptui_wiz_digital_sign_blob_info"]
 old-location: security\cryptui_wiz_digital_sign_blob_info.htm
 tech.root: SecCrypto
 ms.assetid: 9750f52a-f605-4f43-98e1-0f0ea947a214

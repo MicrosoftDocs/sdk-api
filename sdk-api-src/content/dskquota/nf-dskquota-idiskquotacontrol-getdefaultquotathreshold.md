@@ -1,7 +1,7 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GetDefaultQuotaThreshold
 title: IDiskQuotaControl::GetDefaultQuotaThreshold (dskquota.h)
-description: Retrieves the default quota warning threshold for the volume.
+description: Retrieves the default quota warning threshold for the volume.helpviewer_keywords: ["GetDefaultQuotaThreshold","GetDefaultQuotaThreshold method [Files]","GetDefaultQuotaThreshold method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GetDefaultQuotaThreshold method","IDiskQuotaControl.GetDefaultQuotaThreshold","IDiskQuotaControl::GetDefaultQuotaThreshold","_win32_idiskquotacontrol_getdefaultquotathreshold","base.idiskquotacontrol_getdefaultquotathreshold","dskquota/IDiskQuotaControl::GetDefaultQuotaThreshold","fs.idiskquotacontrol_getdefaultquotathreshold"]
 old-location: fs\idiskquotacontrol_getdefaultquotathreshold.htm
 tech.root: FileIO
 ms.assetid: e57ec1c0-cece-4379-a695-a33c832ea7af

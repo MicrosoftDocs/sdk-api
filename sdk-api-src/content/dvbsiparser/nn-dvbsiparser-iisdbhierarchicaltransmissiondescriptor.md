@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor
 title: IIsdbHierarchicalTransmissionDescriptor (dvbsiparser.h)
-description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor.
+description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor.helpviewer_keywords: ["IIsdbHierarchicalTransmissionDescriptor","IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies]","IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IIsdbHierarchicalTransmissionDescriptor","mstv.iisdbhierarchicaltransmissiondescriptor"]
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor.htm
 tech.root: mstv
 ms.assetid: 6586360b-60d8-4c3c-aa6e-b657e1784b6d

@@ -1,7 +1,7 @@
 ---
 UID: NF:roapi.GetActivationFactory
 title: GetActivationFactory function (roapi.h)
-description: Gets the activation factory for the specified runtime class.
+description: Gets the activation factory for the specified runtime class.helpviewer_keywords: ["GetActivationFactory","GetActivationFactory function [Windows Runtime]","WinRTGetActivationFactory","roapi/GetActivationFactory","roapi/WinRTGetActivationFactory","winrt.getactivationfactory"]
 old-location: winrt\getactivationfactory.htm
 tech.root: WinRT
 ms.assetid: FD1A62C6-069E-40D1-A009-78C157E08F20

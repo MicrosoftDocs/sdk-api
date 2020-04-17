@@ -1,7 +1,7 @@
 ---
 UID: NN:gpmgmt.IGPM2
 title: IGPM2 (gpmgmt.h)
-description: The IGPM2 interface extends the GPMBackupDir and InitializeReporting methods of the IGPM interface of the Group Policy Management Console (GPMC).
+description: The IGPM2 interface extends the GPMBackupDir and InitializeReporting methods of the IGPM interface of the Group Policy Management Console (GPMC).helpviewer_keywords: ["IGPM2","IGPM2 interface [GPMC]","IGPM2 interface [GPMC]","described","gpmc.igpm2","gpmgmt/IGPM2"]
 old-location: gpmc\igpm2.htm
 tech.root: gpmc
 ms.assetid: f9cd432a-3974-4fc4-9e32-1d8e2df1601c

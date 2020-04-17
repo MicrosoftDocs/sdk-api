@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_27
 title: GuarFlowSpec (lpmapi.h)
-description: The GuarFlowSpec structure contains guaranteed flowspec information.
+description: The GuarFlowSpec structure contains guaranteed flowspec information.helpviewer_keywords: ["GuarFlowSpec","GuarFlowSpec structure [QOS]","lpmapi/GuarFlowSpec","qos.guarflowspec"]
 old-location: qos\guarflowspec.htm
 tech.root: QOS
 ms.assetid: 549380cc-b4ac-414a-9058-f506741f1e76

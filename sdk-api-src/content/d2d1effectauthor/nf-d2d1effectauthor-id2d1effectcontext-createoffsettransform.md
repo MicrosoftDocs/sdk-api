@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateOffsetTransform
 title: ID2D1EffectContext::CreateOffsetTransform (d2d1effectauthor.h)
-description: Creates and returns an offset transform.
+description: Creates and returns an offset transform.helpviewer_keywords: ["CreateOffsetTransform","CreateOffsetTransform method [Direct2D]","CreateOffsetTransform method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CreateOffsetTransform method","ID2D1EffectContext.CreateOffsetTransform","ID2D1EffectContext::CreateOffsetTransform","d2d1effectauthor/ID2D1EffectContext::CreateOffsetTransform","direct2d.id2d1contextinternal_createoffsettransform"]
 old-location: direct2d\id2d1contextinternal_createoffsettransform.htm
 tech.root: Direct2D
 ms.assetid: A0A479F7-CB2C-4A9A-B482-2383A3A1A841

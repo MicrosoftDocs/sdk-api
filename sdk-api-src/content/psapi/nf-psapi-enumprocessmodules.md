@@ -1,7 +1,7 @@
 ---
 UID: NF:psapi.EnumProcessModules
 title: EnumProcessModules function (psapi.h)
-description: Retrieves a handle for each module in the specified process.
+description: Retrieves a handle for each module in the specified process.helpviewer_keywords: ["EnumProcessModules","EnumProcessModules function [PSAPI]","K32EnumProcessModules","_win32_enumprocessmodules","base.enumprocessmodules","psapi.enumprocessmodules","psapi/EnumProcessModules","psapi/K32EnumProcessModules"]
 old-location: psapi\enumprocessmodules.htm
 tech.root: psapi
 ms.assetid: b4088506-2f69-4cf0-9bab-3e6a7185f5b2

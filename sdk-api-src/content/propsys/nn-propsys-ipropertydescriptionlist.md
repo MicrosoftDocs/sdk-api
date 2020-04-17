@@ -1,7 +1,7 @@
 ---
 UID: NN:propsys.IPropertyDescriptionList
 title: IPropertyDescriptionList (propsys.h)
-description: Exposes methods that extract information from a collection of property descriptions presented as a list.
+description: Exposes methods that extract information from a collection of property descriptions presented as a list.helpviewer_keywords: ["IPropertyDescriptionList","IPropertyDescriptionList interface [Windows Properties]","IPropertyDescriptionList interface [Windows Properties]","described","_shell_IPropertyDescriptionList","properties.IPropertyDescriptionList","propsys/IPropertyDescriptionList","shell.IPropertyDescriptionList"]
 old-location: properties\IPropertyDescriptionList.htm
 tech.root: properties
 ms.assetid: e0530195-27da-4df7-884f-518e905f3c0e

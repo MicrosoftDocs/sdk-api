@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkWordList2.AddWords
 title: IInkWordList2::AddWords (msinkaut.h)
-description: Adds more than one word to an InkWordList in a single operation.
+description: Adds more than one word to an InkWordList in a single operation.helpviewer_keywords: ["65afd260-f2ef-4744-a623-bcec4c742d61","AddWords","AddWords method [Tablet PC]","AddWords method [Tablet PC]","IInkWordList2 interface","IInkWordList2 interface [Tablet PC]","AddWords method","IInkWordList2.AddWords","IInkWordList2::AddWords","msinkaut/IInkWordList2::AddWords","tablet.iinkwordlist2_addwords"]
 old-location: tablet\iinkwordlist2_addwords.htm
 tech.root: tablet
 ms.assetid: 65afd260-f2ef-4744-a623-bcec4c742d61

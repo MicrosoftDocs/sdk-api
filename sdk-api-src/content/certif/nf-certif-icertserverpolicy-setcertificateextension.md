@@ -1,7 +1,7 @@
 ---
 UID: NF:certif.ICertServerPolicy.SetCertificateExtension
 title: ICertServerPolicy::SetCertificateExtension (certif.h)
-description: Adds a new extension to the certificate.
+description: Adds a new extension to the certificate.helpviewer_keywords: ["CCertServerPolicy object [Security]","SetCertificateExtension method","EXTENSION_CRITICAL_FLAG","EXTENSION_DISABLE_FLAG","ICertServerPolicy interface [Security]","SetCertificateExtension method","ICertServerPolicy.SetCertificateExtension","ICertServerPolicy::SetCertificateExtension","PROPTYPE_BINARY","PROPTYPE_DATE","PROPTYPE_LONG","PROPTYPE_STRING","SetCertificateExtension","SetCertificateExtension method [Security]","SetCertificateExtension method [Security]","CCertServerPolicy object","SetCertificateExtension method [Security]","ICertServerPolicy interface","_certsrv_icertserverpolicy_setcertificateextension","certif/ICertServerPolicy::SetCertificateExtension","security.icertserverpolicy_setcertificateextension"]
 old-location: security\icertserverpolicy_setcertificateextension.htm
 tech.root: SecCrypto
 ms.assetid: aed8b621-3881-41fe-b7a3-657fecdab351

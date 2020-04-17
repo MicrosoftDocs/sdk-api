@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrm.IFsrmActionEmail
 title: IFsrmActionEmail (fsrm.h)
-description: Used to send an email message in response to a quota or file screen event.
+description: Used to send an email message in response to a quota or file screen event.helpviewer_keywords: ["IFsrmActionEmail","IFsrmActionEmail interface [File Server Resource Manager]","IFsrmActionEmail interface [File Server Resource Manager]","described","fs.ifsrmactionemail","fsrm.ifsrmactionemail","fsrm/IFsrmActionEmail"]
 old-location: fsrm\ifsrmactionemail.htm
 tech.root: fsrm
 ms.assetid: 6eb6d82e-018d-4977-ad60-fce296c16e83

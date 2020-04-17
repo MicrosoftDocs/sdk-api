@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.FindFirstProxy
 title: IMFNetProxyLocator::FindFirstProxy (mfidl.h)
-description: Initializes the proxy locator object.
+description: Initializes the proxy locator object.helpviewer_keywords: ["48eba170-eeed-4edf-b8d3-2f4541637129","FindFirstProxy","FindFirstProxy method [Media Foundation]","FindFirstProxy method [Media Foundation]","IMFNetProxyLocator interface","IMFNetProxyLocator interface [Media Foundation]","FindFirstProxy method","IMFNetProxyLocator.FindFirstProxy","IMFNetProxyLocator::FindFirstProxy","mf.imfnetproxylocator_findfirstproxy","mfidl/IMFNetProxyLocator::FindFirstProxy"]
 old-location: mf\imfnetproxylocator_findfirstproxy.htm
 tech.root: medfound
 ms.assetid: 48eba170-eeed-4edf-b8d3-2f4541637129

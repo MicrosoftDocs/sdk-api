@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument.GetSaved
 title: ITextDocument::GetSaved (tom.h)
-description: Gets a value that indicates whether changes have been made since the file was last saved.
+description: Gets a value that indicates whether changes have been made since the file was last saved.helpviewer_keywords: ["GetSaved","GetSaved method [Windows Controls]","GetSaved method [Windows Controls]","ITextDocument interface","ITextDocument interface [Windows Controls]","GetSaved method","ITextDocument.GetSaved","ITextDocument::GetSaved","_win32_ITextDocument_GetSaved","_win32_ITextDocument_GetSaved_cpp","controls.ITextDocument_GetSaved","controls._win32_ITextDocument_GetSaved","tom/ITextDocument::GetSaved"]
 old-location: controls\ITextDocument_GetSaved.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsaved.htm

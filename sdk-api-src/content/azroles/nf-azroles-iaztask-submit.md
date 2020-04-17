@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzTask.Submit
 title: IAzTask::Submit (azroles.h)
-description: Persists changes made to the IAzTask object.
+description: Persists changes made to the IAzTask object.helpviewer_keywords: ["AzTask object [Security]","Submit method","IAzTask interface [Security]","Submit method","IAzTask.Submit","IAzTask::Submit","Submit","Submit method [Security]","Submit method [Security]","AzTask object","Submit method [Security]","IAzTask interface","azroles/IAzTask::Submit","security.iaztask_submit"]
 old-location: security\iaztask_submit.htm
 tech.root: SecAuthZ
 ms.assetid: a6f01573-c1ee-421d-8591-e1c9fa6c3d68

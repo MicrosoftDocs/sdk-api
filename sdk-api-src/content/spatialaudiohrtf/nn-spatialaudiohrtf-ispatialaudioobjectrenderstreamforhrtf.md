@@ -1,7 +1,7 @@
 ---
 UID: NN:spatialaudiohrtf.ISpatialAudioObjectRenderStreamForHrtf
 title: ISpatialAudioObjectRenderStreamForHrtf (spatialaudiohrtf.h)
-description: Provides methods for controlling an Hrtf spatial audio object render stream, including starting, stopping, and resetting the stream.
+description: Provides methods for controlling an Hrtf spatial audio object render stream, including starting, stopping, and resetting the stream.helpviewer_keywords: ["ISpatialAudioObjectRenderStreamForHrtf","ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio]","ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio]","described","coreaudio.ispatialaudiorenderstreamforhrtf","spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf"]
 old-location: coreaudio\ispatialaudiorenderstreamforhrtf.htm
 tech.root: CoreAudio
 ms.assetid: 9DFEF82A-1571-47AB-BE0E-059BCCC8289A

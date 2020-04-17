@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11_3.D3D11_TEX2D_ARRAY_RTV1
 title: D3D11_TEX2D_ARRAY_RTV1 (d3d11_3.h)
-description: Describes the subresources from an array of 2D textures to use in a render-target view.
+description: Describes the subresources from an array of 2D textures to use in a render-target view.helpviewer_keywords: ["D3D11_TEX2D_ARRAY_RTV1","D3D11_TEX2D_ARRAY_RTV1 structure [Direct3D 11]","d3d11_3/D3D11_TEX2D_ARRAY_RTV1","direct3d11.d3d11_tex2d_array_rtv1"]
 old-location: direct3d11\d3d11_tex2d_array_rtv1.htm
 tech.root: direct3d11
 ms.assetid: AD1C80E6-B2C7-4110-B3C0-6A2B2063198B

@@ -1,7 +1,7 @@
 ---
 UID: NL:traceloggingactivity.TraceLoggingActivity
 title: TraceLoggingActivity
-description: Provides support for logging ETW events during an activity. All events must be manually tagged or nested.
+description: Provides support for logging ETW events during an activity. All events must be manually tagged or nested.helpviewer_keywords: ["TraceLoggingActivity","TraceLoggingActivity class","TraceLoggingActivity class","described","tracelogging.traceloggingactivity","traceloggingactivity/TraceLoggingActivity"]
 old-location: tracelogging\traceloggingactivity.htm
 tech.root: tracelogging
 ms.assetid: 75930876-4DF2-4559-BA06-133FC676B1AD

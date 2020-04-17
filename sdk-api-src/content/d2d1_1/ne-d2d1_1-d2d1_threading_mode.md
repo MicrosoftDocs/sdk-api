@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1_1.D2D1_THREADING_MODE
 title: D2D1_THREADING_MODE (d2d1_1.h)
-description: Specifies the threading mode used while simultaneously creating the device, factory, and device context.
+description: Specifies the threading mode used while simultaneously creating the device, factory, and device context.helpviewer_keywords: ["D2D1_THREADING_MODE","D2D1_THREADING_MODE enumeration [Direct2D]","D2D1_THREADING_MODE_MULTI_THREADED","D2D1_THREADING_MODE_SINGLE_THREADED","d2d1_1/D2D1_THREADING_MODE","d2d1_1/D2D1_THREADING_MODE_MULTI_THREADED","d2d1_1/D2D1_THREADING_MODE_SINGLE_THREADED","direct2d.__d2d1_threading_mode"]
 old-location: direct2d\__d2d1_threading_mode.htm
 tech.root: Direct2D
 ms.assetid: 21fba5ee-3d31-4142-b66a-94b343e1c6eb

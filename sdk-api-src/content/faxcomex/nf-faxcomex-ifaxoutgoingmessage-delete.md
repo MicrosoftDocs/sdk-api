@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.Delete
 title: IFaxOutgoingMessage::Delete (faxcomex.h)
-description: The IFaxOutgoingMessage::Delete method deletes the fax message from the outbound archive.
+description: The IFaxOutgoingMessage::Delete method deletes the fax message from the outbound archive.helpviewer_keywords: ["Delete","Delete method [Fax Service]","Delete method [Fax Service]","IFaxOutgoingMessage interface","IFaxOutgoingMessage interface [Fax Service]","Delete method","IFaxOutgoingMessage.Delete","IFaxOutgoingMessage::Delete","_mfax_faxoutgoingmessage.delete","fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_delete_cpp","fax._mfax_faxoutgoingmessage_delete","faxcomex/IFaxOutgoingMessage::Delete"]
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_delete_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_06w5.htm

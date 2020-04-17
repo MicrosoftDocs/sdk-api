@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_connected
 title: IWMPSyncDevice::get_connected (wmp.h)
-description: The get_connected method retrieves a value indicating whether the device is connected to Windows Media Player.
+description: The get_connected method retrieves a value indicating whether the device is connected to Windows Media Player.helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","get_connected method","IWMPSyncDevice.get_connected","IWMPSyncDevice::get_connected","IWMPSyncDeviceget_connected","get_connected","get_connected method [Windows Media Player]","get_connected method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_get_connected","wmp/IWMPSyncDevice::get_connected"]
 old-location: wmp\iwmpsyncdevice_get_connected.htm
 tech.root: WMP
 ms.assetid: c22f4247-8df9-4ac6-ad27-a0e34780b832

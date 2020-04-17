@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DialogBoxParamA
 title: DialogBoxParamA function (winuser.h)
-description: Creates a modal dialog box from a dialog box template resource.
+description: Creates a modal dialog box from a dialog box template resource.helpviewer_keywords: ["DialogBoxParam","DialogBoxParam function [Dialog Boxes]","DialogBoxParamA","DialogBoxParamW","_win32_DialogBoxParam","_win32_dialogboxparam_cpp","dlgbox.dialogboxparam","winui._win32_dialogboxparam","winuser/DialogBoxParam","winuser/DialogBoxParamA","winuser/DialogBoxParamW"]
 old-location: dlgbox\dialogboxparam.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxparam.htm

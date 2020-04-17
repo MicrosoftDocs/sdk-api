@@ -1,7 +1,7 @@
 ---
 UID: NF:txlogpub.IFileBasedLogInit.InitNew
 title: IFileBasedLogInit::InitNew (txlogpub.h)
-description: Create a new log instance on the specified file. If a file with that name already exists, it is overwritten.
+description: Create a new log instance on the specified file. If a file with that name already exists, it is overwritten.helpviewer_keywords: ["IFileBasedLogInit interface [COM]","InitNew method","IFileBasedLogInit.InitNew","IFileBasedLogInit::InitNew","InitNew","InitNew method [COM]","InitNew method [COM]","IFileBasedLogInit interface","_com_ifilebasedloginit_initnew","com.ifilebasedloginit_initnew","txlogpub/IFileBasedLogInit::InitNew"]
 old-location: com\ifilebasedloginit_initnew.htm
 tech.root: com
 ms.assetid: 729c0cfc-4246-4185-af06-ed90a1955b03

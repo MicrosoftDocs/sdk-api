@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsdefs._WTS_SESSION_ID
 title: WTS_SESSION_ID (wtsdefs.h)
-description: Contains a GUID that uniquely identifies a session.
+description: Contains a GUID that uniquely identifies a session.helpviewer_keywords: ["*PWTS_SESSION_ID","PWRDS_SESSION_ID","PWRDS_SESSION_ID structure pointer [Remote Desktop Services]","PWTS_SESSION_ID","PWTS_SESSION_ID structure pointer [Remote Desktop Services]","WRDS_SESSION_ID","WRDS_SESSION_ID structure [Remote Desktop Services]","WTS_SESSION_ID","WTS_SESSION_ID structure [Remote Desktop Services]","termserv.wts_session_id","wtsdefs/PWRDS_SESSION_ID","wtsdefs/PWTS_SESSION_ID","wtsdefs/WRDS_SESSION_ID","wtsdefs/WTS_SESSION_ID"]
 old-location: termserv\wts_session_id.htm
 tech.root: TermServ
 ms.assetid: fe0714ec-c670-40b7-9808-2171abae79a8

@@ -1,7 +1,7 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.Progress
 title: ISyncMgrSynchronizeCallback::Progress (mobsync.h)
-description: Called by a registered application to update the progress information and determine whether an operation should continue.
+description: Called by a registered application to update the progress information and determine whether an operation should continue.helpviewer_keywords: ["ISyncMgrSynchronizeCallback interface [Windows Shell]","Progress method","ISyncMgrSynchronizeCallback.Progress","ISyncMgrSynchronizeCallback::Progress","Progress","Progress method [Windows Shell]","Progress method [Windows Shell]","ISyncMgrSynchronizeCallback interface","mobsync/ISyncMgrSynchronizeCallback::Progress","shell.syncmgr_isyncmgrsynchronizecallback_progress","syncmgr.isyncmgrsynchronizecallback_progress"]
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_progress.htm
 tech.root: shell
 ms.assetid: 924310aa-e210-476d-b532-f235de943498

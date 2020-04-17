@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedFormats
 title: IPortableDeviceServiceCapabilities::GetSupportedFormats (portabledeviceapi.h)
-description: Retrieves the formats supported by the service.
+description: Retrieves the formats supported by the service.helpviewer_keywords: ["GetSupportedFormats","GetSupportedFormats method [Windows Portable Devices SDK]","GetSupportedFormats method [Windows Portable Devices SDK]","IPortableDeviceServiceCapabilities interface","IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK]","GetSupportedFormats method","IPortableDeviceServiceCapabilities.GetSupportedFormats","IPortableDeviceServiceCapabilities::GetSupportedFormats","portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedFormats","wpdsdk.iportabledeviceservicecapabilities_getsupportedformats"]
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedformats.htm
 tech.root: wpd_sdk
 ms.assetid: 1df1ed1b-d231-4327-84eb-1bcf74dd881b

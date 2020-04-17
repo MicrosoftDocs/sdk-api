@@ -1,7 +1,7 @@
 ---
 UID: NN:searchapi.IEnumSearchScopeRules
 title: IEnumSearchScopeRules (searchapi.h)
-description: Enumerates scope rules.
+description: Enumerates scope rules.helpviewer_keywords: ["IEnumSearchScopeRules","IEnumSearchScopeRules interface [search]","IEnumSearchScopeRules interface [search]","described","_search_IEnumSearchScopeRules","search._search_IEnumSearchScopeRules","searchapi/IEnumSearchScopeRules"]
 old-location: search\_search_IEnumSearchScopeRules.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\ienumsearchscoperules.htm

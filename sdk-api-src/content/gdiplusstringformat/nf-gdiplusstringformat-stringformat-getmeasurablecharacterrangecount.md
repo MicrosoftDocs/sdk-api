@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetMeasurableCharacterRangeCount
 title: StringFormat::GetMeasurableCharacterRangeCount (gdiplusstringformat.h)
-description: The StringFormat::GetMeasurableCharacterRangeCount method gets the number of measurable character ranges that are currently set. The character ranges that are set can be measured in a string by using the MeasureCharacterRanges method.
+description: The StringFormat::GetMeasurableCharacterRangeCount method gets the number of measurable character ranges that are currently set. The character ranges that are set can be measured in a string by using the MeasureCharacterRanges method.helpviewer_keywords: ["GetMeasurableCharacterRangeCount","GetMeasurableCharacterRangeCount method [GDI+]","GetMeasurableCharacterRangeCount method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetMeasurableCharacterRangeCount method","StringFormat.GetMeasurableCharacterRangeCount","StringFormat::GetMeasurableCharacterRangeCount","_gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_","gdiplus._gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getmeasurablecharacterrangecount.htm

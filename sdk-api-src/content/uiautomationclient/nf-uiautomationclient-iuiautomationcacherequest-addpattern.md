@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.AddPattern
 title: IUIAutomationCacheRequest::AddPattern (uiautomationclient.h)
-description: Adds a control pattern to the cache request.
+description: Adds a control pattern to the cache request.helpviewer_keywords: ["AddPattern","AddPattern method [Windows Accessibility]","AddPattern method [Windows Accessibility]","IUIAutomationCacheRequest interface","IUIAutomationCacheRequest interface [Windows Accessibility]","AddPattern method","IUIAutomationCacheRequest.AddPattern","IUIAutomationCacheRequest::AddPattern","uiauto.uiauto_IUIAutomationCacheRequest_AddPattern","uiauto_IUIAutomationCacheRequest_AddPattern","uiautomationclient/IUIAutomationCacheRequest::AddPattern","winauto.uiauto_IUIAutomationCacheRequest_AddPattern"]
 old-location: winauto\uiauto_IUIAutomationCacheRequest_AddPattern.htm
 tech.root: WinAuto
 ms.assetid: f081d4da-2fba-4846-813c-33e11c09315b

@@ -1,7 +1,7 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.GetTimePerFrame
 title: IDirectDrawMediaStream::GetTimePerFrame (ddstream.h)
-description: Note  This interface is deprecated. New applications should not use it. Retrieves the average frames per second from a video stream.
+description: Note  This interface is deprecated. New applications should not use it. Retrieves the average frames per second from a video stream.helpviewer_keywords: ["GetTimePerFrame","GetTimePerFrame method [DirectShow]","GetTimePerFrame method [DirectShow]","IDirectDrawMediaStream interface","IDirectDrawMediaStream interface [DirectShow]","GetTimePerFrame method","IDirectDrawMediaStream.GetTimePerFrame","IDirectDrawMediaStream::GetTimePerFrame","IDirectDrawMediaStreamGetTimePerFrame","ddstream/IDirectDrawMediaStream::GetTimePerFrame","dshow.idirectdrawmediastream_gettimeperframe"]
 old-location: dshow\idirectdrawmediastream_gettimeperframe.htm
 tech.root: DirectShow
 ms.assetid: 24133185-0d5f-41fc-b381-ef982db46dd1

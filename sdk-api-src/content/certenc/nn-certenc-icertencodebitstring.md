@@ -1,7 +1,7 @@
 ---
 UID: NN:certenc.ICertEncodeBitString
 title: ICertEncodeBitString (certenc.h)
-description: Provides methods for handling bit strings used in certificate extensions.
+description: Provides methods for handling bit strings used in certificate extensions.helpviewer_keywords: ["ICertEncodeBitString","ICertEncodeBitString interface [Security]","ICertEncodeBitString interface [Security]","described","_certsrv_icertencodebitstring","certenc/ICertEncodeBitString","security.icertencodebitstring"]
 old-location: security\icertencodebitstring.htm
 tech.root: SecCrypto
 ms.assetid: 51178b67-46da-49f8-9bd7-a500e846e0a8

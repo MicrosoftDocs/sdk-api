@@ -1,7 +1,7 @@
 ---
 UID: NF:winstring.WindowsCompareStringOrdinal
 title: WindowsCompareStringOrdinal function (winstring.h)
-description: Compares two specified HSTRING objects and returns an integer that indicates their relative position in a sort order.
+description: Compares two specified HSTRING objects and returns an integer that indicates their relative position in a sort order.helpviewer_keywords: ["WindowsCompareStringOrdinal","WindowsCompareStringOrdinal function [Windows Runtime]","winrt.windowscomparestringordinal","winstring/WindowsCompareStringOrdinal"]
 old-location: winrt\windowscomparestringordinal.htm
 tech.root: WinRT
 ms.assetid: 40B34A65-4E3C-4B9D-9315-A0EF015BB8D0

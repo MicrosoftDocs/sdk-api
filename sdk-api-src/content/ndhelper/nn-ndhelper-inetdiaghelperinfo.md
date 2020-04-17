@@ -1,7 +1,7 @@
 ---
 UID: NN:ndhelper.INetDiagHelperInfo
 title: INetDiagHelperInfo (ndhelper.h)
-description: The INetDiagHelperInfo interface provides a method that is called by the Network Diagnostics Framework (NDF) when it needs to validate that it has the necessary information for a helper class and that it has chosen the correct helper class.
+description: The INetDiagHelperInfo interface provides a method that is called by the Network Diagnostics Framework (NDF) when it needs to validate that it has the necessary information for a helper class and that it has chosen the correct helper class.helpviewer_keywords: ["INetDiagHelperInfo","INetDiagHelperInfo interface [NDF]","INetDiagHelperInfo interface [NDF]","described","ndf.inetdiaghelperinfo","ndhelper/INetDiagHelperInfo"]
 old-location: ndf\inetdiaghelperinfo.htm
 tech.root: NDF
 ms.assetid: 815e2338-0055-4078-a9a5-197db449c33d

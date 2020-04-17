@@ -1,7 +1,7 @@
 ---
 UID: NS:gdipluseffects.ColorCurveParams
 title: ColorCurveParams (gdipluseffects.h)
-description: A ColorCurveParams structure contains members that specify an adjustment to the colors of a bitmap.
+description: A ColorCurveParams structure contains members that specify an adjustment to the colors of a bitmap.helpviewer_keywords: ["ColorCurveParams","ColorCurveParams structure [GDI+]","_gdiplus_STRUC_ColorCurveParams","gdiplus._gdiplus_STRUC_ColorCurveParams","gdipluseffects/ColorCurveParams"]
 old-location: gdiplus\_gdiplus_STRUC_ColorCurveParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorcurveparams.htm

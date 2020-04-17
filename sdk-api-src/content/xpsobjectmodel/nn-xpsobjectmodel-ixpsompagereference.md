@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPageReference
 title: IXpsOMPageReference (xpsobjectmodel.h)
-description: Enables virtualization of pages in an XPS document.
+description: Enables virtualization of pages in an XPS document.helpviewer_keywords: ["IXpsOMPageReference","IXpsOMPageReference interface [XPS Documents and Packaging]","IXpsOMPageReference interface [XPS Documents and Packaging]","described","xps.ixpsompagereference","xpsobjectmodel/IXpsOMPageReference"]
 old-location: xps\ixpsompagereference.htm
 tech.root: printdocs
 ms.assetid: cdebab24-f918-4235-b4d5-5ee1007ade87

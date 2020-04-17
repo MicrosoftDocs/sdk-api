@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.get_CCEnable
 title: IAMAnalogVideoEncoder::get_CCEnable (strmif.h)
-description: Note  The IAMAnalogVideoEncoder interface is deprecated. The get_CCEnable determines whether closed captioning on the encoder is currently enabled.
+description: Note  The IAMAnalogVideoEncoder interface is deprecated. The get_CCEnable determines whether closed captioning on the encoder is currently enabled.helpviewer_keywords: ["IAMAnalogVideoEncoder interface [DirectShow]","get_CCEnable method","IAMAnalogVideoEncoder.get_CCEnable","IAMAnalogVideoEncoder::get_CCEnable","IAMAnalogVideoEncoderget_CCEnable","dshow.iamanalogvideoencoder_get_ccenable","get_CCEnable","get_CCEnable method [DirectShow]","get_CCEnable method [DirectShow]","IAMAnalogVideoEncoder interface","strmif/IAMAnalogVideoEncoder::get_CCEnable"]
 old-location: dshow\iamanalogvideoencoder_get_ccenable.htm
 tech.root: DirectShow
 ms.assetid: 0dab4b3a-f139-4ac5-ab30-f223e9120c44

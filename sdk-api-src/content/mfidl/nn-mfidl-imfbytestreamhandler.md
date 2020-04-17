@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFByteStreamHandler
 title: IMFByteStreamHandler (mfidl.h)
-description: Creates a media source from a byte stream.
+description: Creates a media source from a byte stream.helpviewer_keywords: ["80c402d4-8246-42ee-a981-69c8d605cb0f","IMFByteStreamHandler","IMFByteStreamHandler interface [Media Foundation]","IMFByteStreamHandler interface [Media Foundation]","described","mf.imfbytestreamhandler","mfidl/IMFByteStreamHandler"]
 old-location: mf\imfbytestreamhandler.htm
 tech.root: medfound
 ms.assetid: 80c402d4-8246-42ee-a981-69c8d605cb0f

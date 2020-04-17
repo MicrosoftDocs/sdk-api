@@ -1,7 +1,7 @@
 ---
 UID: NN:uianimation.IUIAnimationTransition2
 title: IUIAnimationTransition2 (uianimation.h)
-description: Extends the IUIAnimationTransition interface that defines a transition. An IUIAnimationTransition2 transition determines how an animation variable changes over time in a given dimension.
+description: Extends the IUIAnimationTransition interface that defines a transition. An IUIAnimationTransition2 transition determines how an animation variable changes over time in a given dimension.helpviewer_keywords: ["IUIAnimationTransition2","IUIAnimationTransition2 interface [Windows Animation]","IUIAnimationTransition2 interface [Windows Animation]","described","uianimation.iuianimationtransition2","uianimation/IUIAnimationTransition2"]
 old-location: uianimation\iuianimationtransition2.htm
 tech.root: UIAnimation
 ms.assetid: CACB8053-7716-42E4-9C3B-9CCBBC30808A

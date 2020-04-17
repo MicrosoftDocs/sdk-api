@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnRegistrationEvents.OnRegisterModeAvailable
 title: IMbnRegistrationEvents::OnRegisterModeAvailable (mbnapi.h)
-description: Notification method called by the Mobile Broadband service to indicate that registration mode information is available.
+description: Notification method called by the Mobile Broadband service to indicate that registration mode information is available.helpviewer_keywords: ["IMbnRegistrationEvents interface [Microsoft Broadband Networks]","OnRegisterModeAvailable method","IMbnRegistrationEvents.OnRegisterModeAvailable","IMbnRegistrationEvents::OnRegisterModeAvailable","OnRegisterModeAvailable","OnRegisterModeAvailable method [Microsoft Broadband Networks]","OnRegisterModeAvailable method [Microsoft Broadband Networks]","IMbnRegistrationEvents interface","mbn.imbnregistrationevents_onregistermodeavailable","mbnapi/IMbnRegistrationEvents::OnRegisterModeAvailable"]
 old-location: mbn\imbnregistrationevents_onregistermodeavailable.htm
 tech.root: mbn
 ms.assetid: 5c916f16-e8f5-4c8a-942c-3a9ae11905a7

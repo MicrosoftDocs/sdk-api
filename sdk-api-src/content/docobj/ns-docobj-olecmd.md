@@ -1,7 +1,7 @@
 ---
 UID: NS:docobj._tagOLECMD
 title: OLECMD (docobj.h)
-description: Associates command flags from the OLECMDF enumeration with a command identifier through a call to IOleCommandTarget::QueryStatus.
+description: Associates command flags from the OLECMDF enumeration with a command identifier through a call to IOleCommandTarget::QueryStatus.helpviewer_keywords: ["OLECMD","OLECMD structure [COM]","_ole_OLECMD","com.olecmd","docobj/OLECMD"]
 old-location: com\olecmd.htm
 tech.root: com
 ms.assetid: a75ca136-ed6a-43c5-b775-a50535431f1d

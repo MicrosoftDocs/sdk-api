@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI4FromI8
 title: VarI4FromI8 function (oleauto.h)
-description: Converts an 8-byte integer value to a long value.
+description: Converts an 8-byte integer value to a long value.helpviewer_keywords: ["VarI4FromI8","VarI4FromI8 function [Automation]","_oa96_VarI4FromI8","automat.vari4fromi8","oleauto/VarI4FromI8"]
 old-location: automat\vari4fromi8.htm
 tech.root: automat
 ms.assetid: baaa85e1-470c-4915-a7c6-76fc5c86ea2f

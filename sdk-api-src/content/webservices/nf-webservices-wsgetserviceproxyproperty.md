@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsGetServiceProxyProperty
 title: WsGetServiceProxyProperty function (webservices.h)
-description: This function retrieves a specified Service Proxy property. The property to retrieve is identified by a WS_PROXY_PROPERTY_ID input parameter.
+description: This function retrieves a specified Service Proxy property. The property to retrieve is identified by a WS_PROXY_PROPERTY_ID input parameter.helpviewer_keywords: ["WsGetServiceProxyProperty","WsGetServiceProxyProperty function [Web Services for Windows]","webservices/WsGetServiceProxyProperty","wsw.wsgetserviceproxyproperty"]
 old-location: wsw\wsgetserviceproxyproperty.htm
 tech.root: wsw
 ms.assetid: 4fb4124f-5beb-426a-890f-3a8fe236411f

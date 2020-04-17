@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.AppendFieldComboBoxItem
 title: ICredentialProviderCredentialEvents::AppendFieldComboBoxItem (credentialprovider.h)
-description: Communicates to the Logon UI or Credential UI that a combo box needs an item appended and that the UI should be updated.
+description: Communicates to the Logon UI or Credential UI that a combo box needs an item appended and that the UI should be updated.helpviewer_keywords: ["AppendFieldComboBoxItem","AppendFieldComboBoxItem method [Windows Shell]","AppendFieldComboBoxItem method [Windows Shell]","ICredentialProviderCredentialEvents interface","ICredentialProviderCredentialEvents interface [Windows Shell]","AppendFieldComboBoxItem method","ICredentialProviderCredentialEvents.AppendFieldComboBoxItem","ICredentialProviderCredentialEvents::AppendFieldComboBoxItem","_shell_ICredentialProviderCredentialEvents_AppendFieldComboBoxItem","credentialprovider/ICredentialProviderCredentialEvents::AppendFieldComboBoxItem","shell.ICredentialProviderCredentialEvents_AppendFieldComboBoxItem"]
 old-location: shell\ICredentialProviderCredentialEvents_AppendFieldComboBoxItem.htm
 tech.root: shell
 ms.assetid: 3d434b2c-29be-4301-9271-89688ec8d048

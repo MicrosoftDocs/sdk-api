@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_BARRIER_FLAGS
 title: D3D12_RESOURCE_BARRIER_FLAGS (d3d12.h)
-description: Flags for setting split resource barriers.
+description: Flags for setting split resource barriers.helpviewer_keywords: ["D3D12_RESOURCE_BARRIER_FLAGS","D3D12_RESOURCE_BARRIER_FLAGS enumeration","D3D12_RESOURCE_BARRIER_FLAG_BEGIN_ONLY","D3D12_RESOURCE_BARRIER_FLAG_END_ONLY","D3D12_RESOURCE_BARRIER_FLAG_NONE","d3d12/D3D12_RESOURCE_BARRIER_FLAGS","d3d12/D3D12_RESOURCE_BARRIER_FLAG_BEGIN_ONLY","d3d12/D3D12_RESOURCE_BARRIER_FLAG_END_ONLY","d3d12/D3D12_RESOURCE_BARRIER_FLAG_NONE","direct3d12.d3d12_resource_barrier_flags"]
 old-location: direct3d12\d3d12_resource_barrier_flags.htm
 tech.root: direct3d12
 ms.assetid: 352DF566-2E30-49C6-9D1B-35F0AEEA3338

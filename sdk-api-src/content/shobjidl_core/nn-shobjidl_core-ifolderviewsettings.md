@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IFolderViewSettings
 title: IFolderViewSettings (shobjidl_core.h)
-description: Exposes methods to obtain folder view settings.
+description: Exposes methods to obtain folder view settings.helpviewer_keywords: ["IFolderViewSettings","IFolderViewSettings interface [Windows Shell]","IFolderViewSettings interface [Windows Shell]","described","_shell_IFolderViewSettings","shell.IFolderViewSettings","shobjidl_core/IFolderViewSettings"]
 old-location: shell\IFolderViewSettings.htm
 tech.root: shell
 ms.assetid: 8cb3da64-8f7a-46a6-b00c-e1da1d158b5a

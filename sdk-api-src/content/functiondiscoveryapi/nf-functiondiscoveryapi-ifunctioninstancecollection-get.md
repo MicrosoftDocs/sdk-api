@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Get
 title: IFunctionInstanceCollection::Get (functiondiscoveryapi.h)
-description: Gets the specified function instance and its index from the collection.
+description: Gets the specified function instance and its index from the collection.helpviewer_keywords: ["Get","Get method","Get method","IFunctionInstanceCollection interface","IFunctionInstanceCollection interface","Get method","IFunctionInstanceCollection.Get","IFunctionInstanceCollection::Get","functiondiscoveryapi/IFunctionInstanceCollection::Get","ncd.ifunctioninstancecollection_get"]
 old-location: ncd\ifunctioninstancecollection_get.htm
 tech.root: FunDisc
 ms.assetid: 3f3db880-a765-4a18-91ac-d091728cbb39

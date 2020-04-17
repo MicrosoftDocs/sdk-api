@@ -1,7 +1,7 @@
 ---
 UID: NF:pnpxassoc.IPNPXDeviceAssociation.Associate
 title: IPNPXDeviceAssociation::Associate (pnpxassoc.h)
-description: Marks an association database entry as associated and sends an appropriate notification.
+description: Marks an association database entry as associated and sends an appropriate notification.helpviewer_keywords: ["Associate","Associate method","Associate method","IPNPXDeviceAssociation interface","IPNPXDeviceAssociation interface","Associate method","IPNPXDeviceAssociation.Associate","IPNPXDeviceAssociation::Associate","ncd.ipnpxdeviceassociation_associate","pnpxassoc/IPNPXDeviceAssociation::Associate"]
 old-location: ncd\ipnpxdeviceassociation_associate.htm
 tech.root: FunDisc
 ms.assetid: 2024c2b8-ef47-4352-80ea-c68b22f38d4c

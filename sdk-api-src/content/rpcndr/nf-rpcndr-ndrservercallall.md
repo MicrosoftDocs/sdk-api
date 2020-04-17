@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.NdrServerCallAll
 title: NdrServerCallAll function (rpcndr.h)
-description: NdrServerCallAll is not intended to be directly called by applications.
+description: NdrServerCallAll is not intended to be directly called by applications.helpviewer_keywords: ["NdrServerCallAll","NdrServerCallAll function [RPC]","rpc.ndrservercallall","rpcndr/NdrServerCallAll"]
 old-location: rpc\ndrservercallall.htm
 tech.root: Rpc
 ms.assetid: 7CCFC1CC-E37E-412E-9CB9-46888C42244A

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.ILayoutStorage.ReLayoutDocfileOnILockBytes
 title: ILayoutStorage::ReLayoutDocfileOnILockBytes (objidl.h)
-description: Is not implemented. If called, it returns STG_E_UNIMPLEMENTEDFUNCTION.
+description: Is not implemented. If called, it returns STG_E_UNIMPLEMENTEDFUNCTION.helpviewer_keywords: ["ILayoutStorage interface [Structured Storage]","ReLayoutDocfileOnILockBytes method","ILayoutStorage.ReLayoutDocfileOnILockBytes","ILayoutStorage::ReLayoutDocfileOnILockBytes","ReLayoutDocfileOnILockBytes","ReLayoutDocfileOnILockBytes method [Structured Storage]","ReLayoutDocfileOnILockBytes method [Structured Storage]","ILayoutStorage interface","objidl/ILayoutStorage::ReLayoutDocfileOnILockBytes","stg.ilayoutstorage_relayoutdocfileonilockbytes"]
 old-location: stg\ilayoutstorage_relayoutdocfileonilockbytes.htm
 tech.root: Stg
 ms.assetid: 4d62ea35-d9cb-4ec6-ad71-7b32096953f1

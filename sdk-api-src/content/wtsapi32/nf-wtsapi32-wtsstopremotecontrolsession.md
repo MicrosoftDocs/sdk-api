@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSStopRemoteControlSession
 title: WTSStopRemoteControlSession function (wtsapi32.h)
-description: Stops a remote control session.
+description: Stops a remote control session.helpviewer_keywords: ["WTSStopRemoteControlSession","WTSStopRemoteControlSession function [Remote Desktop Services]","termserv.wtsstopremotecontrolsession","wtsapi32/WTSStopRemoteControlSession"]
 old-location: termserv\wtsstopremotecontrolsession.htm
 tech.root: TermServ
 ms.assetid: 65e5b584-4ffc-4b89-992e-7ada7df0262b

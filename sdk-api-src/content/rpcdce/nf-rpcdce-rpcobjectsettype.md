@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcObjectSetType
 title: RpcObjectSetType function (rpcdce.h)
-description: The RpcObjectSetType function assigns the type of an object.
+description: The RpcObjectSetType function assigns the type of an object.helpviewer_keywords: ["RpcObjectSetType","RpcObjectSetType function [RPC]","_rpc_rpcobjectsettype","rpc.rpcobjectsettype","rpcdce/RpcObjectSetType"]
 old-location: rpc\rpcobjectsettype.htm
 tech.root: Rpc
 ms.assetid: 2fb22b97-97ce-403a-bfcb-101bb63f906f

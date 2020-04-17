@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzTask.put_BizRuleLanguage
 title: IAzTask::put_BizRuleLanguage (azroles.h)
-description: Sets or retrieves the scripting language in which the business rule (BizRule) is implemented.
+description: Sets or retrieves the scripting language in which the business rule (BizRule) is implemented.helpviewer_keywords: ["JScript","VBScript","AzTask object [Security]","BizRuleLanguage property","BizRuleLanguage property [Security]","BizRuleLanguage property [Security]","AzTask object","BizRuleLanguage property [Security]","IAzTask interface","IAzTask interface [Security]","BizRuleLanguage property","IAzTask.BizRuleLanguage","IAzTask.put_BizRuleLanguage","IAzTask::BizRuleLanguage","IAzTask::get_BizRuleLanguage","IAzTask::put_BizRuleLanguage","azroles/IAzTask::BizRuleLanguage","azroles/IAzTask::get_BizRuleLanguage","azroles/IAzTask::put_BizRuleLanguage","put_BizRuleLanguage","security.iaztask_bizrulelanguage"]
 old-location: security\iaztask_bizrulelanguage.htm
 tech.root: SecAuthZ
 ms.assetid: 922f4fd8-f553-439c-b9ae-51a45a88adc7

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.SetRemoteAddress
 title: IWSDMessageParameters::SetRemoteAddress (wsdbase.h)
-description: Sets the generic address object representing the remote address to where the message is sent.
+description: Sets the generic address object representing the remote address to where the message is sent.helpviewer_keywords: ["IWSDMessageParameters interface","SetRemoteAddress method","IWSDMessageParameters.SetRemoteAddress","IWSDMessageParameters::SetRemoteAddress","SetRemoteAddress","SetRemoteAddress method","SetRemoteAddress method","IWSDMessageParameters interface","ncd.iwsdmessageparameters_setremoteaddress","wsdbase/IWSDMessageParameters::SetRemoteAddress"]
 old-location: ncd\iwsdmessageparameters_setremoteaddress.htm
 tech.root: WsdApi
 ms.assetid: 7e762942-37b2-43ca-96e3-98594b929d98

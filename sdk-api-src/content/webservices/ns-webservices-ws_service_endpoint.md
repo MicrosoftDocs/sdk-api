@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SERVICE_ENDPOINT
 title: WS_SERVICE_ENDPOINT (webservices.h)
-description: Represents an individual endpoint on a service host. The properties on the endpoint are used to specify the address, binding and contract.
+description: Represents an individual endpoint on a service host. The properties on the endpoint are used to specify the address, binding and contract.helpviewer_keywords: ["WS_SERVICE_ENDPOINT","WS_SERVICE_ENDPOINT structure [Web Services for Windows]","webservices/WS_SERVICE_ENDPOINT","wsw.ws_service_endpoint"]
 old-location: wsw\ws_service_endpoint.htm
 tech.root: wsw
 ms.assetid: 6b15fc3f-5e4b-4eb3-b337-0170b0ca746f

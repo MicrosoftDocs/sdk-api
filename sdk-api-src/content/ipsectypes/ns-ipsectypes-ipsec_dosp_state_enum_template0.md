@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_DOSP_STATE_ENUM_TEMPLATE0_
 title: IPSEC_DOSP_STATE_ENUM_TEMPLATE0 (ipsectypes.h)
-description: The IPSEC_DOSP_STATE_ENUM_TEMPLATE0 structure.
+description: The IPSEC_DOSP_STATE_ENUM_TEMPLATE0 structure.helpviewer_keywords: ["IPSEC_DOSP_STATE_ENUM_TEMPLATE0","IPSEC_DOSP_STATE_ENUM_TEMPLATE0 structure [Filtering]","fwp.ipsec_dosp_state_enum_template0","ipsectypes/IPSEC_DOSP_STATE_ENUM_TEMPLATE0"]
 old-location: fwp\ipsec_dosp_state_enum_template0.htm
 tech.root: fwp
 ms.assetid: bfc34949-dd80-4fcd-8147-2fed62bce387

@@ -1,7 +1,7 @@
 ---
 UID: NS:resapi.CLRES_V4_FUNCTIONS
 title: CLRES_V4_FUNCTIONS (resapi.h)
-description: Contains pointers to all Resource API version 4.0 entry points, except StartupEx.
+description: Contains pointers to all Resource API version 4.0 entry points, except StartupEx.helpviewer_keywords: ["*PCLRES_V4_FUNCTIONS","CLRES_V4_FUNCTIONS","CLRES_V4_FUNCTIONS structure [Failover Cluster]","PCLRES_V4_FUNCTIONS","PCLRES_V4_FUNCTIONS structure pointer [Failover Cluster]","mscs.clres_v4_functions","resapi/CLRES_V4_FUNCTIONS","resapi/PCLRES_V4_FUNCTIONS"]
 old-location: mscs\clres_v4_functions.htm
 tech.root: MsCS
 ms.assetid: B3722540-2AC2-4B31-A22B-D40DE0AFA7BD

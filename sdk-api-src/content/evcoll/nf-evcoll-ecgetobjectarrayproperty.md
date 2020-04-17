@@ -1,7 +1,7 @@
 ---
 UID: NF:evcoll.EcGetObjectArrayProperty
 title: EcGetObjectArrayProperty function (evcoll.h)
-description: Retrieves property values for the event sources of a subscription.
+description: Retrieves property values for the event sources of a subscription.helpviewer_keywords: ["EcGetObjectArrayProperty","EcGetObjectArrayProperty function","evcoll/EcGetObjectArrayProperty","wec.ecgetobjectarrayproperty","wes.ecgetobjectarrayproperty"]
 old-location: wec\ecgetobjectarrayproperty.htm
 tech.root: WEC
 ms.assetid: a145c982-a1df-442f-8923-58f1db67ac25

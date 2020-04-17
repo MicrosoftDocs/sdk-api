@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._CLUSTER_READ_BATCH_COMMAND
 title: CLUSTER_READ_BATCH_COMMAND (clusapi.h)
-description: Represents a result for a single command in a read batch.
+description: Represents a result for a single command in a read batch.helpviewer_keywords: ["CLUSREG_READ_ERROR","CLUSREG_READ_VALUE","CLUSTER_READ_BATCH_COMMAND","CLUSTER_READ_BATCH_COMMAND structure [Failover Cluster]","PCLUSTER_READ_BATCH_COMMAND","PCLUSTER_READ_BATCH_COMMAND structure pointer [Failover Cluster]","clusapi/CLUSTER_READ_BATCH_COMMAND","clusapi/PCLUSTER_READ_BATCH_COMMAND","mscs.cluster_read_batch_command"]
 old-location: mscs\cluster_read_batch_command.htm
 tech.root: MsCS
 ms.assetid: BE7D4B99-27C0-4CAA-BFDC-669737E17D86

@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagCOMBOBOXINFO
 title: COMBOBOXINFO (winuser.h)
-description: Contains combo box status information.
+description: Contains combo box status information.helpviewer_keywords: ["*LPCOMBOBOXINFO","*PCOMBOBOXINFO","COMBOBOXINFO","COMBOBOXINFO structure [Windows Controls]","LPCOMBOBOXINFO","LPCOMBOBOXINFO structure pointer [Windows Controls]","PCOMBOBOXINFO","PCOMBOBOXINFO structure pointer [Windows Controls]","STATE_SYSTEM_INVISIBLE","STATE_SYSTEM_PRESSED","_win32_COMBOBOXINFO_str","_win32_COMBOBOXINFO_str_cpp","controls.COMBOBOXINFO","controls._win32_COMBOBOXINFO_str","winuser/COMBOBOXINFO","winuser/LPCOMBOBOXINFO","winuser/PCOMBOBOXINFO"]
 old-location: controls\COMBOBOXINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\comboboxinfo.htm

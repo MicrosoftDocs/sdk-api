@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetBufferPrecision
 title: ID2D1GradientStopCollection1::GetBufferPrecision (d2d1_1.h)
-description: Gets the precision of the gradient buffer.
+description: Gets the precision of the gradient buffer.helpviewer_keywords: ["GetBufferPrecision","GetBufferPrecision method [Direct2D]","GetBufferPrecision method [Direct2D]","ID2D1GradientStopCollection1 interface","ID2D1GradientStopCollection1 interface [Direct2D]","GetBufferPrecision method","ID2D1GradientStopCollection1.GetBufferPrecision","ID2D1GradientStopCollection1::GetBufferPrecision","d2d1_1/ID2D1GradientStopCollection1::GetBufferPrecision","direct2d.id2d1gradientstopcollection1_getbufferprecision"]
 old-location: direct2d\id2d1gradientstopcollection1_getbufferprecision.htm
 tech.root: Direct2D
 ms.assetid: 6a59c903-0fa8-4d2c-b426-8d3c3410c6bd

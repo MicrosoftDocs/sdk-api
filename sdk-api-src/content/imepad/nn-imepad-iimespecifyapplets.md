@@ -1,7 +1,7 @@
 ---
 UID: NN:imepad.IImeSpecifyApplets
 title: IImeSpecifyApplets (imepad.h)
-description: The IImeSpecifyApplets interface specifies methods called from the IImePad interface object to emulate the IImePadApplet interface.
+description: The IImeSpecifyApplets interface specifies methods called from the IImePad interface object to emulate the IImePadApplet interface.helpviewer_keywords: ["IImeSpecifyApplets","IImeSpecifyApplets interface [Internationalization for Windows Applications]","IImeSpecifyApplets interface [Internationalization for Windows Applications]","described","imepad/IImeSpecifyApplets","intl.iimespecifyapplets"]
 old-location: intl\iimespecifyapplets.htm
 tech.root: Intl
 ms.assetid: 788C7272-3BFF-4531-B66E-211585BF85E3

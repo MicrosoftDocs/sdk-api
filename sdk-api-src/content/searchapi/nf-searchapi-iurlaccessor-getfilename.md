@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetFileName
 title: IUrlAccessor::GetFileName (searchapi.h)
-description: Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the IUrlAccessor::BindToStream method is implemented, this method returns the shell's System.ParsingPath property for the item.
+description: Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the IUrlAccessor::BindToStream method is implemented, this method returns the shell's System.ParsingPath property for the item.helpviewer_keywords: ["GetFileName","GetFileName method [search]","GetFileName method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetFileName method","IUrlAccessor.GetFileName","IUrlAccessor::GetFileName","_search_IUrlAccessor_GetFileName","search._search_IUrlAccessor_GetFileName","searchapi/IUrlAccessor::GetFileName"]
 old-location: search\_search_IUrlAccessor_GetFileName.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getfilename.htm

@@ -1,7 +1,7 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_VERTICALALIGNMENT
 title: DIRECTMANIPULATION_VERTICALALIGNMENT (directmanipulation.h)
-description: Defines the vertical alignment settings for content within the viewport.
+description: Defines the vertical alignment settings for content within the viewport.helpviewer_keywords: ["DIRECTMANIPULATION_VERTICALALIGNMENT","DIRECTMANIPULATION_VERTICALALIGNMENT enumeration [Direct Manipulation]","DIRECTMANIPULATION_VERTICALALIGNMENT_BOTTOM","DIRECTMANIPULATION_VERTICALALIGNMENT_CENTER","DIRECTMANIPULATION_VERTICALALIGNMENT_NONE","DIRECTMANIPULATION_VERTICALALIGNMENT_TOP","DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER","directmanipulation.directmanipulation_verticalalignment","directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT","directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_BOTTOM","directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_CENTER","directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_NONE","directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_TOP","directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER"]
 old-location: directmanipulation\directmanipulation_verticalalignment.htm
 tech.root: directmanipulation
 ms.assetid: 37e9a604-f713-4203-928c-0799206b76fe

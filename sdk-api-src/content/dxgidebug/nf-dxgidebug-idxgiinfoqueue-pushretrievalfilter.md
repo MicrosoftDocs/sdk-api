@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushRetrievalFilter
 title: IDXGIInfoQueue::PushRetrievalFilter (dxgidebug.h)
-description: Pushes a retrieval filter onto the retrieval-filter stack.
+description: Pushes a retrieval filter onto the retrieval-filter stack.helpviewer_keywords: ["IDXGIInfoQueue interface [DXGI]","PushRetrievalFilter method","IDXGIInfoQueue.PushRetrievalFilter","IDXGIInfoQueue::PushRetrievalFilter","PushRetrievalFilter","PushRetrievalFilter method [DXGI]","PushRetrievalFilter method [DXGI]","IDXGIInfoQueue interface","direct3ddxgi.idxgiinfoqueue_pushretrievalfilter","dxgidebug/IDXGIInfoQueue::PushRetrievalFilter"]
 old-location: direct3ddxgi\idxgiinfoqueue_pushretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: 8027801C-ACDD-457D-A7A5-200B818D40A7

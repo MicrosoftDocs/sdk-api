@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcRaiseException
 title: RpcRaiseException function (rpcdce.h)
-description: Use the RpcRaiseException function to raise an exception. The function does not return to the caller.
+description: Use the RpcRaiseException function to raise an exception. The function does not return to the caller.helpviewer_keywords: ["RpcRaiseException","RpcRaiseException function [RPC]","_rpc_rpcraiseexception","rpc.rpcraiseexception","rpcdce/RpcRaiseException"]
 old-location: rpc\rpcraiseexception.htm
 tech.root: Rpc
 ms.assetid: 0bffc62e-a80e-4af1-a17a-ef4f00b9c4da

@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmpipeline.IFsrmProperty
 title: IFsrmProperty (fsrmpipeline.h)
-description: Defines an instance of a property.
+description: Defines an instance of a property.helpviewer_keywords: ["IFsrmProperty","IFsrmProperty interface [File Server Resource Manager]","IFsrmProperty interface [File Server Resource Manager]","described","fs.ifsrmproperty","fsrm.ifsrmproperty","fsrm/IFsrmProperty"]
 old-location: fsrm\ifsrmproperty.htm
 tech.root: fsrm
 ms.assetid: feffccd1-cf72-45c0-97b3-d6efd736223e

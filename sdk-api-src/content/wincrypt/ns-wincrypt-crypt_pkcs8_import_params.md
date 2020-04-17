@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CRYPT_PKCS8_IMPORT_PARAMS
 title: CRYPT_PKCS8_IMPORT_PARAMS (wincrypt.h)
-description: Contains a PKCS
+description: Contains a PKCShelpviewer_keywords: ["*PCRYPT_PKCS8_IMPORT_PARAMS","*PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS","CRYPT_PKCS8_IMPORT_PARAMS","CRYPT_PKCS8_IMPORT_PARAMS structure [Security]","CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS","CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS structure [Security]","PCRYPT_PKCS8_IMPORT_PARAMS","PCRYPT_PKCS8_IMPORT_PARAMS structure pointer [Security]","PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS","PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS structure pointer [Security]","security.crypt_pkcs8_import_params","wincrypt/CRYPT_PKCS8_IMPORT_PARAMS","wincrypt/CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS","wincrypt/PCRYPT_PKCS8_IMPORT_PARAMS","wincrypt/PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS"]
 old-location: security\crypt_pkcs8_import_params.htm
 tech.root: SecCrypto
 ms.assetid: a016e807-60d3-4ae4-829b-43acea2ee8c1

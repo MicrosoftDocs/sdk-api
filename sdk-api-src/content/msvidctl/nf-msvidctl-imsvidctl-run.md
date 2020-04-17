@@ -1,7 +1,7 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Run
 title: IMSVidCtl::Run (msvidctl.h)
-description: The Run method runs the filter graph.
+description: The Run method runs the filter graph.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","Run method","IMSVidCtl.Run","IMSVidCtl::Run","IMSVidCtlRun","Run","Run method [Microsoft TV Technologies]","Run method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_run","msvidctl/IMSVidCtl::Run"]
 old-location: mstv\imsvidctl_run.htm
 tech.root: mstv
 ms.assetid: 37ed6d7b-2e44-4bce-b476-8e8b28635346

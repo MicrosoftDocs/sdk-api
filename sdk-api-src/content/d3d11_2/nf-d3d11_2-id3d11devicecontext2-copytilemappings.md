@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.CopyTileMappings
 title: ID3D11DeviceContext2::CopyTileMappings (d3d11_2.h)
-description: Copies mappings from a source tiled resource to a destination tiled resource.
+description: Copies mappings from a source tiled resource to a destination tiled resource.helpviewer_keywords: ["CopyTileMappings","CopyTileMappings method [Direct3D 11]","CopyTileMappings method [Direct3D 11]","ID3D11DeviceContext2 interface","ID3D11DeviceContext2 interface [Direct3D 11]","CopyTileMappings method","ID3D11DeviceContext2.CopyTileMappings","ID3D11DeviceContext2::CopyTileMappings","d3d11_2/ID3D11DeviceContext2::CopyTileMappings","direct3d11.id3d11devicecontext2_copytilemappings"]
 old-location: direct3d11\id3d11devicecontext2_copytilemappings.htm
 tech.root: direct3d11
 ms.assetid: 03EBF4F5-CEC3-485D-8124-AAB90DA4D6E1

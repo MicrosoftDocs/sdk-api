@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IMediaPosition.put_PrerollTime
 title: IMediaPosition::put_PrerollTime (control.h)
-description: The put_PrerollTime method sets the amount of data that will be queued before the start position.
+description: The put_PrerollTime method sets the amount of data that will be queued before the start position.helpviewer_keywords: ["IMediaPosition interface [DirectShow]","put_PrerollTime method","IMediaPosition.put_PrerollTime","IMediaPosition::put_PrerollTime","IMediaPositionput_PrerollTime","control/IMediaPosition::put_PrerollTime","dshow.imediaposition_put_prerolltime","put_PrerollTime","put_PrerollTime method [DirectShow]","put_PrerollTime method [DirectShow]","IMediaPosition interface"]
 old-location: dshow\imediaposition_put_prerolltime.htm
 tech.root: DirectShow
 ms.assetid: a09e6e9f-7e6f-4e53-b805-ee4b9d97f4e7

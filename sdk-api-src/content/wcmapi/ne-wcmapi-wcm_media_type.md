@@ -1,7 +1,7 @@
 ---
 UID: NE:wcmapi._WCM_MEDIA_TYPE
 title: WCM_MEDIA_TYPE (wcmapi.h)
-description: Specifies the type of media for a connection.
+description: Specifies the type of media for a connection.helpviewer_keywords: ["*PWCM_MEDIA_TYPE","PWCM_MEDIA_TYPE","PWCM_MEDIA_TYPE enumeration pointer [Windows Connection Manager]","WCM_MEDIA_TYPE","WCM_MEDIA_TYPE enumeration [Windows Connection Manager]","wcm.wcm_media_type","wcm_media_ethernet","wcm_media_invalid","wcm_media_max","wcm_media_mbn","wcm_media_unknown","wcm_media_wlan","wcmapi/PWCM_MEDIA_TYPE","wcmapi/WCM_MEDIA_TYPE","wcmapi/wcm_media_ethernet","wcmapi/wcm_media_invalid","wcmapi/wcm_media_max","wcmapi/wcm_media_mbn","wcmapi/wcm_media_unknown","wcmapi/wcm_media_wlan"]
 old-location: wcm\wcm_media_type.htm
 tech.root: wcm
 ms.assetid: 76617f35-c7a1-49ff-a630-482f2fe45dd7

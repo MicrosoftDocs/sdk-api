@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetThreadSelectorEntry
 title: GetThreadSelectorEntry function (winbase.h)
-description: Retrieves a descriptor table entry for the specified selector and thread.
+description: Retrieves a descriptor table entry for the specified selector and thread.helpviewer_keywords: ["GetThreadSelectorEntry","GetThreadSelectorEntry function","_win32_getthreadselectorentry","base.getthreadselectorentry","winbase/GetThreadSelectorEntry"]
 old-location: base\getthreadselectorentry.htm
 tech.root: Debug
 ms.assetid: 9bf6f7b1-7a30-4398-a12a-b1de986f860d

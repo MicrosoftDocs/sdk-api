@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateTranscodeProfile
 title: MFCreateTranscodeProfile function (mfidl.h)
-description: Creates an empty transcode profile object.
+description: Creates an empty transcode profile object.helpviewer_keywords: ["MFCreateTranscodeProfile","MFCreateTranscodeProfile function [Media Foundation]","mf.mfcreatetranscodeprofile","mfidl/MFCreateTranscodeProfile"]
 old-location: mf\mfcreatetranscodeprofile.htm
 tech.root: medfound
 ms.assetid: 2a482c6f-6e20-419a-a7eb-085c41cc8186

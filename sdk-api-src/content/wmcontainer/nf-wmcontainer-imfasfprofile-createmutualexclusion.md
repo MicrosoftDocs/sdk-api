@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.CreateMutualExclusion
 title: IMFASFProfile::CreateMutualExclusion (wmcontainer.h)
-description: Creates a new Advanced Systems Format (ASF) mutual exclusion object. Mutual exclusion objects can be added to a profile by calling the AddMutualExclusion method.
+description: Creates a new Advanced Systems Format (ASF) mutual exclusion object. Mutual exclusion objects can be added to a profile by calling the AddMutualExclusion method.helpviewer_keywords: ["457b7b73-34c0-48fe-882a-9cdc3516e20d","CreateMutualExclusion","CreateMutualExclusion method [Media Foundation]","CreateMutualExclusion method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","CreateMutualExclusion method","IMFASFProfile.CreateMutualExclusion","IMFASFProfile::CreateMutualExclusion","mf.imfasfprofile_createmutualexclusion","wmcontainer/IMFASFProfile::CreateMutualExclusion"]
 old-location: mf\imfasfprofile_createmutualexclusion.htm
 tech.root: medfound
 ms.assetid: 457b7b73-34c0-48fe-882a-9cdc3516e20d

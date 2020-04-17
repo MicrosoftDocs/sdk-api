@@ -1,7 +1,7 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.EnumCertViewExtension
 title: IEnumCERTVIEWROW::EnumCertViewExtension (certview.h)
-description: Obtains an instance of an extension-enumeration sequence for the current row of the row-enumeration sequence.
+description: Obtains an instance of an extension-enumeration sequence for the current row of the row-enumeration sequence.helpviewer_keywords: ["EnumCertViewExtension","EnumCertViewExtension method [Security]","EnumCertViewExtension method [Security]","IEnumCERTVIEWROW interface","IEnumCERTVIEWROW interface [Security]","EnumCertViewExtension method","IEnumCERTVIEWROW.EnumCertViewExtension","IEnumCERTVIEWROW::EnumCertViewExtension","_certsrv_ienumcertviewrow_enumcertviewextension","certview/IEnumCERTVIEWROW::EnumCertViewExtension","security.ienumcertviewrow_enumcertviewextension"]
 old-location: security\ienumcertviewrow_enumcertviewextension.htm
 tech.root: SecCrypto
 ms.assetid: 41028000-fa87-4ad0-93fc-314c5d3870f9

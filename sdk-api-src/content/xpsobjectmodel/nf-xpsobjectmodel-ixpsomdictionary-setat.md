@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.SetAt
 title: IXpsOMDictionary::SetAt (xpsobjectmodel.h)
-description: Replaces the entry at a specified location in the dictionary.
+description: Replaces the entry at a specified location in the dictionary.helpviewer_keywords: ["IXpsOMDictionary interface [XPS Documents and Packaging]","SetAt method","IXpsOMDictionary.SetAt","IXpsOMDictionary::SetAt","SetAt","SetAt method [XPS Documents and Packaging]","SetAt method [XPS Documents and Packaging]","IXpsOMDictionary interface","xps.ixpsomdictionary_setat","xpsobjectmodel/IXpsOMDictionary::SetAt"]
 old-location: xps\ixpsomdictionary_setat.htm
 tech.root: printdocs
 ms.assetid: 834504f6-1c79-4a88-8c7b-69efd8b798c4

@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorInitialize
 title: EapMethodAuthenticatorInitialize function (eapmethodauthenticatorapis.h)
-description: Initializes an EAP authenticator method for the server EAPHost.
+description: Initializes an EAP authenticator method for the server EAPHost.helpviewer_keywords: ["EapMethodAuthenticatorInitialize","EapMethodAuthenticatorInitialize function [EAPHost]","eaphost.eapmethodauthenticatorinitialize","eapmethodauthenticatorapis/EapMethodAuthenticatorInitialize"]
 old-location: eaphost\eapmethodauthenticatorinitialize.htm
 tech.root: eaphost
 ms.assetid: 19484962-01fa-4abe-a6b4-c05b8112b0aa

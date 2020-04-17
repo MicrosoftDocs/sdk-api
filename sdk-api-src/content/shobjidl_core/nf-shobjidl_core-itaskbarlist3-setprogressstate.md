@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetProgressState
 title: ITaskbarList3::SetProgressState (shobjidl_core.h)
-description: Sets the type and state of the progress indicator displayed on a taskbar button.
+description: Sets the type and state of the progress indicator displayed on a taskbar button.helpviewer_keywords: ["ITaskbarList3 interface [Windows Shell]","SetProgressState method","ITaskbarList3.SetProgressState","ITaskbarList3::SetProgressState","SetProgressState","SetProgressState method [Windows Shell]","SetProgressState method [Windows Shell]","ITaskbarList3 interface","TBPF_ERROR","TBPF_INDETERMINATE","TBPF_NOPROGRESS","TBPF_NORMAL","TBPF_PAUSED","_shell_ITaskbarList3_SetProgressState","shell.ITaskbarList3_SetProgressState","shobjidl_core/ITaskbarList3::SetProgressState"]
 old-location: shell\ITaskbarList3_SetProgressState.htm
 tech.root: shell
 ms.assetid: ffa5566c-a6ad-4e96-a009-1e2006359f87

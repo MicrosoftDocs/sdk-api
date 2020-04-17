@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_SET_PARTITION_INFO
 title: IOCTL_DISK_SET_PARTITION_INFO
-description: Sets partition information for the specified disk partition.
+description: Sets partition information for the specified disk partition.helpviewer_keywords: ["IOCTL_DISK_SET_PARTITION_INFO","IOCTL_DISK_SET_PARTITION_INFO control","IOCTL_DISK_SET_PARTITION_INFO control code [Files]","_win32_ioctl_disk_set_partition_info","base.ioctl_disk_set_partition_info","fs.ioctl_disk_set_partition_info","winioctl/IOCTL_DISK_SET_PARTITION_INFO"]
 old-location: fs\ioctl_disk_set_partition_info.htm
 tech.root: FileIO
 ms.assetid: 868cad92-fa88-4a5a-98bb-92e73c115a22

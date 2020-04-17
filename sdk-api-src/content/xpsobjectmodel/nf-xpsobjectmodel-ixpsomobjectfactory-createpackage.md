@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackage
 title: IXpsOMObjectFactory::CreatePackage (xpsobjectmodel.h)
-description: Creates an IXpsOMPackage interface that serves as the root node of an XPS object model document tree.
+description: Creates an IXpsOMPackage interface that serves as the root node of an XPS object model document tree.helpviewer_keywords: ["CreatePackage","CreatePackage method [XPS Documents and Packaging]","CreatePackage method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePackage method","IXpsOMObjectFactory.CreatePackage","IXpsOMObjectFactory::CreatePackage","xps.ixpsomobjectfactory_createpackage","xpsobjectmodel/IXpsOMObjectFactory::CreatePackage"]
 old-location: xps\ixpsomobjectfactory_createpackage.htm
 tech.root: printdocs
 ms.assetid: c9319997-6c8f-4e2c-9401-ad269e3db8c8

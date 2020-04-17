@@ -1,7 +1,7 @@
 ---
 UID: NE:exdisp.ShellWindowFindWindowOptions
 title: ShellWindowFindWindowOptions (exdisp.h)
-description: Specifies options for finding window in the Shell windows collection.
+description: Specifies options for finding window in the Shell windows collection.helpviewer_keywords: ["SWFO_COOKIEPASSED","SWFO_INCLUDEPENDING","SWFO_NEEDDISPATCH","ShellWindowFindWindowOptions","ShellWindowFindWindowOptions enumeration [Windows Shell]","_win32_ShellWindowFindWindowOptions","exdisp/SWFO_COOKIEPASSED","exdisp/SWFO_INCLUDEPENDING","exdisp/SWFO_NEEDDISPATCH","exdisp/ShellWindowFindWindowOptions","shell.ShellWindowFindWindowOptions"]
 old-location: shell\ShellWindowFindWindowOptions.htm
 tech.root: shell
 ms.assetid: 2459ab16-56c0-4812-bc61-4a17978b04f3

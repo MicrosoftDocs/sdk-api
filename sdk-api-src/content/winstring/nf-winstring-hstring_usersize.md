@@ -1,7 +1,7 @@
 ---
 UID: NF:winstring.HSTRING_UserSize
 title: HSTRING_UserSize function (winstring.h)
-description: Calculates the wire size of the HSTRING object, and gets its handle and data.
+description: Calculates the wire size of the HSTRING object, and gets its handle and data.helpviewer_keywords: ["HSTRING_UserSize","HSTRING_UserSize function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserSize","winrt.hstring_usersize"]
 old-location: winrt\hstring_usersize.htm
 tech.root: WinRT
 ms.assetid: F258F308-7A16-4C24-9770-F6D8A1604811

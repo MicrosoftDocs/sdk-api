@@ -1,7 +1,7 @@
 ---
 UID: NF:ncrypt.NCryptEnumStorageProviders
 title: NCryptEnumStorageProviders function (ncrypt.h)
-description: Obtains the names of the registered key storage providers.
+description: Obtains the names of the registered key storage providers.helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptEnumStorageProviders","NCryptEnumStorageProviders function [Security]","ncrypt/NCryptEnumStorageProviders","security.ncryptenumstorageproviders_func"]
 old-location: security\ncryptenumstorageproviders_func.htm
 tech.root: SecCNG
 ms.assetid: 24a8ee01-b716-4f36-9df5-b6476b1df4f0

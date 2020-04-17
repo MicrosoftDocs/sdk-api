@@ -1,7 +1,7 @@
 ---
 UID: NS:slpublic._tagSL_ACTIVATION_INFO_HEADER
 title: SL_ACTIVATION_INFO_HEADER (slpublic.h)
-description: Specifies the product activation information.
+description: Specifies the product activation information.helpviewer_keywords: ["SL_ACTIVATION_INFO_HEADER","SL_ACTIVATION_INFO_HEADER structure [Security]","security.sl_activation_info_header","slpublic/SL_ACTIVATION_INFO_HEADER"]
 old-location: security\sl_activation_info_header.htm
 tech.root: SecSLApi
 ms.assetid: 8209652d-c40e-419b-9929-647f03fed79c

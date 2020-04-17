@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.SetMaximumClients
 title: IWMWriterNetworkSink::SetMaximumClients (wmsdkidl.h)
-description: The SetMaximumClients method sets the maximum number of clients that can connect to this sink. Call this method before streaming begins.
+description: The SetMaximumClients method sets the maximum number of clients that can connect to this sink. Call this method before streaming begins.helpviewer_keywords: ["IWMWriterNetworkSink interface [windows Media Format]","SetMaximumClients method","IWMWriterNetworkSink.SetMaximumClients","IWMWriterNetworkSink::SetMaximumClients","IWMWriterNetworkSinkSetMaximumClients","SetMaximumClients","SetMaximumClients method [windows Media Format]","SetMaximumClients method [windows Media Format]","IWMWriterNetworkSink interface","wmformat.iwmwriternetworksink_setmaximumclients","wmsdkidl/IWMWriterNetworkSink::SetMaximumClients"]
 old-location: wmformat\iwmwriternetworksink_setmaximumclients.htm
 tech.root: wmformat
 ms.assetid: 619f0684-28bb-4412-acbf-27434672083a

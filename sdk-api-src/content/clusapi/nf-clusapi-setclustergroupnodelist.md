@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.SetClusterGroupNodeList
 title: SetClusterGroupNodeList function (clusapi.h)
-description: Sets the preferred node list for a group.
+description: Sets the preferred node list for a group.helpviewer_keywords: ["PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST","PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST function [Failover Cluster]","SetClusterGroupNodeList","SetClusterGroupNodeList function [Failover Cluster]","_wolf_setclustergroupnodelist","clusapi/PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST","clusapi/SetClusterGroupNodeList","mscs.setclustergroupnodelist"]
 old-location: mscs\setclustergroupnodelist.htm
 tech.root: MsCS
 ms.assetid: 663ccafe-0456-406e-a50d-e17e6d85a9a1

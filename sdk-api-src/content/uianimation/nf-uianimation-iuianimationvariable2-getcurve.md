@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetCurve
 title: IUIAnimationVariable2::GetCurve (uianimation.h)
-description: Gets the animation curve of the animation variable.
+description: Gets the animation curve of the animation variable.helpviewer_keywords: ["GetCurve","GetCurve method [Windows Animation]","GetCurve method [Windows Animation]","IUIAnimationVariable2 interface","IUIAnimationVariable2 interface [Windows Animation]","GetCurve method","IUIAnimationVariable2.GetCurve","IUIAnimationVariable2::GetCurve","uianimation.iuianimationvariable2_getcurve","uianimation/IUIAnimationVariable2::GetCurve"]
 old-location: uianimation\iuianimationvariable2_getcurve.htm
 tech.root: UIAnimation
 ms.assetid: 59E7C7A1-2461-487C-A263-A9DFC851B720

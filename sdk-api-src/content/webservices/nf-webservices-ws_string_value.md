@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WS_STRING_VALUE
 title: WS_STRING_VALUE macro (webservices.h)
-description: Initializes a WS_STRING structure given a constant string.
+description: Initializes a WS_STRING structure given a constant string.helpviewer_keywords: ["WS_STRING_VALUE","WS_STRING_VALUE macro [Web Services for Windows]","webservices/WS_STRING_VALUE","wsw.ws_string_value"]
 old-location: wsw\ws_string_value.htm
 tech.root: wsw
 ms.assetid: 692aa04e-f061-465c-b2ae-27d424d708bc

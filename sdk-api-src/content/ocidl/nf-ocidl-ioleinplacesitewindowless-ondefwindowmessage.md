@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.OnDefWindowMessage
 title: IOleInPlaceSiteWindowless::OnDefWindowMessage (ocidl.h)
-description: Invokes the default processing for all messages passed to an object.
+description: Invokes the default processing for all messages passed to an object.helpviewer_keywords: ["IOleInPlaceSiteWindowless interface [COM]","OnDefWindowMessage method","IOleInPlaceSiteWindowless.OnDefWindowMessage","IOleInPlaceSiteWindowless::OnDefWindowMessage","OnDefWindowMessage","OnDefWindowMessage method [COM]","OnDefWindowMessage method [COM]","IOleInPlaceSiteWindowless interface","_ole_ioleinplacesitewindowless_ondefwindowmessage","com.ioleinplacesitewindowless_ondefwindowmessage","ocidl/IOleInPlaceSiteWindowless::OnDefWindowMessage"]
 old-location: com\ioleinplacesitewindowless_ondefwindowmessage.htm
 tech.root: com
 ms.assetid: 14017061-57e3-49a9-93cc-6373522ab1dc

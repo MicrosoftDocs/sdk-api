@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetUpdateRgn
 title: GetUpdateRgn function (winuser.h)
-description: The GetUpdateRgn function retrieves the update region of a window by copying it into the specified region. The coordinates of the update region are relative to the upper-left corner of the window (that is, they are client coordinates).
+description: The GetUpdateRgn function retrieves the update region of a window by copying it into the specified region. The coordinates of the update region are relative to the upper-left corner of the window (that is, they are client coordinates).helpviewer_keywords: ["GetUpdateRgn","GetUpdateRgn function [Windows GDI]","_win32_GetUpdateRgn","gdi.getupdatergn","winuser/GetUpdateRgn"]
 old-location: gdi\getupdatergn.htm
 tech.root: gdi
 ms.assetid: d80c4b44-3f50-46f9-bf5a-fff7868d91ba

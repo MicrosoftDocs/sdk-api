@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_XML_READER_STREAM_INPUT
 title: WS_XML_READER_STREAM_INPUT (webservices.h)
-description: Specifies that the source of the xml should be obtained from a callback.
+description: Specifies that the source of the xml should be obtained from a callback.helpviewer_keywords: ["WS_XML_READER_STREAM_INPUT","WS_XML_READER_STREAM_INPUT structure [Web Services for Windows]","webservices/WS_XML_READER_STREAM_INPUT","wsw.ws_xml_reader_stream_input"]
 old-location: wsw\ws_xml_reader_stream_input.htm
 tech.root: wsw
 ms.assetid: 53537eb2-6b8d-443e-9453-4b39dfef1dd7

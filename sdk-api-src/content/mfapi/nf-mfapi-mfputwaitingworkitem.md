@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFPutWaitingWorkItem
 title: MFPutWaitingWorkItem function (mfapi.h)
-description: Queues a work item that waits for an event to be signaled.
+description: Queues a work item that waits for an event to be signaled.helpviewer_keywords: ["MFPutWaitingWorkItem","MFPutWaitingWorkItem function [Media Foundation]","mf.mfputwaitingworkitem","mfapi/MFPutWaitingWorkItem","mfplat/MFPutWaitingWorkItem"]
 old-location: mf\mfputwaitingworkitem.htm
 tech.root: medfound
 ms.assetid: BBD80C60-E42F-4B3B-96E3-E01058A27DB8

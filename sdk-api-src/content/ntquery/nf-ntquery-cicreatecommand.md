@@ -1,7 +1,7 @@
 ---
 UID: NF:ntquery.CICreateCommand
 title: CICreateCommand function (ntquery.h)
-description: Creates a Command object.
+description: Creates a Command object.helpviewer_keywords: ["CICreateCommand","CICreateCommand function [Indexing Service]","_idxs_CICreateCommand","indexsrv.cicreatecommand","ntquery/CICreateCommand"]
 old-location: indexsrv\cicreatecommand.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_3sys.htm

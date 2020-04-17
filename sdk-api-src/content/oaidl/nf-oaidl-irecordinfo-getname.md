@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetName
 title: IRecordInfo::GetName (oaidl.h)
-description: Gets the name of the record type.
+description: Gets the name of the record type.helpviewer_keywords: ["GetName","GetName method [Automation]","GetName method [Automation]","IRecordInfo interface","IRecordInfo interface [Automation]","GetName method","IRecordInfo.GetName","IRecordInfo::GetName","_oa96_IRecordInfo_GetName","automat.irecordinfo_getname","oaidl/IRecordInfo::GetName"]
 old-location: automat\irecordinfo_getname.htm
 tech.root: automat
 ms.assetid: b769f792-45cb-4070-9be7-0b95b17a9ed8

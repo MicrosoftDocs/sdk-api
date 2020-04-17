@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplusheaders.CustomLineCap
 title: CustomLineCap (gdiplusheaders.h)
-description: The CustomLineCap class encapsulates a custom line cap.
+description: The CustomLineCap class encapsulates a custom line cap.helpviewer_keywords: ["CustomLineCap","CustomLineCap class [GDI+]","CustomLineCap class [GDI+]","described","_gdiplus_CLASS_CustomLineCap_Class","gdiplus._gdiplus_CLASS_CustomLineCap_Class","gdiplusheaders/CustomLineCap"]
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecap.htm

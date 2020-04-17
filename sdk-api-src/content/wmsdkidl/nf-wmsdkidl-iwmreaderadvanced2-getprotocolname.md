@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetProtocolName
 title: IWMReaderAdvanced2::GetProtocolName (wmsdkidl.h)
-description: The GetProtocolName method retrieves the name of the protocol that is being used.
+description: The GetProtocolName method retrieves the name of the protocol that is being used.helpviewer_keywords: ["GetProtocolName","GetProtocolName method [windows Media Format]","GetProtocolName method [windows Media Format]","IWMReaderAdvanced2 interface","IWMReaderAdvanced2 interface [windows Media Format]","GetProtocolName method","IWMReaderAdvanced2.GetProtocolName","IWMReaderAdvanced2::GetProtocolName","IWMReaderAdvanced2GetProtocolName","wmformat.iwmreaderadvanced2_getprotocolname","wmsdkidl/IWMReaderAdvanced2::GetProtocolName"]
 old-location: wmformat\iwmreaderadvanced2_getprotocolname.htm
 tech.root: wmformat
 ms.assetid: 056d5f3f-79bf-4e21-9f2c-cda05eaca13d

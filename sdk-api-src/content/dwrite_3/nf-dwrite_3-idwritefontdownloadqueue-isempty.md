@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.IsEmpty
 title: IDWriteFontDownloadQueue::IsEmpty (dwrite_3.h)
-description: Determines whether the download queue is empty. Note that the queue does not include requests that are already being downloaded. Calling BeginDownloadclears the queue.
+description: Determines whether the download queue is empty. Note that the queue does not include requests that are already being downloaded. Calling BeginDownloadclears the queue.helpviewer_keywords: ["IDWriteFontDownloadQueue interface [Direct Write]","IsEmpty method","IDWriteFontDownloadQueue.IsEmpty","IDWriteFontDownloadQueue::IsEmpty","IsEmpty","IsEmpty method [Direct Write]","IsEmpty method [Direct Write]","IDWriteFontDownloadQueue interface","directwrite.idwritefontdownloadqueue_isempty","dwrite_3/IDWriteFontDownloadQueue::IsEmpty"]
 old-location: directwrite\idwritefontdownloadqueue_isempty.htm
 tech.root: DirectWrite
 ms.assetid: 2f1f0d1c-0db8-c382-7879-92a889cfeb6b

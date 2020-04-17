@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IAudioClient.Stop
 title: IAudioClient::Stop (audioclient.h)
-description: The Stop method stops the audio stream.
+description: The Stop method stops the audio stream.helpviewer_keywords: ["IAudioClient interface [Core Audio]","Stop method","IAudioClient.Stop","IAudioClient::Stop","IAudioClientStop","Stop","Stop method [Core Audio]","Stop method [Core Audio]","IAudioClient interface","audioclient/IAudioClient::Stop","coreaudio.iaudioclient_stop"]
 old-location: coreaudio\iaudioclient_stop.htm
 tech.root: CoreAudio
 ms.assetid: d5824aa9-0b91-4bee-9c0c-26e12a6b96b5

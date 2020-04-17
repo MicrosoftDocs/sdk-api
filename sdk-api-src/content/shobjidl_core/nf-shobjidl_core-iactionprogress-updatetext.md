@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.UpdateText
 title: IActionProgress::UpdateText (shobjidl_core.h)
-description: Called if descriptive text associated with the action will be changed.
+description: Called if descriptive text associated with the action will be changed.helpviewer_keywords: ["IActionProgress interface [Windows Shell]","UpdateText method","IActionProgress.UpdateText","IActionProgress::UpdateText","UpdateText","UpdateText method [Windows Shell]","UpdateText method [Windows Shell]","IActionProgress interface","shell.IActionProgress_UpdateText","shell_IActionProgress_UpdateText","shobjidl_core/IActionProgress::UpdateText"]
 old-location: shell\IActionProgress_UpdateText.htm
 tech.root: shell
 ms.assetid: dfb8a996-89df-4975-ac13-d871598a2787

@@ -1,7 +1,7 @@
 ---
 UID: NS:gdipluseffects.RedEyeCorrectionParams
 title: RedEyeCorrectionParams (gdipluseffects.h)
-description: A RedEyeCorrectionParams structure contains members that specify the areas of a bitmap to which a red-eye correction is applied.
+description: A RedEyeCorrectionParams structure contains members that specify the areas of a bitmap to which a red-eye correction is applied.helpviewer_keywords: ["RedEyeCorrectionParams","RedEyeCorrectionParams structure [GDI+]","_gdiplus_STRUC_RedEyeCorrectionParams","gdiplus._gdiplus_STRUC_RedEyeCorrectionParams","gdipluseffects/RedEyeCorrectionParams"]
 old-location: gdiplus\_gdiplus_STRUC_RedEyeCorrectionParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\redeyecorrectionparams.htm

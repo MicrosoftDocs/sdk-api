@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.get_QuotaPeakUsage
 title: IFsrmQuota::get_QuotaPeakUsage (fsrmquota.h)
-description: Retrieves the highest amount of disk space usage charged to this quota.
+description: Retrieves the highest amount of disk space usage charged to this quota.helpviewer_keywords: ["IFsrmQuota interface [File Server Resource Manager]","QuotaPeakUsage property","IFsrmQuota.QuotaPeakUsage","IFsrmQuota.get_QuotaPeakUsage","IFsrmQuota::QuotaPeakUsage","IFsrmQuota::get_QuotaPeakUsage","QuotaPeakUsage property [File Server Resource Manager]","QuotaPeakUsage property [File Server Resource Manager]","IFsrmQuota interface","fs.ifsrmquota_quotapeakusage","fsrm.ifsrmquota_quotapeakusage","fsrmquota/IFsrmQuota::QuotaPeakUsage","fsrmquota/IFsrmQuota::get_QuotaPeakUsage","get_QuotaPeakUsage"]
 old-location: fsrm\ifsrmquota_quotapeakusage.htm
 tech.root: fsrm
 ms.assetid: 86e2f8a1-766e-494d-9b99-c55e51d8509c

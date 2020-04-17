@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_PACKED_CREDENTIALS
 title: SEC_WINNT_AUTH_PACKED_CREDENTIALS (sspi.h)
-description: Specifies serialized credentials.
+description: Specifies serialized credentials.helpviewer_keywords: ["*PSEC_WINNT_AUTH_PACKED_CREDENTIALS","PSEC_WINNT_AUTH_PACKED_CREDENTIALS","PSEC_WINNT_AUTH_PACKED_CREDENTIALS structure pointer [Security]","SEC_WINNT_AUTH_PACKED_CREDENTIALS","SEC_WINNT_AUTH_PACKED_CREDENTIALS structure [Security]","security.sec_winnt_auth_packed_credentials","sspi/PSEC_WINNT_AUTH_PACKED_CREDENTIALS","sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS"]
 old-location: security\sec_winnt_auth_packed_credentials.htm
 tech.root: SecAuthN
 ms.assetid: 9a21f0cd-d4e1-4aa8-8d0d-72bc7002ce32

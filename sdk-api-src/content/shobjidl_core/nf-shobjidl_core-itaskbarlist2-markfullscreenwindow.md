@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList2.MarkFullscreenWindow
 title: ITaskbarList2::MarkFullscreenWindow (shobjidl_core.h)
-description: Marks a window as full-screen.
+description: Marks a window as full-screen.helpviewer_keywords: ["ITaskbarList2 interface [Windows Shell]","MarkFullscreenWindow method","ITaskbarList2.MarkFullscreenWindow","ITaskbarList2::MarkFullscreenWindow","MarkFullscreenWindow","MarkFullscreenWindow method [Windows Shell]","MarkFullscreenWindow method [Windows Shell]","ITaskbarList2 interface","shell.ITaskbarList2_MarkFullscreenWindow","shell_ITaskbarList2_MarkFullscreenWindow","shobjidl_core/ITaskbarList2::MarkFullscreenWindow"]
 old-location: shell\ITaskbarList2_MarkFullscreenWindow.htm
 tech.root: shell
 ms.assetid: 17b4a9ff-f5a2-4178-971b-f80d65d72fb5

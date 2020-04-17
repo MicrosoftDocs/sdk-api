@@ -1,7 +1,7 @@
 ---
 UID: NN:oleidl.IOleInPlaceFrame
 title: IOleInPlaceFrame (oleidl.h)
-description: Controls the container's top-level frame window.
+description: Controls the container's top-level frame window.helpviewer_keywords: ["IOleInPlaceFrame","IOleInPlaceFrame interface [COM]","IOleInPlaceFrame interface [COM]","described","_ole_ioleinplaceframe","com.ioleinplaceframe","oleidl/IOleInPlaceFrame"]
 old-location: com\ioleinplaceframe.htm
 tech.root: com
 ms.assetid: c530aff7-fd83-413d-8945-0c9d1bfb51ba

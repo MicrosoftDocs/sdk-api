@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetRemapTable
 title: ImageAttributes::SetRemapTable (gdiplusimageattributes.h)
-description: The ImageAttributes::SetRemapTable method sets the color-remap table for a specified category.
+description: The ImageAttributes::SetRemapTable method sets the color-remap table for a specified category.helpviewer_keywords: ["ImageAttributes class [GDI+]","SetRemapTable method","ImageAttributes.SetRemapTable","ImageAttributes::SetRemapTable","SetRemapTable","SetRemapTable method [GDI+]","SetRemapTable method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetRemapTable_mapSize_map_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetRemapTable_mapSize_map_type_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetRemapTable_mapSize_map_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setremaptable.htm

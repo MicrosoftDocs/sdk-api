@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMLoadFloat3SE
 title: XMLoadFloat3SE function (directxpackedvector.h)
-description: Loads an XMFLOAT3SE into an XMVECTOR.
+description: Loads an XMFLOAT3SE into an XMVECTOR.helpviewer_keywords: ["DirectX::PackedVector.XMLoadFloat3SE","XMLoadFloat3SE","XMLoadFloat3SE method [DirectX Math Support APIs]","dxmath.xmloadfloat3se"]
 old-location: dxmath\xmloadfloat3se.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat3SE(const XMFLOAT3SE)

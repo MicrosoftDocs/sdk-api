@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.acceptFilePKCS7WStr
 title: IEnroll::acceptFilePKCS7WStr (xenroll.h)
-description: Accepts and processes a PKCS
+description: Accepts and processes a PKCShelpviewer_keywords: ["IEnroll interface [Security]","acceptFilePKCS7WStr method","IEnroll.acceptFilePKCS7WStr","IEnroll::acceptFilePKCS7WStr","acceptFilePKCS7WStr","acceptFilePKCS7WStr method [Security]","acceptFilePKCS7WStr method [Security]","IEnroll interface","security.ienroll4_acceptfilepkcs7wstr","xenroll/IEnroll::acceptFilePKCS7WStr"]
 old-location: security\ienroll4_acceptfilepkcs7wstr.htm
 tech.root: SecCrypto
 ms.assetid: 9c2b99df-769b-457b-b5c5-7690b73d6f84

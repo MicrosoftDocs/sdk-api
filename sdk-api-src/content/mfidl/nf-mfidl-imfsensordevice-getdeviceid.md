@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetDeviceId
 title: IMFSensorDevice::GetDeviceId (mfidl.h)
-description: Gets the unique identifier for the device. This value is currently unused.
+description: Gets the unique identifier for the device. This value is currently unused.helpviewer_keywords: ["GetDeviceId","GetDeviceId method [Media Foundation]","GetDeviceId method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetDeviceId method","IMFSensorDevice.GetDeviceId","IMFSensorDevice::GetDeviceId","mf.imfsensordevice_getdeviceid","mfidl/IMFSensorDevice::GetDeviceId"]
 old-location: mf\imfsensordevice_getdeviceid.htm
 tech.root: medfound
 ms.assetid: 90598DC7-A4FB-4C3F-A671-1549703AC9DB

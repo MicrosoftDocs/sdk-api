@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbBaseNotifySink
 title: ITsSbBaseNotifySink (sbtsv.h)
-description: Exposes methods that report status and error messages to Remote Desktop Connection Broker (RD Connection Broker).
+description: Exposes methods that report status and error messages to Remote Desktop Connection Broker (RD Connection Broker).helpviewer_keywords: ["ITsSbBaseNotifySink","ITsSbBaseNotifySink interface [Remote Desktop Services]","ITsSbBaseNotifySink interface [Remote Desktop Services]","described","sbtsv/ITsSbBaseNotifySink","termserv.itssbbasenotifysink"]
 old-location: termserv\itssbbasenotifysink.htm
 tech.root: TermServ
 ms.assetid: 11ef1bd4-301f-456b-a68b-2f32b75ac5ae

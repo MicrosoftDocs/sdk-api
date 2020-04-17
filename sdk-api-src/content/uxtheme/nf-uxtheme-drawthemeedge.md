@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.DrawThemeEdge
 title: DrawThemeEdge function (uxtheme.h)
-description: Draws one or more edges defined by the visual style of a rectangle.
+description: Draws one or more edges defined by the visual style of a rectangle.helpviewer_keywords: ["DrawThemeEdge","DrawThemeEdge function [Windows Controls]","controls.DrawThemeEdge","controls.inet_DrawThemeEdge","inet_DrawThemeEdge","inet_DrawThemeEdge_cpp","uxtheme/DrawThemeEdge"]
 old-location: controls\DrawThemeEdge.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeedge.htm

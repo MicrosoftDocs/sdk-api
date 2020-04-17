@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsstoragecom.IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle
 title: IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle (windowsstoragecom.h)
-description: Closes the handle from a random-access byte stream that you created by calling IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle.
+description: Closes the handle from a random-access byte stream that you created by calling IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle.helpviewer_keywords: ["CloseUnbufferedFileHandle","CloseUnbufferedFileHandle method [Windows Runtime]","CloseUnbufferedFileHandle method [Windows Runtime]","IUnbufferedFileHandleProvider interface","IUnbufferedFileHandleProvider interface [Windows Runtime]","CloseUnbufferedFileHandle method","IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle","IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle","windowsstoragecom/IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle","winrt.iunbufferedfilehandleprovider_closeunbufferedfilehandle"]
 old-location: winrt\iunbufferedfilehandleprovider_closeunbufferedfilehandle.htm
 tech.root: WinRT
 ms.assetid: 8D6CD3A2-0CCD-49F4-86B3-99823A6E4EA8

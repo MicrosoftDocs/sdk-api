@@ -1,7 +1,7 @@
 ---
 UID: NF:eappapis.EapHostPeerProcessReceivedPacket
 title: EapHostPeerProcessReceivedPacket function (eappapis.h)
-description: Is called by the supplicant every time the supplicant receives a packet that EAPHost needs to process.
+description: Is called by the supplicant every time the supplicant receives a packet that EAPHost needs to process.helpviewer_keywords: ["EapHostPeerProcessReceivedPacket","EapHostPeerProcessReceivedPacket function [EAPHost]","eaphost.eaphostpeerprocessreceivedpacket","eappapis/EapHostPeerProcessReceivedPacket"]
 old-location: eaphost\eaphostpeerprocessreceivedpacket.htm
 tech.root: eaphost
 ms.assetid: 7b3bc23d-312d-494d-afd0-ce82d2d5136c

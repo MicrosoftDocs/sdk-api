@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLGetWindowsInformation
 title: SLGetWindowsInformation function (slpublic.h)
-description: Retrieves the value portion of a name-value pair from the licensing policy of a software component.
+description: Retrieves the value portion of a name-value pair from the licensing policy of a software component.helpviewer_keywords: ["SLGetWindowsInformation","SLGetWindowsInformation function [Security]","security.slgetwindowsinformation","slpublic/SLGetWindowsInformation"]
 old-location: security\slgetwindowsinformation.htm
 tech.root: SecSLApi
 ms.assetid: 007b3f3a-c320-4bbc-ab5c-746b513cb815

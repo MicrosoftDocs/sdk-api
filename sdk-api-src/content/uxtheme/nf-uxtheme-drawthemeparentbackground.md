@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.DrawThemeParentBackground
 title: DrawThemeParentBackground function (uxtheme.h)
-description: Draws the part of a parent control that is covered by a partially-transparent or alpha-blended child control.
+description: Draws the part of a parent control that is covered by a partially-transparent or alpha-blended child control.helpviewer_keywords: ["DrawThemeParentBackground","DrawThemeParentBackground function [Windows Controls]","controls.DrawThemeParentBackground","controls.inet_DrawThemeParentBackground","inet_DrawThemeParentBackground","inet_DrawThemeParentBackground_cpp","uxtheme/DrawThemeParentBackground"]
 old-location: controls\DrawThemeParentBackground.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeparentbackground.htm

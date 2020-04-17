@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsOctetList
 title: IADsOctetList (iads.h)
-description: The IADsOctetList interface provides methods for an ADSI client to access the Octet List attribute.
+description: The IADsOctetList interface provides methods for an ADSI client to access the Octet List attribute.helpviewer_keywords: ["IADsOctetList","IADsOctetList interface [ADSI]","IADsOctetList interface [ADSI]","described","_ds_iadsoctetlist","adsi.iadsoctetlist","iads/IADsOctetList"]
 old-location: adsi\iadsoctetlist.htm
 tech.root: adsi
 ms.assetid: 66ec49d6-43c5-4fc8-a90d-5847fd2ffe50

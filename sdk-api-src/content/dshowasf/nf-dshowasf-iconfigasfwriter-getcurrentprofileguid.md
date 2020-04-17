@@ -1,7 +1,7 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.GetCurrentProfileGuid
 title: IConfigAsfWriter::GetCurrentProfileGuid (dshowasf.h)
-description: The GetCurrentProfileGuid method retrieves the GUID of the WM ASF Writer filter's current system profile, if any. (Deprecated.).
+description: The GetCurrentProfileGuid method retrieves the GUID of the WM ASF Writer filter's current system profile, if any. (Deprecated.).helpviewer_keywords: ["GetCurrentProfileGuid","GetCurrentProfileGuid method [DirectShow]","GetCurrentProfileGuid method [DirectShow]","IConfigAsfWriter interface","IConfigAsfWriter interface [DirectShow]","GetCurrentProfileGuid method","IConfigAsfWriter.GetCurrentProfileGuid","IConfigAsfWriter::GetCurrentProfileGuid","IConfigAsfWriterGetCurrentProfileGuid","dshow.iconfigasfwriter_getcurrentprofileguid","dshowasf/IConfigAsfWriter::GetCurrentProfileGuid"]
 old-location: dshow\iconfigasfwriter_getcurrentprofileguid.htm
 tech.root: DirectShow
 ms.assetid: 8958f8d3-40ff-44b1-a817-5dca30636306

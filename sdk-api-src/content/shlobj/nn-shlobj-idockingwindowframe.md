@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj.IDockingWindowFrame
 title: IDockingWindowFrame (shlobj.h)
-description: Exposes methods that support the addition of IDockingWindow objects to a frame. Implemented by the browser.
+description: Exposes methods that support the addition of IDockingWindow objects to a frame. Implemented by the browser.helpviewer_keywords: ["IDockingWindowFrame","IDockingWindowFrame interface [Windows Shell]","IDockingWindowFrame interface [Windows Shell]","described","_win32_IDockingWindowFrame","shell.IDockingWindowFrame","shlobj/IDockingWindowFrame"]
 old-location: shell\IDockingWindowFrame.htm
 tech.root: shell
 ms.assetid: d0dc10db-316a-4eaa-83db-3f186ee77071

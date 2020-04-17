@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.XFORMOBJ_iGetFloatObjXform
 title: XFORMOBJ_iGetFloatObjXform function (winddi.h)
-description: The XFORMOBJ_iGetFloatObjXform function downloads a FLOATOBJ transform to the driver.
+description: The XFORMOBJ_iGetFloatObjXform function downloads a FLOATOBJ transform to the driver.helpviewer_keywords: ["XFORMOBJ_iGetFloatObjXform","XFORMOBJ_iGetFloatObjXform function [Display Devices]","display.xformobj_igetfloatobjxform","gdifncs_26b564b5-f2ca-448a-9ca8-f34e7f8fb57a.xml","winddi/XFORMOBJ_iGetFloatObjXform"]
 old-location: display\xformobj_igetfloatobjxform.htm
 tech.root: display
 ms.assetid: 761c6061-841b-4187-a826-575d2a5086db

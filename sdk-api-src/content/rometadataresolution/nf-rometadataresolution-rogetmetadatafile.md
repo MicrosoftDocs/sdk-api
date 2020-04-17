@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataresolution.RoGetMetaDataFile
 title: RoGetMetaDataFile function (rometadataresolution.h)
-description: Locates and retrieves the metadata file that describes the Application Binary Interface (ABI) for the specified typename.
+description: Locates and retrieves the metadata file that describes the Application Binary Interface (ABI) for the specified typename.helpviewer_keywords: ["RoGetMetaDataFile","RoGetMetaDataFile function [Windows Runtime]","rometadataresolution/RoGetMetaDataFile","winrt.rogetmetadatafile"]
 old-location: winrt\rogetmetadatafile.htm
 tech.root: WinRT
 ms.assetid: FF4FEA9F-3FB0-4D56-BE9A-E8E2CB13D718

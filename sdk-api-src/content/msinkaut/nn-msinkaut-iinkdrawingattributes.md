@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkDrawingAttributes
 title: IInkDrawingAttributes (msinkaut.h)
-description: .
+description: .helpviewer_keywords: ["IInkDrawingAttributes","IInkDrawingAttributes interface [Tablet PC]","IInkDrawingAttributes interface [Tablet PC]","described","msinkaut/IInkDrawingAttributes","tablet.iinkdrawingattributes"]
 old-location: tablet\iinkdrawingattributes.htm
 tech.root: tablet
 ms.assetid: 47106C55-FA03-4996-BCFA-D00A51AF55EE

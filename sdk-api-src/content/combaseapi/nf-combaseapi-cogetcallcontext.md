@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoGetCallContext
 title: CoGetCallContext function (combaseapi.h)
-description: Retrieves the context of the current call on the current thread.
+description: Retrieves the context of the current call on the current thread.helpviewer_keywords: ["CoGetCallContext","CoGetCallContext function [COM]","_com_CoGetCallContext","com.cogetcallcontext","combaseapi/CoGetCallContext"]
 old-location: com\cogetcallcontext.htm
 tech.root: com
 ms.assetid: b82e32c0-840d-402e-90d5-ff678c51faf1

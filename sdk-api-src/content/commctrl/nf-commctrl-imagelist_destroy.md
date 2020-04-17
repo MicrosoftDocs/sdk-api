@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_Destroy
 title: ImageList_Destroy function (commctrl.h)
-description: Destroys an image list.
+description: Destroys an image list.helpviewer_keywords: ["ImageList_Destroy","ImageList_Destroy function [Windows Controls]","_win32_ImageList_Destroy","_win32_ImageList_Destroy_cpp","commctrl/ImageList_Destroy","controls.ImageList_Destroy","controls._win32_ImageList_Destroy"]
 old-location: controls\ImageList_Destroy.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_destroy.htm

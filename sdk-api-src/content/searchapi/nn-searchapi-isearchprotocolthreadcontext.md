@@ -1,7 +1,7 @@
 ---
 UID: NN:searchapi.ISearchProtocolThreadContext
 title: ISearchProtocolThreadContext (searchapi.h)
-description: This optional interface enables the protocol handler to perform an action on the thread used for filtering in the protocol host.
+description: This optional interface enables the protocol handler to perform an action on the thread used for filtering in the protocol host.helpviewer_keywords: ["ISearchProtocolThreadContext","ISearchProtocolThreadContext interface [search]","ISearchProtocolThreadContext interface [search]","described","_search_ISearchProtocolThreadContext","search._search_ISearchProtocolThreadContext","searchapi/ISearchProtocolThreadContext"]
 old-location: search\_search_ISearchProtocolThreadContext.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\isearchprotocolthreadcontext.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_IdentityType
 title: IExeServerRegistration::get_IdentityType (activationregistration.h)
-description: Gets the activation type for the out-of-process server.
+description: Gets the activation type for the out-of-process server.helpviewer_keywords: ["IExeServerRegistration interface [Windows Runtime]","get_IdentityType method","IExeServerRegistration.get_IdentityType","IExeServerRegistration::get_IdentityType","activationregistration/IExeServerRegistration::get_IdentityType","get_IdentityType","get_IdentityType method [Windows Runtime]","get_IdentityType method [Windows Runtime]","IExeServerRegistration interface","winrt.iexeserverregistration_identitytype"]
 old-location: winrt\iexeserverregistration_identitytype.htm
 tech.root: WinRT
 ms.assetid: DF0A20D8-5028-4A7B-B8E6-CAF5C3716407

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Effect.GetInput
 title: ID2D1Effect::GetInput (d2d1_1.h)
-description: Gets the given input image by index.
+description: Gets the given input image by index.helpviewer_keywords: ["GetInput","GetInput method [Direct2D]","GetInput method [Direct2D]","ID2D1Effect interface","ID2D1Effect interface [Direct2D]","GetInput method","ID2D1Effect.GetInput","ID2D1Effect::GetInput","d2d1_1/ID2D1Effect::GetInput","direct2d.id2d1effect_getinput"]
 old-location: direct2d\id2d1effect_getinput.htm
 tech.root: Direct2D
 ms.assetid: fca22cc2-2299-4f74-8dc9-d931b899d4fb

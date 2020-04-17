@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.SetClusterGroupName
 title: SetClusterGroupName function (clusapi.h)
-description: Sets the name for a group.
+description: Sets the name for a group.helpviewer_keywords: ["PCLUSAPI_SET_CLUSTER_GROUP_NAME","PCLUSAPI_SET_CLUSTER_GROUP_NAME function [Failover Cluster]","SetClusterGroupName","SetClusterGroupName function [Failover Cluster]","_wolf_setclustergroupname","clusapi/PCLUSAPI_SET_CLUSTER_GROUP_NAME","clusapi/SetClusterGroupName","mscs.setclustergroupname"]
 old-location: mscs\setclustergroupname.htm
 tech.root: MsCS
 ms.assetid: d2dc3837-24d3-4455-8e3e-bb74b95b1d44

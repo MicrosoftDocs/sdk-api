@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.RectF.GetTop
 title: RectF::GetTop (gdiplustypes.h)
-description: The RectF::GetTop method gets the y-coordinate of the top edge of the rectangle.
+description: The RectF::GetTop method gets the y-coordinate of the top edge of the rectangle.helpviewer_keywords: ["GetTop","GetTop method [GDI+]","GetTop method [GDI+]","RectF class","RectF class [GDI+]","GetTop method","RectF.GetTop","RectF::GetTop","_gdiplus_CLASS_RectF_GetTop_","gdiplus._gdiplus_CLASS_RectF_GetTop_"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetTop_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\gettop_7.htm

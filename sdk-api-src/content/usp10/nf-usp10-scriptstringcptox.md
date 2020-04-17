@@ -1,7 +1,7 @@
 ---
 UID: NF:usp10.ScriptStringCPtoX
 title: ScriptStringCPtoX function (usp10.h)
-description: Retrieves the x coordinate for the leading or trailing edge of a character position.
+description: Retrieves the x coordinate for the leading or trailing edge of a character position.helpviewer_keywords: ["ScriptStringCPtoX","ScriptStringCPtoX function [Internationalization for Windows Applications]","_win32_ScriptStringCPtoX","intl.scriptstringcptox","usp10/ScriptStringCPtoX"]
 old-location: intl\scriptstringcptox.htm
 tech.root: Intl
 ms.assetid: 0cc16a26-0559-4e2a-a7ec-99a2a6ca2bcb

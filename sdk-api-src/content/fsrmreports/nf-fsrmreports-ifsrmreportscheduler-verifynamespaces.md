@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.VerifyNamespaces
 title: IFsrmReportScheduler::VerifyNamespaces (fsrmreports.h)
-description: Verifies that the specified local directory paths that are used as the source for the reports are valid.
+description: Verifies that the specified local directory paths that are used as the source for the reports are valid.helpviewer_keywords: ["FsrmReportScheduler class [File Server Resource Manager]","VerifyNamespaces method","IFsrmReportScheduler interface [File Server Resource Manager]","VerifyNamespaces method","IFsrmReportScheduler.VerifyNamespaces","IFsrmReportScheduler::VerifyNamespaces","VerifyNamespaces","VerifyNamespaces method [File Server Resource Manager]","VerifyNamespaces method [File Server Resource Manager]","FsrmReportScheduler class","VerifyNamespaces method [File Server Resource Manager]","IFsrmReportScheduler interface","fs.ifsrmreportscheduler_verifynamespaces","fsrm.ifsrmreportscheduler_verifynamespaces","fsrmreports/IFsrmReportScheduler::VerifyNamespaces"]
 old-location: fsrm\ifsrmreportscheduler_verifynamespaces.htm
 tech.root: fsrm
 ms.assetid: bb5139c8-e01f-48cf-a8a9-d3a3e5b86238

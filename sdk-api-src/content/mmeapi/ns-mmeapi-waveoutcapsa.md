@@ -1,7 +1,7 @@
 ---
 UID: NS:mmeapi.tagWAVEOUTCAPSA
 title: WAVEOUTCAPSA (mmeapi.h)
-description: The WAVEOUTCAPS structure describes the capabilities of a waveform-audio output device.
+description: The WAVEOUTCAPS structure describes the capabilities of a waveform-audio output device.helpviewer_keywords: ["*LPWAVEOUTCAPSA","*NPWAVEOUTCAPSA","*PWAVEOUTCAPSA","WAVEOUTCAPS","WAVEOUTCAPS structure [Windows Multimedia]","WAVEOUTCAPSA","_win32_WAVEOUTCAPS_str","mmeapi/WAVEOUTCAPS","multimedia.waveoutcaps","tagWAVEOUTCAPSA","tagWAVEOUTCAPSW","waveoutcaps_tag"]
 old-location: multimedia\waveoutcaps.htm
 tech.root: Multimedia
 ms.assetid: 756f47fa-c0d1-4729-a0f6-096a1212d0a2

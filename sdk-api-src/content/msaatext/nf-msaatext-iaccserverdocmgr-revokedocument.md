@@ -1,7 +1,7 @@
 ---
 UID: NF:msaatext.IAccServerDocMgr.RevokeDocument
 title: IAccServerDocMgr::RevokeDocument (msaatext.h)
-description: Server applications call the IAccServerDocMgr::RevokeDocument method to notify the Microsoft Active Accessibility run time that a document is no longer available. Calling RevokeDocument removes it from the store so that clients cannot see the document.
+description: Server applications call the IAccServerDocMgr::RevokeDocument method to notify the Microsoft Active Accessibility run time that a document is no longer available. Calling RevokeDocument removes it from the store so that clients cannot see the document.helpviewer_keywords: ["IAccServerDocMgr interface [Windows Accessibility]","RevokeDocument method","IAccServerDocMgr.RevokeDocument","IAccServerDocMgr::RevokeDocument","RevokeDocument","RevokeDocument method [Windows Accessibility]","RevokeDocument method [Windows Accessibility]","IAccServerDocMgr interface","_msaa_IAccServerDocMgr_RevokeDocument","msaa.iaccserverdocmgr_iaccserverdocmgr__revokedocument","msaatext/IAccServerDocMgr::RevokeDocument","winauto.iaccserverdocmgr_iaccserverdocmgr__revokedocument"]
 old-location: winauto\iaccserverdocmgr_iaccserverdocmgr__revokedocument.htm
 tech.root: WinAuto
 ms.assetid: 8691a641-fc06-451c-9988-234e01dc02df

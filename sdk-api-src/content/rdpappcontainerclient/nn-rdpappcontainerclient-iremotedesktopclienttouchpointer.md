@@ -1,7 +1,7 @@
 ---
 UID: NN:rdpappcontainerclient.IRemoteDesktopClientTouchPointer
 title: IRemoteDesktopClientTouchPointer (rdpappcontainerclient.h)
-description: Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.
+description: Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.helpviewer_keywords: ["IRemoteDesktopClientTouchPointer","IRemoteDesktopClientTouchPointer interface [Remote Desktop Services]","IRemoteDesktopClientTouchPointer interface [Remote Desktop Services]","described","rdpappcontainerclient/IRemoteDesktopClientTouchPointer","termserv.iremotedesktopclienttouchpointer"]
 old-location: termserv\iremotedesktopclienttouchpointer.htm
 tech.root: TermServ
 ms.assetid: 98c47e41-ecda-45cb-94e9-de51edc7af08

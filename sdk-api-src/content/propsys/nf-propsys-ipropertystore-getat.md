@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertyStore.GetAt
 title: IPropertyStore::GetAt (propsys.h)
-description: Gets a property key from the property array of an item.
+description: Gets a property key from the property array of an item.helpviewer_keywords: ["GetAt","GetAt (IPropertyStore)","GetAt method [Audio Devices]","GetAt method [Audio Devices]","IPropertyStore interface","IPropertyStore interface [Audio Devices]","GetAt method","IPropertyStore.GetAt","IPropertyStore::GetAt","audio.ipropertystore_getat","audio_syseffects_r_3a52a0be-2e51-468f-9a93-86bd242b422e.xml","propsys/IPropertyStore::GetAt"]
 old-location: audio\ipropertystore_getat.htm
 tech.root: audio
 ms.assetid: 4f93949a-d5d5-4fbf-8538-6171861e5884

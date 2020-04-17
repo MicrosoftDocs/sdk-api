@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IClientSecurity.SetBlanket
 title: IClientSecurity::SetBlanket (objidlbase.h)
-description: Sets the authentication information (the security blanket) that will be used to make calls on the specified proxy.
+description: Sets the authentication information (the security blanket) that will be used to make calls on the specified proxy.helpviewer_keywords: ["IClientSecurity interface [COM]","SetBlanket method","IClientSecurity.SetBlanket","IClientSecurity::SetBlanket","SetBlanket","SetBlanket method [COM]","SetBlanket method [COM]","IClientSecurity interface","_com_iclientsecurity_setblanket","com.iclientsecurity_setblanket","objidlbase/IClientSecurity::SetBlanket"]
 old-location: com\iclientsecurity_setblanket.htm
 tech.root: com
 ms.assetid: adb35089-2846-4782-8c96-d3d1e14beed9

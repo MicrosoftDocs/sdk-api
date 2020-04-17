@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICatalogCollection.GetCollection
 title: ICatalogCollection::GetCollection (comadmin.h)
-description: Retrieves a collection from the COM+ catalog that is related to the current collection.
+description: Retrieves a collection from the COM+ catalog that is related to the current collection.helpviewer_keywords: ["GetCollection","GetCollection method [COM+]","GetCollection method [COM+]","ICatalogCollection interface","ICatalogCollection interface [COM+]","GetCollection method","ICatalogCollection.GetCollection","ICatalogCollection::GetCollection","_cos_ICatalogCollection_GetCollection","comadmin/ICatalogCollection::GetCollection","cos.icatalogcollection_getcollection"]
 old-location: cos\icatalogcollection_getcollection.htm
 tech.root: cossdk
 ms.assetid: 4198f456-97fa-45b2-aa79-29ac506a8618

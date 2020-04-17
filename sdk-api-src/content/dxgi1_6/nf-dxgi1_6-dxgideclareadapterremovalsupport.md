@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_6.DXGIDeclareAdapterRemovalSupport
 title: DXGIDeclareAdapterRemovalSupport function (dxgi1_6.h)
-description: Allows a process to indicate that it's resilient to any of its graphics devices being removed.
+description: Allows a process to indicate that it's resilient to any of its graphics devices being removed.helpviewer_keywords: ["DXGIDeclareAdapterRemovalSupport","DXGIDeclareAdapterRemovalSupport function [DXGI]","direct3ddxgi.dxgideclareadapterremovalsupport","dxgi1_6/DXGIDeclareAdapterRemovalSupport"]
 old-location: direct3ddxgi\dxgideclareadapterremovalsupport.htm
 tech.root: direct3ddxgi
 ms.assetid: 602EA66C-6D3D-4604-822C-DBD66EB70C3C

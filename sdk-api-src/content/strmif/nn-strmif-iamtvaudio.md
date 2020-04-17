@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IAMTVAudio
 title: IAMTVAudio (strmif.h)
-description: The IAMTVAudio interface controls audio from a television source. The TV Audio filter implements this interface. Applications can use it to control television audio settings, including secondary audio program (SAP) and stereo or mono selection.
+description: The IAMTVAudio interface controls audio from a television source. The TV Audio filter implements this interface. Applications can use it to control television audio settings, including secondary audio program (SAP) and stereo or mono selection.helpviewer_keywords: ["IAMTVAudio","IAMTVAudio interface [DirectShow]","IAMTVAudio interface [DirectShow]","described","IAMTVAudioInterface","dshow.iamtvaudio","strmif/IAMTVAudio"]
 old-location: dshow\iamtvaudio.htm
 tech.root: DirectShow
 ms.assetid: de340594-4410-4896-b206-0f47d4035bc1

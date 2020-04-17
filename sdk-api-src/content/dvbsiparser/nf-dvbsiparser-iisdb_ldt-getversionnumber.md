@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetVersionNumber
 title: IISDB_LDT::GetVersionNumber (dvbsiparser.h)
-description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
+description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","IISDB_LDT interface","IISDB_LDT interface [Microsoft TV Technologies]","GetVersionNumber method","IISDB_LDT.GetVersionNumber","IISDB_LDT::GetVersionNumber","dvbsiparser/IISDB_LDT::GetVersionNumber","mstv.iisdb_ldt_getversionnumber"]
 old-location: mstv\iisdb_ldt_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 7567ca34-2898-4066-a81c-348e3ac5c066

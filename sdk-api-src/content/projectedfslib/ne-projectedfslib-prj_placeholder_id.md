@@ -1,7 +1,7 @@
 ---
 UID: NE:projectedfslib.PRJ_PLACEHOLDER_ID
 title: PRJ_PLACEHOLDER_ID (projectedfslib.h)
-description: Defines the length of a placeholder identifier.
+description: Defines the length of a placeholder identifier.helpviewer_keywords: ["PRJ_PLACEHOLDER_ID","PRJ_PLACEHOLDER_ID enumeration","PRJ_PLACEHOLDER_ID_LENGTH","ProjFS.prj_placeholder_id","projectedfslib/PRJ_PLACEHOLDER_ID","projectedfslib/PRJ_PLACEHOLDER_ID_LENGTH"]
 old-location: projfs\prj_placeholder_id.htm
 tech.root: ProjFS
 ms.assetid: 6E8574B4-C83D-4B0C-9B80-5ACD0BC45C1C

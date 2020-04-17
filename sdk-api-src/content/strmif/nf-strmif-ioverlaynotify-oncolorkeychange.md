@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnColorKeyChange
 title: IOverlayNotify::OnColorKeyChange (strmif.h)
-description: The OnColorKeyChange method provides notification that the window's color key has changed.
+description: The OnColorKeyChange method provides notification that the window's color key has changed.helpviewer_keywords: ["IOverlayNotify interface [DirectShow]","OnColorKeyChange method","IOverlayNotify.OnColorKeyChange","IOverlayNotify::OnColorKeyChange","IOverlayNotifyOnColorKeyChange","OnColorKeyChange","OnColorKeyChange method [DirectShow]","OnColorKeyChange method [DirectShow]","IOverlayNotify interface","dshow.ioverlaynotify_oncolorkeychange","strmif/IOverlayNotify::OnColorKeyChange"]
 old-location: dshow\ioverlaynotify_oncolorkeychange.htm
 tech.root: DirectShow
 ms.assetid: a1e7fc88-a50a-4832-9b29-21b94184f1c7

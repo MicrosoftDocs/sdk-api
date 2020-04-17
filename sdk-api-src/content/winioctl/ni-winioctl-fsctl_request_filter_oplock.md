@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_REQUEST_FILTER_OPLOCK
 title: FSCTL_REQUEST_FILTER_OPLOCK
-description: Requests a filter opportunistic lock on a file.
+description: Requests a filter opportunistic lock on a file.helpviewer_keywords: ["FSCTL_REQUEST_FILTER_OPLOCK","FSCTL_REQUEST_FILTER_OPLOCK control","FSCTL_REQUEST_FILTER_OPLOCK control code [Files]","_win32_fsctl_request_filter_oplock","base.fsctl_request_filter_oplock","fs.fsctl_request_filter_oplock","winioctl/FSCTL_REQUEST_FILTER_OPLOCK"]
 old-location: fs\fsctl_request_filter_oplock.htm
 tech.root: FileIO
 ms.assetid: 112c5d30-2cfa-4a63-87f8-8d2e80ea33b0

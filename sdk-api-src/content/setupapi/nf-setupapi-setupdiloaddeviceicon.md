@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiLoadDeviceIcon
 title: SetupDiLoadDeviceIcon function (setupapi.h)
-description: The SetupDiLoadDeviceIcon function retrieves an icon for a specified device.
+description: The SetupDiLoadDeviceIcon function retrieves an icon for a specified device.helpviewer_keywords: ["SetupDiLoadDeviceIcon","SetupDiLoadDeviceIcon function [Device and Driver Installation]","devinst.setupdiloaddeviceicon","di-rtns_bcd13849-30ed-4c7e-923d-1524552d78aa.xml","setupapi/SetupDiLoadDeviceIcon"]
 old-location: devinst\setupdiloaddeviceicon.htm
 tech.root: devinst
 ms.assetid: 65a47cea-1c70-46ed-9cf5-601387dbe323
