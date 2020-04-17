@@ -1,7 +1,8 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_ATTRIBUTES
 title: KEYBOARD_ATTRIBUTES (ntddkbd.h)
-description: KEYBOARD_ATTRIBUTES specifies the attributes of a keyboard.helpviewer_keywords: ["*PKEYBOARD_ATTRIBUTES","KEYBOARD_ATTRIBUTES","KEYBOARD_ATTRIBUTES structure [Human Input Devices]","PKEYBOARD_ATTRIBUTES","PKEYBOARD_ATTRIBUTES structure pointer [Human Input Devices]","hid.keyboard_attributes","kref_430bedf0-40bc-4d93-b382-3fe4c69fcbb5.xml","ntddkbd/KEYBOARD_ATTRIBUTES","ntddkbd/PKEYBOARD_ATTRIBUTES"]
+description: KEYBOARD_ATTRIBUTES specifies the attributes of a keyboard.
+helpviewer_keywords: ["*PKEYBOARD_ATTRIBUTES","KEYBOARD_ATTRIBUTES","KEYBOARD_ATTRIBUTES structure [Human Input Devices]","PKEYBOARD_ATTRIBUTES","PKEYBOARD_ATTRIBUTES structure pointer [Human Input Devices]","hid.keyboard_attributes","kref_430bedf0-40bc-4d93-b382-3fe4c69fcbb5.xml","ntddkbd/KEYBOARD_ATTRIBUTES","ntddkbd/PKEYBOARD_ATTRIBUTES"]
 old-location: hid\keyboard_attributes.htm
 tech.root: hid
 ms.assetid: 060e93de-b84e-4755-a5f8-cbc52d900310
@@ -130,42 +131,22 @@ Specifies the maximum possible value for the keyboard typematic rate and delay i
 
 This structure is used with a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_attributes">IOCTL_KEYBOARD_QUERY_ATTRIBUTES</a> request to return information about the attributes that a keyboard supports.
 
-For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in i8042prt.h, kbd.h, and the <a href="https://code.msdn.microsoft.com/windowshardware/Keyboard-Layout-Sample-b142d9e3">layout</a> files in the MSDN Code Gallery. See also the Microsoft specification <i>Keyboard Scan Code Specification</i> available at the <a href="https://go.microsoft.com/fwlink/p/?linkid=242210">key support and scan codes</a> website.
+For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in [i8042prt.h](/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers), [ntddkbd.h](/windows/win32/api/ntddkbd/), and the [Keyboard Layout Samples](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Driver%20Kit%20Sample/Windows%20Driver%20Kit%20(WDK)%208.1%20Samples/%5BC%2B%2B%5D-windows-driver-kit-81-cpp/WDK%208.1%20C%2B%2B%20Samples/Keyboard%20Layout%20Samples). 
 
-
-
+Also the [USB HID to PS/2 Scan Code Translation Table](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf) specification from Microsoft.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_attributes">IOCTL_KEYBOARD_QUERY_ATTRIBUTES</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicators">IOCTL_KEYBOARD_QUERY_INDICATORS</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicator_translation">IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_typematic">IOCTL_KEYBOARD_QUERY_TYPEMATIC</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_set_indicators">IOCTL_KEYBOARD_SET_INDICATORS</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_set_typematic">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a>
- 
-
- 
-
