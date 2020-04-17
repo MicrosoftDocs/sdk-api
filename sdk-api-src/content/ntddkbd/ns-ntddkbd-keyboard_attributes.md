@@ -133,7 +133,7 @@ This structure is used with a <a href="https://docs.microsoft.com/windows/deskto
 
 For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in [i8042prt.h](/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers), [ntddkbd.h](/windows/win32/api/ntddkbd/), and the [Keyboard Layout Samples](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Driver%20Kit%20Sample/Windows%20Driver%20Kit%20(WDK)%208.1%20Samples/%5BC%2B%2B%5D-windows-driver-kit-81-cpp/WDK%208.1%20C%2B%2B%20Samples/Keyboard%20Layout%20Samples). 
 
-Also the [USB HID to PS/2 Scan Code Translation Table](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf) specification from Microsoft.
+Also see the [USB HID to PS/2 Scan Code Translation Table](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf) specification from Microsoft.
 
 ## -see-also
 
