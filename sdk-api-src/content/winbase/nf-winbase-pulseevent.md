@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.PulseEvent
 title: PulseEvent function (winbase.h)
-description: Sets the specified event object to the signaled state and then resets it to the nonsignaled state after releasing the appropriate number of waiting threads.helpviewer_keywords: ["PulseEvent","PulseEvent function","_win32_pulseevent","base.pulseevent","winbase/PulseEvent"]
+description: Sets the specified event object to the signaled state and then resets it to the nonsignaled state after releasing the appropriate number of waiting threads.
+helpviewer_keywords: ["PulseEvent","PulseEvent function","_win32_pulseevent","base.pulseevent","winbase/PulseEvent"]
 old-location: base\pulseevent.htm
 tech.root: Sync
 ms.assetid: b3cfe15a-1a0e-4c29-8840-032e56404400
@@ -111,7 +112,7 @@ Note that for a thread using the multiple-object
 <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a> to wait for all specified objects to be signaled, 
 <b>PulseEvent</b> can set the event object's state to signaled and reset it to nonsignaled without causing the wait function to return. This happens if not all of the specified objects are simultaneously signaled.
 
-Use extreme caution when using  [SignalObjectAndWait](/win32/api/synchapi/nf-synchapi-signalobjectandwait)a>  and <b>PulseEvent</b> with Windows 7, since using these APIs among multiple threads can cause an application to deadlock. Threads that are signaled by <b>SignalObjectAndWait</b>  call <b>PulseEvent</b> to signal the waiting object of the <b>SignalObjectAndWait</b> call. In some circumstances, the caller of <b>SignalObjectAndWait</b> can't receive signal state of the waiting object in time, causing a deadlock.
+Use extreme caution when using  [SignalObjectAndWait](/win32/api/synchapi/nf-synchapi-signalobjectandwait)  and <b>PulseEvent</b> with Windows 7, since using these APIs among multiple threads can cause an application to deadlock. Threads that are signaled by <b>SignalObjectAndWait</b>  call <b>PulseEvent</b> to signal the waiting object of the <b>SignalObjectAndWait</b> call. In some circumstances, the caller of <b>SignalObjectAndWait</b> can't receive signal state of the waiting object in time, causing a deadlock.
 
 
 
