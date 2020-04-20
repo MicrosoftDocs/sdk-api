@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntry.get_DeviceStatus
 title: IWindowsDriverUpdateEntry::get_DeviceStatus (wuapi.h)
-description: Gets the status of the matching device for the Windows driver update.
+description: Gets the status of the matching device for the Windows driver update.helpviewer_keywords: ["DeviceStatus property [Windows Update Agent]","DeviceStatus property [Windows Update Agent]","IWindowsDriverUpdateEntry interface","IWindowsDriverUpdateEntry interface [Windows Update Agent]","DeviceStatus property","IWindowsDriverUpdateEntry.DeviceStatus","IWindowsDriverUpdateEntry.get_DeviceStatus","IWindowsDriverUpdateEntry::DeviceStatus","IWindowsDriverUpdateEntry::get_DeviceStatus","get_DeviceStatus","wua.iwindowsdriverupdateentry_devicestatus","wuapi/IWindowsDriverUpdateEntry::DeviceStatus","wuapi/IWindowsDriverUpdateEntry::get_DeviceStatus"]
 old-location: wua\iwindowsdriverupdateentry_devicestatus.htm
 tech.root: Wua_Sdk
 ms.assetid: 598bdaa4-01ef-4b40-b8b2-c17fe9c2c4c3

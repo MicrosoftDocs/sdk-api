@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SetErrorInfo
 title: SetErrorInfo function (oleauto.h)
-description: Sets the error information object for the current logical thread of execution.
+description: Sets the error information object for the current logical thread of execution.helpviewer_keywords: ["SetErrorInfo","SetErrorInfo function [Automation]","_oa96_SetErrorInfo","automat.seterrorinfo","oleauto/SetErrorInfo"]
 old-location: automat\seterrorinfo.htm
 tech.root: automat
 ms.assetid: 8eaacfac-fc37-4eaa-870b-10b99d598d66

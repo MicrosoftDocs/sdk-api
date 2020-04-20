@@ -1,7 +1,7 @@
 ---
 UID: NF:iaccess.IAccessControl.GrantAccessRights
 title: IAccessControl::GrantAccessRights (iaccess.h)
-description: Merges the new list of access rights with the existing access rights on the object.
+description: Merges the new list of access rights with the existing access rights on the object.helpviewer_keywords: ["GrantAccessRights","GrantAccessRights method [COM]","GrantAccessRights method [COM]","IAccessControl interface","IAccessControl interface [COM]","GrantAccessRights method","IAccessControl.GrantAccessRights","IAccessControl::GrantAccessRights","_com_iaccesscontrol_grantaccessrights","com.iaccesscontrol_grantaccessrights","iaccess/IAccessControl::GrantAccessRights"]
 old-location: com\iaccesscontrol_grantaccessrights.htm
 tech.root: com
 ms.assetid: f8ec6743-633b-4c79-afac-68eb20e07b2a

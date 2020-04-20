@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingBox.Contains(const BoundingBox &)
 title: BoundingBox::Contains(const BoundingBox &)
-description: Tests whether the BoundingBox contains another BoundingBox.
+description: Tests whether the BoundingBox contains another BoundingBox.helpviewer_keywords: ["BoundingBox interface [DirectX Math Support APIs]","Contains method","BoundingBox.Contains","BoundingBox.Contains(const BoundingBox &)","BoundingBox.Contains(const BoundingBox&)","BoundingBox::Contains","BoundingBox::Contains(const BoundingBox &)","Contains","Contains method [DirectX Math Support APIs]","Contains method [DirectX Math Support APIs]","BoundingBox interface","dxmath.boundingbox_contains_3"]
 old-location: dxmath\boundingbox_contains_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.Contains(BoundingBox)

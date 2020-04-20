@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamStereoFormat
 title: ID3D11VideoContext::VideoProcessorGetStreamStereoFormat (d3d11.h)
-description: Gets the stereo 3D format for an input stream on the video processor.
+description: Gets the stereo 3D format for an input stream on the video processor.helpviewer_keywords: ["FALSE","ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamStereoFormat method","ID3D11VideoContext.VideoProcessorGetStreamStereoFormat","ID3D11VideoContext::VideoProcessorGetStreamStereoFormat","TRUE","VideoProcessorGetStreamStereoFormat","VideoProcessorGetStreamStereoFormat method [Media Foundation]","VideoProcessorGetStreamStereoFormat method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamStereoFormat","mf.id3d11videocontext_videoprocessorgetstreamstereoformat"]
 old-location: mf\id3d11videocontext_videoprocessorgetstreamstereoformat.htm
 tech.root: medfound
 ms.assetid: FCEE6C95-C631-4268-9B06-686B8AC7D80C

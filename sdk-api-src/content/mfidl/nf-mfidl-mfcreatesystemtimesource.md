@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateSystemTimeSource
 title: MFCreateSystemTimeSource function (mfidl.h)
-description: Creates a presentation time source that is based on the system time.
+description: Creates a presentation time source that is based on the system time.helpviewer_keywords: ["MFCreateSystemTimeSource","MFCreateSystemTimeSource function [Media Foundation]","f3e7b8d5-fd6c-4d87-86f6-1117ca58bc6f","mf.mfcreatesystemtimesource","mfidl/MFCreateSystemTimeSource"]
 old-location: mf\mfcreatesystemtimesource.htm
 tech.root: medfound
 ms.assetid: f3e7b8d5-fd6c-4d87-86f6-1117ca58bc6f

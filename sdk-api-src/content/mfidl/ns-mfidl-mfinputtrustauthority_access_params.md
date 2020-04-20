@@ -1,7 +1,7 @@
 ---
 UID: NS:mfidl._MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
 title: MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS (mfidl.h)
-description: Contains parameters for the IMFInputTrustAuthority::BindAccess or IMFInputTrustAuthority::UpdateAccess method.
+description: Contains parameters for the IMFInputTrustAuthority::BindAccess or IMFInputTrustAuthority::UpdateAccess method.helpviewer_keywords: ["5ff3ec3a-a7b1-4378-8e8b-d59a6f5bb28d","MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS","MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS structure [Media Foundation]","mf.mfinputtrustauthority_access_params","mfidl/MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS"]
 old-location: mf\mfinputtrustauthority_access_params.htm
 tech.root: medfound
 ms.assetid: 5ff3ec3a-a7b1-4378-8e8b-d59a6f5bb28d

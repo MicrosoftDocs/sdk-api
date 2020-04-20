@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._TAPE_SET_DRIVE_PARAMETERS
 title: TAPE_SET_DRIVE_PARAMETERS (winnt.h)
-description: Describes the tape drive. It is used by the SetTapeParametersfunction.
+description: Describes the tape drive. It is used by the SetTapeParametersfunction.helpviewer_keywords: ["*PTAPE_SET_DRIVE_PARAMETERS","PTAPE_SET_DRIVE_PARAMETERS","PTAPE_SET_DRIVE_PARAMETERS structure pointer [Backup]","TAPE_SET_DRIVE_PARAMETERS","TAPE_SET_DRIVE_PARAMETERS structure [Backup]","_TAPE_SET_DRIVE_PARAMETERS","_win32_tape_set_drive_parameters_str","backup.tape_set_drive_parameters_str","base.tape_set_drive_parameters_str","winnt/PTAPE_SET_DRIVE_PARAMETERS","winnt/TAPE_SET_DRIVE_PARAMETERS"]
 old-location: backup\tape_set_drive_parameters_str.htm
 tech.root: Backup
 ms.assetid: 5615e83a-99c0-4214-8621-7e0561512816

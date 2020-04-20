@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIFrameBuffer.get_Width
 title: IRDPSRAPIFrameBuffer::get_Width (rdpencomapi.h)
-description: Width, in pixels, of the frame buffer.
+description: Width, in pixels, of the frame buffer.helpviewer_keywords: ["IRDPSRAPIFrameBuffer interface [RDP]","Width property","IRDPSRAPIFrameBuffer.Width","IRDPSRAPIFrameBuffer.get_Width","IRDPSRAPIFrameBuffer::Width","IRDPSRAPIFrameBuffer::get_Width","Width property [RDP]","Width property [RDP]","IRDPSRAPIFrameBuffer interface","get_Width","rdp.irdpsrapiframebuffer_width","rdpencomapi/IRDPSRAPIFrameBuffer::Width","rdpencomapi/IRDPSRAPIFrameBuffer::get_Width"]
 old-location: rdp\irdpsrapiframebuffer_width.htm
 tech.root: rdp
 ms.assetid: 7f54d18a-29cf-402a-a672-2d0dae1f8ce4

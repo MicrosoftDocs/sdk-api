@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
 title: CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
-description: Contains troubleshooting information about why a volume is in redirected mode.
+description: Contains troubleshooting information about why a volume is in redirected mode.helpviewer_keywords: ["*PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT","CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT","CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT structure [Files]","PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT","PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT structure pointer [Files]","fs.csv_query_veto_file_direct_io_output","winioctl/CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT","winioctl/PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT"]
 old-location: fs\csv_query_veto_file_direct_io_output.htm
 tech.root: FileIO
 ms.assetid: 1FEAB857-5C0E-4CD1-A72C-F8BD60AD24B4

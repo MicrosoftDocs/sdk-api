@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_UTF8_ARRAY_DESCRIPTION
 title: WS_UTF8_ARRAY_DESCRIPTION (webservices.h)
-description: This type description is used with WS_UTF8_ARRAY_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
+description: This type description is used with WS_UTF8_ARRAY_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.helpviewer_keywords: ["WS_UTF8_ARRAY_DESCRIPTION","WS_UTF8_ARRAY_DESCRIPTION structure [Web Services for Windows]","webservices/WS_UTF8_ARRAY_DESCRIPTION","wsw.ws_utf8_array_description"]
 old-location: wsw\ws_utf8_array_description.htm
 tech.root: wsw
 ms.assetid: f4aa8194-06b0-4da7-b4cc-b59c0a046711

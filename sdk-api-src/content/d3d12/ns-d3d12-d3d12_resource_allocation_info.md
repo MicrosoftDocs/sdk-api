@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_RESOURCE_ALLOCATION_INFO
 title: D3D12_RESOURCE_ALLOCATION_INFO
-description: Describes parameters needed to allocate resources.
+description: Describes parameters needed to allocate resources.helpviewer_keywords: ["D3D12_RESOURCE_ALLOCATION_INFO","D3D12_RESOURCE_ALLOCATION_INFO structure","d3d12/D3D12_RESOURCE_ALLOCATION_INFO","direct3d12.d3d12_resource_allocation_info"]
 old-location: direct3d12\d3d12_resource_allocation_info.htm
 tech.root: direct3d12
 ms.assetid: ADBF5402-C1B5-4A10-92DF-E9F5706F52A1

@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SECURITY_ALGORITHM_SUITE
 title: WS_SECURITY_ALGORITHM_SUITE (webservices.h)
-description: Defines the security algorithms and key lengths to be used with WS-Security. This setting is relevant to message security bindings and mixed-mode security bindings.
+description: Defines the security algorithms and key lengths to be used with WS-Security. This setting is relevant to message security bindings and mixed-mode security bindings.helpviewer_keywords: ["WS_SECURITY_ALGORITHM_SUITE","WS_SECURITY_ALGORITHM_SUITE structure [Web Services for Windows]","webservices/WS_SECURITY_ALGORITHM_SUITE","wsw.ws_security_algorithm_suite"]
 old-location: wsw\ws_security_algorithm_suite.htm
 tech.root: wsw
 ms.assetid: aa2bb951-47ba-4241-b29a-2f54b92da4cb

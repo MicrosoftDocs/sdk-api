@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPMediaCollection2.createQuery
 title: IWMPMediaCollection2::createQuery (wmp.h)
-description: The createQuery method retrieves a pointer to an IWMPQuery interface that represents a new query.
+description: The createQuery method retrieves a pointer to an IWMPQuery interface that represents a new query.helpviewer_keywords: ["IWMPMediaCollection2 interface [Windows Media Player]","createQuery method","IWMPMediaCollection2.createQuery","IWMPMediaCollection2::createQuery","IWMPMediaCollection2createQuery","createQuery","createQuery method [Windows Media Player]","createQuery method [Windows Media Player]","IWMPMediaCollection2 interface","wmp.iwmpmediacollection2_createquery","wmp/IWMPMediaCollection2::createQuery"]
 old-location: wmp\iwmpmediacollection2_createquery.htm
 tech.root: WMP
 ms.assetid: b1e6bf08-3b81-4c04-92ff-73eac5f7495a

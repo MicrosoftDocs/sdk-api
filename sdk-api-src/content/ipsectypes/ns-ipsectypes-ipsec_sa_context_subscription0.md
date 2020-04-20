@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT_SUBSCRIPTION0_
 title: IPSEC_SA_CONTEXT_SUBSCRIPTION0 (ipsectypes.h)
-description: Stores information used to subscribe to notifications about a particular IPsec security association (SA) context.
+description: Stores information used to subscribe to notifications about a particular IPsec security association (SA) context.helpviewer_keywords: ["IPSEC_SA_CONTEXT_SUBSCRIPTION0","IPSEC_SA_CONTEXT_SUBSCRIPTION0 structure [Filtering]","fwp.ipsec_sa_context_subscription0","ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0"]
 old-location: fwp\ipsec_sa_context_subscription0.htm
 tech.root: fwp
 ms.assetid: d729f4e2-621a-4a39-beed-e339b76f53fc

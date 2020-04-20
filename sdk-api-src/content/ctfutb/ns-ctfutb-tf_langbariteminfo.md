@@ -1,7 +1,7 @@
 ---
 UID: NS:ctfutb.TF_LANGBARITEMINFO
 title: TF_LANGBARITEMINFO (ctfutb.h)
-description: The TF_LANGBARITEMINFO structure is used to hold information about a language bar item.
+description: The TF_LANGBARITEMINFO structure is used to hold information about a language bar item.helpviewer_keywords: ["TF_LANGBARITEMINFO","TF_LANGBARITEMINFO structure [Text Services Framework]","_tsf_tf_langbariteminfo_ref","ctfutb/TF_LANGBARITEMINFO","tsf.tf_langbariteminfo"]
 old-location: tsf\tf_langbariteminfo.htm
 tech.root: TSF
 ms.assetid: 4a826a2c-4cae-4cbf-8a25-38337dcd498d

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMLoadU555
 title: XMLoadU555 function (directxpackedvector.h)
-description: Loads an XMU555 into an XMVECTOR.
+description: Loads an XMU555 into an XMVECTOR.helpviewer_keywords: ["DirectX::PackedVector.XMLoadU555","XMLoadU555","XMLoadU555 method [DirectX Math Support APIs]","dxmath.xmloadu555"]
 old-location: dxmath\xmloadu555.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadU555(const XMU555)

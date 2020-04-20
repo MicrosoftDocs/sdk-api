@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.get_Polarity
 title: IBDA_FrequencyFilter::get_Polarity (bdaiface.h)
-description: The get_Polarity method retrieves the polarity.
+description: The get_Polarity method retrieves the polarity.helpviewer_keywords: ["IBDA_FrequencyFilter interface [Microsoft TV Technologies]","get_Polarity method","IBDA_FrequencyFilter.get_Polarity","IBDA_FrequencyFilter::get_Polarity","IBDA_FrequencyFilterget_Polarity","bdaiface/IBDA_FrequencyFilter::get_Polarity","get_Polarity","get_Polarity method [Microsoft TV Technologies]","get_Polarity method [Microsoft TV Technologies]","IBDA_FrequencyFilter interface","mstv.ibda_frequencyfilter_get_polarity"]
 old-location: mstv\ibda_frequencyfilter_get_polarity.htm
 tech.root: mstv
 ms.assetid: c1f787f6-5d52-44a0-90d7-c905b7e8b8b1

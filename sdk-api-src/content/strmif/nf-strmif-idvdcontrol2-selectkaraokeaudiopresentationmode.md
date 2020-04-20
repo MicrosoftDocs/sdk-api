@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectKaraokeAudioPresentationMode
 title: IDvdControl2::SelectKaraokeAudioPresentationMode (strmif.h)
-description: The SelectKaraokeAudioPresentationMode method sends karaoke auxiliary channels to the left or right speakers.
+description: The SelectKaraokeAudioPresentationMode method sends karaoke auxiliary channels to the left or right speakers.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectKaraokeAudioPresentationMode method","IDvdControl2.SelectKaraokeAudioPresentationMode","IDvdControl2::SelectKaraokeAudioPresentationMode","IDvdControl2SelectKaraokeAudioPresentationMode","SelectKaraokeAudioPresentationMode","SelectKaraokeAudioPresentationMode method [DirectShow]","SelectKaraokeAudioPresentationMode method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectkaraokeaudiopresentationmode","strmif/IDvdControl2::SelectKaraokeAudioPresentationMode"]
 old-location: dshow\idvdcontrol2_selectkaraokeaudiopresentationmode.htm
 tech.root: DirectShow
 ms.assetid: 9101fd83-1349-4cdd-b5e9-6daeb7d1e3d8

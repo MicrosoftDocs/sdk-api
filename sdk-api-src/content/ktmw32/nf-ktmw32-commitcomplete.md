@@ -1,7 +1,7 @@
 ---
 UID: NF:ktmw32.CommitComplete
 title: CommitComplete function (ktmw32.h)
-description: Indicates that a resource manager (RM) has finished committing a transaction that was requested by the transaction manager (TM).
+description: Indicates that a resource manager (RM) has finished committing a transaction that was requested by the transaction manager (TM).helpviewer_keywords: ["CommitComplete","CommitComplete function [Files]","fs.commitcomplete","ktmw32/CommitComplete"]
 old-location: fs\commitcomplete.htm
 tech.root: ktm
 ms.assetid: de3e3a26-3e56-4732-8e7c-945b45593aed

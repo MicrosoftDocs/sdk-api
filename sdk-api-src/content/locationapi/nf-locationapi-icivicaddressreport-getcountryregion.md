@@ -1,7 +1,7 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetCountryRegion
 title: ICivicAddressReport::GetCountryRegion (locationapi.h)
-description: Retrieves the two-letter country or region code.
+description: Retrieves the two-letter country or region code.helpviewer_keywords: ["GetCountryRegion","GetCountryRegion method [WinLocation]","GetCountryRegion method [WinLocation]","ICivicAddressReport interface","ICivicAddressReport interface [WinLocation]","GetCountryRegion method","ICivicAddressReport.GetCountryRegion","ICivicAddressReport::GetCountryRegion","WinLocation_COM_Ref.icivicaddressreport_getcountryregion","locationapi/ICivicAddressReport::GetCountryRegion","winlocation.icivicaddressreport_getcountry"]
 old-location: winlocation_com_ref\icivicaddressreport_getcountryregion.htm
 tech.root: locationapi
 ms.assetid: 1bcf7939-e047-412f-874d-18bb5e93e5ec

@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.ISnapinAbout.GetProvider
 title: ISnapinAbout::GetProvider (mmc.h)
-description: The ISnapinAbout::GetProvider method enables the console to obtain the snap-in provider name.
+description: The ISnapinAbout::GetProvider method enables the console to obtain the snap-in provider name.helpviewer_keywords: ["GetProvider","GetProvider method [MMC]","GetProvider method [MMC]","ISnapinAbout interface","ISnapinAbout interface [MMC]","GetProvider method","ISnapinAbout.GetProvider","ISnapinAbout::GetProvider","_slate_isnapinabout_getprovider","mmc.isnapinabout_getprovider","mmc/ISnapinAbout::GetProvider"]
 old-location: mmc\isnapinabout_getprovider.htm
 tech.root: mmc
 ms.assetid: a1e0d99c-3485-4a24-aff0-7391ec5f8f6b

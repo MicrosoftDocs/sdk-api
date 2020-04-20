@@ -1,7 +1,7 @@
 ---
 UID: NE:eaphostpeertypes.tagEapHostPeerAuthParams
 title: EapHostPeerAuthParams (eaphostpeertypes.h)
-description: Defines the set of possible authentication parameter values.
+description: Defines the set of possible authentication parameter values.helpviewer_keywords: ["EapHostNapInfo","EapHostPeerAuthParams","EapHostPeerAuthParams enumeration [EAPHost]","EapHostPeerAuthStatus","EapHostPeerIdentity","EapHostPeerIdentityExtendedInfo","eaphost.eaphostpeerauthparams","eaphostpeertypes/EapHostNapInfo","eaphostpeertypes/EapHostPeerAuthParams","eaphostpeertypes/EapHostPeerAuthStatus","eaphostpeertypes/EapHostPeerIdentity","eaphostpeertypes/EapHostPeerIdentityExtendedInfo"]
 old-location: eaphost\eaphostpeerauthparams.htm
 tech.root: eaphost
 ms.assetid: adbb08d7-36a0-4e10-b0bc-2fb7030c2fcc

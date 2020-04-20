@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetWorkEstimateForBatch
 title: ISyncChangeBatchBase::GetWorkEstimateForBatch (winsync.h)
-description: Gets the work estimate for the batch.
+description: Gets the work estimate for the batch.helpviewer_keywords: ["GetWorkEstimateForBatch","GetWorkEstimateForBatch method [Windows Sync]","GetWorkEstimateForBatch method [Windows Sync]","ISyncChangeBatchBase interface","ISyncChangeBatchBase interface [Windows Sync]","GetWorkEstimateForBatch method","ISyncChangeBatchBase.GetWorkEstimateForBatch","ISyncChangeBatchBase::GetWorkEstimateForBatch","winsync.isyncchangebatchbase_getworkestimateforbatch","winsync/ISyncChangeBatchBase::GetWorkEstimateForBatch"]
 old-location: winsync\isyncchangebatchbase_getworkestimateforbatch.htm
 tech.root: winsync
 ms.assetid: 4abf4027-814a-461d-b179-b2510abccc5e

@@ -1,7 +1,7 @@
 ---
 UID: NF:bdatif.IEnumTuneRequests.Clone
 title: IEnumTuneRequests::Clone (bdatif.h)
-description: The Clone method creates a copy of the collection.
+description: The Clone method creates a copy of the collection.helpviewer_keywords: ["Clone","Clone method [Microsoft TV Technologies]","Clone method [Microsoft TV Technologies]","IEnumTuneRequests interface","IEnumTuneRequests interface [Microsoft TV Technologies]","Clone method","IEnumTuneRequests.Clone","IEnumTuneRequests::Clone","IEnumTuneRequestsClone","bdatif/IEnumTuneRequests::Clone","mstv.ienumtunerequests_clone"]
 old-location: mstv\ienumtunerequests_clone.htm
 tech.root: mstv
 ms.assetid: 9910d646-c98e-479a-8abd-5d5427ef11b5

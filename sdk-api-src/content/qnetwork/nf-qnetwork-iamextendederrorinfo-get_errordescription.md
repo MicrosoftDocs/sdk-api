@@ -1,7 +1,7 @@
 ---
 UID: NF:qnetwork.IAMExtendedErrorInfo.get_ErrorDescription
 title: IAMExtendedErrorInfo::get_ErrorDescription (qnetwork.h)
-description: The get_ErrorDescription method retrieves the extended error description.
+description: The get_ErrorDescription method retrieves the extended error description.helpviewer_keywords: ["IAMExtendedErrorInfo interface [DirectShow]","get_ErrorDescription method","IAMExtendedErrorInfo.get_ErrorDescription","IAMExtendedErrorInfo::get_ErrorDescription","IAMExtendedErrorInfoget_ErrorDescription","dshow.iamextendederrorinfo_get_errordescription","get_ErrorDescription","get_ErrorDescription method [DirectShow]","get_ErrorDescription method [DirectShow]","IAMExtendedErrorInfo interface","qnetwork/IAMExtendedErrorInfo::get_ErrorDescription"]
 old-location: dshow\iamextendederrorinfo_get_errordescription.htm
 tech.root: DirectShow
 ms.assetid: d417855e-7df6-4978-b971-a91b79c5fa2c

@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetResources
 title: IAppxManifestReader::GetResources (appxpackaging.h)
-description: Gets an enumerator that iterates through the resources defined in the manifest.
+description: Gets an enumerator that iterates through the resources defined in the manifest.helpviewer_keywords: ["GetResources","GetResources method [App packaging and management]","GetResources method [App packaging and management]","IAppxManifestReader interface","IAppxManifestReader interface [App packaging and management]","GetResources method","IAppxManifestReader.GetResources","IAppxManifestReader::GetResources","appxpackaging/IAppxManifestReader::GetResources","appxpkg.iappxmanifestreader_getresources"]
 old-location: appxpkg\iappxmanifestreader_getresources.htm
 tech.root: appxpkg
 ms.assetid: 2F0109C2-99F5-4AEE-9596-153764FA8FA3

@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SspiGetCredUIContext
 title: SspiGetCredUIContext function (sspi.h)
-description: Retrieves context information from a credential provider.
+description: Retrieves context information from a credential provider.helpviewer_keywords: ["SEC_WINNT_AUTH_DATA_TYPE_CERT","SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA","SEC_WINNT_AUTH_DATA_TYPE_PASSWORD","SspiGetCredUIContext","SspiGetCredUIContext function [Security]","security.sspigetcreduicontext","sspi/SspiGetCredUIContext"]
 old-location: security\sspigetcreduicontext.htm
 tech.root: SecAuthN
 ms.assetid: 9da39bc4-ece8-493f-b9fd-5f8ba9ed288e

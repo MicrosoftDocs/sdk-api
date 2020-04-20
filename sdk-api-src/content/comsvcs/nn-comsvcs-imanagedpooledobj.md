@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IManagedPooledObj
 title: IManagedPooledObj (comsvcs.h)
-description: Describes how a managed object is used in the COM+ object pool.
+description: Describes how a managed object is used in the COM+ object pool.helpviewer_keywords: ["IManagedPooledObj","IManagedPooledObj interface [COM+]","IManagedPooledObj interface [COM+]","described","_cos_IManagedPooledObj","comsvcs/IManagedPooledObj","cos.imanagedpooledobj"]
 old-location: cos\imanagedpooledobj.htm
 tech.root: cossdk
 ms.assetid: 04853859-5d85-4b88-9e1b-422e3454fd3f

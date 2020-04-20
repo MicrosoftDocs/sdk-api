@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_PRESERVE_ASPECT_RATIO)
 title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_PRESERVE_ASPECT_RATIO) (d2d1svg.h)
-description: Gets an attribute of this element as a preserve aspect ratio value. This method can be used to get the value of a preserveAspectRatio attribute.
+description: Gets an attribute of this element as a preserve aspect ratio value. This method can be used to get the value of a preserveAspectRatio attribute.helpviewer_keywords: ["GetAttributeValue","GetAttributeValue method [Direct2D]","GetAttributeValue method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetAttributeValue method","ID2D1SvgElement.GetAttributeValue","ID2D1SvgElement.GetAttributeValue(PCWSTR","D2D1_SVG_PRESERVE_ASPECT_RATIO)","ID2D1SvgElement::GetAttributeValue","ID2D1SvgElement::GetAttributeValue(PCWSTR","D2D1_SVG_PRESERVE_ASPECT_RATIO)","d2d1svg/ID2D1SvgElement::GetAttributeValue","direct2d.id2d1svgelement_getattributevalue_15"]
 old-location: direct2d\id2d1svgelement_getattributevalue_15.htm
 tech.root: Direct2D
 ms.assetid: F65F9346-82C5-433E-938F-35D3FC1F4907

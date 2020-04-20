@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.AbandonAllStoryboards
 title: IUIAnimationManager::AbandonAllStoryboards (uianimation.h)
-description: Abandons all active storyboards.
+description: Abandons all active storyboards.helpviewer_keywords: ["AbandonAllStoryboards","AbandonAllStoryboards method [Windows Animation]","AbandonAllStoryboards method [Windows Animation]","IUIAnimationManager interface","IUIAnimationManager interface [Windows Animation]","AbandonAllStoryboards method","IUIAnimationManager.AbandonAllStoryboards","IUIAnimationManager::AbandonAllStoryboards","uianimation.iuianimationmanager_abandonallstoryboards","uianimation/IUIAnimationManager::AbandonAllStoryboards"]
 old-location: uianimation\iuianimationmanager_abandonallstoryboards.htm
 tech.root: UIAnimation
 ms.assetid: cecb0026-ed6f-48b8-9381-d020a36e7e87

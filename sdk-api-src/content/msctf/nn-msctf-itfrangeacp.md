@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfRangeACP
 title: ITfRangeACP (msctf.h)
-description: The ITfRangeACP interface is implemented by the TSF manager and is used by an application character position (ACP)-based application to access and manipulate range objects.
+description: The ITfRangeACP interface is implemented by the TSF manager and is used by an application character position (ACP)-based application to access and manipulate range objects.helpviewer_keywords: ["ITfRangeACP","ITfRangeACP interface [Text Services Framework]","ITfRangeACP interface [Text Services Framework]","described","_tsf_itfrangeacp_ref","msctf/ITfRangeACP","tsf.itfrangeacp"]
 old-location: tsf\itfrangeacp.htm
 tech.root: TSF
 ms.assetid: aaa497ca-4cf2-401a-a6d8-cc8a75479cc4

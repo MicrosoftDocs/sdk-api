@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_4.ID3D11VideoContext3.DecoderBeginFrame1
 title: ID3D11VideoContext3::DecoderBeginFrame1
-description: Starts a decoding operation to decode a video frame.
+description: Starts a decoding operation to decode a video frame.helpviewer_keywords: ["ID3D11VideoContext3::DecoderBeginFrame1"]
 ms.date: 4/26/2019
 ms.keywords: ID3D11VideoContext3::DecoderBeginFrame1
 f1_keywords:

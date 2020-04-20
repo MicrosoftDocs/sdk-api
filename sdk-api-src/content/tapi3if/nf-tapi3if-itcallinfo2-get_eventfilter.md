@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITCallInfo2.get_EventFilter
 title: ITCallInfo2::get_EventFilter (tapi3if.h)
-description: The get_EventFilter method gets the event filter information applicable to this call.
+description: The get_EventFilter method gets the event filter information applicable to this call.helpviewer_keywords: ["ITCallInfo2 interface [TAPI 2.2]","get_EventFilter method","ITCallInfo2.get_EventFilter","ITCallInfo2::get_EventFilter","_tapi3_itcallinfo2_get_eventfilter","get_EventFilter","get_EventFilter method [TAPI 2.2]","get_EventFilter method [TAPI 2.2]","ITCallInfo2 interface","tapi3.itcallinfo2_get_eventfilter","tapi3if/ITCallInfo2::get_EventFilter"]
 old-location: tapi3\itcallinfo2_get_eventfilter.htm
 tech.root: Tapi
 ms.assetid: 21f4f7ae-2bba-424b-889f-4b43e9416b33

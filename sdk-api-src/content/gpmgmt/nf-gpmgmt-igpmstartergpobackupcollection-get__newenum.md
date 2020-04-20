@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackupCollection.get__NewEnum
 title: IGPMStarterGPOBackupCollection::get__NewEnum (gpmgmt.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection.helpviewer_keywords: ["IGPMStarterGPOBackupCollection.get__NewEnum","IGPMStarterGPOBackupCollection::get__NewEnum","IGPMstarterGPOBackupCollection interface [GPMC]","get__NewEnum method","IGPMstarterGPOBackupCollection::get__NewEnum","get__NewEnum","get__NewEnum method [GPMC]","get__NewEnum method [GPMC]","IGPMstarterGPOBackupCollection interface","gpmc.igpmstartergpobackupcollection_get__newenum","gpmgmt/IGPMstarterGPOBackupCollection::get__NewEnum"]
 old-location: gpmc\igpmstartergpobackupcollection_get__newenum.htm
 tech.root: gpmc
 ms.assetid: 87748dba-fe77-43a5-a9d1-8e068b96e197

@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_search_abandon_page
 title: ldap_search_abandon_page function (winldap.h)
-description: The ldap_search_abandon_page function terminates a paged-results search.
+description: The ldap_search_abandon_page function terminates a paged-results search.helpviewer_keywords: ["_ldap_ldap_search_abandon_page","ldap.ldap__search__abandon__page","ldap.ldap_search_abandon_page","ldap_search_abandon_page","ldap_search_abandon_page function [LDAP]","winldap/ldap_search_abandon_page"]
 old-location: ldap\ldap_search_abandon_page.htm
 tech.root: ldap
 ms.assetid: 0c434611-b4d0-46e4-8e81-fc221e63de9f

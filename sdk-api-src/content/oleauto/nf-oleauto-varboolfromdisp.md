@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBoolFromDisp
 title: VarBoolFromDisp function (oleauto.h)
-description: Converts the default property of an IDispatch instance to a Boolean value.
+description: Converts the default property of an IDispatch instance to a Boolean value.helpviewer_keywords: ["VarBoolFromDisp","VarBoolFromDisp function [Automation]","_oa96_VarBoolFromDisp","automat.varboolfromdisp","oleauto/VarBoolFromDisp"]
 old-location: automat\varboolfromdisp.htm
 tech.root: automat
 ms.assetid: 72a20066-26ce-4f20-97d6-315e1f183d4b

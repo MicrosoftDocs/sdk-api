@@ -1,7 +1,7 @@
 ---
 UID: NF:endpointvolume.IAudioMeterInformation.GetMeteringChannelCount
 title: IAudioMeterInformation::GetMeteringChannelCount (endpointvolume.h)
-description: The GetMeteringChannelCount method gets the number of channels in the audio stream that are monitored by peak meters.
+description: The GetMeteringChannelCount method gets the number of channels in the audio stream that are monitored by peak meters.helpviewer_keywords: ["GetMeteringChannelCount","GetMeteringChannelCount method [Core Audio]","GetMeteringChannelCount method [Core Audio]","IAudioMeterInformation interface","IAudioMeterInformation interface [Core Audio]","GetMeteringChannelCount method","IAudioMeterInformation.GetMeteringChannelCount","IAudioMeterInformation::GetMeteringChannelCount","IAudioMeterInformationGetMeteringChannelCount","coreaudio.iaudiometerinformation_getmeteringchannelcount","endpointvolume/IAudioMeterInformation::GetMeteringChannelCount"]
 old-location: coreaudio\iaudiometerinformation_getmeteringchannelcount.htm
 tech.root: CoreAudio
 ms.assetid: 6f1deef6-cc47-4736-b0bb-99afb1966895

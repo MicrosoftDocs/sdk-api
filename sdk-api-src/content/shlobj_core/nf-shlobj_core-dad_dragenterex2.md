@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.DAD_DragEnterEx2
 title: DAD_DragEnterEx2 function (shlobj_core.h)
-description: Locks updates to the specified window during a drag-and-drop operation and displays the drag image at the specified position within the window.
+description: Locks updates to the specified window during a drag-and-drop operation and displays the drag image at the specified position within the window.helpviewer_keywords: ["DAD_DragEnterEx2","DAD_DragEnterEx2 function [Windows Shell]","_shell_DAD_DragEnterEx2","shell.DAD_DragEnterEx2","shlobj_core/DAD_DragEnterEx2"]
 old-location: shell\DAD_DragEnterEx2.htm
 tech.root: shell
 ms.assetid: d9d902c5-c488-4e23-a749-bae42c6cb719

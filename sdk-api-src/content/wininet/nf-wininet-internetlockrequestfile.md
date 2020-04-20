@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetLockRequestFile
 title: InternetLockRequestFile function (wininet.h)
-description: Places a lock on the file that is being used.
+description: Places a lock on the file that is being used.helpviewer_keywords: ["InternetLockRequestFile","InternetLockRequestFile function [WinINet]","_inet_internetlockrequestfile_function","wininet.internetlockrequestfile","wininet/InternetLockRequestFile"]
 old-location: wininet\internetlockrequestfile.htm
 tech.root: wininet
 ms.assetid: 5924d117-1dcd-43d8-817e-02bda302bdd4

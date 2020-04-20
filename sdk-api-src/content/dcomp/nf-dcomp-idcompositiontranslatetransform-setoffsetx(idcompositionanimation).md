@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform.SetOffsetX(IDCompositionAnimation)
 title: IDCompositionTranslateTransform::SetOffsetX(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the OffsetX property of a 2D translation transform.
+description: Animates the value of the OffsetX property of a 2D translation transform.helpviewer_keywords: ["IDCompositionTranslateTransform interface [DirectComposition]","SetOffsetX method","IDCompositionTranslateTransform.SetOffsetX","IDCompositionTranslateTransform.SetOffsetX(IDCompositionAnimation)","IDCompositionTranslateTransform::SetOffsetX","IDCompositionTranslateTransform::SetOffsetX(IDCompositionAnimation)","IDCompositionTranslateTransform::SetOffsetX(IDCompositionAnimation*)","SetOffsetX","SetOffsetX method [DirectComposition]","SetOffsetX method [DirectComposition]","IDCompositionTranslateTransform interface","dcomp/IDCompositionTranslateTransform::SetOffsetX","directcomp.idcompositiontranslatetransform_setoffsetx_idcompositionanimation"]
 old-location: directcomp\idcompositiontranslatetransform_setoffsetx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: eac63f97-1d6c-4672-ad0f-def71b8dd5e1

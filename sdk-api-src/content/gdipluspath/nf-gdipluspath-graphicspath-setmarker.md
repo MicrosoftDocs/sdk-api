@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.SetMarker
 title: GraphicsPath::SetMarker (gdipluspath.h)
-description: The GraphicsPath::SetMarker method designates the last point in this path as a marker point.
+description: The GraphicsPath::SetMarker method designates the last point in this path as a marker point.helpviewer_keywords: ["GraphicsPath class [GDI+]","SetMarker method","GraphicsPath.SetMarker","GraphicsPath::SetMarker","SetMarker","SetMarker method [GDI+]","SetMarker method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_SetMarker_","gdiplus._gdiplus_CLASS_GraphicsPath_SetMarker_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_SetMarker_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\setmarker.htm

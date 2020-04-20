@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.GetOffset
 title: IXpsOMGradientStop::GetOffset (xpsobjectmodel.h)
-description: Gets the offset value of the gradient stop.
+description: Gets the offset value of the gradient stop.helpviewer_keywords: ["GetOffset","GetOffset method [XPS Documents and Packaging]","GetOffset method [XPS Documents and Packaging]","IXpsOMGradientStop interface","IXpsOMGradientStop interface [XPS Documents and Packaging]","GetOffset method","IXpsOMGradientStop.GetOffset","IXpsOMGradientStop::GetOffset","xps.ixpsomgradientstop_getoffset","xpsobjectmodel/IXpsOMGradientStop::GetOffset"]
 old-location: xps\ixpsomgradientstop_getoffset.htm
 tech.root: printdocs
 ms.assetid: 14048707-1a73-40a1-9094-da4885d9934d

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.CD3D11_RECT.CD3D11_RECT
 title: CD3D11_RECT::CD3D11_RECT (d3d11.h)
-description: Instantiates a new instance of an uninitialized CD3D11_RECT structure.
+description: Instantiates a new instance of an uninitialized CD3D11_RECT structure.helpviewer_keywords: ["CD3D11_RECT","CD3D11_RECT constructor [Direct3D 11]","CD3D11_RECT constructor [Direct3D 11]","CD3D11_RECT interface","CD3D11_RECT interface [Direct3D 11]","CD3D11_RECT constructor","CD3D11_RECT.CD3D11_RECT","CD3D11_RECT::CD3D11_RECT","CD3D11_RECT::CD3D11_RECT()","d3d11/CD3D11_RECT::CD3D11_RECT","direct3d11.cd3d11_rect_cd3d11_rect"]
 old-location: direct3d11\cd3d11_rect_cd3d11_rect.htm
 tech.root: direct3d11
 ms.assetid: 44EB2EC1-78F4-414E-8F41-6EE0FDA566CC

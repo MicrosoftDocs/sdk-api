@@ -1,7 +1,7 @@
 ---
 UID: NN:endpointvolume.IAudioEndpointVolumeEx
 title: IAudioEndpointVolumeEx (endpointvolume.h)
-description: The IAudioEndpointVolumeEx interface provides volume controls on the audio stream to or from a device endpoint.
+description: The IAudioEndpointVolumeEx interface provides volume controls on the audio stream to or from a device endpoint.helpviewer_keywords: ["IAudioEndpointVolumeEx","IAudioEndpointVolumeEx interface [Core Audio]","IAudioEndpointVolumeEx interface [Core Audio]","described","coreaudio.iaudioendpointvolumeex","endpointvolume/IAudioEndpointVolumeEx"]
 old-location: coreaudio\iaudioendpointvolumeex.htm
 tech.root: CoreAudio
 ms.assetid: 905ef0c9-ac32-4dfd-a25a-820cafa04815

@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.EnumPeers
 title: IBitsPeerCacheAdministration::EnumPeers (bits3_0.h)
-description: Gets an IEnumBitsPeers interface pointer that you use to enumerate the peers that can serve content. The enumeration is a snapshot of the records in the cache.
+description: Gets an IEnumBitsPeers interface pointer that you use to enumerate the peers that can serve content. The enumeration is a snapshot of the records in the cache.helpviewer_keywords: ["EnumPeers","EnumPeers method [BITS]","EnumPeers method [BITS]","IBitsPeerCacheAdministration interface","IBitsPeerCacheAdministration interface [BITS]","EnumPeers method","IBitsPeerCacheAdministration.EnumPeers","IBitsPeerCacheAdministration::EnumPeers","bits.ibitspeercacheadministration_enumpeers","bits3_0/IBitsPeerCacheAdministration::EnumPeers"]
 old-location: bits\ibitspeercacheadministration_enumpeers.htm
 tech.root: Bits
 ms.assetid: 8786d7d8-9ffb-4492-9834-90b97f97e4cf

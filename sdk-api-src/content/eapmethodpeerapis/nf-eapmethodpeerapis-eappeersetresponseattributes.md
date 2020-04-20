@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerSetResponseAttributes
 title: EapPeerSetResponseAttributes function (eapmethodpeerapis.h)
-description: Provides an updated array of EAP response attributes to the EAP method.
+description: Provides an updated array of EAP response attributes to the EAP method.helpviewer_keywords: ["EapPeerSetResponseAttributes","EapPeerSetResponseAttributes function [EAPHost]","eaphost.eappeersetresponseattributes","eapmethodpeerapis/EapPeerSetResponseAttributes"]
 old-location: eaphost\eappeersetresponseattributes.htm
 tech.root: eaphost
 ms.assetid: 340f5284-53cb-4e1d-9df5-2b9c75774c0d

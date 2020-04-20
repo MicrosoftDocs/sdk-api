@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_SupportedSectorTypes
 title: IDiscFormat2RawCD::get_SupportedSectorTypes (imapi2.h)
-description: Retrieves the supported data sector types for the current recorder.
+description: Retrieves the supported data sector types for the current recorder.helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_SupportedSectorTypes method","IDiscFormat2RawCD.get_SupportedSectorTypes","IDiscFormat2RawCD::get_SupportedSectorTypes","get_SupportedSectorTypes","get_SupportedSectorTypes method [IMAPI]","get_SupportedSectorTypes method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_supportedsectortypes","imapi2/IDiscFormat2RawCD::get_SupportedSectorTypes"]
 old-location: imapi\idiscformat2rawcd_get_supportedsectortypes.htm
 tech.root: imapi
 ms.assetid: d217e585-3ff4-4f02-8a13-7cfca767f201

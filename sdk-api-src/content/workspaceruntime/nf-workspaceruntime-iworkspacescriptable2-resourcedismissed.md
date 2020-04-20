@@ -1,7 +1,7 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable2.ResourceDismissed
 title: IWorkspaceScriptable2::ResourceDismissed (workspaceruntime.h)
-description: Alerts the user that a resource has been disabled or otherwise dismissed.
+description: Alerts the user that a resource has been disabled or otherwise dismissed.helpviewer_keywords: ["IWorkspaceScriptable2 interface [Remote Desktop Services]","ResourceDismissed method","IWorkspaceScriptable2.ResourceDismissed","IWorkspaceScriptable2::ResourceDismissed","IWorkspaceScriptable3 interface [Remote Desktop Services]","ResourceDismissed method","IWorkspaceScriptable3::ResourceDismissed","ResourceDismissed","ResourceDismissed method [Remote Desktop Services]","ResourceDismissed method [Remote Desktop Services]","IWorkspaceScriptable2 interface","ResourceDismissed method [Remote Desktop Services]","IWorkspaceScriptable3 interface","ResourceDismissed method [Remote Desktop Services]","Workspace object","Workspace object [Remote Desktop Services]","ResourceDismissed method","termserv.iworkspacescriptable2_resourcedismissed","workspaceruntime/IWorkspaceScriptable2::ResourceDismissed","workspaceruntime/IWorkspaceScriptable3::ResourceDismissed"]
 old-location: termserv\iworkspacescriptable2_resourcedismissed.htm
 tech.root: TermServ
 ms.assetid: e45d806c-56de-4f76-a76a-ba6db63f4ac2

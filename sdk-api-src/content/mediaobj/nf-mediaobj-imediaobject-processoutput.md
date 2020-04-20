@@ -1,7 +1,7 @@
 ---
 UID: NF:mediaobj.IMediaObject.ProcessOutput
 title: IMediaObject::ProcessOutput (mediaobj.h)
-description: The ProcessOutput method generates output from the current input data.
+description: The ProcessOutput method generates output from the current input data.helpviewer_keywords: ["IMediaObject interface [DirectShow]","ProcessOutput method","IMediaObject.ProcessOutput","IMediaObject::ProcessOutput","IMediaObjectProcessOutput","ProcessOutput","ProcessOutput method [DirectShow]","ProcessOutput method [DirectShow]","IMediaObject interface","dshow.imediaobject_processoutput","mediaobj/IMediaObject::ProcessOutput"]
 old-location: dshow\imediaobject_processoutput.htm
 tech.root: DirectShow
 ms.assetid: 1a3b1192-f1e9-4f04-b543-d38692502b8e

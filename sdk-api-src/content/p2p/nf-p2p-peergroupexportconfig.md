@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerGroupExportConfig
 title: PeerGroupExportConfig function (p2p.h)
-description: The PeerGroupExportConfig function exports the group configuration for a peer as an XML string that contains the identity, group name, and the GMC for the identity.
+description: The PeerGroupExportConfig function exports the group configuration for a peer as an XML string that contains the identity, group name, and the GMC for the identity.helpviewer_keywords: ["PeerGroupExportConfig","PeerGroupExportConfig function [Peer Networking]","p2p.peergroupexportconfig","p2p/PeerGroupExportConfig"]
 old-location: p2p\peergroupexportconfig.htm
 tech.root: P2PSdk
 ms.assetid: 95fe1336-4bf2-4a4b-a451-90f2ae2639c2

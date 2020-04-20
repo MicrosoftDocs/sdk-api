@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceSetInfo
 title: MprAdminInterfaceSetInfo function (mprapi.h)
-description: The MprAdminInterfaceSetInfo function sets information for a specified interface on a specified server.
+description: The MprAdminInterfaceSetInfo function sets information for a specified interface on a specified server.helpviewer_keywords: ["MprAdminInterfaceSetInfo","MprAdminInterfaceSetInfo function [RAS]","_mpr_mpradmininterfacesetinfo","mprapi/MprAdminInterfaceSetInfo","rras.mpradmininterfacesetinfo"]
 old-location: rras\mpradmininterfacesetinfo.htm
 tech.root: RRAS
 ms.assetid: 2cf31e4b-7c58-43b8-b30a-e98402a656a3

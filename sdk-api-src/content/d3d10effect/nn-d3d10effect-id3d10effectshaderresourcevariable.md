@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectShaderResourceVariable
 title: ID3D10EffectShaderResourceVariable (d3d10effect.h)
-description: A shader-resource interface accesses a shader resource.
+description: A shader-resource interface accesses a shader resource.helpviewer_keywords: ["1d387c67-6113-ceab-9996-b2859123af67","ID3D10EffectShaderResourceVariable","ID3D10EffectShaderResourceVariable interface [Direct3D 10]","ID3D10EffectShaderResourceVariable interface [Direct3D 10]","described","d3d10effect/ID3D10EffectShaderResourceVariable","direct3d10.id3d10effectshaderresourcevariable"]
 old-location: direct3d10\id3d10effectshaderresourcevariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshaderresourcevariable.htm

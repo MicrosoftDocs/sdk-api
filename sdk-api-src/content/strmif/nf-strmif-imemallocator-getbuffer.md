@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IMemAllocator.GetBuffer
 title: IMemAllocator::GetBuffer (strmif.h)
-description: The GetBuffer method retrieves a media sample that contains an empty buffer.
+description: The GetBuffer method retrieves a media sample that contains an empty buffer.helpviewer_keywords: ["GetBuffer","GetBuffer method [DirectShow]","GetBuffer method [DirectShow]","IMemAllocator interface","IMemAllocator interface [DirectShow]","GetBuffer method","IMemAllocator.GetBuffer","IMemAllocator::GetBuffer","IMemAllocatorGetBuffer","dshow.imemallocator_getbuffer","strmif/IMemAllocator::GetBuffer"]
 old-location: dshow\imemallocator_getbuffer.htm
 tech.root: DirectShow
 ms.assetid: a5d015c8-ef15-4bac-906f-5d064fbff11f

@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplusstringformat.StringFormat
 title: StringFormat (gdiplusstringformat.h)
-description: The StringFormat class encapsulates text layout information (such as alignment, orientation, tab stops, and clipping) and display manipulations (such as trimming, font substitution for characters that are not supported by the requested font, and digit substitution for languages that do not use Western European digits). A StringFormat object can be passed to the DrawString Methods method to format a string.
+description: The StringFormat class encapsulates text layout information (such as alignment, orientation, tab stops, and clipping) and display manipulations (such as trimming, font substitution for characters that are not supported by the requested font, and digit substitution for languages that do not use Western European digits). A StringFormat object can be passed to the DrawString Methods method to format a string.helpviewer_keywords: ["StringFormat","StringFormat class [GDI+]","StringFormat class [GDI+]","described","_gdiplus_CLASS_StringFormat_Class","gdiplus._gdiplus_CLASS_StringFormat_Class","gdiplusstringformat/StringFormat"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformat.htm

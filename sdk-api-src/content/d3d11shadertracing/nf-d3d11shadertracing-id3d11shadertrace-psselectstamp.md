@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.PSSelectStamp
 title: ID3D11ShaderTrace::PSSelectStamp (d3d11shadertracing.h)
-description: Sets the specified pixel-shader stamp.
+description: Sets the specified pixel-shader stamp.helpviewer_keywords: ["ID3D11ShaderTrace interface [Direct3D 11]","PSSelectStamp method","ID3D11ShaderTrace.PSSelectStamp","ID3D11ShaderTrace::PSSelectStamp","PSSelectStamp","PSSelectStamp method [Direct3D 11]","PSSelectStamp method [Direct3D 11]","ID3D11ShaderTrace interface","d3d11shadertracing/ID3D11ShaderTrace::PSSelectStamp","direct3d11.id3d11shadertrace_psselectstamp"]
 old-location: direct3d11\id3d11shadertrace_psselectstamp.htm
 tech.root: direct3d11
 ms.assetid: 83967A6B-E8AC-4812-8D55-62F4C065E723

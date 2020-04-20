@@ -1,7 +1,7 @@
 ---
 UID: NN:msopc.IOpcRelationship
 title: IOpcRelationship (msopc.h)
-description: Represents a relationship, which is a link between a source, which is a part or the package, and a target.
+description: Represents a relationship, which is a link between a source, which is a part or the package, and a target.helpviewer_keywords: ["IOpcRelationship","IOpcRelationship interface [Open Packaging Conventions]","IOpcRelationship interface [Open Packaging Conventions]","described","msopc/IOpcRelationship","opc.iopcrelationship"]
 old-location: opc\iopcrelationship.htm
 tech.root: OPC
 ms.assetid: eb3619bb-470f-41bd-a231-d63df70592c2

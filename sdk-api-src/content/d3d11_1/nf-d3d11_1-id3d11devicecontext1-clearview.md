@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.ClearView
 title: ID3D11DeviceContext1::ClearView (d3d11_1.h)
-description: Sets all the elements in a resource view to one value.
+description: Sets all the elements in a resource view to one value.helpviewer_keywords: ["ClearView","ClearView method [Direct3D 11]","ClearView method [Direct3D 11]","ID3D11DeviceContext1 interface","ID3D11DeviceContext1 interface [Direct3D 11]","ClearView method","ID3D11DeviceContext1.ClearView","ID3D11DeviceContext1::ClearView","d3d11_1/ID3D11DeviceContext1::ClearView","direct3d11.id3d11devicecontext1_clearview"]
 old-location: direct3d11\id3d11devicecontext1_clearview.htm
 tech.root: direct3d11
 ms.assetid: 7CC8DEB6-075C-40EB-822D-8A627E285FA2

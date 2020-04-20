@@ -1,7 +1,7 @@
 ---
 UID: NS:uiautomationcoreapi.UiaPropertyChangedEventArgs
 title: UiaPropertyChangedEventArgs (uiautomationcoreapi.h)
-description: Note  This structure is deprecated.  Contains information about an event that is raised when a Microsoft UI Automation element property change occurs.
+description: Note  This structure is deprecated.  Contains information about an event that is raised when a Microsoft UI Automation element property change occurs.helpviewer_keywords: ["UiaPropertyChangedEventArgs","UiaPropertyChangedEventArgs structure [Windows Accessibility]","uiauto.uiauto_UiaPropertyChangedEventArgsStruct","uiauto_UiaPropertyChangedEventArgsStruct","uiautomationcoreapi/UiaPropertyChangedEventArgs","winauto.uiauto_UiaPropertyChangedEventArgsStruct"]
 old-location: winauto\uiauto_UiaPropertyChangedEventArgsStruct.htm
 tech.root: WinAuto
 ms.assetid: d401b971-441e-4a09-9b9a-6725a00154cb

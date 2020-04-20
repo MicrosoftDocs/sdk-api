@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.foundation.IPropertyValueStatics
 title: IPropertyValueStatics (windows.foundation.h)
-description: Creates IPropertyValue objects that you can store in a property store.
+description: Creates IPropertyValue objects that you can store in a property store.helpviewer_keywords: ["IPropertyValueStatics","IPropertyValueStatics interface [Windows Runtime]","IPropertyValueStatics interface [Windows Runtime]","described","windows/IPropertyValueStatics","winrt.ipropertyvaluefactory","winrt.ipropertyvaluestatics"]
 old-location: winrt\ipropertyvaluestatics.htm
 tech.root: WinRT
 ms.assetid: 946BD4F9-318C-4452-AEDB-DF2212A2D3CA

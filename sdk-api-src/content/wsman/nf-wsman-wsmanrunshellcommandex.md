@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManRunShellCommandEx
 title: WSManRunShellCommandEx function (wsman.h)
-description: Provides the same functionality as the WSManRunShellCommand function, with the addition of a command ID option.
+description: Provides the same functionality as the WSManRunShellCommand function, with the addition of a command ID option.helpviewer_keywords: ["WSManRunShellCommandEx","WSManRunShellCommandEx function [Windows Remote Management]","winrm.wsmanrunshellcommandex","wsman/WSManRunShellCommandEx"]
 old-location: winrm\wsmanrunshellcommandex.htm
 tech.root: winrm
 ms.assetid: 3FEAB627-C38F-4709-BA17-0AFF76015A97

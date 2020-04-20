@@ -1,7 +1,7 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
 title: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID (evcoll.h)
-description: The EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID enumeration specifies the values used to get the status of a subscription or the status of a particular event source with respect to a subscription.
+description: The EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID enumeration specifies the values used to get the status of a subscription or the status of a particular event source with respect to a subscription.helpviewer_keywords: ["EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID","EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID enumeration","EcSubscriptionRunTimeStatusActive","EcSubscriptionRunTimeStatusEventSources","EcSubscriptionRunTimeStatusLastError","EcSubscriptionRunTimeStatusLastErrorMessage","EcSubscriptionRunTimeStatusLastErrorTime","EcSubscriptionRunTimeStatusLastHeartbeatTime","EcSubscriptionRunTimeStatusNextRetryTime","evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID","evcoll/EcSubscriptionRunTimeStatusActive","evcoll/EcSubscriptionRunTimeStatusEventSources","evcoll/EcSubscriptionRunTimeStatusLastError","evcoll/EcSubscriptionRunTimeStatusLastErrorMessage","evcoll/EcSubscriptionRunTimeStatusLastErrorTime","evcoll/EcSubscriptionRunTimeStatusLastHeartbeatTime","evcoll/EcSubscriptionRunTimeStatusNextRetryTime","wec.ec_subscription_runtime_status_info_id","wes.ec_subscription_runtime_status_info_id"]
 old-location: wec\ec_subscription_runtime_status_info_id.htm
 tech.root: WEC
 ms.assetid: cc4e58d5-22cf-4823-be5d-e056f6690a45

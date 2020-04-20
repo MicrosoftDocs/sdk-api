@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextDeleteById0
 title: FwpmProviderContextDeleteById0 function (fwpmu.h)
-description: Removes a provider context from the system .
+description: Removes a provider context from the system .helpviewer_keywords: ["FwpmProviderContextDeleteById0","FwpmProviderContextDeleteById0 function [Filtering]","fwp.fwpmprovidercontextdeletebyid0_func","fwpmu/FwpmProviderContextDeleteById0"]
 old-location: fwp\fwpmprovidercontextdeletebyid0_func.htm
 tech.root: fwp
 ms.assetid: 073ecbc9-339d-4afa-a8da-6dac0c65e755

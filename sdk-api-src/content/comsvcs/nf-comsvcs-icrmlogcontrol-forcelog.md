@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.ForceLog
 title: ICrmLogControl::ForceLog (comsvcs.h)
-description: Forces all log records to be durable on disk.
+description: Forces all log records to be durable on disk.helpviewer_keywords: ["ForceLog","ForceLog method [COM+]","ForceLog method [COM+]","ICrmLogControl interface","ICrmLogControl interface [COM+]","ForceLog method","ICrmLogControl.ForceLog","ICrmLogControl::ForceLog","_dtc_ICrmLogControl_ForceLog","comsvcs/ICrmLogControl::ForceLog","cos.icrmlogcontrol_forcelog"]
 old-location: cos\icrmlogcontrol_forcelog.htm
 tech.root: cossdk
 ms.assetid: 547c9e31-62a0-413e-8371-20356bfe8906

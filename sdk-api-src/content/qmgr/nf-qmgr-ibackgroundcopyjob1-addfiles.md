@@ -1,7 +1,7 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.AddFiles
 title: IBackgroundCopyJob1::AddFiles (qmgr.h)
-description: Use the AddFiles method to add one or more files to download to the job.
+description: Use the AddFiles method to add one or more files to download to the job.helpviewer_keywords: ["AddFiles","AddFiles method [BITS]","AddFiles method [BITS]","IBackgroundCopyJob1 interface","IBackgroundCopyJob1 interface [BITS]","AddFiles method","IBackgroundCopyJob1.AddFiles","IBackgroundCopyJob1::AddFiles","bits.ibackgroundcopyjob1_addfiles","qmgr/IBackgroundCopyJob1::AddFiles"]
 old-location: bits\ibackgroundcopyjob1_addfiles.htm
 tech.root: Bits
 ms.assetid: 4a9860da-3977-4b97-957f-dd4de1e775cb

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3D9Ex.EnumAdapterModesEx
 title: IDirect3D9Ex::EnumAdapterModesEx (d3d9.h)
-description: This method returns the actual display mode info based on the given mode index.
+description: This method returns the actual display mode info based on the given mode index.helpviewer_keywords: ["4bc3b89a-9f5a-0632-2b67-102fd92c5053","EnumAdapterModesEx","EnumAdapterModesEx method [Direct3D 9]","EnumAdapterModesEx method [Direct3D 9]","IDirect3D9Ex interface","IDirect3D9Ex interface [Direct3D 9]","EnumAdapterModesEx method","IDirect3D9Ex.EnumAdapterModesEx","IDirect3D9Ex::EnumAdapterModesEx","d3d9/IDirect3D9Ex::EnumAdapterModesEx","direct3d9.idirect3d9ex_enumadaptermodesex"]
 old-location: direct3d9\idirect3d9ex_enumadaptermodesex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex_enumadaptermodesex.htm

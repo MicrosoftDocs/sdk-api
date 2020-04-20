@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHOpenWithDialog
 title: SHOpenWithDialog function (shlobj_core.h)
-description: Displays the Open With dialog box.
+description: Displays the Open With dialog box.helpviewer_keywords: ["SHOpenWithDialog","SHOpenWithDialog function [Windows Shell]","_shell_SHOpenWithDialog","shell.SHOpenWithDialog","shlobj_core/SHOpenWithDialog"]
 old-location: shell\SHOpenWithDialog.htm
 tech.root: shell
 ms.assetid: 026bfb34-a8a5-4bd7-9bc0-4aa395e6d535

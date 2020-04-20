@@ -1,7 +1,7 @@
 ---
 UID: NN:mfspatialaudio.IMFSpatialAudioObjectBuffer
 title: IMFSpatialAudioObjectBuffer (mfspatialaudio.h)
-description: Represents a section of audio data with associated positional and rendering metadata. Spatial audio objects are stored in IMFSpatialAudioSample instances, and allow passing of spatial audio information between Media Foundation components.
+description: Represents a section of audio data with associated positional and rendering metadata. Spatial audio objects are stored in IMFSpatialAudioSample instances, and allow passing of spatial audio information between Media Foundation components.helpviewer_keywords: ["IMFSpatialAudioObjectBuffer","IMFSpatialAudioObjectBuffer interface [Media Foundation]","IMFSpatialAudioObjectBuffer interface [Media Foundation]","described","mf.imfspatialaudioobjectbuffer","mfspatialaudio/IMFSpatialAudioObjectBuffer"]
 old-location: mf\imfspatialaudioobjectbuffer.htm
 tech.root: medfound
 ms.assetid: 61E9BC6A-2120-4874-9053-E1D232DF1CCA

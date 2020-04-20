@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.ISCPSecureExchange2.TransferContainerData2
 title: ISCPSecureExchange2::TransferContainerData2 (mswmdm.h)
-description: The TransferContainerData2 method transfers container file data to the secure content provider.
+description: The TransferContainerData2 method transfers container file data to the secure content provider.helpviewer_keywords: ["ISCPSecureExchange2 interface [windows Media Device Manager]","TransferContainerData2 method","ISCPSecureExchange2.TransferContainerData2","ISCPSecureExchange2::TransferContainerData2","ISCPSecureExchange2TransferContainerData2","TransferContainerData2","TransferContainerData2 method [windows Media Device Manager]","TransferContainerData2 method [windows Media Device Manager]","ISCPSecureExchange2 interface","mswmdm/ISCPSecureExchange2::TransferContainerData2","wmdm.iscpsecureexchange2_transfercontainerdata2"]
 old-location: wmdm\iscpsecureexchange2_transfercontainerdata2.htm
 tech.root: WMDM
 ms.assetid: 7e130da3-2bef-4ff0-870c-31ac4c3767e5

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_Session
 title: IWdsTransportClient::get_Session (wdstptmgmt.h)
-description: Receives the transport session to which the WDS client is joined.
+description: Receives the transport session to which the WDS client is joined.helpviewer_keywords: ["IWdsTransportClient interface [Windows Deployment Services]","Session property","IWdsTransportClient.Session","IWdsTransportClient.get_Session","IWdsTransportClient::Session","IWdsTransportClient::get_Session","Session property [Windows Deployment Services]","Session property [Windows Deployment Services]","IWdsTransportClient interface","get_Session","wds.iwdstransportclient_session","wdstptmgmt/IWdsTransportClient::Session","wdstptmgmt/IWdsTransportClient::get_Session"]
 old-location: wds\iwdstransportclient_session.htm
 tech.root: wds
 ms.assetid: 19aac2c4-c724-493f-a4e9-a396a1d32f15

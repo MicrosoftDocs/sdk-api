@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.GetIdentity
 title: ISettingsNamespace::GetIdentity (wcmconfig.h)
-description: Gets the identity of the namespace.
+description: Gets the identity of the namespace.helpviewer_keywords: ["GetIdentity","GetIdentity method [SMI]","GetIdentity method [SMI]","ISettingsNamespace interface","ISettingsNamespace interface [SMI]","GetIdentity method","ISettingsNamespace.GetIdentity","ISettingsNamespace::GetIdentity","smi.isettingsnamespace_getidentity","wcmconfig/ISettingsNamespace::GetIdentity"]
 old-location: smi\isettingsnamespace_getidentity.htm
 tech.root: SMI
 ms.assetid: a61c629f-4f7b-46f8-bdeb-543523bc2bea

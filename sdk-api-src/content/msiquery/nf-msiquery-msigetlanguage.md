@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiGetLanguage
 title: MsiGetLanguage function (msiquery.h)
-description: The MsiGetLanguage function returns the numeric language of the installation that is currently running.
+description: The MsiGetLanguage function returns the numeric language of the installation that is currently running.helpviewer_keywords: ["MsiGetLanguage","MsiGetLanguage function","_msi_msigetlanguage","msiquery/MsiGetLanguage","setup.msigetlanguage"]
 old-location: setup\msigetlanguage.htm
 tech.root: Msi
 ms.assetid: e959dbdc-141c-41be-8752-220aa8e96064

@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ClusRemoveClusterHealthFault
 title: ClusRemoveClusterHealthFault function (resapi.h)
-description: TBD.
+description: TBD.helpviewer_keywords: ["ClusRemoveClusterHealthFault","ClusRemoveClusterHealthFault function [Failover Cluster]","mscs.clusremoveclusterhealthfault","resapi/ClusRemoveClusterHealthFault"]
 old-location: mscs\clusremoveclusterhealthfault.htm
 tech.root: MsCS
 ms.assetid: ff20511b-beb0-4fa4-a8f3-cc2772cdc503

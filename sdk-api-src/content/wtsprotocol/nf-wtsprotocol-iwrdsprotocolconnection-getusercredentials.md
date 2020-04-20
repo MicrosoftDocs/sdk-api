@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetUserCredentials
 title: IWRdsProtocolConnection::GetUserCredentials (wtsprotocol.h)
-description: Returns user credentials.
+description: Returns user credentials.helpviewer_keywords: ["GetUserCredentials","GetUserCredentials method [Remote Desktop Services]","GetUserCredentials method [Remote Desktop Services]","IWRdsProtocolConnection interface","IWRdsProtocolConnection interface [Remote Desktop Services]","GetUserCredentials method","IWRdsProtocolConnection.GetUserCredentials","IWRdsProtocolConnection::GetUserCredentials","termserv.iwrdsprotocolconnection_getusercredentials","wtsprotocol/IWRdsProtocolConnection::GetUserCredentials"]
 old-location: termserv\iwrdsprotocolconnection_getusercredentials.htm
 tech.root: TermServ
 ms.assetid: dcd8de76-e260-4b3b-98ca-4f486b3b6635

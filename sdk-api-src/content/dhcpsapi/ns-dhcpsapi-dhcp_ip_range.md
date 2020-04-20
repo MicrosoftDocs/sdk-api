@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RANGE
 title: DHCP_IP_RANGE (dhcpsapi.h)
-description: The DHCP_IP_RANGE structure defines a range of IP addresses.
+description: The DHCP_IP_RANGE structure defines a range of IP addresses.helpviewer_keywords: ["*LPDHCP_IP_RANGE","DHCP_IP_RANGE","DHCP_IP_RANGE structure [DHCP]","LPDHCP_IP_RANGE","LPDHCP_IP_RANGE structure pointer [DHCP]","dhcp.dhcp_ip_range","dhcpsapi/LPDHCP_IP_RANGE","dhcpsapi/_DHCP_IP_RANGE"]
 old-location: dhcp\dhcp_ip_range.htm
 tech.root: DHCP
 ms.assetid: 8d3f021d-25ac-44de-9bbc-cc558bc47f91

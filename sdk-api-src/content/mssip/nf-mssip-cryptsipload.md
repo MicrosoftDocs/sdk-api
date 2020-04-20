@@ -1,7 +1,7 @@
 ---
 UID: NF:mssip.CryptSIPLoad
 title: CryptSIPLoad function (mssip.h)
-description: Loads the dynamic-link library (DLL) that implements a subject interface package (SIP) and assigns appropriate library export functions to a SIP_DISPATCH_INFO structure.
+description: Loads the dynamic-link library (DLL) that implements a subject interface package (SIP) and assigns appropriate library export functions to a SIP_DISPATCH_INFO structure.helpviewer_keywords: ["CryptSIPLoad","CryptSIPLoad function [Security]","mssip/CryptSIPLoad","security.cryptsipload"]
 old-location: security\cryptsipload.htm
 tech.root: SecCrypto
 ms.assetid: 3378ecee-bd5d-45e5-9a1f-a3734d086782

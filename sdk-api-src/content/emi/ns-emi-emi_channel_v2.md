@@ -1,7 +1,7 @@
 ---
 UID: NS:emi.__unnamed_struct_4
 title: EMI_CHANNEL_V2 (emi.h)
-description: The EMI_CHANNEL_V2 structure provides data about an EMI V2 channel.
+description: The EMI_CHANNEL_V2 structure provides data about an EMI V2 channel.helpviewer_keywords: ["EMI_CHANNEL_V2","EMI_CHANNEL_V2 structure [Power Metering and Budgeting Devices]","emi/EMI_CHANNEL_V2","powermeter.emi_channel_v2"]
 old-location: powermeter\emi_channel_v2.htm
 tech.root: powermeter
 ms.assetid: D0635128-9B95-4A53-883C-FD6CCD5B694B

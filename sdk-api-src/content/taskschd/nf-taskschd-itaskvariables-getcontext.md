@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskVariables.GetContext
 title: ITaskVariables::GetContext (taskschd.h)
-description: Used to share the context between different steps and tasks that are in the same job instance.
+description: Used to share the context between different steps and tasks that are in the same job instance.helpviewer_keywords: ["GetContext","GetContext method [Task Scheduler]","GetContext method [Task Scheduler]","ITaskVariables interface","ITaskVariables interface [Task Scheduler]","GetContext method","ITaskVariables.GetContext","ITaskVariables::GetContext","taskschd.itaskvariables_getcontext","taskschd/ITaskVariables::GetContext"]
 old-location: taskschd\itaskvariables_getcontext.htm
 tech.root: taskschd
 ms.assetid: 090d24ac-18eb-4a76-887f-30d3b99e7ad0

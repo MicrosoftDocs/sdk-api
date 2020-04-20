@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_TEX1D_ARRAY_RTV
 title: D3D10_TEX1D_ARRAY_RTV (d3d10.h)
-description: Specifies the subresource(s) from an array of 1D textures to use in a render-target view.
+description: Specifies the subresource(s) from an array of 1D textures to use in a render-target view.helpviewer_keywords: ["1782c294-a270-170d-b512-62785435d8d4","D3D10_TEX1D_ARRAY_RTV","D3D10_TEX1D_ARRAY_RTV structure [Direct3D 10]","d3d10/D3D10_TEX1D_ARRAY_RTV","direct3d10.d3d10_tex1d_array_rtv"]
 old-location: direct3d10\d3d10_tex1d_array_rtv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_array_rtv.htm

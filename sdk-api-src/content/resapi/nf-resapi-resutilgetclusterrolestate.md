@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilGetClusterRoleState
 title: ResUtilGetClusterRoleState function (resapi.h)
-description: Determines whether or not a specific role has been assigned to a cluster.
+description: Determines whether or not a specific role has been assigned to a cluster.helpviewer_keywords: ["ClusterRoleDHCP","ClusterRoleDTC","ClusterRoleFileServer","ClusterRoleGenericApplication","ClusterRoleGenericScript","ClusterRoleGenericService","ClusterRoleISCSINameServer","ClusterRoleMSMQ","ClusterRoleNFS","ClusterRolePrintServer","ClusterRoleStandAloneNamespaceServer","ClusterRoleVolumeShadowCopyServiceTask","ClusterRoleWINS","ResUtilGetClusterRoleState","ResUtilGetClusterRoleState function [Failover Cluster]","mscs.resutilgetclusterrolestate","resapi/ResUtilGetClusterRoleState"]
 old-location: mscs\resutilgetclusterrolestate.htm
 tech.root: MsCS
 ms.assetid: 582992ca-9381-4673-8fe8-835b50047f51

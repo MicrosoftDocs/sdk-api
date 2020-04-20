@@ -1,7 +1,7 @@
 ---
 UID: NS:psapi._PSAPI_WS_WATCH_INFORMATION
 title: PSAPI_WS_WATCH_INFORMATION (psapi.h)
-description: Contains information about a page added to a process working set.
+description: Contains information about a page added to a process working set.helpviewer_keywords: ["*PPSAPI_WS_WATCH_INFORMATION","PPSAPI_WS_WATCH_INFORMATION","PPSAPI_WS_WATCH_INFORMATION structure pointer [PSAPI]","PSAPI_WS_WATCH_INFORMATION","PSAPI_WS_WATCH_INFORMATION structure [PSAPI]","_win32_psapi_ws_watch_information_str","base.psapi_ws_watch_information_str","psapi.psapi_ws_watch_information_str","psapi/PPSAPI_WS_WATCH_INFORMATION","psapi/PSAPI_WS_WATCH_INFORMATION"]
 old-location: psapi\psapi_ws_watch_information_str.htm
 tech.root: psapi
 ms.assetid: 61083366-2a55-431c-807a-3eb85ba0b347

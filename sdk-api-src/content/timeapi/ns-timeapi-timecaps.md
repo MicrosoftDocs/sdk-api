@@ -1,7 +1,7 @@
 ---
 UID: NS:timeapi.timecaps_tag
 title: TIMECAPS (timeapi.h)
-description: The TIMECAPS structure contains information about the resolution of the timer.
+description: The TIMECAPS structure contains information about the resolution of the timer.helpviewer_keywords: ["*LPTIMECAPS","*NPTIMECAPS","*PTIMECAPS","LPTIMECAPS","LPTIMECAPS structure pointer [Windows Multimedia]","NPTIMECAPS","NPTIMECAPS structure pointer [Windows Multimedia]","PTIMECAPS","PTIMECAPS structure pointer [Windows Multimedia]","TIMECAPS","TIMECAPS structure [Windows Multimedia]","_win32_TIMECAPS_str","mmsystem/LPTIMECAPS","mmsystem/NPTIMECAPS","mmsystem/PTIMECAPS","mmsystem/TIMECAPS","multimedia.timecaps","timeapi/LPTIMECAPS","timeapi/NPTIMECAPS","timeapi/PTIMECAPS","timeapi/TIMECAPS"]
 old-location: multimedia\timecaps.htm
 tech.root: Multimedia
 ms.assetid: 64a5c4ba-d340-4abc-8da3-766f3a2d7ec8

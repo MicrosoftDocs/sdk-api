@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfContextOwnerServices
 title: ITfContextOwnerServices (msctf.h)
-description: The ITfContextOwnerServices interface is implemented by the manager and used by a text service or application acting as context owners.
+description: The ITfContextOwnerServices interface is implemented by the manager and used by a text service or application acting as context owners.helpviewer_keywords: ["ITfContextOwnerServices","ITfContextOwnerServices interface [Text Services Framework]","ITfContextOwnerServices interface [Text Services Framework]","described","_tsf_itfcontextownerservices_ref","msctf/ITfContextOwnerServices","tsf.itfcontextownerservices"]
 old-location: tsf\itfcontextownerservices.htm
 tech.root: TSF
 ms.assetid: fb77bd6a-ae34-4e21-8f09-fc8c6a1ade86

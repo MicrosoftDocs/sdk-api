@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.DeleteList
 title: ICustomDestinationList::DeleteList (shobjidl_core.h)
-description: Deletes a custom Jump List for a specified application.
+description: Deletes a custom Jump List for a specified application.helpviewer_keywords: ["DeleteList","DeleteList method [Windows Shell]","DeleteList method [Windows Shell]","ICustomDestinationList interface","ICustomDestinationList interface [Windows Shell]","DeleteList method","ICustomDestinationList.DeleteList","ICustomDestinationList::DeleteList","_shell_ICustomDestinationList_DeleteList","shell.ICustomDestinationList_DeleteList","shobjidl_core/ICustomDestinationList::DeleteList"]
 old-location: shell\ICustomDestinationList_DeleteList.htm
 tech.root: shell
 ms.assetid: ef246f5a-9fcf-4475-b19a-e676f0351f3f

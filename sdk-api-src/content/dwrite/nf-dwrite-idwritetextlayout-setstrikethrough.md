@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetStrikethrough
 title: IDWriteTextLayout::SetStrikethrough (dwrite.h)
-description: Sets strikethrough for text within a specified text range.
+description: Sets strikethrough for text within a specified text range.helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetStrikethrough method","IDWriteTextLayout.SetStrikethrough","IDWriteTextLayout::SetStrikethrough","SetStrikethrough","SetStrikethrough method [Direct Write]","SetStrikethrough method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetStrikethrough","dwrite/IDWriteTextLayout::SetStrikethrough"]
 old-location: directwrite\IDWriteTextLayout_SetStrikethrough.htm
 tech.root: DirectWrite
 ms.assetid: 650063e7-186e-493f-8e06-5466cc69e3f3

@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmReleaseEntities
 title: RtmReleaseEntities function (rtmv2.h)
-description: The RtmReleaseEntities function releases the client handles returned by RtmGetRegisteredEntities.
+description: The RtmReleaseEntities function releases the client handles returned by RtmGetRegisteredEntities.helpviewer_keywords: ["RtmReleaseEntities","RtmReleaseEntities function [RAS]","_rtmv2ref_rtmreleaseentities","rras.rtmreleaseentities","rtmv2/RtmReleaseEntities"]
 old-location: rras\rtmreleaseentities.htm
 tech.root: RRAS
 ms.assetid: 1f6c4275-0129-4f27-b9b2-bfda33d34d21

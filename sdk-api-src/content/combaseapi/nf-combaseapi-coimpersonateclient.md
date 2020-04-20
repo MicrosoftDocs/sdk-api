@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoImpersonateClient
 title: CoImpersonateClient function (combaseapi.h)
-description: Enables the server to impersonate the client of the current call for the duration of the call.
+description: Enables the server to impersonate the client of the current call for the duration of the call.helpviewer_keywords: ["CoImpersonateClient","CoImpersonateClient function [COM]","_com_CoImpersonateClient","com.coimpersonateclient","combaseapi/CoImpersonateClient"]
 old-location: com\coimpersonateclient.htm
 tech.root: com
 ms.assetid: a3cbfbbc-fc6f-4d1b-8460-1e3351cd32d7

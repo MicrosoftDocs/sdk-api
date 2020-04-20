@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidWebDVD2.put_Bookmark
 title: IMSVidWebDVD2::put_Bookmark (segment.h)
-description: Saves or loads the playback position and state information for a DVD.
+description: Saves or loads the playback position and state information for a DVD.helpviewer_keywords: ["Bookmark property [Microsoft TV Technologies]","Bookmark property [Microsoft TV Technologies]","IMSVidWebDVD2 interface","IMSVidWebDVD2 interface [Microsoft TV Technologies]","Bookmark property","IMSVidWebDVD2.Bookmark","IMSVidWebDVD2.put_Bookmark","IMSVidWebDVD2::Bookmark","IMSVidWebDVD2::get_Bookmark","IMSVidWebDVD2::put_Bookmark","mstv.imsvidwebdvd2_bookmark","put_Bookmark","segment/IMSVidWebDVD2::Bookmark","segment/IMSVidWebDVD2::get_Bookmark","segment/IMSVidWebDVD2::put_Bookmark"]
 old-location: mstv\imsvidwebdvd2_bookmark.htm
 tech.root: mstv
 ms.assetid: e7b0f28d-16f3-4dd4-8b28-f46e492f5c8e

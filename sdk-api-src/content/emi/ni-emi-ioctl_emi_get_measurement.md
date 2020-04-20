@@ -1,7 +1,7 @@
 ---
 UID: NI:emi.IOCTL_EMI_GET_MEASUREMENT
 title: IOCTL_EMI_GET_MEASUREMENT (emi.h)
-description: The IOCTL_EMI_GET_MEASUREMENT control code retrieves the current energy measurement and the time at which the measurement was taken.
+description: The IOCTL_EMI_GET_MEASUREMENT control code retrieves the current energy measurement and the time at which the measurement was taken.helpviewer_keywords: ["IOCTL_EMI_GET_MEASUREMENT","IOCTL_EMI_GET_MEASUREMENT control","IOCTL_EMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices]","emi/IOCTL_EMI_GET_MEASUREMENT","powermeter.ioctl_emi_get_measurement"]
 old-location: powermeter\ioctl_emi_get_measurement.htm
 tech.root: powermeter
 ms.assetid: E23B1ED2-A87D-419A-8BEB-136AA77258AE

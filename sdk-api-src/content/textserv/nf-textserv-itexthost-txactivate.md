@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost.TxActivate
 title: ITextHost::TxActivate (textserv.h)
-description: Notifies the text host that the control is active.
+description: Notifies the text host that the control is active.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxActivate method","ITextHost.TxActivate","ITextHost::TxActivate","TxActivate","TxActivate method [Windows Controls]","TxActivate method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxActivate","_win32_ITextHost_TxActivate_cpp","controls.ITextHost_TxActivate","controls._win32_ITextHost_TxActivate","textserv/ITextHost::TxActivate"]
 old-location: controls\ITextHost_TxActivate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txactivate.htm

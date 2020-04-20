@@ -1,7 +1,7 @@
 ---
 UID: NF:upnphost.IUPnPEventSource.Unadvise
 title: IUPnPEventSource::Unadvise (upnphost.h)
-description: The Unadvise method is invoked by the device host to stop receiving events. The device host passes in the same pointer that it did when it invoked the IUPnPEventSource::Advise method.
+description: The Unadvise method is invoked by the device host to stop receiving events. The device host passes in the same pointer that it did when it invoked the IUPnPEventSource::Advise method.helpviewer_keywords: ["IUPnPEventSource interface [UPnP APIs]","Unadvise method","IUPnPEventSource.Unadvise","IUPnPEventSource::Unadvise","Unadvise","Unadvise method [UPnP APIs]","Unadvise method [UPnP APIs]","IUPnPEventSource interface","_upnp_iupnpeventsource_unadvise","upnp.iupnpeventsource_unadvise","upnphost/IUPnPEventSource::Unadvise"]
 old-location: upnp\iupnpeventsource_unadvise.htm
 tech.root: upnp
 ms.assetid: 6ae9c53f-eb82-4396-ba85-c95e252911c8

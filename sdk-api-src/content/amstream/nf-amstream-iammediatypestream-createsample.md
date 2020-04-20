@@ -1,7 +1,7 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.CreateSample
 title: IAMMediaTypeStream::CreateSample (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The CreateSample method creates a stream sample and optionally specifies the sample buffer.
+description: Note  This interface is deprecated. New applications should not use it. The CreateSample method creates a stream sample and optionally specifies the sample buffer.helpviewer_keywords: ["CreateSample","CreateSample method [DirectShow]","CreateSample method [DirectShow]","IAMMediaTypeStream interface","IAMMediaTypeStream interface [DirectShow]","CreateSample method","IAMMediaTypeStream.CreateSample","IAMMediaTypeStream::CreateSample","IAMMediaTypeStreamCreateSample","amstream/IAMMediaTypeStream::CreateSample","dshow.iammediatypestream_createsample"]
 old-location: dshow\iammediatypestream_createsample.htm
 tech.root: DirectShow
 ms.assetid: 5bfdbf82-c298-498d-84e4-cd4d8cd13f82

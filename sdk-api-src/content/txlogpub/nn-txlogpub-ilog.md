@@ -1,7 +1,7 @@
 ---
 UID: NN:txlogpub.ILog
 title: ILog (txlogpub.h)
-description: Provides generic low-level logging functionality.
+description: Provides generic low-level logging functionality.helpviewer_keywords: ["ILog","ILog interface [COM]","ILog interface [COM]","described","_com_ilog","com.ilog","txlogpub/ILog"]
 old-location: com\ilog.htm
 tech.root: com
 ms.assetid: 93f2be99-0799-4047-ae4e-62f0e74d15c3

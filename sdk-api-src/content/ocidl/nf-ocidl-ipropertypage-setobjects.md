@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPropertyPage.SetObjects
 title: IPropertyPage::SetObjects (ocidl.h)
-description: Provides the property page with an array of pointers to objects associated with this property page.
+description: Provides the property page with an array of pointers to objects associated with this property page.helpviewer_keywords: ["IPropertyPage interface [COM]","SetObjects method","IPropertyPage.SetObjects","IPropertyPage::SetObjects","SetObjects","SetObjects method [COM]","SetObjects method [COM]","IPropertyPage interface","_ctrl_ipropertypage_setobjects","com.ipropertypage_setobjects","ocidl/IPropertyPage::SetObjects"]
 old-location: com\ipropertypage_setobjects.htm
 tech.root: com
 ms.assetid: 0d7a73ce-8e3c-40c5-9040-6370df5edc2b

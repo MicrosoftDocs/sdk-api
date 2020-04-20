@@ -1,7 +1,7 @@
 ---
 UID: NF:npapi.NPGetDirectoryType
 title: NPGetDirectoryType function (npapi.h)
-description: Determines the type of a network directory.
+description: Determines the type of a network directory.helpviewer_keywords: ["NPGetDirectoryType","NPGetDirectoryType function [Security]","_mnp_npgetdirectorytype","npapi/NPGetDirectoryType","security.npgetdirectorytype"]
 old-location: security\npgetdirectorytype.htm
 tech.root: SecAuthN
 ms.assetid: 70ee5c14-1395-470a-970c-91a3d3ac0fd1

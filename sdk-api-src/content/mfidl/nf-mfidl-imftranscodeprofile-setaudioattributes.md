@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.SetAudioAttributes
 title: IMFTranscodeProfile::SetAudioAttributes (mfidl.h)
-description: Sets audio stream configuration settings in the transcode profile.
+description: Sets audio stream configuration settings in the transcode profile.helpviewer_keywords: ["IMFTranscodeProfile interface [Media Foundation]","SetAudioAttributes method","IMFTranscodeProfile.SetAudioAttributes","IMFTranscodeProfile::SetAudioAttributes","SetAudioAttributes","SetAudioAttributes method [Media Foundation]","SetAudioAttributes method [Media Foundation]","IMFTranscodeProfile interface","mf.imftranscodeprofile_setaudioattributes","mfidl/IMFTranscodeProfile::SetAudioAttributes"]
 old-location: mf\imftranscodeprofile_setaudioattributes.htm
 tech.root: medfound
 ms.assetid: 4118bb2b-8373-434a-896b-de5a1ba8c793

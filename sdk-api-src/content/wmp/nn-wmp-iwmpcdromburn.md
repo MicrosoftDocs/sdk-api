@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPCdromBurn
 title: IWMPCdromBurn (wmp.h)
-description: The IWMPCdromBurn interface provides methods to manage creating audio CDs.
+description: The IWMPCdromBurn interface provides methods to manage creating audio CDs.helpviewer_keywords: ["IWMPCdromBurn","IWMPCdromBurn interface [Windows Media Player]","IWMPCdromBurn interface [Windows Media Player]","described","IWMPCdromBurnInterface","wmp.iwmpcdromburn","wmp/IWMPCdromBurn"]
 old-location: wmp\iwmpcdromburn.htm
 tech.root: WMP
 ms.assetid: 45116a33-62f9-4c7d-b246-25905cbaf118

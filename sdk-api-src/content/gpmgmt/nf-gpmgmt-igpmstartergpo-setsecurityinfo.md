@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.SetSecurityInfo
 title: IGPMStarterGPO::SetSecurityInfo (gpmgmt.h)
-description: Sets the list of permissions for the Group Policy object (GPO).
+description: Sets the list of permissions for the Group Policy object (GPO).helpviewer_keywords: ["IGPMStarterGPO interface [GPMC]","SetSecurityInfo method","IGPMStarterGPO.SetSecurityInfo","IGPMStarterGPO::SetSecurityInfo","SetSecurityInfo","SetSecurityInfo method [GPMC]","SetSecurityInfo method [GPMC]","IGPMStarterGPO interface","gpmc.igpmstartergpo_setsecurityinfo","gpmgmt/IGPMStarterGPO::SetSecurityInfo"]
 old-location: gpmc\igpmstartergpo_setsecurityinfo.htm
 tech.root: gpmc
 ms.assetid: ad4df57f-29b3-4a18-922a-a0d4457703ad

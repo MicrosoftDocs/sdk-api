@@ -1,7 +1,7 @@
 ---
 UID: NF:qos2.QOSStopTrackingClient
 title: QOSStopTrackingClient function (qos2.h)
-description: The QOSStopTrackingClient function notifies the QoS subsystem to stop tracking a client that has previously used the QOSStartTrackingClient function. If a flow is currently in progress, this function will not affect it.
+description: The QOSStopTrackingClient function notifies the QoS subsystem to stop tracking a client that has previously used the QOSStartTrackingClient function. If a flow is currently in progress, this function will not affect it.helpviewer_keywords: ["QOSStopTrackingClient","QOSStopTrackingClient function [QOS]","qos.qosstoptrackingclient","qos2/QOSStopTrackingClient"]
 old-location: qos\qosstoptrackingclient.htm
 tech.root: QOS
 ms.assetid: 7db9971e-3b53-458e-81ff-94f355c49973

@@ -1,7 +1,7 @@
 ---
 UID: NE:codecapi.eAVDecDDOperationalMode
 title: eAVDecDDOperationalMode (codecapi.h)
-description: Specifies the compression control mode for a Dolby AC-3 audio stream. This enumeration is used with the AVDecDDOperationalMode property.
+description: Specifies the compression control mode for a Dolby AC-3 audio stream. This enumeration is used with the AVDecDDOperationalMode property.helpviewer_keywords: ["codecapi/eAVDecDDOperationalMode","codecapi/eAVDecDDOperationalMode_CUSTOM0","codecapi/eAVDecDDOperationalMode_CUSTOM1","codecapi/eAVDecDDOperationalMode_LINE","codecapi/eAVDecDDOperationalMode_NONE","codecapi/eAVDecDDOperationalMode_PORTABLE11","codecapi/eAVDecDDOperationalMode_PORTABLE14","codecapi/eAVDecDDOperationalMode_PORTABLE8","codecapi/eAVDecDDOperationalMode_RF","dshow.eavdecddoperationalmode","eAVDecDDOperationalMode","eAVDecDDOperationalMode enumeration [DirectShow]","eAVDecDDOperationalModeEnumeration","eAVDecDDOperationalMode_CUSTOM0","eAVDecDDOperationalMode_CUSTOM1","eAVDecDDOperationalMode_LINE","eAVDecDDOperationalMode_NONE","eAVDecDDOperationalMode_PORTABLE11","eAVDecDDOperationalMode_PORTABLE14","eAVDecDDOperationalMode_PORTABLE8","eAVDecDDOperationalMode_RF"]
 old-location: dshow\eavdecddoperationalmode.htm
 tech.root: DirectShow
 ms.assetid: 00d3f086-eaba-4bd2-ba77-401101e92570

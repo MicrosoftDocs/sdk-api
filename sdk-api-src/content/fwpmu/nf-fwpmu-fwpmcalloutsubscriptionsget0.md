@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmCalloutSubscriptionsGet0
 title: FwpmCalloutSubscriptionsGet0 function (fwpmu.h)
-description: Retrieves an array of all the current callout change notification subscriptions.
+description: Retrieves an array of all the current callout change notification subscriptions.helpviewer_keywords: ["FwpmCalloutSubscriptionsGet0","FwpmCalloutSubscriptionsGet0 function [Filtering]","fwp.fwpmcalloutsubscriptionsget0_func","fwpmu/FwpmCalloutSubscriptionsGet0"]
 old-location: fwp\fwpmcalloutsubscriptionsget0_func.htm
 tech.root: fwp
 ms.assetid: 72e51167-c69e-4412-b83e-c66f91c9b96e

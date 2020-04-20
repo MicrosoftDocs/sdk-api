@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetBleedBox
 title: IXpsOMPage::GetBleedBox (xpsobjectmodel.h)
-description: Gets the dimensions of the page's bleed box.
+description: Gets the dimensions of the page's bleed box.helpviewer_keywords: ["GetBleedBox","GetBleedBox method [XPS Documents and Packaging]","GetBleedBox method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetBleedBox method","IXpsOMPage.GetBleedBox","IXpsOMPage::GetBleedBox","xps.ixpsompage_getbleedbox","xpsobjectmodel/IXpsOMPage::GetBleedBox"]
 old-location: xps\ixpsompage_getbleedbox.htm
 tech.root: printdocs
 ms.assetid: 2ce82a0e-b01c-4c1e-8907-31f51dc51f10

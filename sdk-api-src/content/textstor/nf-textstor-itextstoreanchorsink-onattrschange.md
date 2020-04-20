@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnAttrsChange
 title: ITextStoreAnchorSink::OnAttrsChange (textstor.h)
-description: The ITextStoreAnchorSink::OnAttrsChange method is called when the value of one or more text attributes changes.
+description: The ITextStoreAnchorSink::OnAttrsChange method is called when the value of one or more text attributes changes.helpviewer_keywords: ["ITextStoreAnchorSink interface [Text Services Framework]","OnAttrsChange method","ITextStoreAnchorSink.OnAttrsChange","ITextStoreAnchorSink::OnAttrsChange","OnAttrsChange","OnAttrsChange method [Text Services Framework]","OnAttrsChange method [Text Services Framework]","ITextStoreAnchorSink interface","_tsf_itextstoreanchorsink_onattrschange_ref","textstor/ITextStoreAnchorSink::OnAttrsChange","tsf.itextstoreanchorsink_onattrschange"]
 old-location: tsf\itextstoreanchorsink_onattrschange.htm
 tech.root: TSF
 ms.assetid: aa7226dd-1d4a-44ed-94b7-b93813bca2f8

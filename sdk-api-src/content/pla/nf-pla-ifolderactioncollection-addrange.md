@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IFolderActionCollection.AddRange
 title: IFolderActionCollection::AddRange (pla.h)
-description: Adds one or more folder actions to the collection.
+description: Adds one or more folder actions to the collection.helpviewer_keywords: ["AddRange","AddRange method [PLA]","AddRange method [PLA]","IFolderActionCollection interface","IFolderActionCollection interface [PLA]","AddRange method","IFolderActionCollection.AddRange","IFolderActionCollection::AddRange","base.ifolderactioncollection_addrange","pla.ifolderactioncollection_addrange","pla/IFolderActionCollection::AddRange"]
 old-location: pla\ifolderactioncollection_addrange.htm
 tech.root: PLA
 ms.assetid: f3ecc5e6-a6d7-4c68-b8c2-8ff94c810545

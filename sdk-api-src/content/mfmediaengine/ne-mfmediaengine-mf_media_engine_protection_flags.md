@@ -1,7 +1,7 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_PROTECTION_FLAGS
 title: MF_MEDIA_ENGINE_PROTECTION_FLAGS (mfmediaengine.h)
-description: Contains flags that specify whether the Media Engine will play protected content, and whether the Media Engine will use the Protected Media Path (PMP).
+description: Contains flags that specify whether the Media Engine will play protected content, and whether the Media Engine will use the Protected Media Path (PMP).helpviewer_keywords: ["MF_MEDIA_ENGINE_ENABLE_PROTECTED_CONTENT","MF_MEDIA_ENGINE_PROTECTION_FLAGS","MF_MEDIA_ENGINE_PROTECTION_FLAGS enumeration [Media Foundation]","MF_MEDIA_ENGINE_USE_PMP_FOR_ALL_CONTENT","MF_MEDIA_ENGINE_USE_UNPROTECTED_PMP","mf.mf_media_engine_protection_flags","mfmediaengine/MF_MEDIA_ENGINE_ENABLE_PROTECTED_CONTENT","mfmediaengine/MF_MEDIA_ENGINE_PROTECTION_FLAGS","mfmediaengine/MF_MEDIA_ENGINE_USE_PMP_FOR_ALL_CONTENT","mfmediaengine/MF_MEDIA_ENGINE_USE_UNPROTECTED_PMP"]
 old-location: mf\mf_media_engine_protection_flags.htm
 tech.root: medfound
 ms.assetid: 02326325-F122-4D6A-8CA7-3B201378BC15

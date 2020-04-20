@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.waveOutOpen
 title: waveOutOpen function (mmeapi.h)
-description: The waveOutOpen function opens the given waveform-audio output device for playback.
+description: The waveOutOpen function opens the given waveform-audio output device for playback.helpviewer_keywords: ["_win32_waveOutOpen","mmeapi/waveOutOpen","multimedia.waveoutopen","waveOutOpen","waveOutOpen function [Windows Multimedia]"]
 old-location: multimedia\waveoutopen.htm
 tech.root: Multimedia
 ms.assetid: ef02221b-df45-4fc3-8d9d-f119fa802d34

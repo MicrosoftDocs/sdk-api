@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetVideoHandle
 title: IWRdsProtocolConnection::GetVideoHandle (wtsprotocol.h)
-description: Obtains the handle of the video device for the protocol.
+description: Obtains the handle of the video device for the protocol.helpviewer_keywords: ["GetVideoHandle","GetVideoHandle method [Remote Desktop Services]","GetVideoHandle method [Remote Desktop Services]","IWRdsProtocolConnection interface","IWRdsProtocolConnection interface [Remote Desktop Services]","GetVideoHandle method","IWRdsProtocolConnection.GetVideoHandle","IWRdsProtocolConnection::GetVideoHandle","termserv.iwrdsprotocolconnection_getvideohandle","wtsprotocol/IWRdsProtocolConnection::GetVideoHandle"]
 old-location: termserv\iwrdsprotocolconnection_getvideohandle.htm
 tech.root: TermServ
 ms.assetid: 069ee899-ae3a-4043-92b5-e193dbfe4f54

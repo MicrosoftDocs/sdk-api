@@ -1,7 +1,7 @@
 ---
 UID: NC:winwlx.PWLX_CHANGE_PASSWORD_NOTIFY
 title: PWLX_CHANGE_PASSWORD_NOTIFY (winwlx.h)
-description: Called by GINA to indicate it has changed a password.
+description: Called by GINA to indicate it has changed a password.helpviewer_keywords: ["PWLX_CHANGE_PASSWORD_NOTIFY","PWLX_CHANGE_PASSWORD_NOTIFY callback","WlxChangePasswordNotify","WlxChangePasswordNotify callback function [Security]","_gina_wlxchangepasswordnotify","security.wlxchangepasswordnotify","winwlx/WlxChangePasswordNotify"]
 old-location: security\wlxchangepasswordnotify.htm
 tech.root: SecAuthN
 ms.assetid: 53765f8f-50cb-40dd-888e-0e1ddbe76f7e

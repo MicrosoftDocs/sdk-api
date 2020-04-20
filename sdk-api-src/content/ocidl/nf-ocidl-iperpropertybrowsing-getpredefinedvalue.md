@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPerPropertyBrowsing.GetPredefinedValue
 title: IPerPropertyBrowsing::GetPredefinedValue (ocidl.h)
-description: Retrieves the value of the specified property that is associated with a predefined string name.
+description: Retrieves the value of the specified property that is associated with a predefined string name.helpviewer_keywords: ["GetPredefinedValue","GetPredefinedValue method [COM]","GetPredefinedValue method [COM]","IPerPropertyBrowsing interface","IPerPropertyBrowsing interface [COM]","GetPredefinedValue method","IPerPropertyBrowsing.GetPredefinedValue","IPerPropertyBrowsing::GetPredefinedValue","_ctrl_iperpropertybrowsing_getpredefinedvalue","com.iperpropertybrowsing_getpredefinedvalue","ocidl/IPerPropertyBrowsing::GetPredefinedValue"]
 old-location: com\iperpropertybrowsing_getpredefinedvalue.htm
 tech.root: com
 ms.assetid: a532ebed-3ed8-4b49-a17f-f542fdbd74ff

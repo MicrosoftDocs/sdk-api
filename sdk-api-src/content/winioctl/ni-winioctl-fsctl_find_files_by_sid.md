@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_FIND_FILES_BY_SID
 title: FSCTL_FIND_FILES_BY_SID
-description: Searches a directory for a file whose creator owner matches the specified SID.
+description: Searches a directory for a file whose creator owner matches the specified SID.helpviewer_keywords: ["FSCTL_FIND_FILES_BY_SID","FSCTL_FIND_FILES_BY_SID control","FSCTL_FIND_FILES_BY_SID control code [Files]","base.fsctl_find_files_by_sid","fs.fsctl_find_files_by_sid","winioctl/FSCTL_FIND_FILES_BY_SID"]
 old-location: fs\fsctl_find_files_by_sid.htm
 tech.root: FileIO
 ms.assetid: 10d46c2e-9403-4c8a-8847-f427fbc6c905

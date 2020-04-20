@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.RedrawWindow
 title: IWRdsProtocolConnectionCallback::RedrawWindow (wtsprotocol.h)
-description: Requests that the Remote Desktop Services service redraw the client window.
+description: Requests that the Remote Desktop Services service redraw the client window.helpviewer_keywords: ["IWRdsProtocolConnectionCallback interface [Remote Desktop Services]","RedrawWindow method","IWRdsProtocolConnectionCallback.RedrawWindow","IWRdsProtocolConnectionCallback::RedrawWindow","RedrawWindow","RedrawWindow method [Remote Desktop Services]","RedrawWindow method [Remote Desktop Services]","IWRdsProtocolConnectionCallback interface","termserv.iwrdsprotocolconnectioncallback_redrawwindow","wtsprotocol/IWRdsProtocolConnectionCallback::RedrawWindow"]
 old-location: termserv\iwrdsprotocolconnectioncallback_redrawwindow.htm
 tech.root: TermServ
 ms.assetid: 92d52015-c5b9-472e-898b-aca6f6e83620

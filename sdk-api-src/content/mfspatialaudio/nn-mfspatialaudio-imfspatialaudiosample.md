@@ -1,7 +1,7 @@
 ---
 UID: NN:mfspatialaudio.IMFSpatialAudioSample
 title: IMFSpatialAudioSample (mfspatialaudio.h)
-description: Represents a multimedia sample with spatial sound information. Every IMFSpatialAudioSample contains one or more IMFSpatialAudioObjectBuffer objects.
+description: Represents a multimedia sample with spatial sound information. Every IMFSpatialAudioSample contains one or more IMFSpatialAudioObjectBuffer objects.helpviewer_keywords: ["IMFSpatialAudioSample","IMFSpatialAudioSample interface [Media Foundation]","IMFSpatialAudioSample interface [Media Foundation]","described","mf.imfspatialaudiosample","mfspatialaudio/IMFSpatialAudioSample"]
 old-location: mf\imfspatialaudiosample.htm
 tech.root: medfound
 ms.assetid: EA0277BF-C9C8-42FE-9206-A87FC3C50A9F

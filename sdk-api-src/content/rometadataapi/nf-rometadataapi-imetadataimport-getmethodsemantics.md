@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetMethodSemantics
 title: IMetaDataImport::GetMethodSemantics (rometadataapi.h)
-description: Gets flags indicating the relationship between the method referenced by the specified MethodDef token and the paired property and event referenced by the specified EventProp token.
+description: Gets flags indicating the relationship between the method referenced by the specified MethodDef token and the paired property and event referenced by the specified EventProp token.helpviewer_keywords: ["GetMethodSemantics","GetMethodSemantics method [Windows Runtime]","GetMethodSemantics method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetMethodSemantics method","IMetaDataImport.GetMethodSemantics","IMetaDataImport::GetMethodSemantics","rometadataapi/IMetaDataImport::GetMethodSemantics","winrt.imetadataimport_getmethodsemantics"]
 old-location: winrt\imetadataimport_getmethodsemantics.htm
 tech.root: WinRT
 ms.assetid: b4133bf8-4ae4-43ad-8d07-4f7805e9ef2c

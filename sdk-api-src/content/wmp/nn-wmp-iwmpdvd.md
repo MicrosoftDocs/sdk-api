@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPDVD
 title: IWMPDVD (wmp.h)
-description: The IWMPDVD interface provides methods for working with DVDs.
+description: The IWMPDVD interface provides methods for working with DVDs.helpviewer_keywords: ["IWMPDVD","IWMPDVD interface [Windows Media Player]","IWMPDVD interface [Windows Media Player]","described","IWMPDVDInterface","wmp.iwmpdvd","wmp/IWMPDVD"]
 old-location: wmp\iwmpdvd.htm
 tech.root: WMP
 ms.assetid: d133f1e1-cbeb-403d-b247-9f495cb6f0f7

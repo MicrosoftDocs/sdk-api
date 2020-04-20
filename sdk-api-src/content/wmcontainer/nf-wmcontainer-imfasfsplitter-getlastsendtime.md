@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetLastSendTime
 title: IMFASFSplitter::GetLastSendTime (wmcontainer.h)
-description: Retrieves the send time of the last sample received.
+description: Retrieves the send time of the last sample received.helpviewer_keywords: ["59a6c53c-2cdf-4677-a5a3-4138f107f721","GetLastSendTime","GetLastSendTime method [Media Foundation]","GetLastSendTime method [Media Foundation]","IMFASFSplitter interface","IMFASFSplitter interface [Media Foundation]","GetLastSendTime method","IMFASFSplitter.GetLastSendTime","IMFASFSplitter::GetLastSendTime","mf.imfasfsplitter_getlastsendtime","wmcontainer/IMFASFSplitter::GetLastSendTime"]
 old-location: mf\imfasfsplitter_getlastsendtime.htm
 tech.root: medfound
 ms.assetid: 59a6c53c-2cdf-4677-a5a3-4138f107f721

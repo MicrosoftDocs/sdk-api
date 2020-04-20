@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtUpdateBookmark
 title: EvtUpdateBookmark function (winevt.h)
-description: Updates the bookmark with information that identifies the specified event.
+description: Updates the bookmark with information that identifies the specified event.helpviewer_keywords: ["EvtUpdateBookmark","EvtUpdateBookmark function [EventLog]","wes.evtupdatebookmark","winevt/EvtUpdateBookmark"]
 old-location: wes\evtupdatebookmark.htm
 tech.root: wes
 ms.assetid: aa31f0cf-b37a-40bb-922e-2b987b8a9dcf

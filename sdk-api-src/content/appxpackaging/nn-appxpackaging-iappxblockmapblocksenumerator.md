@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapBlocksEnumerator
 title: IAppxBlockMapBlocksEnumerator (appxpackaging.h)
-description: Enumerates the blocks from a block map in a single file.
+description: Enumerates the blocks from a block map in a single file.helpviewer_keywords: ["IAppxBlockMapBlocksEnumerator","IAppxBlockMapBlocksEnumerator interface [App packaging and management]","IAppxBlockMapBlocksEnumerator interface [App packaging and management]","described","appxpackaging/IAppxBlockMapBlocksEnumerator","appxpkg.iappxblockmapblocksenumerator"]
 old-location: appxpkg\iappxblockmapblocksenumerator.htm
 tech.root: appxpkg
 ms.assetid: E7678755-4779-4A64-A666-C5FFC4A7F37A

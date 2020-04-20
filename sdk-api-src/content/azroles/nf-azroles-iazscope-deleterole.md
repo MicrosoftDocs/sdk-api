@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope.DeleteRole
 title: IAzScope::DeleteRole (azroles.h)
-description: Removes the IAzRole object with the specified name from the IAzScope object.
+description: Removes the IAzRole object with the specified name from the IAzScope object.helpviewer_keywords: ["AzScope object [Security]","DeleteRole method","DeleteRole","DeleteRole method [Security]","DeleteRole method [Security]","AzScope object","DeleteRole method [Security]","IAzScope interface","IAzScope interface [Security]","DeleteRole method","IAzScope.DeleteRole","IAzScope::DeleteRole","azroles/IAzScope::DeleteRole","security.iazscope_deleterole"]
 old-location: security\iazscope_deleterole.htm
 tech.root: SecAuthZ
 ms.assetid: 9155c4f8-ad17-402e-80a1-3dcee044d2c4

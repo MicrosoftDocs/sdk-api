@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IVisualProperties.GetFont
 title: IVisualProperties::GetFont (shobjidl.h)
-description: Gets the current attributes set on the font.
+description: Gets the current attributes set on the font.helpviewer_keywords: ["GetFont","GetFont method [Windows Shell]","GetFont method [Windows Shell]","IVisualProperties interface","IVisualProperties interface [Windows Shell]","GetFont method","IVisualProperties.GetFont","IVisualProperties::GetFont","_shell_IVisualProperties_GetFont","shell.IVisualProperties_GetFont","shobjidl/IVisualProperties::GetFont"]
 old-location: shell\IVisualProperties_GetFont.htm
 tech.root: shell
 ms.assetid: d12e2091-37cb-4a9e-abfc-8795d18bddd2

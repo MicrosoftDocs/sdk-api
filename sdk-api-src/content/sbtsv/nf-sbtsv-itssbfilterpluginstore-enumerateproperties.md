@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbFilterPluginStore.EnumerateProperties
 title: ITsSbFilterPluginStore::EnumerateProperties (sbtsv.h)
-description: Enumerates a property set.
+description: Enumerates a property set.helpviewer_keywords: ["EnumerateProperties","EnumerateProperties method [Remote Desktop Services]","EnumerateProperties method [Remote Desktop Services]","ITsSbFilterPluginStore interface","ITsSbFilterPluginStore interface [Remote Desktop Services]","EnumerateProperties method","ITsSbFilterPluginStore.EnumerateProperties","ITsSbFilterPluginStore::EnumerateProperties","sbtsv/ITsSbFilterPluginStore::EnumerateProperties","termserv.itssbfilterpluginstore_enumerateproperties"]
 old-location: termserv\itssbfilterpluginstore_enumerateproperties.htm
 tech.root: TermServ
 ms.assetid: 0eb489d2-2644-4d34-83a7-132d28a7b871

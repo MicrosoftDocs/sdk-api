@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADs.GetInfoEx
 title: IADs::GetInfoEx (iads.h)
-description: The IADs::GetInfoEx method loads the values of specified properties of the ADSI object from the underlying directory store into the property cache.
+description: The IADs::GetInfoEx method loads the values of specified properties of the ADSI object from the underlying directory store into the property cache.helpviewer_keywords: ["GetInfoEx","GetInfoEx method [ADSI]","GetInfoEx method [ADSI]","IADs interface","IADs interface [ADSI]","GetInfoEx method","IADs.GetInfoEx","IADs::GetInfoEx","_ds_iads_getinfoex","adsi.iads__getinfoex","adsi.iads_getinfoex","iads/IADs::GetInfoEx"]
 old-location: adsi\iads_getinfoex.htm
 tech.root: adsi
 ms.assetid: 306ab953-890a-4ec9-8ec2-bea73888ea20

@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IReferenceClockTimerControl
 title: IReferenceClockTimerControl (strmif.h)
-description: The IReferenceClockTimerControl interface changes the timer period used by a reference clock. This interface is exposed by the DirectShow System Reference Clock.
+description: The IReferenceClockTimerControl interface changes the timer period used by a reference clock. This interface is exposed by the DirectShow System Reference Clock.helpviewer_keywords: ["IReferenceClockTimerControl","IReferenceClockTimerControl interface [DirectShow]","IReferenceClockTimerControl interface [DirectShow]","described","IReferenceClockTimerControlInterface","dshow.ireferenceclocktimercontrol","strmif/IReferenceClockTimerControl"]
 old-location: dshow\ireferenceclocktimercontrol.htm
 tech.root: DirectShow
 ms.assetid: 08638917-88b1-42f0-8324-ae6fb9afe5bd

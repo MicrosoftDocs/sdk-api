@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.LsaRemoveAccountRights
 title: LsaRemoveAccountRights function (ntsecapi.h)
-description: Removes one or more privileges from an account.
+description: Removes one or more privileges from an account.helpviewer_keywords: ["LsaRemoveAccountRights","LsaRemoveAccountRights function [Security]","_lsa_lsaremoveaccountrights","ntsecapi/LsaRemoveAccountRights","security.lsaremoveaccountrights"]
 old-location: security\lsaremoveaccountrights.htm
 tech.root: SecMgmt
 ms.assetid: ad250a01-7a24-4fae-975c-aa3e65731c82

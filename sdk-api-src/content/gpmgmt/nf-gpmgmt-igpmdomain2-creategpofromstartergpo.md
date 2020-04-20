@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.CreateGPOFromStarterGPO
 title: IGPMDomain2::CreateGPOFromStarterGPO (gpmgmt.h)
-description: Creates and retrieves a GPMGPO object from a GPMStarterGPO object.
+description: Creates and retrieves a GPMGPO object from a GPMStarterGPO object.helpviewer_keywords: ["CreateGPOFromStarterGPO","CreateGPOFromStarterGPO method [GPMC]","CreateGPOFromStarterGPO method [GPMC]","IGPMDomain2 interface","IGPMDomain2 interface [GPMC]","CreateGPOFromStarterGPO method","IGPMDomain2.CreateGPOFromStarterGPO","IGPMDomain2::CreateGPOFromStarterGPO","gpmc.igpmdomain2_creategpofromstartergpo","gpmgmt/IGPMDomain2::CreateGPOFromStarterGPO"]
 old-location: gpmc\igpmdomain2_creategpofromstartergpo.htm
 tech.root: gpmc
 ms.assetid: 3a74f763-a9f5-4e93-94fb-7ef2a116c82b

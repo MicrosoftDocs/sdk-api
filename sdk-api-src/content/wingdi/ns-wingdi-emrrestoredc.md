@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRRESTOREDC
 title: EMRRESTOREDC (wingdi.h)
-description: The EMRRESTOREDC structure contains members for the RestoreDC enhanced metafile record.
+description: The EMRRESTOREDC structure contains members for the RestoreDC enhanced metafile record.helpviewer_keywords: ["*PEMRRESTOREDC","EMRRESTOREDC","EMRRESTOREDC structure [Windows GDI]","PEMRRESTOREDC","PEMRRESTOREDC structure pointer [Windows GDI]","_win32_EMRRESTOREDC_str","gdi.emrrestoredc","wingdi/EMRRESTOREDC","wingdi/PEMRRESTOREDC"]
 old-location: gdi\emrrestoredc.htm
 tech.root: gdi
 ms.assetid: c56767bf-a13e-4215-9005-6e543f3e5a0d

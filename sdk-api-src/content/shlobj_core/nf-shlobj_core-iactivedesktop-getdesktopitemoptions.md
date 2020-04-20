@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetDesktopItemOptions
 title: IActiveDesktop::GetDesktopItemOptions (shlobj_core.h)
-description: Gets the options for the desktop item.
+description: Gets the options for the desktop item.helpviewer_keywords: ["GetDesktopItemOptions","GetDesktopItemOptions method [Legacy Windows Environment Features]","GetDesktopItemOptions method [Legacy Windows Environment Features]","IActiveDesktop interface","IActiveDesktop interface [Legacy Windows Environment Features]","GetDesktopItemOptions method","IActiveDesktop.GetDesktopItemOptions","IActiveDesktop::GetDesktopItemOptions","_win32_IActiveDesktop_GetDesktopItemOptions","lwef.iactivedesktop_getdesktopitemoptions","shell.iactivedesktop_getdesktopitemoptions","shlobj_core/IActiveDesktop::GetDesktopItemOptions"]
 old-location: lwef\iactivedesktop_getdesktopitemoptions.htm
 tech.root: lwef
 ms.assetid: 3717b67a-b028-44a9-af1c-a6a94b2d76d8

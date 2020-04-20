@@ -1,7 +1,7 @@
 ---
 UID: NF:winsnmp.SnmpEncodeMsg
 title: SnmpEncodeMsg function (winsnmp.h)
-description: The Microsoft WinSNMP implementation uses the parameters passed in the WinSNMP SnmpEncodeMsg function to encode an SNMP message.
+description: The Microsoft WinSNMP implementation uses the parameters passed in the WinSNMP SnmpEncodeMsg function to encode an SNMP message.helpviewer_keywords: ["SnmpEncodeMsg","SnmpEncodeMsg function [SNMP]","_snmp_snmpencodemsg","snmp.snmpencodemsg","winsnmp/SnmpEncodeMsg"]
 old-location: snmp\snmpencodemsg.htm
 tech.root: SNMP
 ms.assetid: 0c8ebf49-b59e-4483-a7cf-456794e24bd6

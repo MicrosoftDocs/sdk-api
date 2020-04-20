@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._PARTITION_INFORMATION_MBR
 title: PARTITION_INFORMATION_MBR
-description: Contains partition information specific to master boot record (MBR) disks.
+description: Contains partition information specific to master boot record (MBR) disks.helpviewer_keywords: ["*PPARTITION_INFORMATION_MBR","PARTITION_INFORMATION_MBR","PARTITION_INFORMATION_MBR structure [Files]","PPARTITION_INFORMATION_MBR","PPARTITION_INFORMATION_MBR structure pointer [Files]","_win32_partition_information_mbr_str","base.partition_information_mbr_str","fs.partition_information_mbr_str","winioctl/PARTITION_INFORMATION_MBR","winioctl/PPARTITION_INFORMATION_MBR"]
 old-location: fs\partition_information_mbr_str.htm
 tech.root: FileIO
 ms.assetid: 5b74b06f-ef4c-44ab-95c6-49c050faf1f4

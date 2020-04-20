@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFMediaSource.Start
 title: IMFMediaSource::Start (mfidl.h)
-description: Starts, seeks, or restarts the media source by specifying where to start playback.
+description: Starts, seeks, or restarts the media source by specifying where to start playback.helpviewer_keywords: ["0a5abafe-1525-4bda-946c-05a6145e57ee","IMFMediaSource interface [Media Foundation]","Start method","IMFMediaSource.Start","IMFMediaSource::Start","Start","Start method [Media Foundation]","Start method [Media Foundation]","IMFMediaSource interface","mf.imfmediasource_start","mfidl/IMFMediaSource::Start"]
 old-location: mf\imfmediasource_start.htm
 tech.root: medfound
 ms.assetid: 0a5abafe-1525-4bda-946c-05a6145e57ee

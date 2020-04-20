@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnSelectionChange
 title: IFileDialogEvents::OnSelectionChange (shobjidl_core.h)
-description: Called when the user changes the selection in the dialog's view.
+description: Called when the user changes the selection in the dialog's view.helpviewer_keywords: ["IFileDialogEvents interface [Windows Shell]","OnSelectionChange method","IFileDialogEvents.OnSelectionChange","IFileDialogEvents::OnSelectionChange","OnSelectionChange","OnSelectionChange method [Windows Shell]","OnSelectionChange method [Windows Shell]","IFileDialogEvents interface","shell.IFileDialogEvents_OnSelectionChange","shell_IFileDialogEvents_OnSelectionChange","shobjidl_core/IFileDialogEvents::OnSelectionChange"]
 old-location: shell\IFileDialogEvents_OnSelectionChange.htm
 tech.root: shell
 ms.assetid: 5fd69b1f-4e4b-4643-8429-9b5f98f3d702

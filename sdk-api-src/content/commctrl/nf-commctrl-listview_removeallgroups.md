@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_RemoveAllGroups
 title: ListView_RemoveAllGroups macro (commctrl.h)
-description: Removes all groups from a list-view control. You can use this macro or send the LVM_REMOVEALLGROUPS message explicitly.
+description: Removes all groups from a list-view control. You can use this macro or send the LVM_REMOVEALLGROUPS message explicitly.helpviewer_keywords: ["ListView_RemoveAllGroups","ListView_RemoveAllGroups macro [Windows Controls]","_win32_ListView_RemoveAllGroups","_win32_ListView_RemoveAllGroups_cpp","commctrl/ListView_RemoveAllGroups","controls.ListView_RemoveAllGroups","controls._win32_ListView_RemoveAllGroups"]
 old-location: controls\ListView_RemoveAllGroups.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_removeallgroups.htm

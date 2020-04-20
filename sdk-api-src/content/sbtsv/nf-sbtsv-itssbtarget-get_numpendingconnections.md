@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_NumPendingConnections
 title: ITsSbTarget::get_NumPendingConnections (sbtsv.h)
-description: Retrieves the number of pending user connections for the target.
+description: Retrieves the number of pending user connections for the target.helpviewer_keywords: ["ITsSbTarget interface [Remote Desktop Services]","NumPendingConnections property","ITsSbTarget.NumPendingConnections","ITsSbTarget.get_NumPendingConnections","ITsSbTarget::NumPendingConnections","ITsSbTarget::get_NumPendingConnections","ITsSbTargetEx interface [Remote Desktop Services]","NumPendingConnections property","ITsSbTargetEx.NumPendingConnections","ITsSbTargetEx::get_NumPendingConnections","NumPendingConnections property [Remote Desktop Services]","NumPendingConnections property [Remote Desktop Services]","ITsSbTarget interface","NumPendingConnections property [Remote Desktop Services]","ITsSbTargetEx interface","get_NumPendingConnections","sbtsv/ITsSbTarget::NumPendingConnections","sbtsv/ITsSbTarget::get_NumPendingConnections","sbtsv/ITsSbTargetEx::NumPendingConnections","sbtsv/ITsSbTargetEx::get_NumPendingConnections","termserv.itssbtarget_numpendingconnections"]
 old-location: termserv\itssbtarget_numpendingconnections.htm
 tech.root: TermServ
 ms.assetid: 6a910269-3023-4c81-999b-7ab8bb56dcc8

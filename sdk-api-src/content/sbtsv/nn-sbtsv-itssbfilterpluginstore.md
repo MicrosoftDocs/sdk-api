@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbFilterPluginStore
 title: ITsSbFilterPluginStore (sbtsv.h)
-description: Filter Plugin Store
+description: Filter Plugin Storehelpviewer_keywords: ["ITsSbFilterPluginStore","ITsSbFilterPluginStore interface [Remote Desktop Services]","ITsSbFilterPluginStore interface [Remote Desktop Services]","described","sbtsv/ITsSbFilterPluginStore","termserv.itssbfilterpluginstore"]
 old-location: termserv\itssbfilterpluginstore.htm
 tech.root: TermServ
 ms.assetid: 59541fc2-0063-41ca-bcfe-536bb1742c6e

@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_SetItemText
 title: ListView_SetItemText macro (commctrl.h)
-description: Changes the text of a list-view item or subitem. You can use this macro or send the LVM_SETITEMTEXT message explicitly.
+description: Changes the text of a list-view item or subitem. You can use this macro or send the LVM_SETITEMTEXT message explicitly.helpviewer_keywords: ["ListView_SetItemText","ListView_SetItemText macro [Windows Controls]","_win32_ListView_SetItemText","_win32_ListView_SetItemText_cpp","commctrl/ListView_SetItemText","controls.ListView_SetItemText","controls._win32_ListView_SetItemText"]
 old-location: controls\ListView_SetItemText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemtext.htm

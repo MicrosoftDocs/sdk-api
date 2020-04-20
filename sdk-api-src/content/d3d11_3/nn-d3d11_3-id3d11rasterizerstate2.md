@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11_3.ID3D11RasterizerState2
 title: ID3D11RasterizerState2 (d3d11_3.h)
-description: The rasterizer-state interface holds a description for rasterizer state that you can bind to the rasterizer stage. This rasterizer-state interface supports forced sample count and conservative rasterization mode.
+description: The rasterizer-state interface holds a description for rasterizer state that you can bind to the rasterizer stage. This rasterizer-state interface supports forced sample count and conservative rasterization mode.helpviewer_keywords: ["ID3D11RasterizerState2","ID3D11RasterizerState2 interface [Direct3D 11]","ID3D11RasterizerState2 interface [Direct3D 11]","described","d3d11_3/ID3D11RasterizerState2","direct3d11.id3d11rasterizerstate2"]
 old-location: direct3d11\id3d11rasterizerstate2.htm
 tech.root: direct3d11
 ms.assetid: 335D976C-9E7F-4EAE-B671-F99D1B31669B

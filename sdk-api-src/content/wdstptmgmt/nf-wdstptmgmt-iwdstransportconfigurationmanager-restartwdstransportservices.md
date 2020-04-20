@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.RestartWdsTransportServices
 title: IWdsTransportConfigurationManager::RestartWdsTransportServices (wdstptmgmt.h)
-description: Stops and then restarts any WDS transport services that are running. If no services are running, the method returns with S_OK without further action.
+description: Stops and then restarts any WDS transport services that are running. If no services are running, the method returns with S_OK without further action.helpviewer_keywords: ["IWdsTransportConfigurationManager interface [Windows Deployment Services]","RestartWdsTransportServices method","IWdsTransportConfigurationManager.RestartWdsTransportServices","IWdsTransportConfigurationManager::RestartWdsTransportServices","RestartWdsTransportServices","RestartWdsTransportServices method [Windows Deployment Services]","RestartWdsTransportServices method [Windows Deployment Services]","IWdsTransportConfigurationManager interface","wds.iwdstransportconfigurationmanager_restartwdstransportservices","wdstptmgmt/IWdsTransportConfigurationManager::RestartWdsTransportServices"]
 old-location: wds\iwdstransportconfigurationmanager_restartwdstransportservices.htm
 tech.root: wds
 ms.assetid: f0aa84fa-f2a6-4494-8994-89854565fd7b

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeBrushLocal
 title: IXpsOMPath::SetStrokeBrushLocal (xpsobjectmodel.h)
-description: Sets a pointer to a local, unshared IXpsOMBrush interface to be used as a stroke brush.
+description: Sets a pointer to a local, unshared IXpsOMBrush interface to be used as a stroke brush.helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetStrokeBrushLocal method","IXpsOMPath.SetStrokeBrushLocal","IXpsOMPath::SetStrokeBrushLocal","SetStrokeBrushLocal","SetStrokeBrushLocal method [XPS Documents and Packaging]","SetStrokeBrushLocal method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setstrokebrushlocal","xpsobjectmodel/IXpsOMPath::SetStrokeBrushLocal"]
 old-location: xps\ixpsompath_setstrokebrushlocal.htm
 tech.root: printdocs
 ms.assetid: 551bc4e2-2bf3-455b-a7f1-35b3b66697c0

@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.SetClusterServiceAccountPassword
 title: SetClusterServiceAccountPassword function (clusapi.h)
-description: Changes the password for the Cluster service user account on all available cluster nodes.
+description: Changes the password for the Cluster service user account on all available cluster nodes.helpviewer_keywords: ["CLUSTER_SET_PASSWORD_IGNORE_DOWN_NODES","PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD","PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD function [Failover Cluster]","SetClusterServiceAccountPassword","SetClusterServiceAccountPassword function [Failover Cluster]","_wolf_setclusterserviceaccountpassword","clusapi/PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD","clusapi/SetClusterServiceAccountPassword","mscs.setclusterserviceaccountpassword"]
 old-location: mscs\setclusterserviceaccountpassword.htm
 tech.root: MsCS
 ms.assetid: 4afadb62-2bea-46ef-b0d6-e327ac96d16f

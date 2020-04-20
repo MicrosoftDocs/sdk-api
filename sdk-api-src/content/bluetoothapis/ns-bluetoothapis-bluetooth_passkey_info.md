@@ -1,7 +1,7 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_PASSKEY_INFO
 title: BLUETOOTH_PASSKEY_INFO (bluetoothapis.h)
-description: BLUETOOTH_PASSKEY_INFO structure contains a passkey value used for authentication. A passkey is similar to a password, except that a passkey value is used for authentication only once.
+description: BLUETOOTH_PASSKEY_INFO structure contains a passkey value used for authentication. A passkey is similar to a password, except that a passkey value is used for authentication only once.helpviewer_keywords: ["*PBLUETOOTH_PASSKEY_INFO","BLUETOOTH_PASSKEY_INFO","BLUETOOTH_PASSKEY_INFO structure [Bluetooth]","PBLUETOOTH_PASSKEY_INFO","PBLUETOOTH_PASSKEY_INFO structure pointer [Bluetooth]","bluetooth.bluetooth_passkey_info","bluetoothapis/BLUETOOTH_PASSKEY_INFO","bluetoothapis/PBLUETOOTH_PASSKEY_INFO"]
 old-location: bluetooth\bluetooth_passkey_info.htm
 tech.root: bluetooth
 ms.assetid: 18f4c26a-7d71-4af0-a8df-a7722028ff62

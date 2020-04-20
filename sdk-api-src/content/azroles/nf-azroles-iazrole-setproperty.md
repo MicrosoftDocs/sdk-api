@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRole.SetProperty
 title: IAzRole::SetProperty (azroles.h)
-description: Sets the specified value to the IAzRole object property with the specified property ID.
+description: Sets the specified value to the IAzRole object property with the specified property ID.helpviewer_keywords: ["AZ_PROP_APPLICATION_DATA","AZ_PROP_DESCRIPTION","AZ_PROP_NAME","AzRole object [Security]","SetProperty method","IAzRole interface [Security]","SetProperty method","IAzRole.SetProperty","IAzRole::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","AzRole object","SetProperty method [Security]","IAzRole interface","azroles/IAzRole::SetProperty","security.iazrole_setproperty"]
 old-location: security\iazrole_setproperty.htm
 tech.root: SecAuthZ
 ms.assetid: 0f1c4abe-69cc-4672-8a74-eaaf55fc6e88

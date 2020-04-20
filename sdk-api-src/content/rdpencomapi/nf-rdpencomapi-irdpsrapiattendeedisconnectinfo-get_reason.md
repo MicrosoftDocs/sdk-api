@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeDisconnectInfo.get_Reason
 title: IRDPSRAPIAttendeeDisconnectInfo::get_Reason (rdpencomapi.h)
-description: The reason the attendee was disconnected.
+description: The reason the attendee was disconnected.helpviewer_keywords: ["IRDPSRAPIAttendeeDisconnectInfo interface [RDP]","Reason property","IRDPSRAPIAttendeeDisconnectInfo.Reason","IRDPSRAPIAttendeeDisconnectInfo.get_Reason","IRDPSRAPIAttendeeDisconnectInfo::Reason","IRDPSRAPIAttendeeDisconnectInfo::get_Reason","RDPSRAPIAttendeeDisconnectInfo object [RDP]","Reason property","Reason property [RDP]","Reason property [RDP]","IRDPSRAPIAttendeeDisconnectInfo interface","Reason property [RDP]","RDPSRAPIAttendeeDisconnectInfo object","get_Reason","rdp.irdpsrapiattendeedisconnectinfo_reason","rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::Reason","rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::get_Reason"]
 old-location: rdp\irdpsrapiattendeedisconnectinfo_reason.htm
 tech.root: rdp
 ms.assetid: 4445809f-1aad-4d76-9199-4d5246c7c83d

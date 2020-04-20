@@ -1,7 +1,7 @@
 ---
 UID: NN:oleidl.IViewObject
 title: IViewObject (oleidl.h)
-description: Enables an object to display itself directly without passing a data object to the caller. In addition, this interface can create and manage a connection with an advise sink so the caller can be notified of changes in the view object.
+description: Enables an object to display itself directly without passing a data object to the caller. In addition, this interface can create and manage a connection with an advise sink so the caller can be notified of changes in the view object.helpviewer_keywords: ["IViewObject","IViewObject interface [COM]","IViewObject interface [COM]","described","_ole_iviewobject","com.iviewobject","oleidl/IViewObject"]
 old-location: com\iviewobject.htm
 tech.root: com
 ms.assetid: 4310c987-3542-4a59-a6fb-951143001741

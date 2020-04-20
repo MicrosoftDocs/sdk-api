@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.StringFormatFlags
 title: StringFormatFlags (gdiplusenums.h)
-description: The StringFormatFlags enumeration specifies text layout information (such as orientation and clipping) and display manipulations (such as ellipsis insertion, digit substitution, and representation of characters that are not supported by a font).
+description: The StringFormatFlags enumeration specifies text layout information (such as orientation and clipping) and display manipulations (such as ellipsis insertion, digit substitution, and representation of characters that are not supported by a font).helpviewer_keywords: ["StringFormatFlags","StringFormatFlags enumeration [GDI+]","StringFormatFlagsDirectionRightToLeft","StringFormatFlagsDirectionVertical","StringFormatFlagsDisplayFormatControl","StringFormatFlagsLineLimit","StringFormatFlagsMeasureTrailingSpaces","StringFormatFlagsNoClip","StringFormatFlagsNoFitBlackBox","StringFormatFlagsNoFontFallback","StringFormatFlagsNoWrap","_gdiplus_ENUM_StringFormatFlags","gdiplus._gdiplus_ENUM_StringFormatFlags","gdiplusenums/StringFormatFlags","gdiplusenums/StringFormatFlagsDirectionRightToLeft","gdiplusenums/StringFormatFlagsDirectionVertical","gdiplusenums/StringFormatFlagsDisplayFormatControl","gdiplusenums/StringFormatFlagsLineLimit","gdiplusenums/StringFormatFlagsMeasureTrailingSpaces","gdiplusenums/StringFormatFlagsNoClip","gdiplusenums/StringFormatFlagsNoFitBlackBox","gdiplusenums/StringFormatFlagsNoFontFallback","gdiplusenums/StringFormatFlagsNoWrap"]
 old-location: gdiplus\_gdiplus_ENUM_StringFormatFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringformatflags.htm

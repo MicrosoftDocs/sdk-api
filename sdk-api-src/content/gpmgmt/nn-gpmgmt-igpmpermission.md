@@ -1,7 +1,7 @@
 ---
 UID: NN:gpmgmt.IGPMPermission
 title: IGPMPermission (gpmgmt.h)
-description: The IGPMPermission interface contains methods to retrieve permission-related properties when using the GPMC.
+description: The IGPMPermission interface contains methods to retrieve permission-related properties when using the GPMC.helpviewer_keywords: ["GPMPermission","IGPMPermission","IGPMPermission interface [GPMC]","IGPMPermission interface [GPMC]","described","_win32_igpmpermission","gpmc.igpmpermission","gpmgmt/IGPMPermission"]
 old-location: gpmc\igpmpermission.htm
 tech.root: gpmc
 ms.assetid: 7ac19065-571e-45f5-934f-35ddbf225262

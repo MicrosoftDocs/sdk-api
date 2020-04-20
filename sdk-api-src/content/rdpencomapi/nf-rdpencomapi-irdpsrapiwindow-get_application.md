@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Application
 title: IRDPSRAPIWindow::get_Application (rdpencomapi.h)
-description: Returns a pointer to the application object that the window belongs to.
+description: Returns a pointer to the application object that the window belongs to.helpviewer_keywords: ["Application property [RDP]","Application property [RDP]","IRDPSRAPIWindow interface","Application property [RDP]","RDPSRAPIWindow object","IRDPSRAPIWindow interface [RDP]","Application property","IRDPSRAPIWindow.Application","IRDPSRAPIWindow.get_Application","IRDPSRAPIWindow::Application","IRDPSRAPIWindow::get_Application","RDPSRAPIWindow object [RDP]","Application property","get_Application","rdp.irdpsrapiwindow_application","rdpencomapi/IRDPSRAPIWindow::Application","rdpencomapi/IRDPSRAPIWindow::get_Application"]
 old-location: rdp\irdpsrapiwindow_application.htm
 tech.root: rdp
 ms.assetid: a9c30288-c471-459e-b0df-a3da1fc58032

@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IMoniker
 title: IMoniker (objidl.h)
-description: Enables you to use a moniker object, which contains information that uniquely identifies a COM object.
+description: Enables you to use a moniker object, which contains information that uniquely identifies a COM object.helpviewer_keywords: ["IMoniker","IMoniker interface [COM]","IMoniker interface [COM]","described","_com_imoniker","com.imoniker","objidl/IMoniker"]
 old-location: com\imoniker.htm
 tech.root: com
 ms.assetid: 17f4c1df-7a9c-42ef-a888-70cd8d85f070

@@ -1,7 +1,7 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpoint
 title: IAudioEndpoint (audioengineendpoint.h)
-description: Provides information to the audio engine about an audio endpoint. This interface is implemented by an audio endpoint.
+description: Provides information to the audio engine about an audio endpoint. This interface is implemented by an audio endpoint.helpviewer_keywords: ["IAudioEndpoint","IAudioEndpoint interface [Remote Desktop Services]","IAudioEndpoint interface [Remote Desktop Services]","described","audioengineendpoint/IAudioEndpoint","termserv.iaudioendpoint"]
 old-location: termserv\iaudioendpoint.htm
 tech.root: TermServ
 ms.assetid: a1bb3fe4-6051-4b9c-8270-70375e700f01

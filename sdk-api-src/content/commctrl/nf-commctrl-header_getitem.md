@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Header_GetItem
 title: Header_GetItem macro (commctrl.h)
-description: Gets information about an item in a header control. You can use this macro or send the HDM_GETITEM message explicitly.
+description: Gets information about an item in a header control. You can use this macro or send the HDM_GETITEM message explicitly.helpviewer_keywords: ["Header_GetItem","Header_GetItem macro [Windows Controls]","_win32_Header_GetItem","_win32_Header_GetItem_cpp","commctrl/Header_GetItem","controls.Header_GetItem","controls._win32_Header_GetItem"]
 old-location: controls\Header_GetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitem.htm

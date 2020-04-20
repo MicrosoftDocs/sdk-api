@@ -1,7 +1,7 @@
 ---
 UID: NL:vsbackup.IVssBackupComponentsEx3
 title: IVssBackupComponentsEx3 (vsbackup.h)
-description: Defines additional methods that requesters can use to perform LUN resynchronization and return extended writer status information.
+description: Defines additional methods that requesters can use to perform LUN resynchronization and return extended writer status information.helpviewer_keywords: ["IVssBackupComponentsEx3","IVssBackupComponentsEx3 interface","IVssBackupComponentsEx3 interface","described","base.ivssbackupcomponentsex3","vsbackup/IVssBackupComponentsEx3"]
 old-location: base\ivssbackupcomponentsex3.htm
 tech.root: VSS
 ms.assetid: 56c8e7c2-2d94-4674-bd20-bf036991474f

@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsTrimXmlWhitespace
 title: WsTrimXmlWhitespace function (webservices.h)
-description: Removes leading and trailing whitespace from a sequence of characters.
+description: Removes leading and trailing whitespace from a sequence of characters.helpviewer_keywords: ["WsTrimXmlWhitespace","WsTrimXmlWhitespace function [Web Services for Windows]","webservices/WsTrimXmlWhitespace","wsw.wstrimxmlwhitespace"]
 old-location: wsw\wstrimxmlwhitespace.htm
 tech.root: wsw
 ms.assetid: afefbf03-27fc-4e0e-bba2-ce42cf9ab01d

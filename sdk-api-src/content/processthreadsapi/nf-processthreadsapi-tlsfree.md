@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.TlsFree
 title: TlsFree function (processthreadsapi.h)
-description: Releases a thread local storage (TLS) index, making it available for reuse.
+description: Releases a thread local storage (TLS) index, making it available for reuse.helpviewer_keywords: ["TlsFree","TlsFree function","_win32_tlsfree","base.tlsfree","processthreadsapi/TlsFree","winbase/TlsFree"]
 old-location: base\tlsfree.htm
 tech.root: ProcThread
 ms.assetid: f5b1e8fc-02eb-4a06-b606-2b647944029b

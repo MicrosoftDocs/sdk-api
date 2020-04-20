@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_encodedFrameRate
 title: IWMPNetwork::get_encodedFrameRate (wmp.h)
-description: The get_encodedFrameRate method retrieves the video frame rate specified by the content author.
+description: The get_encodedFrameRate method retrieves the video frame rate specified by the content author.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_encodedFrameRate method","IWMPNetwork.get_encodedFrameRate","IWMPNetwork::get_encodedFrameRate","IWMPNetworkget_encodedFrameRate","get_encodedFrameRate","get_encodedFrameRate method [Windows Media Player]","get_encodedFrameRate method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_encodedframerate","wmp/IWMPNetwork::get_encodedFrameRate"]
 old-location: wmp\iwmpnetwork_get_encodedframerate.htm
 tech.root: WMP
 ms.assetid: d42133cf-3b81-4d22-b83d-d8a5756d9d9c

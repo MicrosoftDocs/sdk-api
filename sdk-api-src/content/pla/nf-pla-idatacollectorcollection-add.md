@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorCollection.Add
 title: IDataCollectorCollection::Add (pla.h)
-description: Adds a data collector to the collection.
+description: Adds a data collector to the collection.helpviewer_keywords: ["Add","Add method [PLA]","Add method [PLA]","IDataCollectorCollection interface","IDataCollectorCollection interface [PLA]","Add method","IDataCollectorCollection.Add","IDataCollectorCollection::Add","base.idatacollectorcollection_add","pla.idatacollectorcollection_add","pla/IDataCollectorCollection::Add"]
 old-location: pla\idatacollectorcollection_add.htm
 tech.root: PLA
 ms.assetid: 6302e144-74ef-4251-a857-d3e066c9763d

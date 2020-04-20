@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITCallInfo.put_CallInfoBuffer
 title: ITCallInfo::put_CallInfoBuffer (tapi3if.h)
-description: The put_CallInfoBuffer method sets call information items which require a buffer, such as user-user information.
+description: The put_CallInfoBuffer method sets call information items which require a buffer, such as user-user information.helpviewer_keywords: ["ITCallInfo interface [TAPI 2.2]","put_CallInfoBuffer method","ITCallInfo.put_CallInfoBuffer","ITCallInfo::put_CallInfoBuffer","_tapi3_itcallinfo_put_callinfobuffer","put_CallInfoBuffer","put_CallInfoBuffer method [TAPI 2.2]","put_CallInfoBuffer method [TAPI 2.2]","ITCallInfo interface","tapi3.itcallinfo_put_callinfobuffer","tapi3if/ITCallInfo::put_CallInfoBuffer"]
 old-location: tapi3\itcallinfo_put_callinfobuffer.htm
 tech.root: Tapi
 ms.assetid: 4404ec08-2443-4d1a-8f94-5eb1b3315169

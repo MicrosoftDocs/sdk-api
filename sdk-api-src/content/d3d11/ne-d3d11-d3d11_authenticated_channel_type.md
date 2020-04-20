@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_AUTHENTICATED_CHANNEL_TYPE
 title: D3D11_AUTHENTICATED_CHANNEL_TYPE (d3d11.h)
-description: Specifies the type of Microsoft Direct3D authenticated channel.
+description: Specifies the type of Microsoft Direct3D authenticated channel.helpviewer_keywords: ["D3D11_AUTHENTICATED_CHANNEL_D3D11","D3D11_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE","D3D11_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE","D3D11_AUTHENTICATED_CHANNEL_TYPE","D3D11_AUTHENTICATED_CHANNEL_TYPE enumeration [Media Foundation]","d3d11/D3D11_AUTHENTICATED_CHANNEL_D3D11","d3d11/D3D11_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE","d3d11/D3D11_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE","d3d11/D3D11_AUTHENTICATED_CHANNEL_TYPE","mf.d3d11_authenticated_channel_type"]
 old-location: mf\d3d11_authenticated_channel_type.htm
 tech.root: medfound
 ms.assetid: 4B4E8AA9-5FFE-4ADB-AC83-89FE1BCE27EB

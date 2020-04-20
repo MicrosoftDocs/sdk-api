@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbOrchestrationNotifySink.OnReadyToConnect
 title: ITsSbOrchestrationNotifySink::OnReadyToConnect (sbtsv.h)
-description: Returns an ITsSbTarget object to Remote Desktop Connection Broker (RD Connection Broker) after the target is successfully prepared for a connection.
+description: Returns an ITsSbTarget object to Remote Desktop Connection Broker (RD Connection Broker) after the target is successfully prepared for a connection.helpviewer_keywords: ["ITsSbOrchestrationNotifySink interface [Remote Desktop Services]","OnReadyToConnect method","ITsSbOrchestrationNotifySink.OnReadyToConnect","ITsSbOrchestrationNotifySink::OnReadyToConnect","OnReadyToConnect","OnReadyToConnect method [Remote Desktop Services]","OnReadyToConnect method [Remote Desktop Services]","ITsSbOrchestrationNotifySink interface","sbtsv/ITsSbOrchestrationNotifySink::OnReadyToConnect","termserv.itssborchestrationnotifysink_onreadytoconnect"]
 old-location: termserv\itssborchestrationnotifysink_onreadytoconnect.htm
 tech.root: TermServ
 ms.assetid: 781cb67c-75bb-4d3c-8b86-fddbe9511255

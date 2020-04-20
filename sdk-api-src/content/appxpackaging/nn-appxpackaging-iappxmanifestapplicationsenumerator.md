@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxManifestApplicationsEnumerator
 title: IAppxManifestApplicationsEnumerator (appxpackaging.h)
-description: Enumerates the applications defined in the package manifest.
+description: Enumerates the applications defined in the package manifest.helpviewer_keywords: ["IAppxManifestApplicationsEnumerator","IAppxManifestApplicationsEnumerator interface [App packaging and management]","IAppxManifestApplicationsEnumerator interface [App packaging and management]","described","appxpackaging/IAppxManifestApplicationsEnumerator","appxpkg.iappxmanifestapplicationsenumerator"]
 old-location: appxpkg\iappxmanifestapplicationsenumerator.htm
 tech.root: appxpkg
 ms.assetid: 49955DE0-A6BE-4FD7-B8E3-E4126B3C4B8F

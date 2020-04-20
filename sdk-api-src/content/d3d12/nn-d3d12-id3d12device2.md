@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12Device2
 title: ID3D12Device2 (d3d12.h)
-description: Represents a virtual adapter. This interface extends ID3D12Device1 to create pipeline state objects from pipeline state stream descriptions.
+description: Represents a virtual adapter. This interface extends ID3D12Device1 to create pipeline state objects from pipeline state stream descriptions.helpviewer_keywords: ["ID3D12Device2","ID3D12Device2 interface","ID3D12Device2 interface","described","d3d12/ID3D12Device2","direct3d12.id3d12device2"]
 old-location: direct3d12\id3d12device2.htm
 tech.root: direct3d12
 ms.assetid: 86C46FD2-7B1D-4F66-97F7-45F9428C5E1E

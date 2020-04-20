@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMStreamSelect.Enable
 title: IAMStreamSelect::Enable (strmif.h)
-description: The Enable method enables or disables a given stream.
+description: The Enable method enables or disables a given stream.helpviewer_keywords: ["Enable","Enable method [DirectShow]","Enable method [DirectShow]","IAMStreamSelect interface","IAMStreamSelect interface [DirectShow]","Enable method","IAMStreamSelect.Enable","IAMStreamSelect::Enable","IAMStreamSelectEnable","dshow.iamstreamselect_enable","strmif/IAMStreamSelect::Enable"]
 old-location: dshow\iamstreamselect_enable.htm
 tech.root: DirectShow
 ms.assetid: ac17a218-34a4-49aa-9b4d-cb34f3c2a5d3

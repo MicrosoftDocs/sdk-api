@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpV6GetStatelessStoreParams
 title: DhcpV6GetStatelessStoreParams function (dhcpsapi.h)
-description: Retrieves the current DHCPv6 stateless client inventory configuration settings at the server or scope level.
+description: Retrieves the current DHCPv6 stateless client inventory configuration settings at the server or scope level.helpviewer_keywords: ["DhcpV6GetStatelessStoreParams","DhcpV6GetStatelessStoreParams function [DHCP]","dhcp.dhcpv6getstatelessstoreparams","dhcpsapi/DhcpV6GetStatelessStoreParams"]
 old-location: dhcp\dhcpv6getstatelessstoreparams.htm
 tech.root: DHCP
 ms.assetid: 80a32132-a032-452f-9438-52a1eb280fdf

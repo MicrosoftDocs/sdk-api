@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHFree
 title: SHFree function (shlobj_core.h)
-description: Frees the memory allocated by SHAlloc.
+description: Frees the memory allocated by SHAlloc.helpviewer_keywords: ["SHFree","SHFree function [Windows Shell]","_win32_SHFree","shell.SHFree","shlobj_core/SHFree"]
 old-location: shell\SHFree.htm
 tech.root: shell
 ms.assetid: c9a532ad-ae24-4505-9e7b-577b90365441

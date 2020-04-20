@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11_4.D3D11_FEATURE_VIDEO
 title: D3D11_FEATURE_VIDEO
-description: Specifies a Direct3D 11 video feature or feature set to query about.
+description: Specifies a Direct3D 11 video feature or feature set to query about.helpviewer_keywords: ["D3D11_FEATURE_VIDEO"]
 tech.root: mf
 ms.date: 4/26/2019
 ms.keywords: D3D11_FEATURE_VIDEO

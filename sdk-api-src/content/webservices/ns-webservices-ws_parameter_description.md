@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_PARAMETER_DESCRIPTION
 title: WS_PARAMETER_DESCRIPTION (webservices.h)
-description: The index of the parameters in the incoming/outgoing messages field descriptions.
+description: The index of the parameters in the incoming/outgoing messages field descriptions.helpviewer_keywords: ["WS_PARAMETER_DESCRIPTION","WS_PARAMETER_DESCRIPTION structure [Web Services for Windows]","webservices/WS_PARAMETER_DESCRIPTION","wsw.ws_parameter_description"]
 old-location: wsw\ws_parameter_description.htm
 tech.root: wsw
 ms.assetid: 357ac313-7ad2-411f-802e-d08ecf648710

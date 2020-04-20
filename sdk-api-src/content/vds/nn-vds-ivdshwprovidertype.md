@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsHwProviderType
 title: IVdsHwProviderType (vds.h)
-description: Provides a method to retrieve the type of hardware provider.
+description: Provides a method to retrieve the type of hardware provider.helpviewer_keywords: ["IVdsHwProviderType","IVdsHwProviderType interface [VDS]","IVdsHwProviderType interface [VDS]","described","base.ivdshwprovidertype","vds/IVdsHwProviderType","vdshwprv/IVdsHwProviderType"]
 old-location: base\ivdshwprovidertype.htm
 tech.root: VDS
 ms.assetid: 24bd634e-96e1-4f2a-a70b-3aae734c75f9

@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.FreeBuffer
 title: IRDPSRAPIAudioStream::FreeBuffer (rdpencomapi.h)
-description: Releases the hold on the buffer after the GetBuffer method is called.
+description: Releases the hold on the buffer after the GetBuffer method is called.helpviewer_keywords: ["FreeBuffer","FreeBuffer method [RDP]","FreeBuffer method [RDP]","IRDPSRAPIAudioStream interface","IRDPSRAPIAudioStream interface [RDP]","FreeBuffer method","IRDPSRAPIAudioStream.FreeBuffer","IRDPSRAPIAudioStream::FreeBuffer","rdp.irdpsrapiaudiostream_freebuffer","rdpencomapi/IRDPSRAPIAudioStream::FreeBuffer"]
 old-location: rdp\irdpsrapiaudiostream_freebuffer.htm
 tech.root: rdp
 ms.assetid: 03926ABF-D5D0-4D13-B081-0085EC698E9F

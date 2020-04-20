@@ -1,7 +1,7 @@
 ---
 UID: NF:virtdisk.SetVirtualDiskInformation
 title: SetVirtualDiskInformation function (virtdisk.h)
-description: Sets information about a virtual hard disk (VHD).
+description: Sets information about a virtual hard disk (VHD).helpviewer_keywords: ["SetVirtualDiskInformation","SetVirtualDiskInformation function [VHD]","vdssys/SetVirtualDiskInformation","vhd.setvirtualdiskinformation","virtdisk/SetVirtualDiskInformation"]
 old-location: vhd\setvirtualdiskinformation.htm
 tech.root: VStor
 ms.assetid: bd4bee14-6812-4a28-8c44-2b8e8d42e697

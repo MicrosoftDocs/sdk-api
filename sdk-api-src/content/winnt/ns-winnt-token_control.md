@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._TOKEN_CONTROL
 title: TOKEN_CONTROL (winnt.h)
-description: Contains information that identifies an access token.
+description: Contains information that identifies an access token.helpviewer_keywords: ["*PTOKEN_CONTROL","PTOKEN_CONTROL","PTOKEN_CONTROL structure pointer [Security]","TOKEN_CONTROL","TOKEN_CONTROL structure [Security]","_TOKEN_CONTROL","_win32_token_control_str","security.token_control","winnt/PTOKEN_CONTROL","winnt/TOKEN_CONTROL"]
 old-location: security\token_control.htm
 tech.root: SecAuthZ
 ms.assetid: b87c942b-8e58-471d-8cdf-e46cdac647c4

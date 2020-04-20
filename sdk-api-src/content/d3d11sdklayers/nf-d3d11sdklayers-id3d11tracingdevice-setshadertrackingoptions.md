@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11TracingDevice.SetShaderTrackingOptions
 title: ID3D11TracingDevice::SetShaderTrackingOptions (d3d11sdklayers.h)
-description: Sets the reference rasterizer's race-condition tracking options for a specific shader.
+description: Sets the reference rasterizer's race-condition tracking options for a specific shader.helpviewer_keywords: ["ID3D11TracingDevice interface [Direct3D 11]","SetShaderTrackingOptions method","ID3D11TracingDevice.SetShaderTrackingOptions","ID3D11TracingDevice::SetShaderTrackingOptions","SetShaderTrackingOptions","SetShaderTrackingOptions method [Direct3D 11]","SetShaderTrackingOptions method [Direct3D 11]","ID3D11TracingDevice interface","d3d11sdklayers/ID3D11TracingDevice::SetShaderTrackingOptions","direct3d11.id3d11tracingdevice_setshadertrackingoptions"]
 old-location: direct3d11\id3d11tracingdevice_setshadertrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: F62FCA38-AE44-427B-95B4-252AE800845C

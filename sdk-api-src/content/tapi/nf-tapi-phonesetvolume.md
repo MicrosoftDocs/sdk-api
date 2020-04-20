@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.phoneSetVolume
 title: phoneSetVolume function (tapi.h)
-description: The phoneSetVolume function sets the volume of the speaker component of the specified hookswitch device to the specified level.
+description: The phoneSetVolume function sets the volume of the speaker component of the specified hookswitch device to the specified level.helpviewer_keywords: ["_tapi2_phonesetvolume","phoneSetVolume","phoneSetVolume function [TAPI 2.2]","tapi/phoneSetVolume","tapi2.phonesetvolume"]
 old-location: tapi2\phonesetvolume.htm
 tech.root: Tapi
 ms.assetid: 114aba48-f058-47c9-9ee7-493bd758b8a6

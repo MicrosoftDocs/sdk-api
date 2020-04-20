@@ -1,7 +1,7 @@
 ---
 UID: NS:nb30._NCB
 title: NCB (nb30.h)
-description: The NCB structure represents a network control block.
+description: The NCB structure represents a network control block.helpviewer_keywords: ["*PNCB","NCB","NCB structure [NetBIOS]","PNCB","PNCB structure pointer [NetBIOS]","nb30/NCB","nb30/PNCB","netbios.ncb"]
 old-location: netbios\ncb.htm
 tech.root: NetBIOS
 ms.assetid: e3fcca1c-8057-41c4-80a5-d1e67920d88c

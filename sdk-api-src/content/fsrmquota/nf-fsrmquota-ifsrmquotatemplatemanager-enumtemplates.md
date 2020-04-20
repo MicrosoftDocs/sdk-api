@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateManager.EnumTemplates
 title: IFsrmQuotaTemplateManager::EnumTemplates (fsrmquota.h)
-description: Enumerates the quota templates on the server.
+description: Enumerates the quota templates on the server.helpviewer_keywords: ["EnumTemplates","EnumTemplates method [File Server Resource Manager]","EnumTemplates method [File Server Resource Manager]","FsrmQuotaTemplateManager class","EnumTemplates method [File Server Resource Manager]","IFsrmQuotaTemplateManager interface","FsrmQuotaTemplateManager class [File Server Resource Manager]","EnumTemplates method","IFsrmQuotaTemplateManager interface [File Server Resource Manager]","EnumTemplates method","IFsrmQuotaTemplateManager.EnumTemplates","IFsrmQuotaTemplateManager::EnumTemplates","fs.ifsrmquotatemplatemanager_enumtemplates","fsrm.ifsrmquotatemplatemanager_enumtemplates","fsrmquota/IFsrmQuotaTemplateManager::EnumTemplates"]
 old-location: fsrm\ifsrmquotatemplatemanager_enumtemplates.htm
 tech.root: fsrm
 ms.assetid: e5f5b94a-6b17-4379-9141-07ec70a830e9

@@ -1,7 +1,7 @@
 ---
 UID: NE:dxvahd._DXVAHD_ALPHA_FILL_MODE
 title: DXVAHD_ALPHA_FILL_MODE (dxvahd.h)
-description: Specifies how the output alpha values are calculated for Microsoft DirectX Video Acceleration High Definition (DXVA-HD) blit operations.
+description: Specifies how the output alpha values are calculated for Microsoft DirectX Video Acceleration High Definition (DXVA-HD) blit operations.helpviewer_keywords: ["DXVAHD_ALPHA_FILL_MODE","DXVAHD_ALPHA_FILL_MODE enumeration [Media Foundation]","DXVAHD_ALPHA_FILL_MODE_BACKGROUND","DXVAHD_ALPHA_FILL_MODE_DESTINATION","DXVAHD_ALPHA_FILL_MODE_OPAQUE","DXVAHD_ALPHA_FILL_MODE_SOURCE_STREAM","dxvahd/DXVAHD_ALPHA_FILL_MODE","dxvahd/DXVAHD_ALPHA_FILL_MODE_BACKGROUND","dxvahd/DXVAHD_ALPHA_FILL_MODE_DESTINATION","dxvahd/DXVAHD_ALPHA_FILL_MODE_OPAQUE","dxvahd/DXVAHD_ALPHA_FILL_MODE_SOURCE_STREAM","mf.dxvahd_alpha_fill_mode"]
 old-location: mf\dxvahd_alpha_fill_mode.htm
 tech.root: medfound
 ms.assetid: f5e9f37e-5600-4139-86b2-7f63c2981b69

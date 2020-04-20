@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.graphics.directx.direct3d11.interop.CreateDirect3D11DeviceFromDXGIDevice
 title: CreateDirect3D11DeviceFromDXGIDevice function
-description: Creates an instance of IDirect3DDevice from an IDXGIDevice.
+description: Creates an instance of IDirect3DDevice from an IDXGIDevice.helpviewer_keywords: ["DF768592-3A0D-4FEA-AE30-CDD5406CAC9D","CreateDirect3D11DeviceFromDXGIDevice","CreateDirect3D11DeviceFromDXGIDevice function [Direct3D 11]","windows.graphics.directx.direct3d11.interop/CreateDirect3D11DeviceFromDXGIDevice","direct3d11.createdirect3d11devicefromdxgidevice"]
 tech.root: winrt
 ms.assetid: DF768592-3A0D-4FEA-AE30-CDD5406CAC9D
 ms.date: 05/13/2019

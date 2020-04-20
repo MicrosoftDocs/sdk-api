@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IIsdbAudioComponentDescriptor
 title: IIsdbAudioComponentDescriptor (dvbsiparser.h)
-description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor.
+description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor.helpviewer_keywords: ["IIsdbAudioComponentDescriptor","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IIsdbAudioComponentDescriptor","mstv.iisdbaudiocomponentdescriptor"]
 old-location: mstv\iisdbaudiocomponentdescriptor.htm
 tech.root: mstv
 ms.assetid: f771b318-5fd5-4c7f-a22b-6966aec5c0fa

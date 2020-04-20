@@ -1,7 +1,7 @@
 ---
 UID: NS:winbase._FILE_ATTRIBUTE_TAG_INFO
 title: FILE_ATTRIBUTE_TAG_INFO (winbase.h)
-description: Receives the requested file attribute information. Used for any handles.
+description: Receives the requested file attribute information. Used for any handles.helpviewer_keywords: ["*PFILE_ATTRIBUTE_TAG_INFO","FILE_ATTRIBUTE_TAG_INFO","FILE_ATTRIBUTE_TAG_INFO structure [Files]","PFILE_ATTRIBUTE_TAG_INFO","PFILE_ATTRIBUTE_TAG_INFO structure pointer [Files]","fileextd/FILE_ATTRIBUTE_TAG_INFO","fileextd/PFILE_ATTRIBUTE_TAG_INFO","fs.file_attribute_tag_info","winbase/FILE_ATTRIBUTE_TAG_INFO","winbase/PFILE_ATTRIBUTE_TAG_INFO"]
 old-location: fs\file_attribute_tag_info.htm
 tech.root: FileIO
 ms.assetid: 4a2467a2-c22a-4ee6-a40e-5603ea381adc

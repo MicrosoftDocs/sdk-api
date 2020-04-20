@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.IEnumTfDisplayAttributeInfo
 title: IEnumTfDisplayAttributeInfo (msctf.h)
-description: The IEnumTfDisplayAttributeInfo interface is implemented by the TSF manager to provide an enumeration of display attribute information objects.
+description: The IEnumTfDisplayAttributeInfo interface is implemented by the TSF manager to provide an enumeration of display attribute information objects.helpviewer_keywords: ["IEnumTfDisplayAttributeInfo","IEnumTfDisplayAttributeInfo interface [Text Services Framework]","IEnumTfDisplayAttributeInfo interface [Text Services Framework]","described","_tsf_ienumtfdisplayattributeinfo_ref","msctf/IEnumTfDisplayAttributeInfo","tsf.ienumtfdisplayattributeinfo"]
 old-location: tsf\ienumtfdisplayattributeinfo.htm
 tech.root: TSF
 ms.assetid: b222deb8-22dd-44c3-9ecc-0fb379682796

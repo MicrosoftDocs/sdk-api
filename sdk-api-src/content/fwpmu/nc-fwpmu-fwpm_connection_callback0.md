@@ -1,7 +1,7 @@
 ---
 UID: NC:fwpmu.FWPM_CONNECTION_CALLBACK0
 title: FWPM_CONNECTION_CALLBACK0 (fwpmu.h)
-description: Is used to add custom behavior to the connection object subscription process.
+description: Is used to add custom behavior to the connection object subscription process.helpviewer_keywords: ["FWPM_CONNECTION_CALLBACK0","FWPM_CONNECTION_CALLBACK0 callback","FWPM_CONNECTION_CALLBACK0 callback function [Filtering]","fwp.fwpm_connection_callback0","fwpmu/FWPM_CONNECTION_CALLBACK0"]
 old-location: fwp\fwpm_connection_callback0.htm
 tech.root: fwp
 ms.assetid: 92aac379-6145-4556-a4cd-6a27fda4d910

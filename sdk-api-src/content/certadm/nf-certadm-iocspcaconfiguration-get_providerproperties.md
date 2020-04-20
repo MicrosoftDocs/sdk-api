@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_ProviderProperties
 title: IOCSPCAConfiguration::get_ProviderProperties (certadm.h)
-description: Gets or sets information that provides certificate status responses.
+description: Gets or sets information that provides certificate status responses.helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","ProviderProperties property","IOCSPCAConfiguration.ProviderProperties","IOCSPCAConfiguration.get_ProviderProperties","IOCSPCAConfiguration::ProviderProperties","IOCSPCAConfiguration::get_ProviderProperties","IOCSPCAConfiguration::put_ProviderProperties","ProviderProperties property [Security]","ProviderProperties property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::ProviderProperties","certadm/IOCSPCAConfiguration::get_ProviderProperties","certadm/IOCSPCAConfiguration::put_ProviderProperties","get_ProviderProperties","security.iocspcaconfiguration_providerproperties_method"]
 old-location: security\iocspcaconfiguration_providerproperties_method.htm
 tech.root: SecCrypto
 ms.assetid: 60ac0123-9696-4893-ae2a-278b4e70c098

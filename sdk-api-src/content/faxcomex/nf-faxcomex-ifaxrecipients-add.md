@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxRecipients.Add
 title: IFaxRecipients::Add (faxcomex.h)
-description: The IFaxRecipients::Add method adds a new FaxRecipient object to the FaxRecipients collection.
+description: The IFaxRecipients::Add method adds a new FaxRecipient object to the FaxRecipients collection.helpviewer_keywords: ["Add","Add method [Fax Service]","Add method [Fax Service]","IFaxRecipients interface","IFaxRecipients interface [Fax Service]","Add method","IFaxRecipients.Add","IFaxRecipients::Add","_mfax_faxrecipients.add","fax._mfax_faxrecipients_add","fax._mfax_faxrecipients_cpp_mfax_faxrecipients_add_cpp","faxcomex/IFaxRecipients::Add"]
 old-location: fax\_mfax_faxrecipients_cpp_mfax_faxrecipients_add_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_73l0.htm

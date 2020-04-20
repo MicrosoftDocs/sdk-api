@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothEnableDiscovery
 title: BluetoothEnableDiscovery function (bluetoothapis.h)
-description: The BluetoothEnableDiscovery function changes the discovery state of a local Bluetooth radio or radios.
+description: The BluetoothEnableDiscovery function changes the discovery state of a local Bluetooth radio or radios.helpviewer_keywords: ["BluetoothEnableDiscovery","BluetoothEnableDiscovery function [Bluetooth]","bluetooth.bluetoothenablediscovery","bluetoothapis/BluetoothEnableDiscovery"]
 old-location: bluetooth\bluetoothenablediscovery.htm
 tech.root: bluetooth
 ms.assetid: ca28c9cd-a271-48fa-901c-e99e063854d5

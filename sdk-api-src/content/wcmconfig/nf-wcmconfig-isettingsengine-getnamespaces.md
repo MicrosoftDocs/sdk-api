@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetNamespaces
 title: ISettingsEngine::GetNamespaces (wcmconfig.h)
-description: Returns an enumerator to the installed namespaces.
+description: Returns an enumerator to the installed namespaces.helpviewer_keywords: ["GetNamespaces","GetNamespaces method [SMI]","GetNamespaces method [SMI]","ISettingsEngine interface","ISettingsEngine interface [SMI]","GetNamespaces method","ISettingsEngine.GetNamespaces","ISettingsEngine::GetNamespaces","smi.isettingsengine_getnamespaces","wcmconfig/ISettingsEngine::GetNamespaces"]
 old-location: smi\isettingsengine_getnamespaces.htm
 tech.root: SMI
 ms.assetid: 0beb20a5-3dbf-48c8-9b0c-aa3dd094b59d

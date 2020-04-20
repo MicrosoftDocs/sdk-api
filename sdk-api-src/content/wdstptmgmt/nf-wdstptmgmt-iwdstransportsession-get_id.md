@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_Id
 title: IWdsTransportSession::get_Id (wdstptmgmt.h)
-description: Receives a unique session ID that identifies this session on the server.
+description: Receives a unique session ID that identifies this session on the server.helpviewer_keywords: ["IWdsTransportSession interface [Windows Deployment Services]","Id property","IWdsTransportSession.Id","IWdsTransportSession.get_Id","IWdsTransportSession::Id","IWdsTransportSession::get_Id","Id property [Windows Deployment Services]","Id property [Windows Deployment Services]","IWdsTransportSession interface","get_Id","wds.iwdstransportsession_id","wdstptmgmt/IWdsTransportSession::Id","wdstptmgmt/IWdsTransportSession::get_Id"]
 old-location: wds\iwdstransportsession_id.htm
 tech.root: wds
 ms.assetid: 78d2832f-706e-4d4e-90f5-762026ef69ae

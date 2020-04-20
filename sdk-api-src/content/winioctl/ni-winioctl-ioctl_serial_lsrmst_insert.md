@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_SERIAL_LSRMST_INSERT
 title: IOCTL_SERIAL_LSRMST_INSERT
-description: Enables or disables the placement of line status and modem status values into the regular data stream that an application acquires through the ReadFile function.
+description: Enables or disables the placement of line status and modem status values into the regular data stream that an application acquires through the ReadFile function.helpviewer_keywords: ["IOCTL_SERIAL_LSRMST_INSERT","IOCTL_SERIAL_LSRMST_INSERT control","IOCTL_SERIAL_LSRMST_INSERT control code","_win32_ioctl_serial_lsrmst_insert","base.ioctl_serial_lsrmst_insert","winioctl/IOCTL_SERIAL_LSRMST_INSERT"]
 old-location: base\ioctl_serial_lsrmst_insert.htm
 tech.root: devio
 ms.assetid: 9bd427da-1c14-403e-bebe-f64fe4e8723c

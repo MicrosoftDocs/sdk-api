@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprConfigTransportGetInfo
 title: MprConfigTransportGetInfo function (mprapi.h)
-description: The MprConfigTransportGetInfo function retrieves the configuration for the specified transport protocol from the router.
+description: The MprConfigTransportGetInfo function retrieves the configuration for the specified transport protocol from the router.helpviewer_keywords: ["MprConfigTransportGetInfo","MprConfigTransportGetInfo function [RAS]","_mpr_mprconfigtransportgetinfo","mprapi/MprConfigTransportGetInfo","rras.mprconfigtransportgetinfo"]
 old-location: rras\mprconfigtransportgetinfo.htm
 tech.root: RRAS
 ms.assetid: 84054313-f923-47d6-8019-c68a042d2d73

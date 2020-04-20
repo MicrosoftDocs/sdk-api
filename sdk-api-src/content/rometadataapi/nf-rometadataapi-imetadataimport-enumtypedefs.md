@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumTypeDefs
 title: IMetaDataImport::EnumTypeDefs (rometadataapi.h)
-description: Enumerates TypeDef tokens representing all types within the current scope.
+description: Enumerates TypeDef tokens representing all types within the current scope.helpviewer_keywords: ["EnumTypeDefs","EnumTypeDefs method [Windows Runtime]","EnumTypeDefs method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumTypeDefs method","IMetaDataImport.EnumTypeDefs","IMetaDataImport::EnumTypeDefs","rometadataapi/IMetaDataImport::EnumTypeDefs","winrt.imetadataimport_enumtypedefs"]
 old-location: winrt\imetadataimport_enumtypedefs.htm
 tech.root: WinRT
 ms.assetid: 64dc7018-721f-4747-b798-fbf70bac18d5

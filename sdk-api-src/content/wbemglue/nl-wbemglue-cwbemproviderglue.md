@@ -1,7 +1,7 @@
 ---
 UID: NL:wbemglue.CWbemProviderGlue
 title: CWbemProviderGlue (wbemglue.h)
-description: CWbemProviderGlue ties the Component Object Model (COM) interfaces of the Windows Management Instrumentation (WMI) API to the classes derived from the Provider class, and supplies methods for providers to use to query each other.
+description: CWbemProviderGlue ties the Component Object Model (COM) interfaces of the Windows Management Instrumentation (WMI) API to the classes derived from the Provider class, and supplies methods for providers to use to query each other.helpviewer_keywords: ["CWbemProviderGlue","CWbemProviderGlue class [Windows Management Instrumentation]","CWbemProviderGlue class [Windows Management Instrumentation]","described","_hmm_cwbemproviderglue","wbemglue/CWbemProviderGlue","wmi.cwbemproviderglue"]
 old-location: wmi\cwbemproviderglue.htm
 tech.root: WmiSdk
 ms.assetid: 493027c2-e54d-4fad-9e33-98d1ceab8860

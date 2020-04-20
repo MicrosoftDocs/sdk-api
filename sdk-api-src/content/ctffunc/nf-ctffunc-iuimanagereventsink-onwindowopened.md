@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowOpened
 title: IUIManagerEventSink::OnWindowOpened (ctffunc.h)
-description: Called by the TSF after opening an IME UI.
+description: Called by the TSF after opening an IME UI.helpviewer_keywords: ["IUIManagerEventSink interface [Text Services Framework]","OnWindowOpened method","IUIManagerEventSink.OnWindowOpened","IUIManagerEventSink::OnWindowOpened","OnWindowOpened","OnWindowOpened method [Text Services Framework]","OnWindowOpened method [Text Services Framework]","IUIManagerEventSink interface","ctffunc/IUIManagerEventSink::OnWindowOpened","tsf.iuimanagereventsink_onwindowopened"]
 old-location: tsf\iuimanagereventsink_onwindowopened.htm
 tech.root: TSF
 ms.assetid: 525500C2-313E-4430-88B1-AA1F54A420AF

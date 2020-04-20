@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzBizRuleContext.put_BusinessRuleResult
 title: IAzBizRuleContext::put_BusinessRuleResult (azroles.h)
-description: Sets a value that indicates whether the Business Rule (BizRule) allows the user to perform the requested task.
+description: Sets a value that indicates whether the Business Rule (BizRule) allows the user to perform the requested task.helpviewer_keywords: ["AzBizRuleContext object [Security]","BusinessRuleResult property","BusinessRuleResult property [Security]","BusinessRuleResult property [Security]","AzBizRuleContext object","BusinessRuleResult property [Security]","IAzBizRuleContext interface","IAzBizRuleContext interface [Security]","BusinessRuleResult property","IAzBizRuleContext.BusinessRuleResult","IAzBizRuleContext.put_BusinessRuleResult","IAzBizRuleContext::BusinessRuleResult","IAzBizRuleContext::put_BusinessRuleResult","azroles/IAzBizRuleContext::BusinessRuleResult","azroles/IAzBizRuleContext::put_BusinessRuleResult","put_BusinessRuleResult","security.azbizrulecontext_businessruleresult"]
 old-location: security\azbizrulecontext_businessruleresult.htm
 tech.root: SecAuthZ
 ms.assetid: 9f8b72bb-b2c3-4ba0-aa56-ff0ad0df1502

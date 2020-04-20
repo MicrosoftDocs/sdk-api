@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IInternalUnknown.QueryInternalInterface
 title: IInternalUnknown::QueryInternalInterface (objidlbase.h)
-description: Retrieves pointers to the supported internal interfaces on an object.
+description: Retrieves pointers to the supported internal interfaces on an object.helpviewer_keywords: ["IInternalUnknown interface [COM]","QueryInternalInterface method","IInternalUnknown.QueryInternalInterface","IInternalUnknown::QueryInternalInterface","QueryInternalInterface","QueryInternalInterface method [COM]","QueryInternalInterface method [COM]","IInternalUnknown interface","_com_iinternalunknown_queryinternalinterface","com.iinternalunknown_queryinternalinterface","objidlbase/IInternalUnknown::QueryInternalInterface"]
 old-location: com\iinternalunknown_queryinternalinterface.htm
 tech.root: com
 ms.assetid: 7fa3478a-126c-43d9-851f-effa016c33f2

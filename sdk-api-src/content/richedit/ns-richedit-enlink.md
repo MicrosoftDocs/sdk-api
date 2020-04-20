@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._enlink
 title: ENLINK (richedit.h)
-description: Contains information about an EN_LINK notification code from a rich edit control.
+description: Contains information about an EN_LINK notification code from a rich edit control.helpviewer_keywords: ["ENLINK","ENLINK structure [Windows Controls]","_win32_ENLINK_str","_win32_ENLINK_str_cpp","controls.ENLINK","controls._win32_ENLINK_str","richedit/ENLINK"]
 old-location: controls\ENLINK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enlink.htm

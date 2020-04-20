@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagUSEROBJECTFLAGS
 title: USEROBJECTFLAGS (winuser.h)
-description: Contains information about a window station or desktop handle.
+description: Contains information about a window station or desktop handle.helpviewer_keywords: ["*PUSEROBJECTFLAGS","DF_ALLOWOTHERACCOUNTHOOK","PUSEROBJECTFLAGS","PUSEROBJECTFLAGS structure pointer [Windows Stations and Desktops]","USEROBJECTFLAGS","USEROBJECTFLAGS structure [Windows Stations and Desktops]","WSF_VISIBLE","_win32_userobjectflags_str","base.userobjectflags_str","tagUSEROBJECTFLAGS","winstation.userobjectflags_str","winuser/PUSEROBJECTFLAGS","winuser/USEROBJECTFLAGS"]
 old-location: winstation\userobjectflags_str.htm
 tech.root: winstation
 ms.assetid: 5a973d45-5ff4-47e7-a927-72d3fdd61dc9

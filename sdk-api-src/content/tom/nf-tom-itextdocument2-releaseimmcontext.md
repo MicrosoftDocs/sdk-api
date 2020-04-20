@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument2.ReleaseImmContext
 title: ITextDocument2::ReleaseImmContext (tom.h)
-description: Releases an Input Method Manager (IMM) input context.
+description: Releases an Input Method Manager (IMM) input context.helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","ReleaseImmContext method","ITextDocument2.ReleaseImmContext","ITextDocument2::ReleaseImmContext","ReleaseImmContext","ReleaseImmContext method [Windows Controls]","ReleaseImmContext method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_releaseimmcontext","tom/ITextDocument2::ReleaseImmContext"]
 old-location: controls\itextdocument2_releaseimmcontext.htm
 tech.root: Controls
 ms.assetid: 2172e20b-2343-4a65-a08e-0d8b8c101860

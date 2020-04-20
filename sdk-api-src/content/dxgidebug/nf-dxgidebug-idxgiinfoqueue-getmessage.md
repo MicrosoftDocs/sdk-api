@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetMessage
 title: IDXGIInfoQueue::GetMessage (dxgidebug.h)
-description: Gets a message from the message queue.
+description: Gets a message from the message queue.helpviewer_keywords: ["GetMessage","GetMessage method [DXGI]","GetMessage method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetMessage method","IDXGIInfoQueue.GetMessage","IDXGIInfoQueue::GetMessage","direct3ddxgi.idxgiinfoqueue_getmessage","dxgidebug/IDXGIInfoQueue::GetMessage"]
 old-location: direct3ddxgi\idxgiinfoqueue_getmessage.htm
 tech.root: direct3ddxgi
 ms.assetid: 208C3253-09AE-4379-808D-BA0BECC59BF8

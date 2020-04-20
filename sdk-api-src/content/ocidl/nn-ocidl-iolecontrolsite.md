@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IOleControlSite
 title: IOleControlSite (ocidl.h)
-description: Provides the methods that enable a site object to manage each embedded control within a container.
+description: Provides the methods that enable a site object to manage each embedded control within a container.helpviewer_keywords: ["IOleControlSite","IOleControlSite interface [COM]","IOleControlSite interface [COM]","described","_ctrl_iolecontrolsite","com.iolecontrolsite","ocidl/IOleControlSite"]
 old-location: com\iolecontrolsite.htm
 tech.root: com
 ms.assetid: 8b022f2c-d4b4-44ca-8e69-46e9aa20b3f9

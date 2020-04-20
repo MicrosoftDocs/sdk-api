@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoDisableCallCancellation
 title: CoDisableCallCancellation function (combaseapi.h)
-description: Undoes the action of a call to CoEnableCallCancellation. Disables cancellation of synchronous calls on the calling thread when all calls to CoEnableCallCancellation are balanced by calls to CoDisableCallCancellation.
+description: Undoes the action of a call to CoEnableCallCancellation. Disables cancellation of synchronous calls on the calling thread when all calls to CoEnableCallCancellation are balanced by calls to CoDisableCallCancellation.helpviewer_keywords: ["CoDisableCallCancellation","CoDisableCallCancellation function [COM]","_com_CoDisableCallCancellation","com.codisablecallcancellation","combaseapi/CoDisableCallCancellation"]
 old-location: com\codisablecallcancellation.htm
 tech.root: com
 ms.assetid: 33d99eab-a0bf-4e4d-93a4-5c03c41cebbb

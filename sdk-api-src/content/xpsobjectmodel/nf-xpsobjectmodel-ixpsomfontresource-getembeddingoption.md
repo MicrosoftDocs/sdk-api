@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResource.GetEmbeddingOption
 title: IXpsOMFontResource::GetEmbeddingOption (xpsobjectmodel.h)
-description: Gets the embedding option that will be applied when the resource is serialized.
+description: Gets the embedding option that will be applied when the resource is serialized.helpviewer_keywords: ["GetEmbeddingOption","GetEmbeddingOption method [XPS Documents and Packaging]","GetEmbeddingOption method [XPS Documents and Packaging]","IXpsOMFontResource interface","IXpsOMFontResource interface [XPS Documents and Packaging]","GetEmbeddingOption method","IXpsOMFontResource.GetEmbeddingOption","IXpsOMFontResource::GetEmbeddingOption","XPS_FONT_EMBEDDING_NORMAL","XPS_FONT_EMBEDDING_OBFUSCATED","XPS_FONT_EMBEDDING_RESTRICTED","xps.ixpsomfontresource_getembeddingoption","xpsobjectmodel/IXpsOMFontResource::GetEmbeddingOption"]
 old-location: xps\ixpsomfontresource_getembeddingoption.htm
 tech.root: printdocs
 ms.assetid: 8c4b3741-2c9c-4964-ae51-53dd738e8d9b

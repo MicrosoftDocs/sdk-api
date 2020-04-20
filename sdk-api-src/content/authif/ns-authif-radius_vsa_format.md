@@ -1,7 +1,7 @@
 ---
 UID: NS:authif._RADIUS_VSA_FORMAT
 title: RADIUS_VSA_FORMAT (authif.h)
-description: The RADIUS_VSA_FORMAT structure represents the format of the string portion of a RADIUS vendor-specific attribute.
+description: The RADIUS_VSA_FORMAT structure represents the format of the string portion of a RADIUS vendor-specific attribute.helpviewer_keywords: ["RADIUS_VSA_FORMAT","RADIUS_VSA_FORMAT structure [Network Policy Server]","_ias_radius_vsa_format","authif/RADIUS_VSA_FORMAT","ias.radius_vsa_format","nps.IAS_radius_vsa_format"]
 old-location: nps\IAS_radius_vsa_format.htm
 tech.root: Nps
 ms.assetid: 6f883a2f-84f1-44f5-8b15-c7e55fae4289

@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.SetComputerEnabled
 title: IGPMGPO::SetComputerEnabled (gpmgmt.h)
-description: Enables or disables the computer settings in the GPO.
+description: Enables or disables the computer settings in the GPO.helpviewer_keywords: ["GPMGPO class [GPMC]","SetComputerEnabled method","IGPMGPO interface [GPMC]","SetComputerEnabled method","IGPMGPO.SetComputerEnabled","IGPMGPO::SetComputerEnabled","SetComputerEnabled","SetComputerEnabled method [GPMC]","SetComputerEnabled method [GPMC]","GPMGPO class","SetComputerEnabled method [GPMC]","IGPMGPO interface","_win32_igpmgpo_setcomputerenabled","gpmc.igpmgpo_setcomputerenabled","gpmgmt/IGPMGPO::SetComputerEnabled"]
 old-location: gpmc\igpmgpo_setcomputerenabled.htm
 tech.root: gpmc
 ms.assetid: 22d6fd46-9d6f-455e-8f01-96fc3f44b335

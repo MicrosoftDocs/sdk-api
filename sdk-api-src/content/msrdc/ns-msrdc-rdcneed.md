@@ -1,7 +1,7 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0004
 title: RdcNeed (msrdc.h)
-description: Contains information about a chunk that is required to synchronize two sets of data.
+description: Contains information about a chunk that is required to synchronize two sets of data.helpviewer_keywords: ["RdcNeed","RdcNeed structure [Remote Differential Compression]","fs.rdcneed","msrdc/RdcNeed","rdc.rdcneed"]
 old-location: rdc\rdcneed.htm
 tech.root: rdc
 ms.assetid: 086e82f1-b033-48e2-b648-895c04751cc9

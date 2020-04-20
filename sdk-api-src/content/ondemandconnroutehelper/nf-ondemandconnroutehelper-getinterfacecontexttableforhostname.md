@@ -1,7 +1,7 @@
 ---
 UID: NF:ondemandconnroutehelper.GetInterfaceContextTableForHostName
 title: GetInterfaceContextTableForHostName function (ondemandconnroutehelper.h)
-description: This function retrieves an interface context table for the given hostname and connection profile filter.
+description: This function retrieves an interface context table for the given hostname and connection profile filter.helpviewer_keywords: ["GetInterfaceContextTableForHostName","GetInterfaceContextTableForHostName function [Network Awareness]","nla.getinterfacecontexttableforhostname","ondemandconnroutehelper/GetInterfaceContextTableForHostName"]
 old-location: nla\getinterfacecontexttableforhostname.htm
 tech.root: nla
 ms.assetid: BD687853-6242-4A72-BACE-13B681FD4674

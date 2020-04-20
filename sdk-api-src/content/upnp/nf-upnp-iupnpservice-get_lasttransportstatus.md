@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPService.get_LastTransportStatus
 title: IUPnPService::get_LastTransportStatus (upnp.h)
-description: For queries related to evented variables, the LastTransportStatus property specifies the HTTP status of the last IUPnPService::InvokeAction operation.
+description: For queries related to evented variables, the LastTransportStatus property specifies the HTTP status of the last IUPnPService::InvokeAction operation.helpviewer_keywords: ["IUPnPService interface [UPnP APIs]","get_LastTransportStatus method","IUPnPService.get_LastTransportStatus","IUPnPService::get_LastTransportStatus","_upnp_iupnpservice_lasttransportstatus","get_LastTransportStatus","get_LastTransportStatus method [UPnP APIs]","get_LastTransportStatus method [UPnP APIs]","IUPnPService interface","upnp.iupnpservice_lasttransportstatus","upnp/IUPnPService::get_LastTransportStatus"]
 old-location: upnp\iupnpservice_lasttransportstatus.htm
 tech.root: upnp
 ms.assetid: 8593b800-ae0a-41b8-9a61-92bdfc106c8b

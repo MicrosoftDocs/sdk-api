@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IAuxInTuningSpace
 title: IAuxInTuningSpace
-description: The IAuxInTuningSpace interface is implemented on AuxInTuningSpace objects, which represent auxiliary video inputs such as S-video or composite video on a hardware device that is connected to the computer.
+description: The IAuxInTuningSpace interface is implemented on AuxInTuningSpace objects, which represent auxiliary video inputs such as S-video or composite video on a hardware device that is connected to the computer.helpviewer_keywords: ["IAuxInTuningSpace","IAuxInTuningSpace interface [Microsoft TV Technologies]","IAuxInTuningSpace interface [Microsoft TV Technologies]","described","IAuxInTuningSpaceInterface","mstv.iauxintuningspace","tuner/IAuxInTuningSpace"]
 old-location: mstv\iauxintuningspace.htm
 tech.root: mstv
 ms.assetid: fd02375b-3493-4a59-aa85-6f1528d79630

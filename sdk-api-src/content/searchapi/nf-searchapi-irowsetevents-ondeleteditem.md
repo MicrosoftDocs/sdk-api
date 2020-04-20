@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnDeletedItem
 title: IRowsetEvents::OnDeletedItem (searchapi.h)
-description: Called by the indexer to notify clients that an item has been deleted. This item may have matched some (or all) of the search criteria for the client rowset.
+description: Called by the indexer to notify clients that an item has been deleted. This item may have matched some (or all) of the search criteria for the client rowset.helpviewer_keywords: ["IRowsetEvents interface [search]","OnDeletedItem method","IRowsetEvents.OnDeletedItem","IRowsetEvents::OnDeletedItem","OnDeletedItem","OnDeletedItem method [search]","OnDeletedItem method [search]","IRowsetEvents interface","_search_IRowsetEvents_OnDeletedItem","search._search_IRowsetEvents_OnDeletedItem","searchapi/IRowsetEvents::OnDeletedItem"]
 old-location: search\_search_IRowsetEvents_OnDeletedItem.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\ondeleteditem.htm

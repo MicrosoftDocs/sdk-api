@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertEnumSubjectInSortedCTL
 title: CertEnumSubjectInSortedCTL function (wincrypt.h)
-description: Retrieves the first or next TrustedSubject in a sorted certificate trust list (CTL).
+description: Retrieves the first or next TrustedSubject in a sorted certificate trust list (CTL).helpviewer_keywords: ["CertEnumSubjectInSortedCTL","CertEnumSubjectInSortedCTL function [Security]","_crypto2_certenumsubjectinsortedctl","security.certenumsubjectinsortedctl","wincrypt/CertEnumSubjectInSortedCTL"]
 old-location: security\certenumsubjectinsortedctl.htm
 tech.root: SecCrypto
 ms.assetid: b37cff03-5e9c-4e6c-b46e-d3f02dbf8783

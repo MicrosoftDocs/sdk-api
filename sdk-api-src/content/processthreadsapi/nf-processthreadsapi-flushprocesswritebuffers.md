@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.FlushProcessWriteBuffers
 title: FlushProcessWriteBuffers function (processthreadsapi.h)
-description: Flushes the write queue of each processor that is running a thread of the current process.
+description: Flushes the write queue of each processor that is running a thread of the current process.helpviewer_keywords: ["FlushProcessWriteBuffers","FlushProcessWriteBuffers function","base.flushprocesswritebuffers","processthreadsapi/FlushProcessWriteBuffers","winbase/FlushProcessWriteBuffers"]
 old-location: base\flushprocesswritebuffers.htm
 tech.root: ProcThread
 ms.assetid: 6dcf6851-59ee-4f6e-b2cb-e36ac5328b92

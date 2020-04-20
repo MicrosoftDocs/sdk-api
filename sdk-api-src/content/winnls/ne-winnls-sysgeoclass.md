@@ -1,7 +1,7 @@
 ---
 UID: NE:winnls.SYSGEOCLASS
 title: SYSGEOCLASS (winnls.h)
-description: Specifies the geographical location class.
+description: Specifies the geographical location class.helpviewer_keywords: ["GEOCLASS_ALL","GEOCLASS_NATION","GEOCLASS_REGION","SYSGEOCLASS","SYSGEOCLASS enumeration [Internationalization for Windows Applications]","_win32_SYSGEOCLASS","intl.sysgeoclass","winnls/GEOCLASS_ALL","winnls/GEOCLASS_NATION","winnls/GEOCLASS_REGION","winnls/SYSGEOCLASS"]
 old-location: intl\sysgeoclass.htm
 tech.root: Intl
 ms.assetid: 27c2dec7-b5e7-47b7-8ce2-8dba3d0916bf

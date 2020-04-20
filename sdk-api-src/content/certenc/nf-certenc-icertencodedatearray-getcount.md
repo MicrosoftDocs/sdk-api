@@ -1,7 +1,7 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.GetCount
 title: ICertEncodeDateArray::GetCount (certenc.h)
-description: Returns the number of DATE values in the object's DATE array.
+description: Returns the number of DATE values in the object's DATE array.helpviewer_keywords: ["CCertEncodeDateArray object [Security]","GetCount method","GetCount","GetCount method [Security]","GetCount method [Security]","CCertEncodeDateArray object","GetCount method [Security]","ICertEncodeDateArray interface","ICertEncodeDateArray interface [Security]","GetCount method","ICertEncodeDateArray.GetCount","ICertEncodeDateArray::GetCount","_certsrv_icertencodedatearray_getcount","certenc/ICertEncodeDateArray::GetCount","security.icertencodedatearray_getcount"]
 old-location: security\icertencodedatearray_getcount.htm
 tech.root: SecCrypto
 ms.assetid: 25c61f42-b190-44c3-b2ba-57861bdfbce3

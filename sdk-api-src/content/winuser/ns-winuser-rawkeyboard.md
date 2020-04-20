@@ -162,6 +162,3 @@ The device-specific additional information for the event.
 [SendInput function](nf-winuser-sendinput.md)
 
 [KEYBOARD_INPUT_DATA structure](https://docs.microsoft.com/en-us/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_input_data)
-
-
-

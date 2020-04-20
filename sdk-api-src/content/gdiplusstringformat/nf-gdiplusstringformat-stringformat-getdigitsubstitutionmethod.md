@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetDigitSubstitutionMethod
 title: StringFormat::GetDigitSubstitutionMethod (gdiplusstringformat.h)
-description: The StringFormat::GetDigitSubstitutionMethod method gets an element of the StringDigitSubstitute enumeration that indicates the digit substitution method that is used by this StringFormat object.
+description: The StringFormat::GetDigitSubstitutionMethod method gets an element of the StringDigitSubstitute enumeration that indicates the digit substitution method that is used by this StringFormat object.helpviewer_keywords: ["GetDigitSubstitutionMethod","GetDigitSubstitutionMethod method [GDI+]","GetDigitSubstitutionMethod method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetDigitSubstitutionMethod method","StringFormat.GetDigitSubstitutionMethod","StringFormat::GetDigitSubstitutionMethod","_gdiplus_CLASS_StringFormat_GetDigitSubstitutionMethod_","gdiplus._gdiplus_CLASS_StringFormat_GetDigitSubstitutionMethod_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetDigitSubstitutionMethod_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getdigitsubstitutionmethod.htm

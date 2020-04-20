@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorReceivePacket
 title: EapMethodAuthenticatorReceivePacket function (eapmethodauthenticatorapis.h)
-description: Processes an EAP authentication packet received by the server EAPHost and returns a response action.
+description: Processes an EAP authentication packet received by the server EAPHost and returns a response action.helpviewer_keywords: ["EapMethodAuthenticatorReceivePacket","EapMethodAuthenticatorReceivePacket function [EAPHost]","eaphost.eapmethodauthenticatorreceivepacket","eapmethodauthenticatorapis/EapMethodAuthenticatorReceivePacket"]
 old-location: eaphost\eapmethodauthenticatorreceivepacket.htm
 tech.root: eaphost
 ms.assetid: 93505c06-fc77-44e6-8ca2-e52ee67ca267

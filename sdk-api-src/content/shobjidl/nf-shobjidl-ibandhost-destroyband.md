@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IBandHost.DestroyBand
 title: IBandHost::DestroyBand (shobjidl.h)
-description: Destroys a specified band.
+description: Destroys a specified band.helpviewer_keywords: ["DestroyBand","DestroyBand method [Windows Shell]","DestroyBand method [Windows Shell]","IBandHost interface","IBandHost interface [Windows Shell]","DestroyBand method","IBandHost.DestroyBand","IBandHost::DestroyBand","_shell_IBandHost_DestroyBand","shell.IBandHost_DestroyBand","shobjidl/IBandHost::DestroyBand"]
 old-location: shell\IBandHost_DestroyBand.htm
 tech.root: shell
 ms.assetid: fc9fec01-97ff-44d9-833a-cd781977e5b9

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1TransformedImageSource.GetSource
 title: ID2D1TransformedImageSource::GetSource (d2d1_3.h)
-description: Retrieves the source image used to create the transformed image source.
+description: Retrieves the source image used to create the transformed image source.helpviewer_keywords: ["GetSource","GetSource method [Direct2D]","GetSource method [Direct2D]","ID2D1TransformedImageSource interface","ID2D1TransformedImageSource interface [Direct2D]","GetSource method","ID2D1TransformedImageSource.GetSource","ID2D1TransformedImageSource::GetSource","d2d1_3/ID2D1TransformedImageSource::GetSource","direct2d.id2d1transformedimagesource_getsource"]
 old-location: direct2d\id2d1transformedimagesource_getsource.htm
 tech.root: Direct2D
 ms.assetid: C17D13E4-4BAD-436F-8A82-6568F1AFA751

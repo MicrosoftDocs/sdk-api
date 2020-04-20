@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Reset
 title: IEnumFullIDList::Reset (shobjidl_core.h)
-description: Returns the enumerator to the beginning of the enumeration sequence.
+description: Returns the enumerator to the beginning of the enumeration sequence.helpviewer_keywords: ["IEnumFullIDList interface [Windows Shell]","Reset method","IEnumFullIDList.Reset","IEnumFullIDList::Reset","Reset","Reset method [Windows Shell]","Reset method [Windows Shell]","IEnumFullIDList interface","_shell_IEnumFullIDList_Reset","shell.IEnumFullIDList_Reset","shobjidl_core/IEnumFullIDList::Reset"]
 old-location: shell\IEnumFullIDList_Reset.htm
 tech.root: shell
 ms.assetid: 9682cfc4-544b-43bd-bd57-edbce50dce75

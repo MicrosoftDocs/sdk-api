@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StopWatchFlush
 title: StopWatchFlush function (shlwapi.h)
-description: StopWatchFlush may be altered or unavailable.
+description: StopWatchFlush may be altered or unavailable.helpviewer_keywords: ["StopWatchFlush","StopWatchFlush function [Windows Shell]","_win32_StopWatchFlush","shell.StopWatchFlush","shlwapi/StopWatchFlush"]
 old-location: shell\StopWatchFlush.htm
 tech.root: shell
 ms.assetid: 52b79602-6e24-4d66-a400-5745149e744b

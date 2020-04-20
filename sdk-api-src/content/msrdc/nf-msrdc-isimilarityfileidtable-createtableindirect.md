@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.CreateTableIndirect
 title: ISimilarityFileIdTable::CreateTableIndirect (msrdc.h)
-description: Creates or opens a similarity file ID table using the RDC application's implementation of the IRdcFileWriter interface.
+description: Creates or opens a similarity file ID table using the RDC application's implementation of the IRdcFileWriter interface.helpviewer_keywords: ["CreateTableIndirect","CreateTableIndirect method [Remote Differential Compression]","CreateTableIndirect method [Remote Differential Compression]","ISimilarityFileIdTable interface","ISimilarityFileIdTable interface [Remote Differential Compression]","CreateTableIndirect method","ISimilarityFileIdTable.CreateTableIndirect","ISimilarityFileIdTable::CreateTableIndirect","fs.isimilarityfileidtable_createtableindirect","msrdc/ISimilarityFileIdTable::CreateTableIndirect","rdc.isimilarityfileidtable_createtableindirect"]
 old-location: rdc\isimilarityfileidtable_createtableindirect.htm
 tech.root: rdc
 ms.assetid: 6e472ab0-efa4-4edd-8d78-68d5a66cf41c

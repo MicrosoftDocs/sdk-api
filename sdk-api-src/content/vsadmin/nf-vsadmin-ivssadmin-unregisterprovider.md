@@ -1,7 +1,7 @@
 ---
 UID: NF:vsadmin.IVssAdmin.UnregisterProvider
 title: IVssAdmin::UnregisterProvider (vsadmin.h)
-description: Unregisters an existing provider.
+description: Unregisters an existing provider.helpviewer_keywords: ["IVssAdmin interface [VSS]","UnregisterProvider method","IVssAdmin.UnregisterProvider","IVssAdmin::UnregisterProvider","UnregisterProvider","UnregisterProvider method [VSS]","UnregisterProvider method [VSS]","IVssAdmin interface","base.ivssadmin_unregisterprovider","vsadmin/IVssAdmin::UnregisterProvider"]
 old-location: base\ivssadmin_unregisterprovider.htm
 tech.root: VSS
 ms.assetid: d31ed47f-6850-4f4b-aea2-5171722db7db

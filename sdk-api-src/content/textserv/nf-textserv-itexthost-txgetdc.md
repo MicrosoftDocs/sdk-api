@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost.TxGetDC
 title: ITextHost::TxGetDC (textserv.h)
-description: Requests the device context for the text host window.
+description: Requests the device context for the text host window.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxGetDC method","ITextHost.TxGetDC","ITextHost::TxGetDC","TxGetDC","TxGetDC method [Windows Controls]","TxGetDC method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxGetDC","_win32_ITextHost_TxGetDC_cpp","controls.ITextHost_TxGetDC","controls._win32_ITextHost_TxGetDC","textserv/ITextHost::TxGetDC"]
 old-location: controls\ITextHost_TxGetDC.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetdc.htm

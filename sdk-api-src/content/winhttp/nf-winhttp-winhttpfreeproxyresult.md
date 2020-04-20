@@ -1,7 +1,7 @@
 ---
 UID: NF:winhttp.WinHttpFreeProxyResult
 title: WinHttpFreeProxyResult function (winhttp.h)
-description: The WinHttpFreeProxyResult function frees the data retrieved from a previous call to WinHttpGetProxyResult.
+description: The WinHttpFreeProxyResult function frees the data retrieved from a previous call to WinHttpGetProxyResult.helpviewer_keywords: ["WinHttpFreeProxyResult","WinHttpFreeProxyResult function [WinHTTP]","http.winhttpfreeproxyresult","winhttp/WinHttpFreeProxyResult"]
 old-location: http\winhttpfreeproxyresult.htm
 tech.root: WinHttp
 ms.assetid: 0484bf54-066f-4a7f-8d1a-079eb4b001bd

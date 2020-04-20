@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmreports.IFsrmFileManagementJobManager
 title: IFsrmFileManagementJobManager (fsrmreports.h)
-description: Used to manage file management jobs.
+description: Used to manage file management jobs.helpviewer_keywords: ["IFsrmFileManagementJobManager","IFsrmFileManagementJobManager interface [File Server Resource Manager]","IFsrmFileManagementJobManager interface [File Server Resource Manager]","described","fs.ifsrmfilemanagementjobmanager","fsrm.ifsrmfilemanagementjobmanager","fsrm/IFsrmFileManagementJobManager"]
 old-location: fsrm\ifsrmfilemanagementjobmanager.htm
 tech.root: fsrm
 ms.assetid: 2df0e8d0-1da7-422e-8d02-ad5d030fdd8d

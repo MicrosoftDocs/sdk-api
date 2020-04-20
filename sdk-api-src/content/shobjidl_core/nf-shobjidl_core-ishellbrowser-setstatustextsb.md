@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.SetStatusTextSB
 title: IShellBrowser::SetStatusTextSB (shobjidl_core.h)
-description: Sets and displays status text about the in-place object in the container's frame-window status bar.
+description: Sets and displays status text about the in-place object in the container's frame-window status bar.helpviewer_keywords: ["IShellBrowser interface [Windows Shell]","SetStatusTextSB method","IShellBrowser.SetStatusTextSB","IShellBrowser::SetStatusTextSB","SetStatusTextSB","SetStatusTextSB method [Windows Shell]","SetStatusTextSB method [Windows Shell]","IShellBrowser interface","_win32_IShellBrowser_SetStatusTextSB","shell.IShellBrowser_SetStatusTextSB","shobjidl_core/IShellBrowser::SetStatusTextSB"]
 old-location: shell\IShellBrowser_SetStatusTextSB.htm
 tech.root: shell
 ms.assetid: d7dd9f17-41e4-4c04-981e-a0bfe7c53fcf

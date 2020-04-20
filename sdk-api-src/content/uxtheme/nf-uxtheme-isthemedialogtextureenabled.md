@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.IsThemeDialogTextureEnabled
 title: IsThemeDialogTextureEnabled function (uxtheme.h)
-description: Reports whether a specified dialog window supports background texturing.
+description: Reports whether a specified dialog window supports background texturing.helpviewer_keywords: ["IsThemeDialogTextureEnabled","IsThemeDialogTextureEnabled function [Windows Controls]","controls.IsThemeDialogTextureEnabled","controls.inet_IsThemeDialogTextureEnabled","inet_IsThemeDialogTextureEnabled","inet_IsThemeDialogTextureEnabled_cpp","uxtheme/IsThemeDialogTextureEnabled"]
 old-location: controls\IsThemeDialogTextureEnabled.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemedialogtextureenabled.htm

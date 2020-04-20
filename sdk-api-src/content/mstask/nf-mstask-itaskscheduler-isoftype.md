@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.ITaskScheduler.IsOfType
 title: ITaskScheduler::IsOfType (mstask.h)
-description: The IsOfType method checks the object's type to verify that it supports a particular interface.
+description: The IsOfType method checks the object's type to verify that it supports a particular interface.helpviewer_keywords: ["ITaskScheduler interface [Task Scheduler]","IsOfType method","ITaskScheduler.IsOfType","ITaskScheduler::IsOfType","IsOfType","IsOfType method [Task Scheduler]","IsOfType method [Task Scheduler]","ITaskScheduler interface","_msb_itaskscheduler_isoftype","mstask/ITaskScheduler::IsOfType","taskschd.itaskscheduler_isoftype"]
 old-location: taskschd\itaskscheduler_isoftype.htm
 tech.root: taskschd
 ms.assetid: 6d0a474d-398f-4d85-8e58-5dc2b6283086

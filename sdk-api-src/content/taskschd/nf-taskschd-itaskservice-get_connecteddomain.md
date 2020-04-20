@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskService.get_ConnectedDomain
 title: ITaskService::get_ConnectedDomain (taskschd.h)
-description: Gets the name of the domain to which the TargetServer computer is connected.
+description: Gets the name of the domain to which the TargetServer computer is connected.helpviewer_keywords: ["ConnectedDomain property [Task Scheduler]","ConnectedDomain property [Task Scheduler]","ITaskService interface","ITaskService interface [Task Scheduler]","ConnectedDomain property","ITaskService.ConnectedDomain","ITaskService.get_ConnectedDomain","ITaskService::ConnectedDomain","ITaskService::get_ConnectedDomain","get_ConnectedDomain","taskschd.itaskservice_connecteddomain","taskschd/ITaskService::ConnectedDomain","taskschd/ITaskService::get_ConnectedDomain"]
 old-location: taskschd\itaskservice_connecteddomain.htm
 tech.root: taskschd
 ms.assetid: 13a67d82-f239-450c-9490-02f07e672a64

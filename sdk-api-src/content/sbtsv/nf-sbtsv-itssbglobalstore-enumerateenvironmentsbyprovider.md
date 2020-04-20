@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateEnvironmentsByProvider
 title: ITsSbGlobalStore::EnumerateEnvironmentsByProvider (sbtsv.h)
-description: Returns an array that contains the environments present on the specified provider.
+description: Returns an array that contains the environments present on the specified provider.helpviewer_keywords: ["EnumerateEnvironmentsByProvider","EnumerateEnvironmentsByProvider method [Remote Desktop Services]","EnumerateEnvironmentsByProvider method [Remote Desktop Services]","ITsSbGlobalStore interface","ITsSbGlobalStore interface [Remote Desktop Services]","EnumerateEnvironmentsByProvider method","ITsSbGlobalStore.EnumerateEnvironmentsByProvider","ITsSbGlobalStore::EnumerateEnvironmentsByProvider","sbtsv/ITsSbGlobalStore::EnumerateEnvironmentsByProvider","termserv.itssbglobalstore_enumerateenvironmentsbyprovider"]
 old-location: termserv\itssbglobalstore_enumerateenvironmentsbyprovider.htm
 tech.root: TermServ
 ms.assetid: 4fb29524-61e3-4d1a-be98-45f61b796e9e

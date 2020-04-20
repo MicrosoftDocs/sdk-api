@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMDevMemoryControl.GetDevId
 title: IAMDevMemoryControl::GetDevId (strmif.h)
-description: Note  The IAMDevMemoryControl interface is deprecated. Retrieves the device ID of the on-board memory allocator.
+description: Note  The IAMDevMemoryControl interface is deprecated. Retrieves the device ID of the on-board memory allocator.helpviewer_keywords: ["GetDevId","GetDevId method [DirectShow]","GetDevId method [DirectShow]","IAMDevMemoryControl interface","IAMDevMemoryControl interface [DirectShow]","GetDevId method","IAMDevMemoryControl.GetDevId","IAMDevMemoryControl::GetDevId","IAMDevMemoryControlGetDevId","dshow.iamdevmemorycontrol_getdevid","strmif/IAMDevMemoryControl::GetDevId"]
 old-location: dshow\iamdevmemorycontrol_getdevid.htm
 tech.root: DirectShow
 ms.assetid: 398cc4b3-c025-4df4-8447-bd4599293dab

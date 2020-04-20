@@ -1,7 +1,7 @@
 ---
 UID: NS:msacm.tACMFILTERDETAILS
 title: ACMFILTERDETAILS (msacm.h)
-description: The ACMFILTERDETAILS structure details a waveform-audio filter for a specific filter tag for an ACM driver.
+description: The ACMFILTERDETAILS structure details a waveform-audio filter for a specific filter tag for an ACM driver.helpviewer_keywords: ["*LPACMFILTERDETAILS","*PACMFILTERDETAILS","ACMDRIVERDETAILS_SUPPORTF_ASYNC","ACMDRIVERDETAILS_SUPPORTF_CODEC","ACMDRIVERDETAILS_SUPPORTF_CONVERTER","ACMDRIVERDETAILS_SUPPORTF_FILTER","ACMDRIVERDETAILS_SUPPORTF_HARDWARE","ACMFILTERDETAILS","ACMFILTERDETAILS structure [Windows Multimedia]","msacm/ACMFILTERDETAILS","multimedia.acmfilterdetails_COLLISION925","multimedia.acmfilterdetails_struct"]
 old-location: multimedia\acmfilterdetails_struct.htm
 tech.root: Multimedia
 ms.assetid: c0423701-b957-4f77-a565-f6f761614389

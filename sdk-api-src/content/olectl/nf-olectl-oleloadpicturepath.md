@@ -1,7 +1,7 @@
 ---
 UID: NF:olectl.OleLoadPicturePath
 title: OleLoadPicturePath function (olectl.h)
-description: Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling OleCreatePictureIndirect(NULL, ...) followed by IPersistStream::Load.
+description: Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling OleCreatePictureIndirect(NULL, ...) followed by IPersistStream::Load.helpviewer_keywords: ["OleLoadPicturePath","OleLoadPicturePath function [COM]","_ctrl_OleLoadPicturePath","com.oleloadpicturepath","olectl/OleLoadPicturePath"]
 old-location: com\oleloadpicturepath.htm
 tech.root: com
 ms.assetid: 08bad900-815a-4b6d-b977-92d5fdd7d9e8

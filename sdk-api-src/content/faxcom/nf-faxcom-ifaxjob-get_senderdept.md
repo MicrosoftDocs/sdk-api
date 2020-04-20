@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxJob.get_SenderDept
 title: IFaxJob::get_SenderDept (faxcom.h)
-description: The IFaxJob::get_SenderDept property is a null-terminated string that contains the department identifier for the sender of the fax job. The IFaxJob::get_SenderDept property applies only to outgoing fax transmissions.
+description: The IFaxJob::get_SenderDept property is a null-terminated string that contains the department identifier for the sender of the fax job. The IFaxJob::get_SenderDept property applies only to outgoing fax transmissions.helpviewer_keywords: ["IFaxJob interface [Fax Service]","SenderDept property","IFaxJob.SenderDept","IFaxJob.get_SenderDept","IFaxJob::SenderDept","IFaxJob::get_SenderDept","SenderDept property [Fax Service]","SenderDept property [Fax Service]","IFaxJob interface","_mfax_ifaxjob_get_senderdept","fax._mfax_ifaxjob_get_senderdept","fax._mfax_ifaxjob_mfax_ifaxjob_get_senderdept_cpp","faxcom/IFaxJob::SenderDept","faxcom/IFaxJob::get_SenderDept","get_SenderDept"]
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_senderdept_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_71mc.htm

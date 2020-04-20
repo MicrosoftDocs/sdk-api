@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateSignatureReader
 title: IRdcLibrary::CreateSignatureReader (msrdc.h)
-description: Creates a signature reader to allow an application to decode the contents of a signature file.
+description: Creates a signature reader to allow an application to decode the contents of a signature file.helpviewer_keywords: ["CreateSignatureReader","CreateSignatureReader method [Remote Differential Compression]","CreateSignatureReader method [Remote Differential Compression]","IRdcLibrary interface","IRdcLibrary interface [Remote Differential Compression]","CreateSignatureReader method","IRdcLibrary.CreateSignatureReader","IRdcLibrary::CreateSignatureReader","fs.irdclibrary_createsignaturereader","msrdc/IRdcLibrary::CreateSignatureReader","rdc.irdclibrary_createsignaturereader"]
 old-location: rdc\irdclibrary_createsignaturereader.htm
 tech.root: rdc
 ms.assetid: 08627c9d-7470-47ab-9209-32734082c393

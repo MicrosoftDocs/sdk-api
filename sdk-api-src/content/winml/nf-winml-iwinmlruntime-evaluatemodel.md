@@ -1,7 +1,7 @@
 ---
 UID: NF:winml.IWinMLRuntime.EvaluateModel
 title: IWinMLRuntime::EvaluateModel (winml.h)
-description: Evaluates a WinML model.
+description: Evaluates a WinML model.helpviewer_keywords: ["EvaluateModel","EvaluateModel method","EvaluateModel method","IWinMLRuntime interface","IWinMLRuntime interface","EvaluateModel method","IWinMLRuntime.EvaluateModel","IWinMLRuntime::EvaluateModel","MachineLearning.iwinmlruntime_evaluatemodel","winml/IWinMLRuntime::EvaluateModel"]
 old-location: machinelearning\iwinmlruntime_evaluatemodel.htm
 tech.root: MachineLearning
 ms.assetid: F96A1CCD-02BD-4E93-830D-9975A03658E2

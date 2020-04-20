@@ -1,7 +1,7 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_GETSIGNALSTATUS
 title: PDD_VPORTCB_GETSIGNALSTATUS (ddrawint.h)
-description: The DdVideoPortGetSignalStatus callback function retrieves the status of the video signal currently being presented to the hardware video port.
+description: The DdVideoPortGetSignalStatus callback function retrieves the status of the video signal currently being presented to the hardware video port.helpviewer_keywords: ["DdVideoPortGetSignalStatus","DdVideoPortGetSignalStatus callback function [Display Devices]","PDD_VPORTCB_GETSIGNALSTATUS","PDD_VPORTCB_GETSIGNALSTATUS callback","ddfncs_ed14dce3-e341-436b-90b4-1175b2eae121.xml","ddrawint/DdVideoPortGetSignalStatus","display.ddvideoportgetsignalstatus"]
 old-location: display\ddvideoportgetsignalstatus.htm
 tech.root: display
 ms.assetid: d3868acf-b119-4ab3-aa85-64d50f76fdb7

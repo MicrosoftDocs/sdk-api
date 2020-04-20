@@ -1,7 +1,7 @@
 ---
 UID: NF:ktmw32.CreateEnlistment
 title: CreateEnlistment function (ktmw32.h)
-description: Creates an enlistment, sets its initial state, and opens a handle to the enlistment with the specified access.
+description: Creates an enlistment, sets its initial state, and opens a handle to the enlistment with the specified access.helpviewer_keywords: ["CreateEnlistment","CreateEnlistment function [Files]","ENLISTMENT_SUPERIOR","fs.createenlistment","ktmw32/CreateEnlistment"]
 old-location: fs\createenlistment.htm
 tech.root: ktm
 ms.assetid: 7bc06468-947f-48ec-8e58-20df58ed93bd

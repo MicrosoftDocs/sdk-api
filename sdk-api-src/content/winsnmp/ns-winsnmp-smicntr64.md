@@ -1,7 +1,7 @@
 ---
 UID: NS:winsnmp.__unnamed_struct_2
 title: smiCNTR64 (winsnmp.h)
-description: The WinSNMP smiCNTR64 structure contains a 64-bit unsigned integer value. The structure represents a 64-bit counter.
+description: The WinSNMP smiCNTR64 structure contains a 64-bit unsigned integer value. The structure represents a 64-bit counter.helpviewer_keywords: ["*smiLPCNTR64","_snmp_smicntr64_str","smiCNTR64","smiCNTR64 structure [SNMP]","smiLPCNTR64","smiLPCNTR64 structure pointer [SNMP]","snmp.smicntr64_str","winsnmp/smiCNTR64","winsnmp/smiLPCNTR64"]
 old-location: snmp\smicntr64_str.htm
 tech.root: SNMP
 ms.assetid: 224b162c-a9b3-4b71-a9ed-b15a51934498

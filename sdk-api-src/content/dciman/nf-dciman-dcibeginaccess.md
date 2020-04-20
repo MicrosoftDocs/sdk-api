@@ -1,7 +1,7 @@
 ---
 UID: NF:dciman.DCIBeginAccess
 title: DCIBeginAccess function (dciman.h)
-description: Obtains an access pointer to display frame buffer based on the given rectangle.
+description: Obtains an access pointer to display frame buffer based on the given rectangle.helpviewer_keywords: ["DCIBeginAccess","DCIBeginAccess function [Windows API]","_dciman_dcibeginaccess","dciman/DCIBeginAccess","winprog._dciman_dcibeginaccess","winui._dciman_dcibeginaccess"]
 old-location: winprog\_dciman_dcibeginaccess.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcibeginaccess.htm

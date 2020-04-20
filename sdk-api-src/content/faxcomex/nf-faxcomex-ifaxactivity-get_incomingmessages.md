@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxActivity.get_IncomingMessages
 title: IFaxActivity::get_IncomingMessages (faxcomex.h)
-description: The IFaxActivity::get_IncomingMessages property is a number that represents the total number of incoming fax jobs that the fax service is currently in the process of receiving.
+description: The IFaxActivity::get_IncomingMessages property is a number that represents the total number of incoming fax jobs that the fax service is currently in the process of receiving.helpviewer_keywords: ["IFaxActivity interface [Fax Service]","IncomingMessages property","IFaxActivity.IncomingMessages","IFaxActivity.get_IncomingMessages","IFaxActivity::IncomingMessages","IFaxActivity::get_IncomingMessages","IncomingMessages property [Fax Service]","IncomingMessages property [Fax Service]","IFaxActivity interface","_mfax_faxactivity.incomingmessages","fax._mfax_faxactivity_cpp_mfax_faxactivity_incomingmessages_cpp","fax._mfax_faxactivity_incomingmessages","faxcomex/IFaxActivity::IncomingMessages","faxcomex/IFaxActivity::get_IncomingMessages","get_IncomingMessages"]
 old-location: fax\_mfax_faxactivity_cpp_mfax_faxactivity_incomingmessages_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4gtv.htm

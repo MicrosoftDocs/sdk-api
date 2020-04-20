@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetRefTypeOfImplType
 title: ITypeInfo::GetRefTypeOfImplType (oaidl.h)
-description: If a type description describes a COM class, it retrieves the type description of the implemented interface types.
+description: If a type description describes a COM class, it retrieves the type description of the implemented interface types.helpviewer_keywords: ["GetRefTypeOfImplType","GetRefTypeOfImplType method [Automation]","GetRefTypeOfImplType method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetRefTypeOfImplType method","ITypeInfo.GetRefTypeOfImplType","ITypeInfo::GetRefTypeOfImplType","_oa96_ITypeInfo_GetRefTypeOfImplType","automat.itypeinfo_getreftypeofimpltype","oaidl/ITypeInfo::GetRefTypeOfImplType"]
 old-location: automat\itypeinfo_getreftypeofimpltype.htm
 tech.root: automat
 ms.assetid: aec61a9a-fa4f-42cd-a74b-100cdf2c2624

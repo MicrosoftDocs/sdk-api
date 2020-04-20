@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_CREATEMOCOMPDATA
 title: DD_CREATEMOCOMPDATA (ddrawint.h)
-description: The DD_CREATEMOCOMPDATA structure contains the data required to begin using motion compensation.
+description: The DD_CREATEMOCOMPDATA structure contains the data required to begin using motion compensation.helpviewer_keywords: ["*PDD_CREATEMOCOMPDATA","DD_CREATEMOCOMPDATA","DD_CREATEMOCOMPDATA structure [Display Devices]","ddrawint/DD_CREATEMOCOMPDATA","ddstrcts_776346bf-3538-4965-b747-a017a7c21514.xml","display.dd_createmocompdata"]
 old-location: display\dd_createmocompdata.htm
 tech.root: display
 ms.assetid: 53b2aa38-b007-4938-8fdb-c3482735ae36

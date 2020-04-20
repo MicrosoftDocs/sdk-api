@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_GroupName
 title: IRDPSRAPIInvitation::get_GroupName (rdpencomapi.h)
-description: The group name.
+description: The group name.helpviewer_keywords: ["GroupName property [RDP]","GroupName property [RDP]","IRDPSRAPIInvitation interface","GroupName property [RDP]","RDPSRAPIInvitation object","IRDPSRAPIInvitation interface [RDP]","GroupName property","IRDPSRAPIInvitation.GroupName","IRDPSRAPIInvitation.get_GroupName","IRDPSRAPIInvitation::GroupName","IRDPSRAPIInvitation::get_GroupName","RDPSRAPIInvitation object [RDP]","GroupName property","get_GroupName","rdp.irdpsrapiinvitation_groupname","rdpencomapi/IRDPSRAPIInvitation::GroupName","rdpencomapi/IRDPSRAPIInvitation::get_GroupName"]
 old-location: rdp\irdpsrapiinvitation_groupname.htm
 tech.root: rdp
 ms.assetid: 7ac76417-bb5c-40ae-a22a-b322b42b0d2c

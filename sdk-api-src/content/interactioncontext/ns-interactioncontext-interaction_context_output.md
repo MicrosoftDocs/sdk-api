@@ -1,7 +1,7 @@
 ---
 UID: NS:interactioncontext.INTERACTION_CONTEXT_OUTPUT
 title: INTERACTION_CONTEXT_OUTPUT (interactioncontext.h)
-description: Defines the output of the Interaction Context object.
+description: Defines the output of the Interaction Context object.helpviewer_keywords: ["INTERACTION_CONTEXT_OUTPUT","INTERACTION_CONTEXT_OUTPUT structure","input_intcontext.interaction_context_output","interactioncontext.interaction_context_output","interactioncontext/INTERACTION_CONTEXT_OUTPUT"]
 old-location: input_intcontext\interaction_context_output.htm
 tech.root: Input_IntContext
 ms.assetid: 90ba531c-9f97-451d-8781-450dbc248f47

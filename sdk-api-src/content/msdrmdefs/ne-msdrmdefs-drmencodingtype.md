@@ -1,7 +1,7 @@
 ---
 UID: NE:msdrmdefs._DRMENCODINGTYPE
 title: DRMENCODINGTYPE (msdrmdefs.h)
-description: The DRMENCODINGTYPE enumeration identifies possible encoding types used in licenses.
+description: The DRMENCODINGTYPE enumeration identifies possible encoding types used in licenses.helpviewer_keywords: ["DRMENCODINGTYPE","DRMENCODINGTYPE enumeration [Active Directory Rights Management Services SDK 1.0]","DRMENCODINGTYPE_BASE64","DRMENCODINGTYPE_LONG","DRMENCODINGTYPE_RAW","DRMENCODINGTYPE_STRING","DRMENCODINGTYPE_TIME","DRMENCODINGTYPE_UINT","msdrmdefs/DRMENCODINGTYPE","msdrmdefs/DRMENCODINGTYPE_BASE64","msdrmdefs/DRMENCODINGTYPE_LONG","msdrmdefs/DRMENCODINGTYPE_RAW","msdrmdefs/DRMENCODINGTYPE_STRING","msdrmdefs/DRMENCODINGTYPE_TIME","msdrmdefs/DRMENCODINGTYPE_UINT","rm.drmencodingtype"]
 old-location: rm\drmencodingtype.htm
 tech.root: AdRms_Sdk
 ms.assetid: 7859d7e9-aec4-4255-a11b-5d18c08fd6ca

@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagCOLORSCHEME
 title: COLORSCHEME (commctrl.h)
-description: Contains information for the drawing of buttons in a toolbar or rebar.
+description: Contains information for the drawing of buttons in a toolbar or rebar.helpviewer_keywords: ["*LPCOLORSCHEME","COLORSCHEME","COLORSCHEME structure [Windows Controls]","LPCOLORSCHEME","LPCOLORSCHEME structure pointer [Windows Controls]","_win32_COLORSCHEME","_win32_COLORSCHEME_cpp","commctrl/COLORSCHEME","commctrl/LPCOLORSCHEME","controls.COLORSCHEME","controls._win32_COLORSCHEME"]
 old-location: controls\COLORSCHEME.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\colorscheme.htm

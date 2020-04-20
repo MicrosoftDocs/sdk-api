@@ -1,7 +1,7 @@
 ---
 UID: NF:roapi.RoInitialize
 title: RoInitialize function (roapi.h)
-description: Initializes the Windows Runtime on the current thread with the specified concurrency model.
+description: Initializes the Windows Runtime on the current thread with the specified concurrency model.helpviewer_keywords: ["RoInitialize","RoInitialize function [Windows Runtime]","WinRTInitialize","roapi/RoInitialize","roapi/WinRTInitialize","winrt.roinitialize","winrt.winrtinitialize"]
 old-location: winrt\roinitialize.htm
 tech.root: WinRT
 ms.assetid: 527A7FF7-749D-4178-A397-5C538F6031F8

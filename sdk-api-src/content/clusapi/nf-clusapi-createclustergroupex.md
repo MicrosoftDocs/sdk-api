@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CreateClusterGroupEx
 title: CreateClusterGroupEx function (clusapi.h)
-description: Creates a new cluster group with the options specified in the CLUSTER_CREATE_GROUP_INFO structure in a single operation.
+description: Creates a new cluster group with the options specified in the CLUSTER_CREATE_GROUP_INFO structure in a single operation.helpviewer_keywords: ["CreateClusterGroupEx","CreateClusterGroupEx function [Failover Cluster]","PCLUSAPI_CREATE_CLUSTER_GROUPEX","PCLUSAPI_CREATE_CLUSTER_GROUPEX function [Failover Cluster]","clusapi/CreateClusterGroupEx","clusapi/PCLUSAPI_CREATE_CLUSTER_GROUPEX","mscs.createclustergroupex"]
 old-location: mscs\createclustergroupex.htm
 tech.root: MsCS
 ms.assetid: D24A2622-758D-4344-8872-F0D8E4EE80CC

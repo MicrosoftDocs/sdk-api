@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BlendTransform.GetDescription
 title: ID2D1BlendTransform::GetDescription (d2d1effectauthor.h)
-description: Gets the blend description of the corresponding blend transform object.
+description: Gets the blend description of the corresponding blend transform object.helpviewer_keywords: ["GetDescription","GetDescription method [Direct2D]","GetDescription method [Direct2D]","ID2D1BlendTransform interface","ID2D1BlendTransform interface [Direct2D]","GetDescription method","ID2D1BlendTransform.GetDescription","ID2D1BlendTransform::GetDescription","d2d1effectauthor/ID2D1BlendTransform::GetDescription","direct2d.id2d1blendtransform_getdescription"]
 old-location: direct2d\id2d1blendtransform_getdescription.htm
 tech.root: Direct2D
 ms.assetid: 7608A055-FD44-406E-86C7-DF575718D936

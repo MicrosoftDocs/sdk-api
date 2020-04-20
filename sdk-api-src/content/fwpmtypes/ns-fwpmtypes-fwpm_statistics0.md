@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_STATISTICS0_
 title: FWPM_STATISTICS0 (fwpmtypes.h)
-description: Stores statistics related to connections at specific layers.
+description: Stores statistics related to connections at specific layers.helpviewer_keywords: ["FWPM_STATISTICS0","FWPM_STATISTICS0 structure [Filtering]","fwp.fwpm_statistics0","fwpmtypes/FWPM_STATISTICS0"]
 old-location: fwp\fwpm_statistics0.htm
 tech.root: fwp
 ms.assetid: c3ac6871-79b1-4378-8f3c-a56e85fd2a3b

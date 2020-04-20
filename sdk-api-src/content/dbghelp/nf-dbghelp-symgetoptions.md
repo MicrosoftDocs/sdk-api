@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetOptions
 title: SymGetOptions function (dbghelp.h)
-description: Retrieves the current option mask.
+description: Retrieves the current option mask.helpviewer_keywords: ["SymGetOptions","SymGetOptions function","_win32_symgetoptions","base.symgetoptions","dbghelp/SymGetOptions"]
 old-location: base\symgetoptions.htm
 tech.root: Debug
 ms.assetid: 3d9db826-1c4a-46d6-b007-c0dd5e6b17cc

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordLangId
 title: IDvbSubtitlingDescriptor::GetRecordLangId (dvbsiparser.h)
-description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) subtitling descriptor. This code identifies the language used for subtitles.
+description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) subtitling descriptor. This code identifies the language used for subtitles.helpviewer_keywords: ["GetRecordLangId","GetRecordLangId method [Microsoft TV Technologies]","GetRecordLangId method [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","GetRecordLangId method","IDvbSubtitlingDescriptor.GetRecordLangId","IDvbSubtitlingDescriptor::GetRecordLangId","dvbsiparser/IDvbSubtitlingDescriptor::GetRecordLangId","mstv.idvbsubtitlingdescriptor_getrecordlangid"]
 old-location: mstv\idvbsubtitlingdescriptor_getrecordlangid.htm
 tech.root: mstv
 ms.assetid: 03a6a71f-ccec-4e4f-a24c-2ac81dd1a0ba

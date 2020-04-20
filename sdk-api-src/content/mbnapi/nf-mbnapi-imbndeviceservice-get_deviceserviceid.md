@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_DeviceServiceID
 title: IMbnDeviceService::get_DeviceServiceID (mbnapi.h)
-description: The ID of the device service to which this object is associated.
+description: The ID of the device service to which this object is associated.helpviewer_keywords: ["DeviceServiceID property [Microsoft Broadband Networks]","DeviceServiceID property [Microsoft Broadband Networks]","IMbnDeviceService interface","IMbnDeviceService interface [Microsoft Broadband Networks]","DeviceServiceID property","IMbnDeviceService.DeviceServiceID","IMbnDeviceService.get_DeviceServiceID","IMbnDeviceService::DeviceServiceID","IMbnDeviceService::get_DeviceServiceID","get_DeviceServiceID","mbn.imbndeviceservice_deviceserviceid","mbnapi/IMbnDeviceService::DeviceServiceID","mbnapi/IMbnDeviceService::get_DeviceServiceID"]
 old-location: mbn\imbndeviceservice_deviceserviceid.htm
 tech.root: mbn
 ms.assetid: 3AE6D7A6-3974-4517-AEB6-992CAC543247

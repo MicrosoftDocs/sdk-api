@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiInstallDriverFiles
 title: SetupDiInstallDriverFiles function (setupapi.h)
-description: The SetupDiInstallDriverFiles function is the default handler for the DIF_INSTALLDEVICEFILES installation request.
+description: The SetupDiInstallDriverFiles function is the default handler for the DIF_INSTALLDEVICEFILES installation request.helpviewer_keywords: ["SetupDiInstallDriverFiles","SetupDiInstallDriverFiles function [Device and Driver Installation]","devinst.setupdiinstalldriverfiles","di-rtns_0790674a-71fa-469e-b716-d420fbf40e7b.xml","setupapi/SetupDiInstallDriverFiles"]
 old-location: devinst\setupdiinstalldriverfiles.htm
 tech.root: devinst
 ms.assetid: 55abcdd1-a33e-4100-a3dd-4d3a31158004

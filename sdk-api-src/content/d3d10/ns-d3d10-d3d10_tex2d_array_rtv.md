@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_TEX2D_ARRAY_RTV
 title: D3D10_TEX2D_ARRAY_RTV (d3d10.h)
-description: Specifies the subresource(s) from an array of 2D textures to use in a render-target view.
+description: Specifies the subresource(s) from an array of 2D textures to use in a render-target view.helpviewer_keywords: ["8e0d5af5-974b-b561-2c13-93983bd71b25","D3D10_TEX2D_ARRAY_RTV","D3D10_TEX2D_ARRAY_RTV structure [Direct3D 10]","d3d10/D3D10_TEX2D_ARRAY_RTV","direct3d10.d3d10_tex2d_array_rtv"]
 old-location: direct3d10\d3d10_tex2d_array_rtv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2d_array_rtv.htm

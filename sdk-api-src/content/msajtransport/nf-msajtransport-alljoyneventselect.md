@@ -1,7 +1,7 @@
 ---
 UID: NF:msajtransport.AllJoynEventSelect
 title: AllJoynEventSelect function (msajtransport.h)
-description: Provides AllJoyn transport functionality similar to the TCP socket WSAEventSelect functionality.
+description: Provides AllJoyn transport functionality similar to the TCP socket WSAEventSelect functionality.helpviewer_keywords: ["AllJoynEventSelect","AllJoynEventSelect function [AllJoyn API]","alljoyn.alljoyneventselect","msajtransport/AllJoynEventSelect"]
 old-location: alljoyn\alljoyneventselect.htm
 tech.root: AllJoyn
 ms.assetid: 8E3A3631-50D5-4947-9C0E-672C08D7292A

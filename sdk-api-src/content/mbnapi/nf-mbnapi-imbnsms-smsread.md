@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsRead
 title: IMbnSms::SmsRead (mbnapi.h)
-description: Reads a set of SMS messages from a device.
+description: Reads a set of SMS messages from a device.helpviewer_keywords: ["IMbnSms interface [Microsoft Broadband Networks]","SmsRead method","IMbnSms.SmsRead","IMbnSms::SmsRead","SmsRead","SmsRead method [Microsoft Broadband Networks]","SmsRead method [Microsoft Broadband Networks]","IMbnSms interface","mbn.imbnsms_smsread","mbnapi/IMbnSms::SmsRead"]
 old-location: mbn\imbnsms_smsread.htm
 tech.root: mbn
 ms.assetid: d15eab89-c2bb-45af-8a6b-077517973fb1

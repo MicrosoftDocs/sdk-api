@@ -1,7 +1,7 @@
 ---
 UID: NN:qnetwork.IAMChannelInfo
 title: IAMChannelInfo (qnetwork.h)
-description: The IAMChannelInfo interface gets and sets channel information for Windows Media Station (.nsc) files.This interface is exposed by the Windows Media Source filter only when the filter is reading Windows Media Station (.nsc) files.
+description: The IAMChannelInfo interface gets and sets channel information for Windows Media Station (.nsc) files.This interface is exposed by the Windows Media Source filter only when the filter is reading Windows Media Station (.nsc) files.helpviewer_keywords: ["IAMChannelInfo","IAMChannelInfo interface [DirectShow]","IAMChannelInfo interface [DirectShow]","described","IAMChannelInfoInterface","dshow.iamchannelinfo","qnetwork/IAMChannelInfo"]
 old-location: dshow\iamchannelinfo.htm
 tech.root: DirectShow
 ms.assetid: 779d1c0a-f838-4d02-8254-d66916d3b790

@@ -1,7 +1,7 @@
 ---
 UID: NN:bits3_0.IEnumBitsPeers
 title: IEnumBitsPeers (bits3_0.h)
-description: Use IEnumBitsPeers to enumerate the list of peers that BITS has discovered.
+description: Use IEnumBitsPeers to enumerate the list of peers that BITS has discovered.helpviewer_keywords: ["IEnumBitsPeers","IEnumBitsPeers interface [BITS]","IEnumBitsPeers interface [BITS]","described","bits.ienumbitspeers","bits3_0/IEnumBitsPeers"]
 old-location: bits\ienumbitspeers.htm
 tech.root: Bits
 ms.assetid: 2715a58c-ba76-4223-ad9e-453d029e0eda

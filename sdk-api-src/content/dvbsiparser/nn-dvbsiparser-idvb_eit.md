@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IDVB_EIT
 title: IDVB_EIT (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IDVB_EIT","IDVB_EIT interface [Microsoft TV Technologies]","IDVB_EIT interface [Microsoft TV Technologies]","described","IDVB_EITInterface","dvbsiparser/IDVB_EIT","mstv.idvb_eit"]
 old-location: mstv\idvb_eit.htm
 tech.root: mstv
 ms.assetid: 86280e1e-09c3-45a4-bdfb-53eda8e5700e

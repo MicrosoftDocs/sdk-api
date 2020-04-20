@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumSTATSTG.Skip
 title: IEnumSTATSTG::Skip (objidl.h)
-description: Skips a specified number of STATSTG structures in the enumeration sequence.
+description: Skips a specified number of STATSTG structures in the enumeration sequence.helpviewer_keywords: ["IEnumSTATSTG interface [Structured Storage]","Skip method","IEnumSTATSTG.Skip","IEnumSTATSTG::Skip","Skip","Skip method [Structured Storage]","Skip method [Structured Storage]","IEnumSTATSTG interface","objidl/IEnumSTATSTG::Skip","stg.ienumstatstg_skip"]
 old-location: stg\ienumstatstg_skip.htm
 tech.root: Stg
 ms.assetid: 97d785d9-961c-44af-a0a0-1d2f610e6c9a

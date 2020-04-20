@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateHeap
 title: ID3D12Device::CreateHeap
-description: Creates a heap that can be used with placed resources and reserved resources.
+description: Creates a heap that can be used with placed resources and reserved resources.helpviewer_keywords: ["CreateHeap","CreateHeap method","CreateHeap method","ID3D12Device interface","ID3D12Device interface","CreateHeap method","ID3D12Device.CreateHeap","ID3D12Device::CreateHeap","d3d12/ID3D12Device::CreateHeap","direct3d12.id3d12device_createheap"]
 old-location: direct3d12\id3d12device_createheap.htm
 tech.root: direct3d12
 ms.assetid: DB5DF4B2-4673-4B8D-BDED-9F672A41E7F6

@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantToInt32
 title: PropVariantToInt32 function (propvarutil.h)
-description: Extracts the Int32 property value of a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
+description: Extracts the Int32 property value of a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.helpviewer_keywords: ["PropVariantToInt32","PropVariantToInt32 function [Windows Properties]","properties.PropVariantToInt32","propvarutil/PropVariantToInt32","shell.PropVariantToInt32","shell_PropVariantToInt32"]
 old-location: properties\PropVariantToInt32.htm
 tech.root: properties
 ms.assetid: 937722d6-cabf-4c4d-8ca9-06d6ed91b77a

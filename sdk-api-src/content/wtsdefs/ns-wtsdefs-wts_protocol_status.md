@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsdefs._WTS_PROTOCOL_STATUS
 title: WTS_PROTOCOL_STATUS (wtsdefs.h)
-description: Contains information about the status of the protocol.
+description: Contains information about the status of the protocol.helpviewer_keywords: ["*PWTS_PROTOCOL_STATUS","PWRDS_PROTOCOL_STATUS","PWRDS_PROTOCOL_STATUS structure pointer [Remote Desktop Services]","PWTS_PROTOCOL_STATUS","PWTS_PROTOCOL_STATUS structure pointer [Remote Desktop Services]","WRDS_PROTOCOL_STATUS","WRDS_PROTOCOL_STATUS structure [Remote Desktop Services]","WTS_PROTOCOL_STATUS","WTS_PROTOCOL_STATUS structure [Remote Desktop Services]","termserv.wts_protocol_status","wtsdefs/PWRDS_PROTOCOL_STATUS","wtsdefs/PWTS_PROTOCOL_STATUS","wtsdefs/WRDS_PROTOCOL_STATUS","wtsdefs/WTS_PROTOCOL_STATUS"]
 old-location: termserv\wts_protocol_status.htm
 tech.root: TermServ
 ms.assetid: 20e66033-fc79-49c9-af0e-abaf6e4ba501

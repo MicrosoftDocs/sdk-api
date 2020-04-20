@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IDeviceSpecificProperty.GetType
 title: IDeviceSpecificProperty::GetType (devicetopology.h)
-description: The GetType method gets the data type of the device-specific property value.
+description: The GetType method gets the data type of the device-specific property value.helpviewer_keywords: ["GetType","GetType method [Core Audio]","GetType method [Core Audio]","IDeviceSpecificProperty interface","IDeviceSpecificProperty interface [Core Audio]","GetType method","IDeviceSpecificProperty.GetType","IDeviceSpecificProperty::GetType","IDeviceSpecificPropertyGetType","coreaudio.idevicespecificproperty_gettype","devicetopology/IDeviceSpecificProperty::GetType"]
 old-location: coreaudio\idevicespecificproperty_gettype.htm
 tech.root: CoreAudio
 ms.assetid: 07d32eea-e80a-4f25-b963-3f667e56a811

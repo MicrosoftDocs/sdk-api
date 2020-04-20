@@ -1,7 +1,7 @@
 ---
 UID: NS:vmr9._VMR9MonitorInfo
 title: VMR9MonitorInfo (vmr9.h)
-description: The VMR9MonitorInfo structure is used with the VMR-9 in the IVMRMonitorConfig9::GetAvailableMonitors method to set and retrieve information about monitors on the system.
+description: The VMR9MonitorInfo structure is used with the VMR-9 in the IVMRMonitorConfig9::GetAvailableMonitors method to set and retrieve information about monitors on the system.helpviewer_keywords: ["VMR9MonitorInfo","VMR9MonitorInfo structure [DirectShow]","VMR9MonitorInfoStructure","dshow.vmr9monitorinfo","vmr9/VMR9MonitorInfo"]
 old-location: dshow\vmr9monitorinfo.htm
 tech.root: DirectShow
 ms.assetid: cb7d5c27-8762-450e-ba47-2a46e3106472

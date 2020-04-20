@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetProviderID
 title: ICredentialProviderUser::GetProviderID (credentialprovider.h)
-description: Retrieves the ID of the account provider for this user.
+description: Retrieves the ID of the account provider for this user.helpviewer_keywords: ["GetProviderID","GetProviderID method [Windows Shell]","GetProviderID method [Windows Shell]","ICredentialProviderUser interface","ICredentialProviderUser interface [Windows Shell]","GetProviderID method","ICredentialProviderUser.GetProviderID","ICredentialProviderUser::GetProviderID","credentialprovider/ICredentialProviderUser::GetProviderID","shell.ICredentialProviderUser_GetProviderID"]
 old-location: shell\ICredentialProviderUser_GetProviderID.htm
 tech.root: shell
 ms.assetid: 7BD6C532-0266-4579-96FA-91D0AF7E6C4C

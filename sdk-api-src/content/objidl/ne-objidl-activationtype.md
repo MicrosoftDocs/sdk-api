@@ -1,7 +1,7 @@
 ---
 UID: NE:objidl.tagACTIVATIONTYPE
 title: ACTIVATIONTYPE (objidl.h)
-description: Specifies the kind of activation for an activatable class.
+description: Specifies the kind of activation for an activatable class.helpviewer_keywords: ["ACTIVATIONTYPE","ActivationType","ActivationType enumeration [Windows Runtime]","ActivationType_InProcess","ActivationType_OutOfProcess","ActivationType_RemoteProcess","__x_ABI_CWindows_CFoundation_CActivationType","activationregistration/ActivationType","activationregistration/ActivationType_InProcess","activationregistration/ActivationType_OutOfProcess","activationregistration/ActivationType_RemoteProcess","winrt.activationtype"]
 old-location: winrt\activationtype.htm
 tech.root: WinRT
 ms.assetid: 200257CC-FE26-407F-8AE4-4DB7030AB4E7

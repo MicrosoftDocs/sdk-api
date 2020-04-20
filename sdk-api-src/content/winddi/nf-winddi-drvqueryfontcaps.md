@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvQueryFontCaps
 title: DrvQueryFontCaps function (winddi.h)
-description: The DrvQueryFontCaps function defines the capabilities of the font driver.
+description: The DrvQueryFontCaps function defines the capabilities of the font driver.helpviewer_keywords: ["DrvQueryFontCaps","DrvQueryFontCaps function [Display Devices]","ddifncs_7ae0a56c-3c98-456c-9595-b127f36209a1.xml","display.drvqueryfontcaps","winddi/DrvQueryFontCaps"]
 old-location: display\drvqueryfontcaps.htm
 tech.root: display
 ms.assetid: 304ee95a-7e40-40cb-a66c-17397dac0a76

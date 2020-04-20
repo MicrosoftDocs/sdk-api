@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocator9.AdviseNotify
 title: IVMRSurfaceAllocator9::AdviseNotify (vmr9.h)
-description: The AdviseNotify method provides the allocator-presenter with the VMR-9 filter's interface for notification callbacks.
+description: The AdviseNotify method provides the allocator-presenter with the VMR-9 filter's interface for notification callbacks.helpviewer_keywords: ["AdviseNotify","AdviseNotify method [DirectShow]","AdviseNotify method [DirectShow]","IVMRSurfaceAllocator9 interface","IVMRSurfaceAllocator9 interface [DirectShow]","AdviseNotify method","IVMRSurfaceAllocator9.AdviseNotify","IVMRSurfaceAllocator9::AdviseNotify","IVMRSurfaceAllocator9AdviseNotify","dshow.ivmrsurfaceallocator9_advisenotify","vmr9/IVMRSurfaceAllocator9::AdviseNotify"]
 old-location: dshow\ivmrsurfaceallocator9_advisenotify.htm
 tech.root: DirectShow
 ms.assetid: 2c367444-50bf-4fbe-b2d9-ed32275576e9

@@ -1,7 +1,7 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetStatus
 title: IDot11AdHocInterface::GetStatus (adhoc.h)
-description: Gets the connection status of the active network associated with this NIC.
+description: Gets the connection status of the active network associated with this NIC.helpviewer_keywords: ["GetStatus","GetStatus method [NativeWIFI]","GetStatus method [NativeWIFI]","IDot11AdHocInterface interface","IDot11AdHocInterface interface [NativeWIFI]","GetStatus method","IDot11AdHocInterface.GetStatus","IDot11AdHocInterface::GetStatus","adhoc/IDot11AdHocInterface::GetStatus","nwifi.idot11adhocinterface_getstatus"]
 old-location: nwifi\idot11adhocinterface_getstatus.htm
 tech.root: NativeWiFi
 ms.assetid: 54e271dc-b710-4229-9682-2919af6cd998

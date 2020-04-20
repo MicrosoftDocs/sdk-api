@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.CreateNewBandwidthSharing
 title: IWMProfile3::CreateNewBandwidthSharing (wmsdkidl.h)
-description: The CreateNewBandwidthSharing method creates a new bandwidth sharing object.
+description: The CreateNewBandwidthSharing method creates a new bandwidth sharing object.helpviewer_keywords: ["CreateNewBandwidthSharing","CreateNewBandwidthSharing method [windows Media Format]","CreateNewBandwidthSharing method [windows Media Format]","IWMProfile3 interface","IWMProfile3 interface [windows Media Format]","CreateNewBandwidthSharing method","IWMProfile3.CreateNewBandwidthSharing","IWMProfile3::CreateNewBandwidthSharing","IWMProfile3CreateNewBandwidthSharing","wmformat.iwmprofile3_createnewbandwidthsharing","wmsdkidl/IWMProfile3::CreateNewBandwidthSharing"]
 old-location: wmformat\iwmprofile3_createnewbandwidthsharing.htm
 tech.root: wmformat
 ms.assetid: ab6c9903-95ea-499b-be75-ff57328336f0

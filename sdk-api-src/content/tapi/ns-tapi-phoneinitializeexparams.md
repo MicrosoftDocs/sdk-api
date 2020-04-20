@@ -1,7 +1,7 @@
 ---
 UID: NS:tapi.phoneinitializeexparams_tag
 title: PHONEINITIALIZEEXPARAMS (tapi.h)
-description: The PHONEINITIALIZEEXPARAMS structure contains parameters used to establish the association between an application and TAPI; for example, the application's selected event notification mechanism. The phoneInitializeEx function uses this structure.
+description: The PHONEINITIALIZEEXPARAMS structure contains parameters used to establish the association between an application and TAPI; for example, the application's selected event notification mechanism. The phoneInitializeEx function uses this structure.helpviewer_keywords: ["*LPPHONEINITIALIZEEXPARAMS","LPPHONEINITIALIZEEXPARAMS","LPPHONEINITIALIZEEXPARAMS structure pointer [TAPI 2.2]","PHONEINITIALIZEEXPARAMS","PHONEINITIALIZEEXPARAMS structure [TAPI 2.2]","_tapi2_phoneinitializeexparams_str","tapi/LPPHONEINITIALIZEEXPARAMS","tapi/PHONEINITIALIZEEXPARAMS","tapi2.phoneinitializeexparams_str"]
 old-location: tapi2\phoneinitializeexparams_str.htm
 tech.root: Tapi
 ms.assetid: 465653e4-b88a-42a0-99b0-ce26eeaf99fd

@@ -1,7 +1,7 @@
 ---
 UID: NS:ksopmapi._OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 title: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS (ksopmapi.h)
-description: Contains initialization parameters for an Output Protection Manager (OPM) session.
+description: Contains initialization parameters for an Output Protection Manager (OPM) session.helpviewer_keywords: ["OPM_ENCRYPTED_INITIALIZATION_PARAMETERS","OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure [Media Foundation]","_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS","ksopmapi/OPM_ENCRYPTED_INITIALIZATION_PARAMETERS","mf.opm_encrypted_initialization_parameters"]
 old-location: mf\opm_encrypted_initialization_parameters.htm
 tech.root: medfound
 ms.assetid: abcf0b84-7370-48da-b4dd-4faded6be343

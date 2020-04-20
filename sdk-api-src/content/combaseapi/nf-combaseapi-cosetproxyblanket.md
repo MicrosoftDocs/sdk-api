@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoSetProxyBlanket
 title: CoSetProxyBlanket function (combaseapi.h)
-description: Sets the authentication information that will be used to make calls on the specified proxy.
+description: Sets the authentication information that will be used to make calls on the specified proxy.helpviewer_keywords: ["CoSetProxyBlanket","CoSetProxyBlanket function [COM]","_com_CoSetProxyBlanket","com.cosetproxyblanket","combaseapi/CoSetProxyBlanket"]
 old-location: com\cosetproxyblanket.htm
 tech.root: com
 ms.assetid: c2e5e681-8fa5-4b02-b59d-ba796eb0dccf

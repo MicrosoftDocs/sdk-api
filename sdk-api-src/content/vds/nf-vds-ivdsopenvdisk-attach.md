@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.Attach
 title: IVdsOpenVDisk::Attach (vds.h)
-description: Attaches a virtual disk.
+description: Attaches a virtual disk.helpviewer_keywords: ["ATTACH_VIRTUAL_DISK_FLAG_NONE","ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LETTER","ATTACH_VIRTUAL_DISK_FLAG_NO_LOCAL_HOST","ATTACH_VIRTUAL_DISK_FLAG_PERMANENT_LIFETIME","ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY","Attach","Attach method","Attach method","IVdsOpenVDisk interface","IVdsOpenVDisk interface","Attach method","IVdsOpenVDisk.Attach","IVdsOpenVDisk::Attach","base.ivdsopenvdisk_attach","vds/IVdsOpenVDisk::Attach"]
 old-location: base\ivdsopenvdisk_attach.htm
 tech.root: VDS
 ms.assetid: 02647fe6-b94c-43ac-939c-262cea2c49d4

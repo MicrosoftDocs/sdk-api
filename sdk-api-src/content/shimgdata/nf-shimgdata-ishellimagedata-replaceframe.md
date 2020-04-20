@@ -1,7 +1,7 @@
 ---
 UID: NF:shimgdata.IShellImageData.ReplaceFrame
 title: IShellImageData::ReplaceFrame (shimgdata.h)
-description: Replaces the current frame with a new image.
+description: Replaces the current frame with a new image.helpviewer_keywords: ["IShellImageData interface [Windows Shell]","ReplaceFrame method","IShellImageData.ReplaceFrame","IShellImageData::ReplaceFrame","ReplaceFrame","ReplaceFrame method [Windows Shell]","ReplaceFrame method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_ReplaceFrame","shell.IShellImageData_ReplaceFrame","shimgdata/IShellImageData::ReplaceFrame"]
 old-location: shell\IShellImageData_ReplaceFrame.htm
 tech.root: shell
 ms.assetid: f066c503-4512-46db-be50-016996b92668

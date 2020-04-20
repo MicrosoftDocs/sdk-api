@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceSyncStateChange
 title: IWMPEvents2::DeviceSyncStateChange (wmp.h)
-description: The DeviceSyncStateChange event occurs when the synchronization state of a device changes.
+description: The DeviceSyncStateChange event occurs when the synchronization state of a device changes.helpviewer_keywords: ["DeviceSyncStateChange","DeviceSyncStateChange method [Windows Media Player]","DeviceSyncStateChange method [Windows Media Player]","IWMPEvents2 interface","IWMPEvents2 interface [Windows Media Player]","DeviceSyncStateChange method","IWMPEvents2.DeviceSyncStateChange","IWMPEvents2::DeviceSyncStateChange","IWMPEvents2DeviceSyncStateChange","wmp.iwmpevents2_iwmpevents2__devicesyncstatechange","wmp/IWMPEvents2::DeviceSyncStateChange"]
 old-location: wmp\iwmpevents2_iwmpevents2__devicesyncstatechange.htm
 tech.root: WMP
 ms.assetid: 98970d33-8035-49f9-9243-b4832df6e5c9

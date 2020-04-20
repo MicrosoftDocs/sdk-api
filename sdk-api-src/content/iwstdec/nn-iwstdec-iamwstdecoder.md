@@ -1,7 +1,7 @@
 ---
 UID: NN:iwstdec.IAMWstDecoder
 title: IAMWstDecoder (iwstdec.h)
-description: The IAMWstDecoder interface sets and retrieves information about World Standard Teletext (WST). The WST Decoder filter implements this interface.
+description: The IAMWstDecoder interface sets and retrieves information about World Standard Teletext (WST). The WST Decoder filter implements this interface.helpviewer_keywords: ["IAMWstDecoder","IAMWstDecoder interface [DirectShow]","IAMWstDecoder interface [DirectShow]","described","IAMWstDecoderInterface","dshow.iamwstdecoder","iwstdec/IAMWstDecoder"]
 old-location: dshow\iamwstdecoder.htm
 tech.root: DirectShow
 ms.assetid: f2f5a459-14de-4be1-909c-3c23e4cfd737

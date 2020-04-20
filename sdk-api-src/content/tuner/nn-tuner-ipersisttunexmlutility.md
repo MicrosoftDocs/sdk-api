@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IPersistTuneXmlUtility
 title: IPersistTuneXmlUtility (tuner.h)
-description: Defines utility methods for deserializing XML tuning requests to objects that expose their IUnknown interfaces.
+description: Defines utility methods for deserializing XML tuning requests to objects that expose their IUnknown interfaces.helpviewer_keywords: ["IPersistTuneXmlUtility","IPersistTuneXmlUtility interface [Microsoft TV Technologies]","IPersistTuneXmlUtility interface [Microsoft TV Technologies]","described","mstv.ipersisttunexmlutility","tuner/IPersistTuneXmlUtility"]
 old-location: mstv\ipersisttunexmlutility.htm
 tech.root: mstv
 ms.assetid: aa03015f-094f-499f-99fb-2e15ead74f15

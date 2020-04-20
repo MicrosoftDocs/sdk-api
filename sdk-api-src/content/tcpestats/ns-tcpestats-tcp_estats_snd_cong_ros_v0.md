@@ -1,7 +1,7 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_SND_CONG_ROS_v0
 title: TCP_ESTATS_SND_CONG_ROS_v0 (tcpestats.h)
-description: Contains read-only static information for extended TCP statistics on the maximum congestion window for a TCP connection.
+description: Contains read-only static information for extended TCP statistics on the maximum congestion window for a TCP connection.helpviewer_keywords: ["*PTCP_ESTATS_SND_CONG_ROS_v0","PTCP_ESTATS_SND_CONG_ROS_v0","PTCP_ESTATS_SND_CONG_ROS_v0 structure pointer [IP Helper]","TCP_ESTATS_SND_CONG_ROS_v0","TCP_ESTATS_SND_CONG_ROS_v0 structure [IP Helper]","iphlp.tcp_estats_snd_cong_ros_v0","tcpestats/PTCP_ESTATS_SND_CONG_ROS_v0","tcpestats/TCP_ESTATS_SND_CONG_ROS_v0"]
 old-location: iphlp\tcp_estats_snd_cong_ros_v0.htm
 tech.root: IpHlp
 ms.assetid: 4c92af92-ed51-4548-873f-b25207ea46dc

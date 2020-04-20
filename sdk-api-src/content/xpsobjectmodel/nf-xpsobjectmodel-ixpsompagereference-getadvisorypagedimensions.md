@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetAdvisoryPageDimensions
 title: IXpsOMPageReference::GetAdvisoryPageDimensions (xpsobjectmodel.h)
-description: Gets the suggested dimensions of the page.
+description: Gets the suggested dimensions of the page.helpviewer_keywords: ["GetAdvisoryPageDimensions","GetAdvisoryPageDimensions method [XPS Documents and Packaging]","GetAdvisoryPageDimensions method [XPS Documents and Packaging]","IXpsOMPageReference interface","IXpsOMPageReference interface [XPS Documents and Packaging]","GetAdvisoryPageDimensions method","IXpsOMPageReference.GetAdvisoryPageDimensions","IXpsOMPageReference::GetAdvisoryPageDimensions","xps.ixpsompagereference_getadvisorypagedimensions","xpsobjectmodel/IXpsOMPageReference::GetAdvisoryPageDimensions"]
 old-location: xps\ixpsompagereference_getadvisorypagedimensions.htm
 tech.root: printdocs
 ms.assetid: 1e25d910-5ca5-4e92-8b77-479c48a0089a

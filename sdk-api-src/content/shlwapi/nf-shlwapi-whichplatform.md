@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.WhichPlatform
 title: WhichPlatform function (shlwapi.h)
-description: WhichPlatform may be altered or unavailable.
+description: WhichPlatform may be altered or unavailable.helpviewer_keywords: ["WhichPlatform","WhichPlatform function [Windows Shell]","_win32_WhichPlatform","shell.WhichPlatform","shlwapi/WhichPlatform"]
 old-location: shell\WhichPlatform.htm
 tech.root: shell
 ms.assetid: 14af733b-81b4-40a2-b93b-6f387b181f12

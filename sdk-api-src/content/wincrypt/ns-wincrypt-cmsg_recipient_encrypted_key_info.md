@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CMSG_RECIPIENT_ENCRYPTED_KEY_INFO
 title: CMSG_RECIPIENT_ENCRYPTED_KEY_INFO (wincrypt.h)
-description: The CMSG_RECIPIENT_ENCRYPTED_KEY_INFO structure contains information used for an individual key agreement recipient.
+description: The CMSG_RECIPIENT_ENCRYPTED_KEY_INFO structure contains information used for an individual key agreement recipient.helpviewer_keywords: ["*PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO","CMSG_RECIPIENT_ENCRYPTED_KEY_INFO","CMSG_RECIPIENT_ENCRYPTED_KEY_INFO structure [Security]","PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO","PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO structure pointer [Security]","_crypto2_cmsg_recipient_encrypted_key_info","security.cmsg_recipient_encrypted_key_info","wincrypt/CMSG_RECIPIENT_ENCRYPTED_KEY_INFO","wincrypt/PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO"]
 old-location: security\cmsg_recipient_encrypted_key_info.htm
 tech.root: SecCrypto
 ms.assetid: 1921f9b6-86d9-47a0-a36e-e20d481382a3

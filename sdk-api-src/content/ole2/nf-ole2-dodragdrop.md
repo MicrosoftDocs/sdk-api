@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.DoDragDrop
 title: DoDragDrop function (ole2.h)
-description: Carries out an OLE drag and drop operation.
+description: Carries out an OLE drag and drop operation.helpviewer_keywords: ["DoDragDrop","DoDragDrop function [COM]","_ole_DoDragDrop","com.dodragdrop","ole2/DoDragDrop"]
 old-location: com\dodragdrop.htm
 tech.root: com
 ms.assetid: 095172ac-9e08-4797-b9da-41a4e5a61315

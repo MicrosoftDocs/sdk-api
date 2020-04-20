@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._FsrmQuotaFlags
 title: FsrmQuotaFlags (fsrmenums.h)
-description: Defines the options for failing IO operations that violate a quota, enabling or disabling quota tracking, and providing the status of the quota scan operation.
+description: Defines the options for failing IO operations that violate a quota, enabling or disabling quota tracking, and providing the status of the quota scan operation.helpviewer_keywords: ["FsrmQuotaFlags","FsrmQuotaFlags enumeration [File Server Resource Manager]","FsrmQuotaFlags_Disable","FsrmQuotaFlags_Enforce","FsrmQuotaFlags_StatusIncomplete","FsrmQuotaFlags_StatusRebuilding","fs.fsrmquotaflags","fsrm.fsrmquotaflags","fsrmenums/FsrmQuotaFlags","fsrmenums/FsrmQuotaFlags_Disable","fsrmenums/FsrmQuotaFlags_Enforce","fsrmenums/FsrmQuotaFlags_StatusIncomplete","fsrmenums/FsrmQuotaFlags_StatusRebuilding"]
 old-location: fsrm\fsrmquotaflags.htm
 tech.root: fsrm
 ms.assetid: 254a26c7-a859-4b23-a3e2-9d261c848eef

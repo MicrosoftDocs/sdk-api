@@ -1,7 +1,7 @@
 ---
 UID: NN:rendezvoussession.DRendezvousSessionEvents
 title: DRendezvousSessionEvents (rendezvoussession.h)
-description: Handles events that are generated or received by a IRendezvousSession object.
+description: Handles events that are generated or received by a IRendezvousSession object.helpviewer_keywords: ["DRendezvousSessionEvents","DRendezvousSessionEvents interface [Remote Assistance]","DRendezvousSessionEvents interface [Remote Assistance]","described","remoteassist.remoteassist_DRendezvousSessionEvents","remoteassist_DRendezvousSessionEvents","rendezvoussession/DRendezvousSessionEvents"]
 old-location: remoteassist\remoteassist_DRendezvousSessionEvents.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\events\drendezvoussessionevents\drendezvoussessionevents.htm

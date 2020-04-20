@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IESEventService
 title: IESEventService (tuner.h)
-description: Implements an event service that includes methods that raise events derived from the IESEvent interface.
+description: Implements an event service that includes methods that raise events derived from the IESEvent interface.helpviewer_keywords: ["IESEventService","IESEventService interface [Microsoft TV Technologies]","IESEventService interface [Microsoft TV Technologies]","described","mstv.ieseventservice","tuner/IESEventService"]
 old-location: mstv\ieseventservice.htm
 tech.root: mstv
 ms.assetid: 2720d616-18a6-488e-98ef-565768c22c2a

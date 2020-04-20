@@ -1,7 +1,7 @@
 ---
 UID: NE:evr._MFVideoMixPrefs
 title: MFVideoMixPrefs (evr.h)
-description: Contains flags that are used to configure how the enhanced video renderer (EVR) performs deinterlacing.
+description: Contains flags that are used to configure how the enhanced video renderer (EVR) performs deinterlacing.helpviewer_keywords: ["MFVideoMixPrefs","MFVideoMixPrefs enumeration [Media Foundation]","MFVideoMixPrefs_AllowDropToBob","MFVideoMixPrefs_AllowDropToHalfInterlace","MFVideoMixPrefs_ForceBob","MFVideoMixPrefs_ForceHalfInterlace","MFVideoMixPrefs_Mask","evr/MFVideoMixPrefs","evr/MFVideoMixPrefs_AllowDropToBob","evr/MFVideoMixPrefs_AllowDropToHalfInterlace","evr/MFVideoMixPrefs_ForceBob","evr/MFVideoMixPrefs_ForceHalfInterlace","evr/MFVideoMixPrefs_Mask","mf.mfvideomixprefs"]
 old-location: mf\mfvideomixprefs.htm
 tech.root: medfound
 ms.assetid: 28dcc8b1-684e-4178-9606-118e77d8ff58

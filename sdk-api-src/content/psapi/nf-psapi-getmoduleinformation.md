@@ -1,7 +1,7 @@
 ---
 UID: NF:psapi.GetModuleInformation
 title: GetModuleInformation function (psapi.h)
-description: Retrieves information about the specified module in the MODULEINFO structure.
+description: Retrieves information about the specified module in the MODULEINFO structure.helpviewer_keywords: ["GetModuleInformation","GetModuleInformation function [PSAPI]","K32GetModuleInformation","_win32_getmoduleinformation","base.getmoduleinformation","psapi.getmoduleinformation","psapi/GetModuleInformation","psapi/K32GetModuleInformation"]
 old-location: psapi\getmoduleinformation.htm
 tech.root: psapi
 ms.assetid: afb9f4c8-c8ae-4497-96c1-b559cfa2cedf

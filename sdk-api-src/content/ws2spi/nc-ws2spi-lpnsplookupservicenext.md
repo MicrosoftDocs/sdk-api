@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPNSPLOOKUPSERVICENEXT
 title: LPNSPLOOKUPSERVICENEXT (ws2spi.h)
-description: Called after obtaining a handle from a previous call to NSPLookupServiceBegin in order to retrieve the requested service information.
+description: Called after obtaining a handle from a previous call to NSPLookupServiceBegin in order to retrieve the requested service information.helpviewer_keywords: ["LPNSPLOOKUPSERVICENEXT","NSPLookupServiceNext","NSPLookupServiceNext function [Winsock]","_win32_nsplookupservicenext_2","winsock.nsplookupservicenext_2","ws2spi/NSPLookupServiceNext"]
 old-location: winsock\nsplookupservicenext_2.htm
 tech.root: WinSock
 ms.assetid: 321732e4-5d48-48f4-8795-ffac208852dc

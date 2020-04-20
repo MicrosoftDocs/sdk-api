@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_DisplayNameUnresolved
 title: IDataCollectorSet::get_DisplayNameUnresolved (pla.h)
-description: Retrieves the display name of the data collector set in its original form.
+description: Retrieves the display name of the data collector set in its original form.helpviewer_keywords: ["DisplayNameUnresolved property [PLA]","DisplayNameUnresolved property [PLA]","IDataCollectorSet interface","IDataCollectorSet interface [PLA]","DisplayNameUnresolved property","IDataCollectorSet.DisplayNameUnresolved","IDataCollectorSet.get_DisplayNameUnresolved","IDataCollectorSet::DisplayNameUnresolved","IDataCollectorSet::get_DisplayNameUnresolved","get_DisplayNameUnresolved","pla.idatacollectorset_displaynameunresolved","pla/IDataCollectorSet::DisplayNameUnresolved","pla/IDataCollectorSet::get_DisplayNameUnresolved"]
 old-location: pla\idatacollectorset_displaynameunresolved.htm
 tech.root: PLA
 ms.assetid: 47941406-e05d-4a64-9a84-8aa7162e5b48

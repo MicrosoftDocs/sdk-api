@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetWindowContextHelpId
 title: GetWindowContextHelpId function (winuser.h)
-description: Retrieves the Help context identifier, if any, associated with the specified window.
+description: Retrieves the Help context identifier, if any, associated with the specified window.helpviewer_keywords: ["GetWindowContextHelpId","GetWindowContextHelpId function [Windows Shell]","_win32_GetWindowContextHelpId","shell.GetWindowContextHelpId","winuser/GetWindowContextHelpId"]
 old-location: shell\GetWindowContextHelpId.htm
 tech.root: shell
 ms.assetid: 28e57c01-0327-4f64-9ef4-ca13c3c32b0c

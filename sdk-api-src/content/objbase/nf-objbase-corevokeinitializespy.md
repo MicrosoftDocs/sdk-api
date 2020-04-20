@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CoRevokeInitializeSpy
 title: CoRevokeInitializeSpy function (objbase.h)
-description: Revokes a registered implementation of the IInitializeSpy interface.
+description: Revokes a registered implementation of the IInitializeSpy interface.helpviewer_keywords: ["CoRevokeInitializeSpy","CoRevokeInitializeSpy function [COM]","_com_CoRevokeInitializeSpy","com.corevokeinitializespy","objbase/CoRevokeInitializeSpy"]
 old-location: com\corevokeinitializespy.htm
 tech.root: com
 ms.assetid: 24b0bedd-421a-4215-8edc-9fdce53e3b44

@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.MMCFreeNotifyHandle
 title: MMCFreeNotifyHandle function (mmc.h)
-description: Called by a snap-in to free the handle to an MMCN_PROPERTY_CHANGE notification message sent to the snap-in by MMC in response to an MMCPropertyChangeNotify call made by a property sheet.
+description: Called by a snap-in to free the handle to an MMCN_PROPERTY_CHANGE notification message sent to the snap-in by MMC in response to an MMCPropertyChangeNotify call made by a property sheet.helpviewer_keywords: ["MMCFreeNotifyHandle","MMCFreeNotifyHandle callback","MMCFreeNotifyHandle callback function [MMC]","_slate_mmcfreenotifyhandle","mmc.mmcfreenotifyhandle","mmc/MMCFreeNotifyHandle"]
 old-location: mmc\mmcfreenotifyhandle.htm
 tech.root: mmc
 ms.assetid: 92802835-4324-4678-be9c-51dc9ca27576

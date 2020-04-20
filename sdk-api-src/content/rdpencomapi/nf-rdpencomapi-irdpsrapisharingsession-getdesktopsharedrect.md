@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.GetDesktopSharedRect
 title: IRDPSRAPISharingSession::GetDesktopSharedRect (rdpencomapi.h)
-description: Retrieves the current desktop region being shared.
+description: Retrieves the current desktop region being shared.helpviewer_keywords: ["GetDesktopSharedRect","GetDesktopSharedRect method [RDP]","GetDesktopSharedRect method [RDP]","IRDPSRAPISharingSession interface","GetDesktopSharedRect method [RDP]","IRDPSRAPISharingSession2 interface","IRDPSRAPISharingSession interface [RDP]","GetDesktopSharedRect method","IRDPSRAPISharingSession.GetDesktopSharedRect","IRDPSRAPISharingSession2 interface [RDP]","GetDesktopSharedRect method","IRDPSRAPISharingSession2::GetDesktopSharedRect","IRDPSRAPISharingSession::GetDesktopSharedRect","rdp.irdpsrapisharingsession_getdesktopsharedrect","rdpencomapi/IRDPSRAPISharingSession2::GetDesktopSharedRect","rdpencomapi/IRDPSRAPISharingSession::GetDesktopSharedRect"]
 old-location: rdp\irdpsrapisharingsession_getdesktopsharedrect.htm
 tech.root: rdp
 ms.assetid: 2b224fa2-928d-4222-80a6-91f654b97ae1

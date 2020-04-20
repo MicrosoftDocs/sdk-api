@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_SOURCE_DEVICE_NAME
 title: DISPLAYCONFIG_SOURCE_DEVICE_NAME (wingdi.h)
-description: The DISPLAYCONFIG_SOURCE_DEVICE_NAME structure contains the GDI device name for the source or view.
+description: The DISPLAYCONFIG_SOURCE_DEVICE_NAME structure contains the GDI device name for the source or view.helpviewer_keywords: ["CCD_Structures_0a443841-294d-4b14-8f95-7825de89b8ac.xml","DISPLAYCONFIG_SOURCE_DEVICE_NAME","DISPLAYCONFIG_SOURCE_DEVICE_NAME structure [Display Devices]","display.displayconfig_source_device_name","wingdi/DISPLAYCONFIG_SOURCE_DEVICE_NAME"]
 old-location: display\displayconfig_source_device_name.htm
 tech.root: display
 ms.assetid: 92813ffc-1915-4f26-afb1-936bf76f7844

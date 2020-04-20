@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegGetKeySecurity
 title: RegGetKeySecurity function (winreg.h)
-description: Retrieves a copy of the security descriptor protecting the specified open registry key.
+description: Retrieves a copy of the security descriptor protecting the specified open registry key.helpviewer_keywords: ["RegGetKeySecurity","RegGetKeySecurity function [Security]","_win32_reggetkeysecurity","security.reggetkeysecurity","winreg/RegGetKeySecurity"]
 old-location: security\reggetkeysecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 26bd8f89-9241-4c13-a214-c2b276d68c92

@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcasync.RpcErrorLoadErrorInfo
 title: RpcErrorLoadErrorInfo function (rpcasync.h)
-description: The RpcErrorLoadErrorInfo function converts a BLOB obtained by a call to RpcErrorSaveErrorInfo into extended error information.
+description: The RpcErrorLoadErrorInfo function converts a BLOB obtained by a call to RpcErrorSaveErrorInfo into extended error information.helpviewer_keywords: ["RpcErrorLoadErrorInfo","RpcErrorLoadErrorInfo function [RPC]","_rpc_rpcerrorloaderrorinfo","rpc.rpcerrorloaderrorinfo","rpcasync/RpcErrorLoadErrorInfo"]
 old-location: rpc\rpcerrorloaderrorinfo.htm
 tech.root: Rpc
 ms.assetid: cbd171ee-cef3-4880-a26d-81267cb813e9

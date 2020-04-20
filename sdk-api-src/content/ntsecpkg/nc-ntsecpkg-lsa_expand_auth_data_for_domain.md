@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.LSA_EXPAND_AUTH_DATA_FOR_DOMAIN
 title: LSA_EXPAND_AUTH_DATA_FOR_DOMAIN (ntsecpkg.h)
-description: Expands the domain groups in the specified user authentication data.
+description: Expands the domain groups in the specified user authentication data.helpviewer_keywords: ["ExpandAuthDataForDomain","ExpandAuthDataForDomain callback function [Security]","LSA_EXPAND_AUTH_DATA_FOR_DOMAIN","LSA_EXPAND_AUTH_DATA_FOR_DOMAIN callback","ntsecpkg/ExpandAuthDataForDomain","security.expandauthdatafordomain"]
 old-location: security\expandauthdatafordomain.htm
 tech.root: SecAuthN
 ms.assetid: 965d8575-a05b-45d8-8718-4004f1d22ca5

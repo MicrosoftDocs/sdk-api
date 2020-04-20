@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpSetFilterV4
 title: DhcpSetFilterV4 function (dhcpsapi.h)
-description: Enables or disables the allow and deny lists on a DHCP server.
+description: Enables or disables the allow and deny lists on a DHCP server.helpviewer_keywords: ["DhcpSetFilterV4","DhcpSetFilterV4 function [DHCP]","dhcp.dhcpsetfilterv4","dhcpsapi/DhcpSetFilterV4"]
 old-location: dhcp\dhcpsetfilterv4.htm
 tech.root: DHCP
 ms.assetid: 4a67ad11-1f24-4ab6-b5f7-e51c97562037

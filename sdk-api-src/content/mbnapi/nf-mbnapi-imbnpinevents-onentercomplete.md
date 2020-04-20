@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnEnterComplete
 title: IMbnPinEvents::OnEnterComplete (mbnapi.h)
-description: Notification method called by the Mobile Broadband service to indicate that a PIN enter operation has completed.
+description: Notification method called by the Mobile Broadband service to indicate that a PIN enter operation has completed.helpviewer_keywords: ["E_FAIL","E_MBN_BAD_SIM","E_MBN_PIN_REQUIRED","E_MBN_SIM_NOT_INSERTED","HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)","IMbnPinEvents interface [Microsoft Broadband Networks]","OnEnterComplete method","IMbnPinEvents.OnEnterComplete","IMbnPinEvents::OnEnterComplete","OnEnterComplete","OnEnterComplete method [Microsoft Broadband Networks]","OnEnterComplete method [Microsoft Broadband Networks]","IMbnPinEvents interface","S_OK","mbn.imbnpinevents_onentercomplete","mbnapi/IMbnPinEvents::OnEnterComplete"]
 old-location: mbn\imbnpinevents_onentercomplete.htm
 tech.root: mbn
 ms.assetid: 6a4bc731-e498-4afb-a648-0b49d2f592ca

@@ -1,7 +1,7 @@
 ---
 UID: NF:projectedfslib.PrjStartVirtualizing
 title: PrjStartVirtualizing function (projectedfslib.h)
-description: Configures a ProjFS virtualization instance and starts it, making it available to service I/O and invoke callbacks on the provider.
+description: Configures a ProjFS virtualization instance and starts it, making it available to service I/O and invoke callbacks on the provider.helpviewer_keywords: ["PrjStartVirtualizing","PrjStartVirtualizing function","ProjFS.prjstartvirtualizing","projectedfslib/PrjStartVirtualizing"]
 old-location: projfs\prjstartvirtualizing.htm
 tech.root: ProjFS
 ms.assetid: 466347B7-1D7D-4C7D-B17C-1E5E1A2223C1

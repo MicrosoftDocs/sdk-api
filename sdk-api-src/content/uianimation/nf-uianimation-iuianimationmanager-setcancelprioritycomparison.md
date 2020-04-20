@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.SetCancelPriorityComparison
 title: IUIAnimationManager::SetCancelPriorityComparison (uianimation.h)
-description: Sets the priority comparison handler to be called to determine whether a scheduled storyboard can be canceled.
+description: Sets the priority comparison handler to be called to determine whether a scheduled storyboard can be canceled.helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","SetCancelPriorityComparison method","IUIAnimationManager.SetCancelPriorityComparison","IUIAnimationManager::SetCancelPriorityComparison","SetCancelPriorityComparison","SetCancelPriorityComparison method [Windows Animation]","SetCancelPriorityComparison method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_setcancelprioritycomparison","uianimation/IUIAnimationManager::SetCancelPriorityComparison"]
 old-location: uianimation\iuianimationmanager_setcancelprioritycomparison.htm
 tech.root: UIAnimation
 ms.assetid: cea146d1-4a9c-4089-8015-ac16602f5afd

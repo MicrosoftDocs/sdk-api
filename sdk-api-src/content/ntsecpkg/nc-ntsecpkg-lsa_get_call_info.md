@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.LSA_GET_CALL_INFO
 title: LSA_GET_CALL_INFO (ntsecpkg.h)
-description: The GetCallInfo function retrieves information about the most recent function call.
+description: The GetCallInfo function retrieves information about the most recent function call.helpviewer_keywords: ["GetCallInfo","GetCallInfo callback function [Security]","LSA_GET_CALL_INFO","LSA_GET_CALL_INFO callback","_ssp_getcallinfo","ntsecpkg/GetCallInfo","security.getcallinfo"]
 old-location: security\getcallinfo.htm
 tech.root: SecAuthN
 ms.assetid: 3e59ee6a-f7ba-4886-98f7-74ffbfaadea7

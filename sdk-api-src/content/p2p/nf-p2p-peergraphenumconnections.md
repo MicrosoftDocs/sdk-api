@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerGraphEnumConnections
 title: PeerGraphEnumConnections function (p2p.h)
-description: The PeerGraphEnumConnections function creates and returns an enumeration handle used to enumerate the connections of a local node.
+description: The PeerGraphEnumConnections function creates and returns an enumeration handle used to enumerate the connections of a local node.helpviewer_keywords: ["PeerGraphEnumConnections","PeerGraphEnumConnections function [Peer Networking]","p2p.peergraphenumconnections","p2p/PeerGraphEnumConnections"]
 old-location: p2p\peergraphenumconnections.htm
 tech.root: P2PSdk
 ms.assetid: ef4ea3e2-fd71-48d8-a9a8-db38ef06df20

@@ -1,7 +1,7 @@
 ---
 UID: NS:t2embapi.__unnamed_struct_2
 title: TTVALIDATIONTESTSPARAMS (t2embapi.h)
-description: The TTVALIDATIONTESTSPARAMS structure contains parameters for testing a Microsoft OpenType font.
+description: The TTVALIDATIONTESTSPARAMS structure contains parameters for testing a Microsoft OpenType font.helpviewer_keywords: ["TTVALIDATIONTESTSPARAMS","TTVALIDATIONTESTSPARAMS structure [Windows GDI]","_win32_TTVALIDATIONTESTPARAMS","gdi.ttvalidationtestparams","t2embapi/TTVALIDATIONTESTSPARAMS"]
 old-location: gdi\ttvalidationtestparams.htm
 tech.root: gdi
 ms.assetid: 901fd8e5-1602-4e20-9269-d0c3fe661e45

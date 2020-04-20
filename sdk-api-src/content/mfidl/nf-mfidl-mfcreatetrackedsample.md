@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateTrackedSample
 title: MFCreateTrackedSample function (mfidl.h)
-description: Creates an IMFTrackedSample object that tracks the reference counts on a video media sample.
+description: Creates an IMFTrackedSample object that tracks the reference counts on a video media sample.helpviewer_keywords: ["MFCreateTrackedSample","MFCreateTrackedSample function [Media Foundation]","mf.mfcreatetrackedsample","mfidl/MFCreateTrackedSample"]
 old-location: mf\mfcreatetrackedsample.htm
 tech.root: medfound
 ms.assetid: 05FB8F94-94B2-46A5-A890-E37E501233E2

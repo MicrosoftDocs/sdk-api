@@ -1,7 +1,7 @@
 ---
 UID: NF:winternl.RtlLocalTimeToSystemTime
 title: RtlLocalTimeToSystemTime function (winternl.h)
-description: Converts the specified local time to system time.
+description: Converts the specified local time to system time.helpviewer_keywords: ["RtlLocalTimeToSystemTime","RtlLocalTimeToSystemTime function","base.rtllocaltimetosystemtime","winternl/RtlLocalTimeToSystemTime"]
 old-location: base\rtllocaltimetosystemtime.htm
 tech.root: SysInfo
 ms.assetid: ce6f0578-0ea1-4e31-98a7-0008795abd32

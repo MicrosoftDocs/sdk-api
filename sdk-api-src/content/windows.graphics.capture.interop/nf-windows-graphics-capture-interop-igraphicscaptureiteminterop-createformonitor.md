@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.graphics.capture.interop.IGraphicsCaptureItemInterop.CreateForMonitor
 title: IGraphicsCaptureItemInterop::CreateForMonitor
-description: Targets a monitor(s) for the creation of a graphics capture item.
+description: Targets a monitor(s) for the creation of a graphics capture item.helpviewer_keywords: ["IGraphicsCaptureItemInterop::CreateForMonitor"]
 ms.date: 6/24/2019
 ms.keywords: IGraphicsCaptureItemInterop::CreateForMonitor
 f1_keywords:

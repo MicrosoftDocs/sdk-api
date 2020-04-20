@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarXor
 title: VarXor function (oleauto.h)
-description: Performs a logical exclusion on two variants.
+description: Performs a logical exclusion on two variants.helpviewer_keywords: ["VarXor","VarXor function [Automation]","_oa96_VarXor","automat.varxor","oleauto/VarXor"]
 old-location: automat\varxor.htm
 tech.root: automat
 ms.assetid: 5a9ebe42-07a0-4bb8-afb7-24d18ce32768

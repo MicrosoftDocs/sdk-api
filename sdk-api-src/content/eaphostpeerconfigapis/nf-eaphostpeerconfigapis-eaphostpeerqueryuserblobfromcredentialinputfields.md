@@ -1,7 +1,7 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerQueryUserBlobFromCredentialInputFields
 title: EapHostPeerQueryUserBlobFromCredentialInputFields function (eaphostpeerconfigapis.h)
-description: Obtains a credential BLOB that can be used to start authentication from user input received from the Single-Sign-On (SSO) UI.
+description: Obtains a credential BLOB that can be used to start authentication from user input received from the Single-Sign-On (SSO) UI.helpviewer_keywords: ["EapHostPeerQueryUserBlobFromCredentialInputFields","EapHostPeerQueryUserBlobFromCredentialInputFields function [EAPHost]","eaphost.eaphostpeerqueryuserblobfromcredentialinputfields","eaphostpeerconfigapis/EapHostPeerQueryUserBlobFromCredentialInputFields"]
 old-location: eaphost\eaphostpeerqueryuserblobfromcredentialinputfields.htm
 tech.root: eaphost
 ms.assetid: bd4fafce-7ece-4cdc-9307-4d41538a4f49

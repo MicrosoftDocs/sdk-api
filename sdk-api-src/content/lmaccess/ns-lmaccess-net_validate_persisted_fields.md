@@ -1,7 +1,7 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_PERSISTED_FIELDS
 title: NET_VALIDATE_PERSISTED_FIELDS (lmaccess.h)
-description: The NET_VALIDATE_PERSISTED_FIELDS structure contains information about a user's password properties.
+description: The NET_VALIDATE_PERSISTED_FIELDS structure contains information about a user's password properties.helpviewer_keywords: ["*PNET_VALIDATE_PERSISTED_FIELDS","NET_VALIDATE_BAD_PASSWORD_COUNT","NET_VALIDATE_BAD_PASSWORD_TIME","NET_VALIDATE_LOCKOUT_TIME","NET_VALIDATE_PASSWORD_HISTORY","NET_VALIDATE_PASSWORD_HISTORY_LENGTH","NET_VALIDATE_PASSWORD_LAST_SET","NET_VALIDATE_PERSISTED_FIELDS","NET_VALIDATE_PERSISTED_FIELDS structure [Network Management]","PNET_VALIDATE_PERSISTED_FIELDS","PNET_VALIDATE_PERSISTED_FIELDS structure pointer [Network Management]","lmaccess/NET_VALIDATE_PERSISTED_FIELDS","lmaccess/PNET_VALIDATE_PERSISTED_FIELDS","netmgmt.net_validate_persisted_fields"]
 old-location: netmgmt\net_validate_persisted_fields.htm
 tech.root: NetMgmt
 ms.assetid: 1e6ea28a-a007-4cd1-b5d6-686bcf019fa1

@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSACOMPLETION
 title: WSACOMPLETION (winsock2.h)
-description: Specifies completion notification settings for I/O control calls made to a registered namespace.
+description: Specifies completion notification settings for I/O control calls made to a registered namespace.helpviewer_keywords: ["*LPWSACOMPLETION","*PWSACOMPLETION","WSACOMPLETION","WSACOMPLETION structure [Winsock]","winsock.wsacompletion","winsock2/WSACOMPLETION"]
 old-location: winsock\wsacompletion.htm
 tech.root: WinSock
 ms.assetid: 5af4b4d1-6dcb-4fc8-a730-53a8cb92fee4

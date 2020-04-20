@@ -1,7 +1,7 @@
 ---
 UID: NF:adshlp.ADsFreeEnumerator
 title: ADsFreeEnumerator function (adshlp.h)
-description: Frees an enumerator object created with the ADsBuildEnumerator function.
+description: Frees an enumerator object created with the ADsBuildEnumerator function.helpviewer_keywords: ["ADsFreeEnumerator","ADsFreeEnumerator function [ADSI]","_ds_adsfreeenumerator","adshlp/ADsFreeEnumerator","adsi.adsfreeenumerator"]
 old-location: adsi\adsfreeenumerator.htm
 tech.root: adsi
 ms.assetid: 0ac13320-c0c2-45e3-b1c0-b4bf6c7e5315

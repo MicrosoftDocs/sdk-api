@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertEnumCRLContextProperties
 title: CertEnumCRLContextProperties function (wincrypt.h)
-description: The CertEnumCRLContextProperties function retrieves the first or next extended property associated with a certificate revocation list (CRL) context.
+description: The CertEnumCRLContextProperties function retrieves the first or next extended property associated with a certificate revocation list (CRL) context.helpviewer_keywords: ["CertEnumCRLContextProperties","CertEnumCRLContextProperties function [Security]","_crypto2_certenumcrlcontextproperties","security.certenumcrlcontextproperties","wincrypt/CertEnumCRLContextProperties"]
 old-location: security\certenumcrlcontextproperties.htm
 tech.root: SecCrypto
 ms.assetid: 330808ef-9b39-4bd4-ba0b-9e70ec516f33

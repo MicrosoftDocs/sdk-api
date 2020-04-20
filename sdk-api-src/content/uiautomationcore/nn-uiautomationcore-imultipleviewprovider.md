@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationcore.IMultipleViewProvider
 title: IMultipleViewProvider (uiautomationcore.h)
-description: Provides access to controls that provide, and are able to switch between, multiple representations of the same set of information or child controls.
+description: Provides access to controls that provide, and are able to switch between, multiple representations of the same set of information or child controls.helpviewer_keywords: ["IMultipleViewProvider","IMultipleViewProvider interface [Windows Accessibility]","IMultipleViewProvider interface [Windows Accessibility]","described","uiauto.uiauto_IMultipleViewProvider","uiauto_IMultipleViewProvider","uiautomationcore/IMultipleViewProvider","winauto.uiauto_IMultipleViewProvider"]
 old-location: winauto\uiauto_IMultipleViewProvider.htm
 tech.root: WinAuto
 ms.assetid: 84d370a6-05bd-4efb-a6ca-99e9392f95dc

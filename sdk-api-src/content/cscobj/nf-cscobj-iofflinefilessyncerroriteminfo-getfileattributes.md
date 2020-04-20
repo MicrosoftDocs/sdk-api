@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorItemInfo.GetFileAttributes
 title: IOfflineFilesSyncErrorItemInfo::GetFileAttributes (cscobj.h)
-description: Retrieves the Win32 file attributes for the item.
+description: Retrieves the Win32 file attributes for the item.helpviewer_keywords: ["GetFileAttributes","GetFileAttributes method [Offline Files]","GetFileAttributes method [Offline Files]","IOfflineFilesSyncErrorItemInfo interface","IOfflineFilesSyncErrorItemInfo interface [Offline Files]","GetFileAttributes method","IOfflineFilesSyncErrorItemInfo.GetFileAttributes","IOfflineFilesSyncErrorItemInfo::GetFileAttributes","cscobj/IOfflineFilesSyncErrorItemInfo::GetFileAttributes","of.iofflinefilessyncerroriteminfo_getfileattributes"]
 old-location: of\iofflinefilessyncerroriteminfo_getfileattributes.htm
 tech.root: offlinefiles
 ms.assetid: 4e14d571-230b-4757-8e81-2fb8dc6b9c3f

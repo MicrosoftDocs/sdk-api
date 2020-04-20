@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecpkg._ENCRYPTED_CREDENTIALW
 title: ENCRYPTED_CREDENTIALW (ntsecpkg.h)
-description: Represents an encrypted credential.
+description: Represents an encrypted credential.helpviewer_keywords: ["*PENCRYPTED_CREDENTIALW","ENCRYPTED_CREDENTIALW","ENCRYPTED_CREDENTIALW structure [Security]","PENCRYPTED_CREDENTIALW","PENCRYPTED_CREDENTIALW structure pointer [Security]","ntsecpkg/ENCRYPTED_CREDENTIALW","ntsecpkg/PENCRYPTED_CREDENTIALW","security.encrypted_credentialw"]
 old-location: security\encrypted_credentialw.htm
 tech.root: SecAuthN
 ms.assetid: b350ef3d-5ed5-4355-ae3a-f03fafff2f52

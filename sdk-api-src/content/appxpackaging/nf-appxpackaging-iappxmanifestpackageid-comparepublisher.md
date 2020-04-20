@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.ComparePublisher
 title: IAppxManifestPackageId::ComparePublisher (appxpackaging.h)
-description: Compares the specified publisher with the publisher defined in the manifest.
+description: Compares the specified publisher with the publisher defined in the manifest.helpviewer_keywords: ["ComparePublisher","ComparePublisher method [App packaging and management]","ComparePublisher method [App packaging and management]","IAppxManifestPackageId interface","IAppxManifestPackageId interface [App packaging and management]","ComparePublisher method","IAppxManifestPackageId.ComparePublisher","IAppxManifestPackageId::ComparePublisher","appxpackaging/IAppxManifestPackageId::ComparePublisher","appxpkg.iappxmanifestpackageid_comparepublisher"]
 old-location: appxpkg\iappxmanifestpackageid_comparepublisher.htm
 tech.root: appxpkg
 ms.assetid: 8AC811D0-D5C5-47DF-92FD-C66BC018B668

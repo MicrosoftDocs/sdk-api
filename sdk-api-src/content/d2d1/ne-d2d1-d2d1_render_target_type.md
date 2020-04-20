@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_RENDER_TARGET_TYPE
 title: D2D1_RENDER_TARGET_TYPE (d2d1.h)
-description: Describes whether a render target uses hardware or software rendering, or if Direct2D should select the rendering mode.
+description: Describes whether a render target uses hardware or software rendering, or if Direct2D should select the rendering mode.helpviewer_keywords: ["D2D1_RENDER_TARGET_TYPE","D2D1_RENDER_TARGET_TYPE enumeration [Direct2D]","D2D1_RENDER_TARGET_TYPE_DEFAULT","D2D1_RENDER_TARGET_TYPE_HARDWARE","D2D1_RENDER_TARGET_TYPE_SOFTWARE","d2d1/D2D1_RENDER_TARGET_TYPE","d2d1/D2D1_RENDER_TARGET_TYPE_DEFAULT","d2d1/D2D1_RENDER_TARGET_TYPE_HARDWARE","d2d1/D2D1_RENDER_TARGET_TYPE_SOFTWARE","direct2d.D2D1_RENDER_TARGET_TYPE"]
 old-location: direct2d\D2D1_RENDER_TARGET_TYPE.htm
 tech.root: Direct2D
 ms.assetid: 4ae6e4cf-e1c9-476e-a7b5-31cdad9cf321

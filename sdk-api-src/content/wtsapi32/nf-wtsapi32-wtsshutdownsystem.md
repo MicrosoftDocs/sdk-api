@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSShutdownSystem
 title: WTSShutdownSystem function (wtsapi32.h)
-description: Shuts down (and optionally restarts) the specified Remote Desktop Session Host (RD Session Host) server.
+description: Shuts down (and optionally restarts) the specified Remote Desktop Session Host (RD Session Host) server.helpviewer_keywords: ["WTSShutdownSystem","WTSShutdownSystem function [Remote Desktop Services]","WTS_WSD_FASTREBOOT","WTS_WSD_LOGOFF","WTS_WSD_POWEROFF","WTS_WSD_REBOOT","WTS_WSD_SHUTDOWN","_win32_wtsshutdownsystem","termserv.wtsshutdownsystem","wtsapi32/WTSShutdownSystem"]
 old-location: termserv\wtsshutdownsystem.htm
 tech.root: TermServ
 ms.assetid: 188df0d6-0e49-4608-bc70-83775584a1f2

@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DPA_GetPtrCount
 title: DPA_GetPtrCount macro (dpa_dsa.h)
-description: Gets the number of pointers in a dynamic pointer array (DPA).
+description: Gets the number of pointers in a dynamic pointer array (DPA).helpviewer_keywords: ["DPA_GetPtrCount","DPA_GetPtrCount macro [Windows Controls]","_shell_DPA_GetPtrCount","_shell_DPA_GetPtrCount_cpp","controls.DPA_GetPtrCount","controls._shell_DPA_GetPtrCount","dpa_dsa/DPA_GetPtrCount"]
 old-location: controls\DPA_GetPtrCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_getptrcount.htm

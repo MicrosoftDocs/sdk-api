@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.ResizeBorder
 title: IOleInPlaceActiveObject::ResizeBorder (oleidl.h)
-description: Alerts the object that it needs to resize its border space.
+description: Alerts the object that it needs to resize its border space.helpviewer_keywords: ["IOleInPlaceActiveObject interface [COM]","ResizeBorder method","IOleInPlaceActiveObject.ResizeBorder","IOleInPlaceActiveObject::ResizeBorder","ResizeBorder","ResizeBorder method [COM]","ResizeBorder method [COM]","IOleInPlaceActiveObject interface","_ole_ioleinplaceactiveobject_resizeborder","com.ioleinplaceactiveobject_resizeborder","oleidl/IOleInPlaceActiveObject::ResizeBorder"]
 old-location: com\ioleinplaceactiveobject_resizeborder.htm
 tech.root: com
 ms.assetid: 240d2ae5-abce-4bea-969e-f47780908bbb

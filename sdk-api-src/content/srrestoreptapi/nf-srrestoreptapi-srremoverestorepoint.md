@@ -1,7 +1,7 @@
 ---
 UID: NF:srrestoreptapi.SRRemoveRestorePoint
 title: SRRemoveRestorePoint function (srrestoreptapi.h)
-description: Deletes the specified restore point.
+description: Deletes the specified restore point.helpviewer_keywords: ["SRRemoveRestorePoint","SRRemoveRestorePoint function [System Restore]","_sr_srremoverestorepoint","sr.srremoverestorepoint","srrestoreptapi/SRRemoveRestorePoint"]
 old-location: sr\srremoverestorepoint.htm
 tech.root: sr
 ms.assetid: e0f27947-7d88-4d15-8a92-85f88c3b60d4

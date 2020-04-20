@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.SetCellVerticalText
 title: ITextRow::SetCellVerticalText (tom.h)
-description: Sets the vertical-text setting of the active cell.
+description: Sets the vertical-text setting of the active cell.helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetCellVerticalText method","ITextRow.SetCellVerticalText","ITextRow::SetCellVerticalText","SetCellVerticalText","SetCellVerticalText method [Windows Controls]","SetCellVerticalText method [Windows Controls]","ITextRow interface","controls.itextrow_setcellverticaltext","tom/ITextRow::SetCellVerticalText"]
 old-location: controls\itextrow_setcellverticaltext.htm
 tech.root: Controls
 ms.assetid: aa4c60c0-9c8f-4743-aff6-b87134ba2dd0

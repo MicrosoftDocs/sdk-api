@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmAction.get_ActionType
 title: IFsrmAction::get_ActionType (fsrm.h)
-description: Retrieves the action's type.
+description: Retrieves the action's type.helpviewer_keywords: ["ActionType property [File Server Resource Manager]","ActionType property [File Server Resource Manager]","IFsrmAction interface","IFsrmAction interface [File Server Resource Manager]","ActionType property","IFsrmAction.ActionType","IFsrmAction.get_ActionType","IFsrmAction::ActionType","IFsrmAction::get_ActionType","fs.ifsrmaction_actiontype","fsrm.ifsrmaction_actiontype","fsrm/IFsrmAction::ActionType","fsrm/IFsrmAction::get_ActionType","get_ActionType"]
 old-location: fsrm\ifsrmaction_actiontype.htm
 tech.root: fsrm
 ms.assetid: 7ce0bafb-8076-4a0d-bd59-9e2d436f74c1

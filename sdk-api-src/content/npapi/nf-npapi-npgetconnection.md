@@ -1,7 +1,7 @@
 ---
 UID: NF:npapi.NPGetConnection
 title: NPGetConnection function (npapi.h)
-description: Retrieves information about a connection.
+description: Retrieves information about a connection.helpviewer_keywords: ["NPGetConnection","NPGetConnection function [Security]","_mnp_npgetconnection","npapi/NPGetConnection","security.npgetconnection"]
 old-location: security\npgetconnection.htm
 tech.root: SecAuthN
 ms.assetid: 3f52bbff-998d-4e11-877f-478085207e6b

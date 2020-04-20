@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmExportImport.ImportQuotaTemplates
 title: IFsrmExportImport::ImportQuotaTemplates (fsrm.h)
-description: Imports one or more quota templates from the specified file.
+description: Imports one or more quota templates from the specified file.helpviewer_keywords: ["FsrmExportImport class [File Server Resource Manager]","ImportQuotaTemplates method","IFsrmExportImport interface [File Server Resource Manager]","ImportQuotaTemplates method","IFsrmExportImport.ImportQuotaTemplates","IFsrmExportImport::ImportQuotaTemplates","ImportQuotaTemplates","ImportQuotaTemplates method [File Server Resource Manager]","ImportQuotaTemplates method [File Server Resource Manager]","FsrmExportImport class","ImportQuotaTemplates method [File Server Resource Manager]","IFsrmExportImport interface","fs.ifsrmexportimport_importquotatemplates","fsrm.ifsrmexportimport_importquotatemplates","fsrm/IFsrmExportImport::ImportQuotaTemplates"]
 old-location: fsrm\ifsrmexportimport_importquotatemplates.htm
 tech.root: fsrm
 ms.assetid: 90b70f64-fbc7-48d2-9cf7-71e625ed32af

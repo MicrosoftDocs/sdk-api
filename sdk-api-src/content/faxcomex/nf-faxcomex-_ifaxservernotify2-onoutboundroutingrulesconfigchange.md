@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnOutboundRoutingRulesConfigChange
 title: _IFaxServerNotify2::OnOutboundRoutingRulesConfigChange (faxcomex.h)
-description: The fax service calls the IFaxServerNotify2::OnOutboundRoutingRulesConfigChange method when there is a configuration change related to outbound fax routing rules.
+description: The fax service calls the IFaxServerNotify2::OnOutboundRoutingRulesConfigChange method when there is a configuration change related to outbound fax routing rules.helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnOutboundRoutingRulesConfigChange method","IFaxServerNotify2.OnOutboundRoutingRulesConfigChange","IFaxServerNotify2::OnOutboundRoutingRulesConfigChange","OnOutboundRoutingRulesConfigChange","OnOutboundRoutingRulesConfigChange method [Fax Service]","OnOutboundRoutingRulesConfigChange method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnOutboundRoutingRulesConfigChange","_IFaxServerNotify2::OnOutboundRoutingRulesConfigChange","_mfax_ifaxservernotify2_onoutboundroutingrulesconfigchange","fax._mfax_ifaxservernotify2_onoutboundroutingrulesconfigchange","faxcomex/IFaxServerNotify2::OnOutboundRoutingRulesConfigChange"]
 old-location: fax\_mfax_ifaxservernotify2_onoutboundroutingrulesconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutboundroutingrulesconfigchange.htm

@@ -1,7 +1,7 @@
 ---
 UID: NE:wmp.WMPRipState
 title: WMPRipState (wmp.h)
-description: The WMPRipState enumeration type defines the possible operational states of Windows Media Player as it rips a CD.
+description: The WMPRipState enumeration type defines the possible operational states of Windows Media Player as it rips a CD.helpviewer_keywords: ["WMPRipState","WMPRipState enumeration [Windows Media Player]","wmp.wmpripstate","wmp/WMPRipState","wmp/wmprsRipping","wmp/wmprsStopped","wmp/wmprsUnknown","wmprsRipping","wmprsStopped","wmprsUnknown"]
 old-location: wmp\wmpripstate.htm
 tech.root: WMP
 ms.assetid: bd62cae1-3f63-4355-afc7-e429a444189d

@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.if_nametoindex
 title: if_nametoindex function (netioapi.h)
-description: Converts the ANSI interface name for a network interface to the local index for the interface.
+description: Converts the ANSI interface name for a network interface to the local index for the interface.helpviewer_keywords: ["if_nametoindex","if_nametoindex function [IP Helper]","iphlp.if_nametoindex","netioapi/if_nametoindex"]
 old-location: iphlp\if_nametoindex.htm
 tech.root: IpHlp
 ms.assetid: 599e5a34-1e17-4c5f-b58e-727871e409be

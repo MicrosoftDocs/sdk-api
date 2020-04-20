@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.AVIFileExit
 title: AVIFileExit function (vfw.h)
-description: The AVIFileExit function exits the AVIFile library and decrements the reference count for the library.
+description: The AVIFileExit function exits the AVIFile library and decrements the reference count for the library.helpviewer_keywords: ["AVIFileExit","AVIFileExit function [Windows Multimedia]","_win32_AVIFileExit","multimedia.avifileexit","vfw/AVIFileExit"]
 old-location: multimedia\avifileexit.htm
 tech.root: Multimedia
 ms.assetid: 2daa509a-9e95-4f49-8195-97d3e7cd17b4

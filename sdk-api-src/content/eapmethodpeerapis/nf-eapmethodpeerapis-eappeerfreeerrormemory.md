@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerFreeErrorMemory
 title: EapPeerFreeErrorMemory function (eapmethodpeerapis.h)
-description: Releases error-specific memory allocated by the EAP peer method.
+description: Releases error-specific memory allocated by the EAP peer method.helpviewer_keywords: ["EapPeerFreeErrorMemory","EapPeerFreeErrorMemory function [EAPHost]","eaphost.eappeerfreeerrormemory","eapmethodpeerapis/EapPeerFreeErrorMemory"]
 old-location: eaphost\eappeerfreeerrormemory.htm
 tech.root: eaphost
 ms.assetid: 85b4197c-5caf-4e2b-94fd-e651712dd39d

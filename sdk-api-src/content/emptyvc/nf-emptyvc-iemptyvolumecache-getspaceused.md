@@ -1,7 +1,7 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.GetSpaceUsed
 title: IEmptyVolumeCache::GetSpaceUsed (emptyvc.h)
-description: Requests the amount of disk space that the disk cleanup handler can free.
+description: Requests the amount of disk space that the disk cleanup handler can free.helpviewer_keywords: ["GetSpaceUsed","GetSpaceUsed method [Legacy Windows Environment Features]","GetSpaceUsed method [Legacy Windows Environment Features]","IEmptyVolumeCache interface","IEmptyVolumeCache interface [Legacy Windows Environment Features]","GetSpaceUsed method","IEmptyVolumeCache.GetSpaceUsed","IEmptyVolumeCache::GetSpaceUsed","_win32_IEmptyVolumeCache_GetSpaceUsed","emptyvc/IEmptyVolumeCache::GetSpaceUsed","lwef.iemptyvolumecache_getspaceused","shell.iemptyvolumecache_getspaceused"]
 old-location: lwef\iemptyvolumecache_getspaceused.htm
 tech.root: lwef
 ms.assetid: c8ec2f70-f327-49d4-babb-a9640f105003

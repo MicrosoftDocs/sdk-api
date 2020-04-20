@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbEnvironment.get_Name
 title: ITsSbEnvironment::get_Name (sbtsv.h)
-description: Retrieves a value that indicates the name of the environment that hosts the target computer.
+description: Retrieves a value that indicates the name of the environment that hosts the target computer.helpviewer_keywords: ["ITsSbEnvironment interface [Remote Desktop Services]","Name property","ITsSbEnvironment.Name","ITsSbEnvironment.get_Name","ITsSbEnvironment::Name","ITsSbEnvironment::get_Name","Name property [Remote Desktop Services]","Name property [Remote Desktop Services]","ITsSbEnvironment interface","get_Name","sbtsv/ITsSbEnvironment::Name","sbtsv/ITsSbEnvironment::get_Name","termserv.itssbenvironment_name"]
 old-location: termserv\itssbenvironment_name.htm
 tech.root: TermServ
 ms.assetid: 8104bdae-f445-425b-b326-cc3333839d29

@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE
 title: WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE (webservices.h)
-description: Security template information to be filled in by application. Associated with WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE_TYPE.
+description: Security template information to be filled in by application. Associated with WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE_TYPE.helpviewer_keywords: ["WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE","WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE structure [Web Services for Windows]","webservices/WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE","wsw.ws_http_ssl_username_security_context_binding_template"]
 old-location: wsw\ws_http_ssl_username_security_context_binding_template.htm
 tech.root: wsw
 ms.assetid: 6c40831d-f3f4-4f41-90e0-a5955d53d90a

@@ -1,7 +1,7 @@
 ---
 UID: NF:cmnquery.IPersistQuery.ReadInt
 title: IPersistQuery::ReadInt (cmnquery.h)
-description: Reads an integer value from the query store.
+description: Reads an integer value from the query store.helpviewer_keywords: ["IPersistQuery interface [Active Directory]","ReadInt method","IPersistQuery.ReadInt","IPersistQuery::ReadInt","ReadInt","ReadInt method [Active Directory]","ReadInt method [Active Directory]","IPersistQuery interface","_glines_ipersistquery_readint","ad.ipersistquery__readint","ad.ipersistquery_readint","cmnquery/IPersistQuery::ReadInt"]
 old-location: ad\ipersistquery_readint.htm
 tech.root: ad
 ms.assetid: e7db105f-d331-4048-8d75-e85af94a5c54

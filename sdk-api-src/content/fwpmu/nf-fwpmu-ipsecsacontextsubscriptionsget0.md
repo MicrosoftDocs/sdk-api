@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecSaContextSubscriptionsGet0
 title: IPsecSaContextSubscriptionsGet0 function (fwpmu.h)
-description: Retrieves an array of all the current IPsec security association (SA) change notification subscriptions.
+description: Retrieves an array of all the current IPsec security association (SA) change notification subscriptions.helpviewer_keywords: ["IPsecSaContextSubscriptionsGet0","IPsecSaContextSubscriptionsGet0 function [Filtering]","fwp.ipsecsacontextsubscriptionsget0","fwpmu/IPsecSaContextSubscriptionsGet0"]
 old-location: fwp\ipsecsacontextsubscriptionsget0.htm
 tech.root: fwp
 ms.assetid: eb7d8cd1-4bdb-4584-b9b9-c3667abf9bdb

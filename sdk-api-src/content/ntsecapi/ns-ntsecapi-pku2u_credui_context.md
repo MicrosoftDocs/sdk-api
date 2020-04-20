@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._PKU2U_CREDUI_CONTEXT
 title: PKU2U_CREDUI_CONTEXT (ntsecapi.h)
-description: Specifies a PKU2U client context.
+description: Specifies a PKU2U client context.helpviewer_keywords: ["*PPKU2U_CREDUI_CONTEXT","PKU2U_CREDUI_CONTEXT","PKU2U_CREDUI_CONTEXT structure [Security]","PPKU2U_CREDUI_CONTEXT","PPKU2U_CREDUI_CONTEXT structure pointer [Security]","ntsecapi/PKU2U_CREDUI_CONTEXT","ntsecapi/PPKU2U_CREDUI_CONTEXT","security.pku2u_credui_context"]
 old-location: security\pku2u_credui_context.htm
 tech.root: SecAuthN
 ms.assetid: 38de5472-27f2-40d4-90e8-7b59d3982f03

@@ -1,7 +1,7 @@
 ---
 UID: NN:cmdtree.IQuery
 title: IQuery (cmdtree.h)
-description: The IQuery interface is reserved for future use.
+description: The IQuery interface is reserved for future use.helpviewer_keywords: ["IQuery","IQuery interface [Indexing Service]","IQuery interface [Indexing Service]","described","_idxs_IQuery","cmdtree/IQuery","indexsrv.iquery"]
 old-location: indexsrv\iquery.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2c55.htm

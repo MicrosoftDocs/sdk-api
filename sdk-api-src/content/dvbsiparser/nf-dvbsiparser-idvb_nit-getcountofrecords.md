@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetCountOfRecords
 title: IDVB_NIT::GetCountOfRecords (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IDVB_NIT interface","IDVB_NIT interface [Microsoft TV Technologies]","GetCountOfRecords method","IDVB_NIT.GetCountOfRecords","IDVB_NIT::GetCountOfRecords","IDVB_NITGetCountOfRecords","dvbsiparser/IDVB_NIT::GetCountOfRecords","mstv.idvb_nit_getcountofrecords"]
 old-location: mstv\idvb_nit_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: fb0f8071-575a-4bbd-b34b-b8d92c17c476

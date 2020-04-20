@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_CONNECTION0_
 title: FWPM_CONNECTION0 (fwpmtypes.h)
-description: Stores the state associated with a connection object.
+description: Stores the state associated with a connection object.helpviewer_keywords: ["FWPM_CONNECTION0","FWPM_CONNECTION0 structure [Filtering]","fwp.fwpm_connection0","fwpmtypes/FWPM_CONNECTION0"]
 old-location: fwp\fwpm_connection0.htm
 tech.root: fwp
 ms.assetid: 76a923d4-57a9-47ba-af91-ee33c3c5b34b

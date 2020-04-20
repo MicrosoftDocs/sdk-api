@@ -1,7 +1,7 @@
 ---
 UID: NF:mmdeviceapi.ActivateAudioInterfaceAsync
 title: ActivateAudioInterfaceAsync function (mmdeviceapi.h)
-description: Enables Windows Store apps to access preexisting Component Object Model (COM) interfaces in the WASAPI family.
+description: Enables Windows Store apps to access preexisting Component Object Model (COM) interfaces in the WASAPI family.helpviewer_keywords: ["ActivateAudioInterfaceAsync","ActivateAudioInterfaceAsync function [Core Audio]","coreaudio.activateaudiointerfaceasync","mmdeviceapi/ActivateAudioInterfaceAsync"]
 old-location: coreaudio\activateaudiointerfaceasync.htm
 tech.root: CoreAudio
 ms.assetid: 7BAFD9DB-DCD7-4093-A24B-9A8556C6C45B

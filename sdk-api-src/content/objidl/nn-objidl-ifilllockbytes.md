@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IFillLockBytes
 title: IFillLockBytes (objidl.h)
-description: The IFillLockBytes interface enables downloading code to write data asynchronously to a structured storage byte array.
+description: The IFillLockBytes interface enables downloading code to write data asynchronously to a structured storage byte array.helpviewer_keywords: ["IFillLockBytes","IFillLockBytes interface [Structured Storage]","IFillLockBytes interface [Structured Storage]","described","_stg_ifilllockbytes","objidl/IFillLockBytes","stg.ifilllockbytes"]
 old-location: stg\ifilllockbytes.htm
 tech.root: Stg
 ms.assetid: 033b3db4-3ff0-4cb4-916f-2490e92f5e6a

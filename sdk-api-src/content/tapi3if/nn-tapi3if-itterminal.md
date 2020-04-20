@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.ITTerminal
 title: ITTerminal (tapi3if.h)
-description: The ITTerminal interface is the base interface for a Terminal object.
+description: The ITTerminal interface is the base interface for a Terminal object.helpviewer_keywords: ["ITTerminal","ITTerminal interface [TAPI 2.2]","ITTerminal interface [TAPI 2.2]","described","_tapi3_itterminal","tapi3.itterminal","tapi3if/ITTerminal"]
 old-location: tapi3\itterminal.htm
 tech.root: Tapi
 ms.assetid: 38bc30fa-3e4e-417a-9d04-931ba2451fa4

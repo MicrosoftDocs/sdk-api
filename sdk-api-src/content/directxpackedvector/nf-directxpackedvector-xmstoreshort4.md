@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMStoreShort4
 title: XMStoreShort4 function (directxpackedvector.h)
-description: Stores an XMVECTOR in an XMSHORT4.
+description: Stores an XMVECTOR in an XMSHORT4.helpviewer_keywords: ["DirectX::PackedVector.XMStoreShort4","XMStoreShort4","XMStoreShort4 method [DirectX Math Support APIs]","dxmath.xmstoreshort4"]
 old-location: dxmath\xmstoreshort4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreShort4(XMSHORT4@,XMVECTOR)

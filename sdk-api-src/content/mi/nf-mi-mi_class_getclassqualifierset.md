@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Class_GetClassQualifierSet
 title: MI_Class_GetClassQualifierSet function (mi.h)
-description: Gets the qualifier set that is associated with the specified class object.
+description: Gets the qualifier set that is associated with the specified class object.helpviewer_keywords: ["MI_Class_GetClassQualifierSet","MI_Class_GetClassQualifierSet function [Windows Management Infrastructure (MI)]","mi/MI_Class_GetClassQualifierSet","wmi_v2.mi_class_getclassqualifierset"]
 old-location: wmi_v2\mi_class_getclassqualifierset.htm
 tech.root: wmi_v2
 ms.assetid: 900ae879-a728-43a9-8dcb-de20a50f8dce

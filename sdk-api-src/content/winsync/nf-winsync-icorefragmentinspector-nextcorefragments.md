@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ICoreFragmentInspector.NextCoreFragments
 title: ICoreFragmentInspector::NextCoreFragments (winsync.h)
-description: Returns the next ICoreFragment objects in the knowledge, if they are available.
+description: Returns the next ICoreFragment objects in the knowledge, if they are available.helpviewer_keywords: ["ICoreFragmentInspector interface [Windows Sync]","NextCoreFragments method","ICoreFragmentInspector.NextCoreFragments","ICoreFragmentInspector::NextCoreFragments","NextCoreFragments","NextCoreFragments method [Windows Sync]","NextCoreFragments method [Windows Sync]","ICoreFragmentInspector interface","winsync.icorefragmentinspector_nextcorefragments","winsync/ICoreFragmentInspector::NextCoreFragments"]
 old-location: winsync\icorefragmentinspector_nextcorefragments.htm
 tech.root: winsync
 ms.assetid: 801a2643-d954-44b8-83ce-021be893d06a

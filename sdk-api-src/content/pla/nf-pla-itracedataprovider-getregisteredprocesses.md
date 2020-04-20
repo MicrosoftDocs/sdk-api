@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataProvider.GetRegisteredProcesses
 title: ITraceDataProvider::GetRegisteredProcesses (pla.h)
-description: Retrieves a list of processes that have registered as an Event Tracing for Windows (ETW) provider.
+description: Retrieves a list of processes that have registered as an Event Tracing for Windows (ETW) provider.helpviewer_keywords: ["GetRegisteredProcesses","GetRegisteredProcesses method [PLA]","GetRegisteredProcesses method [PLA]","ITraceDataProvider interface","ITraceDataProvider interface [PLA]","GetRegisteredProcesses method","ITraceDataProvider.GetRegisteredProcesses","ITraceDataProvider::GetRegisteredProcesses","pla.itracedataprovider_getregisteredprocesses","pla/ITraceDataProvider::GetRegisteredProcesses"]
 old-location: pla\itracedataprovider_getregisteredprocesses.htm
 tech.root: PLA
 ms.assetid: f848f209-c761-41aa-8e9f-4b7e2ecb54ae

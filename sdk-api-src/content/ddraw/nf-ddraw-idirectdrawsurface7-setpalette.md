@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetPalette
 title: IDirectDrawSurface7::SetPalette (ddraw.h)
-description: Attaches a palette object to (or detaches one from) a surface. The surface uses this palette for all subsequent operations. The palette change takes place immediately, without regard to refresh timing.
+description: Attaches a palette object to (or detaches one from) a surface. The surface uses this palette for all subsequent operations. The palette change takes place immediately, without regard to refresh timing.helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","SetPalette method","IDirectDrawSurface7.SetPalette","IDirectDrawSurface7::SetPalette","SetPalette","SetPalette method [DirectDraw]","SetPalette method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::SetPalette","directdraw.idirectdrawsurface7_setpalette"]
 old-location: directdraw\idirectdrawsurface7_setpalette.htm
 tech.root: directdraw
 ms.assetid: 938906fe-9f5b-468b-8b34-5de16aeb67b3

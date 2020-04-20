@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GROW_PARTITION
 title: IOCTL_DISK_GROW_PARTITION
-description: Enlarges the specified partition.
+description: Enlarges the specified partition.helpviewer_keywords: ["IOCTL_DISK_GROW_PARTITION","IOCTL_DISK_GROW_PARTITION control","IOCTL_DISK_GROW_PARTITION control code [Files]","base.ioctl_disk_grow_partition","fs.ioctl_disk_grow_partition","winioctl/IOCTL_DISK_GROW_PARTITION"]
 old-location: fs\ioctl_disk_grow_partition.htm
 tech.root: FileIO
 ms.assetid: bbcb0bee-a507-4abb-83df-328f3aa6caaa

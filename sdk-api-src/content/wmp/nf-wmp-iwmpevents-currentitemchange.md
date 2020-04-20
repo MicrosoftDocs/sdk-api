@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.CurrentItemChange
 title: IWMPEvents::CurrentItemChange (wmp.h)
-description: The CurrentItemChange event occurs when the user or the IWMPControls::put_CurrentItem method changes the current item value.
+description: The CurrentItemChange event occurs when the user or the IWMPControls::put_CurrentItem method changes the current item value.helpviewer_keywords: ["CurrentItemChange","CurrentItemChange method [Windows Media Player]","CurrentItemChange method [Windows Media Player]","IWMPEvents interface","IWMPEvents interface [Windows Media Player]","CurrentItemChange method","IWMPEvents.CurrentItemChange","IWMPEvents::CurrentItemChange","IWMPEventsCurrentItemChange","wmp.iwmpevents_iwmpevents__currentitemchange","wmp/IWMPEvents::CurrentItemChange"]
 old-location: wmp\iwmpevents_iwmpevents__currentitemchange.htm
 tech.root: WMP
 ms.assetid: 3669fe6e-233e-4214-9f84-763a06835f48

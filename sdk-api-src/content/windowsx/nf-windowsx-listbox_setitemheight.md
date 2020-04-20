@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ListBox_SetItemHeight
 title: ListBox_SetItemHeight macro (windowsx.h)
-description: Sets the height of items in a list box.
+description: Sets the height of items in a list box.helpviewer_keywords: ["ListBox_SetItemHeight","ListBox_SetItemHeight macro [Windows Controls]","_win32_ListBox_SetItemHeight","_win32_ListBox_SetItemHeight_cpp","controls.ListBox_SetItemHeight","controls._win32_ListBox_SetItemHeight","windowsx/ListBox_SetItemHeight"]
 old-location: controls\ListBox_SetItemHeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setitemheight.htm

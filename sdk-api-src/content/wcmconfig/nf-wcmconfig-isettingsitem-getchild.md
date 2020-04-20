@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetChild
 title: ISettingsItem::GetChild (wcmconfig.h)
-description: Gets the child item that has the specified name.
+description: Gets the child item that has the specified name.helpviewer_keywords: ["GetChild","GetChild method [SMI]","GetChild method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetChild method","ISettingsItem.GetChild","ISettingsItem::GetChild","smi.isettingsitem_getchild","wcmconfig/ISettingsItem::GetChild"]
 old-location: smi\isettingsitem_getchild.htm
 tech.root: SMI
 ms.assetid: 4a3d3212-bd47-46fb-9ce1-79ac109c6444

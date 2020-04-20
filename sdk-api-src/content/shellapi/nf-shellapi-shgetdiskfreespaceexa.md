@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.SHGetDiskFreeSpaceExA
 title: SHGetDiskFreeSpaceExA function (shellapi.h)
-description: Retrieves disk space information for a disk volume.
+description: Retrieves disk space information for a disk volume.helpviewer_keywords: ["SHGetDiskFreeSpace","SHGetDiskFreeSpaceEx","SHGetDiskFreeSpaceEx function [Windows Shell]","SHGetDiskFreeSpaceExA","SHGetDiskFreeSpaceExW","_shell_SHGetDiskFreeSpaceEx","shell.SHGetDiskFreeSpaceEx","shellapi/SHGetDiskFreeSpaceEx","shellapi/SHGetDiskFreeSpaceExA","shellapi/SHGetDiskFreeSpaceExW"]
 old-location: shell\SHGetDiskFreeSpaceEx.htm
 tech.root: shell
 ms.assetid: f8adbfa8-124a-4934-b5dc-16e261c15a8b

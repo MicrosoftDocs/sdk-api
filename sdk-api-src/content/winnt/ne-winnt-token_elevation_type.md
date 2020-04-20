@@ -1,7 +1,7 @@
 ---
 UID: NE:winnt._TOKEN_ELEVATION_TYPE
 title: TOKEN_ELEVATION_TYPE (winnt.h)
-description: Indicates the elevation type of token being queried by the GetTokenInformation function or set by the SetTokenInformation function.
+description: Indicates the elevation type of token being queried by the GetTokenInformation function or set by the SetTokenInformation function.helpviewer_keywords: ["*PTOKEN_ELEVATION_TYPE","PTOKEN_ELEVATION_TYPE","PTOKEN_ELEVATION_TYPE enumeration pointer [Security]","TOKEN_ELEVATION_TYPE","TOKEN_ELEVATION_TYPE enumeration [Security]","TokenElevationTypeDefault","TokenElevationTypeFull","TokenElevationTypeLimited","security.token_elevation_type_","winnt/PTOKEN_ELEVATION_TYPE","winnt/TOKEN_ELEVATION_TYPE","winnt/TokenElevationTypeDefault","winnt/TokenElevationTypeFull","winnt/TokenElevationTypeLimited"]
 old-location: security\token_elevation_type_.htm
 tech.root: SecAuthZ
 ms.assetid: bfdfa7b3-a8a9-4e54-896c-4be97521a079

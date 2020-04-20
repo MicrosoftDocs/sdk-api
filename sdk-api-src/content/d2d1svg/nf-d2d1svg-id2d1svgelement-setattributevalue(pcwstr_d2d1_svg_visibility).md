@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_VISIBILITY)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_VISIBILITY) (d2d1svg.h)
-description: Sets an attribute of this element as a visibility value. This method can be used to set the value of the visibility property.
+description: Sets an attribute of this element as a visibility value. This method can be used to set the value of the visibility property.helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","SetAttributeValue method","ID2D1SvgElement.SetAttributeValue","ID2D1SvgElement.SetAttributeValue(PCWSTR","D2D1_SVG_VISIBILITY)","ID2D1SvgElement::SetAttributeValue","ID2D1SvgElement::SetAttributeValue(PCWSTR","D2D1_SVG_VISIBILITY)","SetAttributeValue","SetAttributeValue method [Direct2D]","SetAttributeValue method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::SetAttributeValue","direct2d.id2d1svgelement_setattributevalue_11"]
 old-location: direct2d\id2d1svgelement_setattributevalue_11.htm
 tech.root: Direct2D
 ms.assetid: 860407EC-1736-4AE6-A8AA-40E475C6520B

@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IDrawVideoImage
 title: IDrawVideoImage (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated.helpviewer_keywords: ["IDrawVideoImage","IDrawVideoImage interface [DirectShow]","IDrawVideoImage interface [DirectShow]","described","IDrawVideoImageInterface","dshow.idrawvideoimage","strmif/IDrawVideoImage"]
 old-location: dshow\idrawvideoimage.htm
 tech.root: DirectShow
 ms.assetid: ff412213-60e5-43d8-8cb1-e7ae8b3ca1bc

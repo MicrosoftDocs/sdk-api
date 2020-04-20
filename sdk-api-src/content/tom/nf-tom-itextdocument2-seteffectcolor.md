@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument2.SetEffectColor
 title: ITextDocument2::SetEffectColor (tom.h)
-description: Specifies the color to use for special text attributes.
+description: Specifies the color to use for special text attributes.helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","SetEffectColor method","ITextDocument2.SetEffectColor","ITextDocument2::SetEffectColor","SetEffectColor","SetEffectColor method [Windows Controls]","SetEffectColor method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_seteffectcolor","tom/ITextDocument2::SetEffectColor"]
 old-location: controls\itextdocument2_seteffectcolor.htm
 tech.root: Controls
 ms.assetid: 6371b525-96da-42a7-8cee-228b47208f46

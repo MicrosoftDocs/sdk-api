@@ -1,7 +1,7 @@
 ---
 UID: NN:shdeprecated.IBrowserService3
 title: IBrowserService3 (shdeprecated.h)
-description: Deprecated.
+description: Deprecated.helpviewer_keywords: ["IBrowserService3","IBrowserService3 interface [Windows Shell]","IBrowserService3 interface [Windows Shell]","described","shdeprecated/IBrowserService3","shell.IBrowserService3","zone_IBrowserService3"]
 old-location: shell\IBrowserService3.htm
 tech.root: shell
 ms.assetid: efca41df-0aae-469e-8b56-77798eb8af19

@@ -1,7 +1,7 @@
 ---
 UID: NE:p2p.peer_node_change_type_tag
 title: PEER_NODE_CHANGE_TYPE (p2p.h)
-description: The PEER_NODE_CHANGE_TYPE enumeration specifies the types of peer node graph status changes.
+description: The PEER_NODE_CHANGE_TYPE enumeration specifies the types of peer node graph status changes.helpviewer_keywords: ["PEER_NODE_CHANGE_CONNECTED","PEER_NODE_CHANGE_DISCONNECTED","PEER_NODE_CHANGE_TYPE","PEER_NODE_CHANGE_TYPE enumeration [Peer Networking]","PEER_NODE_CHANGE_UPDATED","p2p.peer_node_change_type","p2p/PEER_NODE_CHANGE_CONNECTED","p2p/PEER_NODE_CHANGE_DISCONNECTED","p2p/PEER_NODE_CHANGE_TYPE","p2p/PEER_NODE_CHANGE_UPDATED"]
 old-location: p2p\peer_node_change_type.htm
 tech.root: P2PSdk
 ms.assetid: e14e432a-5edb-4bf1-9c64-e5ece5b9254e

@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilSetPropertyTable
 title: ResUtilSetPropertyTable function (resapi.h)
-description: Sets properties in the cluster database based on a property list from a property table..
+description: Sets properties in the cluster database based on a property list from a property table..helpviewer_keywords: ["PRESUTIL_SET_PROPERTY_TABLE","PRESUTIL_SET_PROPERTY_TABLE function [Failover Cluster]","ResUtilSetPropertyTable","ResUtilSetPropertyTable function [Failover Cluster]","_wolf_resutilsetpropertytable","mscs.resutilsetpropertytable","resapi/PRESUTIL_SET_PROPERTY_TABLE","resapi/ResUtilSetPropertyTable"]
 old-location: mscs\resutilsetpropertytable.htm
 tech.root: MsCS
 ms.assetid: 79d8acfa-fc5d-4810-9775-d5f065d93d6f

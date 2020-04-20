@@ -1,7 +1,7 @@
 ---
 UID: NE:gdipluspixelformats.DitherType
 title: DitherType (gdipluspixelformats.h)
-description: The DitherType enumeration identifies the available algorithms for dithering when a bitmap is converted.
+description: The DitherType enumeration identifies the available algorithms for dithering when a bitmap is converted.helpviewer_keywords: ["DitherType","DitherType enumeration [GDI+]","DitherTypeDualSpiral4x4","DitherTypeDualSpiral8x8","DitherTypeErrorDiffusion","DitherTypeNone","DitherTypeOrdered16x16","DitherTypeOrdered4x4","DitherTypeOrdered8x8","DitherTypeOrdered91x91","DitherTypeSolid","DitherTypeSpiral4x4","DitherTypeSpiral8x8","_gdiplus_ENUM_DitherType","gdiplus._gdiplus_ENUM_DitherType","gdipluspixelformats/DitherType","gdipluspixelformats/DitherTypeDualSpiral4x4","gdipluspixelformats/DitherTypeDualSpiral8x8","gdipluspixelformats/DitherTypeErrorDiffusion","gdipluspixelformats/DitherTypeNone","gdipluspixelformats/DitherTypeOrdered16x16","gdipluspixelformats/DitherTypeOrdered4x4","gdipluspixelformats/DitherTypeOrdered8x8","gdipluspixelformats/DitherTypeOrdered91x91","gdipluspixelformats/DitherTypeSolid","gdipluspixelformats/DitherTypeSpiral4x4","gdipluspixelformats/DitherTypeSpiral8x8"]
 old-location: gdiplus\_gdiplus_ENUM_DitherType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\dithertype.htm

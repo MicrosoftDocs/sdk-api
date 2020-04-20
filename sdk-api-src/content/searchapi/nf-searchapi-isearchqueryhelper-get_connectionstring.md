@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_ConnectionString
 title: ISearchQueryHelper::get_ConnectionString (searchapi.h)
-description: Returns the OLE DB connection string for the Window Search index.
+description: Returns the OLE DB connection string for the Window Search index.helpviewer_keywords: ["ISearchQueryHelper interface [search]","get_ConnectionString method","ISearchQueryHelper.get_ConnectionString","ISearchQueryHelper::get_ConnectionString","_search_ISearchQueryHelper_get_ConnectionString","get_ConnectionString","get_ConnectionString method [search]","get_ConnectionString method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_get_ConnectionString","searchapi/ISearchQueryHelper::get_ConnectionString"]
 old-location: search\_search_ISearchQueryHelper_get_ConnectionString.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_connectionstring.htm

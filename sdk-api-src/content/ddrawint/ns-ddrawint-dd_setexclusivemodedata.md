@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_SETEXCLUSIVEMODEDATA
 title: DD_SETEXCLUSIVEMODEDATA (ddrawint.h)
-description: The DD_SETEXCLUSIVEMODEDATA structure contains the exclusive mode notification information.
+description: The DD_SETEXCLUSIVEMODEDATA structure contains the exclusive mode notification information.helpviewer_keywords: ["*PDD_SETEXCLUSIVEMODEDATA","DD_SETEXCLUSIVEMODEDATA","DD_SETEXCLUSIVEMODEDATA structure [Display Devices]","ddrawint/DD_SETEXCLUSIVEMODEDATA","ddstrcts_c6ba3e13-afcd-4e8a-994b-d3c006d2c952.xml","display.dd_setexclusivemodedata"]
 old-location: display\dd_setexclusivemodedata.htm
 tech.root: display
 ms.assetid: b2f5af15-c773-4741-a8dc-71d2b89776a7

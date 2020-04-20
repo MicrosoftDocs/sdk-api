@@ -1,7 +1,7 @@
 ---
 UID: NS:p2p.peer_graph_properties_tag
 title: PEER_GRAPH_PROPERTIES (p2p.h)
-description: The PEER_GRAPH_PROPERTIES structure contains data about the policy of a peer graph, ID, scope, and other information.
+description: The PEER_GRAPH_PROPERTIES structure contains data about the policy of a peer graph, ID, scope, and other information.helpviewer_keywords: ["*PPEER_GRAPH_PROPERTIES","PEER_GRAPH_PROPERTIES","PEER_GRAPH_PROPERTIES structure [Peer Networking]","PPEER_GRAPH_PROPERTIES","PPEER_GRAPH_PROPERTIES structure pointer [Peer Networking]","p2p.peer_graph_properties","p2p/PPEER_GRAPH_PROPERTIES","p2p/peer_graph_properties_tag"]
 old-location: p2p\peer_graph_properties.htm
 tech.root: P2PSdk
 ms.assetid: 15b4eeb4-1040-4f07-8e79-2c09aab9f926

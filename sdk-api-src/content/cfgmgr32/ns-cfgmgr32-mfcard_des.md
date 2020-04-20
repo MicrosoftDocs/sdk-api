@@ -1,7 +1,7 @@
 ---
 UID: NS:cfgmgr32.MfCard_Des_s
 title: MFCARD_DES (cfgmgr32.h)
-description: The MFCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by one of the hardware functions provided by an instance of a multifunction device.
+description: The MFCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by one of the hardware functions provided by an instance of a multifunction device.helpviewer_keywords: ["*PMFCARD_DES","MFCARD_DES","MFCARD_DES structure [Device and Driver Installation]","PMFCARD_DES","PMFCARD_DES structure pointer [Device and Driver Installation]","cfgmgr32/MFCARD_DES","cfgmgr32/PMFCARD_DES","cfgmgrst_aea737e9-53c7-41dd-b4d3-80f29442358c.xml","devinst.mfcard_des"]
 old-location: devinst\mfcard_des.htm
 tech.root: devinst
 ms.assetid: 75a6857c-d5b7-4bb6-8035-e6317d4ea146

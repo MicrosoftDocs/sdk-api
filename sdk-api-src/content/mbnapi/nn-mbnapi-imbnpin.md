@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnPin
 title: IMbnPin (mbnapi.h)
-description: Represents the device PIN.
+description: Represents the device PIN.helpviewer_keywords: ["IMbnPin","IMbnPin interface [Microsoft Broadband Networks]","IMbnPin interface [Microsoft Broadband Networks]","described","mbn.imbnpin","mbnapi/IMbnPin"]
 old-location: mbn\imbnpin.htm
 tech.root: mbn
 ms.assetid: 76764dbb-7de0-4b95-a210-60b8e6a4b24b

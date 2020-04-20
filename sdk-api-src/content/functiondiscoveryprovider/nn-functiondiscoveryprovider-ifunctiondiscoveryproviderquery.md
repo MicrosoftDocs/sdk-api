@@ -1,7 +1,7 @@
 ---
 UID: NN:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery
 title: IFunctionDiscoveryProviderQuery (functiondiscoveryprovider.h)
-description: This interface is passed to all IFunctionDiscoveryProvider::Query method calls and contains query definition information. Providers should use this to determine what the constraints are for each query request they receive.
+description: This interface is passed to all IFunctionDiscoveryProvider::Query method calls and contains query definition information. Providers should use this to determine what the constraints are for each query request they receive.helpviewer_keywords: ["IFunctionDiscoveryProviderQuery","IFunctionDiscoveryProviderQuery interface","IFunctionDiscoveryProviderQuery interface","described","functiondiscoveryprovider/IFunctionDiscoveryProviderQuery","ncd.ifunctiondiscoveryproviderquery"]
 old-location: ncd\ifunctiondiscoveryproviderquery.htm
 tech.root: FunDisc
 ms.assetid: 97468045-faa5-4690-8db5-50ee9656517b

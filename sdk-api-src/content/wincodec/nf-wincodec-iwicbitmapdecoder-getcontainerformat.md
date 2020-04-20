@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetContainerFormat
 title: IWICBitmapDecoder::GetContainerFormat (wincodec.h)
-description: Retrieves the image's container format.
+description: Retrieves the image's container format.helpviewer_keywords: ["GetContainerFormat","GetContainerFormat method [Windows Imaging Component]","GetContainerFormat method [Windows Imaging Component]","IWICBitmapDecoder interface","IWICBitmapDecoder interface [Windows Imaging Component]","GetContainerFormat method","IWICBitmapDecoder.GetContainerFormat","IWICBitmapDecoder::GetContainerFormat","_wic_codec_iwicbitmapdecoder_getcontainerformat","wic._wic_codec_iwicbitmapdecoder_getcontainerformat","wincodec/IWICBitmapDecoder::GetContainerFormat"]
 old-location: wic\_wic_codec_iwicbitmapdecoder_getcontainerformat.htm
 tech.root: wic
 ms.assetid: ba7b64cf-28de-40d9-80f1-f4b5b1909b77

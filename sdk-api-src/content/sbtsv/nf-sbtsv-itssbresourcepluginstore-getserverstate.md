@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.GetServerState
 title: ITsSbResourcePluginStore::GetServerState (sbtsv.h)
-description: Retrieves the state of a specified server.
+description: Retrieves the state of a specified server.helpviewer_keywords: ["GetServerState","GetServerState method [Remote Desktop Services]","GetServerState method [Remote Desktop Services]","ITsSbResourcePluginStore interface","ITsSbResourcePluginStore interface [Remote Desktop Services]","GetServerState method","ITsSbResourcePluginStore.GetServerState","ITsSbResourcePluginStore::GetServerState","sbtsv/ITsSbResourcePluginStore::GetServerState","termserv.itssbresourcepluginstore_getserverstate"]
 old-location: termserv\itssbresourcepluginstore_getserverstate.htm
 tech.root: TermServ
 ms.assetid: 287863fe-55b3-456e-9488-09ee85af2e15

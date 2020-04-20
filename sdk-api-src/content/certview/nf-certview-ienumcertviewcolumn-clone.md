@@ -1,7 +1,7 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.Clone
 title: IEnumCERTVIEWCOLUMN::Clone (certview.h)
-description: Creates a copy of the column-enumeration sequence.
+description: Creates a copy of the column-enumeration sequence.helpviewer_keywords: ["Clone","Clone method [Security]","Clone method [Security]","IEnumCERTVIEWCOLUMN interface","IEnumCERTVIEWCOLUMN interface [Security]","Clone method","IEnumCERTVIEWCOLUMN.Clone","IEnumCERTVIEWCOLUMN::Clone","_certsrv_ienumcertviewcolumn_clone","certview/IEnumCERTVIEWCOLUMN::Clone","security.ienumcertviewcolumn_clone"]
 old-location: security\ienumcertviewcolumn_clone.htm
 tech.root: SecCrypto
 ms.assetid: a0870155-3f16-4cfb-b180-7a8e617dfcd8

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetMenuInfo
 title: SetMenuInfo function (winuser.h)
-description: Sets information for a specified menu.
+description: Sets information for a specified menu.helpviewer_keywords: ["SetMenuInfo","SetMenuInfo function [Menus and Other Resources]","_win32_SetMenuInfo","_win32_setmenuinfo_cpp","menurc.setmenuinfo","winui._win32_setmenuinfo","winuser/SetMenuInfo"]
 old-location: menurc\setmenuinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuinfo.htm

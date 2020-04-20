@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpAddFilterV4
 title: DhcpAddFilterV4 function (dhcpsapi.h)
-description: Adds a link-layer address or address pattern to the allow/deny lists.
+description: Adds a link-layer address or address pattern to the allow/deny lists.helpviewer_keywords: ["DhcpAddFilterV4","DhcpAddFilterV4 function [DHCP]","dhcp.dhcpaddfilterv4","dhcpsapi/DhcpAddFilterV4"]
 old-location: dhcp\dhcpaddfilterv4.htm
 tech.root: DHCP
 ms.assetid: 5543ef67-d095-44b8-b511-e6754aeb9881

@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrConflict.Clone
 title: IEnumSyncMgrConflict::Clone (syncmgr.h)
-description: Not used. Clones an IEnumSyncMgrConflict object.
+description: Not used. Clones an IEnumSyncMgrConflict object.helpviewer_keywords: ["Clone","Clone method [Windows Shell]","Clone method [Windows Shell]","IEnumSyncMgrConflict interface","IEnumSyncMgrConflict interface [Windows Shell]","Clone method","IEnumSyncMgrConflict.Clone","IEnumSyncMgrConflict::Clone","_shell_IEnumSyncMgrConflict_Clone","shell.IEnumSyncMgrConflict_Clone","syncmgr/IEnumSyncMgrConflict::Clone"]
 old-location: shell\IEnumSyncMgrConflict_Clone.htm
 tech.root: shell
 ms.assetid: 2eb0f1c1-71e2-45e6-bef7-1b480efb4ab7

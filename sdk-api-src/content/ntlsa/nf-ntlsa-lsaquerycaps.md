@@ -1,7 +1,7 @@
 ---
 UID: NF:ntlsa.LsaQueryCAPs
 title: LsaQueryCAPs function (ntlsa.h)
-description: Returns the Central Access Policies (CAPs) for the specified IDs.
+description: Returns the Central Access Policies (CAPs) for the specified IDs.helpviewer_keywords: ["LsaQueryCAPs","LsaQueryCAPs function [Security]","ntlsa/LsaQueryCAPs","security.lsaquerycaps"]
 old-location: security\lsaquerycaps.htm
 tech.root: SecAuthN
 ms.assetid: 55D6FD6F-0FD5-41F6-967B-F5600E19C3EF

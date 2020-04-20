@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPicture.SaveAsFile
 title: IPicture::SaveAsFile (ocidl.h)
-description: Saves the picture's data into a stream in the same format that it would save itself into a file. Bitmaps use the BMP file format, metafiles the WMF format, and icons the ICO format.
+description: Saves the picture's data into a stream in the same format that it would save itself into a file. Bitmaps use the BMP file format, metafiles the WMF format, and icons the ICO format.helpviewer_keywords: ["IPicture interface [COM]","SaveAsFile method","IPicture.SaveAsFile","IPicture::SaveAsFile","SaveAsFile","SaveAsFile method [COM]","SaveAsFile method [COM]","IPicture interface","_ctrl_ipicture_saveasfile","com.ipicture_saveasfile","ocidl/IPicture::SaveAsFile"]
 old-location: com\ipicture_saveasfile.htm
 tech.root: com
 ms.assetid: fa949064-d1cf-4056-9990-ae9ea88fae86

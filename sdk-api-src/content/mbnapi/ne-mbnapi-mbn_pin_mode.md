@@ -1,7 +1,7 @@
 ---
 UID: NE:mbnapi.MBN_PIN_MODE
 title: MBN_PIN_MODE (mbnapi.h)
-description: The MBN_PIN_MODE enumerated type indicates if the PIN type is enabled.
+description: The MBN_PIN_MODE enumerated type indicates if the PIN type is enabled.helpviewer_keywords: ["MBN_PIN_MODE","MBN_PIN_MODE enumeration [Microsoft Broadband Networks]","MBN_PIN_MODE_DISABLED","MBN_PIN_MODE_ENABLED","mbn.mbn_pin_mode","mbnapi/MBN_PIN_MODE","mbnapi/MBN_PIN_MODE_DISABLED","mbnapi/MBN_PIN_MODE_ENABLED"]
 old-location: mbn\mbn_pin_mode.htm
 tech.root: mbn
 ms.assetid: ae5324f2-7a19-4887-b5df-20d51c64e063

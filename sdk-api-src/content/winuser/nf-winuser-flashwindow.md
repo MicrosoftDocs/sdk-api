@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.FlashWindow
 title: FlashWindow function (winuser.h)
-description: Flashes the specified window one time. It does not change the active state of the window.
+description: Flashes the specified window one time. It does not change the active state of the window.helpviewer_keywords: ["FlashWindow","FlashWindow function","_win32_flashwindow","base.flashwindow","winuser/FlashWindow"]
 old-location: base\flashwindow.htm
 tech.root: Debug
 ms.assetid: c4af997d-5cb8-4d5d-ae8d-1e0cc724fe02

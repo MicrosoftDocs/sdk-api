@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._DISK_EX_INT13_INFO
 title: DISK_EX_INT13_INFO
-description: Contains extended Int13 drive parameters.
+description: Contains extended Int13 drive parameters.helpviewer_keywords: ["*PDISK_EX_INT13_INFO","DISK_EX_INT13_INFO","DISK_EX_INT13_INFO structure [Files]","PDISK_EX_INT13_INFO","PDISK_EX_INT13_INFO structure pointer [Files]","_win32_disk_ex_int13_info_str","base.disk_ex_int13_info_str","fs.disk_ex_int13_info_str","winioctl/DISK_EX_INT13_INFO","winioctl/PDISK_EX_INT13_INFO"]
 old-location: fs\disk_ex_int13_info_str.htm
 tech.root: FileIO
 ms.assetid: efde6ede-b921-4d1d-ab4a-b9f85ae6aea1

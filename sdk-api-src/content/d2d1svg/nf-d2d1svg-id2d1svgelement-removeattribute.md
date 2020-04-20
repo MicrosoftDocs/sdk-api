@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.RemoveAttribute
 title: ID2D1SvgElement::RemoveAttribute (d2d1svg.h)
-description: Removes the attribute from this element.
+description: Removes the attribute from this element.helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","RemoveAttribute method","ID2D1SvgElement.RemoveAttribute","ID2D1SvgElement::RemoveAttribute","RemoveAttribute","RemoveAttribute method [Direct2D]","RemoveAttribute method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::RemoveAttribute","direct2d.id2d1svgelement_removeattribute"]
 old-location: direct2d\id2d1svgelement_removeattribute.htm
 tech.root: Direct2D
 ms.assetid: 608BB970-CC78-4CF3-BD8C-02DCBBFA287E

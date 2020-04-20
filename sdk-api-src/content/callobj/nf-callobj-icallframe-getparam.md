@@ -1,7 +1,7 @@
 ---
 UID: NF:callobj.ICallFrame.GetParam
 title: ICallFrame::GetParam (callobj.h)
-description: Retrieves the value of a specified parameter in the call frame.
+description: Retrieves the value of a specified parameter in the call frame.helpviewer_keywords: ["GetParam","GetParam method [COM]","GetParam method [COM]","ICallFrame interface","ICallFrame interface [COM]","GetParam method","ICallFrame.GetParam","ICallFrame::GetParam","_com_icallframe_getparam","callobj/ICallFrame::GetParam","com.icallframe_getparam"]
 old-location: com\icallframe_getparam.htm
 tech.root: com
 ms.assetid: 43662600-841c-4237-80ac-3822eb47be88

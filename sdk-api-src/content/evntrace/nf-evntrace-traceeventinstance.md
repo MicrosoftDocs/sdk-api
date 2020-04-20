@@ -1,7 +1,7 @@
 ---
 UID: NF:evntrace.TraceEventInstance
 title: TraceEventInstance function (evntrace.h)
-description: The TraceEventInstance function sends an event to an event tracing session. The event uses an instance identifier to associate the event with a transaction. This function may also be used to trace hierarchical relationships between related events.
+description: The TraceEventInstance function sends an event to an event tracing session. The event uses an instance identifier to associate the event with a transaction. This function may also be used to trace hierarchical relationships between related events.helpviewer_keywords: ["TraceEventInstance","TraceEventInstance function [ETW]","_evt_traceeventinstance","base.traceeventinstance","etw.traceeventinstance","evntrace/TraceEventInstance"]
 old-location: etw\traceeventinstance.htm
 tech.root: ETW
 ms.assetid: e8361bdc-21dd-47a0-bdbf-56f4d6195689

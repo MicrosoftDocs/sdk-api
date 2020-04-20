@@ -1,7 +1,7 @@
 ---
 UID: NE:ocidl.tagDVASPECT2
 title: DVASPECT2 (ocidl.h)
-description: Specifies new drawing aspects used to optimize the drawing process.
+description: Specifies new drawing aspects used to optimize the drawing process.helpviewer_keywords: ["DVASPECT2","DVASPECT2 enumeration [COM]","DVASPECT_OPAQUE","DVASPECT_TRANSPARENT","_ole_DVASPECT2","com.dvaspect2","ocidl/DVASPECT2","ocidl/DVASPECT_OPAQUE","ocidl/DVASPECT_TRANSPARENT"]
 old-location: com\dvaspect2.htm
 tech.root: com
 ms.assetid: 9000b807-5a42-437f-a3e8-a7b23be1665b

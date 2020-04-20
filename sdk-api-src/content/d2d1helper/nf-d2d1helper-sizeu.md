@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.SizeU
 title: SizeU function (d2d1helper.h)
-description: Creates a D2D1_SIZE_U structure that contains the specified width and height.
+description: Creates a D2D1_SIZE_U structure that contains the specified width and height.helpviewer_keywords: ["SizeU","SizeU function [Direct2D]","d2d1helper/SizeU","direct2d.sizeu"]
 old-location: direct2d\sizeu.htm
 tech.root: Direct2D
 ms.assetid: 147670e3-c451-401e-9e79-dacd7c33385d

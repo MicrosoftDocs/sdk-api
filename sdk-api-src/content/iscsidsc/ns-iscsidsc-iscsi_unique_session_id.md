@@ -1,7 +1,7 @@
 ---
 UID: NS:iscsidsc._ISCSI_UNIQUE_SESSION_ID
 title: ISCSI_UNIQUE_SESSION_ID (iscsidsc.h)
-description: ISCSI_UNIQUE_SESSION_ID structure is an opaque entity that contains data that uniquely identifies a session.
+description: ISCSI_UNIQUE_SESSION_ID structure is an opaque entity that contains data that uniquely identifies a session.helpviewer_keywords: ["*PISCSI_UNIQUE_CONNECTION_ID","*PISCSI_UNIQUE_SESSION_ID","ISCSI_UNIQUE_CONNECTION_ID","ISCSI_UNIQUE_SESSION_ID","ISCSI_UNIQUE_SESSION_ID structure [iSCSI Discovery Library API]","_ISCSI_UNIQUE_SESSION_ID","iscsidisc.iscsi_unique_session_id","iscsidsc/ISCSI_UNIQUE_SESSION_ID"]
 old-location: iscsidisc\iscsi_unique_session_id.htm
 tech.root: iSCSIDisc
 ms.assetid: d13975f9-58d0-425c-a2de-a0d1d70850d3

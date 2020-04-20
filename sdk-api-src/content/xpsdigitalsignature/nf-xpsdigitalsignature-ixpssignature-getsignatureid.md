@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetSignatureId
 title: IXpsSignature::GetSignatureId (xpsdigitalsignature.h)
-description: Gets the value of the Id attribute of the Signature element.
+description: Gets the value of the Id attribute of the Signature element.helpviewer_keywords: ["GetSignatureId","GetSignatureId method [XPS Documents and Packaging]","GetSignatureId method [XPS Documents and Packaging]","IXpsSignature interface","IXpsSignature interface [XPS Documents and Packaging]","GetSignatureId method","IXpsSignature.GetSignatureId","IXpsSignature::GetSignatureId","xps.ixpssignature_getsignatureid","xpsdigitalsignature/IXpsSignature::GetSignatureId"]
 old-location: xps\ixpssignature_getsignatureid.htm
 tech.root: printdocs
 ms.assetid: 9debed66-6588-40b5-ab52-a3dba0ddef92

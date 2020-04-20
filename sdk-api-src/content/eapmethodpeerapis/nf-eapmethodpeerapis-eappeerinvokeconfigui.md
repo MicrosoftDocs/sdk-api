@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerInvokeConfigUI
 title: EapPeerInvokeConfigUI function (eapmethodpeerapis.h)
-description: Raises the EAP method's specific connection configuration user interface dialog on the client.
+description: Raises the EAP method's specific connection configuration user interface dialog on the client.helpviewer_keywords: ["EapPeerInvokeConfigUI","EapPeerInvokeConfigUI function [EAPHost]","eaphost.eappeerinvokeconfigui","eapmethodpeerapis/EapPeerInvokeConfigUI"]
 old-location: eaphost\eappeerinvokeconfigui.htm
 tech.root: eaphost
 ms.assetid: ac15a065-d0a3-403f-ae5f-175f77e2507f

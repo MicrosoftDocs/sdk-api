@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTES_INFORMATION
 title: CLAIM_SECURITY_ATTRIBUTES_INFORMATION (winnt.h)
-description: Defines the security attributes for the claim.
+description: Defines the security attributes for the claim.helpviewer_keywords: ["*PCLAIM_SECURITY_ATTRIBUTES_INFORMATION","CLAIM_SECURITY_ATTRIBUTES_INFORMATION","CLAIM_SECURITY_ATTRIBUTES_INFORMATION structure [Security]","PCLAIM_SECURITY_ATTRIBUTES_INFORMATION","PCLAIM_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security]","_CLAIM_SECURITY_ATTRIBUTES_INFORMATION","security.claim_security_attributes_information","winnt/CLAIM_SECURITY_ATTRIBUTES_INFORMATION","winnt/PCLAIM_SECURITY_ATTRIBUTES_INFORMATION"]
 old-location: security\claim_security_attributes_information.htm
 tech.root: SecAuthZ
 ms.assetid: D7D9816E-1ECE-48CA-9F2F-0955572A0FCA

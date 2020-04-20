@@ -1,7 +1,7 @@
 ---
 UID: NF:indexsrv.IColumnMapper.IsMapUpToDate
 title: IColumnMapper::IsMapUpToDate (indexsrv.h)
-description: Determines if the map is up to date.
+description: Determines if the map is up to date.helpviewer_keywords: ["IColumnMapper interface [search]","IsMapUpToDate method","IColumnMapper.IsMapUpToDate","IColumnMapper::IsMapUpToDate","IsMapUpToDate","IsMapUpToDate method [search]","IsMapUpToDate method [search]","IColumnMapper interface","indexsrv/IColumnMapper::IsMapUpToDate","search.icolumnmapper_ismapuptodate"]
 old-location: search\icolumnmapper_ismapuptodate.htm
 tech.root: search
 ms.assetid: B6B47014-CAAD-40B3-8A39-A81AD40AE1D2

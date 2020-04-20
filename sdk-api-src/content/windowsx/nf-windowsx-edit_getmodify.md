@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.Edit_GetModify
 title: Edit_GetModify macro (windowsx.h)
-description: Gets the state of an edit or rich edit control's modification flag. The flag indicates whether the contents of the control have been modified. You can use this macro or send the EM_GETMODIFY message explicitly.
+description: Gets the state of an edit or rich edit control's modification flag. The flag indicates whether the contents of the control have been modified. You can use this macro or send the EM_GETMODIFY message explicitly.helpviewer_keywords: ["Edit_GetModify","Edit_GetModify macro [Windows Controls]","_win32_Edit_GetModify","_win32_Edit_GetModify_cpp","controls.Edit_GetModify","controls._win32_Edit_GetModify","windowsx/Edit_GetModify"]
 old-location: controls\Edit_GetModify.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getmodify.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilGetResourceDependency
 title: ResUtilGetResourceDependency function (resapi.h)
-description: Enumerates the dependencies of a specified resource and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY type defines a pointer to this function.
+description: Enumerates the dependencies of a specified resource and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_GET_RESOURCE_DEPENDENCY","PRESUTIL_GET_RESOURCE_DEPENDENCY function [Failover Cluster]","ResUtilGetResourceDependency","ResUtilGetResourceDependency function [Failover Cluster]","_wolf_resutilgetresourcedependency","mscs.resutilgetresourcedependency","resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY","resapi/ResUtilGetResourceDependency"]
 old-location: mscs\resutilgetresourcedependency.htm
 tech.root: MsCS
 ms.assetid: eee267b4-4272-4938-b061-02990ec528f2

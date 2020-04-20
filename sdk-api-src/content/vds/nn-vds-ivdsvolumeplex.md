@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsVolumePlex
 title: IVdsVolumePlex (vds.h)
-description: Provides methods for maintaining volume plexes.
+description: Provides methods for maintaining volume plexes.helpviewer_keywords: ["IVdsVolumePlex","IVdsVolumePlex interface [VDS]","IVdsVolumePlex interface [VDS]","described","base.ivdsvolumeplex","vds/IVdsVolumePlex"]
 old-location: base\ivdsvolumeplex.htm
 tech.root: VDS
 ms.assetid: 91970f8b-2b19-4054-8aa2-28e1ea74b3f6

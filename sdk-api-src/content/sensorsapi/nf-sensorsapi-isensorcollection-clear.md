@@ -1,7 +1,7 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.Clear
 title: ISensorCollection::Clear (sensorsapi.h)
-description: Empties the sensor collection.
+description: Empties the sensor collection.helpviewer_keywords: ["Clear","Clear method","Clear method","ISensorCollection interface","ISensorCollection interface","Clear method","ISensorCollection.Clear","ISensorCollection::Clear","sensorsapi/ISensorCollection::Clear","winsensors_com_ref.isensorcollection_clear"]
 old-location: winsensors_com_ref\isensorcollection_clear.htm
 tech.root: SensorsAPI
 ms.assetid: 03b2345b-1d06-449e-9ecf-ecce9aa60c08

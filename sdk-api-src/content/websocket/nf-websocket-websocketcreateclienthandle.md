@@ -1,7 +1,7 @@
 ---
 UID: NF:websocket.WebSocketCreateClientHandle
 title: WebSocketCreateClientHandle function (websocket.h)
-description: Creates a client-side WebSocket session handle.
+description: Creates a client-side WebSocket session handle.helpviewer_keywords: ["WebSocketCreateClientHandle","WebSocketCreateClientHandle function [Websocket Protocol Component API]","websock.websocketcreateclienthandle","websocket/WebSocketCreateClientHandle"]
 old-location: websock\websocketcreateclienthandle.htm
 tech.root: WebSock
 ms.assetid: c61992cc-7715-4fad-a66a-916402088ad0

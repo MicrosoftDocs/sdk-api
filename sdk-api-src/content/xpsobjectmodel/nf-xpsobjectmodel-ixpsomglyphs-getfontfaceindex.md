@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontFaceIndex
 title: IXpsOMGlyphs::GetFontFaceIndex (xpsobjectmodel.h)
-description: Gets the index of the font face to be used.
+description: Gets the index of the font face to be used.helpviewer_keywords: ["GetFontFaceIndex","GetFontFaceIndex method [XPS Documents and Packaging]","GetFontFaceIndex method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetFontFaceIndex method","IXpsOMGlyphs.GetFontFaceIndex","IXpsOMGlyphs::GetFontFaceIndex","xps.ixpsomglyphs_getfontfaceindex","xpsobjectmodel/IXpsOMGlyphs::GetFontFaceIndex"]
 old-location: xps\ixpsomglyphs_getfontfaceindex.htm
 tech.root: printdocs
 ms.assetid: 375e6391-c75f-4dbe-b51f-ce394f5088ec

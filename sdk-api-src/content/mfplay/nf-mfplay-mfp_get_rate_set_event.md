@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.MFP_GET_RATE_SET_EVENT
 title: MFP_GET_RATE_SET_EVENT macro (mfplay.h)
-description: Casts an MFP_EVENT_HEADER pointer to an MFP_RATE_SET_EVENT pointer.
+description: Casts an MFP_EVENT_HEADER pointer to an MFP_RATE_SET_EVENT pointer.helpviewer_keywords: ["MFP_GET_RATE_SET_EVENT","MFP_GET_RATE_SET_EVENT macro [Media Foundation]","mf.mfp_get_rate_set_event","mfplay/MFP_GET_RATE_SET_EVENT"]
 old-location: mf\mfp_get_rate_set_event.htm
 tech.root: medfound
 ms.assetid: c23436a7-6206-47fc-bd8e-4b8df31b26d9

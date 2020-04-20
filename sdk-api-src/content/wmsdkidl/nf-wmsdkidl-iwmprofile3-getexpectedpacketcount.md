@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetExpectedPacketCount
 title: IWMProfile3::GetExpectedPacketCount (wmsdkidl.h)
-description: The GetExpectedPacketCount method calculates the expected packet count for the specified duration. The packet count returned is only an estimate, and it is based upon the settings of the profile at the time this call is made.
+description: The GetExpectedPacketCount method calculates the expected packet count for the specified duration. The packet count returned is only an estimate, and it is based upon the settings of the profile at the time this call is made.helpviewer_keywords: ["GetExpectedPacketCount","GetExpectedPacketCount method [windows Media Format]","GetExpectedPacketCount method [windows Media Format]","IWMProfile3 interface","IWMProfile3 interface [windows Media Format]","GetExpectedPacketCount method","IWMProfile3.GetExpectedPacketCount","IWMProfile3::GetExpectedPacketCount","IWMProfile3GetExpectedPacketCount","wmformat.iwmprofile3_getexpectedpacketcount","wmsdkidl/IWMProfile3::GetExpectedPacketCount"]
 old-location: wmformat\iwmprofile3_getexpectedpacketcount.htm
 tech.root: wmformat
 ms.assetid: ddab3735-06a1-4e03-9abc-0fca635ef759

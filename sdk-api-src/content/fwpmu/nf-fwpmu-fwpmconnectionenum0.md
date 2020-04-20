@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmConnectionEnum0
 title: FwpmConnectionEnum0 function (fwpmu.h)
-description: Returns the next page of results from the connection object enumerator.
+description: Returns the next page of results from the connection object enumerator.helpviewer_keywords: ["FwpmConnectionEnum0","FwpmConnectionEnum0 function [Filtering]","fwp.fwpmconnectionenum0","fwpmu/FwpmConnectionEnum0"]
 old-location: fwp\fwpmconnectionenum0.htm
 tech.root: fwp
 ms.assetid: ad4c8759-f1f8-460f-b1e1-78149ce3b386

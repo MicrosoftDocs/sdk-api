@@ -1,7 +1,7 @@
 ---
 UID: NN:documenttarget.IPrintDocumentPackageTarget
 title: IPrintDocumentPackageTarget (documenttarget.h)
-description: Allows users to enumerate the supported package target types and to create one with a given type ID. IPrintDocumentPackageTarget also supports the tracking of the package printing progress and cancelling.
+description: Allows users to enumerate the supported package target types and to create one with a given type ID. IPrintDocumentPackageTarget also supports the tracking of the package printing progress and cancelling.helpviewer_keywords: ["IPrintDocumentPackageTarget","IPrintDocumentPackageTarget interface [XPS Documents and Packaging]","IPrintDocumentPackageTarget interface [XPS Documents and Packaging]","described","documenttarget/IPrintDocumentPackageTarget","xps.iprintdocumentpackagetarget"]
 old-location: xps\iprintdocumentpackagetarget.htm
 tech.root: printdocs
 ms.assetid: 0F63C626-DB58-4952-BBB3-7E3901429C35

@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.IExecAction
 title: IExecAction (taskschd.h)
-description: Represents an action that executes a command-line operation.
+description: Represents an action that executes a command-line operation.helpviewer_keywords: ["IExecAction","IExecAction interface [Task Scheduler]","IExecAction interface [Task Scheduler]","described","execute action [Task Scheduler]","interface","taskschd.iexecaction","taskschd/IExecAction"]
 old-location: taskschd\iexecaction.htm
 tech.root: taskschd
 ms.assetid: 46a4cd60-df23-4109-8a86-b7755a6922dd

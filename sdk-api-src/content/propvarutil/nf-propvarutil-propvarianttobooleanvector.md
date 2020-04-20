@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantToBooleanVector
 title: PropVariantToBooleanVector function (propvarutil.h)
-description: Extracts a Boolean vector from a PROPVARIANT structure.
+description: Extracts a Boolean vector from a PROPVARIANT structure.helpviewer_keywords: ["PropVariantToBooleanVector","PropVariantToBooleanVector function [Windows Properties]","_shell_PropVariantToBooleanVector","properties.PropVariantToBooleanVector","propvarutil/PropVariantToBooleanVector","shell.PropVariantToBooleanVector"]
 old-location: properties\PropVariantToBooleanVector.htm
 tech.root: properties
 ms.assetid: 93ccd129-4fa4-40f3-96f3-b87b50414b0a

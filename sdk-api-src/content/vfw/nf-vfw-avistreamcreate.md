@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.AVIStreamCreate
 title: AVIStreamCreate function (vfw.h)
-description: The AVIStreamCreate function creates a stream not associated with any file.
+description: The AVIStreamCreate function creates a stream not associated with any file.helpviewer_keywords: ["AVIStreamCreate","AVIStreamCreate function [Windows Multimedia]","_win32_AVIStreamCreate","multimedia.avistreamcreate","vfw/AVIStreamCreate"]
 old-location: multimedia\avistreamcreate.htm
 tech.root: Multimedia
 ms.assetid: 8c784875-dc8f-4fd4-b267-0194cdbfa3c7

@@ -1,7 +1,7 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.CreateLeaseInfo
 title: IMcastAddressAllocation::CreateLeaseInfo (mdhcp.h)
-description: The CreateLeaseInfo method creates a lease information object for a subsequent call to RenewAddress or ReleaseAddress.
+description: The CreateLeaseInfo method creates a lease information object for a subsequent call to RenewAddress or ReleaseAddress.helpviewer_keywords: ["CreateLeaseInfo","CreateLeaseInfo method [TAPI 2.2]","CreateLeaseInfo method [TAPI 2.2]","IMcastAddressAllocation interface","IMcastAddressAllocation interface [TAPI 2.2]","CreateLeaseInfo method","IMcastAddressAllocation.CreateLeaseInfo","IMcastAddressAllocation::CreateLeaseInfo","_tapi3_imcastaddressallocation_createleaseinfo","mdhcp/IMcastAddressAllocation::CreateLeaseInfo","tapi3.imcastaddressallocation_createleaseinfo"]
 old-location: tapi3\imcastaddressallocation_createleaseinfo.htm
 tech.root: Tapi
 ms.assetid: b7a65998-3329-4117-be91-10e2dd7047d5

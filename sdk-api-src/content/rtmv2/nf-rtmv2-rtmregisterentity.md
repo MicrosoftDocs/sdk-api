@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmRegisterEntity
 title: RtmRegisterEntity function (rtmv2.h)
-description: The RtmRegisterEntity function registers a client with an instance of the routing table manager for a specific address family.
+description: The RtmRegisterEntity function registers a client with an instance of the routing table manager for a specific address family.helpviewer_keywords: ["RtmRegisterEntity","RtmRegisterEntity function [RAS]","_rtmv2ref_rtmregisterentity","rras.rtmregisterentity","rtmv2/RtmRegisterEntity"]
 old-location: rras\rtmregisterentity.htm
 tech.root: RRAS
 ms.assetid: 2b952ea2-cf33-49e3-ae31-a14b0907a1b5

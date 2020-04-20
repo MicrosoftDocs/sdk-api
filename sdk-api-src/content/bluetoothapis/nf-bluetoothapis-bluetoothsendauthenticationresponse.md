@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothSendAuthenticationResponse
 title: BluetoothSendAuthenticationResponse function (bluetoothapis.h)
-description: The BluetoothSendAuthenticationResponse function is called when an authentication request to send the passkey response is received.
+description: The BluetoothSendAuthenticationResponse function is called when an authentication request to send the passkey response is received.helpviewer_keywords: ["BluetoothSendAuthenticationResponse","BluetoothSendAuthenticationResponse function [Bluetooth]","bluetooth.bluetoothsendauthenticationresponse","bluetoothapis/BluetoothSendAuthenticationResponse"]
 old-location: bluetooth\bluetoothsendauthenticationresponse.htm
 tech.root: bluetooth
 ms.assetid: 4483f04e-09a2-4bd4-879c-c3a263c685de

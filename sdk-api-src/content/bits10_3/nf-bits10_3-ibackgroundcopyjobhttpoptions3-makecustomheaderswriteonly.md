@@ -2,7 +2,7 @@
 UID: NF:bits10_3.IBackgroundCopyJobHttpOptions3.MakeCustomHeadersWriteOnly
 title: IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly
 ms.keywords: IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly
-description: Sets the HTTP custom headers for this job to be write-only.
+description: Sets the HTTP custom headers for this job to be write-only.helpviewer_keywords: ["IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly"]
 tech.root: Bits
 ms.date: 05/09/2019
 f1_keywords:

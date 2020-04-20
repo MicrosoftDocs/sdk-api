@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetSetStatusCallback
 title: InternetSetStatusCallback function (wininet.h)
-description: Sets up a callback function that WinINet functions can call as progress is made during an operation.
+description: Sets up a callback function that WinINet functions can call as progress is made during an operation.helpviewer_keywords: ["InternetSetStatusCallback","InternetSetStatusCallback function [WinINet]","_inet_internetsetstatuscallback_function","wininet.internetsetstatuscallback","wininet/InternetSetStatusCallback"]
 old-location: wininet\internetsetstatuscallback.htm
 tech.root: wininet
 ms.assetid: fe15627b-c77b-45c0-8ff6-02faa8512b57

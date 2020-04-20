@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptConfigureContext
 title: BCryptConfigureContext function (bcrypt.h)
-description: Sets the configuration information for an existing CNG context.
+description: Sets the configuration information for an existing CNG context.helpviewer_keywords: ["BCryptConfigureContext","BCryptConfigureContext function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","bcrypt/BCryptConfigureContext","security.bcryptconfigurecontext"]
 old-location: security\bcryptconfigurecontext.htm
 tech.root: SecCNG
 ms.assetid: 7989fefc-64fe-4ab3-9a48-7992edac171f

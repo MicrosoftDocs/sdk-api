@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.Add
 title: IFaxOutboundRoutingGroups::Add (faxcomex.h)
-description: The IFaxOutboundRoutingGroups::Add method adds an outbound routing group to the collection represented by the IFaxOutboundRoutingGroups interface.
+description: The IFaxOutboundRoutingGroups::Add method adds an outbound routing group to the collection represented by the IFaxOutboundRoutingGroups interface.helpviewer_keywords: ["Add","Add method [Fax Service]","Add method [Fax Service]","IFaxOutboundRoutingGroups interface","IFaxOutboundRoutingGroups interface [Fax Service]","Add method","IFaxOutboundRoutingGroups.Add","IFaxOutboundRoutingGroups::Add","_mfax_faxoutboundroutinggroups.add_cpp","fax._mfax_faxoutboundroutinggroups_add_cpp","faxcomex/IFaxOutboundRoutingGroups::Add"]
 old-location: fax\_mfax_faxoutboundroutinggroups_add_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_35r8_cpp.htm

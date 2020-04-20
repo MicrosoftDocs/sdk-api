@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_Name
 title: INetConnectionProps::get_Name (netcon.h)
-description: The get_Name method retrieves the name of the connection.
+description: The get_Name method retrieves the name of the connection.helpviewer_keywords: ["INetConnectionProps interface [ICS/ICF]","get_Name method","INetConnectionProps.get_Name","INetConnectionProps::get_Name","_ics_inetconnectionprops_get_name","get_Name","get_Name method [ICS/ICF]","get_Name method [ICS/ICF]","INetConnectionProps interface","ics.inetconnectionprops_get_name","netcon/INetConnectionProps::get_Name"]
 old-location: ics\inetconnectionprops_get_name.htm
 tech.root: ics
 ms.assetid: 7ff91c38-51af-467b-baff-0d41a2ba14f7

@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryContentProperties
 title: ISearchQueryHelper::put_QueryContentProperties (searchapi.h)
-description: Sets the properties to include in the query if search terms do not explicitly specify properties.
+description: Sets the properties to include in the query if search terms do not explicitly specify properties.helpviewer_keywords: ["ISearchQueryHelper interface [search]","put_QueryContentProperties method","ISearchQueryHelper.put_QueryContentProperties","ISearchQueryHelper::put_QueryContentProperties","_search_ISearchQueryHelper_put_QueryContentProperties","put_QueryContentProperties","put_QueryContentProperties method [search]","put_QueryContentProperties method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_put_QueryContentProperties","searchapi/ISearchQueryHelper::put_QueryContentProperties"]
 old-location: search\_search_ISearchQueryHelper_put_QueryContentProperties.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querycontentproperties.htm

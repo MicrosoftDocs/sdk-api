@@ -1,7 +1,7 @@
 ---
 UID: NF:relogger.ITraceEvent.SetProcessId
 title: ITraceEvent::SetProcessId (relogger.h)
-description: Assigns an event to a specific process.
+description: Assigns an event to a specific process.helpviewer_keywords: ["ITraceEvent interface [ETW]","SetProcessId method","ITraceEvent.SetProcessId","ITraceEvent::SetProcessId","SetProcessId","SetProcessId method [ETW]","SetProcessId method [ETW]","ITraceEvent interface","etw.ievent_setprocessid","relogger/ITraceEvent::SetProcessId"]
 old-location: etw\ievent_setprocessid.htm
 tech.root: ETW
 ms.assetid: c2e5e6bf-cdff-42fa-9352-2f234f39849d

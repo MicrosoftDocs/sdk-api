@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_BIND_ELEMENT_ARRAY
 title: DHCP_BIND_ELEMENT_ARRAY (dhcpsapi.h)
-description: The DHCP_BIND_ELEMENT_ARRAY structure defines an array of network binding elements used by a DHCP server.
+description: The DHCP_BIND_ELEMENT_ARRAY structure defines an array of network binding elements used by a DHCP server.helpviewer_keywords: ["*LPDHCP_BIND_ELEMENT_ARRAY","DHCP_BIND_ELEMENT_ARRAY","DHCP_BIND_ELEMENT_ARRAY structure [DHCP]","LPDHCP_BIND_ELEMENT_ARRAY","LPDHCP_BIND_ELEMENT_ARRAY structure pointer [DHCP]","dhcp.dhcp_bind_element_array","dhcpsapi/LPDHCP_BIND_ELEMENT_ARRAY","dhcpsapi/_DHCP_BIND_ELEMENT_ARRAY"]
 old-location: dhcp\dhcp_bind_element_array.htm
 tech.root: DHCP
 ms.assetid: 9e43b2ab-f69d-4024-b6b1-8a36a3577767

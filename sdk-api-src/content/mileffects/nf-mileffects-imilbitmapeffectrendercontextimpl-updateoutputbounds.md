@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.UpdateOutputBounds
 title: IMILBitmapEffectRenderContextImpl::UpdateOutputBounds (mileffects.h)
-description: Updates the output bounds with the given region.
+description: Updates the output bounds with the given region.helpviewer_keywords: ["IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects]","UpdateOutputBounds method","IMILBitmapEffectRenderContextImpl.UpdateOutputBounds","IMILBitmapEffectRenderContextImpl::UpdateOutputBounds","UpdateOutputBounds","UpdateOutputBounds method [WPF Bitmap Effects]","UpdateOutputBounds method [WPF Bitmap Effects]","IMILBitmapEffectRenderContextImpl interface","_wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds","mileffects/IMILBitmapEffectRenderContextImpl::UpdateOutputBounds","wibe._wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds"]
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\updateoutputbounds.htm

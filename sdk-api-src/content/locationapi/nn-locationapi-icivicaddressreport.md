@@ -1,7 +1,7 @@
 ---
 UID: NN:locationapi.ICivicAddressReport
 title: ICivicAddressReport (locationapi.h)
-description: ICivicAddressReport represents a location report that contains information in the form of a street address.
+description: ICivicAddressReport represents a location report that contains information in the form of a street address.helpviewer_keywords: ["ICivicAddressReport","ICivicAddressReport interface [WinLocation]","ICivicAddressReport interface [WinLocation]","described","locationapi/ICivicAddressReport","winlocation.icivicaddressreport"]
 old-location: winlocation\icivicaddressreport.htm
 tech.root: locationapi
 ms.assetid: ba8c66cb-be94-4649-ada9-620ed3b35516

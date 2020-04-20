@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.SetStreamSelectorFlags
 title: IMFASFStreamSelector::SetStreamSelectorFlags (wmcontainer.h)
-description: Sets options for the stream selector.
+description: Sets options for the stream selector.helpviewer_keywords: ["IMFASFStreamSelector interface [Media Foundation]","SetStreamSelectorFlags method","IMFASFStreamSelector.SetStreamSelectorFlags","IMFASFStreamSelector::SetStreamSelectorFlags","SetStreamSelectorFlags","SetStreamSelectorFlags method [Media Foundation]","SetStreamSelectorFlags method [Media Foundation]","IMFASFStreamSelector interface","a2a0f318-0de2-49e0-b8f2-847ab1371752","mf.imfasfstreamselector_setstreamselectorflags","wmcontainer/IMFASFStreamSelector::SetStreamSelectorFlags"]
 old-location: mf\imfasfstreamselector_setstreamselectorflags.htm
 tech.root: medfound
 ms.assetid: a2a0f318-0de2-49e0-b8f2-847ab1371752

@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetSupportedCellularClasses
 title: IMbnMultiCarrier::GetSupportedCellularClasses (mbnapi.h)
-description: Gets the list of supported cellular classes for a multi-carrier device.
+description: Gets the list of supported cellular classes for a multi-carrier device.helpviewer_keywords: ["GetSupportedCellularClasses","GetSupportedCellularClasses method [Microsoft Broadband Networks]","GetSupportedCellularClasses method [Microsoft Broadband Networks]","IMbnMultiCarrier interface","IMbnMultiCarrier interface [Microsoft Broadband Networks]","GetSupportedCellularClasses method","IMbnMultiCarrier.GetSupportedCellularClasses","IMbnMultiCarrier::GetSupportedCellularClasses","mbn.imbnmulticarrier_getsupportedcellularclasses","mbnapi/IMbnMultiCarrier::GetSupportedCellularClasses"]
 old-location: mbn\imbnmulticarrier_getsupportedcellularclasses.htm
 tech.root: mbn
 ms.assetid: 80B29D28-9940-4A96-B95A-A9640CE5E929

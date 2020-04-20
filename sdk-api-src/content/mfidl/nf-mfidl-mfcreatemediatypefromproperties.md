@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateMediaTypeFromProperties
 title: MFCreateMediaTypeFromProperties function (mfidl.h)
-description: Create an IMFMediaType from properties.
+description: Create an IMFMediaType from properties.helpviewer_keywords: ["MFCreateMediaTypeFromProperties","MFCreateMediaTypeFromProperties function [Media Foundation]","mf.mfcreatemediatypefromproperties","mfidl/MFCreateMediaTypeFromProperties"]
 old-location: mf\mfcreatemediatypefromproperties.htm
 tech.root: medfound
 ms.assetid: F34F5C7F-880B-40A8-85EF-537CD36759CB

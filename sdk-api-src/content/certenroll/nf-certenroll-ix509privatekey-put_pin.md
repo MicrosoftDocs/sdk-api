@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Pin
 title: IX509PrivateKey::put_Pin (certenroll.h)
-description: Specifies a personal identification number (PIN) that is used to authenticate users prior to accessing a private key container on a smart card.
+description: Specifies a personal identification number (PIN) that is used to authenticate users prior to accessing a private key container on a smart card.helpviewer_keywords: ["IX509PrivateKey interface [Security]","Pin property","IX509PrivateKey.Pin","IX509PrivateKey.put_Pin","IX509PrivateKey::Pin","IX509PrivateKey::put_Pin","Pin property [Security]","Pin property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::Pin","certenroll/IX509PrivateKey::put_Pin","put_Pin","security.ix509privatekey_pin"]
 old-location: security\ix509privatekey_pin.htm
 tech.root: seccertenroll
 ms.assetid: d81fad8a-767d-48c8-874a-c34843600b13

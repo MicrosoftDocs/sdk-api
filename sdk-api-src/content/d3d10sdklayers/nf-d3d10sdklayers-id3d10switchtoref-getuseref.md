@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10SwitchToRef.GetUseRef
 title: ID3D10SwitchToRef::GetUseRef (d3d10sdklayers.h)
-description: Get a boolean value that indicates the type of device being used.
+description: Get a boolean value that indicates the type of device being used.helpviewer_keywords: ["7b8a132d-2a68-b9bc-338e-0378d33147cd","GetUseRef","GetUseRef method [Direct3D 10]","GetUseRef method [Direct3D 10]","ID3D10SwitchToRef interface","ID3D10SwitchToRef interface [Direct3D 10]","GetUseRef method","ID3D10SwitchToRef.GetUseRef","ID3D10SwitchToRef::GetUseRef","d3d10sdklayers/ID3D10SwitchToRef::GetUseRef","direct3d10.id3d10switchtoref_getuseref"]
 old-location: direct3d10\id3d10switchtoref_getuseref.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10switchtoref_getuseref.htm

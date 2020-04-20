@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsControlElement
 title: IUIAutomationElement::get_CachedIsControlElement (uiautomationclient.h)
-description: Retrieves a cached value that indicates whether the element is a control element.
+description: Retrieves a cached value that indicates whether the element is a control element.helpviewer_keywords: ["CachedIsControlElement property [Windows Accessibility]","CachedIsControlElement property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedIsControlElement property","IUIAutomationElement.CachedIsControlElement","IUIAutomationElement.get_CachedIsControlElement","IUIAutomationElement::CachedIsControlElement","IUIAutomationElement::get_CachedIsControlElement","get_CachedIsControlElement","uiauto.uiauto_IUIAutomationElement_CachedIsControlElement","uiauto_IUIAutomationElement_CachedIsControlElement","uiautomationclient/IUIAutomationElement::CachedIsControlElement","uiautomationclient/IUIAutomationElement::get_CachedIsControlElement","winauto.uiauto_IUIAutomationElement_CachedIsControlElement"]
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsControlElement.htm
 tech.root: WinAuto
 ms.assetid: 3d8b1b5e-4e68-454a-9cfc-dd742a5fa760

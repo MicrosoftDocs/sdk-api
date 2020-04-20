@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderVariable.GetOutputSignatureElementDesc
 title: ID3D10EffectShaderVariable::GetOutputSignatureElementDesc (d3d10effect.h)
-description: Get an output-signature description.
+description: Get an output-signature description.helpviewer_keywords: ["099e180b-e0ef-fb4c-2ecb-2e42899814e8","GetOutputSignatureElementDesc","GetOutputSignatureElementDesc method [Direct3D 10]","GetOutputSignatureElementDesc method [Direct3D 10]","ID3D10EffectShaderVariable interface","ID3D10EffectShaderVariable interface [Direct3D 10]","GetOutputSignatureElementDesc method","ID3D10EffectShaderVariable.GetOutputSignatureElementDesc","ID3D10EffectShaderVariable::GetOutputSignatureElementDesc","d3d10effect/ID3D10EffectShaderVariable::GetOutputSignatureElementDesc","direct3d10.id3d10effectshadervariable_getoutputsignatureelementdesc"]
 old-location: direct3d10\id3d10effectshadervariable_getoutputsignatureelementdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable_getoutputsignatureelementdesc.htm

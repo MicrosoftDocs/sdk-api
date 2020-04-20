@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_SessionThreadId
 title: ITraceDataCollector::get_SessionThreadId (pla.h)
-description: Retrieves the current thread of the log session, if the thread is running.
+description: Retrieves the current thread of the log session, if the thread is running.helpviewer_keywords: ["ITraceDataCollector interface [PLA]","SessionThreadId property","ITraceDataCollector.SessionThreadId","ITraceDataCollector.get_SessionThreadId","ITraceDataCollector::SessionThreadId","ITraceDataCollector::get_SessionThreadId","SessionThreadId property [PLA]","SessionThreadId property [PLA]","ITraceDataCollector interface","base.itracedatacollector_sessionthreadid","get_SessionThreadId","pla.itracedatacollector_sessionthreadid","pla/ITraceDataCollector::SessionThreadId","pla/ITraceDataCollector::get_SessionThreadId"]
 old-location: pla\itracedatacollector_sessionthreadid.htm
 tech.root: PLA
 ms.assetid: 15b688cc-a5db-47a4-b058-cbf69c90237e

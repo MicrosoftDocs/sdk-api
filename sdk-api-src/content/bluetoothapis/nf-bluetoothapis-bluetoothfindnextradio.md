@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindNextRadio
 title: BluetoothFindNextRadio function (bluetoothapis.h)
-description: The BluetoothFindNextRadio function finds the next Bluetooth radio.
+description: The BluetoothFindNextRadio function finds the next Bluetooth radio.helpviewer_keywords: ["BluetoothFindNextRadio","BluetoothFindNextRadio function [Bluetooth]","bluetooth.bluetoothfindnextradio","bluetoothapis/BluetoothFindNextRadio"]
 old-location: bluetooth\bluetoothfindnextradio.htm
 tech.root: bluetooth
 ms.assetid: 7dd6b823-f9c6-4375-80b6-d59c4570c8fb

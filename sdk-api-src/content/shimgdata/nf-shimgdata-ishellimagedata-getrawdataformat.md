@@ -1,7 +1,7 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetRawDataFormat
 title: IShellImageData::GetRawDataFormat (shimgdata.h)
-description: Retrieves a GUID that identifies the format of the image.
+description: Retrieves a GUID that identifies the format of the image.helpviewer_keywords: ["GetRawDataFormat","GetRawDataFormat method [Windows Shell]","GetRawDataFormat method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","GetRawDataFormat method","IShellImageData.GetRawDataFormat","IShellImageData::GetRawDataFormat","_shell_IShellImageData_GetRawDataFormat","shell.IShellImageData_GetRawDataFormat","shimgdata/IShellImageData::GetRawDataFormat"]
 old-location: shell\IShellImageData_GetRawDataFormat.htm
 tech.root: shell
 ms.assetid: c09c6833-501d-4f27-9d59-3ca9aed9d0d1

@@ -1,7 +1,7 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.Terminate
 title: IRendezvousSession::Terminate (rendezvoussession.h)
-description: Terminates the remote RendezvousApplication.
+description: Terminates the remote RendezvousApplication.helpviewer_keywords: ["IRendezvousSession interface [Remote Assistance]","Terminate method","IRendezvousSession.Terminate","IRendezvousSession::Terminate","Terminate","Terminate method [Remote Assistance]","Terminate method [Remote Assistance]","IRendezvousSession interface","remoteassist.remoteassist_IRendezvousSession_Terminate","remoteassist_IRendezvousSession_Terminate","rendezvoussession/IRendezvousSession::Terminate"]
 old-location: remoteassist\remoteassist_IRendezvousSession_Terminate.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\terminate.htm

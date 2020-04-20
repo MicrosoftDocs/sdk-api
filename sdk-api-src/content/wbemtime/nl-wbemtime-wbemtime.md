@@ -1,7 +1,7 @@
 ---
 UID: NL:wbemtime.WBEMTime
 title: WBEMTime (wbemtime.h)
-description: The WBEMTime class facilitates conversions between various Windows and ANSI C run-time time formats. For more information, see also WBEMTimeSpan Class Methods.
+description: The WBEMTime class facilitates conversions between various Windows and ANSI C run-time time formats. For more information, see also WBEMTimeSpan Class Methods.helpviewer_keywords: ["WBEMTime","WBEMTime class [Windows Management Instrumentation]","WBEMTime class [Windows Management Instrumentation]","described","_hmm_wbemtime","wbemtime/WBEMTime","wmi.wbemtime"]
 old-location: wmi\wbemtime.htm
 tech.root: WmiSdk
 ms.assetid: b633bc8c-9d02-4bcf-8528-10773fb5ae7a

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFSchemeHandler
 title: IMFSchemeHandler (mfidl.h)
-description: Creates a media source or a byte stream from a URL.
+description: Creates a media source or a byte stream from a URL.helpviewer_keywords: ["IMFSchemeHandler","IMFSchemeHandler interface [Media Foundation]","IMFSchemeHandler interface [Media Foundation]","described","a342054e-2cb5-494a-a2f7-d144c72d1fa5","mf.imfschemehandler","mfidl/IMFSchemeHandler"]
 old-location: mf\imfschemehandler.htm
 tech.root: medfound
 ms.assetid: a342054e-2cb5-494a-a2f7-d144c72d1fa5

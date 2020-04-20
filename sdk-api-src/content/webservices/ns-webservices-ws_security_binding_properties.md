@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SECURITY_BINDING_PROPERTIES
 title: WS_SECURITY_BINDING_PROPERTIES (webservices.h)
-description: Specifies an array of security binding settings.
+description: Specifies an array of security binding settings.helpviewer_keywords: ["WS_SECURITY_BINDING_PROPERTIES","WS_SECURITY_BINDING_PROPERTIES structure [Web Services for Windows]","webservices/WS_SECURITY_BINDING_PROPERTIES","wsw.ws_security_binding_properties"]
 old-location: wsw\ws_security_binding_properties.htm
 tech.root: wsw
 ms.assetid: 4b36e801-dea9-44fe-ae12-104ea7dce1ee

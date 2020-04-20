@@ -1,7 +1,7 @@
 ---
 UID: NN:wsmandisp.IWSManConnectionOptions
 title: IWSManConnectionOptions (wsmandisp.h)
-description: The IWSManConnectionOptions object is passed to the IWSMan::CreateSession method to provide the user name and password associated with the local account on the remote computer.
+description: The IWSManConnectionOptions object is passed to the IWSMan::CreateSession method to provide the user name and password associated with the local account on the remote computer.helpviewer_keywords: ["IWSManConnectionOptions","IWSManConnectionOptions interface [Windows Remote Management]","IWSManConnectionOptions interface [Windows Remote Management]","described","winrm.iwsmanconnectionoptions","wsmandisp/IWSManConnectionOptions"]
 old-location: winrm\iwsmanconnectionoptions.htm
 tech.root: winrm
 ms.assetid: 940097da-c5bb-4170-a2aa-fcbbee622fe6

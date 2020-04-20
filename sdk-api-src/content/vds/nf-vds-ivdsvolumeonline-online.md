@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsVolumeOnline.Online
 title: IVdsVolumeOnline::Online (vds.h)
-description: Returns a volume to the healthy state, if possible. This method is supported only for dynamic disks.
+description: Returns a volume to the healthy state, if possible. This method is supported only for dynamic disks.helpviewer_keywords: ["IVdsVolumeOnline interface","Online method","IVdsVolumeOnline.Online","IVdsVolumeOnline::Online","Online","Online method","Online method","IVdsVolumeOnline interface","base.ivdsvolumeonline_online","vds/IVdsVolumeOnline::Online"]
 old-location: base\ivdsvolumeonline_online.htm
 tech.root: VDS
 ms.assetid: 8a207e61-5a13-41ad-bad9-11ddf2844a9b

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.Append
 title: IXpsOMImageResourceCollection::Append (xpsobjectmodel.h)
-description: Appends an IXpsOMImageResource interface to the end of the collection.
+description: Appends an IXpsOMImageResource interface to the end of the collection.helpviewer_keywords: ["Append","Append method [XPS Documents and Packaging]","Append method [XPS Documents and Packaging]","IXpsOMImageResourceCollection interface","IXpsOMImageResourceCollection interface [XPS Documents and Packaging]","Append method","IXpsOMImageResourceCollection.Append","IXpsOMImageResourceCollection::Append","xps.ixpsomimageresourcecollection_append","xpsobjectmodel/IXpsOMImageResourceCollection::Append"]
 old-location: xps\ixpsomimageresourcecollection_append.htm
 tech.root: printdocs
 ms.assetid: 0932d81d-7577-4063-8207-d818164175eb

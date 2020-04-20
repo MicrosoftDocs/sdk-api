@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt16VectorAlloc
 title: PropVariantToUInt16VectorAlloc function (propvarutil.h)
-description: Extracts data from a PROPVARIANT structure into a newly-allocated unsigned short vector.
+description: Extracts data from a PROPVARIANT structure into a newly-allocated unsigned short vector.helpviewer_keywords: ["PropVariantToUInt16VectorAlloc","PropVariantToUInt16VectorAlloc function [Windows Properties]","_shell_PropVariantToUInt16VectorAlloc","properties.PropVariantToUInt16VectorAlloc","propvarutil/PropVariantToUInt16VectorAlloc","shell.PropVariantToUInt16VectorAlloc"]
 old-location: properties\PropVariantToUInt16VectorAlloc.htm
 tech.root: properties
 ms.assetid: e5af0f91-49c1-4ff3-8339-77fffc2102f8

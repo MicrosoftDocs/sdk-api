@@ -1,7 +1,7 @@
 ---
 UID: NN:audioenginebaseapo.IAudioProcessingObjectRT
 title: IAudioProcessingObjectRT (audioenginebaseapo.h)
-description: This interface can operate in real-time mode and its methods can be called form real-time processing threads.
+description: This interface can operate in real-time mode and its methods can be called form real-time processing threads.helpviewer_keywords: ["IAudioProcessingObjectRT","IAudioProcessingObjectRT interface [Audio Devices]","IAudioProcessingObjectRT interface [Audio Devices]","described","audio.iaudioprocessingobjectrt","audio_syseffects_r_843f0618-1708-4779-996d-7dc474a73bbf.xml","audioenginebaseapo/IAudioProcessingObjectRT"]
 old-location: audio\iaudioprocessingobjectrt.htm
 tech.root: audio
 ms.assetid: 640ac817-16f2-47c8-87e9-1ae0136e6e55

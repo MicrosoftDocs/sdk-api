@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetDCBrushColor
 title: GetDCBrushColor function (wingdi.h)
-description: The GetDCBrushColor function retrieves the current brush color for the specified device context (DC).
+description: The GetDCBrushColor function retrieves the current brush color for the specified device context (DC).helpviewer_keywords: ["GetDCBrushColor","GetDCBrushColor function [Windows GDI]","_win32_GetDCBrushColor","gdi.getdcbrushcolor","wingdi/GetDCBrushColor"]
 old-location: gdi\getdcbrushcolor.htm
 tech.root: gdi
 ms.assetid: 98844fb1-7ad8-4fbd-be59-9a19065253da

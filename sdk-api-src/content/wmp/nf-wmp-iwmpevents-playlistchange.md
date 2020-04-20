@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.PlaylistChange
 title: IWMPEvents::PlaylistChange (wmp.h)
-description: The PlaylistChange event occurs when a playlist changes.
+description: The PlaylistChange event occurs when a playlist changes.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","PlaylistChange method","IWMPEvents.PlaylistChange","IWMPEvents::PlaylistChange","IWMPEventsPlaylistChange","PlaylistChange","PlaylistChange method [Windows Media Player]","PlaylistChange method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__playlistchange","wmp/IWMPEvents::PlaylistChange"]
 old-location: wmp\iwmpevents_iwmpevents__playlistchange.htm
 tech.root: WMP
 ms.assetid: a2847bda-3003-4c80-abc1-5c873d0810b7

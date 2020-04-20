@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsVolumePlex.QueryExtents
 title: IVdsVolumePlex::QueryExtents (vds.h)
-description: Returns all extents for the current plex.
+description: Returns all extents for the current plex.helpviewer_keywords: ["IVdsVolumePlex interface [VDS]","QueryExtents method","IVdsVolumePlex.QueryExtents","IVdsVolumePlex::QueryExtents","QueryExtents","QueryExtents method [VDS]","QueryExtents method [VDS]","IVdsVolumePlex interface","base.ivdsvolumeplex_queryextents","vds/IVdsVolumePlex::QueryExtents"]
 old-location: base\ivdsvolumeplex_queryextents.htm
 tech.root: VDS
 ms.assetid: 09548bcc-29b9-498f-a4c0-99428f26343a

@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetStatus
 title: ITextStoreACP::GetStatus (textstor.h)
-description: The ITextStoreACP::GetStatus method obtains the document status. The document status is returned through the TS_STATUS structure.
+description: The ITextStoreACP::GetStatus method obtains the document status. The document status is returned through the TS_STATUS structure.helpviewer_keywords: ["GetStatus","GetStatus method [Text Services Framework]","GetStatus method [Text Services Framework]","ITextStoreACP interface","ITextStoreACP interface [Text Services Framework]","GetStatus method","ITextStoreACP.GetStatus","ITextStoreACP::GetStatus","_tsf_itextstoreacp_getstatus_ref","textstor/ITextStoreACP::GetStatus","tsf.itextstoreacp_getstatus"]
 old-location: tsf\itextstoreacp_getstatus.htm
 tech.root: TSF
 ms.assetid: 6ed040ac-8584-4f09-9af8-218b5cd33765

@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._objectpositions
 title: OBJECTPOSITIONS (richedit.h)
-description: Contains object position information.
+description: Contains object position information.helpviewer_keywords: ["OBJECTPOSITIONS","OBJECTPOSITIONS structure [Windows Controls]","_win32_OBJECTPOSITIONS_str","_win32_OBJECTPOSITIONS_str_cpp","controls.OBJECTPOSITIONS","controls._win32_OBJECTPOSITIONS_str","richedit/OBJECTPOSITIONS"]
 old-location: controls\OBJECTPOSITIONS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\objectpositions.htm

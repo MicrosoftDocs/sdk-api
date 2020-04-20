@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.GetCurrentRowHeaders
 title: IUIAutomationTablePattern::GetCurrentRowHeaders (uiautomationclient.h)
-description: Retrieves a collection of UI Automation elements representing all the row headers in a table.
+description: Retrieves a collection of UI Automation elements representing all the row headers in a table.helpviewer_keywords: ["GetCurrentRowHeaders","GetCurrentRowHeaders method [Windows Accessibility]","GetCurrentRowHeaders method [Windows Accessibility]","IUIAutomationTablePattern interface","IUIAutomationTablePattern interface [Windows Accessibility]","GetCurrentRowHeaders method","IUIAutomationTablePattern.GetCurrentRowHeaders","IUIAutomationTablePattern::GetCurrentRowHeaders","uiauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders","uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders","uiautomationclient/IUIAutomationTablePattern::GetCurrentRowHeaders","winauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders"]
 old-location: winauto\uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders.htm
 tech.root: WinAuto
 ms.assetid: 5669bdc7-a240-4c05-acf1-b1ff5e5b09fc

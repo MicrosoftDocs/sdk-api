@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsSecurityUtility.ConvertSecurityDescriptor
 title: IADsSecurityUtility::ConvertSecurityDescriptor (iads.h)
-description: Converts a security descriptor from one format to another.
+description: Converts a security descriptor from one format to another.helpviewer_keywords: ["ADS_SD_FORMAT_HEXSTRING","ADS_SD_FORMAT_IID","ADS_SD_FORMAT_RAW","ConvertSecurityDescriptor","ConvertSecurityDescriptor method [ADSI]","ConvertSecurityDescriptor method [ADSI]","IADsSecurityUtility interface","IADsSecurityUtility interface [ADSI]","ConvertSecurityDescriptor method","IADsSecurityUtility.ConvertSecurityDescriptor","IADsSecurityUtility::ConvertSecurityDescriptor","_ds_iadssecurityutility_convertsecuritydescriptor","adsi.iadssecurityutility__convertsecuritydescriptor","adsi.iadssecurityutility_convertsecuritydescriptor","iads/IADsSecurityUtility::ConvertSecurityDescriptor"]
 old-location: adsi\iadssecurityutility_convertsecuritydescriptor.htm
 tech.root: adsi
 ms.assetid: ea6509bd-5625-458b-be7a-abb43ba2f46e

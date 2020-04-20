@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN HICON)
 title: Bitmap::Bitmap(IN HICON) (gdiplusheaders.h)
-description: Creates a Bitmap object based on an icon.
+description: Creates a Bitmap object based on an icon.helpviewer_keywords: ["Bitmap","Bitmap class [GDI+]","Bitmap constructor","Bitmap constructor [GDI+]","Bitmap constructor [GDI+]","Bitmap class","Bitmap.Bitmap","Bitmap.Bitmap(HICON)","Bitmap.Bitmap(IN HICON)","Bitmap::Bitmap","Bitmap::Bitmap(IN HICON)","_gdiplus_CLASS_Bitmap_Bitmap_hicon_","gdiplus._gdiplus_CLASS_Bitmap_Bitmap_hicon_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_hicon_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_86hicon.htm

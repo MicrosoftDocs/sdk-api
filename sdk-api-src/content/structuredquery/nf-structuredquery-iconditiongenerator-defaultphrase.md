@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.DefaultPhrase
 title: IConditionGenerator::DefaultPhrase (structuredquery.h)
-description: This method attempts to produce a phrase that, when recognized by this instance of IConditionGenerator, represents the type and value pair for an entity, relationship, or named entity.
+description: This method attempts to produce a phrase that, when recognized by this instance of IConditionGenerator, represents the type and value pair for an entity, relationship, or named entity.helpviewer_keywords: ["DefaultPhrase","DefaultPhrase method [search]","DefaultPhrase method [search]","IConditionGenerator interface","IConditionGenerator interface [search]","DefaultPhrase method","IConditionGenerator.DefaultPhrase","IConditionGenerator::DefaultPhrase","_search_IConditionGenerator_DefaultPhrase","search._search_IConditionGenerator_DefaultPhrase","structuredquery/IConditionGenerator::DefaultPhrase"]
 old-location: search\_search_IConditionGenerator_DefaultPhrase.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\defaultphrase.htm

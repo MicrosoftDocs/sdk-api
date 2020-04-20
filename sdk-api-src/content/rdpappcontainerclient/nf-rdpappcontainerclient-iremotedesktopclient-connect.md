@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.Connect
 title: IRemoteDesktopClient::Connect (rdpappcontainerclient.h)
-description: Initiates a connection by using the properties currently set on the Remote Desktop Protocol (RDP) app container client control.
+description: Initiates a connection by using the properties currently set on the Remote Desktop Protocol (RDP) app container client control.helpviewer_keywords: ["Connect","Connect method [Remote Desktop Services]","Connect method [Remote Desktop Services]","IRemoteDesktopClient interface","IRemoteDesktopClient interface [Remote Desktop Services]","Connect method","IRemoteDesktopClient.Connect","IRemoteDesktopClient::Connect","rdpappcontainerclient/IRemoteDesktopClient::Connect","termserv.iremotedesktopclient_connect"]
 old-location: termserv\iremotedesktopclient_connect.htm
 tech.root: TermServ
 ms.assetid: 52dbc0f3-8ba9-45a5-a224-b7de67847bf3

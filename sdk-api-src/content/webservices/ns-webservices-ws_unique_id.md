@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_UNIQUE_ID
 title: WS_UNIQUE_ID (webservices.h)
-description: Represents a unique ID URI.
+description: Represents a unique ID URI.helpviewer_keywords: ["WS_UNIQUE_ID","WS_UNIQUE_ID structure [Web Services for Windows]","webservices/WS_UNIQUE_ID","wsw.ws_unique_id"]
 old-location: wsw\ws_unique_id.htm
 tech.root: wsw
 ms.assetid: b9fd4497-153f-45f9-8f23-0771ffc47830

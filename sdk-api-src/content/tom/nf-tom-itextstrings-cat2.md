@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextStrings.Cat2
 title: ITextStrings::Cat2 (tom.h)
-description: Concatenates two strings.
+description: Concatenates two strings.helpviewer_keywords: ["Cat2","Cat2 method [Windows Controls]","Cat2 method [Windows Controls]","ITextStrings interface","ITextStrings interface [Windows Controls]","Cat2 method","ITextStrings.Cat2","ITextStrings::Cat2","controls.itextstrings_cat2","tom/ITextStrings::Cat2"]
 old-location: controls\itextstrings_cat2.htm
 tech.root: Controls
 ms.assetid: 9691d04f-5c87-42a3-81f2-efb051e2ed30

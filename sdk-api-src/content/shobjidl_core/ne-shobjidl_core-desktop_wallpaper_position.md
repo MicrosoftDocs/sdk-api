@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core.DESKTOP_WALLPAPER_POSITION
 title: DESKTOP_WALLPAPER_POSITION (shobjidl_core.h)
-description: Specifies how the desktop wallpaper should be displayed.
+description: Specifies how the desktop wallpaper should be displayed.helpviewer_keywords: ["DESKTOP_WALLPAPER_POSITION","DESKTOP_WALLPAPER_POSITION enumeration [Windows Shell]","DWPOS_CENTER","DWPOS_FILL","DWPOS_FIT","DWPOS_SPAN","DWPOS_STRETCH","DWPOS_TILE","shell.DESKTOP_WALLPAPER_POSITION","shobjidl_core/DESKTOP_WALLPAPER_POSITION","shobjidl_core/DWPOS_CENTER","shobjidl_core/DWPOS_FILL","shobjidl_core/DWPOS_FIT","shobjidl_core/DWPOS_SPAN","shobjidl_core/DWPOS_STRETCH","shobjidl_core/DWPOS_TILE"]
 old-location: shell\DESKTOP_WALLPAPER_POSITION.htm
 tech.root: shell
 ms.assetid: 5524E7DA-087C-475a-BB22-5E62C1A5CC4D

@@ -1,7 +1,7 @@
 ---
 UID: NC:stm.PIS_SERVICE
 title: PIS_SERVICE (stm.h)
-description: The IsService function checks whether a service of specified type and name exists in the service table, and optionally returns the service's parameters.
+description: The IsService function checks whether a service of specified type and name exists in the service table, and optionally returns the service's parameters.helpviewer_keywords: ["IsService","IsService callback function [RAS]","PIS_SERVICE","PIS_SERVICE callback","_mpr_isservice","rras.isservice","stm/IsService"]
 old-location: rras\isservice.htm
 tech.root: RRAS
 ms.assetid: f2d8e1f4-ce6c-429c-bb14-26c6c75eab7e

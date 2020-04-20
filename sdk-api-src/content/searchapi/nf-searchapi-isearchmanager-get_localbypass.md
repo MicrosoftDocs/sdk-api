@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchManager.get_LocalBypass
 title: ISearchManager::get_LocalBypass (searchapi.h)
-description: Retrieves a value that determines whether the proxy server should be bypassed to find the item or URL.
+description: Retrieves a value that determines whether the proxy server should be bypassed to find the item or URL.helpviewer_keywords: ["ISearchManager interface [search]","get_LocalBypass method","ISearchManager.get_LocalBypass","ISearchManager::get_LocalBypass","_search_ISearchManager_get_LocalBypass","get_LocalBypass","get_LocalBypass method [search]","get_LocalBypass method [search]","ISearchManager interface","search._search_ISearchManager_get_LocalBypass","searchapi/ISearchManager::get_LocalBypass"]
 old-location: search\_search_ISearchManager_get_LocalBypass.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_localbypass.htm

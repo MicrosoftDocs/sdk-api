@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.EndPanningFeedback
 title: EndPanningFeedback function (uxtheme.h)
-description: Terminates any existing animation that was in process or set up by BeginPanningFeedback and UpdatePanningFeedback.
+description: Terminates any existing animation that was in process or set up by BeginPanningFeedback and UpdatePanningFeedback.helpviewer_keywords: ["EndPanningFeedback","EndPanningFeedback function [Windows Controls]","_controls_EndPanningFeedback","_controls_EndPanningFeedback_cpp","controls.EndPanningFeedback","controls._controls_EndPanningFeedback","uxtheme/EndPanningFeedback"]
 old-location: controls\EndPanningFeedback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endpanningfeedback.htm

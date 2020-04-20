@@ -1,7 +1,7 @@
 ---
 UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetDwordValue
 title: IUPnPRemoteEndpointInfo::GetDwordValue (upnphost.h)
-description: The GetDwordValue method gets a 4-byte value that provides information about either a request or requester.
+description: The GetDwordValue method gets a 4-byte value that provides information about either a request or requester.helpviewer_keywords: ["AF_INET","AF_INET6","GetDwordValue","GetDwordValue method [UPnP APIs]","GetDwordValue method [UPnP APIs]","IUPnPRemoteEndpointInfo interface","IUPnPRemoteEndpointInfo interface [UPnP APIs]","GetDwordValue method","IUPnPRemoteEndpointInfo.GetDwordValue","IUPnPRemoteEndpointInfo::GetDwordValue","upnp.iupnpremoteendpointinfo_getdwordvalue","upnphost/IUPnPRemoteEndpointInfo::GetDwordValue"]
 old-location: upnp\iupnpremoteendpointinfo_getdwordvalue.htm
 tech.root: upnp
 ms.assetid: efbb0671-cb32-41e1-8405-1d145c247673

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFontFileStream.ReleaseFileFragment
 title: IDWriteFontFileStream::ReleaseFileFragment (dwrite.h)
-description: Releases a fragment from a file.
+description: Releases a fragment from a file.helpviewer_keywords: ["IDWriteFontFileStream interface [Direct Write]","ReleaseFileFragment method","IDWriteFontFileStream.ReleaseFileFragment","IDWriteFontFileStream::ReleaseFileFragment","ReleaseFileFragment","ReleaseFileFragment method [Direct Write]","ReleaseFileFragment method [Direct Write]","IDWriteFontFileStream interface","directwrite.IDWriteFontFileStream_ReleaseFileFragment","dwrite/IDWriteFontFileStream::ReleaseFileFragment"]
 old-location: directwrite\IDWriteFontFileStream_ReleaseFileFragment.htm
 tech.root: DirectWrite
 ms.assetid: 8a12c28e-5595-4255-8fdd-5d546ceed90b

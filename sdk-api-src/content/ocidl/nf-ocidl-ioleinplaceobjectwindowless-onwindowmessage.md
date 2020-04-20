@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleInPlaceObjectWindowless.OnWindowMessage
 title: IOleInPlaceObjectWindowless::OnWindowMessage (ocidl.h)
-description: Dispatches a message from a container to a windowless object that is in-place active.
+description: Dispatches a message from a container to a windowless object that is in-place active.helpviewer_keywords: ["IOleInPlaceObjectWindowless interface [COM]","OnWindowMessage method","IOleInPlaceObjectWindowless.OnWindowMessage","IOleInPlaceObjectWindowless::OnWindowMessage","OnWindowMessage","OnWindowMessage method [COM]","OnWindowMessage method [COM]","IOleInPlaceObjectWindowless interface","_ole_ioleinplaceobjectwindowless_onwindowmessage","com.ioleinplaceobjectwindowless_onwindowmessage","ocidl/IOleInPlaceObjectWindowless::OnWindowMessage"]
 old-location: com\ioleinplaceobjectwindowless_onwindowmessage.htm
 tech.root: com
 ms.assetid: e9deaed5-485f-40e4-96ee-391dc3d12a86

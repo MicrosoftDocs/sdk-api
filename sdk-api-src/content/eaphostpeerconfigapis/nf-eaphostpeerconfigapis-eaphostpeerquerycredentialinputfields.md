@@ -1,7 +1,7 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerQueryCredentialInputFields
 title: EapHostPeerQueryCredentialInputFields function (eaphostpeerconfigapis.h)
-description: Allows the user to determine what kind of credentials are required by the methods to perform authentication in a Single-Sign-On (SSO) scenario.
+description: Allows the user to determine what kind of credentials are required by the methods to perform authentication in a Single-Sign-On (SSO) scenario.helpviewer_keywords: ["EapHostPeerQueryCredentialInputFields","EapHostPeerQueryCredentialInputFields function [EAPHost]","eaphost.eaphostpeerquerycredentialinputfields","eaphostpeerconfigapis/EapHostPeerQueryCredentialInputFields"]
 old-location: eaphost\eaphostpeerquerycredentialinputfields.htm
 tech.root: eaphost
 ms.assetid: f71aad69-89f3-463b-afd7-9873d582d03b

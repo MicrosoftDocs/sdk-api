@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IVideoWindow.get_MessageDrain
 title: IVideoWindow::get_MessageDrain (control.h)
-description: The get_MessageDrain method retrieves the window that receives mouse and keyboard messages from the video window, if any.
+description: The get_MessageDrain method retrieves the window that receives mouse and keyboard messages from the video window, if any.helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_MessageDrain method","IVideoWindow.get_MessageDrain","IVideoWindow::get_MessageDrain","IVideoWindowget_MessageDrain","control/IVideoWindow::get_MessageDrain","dshow.ivideowindow_get_messagedrain","get_MessageDrain","get_MessageDrain method [DirectShow]","get_MessageDrain method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_get_messagedrain.htm
 tech.root: DirectShow
 ms.assetid: 9a1a3070-5b68-4dd2-bc10-97a8331cc262

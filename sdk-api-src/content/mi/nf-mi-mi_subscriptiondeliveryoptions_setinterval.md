@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetInterval
 title: MI_SubscriptionDeliveryOptions_SetInterval function (mi.h)
-description: Sets the value of a named interval option.
+description: Sets the value of a named interval option.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_SetInterval","MI_SubscriptionDeliveryOptions_SetInterval function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_SetInterval","wmi_v2.mi_subscriptiondeliveryoptions_setinterval"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setinterval.htm
 tech.root: wmi_v2
 ms.assetid: 00b6dcbb-be09-464e-af7e-45dac4d70286

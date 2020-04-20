@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.MFP_GET_STOP_EVENT
 title: MFP_GET_STOP_EVENT macro (mfplay.h)
-description: Casts an MFP_EVENT_HEADER pointer to an MFP_STOP_EVENT pointer.
+description: Casts an MFP_EVENT_HEADER pointer to an MFP_STOP_EVENT pointer.helpviewer_keywords: ["MFP_GET_STOP_EVENT","MFP_GET_STOP_EVENT macro [Media Foundation]","mf.mfp_get_stop_event","mfplay/MFP_GET_STOP_EVENT"]
 old-location: mf\mfp_get_stop_event.htm
 tech.root: medfound
 ms.assetid: 3ca3fa23-1abf-49fc-96e3-f094b483c78f

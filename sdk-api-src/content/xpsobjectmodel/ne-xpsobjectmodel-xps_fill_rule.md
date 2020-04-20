@@ -1,7 +1,7 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0010
 title: XPS_FILL_RULE (xpsobjectmodel.h)
-description: The rule used by a composite shape to determine whether a given point is part of the geometry.
+description: The rule used by a composite shape to determine whether a given point is part of the geometry.helpviewer_keywords: ["XPS_FILL_RULE","XPS_FILL_RULE enumeration [XPS Documents and Packaging]","XPS_FILL_RULE_EVENODD","XPS_FILL_RULE_NONZERO","xps.xps_fill_rule","xpsobjectmodel/XPS_FILL_RULE","xpsobjectmodel/XPS_FILL_RULE_EVENODD","xpsobjectmodel/XPS_FILL_RULE_NONZERO"]
 old-location: xps\xps_fill_rule.htm
 tech.root: printdocs
 ms.assetid: 353a4dc3-0c4d-46df-ae31-cc94c4116ca3

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IMenuBand.TranslateMenuMessage
 title: IMenuBand::TranslateMenuMessage (shobjidl_core.h)
-description: Translates a message for a Component Object Model (COM) object.
+description: Translates a message for a Component Object Model (COM) object.helpviewer_keywords: ["IMenuBand interface [Windows Shell]","TranslateMenuMessage method","IMenuBand.TranslateMenuMessage","IMenuBand::TranslateMenuMessage","TranslateMenuMessage","TranslateMenuMessage method [Windows Shell]","TranslateMenuMessage method [Windows Shell]","IMenuBand interface","_shell_IMenuBand_TranslateMenuMessage","shell.IMenuBand_TranslateMenuMessage","shobjidl_core/IMenuBand::TranslateMenuMessage"]
 old-location: shell\IMenuBand_TranslateMenuMessage.htm
 tech.root: shell
 ms.assetid: 5ee1f64f-ca8b-4f50-bbab-24ff1216708c

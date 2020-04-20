@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.PageUnlock
 title: IDirectDrawSurface7::PageUnlock (ddraw.h)
-description: Unlocks a system-memory surface, which then allows it to be paged out.
+description: Unlocks a system-memory surface, which then allows it to be paged out.helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","PageUnlock method","IDirectDrawSurface7.PageUnlock","IDirectDrawSurface7::PageUnlock","PageUnlock","PageUnlock method [DirectDraw]","PageUnlock method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::PageUnlock","directdraw.idirectdrawsurface7_pageunlock"]
 old-location: directdraw\idirectdrawsurface7_pageunlock.htm
 tech.root: directdraw
 ms.assetid: 1a87df37-a53f-4240-a5cb-47b13999c34b

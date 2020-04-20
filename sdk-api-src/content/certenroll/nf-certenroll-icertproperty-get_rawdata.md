@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertProperty.get_RawData
 title: ICertProperty::get_RawData (certenroll.h)
-description: Retrieves the value of the certificate property.
+description: Retrieves the value of the certificate property.helpviewer_keywords: ["ICertProperty interface [Security]","RawData property","ICertProperty.RawData","ICertProperty.get_RawData","ICertProperty::RawData","ICertProperty::get_RawData","RawData property [Security]","RawData property [Security]","ICertProperty interface","certenroll/ICertProperty::RawData","certenroll/ICertProperty::get_RawData","get_RawData","security.icertproperty_rawdata_property"]
 old-location: security\icertproperty_rawdata_property.htm
 tech.root: seccertenroll
 ms.assetid: 1413f6da-0fcf-42ca-a79f-43f164368407

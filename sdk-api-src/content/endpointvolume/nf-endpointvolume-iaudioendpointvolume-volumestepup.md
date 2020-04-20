@@ -1,7 +1,7 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.VolumeStepUp
 title: IAudioEndpointVolume::VolumeStepUp (endpointvolume.h)
-description: The VolumeStepUp method increments, by one step, the volume level of the audio stream that enters or leaves the audio endpoint device.
+description: The VolumeStepUp method increments, by one step, the volume level of the audio stream that enters or leaves the audio endpoint device.helpviewer_keywords: ["IAudioEndpointVolume interface [Core Audio]","VolumeStepUp method","IAudioEndpointVolume.VolumeStepUp","IAudioEndpointVolume::VolumeStepUp","IAudioEndpointVolumeVolumeStepUp","VolumeStepUp","VolumeStepUp method [Core Audio]","VolumeStepUp method [Core Audio]","IAudioEndpointVolume interface","coreaudio.iaudioendpointvolume_volumestepup","endpointvolume/IAudioEndpointVolume::VolumeStepUp"]
 old-location: coreaudio\iaudioendpointvolume_volumestepup.htm
 tech.root: CoreAudio
 ms.assetid: 35ed44cd-ba91-4b6a-b528-0e22df389d31

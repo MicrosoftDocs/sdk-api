@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Attributes.Remove
 title: IX509Attributes::Remove (certenroll.h)
-description: Removes an IX509Attribute object from the collection by index number.
+description: Removes an IX509Attribute object from the collection by index number.helpviewer_keywords: ["IX509Attributes interface [Security]","Remove method","IX509Attributes.Remove","IX509Attributes::Remove","Remove","Remove method [Security]","Remove method [Security]","IX509Attributes interface","certenroll/IX509Attributes::Remove","security.ix509attributes_remove_method"]
 old-location: security\ix509attributes_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: 5821f4bd-5165-4ffc-8d1c-5ef89188b307

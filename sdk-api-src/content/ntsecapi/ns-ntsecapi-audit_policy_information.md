@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._AUDIT_POLICY_INFORMATION
 title: AUDIT_POLICY_INFORMATION (ntsecapi.h)
-description: Specifies a security event type and when to audit that type.
+description: Specifies a security event type and when to audit that type.helpviewer_keywords: ["*PAUDIT_POLICY_INFORMATION","AUDIT_POLICY_INFORMATION","AUDIT_POLICY_INFORMATION structure [Security]","PAUDIT_POLICY_INFORMATION","PAUDIT_POLICY_INFORMATION structure pointer [Security]","PER_USER_AUDIT_FAILURE_EXCLUDE","PER_USER_AUDIT_FAILURE_INCLUDE","PER_USER_AUDIT_NONE","PER_USER_AUDIT_SUCCESS_EXCLUDE","PER_USER_AUDIT_SUCCESS_INCLUDE","PER_USER_POLICY_UNCHANGED","POLICY_AUDIT_EVENT_FAILURE","POLICY_AUDIT_EVENT_NONE","POLICY_AUDIT_EVENT_SUCCESS","POLICY_AUDIT_EVENT_UNCHANGED","ntsecapi/AUDIT_POLICY_INFORMATION","ntsecapi/PAUDIT_POLICY_INFORMATION","security.audit_policy_information"]
 old-location: security\audit_policy_information.htm
 tech.root: SecAuthZ
 ms.assetid: 3fafeec9-a028-4a65-933e-fb973eb257b0

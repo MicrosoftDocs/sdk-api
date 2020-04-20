@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectRenderStreamForHrtf.ActivateSpatialAudioObjectForHrtf
 title: ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf (spatialaudiohrtf.h)
-description: Activates an ISpatialAudioObjectForHrtf for audio rendering.
+description: Activates an ISpatialAudioObjectForHrtf for audio rendering.helpviewer_keywords: ["ActivateSpatialAudioObjectForHrtf","ActivateSpatialAudioObjectForHrtf method [Core Audio]","ActivateSpatialAudioObjectForHrtf method [Core Audio]","ISpatialAudioObjectRenderStreamForHrtf interface","ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio]","ActivateSpatialAudioObjectForHrtf method","ISpatialAudioObjectRenderStreamForHrtf.ActivateSpatialAudioObjectForHrtf","ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf","coreaudio.ispatialaudiorenderstreamforhrtf_activatespatialaudioobjectforhrtf","spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf"]
 old-location: coreaudio\ispatialaudiorenderstreamforhrtf_activatespatialaudioobjectforhrtf.htm
 tech.root: CoreAudio
 ms.assetid: 3E26D14B-5F69-4EBD-A48D-D63E24520D59

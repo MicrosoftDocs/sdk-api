@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.DrawGlyphRun
 title: ID2D1DeviceContext::DrawGlyphRun (d2d1_1.h)
-description: Draws a series of glyphs to the device context.
+description: Draws a series of glyphs to the device context.helpviewer_keywords: ["DrawGlyphRun","DrawGlyphRun method [Direct2D]","DrawGlyphRun method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","DrawGlyphRun method","ID2D1DeviceContext.DrawGlyphRun","ID2D1DeviceContext::DrawGlyphRun","d2d1_1/ID2D1DeviceContext::DrawGlyphRun","direct2d.id2d1devicecontext_drawglyphrun"]
 old-location: direct2d\id2d1devicecontext_drawglyphrun.htm
 tech.root: Direct2D
 ms.assetid: a169604c-64d6-401f-83f5-fb322230e110

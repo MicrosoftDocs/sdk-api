@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionMatrixTransform.SetMatrixElement(int,int,float)
 title: IDCompositionMatrixTransform::SetMatrixElement(int,int,float) (dcomp.h)
-description: Changes the value of one element of the matrix of this transform.
+description: Changes the value of one element of the matrix of this transform.helpviewer_keywords: ["IDCompositionMatrixTransform interface [DirectComposition]","SetMatrixElement method","IDCompositionMatrixTransform.SetMatrixElement","IDCompositionMatrixTransform.SetMatrixElement(int","int","float)","IDCompositionMatrixTransform::SetMatrixElement","IDCompositionMatrixTransform::SetMatrixElement(int","int","float)","SetMatrixElement","SetMatrixElement method [DirectComposition]","SetMatrixElement method [DirectComposition]","IDCompositionMatrixTransform interface","dcomp/IDCompositionMatrixTransform::SetMatrixElement","directcomp.idcompositionmatrixtransform_setmatrixelement"]
 old-location: directcomp\idcompositionmatrixtransform_setmatrixelement.htm
 tech.root: directcomp
 ms.assetid: E95F44EC-532C-472C-8C1A-6B008CA97DC0

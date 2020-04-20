@@ -1,7 +1,7 @@
 ---
 UID: NF:xapo.IXAPOParameters.GetParameters
 title: IXAPOParameters::GetParameters (xapo.h)
-description: Gets the current values for any effect-specific parameters.
+description: Gets the current values for any effect-specific parameters.helpviewer_keywords: ["GetParameters","GetParameters method [XAudio2 Audio Mixing APIs]","GetParameters method [XAudio2 Audio Mixing APIs]","IXAPOParameters interface","IXAPOParameters interface [XAudio2 Audio Mixing APIs]","GetParameters method","IXAPOParameters.GetParameters","IXAPOParameters::GetParameters","xapo/IXAPOParameters::GetParameters","xaudio2.ixapoparameters_interface_getparameters"]
 old-location: xaudio2\ixapoparameters_interface_getparameters.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters.GetParameters(void@,UINT32)

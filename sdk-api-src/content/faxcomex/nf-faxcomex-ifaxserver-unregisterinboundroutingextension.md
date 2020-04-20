@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxServer.UnregisterInboundRoutingExtension
 title: IFaxServer::UnregisterInboundRoutingExtension (faxcomex.h)
-description: The IFaxServer::UnregisterInboundRoutingExtension method unregisters an existing inbound routing extension. Unregistration will take place only after the fax server is restarted.
+description: The IFaxServer::UnregisterInboundRoutingExtension method unregisters an existing inbound routing extension. Unregistration will take place only after the fax server is restarted.helpviewer_keywords: ["IFaxServer interface [Fax Service]","UnregisterInboundRoutingExtension method","IFaxServer.UnregisterInboundRoutingExtension","IFaxServer::UnregisterInboundRoutingExtension","UnregisterInboundRoutingExtension","UnregisterInboundRoutingExtension method [Fax Service]","UnregisterInboundRoutingExtension method [Fax Service]","IFaxServer interface","_mfax_faxserver.unregisterinboundroutingextension","fax._mfax_faxserver_cpp_mfax_faxserver_unregisterinboundroutingextension_cpp","fax._mfax_faxserver_unregisterinboundroutingextension","faxcomex/IFaxServer::UnregisterInboundRoutingExtension"]
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_unregisterinboundroutingextension_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2c32.htm

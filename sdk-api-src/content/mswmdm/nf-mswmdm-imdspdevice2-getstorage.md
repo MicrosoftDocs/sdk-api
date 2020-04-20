@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IMDSPDevice2.GetStorage
 title: IMDSPDevice2::GetStorage (mswmdm.h)
-description: The GetStorage method makes it possible to go directly to a storage based on its name instead of enumerating through all storages to find it.
+description: The GetStorage method makes it possible to go directly to a storage based on its name instead of enumerating through all storages to find it.helpviewer_keywords: ["GetStorage","GetStorage method [windows Media Device Manager]","GetStorage method [windows Media Device Manager]","IMDSPDevice2 interface","IMDSPDevice2 interface [windows Media Device Manager]","GetStorage method","IMDSPDevice2.GetStorage","IMDSPDevice2::GetStorage","IMDSPDevice2GetStorage","mswmdm/IMDSPDevice2::GetStorage","wmdm.imdspdevice2_getstorage"]
 old-location: wmdm\imdspdevice2_getstorage.htm
 tech.root: WMDM
 ms.assetid: d01cf5a6-1fdb-4354-8b43-b04bdc562d71

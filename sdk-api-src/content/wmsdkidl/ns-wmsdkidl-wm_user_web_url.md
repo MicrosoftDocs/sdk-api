@@ -1,7 +1,7 @@
 ---
 UID: NS:wmsdkidl._WMUserWebURL
 title: WM_USER_WEB_URL (wmsdkidl.h)
-description: The WM_USER_WEB_URL structure is used as the data item for the WM/UserWebURL complex metadata attribute.
+description: The WM_USER_WEB_URL structure is used as the data item for the WM/UserWebURL complex metadata attribute.helpviewer_keywords: ["WM_USER_WEB_URL","WM_USER_WEB_URL structure [windows Media Format]","wmformat.wm_user_web_url","wmsdkidl/WM_USER_WEB_URL"]
 old-location: wmformat\wm_user_web_url.htm
 tech.root: wmformat
 ms.assetid: 004708cf-9bcd-469a-b770-54fa5ef1aeef

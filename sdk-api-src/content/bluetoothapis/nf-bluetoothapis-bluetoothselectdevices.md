@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothSelectDevices
 title: BluetoothSelectDevices function (bluetoothapis.h)
-description: Enables Bluetooth device selection.
+description: Enables Bluetooth device selection.helpviewer_keywords: ["BluetoothSelectDevices","BluetoothSelectDevices function [Bluetooth]","_bth_bluetoothselectdevices","bluetooth.bluetoothselectdevices","bluetoothapis/BluetoothSelectDevices"]
 old-location: bluetooth\bluetoothselectdevices.htm
 tech.root: bluetooth
 ms.assetid: 97fcbd72-99d5-4c5b-bf16-75eea97cbc77

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymInitialize
 title: SymInitialize function (dbghelp.h)
-description: Initializes the symbol handler for a process.
+description: Initializes the symbol handler for a process.helpviewer_keywords: ["SymInitialize","SymInitialize function","SymInitializeW","_win32_syminitialize","base.syminitialize","dbghelp/SymInitialize","dbghelp/SymInitializeW"]
 old-location: base\syminitialize.htm
 tech.root: Debug
 ms.assetid: fb1c98cb-6cd0-4218-aea4-384c24c66395

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetProbeResolveTag
 title: IWSDiscoveredService::GetProbeResolveTag (wsddisco.h)
-description: Retrieves the search tag corresponding to this discovered service object.
+description: Retrieves the search tag corresponding to this discovered service object.helpviewer_keywords: ["GetProbeResolveTag","GetProbeResolveTag method","GetProbeResolveTag method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetProbeResolveTag method","IWSDiscoveredService.GetProbeResolveTag","IWSDiscoveredService::GetProbeResolveTag","ncd.iwsdiscoveredservice_getproberesolvetag","wsddisco/IWSDiscoveredService::GetProbeResolveTag"]
 old-location: ncd\iwsdiscoveredservice_getproberesolvetag.htm
 tech.root: WsdApi
 ms.assetid: 80c22d39-0197-4e4d-b47e-e04ae90716f9

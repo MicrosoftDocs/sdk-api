@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.Cancel
 title: IBackgroundCopyJob::Cancel (bits.h)
-description: Deletes the job from the transfer queue and removes related temporary files from the client (downloads) and server (uploads).
+description: Deletes the job from the transfer queue and removes related temporary files from the client (downloads) and server (uploads).helpviewer_keywords: ["Cancel","Cancel method [BITS]","Cancel method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","Cancel method","IBackgroundCopyJob.Cancel","IBackgroundCopyJob::Cancel","_drz_ibackgroundcopyjob_cancel","bits.ibackgroundcopyjob_cancel","bits/IBackgroundCopyJob::Cancel"]
 old-location: bits\ibackgroundcopyjob_cancel.htm
 tech.root: Bits
 ms.assetid: bb3f32d9-298a-4099-8d87-4057ddefb0ba

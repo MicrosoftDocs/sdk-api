@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IApartmentShutdown
 title: IApartmentShutdown (objidl.h)
-description: Enables registration of an apartment shutdown notification handler.
+description: Enables registration of an apartment shutdown notification handler.helpviewer_keywords: ["IApartmentShutdown","IApartmentShutdown interface [Windows Runtime]","IApartmentShutdown interface [Windows Runtime]","described","objidl/IApartmentShutdown","winrt.iapartmentshutdown"]
 old-location: winrt\iapartmentshutdown.htm
 tech.root: WinRT
 ms.assetid: 28EDAC77-5175-4AF7-A06C-B735336AAD9B

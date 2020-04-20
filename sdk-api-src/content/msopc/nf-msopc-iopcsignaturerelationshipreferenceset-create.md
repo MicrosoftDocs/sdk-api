@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceSet.Create
 title: IOpcSignatureRelationshipReferenceSet::Create (msopc.h)
-description: Creates an IOpcSignatureRelationshipReference interface pointer that represents a reference to a Relationships part, and adds the new interface pointer to the set.
+description: Creates an IOpcSignatureRelationshipReference interface pointer that represents a reference to a Relationships part, and adds the new interface pointer to the set.helpviewer_keywords: ["Create","Create method [Open Packaging Conventions]","Create method [Open Packaging Conventions]","IOpcSignatureRelationshipReferenceSet interface","IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions]","Create method","IOpcSignatureRelationshipReferenceSet.Create","IOpcSignatureRelationshipReferenceSet::Create","msopc/IOpcSignatureRelationshipReferenceSet::Create","opc.iopcsignaturerelationshipreferenceset_create"]
 old-location: opc\iopcsignaturerelationshipreferenceset_create.htm
 tech.root: OPC
 ms.assetid: c348ac25-f2b3-491d-b378-f0daf282b1ca

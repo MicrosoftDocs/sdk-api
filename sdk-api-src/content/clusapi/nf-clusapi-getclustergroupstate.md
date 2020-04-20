@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.GetClusterGroupState
 title: GetClusterGroupState function (clusapi.h)
-description: Returns the current state of a group.
+description: Returns the current state of a group.helpviewer_keywords: ["GetClusterGroupState","GetClusterGroupState function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_GROUP_STATE","PCLUSAPI_GET_CLUSTER_GROUP_STATE function [Failover Cluster]","_wolf_getclustergroupstate","clusapi/GetClusterGroupState","clusapi/PCLUSAPI_GET_CLUSTER_GROUP_STATE","mscs.getclustergroupstate"]
 old-location: mscs\getclustergroupstate.htm
 tech.root: MsCS
 ms.assetid: 5f794dee-aeee-4906-ba63-c154bfda4d17

@@ -1,7 +1,7 @@
 ---
 UID: NS:mbnapi.MBN_PROVIDER2
 title: MBN_PROVIDER2 (mbnapi.h)
-description: The MBN_PROVIDER2 structure represents a network service provider. It is used by many of the provider-specific methods of the IMbnMultiCarrier interface and provides an extension to MBN_PROVIDER to support multi-carrier.
+description: The MBN_PROVIDER2 structure represents a network service provider. It is used by many of the provider-specific methods of the IMbnMultiCarrier interface and provides an extension to MBN_PROVIDER to support multi-carrier.helpviewer_keywords: ["MBN_PROVIDER2","MBN_PROVIDER2 structure [Microsoft Broadband Networks]","mbn.mbn_provider2","mbnapi/MBN_PROVIDER2"]
 old-location: mbn\mbn_provider2.htm
 tech.root: mbn
 ms.assetid: 9D681192-1E40-4314-8E7F-8934AA8162D3

@@ -1,7 +1,7 @@
 ---
 UID: NS:vmgenerationcounter._VM_GENCOUNTER
 title: VM_GENCOUNTER (vmgenerationcounter.h)
-description: Describes a virtual machine generation identifier.
+description: Describes a virtual machine generation identifier.helpviewer_keywords: ["*PVM_GENCOUNTER","PVM_GENCOUNTER","PVM_GENCOUNTER structure pointer","VM_GENCOUNTER","VM_GENCOUNTER structure","hyperv.vm_gencounter","vmgenerationcounter/PVM_GENCOUNTER","vmgenerationcounter/VM_GENCOUNTER"]
 old-location: hyperv\vm_gencounter.htm
 tech.root: HyperV_v2
 ms.assetid: F1F2C867-2607-40AD-92B7-E7C07304D885

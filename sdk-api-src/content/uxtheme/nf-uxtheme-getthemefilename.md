@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.GetThemeFilename
 title: GetThemeFilename function (uxtheme.h)
-description: Retrieves the value of a filename property.
+description: Retrieves the value of a filename property.helpviewer_keywords: ["GetThemeFilename","GetThemeFilename function [Windows Controls]","controls.GetThemeFilename","controls.inet_GetThemeFilename","inet_GetThemeFilename","inet_GetThemeFilename_cpp","uxtheme/GetThemeFilename"]
 old-location: controls\GetThemeFilename.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemefilename.htm

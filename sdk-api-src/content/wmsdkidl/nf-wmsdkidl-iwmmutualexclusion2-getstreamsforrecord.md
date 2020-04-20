@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.GetStreamsForRecord
 title: IWMMutualExclusion2::GetStreamsForRecord (wmsdkidl.h)
-description: The GetStreamsForRecord method retrieves the list of streams that are present in a record.
+description: The GetStreamsForRecord method retrieves the list of streams that are present in a record.helpviewer_keywords: ["GetStreamsForRecord","GetStreamsForRecord method [windows Media Format]","GetStreamsForRecord method [windows Media Format]","IWMMutualExclusion2 interface","IWMMutualExclusion2 interface [windows Media Format]","GetStreamsForRecord method","IWMMutualExclusion2.GetStreamsForRecord","IWMMutualExclusion2::GetStreamsForRecord","IWMMutualExclusion2GetStreamsForRecord","wmformat.iwmmutualexclusion2_getstreamsforrecord","wmsdkidl/IWMMutualExclusion2::GetStreamsForRecord"]
 old-location: wmformat\iwmmutualexclusion2_getstreamsforrecord.htm
 tech.root: wmformat
 ms.assetid: a94a64e9-96c6-4aba-a5b4-f50d14c19b73

@@ -1,7 +1,7 @@
 ---
 UID: NS:docobj._tagOLECMDTEXT
 title: OLECMDTEXT (docobj.h)
-description: Specifies a text name or status string for a single command identifier.
+description: Specifies a text name or status string for a single command identifier.helpviewer_keywords: ["OLECMDTEXT","OLECMDTEXT structure [COM]","_ole_OLECMDTEXT","com.olecmdtext","docobj/OLECMDTEXT"]
 old-location: com\olecmdtext.htm
 tech.root: com
 ms.assetid: c9552d2a-fb51-4d9f-acd5-32b3f20a9e1e

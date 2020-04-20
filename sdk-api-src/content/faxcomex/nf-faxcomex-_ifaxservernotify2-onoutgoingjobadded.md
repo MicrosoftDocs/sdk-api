@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnOutgoingJobAdded
 title: _IFaxServerNotify2::OnOutgoingJobAdded (faxcomex.h)
-description: The fax service calls the IFaxServerNotify2::OnOutgoingJobAdded method when an outgoing fax job is added to the job queue.
+description: The fax service calls the IFaxServerNotify2::OnOutgoingJobAdded method when an outgoing fax job is added to the job queue.helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnOutgoingJobAdded method","IFaxServerNotify2.OnOutgoingJobAdded","IFaxServerNotify2::OnOutgoingJobAdded","OnOutgoingJobAdded","OnOutgoingJobAdded method [Fax Service]","OnOutgoingJobAdded method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnOutgoingJobAdded","_IFaxServerNotify2::OnOutgoingJobAdded","_mfax_ifaxservernotify2_onoutgoingjobadded","fax._mfax_ifaxservernotify2_onoutgoingjobadded","faxcomex/IFaxServerNotify2::OnOutgoingJobAdded"]
 old-location: fax\_mfax_ifaxservernotify2_onoutgoingjobadded.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingjobadded.htm

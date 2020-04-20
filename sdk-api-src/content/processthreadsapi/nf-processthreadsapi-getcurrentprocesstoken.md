@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.GetCurrentProcessToken
 title: GetCurrentProcessToken function (processthreadsapi.h)
-description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the access token associated with a process.
+description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the access token associated with a process.helpviewer_keywords: ["GetCurrentProcessToken","GetCurrentProcessToken function [Security]","processthreadsapi/GetCurrentProcessToken","security.getcurrentprocesstoken"]
 old-location: security\getcurrentprocesstoken.htm
 tech.root: SecAuthZ
 ms.assetid: 9DD1781A-4C77-4E22-9FCF-579FC90F3028

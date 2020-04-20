@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IRowsetPrioritization.GetScopeStatistics
 title: IRowsetPrioritization::GetScopeStatistics (searchapi.h)
-description: Gets information describing the scope specified by this query.
+description: Gets information describing the scope specified by this query.helpviewer_keywords: ["GetScopeStatistics","GetScopeStatistics method [search]","GetScopeStatistics method [search]","IRowsetPrioritization interface","IRowsetPrioritization interface [search]","GetScopeStatistics method","IRowsetPrioritization.GetScopeStatistics","IRowsetPrioritization::GetScopeStatistics","_search_IRowsetPrioritization_GetScopeStatistics","search._search_IRowsetPrioritization_GetScopeStatistics","searchapi/IRowsetPrioritization::GetScopeStatistics"]
 old-location: search\_search_IRowsetPrioritization_GetScopeStatistics.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\getscopestatistics.htm

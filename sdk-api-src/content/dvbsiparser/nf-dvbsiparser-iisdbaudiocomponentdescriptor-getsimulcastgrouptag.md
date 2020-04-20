@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetSimulcastGroupTag
 title: IIsdbAudioComponentDescriptor::GetSimulcastGroupTag (dvbsiparser.h)
-description: Gets the value of the simulcast_group_tag field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. For simulcast components, this field contains the tag that identifies all simulcast components.
+description: Gets the value of the simulcast_group_tag field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. For simulcast components, this field contains the tag that identifies all simulcast components.helpviewer_keywords: ["GetSimulcastGroupTag","GetSimulcastGroupTag method [Microsoft TV Technologies]","GetSimulcastGroupTag method [Microsoft TV Technologies]","IIsdbAudioComponentDescriptor interface","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","GetSimulcastGroupTag method","IIsdbAudioComponentDescriptor.GetSimulcastGroupTag","IIsdbAudioComponentDescriptor::GetSimulcastGroupTag","dvbsiparser/IIsdbAudioComponentDescriptor::GetSimulcastGroupTag","mstv.iisdbaudiocomponentdescriptor_getsimulcastgrouptag"]
 old-location: mstv\iisdbaudiocomponentdescriptor_getsimulcastgrouptag.htm
 tech.root: mstv
 ms.assetid: 125fa9c2-eba0-497b-82ca-cc3223e40b44

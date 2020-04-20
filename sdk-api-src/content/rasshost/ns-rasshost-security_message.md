@@ -1,7 +1,7 @@
 ---
 UID: NS:rasshost._SECURITY_MESSAGE
 title: SECURITY_MESSAGE (rasshost.h)
-description: The SECURITY_MESSAGE structure is used with the RasSecurityDialogComplete function to indicate the results of a RAS security DLL authentication transaction.
+description: The SECURITY_MESSAGE structure is used with the RasSecurityDialogComplete function to indicate the results of a RAS security DLL authentication transaction.helpviewer_keywords: ["*PSECURITY_MESSAGE","PSECURITY_MESSAGE","PSECURITY_MESSAGE structure pointer [RAS]","SECURITYMSG_ERROR","SECURITYMSG_FAILURE","SECURITYMSG_SUCCESS","SECURITY_MESSAGE","SECURITY_MESSAGE structure [RAS]","_ras_security_message_str","rasshost/PSECURITY_MESSAGE","rasshost/SECURITY_MESSAGE","rras.security_message_str"]
 old-location: rras\security_message_str.htm
 tech.root: RRAS
 ms.assetid: 7eab7bff-1c72-4382-980f-be4e58d60159

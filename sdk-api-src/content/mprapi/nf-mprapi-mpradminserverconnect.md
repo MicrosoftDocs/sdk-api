@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminServerConnect
 title: MprAdminServerConnect function (mprapi.h)
-description: The MprAdminServerConnect function establishes a connection to a router for the purpose of administering that router.
+description: The MprAdminServerConnect function establishes a connection to a router for the purpose of administering that router.helpviewer_keywords: ["MprAdminServerConnect","MprAdminServerConnect function [RAS]","_mpr_mpradminserverconnect","mprapi/MprAdminServerConnect","rras.mpradminserverconnect"]
 old-location: rras\mpradminserverconnect.htm
 tech.root: RRAS
 ms.assetid: f93b37bc-d3d1-40f0-aef6-839bb43c88e2

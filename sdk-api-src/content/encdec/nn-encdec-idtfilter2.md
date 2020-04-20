@@ -1,7 +1,7 @@
 ---
 UID: NN:encdec.IDTFilter2
 title: IDTFilter2 (encdec.h)
-description: The IDTFilter2 interface extends the IDTFilter interface and is exposed by the Decrypter/Detagger filter.
+description: The IDTFilter2 interface extends the IDTFilter interface and is exposed by the Decrypter/Detagger filter.helpviewer_keywords: ["IDTFilter2","IDTFilter2 interface [Microsoft TV Technologies]","IDTFilter2 interface [Microsoft TV Technologies]","described","IDTFilter2Interface","encdec/IDTFilter2","mstv.idtfilter2"]
 old-location: mstv\idtfilter2.htm
 tech.root: mstv
 ms.assetid: 351c77ec-fb0c-4780-ad43-8ca6716b208f

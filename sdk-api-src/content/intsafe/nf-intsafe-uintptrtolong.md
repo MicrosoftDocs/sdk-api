@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.UIntPtrToLong
 title: UIntPtrToLong function (intsafe.h)
-description: Converts a value of type size_t to a value of type LONG.
+description: Converts a value of type size_t to a value of type LONG.helpviewer_keywords: ["SizeTToLong","SizeTToLong function [Windows Shell]","UIntPtrToLong","_shell_SizeTToLong","intsafe/SizeTToLong","shell.SizeTToLong"]
 old-location: shell\SizeTToLong.htm
 tech.root: shell
 ms.assetid: 1904fefa-eb31-4fda-ad0b-8ad6d2b62210

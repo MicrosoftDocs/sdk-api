@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.IAlternativeNames
 title: IAlternativeNames (certenroll.h)
-description: Contains methods and properties that enable you to manage a collection of IAlternativeName objects.
+description: Contains methods and properties that enable you to manage a collection of IAlternativeName objects.helpviewer_keywords: ["IAlternativeNames","IAlternativeNames interface [Security]","IAlternativeNames interface [Security]","described","certenroll/IAlternativeNames","security.ialternativenames"]
 old-location: security\ialternativenames.htm
 tech.root: seccertenroll
 ms.assetid: 6ebd5bd5-7bf3-43e3-9b72-47b2c9743174

@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLunMpio.GetPathInfo
 title: IVdsLunMpio::GetPathInfo (vdshwprv.h)
-description: Returns an array of VDS_PATH_INFO structures, one for each path to the LUN.
+description: Returns an array of VDS_PATH_INFO structures, one for each path to the LUN.helpviewer_keywords: ["GetPathInfo","GetPathInfo method [VDS]","GetPathInfo method [VDS]","IVdsLunMpio interface","IVdsLunMpio interface [VDS]","GetPathInfo method","IVdsLunMpio.GetPathInfo","IVdsLunMpio::GetPathInfo","base.ivdslunmpio_getpathinfo","vds/IVdsLunMpio::GetPathInfo","vdshwprv/IVdsLunMpio::GetPathInfo"]
 old-location: base\ivdslunmpio_getpathinfo.htm
 tech.root: VDS
 ms.assetid: c7cc1abf-c7f2-4260-b9d2-f70128276e1e

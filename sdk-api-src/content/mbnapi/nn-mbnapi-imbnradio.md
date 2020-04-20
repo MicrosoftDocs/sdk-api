@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnRadio
 title: IMbnRadio (mbnapi.h)
-description: The IMbnRadio interface is used to query and update the radio state of Mobile Broadband devices.
+description: The IMbnRadio interface is used to query and update the radio state of Mobile Broadband devices.helpviewer_keywords: ["IMbnRadio","IMbnRadio interface [Microsoft Broadband Networks]","IMbnRadio interface [Microsoft Broadband Networks]","described","mbn.imbnradio","mbnapi/IMbnRadio"]
 old-location: mbn\imbnradio.htm
 tech.root: mbn
 ms.assetid: b4b5ccfc-6cbf-4090-aee1-ee97092147f7

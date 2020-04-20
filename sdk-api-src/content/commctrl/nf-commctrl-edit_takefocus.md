@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Edit_TakeFocus
 title: Edit_TakeFocus macro (commctrl.h)
-description: Forces a single-line edit control to receive keyboard focus. You can use this macro or send the EM_TAKEFOCUS message explicitly.
+description: Forces a single-line edit control to receive keyboard focus. You can use this macro or send the EM_TAKEFOCUS message explicitly.helpviewer_keywords: ["Edit_TakeFocus","Edit_TakeFocus macro [Windows Controls]","_win32_Edit_TakeFocus","_win32_Edit_TakeFocus_cpp","commctrl/Edit_TakeFocus","controls.Edit_TakeFocus","controls._win32_Edit_TakeFocus"]
 old-location: controls\Edit_TakeFocus.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_takefocus.htm

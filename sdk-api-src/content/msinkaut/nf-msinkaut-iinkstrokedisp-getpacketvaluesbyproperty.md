@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetPacketValuesByProperty
 title: IInkStrokeDisp::GetPacketValuesByProperty (msinkaut.h)
-description: Retrieves the data for a known packet property from one or more packets in the stroke.
+description: Retrieves the data for a known packet property from one or more packets in the stroke.helpviewer_keywords: ["135dcd06-f533-4470-b5b0-ea559c20e3c4","GetPacketValuesByProperty","GetPacketValuesByProperty method [Tablet PC]","GetPacketValuesByProperty method [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","GetPacketValuesByProperty method","IInkStrokeDisp.GetPacketValuesByProperty","IInkStrokeDisp::GetPacketValuesByProperty","msinkaut/IInkStrokeDisp::GetPacketValuesByProperty","tablet.iinkstrokedisp_getpacketvaluesbyproperty"]
 old-location: tablet\iinkstrokedisp_getpacketvaluesbyproperty.htm
 tech.root: tablet
 ms.assetid: 135dcd06-f533-4470-b5b0-ea559c20e3c4

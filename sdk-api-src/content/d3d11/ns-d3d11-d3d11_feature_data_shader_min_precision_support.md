@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT
 title: D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT (d3d11.h)
-description: Describes precision support options for shaders in the current graphics driver.
+description: Describes precision support options for shaders in the current graphics driver.helpviewer_keywords: ["D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT","D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT structure [Direct3D 11]","d3d11/D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT","direct3d11.d3d11_feature_data_shader_min_precision_support"]
 old-location: direct3d11\d3d11_feature_data_shader_min_precision_support.htm
 tech.root: direct3d11
 ms.assetid: 4494A896-E73E-4A41-BC73-F9BD49510276

@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmEngineGetSecurityInfo0
 title: FwpmEngineGetSecurityInfo0 function (fwpmu.h)
-description: Retrieves a copy of the security descriptor for the filter engine.
+description: Retrieves a copy of the security descriptor for the filter engine.helpviewer_keywords: ["FwpmEngineGetSecurityInfo0","FwpmEngineGetSecurityInfo0 function [Filtering]","fwp.fwpmenginegetsecurityinfo0","fwpmu/FwpmEngineGetSecurityInfo0"]
 old-location: fwp\fwpmenginegetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: a2bff3b0-efc9-4357-84e2-ceecc2d33498

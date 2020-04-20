@@ -1,7 +1,7 @@
 ---
 UID: NF:prsht.PropSheet_IsDialogMessage
 title: PropSheet_IsDialogMessage macro (prsht.h)
-description: Passes a message to a property sheet dialog box and indicates whether the dialog box processed the message. You can use this macro or send the PSM_ISDIALOGMESSAGE message explicitly.
+description: Passes a message to a property sheet dialog box and indicates whether the dialog box processed the message. You can use this macro or send the PSM_ISDIALOGMESSAGE message explicitly.helpviewer_keywords: ["PropSheet_IsDialogMessage","PropSheet_IsDialogMessage macro [Windows Controls]","_win32_PropSheet_IsDialogMessage","_win32_PropSheet_IsDialogMessage_cpp","controls.PropSheet_IsDialogMessage","controls._win32_PropSheet_IsDialogMessage","prsht/PropSheet_IsDialogMessage"]
 old-location: controls\PropSheet_IsDialogMessage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_isdialogmessage.htm

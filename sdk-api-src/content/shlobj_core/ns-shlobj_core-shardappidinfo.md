@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core.SHARDAPPIDINFO
 title: SHARDAPPIDINFO (shlobj_core.h)
-description: Contains data used by SHAddToRecentDocs to identify both an item&#8212;in this case as an IShellItem&#8212;and the process that it is associated with.
+description: Contains data used by SHAddToRecentDocs to identify both an item&#8212;in this case as an IShellItem&#8212;and the process that it is associated with.helpviewer_keywords: ["SHARDAPPIDINFO","SHARDAPPIDINFO structure [Windows Shell]","_shell_SHARDAPPIDINFO","shell.SHARDAPPIDINFO","shlobj_core/SHARDAPPIDINFO"]
 old-location: shell\SHARDAPPIDINFO.htm
 tech.root: shell
 ms.assetid: bb2b7e86-04ca-4dd0-944b-a95e8a0be1e0

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.ILIsChild
 title: ILIsChild function (shlobj_core.h)
-description: Verifies whether a pointer to an item identifier list (PIDL) is a child PIDL, which is a PIDL with exactly one SHITEMID.
+description: Verifies whether a pointer to an item identifier list (PIDL) is a child PIDL, which is a PIDL with exactly one SHITEMID.helpviewer_keywords: ["ILIsChild","ILIsChild function [Windows Shell]","_shell_ILIsChild","shell.ILIsChild","shlobj_core/ILIsChild"]
 old-location: shell\ILIsChild.htm
 tech.root: shell
 ms.assetid: e799fbcf-8254-457a-9d1b-6202dea190c1

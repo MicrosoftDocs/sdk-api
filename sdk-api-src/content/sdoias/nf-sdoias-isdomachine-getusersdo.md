@@ -1,7 +1,7 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetUserSDO
 title: ISdoMachine::GetUserSDO (sdoias.h)
-description: The GetUserSDO method retrieves an interface to the Server Data Object (SDO) for the specified user.
+description: The GetUserSDO method retrieves an interface to the Server Data Object (SDO) for the specified user.helpviewer_keywords: ["GetUserSDO","GetUserSDO method [Network Policy Server]","GetUserSDO method [Network Policy Server]","ISdoMachine interface","GetUserSDO method [Network Policy Server]","SdoMachine object","ISdoMachine interface [Network Policy Server]","GetUserSDO method","ISdoMachine.GetUserSDO","ISdoMachine::GetUserSDO","SdoMachine object [Network Policy Server]","GetUserSDO method","_sdo_isdomachine_getusersdo","nps.SDO_isdomachine_getusersdo","sdo.isdomachine_getusersdo","sdoias/ISdoMachine::GetUserSDO"]
 old-location: nps\SDO_isdomachine_getusersdo.htm
 tech.root: Nps
 ms.assetid: c416c0db-836a-4056-bcd7-819f10923446

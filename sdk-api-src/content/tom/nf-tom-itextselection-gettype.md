@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextSelection.GetType
 title: ITextSelection::GetType (tom.h)
-description: Gets the type of text selection.
+description: Gets the type of text selection.helpviewer_keywords: ["GetType","GetType method [Windows Controls]","GetType method [Windows Controls]","ITextSelection interface","ITextSelection interface [Windows Controls]","GetType method","ITextSelection.GetType","ITextSelection::GetType","_win32_ITextSelection_GetType","_win32_ITextSelection_GetType_cpp","controls.ITextSelection_GetType","controls._win32_ITextSelection_GetType","tom/ITextSelection::GetType"]
 old-location: controls\ITextSelection_GetType.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettype.htm

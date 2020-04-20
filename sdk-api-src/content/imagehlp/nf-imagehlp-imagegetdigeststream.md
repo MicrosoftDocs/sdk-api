@@ -1,7 +1,7 @@
 ---
 UID: NF:imagehlp.ImageGetDigestStream
 title: ImageGetDigestStream function (imagehlp.h)
-description: Retrieves the requested data from the specified image file.
+description: Retrieves the requested data from the specified image file.helpviewer_keywords: ["CERT_PE_IMAGE_DIGEST_ALL_IMPORT_INFO","CERT_PE_IMAGE_DIGEST_DEBUG_INFO","CERT_PE_IMAGE_DIGEST_RESOURCES","ImageGetDigestStream","ImageGetDigestStream function","_win32_imagegetdigeststream","base.imagegetdigeststream","imagehlp/ImageGetDigestStream"]
 old-location: base\imagegetdigeststream.htm
 tech.root: Debug
 ms.assetid: e4560609-5b10-453f-a9a6-c5483d88cd64

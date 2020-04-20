@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDecAudioDualMono
 title: IMSVidAudioRendererEvent2::AVDecAudioDualMono (segment.h)
-description: Indicates a change in the AVDecAudioDualMono codec property.
+description: Indicates a change in the AVDecAudioDualMono codec property.helpviewer_keywords: ["AVDecAudioDualMono","AVDecAudioDualMono method [Microsoft TV Technologies]","AVDecAudioDualMono method [Microsoft TV Technologies]","IMSVidAudioRendererEvent2 interface","IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies]","AVDecAudioDualMono method","IMSVidAudioRendererEvent2.AVDecAudioDualMono","IMSVidAudioRendererEvent2::AVDecAudioDualMono","mstv.imsvidaudiorendererevent2_avdecaudiodualmono","segment/IMSVidAudioRendererEvent2::AVDecAudioDualMono"]
 old-location: mstv\imsvidaudiorendererevent2_avdecaudiodualmono.htm
 tech.root: mstv
 ms.assetid: e5a3984a-a925-4e21-9b2d-50968365bb2b

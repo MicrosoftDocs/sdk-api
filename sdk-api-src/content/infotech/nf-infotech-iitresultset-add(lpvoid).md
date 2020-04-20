@@ -1,7 +1,7 @@
 ---
 UID: NF:infotech.IITResultSet.Add(LPVOID)
 title: IITResultSet::Add(LPVOID) (infotech.h)
-description: Adds columns to result set, given a header containing pairs of property ID followed by property type.
+description: Adds columns to result set, given a header containing pairs of property ID followed by property type.helpviewer_keywords: ["Add","Add method [HTML Help Workshop]","Add method [HTML Help Workshop]","IITResultSet interface","IITResultSet interface [HTML Help Workshop]","Add method","IITResultSet.Add","IITResultSet.Add(LPVOID)","IITResultSet::Add","IITResultSet::Add(LPVOID)","htmlhelp.iitresultset_add1","infotech/IITResultSet::Add","refIITResultSetAdd"]
 old-location: htmlhelp\iitresultset_add1.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetadd.htm

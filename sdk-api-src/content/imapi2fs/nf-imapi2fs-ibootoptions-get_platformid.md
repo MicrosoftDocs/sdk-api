@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IBootOptions.get_PlatformId
 title: IBootOptions::get_PlatformId (imapi2fs.h)
-description: Retrieves the platform identifier that identifies the operating system architecture that the boot image supports.
+description: Retrieves the platform identifier that identifies the operating system architecture that the boot image supports.helpviewer_keywords: ["IBootOptions interface [IMAPI]","get_PlatformId method","IBootOptions.get_PlatformId","IBootOptions::get_PlatformId","get_PlatformId","get_PlatformId method [IMAPI]","get_PlatformId method [IMAPI]","IBootOptions interface","imapi.ibootoptions_get_platformid","imapi2fs/IBootOptions::get_PlatformId"]
 old-location: imapi\ibootoptions_get_platformid.htm
 tech.root: imapi
 ms.assetid: 8d5ceb0e-4fd2-4146-8e15-b157c80a9d5b

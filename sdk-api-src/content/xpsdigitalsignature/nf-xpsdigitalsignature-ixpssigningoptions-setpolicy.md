@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetPolicy
 title: IXpsSigningOptions::SetPolicy (xpsdigitalsignature.h)
-description: Sets the XPS_SIGN_POLICY value that represents the signing policy.
+description: Sets the XPS_SIGN_POLICY value that represents the signing policy.helpviewer_keywords: ["IXpsSigningOptions interface [XPS Documents and Packaging]","SetPolicy method","IXpsSigningOptions.SetPolicy","IXpsSigningOptions::SetPolicy","SetPolicy","SetPolicy method [XPS Documents and Packaging]","SetPolicy method [XPS Documents and Packaging]","IXpsSigningOptions interface","xps.ixpssigningoptions_setpolicy","xpsdigitalsignature/IXpsSigningOptions::SetPolicy"]
 old-location: xps\ixpssigningoptions_setpolicy.htm
 tech.root: printdocs
 ms.assetid: 6e1738b3-f1ce-407e-bbaa-7f4c57e30028

@@ -1,7 +1,7 @@
 ---
 UID: NS:lmaccess._USER_INFO_1005
 title: USER_INFO_1005 (lmaccess.h)
-description: The USER_INFO_1005 structure contains a privilege level to assign to a user network account. This information level is valid only when you call the NetUserSetInfo function.
+description: The USER_INFO_1005 structure contains a privilege level to assign to a user network account. This information level is valid only when you call the NetUserSetInfo function.helpviewer_keywords: ["*LPUSER_INFO_1005","*PUSER_INFO_1005","LPUSER_INFO_1005","LPUSER_INFO_1005 structure pointer [Network Management]","PUSER_INFO_1005","PUSER_INFO_1005 structure pointer [Network Management]","USER_INFO_1005","USER_INFO_1005 structure [Network Management]","USER_PRIV_ADMIN","USER_PRIV_GUEST","USER_PRIV_USER","_win32_user_info_1005_str","lmaccess/LPUSER_INFO_1005","lmaccess/PUSER_INFO_1005","lmaccess/USER_INFO_1005","netmgmt.user_info_1005_str"]
 old-location: netmgmt\user_info_1005_str.htm
 tech.root: NetMgmt
 ms.assetid: a953b48f-bda0-4dce-a153-d4db912de533

@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgPathData
 title: ID2D1SvgPathData (d2d1svg.h)
-description: Interface describing SVG path data. Path data can be set as the 'd' attribute on a 'path' element.
+description: Interface describing SVG path data. Path data can be set as the 'd' attribute on a 'path' element.helpviewer_keywords: ["ID2D1SvgPathData","ID2D1SvgPathData interface [Direct2D]","ID2D1SvgPathData interface [Direct2D]","described","d2d1svg/ID2D1SvgPathData","direct2d.id2d1svgpathdata"]
 old-location: direct2d\id2d1svgpathdata.htm
 tech.root: Direct2D
 ms.assetid: 14879B17-0CAA-42E7-8643-7D385EABFD37

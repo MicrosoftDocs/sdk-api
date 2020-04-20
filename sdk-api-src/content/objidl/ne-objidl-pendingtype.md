@@ -1,7 +1,7 @@
 ---
 UID: NE:objidl.tagPENDINGTYPE
 title: PENDINGTYPE (objidl.h)
-description: Indicates the level of nesting in the IMessageFilter::MessagePending method.
+description: Indicates the level of nesting in the IMessageFilter::MessagePending method.helpviewer_keywords: ["PENDINGTYPE","PENDINGTYPE enumeration [COM]","PENDINGTYPE_NESTED","PENDINGTYPE_TOPLEVEL","_com_PENDINGTYPE","com.pendingtype","objidl/PENDINGTYPE","objidl/PENDINGTYPE_NESTED","objidl/PENDINGTYPE_TOPLEVEL"]
 old-location: com\pendingtype.htm
 tech.root: com
 ms.assetid: 8f167342-5398-4ecc-9b56-dcf2b4248c65

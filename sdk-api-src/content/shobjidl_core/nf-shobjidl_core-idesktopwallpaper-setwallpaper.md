@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.SetWallpaper
 title: IDesktopWallpaper::SetWallpaper (shobjidl_core.h)
-description: Sets the desktop wallpaper.
+description: Sets the desktop wallpaper.helpviewer_keywords: ["IDesktopWallpaper interface [Windows Shell]","SetWallpaper method","IDesktopWallpaper.SetWallpaper","IDesktopWallpaper::SetWallpaper","SetWallpaper","SetWallpaper method [Windows Shell]","SetWallpaper method [Windows Shell]","IDesktopWallpaper interface","shell.IDesktopWallpaper_SetWallpaper","shobjidl_core/IDesktopWallpaper::SetWallpaper"]
 old-location: shell\IDesktopWallpaper_SetWallpaper.htm
 tech.root: shell
 ms.assetid: 5E0731DC-8B70-40dc-B90A-97B1E3E4D55D

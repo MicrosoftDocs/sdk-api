@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ShortToULong
 title: ShortToULong function (intsafe.h)
-description: Converts a value of type SHORT to a value of type ULONG.
+description: Converts a value of type SHORT to a value of type ULONG.helpviewer_keywords: ["ShortToULong","ShortToULong function [Windows Shell]","intsafe/ShortToULong","shell.ShortToULong"]
 old-location: shell\ShortToULong.htm
 tech.root: shell
 ms.assetid: 3a959f88-cca2-4fa6-802c-35411e7c5a4d

@@ -1,7 +1,7 @@
 ---
 UID: NF:roerrorapi.GetRestrictedErrorInfo
 title: GetRestrictedErrorInfo function
-description: Gets the restricted error information object set by a previous call to SetRestrictedErrorInfo in the current logical thread.
+description: Gets the restricted error information object set by a previous call to SetRestrictedErrorInfo in the current logical thread.helpviewer_keywords: ["GetRestrictedErrorInfo","GetRestrictedErrorInfo function [Windows Runtime]","roerrorapi/GetRestrictedErrorInfo","winrt.getrestrictederrorinfo"]
 old-location: winrt\getrestrictederrorinfo.htm
 tech.root: WinRT
 ms.assetid: CA459E57-90D5-44F6-A896-4E1C2FA0DC57

@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.EnableTheming
 title: EnableTheming function (uxtheme.h)
-description: Windows Vista through Windows 7:\_Enables or disables visual styles for the current user in the current and later sessions.Windows 8 and later:\_This function does nothing. Visual styles are always enabled in Windows 8 and later.
+description: Windows Vista through Windows 7:\_Enables or disables visual styles for the current user in the current and later sessions.Windows 8 and later:\_This function does nothing. Visual styles are always enabled in Windows 8 and later.helpviewer_keywords: ["EnableTheming","EnableTheming function [Windows Controls]","controls.EnableTheming","controls.inet_EnableTheming","inet_EnableTheming","inet_EnableTheming_cpp","uxtheme/EnableTheming"]
 old-location: controls\EnableTheming.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\enabletheming.htm

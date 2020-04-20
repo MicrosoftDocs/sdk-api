@@ -1,7 +1,7 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetOutputFormat
 title: IAMWstDecoder::SetOutputFormat (iwstdec.h)
-description: Downstream filters use the SetOutputFormat method to define an output video format.
+description: Downstream filters use the SetOutputFormat method to define an output video format.helpviewer_keywords: ["IAMWstDecoder interface [DirectShow]","SetOutputFormat method","IAMWstDecoder.SetOutputFormat","IAMWstDecoder::SetOutputFormat","IAMWstDecoderSetOutputFormat","SetOutputFormat","SetOutputFormat method [DirectShow]","SetOutputFormat method [DirectShow]","IAMWstDecoder interface","dshow.iamwstdecoder_setoutputformat","iwstdec/IAMWstDecoder::SetOutputFormat"]
 old-location: dshow\iamwstdecoder_setoutputformat.htm
 tech.root: DirectShow
 ms.assetid: 92d19d2b-dce5-4dd6-ac96-a39fa48fa1aa

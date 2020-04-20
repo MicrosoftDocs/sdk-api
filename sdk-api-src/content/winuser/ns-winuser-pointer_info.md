@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagPOINTER_INFO
 title: POINTER_INFO (winuser.h)
-description: Contains basic pointer information common to all pointer types. Applications can retrieve this information using the GetPointerInfo, GetPointerFrameInfo, GetPointerInfoHistory and GetPointerFrameInfoHistory functions.
+description: Contains basic pointer information common to all pointer types. Applications can retrieve this information using the GetPointerInfo, GetPointerFrameInfo, GetPointerInfoHistory and GetPointerFrameInfoHistory functions.helpviewer_keywords: ["POINTER_INFO","POINTER_INFO structure [Input Messages and Notifications]","_POINTER_INFO","inputmsg.pointer_info_struct","winuser/POINTER_INFO"]
 old-location: inputmsg\pointer_info_struct.htm
 tech.root: InputMsg
 ms.assetid: fee176ba-ad07-4145-0b4d-1b8c335fd102

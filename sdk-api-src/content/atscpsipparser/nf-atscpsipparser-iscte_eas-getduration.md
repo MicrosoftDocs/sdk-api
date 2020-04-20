@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDuration
 title: ISCTE_EAS::GetDuration (atscpsipparser.h)
-description: The GetDuration method returns the expected duration of the alert.
+description: The GetDuration method returns the expected duration of the alert.helpviewer_keywords: ["GetDuration","GetDuration method [Microsoft TV Technologies]","GetDuration method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetDuration method","ISCTE_EAS.GetDuration","ISCTE_EAS::GetDuration","ISCTE_EASGetDuration","atscpsipparser/ISCTE_EAS::GetDuration","mstv.iscte_eas_getduration"]
 old-location: mstv\iscte_eas_getduration.htm
 tech.root: mstv
 ms.assetid: de644588-6247-44d2-9d19-53272af8529b

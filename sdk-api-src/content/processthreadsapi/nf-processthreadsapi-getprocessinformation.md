@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.GetProcessInformation
 title: GetProcessInformation function (processthreadsapi.h)
-description: Retrieves information about the specified process.
+description: Retrieves information about the specified process.helpviewer_keywords: ["GetProcessInformation","GetProcessInformation function","base.getprocessinformation","processthreadsapi/GetProcessInformation"]
 old-location: base\getprocessinformation.htm
 tech.root: ProcThread
 ms.assetid: 2b075405-b7b6-4da0-b78d-45eaa9c6c8cd

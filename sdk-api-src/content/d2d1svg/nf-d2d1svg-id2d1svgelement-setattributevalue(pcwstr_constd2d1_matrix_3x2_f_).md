@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,const D2D1_MATRIX_3X2_F &)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_MATRIX_3X2_F &) (d2d1svg.h)
-description: Sets an attribute of this element as a matrix value. This method can be used to set the value of a transform or gradientTransform attribute.
+description: Sets an attribute of this element as a matrix value. This method can be used to set the value of a transform or gradientTransform attribute.helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","SetAttributeValue method","ID2D1SvgElement.SetAttributeValue","ID2D1SvgElement.SetAttributeValue(PCWSTR","const D2D1_MATRIX_3X2_F &)","ID2D1SvgElement::SetAttributeValue","ID2D1SvgElement::SetAttributeValue(PCWSTR","const D2D1_MATRIX_3X2_F &)","SetAttributeValue","SetAttributeValue method [Direct2D]","SetAttributeValue method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::SetAttributeValue","direct2d.id2d1svgelement_setattributevalue_12"]
 old-location: direct2d\id2d1svgelement_setattributevalue_12.htm
 tech.root: Direct2D
 ms.assetid: 98CDD40C-C39B-41B9-8978-9C9B480DB3C4

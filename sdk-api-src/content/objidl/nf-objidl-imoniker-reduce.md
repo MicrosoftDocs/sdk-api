@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMoniker.Reduce
 title: IMoniker::Reduce (objidl.h)
-description: Reduces a moniker to its simplest form.
+description: Reduces a moniker to its simplest form.helpviewer_keywords: ["IMoniker interface [COM]","Reduce method","IMoniker.Reduce","IMoniker::Reduce","Reduce","Reduce method [COM]","Reduce method [COM]","IMoniker interface","_com_imoniker_reduce","com.imoniker_reduce","objidl/IMoniker::Reduce"]
 old-location: com\imoniker_reduce.htm
 tech.root: com
 ms.assetid: 1d34da7b-e6cb-4daa-a155-45beb36e035b

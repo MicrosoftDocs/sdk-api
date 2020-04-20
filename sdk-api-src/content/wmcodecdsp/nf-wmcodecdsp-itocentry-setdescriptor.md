@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.SetDescriptor
 title: ITocEntry::SetDescriptor (wmcodecdsp.h)
-description: The SetDescriptor method associates a descriptor with the entry.
+description: The SetDescriptor method associates a descriptor with the entry.helpviewer_keywords: ["ITocEntry interface [Media Foundation]","SetDescriptor method","ITocEntry.SetDescriptor","ITocEntry::SetDescriptor","SetDescriptor","SetDescriptor method [Media Foundation]","SetDescriptor method [Media Foundation]","ITocEntry interface","codecapi.itocentry_setdescriptor","mf.itocentry_setdescriptor","wmcodecdsp/ITocEntry::SetDescriptor"]
 old-location: mf\itocentry_setdescriptor.htm
 tech.root: medfound
 ms.assetid: 09a366a6-fcb4-4a0b-8df1-795360d147b9

@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetAgeGroup
 title: IXblIdpAuthTokenResult::GetAgeGroup (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use.helpviewer_keywords: ["GetAgeGroup","GetAgeGroup method","GetAgeGroup method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetAgeGroup method","IXblIdpAuthTokenResult.GetAgeGroup","IXblIdpAuthTokenResult::GetAgeGroup","xblidp.ixblidpauthtokenresult_getagegroup","xblidpauthmanager/IXblIdpAuthTokenResult::GetAgeGroup"]
 old-location: xblidp\ixblidpauthtokenresult_getagegroup.htm
 tech.root: xblidp
 ms.assetid: 0C2699CB-6AAF-4720-90AF-03A05A193DBC

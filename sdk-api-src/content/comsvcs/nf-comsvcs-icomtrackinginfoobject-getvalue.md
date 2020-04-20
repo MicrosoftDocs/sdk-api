@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoObject.GetValue
 title: IComTrackingInfoObject::GetValue (comsvcs.h)
-description: Retrieves the value of the specified property.
+description: Retrieves the value of the specified property.helpviewer_keywords: ["GetValue","GetValue method [COM+]","GetValue method [COM+]","IComTrackingInfoObject interface","IComTrackingInfoObject interface [COM+]","GetValue method","IComTrackingInfoObject.GetValue","IComTrackingInfoObject::GetValue","_dtc_IComTrackingInfoObject_GetValue","comsvcs/IComTrackingInfoObject::GetValue","cos.icomtrackinginfoobject_getvalue"]
 old-location: cos\icomtrackinginfoobject_getvalue.htm
 tech.root: cossdk
 ms.assetid: 38f5fc3d-eecd-42e5-92ea-df2b096aa1cc

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyPort
 title: IWMPNetwork::getProxyPort (wmp.h)
-description: The getProxyPort method retrieves the proxy port being used.
+description: The getProxyPort method retrieves the proxy port being used.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","getProxyPort method","IWMPNetwork.getProxyPort","IWMPNetwork::getProxyPort","IWMPNetworkgetProxyPort","getProxyPort","getProxyPort method [Windows Media Player]","getProxyPort method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_getproxyport","wmp/IWMPNetwork::getProxyPort"]
 old-location: wmp\iwmpnetwork_getproxyport.htm
 tech.root: WMP
 ms.assetid: 0d636e61-a5c1-495a-8d1d-ce2937dd3f18

@@ -1,7 +1,7 @@
 ---
 UID: NS:objidl.tagDVTARGETDEVICE
 title: DVTARGETDEVICE (objidl.h)
-description: Specifies information about the target device for which data is being composed. DVTARGETDEVICE contains enough information about a Windows target device so a handle to a device context (HDC) can be created using the CreateDC function.
+description: Specifies information about the target device for which data is being composed. DVTARGETDEVICE contains enough information about a Windows target device so a handle to a device context (HDC) can be created using the CreateDC function.helpviewer_keywords: ["DVTARGETDEVICE","DVTARGETDEVICE structure [COM]","_ole_DVTARGETDEVICE","com.dvtargetdevice","objidl/DVTARGETDEVICE"]
 old-location: com\dvtargetdevice.htm
 tech.root: com
 ms.assetid: 724ff714-c170-4d06-92cb-e042e41c0af2

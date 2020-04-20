@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.GetStatistics
 title: IMFSinkWriter::GetStatistics (mfreadwrite.h)
-description: Gets statistics about the performance of the sink writer.
+description: Gets statistics about the performance of the sink writer.helpviewer_keywords: ["GetStatistics","GetStatistics method [Media Foundation]","GetStatistics method [Media Foundation]","IMFSinkWriter interface","IMFSinkWriter interface [Media Foundation]","GetStatistics method","IMFSinkWriter.GetStatistics","IMFSinkWriter::GetStatistics","mf.imfsinkwriter_getstatistics","mfreadwrite/IMFSinkWriter::GetStatistics"]
 old-location: mf\imfsinkwriter_getstatistics.htm
 tech.root: medfound
 ms.assetid: 84028b1d-3843-4289-a04c-3039311d095b

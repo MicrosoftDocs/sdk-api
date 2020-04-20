@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI2FromBool
 title: VarI2FromBool function (oleauto.h)
-description: Converts a Boolean value to a short value.
+description: Converts a Boolean value to a short value.helpviewer_keywords: ["VarI2FromBool","VarI2FromBool function [Automation]","_oa96_VarI2FromBool","automat.vari2frombool","oleauto/VarI2FromBool"]
 old-location: automat\vari2frombool.htm
 tech.root: automat
 ms.assetid: 34d95e98-ea21-411b-bd68-ad7be135778f

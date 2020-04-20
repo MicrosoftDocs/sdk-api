@@ -1,7 +1,7 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerFreeErrorMemory
 title: EapHostPeerFreeErrorMemory function (eaphostpeerconfigapis.h)
-description: Frees memory allocated to an EAP_ERROR structure.
+description: Frees memory allocated to an EAP_ERROR structure.helpviewer_keywords: ["EapHostPeerFreeErrorMemory","EapHostPeerFreeErrorMemory function [EAPHost]","eaphost.eaphostpeerfreeerrormemory","eaphostpeerconfigapis/EapHostPeerFreeErrorMemory"]
 old-location: eaphost\eaphostpeerfreeerrormemory.htm
 tech.root: eaphost
 ms.assetid: c80ac625-8202-49a7-813a-62a9e0d15058

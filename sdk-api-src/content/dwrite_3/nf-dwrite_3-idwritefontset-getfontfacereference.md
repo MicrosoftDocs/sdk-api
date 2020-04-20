@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetFontFaceReference
 title: IDWriteFontSet::GetFontFaceReference (dwrite_3.h)
-description: Gets a reference to the font at the specified index, which may be local or remote.
+description: Gets a reference to the font at the specified index, which may be local or remote.helpviewer_keywords: ["GetFontFaceReference","GetFontFaceReference method [Direct Write]","GetFontFaceReference method [Direct Write]","IDWriteFontSet interface","IDWriteFontSet interface [Direct Write]","GetFontFaceReference method","IDWriteFontSet.GetFontFaceReference","IDWriteFontSet::GetFontFaceReference","directwrite.idwritefontset_getfontfacereference","dwrite_3/IDWriteFontSet::GetFontFaceReference"]
 old-location: directwrite\idwritefontset_getfontfacereference.htm
 tech.root: DirectWrite
 ms.assetid: 8cbc1275-29d5-917d-6938-8fb35e5054fb

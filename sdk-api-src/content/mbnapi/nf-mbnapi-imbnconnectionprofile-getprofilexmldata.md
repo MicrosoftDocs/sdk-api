@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfile.GetProfileXmlData
 title: IMbnConnectionProfile::GetProfileXmlData (mbnapi.h)
-description: Gets the XML data of the current profile.
+description: Gets the XML data of the current profile.helpviewer_keywords: ["GetProfileXmlData","GetProfileXmlData method [Microsoft Broadband Networks]","GetProfileXmlData method [Microsoft Broadband Networks]","IMbnConnectionProfile interface","IMbnConnectionProfile interface [Microsoft Broadband Networks]","GetProfileXmlData method","IMbnConnectionProfile.GetProfileXmlData","IMbnConnectionProfile::GetProfileXmlData","mbn.imbnconnectionprofile_getprofilexmldata","mbnapi/IMbnConnectionProfile::GetProfileXmlData"]
 old-location: mbn\imbnconnectionprofile_getprofilexmldata.htm
 tech.root: mbn
 ms.assetid: 4a94dd33-1dad-4d0a-98e8-1ccce83f345e

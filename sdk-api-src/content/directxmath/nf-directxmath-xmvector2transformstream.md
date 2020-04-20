@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector2TransformStream
 title: XMVector2TransformStream function (directxmath.h)
-description: Transforms a stream of 2D vectors by a given matrix.
+description: Transforms a stream of 2D vectors by a given matrix.helpviewer_keywords: ["Use DirectX..XMVector2TransformStream","XMVector2TransformStream","XMVector2TransformStream method [DirectX Math Support APIs]","dxmath.xmvector2transformstream"]
 old-location: dxmath\xmvector2transformstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2TransformStream(XMFLOAT4@,size_t,const XMFLOAT2,size_t,size_t,XMMATRIX)

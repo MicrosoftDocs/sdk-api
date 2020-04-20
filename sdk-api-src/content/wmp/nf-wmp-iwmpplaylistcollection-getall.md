@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.getAll
 title: IWMPPlaylistCollection::getAll (wmp.h)
-description: The getAll method retrieves a pointer to an IWMPPlaylistArray interface representing all of the playlists in the library.
+description: The getAll method retrieves a pointer to an IWMPPlaylistArray interface representing all of the playlists in the library.helpviewer_keywords: ["IWMPPlaylistCollection interface [Windows Media Player]","getAll method","IWMPPlaylistCollection.getAll","IWMPPlaylistCollection::getAll","IWMPPlaylistCollectiongetAll","getAll","getAll method [Windows Media Player]","getAll method [Windows Media Player]","IWMPPlaylistCollection interface","wmp.iwmpplaylistcollection_getall","wmp/IWMPPlaylistCollection::getAll"]
 old-location: wmp\iwmpplaylistcollection_getall.htm
 tech.root: WMP
 ms.assetid: 5ebd966f-5fee-4a8a-909e-5adcbdebab54

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Remove
 title: ISignerCertificates::Remove (certenroll.h)
-description: Removes an ISignerCertificate object from the collection by index number.
+description: Removes an ISignerCertificate object from the collection by index number.helpviewer_keywords: ["ISignerCertificates interface [Security]","Remove method","ISignerCertificates.Remove","ISignerCertificates::Remove","Remove","Remove method [Security]","Remove method [Security]","ISignerCertificates interface","certenroll/ISignerCertificates::Remove","security.isignercertificates_remove_method"]
 old-location: security\isignercertificates_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: 3f0a3d9b-590f-4fa2-904c-26593bf977c8

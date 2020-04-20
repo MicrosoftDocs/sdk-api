@@ -1,7 +1,7 @@
 ---
 UID: NE:mbnapi.MBN_SIGNAL_CONSTANTS
 title: MBN_SIGNAL_CONSTANTS (mbnapi.h)
-description: THE MBN_SIGNAL_CONSTANTS enumerated type contains specific values used by IMbnSignal interface operations.
+description: THE MBN_SIGNAL_CONSTANTS enumerated type contains specific values used by IMbnSignal interface operations.helpviewer_keywords: ["MBN_ERROR_RATE_UNKNOWN","MBN_RSSI_DEFAULT","MBN_RSSI_DISABLE","MBN_RSSI_UNKNOWN","MBN_SIGNAL_CONSTANTS","MBN_SIGNAL_CONSTANTS enumeration [Microsoft Broadband Networks]","mbn.mbn_signal_constants","mbnapi/MBN_ERROR_RATE_UNKNOWN","mbnapi/MBN_RSSI_DEFAULT","mbnapi/MBN_RSSI_DISABLE","mbnapi/MBN_RSSI_UNKNOWN","mbnapi/MBN_SIGNAL_CONSTANTS"]
 old-location: mbn\mbn_signal_constants.htm
 tech.root: mbn
 ms.assetid: 0f790b85-5f01-41a8-940d-b4eda562bf75

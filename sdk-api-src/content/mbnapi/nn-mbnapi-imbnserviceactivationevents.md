@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnServiceActivationEvents
 title: IMbnServiceActivationEvents (mbnapi.h)
-description: This notification interface signals an application about the completion of a service activation request.
+description: This notification interface signals an application about the completion of a service activation request.helpviewer_keywords: ["IMbnServiceActivationEvents","IMbnServiceActivationEvents interface [Microsoft Broadband Networks]","IMbnServiceActivationEvents interface [Microsoft Broadband Networks]","described","mbn.imbnserviceactivationevents","mbnapi/IMbnServiceActivationEvents"]
 old-location: mbn\imbnserviceactivationevents.htm
 tech.root: mbn
 ms.assetid: b3385523-f1ab-403d-9244-7683a7e9f95a

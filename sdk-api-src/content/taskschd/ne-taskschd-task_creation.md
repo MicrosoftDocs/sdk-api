@@ -1,7 +1,7 @@
 ---
 UID: NE:taskschd._TASK_CREATION
 title: TASK_CREATION (taskschd.h)
-description: Defines how the Task Scheduler service creates, updates, or disables the task.
+description: Defines how the Task Scheduler service creates, updates, or disables the task.helpviewer_keywords: ["TASK_CREATE","TASK_CREATE_OR_UPDATE","TASK_CREATION","TASK_CREATION enumeration [Task Scheduler]","TASK_DISABLE","TASK_DONT_ADD_PRINCIPAL_ACE","TASK_IGNORE_REGISTRATION_TRIGGERS","TASK_UPDATE","TASK_VALIDATE_ONLY","taskschd.taskcreation","taskschd/TASK_CREATE","taskschd/TASK_CREATE_OR_UPDATE","taskschd/TASK_CREATION","taskschd/TASK_DISABLE","taskschd/TASK_DONT_ADD_PRINCIPAL_ACE","taskschd/TASK_IGNORE_REGISTRATION_TRIGGERS","taskschd/TASK_UPDATE","taskschd/TASK_VALIDATE_ONLY"]
 old-location: taskschd\taskcreation.htm
 tech.root: taskschd
 ms.assetid: e8da4d76-25c8-4209-a75b-c77217c366d4

@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.ICEnroll4.resetAttributes
 title: ICEnroll4::resetAttributes (xenroll.h)
-description: Removes all attributes from the request. This method was first defined in the ICEnroll4 interface.
+description: Removes all attributes from the request. This method was first defined in the ICEnroll4 interface.helpviewer_keywords: ["CEnroll object [Security]","resetAttributes method","ICEnroll4 interface [Security]","resetAttributes method","ICEnroll4.resetAttributes","ICEnroll4::resetAttributes","_xen_icenroll4_resetattributes","resetAttributes","resetAttributes method [Security]","resetAttributes method [Security]","CEnroll object","resetAttributes method [Security]","ICEnroll4 interface","security.icenroll4_resetattributes","xenroll/ICEnroll4::resetAttributes"]
 old-location: security\icenroll4_resetattributes.htm
 tech.root: SecCrypto
 ms.assetid: 606cc93a-cc18-43fb-94e7-dc35dc7f2533

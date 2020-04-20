@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.SetAllocateForStream
 title: IWMSyncReader2::SetAllocateForStream (wmsdkidl.h)
-description: The SetAllocateForStream method sets a sample allocation callback interface for allocating stream samples.
+description: The SetAllocateForStream method sets a sample allocation callback interface for allocating stream samples.helpviewer_keywords: ["IWMSyncReader2 interface [windows Media Format]","SetAllocateForStream method","IWMSyncReader2.SetAllocateForStream","IWMSyncReader2::SetAllocateForStream","IWMSyncReader2SetAllocateForStream","SetAllocateForStream","SetAllocateForStream method [windows Media Format]","SetAllocateForStream method [windows Media Format]","IWMSyncReader2 interface","wmformat.iwmsyncreader2_setallocateforstream","wmsdkidl/IWMSyncReader2::SetAllocateForStream"]
 old-location: wmformat\iwmsyncreader2_setallocateforstream.htm
 tech.root: wmformat
 ms.assetid: ed94977e-e930-4045-a69d-36109e7e21c9

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ISpreadsheetItemProvider.GetAnnotationObjects
 title: ISpreadsheetItemProvider::GetAnnotationObjects (uiautomationcore.h)
-description: Retrieves an array of objects that represent the annotations associated with this spreadsheet cell.
+description: Retrieves an array of objects that represent the annotations associated with this spreadsheet cell.helpviewer_keywords: ["GetAnnotationObjects","GetAnnotationObjects method [Windows Accessibility]","GetAnnotationObjects method [Windows Accessibility]","ISpreadsheetItemProvider interface","ISpreadsheetItemProvider interface [Windows Accessibility]","GetAnnotationObjects method","ISpreadsheetItemProvider.GetAnnotationObjects","ISpreadsheetItemProvider::GetAnnotationObjects","uiautomationcore/ISpreadsheetItemProvider::GetAnnotationObjects","winauto.uiauto_ISpreadsheetItemProvider_GetAnnotationObjects"]
 old-location: winauto\uiauto_ISpreadsheetItemProvider_GetAnnotationObjects.htm
 tech.root: WinAuto
 ms.assetid: 5B9BDAF8-A7A7-492B-97F7-8502E630203F

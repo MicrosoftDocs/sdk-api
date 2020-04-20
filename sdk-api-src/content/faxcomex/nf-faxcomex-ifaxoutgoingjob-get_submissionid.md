@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_SubmissionId
 title: IFaxOutgoingJob::get_SubmissionId (faxcomex.h)
-description: The IFaxOutgoingJob::get_SubmissionId property is a null-terminated string that contains the unique identifier assigned to the fax job during the submission process.
+description: The IFaxOutgoingJob::get_SubmissionId property is a null-terminated string that contains the unique identifier assigned to the fax job during the submission process.helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","SubmissionId property","IFaxOutgoingJob.SubmissionId","IFaxOutgoingJob.get_SubmissionId","IFaxOutgoingJob::SubmissionId","IFaxOutgoingJob::get_SubmissionId","SubmissionId property [Fax Service]","SubmissionId property [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.submissionid","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissionid_cpp","fax._mfax_faxoutgoingjob_submissionid","faxcomex/IFaxOutgoingJob::SubmissionId","faxcomex/IFaxOutgoingJob::get_SubmissionId","get_SubmissionId"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissionid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9btw.htm

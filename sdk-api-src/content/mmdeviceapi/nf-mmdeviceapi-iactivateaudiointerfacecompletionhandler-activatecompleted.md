@@ -1,7 +1,7 @@
 ---
 UID: NF:mmdeviceapi.IActivateAudioInterfaceCompletionHandler.ActivateCompleted
 title: IActivateAudioInterfaceCompletionHandler::ActivateCompleted (mmdeviceapi.h)
-description: Indicates that activation of a WASAPI interface is complete and results are available.
+description: Indicates that activation of a WASAPI interface is complete and results are available.helpviewer_keywords: ["ActivateCompleted","ActivateCompleted method [Core Audio]","ActivateCompleted method [Core Audio]","IActivateAudioInterfaceCompletionHandler interface","IActivateAudioInterfaceCompletionHandler interface [Core Audio]","ActivateCompleted method","IActivateAudioInterfaceCompletionHandler.ActivateCompleted","IActivateAudioInterfaceCompletionHandler::ActivateCompleted","coreaudio.iactivateaudiointerfacecompletionhandler_activatecompleted","mmdeviceapi/IActivateAudioInterfaceCompletionHandler::ActivateCompleted"]
 old-location: coreaudio\iactivateaudiointerfacecompletionhandler_activatecompleted.htm
 tech.root: CoreAudio
 ms.assetid: f434db12-ab8e-40ca-8a55-b02f28ea5575

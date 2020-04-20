@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1ConcreteTransform
 title: ID2D1ConcreteTransform (d2d1effectauthor.h)
-description: Represents the set of transforms implemented by the effect-rendering system, which provides fixed-functionality.
+description: Represents the set of transforms implemented by the effect-rendering system, which provides fixed-functionality.helpviewer_keywords: ["ID2D1ConcreteTransform","ID2D1ConcreteTransform interface [Direct2D]","ID2D1ConcreteTransform interface [Direct2D]","described","d2d1effectauthor/ID2D1ConcreteTransform","direct2d.id2d1concretetransform"]
 old-location: direct2d\id2d1concretetransform.htm
 tech.root: Direct2D
 ms.assetid: 5349EF29-767F-4C78-A6F9-B0C6F143E762

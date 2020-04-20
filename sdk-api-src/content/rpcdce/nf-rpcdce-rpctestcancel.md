@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcTestCancel
 title: RpcTestCancel function (rpcdce.h)
-description: The RpcTestCancel function checks for a cancel indication.
+description: The RpcTestCancel function checks for a cancel indication.helpviewer_keywords: ["RpcTestCancel","RpcTestCancel function [RPC]","_rpc_rpctestcancel","rpc.rpctestcancel","rpcdce/RpcTestCancel"]
 old-location: rpc\rpctestcancel.htm
 tech.root: Rpc
 ms.assetid: 1fd3b84d-ea45-4267-ac30-e4e2cf037c92

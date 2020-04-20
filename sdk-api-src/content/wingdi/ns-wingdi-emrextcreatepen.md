@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMREXTCREATEPEN
 title: EMREXTCREATEPEN (wingdi.h)
-description: The EMREXTCREATEPEN structure contains members for the ExtCreatePen enhanced metafile record. If the record contains a BITMAPINFO structure, it is followed by the bitmap bits that form a packed device-independent bitmap (DIB).
+description: The EMREXTCREATEPEN structure contains members for the ExtCreatePen enhanced metafile record. If the record contains a BITMAPINFO structure, it is followed by the bitmap bits that form a packed device-independent bitmap (DIB).helpviewer_keywords: ["*PEMREXTCREATEPEN","EMREXTCREATEPEN","EMREXTCREATEPEN structure [Windows GDI]","PEMREXTCREATEPEN","PEMREXTCREATEPEN structure pointer [Windows GDI]","_win32_EMREXTCREATEPEN_str","gdi.emrextcreatepen","wingdi/EMREXTCREATEPEN","wingdi/PEMREXTCREATEPEN"]
 old-location: gdi\emrextcreatepen.htm
 tech.root: gdi
 ms.assetid: 9ed97d34-8c03-4b14-821c-397c21c36db0

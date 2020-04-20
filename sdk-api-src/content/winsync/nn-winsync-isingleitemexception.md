@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.ISingleItemException
 title: ISingleItemException (winsync.h)
-description: Represents an item to exclude from a knowledge object.
+description: Represents an item to exclude from a knowledge object.helpviewer_keywords: ["ISingleItemException","ISingleItemException interface [Windows Sync]","ISingleItemException interface [Windows Sync]","described","winsync.isingleitemexception","winsync/ISingleItemException"]
 old-location: winsync\isingleitemexception.htm
 tech.root: winsync
 ms.assetid: 623553cb-9dc2-4504-9c49-357a0526b130

@@ -1,7 +1,7 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetColorKey
 title: IMixerPinConfig::GetColorKey (mpconfig.h)
-description: The GetColorKey method retrieves the color key being used by a video stream.
+description: The GetColorKey method retrieves the color key being used by a video stream.helpviewer_keywords: ["GetColorKey","GetColorKey method [DirectShow]","GetColorKey method [DirectShow]","IMixerPinConfig interface","IMixerPinConfig interface [DirectShow]","GetColorKey method","IMixerPinConfig.GetColorKey","IMixerPinConfig::GetColorKey","IMixerPinConfigGetColorKey","dshow.imixerpinconfig_getcolorkey","mpconfig/IMixerPinConfig::GetColorKey"]
 old-location: dshow\imixerpinconfig_getcolorkey.htm
 tech.root: DirectShow
 ms.assetid: 07e97d05-f273-4e93-8da8-838975d6f96c

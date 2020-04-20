@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.BrowseObject
 title: IShellBrowser::BrowseObject (shobjidl_core.h)
-description: Informs Windows Explorer to browse to another folder.
+description: Informs Windows Explorer to browse to another folder.helpviewer_keywords: ["BrowseObject","BrowseObject method [Windows Shell]","BrowseObject method [Windows Shell]","IShellBrowser interface","IShellBrowser interface [Windows Shell]","BrowseObject method","IShellBrowser.BrowseObject","IShellBrowser::BrowseObject","SBSP_ABSOLUTE","SBSP_ACTIVATE_NOFOCUS","SBSP_ALLOW_AUTONAVIGATE","SBSP_CALLERUNTRUSTED","SBSP_CREATENOHISTORY","SBSP_DEFBROWSER","SBSP_DEFMODE","SBSP_EXPLOREMODE","SBSP_FEEDNAVIGATION","SBSP_HELPMODE","SBSP_INITIATEDBYHLINKFRAME","SBSP_KEEPSAMETEMPLATE","SBSP_KEEPWORDWHEELTEXT","SBSP_NAVIGATEBACK","SBSP_NAVIGATEFORWARD","SBSP_NEWBROWSER","SBSP_NOAUTOSELECT","SBSP_NOTRANSFERHIST","SBSP_OPENMODE","SBSP_PARENT","SBSP_PLAYNOSOUND","SBSP_REDIRECT","SBSP_RELATIVE","SBSP_SAMEBROWSER","SBSP_TRUSTEDFORACTIVEX","SBSP_TRUSTFIRSTDOWNLOAD","SBSP_UNTRUSTEDFORDOWNLOAD","SBSP_WRITENOHISTORY","_win32_IShellBrowser_BrowseObject","shell.IShellBrowser_BrowseObject","shobjidl_core/IShellBrowser::BrowseObject"]
 old-location: shell\IShellBrowser_BrowseObject.htm
 tech.root: shell
 ms.assetid: e391ca11-25e3-4d97-8efd-0afd74a3e5c2

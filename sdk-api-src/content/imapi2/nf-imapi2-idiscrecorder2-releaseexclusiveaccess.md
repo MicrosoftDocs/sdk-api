@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.ReleaseExclusiveAccess
 title: IDiscRecorder2::ReleaseExclusiveAccess (imapi2.h)
-description: Releases exclusive access to the device.
+description: Releases exclusive access to the device.helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","ReleaseExclusiveAccess method","IDiscRecorder2.ReleaseExclusiveAccess","IDiscRecorder2::ReleaseExclusiveAccess","ReleaseExclusiveAccess","ReleaseExclusiveAccess method [IMAPI]","ReleaseExclusiveAccess method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_releaseexclusiveaccess","imapi2/IDiscRecorder2::ReleaseExclusiveAccess"]
 old-location: imapi\idiscrecorder2_releaseexclusiveaccess.htm
 tech.root: imapi
 ms.assetid: 940929d7-7940-448e-9554-3e3691772eb8

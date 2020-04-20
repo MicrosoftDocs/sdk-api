@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_LB_PROVISIONING_STATE
 title: DEVICE_DATA_SET_LB_PROVISIONING_STATE
-description: Output structure for the DeviceDsmAction_Allocation action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
+description: Output structure for the DeviceDsmAction_Allocation action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.helpviewer_keywords: ["*PDEVICE_DATA_SET_LB_PROVISIONING_STATE","*PDEVICE_DSM_ALLOCATION_OUTPUT","DEVICE_DATA_SET_LB_PROVISIONING_STATE","DEVICE_DATA_SET_LB_PROVISIONING_STATE structure","DEVICE_DSM_ALLOCATION_OUTPUT","PDEVICE_DATA_SET_LB_PROVISIONING_STATE","PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer","base.device_data_set_lb_provisioning_state","winioctl/DEVICE_DATA_SET_LB_PROVISIONING_STATE","winioctl/PDEVICE_DATA_SET_LB_PROVISIONING_STATE"]
 old-location: base\device_data_set_lb_provisioning_state.htm
 tech.root: devio
 ms.assetid: 757ffd97-2a00-4508-817c-0bfb2f2e3a84

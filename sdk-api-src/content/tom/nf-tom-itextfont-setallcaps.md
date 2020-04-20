@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.SetAllCaps
 title: ITextFont::SetAllCaps (tom.h)
-description: Sets whether the characters are all uppercase.
+description: Sets whether the characters are all uppercase.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetAllCaps method","ITextFont.SetAllCaps","ITextFont::SetAllCaps","SetAllCaps","SetAllCaps method [Windows Controls]","SetAllCaps method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetAllCaps","_win32_ITextFont_SetAllCaps_cpp","controls.ITextFont_SetAllCaps","controls._win32_ITextFont_SetAllCaps","tom/ITextFont::SetAllCaps"]
 old-location: controls\ITextFont_SetAllCaps.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setallcaps.htm

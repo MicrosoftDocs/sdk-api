@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.GetGuide
 title: GetGuide function (recapis.h)
-description: Retrieves the guide used for boxed, lined, or freeform input.
+description: Retrieves the guide used for boxed, lined, or freeform input.helpviewer_keywords: ["GetGuide","GetGuide function [Tablet PC]","b86d6266-cce3-4f84-80b6-7d136172b3ca","recapis/GetGuide","tablet.getguide"]
 old-location: tablet\getguide.htm
 tech.root: tablet
 ms.assetid: b86d6266-cce3-4f84-80b6-7d136172b3ca

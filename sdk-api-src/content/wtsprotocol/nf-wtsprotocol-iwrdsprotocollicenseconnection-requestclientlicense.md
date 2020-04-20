@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLicenseConnection.RequestClientLicense
 title: IWRdsProtocolLicenseConnection::RequestClientLicense (wtsprotocol.h)
-description: Requests a license from the client.
+description: Requests a license from the client.helpviewer_keywords: ["IWRdsProtocolLicenseConnection interface [Remote Desktop Services]","RequestClientLicense method","IWRdsProtocolLicenseConnection.RequestClientLicense","IWRdsProtocolLicenseConnection::RequestClientLicense","RequestClientLicense","RequestClientLicense method [Remote Desktop Services]","RequestClientLicense method [Remote Desktop Services]","IWRdsProtocolLicenseConnection interface","termserv.iwrdsprotocollicenseconnection_requestclientlicense","wtsprotocol/IWRdsProtocolLicenseConnection::RequestClientLicense"]
 old-location: termserv\iwrdsprotocollicenseconnection_requestclientlicense.htm
 tech.root: TermServ
 ms.assetid: 73660029-2d2e-4240-babe-208daa164290

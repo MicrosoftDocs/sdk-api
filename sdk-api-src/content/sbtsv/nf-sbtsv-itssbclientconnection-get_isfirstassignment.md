@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_IsFirstAssignment
 title: ITsSbClientConnection::get_IsFirstAssignment (sbtsv.h)
-description: Whether this is the first assignment.
+description: Whether this is the first assignment.helpviewer_keywords: ["ITsSbClientConnection interface [Remote Desktop Services]","IsFirstAssignment property","ITsSbClientConnection.IsFirstAssignment","ITsSbClientConnection.get_IsFirstAssignment","ITsSbClientConnection::IsFirstAssignment","ITsSbClientConnection::get_IsFirstAssignment","IsFirstAssignment property [Remote Desktop Services]","IsFirstAssignment property [Remote Desktop Services]","ITsSbClientConnection interface","get_IsFirstAssignment","sbtsv/ITsSbClientConnection::IsFirstAssignment","sbtsv/ITsSbClientConnection::get_IsFirstAssignment","termserv.itssbclientconnection_isfirstassignment"]
 old-location: termserv\itssbclientconnection_isfirstassignment.htm
 tech.root: TermServ
 ms.assetid: a086421f-77a4-43c9-8f9f-a24b0d620de2

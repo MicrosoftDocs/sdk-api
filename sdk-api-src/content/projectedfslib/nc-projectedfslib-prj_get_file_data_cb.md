@@ -1,7 +1,7 @@
 ---
 UID: NC:projectedfslib.PRJ_GET_FILE_DATA_CB
 title: PRJ_GET_FILE_DATA_CB (projectedfslib.h)
-description: Requests the contents of a file's primary data stream.
+description: Requests the contents of a file's primary data stream.helpviewer_keywords: ["PRJ_GET_FILE_DATA_CB","PRJ_GET_FILE_DATA_CB callback","PRJ_GET_FILE_DATA_CB callback function","ProjFS.prj_get_file_data_cb","projectedfslib/PRJ_GET_FILE_DATA_CB"]
 old-location: projfs\prj_get_file_data_cb.htm
 tech.root: ProjFS
 ms.assetid: 8F3EEC96-70C2-40ED-BDF3-B6E979EF1F7E

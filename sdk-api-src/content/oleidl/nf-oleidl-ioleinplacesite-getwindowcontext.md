@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.GetWindowContext
 title: IOleInPlaceSite::GetWindowContext (oleidl.h)
-description: Enables an in-place object to retrieve the window interfaces that form the window object hierarchy, and the position in the parent window where the object's in-place activation window should be located.
+description: Enables an in-place object to retrieve the window interfaces that form the window object hierarchy, and the position in the parent window where the object's in-place activation window should be located.helpviewer_keywords: ["GetWindowContext","GetWindowContext method [COM]","GetWindowContext method [COM]","IOleInPlaceSite interface","IOleInPlaceSite interface [COM]","GetWindowContext method","IOleInPlaceSite.GetWindowContext","IOleInPlaceSite::GetWindowContext","_ole_ioleinplacesite_getwindowcontext","com.ioleinplacesite_getwindowcontext","oleidl/IOleInPlaceSite::GetWindowContext"]
 old-location: com\ioleinplacesite_getwindowcontext.htm
 tech.root: com
 ms.assetid: f6cf62b3-5a64-49aa-b0bd-56744ecee313

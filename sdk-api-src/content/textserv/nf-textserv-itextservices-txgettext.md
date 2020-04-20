@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextServices.TxGetText
 title: ITextServices::TxGetText (textserv.h)
-description: Returns all of the Unicode plain text in the control as a BSTR.
+description: Returns all of the Unicode plain text in the control as a BSTR.helpviewer_keywords: ["ITextServices interface [Windows Controls]","TxGetText method","ITextServices.TxGetText","ITextServices::TxGetText","TxGetText","TxGetText method [Windows Controls]","TxGetText method [Windows Controls]","ITextServices interface","_win32_ITextServices_TxGetText","_win32_ITextServices_TxGetText_cpp","controls.ITextServices_TxGetText","controls._win32_ITextServices_TxGetText","textserv/ITextServices::TxGetText"]
 old-location: controls\ITextServices_TxGetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgettext.htm

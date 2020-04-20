@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.SetConcludePriorityComparison
 title: IUIAnimationManager::SetConcludePriorityComparison (uianimation.h)
-description: Sets the priority comparison handler to be called to determine whether a scheduled storyboard can be concluded.
+description: Sets the priority comparison handler to be called to determine whether a scheduled storyboard can be concluded.helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","SetConcludePriorityComparison method","IUIAnimationManager.SetConcludePriorityComparison","IUIAnimationManager::SetConcludePriorityComparison","SetConcludePriorityComparison","SetConcludePriorityComparison method [Windows Animation]","SetConcludePriorityComparison method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_setconcludeprioritycomparison","uianimation/IUIAnimationManager::SetConcludePriorityComparison"]
 old-location: uianimation\iuianimationmanager_setconcludeprioritycomparison.htm
 tech.root: UIAnimation
 ms.assetid: 00a3d7e4-7ad2-46a8-a9c2-0e725005c00b

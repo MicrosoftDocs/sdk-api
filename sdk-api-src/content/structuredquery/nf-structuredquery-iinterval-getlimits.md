@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IInterval.GetLimits
 title: IInterval::GetLimits (structuredquery.h)
-description: Specifies the lower and upper limits of an interval, each of which may be infinite or a specific value.
+description: Specifies the lower and upper limits of an interval, each of which may be infinite or a specific value.helpviewer_keywords: ["GetLimits","GetLimits method [search]","GetLimits method [search]","IInterval interface","IInterval interface [search]","GetLimits method","IInterval.GetLimits","IInterval::GetLimits","_search_IInterval_GetLimits","search._search_IInterval_GetLimits","structuredquery/IInterval::GetLimits"]
 old-location: search\_search_IInterval_GetLimits.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\getlimits.htm

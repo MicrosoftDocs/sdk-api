@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackupCollection.get_Item
 title: IGPMStarterGPOBackupCollection::get_Item (gpmgmt.h)
-description: Given an index, returns an GPMStarterGPOBackup object from the collection.
+description: Given an index, returns an GPMStarterGPOBackup object from the collection.helpviewer_keywords: ["IGPMStarterGPOBackupCollection interface [GPMC]","Item property","IGPMStarterGPOBackupCollection.Item","IGPMStarterGPOBackupCollection.get_Item","IGPMStarterGPOBackupCollection::Item","IGPMStarterGPOBackupCollection::get_Item","Item property [GPMC]","Item property [GPMC]","IGPMStarterGPOBackupCollection interface","get_Item","gpmc.igpmstartergpobackupcollection_get_item","gpmgmt/IGPMStarterGPOBackupCollection::Item","gpmgmt/IGPMStarterGPOBackupCollection::get_Item"]
 old-location: gpmc\igpmstartergpobackupcollection_get_item.htm
 tech.root: gpmc
 ms.assetid: 295b00ed-856e-4199-8b93-7c676a5ab8bb

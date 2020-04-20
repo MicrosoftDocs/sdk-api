@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpReceiveClientCertificate
 title: HttpReceiveClientCertificate function (http.h)
-description: The HttpReceiveClientCertificate function is used by a server application to retrieve a client SSL certificate or channel binding token (CBT).
+description: The HttpReceiveClientCertificate function is used by a server application to retrieve a client SSL certificate or channel binding token (CBT).helpviewer_keywords: ["HTTP_RECEIVE_SECURE_CHANNEL_TOKEN","HttpReceiveClientCertificate","HttpReceiveClientCertificate function [HTTP]","_http_httpreceiveclientcertificate","http.httpreceiveclientcertificate","http/HttpReceiveClientCertificate"]
 old-location: http\httpreceiveclientcertificate.htm
 tech.root: http
 ms.assetid: f0cf7b77-2868-4142-a663-32d6ea7df9e9

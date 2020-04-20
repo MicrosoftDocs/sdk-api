@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnActivityLoggingConfigChange
 title: _IFaxServerNotify2::OnActivityLoggingConfigChange (faxcomex.h)
-description: The fax service calls the IFaxServerNotify2::OnActivityLoggingConfigChange method when there is a configuration change related to activity logging.
+description: The fax service calls the IFaxServerNotify2::OnActivityLoggingConfigChange method when there is a configuration change related to activity logging.helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnActivityLoggingConfigChange method","IFaxServerNotify2.OnActivityLoggingConfigChange","IFaxServerNotify2::OnActivityLoggingConfigChange","OnActivityLoggingConfigChange","OnActivityLoggingConfigChange method [Fax Service]","OnActivityLoggingConfigChange method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnActivityLoggingConfigChange","_IFaxServerNotify2::OnActivityLoggingConfigChange","_mfax_ifaxservernotify2_onactivityloggingconfigchange","fax._mfax_ifaxservernotify2_onactivityloggingconfigchange","faxcomex/IFaxServerNotify2::OnActivityLoggingConfigChange"]
 old-location: fax\_mfax_ifaxservernotify2_onactivityloggingconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onactivityloggingconfigchange.htm

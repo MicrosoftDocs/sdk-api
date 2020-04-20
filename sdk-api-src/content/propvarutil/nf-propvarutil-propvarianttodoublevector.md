@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantToDoubleVector
 title: PropVariantToDoubleVector function (propvarutil.h)
-description: Extracts a vector of doubles from a PROPVARIANT structure.
+description: Extracts a vector of doubles from a PROPVARIANT structure.helpviewer_keywords: ["PropVariantToDoubleVector","PropVariantToDoubleVector function [Windows Properties]","_shell_PropVariantToDoubleVector","properties.PropVariantToDoubleVector","propvarutil/PropVariantToDoubleVector","shell.PropVariantToDoubleVector"]
 old-location: properties\PropVariantToDoubleVector.htm
 tech.root: properties
 ms.assetid: 2d90bf96-8a3f-4949-8480-bb75f0deeb2e

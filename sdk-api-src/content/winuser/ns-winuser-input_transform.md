@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagINPUT_TRANSFORM
 title: INPUT_TRANSFORM (winuser.h)
-description: Defines the matrix that represents a transform on a message consumer.
+description: Defines the matrix that represents a transform on a message consumer.helpviewer_keywords: ["INPUT_TRANSFORM","INPUT_TRANSFORM structure [Windows and Messages]","_INPUT_TRANSFORM","inputmsg.input_transform","winuser/INPUT_TRANSFORM"]
 old-location: inputmsg\input_transform.htm
 tech.root: InputMsg
 ms.assetid: DE6854F0-17D8-4E4B-97CB-A135910A300C

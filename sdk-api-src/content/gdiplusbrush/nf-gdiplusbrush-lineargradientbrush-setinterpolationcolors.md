@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetInterpolationColors
 title: LinearGradientBrush::SetInterpolationColors (gdiplusbrush.h)
-description: The LinearGradientBrush::SetInterpolationColors method sets the colors to be interpolated for this linear gradient brush and their corresponding blend positions.
+description: The LinearGradientBrush::SetInterpolationColors method sets the colors to be interpolated for this linear gradient brush and their corresponding blend positions.helpviewer_keywords: ["LinearGradientBrush class [GDI+]","SetInterpolationColors method","LinearGradientBrush.SetInterpolationColors","LinearGradientBrush::SetInterpolationColors","SetInterpolationColors","SetInterpolationColors method [GDI+]","SetInterpolationColors method [GDI+]","LinearGradientBrush class","_gdiplus_CLASS_LinearGradientBrush_SetInterpolationColors_presetColors_blendPositions_count_","gdiplus._gdiplus_CLASS_LinearGradientBrush_SetInterpolationColors_presetColors_blendPositions_count_"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetInterpolationColors_presetColors_blendPositions_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setinterpolationcolors.htm

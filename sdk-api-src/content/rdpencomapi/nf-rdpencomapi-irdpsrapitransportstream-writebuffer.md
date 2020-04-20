@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.WriteBuffer
 title: IRDPSRAPITransportStream::WriteBuffer (rdpencomapi.h)
-description: Called by the Remote Desktop Protocol (RDP) stack to write the contents of a stream buffer to the network.
+description: Called by the Remote Desktop Protocol (RDP) stack to write the contents of a stream buffer to the network.helpviewer_keywords: ["IRDPSRAPITransportStream interface [RDP]","WriteBuffer method","IRDPSRAPITransportStream.WriteBuffer","IRDPSRAPITransportStream::WriteBuffer","WriteBuffer","WriteBuffer method [RDP]","WriteBuffer method [RDP]","IRDPSRAPITransportStream interface","rdp.irdpsrapitransportstream_writebuffer","rdpencomapi/IRDPSRAPITransportStream::WriteBuffer"]
 old-location: rdp\irdpsrapitransportstream_writebuffer.htm
 tech.root: rdp
 ms.assetid: 9e78360d-9ea6-4a74-8a20-5546057c24b0

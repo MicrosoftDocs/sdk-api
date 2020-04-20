@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.Rect.Inflate(IN INT,IN INT)
 title: Rect::Inflate (gdiplustypes.h)
-description: This topic lists the Inflate methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
+description: This topic lists the Inflate methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.helpviewer_keywords: ["Inflate","Inflate methods [GDI+]","Rect.Inflate","Rect::Inflate","_gdiplus_CLASS_Rect_Inflate_Methods","gdiplus._gdiplus_CLASS_Rect_Inflate_Methods","gdiplustypes/Inflate"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_Inflate_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectinflatemethods.htm

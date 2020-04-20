@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfKeystrokeMgr
 title: ITfKeystrokeMgr (msctf.h)
-description: The ITfKeystrokeMgr interface is implemented by the TSF manager and used by applications and text services to interact with the keyboard manager.
+description: The ITfKeystrokeMgr interface is implemented by the TSF manager and used by applications and text services to interact with the keyboard manager.helpviewer_keywords: ["ITfKeystrokeMgr","ITfKeystrokeMgr interface [Text Services Framework]","ITfKeystrokeMgr interface [Text Services Framework]","described","_tsf_itfkeystrokemgr_ref","msctf/ITfKeystrokeMgr","tsf.itfkeystrokemgr"]
 old-location: tsf\itfkeystrokemgr.htm
 tech.root: TSF
 ms.assetid: 93c1591d-2c95-45cb-8fc5-5726e905f202

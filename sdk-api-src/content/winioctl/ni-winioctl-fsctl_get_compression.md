@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_GET_COMPRESSION
 title: FSCTL_GET_COMPRESSION
-description: Retrieves the current compression state of a file or directory on a volume whose file system supports per-stream compression.
+description: Retrieves the current compression state of a file or directory on a volume whose file system supports per-stream compression.helpviewer_keywords: ["COMPRESSION_FORMAT_LZNT1","COMPRESSION_FORMAT_NONE","FSCTL_GET_COMPRESSION","FSCTL_GET_COMPRESSION control","FSCTL_GET_COMPRESSION control code [Files]","_win32_fsctl_get_compression","all other values","base.fsctl_get_compression","fs.fsctl_get_compression","winioctl/FSCTL_GET_COMPRESSION"]
 old-location: fs\fsctl_get_compression.htm
 tech.root: FileIO
 ms.assetid: c9932867-4b86-4119-ad13-f99aadfa559a

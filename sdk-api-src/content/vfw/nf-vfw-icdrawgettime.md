@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.ICDrawGetTime
 title: ICDrawGetTime macro (vfw.h)
-description: The ICDrawGetTime macro requests a rendering driver that controls the timing of drawing frames to return the current value of its internal clock. You can use this macro or explicitly call the ICM_DRAW_GETTIME message.
+description: The ICDrawGetTime macro requests a rendering driver that controls the timing of drawing frames to return the current value of its internal clock. You can use this macro or explicitly call the ICM_DRAW_GETTIME message.helpviewer_keywords: ["ICDrawGetTime","ICDrawGetTime macro [Windows Multimedia]","_win32_ICDrawGetTime","multimedia.icdrawgettime","vfw/ICDrawGetTime"]
 old-location: multimedia\icdrawgettime.htm
 tech.root: Multimedia
 ms.assetid: ebf21b97-7bfe-4eca-9442-9fc4db663ac6

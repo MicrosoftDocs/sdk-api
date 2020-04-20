@@ -1,7 +1,7 @@
 ---
 UID: NS:wmsdkidl._WMWriterStatistics
 title: WM_WRITER_STATISTICS (wmsdkidl.h)
-description: The WM_WRITER_STATISTICS structure describes the performance of a writing operation.
+description: The WM_WRITER_STATISTICS structure describes the performance of a writing operation.helpviewer_keywords: ["WM_WRITER_STATISTICS","WM_WRITER_STATISTICS structure [windows Media Format]","wmformat.wm_writer_statistics","wmsdkidl/WM_WRITER_STATISTICS"]
 old-location: wmformat\wm_writer_statistics.htm
 tech.root: wmformat
 ms.assetid: 907711c9-2ae1-4049-afd8-768912778e37

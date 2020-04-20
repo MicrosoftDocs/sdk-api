@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IDeskBand
 title: IDeskBand (shobjidl_core.h)
-description: Used to obtain information about a band object.
+description: Used to obtain information about a band object.helpviewer_keywords: ["IDeskBand","IDeskBand interface [Windows Shell]","IDeskBand interface [Windows Shell]","described","_win32_IDeskBand","shell.IDeskBand","shobjidl_core/IDeskBand"]
 old-location: shell\IDeskBand.htm
 tech.root: shell
 ms.assetid: eb9f7f2a-a6be-4527-8a32-325dad4c8000

@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionTarget
 title: IDCompositionTarget (dcomp.h)
-description: Represents a binding between a Microsoft DirectComposition visual tree and a destination on top of which the visual tree should be composed.
+description: Represents a binding between a Microsoft DirectComposition visual tree and a destination on top of which the visual tree should be composed.helpviewer_keywords: ["IDCompositionTarget","IDCompositionTarget interface [DirectComposition]","IDCompositionTarget interface [DirectComposition]","described","dcomp/IDCompositionTarget","directcomp.idcompositiontarget"]
 old-location: directcomp\idcompositiontarget.htm
 tech.root: directcomp
 ms.assetid: 86dbfe68-e360-42cf-b572-960398ef06ba

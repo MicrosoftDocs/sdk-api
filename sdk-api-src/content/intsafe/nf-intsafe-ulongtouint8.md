@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ULongToUInt8
 title: ULongToUInt8 function (intsafe.h)
-description: Converts a value of type ULONG to a value of type UINT8.
+description: Converts a value of type ULONG to a value of type UINT8.helpviewer_keywords: ["DWordToByte","ULongToUInt8","ULongToUInt8 function [Windows Shell]","intsafe/ULongToUInt8","shell.ULongToUInt8"]
 old-location: shell\ULongToUInt8.htm
 tech.root: shell
 ms.assetid: 2d1db351-797f-4785-b67c-9ab6e661282a

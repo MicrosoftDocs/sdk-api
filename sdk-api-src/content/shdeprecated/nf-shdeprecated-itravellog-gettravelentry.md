@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.ITravelLog.GetTravelEntry
 title: ITravelLog::GetTravelEntry (shdeprecated.h)
-description: Deprecated. Gets a travel entry in the travel log relative to the position of the current entry.
+description: Deprecated. Gets a travel entry in the travel log relative to the position of the current entry.helpviewer_keywords: ["GetTravelEntry","GetTravelEntry method [Windows Shell]","GetTravelEntry method [Windows Shell]","ITravelLog interface","ITravelLog interface [Windows Shell]","GetTravelEntry method","ITravelLog.GetTravelEntry","ITravelLog::GetTravelEntry","shdeprecated/ITravelLog::GetTravelEntry","shell.ITravelLog_GetTravelEntry","zone_ITravelLog_GetTravelEntry"]
 old-location: shell\ITravelLog_GetTravelEntry.htm
 tech.root: shell
 ms.assetid: 8db8aa9a-91c2-49fb-bbef-c7e19de09efe

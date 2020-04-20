@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.RemoveEntryByIndex
 title: ITocCollection::RemoveEntryByIndex (wmcodecdsp.h)
-description: The RemoveEntryByIndex method removes a table of contents, specified by an index, from the collection.
+description: The RemoveEntryByIndex method removes a table of contents, specified by an index, from the collection.helpviewer_keywords: ["ITocCollection interface [Media Foundation]","RemoveEntryByIndex method","ITocCollection.RemoveEntryByIndex","ITocCollection::RemoveEntryByIndex","RemoveEntryByIndex","RemoveEntryByIndex method [Media Foundation]","RemoveEntryByIndex method [Media Foundation]","ITocCollection interface","codecapi.itoccollection_removeentrybyindex","mf.itoccollection_removeentrybyindex","wmcodecdsp/ITocCollection::RemoveEntryByIndex"]
 old-location: mf\itoccollection_removeentrybyindex.htm
 tech.root: medfound
 ms.assetid: 1fc6abad-2e9b-47f5-8b00-48ae480f3dd8

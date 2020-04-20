@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecoder.GetDesc
 title: ID3D12VideoDecoder::GetDesc
-description: Gets the D3D12_VIDEO_DECODER_DESC structure that was passed into ID3D12VideoDevice::CreateVideoDecoder when the ID3D12VideoDecoder was created.
+description: Gets the D3D12_VIDEO_DECODER_DESC structure that was passed into ID3D12VideoDevice::CreateVideoDecoder when the ID3D12VideoDecoder was created.helpviewer_keywords: ["ID3D12VideoDecoder::GetDesc","GetDesc","ID3D12VideoDecoder.GetDesc","ID3D12VideoDecoder::GetDesc","ID3D12VideoDecoder.GetDesc"]
 tech.root: mf
 ms.assetid: 235bcf2c-52b6-4390-821e-10d1e2d78bb6
 ms.date: 05/28/2019

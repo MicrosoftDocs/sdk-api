@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.Clone
 title: StringFormat::Clone (gdiplusstringformat.h)
-description: The StringFormat::Clone method creates a new StringFormat object and initializes it with the contents of this StringFormat object.
+description: The StringFormat::Clone method creates a new StringFormat object and initializes it with the contents of this StringFormat object.helpviewer_keywords: ["Clone","Clone method [GDI+]","Clone method [GDI+]","StringFormat class","StringFormat class [GDI+]","Clone method","StringFormat.Clone","StringFormat::Clone","_gdiplus_CLASS_StringFormat_Clone_","gdiplus._gdiplus_CLASS_StringFormat_Clone_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\clone_35.htm

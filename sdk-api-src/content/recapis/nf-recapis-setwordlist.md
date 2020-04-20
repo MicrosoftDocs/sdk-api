@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.SetWordList
 title: SetWordList function (recapis.h)
-description: Sets the word list for the current recognizer context to recognize.
+description: Sets the word list for the current recognizer context to recognize.helpviewer_keywords: ["9e067c22-772d-48d2-baae-abc8067efb09","SetWordList","SetWordList function [Tablet PC]","recapis/SetWordList","tablet.setwordlist"]
 old-location: tablet\setwordlist.htm
 tech.root: tablet
 ms.assetid: 9e067c22-772d-48d2-baae-abc8067efb09

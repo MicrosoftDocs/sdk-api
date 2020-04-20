@@ -1,7 +1,7 @@
 ---
 UID: NS:ntdsapi._DS_REPL_ATTR_META_DATA
 title: DS_REPL_ATTR_META_DATA (ntdsapi.h)
-description: The DS_REPL_ATTR_META_DATA structure is used with the DsReplicaGetInfo and DsReplicaGetInfo2 functions to contain replication state data for an object attribute.
+description: The DS_REPL_ATTR_META_DATA structure is used with the DsReplicaGetInfo and DsReplicaGetInfo2 functions to contain replication state data for an object attribute.helpviewer_keywords: ["DS_REPL_ATTR_META_DATA","DS_REPL_ATTR_META_DATA structure [Active Directory]","_glines_ds_repl_attr_meta_data","ad.ds__repl__attr__meta__data","ad.ds_repl_attr_meta_data","ntdsapi/DS_REPL_ATTR_META_DATA"]
 old-location: ad\ds_repl_attr_meta_data.htm
 tech.root: ad
 ms.assetid: 27ccc1c9-03d7-4d13-b9ec-65d6b8bdfd37

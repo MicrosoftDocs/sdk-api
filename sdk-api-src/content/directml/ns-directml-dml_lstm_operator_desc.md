@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_LSTM_OPERATOR_DESC
 title: DML_LSTM_OPERATOR_DESC
-description: Describes a DirectML deep learning operator that performs a one-layer long short term memory (LSTM) function on the input.
+description: Describes a DirectML deep learning operator that performs a one-layer long short term memory (LSTM) function on the input.helpviewer_keywords: ["DML_LSTM_OPERATOR_DESC","DML_LSTM_OPERATOR_DESC structure","direct3d12.dml_lstm_operator_desc","directml/DML_LSTM_OPERATOR_DESC"]
 old-location: direct3d12\dml_lstm_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: B2225A27-EB5B-46BC-A224-6A07D869C001

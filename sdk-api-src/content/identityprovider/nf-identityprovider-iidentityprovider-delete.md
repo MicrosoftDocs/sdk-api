@@ -1,7 +1,7 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Delete
 title: IIdentityProvider::Delete (identityprovider.h)
-description: Removes the specified identity from the identity store or the specified properties from the identity.
+description: Removes the specified identity from the identity store or the specified properties from the identity.helpviewer_keywords: ["Delete","Delete method [Security]","Delete method [Security]","IIdentityProvider interface","IIdentityProvider interface [Security]","Delete method","IIdentityProvider.Delete","IIdentityProvider::Delete","identityprovider/IIdentityProvider::Delete","security.iidentityprovider_delete"]
 old-location: security\iidentityprovider_delete.htm
 tech.root: SecAuthN
 ms.assetid: a21aa2eb-2551-4920-a312-34fa327572ca

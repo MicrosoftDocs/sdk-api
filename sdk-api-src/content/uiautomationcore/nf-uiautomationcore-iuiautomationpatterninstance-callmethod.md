@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationPatternInstance.CallMethod
 title: IUIAutomationPatternInstance::CallMethod (uiautomationcore.h)
-description: Client wrapper implements methods by calling this CallMethod function, specifying the parameters as an array of pointers.
+description: Client wrapper implements methods by calling this CallMethod function, specifying the parameters as an array of pointers.helpviewer_keywords: ["CallMethod","CallMethod method [Windows Accessibility]","CallMethod method [Windows Accessibility]","IUIAutomationPatternInstance interface","IUIAutomationPatternInstance interface [Windows Accessibility]","CallMethod method","IUIAutomationPatternInstance.CallMethod","IUIAutomationPatternInstance::CallMethod","uiauto.uiauto_IUIAutomationPatternInstance_CallMethod","uiauto_IUIAutomationPatternInstance_CallMethod","uiautomationcore/IUIAutomationPatternInstance::CallMethod","winauto.uiauto_IUIAutomationPatternInstance_CallMethod"]
 old-location: winauto\uiauto_IUIAutomationPatternInstance_CallMethod.htm
 tech.root: WinAuto
 ms.assetid: a3c1aa20-c512-4752-8da6-c8e86bd56beb

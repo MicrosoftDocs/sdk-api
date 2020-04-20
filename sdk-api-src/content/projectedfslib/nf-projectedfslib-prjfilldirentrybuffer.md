@@ -1,7 +1,7 @@
 ---
 UID: NF:projectedfslib.PrjFillDirEntryBuffer
 title: PrjFillDirEntryBuffer function (projectedfslib.h)
-description: Provides information for one file or directory to an enumeration.
+description: Provides information for one file or directory to an enumeration.helpviewer_keywords: ["PrjFillDirEntryBuffer","PrjFillDirEntryBuffer function","ProjFS.prjfilldirentrybuffer","projectedfslib/PrjFillDirEntryBuffer"]
 old-location: projfs\prjfilldirentrybuffer.htm
 tech.root: ProjFS
 ms.assetid: CBCB0A0E-9227-42EF-B747-62783400AD16

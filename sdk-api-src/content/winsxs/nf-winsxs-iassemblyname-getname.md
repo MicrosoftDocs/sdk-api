@@ -1,7 +1,7 @@
 ---
 UID: NF:winsxs.IAssemblyName.GetName
 title: IAssemblyName::GetName (winsxs.h)
-description: The GetName method returns the name portion of the assembly name.
+description: The GetName method returns the name portion of the assembly name.helpviewer_keywords: ["GetName","GetName method [Side-by-side Assemblies]","GetName method [Side-by-side Assemblies]","IAssemblyName interface","IAssemblyName interface [Side-by-side Assemblies]","GetName method","IAssemblyName.GetName","IAssemblyName::GetName","setup.iassemblyname_getname","winsxs/IAssemblyName::GetName"]
 old-location: setup\iassemblyname_getname.htm
 tech.root: SbsCs
 ms.assetid: b27ebe4e-02b6-473f-a8cb-c68a3e65e493

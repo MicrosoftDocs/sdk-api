@@ -1,7 +1,7 @@
 ---
 UID: NC:ntmsmli.MAXMEDIALABEL
 title: MAXMEDIALABEL (ntmsmli.h)
-description: The MaxMediaLabel callback function determines the maximum size of the media label for the applications supported by the media label library.
+description: The MaxMediaLabel callback function determines the maximum size of the media label for the applications supported by the media label library.helpviewer_keywords: ["MaxMediaLabel","MaxMediaLabel callback","MaxMediaLabel callback function [Files]","_zaw_maxmedialabel","base.maxmedialabel","fs.maxmedialabel","ntmsmli/MaxMediaLabel"]
 old-location: fs\maxmedialabel.htm
 tech.root: Rsm
 ms.assetid: b770cc63-e1dd-4d1a-8009-8e1bdc9ce69c

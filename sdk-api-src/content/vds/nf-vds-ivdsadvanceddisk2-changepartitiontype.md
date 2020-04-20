@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk2.ChangePartitionType
 title: IVdsAdvancedDisk2::ChangePartitionType (vds.h)
-description: Changes the partition type on the disk at a specified byte offset.
+description: Changes the partition type on the disk at a specified byte offset.helpviewer_keywords: ["ChangePartitionType","ChangePartitionType method","ChangePartitionType method","IVdsAdvancedDisk2 interface","IVdsAdvancedDisk2 interface","ChangePartitionType method","IVdsAdvancedDisk2.ChangePartitionType","IVdsAdvancedDisk2::ChangePartitionType","base.ivdsadvanceddisk2_changepartitiontype","vds/IVdsAdvancedDisk2::ChangePartitionType"]
 old-location: base\ivdsadvanceddisk2_changepartitiontype.htm
 tech.root: VDS
 ms.assetid: 808a1e5a-d225-4b74-9764-3ad8cdc52ebe

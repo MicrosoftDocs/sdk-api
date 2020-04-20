@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ICommDlgBrowser.OnDefaultCommand
 title: ICommDlgBrowser::OnDefaultCommand (shobjidl_core.h)
-description: Called when a user double-clicks in the view or presses the ENTER key.
+description: Called when a user double-clicks in the view or presses the ENTER key.helpviewer_keywords: ["ICommDlgBrowser interface [Windows Shell]","OnDefaultCommand method","ICommDlgBrowser.OnDefaultCommand","ICommDlgBrowser::OnDefaultCommand","OnDefaultCommand","OnDefaultCommand method [Windows Shell]","OnDefaultCommand method [Windows Shell]","ICommDlgBrowser interface","_win32_ICommDlgBrowser_OnDefaultCommand","shell.ICommDlgBrowser_OnDefaultCommand","shobjidl_core/ICommDlgBrowser::OnDefaultCommand"]
 old-location: shell\ICommDlgBrowser_OnDefaultCommand.htm
 tech.root: shell
 ms.assetid: 827af758-63df-42bb-9ecf-087bc974710a

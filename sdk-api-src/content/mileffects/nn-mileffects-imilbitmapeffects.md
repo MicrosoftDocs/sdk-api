@@ -1,7 +1,7 @@
 ---
 UID: NN:mileffects.IMILBitmapEffects
 title: IMILBitmapEffects (mileffects.h)
-description: Exposes methods that define an enumeration of effects.
+description: Exposes methods that define an enumeration of effects.helpviewer_keywords: ["IMILBitmapEffects","IMILBitmapEffects interface [WPF Bitmap Effects]","IMILBitmapEffects interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffects","mileffects/IMILBitmapEffects","wibe._wibe_imilbitmapeffects"]
 old-location: wibe\_wibe_imilbitmapeffects.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\imilbitmapeffects.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IStream.Seek
 title: IStream::Seek (objidl.h)
-description: Changes the seek pointer to a new location. The new location is relative to either the beginning of the stream, the end of the stream, or the current seek pointer.
+description: Changes the seek pointer to a new location. The new location is relative to either the beginning of the stream, the end of the stream, or the current seek pointer.helpviewer_keywords: ["IStream interface [Structured Storage]","Seek method","IStream.Seek","IStream::Seek","Seek","Seek method [Structured Storage]","Seek method [Structured Storage]","IStream interface","_stg_istream_seek","objidl/IStream::Seek","stg.istream_seek"]
 old-location: stg\istream_seek.htm
 tech.root: Stg
 ms.assetid: ea087c6d-8854-4a81-b37b-15ab76630973

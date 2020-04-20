@@ -1,7 +1,7 @@
 ---
 UID: NF:commdlg.IPrintDialogCallback.HandleMessage
 title: IPrintDialogCallback::HandleMessage (commdlg.h)
-description: Called by PrintDlgEx to give your application an opportunity to handle messages sent to the child dialog box in the lower portion of the General page of the Print Property Sheet.
+description: Called by PrintDlgEx to give your application an opportunity to handle messages sent to the child dialog box in the lower portion of the General page of the Print Property Sheet.helpviewer_keywords: ["HandleMessage","HandleMessage method [Dialog Boxes]","HandleMessage method [Dialog Boxes]","IPrintDialogCallback interface","IPrintDialogCallback interface [Dialog Boxes]","HandleMessage method","IPrintDialogCallback.HandleMessage","IPrintDialogCallback::HandleMessage","_win32_IPrintDialogCallback_HandleMessage","_win32_iprintdialogcallback_handlemessage_cpp","commdlg/IPrintDialogCallback::HandleMessage","dlgbox.iprintdialogcallback_handlemessage","winui._win32_iprintdialogcallback_handlemessage"]
 old-location: dlgbox\iprintdialogcallback_handlemessage.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogcallback\iprintdialogcallbackhandlemessage.htm

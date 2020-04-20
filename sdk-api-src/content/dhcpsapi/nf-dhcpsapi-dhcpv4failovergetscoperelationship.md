@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetScopeRelationship
 title: DhcpV4FailoverGetScopeRelationship function (dhcpsapi.h)
-description: Retrieves the failover relationship that is configured on a specified DHCPv4 scope.
+description: Retrieves the failover relationship that is configured on a specified DHCPv4 scope.helpviewer_keywords: ["DhcpV4FailoverGetScopeRelationship","DhcpV4FailoverGetScopeRelationship function [DHCP]","dhcp.dhcpv4failovergetscoperelationship","dhcpsapi/DhcpV4FailoverGetScopeRelationship"]
 old-location: dhcp\dhcpv4failovergetscoperelationship.htm
 tech.root: DHCP
 ms.assetid: 795eb9ff-cc44-4567-b496-1bff559290b2

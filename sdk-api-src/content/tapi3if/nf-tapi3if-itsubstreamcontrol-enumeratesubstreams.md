@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITSubStreamControl.EnumerateSubStreams
 title: ITSubStreamControl::EnumerateSubStreams (tapi3if.h)
-description: The EnumerateSubStreams method enumerates currently available media substreams. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_SubStreams method.
+description: The EnumerateSubStreams method enumerates currently available media substreams. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_SubStreams method.helpviewer_keywords: ["EnumerateSubStreams","EnumerateSubStreams method [TAPI 2.2]","EnumerateSubStreams method [TAPI 2.2]","ITSubStreamControl interface","ITSubStreamControl interface [TAPI 2.2]","EnumerateSubStreams method","ITSubStreamControl.EnumerateSubStreams","ITSubStreamControl::EnumerateSubStreams","_tapi3_itsubstreamcontrol_enumeratesubstreams","tapi3.itsubstreamcontrol_enumeratesubstreams","tapi3if/ITSubStreamControl::EnumerateSubStreams"]
 old-location: tapi3\itsubstreamcontrol_enumeratesubstreams.htm
 tech.root: Tapi
 ms.assetid: 848d31e8-f878-4d33-b2b9-2d28e96bd14a

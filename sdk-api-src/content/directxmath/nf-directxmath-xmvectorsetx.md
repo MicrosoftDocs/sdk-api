@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorSetX
 title: XMVectorSetX function (directxmath.h)
-description: Set the value of the x component of an XMVECTOR Data Type.
+description: Set the value of the x component of an XMVECTOR Data Type.helpviewer_keywords: ["Use DirectX..XMVectorSetX","XMVectorSetX","XMVectorSetX method [DirectX Math Support APIs]","dxmath.xmvectorsetx"]
 old-location: dxmath\xmvectorsetx.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetX(XMVECTOR,float)

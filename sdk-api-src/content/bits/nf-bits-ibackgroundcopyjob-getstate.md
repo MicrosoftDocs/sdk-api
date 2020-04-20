@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetState
 title: IBackgroundCopyJob::GetState (bits.h)
-description: Retrieves the state of the job.
+description: Retrieves the state of the job.helpviewer_keywords: ["GetState","GetState method [BITS]","GetState method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetState method","IBackgroundCopyJob.GetState","IBackgroundCopyJob::GetState","_drz_ibackgroundcopyjob_getstate","bits.ibackgroundcopyjob_getstate","bits/IBackgroundCopyJob::GetState"]
 old-location: bits\ibackgroundcopyjob_getstate.htm
 tech.root: Bits
 ms.assetid: 32789bd2-2368-473b-accf-ac6e317d0172

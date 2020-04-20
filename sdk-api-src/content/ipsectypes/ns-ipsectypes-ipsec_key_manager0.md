@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes._IPSEC_KEY_MANAGER0
 title: IPSEC_KEY_MANAGER0 (ipsectypes.h)
-description: Used to register key management callbacks with IPsec.
+description: Used to register key management callbacks with IPsec.helpviewer_keywords: ["IPSEC_KEY_MANAGER0","IPSEC_KEY_MANAGER0 structure [Filtering]","IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY","fwp.ipsec_key_manager0","ipsectypes/IPSEC_KEY_MANAGER0"]
 old-location: fwp\ipsec_key_manager0.htm
 tech.root: fwp
 ms.assetid: 942F38AF-13F4-4A2E-A504-5085EC90E74C

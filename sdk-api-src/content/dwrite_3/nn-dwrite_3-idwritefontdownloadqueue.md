@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteFontDownloadQueue
 title: IDWriteFontDownloadQueue (dwrite_3.h)
-description: Interface that enqueues download requests for remote fonts, characters, glyphs, and font fragments.
+description: Interface that enqueues download requests for remote fonts, characters, glyphs, and font fragments.helpviewer_keywords: ["IDWriteFontDownloadQueue","IDWriteFontDownloadQueue interface [Direct Write]","IDWriteFontDownloadQueue interface [Direct Write]","described","directwrite.idwritefontdownloadqueue","dwrite_3/IDWriteFontDownloadQueue"]
 old-location: directwrite\idwritefontdownloadqueue.htm
 tech.root: DirectWrite
 ms.assetid: d1b1dfab-a22a-40bb-ffc4-eb094ac14217

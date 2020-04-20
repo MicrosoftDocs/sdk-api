@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.MCIWndGetDeviceID
 title: MCIWndGetDeviceID macro (vfw.h)
-description: The MCIWndGetDeviceID macro retrieves the identifier of the current MCI device to use with the mciSendCommand function. You can use this macro or explicitly send the MCIWNDM_GETDEVICEID message.
+description: The MCIWndGetDeviceID macro retrieves the identifier of the current MCI device to use with the mciSendCommand function. You can use this macro or explicitly send the MCIWNDM_GETDEVICEID message.helpviewer_keywords: ["MCIWndGetDeviceID","MCIWndGetDeviceID macro [Windows Multimedia]","_win32_MCIWndGetDeviceID","multimedia.mciwndgetdeviceid","vfw/MCIWndGetDeviceID"]
 old-location: multimedia\mciwndgetdeviceid.htm
 tech.root: Multimedia
 ms.assetid: 07477a6a-fe75-47b6-9771-c3a649523e2a

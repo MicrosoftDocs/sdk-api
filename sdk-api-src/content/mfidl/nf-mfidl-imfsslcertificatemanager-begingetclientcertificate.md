@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.BeginGetClientCertificate
 title: IMFSSLCertificateManager::BeginGetClientCertificate (mfidl.h)
-description: Starts an asynchronous call to get the client SSL certificate.
+description: Starts an asynchronous call to get the client SSL certificate.helpviewer_keywords: ["BeginGetClientCertificate","BeginGetClientCertificate method [Media Foundation]","BeginGetClientCertificate method [Media Foundation]","IMFSSLCertificateManager interface","IMFSSLCertificateManager interface [Media Foundation]","BeginGetClientCertificate method","IMFSSLCertificateManager.BeginGetClientCertificate","IMFSSLCertificateManager::BeginGetClientCertificate","mf.imfsslcertificatemanager_begingetclientcertificate","mfidl/IMFSSLCertificateManager::BeginGetClientCertificate"]
 old-location: mf\imfsslcertificatemanager_begingetclientcertificate.htm
 tech.root: medfound
 ms.assetid: e375cb97-bb43-4852-9671-dd8fdea34cef

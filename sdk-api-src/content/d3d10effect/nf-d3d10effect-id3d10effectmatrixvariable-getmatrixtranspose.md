@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.GetMatrixTranspose
 title: ID3D10EffectMatrixVariable::GetMatrixTranspose (d3d10effect.h)
-description: Transpose and get a floating-point matrix.
+description: Transpose and get a floating-point matrix.helpviewer_keywords: ["417baa18-036a-1c79-9d4f-9e61637c5308","GetMatrixTranspose","GetMatrixTranspose method [Direct3D 10]","GetMatrixTranspose method [Direct3D 10]","ID3D10EffectMatrixVariable interface","ID3D10EffectMatrixVariable interface [Direct3D 10]","GetMatrixTranspose method","ID3D10EffectMatrixVariable.GetMatrixTranspose","ID3D10EffectMatrixVariable::GetMatrixTranspose","d3d10effect/ID3D10EffectMatrixVariable::GetMatrixTranspose","direct3d10.id3d10effectmatrixvariable_getmatrixtranspose"]
 old-location: direct3d10\id3d10effectmatrixvariable_getmatrixtranspose.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_getmatrixtranspose.htm

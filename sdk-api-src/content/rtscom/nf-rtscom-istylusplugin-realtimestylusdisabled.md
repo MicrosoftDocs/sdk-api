@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IStylusPlugin.RealTimeStylusDisabled
 title: IStylusPlugin::RealTimeStylusDisabled (rtscom.h)
-description: Notifies the implementing plug-in that the RealTimeStylus Class (RTS) object is disabled.
+description: Notifies the implementing plug-in that the RealTimeStylus Class (RTS) object is disabled.helpviewer_keywords: ["62425c21-62fb-4a29-b024-8d5dc237b430","IStylusPlugin interface [Tablet PC]","RealTimeStylusDisabled method","IStylusPlugin.RealTimeStylusDisabled","IStylusPlugin::RealTimeStylusDisabled","RealTimeStylusDisabled","RealTimeStylusDisabled method [Tablet PC]","RealTimeStylusDisabled method [Tablet PC]","IStylusPlugin interface","rtscom/IStylusPlugin::RealTimeStylusDisabled","tablet.istylusplugin_realtimestylusdisabled"]
 old-location: tablet\istylusplugin_realtimestylusdisabled.htm
 tech.root: tablet
 ms.assetid: 62425c21-62fb-4a29-b024-8d5dc237b430

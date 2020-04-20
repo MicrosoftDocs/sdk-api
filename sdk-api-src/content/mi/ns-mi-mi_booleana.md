@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_BooleanA
 title: MI_BooleanA (mi.h)
-description: Represents an array of MI_Boolean types.
+description: Represents an array of MI_Boolean types.helpviewer_keywords: ["MI_BooleanA","MI_BooleanA structure [Windows Management Infrastructure (MI)]","mi/MI_BooleanA","wmi._mi_booleana","wmi_v2.mi_booleana"]
 old-location: wmi_v2\mi_booleana.htm
 tech.root: wmi_v2
 ms.assetid: d6e9c3b2-b9ef-4e59-bf9c-d36bf9a8d619

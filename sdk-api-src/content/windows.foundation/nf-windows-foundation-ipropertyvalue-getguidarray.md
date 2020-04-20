@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetGuidArray
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the array of Guid values that is stored in the current IPropertyValue object.
+description: Gets the array of Guid values that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetGuidArray","GetGuidArray method [Windows Runtime]","GetGuidArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetGuidArray method","IPropertyValue.GetGuidArray","IPropertyValue.IPropertyValue","IPropertyValue::GetGuidArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetGuidArray","winrt.ipropertyvalue_getguidarray"]
 old-location: winrt\ipropertyvalue_getguidarray.htm
 tech.root: WinRT
 ms.assetid: 83d19a18-3cd4-4343-8609-12e9a65b8e37

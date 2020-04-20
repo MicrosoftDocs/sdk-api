@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPCore.get_URL
 title: IWMPCore::get_URL (wmp.h)
-description: The get_URL method retrieves the name of the clip to play.
+description: The get_URL method retrieves the name of the clip to play.helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_URL method","IWMPCore.get_URL","IWMPCore::get_URL","IWMPCoreget_URL","get_URL","get_URL method [Windows Media Player]","get_URL method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_get_url","wmp/IWMPCore::get_URL"]
 old-location: wmp\iwmpcore_get_url.htm
 tech.root: WMP
 ms.assetid: 54d43a1c-807a-40a5-a703-262d75f88ca0

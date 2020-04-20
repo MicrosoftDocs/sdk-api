@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMethods
 title: IMetaDataImport::EnumMethods (rometadataapi.h)
-description: Enumerates MethodDef tokens representing methods of the specified type.
+description: Enumerates MethodDef tokens representing methods of the specified type.helpviewer_keywords: ["EnumMethods","EnumMethods method [Windows Runtime]","EnumMethods method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumMethods method","IMetaDataImport.EnumMethods","IMetaDataImport::EnumMethods","rometadataapi/IMetaDataImport::EnumMethods","winrt.imetadataimport_enummethods"]
 old-location: winrt\imetadataimport_enummethods.htm
 tech.root: WinRT
 ms.assetid: 3b0424d8-a0e3-4241-b957-d944e018cb31

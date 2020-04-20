@@ -1,7 +1,7 @@
 ---
 UID: NE:dxgi1_6.DXGI_GPU_PREFERENCE
 title: DXGI_GPU_PREFERENCE (dxgi1_6.h)
-description: The preference of GPU for the app to run on.
+description: The preference of GPU for the app to run on.helpviewer_keywords: ["DXGI_GPU_PREFERENCE","DXGI_GPU_PREFERENCE enumeration [DXGI]","DXGI_GPU_PREFERENCE_HIGH_PERFORMANCE","DXGI_GPU_PREFERENCE_MINIMUM_POWER","DXGI_GPU_PREFERENCE_UNSPECIFIED","direct3ddxgi.dxgi_gpu_preference","dxgi1_6/DXGI_GPU_PREFERENCE","dxgi1_6/DXGI_GPU_PREFERENCE_HIGH_PERFORMANCE","dxgi1_6/DXGI_GPU_PREFERENCE_MINIMUM_POWER","dxgi1_6/DXGI_GPU_PREFERENCE_UNSPECIFIED"]
 old-location: direct3ddxgi\dxgi_gpu_preference.htm
 tech.root: direct3ddxgi
 ms.assetid: 4228FF8B-968B-42B5-8355-226C7FE9F230

@@ -1,7 +1,7 @@
 ---
 UID: NN:msxml6.IXMLHTTPRequest3
 title: IXMLHTTPRequest3 (msxml6.h)
-description: Provides the methods and properties needed to configure and send HTTP requests and use callbacks to receive notifications during HTTP response processing.
+description: Provides the methods and properties needed to configure and send HTTP requests and use callbacks to receive notifications during HTTP response processing.helpviewer_keywords: ["IXMLHTTPRequest3","IXMLHTTPRequest3 interface [XMLHttpRequest2]","IXMLHTTPRequest3 interface [XMLHttpRequest2]","described","ixhr2.ixmlhttprequest3","msxml6/IXMLHTTPRequest3"]
 old-location: ixhr2\ixmlhttprequest3.htm
 tech.root: ixhr2
 ms.assetid: 66af3f84-585c-441e-b9be-4ec188d72a19

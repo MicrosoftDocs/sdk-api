@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetPosition
 title: IExecuteCommand::SetPosition (shobjidl_core.h)
-description: Sets the coordinates of a point used for display.
+description: Sets the coordinates of a point used for display.helpviewer_keywords: ["IExecuteCommand interface [Windows Shell]","SetPosition method","IExecuteCommand.SetPosition","IExecuteCommand::SetPosition","SetPosition","SetPosition method [Windows Shell]","SetPosition method [Windows Shell]","IExecuteCommand interface","_shell_IExecuteCommand_SetPosition","shell.IExecuteCommand_SetPosition","shobjidl_core/IExecuteCommand::SetPosition"]
 old-location: shell\IExecuteCommand_SetPosition.htm
 tech.root: shell
 ms.assetid: ead12c05-ce94-494d-9f31-9b0f341363b5

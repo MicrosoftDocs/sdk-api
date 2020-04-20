@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_PolicyReaders
 title: IAzAuthorizationStore::get_PolicyReaders (azroles.h)
-description: Retrieves the security identifiers (SIDs) of principals that act as policy readers in text form.
+description: Retrieves the security identifiers (SIDs) of principals that act as policy readers in text form.helpviewer_keywords: ["AzAuthorizationStore object [Security]","PolicyReaders property","IAzAuthorizationStore interface [Security]","PolicyReaders property","IAzAuthorizationStore.PolicyReaders","IAzAuthorizationStore.get_PolicyReaders","IAzAuthorizationStore::PolicyReaders","IAzAuthorizationStore::get_PolicyReaders","PolicyReaders property [Security]","PolicyReaders property [Security]","AzAuthorizationStore object","PolicyReaders property [Security]","IAzAuthorizationStore interface","azroles/IAzAuthorizationStore::PolicyReaders","azroles/IAzAuthorizationStore::get_PolicyReaders","get_PolicyReaders","security.azauthorizationstore_policyreaders"]
 old-location: security\azauthorizationstore_policyreaders.htm
 tech.root: SecAuthZ
 ms.assetid: 22479ced-b393-40d3-bb16-f3c3e595dacf

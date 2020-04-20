@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPError.get_item
 title: IWMPError::get_item (wmp.h)
-description: The get_item method retrieves a pointer to an IWMPErrorItem interface from the error queue.
+description: The get_item method retrieves a pointer to an IWMPErrorItem interface from the error queue.helpviewer_keywords: ["IWMPError interface [Windows Media Player]","get_item method","IWMPError.get_item","IWMPError::get_item","IWMPErrorget_item","get_item","get_item method [Windows Media Player]","get_item method [Windows Media Player]","IWMPError interface","wmp.iwmperror_get_item","wmp/IWMPError::get_item"]
 old-location: wmp\iwmperror_get_item.htm
 tech.root: WMP
 ms.assetid: 6fda2f53-e8d8-4b67-9aa1-72273fc68f6c

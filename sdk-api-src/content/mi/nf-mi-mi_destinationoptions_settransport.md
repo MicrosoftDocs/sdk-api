@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetTransport
 title: MI_DestinationOptions_SetTransport function (mi.h)
-description: Sets the transport to be used to communicate with the destination machine.
+description: Sets the transport to be used to communicate with the destination machine.helpviewer_keywords: ["MI_DESTINATIONOPTIONS_TRANPSORT_HTTPS","MI_DESTINATIONOPTIONS_TRANSPORT_HTTP","MI_DestinationOptions_SetTransport","MI_DestinationOptions_SetTransport function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_SetTransport","wmi_v2.mi_destinationoptions_settransport"]
 old-location: wmi_v2\mi_destinationoptions_settransport.htm
 tech.root: wmi_v2
 ms.assetid: 998ac6ee-29a4-49bf-8ca1-01b7afddd33f

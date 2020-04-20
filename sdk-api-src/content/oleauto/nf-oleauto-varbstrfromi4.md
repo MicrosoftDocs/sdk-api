@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBstrFromI4
 title: VarBstrFromI4 function (oleauto.h)
-description: Converts a long value to a BSTR value.
+description: Converts a long value to a BSTR value.helpviewer_keywords: ["VarBstrFromI4","VarBstrFromI4 function [Automation]","_oa96_VarBstrFromI4","automat.varbstrfromi4","oleauto/VarBstrFromI4"]
 old-location: automat\varbstrfromi4.htm
 tech.root: automat
 ms.assetid: ae4cc116-29b2-40cd-8990-531837c3fcb3

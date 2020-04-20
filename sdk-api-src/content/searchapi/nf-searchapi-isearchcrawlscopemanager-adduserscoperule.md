@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.AddUserScopeRule
 title: ISearchCrawlScopeManager::AddUserScopeRule (searchapi.h)
-description: Adds a new crawl scope rule when the user creates a new rule or adds a URL to be indexed.
+description: Adds a new crawl scope rule when the user creates a new rule or adds a URL to be indexed.helpviewer_keywords: ["AddUserScopeRule","AddUserScopeRule method [search]","AddUserScopeRule method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","AddUserScopeRule method","ISearchCrawlScopeManager.AddUserScopeRule","ISearchCrawlScopeManager::AddUserScopeRule","_search_ISearchCrawlScopeManager_AddUserScopeRule","search._search_ISearchCrawlScopeManager_AddUserScopeRule","searchapi/ISearchCrawlScopeManager::AddUserScopeRule"]
 old-location: search\_search_ISearchCrawlScopeManager_AddUserScopeRule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\adduserscoperule.htm

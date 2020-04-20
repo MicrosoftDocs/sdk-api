@@ -1,7 +1,7 @@
 ---
 UID: NF:appmgmt.UninstallApplication
 title: UninstallApplication function (appmgmt.h)
-description: The UninstallApplication function uninstalls a group policy application that handles setup and installation using Windows Installer .msi files.
+description: The UninstallApplication function uninstalls a group policy application that handles setup and installation using Windows Installer .msi files.helpviewer_keywords: ["UninstallApplication","UninstallApplication function [Group Policy]","appmgmt/UninstallApplication","policy.uninstallapplication"]
 old-location: policy\uninstallapplication.htm
 tech.root: Policy
 ms.assetid: d45494e2-d86e-4d94-a158-4024eacf46a2

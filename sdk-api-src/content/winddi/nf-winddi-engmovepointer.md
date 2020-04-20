@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngMovePointer
 title: EngMovePointer function (winddi.h)
-description: The EngMovePointer function moves the engine-managed pointer on the device.
+description: The EngMovePointer function moves the engine-managed pointer on the device.helpviewer_keywords: ["EngMovePointer","EngMovePointer function [Display Devices]","display.engmovepointer","gdifncs_2499e137-74e8-4624-8595-65d4fb489973.xml","winddi/EngMovePointer"]
 old-location: display\engmovepointer.htm
 tech.root: display
 ms.assetid: 6f427839-034e-46c3-a3b0-703a003af1e4

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SysStringLen
 title: SysStringLen function (oleauto.h)
-description: Returns the length of a BSTR.
+description: Returns the length of a BSTR.helpviewer_keywords: ["SysStringLen","SysStringLen function [Automation]","_oa96_SysStringLen","automat.sysstringlen","oleauto/SysStringLen"]
 old-location: automat\sysstringlen.htm
 tech.root: automat
 ms.assetid: 65e792af-f8a8-4cdc-a279-494bba59394a

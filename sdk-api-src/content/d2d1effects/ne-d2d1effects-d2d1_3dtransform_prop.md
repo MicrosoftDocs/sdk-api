@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects.D2D1_3DTRANSFORM_PROP
 title: D2D1_3DTRANSFORM_PROP (d2d1effects.h)
-description: Identifiers for properties of the 3D transform effect.
+description: Identifiers for properties of the 3D transform effect.helpviewer_keywords: ["D2D1_3DTRANSFORM_PROP","D2D1_3DTRANSFORM_PROP enumeration [Direct2D]","D2D1_3DTRANSFORM_PROP_BORDER_MODE","D2D1_3DTRANSFORM_PROP_INTERPOLATION_MODE","D2D1_3DTRANSFORM_PROP_TRANSFORM_MATRIX","d2d1effects/D2D1_3DTRANSFORM_PROP","d2d1effects/D2D1_3DTRANSFORM_PROP_BORDER_MODE","d2d1effects/D2D1_3DTRANSFORM_PROP_INTERPOLATION_MODE","d2d1effects/D2D1_3DTRANSFORM_PROP_TRANSFORM_MATRIX","direct2d.d2d1_3dtransform_prop"]
 old-location: direct2d\d2d1_3dtransform_prop.htm
 tech.root: Direct2D
 ms.assetid: 56004ED1-66E2-44ED-B274-E7FF8C641954

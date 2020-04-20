@@ -1,7 +1,7 @@
 ---
 UID: NF:locationapi.ILatLongReport.GetAltitude
 title: ILatLongReport::GetAltitude (locationapi.h)
-description: Retrieves the altitude, in meters. Altitude is relative to the reference ellipsoid.
+description: Retrieves the altitude, in meters. Altitude is relative to the reference ellipsoid.helpviewer_keywords: ["GetAltitude","GetAltitude method [WinLocation]","GetAltitude method [WinLocation]","ILatLongReport interface","ILatLongReport interface [WinLocation]","GetAltitude method","ILatLongReport.GetAltitude","ILatLongReport::GetAltitude","WinLocation_COM_Ref.ilatlongreport_getaltitude","locationapi/ILatLongReport::GetAltitude"]
 old-location: winlocation_com_ref\ilatlongreport_getaltitude.htm
 tech.root: locationapi
 ms.assetid: 7ab8e3fb-03da-4529-aaf0-3a178474e4a5

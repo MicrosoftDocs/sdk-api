@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetDisplayName
 title: IBackgroundCopyJob::GetDisplayName (bits.h)
-description: Retrieves the display name for the job. Typically, you use the display name to identify the job in a user interface.
+description: Retrieves the display name for the job. Typically, you use the display name to identify the job in a user interface.helpviewer_keywords: ["GetDisplayName","GetDisplayName method [BITS]","GetDisplayName method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetDisplayName method","IBackgroundCopyJob.GetDisplayName","IBackgroundCopyJob::GetDisplayName","_drz_ibackgroundcopyjob_getdisplayname","bits.ibackgroundcopyjob_getdisplayname","bits/IBackgroundCopyJob::GetDisplayName"]
 old-location: bits\ibackgroundcopyjob_getdisplayname.htm
 tech.root: Bits
 ms.assetid: 934cff3e-d4b8-4b76-96e1-fd7ded1842eb

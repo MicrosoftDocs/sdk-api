@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.ApplyStreamSelections
 title: IMFMediaEngineEx::ApplyStreamSelections (mfmediaengine.h)
-description: Applies the stream selections from previous calls to SetStreamSelection.
+description: Applies the stream selections from previous calls to SetStreamSelection.helpviewer_keywords: ["ApplyStreamSelections","ApplyStreamSelections method [Media Foundation]","ApplyStreamSelections method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","ApplyStreamSelections method","IMFMediaEngineEx.ApplyStreamSelections","IMFMediaEngineEx::ApplyStreamSelections","mf.imfmediaengineex_applystreamselections","mfmediaengine/IMFMediaEngineEx::ApplyStreamSelections"]
 old-location: mf\imfmediaengineex_applystreamselections.htm
 tech.root: medfound
 ms.assetid: aaf8ad21-a790-4a78-b733-b6e3ffd859e1

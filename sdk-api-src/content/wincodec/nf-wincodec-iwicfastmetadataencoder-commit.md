@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICFastMetadataEncoder.Commit
 title: IWICFastMetadataEncoder::Commit (wincodec.h)
-description: Finalizes metadata changes to the image stream.
+description: Finalizes metadata changes to the image stream.helpviewer_keywords: ["Commit","Commit method [Windows Imaging Component]","Commit method [Windows Imaging Component]","IWICFastMetadataEncoder interface","IWICFastMetadataEncoder interface [Windows Imaging Component]","Commit method","IWICFastMetadataEncoder.Commit","IWICFastMetadataEncoder::Commit","_wic_codec_iwicfastmetadataencoder_commit","wic._wic_codec_iwicfastmetadataencoder_commit","wincodec/IWICFastMetadataEncoder::Commit"]
 old-location: wic\_wic_codec_iwicfastmetadataencoder_commit.htm
 tech.root: wic
 ms.assetid: 24f3b0f8-8991-4f55-aeb6-a2bbf09a29c7

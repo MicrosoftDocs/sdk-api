@@ -1,7 +1,7 @@
 ---
 UID: NN:vpconfig.IVPBaseConfig
 title: IVPBaseConfig (vpconfig.h)
-description: IVPBaseConfig is implemented on a filter that wraps a hardware device such as a decoder or capture device, if the device has a video port to the graphics adapter.
+description: IVPBaseConfig is implemented on a filter that wraps a hardware device such as a decoder or capture device, if the device has a video port to the graphics adapter.helpviewer_keywords: ["IVPBaseConfig","IVPBaseConfig interface [DirectShow]","IVPBaseConfig interface [DirectShow]","described","IVPBaseConfigInterface","dshow.ivpbaseconfig","vpconfig/IVPBaseConfig"]
 old-location: dshow\ivpbaseconfig.htm
 tech.root: DirectShow
 ms.assetid: d9a4f395-3d2f-429a-884d-90131927a929

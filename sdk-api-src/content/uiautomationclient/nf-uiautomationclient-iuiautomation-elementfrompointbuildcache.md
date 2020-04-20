@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromPointBuildCache
 title: IUIAutomation::ElementFromPointBuildCache (uiautomationclient.h)
-description: Retrieves the UI Automation element at the specified point on the desktop, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
+description: Retrieves the UI Automation element at the specified point on the desktop, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.helpviewer_keywords: ["ElementFromPointBuildCache","ElementFromPointBuildCache method [Windows Accessibility]","ElementFromPointBuildCache method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","ElementFromPointBuildCache method","IUIAutomation.ElementFromPointBuildCache","IUIAutomation::ElementFromPointBuildCache","uiauto.uiauto_IUIAutomation_ElementFromPointBuildCache","uiauto_IUIAutomation_ElementFromPointBuildCache","uiautomationclient/IUIAutomation::ElementFromPointBuildCache","winauto.uiauto_IUIAutomation_ElementFromPointBuildCache"]
 old-location: winauto\uiauto_IUIAutomation_ElementFromPointBuildCache.htm
 tech.root: WinAuto
 ms.assetid: fb3a8773-270a-4e33-bcbe-bde7794ea4ad

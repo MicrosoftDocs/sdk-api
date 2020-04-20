@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_ENDPOINT_ADDRESS
 title: WS_ENDPOINT_ADDRESS (webservices.h)
-description: Represents the network address of an endpoint.
+description: Represents the network address of an endpoint.helpviewer_keywords: ["WS_ENDPOINT_ADDRESS","WS_ENDPOINT_ADDRESS structure [Web Services for Windows]","webservices/WS_ENDPOINT_ADDRESS","wsw.ws_endpoint_address"]
 old-location: wsw\ws_endpoint_address.htm
 tech.root: wsw
 ms.assetid: 4e9b5f3e-849f-46aa-a94a-3cd6ae16275f

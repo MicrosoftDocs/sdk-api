@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetDigitSubstitutionLanguage
 title: StringFormat::GetDigitSubstitutionLanguage (gdiplusstringformat.h)
-description: The StringFormat::GetDigitSubstitutionLanguage method gets the language that corresponds with the digits that are to be substituted for Western European digits.
+description: The StringFormat::GetDigitSubstitutionLanguage method gets the language that corresponds with the digits that are to be substituted for Western European digits.helpviewer_keywords: ["GetDigitSubstitutionLanguage","GetDigitSubstitutionLanguage method [GDI+]","GetDigitSubstitutionLanguage method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetDigitSubstitutionLanguage method","StringFormat.GetDigitSubstitutionLanguage","StringFormat::GetDigitSubstitutionLanguage","_gdiplus_CLASS_StringFormat_GetDigitSubstitutionLanguage_","gdiplus._gdiplus_CLASS_StringFormat_GetDigitSubstitutionLanguage_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetDigitSubstitutionLanguage_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getdigitsubstitutionlanguage.htm

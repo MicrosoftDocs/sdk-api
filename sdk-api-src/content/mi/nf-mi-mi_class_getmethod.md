@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Class_GetMethod
 title: MI_Class_GetMethod function (mi.h)
-description: Gets details of a method based on the method name.
+description: Gets details of a method based on the method name.helpviewer_keywords: ["MI_Class_GetMethod","MI_Class_GetMethod function [Windows Management Infrastructure (MI)]","mi/MI_Class_GetMethod","wmi_v2.mi_class_getmethod"]
 old-location: wmi_v2\mi_class_getmethod.htm
 tech.root: wmi_v2
 ms.assetid: 9e6f6ef0-ca19-4416-baf7-bb2ab1d6d33d

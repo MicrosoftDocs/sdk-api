@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMTimecodeReader.GetTCRMode
 title: IAMTimecodeReader::GetTCRMode (strmif.h)
-description: The GetTCRMode method retrieves the timecode reader's properties.
+description: The GetTCRMode method retrieves the timecode reader's properties.helpviewer_keywords: ["GetTCRMode","GetTCRMode method [DirectShow]","GetTCRMode method [DirectShow]","IAMTimecodeReader interface","IAMTimecodeReader interface [DirectShow]","GetTCRMode method","IAMTimecodeReader.GetTCRMode","IAMTimecodeReader::GetTCRMode","IAMTimecodeReaderGetTCRMode","dshow.iamtimecodereader_gettcrmode","strmif/IAMTimecodeReader::GetTCRMode"]
 old-location: dshow\iamtimecodereader_gettcrmode.htm
 tech.root: DirectShow
 ms.assetid: 227c5d8e-fbaf-4bf8-a8c8-954e14e51a24

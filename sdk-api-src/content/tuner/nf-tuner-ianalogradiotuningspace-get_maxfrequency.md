@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace.get_MaxFrequency
 title: IAnalogRadioTuningSpace::get_MaxFrequency (tuner.h)
-description: The get_MaxFrequency method retrieves the maximum frequency for this tuning space.
+description: The get_MaxFrequency method retrieves the maximum frequency for this tuning space.helpviewer_keywords: ["IAnalogRadioTuningSpace interface [Microsoft TV Technologies]","get_MaxFrequency method","IAnalogRadioTuningSpace.get_MaxFrequency","IAnalogRadioTuningSpace::get_MaxFrequency","IAnalogRadioTuningSpaceget_MaxFrequency","get_MaxFrequency","get_MaxFrequency method [Microsoft TV Technologies]","get_MaxFrequency method [Microsoft TV Technologies]","IAnalogRadioTuningSpace interface","mstv.ianalogradiotuningspace_get_maxfrequency","tuner/IAnalogRadioTuningSpace::get_MaxFrequency"]
 old-location: mstv\ianalogradiotuningspace_get_maxfrequency.htm
 tech.root: mstv
 ms.assetid: baf4fe54-6e8c-49a7-b99f-4efeb7c65757

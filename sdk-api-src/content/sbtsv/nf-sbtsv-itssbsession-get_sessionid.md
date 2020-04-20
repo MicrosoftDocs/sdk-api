@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_SessionId
 title: ITsSbSession::get_SessionId (sbtsv.h)
-description: Retrieves the session ID.
+description: Retrieves the session ID.helpviewer_keywords: ["ITsSbSession interface [Remote Desktop Services]","SessionId property","ITsSbSession.SessionId","ITsSbSession.get_SessionId","ITsSbSession::SessionId","ITsSbSession::get_SessionId","SessionId property [Remote Desktop Services]","SessionId property [Remote Desktop Services]","ITsSbSession interface","get_SessionId","sbtsv/ITsSbSession::SessionId","sbtsv/ITsSbSession::get_SessionId","termserv.itssbsession_sessionid"]
 old-location: termserv\itssbsession_sessionid.htm
 tech.root: TermServ
 ms.assetid: aede96ba-2fad-4cff-a710-dd1f668a2a34

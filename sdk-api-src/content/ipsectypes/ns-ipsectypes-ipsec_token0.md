@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_TOKEN0_
 title: IPSEC_TOKEN0 (ipsectypes.h)
-description: Various information about an IPsec-specific access token.
+description: Various information about an IPsec-specific access token.helpviewer_keywords: ["IPSEC_TOKEN0","IPSEC_TOKEN0 structure [Filtering]","fwp.ipsec_token0","ipsectypes/IPSEC_TOKEN0"]
 old-location: fwp\ipsec_token0.htm
 tech.root: fwp
 ms.assetid: 12adf88e-05c7-4e08-bbf7-6da529387af1

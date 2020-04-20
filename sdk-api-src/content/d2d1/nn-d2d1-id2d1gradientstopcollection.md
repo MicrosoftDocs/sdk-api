@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1GradientStopCollection
 title: ID2D1GradientStopCollection (d2d1.h)
-description: Represents an collection of D2D1_GRADIENT_STOP objects for linear and radial gradient brushes.
+description: Represents an collection of D2D1_GRADIENT_STOP objects for linear and radial gradient brushes.helpviewer_keywords: ["ID2D1GradientStopCollection","ID2D1GradientStopCollection interface [Direct2D]","ID2D1GradientStopCollection interface [Direct2D]","described","d2d1/ID2D1GradientStopCollection","direct2d.ID2D1GradientStopCollection"]
 old-location: direct2d\ID2D1GradientStopCollection.htm
 tech.root: Direct2D
 ms.assetid: 982abf9c-4778-4871-a494-5843f0c0addc

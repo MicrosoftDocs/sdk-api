@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextServices.TxGetCachedSize
 title: ITextServices::TxGetCachedSize (textserv.h)
-description: Returns the cached drawing logical size (if any) that text services is using. Typically, this will be the size of the last client rectangle used in ITextServices::TxDraw, ITextServices::OnTxSetCursor, and so forth, although it is not guaranteed to be.
+description: Returns the cached drawing logical size (if any) that text services is using. Typically, this will be the size of the last client rectangle used in ITextServices::TxDraw, ITextServices::OnTxSetCursor, and so forth, although it is not guaranteed to be.helpviewer_keywords: ["ITextServices interface [Windows Controls]","TxGetCachedSize method","ITextServices.TxGetCachedSize","ITextServices::TxGetCachedSize","TxGetCachedSize","TxGetCachedSize method [Windows Controls]","TxGetCachedSize method [Windows Controls]","ITextServices interface","_win32_ITextServices_TxGetCachedSize","_win32_ITextServices_TxGetCachedSize_cpp","controls.ITextServices_TxGetCachedSize","controls._win32_ITextServices_TxGetCachedSize","textserv/ITextServices::TxGetCachedSize"]
 old-location: controls\ITextServices_TxGetCachedSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcachedsize.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:qnetwork.IAMChannelInfo.get_ChannelURL
 title: IAMChannelInfo::get_ChannelURL (qnetwork.h)
-description: The get_ChannelURL method retrieves the channel URL.
+description: The get_ChannelURL method retrieves the channel URL.helpviewer_keywords: ["IAMChannelInfo interface [DirectShow]","get_ChannelURL method","IAMChannelInfo.get_ChannelURL","IAMChannelInfo::get_ChannelURL","IAMChannelInfoget_ChannelURL","dshow.iamchannelinfo_get_channelurl","get_ChannelURL","get_ChannelURL method [DirectShow]","get_ChannelURL method [DirectShow]","IAMChannelInfo interface","qnetwork/IAMChannelInfo::get_ChannelURL"]
 old-location: dshow\iamchannelinfo_get_channelurl.htm
 tech.root: DirectShow
 ms.assetid: 27e1a315-db95-4f24-94b6-b10023e61e7a

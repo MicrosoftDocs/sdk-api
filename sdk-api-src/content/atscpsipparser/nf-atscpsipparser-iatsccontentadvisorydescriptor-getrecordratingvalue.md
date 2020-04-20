@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRecordRatingValue
 title: IAtscContentAdvisoryDescriptor::GetRecordRatingValue (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordRatingValue","GetRecordRatingValue method [Microsoft TV Technologies]","GetRecordRatingValue method [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","GetRecordRatingValue method","IAtscContentAdvisoryDescriptor.GetRecordRatingValue","IAtscContentAdvisoryDescriptor::GetRecordRatingValue","IAtscContentAdvisoryDescriptorGetRecordRatingValue","atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingValue","mstv.iatsccontentadvisorydescriptor_getrecordratingvalue"]
 old-location: mstv\iatsccontentadvisorydescriptor_getrecordratingvalue.htm
 tech.root: mstv
 ms.assetid: c380d920-8d12-4965-8a5c-88e2f5861a09

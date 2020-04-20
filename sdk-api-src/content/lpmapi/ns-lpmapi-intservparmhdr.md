@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_17
 title: IntServParmHdr (lpmapi.h)
-description: The IntServParmHdr structure is a header for Integrated Services parameters.
+description: The IntServParmHdr structure is a header for Integrated Services parameters.helpviewer_keywords: ["IntServParmHdr","IntServParmHdr structure [QOS]","lpmapi/IntServParmHdr","qos.intservparmhdr"]
 old-location: qos\intservparmhdr.htm
 tech.root: QOS
 ms.assetid: 56ca242e-d5e9-4c16-9c8e-70a356375683

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.DFileSystemImageEvents.Update
 title: DFileSystemImageEvents::Update (imapi2fs.h)
-description: Implement this method to receive progress notification of the current write operation. The notifications are sent when copying the content of a file or while adding directories or files to the file system image.
+description: Implement this method to receive progress notification of the current write operation. The notifications are sent when copying the content of a file or while adding directories or files to the file system image.helpviewer_keywords: ["DFileSystemImageEvents interface [IMAPI]","Update method","DFileSystemImageEvents.Update","DFileSystemImageEvents::Update","Update","Update method [IMAPI]","Update method [IMAPI]","DFileSystemImageEvents interface","imapi.dfilesystemimageevents_update","imapi2fs/DFileSystemImageEvents::Update"]
 old-location: imapi\dfilesystemimageevents_update.htm
 tech.root: imapi
 ms.assetid: 7d639391-77ee-4889-a11b-1bbd1b88b38e

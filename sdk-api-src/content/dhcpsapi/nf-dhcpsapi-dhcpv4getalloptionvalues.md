@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpV4GetAllOptionValues
 title: DhcpV4GetAllOptionValues function (dhcpsapi.h)
-description: Retrieves an array of DHCP option values (the option code and associated data) for a particular scope.
+description: Retrieves an array of DHCP option values (the option code and associated data) for a particular scope.helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpV4GetAllOptionValues","DhcpV4GetAllOptionValues function [DHCP]","dhcp.dhcpv4getalloptionvalues","dhcpsapi/DhcpV4GetAllOptionValues"]
 old-location: dhcp\dhcpv4getalloptionvalues.htm
 tech.root: DHCP
 ms.assetid: 3c2fff2f-3d79-4e0d-8a31-9917088b1413

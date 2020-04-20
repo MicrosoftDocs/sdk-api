@@ -1,7 +1,7 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS
 title: BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS (bluetoothapis.h)
-description: BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure contains specific configuration information about the Bluetooth device responding to an authentication request.
+description: BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure contains specific configuration information about the Bluetooth device responding to an authentication request.helpviewer_keywords: ["*PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS","BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS","BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure [Bluetooth]","PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS","PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure pointer [Bluetooth]","bluetooth.bluetooth_authentication_callback_params","bluetoothapis/BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS","bluetoothapis/PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS"]
 old-location: bluetooth\bluetooth_authentication_callback_params.htm
 tech.root: bluetooth
 ms.assetid: e9c703c1-7981-4c34-a96e-0123d3655e55

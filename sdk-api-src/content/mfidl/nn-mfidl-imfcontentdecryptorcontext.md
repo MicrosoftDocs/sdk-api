@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFContentDecryptorContext
 title: IMFContentDecryptorContext (mfidl.h)
-description: Allows a decryptor to manage hardware keys and decrypt hardware samples.
+description: Allows a decryptor to manage hardware keys and decrypt hardware samples.helpviewer_keywords: ["IMFContentDecryptorContext","IMFContentDecryptorContext interface [Media Foundation]","IMFContentDecryptorContext interface [Media Foundation]","described","mf.imfcontentdecryptorcontext","mfidl/IMFContentDecryptorContext"]
 old-location: mf\imfcontentdecryptorcontext.htm
 tech.root: medfound
 ms.assetid: 94DB835F-3D2A-4CC8-A1CF-10215E3D30D6

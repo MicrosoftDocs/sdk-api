@@ -1,7 +1,7 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_CCS_KEY
 title: HTTP_SERVICE_CONFIG_SSL_CCS_KEY (http.h)
-description: Serves as the key by which identifies the SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the port receives a Transport Layer Security (TLS) handshake.
+description: Serves as the key by which identifies the SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the port receives a Transport Layer Security (TLS) handshake.helpviewer_keywords: ["*PHTTP_SERVICE_CONFIG_SSL_CCS_KEY","HTTP_SERVICE_CONFIG_SSL_CCS_KEY","HTTP_SERVICE_CONFIG_SSL_CCS_KEY structure [HTTP]","PHTTP_SERVICE_CONFIG_SSL_CCS_KEY","PHTTP_SERVICE_CONFIG_SSL_CCS_KEY structure pointer [HTTP]","http.http_service_config_ssl_ccs_key","http/HTTP_SERVICE_CONFIG_SSL_CCS_KEY","http/PHTTP_SERVICE_CONFIG_SSL_CCS_KEY"]
 old-location: http\http_service_config_ssl_ccs_key.htm
 tech.root: http
 ms.assetid: C40070D6-AE19-4E42-A7C6-38F8AF5C1F53

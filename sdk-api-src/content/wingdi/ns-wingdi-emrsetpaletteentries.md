@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRSETPALETTEENTRIES
 title: EMRSETPALETTEENTRIES (wingdi.h)
-description: The EMRSETPALETTEENTRIES structure contains members for the SetPaletteEntries enhanced metafile record.
+description: The EMRSETPALETTEENTRIES structure contains members for the SetPaletteEntries enhanced metafile record.helpviewer_keywords: ["*PEMRSETPALETTEENTRIES","EMRSETPALETTEENTRIES","EMRSETPALETTEENTRIES structure [Windows GDI]","PEMRSETPALETTEENTRIES","PEMRSETPALETTEENTRIES structure pointer [Windows GDI]","_win32_EMRSETPALETTEENTRIES_str","gdi.emrsetpaletteentries","wingdi/EMRSETPALETTEENTRIES","wingdi/PEMRSETPALETTEENTRIES"]
 old-location: gdi\emrsetpaletteentries.htm
 tech.root: gdi
 ms.assetid: df75567e-150f-4f88-b6ae-938b451a7b7d

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_RequestedWriteSpeed
 title: IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed (imapi2.h)
-description: Retrieves the requested write speed.
+description: Retrieves the requested write speed.helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_RequestedWriteSpeed method","IDiscFormat2TrackAtOnce.get_RequestedWriteSpeed","IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed","get_RequestedWriteSpeed","get_RequestedWriteSpeed method [IMAPI]","get_RequestedWriteSpeed method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_requestedwritespeed","imapi2/IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed"]
 old-location: imapi\idiscformat2trackatonce_get_requestedwritespeed.htm
 tech.root: imapi
 ms.assetid: 8fe83f25-9d7d-472d-9b84-90e00c0b5a51

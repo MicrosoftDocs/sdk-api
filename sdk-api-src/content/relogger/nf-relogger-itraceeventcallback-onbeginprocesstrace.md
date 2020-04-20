@@ -1,7 +1,7 @@
 ---
 UID: NF:relogger.ITraceEventCallback.OnBeginProcessTrace
 title: ITraceEventCallback::OnBeginProcessTrace (relogger.h)
-description: Indicates that a trace is about to begin so that relogging can be started.
+description: Indicates that a trace is about to begin so that relogging can be started.helpviewer_keywords: ["ITraceEventCallback interface [ETW]","OnBeginProcessTrace method","ITraceEventCallback.OnBeginProcessTrace","ITraceEventCallback::OnBeginProcessTrace","OnBeginProcessTrace","OnBeginProcessTrace method [ETW]","OnBeginProcessTrace method [ETW]","ITraceEventCallback interface","etw.ieventcallback_onbeginprocesstrace","relogger/ITraceEventCallback::OnBeginProcessTrace"]
 old-location: etw\ieventcallback_onbeginprocesstrace.htm
 tech.root: ETW
 ms.assetid: acc6b1c4-9be1-490d-8b82-7ae8e73bd929

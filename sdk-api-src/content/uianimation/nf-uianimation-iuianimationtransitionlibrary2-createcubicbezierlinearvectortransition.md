@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateCubicBezierLinearVectorTransition
 title: IUIAnimationTransitionLibrary2::CreateCubicBezierLinearVectorTransition (uianimation.h)
-description: Creates a cubic Bézier linear vector transition for each specified dimension.
+description: Creates a cubic Bézier linear vector transition for each specified dimension.helpviewer_keywords: ["CreateCubicBezierLinearVectorTransition","CreateCubicBezierLinearVectorTransition method [Windows Animation]","CreateCubicBezierLinearVectorTransition method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateCubicBezierLinearVectorTransition method","IUIAnimationTransitionLibrary2.CreateCubicBezierLinearVectorTransition","IUIAnimationTransitionLibrary2::CreateCubicBezierLinearVectorTransition","uianimation.iuianimationtransitionlibrary2_createcubicbezierlinearvectortransition","uianimation/IUIAnimationTransitionLibrary2::CreateCubicBezierLinearVectorTransition"]
 old-location: uianimation\iuianimationtransitionlibrary2_createcubicbezierlinearvectortransition.htm
 tech.root: UIAnimation
 ms.assetid: AA1630D4-7E8B-4B1D-B3F8-1BDB9C3F73C7

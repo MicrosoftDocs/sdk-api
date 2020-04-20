@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPSettings.get_rate
 title: IWMPSettings::get_rate (wmp.h)
-description: The get_rate method retrieves the current playback rate for video.
+description: The get_rate method retrieves the current playback rate for video.helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","get_rate method","IWMPSettings.get_rate","IWMPSettings::get_rate","IWMPSettingsget_rate","get_rate","get_rate method [Windows Media Player]","get_rate method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_get_rate","wmp/IWMPSettings::get_rate"]
 old-location: wmp\iwmpsettings_get_rate.htm
 tech.root: WMP
 ms.assetid: 1c3f2938-733f-42fc-ae07-66aad715958b

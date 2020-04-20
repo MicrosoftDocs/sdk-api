@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SERVICE_PROPERTY
 title: WS_SERVICE_PROPERTY (webservices.h)
-description: Specifies a service specific setting.
+description: Specifies a service specific setting.helpviewer_keywords: ["WS_SERVICE_PROPERTY","WS_SERVICE_PROPERTY structure [Web Services for Windows]","webservices/WS_SERVICE_PROPERTY","wsw.ws_service_property"]
 old-location: wsw\ws_service_property.htm
 tech.root: wsw
 ms.assetid: d25cab25-2227-4afe-ae45-93a229d7f78b

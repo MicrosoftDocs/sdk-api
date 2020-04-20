@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmGetCompositionFontA
 title: ImmGetCompositionFontA function (immdev.h)
-description: Retrieves information about the logical font currently used to display characters in the composition window.
+description: Retrieves information about the logical font currently used to display characters in the composition window.helpviewer_keywords: ["ImmGetCompositionFont","ImmGetCompositionFont function [Internationalization for Windows Applications]","ImmGetCompositionFontA","ImmGetCompositionFontW","_win32_ImmGetCompositionFont","imm/ImmGetCompositionFont","imm/ImmGetCompositionFontA","imm/ImmGetCompositionFontW","intl.immgetcompositionfont"]
 old-location: intl\immgetcompositionfont.htm
 tech.root: Intl
 ms.assetid: c38f424f-84d4-4181-9ada-bbd178a70373

@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IInstallationBehavior.get_RequiresNetworkConnectivity
 title: IInstallationBehavior::get_RequiresNetworkConnectivity (wuapi.h)
-description: Gets a Boolean value that indicates whether the installation or uninstallation of an update requires network connectivity.
+description: Gets a Boolean value that indicates whether the installation or uninstallation of an update requires network connectivity.helpviewer_keywords: ["IInstallationBehavior interface [Windows Update Agent]","RequiresNetworkConnectivity property","IInstallationBehavior.RequiresNetworkConnectivity","IInstallationBehavior.get_RequiresNetworkConnectivity","IInstallationBehavior::RequiresNetworkConnectivity","IInstallationBehavior::get_RequiresNetworkConnectivity","RequiresNetworkConnectivity property [Windows Update Agent]","RequiresNetworkConnectivity property [Windows Update Agent]","IInstallationBehavior interface","get_RequiresNetworkConnectivity","wua.iinstallationbehavior_requiresnetworkconnectivity","wuapi/IInstallationBehavior::RequiresNetworkConnectivity","wuapi/IInstallationBehavior::get_RequiresNetworkConnectivity"]
 old-location: wua\iinstallationbehavior_requiresnetworkconnectivity.htm
 tech.root: Wua_Sdk
 ms.assetid: d74dd93a-17ba-4293-a146-19c86a8dfdf8

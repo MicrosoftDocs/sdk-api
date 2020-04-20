@@ -1,7 +1,7 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemSink
 title: ITfLangBarItemSink (ctfutb.h)
-description: The ITfLangBarItemSink interface is implemented by the language bar and used by a language bar item provider to notify the language bar of changes to a language bar item.
+description: The ITfLangBarItemSink interface is implemented by the language bar and used by a language bar item provider to notify the language bar of changes to a language bar item.helpviewer_keywords: ["ITfLangBarItemSink","ITfLangBarItemSink interface [Text Services Framework]","ITfLangBarItemSink interface [Text Services Framework]","described","_tsf_itflangbaritemsink_ref","ctfutb/ITfLangBarItemSink","tsf.itflangbaritemsink"]
 old-location: tsf\itflangbaritemsink.htm
 tech.root: TSF
 ms.assetid: 1734a011-1ee8-4afd-ace8-334eeaf14518

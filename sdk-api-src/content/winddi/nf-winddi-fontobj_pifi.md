@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.FONTOBJ_pifi
 title: FONTOBJ_pifi function (winddi.h)
-description: The FONTOBJ_pifi function retrieves the pointer to the IFIMETRICS structure associated with a specified font.
+description: The FONTOBJ_pifi function retrieves the pointer to the IFIMETRICS structure associated with a specified font.helpviewer_keywords: ["FONTOBJ_pifi","FONTOBJ_pifi function [Display Devices]","display.fontobj_pifi","gdifncs_702d11ac-850f-4e4d-aefa-1ccf404edb56.xml","winddi/FONTOBJ_pifi"]
 old-location: display\fontobj_pifi.htm
 tech.root: display
 ms.assetid: 797341c8-7346-477a-9c7c-b6abbeaac4b2

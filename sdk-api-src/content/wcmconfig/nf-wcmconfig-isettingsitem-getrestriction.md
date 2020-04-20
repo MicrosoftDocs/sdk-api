@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetRestriction
 title: ISettingsItem::GetRestriction (wcmconfig.h)
-description: Gets the information for a given restriction.
+description: Gets the information for a given restriction.helpviewer_keywords: ["GetRestriction","GetRestriction method [SMI]","GetRestriction method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetRestriction method","ISettingsItem.GetRestriction","ISettingsItem::GetRestriction","smi.isettingsitem_getrestriction","wcmconfig/ISettingsItem::GetRestriction"]
 old-location: smi\isettingsitem_getrestriction.htm
 tech.root: SMI
 ms.assetid: 14bc4956-e8ea-464b-949e-ddc7ae445c1a

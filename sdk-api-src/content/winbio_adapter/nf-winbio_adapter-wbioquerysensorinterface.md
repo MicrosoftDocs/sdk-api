@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio_adapter.WbioQuerySensorInterface
 title: WbioQuerySensorInterface function (winbio_adapter.h)
-description: Retrieves a pointer to the WINBIO_SENSOR_INTERFACE structure for the sensor adapter.
+description: Retrieves a pointer to the WINBIO_SENSOR_INTERFACE structure for the sensor adapter.helpviewer_keywords: ["WbioQuerySensorInterface","WbioQuerySensorInterface function [Windows Biometric Framework API]","secbiomet.wbioquerysensorinterface","winbio_adapter/WbioQuerySensorInterface"]
 old-location: secbiomet\wbioquerysensorinterface.htm
 tech.root: SecBioMet
 ms.assetid: 83ca38e1-3258-4676-bcdd-4876ec8f3ae1

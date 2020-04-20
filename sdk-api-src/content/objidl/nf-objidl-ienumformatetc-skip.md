@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Skip
 title: IEnumFORMATETC::Skip (objidl.h)
-description: Skips over the specified number of items in the enumeration sequence.
+description: Skips over the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumFORMATETC interface [COM]","Skip method","IEnumFORMATETC.Skip","IEnumFORMATETC::Skip","Skip","Skip method [COM]","Skip method [COM]","IEnumFORMATETC interface","_ole_ienumformatetc_skip","com.ienumformatetc_skip","objidl/IEnumFORMATETC::Skip"]
 old-location: com\ienumformatetc_skip.htm
 tech.root: com
 ms.assetid: 5fdf81ee-df31-4702-8b5e-f540ca3e6602

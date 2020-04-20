@@ -1,7 +1,7 @@
 ---
 UID: NF:mediaobj.IMediaBuffer.GetBufferAndLength
 title: IMediaBuffer::GetBufferAndLength (mediaobj.h)
-description: The GetBufferAndLength method retrieves the buffer and the size of the valid data in the buffer.
+description: The GetBufferAndLength method retrieves the buffer and the size of the valid data in the buffer.helpviewer_keywords: ["GetBufferAndLength","GetBufferAndLength method [DirectShow]","GetBufferAndLength method [DirectShow]","IMediaBuffer interface","IMediaBuffer interface [DirectShow]","GetBufferAndLength method","IMediaBuffer.GetBufferAndLength","IMediaBuffer::GetBufferAndLength","IMediaBufferGetBufferAndLength","dshow.imediabuffer_getbufferandlength","mediaobj/IMediaBuffer::GetBufferAndLength"]
 old-location: dshow\imediabuffer_getbufferandlength.htm
 tech.root: DirectShow
 ms.assetid: 255ef101-f004-41c8-afb8-437d21decee5

@@ -1,7 +1,7 @@
 ---
 UID: NS:cfgmgr32.PcCard_Resource_s
 title: PCCARD_RESOURCE (cfgmgr32.h)
-description: The PCCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance.
+description: The PCCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance.helpviewer_keywords: ["*PPCCARD_RESOURCE","PCCARD_RESOURCE","PCCARD_RESOURCE structure [Device and Driver Installation]","PPCCARD_RESOURCE","PPCCARD_RESOURCE structure pointer [Device and Driver Installation]","cfgmgr32/PCCARD_RESOURCE","cfgmgr32/PPCCARD_RESOURCE","cfgmgrst_e644b9fe-478c-4700-b461-1c4dca3c4d10.xml","devinst.pccard_resource"]
 old-location: devinst\pccard_resource.htm
 tech.root: devinst
 ms.assetid: 41f88d8f-2e1d-447d-90e2-6a2a5f7bef6f

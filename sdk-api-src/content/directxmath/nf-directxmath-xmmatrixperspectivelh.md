@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixPerspectiveLH
 title: XMMatrixPerspectiveLH function (directxmath.h)
-description: Builds a left-handed perspective projection matrix.
+description: Builds a left-handed perspective projection matrix.helpviewer_keywords: ["Use DirectX..XMMatrixPerspectiveLH","XMMatrixPerspectiveLH","XMMatrixPerspectiveLH method [DirectX Math Support APIs]","dxmath.xmmatrixperspectivelh"]
 old-location: dxmath\xmmatrixperspectivelh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixPerspectiveLH(float,float,float,float)

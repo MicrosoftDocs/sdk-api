@@ -1,7 +1,7 @@
 ---
 UID: NE:resapi._RESOURCE_EXIT_STATE
 title: RESOURCE_EXIT_STATE (resapi.h)
-description: Enumerates the possible exit states of a resource.
+description: Enumerates the possible exit states of a resource.helpviewer_keywords: ["RESOURCE_EXIT_STATE","RESOURCE_EXIT_STATE enumeration [Failover Cluster]","ResourceExitStateContinue","ResourceExitStateMax","ResourceExitStateTerminate","mscs.resource_exit_state","resapi/RESOURCE_EXIT_STATE","resapi/ResourceExitStateContinue","resapi/ResourceExitStateMax","resapi/ResourceExitStateTerminate"]
 old-location: mscs\resource_exit_state.htm
 tech.root: MsCS
 ms.assetid: d1b9fd8f-7d49-4396-8f0c-6db8fad5749e

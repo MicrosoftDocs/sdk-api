@@ -1,7 +1,7 @@
 ---
 UID: NF:vss.IVssAsync.Cancel
 title: IVssAsync::Cancel (vss.h)
-description: The Cancel method cancels an incomplete asynchronous operation.
+description: The Cancel method cancels an incomplete asynchronous operation.helpviewer_keywords: ["Cancel","Cancel method [VSS]","Cancel method [VSS]","IVssAsync interface","IVssAsync interface [VSS]","Cancel method","IVssAsync.Cancel","IVssAsync::Cancel","_win32_ivssasync_cancel","base.ivssasync_cancel","vss/IVssAsync::Cancel"]
 old-location: base\ivssasync_cancel.htm
 tech.root: VSS
 ms.assetid: 8ab44737-114b-4edc-a097-d0fa297f6276

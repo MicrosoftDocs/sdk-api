@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetTextRenderingParams
 title: ID2D1RenderTarget::GetTextRenderingParams (d2d1.h)
-description: Retrieves the render target's current text rendering options.
+description: Retrieves the render target's current text rendering options.helpviewer_keywords: ["GetTextRenderingParams","GetTextRenderingParams method [Direct2D]","GetTextRenderingParams method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetTextRenderingParams method","ID2D1RenderTarget.GetTextRenderingParams","ID2D1RenderTarget::GetTextRenderingParams","d2d1/ID2D1RenderTarget::GetTextRenderingParams","direct2d.ID2D1RenderTarget_GetTextRenderingParams"]
 old-location: direct2d\ID2D1RenderTarget_GetTextRenderingParams.htm
 tech.root: Direct2D
 ms.assetid: 563a13c9-7f13-4b38-afa1-72e847dc8349

@@ -1,7 +1,7 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0003
 title: UI_ANIMATION_MODE (uianimation.h)
-description: Defines animation modes.
+description: Defines animation modes.helpviewer_keywords: ["UI_ANIMATION_MODE","UI_ANIMATION_MODE enumeration [Windows Animation]","UI_ANIMATION_MODE_DISABLED","UI_ANIMATION_MODE_ENABLED","UI_ANIMATION_MODE_SYSTEM_DEFAULT","uianimation.ui_animation_mode","uianimation/UI_ANIMATION_MODE","uianimation/UI_ANIMATION_MODE_DISABLED","uianimation/UI_ANIMATION_MODE_ENABLED","uianimation/UI_ANIMATION_MODE_SYSTEM_DEFAULT"]
 old-location: uianimation\ui_animation_mode.htm
 tech.root: UIAnimation
 ms.assetid: b8995687-c0dc-4cd7-b11a-f871172895f9

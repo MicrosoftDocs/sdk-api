@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI8FromBool
 title: VarI8FromBool function (oleauto.h)
-description: Converts a Boolean value to an 8-byte integer value.
+description: Converts a Boolean value to an 8-byte integer value.helpviewer_keywords: ["VarI8FromBool","VarI8FromBool function [Automation]","_oa96_VarI8FromBool","automat.vari8frombool","oleauto/VarI8FromBool"]
 old-location: automat\vari8frombool.htm
 tech.root: automat
 ms.assetid: 5de56332-2e1c-444d-af14-3d217cd4494a

@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryWhereRestrictions
 title: ISearchQueryHelper::put_QueryWhereRestrictions (searchapi.h)
-description: Sets the restrictions appended to a query in WHERE clauses.
+description: Sets the restrictions appended to a query in WHERE clauses.helpviewer_keywords: ["ISearchQueryHelper interface [search]","put_QueryWhereRestrictions method","ISearchQueryHelper.put_QueryWhereRestrictions","ISearchQueryHelper::put_QueryWhereRestrictions","_search_ISearchQueryHelper_put_QueryWhereRestrictions","put_QueryWhereRestrictions","put_QueryWhereRestrictions method [search]","put_QueryWhereRestrictions method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_put_QueryWhereRestrictions","searchapi/ISearchQueryHelper::put_QueryWhereRestrictions"]
 old-location: search\_search_ISearchQueryHelper_put_QueryWhereRestrictions.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querywhererestrictions.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetComboBoxInfo
 title: GetComboBoxInfo function (winuser.h)
-description: Retrieves information about the specified combo box.
+description: Retrieves information about the specified combo box.helpviewer_keywords: ["GetComboBoxInfo","GetComboBoxInfo function [Windows Controls]","_win32_GetComboBoxInfo","_win32_GetComboBoxInfo_cpp","controls.GetComboBoxInfo","controls._win32_GetComboBoxInfo","winuser/GetComboBoxInfo"]
 old-location: controls\GetComboBoxInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\getcomboboxinfo.htm

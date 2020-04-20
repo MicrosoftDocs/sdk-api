@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.CommitIndex
 title: IMFASFIndexer::CommitIndex (wmcontainer.h)
-description: Adds information about a new index to the ContentInfo object associated with ASF content. You must call this method before copying the index to the content so that the index will be readable by the indexer later.
+description: Adds information about a new index to the ContentInfo object associated with ASF content. You must call this method before copying the index to the content so that the index will be readable by the indexer later.helpviewer_keywords: ["44b889e1-8860-44fa-b19f-5be9f844a194","CommitIndex","CommitIndex method [Media Foundation]","CommitIndex method [Media Foundation]","IMFASFIndexer interface","IMFASFIndexer interface [Media Foundation]","CommitIndex method","IMFASFIndexer.CommitIndex","IMFASFIndexer::CommitIndex","mf.imfasfindexer_commitindex","wmcontainer/IMFASFIndexer::CommitIndex"]
 old-location: mf\imfasfindexer_commitindex.htm
 tech.root: medfound
 ms.assetid: 44b889e1-8860-44fa-b19f-5be9f844a194

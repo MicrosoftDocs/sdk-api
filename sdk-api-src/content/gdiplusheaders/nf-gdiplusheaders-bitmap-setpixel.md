@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.SetPixel
 title: Bitmap::SetPixel (gdiplusheaders.h)
-description: The Bitmap::SetPixel method sets the color of a specified pixel in this bitmap.
+description: The Bitmap::SetPixel method sets the color of a specified pixel in this bitmap.helpviewer_keywords: ["Bitmap class [GDI+]","SetPixel method","Bitmap.SetPixel","Bitmap::SetPixel","SetPixel","SetPixel method [GDI+]","SetPixel method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_SetPixel_x_y_color_","gdiplus._gdiplus_CLASS_Bitmap_SetPixel_x_y_color_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_SetPixel_x_y_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\setpixel.htm

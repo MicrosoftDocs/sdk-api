@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.LayOut
 title: ICreateTypeInfo::LayOut (oaidl.h)
-description: Assigns VTBL offsets for virtual functions and instance offsets for per-instance data members, and creates the two type descriptions for dual interfaces.
+description: Assigns VTBL offsets for virtual functions and instance offsets for per-instance data members, and creates the two type descriptions for dual interfaces.helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","LayOut method","ICreateTypeInfo.LayOut","ICreateTypeInfo::LayOut","LayOut","LayOut method [Automation]","LayOut method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_LayOut","automat.icreatetypeinfo_layout","oaidl/ICreateTypeInfo::LayOut"]
 old-location: automat\icreatetypeinfo_layout.htm
 tech.root: automat
 ms.assetid: 3880aad3-8a6f-43e6-8420-25c4d1b9a71a

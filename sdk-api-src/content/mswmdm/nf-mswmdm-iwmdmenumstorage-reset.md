@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMEnumStorage.Reset
 title: IWMDMEnumStorage::Reset (mswmdm.h)
-description: The Reset method sets the enumeration sequence back to the beginning.
+description: The Reset method sets the enumeration sequence back to the beginning.helpviewer_keywords: ["IWMDMEnumStorage interface [windows Media Device Manager]","Reset method","IWMDMEnumStorage.Reset","IWMDMEnumStorage::Reset","IWMDMEnumStorageReset","Reset","Reset method [windows Media Device Manager]","Reset method [windows Media Device Manager]","IWMDMEnumStorage interface","mswmdm/IWMDMEnumStorage::Reset","wmdm.iwmdmenumstorage_reset"]
 old-location: wmdm\iwmdmenumstorage_reset.htm
 tech.root: WMDM
 ms.assetid: 1c582374-cbec-4b7c-b46b-9a0dd8b028d6

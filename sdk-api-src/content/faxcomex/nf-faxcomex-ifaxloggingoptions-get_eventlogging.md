@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxLoggingOptions.get_EventLogging
 title: IFaxLoggingOptions::get_EventLogging (faxcomex.h)
-description: The EventLogging property retrieves the FaxEventLogging configuration object.
+description: The EventLogging property retrieves the FaxEventLogging configuration object.helpviewer_keywords: ["EventLogging property [Fax Service]","EventLogging property [Fax Service]","IFaxLoggingOptions interface","IFaxLoggingOptions interface [Fax Service]","EventLogging property","IFaxLoggingOptions.EventLogging","IFaxLoggingOptions.get_EventLogging","IFaxLoggingOptions::EventLogging","IFaxLoggingOptions::get_EventLogging","_mfax_faxloggingoptions.eventlogging","fax._mfax_faxloggingoptions_cpp_mfax_faxloggingoptions_eventlogging_cpp","fax._mfax_faxloggingoptions_eventlogging","faxcomex/IFaxLoggingOptions::EventLogging","faxcomex/IFaxLoggingOptions::get_EventLogging","get_EventLogging"]
 old-location: fax\_mfax_faxloggingoptions_cpp_mfax_faxloggingoptions_eventlogging_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6rqf.htm

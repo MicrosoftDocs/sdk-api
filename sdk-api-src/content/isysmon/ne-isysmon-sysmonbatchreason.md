@@ -1,7 +1,7 @@
 ---
 UID: NE:isysmon.__MIDL___MIDL_itf_sysmon_0000_0000_0003
 title: SysmonBatchReason (isysmon.h)
-description: Defines the reason for locking the System Monitor.
+description: Defines the reason for locking the System Monitor.helpviewer_keywords: ["SysmonBatchAddCounters","SysmonBatchAddFiles","SysmonBatchNone","SysmonBatchReason","SysmonBatchReason enumeration [SysMon]","isysmon/SysmonBatchAddCounters","isysmon/SysmonBatchAddFiles","isysmon/SysmonBatchNone","isysmon/SysmonBatchReason","sysmon.sysmonbatchreason"]
 old-location: sysmon\sysmonbatchreason.htm
 tech.root: SysMon
 ms.assetid: f8dac303-105a-4d83-a92c-7d2002d7e4a3

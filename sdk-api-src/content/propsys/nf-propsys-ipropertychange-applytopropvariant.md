@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertyChange.ApplyToPropVariant
 title: IPropertyChange::ApplyToPropVariant (propsys.h)
-description: Applies a change to a property value.
+description: Applies a change to a property value.helpviewer_keywords: ["ApplyToPropVariant","ApplyToPropVariant method [Windows Properties]","ApplyToPropVariant method [Windows Properties]","IPropertyChange interface","IPropertyChange interface [Windows Properties]","ApplyToPropVariant method","IPropertyChange.ApplyToPropVariant","IPropertyChange::ApplyToPropVariant","_shell_IPropertyChange_ApplyToPropVariant","properties.IPropertyChange_ApplyToPropVariant","propsys/IPropertyChange::ApplyToPropVariant","shell.IPropertyChange_ApplyToPropVariant"]
 old-location: properties\IPropertyChange_ApplyToPropVariant.htm
 tech.root: properties
 ms.assetid: 7d7b6de5-0ed9-44fc-b2b3-c0f4cd8bf9c5

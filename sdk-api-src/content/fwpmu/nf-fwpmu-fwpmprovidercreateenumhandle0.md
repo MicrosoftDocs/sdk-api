@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmProviderCreateEnumHandle0
 title: FwpmProviderCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of providers.
+description: Creates a handle used to enumerate a set of providers.helpviewer_keywords: ["FwpmProviderCreateEnumHandle0","FwpmProviderCreateEnumHandle0 function [Filtering]","fwp.fwpmprovidercreateenumhandle0_func","fwpmu/FwpmProviderCreateEnumHandle0"]
 old-location: fwp\fwpmprovidercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: f32d728d-eacc-4027-a1b1-31272425fd26

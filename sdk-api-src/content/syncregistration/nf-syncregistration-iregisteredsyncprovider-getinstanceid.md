@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.IRegisteredSyncProvider.GetInstanceId
 title: IRegisteredSyncProvider::GetInstanceId (syncregistration.h)
-description: Returns the synchronization provider's instance ID.
+description: Returns the synchronization provider's instance ID.helpviewer_keywords: ["GetInstanceId","GetInstanceId method [Windows Sync]","GetInstanceId method [Windows Sync]","IRegisteredSyncProvider interface","IRegisteredSyncProvider interface [Windows Sync]","GetInstanceId method","IRegisteredSyncProvider.GetInstanceId","IRegisteredSyncProvider::GetInstanceId","syncregistration/IRegisteredSyncProvider::GetInstanceId","winsync.iregisteredsyncprovider_getinstanceid"]
 old-location: winsync\iregisteredsyncprovider_getinstanceid.htm
 tech.root: winsync
 ms.assetid: d8206138-92cc-4ed7-937e-baf2ed432b6b

@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentInputArea
 title: ITextInputPanel::get_CurrentInputArea (peninputpanel.h)
-description: Gets the current input area as specified by the PanelInputArea Enumeration.
+description: Gets the current input area as specified by the PanelInputArea Enumeration.helpviewer_keywords: ["47ffdda4-bfe2-4ee0-bfda-cad73a346b1e","CurrentInputArea property [Tablet PC]","CurrentInputArea property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","CurrentInputArea property","ITextInputPanel.CurrentInputArea","ITextInputPanel.get_CurrentInputArea","ITextInputPanel::CurrentInputArea","ITextInputPanel::get_CurrentInputArea","get_CurrentInputArea","peninputpanel/ITextInputPanel::CurrentInputArea","peninputpanel/ITextInputPanel::get_CurrentInputArea","tablet.itextinputpanel_currentinputarea"]
 old-location: tablet\itextinputpanel_currentinputarea.htm
 tech.root: tablet
 ms.assetid: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e

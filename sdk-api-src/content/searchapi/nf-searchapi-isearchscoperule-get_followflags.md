@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_FollowFlags
 title: ISearchScopeRule::get_FollowFlags (searchapi.h)
-description: Not supported.This method returns E_InvalidArg when called.
+description: Not supported.This method returns E_InvalidArg when called.helpviewer_keywords: ["ISearchScopeRule interface [search]","get_FollowFlags method","ISearchScopeRule.get_FollowFlags","ISearchScopeRule::get_FollowFlags","_search_ISearchScopeRule_get_FollowFlags","get_FollowFlags","get_FollowFlags method [search]","get_FollowFlags method [search]","ISearchScopeRule interface","search._search_ISearchScopeRule_get_FollowFlags","searchapi/ISearchScopeRule::get_FollowFlags"]
 old-location: search\_search_ISearchScopeRule_get_FollowFlags.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_followflags.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:mscat.CryptCATEnumerateMember
 title: CryptCATEnumerateMember function (mscat.h)
-description: Enumerates the members of a catalog.
+description: Enumerates the members of a catalog.helpviewer_keywords: ["CryptCATEnumerateMember","CryptCATEnumerateMember function [Security]","mscat/CryptCATEnumerateMember","security.cryptcatenumeratemember"]
 old-location: security\cryptcatenumeratemember.htm
 tech.root: SecCrypto
 ms.assetid: 6bbfef11-a150-4255-8620-27c1b1587b48

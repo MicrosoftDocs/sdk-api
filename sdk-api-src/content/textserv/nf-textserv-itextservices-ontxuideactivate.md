@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextServices.OnTxUIDeactivate
 title: ITextServices::OnTxUIDeactivate (textserv.h)
-description: Informs the text services object that the control is no longer UI active.
+description: Informs the text services object that the control is no longer UI active.helpviewer_keywords: ["ITextServices interface [Windows Controls]","OnTxUIDeactivate method","ITextServices.OnTxUIDeactivate","ITextServices::OnTxUIDeactivate","OnTxUIDeactivate","OnTxUIDeactivate method [Windows Controls]","OnTxUIDeactivate method [Windows Controls]","ITextServices interface","_win32_ITextServices_OnTxUIDeactivate","_win32_ITextServices_OnTxUIDeactivate_cpp","controls.ITextServices_OnTxUIDeactivate","controls._win32_ITextServices_OnTxUIDeactivate","textserv/ITextServices::OnTxUIDeactivate"]
 old-location: controls\ITextServices_OnTxUIDeactivate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxuideactivate.htm

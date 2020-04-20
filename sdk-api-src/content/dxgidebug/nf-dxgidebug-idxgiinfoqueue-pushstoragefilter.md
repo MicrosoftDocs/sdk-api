@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushStorageFilter
 title: IDXGIInfoQueue::PushStorageFilter (dxgidebug.h)
-description: Pushes a storage filter onto the storage-filter stack.
+description: Pushes a storage filter onto the storage-filter stack.helpviewer_keywords: ["IDXGIInfoQueue interface [DXGI]","PushStorageFilter method","IDXGIInfoQueue.PushStorageFilter","IDXGIInfoQueue::PushStorageFilter","PushStorageFilter","PushStorageFilter method [DXGI]","PushStorageFilter method [DXGI]","IDXGIInfoQueue interface","direct3ddxgi.idxgiinfoqueue_pushstoragefilter","dxgidebug/IDXGIInfoQueue::PushStorageFilter"]
 old-location: direct3ddxgi\idxgiinfoqueue_pushstoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: D90738A8-2C9F-4955-9A96-762C650F3B00

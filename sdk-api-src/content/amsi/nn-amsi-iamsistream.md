@@ -1,7 +1,7 @@
 ---
 UID: NN:amsi.IAmsiStream
 title: IAmsiStream (amsi.h)
-description: Represents a stream to be scanned.
+description: Represents a stream to be scanned.helpviewer_keywords: ["IAmsiStream","IAmsiStream interface [Antimalware Scan Interface]","IAmsiStream interface [Antimalware Scan Interface]","described","amsi.iamsistream","amsi/IAmsiStream"]
 old-location: amsi\iamsistream.htm
 tech.root: AMSI
 ms.assetid: 409CE6BF-57A5-454E-91F9-3D66FE7E323F

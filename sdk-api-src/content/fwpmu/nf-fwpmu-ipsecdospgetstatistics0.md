@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecDospGetStatistics0
 title: IPsecDospGetStatistics0 function (fwpmu.h)
-description: The IPsecDospGetStatistics0 function retrieves Internet Protocol Security (IPsec) DoS Protection statistics.
+description: The IPsecDospGetStatistics0 function retrieves Internet Protocol Security (IPsec) DoS Protection statistics.helpviewer_keywords: ["IPsecDospGetStatistics0","IPsecDospGetStatistics0 function [Filtering]","fwp.ipsecdospgetstatistics0","fwpmu/IPsecDospGetStatistics0"]
 old-location: fwp\ipsecdospgetstatistics0.htm
 tech.root: fwp
 ms.assetid: eb71e7c8-403c-4774-bc59-71e4a56ee1c4

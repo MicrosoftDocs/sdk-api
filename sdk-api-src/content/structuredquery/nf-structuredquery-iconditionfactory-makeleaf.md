@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IConditionFactory.MakeLeaf
 title: IConditionFactory::MakeLeaf (structuredquery.h)
-description: Creates a leaf condition node that represents a comparison of property value and constant value.
+description: Creates a leaf condition node that represents a comparison of property value and constant value.helpviewer_keywords: ["IConditionFactory interface [search]","MakeLeaf method","IConditionFactory.MakeLeaf","IConditionFactory::MakeLeaf","MakeLeaf","MakeLeaf method [search]","MakeLeaf method [search]","IConditionFactory interface","_search_IConditionFactory_MakeLeaf","search._search_IConditionFactory_MakeLeaf","structuredquery/IConditionFactory::MakeLeaf"]
 old-location: search\_search_IConditionFactory_MakeLeaf.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makeleaf.htm

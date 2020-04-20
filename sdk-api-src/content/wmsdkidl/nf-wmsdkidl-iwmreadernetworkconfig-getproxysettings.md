@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxySettings
 title: IWMReaderNetworkConfig::GetProxySettings (wmsdkidl.h)
-description: The GetProxySettings method retrieves the current proxy settings.
+description: The GetProxySettings method retrieves the current proxy settings.helpviewer_keywords: ["GetProxySettings","GetProxySettings method [windows Media Format]","GetProxySettings method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetProxySettings method","IWMReaderNetworkConfig.GetProxySettings","IWMReaderNetworkConfig::GetProxySettings","IWMReaderNetworkConfigGetProxySettings","wmformat.iwmreadernetworkconfig_getproxysettings","wmsdkidl/IWMReaderNetworkConfig::GetProxySettings"]
 old-location: wmformat\iwmreadernetworkconfig_getproxysettings.htm
 tech.root: wmformat
 ms.assetid: 5fdfc651-05f5-48b3-aeaf-4557c72bc0c0

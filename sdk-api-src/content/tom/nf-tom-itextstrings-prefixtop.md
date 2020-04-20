@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextStrings.PrefixTop
 title: ITextStrings::PrefixTop (tom.h)
-description: Prefixes a string to the top string in the collection.
+description: Prefixes a string to the top string in the collection.helpviewer_keywords: ["ITextStrings interface [Windows Controls]","PrefixTop method","ITextStrings.PrefixTop","ITextStrings::PrefixTop","PrefixTop","PrefixTop method [Windows Controls]","PrefixTop method [Windows Controls]","ITextStrings interface","controls.itextstrings_prefixtop","tom/ITextStrings::PrefixTop"]
 old-location: controls\itextstrings_prefixtop.htm
 tech.root: Controls
 ms.assetid: fbdae612-1d6e-4f10-9b55-5ee038f27b79

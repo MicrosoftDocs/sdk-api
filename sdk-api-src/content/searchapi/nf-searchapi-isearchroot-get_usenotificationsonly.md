@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_UseNotificationsOnly
 title: ISearchRoot::get_UseNotificationsOnly (searchapi.h)
-description: Gets a value that indicates whether this search root should be indexed only by notification and not crawled.
+description: Gets a value that indicates whether this search root should be indexed only by notification and not crawled.helpviewer_keywords: ["ISearchRoot interface [search]","get_UseNotificationsOnly method","ISearchRoot.get_UseNotificationsOnly","ISearchRoot::get_UseNotificationsOnly","_search_ISearchRoot_get_UseNotificationsOnly","get_UseNotificationsOnly","get_UseNotificationsOnly method [search]","get_UseNotificationsOnly method [search]","ISearchRoot interface","search._search_ISearchRoot_get_UseNotificationsOnly","searchapi/ISearchRoot::get_UseNotificationsOnly"]
 old-location: search\_search_ISearchRoot_get_UseNotificationsOnly.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_usenotificationsonly.htm

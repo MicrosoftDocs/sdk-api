@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedHelpText
 title: IUIAutomationElement::get_CachedHelpText (uiautomationclient.h)
-description: Retrieves the cached help text for the element.
+description: Retrieves the cached help text for the element.helpviewer_keywords: ["CachedHelpText property [Windows Accessibility]","CachedHelpText property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedHelpText property","IUIAutomationElement.CachedHelpText","IUIAutomationElement.get_CachedHelpText","IUIAutomationElement::CachedHelpText","IUIAutomationElement::get_CachedHelpText","get_CachedHelpText","uiauto.uiauto_IUIAutomationElement_CachedHelpText","uiauto_IUIAutomationElement_CachedHelpText","uiautomationclient/IUIAutomationElement::CachedHelpText","uiautomationclient/IUIAutomationElement::get_CachedHelpText","winauto.uiauto_IUIAutomationElement_CachedHelpText"]
 old-location: winauto\uiauto_IUIAutomationElement_CachedHelpText.htm
 tech.root: WinAuto
 ms.assetid: 39ca5d50-808c-4a8b-a662-0a7724519b2c

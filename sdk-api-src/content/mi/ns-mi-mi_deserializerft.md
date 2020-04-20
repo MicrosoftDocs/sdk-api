@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_DeserializerFT
 title: MI_DeserializerFT (mi.h)
-description: A support structure used in the MI_ClientFT_V1 structure. Use the functions with the name prefix &#0034;MI_Deserializer_&#0034; to manipulate these structures.
+description: A support structure used in the MI_ClientFT_V1 structure. Use the functions with the name prefix &#0034;MI_Deserializer_&#0034; to manipulate these structures.helpviewer_keywords: ["MI_DeserializerFT","MI_DeserializerFT structure [Windows Management Infrastructure (MI)]","mi/MI_DeserializerFT","wmi_v2.mi_deserializerft"]
 old-location: wmi_v2\mi_deserializerft.htm
 tech.root: wmi_v2
 ms.assetid: dcd2b458-7c25-47a8-a324-43fc1456fcec

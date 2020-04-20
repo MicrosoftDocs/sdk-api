@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetRecordCountOfDescriptors
 title: IISDB_LDT::GetRecordCountOfDescriptors (dvbsiparser.h)
-description: Returns the number of descriptors for a record in an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
+description: Returns the number of descriptors for a record in an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).helpviewer_keywords: ["GetRecordCountOfDescriptors","GetRecordCountOfDescriptors method [Microsoft TV Technologies]","GetRecordCountOfDescriptors method [Microsoft TV Technologies]","IISDB_LDT interface","IISDB_LDT interface [Microsoft TV Technologies]","GetRecordCountOfDescriptors method","IISDB_LDT.GetRecordCountOfDescriptors","IISDB_LDT::GetRecordCountOfDescriptors","dvbsiparser/IISDB_LDT::GetRecordCountOfDescriptors","mstv.iisdb_ldt_getrecordcountofdescriptors"]
 old-location: mstv\iisdb_ldt_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: 1352eec0-fed2-4d14-81f2-c73b8d34a264

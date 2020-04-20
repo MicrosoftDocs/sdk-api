@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.LsaOpenPolicy
 title: LsaOpenPolicy function (ntsecapi.h)
-description: Opens a handle to the Policy object on a local or remote system.
+description: Opens a handle to the Policy object on a local or remote system.helpviewer_keywords: ["LsaOpenPolicy","LsaOpenPolicy function [Security]","_lsa_lsaopenpolicy","ntsecapi/LsaOpenPolicy","security.lsaopenpolicy"]
 old-location: security\lsaopenpolicy.htm
 tech.root: SecAuthN
 ms.assetid: 361bc962-1e97-4606-a835-cbce37692c55

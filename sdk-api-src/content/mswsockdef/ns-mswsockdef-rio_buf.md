@@ -1,7 +1,7 @@
 ---
 UID: NS:mswsockdef._RIO_BUF
 title: RIO_BUF (mswsockdef.h)
-description: Specifies a portion of a registered buffer used for sending or receiving network data with the Winsock registered I/O extensions.
+description: Specifies a portion of a registered buffer used for sending or receiving network data with the Winsock registered I/O extensions.helpviewer_keywords: ["*PRIO_BUF","PRIO_BUF","PRIO_BUF structure pointer [Winsock]","RIO_BUF","RIO_BUF structure [Winsock]","mswsockdef/PRIO_BUF","mswsockdef/RIO_BUF","winsock.rio_buf"]
 old-location: winsock\rio_buf.htm
 tech.root: WinSock
 ms.assetid: DD55194E-EE66-4FD4-87BC-E855922CEEA1

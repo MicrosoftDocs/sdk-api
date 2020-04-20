@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.GetClusterFromGroupSet
 title: GetClusterFromGroupSet function (clusapi.h)
-description: TBD.
+description: TBD.helpviewer_keywords: ["GetClusterFromGroupSet","GetClusterFromGroupSet function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET","PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET function [Failover Cluster]","clusapi/GetClusterFromGroupSet","clusapi/PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET","mscs.getclusterfromgroupset"]
 old-location: mscs\getclusterfromgroupset.htm
 tech.root: MsCS
 ms.assetid: 9d0669e3-8f4a-45f3-a2cc-c118bddcd791

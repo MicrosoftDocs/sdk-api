@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._CHANGER_ELEMENT_LIST
 title: CHANGER_ELEMENT_LIST
-description: Represents a range of elements of a single type, typically for an operation such as getting or initializing the status of multiple elements.
+description: Represents a range of elements of a single type, typically for an operation such as getting or initializing the status of multiple elements.helpviewer_keywords: ["*PCHANGER_ELEMENT_LIST","CHANGER_ELEMENT_LIST","CHANGER_ELEMENT_LIST structure","PCHANGER_ELEMENT_LIST","PCHANGER_ELEMENT_LIST structure pointer","_win32_changer_element_list_str","base.changer_element_list_str","winioctl/CHANGER_ELEMENT_LIST","winioctl/PCHANGER_ELEMENT_LIST"]
 old-location: base\changer_element_list_str.htm
 tech.root: devio
 ms.assetid: cb1fcf78-b36a-4551-8eeb-da58edc80890

@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrSessionCreator.CreateSession
 title: ISyncMgrSessionCreator::CreateSession (syncmgr.h)
-description: Notifies Sync Center that synchronization of the specified items has begun.
+description: Notifies Sync Center that synchronization of the specified items has begun.helpviewer_keywords: ["CreateSession","CreateSession method [Windows Shell]","CreateSession method [Windows Shell]","ISyncMgrSessionCreator interface","ISyncMgrSessionCreator interface [Windows Shell]","CreateSession method","ISyncMgrSessionCreator.CreateSession","ISyncMgrSessionCreator::CreateSession","_shell_ISyncMgrSessionCreator_CreateSession","shell.ISyncMgrSessionCreator_CreateSession","syncmgr/ISyncMgrSessionCreator::CreateSession"]
 old-location: shell\ISyncMgrSessionCreator_CreateSession.htm
 tech.root: shell
 ms.assetid: d1df43b6-406c-4da0-89f0-a17e51101520

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.UnlockDevice
 title: IMFDXGIDeviceManager::UnlockDevice (mfobjects.h)
-description: Unlocks the Microsoft Direct3D device.
+description: Unlocks the Microsoft Direct3D device.helpviewer_keywords: ["IMFDXGIDeviceManager interface [Media Foundation]","UnlockDevice method","IMFDXGIDeviceManager.UnlockDevice","IMFDXGIDeviceManager::UnlockDevice","UnlockDevice","UnlockDevice method [Media Foundation]","UnlockDevice method [Media Foundation]","IMFDXGIDeviceManager interface","mf.imfdxgidevicemanager_unlockdevice","mfobjects/IMFDXGIDeviceManager::UnlockDevice"]
 old-location: mf\imfdxgidevicemanager_unlockdevice.htm
 tech.root: medfound
 ms.assetid: DE6A8E16-BC25-4B7C-B95D-A46D7C0870E3

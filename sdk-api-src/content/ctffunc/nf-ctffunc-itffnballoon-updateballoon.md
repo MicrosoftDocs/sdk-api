@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfFnBalloon.UpdateBalloon
 title: ITfFnBalloon::UpdateBalloon (ctffunc.h)
-description: ITfFnBalloon::UpdateBalloon method
+description: ITfFnBalloon::UpdateBalloon methodhelpviewer_keywords: ["ITfFnBalloon interface [Text Services Framework]","UpdateBalloon method","ITfFnBalloon.UpdateBalloon","ITfFnBalloon::UpdateBalloon","UpdateBalloon","UpdateBalloon method [Text Services Framework]","UpdateBalloon method [Text Services Framework]","ITfFnBalloon interface","_tsf_itffnballoon_updateballoon_ref","ctffunc/ITfFnBalloon::UpdateBalloon","tsf.itffnballoon_updateballoon"]
 old-location: tsf\itffnballoon_updateballoon.htm
 tech.root: TSF
 ms.assetid: b395d587-02a7-496e-8bfd-8fcaba2a3edc

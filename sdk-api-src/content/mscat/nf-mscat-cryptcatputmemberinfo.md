@@ -1,7 +1,7 @@
 ---
 UID: NF:mscat.CryptCATPutMemberInfo
 title: CryptCATPutMemberInfo function (mscat.h)
-description: Allocates memory for a catalog member and adds it to the catalog.
+description: Allocates memory for a catalog member and adds it to the catalog.helpviewer_keywords: ["CryptCATPutMemberInfo","CryptCATPutMemberInfo function [Security]","mscat/CryptCATPutMemberInfo","security.cryptcatputmemberinfo"]
 old-location: security\cryptcatputmemberinfo.htm
 tech.root: SecCrypto
 ms.assetid: bfc10577-e32e-4b2e-ad24-1d0a85c6730a

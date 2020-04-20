@@ -1,7 +1,7 @@
 ---
 UID: NF:msdrm.DRMInitEnvironment
 title: DRMInitEnvironment function (msdrm.h)
-description: Creates a secure environment for all rights management calls.
+description: Creates a secure environment for all rights management calls.helpviewer_keywords: ["DRMInitEnvironment","DRMInitEnvironment function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMInitEnvironment","rm.drminitenvironment"]
 old-location: rm\drminitenvironment.htm
 tech.root: AdRms_Sdk
 ms.assetid: b46277f4-e854-4590-847a-cf4f878bee70

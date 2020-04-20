@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_DestinationOptions_Clone
 title: MI_DestinationOptions_Clone function (mi.h)
-description: Creates a copy of a MI_DestinationOptions structure.
+description: Creates a copy of a MI_DestinationOptions structure.helpviewer_keywords: ["MI_DestinationOptions_Clone","MI_DestinationOptions_Clone function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_Clone","wmi_v2.mi_destinationoptions_clone"]
 old-location: wmi_v2\mi_destinationoptions_clone.htm
 tech.root: wmi_v2
 ms.assetid: f331561b-97ad-42f1-91b3-d180db92da07

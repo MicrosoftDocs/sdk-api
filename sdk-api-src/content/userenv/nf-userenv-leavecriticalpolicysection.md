@@ -1,7 +1,7 @@
 ---
 UID: NF:userenv.LeaveCriticalPolicySection
 title: LeaveCriticalPolicySection function (userenv.h)
-description: The LeaveCriticalPolicySection function resumes the background application of policy. This function closes the handle to the policy section.
+description: The LeaveCriticalPolicySection function resumes the background application of policy. This function closes the handle to the policy section.helpviewer_keywords: ["LeaveCriticalPolicySection","LeaveCriticalPolicySection function [Group Policy]","_win32_leavecriticalpolicysection","policy.leavecriticalpolicysection","userenv/LeaveCriticalPolicySection"]
 old-location: policy\leavecriticalpolicysection.htm
 tech.root: Policy
 ms.assetid: 9e6a938f-c9cb-4baf-b7d0-4316e45f874c

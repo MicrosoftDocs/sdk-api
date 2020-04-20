@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CTL_CONTEXT
 title: CTL_CONTEXT (wincrypt.h)
-description: The CTL_CONTEXT structure contains both the encoded and decoded representations of a CTL.
+description: The CTL_CONTEXT structure contains both the encoded and decoded representations of a CTL.helpviewer_keywords: ["*PCTL_CONTEXT","CTL_CONTEXT","CTL_CONTEXT structure [Security]","PCCTL_CONTEXT","PCCTL_CONTEXT structure pointer [Security]","PCTL_CONTEXT","PCTL_CONTEXT structure pointer [Security]","_crypto2_ctl_context","security.ctl_context","wincrypt/CTL_CONTEXT","wincrypt/PCCTL_CONTEXT","wincrypt/PCTL_CONTEXT"]
 old-location: security\ctl_context.htm
 tech.root: SecCrypto
 ms.assetid: 780edddf-1b44-4292-9156-4dfd5100adb8

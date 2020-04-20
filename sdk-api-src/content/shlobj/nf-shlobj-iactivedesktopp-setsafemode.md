@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.IActiveDesktopP.SetSafeMode
 title: IActiveDesktopP::SetSafeMode (shlobj.h)
-description: Sets or updates the Microsoft Active Desktop to safe mode.
+description: Sets or updates the Microsoft Active Desktop to safe mode.helpviewer_keywords: ["IActiveDesktopP interface [Legacy Windows Environment Features]","SetSafeMode method","IActiveDesktopP.SetSafeMode","IActiveDesktopP::SetSafeMode","SSM_SET","SSM_UPDATE","SetSafeMode","SetSafeMode method [Legacy Windows Environment Features]","SetSafeMode method [Legacy Windows Environment Features]","IActiveDesktopP interface","_win32_IActiveDesktopP_SetSafeMode","lwef.iactivedesktopp_setsafemode","shell.iactivedesktopp_setsafemode","shlobj/IActiveDesktopP::SetSafeMode"]
 old-location: lwef\iactivedesktopp_setsafemode.htm
 tech.root: lwef
 ms.assetid: 1f88cd96-670f-4c54-9a66-2b3748b5e573

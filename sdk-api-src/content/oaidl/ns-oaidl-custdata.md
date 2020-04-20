@@ -1,7 +1,7 @@
 ---
 UID: NS:oaidl.tagCUSTDATA
 title: CUSTDATA (oaidl.h)
-description: Represents custom data.
+description: Represents custom data.helpviewer_keywords: ["*LPCUSTDATA","CUSTDATA","CUSTDATA structure [Automation]","LPCUSTDATA","LPCUSTDATA structure pointer [Automation]","_oa96_CUSTDATA","automat.custdata","oaidl/CUSTDATA","oaidl/LPCUSTDATA"]
 old-location: automat\custdata.htm
 tech.root: automat
 ms.assetid: 992199f2-1bac-428e-9699-0740654e1922

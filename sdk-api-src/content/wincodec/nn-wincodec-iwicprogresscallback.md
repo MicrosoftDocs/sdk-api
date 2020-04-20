@@ -1,7 +1,7 @@
 ---
 UID: NN:wincodec.IWICProgressCallback
 title: IWICProgressCallback (wincodec.h)
-description: IWICProgressCallback interface is documented only for compliance; its use is not recommended and may be altered or unavailable in the future. Instead, and use RegisterProgressNotification.
+description: IWICProgressCallback interface is documented only for compliance; its use is not recommended and may be altered or unavailable in the future. Instead, and use RegisterProgressNotification.helpviewer_keywords: ["IWICProgressCallback","IWICProgressCallback interface [Windows Imaging Component]","IWICProgressCallback interface [Windows Imaging Component]","described","_wic_codec_iwicprogresscallback","wic._wic_codec_iwicprogresscallback","wincodec/IWICProgressCallback"]
 old-location: wic\_wic_codec_iwicprogresscallback.htm
 tech.root: wic
 ms.assetid: cd94e0a1-c275-458e-ae7f-85b703fc660e

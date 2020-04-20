@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplusbase.GdiplusBase
 title: GdiplusBase (gdiplusbase.h)
-description: The GdiplusBase class provides memory allocation and deallocation for GDI+ objects. GdiplusBase serves as a base class for all other GDI+ classes, so you never need to create an instance of GdiplusBase.
+description: The GdiplusBase class provides memory allocation and deallocation for GDI+ objects. GdiplusBase serves as a base class for all other GDI+ classes, so you never need to create an instance of GdiplusBase.helpviewer_keywords: ["GdiplusBase","GdiplusBase class [GDI+]","GdiplusBase class [GDI+]","described","_gdiplus_CLASS_GdiplusBase_Class","gdiplus._gdiplus_CLASS_GdiplusBase_Class","gdiplusbase/GdiplusBase"]
 old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbase.htm

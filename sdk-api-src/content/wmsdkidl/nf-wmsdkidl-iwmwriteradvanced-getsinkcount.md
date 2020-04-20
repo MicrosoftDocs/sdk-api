@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetSinkCount
 title: IWMWriterAdvanced::GetSinkCount (wmsdkidl.h)
-description: The GetSinkCount method retrieves the number of writer sinks associated with the writer object.
+description: The GetSinkCount method retrieves the number of writer sinks associated with the writer object.helpviewer_keywords: ["GetSinkCount","GetSinkCount method [windows Media Format]","GetSinkCount method [windows Media Format]","IWMWriterAdvanced interface","IWMWriterAdvanced interface [windows Media Format]","GetSinkCount method","IWMWriterAdvanced.GetSinkCount","IWMWriterAdvanced::GetSinkCount","IWMWriterAdvancedGetSinkCount","wmformat.iwmwriteradvanced_getsinkcount","wmsdkidl/IWMWriterAdvanced::GetSinkCount"]
 old-location: wmformat\iwmwriteradvanced_getsinkcount.htm
 tech.root: wmformat
 ms.assetid: 210c96bc-3659-43e6-acb2-4d9f328e81e0

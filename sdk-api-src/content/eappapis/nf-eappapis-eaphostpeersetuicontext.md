@@ -1,7 +1,7 @@
 ---
 UID: NF:eappapis.EapHostPeerSetUIContext
 title: EapHostPeerSetUIContext function (eappapis.h)
-description: Provides a new or updated user interface context to the EAP peer method loaded on EAPHost after the UI has been raised.
+description: Provides a new or updated user interface context to the EAP peer method loaded on EAPHost after the UI has been raised.helpviewer_keywords: ["EapHostPeerSetUIContext","EapHostPeerSetUIContext function [EAPHost]","eaphost.eaphostpeersetuicontext","eappapis/EapHostPeerSetUIContext"]
 old-location: eaphost\eaphostpeersetuicontext.htm
 tech.root: eaphost
 ms.assetid: f532dd65-d807-4880-9339-ba233e0faa38

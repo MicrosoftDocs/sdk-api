@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.ITrigger
 title: ITrigger (taskschd.h)
-description: Provides the common properties that are inherited by all trigger objects.
+description: Provides the common properties that are inherited by all trigger objects.helpviewer_keywords: ["ITrigger","ITrigger interface [Task Scheduler]","ITrigger interface [Task Scheduler]","described","taskschd.itrigger","taskschd/ITrigger","triggers [Task Scheduler]","trigger interface"]
 old-location: taskschd\itrigger.htm
 tech.root: taskschd
 ms.assetid: 165297c1-704b-4ab3-a9e3-4aa3f10e07b1

@@ -1,7 +1,7 @@
 ---
 UID: NE:tabflicks.FLICKACTION_COMMANDCODE
 title: FLICKACTION_COMMANDCODE (tabflicks.h)
-description: Defines the possible flick actions that can be assigned to a pen flick.
+description: Defines the possible flick actions that can be assigned to a pen flick.helpviewer_keywords: ["FLICKACTION_COMMANDCODE","FLICKACTION_COMMANDCODE enumeration [Tablet PC]","FLICKACTION_COMMANDCODE_APPCOMMAND","FLICKACTION_COMMANDCODE_CUSTOMKEY","FLICKACTION_COMMANDCODE_KEYMODIFIER","FLICKACTION_COMMANDCODE_NULL","FLICKACTION_COMMANDCODE_SCROLL","cb923201-5205-494e-bb67-5a908cb570e5","tabflicks/FLICKACTION_COMMANDCODE","tabflicks/FLICKACTION_COMMANDCODE_APPCOMMAND","tabflicks/FLICKACTION_COMMANDCODE_CUSTOMKEY","tabflicks/FLICKACTION_COMMANDCODE_KEYMODIFIER","tabflicks/FLICKACTION_COMMANDCODE_NULL","tabflicks/FLICKACTION_COMMANDCODE_SCROLL","tablet.flickaction_commandmode"]
 old-location: tablet\flickaction_commandmode.htm
 tech.root: tablet
 ms.assetid: cb923201-5205-494e-bb67-5a908cb570e5

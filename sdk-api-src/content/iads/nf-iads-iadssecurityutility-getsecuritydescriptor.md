@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsSecurityUtility.GetSecurityDescriptor
 title: IADsSecurityUtility::GetSecurityDescriptor (iads.h)
-description: Retrieves a security descriptor for the specified file, fileshare, or registry key.
+description: Retrieves a security descriptor for the specified file, fileshare, or registry key.helpviewer_keywords: ["ADS_SD_FORMAT_HEXSTRING","ADS_SD_FORMAT_IID","ADS_SD_FORMAT_RAW","File","File share","GetSecurityDescriptor","GetSecurityDescriptor method [ADSI]","GetSecurityDescriptor method [ADSI]","IADsSecurityUtility interface","IADsSecurityUtility interface [ADSI]","GetSecurityDescriptor method","IADsSecurityUtility.GetSecurityDescriptor","IADsSecurityUtility::GetSecurityDescriptor","Registry key","_ds_iadssecurityutility_getsecuritydescriptor","adsi.iadssecurityutility__getsecuritydescriptor","adsi.iadssecurityutility_getsecuritydescriptor","iads/IADsSecurityUtility::GetSecurityDescriptor"]
 old-location: adsi\iadssecurityutility_getsecuritydescriptor.htm
 tech.root: adsi
 ms.assetid: 95f4fbd9-03f8-4f2f-9314-e628186e51a4

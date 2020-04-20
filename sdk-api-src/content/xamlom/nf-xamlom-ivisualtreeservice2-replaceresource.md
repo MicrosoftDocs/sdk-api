@@ -1,7 +1,7 @@
 ---
 UID: NF:xamlom.IVisualTreeService2.ReplaceResource
 title: IVisualTreeService2::ReplaceResource (xamlom.h)
-description: Replaces an existing resource with a new one of the same type.
+description: Replaces an existing resource with a new one of the same type.helpviewer_keywords: ["IVisualTreeService2 interface","ReplaceResource method","IVisualTreeService2.ReplaceResource","IVisualTreeService2::ReplaceResource","ReplaceResource","ReplaceResource method","ReplaceResource method","IVisualTreeService2 interface","xaml_diagnostics.ivisualtreeservice2_replaceresource","xamlom/IVisualTreeService2::ReplaceResource"]
 old-location: xaml_diagnostics\ivisualtreeservice2_replaceresource.htm
 tech.root: xaml_diagnostics
 ms.assetid: DD2066B0-C91E-4299-AFD3-13E74E75E94B

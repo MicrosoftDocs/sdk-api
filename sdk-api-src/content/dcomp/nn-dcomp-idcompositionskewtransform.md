@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionSkewTransform
 title: IDCompositionSkewTransform (dcomp.h)
-description: Represents a 2D transformation that affects the skew of a visual along the x-axis and y-axis. The coordinate system is skewed around the specified center point.
+description: Represents a 2D transformation that affects the skew of a visual along the x-axis and y-axis. The coordinate system is skewed around the specified center point.helpviewer_keywords: ["IDCompositionSkewTransform","IDCompositionSkewTransform interface [DirectComposition]","IDCompositionSkewTransform interface [DirectComposition]","described","dcomp/IDCompositionSkewTransform","directcomp.idcompositionskewtransform"]
 old-location: directcomp\idcompositionskewtransform.htm
 tech.root: directcomp
 ms.assetid: c1dbc11f-b8e3-487e-84f0-517ebaf65de8

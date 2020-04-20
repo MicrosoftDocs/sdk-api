@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.SetRTL
 title: ITextRow::SetRTL (tom.h)
-description: Sets whether this row has right-to-left orientation.
+description: Sets whether this row has right-to-left orientation.helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetRTL method","ITextRow.SetRTL","ITextRow::SetRTL","SetRTL","SetRTL method [Windows Controls]","SetRTL method [Windows Controls]","ITextRow interface","controls.itextrow_setrtl","tom/ITextRow::SetRTL","tomFalse","tomToggle","tomTrue"]
 old-location: controls\itextrow_setrtl.htm
 tech.root: Controls
 ms.assetid: e260f989-6028-4cd2-a1e0-0eca2a5bd553

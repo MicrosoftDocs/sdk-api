@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmReleaseEntityInfo
 title: RtmReleaseEntityInfo function (rtmv2.h)
-description: The RtmReleaseEntityInfo function releases a client structure.
+description: The RtmReleaseEntityInfo function releases a client structure.helpviewer_keywords: ["RtmReleaseEntityInfo","RtmReleaseEntityInfo function [RAS]","_rtmv2ref_rtmreleaseentityinfo","rras.rtmreleaseentityinfo","rtmv2/RtmReleaseEntityInfo"]
 old-location: rras\rtmreleaseentityinfo.htm
 tech.root: RRAS
 ms.assetid: ea72dde4-2d04-4ceb-b718-3ee96bf70464

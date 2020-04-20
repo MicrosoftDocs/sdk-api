@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdxmldom._WSDXML_TYPE
 title: WSDXML_TYPE (wsdxmldom.h)
-description: Describes an XSD type.
+description: Describes an XSD type.helpviewer_keywords: ["WSDXML_TYPE","WSDXML_TYPE structure","_WSDXML_TYPE","ncd.wsdxml_type_struct","wsdxmldom/WSDXML_TYPE"]
 old-location: ncd\wsdxml_type_struct.htm
 tech.root: WsdApi
 ms.assetid: dc214dfb-1717-4f84-af4d-6eb8cf17522c

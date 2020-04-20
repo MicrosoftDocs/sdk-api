@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_GET_NTFS_FILE_RECORD
 title: FSCTL_GET_NTFS_FILE_RECORD
-description: Retrieves the first file record that is in use and is of a lesser than or equal ordinal value to the requested file reference number.
+description: Retrieves the first file record that is in use and is of a lesser than or equal ordinal value to the requested file reference number.helpviewer_keywords: ["FSCTL_GET_NTFS_FILE_RECORD","FSCTL_GET_NTFS_FILE_RECORD control","FSCTL_GET_NTFS_FILE_RECORD control code [Files]","_win32_fsctl_get_ntfs_file_record","base.fsctl_get_ntfs_file_record","fs.fsctl_get_ntfs_file_record","winioctl/FSCTL_GET_NTFS_FILE_RECORD"]
 old-location: fs\fsctl_get_ntfs_file_record.htm
 tech.root: FileIO
 ms.assetid: a7308fa4-0f69-4b69-bb89-5d645e2a9f6e

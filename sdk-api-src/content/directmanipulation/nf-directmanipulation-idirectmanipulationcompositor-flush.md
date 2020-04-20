@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.Flush
 title: IDirectManipulationCompositor::Flush (directmanipulation.h)
-description: Commits all pending updates in the compositor to the system for rendering.
+description: Commits all pending updates in the compositor to the system for rendering.helpviewer_keywords: ["Flush","Flush method [Direct Manipulation]","Flush method [Direct Manipulation]","IDirectManipulationCompositor interface","IDirectManipulationCompositor interface [Direct Manipulation]","Flush method","IDirectManipulationCompositor.Flush","IDirectManipulationCompositor::Flush","directmanipulation.idirectmanipulationcompositor_flush","directmanipulation/IDirectManipulationCompositor::Flush"]
 old-location: directmanipulation\idirectmanipulationcompositor_flush.htm
 tech.root: directmanipulation
 ms.assetid: E6D1BD41-6D5A-4BC0-983E-CBE79613FCF8

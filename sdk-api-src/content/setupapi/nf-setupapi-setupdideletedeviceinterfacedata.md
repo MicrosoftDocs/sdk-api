@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiDeleteDeviceInterfaceData
 title: SetupDiDeleteDeviceInterfaceData function (setupapi.h)
-description: The SetupDiDeleteDeviceInterfaceData function deletes a device interface from a device information set.
+description: The SetupDiDeleteDeviceInterfaceData function deletes a device interface from a device information set.helpviewer_keywords: ["SetupDiDeleteDeviceInterfaceData","SetupDiDeleteDeviceInterfaceData function [Device and Driver Installation]","devinst.setupdideletedeviceinterfacedata","di-rtns_6694af3a-5716-4ee6-b10e-2603dc341781.xml","setupapi/SetupDiDeleteDeviceInterfaceData"]
 old-location: devinst\setupdideletedeviceinterfacedata.htm
 tech.root: devinst
 ms.assetid: 20c9fe5b-ed88-4e2c-bca5-eba62f919fe6

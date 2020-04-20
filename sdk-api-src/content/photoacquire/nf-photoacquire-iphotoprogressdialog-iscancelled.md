@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.IsCancelled
 title: IPhotoProgressDialog::IsCancelled (photoacquire.h)
-description: The IsCancelled method indicates whether the operation has been canceled via the progress dialog box.
+description: The IsCancelled method indicates whether the operation has been canceled via the progress dialog box.helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","IsCancelled method","IPhotoProgressDialog.IsCancelled","IPhotoProgressDialog::IsCancelled","IPhotoProgressDialogIsCancelled","IsCancelled","IsCancelled method [Picture Acquisition]","IsCancelled method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::IsCancelled","picacq.iphotoprogressdialog_iscancelled"]
 old-location: picacq\iphotoprogressdialog_iscancelled.htm
 tech.root: acquisition
 ms.assetid: 0bd84b1f-7a2a-40eb-ba77-21a8f701e5e0

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio.WinBioReleaseFocus
 title: WinBioReleaseFocus function (winbio.h)
-description: Releases window focus.
+description: Releases window focus.helpviewer_keywords: ["WinBioReleaseFocus","WinBioReleaseFocus function [Windows Biometric Framework API]","secbiomet.winbioreleasefocus","winbio/WinBioReleaseFocus"]
 old-location: secbiomet\winbioreleasefocus.htm
 tech.root: SecBioMet
 ms.assetid: 260f24e9-4527-4bec-b18a-64781060714b

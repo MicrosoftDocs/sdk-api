@@ -1,7 +1,7 @@
 ---
 UID: NN:gpmgmt.IGPMGPO
 title: IGPMGPO (gpmgmt.h)
-description: The IGPMGPO interface supports methods that enable you to manage Group Policy Objects (GPOs) in the directory service.
+description: The IGPMGPO interface supports methods that enable you to manage Group Policy Objects (GPOs) in the directory service.helpviewer_keywords: ["GPMGPO","IGPMGPO","IGPMGPO interface [GPMC]","IGPMGPO interface [GPMC]","described","_win32_igpmgpo","gpmc.igpmgpo","gpmgmt/ IGPMGPO"]
 old-location: gpmc\igpmgpo.htm
 tech.root: gpmc
 ms.assetid: 2857c8b7-019d-4ec2-9a00-574fc8541cae

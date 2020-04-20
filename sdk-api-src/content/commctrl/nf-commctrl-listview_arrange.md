@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_Arrange
 title: ListView_Arrange macro (commctrl.h)
-description: Arranges items in icon view. You can use this macro or send the LVM_ARRANGE message explicitly.
+description: Arranges items in icon view. You can use this macro or send the LVM_ARRANGE message explicitly.helpviewer_keywords: ["LVA_ALIGNLEFT","LVA_ALIGNTOP","LVA_DEFAULT","LVA_SNAPTOGRID","ListView_Arrange","ListView_Arrange macro [Windows Controls]","_win32_ListView_Arrange","_win32_ListView_Arrange_cpp","commctrl/ListView_Arrange","controls.ListView_Arrange","controls._win32_ListView_Arrange"]
 old-location: controls\ListView_Arrange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_arrange.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SetClientGuid
 title: IAttachmentExecute::SetClientGuid (shobjidl_core.h)
-description: Specifies and stores the GUID for the client.
+description: Specifies and stores the GUID for the client.helpviewer_keywords: ["IAttachmentExecute interface [Windows Shell]","SetClientGuid method","IAttachmentExecute.SetClientGuid","IAttachmentExecute::SetClientGuid","SetClientGuid","SetClientGuid method [Windows Shell]","SetClientGuid method [Windows Shell]","IAttachmentExecute interface","_win32_IAttachmentExecute_SetClientGuid","shell.IAttachmentExecute_SetClientGuid","shobjidl_core/IAttachmentExecute::SetClientGuid"]
 old-location: shell\IAttachmentExecute_SetClientGuid.htm
 tech.root: shell
 ms.assetid: d0ee35f7-c23e-450b-8b90-0fb5744263fd

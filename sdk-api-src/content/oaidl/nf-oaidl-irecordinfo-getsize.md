@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetSize
 title: IRecordInfo::GetSize (oaidl.h)
-description: Gets the number of bytes of memory necessary to hold the record instance.
+description: Gets the number of bytes of memory necessary to hold the record instance.helpviewer_keywords: ["GetSize","GetSize method [Automation]","GetSize method [Automation]","IRecordInfo interface","IRecordInfo interface [Automation]","GetSize method","IRecordInfo.GetSize","IRecordInfo::GetSize","_oa96_IRecordInfo_GetSize","automat.irecordinfo_getsize","oaidl/IRecordInfo::GetSize"]
 old-location: automat\irecordinfo_getsize.htm
 tech.root: automat
 ms.assetid: ca0f43b2-2b8f-4b22-8674-8223f0c607ab

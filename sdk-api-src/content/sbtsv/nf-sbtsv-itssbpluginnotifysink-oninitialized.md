@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbPluginNotifySink.OnInitialized
 title: ITsSbPluginNotifySink::OnInitialized (sbtsv.h)
-description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of Initialize.
+description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of Initialize.helpviewer_keywords: ["ITsSbPluginNotifySink interface [Remote Desktop Services]","OnInitialized method","ITsSbPluginNotifySink.OnInitialized","ITsSbPluginNotifySink::OnInitialized","OnInitialized","OnInitialized method [Remote Desktop Services]","OnInitialized method [Remote Desktop Services]","ITsSbPluginNotifySink interface","sbtsv/ITsSbPluginNotifySink::OnInitialized","termserv.itssbpluginnotifysink_oninitialized"]
 old-location: termserv\itssbpluginnotifysink_oninitialized.htm
 tech.root: TermServ
 ms.assetid: 2fe468c9-457f-4a56-aaf9-4eb48fec8720

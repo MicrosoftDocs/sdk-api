@@ -1,7 +1,7 @@
 ---
 UID: NE:iketypes.IKEEXT_CERT_CONFIG_TYPE_
 title: IKEEXT_CERT_CONFIG_TYPE (iketypes.h)
-description: Indicates a type of certificate configuration.
+description: Indicates a type of certificate configuration.helpviewer_keywords: ["IKEEXT_CERT_CONFIG_ENTERPRISE_STORE","IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST","IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE","IKEEXT_CERT_CONFIG_TYPE","IKEEXT_CERT_CONFIG_TYPE enumeration [Filtering]","IKEEXT_CERT_CONFIG_TYPE_MAX","IKEEXT_CERT_CONFIG_UNSPECIFIED","fwp.ikeext_cert_config_type","iketypes/IKEEXT_CERT_CONFIG_ENTERPRISE_STORE","iketypes/IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST","iketypes/IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE","iketypes/IKEEXT_CERT_CONFIG_TYPE","iketypes/IKEEXT_CERT_CONFIG_TYPE_MAX","iketypes/IKEEXT_CERT_CONFIG_UNSPECIFIED"]
 old-location: fwp\ikeext_cert_config_type.htm
 tech.root: fwp
 ms.assetid: b137e27b-c361-4fd2-9b3b-5c2b364576d4

@@ -1,7 +1,7 @@
 ---
 UID: NF:msaatext.IAccDictionary.GetParentTerm
 title: IAccDictionary::GetParentTerm (msaatext.h)
-description: Clients call the IAccDictionary::GetParentTerm method to navigate through the object hierarchy tree. This method returns the parent object of a specified property.
+description: Clients call the IAccDictionary::GetParentTerm method to navigate through the object hierarchy tree. This method returns the parent object of a specified property.helpviewer_keywords: ["GetParentTerm","GetParentTerm method [Windows Accessibility]","GetParentTerm method [Windows Accessibility]","IAccDictionary interface","IAccDictionary interface [Windows Accessibility]","GetParentTerm method","IAccDictionary.GetParentTerm","IAccDictionary::GetParentTerm","_msaa_IAccDictionary_GetParentTerm","msaa.iaccdictionary_iaccdictionary__getparentterm","msaatext/IAccDictionary::GetParentTerm","winauto.iaccdictionary_iaccdictionary__getparentterm"]
 old-location: winauto\iaccdictionary_iaccdictionary__getparentterm.htm
 tech.root: WinAuto
 ms.assetid: 202058e8-50c2-4366-9bb6-bbc46dc5ea3f

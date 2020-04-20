@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IEnumExplorerCommand
 title: IEnumExplorerCommand (shobjidl_core.h)
-description: Provided by an IExplorerCommandProvider. This interface contains the enumeration of commands to be put into the command bar.
+description: Provided by an IExplorerCommandProvider. This interface contains the enumeration of commands to be put into the command bar.helpviewer_keywords: ["IEnumExplorerCommand","IEnumExplorerCommand interface [Windows Shell]","IEnumExplorerCommand interface [Windows Shell]","described","_shell_IEnumExplorerCommand","shell.IEnumExplorerCommand","shobjidl_core/IEnumExplorerCommand"]
 old-location: shell\IEnumExplorerCommand.htm
 tech.root: shell
 ms.assetid: c9a21e84-dd95-413a-b9db-e02008185bef

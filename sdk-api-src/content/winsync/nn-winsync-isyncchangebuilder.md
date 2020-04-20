@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.ISyncChangeBuilder
 title: ISyncChangeBuilder (winsync.h)
-description: Provides additional data for an item change.
+description: Provides additional data for an item change.helpviewer_keywords: ["ISyncChangeBuilder","ISyncChangeBuilder interface [Windows Sync]","ISyncChangeBuilder interface [Windows Sync]","described","winsync.isyncchangebuilder","winsync/ISyncChangeBuilder"]
 old-location: winsync\isyncchangebuilder.htm
 tech.root: winsync
 ms.assetid: 6b9a628d-d0cb-49d1-a667-337b5f7f31ff

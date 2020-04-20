@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRootUnorderedAccessView
 title: ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView (d3d12.h)
-description: Sets a CPU descriptor handle for the unordered-access-view resource in the compute root signature.
+description: Sets a CPU descriptor handle for the unordered-access-view resource in the compute root signature.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetComputeRootUnorderedAccessView method","ID3D12GraphicsCommandList.SetComputeRootUnorderedAccessView","ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView","SetComputeRootUnorderedAccessView","SetComputeRootUnorderedAccessView method","SetComputeRootUnorderedAccessView method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView","direct3d12.id3d12graphicscommandlist_setcomputerootunorderedaccessview"]
 old-location: direct3d12\id3d12graphicscommandlist_setcomputerootunorderedaccessview.htm
 tech.root: direct3d12
 ms.assetid: 7C91B305-ABB2-4355-AA4B-3E1641ACF9E0

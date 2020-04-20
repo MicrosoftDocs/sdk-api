@@ -1,7 +1,7 @@
 ---
 UID: NF:imagehlp.ImageGetCertificateHeader
 title: ImageGetCertificateHeader function (imagehlp.h)
-description: Retrieves the header of the specified certificate, up to, but not including, the section offset array.
+description: Retrieves the header of the specified certificate, up to, but not including, the section offset array.helpviewer_keywords: ["ImageGetCertificateHeader","ImageGetCertificateHeader function","_win32_imagegetcertificateheader","base.imagegetcertificateheader","imagehlp/ImageGetCertificateHeader"]
 old-location: base\imagegetcertificateheader.htm
 tech.root: Debug
 ms.assetid: 84b10926-7f49-406c-8939-d85f62844806

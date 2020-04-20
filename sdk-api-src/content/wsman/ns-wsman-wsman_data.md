@@ -1,7 +1,7 @@
 ---
 UID: NS:wsman._WSMAN_DATA
 title: WSMAN_DATA (wsman.h)
-description: Contains inbound and outbound data used in the Windows Remote Management (WinRM) API.
+description: Contains inbound and outbound data used in the Windows Remote Management (WinRM) API.helpviewer_keywords: ["WSMAN_DATA","WSMAN_DATA structure [Windows Remote Management]","winrm.wsman_data","wsman/WSMAN_DATA"]
 old-location: winrm\wsman_data.htm
 tech.root: winrm
 ms.assetid: 4ff574d4-04b0-47c3-808f-867d6815bffc

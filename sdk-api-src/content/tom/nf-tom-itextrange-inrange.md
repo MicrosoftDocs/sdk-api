@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.InRange
 title: ITextRange::InRange (tom.h)
-description: Determines whether this range is within or at the same text as a specified range.
+description: Determines whether this range is within or at the same text as a specified range.helpviewer_keywords: ["ITextRange interface [Windows Controls]","InRange method","ITextRange.InRange","ITextRange::InRange","InRange","InRange method [Windows Controls]","InRange method [Windows Controls]","ITextRange interface","_win32_ITextRange_InRange","_win32_ITextRange_InRange_cpp","controls.ITextRange_InRange","controls._win32_ITextRange_InRange","tom/ITextRange::InRange"]
 old-location: controls\ITextRange_InRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\inrange.htm

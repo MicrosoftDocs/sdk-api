@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetVolume
 title: IXAudio2Voice::GetVolume (xaudio2.h)
-description: Gets the current overall volume level of the voice.
+description: Gets the current overall volume level of the voice.helpviewer_keywords: ["GetVolume","GetVolume method [XAudio2 Audio Mixing APIs]","GetVolume method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","GetVolume method","IXAudio2Voice.GetVolume","IXAudio2Voice::GetVolume","xaudio2.ixaudio2voice_interface_getvolume","xaudio2/IXAudio2Voice::GetVolume"]
 old-location: xaudio2\ixaudio2voice_interface_getvolume.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetVolume(float@)

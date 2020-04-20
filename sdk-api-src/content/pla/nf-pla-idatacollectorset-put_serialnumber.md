@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SerialNumber
 title: IDataCollectorSet::put_SerialNumber (pla.h)
-description: Retrieves or sets the number of times that this data collector set has been started, including segments.
+description: Retrieves or sets the number of times that this data collector set has been started, including segments.helpviewer_keywords: ["IDataCollectorSet interface [PLA]","SerialNumber property","IDataCollectorSet.SerialNumber","IDataCollectorSet.put_SerialNumber","IDataCollectorSet::SerialNumber","IDataCollectorSet::get_SerialNumber","IDataCollectorSet::put_SerialNumber","SerialNumber property [PLA]","SerialNumber property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_serialnumber","pla.idatacollectorset_get_serialnumber","pla/IDataCollectorSet::SerialNumber","pla/IDataCollectorSet::get_SerialNumber","pla/IDataCollectorSet::put_SerialNumber","put_SerialNumber"]
 old-location: pla\idatacollectorset_get_serialnumber.htm
 tech.root: PLA
 ms.assetid: 92bfd307-362e-4d60-9a61-d2096fbb3d19

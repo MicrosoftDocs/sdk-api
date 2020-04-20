@@ -1,7 +1,7 @@
 ---
 UID: NS:dcomptypes.__unnamed_struct_0
 title: DCOMPOSITION_FRAME_STATISTICS (dcomptypes.h)
-description: Describes timing and composition statistics for a frame.
+description: Describes timing and composition statistics for a frame.helpviewer_keywords: ["DCOMPOSITION_FRAME_STATISTICS","DCOMPOSITION_FRAME_STATISTICS structure [DirectComposition]","PDCOMPOSITION_FRAME_STATISTICS","PDCOMPOSITION_FRAME_STATISTICS structure pointer [DirectComposition]","dcomptypes/DCOMPOSITION_FRAME_STATISTICS","dcomptypes/PDCOMPOSITION_FRAME_STATISTICS","directcomp.dcomposition_frame_statistics"]
 old-location: directcomp\dcomposition_frame_statistics.htm
 tech.root: directcomp
 ms.assetid: 431D8399-9BCC-4B3A-89F4-E698446EF764

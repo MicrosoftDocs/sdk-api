@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetClientsV4
 title: DhcpEnumSubnetClientsV4 function (dhcpsapi.h)
-description: Returns an enumerated list of client lease records with served IP addresses in the specified subnet.
+description: Returns an enumerated list of client lease records with served IP addresses in the specified subnet.helpviewer_keywords: ["DhcpEnumSubnetClientsV4","DhcpEnumSubnetClientsV4 function [DHCP]","dhcp.dhcpenumsubnetclientsv4","dhcpsapi/DhcpEnumSubnetClientsV4"]
 old-location: dhcp\dhcpenumsubnetclientsv4.htm
 tech.root: DHCP
 ms.assetid: 3451dc35-4cd1-4430-a19f-f0aa0533ea4b

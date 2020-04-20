@@ -1,7 +1,7 @@
 ---
 UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetStringValue
 title: IUPnPRemoteEndpointInfo::GetStringValue (upnphost.h)
-description: The GetStringValue method gets a string that provides information about either a request or requester.
+description: The GetStringValue method gets a string that provides information about either a request or requester.helpviewer_keywords: ["GetStringValue","GetStringValue method [UPnP APIs]","GetStringValue method [UPnP APIs]","IUPnPRemoteEndpointInfo interface","IUPnPRemoteEndpointInfo interface [UPnP APIs]","GetStringValue method","IUPnPRemoteEndpointInfo.GetStringValue","IUPnPRemoteEndpointInfo::GetStringValue","upnp.iupnpremoteendpointinfo_getstringvalue","upnphost/IUPnPRemoteEndpointInfo::GetStringValue"]
 old-location: upnp\iupnpremoteendpointinfo_getstringvalue.htm
 tech.root: upnp
 ms.assetid: c3b0dcd2-2195-4e09-aac4-073a3d848fa9

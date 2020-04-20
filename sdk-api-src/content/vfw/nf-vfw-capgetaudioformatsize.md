@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.capGetAudioFormatSize
 title: capGetAudioFormatSize macro (vfw.h)
-description: The capGetAudioFormatSize macro obtains the size of the audio format. You can use this macro or explicitly call the WM_CAP_GET_AUDIOFORMAT message.
+description: The capGetAudioFormatSize macro obtains the size of the audio format. You can use this macro or explicitly call the WM_CAP_GET_AUDIOFORMAT message.helpviewer_keywords: ["_win32_capGetAudioFormatSize","capGetAudioFormatSize","capGetAudioFormatSize macro [Windows Multimedia]","multimedia.capgetaudioformatsize","vfw/capGetAudioFormatSize"]
 old-location: multimedia\capgetaudioformatsize.htm
 tech.root: Multimedia
 ms.assetid: 6f2dbedb-bece-4082-aa68-c2390c75b4d7

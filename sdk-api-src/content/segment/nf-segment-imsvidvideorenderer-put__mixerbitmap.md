@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put__MixerBitmap
 title: IMSVidVideoRenderer::put__MixerBitmap (segment.h)
-description: The put__MixerBitmap method specifies the static bitmap image.
+description: The put__MixerBitmap method specifies the static bitmap image.helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","put__MixerBitmap method","IMSVidVideoRenderer.put__MixerBitmap","IMSVidVideoRenderer::put__MixerBitmap","IMSVidVideoRendererput__MixerBitmap","mstv.imsvidvideorenderer_put__mixerbitmap","put__MixerBitmap","put__MixerBitmap method [Microsoft TV Technologies]","put__MixerBitmap method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","segment/IMSVidVideoRenderer::put__MixerBitmap"]
 old-location: mstv\imsvidvideorenderer_put__mixerbitmap.htm
 tech.root: mstv
 ms.assetid: 6dd7b83e-6ed6-4c57-8a00-a4ed2c78840d

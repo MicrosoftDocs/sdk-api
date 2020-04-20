@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolWait
 title: CreateThreadpoolWait function (threadpoolapiset.h)
-description: Creates a new wait object.
+description: Creates a new wait object.helpviewer_keywords: ["CreateThreadpoolWait","CreateThreadpoolWait function","base.createthreadpoolwait","threadpoolapiset/CreateThreadpoolWait","winbase/CreateThreadpoolWait"]
 old-location: base\createthreadpoolwait.htm
 tech.root: ProcThread
 ms.assetid: ba19f5f9-d4b0-4865-9609-95e7697d61c0

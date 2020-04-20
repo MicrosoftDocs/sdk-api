@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplusheaders.Image
 title: Image (gdiplusheaders.h)
-description: The Image class provides methods for loading and saving raster images (bitmaps) and vector images (metafiles).
+description: The Image class provides methods for loading and saving raster images (bitmaps) and vector images (metafiles).helpviewer_keywords: ["Image","Image class [GDI+]","Image class [GDI+]","described","_gdiplus_CLASS_Image_Class","gdiplus._gdiplus_CLASS_Image_Class","gdiplusheaders/Image"]
 old-location: gdiplus\_gdiplus_CLASS_Image_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\image.htm

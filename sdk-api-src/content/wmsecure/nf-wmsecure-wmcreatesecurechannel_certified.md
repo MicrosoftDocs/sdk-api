@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsecure.WMCreateSecureChannel_Certified
 title: WMCreateSecureChannel_Certified function (wmsecure.h)
-description: Creates an object that implements IWMSecureChannel.
+description: Creates an object that implements IWMSecureChannel.helpviewer_keywords: ["WMCreateSecureChannel_Certified","WMCreateSecureChannel_Certified function [windows Media Format]","wmformat.wmcreatesecurechannel_certified","wmsecure/WMCreateSecureChannel_Certified"]
 old-location: wmformat\wmcreatesecurechannel_certified.htm
 tech.root: wmformat
 ms.assetid: 0381c653-05e1-417c-beee-40c4aa4271f4

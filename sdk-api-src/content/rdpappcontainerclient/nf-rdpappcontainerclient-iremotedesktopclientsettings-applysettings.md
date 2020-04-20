@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.ApplySettings
 title: IRemoteDesktopClientSettings::ApplySettings (rdpappcontainerclient.h)
-description: Stores the specified contents in the RDP file.
+description: Stores the specified contents in the RDP file.helpviewer_keywords: ["ApplySettings","ApplySettings method [Remote Desktop Services]","ApplySettings method [Remote Desktop Services]","IRemoteDesktopClientSettings interface","IRemoteDesktopClientSettings interface [Remote Desktop Services]","ApplySettings method","IRemoteDesktopClientSettings.ApplySettings","IRemoteDesktopClientSettings::ApplySettings","rdpappcontainerclient/IRemoteDesktopClientSettings::ApplySettings","termserv.iremotedesktopclientsettings_applysettings"]
 old-location: termserv\iremotedesktopclientsettings_applysettings.htm
 tech.root: TermServ
 ms.assetid: 24f17f50-6cb0-422a-88c6-77bae48af392

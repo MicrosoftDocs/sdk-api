@@ -1,7 +1,7 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataHandlerInfo
 title: IWICMetadataHandlerInfo (wincodecsdk.h)
-description: Exposes methods that provide basic information about the registered metadata handler.
+description: Exposes methods that provide basic information about the registered metadata handler.helpviewer_keywords: ["IWICMetadataHandlerInfo","IWICMetadataHandlerInfo interface [Windows Imaging Component]","IWICMetadataHandlerInfo interface [Windows Imaging Component]","described","_wic_codec_iwicmetadatahandlerinfo","wic._wic_codec_iwicmetadatahandlerinfo","wincodecsdk/IWICMetadataHandlerInfo"]
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo.htm
 tech.root: wic
 ms.assetid: 505105c2-de50-4b5f-9089-e9a3cea2f464

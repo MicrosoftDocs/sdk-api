@@ -1,7 +1,7 @@
 ---
 UID: NF:powerbase.GetPwrCapabilities
 title: GetPwrCapabilities function (powerbase.h)
-description: Retrieves information about the system power capabilities.
+description: Retrieves information about the system power capabilities.helpviewer_keywords: ["GetPwrCapabilities","GetPwrCapabilities function","_win32_getpwrcapabilities","base.getpwrcapabilities","powerbase/GetPwrCapabilities","powrprof/GetPwrCapabilities"]
 old-location: base\getpwrcapabilities.htm
 tech.root: power
 ms.assetid: bb5cec5f-8d45-4158-824a-023f92af9b69

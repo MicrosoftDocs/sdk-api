@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetLastStatus
 title: Graphics::GetLastStatus (gdiplusgraphics.h)
-description: The Graphics::GetLastStatus method returns a value that indicates the nature of this Graphics object's most recent method failure.
+description: The Graphics::GetLastStatus method returns a value that indicates the nature of this Graphics object's most recent method failure.helpviewer_keywords: ["GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","Graphics class","Graphics class [GDI+]","GetLastStatus method","Graphics.GetLastStatus","Graphics::GetLastStatus","_gdiplus_CLASS_Graphics_GetLastStatus_","gdiplus._gdiplus_CLASS_Graphics_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getlaststatus_22.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.GetCount
 title: ISensorCollection::GetCount (sensorsapi.h)
-description: Retrieves the count of sensors in the collection.
+description: Retrieves the count of sensors in the collection.helpviewer_keywords: ["GetCount","GetCount method","GetCount method","ISensorCollection interface","ISensorCollection interface","GetCount method","ISensorCollection.GetCount","ISensorCollection::GetCount","sensorsapi/ISensorCollection::GetCount","winsensors_com_ref.isensorcollection_getcount"]
 old-location: winsensors_com_ref\isensorcollection_getcount.htm
 tech.root: SensorsAPI
 ms.assetid: 40bcf993-55fb-4d75-91dc-44d770a0e226

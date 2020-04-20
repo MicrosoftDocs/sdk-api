@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidEVREvent.OnUserEvent
 title: IMSVidEVREvent::OnUserEvent (segment.h)
-description: This topic applies to Windows Vista or later.
+description: This topic applies to Windows Vista or later.helpviewer_keywords: ["IMSVidEVREvent interface [Microsoft TV Technologies]","OnUserEvent method","IMSVidEVREvent.OnUserEvent","IMSVidEVREvent::OnUserEvent","IMSVidEVREventOnUserEvent","OnUserEvent","OnUserEvent method [Microsoft TV Technologies]","OnUserEvent method [Microsoft TV Technologies]","IMSVidEVREvent interface","mstv.imsvidevrevent_onuserevent","segment/IMSVidEVREvent::OnUserEvent"]
 old-location: mstv\imsvidevrevent_onuserevent.htm
 tech.root: mstv
 ms.assetid: 2eee9fd9-ed8d-482d-833a-c785d65cbf6a

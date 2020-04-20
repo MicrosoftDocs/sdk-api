@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionPromote
 title: IComLTxEvents::OnLtxTransactionPromote (comsvcs.h)
-description: Generated when a transaction is promoted.
+description: Generated when a transaction is promoted.helpviewer_keywords: ["IComLTxEvents interface [COM+]","OnLtxTransactionPromote method","IComLTxEvents.OnLtxTransactionPromote","IComLTxEvents::OnLtxTransactionPromote","OnLtxTransactionPromote","OnLtxTransactionPromote method [COM+]","OnLtxTransactionPromote method [COM+]","IComLTxEvents interface","comsvcs/IComLTxEvents::OnLtxTransactionPromote","cos.icomltxevents_onltxtransactionpromote"]
 old-location: cos\icomltxevents_onltxtransactionpromote.htm
 tech.root: cossdk
 ms.assetid: 9cd9927c-355c-4d9f-b679-278e4b6897e1

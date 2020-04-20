@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetServiceId
 title: IDvbLinkageDescriptor::GetServiceId (dvbsiparser.h)
-description: Gets the identifier that identifies an information service in a Digital Video Broadcast (DVB) linkage descriptor.
+description: Gets the identifier that identifies an information service in a Digital Video Broadcast (DVB) linkage descriptor.helpviewer_keywords: ["GetServiceId","GetServiceId method [Microsoft TV Technologies]","GetServiceId method [Microsoft TV Technologies]","IDvbLinkageDescriptor interface","IDvbLinkageDescriptor interface [Microsoft TV Technologies]","GetServiceId method","IDvbLinkageDescriptor.GetServiceId","IDvbLinkageDescriptor::GetServiceId","dvbsiparser/IDvbLinkageDescriptor::GetServiceId","mstv.idvblinkagedescriptor_getserviceid"]
 old-location: mstv\idvblinkagedescriptor_getserviceid.htm
 tech.root: mstv
 ms.assetid: 977c284d-b995-4879-b90a-2bc42b60d1a3

@@ -1,7 +1,7 @@
 ---
 UID: NS:resapi.RESUTIL_FILETIME_DATA
 title: RESUTIL_FILETIME_DATA (resapi.h)
-description: Describes the default, maximum, and minimum values allowed for a FILETIME.
+description: Describes the default, maximum, and minimum values allowed for a FILETIME.helpviewer_keywords: ["*PRESUTIL_FILETIME_DATA","PRESUTIL_FILETIME_DATA","PRESUTIL_FILETIME_DATA structure pointer [Failover Cluster]","RESUTIL_FILETIME_DATA","RESUTIL_FILETIME_DATA structure [Failover Cluster]","mscs.resutil_filetime_data","resapi/PRESUTIL_FILETIME_DATA","resapi/RESUTIL_FILETIME_DATA"]
 old-location: mscs\resutil_filetime_data.htm
 tech.root: MsCS
 ms.assetid: 47009cac-fcfe-43f5-9676-4e5db863c909

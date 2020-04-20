@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.DeleteAttachedSurface
 title: IDirectDrawSurface7::DeleteAttachedSurface (ddraw.h)
-description: Detaches one or more attached surfaces.
+description: Detaches one or more attached surfaces.helpviewer_keywords: ["DeleteAttachedSurface","DeleteAttachedSurface method [DirectDraw]","DeleteAttachedSurface method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","DeleteAttachedSurface method","IDirectDrawSurface7.DeleteAttachedSurface","IDirectDrawSurface7::DeleteAttachedSurface","ddraw/IDirectDrawSurface7::DeleteAttachedSurface","directdraw.idirectdrawsurface7_deleteattachedsurface"]
 old-location: directdraw\idirectdrawsurface7_deleteattachedsurface.htm
 tech.root: directdraw
 ms.assetid: 39cefecd-2ae0-42ba-8140-842acdaa1ad8

@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetLcid
 title: ICreateTypeLib::SetLcid (oaidl.h)
-description: Sets the binary Microsoft national language ID associated with the library.
+description: Sets the binary Microsoft national language ID associated with the library.helpviewer_keywords: ["ICreateTypeLib interface [Automation]","SetLcid method","ICreateTypeLib.SetLcid","ICreateTypeLib::SetLcid","SetLcid","SetLcid method [Automation]","SetLcid method [Automation]","ICreateTypeLib interface","_oa96_ICreateTypeLib_SetLcid","automat.icreatetypelib_setlcid","oaidl/ICreateTypeLib::SetLcid"]
 old-location: automat\icreatetypelib_setlcid.htm
 tech.root: automat
 ms.assetid: 4281058b-a617-4504-bc36-b18763b40897

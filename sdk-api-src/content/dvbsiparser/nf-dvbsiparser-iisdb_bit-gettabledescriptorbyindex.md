@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetTableDescriptorByIndex
 title: IISDB_BIT::GetTableDescriptorByIndex (dvbsiparser.h)
-description: Returns a descriptor for a specified table in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
+description: Returns a descriptor for a specified table in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).helpviewer_keywords: ["GetTableDescriptorByIndex","GetTableDescriptorByIndex method [Microsoft TV Technologies]","GetTableDescriptorByIndex method [Microsoft TV Technologies]","IISDB_BIT interface","IISDB_BIT interface [Microsoft TV Technologies]","GetTableDescriptorByIndex method","IISDB_BIT.GetTableDescriptorByIndex","IISDB_BIT::GetTableDescriptorByIndex","dvbsiparser/IISDB_BIT::GetTableDescriptorByIndex","mstv.iisdb_bit_gettabledescriptorbyindex"]
 old-location: mstv\iisdb_bit_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 5c6002b2-61c3-4d0c-87b9-682c3277792c

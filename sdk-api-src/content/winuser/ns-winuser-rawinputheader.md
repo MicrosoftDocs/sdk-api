@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagRAWINPUTHEADER
 title: RAWINPUTHEADER (winuser.h)
-description: Contains the header information that is part of the raw input data.
+description: Contains the header information that is part of the raw input data.helpviewer_keywords: ["*LPRAWINPUTHEADER","*PRAWINPUTHEADER","PRAWINPUTHEADER","PRAWINPUTHEADER structure pointer [Keyboard and Mouse Input]","RAWINPUTHEADER","RAWINPUTHEADER structure [Keyboard and Mouse Input]","RIM_TYPEHID","RIM_TYPEKEYBOARD","RIM_TYPEMOUSE","_win32_RAWINPUTHEADER_str","_win32_rawinputheader_str_cpp","inputdev.rawinputheader","winui._win32_rawinputheader_str","winuser/PRAWINPUTHEADER","winuser/RAWINPUTHEADER"]
 old-location: inputdev\rawinputheader.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinputheader.htm

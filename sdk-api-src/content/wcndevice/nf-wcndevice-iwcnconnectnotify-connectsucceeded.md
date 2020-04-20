@@ -1,7 +1,7 @@
 ---
 UID: NF:wcndevice.IWCNConnectNotify.ConnectSucceeded
 title: IWCNConnectNotify::ConnectSucceeded (wcndevice.h)
-description: The IWCNConnectNotify::ConnectSucceeded callback method that indicates a successful IWCNDevice::Connect operation.
+description: The IWCNConnectNotify::ConnectSucceeded callback method that indicates a successful IWCNDevice::Connect operation.helpviewer_keywords: ["ConnectSucceeded","ConnectSucceeded method [Windows Connect Now]","ConnectSucceeded method [Windows Connect Now]","IWCNConnectNotify interface","IWCNConnectNotify interface [Windows Connect Now]","ConnectSucceeded method","IWCNConnectNotify.ConnectSucceeded","IWCNConnectNotify::ConnectSucceeded","wcn.iwcnconnectnotify_connectsucceeded","wcndevice/IWCNConnectNotify::ConnectSucceeded"]
 old-location: wcn\iwcnconnectnotify_connectsucceeded.htm
 tech.root: wcn
 ms.assetid: 79c8482a-5cb2-44a7-b324-964bfedd3d2f

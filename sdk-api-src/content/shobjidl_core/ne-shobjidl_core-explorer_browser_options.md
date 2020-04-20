@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core.EXPLORER_BROWSER_OPTIONS
 title: EXPLORER_BROWSER_OPTIONS (shobjidl_core.h)
-description: These flags are used with IExplorerBrowser::GetOptions and IExplorerBrowser::SetOptions.
+description: These flags are used with IExplorerBrowser::GetOptions and IExplorerBrowser::SetOptions.helpviewer_keywords: ["EBO_ALWAYSNAVIGATE","EBO_HTMLSHAREPOINTVIEW","EBO_NAVIGATEONCE","EBO_NOBORDER","EBO_NONE","EBO_NOPERSISTVIEWSTATE","EBO_NOTRAVELLOG","EBO_NOWRAPPERWINDOW","EBO_SHOWFRAMES","EXPLORER_BROWSER_OPTIONS","EXPLORER_BROWSER_OPTIONS enumeration [Windows Shell]","_shell_EXPLORER_BROWSER_OPTIONS","shell.EXPLORER_BROWSER_OPTIONS","shobjidl_core/EBO_ALWAYSNAVIGATE","shobjidl_core/EBO_HTMLSHAREPOINTVIEW","shobjidl_core/EBO_NAVIGATEONCE","shobjidl_core/EBO_NOBORDER","shobjidl_core/EBO_NONE","shobjidl_core/EBO_NOPERSISTVIEWSTATE","shobjidl_core/EBO_NOTRAVELLOG","shobjidl_core/EBO_NOWRAPPERWINDOW","shobjidl_core/EBO_SHOWFRAMES","shobjidl_core/EXPLORER_BROWSER_OPTIONS"]
 old-location: shell\EXPLORER_BROWSER_OPTIONS.htm
 tech.root: shell
 ms.assetid: 4e2983bc-cad2-4bcc-8169-57b5274b2142

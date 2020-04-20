@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IToolbar.DeleteButton
 title: IToolbar::DeleteButton (mmc.h)
-description: Enables a snap-in to remove a specified toolbar button.
+description: Enables a snap-in to remove a specified toolbar button.helpviewer_keywords: ["DeleteButton","DeleteButton method [MMC]","DeleteButton method [MMC]","IToolbar interface","IToolbar interface [MMC]","DeleteButton method","IToolbar.DeleteButton","IToolbar::DeleteButton","_slate_itoolbar_deletebutton","mmc.itoolbar_deletebutton","mmc/IToolbar::DeleteButton"]
 old-location: mmc\itoolbar_deletebutton.htm
 tech.root: mmc
 ms.assetid: c893b3a6-a0f8-42ce-bf82-2e45f6458500

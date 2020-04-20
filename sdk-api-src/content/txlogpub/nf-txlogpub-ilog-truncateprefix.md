@@ -1,7 +1,7 @@
 ---
 UID: NF:txlogpub.ILog.TruncatePrefix
 title: ILog::TruncatePrefix (txlogpub.h)
-description: Throws away the specified prefix of the log, making it no longer retrievable.
+description: Throws away the specified prefix of the log, making it no longer retrievable.helpviewer_keywords: ["ILog interface [COM]","TruncatePrefix method","ILog.TruncatePrefix","ILog::TruncatePrefix","TruncatePrefix","TruncatePrefix method [COM]","TruncatePrefix method [COM]","ILog interface","_com_ilog_truncateprefix","com.ilog_truncateprefix","txlogpub/ILog::TruncatePrefix"]
 old-location: com\ilog_truncateprefix.htm
 tech.root: com
 ms.assetid: 079c05b3-19ad-401d-ad5c-1095e897799f

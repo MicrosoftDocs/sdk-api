@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.ICertAdmin.PublishCRL
 title: ICertAdmin::PublishCRL (certadm.h)
-description: Sends a request to the Certificate Services certification authority (CA) to publish a new certificate revocation list (CRL). This method was first introduced in the ICertAdmin interface.
+description: Sends a request to the Certificate Services certification authority (CA) to publish a new certificate revocation list (CRL). This method was first introduced in the ICertAdmin interface.helpviewer_keywords: ["CCertAdmin object [Security]","PublishCRL method","ICertAdmin interface [Security]","PublishCRL method","ICertAdmin.PublishCRL","ICertAdmin2 interface [Security]","PublishCRL method","ICertAdmin2::PublishCRL","ICertAdmin::PublishCRL","PublishCRL","PublishCRL method [Security]","PublishCRL method [Security]","CCertAdmin object","PublishCRL method [Security]","ICertAdmin interface","PublishCRL method [Security]","ICertAdmin2 interface","certadm/ICertAdmin2::PublishCRL","certadm/ICertAdmin::PublishCRL","security.icertadmin2_publishcrl"]
 old-location: security\icertadmin2_publishcrl.htm
 tech.root: SecCrypto
 ms.assetid: a42cab2d-2309-43f1-8d67-adbc5923ec45

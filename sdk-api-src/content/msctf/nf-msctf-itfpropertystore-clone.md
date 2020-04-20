@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Clone
 title: ITfPropertyStore::Clone (msctf.h)
-description: ITfPropertyStore::Clone method
+description: ITfPropertyStore::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","ITfPropertyStore interface","ITfPropertyStore interface [Text Services Framework]","Clone method","ITfPropertyStore.Clone","ITfPropertyStore::Clone","_tsf_itfpropertystore_clone_ref","msctf/ITfPropertyStore::Clone","tsf.itfpropertystore_clone"]
 old-location: tsf\itfpropertystore_clone.htm
 tech.root: TSF
 ms.assetid: 0f51a37f-e340-441e-a1f1-e67791b9c008

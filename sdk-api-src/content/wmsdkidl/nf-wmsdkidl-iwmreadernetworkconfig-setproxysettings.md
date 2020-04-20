@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxySettings
 title: IWMReaderNetworkConfig::SetProxySettings (wmsdkidl.h)
-description: The SetProxySettings method specifies the proxy settings.
+description: The SetProxySettings method specifies the proxy settings.helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetProxySettings method","IWMReaderNetworkConfig.SetProxySettings","IWMReaderNetworkConfig::SetProxySettings","IWMReaderNetworkConfigSetProxySettings","SetProxySettings","SetProxySettings method [windows Media Format]","SetProxySettings method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setproxysettings","wmsdkidl/IWMReaderNetworkConfig::SetProxySettings"]
 old-location: wmformat\iwmreadernetworkconfig_setproxysettings.htm
 tech.root: wmformat
 ms.assetid: fe5bc4f2-860a-42e8-b9f1-cd3d8af619c2

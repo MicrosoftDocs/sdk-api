@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_3.ID2D1Device6
 title: ID2D1Device6 (d2d1_3.h)
-description: Represents a resource domain whose objects and device contexts can be used together. This interface performs all the same functions as the ID2D1Device5 interface, plus it enables the creation of ID2D1DeviceContext6 objects.
+description: Represents a resource domain whose objects and device contexts can be used together. This interface performs all the same functions as the ID2D1Device5 interface, plus it enables the creation of ID2D1DeviceContext6 objects.helpviewer_keywords: ["ID2D1Device6","ID2D1Device6 interface [Direct2D]","ID2D1Device6 interface [Direct2D]","described","d2d1_3/ID2D1Device6","direct2d.id2d1device6"]
 old-location: direct2d\id2d1device6.htm
 tech.root: Direct2D
 ms.assetid: 4C8AA3D6-E08E-45CE-958A-DBC8C9EB7B97

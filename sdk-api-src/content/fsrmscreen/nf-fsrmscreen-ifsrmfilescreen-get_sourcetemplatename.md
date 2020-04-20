@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.get_SourceTemplateName
 title: IFsrmFileScreen::get_SourceTemplateName (fsrmscreen.h)
-description: Retrieves the name of the template from which this file screen object was derived.
+description: Retrieves the name of the template from which this file screen object was derived.helpviewer_keywords: ["IFsrmFileScreen interface [File Server Resource Manager]","SourceTemplateName property","IFsrmFileScreen.SourceTemplateName","IFsrmFileScreen.get_SourceTemplateName","IFsrmFileScreen::SourceTemplateName","IFsrmFileScreen::get_SourceTemplateName","SourceTemplateName property [File Server Resource Manager]","SourceTemplateName property [File Server Resource Manager]","IFsrmFileScreen interface","fs.ifsrmfilescreen_sourcetemplatename","fsrm.ifsrmfilescreen_sourcetemplatename","fsrmscreen/IFsrmFileScreen::SourceTemplateName","fsrmscreen/IFsrmFileScreen::get_SourceTemplateName","get_SourceTemplateName"]
 old-location: fsrm\ifsrmfilescreen_sourcetemplatename.htm
 tech.root: fsrm
 ms.assetid: 12dffc6e-77d0-4010-ae7c-94a4be2549e6

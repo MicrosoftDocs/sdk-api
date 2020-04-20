@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetUniquenessValue
 title: IDirectDrawSurface7::GetUniquenessValue (ddraw.h)
-description: Retrieves the current uniqueness value for this surface.
+description: Retrieves the current uniqueness value for this surface.helpviewer_keywords: ["GetUniquenessValue","GetUniquenessValue method [DirectDraw]","GetUniquenessValue method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetUniquenessValue method","IDirectDrawSurface7.GetUniquenessValue","IDirectDrawSurface7::GetUniquenessValue","ddraw/IDirectDrawSurface7::GetUniquenessValue","directdraw.idirectdrawsurface7_getuniquenessvalue"]
 old-location: directdraw\idirectdrawsurface7_getuniquenessvalue.htm
 tech.root: directdraw
 ms.assetid: 559d9381-1135-47de-9bbe-49aa8d97f5d3

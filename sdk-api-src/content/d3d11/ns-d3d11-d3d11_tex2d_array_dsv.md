@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_ARRAY_DSV
 title: D3D11_TEX2D_ARRAY_DSV (d3d11.h)
-description: Specifies the subresources from an array 2D textures that are accessible to a depth-stencil view.
+description: Specifies the subresources from an array 2D textures that are accessible to a depth-stencil view.helpviewer_keywords: ["2ebbfb28-3f63-3075-24ab-73fe477fd606","D3D11_TEX2D_ARRAY_DSV","D3D11_TEX2D_ARRAY_DSV structure [Direct3D 11]","d3d11/D3D11_TEX2D_ARRAY_DSV","direct3d11.d3d11_tex2d_array_dsv"]
 old-location: direct3d11\d3d11_tex2d_array_dsv.htm
 tech.root: direct3d11
 ms.assetid: 0cf77ebd-a83c-4021-866d-664913549d80

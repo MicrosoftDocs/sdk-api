@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector3Equal
 title: XMVector3Equal function (directxmath.h)
-description: Tests whether two 3D vectors are equal.
+description: Tests whether two 3D vectors are equal.helpviewer_keywords: ["Use DirectX..XMVector3Equal","XMVector3Equal","XMVector3Equal method [DirectX Math Support APIs]","dxmath.xmvector3equal"]
 old-location: dxmath\xmvector3equal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3Equal(XMVECTOR,XMVECTOR)

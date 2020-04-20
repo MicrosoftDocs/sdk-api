@@ -1,7 +1,7 @@
 ---
 UID: NF:lmjoin.NetRequestProvisioningPackageInstall
 title: NetRequestProvisioningPackageInstall function (lmjoin.h)
-description: Executes locally on a machine to modify a Windows operating system image mounted on a volume.
+description: Executes locally on a machine to modify a Windows operating system image mounted on a volume.helpviewer_keywords: ["NETSETUP_PROVISION_ONLINE_CALLER","NetRequestProvisioningPackageInstall","NetRequestProvisioningPackageInstall function [Network Management]","lmjoin/NetRequestProvisioningPackageInstall","netmgmt.netrequestprovisioningpackageinstall"]
 old-location: netmgmt\netrequestprovisioningpackageinstall.htm
 tech.root: NetMgmt
 ms.assetid: 107ED0F7-8DDD-4C18-8C34-3A67F771FA62

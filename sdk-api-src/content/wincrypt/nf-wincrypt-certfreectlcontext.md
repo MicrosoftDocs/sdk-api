@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertFreeCTLContext
 title: CertFreeCTLContext function (wincrypt.h)
-description: Frees a certificate trust list (CTL) context by decrementing its reference count.
+description: Frees a certificate trust list (CTL) context by decrementing its reference count.helpviewer_keywords: ["CertFreeCTLContext","CertFreeCTLContext function [Security]","_crypto2_certfreectlcontext","security.certfreectlcontext","wincrypt/CertFreeCTLContext"]
 old-location: security\certfreectlcontext.htm
 tech.root: SecCrypto
 ms.assetid: 84b1aa0c-44d9-4a2f-861c-fa7d8caac192

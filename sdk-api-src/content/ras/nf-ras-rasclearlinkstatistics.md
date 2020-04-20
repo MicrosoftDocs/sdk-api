@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasClearLinkStatistics
 title: RasClearLinkStatistics function (ras.h)
-description: The RasClearLinkStatistics functions clears any accumulated statistics for the specified link in a RAS multilink connection.
+description: The RasClearLinkStatistics functions clears any accumulated statistics for the specified link in a RAS multilink connection.helpviewer_keywords: ["RasClearLinkStatistics","RasClearLinkStatistics function [RAS]","_ras_rasclearlinkstatistics","ras/RasClearLinkStatistics","rras.rasclearlinkstatistics"]
 old-location: rras\rasclearlinkstatistics.htm
 tech.root: RRAS
 ms.assetid: cac356a9-092c-4db2-b0a4-aaacfc514e29

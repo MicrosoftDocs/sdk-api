@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.GetStream
 title: IMFASFStreamPrioritization::GetStream (wmcontainer.h)
-description: Note  This interface is not implemented in this version of Media Foundation. Retrieves the stream number of a stream in the stream priority list.
+description: Note  This interface is not implemented in this version of Media Foundation. Retrieves the stream number of a stream in the stream priority list.helpviewer_keywords: ["460a929b-71bf-4f41-9e7a-af04a8f1c10f","GetStream","GetStream method [Media Foundation]","GetStream method [Media Foundation]","IMFASFStreamPrioritization interface","IMFASFStreamPrioritization interface [Media Foundation]","GetStream method","IMFASFStreamPrioritization.GetStream","IMFASFStreamPrioritization::GetStream","mf.imfasfstreamprioritization_getstream","wmcontainer/IMFASFStreamPrioritization::GetStream"]
 old-location: mf\imfasfstreamprioritization_getstream.htm
 tech.root: medfound
 ms.assetid: 460a929b-71bf-4f41-9e7a-af04a8f1c10f

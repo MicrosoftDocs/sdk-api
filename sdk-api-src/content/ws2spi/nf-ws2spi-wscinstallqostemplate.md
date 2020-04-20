@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2spi.WSCInstallQOSTemplate
 title: WSCInstallQOSTemplate function (ws2spi.h)
-description: Installs the specified QoS template in the system configuration database.
+description: Installs the specified QoS template in the system configuration database.helpviewer_keywords: ["WSCInstallQOSTemplate","WSCInstallQOSTemplate function [Winsock]","winsock.wscinstallqostemplate","ws2spi/WSCInstallQOSTemplate"]
 old-location: winsock\wscinstallqostemplate.htm
 tech.root: WinSock
 ms.assetid: b83cfb67-c3be-49aa-930d-d6b056f7bde2

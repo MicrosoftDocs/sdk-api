@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IScanningTunerEx.GetCurrentTunerStandardCapability
 title: IScanningTunerEx::GetCurrentTunerStandardCapability (tuner.h)
-description: This topic applies to Windows Vista and later.
+description: This topic applies to Windows Vista and later.helpviewer_keywords: ["GetCurrentTunerStandardCapability","GetCurrentTunerStandardCapability method [Microsoft TV Technologies]","GetCurrentTunerStandardCapability method [Microsoft TV Technologies]","IScanningTunerEx interface","IScanningTunerEx interface [Microsoft TV Technologies]","GetCurrentTunerStandardCapability method","IScanningTunerEx.GetCurrentTunerStandardCapability","IScanningTunerEx::GetCurrentTunerStandardCapability","IScanningTunerExGetCurrentTunerStandardCapability","mstv.iscanningtunerex_getcurrenttunerstandardcapability","tuner/IScanningTunerEx::GetCurrentTunerStandardCapability"]
 old-location: mstv\iscanningtunerex_getcurrenttunerstandardcapability.htm
 tech.root: mstv
 ms.assetid: 4a3edf23-d782-4bfb-84c2-33eab7cb9d19

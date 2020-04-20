@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDraw7.CreateClipper
 title: IDirectDraw7::CreateClipper (ddraw.h)
-description: Creates a DirectDrawClipper object.
+description: Creates a DirectDrawClipper object.helpviewer_keywords: ["CreateClipper","CreateClipper method [DirectDraw]","CreateClipper method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","CreateClipper method","IDirectDraw7.CreateClipper","IDirectDraw7::CreateClipper","ddraw/IDirectDraw7::CreateClipper","directdraw.idirectdraw7_createclipper"]
 old-location: directdraw\idirectdraw7_createclipper.htm
 tech.root: directdraw
 ms.assetid: 123a07c0-d371-4d10-bff8-b5640bd3b920

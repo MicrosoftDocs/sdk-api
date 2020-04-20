@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetParentCAInformation
 title: ICertSrvSetup::SetParentCAInformation (casetup.h)
-description: Sets the parent certification authority (CA) information for a subordinate CA configuration.
+description: Sets the parent certification authority (CA) information for a subordinate CA configuration.helpviewer_keywords: ["ICertSrvSetup interface [Security]","SetParentCAInformation method","ICertSrvSetup.SetParentCAInformation","ICertSrvSetup::SetParentCAInformation","SetParentCAInformation","SetParentCAInformation method [Security]","SetParentCAInformation method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::SetParentCAInformation","security.icertsrvsetup_setparentcainformation"]
 old-location: security\icertsrvsetup_setparentcainformation.htm
 tech.root: SecCrypto
 ms.assetid: 73c4782d-579d-48d7-b999-f15a2443bbca

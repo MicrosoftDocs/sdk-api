@@ -1,7 +1,7 @@
 ---
 UID: NF:micaut.IMathInputControl.IsVisible
 title: IMathInputControl::IsVisible (micaut.h)
-description: Determines whether the control is visible.
+description: Determines whether the control is visible.helpviewer_keywords: ["IMathInputControl interface [Tablet PC]","IsVisible method","IMathInputControl.IsVisible","IMathInputControl::IsVisible","IsVisible","IsVisible method [Tablet PC]","IsVisible method [Tablet PC]","IMathInputControl interface","micaut/IMathInputControl::IsVisible","tablet.imathinputcontrol_isvisible"]
 old-location: tablet\imathinputcontrol_isvisible.htm
 tech.root: tablet
 ms.assetid: 4efc0fd5-5f07-4664-8143-46a5695c04df

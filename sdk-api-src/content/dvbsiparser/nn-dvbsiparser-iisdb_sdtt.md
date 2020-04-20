@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IISDB_SDTT
 title: IISDB_SDTT (dvbsiparser.h)
-description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT). An SDTT contains download information such as service ID, schedule, and receiver types for revision.
+description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT). An SDTT contains download information such as service ID, schedule, and receiver types for revision.helpviewer_keywords: ["IISDB_SDTT","IISDB_SDTT interface [Microsoft TV Technologies]","IISDB_SDTT interface [Microsoft TV Technologies]","described","dvbsiparser/IISDB_SDTT","mstv.iisdb_sdtt"]
 old-location: mstv\iisdb_sdtt.htm
 tech.root: mstv
 ms.assetid: f6ed35bc-4470-4000-8f0d-19d454453720

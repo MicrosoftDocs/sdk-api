@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_MultisessionInterfaces
 title: IDiscFormat2Data::get_MultisessionInterfaces (imapi2.h)
-description: Retrieves a list of available multi-session interfaces.
+description: Retrieves a list of available multi-session interfaces.helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_MultisessionInterfaces method","IDiscFormat2Data.get_MultisessionInterfaces","IDiscFormat2Data::get_MultisessionInterfaces","get_MultisessionInterfaces","get_MultisessionInterfaces method [IMAPI]","get_MultisessionInterfaces method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_multisessioninterfaces","imapi2/IDiscFormat2Data::get_MultisessionInterfaces"]
 old-location: imapi\idiscformat2data_get_multisessioninterfaces.htm
 tech.root: imapi
 ms.assetid: 7bb2d100-629f-4b63-a699-ddce85213e72

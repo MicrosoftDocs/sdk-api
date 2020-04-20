@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetEditPropertySet
 title: IAMExtTransport::GetEditPropertySet (strmif.h)
-description: The GetEditPropertySet method retrieves the state of an edit event.
+description: The GetEditPropertySet method retrieves the state of an edit event.helpviewer_keywords: ["GetEditPropertySet","GetEditPropertySet method [DirectShow]","GetEditPropertySet method [DirectShow]","IAMExtTransport interface","IAMExtTransport interface [DirectShow]","GetEditPropertySet method","IAMExtTransport.GetEditPropertySet","IAMExtTransport::GetEditPropertySet","IAMExtTransportGetEditPropertySet","dshow.iamexttransport_geteditpropertyset","strmif/IAMExtTransport::GetEditPropertySet"]
 old-location: dshow\iamexttransport_geteditpropertyset.htm
 tech.root: DirectShow
 ms.assetid: 1afb45da-947c-454d-8be9-46ac58802b9e

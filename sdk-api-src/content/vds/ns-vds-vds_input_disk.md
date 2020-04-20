@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_INPUT_DISK
 title: VDS_INPUT_DISK (vds.h)
-description: Defines the details of an input disk.
+description: Defines the details of an input disk.helpviewer_keywords: ["VDS_INPUT_DISK","VDS_INPUT_DISK structure [VDS]","base.vds_input_disk","vds/_VDS_INPUT_DISK"]
 old-location: base\vds_input_disk.htm
 tech.root: VDS
 ms.assetid: 837981e5-8600-4add-85cf-a802615133d3

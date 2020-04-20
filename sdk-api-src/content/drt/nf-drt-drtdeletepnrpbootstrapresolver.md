@@ -1,7 +1,7 @@
 ---
 UID: NF:drt.DrtDeletePnrpBootstrapResolver
 title: DrtDeletePnrpBootstrapResolver function (drt.h)
-description: DrtDeletePnrpBootstrapResolver function deletes a bootstrap resolver based on the Peer Name Resolution Protocol (PNRP).
+description: DrtDeletePnrpBootstrapResolver function deletes a bootstrap resolver based on the Peer Name Resolution Protocol (PNRP).helpviewer_keywords: ["DrtDeletePnrpBootstrapResolver","DrtDeletePnrpBootstrapResolver function [Peer Networking]","drt/DrtDeletePnrpBootstrapResolver","p2p.drtdeletepnrpbootstrapresolver"]
 old-location: p2p\drtdeletepnrpbootstrapresolver.htm
 tech.root: P2PSdk
 ms.assetid: 0ff7bcc6-548b-475a-8a83-1ca50dbe333d

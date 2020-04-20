@@ -1,7 +1,7 @@
 ---
 UID: NS:naptypes.tagSoHAttribute
 title: SoHAttribute (naptypes.h)
-description: Defines the SoH protocol between the SHA/SHV and the NAP system.
+description: Defines the SoH protocol between the SHA/SHV and the NAP system.helpviewer_keywords: ["SoHAttribute","SoHAttribute structure [NAP]","nap.sohattribute_struct","naptypes/SoHAttribute"]
 old-location: nap\sohattribute_struct.htm
 tech.root: NAP
 ms.assetid: cd954277-27e0-47f4-b4c3-f5335925b8fd

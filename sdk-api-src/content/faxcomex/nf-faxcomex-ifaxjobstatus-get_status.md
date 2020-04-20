@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_Status
 title: IFaxJobStatus::get_Status (faxcomex.h)
-description: The Status property is a number that indicates the current status of fax job in the job queue.
+description: The Status property is a number that indicates the current status of fax job in the job queue.helpviewer_keywords: ["IFaxJobStatus interface [Fax Service]","Status property","IFaxJobStatus.Status","IFaxJobStatus.get_Status","IFaxJobStatus::Status","IFaxJobStatus::get_Status","Status property [Fax Service]","Status property [Fax Service]","IFaxJobStatus interface","_mfax_faxjobstatus.status","fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_status_cpp","fax._mfax_faxjobstatus_status","faxcomex/IFaxJobStatus::Status","faxcomex/IFaxJobStatus::get_Status","get_Status"]
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_status_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_50dv.htm

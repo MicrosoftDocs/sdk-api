@@ -1,7 +1,7 @@
 ---
 UID: NF:winber.ber_flatten
 title: ber_flatten function (winber.h)
-description: The ber_flatten function allocates a new berval structure containing the data taken from the supplied BerElement structure.
+description: The ber_flatten function allocates a new berval structure containing the data taken from the supplied BerElement structure.helpviewer_keywords: ["_ldap_ber_flatten","ber_flatten","ber_flatten function [LDAP]","ldap.ber__flatten","ldap.ber_flatten","winber/ber_flatten"]
 old-location: ldap\ber_flatten.htm
 tech.root: ldap
 ms.assetid: c253100b-092e-4975-8411-31edb7791068

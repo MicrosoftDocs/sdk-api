@@ -1,7 +1,7 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetDrawBackgroundMode
 title: IAMWstDecoder::GetDrawBackgroundMode (iwstdec.h)
-description: Downstream filters use the GetDrawBackgroundMode method to determine whether the caption text background is opaque or transparent.
+description: Downstream filters use the GetDrawBackgroundMode method to determine whether the caption text background is opaque or transparent.helpviewer_keywords: ["GetDrawBackgroundMode","GetDrawBackgroundMode method [DirectShow]","GetDrawBackgroundMode method [DirectShow]","IAMWstDecoder interface","IAMWstDecoder interface [DirectShow]","GetDrawBackgroundMode method","IAMWstDecoder.GetDrawBackgroundMode","IAMWstDecoder::GetDrawBackgroundMode","IAMWstDecoderGetDrawBackgroundMode","dshow.iamwstdecoder_getdrawbackgroundmode","iwstdec/IAMWstDecoder::GetDrawBackgroundMode"]
 old-location: dshow\iamwstdecoder_getdrawbackgroundmode.htm
 tech.root: DirectShow
 ms.assetid: c5bf3a83-5f74-4ef1-81b6-6c99e3832725

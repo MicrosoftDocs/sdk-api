@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.LayerParameters
 title: LayerParameters function (d2d1helper.h)
-description: Creates a D2D1_LAYER_PARAMETERS structure.
+description: Creates a D2D1_LAYER_PARAMETERS structure.helpviewer_keywords: ["LayerParameters","LayerParameters function [Direct2D]","d2d1helper/LayerParameters","direct2d.layerparameters"]
 old-location: direct2d\layerparameters.htm
 tech.root: Direct2D
 ms.assetid: c6a9ebca-5d60-4013-b35b-547b7f4600da

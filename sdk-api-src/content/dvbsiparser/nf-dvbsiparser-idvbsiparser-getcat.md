@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetCAT
 title: IDvbSiParser::GetCAT (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetCAT","GetCAT method [Microsoft TV Technologies]","GetCAT method [Microsoft TV Technologies]","IDvbSiParser interface","IDvbSiParser interface [Microsoft TV Technologies]","GetCAT method","IDvbSiParser.GetCAT","IDvbSiParser::GetCAT","IDvbSiParserGetCAT","dvbsiparser/IDvbSiParser::GetCAT","mstv.idvbsiparser_getcat"]
 old-location: mstv\idvbsiparser_getcat.htm
 tech.root: mstv
 ms.assetid: afd6286a-1b05-408f-a752-6fc3a2667e31

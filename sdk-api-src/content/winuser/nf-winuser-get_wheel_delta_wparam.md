@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GET_WHEEL_DELTA_WPARAM
 title: GET_WHEEL_DELTA_WPARAM macro (winuser.h)
-description: Retrieves the wheel-delta value from the specified WPARAM value.
+description: Retrieves the wheel-delta value from the specified WPARAM value.helpviewer_keywords: ["GET_WHEEL_DELTA_WPARAM","GET_WHEEL_DELTA_WPARAM macro [Keyboard and Mouse Input]","_win32_GET_WHEEL_DELTA_WPARAM","_win32_get_wheel_delta_wparam_cpp","inputdev.get_wheel_delta_wparam","winui._win32_get_wheel_delta_wparam","winuser/GET_WHEEL_DELTA_WPARAM"]
 old-location: inputdev\get_wheel_delta_wparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_wheel_delta_wparam.htm

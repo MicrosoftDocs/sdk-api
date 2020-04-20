@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OpenClusterGroup
 title: OpenClusterGroup function (clusapi.h)
-description: Opens a failover cluster group and returns a handle to it.
+description: Opens a failover cluster group and returns a handle to it.helpviewer_keywords: ["OpenClusterGroup","OpenClusterGroup function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_GROUP","PCLUSAPI_OPEN_CLUSTER_GROUP function [Failover Cluster]","_wolf_openclustergroup","clusapi/OpenClusterGroup","clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP","mscs.openclustergroup"]
 old-location: mscs\openclustergroup.htm
 tech.root: MsCS
 ms.assetid: 0c7ef9d9-d32b-448e-9e07-6befb9b3e338

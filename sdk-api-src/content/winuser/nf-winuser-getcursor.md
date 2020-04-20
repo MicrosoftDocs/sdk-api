@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetCursor
 title: GetCursor function (winuser.h)
-description: Retrieves a handle to the current cursor.
+description: Retrieves a handle to the current cursor.helpviewer_keywords: ["GetCursor","GetCursor function [Menus and Other Resources]","_win32_GetCursor","_win32_getcursor_cpp","menurc.getcursor","winui._win32_getcursor","winuser/GetCursor"]
 old-location: menurc\getcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getcursor.htm

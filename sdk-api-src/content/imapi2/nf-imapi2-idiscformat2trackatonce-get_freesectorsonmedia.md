@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia
 title: IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia (imapi2.h)
-description: Retrieves the number of sectors available for adding a new track to the media.
+description: Retrieves the number of sectors available for adding a new track to the media.helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_FreeSectorsOnMedia method","IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia","IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia","get_FreeSectorsOnMedia","get_FreeSectorsOnMedia method [IMAPI]","get_FreeSectorsOnMedia method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_freesectorsonmedia","imapi2/IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia"]
 old-location: imapi\idiscformat2trackatonce_get_freesectorsonmedia.htm
 tech.root: imapi
 ms.assetid: a36dd3de-ca08-4783-beca-95813402692b

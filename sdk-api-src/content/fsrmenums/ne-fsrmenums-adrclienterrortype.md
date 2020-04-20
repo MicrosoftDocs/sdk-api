@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._AdrClientErrorType
 title: AdrClientErrorType (fsrmenums.h)
-description: Describes the possible access denied remediation (ADR) client error types.
+description: Describes the possible access denied remediation (ADR) client error types.helpviewer_keywords: ["AdrClientErrorType","AdrClientErrorType enumeration [File Server Resource Manager]","AdrClientErrorType_AccessDenied","AdrClientErrorType_Unknown","fs.adrclienterrortype","fsrm.adrclienterrortype","fsrmenums/AdrClientErrorType","fsrmenums/AdrClientErrorType_AccessDenied","fsrmenums/AdrClientErrorType_Unknown"]
 old-location: fsrm\adrclienterrortype.htm
 tech.root: fsrm
 ms.assetid: 83e2c39b-ab3b-46c9-bb11-3f03f8193a7c

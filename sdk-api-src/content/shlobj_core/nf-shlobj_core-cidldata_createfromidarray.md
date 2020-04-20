@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.CIDLData_CreateFromIDArray
 title: CIDLData_CreateFromIDArray function (shlobj_core.h)
-description: CIDLData_CreateFromIDArray may be altered or unavailable.
+description: CIDLData_CreateFromIDArray may be altered or unavailable.helpviewer_keywords: ["CIDLData_CreateFromIDArray","CIDLData_CreateFromIDArray function [Windows Shell]","_shell_CIDLData_CreateFromIDArray","shell.CIDLData_CreateFromIDArray","shlobj_core/CIDLData_CreateFromIDArray"]
 old-location: shell\CIDLData_CreateFromIDArray.htm
 tech.root: shell
 ms.assetid: 4949c701-a375-450a-89a3-3fd146557d11

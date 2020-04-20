@@ -1,7 +1,7 @@
 ---
 UID: NF:wdspxe.PxePacketAllocate
 title: PxePacketAllocate function (wdspxe.h)
-description: Allocates a packet to be sent with the PxeSendReply function.
+description: Allocates a packet to be sent with the PxeSendReply function.helpviewer_keywords: ["PxePacketAllocate","PxePacketAllocate function [Windows Deployment Services]","wds.pxepacketallocate","wdspxe/PxePacketAllocate"]
 old-location: wds\pxepacketallocate.htm
 tech.root: wds
 ms.assetid: f3a664a8-565c-4894-bea7-6664df0ecd9b

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IStorage.MoveElementTo
 title: IStorage::MoveElementTo (objidl.h)
-description: The MoveElementTo method copies or moves a substorage or stream from this storage object to another storage object.
+description: The MoveElementTo method copies or moves a substorage or stream from this storage object to another storage object.helpviewer_keywords: ["IStorage interface [Structured Storage]","MoveElementTo method","IStorage.MoveElementTo","IStorage::MoveElementTo","MoveElementTo","MoveElementTo method [Structured Storage]","MoveElementTo method [Structured Storage]","IStorage interface","_stg_istorage_moveelementto","objidl/IStorage::MoveElementTo","stg.istorage_moveelementto"]
 old-location: stg\istorage_moveelementto.htm
 tech.root: Stg
 ms.assetid: d9d33c64-edac-480f-b295-b2a06e51af2e

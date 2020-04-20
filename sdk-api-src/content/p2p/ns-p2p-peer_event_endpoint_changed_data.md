@@ -1,7 +1,7 @@
 ---
 UID: NS:p2p.peer_event_endpoint_changed_data_tag
 title: PEER_EVENT_ENDPOINT_CHANGED_DATA (p2p.h)
-description: The PEER_EVENT_ENDPOINT_CHANGED_DATA structure contains information returned when a PEER_EVENT_ENDPOINT_CHANGED or PEER_EVENT_MY_ENDPOINT_CHANGED event is raised on a peer participating in a peer collaboration network.
+description: The PEER_EVENT_ENDPOINT_CHANGED_DATA structure contains information returned when a PEER_EVENT_ENDPOINT_CHANGED or PEER_EVENT_MY_ENDPOINT_CHANGED event is raised on a peer participating in a peer collaboration network.helpviewer_keywords: ["*PPEER_EVENT_ENDPOINT_CHANGED_DATA","PEER_EVENT_ENDPOINT_CHANGED_DATA","PEER_EVENT_ENDPOINT_CHANGED_DATA structure [Peer Networking]","PPEER_EVENT_ENDPOINT_CHANGED_DATA","PPEER_EVENT_ENDPOINT_CHANGED_DATA structure pointer [Peer Networking]","p2p.peer_event_endpoint_changed_data","p2p/PEER_EVENT_ENDPOINT_CHANGED_DATA","p2p/PPEER_EVENT_ENDPOINT_CHANGED_DATA"]
 old-location: p2p\peer_event_endpoint_changed_data.htm
 tech.root: P2PSdk
 ms.assetid: e2ce28c6-6dc0-4ceb-aa3f-7b86a2581425

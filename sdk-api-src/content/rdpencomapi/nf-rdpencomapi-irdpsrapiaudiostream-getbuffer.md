@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.GetBuffer
 title: IRDPSRAPIAudioStream::GetBuffer (rdpencomapi.h)
-description: Gets audio data from the buffer.
+description: Gets audio data from the buffer.helpviewer_keywords: ["GetBuffer","GetBuffer method [RDP]","GetBuffer method [RDP]","IRDPSRAPIAudioStream interface","IRDPSRAPIAudioStream interface [RDP]","GetBuffer method","IRDPSRAPIAudioStream.GetBuffer","IRDPSRAPIAudioStream::GetBuffer","rdp.irdpsrapiaudiostream_getbuffer","rdpencomapi/IRDPSRAPIAudioStream::GetBuffer"]
 old-location: rdp\irdpsrapiaudiostream_getbuffer.htm
 tech.root: rdp
 ms.assetid: 9A155107-1C43-49C2-BA92-4CBF37AEF4DB

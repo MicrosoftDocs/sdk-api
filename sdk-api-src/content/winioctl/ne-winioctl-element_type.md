@@ -1,7 +1,7 @@
 ---
 UID: NE:winioctl._ELEMENT_TYPE
 title: ELEMENT_TYPE
-description: Specifies the element type of a changer device.
+description: Specifies the element type of a changer device.helpviewer_keywords: ["*PELEMENT_TYPE","AllElements","ChangerDoor","ChangerDrive","ChangerIEPort","ChangerKeypad","ChangerSlot","ChangerTransport","ELEMENT_TYPE","ELEMENT_TYPE enumeration","PELEMENT_TYPE","PELEMENT_TYPE enumeration pointer","_win32_element_type_str","base.element_type_str","winioctl/AllElements","winioctl/ChangerDoor","winioctl/ChangerDrive","winioctl/ChangerIEPort","winioctl/ChangerKeypad","winioctl/ChangerSlot","winioctl/ChangerTransport","winioctl/ELEMENT_TYPE","winioctl/PELEMENT_TYPE"]
 old-location: base\element_type_str.htm
 tech.root: devio
 ms.assetid: b026d0f5-133d-4138-a727-80bf4480bb74

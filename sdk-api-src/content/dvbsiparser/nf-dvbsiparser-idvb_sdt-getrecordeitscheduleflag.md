@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.GetRecordEITScheduleFlag
 title: IDVB_SDT::GetRecordEITScheduleFlag (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordEITScheduleFlag","GetRecordEITScheduleFlag method [Microsoft TV Technologies]","GetRecordEITScheduleFlag method [Microsoft TV Technologies]","IDVB_SDT interface","IDVB_SDT interface [Microsoft TV Technologies]","GetRecordEITScheduleFlag method","IDVB_SDT.GetRecordEITScheduleFlag","IDVB_SDT::GetRecordEITScheduleFlag","IDVB_SDTGetRecordEITScheduleFlag","dvbsiparser/IDVB_SDT::GetRecordEITScheduleFlag","mstv.idvb_sdt_getrecordeitscheduleflag"]
 old-location: mstv\idvb_sdt_getrecordeitscheduleflag.htm
 tech.root: mstv
 ms.assetid: 6f78ebf4-d882-4fdd-90a0-52ad3cd9ca1e

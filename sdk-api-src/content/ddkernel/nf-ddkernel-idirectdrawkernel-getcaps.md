@@ -1,7 +1,7 @@
 ---
 UID: NF:ddkernel.IDirectDrawKernel.GetCaps
 title: IDirectDrawKernel::GetCaps (ddkernel.h)
-description: The IDirectDrawKernel::GetCaps method returns the capabilities of this kernel-mode device.
+description: The IDirectDrawKernel::GetCaps method returns the capabilities of this kernel-mode device.helpviewer_keywords: ["GetCaps","GetCaps method [Display Devices]","GetCaps method [Display Devices]","IDirectDrawKernel interface","IDirectDrawKernel interface [Display Devices]","GetCaps method","IDirectDrawKernel.GetCaps","IDirectDrawKernel::GetCaps","ddfncs_52bda933-e948-4942-b52b-c0a42440c1fb.xml","ddkernel/IDirectDrawKernel::GetCaps","display.idirectdrawkernel_getcaps"]
 old-location: display\idirectdrawkernel_getcaps.htm
 tech.root: display
 ms.assetid: c97ebe38-d62c-4ce8-8530-193dd83ef3d4

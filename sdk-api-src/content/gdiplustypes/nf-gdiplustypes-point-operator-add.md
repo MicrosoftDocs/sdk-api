@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.Point.operator-add
 title: Point::operator-add (gdiplustypes.h)
-description: The Point::operator+ method adds the X and Y data members of two Point objects.
+description: The Point::operator+ method adds the X and Y data members of two Point objects.helpviewer_keywords: ["Point class [GDI+]","operator+ method","Point.operator+","Point.operator+(const Point&)","Point.operator-add","Point::operator+","Point::operator-add","_gdiplus_CLASS_Point_operator_opadd_point_","gdiplus._gdiplus_CLASS_Point_operator_opadd_point_","operator+","operator+ method [GDI+]","operator+ method [GDI+]","Point class"]
 old-location: gdiplus\_gdiplus_CLASS_Point_operator_opadd_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointmethods\operatorplus.htm

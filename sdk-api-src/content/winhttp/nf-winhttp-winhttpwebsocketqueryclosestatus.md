@@ -1,7 +1,7 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketQueryCloseStatus
 title: WinHttpWebSocketQueryCloseStatus function (winhttp.h)
-description: Retrieves the close status sent by a server.
+description: Retrieves the close status sent by a server.helpviewer_keywords: ["WinHttpWebSocketQueryCloseStatus","WinHttpWebSocketQueryCloseStatus function [WinHTTP]","http.winhttpwebsocketqueryclosestatus","winhttp/WinHttpWebSocketQueryCloseStatus"]
 old-location: http\winhttpwebsocketqueryclosestatus.htm
 tech.root: WinHttp
 ms.assetid: 9b439be5-9f3f-43c7-8800-224b6750a6c1

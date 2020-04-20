@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN
 title: PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN (winbio_adapter.h)
-description: Determines the capabilities and limitations of the biometric sensor component.
+description: Determines the capabilities and limitations of the biometric sensor component.helpviewer_keywords: ["PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN","PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN callback","SensorAdapterQueryExtendedInfo","SensorAdapterQueryExtendedInfo callback function [Windows Biometric Framework API]","secbiomet.sensoradapterqueryextendedinfo","winbio_adapter/SensorAdapterQueryExtendedInfo"]
 old-location: secbiomet\sensoradapterqueryextendedinfo.htm
 tech.root: SecBioMet
 ms.assetid: 28CC3757-5A9D-4E29-A26C-6FD90A38B45B

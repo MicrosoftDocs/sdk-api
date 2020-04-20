@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFrameworkInputPane.Advise
 title: IFrameworkInputPane::Advise (shobjidl_core.h)
-description: Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from AdviseWithHWND in that it references its window through an object that implements ICoreWindow.
+description: Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from AdviseWithHWND in that it references its window through an object that implements ICoreWindow.helpviewer_keywords: ["Advise","Advise method [Windows Shell]","Advise method [Windows Shell]","IFrameworkInputPane interface","IFrameworkInputPane interface [Windows Shell]","Advise method","IFrameworkInputPane.Advise","IFrameworkInputPane::Advise","shell.IFrameworkInputPane_Advise","shobjidl_core/IFrameworkInputPane::Advise"]
 old-location: shell\IFrameworkInputPane_Advise.htm
 tech.root: shell
 ms.assetid: F05A097F-13A4-48ad-B660-5B2409BB6D61

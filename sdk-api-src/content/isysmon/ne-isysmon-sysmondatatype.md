@@ -1,7 +1,7 @@
 ---
 UID: NE:isysmon.__MIDL___MIDL_itf_sysmon_0000_0000_0002
 title: SysmonDataType (isysmon.h)
-description: Determines the type of data to return from a given data point on the graph.
+description: Determines the type of data to return from a given data point on the graph.helpviewer_keywords: ["SysmonDataType","SysmonDataType enumeration [SysMon]","base.sysmondatatype","isysmon/SysmonDataType","isysmon/sysmonDataAvg","isysmon/sysmonDataCount","isysmon/sysmonDataMax","isysmon/sysmonDataMin","isysmon/sysmonDataTime","sysmon.sysmondatatype","sysmonDataAvg","sysmonDataCount","sysmonDataMax","sysmonDataMin","sysmonDataTime"]
 old-location: sysmon\sysmondatatype.htm
 tech.root: SysMon
 ms.assetid: 5855fffc-1113-4047-b55a-601e45a08a5e

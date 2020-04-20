@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMColorLessOrEqual
 title: XMColorLessOrEqual function (directxmath.h)
-description: Tests whether all the components of the first color are less than or equal to the corresponding components of the second color.
+description: Tests whether all the components of the first color are less than or equal to the corresponding components of the second color.helpviewer_keywords: ["Use DirectX..XMColorLessOrEqual","XMColorLessOrEqual","XMColorLessOrEqual method [DirectX Math Support APIs]","dxmath.xmcolorlessorequal"]
 old-location: dxmath\xmcolorlessorequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorLessOrEqual(XMVECTOR,XMVECTOR)

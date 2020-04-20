@@ -1,7 +1,7 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_AXIS_ATTRIBUTES
 title: DWRITE_FONT_AXIS_ATTRIBUTES
-description: Defines constants that specify attributes for a font axis.
+description: Defines constants that specify attributes for a font axis.helpviewer_keywords: ["DWRITE_FONT_AXIS_ATTRIBUTES","DWRITE_FONT_AXIS_ATTRIBUTES enumeration [Direct Write]","directwrite.dwrite_font_axis_attributes","dwrite_3/DWRITE_FONT_AXIS_ATTRIBUTES"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: DWRITE_FONT_AXIS_ATTRIBUTES, DWRITE_FONT_AXIS_ATTRIBUTES enumeration [Direct Write], directwrite.dwrite_font_axis_attributes, dwrite_3/DWRITE_FONT_AXIS_ATTRIBUTES

@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnStreamEnd
 title: IXAudio2VoiceCallback::OnStreamEnd (xaudio2.h)
-description: Called when the voice has just finished playing a contiguous audio stream.
+description: Called when the voice has just finished playing a contiguous audio stream.helpviewer_keywords: ["IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs]","OnStreamEnd method","IXAudio2VoiceCallback.OnStreamEnd","IXAudio2VoiceCallback::OnStreamEnd","OnStreamEnd","OnStreamEnd method [XAudio2 Audio Mixing APIs]","OnStreamEnd method [XAudio2 Audio Mixing APIs]","IXAudio2VoiceCallback interface","xaudio2.ixaudio2voicecallback_interface_onstreamend","xaudio2/IXAudio2VoiceCallback::OnStreamEnd"]
 old-location: xaudio2\ixaudio2voicecallback_interface_onstreamend.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnStreamEnd

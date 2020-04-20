@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_PULL_BYTES_CALLBACK
 title: WS_PULL_BYTES_CALLBACK (webservices.h)
-description: Used by the WsPullBytes function to request the data that should be written.
+description: Used by the WsPullBytes function to request the data that should be written.helpviewer_keywords: ["WS_PULL_BYTES_CALLBACK","WS_PULL_BYTES_CALLBACK callback","WS_PULL_BYTES_CALLBACK callback function [Web Services for Windows]","webservices/WS_PULL_BYTES_CALLBACK","wsw.ws_pull_bytes_callback"]
 old-location: wsw\ws_pull_bytes_callback.htm
 tech.root: wsw
 ms.assetid: 84634ecc-056f-4fcc-838e-93f0dfc06e8d

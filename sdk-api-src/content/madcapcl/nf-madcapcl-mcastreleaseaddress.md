@@ -1,7 +1,7 @@
 ---
 UID: NF:madcapcl.McastReleaseAddress
 title: McastReleaseAddress function (madcapcl.h)
-description: The McastReleaseAddress function releases leased multicast addresses from the MCAST server.
+description: The McastReleaseAddress function releases leased multicast addresses from the MCAST server.helpviewer_keywords: ["McastReleaseAddress","McastReleaseAddress function [MADCAP]","_mdhcp_mcastreleaseaddress","madcap.mcastreleaseaddress","madcapcl/McastReleaseAddress"]
 old-location: madcap\mcastreleaseaddress.htm
 tech.root: Madcap
 ms.assetid: 6cb87e3b-0d2e-46f8-8ccf-6309c8fb888c

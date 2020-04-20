@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMoniker.GetTimeOfLastChange
 title: IMoniker::GetTimeOfLastChange (objidl.h)
-description: Retrieves the time at which the object identified by this moniker was last changed.
+description: Retrieves the time at which the object identified by this moniker was last changed.helpviewer_keywords: ["GetTimeOfLastChange","GetTimeOfLastChange method [COM]","GetTimeOfLastChange method [COM]","IMoniker interface","IMoniker interface [COM]","GetTimeOfLastChange method","IMoniker.GetTimeOfLastChange","IMoniker::GetTimeOfLastChange","_com_imoniker_gettimeoflastchange","com.imoniker_gettimeoflastchange","objidl/IMoniker::GetTimeOfLastChange"]
 old-location: com\imoniker_gettimeoflastchange.htm
 tech.root: com
 ms.assetid: 120cc951-6797-4ef6-890b-57ff8d3d23ba

@@ -1,7 +1,7 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0003
 title: AutoPathFormat (pla.h)
-description: Defines how to decorate the file name or subdirectory name.
+description: Defines how to decorate the file name or subdirectory name.helpviewer_keywords: ["AutoPathFormat","AutoPathFormat enumeration [PLA]","base.autopathformat","pla.autopathformat","pla/AutoPathFormat","pla/plaComputer","pla/plaMonthDayHour","pla/plaMonthDayHourMinute","pla/plaNone","pla/plaPattern","pla/plaSerialNumber","pla/plaYearDayOfYear","pla/plaYearMonth","pla/plaYearMonthDay","pla/plaYearMonthDayHour","plaComputer","plaMonthDayHour","plaMonthDayHourMinute","plaNone","plaPattern","plaSerialNumber","plaYearDayOfYear","plaYearMonth","plaYearMonthDay","plaYearMonthDayHour"]
 old-location: pla\autopathformat.htm
 tech.root: PLA
 ms.assetid: eee5e4fc-7754-44ad-b22d-5296223e2e9c

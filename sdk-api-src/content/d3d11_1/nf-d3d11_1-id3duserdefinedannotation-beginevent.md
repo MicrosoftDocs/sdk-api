@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3DUserDefinedAnnotation.BeginEvent
 title: ID3DUserDefinedAnnotation::BeginEvent (d3d11_1.h)
-description: Marks the beginning of a section of event code.
+description: Marks the beginning of a section of event code.helpviewer_keywords: ["BeginEvent","BeginEvent method [Direct3D 11]","BeginEvent method [Direct3D 11]","ID3DUserDefinedAnnotation interface","ID3DUserDefinedAnnotation interface [Direct3D 11]","BeginEvent method","ID3DUserDefinedAnnotation.BeginEvent","ID3DUserDefinedAnnotation::BeginEvent","d3d11_1/ID3DUserDefinedAnnotation::BeginEvent","direct3d11.id3duserdefinedannotation_beginevent"]
 old-location: direct3d11\id3duserdefinedannotation_beginevent.htm
 tech.root: direct3d11
 ms.assetid: 38FC7BFA-A01E-4537-88F1-836AE03C9A07

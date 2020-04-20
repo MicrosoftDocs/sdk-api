@@ -1,7 +1,7 @@
 ---
 UID: NE:tapi3if.PHONECAPS_BUFFER
 title: PHONECAPS_BUFFER (tapi3if.h)
-description: The PHONECAPS_BUFFER enum is used by methods that set or get phone capabilities described by a buffer.
+description: The PHONECAPS_BUFFER enum is used by methods that set or get phone capabilities described by a buffer.helpviewer_keywords: ["PCB_DEVSPECIFICBUFFER","PHONECAPS_BUFFER","PHONECAPS_BUFFER enumeration [TAPI 2.2]","_tapi3_phonecaps_buffer","tapi3.phonecaps_buffer","tapi3if/PCB_DEVSPECIFICBUFFER","tapi3if/PHONECAPS_BUFFER"]
 old-location: tapi3\phonecaps_buffer.htm
 tech.root: Tapi
 ms.assetid: 208efd60-58b2-4d0a-b757-29b1db017195

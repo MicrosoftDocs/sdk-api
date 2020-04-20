@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPLibraryServices.getCountByType
 title: IWMPLibraryServices::getCountByType (wmp.h)
-description: The getCountByType method retrieves the count of available libraries of a specified type.
+description: The getCountByType method retrieves the count of available libraries of a specified type.helpviewer_keywords: ["IWMPLibraryServices interface [Windows Media Player]","getCountByType method","IWMPLibraryServices.getCountByType","IWMPLibraryServices::getCountByType","IWMPLibraryServicesgetCountByType","getCountByType","getCountByType method [Windows Media Player]","getCountByType method [Windows Media Player]","IWMPLibraryServices interface","wmp.iwmplibraryservices_getcountbytype","wmp/IWMPLibraryServices::getCountByType"]
 old-location: wmp\iwmplibraryservices_getcountbytype.htm
 tech.root: WMP
 ms.assetid: e592fc2e-97d8-4d3c-bbef-7cbaa63a6909

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionVisualDebug.EnableHeatMap
 title: IDCompositionVisualDebug::EnableHeatMap (dcomp.h)
-description: Enables a visual heatmap that represents overdraw regions.
+description: Enables a visual heatmap that represents overdraw regions.helpviewer_keywords: ["EnableHeatMap","EnableHeatMap method [DirectComposition]","EnableHeatMap method [DirectComposition]","IDCompositionVisualDebug interface","IDCompositionVisualDebug interface [DirectComposition]","EnableHeatMap method","IDCompositionVisualDebug.EnableHeatMap","IDCompositionVisualDebug::EnableHeatMap","dcomp/IDCompositionVisualDebug::EnableHeatMap","directcomp.idcompositionvisualdebug_enableheatmap"]
 old-location: directcomp\idcompositionvisualdebug_enableheatmap.htm
 tech.root: directcomp
 ms.assetid: 9512959B-561F-4B43-9C7E-37174CC642EB

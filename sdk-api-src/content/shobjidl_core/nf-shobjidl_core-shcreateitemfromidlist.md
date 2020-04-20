@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemFromIDList
 title: SHCreateItemFromIDList function (shobjidl_core.h)
-description: Creates and initializes a Shell item object from a pointer to an item identifier list (PIDL). The resulting shell item object supports the IShellItem interface.
+description: Creates and initializes a Shell item object from a pointer to an item identifier list (PIDL). The resulting shell item object supports the IShellItem interface.helpviewer_keywords: ["SHCreateItemFromIDList","SHCreateItemFromIDList function [Windows Shell]","_shell_SHCreateItemFromIDList","shell.SHCreateItemFromIDList","shobjidl_core/SHCreateItemFromIDList"]
 old-location: shell\SHCreateItemFromIDList.htm
 tech.root: shell
 ms.assetid: a6dcddd9-cdbc-4cf9-97e3-d1b562283344

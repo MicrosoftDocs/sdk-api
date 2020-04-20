@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsEnabled
 title: IUIAutomationElement::get_CurrentIsEnabled (uiautomationclient.h)
-description: Indicates whether the element is enabled.
+description: Indicates whether the element is enabled.helpviewer_keywords: ["CurrentIsEnabled property [Windows Accessibility]","CurrentIsEnabled property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentIsEnabled property","IUIAutomationElement.CurrentIsEnabled","IUIAutomationElement.get_CurrentIsEnabled","IUIAutomationElement::CurrentIsEnabled","IUIAutomationElement::get_CurrentIsEnabled","get_CurrentIsEnabled","uiauto.uiauto_IUIAutomationElement_CurrentIsEnabled","uiauto_IUIAutomationElement_CurrentIsEnabled","uiautomationclient/IUIAutomationElement::CurrentIsEnabled","uiautomationclient/IUIAutomationElement::get_CurrentIsEnabled","winauto.uiauto_IUIAutomationElement_CurrentIsEnabled"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsEnabled.htm
 tech.root: WinAuto
 ms.assetid: 65b1311d-479a-4be4-a9fb-7dfe885420b8

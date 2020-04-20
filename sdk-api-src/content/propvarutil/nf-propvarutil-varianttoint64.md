@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.VariantToInt64
 title: VariantToInt64 function (propvarutil.h)
-description: Extracts an Int64 property value of a variant structure. If no value can be extracted, then a default value is assigned.
+description: Extracts an Int64 property value of a variant structure. If no value can be extracted, then a default value is assigned.helpviewer_keywords: ["VariantToInt64","VariantToInt64 function [Windows Properties]","_shell_VariantToInt64","properties.VariantToInt64","propvarutil/VariantToInt64","shell.VariantToInt64"]
 old-location: properties\VariantToInt64.htm
 tech.root: properties
 ms.assetid: 5b8b4f93-dff1-40ef-9f99-c108a0b1bf70

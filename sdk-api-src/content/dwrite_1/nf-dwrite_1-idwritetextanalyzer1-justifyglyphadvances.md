@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.JustifyGlyphAdvances
 title: IDWriteTextAnalyzer1::JustifyGlyphAdvances (dwrite_1.h)
-description: Justifies an array of glyph advances to fit the line width.
+description: Justifies an array of glyph advances to fit the line width.helpviewer_keywords: ["IDWriteTextAnalyzer1 interface [Direct Write]","JustifyGlyphAdvances method","IDWriteTextAnalyzer1.JustifyGlyphAdvances","IDWriteTextAnalyzer1::JustifyGlyphAdvances","JustifyGlyphAdvances","JustifyGlyphAdvances method [Direct Write]","JustifyGlyphAdvances method [Direct Write]","IDWriteTextAnalyzer1 interface","directwrite.idwritetextanalyzer1_justifyglyphadvances","dwrite_1/IDWriteTextAnalyzer1::JustifyGlyphAdvances"]
 old-location: directwrite\idwritetextanalyzer1_justifyglyphadvances.htm
 tech.root: DirectWrite
 ms.assetid: BFBFEA4A-A0D4-4114-B0AB-4338A832ECD4

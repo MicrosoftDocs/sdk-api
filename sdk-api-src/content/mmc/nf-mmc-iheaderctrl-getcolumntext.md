@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IHeaderCtrl.GetColumnText
 title: IHeaderCtrl::GetColumnText (mmc.h)
-description: Retrieves text from a specified column.
+description: Retrieves text from a specified column.helpviewer_keywords: ["GetColumnText","GetColumnText method [MMC]","GetColumnText method [MMC]","IHeaderCtrl interface","IHeaderCtrl interface [MMC]","GetColumnText method","IHeaderCtrl.GetColumnText","IHeaderCtrl::GetColumnText","mmc.iheaderctrl_getcolumntext","mmc/IHeaderCtrl::GetColumnText"]
 old-location: mmc\iheaderctrl_getcolumntext.htm
 tech.root: mmc
 ms.assetid: 854FC5F0-8049-4A98-948F-F1BF78788B88

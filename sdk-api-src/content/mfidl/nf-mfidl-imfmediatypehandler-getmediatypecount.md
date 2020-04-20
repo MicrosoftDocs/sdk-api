@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFMediaTypeHandler.GetMediaTypeCount
 title: IMFMediaTypeHandler::GetMediaTypeCount (mfidl.h)
-description: Retrieves the number of media types in the object's list of supported media types.
+description: Retrieves the number of media types in the object's list of supported media types.helpviewer_keywords: ["GetMediaTypeCount","GetMediaTypeCount method [Media Foundation]","GetMediaTypeCount method [Media Foundation]","IMFMediaTypeHandler interface","IMFMediaTypeHandler interface [Media Foundation]","GetMediaTypeCount method","IMFMediaTypeHandler.GetMediaTypeCount","IMFMediaTypeHandler::GetMediaTypeCount","c5ee41bc-ee8b-4990-ae9d-92ef54597f31","mf.imfmediatypehandler_getmediatypecount","mfidl/IMFMediaTypeHandler::GetMediaTypeCount"]
 old-location: mf\imfmediatypehandler_getmediatypecount.htm
 tech.root: medfound
 ms.assetid: c5ee41bc-ee8b-4990-ae9d-92ef54597f31

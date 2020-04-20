@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite.IDWriteLocalizedStrings
 title: IDWriteLocalizedStrings (dwrite.h)
-description: Represents a collection of strings indexed by locale name.
+description: Represents a collection of strings indexed by locale name.helpviewer_keywords: ["IDWriteLocalizedStrings","IDWriteLocalizedStrings interface [Direct Write]","IDWriteLocalizedStrings interface [Direct Write]","described","directwrite.IDWriteLocalizedStrings","dwrite/IDWriteLocalizedStrings"]
 old-location: directwrite\IDWriteLocalizedStrings.htm
 tech.root: DirectWrite
 ms.assetid: 37bfc613-4128-45aa-b6b2-6163d44378e4

@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_ADD_RECORD_FN
 title: PIBIO_STORAGE_ADD_RECORD_FN (winbio_adapter.h)
-description: Adds a template to the database.
+description: Adds a template to the database.helpviewer_keywords: ["PIBIO_STORAGE_ADD_RECORD_FN","PIBIO_STORAGE_ADD_RECORD_FN callback","StorageAdapterAddRecord","StorageAdapterAddRecord callback function [Windows Biometric Framework API]","secbiomet.storageadapteraddrecord","winbio_adapter/StorageAdapterAddRecord"]
 old-location: secbiomet\storageadapteraddrecord.htm
 tech.root: SecBioMet
 ms.assetid: 889664e2-00e8-49b4-9754-4ca72dd44bbd

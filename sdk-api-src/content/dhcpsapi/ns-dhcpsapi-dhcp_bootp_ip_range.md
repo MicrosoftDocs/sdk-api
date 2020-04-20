@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_BOOTP_IP_RANGE
 title: DHCP_BOOTP_IP_RANGE (dhcpsapi.h)
-description: The DHCP_BOOTP_IP_RANGE structure defines a suite of IPs for lease to BOOTP-specific clients.
+description: The DHCP_BOOTP_IP_RANGE structure defines a suite of IPs for lease to BOOTP-specific clients.helpviewer_keywords: ["*LPDHCP_BOOT_IP_RANGE","DHCP_BOOTP_IP_RANGE","DHCP_BOOTP_IP_RANGE structure [DHCP]","LPDHCP_BOOT_IP_RANGE","LPDHCP_BOOT_IP_RANGE structure pointer [DHCP]","dhcp.dhcp_bootp_ip_range","dhcpsapi/LPDHCP_BOOT_IP_RANGE","dhcpsapi/_DHCP_BOOTP_IP_RANGE"]
 old-location: dhcp\dhcp_bootp_ip_range.htm
 tech.root: DHCP
 ms.assetid: 23268029-0b49-4fd4-8410-4bac6c8ad151

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.get_Count
 title: ICertificatePolicies::get_Count (certenroll.h)
-description: Retrieves the number of objects in the collection.
+description: Retrieves the number of objects in the collection.helpviewer_keywords: ["Count property [Security]","Count property [Security]","ICertificatePolicies interface","ICertificatePolicies interface [Security]","Count property","ICertificatePolicies.Count","ICertificatePolicies.get_Count","ICertificatePolicies::Count","ICertificatePolicies::get_Count","certenroll/ICertificatePolicies::Count","certenroll/ICertificatePolicies::get_Count","get_Count","security.icertificatepolicies_count_property"]
 old-location: security\icertificatepolicies_count_property.htm
 tech.root: seccertenroll
 ms.assetid: 292c37c1-8b85-4fa3-8ed8-1728ebe3d177

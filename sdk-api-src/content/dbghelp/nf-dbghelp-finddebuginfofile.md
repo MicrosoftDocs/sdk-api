@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.FindDebugInfoFile
 title: FindDebugInfoFile function (dbghelp.h)
-description: Locates a debug (.dbg) file.
+description: Locates a debug (.dbg) file.helpviewer_keywords: ["FindDebugInfoFile","FindDebugInfoFile function","_win32_finddebuginfofile","base.finddebuginfofile","dbghelp/FindDebugInfoFile"]
 old-location: base\finddebuginfofile.htm
 tech.root: Debug
 ms.assetid: a13d3bf4-f34d-4304-9d47-aa21c3fa23b8

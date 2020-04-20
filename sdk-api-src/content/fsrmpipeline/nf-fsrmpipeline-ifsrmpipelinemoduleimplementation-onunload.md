@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleImplementation.OnUnload
 title: IFsrmPipelineModuleImplementation::OnUnload (fsrmpipeline.h)
-description: Notifies the module to perform any cleanup tasks.
+description: Notifies the module to perform any cleanup tasks.helpviewer_keywords: ["IFsrmClassifierModuleImplementation interface [File Server Resource Manager]","OnUnload method","IFsrmClassifierModuleImplementation::OnUnload","IFsrmPipelineModuleImplementation interface [File Server Resource Manager]","OnUnload method","IFsrmPipelineModuleImplementation.OnUnload","IFsrmPipelineModuleImplementation::OnUnload","IFsrmStorageModuleImplementation interface [File Server Resource Manager]","OnUnload method","IFsrmStorageModuleImplementation::OnUnload","OnUnload","OnUnload method [File Server Resource Manager]","OnUnload method [File Server Resource Manager]","IFsrmClassifierModuleImplementation interface","OnUnload method [File Server Resource Manager]","IFsrmPipelineModuleImplementation interface","OnUnload method [File Server Resource Manager]","IFsrmStorageModuleImplementation interface","fs.ifsrmpipelinemoduleimplementation_onunload","fsrm.ifsrmpipelinemoduleimplementation_onunload","fsrmpipeline/IFsrmClassifierModuleImplementation::OnUnload","fsrmpipeline/IFsrmPipelineModuleImplementation::OnUnload","fsrmpipeline/IFsrmStorageModuleImplementation::OnUnload"]
 old-location: fsrm\ifsrmpipelinemoduleimplementation_onunload.htm
 tech.root: fsrm
 ms.assetid: c0febde2-f067-4ca7-8c2b-2f09da9e7d23

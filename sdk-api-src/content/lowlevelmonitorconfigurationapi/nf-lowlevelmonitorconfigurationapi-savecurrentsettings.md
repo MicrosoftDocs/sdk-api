@@ -1,7 +1,7 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.SaveCurrentSettings
 title: SaveCurrentSettings function (lowlevelmonitorconfigurationapi.h)
-description: Saves the current monitor settings to the display's nonvolatile storage.
+description: Saves the current monitor settings to the display's nonvolatile storage.helpviewer_keywords: ["SaveCurrentSettings","SaveCurrentSettings function [Monitor Configuration]","lowlevelmonitorconfigurationapi/SaveCurrentSettings","monitor.savecurrentsettings"]
 old-location: monitor\savecurrentsettings.htm
 tech.root: Monitor
 ms.assetid: e5903e52-d04c-4ac3-9566-eb4f2559464b

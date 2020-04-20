@@ -1,7 +1,7 @@
 ---
 UID: NS:mobsync._tagSYNCMGRITEM
 title: SYNCMGRITEM (mobsync.h)
-description: Provides information about items being enumerated by the ISyncMgrEnumItems interface.
+description: Provides information about items being enumerated by the ISyncMgrEnumItems interface.helpviewer_keywords: ["*LPSYNCMGRITEM","LPSYNCMGRITEM","LPSYNCMGRITEM structure pointer [Windows Shell]","SYNCMGRITEM","SYNCMGRITEM structure [Windows Shell]","SYNCMGRITEMSTATE_CHECKED","SYNCMGRITEMSTATE_UNCHECKED","mobsync/LPSYNCMGRITEM","mobsync/SYNCMGRITEM","shell.syncmgr_syncmgritem","syncmgr.syncmgritem"]
 old-location: shell\syncmgr_syncmgritem.htm
 tech.root: shell
 ms.assetid: 84fa1d81-d1b9-44d7-be97-14511ef95528

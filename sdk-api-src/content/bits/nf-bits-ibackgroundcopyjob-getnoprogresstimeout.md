@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetNoProgressTimeout
 title: IBackgroundCopyJob::GetNoProgressTimeout (bits.h)
-description: Retrieves the length of time that the service tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
+description: Retrieves the length of time that the service tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.helpviewer_keywords: ["GetNoProgressTimeout","GetNoProgressTimeout method [BITS]","GetNoProgressTimeout method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetNoProgressTimeout method","IBackgroundCopyJob.GetNoProgressTimeout","IBackgroundCopyJob::GetNoProgressTimeout","_drz_ibackgroundcopyjob_getnoprogresstimeout","bits.ibackgroundcopyjob_getnoprogresstimeout","bits/IBackgroundCopyJob::GetNoProgressTimeout"]
 old-location: bits\ibackgroundcopyjob_getnoprogresstimeout.htm
 tech.root: Bits
 ms.assetid: 4881e5f7-a835-40d5-a056-d6b23e3cd84c

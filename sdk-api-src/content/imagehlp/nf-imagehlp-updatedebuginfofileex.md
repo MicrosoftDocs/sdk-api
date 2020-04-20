@@ -1,7 +1,7 @@
 ---
 UID: NF:imagehlp.UpdateDebugInfoFileEx
 title: UpdateDebugInfoFileEx function (imagehlp.h)
-description: Uses the specified extended information to update the corresponding fields in the symbol file.
+description: Uses the specified extended information to update the corresponding fields in the symbol file.helpviewer_keywords: ["UpdateDebugInfoFileEx","UpdateDebugInfoFileEx function","_win32_updatedebuginfofileex","base.updatedebuginfofileex","imagehlp/UpdateDebugInfoFileEx"]
 old-location: base\updatedebuginfofileex.htm
 tech.root: Debug
 ms.assetid: 67da28db-1566-4d12-8090-9f38fdfd246e

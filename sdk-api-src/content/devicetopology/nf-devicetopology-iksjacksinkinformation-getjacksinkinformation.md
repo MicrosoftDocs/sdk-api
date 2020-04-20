@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IKsJackSinkInformation.GetJackSinkInformation
 title: IKsJackSinkInformation::GetJackSinkInformation (devicetopology.h)
-description: The GetJackSinkInformation method retrieves the sink information for the specified jack.
+description: The GetJackSinkInformation method retrieves the sink information for the specified jack.helpviewer_keywords: ["GetJackSinkInformation","GetJackSinkInformation method [Core Audio]","GetJackSinkInformation method [Core Audio]","IKsJackSinkInformation interface","IKsJackSinkInformation interface [Core Audio]","GetJackSinkInformation method","IKsJackSinkInformation.GetJackSinkInformation","IKsJackSinkInformation::GetJackSinkInformation","coreaudio.iksjacksinkinformation_getjacksinkinformation","devicetopology/IKsJackSinkInformation::GetJackSinkInformation"]
 old-location: coreaudio\iksjacksinkinformation_getjacksinkinformation.htm
 tech.root: CoreAudio
 ms.assetid: ca4165ce-433a-4a8f-9853-bbe812de90ca

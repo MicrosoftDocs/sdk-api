@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfUIElementSink.EndUIElement
 title: ITfUIElementSink::EndUIElement (msctf.h)
-description: The ITfUIElementSink::EndUIElement method is called when the UIElement is finished.
+description: The ITfUIElementSink::EndUIElement method is called when the UIElement is finished.helpviewer_keywords: ["EndUIElement","EndUIElement method [Text Services Framework]","EndUIElement method [Text Services Framework]","ITfUIElementSink interface","ITfUIElementSink interface [Text Services Framework]","EndUIElement method","ITfUIElementSink.EndUIElement","ITfUIElementSink::EndUIElement","msctf/ITfUIElementSink::EndUIElement","tsf.itfuielementsink_enduielement"]
 old-location: tsf\itfuielementsink_enduielement.htm
 tech.root: TSF
 ms.assetid: b29539fe-a240-498b-8267-be243d437005

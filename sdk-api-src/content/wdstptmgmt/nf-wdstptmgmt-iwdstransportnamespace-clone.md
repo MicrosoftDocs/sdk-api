@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Clone
 title: IWdsTransportNamespace::Clone (wdstptmgmt.h)
-description: Copies the information from this namespace object into a new, unregistered namespace object in memory.
+description: Copies the information from this namespace object into a new, unregistered namespace object in memory.helpviewer_keywords: ["Clone","Clone method [Windows Deployment Services]","Clone method [Windows Deployment Services]","IWdsTransportNamespace interface","IWdsTransportNamespace interface [Windows Deployment Services]","Clone method","IWdsTransportNamespace.Clone","IWdsTransportNamespace::Clone","wds.iwdstransportnamespace_clone","wdstptmgmt/IWdsTransportNamespace::Clone"]
 old-location: wds\iwdstransportnamespace_clone.htm
 tech.root: wds
 ms.assetid: bc7eb27e-8bbb-414a-bfc2-25cc762b451d

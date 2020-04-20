@@ -1,7 +1,7 @@
 ---
 UID: NS:wmsdkidl._WMPicture
 title: WM_PICTURE (wmsdkidl.h)
-description: The WM_PICTURE structure is used as the data item for the WM/Picture complex metadata attribute.
+description: The WM_PICTURE structure is used as the data item for the WM/Picture complex metadata attribute.helpviewer_keywords: ["WM_PICTURE","WM_PICTURE structure [windows Media Format]","wmformat.wm_picture","wmsdkidl/WM_PICTURE"]
 old-location: wmformat\wm_picture.htm
 tech.root: wmformat
 ms.assetid: d3670cce-5b57-4624-b10d-2e4d9e9e263c

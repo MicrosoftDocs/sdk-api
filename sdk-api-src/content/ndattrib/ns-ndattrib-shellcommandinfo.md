@@ -1,7 +1,7 @@
 ---
 UID: NS:ndattrib.tagShellCommandInfo
 title: ShellCommandInfo (ndattrib.h)
-description: The ShellCommandInfo structure contains data required to launch an additional application for manual repair options.
+description: The ShellCommandInfo structure contains data required to launch an additional application for manual repair options.helpviewer_keywords: ["*PShellCommandInfo","ShellCommandInfo","ShellCommandInfo structure [NDF]","ShellCommandInfo","*PShellCommandInfo","ShellCommandInfo","*PShellCommandInfo structure [NDF]","ndattrib/ShellCommandInfo","ndf.shellcommandinfo"]
 old-location: ndf\shellcommandinfo.htm
 tech.root: NDF
 ms.assetid: 54e23cfc-52bf-482a-a3e8-49fd6aa505e3

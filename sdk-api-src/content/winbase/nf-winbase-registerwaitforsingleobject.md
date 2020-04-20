@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.RegisterWaitForSingleObject
 title: RegisterWaitForSingleObject function (winbase.h)
-description: Directs a wait thread in the thread pool to wait on the object.
+description: Directs a wait thread in the thread pool to wait on the object.helpviewer_keywords: ["RegisterWaitForSingleObject","RegisterWaitForSingleObject function","WT_EXECUTEDEFAULT","WT_EXECUTEINIOTHREAD","WT_EXECUTEINPERSISTENTTHREAD","WT_EXECUTEINWAITTHREAD","WT_EXECUTELONGFUNCTION","WT_EXECUTEONLYONCE","WT_TRANSFER_IMPERSONATION","_win32_registerwaitforsingleobject","base.registerwaitforsingleobject","winbase/RegisterWaitForSingleObject"]
 old-location: base\registerwaitforsingleobject.htm
 tech.root: Sync
 ms.assetid: d0cd8b28-6e20-449a-94dd-cca2be46b812

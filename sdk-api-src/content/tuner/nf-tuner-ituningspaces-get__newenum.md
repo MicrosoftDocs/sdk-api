@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuningSpaces.get__NewEnum
 title: ITuningSpaces::get__NewEnum (tuner.h)
-description: The get__NewEnum method returns an enumerator for the collection.
+description: The get__NewEnum method returns an enumerator for the collection.helpviewer_keywords: ["ITuningSpaces interface [Microsoft TV Technologies]","get__NewEnum method","ITuningSpaces.get__NewEnum","ITuningSpaces::get__NewEnum","ITuningSpacesget__NewEnum","get__NewEnum","get__NewEnum method [Microsoft TV Technologies]","get__NewEnum method [Microsoft TV Technologies]","ITuningSpaces interface","mstv.ituningspaces_get__newenum","tuner/ITuningSpaces::get__NewEnum"]
 old-location: mstv\ituningspaces_get__newenum.htm
 tech.root: mstv
 ms.assetid: 9f0aec7a-954d-4399-8d15-5869c5353677

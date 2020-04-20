@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_Timeout
 title: IWdsTransportTftpClient::get_Timeout (wdstptmgmt.h)
-description: Receives the timeout in seconds used to communicate with the client.
+description: Receives the timeout in seconds used to communicate with the client.helpviewer_keywords: ["IWdsTransportTftpClient interface [Windows Deployment Services]","Timeout property","IWdsTransportTftpClient.Timeout","IWdsTransportTftpClient.get_Timeout","IWdsTransportTftpClient::Timeout","IWdsTransportTftpClient::get_Timeout","Timeout property [Windows Deployment Services]","Timeout property [Windows Deployment Services]","IWdsTransportTftpClient interface","get_Timeout","wds.iwdstransporttftpclient_timeout","wdstptmgmt/IWdsTransportTftpClient::Timeout","wdstptmgmt/IWdsTransportTftpClient::get_Timeout"]
 old-location: wds\iwdstransporttftpclient_timeout.htm
 tech.root: wds
 ms.assetid: 27679E91-FB0E-4B39-80CF-70461EB92B39

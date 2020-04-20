@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_CSV_CONTROL
 title: FSCTL_CSV_CONTROL
-description: Retrieves the results of a CSV control operation.
+description: Retrieves the results of a CSV control operation.helpviewer_keywords: ["FSCTL_CSV_CONTROL","FSCTL_CSV_CONTROL control","FSCTL_CSV_CONTROL control code [Files]","fs.fsctl_csv_control","winioctl/FSCTL_CSV_CONTROL"]
 old-location: fs\fsctl_csv_control.htm
 tech.root: FileIO
 ms.assetid: 6CCCD5CA-FF29-41D4-B687-E403CADABF84

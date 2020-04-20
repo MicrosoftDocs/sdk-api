@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.SHResolveLibrary
 title: SHResolveLibrary function (shobjidl_core.h)
-description: Resolves all locations in a library, even those locations that have been moved or renamed.
+description: Resolves all locations in a library, even those locations that have been moved or renamed.helpviewer_keywords: ["SHResolveLibrary","SHResolveLibrary function [Windows Shell]","_shell_SHResolveLibrary","shell.SHResolveLibrary","shobjidl_core/SHResolveLibrary"]
 old-location: shell\SHResolveLibrary.htm
 tech.root: shell
 ms.assetid: a8730c09-f872-4bf8-9482-9dd5af31b509

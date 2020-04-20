@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IQueryCancelAutoPlay
 title: IQueryCancelAutoPlay (shobjidl.h)
-description: Exposes a method that programmatically overrides AutoPlay or AutoRun. This allows you to customize the location and type of content that is launched when media is inserted.
+description: Exposes a method that programmatically overrides AutoPlay or AutoRun. This allows you to customize the location and type of content that is launched when media is inserted.helpviewer_keywords: ["IQueryCancelAutoPlay","IQueryCancelAutoPlay interface [Windows Shell]","IQueryCancelAutoPlay interface [Windows Shell]","described","_shell_IQueryCancelAutoPlay","shell.IQueryCancelAutoPlay","shobjidl/IQueryCancelAutoPlay"]
 old-location: shell\IQueryCancelAutoPlay.htm
 tech.root: shell
 ms.assetid: 7dd470cd-163b-43e1-80d9-cdaa8b615858

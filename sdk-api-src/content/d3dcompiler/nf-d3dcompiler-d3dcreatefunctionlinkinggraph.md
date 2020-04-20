@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcompiler.D3DCreateFunctionLinkingGraph
 title: D3DCreateFunctionLinkingGraph function (d3dcompiler.h)
-description: Creates a function-linking-graph interface.
+description: Creates a function-linking-graph interface.helpviewer_keywords: ["D3DCreateFunctionLinkingGraph","D3DCreateFunctionLinkingGraph function [HLSL]","d3dcompiler/D3DCreateFunctionLinkingGraph","direct3dhlsl.d3dcreatefunctionlinkinggraph"]
 old-location: direct3dhlsl\d3dcreatefunctionlinkinggraph.htm
 tech.root: direct3dhlsl
 ms.assetid: D0BC7D62-EBF8-4144-8DC0-A87BF1B83006

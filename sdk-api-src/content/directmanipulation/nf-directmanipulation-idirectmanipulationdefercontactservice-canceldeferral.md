@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDeferContactService.CancelDeferral
 title: IDirectManipulationDeferContactService::CancelDeferral (directmanipulation.h)
-description: Cancel the deferral set in DeferContact and process the scheduled SetContact call for this pointerId.
+description: Cancel the deferral set in DeferContact and process the scheduled SetContact call for this pointerId.helpviewer_keywords: ["CancelDeferral","CancelDeferral method [Direct Manipulation]","CancelDeferral method [Direct Manipulation]","IDirectManipulationDeferContactService interface","IDirectManipulationDeferContactService interface [Direct Manipulation]","CancelDeferral method","IDirectManipulationDeferContactService.CancelDeferral","IDirectManipulationDeferContactService::CancelDeferral","directmanipulation.idirectmanipulationdefercontactservice_canceldeferral","directmanipulation/IDirectManipulationDeferContactService::CancelDeferral"]
 old-location: directmanipulation\idirectmanipulationdefercontactservice_canceldeferral.htm
 tech.root: directmanipulation
 ms.assetid: 946F8CF8-6A6D-4BC1-B9BA-91D5B4A8A178

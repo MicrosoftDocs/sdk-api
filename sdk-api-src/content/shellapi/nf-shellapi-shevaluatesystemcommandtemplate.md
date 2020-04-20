@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.SHEvaluateSystemCommandTemplate
 title: SHEvaluateSystemCommandTemplate function (shellapi.h)
-description: Enforces strict validation of parameters used in a call to CreateProcess or ShellExecute.
+description: Enforces strict validation of parameters used in a call to CreateProcess or ShellExecute.helpviewer_keywords: ["SHEvaluateSystemCommandTemplate","SHEvaluateSystemCommandTemplate function [Windows Shell]","_shell_SHEvaluateSystemCommandTemplate","shell.SHEvaluateSystemCommandTemplate","shellapi/SHEvaluateSystemCommandTemplate"]
 old-location: shell\SHEvaluateSystemCommandTemplate.htm
 tech.root: shell
 ms.assetid: 554b941d-7d03-47ae-a23a-2c47c5ca1044

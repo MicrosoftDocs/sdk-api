@@ -1,7 +1,7 @@
 ---
 UID: NS:sessdirpublictypes.__MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0002
 title: TSSD_ConnectionPoint (sessdirpublictypes.h)
-description: Defines the IP address of a target.
+description: Defines the IP address of a target.helpviewer_keywords: ["*PTSSD_ConnectionPoint","PTSSD_ConnectionPoint","PTSSD_ConnectionPoint structure pointer [Remote Desktop Services]","TSSD_ConnectionPoint","TSSD_ConnectionPoint structure [Remote Desktop Services]","sessdirpublictypes/PTSSD_ConnectionPoint","sessdirpublictypes/TSSD_ConnectionPoint","termserv.tssd_connectionpoint"]
 old-location: termserv\tssd_connectionpoint.htm
 tech.root: TermServ
 ms.assetid: 489d79ab-8a59-4789-9dca-df26018bf58c

@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.DiscoverPeers
 title: IBitsPeerCacheAdministration::DiscoverPeers (bits3_0.h)
-description: Generates a list of peers that can serve content.
+description: Generates a list of peers that can serve content.helpviewer_keywords: ["DiscoverPeers","DiscoverPeers method [BITS]","DiscoverPeers method [BITS]","IBitsPeerCacheAdministration interface","IBitsPeerCacheAdministration interface [BITS]","DiscoverPeers method","IBitsPeerCacheAdministration.DiscoverPeers","IBitsPeerCacheAdministration::DiscoverPeers","bits.ibitspeercacheadministration_discoverpeers","bits3_0/IBitsPeerCacheAdministration::DiscoverPeers"]
 old-location: bits\ibitspeercacheadministration_discoverpeers.htm
 tech.root: Bits
 ms.assetid: c83632c2-5d01-48ab-93ef-961778c2379a

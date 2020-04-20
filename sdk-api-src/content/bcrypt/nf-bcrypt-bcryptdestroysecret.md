@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptDestroySecret
 title: BCryptDestroySecret function (bcrypt.h)
-description: Destroys a secret agreement handle that was created by using the BCryptSecretAgreement function.
+description: Destroys a secret agreement handle that was created by using the BCryptSecretAgreement function.helpviewer_keywords: ["BCryptDestroySecret","BCryptDestroySecret function [Security]","bcrypt/BCryptDestroySecret","security.bcryptdestroysecret"]
 old-location: security\bcryptdestroysecret.htm
 tech.root: SecCNG
 ms.assetid: 237743ff-ecb1-4c01-b4f9-192f27716f2c

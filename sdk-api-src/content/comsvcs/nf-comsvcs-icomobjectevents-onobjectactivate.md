@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnObjectActivate
 title: IComObjectEvents::OnObjectActivate (comsvcs.h)
-description: Generated when an object gets an instance of a new JIT-activated object.
+description: Generated when an object gets an instance of a new JIT-activated object.helpviewer_keywords: ["IComObjectEvents interface [COM+]","OnObjectActivate method","IComObjectEvents.OnObjectActivate","IComObjectEvents::OnObjectActivate","OnObjectActivate","OnObjectActivate method [COM+]","OnObjectActivate method [COM+]","IComObjectEvents interface","_dtc_IComObjectEvents_OnObjectActivate","comsvcs/IComObjectEvents::OnObjectActivate","cos.icomobjectevents_onobjectactivate"]
 old-location: cos\icomobjectevents_onobjectactivate.htm
 tech.root: cossdk
 ms.assetid: 149e3820-0d5b-46ee-9be9-22850115a7c7

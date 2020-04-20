@@ -1,7 +1,7 @@
 ---
 UID: NE:http._HTTP_SERVER_PROPERTY
 title: HTTP_SERVER_PROPERTY (http.h)
-description: Defines the properties that are configured by the HTTP Server API on a URL group, server session, or request queue.
+description: Defines the properties that are configured by the HTTP Server API on a URL group, server session, or request queue.helpviewer_keywords: ["*PHTTP_SERVER_PROPERTY","*PHTTP_SERVER_PROPERTY enumeration [HTTP]","HTTP_SERVER_PROPERTY","HTTP_SERVER_PROPERTY enumeration [HTTP]","HttpServer503VerbosityProperty","HttpServerAuthenticationProperty","HttpServerBindingProperty","HttpServerChannelBindProperty","HttpServerExtendedAuthenticationProperty","HttpServerListenEndpointProperty","HttpServerLoggingProperty","HttpServerQosProperty","HttpServerQueueLengthProperty","HttpServerStateProperty","HttpServerTimeoutsProperty","http.http_server_property","http/*PHTTP_SERVER_PROPERTY","http/HTTP_SERVER_PROPERTY","http/HttpServer503VerbosityProperty","http/HttpServerAuthenticationProperty","http/HttpServerBindingProperty","http/HttpServerChannelBindProperty","http/HttpServerExtendedAuthenticationProperty","http/HttpServerListenEndpointProperty","http/HttpServerLoggingProperty","http/HttpServerQosProperty","http/HttpServerQueueLengthProperty","http/HttpServerStateProperty","http/HttpServerTimeoutsProperty"]
 old-location: http\http_server_property.htm
 tech.root: http
 ms.assetid: 14865796-135c-43c2-955a-fdeae05a8278

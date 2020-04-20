@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IObjectWithFolderEnumMode
 title: IObjectWithFolderEnumMode (shobjidl_core.h)
-description: Exposes methods that get and set enumeration modes of a parsed item.
+description: Exposes methods that get and set enumeration modes of a parsed item.helpviewer_keywords: ["IObjectWithFolderEnumMode","IObjectWithFolderEnumMode interface [Windows Shell]","IObjectWithFolderEnumMode interface [Windows Shell]","described","_shell_IObjectWithFolderEnumMode","shell.IObjectWithFolderEnumMode","shobjidl_core/IObjectWithFolderEnumMode"]
 old-location: shell\IObjectWithFolderEnumMode.htm
 tech.root: shell
 ms.assetid: 33838ddc-8e0e-431a-a957-40e23f0ad0c7

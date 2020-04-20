@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleCreateEx
 title: OleCreateEx function (ole2.h)
-description: Extends OleCreate functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple presentation formats or data, instead of the single format supported by OleCreate.
+description: Extends OleCreate functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple presentation formats or data, instead of the single format supported by OleCreate.helpviewer_keywords: ["OleCreateEx","OleCreateEx function [COM]","_ole_OleCreateEx","com.olecreateex","ole2/OleCreateEx"]
 old-location: com\olecreateex.htm
 tech.root: com
 ms.assetid: 11f2703c-b596-4cb9-855a-d8cf4b947fae

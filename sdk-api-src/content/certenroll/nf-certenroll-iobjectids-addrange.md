@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IObjectIds.AddRange
 title: IObjectIds::AddRange (certenroll.h)
-description: Adds a range of IObjectId objects to the collection.
+description: Adds a range of IObjectId objects to the collection.helpviewer_keywords: ["AddRange","AddRange method [Security]","AddRange method [Security]","IObjectIds interface","IObjectIds interface [Security]","AddRange method","IObjectIds.AddRange","IObjectIds::AddRange","certenroll/IObjectIds::AddRange","security.iobjectids_addrange_method"]
 old-location: security\iobjectids_addrange_method.htm
 tech.root: seccertenroll
 ms.assetid: bf7a85a3-201b-413e-a1da-1e54b55771cc

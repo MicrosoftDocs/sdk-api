@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.GetHistogram
 title: Bitmap::GetHistogram (gdiplusheaders.h)
-description: The Bitmap::GetHistogram method returns one or more histograms for specified color channels of this Bitmap object.
+description: The Bitmap::GetHistogram method returns one or more histograms for specified color channels of this Bitmap object.helpviewer_keywords: ["Bitmap class [GDI+]","GetHistogram method","Bitmap.GetHistogram","Bitmap::GetHistogram","GetHistogram","GetHistogram method [GDI+]","GetHistogram method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_GetHistogram_","gdiplus._gdiplus_CLASS_Bitmap_GetHistogram_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetHistogram_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapgethistogrammethods\gethistogram.htm

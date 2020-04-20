@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CRYPT_HASH_MESSAGE_PARA
 title: CRYPT_HASH_MESSAGE_PARA (wincrypt.h)
-description: Contains data for hashing messages.
+description: Contains data for hashing messages.helpviewer_keywords: ["*PCRYPT_HASH_MESSAGE_PARA","CRYPT_HASH_MESSAGE_PARA","CRYPT_HASH_MESSAGE_PARA structure [Security]","PCRYPT_HASH_MESSAGE_PARA","PCRYPT_HASH_MESSAGE_PARA structure pointer [Security]","_crypto2_crypt_hash_message_para","security.crypt_hash_message_para","wincrypt/CRYPT_HASH_MESSAGE_PARA","wincrypt/PCRYPT_HASH_MESSAGE_PARA"]
 old-location: security\crypt_hash_message_para.htm
 tech.root: SecCrypto
 ms.assetid: 60415136-3ac0-4fab-bdbf-faa16e8e43e1

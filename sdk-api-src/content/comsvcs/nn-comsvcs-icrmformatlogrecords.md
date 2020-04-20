@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.ICrmFormatLogRecords
 title: ICrmFormatLogRecords (comsvcs.h)
-description: Converts the log records to viewable format so that they can be presented using a generic monitoring tool.
+description: Converts the log records to viewable format so that they can be presented using a generic monitoring tool.helpviewer_keywords: ["ICrmFormatLogRecords","ICrmFormatLogRecords interface [COM+]","ICrmFormatLogRecords interface [COM+]","described","_dtc_ICrmFormatLogRecords_Interface","comsvcs/ICrmFormatLogRecords","cos.icrmformatlogrecords"]
 old-location: cos\icrmformatlogrecords.htm
 tech.root: cossdk
 ms.assetid: aa801bd0-5253-4f9f-8859-b808d4dc081b

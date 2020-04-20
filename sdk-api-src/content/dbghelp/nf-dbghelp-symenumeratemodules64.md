@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymEnumerateModules64
 title: SymEnumerateModules64 function (dbghelp.h)
-description: Enumerates all modules that have been loaded for the process by the SymLoadModule64 or SymLoadModuleEx function.
+description: Enumerates all modules that have been loaded for the process by the SymLoadModule64 or SymLoadModuleEx function.helpviewer_keywords: ["SymEnumerateModules","SymEnumerateModules function","SymEnumerateModules64","SymEnumerateModules64 function","SymEnumerateModulesW64","_win32_symenumeratemodules64","base.symenumeratemodules64","dbghelp/SymEnumerateModules","dbghelp/SymEnumerateModules64","dbghelp/SymEnumerateModulesW64"]
 old-location: base\symenumeratemodules64.htm
 tech.root: Debug
 ms.assetid: d2372521-eff7-4ac4-a0f3-1267ef50db6e

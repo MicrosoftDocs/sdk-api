@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetItemHeight
 title: IVisualProperties::SetItemHeight (shobjidl.h)
-description: Sets the specified item height.
+description: Sets the specified item height.helpviewer_keywords: ["IVisualProperties interface [Windows Shell]","SetItemHeight method","IVisualProperties.SetItemHeight","IVisualProperties::SetItemHeight","SetItemHeight","SetItemHeight method [Windows Shell]","SetItemHeight method [Windows Shell]","IVisualProperties interface","_shell_IVisualProperties_SetItemHeight","shell.IVisualProperties_SetItemHeight","shobjidl/IVisualProperties::SetItemHeight"]
 old-location: shell\IVisualProperties_SetItemHeight.htm
 tech.root: shell
 ms.assetid: ebd00a98-ea2b-4024-b911-7120d8307b54

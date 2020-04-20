@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMOUSEHOOKSTRUCT
 title: MOUSEHOOKSTRUCT (winuser.h)
-description: Contains information about a mouse event passed to a WH_MOUSE hook procedure, MouseProc.
+description: Contains information about a mouse event passed to a WH_MOUSE hook procedure, MouseProc.helpviewer_keywords: ["*LPMOUSEHOOKSTRUCT","*PMOUSEHOOKSTRUCT","LPMOUSEHOOKSTRUCT","LPMOUSEHOOKSTRUCT structure pointer [Windows and Messages]","MOUSEHOOKSTRUCT","MOUSEHOOKSTRUCT structure [Windows and Messages]","PMOUSEHOOKSTRUCT","PMOUSEHOOKSTRUCT structure pointer [Windows and Messages]","_win32_MOUSEHOOKSTRUCT_str","_win32_mousehookstruct_str_cpp","winmsg.mousehookstruct","winui._win32_mousehookstruct_str","winuser/LPMOUSEHOOKSTRUCT","winuser/MOUSEHOOKSTRUCT","winuser/PMOUSEHOOKSTRUCT"]
 old-location: winmsg\mousehookstruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\mousehookstruct.htm

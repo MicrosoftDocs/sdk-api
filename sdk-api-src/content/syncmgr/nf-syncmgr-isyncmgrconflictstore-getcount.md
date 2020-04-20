@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.GetCount
 title: ISyncMgrConflictStore::GetCount (syncmgr.h)
-description: Gets the number of conflicts in the store.
+description: Gets the number of conflicts in the store.helpviewer_keywords: ["GetCount","GetCount method [Windows Shell]","GetCount method [Windows Shell]","ISyncMgrConflictStore interface","ISyncMgrConflictStore interface [Windows Shell]","GetCount method","ISyncMgrConflictStore.GetCount","ISyncMgrConflictStore::GetCount","_shell_ISyncMgrConflictStore_GetCount","shell.ISyncMgrConflictStore_GetCount","syncmgr/ISyncMgrConflictStore::GetCount"]
 old-location: shell\ISyncMgrConflictStore_GetCount.htm
 tech.root: shell
 ms.assetid: 1a41bc9a-6f5d-47bf-9186-711292d8be07

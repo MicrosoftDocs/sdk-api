@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.GetKeepWithNext
 title: ITextRow::GetKeepWithNext (tom.h)
-description: Gets whether this row should appear on the same page as the row that follows it.
+description: Gets whether this row should appear on the same page as the row that follows it.helpviewer_keywords: ["GetKeepWithNext","GetKeepWithNext method [Windows Controls]","GetKeepWithNext method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetKeepWithNext method","ITextRow.GetKeepWithNext","ITextRow::GetKeepWithNext","controls.itextrow_getkeepwithnext","tom/ITextRow::GetKeepWithNext"]
 old-location: controls\itextrow_getkeepwithnext.htm
 tech.root: Controls
 ms.assetid: 67c5f06c-9f45-430b-ae9f-0ca1931df411

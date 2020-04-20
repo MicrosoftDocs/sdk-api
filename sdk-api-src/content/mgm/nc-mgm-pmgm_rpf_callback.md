@@ -1,7 +1,7 @@
 ---
 UID: NC:mgm.PMGM_RPF_CALLBACK
 title: PMGM_RPF_CALLBACK (mgm.h)
-description: The PMGM_RPF_CALLBACK callback is a call into a routing protocol to determine if a given packet was received on the correct interface.
+description: The PMGM_RPF_CALLBACK callback is a call into a routing protocol to determine if a given packet was received on the correct interface.helpviewer_keywords: ["MgmRpfCallback","PMGM_RPF_CALLBACK","PMGM_RPF_CALLBACK callback","PMGM_RPF_CALLBACK callback function [RAS]","_mpr_pmgm_rpf_callback","mgm/PMGM_RPF_CALLBACK","rras.pmgm_rpf_callback"]
 old-location: rras\pmgm_rpf_callback.htm
 tech.root: RRAS
 ms.assetid: 114a44c2-e352-45b9-9842-cfb369072c84

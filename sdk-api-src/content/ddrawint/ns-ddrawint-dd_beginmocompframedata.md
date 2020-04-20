@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_BEGINMOCOMPFRAMEDATA
 title: DD_BEGINMOCOMPFRAMEDATA (ddrawint.h)
-description: The DDHAL_BEGINMOCOMPFRAMEDATA structure contains the frame information required to start decoding.
+description: The DDHAL_BEGINMOCOMPFRAMEDATA structure contains the frame information required to start decoding.helpviewer_keywords: ["*PDD_BEGINMOCOMPFRAMEDATA","DD_BEGINMOCOMPFRAMEDATA","DD_BEGINMOCOMPFRAMEDATA structure [Display Devices]","ddrawint/DD_BEGINMOCOMPFRAMEDATA","ddstrcts_6e61d707-7245-4d0d-aaa5-f63bb610d2e5.xml","display.dd_beginmocompframedata"]
 old-location: display\dd_beginmocompframedata.htm
 tech.root: display
 ms.assetid: 4a75642d-87e3-4c95-be67-2d494bf6122e

@@ -1,7 +1,7 @@
 ---
 UID: NS:uiautomationcore.UIAutomationParameter
 title: UIAutomationParameter (uiautomationcore.h)
-description: Contains information about a parameter of a custom control pattern.
+description: Contains information about a parameter of a custom control pattern.helpviewer_keywords: ["UIAutomationParameter","UIAutomationParameter structure [Windows Accessibility]","uiauto.uiauto_UIAutomationParameterStruct","uiauto_UIAutomationParameterStruct","uiautomationcore/UIAutomationParameter","winauto.uiauto_UIAutomationParameterStruct"]
 old-location: winauto\uiauto_UIAutomationParameterStruct.htm
 tech.root: WinAuto
 ms.assetid: 8287867d-5aaf-4c52-8a8b-d98de6a2ad4b

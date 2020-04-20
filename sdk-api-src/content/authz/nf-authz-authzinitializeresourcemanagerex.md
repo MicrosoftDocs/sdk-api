@@ -1,7 +1,7 @@
 ---
 UID: NF:authz.AuthzInitializeResourceManagerEx
 title: AuthzInitializeResourceManagerEx function (authz.h)
-description: Allocates and initializes a resource manager structure.
+description: Allocates and initializes a resource manager structure.helpviewer_keywords: ["AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION","AUTHZ_RM_FLAG_NO_AUDIT","AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES","AuthzInitializeResourceManagerEx","AuthzInitializeResourceManagerEx function [Security]","authz/AuthzInitializeResourceManagerEx","security.authzinitializeresourcemanagerex"]
 old-location: security\authzinitializeresourcemanagerex.htm
 tech.root: SecAuthZ
 ms.assetid: CDB78606-1B53-4516-90E6-1FF096B3D7D9

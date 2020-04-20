@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetTag
 title: IIsdbHierarchicalTransmissionDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag that identifies a hierarchical transmission descriptor.
+description: Gets the tag that identifies a hierarchical transmission descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbHierarchicalTransmissionDescriptor interface","IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbHierarchicalTransmissionDescriptor.GetTag","IIsdbHierarchicalTransmissionDescriptor::GetTag","dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetTag","mstv.iisdbhierarchicaltransmissiondescriptor_gettag"]
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 1aed2424-567b-4a6b-ae32-b3c74ce75026

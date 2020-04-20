@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsWriteXmlnsAttribute
 title: WsWriteXmlnsAttribute function (webservices.h)
-description: Writes an Xmlns attribute to the current element.
+description: Writes an Xmlns attribute to the current element.helpviewer_keywords: ["WsWriteXmlnsAttribute","WsWriteXmlnsAttribute function [Web Services for Windows]","webservices/WsWriteXmlnsAttribute","wsw.wswritexmlnsattribute"]
 old-location: wsw\wswritexmlnsattribute.htm
 tech.root: wsw
 ms.assetid: 17d73228-ea3b-4212-b9f7-7dcfdd6043a3

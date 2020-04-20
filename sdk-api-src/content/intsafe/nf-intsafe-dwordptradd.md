@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.DWordPtrAdd
 title: DWordPtrAdd function (intsafe.h)
-description: Adds two values of type DWORD_PTR.
+description: Adds two values of type DWORD_PTR.helpviewer_keywords: ["DWordPtrAdd","DWordPtrAdd function [Windows Shell]","_shell_DWordPtrAdd","intsafe/DWordPtrAdd","shell.DWordPtrAdd"]
 old-location: shell\DWordPtrAdd.htm
 tech.root: shell
 ms.assetid: b7d2b04b-6ef7-45a5-a26c-b52c0a848d5a

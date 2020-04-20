@@ -1,7 +1,7 @@
 ---
 UID: NS:uiautomationclient.ExtendedProperty
 title: ExtendedProperty (uiautomationclient.h)
-description: Contains information about an extended property.
+description: Contains information about an extended property.helpviewer_keywords: ["ExtendedProperty","ExtendedProperty structure [Windows Accessibility]","uiautomationclient/ExtendedProperty","winauto.uiauto_extendedproperty"]
 old-location: winauto\uiauto_extendedproperty.htm
 tech.root: WinAuto
 ms.assetid: 3d0037f5-cff7-4502-b648-a2a60127eaff

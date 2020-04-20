@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnets
 title: DhcpEnumSubnets function (dhcpsapi.h)
-description: The DhcpEnumSubnets function returns an enumerated list of subnets defined on the DHCP server.
+description: The DhcpEnumSubnets function returns an enumerated list of subnets defined on the DHCP server.helpviewer_keywords: ["DhcpEnumSubnets","DhcpEnumSubnets function [DHCP]","dhcp.dhcpenumsubnets","dhcpsapi/DhcpEnumSubnets"]
 old-location: dhcp\dhcpenumsubnets.htm
 tech.root: DHCP
 ms.assetid: 333381c9-66d1-44ef-911b-d543c79abefb

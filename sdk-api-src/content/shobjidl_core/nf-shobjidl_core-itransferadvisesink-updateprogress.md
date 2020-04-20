@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.UpdateProgress
 title: ITransferAdviseSink::UpdateProgress (shobjidl_core.h)
-description: Updates the transfer progress status in the UI.
+description: Updates the transfer progress status in the UI.helpviewer_keywords: ["ITransferAdviseSink interface [Windows Shell]","UpdateProgress method","ITransferAdviseSink.UpdateProgress","ITransferAdviseSink::UpdateProgress","UpdateProgress","UpdateProgress method [Windows Shell]","UpdateProgress method [Windows Shell]","ITransferAdviseSink interface","_shell_ITransferAdviseSink_UpdateProgress","shell.ITransferAdviseSink_UpdateProgress","shobjidl_core/ITransferAdviseSink::UpdateProgress"]
 old-location: shell\ITransferAdviseSink_UpdateProgress.htm
 tech.root: shell
 ms.assetid: 931029e8-48ff-4d24-8818-57b7103fffdf

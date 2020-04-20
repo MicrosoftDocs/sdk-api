@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector4LessOrEqual
 title: XMVector4LessOrEqual function (directxmath.h)
-description: Tests whether one 4D vector is less-than-or-equal-to another 4D vector.
+description: Tests whether one 4D vector is less-than-or-equal-to another 4D vector.helpviewer_keywords: ["Use DirectX..XMVector4LessOrEqual","XMVector4LessOrEqual","XMVector4LessOrEqual method [DirectX Math Support APIs]","dxmath.xmvector4lessorequal"]
 old-location: dxmath\xmvector4lessorequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4LessOrEqual(XMVECTOR,XMVECTOR)

@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureRequestCollection
 title: IXpsSignatureRequestCollection (xpsdigitalsignature.h)
-description: A collection of IXpsSignatureRequest interfaces.
+description: A collection of IXpsSignatureRequest interfaces.helpviewer_keywords: ["IXpsSignatureRequestCollection","IXpsSignatureRequestCollection interface [XPS Documents and Packaging]","IXpsSignatureRequestCollection interface [XPS Documents and Packaging]","described","xps.ixpssignaturerequestcollection","xpsdigitalsignature/IXpsSignatureRequestCollection"]
 old-location: xps\ixpssignaturerequestcollection.htm
 tech.root: printdocs
 ms.assetid: bb8279e1-a98b-4156-8b90-d9b69411bfa3

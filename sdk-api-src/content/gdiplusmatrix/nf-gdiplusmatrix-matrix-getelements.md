@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.GetElements
 title: Matrix::GetElements (gdiplusmatrix.h)
-description: The Matrix::GetElements method gets the elements of this matrix. The elements are placed in an array in the order m11, m12, m21, m22, m31, m32, where mij denotes the element in row i, column j.
+description: The Matrix::GetElements method gets the elements of this matrix. The elements are placed in an array in the order m11, m12, m21, m22, m31, m32, where mij denotes the element in row i, column j.helpviewer_keywords: ["GetElements","GetElements method [GDI+]","GetElements method [GDI+]","Matrix class","Matrix class [GDI+]","GetElements method","Matrix.GetElements","Matrix::GetElements","_gdiplus_CLASS_Matrix_GetElements_","gdiplus._gdiplus_CLASS_Matrix_GetElements_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_GetElements_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\getelements.htm

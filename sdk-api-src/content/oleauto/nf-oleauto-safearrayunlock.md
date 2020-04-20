@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SafeArrayUnlock
 title: SafeArrayUnlock function (oleauto.h)
-description: Decrements the lock count of an array so it can be freed or resized.
+description: Decrements the lock count of an array so it can be freed or resized.helpviewer_keywords: ["SafeArrayUnlock","SafeArrayUnlock function [Automation]","_oa96_SafeArrayUnlock","automat.safearrayunlock","oleauto/SafeArrayUnlock"]
 old-location: automat\safearrayunlock.htm
 tech.root: automat
 ms.assetid: 654995ab-1959-44dc-9e26-11c34e489c14

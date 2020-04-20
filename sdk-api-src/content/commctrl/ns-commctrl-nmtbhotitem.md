@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMTBHOTITEM
 title: NMTBHOTITEM (commctrl.h)
-description: Contains information used with the TBN_HOTITEMCHANGE notification code.
+description: Contains information used with the TBN_HOTITEMCHANGE notification code.helpviewer_keywords: ["*LPNMTBHOTITEM","HICF_ACCELERATOR","HICF_ARROWKEYS","HICF_DUPACCEL","HICF_ENTERING","HICF_LEAVING","HICF_LMOUSE","HICF_MOUSE","HICF_OTHER","HICF_RESELECT","HICF_TOGGLEDROPDOWN","LPNMTBHOTITEM","LPNMTBHOTITEM structure pointer [Windows Controls]","NMTBHOTITEM","NMTBHOTITEM structure [Windows Controls]","_win32_NMTBHOTITEM","_win32_NMTBHOTITEM_cpp","commctrl/LPNMTBHOTITEM","commctrl/NMTBHOTITEM","controls.NMTBHOTITEM","controls._win32_NMTBHOTITEM"]
 old-location: controls\NMTBHOTITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbhotitem.htm

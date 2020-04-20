@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.GetStatus
 title: IUIAnimationStoryboard::GetStatus (uianimation.h)
-description: Gets the status of the storyboard.
+description: Gets the status of the storyboard.helpviewer_keywords: ["GetStatus","GetStatus method [Windows Animation]","GetStatus method [Windows Animation]","IUIAnimationStoryboard interface","IUIAnimationStoryboard interface [Windows Animation]","GetStatus method","IUIAnimationStoryboard.GetStatus","IUIAnimationStoryboard::GetStatus","uianimation.iuianimationstoryboard_getstatus","uianimation/IUIAnimationStoryboard::GetStatus"]
 old-location: uianimation\iuianimationstoryboard_getstatus.htm
 tech.root: UIAnimation
 ms.assetid: 8ee9a17f-c57c-49df-950d-491e05ba8768

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.DiscardUndoState
 title: IOleInPlaceSite::DiscardUndoState (oleidl.h)
-description: Instructs the container to discard its undo state. The container should not call IOleInPlaceObject::ReActivateAndUndo.
+description: Instructs the container to discard its undo state. The container should not call IOleInPlaceObject::ReActivateAndUndo.helpviewer_keywords: ["DiscardUndoState","DiscardUndoState method [COM]","DiscardUndoState method [COM]","IOleInPlaceSite interface","IOleInPlaceSite interface [COM]","DiscardUndoState method","IOleInPlaceSite.DiscardUndoState","IOleInPlaceSite::DiscardUndoState","IOleInPlaceSiteWindowless.DiscardUndoState","_ole_ioleinplacesite_discardundostate","com.ioleinplacesite_discardundostate","oleidl/IOleInPlaceSite::DiscardUndoState"]
 old-location: com\ioleinplacesite_discardundostate.htm
 tech.root: com
 ms.assetid: 8fe69aa5-a526-4e95-920b-01f84ae4ca83

@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMVisualBrush
 title: IXpsOMVisualBrush (xpsobjectmodel.h)
-description: A brush that uses a visual element as a source.
+description: A brush that uses a visual element as a source.helpviewer_keywords: ["IXpsOMVisualBrush","IXpsOMVisualBrush interface [XPS Documents and Packaging]","IXpsOMVisualBrush interface [XPS Documents and Packaging]","described","xps.ixpsomvisualbrush","xpsobjectmodel/IXpsOMVisualBrush"]
 old-location: xps\ixpsomvisualbrush.htm
 tech.root: printdocs
 ms.assetid: 56c11e64-64a8-4c42-9547-4f1fcdc13a4b

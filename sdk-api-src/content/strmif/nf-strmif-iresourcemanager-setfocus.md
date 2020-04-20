@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IResourceManager.SetFocus
 title: IResourceManager::SetFocus (strmif.h)
-description: The SetFocus method notifies the resource manager that a specified object has been given the focus of the user.
+description: The SetFocus method notifies the resource manager that a specified object has been given the focus of the user.helpviewer_keywords: ["IResourceManager interface [DirectShow]","SetFocus method","IResourceManager.SetFocus","IResourceManager::SetFocus","IResourceManagerSetFocus","SetFocus","SetFocus method [DirectShow]","SetFocus method [DirectShow]","IResourceManager interface","dshow.iresourcemanager_setfocus","strmif/IResourceManager::SetFocus"]
 old-location: dshow\iresourcemanager_setfocus.htm
 tech.root: DirectShow
 ms.assetid: 3d0a87e1-6774-45cf-9ab5-18ec1d2fff0d

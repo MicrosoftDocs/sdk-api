@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJobs.get_Item
 title: IFaxIncomingJobs::get_Item (faxcomex.h)
-description: Retrieves a FaxIncomingJob object from the FaxIncomingJobs collection.
+description: Retrieves a FaxIncomingJob object from the FaxIncomingJobs collection.helpviewer_keywords: ["IFaxIncomingJobs interface [Fax Service]","get_Item method","IFaxIncomingJobs.get_Item","IFaxIncomingJobs::get_Item","_mfax_faxincomingjobs.item_cpp","fax._mfax_faxincomingjobs_item_cpp","faxcomex/IFaxIncomingJobs::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxIncomingJobs interface"]
 old-location: fax\_mfax_faxincomingjobs_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5ga5_cpp.htm

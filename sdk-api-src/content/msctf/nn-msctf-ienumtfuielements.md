@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.IEnumTfUIElements
 title: IEnumTfUIElements (msctf.h)
-description: The IEnumTfUIElements interface is implemented by TSF manager and used by applications or textservices. This interface can be retrieved by ITfUIElementMgr::EnumUIElements and enumerates the registered UI elements.
+description: The IEnumTfUIElements interface is implemented by TSF manager and used by applications or textservices. This interface can be retrieved by ITfUIElementMgr::EnumUIElements and enumerates the registered UI elements.helpviewer_keywords: ["IEnumTfUIElements","IEnumTfUIElements interface [Text Services Framework]","IEnumTfUIElements interface [Text Services Framework]","described","_tsf_ienumtfuielements_ref","msctf/IEnumTfUIElements","tsf.ienumtfuielements"]
 old-location: tsf\ienumtfuielements.htm
 tech.root: TSF
 ms.assetid: 5ee3d89c-0761-4d4b-9fd9-6b9de7ceb077

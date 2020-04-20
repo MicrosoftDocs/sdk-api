@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependency2.GetMaxMajorVersionTested
 title: IAppxManifestPackageDependency2::GetMaxMajorVersionTested (appxpackaging.h)
-description: Returns the maximum major version number of the package that is tested to be compatible with the current package.
+description: Returns the maximum major version number of the package that is tested to be compatible with the current package.helpviewer_keywords: ["GetMaxMajorVersionTested","GetMaxMajorVersionTested method [App packaging and management]","GetMaxMajorVersionTested method [App packaging and management]","IAppxManifestPackageDependency2 interface","IAppxManifestPackageDependency2 interface [App packaging and management]","GetMaxMajorVersionTested method","IAppxManifestPackageDependency2.GetMaxMajorVersionTested","IAppxManifestPackageDependency2::GetMaxMajorVersionTested","appxpackaging/IAppxManifestPackageDependency2::GetMaxMajorVersionTested","appxpkg.iappxmanifestpackagedependency2_getmaxmajorversiontested"]
 old-location: appxpkg\iappxmanifestpackagedependency2_getmaxmajorversiontested.htm
 tech.root: appxpkg
 ms.assetid: BB83C97E-9E89-440C-8A14-88062F1394CF

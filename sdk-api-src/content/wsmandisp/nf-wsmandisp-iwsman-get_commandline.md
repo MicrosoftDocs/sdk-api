@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSMan.get_CommandLine
 title: IWSMan::get_CommandLine (wsmandisp.h)
-description: Gets the command line of the process that loads the automation component.
+description: Gets the command line of the process that loads the automation component.helpviewer_keywords: ["CommandLine property [Windows Remote Management]","CommandLine property [Windows Remote Management]","IWSMan interface","IWSMan interface [Windows Remote Management]","CommandLine property","IWSMan.CommandLine","IWSMan.get_CommandLine","IWSMan::CommandLine","IWSMan::get_CommandLine","get_CommandLine","winrm.iwsman_commandline","wsmandisp/IWSMan::CommandLine","wsmandisp/IWSMan::get_CommandLine"]
 old-location: winrm\iwsman_commandline.htm
 tech.root: winrm
 ms.assetid: af0f4a4e-807c-4a91-b697-48571fecbe6d

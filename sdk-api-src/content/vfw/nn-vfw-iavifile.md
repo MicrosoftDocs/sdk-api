@@ -1,7 +1,7 @@
 ---
 UID: NN:vfw.IAVIFile
 title: IAVIFile (vfw.h)
-description: The IAVIFile interface supports opening and manipulating files and file headers, and creating and obtaining stream interfaces. Uses IUnknown::QueryInterface, IUnknown::AddRef, and IUnknown::Release in addition to the following custom methods:\_
+description: The IAVIFile interface supports opening and manipulating files and file headers, and creating and obtaining stream interfaces. Uses IUnknown::QueryInterface, IUnknown::AddRef, and IUnknown::Release in addition to the following custom methods:\_helpviewer_keywords: ["IAVIFile","IAVIFile interface [Windows Multimedia]","IAVIFile interface [Windows Multimedia]","described","_win32_IAVIFile","multimedia.iavifile","vfw/IAVIFile"]
 The IAVIFile interface supports opening and manipulating files and file headers, and creating and obtaining stream interfaces. Uses IUnknown::QueryInterface, IUnknown::AddRef, and IUnknown::Release in addition to the following custom methods: 
 old-location: multimedia\iavifile.htm
 tech.root: Multimedia

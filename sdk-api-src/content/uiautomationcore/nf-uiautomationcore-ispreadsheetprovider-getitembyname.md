@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ISpreadsheetProvider.GetItemByName
 title: ISpreadsheetProvider::GetItemByName (uiautomationcore.h)
-description: Exposes a UI Automation element that represents the spreadsheet cell that has the specified name.
+description: Exposes a UI Automation element that represents the spreadsheet cell that has the specified name.helpviewer_keywords: ["GetItemByName","GetItemByName method [Windows Accessibility]","GetItemByName method [Windows Accessibility]","ISpreadsheetProvider interface","ISpreadsheetProvider interface [Windows Accessibility]","GetItemByName method","ISpreadsheetProvider.GetItemByName","ISpreadsheetProvider::GetItemByName","uiautomationcore/ISpreadsheetProvider::GetItemByName","winauto.uiauto_ISpreadsheetProvider_GetItemByName"]
 old-location: winauto\uiauto_ISpreadsheetProvider_GetItemByName.htm
 tech.root: WinAuto
 ms.assetid: 9A496B3F-5095-4094-BAF6-D4EE20498D4B

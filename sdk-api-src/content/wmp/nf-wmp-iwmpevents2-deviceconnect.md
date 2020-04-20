@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceConnect
 title: IWMPEvents2::DeviceConnect (wmp.h)
-description: The DeviceConnect event occurs when the user connects a device to the computer.
+description: The DeviceConnect event occurs when the user connects a device to the computer.helpviewer_keywords: ["DeviceConnect","DeviceConnect method [Windows Media Player]","DeviceConnect method [Windows Media Player]","IWMPEvents2 interface","IWMPEvents2 interface [Windows Media Player]","DeviceConnect method","IWMPEvents2.DeviceConnect","IWMPEvents2::DeviceConnect","IWMPEvents2DeviceConnect","wmp.iwmpevents2_iwmpevents2__deviceconnect","wmp/IWMPEvents2::DeviceConnect"]
 old-location: wmp\iwmpevents2_iwmpevents2__deviceconnect.htm
 tech.root: WMP
 ms.assetid: ed726579-e0cb-4007-98eb-b6df4b636b12

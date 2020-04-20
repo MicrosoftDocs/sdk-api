@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetMenuBarInfo
 title: GetMenuBarInfo function (winuser.h)
-description: Retrieves information about the specified menu bar.
+description: Retrieves information about the specified menu bar.helpviewer_keywords: ["GetMenuBarInfo","GetMenuBarInfo function [Menus and Other Resources]","OBJID_CLIENT","OBJID_MENU","OBJID_SYSMENU","_win32_GetMenuBarInfo","_win32_getmenubarinfo_cpp","menurc.getmenubarinfo","winui._win32_getmenubarinfo","winuser/GetMenuBarInfo"]
 old-location: menurc\getmenubarinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenubarinfo.htm

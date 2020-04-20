@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateInstantaneousTransition
 title: IUIAnimationTransitionLibrary2::CreateInstantaneousTransition (uianimation.h)
-description: Creates an instantaneous scalar transition.
+description: Creates an instantaneous scalar transition.helpviewer_keywords: ["CreateInstantaneousTransition","CreateInstantaneousTransition method [Windows Animation]","CreateInstantaneousTransition method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateInstantaneousTransition method","IUIAnimationTransitionLibrary2.CreateInstantaneousTransition","IUIAnimationTransitionLibrary2::CreateInstantaneousTransition","uianimation.iuianimationtransitionlibrary2_createinstantaneoustransition","uianimation/IUIAnimationTransitionLibrary2::CreateInstantaneousTransition"]
 old-location: uianimation\iuianimationtransitionlibrary2_createinstantaneoustransition.htm
 tech.root: UIAnimation
 ms.assetid: E40313C5-F98E-4BF3-83B8-735271ED1E2C

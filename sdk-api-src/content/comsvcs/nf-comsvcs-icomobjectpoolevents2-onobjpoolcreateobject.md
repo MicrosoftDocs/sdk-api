@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolCreateObject
 title: IComObjectPoolEvents2::OnObjPoolCreateObject (comsvcs.h)
-description: Generated when an object is created for the pool.
+description: Generated when an object is created for the pool.helpviewer_keywords: ["IComObjectPoolEvents2 interface [COM+]","OnObjPoolCreateObject method","IComObjectPoolEvents2.OnObjPoolCreateObject","IComObjectPoolEvents2::OnObjPoolCreateObject","OnObjPoolCreateObject","OnObjPoolCreateObject method [COM+]","OnObjPoolCreateObject method [COM+]","IComObjectPoolEvents2 interface","_dtc_IComObjectPoolEvents2_OnObjPoolCreateObject","comsvcs/IComObjectPoolEvents2::OnObjPoolCreateObject","cos.icomobjectpoolevents2_onobjpoolcreateobject"]
 old-location: cos\icomobjectpoolevents2_onobjpoolcreateobject.htm
 tech.root: cossdk
 ms.assetid: 85e50bf4-2660-409c-8812-cbe389283202

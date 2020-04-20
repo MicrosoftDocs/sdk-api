@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxActivity.get_QueuedMessages
 title: IFaxActivity::get_QueuedMessages (faxcomex.h)
-description: The IFaxActivity::get_QueuedMessages property is a number that represents the total number of fax jobs in the fax job queue that are pending processing. This does not include jobs for which the number of retries has been exceeded.
+description: The IFaxActivity::get_QueuedMessages property is a number that represents the total number of fax jobs in the fax job queue that are pending processing. This does not include jobs for which the number of retries has been exceeded.helpviewer_keywords: ["IFaxActivity interface [Fax Service]","QueuedMessages property","IFaxActivity.QueuedMessages","IFaxActivity.get_QueuedMessages","IFaxActivity::QueuedMessages","IFaxActivity::get_QueuedMessages","QueuedMessages property [Fax Service]","QueuedMessages property [Fax Service]","IFaxActivity interface","_mfax_faxactivity.queuedmessages","fax._mfax_faxactivity_cpp_mfax_faxactivity_queuedmessages_cpp","fax._mfax_faxactivity_queuedmessages","faxcomex/IFaxActivity::QueuedMessages","faxcomex/IFaxActivity::get_QueuedMessages","get_QueuedMessages"]
 old-location: fax\_mfax_faxactivity_cpp_mfax_faxactivity_queuedmessages_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_350z.htm

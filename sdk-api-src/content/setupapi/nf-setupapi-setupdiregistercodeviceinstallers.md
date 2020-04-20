@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiRegisterCoDeviceInstallers
 title: SetupDiRegisterCoDeviceInstallers function (setupapi.h)
-description: The SetupDiRegisterCoDeviceInstallers function is the default handler for DIF_REGISTER_COINSTALLERS.
+description: The SetupDiRegisterCoDeviceInstallers function is the default handler for DIF_REGISTER_COINSTALLERS.helpviewer_keywords: ["SetupDiRegisterCoDeviceInstallers","SetupDiRegisterCoDeviceInstallers function [Device and Driver Installation]","devinst.setupdiregistercodeviceinstallers","di-rtns_03f0dc0a-f133-4280-b32d-9a811d04a844.xml","setupapi/SetupDiRegisterCoDeviceInstallers"]
 old-location: devinst\setupdiregistercodeviceinstallers.htm
 tech.root: devinst
 ms.assetid: 75d0275b-9eb8-45ec-ac8e-b18d59e0c011

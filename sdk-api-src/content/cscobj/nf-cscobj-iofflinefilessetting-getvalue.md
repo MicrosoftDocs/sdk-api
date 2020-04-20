@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetValue
 title: IOfflineFilesSetting::GetValue (cscobj.h)
-description: Retrieves the value of a particular Offline Files setting.
+description: Retrieves the value of a particular Offline Files setting.helpviewer_keywords: ["GetValue","GetValue method [Offline Files]","GetValue method [Offline Files]","IOfflineFilesSetting interface","IOfflineFilesSetting interface [Offline Files]","GetValue method","IOfflineFilesSetting.GetValue","IOfflineFilesSetting::GetValue","cscobj/IOfflineFilesSetting::GetValue","of.iofflinefilessetting_getvalue"]
 old-location: of\iofflinefilessetting_getvalue.htm
 tech.root: offlinefiles
 ms.assetid: 39560ca6-62d7-467b-bc52-1dd769e7e860

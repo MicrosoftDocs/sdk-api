@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.GetUserInput
 title: IPhotoAcquireProgressCB::GetUserInput (photoacquire.h)
-description: The GetUserInput method overrides the default functionality that displays a message prompting the user for string input during acquisition. The application provides the implementation of the GetUserInput method.
+description: The GetUserInput method overrides the default functionality that displays a message prompting the user for string input during acquisition. The application provides the implementation of the GetUserInput method.helpviewer_keywords: ["GetUserInput","GetUserInput method [Picture Acquisition]","GetUserInput method [Picture Acquisition]","IPhotoAcquireProgressCB interface","IPhotoAcquireProgressCB interface [Picture Acquisition]","GetUserInput method","IPhotoAcquireProgressCB.GetUserInput","IPhotoAcquireProgressCB::GetUserInput","IPhotoAcquireProgressCBGetUserInput","photoacquire/IPhotoAcquireProgressCB::GetUserInput","picacq.iphotoacquireprogresscb_getuserinput"]
 old-location: picacq\iphotoacquireprogresscb_getuserinput.htm
 tech.root: acquisition
 ms.assetid: db0d924b-a586-4f81-a367-e8fbdf3e9bd9

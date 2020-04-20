@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterCloseEnum
 title: ClusterCloseEnum function (clusapi.h)
-description: Closes a cluster enumeration handle originally opened by ClusterOpenEnum.
+description: Closes a cluster enumeration handle originally opened by ClusterOpenEnum.helpviewer_keywords: ["ClusterCloseEnum","ClusterCloseEnum function [Failover Cluster]","PCLUSAPI_CLUSTER_CLOSE_ENUM","PCLUSAPI_CLUSTER_CLOSE_ENUM function [Failover Cluster]","_wolf_clustercloseenum","clusapi/ClusterCloseEnum","clusapi/PCLUSAPI_CLUSTER_CLOSE_ENUM","mscs.clustercloseenum"]
 old-location: mscs\clustercloseenum.htm
 tech.root: MsCS
 ms.assetid: 3d7e45a0-d580-4d14-8795-2418bba40c73

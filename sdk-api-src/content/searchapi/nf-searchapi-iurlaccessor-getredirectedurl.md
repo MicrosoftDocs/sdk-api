@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetRedirectedURL
 title: IUrlAccessor::GetRedirectedURL (searchapi.h)
-description: Gets the redirected URL for the current item.
+description: Gets the redirected URL for the current item.helpviewer_keywords: ["GetRedirectedURL","GetRedirectedURL method [search]","GetRedirectedURL method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetRedirectedURL method","IUrlAccessor.GetRedirectedURL","IUrlAccessor::GetRedirectedURL","_search_IUrlAccessor_GetRedirectedURL","search._search_IUrlAccessor_GetRedirectedURL","searchapi/IUrlAccessor::GetRedirectedURL"]
 old-location: search\_search_IUrlAccessor_GetRedirectedURL.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getredirectedurl.htm

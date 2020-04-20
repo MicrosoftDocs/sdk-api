@@ -1,7 +1,7 @@
 ---
 UID: NF:snmp.SnmpUtilOctetsNCmp
 title: SnmpUtilOctetsNCmp function (snmp.h)
-description: The SnmpUtilOctetsNCmp function compares two octet strings. The function compares the subidentifiers in the strings until it reaches the number of subidentifiers specified by the nChars parameter. SnmpUtilOctetsNCmp is an element of the SNMP Utility API.
+description: The SnmpUtilOctetsNCmp function compares two octet strings. The function compares the subidentifiers in the strings until it reaches the number of subidentifiers specified by the nChars parameter. SnmpUtilOctetsNCmp is an element of the SNMP Utility API.helpviewer_keywords: ["SnmpUtilOctetsNCmp","SnmpUtilOctetsNCmp function [SNMP]","_snmp_snmputiloctetsncmp","snmp.snmputiloctetsncmp","snmp/SnmpUtilOctetsNCmp"]
 old-location: snmp\snmputiloctetsncmp.htm
 tech.root: SNMP
 ms.assetid: bba13c41-1c0f-4a54-9a93-8115ef77c086

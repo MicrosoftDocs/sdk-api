@@ -1,7 +1,7 @@
 ---
 UID: NE:inspectable.TrustLevel
 title: TrustLevel (inspectable.h)
-description: Represents the trust level of an activatable class.
+description: Represents the trust level of an activatable class.helpviewer_keywords: ["BaseTrust","FullTrust","PartialTrust","RegisteredTrustLevel","TrustLevel","TrustLevel enumeration [Windows Runtime]","inspectable/BaseTrust","inspectable/FullTrust","inspectable/PartialTrust","inspectable/TrustLevel","winrt.trustlevel"]
 old-location: winrt\trustlevel.htm
 tech.root: WinRT
 ms.assetid: 75E30E4B-EE5F-41C4-AC22-91D542E920EB

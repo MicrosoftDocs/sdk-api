@@ -1,7 +1,7 @@
 ---
 UID: NF:wmiutils.IWbemPath.IsRelativeOrChild
 title: IWbemPath::IsRelativeOrChild (wmiutils.h)
-description: The IWbemPath::IsRelativeOrChild method tests if the path, as already set in the parser, is relative to or a child of a particular computer and namespace.
+description: The IWbemPath::IsRelativeOrChild method tests if the path, as already set in the parser, is relative to or a child of a particular computer and namespace.helpviewer_keywords: ["IWbemPath interface [Windows Management Instrumentation]","IsRelativeOrChild method","IWbemPath.IsRelativeOrChild","IWbemPath::IsRelativeOrChild","IsRelativeOrChild","IsRelativeOrChild method [Windows Management Instrumentation]","IsRelativeOrChild method [Windows Management Instrumentation]","IWbemPath interface","_hmm_iwbempath_isrelativeorchild","wmi.iwbempath_isrelativeorchild","wmiutils/IWbemPath::IsRelativeOrChild"]
 old-location: wmi\iwbempath_isrelativeorchild.htm
 tech.root: WmiSdk
 ms.assetid: 95ba21af-3a43-4aa9-ab5b-90712e9cbed1

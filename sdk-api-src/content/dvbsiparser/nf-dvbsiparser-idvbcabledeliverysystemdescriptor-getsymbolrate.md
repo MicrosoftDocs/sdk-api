@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbCableDeliverySystemDescriptor.GetSymbolRate
 title: IDvbCableDeliverySystemDescriptor::GetSymbolRate (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetSymbolRate","GetSymbolRate method [Microsoft TV Technologies]","GetSymbolRate method [Microsoft TV Technologies]","IDvbCableDeliverySystemDescriptor interface","IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetSymbolRate method","IDvbCableDeliverySystemDescriptor.GetSymbolRate","IDvbCableDeliverySystemDescriptor::GetSymbolRate","IDvbCableDeliverySystemDescriptorGetSymbolRate","dvbsiparser/IDvbCableDeliverySystemDescriptor::GetSymbolRate","mstv.idvbcabledeliverysystemdescriptor_getsymbolrate"]
 old-location: mstv\idvbcabledeliverysystemdescriptor_getsymbolrate.htm
 tech.root: mstv
 ms.assetid: 0484e12d-6b93-4ed6-865a-d4992ad1de75

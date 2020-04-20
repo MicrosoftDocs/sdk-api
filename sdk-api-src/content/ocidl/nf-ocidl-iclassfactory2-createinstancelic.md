@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IClassFactory2.CreateInstanceLic
 title: IClassFactory2::CreateInstanceLic (ocidl.h)
-description: Creates an instance of the licensed object for the specified license key. This method is the only possible means to create an object on an otherwise unlicensed machine.
+description: Creates an instance of the licensed object for the specified license key. This method is the only possible means to create an object on an otherwise unlicensed machine.helpviewer_keywords: ["CreateInstanceLic","CreateInstanceLic method [COM]","CreateInstanceLic method [COM]","IClassFactory2 interface","IClassFactory2 interface [COM]","CreateInstanceLic method","IClassFactory2.CreateInstanceLic","IClassFactory2::CreateInstanceLic","_com_iclassfactory2_createinstancelic","com.iclassfactory2_createinstancelic","ocidl/IClassFactory2::CreateInstanceLic"]
 old-location: com\iclassfactory2_createinstancelic.htm
 tech.root: com
 ms.assetid: f33c7223-da7d-4582-9a23-7dc34be97a9f

@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvIcmCheckBitmapBits
 title: DrvIcmCheckBitmapBits function (winddi.h)
-description: The DrvIcmCheckBitmapBits function checks whether the pixels in the specified bitmap lie within the device gamut of the specified transform.
+description: The DrvIcmCheckBitmapBits function checks whether the pixels in the specified bitmap lie within the device gamut of the specified transform.helpviewer_keywords: ["DrvIcmCheckBitmapBits","DrvIcmCheckBitmapBits function [Display Devices]","ddifncs_f7d444c6-446a-4c46-9f5e-73407323c2d7.xml","display.drvicmcheckbitmapbits","winddi/DrvIcmCheckBitmapBits"]
 old-location: display\drvicmcheckbitmapbits.htm
 tech.root: display
 ms.assetid: afde9270-3bbf-4f78-97ca-20ddfae83a2d

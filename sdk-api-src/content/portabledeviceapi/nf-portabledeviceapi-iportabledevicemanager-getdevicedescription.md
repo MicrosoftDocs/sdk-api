@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDeviceDescription
 title: IPortableDeviceManager::GetDeviceDescription (portabledeviceapi.h)
-description: Retrieves the description of a device.
+description: Retrieves the description of a device.helpviewer_keywords: ["GetDeviceDescription","GetDeviceDescription method [Windows Portable Devices SDK]","GetDeviceDescription method [Windows Portable Devices SDK]","IPortableDeviceManager interface","IPortableDeviceManager interface [Windows Portable Devices SDK]","GetDeviceDescription method","IPortableDeviceManager.GetDeviceDescription","IPortableDeviceManager::GetDeviceDescription","IPortableDeviceManagerGetDeviceDescription","portabledeviceapi/IPortableDeviceManager::GetDeviceDescription","wpdsdk.iportabledevicemanager_getdevicedescription"]
 old-location: wpdsdk\iportabledevicemanager_getdevicedescription.htm
 tech.root: wpd_sdk
 ms.assetid: 16c08c8a-9ce7-455a-9859-6b0be406f642

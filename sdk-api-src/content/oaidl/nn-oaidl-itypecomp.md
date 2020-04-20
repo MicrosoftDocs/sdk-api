@@ -1,7 +1,7 @@
 ---
 UID: NN:oaidl.ITypeComp
 title: ITypeComp (oaidl.h)
-description: The ITypeComp interface provides a fast way to access information that compilers need when binding to and instantiating structures and interfaces.
+description: The ITypeComp interface provides a fast way to access information that compilers need when binding to and instantiating structures and interfaces.helpviewer_keywords: ["ITypeComp","ITypeComp interface [Automation]","ITypeComp interface [Automation]","described","_oa96_ITypeComp_Interface","automat.itypecomp","oaidl/ITypeComp"]
 old-location: automat\itypecomp.htm
 tech.root: automat
 ms.assetid: 4d35370f-506f-45cd-9d75-e48c640d8f4d

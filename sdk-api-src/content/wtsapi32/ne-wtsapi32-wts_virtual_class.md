@@ -1,7 +1,7 @@
 ---
 UID: NE:wtsapi32._WTS_VIRTUAL_CLASS
 title: WTS_VIRTUAL_CLASS (wtsapi32.h)
-description: Contains values that indicate the type of virtual channel information to retrieve.
+description: Contains values that indicate the type of virtual channel information to retrieve.helpviewer_keywords: ["WTSVirtualClientData","WTSVirtualFileHandle","WTS_VIRTUAL_CLASS","WTS_VIRTUAL_CLASS enumeration [Remote Desktop Services]","_win32_wts_virtual_class","termserv.wts_virtual_class","wtsapi32/WTSVirtualClientData","wtsapi32/WTSVirtualFileHandle","wtsapi32/WTS_VIRTUAL_CLASS"]
 old-location: termserv\wts_virtual_class.htm
 tech.root: TermServ
 ms.assetid: ca7bb0ff-f5af-477f-a610-563071554234

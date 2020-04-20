@@ -1,7 +1,7 @@
 ---
 UID: NF:bdatif.IEnumGuideDataProperties.Next
 title: IEnumGuideDataProperties::Next (bdatif.h)
-description: The Next method retrieves the specified number of items in the enumeration sequence.
+description: The Next method retrieves the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumGuideDataProperties interface [Microsoft TV Technologies]","Next method","IEnumGuideDataProperties.Next","IEnumGuideDataProperties::Next","IEnumGuideDataPropertiesNext","Next","Next method [Microsoft TV Technologies]","Next method [Microsoft TV Technologies]","IEnumGuideDataProperties interface","bdatif/IEnumGuideDataProperties::Next","mstv.ienumguidedataproperties_next"]
 old-location: mstv\ienumguidedataproperties_next.htm
 tech.root: mstv
 ms.assetid: 5d13ce97-5729-48e5-a742-0689b2aae1f3

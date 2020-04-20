@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IEntity.GetRelationship
 title: IEntity::GetRelationship (structuredquery.h)
-description: Retrieves the IRelationship object for this entity as requested by name.
+description: Retrieves the IRelationship object for this entity as requested by name.helpviewer_keywords: ["GetRelationship","GetRelationship method [search]","GetRelationship method [search]","IEntity interface","IEntity interface [search]","GetRelationship method","IEntity.GetRelationship","IEntity::GetRelationship","_search_IEntity_GetRelationship","search._search_IEntity_GetRelationship","structuredquery/IEntity::GetRelationship"]
 old-location: search\_search_IEntity_GetRelationship.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\getrelationship.htm

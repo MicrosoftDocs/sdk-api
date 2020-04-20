@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.SetText
 title: ITextStoreAnchor::SetText (textstor.h)
-description: The ITextStoreAnchor::SetText method sets the text selection between two supplied anchor locations.
+description: The ITextStoreAnchor::SetText method sets the text selection between two supplied anchor locations.helpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","SetText method","ITextStoreAnchor.SetText","ITextStoreAnchor::SetText","SetText","SetText method [Text Services Framework]","SetText method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::SetText","tsf.itextstoreanchor_settext"]
 old-location: tsf\itextstoreanchor_settext.htm
 tech.root: TSF
 ms.assetid: 03beac03-cd09-4e03-b700-d96741e4932b

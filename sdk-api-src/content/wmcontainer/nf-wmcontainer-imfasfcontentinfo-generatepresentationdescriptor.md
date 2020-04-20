@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GeneratePresentationDescriptor
 title: IMFASFContentInfo::GeneratePresentationDescriptor (wmcontainer.h)
-description: Creates a presentation descriptor for ASF content.
+description: Creates a presentation descriptor for ASF content.helpviewer_keywords: ["GeneratePresentationDescriptor","GeneratePresentationDescriptor method [Media Foundation]","GeneratePresentationDescriptor method [Media Foundation]","IMFASFContentInfo interface","IMFASFContentInfo interface [Media Foundation]","GeneratePresentationDescriptor method","IMFASFContentInfo.GeneratePresentationDescriptor","IMFASFContentInfo::GeneratePresentationDescriptor","f22cb48d-1346-4182-8ca2-f57a7fdc76e4","mf.imfasfcontentinfo_generatepresentationdescriptor","wmcontainer/IMFASFContentInfo::GeneratePresentationDescriptor"]
 old-location: mf\imfasfcontentinfo_generatepresentationdescriptor.htm
 tech.root: medfound
 ms.assetid: f22cb48d-1346-4182-8ca2-f57a7fdc76e4

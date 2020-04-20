@@ -1,7 +1,7 @@
 ---
 UID: NE:sensorsapi.LOCATION_DESIRED_ACCURACY
 title: LOCATION_DESIRED_ACCURACY (sensorsapi.h)
-description: The LOCATION_DESIRED_ACCURACY enumeration type defines values for the SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY property.
+description: The LOCATION_DESIRED_ACCURACY enumeration type defines values for the SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY property.helpviewer_keywords: ["LOCATION_DESIRED_ACCURACY","LOCATION_DESIRED_ACCURACY enumeration [Sensor Devices]","LOCATION_DESIRED_ACCURACY_DEFAULT","LOCATION_DESIRED_ACCURACY_HIGH","Sensor_Enums_a794ec29-a465-4d6a-b32e-c5eb890c95ae.xml","sensors.location_desired_accuracy","sensorsapi/LOCATION_DESIRED_ACCURACY","sensorsapi/LOCATION_DESIRED_ACCURACY_DEFAULT","sensorsapi/LOCATION_DESIRED_ACCURACY_HIGH"]
 old-location: sensors\location_desired_accuracy.htm
 tech.root: sensors
 ms.assetid: 21eefb20-b5ad-43c7-a1aa-92731c856363

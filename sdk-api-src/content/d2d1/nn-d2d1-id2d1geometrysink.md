@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1GeometrySink
 title: ID2D1GeometrySink (d2d1.h)
-description: Describes a geometric path that can contain lines, arcs, cubic Bezier curves, and quadratic Bezier curves.
+description: Describes a geometric path that can contain lines, arcs, cubic Bezier curves, and quadratic Bezier curves.helpviewer_keywords: ["ID2D1GeometrySink","ID2D1GeometrySink interface [Direct2D]","ID2D1GeometrySink interface [Direct2D]","described","d2d1/ID2D1GeometrySink","direct2d.ID2D1GeometrySink"]
 old-location: direct2d\ID2D1GeometrySink.htm
 tech.root: Direct2D
 ms.assetid: 6d2c1959-1309-45d8-8204-19ffea03375b

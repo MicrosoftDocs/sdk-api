@@ -1,7 +1,7 @@
 ---
 UID: NN:mmcobj.ISnapinPropertiesCallback
 title: ISnapinPropertiesCallback (mmcobj.h)
-description: The ISnapinPropertiesCallback interface adds property names for the snap-in. This interface is implemented by MMC for the snap-in.
+description: The ISnapinPropertiesCallback interface adds property names for the snap-in. This interface is implemented by MMC for the snap-in.helpviewer_keywords: ["ISnapinPropertiesCallback","ISnapinPropertiesCallback interface [MMC]","ISnapinPropertiesCallback interface [MMC]","described","_slate_isnapinpropertiescallback","mmc.isnapinpropertiescallback","mmcobj/ISnapinPropertiesCallback"]
 old-location: mmc\isnapinpropertiescallback.htm
 tech.root: mmc
 ms.assetid: d02d265c-f3fa-4332-910e-f0d9d4f0687a

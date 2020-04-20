@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetConfigBlobAndUserBlob
 title: EapPeerGetConfigBlobAndUserBlob function (eapmethodpeerapis.h)
-description: Allows EAP method developers to provide the various connection properties and user properties supported by the method. EAPHost invokes this function to create the connection property and user property of the EAP method.
+description: Allows EAP method developers to provide the various connection properties and user properties supported by the method. EAPHost invokes this function to create the connection property and user property of the EAP method.helpviewer_keywords: ["EapPeerGetConfigBlobAndUserBlob","EapPeerGetConfigBlobAndUserBlob function [EAPHost]","eaphost.eappeergetconfigblobanduserblob","eapmethodpeerapis/EapPeerGetConfigBlobAndUserBlob"]
 old-location: eaphost\eappeergetconfigblobanduserblob.htm
 tech.root: eaphost
 ms.assetid: 81817FAA-20AE-4556-BAA5-0EF2A955B6A3

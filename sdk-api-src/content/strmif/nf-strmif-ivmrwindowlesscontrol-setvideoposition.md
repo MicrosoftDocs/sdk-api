@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.SetVideoPosition
 title: IVMRWindowlessControl::SetVideoPosition (strmif.h)
-description: The SetVideoPosition method sets the source and destination rectangles for the video.
+description: The SetVideoPosition method sets the source and destination rectangles for the video.helpviewer_keywords: ["IVMRWindowlessControl interface [DirectShow]","SetVideoPosition method","IVMRWindowlessControl.SetVideoPosition","IVMRWindowlessControl::SetVideoPosition","IVMRWindowlessControlSetVideoPosition","SetVideoPosition","SetVideoPosition method [DirectShow]","SetVideoPosition method [DirectShow]","IVMRWindowlessControl interface","dshow.ivmrwindowlesscontrol_setvideoposition","strmif/IVMRWindowlessControl::SetVideoPosition"]
 old-location: dshow\ivmrwindowlesscontrol_setvideoposition.htm
 tech.root: DirectShow
 ms.assetid: 3cf75b8e-850d-4514-9502-a71c801e0d92

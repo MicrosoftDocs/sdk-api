@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ComboBox_GetLBTextLen
 title: ComboBox_GetLBTextLen macro (windowsx.h)
-description: Gets the length of a string in the list in a combo box. You can use this macro or send the CB_GETLBTEXTLEN message explicitly.
+description: Gets the length of a string in the list in a combo box. You can use this macro or send the CB_GETLBTEXTLEN message explicitly.helpviewer_keywords: ["ComboBox_GetLBTextLen","ComboBox_GetLBTextLen macro [Windows Controls]","_win32_ComboBox_GetLBTextLen","_win32_ComboBox_GetLBTextLen_cpp","controls.ComboBox_GetLBTextLen","controls._win32_ComboBox_GetLBTextLen","windowsx/ComboBox_GetLBTextLen"]
 old-location: controls\ComboBox_GetLBTextLen.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getlbtextlen.htm

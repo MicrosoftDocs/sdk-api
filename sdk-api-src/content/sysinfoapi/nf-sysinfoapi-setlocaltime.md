@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.SetLocalTime
 title: SetLocalTime function (sysinfoapi.h)
-description: Sets the current local time and date.
+description: Sets the current local time and date.helpviewer_keywords: ["SetLocalTime","SetLocalTime function","_win32_setlocaltime","base.setlocaltime","sysinfoapi/SetLocalTime"]
 old-location: base\setlocaltime.htm
 tech.root: SysInfo
 ms.assetid: c2d2bac7-4171-4b8b-81e8-0e8a1b2794e6

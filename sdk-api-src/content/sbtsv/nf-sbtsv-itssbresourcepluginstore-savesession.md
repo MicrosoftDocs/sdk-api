@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SaveSession
 title: ITsSbResourcePluginStore::SaveSession (sbtsv.h)
-description: Saves a session.
+description: Saves a session.helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","SaveSession method","ITsSbResourcePluginStore.SaveSession","ITsSbResourcePluginStore::SaveSession","ITsSbResourcePluginStoreEx interface [Remote Desktop Services]","SaveSession method","ITsSbResourcePluginStoreEx::SaveSession","SaveSession","SaveSession method [Remote Desktop Services]","SaveSession method [Remote Desktop Services]","ITsSbResourcePluginStore interface","SaveSession method [Remote Desktop Services]","ITsSbResourcePluginStoreEx interface","sbtsv/ITsSbResourcePluginStore::SaveSession","sbtsv/ITsSbResourcePluginStoreEx::SaveSession","termserv.itssbresourcepluginstore_savesession"]
 old-location: termserv\itssbresourcepluginstore_savesession.htm
 tech.root: TermServ
 ms.assetid: a4f29a99-8478-425d-91d7-c771c35bb2fa

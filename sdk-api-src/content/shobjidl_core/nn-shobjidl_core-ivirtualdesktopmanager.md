@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IVirtualDesktopManager
 title: IVirtualDesktopManager (shobjidl_core.h)
-description: Exposes methods that enable an application to interact with groups of windows that form virtual workspaces.
+description: Exposes methods that enable an application to interact with groups of windows that form virtual workspaces.helpviewer_keywords: ["IVirtualDesktopManager","IVirtualDesktopManager interface [Windows Shell]","IVirtualDesktopManager interface [Windows Shell]","described","shell.ivirtualdesktopmanager","shobjidl_core/IVirtualDesktopManager"]
 old-location: shell\ivirtualdesktopmanager.htm
 tech.root: shell
 ms.assetid: B95AC349-63E3-4A5A-A353-1C93486BB67A

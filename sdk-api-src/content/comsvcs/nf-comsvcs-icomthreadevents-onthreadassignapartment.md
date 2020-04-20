@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadAssignApartment
 title: IComThreadEvents::OnThreadAssignApartment (comsvcs.h)
-description: Generated when an activity is assigned to an apartment thread.
+description: Generated when an activity is assigned to an apartment thread.helpviewer_keywords: ["IComThreadEvents interface [COM+]","OnThreadAssignApartment method","IComThreadEvents.OnThreadAssignApartment","IComThreadEvents::OnThreadAssignApartment","OnThreadAssignApartment","OnThreadAssignApartment method [COM+]","OnThreadAssignApartment method [COM+]","IComThreadEvents interface","_dtc_IComThreadEvents_OnThreadAssignApartment","comsvcs/IComThreadEvents::OnThreadAssignApartment","cos.icomthreadevents_onthreadassignapartment"]
 old-location: cos\icomthreadevents_onthreadassignapartment.htm
 tech.root: cossdk
 ms.assetid: 2711b4b9-f27c-42c4-8f78-f31ffba2cfcf

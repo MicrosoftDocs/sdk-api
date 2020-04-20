@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidVideoRendererDevices.Add
 title: IMSVidVideoRendererDevices::Add (segment.h)
-description: The Add method adds a video renderer to the collection.
+description: The Add method adds a video renderer to the collection.helpviewer_keywords: ["Add","Add method [Microsoft TV Technologies]","Add method [Microsoft TV Technologies]","IMSVidVideoRendererDevices interface","IMSVidVideoRendererDevices interface [Microsoft TV Technologies]","Add method","IMSVidVideoRendererDevices.Add","IMSVidVideoRendererDevices::Add","IMSVidVideoRendererDevicesAdd","mstv.imsvidvideorendererdevices_add","segment/IMSVidVideoRendererDevices::Add"]
 old-location: mstv\imsvidvideorendererdevices_add.htm
 tech.root: mstv
 ms.assetid: 650b7895-4e4b-494a-bc06-dafb67fca391

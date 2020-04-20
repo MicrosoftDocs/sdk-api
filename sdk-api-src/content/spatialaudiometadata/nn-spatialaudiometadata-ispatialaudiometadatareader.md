@@ -1,7 +1,7 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataReader
 title: ISpatialAudioMetadataReader (spatialaudiometadata.h)
-description: Provides methods for extracting spatial audio metadata items and item command value pairs from an ISpatialAudioMetadataItems object.
+description: Provides methods for extracting spatial audio metadata items and item command value pairs from an ISpatialAudioMetadataItems object.helpviewer_keywords: ["ISpatialAudioMetadataReader","ISpatialAudioMetadataReader interface [Core Audio]","ISpatialAudioMetadataReader interface [Core Audio]","described","coreaudio.ispatialaudiometadatareader","spatialaudiometadata/ISpatialAudioMetadataReader"]
 old-location: coreaudio\ispatialaudiometadatareader.htm
 tech.root: CoreAudio
 ms.assetid: BD1AD4CE-6E88-4292-AA79-E71FE00C2078

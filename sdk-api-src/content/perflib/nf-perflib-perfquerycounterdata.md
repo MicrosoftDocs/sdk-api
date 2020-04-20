@@ -1,7 +1,7 @@
 ---
 UID: NF:perflib.PerfQueryCounterData
 title: PerfQueryCounterData function (perflib.h)
-description: Gets the values of the performance counters that match the counter specifications in the specified query.
+description: Gets the values of the performance counters that match the counter specifications in the specified query.helpviewer_keywords: ["PerfQueryCounterData","PerfQueryCounterData function [Perf]","perf.perfquerycounterdata","perflib/PerfQueryCounterData"]
 old-location: perf\perfquerycounterdata.htm
 tech.root: perfctrs
 ms.assetid: EBCF00E0-6C40-40E5-9F3D-9AE5F9AB74AC

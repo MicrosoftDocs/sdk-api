@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnInterfaceManager
 title: IMbnInterfaceManager (mbnapi.h)
-description: Provides access to IMbnInterface objects and notifications.
+description: Provides access to IMbnInterface objects and notifications.helpviewer_keywords: ["IMbnInterfaceManager","IMbnInterfaceManager interface [Microsoft Broadband Networks]","IMbnInterfaceManager interface [Microsoft Broadband Networks]","described","mbn.imbninterfacemanager","mbnapi/IMbnInterfaceManager"]
 old-location: mbn\imbninterfacemanager.htm
 tech.root: mbn
 ms.assetid: a998381e-47de-4352-bc84-b6edca2f3fcc

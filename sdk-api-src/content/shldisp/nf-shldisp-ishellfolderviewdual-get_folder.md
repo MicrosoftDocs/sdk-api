@@ -1,7 +1,7 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_Folder
 title: IShellFolderViewDual::get_Folder (shldisp.h)
-description: Gets the Folder object that represents the view.
+description: Gets the Folder object that represents the view.helpviewer_keywords: ["IShellFolderViewDual interface [Windows Shell]","get_Folder method","IShellFolderViewDual.get_Folder","IShellFolderViewDual::get_Folder","_shell_IShellFolderViewDual_get_Folder","get_Folder","get_Folder method [Windows Shell]","get_Folder method [Windows Shell]","IShellFolderViewDual interface","shell.IShellFolderViewDual_get_Folder","shldisp/IShellFolderViewDual::get_Folder"]
 old-location: shell\IShellFolderViewDual_get_Folder.htm
 tech.root: shell
 ms.assetid: 62af6b31-89bf-4965-a739-659f4fd932e3

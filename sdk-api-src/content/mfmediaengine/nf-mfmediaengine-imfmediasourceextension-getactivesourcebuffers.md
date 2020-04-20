@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.GetActiveSourceBuffers
 title: IMFMediaSourceExtension::GetActiveSourceBuffers (mfmediaengine.h)
-description: Gets the source buffers that are actively supplying media data to the media source.
+description: Gets the source buffers that are actively supplying media data to the media source.helpviewer_keywords: ["GetActiveSourceBuffers","GetActiveSourceBuffers method [Media Foundation]","GetActiveSourceBuffers method [Media Foundation]","IMFMediaSourceExtension interface","IMFMediaSourceExtension interface [Media Foundation]","GetActiveSourceBuffers method","IMFMediaSourceExtension.GetActiveSourceBuffers","IMFMediaSourceExtension::GetActiveSourceBuffers","mf.imfmediasourceextension_getactivesourcebuffers","mfmediaengine/IMFMediaSourceExtension::GetActiveSourceBuffers"]
 old-location: mf\imfmediasourceextension_getactivesourcebuffers.htm
 tech.root: medfound
 ms.assetid: 9d4a70cf-7436-4f4a-9a7c-9127e3829ba8

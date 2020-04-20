@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OpenClusterGroupSet
 title: OpenClusterGroupSet function (clusapi.h)
-description: Opens a handle to the specified groupset.
+description: Opens a handle to the specified groupset.helpviewer_keywords: ["OpenClusterGroupSet","OpenClusterGroupSet function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET","PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET function [Failover Cluster]","clusapi/OpenClusterGroupSet","clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET","mscs.openclustergroupcollection"]
 old-location: mscs\openclustergroupcollection.htm
 tech.root: MsCS
 ms.assetid: 8a5b944b-53c2-4437-b580-6ad603d0011a

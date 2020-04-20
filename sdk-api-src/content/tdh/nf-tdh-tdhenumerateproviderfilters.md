@@ -1,7 +1,7 @@
 ---
 UID: NF:tdh.TdhEnumerateProviderFilters
 title: TdhEnumerateProviderFilters function (tdh.h)
-description: Enumerates the filters that the specified provider defined in the manifest.
+description: Enumerates the filters that the specified provider defined in the manifest.helpviewer_keywords: ["TdhEnumerateProviderFilters","TdhEnumerateProviderFilters function [ETW]","etw.tdhenumerateproviderfilters","tdh/TdhEnumerateProviderFilters"]
 old-location: etw\tdhenumerateproviderfilters.htm
 tech.root: ETW
 ms.assetid: bc0f4286-1f6e-4d99-ad84-af8ab5dbba2b

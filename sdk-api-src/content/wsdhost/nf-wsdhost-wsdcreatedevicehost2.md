@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdhost.WSDCreateDeviceHost2
 title: WSDCreateDeviceHost2 function (wsdhost.h)
-description: Creates a device host that can support signed messages and returns a pointer to the IWSDDeviceHost interface.
+description: Creates a device host that can support signed messages and returns a pointer to the IWSDDeviceHost interface.helpviewer_keywords: ["WSDCreateDeviceHost2","WSDCreateDeviceHost2 function","ncd.wsdcreatedevicehost2","wsdhost/WSDCreateDeviceHost2"]
 old-location: ncd\wsdcreatedevicehost2.htm
 tech.root: WsdApi
 ms.assetid: 2d2a78a2-fca6-4f54-9c75-3406a3c8d492

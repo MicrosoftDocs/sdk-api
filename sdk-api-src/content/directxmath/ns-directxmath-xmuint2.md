@@ -1,7 +1,7 @@
 ---
 UID: NS:directxmath.XMUINT2
 title: XMUINT2 (directxmath.h)
-description: A 2D vector where each component is an unsigned integer.
+description: A 2D vector where each component is an unsigned integer.helpviewer_keywords: ["XMUINT2","XMUINT2 structure [DirectX Math Support APIs]","directxmath/XMUINT2","dxmath.xmuint2"]
 old-location: dxmath\xmuint2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUINT2

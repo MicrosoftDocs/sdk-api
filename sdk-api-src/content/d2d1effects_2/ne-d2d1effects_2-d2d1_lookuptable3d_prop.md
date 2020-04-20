@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects_2.D2D1_LOOKUPTABLE3D_PROP
 title: D2D1_LOOKUPTABLE3D_PROP (d2d1effects_2.h)
-description: Identifiers for the properties of the 3D Lookup Table effect.
+description: Identifiers for the properties of the 3D Lookup Table effect.helpviewer_keywords: ["D2D1_LOOKUPTABLE3D_PROP","D2D1_LOOKUPTABLE3D_PROP enumeration [Direct2D]","D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE","D2D1_LOOKUPTABLE3D_PROP_LUT","d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP","d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE","d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP_LUT","direct2d.d2d1_lookuptable3d_prop"]
 old-location: direct2d\d2d1_lookuptable3d_prop.htm
 tech.root: Direct2D
 ms.assetid: A0F866CD-78FE-441E-810E-763347F84323

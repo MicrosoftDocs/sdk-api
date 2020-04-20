@@ -1,7 +1,7 @@
 ---
 UID: NC:cpl.APPLET_PROC
 title: APPLET_PROC (cpl.h)
-description: Serves as the entry point for a Control Panel application. This is a library-defined callback function.
+description: Serves as the entry point for a Control Panel application. This is a library-defined callback function.helpviewer_keywords: ["APPLET_PROC","APPLET_PROC callback","CPlApplet","CPlApplet callback function [Windows Shell]","_win32_CPlApplet","cpl/CPlApplet","shell.CPlApplet"]
 old-location: shell\CPlApplet.htm
 tech.root: shell
 ms.assetid: 23063e34-9d77-4167-83cd-8561accf0a8d

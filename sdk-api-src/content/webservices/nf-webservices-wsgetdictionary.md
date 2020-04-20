@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsGetDictionary
 title: WsGetDictionary function (webservices.h)
-description: Retrieves an XML Dictionary object. The retrieved Dictionary is returned by the dictionary reference parameter.
+description: Retrieves an XML Dictionary object. The retrieved Dictionary is returned by the dictionary reference parameter.helpviewer_keywords: ["WsGetDictionary","WsGetDictionary function [Web Services for Windows]","webservices/WsGetDictionary","wsw.wsgetdictionary"]
 old-location: wsw\wsgetdictionary.htm
 tech.root: wsw
 ms.assetid: 85736dc0-671b-463f-b7ba-458cdd9001fc

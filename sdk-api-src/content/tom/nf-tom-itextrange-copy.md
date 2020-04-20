@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.Copy
 title: ITextRange::Copy (tom.h)
-description: Copies the text to a data object.
+description: Copies the text to a data object.helpviewer_keywords: ["Copy","Copy method [Windows Controls]","Copy method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","Copy method","ITextRange.Copy","ITextRange::Copy","_win32_ITextRange_Copy","_win32_ITextRange_Copy_cpp","controls.ITextRange_Copy","controls._win32_ITextRange_Copy","tom/ITextRange::Copy"]
 old-location: controls\ITextRange_Copy.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\copy.htm

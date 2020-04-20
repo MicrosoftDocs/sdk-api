@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetHelpFile
 title: IErrorInfo::GetHelpFile (oaidl.h)
-description: Returns the path of the Help file that describes the error.
+description: Returns the path of the Help file that describes the error.helpviewer_keywords: ["GetHelpFile","GetHelpFile method [Automation]","GetHelpFile method [Automation]","IErrorInfo interface","IErrorInfo interface [Automation]","GetHelpFile method","IErrorInfo.GetHelpFile","IErrorInfo::GetHelpFile","_oa96_IErrorInfo_GetHelpFile","automat.ierrorinfo_gethelpfile","oaidl/IErrorInfo::GetHelpFile"]
 old-location: automat\ierrorinfo_gethelpfile.htm
 tech.root: automat
 ms.assetid: f8458382-0af7-4a9b-add3-9c99af070be4

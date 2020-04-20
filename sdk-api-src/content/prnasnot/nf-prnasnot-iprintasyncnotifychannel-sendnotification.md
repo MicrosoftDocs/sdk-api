@@ -1,7 +1,7 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyChannel.SendNotification
 title: IPrintAsyncNotifyChannel::SendNotification (prnasnot.h)
-description: Sends a notification from a component that is hosted by the print spooler to one or more listening applications, or sends a response from an application back to a component.
+description: Sends a notification from a component that is hosted by the print spooler to one or more listening applications, or sends a response from an application back to a component.helpviewer_keywords: ["IPrintAsyncNotifyChannel interface [Windows GDI]","SendNotification method","IPrintAsyncNotifyChannel.SendNotification","IPrintAsyncNotifyChannel::SendNotification","SendNotification","SendNotification method [Windows GDI]","SendNotification method [Windows GDI]","IPrintAsyncNotifyChannel interface","_win32_IPrintAsyncNotifyChannel_SendNotification","gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotification","prnasnot/IPrintAsyncNotifyChannel::SendNotification"]
 old-location: gdi\iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotification.htm
 tech.root: printdocs
 ms.assetid: 729286d4-75ee-441e-b63d-fef72d41533a

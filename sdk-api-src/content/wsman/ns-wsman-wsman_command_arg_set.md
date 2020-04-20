@@ -1,7 +1,7 @@
 ---
 UID: NS:wsman._WSMAN_COMMAND_ARG_SET
 title: WSMAN_COMMAND_ARG_SET (wsman.h)
-description: Represents the set of arguments that are passed in to the command line.
+description: Represents the set of arguments that are passed in to the command line.helpviewer_keywords: ["WSMAN_COMMAND_ARG_SET","WSMAN_COMMAND_ARG_SET structure [Windows Remote Management]","winrm.wsman_command_arg_set","wsman/WSMAN_COMMAND_ARG_SET"]
 old-location: winrm\wsman_command_arg_set.htm
 tech.root: winrm
 ms.assetid: 0904851f-e275-445c-b3fa-e5974d037322

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICProgressiveLevelControl.SetCurrentLevel
 title: IWICProgressiveLevelControl::SetCurrentLevel (wincodec.h)
-description: Specifies the level to retrieve on the next call to CopyPixels.
+description: Specifies the level to retrieve on the next call to CopyPixels.helpviewer_keywords: ["IWICProgressiveLevelControl interface [Windows Imaging Component]","SetCurrentLevel method","IWICProgressiveLevelControl.SetCurrentLevel","IWICProgressiveLevelControl::SetCurrentLevel","SetCurrentLevel","SetCurrentLevel method [Windows Imaging Component]","SetCurrentLevel method [Windows Imaging Component]","IWICProgressiveLevelControl interface","_wic_codec_iwicprogressivelevelcontrol_setcurrentlevel","wic._wic_codec_iwicprogressivelevelcontrol_setcurrentlevel","wincodec/IWICProgressiveLevelControl::SetCurrentLevel"]
 old-location: wic\_wic_codec_iwicprogressivelevelcontrol_setcurrentlevel.htm
 tech.root: wic
 ms.assetid: b4a2c279-385d-4177-bd8f-a49f545c692a

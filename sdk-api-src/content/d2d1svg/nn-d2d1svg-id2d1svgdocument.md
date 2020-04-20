@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgDocument
 title: ID2D1SvgDocument (d2d1svg.h)
-description: Represents an SVG document.
+description: Represents an SVG document.helpviewer_keywords: ["ID2D1SvgDocument","ID2D1SvgDocument interface [Direct2D]","ID2D1SvgDocument interface [Direct2D]","described","d2d1svg/ID2D1SvgDocument","direct2d.id2d1svgdocument"]
 old-location: direct2d\id2d1svgdocument.htm
 tech.root: Direct2D
 ms.assetid: 1F570A77-7110-4C71-A7BE-74F2B78CFE96

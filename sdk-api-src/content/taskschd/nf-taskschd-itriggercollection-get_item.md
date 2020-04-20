@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITriggerCollection.get_Item
 title: ITriggerCollection::get_Item (taskschd.h)
-description: Gets the specified trigger from the collection.
+description: Gets the specified trigger from the collection.helpviewer_keywords: ["ITriggerCollection interface [Task Scheduler]","Item property","ITriggerCollection.Item","ITriggerCollection.get_Item","ITriggerCollection::Item","ITriggerCollection::get_Item","Item property [Task Scheduler]","Item property [Task Scheduler]","ITriggerCollection interface","get_Item","taskschd.itriggercollection_item","taskschd/ITriggerCollection::Item","taskschd/ITriggerCollection::get_Item"]
 old-location: taskschd\itriggercollection_item.htm
 tech.root: taskschd
 ms.assetid: 007e5792-bb91-435f-abe9-27366e6ec58a

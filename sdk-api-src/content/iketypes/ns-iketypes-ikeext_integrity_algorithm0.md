@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_INTEGRITY_ALGORITHM0_
 title: IKEEXT_INTEGRITY_ALGORITHM0 (iketypes.h)
-description: Stores the IKE/AuthIP hash algorithm.
+description: Stores the IKE/AuthIP hash algorithm.helpviewer_keywords: ["IKEEXT_INTEGRITY_ALGORITHM0","IKEEXT_INTEGRITY_ALGORITHM0 structure [Filtering]","fwp.ikeext_integrity_algorithm0","iketypes/IKEEXT_INTEGRITY_ALGORITHM0"]
 old-location: fwp\ikeext_integrity_algorithm0.htm
 tech.root: fwp
 ms.assetid: 231d6ed9-ad41-488c-ad8b-ba64ae73f5b9

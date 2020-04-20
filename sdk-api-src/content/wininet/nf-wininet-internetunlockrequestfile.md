@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetUnlockRequestFile
 title: InternetUnlockRequestFile function (wininet.h)
-description: Unlocks a file that was locked using InternetLockRequestFile.
+description: Unlocks a file that was locked using InternetLockRequestFile.helpviewer_keywords: ["InternetUnlockRequestFile","InternetUnlockRequestFile function [WinINet]","_inet_internetunlockrequestfile_function","wininet.internetunlockrequestfile","wininet/InternetUnlockRequestFile"]
 old-location: wininet\internetunlockrequestfile.htm
 tech.root: wininet
 ms.assetid: 356f7277-66ef-450f-ab5a-0303d0b1d807

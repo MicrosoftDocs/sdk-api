@@ -1,7 +1,7 @@
 ---
 UID: NS:winternl._PEB
 title: PEB (winternl.h)
-description: Contains process information.
+description: Contains process information.helpviewer_keywords: ["*PPEB","PEB","PEB structure","PPEB","PPEB structure pointer","base.peb","winternl/PEB","winternl/PPEB"]
 old-location: base\peb.htm
 tech.root: ProcThread
 ms.assetid: 836a6b82-d3e8-4de6-808d-5476dfb51356

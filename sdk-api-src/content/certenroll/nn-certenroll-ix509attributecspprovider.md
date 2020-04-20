@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.IX509AttributeCspProvider
 title: IX509AttributeCspProvider (certenroll.h)
-description: Represents an attribute that identifies the cryptographic provider used by the entity requesting the certificate.
+description: Represents an attribute that identifies the cryptographic provider used by the entity requesting the certificate.helpviewer_keywords: ["IX509AttributeCspProvider","IX509AttributeCspProvider interface [Security]","IX509AttributeCspProvider interface [Security]","described","certenroll/IX509AttributeCspProvider","security.ix509attributecspprovider"]
 old-location: security\ix509attributecspprovider.htm
 tech.root: seccertenroll
 ms.assetid: 08954c87-f63b-4e1a-91b4-3773e392999b

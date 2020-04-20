@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QuerySyntax
 title: ISearchQueryHelper::put_QuerySyntax (searchapi.h)
-description: Sets the syntax of the query.
+description: Sets the syntax of the query.helpviewer_keywords: ["ISearchQueryHelper interface [search]","put_QuerySyntax method","ISearchQueryHelper.put_QuerySyntax","ISearchQueryHelper::put_QuerySyntax","_search_ISearchQueryHelper_put_QuerySyntax","put_QuerySyntax","put_QuerySyntax method [search]","put_QuerySyntax method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_put_QuerySyntax","searchapi/ISearchQueryHelper::put_QuerySyntax"]
 old-location: search\_search_ISearchQueryHelper_put_QuerySyntax.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querysyntax.htm

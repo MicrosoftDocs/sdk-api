@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfProperty.FindRange
 title: ITfProperty::FindRange (msctf.h)
-description: ITfProperty::FindRange method
+description: ITfProperty::FindRange methodhelpviewer_keywords: ["FindRange","FindRange method [Text Services Framework]","FindRange method [Text Services Framework]","ITfProperty interface","ITfProperty interface [Text Services Framework]","FindRange method","ITfProperty.FindRange","ITfProperty::FindRange","_tsf_itfproperty_findrange_ref","msctf/ITfProperty::FindRange","tsf.itfproperty_findrange"]
 old-location: tsf\itfproperty_findrange.htm
 tech.root: TSF
 ms.assetid: 08e9c9c1-768b-406c-96ae-e0776b59344d

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Skip
 title: IEnumFullIDList::Skip (shobjidl_core.h)
-description: Skips a specified number of IDLIST_ABSOLUTE items.
+description: Skips a specified number of IDLIST_ABSOLUTE items.helpviewer_keywords: ["IEnumFullIDList interface [Windows Shell]","Skip method","IEnumFullIDList.Skip","IEnumFullIDList::Skip","Skip","Skip method [Windows Shell]","Skip method [Windows Shell]","IEnumFullIDList interface","_shell_IEnumFullIDList_Skip","shell.IEnumFullIDList_Skip","shobjidl_core/IEnumFullIDList::Skip"]
 old-location: shell\IEnumFullIDList_Skip.htm
 tech.root: shell
 ms.assetid: f47bdab1-57be-4f40-a142-ad5edcf6fbfd

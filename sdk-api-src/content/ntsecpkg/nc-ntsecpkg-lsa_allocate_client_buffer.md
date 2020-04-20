@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.LSA_ALLOCATE_CLIENT_BUFFER
 title: LSA_ALLOCATE_CLIENT_BUFFER (ntsecpkg.h)
-description: Allocates a buffer in the client's address space.
+description: Allocates a buffer in the client's address space.helpviewer_keywords: ["AllocateClientBuffer","AllocateClientBuffer callback function [Security]","LSA_ALLOCATE_CLIENT_BUFFER","LSA_ALLOCATE_CLIENT_BUFFER callback","_lsa_allocateclientbuffer","ntsecpkg/AllocateClientBuffer","security.allocateclientbuffer"]
 old-location: security\allocateclientbuffer.htm
 tech.root: SecAuthN
 ms.assetid: 2a7dfc11-a8ab-4677-ad5c-b2f4b5998efe

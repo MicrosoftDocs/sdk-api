@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1SourceTransform.SetRenderInfo
 title: ID2D1SourceTransform::SetRenderInfo (d2d1effectauthor.h)
-description: Sets the render information for the transform.
+description: Sets the render information for the transform.helpviewer_keywords: ["ID2D1SourceTransform interface [Direct2D]","SetRenderInfo method","ID2D1SourceTransform.SetRenderInfo","ID2D1SourceTransform::SetRenderInfo","SetRenderInfo","SetRenderInfo method [Direct2D]","SetRenderInfo method [Direct2D]","ID2D1SourceTransform interface","d2d1effectauthor/ID2D1SourceTransform::SetRenderInfo","direct2d.id2d1sourcetransform_setrenderinfo"]
 old-location: direct2d\id2d1sourcetransform_setrenderinfo.htm
 tech.root: Direct2D
 ms.assetid: 7082A748-E1DF-4805-BBB5-9EF50841B36D

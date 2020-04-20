@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE
 title: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE (webservices.h)
-description: The security binding template for specifying the use of HTP header authentication protocol based security.
+description: The security binding template for specifying the use of HTP header authentication protocol based security.helpviewer_keywords: ["WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE","WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows]","webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE","wsw.ws_http_header_auth_security_binding_template"]
 old-location: wsw\ws_http_header_auth_security_binding_template.htm
 tech.root: wsw
 ms.assetid: 4eabe380-de6d-48e3-bdad-dbf593a9850a

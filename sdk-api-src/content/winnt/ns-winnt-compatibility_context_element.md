@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._COMPATIBILITY_CONTEXT_ELEMENT
 title: COMPATIBILITY_CONTEXT_ELEMENT (winnt.h)
-description: The COMPATIBILITY_CONTEXT_ELEMENT structure is used by the QueryActCtxW function as part of the ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure.
+description: The COMPATIBILITY_CONTEXT_ELEMENT structure is used by the QueryActCtxW function as part of the ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure.helpviewer_keywords: ["*PCOMPATIBILITY_CONTEXT_ELEMENT","COMPATIBILITY_CONTEXT_ELEMENT","COMPATIBILITY_CONTEXT_ELEMENT structure [Setup API]","PCOMPATIBILITY_CONTEXT_ELEMENT","PCOMPATIBILITY_CONTEXT_ELEMENT structure pointer [Setup API]","_COMPATIBILITY_CONTEXT_ELEMENT","setup.compatibility_context_element","winnt/COMPATIBILITY_CONTEXT_ELEMENT","winnt/PCOMPATIBILITY_CONTEXT_ELEMENT"]
 old-location: setup\compatibility_context_element.htm
 tech.root: SbsCs
 ms.assetid: 3e654f44-43f6-4282-b277-14ed6e25abf2

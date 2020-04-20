@@ -1,7 +1,7 @@
 ---
 UID: NS:tcpmib._MIB_TCPSTATS2
 title: MIB_TCPSTATS2 (tcpmib.h)
-description: Contains statistics for the TCP protocol running on the local computer.
+description: Contains statistics for the TCP protocol running on the local computer.helpviewer_keywords: ["*PMIB_TCPSTATS2","MIB_TCPSTATS2","MIB_TCPSTATS2 structure [MIB]","MIB_TCP_RTO_CONSTANT","MIB_TCP_RTO_OTHER","MIB_TCP_RTO_RSRE","MIB_TCP_RTO_VANJ","PMIB_TCPSTATS2","PMIB_TCPSTATS2 structure pointer [MIB]","mib.mib_tcpstats2","tcpmib/MIB_TCPSTATS2","tcpmib/PMIB_TCPSTATS2"]
 old-location: mib\mib_tcpstats2.htm
 tech.root: MIB
 ms.assetid: A32AA866-406B-4BE0-A4F1-5EBC9DFD646D

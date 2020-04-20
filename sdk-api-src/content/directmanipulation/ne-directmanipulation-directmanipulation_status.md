@@ -1,7 +1,7 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_STATUS
 title: DIRECTMANIPULATION_STATUS (directmanipulation.h)
-description: Defines the possible states of Direct Manipulation.
+description: Defines the possible states of Direct Manipulation.helpviewer_keywords: ["DIRECTMANIPULATION_BUILDING","DIRECTMANIPULATION_DISABLED","DIRECTMANIPULATION_ENABLED","DIRECTMANIPULATION_INERTIA","DIRECTMANIPULATION_READY","DIRECTMANIPULATION_RUNNING","DIRECTMANIPULATION_STATUS","DIRECTMANIPULATION_STATUS enumeration [Direct Manipulation]","DIRECTMANIPULATION_SUSPENDED","directmanipulation.directmanipulation_status","directmanipulation/DIRECTMANIPULATION_BUILDING","directmanipulation/DIRECTMANIPULATION_DISABLED","directmanipulation/DIRECTMANIPULATION_ENABLED","directmanipulation/DIRECTMANIPULATION_INERTIA","directmanipulation/DIRECTMANIPULATION_READY","directmanipulation/DIRECTMANIPULATION_RUNNING","directmanipulation/DIRECTMANIPULATION_STATUS","directmanipulation/DIRECTMANIPULATION_SUSPENDED"]
 old-location: directmanipulation\directmanipulation_status.htm
 tech.root: directmanipulation
 ms.assetid: 6120702f-56f0-489d-a3b2-5f6ecac82b5e

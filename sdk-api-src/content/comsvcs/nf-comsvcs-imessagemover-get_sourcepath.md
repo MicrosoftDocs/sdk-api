@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IMessageMover.get_SourcePath
 title: IMessageMover::get_SourcePath (comsvcs.h)
-description: Retrieves the current path of the source (input) queue.
+description: Retrieves the current path of the source (input) queue.helpviewer_keywords: ["IMessageMover interface [COM+]","get_SourcePath method","IMessageMover.get_SourcePath","IMessageMover::get_SourcePath","comsvcs/IMessageMover::get_SourcePath","cos.imessagemover_get_sourcepath","get_SourcePath","get_SourcePath method [COM+]","get_SourcePath method [COM+]","IMessageMover interface"]
 old-location: cos\imessagemover_get_sourcepath.htm
 tech.root: cossdk
 ms.assetid: 41fd8a17-1c9d-484c-b0f4-69f232214e48

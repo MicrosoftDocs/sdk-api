@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPathname.CopyPath
 title: IADsPathname::CopyPath (iads.h)
-description: Creates a copy of the Pathname object.
+description: Creates a copy of the Pathname object.helpviewer_keywords: ["CopyPath","CopyPath method [ADSI]","CopyPath method [ADSI]","IADsPathname interface","IADsPathname interface [ADSI]","CopyPath method","IADsPathname.CopyPath","IADsPathname::CopyPath","_ds_iadspathname_copypath","adsi.iadspathname__copypath","adsi.iadspathname_copypath","iads/IADsPathname::CopyPath"]
 old-location: adsi\iadspathname_copypath.htm
 tech.root: adsi
 ms.assetid: 00c4a0b8-4961-4ceb-86fe-5cdc4e0a45c0

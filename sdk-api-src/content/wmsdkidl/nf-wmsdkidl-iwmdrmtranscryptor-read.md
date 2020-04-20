@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMDRMTranscryptor.Read
 title: IWMDRMTranscryptor::Read (wmsdkidl.h)
-description: The Read method reads data from the file loaded in the transcryptor and encrypts it for streaming to devices that support Windows Media DRM 10 for Network Devices.
+description: The Read method reads data from the file loaded in the transcryptor and encrypts it for streaming to devices that support Windows Media DRM 10 for Network Devices.helpviewer_keywords: ["IWMDRMTranscryptor interface [windows Media Format]","Read method","IWMDRMTranscryptor.Read","IWMDRMTranscryptor::Read","IWMDRMTranscryptorRead","Read","Read method [windows Media Format]","Read method [windows Media Format]","IWMDRMTranscryptor interface","wmformat.iwmdrmtranscryptor_read","wmsdkidl/IWMDRMTranscryptor::Read"]
 old-location: wmformat\iwmdrmtranscryptor_read.htm
 tech.root: wmformat
 ms.assetid: 55b1c73a-5c00-4e16-b0fe-2352ce09bffc

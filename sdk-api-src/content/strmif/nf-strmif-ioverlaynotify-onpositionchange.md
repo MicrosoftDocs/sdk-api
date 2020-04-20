@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnPositionChange
 title: IOverlayNotify::OnPositionChange (strmif.h)
-description: The OnPositionChange method provides notification that the position has changed.
+description: The OnPositionChange method provides notification that the position has changed.helpviewer_keywords: ["IOverlayNotify interface [DirectShow]","OnPositionChange method","IOverlayNotify.OnPositionChange","IOverlayNotify::OnPositionChange","IOverlayNotifyOnPositionChange","OnPositionChange","OnPositionChange method [DirectShow]","OnPositionChange method [DirectShow]","IOverlayNotify interface","dshow.ioverlaynotify_onpositionchange","strmif/IOverlayNotify::OnPositionChange"]
 old-location: dshow\ioverlaynotify_onpositionchange.htm
 tech.root: DirectShow
 ms.assetid: a5d110a6-5056-4fc1-9589-c2cc66566322

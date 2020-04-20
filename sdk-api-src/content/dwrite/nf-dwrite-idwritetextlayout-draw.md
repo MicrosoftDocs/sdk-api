@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.Draw
 title: IDWriteTextLayout::Draw (dwrite.h)
-description: Draws text using the specified client drawing context.
+description: Draws text using the specified client drawing context.helpviewer_keywords: ["Draw","Draw method [Direct Write]","Draw method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","Draw method","IDWriteTextLayout.Draw","IDWriteTextLayout::Draw","directwrite.IDWriteTextLayout_Draw","dwrite/IDWriteTextLayout::Draw"]
 old-location: directwrite\IDWriteTextLayout_Draw.htm
 tech.root: DirectWrite
 ms.assetid: 8d92a7c3-4804-47f6-bfca-5322be119cbb

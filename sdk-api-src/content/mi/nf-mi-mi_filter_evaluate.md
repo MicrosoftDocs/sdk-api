@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Filter_Evaluate
 title: MI_Filter_Evaluate function (mi.h)
-description: The provider calls this function to evaluate an instance against a given filter.
+description: The provider calls this function to evaluate an instance against a given filter.helpviewer_keywords: ["MI_Filter_Evaluate","MI_Filter_Evaluate function [Windows Management Infrastructure (MI)]","mi/MI_Filter_Evaluate","wmi_v2.mi_filter_evaluate"]
 old-location: wmi_v2\mi_filter_evaluate.htm
 tech.root: wmi_v2
 ms.assetid: b826f02d-3764-4f61-996f-42bf01ea44e2

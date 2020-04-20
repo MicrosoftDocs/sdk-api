@@ -1,7 +1,7 @@
 ---
 UID: NS:mbnapi.MBN_PROVIDER
 title: MBN_PROVIDER (mbnapi.h)
-description: The MBN_PROVIDER structure represents a network service provider.
+description: The MBN_PROVIDER structure represents a network service provider.helpviewer_keywords: ["MBN_PROVIDER","MBN_PROVIDER structure [Microsoft Broadband Networks]","mbn.mbn_provider","mbnapi/MBN_PROVIDER"]
 old-location: mbn\mbn_provider.htm
 tech.root: mbn
 ms.assetid: f4a02ca2-6be4-4843-a657-5d5dde8be623

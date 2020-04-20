@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.FindFirst
 title: IUIAutomationElement::FindFirst (uiautomationclient.h)
-description: Retrieves the first child or descendant element that matches the specified condition.
+description: Retrieves the first child or descendant element that matches the specified condition.helpviewer_keywords: ["FindFirst","FindFirst method [Windows Accessibility]","FindFirst method [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","FindFirst method","IUIAutomationElement.FindFirst","IUIAutomationElement::FindFirst","uiauto.uiauto_IUIAutomationElement_FindFirst","uiauto_IUIAutomationElement_FindFirst","uiautomationclient/IUIAutomationElement::FindFirst","winauto.uiauto_IUIAutomationElement_FindFirst"]
 old-location: winauto\uiauto_IUIAutomationElement_FindFirst.htm
 tech.root: WinAuto
 ms.assetid: 84098431-46e8-49bd-a258-337ad1d68f91

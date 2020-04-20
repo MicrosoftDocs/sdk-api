@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetClampOutput
 title: IDCompositionTableTransferEffect::SetClampOutput (dcomp.h)
-description: Specifies whether the effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph.
+description: Specifies whether the effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph.helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetClampOutput method","IDCompositionTableTransferEffect.SetClampOutput","IDCompositionTableTransferEffect::SetClampOutput","SetClampOutput","SetClampOutput method [DirectComposition]","SetClampOutput method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetClampOutput","directcomp.idcompositiontabletransfereffect_setclampoutput"]
 old-location: directcomp\idcompositiontabletransfereffect_setclampoutput.htm
 tech.root: directcomp
 ms.assetid: 6F1A7757-92DA-4BDC-9894-7A8906461FD5

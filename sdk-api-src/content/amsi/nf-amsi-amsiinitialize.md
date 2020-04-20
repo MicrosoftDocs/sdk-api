@@ -1,7 +1,7 @@
 ---
 UID: NF:amsi.AmsiInitialize
 title: AmsiInitialize function (amsi.h)
-description: Initialize the AMSI API.
+description: Initialize the AMSI API.helpviewer_keywords: ["AmsiInitialize","AmsiInitialize function [Antimalware Scan Interface]","amsi.amsiinitialize","amsi/AmsiInitialize"]
 old-location: amsi\amsiinitialize.htm
 tech.root: AMSI
 ms.assetid: 946FC79C-556C-404E-A559-323AA69B3EC6

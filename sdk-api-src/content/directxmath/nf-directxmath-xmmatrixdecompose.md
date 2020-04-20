@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixDecompose
 title: XMMatrixDecompose function (directxmath.h)
-description: Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.
+description: Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.helpviewer_keywords: ["Use DirectX..XMMatrixDecompose","XMMatrixDecompose","XMMatrixDecompose method [DirectX Math Support APIs]","dxmath.xmmatrixdecompose"]
 old-location: dxmath\xmmatrixdecompose.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixDecompose(XMVECTOR@,XMVECTOR@,XMVECTOR@,XMMATRIX )

@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SERVICE_METADATA
 title: WS_SERVICE_METADATA (webservices.h)
-description: Specifies the service metadata documents array. This can be a collection of WSDL/XSD documents represented as an array of WS_STRING.
+description: Specifies the service metadata documents array. This can be a collection of WSDL/XSD documents represented as an array of WS_STRING.helpviewer_keywords: ["WS_SERVICE_METADATA","WS_SERVICE_METADATA structure [Web Services for Windows]","webservices/WS_SERVICE_METADATA","wsw.ws_service_metadata"]
 old-location: wsw\ws_service_metadata.htm
 tech.root: wsw
 ms.assetid: f695867d-989d-41a9-ab6e-612a6ef4fb14

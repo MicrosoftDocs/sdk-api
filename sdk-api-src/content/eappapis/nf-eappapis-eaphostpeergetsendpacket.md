@@ -1,7 +1,7 @@
 ---
 UID: NF:eappapis.EapHostPeerGetSendPacket
 title: EapHostPeerGetSendPacket function (eappapis.h)
-description: Is called by the supplicant when the supplicant needs to obtains a packet from EAPHost to send to the authenticator.
+description: Is called by the supplicant when the supplicant needs to obtains a packet from EAPHost to send to the authenticator.helpviewer_keywords: ["EapHostPeerGetSendPacket","EapHostPeerGetSendPacket function [EAPHost]","eaphost.eaphostpeergetsendpacket","eappapis/EapHostPeerGetSendPacket"]
 old-location: eaphost\eaphostpeergetsendpacket.htm
 tech.root: eaphost
 ms.assetid: 22e17496-e381-415e-8da0-88aad37d0d21

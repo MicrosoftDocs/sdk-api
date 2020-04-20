@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluseffects.ColorCurve.SetParameters
 title: ColorCurve::SetParameters (gdipluseffects.h)
-description: The ColorCurve::SetParameters method sets the parameters of this ColorCurve object.
+description: The ColorCurve::SetParameters method sets the parameters of this ColorCurve object.helpviewer_keywords: ["ColorCurve class [GDI+]","SetParameters method","ColorCurve.SetParameters","ColorCurve::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","ColorCurve class","_gdiplus_CLASS_ColorCurve_SetParameters_","gdiplus._gdiplus_CLASS_ColorCurve_SetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_ColorCurve_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurveclass\colorcurvemethods\setparameters.htm

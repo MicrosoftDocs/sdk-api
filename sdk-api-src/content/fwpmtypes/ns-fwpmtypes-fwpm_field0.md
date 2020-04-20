@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_FIELD0_
 title: FWPM_FIELD0 (fwpmtypes.h)
-description: Specifies schema information for a field.
+description: Specifies schema information for a field.helpviewer_keywords: ["FWPM_FIELD0","FWPM_FIELD0 structure [Filtering]","FWPM_FIELD0_","fwp.fwpm_field0_struct","fwpmtypes/FWPM_FIELD0"]
 old-location: fwp\fwpm_field0_struct.htm
 tech.root: fwp
 ms.assetid: 30d68d48-156e-440b-8607-8b64cfa25049

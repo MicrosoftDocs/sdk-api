@@ -1,7 +1,7 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.RemoveByID
 title: ISensorCollection::RemoveByID (sensorsapi.h)
-description: Removes a sensor from the collection. The sensor to be removed is specified by its ID.
+description: Removes a sensor from the collection. The sensor to be removed is specified by its ID.helpviewer_keywords: ["ISensorCollection interface","RemoveByID method","ISensorCollection.RemoveByID","ISensorCollection::RemoveByID","RemoveByID","RemoveByID method","RemoveByID method","ISensorCollection interface","sensorsapi/ISensorCollection::RemoveByID","winsensors_com_ref.isensorcollection_removebyid"]
 old-location: winsensors_com_ref\isensorcollection_removebyid.htm
 tech.root: SensorsAPI
 ms.assetid: 933ea072-d62c-4274-a2c0-69282ecb79d2

@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Plugin
 title: ITsSbTaskInfo::get_Plugin (sbtsv.h)
-description: Retrieves the display name of the task agent.
+description: Retrieves the display name of the task agent.helpviewer_keywords: ["ITsSbTaskInfo interface [Remote Desktop Services]","Plugin property","ITsSbTaskInfo.Plugin","ITsSbTaskInfo.get_Plugin","ITsSbTaskInfo::Plugin","ITsSbTaskInfo::get_Plugin","Plugin property [Remote Desktop Services]","Plugin property [Remote Desktop Services]","ITsSbTaskInfo interface","get_Plugin","sbtsv/ITsSbTaskInfo::Plugin","sbtsv/ITsSbTaskInfo::get_Plugin","termserv.itssbtaskinfo_plugin"]
 old-location: termserv\itssbtaskinfo_plugin.htm
 tech.root: TermServ
 ms.assetid: 1302377f-08db-413a-9f6c-ab9c974cf760

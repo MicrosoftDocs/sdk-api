@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI4FromR4
 title: VarUI4FromR4 function (oleauto.h)
-description: Converts a float value to an unsigned long value.
+description: Converts a float value to an unsigned long value.helpviewer_keywords: ["VarUI4FromR4","VarUI4FromR4 function [Automation]","_oa96_VarUI4FromR4","automat.varui4fromr4","oleauto/VarUI4FromR4"]
 old-location: automat\varui4fromr4.htm
 tech.root: automat
 ms.assetid: add06d80-46ab-48d8-b85e-146c875c54d1

@@ -1,7 +1,7 @@
 ---
 UID: NF:richole.IRichEditOleCallback.ContextSensitiveHelp
 title: IRichEditOleCallback::ContextSensitiveHelp (richole.h)
-description: Indicates if the application should transition into or out of context-sensitive help mode. This method should implement the functionality described for IOleWindow::ContextSensitiveHelp.
+description: Indicates if the application should transition into or out of context-sensitive help mode. This method should implement the functionality described for IOleWindow::ContextSensitiveHelp.helpviewer_keywords: ["ContextSensitiveHelp","ContextSensitiveHelp method [Windows Controls]","ContextSensitiveHelp method [Windows Controls]","IRichEditOleCallback interface","IRichEditOleCallback interface [Windows Controls]","ContextSensitiveHelp method","IRichEditOleCallback.ContextSensitiveHelp","IRichEditOleCallback::ContextSensitiveHelp","_win32_IRichEditOleCallback_ContextSensitiveHelp","_win32_IRichEditOleCallback_ContextSensitiveHelp_cpp","controls.IRichEditOleCallback_ContextSensitiveHelp","controls._win32_IRichEditOleCallback_ContextSensitiveHelp","richole/IRichEditOleCallback::ContextSensitiveHelp"]
 old-location: controls\IRichEditOleCallback_ContextSensitiveHelp.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackcontextsensitivehelp.htm

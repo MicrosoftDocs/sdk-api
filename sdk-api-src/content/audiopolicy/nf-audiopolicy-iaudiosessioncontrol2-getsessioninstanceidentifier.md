@@ -1,7 +1,7 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl2.GetSessionInstanceIdentifier
 title: IAudioSessionControl2::GetSessionInstanceIdentifier (audiopolicy.h)
-description: The GetSessionInstanceIdentifier method retrieves the identifier of the audio session instance.
+description: The GetSessionInstanceIdentifier method retrieves the identifier of the audio session instance.helpviewer_keywords: ["GetSessionInstanceIdentifier","GetSessionInstanceIdentifier method [Core Audio]","GetSessionInstanceIdentifier method [Core Audio]","IAudioSessionControl2 interface","IAudioSessionControl2 interface [Core Audio]","GetSessionInstanceIdentifier method","IAudioSessionControl2.GetSessionInstanceIdentifier","IAudioSessionControl2::GetSessionInstanceIdentifier","audiopolicy/IAudioSessionControl2::GetSessionInstanceIdentifier","coreaudio.iaudiosessioncontrol2_getsessioninstanceidentifier"]
 old-location: coreaudio\iaudiosessioncontrol2_getsessioninstanceidentifier.htm
 tech.root: CoreAudio
 ms.assetid: 02350812-7f05-400e-87f7-1d912a23050d

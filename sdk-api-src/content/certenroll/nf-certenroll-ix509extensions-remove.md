@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Extensions.Remove
 title: IX509Extensions::Remove (certenroll.h)
-description: Removes an IX509Extension object from the collection by index number.
+description: Removes an IX509Extension object from the collection by index number.helpviewer_keywords: ["IX509Extensions interface [Security]","Remove method","IX509Extensions.Remove","IX509Extensions::Remove","Remove","Remove method [Security]","Remove method [Security]","IX509Extensions interface","certenroll/IX509Extensions::Remove","security.ix509extensions_remove_method"]
 old-location: security\ix509extensions_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: da1fcad3-7351-4d26-b483-a6548c3bdbec

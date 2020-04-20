@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
 title: KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST (ntsecapi.h)
-description: Allows the user to bind to a specific domain controller (DC), overriding the Kerberos domain binding cache.
+description: Allows the user to bind to a specific domain controller (DC), overriding the Kerberos domain binding cache.helpviewer_keywords: ["*PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST","DS_INET_ADDRESS","DS_NETBIOS_ADDRESS","KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST","KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST structure [Security]","PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST","PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST structure pointer [Security]","ntsecapi/KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST","ntsecapi/PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST","security.kerb_add_binding_cache_entry_ex_request"]
 old-location: security\kerb_add_binding_cache_entry_ex_request.htm
 tech.root: SecAuthN
 ms.assetid: B1E58228-59B3-471D-A90C-DAAC17BA7937

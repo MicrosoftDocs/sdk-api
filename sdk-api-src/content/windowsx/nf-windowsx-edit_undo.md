@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.Edit_Undo
 title: Edit_Undo macro (windowsx.h)
-description: Undoes the last operation in the undo queue of an edit or rich edit control. You can use this macro or send the EM_UNDO message explicitly.
+description: Undoes the last operation in the undo queue of an edit or rich edit control. You can use this macro or send the EM_UNDO message explicitly.helpviewer_keywords: ["Edit_Undo","Edit_Undo macro [Windows Controls]","_win32_Edit_Undo","_win32_Edit_Undo_cpp","controls.Edit_Undo","controls._win32_Edit_Undo","windowsx/Edit_Undo"]
 old-location: controls\Edit_Undo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_undo.htm

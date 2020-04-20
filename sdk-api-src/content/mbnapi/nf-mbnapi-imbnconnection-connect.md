@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnConnection.Connect
 title: IMbnConnection::Connect (mbnapi.h)
-description: Establishes a data connection.
+description: Establishes a data connection.helpviewer_keywords: ["Connect","Connect method [Microsoft Broadband Networks]","Connect method [Microsoft Broadband Networks]","IMbnConnection interface","IMbnConnection interface [Microsoft Broadband Networks]","Connect method","IMbnConnection.Connect","IMbnConnection::Connect","mbn.imbnconnection_connect","mbnapi/IMbnConnection::Connect"]
 old-location: mbn\imbnconnection_connect.htm
 tech.root: mbn
 ms.assetid: 66acb84e-8e0f-4ff1-abc4-b32f782ce9f3

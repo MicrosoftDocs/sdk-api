@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilVerifyPrivatePropertyList
 title: ResUtilVerifyPrivatePropertyList function (resapi.h)
-description: Verifies that a property list is correctly formatted.
+description: Verifies that a property list is correctly formatted.helpviewer_keywords: ["PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST","PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST function [Failover Cluster]","ResUtilVerifyPrivatePropertyList","ResUtilVerifyPrivatePropertyList function [Failover Cluster]","_wolf_resutilverifyprivatepropertylist","mscs.resutilverifyprivatepropertylist","resapi/PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST","resapi/ResUtilVerifyPrivatePropertyList"]
 old-location: mscs\resutilverifyprivatepropertylist.htm
 tech.root: MsCS
 ms.assetid: 3d2eaa83-dd82-4023-8466-0131f7b90abc

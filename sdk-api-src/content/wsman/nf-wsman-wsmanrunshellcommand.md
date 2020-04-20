@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManRunShellCommand
 title: WSManRunShellCommand function (wsman.h)
-description: Starts the execution of a command within an existing shell and does not wait for the completion of the command.
+description: Starts the execution of a command within an existing shell and does not wait for the completion of the command.helpviewer_keywords: ["WSManRunShellCommand","WSManRunShellCommand function [Windows Remote Management]","winrm.wsmanrunshellcommand","wsman/WSManRunShellCommand"]
 old-location: winrm\wsmanrunshellcommand.htm
 tech.root: winrm
 ms.assetid: 8f5c89f8-418c-4a4d-9a52-0fc01ec636b2

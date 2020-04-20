@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.ResolveSubresource
 title: ID3D11DeviceContext::ResolveSubresource (d3d11.h)
-description: Copy a multisampled resource into a non-multisampled resource.
+description: Copy a multisampled resource into a non-multisampled resource.helpviewer_keywords: ["9790b3fd-189f-fe3d-b1be-96c2ba68f3f3","ID3D11DeviceContext interface [Direct3D 11]","ResolveSubresource method","ID3D11DeviceContext.ResolveSubresource","ID3D11DeviceContext::ResolveSubresource","ResolveSubresource","ResolveSubresource method [Direct3D 11]","ResolveSubresource method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::ResolveSubresource","direct3d11.id3d11devicecontext_resolvesubresource"]
 old-location: direct3d11\id3d11devicecontext_resolvesubresource.htm
 tech.root: direct3d11
 ms.assetid: 7b4d6180-e3bf-475a-9865-592cda6e9f4a

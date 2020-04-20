@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxAccountNotify
 title: IFaxAccountNotify (faxcomex.h)
-description: Called by the fax service to send event notifications about particular fax accounts. This property sends event notifications. Events include changes to incoming and outgoing job queues, and changes to incoming and outgoing archives.
+description: Called by the fax service to send event notifications about particular fax accounts. This property sends event notifications. Events include changes to incoming and outgoing job queues, and changes to incoming and outgoing archives.helpviewer_keywords: ["IFaxAccountNotify","IFaxAccountNotify interface [Fax Service]","IFaxAccountNotify interface [Fax Service]","described","IIFaxAccountNotify","_IFaxAccountNotify","_mfax_ifaxaccountnotify","fax._mfax_ifaxaccountnotify","faxcomex/_IFaxAccountNotify"]
 old-location: fax\_mfax_ifaxaccountnotify.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\faxinto_z_ifaxaccountnotify.htm

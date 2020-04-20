@@ -1,7 +1,7 @@
 ---
 UID: NN:msopc.IOpcSignatureReference
 title: IOpcSignatureReference (msopc.h)
-description: Represents a reference to XML markup that has been or will be signed.
+description: Represents a reference to XML markup that has been or will be signed.helpviewer_keywords: ["IOpcSignatureReference","IOpcSignatureReference interface [Open Packaging Conventions]","IOpcSignatureReference interface [Open Packaging Conventions]","described","msopc/IOpcSignatureReference","opc.iopcsignaturereference"]
 old-location: opc\iopcsignaturereference.htm
 tech.root: OPC
 ms.assetid: 2ce40bc7-754a-4f69-9348-75603e2257a4

@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.ExtEscape
 title: ExtEscape function (wingdi.h)
-description: The ExtEscape function enables an application to access device capabilities that are not available through GDI.
+description: The ExtEscape function enables an application to access device capabilities that are not available through GDI.helpviewer_keywords: ["CHECKJPEGFORMAT","CHECKPNGFORMAT","DRAWPATTERNRECT","ExtEscape","ExtEscape function [Windows GDI]","GETTECHNOLOGY","GET_PS_FEATURESETTING","PASSTHROUGH","POSTSCRIPT_DATA","POSTSCRIPT_IDENTIFY","POSTSCRIPT_INJECTION","POSTSCRIPT_PASSTHROUGH","QUERYESCSUPPORT","SPCLPASSTHROUGH2","_win32_ExtEscape","gdi.extescape","wingdi/ExtEscape"]
 old-location: gdi\extescape.htm
 tech.root: printdocs
 ms.assetid: 5ca74f61-75dd-4a8c-9f0f-9c1b4719c75f

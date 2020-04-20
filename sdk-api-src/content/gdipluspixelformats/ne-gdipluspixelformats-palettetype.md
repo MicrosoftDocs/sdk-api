@@ -1,7 +1,7 @@
 ---
 UID: NE:gdipluspixelformats.PaletteType
 title: PaletteType (gdipluspixelformats.h)
-description: The PaletteType enumeration is used by the Bitmap::InitializePalette and Bitmap::ConvertFormat methods of the Bitmap class. The members of the enumeration identify several standard color palette formats.
+description: The PaletteType enumeration is used by the Bitmap::InitializePalette and Bitmap::ConvertFormat methods of the Bitmap class. The members of the enumeration identify several standard color palette formats.helpviewer_keywords: ["PaletteType","PaletteType enumeration [GDI+]","PaletteTypeCustom","PaletteTypeFixedBW","PaletteTypeFixedHalftone125","PaletteTypeFixedHalftone216","PaletteTypeFixedHalftone252","PaletteTypeFixedHalftone256","PaletteTypeFixedHalftone27","PaletteTypeFixedHalftone64","PaletteTypeFixedHalftone8","PaletteTypeOptimal","_gdiplus_ENUM_PaletteType","gdiplus._gdiplus_ENUM_PaletteType","gdipluspixelformats/PaletteType","gdipluspixelformats/PaletteTypeCustom","gdipluspixelformats/PaletteTypeFixedBW","gdipluspixelformats/PaletteTypeFixedHalftone125","gdipluspixelformats/PaletteTypeFixedHalftone216","gdipluspixelformats/PaletteTypeFixedHalftone252","gdipluspixelformats/PaletteTypeFixedHalftone256","gdipluspixelformats/PaletteTypeFixedHalftone27","gdipluspixelformats/PaletteTypeFixedHalftone64","gdipluspixelformats/PaletteTypeFixedHalftone8","gdipluspixelformats/PaletteTypeOptimal"]
 old-location: gdiplus\_gdiplus_ENUM_PaletteType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\palettetype.htm

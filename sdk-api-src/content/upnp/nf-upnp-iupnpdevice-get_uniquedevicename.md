@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_UniqueDeviceName
 title: IUPnPDevice::get_UniqueDeviceName (upnp.h)
-description: The UniqueDeviceName property specifies the unique device name (UDN) of the device. A UDN is unique; no two devices can have the same UDN.
+description: The UniqueDeviceName property specifies the unique device name (UDN) of the device. A UDN is unique; no two devices can have the same UDN.helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_UniqueDeviceName method","IUPnPDevice.get_UniqueDeviceName","IUPnPDevice::get_UniqueDeviceName","_upnp_iupnpdevice_uniquedevicename","get_UniqueDeviceName","get_UniqueDeviceName method [UPnP APIs]","get_UniqueDeviceName method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_uniquedevicename","upnp/IUPnPDevice::get_UniqueDeviceName"]
 old-location: upnp\iupnpdevice_uniquedevicename.htm
 tech.root: upnp
 ms.assetid: ca644bd3-6580-44da-87f5-11d543814043

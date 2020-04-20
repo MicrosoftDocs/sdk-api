@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback.OnReadSample
 title: IMFSourceReaderCallback::OnReadSample (mfreadwrite.h)
-description: Called when the IMFSourceReader::ReadSample method completes.
+description: Called when the IMFSourceReader::ReadSample method completes.helpviewer_keywords: ["IMFSourceReaderCallback interface [Media Foundation]","OnReadSample method","IMFSourceReaderCallback.OnReadSample","IMFSourceReaderCallback::OnReadSample","OnReadSample","OnReadSample method [Media Foundation]","OnReadSample method [Media Foundation]","IMFSourceReaderCallback interface","mf.imfsourcereadercallback_onreadsample","mfreadwrite/IMFSourceReaderCallback::OnReadSample"]
 old-location: mf\imfsourcereadercallback_onreadsample.htm
 tech.root: medfound
 ms.assetid: 1f334b49-d297-478d-a037-2fc53a75ed52

@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2fs.DFileSystemImageEvents
 title: DFileSystemImageEvents (imapi2fs.h)
-description: Implement this interface to receive notifications of the current write operation.
+description: Implement this interface to receive notifications of the current write operation.helpviewer_keywords: ["DFileSystemImageEvents","DFileSystemImageEvents interface [IMAPI]","DFileSystemImageEvents interface [IMAPI]","described","imapi.dfilesystemimageevents","imapi2fs/DFileSystemImageEvents"]
 old-location: imapi\dfilesystemimageevents.htm
 tech.root: imapi
 ms.assetid: cff27ceb-d14a-48c2-941e-d27d6505e2c5

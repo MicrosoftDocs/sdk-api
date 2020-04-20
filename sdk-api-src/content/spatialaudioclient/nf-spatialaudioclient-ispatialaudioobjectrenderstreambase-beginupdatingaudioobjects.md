@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.BeginUpdatingAudioObjects
 title: ISpatialAudioObjectRenderStreamBase::BeginUpdatingAudioObjects (spatialaudioclient.h)
-description: Puts the system into the state where audio object data can be submitted for processing and the ISpatialAudioObject state can be modified.
+description: Puts the system into the state where audio object data can be submitted for processing and the ISpatialAudioObject state can be modified.helpviewer_keywords: ["BeginUpdatingAudioObjects","BeginUpdatingAudioObjects method [Core Audio]","BeginUpdatingAudioObjects method [Core Audio]","ISpatialAudioObjectRenderStreamBase interface","ISpatialAudioObjectRenderStreamBase interface [Core Audio]","BeginUpdatingAudioObjects method","ISpatialAudioObjectRenderStreamBase.BeginUpdatingAudioObjects","ISpatialAudioObjectRenderStreamBase::BeginUpdatingAudioObjects","coreaudio.ispatialaudioobjectrenderstream_beginupdatingaudioobjects","spatialaudioclient/ISpatialAudioObjectRenderStreamBase::BeginUpdatingAudioObjects"]
 old-location: coreaudio\ispatialaudioobjectrenderstream_beginupdatingaudioobjects.htm
 tech.root: CoreAudio
 ms.assetid: 9D858556-2EBE-4DF6-878B-BE0E12079248

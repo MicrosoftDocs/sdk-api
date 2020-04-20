@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmNetEventCreateEnumHandle0
 title: FwpmNetEventCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of network events.
+description: Creates a handle used to enumerate a set of network events.helpviewer_keywords: ["FwpmNetEventCreateEnumHandle0","FwpmNetEventCreateEnumHandle0 function [Filtering]","fwp.fwpmneteventcreateenumhandle0","fwpmu/FwpmNetEventCreateEnumHandle0"]
 old-location: fwp\fwpmneteventcreateenumhandle0.htm
 tech.root: fwp
 ms.assetid: 82e0f189-f283-43b2-b9d4-29e754c5c95e

@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnConnection.Disconnect
 title: IMbnConnection::Disconnect (mbnapi.h)
-description: Disconnects a data connection.
+description: Disconnects a data connection.helpviewer_keywords: ["Disconnect","Disconnect method [Microsoft Broadband Networks]","Disconnect method [Microsoft Broadband Networks]","IMbnConnection interface","IMbnConnection interface [Microsoft Broadband Networks]","Disconnect method","IMbnConnection.Disconnect","IMbnConnection::Disconnect","mbn.imbnconnection_disconnect","mbnapi/IMbnConnection::Disconnect"]
 old-location: mbn\imbnconnection_disconnect.htm
 tech.root: mbn
 ms.assetid: bc7f28db-499d-41be-a2cc-b4940a5bccd6

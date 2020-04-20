@@ -1,7 +1,7 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolShadowConnection
 title: IWRdsProtocolShadowConnection (wtsprotocol.h)
-description: Exposes methods that notify the protocol provider about the status of session shadowing.
+description: Exposes methods that notify the protocol provider about the status of session shadowing.helpviewer_keywords: ["IWRdsProtocolShadowConnection","IWRdsProtocolShadowConnection interface [Remote Desktop Services]","IWRdsProtocolShadowConnection interface [Remote Desktop Services]","described","termserv.iwrdsprotocolshadowconnection","wtsprotocol/IWRdsProtocolShadowConnection"]
 old-location: termserv\iwrdsprotocolshadowconnection.htm
 tech.root: TermServ
 ms.assetid: d23c4902-4e61-45ff-8a49-62eea1b92d4a

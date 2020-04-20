@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleRun
 title: OleRun function (ole2.h)
-description: Puts an OLE compound document object into the running state.
+description: Puts an OLE compound document object into the running state.helpviewer_keywords: ["OleRun","OleRun function [COM]","_ole_OleRun","com.olerun","ole2/OleRun"]
 old-location: com\olerun.htm
 tech.root: com
 ms.assetid: 9035f996-b163-4855-aa9d-184b77072ead

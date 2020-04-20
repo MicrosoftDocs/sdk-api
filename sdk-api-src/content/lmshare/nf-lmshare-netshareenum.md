@@ -1,7 +1,7 @@
 ---
 UID: NF:lmshare.NetShareEnum
 title: NetShareEnum function (lmshare.h)
-description: Retrieves information about each shared resource on a server.
+description: Retrieves information about each shared resource on a server.helpviewer_keywords: ["0","1","2","502","503","NetShareEnum","NetShareEnum function [Files]","_win32_netshareenum","fs.netshareenum","lmshare/NetShareEnum","netmgmt.netshareenum"]
 old-location: fs\netshareenum.htm
 tech.root: NetShare
 ms.assetid: 9114c54d-3905-4d40-9162-b3ea605f6fcb

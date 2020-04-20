@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_ISDBConditionalAccess
 title: IBDA_ISDBConditionalAccess (bdaiface.h)
-description: Sends conditional access system (CAS) commands for Integrated Services Digital Broadcasting (ISDB).
+description: Sends conditional access system (CAS) commands for Integrated Services Digital Broadcasting (ISDB).helpviewer_keywords: ["IBDA_ISDBConditionalAccess","IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies]","IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies]","described","bdaiface/IBDA_ISDBConditionalAccess","mstv.ibda_isdbconditionalaccess"]
 old-location: mstv\ibda_isdbconditionalaccess.htm
 tech.root: mstv
 ms.assetid: 0e45e5ea-9f38-4a96-be44-8ee123492aa9

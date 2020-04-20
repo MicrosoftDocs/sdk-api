@@ -1,7 +1,7 @@
 ---
 UID: NF:evntrace.EnableTraceEx
 title: EnableTraceEx function (evntrace.h)
-description: Enables or disables the specified event trace provider. The EnableTraceEx2 function supersedes this function.
+description: Enables or disables the specified event trace provider. The EnableTraceEx2 function supersedes this function.helpviewer_keywords: ["EVENT_ENABLE_PROPERTY_SID","EVENT_ENABLE_PROPERTY_TS_ID","EnableTraceEx","EnableTraceEx function [ETW]","TRACE_LEVEL_CRITICAL","TRACE_LEVEL_ERROR","TRACE_LEVEL_INFORMATION","TRACE_LEVEL_VERBOSE","TRACE_LEVEL_WARNING","base.enabletraceex_func","etw.enabletraceex_func","evntrace/EnableTraceEx"]
 old-location: etw\enabletraceex_func.htm
 tech.root: ETW
 ms.assetid: 1c675bf7-f292-49b1-8b60-720499a497fd

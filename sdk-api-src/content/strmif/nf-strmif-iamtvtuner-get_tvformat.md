@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_TVFormat
 title: IAMTVTuner::get_TVFormat (strmif.h)
-description: The get_TVFormat method retrieves the current analog video TV standard in use.
+description: The get_TVFormat method retrieves the current analog video TV standard in use.helpviewer_keywords: ["IAMTVTuner interface [DirectShow]","get_TVFormat method","IAMTVTuner.get_TVFormat","IAMTVTuner::get_TVFormat","IAMTVTunerget_TVFormat","dshow.iamtvtuner_get_tvformat","get_TVFormat","get_TVFormat method [DirectShow]","get_TVFormat method [DirectShow]","IAMTVTuner interface","strmif/IAMTVTuner::get_TVFormat"]
 old-location: dshow\iamtvtuner_get_tvformat.htm
 tech.root: DirectShow
 ms.assetid: 26e20511-04f6-4713-967f-5828e6f2a46d

@@ -1,7 +1,7 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.EditInternalClient
 title: IStaticPortMapping::EditInternalClient (natupnp.h)
-description: The EditInternalClient method sets the internal client property of this port mapping to the specified value.
+description: The EditInternalClient method sets the internal client property of this port mapping to the specified value.helpviewer_keywords: ["EditInternalClient","EditInternalClient method [ICS/ICF]","EditInternalClient method [ICS/ICF]","IStaticPortMapping interface","IStaticPortMapping interface [ICS/ICF]","EditInternalClient method","IStaticPortMapping.EditInternalClient","IStaticPortMapping::EditInternalClient","_ics_istaticportmapping_editinternalclient","ics.istaticportmapping_editinternalclient","natupnp/IStaticPortMapping::EditInternalClient"]
 old-location: ics\istaticportmapping_editinternalclient.htm
 tech.root: ics
 ms.assetid: 864d0edf-c9fd-4ea0-b950-119dc4a630dc

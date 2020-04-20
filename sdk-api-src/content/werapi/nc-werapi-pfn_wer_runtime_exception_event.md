@@ -1,7 +1,7 @@
 ---
 UID: NC:werapi.PFN_WER_RUNTIME_EXCEPTION_EVENT
 title: PFN_WER_RUNTIME_EXCEPTION_EVENT (werapi.h)
-description: WER calls this function to determine whether the exception handler is claiming the crash.
+description: WER calls this function to determine whether the exception handler is claiming the crash.helpviewer_keywords: ["OutOfProcessExceptionEventCallback","OutOfProcessExceptionEventCallback callback function [Windows Error Reporting]","PFN_WER_RUNTIME_EXCEPTION_EVENT","PFN_WER_RUNTIME_EXCEPTION_EVENT callback","wer.outofprocessexceptioneventcallback","werapi/OutOfProcessExceptionEventCallback"]
 old-location: wer\outofprocessexceptioneventcallback.htm
 tech.root: wer
 ms.assetid: 22033278-2be3-4621-b618-3ccd21fb4cdd

@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetHorizontalAlignment
 title: IDirectManipulationPrimaryContent::SetHorizontalAlignment (directmanipulation.h)
-description: Sets the horizontal alignment of the primary content relative to the viewport.
+description: Sets the horizontal alignment of the primary content relative to the viewport.helpviewer_keywords: ["IDirectManipulationPrimaryContent interface [Direct Manipulation]","SetHorizontalAlignment method","IDirectManipulationPrimaryContent.SetHorizontalAlignment","IDirectManipulationPrimaryContent::SetHorizontalAlignment","SetHorizontalAlignment","SetHorizontalAlignment method [Direct Manipulation]","SetHorizontalAlignment method [Direct Manipulation]","IDirectManipulationPrimaryContent interface","directmanipulation.idirectmanipulationprimarycontent_sethorizontalalignment","directmanipulation/IDirectManipulationPrimaryContent::SetHorizontalAlignment"]
 old-location: directmanipulation\idirectmanipulationprimarycontent_sethorizontalalignment.htm
 tech.root: directmanipulation
 ms.assetid: 94716ec8-325e-4e9e-9a30-1d9999bdb9c3

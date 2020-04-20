@@ -1,7 +1,7 @@
 ---
 UID: NF:powrprof.IsPwrHibernateAllowed
 title: IsPwrHibernateAllowed function (powrprof.h)
-description: Determines whether the computer supports hibernation.
+description: Determines whether the computer supports hibernation.helpviewer_keywords: ["IsPwrHibernateAllowed","IsPwrHibernateAllowed function","_win32_ispwrhibernateallowed","base.ispwrhibernateallowed","powrprof/IsPwrHibernateAllowed"]
 old-location: base\ispwrhibernateallowed.htm
 tech.root: power
 ms.assetid: fe9d06a8-c021-4cf4-9782-04519f370c5b

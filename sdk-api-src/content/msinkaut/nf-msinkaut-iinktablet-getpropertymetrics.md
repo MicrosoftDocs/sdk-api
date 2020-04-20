@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTablet.GetPropertyMetrics
 title: IInkTablet::GetPropertyMetrics (msinkaut.h)
-description: Retrieves the metrics data for a specified property.
+description: Retrieves the metrics data for a specified property.helpviewer_keywords: ["9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb","GetPropertyMetrics","GetPropertyMetrics method [Tablet PC]","GetPropertyMetrics method [Tablet PC]","IInkTablet interface","IInkTablet interface [Tablet PC]","GetPropertyMetrics method","IInkTablet.GetPropertyMetrics","IInkTablet::GetPropertyMetrics","msinkaut/IInkTablet::GetPropertyMetrics","tablet.iinktablet_getpropertymetrics"]
 old-location: tablet\iinktablet_getpropertymetrics.htm
 tech.root: tablet
 ms.assetid: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb

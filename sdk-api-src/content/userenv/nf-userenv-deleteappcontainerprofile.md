@@ -1,7 +1,7 @@
 ---
 UID: NF:userenv.DeleteAppContainerProfile
 title: DeleteAppContainerProfile function (userenv.h)
-description: Deletes the specified per-user, per-app profile.
+description: Deletes the specified per-user, per-app profile.helpviewer_keywords: ["DeleteAppContainerProfile","DeleteAppContainerProfile function [Windows Shell]","shell.deleteappcontainerprofile","userenv/DeleteAppContainerProfile"]
 old-location: shell\deleteappcontainerprofile.htm
 tech.root: shell
 ms.assetid: ED79D661-D087-4E44-8C32-14705ACA9D40

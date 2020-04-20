@@ -1,7 +1,7 @@
 ---
 UID: NF:evntrace.TraceMessageVa
 title: TraceMessageVa function (evntrace.h)
-description: The TraceMessageVa function sends an informational message with variable arguments to an event tracing session.
+description: The TraceMessageVa function sends an informational message with variable arguments to an event tracing session.helpviewer_keywords: ["PVOID","TRACE_MESSAGE_GUID","TRACE_MESSAGE_SEQUENCE","TRACE_MESSAGE_SYSTEMINFO","TRACE_MESSAGE_TIMESTAMP","TraceMessageVa","TraceMessageVa function [ETW]","_evt_tracemessageva","base.tracemessageva","etw.tracemessageva","evntrace/TraceMessageVa","size_t"]
 old-location: etw\tracemessageva.htm
 tech.root: ETW
 ms.assetid: 2cfb7226-fd29-432e-abfd-bd10c6344a67

@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Button_GetNote
 title: Button_GetNote macro (commctrl.h)
-description: Gets the text of the note associated with a command link button. You can use this macro or send the BCM_GETNOTE message explicitly.
+description: Gets the text of the note associated with a command link button. You can use this macro or send the BCM_GETNOTE message explicitly.helpviewer_keywords: ["Button_GetNote","Button_GetNote macro [Windows Controls]","_shell_Button_GetNote","_shell_Button_GetNote_cpp","commctrl/Button_GetNote","controls.Button_GetNote","controls._shell_Button_GetNote"]
 old-location: controls\Button_GetNote.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getnote.htm

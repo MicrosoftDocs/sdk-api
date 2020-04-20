@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.GetMathZone
 title: ITextFont2::GetMathZone (tom.h)
-description: Gets whether a math zone is active.
+description: Gets whether a math zone is active.helpviewer_keywords: ["GetMathZone","GetMathZone method [Windows Controls]","GetMathZone method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetMathZone method","ITextFont2.GetMathZone","ITextFont2::GetMathZone","controls.itextfont2_getmathzone","tom/ITextFont2::GetMathZone"]
 old-location: controls\itextfont2_getmathzone.htm
 tech.root: Controls
 ms.assetid: 4da4d6d1-16e0-4891-9a60-c1330345e45a

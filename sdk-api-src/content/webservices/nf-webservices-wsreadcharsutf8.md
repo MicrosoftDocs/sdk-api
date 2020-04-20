@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsReadCharsUtf8
 title: WsReadCharsUtf8 function (webservices.h)
-description: Reads a specified number of text characters from the reader and returns them encoded in UTF-8.
+description: Reads a specified number of text characters from the reader and returns them encoded in UTF-8.helpviewer_keywords: ["WsReadCharsUtf8","WsReadCharsUtf8 function [Web Services for Windows]","webservices/WsReadCharsUtf8","wsw.wsreadcharsutf8"]
 old-location: wsw\wsreadcharsutf8.htm
 tech.root: wsw
 ms.assetid: 03326291-a61b-457b-80ca-dbe5bef6bf9d

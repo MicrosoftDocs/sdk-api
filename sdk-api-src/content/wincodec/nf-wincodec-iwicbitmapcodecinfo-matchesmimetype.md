@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.MatchesMimeType
 title: IWICBitmapCodecInfo::MatchesMimeType (wincodec.h)
-description: Retrieves a value indicating whether the given mime type matches the mime type of the codec.
+description: Retrieves a value indicating whether the given mime type matches the mime type of the codec.helpviewer_keywords: ["IWICBitmapCodecInfo interface [Windows Imaging Component]","MatchesMimeType method","IWICBitmapCodecInfo.MatchesMimeType","IWICBitmapCodecInfo::MatchesMimeType","MatchesMimeType","MatchesMimeType method [Windows Imaging Component]","MatchesMimeType method [Windows Imaging Component]","IWICBitmapCodecInfo interface","_wic_codec_iwicbitmapcodecinfo_matchesmimetype","wic._wic_codec_iwicbitmapcodecinfo_matchesmimetype","wincodec/IWICBitmapCodecInfo::MatchesMimeType"]
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_matchesmimetype.htm
 tech.root: wic
 ms.assetid: 43704d5c-d2c2-4817-b61b-a752d32105aa

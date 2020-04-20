@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_3.ID2D1Device3
 title: ID2D1Device3 (d2d1_3.h)
-description: Represents a resource domain whose objects and device contexts can be used together. This interface performs all the same functions as the ID2D1Device2 interface. It also enables the creation of ID2D1DeviceContext3 objects.
+description: Represents a resource domain whose objects and device contexts can be used together. This interface performs all the same functions as the ID2D1Device2 interface. It also enables the creation of ID2D1DeviceContext3 objects.helpviewer_keywords: ["ID2D1Device3","ID2D1Device3 interface [Direct2D]","ID2D1Device3 interface [Direct2D]","described","d2d1_3/ID2D1Device3","direct2d.id2d1device3"]
 old-location: direct2d\id2d1device3.htm
 tech.root: Direct2D
 ms.assetid: 60CB6308-85BE-424B-9950-1C8617D08A09

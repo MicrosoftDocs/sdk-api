@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMLoadFloat3A
 title: XMLoadFloat3A function (directxmath.h)
-description: Loads an XMFLOAT3A into an XMVECTOR.
+description: Loads an XMFLOAT3A into an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMLoadFloat3A","XMLoadFloat3A","XMLoadFloat3A method [DirectX Math Support APIs]","dxmath.xmloadfloat3a"]
 old-location: dxmath\xmloadfloat3a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat3A(const XMFLOAT3A)

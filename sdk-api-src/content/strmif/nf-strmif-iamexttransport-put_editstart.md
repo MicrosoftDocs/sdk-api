@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_EditStart
 title: IAMExtTransport::put_EditStart (strmif.h)
-description: The put_EditStart method activates the edit control on a capable transport.
+description: The put_EditStart method activates the edit control on a capable transport.helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","put_EditStart method","IAMExtTransport.put_EditStart","IAMExtTransport::put_EditStart","IAMExtTransportput_EditStart","dshow.iamexttransport_put_editstart","put_EditStart","put_EditStart method [DirectShow]","put_EditStart method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::put_EditStart"]
 old-location: dshow\iamexttransport_put_editstart.htm
 tech.root: DirectShow
 ms.assetid: 1fd9c788-2ccb-47e5-bed8-fece9cfdf2a6

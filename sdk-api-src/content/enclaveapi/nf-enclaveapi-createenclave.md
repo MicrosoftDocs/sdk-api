@@ -1,7 +1,7 @@
 ---
 UID: NF:enclaveapi.CreateEnclave
 title: CreateEnclave function (enclaveapi.h)
-description: Creates a new uninitialized enclave. An enclave is an isolated region of code and data within the address space for an application. Only code that runs within the enclave can access data within the same enclave.
+description: Creates a new uninitialized enclave. An enclave is an isolated region of code and data within the address space for an application. Only code that runs within the enclave can access data within the same enclave.helpviewer_keywords: ["CreateEnclave","CreateEnclave function","ENCLAVE_TYPE_SGX","ENCLAVE_TYPE_VBS","base.createenclave","enclaveapi/CreateEnclave"]
 old-location: base\createenclave.htm
 tech.root: Memory
 ms.assetid: 2193AE42-D9CC-4A9C-8676-7DE432ED58C3

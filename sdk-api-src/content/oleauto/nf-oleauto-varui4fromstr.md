@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI4FromStr
 title: VarUI4FromStr function (oleauto.h)
-description: Converts an OLECHAR string to an unsigned long value.
+description: Converts an OLECHAR string to an unsigned long value.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_DATEVALUEONLY","VAR_TIMEVALUEONLY","VarUI4FromStr","VarUI4FromStr function [Automation]","_oa96_VarUI4FromStr","automat.varui4fromstr","oleauto/VarUI4FromStr"]
 old-location: automat\varui4fromstr.htm
 tech.root: automat
 ms.assetid: ff6e3dd0-3bb6-4197-aba4-dd4240af918f

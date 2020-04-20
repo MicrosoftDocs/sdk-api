@@ -1,7 +1,7 @@
 ---
 UID: NF:winsatcominterfacei.IWinSATInitiateEvents.WinSATUpdate
 title: IWinSATInitiateEvents::WinSATUpdate (winsatcominterfacei.h)
-description: Receives notification when an assessment is making progress.
+description: Receives notification when an assessment is making progress.helpviewer_keywords: ["IWinSATInitiateEvents interface [WinSAT]","WinSATUpdate method","IWinSATInitiateEvents.WinSATUpdate","IWinSATInitiateEvents::WinSATUpdate","WinSATUpdate","WinSATUpdate method [WinSAT]","WinSATUpdate method [WinSAT]","IWinSATInitiateEvents interface","winsat.iwinsatinitiateevents_winsatupdate","winsatcominterfacei/IWinSATInitiateEvents::WinSATUpdate"]
 old-location: winsat\iwinsatinitiateevents_winsatupdate.htm
 tech.root: WinSAT
 ms.assetid: d0f527a9-89b9-45d6-b5a5-82b0ae1ad122

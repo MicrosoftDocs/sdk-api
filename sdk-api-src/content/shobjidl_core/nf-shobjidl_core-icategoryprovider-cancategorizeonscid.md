@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.CanCategorizeOnSCID
 title: ICategoryProvider::CanCategorizeOnSCID (shobjidl_core.h)
-description: Determines whether a column can be used as a category.
+description: Determines whether a column can be used as a category.helpviewer_keywords: ["CanCategorizeOnSCID","CanCategorizeOnSCID method [Windows Shell]","CanCategorizeOnSCID method [Windows Shell]","ICategoryProvider interface","ICategoryProvider interface [Windows Shell]","CanCategorizeOnSCID method","ICategoryProvider.CanCategorizeOnSCID","ICategoryProvider::CanCategorizeOnSCID","inet_ICategoryProvider_CanCategorizeOnSCID","shell.ICategoryProvider_CanCategorizeOnSCID","shobjidl_core/ICategoryProvider::CanCategorizeOnSCID"]
 old-location: shell\ICategoryProvider_CanCategorizeOnSCID.htm
 tech.root: shell
 ms.assetid: e0b10007-7b25-4ddf-8cb9-76d85f8fb4df

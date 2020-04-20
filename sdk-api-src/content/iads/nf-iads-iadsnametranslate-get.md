@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsNameTranslate.Get
 title: IADsNameTranslate::Get (iads.h)
-description: Retrieves the name of a directory object in the specified format.
+description: Retrieves the name of a directory object in the specified format.helpviewer_keywords: ["Get","Get method [ADSI]","Get method [ADSI]","IADsNameTranslate interface","IADsNameTranslate interface [ADSI]","Get method","IADsNameTranslate.Get","IADsNameTranslate::Get","_ds_iadsnametranslate_get","adsi.iadsnametranslate__get","adsi.iadsnametranslate_get","iads/IADsNameTranslate::Get"]
 old-location: adsi\iadsnametranslate_get.htm
 tech.root: adsi
 ms.assetid: 6c8246a9-657e-4db1-ae8f-d9c0a2d41397

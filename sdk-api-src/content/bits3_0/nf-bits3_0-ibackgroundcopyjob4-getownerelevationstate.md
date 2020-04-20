@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.GetOwnerElevationState
 title: IBackgroundCopyJob4::GetOwnerElevationState (bits3_0.h)
-description: Gets a value that determines if the token of the owner was elevated at the time they created or took ownership of the job.
+description: Gets a value that determines if the token of the owner was elevated at the time they created or took ownership of the job.helpviewer_keywords: ["GetOwnerElevationState","GetOwnerElevationState method [BITS]","GetOwnerElevationState method [BITS]","IBackgroundCopyJob4 interface","IBackgroundCopyJob4 interface [BITS]","GetOwnerElevationState method","IBackgroundCopyJob4.GetOwnerElevationState","IBackgroundCopyJob4::GetOwnerElevationState","bits.ibackgroundcopyjob4_getownerelevationstate","bits3_0/IBackgroundCopyJob4::GetOwnerElevationState"]
 old-location: bits\ibackgroundcopyjob4_getownerelevationstate.htm
 tech.root: Bits
 ms.assetid: 2ab62c27-5ba1-46f3-a5e9-020fde17a1ef

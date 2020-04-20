@@ -1,7 +1,7 @@
 ---
 UID: NF:certbcli.CertSrvBackupTruncateLogs
 title: CertSrvBackupTruncateLogs function (certbcli.h)
-description: Eliminates redundant records and reduces the disk storage space used by log files.
+description: Eliminates redundant records and reduces the disk storage space used by log files.helpviewer_keywords: ["CertSrvBackupTruncateLogs","CertSrvBackupTruncateLogs function [Security]","_certsrv_certsrvbackuptruncatelogs","certbcli/CertSrvBackupTruncateLogs","security.certsrvbackuptruncatelogs"]
 old-location: security\certsrvbackuptruncatelogs.htm
 tech.root: SecCrypto
 ms.assetid: 8ccab63c-1057-485e-970e-8298dfea3426

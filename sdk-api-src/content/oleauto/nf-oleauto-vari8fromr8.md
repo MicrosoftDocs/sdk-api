@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI8FromR8
 title: VarI8FromR8 function (oleauto.h)
-description: Converts a double value to an 8-byte integer value.
+description: Converts a double value to an 8-byte integer value.helpviewer_keywords: ["VarI8FromR8","VarI8FromR8 function [Automation]","_oa96_VarI8FromR8","automat.vari8fromr8","oleauto/VarI8FromR8"]
 old-location: automat\vari8fromr8.htm
 tech.root: automat
 ms.assetid: 1f566439-5faa-47e2-927a-1871b53be0e5

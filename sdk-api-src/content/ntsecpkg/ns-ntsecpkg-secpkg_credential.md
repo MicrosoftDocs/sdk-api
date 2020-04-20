@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecpkg._SECPKG_CREDENTIAL
 title: SECPKG_CREDENTIAL (ntsecpkg.h)
-description: Specifies the credentials.
+description: Specifies the credentials.helpviewer_keywords: ["*PSECPKG_CREDENTIAL","PSECPKG_CREDENTIAL","PSECPKG_CREDENTIAL structure pointer [Security]","SECPKG_CREDENTIAL","SECPKG_CREDENTIAL structure [Security]","ntsecpkg/PSECPKG_CREDENTIAL","ntsecpkg/SECPKG_CREDENTIAL","security.secpkg_credential"]
 old-location: security\secpkg_credential.htm
 tech.root: SecAuthN
 ms.assetid: 67BB382B-E6DB-4E93-90EE-6441751220B9

@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_XML_BOOL_TEXT
 title: WS_XML_BOOL_TEXT (webservices.h)
-description: A Boolean value that represents the text &#0034;true&#0034; or &#0034;false&#0034;.
+description: A Boolean value that represents the text &#0034;true&#0034; or &#0034;false&#0034;.helpviewer_keywords: ["WS_XML_BOOL_TEXT","WS_XML_BOOL_TEXT structure [Web Services for Windows]","webservices/WS_XML_BOOL_TEXT","wsw.ws_xml_bool_text"]
 old-location: wsw\ws_xml_bool_text.htm
 tech.root: wsw
 ms.assetid: 2f40b717-f94e-49d2-b79c-d8a5e86bebe6

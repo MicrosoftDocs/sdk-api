@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPhysicalDimension
 title: Image::GetPhysicalDimension (gdiplusheaders.h)
-description: The Image::GetPhysicalDimension method gets the width and height of this image.
+description: The Image::GetPhysicalDimension method gets the width and height of this image.helpviewer_keywords: ["GetPhysicalDimension","GetPhysicalDimension method [GDI+]","GetPhysicalDimension method [GDI+]","Image class","Image class [GDI+]","GetPhysicalDimension method","Image.GetPhysicalDimension","Image::GetPhysicalDimension","_gdiplus_CLASS_Image_GetPhysicalDimension_size_","gdiplus._gdiplus_CLASS_Image_GetPhysicalDimension_size_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPhysicalDimension_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getphysicaldimension.htm

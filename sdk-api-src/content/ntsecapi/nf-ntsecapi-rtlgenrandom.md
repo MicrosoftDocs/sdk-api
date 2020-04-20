@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.RtlGenRandom
 title: RtlGenRandom function (ntsecapi.h)
-description: Generates a pseudo-random number.
+description: Generates a pseudo-random number.helpviewer_keywords: ["RtlGenRandom","RtlGenRandom function [Security]","ntsecapi/RtlGenRandom","security.rtlgenrandom"]
 old-location: security\rtlgenrandom.htm
 tech.root: SecCrypto
 ms.assetid: 0b0d7019-49a1-40d0-912d-c773bce09a26

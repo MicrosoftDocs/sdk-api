@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit.tagRICHEDIT_IMAGE_PARAMETERS
 title: RICHEDIT_IMAGE_PARAMETERS (richedit.h)
-description: Defines the attributes of an image to be inserted by the EM_INSERTIMAGE message.
+description: Defines the attributes of an image to be inserted by the EM_INSERTIMAGE message.helpviewer_keywords: ["RICHEDIT_IMAGE_PARAMETERS","RICHEDIT_IMAGE_PARAMETERS structure [Windows Controls]","TA_BASELINE","TA_BOTTOM","TA_TOP","controls.richedit_image_parameters","richedit/RICHEDIT_IMAGE_PARAMETERS"]
 old-location: controls\richedit_image_parameters.htm
 tech.root: Controls
 ms.assetid: 9FBEB9BE-B27E-4AC6-AB39-1DBCF74AED8B

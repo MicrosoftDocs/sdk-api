@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetControlLabel
 title: IFileDialogCustomize::SetControlLabel (shobjidl_core.h)
-description: Sets the text associated with a control, such as button text or an edit box label.
+description: Sets the text associated with a control, such as button text or an edit box label.helpviewer_keywords: ["IFileDialogCustomize interface [Windows Shell]","SetControlLabel method","IFileDialogCustomize.SetControlLabel","IFileDialogCustomize::SetControlLabel","SetControlLabel","SetControlLabel method [Windows Shell]","SetControlLabel method [Windows Shell]","IFileDialogCustomize interface","shell.IFileDialogCustomize_SetControlLabel","shell_IFileDialogCustomize_SetControlLabel","shobjidl_core/IFileDialogCustomize::SetControlLabel"]
 old-location: shell\IFileDialogCustomize_SetControlLabel.htm
 tech.root: shell
 ms.assetid: 369038ad-999b-425c-bd47-b6a06e5f6939

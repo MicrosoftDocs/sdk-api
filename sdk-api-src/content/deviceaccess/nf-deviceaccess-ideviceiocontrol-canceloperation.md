@@ -1,7 +1,7 @@
 ---
 UID: NF:deviceaccess.IDeviceIoControl.CancelOperation
 title: IDeviceIoControl::CancelOperation (deviceaccess.h)
-description: The CancelOperation method attempts to cancel a previously issued call by using the DeviceIoControlAsync method.
+description: The CancelOperation method attempts to cancel a previously issued call by using the DeviceIoControlAsync method.helpviewer_keywords: ["CancelOperation","CancelOperation method [Device Access Broker API]","CancelOperation method [Device Access Broker API]","IDeviceIoControl interface","IDeviceIoControl interface [Device Access Broker API]","CancelOperation method","IDeviceIoControl.CancelOperation","IDeviceIoControl::CancelOperation","deviceaccess.ideviceiocontrol_canceloperation","deviceaccess/IDeviceIoControl::CancelOperation"]
 old-location: deviceaccess\ideviceiocontrol_canceloperation.htm
 tech.root: deviceaccess
 ms.assetid: 476a84c8-4065-4a4f-ad74-68cbbbabd5dd

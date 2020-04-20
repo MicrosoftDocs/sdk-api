@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.ModifyThreshold
 title: IFsrmQuotaBase::ModifyThreshold (fsrmquota.h)
-description: Changes the threshold value.
+description: Changes the threshold value.helpviewer_keywords: ["IFsrmQuotaBase interface [File Server Resource Manager]","ModifyThreshold method","IFsrmQuotaBase.ModifyThreshold","IFsrmQuotaBase::ModifyThreshold","ModifyThreshold","ModifyThreshold method [File Server Resource Manager]","ModifyThreshold method [File Server Resource Manager]","IFsrmQuotaBase interface","fs.ifsrmquotabase_modifythreshold","fsrm.ifsrmquotabase_modifythreshold","fsrmquota/IFsrmQuotaBase::ModifyThreshold"]
 old-location: fsrm\ifsrmquotabase_modifythreshold.htm
 tech.root: fsrm
 ms.assetid: 46cda78a-7c1d-42e0-abff-3be9c13925f5

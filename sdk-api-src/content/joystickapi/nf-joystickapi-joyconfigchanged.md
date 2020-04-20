@@ -1,7 +1,7 @@
 ---
 UID: NF:joystickapi.joyConfigChanged
 title: joyConfigChanged function (joystickapi.h)
-description: The joyConfigChanged function informs the joystick driver that the configuration has changed and should be reloaded from the registry.
+description: The joyConfigChanged function informs the joystick driver that the configuration has changed and should be reloaded from the registry.helpviewer_keywords: ["_win32_joyConfigChanged","joyConfigChanged","joyConfigChanged function [Windows Multimedia]","joystickapi/joyConfigChanged","multimedia.joyconfigchanged"]
 old-location: multimedia\joyconfigchanged.htm
 tech.root: Multimedia
 ms.assetid: 3cdc7888-2d66-4fb9-abad-86e891f4ebe4

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmiutils.IWbemQuery.Parse
 title: IWbemQuery::Parse (wmiutils.h)
-description: Parses a query string.
+description: Parses a query string.helpviewer_keywords: ["IWbemQuery class [Windows Management Instrumentation]","Parse method","IWbemQuery.Parse","IWbemQuery::Parse","Parse","Parse method [Windows Management Instrumentation]","Parse method [Windows Management Instrumentation]","IWbemQuery class","_hmm_iwbemquery_parse","wmi.iwbemquery_parse","wmiutils/IWbemQuery::Parse"]
 old-location: wmi\iwbemquery_parse.htm
 tech.root: WmiSdk
 ms.assetid: 372b004f-322e-459c-8db0-150b0483aa34

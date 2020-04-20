@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnEndLabelEdit
 title: INameSpaceTreeControlEvents::OnEndLabelEdit (shobjidl.h)
-description: Called after the IShellItem leaves edit mode.
+description: Called after the IShellItem leaves edit mode.helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnEndLabelEdit method","INameSpaceTreeControlEvents.OnEndLabelEdit","INameSpaceTreeControlEvents::OnEndLabelEdit","OnEndLabelEdit","OnEndLabelEdit method [Windows Shell]","OnEndLabelEdit method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnEndLabelEdit","shell.INameSpaceTreeControlEvents_OnEndLabelEdit","shobjidl/INameSpaceTreeControlEvents::OnEndLabelEdit"]
 old-location: shell\INameSpaceTreeControlEvents_OnEndLabelEdit.htm
 tech.root: shell
 ms.assetid: deeb1cc7-e943-47bd-82f0-089fb3f4c3c6

@@ -1,7 +1,7 @@
 ---
 UID: NE:wmsdkidl.WMT_ATTR_IMAGETYPE
 title: WMT_ATTR_IMAGETYPE (wmsdkidl.h)
-description: The WMT_ATTR_IMAGETYPE enumeration type lists image types that can be stored in the header of an ASF file.
+description: The WMT_ATTR_IMAGETYPE enumeration type lists image types that can be stored in the header of an ASF file.helpviewer_keywords: ["WMT_ATTR_IMAGETYPE","WMT_ATTR_IMAGETYPE enumeration [windows Media Format]","WMT_IMAGETYPE_BITMAP","WMT_IMAGETYPE_GIF","WMT_IMAGETYPE_JPEG","wmformat.wmt_attr_imagetype","wmsdkidl/WMT_ATTR_IMAGETYPE","wmsdkidl/WMT_IMAGETYPE_BITMAP","wmsdkidl/WMT_IMAGETYPE_GIF","wmsdkidl/WMT_IMAGETYPE_JPEG"]
 old-location: wmformat\wmt_attr_imagetype.htm
 tech.root: wmformat
 ms.assetid: 0e032796-4bbf-4307-982f-560a56506db2

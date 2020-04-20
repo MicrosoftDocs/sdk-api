@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects.D2D1_COLORMANAGEMENT_QUALITY
 title: D2D1_COLORMANAGEMENT_QUALITY (d2d1effects.h)
-description: The quality level of the transform for the Color management effect.
+description: The quality level of the transform for the Color management effect.helpviewer_keywords: ["D2D1_COLORMANAGEMENT_QUALITY","D2D1_COLORMANAGEMENT_QUALITY enumeration [Direct2D]","D2D1_COLORMANAGEMENT_QUALITY_BEST","D2D1_COLORMANAGEMENT_QUALITY_NORMAL","D2D1_COLORMANAGEMENT_QUALITY_PROOF","d2d1effects/D2D1_COLORMANAGEMENT_QUALITY","d2d1effects/D2D1_COLORMANAGEMENT_QUALITY_BEST","d2d1effects/D2D1_COLORMANAGEMENT_QUALITY_NORMAL","d2d1effects/D2D1_COLORMANAGEMENT_QUALITY_PROOF","direct2d.d2d1_colormanagement_quality"]
 old-location: direct2d\d2d1_colormanagement_quality.htm
 tech.root: Direct2D
 ms.assetid: 99BB95AE-E5C6-4D56-9EB9-740DD7D0EFEF

@@ -1,7 +1,7 @@
 ---
 UID: NN:mswmdm.IWMDMOperation2
 title: IWMDMOperation2 (mswmdm.h)
-description: The optional, application-implemented IWMDMOperation2 interface extends IWMDMOperation by providing methods to get and set extended attributes.
+description: The optional, application-implemented IWMDMOperation2 interface extends IWMDMOperation by providing methods to get and set extended attributes.helpviewer_keywords: ["IWMDMOperation2","IWMDMOperation2 interface [windows Media Device Manager]","IWMDMOperation2 interface [windows Media Device Manager]","described","IWMDMOperation2Interface","mswmdm/IWMDMOperation2","wmdm.iwmdmoperation2"]
 old-location: wmdm\iwmdmoperation2.htm
 tech.root: WMDM
 ms.assetid: b3f7e92a-8feb-47cd-ae50-bc5bf9a37958

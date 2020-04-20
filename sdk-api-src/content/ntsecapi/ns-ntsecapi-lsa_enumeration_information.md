@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._LSA_ENUMERATION_INFORMATION
 title: LSA_ENUMERATION_INFORMATION (ntsecapi.h)
-description: The LSA_ENUMERATION_INFORMATION structure is used with the LsaEnumerateAccountsWithUserRight function to return a pointer to a SID.
+description: The LSA_ENUMERATION_INFORMATION structure is used with the LsaEnumerateAccountsWithUserRight function to return a pointer to a SID.helpviewer_keywords: ["*PLSA_ENUMERATION_INFORMATION","LSA_ENUMERATION_INFORMATION","LSA_ENUMERATION_INFORMATION structure [Security]","PLSA_ENUMERATION_INFORMATION","PLSA_ENUMERATION_INFORMATION structure pointer [Security]","_LSA_ENUMERATION_INFORMATION","_lsa_lsa_enumeration_information","ntsecapi/LSA_ENUMERATION_INFORMATION","ntsecapi/PLSA_ENUMERATION_INFORMATION","security.lsa_enumeration_information"]
 old-location: security\lsa_enumeration_information.htm
 tech.root: SecMgmt
 ms.assetid: 7577548f-3ceb-43a5-b447-6f66a09963fe

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_OUTPUT
 title: D3D11_AUTHENTICATED_QUERY_OUTPUT (d3d11.h)
-description: Contains a response from the ID3D11VideoContext::QueryAuthenticatedChannel method.
+description: Contains a response from the ID3D11VideoContext::QueryAuthenticatedChannel method.helpviewer_keywords: ["D3D11_AUTHENTICATED_QUERY_OUTPUT","D3D11_AUTHENTICATED_QUERY_OUTPUT structure [Media Foundation]","d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT","mf.d3d11_authenticated_query_output"]
 old-location: mf\d3d11_authenticated_query_output.htm
 tech.root: medfound
 ms.assetid: D5650992-04D0-4DD2-A858-1E7FB979A9C2

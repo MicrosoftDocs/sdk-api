@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnConnectionEvents.OnConnectStateChange
 title: IMbnConnectionEvents::OnConnectStateChange (mbnapi.h)
-description: Notification method that indicates whether the connection state of the device has changed.
+description: Notification method that indicates whether the connection state of the device has changed.helpviewer_keywords: ["IMbnConnectionEvents interface [Microsoft Broadband Networks]","OnConnectStateChange method","IMbnConnectionEvents.OnConnectStateChange","IMbnConnectionEvents::OnConnectStateChange","OnConnectStateChange","OnConnectStateChange method [Microsoft Broadband Networks]","OnConnectStateChange method [Microsoft Broadband Networks]","IMbnConnectionEvents interface","mbn.imbnconnectionevents_onconnectstatechange","mbnapi/IMbnConnectionEvents::OnConnectStateChange"]
 old-location: mbn\imbnconnectionevents_onconnectstatechange.htm
 tech.root: mbn
 ms.assetid: 5392e5b7-eac7-40f1-b5cd-adde5a6ff1b8

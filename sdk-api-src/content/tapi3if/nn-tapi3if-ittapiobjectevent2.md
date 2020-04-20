@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.ITTAPIObjectEvent2
 title: ITTAPIObjectEvent2 (tapi3if.h)
-description: The ITTAPIObjectEvent2 interface is an extension of the ITTAPIObjectEvent interface. ITTAPIObjectEvent2 exposes an additional method that returns a pointer to an ITPhone interface on the phone object that caused the TAPI object event.
+description: The ITTAPIObjectEvent2 interface is an extension of the ITTAPIObjectEvent interface. ITTAPIObjectEvent2 exposes an additional method that returns a pointer to an ITPhone interface on the phone object that caused the TAPI object event.helpviewer_keywords: ["ITTAPIObjectEvent2","ITTAPIObjectEvent2 interface [TAPI 2.2]","ITTAPIObjectEvent2 interface [TAPI 2.2]","described","_tapi3_ittapiobjectevent2","tapi3.ittapiobjectevent2","tapi3if/ITTAPIObjectEvent2"]
 old-location: tapi3\ittapiobjectevent2.htm
 tech.root: Tapi
 ms.assetid: ad4fc838-5a6c-4942-b5a0-ed00cea11ba8

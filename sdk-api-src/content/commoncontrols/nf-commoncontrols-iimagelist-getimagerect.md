@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.GetImageRect
 title: IImageList::GetImageRect (commoncontrols.h)
-description: Gets an image's bounding rectangle.
+description: Gets an image's bounding rectangle.helpviewer_keywords: ["GetImageRect","GetImageRect method [Windows Controls]","GetImageRect method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","GetImageRect method","IImageList.GetImageRect","IImageList::GetImageRect","comctl_IImageList_GetImageRect","comctl_IImageList_GetImageRect_cpp","commoncontrols/IImageList::GetImageRect","controls.IImageList_GetImageRect","controls.comctl_IImageList_GetImageRect"]
 old-location: controls\IImageList_GetImageRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimagerect.htm

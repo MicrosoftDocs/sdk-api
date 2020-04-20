@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 title: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION (d3d11_1.h)
-description: Provides data to the ID3D11VideoContext::DecoderBeginFrame method.
+description: Provides data to the ID3D11VideoContext::DecoderBeginFrame method.helpviewer_keywords: ["D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION","D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Media Foundation]","d3d11_1/D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION","mf.d3d11_video_decoder_begin_frame_crypto_session"]
 old-location: mf\d3d11_video_decoder_begin_frame_crypto_session.htm
 tech.root: medfound
 ms.assetid: 7A4E0B99-90EE-4669-813E-5A3CD58D24A7

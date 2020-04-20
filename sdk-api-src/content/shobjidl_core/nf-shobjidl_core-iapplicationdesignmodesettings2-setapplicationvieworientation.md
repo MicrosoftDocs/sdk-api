@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.SetApplicationViewOrientation
 title: IApplicationDesignModeSettings2::SetApplicationViewOrientation (shobjidl_core.h)
-description: Sets the window orientation used for the design mode window.
+description: Sets the window orientation used for the design mode window.helpviewer_keywords: ["IApplicationDesignModeSettings2 interface [Windows Shell]","SetApplicationViewOrientation method","IApplicationDesignModeSettings2.SetApplicationViewOrientation","IApplicationDesignModeSettings2::SetApplicationViewOrientation","SetApplicationViewOrientation","SetApplicationViewOrientation method [Windows Shell]","SetApplicationViewOrientation method [Windows Shell]","IApplicationDesignModeSettings2 interface","shell.IApplicationDesignModeSettings2_SetApplicationViewOrientation","shobjidl_core/IApplicationDesignModeSettings2::SetApplicationViewOrientation"]
 old-location: shell\IApplicationDesignModeSettings2_SetApplicationViewOrientation.htm
 tech.root: shell
 ms.assetid: FCD2FDFD-1058-45D6-B9D5-A4B845CF80AA
