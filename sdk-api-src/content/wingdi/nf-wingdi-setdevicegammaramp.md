@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetDeviceGammaRamp
 title: SetDeviceGammaRamp function (wingdi.h)
-description: The SetDeviceGammaRamp function sets the gamma ramp on direct color display boards having drivers that support downloadable gamma ramps in hardware.helpviewer_keywords: ["SetDeviceGammaRamp","SetDeviceGammaRamp function [Windows Color System]","_color_SetDeviceGammaRamp","wcs.setdevicegammaramp","wingdi/SetDeviceGammaRamp"]
+description: The SetDeviceGammaRamp function sets the gamma ramp on direct color display boards having drivers that support downloadable gamma ramps in hardware.
+helpviewer_keywords: ["SetDeviceGammaRamp","SetDeviceGammaRamp function [Windows Color System]","_color_SetDeviceGammaRamp","wcs.setdevicegammaramp","wingdi/SetDeviceGammaRamp"]
 old-location: wcs\setdevicegammaramp.htm
 tech.root: WCS
 ms.assetid: 8e4cc9a4-f292-47a1-a12a-43a479326ca7
@@ -59,11 +60,11 @@ The <b>SetDeviceGammaRamp</b> function sets the <a href="https://docs.microsoft.
 > 
 > For color calibration, we recommend that you create an International Color Consortium (ICC) profile, and let the OS apply the profile. For advanced original equipment manufacturer (OEM) scenarios, there's a device driver model that you can use to customize color calibration more directly.
 > 
-> For blue light filtering, there is a built-in operating system (OS) feature called **Night Light** that does this now. We recommend that users use that feature rather than any other feature provided by OEMs.
+> For blue light filtering, there is a built-in operating system (OS) feature called **Night Light** that does this now. We recommend that you direct your users to that feature.
 > 
 > For color adaptation (for example, adjusting color calibration based on ambient light sensors), we also have a built-in OS feature, which we recommend that OEMs use.
 > 
-> For custom filter effects, there are a variety of built-in accessibility color filters to help with a range of cases. We're unaware of any compelling use cases outside of the cases that we support with those built-in accessibility color filters.
+> For custom filter effects, there are a variety of built-in accessibility color filters to help with a range of cases.
 
 ## -parameters
 
