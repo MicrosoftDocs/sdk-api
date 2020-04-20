@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamPixelAspectRatio
 title: ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio (d3d11.h)
-description: Gets the pixel aspect ratio for an input stream on the video processor.
+description: Gets the pixel aspect ratio for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamPixelAspectRatio method","ID3D11VideoContext.VideoProcessorGetStreamPixelAspectRatio","ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio","VideoProcessorGetStreamPixelAspectRatio","VideoProcessorGetStreamPixelAspectRatio method [Media Foundation]","VideoProcessorGetStreamPixelAspectRatio method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio","mf.id3d11videocontext_videoprocessorgetstreampixelaspectratio"]
 old-location: mf\id3d11videocontext_videoprocessorgetstreampixelaspectratio.htm
 tech.root: medfound
 ms.assetid: 45B0CF31-6552-4C75-B32F-755398D1A054
@@ -82,15 +82,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommo
 ### -param pDestinationAspectRatio [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure. If *<i>pEnabled</i> is <b>TRUE</b>, this parameter receives the pixel aspect ratio of the destination rectangle.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

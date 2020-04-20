@@ -1,7 +1,7 @@
 ---
 UID: NC:ras.RASDIALFUNC
 title: RASDIALFUNC (ras.h)
-description: The RasDialFunc callback function is called by the RasDial function when a change of state occurs during a RAS connection process.
+description: The RasDialFunc callback function is called by the RasDial function when a change of state occurs during a RAS connection process.helpviewer_keywords: ["RasDialFunc","RasDialFunc callback","RasDialFunc callback function [RAS]","_ras_rasdialfunc","ras/RasDialFunc","rras.rasdialfunc"]
 old-location: rras\rasdialfunc.htm
 tech.root: RRAS
 ms.assetid: 668ebede-73ec-4ee9-9b81-7167e827db60
@@ -97,15 +97,6 @@ Specifies the
 #### - unMsg [in]
 
 Specifies the type of event that has occurred. Currently, the only event defined is WM_RASDIALEVENT.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

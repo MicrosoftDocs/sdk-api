@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfContextView
 title: ITfContextView (msctf.h)
-description: The ITfContextView interface is implemented by the TSF manager and used by a client (application or text service) to obtain information about a context view.
+description: The ITfContextView interface is implemented by the TSF manager and used by a client (application or text service) to obtain information about a context view.helpviewer_keywords: ["ITfContextView","ITfContextView interface [Text Services Framework]","ITfContextView interface [Text Services Framework]","described","_tsf_itfcontextview_ref","msctf/ITfContextView","tsf.itfcontextview"]
 old-location: tsf\itfcontextview.htm
 tech.root: TSF
 ms.assetid: 302d185d-dab7-4a77-a5cf-da2529d8b24a

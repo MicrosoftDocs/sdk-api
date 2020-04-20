@@ -1,7 +1,7 @@
 ---
 UID: NN:tsgpolicyengine.ITSGAuthorizeConnectionSink
 title: ITSGAuthorizeConnectionSink (tsgpolicyengine.h)
-description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a connection.
+description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a connection.helpviewer_keywords: ["ITSGAuthorizeConnectionSink","ITSGAuthorizeConnectionSink interface [Remote Desktop Services]","ITSGAuthorizeConnectionSink interface [Remote Desktop Services]","described","termserv.itsgauthorizeconnectionsink","tsgpolicyengine/ITSGAuthorizeConnectionSink"]
 old-location: termserv\itsgauthorizeconnectionsink.htm
 tech.root: TermServ
 ms.assetid: 4aa6ec0d-6525-46e1-ba0b-29d80c5ee0f1

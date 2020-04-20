@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetTriggerString
 title: IScheduledWorkItem::GetTriggerString (mstask.h)
-description: Retrieves a string that describes the work item trigger.
+description: Retrieves a string that describes the work item trigger.helpviewer_keywords: ["GetTriggerString","GetTriggerString method [Task Scheduler]","GetTriggerString method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetTriggerString method","IScheduledWorkItem.GetTriggerString","IScheduledWorkItem::GetTriggerString","_msb_ischeduledworkitem_gettriggerstring","mstask/IScheduledWorkItem::GetTriggerString","taskschd.ischeduledworkitem_gettriggerstring"]
 old-location: taskschd\ischeduledworkitem_gettriggerstring.htm
 tech.root: taskschd
 ms.assetid: 5e342807-4796-449b-b490-815ce57f4d8f

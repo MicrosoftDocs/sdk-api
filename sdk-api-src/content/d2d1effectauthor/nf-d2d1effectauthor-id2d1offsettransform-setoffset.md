@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1OffsetTransform.SetOffset
 title: ID2D1OffsetTransform::SetOffset (d2d1effectauthor.h)
-description: Sets the offset in the current offset transform.
+description: Sets the offset in the current offset transform.helpviewer_keywords: ["ID2D1OffsetTransform interface [Direct2D]","SetOffset method","ID2D1OffsetTransform.SetOffset","ID2D1OffsetTransform::SetOffset","SetOffset","SetOffset method [Direct2D]","SetOffset method [Direct2D]","ID2D1OffsetTransform interface","d2d1effectauthor/ID2D1OffsetTransform::SetOffset","direct2d.id2d1offsettransform_setoffset"]
 old-location: direct2d\id2d1offsettransform_setoffset.htm
 tech.root: Direct2D
 ms.assetid: 4694BB45-4D26-4CB8-B0D3-560493D60D88
@@ -63,15 +63,6 @@ Sets the offset in the current offset transform.
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847948(v=vs.85)">D2D1_POINT_2L</a></b>
 
 The new offset to apply to the offset transform.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

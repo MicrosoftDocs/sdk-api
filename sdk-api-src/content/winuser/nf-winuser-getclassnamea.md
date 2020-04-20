@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetClassNameA
 title: GetClassNameA function (winuser.h)
-description: Retrieves the name of the class to which the specified window belongs.
+description: Retrieves the name of the class to which the specified window belongs.helpviewer_keywords: ["GetClassName","GetClassName function [Windows and Messages]","GetClassNameA","GetClassNameW","_win32_GetClassName","_win32_getclassname_cpp","winmsg.getclassname","winui._win32_getclassname","winuser/GetClassName","winuser/GetClassNameA","winuser/GetClassNameW"]
 old-location: winmsg\getclassname.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassname.htm
@@ -85,13 +85,7 @@ The class name string.
 
 Type: <b>int</b>
 
-The length
-					
-					 of the 
-					<i>lpClassName</i> buffer, in 
-	
-
-					characters. The buffer must be large enough to include the terminating null character; otherwise, the class name string is truncated to <code>nMaxCount-1</code> characters.
+The length of the *lpClassName* buffer, in characters. The buffer must be large enough to include the terminating null character; otherwise, the class name string is truncated to `nMaxCount-1` characters.
 
 
 ## -returns

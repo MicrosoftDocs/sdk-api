@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.InitializeConditionVariable
 title: InitializeConditionVariable function (synchapi.h)
-description: Initializes a condition variable.
+description: Initializes a condition variable.helpviewer_keywords: ["InitializeConditionVariable","InitializeConditionVariable function","base.initializeconditionvariable","synchapi/InitializeConditionVariable","winbase/InitializeConditionVariable"]
 old-location: base\initializeconditionvariable.htm
 tech.root: Sync
 ms.assetid: 55cc8d1a-d5a8-4bb2-a5ac-50b4114b1b0b
@@ -66,15 +66,6 @@ Initializes a condition variable.
 ### -param ConditionVariable [out]
 
 A pointer to the condition variable.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

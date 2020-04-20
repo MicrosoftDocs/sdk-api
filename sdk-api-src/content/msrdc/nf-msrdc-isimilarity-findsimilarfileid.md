@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.ISimilarity.FindSimilarFileId
 title: ISimilarity::FindSimilarFileId (msrdc.h)
-description: Returns a list of files that are similar to a given file.
+description: Returns a list of files that are similar to a given file.helpviewer_keywords: ["FindSimilarFileId","FindSimilarFileId method [Remote Differential Compression]","FindSimilarFileId method [Remote Differential Compression]","ISimilarity interface","ISimilarity interface [Remote Differential Compression]","FindSimilarFileId method","ISimilarity.FindSimilarFileId","ISimilarity::FindSimilarFileId","fs.isimilarity_findsimilarfileid","msrdc/ISimilarity::FindSimilarFileId","rdc.isimilarity_findsimilarfileid"]
 old-location: rdc\isimilarity_findsimilarfileid.htm
 tech.root: rdc
 ms.assetid: 70a205fc-d90a-43fc-88f4-2f3a573c5a82

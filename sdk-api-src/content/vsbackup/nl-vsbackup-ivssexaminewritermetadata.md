@@ -1,7 +1,7 @@
 ---
 UID: NL:vsbackup.IVssExamineWriterMetadata
 title: IVssExamineWriterMetadata (vsbackup.h)
-description: The IVssExamineWriterMetadata interface is a C++ (not COM) interface that allows a requester to examine the metadata of a specific writer instance.
+description: The IVssExamineWriterMetadata interface is a C++ (not COM) interface that allows a requester to examine the metadata of a specific writer instance.helpviewer_keywords: ["IVssExamineWriterMetadata","IVssExamineWriterMetadata interface [VSS]","IVssExamineWriterMetadata interface [VSS]","described","_win32_ivssexaminewritermetadata","base.ivssexaminewritermetadata","vsbackup/IVssExamineWriterMetadata"]
 old-location: base\ivssexaminewritermetadata.htm
 tech.root: VSS
 ms.assetid: b3aa04d9-7299-4e3a-b092-d07f2de6eefe

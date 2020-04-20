@@ -1,7 +1,7 @@
 ---
 UID: NF:cfapi.CfGetWin32HandleFromProtectedHandle
 title: CfGetWin32HandleFromProtectedHandle function (cfapi.h)
-description: Converts a protected handle to a Win32 handle so that it can be used with all handle-based Win32 APIs.
+description: Converts a protected handle to a Win32 handle so that it can be used with all handle-based Win32 APIs.helpviewer_keywords: ["CfGetWin32HandleFromProtectedHandle","CfGetWin32HandleFromProtectedHandle function","cfapi/CfGetWin32HandleFromProtectedHandle","cloudApi.cfgetwin32handlefromprotectedhandle"]
 old-location: cloudapi\cfgetwin32handlefromprotectedhandle.htm
 tech.root: cfApi
 ms.assetid: 8C54B6F3-7709-4021-8965-E96B74DD3319

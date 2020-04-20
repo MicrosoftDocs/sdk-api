@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackRunsLong
 title: SetThreadpoolCallbackRunsLong function (winbase.h)
-description: Indicates that callbacks associated with this callback environment may not return quickly.
+description: Indicates that callbacks associated with this callback environment may not return quickly.helpviewer_keywords: ["SetThreadpoolCallbackRunsLong","SetThreadpoolCallbackRunsLong function","base.setthreadpoolcallbackrunslong","winbase/SetThreadpoolCallbackRunsLong"]
 old-location: base\setthreadpoolcallbackrunslong.htm
 tech.root: ProcThread
 ms.assetid: 19ca0501-02d8-4851-8015-65e53d6f8074
@@ -60,15 +60,6 @@ Indicates that callbacks associated with this callback environment may not retur
 ### -param pcbe [in, out]
 
 A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a> function returns this structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

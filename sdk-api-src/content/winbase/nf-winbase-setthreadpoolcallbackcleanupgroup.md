@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackCleanupGroup
 title: SetThreadpoolCallbackCleanupGroup function (winbase.h)
-description: Associates the specified cleanup group with the specified callback environment.
+description: Associates the specified cleanup group with the specified callback environment.helpviewer_keywords: ["SetThreadpoolCallbackCleanupGroup","SetThreadpoolCallbackCleanupGroup function","base.setthreadpoolcallbackcleanupgroup","winbase/SetThreadpoolCallbackCleanupGroup"]
 old-location: base\setthreadpoolcallbackcleanupgroup.htm
 tech.root: ProcThread
 ms.assetid: 395db7ba-ff39-46ee-917b-2896a0e99d43
@@ -70,15 +70,6 @@ A <b>TP_CLEANUP_GROUP</b> structure that defines the cleanup group. The <a href=
 ### -param pfng [in, optional]
 
 The cleanup callback to be called if the cleanup group is canceled before the associated object is released. The function is called when you call <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroupmembers">CloseThreadpoolCleanupGroupMembers</a>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.OnAttributeChange
 title: ITfContextOwnerServices::OnAttributeChange (msctf.h)
-description: ITfContextOwnerServices::OnAttributeChange method
+description: ITfContextOwnerServices::OnAttributeChange methodhelpviewer_keywords: ["ITfContextOwnerServices interface [Text Services Framework]","OnAttributeChange method","ITfContextOwnerServices.OnAttributeChange","ITfContextOwnerServices::OnAttributeChange","OnAttributeChange","OnAttributeChange method [Text Services Framework]","OnAttributeChange method [Text Services Framework]","ITfContextOwnerServices interface","_tsf_itfcontextownerservices_onattributechange_ref","msctf/ITfContextOwnerServices::OnAttributeChange","tsf.itfcontextownerservices_onattributechange"]
 old-location: tsf\itfcontextownerservices_onattributechange.htm
 tech.root: TSF
 ms.assetid: 8aae92e2-ae08-4e87-88f1-ece448323866
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called by a context owner to generate notifications that a support attribute value changed.
 
 ## -parameters
 
@@ -95,5 +94,8 @@ The method was successful.
 
 A support attribute is a read-only property maintained by the context owner. The supported attributes are in the Tsattrs.h header file.
 
+## -see-also
+
+[ITfContextOwnerServices interface](nn-msctf-itfcontextownerservices.md)
 
 

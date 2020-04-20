@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromBurnMediaError
 title: IWMPEvents3::CdromBurnMediaError (wmp.h)
-description: The CdromBurnMediaError event occurs when an error happens while burning an individual media item to a CD.
+description: The CdromBurnMediaError event occurs when an error happens while burning an individual media item to a CD.helpviewer_keywords: ["CdromBurnMediaError","CdromBurnMediaError method [Windows Media Player]","CdromBurnMediaError method [Windows Media Player]","IWMPEvents3 interface","IWMPEvents3 interface [Windows Media Player]","CdromBurnMediaError method","IWMPEvents3.CdromBurnMediaError","IWMPEvents3::CdromBurnMediaError","IWMPEvents3CdromBurnMediaError","wmp.iwmpevents3_iwmpevents3__cdromburnmediaerror","wmp/IWMPEvents3::CdromBurnMediaError"]
 old-location: wmp\iwmpevents3_iwmpevents3__cdromburnmediaerror.htm
 tech.root: WMP
 ms.assetid: 4bad9de2-8899-4149-965c-7835bd854f6f
@@ -68,15 +68,6 @@ Pointer to the <b>IWMPCdromBurn</b> interface that represents the burning operat
 ### -param pMedia [in]
 
 Pointer to the <b>IDispatch</b> interface that represents the media item that raised the error. Call <b>QueryInterface</b> through this pointer to retrieve a pointer to <b>IWMPMedia</b>.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession2.ConnectUsingTransportStream
 title: IRDPSRAPISharingSession2::ConnectUsingTransportStream (rdpencomapi.h)
-description: Connects using the specified transport stream.
+description: Connects using the specified transport stream.helpviewer_keywords: ["ConnectUsingTransportStream","ConnectUsingTransportStream method [RDP]","ConnectUsingTransportStream method [RDP]","IRDPSRAPISharingSession2 interface","IRDPSRAPISharingSession2 interface [RDP]","ConnectUsingTransportStream method","IRDPSRAPISharingSession2.ConnectUsingTransportStream","IRDPSRAPISharingSession2::ConnectUsingTransportStream","rdp.irdpsrapisharingsession2_connectusingtransportstream","rdpencomapi/IRDPSRAPISharingSession2::ConnectUsingTransportStream"]
 old-location: rdp\irdpsrapisharingsession2_connectusingtransportstream.htm
 tech.root: rdp
 ms.assetid: 78f517c9-0870-4dfd-a318-3bd510e05dfa

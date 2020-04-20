@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.WakeByAddressSingle
 title: WakeByAddressSingle function (synchapi.h)
-description: Wakes one thread that is waiting for the value of an address to change.
+description: Wakes one thread that is waiting for the value of an address to change.helpviewer_keywords: ["WakeByAddressSingle","WakeByAddressSingle function","base.wakebyaddresssingle","synchapi/WakeByAddressSingle"]
 old-location: base\wakebyaddresssingle.htm
 tech.root: Sync
 ms.assetid: 4ca8f7b9-e78e-4324-9e72-84267746fe53
@@ -67,15 +67,6 @@ The address to signal. If another thread has previously called
       <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitonaddress">WaitOnAddress</a> for this address, the system wakes the 
       waiting thread. If multiple threads are waiting for this address, the system wakes the first thread to 
       wait.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

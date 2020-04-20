@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.QuadraticBezierSegment
 title: QuadraticBezierSegment function (d2d1helper.h)
-description: Creates a D2D1_QUADRATIC_BEZIER_SEGMENT structure.
+description: Creates a D2D1_QUADRATIC_BEZIER_SEGMENT structure.helpviewer_keywords: ["QuadraticBezierSegment","QuadraticBezierSegment function [Direct2D]","d2d1helper/QuadraticBezierSegment","direct2d.quadraticbeziersegment"]
 old-location: direct2d\quadraticbeziersegment.htm
 tech.root: Direct2D
 ms.assetid: 9b72e367-85dd-4a1f-a67e-34fc4b078ebe

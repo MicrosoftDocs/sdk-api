@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CoFreeLibrary
 title: CoFreeLibrary function (objbase.h)
-description: Frees a library that, when loaded, was specified to be freed explicitly.
+description: Frees a library that, when loaded, was specified to be freed explicitly.helpviewer_keywords: ["CoFreeLibrary","CoFreeLibrary function [COM]","_com_CoFreeLibrary","com.cofreelibrary","objbase/CoFreeLibrary"]
 old-location: com\cofreelibrary.htm
 tech.root: com
 ms.assetid: 3959e7d9-6220-474e-8f85-76f7f935727f
@@ -60,15 +60,6 @@ Frees a library that, when loaded, was specified to be freed explicitly.
 ### -param hInst [in]
 
 A handle to the library module to be freed, as returned by the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coloadlibrary">CoLoadLibrary</a> function.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

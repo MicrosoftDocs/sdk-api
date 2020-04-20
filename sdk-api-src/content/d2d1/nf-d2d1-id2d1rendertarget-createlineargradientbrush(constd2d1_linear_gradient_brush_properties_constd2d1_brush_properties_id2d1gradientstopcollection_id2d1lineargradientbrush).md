@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateLinearGradientBrush(const D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES,const D2D1_BRUSH_PROPERTIES,ID2D1GradientStopCollection,ID2D1LinearGradientBrush)
 title: ID2D1RenderTarget::CreateLinearGradientBrush (d2d1.h)
-description: Creates an ID2D1LinearGradientBrush object for painting areas with a linear gradient.
+description: Creates an ID2D1LinearGradientBrush object for painting areas with a linear gradient.helpviewer_keywords: ["CreateLinearGradientBrush","CreateLinearGradientBrush methods [Direct2D]","ID2D1RenderTarget.CreateLinearGradientBrush","ID2D1RenderTarget::CreateLinearGradientBrush","d2d1/CreateLinearGradientBrush","direct2d.id2d1rendertarget_createlineargradientbrush"]
 old-location: direct2d\id2d1rendertarget_createlineargradientbrush.htm
 tech.root: Direct2D
 ms.assetid: dc07113f-ff93-4b0f-8328-02dd481dccb0

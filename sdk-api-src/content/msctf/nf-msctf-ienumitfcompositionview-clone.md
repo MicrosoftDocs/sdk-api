@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumITfCompositionView.Clone
 title: IEnumITfCompositionView::Clone (msctf.h)
-description: IEnumITfCompositionView::Clone method
+description: IEnumITfCompositionView::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumITfCompositionView interface","IEnumITfCompositionView interface [Text Services Framework]","Clone method","IEnumITfCompositionView.Clone","IEnumITfCompositionView::Clone","_tsf_ienumitfcompositionview_clone_ref","msctf/IEnumITfCompositionView::Clone","tsf.ienumitfcompositionview_clone"]
 old-location: tsf\ienumitfcompositionview_clone.htm
 tech.root: TSF
 ms.assetid: 536b89ee-c2bd-4713-aa2c-2a2e4841a8de
@@ -45,16 +45,11 @@ ms.custom: 19H1
 
 # IEnumITfCompositionView::Clone
 
-
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
@@ -95,19 +90,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView
-      </a>
- 
-
- 
-
+[IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfCompositionView interface](nn-msctf-itfcompositionview.md)

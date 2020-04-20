@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollector.get_Xml
 title: IDataCollector::get_Xml (pla.h)
-description: Retrieves an XML string that describes the values of the data collector properties.
+description: Retrieves an XML string that describes the values of the data collector properties.helpviewer_keywords: ["IDataCollector interface [PLA]","Xml property","IDataCollector.Xml","IDataCollector.get_Xml","IDataCollector::Xml","IDataCollector::get_Xml","Xml property [PLA]","Xml property [PLA]","IDataCollector interface","base.idatacollector_xml","get_Xml","pla.idatacollector_xml","pla/IDataCollector::Xml","pla/IDataCollector::get_Xml"]
 old-location: pla\idatacollector_xml.htm
 tech.root: PLA
 ms.assetid: c362cd5f-2db3-40ad-8f5e-e75a40db204c

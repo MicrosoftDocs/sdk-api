@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_Task
 title: IFsrmFileManagementJob::put_Task (fsrmreports.h)
-description: The name of the scheduled task to associate with the job.
+description: The name of the scheduled task to associate with the job.helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","Task property","IFsrmFileManagementJob.Task","IFsrmFileManagementJob.put_Task","IFsrmFileManagementJob::Task","IFsrmFileManagementJob::get_Task","IFsrmFileManagementJob::put_Task","Task property [File Server Resource Manager]","Task property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_task","fsrm.ifsrmfilemanagementjob_task","fsrmreports/IFsrmFileManagementJob::Task","fsrmreports/IFsrmFileManagementJob::get_Task","fsrmreports/IFsrmFileManagementJob::put_Task","put_Task"]
 old-location: fsrm\ifsrmfilemanagementjob_task.htm
 tech.root: fsrm
 ms.assetid: ca562a21-5b0a-4726-9921-68c6a9fbde6c

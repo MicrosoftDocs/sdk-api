@@ -1,7 +1,7 @@
 ---
 UID: NN:weakreference.IWeakReference
 title: IWeakReference (weakreference.h)
-description: Represents a weak reference to an object.
+description: Represents a weak reference to an object.helpviewer_keywords: ["IWeakReference","IWeakReference interface [Windows Runtime]","IWeakReference interface [Windows Runtime]","described","weakreference/IWeakReference","winrt.iweakreference"]
 old-location: winrt\iweakreference.htm
 tech.root: WinRT
 ms.assetid: fae8bf21-2a38-4e98-9a11-89c548da9e95

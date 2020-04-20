@@ -1,7 +1,7 @@
 ---
 UID: NC:winfax.PFAXFREEBUFFER
 title: PFAXFREEBUFFER (winfax.h)
-description: The FaxFreeBuffer function releases resources associated with a buffer allocated previously as the result of a function call by a fax client application.
+description: The FaxFreeBuffer function releases resources associated with a buffer allocated previously as the result of a function call by a fax client application.helpviewer_keywords: ["FaxFreeBufferA","FaxFreeBufferW","PFAXFREEBUFFER","PFAXFREEBUFFER callback","PFAXFREEBUFFER callback function [Fax Service]","_mfax_faxfreebuffer","fax._mfax_faxfreebuffer","winfax/FaxFreeBufferA","winfax/FaxFreeBufferW","winfax/PFAXFREEBUFFER"]
 old-location: fax\_mfax_faxfreebuffer.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9xki.htm
@@ -64,15 +64,6 @@ The <b>FaxFreeBuffer</b> function releases resources associated with a buffer al
 Type: <b>LPVOID</b>
 
 Pointer to a buffer allocated on a previous call to one of the functions named in the following See Also section.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

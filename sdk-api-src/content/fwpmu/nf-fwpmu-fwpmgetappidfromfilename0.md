@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmGetAppIdFromFileName0
 title: FwpmGetAppIdFromFileName0 function (fwpmu.h)
-description: Retrieves an application identifier from a file name.
+description: Retrieves an application identifier from a file name.helpviewer_keywords: ["FwpmGetAppIdFromFileName0","FwpmGetAppIdFromFileName0 function [Filtering]","fwp.fwpmgetappidfromfilename0","fwpmu/FwpmGetAppIdFromFileName0"]
 old-location: fwp\fwpmgetappidfromfilename0.htm
 tech.root: fwp
 ms.assetid: 9bf3a101-7782-4075-bc77-a003184d0cbe

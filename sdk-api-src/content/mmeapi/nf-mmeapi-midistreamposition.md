@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.midiStreamPosition
 title: midiStreamPosition function (mmeapi.h)
-description: The midiStreamPosition function retrieves the current position in a MIDI stream.
+description: The midiStreamPosition function retrieves the current position in a MIDI stream.helpviewer_keywords: ["_win32_midiStreamPosition","midiStreamPosition","midiStreamPosition function [Windows Multimedia]","mmeapi/midiStreamPosition","multimedia.midistreamposition"]
 old-location: multimedia\midistreamposition.htm
 tech.root: Multimedia
 ms.assetid: 77d859bb-1f1b-4a95-939e-88bdf31b1959

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleacc.AccessibleChildren
 title: AccessibleChildren function (oleacc.h)
-description: Retrieves the child ID or IDispatch of each child within an accessible container object.
+description: Retrieves the child ID or IDispatch of each child within an accessible container object.helpviewer_keywords: ["AccessibleChildren","AccessibleChildren function [Windows Accessibility]","_msaa_AccessibleChildren","msaa.accessiblechildren","oleacc/AccessibleChildren","winauto.accessiblechildren"]
 old-location: winauto\accessiblechildren.htm
 tech.root: WinAuto
 ms.assetid: dc9262d8-f57f-41f8-8945-d95f38d197e9

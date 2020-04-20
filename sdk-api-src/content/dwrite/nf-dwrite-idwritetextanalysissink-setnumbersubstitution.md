@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSink.SetNumberSubstitution
 title: IDWriteTextAnalysisSink::SetNumberSubstitution (dwrite.h)
-description: Sets the number substitution on the text range affected by the text analysis.
+description: Sets the number substitution on the text range affected by the text analysis.helpviewer_keywords: ["IDWriteTextAnalysisSink interface [Direct Write]","SetNumberSubstitution method","IDWriteTextAnalysisSink.SetNumberSubstitution","IDWriteTextAnalysisSink::SetNumberSubstitution","SetNumberSubstitution","SetNumberSubstitution method [Direct Write]","SetNumberSubstitution method [Direct Write]","IDWriteTextAnalysisSink interface","directwrite.idwritetextanalysissink_setnumbersubstitution","dwrite/IDWriteTextAnalysisSink::SetNumberSubstitution"]
 old-location: directwrite\idwritetextanalysissink_setnumbersubstitution.htm
 tech.root: DirectWrite
 ms.assetid: 09b00b49-702e-4cef-bf1c-397c5d572513

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.CopyBufferRegion
 title: ID3D12GraphicsCommandList::CopyBufferRegion (d3d12.h)
-description: Copies a region of a buffer from one resource to another.
+description: Copies a region of a buffer from one resource to another.helpviewer_keywords: ["CopyBufferRegion","CopyBufferRegion method","CopyBufferRegion method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","CopyBufferRegion method","ID3D12GraphicsCommandList.CopyBufferRegion","ID3D12GraphicsCommandList::CopyBufferRegion","d3d12/ID3D12GraphicsCommandList::CopyBufferRegion","direct3d12.id3d12graphicscommandlist_copybufferregion"]
 old-location: direct3d12\id3d12graphicscommandlist_copybufferregion.htm
 tech.root: direct3d12
 ms.assetid: 46F89B85-EDAA-4095-B6C6-4CC47F972F09
@@ -96,16 +96,6 @@ Type: <b>UINT64</b>
 
 Specifies the number of bytes to copy.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

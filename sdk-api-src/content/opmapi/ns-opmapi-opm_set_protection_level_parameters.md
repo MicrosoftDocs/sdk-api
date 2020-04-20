@@ -1,7 +1,7 @@
 ---
 UID: NS:opmapi._OPM_SET_PROTECTION_LEVEL_PARAMETERS
 title: OPM_SET_PROTECTION_LEVEL_PARAMETERS (opmapi.h)
-description: Contains data for the OPM_SET_PROTECTION_LEVEL command in Output Protection Manager (OPM).
+description: Contains data for the OPM_SET_PROTECTION_LEVEL command in Output Protection Manager (OPM).helpviewer_keywords: ["OPM_SET_PROTECTION_LEVEL_PARAMETERS","OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Media Foundation]","mf.opm_set_protection_level_parameters","opmapi/OPM_SET_PROTECTION_LEVEL_PARAMETERS"]
 old-location: mf\opm_set_protection_level_parameters.htm
 tech.root: medfound
 ms.assetid: 074c30b2-ad79-4ace-89fb-859fac016ebf

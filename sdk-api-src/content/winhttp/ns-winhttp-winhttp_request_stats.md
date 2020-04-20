@@ -1,7 +1,7 @@
 ---
 UID: NS:winhttp._WINHTTP_REQUEST_STATS
 title: WINHTTP_REQUEST_STATS (winhttp.h)
-description: The WINHTTP_REQUEST_STATS structure contains a variety of statistics for a request.
+description: The WINHTTP_REQUEST_STATS structure contains a variety of statistics for a request.helpviewer_keywords: ["*PWINHTTP_REQUEST_STATS","WINHTTP_REQUEST_STATS","WINHTTP_REQUEST_STATS structure [HTTP]","http.winhttp_request_stats","winhttp/WINHTTP_REQUEST_STATS","WINHTTP_OPTION_REQUEST_STATS"]
 old-location:
 tech.root: WinHttp
 ms.assetid: 7c65777e-24eb-4713-a7b8-7263a217e8ba
@@ -43,16 +43,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WINHTTP_REQUEST_STATS structure
-
-
 ## -description
 
 The **WINHTTP\_REQUEST\_STATS** structure contains a variety of statistics for a request.
 
-
 ## -struct-fields
-
 
 ### -field ullFlags
 
@@ -71,21 +66,17 @@ Flags containing details on how the request was made. The following flags are av
 
 The index of the request on the connection. This indicates how many prior requests were sent over the shared connection.
 
-
 ### -field cStats
 
 Unsigned long integer value that contains the number of statistics to retrieve. This should generally be set to **WinHttpRequestStatLast**.
-
 
 ### -field rgullStats
 
 Array of unsigned long long integer values that will contain the returned statistics, indexed by [**WINHTTP\_REQUEST\_STAT\_ENTRY**](/windows/desktop/api/winhttp/ne-winhttp-winhttp_request_stat_entry).
 
-
 ## -remarks
 
 This structure is used with [WinHttpQueryOption](/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption) to retrieve statistics for a request by specifying the **WINHTTP\_OPTION\_REQUEST\_STATS** flag.
-
 
 ## -see-also
 

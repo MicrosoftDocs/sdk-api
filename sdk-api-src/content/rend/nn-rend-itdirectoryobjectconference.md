@@ -1,7 +1,7 @@
 ---
 UID: NN:rend.ITDirectoryObjectConference
 title: ITDirectoryObjectConference (rend.h)
-description: The ITDirectoryObjectConference interface provides methods that allow an application to set and get conference details. The ITDirectoryObjectConference interface is created by calling QueryInterface on ITDirectoryObject.
+description: The ITDirectoryObjectConference interface provides methods that allow an application to set and get conference details. The ITDirectoryObjectConference interface is created by calling QueryInterface on ITDirectoryObject.helpviewer_keywords: ["ITDirectoryObjectConference","ITDirectoryObjectConference interface [TAPI 2.2]","ITDirectoryObjectConference interface [TAPI 2.2]","described","_tapi3_itdirectoryobjectconference","rend/ITDirectoryObjectConference","tapi3.itdirectoryobjectconference"]
 old-location: tapi3\itdirectoryobjectconference.htm
 tech.root: Tapi
 ms.assetid: bab167cf-2726-4423-87b3-69227404bddc

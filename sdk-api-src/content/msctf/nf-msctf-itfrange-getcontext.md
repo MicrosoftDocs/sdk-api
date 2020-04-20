@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRange.GetContext
 title: ITfRange::GetContext (msctf.h)
-description: ITfRange::GetContext method
+description: ITfRange::GetContext methodhelpviewer_keywords: ["GetContext","GetContext method [Text Services Framework]","GetContext method [Text Services Framework]","ITfRange interface","ITfRange interface [Text Services Framework]","GetContext method","ITfRange.GetContext","ITfRange::GetContext","_tsf_itfrange_getcontext_ref","msctf/ITfRange::GetContext","tsf.itfrange_getcontext"]
 old-location: tsf\itfrange_getcontext.htm
 tech.root: TSF
 ms.assetid: c3ba1424-f6c9-41f1-b815-4c315bfba868
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the context object to which the range belongs.
 
 ## -parameters
 

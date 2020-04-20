@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.DeleteItem
 title: IFileOperation::DeleteItem (shobjidl_core.h)
-description: Declares a single item that is to be deleted.
+description: Declares a single item that is to be deleted.helpviewer_keywords: ["DeleteItem","DeleteItem method [Windows Shell]","DeleteItem method [Windows Shell]","IFileOperation interface","IFileOperation interface [Windows Shell]","DeleteItem method","IFileOperation.DeleteItem","IFileOperation::DeleteItem","_shell_IFileOperation_DeleteItem","shell.IFileOperation_DeleteItem","shobjidl_core/IFileOperation::DeleteItem"]
 old-location: shell\IFileOperation_DeleteItem.htm
 tech.root: shell
 ms.assetid: 177ce480-0309-4ec8-a6f2-0be9196bd2c8

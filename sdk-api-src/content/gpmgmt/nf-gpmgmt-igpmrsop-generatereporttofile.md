@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.GenerateReportToFile
 title: IGPMRSOP::GenerateReportToFile (gpmgmt.h)
-description: The GenerateReportToFile method generates a report on the RSoP data and saves it to a file at a specified path.
+description: The GenerateReportToFile method generates a report on the RSoP data and saves it to a file at a specified path.helpviewer_keywords: ["GenerateReportToFile","GenerateReportToFile method [GPMC]","GenerateReportToFile method [GPMC]","IGPMRSOP interface","IGPMRSOP interface [GPMC]","GenerateReportToFile method","IGPMRSOP.GenerateReportToFile","IGPMRSOP::GenerateReportToFile","gpmc.igpmrsop_generatereporttofile","gpmgmt/IGPMRSOP::GenerateReportToFile"]
 old-location: gpmc\igpmrsop_generatereporttofile.htm
 tech.root: gpmc
 ms.assetid: 92a199d6-244f-44e5-8158-d77b8488fde0

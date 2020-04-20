@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetCapabilities
 title: ISyncMgrSyncItem::GetCapabilities (syncmgr.h)
-description: Gets a set of flags describing the item's defined capabilities.
+description: Gets a set of flags describing the item's defined capabilities.helpviewer_keywords: ["GetCapabilities","GetCapabilities method [Windows Shell]","GetCapabilities method [Windows Shell]","ISyncMgrSyncItem interface","ISyncMgrSyncItem interface [Windows Shell]","GetCapabilities method","ISyncMgrSyncItem.GetCapabilities","ISyncMgrSyncItem::GetCapabilities","_shell_ISyncMgrSyncItem_GetCapabilities","shell.ISyncMgrSyncItem_GetCapabilities","syncmgr/ISyncMgrSyncItem::GetCapabilities"]
 old-location: shell\ISyncMgrSyncItem_GetCapabilities.htm
 tech.root: shell
 ms.assetid: 6cb98b83-cf17-451c-ba29-700408f474c7

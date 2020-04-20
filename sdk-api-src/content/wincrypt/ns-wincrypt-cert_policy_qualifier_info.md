@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_POLICY_QUALIFIER_INFO
 title: CERT_POLICY_QUALIFIER_INFO (wincrypt.h)
-description: The CERT_POLICY_QUALIFIER_INFO structure contains an object identifier (OID) specifying the qualifier and qualifier-specific supplemental information.
+description: The CERT_POLICY_QUALIFIER_INFO structure contains an object identifier (OID) specifying the qualifier and qualifier-specific supplemental information.helpviewer_keywords: ["*PCERT_POLICY_QUALIFIER_INFO","CERT_POLICY_QUALIFIER_INFO","CERT_POLICY_QUALIFIER_INFO structure [Security]","PCERT_POLICY_QUALIFIER_INFO","PCERT_POLICY_QUALIFIER_INFO structure pointer [Security]","_crypto2_cert_policy_qualifier_info","security.cert_policy_qualifier_info","wincrypt/CERT_POLICY_QUALIFIER_INFO","wincrypt/PCERT_POLICY_QUALIFIER_INFO"]
 old-location: security\cert_policy_qualifier_info.htm
 tech.root: SecCrypto
 ms.assetid: 86b1716d-541f-4e06-a824-01c22f0eba27

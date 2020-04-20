@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRSETICMPROFILE
 title: EMRSETICMPROFILE (wingdi.h)
-description: The EMRSETICMPROFILE structure contains members for the SetICMProfile enhanced metafile record.
+description: The EMRSETICMPROFILE structure contains members for the SetICMProfile enhanced metafile record.helpviewer_keywords: ["*PEMRSETICMPROFILE","*PEMRSETICMPROFILEA","*PEMRSETICMPROFILEW","EMRSETICMPROFILE","EMRSETICMPROFILE structure [Windows GDI]","EMRSETICMPROFILEA","EMRSETICMPROFILEA structure [Windows GDI]","EMRSETICMPROFILEW","EMRSETICMPROFILEW structure [Windows GDI]","PEMRSETICMPROFILE","PEMRSETICMPROFILE structure pointer [Windows GDI]","PEMRSETICMPROFILEA","PEMRSETICMPROFILEA structure pointer [Windows GDI]","PEMRSETICMPROFILEW","PEMRSETICMPROFILEW structure pointer [Windows GDI]","_win32_EMRSETICMPROFILE_str","gdi.emrseticmprofile","wingdi/EMRSETICMPROFILE","wingdi/EMRSETICMPROFILEA","wingdi/EMRSETICMPROFILEW","wingdi/PEMRSETICMPROFILE","wingdi/PEMRSETICMPROFILEA","wingdi/PEMRSETICMPROFILEW"]
 old-location: gdi\emrseticmprofile.htm
 tech.root: gdi
 ms.assetid: 2f43db1e-95eb-4812-9422-ddc9df634c15

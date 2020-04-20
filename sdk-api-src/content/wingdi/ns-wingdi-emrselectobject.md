@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRSELECTOBJECT
 title: EMRSELECTOBJECT (wingdi.h)
-description: The EMRSELECTOBJECT and EMRDELETEOBJECT structures contain members for the SelectObject and DeleteObject enhanced metafile records.
+description: The EMRSELECTOBJECT and EMRDELETEOBJECT structures contain members for the SelectObject and DeleteObject enhanced metafile records.helpviewer_keywords: ["*PEMRDELETEOBJECT","*PEMRSELECTOBJECT","EMRDELETEOBJECT","EMRDELETEOBJECT structure [Windows GDI]","EMRSELECTOBJECT","EMRSELECTOBJECT structure [Windows GDI]","EMRSELECTOBJECT","EMRDELETEOBJECT","EMRSELECTOBJECT","EMRDELETEOBJECT structure [Windows GDI]","PEMRDELETEOBJECT","PEMRDELETEOBJECT structure pointer [Windows GDI]","PEMRSELECTOBJECT","PEMRSELECTOBJECT structure pointer [Windows GDI]","_win32_EMRSELECTOBJECT_str","gdi.emrselectobject__emrdeleteobject","wingdi/EMRDELETEOBJECT","wingdi/EMRSELECTOBJECT","EMRDELETEOBJECT","wingdi/PEMRDELETEOBJECT","wingdi/PEMRSELECTOBJECT"]
 old-location: gdi\emrselectobject__emrdeleteobject.htm
 tech.root: gdi
 ms.assetid: 02ec5839-3390-429b-8f0c-6f2e74393c8f

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.CreateRangeBackup
 title: ITfContext::CreateRangeBackup (msctf.h)
-description: ITfContext::CreateRangeBackup method
+description: ITfContext::CreateRangeBackup methodhelpviewer_keywords: ["CreateRangeBackup","CreateRangeBackup method [Text Services Framework]","CreateRangeBackup method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","CreateRangeBackup method","ITfContext.CreateRangeBackup","ITfContext::CreateRangeBackup","_tsf_itfcontext_createrangebackup_ref","msctf/ITfContext::CreateRangeBackup","tsf.itfcontext_createrangebackup"]
 old-location: tsf\itfcontext_createrangebackup.htm
 tech.root: TSF
 ms.assetid: c3b52170-af1b-407b-9160-1265ae3c9afc
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates a backup of a range.
 
 ## -parameters
 
@@ -165,35 +164,4 @@ This method creates a copy of the range that it can use to restore the data in <
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangebackup">ITfRangeBackup
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrangebackup-restore">ITfRangeBackup::Restore
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges: Clones and Backups</a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfRangeBackup interface](nn-msctf-itfrangebackup.md), [ITfRangeBackup::Restore](nf-msctf-itfrangebackup-restore.md), [Ranges: Clones and Backups](/windows/desktop/TSF/ranges)

@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetId
 title: IOpcRelationship::GetId (msopc.h)
-description: Gets the unique identifier of the relationship.
+description: Gets the unique identifier of the relationship.helpviewer_keywords: ["GetId","GetId method [Open Packaging Conventions]","GetId method [Open Packaging Conventions]","IOpcRelationship interface","IOpcRelationship interface [Open Packaging Conventions]","GetId method","IOpcRelationship.GetId","IOpcRelationship::GetId","msopc/IOpcRelationship::GetId","opc.iopcrelationship_getid"]
 old-location: opc\iopcrelationship_getid.htm
 tech.root: OPC
 ms.assetid: 8646d592-d568-4b82-80f3-2673cd0d2721

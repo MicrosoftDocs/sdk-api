@@ -1,7 +1,7 @@
 ---
 UID: NN:bits2_0.IBackgroundCopyJob3
 title: IBackgroundCopyJob3 (bits2_0.h)
-description: Use the IBackgroundCopyJob3 interface to download ranges of a file and change the prefix of a remote file name.
+description: Use the IBackgroundCopyJob3 interface to download ranges of a file and change the prefix of a remote file name.helpviewer_keywords: ["IBackgroundCopyJob3","IBackgroundCopyJob3 interface [BITS]","IBackgroundCopyJob3 interface [BITS]","described","bits.ibackgroundcopyjob3","bits2_0/IBackgroundCopyJob3"]
 old-location: bits\ibackgroundcopyjob3.htm
 tech.root: Bits
 ms.assetid: 46e115bb-2634-4b79-b307-45720d8cb2be

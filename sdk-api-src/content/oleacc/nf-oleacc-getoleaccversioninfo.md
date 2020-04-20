@@ -1,7 +1,7 @@
 ---
 UID: NF:oleacc.GetOleaccVersionInfo
 title: GetOleaccVersionInfo function (oleacc.h)
-description: Retrieves the version number and build number of the Microsoft Active Accessibility file Oleacc.dll.
+description: Retrieves the version number and build number of the Microsoft Active Accessibility file Oleacc.dll.helpviewer_keywords: ["GetOleaccVersionInfo","GetOleaccVersionInfo function [Windows Accessibility]","_msaa_GetOleaccVersionInfo","msaa.getoleaccversioninfo","oleacc/GetOleaccVersionInfo","winauto.getoleaccversioninfo"]
 old-location: winauto\getoleaccversioninfo.htm
 tech.root: WinAuto
 ms.assetid: 96dcdb85-4f35-4274-ba57-2f565c3ebb5f
@@ -69,15 +69,6 @@ Address of a <b>DWORD</b> that receives the version number. The major version nu
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Address of a <b>DWORD</b> that receives the build number. The major build number is placed in the high word, and the minor build number is placed in the low word.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

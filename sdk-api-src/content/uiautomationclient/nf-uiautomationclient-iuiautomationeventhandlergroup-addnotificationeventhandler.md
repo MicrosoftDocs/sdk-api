@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddNotificationEventHandler
 title: IUIAutomationEventHandlerGroup::AddNotificationEventHandler (uiautomationclient.h)
-description: Registers a method that handles notification events.
+description: Registers a method that handles notification events.helpviewer_keywords: ["AddNotificationEventHandler","AddNotificationEventHandler method [Windows Accessibility]","AddNotificationEventHandler method [Windows Accessibility]","IUIAutomationEventHandlerGroup interface","IUIAutomationEventHandlerGroup interface [Windows Accessibility]","AddNotificationEventHandler method","IUIAutomationEventHandlerGroup.AddNotificationEventHandler","IUIAutomationEventHandlerGroup::AddNotificationEventHandler","uiautomationclient/IUIAutomationEventHandlerGroup::AddNotificationEventHandler","winauto.uiauto_iuiautomationeventhandlergroup_addnotificationeventhandler"]
 old-location: winauto\uiauto_iuiautomationeventhandlergroup_addnotificationeventhandler.htm
 tech.root: WinAuto
 ms.assetid: B7597727-76B9-4D8E-B247-6461815FA57E

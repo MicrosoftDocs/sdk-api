@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.NdrOleFree
 title: NdrOleFree function (rpcndr.h)
-description: The NdrOleFree function is a wrapper for the CoTaskMemFree function.
+description: The NdrOleFree function is a wrapper for the CoTaskMemFree function.helpviewer_keywords: ["NdrOleFree","NdrOleFree function [RPC]","rpc.ndrolefree","rpcndr/NdrOleFree"]
 old-location: rpc\ndrolefree.htm
 tech.root: Rpc
 ms.assetid: c4289448-11bb-40d1-ae63-68521b901796
@@ -60,13 +60,5 @@ The <b>NdrOleFree</b> function is a wrapper for the <a href="https://docs.micros
 ### -param NodeToFree [in]
 
 Pointer to the memory to be freed.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationFilter.get_Applications
 title: IRDPSRAPIApplicationFilter::get_Applications (rdpencomapi.h)
-description: The list of sharable applications.
+description: The list of sharable applications.helpviewer_keywords: ["Applications property [RDP]","Applications property [RDP]","IRDPSRAPIApplicationFilter interface","Applications property [RDP]","RDPSRAPIApplicationFilter object","IRDPSRAPIApplicationFilter interface [RDP]","Applications property","IRDPSRAPIApplicationFilter.Applications","IRDPSRAPIApplicationFilter.get_Applications","IRDPSRAPIApplicationFilter::Applications","IRDPSRAPIApplicationFilter::get_Applications","RDPSRAPIApplicationFilter object [RDP]","Applications property","get_Applications","rdp.irdpsrapiapplicationfilter_applications","rdpencomapi/IRDPSRAPIApplicationFilter::Applications","rdpencomapi/IRDPSRAPIApplicationFilter::get_Applications"]
 old-location: rdp\irdpsrapiapplicationfilter_applications.htm
 tech.root: rdp
 ms.assetid: 08704192-320d-44f2-a811-f8565285bd30

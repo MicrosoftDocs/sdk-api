@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IServicePoolConfig
 title: IServicePoolConfig (comsvcs.h)
-description: Used to configure an object pool.
+description: Used to configure an object pool.helpviewer_keywords: ["IServicePoolConfig","IServicePoolConfig interface [COM+]","IServicePoolConfig interface [COM+]","described","_cos_IServicePoolConfig","comsvcs/IServicePoolConfig","cos.iservicepoolconfig"]
 old-location: cos\iservicepoolconfig.htm
 tech.root: cossdk
 ms.assetid: 026abfcf-56b5-4821-a9d4-37beeb3a052b

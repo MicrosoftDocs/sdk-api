@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.IDMLDebugDevice.SetMuteDebugOutput
 title: IDMLDebugDevice::SetMuteDebugOutput
-description: Determine whether to mute DirectML from sending messages to the ID3D12InfoQueue.
+description: Determine whether to mute DirectML from sending messages to the ID3D12InfoQueue.helpviewer_keywords: ["IDMLDebugDevice interface","SetMuteDebugOutput method","IDMLDebugDevice.SetMuteDebugOutput","IDMLDebugDevice::SetMuteDebugOutput","SetMuteDebugOutput","SetMuteDebugOutput method","SetMuteDebugOutput method","IDMLDebugDevice interface","direct3d12.idmldebugdevice_setmutedebugoutput","directml/IDMLDebugDevice::SetMuteDebugOutput"]
 old-location: direct3d12\idmldebugdevice_setmutedebugoutput.htm
 tech.root: direct3d12
 ms.assetid: 74BA5FE6-1197-4BF0-A5FE-FAFE650C4C8E
@@ -56,10 +56,6 @@ Determine whether to mute DirectML from sending messages to the <a href="https:/
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If <b>TRUE</b>, DirectML is muted, and it will not send messages to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>. If <b>FALSE</b>, DirectML is not muted, and it will send messages to the <b>ID3D12InfoQueue</b>. The default value is <b>FALSE</b>.
-
-## -returns
-
-This method doesn't return a value.
 
 ## -see-also
 

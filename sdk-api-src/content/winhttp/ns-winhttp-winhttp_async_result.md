@@ -1,7 +1,7 @@
 ---
-UID: NS:winhttp._WINHTTP_ASYNC_RESULT
+UID: NS:winhttp.__unnamed_struct_0
 title: WINHTTP_ASYNC_RESULT (winhttp.h)
-description: The WINHTTP_ASYNC_RESULT structure contains the result of a call to an asynchronous function. This structure is used with the WINHTTP_STATUS_CALLBACK prototype.
+description: The WINHTTP_ASYNC_RESULT structure contains the result of a call to an asynchronous function. This structure is used with the WINHTTP_STATUS_CALLBACK prototype.helpviewer_keywords: ["*LPWINHTTP_ASYNC_RESULT","API_QUERY_DATA_AVAILABLE","API_READ_DATA","API_RECEIVE_RESPONSE","API_SEND_REQUEST","API_WRITE_DATA","WINHTTP_ASYNC_RESULT","WINHTTP_ASYNC_RESULT structure [HTTP]","http.winhttp_async_result","winhttp.winhttp_async_result_structure","winhttp/WINHTTP_ASYNC_RESULT"]
 old-location: http\winhttp_async_result.htm
 tech.root: WinHttp
 ms.assetid: 31544ef1-2532-4e44-8747-7a693cef9ccd
@@ -43,20 +43,12 @@ req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and W
 ms.custom: 19H1
 ---
 
-# WINHTTP_ASYNC_RESULT structure
-
-
 ## -description
-
 
 The <b>WINHTTP_ASYNC_RESULT</b> structure contains the result of a call to an asynchronous function. This structure is used with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_STATUS_CALLBACK</a> prototype.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwResult
 
@@ -128,32 +120,18 @@ The error occurred during a call to
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwError
 
 Contains the error code if 
 <b>dwResult</b> indicates that the function failed.
 
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
- 
-
- 
-

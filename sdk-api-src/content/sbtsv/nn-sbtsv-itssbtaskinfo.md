@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbTaskInfo
 title: ITsSbTaskInfo (sbtsv.h)
-description: Exposes properties that the Remote Desktop Connection Broker uses to set a plugin’s queue.
+description: Exposes properties that the Remote Desktop Connection Broker uses to set a plugin’s queue.helpviewer_keywords: ["ITsSbTaskInfo","ITsSbTaskInfo interface [Remote Desktop Services]","ITsSbTaskInfo interface [Remote Desktop Services]","described","sbtsv/ITsSbTaskInfo","termserv.itssbtaskinfo"]
 old-location: termserv\itssbtaskinfo.htm
 tech.root: TermServ
 ms.assetid: d24c1a64-e006-4229-a675-54f29b8ac1c2

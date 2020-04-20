@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite.IDWriteFontFileStream
 title: IDWriteFontFileStream (dwrite.h)
-description: Loads font file data from a custom font file loader.
+description: Loads font file data from a custom font file loader.helpviewer_keywords: ["IDWriteFontFileStream","IDWriteFontFileStream interface [Direct Write]","IDWriteFontFileStream interface [Direct Write]","described","directwrite.IDWriteFontFileStream","dwrite/IDWriteFontFileStream"]
 old-location: directwrite\IDWriteFontFileStream.htm
 tech.root: DirectWrite
 ms.assetid: 792ab9be-853f-427d-a762-2da8e81423f8

@@ -1,7 +1,7 @@
 ---
 UID: NE:wtypesbase.tagMSHLFLAGS
 title: MSHLFLAGS (wtypesbase.h)
-description: Specifies why the marshaling is to be done.
+description: Specifies why the marshaling is to be done.helpviewer_keywords: ["MSHLFLAGS","MSHLFLAGS enumeration [COM]","MSHLFLAGS_NOPING","MSHLFLAGS_NORMAL","MSHLFLAGS_TABLESTRONG","MSHLFLAGS_TABLEWEAK","_com_MSHLFLAGS","com.mshlflags","wtypesbase/MSHLFLAGS","wtypesbase/MSHLFLAGS_NOPING","wtypesbase/MSHLFLAGS_NORMAL","wtypesbase/MSHLFLAGS_TABLESTRONG","wtypesbase/MSHLFLAGS_TABLEWEAK"]
 old-location: com\mshlflags.htm
 tech.root: com
 ms.assetid: 42a482be-d4b8-4f2e-ae43-1d210cb44c7c

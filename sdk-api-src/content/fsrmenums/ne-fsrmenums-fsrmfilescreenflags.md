@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._FsrmFileScreenFlags
 title: FsrmFileScreenFlags (fsrmenums.h)
-description: Defines the options for failing IO operations that violate a file screen.
+description: Defines the options for failing IO operations that violate a file screen.helpviewer_keywords: ["FsrmFileScreenFlags","FsrmFileScreenFlags enumeration [File Server Resource Manager]","FsrmFileScreenFlags_Enforce","fs.fsrmfilescreenflags","fsrm.fsrmfilescreenflags","fsrmenums/FsrmFileScreenFlags","fsrmenums/FsrmFileScreenFlags_Enforce"]
 old-location: fsrm\fsrmfilescreenflags.htm
 tech.root: fsrm
 ms.assetid: 5f0029e5-fe0a-453e-b226-6d4f31f650c5

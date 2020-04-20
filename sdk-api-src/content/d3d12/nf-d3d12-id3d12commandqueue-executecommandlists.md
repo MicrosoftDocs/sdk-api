@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.ExecuteCommandLists
 title: ID3D12CommandQueue::ExecuteCommandLists (d3d12.h)
-description: Submits an array of command lists for execution.
+description: Submits an array of command lists for execution.helpviewer_keywords: ["ExecuteCommandLists","ExecuteCommandLists method","ExecuteCommandLists method","ID3D12CommandQueue interface","ID3D12CommandQueue interface","ExecuteCommandLists method","ID3D12CommandQueue.ExecuteCommandLists","ID3D12CommandQueue::ExecuteCommandLists","d3d12/ID3D12CommandQueue::ExecuteCommandLists","direct3d12.id3d12commandqueue_executecommandlists"]
 old-location: direct3d12\id3d12commandqueue_executecommandlists.htm
 tech.root: direct3d12
 ms.assetid: 653C15CD-0996-4B3B-A5F6-3E85CD0516AD
@@ -67,15 +67,6 @@ The number of command lists to be executed.
 
 The array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a> command lists to be executed.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

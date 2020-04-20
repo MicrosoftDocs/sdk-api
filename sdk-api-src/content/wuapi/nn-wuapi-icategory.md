@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.ICategory
 title: ICategory (wuapi.h)
-description: Represents the category to which an update belongs.
+description: Represents the category to which an update belongs.helpviewer_keywords: ["ICategory","ICategory interface [Windows Update Agent]","ICategory interface [Windows Update Agent]","described","wua.icategory","wuapi/ICategory"]
 old-location: wua\icategory.htm
 tech.root: Wua_Sdk
 ms.assetid: 1ae4ab27-97f3-494b-acd2-991dccf56011

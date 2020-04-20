@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara2.SetFontAlignment
 title: ITextPara2::SetFontAlignment (tom.h)
-description: Sets the paragraph font alignment for Chinese, Japanese, Korean text.
+description: Sets the paragraph font alignment for Chinese, Japanese, Korean text.helpviewer_keywords: ["ITextPara2 interface [Windows Controls]","SetFontAlignment method","ITextPara2.SetFontAlignment","ITextPara2::SetFontAlignment","SetFontAlignment","SetFontAlignment method [Windows Controls]","SetFontAlignment method [Windows Controls]","ITextPara2 interface","controls.itextpara2_setfontalignment","tom/ITextPara2::SetFontAlignment"]
 old-location: controls\itextpara2_setfontalignment.htm
 tech.root: Controls
 ms.assetid: 2ed1f7f2-9523-4dda-bac0-c1eb3d217102

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.GetEntryCount
 title: ITocEntryList::GetEntryCount (wmcodecdsp.h)
-description: The GetEntryCount method retrieves the number of entries in the list.
+description: The GetEntryCount method retrieves the number of entries in the list.helpviewer_keywords: ["GetEntryCount","GetEntryCount method [Media Foundation]","GetEntryCount method [Media Foundation]","ITocEntryList interface","ITocEntryList interface [Media Foundation]","GetEntryCount method","ITocEntryList.GetEntryCount","ITocEntryList::GetEntryCount","codecapi.itocentrylist_getentrycount","mf.itocentrylist_getentrycount","wmcodecdsp/ITocEntryList::GetEntryCount"]
 old-location: mf\itocentrylist_getentrycount.htm
 tech.root: medfound
 ms.assetid: 74c45032-578d-4ee1-a13d-f95646f27ce9

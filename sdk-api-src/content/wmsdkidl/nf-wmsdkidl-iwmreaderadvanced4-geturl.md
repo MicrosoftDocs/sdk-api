@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.GetURL
 title: IWMReaderAdvanced4::GetURL (wmsdkidl.h)
-description: The GetURL method retrieves the URL of the file being read. This URL might be different from the URL that was passed to IWMReader::Open, because the reader might have been redirected.
+description: The GetURL method retrieves the URL of the file being read. This URL might be different from the URL that was passed to IWMReader::Open, because the reader might have been redirected.helpviewer_keywords: ["GetURL","GetURL method [windows Media Format]","GetURL method [windows Media Format]","IWMReaderAdvanced4 interface","IWMReaderAdvanced4 interface [windows Media Format]","GetURL method","IWMReaderAdvanced4.GetURL","IWMReaderAdvanced4::GetURL","IWMReaderAdvanced4GetURL","wmformat.iwmreaderadvanced4_geturl","wmsdkidl/IWMReaderAdvanced4::GetURL"]
 old-location: wmformat\iwmreaderadvanced4_geturl.htm
 tech.root: wmformat
 ms.assetid: 1c17be57-da35-40f2-a216-97d6953c7311

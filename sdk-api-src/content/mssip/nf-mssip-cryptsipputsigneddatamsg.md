@@ -1,7 +1,7 @@
 ---
 UID: NF:mssip.CryptSIPPutSignedDataMsg
 title: CryptSIPPutSignedDataMsg function (mssip.h)
-description: Stores an Authenticode signature in the target file.
+description: Stores an Authenticode signature in the target file.helpviewer_keywords: ["CryptSIPPutSignedDataMsg","CryptSIPPutSignedDataMsg function [Security]","PKCS_7_ASN_ENCODING","X509_ASN_ENCODING","mssip/CryptSIPPutSignedDataMsg","security.cryptsipputsigneddatamsg"]
 old-location: security\cryptsipputsigneddatamsg.htm
 tech.root: SecCrypto
 ms.assetid: 731f64bf-49f0-4799-b84a-9ca04292aa91

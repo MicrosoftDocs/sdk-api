@@ -1,7 +1,7 @@
 ---
 UID: NE:cmdtree.DBVALUEKINDENUM
 title: DBVALUEKINDENUM (cmdtree.h)
-description: The DBVALUEKINDENUM enumerated type is used to indicate the type of the union member inside a DBCOMMANDTREE structure.
+description: The DBVALUEKINDENUM enumerated type is used to indicate the type of the union member inside a DBCOMMANDTREE structure.helpviewer_keywords: ["DBVALUEKINDENUM","DBVALUEKINDENUM enumeration [Indexing Service]","See below.","_idxs_DBVALUEKINDENUM","cmdtree/DBVALUEKINDENUM","cmdtree/See below.","indexsrv.dbvaluekindenum"]
 old-location: indexsrv\dbvaluekindenum.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_8565.htm

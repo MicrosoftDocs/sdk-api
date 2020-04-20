@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.IsWindow
 title: IsWindow function (winuser.h)
-description: Determines whether the specified window handle identifies an existing window.
+description: Determines whether the specified window handle identifies an existing window.helpviewer_keywords: ["IsWindow","IsWindow function [Windows and Messages]","_win32_IsWindow","_win32_iswindow_cpp","winmsg.iswindow","winui._win32_iswindow","winuser/IsWindow"]
 old-location: winmsg\iswindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\iswindow.htm

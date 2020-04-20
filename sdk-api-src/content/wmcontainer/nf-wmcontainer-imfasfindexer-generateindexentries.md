@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GenerateIndexEntries
 title: IMFASFIndexer::GenerateIndexEntries (wmcontainer.h)
-description: Accepts an ASF packet for the file and creates index entries for them.
+description: Accepts an ASF packet for the file and creates index entries for them.helpviewer_keywords: ["GenerateIndexEntries","GenerateIndexEntries method [Media Foundation]","GenerateIndexEntries method [Media Foundation]","IMFASFIndexer interface","IMFASFIndexer interface [Media Foundation]","GenerateIndexEntries method","IMFASFIndexer.GenerateIndexEntries","IMFASFIndexer::GenerateIndexEntries","febc5335-a8e8-4ae9-afb2-17f09b750477","mf.imfasfindexer_generateindexentries","wmcontainer/IMFASFIndexer::GenerateIndexEntries"]
 old-location: mf\imfasfindexer_generateindexentries.htm
 tech.root: medfound
 ms.assetid: febc5335-a8e8-4ae9-afb2-17f09b750477

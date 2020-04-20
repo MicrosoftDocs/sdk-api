@@ -1,7 +1,7 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_ARRAY
 title: EAP_METHOD_PROPERTY_ARRAY (eaptypes.h)
-description: Contains an array of EAP method properties.
+description: Contains an array of EAP method properties.helpviewer_keywords: ["EAP_METHOD_PROPERTY_ARRAY","EAP_METHOD_PROPERTY_ARRAY structure [EAPHost]","PEAP_METHOD_PROPERTY_ARRAY","PEAP_METHOD_PROPERTY_ARRAY structure pointer [EAPHost]","eaphost.eap_method_property_array","eaptypes/EAP_METHOD_PROPERTY_ARRAY","eaptypes/PEAP_METHOD_PROPERTY_ARRAY"]
 old-location: eaphost\eap_method_property_array.htm
 tech.root: eaphost
 ms.assetid: 1dfe2fb2-a4e5-4c14-8cde-083e45134f7b

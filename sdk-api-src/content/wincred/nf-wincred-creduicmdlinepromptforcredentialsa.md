@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredUICmdLinePromptForCredentialsA
 title: CredUICmdLinePromptForCredentialsA function (wincred.h)
-description: Prompts for and accepts credential information from a user working in a command-line (console) application. The name and password typed by the user are passed back to the calling application for verification.
+description: Prompts for and accepts credential information from a user working in a command-line (console) application. The name and password typed by the user are passed back to the calling application for verification.helpviewer_keywords: ["CREDUI_FLAGS_ALWAYS_SHOW_UI","CREDUI_FLAGS_DO_NOT_PERSIST","CREDUI_FLAGS_EXCLUDE_CERTIFICATES","CREDUI_FLAGS_EXPECT_CONFIRMATION","CREDUI_FLAGS_GENERIC_CREDENTIALS","CREDUI_FLAGS_INCORRECT_PASSWORD","CREDUI_FLAGS_PERSIST","CREDUI_FLAGS_REQUEST_ADMINISTRATOR","CREDUI_FLAGS_REQUIRE_CERTIFICATE","CREDUI_FLAGS_REQUIRE_SMARTCARD","CREDUI_FLAGS_SERVER_CREDENTIAL","CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX","CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS","CredUICmdLinePromptForCredentials","CredUICmdLinePromptForCredentials function [Security]","CredUICmdLinePromptForCredentialsA","CredUICmdLinePromptForCredentialsW","_cred_creduicmdlinepromptforcredentials","security.creduicmdlinepromptforcredentials","wincred/CredUICmdLinePromptForCredentials","wincred/CredUICmdLinePromptForCredentialsA","wincred/CredUICmdLinePromptForCredentialsW"]
 old-location: security\creduicmdlinepromptforcredentials.htm
 tech.root: SecAuthN
 ms.assetid: 5b5bfe87-8f31-4228-931e-50cfc399b66b
@@ -64,7 +64,7 @@ The <b>CredUICmdLinePromptForCredentials</b> function prompts for and accepts cr
 
 ### -param pszTargetName [in]
 
-A pointer to a <b>null</b>-terminated string that contains the name of the target for the credentials, typically a server name. For DFS connections, this string is of the form <i>ServerName</i><b>\</b><i>ShareName</i>. The <i>pszTargetName</i> parameter is used to identify the target information and is used to store and retrieve the credential.
+A pointer to a <b>null</b>-terminated string that contains the name of the target for the credentials, typically a server name. For DFS connections, this string is of the form <i>ServerName</i><b>\\</b><i>ShareName</i>. The <i>pszTargetName</i> parameter is used to identify the target information and is used to store and retrieve the credential.
 
 
 ### -param pContext [in]

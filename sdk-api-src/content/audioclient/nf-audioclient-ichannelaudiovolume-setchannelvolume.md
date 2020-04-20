@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IChannelAudioVolume.SetChannelVolume
 title: IChannelAudioVolume::SetChannelVolume (audioclient.h)
-description: The SetChannelVolume method sets the volume level for the specified channel in the audio session.
+description: The SetChannelVolume method sets the volume level for the specified channel in the audio session.helpviewer_keywords: ["IChannelAudioVolume interface [Core Audio]","SetChannelVolume method","IChannelAudioVolume.SetChannelVolume","IChannelAudioVolume::SetChannelVolume","IChannelAudioVolumeSetChannelVolume","SetChannelVolume","SetChannelVolume method [Core Audio]","SetChannelVolume method [Core Audio]","IChannelAudioVolume interface","audioclient/IChannelAudioVolume::SetChannelVolume","coreaudio.ichannelaudiovolume_setchannelvolume"]
 old-location: coreaudio\ichannelaudiovolume_setchannelvolume.htm
 tech.root: CoreAudio
 ms.assetid: b7baeebf-01d3-4dec-a674-73a84bbf7a66

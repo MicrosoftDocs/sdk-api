@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawTextLayout
 title: ID2D1RenderTarget::DrawTextLayout (d2d1.h)
-description: Draws the formatted text described by the specified IDWriteTextLayout object.
+description: Draws the formatted text described by the specified IDWriteTextLayout object.helpviewer_keywords: ["DrawTextLayout","DrawTextLayout method [Direct2D]","DrawTextLayout method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawTextLayout method","ID2D1RenderTarget.DrawTextLayout","ID2D1RenderTarget::DrawTextLayout","d2d1/ID2D1RenderTarget::DrawTextLayout","direct2d.ID2D1RenderTarget_DrawTextLayout"]
 old-location: direct2d\ID2D1RenderTarget_DrawTextLayout.htm
 tech.root: Direct2D
 ms.assetid: 9356071a-35ca-462a-8a77-887e63850586
@@ -83,15 +83,6 @@ The brush used to paint any text in <i>textLayout</i> that does not already have
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options">D2D1_DRAW_TEXT_OPTIONS</a></b>
 
 A value that indicates whether the text should be snapped to pixel boundaries and whether the text should be clipped to the layout rectangle. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options">D2D1_DRAW_TEXT_OPTIONS_NONE</a>, which indicates that text should be snapped to pixel boundaries and it should not be clipped to the layout rectangle.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

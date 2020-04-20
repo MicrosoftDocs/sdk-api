@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.GetProfile
 title: ITfInputProcessorProfileMgr::GetProfile (msctf.h)
-description: The ITfInputProcessorProfileMgr::GetProfile method returns the information of the specified text service's profile or keyboard layout in TF_INPUTPROCESSORPROFILE structure.
+description: The ITfInputProcessorProfileMgr::GetProfile method returns the information of the specified text service's profile or keyboard layout in TF_INPUTPROCESSORPROFILE structure.helpviewer_keywords: ["GetProfile","GetProfile method [Text Services Framework]","GetProfile method [Text Services Framework]","ITfInputProcessorProfileMgr interface","ITfInputProcessorProfileMgr interface [Text Services Framework]","GetProfile method","ITfInputProcessorProfileMgr.GetProfile","ITfInputProcessorProfileMgr::GetProfile","TF_PROFILETYPE_INPUTPROCESSOR","TF_PROFILETYPE_KEYBOARDLAYOUT","msctf/ITfInputProcessorProfileMgr::GetProfile","tsf.itfinputprocessorprofilemgr_getprofile"]
 old-location: tsf\itfinputprocessorprofilemgr_getprofile.htm
 tech.root: TSF
 ms.assetid: 581bddf5-3def-48c6-a092-4f751142cc1b

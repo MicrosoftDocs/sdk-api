@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GSSetConstantBuffers
 title: ID3D11DeviceContext::GSSetConstantBuffers (d3d11.h)
-description: Sets the constant buffers used by the geometry shader pipeline stage.
+description: Sets the constant buffers used by the geometry shader pipeline stage.helpviewer_keywords: ["GSSetConstantBuffers","GSSetConstantBuffers method [Direct3D 11]","GSSetConstantBuffers method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GSSetConstantBuffers method","ID3D11DeviceContext.GSSetConstantBuffers","ID3D11DeviceContext::GSSetConstantBuffers","ad892eb6-e3c1-f7c2-8552-c1feae8690bc","d3d11/ID3D11DeviceContext::GSSetConstantBuffers","direct3d11.id3d11devicecontext_gssetconstantbuffers"]
 old-location: direct3d11\id3d11devicecontext_gssetconstantbuffers.htm
 tech.root: direct3d11
 ms.assetid: 2af7ab0c-4a21-474c-9a17-ed90f89285fd
@@ -77,15 +77,6 @@ Number of buffers to set (ranges from 0 to <b>D3D11_COMMONSHADER_CONSTANT_BUFFER
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>*</b>
 
 Array of constant buffers (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>) being given to the device.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

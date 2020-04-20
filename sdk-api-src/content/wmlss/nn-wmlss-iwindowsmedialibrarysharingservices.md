@@ -1,7 +1,7 @@
 ---
 UID: NN:wmlss.IWindowsMediaLibrarySharingServices
 title: IWindowsMediaLibrarySharingServices (wmlss.h)
-description: The IWindowsMediaLibrarySharingServices interface defines methods that configure the sharing of media libraries among users on the local computer, users on the home network, and users on the Internet.
+description: The IWindowsMediaLibrarySharingServices interface defines methods that configure the sharing of media libraries among users on the local computer, users on the home network, and users on the Internet.helpviewer_keywords: ["IWindowsMediaLibrarySharingServices","IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","described","wmlss.IWindowsMediaLibrarySharingServicesInterface","wmlss/IWindowsMediaLibrarySharingServices"]
 old-location: wmlss\IWindowsMediaLibrarySharingServicesInterface.htm
 tech.root: WMLSS
 ms.assetid: bbec5687-3c77-4385-a9be-74c6d84db962

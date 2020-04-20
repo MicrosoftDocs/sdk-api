@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IDockingWindow
 title: IDockingWindow (shobjidl_core.h)
-description: Exposes methods that notify the docking window object of changes, including showing, hiding, and impending removal. This interface is implemented by window objects that can be docked within the border space of a Windows Explorer window.
+description: Exposes methods that notify the docking window object of changes, including showing, hiding, and impending removal. This interface is implemented by window objects that can be docked within the border space of a Windows Explorer window.helpviewer_keywords: ["IDockingWindow","IDockingWindow interface [Windows Shell]","IDockingWindow interface [Windows Shell]","described","_win32_IDockingWindow","shell.IDockingWindow","shobjidl_core/IDockingWindow"]
 old-location: shell\IDockingWindow.htm
 tech.root: shell
 ms.assetid: 9e80fd5e-f57d-4801-b198-73b8f5ffff6e

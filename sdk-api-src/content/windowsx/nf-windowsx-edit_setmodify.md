@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.Edit_SetModify
 title: Edit_SetModify macro (windowsx.h)
-description: Sets or clears the modification flag for an edit control. The modification flag indicates whether the text within the edit control has been modified. You can use this macro or send the EM_SETMODIFY message explicitly.
+description: Sets or clears the modification flag for an edit control. The modification flag indicates whether the text within the edit control has been modified. You can use this macro or send the EM_SETMODIFY message explicitly.helpviewer_keywords: ["Edit_SetModify","Edit_SetModify macro [Windows Controls]","_win32_Edit_SetModify","_win32_Edit_SetModify_cpp","controls.Edit_SetModify","controls._win32_Edit_SetModify","windowsx/Edit_SetModify"]
 old-location: controls\Edit_SetModify.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setmodify.htm

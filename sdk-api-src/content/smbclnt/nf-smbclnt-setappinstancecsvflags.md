@@ -1,7 +1,7 @@
 ---
 UID: NF:smbclnt.SetAppInstanceCsvFlags
 title: SetAppInstanceCsvFlags function (smbclnt.h)
-description: Sets the flags that affect connections from the application instance.
+description: Sets the flags that affect connections from the application instance.helpviewer_keywords: ["SET_APP_INSTANCE_CSV_FLAGS","SET_APP_INSTANCE_CSV_FLAGS function [Failover Cluster]","SetAppInstanceCsvFlags","SetAppInstanceCsvFlags function [Failover Cluster]","mscs.setappinstancecsvflags","smbclnt/SET_APP_INSTANCE_CSV_FLAGS","smbclnt/SetAppInstanceCsvFlags"]
 old-location: mscs\setappinstancecsvflags.htm
 tech.root: MsCS
 ms.assetid: 37FDAB0A-1593-47D6-B4CE-A667EBA01680

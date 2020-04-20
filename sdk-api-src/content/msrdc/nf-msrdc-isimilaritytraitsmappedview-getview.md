@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.GetView
 title: ISimilarityTraitsMappedView::GetView (msrdc.h)
-description: Returns the beginning and ending addresses for the mapped view of a similarity traits table file.
+description: Returns the beginning and ending addresses for the mapped view of a similarity traits table file.helpviewer_keywords: ["GetView","GetView method [Remote Differential Compression]","GetView method [Remote Differential Compression]","ISimilarityTraitsMappedView interface","ISimilarityTraitsMappedView interface [Remote Differential Compression]","GetView method","ISimilarityTraitsMappedView.GetView","ISimilarityTraitsMappedView::GetView","fs.isimilaritytraitsmappedview_getview","msrdc/ISimilarityTraitsMappedView::GetView","rdc.isimilaritytraitsmappedview_getview"]
 old-location: rdc\isimilaritytraitsmappedview_getview.htm
 tech.root: rdc
 ms.assetid: ac229f59-eb2f-471e-9f31-0e7139becdcb
@@ -65,15 +65,6 @@ Pointer to a location that receives the start of the data that is mapped for thi
 ### -param mappedPageEnd [out]
 
 Pointer to a location that receives the end of the data that is mapped for this view, plus one.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

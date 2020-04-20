@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.StartThreadpoolIo
 title: StartThreadpoolIo function (threadpoolapiset.h)
-description: Notifies the thread pool that I/O operations may possibly begin for the specified I/O completion object. A worker thread calls the I/O completion object's callback function after the operation completes on the file handle bound to this object.
+description: Notifies the thread pool that I/O operations may possibly begin for the specified I/O completion object. A worker thread calls the I/O completion object's callback function after the operation completes on the file handle bound to this object.helpviewer_keywords: ["StartThreadpoolIo","StartThreadpoolIo function","base.startthreadpoolio","threadpoolapiset/StartThreadpoolIo","winbase/StartThreadpoolIo"]
 old-location: base\startthreadpoolio.htm
 tech.root: ProcThread
 ms.assetid: 5a817d6f-a8e6-4aaa-b560-0128eacb98b1
@@ -65,15 +65,6 @@ Notifies the thread pool that I/O operations may possibly begin for the specifie
 ### -param pio [in, out]
 
 A <b>TP_IO</b> structure that defines the I/O completion object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio">CreateThreadpoolIo</a> function returns this structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

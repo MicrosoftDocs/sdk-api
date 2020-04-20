@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentAngle
 title: IDvdInfo::GetCurrentAngle (strmif.h)
-description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available angles and the currently selected angle number.
+description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available angles and the currently selected angle number.helpviewer_keywords: ["GetCurrentAngle","GetCurrentAngle method [DirectShow]","GetCurrentAngle method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentAngle method","IDvdInfo.GetCurrentAngle","IDvdInfo::GetCurrentAngle","IDvdInfoGetCurrentAngle","dshow.idvdinfo_getcurrentangle","strmif/IDvdInfo::GetCurrentAngle"]
 old-location: dshow\idvdinfo_getcurrentangle.htm
 tech.root: DirectShow
 ms.assetid: c0526576-d313-4a64-a9ab-02cecb0c7a73

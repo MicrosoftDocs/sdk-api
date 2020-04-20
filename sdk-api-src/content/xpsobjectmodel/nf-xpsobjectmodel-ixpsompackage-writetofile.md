@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.WriteToFile
 title: IXpsOMPackage::WriteToFile (xpsobjectmodel.h)
-description: Writes the XPS package to a specified file.
+description: Writes the XPS package to a specified file.helpviewer_keywords: ["FALSE","IXpsOMPackage interface [XPS Documents and Packaging]","WriteToFile method","IXpsOMPackage.WriteToFile","IXpsOMPackage::WriteToFile","TRUE","WriteToFile","WriteToFile method [XPS Documents and Packaging]","WriteToFile method [XPS Documents and Packaging]","IXpsOMPackage interface","xps.ixpsompackage_writetofile","xpsobjectmodel/IXpsOMPackage::WriteToFile"]
 old-location: xps\ixpsompackage_writetofile.htm
 tech.root: printdocs
 ms.assetid: 89accde7-989e-4a87-b96e-e47cc6c6954a

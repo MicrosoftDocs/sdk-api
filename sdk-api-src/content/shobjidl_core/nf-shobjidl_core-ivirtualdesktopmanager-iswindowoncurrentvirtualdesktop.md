@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop
 title: IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop (shobjidl_core.h)
-description: Indicates whether the provided window is on the currently active virtual desktop.
+description: Indicates whether the provided window is on the currently active virtual desktop.helpviewer_keywords: ["IVirtualDesktopManager interface [Windows Shell]","IsWindowOnCurrentVirtualDesktop method","IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop","IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop","IsWindowOnCurrentVirtualDesktop","IsWindowOnCurrentVirtualDesktop method [Windows Shell]","IsWindowOnCurrentVirtualDesktop method [Windows Shell]","IVirtualDesktopManager interface","shell.ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop","shobjidl_core/IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop"]
 old-location: shell\ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop.htm
 tech.root: shell
 ms.assetid: CBC97CF4-0C88-4C68-A873-5A5962C5817D

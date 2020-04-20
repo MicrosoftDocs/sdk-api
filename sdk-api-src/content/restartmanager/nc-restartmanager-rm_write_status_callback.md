@@ -1,7 +1,7 @@
 ---
 UID: NC:restartmanager.RM_WRITE_STATUS_CALLBACK
 title: RM_WRITE_STATUS_CALLBACK (restartmanager.h)
-description: The RM_WRITE_STATUS_CALLBACK function can be implemented by the user interface that controls the Restart Manager.
+description: The RM_WRITE_STATUS_CALLBACK function can be implemented by the user interface that controls the Restart Manager.helpviewer_keywords: ["RM_WRITE_STATUS_CALLBACK","RM_WRITE_STATUS_CALLBACK callback","RM_WRITE_STATUS_CALLBACK callback function [Restart Mgr]","restartmanager/RM_WRITE_STATUS_CALLBACK","rstmgr.rm_write_status_callback"]
 old-location: rstmgr\rm_write_status_callback.htm
 tech.root: rstmgr
 ms.assetid: 607a6b96-8509-4599-907c-edb8410d7921
@@ -60,15 +60,6 @@ The <b>RM_WRITE_STATUS_CALLBACK</b> function can be implemented by the user inte
 ### -param nPercentComplete [in]
 
 An integer value between 0 and 100 that indicates the percentage of the total number of applications that have either been shut down or restarted.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

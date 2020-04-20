@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateClientInfoV4
 title: DhcpCreateClientInfoV4 function (dhcpsapi.h)
-description: Creates a client information record on the DHCP server, extending the functionality of DhcpCreateClientInfo by including the client type (DHCP or BOOTP) in the record.
+description: Creates a client information record on the DHCP server, extending the functionality of DhcpCreateClientInfo by including the client type (DHCP or BOOTP) in the record.helpviewer_keywords: ["DhcpCreateClientInfoV4","DhcpCreateClientInfoV4 function [DHCP]","dhcp.dhcpcreateclientinfov4","dhcpsapi/DhcpCreateClientInfoV4"]
 old-location: dhcp\dhcpcreateclientinfov4.htm
 tech.root: DHCP
 ms.assetid: 0657e107-bf3d-4bcd-88a1-84a6cd7f934d

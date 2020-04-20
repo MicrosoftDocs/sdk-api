@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoLockObjectExternal
 title: CoLockObjectExternal function (combaseapi.h)
-description: Called either to lock an object to ensure that it stays in memory, or to release such a lock.
+description: Called either to lock an object to ensure that it stays in memory, or to release such a lock.helpviewer_keywords: ["CoLockObjectExternal","CoLockObjectExternal function [COM]","_com_CoLockObjectExternal","com.colockobjectexternal","combaseapi/CoLockObjectExternal"]
 old-location: com\colockobjectexternal.htm
 tech.root: com
 ms.assetid: 36eb55f1-06de-49ad-8a8d-91693ca92e99

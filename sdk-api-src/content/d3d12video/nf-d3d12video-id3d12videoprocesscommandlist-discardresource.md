@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.DiscardResource
 title: ID3D12VideoProcessCommandList::DiscardResource
-description: Indicates that the current contents of a resource can be discarded.
+description: Indicates that the current contents of a resource can be discarded.helpviewer_keywords: ["ID3D12VideoProcessCommandList::DiscardResource","DiscardResource","ID3D12VideoProcessCommandList.DiscardResource","ID3D12VideoProcessCommandList::DiscardResource","ID3D12VideoProcessCommandList.DiscardResource"]
 tech.root: mf
 ms.assetid: ee2e1ce5-e6ab-4e49-9177-2ff98dca420e
 ms.date: 05/28/2019
@@ -55,10 +55,6 @@ A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-841
 ### -param pRegion
 
 A pointer to a <a href="https://msdn.microsoft.com/8F0916CB-3389-40BC-8028-BA8CF9BC566B">D3D12_DISCARD_REGION</a> structure that describes details for the discard-resource operation.
-
-## -returns
-
-This method returns void.
 
 ## -remarks
 

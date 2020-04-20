@@ -1,7 +1,7 @@
 ---
 UID: NF:eappapis.EapHostPeerGetResponseAttributes
 title: EapHostPeerGetResponseAttributes function (eappapis.h)
-description: Obtains an array of EAP authentication attributes from EAPHost.
+description: Obtains an array of EAP authentication attributes from EAPHost.helpviewer_keywords: ["EapHostPeerGetResponseAttributes","EapHostPeerGetResponseAttributes function [EAPHost]","eaphost.eaphostpeergetresponseattributes","eappapis/EapHostPeerGetResponseAttributes"]
 old-location: eaphost\eaphostpeergetresponseattributes.htm
 tech.root: eaphost
 ms.assetid: 84df4877-9ac9-4ab5-a357-276880051ff0

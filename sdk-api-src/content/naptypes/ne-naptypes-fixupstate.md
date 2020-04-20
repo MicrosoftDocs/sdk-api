@@ -1,7 +1,7 @@
 ---
 UID: NE:naptypes.tagFixupState
 title: FixupState (naptypes.h)
-description: Defines the fix-up state of the System Health Agent (SHA).
+description: Defines the fix-up state of the System Health Agent (SHA).helpviewer_keywords: ["FixupState","FixupState enumeration [NAP]","fixupStateCouldNotUpdate","fixupStateInProgress","fixupStateSuccess","nap.fixupstate_enum","naptypes/FixupState","naptypes/fixupStateCouldNotUpdate","naptypes/fixupStateInProgress","naptypes/fixupStateSuccess"]
 old-location: nap\fixupstate_enum.htm
 tech.root: NAP
 ms.assetid: cde1f9df-f4d9-4601-a513-e00639ee9b6e

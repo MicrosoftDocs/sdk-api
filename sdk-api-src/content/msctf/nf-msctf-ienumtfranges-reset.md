@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Reset
 title: IEnumTfRanges::Reset (msctf.h)
-description: IEnumTfRanges::Reset method
+description: IEnumTfRanges::Reset methodhelpviewer_keywords: ["IEnumTfRanges interface [Text Services Framework]","Reset method","IEnumTfRanges.Reset","IEnumTfRanges::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfRanges interface","_tsf_ienumtfranges_reset_ref","msctf/IEnumTfRanges::Reset","tsf.ienumtfranges_reset"]
 old-location: tsf\ienumtfranges_reset.htm
 tech.root: TSF
 ms.assetid: c7f8ea8d-5627-4dc1-ab22-a9e14f536520
@@ -45,18 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfRanges::Reset
 
-
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
@@ -81,7 +74,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfRanges interface](nn-msctf-ienumtfranges.md), [ITfRange interface](nn-msctf-itfrange.md)

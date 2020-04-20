@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokes.get_RecognitionResult
 title: IInkStrokes::get_RecognitionResult (msinkaut.h)
-description: Gets the IInkRecognitionResult object of the InkStrokes collection.
+description: Gets the IInkRecognitionResult object of the InkStrokes collection.helpviewer_keywords: ["5d6e7147-b312-4989-8d8f-88cb2221f6f0","IInkStrokes interface [Tablet PC]","RecognitionResult property","IInkStrokes.RecognitionResult","IInkStrokes.get_RecognitionResult","IInkStrokes::RecognitionResult","IInkStrokes::get_RecognitionResult","InkStrokes.get_RecognitionResult","RecognitionResult property [Tablet PC]","RecognitionResult property [Tablet PC]","IInkStrokes interface","get_RecognitionResult","msinkaut/IInkStrokes::RecognitionResult","msinkaut/IInkStrokes::get_RecognitionResult","put_RecognitionResult","tablet.inkstrokes_recognitionresult"]
 old-location: tablet\inkstrokes_recognitionresult.htm
 tech.root: tablet
 ms.assetid: 5d6e7147-b312-4989-8d8f-88cb2221f6f0

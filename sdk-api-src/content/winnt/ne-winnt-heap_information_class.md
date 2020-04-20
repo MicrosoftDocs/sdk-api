@@ -1,7 +1,7 @@
 ---
 UID: NE:winnt._HEAP_INFORMATION_CLASS
 title: HEAP_INFORMATION_CLASS (winnt.h)
-description: Specifies the class of heap information to be set or retrieved.
+description: Specifies the class of heap information to be set or retrieved.helpviewer_keywords: ["HEAP_INFORMATION_CLASS","HEAP_INFORMATION_CLASS enumeration","HeapCompatibilityInformation","HeapEnableTerminationOnCorruption","base.heap_information_class","winnt/HEAP_INFORMATION_CLASS","winnt/HeapCompatibilityInformation","winnt/HeapEnableTerminationOnCorruption"]
 old-location: base\heap_information_class.htm
 tech.root: Memory
 ms.assetid: 4D1B21D2-1F0E-4DC8-A583-220E9891DBBF

@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbSession
 title: ITsSbSession (sbtsv.h)
-description: Exposes properties that store information about a user session.
+description: Exposes properties that store information about a user session.helpviewer_keywords: ["ITsSbSession","ITsSbSession interface [Remote Desktop Services]","ITsSbSession interface [Remote Desktop Services]","described","sbtsv/ITsSbSession","termserv.itssbsession"]
 old-location: termserv\itssbsession.htm
 tech.root: TermServ
 ms.assetid: d6f4c66a-79c3-4bc1-889d-ec5715e359ce

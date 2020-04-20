@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetDescription
 title: ISettingsResult::GetDescription (wcmconfig.h)
-description: Returns the description of the error.
+description: Returns the description of the error.helpviewer_keywords: ["GetDescription","GetDescription method [SMI]","GetDescription method [SMI]","ISettingsResult interface","ISettingsResult interface [SMI]","GetDescription method","ISettingsResult.GetDescription","ISettingsResult::GetDescription","smi.isettingsresult_getdescription","wcmconfig/ISettingsResult::GetDescription"]
 old-location: smi\isettingsresult_getdescription.htm
 tech.root: SMI
 ms.assetid: d020bd46-8967-4105-856d-ee448b527852

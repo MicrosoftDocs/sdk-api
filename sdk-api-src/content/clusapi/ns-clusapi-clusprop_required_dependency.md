@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi.CLUSPROP_REQUIRED_DEPENDENCY
 title: CLUSPROP_REQUIRED_DEPENDENCY (clusapi.h)
-description: Describes a resource that is a required dependency of another resource. This union is used as a value in the value list returned from a CLUSCTL_RESOURCE_GET_REQUIRED_DEPENDENCIES or CLUSCTL_RESOURCE_TYPE_GET_REQUIRED_DEPENDENCIES control code operation.
+description: Describes a resource that is a required dependency of another resource. This union is used as a value in the value list returned from a CLUSCTL_RESOURCE_GET_REQUIRED_DEPENDENCIES or CLUSCTL_RESOURCE_TYPE_GET_REQUIRED_DEPENDENCIES control code operation.helpviewer_keywords: ["*PCLUSPROP_REQUIRED_DEPENDENCY","CLUSPROP_REQUIRED_DEPENDENCY","CLUSPROP_REQUIRED_DEPENDENCY structure [Failover Cluster]","CLUS_RESCLASS_NETWORK","CLUS_RESCLASS_STORAGE","CLUS_RESCLASS_UNKNOWN","CLUS_RESCLASS_USER","PCLUSPROP_REQUIRED_DEPENDENCY","PCLUSPROP_REQUIRED_DEPENDENCY structure pointer [Failover Cluster]","_wolf_clusprop_required_dependency","clusapi/CLUSPROP_REQUIRED_DEPENDENCY","clusapi/PCLUSPROP_REQUIRED_DEPENDENCY","mscs.clusprop_required_dependency"]
 old-location: mscs\clusprop_required_dependency.htm
 tech.root: MsCS
 ms.assetid: dae7544d-31c0-4a4b-8acb-d652bae817dd

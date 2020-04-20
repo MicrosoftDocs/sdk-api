@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetTransform
 title: PathGradientBrush::SetTransform (gdipluspath.h)
-description: The PathGradientBrush::SetTransform method sets the transformation matrix of this path gradient brush.
+description: The PathGradientBrush::SetTransform method sets the transformation matrix of this path gradient brush.helpviewer_keywords: ["PathGradientBrush class [GDI+]","SetTransform method","PathGradientBrush.SetTransform","PathGradientBrush::SetTransform","SetTransform","SetTransform method [GDI+]","SetTransform method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_SetTransform_matrix_","gdiplus._gdiplus_CLASS_PathGradientBrush_SetTransform_matrix_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\settransform_69matrix.htm

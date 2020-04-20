@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumMoniker.Reset
 title: IEnumMoniker::Reset (objidl.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning.helpviewer_keywords: ["IEnumMoniker interface [COM]","Reset method","IEnumMoniker.Reset","IEnumMoniker::Reset","Reset","Reset method [COM]","Reset method [COM]","IEnumMoniker interface","_ole_ienummoniker_reset","com.ienummoniker_reset","objidl/IEnumMoniker::Reset"]
 old-location: com\ienummoniker_reset.htm
 tech.root: com
 ms.assetid: 0b7c74b4-cbcb-44cc-8bea-feb55abb5643

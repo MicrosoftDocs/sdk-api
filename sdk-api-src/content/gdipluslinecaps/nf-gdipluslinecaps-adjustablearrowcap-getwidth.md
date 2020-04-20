@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.GetWidth
 title: AdjustableArrowCap::GetWidth (gdipluslinecaps.h)
-description: The AdjustableArrowCap::GetWidth method gets the width of the arrow cap. The width is the distance between the endpoints of the base of the arrow.
+description: The AdjustableArrowCap::GetWidth method gets the width of the arrow cap. The width is the distance between the endpoints of the base of the arrow.helpviewer_keywords: ["AdjustableArrowCap class [GDI+]","GetWidth method","AdjustableArrowCap.GetWidth","AdjustableArrowCap::GetWidth","GetWidth","GetWidth method [GDI+]","GetWidth method [GDI+]","AdjustableArrowCap class","_gdiplus_CLASS_AdjustableArrowCap_GetWidth_","gdiplus._gdiplus_CLASS_AdjustableArrowCap_GetWidth_"]
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_GetWidth_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\getwidth.htm

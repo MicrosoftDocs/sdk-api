@@ -1,7 +1,7 @@
 ---
 UID: NF:upnphost.IUPnPDeviceControl.GetServiceObject
 title: IUPnPDeviceControl::GetServiceObject (upnphost.h)
-description: The GetServiceObject method is used to obtain the IDispatch pointer to a specific service object. The device host invokes this method once per service, the first time it receives a request for a service.
+description: The GetServiceObject method is used to obtain the IDispatch pointer to a specific service object. The device host invokes this method once per service, the first time it receives a request for a service.helpviewer_keywords: ["GetServiceObject","GetServiceObject method [UPnP APIs]","GetServiceObject method [UPnP APIs]","IUPnPDeviceControl interface","IUPnPDeviceControl interface [UPnP APIs]","GetServiceObject method","IUPnPDeviceControl.GetServiceObject","IUPnPDeviceControl::GetServiceObject","_upnp_iupnpdevicecontrol_getserviceobject","upnp.iupnpdevicecontrol_getserviceobject","upnphost/IUPnPDeviceControl::GetServiceObject"]
 old-location: upnp\iupnpdevicecontrol_getserviceobject.htm
 tech.root: upnp
 ms.assetid: 55b54edf-fd1d-45b8-95d4-a746a60e5310

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.SetDefaultValues
 title: IX509SignatureInformation::SetDefaultValues (certenroll.h)
-description: Specifies a default hashing algorithm used to create a digest of the certificate request prior to signing.
+description: Specifies a default hashing algorithm used to create a digest of the certificate request prior to signing.helpviewer_keywords: ["IX509SignatureInformation interface [Security]","SetDefaultValues method","IX509SignatureInformation.SetDefaultValues","IX509SignatureInformation::SetDefaultValues","SetDefaultValues","SetDefaultValues method [Security]","SetDefaultValues method [Security]","IX509SignatureInformation interface","certenroll/IX509SignatureInformation::SetDefaultValues","security.ix509signatureinformation_setdefaultvalues_method"]
 old-location: security\ix509signatureinformation_setdefaultvalues_method.htm
 tech.root: seccertenroll
 ms.assetid: 123e65e8-62bb-4bc7-9e15-113780be81e3

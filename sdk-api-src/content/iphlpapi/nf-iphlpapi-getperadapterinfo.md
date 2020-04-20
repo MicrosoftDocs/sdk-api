@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetPerAdapterInfo
 title: GetPerAdapterInfo function (iphlpapi.h)
-description: The GetPerAdapterInfo function retrieves information about the adapter corresponding to the specified interface.
+description: The GetPerAdapterInfo function retrieves information about the adapter corresponding to the specified interface.helpviewer_keywords: ["GetPerAdapterInfo","GetPerAdapterInfo function [IP Helper]","_iphlp_getperadapterinfo","iphlp.getperadapterinfo","iphlpapi/GetPerAdapterInfo"]
 old-location: iphlp\getperadapterinfo.htm
 tech.root: IpHlp
 ms.assetid: fc1ae7e4-f856-4b48-8ab4-56cd511ed161

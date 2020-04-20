@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.ProcessFault
 title: IWSDEndpointProxy::ProcessFault (wsdclient.h)
-description: Processes a SOAP fault retrieved by GetFaultInfo.
+description: Processes a SOAP fault retrieved by GetFaultInfo.helpviewer_keywords: ["IWSDEndpointProxy interface","ProcessFault method","IWSDEndpointProxy.ProcessFault","IWSDEndpointProxy::ProcessFault","ProcessFault","ProcessFault method","ProcessFault method","IWSDEndpointProxy interface","ncd.iwsdendpointproxy_processfault","wsdclient/IWSDEndpointProxy::ProcessFault"]
 old-location: ncd\iwsdendpointproxy_processfault.htm
 tech.root: WsdApi
 ms.assetid: f63c8c7c-8581-49d4-a29d-a7b0b46a2db5

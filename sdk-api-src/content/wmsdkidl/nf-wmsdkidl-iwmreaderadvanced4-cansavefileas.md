@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.CanSaveFileAs
 title: IWMReaderAdvanced4::CanSaveFileAs (wmsdkidl.h)
-description: The CanSaveFileAs method ascertains whether the content being played by the reader can be saved using the IWMReaderAdvanced2::SaveFileAs method.
+description: The CanSaveFileAs method ascertains whether the content being played by the reader can be saved using the IWMReaderAdvanced2::SaveFileAs method.helpviewer_keywords: ["CanSaveFileAs","CanSaveFileAs method [windows Media Format]","CanSaveFileAs method [windows Media Format]","IWMReaderAdvanced4 interface","IWMReaderAdvanced4 interface [windows Media Format]","CanSaveFileAs method","IWMReaderAdvanced4.CanSaveFileAs","IWMReaderAdvanced4::CanSaveFileAs","IWMReaderAdvanced4CanSaveFileAs","wmformat.iwmreaderadvanced4_cansavefileas","wmsdkidl/IWMReaderAdvanced4::CanSaveFileAs"]
 old-location: wmformat\iwmreaderadvanced4_cansavefileas.htm
 tech.root: wmformat
 ms.assetid: ed4f31b6-e20f-432c-a1ec-954d85ce3a3d

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.GetGUIDDWORD
 title: ITfCategoryMgr::GetGUIDDWORD (msctf.h)
-description: ITfCategoryMgr::GetGUIDDWORD method
+description: ITfCategoryMgr::GetGUIDDWORD methodhelpviewer_keywords: ["GetGUIDDWORD","GetGUIDDWORD method [Text Services Framework]","GetGUIDDWORD method [Text Services Framework]","ITfCategoryMgr interface","ITfCategoryMgr interface [Text Services Framework]","GetGUIDDWORD method","ITfCategoryMgr.GetGUIDDWORD","ITfCategoryMgr::GetGUIDDWORD","_tsf_itfcategorymgr_getguiddword_ref","msctf/ITfCategoryMgr::GetGUIDDWORD","tsf.itfcategorymgr_getguiddword"]
 old-location: tsf\itfcategorymgr_getguiddword.htm
 tech.root: TSF
 ms.assetid: 016d77b5-fc08-4d2b-a9c4-50ae7926a057
@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::GetGUIDDWORD
 
-
 ## -description
 
-
-
+Obtains the DWORD value of the specified GUID from the Windows registry.
 
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 Specifies the address of the GUID for which to get the value.
 
-
 ### -param pdw [out]
 
 Pointer to the <b>DWORD</b> variable that receives the value of the GUID.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,25 +103,6 @@ The specified <i>pdw</i> parameter was <b>NULL</b> on input.
 </tr>
 </table>
  
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguiddword">ITfCategoryMgr::RegisterGUIDDWORD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregisterguiddword">ITfCategoryMgr::UnregisterGUIDDWORD</a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::RegisterGUIDDWORD](nf-msctf-itfcategorymgr-registerguiddword.md), [ITfCategoryMgr::UnregisterGUIDDWORD](nf-msctf-itfcategorymgr-unregisterguiddword.md)

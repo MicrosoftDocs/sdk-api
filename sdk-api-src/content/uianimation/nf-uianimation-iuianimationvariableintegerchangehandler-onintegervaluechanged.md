@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged
 title: IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged (uianimation.h)
-description: Handles events that occur when the value of an animation variable changes.
+description: Handles events that occur when the value of an animation variable changes.helpviewer_keywords: ["IUIAnimationVariableIntegerChangeHandler interface [Windows Animation]","OnIntegerValueChanged method","IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged","IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged","OnIntegerValueChanged","OnIntegerValueChanged method [Windows Animation]","OnIntegerValueChanged method [Windows Animation]","IUIAnimationVariableIntegerChangeHandler interface","uianimation.iuianimationvariableintegerchangehandler_onintegervaluechanged","uianimation/IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged"]
 old-location: uianimation\iuianimationvariableintegerchangehandler_onintegervaluechanged.htm
 tech.root: UIAnimation
 ms.assetid: e12224a2-c8f3-45eb-a254-d624de16e12d

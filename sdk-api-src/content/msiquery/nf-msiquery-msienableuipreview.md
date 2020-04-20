@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiEnableUIPreview
 title: MsiEnableUIPreview function (msiquery.h)
-description: The MsiEnableUIPreview function enables preview mode of the user interface to facilitate authoring of user-interface dialog boxes. This function returns a handle that should be closed using MsiCloseHandle.
+description: The MsiEnableUIPreview function enables preview mode of the user interface to facilitate authoring of user-interface dialog boxes. This function returns a handle that should be closed using MsiCloseHandle.helpviewer_keywords: ["MsiEnableUIPreview","MsiEnableUIPreview function","_msi_msienableuipreview","msiquery/MsiEnableUIPreview","setup.msienableuipreview"]
 old-location: setup\msienableuipreview.htm
 tech.root: Msi
 ms.assetid: 77df6829-119d-4fe6-96b0-c75381b9de6c

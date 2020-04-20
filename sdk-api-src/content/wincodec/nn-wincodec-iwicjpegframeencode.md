@@ -1,7 +1,7 @@
 ---
 UID: NN:wincodec.IWICJpegFrameEncode
 title: IWICJpegFrameEncode (wincodec.h)
-description: Exposes methods for writing compressed JPEG scan data directly to the WIC encoder's output stream. Also provides access to the Huffman and quantization tables.
+description: Exposes methods for writing compressed JPEG scan data directly to the WIC encoder's output stream. Also provides access to the Huffman and quantization tables.helpviewer_keywords: ["IWICJpegFrameEncode","IWICJpegFrameEncode interface [Windows Imaging Component]","IWICJpegFrameEncode interface [Windows Imaging Component]","described","wic.iwicjpegframeencode","wincodec/IWICJpegFrameEncode"]
 old-location: wic\iwicjpegframeencode.htm
 tech.root: wic
 ms.assetid: 631571A2-AA15-4A4B-B705-6CCC81392A6A

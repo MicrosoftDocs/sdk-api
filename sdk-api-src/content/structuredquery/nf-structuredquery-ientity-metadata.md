@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IEntity.MetaData
 title: IEntity::MetaData (structuredquery.h)
-description: Retrieves an enumeration of IMetaData objects for this entity.
+description: Retrieves an enumeration of IMetaData objects for this entity.helpviewer_keywords: ["IEntity interface [search]","MetaData method","IEntity.MetaData","IEntity::MetaData","MetaData","MetaData method [search]","MetaData method [search]","IEntity interface","_search_IEntity_MetaData","search._search_IEntity_MetaData","structuredquery/IEntity::MetaData"]
 old-location: search\_search_IEntity_MetaData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\metadata.htm

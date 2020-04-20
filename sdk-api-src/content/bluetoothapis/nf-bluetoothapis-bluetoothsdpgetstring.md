@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothSdpGetString
 title: BluetoothSdpGetString function (bluetoothapis.h)
-description: Converts a raw string embedded in the SDP record into a Unicode string.
+description: Converts a raw string embedded in the SDP record into a Unicode string.helpviewer_keywords: ["BluetoothSdpGetString","BluetoothSdpGetString function [Bluetooth]","bluetooth.bluetoothsdpgetstring","bluetoothapis/BluetoothSdpGetString"]
 old-location: bluetooth\bluetoothsdpgetstring.htm
 tech.root: bluetooth
 ms.assetid: 26a68fe3-6ffb-44ff-b9db-757d35022a41

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.CreateNotificationAction
 title: IFsrmFileManagementJob::CreateNotificationAction (fsrmreports.h)
-description: Creates a notification action and associates it with the notification value.
+description: Creates a notification action and associates it with the notification value.helpviewer_keywords: ["CreateNotificationAction","CreateNotificationAction method [File Server Resource Manager]","CreateNotificationAction method [File Server Resource Manager]","IFsrmFileManagementJob interface","FsrmActionType_Command","FsrmActionType_Email","FsrmActionType_EventLog","IFsrmFileManagementJob interface [File Server Resource Manager]","CreateNotificationAction method","IFsrmFileManagementJob.CreateNotificationAction","IFsrmFileManagementJob::CreateNotificationAction","fs.ifsrmfilemanagementjob_createnotificationaction","fsrm.ifsrmfilemanagementjob_createnotificationaction","fsrmreports/IFsrmFileManagementJob::CreateNotificationAction"]
 old-location: fsrm\ifsrmfilemanagementjob_createnotificationaction.htm
 tech.root: fsrm
 ms.assetid: d0cb2ac1-842c-4ebb-adac-8298a0e0beed

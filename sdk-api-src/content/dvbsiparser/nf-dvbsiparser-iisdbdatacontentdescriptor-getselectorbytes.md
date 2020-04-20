@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetSelectorBytes
 title: IIsdbDataContentDescriptor::GetSelectorBytes (dvbsiparser.h)
-description: Gets the selector data from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. The contents of the selector depend on the type of data transmitted in the data component.
+description: Gets the selector data from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. The contents of the selector depend on the type of data transmitted in the data component.helpviewer_keywords: ["GetSelectorBytes","GetSelectorBytes method [Microsoft TV Technologies]","GetSelectorBytes method [Microsoft TV Technologies]","IIsdbDataContentDescriptor interface","IIsdbDataContentDescriptor interface [Microsoft TV Technologies]","GetSelectorBytes method","IIsdbDataContentDescriptor.GetSelectorBytes","IIsdbDataContentDescriptor::GetSelectorBytes","dvbsiparser/IIsdbDataContentDescriptor::GetSelectorBytes","mstv.iisdbdatacontentdescriptor_getselectorbytes"]
 old-location: mstv\iisdbdatacontentdescriptor_getselectorbytes.htm
 tech.root: mstv
 ms.assetid: b02c315e-322d-478e-8be1-c833df49ed56

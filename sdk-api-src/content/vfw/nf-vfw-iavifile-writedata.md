@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.IAVIFile.WriteData
 title: IAVIFile::WriteData (vfw.h)
-description: The WriteData method writes file headers. Called when an application uses the AVIFileWriteData function.
+description: The WriteData method writes file headers. Called when an application uses the AVIFileWriteData function.helpviewer_keywords: ["IAVIFile interface [Windows Multimedia]","WriteData method","IAVIFile.WriteData","IAVIFile::WriteData","WriteData","WriteData method [Windows Multimedia]","WriteData method [Windows Multimedia]","IAVIFile interface","_win32_IAVIFile_WriteData","multimedia.iavifile_writedata","vfw/IAVIFile::WriteData"]
 old-location: multimedia\iavifile_writedata.htm
 tech.root: Multimedia
 ms.assetid: 0b693a98-a91a-4fba-99da-e3bac71c1b22

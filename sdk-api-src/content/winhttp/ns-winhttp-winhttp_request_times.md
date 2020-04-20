@@ -1,7 +1,7 @@
 ---
 UID: NS:winhttp._WINHTTP_REQUEST_TIMES
 title: WINHTTP_REQUEST_TIMES (winhttp.h)
-description: The WINHTTP_REQUEST_TIMES structure contains a variety of timing information for an HTTP request.
+description: The WINHTTP_REQUEST_TIMES structure contains a variety of timing information for an HTTP request.helpviewer_keywords: ["*PWINHTTP_REQUEST_TIMES","WINHTTP_REQUEST_TIMES","WINHTTP_REQUEST_TIMES structure [HTTP]","http.winhttp_request_times","winhttp/WINHTTP_REQUEST_TIMES","WINHTTP_OPTION_REQUEST_TIMES"]
 old-location:
 tech.root: WinHttp
 ms.assetid: 4d30cd0a-88ea-4d03-951d-be50c017efd3
@@ -43,21 +43,15 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WINHTTP_REQUEST_TIMES structure
-
-
 ## -description
 
 The **WINHTTP\_REQUEST\_TIMES** structure contains a variety of timing information for a request.
 
-
 ## -struct-fields
-
 
 ### -field cTimes
 
 Unsigned long integer value that contains the number of timings to retrieve. This should generally be set to **WinHttpRequestTimeLast**.
-
 
 ### -field rgullTimes
 
@@ -65,11 +59,9 @@ Array of unsigned long long integer values that will contain the returned timing
 
 Times are measured as performance counter values; for more information, see [QueryPerformanceCounter](/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter).
 
-
 ## -remarks
 
 This structure is used with [WinHttpQueryOption](/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption) to retrieve timing information for a request by specifying the **WINHTTP\_OPTION\_REQUEST\_TIMES** flag.
-
 
 ## -see-also
 

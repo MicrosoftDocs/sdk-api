@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost.TxEnableScrollBar
 title: ITextHost::TxEnableScrollBar (textserv.h)
-description: Enables or disables one or both scroll bar arrows in the text host window.
+description: Enables or disables one or both scroll bar arrows in the text host window.helpviewer_keywords: ["ESB_DISABLE_BOTH","ESB_DISABLE_DOWN","ESB_DISABLE_LEFT","ESB_DISABLE_LTUP","ESB_DISABLE_RIGHT","ESB_DISABLE_RTDN","ESB_DISABLE_UP","ESB_ENABLE_BOTH","ITextHost interface [Windows Controls]","TxEnableScrollBar method","ITextHost.TxEnableScrollBar","ITextHost::TxEnableScrollBar","SB_BOTH","SB_HORZ","SB_VERT","TxEnableScrollBar","TxEnableScrollBar method [Windows Controls]","TxEnableScrollBar method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxEnableScrollBar","_win32_ITextHost_TxEnableScrollBar_cpp","controls.ITextHost_TxEnableScrollBar","controls._win32_ITextHost_TxEnableScrollBar","textserv/ITextHost::TxEnableScrollBar"]
 old-location: controls\ITextHost_TxEnableScrollBar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txenablescrollbar.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHAnsiToUnicode
 title: SHAnsiToUnicode function (shlwapi.h)
-description: Converts a string from the ANSI code page to the Unicode code page.
+description: Converts a string from the ANSI code page to the Unicode code page.helpviewer_keywords: ["SHAnsiToUnicode","SHAnsiToUnicode function [Windows Shell]","_win32_SHAnsiToUnicode","shell.SHAnsiToUnicode","shlwapi/SHAnsiToUnicode"]
 old-location: shell\SHAnsiToUnicode.htm
 tech.root: shell
 ms.assetid: 9578f26e-56ea-4f3b-b024-b2e285d0c4d2

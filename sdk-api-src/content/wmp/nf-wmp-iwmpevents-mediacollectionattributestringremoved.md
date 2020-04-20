@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaCollectionAttributeStringRemoved
 title: IWMPEvents::MediaCollectionAttributeStringRemoved (wmp.h)
-description: The MediaCollectionAttributeStringRemoved event occurs when an attribute is removed from the library.
+description: The MediaCollectionAttributeStringRemoved event occurs when an attribute is removed from the library.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","MediaCollectionAttributeStringRemoved method","IWMPEvents.MediaCollectionAttributeStringRemoved","IWMPEvents::MediaCollectionAttributeStringRemoved","IWMPEventsMediaCollectionAttributeStringRemoved","MediaCollectionAttributeStringRemoved","MediaCollectionAttributeStringRemoved method [Windows Media Player]","MediaCollectionAttributeStringRemoved method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__mediacollectionattributestringremoved","wmp/IWMPEvents::MediaCollectionAttributeStringRemoved"]
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringremoved.htm
 tech.root: WMP
 ms.assetid: 4e7a3d71-4ec1-4c33-9101-d9d90ee8b1f9
@@ -68,15 +68,6 @@ Specifies the name of the attribute. For information about the attributes suppor
 ### -param bstrAttribVal [in]
 
 Specifies the value of the attribute.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoUninitialize
 title: CoUninitialize function (combaseapi.h)
-description: Closes the COM library on the current thread, unloads all DLLs loaded by the thread, frees any other resources that the thread maintains, and forces all RPC connections on the thread to close.
+description: Closes the COM library on the current thread, unloads all DLLs loaded by the thread, frees any other resources that the thread maintains, and forces all RPC connections on the thread to close.helpviewer_keywords: ["CoUninitialize","CoUninitialize function [COM]","_com_CoUninitialize","com.couninitialize","combaseapi/CoUninitialize"]
 old-location: com\couninitialize.htm
 tech.root: com
 ms.assetid: 9411cbed-fa3b-46f7-b677-6ada53324edc
@@ -62,15 +62,6 @@ Closes the COM library on the current thread, unloads all DLLs loaded by the thr
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This function does not return a value.
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.EnumAdvise
 title: IDataAdviseHolder::EnumAdvise (objidl.h)
-description: Returns an object that can be used to enumerate the current advisory connections.
+description: Returns an object that can be used to enumerate the current advisory connections.helpviewer_keywords: ["EnumAdvise","EnumAdvise method [COM]","EnumAdvise method [COM]","IDataAdviseHolder interface","IDataAdviseHolder interface [COM]","EnumAdvise method","IDataAdviseHolder.EnumAdvise","IDataAdviseHolder::EnumAdvise","_ole_idataadviseholder_enumadvise","com.idataadviseholder_enumadvise","objidl/IDataAdviseHolder::EnumAdvise"]
 old-location: com\idataadviseholder_enumadvise.htm
 tech.root: com
 ms.assetid: 0863d013-6f55-40ce-92d2-68bb0455a911

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IMediaSample2.GetProperties
 title: IMediaSample2::GetProperties (strmif.h)
-description: The GetProperties method retrieves the properties of a media sample.
+description: The GetProperties method retrieves the properties of a media sample.helpviewer_keywords: ["GetProperties","GetProperties method [DirectShow]","GetProperties method [DirectShow]","IMediaSample2 interface","IMediaSample2 interface [DirectShow]","GetProperties method","IMediaSample2.GetProperties","IMediaSample2::GetProperties","IMediaSample2GetProperties","dshow.imediasample2_getproperties","strmif/IMediaSample2::GetProperties"]
 old-location: dshow\imediasample2_getproperties.htm
 tech.root: DirectShow
 ms.assetid: ef20deed-f906-459a-8c2a-f1c929ade9ac

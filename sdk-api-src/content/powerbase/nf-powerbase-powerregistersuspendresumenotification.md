@@ -1,7 +1,7 @@
 ---
 UID: NF:powerbase.PowerRegisterSuspendResumeNotification
 title: PowerRegisterSuspendResumeNotification function (powerbase.h)
-description: Registers to receive notification when the system is suspended or resumed.
+description: Registers to receive notification when the system is suspended or resumed.helpviewer_keywords: ["PowerRegisterSuspendResumeNotification","PowerRegisterSuspendResumeNotification function","base.powerregistersuspendresumenotification","powerbase/PowerRegisterSuspendResumeNotification"]
 old-location: base\powerregistersuspendresumenotification.htm
 tech.root: power
 ms.assetid: 3b39ec3a-417c-4ce4-a581-ed967f1baec9

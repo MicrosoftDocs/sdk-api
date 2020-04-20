@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEME.SetMediaKeys
 title: IMFMediaEngineEME::SetMediaKeys (mfmediaengine.h)
-description: Sets the media keys object to use with the media engine.
+description: Sets the media keys object to use with the media engine.helpviewer_keywords: ["IMFMediaEngineEME interface [Media Foundation]","SetMediaKeys method","IMFMediaEngineEME.SetMediaKeys","IMFMediaEngineEME::SetMediaKeys","SetMediaKeys","SetMediaKeys method [Media Foundation]","SetMediaKeys method [Media Foundation]","IMFMediaEngineEME interface","mf.imfmediaengineeme_setmediakeys","mfmediaengine/IMFMediaEngineEME::SetMediaKeys"]
 old-location: mf\imfmediaengineeme_setmediakeys.htm
 tech.root: medfound
 ms.assetid: 659b566e-d488-489d-9a12-bfe9695c5f94

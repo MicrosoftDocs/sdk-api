@@ -1,7 +1,7 @@
 ---
 UID: NE:msinkaut.InkShiftKeyModifierFlags
 title: InkShiftKeyModifierFlags (msinkaut.h)
-description: Specifies which modifier key was pressed.
+description: Specifies which modifier key was pressed.helpviewer_keywords: ["03c2e5d4-fcba-4b6c-9982-54b451ef129d","IKM_Alt","IKM_Control","IKM_Shift","InkShiftKeyModifierFlags","InkShiftKeyModifierFlags enumeration [Tablet PC]","msinkaut/IKM_Alt","msinkaut/IKM_Control","msinkaut/IKM_Shift","msinkaut/InkShiftKeyModifierFlags","tablet.inkshiftkeymodifierflags"]
 old-location: tablet\inkshiftkeymodifierflags.htm
 tech.root: tablet
 ms.assetid: 03c2e5d4-fcba-4b6c-9982-54b451ef129d

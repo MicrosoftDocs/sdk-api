@@ -1,7 +1,7 @@
 ---
 UID: NN:ddpbackup.IDedupBackupSupport
 title: IDedupBackupSupport (ddpbackup.h)
-description: Provides a method for restoring a file from a backup store containing copies of Data Deduplication reparse points, metadata, and container files.
+description: Provides a method for restoring a file from a backup store containing copies of Data Deduplication reparse points, metadata, and container files.helpviewer_keywords: ["IDedupBackupSupport","IDedupBackupSupport interface [Data Deduplication API]","IDedupBackupSupport interface [Data Deduplication API]","described","ddpbackup/IDedupBackupSupport","dedup.idedupbackupsupport"]
 old-location: dedup\idedupbackupsupport.htm
 tech.root: dedup
 ms.assetid: 45AACC37-3C83-4DBA-8C18-26D76ED831BB

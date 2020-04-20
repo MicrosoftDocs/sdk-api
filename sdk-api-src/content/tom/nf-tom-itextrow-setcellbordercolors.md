@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.SetCellBorderColors
 title: ITextRow::SetCellBorderColors (tom.h)
-description: Sets the border colors of the active cell.
+description: Sets the border colors of the active cell.helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetCellBorderColors method","ITextRow.SetCellBorderColors","ITextRow::SetCellBorderColors","SetCellBorderColors","SetCellBorderColors method [Windows Controls]","SetCellBorderColors method [Windows Controls]","ITextRow interface","controls.itextrow_setcellbordercolors","tom/ITextRow::SetCellBorderColors"]
 old-location: controls\itextrow_setcellbordercolors.htm
 tech.root: Controls
 ms.assetid: 2a8762ba-a92b-46aa-99bc-57406a872174

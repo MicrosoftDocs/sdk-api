@@ -1,7 +1,7 @@
 ---
 UID: NS:winbio_adapter._WINBIO_ADAPTER_INTERFACE_VERSION
 title: WINBIO_ADAPTER_INTERFACE_VERSION (winbio_adapter.h)
-description: Contains a major and minor version number used in the engine, sensor, and storage adapter interface tables.
+description: Contains a major and minor version number used in the engine, sensor, and storage adapter interface tables.helpviewer_keywords: ["*PWINBIO_ADAPTER_INTERFACE_VERSION","PWINBIO_ADAPTER_INTERFACE_VERSION","PWINBIO_ADAPTER_INTERFACE_VERSION structure pointer [Windows Biometric Framework API]","WINBIO_ADAPTER_INTERFACE_VERSION","WINBIO_ADAPTER_INTERFACE_VERSION structure [Windows Biometric Framework API]","secbiomet.winbio_adapter_interface_version","winbio_adapter/PWINBIO_ADAPTER_INTERFACE_VERSION","winbio_adapter/WINBIO_ADAPTER_INTERFACE_VERSION"]
 old-location: secbiomet\winbio_adapter_interface_version.htm
 tech.root: SecBioMet
 ms.assetid: e9dd91ea-cca3-49f3-89dc-f8f2c0594bd2

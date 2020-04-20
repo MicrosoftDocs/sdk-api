@@ -1,7 +1,7 @@
 ---
 UID: NC:ddrawint.PDD_GETDRIVERINFO
 title: PDD_GETDRIVERINFO (ddrawint.h)
-description: The DdGetDriverInfo function queries the driver for additional DirectDraw and Direct3D functionality that the driver supports.
+description: The DdGetDriverInfo function queries the driver for additional DirectDraw and Direct3D functionality that the driver supports.helpviewer_keywords: ["DdGetDriverInfo","DdGetDriverInfo callback function [Display Devices]","PDD_GETDRIVERINFO","PDD_GETDRIVERINFO callback","ddfncs_0b5e1f3a-ee8b-4e55-bdd9-d872f568f95d.xml","ddrawint/DdGetDriverInfo","display.ddgetdriverinfo"]
 old-location: display\ddgetdriverinfo.htm
 tech.root: display
 ms.assetid: 89a22163-a678-4c72-932a-ae4d17922e0b

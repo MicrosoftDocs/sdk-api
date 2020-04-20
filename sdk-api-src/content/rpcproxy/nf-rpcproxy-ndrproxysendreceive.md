@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.NdrProxySendReceive
 title: NdrProxySendReceive function (rpcproxy.h)
-description: The NdrProxySendReceive function sends a message to the server then waits for a reply.
+description: The NdrProxySendReceive function sends a message to the server then waits for a reply.helpviewer_keywords: ["NdrProxySendReceive","NdrProxySendReceive function [RPC]","rpc.ndrproxysendreceive","rpcproxy/NdrProxySendReceive"]
 old-location: rpc\ndrproxysendreceive.htm
 tech.root: Rpc
 ms.assetid: a80c3271-bed3-4757-97e1-2bf212eaeafd
@@ -65,13 +65,5 @@ Pointer to the interface proxy.
 ### -param pStubMsg [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
-
-
-## -returns
-
-
-
-This function has no return values. Throws an exception upon error.
-
 
 

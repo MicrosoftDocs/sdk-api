@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint.DD_KERNELCALLBACKS
 title: DD_KERNELCALLBACKS (ddrawint.h)
-description: The DD_KERNELCALLBACKS structure contains entry pointers to the DirectDraw kernel-mode callback functions that the driver supports.
+description: The DD_KERNELCALLBACKS structure contains entry pointers to the DirectDraw kernel-mode callback functions that the driver supports.helpviewer_keywords: ["*PDD_KERNELCALLBACKS","DD_KERNELCALLBACKS","DD_KERNELCALLBACKS structure [Display Devices]","PDD_KERNELCALLBACKS","PDD_KERNELCALLBACKS structure pointer [Display Devices]","ddrawint/DD_KERNELCALLBACKS","ddrawint/PDD_KERNELCALLBACKS","ddstrcts_6d33c1f1-37e3-421a-b40f-1009a5ee3d25.xml","display.dd_kernelcallbacks"]
 old-location: display\dd_kernelcallbacks.htm
 tech.root: display
 ms.assetid: 85dcb71b-ad1f-4b83-8ead-db502d9f294e

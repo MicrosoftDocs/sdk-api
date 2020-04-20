@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.ITASRTerminalEvent
 title: ITASRTerminalEvent (tapi3if.h)
-description: The ITASRTerminalEvent interface contains methods that retrieve the description of Automatic Speech Recognition terminal events that have occurred.
+description: The ITASRTerminalEvent interface contains methods that retrieve the description of Automatic Speech Recognition terminal events that have occurred.helpviewer_keywords: ["ITASRTerminalEvent","ITASRTerminalEvent interface [TAPI 2.2]","ITASRTerminalEvent interface [TAPI 2.2]","described","_tapi3_itasrterminalevent","tapi3.itasrterminalevent","tapi3if/ITASRTerminalEvent"]
 old-location: tapi3\itasrterminalevent.htm
 tech.root: Tapi
 ms.assetid: 6bf8b1b7-698f-443f-9ddf-0d50551cebab

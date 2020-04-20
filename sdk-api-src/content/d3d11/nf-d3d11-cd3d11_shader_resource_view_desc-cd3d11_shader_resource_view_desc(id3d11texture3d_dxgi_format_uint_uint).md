@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.CD3D11_SHADER_RESOURCE_VIEW_DESC.CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Texture3D,DXGI_FORMAT,UINT,UINT)
 title: CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Texture3D,DXGI_FORMAT,UINT,UINT) (d3d11.h)
-description: Instantiates a new instance of a CD3D11_SHADER_RESOURCE_VIEW_DESC structure that is initialized with 3D texture  values.
+description: Instantiates a new instance of a CD3D11_SHADER_RESOURCE_VIEW_DESC structure that is initialized with 3D texture  values.helpviewer_keywords: ["CD3D11_SHADER_RESOURCE_VIEW_DESC","CD3D11_SHADER_RESOURCE_VIEW_DESC interface [Direct3D 11]","CD3D11_SHADER_RESOURCE_VIEW_DESC method","CD3D11_SHADER_RESOURCE_VIEW_DESC method [Direct3D 11]","CD3D11_SHADER_RESOURCE_VIEW_DESC method [Direct3D 11]","CD3D11_SHADER_RESOURCE_VIEW_DESC interface","CD3D11_SHADER_RESOURCE_VIEW_DESC.CD3D11_SHADER_RESOURCE_VIEW_DESC","CD3D11_SHADER_RESOURCE_VIEW_DESC.CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Texture3D","DXGI_FORMAT","UINT","UINT)","CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC","CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Texture3D","DXGI_FORMAT","UINT","UINT)","CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC(const D3D11_SHADER_RESOURCE_VIEW_DESC&)","d3d11/CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC","direct3d11.cd3d11_shader_resource_view_desc_cd3d11_shader_resource_view_desc_d3d11_shader_resource_view_desc_"]
 old-location: 
 tech.root: direct3d11
 ms.assetid: D4D60701-ADB2-42E9-AA6F-3677221B6CE7
@@ -67,10 +67,6 @@ Index of the most detailed mipmap level to use; this number is from 0 to *mipLev
 ### -param mipLevels
 
 The maximum number of mipmap levels for the view.
-
-## -returns
-
-This method does not return a value.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.PopulationCount64
 title: PopulationCount64 function (winnt.h)
-description: Counts the number of one bits (population count) in a 64-bit unsigned integer.
+description: Counts the number of one bits (population count) in a 64-bit unsigned integer.helpviewer_keywords: ["PopulationCount64","PopulationCount64 function [Windows API]","winnt/PopulationCount64","winprog.populationcount64"]
 old-location: winprog\populationcount64.htm
 tech.root: WinProg
 ms.assetid: 6123F331-7D4F-4D94-9543-D5A45F7559D8

@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.OffsetWindowOrgEx
 title: OffsetWindowOrgEx function (wingdi.h)
-description: The OffsetWindowOrgEx function modifies the window origin for a device context using the specified horizontal and vertical offsets.
+description: The OffsetWindowOrgEx function modifies the window origin for a device context using the specified horizontal and vertical offsets.helpviewer_keywords: ["OffsetWindowOrgEx","OffsetWindowOrgEx function [Windows GDI]","_win32_OffsetWindowOrgEx","gdi.offsetwindoworgex","wingdi/OffsetWindowOrgEx"]
 old-location: gdi\offsetwindoworgex.htm
 tech.root: gdi
 ms.assetid: 085f40ac-d91f-4853-8ad1-1fc5da08b981

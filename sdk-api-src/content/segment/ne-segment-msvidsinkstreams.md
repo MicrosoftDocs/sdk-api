@@ -1,7 +1,7 @@
 ---
 UID: NE:segment.MSVidSinkStreams
 title: MSVidSinkStreams (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["Audio","MSVidSinkStreams","MSVidSinkStreams enumeration [Microsoft TV Technologies]","MSVidSinkStreamsEnumeration","Other","Video","mstv.msvidsinkstreams","segment/Audio","segment/MSVidSinkStreams","segment/Other","segment/Video"]
 old-location: mstv\msvidsinkstreams.htm
 tech.root: mstv
 ms.assetid: 11738d9f-25b1-4903-94a4-145202a81380

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeMgr.OnUpdateInfo
 title: ITfDisplayAttributeMgr::OnUpdateInfo (msctf.h)
-description: ITfDisplayAttributeMgr::OnUpdateInfo method
+description: ITfDisplayAttributeMgr::OnUpdateInfo methodhelpviewer_keywords: ["ITfDisplayAttributeMgr interface [Text Services Framework]","OnUpdateInfo method","ITfDisplayAttributeMgr.OnUpdateInfo","ITfDisplayAttributeMgr::OnUpdateInfo","OnUpdateInfo","OnUpdateInfo method [Text Services Framework]","OnUpdateInfo method [Text Services Framework]","ITfDisplayAttributeMgr interface","_tsf_itfdisplayattributemgr_onupdateinfo_ref","msctf/ITfDisplayAttributeMgr::OnUpdateInfo","tsf.itfdisplayattributemgr_onupdateinfo"]
 old-location: tsf\itfdisplayattributemgr_onupdateinfo.htm
 tech.root: TSF
 ms.assetid: 0f906a19-16b8-47c1-adca-10d6da0cc7dd
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when a display attribute is changed.
 
 ## -parameters
 
@@ -88,16 +87,4 @@ The method was successful.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributemgr">ITfDisplayAttributeMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributenotifysink-onupdateinfo">ITfDisplayAttributeNotifySink::OnUpdate
-      </a>
- 
-
- 
-
+[ITfDisplayAttributeMgr interface](nn-msctf-itfdisplayattributemgr.md), [ITfDisplayAttributeNotifySink::OnUpdateInfo](nf-msctf-itfdisplayattributenotifysink-onupdateinfo.md)

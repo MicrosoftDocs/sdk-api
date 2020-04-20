@@ -1,7 +1,7 @@
 ---
 UID: NN:msrdc.ISimilarity
 title: ISimilarity (msrdc.h)
-description: Defines methods for storing and retrieving per-file similarity data and file IDs in a similarity file.
+description: Defines methods for storing and retrieving per-file similarity data and file IDs in a similarity file.helpviewer_keywords: ["ISimilarity","ISimilarity interface [Remote Differential Compression]","ISimilarity interface [Remote Differential Compression]","described","fs.isimilarity","msrdc/ISimilarity","rdc.isimilarity"]
 old-location: rdc\isimilarity.htm
 tech.root: rdc
 ms.assetid: fe0cd874-a40c-4d82-99bf-b84008a4995c

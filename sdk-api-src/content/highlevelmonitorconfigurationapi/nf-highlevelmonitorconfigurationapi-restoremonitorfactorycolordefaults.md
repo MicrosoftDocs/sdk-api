@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.RestoreMonitorFactoryColorDefaults
 title: RestoreMonitorFactoryColorDefaults function (highlevelmonitorconfigurationapi.h)
-description: Restores a monitor's color settings to their factory defaults.
+description: Restores a monitor's color settings to their factory defaults.helpviewer_keywords: ["RestoreMonitorFactoryColorDefaults","RestoreMonitorFactoryColorDefaults function [Monitor Configuration]","highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults","monitor.restoremonitorfactorycolordefaults"]
 old-location: monitor\restoremonitorfactorycolordefaults.htm
 tech.root: Monitor
 ms.assetid: e5676134-ae4d-4db6-86fa-dbff0dd14a25

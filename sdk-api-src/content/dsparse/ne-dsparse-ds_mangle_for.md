@@ -1,7 +1,7 @@
 ---
 UID: NE:dsparse._DS_MANGLE_FOR
 title: DS_MANGLE_FOR (dsparse.h)
-description: The DS_MANGLE_FOR enumeration is used to define whether a relative distinguished name is mangled (encoded) and in what form the mangling occurs.
+description: The DS_MANGLE_FOR enumeration is used to define whether a relative distinguished name is mangled (encoded) and in what form the mangling occurs.helpviewer_keywords: ["DS_MANGLE_FOR","DS_MANGLE_FOR enumeration [Active Directory]","DS_MANGLE_OBJECT_RDN_FOR_DELETION","DS_MANGLE_OBJECT_RDN_FOR_NAME_CONFLICT","DS_MANGLE_UNKNOWN","_glines_ds_mangle_for","ad.ds__mangle__for","ad.ds_mangle_for","dsparse/DS_MANGLE_FOR","dsparse/DS_MANGLE_OBJECT_RDN_FOR_DELETION","dsparse/DS_MANGLE_OBJECT_RDN_FOR_NAME_CONFLICT","dsparse/DS_MANGLE_UNKNOWN"]
 old-location: ad\ds_mangle_for.htm
 tech.root: ad
 ms.assetid: 79a66a54-889e-464e-8199-ad911ea84a86

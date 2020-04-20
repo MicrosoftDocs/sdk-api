@@ -1,7 +1,7 @@
 ---
 UID: NI:emi.IOCTL_EMI_GET_METADATA
 title: IOCTL_EMI_GET_METADATA (emi.h)
-description: The IOCTL_EMI_GET_METADATA control code retrieves EMI metadata from a device.
+description: The IOCTL_EMI_GET_METADATA control code retrieves EMI metadata from a device.helpviewer_keywords: ["IOCTL_EMI_GET_METADATA","IOCTL_EMI_GET_METADATA control","IOCTL_EMI_GET_METADATA control code [Power Metering and Budgeting Devices]","emi/IOCTL_EMI_GET_METADATA","powermeter.ioctl_emi_get_metadata"]
 old-location: powermeter\ioctl_emi_get_metadata.htm
 tech.root: powermeter
 ms.assetid: 3A1A76B0-2A46-4C15-84BC-CE75701C30B7

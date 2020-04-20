@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetUINT64
 title: IMFAttributes::SetUINT64 (mfobjects.h)
-description: Associates a UINT64 value with a key.
+description: Associates a UINT64 value with a key.helpviewer_keywords: ["817ed1c1-16ad-4520-a1a0-a93563936b50","IMFAttributes interface [Media Foundation]","SetUINT64 method","IMFAttributes.SetUINT64","IMFAttributes::SetUINT64","SetUINT64","SetUINT64 method [Media Foundation]","SetUINT64 method [Media Foundation]","IMFAttributes interface","mf.imfattributes_setuint64","mfobjects/IMFAttributes::SetUINT64"]
 old-location: mf\imfattributes_setuint64.htm
 tech.root: medfound
 ms.assetid: 817ed1c1-16ad-4520-a1a0-a93563936b50

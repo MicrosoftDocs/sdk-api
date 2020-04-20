@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSSetShaderResources
 title: ID3D11DeviceContext::VSSetShaderResources (d3d11.h)
-description: Bind an array of shader resources to the vertex-shader stage.
+description: Bind an array of shader resources to the vertex-shader stage.helpviewer_keywords: ["1089f6c1-4177-c50f-26c2-1065753f7499","ID3D11DeviceContext interface [Direct3D 11]","VSSetShaderResources method","ID3D11DeviceContext.VSSetShaderResources","ID3D11DeviceContext::VSSetShaderResources","VSSetShaderResources","VSSetShaderResources method [Direct3D 11]","VSSetShaderResources method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::VSSetShaderResources","direct3d11.id3d11devicecontext_vssetshaderresources"]
 old-location: direct3d11\id3d11devicecontext_vssetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: f5dbd212-6896-41b1-b61b-f1c1a690a195
@@ -77,15 +77,6 @@ Number of shader resources to set. Up to a maximum of 128 slots are available fo
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a>*</b>
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">shader resource view</a> interfaces to set to the device.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_OUTPUTVAR
 title: D3D10_SHADER_DEBUG_OUTPUTVAR (d3d10_1shader.h)
-description: Describes a shader output variable.
+description: Describes a shader output variable.helpviewer_keywords: ["D3D10_SHADER_DEBUG_OUTPUTVAR","D3D10_SHADER_DEBUG_OUTPUTVAR structure [Direct3D 10]","a188f87a-61c2-dda1-1e50-d2cbcbeb680f","d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTVAR","direct3d10.d3d10_shader_debug_outputvar"]
 old-location: direct3d10\d3d10_shader_debug_outputvar.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_outputvar.htm

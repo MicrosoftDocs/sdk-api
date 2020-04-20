@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetErrorDescription
 title: IBackgroundCopyError::GetErrorDescription (bits.h)
-description: Retrieves the error text associated with the error.
+description: Retrieves the error text associated with the error.helpviewer_keywords: ["GetErrorDescription","GetErrorDescription method [BITS]","GetErrorDescription method [BITS]","IBackgroundCopyError interface","IBackgroundCopyError interface [BITS]","GetErrorDescription method","IBackgroundCopyError.GetErrorDescription","IBackgroundCopyError::GetErrorDescription","_drz_ibackgroundcopyerror_geterrordescription","bits.ibackgroundcopyerror_geterrordescription","bits/IBackgroundCopyError::GetErrorDescription"]
 old-location: bits\ibackgroundcopyerror_geterrordescription.htm
 tech.root: Bits
 ms.assetid: 57323f38-c2e6-4e40-b357-7df758899f97

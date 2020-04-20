@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpSetServiceConfiguration
 title: HttpSetServiceConfiguration function (http.h)
-description: Creates and sets a configuration record for the HTTP Server API configuration store.
+description: Creates and sets a configuration record for the HTTP Server API configuration store.helpviewer_keywords: ["HttpServiceConfigIPListenList","HttpServiceConfigSSLCertInfo","HttpServiceConfigSslCcsCertInfo","HttpServiceConfigSslSniCertInfo","HttpServiceConfigTimeout","HttpServiceConfigUrlAclInfo","HttpSetServiceConfiguration","HttpSetServiceConfiguration function [HTTP]","_http_httpsetserviceconfiguration","http.httpsetserviceconfiguration","http/HttpSetServiceConfiguration"]
 old-location: http\httpsetserviceconfiguration.htm
 tech.root: http
 ms.assetid: b0a6d442-2ff4-4e00-8301-696fb0864d8c

@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MonthCal_GetMonthRange
 title: MonthCal_GetMonthRange macro (commctrl.h)
-description: Retrieves date information (using SYSTEMTIME structures) that represents the high and low limits of a month calendar control's display. You can use this macro or send the MCM_GETMONTHRANGE message explicitly.
+description: Retrieves date information (using SYSTEMTIME structures) that represents the high and low limits of a month calendar control's display. You can use this macro or send the MCM_GETMONTHRANGE message explicitly.helpviewer_keywords: ["GMR_DAYSTATE","GMR_VISIBLE","MonthCal_GetMonthRange","MonthCal_GetMonthRange macro [Windows Controls]","_win32_MonthCal_GetMonthRange","_win32_MonthCal_GetMonthRange_cpp","commctrl/MonthCal_GetMonthRange","controls.MonthCal_GetMonthRange","controls._win32_MonthCal_GetMonthRange"]
 old-location: controls\MonthCal_GetMonthRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmonthrange.htm

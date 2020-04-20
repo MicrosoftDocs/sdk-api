@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.Click
 title: IWMPEvents::Click (wmp.h)
-description: The Click event occurs when the user clicks a mouse button.
+description: The Click event occurs when the user clicks a mouse button.helpviewer_keywords: ["Click","Click method [Windows Media Player]","Click method [Windows Media Player]","IWMPEvents interface","IWMPEvents interface [Windows Media Player]","Click method","IWMPEvents.Click","IWMPEvents::Click","IWMPEventsClick","wmp.iwmpevents_iwmpevents__click","wmp/IWMPEvents::Click"]
 old-location: wmp\iwmpevents_iwmpevents__click.htm
 tech.root: WMP
 ms.assetid: 6535012d-61d5-4200-8de9-786c633cf079
@@ -78,15 +78,6 @@ The <i>x</i> coordinate of the mouse pointer relative to the upper-left corner o
 ### -param fY [in]
 
 The <i>y</i> coordinate of the mouse pointer relative to the upper-left corner of the control.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

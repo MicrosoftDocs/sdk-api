@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.MapDesktopSurface
 title: IDXGIOutputDuplication::MapDesktopSurface (dxgi1_2.h)
-description: Provides the CPU with efficient access to a desktop image if that desktop image is already in system memory.
+description: Provides the CPU with efficient access to a desktop image if that desktop image is already in system memory.helpviewer_keywords: ["IDXGIOutputDuplication interface [DXGI]","MapDesktopSurface method","IDXGIOutputDuplication.MapDesktopSurface","IDXGIOutputDuplication::MapDesktopSurface","MapDesktopSurface","MapDesktopSurface method [DXGI]","MapDesktopSurface method [DXGI]","IDXGIOutputDuplication interface","direct3ddxgi.idxgioutputduplication_mapdesktopsurface","dxgi1_2/IDXGIOutputDuplication::MapDesktopSurface"]
 old-location: direct3ddxgi\idxgioutputduplication_mapdesktopsurface.htm
 tech.root: direct3ddxgi
 ms.assetid: 1FFFF954-0AD2-418E-B0CC-D674994C3CCE

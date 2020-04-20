@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_USERNAME_CREDENTIAL
 title: WS_USERNAME_CREDENTIAL (webservices.h)
-description: The abstract base type for all username/password credentials.
+description: The abstract base type for all username/password credentials.helpviewer_keywords: ["WS_USERNAME_CREDENTIAL","WS_USERNAME_CREDENTIAL structure [Web Services for Windows]","webservices/WS_USERNAME_CREDENTIAL","wsw.ws_username_credential"]
 old-location: wsw\ws_username_credential.htm
 tech.root: wsw
 ms.assetid: 961f8c52-9922-4e43-905a-a22a80aba63b

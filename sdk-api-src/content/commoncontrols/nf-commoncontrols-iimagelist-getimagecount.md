@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.GetImageCount
 title: IImageList::GetImageCount (commoncontrols.h)
-description: Gets the number of images in an image list.
+description: Gets the number of images in an image list.helpviewer_keywords: ["GetImageCount","GetImageCount method [Windows Controls]","GetImageCount method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","GetImageCount method","IImageList.GetImageCount","IImageList::GetImageCount","comctl_IImageList_GetImageCount","comctl_IImageList_GetImageCount_cpp","commoncontrols/IImageList::GetImageCount","controls.IImageList_GetImageCount","controls.comctl_IImageList_GetImageCount"]
 old-location: controls\IImageList_GetImageCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimagecount.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.UnsubscribeToMultipleOperations
 title: IWSDServiceProxyEventing::UnsubscribeToMultipleOperations (wsdclient.h)
-description: Cancels a collection of subscriptions to notifications or solicit/response events.
+description: Cancels a collection of subscriptions to notifications or solicit/response events.helpviewer_keywords: ["IWSDServiceProxyEventing interface","UnsubscribeToMultipleOperations method","IWSDServiceProxyEventing.UnsubscribeToMultipleOperations","IWSDServiceProxyEventing::UnsubscribeToMultipleOperations","UnsubscribeToMultipleOperations","UnsubscribeToMultipleOperations method","UnsubscribeToMultipleOperations method","IWSDServiceProxyEventing interface","ncd.iwsdserviceproxyeventing_unsubscribetomultipleoperations","wsdclient/IWSDServiceProxyEventing::UnsubscribeToMultipleOperations"]
 old-location: ncd\iwsdserviceproxyeventing_unsubscribetomultipleoperations.htm
 tech.root: WsdApi
 ms.assetid: 2f542dc1-639c-4201-9274-8aa5cc238482

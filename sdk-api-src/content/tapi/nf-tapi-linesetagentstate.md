@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineSetAgentState
 title: lineSetAgentState function (tapi.h)
-description: The lineSetAgentState function sets the agent state associated with a particular address.
+description: The lineSetAgentState function sets the agent state associated with a particular address.helpviewer_keywords: ["_tapi2_linesetagentstate","lineSetAgentState","lineSetAgentState function [TAPI 2.2]","tapi/lineSetAgentState","tapi2.linesetagentstate"]
 old-location: tapi2\linesetagentstate.htm
 tech.root: Tapi
 ms.assetid: 985798fd-54b1-4674-a1fe-b72c56c5176b

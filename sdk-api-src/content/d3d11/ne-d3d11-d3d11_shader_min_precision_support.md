@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_SHADER_MIN_PRECISION_SUPPORT
 title: D3D11_SHADER_MIN_PRECISION_SUPPORT (d3d11.h)
-description: Values that specify minimum precision levels at shader stages.
+description: Values that specify minimum precision levels at shader stages.helpviewer_keywords: ["D3D11_SHADER_MIN_PRECISION_10_BIT","D3D11_SHADER_MIN_PRECISION_16_BIT","D3D11_SHADER_MIN_PRECISION_SUPPORT","D3D11_SHADER_MIN_PRECISION_SUPPORT enumeration [Direct3D 11]","d3d11/D3D11_SHADER_MIN_PRECISION_10_BIT","d3d11/D3D11_SHADER_MIN_PRECISION_16_BIT","d3d11/D3D11_SHADER_MIN_PRECISION_SUPPORT","direct3d11.d3d11_shader_min_precision_support"]
 old-location: direct3d11\d3d11_shader_min_precision_support.htm
 tech.root: direct3d11
 ms.assetid: 5D6C605C-079E-4487-8C58-78301520356F

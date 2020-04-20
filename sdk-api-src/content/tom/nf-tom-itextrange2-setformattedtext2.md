@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange2.SetFormattedText2
 title: ITextRange2::SetFormattedText2 (tom.h)
-description: Sets the text of this range to the formatted text of the specified range.
+description: Sets the text of this range to the formatted text of the specified range.helpviewer_keywords: ["ITextRange2 interface [Windows Controls]","SetFormattedText2 method","ITextRange2.SetFormattedText2","ITextRange2::SetFormattedText2","SetFormattedText2","SetFormattedText2 method [Windows Controls]","SetFormattedText2 method [Windows Controls]","ITextRange2 interface","controls.itextrange2_setformattedtext2","tom/ITextRange2::SetFormattedText2"]
 old-location: controls\itextrange2_setformattedtext2.htm
 tech.root: Controls
 ms.assetid: 151be9ee-da5d-4e50-a12e-0473cf1c7d91

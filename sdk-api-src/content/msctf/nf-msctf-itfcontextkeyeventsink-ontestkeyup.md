@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextKeyEventSink.OnTestKeyUp
 title: ITfContextKeyEventSink::OnTestKeyUp (msctf.h)
-description: ITfContextKeyEventSink::OnTestKeyUp method
+description: ITfContextKeyEventSink::OnTestKeyUp methodhelpviewer_keywords: ["ITfContextKeyEventSink interface [Text Services Framework]","OnTestKeyUp method","ITfContextKeyEventSink.OnTestKeyUp","ITfContextKeyEventSink::OnTestKeyUp","OnTestKeyUp","OnTestKeyUp method [Text Services Framework]","OnTestKeyUp method [Text Services Framework]","ITfContextKeyEventSink interface","_tsf_itfcontextkeyeventsink_ontestkeyup_ref","msctf/ITfContextKeyEventSink::OnTestKeyUp","tsf.itfcontextkeyeventsink_ontestkeyup"]
 old-location: tsf\itfcontextkeyeventsink_ontestkeyup.htm
 tech.root: TSF
 ms.assetid: 0905b5e0-077e-4867-affa-9b2b542ec53d
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to determine if a text service will handle a key up event.
 
 ## -parameters
 
@@ -101,15 +100,4 @@ The method was successful.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextkeyeventsink">ITfContextKeyEventSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
- 
-
- 
-
+[ITfContextKeyEventSink interface](nn-msctf-itfcontextkeyeventsink.md), [WM_KEYUP](/windows/desktop/inputdev/wm-keyup)

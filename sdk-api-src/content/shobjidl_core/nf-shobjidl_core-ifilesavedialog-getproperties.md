@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileSaveDialog.GetProperties
 title: IFileSaveDialog::GetProperties (shobjidl_core.h)
-description: Retrieves the set of property values for a saved item or an item in the process of being saved.
+description: Retrieves the set of property values for a saved item or an item in the process of being saved.helpviewer_keywords: ["GetProperties","GetProperties method [Windows Shell]","GetProperties method [Windows Shell]","IFileSaveDialog interface","IFileSaveDialog interface [Windows Shell]","GetProperties method","IFileSaveDialog.GetProperties","IFileSaveDialog::GetProperties","shell.IFileSaveDialog_GetProperties","shell_IFileSaveDialog_GetProperties","shobjidl_core/IFileSaveDialog::GetProperties"]
 old-location: shell\IFileSaveDialog_GetProperties.htm
 tech.root: shell
 ms.assetid: 734a1bf9-ff63-48a5-9508-3a576ea24ab7

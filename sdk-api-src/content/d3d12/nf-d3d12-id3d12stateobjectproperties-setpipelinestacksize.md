@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12StateObjectProperties.SetPipelineStackSize
 title: ID3D12StateObjectProperties::SetPipelineStackSize (d3d12.h)
-description: Set the current pipeline stack size.
+description: Set the current pipeline stack size.helpviewer_keywords: ["ID3D12StateObjectProperties interface","SetPipelineStackSize method","ID3D12StateObjectProperties.SetPipelineStackSize","ID3D12StateObjectProperties::SetPipelineStackSize","SetPipelineStackSize","SetPipelineStackSize method","SetPipelineStackSize method","ID3D12StateObjectProperties interface","d3d12/ID3D12StateObjectProperties::SetPipelineStackSize","direct3d12.id3d12stateobjectproperties_setpipelinestacksize"]
 old-location: direct3d12\id3d12stateobjectproperties_setpipelinestacksize.htm
 tech.root: direct3d12
 ms.assetid: 0BB69DBB-F8A1-4C32-AE82-3A49E2E0E4B3
@@ -62,15 +62,6 @@ Set the current pipeline stack size.
 Stack size in bytes to use during pipeline execution for each shader thread. There can be many thousands of threads in flight at once on the GPU.
 
 If the value is greater than 0xffffffff (the maximum value of a 32-bit UINT) the runtime will drop the call, and the debug layer will print an error, as this is likely the result of summing up invalid stack sizes returned from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12stateobjectproperties-getshaderstacksize">GetShaderStackSize</a> called with invalid parameters, which return 0xffffffff.  In this case, the previously set stack size, or the default, remains.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

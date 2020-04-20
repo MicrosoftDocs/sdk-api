@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMREXTSELECTCLIPRGN
 title: EMREXTSELECTCLIPRGN (wingdi.h)
-description: The EMREXTSELECTCLIPRGN structure contains members for the ExtSelectClipRgn enhanced metafile record.
+description: The EMREXTSELECTCLIPRGN structure contains members for the ExtSelectClipRgn enhanced metafile record.helpviewer_keywords: ["*PEMREXTSELECTCLIPRGN","EMREXTSELECTCLIPRGN","EMREXTSELECTCLIPRGN structure [Windows GDI]","PEMREXTSELECTCLIPRGN","PEMREXTSELECTCLIPRGN structure pointer [Windows GDI]","_win32_EMREXTSELECTCLIPRGN_str","gdi.emrextselectcliprgn","wingdi/EMREXTSELECTCLIPRGN","wingdi/PEMREXTSELECTCLIPRGN"]
 old-location: gdi\emrextselectcliprgn.htm
 tech.root: gdi
 ms.assetid: fcfa0ae1-06e0-4313-9140-496aa4eec9da

@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost.TxGetExtent
 title: ITextHost::TxGetExtent (textserv.h)
-description: Requests the native size of the control in HIMETRIC.
+description: Requests the native size of the control in HIMETRIC.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxGetExtent method","ITextHost.TxGetExtent","ITextHost::TxGetExtent","TxGetExtent","TxGetExtent method [Windows Controls]","TxGetExtent method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxGetExtent","_win32_ITextHost_TxGetExtent_cpp","controls.ITextHost_TxGetExtent","controls._win32_ITextHost_TxGetExtent","textserv/ITextHost::TxGetExtent"]
 old-location: controls\ITextHost_TxGetExtent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetextent.htm

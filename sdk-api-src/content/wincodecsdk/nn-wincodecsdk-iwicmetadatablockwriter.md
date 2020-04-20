@@ -1,7 +1,7 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataBlockWriter
 title: IWICMetadataBlockWriter (wincodecsdk.h)
-description: Exposes methods that enable the encoding of metadata. This interface is implemented by the decoder and its image frames.
+description: Exposes methods that enable the encoding of metadata. This interface is implemented by the decoder and its image frames.helpviewer_keywords: ["IWICMetadataBlockWriter","IWICMetadataBlockWriter interface [Windows Imaging Component]","IWICMetadataBlockWriter interface [Windows Imaging Component]","described","_wic_codec_iwicmetadatablockwriter","wic._wic_codec_iwicmetadatablockwriter","wincodecsdk/IWICMetadataBlockWriter"]
 old-location: wic\_wic_codec_iwicmetadatablockwriter.htm
 tech.root: wic
 ms.assetid: d8e44c64-dd58-4d36-8add-0a0b2e2af5a4

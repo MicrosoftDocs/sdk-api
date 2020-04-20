@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.SHSetDefaultProperties
 title: SHSetDefaultProperties function (shobjidl.h)
-description: Applies the default set of properties on a Shell item.
+description: Applies the default set of properties on a Shell item.helpviewer_keywords: ["SHSetDefaultProperties","SHSetDefaultProperties function [Windows Shell]","_shell_SHSetDefaultProperties","shell.SHSetDefaultProperties","shobjidl/SHSetDefaultProperties"]
 old-location: shell\SHSetDefaultProperties.htm
 tech.root: shell
 ms.assetid: c3ab80a3-c1f3-4223-9fe3-f7fe48c36460

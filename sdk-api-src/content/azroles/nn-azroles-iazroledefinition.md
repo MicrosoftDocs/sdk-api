@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzRoleDefinition
 title: IAzRoleDefinition (azroles.h)
-description: Represents one or more IAzRoleDefinition, IAzTask, and IAzOperation objects that specify a set of operations.
+description: Represents one or more IAzRoleDefinition, IAzTask, and IAzOperation objects that specify a set of operations.helpviewer_keywords: ["IAzRoleDefinition","IAzRoleDefinition interface [Security]","IAzRoleDefinition interface [Security]","described","azroles/IAzRoleDefinition","security.iazroledefinition"]
 old-location: security\iazroledefinition.htm
 tech.root: SecAuthZ
 ms.assetid: d951f5cc-85da-4898-a70f-9e50ab66ade5

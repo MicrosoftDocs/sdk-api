@@ -1,7 +1,7 @@
 ---
 UID: NF:natupnp.INATEventManager.put_NumberOfEntriesCallback
 title: INATEventManager::put_NumberOfEntriesCallback (natupnp.h)
-description: The put_NumberOfEntriesCallback method enables the NAT application with UPnP technology to register a callback interface with the NAT. The system calls the first method in this callback interface if the number of NAT port mappings changes.
+description: The put_NumberOfEntriesCallback method enables the NAT application with UPnP technology to register a callback interface with the NAT. The system calls the first method in this callback interface if the number of NAT port mappings changes.helpviewer_keywords: ["INATEventManager interface [ICS/ICF]","put_NumberOfEntriesCallback method","INATEventManager.put_NumberOfEntriesCallback","INATEventManager::put_NumberOfEntriesCallback","_ics_inateventmanager_put_numberofentriescallback","ics.inateventmanager_put_numberofentriescallback","natupnp/INATEventManager::put_NumberOfEntriesCallback","put_NumberOfEntriesCallback","put_NumberOfEntriesCallback method [ICS/ICF]","put_NumberOfEntriesCallback method [ICS/ICF]","INATEventManager interface"]
 old-location: ics\inateventmanager_put_numberofentriescallback.htm
 tech.root: ics
 ms.assetid: a02a0f1e-5085-444b-adc4-c3cd919f7e25

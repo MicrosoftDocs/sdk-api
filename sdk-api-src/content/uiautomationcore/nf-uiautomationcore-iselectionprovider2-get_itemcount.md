@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider2.get_ItemCount
 title: ISelectionProvider2::get_ItemCount (uiautomationcore.h)
-description: Gets the number of selected items.
+description: Gets the number of selected items.helpviewer_keywords: ["ISelectionProvider2 interface [Windows Accessibility]","ItemCount property","ISelectionProvider2.ItemCount","ISelectionProvider2.get_ItemCount","ISelectionProvider2::ItemCount","ISelectionProvider2::get_ItemCount","ItemCount property [Windows Accessibility]","ItemCount property [Windows Accessibility]","ISelectionProvider2 interface","get_ItemCount","uiautomationcore/ISelectionProvider2::ItemCount","uiautomationcore/ISelectionProvider2::get_ItemCount","winauto.uiauto_ISelectionProvider2_ItemCount"]
 old-location: winauto\uiauto_ISelectionProvider2_ItemCount.htm
 tech.root: WinAuto
 ms.assetid: AC8C68D0-E905-4C37-AA56-4AAB224789D9

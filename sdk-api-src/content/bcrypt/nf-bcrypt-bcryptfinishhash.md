@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptFinishHash
 title: BCryptFinishHash function (bcrypt.h)
-description: Retrieves the hash or Message Authentication Code (MAC) value for the data accumulated from prior calls to BCryptHashData.
+description: Retrieves the hash or Message Authentication Code (MAC) value for the data accumulated from prior calls to BCryptHashData.helpviewer_keywords: ["BCryptFinishHash","BCryptFinishHash function [Security]","bcrypt/BCryptFinishHash","security.bcryptfinishhash_func"]
 old-location: security\bcryptfinishhash_func.htm
 tech.root: SecCNG
 ms.assetid: 82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd

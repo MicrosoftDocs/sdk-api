@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_OperationOptions_Delete
 title: MI_OperationOptions_Delete function (mi.h)
-description: Deletes an option set and its associated memory.
+description: Deletes an option set and its associated memory.helpviewer_keywords: ["MI_OperationOptions_Delete","MI_OperationOptions_Delete function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_Delete","wmi_v2.mi_operationoptions_delete"]
 old-location: wmi_v2\mi_operationoptions_delete.htm
 tech.root: wmi_v2
 ms.assetid: a9e43835-92a4-468a-9d45-1d4ab81d94f0

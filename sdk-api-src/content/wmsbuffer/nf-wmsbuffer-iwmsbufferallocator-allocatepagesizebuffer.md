@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsbuffer.IWMSBufferAllocator.AllocatePageSizeBuffer
 title: IWMSBufferAllocator::AllocatePageSizeBuffer (wmsbuffer.h)
-description: The AllocatePageSizeBuffer method initializes a buffer that can be used to perform page-aligned reads.
+description: The AllocatePageSizeBuffer method initializes a buffer that can be used to perform page-aligned reads.helpviewer_keywords: ["AllocatePageSizeBuffer","AllocatePageSizeBuffer method [windows Media Format]","AllocatePageSizeBuffer method [windows Media Format]","IWMSBufferAllocator interface","IWMSBufferAllocator interface [windows Media Format]","AllocatePageSizeBuffer method","IWMSBufferAllocator.AllocatePageSizeBuffer","IWMSBufferAllocator::AllocatePageSizeBuffer","IWMSBufferAllocatorAllocatePageSizeBuffer","wmformat.iwmsbufferallocator_allocatepagesizebuffer","wmsbuffer/IWMSBufferAllocator::AllocatePageSizeBuffer"]
 old-location: wmformat\iwmsbufferallocator_allocatepagesizebuffer.htm
 tech.root: wmformat
 ms.assetid: 5d2340dd-8f91-4cce-840a-256c04329513

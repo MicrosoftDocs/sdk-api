@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.capSetCallbackOnVideoStream
 title: capSetCallbackOnVideoStream macro (vfw.h)
-description: The capSetCallbackOnVideoStream macro sets a callback function in the application. AVICap calls this procedure during streaming capture when a video buffer is filled. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_VIDEOSTREAM message.
+description: The capSetCallbackOnVideoStream macro sets a callback function in the application. AVICap calls this procedure during streaming capture when a video buffer is filled. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_VIDEOSTREAM message.helpviewer_keywords: ["_win32_capSetCallbackOnVideoStream","capSetCallbackOnVideoStream","capSetCallbackOnVideoStream macro [Windows Multimedia]","multimedia.capsetcallbackonvideostream","vfw/capSetCallbackOnVideoStream"]
 old-location: multimedia\capsetcallbackonvideostream.htm
 tech.root: Multimedia
 ms.assetid: c2e783a5-829b-4fa2-995a-c0cb4e63645b

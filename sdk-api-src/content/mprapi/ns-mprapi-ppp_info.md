@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._PPP_INFO
 title: PPP_INFO (mprapi.h)
-description: The PPP_INFO structure is used to report the results of the various Point-to-Point (PPP) projection operations for a connection.
+description: The PPP_INFO structure is used to report the results of the various Point-to-Point (PPP) projection operations for a connection.helpviewer_keywords: ["PPP_INFO","PPP_INFO structure [RAS]","_mpr_ppp_info","mprapi/PPP_INFO","rras.ppp_info"]
 old-location: rras\ppp_info.htm
 tech.root: RRAS
 ms.assetid: 39692a38-ab40-43da-a704-8c206be72ceb

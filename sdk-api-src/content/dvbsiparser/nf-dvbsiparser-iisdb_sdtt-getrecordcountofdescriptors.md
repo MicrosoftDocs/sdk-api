@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordCountOfDescriptors
 title: IISDB_SDTT::GetRecordCountOfDescriptors (dvbsiparser.h)
-description: Returns the number of descriptors for a record in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
+description: Returns the number of descriptors for a record in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).helpviewer_keywords: ["GetRecordCountOfDescriptors","GetRecordCountOfDescriptors method [Microsoft TV Technologies]","GetRecordCountOfDescriptors method [Microsoft TV Technologies]","IISDB_SDTT interface","IISDB_SDTT interface [Microsoft TV Technologies]","GetRecordCountOfDescriptors method","IISDB_SDTT.GetRecordCountOfDescriptors","IISDB_SDTT::GetRecordCountOfDescriptors","dvbsiparser/IISDB_SDTT::GetRecordCountOfDescriptors","mstv.iisdb_sdtt_getrecordcountofdescriptors"]
 old-location: mstv\iisdb_sdtt_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: 04f32111-4c4b-4f5b-81d1-fa7c19841cd8

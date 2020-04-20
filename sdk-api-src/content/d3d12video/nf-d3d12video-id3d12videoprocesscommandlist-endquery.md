@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.EndQuery
 title: ID3D12VideoProcessCommandList::EndQuery
-description: Ends a query.
+description: Ends a query.helpviewer_keywords: ["ID3D12VideoProcessCommandList::EndQuery","EndQuery","ID3D12VideoProcessCommandList.EndQuery","ID3D12VideoProcessCommandList::EndQuery","ID3D12VideoProcessCommandList.EndQuery"]
 tech.root: mf
 ms.assetid: e90086c6-2044-444c-a655-d1f3aea002b4
 ms.date: 05/28/2019
@@ -59,9 +59,6 @@ A member of the [D3D12_QUERY_TYPE](https://docs.microsoft.com/windows/desktop/ap
 ### -param Index
 
 The index of the query within the query heap.
-
-## -returns
-This method returns void.
 
 ## -remarks
 

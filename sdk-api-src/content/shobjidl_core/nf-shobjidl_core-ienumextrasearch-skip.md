@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Skip
 title: IEnumExtraSearch::Skip (shobjidl_core.h)
-description: Skip a specified number of objects.
+description: Skip a specified number of objects.helpviewer_keywords: ["IEnumExtraSearch interface [Windows Shell]","Skip method","IEnumExtraSearch.Skip","IEnumExtraSearch::Skip","Skip","Skip method [Windows Shell]","Skip method [Windows Shell]","IEnumExtraSearch interface","_win32_IEnumExtraSearch_Skip","shell.IEnumExtraSearch_Skip","shobjidl_core/IEnumExtraSearch::Skip"]
 old-location: shell\IEnumExtraSearch_Skip.htm
 tech.root: shell
 ms.assetid: f77983e2-bae4-4350-8950-b4e76fc46365

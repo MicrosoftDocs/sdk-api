@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IRpcProxyBuffer.Disconnect
 title: IRpcProxyBuffer::Disconnect (objidlbase.h)
-description: Disconnects a client proxy from any RPC channel to which it is connected.
+description: Disconnects a client proxy from any RPC channel to which it is connected.helpviewer_keywords: ["Disconnect","Disconnect method [COM]","Disconnect method [COM]","IRpcProxyBuffer interface","IRpcProxyBuffer interface [COM]","Disconnect method","IRpcProxyBuffer.Disconnect","IRpcProxyBuffer::Disconnect","_com_irpcproxybuffer_disconnect","com.irpcproxybuffer_disconnect","objidlbase/IRpcProxyBuffer::Disconnect"]
 old-location: com\irpcproxybuffer_disconnect.htm
 tech.root: com
 ms.assetid: 4ead4a47-7089-472d-b489-b725329ea5ab
@@ -55,15 +55,6 @@ Disconnects a client proxy from any RPC channel to which it is connected.
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

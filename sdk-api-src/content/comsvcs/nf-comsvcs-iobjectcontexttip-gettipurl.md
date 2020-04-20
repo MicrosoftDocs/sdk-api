@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IObjectContextTip.GetTipUrl
 title: IObjectContextTip::GetTipUrl (comsvcs.h)
-description: Retrieves the URL of the TIP context.
+description: Retrieves the URL of the TIP context.helpviewer_keywords: ["GetTipUrl","GetTipUrl method [COM+]","GetTipUrl method [COM+]","IObjectContextTip interface","IObjectContextTip interface [COM+]","GetTipUrl method","IObjectContextTip.GetTipUrl","IObjectContextTip::GetTipUrl","_cos_IObjectContextTip_GetTipUrl","comsvcs/IObjectContextTip::GetTipUrl","cos.iobjectcontexttip_gettipurl"]
 old-location: cos\iobjectcontexttip_gettipurl.htm
 tech.root: cossdk
 ms.assetid: 9948a1b4-efbe-4a44-a67d-ea91a846708f

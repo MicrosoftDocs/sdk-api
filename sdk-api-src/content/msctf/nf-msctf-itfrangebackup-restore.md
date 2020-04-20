@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRangeBackup.Restore
 title: ITfRangeBackup::Restore (msctf.h)
-description: ITfRangeBackup::Restore method
+description: ITfRangeBackup::Restore methodhelpviewer_keywords: ["ITfRangeBackup interface [Text Services Framework]","Restore method","ITfRangeBackup.Restore","ITfRangeBackup::Restore","Restore","Restore method [Text Services Framework]","Restore method [Text Services Framework]","ITfRangeBackup interface","_tsf_itfrangebackup_restore_ref","msctf/ITfRangeBackup::Restore","tsf.itfrangebackup_restore"]
 old-location: tsf\itfrangebackup_restore.htm
 tech.root: TSF
 ms.assetid: bb168504-34c0-4d30-826e-61926fd10a2a
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Restores a specified range object into the TSF context.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device1.SetEventOnMultipleFenceCompletion
 title: ID3D12Device1::SetEventOnMultipleFenceCompletion (d3d12.h)
-description: Specifies an event that should be fired when one or more of a collection of fences reach specific values.
+description: Specifies an event that should be fired when one or more of a collection of fences reach specific values.helpviewer_keywords: ["ID3D12Device1 interface","SetEventOnMultipleFenceCompletion method","ID3D12Device1.SetEventOnMultipleFenceCompletion","ID3D12Device1::SetEventOnMultipleFenceCompletion","SetEventOnMultipleFenceCompletion","SetEventOnMultipleFenceCompletion method","SetEventOnMultipleFenceCompletion method","ID3D12Device1 interface","d3d12/ID3D12Device1::SetEventOnMultipleFenceCompletion","direct3d12.id3d12device1_seteventonmultiplefencecompletion"]
 old-location: direct3d12\id3d12device1_seteventonmultiplefencecompletion.htm
 tech.root: direct3d12
 ms.assetid: C187EEB7-DCD0-4535-AF0E-EF2C0E2DC83C

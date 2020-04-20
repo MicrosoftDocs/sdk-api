@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcasync.tagRPC_EXTENDED_ERROR_INFO
 title: RPC_EXTENDED_ERROR_INFO (rpcasync.h)
-description: The RPC_EXTENDED_ERROR_INFO structure is used to store extended error information.
+description: The RPC_EXTENDED_ERROR_INFO structure is used to store extended error information.helpviewer_keywords: ["RPC_EXTENDED_ERROR_INFO","RPC_EXTENDED_ERROR_INFO structure [RPC]","_rpc_rpc_extended_error_info","rpc.rpc_extended_error_info","rpcasync/RPC_EXTENDED_ERROR_INFO"]
 old-location: rpc\rpc_extended_error_info.htm
 tech.root: Rpc
 ms.assetid: 1e906192-c9f1-41c2-bf7f-9967a3d0e1d3

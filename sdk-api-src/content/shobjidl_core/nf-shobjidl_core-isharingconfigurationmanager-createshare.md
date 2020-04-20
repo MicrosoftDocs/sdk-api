@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.CreateShare
 title: ISharingConfigurationManager::CreateShare (shobjidl_core.h)
-description: Shares the Users or Public folder. If the folder is already shared, this method updates its sharing status.
+description: Shares the Users or Public folder. If the folder is already shared, this method updates its sharing status.helpviewer_keywords: ["CreateShare","CreateShare method [Windows Shell]","CreateShare method [Windows Shell]","ISharingConfigurationManager interface","ISharingConfigurationManager interface [Windows Shell]","CreateShare method","ISharingConfigurationManager.CreateShare","ISharingConfigurationManager::CreateShare","SHARE_ROLE_CO_OWNER","SHARE_ROLE_READER","_shell_ISharingConfigurationManager_CreateShare","shell.ISharingConfigurationManager_CreateShare","shobjidl_core/ISharingConfigurationManager::CreateShare"]
 old-location: shell\ISharingConfigurationManager_CreateShare.htm
 tech.root: shell
 ms.assetid: 81bcd470-3fb8-4c6d-af4f-6f11206fa40a

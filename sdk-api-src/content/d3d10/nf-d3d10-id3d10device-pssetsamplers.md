@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSSetSamplers
 title: ID3D10Device::PSSetSamplers (d3d10.h)
-description: Set an array of sampler states to the pixel shader pipeline stage.
+description: Set an array of sampler states to the pixel shader pipeline stage.helpviewer_keywords: ["5f7069fa-43fc-1459-30dc-3cb118f8bb46","ID3D10Device interface [Direct3D 10]","PSSetSamplers method","ID3D10Device.PSSetSamplers","ID3D10Device::PSSetSamplers","PSSetSamplers","PSSetSamplers method [Direct3D 10]","PSSetSamplers method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::PSSetSamplers","direct3d10.id3d10device_pssetsamplers"]
 old-location: direct3d10\id3d10device_pssetsamplers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_pssetsamplers.htm
@@ -77,15 +77,6 @@ Number of samplers in the array. Each pipeline stage has a total of 16 sampler s
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>*</b>
 
 Pointer to an array of sampler-state interfaces (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>). See Remarks.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

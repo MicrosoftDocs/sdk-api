@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.get_CachedDropEffect
 title: IUIAutomationDragPattern::get_CachedDropEffect (uiautomationclient.h)
-description: Retrieves a cached localized string that indicates what happens when the user drops this element as part of a drag-and-drop operation.
+description: Retrieves a cached localized string that indicates what happens when the user drops this element as part of a drag-and-drop operation.helpviewer_keywords: ["CachedDropEffect property [Windows Accessibility]","CachedDropEffect property [Windows Accessibility]","IUIAutomationDragPattern interface","IUIAutomationDragPattern interface [Windows Accessibility]","CachedDropEffect property","IUIAutomationDragPattern.CachedDropEffect","IUIAutomationDragPattern.get_CachedDropEffect","IUIAutomationDragPattern::CachedDropEffect","IUIAutomationDragPattern::get_CachedDropEffect","get_CachedDropEffect","uiautomationclient/IUIAutomationDragPattern::CachedDropEffect","uiautomationclient/IUIAutomationDragPattern::get_CachedDropEffect","winauto.uiauto_iuiautomationdragpattern_cacheddropeffect"]
 old-location: winauto\uiauto_iuiautomationdragpattern_cacheddropeffect.htm
 tech.root: WinAuto
 ms.assetid: A99F5E0F-FC61-4AD7-9DC8-B4B7B1AB2F6C

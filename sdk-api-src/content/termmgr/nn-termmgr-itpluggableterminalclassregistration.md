@@ -1,7 +1,7 @@
 ---
 UID: NN:termmgr.ITPluggableTerminalClassRegistration
 title: ITPluggableTerminalClassRegistration (termmgr.h)
-description: The ITPluggableTerminalClassRegistration interface exposes methods that allow the creation, modification, and deletion of the registry entry for a pluggable terminal.
+description: The ITPluggableTerminalClassRegistration interface exposes methods that allow the creation, modification, and deletion of the registry entry for a pluggable terminal.helpviewer_keywords: ["ITPluggableTerminalClassRegistration","ITPluggableTerminalClassRegistration interface [TAPI 2.2]","ITPluggableTerminalClassRegistration interface [TAPI 2.2]","described","_tapi3_itpluggableterminalclassregistration","tapi3.itpluggableterminalclassregistration","termmgr/ITPluggableTerminalClassRegistration"]
 old-location: tapi3\itpluggableterminalclassregistration.htm
 tech.root: Tapi
 ms.assetid: 178824f5-9dda-4e8a-b921-f2c9d064a83c

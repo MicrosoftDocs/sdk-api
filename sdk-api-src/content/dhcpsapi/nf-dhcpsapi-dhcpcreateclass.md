@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateClass
 title: DhcpCreateClass function (dhcpsapi.h)
-description: Creates a custom option class.
+description: Creates a custom option class.helpviewer_keywords: ["DhcpCreateClass","DhcpCreateClass function [DHCP]","dhcp.dhcpcreateclass","dhcpsapi/DhcpCreateClass"]
 old-location: dhcp\dhcpcreateclass.htm
 tech.root: DHCP
 ms.assetid: ae30baba-a2cd-4662-a62a-58b59d119dc4

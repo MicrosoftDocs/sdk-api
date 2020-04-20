@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.Rect.GetLocation
 title: Rect::GetLocation (gdiplustypes.h)
-description: The Rect::GetLocation method gets the coordinates of the upper-left corner of the rectangle.
+description: The Rect::GetLocation method gets the coordinates of the upper-left corner of the rectangle.helpviewer_keywords: ["GetLocation","GetLocation method [GDI+]","GetLocation method [GDI+]","Rect class","Rect class [GDI+]","GetLocation method","Rect.GetLocation","Rect::GetLocation","_gdiplus_CLASS_Rect_GetLocation_point_","gdiplus._gdiplus_CLASS_Rect_GetLocation_point_"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetLocation_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getlocation.htm
@@ -63,15 +63,6 @@ The <b>Rect::GetLocation</b> method gets the coordinates of the upper-left corne
 Type: <b>Point*</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that receives the coordinates of the upper-left corner. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.GetGUIDDescription
 title: ITfCategoryMgr::GetGUIDDescription (msctf.h)
-description: ITfCategoryMgr::GetGUIDDescription method
+description: ITfCategoryMgr::GetGUIDDescription methodhelpviewer_keywords: ["GetGUIDDescription","GetGUIDDescription method [Text Services Framework]","GetGUIDDescription method [Text Services Framework]","ITfCategoryMgr interface","ITfCategoryMgr interface [Text Services Framework]","GetGUIDDescription method","ITfCategoryMgr.GetGUIDDescription","ITfCategoryMgr::GetGUIDDescription","_tsf_itfcategorymgr_getguiddescription_ref","msctf/ITfCategoryMgr::GetGUIDDescription","tsf.itfcategorymgr_getguiddescription"]
 old-location: tsf\itfcategorymgr_getguiddescription.htm
 tech.root: TSF
 ms.assetid: e0c4f64e-7e20-4dff-b597-acc280aebf32
@@ -45,21 +45,15 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::GetGUIDDescription
 
-
 ## -description
 
-
-
+Obtains the description of the specified GUID from the Windows registry.
 
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 Specifies the GUID to obtain the description for.
-
 
 ### -param pbstrDesc [out]
 
@@ -67,10 +61,7 @@ Pointer to a <b>BSTR</b> value that receives the description string. Allocate us
 
 Pointer to a <b>BSTR</b> value that receives the description string. This must be allocated using <b>SysAllocString</b>. The caller must free this memory using <b>SysFreeString</b> when it is no longer required.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -114,25 +105,6 @@ The method cannot obtain the description.
 </tr>
 </table>
  
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguiddescription">ITfCategoryMgr::RegisterGUIDDescription</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregisterguiddescription">ITfCategoryMgr::UnregisterGUIDDescription</a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::RegisterGUIDDescription](nf-msctf-itfcategorymgr-registerguiddescription.md), [ITfCategoryMgr::UnregisterGUIDDescription](nf-msctf-itfcategorymgr-unregisterguiddescription.md)

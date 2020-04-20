@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core._SHCONTF
 title: _SHCONTF (shobjidl_core.h)
-description: Determines the types of items included in an enumeration. These values are used with the IShellFolder::EnumObjects method.
+description: Determines the types of items included in an enumeration. These values are used with the IShellFolder::EnumObjects method.helpviewer_keywords: ["SHCONTF","SHCONTF enumeration [Windows Shell]","SHCONTF_CHECKING_FOR_CHILDREN","SHCONTF_ENABLE_ASYNC","SHCONTF_FASTITEMS","SHCONTF_FLATLIST","SHCONTF_FOLDERS","SHCONTF_INCLUDEHIDDEN","SHCONTF_INCLUDESUPERHIDDEN","SHCONTF_INIT_ON_FIRST_NEXT","SHCONTF_NAVIGATION_ENUM","SHCONTF_NETPRINTERSRCH","SHCONTF_NONFOLDERS","SHCONTF_SHAREABLE","SHCONTF_STORAGE","_SHCONTF","_win32_SHCONTF","shell.SHCONTF","shobjidl_core/SHCONTF","shobjidl_core/SHCONTF_CHECKING_FOR_CHILDREN","shobjidl_core/SHCONTF_ENABLE_ASYNC","shobjidl_core/SHCONTF_FASTITEMS","shobjidl_core/SHCONTF_FLATLIST","shobjidl_core/SHCONTF_FOLDERS","shobjidl_core/SHCONTF_INCLUDEHIDDEN","shobjidl_core/SHCONTF_INCLUDESUPERHIDDEN","shobjidl_core/SHCONTF_INIT_ON_FIRST_NEXT","shobjidl_core/SHCONTF_NAVIGATION_ENUM","shobjidl_core/SHCONTF_NETPRINTERSRCH","shobjidl_core/SHCONTF_NONFOLDERS","shobjidl_core/SHCONTF_SHAREABLE","shobjidl_core/SHCONTF_STORAGE"]
 old-location: shell\SHCONTF.htm
 tech.root: shell
 ms.assetid: a46845bf-ade6-4366-8a73-6dc960fd7722

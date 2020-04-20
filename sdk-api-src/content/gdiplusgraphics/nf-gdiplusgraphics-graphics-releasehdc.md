@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.ReleaseHDC
 title: Graphics::ReleaseHDC (gdiplusgraphics.h)
-description: The Graphics::ReleaseHDC method releases a device context handle obtained by a previous call to the Graphics::GetHDC method of this Graphics object.
+description: The Graphics::ReleaseHDC method releases a device context handle obtained by a previous call to the Graphics::GetHDC method of this Graphics object.helpviewer_keywords: ["Graphics class [GDI+]","ReleaseHDC method","Graphics.ReleaseHDC","Graphics::ReleaseHDC","ReleaseHDC","ReleaseHDC method [GDI+]","ReleaseHDC method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_ReleaseHDC_hdc_","gdiplus._gdiplus_CLASS_Graphics_ReleaseHDC_hdc_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_ReleaseHDC_hdc_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\releasehdc.htm
@@ -63,15 +63,6 @@ The <b>Graphics::ReleaseHDC</b> method releases a device context handle obtained
 Type: <b>HDC</b>
 
 Handle to a device context obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gethdc">Graphics::GetHDC</a> method of this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

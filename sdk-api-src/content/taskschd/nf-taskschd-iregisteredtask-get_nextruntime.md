@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_NextRunTime
 title: IRegisteredTask::get_NextRunTime (taskschd.h)
-description: Gets the time when the registered task is next scheduled to run.
+description: Gets the time when the registered task is next scheduled to run.helpviewer_keywords: ["IRegisteredTask interface [Task Scheduler]","NextRunTime property","IRegisteredTask.NextRunTime","IRegisteredTask.get_NextRunTime","IRegisteredTask::NextRunTime","IRegisteredTask::get_NextRunTime","NextRunTime property [Task Scheduler]","NextRunTime property [Task Scheduler]","IRegisteredTask interface","get_NextRunTime","taskschd.iregisteredtask_nextruntime","taskschd/IRegisteredTask::NextRunTime","taskschd/IRegisteredTask::get_NextRunTime"]
 old-location: taskschd\iregisteredtask_nextruntime.htm
 tech.root: taskschd
 ms.assetid: ccaed6d7-4247-4299-9226-77d84d572e3b

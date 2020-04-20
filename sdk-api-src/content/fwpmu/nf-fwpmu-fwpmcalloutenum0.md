@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmCalloutEnum0
 title: FwpmCalloutEnum0 function (fwpmu.h)
-description: Returns the next page of results from the callout enumerator.
+description: Returns the next page of results from the callout enumerator.helpviewer_keywords: ["FwpmCalloutEnum0","FwpmCalloutEnum0 function [Filtering]","fwp.fwpmcalloutenum0_func","fwpmu/FwpmCalloutEnum0"]
 old-location: fwp\fwpmcalloutenum0_func.htm
 tech.root: fwp
 ms.assetid: 6e6667d2-7147-43ed-a2fd-91baad1eb296

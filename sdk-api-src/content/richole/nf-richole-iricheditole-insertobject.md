@@ -1,7 +1,7 @@
 ---
 UID: NF:richole.IRichEditOle.InsertObject
 title: IRichEditOle::InsertObject (richole.h)
-description: Inserts an object into a rich edit control.
+description: Inserts an object into a rich edit control.helpviewer_keywords: ["IRichEditOle interface [Windows Controls]","InsertObject method","IRichEditOle.InsertObject","IRichEditOle::InsertObject","InsertObject","InsertObject method [Windows Controls]","InsertObject method [Windows Controls]","IRichEditOle interface","_win32_IRichEditOle_InsertObject","_win32_IRichEditOle_InsertObject_cpp","controls.IRichEditOle_InsertObject","controls._win32_IRichEditOle_InsertObject","richole/IRichEditOle::InsertObject"]
 old-location: controls\IRichEditOle_InsertObject.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleinsertobject.htm

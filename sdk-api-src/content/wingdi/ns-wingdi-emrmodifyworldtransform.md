@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRMODIFYWORLDTRANSFORM
 title: EMRMODIFYWORLDTRANSFORM (wingdi.h)
-description: The EMRMODIFYWORLDTRANSFORM structure contains members for the ModifyWorldTransform enhanced metafile record.
+description: The EMRMODIFYWORLDTRANSFORM structure contains members for the ModifyWorldTransform enhanced metafile record.helpviewer_keywords: ["*PEMRMODIFYWORLDTRANSFORM","EMRMODIFYWORLDTRANSFORM","EMRMODIFYWORLDTRANSFORM structure [Windows GDI]","PEMRMODIFYWORLDTRANSFORM","PEMRMODIFYWORLDTRANSFORM structure pointer [Windows GDI]","_win32_EMRMODIFYWORLDTRANSFORM_str","gdi.emrmodifyworldtransform","wingdi/EMRMODIFYWORLDTRANSFORM","wingdi/PEMRMODIFYWORLDTRANSFORM"]
 old-location: gdi\emrmodifyworldtransform.htm
 tech.root: gdi
 ms.assetid: 61d51fc9-a8dd-4981-940d-eedc8936360a

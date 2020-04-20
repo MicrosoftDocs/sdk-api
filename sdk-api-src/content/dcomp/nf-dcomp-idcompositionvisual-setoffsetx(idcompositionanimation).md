@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetOffsetX(IDCompositionAnimation)
 title: IDCompositionVisual::SetOffsetX(IDCompositionAnimation) (dcomp.h)
-description: Changes the value of the OffsetX property of this visual.
+description: Changes the value of the OffsetX property of this visual.helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","SetOffsetX method","IDCompositionVisual.SetOffsetX","IDCompositionVisual.SetOffsetX(IDCompositionAnimation)","IDCompositionVisual::SetOffsetX","IDCompositionVisual::SetOffsetX(IDCompositionAnimation)","IDCompositionVisual::SetOffsetX(IDCompositionAnimation*)","SetOffsetX","SetOffsetX method [DirectComposition]","SetOffsetX method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::SetOffsetX","directcomp.idcompositionvisual_setoffsetx_idcompositionanimation"]
 old-location: directcomp\idcompositionvisual_setoffsetx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: f0595951-a0b0-47bb-9e94-1cbaa7b7f736

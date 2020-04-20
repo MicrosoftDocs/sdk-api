@@ -1,7 +1,7 @@
 ---
 UID: NN:msclus.ISClusPartitionEx
 title: ISClusPartitionEx (msclus.h)
-description: Provides extended information about a partition on a Physical Disk resource.
+description: Provides extended information about a partition on a Physical Disk resource.helpviewer_keywords: ["ClusPartitionEx","ClusPartitionEx object [Failover Cluster]","ClusPartitionEx object [Failover Cluster]","described","ISClusPartitionEx","msclus/ClusPartitionEx","mscs.cluspartitionex"]
 old-location: mscs\cluspartitionex.htm
 tech.root: MsCS
 ms.assetid: 1AFDB11F-1AD4-4B84-82EF-C0CE86D744C1

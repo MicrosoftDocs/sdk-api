@@ -1,7 +1,7 @@
 ---
 UID: NF:wsbonline.DeregisterOnlineBackupFromWindowsServerBackup
 title: DeregisterOnlineBackupFromWindowsServerBackup function (wsbonline.h)
-description: De-registers an already registered Cloud backup provider.
+description: De-registers an already registered Cloud backup provider.helpviewer_keywords: ["DeregisterOnlineBackupFromWindowsServerBackup","DeregisterOnlineBackupFromWindowsServerBackup function [Windows Server Backup]","wsb.deregisteronlinebackupfromwindowsserverbackup","wsbonline/DeregisterOnlineBackupFromWindowsServerBackup"]
 old-location: wsb\deregisteronlinebackupfromwindowsserverbackup.htm
 tech.root: wsb
 ms.assetid: 4E70EF3D-E4AA-498C-B131-8C5F48CD230E

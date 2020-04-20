@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadStr
 title: PSPropertyBag_ReadStr function (propsys.h)
-description: Reads the string data value of a property in a property bag.
+description: Reads the string data value of a property in a property bag.helpviewer_keywords: ["PSPropertyBag_ReadStr","PSPropertyBag_ReadStr function [Windows Properties]","properties.PSPropertyBag_ReadStr","propsys/PSPropertyBag_ReadStr","shell.PSPropertyBag_ReadStr","shell_PSPropertyBag_ReadStr"]
 old-location: properties\PSPropertyBag_ReadStr.htm
 tech.root: properties
 ms.assetid: 2E3E86D6-B070-49fc-AAF0-D6DCF0EA16B7

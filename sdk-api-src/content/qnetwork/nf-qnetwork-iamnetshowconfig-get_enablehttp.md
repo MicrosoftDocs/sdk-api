@@ -1,7 +1,7 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableHTTP
 title: IAMNetShowConfig::get_EnableHTTP (qnetwork.h)
-description: The get_EnableHTTP method queries whether HTTP-type streaming is enabled.
+description: The get_EnableHTTP method queries whether HTTP-type streaming is enabled.helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_EnableHTTP method","IAMNetShowConfig.get_EnableHTTP","IAMNetShowConfig::get_EnableHTTP","IAMNetShowConfigget_EnableHTTP","dshow.iamnetshowconfig_get_enablehttp","get_EnableHTTP","get_EnableHTTP method [DirectShow]","get_EnableHTTP method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_EnableHTTP"]
 old-location: dshow\iamnetshowconfig_get_enablehttp.htm
 tech.root: DirectShow
 ms.assetid: 29495a89-644f-4c55-a740-efb0cbf6d581

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsQuerySitesFree
 title: DsQuerySitesFree function (ntdsapi.h)
-description: Frees the memory allocated by the DsQuerySitesByCost function.
+description: Frees the memory allocated by the DsQuerySitesByCost function.helpviewer_keywords: ["DsQuerySitesFree","DsQuerySitesFree function [Active Directory]","ad.dsquerysitesfree","ntdsapi/DsQuerySitesFree"]
 old-location: ad\dsquerysitesfree.htm
 tech.root: ad
 ms.assetid: 810caa4f-8275-4ad8-ad3e-72061fc073dd
@@ -60,15 +60,6 @@ The <b>DsQuerySitesFree</b> function frees the memory allocated by the <a href="
 ### -param rgSiteInfo [in]
 
 Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_site_cost_info">DS_SITE_COST_INFO</a> structures allocated by a call to <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

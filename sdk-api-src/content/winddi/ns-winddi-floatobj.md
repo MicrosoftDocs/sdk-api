@@ -1,7 +1,7 @@
 ---
 UID: NS:winddi._FLOATOBJ
 title: FLOATOBJ (winddi.h)
-description: The FLOATOBJ structure is used to emulate a floating-point number.
+description: The FLOATOBJ structure is used to emulate a floating-point number.helpviewer_keywords: ["*PFLOATOBJ","FLOATOBJ","FLOATOBJ structure [Display Devices]","PFLOATOBJ","PFLOATOBJ structure pointer [Display Devices]","display.floatobj","grstrcts_5e2796fc-6ccc-4230-9ded-fd2222f0e8ac.xml","winddi/FLOATOBJ","winddi/PFLOATOBJ"]
 old-location: display\floatobj.htm
 tech.root: display
 ms.assetid: 5f8c401b-7487-4d75-a0a8-534fa7992a3d

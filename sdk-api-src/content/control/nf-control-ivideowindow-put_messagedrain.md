@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IVideoWindow.put_MessageDrain
 title: IVideoWindow::put_MessageDrain (control.h)
-description: The put_MessageDrain method specifies a window to receive mouse and keyboard messages from the video window.
+description: The put_MessageDrain method specifies a window to receive mouse and keyboard messages from the video window.helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_MessageDrain method","IVideoWindow.put_MessageDrain","IVideoWindow::put_MessageDrain","IVideoWindowput_MessageDrain","control/IVideoWindow::put_MessageDrain","dshow.ivideowindow_put_messagedrain","put_MessageDrain","put_MessageDrain method [DirectShow]","put_MessageDrain method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_put_messagedrain.htm
 tech.root: DirectShow
 ms.assetid: aaf8624c-b3ea-4034-845a-6cd74c725c44

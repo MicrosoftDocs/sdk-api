@@ -1,7 +1,7 @@
 ---
 UID: NF:xapo.IXAPO.UnlockForProcess
 title: IXAPO::UnlockForProcess (xapo.h)
-description: Deallocates variables that were allocated with the LockForProcess method.
+description: Deallocates variables that were allocated with the LockForProcess method.helpviewer_keywords: ["IXAPO interface [XAudio2 Audio Mixing APIs]","UnlockForProcess method","IXAPO.UnlockForProcess","IXAPO::UnlockForProcess","UnlockForProcess","UnlockForProcess method [XAudio2 Audio Mixing APIs]","UnlockForProcess method [XAudio2 Audio Mixing APIs]","IXAPO interface","xapo/IXAPO::UnlockForProcess","xaudio2.ixapo_interface_unlockforprocess"]
 old-location: xaudio2\ixapo_interface_unlockforprocess.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.UnlockForProcess
@@ -55,15 +55,6 @@ Deallocates variables that were allocated with the <a href="https://docs.microso
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidPlayback
 title: IMSVidPlayback (segment.h)
-description: The IMSVidPlayback interface controls a Video Control playback device.
+description: The IMSVidPlayback interface controls a Video Control playback device.helpviewer_keywords: ["IMSVidPlayback","IMSVidPlayback interface [Microsoft TV Technologies]","IMSVidPlayback interface [Microsoft TV Technologies]","described","IMSVidPlaybackInterface","mstv.imsvidplayback","segment/IMSVidPlayback"]
 old-location: mstv\imsvidplayback.htm
 tech.root: mstv
 ms.assetid: ed954545-f58f-4841-9ffd-185350f76388

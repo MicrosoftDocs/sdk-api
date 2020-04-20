@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Context_NewDynamicInstance
 title: MI_Context_NewDynamicInstance function (mi.h)
-description: Creates a new dynamic instance (weakly typed instance without a class declaration) of a class.
+description: Creates a new dynamic instance (weakly typed instance without a class declaration) of a class.helpviewer_keywords: ["MI_Context_NewDynamicInstance","MI_Context_NewDynamicInstance function [Windows Management Infrastructure (MI)]","mi/MI_Context_NewDynamicInstance","wmi.mi_newdynamicinstance","wmi_v2.mi_context_newdynamicinstance"]
 old-location: wmi_v2\mi_context_newdynamicinstance.htm
 tech.root: wmi_v2
 ms.assetid: 05415945-c804-4056-b4bf-673995c1d6e4

@@ -1,7 +1,7 @@
 ---
 UID: NS:featurestagingapi.FEATURE_ERROR
 title: FEATURE_ERROR (featurestagingapi.h)
-description: This structure is intended for infrastructure use only.
+description: This structure is intended for infrastructure use only.helpviewer_keywords: ["FEATURE_ERROR","FEATURE_ERROR structure [Windows API]","featurestagingapi/FEATURE_ERROR","winprog.feature_error"]
 old-location: winprog\feature_error.htm
 tech.root: DevNotes
 ms.assetid: D289E97E-CEA7-408E-98D5-44A5B07B512A

@@ -1,7 +1,7 @@
 ---
 UID: NE:structuredquery.tagSTRUCTURED_QUERY_MULTIOPTION
 title: STRUCTURED_QUERY_MULTIOPTION (structuredquery.h)
-description: A set of flags used by IQueryParser::SetMultiOption to indicate individual options.
+description: A set of flags used by IQueryParser::SetMultiOption to indicate individual options.helpviewer_keywords: ["SQMO_DEFAULT_PROPERTY","SQMO_GENERATOR_FOR_TYPE","SQMO_MAP_PROPERTY","SQMO_VIRTUAL_PROPERTY","STRUCTURED_QUERY_MULTIOPTION","STRUCTURED_QUERY_MULTIOPTION enumeration [search]","_search_STRUCTURED_QUERY_MULTIOPTION","search._search_STRUCTURED_QUERY_MULTIOPTION","structuredquery/SQMO_DEFAULT_PROPERTY","structuredquery/SQMO_GENERATOR_FOR_TYPE","structuredquery/SQMO_MAP_PROPERTY","structuredquery/SQMO_VIRTUAL_PROPERTY","structuredquery/STRUCTURED_QUERY_MULTIOPTION"]
 old-location: search\_search_STRUCTURED_QUERY_MULTIOPTION.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\structured_query_multioption.htm

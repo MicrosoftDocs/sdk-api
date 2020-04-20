@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.GetAt
 title: IXpsOMFontResourceCollection::GetAt (xpsobjectmodel.h)
-description: Gets an IXpsOMFontResource interface pointer from a specified location in the collection.
+description: Gets an IXpsOMFontResource interface pointer from a specified location in the collection.helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsOMFontResourceCollection interface","IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","GetAt method","IXpsOMFontResourceCollection.GetAt","IXpsOMFontResourceCollection::GetAt","xps.ixpsomfontresourcecollection_getat","xpsobjectmodel/IXpsOMFontResourceCollection::GetAt"]
 old-location: xps\ixpsomfontresourcecollection_getat.htm
 tech.root: printdocs
 ms.assetid: c97409fd-3210-4177-8b8e-46a725d17425

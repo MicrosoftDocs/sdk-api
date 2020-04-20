@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_GetItemText
 title: ListView_GetItemText macro (commctrl.h)
-description: Gets the text of a list-view item or subitem. You can use this macro or send the LVM_GETITEMTEXT message explicitly.
+description: Gets the text of a list-view item or subitem. You can use this macro or send the LVM_GETITEMTEXT message explicitly.helpviewer_keywords: ["ListView_GetItemText","ListView_GetItemText macro [Windows Controls]","_win32_ListView_GetItemText","_win32_ListView_GetItemText_cpp","commctrl/ListView_GetItemText","controls.ListView_GetItemText","controls._win32_ListView_GetItemText"]
 old-location: controls\ListView_GetItemText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemtext.htm

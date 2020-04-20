@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.D2D1GetGradientMeshInteriorPointsFromCoonsPatch
 title: D2D1GetGradientMeshInteriorPointsFromCoonsPatch function (d2d1_3.h)
-description: Returns the interior points for a gradient mesh patch based on the points defining a Coons patch.
+description: Returns the interior points for a gradient mesh patch based on the points defining a Coons patch.helpviewer_keywords: ["D2D1GetGradientMeshInteriorPointsFromCoonsPatch","D2D1GetGradientMeshInteriorPointsFromCoonsPatch function [Direct2D]","d2d1_3/D2D1GetGradientMeshInteriorPointsFromCoonsPatch","direct2d.d2d1getgradientmeshinteriorpointsfromcoonspatch"]
 old-location: direct2d\d2d1getgradientmeshinteriorpointsfromcoonspatch.htm
 tech.root: Direct2D
 ms.assetid: 388d5cbf-cb15-f0c9-3f3b-897f68519a4c
@@ -171,15 +171,6 @@ Returns the interior point for the gradient mesh corresponding to point21 in the
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a>*</b>
 
 Returns the interior point for the gradient mesh corresponding to point22 in the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_gradient_mesh_patch">D2D1_GRADIENT_MESH_PATCH</a> structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

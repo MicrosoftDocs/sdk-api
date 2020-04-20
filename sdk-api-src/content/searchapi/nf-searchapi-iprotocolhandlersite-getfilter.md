@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IProtocolHandlerSite.GetFilter
 title: IProtocolHandlerSite::GetFilter (searchapi.h)
-description: Retrieves the appropriate IFilteraccording to the supplied parameters.
+description: Retrieves the appropriate IFilteraccording to the supplied parameters.helpviewer_keywords: ["GetFilter","GetFilter method [search]","GetFilter method [search]","IProtocolHandlerSite interface","IProtocolHandlerSite interface [search]","GetFilter method","IProtocolHandlerSite.GetFilter","IProtocolHandlerSite::GetFilter","_search_IProtocolHandlerSite_GetFilter","search._search_IProtocolHandlerSite_GetFilter","search._search_IProtocolHandlerSite_search_IProtocolHandlerSite_GetFilter_cpp","searchapi/IProtocolHandlerSite::GetFilter"]
 old-location: search\_search_IProtocolHandlerSite_search_IProtocolHandlerSite_GetFilter_cpp.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iprotocolhandlersite\getfilter.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardGetReaderIconA
 title: SCardGetReaderIconA function (winscard.h)
-description: Gets an icon of the smart card reader for a given reader's name.
+description: Gets an icon of the smart card reader for a given reader's name.helpviewer_keywords: ["SCardGetReaderIcon","SCardGetReaderIcon function [Security]","SCardGetReaderIconA","SCardGetReaderIconW","security.scardgetreadericon","winscard/SCardGetReaderIcon"]
 old-location: security\scardgetreadericon.htm
 tech.root: SecAuthN
 ms.assetid: A83B5AF3-BF2C-42AE-9D34-3B651D7AF047

@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_PROVIDER_PROP
 title: VDS_PROVIDER_PROP (vds.h)
-description: Defines the properties of a provider object.
+description: Defines the properties of a provider object.helpviewer_keywords: ["VDS_PROVIDER_PROP","VDS_PROVIDER_PROP structure [VDS]","base.vds_provider_prop","vds/_VDS_PROVIDER_PROP","vdshwprv/_VDS_PROVIDER_PROP"]
 old-location: base\vds_provider_prop.htm
 tech.root: VDS
 ms.assetid: f41fc908-3720-4dfb-a5d3-bb1459fb7e5d

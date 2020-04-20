@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceSyncError
 title: IWMPEvents2::DeviceSyncError (wmp.h)
-description: The DeviceSyncError event occurs in response to a synchronization error.
+description: The DeviceSyncError event occurs in response to a synchronization error.helpviewer_keywords: ["DeviceSyncError","DeviceSyncError method [Windows Media Player]","DeviceSyncError method [Windows Media Player]","IWMPEvents2 interface","IWMPEvents2 interface [Windows Media Player]","DeviceSyncError method","IWMPEvents2.DeviceSyncError","IWMPEvents2::DeviceSyncError","IWMPEvents2DeviceSyncError","wmp.iwmpevents2_iwmpevents2__devicesyncerror","wmp/IWMPEvents2::DeviceSyncError"]
 old-location: wmp\iwmpevents2_iwmpevents2__devicesyncerror.htm
 tech.root: WMP
 ms.assetid: 41e9a6df-3721-4fd2-aa9d-9874a004aa9a
@@ -68,15 +68,6 @@ Address of the <b>IWMPSyncDevice</b> interface that represents the device for wh
 ### -param pMedia [in]
 
 Address of the <b>IWMPDispatch</b> interface that represents the media item for which the synchronization error occurred.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

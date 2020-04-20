@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_V4_UDP_ENCAPSULATION0_
 title: IPSEC_V4_UDP_ENCAPSULATION0 (ipsectypes.h)
-description: Stores the User Datagram Protocol (UDP) encapsulation ports for Encapsulating Security Payload (ESP) encapsulation.
+description: Stores the User Datagram Protocol (UDP) encapsulation ports for Encapsulating Security Payload (ESP) encapsulation.helpviewer_keywords: ["IPSEC_V4_UDP_ENCAPSULATION0","IPSEC_V4_UDP_ENCAPSULATION0 structure [Filtering]","IPSEC_V4_UDP_ENCAPSULATION0_","fwp.ipsec_v4_udp_encapsulation0_struct","ipsectypes/IPSEC_V4_UDP_ENCAPSULATION0"]
 old-location: fwp\ipsec_v4_udp_encapsulation0_struct.htm
 tech.root: fwp
 ms.assetid: 69cddec0-7311-4833-8b24-293ad714054e

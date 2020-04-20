@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMDATETIMECHANGE
 title: NMDATETIMECHANGE (commctrl.h)
-description: Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the DTN_DATETIMECHANGE notification code.
+description: Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the DTN_DATETIMECHANGE notification code.helpviewer_keywords: ["*LPNMDATETIMECHANGE","GDT_NONE","GDT_VALID","LPNMDATETIMECHANGE","LPNMDATETIMECHANGE structure pointer [Windows Controls]","NMDATETIMECHANGE","NMDATETIMECHANGE structure [Windows Controls]","_win32_NMDATETIMECHANGE","_win32_NMDATETIMECHANGE_cpp","commctrl/LPNMDATETIMECHANGE","commctrl/NMDATETIMECHANGE","controls.NMDATETIMECHANGE","controls._win32_NMDATETIMECHANGE"]
 old-location: controls\NMDATETIMECHANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimechange.htm

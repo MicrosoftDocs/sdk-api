@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.SpInitUserModeContextFn
 title: SpInitUserModeContextFn (ntsecpkg.h)
-description: Creates a user-mode security context from a packed Local Security Authority (LSA)-mode context.
+description: Creates a user-mode security context from a packed Local Security Authority (LSA)-mode context.helpviewer_keywords: ["SpInitUserModeContext","SpInitUserModeContext callback function [Security]","SpInitUserModeContextFn","SpInitUserModeContextFn callback","_ssp_spinitusermodecontext","ntsecpkg/SpInitUserModeContext","security.spinitusermodecontext"]
 old-location: security\spinitusermodecontext.htm
 tech.root: SecAuthN
 ms.assetid: e67a7ad3-b3d2-4c1a-a514-f51ccfaf990e

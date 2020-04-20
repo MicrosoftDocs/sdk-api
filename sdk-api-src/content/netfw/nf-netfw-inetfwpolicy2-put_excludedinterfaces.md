@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_ExcludedInterfaces
 title: INetFwPolicy2::put_ExcludedInterfaces (netfw.h)
-description: Specifies a list of interfaces on which firewall settings are excluded.
+description: Specifies a list of interfaces on which firewall settings are excluded.helpviewer_keywords: ["ExcludedInterfaces property [ICS/ICF]","ExcludedInterfaces property [ICS/ICF]","INetFwPolicy2 interface","INetFwPolicy2 interface [ICS/ICF]","ExcludedInterfaces property","INetFwPolicy2.ExcludedInterfaces","INetFwPolicy2.put_ExcludedInterfaces","INetFwPolicy2::ExcludedInterfaces","INetFwPolicy2::get_ExcludedInterfaces","INetFwPolicy2::put_ExcludedInterfaces","ics.inetfwpolicy2_excludedinterfaces","netfw/INetFwPolicy2::ExcludedInterfaces","netfw/INetFwPolicy2::get_ExcludedInterfaces","netfw/INetFwPolicy2::put_ExcludedInterfaces","put_ExcludedInterfaces"]
 old-location: ics\inetfwpolicy2_excludedinterfaces.htm
 tech.root: ics
 ms.assetid: 0e8cbb09-c146-42e9-9b7c-002e6775bf19

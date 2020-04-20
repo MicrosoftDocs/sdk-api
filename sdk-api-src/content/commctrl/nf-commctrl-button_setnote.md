@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Button_SetNote
 title: Button_SetNote macro (commctrl.h)
-description: Sets the text of the note associated with a specified command link button. You can use this macro or send the BCM_SETNOTE message explicitly.
+description: Sets the text of the note associated with a specified command link button. You can use this macro or send the BCM_SETNOTE message explicitly.helpviewer_keywords: ["Button_SetNote","Button_SetNote macro [Windows Controls]","_shell_Button_SetNote","_shell_Button_SetNote_cpp","commctrl/Button_SetNote","controls.Button_SetNote","controls._shell_Button_SetNote"]
 old-location: controls\Button_SetNote.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setnote.htm

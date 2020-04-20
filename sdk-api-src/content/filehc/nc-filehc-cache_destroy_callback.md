@@ -1,7 +1,7 @@
 ---
 UID: NC:filehc.CACHE_DESTROY_CALLBACK
 title: CACHE_DESTROY_CALLBACK (filehc.h)
-description: A function that is called whenever an entry in the name cache is destroyed.
+description: A function that is called whenever an entry in the name cache is destroyed.helpviewer_keywords: ["CACHE_DESTROY_CALLBACK","CACHE_DESTROY_CALLBACK callback","CACHE_DESTROY_CALLBACK callback function [Windows API]","filehc/CACHE_DESTROY_CALLBACK","winprog.cache_destroy_callback"]
 old-location: winprog\cache_destroy_callback.htm
 tech.root: DevNotes
 ms.assetid: daf85def-20ed-4162-b133-f730c50bf98a
@@ -65,15 +65,6 @@ The size of the data or key pointed to by the <i>lpb</i> parameter, in bytes.
 ### -param lpb [in]
 
 A pointer to the data or key.
-
-
-## -returns
-
-
-
-This function has no return values.
-
-
 
 
 ## -remarks

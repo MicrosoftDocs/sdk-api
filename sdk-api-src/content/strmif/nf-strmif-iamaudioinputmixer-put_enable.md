@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Enable
 title: IAMAudioInputMixer::put_Enable (strmif.h)
-description: The put_Enable method enables or disables an input.
+description: The put_Enable method enables or disables an input.helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","put_Enable method","IAMAudioInputMixer.put_Enable","IAMAudioInputMixer::put_Enable","IAMAudioInputMixerput_Enable","dshow.iamaudioinputmixer_put_enable","put_Enable","put_Enable method [DirectShow]","put_Enable method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::put_Enable"]
 old-location: dshow\iamaudioinputmixer_put_enable.htm
 tech.root: DirectShow
 ms.assetid: 84f179bf-2e2f-4ba0-81b7-c20acd09ccea

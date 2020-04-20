@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.GetThreadId
 title: GetThreadId function (processthreadsapi.h)
-description: Retrieves the thread identifier of the specified thread.
+description: Retrieves the thread identifier of the specified thread.helpviewer_keywords: ["GetThreadId","GetThreadId function","base.getthreadid","processthreadsapi/GetThreadId","winbase/GetThreadId"]
 old-location: base\getthreadid.htm
 tech.root: ProcThread
 ms.assetid: 198dfe9e-713f-46ce-90eb-24bfe42d2bf6

@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.ITravelLog.GetToolTipText
 title: ITravelLog::GetToolTipText (shdeprecated.h)
-description: Deprecated. Gets tooltip text for a travel entry, which is used as a Unicode display string in the UI.
+description: Deprecated. Gets tooltip text for a travel entry, which is used as a Unicode display string in the UI.helpviewer_keywords: ["GetToolTipText","GetToolTipText method [Windows Shell]","GetToolTipText method [Windows Shell]","ITravelLog interface","ITravelLog interface [Windows Shell]","GetToolTipText method","ITravelLog.GetToolTipText","ITravelLog::GetToolTipText","shdeprecated/ITravelLog::GetToolTipText","shell.ITravelLog_GetToolTipText","zone_ITravelLog_GetToolTipText"]
 old-location: shell\ITravelLog_GetToolTipText.htm
 tech.root: shell
 ms.assetid: a085fe2e-9658-448c-b659-4ef08896ec77

@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagTPMPARAMS
 title: TPMPARAMS (winuser.h)
-description: Contains extended parameters for the TrackPopupMenuEx function.
+description: Contains extended parameters for the TrackPopupMenuEx function.helpviewer_keywords: ["*LPTPMPARAMS","LPTPMPARAMS","LPTPMPARAMS structure pointer [Menus and Other Resources]","TPMPARAMS","TPMPARAMS structure [Menus and Other Resources]","_win32_TPMPARAMS_str","_win32_tpmparams_str_cpp","menurc.tpmparams","winui._win32_tpmparams_str","winuser/LPTPMPARAMS","winuser/TPMPARAMS"]
 old-location: menurc\tpmparams.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\tpmparams.htm

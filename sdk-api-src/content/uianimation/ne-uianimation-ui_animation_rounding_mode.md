@@ -1,7 +1,7 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0001_0001
 title: UI_ANIMATION_ROUNDING_MODE (uianimation.h)
-description: Defines the rounding modes to be used when the value of an animation variable is converted from a floating-point type to an integer type.
+description: Defines the rounding modes to be used when the value of an animation variable is converted from a floating-point type to an integer type.helpviewer_keywords: ["UI_ANIMATION_ROUNDING_CEILING","UI_ANIMATION_ROUNDING_FLOOR","UI_ANIMATION_ROUNDING_MODE","UI_ANIMATION_ROUNDING_MODE enumeration [Windows Animation]","UI_ANIMATION_ROUNDING_NEAREST","uianimation.ui_animation_rounding_mode","uianimation/UI_ANIMATION_ROUNDING_CEILING","uianimation/UI_ANIMATION_ROUNDING_FLOOR","uianimation/UI_ANIMATION_ROUNDING_MODE","uianimation/UI_ANIMATION_ROUNDING_NEAREST"]
 old-location: uianimation\ui_animation_rounding_mode.htm
 tech.root: UIAnimation
 ms.assetid: 0221207b-4583-44b8-85aa-dc6cd4cd9d25

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.Unserialize
 title: ITfContextOwnerServices::Unserialize (msctf.h)
-description: ITfContextOwnerServices::Unserialize method
+description: ITfContextOwnerServices::Unserialize methodhelpviewer_keywords: ["ITfContextOwnerServices interface [Text Services Framework]","Unserialize method","ITfContextOwnerServices.Unserialize","ITfContextOwnerServices::Unserialize","Unserialize","Unserialize method [Text Services Framework]","Unserialize method [Text Services Framework]","ITfContextOwnerServices interface","_tsf_itfcontextownerservices_unserialize_ref","msctf/ITfContextOwnerServices::Unserialize","tsf.itfcontextownerservices_unserialize"]
 old-location: tsf\itfcontextownerservices_unserialize.htm
 tech.root: TSF
 ms.assetid: b02ffedf-83c5-48ff-8116-801aaec6dc71
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Applies previously serialized property data to a property object.
 
 ## -parameters
 
@@ -150,31 +149,4 @@ When calling this method, the application must be able to grant a synchronous re
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownerservices">ITfContextOwnerServices</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-serialize">ITfContextOwnerServices::Serialize
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpersistentpropertyloaderacp">ITfPersistentPropertyLoaderACP
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_persistent_property_header_acp">TF_PERSISTENT_PROPERTY_HEADER_ACP
-      </a>
- 
-
- 
-
+[ITfContextOwnerServices interface](nn-msctf-itfcontextownerservices.md), [ITfContextOwnerServices::Serialize](nf-msctf-itfcontextownerservices-serialize.md), [ITfProperty interface](nn-msctf-itfproperty.md), [ITfPersistentPropertyLoaderACP interface](nn-msctf-itfpersistentpropertyloaderacp.md), [TF_PERSISTENT_PROPERTY_HEADER_ACP structure](ns-msctf-tf_persistent_property_header_acp.md)

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IStreamConcatenate.Initialize2
 title: IStreamConcatenate::Initialize2 (imapi2.h)
-description: Initializes this stream from an array of input streams.
+description: Initializes this stream from an array of input streams.helpviewer_keywords: ["IStreamConcatenate interface [IMAPI]","Initialize2 method","IStreamConcatenate.Initialize2","IStreamConcatenate::Initialize2","Initialize2","Initialize2 method [IMAPI]","Initialize2 method [IMAPI]","IStreamConcatenate interface","imapi.istreamconcatenate_initialize2","imapi2/IStreamConcatenate::Initialize2"]
 old-location: imapi\istreamconcatenate_initialize2.htm
 tech.root: imapi
 ms.assetid: 826b3157-4cab-4f18-87f2-6635911c03f0

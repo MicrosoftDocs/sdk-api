@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.UuidCompare
 title: UuidCompare function (rpcdce.h)
-description: An application calls the UuidCompare function to compare two UUIDs and determine their order. The returned value gives the order.
+description: An application calls the UuidCompare function to compare two UUIDs and determine their order. The returned value gives the order.helpviewer_keywords: ["UuidCompare","UuidCompare function [RPC]","_rpc_uuidcompare","rpc.uuidcompare","rpcdce/UuidCompare"]
 old-location: rpc\uuidcompare.htm
 tech.root: Rpc
 ms.assetid: 9a8c558b-c438-45f7-ac0f-1da20eb26e29

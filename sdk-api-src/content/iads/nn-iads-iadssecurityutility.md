@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsSecurityUtility
 title: IADsSecurityUtility (iads.h)
-description: The IADsSecurityUtility interface is used to get, set, or retrieve the security descriptor on a file, fileshare, or registry key.
+description: The IADsSecurityUtility interface is used to get, set, or retrieve the security descriptor on a file, fileshare, or registry key.helpviewer_keywords: ["IADsSecurityUtility","IADsSecurityUtility interface [ADSI]","IADsSecurityUtility interface [ADSI]","described","_ds_iadssecurityutility","adsi.iadssecurityutility","iads/IADsSecurityUtility"]
 old-location: adsi\iadssecurityutility.htm
 tech.root: adsi
 ms.assetid: 781eda1e-1f13-4bb4-ae8e-c9bf4c08e125

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetParent
 title: ID2D1SvgElement::GetParent (d2d1svg.h)
-description: Gets the parent element.
+description: Gets the parent element.helpviewer_keywords: ["GetParent","GetParent method [Direct2D]","GetParent method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetParent method","ID2D1SvgElement.GetParent","ID2D1SvgElement::GetParent","d2d1svg/ID2D1SvgElement::GetParent","direct2d.id2d1svgelement_getparent"]
 old-location: direct2d\id2d1svgelement_getparent.htm
 tech.root: Direct2D
 ms.assetid: 1396BEE3-23F1-4C07-8A74-BF07F14AB093
@@ -62,15 +62,6 @@ Gets the parent element.
 Type: <b>ID2D1SvgElement**</b>
 
 Outputs the parent element.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

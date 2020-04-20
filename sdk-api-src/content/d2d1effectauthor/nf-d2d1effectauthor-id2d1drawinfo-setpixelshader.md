@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1DrawInfo.SetPixelShader
 title: ID2D1DrawInfo::SetPixelShader (d2d1effectauthor.h)
-description: Set the shader instructions for this transform.
+description: Set the shader instructions for this transform.helpviewer_keywords: ["ID2D1DrawInfo interface [Direct2D]","SetPixelShader method","ID2D1DrawInfo.SetPixelShader","ID2D1DrawInfo::SetPixelShader","SetPixelShader","SetPixelShader method [Direct2D]","SetPixelShader method [Direct2D]","ID2D1DrawInfo interface","d2d1effectauthor/ID2D1DrawInfo::SetPixelShader","direct2d.id2d1drawinfo_setpixelshader"]
 old-location: direct2d\id2d1drawinfo_setpixelshader.htm
 tech.root: Direct2D
 ms.assetid: 9CB38592-6B49-48FE-AA3F-1FC402489454

@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhRemoveCounter
 title: PdhRemoveCounter function (pdh.h)
-description: Removes a counter from a query.
+description: Removes a counter from a query.helpviewer_keywords: ["PdhRemoveCounter","PdhRemoveCounter function [Perf]","_win32_pdhremovecounter","base.pdhremovecounter","pdh/PdhRemoveCounter","perf.pdhremovecounter"]
 old-location: perf\pdhremovecounter.htm
 tech.root: perfctrs
 ms.assetid: adf9c7bd-47d6-489a-88fc-954fdf127ce8

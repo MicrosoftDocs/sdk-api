@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPropertyList.Skip
 title: IADsPropertyList::Skip (iads.h)
-description: Skips a specified number of items, counting from the current cursor position, in the property list.
+description: Skips a specified number of items, counting from the current cursor position, in the property list.helpviewer_keywords: ["IADsPropertyList interface [ADSI]","Skip method","IADsPropertyList.Skip","IADsPropertyList::Skip","Skip","Skip method [ADSI]","Skip method [ADSI]","IADsPropertyList interface","_ds_iadspropertylist_skip","adsi.iadspropertylist__skip","adsi.iadspropertylist_skip","iads/IADsPropertyList::Skip"]
 old-location: adsi\iadspropertylist_skip.htm
 tech.root: adsi
 ms.assetid: 3bbdf1e8-444c-4d5e-83df-95a1f4fd7508

@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileGroupManager
 title: IFsrmFileGroupManager (fsrmscreen.h)
-description: Used to manage file group objects.
+description: Used to manage file group objects.helpviewer_keywords: ["IFsrmFileGroupManager","IFsrmFileGroupManager interface [File Server Resource Manager]","IFsrmFileGroupManager interface [File Server Resource Manager]","described","fs.ifsrmfilegroupmanager","fsrm.ifsrmfilegroupmanager","fsrmscreen/IFsrmFileGroupManager"]
 old-location: fsrm\ifsrmfilegroupmanager.htm
 tech.root: fsrm
 ms.assetid: e0a1a3d3-f683-410d-a0d9-081cd2476d1e

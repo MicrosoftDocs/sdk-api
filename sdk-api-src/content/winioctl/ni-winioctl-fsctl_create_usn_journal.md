@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_CREATE_USN_JOURNAL
 title: FSCTL_CREATE_USN_JOURNAL
-description: Creates an update sequence number (USN) change journal stream on a target volume, or modifies an existing change journal stream.
+description: Creates an update sequence number (USN) change journal stream on a target volume, or modifies an existing change journal stream.helpviewer_keywords: ["FSCTL_CREATE_USN_JOURNAL","FSCTL_CREATE_USN_JOURNAL control","FSCTL_CREATE_USN_JOURNAL control code [Files]","_win32_fsctl_create_usn_journal","base.fsctl_create_usn_journal","fs.fsctl_create_usn_journal","winioctl/FSCTL_CREATE_USN_JOURNAL"]
 old-location: fs\fsctl_create_usn_journal.htm
 tech.root: FileIO
 ms.assetid: 92e737e6-dba6-47f1-a077-e303039e12eb

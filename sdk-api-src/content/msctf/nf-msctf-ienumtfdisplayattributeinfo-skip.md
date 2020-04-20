@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfDisplayAttributeInfo.Skip
 title: IEnumTfDisplayAttributeInfo::Skip (msctf.h)
-description: IEnumTfDisplayAttributeInfo::Skip method
+description: IEnumTfDisplayAttributeInfo::Skip methodhelpviewer_keywords: ["IEnumTfDisplayAttributeInfo interface [Text Services Framework]","Skip method","IEnumTfDisplayAttributeInfo.Skip","IEnumTfDisplayAttributeInfo::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfDisplayAttributeInfo interface","_tsf_ienumtfdisplayattributeinfo_skip_ref","msctf/IEnumTfDisplayAttributeInfo::Skip","tsf.ienumtfdisplayattributeinfo_skip"]
 old-location: tsf\ienumtfdisplayattributeinfo_skip.htm
 tech.root: TSF
 ms.assetid: 5c4c9ca9-a813-406f-a507-16ccb0ff2a2a
@@ -45,25 +45,17 @@ ms.custom: 19H1
 
 # IEnumTfDisplayAttributeInfo::Skip
 
-
 ## -description
 
-
-
+Moves the current position forward in the enumeration sequence by the specified number of elements.
 
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
 Contains the number of elements to skip.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,7 +87,7 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfDisplayAttributeInfo interface](nn-msctf-ienumtfdisplayattributeinfo.md), [ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md)

@@ -1,7 +1,7 @@
 ---
 UID: NC:commdlg.LPPRINTHOOKPROC
 title: LPPRINTHOOKPROC (commdlg.h)
-description: Receives messages or notifications intended for the default dialog box procedure of the Print dialog box. This is an application-defined or library-defined callback function that is used with the PrintDlg function.
+description: Receives messages or notifications intended for the default dialog box procedure of the Print dialog box. This is an application-defined or library-defined callback function that is used with the PrintDlg function.helpviewer_keywords: ["LPPRINTHOOKPROC","LPPRINTHOOKPROC callback","LPPRINTHOOKPROC callback function [Dialog Boxes]","_win32_PrintHookProc","_win32_printhookproc_cpp","commdlg/LPPRINTHOOKPROC","dlgbox.printhookproc","winui._win32_printhookproc"]
 old-location: dlgbox\printhookproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\printhookproc.htm

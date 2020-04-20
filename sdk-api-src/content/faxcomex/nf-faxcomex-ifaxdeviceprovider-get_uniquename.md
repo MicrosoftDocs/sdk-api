@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_UniqueName
 title: IFaxDeviceProvider::get_UniqueName (faxcomex.h)
-description: The IFaxDeviceProvider::get_UniqueName property is a null-terminated string that contains the unique name that identifies the fax service provider (FSP).
+description: The IFaxDeviceProvider::get_UniqueName property is a null-terminated string that contains the unique name that identifies the fax service provider (FSP).helpviewer_keywords: ["IFaxDeviceProvider interface [Fax Service]","UniqueName property","IFaxDeviceProvider.UniqueName","IFaxDeviceProvider.get_UniqueName","IFaxDeviceProvider::UniqueName","IFaxDeviceProvider::get_UniqueName","UniqueName property [Fax Service]","UniqueName property [Fax Service]","IFaxDeviceProvider interface","_mfax_faxdeviceprovider.uniquename","fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_uniquename_cpp","fax._mfax_faxdeviceprovider_uniquename","faxcomex/IFaxDeviceProvider::UniqueName","faxcomex/IFaxDeviceProvider::get_UniqueName","get_UniqueName"]
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_uniquename_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4nfp.htm

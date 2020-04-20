@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetFriendlyName
 title: IX509EnrollmentPolicyServer::GetFriendlyName (certenroll.h)
-description: Retrieves a display name for the certificate enrollment policy (CEP) server.
+description: Retrieves a display name for the certificate enrollment policy (CEP) server.helpviewer_keywords: ["GetFriendlyName","GetFriendlyName method [Security]","GetFriendlyName method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetFriendlyName method","IX509EnrollmentPolicyServer.GetFriendlyName","IX509EnrollmentPolicyServer::GetFriendlyName","certenroll/IX509EnrollmentPolicyServer::GetFriendlyName","security.ix509enrollmentpolicyserver_getfriendlyname"]
 old-location: security\ix509enrollmentpolicyserver_getfriendlyname.htm
 tech.root: seccertenroll
 ms.assetid: a2e3da49-19b8-44f6-af7c-ec5c13411f3f

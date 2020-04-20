@@ -1,7 +1,7 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceEventCallback
 title: IPortableDeviceEventCallback (portabledeviceapi.h)
-description: The IPortableDeviceEventCallback interface implemented by the application to receive asynchronous callbacks if an application has registered to receive them by calling IPortableDevice::Advise.
+description: The IPortableDeviceEventCallback interface implemented by the application to receive asynchronous callbacks if an application has registered to receive them by calling IPortableDevice::Advise.helpviewer_keywords: ["IPortableDeviceEventCallback","IPortableDeviceEventCallback interface [Windows Portable Devices SDK]","IPortableDeviceEventCallback interface [Windows Portable Devices SDK]","described","IPortableDeviceEventCallbackInterface","portabledeviceapi/IPortableDeviceEventCallback","wpdsdk.iportabledeviceeventcallback"]
 old-location: wpdsdk\iportabledeviceeventcallback.htm
 tech.root: wpd_sdk
 ms.assetid: 1fb2d5d8-82b8-4c51-a086-bdcad33da190

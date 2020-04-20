@@ -1,7 +1,7 @@
 ---
 UID: NS:usp10.__unnamed_struct_1
 title: SCRIPT_FONTPROPERTIES (usp10.h)
-description: Contains information about the properties of the current font.
+description: Contains information about the properties of the current font.helpviewer_keywords: ["SCRIPT_FONTPROPERTIES","SCRIPT_FONTPROPERTIES structure [Internationalization for Windows Applications]","_win32_SCRIPT_FONTPROPERTIES_str","intl.script_fontproperties","usp10/SCRIPT_FONTPROPERTIES"]
 old-location: intl\script_fontproperties.htm
 tech.root: Intl
 ms.assetid: 6757e758-6525-47a4-9ed4-99ef42fa14a3

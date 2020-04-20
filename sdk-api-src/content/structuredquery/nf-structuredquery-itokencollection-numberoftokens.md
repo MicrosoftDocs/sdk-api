@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.ITokenCollection.NumberOfTokens
 title: ITokenCollection::NumberOfTokens (structuredquery.h)
-description: Retrieves the number of tokens in the collection.
+description: Retrieves the number of tokens in the collection.helpviewer_keywords: ["ITokenCollection interface [search]","NumberOfTokens method","ITokenCollection.NumberOfTokens","ITokenCollection::NumberOfTokens","NumberOfTokens","NumberOfTokens method [search]","NumberOfTokens method [search]","ITokenCollection interface","_search_ITokenCollection_NumberOfTokens","search._search_ITokenCollection_NumberOfTokens","structuredquery/ITokenCollection::NumberOfTokens"]
 old-location: search\_search_ITokenCollection_NumberOfTokens.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\numberoftokens.htm

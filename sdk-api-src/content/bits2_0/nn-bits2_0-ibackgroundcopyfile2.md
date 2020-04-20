@@ -1,7 +1,7 @@
 ---
 UID: NN:bits2_0.IBackgroundCopyFile2
 title: IBackgroundCopyFile2 (bits2_0.h)
-description: Use the IBackgroundCopyFile2 interface to specify a new remote name for the file and retrieve the list of ranges to download.
+description: Use the IBackgroundCopyFile2 interface to specify a new remote name for the file and retrieve the list of ranges to download.helpviewer_keywords: ["IBackgroundCopyFile2","IBackgroundCopyFile2 interface [BITS]","IBackgroundCopyFile2 interface [BITS]","described","bits.ibackgroundcopyfile2","bits2_0/IBackgroundCopyFile2"]
 old-location: bits\ibackgroundcopyfile2.htm
 tech.root: Bits
 ms.assetid: facff24d-56a3-4a1f-a726-3442c17fe869

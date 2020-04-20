@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.IMultisessionRandomWrite
 title: IMultisessionRandomWrite (imapi2.h)
-description: Use this interface to retrieve information about the current state of media allowing random writes and not supporting the concept of physical sessions.
+description: Use this interface to retrieve information about the current state of media allowing random writes and not supporting the concept of physical sessions.helpviewer_keywords: ["IMultisessionRandomWrite","IMultisessionRandomWrite interface [IMAPI]","IMultisessionRandomWrite interface [IMAPI]","described","imapi.imultisessionrandomwrite","imapi2/IMultisessionRandomWrite"]
 old-location: imapi\imultisessionrandomwrite.htm
 tech.root: imapi
 ms.assetid: 1843254d-7947-4197-9c1b-6dc01abe9354

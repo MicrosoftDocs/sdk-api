@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SspiDecryptAuthIdentity
 title: SspiDecryptAuthIdentity function (sspi.h)
-description: Decrypts the specified encrypted credential.
+description: Decrypts the specified encrypted credential.helpviewer_keywords: ["SspiDecryptAuthIdentity","SspiDecryptAuthIdentity function [Security]","security.sspidecryptauthidentity","sspi/SspiDecryptAuthIdentity"]
 old-location: security\sspidecryptauthidentity.htm
 tech.root: SecAuthN
 ms.assetid: aef0206c-c376-4877-b1a6-5e86d2e35dea

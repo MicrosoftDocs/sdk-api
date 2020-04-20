@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.GetTextFilterSize
 title: ID3D10Device::GetTextFilterSize (d3d10.h)
-description: This method is not implemented.
+description: This method is not implemented.helpviewer_keywords: ["17c84de7-9714-f15b-6e79-288beb4a3193","GetTextFilterSize","GetTextFilterSize method [Direct3D 10]","GetTextFilterSize method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GetTextFilterSize method","ID3D10Device.GetTextFilterSize","ID3D10Device::GetTextFilterSize","d3d10/ID3D10Device::GetTextFilterSize","direct3d10.id3d10device_gettextfiltersize"]
 old-location: direct3d10\id3d10device_gettextfiltersize.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gettextfiltersize.htm
@@ -70,15 +70,6 @@ Not applicable
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Not applicable
-
-
-## -returns
-
-
-
-Not applicable
-
-
 
 
 ## -remarks

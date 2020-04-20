@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvQueryAdvanceWidths
 title: DrvQueryAdvanceWidths function (winddi.h)
-description: The DrvQueryAdvanceWidths function returns character advance widths for a specified set of glyphs.
+description: The DrvQueryAdvanceWidths function returns character advance widths for a specified set of glyphs.helpviewer_keywords: ["DrvQueryAdvanceWidths","DrvQueryAdvanceWidths function [Display Devices]","ddifncs_f97d4a54-b5e9-45b7-9d42-ece9073640a4.xml","display.drvqueryadvancewidths","winddi/DrvQueryAdvanceWidths"]
 old-location: display\drvqueryadvancewidths.htm
 tech.root: display
 ms.assetid: b97114b5-6cc7-4af6-badb-d6aa5fc581ef

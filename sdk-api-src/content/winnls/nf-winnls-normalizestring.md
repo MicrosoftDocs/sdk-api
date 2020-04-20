@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.NormalizeString
 title: NormalizeString function (winnls.h)
-description: Normalizes characters of a text string according to Unicode 4.0 TR#15. For more information, see Using Unicode Normalization to Represent Strings.
+description: Normalizes characters of a text string according to Unicode 4.0 TR#15. For more information, see Using Unicode Normalization to Represent Strings.helpviewer_keywords: ["NormalizeString","NormalizeString function [Internationalization for Windows Applications]","_win32_NormalizeString","intl.normalizestring","winnls/NormalizeString"]
 old-location: intl\normalizestring.htm
 tech.root: Intl
 ms.assetid: ef76d0e5-2999-4a21-8522-c698013e3816

@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsFreeChannel
 title: WsFreeChannel function (webservices.h)
-description: Releases the memory resource associated with a Channel object.
+description: Releases the memory resource associated with a Channel object.helpviewer_keywords: ["WsFreeChannel","WsFreeChannel function [Web Services for Windows]","webservices/WsFreeChannel","wsw.wsfreechannel"]
 old-location: wsw\wsfreechannel.htm
 tech.root: wsw
 ms.assetid: 74e36d19-c6db-4bba-90e3-88a48b6a1fb5
@@ -68,15 +68,6 @@ Releases the memory resource associated with a Channel object.
 A pointer to the <b>Channel</b> object to release. The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> object returned
                     by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>.
                     The referenced value may not be <b>NULL</b>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

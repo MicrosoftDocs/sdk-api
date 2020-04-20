@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFillBrushLocal
 title: IXpsOMGlyphs::GetFillBrushLocal (xpsobjectmodel.h)
-description: Gets a pointer to the local, unshared IXpsOMBrush interface of the fill brush to be used for the text.
+description: Gets a pointer to the local, unshared IXpsOMBrush interface of the fill brush to be used for the text.helpviewer_keywords: ["GetFillBrushLocal","GetFillBrushLocal method [XPS Documents and Packaging]","GetFillBrushLocal method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetFillBrushLocal method","IXpsOMGlyphs.GetFillBrushLocal","IXpsOMGlyphs::GetFillBrushLocal","xps.ixpsomglyphs_getfillbrushlocal","xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLocal"]
 old-location: xps\ixpsomglyphs_getfillbrushlocal.htm
 tech.root: printdocs
 ms.assetid: d497eac9-8096-4a0e-bb43-315f734fd36e

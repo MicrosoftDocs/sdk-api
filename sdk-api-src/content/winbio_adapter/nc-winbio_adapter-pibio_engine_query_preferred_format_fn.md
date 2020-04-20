@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN
 title: PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN (winbio_adapter.h)
-description: Determines the input data format preferred by the engine adapter.
+description: Determines the input data format preferred by the engine adapter.helpviewer_keywords: ["EngineAdapterQueryPreferredFormat","EngineAdapterQueryPreferredFormat callback function [Windows Biometric Framework API]","PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN","PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN callback","secbiomet.engineadapterquerypreferredformat","winbio_adapter/EngineAdapterQueryPreferredFormat"]
 old-location: secbiomet\engineadapterquerypreferredformat.htm
 tech.root: SecBioMet
 ms.assetid: df76e7d7-9a71-4c98-b038-8925d8cf0980

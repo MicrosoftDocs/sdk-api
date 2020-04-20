@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.EnumMetaFile
 title: EnumMetaFile function (wingdi.h)
-description: The EnumMetaFile function enumerates the records within a Windows-format metafile by retrieving each record and passing it to the specified callback function.
+description: The EnumMetaFile function enumerates the records within a Windows-format metafile by retrieving each record and passing it to the specified callback function.helpviewer_keywords: ["EnumMetaFile","EnumMetaFile function [Windows GDI]","_win32_EnumMetaFile","gdi.enummetafile","wingdi/EnumMetaFile"]
 old-location: gdi\enummetafile.htm
 tech.root: gdi
 ms.assetid: b11c7467-64a9-442b-8dee-26e15f64a26b

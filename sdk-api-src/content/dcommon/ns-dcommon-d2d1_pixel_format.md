@@ -1,7 +1,7 @@
 ---
 UID: NS:dcommon.D2D1_PIXEL_FORMAT
 title: D2D1_PIXEL_FORMAT (dcommon.h)
-description: Contains the data format and alpha mode for a bitmap or render target.
+description: Contains the data format and alpha mode for a bitmap or render target.helpviewer_keywords: ["D2D1_PIXEL_FORMAT","D2D1_PIXEL_FORMAT structure [Direct2D]","dcommon/D2D1_PIXEL_FORMAT","direct2d.D2D1_PIXEL_FORMAT"]
 old-location: direct2d\D2D1_PIXEL_FORMAT.htm
 tech.root: Direct2D
 ms.assetid: e95afd9c-5793-4cb7-bcb8-aae4d28b6532

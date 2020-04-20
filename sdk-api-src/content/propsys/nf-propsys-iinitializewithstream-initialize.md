@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IInitializeWithStream.Initialize
 title: IInitializeWithStream::Initialize (propsys.h)
-description: Initializes a handler with a stream.
+description: Initializes a handler with a stream.helpviewer_keywords: ["IInitializeWithStream interface [Windows Shell]","Initialize method","IInitializeWithStream.Initialize","IInitializeWithStream::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IInitializeWithStream interface","STGM_READ","STGM_READWRITE","propsys/IInitializeWithStream::Initialize","shell.IInitializeWithStream_Initialize","shell_IInitializeWithStream_Initialize"]
 old-location: shell\IInitializeWithStream_Initialize.htm
 tech.root: shell
 ms.assetid: 1e04c0a4-aa9b-4e2c-8307-525809ca903f

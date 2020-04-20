@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetPreferredProviders
 title: IMbnMultiCarrier::GetPreferredProviders (mbnapi.h)
-description: Gets the list of subscribed providers visible in the current area for a multi-carrier device minus the current registered provider.
+description: Gets the list of subscribed providers visible in the current area for a multi-carrier device minus the current registered provider.helpviewer_keywords: ["GetPreferredProviders","GetPreferredProviders method [Microsoft Broadband Networks]","GetPreferredProviders method [Microsoft Broadband Networks]","IMbnMultiCarrier interface","IMbnMultiCarrier interface [Microsoft Broadband Networks]","GetPreferredProviders method","IMbnMultiCarrier.GetPreferredProviders","IMbnMultiCarrier::GetPreferredProviders","mbn.imbnmulticarrier_getpreferredproviders","mbnapi/IMbnMultiCarrier::GetPreferredProviders"]
 old-location: mbn\imbnmulticarrier_getpreferredproviders.htm
 tech.root: mbn
 ms.assetid: 91D27D4D-5838-4D6D-BECF-B336B9F3B52A

@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.ITCallHub
 title: ITCallHub (tapi3if.h)
-description: The ITCallHub interface provides methods to retrieve information concerning a CallHub object. The IEnumCallHub::Next and ITTapi::get_CallHubs methods create the ITCallHub interface.
+description: The ITCallHub interface provides methods to retrieve information concerning a CallHub object. The IEnumCallHub::Next and ITTapi::get_CallHubs methods create the ITCallHub interface.helpviewer_keywords: ["ITCallHub","ITCallHub interface [TAPI 2.2]","ITCallHub interface [TAPI 2.2]","described","_tapi3_itcallhub","tapi3.itcallhub","tapi3if/ITCallHub"]
 old-location: tapi3\itcallhub.htm
 tech.root: Tapi
 ms.assetid: bdc91cac-c0ec-4484-a415-8cd1aa1e18e8

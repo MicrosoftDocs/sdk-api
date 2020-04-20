@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetCurrentPackageFamilyName
 title: GetCurrentPackageFamilyName function (appmodel.h)
-description: Gets the package family name for the calling process.
+description: Gets the package family name for the calling process.helpviewer_keywords: ["GetCurrentPackageFamilyName","GetCurrentPackageFamilyName function [App packaging and management]","appmodel/GetCurrentPackageFamilyName","appxpkg.getcurrentpackagefamilyname"]
 old-location: appxpkg\getcurrentpackagefamilyname.htm
 tech.root: appxpkg
 ms.assetid: 39DBFBDD-A1CC-45C3-A5DD-5ED9697F9AFE

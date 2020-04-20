@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetClassWord
 title: GetClassWord function (winuser.h)
-description: Retrieves the 16-bit (WORD) value at the specified offset into the extra class memory for the window class to which the specified window belongs.
+description: Retrieves the 16-bit (WORD) value at the specified offset into the extra class memory for the window class to which the specified window belongs.helpviewer_keywords: ["GCW_ATOM","GetClassWord","GetClassWord function [Windows and Messages]","_win32_GetClassWord","_win32_getclassword_cpp","winmsg.getclassword","winui._win32_getclassword","winuser/GetClassWord"]
 old-location: winmsg\getclassword.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassword.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilFindDwordProperty
 title: ResUtilFindDwordProperty function (resapi.h)
-description: Locates an unsigned long property value in a property list. The PRESUTIL_FIND_DWORD_PROPERTY type defines a pointer to this function.
+description: Locates an unsigned long property value in a property list. The PRESUTIL_FIND_DWORD_PROPERTY type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_FIND_DWORD_PROPERTY","PRESUTIL_FIND_DWORD_PROPERTY function [Failover Cluster]","ResUtilFindDwordProperty","ResUtilFindDwordProperty function [Failover Cluster]","_wolf_resutilfinddwordproperty","mscs.resutilfinddwordproperty","resapi/PRESUTIL_FIND_DWORD_PROPERTY","resapi/ResUtilFindDwordProperty"]
 old-location: mscs\resutilfinddwordproperty.htm
 tech.root: MsCS
 ms.assetid: 884e922f-5cc6-4e46-b2f6-2436e7fc634e

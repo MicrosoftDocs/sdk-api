@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmNetEventsGetSecurityInfo0
 title: FwpmNetEventsGetSecurityInfo0 function (fwpmu.h)
-description: The FwpmNetEventsGetSecurityInfo0 function retrieves a copy of the security descriptor for a network event object.
+description: The FwpmNetEventsGetSecurityInfo0 function retrieves a copy of the security descriptor for a network event object.helpviewer_keywords: ["FwpmNetEventsGetSecurityInfo0","FwpmNetEventsGetSecurityInfo0 function [Filtering]","fwp.fwpmneteventsgetsecurityinfo0","fwpmu/FwpmNetEventsGetSecurityInfo0"]
 old-location: fwp\fwpmneteventsgetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: 07bbf1e1-5945-41cf-8acd-9da983b9d56b

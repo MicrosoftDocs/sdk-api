@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMCameraControl.GetRange
 title: IAMCameraControl::GetRange (strmif.h)
-description: The GetRange method gets the range and default value of a specified camera property.
+description: The GetRange method gets the range and default value of a specified camera property.helpviewer_keywords: ["GetRange","GetRange method [DirectShow]","GetRange method [DirectShow]","IAMCameraControl interface","IAMCameraControl interface [DirectShow]","GetRange method","IAMCameraControl.GetRange","IAMCameraControl::GetRange","IAMCameraControlGetRange","dshow.iamcameracontrol_getrange","strmif/IAMCameraControl::GetRange"]
 old-location: dshow\iamcameracontrol_getrange.htm
 tech.root: DirectShow
 ms.assetid: f09090ea-d916-47cd-8621-e8c2bb46aeca

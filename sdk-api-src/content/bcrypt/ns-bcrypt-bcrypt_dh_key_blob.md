@@ -1,7 +1,7 @@
 ---
 UID: NS:bcrypt._BCRYPT_DH_KEY_BLOB
 title: BCRYPT_DH_KEY_BLOB (bcrypt.h)
-description: Used as a header for a Diffie-Hellman public key or private key BLOB in memory.
+description: Used as a header for a Diffie-Hellman public key or private key BLOB in memory.helpviewer_keywords: ["*PBCRYPT_DH_KEY_BLOB","BCRYPT_DH_KEY_BLOB","BCRYPT_DH_KEY_BLOB structure [Security]","BCRYPT_DH_PRIVATE_MAGIC","BCRYPT_DH_PUBLIC_MAGIC","PBCRYPT_DH_KEY_BLOB","PBCRYPT_DH_KEY_BLOB structure pointer [Security]","bcrypt/BCRYPT_DH_KEY_BLOB","bcrypt/PBCRYPT_DH_KEY_BLOB","security.bcrypt_dh_key_blob"]
 old-location: security\bcrypt_dh_key_blob.htm
 tech.root: SecCNG
 ms.assetid: 6004b2e5-7e06-4108-a0da-472b9b6d5fea

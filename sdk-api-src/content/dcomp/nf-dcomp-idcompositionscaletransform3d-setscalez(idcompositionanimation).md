@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetScaleZ(IDCompositionAnimation)
 title: IDCompositionScaleTransform3D::SetScaleZ(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the ScaleZ property of a scale transform.
+description: Animates the value of the ScaleZ property of a scale transform.helpviewer_keywords: ["IDCompositionScaleTransform3D interface [DirectComposition]","SetScaleZ method","IDCompositionScaleTransform3D.SetScaleZ","IDCompositionScaleTransform3D.SetScaleZ(IDCompositionAnimation)","IDCompositionScaleTransform3D::SetScaleZ","IDCompositionScaleTransform3D::SetScaleZ(IDCompositionAnimation)","IDCompositionScaleTransform3D::SetScaleZ(IDCompositionAnimation*)","SetScaleZ","SetScaleZ method [DirectComposition]","SetScaleZ method [DirectComposition]","IDCompositionScaleTransform3D interface","dcomp/IDCompositionScaleTransform3D::SetScaleZ","directcomp.idcompositionscaletransform3d_setscalez_idcompositionanimation"]
 old-location: directcomp\idcompositionscaletransform3d_setscalez_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: B086983A-C436-4FF9-B8D6-8A00EEB0931C

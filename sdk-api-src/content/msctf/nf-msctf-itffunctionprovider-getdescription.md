@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfFunctionProvider.GetDescription
 title: ITfFunctionProvider::GetDescription (msctf.h)
-description: ITfFunctionProvider::GetDescription method
+description: ITfFunctionProvider::GetDescription methodhelpviewer_keywords: ["GetDescription","GetDescription method [Text Services Framework]","GetDescription method [Text Services Framework]","ITfFunctionProvider interface","ITfFunctionProvider interface [Text Services Framework]","GetDescription method","ITfFunctionProvider.GetDescription","ITfFunctionProvider::GetDescription","_tsf_itffunctionprovider_getdescription_ref","msctf/ITfFunctionProvider::GetDescription","tsf.itffunctionprovider_getdescription"]
 old-location: tsf\itffunctionprovider_getdescription.htm
 tech.root: TSF
 ms.assetid: a970c93f-2a1b-44b9-9177-fd69795ae9ee
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the description of the function provider.
 
 ## -parameters
 

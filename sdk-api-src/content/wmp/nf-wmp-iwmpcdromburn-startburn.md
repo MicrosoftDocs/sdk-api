@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.startBurn
 title: IWMPCdromBurn::startBurn (wmp.h)
-description: The startBurn method burns the CD.
+description: The startBurn method burns the CD.helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","startBurn method","IWMPCdromBurn.startBurn","IWMPCdromBurn::startBurn","IWMPCdromBurnstartBurn","startBurn","startBurn method [Windows Media Player]","startBurn method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_startburn","wmp/IWMPCdromBurn::startBurn"]
 old-location: wmp\iwmpcdromburn_startburn.htm
 tech.root: WMP
 ms.assetid: 35357dca-4093-4c83-9cc9-f0dee1241e76

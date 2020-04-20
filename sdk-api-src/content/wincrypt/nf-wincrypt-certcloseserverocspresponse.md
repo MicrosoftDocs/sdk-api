@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertCloseServerOcspResponse
 title: CertCloseServerOcspResponse function (wincrypt.h)
-description: Closes an online certificate status protocol (OCSP) server response handle.
+description: Closes an online certificate status protocol (OCSP) server response handle.helpviewer_keywords: ["CertCloseServerOcspResponse","CertCloseServerOcspResponse function [Security]","security.certcloseserverocspresponse","wincrypt/CertCloseServerOcspResponse"]
 old-location: security\certcloseserverocspresponse.htm
 tech.root: SecCrypto
 ms.assetid: 6247e8ca-ba12-432f-9bf8-a6c644f253e9
@@ -65,15 +65,6 @@ The handle to close for an OCSP server response.
 ### -param dwFlags [in]
 
 This parameter is not used and must be zero.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

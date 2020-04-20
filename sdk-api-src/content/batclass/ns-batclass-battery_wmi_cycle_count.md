@@ -1,7 +1,7 @@
 ---
 UID: NS:batclass._BATTERY_WMI_CYCLE_COUNT
 title: BATTERY_WMI_CYCLE_COUNT (batclass.h)
-description: Defines information about number of charge cycles of a battery for use with the BatteryClassQueryWmiDataBlock function.
+description: Defines information about number of charge cycles of a battery for use with the BatteryClassQueryWmiDataBlock function.helpviewer_keywords: ["*PBATTERY_WMI_CYCLE_COUNT","BATTERY_WMI_CYCLE_COUNT","BATTERY_WMI_CYCLE_COUNT structure [Battery Devices]","PBATTERY_WMI_CYCLE_COUNT","PBATTERY_WMI_CYCLE_COUNT structure pointer [Battery Devices]","batclass/BATTERY_WMI_CYCLE_COUNT","batclass/PBATTERY_WMI_CYCLE_COUNT","battery.battery_wmi_cycle_count"]
 old-location: battery\battery_wmi_cycle_count.htm
 tech.root: battery
 ms.assetid: DFC94773-C198-4FC4-813C-0986ABA953A5

@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi.IDXGISurface1
 title: IDXGISurface1 (dxgi.h)
-description: The IDXGISurface1 interface extends the IDXGISurface by adding support for using Windows Graphics Device Interface (GDI) to render to a Microsoft DirectX Graphics Infrastructure (DXGI) surface.
+description: The IDXGISurface1 interface extends the IDXGISurface by adding support for using Windows Graphics Device Interface (GDI) to render to a Microsoft DirectX Graphics Infrastructure (DXGI) surface.helpviewer_keywords: ["3c2c6548-026c-d082-91b7-abb986ff3a00","IDXGISurface1","IDXGISurface1 interface [DXGI]","IDXGISurface1 interface [DXGI]","described","direct3ddxgi.idxgisurface1","dxgi/IDXGISurface1"]
 old-location: direct3ddxgi\idxgisurface1.htm
 tech.root: direct3ddxgi
 ms.assetid: 99ece4f3-1bad-46b8-94a9-6ef559864b1c

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfDisplayAttributeInfo.Reset
 title: IEnumTfDisplayAttributeInfo::Reset (msctf.h)
-description: IEnumTfDisplayAttributeInfo::Reset method
+description: IEnumTfDisplayAttributeInfo::Reset methodhelpviewer_keywords: ["IEnumTfDisplayAttributeInfo interface [Text Services Framework]","Reset method","IEnumTfDisplayAttributeInfo.Reset","IEnumTfDisplayAttributeInfo::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfDisplayAttributeInfo interface","_tsf_ienumtfdisplayattributeinfo_reset_ref","msctf/IEnumTfDisplayAttributeInfo::Reset","tsf.ienumtfdisplayattributeinfo_reset"]
 old-location: tsf\ienumtfdisplayattributeinfo_reset.htm
 tech.root: TSF
 ms.assetid: fdfcf505-ae4a-4f7e-91f2-3e79efd56162
@@ -45,22 +45,13 @@ ms.custom: 19H1
 
 # IEnumTfDisplayAttributeInfo::Reset
 
-
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -81,7 +72,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfDisplayAttributeInfo interface](nn-msctf-ienumtfdisplayattributeinfo.md), [ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md)

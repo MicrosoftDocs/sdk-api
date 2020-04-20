@@ -1,7 +1,7 @@
 ---
 UID: NE:dispatcherqueue.DISPATCHERQUEUE_THREAD_TYPE
 title: DISPATCHERQUEUE_THREAD_TYPE (dispatcherqueue.h)
-description: Specifies the thread affinity for a new DispatcherQueueController.
+description: Specifies the thread affinity for a new DispatcherQueueController.helpviewer_keywords: ["DISPATCHERQUEUE_THREAD_TYPE","DISPATCHERQUEUE_THREAD_TYPE enumeration","DQTYPE_THREAD_CURRENT","DQTYPE_THREAD_DEDICATED","base.dispatcherqueue_thread_type","dispatcherqueue/DISPATCHERQUEUE_THREAD_TYPE","dispatcherqueue/DQTYPE_THREAD_CURRENT","dispatcherqueue/DQTYPE_THREAD_DEDICATED"]
 old-location: base\dispatcherqueue_thread_type.htm
 tech.root: ProcThread
 ms.assetid: 72558E7E-0ECB-4641-949F-07C43A6E2507

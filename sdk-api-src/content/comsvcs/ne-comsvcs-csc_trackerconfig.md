@@ -1,7 +1,7 @@
 ---
 UID: NE:comsvcs.tagCSC_TrackerConfig
 title: CSC_TrackerConfig (comsvcs.h)
-description: Indicates whether the tracker property is added to the context in which the enclosed code runs.
+description: Indicates whether the tracker property is added to the context in which the enclosed code runs.helpviewer_keywords: ["CSC_DontUseTracker","CSC_TrackerConfig","CSC_TrackerConfig enumeration [COM+]","CSC_UseTracker","_cos_CSC_TrackerConfig","comsvcs/CSC_DontUseTracker","comsvcs/CSC_TrackerConfig","comsvcs/CSC_UseTracker","cos.csc_trackerconfig"]
 old-location: cos\csc_trackerconfig.htm
 tech.root: cossdk
 ms.assetid: 48f01634-9802-4824-b251-ccb6e71aa099

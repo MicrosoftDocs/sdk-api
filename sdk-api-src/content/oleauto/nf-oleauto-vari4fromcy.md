@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI4FromCy
 title: VarI4FromCy function (oleauto.h)
-description: Converts a currency value to a long value.
+description: Converts a currency value to a long value.helpviewer_keywords: ["VarI4FromCy","VarI4FromCy function [Automation]","_oa96_VarI4FromCy","automat.vari4fromcy","oleauto/VarI4FromCy"]
 old-location: automat\vari4fromcy.htm
 tech.root: automat
 ms.assetid: fb5905f1-af15-4ab6-8c7a-b316709f0870

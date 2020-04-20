@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingBox.CreateFromPoints
 title: BoundingBox::CreateFromPoints
-description: Creates a BoundingBox from two points.
+description: Creates a BoundingBox from two points.helpviewer_keywords: ["BoundingBox interface [DirectX Math Support APIs]","CreateFromPoints method","BoundingBox.CreateFromPoints","BoundingBox.CreateFromPoints(BoundingBox&","XMVECTOR","XMVECTOR)","BoundingBox::CreateFromPoints","CreateFromPoints","CreateFromPoints method [DirectX Math Support APIs]","CreateFromPoints method [DirectX Math Support APIs]","BoundingBox interface","dxmath.boundingbox_createfrompoints_2"]
 old-location: dxmath\boundingbox_createfrompoints_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.CreateFromPoints(BoundingBox@,XMVECTOR,XMVECTOR)

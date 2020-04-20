@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnPopContext
 title: ITfThreadMgrEventSink::OnPopContext (msctf.h)
-description: ITfThreadMgrEventSink::OnPopContext method
+description: ITfThreadMgrEventSink::OnPopContext methodhelpviewer_keywords: ["ITfThreadMgrEventSink interface [Text Services Framework]","OnPopContext method","ITfThreadMgrEventSink.OnPopContext","ITfThreadMgrEventSink::OnPopContext","OnPopContext","OnPopContext method [Text Services Framework]","OnPopContext method [Text Services Framework]","ITfThreadMgrEventSink interface","_tsf_itfthreadmgreventsink_onpopcontext_ref","msctf/ITfThreadMgrEventSink::OnPopContext","tsf.itfthreadmgreventsink_onpopcontext"]
 old-location: tsf\itfthreadmgreventsink_onpopcontext.htm
 tech.root: TSF
 ms.assetid: de07d7cf-db91-44e0-a0b2-4de26262552f
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when a context is removed from the context stack
 
 ## -parameters
 

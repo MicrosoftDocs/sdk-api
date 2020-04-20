@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_ENUM_TEMPLATE0_
 title: FWPM_NET_EVENT_ENUM_TEMPLATE0 (fwpmtypes.h)
-description: Used for enumerating net events.
+description: Used for enumerating net events.helpviewer_keywords: ["FWPM_CONDITION_ALE_APP_ID","FWPM_CONDITION_ALE_USER_ID","FWPM_CONDITION_IP_LOCAL_ADDRESS","FWPM_CONDITION_IP_LOCAL_PORT","FWPM_CONDITION_IP_PROTOCOL","FWPM_CONDITION_IP_REMOTE_ADDRESS","FWPM_CONDITION_IP_REMOTE_PORT","FWPM_CONDITION_SCOPE_ID","FWPM_NET_EVENT_ENUM_TEMPLATE0","FWPM_NET_EVENT_ENUM_TEMPLATE0 structure [Filtering]","fwp.fwpm_net_event_enum_template0","fwpmtypes/FWPM_NET_EVENT_ENUM_TEMPLATE0"]
 old-location: fwp\fwpm_net_event_enum_template0.htm
 tech.root: fwp
 ms.assetid: 79711b24-e092-4a36-810a-6acad279eb90

@@ -1,7 +1,7 @@
 ---
 UID: NC:winwlx.PWLX_USE_CTRL_ALT_DEL
 title: PWLX_USE_CTRL_ALT_DEL (winwlx.h)
-description: Called by GINA to tell Winlogon to use the standard CTRL+ALT+DEL key combination as a secure attention sequence (SAS).
+description: Called by GINA to tell Winlogon to use the standard CTRL+ALT+DEL key combination as a secure attention sequence (SAS).helpviewer_keywords: ["PWLX_USE_CTRL_ALT_DEL","PWLX_USE_CTRL_ALT_DEL callback","WlxUseCtrlAltDel","WlxUseCtrlAltDel callback function [Security]","_gina_wlxusectrlaltdel","security.wlxusectrlaltdel","winwlx/WlxUseCtrlAltDel"]
 old-location: security\wlxusectrlaltdel.htm
 tech.root: SecAuthN
 ms.assetid: 827bc495-eb7d-4a83-a325-903de0551d5f
@@ -62,15 +62,6 @@ Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GI
 ### -param hWlx [in]
 
 [in] Winlogon handle provided to GINA in the <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

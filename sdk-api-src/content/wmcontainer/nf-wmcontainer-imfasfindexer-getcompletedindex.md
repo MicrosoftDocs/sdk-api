@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetCompletedIndex
 title: IMFASFIndexer::GetCompletedIndex (wmcontainer.h)
-description: Retrieves the completed index from the ASF indexer object.
+description: Retrieves the completed index from the ASF indexer object.helpviewer_keywords: ["GetCompletedIndex","GetCompletedIndex method [Media Foundation]","GetCompletedIndex method [Media Foundation]","IMFASFIndexer interface","IMFASFIndexer interface [Media Foundation]","GetCompletedIndex method","IMFASFIndexer.GetCompletedIndex","IMFASFIndexer::GetCompletedIndex","aca721e8-e610-4022-a3da-8ff5a5943e3e","mf.imfasfindexer_getcompletedindex","wmcontainer/IMFASFIndexer::GetCompletedIndex"]
 old-location: mf\imfasfindexer_getcompletedindex.htm
 tech.root: medfound
 ms.assetid: aca721e8-e610-4022-a3da-8ff5a5943e3e

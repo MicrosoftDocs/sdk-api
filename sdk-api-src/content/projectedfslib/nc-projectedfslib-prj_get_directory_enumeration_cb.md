@@ -1,7 +1,7 @@
 ---
 UID: NC:projectedfslib.PRJ_GET_DIRECTORY_ENUMERATION_CB
 title: PRJ_GET_DIRECTORY_ENUMERATION_CB (projectedfslib.h)
-description: Requests directory enumeration information from the provider.
+description: Requests directory enumeration information from the provider.helpviewer_keywords: ["PRJ_GET_DIRECTORY_ENUMERATION_CB","PRJ_GET_DIRECTORY_ENUMERATION_CB callback","PRJ_GET_DIRECTORY_ENUMERATION_CB callback function","ProjFS.prj_get_directory_enumeration_cb","projectedfslib/PRJ_GET_DIRECTORY_ENUMERATION_CB"]
 old-location: projfs\prj_get_directory_enumeration_cb.htm
 tech.root: ProjFS
 ms.assetid: 45E7E7F9-9E54-44C8-9915-43CCECF85DB6

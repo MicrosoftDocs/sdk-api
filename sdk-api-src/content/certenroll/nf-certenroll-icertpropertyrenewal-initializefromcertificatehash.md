@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertPropertyRenewal.InitializeFromCertificateHash
 title: ICertPropertyRenewal::InitializeFromCertificateHash (certenroll.h)
-description: Initializes the object from the new certificate.
+description: Initializes the object from the new certificate.helpviewer_keywords: ["ICertPropertyRenewal interface [Security]","InitializeFromCertificateHash method","ICertPropertyRenewal.InitializeFromCertificateHash","ICertPropertyRenewal::InitializeFromCertificateHash","InitializeFromCertificateHash","InitializeFromCertificateHash method [Security]","InitializeFromCertificateHash method [Security]","ICertPropertyRenewal interface","certenroll/ICertPropertyRenewal::InitializeFromCertificateHash","security.icertpropertyrenewal_initializefromcertificatehash_method"]
 old-location: security\icertpropertyrenewal_initializefromcertificatehash_method.htm
 tech.root: seccertenroll
 ms.assetid: 87e0eabf-7a4a-4ff2-a9ce-6482f119cafd

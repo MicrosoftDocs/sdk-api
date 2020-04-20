@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IViewObject.Draw
 title: IViewObject::Draw (oleidl.h)
-description: Draws a representation of an object onto the specified device context.
+description: Draws a representation of an object onto the specified device context.helpviewer_keywords: ["Draw","Draw method [COM]","Draw method [COM]","IViewObject interface","IViewObject interface [COM]","Draw method","IViewObject.Draw","IViewObject::Draw","_ole_iviewobject_draw","com.iviewobject_draw","oleidl/IViewObject::Draw"]
 old-location: com\iviewobject_draw.htm
 tech.root: com
 ms.assetid: 913593ff-07fe-44bd-88dc-8e58da82089b

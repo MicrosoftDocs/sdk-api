@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymDeleteSymbol
 title: SymDeleteSymbol function (dbghelp.h)
-description: Deletes a virtual symbol from the specified module.
+description: Deletes a virtual symbol from the specified module.helpviewer_keywords: ["SymDeleteSymbol","SymDeleteSymbol function","SymDeleteSymbolW","_win32_symdeletesymbol","base.symdeletesymbol","dbghelp/SymDeleteSymbol","dbghelp/SymDeleteSymbolW"]
 old-location: base\symdeletesymbol.htm
 tech.root: Debug
 ms.assetid: 9fc5a19d-5984-4d0a-a3d6-3da474055f5e

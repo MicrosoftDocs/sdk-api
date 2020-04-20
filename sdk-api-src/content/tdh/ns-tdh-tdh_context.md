@@ -1,7 +1,7 @@
 ---
 UID: NS:tdh._TDH_CONTEXT
 title: TDH_CONTEXT (tdh.h)
-description: Defines the additional information required to parse an event.
+description: Defines the additional information required to parse an event.helpviewer_keywords: ["*PTDH_CONTEXT","TDH_CONTEXT","TDH_CONTEXT structure [ETW]","etw.tdh_context_struct","tdh.tdh_context_struct","tdh/TDH_CONTEXT"]
 old-location: etw\tdh_context_struct.htm
 tech.root: ETW
 ms.assetid: 184df0af-3ac5-406f-a298-4f23826ad85e

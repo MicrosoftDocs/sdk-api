@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineExtension.EndCreateObject
 title: IMFMediaEngineExtension::EndCreateObject (mfmediaengine.h)
-description: Completes an asynchronous request to create a byte stream or media source.
+description: Completes an asynchronous request to create a byte stream or media source.helpviewer_keywords: ["EndCreateObject","EndCreateObject method [Media Foundation]","EndCreateObject method [Media Foundation]","IMFMediaEngineExtension interface","IMFMediaEngineExtension interface [Media Foundation]","EndCreateObject method","IMFMediaEngineExtension.EndCreateObject","IMFMediaEngineExtension::EndCreateObject","mf.imfmediaengineextension_endcreateobject","mfmediaengine/IMFMediaEngineExtension::EndCreateObject"]
 old-location: mf\imfmediaengineextension_endcreateobject.htm
 tech.root: medfound
 ms.assetid: F2B19870-7529-4C8C-9FE6-B312F6A2D2ED

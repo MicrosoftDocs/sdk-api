@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core.FOLDER_ENUM_MODE
 title: FOLDER_ENUM_MODE (shobjidl_core.h)
-description: Used by IObjectWithFolderEnumMode::GetMode and IObjectWithFolderEnumMode::SetMode methods to get and set the display modes for the folders.
+description: Used by IObjectWithFolderEnumMode::GetMode and IObjectWithFolderEnumMode::SetMode methods to get and set the display modes for the folders.helpviewer_keywords: ["FEM_NAVIGATION","FEM_VIEWRESULT","FOLDER_ENUM_MODE","FOLDER_ENUM_MODE enumeration [Windows Shell]","_shell_FOLDER_ENUM_MODE","shell.FOLDER_ENUM_MODE","shobjidl_core/FEM_NAVIGATION","shobjidl_core/FEM_VIEWRESULT","shobjidl_core/FOLDER_ENUM_MODE"]
 old-location: shell\FOLDER_ENUM_MODE.htm
 tech.root: shell
 ms.assetid: ef360e40-63c9-49a0-bcfa-1f2e2ff11a3a

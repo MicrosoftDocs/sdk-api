@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TranslateTransform
 title: TextureBrush::TranslateTransform (gdiplusbrush.h)
-description: The TextureBrush::TranslateTransform method updates this brush's current transformation matrix with the product of itself and a translation matrix.
+description: The TextureBrush::TranslateTransform method updates this brush's current transformation matrix with the product of itself and a translation matrix.helpviewer_keywords: ["TextureBrush class [GDI+]","TranslateTransform method","TextureBrush.TranslateTransform","TextureBrush::TranslateTransform","TranslateTransform","TranslateTransform method [GDI+]","TranslateTransform method [GDI+]","TextureBrush class","_gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order_","gdiplus._gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order_"]
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\translatetransform_46dx_dy_order.htm

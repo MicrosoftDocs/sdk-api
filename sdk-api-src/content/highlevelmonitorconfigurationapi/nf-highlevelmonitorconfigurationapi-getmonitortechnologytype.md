@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorTechnologyType
 title: GetMonitorTechnologyType function (highlevelmonitorconfigurationapi.h)
-description: Retrieves the type of technology used by a monitor.
+description: Retrieves the type of technology used by a monitor.helpviewer_keywords: ["GetMonitorTechnologyType","GetMonitorTechnologyType function [Monitor Configuration]","highlevelmonitorconfigurationapi/GetMonitorTechnologyType","monitor.getmonitortechnologytype"]
 old-location: monitor\getmonitortechnologytype.htm
 tech.root: Monitor
 ms.assetid: da3a5f64-2638-464b-973b-33cbe4cc64e7

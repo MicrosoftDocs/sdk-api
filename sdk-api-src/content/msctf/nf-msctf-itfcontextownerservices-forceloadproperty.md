@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.ForceLoadProperty
 title: ITfContextOwnerServices::ForceLoadProperty (msctf.h)
-description: ITfContextOwnerServices::ForceLoadProperty method
+description: ITfContextOwnerServices::ForceLoadProperty methodhelpviewer_keywords: ["ForceLoadProperty","ForceLoadProperty method [Text Services Framework]","ForceLoadProperty method [Text Services Framework]","ITfContextOwnerServices interface","ITfContextOwnerServices interface [Text Services Framework]","ForceLoadProperty method","ITfContextOwnerServices.ForceLoadProperty","ITfContextOwnerServices::ForceLoadProperty","_tsf_itfcontextownerservices_forceloadproperty_ref","msctf/ITfContextOwnerServices::ForceLoadProperty","tsf.itfcontextownerservices_forceloadproperty"]
 old-location: tsf\itfcontextownerservices_forceloadproperty.htm
 tech.root: TSF
 ms.assetid: 7f77d82f-e048-463f-bf0d-15bf1daaddb6
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Forces a property load.
 
 ## -parameters
 
@@ -122,21 +121,4 @@ The application must be able to grant a synchronous read-only lock before callin
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownerservices">ITfContextOwnerServices</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-unserialize">ITfContextOwnerServices::Unserialize
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty
-      </a>
- 
-
- 
-
+[ITfContextOwnerServices interface](nn-msctf-itfcontextownerservices.md), [ITfContextOwnerServices::Unserialize](nf-msctf-itfcontextownerservices-unserialize.md), [ITfProperty interface](nn-msctf-itfproperty.md)

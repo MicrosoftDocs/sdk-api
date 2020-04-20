@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.get_SizeLow
 title: IFaxIncomingArchive::get_SizeLow (faxcomex.h)
-description: The SizeLow property is a value that specifies the low 32-bit value (in bytes) for the size of the archive of inbound fax messages.
+description: The SizeLow property is a value that specifies the low 32-bit value (in bytes) for the size of the archive of inbound fax messages.helpviewer_keywords: ["IFaxIncomingArchive interface [Fax Service]","SizeLow property","IFaxIncomingArchive.SizeLow","IFaxIncomingArchive.get_SizeLow","IFaxIncomingArchive::SizeLow","IFaxIncomingArchive::get_SizeLow","SizeLow property [Fax Service]","SizeLow property [Fax Service]","IFaxIncomingArchive interface","_mfax_faxincomingarchive.sizelow","fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_sizelow_cpp","fax._mfax_faxincomingarchive_sizelow","faxcomex/IFaxIncomingArchive::SizeLow","faxcomex/IFaxIncomingArchive::get_SizeLow","get_SizeLow"]
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_sizelow_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0fuf.htm

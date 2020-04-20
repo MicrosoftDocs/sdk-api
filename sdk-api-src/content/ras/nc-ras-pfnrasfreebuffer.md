@@ -1,7 +1,7 @@
 ---
 UID: NC:ras.PFNRASFREEBUFFER
 title: PFNRASFREEBUFFER (ras.h)
-description: The custom-scripting DLL calls RasFreeBuffer to release a memory buffer that was allocated by a previous call to RasGetBuffer.
+description: The custom-scripting DLL calls RasFreeBuffer to release a memory buffer that was allocated by a previous call to RasGetBuffer.helpviewer_keywords: ["PFNRASFREEBUFFER","PFNRASFREEBUFFER callback","RasFreeBuffer","RasFreeBuffer callback function [RAS]","_ras_rasfreebuffer","ras/RasFreeBuffer","rras.rasfreebuffer"]
 old-location: rras\rasfreebuffer.htm
 tech.root: RRAS
 ms.assetid: aba43ef9-7f62-48ab-a790-c8592a57f2c2

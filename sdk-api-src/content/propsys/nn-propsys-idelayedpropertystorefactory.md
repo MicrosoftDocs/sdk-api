@@ -1,7 +1,7 @@
 ---
 UID: NN:propsys.IDelayedPropertyStoreFactory
 title: IDelayedPropertyStoreFactory (propsys.h)
-description: Exposes a method to create a specified IPropertyStore object in circumstances where property access is potentially slow.
+description: Exposes a method to create a specified IPropertyStore object in circumstances where property access is potentially slow.helpviewer_keywords: ["IDelayedPropertyStoreFactory","IDelayedPropertyStoreFactory interface [Windows Shell]","IDelayedPropertyStoreFactory interface [Windows Shell]","described","_shell_IDelayedPropertyStoreFactory","propsys/IDelayedPropertyStoreFactory","shell.IDelayedPropertyStoreFactory"]
 old-location: shell\IDelayedPropertyStoreFactory.htm
 tech.root: shell
 ms.assetid: 855c9f10-9f40-4c60-a669-551fa51133f5

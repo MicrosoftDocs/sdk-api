@@ -1,7 +1,7 @@
 ---
 UID: NF:adshlp.ADsSetLastError
 title: ADsSetLastError function (adshlp.h)
-description: The ADsSetLastError sets the last-error code value for the calling thread.
+description: The ADsSetLastError sets the last-error code value for the calling thread.helpviewer_keywords: ["ADsSetLastError","ADsSetLastError function [ADSI]","_ds_adssetlasterror","adshlp/ADsSetLastError","adsi.adssetlasterror"]
 old-location: adsi\adssetlasterror.htm
 tech.root: adsi
 ms.assetid: c9433af7-2ca5-492a-9b8e-9dfedb5e4d9d
@@ -76,15 +76,6 @@ The null-terminated Unicode string that describes the network-specific error.
 Type: <b>LPWSTR</b>
 
 The null-terminated Unicode string that names the ADSI provider that raised the error.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

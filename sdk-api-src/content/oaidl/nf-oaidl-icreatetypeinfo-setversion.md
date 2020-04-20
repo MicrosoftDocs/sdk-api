@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVersion
 title: ICreateTypeInfo::SetVersion (oaidl.h)
-description: Sets the major and minor version number of the type information.
+description: Sets the major and minor version number of the type information.helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetVersion method","ICreateTypeInfo.SetVersion","ICreateTypeInfo::SetVersion","SetVersion","SetVersion method [Automation]","SetVersion method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetVersion","automat.icreatetypeinfo_setversion","oaidl/ICreateTypeInfo::SetVersion"]
 old-location: automat\icreatetypeinfo_setversion.htm
 tech.root: automat
 ms.assetid: ffa4d287-44c4-40ec-984a-70cbc0928274

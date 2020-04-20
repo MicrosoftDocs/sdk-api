@@ -1,7 +1,7 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_COD_PAIRS
 title: BLUETOOTH_COD_PAIRS (bluetoothapis.h)
-description: The BLUETOOTH_COD_PAIRS structure provides for specification and retrieval of Bluetooth Class Of Device (COD) information.
+description: The BLUETOOTH_COD_PAIRS structure provides for specification and retrieval of Bluetooth Class Of Device (COD) information.helpviewer_keywords: ["BLUETOOTH_COD_PAIRS","BLUETOOTH_COD_PAIRS structure [Bluetooth]","_bth_bluetooth_cod_pairs","bluetooth.bluetooth_cod_pairs","bluetoothapis/BLUETOOTH_COD_PAIRS"]
 old-location: bluetooth\bluetooth_cod_pairs.htm
 tech.root: bluetooth
 ms.assetid: e80ab664-77eb-4352-ac35-64325238d4ac

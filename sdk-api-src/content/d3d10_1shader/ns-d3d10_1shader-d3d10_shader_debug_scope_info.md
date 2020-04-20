@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_SCOPE_INFO
 title: D3D10_SHADER_DEBUG_SCOPE_INFO (d3d10_1shader.h)
-description: Contains scope data that maps variable names to debug variables.
+description: Contains scope data that maps variable names to debug variables.helpviewer_keywords: ["98b3a0e8-be0d-c4db-defc-df94817adf46","D3D10_SHADER_DEBUG_SCOPE_INFO","D3D10_SHADER_DEBUG_SCOPE_INFO structure [Direct3D 10]","d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_INFO","direct3d10.d3d10_shader_debug_scope_info"]
 old-location: direct3d10\d3d10_shader_debug_scope_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_scope_info.htm

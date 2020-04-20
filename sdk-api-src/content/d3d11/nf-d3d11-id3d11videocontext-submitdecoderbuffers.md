@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.SubmitDecoderBuffers
 title: ID3D11VideoContext::SubmitDecoderBuffers (d3d11.h)
-description: Submits one or more buffers for decoding.
+description: Submits one or more buffers for decoding.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","SubmitDecoderBuffers method","ID3D11VideoContext.SubmitDecoderBuffers","ID3D11VideoContext::SubmitDecoderBuffers","SubmitDecoderBuffers","SubmitDecoderBuffers method [Media Foundation]","SubmitDecoderBuffers method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::SubmitDecoderBuffers","mf.id3d11videocontext_submitdecoderbuffers"]
 old-location: mf\id3d11videocontext_submitdecoderbuffers.htm
 tech.root: medfound
 ms.assetid: 39010E57-FFF2-4793-B839-E336E8D2C1B2

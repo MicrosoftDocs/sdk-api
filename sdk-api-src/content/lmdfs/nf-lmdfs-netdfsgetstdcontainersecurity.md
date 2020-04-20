@@ -1,7 +1,7 @@
 ---
 UID: NF:lmdfs.NetDfsGetStdContainerSecurity
 title: NetDfsGetStdContainerSecurity function (lmdfs.h)
-description: Retrieves the security descriptor for the container object of the specified stand-alone DFS namespace.
+description: Retrieves the security descriptor for the container object of the specified stand-alone DFS namespace.helpviewer_keywords: ["NetDfsGetStdContainerSecurity","NetDfsGetStdContainerSecurity function [Distributed File System]","dfs.netdfsgetstdcontainersecurity","fs.netdfsgetstdcontainersecurity","lmdfs/NetDfsGetStdContainerSecurity","netmgmt.netdfsgetstdcontainersecurity"]
 old-location: dfs\netdfsgetstdcontainersecurity.htm
 tech.root: Dfs
 ms.assetid: 63ad610e-c66f-4fad-b3b6-2ee15e90a723

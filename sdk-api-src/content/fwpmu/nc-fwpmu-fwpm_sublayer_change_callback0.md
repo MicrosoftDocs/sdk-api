@@ -1,7 +1,7 @@
 ---
 UID: NC:fwpmu.FWPM_SUBLAYER_CHANGE_CALLBACK0
 title: FWPM_SUBLAYER_CHANGE_CALLBACK0 (fwpmu.h)
-description: Is used to added custom behavior to the sublayer change notification process.
+description: Is used to added custom behavior to the sublayer change notification process.helpviewer_keywords: ["FWPM_SUBLAYER_CHANGE_CALLBACK0","FWPM_SUBLAYER_CHANGE_CALLBACK0 callback","FWPM_SUBLAYER_CHANGE_CALLBACK0 callback function [Filtering]","fwp.fwpm_sublayer_change_callback0_func","fwpmu/FWPM_SUBLAYER_CHANGE_CALLBACK0"]
 old-location: fwp\fwpm_sublayer_change_callback0_func.htm
 tech.root: fwp
 ms.assetid: b608d13f-bc76-478b-b18f-527f438a1222
@@ -69,15 +69,6 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 Type: [FWPM_SUBLAYER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_change0)a>*</b>
 
 The change notification information.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

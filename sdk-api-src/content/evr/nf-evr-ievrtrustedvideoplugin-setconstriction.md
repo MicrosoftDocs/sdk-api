@@ -1,7 +1,7 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.SetConstriction
 title: IEVRTrustedVideoPlugin::SetConstriction (evr.h)
-description: Limits the effective video resolution.
+description: Limits the effective video resolution.helpviewer_keywords: ["IEVRTrustedVideoPlugin interface [Media Foundation]","SetConstriction method","IEVRTrustedVideoPlugin.SetConstriction","IEVRTrustedVideoPlugin::SetConstriction","SetConstriction","SetConstriction method [Media Foundation]","SetConstriction method [Media Foundation]","IEVRTrustedVideoPlugin interface","evr/IEVRTrustedVideoPlugin::SetConstriction","f2e9b199-969f-453c-8714-fa85c89a191a","mf.ievrtrustedvideoplugin_setconstriction"]
 old-location: mf\ievrtrustedvideoplugin_setconstriction.htm
 tech.root: medfound
 ms.assetid: f2e9b199-969f-453c-8714-fa85c89a191a

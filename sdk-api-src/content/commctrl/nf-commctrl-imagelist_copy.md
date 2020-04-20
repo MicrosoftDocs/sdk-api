@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_Copy
 title: ImageList_Copy function (commctrl.h)
-description: Copies images within a given image list.
+description: Copies images within a given image list.helpviewer_keywords: ["ILCF_MOVE","ILCF_SWAP","ImageList_Copy","ImageList_Copy function [Windows Controls]","_win32_ImageList_Copy","_win32_ImageList_Copy_cpp","commctrl/ImageList_Copy","controls.ImageList_Copy","controls._win32_ImageList_Copy"]
 old-location: controls\ImageList_Copy.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_copy.htm

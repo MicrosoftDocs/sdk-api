@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCreatePropertyStore.IsStoreSerializable
 title: ITfCreatePropertyStore::IsStoreSerializable (msctf.h)
-description: ITfCreatePropertyStore::IsStoreSerializable method
+description: ITfCreatePropertyStore::IsStoreSerializable methodhelpviewer_keywords: ["ITfCreatePropertyStore interface [Text Services Framework]","IsStoreSerializable method","ITfCreatePropertyStore.IsStoreSerializable","ITfCreatePropertyStore::IsStoreSerializable","IsStoreSerializable","IsStoreSerializable method [Text Services Framework]","IsStoreSerializable method [Text Services Framework]","ITfCreatePropertyStore interface","_tsf_itfcreatepropertystore_isstoreserializable_ref","msctf/ITfCreatePropertyStore::IsStoreSerializable","tsf.itfcreatepropertystore_isstoreserializable"]
 old-location: tsf\itfcreatepropertystore_isstoreserializable.htm
 tech.root: TSF
 ms.assetid: f5fdd81f-266b-4ff3-ab44-2d1c89a7aaea
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if a property store can be stored as persistent data.
 
 ## -parameters
 
@@ -106,26 +105,4 @@ The method was successful.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcreatepropertystore">ITfCreatePropertyStore</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-gettype">ITfPropertyStore::GetType
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[ITfCreatePropertyStore interface](nn-msctf-itfcreatepropertystore.md), [ITfPropertyStore interface](nn-msctf-itfpropertystore.md), [ITfPropertyStore::GetType](nf-msctf-itfpropertystore-gettype.md), [ITfRange interface](nn-msctf-itfrange.md)

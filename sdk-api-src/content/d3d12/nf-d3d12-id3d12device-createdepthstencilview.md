@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateDepthStencilView
 title: ID3D12Device::CreateDepthStencilView (d3d12.h)
-description: Creates a depth-stencil view for accessing resource data.
+description: Creates a depth-stencil view for accessing resource data.helpviewer_keywords: ["CreateDepthStencilView","CreateDepthStencilView method","CreateDepthStencilView method","ID3D12Device interface","ID3D12Device interface","CreateDepthStencilView method","ID3D12Device.CreateDepthStencilView","ID3D12Device::CreateDepthStencilView","d3d12/ID3D12Device::CreateDepthStencilView","direct3d12.id3d12device_createdepthstencilview"]
 old-location: direct3d12\id3d12device_createdepthstencilview.htm
 tech.root: direct3d12
 ms.assetid: 57C0CA35-CFBE-4D79-B8D7-BD01CEBEA144
@@ -84,15 +84,6 @@ A null <i>pDesc</i> is used to initialize a default descriptor, if possible. Thi
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 Describes the CPU descriptor handle that represents the start of the heap that holds the depth-stencil view.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -see-also

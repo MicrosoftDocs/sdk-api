@@ -1,7 +1,7 @@
 ---
 UID: NF:mmdeviceapi.IMMDevice.OpenPropertyStore
 title: IMMDevice::OpenPropertyStore (mmdeviceapi.h)
-description: The OpenPropertyStore method retrieves an interface to the device's property store.
+description: The OpenPropertyStore method retrieves an interface to the device's property store.helpviewer_keywords: ["IMMDevice interface [Core Audio]","OpenPropertyStore method","IMMDevice.OpenPropertyStore","IMMDevice::OpenPropertyStore","IMMDeviceOpenPropertyStore","OpenPropertyStore","OpenPropertyStore method [Core Audio]","OpenPropertyStore method [Core Audio]","IMMDevice interface","coreaudio.immdevice_openpropertystore","mmdeviceapi/IMMDevice::OpenPropertyStore"]
 old-location: coreaudio\immdevice_openpropertystore.htm
 tech.root: CoreAudio
 ms.assetid: d13a5743-8b07-4876-ab9d-7a6bd60e7add

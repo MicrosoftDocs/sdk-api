@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMSetRenderTargets
 title: ID3D11DeviceContext::OMSetRenderTargets (d3d11.h)
-description: Bind one or more render targets atomically and the depth-stencil buffer to the output-merger stage.
+description: Bind one or more render targets atomically and the depth-stencil buffer to the output-merger stage.helpviewer_keywords: ["57e16a81-6543-5ac7-d96c-aac3ca8504f8","ID3D11DeviceContext interface [Direct3D 11]","OMSetRenderTargets method","ID3D11DeviceContext.OMSetRenderTargets","ID3D11DeviceContext::OMSetRenderTargets","OMSetRenderTargets","OMSetRenderTargets method [Direct3D 11]","OMSetRenderTargets method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::OMSetRenderTargets","direct3d11.id3d11devicecontext_omsetrendertargets"]
 old-location: direct3d11\id3d11devicecontext_omsetrendertargets.htm
 tech.root: direct3d11
 ms.assetid: 65514812-7433-4c13-a6cb-53980dacdf65
@@ -79,15 +79,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11depthstencilview">ID3D11DepthStencilView</a> that represents the depth-stencil view to bind to the device. 
         If this parameter is <b>NULL</b>, the depth-stencil state is not bound.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

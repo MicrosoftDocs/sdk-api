@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.SetAppAsDefaultAll
 title: IApplicationAssociationRegistration::SetAppAsDefaultAll (shobjidl_core.h)
-description: Sets an application as the default for all of the registered associations of any type for that application. Not intended for use in Windows 8.
+description: Sets an application as the default for all of the registered associations of any type for that application. Not intended for use in Windows 8.helpviewer_keywords: ["IApplicationAssociationRegistration interface [Windows Shell]","SetAppAsDefaultAll method","IApplicationAssociationRegistration.SetAppAsDefaultAll","IApplicationAssociationRegistration::SetAppAsDefaultAll","SetAppAsDefaultAll","SetAppAsDefaultAll method [Windows Shell]","SetAppAsDefaultAll method [Windows Shell]","IApplicationAssociationRegistration interface","_shell_IApplicationAssociationRegistration_SetAppAsDefaultAll","shell.IApplicationAssociationRegistration_SetAppAsDefaultAll","shobjidl_core/IApplicationAssociationRegistration::SetAppAsDefaultAll"]
 old-location: shell\IApplicationAssociationRegistration_SetAppAsDefaultAll.htm
 tech.root: shell
 ms.assetid: 3e9ad8ba-0f0e-46e6-ab0b-61c35bfd2dc6

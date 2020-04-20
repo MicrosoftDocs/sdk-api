@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcFactory.CreatePartUri
 title: IOpcFactory::CreatePartUri (msopc.h)
-description: Creates a part URI object that represents a part name.
+description: Creates a part URI object that represents a part name.helpviewer_keywords: ["CreatePartUri","CreatePartUri method [Open Packaging Conventions]","CreatePartUri method [Open Packaging Conventions]","IOpcFactory interface","IOpcFactory interface [Open Packaging Conventions]","CreatePartUri method","IOpcFactory.CreatePartUri","IOpcFactory::CreatePartUri","msopc/IOpcFactory::CreatePartUri","opc.iopcfactory_createparturi"]
 old-location: opc\iopcfactory_createparturi.htm
 tech.root: OPC
 ms.assetid: 8634d166-767a-46a5-9001-5fca88bfa844

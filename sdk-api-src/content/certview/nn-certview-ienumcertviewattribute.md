@@ -1,7 +1,7 @@
 ---
 UID: NN:certview.IEnumCERTVIEWATTRIBUTE
 title: IEnumCERTVIEWATTRIBUTE (certview.h)
-description: Represents an attribute-enumeration sequence that contains the certificate attributes for the current row of the row-enumeration sequence.
+description: Represents an attribute-enumeration sequence that contains the certificate attributes for the current row of the row-enumeration sequence.helpviewer_keywords: ["IEnumCERTVIEWATTRIBUTE","IEnumCERTVIEWATTRIBUTE interface [Security]","IEnumCERTVIEWATTRIBUTE interface [Security]","described","_certsrv_ienumcertviewattribute","certview/IEnumCERTVIEWATTRIBUTE","security.ienumcertviewattribute"]
 old-location: security\ienumcertviewattribute.htm
 tech.root: SecCrypto
 ms.assetid: fc1eb29d-27d9-4331-b588-dc0632b3db6a

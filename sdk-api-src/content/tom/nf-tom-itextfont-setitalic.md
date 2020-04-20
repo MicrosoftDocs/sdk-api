@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.SetItalic
 title: ITextFont::SetItalic (tom.h)
-description: Sets whether characters are in italics.
+description: Sets whether characters are in italics.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetItalic method","ITextFont.SetItalic","ITextFont::SetItalic","SetItalic","SetItalic method [Windows Controls]","SetItalic method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetItalic","_win32_ITextFont_SetItalic_cpp","controls.ITextFont_SetItalic","controls._win32_ITextFont_SetItalic","tom/ITextFont::SetItalic"]
 old-location: controls\ITextFont_SetItalic.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setitalic.htm

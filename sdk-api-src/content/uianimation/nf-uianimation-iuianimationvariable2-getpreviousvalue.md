@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetPreviousValue
 title: IUIAnimationVariable2::GetPreviousValue (uianimation.h)
-description: Gets the previous value of the animation variable. This is the value of the animation variable before the most recent update.
+description: Gets the previous value of the animation variable. This is the value of the animation variable before the most recent update.helpviewer_keywords: ["GetPreviousValue","GetPreviousValue method [Windows Animation]","GetPreviousValue method [Windows Animation]","IUIAnimationVariable2 interface","IUIAnimationVariable2 interface [Windows Animation]","GetPreviousValue method","IUIAnimationVariable2.GetPreviousValue","IUIAnimationVariable2::GetPreviousValue","uianimation.iuianimationvariable2_getpreviousvalue","uianimation/IUIAnimationVariable2::GetPreviousValue"]
 old-location: uianimation\iuianimationvariable2_getpreviousvalue.htm
 tech.root: UIAnimation
 ms.assetid: 1A2BF7DB-1C7B-43BF-A7F7-A4FB47250597

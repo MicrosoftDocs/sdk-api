@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects.D2D1_BLEND_PROP
 title: D2D1_BLEND_PROP (d2d1effects.h)
-description: Identifiers for properties of the Blend effect.
+description: Identifiers for properties of the Blend effect.helpviewer_keywords: ["D2D1_BLEND_PROP","D2D1_BLEND_PROP enumeration [Direct2D]","D2D1_BLEND_PROP_MODE","d2d1effects/D2D1_BLEND_PROP","d2d1effects/D2D1_BLEND_PROP_MODE","direct2d.d2d1_blend_prop"]
 old-location: direct2d\d2d1_blend_prop.htm
 tech.root: Direct2D
 ms.assetid: 475CD001-27F6-40DE-887E-EC3EECB40DDA

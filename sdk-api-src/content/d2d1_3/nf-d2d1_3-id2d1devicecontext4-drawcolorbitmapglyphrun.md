@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.DrawColorBitmapGlyphRun
 title: ID2D1DeviceContext4::DrawColorBitmapGlyphRun (d2d1_3.h)
-description: Draws a color bitmap glyph run using one of the bitmap formats.
+description: Draws a color bitmap glyph run using one of the bitmap formats.helpviewer_keywords: ["DrawColorBitmapGlyphRun","DrawColorBitmapGlyphRun method [Direct2D]","DrawColorBitmapGlyphRun method [Direct2D]","ID2D1DeviceContext4 interface","ID2D1DeviceContext4 interface [Direct2D]","DrawColorBitmapGlyphRun method","ID2D1DeviceContext4.DrawColorBitmapGlyphRun","ID2D1DeviceContext4::DrawColorBitmapGlyphRun","d2d1_3/ID2D1DeviceContext4::DrawColorBitmapGlyphRun","direct2d.id2d1devicecontext4_drawcolorbitmapglyphrun"]
 old-location: direct2d\id2d1devicecontext4_drawcolorbitmapglyphrun.htm
 tech.root: Direct2D
 ms.assetid: E3DDC924-87A1-43C7-8FC7-3C4E3FC2AC59
@@ -94,15 +94,6 @@ Indicates the measuring method.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_color_bitmap_glyph_snap_option">D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION</a></b>
 
 Specifies the pixel snapping policy when rendering color bitmap glyphs.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

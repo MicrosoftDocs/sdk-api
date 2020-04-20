@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorCollection.CreateDataCollector
 title: IDataCollectorCollection::CreateDataCollector (pla.h)
-description: Creates a data collector of the specified type.
+description: Creates a data collector of the specified type.helpviewer_keywords: ["CreateDataCollector","CreateDataCollector method [PLA]","CreateDataCollector method [PLA]","IDataCollectorCollection interface","IDataCollectorCollection interface [PLA]","CreateDataCollector method","IDataCollectorCollection.CreateDataCollector","IDataCollectorCollection::CreateDataCollector","pla.idatacollectorcollection_createdatacollector","pla/IDataCollectorCollection::CreateDataCollector"]
 old-location: pla\idatacollectorcollection_createdatacollector.htm
 tech.root: PLA
 ms.assetid: b6d98361-3af3-4fb2-ad0b-4449b81d6e9e

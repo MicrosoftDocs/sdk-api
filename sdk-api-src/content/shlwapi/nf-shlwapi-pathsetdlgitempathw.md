@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathSetDlgItemPathW
 title: PathSetDlgItemPathW function (shlwapi.h)
-description: Sets the text of a child control in a window or dialog box, using PathCompactPath to ensure the path fits in the control.
+description: Sets the text of a child control in a window or dialog box, using PathCompactPath to ensure the path fits in the control.helpviewer_keywords: ["PathSetDlgItemPath","PathSetDlgItemPath function [Windows Shell]","PathSetDlgItemPathA","PathSetDlgItemPathW","_win32_PathSetDlgItemPath","shell.PathSetDlgItemPath","shlwapi/PathSetDlgItemPath","shlwapi/PathSetDlgItemPathA","shlwapi/PathSetDlgItemPathW"]
 old-location: shell\PathSetDlgItemPath.htm
 tech.root: shell
 ms.assetid: 05737525-d906-482c-847f-bdbf0ba0ce3d
@@ -80,13 +80,5 @@ The identifier of the control.
 Type: <b>LPCSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to set in the control.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

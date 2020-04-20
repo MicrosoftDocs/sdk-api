@@ -1,7 +1,7 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_SHELL
 title: WSMAN_PLUGIN_SHELL (wsman.h)
-description: Defines the shell callback for a plug-in.
+description: Defines the shell callback for a plug-in.helpviewer_keywords: ["WSMAN_PLUGIN_SHELL","WSMAN_PLUGIN_SHELL callback","WSMAN_PLUGIN_SHELL callback function [Windows Remote Management]","WSManPluginShell","winrm.wsman_plugin_shell","wsman/WSMAN_PLUGIN_SHELL"]
 old-location: winrm\wsman_plugin_shell.htm
 tech.root: winrm
 ms.assetid: 3016612a-ce99-405b-afae-200bcad9ed20
@@ -82,15 +82,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-
 ### -param *inboundShellInformation
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies an optional inbound object that contains extra data for the shell.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

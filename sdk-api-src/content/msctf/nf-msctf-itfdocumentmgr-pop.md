@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.Pop
 title: ITfDocumentMgr::Pop (msctf.h)
-description: ITfDocumentMgr::Pop method
+description: ITfDocumentMgr::Pop methodhelpviewer_keywords: ["ITfDocumentMgr interface [Text Services Framework]","Pop method","ITfDocumentMgr.Pop","ITfDocumentMgr::Pop","Pop","Pop method [Text Services Framework]","Pop method [Text Services Framework]","ITfDocumentMgr interface","_tsf_itfdocumentmgr_pop_ref","msctf/ITfDocumentMgr::Pop","tsf.itfdocumentmgr_pop"]
 old-location: tsf\itfdocumentmgr_pop.htm
 tech.root: TSF
 ms.assetid: bbf65d8d-5a59-4c4b-a132-fa28babcd70b
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Removes the context from the top of the context stack.
 
 ## -parameters
 

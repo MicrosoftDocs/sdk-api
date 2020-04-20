@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter.Close
 title: IAppxEncryptedBundleWriter::Close (appxpackaging.h)
-description: Writes the bundle manifest and blockmap footprint files to the bundle.
+description: Writes the bundle manifest and blockmap footprint files to the bundle.helpviewer_keywords: ["Close","Close method [App packaging and management]","Close method [App packaging and management]","IAppxEncryptedBundleWriter interface","IAppxEncryptedBundleWriter interface [App packaging and management]","Close method","IAppxEncryptedBundleWriter.Close","IAppxEncryptedBundleWriter::Close","appxpackaging/IAppxEncryptedBundleWriter::Close","appxpkg.iappxencryptedbundlewriter_close"]
 old-location: appxpkg\iappxencryptedbundlewriter_close.htm
 tech.root: appxpkg
 ms.assetid: 0ED396CC-3CDA-440A-9FA7-3F3A85522778

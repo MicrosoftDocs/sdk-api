@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IEnumSingleItemExceptions.Skip
 title: IEnumSingleItemExceptions::Skip (winsync.h)
-description: Skips the specified number of single-item exceptions.
+description: Skips the specified number of single-item exceptions.helpviewer_keywords: ["IEnumSingleItemExceptions interface [Windows Sync]","Skip method","IEnumSingleItemExceptions.Skip","IEnumSingleItemExceptions::Skip","Skip","Skip method [Windows Sync]","Skip method [Windows Sync]","IEnumSingleItemExceptions interface","winsync.ienumsingleitemexceptions_skip","winsync/IEnumSingleItemExceptions::Skip"]
 old-location: winsync\ienumsingleitemexceptions_skip.htm
 tech.root: winsync
 ms.assetid: 80e3bb55-b467-4fa4-bb3e-70233e5b0265

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertCompareIntegerBlob
 title: CertCompareIntegerBlob function (wincrypt.h)
-description: The CertCompareIntegerBlob function compares two integer BLOBs to determine whether they represent equal numeric values.
+description: The CertCompareIntegerBlob function compares two integer BLOBs to determine whether they represent equal numeric values.helpviewer_keywords: ["CertCompareIntegerBlob","CertCompareIntegerBlob function [Security]","_crypto2_certcompareintegerblob","security.certcompareintegerblob","wincrypt/CertCompareIntegerBlob"]
 old-location: security\certcompareintegerblob.htm
 tech.root: SecCrypto
 ms.assetid: 467ce464-2f22-4583-a745-711ba3b05f4f

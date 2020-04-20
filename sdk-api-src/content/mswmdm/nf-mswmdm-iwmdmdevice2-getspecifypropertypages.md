@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMDevice2.GetSpecifyPropertyPages
 title: IWMDMDevice2::GetSpecifyPropertyPages (mswmdm.h)
-description: The GetSpecifyPropertyPages method retrieves the property page for the device. Property pages can be used to report device-specific properties and branding information.
+description: The GetSpecifyPropertyPages method retrieves the property page for the device. Property pages can be used to report device-specific properties and branding information.helpviewer_keywords: ["GetSpecifyPropertyPages","GetSpecifyPropertyPages method [windows Media Device Manager]","GetSpecifyPropertyPages method [windows Media Device Manager]","IWMDMDevice2 interface","IWMDMDevice2 interface [windows Media Device Manager]","GetSpecifyPropertyPages method","IWMDMDevice2.GetSpecifyPropertyPages","IWMDMDevice2::GetSpecifyPropertyPages","IWMDMDevice2GetSpecifyPropertyPages","mswmdm/IWMDMDevice2::GetSpecifyPropertyPages","wmdm.iwmdmdevice2_getspecifypropertypages"]
 old-location: wmdm\iwmdmdevice2_getspecifypropertypages.htm
 tech.root: WMDM
 ms.assetid: bc46af60-5d74-4ac6-b680-c47b55c444e0

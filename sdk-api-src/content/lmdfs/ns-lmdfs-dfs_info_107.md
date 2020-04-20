@@ -1,7 +1,7 @@
 ---
 UID: NS:lmdfs._DFS_INFO_107
 title: DFS_INFO_107 (lmdfs.h)
-description: Contains information about a DFS root or link, including the comment, state, time-out, property flags, and link reparse point security descriptor.
+description: Contains information about a DFS root or link, including the comment, state, time-out, property flags, and link reparse point security descriptor.helpviewer_keywords: ["*LPDFS_INFO_107","*PDFS_INFO_107","DFS_INFO_107","DFS_INFO_107 structure [Distributed File System]","DFS_PROPERTY_FLAG_ABDE","DFS_PROPERTY_FLAG_CLUSTER_ENABLED","DFS_PROPERTY_FLAG_INSITE_REFERRALS","DFS_PROPERTY_FLAG_ROOT_SCALABILITY","DFS_PROPERTY_FLAG_SITE_COSTING","DFS_PROPERTY_FLAG_TARGET_FAILBACK","DFS_VOLUME_FLAVOR_AD_BLOB","DFS_VOLUME_FLAVOR_STANDALONE","DFS_VOLUME_STATE_INCONSISTENT","DFS_VOLUME_STATE_OFFLINE","DFS_VOLUME_STATE_OK","DFS_VOLUME_STATE_ONLINE","PDFS_INFO_107","PDFS_INFO_107 structure pointer [Distributed File System]","dfs.dfs_info_107","fs.dfs_info_107","lmdfs/DFS_INFO_107","lmdfs/PDFS_INFO_107"]
 old-location: dfs\dfs_info_107.htm
 tech.root: Dfs
 ms.assetid: 38afc682-bb37-42ad-9e92-a1b0aa277f29

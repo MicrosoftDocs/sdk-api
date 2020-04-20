@@ -1,7 +1,7 @@
 ---
 UID: NE:strmif.tagDVD_AUDIO_LANG_EXT
 title: DVD_AUDIO_LANG_EXT (strmif.h)
-description: Defines flags that indicate whether an audio stream contains audio language extensions.
+description: Defines flags that indicate whether an audio stream contains audio language extensions.helpviewer_keywords: ["DVD_AUDIO_LANG_EXT","DVD_AUDIO_LANG_EXT","DVD_AUDIO_LANG_EXT enumeration [DirectShow]","DVD_AUDIO_LANG_EXTEnumeration","DVD_AUD_EXT_Captions","DVD_AUD_EXT_DirectorComments1","DVD_AUD_EXT_DirectorComments2","DVD_AUD_EXT_NotSpecified","DVD_AUD_EXT_VisuallyImpaired","dshow.dvd_audio_lang_ext","strmif/DVD_AUDIO_LANG_EXT","strmif/DVD_AUD_EXT_Captions","strmif/DVD_AUD_EXT_DirectorComments1","strmif/DVD_AUD_EXT_DirectorComments2","strmif/DVD_AUD_EXT_NotSpecified","strmif/DVD_AUD_EXT_VisuallyImpaired"]
 old-location: dshow\dvd_audio_lang_ext.htm
 tech.root: DirectShow
 ms.assetid: 01d82199-18e1-4d84-add1-f4f6790155c8

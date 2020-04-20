@@ -1,7 +1,7 @@
 ---
 UID: NN:manipulations._IManipulationEvents
 title: _IManipulationEvents (manipulations.h)
-description: Handles manipulation and inertia events.
+description: Handles manipulation and inertia events.helpviewer_keywords: ["_IManipulationEvents","_IManipulationEvents interface [Windows Touch]","_IManipulationEvents interface [Windows Touch]","described","manipulations/_IManipulationEvents","wintouch._imanipulationevents"]
 old-location: wintouch\_imanipulationevents.htm
 tech.root: wintouch
 ms.assetid: be392a13-3165-44ff-bcd6-ed0075c669c4

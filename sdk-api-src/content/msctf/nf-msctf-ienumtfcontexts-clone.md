@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Clone
 title: IEnumTfContexts::Clone (msctf.h)
-description: IEnumTfContexts::Clone method
+description: IEnumTfContexts::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfContexts interface","IEnumTfContexts interface [Text Services Framework]","Clone method","IEnumTfContexts.Clone","IEnumTfContexts::Clone","_tsf_ienumtfcontexts_clone_ref","msctf/IEnumTfContexts::Clone","tsf.ienumtfcontexts_clone"]
 old-location: tsf\ienumtfcontexts_clone.htm
 tech.root: TSF
 ms.assetid: 9e9486b7-5251-41b9-b36c-36a0d6dfaf5d
@@ -45,25 +45,17 @@ ms.custom: 19H1
 
 # IEnumTfContexts::Clone
 
-
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfcontexts">IEnumTfContexts</a> interface pointer that receives the new enumerator.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,19 +87,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfcontexts">IEnumTfContexts
-      </a>
- 
-
- 
-
+[IEnumTfContexts interface](nn-msctf-ienumtfcontexts.md), [ITfContext interface](nn-msctf-itfcontext.md)

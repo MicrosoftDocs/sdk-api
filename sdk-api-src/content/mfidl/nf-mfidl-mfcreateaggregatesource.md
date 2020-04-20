@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateAggregateSource
 title: MFCreateAggregateSource function (mfidl.h)
-description: Creates a media source that aggregates a collection of media sources.
+description: Creates a media source that aggregates a collection of media sources.helpviewer_keywords: ["MFCreateAggregateSource","MFCreateAggregateSource function [Media Foundation]","mf.mfcreateaggregatesource","mfidl/MFCreateAggregateSource"]
 old-location: mf\mfcreateaggregatesource.htm
 tech.root: medfound
 ms.assetid: 7288bd4b-6a74-4528-854d-d82783630422

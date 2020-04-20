@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_IsDataSessionOpen
 title: IMbnDeviceService::get_IsDataSessionOpen (mbnapi.h)
-description: Reports if the device service data session is open.
+description: Reports if the device service data session is open.helpviewer_keywords: ["IMbnDeviceService interface [Microsoft Broadband Networks]","IsDataSessionOpen property","IMbnDeviceService.IsDataSessionOpen","IMbnDeviceService.get_IsDataSessionOpen","IMbnDeviceService::IsDataSessionOpen","IMbnDeviceService::get_IsDataSessionOpen","IsDataSessionOpen property [Microsoft Broadband Networks]","IsDataSessionOpen property [Microsoft Broadband Networks]","IMbnDeviceService interface","get_IsDataSessionOpen","mbn.imbndeviceservice_isdatasessionopen","mbnapi/IMbnDeviceService::IsDataSessionOpen","mbnapi/IMbnDeviceService::get_IsDataSessionOpen"]
 old-location: mbn\imbndeviceservice_isdatasessionopen.htm
 tech.root: mbn
 ms.assetid: 97F58FC5-D960-4EBA-8441-12472F2771DE

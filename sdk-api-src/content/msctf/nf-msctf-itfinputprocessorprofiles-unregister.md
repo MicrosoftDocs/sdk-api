@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.Unregister
 title: ITfInputProcessorProfiles::Unregister (msctf.h)
-description: ITfInputProcessorProfiles::Unregister method
+description: ITfInputProcessorProfiles::Unregister methodhelpviewer_keywords: ["ITfInputProcessorProfiles interface [Text Services Framework]","Unregister method","ITfInputProcessorProfiles.Unregister","ITfInputProcessorProfiles::Unregister","Unregister","Unregister method [Text Services Framework]","Unregister method [Text Services Framework]","ITfInputProcessorProfiles interface","_tsf_itfinputprocessorprofiles_unregister_ref","msctf/ITfInputProcessorProfiles::Unregister","tsf.itfinputprocessorprofiles_unregister"]
 old-location: tsf\itfinputprocessorprofiles_unregister.htm
 tech.root: TSF
 ms.assetid: 53de09dd-3d99-4968-8861-397b67daf8c5
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Removes a text service from TSF.
 
 ## -parameters
 

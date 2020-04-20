@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMStreamConfig.SetFormat
 title: IAMStreamConfig::SetFormat (strmif.h)
-description: The SetFormat method sets the output format on the pin.
+description: The SetFormat method sets the output format on the pin.helpviewer_keywords: ["IAMStreamConfig interface [DirectShow]","SetFormat method","IAMStreamConfig.SetFormat","IAMStreamConfig::SetFormat","IAMStreamConfigSetFormat","SetFormat","SetFormat method [DirectShow]","SetFormat method [DirectShow]","IAMStreamConfig interface","dshow.iamstreamconfig_setformat","strmif/IAMStreamConfig::SetFormat"]
 old-location: dshow\iamstreamconfig_setformat.htm
 tech.root: DirectShow
 ms.assetid: 8d64e5b6-e8fa-4678-92d4-3cbf92e13ddf

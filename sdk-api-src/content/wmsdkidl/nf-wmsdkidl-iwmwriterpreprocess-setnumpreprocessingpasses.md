@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.SetNumPreprocessingPasses
 title: IWMWriterPreprocess::SetNumPreprocessingPasses (wmsdkidl.h)
-description: The SetNumPreprocessingPasses method sets the number of passes to perform on an input.
+description: The SetNumPreprocessingPasses method sets the number of passes to perform on an input.helpviewer_keywords: ["IWMWriterPreprocess interface [windows Media Format]","SetNumPreprocessingPasses method","IWMWriterPreprocess.SetNumPreprocessingPasses","IWMWriterPreprocess::SetNumPreprocessingPasses","IWMWriterPreprocessSetNumPreprocessingPasses","SetNumPreprocessingPasses","SetNumPreprocessingPasses method [windows Media Format]","SetNumPreprocessingPasses method [windows Media Format]","IWMWriterPreprocess interface","wmformat.iwmwriterpreprocess_setnumpreprocessingpasses","wmsdkidl/IWMWriterPreprocess::SetNumPreprocessingPasses"]
 old-location: wmformat\iwmwriterpreprocess_setnumpreprocessingpasses.htm
 tech.root: wmformat
 ms.assetid: 81ff36e1-cce5-4c99-bf3a-ee2f1050c026

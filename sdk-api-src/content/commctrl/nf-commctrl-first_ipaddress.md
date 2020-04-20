@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.FIRST_IPADDRESS
 title: FIRST_IPADDRESS macro (commctrl.h)
-description: Extracts the field 0 value from a packed IP address retrieved with the IPM_GETADDRESS message.
+description: Extracts the field 0 value from a packed IP address retrieved with the IPM_GETADDRESS message.helpviewer_keywords: ["FIRST_IPADDRESS","FIRST_IPADDRESS macro [Windows Controls]","_win32_FIRST_IPADDRESS","_win32_FIRST_IPADDRESS_cpp","commctrl/FIRST_IPADDRESS","controls.FIRST_IPADDRESS","controls._win32_FIRST_IPADDRESS"]
 old-location: controls\FIRST_IPADDRESS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\first_ipaddress.htm

@@ -1,7 +1,7 @@
 ---
 UID: NN:shldisp.IAutoComplete2
 title: IAutoComplete2 (shldisp.h)
-description: Extends IAutoComplete. This interface enables clients of the autocomplete object to retrieve and set a number of options that control how autocompletion operates.
+description: Extends IAutoComplete. This interface enables clients of the autocomplete object to retrieve and set a number of options that control how autocompletion operates.helpviewer_keywords: ["IAutoComplete2","IAutoComplete2 interface [Windows Shell]","IAutoComplete2 interface [Windows Shell]","described","_win32_IAutoComplete2","shell.IAutoComplete2","shldisp/IAutoComplete2"]
 old-location: shell\IAutoComplete2.htm
 tech.root: shell
 ms.assetid: c093719f-7176-4ba4-ae75-399e8beeebf0

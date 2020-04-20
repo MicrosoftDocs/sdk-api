@@ -1,7 +1,7 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_RECEIVE
 title: WSMAN_PLUGIN_RECEIVE (wsman.h)
-description: Defines the receive callback for a plug-in.
+description: Defines the receive callback for a plug-in.helpviewer_keywords: ["WSMAN_PLUGIN_RECEIVE","WSMAN_PLUGIN_RECEIVE callback","WSMAN_PLUGIN_RECEIVE callback function [Windows Remote Management]","WSManPluginReceive","winrm.wsman_plugin_receive","wsman/WSMAN_PLUGIN_RECEIVE"]
 old-location: winrm\wsman_plugin_receive.htm
 tech.root: winrm
 ms.assetid: 59dff87b-17d5-4875-ad24-1520a04b05d2
@@ -82,15 +82,6 @@ If this request is aimed at a command and not a shell, this is the context retur
 ### -param *streamSet
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_stream_id_set">WSMAN_STREAM_ID_SET</a> structure that contains a list of streams for which  data is to be received.  If this list is empty, all streams that were configured in the shell are implied, which means  that all streams are available.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

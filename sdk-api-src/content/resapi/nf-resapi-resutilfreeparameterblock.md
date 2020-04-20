@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilFreeParameterBlock
 title: ResUtilFreeParameterBlock function (resapi.h)
-description: Deallocates memory that has been allocated for a parameter block by ResUtilDupParameterBlock.
+description: Deallocates memory that has been allocated for a parameter block by ResUtilDupParameterBlock.helpviewer_keywords: ["PRESUTIL_FREE_PARAMETER_BLOCK","PRESUTIL_FREE_PARAMETER_BLOCK function [Failover Cluster]","ResUtilFreeParameterBlock","ResUtilFreeParameterBlock function [Failover Cluster]","_wolf_resutilfreeparameterblock","mscs.resutilfreeparameterblock","resapi/PRESUTIL_FREE_PARAMETER_BLOCK","resapi/ResUtilFreeParameterBlock"]
 old-location: mscs\resutilfreeparameterblock.htm
 tech.root: MsCS
 ms.assetid: 2e884794-dbb7-47a8-8843-e9c030ce515d
@@ -71,15 +71,6 @@ Pointer to the parameter block to use as a reference.
 ### -param pPropertyTable [in]
 
 Pointer to an array of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures describing the properties in the input parameter block.
-
-
-## -returns
-
-
-
-This function has no return values.
-
-
 
 
 ## -remarks

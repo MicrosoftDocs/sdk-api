@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12Debug1.SetEnableGPUBasedValidation
 title: ID3D12Debug1::SetEnableGPUBasedValidation (d3d12sdklayers.h)
-description: This method enables or disables GPU-Based Validation (GBV) before creating a device with the debug layer enabled.
+description: This method enables or disables GPU-Based Validation (GBV) before creating a device with the debug layer enabled.helpviewer_keywords: ["ID3D12Debug1 interface","SetEnableGPUBasedValidation method","ID3D12Debug1.SetEnableGPUBasedValidation","ID3D12Debug1::SetEnableGPUBasedValidation","SetEnableGPUBasedValidation","SetEnableGPUBasedValidation method","SetEnableGPUBasedValidation method","ID3D12Debug1 interface","d3d12sdklayers/ID3D12Debug1::SetEnableGPUBasedValidation","direct3d12.id3d12debugdevice1_setenablegpubasedvalidation"]
 old-location: direct3d12\id3d12debugdevice1_setenablegpubasedvalidation.htm
 tech.root: direct3d12
 ms.assetid: 0B7ACDC1-D7F6-4565-8E33-F2F14A96E4A8
@@ -62,15 +62,6 @@ This method enables or disables GPU-Based Validation (GBV) before creating a dev
 Type: <b>BOOL</b>
 
 TRUE to enable GPU-Based Validation, otherwise FALSE.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IAGetVertexBuffers
 title: ID3D11DeviceContext::IAGetVertexBuffers (d3d11.h)
-description: Get the vertex buffers bound to the input-assembler stage.
+description: Get the vertex buffers bound to the input-assembler stage.helpviewer_keywords: ["IAGetVertexBuffers","IAGetVertexBuffers method [Direct3D 11]","IAGetVertexBuffers method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","IAGetVertexBuffers method","ID3D11DeviceContext.IAGetVertexBuffers","ID3D11DeviceContext::IAGetVertexBuffers","d3d11/ID3D11DeviceContext::IAGetVertexBuffers","direct3d11.id3d11devicecontext_iagetvertexbuffers","e62a4871-bb0d-3c8a-9fba-aa0c0dff15b6"]
 old-location: direct3d11\id3d11devicecontext_iagetvertexbuffers.htm
 tech.root: direct3d11
 ms.assetid: 13b1eb06-effa-4483-993a-da47ee0b916f
@@ -91,15 +91,6 @@ Pointer to an array of stride values returned by the method; one stride value fo
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Pointer to an array of offset values returned by the method; one offset value for each buffer in the vertex-buffer array. Each offset is the number of bytes between the first element of a vertex buffer and the first element that will be used.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

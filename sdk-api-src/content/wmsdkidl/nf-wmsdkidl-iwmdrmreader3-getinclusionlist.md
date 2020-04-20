@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader3.GetInclusionList
 title: IWMDRMReader3::GetInclusionList (wmsdkidl.h)
-description: The GetInclusionList method retrieves a list of identifiers specifying approved protection systems.
+description: The GetInclusionList method retrieves a list of identifiers specifying approved protection systems.helpviewer_keywords: ["GetInclusionList","GetInclusionList method [windows Media Format]","GetInclusionList method [windows Media Format]","IWMDRMReader3 interface","IWMDRMReader3 interface [windows Media Format]","GetInclusionList method","IWMDRMReader3.GetInclusionList","IWMDRMReader3::GetInclusionList","IWMDRMReader3GetInclusionList","wmformat.iwmdrmreader3_getinclusionlist","wmsdkidl/IWMDRMReader3::GetInclusionList"]
 old-location: wmformat\iwmdrmreader3_getinclusionlist.htm
 tech.root: wmformat
 ms.assetid: ac6f2ced-d60d-4472-8549-c52314375ac6

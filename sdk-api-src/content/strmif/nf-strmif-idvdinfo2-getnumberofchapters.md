@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetNumberOfChapters
 title: IDvdInfo2::GetNumberOfChapters (strmif.h)
-description: The GetNumberOfChapters method retrieves the number of chapters in a given title.
+description: The GetNumberOfChapters method retrieves the number of chapters in a given title.helpviewer_keywords: ["GetNumberOfChapters","GetNumberOfChapters method [DirectShow]","GetNumberOfChapters method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetNumberOfChapters method","IDvdInfo2.GetNumberOfChapters","IDvdInfo2::GetNumberOfChapters","IDvdInfo2GetNumberOfChapters","dshow.idvdinfo2_getnumberofchapters","strmif/IDvdInfo2::GetNumberOfChapters"]
 old-location: dshow\idvdinfo2_getnumberofchapters.htm
 tech.root: DirectShow
 ms.assetid: 5899fa87-56e2-4287-9325-1d9eaedb892b

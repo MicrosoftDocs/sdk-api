@@ -1,7 +1,7 @@
 ---
 UID: NF:mgm.MgmGroupEnumerationStart
 title: MgmGroupEnumerationStart function (mgm.h)
-description: The MgmGroupEnumerationStart function obtains an enumeration handle that is later used to obtain the list of groups that have been joined. After the client obtains the handle, it should use the MgmGroupEnumerationGetNext function to enumerate the groups.
+description: The MgmGroupEnumerationStart function obtains an enumeration handle that is later used to obtain the list of groups that have been joined. After the client obtains the handle, it should use the MgmGroupEnumerationGetNext function to enumerate the groups.helpviewer_keywords: ["ALL_SOURCES","ANY_SOURCE","MgmGroupEnumerationStart","MgmGroupEnumerationStart function [RAS]","_mpr_mgmgroupenumerationstart","mgm/MgmGroupEnumerationStart","rras.mgmgroupenumerationstart"]
 old-location: rras\mgmgroupenumerationstart.htm
 tech.root: RRAS
 ms.assetid: 926f4055-becb-4c99-afd2-2d2822626f24

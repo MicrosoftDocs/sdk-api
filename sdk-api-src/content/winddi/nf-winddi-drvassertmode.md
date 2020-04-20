@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvAssertMode
 title: DrvAssertMode function (winddi.h)
-description: The DrvAssertMode function sets the mode of the specified physical device to either the mode specified when the PDEV was initialized or to the default mode of the hardware.
+description: The DrvAssertMode function sets the mode of the specified physical device to either the mode specified when the PDEV was initialized or to the default mode of the hardware.helpviewer_keywords: ["DrvAssertMode","DrvAssertMode function [Display Devices]","ddifncs_2ff05b29-d53b-44b9-a7fc-2c050f1ba778.xml","display.drvassertmode","winddi/DrvAssertMode"]
 old-location: display\drvassertmode.htm
 tech.root: display
 ms.assetid: 29846ffd-b721-4d61-9983-07a2575f9fe8

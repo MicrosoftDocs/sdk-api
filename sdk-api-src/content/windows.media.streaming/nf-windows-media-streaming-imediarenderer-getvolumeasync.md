@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.GetVolumeAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-description: Queries the DMR asynchronously for its current audio volume level.
+description: Queries the DMR asynchronously for its current audio volume level.helpviewer_keywords: ["GetVolumeAsync","GetVolumeAsync method [Media Streaming API]","GetVolumeAsync method [Media Streaming API]","IMediaRenderer interface","IMediaRenderer interface [Media Streaming API]","GetVolumeAsync method","IMediaRenderer.GetVolumeAsync","IMediaRenderer.streaming","IMediaRenderer::GetVolumeAsync","IMediaRenderer::streaming","mediastreaming.imediarenderer_getvolumeasync","windows/IMediaRenderer::GetVolumeAsync"]
 old-location: mediastreaming\imediarenderer_getvolumeasync.htm
 tech.root: mediastreaming
 ms.assetid: CBE8E7EE-DC64-4FB0-B09D-58EC9BACCA26

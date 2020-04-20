@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputTargetRect
 title: ID3D11VideoContext::VideoProcessorGetOutputTargetRect (d3d11.h)
-description: Gets the current target rectangle for the video processor.
+description: Gets the current target rectangle for the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetOutputTargetRect method","ID3D11VideoContext.VideoProcessorGetOutputTargetRect","ID3D11VideoContext::VideoProcessorGetOutputTargetRect","VideoProcessorGetOutputTargetRect","VideoProcessorGetOutputTargetRect method [Media Foundation]","VideoProcessorGetOutputTargetRect method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetOutputTargetRect","mf.id3d11videocontext_videoprocessorgetoutputtargetrect"]
 old-location: mf\id3d11videocontext_videoprocessorgetoutputtargetrect.htm
 tech.root: medfound
 ms.assetid: 5D59822A-B322-4E79-A543-A89C2232C62F
@@ -70,15 +70,6 @@ Receives the value <b>TRUE</b> if the target rectangle was explicitly set using 
 ### -param pRect [out]
 
 If <i>Enabled</i> receives the value <b>TRUE</b>, this parameter receives the target rectangle. Otherwise, this parameter is ignored.  
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

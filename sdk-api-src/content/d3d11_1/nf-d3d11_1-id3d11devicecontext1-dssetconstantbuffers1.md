@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.DSSetConstantBuffers1
 title: ID3D11DeviceContext1::DSSetConstantBuffers1 (d3d11_1.h)
-description: Sets the constant buffers that the domain-shader stage uses.
+description: Sets the constant buffers that the domain-shader stage uses.helpviewer_keywords: ["DSSetConstantBuffers1","DSSetConstantBuffers1 method [Direct3D 11]","DSSetConstantBuffers1 method [Direct3D 11]","ID3D11DeviceContext1 interface","ID3D11DeviceContext1 interface [Direct3D 11]","DSSetConstantBuffers1 method","ID3D11DeviceContext1.DSSetConstantBuffers1","ID3D11DeviceContext1::DSSetConstantBuffers1","d3d11_1/ID3D11DeviceContext1::DSSetConstantBuffers1","direct3d11.id3d11devicecontext1_dssetconstantbuffers1"]
 old-location: direct3d11\id3d11devicecontext1_dssetconstantbuffers1.htm
 tech.root: direct3d11
 ms.assetid: 3B37B2AE-96E8-4275-B9D9-7CA8D027C6E1
@@ -81,15 +81,6 @@ An array that holds the offsets into the buffers that  <i>ppConstantBuffers</i> 
 ### -param pNumConstants [in, optional]
 
 An array that holds the numbers of constants in the buffers that  <i>ppConstantBuffers</i> specifies. Each number specifies the number of constants that are contained in the constant buffer that the shader uses. Each number of constants starts from its respective offset that is specified in the <i>pFirstConstant</i> array. Each number of constants must be a multiple of 16 constants, in the range [0..4096]. 
-
-
-## -returns
-
-
-
-Returns nothing
-
-
 
 
 ## -remarks

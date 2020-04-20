@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetTriggerCount
 title: IScheduledWorkItem::GetTriggerCount (mstask.h)
-description: Retrieves the number of triggers for the current work item.
+description: Retrieves the number of triggers for the current work item.helpviewer_keywords: ["GetTriggerCount","GetTriggerCount method [Task Scheduler]","GetTriggerCount method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetTriggerCount method","IScheduledWorkItem.GetTriggerCount","IScheduledWorkItem::GetTriggerCount","_msb_ischeduledworkitem_gettriggercount","mstask/IScheduledWorkItem::GetTriggerCount","taskschd.ischeduledworkitem_gettriggercount"]
 old-location: taskschd\ischeduledworkitem_gettriggercount.htm
 tech.root: taskschd
 ms.assetid: db1c98db-c4c1-45af-baba-097ee8dc6abf

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSSetState
 title: ID3D10Device::RSSetState (d3d10.h)
-description: Set the rasterizer state for the rasterizer stage of the pipeline.
+description: Set the rasterizer state for the rasterizer stage of the pipeline.helpviewer_keywords: ["ID3D10Device interface [Direct3D 10]","RSSetState method","ID3D10Device.RSSetState","ID3D10Device::RSSetState","RSSetState","RSSetState method [Direct3D 10]","RSSetState method [Direct3D 10]","ID3D10Device interface","a9a649fb-abd5-0934-b091-8a577434dfdc","d3d10/ID3D10Device::RSSetState","direct3d10.id3d10device_rssetstate"]
 old-location: direct3d10\id3d10device_rssetstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rssetstate.htm
@@ -63,15 +63,6 @@ Set the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10rasterizerstate">ID3D10RasterizerState</a>*</b>
 
 Pointer to a rasterizer-state interface (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10rasterizerstate">ID3D10RasterizerState</a>) to bind to the pipeline.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

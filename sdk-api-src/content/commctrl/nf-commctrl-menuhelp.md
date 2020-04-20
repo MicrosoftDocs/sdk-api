@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MenuHelp
 title: MenuHelp function (commctrl.h)
-description: Processes WM_MENUSELECT and WM_COMMAND messages and displays Help text about the current menu in the specified status window.
+description: Processes WM_MENUSELECT and WM_COMMAND messages and displays Help text about the current menu in the specified status window.helpviewer_keywords: ["MenuHelp","MenuHelp function [Windows Controls]","_win32_MenuHelp","_win32_MenuHelp_cpp","commctrl/MenuHelp","controls.MenuHelp","controls._win32_MenuHelp"]
 old-location: controls\MenuHelp.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\menuhelp.htm
@@ -106,15 +106,6 @@ Handle to the status window.
 Type: <b>LPUINT</b>
 
 Pointer to an array of values that contains pairs of string resource identifiers and menu handles. The function searches the array for the handle to the selected menu and, if found, uses the corresponding resource identifier to load the appropriate Help string. 
-
-
-## -returns
-
-
-
-No return value.
-
-
 
 
 ## -remarks

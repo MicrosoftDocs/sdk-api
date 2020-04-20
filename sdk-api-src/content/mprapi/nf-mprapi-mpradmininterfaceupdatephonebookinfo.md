@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceUpdatePhonebookInfo
 title: MprAdminInterfaceUpdatePhonebookInfo function (mprapi.h)
-description: The MprAdminInterfaceUpdatePhonebookInfo function forces the router to pick up changes made on a specified demand-dial interface. Call this function after changes are made to a phone-book entry for a demand-dial interface.
+description: The MprAdminInterfaceUpdatePhonebookInfo function forces the router to pick up changes made on a specified demand-dial interface. Call this function after changes are made to a phone-book entry for a demand-dial interface.helpviewer_keywords: ["MprAdminInterfaceUpdatePhonebookInfo","MprAdminInterfaceUpdatePhonebookInfo function [RAS]","_mpr_mpradmininterfaceupdatephonebookinfo","mprapi/MprAdminInterfaceUpdatePhonebookInfo","rras.mpradmininterfaceupdatephonebookinfo"]
 old-location: rras\mpradmininterfaceupdatephonebookinfo.htm
 tech.root: RRAS
 ms.assetid: fa337886-6fae-4e38-a59a-e26036c80d39

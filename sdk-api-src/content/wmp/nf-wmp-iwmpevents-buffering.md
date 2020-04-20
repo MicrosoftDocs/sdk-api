@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.Buffering
 title: IWMPEvents::Buffering (wmp.h)
-description: The Buffering event occurs when the Windows Media Player control begins or ends buffering.
+description: The Buffering event occurs when the Windows Media Player control begins or ends buffering.helpviewer_keywords: ["Buffering","Buffering method [Windows Media Player]","Buffering method [Windows Media Player]","IWMPEvents interface","IWMPEvents interface [Windows Media Player]","Buffering method","IWMPEvents.Buffering","IWMPEvents::Buffering","IWMPEventsBuffering","wmp.iwmpevents_iwmpevents__buffering","wmp/IWMPEvents::Buffering"]
 old-location: wmp\iwmpevents_iwmpevents__buffering.htm
 tech.root: WMP
 ms.assetid: 3e379c92-b400-48ad-a3d3-82ed3cd3f396
@@ -63,15 +63,6 @@ The <b>Buffering</b> event occurs when the Windows Media Player control begins o
 ### -param Start [in]
 
 Specifies whether buffering has begun or ended. A value of true indicates that it has begun; a value of false indicates that it has ended.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

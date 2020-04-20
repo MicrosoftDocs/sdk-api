@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.GetLogicalProcessorInformationEx
 title: GetLogicalProcessorInformationEx function (sysinfoapi.h)
-description: Retrieves information about the relationships of logical processors and related hardware.
+description: Retrieves information about the relationships of logical processors and related hardware.helpviewer_keywords: ["GetLogicalProcessorInformationEx","GetLogicalProcessorInformationEx function","RelationAll","RelationCache","RelationGroup","RelationNumaNode","RelationProcessorCore","RelationProcessorPackage","base.getlogicalprocessorinformationex","sysinfoapi/GetLogicalProcessorInformationEx"]
 old-location: base\getlogicalprocessorinformationex.htm
 tech.root: ProcThread
 ms.assetid: dfc4f444-4651-4a02-b8f6-f30d9278eae2

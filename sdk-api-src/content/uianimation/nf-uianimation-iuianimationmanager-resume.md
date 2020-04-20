@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.Resume
 title: IUIAnimationManager::Resume (uianimation.h)
-description: Resumes all animations.
+description: Resumes all animations.helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","Resume method","IUIAnimationManager.Resume","IUIAnimationManager::Resume","Resume","Resume method [Windows Animation]","Resume method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_resume","uianimation/IUIAnimationManager::Resume"]
 old-location: uianimation\iuianimationmanager_resume.htm
 tech.root: UIAnimation
 ms.assetid: f29a9337-0ed0-46f8-ab77-8f82ab39d8df

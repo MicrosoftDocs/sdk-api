@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamAutoProcessingMode
 title: ID3D11VideoContext::VideoProcessorSetStreamAutoProcessingMode (d3d11.h)
-description: Enables or disables automatic processing features on the video processor.
+description: Enables or disables automatic processing features on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamAutoProcessingMode method","ID3D11VideoContext.VideoProcessorSetStreamAutoProcessingMode","ID3D11VideoContext::VideoProcessorSetStreamAutoProcessingMode","VideoProcessorSetStreamAutoProcessingMode","VideoProcessorSetStreamAutoProcessingMode method [Media Foundation]","VideoProcessorSetStreamAutoProcessingMode method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamAutoProcessingMode","mf.id3d11videocontext_videoprocessorsetstreamautoprocessingmode"]
 old-location: mf\id3d11videocontext_videoprocessorsetstreamautoprocessingmode.htm
 tech.root: medfound
 ms.assetid: 92579A03-AA8A-4D9B-8150-F5FDDBAFC1C1
@@ -70,15 +70,6 @@ The zero-based index of the input stream. To get the maximum number of streams, 
 ### -param Enable [in]
 
 If <b>TRUE</b>, automatic processing features are enabled. If <b>FALSE</b>, the driver disables any  extra video processing that it might be performing.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

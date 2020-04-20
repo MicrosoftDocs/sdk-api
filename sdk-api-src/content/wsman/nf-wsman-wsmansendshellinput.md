@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManSendShellInput
 title: WSManSendShellInput function (wsman.h)
-description: Ipes the input stream to a running command or to the shell.
+description: Ipes the input stream to a running command or to the shell.helpviewer_keywords: ["WSManSendShellInput","WSManSendShellInput function [Windows Remote Management]","winrm.wsmansendshellinput","wsman/WSManSendShellInput"]
 old-location: winrm\wsmansendshellinput.htm
 tech.root: winrm
 ms.assetid: 2336671e-0f60-407f-86a2-9918bbf7f66b
@@ -95,13 +95,5 @@ Defines an asynchronous structure. The asynchronous structure contains an option
 ### -param sendOperation [out]
 
 Defines the operation handle for the send operation. This handle is returned from a successful call of the function and can be used to asynchronously cancel the send operation. This handle should be closed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancloseoperation">WSManCloseOperation</a> method. This parameter cannot be <b>NULL</b>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

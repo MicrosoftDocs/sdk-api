@@ -1,7 +1,7 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_InputsAvailable
 title: IMSVidCtl::get_InputsAvailable (msvidctl.h)
-description: The get_InputsAvailable method retrieves the input devices that are available within a specified category.
+description: The get_InputsAvailable method retrieves the input devices that are available within a specified category.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","get_InputsAvailable method","IMSVidCtl.get_InputsAvailable","IMSVidCtl::get_InputsAvailable","IMSVidCtlget_InputsAvailable","get_InputsAvailable","get_InputsAvailable method [Microsoft TV Technologies]","get_InputsAvailable method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_get_inputsavailable","msvidctl/IMSVidCtl::get_InputsAvailable"]
 old-location: mstv\imsvidctl_get_inputsavailable.htm
 tech.root: mstv
 ms.assetid: 7ed22c3e-745a-4680-a5fc-accef56ab348

@@ -1,7 +1,7 @@
 ---
 UID: NF:amxmlgraphbuilder.IXMLGraphBuilder.SaveToXML
 title: IXMLGraphBuilder::SaveToXML (amxmlgraphbuilder.h)
-description: The SaveToXML method saves a filter graph to an XML element.
+description: The SaveToXML method saves a filter graph to an XML element.helpviewer_keywords: ["IXMLGraphBuilder interface [DirectShow]","SaveToXML method","IXMLGraphBuilder.SaveToXML","IXMLGraphBuilder::SaveToXML","IXMLGraphBuilderSaveToXML","SaveToXML","SaveToXML method [DirectShow]","SaveToXML method [DirectShow]","IXMLGraphBuilder interface","amxmlgraphbuilder/IXMLGraphBuilder::SaveToXML","dshow.ixmlgraphbuilder_savetoxml"]
 old-location: dshow\ixmlgraphbuilder_savetoxml.htm
 tech.root: DirectShow
 ms.assetid: 02f710a4-3d13-46b0-b00d-4ffd2b4c3157

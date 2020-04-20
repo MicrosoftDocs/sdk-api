@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFBufferListNotify.OnRemoveSourceBuffer
 title: IMFBufferListNotify::OnRemoveSourceBuffer (mfmediaengine.h)
-description: Indicates that a IMFSourceBuffer has been removed.
+description: Indicates that a IMFSourceBuffer has been removed.helpviewer_keywords: ["IMFBufferListNotify interface [Media Foundation]","OnRemoveSourceBuffer method","IMFBufferListNotify.OnRemoveSourceBuffer","IMFBufferListNotify::OnRemoveSourceBuffer","OnRemoveSourceBuffer","OnRemoveSourceBuffer method [Media Foundation]","OnRemoveSourceBuffer method [Media Foundation]","IMFBufferListNotify interface","mf.imfbufferlistnotify_onremovesourcebuffer","mfmediaengine/IMFBufferListNotify::OnRemoveSourceBuffer"]
 old-location: mf\imfbufferlistnotify_onremovesourcebuffer.htm
 tech.root: medfound
 ms.assetid: 2b203ba3-d5b8-4ab9-ae3e-74c289d74749
@@ -55,15 +55,6 @@ Indicates that a <a href="https://docs.microsoft.com/windows/desktop/api/mfmedia
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

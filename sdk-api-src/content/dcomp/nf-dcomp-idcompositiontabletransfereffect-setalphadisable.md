@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetAlphaDisable
 title: IDCompositionTableTransferEffect::SetAlphaDisable (dcomp.h)
-description: Specifies whether to apply the transfer function to the Alpha channel.
+description: Specifies whether to apply the transfer function to the Alpha channel.helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetAlphaDisable method","IDCompositionTableTransferEffect.SetAlphaDisable","IDCompositionTableTransferEffect::SetAlphaDisable","SetAlphaDisable","SetAlphaDisable method [DirectComposition]","SetAlphaDisable method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetAlphaDisable","directcomp.idcompositiontabletransfereffect_setalphadisable"]
 old-location: directcomp\idcompositiontabletransfereffect_setalphadisable.htm
 tech.root: directcomp
 ms.assetid: BC05E32A-787C-4472-8C18-D21D32324373

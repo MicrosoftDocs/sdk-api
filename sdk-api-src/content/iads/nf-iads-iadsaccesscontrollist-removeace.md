@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsAccessControlList.RemoveAce
 title: IADsAccessControlList::RemoveAce (iads.h)
-description: Removes an access-control entry (ACE) from the access-control list (ACL).
+description: Removes an access-control entry (ACE) from the access-control list (ACL).helpviewer_keywords: ["IADsAccessControlList interface [ADSI]","RemoveAce method","IADsAccessControlList.RemoveAce","IADsAccessControlList::RemoveAce","RemoveAce","RemoveAce method [ADSI]","RemoveAce method [ADSI]","IADsAccessControlList interface","_ds_iadsaccesscontrollist_removeace","adsi.iadsaccesscontrollist__removeace","adsi.iadsaccesscontrollist_removeace","iads/IADsAccessControlList::RemoveAce"]
 old-location: adsi\iadsaccesscontrollist_removeace.htm
 tech.root: adsi
 ms.assetid: 29c1ffcc-5a66-4ee3-889a-747953c604a4

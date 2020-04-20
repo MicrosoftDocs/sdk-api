@@ -1,7 +1,7 @@
 ---
 UID: NN:structuredquerycondition.IRichChunk
 title: IRichChunk (structuredquerycondition.h)
-description: Represents a chunk of data as a string and a PROPVARIANT value.
+description: Represents a chunk of data as a string and a PROPVARIANT value.helpviewer_keywords: ["IRichChunk","IRichChunk interface [search]","IRichChunk interface [search]","described","_search_IRichChunk","search._search_IRichChunk","structuredquerycondition/IRichChunk"]
 old-location: search\_search_IRichChunk.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\irichchunk.htm

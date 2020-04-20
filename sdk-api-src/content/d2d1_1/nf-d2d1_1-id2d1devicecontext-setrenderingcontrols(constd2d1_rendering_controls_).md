@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.SetRenderingControls(const D2D1_RENDERING_CONTROLS &)
 title: ID2D1DeviceContext::SetRenderingControls(const D2D1_RENDERING_CONTROLS &) (d2d1_1.h)
-description: Sets the rendering controls for the given device context.
+description: Sets the rendering controls for the given device context.helpviewer_keywords: ["ID2D1DeviceContext interface [Direct2D]","SetRenderingControls method","ID2D1DeviceContext.SetRenderingControls","ID2D1DeviceContext.SetRenderingControls(const D2D1_RENDERING_CONTROLS &)","ID2D1DeviceContext::SetRenderingControls","ID2D1DeviceContext::SetRenderingControls(const D2D1_RENDERING_CONTROLS &)","SetRenderingControls","SetRenderingControls method [Direct2D]","SetRenderingControls method [Direct2D]","ID2D1DeviceContext interface","d2d1_1/ID2D1DeviceContext::SetRenderingControls","direct2d.id2d1devicecontext_setrenderingcontrols"]
 old-location: direct2d\id2d1devicecontext_setrenderingcontrols.htm
 tech.root: Direct2D
 ms.assetid: 6a066126-89d0-4372-bc01-6b6fa1d65440
@@ -62,15 +62,6 @@ Sets the rendering controls for the given device context.
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_rendering_controls">D2D1_RENDERING_CONTROLS</a>*</b>
 
 The rendering controls to be applied.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

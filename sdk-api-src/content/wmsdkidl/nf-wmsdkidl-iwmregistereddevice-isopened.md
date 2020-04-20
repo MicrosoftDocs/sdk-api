@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.IsOpened
 title: IWMRegisteredDevice::IsOpened (wmsdkidl.h)
-description: The IsOpened method retrieves the open status of the device. An open device is ready to receive media data.
+description: The IsOpened method retrieves the open status of the device. An open device is ready to receive media data.helpviewer_keywords: ["IWMRegisteredDevice interface [windows Media Format]","IsOpened method","IWMRegisteredDevice.IsOpened","IWMRegisteredDevice::IsOpened","IWMRegisteredDeviceIsOpened","IsOpened","IsOpened method [windows Media Format]","IsOpened method [windows Media Format]","IWMRegisteredDevice interface","wmformat.iwmregistereddevice_isopened","wmsdkidl/IWMRegisteredDevice::IsOpened"]
 old-location: wmformat\iwmregistereddevice_isopened.htm
 tech.root: wmformat
 ms.assetid: 5a8a6b2a-6a04-4505-b4be-ec10e1e5effe

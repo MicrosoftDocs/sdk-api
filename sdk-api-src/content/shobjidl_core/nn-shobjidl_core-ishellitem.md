@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IShellItem
 title: IShellItem (shobjidl_core.h)
-description: Exposes methods that retrieve information about a Shell item. IShellItem and IShellItem2 are the preferred representations of items in any new code.
+description: Exposes methods that retrieve information about a Shell item. IShellItem and IShellItem2 are the preferred representations of items in any new code.helpviewer_keywords: ["IShellItem","IShellItem interface [Windows Shell]","IShellItem interface [Windows Shell]","described","_win32_IShellItem","shell.IShellItem","shobjidl_core/IShellItem"]
 old-location: shell\IShellItem.htm
 tech.root: shell
 ms.assetid: 599b9c0a-df04-4dbd-a5a6-a8736eecc560
@@ -56,7 +56,7 @@ Exposes methods that retrieve information about a Shell item. <b>IShellItem</b> 
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellItem</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellitem#methods">Methods</a></li>
 </ul>
 
 ## -members

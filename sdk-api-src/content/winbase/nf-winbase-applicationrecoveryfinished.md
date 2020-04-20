@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.ApplicationRecoveryFinished
 title: ApplicationRecoveryFinished function (winbase.h)
-description: Indicates that the calling application has completed its data recovery.
+description: Indicates that the calling application has completed its data recovery.helpviewer_keywords: ["ApplicationRecoveryFinished","ApplicationRecoveryFinished function [Recovery]","recovery.applicationrecoveryfinished","winbase/ApplicationRecoveryFinished"]
 old-location: recovery\applicationrecoveryfinished.htm
 tech.root: Recovery
 ms.assetid: 2c9309c5-c36d-4b68-a642-ed087024dba1
@@ -60,15 +60,6 @@ Indicates that  the calling application has completed its data recovery.
 ### -param bSuccess [in]
 
 Specify <b>TRUE</b> to indicate that the data was successfully recovered; otherwise, <b>FALSE</b>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

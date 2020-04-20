@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecpkg._SECPKG_SERIALIZED_OID
 title: SECPKG_SERIALIZED_OID (ntsecpkg.h)
-description: Contains the security package's object identifier (OID).
+description: Contains the security package's object identifier (OID).helpviewer_keywords: ["*PSECPKG_SERIALIZED_OID","PSECPKG_SERIALIZED_OID","PSECPKG_SERIALIZED_OID structure pointer [Security]","SECPKG_SERIALIZED_OID","SECPKG_SERIALIZED_OID structure [Security]","ntsecpkg/PSECPKG_SERIALIZED_OID","ntsecpkg/SECPKG_SERIALIZED_OID","security.secpkg_serialized_oid"]
 old-location: security\secpkg_serialized_oid.htm
 tech.root: SecAuthN
 ms.assetid: 54CF931B-AD1F-4370-A2AF-5DF4BC9EA007

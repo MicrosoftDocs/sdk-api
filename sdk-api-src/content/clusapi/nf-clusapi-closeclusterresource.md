@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CloseClusterResource
 title: CloseClusterResource function (clusapi.h)
-description: Closes a resource handle.
+description: Closes a resource handle.helpviewer_keywords: ["CloseClusterResource","CloseClusterResource function [Failover Cluster]","PCLUSAPI_CLOSE_CLUSTER_RESOURCE","PCLUSAPI_CLOSE_CLUSTER_RESOURCE function [Failover Cluster]","_wolf_closeclusterresource","clusapi/CloseClusterResource","clusapi/PCLUSAPI_CLOSE_CLUSTER_RESOURCE","mscs.closeclusterresource"]
 old-location: mscs\closeclusterresource.htm
 tech.root: MsCS
 ms.assetid: dbefd7f9-3499-45b3-a5c8-d0000632f61c

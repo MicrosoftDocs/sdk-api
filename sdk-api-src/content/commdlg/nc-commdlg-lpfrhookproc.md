@@ -1,7 +1,7 @@
 ---
 UID: NC:commdlg.LPFRHOOKPROC
 title: LPFRHOOKPROC (commdlg.h)
-description: Receives messages or notifications intended for the default dialog box procedure of the Find or Replace dialog box.
+description: Receives messages or notifications intended for the default dialog box procedure of the Find or Replace dialog box.helpviewer_keywords: ["FRHookProc","LPFRHOOKPROC","LPFRHOOKPROC callback","LPFRHOOKPROC callback function [Dialog Boxes]","_win32_FRHookProc","_win32_frhookproc_cpp","commdlg/LPFRHOOKPROC","dlgbox.frhookproc","winui._win32_frhookproc"]
 old-location: dlgbox\frhookproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\frhookproc.htm

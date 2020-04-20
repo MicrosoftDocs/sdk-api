@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IScheduleCollection.Add
 title: IScheduleCollection::Add (pla.h)
-description: Adds a schedule to the collection.
+description: Adds a schedule to the collection.helpviewer_keywords: ["Add","Add method [PLA]","Add method [PLA]","IScheduleCollection interface","IScheduleCollection interface [PLA]","Add method","IScheduleCollection.Add","IScheduleCollection::Add","base.ischedulecollection_add","pla.ischedulecollection_add","pla/IScheduleCollection::Add"]
 old-location: pla\ischedulecollection_add.htm
 tech.root: PLA
 ms.assetid: 92586c08-2f37-4462-b7cb-af58b6cfcecf

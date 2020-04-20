@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.GlobalMemoryStatusEx
 title: GlobalMemoryStatusEx function (sysinfoapi.h)
-description: Retrieves information about the system's current usage of both physical and virtual memory.
+description: Retrieves information about the system's current usage of both physical and virtual memory.helpviewer_keywords: ["GlobalMemoryStatusEx","GlobalMemoryStatusEx function","_win32_globalmemorystatusex","base.globalmemorystatusex","sysinfoapi/GlobalMemoryStatusEx"]
 old-location: base\globalmemorystatusex.htm
 tech.root: Memory
 ms.assetid: bdcee13f-85be-4b9d-b108-3c5ea616dfbb

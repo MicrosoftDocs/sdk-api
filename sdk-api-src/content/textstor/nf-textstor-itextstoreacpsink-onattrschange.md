@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnAttrsChange
 title: ITextStoreACPSink::OnAttrsChange (textstor.h)
-description: ITextStoreACPSink::OnAttrsChange method
+description: ITextStoreACPSink::OnAttrsChange methodhelpviewer_keywords: ["ITextStoreACPSink interface [Text Services Framework]","OnAttrsChange method","ITextStoreACPSink.OnAttrsChange","ITextStoreACPSink::OnAttrsChange","OnAttrsChange","OnAttrsChange method [Text Services Framework]","OnAttrsChange method [Text Services Framework]","ITextStoreACPSink interface","_tsf_itextstoreacpsink_onattrschange_ref","textstor/ITextStoreACPSink::OnAttrsChange","tsf.itextstoreacpsink_onattrschange"]
 old-location: tsf\itextstoreacpsink_onattrschange.htm
 tech.root: TSF
 ms.assetid: ae1e5f92-7462-46b4-b4dd-5032147de688
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the value of one or more text attribute changes.
 
 ## -parameters
 

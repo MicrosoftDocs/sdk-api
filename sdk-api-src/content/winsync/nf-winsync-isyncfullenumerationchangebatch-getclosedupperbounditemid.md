@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId
 title: ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId (winsync.h)
-description: Gets the closed upper bound on item IDs that require destination versions.
+description: Gets the closed upper bound on item IDs that require destination versions.helpviewer_keywords: ["GetClosedUpperBoundItemId","GetClosedUpperBoundItemId method [Windows Sync]","GetClosedUpperBoundItemId method [Windows Sync]","ISyncFullEnumerationChangeBatch interface","ISyncFullEnumerationChangeBatch interface [Windows Sync]","GetClosedUpperBoundItemId method","ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId","ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId","winsync.isyncfullenumerationchangebatch_getclosedupperbounditemid","winsync/ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId"]
 old-location: winsync\isyncfullenumerationchangebatch_getclosedupperbounditemid.htm
 tech.root: winsync
 ms.assetid: b06b01b2-2f31-4117-92eb-e72e31a2f20b

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11RenderTargetView.GetDesc
 title: ID3D11RenderTargetView::GetDesc (d3d11.h)
-description: Get the properties of a render target view.
+description: Get the properties of a render target view.helpviewer_keywords: ["2c013bba-4c72-dab2-50a8-557fee4cbbaf","GetDesc","GetDesc method [Direct3D 11]","GetDesc method [Direct3D 11]","ID3D11RenderTargetView interface","ID3D11RenderTargetView interface [Direct3D 11]","GetDesc method","ID3D11RenderTargetView.GetDesc","ID3D11RenderTargetView::GetDesc","d3d11/ID3D11RenderTargetView::GetDesc","direct3d11.id3d11rendertargetview_getdesc"]
 old-location: direct3d11\id3d11rendertargetview_getdesc.htm
 tech.root: direct3d11
 ms.assetid: 72aeb6c2-10a1-4deb-a3a5-1824e59b4bc8
@@ -63,15 +63,6 @@ Get the properties of a render target view.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_render_target_view_desc">D3D11_RENDER_TARGET_VIEW_DESC</a>*</b>
 
 Pointer to the description of a render target view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_render_target_view_desc">D3D11_RENDER_TARGET_VIEW_DESC</a>).
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -see-also

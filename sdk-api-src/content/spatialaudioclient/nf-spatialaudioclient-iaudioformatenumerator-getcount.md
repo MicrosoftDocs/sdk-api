@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudioclient.IAudioFormatEnumerator.GetCount
 title: IAudioFormatEnumerator::GetCount (spatialaudioclient.h)
-description: Gets the number of supported audio formats in the list.
+description: Gets the number of supported audio formats in the list.helpviewer_keywords: ["GetCount","GetCount method [Core Audio]","GetCount method [Core Audio]","IAudioFormatEnumerator interface","IAudioFormatEnumerator interface [Core Audio]","GetCount method","IAudioFormatEnumerator.GetCount","IAudioFormatEnumerator::GetCount","coreaudio.iaudioformatenumerator_getcount","spatialaudioclient/IAudioFormatEnumerator::GetCount"]
 old-location: coreaudio\iaudioformatenumerator_getcount.htm
 tech.root: CoreAudio
 ms.assetid: A2523D52-6641-4876-A263-E0D02A815522

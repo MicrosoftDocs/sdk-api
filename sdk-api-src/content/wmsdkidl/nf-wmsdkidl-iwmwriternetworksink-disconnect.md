@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Disconnect
 title: IWMWriterNetworkSink::Disconnect (wmsdkidl.h)
-description: The Disconnect method disconnects all clients from the network sink.
+description: The Disconnect method disconnects all clients from the network sink.helpviewer_keywords: ["Disconnect","Disconnect method [windows Media Format]","Disconnect method [windows Media Format]","IWMWriterNetworkSink interface","IWMWriterNetworkSink interface [windows Media Format]","Disconnect method","IWMWriterNetworkSink.Disconnect","IWMWriterNetworkSink::Disconnect","IWMWriterNetworkSinkDisconnect","wmformat.iwmwriternetworksink_disconnect","wmsdkidl/IWMWriterNetworkSink::Disconnect"]
 old-location: wmformat\iwmwriternetworksink_disconnect.htm
 tech.root: wmformat
 ms.assetid: cf4f294c-148c-469f-83e7-c2cd1c585aa3

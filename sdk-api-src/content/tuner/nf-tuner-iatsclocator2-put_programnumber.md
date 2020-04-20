@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IATSCLocator2.put_ProgramNumber
 title: IATSCLocator2::put_ProgramNumber (tuner.h)
-description: The put_ProgramNumber method specifies the program number.
+description: The put_ProgramNumber method specifies the program number.helpviewer_keywords: ["IATSCLocator2 interface [Microsoft TV Technologies]","put_ProgramNumber method","IATSCLocator2.put_ProgramNumber","IATSCLocator2::put_ProgramNumber","IATSCLocator2put_ProgramNumber","mstv.iatsclocator2_put_programnumber","put_ProgramNumber","put_ProgramNumber method [Microsoft TV Technologies]","put_ProgramNumber method [Microsoft TV Technologies]","IATSCLocator2 interface","tuner/IATSCLocator2::put_ProgramNumber"]
 old-location: mstv\iatsclocator2_put_programnumber.htm
 tech.root: mstv
 ms.assetid: af4eeac6-4eee-41d7-a35d-439e4143f046

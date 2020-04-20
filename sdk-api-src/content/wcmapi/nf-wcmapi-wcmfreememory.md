@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmapi.WcmFreeMemory
 title: WcmFreeMemory function (wcmapi.h)
-description: Is used to release memory resources allocated by the WCM functions.
+description: Is used to release memory resources allocated by the WCM functions.helpviewer_keywords: ["WcmFreeMemory","WcmFreeMemory function [Windows Connection Manager]","wcm.wcmfreememory","wcmapi/WcmFreeMemory"]
 old-location: wcm\wcmfreememory.htm
 tech.root: wcm
 ms.assetid: 43377f58-9702-472d-874a-898f29b743d8
@@ -61,13 +61,5 @@ The <b>WcmFreeMemory</b> function is used to release memory resources allocated 
 ### -param pMemory
 
 Pointer to the memory to be freed.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

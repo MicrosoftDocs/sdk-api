@@ -1,7 +1,7 @@
 ---
 UID: NF:adshlp.SecurityDescriptorToBinarySD
 title: SecurityDescriptorToBinarySD function (adshlp.h)
-description: Converts an IADsSecurityDescriptor object to the binary security descriptor format.
+description: Converts an IADsSecurityDescriptor object to the binary security descriptor format.helpviewer_keywords: ["SecurityDescriptorToBinarySD","SecurityDescriptorToBinarySD function [ADSI]","adshlp/SecurityDescriptorToBinarySD","adsi.securitydescriptortobinarysd"]
 old-location: adsi\securitydescriptortobinarysd.htm
 tech.root: adsi
 ms.assetid: b1c814fd-df0f-406b-adfc-c356ce37d524

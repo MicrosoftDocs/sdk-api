@@ -1,7 +1,7 @@
 ---
 UID: NF:winstring.WindowsDeleteString
 title: WindowsDeleteString function (winstring.h)
-description: Decrements the reference count of a string buffer.
+description: Decrements the reference count of a string buffer.helpviewer_keywords: ["WindowsDeleteString","WindowsDeleteString function [Windows Runtime]","winrt.windowsdeletestring","winstring/WindowsDeleteString"]
 old-location: winrt\windowsdeletestring.htm
 tech.root: WinRT
 ms.assetid: 79B9E5CF-396C-45FB-931B-7B50281A0446

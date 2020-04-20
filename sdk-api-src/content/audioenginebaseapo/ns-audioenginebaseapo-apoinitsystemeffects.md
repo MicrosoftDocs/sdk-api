@@ -1,7 +1,7 @@
 ---
 UID: NS:audioenginebaseapo.APOInitSystemEffects
 title: APOInitSystemEffects (audioenginebaseapo.h)
-description: The APOInitSystemEffects structure gets passed to the system effects APO for initialization.
+description: The APOInitSystemEffects structure gets passed to the system effects APO for initialization.helpviewer_keywords: ["APOInitSystemEffects","APOInitSystemEffects structure [Audio Devices]","PAPOInitSystemEffects","PAPOInitSystemEffects structure pointer [Audio Devices]","audio.apoinitsystemeffects","audioenginebaseapo/APOInitSystemEffects","audioenginebaseapo/PAPOInitSystemEffects"]
 old-location: audio\apoinitsystemeffects.htm
 tech.root: audio
 ms.assetid: E33B1F94-4E3A-4EC1-AFB5-FD803FA391BC

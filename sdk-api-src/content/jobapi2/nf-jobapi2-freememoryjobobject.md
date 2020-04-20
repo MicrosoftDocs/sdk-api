@@ -1,7 +1,7 @@
 ---
 UID: NF:jobapi2.FreeMemoryJobObject
 title: FreeMemoryJobObject function (jobapi2.h)
-description: Frees memory that a function related to job objects allocated. Functions related to job objects that allocate memory include QueryIoRateControlInformationJobObject.
+description: Frees memory that a function related to job objects allocated. Functions related to job objects that allocate memory include QueryIoRateControlInformationJobObject.helpviewer_keywords: ["FreeMemoryJobObject","FreeMemoryJobObject function","base.freememoryjobobject","jobapi2/FreeMemoryJobObject"]
 old-location: base\freememoryjobobject.htm
 tech.root: ProcThread
 ms.assetid: 8EA45FC6-A8CC-4786-8CF2-4FC868B974F2
@@ -62,15 +62,6 @@ Frees memory that a function related to job objects allocated. Functions related
 ### -param Buffer [in]
 
 A pointer to the buffer of allocated memory that you want to free.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

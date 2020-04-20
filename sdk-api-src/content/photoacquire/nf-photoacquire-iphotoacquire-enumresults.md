@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoAcquire.EnumResults
 title: IPhotoAcquire::EnumResults (photoacquire.h)
-description: The EnumResults method retrieves an enumeration containing the paths of all files successfully transferred during the most recent call to Acquire.
+description: The EnumResults method retrieves an enumeration containing the paths of all files successfully transferred during the most recent call to Acquire.helpviewer_keywords: ["EnumResults","EnumResults method [Picture Acquisition]","EnumResults method [Picture Acquisition]","IPhotoAcquire interface","IPhotoAcquire interface [Picture Acquisition]","EnumResults method","IPhotoAcquire.EnumResults","IPhotoAcquire::EnumResults","IPhotoAcquireEnumResults","photoacquire/IPhotoAcquire::EnumResults","picacq.iphotoacquire_enumresults"]
 old-location: picacq\iphotoacquire_enumresults.htm
 tech.root: acquisition
 ms.assetid: 2f3bd36c-3daf-4738-8240-ce622d988861

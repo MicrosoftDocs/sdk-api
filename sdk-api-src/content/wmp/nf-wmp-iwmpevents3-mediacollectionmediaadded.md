@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents3.MediaCollectionMediaAdded
 title: IWMPEvents3::MediaCollectionMediaAdded (wmp.h)
-description: The MediaCollectionMediaAdded event occurs when a media item is added to the local library.
+description: The MediaCollectionMediaAdded event occurs when a media item is added to the local library.helpviewer_keywords: ["IWMPEvents3 interface [Windows Media Player]","MediaCollectionMediaAdded method","IWMPEvents3.MediaCollectionMediaAdded","IWMPEvents3::MediaCollectionMediaAdded","IWMPEvents3MediaCollectionMediaAdded","MediaCollectionMediaAdded","MediaCollectionMediaAdded method [Windows Media Player]","MediaCollectionMediaAdded method [Windows Media Player]","IWMPEvents3 interface","wmp.iwmpevents3_iwmpevents3__mediacollectionmediaadded","wmp/IWMPEvents3::MediaCollectionMediaAdded"]
 old-location: wmp\iwmpevents3_iwmpevents3__mediacollectionmediaadded.htm
 tech.root: WMP
 ms.assetid: 374ac1d8-ea7f-498a-b9b1-02bf7083f682
@@ -63,15 +63,6 @@ The <b>MediaCollectionMediaAdded</b> event occurs when a media item is added to 
 ### -param pdispMedia [in]
 
 Pointer to the <b>IDispatch</b> interface that represents the media item added to the local library. Call <b>QueryInterface</b> to retrieve a pointer to <b>IWMPMedia</b>.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

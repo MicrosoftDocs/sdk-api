@@ -1,7 +1,7 @@
 ---
 UID: NS:wsbonline._WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
 title: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR (wsbonline.h)
-description: Contains the value and value type for a parameter used to expand the value resource string.
+description: Contains the value and value type for a parameter used to expand the value resource string.helpviewer_keywords: ["WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR","WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR structure [Windows Server Backup]","wsb.wsb_ob_status_entry_value_type_pair","wsbonline/WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR"]
 old-location: wsb\wsb_ob_status_entry_value_type_pair.htm
 tech.root: wsb
 ms.assetid: FA92796E-7C26-4FD0-8AC2-F84F8F5E5A6C

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.SetSpreadMethod
 title: IXpsOMGradientBrush::SetSpreadMethod (xpsobjectmodel.h)
-description: Sets the XPS_SPREAD_METHOD value, which describes how the area outside of the gradient region is to be rendered.
+description: Sets the XPS_SPREAD_METHOD value, which describes how the area outside of the gradient region is to be rendered.helpviewer_keywords: ["IXpsOMGradientBrush interface [XPS Documents and Packaging]","SetSpreadMethod method","IXpsOMGradientBrush.SetSpreadMethod","IXpsOMGradientBrush::SetSpreadMethod","SetSpreadMethod","SetSpreadMethod method [XPS Documents and Packaging]","SetSpreadMethod method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","xps.ixpsomgradientbrush_setspreadmethod","xpsobjectmodel/IXpsOMGradientBrush::SetSpreadMethod"]
 old-location: xps\ixpsomgradientbrush_setspreadmethod.htm
 tech.root: printdocs
 ms.assetid: 2114ba2e-95df-466e-983f-a56491bf891c

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.CreateContext
 title: ITfDocumentMgr::CreateContext (msctf.h)
-description: ITfDocumentMgr::CreateContext method
+description: ITfDocumentMgr::CreateContext methodhelpviewer_keywords: ["CreateContext","CreateContext method [Text Services Framework]","CreateContext method [Text Services Framework]","ITfDocumentMgr interface","ITfDocumentMgr interface [Text Services Framework]","CreateContext method","ITfDocumentMgr.CreateContext","ITfDocumentMgr::CreateContext","_tsf_itfdocumentmgr_createcontext_ref","msctf/ITfDocumentMgr::CreateContext","tsf.itfdocumentmgr_createcontext"]
 old-location: tsf\itfdocumentmgr_createcontext.htm
 tech.root: TSF
 ms.assetid: 1415f338-731c-44c5-b798-edf823174272
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates a context object.
 
 ## -parameters
 

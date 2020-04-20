@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._KERB_ADD_CREDENTIALS_REQUEST
 title: KERB_ADD_CREDENTIALS_REQUEST (ntsecapi.h)
-description: Specifies a message to add, remove, or replace an extra server credential for a logon session.
+description: Specifies a message to add, remove, or replace an extra server credential for a logon session.helpviewer_keywords: ["*PKERB_ADD_CREDENTIALS_REQUEST","KERB_ADD_CREDENTIALS_REQUEST","KERB_ADD_CREDENTIALS_REQUEST structure [Security]","KERB_REQUEST_ADD_CREDENTIAL","KERB_REQUEST_REMOVE_CREDENTIAL","KERB_REQUEST_REPLACE_CREDENTIAL","PKERB_ADD_CREDENTIALS_REQUEST","PKERB_ADD_CREDENTIALS_REQUEST structure pointer [Security]","ntsecapi/KERB_ADD_CREDENTIALS_REQUEST","ntsecapi/PKERB_ADD_CREDENTIALS_REQUEST","security.kerb_add_credentials_request"]
 old-location: security\kerb_add_credentials_request.htm
 tech.root: SecAuthN
 ms.assetid: a9a8810b-c9cf-4e19-8a33-7ad0c7ef8694

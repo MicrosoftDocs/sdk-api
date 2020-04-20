@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_ReceivingNow
 title: IFaxDevice::get_ReceivingNow (faxcomex.h)
-description: The IFaxDevice::get_ReceivingNow property is a Boolean value that indicates whether the fax device is receiving a fax at the moment the property is retrieved (the status could change immediately thereafter).
+description: The IFaxDevice::get_ReceivingNow property is a Boolean value that indicates whether the fax device is receiving a fax at the moment the property is retrieved (the status could change immediately thereafter).helpviewer_keywords: ["IFaxDevice interface [Fax Service]","ReceivingNow property","IFaxDevice.ReceivingNow","IFaxDevice.get_ReceivingNow","IFaxDevice.put_ReceivingNow","IFaxDevice::ReceivingNow","IFaxDevice::get_ReceivingNow","IFaxDevice::put_ReceivingNow","ReceivingNow property [Fax Service]","ReceivingNow property [Fax Service]","IFaxDevice interface","_mfax_faxdevice.receivingnow","fax._mfax_faxdevice_cpp_mfax_faxdevice_receivingnow_cpp","fax._mfax_faxdevice_receivingnow","faxcomex/IFaxDevice::ReceivingNow","faxcomex/IFaxDevice::get_ReceivingNow","faxcomex/IFaxDevice::put_ReceivingNow","get_ReceivingNow"]
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_receivingnow_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_64on.htm

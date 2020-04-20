@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetMapMode
 title: GetMapMode function (wingdi.h)
-description: The GetMapMode function retrieves the current mapping mode.
+description: The GetMapMode function retrieves the current mapping mode.helpviewer_keywords: ["GetMapMode","GetMapMode function [Windows GDI]","_win32_GetMapMode","gdi.getmapmode","wingdi/GetMapMode"]
 old-location: gdi\getmapmode.htm
 tech.root: gdi
 ms.assetid: bc446b86-3dde-4460-bc54-1eaa4ad19941

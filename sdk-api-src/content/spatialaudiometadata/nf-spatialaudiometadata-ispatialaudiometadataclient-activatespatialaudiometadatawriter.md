@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter
 title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter (spatialaudiometadata.h)
-description: Creates an ISpatialAudioMetadataWriter object for writing spatial audio metadata items to an ISpatialAudioMetadataItems object.
+description: Creates an ISpatialAudioMetadataWriter object for writing spatial audio metadata items to an ISpatialAudioMetadataItems object.helpviewer_keywords: ["ActivateSpatialAudioMetadataWriter","ActivateSpatialAudioMetadataWriter method [Core Audio]","ActivateSpatialAudioMetadataWriter method [Core Audio]","ISpatialAudioMetadataClient interface","ISpatialAudioMetadataClient interface [Core Audio]","ActivateSpatialAudioMetadataWriter method","ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter","ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter","coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatawriter","spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter"]
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadatawriter.htm
 tech.root: CoreAudio
 ms.assetid: 0A30C838-E9B0-4CC3-BE88-9354160B8084

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroupManager.CreatePropertyGroup
 title: ISharedPropertyGroupManager::CreatePropertyGroup (comsvcs.h)
-description: Creates a new shared property group.
+description: Creates a new shared property group.helpviewer_keywords: ["CreatePropertyGroup","CreatePropertyGroup method [COM+]","CreatePropertyGroup method [COM+]","ISharedPropertyGroupManager interface","ISharedPropertyGroupManager interface [COM+]","CreatePropertyGroup method","ISharedPropertyGroupManager.CreatePropertyGroup","ISharedPropertyGroupManager::CreatePropertyGroup","_cos_ISharedPropertyGroupManager_CreatePropertyGroup","comsvcs/ISharedPropertyGroupManager::CreatePropertyGroup","cos.isharedpropertygroupmanager_createpropertygroup"]
 old-location: cos\isharedpropertygroupmanager_createpropertygroup.htm
 tech.root: cossdk
 ms.assetid: 19c954cb-1a3b-4063-a09b-54906ae1613d

@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetOutputAvailableType
 title: IMFDeviceTransform::GetOutputAvailableType (mftransform.h)
-description: The GetOutputAvailableType method gets an available media type for an output stream on this Media Foundation transform (MFT).
+description: The GetOutputAvailableType method gets an available media type for an output stream on this Media Foundation transform (MFT).helpviewer_keywords: ["GetOutputAvailableType","GetOutputAvailableType method [Streaming Media Devices]","GetOutputAvailableType method [Streaming Media Devices]","IMFDeviceTransform interface","IMFDeviceTransform interface [Streaming Media Devices]","GetOutputAvailableType method","IMFDeviceTransform.GetOutputAvailableType","IMFDeviceTransform::GetOutputAvailableType","mftransform/IMFDeviceTransform::GetOutputAvailableType","stream.imfdevicetransform_getoutputavailabletype"]
 old-location: stream\imfdevicetransform_getoutputavailabletype.htm
 tech.root: stream
 ms.assetid: B4224C70-5864-4AE3-8388-2B9A62517B62

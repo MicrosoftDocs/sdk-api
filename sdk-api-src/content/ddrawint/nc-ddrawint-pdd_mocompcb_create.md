@@ -1,7 +1,7 @@
 ---
 UID: NC:ddrawint.PDD_MOCOMPCB_CREATE
 title: PDD_MOCOMPCB_CREATE (ddrawint.h)
-description: The DdMoCompCreate callback function notifies the driver that a software decoder will start using motion compensation with the specified GUID.
+description: The DdMoCompCreate callback function notifies the driver that a software decoder will start using motion compensation with the specified GUID.helpviewer_keywords: ["DdMoCompCreate","DdMoCompCreate callback function [Display Devices]","PDD_MOCOMPCB_CREATE","PDD_MOCOMPCB_CREATE callback","ddfncs_b5650d61-0a79-494a-acd7-231d2e859c30.xml","ddrawint/DdMoCompCreate","display.ddmocompcreate"]
 old-location: display\ddmocompcreate.htm
 tech.root: display
 ms.assetid: 9413108b-f9b5-4d1c-83a9-b663a9f444bf

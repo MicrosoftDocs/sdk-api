@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUDEC4.operator uint32_t
 title: XMUDEC4::operator uint32_t (directxpackedvector.h)
-description: Returns an instance of uint32_t containing the components of the XMUDEC4instance in a packed format.
+description: Returns an instance of uint32_t containing the components of the XMUDEC4instance in a packed format.helpviewer_keywords: ["DirectX::PackedVector.XMUDEC4.operator uint32_t","DirectX::PackedVector::XMUDEC4::operator uint32_t","XMUDEC4 structure [DirectX Math Support APIs]","operator uint32_t method","XMUDEC4.operator uint32_t","XMUDEC4::operator uint32_t","dxmath.xmudec4_operator_uint32_t","operator uint32_t","operator uint32_t method [DirectX Math Support APIs]","operator uint32_t method [DirectX Math Support APIs]","XMUDEC4 structure"]
 old-location: dxmath\xmudec4_operator_uint32_t.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUDEC4.operator uint32_t

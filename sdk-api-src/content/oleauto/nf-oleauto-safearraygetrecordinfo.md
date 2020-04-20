@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SafeArrayGetRecordInfo
 title: SafeArrayGetRecordInfo function (oleauto.h)
-description: Retrieves the IRecordInfo interface of the UDT contained in the specified safe array.
+description: Retrieves the IRecordInfo interface of the UDT contained in the specified safe array.helpviewer_keywords: ["SafeArrayGetRecordInfo","SafeArrayGetRecordInfo function [Automation]","_oa96_SafeArrayGetRecordInfo","automat.safearraygetrecordinfo","oleauto/SafeArrayGetRecordInfo"]
 old-location: automat\safearraygetrecordinfo.htm
 tech.root: automat
 ms.assetid: 1584c00e-06a5-44f4-8c4b-a2b23737a652

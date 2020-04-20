@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateRemoteDictionaryResource
 title: IXpsOMObjectFactory::CreateRemoteDictionaryResource (xpsobjectmodel.h)
-description: Creates an IXpsOMRemoteDictionaryResource interface that enables the sharing of property resources.
+description: Creates an IXpsOMRemoteDictionaryResource interface that enables the sharing of property resources.helpviewer_keywords: ["CreateRemoteDictionaryResource","CreateRemoteDictionaryResource method [XPS Documents and Packaging]","CreateRemoteDictionaryResource method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateRemoteDictionaryResource method","IXpsOMObjectFactory.CreateRemoteDictionaryResource","IXpsOMObjectFactory::CreateRemoteDictionaryResource","xps.ixpsomobjectfactory_createremotedictionaryresource","xpsobjectmodel/IXpsOMObjectFactory::CreateRemoteDictionaryResource"]
 old-location: xps\ixpsomobjectfactory_createremotedictionaryresource.htm
 tech.root: printdocs
 ms.assetid: 3f3f10f0-803a-49e2-bb62-ac4124cb375a

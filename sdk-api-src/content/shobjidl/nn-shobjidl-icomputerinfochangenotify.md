@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IComputerInfoChangeNotify
 title: IComputerInfoChangeNotify (shobjidl.h)
-description: Not supported. This interface may be absent in later versions of Windows.
+description: Not supported. This interface may be absent in later versions of Windows.helpviewer_keywords: ["IComputerInfoChangeNotify","IComputerInfoChangeNotify interface [Windows Shell]","IComputerInfoChangeNotify interface [Windows Shell]","described","_shell_IComputerInfoChangeNotify","shell.IComputerInfoChangeNotify","shobjidl/IComputerInfoChangeNotify"]
 old-location: shell\IComputerInfoChangeNotify.htm
 tech.root: shell
 ms.assetid: 47b853f7-3ee9-4884-94ab-bdcacfa0c2ef

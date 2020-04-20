@@ -1,7 +1,7 @@
 ---
 UID: NN:qmgr.IBackgroundCopyQMgr
 title: IBackgroundCopyQMgr (qmgr.h)
-description: Use the IBackgroundCopyQMgr interface to create a new group, retrieve an existing group, or enumerate all groups in the queue. A group contains a download job.
+description: Use the IBackgroundCopyQMgr interface to create a new group, retrieve an existing group, or enumerate all groups in the queue. A group contains a download job.helpviewer_keywords: ["IBackgroundCopyQMgr","IBackgroundCopyQMgr interface [BITS]","IBackgroundCopyQMgr interface [BITS]","described","bits.ibackgroundcopyqmgr","qmgr/IBackgroundCopyQMgr"]
 old-location: bits\ibackgroundcopyqmgr.htm
 tech.root: Bits
 ms.assetid: 040662c3-0d96-416a-b5e6-a16a6d3034fc

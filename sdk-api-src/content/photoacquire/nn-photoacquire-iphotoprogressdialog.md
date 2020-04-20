@@ -1,7 +1,7 @@
 ---
 UID: NN:photoacquire.IPhotoProgressDialog
 title: IPhotoProgressDialog (photoacquire.h)
-description: Provides the progress dialog box that may be displayed when enumerating or importing images. The dialog box is modal and runs in its own thread.
+description: Provides the progress dialog box that may be displayed when enumerating or importing images. The dialog box is modal and runs in its own thread.helpviewer_keywords: ["IPhotoProgressDialog","IPhotoProgressDialog interface [Picture Acquisition]","IPhotoProgressDialog interface [Picture Acquisition]","described","IPhotoProgressDialogInterface","photoacquire/IPhotoProgressDialog","picacq.iphotoprogressdialog"]
 old-location: picacq\iphotoprogressdialog.htm
 tech.root: acquisition
 ms.assetid: a3928874-5a15-43d9-9d9c-8b66478b0597

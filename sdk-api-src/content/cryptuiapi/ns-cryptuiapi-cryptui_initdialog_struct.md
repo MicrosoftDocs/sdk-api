@@ -1,7 +1,7 @@
 ---
 UID: NS:cryptuiapi.tagCRYPTUI_INITDIALOG_STRUCT
 title: CRYPTUI_INITDIALOG_STRUCT (cryptuiapi.h)
-description: Supports the CRYPTUI_VIEWCERTIFICATE_STRUCT structure.
+description: Supports the CRYPTUI_VIEWCERTIFICATE_STRUCT structure.helpviewer_keywords: ["*PCRYPTUI_INITDIALOG_STRUCT","CRYPTUI_INITDIALOG_STRUCT","CRYPTUI_INITDIALOG_STRUCT structure [Security]","PCRYPTUI_INITDIALOG_STRUCT","PCRYPTUI_INITDIALOG_STRUCT structure pointer [Security]","cryptuiapi/CRYPTUI_INITDIALOG_STRUCT","cryptuiapi/PCRYPTUI_INITDIALOG_STRUCT","security.cryptui_initdialog_struct"]
 old-location: security\cryptui_initdialog_struct.htm
 tech.root: SecCrypto
 ms.assetid: c6335c02-3b3e-45e2-bb58-b7213aea500b

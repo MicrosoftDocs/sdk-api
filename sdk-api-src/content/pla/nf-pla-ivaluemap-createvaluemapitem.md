@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IValueMap.CreateValueMapItem
 title: IValueMap::CreateValueMapItem (pla.h)
-description: Creates a value map item.
+description: Creates a value map item.helpviewer_keywords: ["CreateValueMapItem","CreateValueMapItem method [PLA]","CreateValueMapItem method [PLA]","IValueMap interface","IValueMap interface [PLA]","CreateValueMapItem method","IValueMap.CreateValueMapItem","IValueMap::CreateValueMapItem","pla.ivaluemap_createvaluemapitem","pla/IValueMap::CreateValueMapItem"]
 old-location: pla\ivaluemap_createvaluemapitem.htm
 tech.root: PLA
 ms.assetid: 619b54a0-7015-4453-a09e-ac199eb1c581

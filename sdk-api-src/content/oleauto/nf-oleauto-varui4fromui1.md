@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI4FromUI1
 title: VarUI4FromUI1 function (oleauto.h)
-description: Converts an unsigned char value to an unsigned long value.
+description: Converts an unsigned char value to an unsigned long value.helpviewer_keywords: ["VarUI4FromUI1","VarUI4FromUI1 function [Automation]","_oa96_VarUI4FromUI1","automat.varui4fromui1","oleauto/VarUI4FromUI1"]
 old-location: automat\varui4fromui1.htm
 tech.root: automat
 ms.assetid: ee3be44c-8693-4e81-91cb-976854ad599a

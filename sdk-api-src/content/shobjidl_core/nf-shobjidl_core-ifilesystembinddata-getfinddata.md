@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileSystemBindData.GetFindData
 title: IFileSystemBindData::GetFindData (shobjidl_core.h)
-description: Gets the file system information stored in the WIN32_FIND_DATA structure.
+description: Gets the file system information stored in the WIN32_FIND_DATA structure.helpviewer_keywords: ["GetFindData","GetFindData method [Windows Shell]","GetFindData method [Windows Shell]","IFileSystemBindData interface","IFileSystemBindData interface [Windows Shell]","GetFindData method","IFileSystemBindData.GetFindData","IFileSystemBindData::GetFindData","_shell_ifilesystembinddata_getfinddata","shell.IFileSystemBindData_GetFindData","shobjidl_core/IFileSystemBindData::GetFindData"]
 old-location: shell\IFileSystemBindData_GetFindData.htm
 tech.root: shell
 ms.assetid: 75161b45-42b9-4d64-ae13-583d07920a0b

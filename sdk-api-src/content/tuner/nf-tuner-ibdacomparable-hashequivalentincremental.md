@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IBDAComparable.HashEquivalentIncremental
 title: IBDAComparable::HashEquivalentIncremental (tuner.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["HashEquivalentIncremental","HashEquivalentIncremental method [Microsoft TV Technologies]","HashEquivalentIncremental method [Microsoft TV Technologies]","IBDAComparable interface","IBDAComparable interface [Microsoft TV Technologies]","HashEquivalentIncremental method","IBDAComparable.HashEquivalentIncremental","IBDAComparable::HashEquivalentIncremental","IBDAComparableHashEquivalentIncremental","mstv.ibdacomparable_hashequivalentincremental","tuner/IBDAComparable::HashEquivalentIncremental"]
 old-location: mstv\ibdacomparable_hashequivalentincremental.htm
 tech.root: mstv
 ms.assetid: 8e5fcaf0-f160-4cff-9e9d-44766e0545c9

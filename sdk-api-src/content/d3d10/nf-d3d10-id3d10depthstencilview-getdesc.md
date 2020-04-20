@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10DepthStencilView.GetDesc
 title: ID3D10DepthStencilView::GetDesc (d3d10.h)
-description: Get the depth-stencil view.
+description: Get the depth-stencil view.helpviewer_keywords: ["4ef9f972-a153-a2f3-2286-73f54733c157","GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10DepthStencilView interface","ID3D10DepthStencilView interface [Direct3D 10]","GetDesc method","ID3D10DepthStencilView.GetDesc","ID3D10DepthStencilView::GetDesc","d3d10/ID3D10DepthStencilView::GetDesc","direct3d10.id3d10depthstencilview_getdesc"]
 old-location: direct3d10\id3d10depthstencilview_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10depthstencilview_getdesc.htm
@@ -63,15 +63,6 @@ Get the depth-stencil <a href="https://docs.microsoft.com/windows/desktop/direct
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_depth_stencil_view_desc">D3D10_DEPTH_STENCIL_VIEW_DESC</a>*</b>
 
 Pointer to a depth-stencil-view description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_depth_stencil_view_desc">D3D10_DEPTH_STENCIL_VIEW_DESC</a>).
-
-
-## -returns
-
-
-
-Returns nothing
-
-
 
 
 ## -see-also

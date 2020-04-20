@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetIndividualEmmMessage
 title: IISDB_EMM::GetIndividualEmmMessage (dvbsiparser.h)
-description: Gets an individual message from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
+description: Gets an individual message from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.helpviewer_keywords: ["GetIndividualEmmMessage","GetIndividualEmmMessage method [Microsoft TV Technologies]","GetIndividualEmmMessage method [Microsoft TV Technologies]","IISDB_EMM interface","IISDB_EMM interface [Microsoft TV Technologies]","GetIndividualEmmMessage method","IISDB_EMM.GetIndividualEmmMessage","IISDB_EMM::GetIndividualEmmMessage","dvbsiparser/IISDB_EMM::GetIndividualEmmMessage","mstv.iisdb_emm_getindividualemmmessage"]
 old-location: mstv\iisdb_emm_getindividualemmmessage.htm
 tech.root: mstv
 ms.assetid: 311b4efb-dacb-41e1-a798-913e3f99b168

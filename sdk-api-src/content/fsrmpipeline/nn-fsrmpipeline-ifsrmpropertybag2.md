@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyBag2
 title: IFsrmPropertyBag2 (fsrmpipeline.h)
-description: IFsrmPropertyBag2 Interface
+description: IFsrmPropertyBag2 Interfacehelpviewer_keywords: ["IFsrmPropertyBag2","IFsrmPropertyBag2 interface [File Server Resource Manager]","IFsrmPropertyBag2 interface [File Server Resource Manager]","described","fs.ifsrmpropertybag2","fsrm.ifsrmpropertybag2","fsrmpipeline/IFsrmPropertyBag2"]
 old-location: fsrm\ifsrmpropertybag2.htm
 tech.root: fsrm
 ms.assetid: 8f69556f-b96e-49b5-bc40-242768ebe767

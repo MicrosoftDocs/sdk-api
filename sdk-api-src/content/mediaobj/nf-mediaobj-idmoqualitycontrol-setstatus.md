@@ -1,7 +1,7 @@
 ---
 UID: NF:mediaobj.IDMOQualityControl.SetStatus
 title: IDMOQualityControl::SetStatus (mediaobj.h)
-description: The SetStatus method enables or disables quality control.
+description: The SetStatus method enables or disables quality control.helpviewer_keywords: ["IDMOQualityControl interface [DirectShow]","SetStatus method","IDMOQualityControl.SetStatus","IDMOQualityControl::SetStatus","IDMOQualityControlSetStatus","SetStatus","SetStatus method [DirectShow]","SetStatus method [DirectShow]","IDMOQualityControl interface","dshow.idmoqualitycontrol_setstatus","mediaobj/IDMOQualityControl::SetStatus"]
 old-location: dshow\idmoqualitycontrol_setstatus.htm
 tech.root: DirectShow
 ms.assetid: d22a7a23-6623-4a98-9a0c-5195b29781f9

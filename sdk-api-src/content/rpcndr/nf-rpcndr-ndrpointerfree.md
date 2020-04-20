@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.NdrPointerFree
 title: NdrPointerFree function (rpcndr.h)
-description: The NdrPointerFree function frees memory.
+description: The NdrPointerFree function frees memory.helpviewer_keywords: ["NdrPointerFree","NdrPointerFree function [RPC]","rpc.ndrpointerfree","rpcndr/NdrPointerFree"]
 old-location: rpc\ndrpointerfree.htm
 tech.root: Rpc
 ms.assetid: 8b90ae12-af0f-41f8-9b8d-4b354de511be
@@ -70,13 +70,5 @@ Pointer to memory to be freed.
 ### -param pFormat [in]
 
 Pointer to the format string description.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

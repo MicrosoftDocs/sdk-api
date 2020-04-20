@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfProperties.Next
 title: IEnumTfProperties::Next (msctf.h)
-description: IEnumTfProperties::Next method
+description: IEnumTfProperties::Next methodhelpviewer_keywords: ["IEnumTfProperties interface [Text Services Framework]","Next method","IEnumTfProperties.Next","IEnumTfProperties::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfProperties interface","_tsf_ienumtfproperties_next_ref","msctf/IEnumTfProperties::Next","tsf.ienumtfproperties_next"]
 old-location: tsf\ienumtfproperties_next.htm
 tech.root: TSF
 ms.assetid: a8357166-bfc3-4740-a5b9-91c6c1825ab9
@@ -45,16 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfProperties::Next
 
-
 ## -description
 
-
-
+Obtains, from the current position, the specified number of elements in the enumeration sequence.
 
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
@@ -116,23 +111,7 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty
-      </a>
- 
-
- 
-
+[IEnumTfProperties interface](nn-msctf-ienumtfproperties.md), [ITfProperty interface](nn-msctf-itfproperty.md)

@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertyDescription2.GetImageReferenceForValue
 title: IPropertyDescription2::GetImageReferenceForValue (propsys.h)
-description: Gets the image reference associated with a property value.
+description: Gets the image reference associated with a property value.helpviewer_keywords: ["GetImageReferenceForValue","GetImageReferenceForValue method [Windows Properties]","GetImageReferenceForValue method [Windows Properties]","IPropertyDescription2 interface","IPropertyDescription2 interface [Windows Properties]","GetImageReferenceForValue method","IPropertyDescription2.GetImageReferenceForValue","IPropertyDescription2::GetImageReferenceForValue","properties.IPropertyDescription2_GetImageReferenceForValue","propsys/IPropertyDescription2::GetImageReferenceForValue","shell.IPropertyDescription2_GetImageReferenceForValue","shell_IPropertyDescription2_GetImageReferenceForValue"]
 old-location: properties\IPropertyDescription2_GetImageReferenceForValue.htm
 tech.root: properties
 ms.assetid: d5831e8c-0b98-4cdc-946e-3c359a04caed

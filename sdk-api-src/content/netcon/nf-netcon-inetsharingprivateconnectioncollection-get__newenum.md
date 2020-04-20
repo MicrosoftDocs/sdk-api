@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.INetSharingPrivateConnectionCollection.get__NewEnum
 title: INetSharingPrivateConnectionCollection::get__NewEnum (netcon.h)
-description: The get__NewEnum method retrieves an enumerator for the private connections collection.
+description: The get__NewEnum method retrieves an enumerator for the private connections collection.helpviewer_keywords: ["INetSharingPrivateConnectionCollection interface [ICS/ICF]","get__NewEnum method","INetSharingPrivateConnectionCollection.get__NewEnum","INetSharingPrivateConnectionCollection::get__NewEnum","_ics_inetsharingprivateconnectioncollection_get__newenum","get__NewEnum","get__NewEnum method [ICS/ICF]","get__NewEnum method [ICS/ICF]","INetSharingPrivateConnectionCollection interface","ics.inetsharingprivateconnectioncollection_get__newenum","netcon/INetSharingPrivateConnectionCollection::get__NewEnum"]
 old-location: ics\inetsharingprivateconnectioncollection_get__newenum.htm
 tech.root: ics
 ms.assetid: 526da220-5999-4b84-b617-26edf23c15ab

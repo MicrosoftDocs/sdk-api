@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetGraphicsRootDescriptorTable
 title: ID3D12GraphicsCommandList::SetGraphicsRootDescriptorTable (d3d12.h)
-description: Sets a descriptor table into the graphics root signature.
+description: Sets a descriptor table into the graphics root signature.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetGraphicsRootDescriptorTable method","ID3D12GraphicsCommandList.SetGraphicsRootDescriptorTable","ID3D12GraphicsCommandList::SetGraphicsRootDescriptorTable","SetGraphicsRootDescriptorTable","SetGraphicsRootDescriptorTable method","SetGraphicsRootDescriptorTable method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetGraphicsRootDescriptorTable","direct3d12.id3d12graphicscommandlist_setgraphicsrootdescriptortable"]
 old-location: direct3d12\id3d12graphicscommandlist_setgraphicsrootdescriptortable.htm
 tech.root: direct3d12
 ms.assetid: AF182E9D-6A85-42B2-ADE4-490756AEDCE7
@@ -72,16 +72,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-
 
 A GPU_descriptor_handle object for the base descriptor to set.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -see-also

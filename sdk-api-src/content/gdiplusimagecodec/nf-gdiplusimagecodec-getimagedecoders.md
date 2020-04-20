@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusimagecodec.GetImageDecoders
 title: GetImageDecoders function (gdiplusimagecodec.h)
-description: The GetImageDecoders function gets an array of ImageCodecInfo objects that contain information about the available image decoders.
+description: The GetImageDecoders function gets an array of ImageCodecInfo objects that contain information about the available image decoders.helpviewer_keywords: ["GetImageDecoders","GetImageDecoders function [GDI+]","_gdiplus_FUNC_GetImageDecoders_numDecoders_size_decoders_","gdiplus._gdiplus_FUNC_GetImageDecoders_numDecoders_size_decoders_","gdiplusimagecodec/GetImageDecoders"]
 old-location: gdiplus\_gdiplus_FUNC_GetImageDecoders_numDecoders_size_decoders_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getimagedecoders.htm

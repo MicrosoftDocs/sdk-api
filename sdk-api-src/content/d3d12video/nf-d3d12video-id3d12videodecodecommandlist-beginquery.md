@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.BeginQuery
 title: ID3D12VideoDecodeCommandList::BeginQuery
-description: Starts a query running.
+description: Starts a query running.helpviewer_keywords: ["ID3D12VideoDecodeCommandList::BeginQuery","BeginQuery","ID3D12VideoDecodeCommandList.BeginQuery","ID3D12VideoDecodeCommandList::BeginQuery","ID3D12VideoDecodeCommandList.BeginQuery"]
 tech.root: mf
 ms.assetid: 7e58addb-6178-4ca5-ae01-040f065b5baa
 ms.date: 05/28/2019
@@ -59,10 +59,6 @@ A member of the [D3D12_QUERY_TYPE](https://docs.microsoft.com/windows/desktop/ap
 ### -param Index
 
 The index of the query within the query heap.
-
-## -returns
-
-This method returns void.
 
 ## -remarks
 

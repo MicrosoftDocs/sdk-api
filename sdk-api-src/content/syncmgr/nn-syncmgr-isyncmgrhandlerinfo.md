@@ -1,7 +1,7 @@
 ---
 UID: NN:syncmgr.ISyncMgrHandlerInfo
 title: ISyncMgrHandlerInfo (syncmgr.h)
-description: Exposes methods that allow a handler to provide property and state information to Sync Center.
+description: Exposes methods that allow a handler to provide property and state information to Sync Center.helpviewer_keywords: ["ISyncMgrHandlerInfo","ISyncMgrHandlerInfo interface [Windows Shell]","ISyncMgrHandlerInfo interface [Windows Shell]","described","_shell_ISyncMgrHandlerInfo","shell.ISyncMgrHandlerInfo","syncmgr/ISyncMgrHandlerInfo"]
 old-location: shell\ISyncMgrHandlerInfo.htm
 tech.root: shell
 ms.assetid: 29cded59-d0f3-4678-9601-4931687b48e4

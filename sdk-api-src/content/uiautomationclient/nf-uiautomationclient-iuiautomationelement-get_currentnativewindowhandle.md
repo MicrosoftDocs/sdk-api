@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentNativeWindowHandle
 title: IUIAutomationElement::get_CurrentNativeWindowHandle (uiautomationclient.h)
-description: Retrieves the window handle of the element.
+description: Retrieves the window handle of the element.helpviewer_keywords: ["CurrentNativeWindowHandle property [Windows Accessibility]","CurrentNativeWindowHandle property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentNativeWindowHandle property","IUIAutomationElement.CurrentNativeWindowHandle","IUIAutomationElement.get_CurrentNativeWindowHandle","IUIAutomationElement::CurrentNativeWindowHandle","IUIAutomationElement::get_CurrentNativeWindowHandle","get_CurrentNativeWindowHandle","uiauto.uiauto_IUIAutomationElement_CurrentNativeWindowHandle","uiauto_IUIAutomationElement_CurrentNativeWindowHandle","uiautomationclient/IUIAutomationElement::CurrentNativeWindowHandle","uiautomationclient/IUIAutomationElement::get_CurrentNativeWindowHandle","winauto.uiauto_IUIAutomationElement_CurrentNativeWindowHandle"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentNativeWindowHandle.htm
 tech.root: WinAuto
 ms.assetid: 9a59f674-6b48-4679-bc24-fe46ebae2041

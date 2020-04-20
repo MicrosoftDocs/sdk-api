@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetNumber
 title: MI_DestinationOptions_SetNumber function (mi.h)
-description: Sets a custom numeric option value.
+description: Sets a custom numeric option value.helpviewer_keywords: ["MI_DestinationOptions_SetNumber","MI_DestinationOptions_SetNumber function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_SetNumber","wmi_v2.mi_destinationoptions_setnumber"]
 old-location: wmi_v2\mi_destinationoptions_setnumber.htm
 tech.root: wmi_v2
 ms.assetid: 46e81ecd-7fb5-465a-8caa-04288c559fea

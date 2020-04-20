@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionServices.TerminateComposition
 title: ITfContextOwnerCompositionServices::TerminateComposition (msctf.h)
-description: ITfContextOwnerCompositionServices::TerminateComposition method
+description: ITfContextOwnerCompositionServices::TerminateComposition methodhelpviewer_keywords: ["ITfContextOwnerCompositionServices interface [Text Services Framework]","TerminateComposition method","ITfContextOwnerCompositionServices.TerminateComposition","ITfContextOwnerCompositionServices::TerminateComposition","TerminateComposition","TerminateComposition method [Text Services Framework]","TerminateComposition method [Text Services Framework]","ITfContextOwnerCompositionServices interface","_tsf_itfcontextownercompositionservices_terminatecomposition_ref","msctf/ITfContextOwnerCompositionServices::TerminateComposition","tsf.itfcontextownercompositionservices_terminatecomposition"]
 old-location: tsf\itfcontextownercompositionservices_terminatecomposition.htm
 tech.root: TSF
 ms.assetid: 950ba2b3-cb12-4697-a4b2-1c87373b9a23
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Terminates a composition.
 
 ## -parameters
 
@@ -153,31 +152,4 @@ This method also does the following:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcomposition-endcomposition">ITfComposition::EndComposition
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompositionsink-oncompositionterminated">ITfCompositionSink::OnCompositionTerminated
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownercompositionservices">ITfContextOwnerCompositionServices</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onendcomposition">ITfContextOwnerCompositionSink::OnEndComposition
-      </a>
- 
-
- 
-
+[ITfComposition::EndComposition](nf-msctf-itfcomposition-endcomposition.md), [nf-msctf-itfcompositionsink-oncompositionterminated](nf-msctf-itfcompositionsink-oncompositionterminated.md), [ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfContextOwnerCompositionServices interface](nn-msctf-itfcontextownercompositionservices.md), [ITfContextOwnerCompositionSink::OnEndComposition](nf-msctf-itfcontextownercompositionsink-onendcomposition.md)

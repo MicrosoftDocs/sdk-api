@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.SetChar
 title: ITextRange::SetChar (tom.h)
-description: Sets the character at the starting position of the range.
+description: Sets the character at the starting position of the range.helpviewer_keywords: ["ITextRange interface [Windows Controls]","SetChar method","ITextRange.SetChar","ITextRange::SetChar","SetChar","SetChar method [Windows Controls]","SetChar method [Windows Controls]","ITextRange interface","_win32_ITextRange_SetChar","_win32_ITextRange_SetChar_cpp","controls.ITextRange_SetChar","controls._win32_ITextRange_SetChar","tom/ITextRange::SetChar"]
 old-location: controls\ITextRange_SetChar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setchar.htm

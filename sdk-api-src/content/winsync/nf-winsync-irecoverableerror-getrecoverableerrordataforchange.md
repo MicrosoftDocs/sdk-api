@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IRecoverableError.GetRecoverableErrorDataForChange
 title: IRecoverableError::GetRecoverableErrorDataForChange (winsync.h)
-description: Gets additional data about the recoverable error.
+description: Gets additional data about the recoverable error.helpviewer_keywords: ["GetRecoverableErrorDataForChange","GetRecoverableErrorDataForChange method [Windows Sync]","GetRecoverableErrorDataForChange method [Windows Sync]","IRecoverableError interface","IRecoverableError interface [Windows Sync]","GetRecoverableErrorDataForChange method","IRecoverableError.GetRecoverableErrorDataForChange","IRecoverableError::GetRecoverableErrorDataForChange","winsync.irecoverableerror_getrecoverableerrordataforchange","winsync/IRecoverableError::GetRecoverableErrorDataForChange"]
 old-location: winsync\irecoverableerror_getrecoverableerrordataforchange.htm
 tech.root: winsync
 ms.assetid: e6fbc99f-ae01-4f5e-b22c-bd802520ae39

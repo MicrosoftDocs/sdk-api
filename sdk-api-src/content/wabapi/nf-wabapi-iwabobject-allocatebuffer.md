@@ -1,7 +1,7 @@
 ---
 UID: NF:wabapi.IWABObject.AllocateBuffer
 title: IWABObject::AllocateBuffer (wabapi.h)
-description: Allocates memory for buffers that are passed to Windows Address Book (WAB) methods. The buffer must be freed with IWABObject::FreeBuffer, and may be reallocated with IWABObject::AllocateMore.
+description: Allocates memory for buffers that are passed to Windows Address Book (WAB) methods. The buffer must be freed with IWABObject::FreeBuffer, and may be reallocated with IWABObject::AllocateMore.helpviewer_keywords: ["AllocateBuffer","AllocateBuffer method [Windows Address Book]","AllocateBuffer method [Windows Address Book]","IWABObject interface","IWABObject interface [Windows Address Book]","AllocateBuffer method","IWABObject.AllocateBuffer","IWABObject::AllocateBuffer","_wab_IWABObject_AllocateBuffer","wab._wab_IWABObject_AllocateBuffer","wabapi/IWABObject::AllocateBuffer"]
 old-location: wab\_wab_IWABObject_AllocateBuffer.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\allocatebuffer.htm

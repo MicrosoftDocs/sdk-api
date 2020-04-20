@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MeasureCharacterRanges
 title: Graphics::MeasureCharacterRanges (gdiplusgraphics.h)
-description: The Graphics::MeasureCharacterRanges method gets a set of regions each of which bounds a range of character positions within a string.
+description: The Graphics::MeasureCharacterRanges method gets a set of regions each of which bounds a range of character positions within a string.helpviewer_keywords: ["Graphics class [GDI+]","MeasureCharacterRanges method","Graphics.MeasureCharacterRanges","Graphics::MeasureCharacterRanges","MeasureCharacterRanges","MeasureCharacterRanges method [GDI+]","MeasureCharacterRanges method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun","gdiplus._gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\measurecharacterranges.htm

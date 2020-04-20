@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.GetReconversion
 title: ITfFnLMProcessor::GetReconversion (ctffunc.h)
-description: ITfFnLMProcessor::GetReconversion method
+description: ITfFnLMProcessor::GetReconversion methodhelpviewer_keywords: ["GetReconversion","GetReconversion method [Text Services Framework]","GetReconversion method [Text Services Framework]","ITfFnLMProcessor interface","ITfFnLMProcessor interface [Text Services Framework]","GetReconversion method","ITfFnLMProcessor.GetReconversion","ITfFnLMProcessor::GetReconversion","_tsf_itffnlmprocessor_getreconversion_ref","ctffunc/ITfFnLMProcessor::GetReconversion","tsf.itffnlmprocessor_getreconversion"]
 old-location: tsf\itffnlmprocessor_getreconversion.htm
 tech.root: TSF
 ms.assetid: 21fcef3f-252c-4f67-a789-4527b8ee1b94
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an ITfCandidateList object for a range from the language model text service.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.IsValidSid
 title: IsValidSid function (securitybaseapi.h)
-description: Validates a security identifier (SID) by verifying that the revision number is within a known range, and that the number of subauthorities is less than the maximum.
+description: Validates a security identifier (SID) by verifying that the revision number is within a known range, and that the number of subauthorities is less than the maximum.helpviewer_keywords: ["IsValidSid","IsValidSid function [Security]","_win32_isvalidsid","security.isvalidsid","securitybaseapi/IsValidSid"]
 old-location: security\isvalidsid.htm
 tech.root: SecAuthZ
 ms.assetid: 0fb08512-90a1-4a5c-9b4c-121bf7701bba

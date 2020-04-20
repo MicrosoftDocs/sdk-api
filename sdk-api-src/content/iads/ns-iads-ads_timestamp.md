@@ -1,7 +1,7 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0007
 title: ADS_TIMESTAMP (iads.h)
-description: The ADS_TIMESTAMP structure is an ADSI representation of the Timestamp attribute syntax.
+description: The ADS_TIMESTAMP structure is an ADSI representation of the Timestamp attribute syntax.helpviewer_keywords: ["*PADS_TIMESTAMP","ADS_TIMESTAMP","ADS_TIMESTAMP structure [ADSI]","PADS_TIMESTAMP","PADS_TIMESTAMP structure pointer [ADSI]","_ds_ads_timestamp","adsi.ads__timestamp","adsi.ads_timestamp","iads/ADS_TIMESTAMP","iads/PADS_TIMESTAMP"]
 old-location: adsi\ads_timestamp.htm
 tech.root: adsi
 ms.assetid: 3e416a9a-e444-43eb-9e59-e8e91ccac2d9

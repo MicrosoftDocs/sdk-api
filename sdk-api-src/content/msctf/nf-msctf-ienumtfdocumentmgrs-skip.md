@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Skip
 title: IEnumTfDocumentMgrs::Skip (msctf.h)
-description: IEnumTfDocumentMgrs::Skip method
+description: IEnumTfDocumentMgrs::Skip methodhelpviewer_keywords: ["IEnumTfDocumentMgrs interface [Text Services Framework]","Skip method","IEnumTfDocumentMgrs.Skip","IEnumTfDocumentMgrs::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfDocumentMgrs interface","_tsf_ienumtfdocumentmgrs_skip_ref","msctf/IEnumTfDocumentMgrs::Skip","tsf.ienumtfdocumentmgrs_skip"]
 old-location: tsf\ienumtfdocumentmgrs_skip.htm
 tech.root: TSF
 ms.assetid: 04464160-d171-4c83-91f0-068a1c13544a
@@ -45,11 +45,9 @@ ms.custom: 19H1
 
 # IEnumTfDocumentMgrs::Skip
 
-
 ## -description
 
-
-
+Moves the current position forward in the enumeration sequence by the specified number of elements.
 
 ## -parameters
 
@@ -95,7 +93,7 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfDocumentMgrs interface](nn-msctf-ienumtfdocumentmgrs.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md)

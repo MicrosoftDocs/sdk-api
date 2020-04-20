@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11ClassInstance.GetTypeName
 title: ID3D11ClassInstance::GetTypeName (d3d11.h)
-description: Gets the type of the current HLSL class.
+description: Gets the type of the current HLSL class.helpviewer_keywords: ["37b4ce30-bd10-e500-268b-fcbfc22464f2","GetTypeName","GetTypeName method [Direct3D 11]","GetTypeName method [Direct3D 11]","ID3D11ClassInstance interface","ID3D11ClassInstance interface [Direct3D 11]","GetTypeName method","ID3D11ClassInstance.GetTypeName","ID3D11ClassInstance::GetTypeName","d3d11/ID3D11ClassInstance::GetTypeName","direct3d11.id3d11classinstance_gettypename"]
 old-location: direct3d11\id3d11classinstance_gettypename.htm
 tech.root: direct3d11
 ms.assetid: a46699b5-2250-442a-85ab-37eeb419ac72
@@ -71,15 +71,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The length of the <i>pTypeName</i> parameter.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

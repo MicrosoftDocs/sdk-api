@@ -1,7 +1,7 @@
 ---
 UID: NS:mfidl._MFT_REGISTRATION_INFO
 title: MFT_REGISTRATION_INFO (mfidl.h)
-description: Contains parameters for the IMFLocalMFTRegistration::RegisterMFTs method.
+description: Contains parameters for the IMFLocalMFTRegistration::RegisterMFTs method.helpviewer_keywords: ["MFT_REGISTRATION_INFO","MFT_REGISTRATION_INFO structure [Media Foundation]","mf.mft_registration_info","mfidl/MFT_REGISTRATION_INFO"]
 old-location: mf\mft_registration_info.htm
 tech.root: medfound
 ms.assetid: 7d610edf-89e3-4ff3-9ad8-b92ee50df522

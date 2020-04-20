@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsdefs._WRDS_DYNAMIC_TIME_ZONE_INFORMATION
 title: WRDS_DYNAMIC_TIME_ZONE_INFORMATION (wtsdefs.h)
-description: Contains dynamic time zone information.
+description: Contains dynamic time zone information.helpviewer_keywords: ["*PWRDS_DYNAMIC_TIME_ZONE_INFORMATION","PWRDS_DYNAMIC_TIME_ZONE_INFORMATION","PWRDS_DYNAMIC_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services]","WRDS_DYNAMIC_TIME_ZONE_INFORMATION","WRDS_DYNAMIC_TIME_ZONE_INFORMATION structure [Remote Desktop Services]","termserv.wrds_dynamic_time_zone_information","wtsdefs/PWRDS_DYNAMIC_TIME_ZONE_INFORMATION","wtsdefs/WRDS_DYNAMIC_TIME_ZONE_INFORMATION"]
 old-location: termserv\wrds_dynamic_time_zone_information.htm
 tech.root: TermServ
 ms.assetid: D529B7BB-380F-462E-99B8-E565B9636D97

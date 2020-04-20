@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IValueMapItem.put_Value
 title: IValueMapItem::put_Value (pla.h)
-description: Retrieves or sets the value of the item.
+description: Retrieves or sets the value of the item.helpviewer_keywords: ["IValueMapItem interface [PLA]","Value property","IValueMapItem.Value","IValueMapItem.put_Value","IValueMapItem::Value","IValueMapItem::get_Value","IValueMapItem::put_Value","Value property [PLA]","Value property [PLA]","IValueMapItem interface","base.ivaluemapitem_value","pla.ivaluemapitem_value","pla/IValueMapItem::Value","pla/IValueMapItem::get_Value","pla/IValueMapItem::put_Value","put_Value"]
 old-location: pla\ivaluemapitem_value.htm
 tech.root: PLA
 ms.assetid: 3f7549aa-2ad6-40f4-ae09-c5130a9c3451

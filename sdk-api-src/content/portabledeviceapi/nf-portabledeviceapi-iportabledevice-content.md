@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Content
 title: IPortableDevice::Content (portabledeviceapi.h)
-description: The Content method retrieves an interface that you can use to access objects on a device.
+description: The Content method retrieves an interface that you can use to access objects on a device.helpviewer_keywords: ["Content","Content method [Windows Portable Devices SDK]","Content method [Windows Portable Devices SDK]","IPortableDevice interface","IPortableDevice interface [Windows Portable Devices SDK]","Content method","IPortableDevice.Content","IPortableDevice::Content","IPortableDeviceContent","portabledeviceapi/IPortableDevice::Content","wpdsdk.iportabledevice_content"]
 old-location: wpdsdk\iportabledevice_content.htm
 tech.root: wpd_sdk
 ms.assetid: f65ff0b5-ca3b-498f-9c5e-36a76104d220

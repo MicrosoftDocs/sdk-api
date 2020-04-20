@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MonthCal_SetSelRange
 title: MonthCal_SetSelRange macro (commctrl.h)
-description: Sets the selection for a month calendar control to a given date range. You can use this macro or send the MCM_SETSELRANGE message explicitly.
+description: Sets the selection for a month calendar control to a given date range. You can use this macro or send the MCM_SETSELRANGE message explicitly.helpviewer_keywords: ["MonthCal_SetSelRange","MonthCal_SetSelRange macro [Windows Controls]","_win32_MonthCal_SetSelRange","_win32_MonthCal_SetSelRange_cpp","commctrl/MonthCal_SetSelRange","controls.MonthCal_SetSelRange","controls._win32_MonthCal_SetSelRange"]
 old-location: controls\MonthCal_SetSelRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setselrange.htm

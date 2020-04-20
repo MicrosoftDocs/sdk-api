@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesFileSysInfo
 title: IOfflineFilesFileSysInfo (cscobj.h)
-description: Represents the standard information associated with a file system item in the Offline Files cache.
+description: Represents the standard information associated with a file system item in the Offline Files cache.helpviewer_keywords: ["IOfflineFilesFileSysInfo","IOfflineFilesFileSysInfo interface [Offline Files]","IOfflineFilesFileSysInfo interface [Offline Files]","described","cscobj/IOfflineFilesFileSysInfo","of.iofflinefilesfilesysinfo"]
 old-location: of\iofflinefilesfilesysinfo.htm
 tech.root: offlinefiles
 ms.assetid: d3da183d-eb12-4411-b461-b58689ef5bff

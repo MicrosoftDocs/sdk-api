@@ -1,7 +1,7 @@
 ---
 UID: NF:xamlom.IVisualTreeService.ClearChildren
 title: IVisualTreeService::ClearChildren (xamlom.h)
-description: Clears all child elements from the parent collection.
+description: Clears all child elements from the parent collection.helpviewer_keywords: ["ClearChildren","ClearChildren method","ClearChildren method","IVisualTreeService interface","IVisualTreeService interface","ClearChildren method","IVisualTreeService.ClearChildren","IVisualTreeService::ClearChildren","xaml_diagnostics.ivisualtreeservice_clearchildren","xamlom/IVisualTreeService::ClearChildren"]
 old-location: xaml_diagnostics\ivisualtreeservice_clearchildren.htm
 tech.root: xaml_diagnostics
 ms.assetid: E32B07F5-BB62-435A-A869-36A0E93915D9

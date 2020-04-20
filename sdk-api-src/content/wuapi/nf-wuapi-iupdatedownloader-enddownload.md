@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.EndDownload
 title: IUpdateDownloader::EndDownload (wuapi.h)
-description: Completes an asynchronous download.
+description: Completes an asynchronous download.helpviewer_keywords: ["EndDownload","EndDownload method [Windows Update Agent]","EndDownload method [Windows Update Agent]","IUpdateDownloader interface","IUpdateDownloader interface [Windows Update Agent]","EndDownload method","IUpdateDownloader.EndDownload","IUpdateDownloader::EndDownload","wua.iupdatedownloader_enddownload","wuapi/IUpdateDownloader::EndDownload"]
 old-location: wua\iupdatedownloader_enddownload.htm
 tech.root: Wua_Sdk
 ms.assetid: b89ec12a-8a51-46e6-9911-2535abc3925b

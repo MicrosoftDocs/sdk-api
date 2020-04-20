@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFClock.GetCorrelatedTime
 title: IMFClock::GetCorrelatedTime (mfidl.h)
-description: Retrieves the last clock time that was correlated with system time.
+description: Retrieves the last clock time that was correlated with system time.helpviewer_keywords: ["0a897426-d994-4b27-9f13-9b0c7c9b3a9b","GetCorrelatedTime","GetCorrelatedTime method [Media Foundation]","GetCorrelatedTime method [Media Foundation]","IMFClock interface","IMFClock interface [Media Foundation]","GetCorrelatedTime method","IMFClock.GetCorrelatedTime","IMFClock::GetCorrelatedTime","mf.imfclock_getcorrelatedtime","mfidl/IMFClock::GetCorrelatedTime"]
 old-location: mf\imfclock_getcorrelatedtime.htm
 tech.root: medfound
 ms.assetid: 0a897426-d994-4b27-9f13-9b0c7c9b3a9b

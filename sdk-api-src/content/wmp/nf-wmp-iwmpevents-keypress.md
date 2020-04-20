@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.KeyPress
 title: IWMPEvents::KeyPress (wmp.h)
-description: The KeyPress event occurs when a key is pressed and then released.
+description: The KeyPress event occurs when a key is pressed and then released.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","KeyPress method","IWMPEvents.KeyPress","IWMPEvents::KeyPress","IWMPEventsKeyPress","KeyPress","KeyPress method [Windows Media Player]","KeyPress method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__keypress","wmp/IWMPEvents::KeyPress"]
 old-location: wmp\iwmpevents_iwmpevents__keypress.htm
 tech.root: WMP
 ms.assetid: 72d97c04-6978-4275-9adf-2deeebb34224
@@ -63,15 +63,6 @@ The <b>KeyPress</b> event occurs when a key is pressed and then released.
 ### -param nKeyAscii [in]
 
 Specifies the standard numeric ANSI code for the character.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

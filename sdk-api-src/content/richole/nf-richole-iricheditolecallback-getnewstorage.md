@@ -1,7 +1,7 @@
 ---
 UID: NF:richole.IRichEditOleCallback.GetNewStorage
 title: IRichEditOleCallback::GetNewStorage (richole.h)
-description: Provides storage for a new object pasted from the clipboard or read in from an Rich Text Format (RTF) stream.
+description: Provides storage for a new object pasted from the clipboard or read in from an Rich Text Format (RTF) stream.helpviewer_keywords: ["GetNewStorage","GetNewStorage method [Windows Controls]","GetNewStorage method [Windows Controls]","IRichEditOleCallback interface","IRichEditOleCallback interface [Windows Controls]","GetNewStorage method","IRichEditOleCallback.GetNewStorage","IRichEditOleCallback::GetNewStorage","_win32_IRichEditOleCallback_GetNewStorage","_win32_IRichEditOleCallback_GetNewStorage_cpp","controls.IRichEditOleCallback_GetNewStorage","controls._win32_IRichEditOleCallback_GetNewStorage","richole/IRichEditOleCallback::GetNewStorage"]
 old-location: controls\IRichEditOleCallback_GetNewStorage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetnewstorage.htm

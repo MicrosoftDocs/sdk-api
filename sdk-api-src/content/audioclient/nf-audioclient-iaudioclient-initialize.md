@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IAudioClient.Initialize
 title: IAudioClient::Initialize (audioclient.h)
-description: The Initialize method initializes the audio stream.
+description: The Initialize method initializes the audio stream.helpviewer_keywords: ["IAudioClient interface [Core Audio]","Initialize method","IAudioClient.Initialize","IAudioClient::Initialize","IAudioClientInitialize","Initialize","Initialize method [Core Audio]","Initialize method [Core Audio]","IAudioClient interface","audioclient/IAudioClient::Initialize","coreaudio.iaudioclient_initialize"]
 old-location: coreaudio\iaudioclient_initialize.htm
 tech.root: CoreAudio
 ms.assetid: eb778503-06f8-4705-9f8d-9a4fd886ae27

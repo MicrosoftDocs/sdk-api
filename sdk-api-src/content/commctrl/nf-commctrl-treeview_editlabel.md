@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.TreeView_EditLabel
 title: TreeView_EditLabel macro (commctrl.h)
-description: Begins in-place editing of the specified item's text, replacing the text of the item with a single-line edit control containing the text.
+description: Begins in-place editing of the specified item's text, replacing the text of the item with a single-line edit control containing the text.helpviewer_keywords: ["TreeView_EditLabel","TreeView_EditLabel macro [Windows Controls]","_win32_TreeView_EditLabel","_win32_TreeView_EditLabel_cpp","commctrl/TreeView_EditLabel","controls.TreeView_EditLabel","controls._win32_TreeView_EditLabel"]
 old-location: controls\TreeView_EditLabel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_editlabel.htm

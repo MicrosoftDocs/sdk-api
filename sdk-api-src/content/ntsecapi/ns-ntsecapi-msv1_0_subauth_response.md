@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._MSV1_0_SUBAUTH_RESPONSE
 title: MSV1_0_SUBAUTH_RESPONSE (ntsecapi.h)
-description: Contains the response from a subauthentication package.
+description: Contains the response from a subauthentication package.helpviewer_keywords: ["*PMSV1_0_SUBAUTH_RESPONSE","MSV1_0_SUBAUTH_RESPONSE","MSV1_0_SUBAUTH_RESPONSE structure [Security]","PMSV1_0_SUBAUTH_RESPONSE","PMSV1_0_SUBAUTH_RESPONSE structure pointer [Security]","_lsa_msv1_0_subauth_response","ntsecapi/MSV1_0_SUBAUTH_RESPONSE","ntsecapi/PMSV1_0_SUBAUTH_RESPONSE","security.msv1_0_subauth_response"]
 old-location: security\msv1_0_subauth_response.htm
 tech.root: SecAuthN
 ms.assetid: 62808fba-6e10-4f3b-a705-6958fc4fe480

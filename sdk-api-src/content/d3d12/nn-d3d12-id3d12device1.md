@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12Device1
 title: ID3D12Device1 (d3d12.h)
-description: Represents a virtual adapter, and expands on the range of methods provided by ID3D12Device.
+description: Represents a virtual adapter, and expands on the range of methods provided by ID3D12Device.helpviewer_keywords: ["ID3D12Device1","ID3D12Device1 interface","ID3D12Device1 interface","described","d3d12/ID3D12Device1","direct3d12.id3d12device1"]
 old-location: direct3d12\id3d12device1.htm
 tech.root: direct3d12
 ms.assetid: 7650C695-3F46-405A-9976-A4A50FFAD567

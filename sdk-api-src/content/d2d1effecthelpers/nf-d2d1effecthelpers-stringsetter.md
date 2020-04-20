@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effecthelpers.StringSetter
 title: StringSetter function (d2d1effecthelpers.h)
-description: Calls a member-function property setter callback for a string-type property.
+description: Calls a member-function property setter callback for a string-type property.helpviewer_keywords: ["StringSetter","StringSetter function [Direct2D]","d2d1effecthelpers/StringSetter","direct2d.stringsetter"]
 old-location: direct2d\stringsetter.htm
 tech.root: Direct2D
 ms.assetid: 6BCDB312-13D8-47EA-BB88-4172C3A02DBE

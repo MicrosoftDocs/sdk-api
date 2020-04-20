@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsSendReplyMessage
 title: WsSendReplyMessage function (webservices.h)
-description: Sends a message which is a reply to a received message.
+description: Sends a message which is a reply to a received message.helpviewer_keywords: ["WsSendReplyMessage","WsSendReplyMessage function [Web Services for Windows]","webservices/WsSendReplyMessage","wsw.wssendreplymessage"]
 old-location: wsw\wssendreplymessage.htm
 tech.root: wsw
 ms.assetid: cabfd07b-294c-4e3a-9d50-84d9b4d98f62

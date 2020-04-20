@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateFileMappingA
 title: CreateFileMappingA function (winbase.h)
-description: Creates or opens a named or unnamed file mapping object for a specified file.
+description: Creates or opens a named or unnamed file mapping object for a specified file.helpviewer_keywords: ["CreateFileMapping","CreateFileMapping function","CreateFileMappingA","CreateFileMappingW","PAGE_EXECUTE_READ","PAGE_EXECUTE_READWRITE","PAGE_EXECUTE_WRITECOPY","PAGE_READONLY","PAGE_READWRITE","PAGE_WRITECOPY","SEC_COMMIT","SEC_IMAGE","SEC_IMAGE_NO_EXECUTE","SEC_LARGE_PAGES","SEC_NOCACHE","SEC_RESERVE","SEC_WRITECOMBINE","_win32_createfilemapping","base.createfilemapping","fs.createfilemapping","winbase/CreateFileMapping","winbase/CreateFileMappingA","winbase/CreateFileMappingW"]
 old-location: base\createfilemapping.htm
 tech.root: Memory
 ms.assetid: d3302183-76a0-47ec-874f-1173db353dfe
@@ -102,7 +102,7 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/des
       <b>SECURITY_ATTRIBUTES</b> structure specifies a 
       security descriptor for a new file mapping object.
 
-If <i>lpAttributes</i> is <b>NULL</b>, the handle cannot be inherited 
+If <i>lpFileMappingAttributes</i> is <b>NULL</b>, the handle cannot be inherited 
       and the file mapping object gets a default security descriptor. The access control lists (ACL) in the default 
       security descriptor for a file mapping object come from the primary or impersonation token of the creator. For 
       more information, see 

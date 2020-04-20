@@ -1,7 +1,7 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetRegularExpression
 title: ITfInputScope::GetRegularExpression (inputscope.h)
-description: ITfInputScope::GetRegularExpression method
+description: ITfInputScope::GetRegularExpression methodhelpviewer_keywords: ["GetRegularExpression","GetRegularExpression method [Text Services Framework]","GetRegularExpression method [Text Services Framework]","ITfInputScope interface","ITfInputScope interface [Text Services Framework]","GetRegularExpression method","ITfInputScope.GetRegularExpression","ITfInputScope::GetRegularExpression","inputscope/ITfInputScope::GetRegularExpression","tsf.itfinputscope_getregularexpression"]
 old-location: tsf\itfinputscope_getregularexpression.htm
 tech.root: TSF
 ms.assetid: fa24c473-efc7-408f-86e8-905161de10f0
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Gets the regular expression string to be rssecognized.
 
 ## -parameters
 

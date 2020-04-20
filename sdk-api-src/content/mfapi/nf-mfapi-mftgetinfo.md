@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFTGetInfo
 title: MFTGetInfo function (mfapi.h)
-description: Gets information from the registry about a Media Foundation transform (MFT).
+description: Gets information from the registry about a Media Foundation transform (MFT).helpviewer_keywords: ["MFTGetInfo","MFTGetInfo function [Media Foundation]","d1bac1c7-3f9b-46b7-bdf7-c32983c648ee","mf.mftgetinfo","mfapi/MFTGetInfo"]
 old-location: mf\mftgetinfo.htm
 tech.root: medfound
 ms.assetid: d1bac1c7-3f9b-46b7-bdf7-c32983c648ee

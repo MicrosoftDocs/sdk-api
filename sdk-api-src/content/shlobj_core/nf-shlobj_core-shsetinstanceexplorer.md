@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHSetInstanceExplorer
 title: SHSetInstanceExplorer function (shlobj_core.h)
-description: Provides an interface that allows hosted Shell extensions and other components to prevent their host process from closing prematurely.
+description: Provides an interface that allows hosted Shell extensions and other components to prevent their host process from closing prematurely.helpviewer_keywords: ["SHSetInstanceExplorer","SHSetInstanceExplorer function [Windows Shell]","_win32_SHSetInstanceExplorer","shell.SHSetInstanceExplorer","shlobj_core/SHSetInstanceExplorer"]
 old-location: shell\SHSetInstanceExplorer.htm
 tech.root: shell
 ms.assetid: 86f29587-8347-4e88-87bc-83ef2b8a7728
@@ -64,15 +64,6 @@ Provides an interface that allows hosted Shell extensions and other components t
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to a free-threaded <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. Components can use this interface (through <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetinstanceexplorer">SHGetInstanceExplorer</a>) to prevent the host process from terminating. This value can be <b>NULL</b>, in which case the process reference is no longer made available to components.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

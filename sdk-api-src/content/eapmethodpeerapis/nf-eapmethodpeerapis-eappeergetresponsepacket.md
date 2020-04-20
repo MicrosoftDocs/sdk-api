@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetResponsePacket
 title: EapPeerGetResponsePacket function (eapmethodpeerapis.h)
-description: Obtains a response packet from the EAP method.
+description: Obtains a response packet from the EAP method.helpviewer_keywords: ["EapPeerGetResponsePacket","EapPeerGetResponsePacket function [EAPHost]","eaphost.eappeergetresponsepacket","eapmethodpeerapis/EapPeerGetResponsePacket"]
 old-location: eaphost\eappeergetresponsepacket.htm
 tech.root: eaphost
 ms.assetid: 4e1deaab-53fe-4c8f-9018-d7b148131231

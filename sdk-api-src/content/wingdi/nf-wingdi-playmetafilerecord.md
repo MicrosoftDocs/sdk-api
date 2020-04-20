@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.PlayMetaFileRecord
 title: PlayMetaFileRecord function (wingdi.h)
-description: The PlayMetaFileRecord function plays a Windows-format metafile record by executing the graphics device interface (GDI) function contained within that record.
+description: The PlayMetaFileRecord function plays a Windows-format metafile record by executing the graphics device interface (GDI) function contained within that record.helpviewer_keywords: ["PlayMetaFileRecord","PlayMetaFileRecord function [Windows GDI]","_win32_PlayMetaFileRecord","gdi.playmetafilerecord","wingdi/PlayMetaFileRecord"]
 old-location: gdi\playmetafilerecord.htm
 tech.root: gdi
 ms.assetid: bea22981-dc77-4de2-b6dc-d6a4f4b74bbd

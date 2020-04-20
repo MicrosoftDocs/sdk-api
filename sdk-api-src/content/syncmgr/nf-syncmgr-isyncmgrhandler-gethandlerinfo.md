@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetHandlerInfo
 title: ISyncMgrHandler::GetHandlerInfo (syncmgr.h)
-description: Gets properties that describe the handler.
+description: Gets properties that describe the handler.helpviewer_keywords: ["GetHandlerInfo","GetHandlerInfo method [Windows Shell]","GetHandlerInfo method [Windows Shell]","ISyncMgrHandler interface","ISyncMgrHandler interface [Windows Shell]","GetHandlerInfo method","ISyncMgrHandler.GetHandlerInfo","ISyncMgrHandler::GetHandlerInfo","_shell_ISyncMgrHandler_GetHandlerInfo","shell.ISyncMgrHandler_GetHandlerInfo","syncmgr/ISyncMgrHandler::GetHandlerInfo"]
 old-location: shell\ISyncMgrHandler_GetHandlerInfo.htm
 tech.root: shell
 ms.assetid: 078f7cee-fb75-4b8b-8c90-720c26d1f361

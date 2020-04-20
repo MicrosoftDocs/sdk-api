@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfComposition.ShiftStart
 title: ITfComposition::ShiftStart (msctf.h)
-description: ITfComposition::ShiftStart method
+description: ITfComposition::ShiftStart methodhelpviewer_keywords: ["ITfComposition interface [Text Services Framework]","ShiftStart method","ITfComposition.ShiftStart","ITfComposition::ShiftStart","ShiftStart","ShiftStart method [Text Services Framework]","ShiftStart method [Text Services Framework]","ITfComposition interface","_tsf_itfcomposition_shiftstart_ref","msctf/ITfComposition::ShiftStart","tsf.itfcomposition_shiftstart"]
 old-location: tsf\itfcomposition_shiftstart.htm
 tech.root: TSF
 ms.assetid: 85a5121a-7be0-4703-a1d4-4de21dd98697
@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfComposition::ShiftStart
 
-
 ## -description
 
-
-
+Moves the start anchor of a composition.
 
 ## -parameters
-
-
-
 
 ### -param ecWrite [in]
 
 Contains an edit cookie that identifies the edit context obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
-
 ### -param pNewStart [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that contains the new start anchor position. The start anchor of the context will be moved to the start anchor of this range. This method fails if the start anchor of this range is positioned beyond the end anchor of the composition.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,41 +125,10 @@ The edit context identified by <i>ecWrite</i> does not have a read/write lock.
 </tr>
 </table>
  
-
-
-
-
 ## -remarks
-
-
 
 This method causes the GUID_PROP_COMPOSING property to be removed from any text removed from the composition. Likewise, the GUID_PROP_COMPOSING property will also be added to any text added to the composition.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcomposition-shiftend">ITfComposition::ShiftEnd
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[ITfComposition interface](nn-msctf-itfcomposition.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfComposition::ShiftEnd](nf-msctf-itfcomposition-shiftend.md)

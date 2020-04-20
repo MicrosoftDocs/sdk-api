@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_OPERATION_DESCRIPTION
 title: WS_OPERATION_DESCRIPTION (webservices.h)
-description: Metadata for the service operation.
+description: Metadata for the service operation.helpviewer_keywords: ["WS_OPERATION_DESCRIPTION","WS_OPERATION_DESCRIPTION structure [Web Services for Windows]","webservices/WS_OPERATION_DESCRIPTION","wsw.ws_operation_description"]
 old-location: wsw\ws_operation_description.htm
 tech.root: wsw
 ms.assetid: d05b55aa-4159-4e48-ae75-2af36c0a7101

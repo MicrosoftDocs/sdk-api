@@ -1,7 +1,7 @@
 ---
 UID: NF:lzexpand.LZClose
 title: LZClose function (lzexpand.h)
-description: Closes a file that was opened by using the LZOpenFile function.
+description: Closes a file that was opened by using the LZOpenFile function.helpviewer_keywords: ["LZClose","LZClose function [Files]","_win32_lzclose","base.lzclose","fs.lzclose","lzexpand/LZClose"]
 old-location: fs\lzclose.htm
 tech.root: FileIO
 ms.assetid: ba535eb7-8d9b-4290-af1f-495e9737cd38
@@ -61,15 +61,6 @@ Closes a file that was opened by using the
 ### -param hFile [in]
 
 A handle to the file to be closed.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetDpi
 title: ID2D1RenderTarget::GetDpi (d2d1.h)
-description: Return the render target's dots per inch (DPI).
+description: Return the render target's dots per inch (DPI).helpviewer_keywords: ["GetDpi","GetDpi method [Direct2D]","GetDpi method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetDpi method","ID2D1RenderTarget.GetDpi","ID2D1RenderTarget::GetDpi","d2d1/ID2D1RenderTarget::GetDpi","direct2d.ID2D1RenderTarget_GetDpi"]
 old-location: direct2d\ID2D1RenderTarget_GetDpi.htm
 tech.root: Direct2D
 ms.assetid: 72a25b78-96fd-42bf-9e71-6bb80efea0ac
@@ -69,15 +69,6 @@ When this method returns, contains the horizontal DPI of the render target. This
 Type: <b>FLOAT*</b>
 
 When this method returns, contains the vertical DPI of the render target. This parameter is passed uninitialized.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

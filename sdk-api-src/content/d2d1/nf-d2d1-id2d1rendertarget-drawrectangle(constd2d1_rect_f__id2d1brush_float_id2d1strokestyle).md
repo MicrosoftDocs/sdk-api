@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawRectangle(const D2D1_RECT_F &,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawRectangle(const D2D1_RECT_F &,ID2D1Brush,FLOAT,ID2D1StrokeStyle) (d2d1.h)
-description: Draws the outline of a rectangle that has the specified dimensions and stroke style.
+description: Draws the outline of a rectangle that has the specified dimensions and stroke style.helpviewer_keywords: ["DrawRectangle","DrawRectangle method [Direct2D]","DrawRectangle method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawRectangle method","ID2D1RenderTarget.DrawRectangle","ID2D1RenderTarget.DrawRectangle(const D2D1_RECT_F &","ID2D1Brush","FLOAT","ID2D1StrokeStyle)","ID2D1RenderTarget::DrawRectangle","ID2D1RenderTarget::DrawRectangle(const D2D1_RECT_F &","ID2D1Brush","FLOAT","ID2D1StrokeStyle)","d2d1/ID2D1RenderTarget::DrawRectangle","direct2d.ID2D1RenderTarget_DrawRectangle_ref_D2D_RECT_F_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle"]
 old-location: direct2d\ID2D1RenderTarget_DrawRectangle_ref_D2D_RECT_F_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle.htm
 tech.root: Direct2D
 ms.assetid: bc176c12-db06-4f1e-b668-4441723a916a
@@ -84,15 +84,6 @@ The width of the stroke, in device-independent pixels. The value must be greater
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
 
 The style of stroke to paint, or <b>NULL</b> to paint a solid stroke.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

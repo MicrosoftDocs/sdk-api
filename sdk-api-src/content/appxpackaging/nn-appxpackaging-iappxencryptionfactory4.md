@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptionFactory4
 title: IAppxEncryptionFactory4 (appxpackaging.h)
-description: Creates objects for encrypting Windows app packages and bundles.
+description: Creates objects for encrypting Windows app packages and bundles.helpviewer_keywords: ["IAppxEncryptionFactory4","IAppxEncryptionFactory4 interface [App packaging and management]","IAppxEncryptionFactory4 interface [App packaging and management]","described","appxpackaging/IAppxEncryptionFactory4","appxpkg.iappxencryptionfactory4"]
 old-location: appxpkg\iappxencryptionfactory4.htm
 tech.root: appxpkg
 ms.assetid: BEB6BD9B-C265-4C92-98AD-59344B5274D4

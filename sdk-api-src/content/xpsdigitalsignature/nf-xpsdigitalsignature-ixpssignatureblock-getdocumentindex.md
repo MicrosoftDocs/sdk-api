@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.GetDocumentIndex
 title: IXpsSignatureBlock::GetDocumentIndex (xpsdigitalsignature.h)
-description: Gets the index of the FixedDocument part that references the SignatureDefinitions part that corresponds to this signature block.
+description: Gets the index of the FixedDocument part that references the SignatureDefinitions part that corresponds to this signature block.helpviewer_keywords: ["GetDocumentIndex","GetDocumentIndex method [XPS Documents and Packaging]","GetDocumentIndex method [XPS Documents and Packaging]","IXpsSignatureBlock interface","IXpsSignatureBlock interface [XPS Documents and Packaging]","GetDocumentIndex method","IXpsSignatureBlock.GetDocumentIndex","IXpsSignatureBlock::GetDocumentIndex","xps.ixpssignatureblock_getdocumentindex","xpsdigitalsignature/IXpsSignatureBlock::GetDocumentIndex"]
 old-location: xps\ixpssignatureblock_getdocumentindex.htm
 tech.root: printdocs
 ms.assetid: 5e9052d9-9a27-41fe-8842-50033cb8edf2

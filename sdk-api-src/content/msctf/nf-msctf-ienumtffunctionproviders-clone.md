@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Clone
 title: IEnumTfFunctionProviders::Clone (msctf.h)
-description: IEnumTfFunctionProviders::Clone method
+description: IEnumTfFunctionProviders::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfFunctionProviders interface","IEnumTfFunctionProviders interface [Text Services Framework]","Clone method","IEnumTfFunctionProviders.Clone","IEnumTfFunctionProviders::Clone","_tsf_ienumtffunctionproviders_clone_ref","msctf/IEnumTfFunctionProviders::Clone","tsf.ienumtffunctionproviders_clone"]
 old-location: tsf\ienumtffunctionproviders_clone.htm
 tech.root: TSF
 ms.assetid: fa4b8682-4f99-425d-8ae7-a510e109fe64
@@ -45,16 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfFunctionProviders::Clone
 
-
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
@@ -95,19 +90,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtffunctionproviders">IEnumTfFunctionProviders
-      </a>
- 
-
- 
-
+[IEnumTfFunctionProviders interface](nn-msctf-ienumtffunctionproviders.md), [ITfFunctionProvider interface](nn-msctf-itffunctionprovider.md)

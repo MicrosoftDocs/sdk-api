@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_TXFS_SAVEPOINT_INFORMATION
 title: FSCTL_TXFS_SAVEPOINT_INFORMATION
-description: The FSCTL_TXFS_SAVEPOINT_INFORMATION control code controls setting, clearing, and rolling back to the specified savepoint.
+description: The FSCTL_TXFS_SAVEPOINT_INFORMATION control code controls setting, clearing, and rolling back to the specified savepoint.helpviewer_keywords: ["FSCTL_TXFS_SAVEPOINT_INFORMATION","FSCTL_TXFS_SAVEPOINT_INFORMATION control","FSCTL_TXFS_SAVEPOINT_INFORMATION control code [Files]","fs.fsctl_txfs_savepoint_information","winioctl/FSCTL_TXFS_SAVEPOINT_INFORMATION"]
 old-location: fs\fsctl_txfs_savepoint_information.htm
 tech.root: FileIO
 ms.assetid: 50cf01b4-fd14-4468-9191-79ccd0e2bd05

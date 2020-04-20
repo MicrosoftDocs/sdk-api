@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetRecordTransportStreamId
 title: IDVB_NIT::GetRecordTransportStreamId (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordTransportStreamId","GetRecordTransportStreamId method [Microsoft TV Technologies]","GetRecordTransportStreamId method [Microsoft TV Technologies]","IDVB_NIT interface","IDVB_NIT interface [Microsoft TV Technologies]","GetRecordTransportStreamId method","IDVB_NIT.GetRecordTransportStreamId","IDVB_NIT::GetRecordTransportStreamId","IDVB_NITGetRecordTransportStreamId","dvbsiparser/IDVB_NIT::GetRecordTransportStreamId","mstv.idvb_nit_getrecordtransportstreamid"]
 old-location: mstv\idvb_nit_getrecordtransportstreamid.htm
 tech.root: mstv
 ms.assetid: ed2b9fcc-fd7d-4477-9ff5-cbb7912eac26

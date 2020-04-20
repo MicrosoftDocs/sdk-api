@@ -1,7 +1,7 @@
 ---
 UID: NS:scesvc._SCESVC_ANALYSIS_LINE_
 title: SCESVC_ANALYSIS_LINE (scesvc.h)
-description: The SCESVC_ANALYSIS_LINE structure contains the key, value, and value length for a specific line specified by an SCESVC_ANALYSIS_INFO structure.
+description: The SCESVC_ANALYSIS_LINE structure contains the key, value, and value length for a specific line specified by an SCESVC_ANALYSIS_INFO structure.helpviewer_keywords: ["*PSCESVC_ANALYSIS_LINE","PSCESVC_ANALYSIS_LINE","PSCESVC_ANALYSIS_LINE structure pointer [Security]","SCESVC_ANALYSIS_LINE","SCESVC_ANALYSIS_LINE structure [Security]","_config_scesvc_analysis_line","scesvc/PSCESVC_ANALYSIS_LINE","scesvc/SCESVC_ANALYSIS_LINE","security.scesvc_analysis_line"]
 old-location: security\scesvc_analysis_line.htm
 tech.root: SecMgmt
 ms.assetid: 91fa0f25-30e1-4af3-ad22-f16dc4692b0b

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11RefDefaultTrackingOptions.SetTrackingOptions
 title: ID3D11RefDefaultTrackingOptions::SetTrackingOptions (d3d11sdklayers.h)
-description: Sets graphics processing unit (GPU) debug reference default tracking options for specific resource types.
+description: Sets graphics processing unit (GPU) debug reference default tracking options for specific resource types.helpviewer_keywords: ["ID3D11RefDefaultTrackingOptions interface [Direct3D 11]","SetTrackingOptions method","ID3D11RefDefaultTrackingOptions.SetTrackingOptions","ID3D11RefDefaultTrackingOptions::SetTrackingOptions","SetTrackingOptions","SetTrackingOptions method [Direct3D 11]","SetTrackingOptions method [Direct3D 11]","ID3D11RefDefaultTrackingOptions interface","d3d11sdklayers/ID3D11RefDefaultTrackingOptions::SetTrackingOptions","direct3d11.id3d11refdefaulttrackingoptions_settrackingoptions"]
 old-location: direct3d11\id3d11refdefaulttrackingoptions_settrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0

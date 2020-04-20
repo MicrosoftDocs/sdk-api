@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IResultsFolder
 title: IResultsFolder (shobjidl.h)
-description: Exposes methods that hold items from a data object.
+description: Exposes methods that hold items from a data object.helpviewer_keywords: ["IResultsFolder","IResultsFolder interface [Windows Shell]","IResultsFolder interface [Windows Shell]","described","_shell_IResultsFolder","shell.IResultsFolder","shobjidl/IResultsFolder"]
 old-location: shell\IResultsFolder.htm
 tech.root: shell
 ms.assetid: db44052b-bd26-412f-9f2a-66a0c53b65ac

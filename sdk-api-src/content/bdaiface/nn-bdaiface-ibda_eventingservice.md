@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_EventingService
 title: IBDA_EventingService (bdaiface.h)
-description: Provides access to a device's Eventing Service.
+description: Provides access to a device's Eventing Service.helpviewer_keywords: ["IBDA_EventingService","IBDA_EventingService interface [Microsoft TV Technologies]","IBDA_EventingService interface [Microsoft TV Technologies]","described","bdaiface/IBDA_EventingService","mstv.ibda_eventingservice"]
 old-location: mstv\ibda_eventingservice.htm
 tech.root: mstv
 ms.assetid: 45ef0b45-92d0-47c1-9334-d0df74a43d28

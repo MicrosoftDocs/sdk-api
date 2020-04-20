@@ -1,7 +1,7 @@
 ---
 UID: NS:amvideo.tagMPEG1VIDEOINFO
 title: MPEG1VIDEOINFO (amvideo.h)
-description: The MPEG1VIDEOINFO structure describes an MPEG-1 video stream.
+description: The MPEG1VIDEOINFO structure describes an MPEG-1 video stream.helpviewer_keywords: ["MPEG1VIDEOINFO","MPEG1VIDEOINFO structure [DirectShow]","MPEG1VIDEOINFOStructure","amvideo/MPEG1VIDEOINFO","dshow.mpeg1videoinfo","tagMPEG1VIDEOINFO"]
 old-location: dshow\mpeg1videoinfo.htm
 tech.root: DirectShow
 ms.assetid: ae5b8825-7c1c-4a44-b665-098732e6c3bc

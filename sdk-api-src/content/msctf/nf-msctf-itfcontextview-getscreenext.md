@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextView.GetScreenExt
 title: ITfContextView::GetScreenExt (msctf.h)
-description: The ITfContextView::GetScreenExt method returns the bounding box, in screen coordinates, of the document display.
+description: The ITfContextView::GetScreenExt method returns the bounding box, in screen coordinates, of the document display.helpviewer_keywords: ["GetScreenExt","GetScreenExt method [Text Services Framework]","GetScreenExt method [Text Services Framework]","ITfContextView interface","ITfContextView interface [Text Services Framework]","GetScreenExt method","ITfContextView.GetScreenExt","ITfContextView::GetScreenExt","_tsf_itfcontextview_getscreenext_ref","msctf/ITfContextView::GetScreenExt","tsf.itfcontextview_getscreenext"]
 old-location: tsf\itfcontextview_getscreenext.htm
 tech.root: TSF
 ms.assetid: 86dde611-4c46-418c-aa89-728081a28943

@@ -1,7 +1,7 @@
 ---
 UID: NS:tapi.linelocationentry_tag
 title: LINELOCATIONENTRY (tapi.h)
-description: Describes a location used to provide an address translation context.
+description: Describes a location used to provide an address translation context.helpviewer_keywords: ["*LPLINELOCATIONENTRY","LINELOCATIONENTRY","LINELOCATIONENTRY structure [TAPI 2.2]","LPLINELOCATIONENTRY","LPLINELOCATIONENTRY structure pointer [TAPI 2.2]","_tapi2_linelocationentry_str","tapi/LINELOCATIONENTRY","tapi/LPLINELOCATIONENTRY","tapi2.linelocationentry_str"]
 old-location: tapi2\linelocationentry_str.htm
 tech.root: Tapi
 ms.assetid: 8b4357d8-6dc9-4fc8-b164-79675ac71870

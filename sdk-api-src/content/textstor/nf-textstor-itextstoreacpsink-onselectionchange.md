@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnSelectionChange
 title: ITextStoreACPSink::OnSelectionChange (textstor.h)
-description: ITextStoreACPSink::OnSelectionChange method
+description: ITextStoreACPSink::OnSelectionChange methodhelpviewer_keywords: ["ITextStoreACPSink interface [Text Services Framework]","OnSelectionChange method","ITextStoreACPSink.OnSelectionChange","ITextStoreACPSink::OnSelectionChange","OnSelectionChange","OnSelectionChange method [Text Services Framework]","OnSelectionChange method [Text Services Framework]","ITextStoreACPSink interface","_tsf_itextstoreacpsink_onselectionchange_ref","textstor/ITextStoreACPSink::OnSelectionChange","tsf.itextstoreacpsink_onselectionchange"]
 old-location: tsf\itextstoreacpsink_onselectionchange.htm
 tech.root: TSF
 ms.assetid: 500333ae-06dc-4194-a21b-e03c1acc9f9a
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the selection within the document changes.
 
 ## -parameters
 

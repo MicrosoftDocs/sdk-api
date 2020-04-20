@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITCallHub.get_State
 title: ITCallHub::get_State (tapi3if.h)
-description: The get_State method gets the current state of the CallHub.
+description: The get_State method gets the current state of the CallHub.helpviewer_keywords: ["ITCallHub interface [TAPI 2.2]","get_State method","ITCallHub.get_State","ITCallHub::get_State","_tapi3_itcallhub_get_state","get_State","get_State method [TAPI 2.2]","get_State method [TAPI 2.2]","ITCallHub interface","tapi3.itcallhub_get_state","tapi3if/ITCallHub::get_State"]
 old-location: tapi3\itcallhub_get_state.htm
 tech.root: Tapi
 ms.assetid: 0ca4bbad-6822-4a8b-8df4-da6e630752f0

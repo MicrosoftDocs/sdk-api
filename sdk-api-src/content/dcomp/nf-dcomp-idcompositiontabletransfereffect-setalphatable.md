@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetAlphaTable
 title: IDCompositionTableTransferEffect::SetAlphaTable (dcomp.h)
-description: Sets the list of values used to define the transfer function for the alpha channel.
+description: Sets the list of values used to define the transfer function for the alpha channel.helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetAlphaTable method","IDCompositionTableTransferEffect.SetAlphaTable","IDCompositionTableTransferEffect::SetAlphaTable","SetAlphaTable","SetAlphaTable method [DirectComposition]","SetAlphaTable method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetAlphaTable","directcomp.idcompositiontabletransfereffect_setalphatable"]
 old-location: directcomp\idcompositiontabletransfereffect_setalphatable.htm
 tech.root: directcomp
 ms.assetid: 8CF6673B-9D9C-40B9-AC91-B2F63450FE64

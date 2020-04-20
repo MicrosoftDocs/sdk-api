@@ -1,7 +1,7 @@
 ---
 UID: NS:raseapif._PPP_EAP_INPUT
 title: PPP_EAP_INPUT (raseapif.h)
-description: The PPP_EAP_INPUT structure is used in the interaction between the RAS Connection Manager Service PPP implementation and the EAP.
+description: The PPP_EAP_INPUT structure is used in the interaction between the RAS Connection Manager Service PPP implementation and the EAP.helpviewer_keywords: ["*PPPP_EAP_INPUT","PPPP_EAP_INPUT","PPPP_EAP_INPUT structure pointer [EAP]","PPP_EAP_INPUT","PPP_EAP_INPUT structure [EAP]","RAS_EAP_FLAG_8021X_AUTH","RAS_EAP_FLAG_ALTERNATIVE_USER_DB","RAS_EAP_FLAG_FIRST_LINK","RAS_EAP_FLAG_GUEST_ACCESS","RAS_EAP_FLAG_LOGON","RAS_EAP_FLAG_NON_INTERACTIVE","RAS_EAP_FLAG_PEAP_UPFRONT","RAS_EAP_FLAG_PRE_LOGON","RAS_EAP_FLAG_RESUME_FROM_HIBERNATE","RAS_EAP_FLAG_ROUTER","_eap_ppp_eap_input","eap.ppp_eap_input","raseapif/PPPP_EAP_INPUT","raseapif/PPP_EAP_INPUT"]
 old-location: eap\ppp_eap_input.htm
 tech.root: EAP
 ms.assetid: 80a8f118-323d-4040-91f7-202eeee6d227

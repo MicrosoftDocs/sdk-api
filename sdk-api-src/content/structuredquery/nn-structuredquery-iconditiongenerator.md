@@ -1,7 +1,7 @@
 ---
 UID: NN:structuredquery.IConditionGenerator
 title: IConditionGenerator (structuredquery.h)
-description: Provides methods for handling named entities and generating special conditions.
+description: Provides methods for handling named entities and generating special conditions.helpviewer_keywords: ["IConditionGenerator","IConditionGenerator interface [search]","IConditionGenerator interface [search]","described","_search_IConditionGenerator","search._search_IConditionGenerator","structuredquery/IConditionGenerator"]
 old-location: search\_search_IConditionGenerator.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\iconditiongenerator.htm

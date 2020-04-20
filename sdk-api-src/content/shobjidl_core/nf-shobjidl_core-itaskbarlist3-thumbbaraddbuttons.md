@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.ThumbBarAddButtons
 title: ITaskbarList3::ThumbBarAddButtons (shobjidl_core.h)
-description: Adds a thumbnail toolbar with a specified set of buttons to the thumbnail image of a window in a taskbar button flyout.
+description: Adds a thumbnail toolbar with a specified set of buttons to the thumbnail image of a window in a taskbar button flyout.helpviewer_keywords: ["ITaskbarList3 interface [Windows Shell]","ThumbBarAddButtons method","ITaskbarList3.ThumbBarAddButtons","ITaskbarList3::ThumbBarAddButtons","ThumbBarAddButtons","ThumbBarAddButtons method [Windows Shell]","ThumbBarAddButtons method [Windows Shell]","ITaskbarList3 interface","_shell_ITaskbarList3_ThumbBarAddButtons","shell.ITaskbarList3_ThumbBarAddButtons","shobjidl_core/ITaskbarList3::ThumbBarAddButtons"]
 old-location: shell\ITaskbarList3_ThumbBarAddButtons.htm
 tech.root: shell
 ms.assetid: 5d573879-aa90-41d9-a9b7-b813dafa78ae

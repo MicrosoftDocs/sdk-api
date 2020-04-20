@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateSessionObject
 title: ITsSbProvider::CreateSessionObject (sbtsv.h)
-description: Plug-ins can use the CreateSessionObject method to create an ITsSbSession session object.
+description: Plug-ins can use the CreateSessionObject method to create an ITsSbSession session object.helpviewer_keywords: ["CreateSessionObject","CreateSessionObject method [Remote Desktop Services]","CreateSessionObject method [Remote Desktop Services]","ITsSbProvider interface","ITsSbProvider interface [Remote Desktop Services]","CreateSessionObject method","ITsSbProvider.CreateSessionObject","ITsSbProvider::CreateSessionObject","sbtsv/ITsSbProvider::CreateSessionObject","termserv.itssbprovider_createsessionobject"]
 old-location: termserv\itssbprovider_createsessionobject.htm
 tech.root: TermServ
 ms.assetid: 14c800f8-a3d6-4d12-b568-94ef2d8e0aaf

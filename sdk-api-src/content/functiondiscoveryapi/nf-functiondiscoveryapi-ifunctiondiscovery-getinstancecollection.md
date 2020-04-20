@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.GetInstanceCollection
 title: IFunctionDiscovery::GetInstanceCollection (functiondiscoveryapi.h)
-description: Gets the specified collection of function instances, based on category and subcategory.
+description: Gets the specified collection of function instances, based on category and subcategory.helpviewer_keywords: ["GetInstanceCollection","GetInstanceCollection method","GetInstanceCollection method","IFunctionDiscovery interface","IFunctionDiscovery interface","GetInstanceCollection method","IFunctionDiscovery.GetInstanceCollection","IFunctionDiscovery::GetInstanceCollection","functiondiscoveryapi/IFunctionDiscovery::GetInstanceCollection","ncd.ifunctiondiscovery_getinstancecollection_method"]
 old-location: ncd\ifunctiondiscovery_getinstancecollection_method.htm
 tech.root: FunDisc
 ms.assetid: 615d252c-7365-4ef5-9e4f-94a49783a1bb

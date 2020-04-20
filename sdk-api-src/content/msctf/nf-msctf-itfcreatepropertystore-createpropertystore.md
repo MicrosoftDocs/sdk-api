@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCreatePropertyStore.CreatePropertyStore
 title: ITfCreatePropertyStore::CreatePropertyStore (msctf.h)
-description: ITfCreatePropertyStore::CreatePropertyStore method
+description: ITfCreatePropertyStore::CreatePropertyStore methodhelpviewer_keywords: ["CreatePropertyStore","CreatePropertyStore method [Text Services Framework]","CreatePropertyStore method [Text Services Framework]","ITfCreatePropertyStore interface","ITfCreatePropertyStore interface [Text Services Framework]","CreatePropertyStore method","ITfCreatePropertyStore.CreatePropertyStore","ITfCreatePropertyStore::CreatePropertyStore","_tsf_itfcreatepropertystore_createpropertystore_ref","msctf/ITfCreatePropertyStore::CreatePropertyStore","tsf.itfcreatepropertystore_createpropertystore"]
 old-location: tsf\itfcreatepropertystore_createpropertystore.htm
 tech.root: TSF
 ms.assetid: 8c2e612c-31d8-4c89-97c4-3e248d7b7b28
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates a property store object from serialized property store data.
 
 ## -parameters
 
@@ -111,26 +110,4 @@ The method was successful.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcreatepropertystore">ITfCreatePropertyStore</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-gettype">ITfPropertyStore::GetType
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[ITfCreatePropertyStore interface](nn-msctf-itfcreatepropertystore.md), [ITfPropertyStore interface](nn-msctf-itfpropertystore.md), [ITfPropertyStore::GetType](nf-msctf-itfpropertystore-gettype.md), [ITfRange interface](nn-msctf-itfrange.md)

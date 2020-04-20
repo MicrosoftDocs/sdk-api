@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1HwndRenderTarget
 title: ID2D1HwndRenderTarget (d2d1.h)
-description: Renders drawing instructions to a window.
+description: Renders drawing instructions to a window.helpviewer_keywords: ["ID2D1HwndRenderTarget","ID2D1HwndRenderTarget interface [Direct2D]","ID2D1HwndRenderTarget interface [Direct2D]","described","d2d1/ID2D1HwndRenderTarget","direct2d.ID2D1HwndRenderTarget"]
 old-location: direct2d\ID2D1HwndRenderTarget.htm
 tech.root: Direct2D
 ms.assetid: 860342cc-989c-4432-b879-07f3da07d50a

@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange2.Linearize
 title: ITextRange2::Linearize (tom.h)
-description: Translates the built-up math, ruby, and other inline objects in this range to linearized form.
+description: Translates the built-up math, ruby, and other inline objects in this range to linearized form.helpviewer_keywords: ["ITextRange2 interface [Windows Controls]","Linearize method","ITextRange2.Linearize","ITextRange2::Linearize","Linearize","Linearize method [Windows Controls]","Linearize method [Windows Controls]","ITextRange2 interface","controls.itextrange2_linearize","tom/ITextRange2::Linearize","tomMathAlphabetics","tomMathBuildDownOutermost","tomMathBuildUpArgOrZone","tomMathRemoveOutermost","tomPlain","tomTeX"]
 old-location: controls\itextrange2_linearize.htm
 tech.root: Controls
 ms.assetid: 9906547b-e31c-48a6-961e-0b7f5c0c0506

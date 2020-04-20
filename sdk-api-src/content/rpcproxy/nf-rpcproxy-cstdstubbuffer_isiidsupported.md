@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_IsIIDSupported
 title: CStdStubBuffer_IsIIDSupported function (rpcproxy.h)
-description: The CStdStubBuffer_IsIIDSupported function implements the IRpcStubBuffer::IsIIDSupported method.
+description: The CStdStubBuffer_IsIIDSupported function implements the IRpcStubBuffer::IsIIDSupported method.helpviewer_keywords: ["CStdStubBuffer_IsIIDSupported","CStdStubBuffer_IsIIDSupported","CStdStubBuffer_IsIIDSupported function [RPC]","rpc.cstdstubbuffer_isiidsupported","rpcproxy/CStdStubBuffer_IsIIDSupported"]
 old-location: rpc\cstdstubbuffer_isiidsupported.htm
 tech.root: Rpc
 ms.assetid: a0f47424-7286-493b-815f-96e27e645824

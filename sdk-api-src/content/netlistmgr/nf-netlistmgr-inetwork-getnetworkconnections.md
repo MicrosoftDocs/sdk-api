@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetwork.GetNetworkConnections
 title: INetwork::GetNetworkConnections (netlistmgr.h)
-description: The GetNetworkConnections method returns an enumeration of all network connections for a network. A network can have multiple connections to it from different interfaces or different links from the same interface.
+description: The GetNetworkConnections method returns an enumeration of all network connections for a network. A network can have multiple connections to it from different interfaces or different links from the same interface.helpviewer_keywords: ["GetNetworkConnections","GetNetworkConnections method [Network Awareness]","GetNetworkConnections method [Network Awareness]","INetwork interface","INetwork interface [Network Awareness]","GetNetworkConnections method","INetwork.GetNetworkConnections","INetwork::GetNetworkConnections","netlistmgr/INetwork::GetNetworkConnections","nla.inetwork_getnetworkconnections"]
 old-location: nla\inetwork_getnetworkconnections.htm
 tech.root: nla
 ms.assetid: cc599537-3c31-4674-81d0-608cadae3e61

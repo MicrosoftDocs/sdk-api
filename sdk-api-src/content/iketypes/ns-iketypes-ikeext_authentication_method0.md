@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_AUTHENTICATION_METHOD0_
 title: IKEEXT_AUTHENTICATION_METHOD0 (iketypes.h)
-description: Specifies various parameters for IKE/AuthIP authentication.
+description: Specifies various parameters for IKE/AuthIP authentication.helpviewer_keywords: ["IKEEXT_AUTHENTICATION_METHOD0","IKEEXT_AUTHENTICATION_METHOD0 structure [Filtering]","fwp.ikeext_authentication_method0","iketypes/IKEEXT_AUTHENTICATION_METHOD0"]
 old-location: fwp\ikeext_authentication_method0.htm
 tech.root: fwp
 ms.assetid: ce11d9ac-2636-432b-9bc7-3509f52478d9

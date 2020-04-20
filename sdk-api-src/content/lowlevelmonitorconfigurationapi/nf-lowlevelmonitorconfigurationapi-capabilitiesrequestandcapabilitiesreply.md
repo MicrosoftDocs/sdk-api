@@ -1,7 +1,7 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.CapabilitiesRequestAndCapabilitiesReply
 title: CapabilitiesRequestAndCapabilitiesReply function (lowlevelmonitorconfigurationapi.h)
-description: Retrieves a string describing a monitor's capabilities.
+description: Retrieves a string describing a monitor's capabilities.helpviewer_keywords: ["CapabilitiesRequestAndCapabilitiesReply","CapabilitiesRequestAndCapabilitiesReply function [Monitor Configuration]","lowlevelmonitorconfigurationapi/CapabilitiesRequestAndCapabilitiesReply","monitor.capabilitiesrequestandcapabilitiesreply"]
 old-location: monitor\capabilitiesrequestandcapabilitiesreply.htm
 tech.root: Monitor
 ms.assetid: 1e556f66-a77a-43f3-b54f-d14995d841f8

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroup.CreateProperty
 title: ISharedPropertyGroup::CreateProperty (comsvcs.h)
-description: Creates a new shared property with the specified name.
+description: Creates a new shared property with the specified name.helpviewer_keywords: ["CreateProperty","CreateProperty method [COM+]","CreateProperty method [COM+]","ISharedPropertyGroup interface","ISharedPropertyGroup interface [COM+]","CreateProperty method","ISharedPropertyGroup.CreateProperty","ISharedPropertyGroup::CreateProperty","_cos_ISharedPropertyGroup_CreateProperty","comsvcs/ISharedPropertyGroup::CreateProperty","cos.isharedpropertygroup_createproperty"]
 old-location: cos\isharedpropertygroup_createproperty.htm
 tech.root: cossdk
 ms.assetid: bc34ec47-b39f-49fd-a8dd-8c96bb708e88

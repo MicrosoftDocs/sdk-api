@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Instance_SetServerName
 title: MI_Instance_SetServerName function (mi.h)
-description: Sets the server name of the specified instance.
+description: Sets the server name of the specified instance.helpviewer_keywords: ["MI_Instance_SetServerName","MI_Instance_SetServerName function [Windows Management Infrastructure (MI)]","mi/MI_Instance_SetServerName","wmi_v2.mi_instance_setservername"]
 old-location: wmi_v2\mi_instance_setservername.htm
 tech.root: wmi_v2
 ms.assetid: 34864c69-091f-4dbd-9d56-e43f8d218b09

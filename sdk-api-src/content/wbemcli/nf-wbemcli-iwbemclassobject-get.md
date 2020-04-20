@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Get
 title: IWbemClassObject::Get (wbemcli.h)
-description: The IWbemClassObject::Get method retrieves the specified property value, if it exists. This method can also return system properties.
+description: The IWbemClassObject::Get method retrieves the specified property value, if it exists. This method can also return system properties.helpviewer_keywords: ["Get","Get method [Windows Management Instrumentation]","Get method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","Get method","IWbemClassObject.Get","IWbemClassObject::Get","WBEM_FLAVOR_ORIGIN_LOCAL","WBEM_FLAVOR_ORIGIN_PROPAGATED","WBEM_FLAVOR_ORIGIN_SYSTEM","_hmm_iwbemclassobject_get","wbemcli/IWbemClassObject::Get","wmi.iwbemclassobject_get"]
 old-location: wmi\iwbemclassobject_get.htm
 tech.root: WmiSdk
 ms.assetid: e4f6c28b-42d7-4109-803e-d3aac4d8509e

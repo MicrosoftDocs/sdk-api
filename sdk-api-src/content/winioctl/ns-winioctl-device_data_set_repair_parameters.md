@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_REPAIR_PARAMETERS
 title: DEVICE_DATA_SET_REPAIR_PARAMETERS
-description: Specifies parameters for the repair operation.
+description: Specifies parameters for the repair operation.helpviewer_keywords: ["*PDEVICE_DATA_SET_REPAIR_PARAMETERS","*PDEVICE_DSM_REPAIR_PARAMETERS","DEVICE_DATA_SET_REPAIR_PARAMETERS","DEVICE_DATA_SET_REPAIR_PARAMETERS structure","DEVICE_DSM_REPAIR_PARAMETERS","PDEVICE_DATA_SET_REPAIR_PARAMETERS","PDEVICE_DATA_SET_REPAIR_PARAMETERS structure pointer","base.device_data_set_repair_parameters","winioctl/DEVICE_DATA_SET_REPAIR_PARAMETERS","winioctl/PDEVICE_DATA_SET_REPAIR_PARAMETERS"]
 old-location: base\device_data_set_repair_parameters.htm
 tech.root: devio
 ms.assetid: 95bc892c-9bb7-464c-8084-7cc6e643fa28

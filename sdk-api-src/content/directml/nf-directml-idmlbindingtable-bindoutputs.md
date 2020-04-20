@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.IDMLBindingTable.BindOutputs
 title: IDMLBindingTable::BindOutputs
-description: Binds a set of resources as output tensors.
+description: Binds a set of resources as output tensors.helpviewer_keywords: ["BindOutputs","BindOutputs method","BindOutputs method","IDMLBindingTable interface","IDMLBindingTable interface","BindOutputs method","IDMLBindingTable.BindOutputs","IDMLBindingTable::BindOutputs","direct3d12.idmlbindingtable_bindoutputs","directml/IDMLBindingTable::BindOutputs"]
 old-location: direct3d12\idmlbindingtable_bindoutputs.htm
 tech.root: direct3d12
 ms.assetid: DBAD9981-03CD-46EA-AD94-6781C6A25626
@@ -72,10 +72,6 @@ This parameter determines the size of the <i>bindings</i> array (if provided).
 Type: <b>const [DML_BINDING_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_desc)*</b>
 
 An optional pointer to a constant array of [DML_BINDING_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_desc) containing descriptions of the tensor resources to bind.
-
-## -returns
-
-This method doesn't return a value.
 
 ## -see-also
 

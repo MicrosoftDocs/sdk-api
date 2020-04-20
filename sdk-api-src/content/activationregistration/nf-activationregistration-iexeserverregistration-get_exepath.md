@@ -1,7 +1,7 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_ExePath
 title: IExeServerRegistration::get_ExePath (activationregistration.h)
-description: Gets the file path to the out-of-process server.
+description: Gets the file path to the out-of-process server.helpviewer_keywords: ["IExeServerRegistration interface [Windows Runtime]","get_ExePath method","IExeServerRegistration.get_ExePath","IExeServerRegistration::get_ExePath","activationregistration/IExeServerRegistration::get_ExePath","get_ExePath","get_ExePath method [Windows Runtime]","get_ExePath method [Windows Runtime]","IExeServerRegistration interface","winrt.iexeserverregistration_exepath"]
 old-location: winrt\iexeserverregistration_exepath.htm
 tech.root: WinRT
 ms.assetid: 69E8D576-B842-4CD4-8D93-87E4E08D11CA

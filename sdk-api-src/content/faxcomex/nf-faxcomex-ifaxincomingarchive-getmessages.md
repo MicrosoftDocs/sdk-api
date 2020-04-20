@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.GetMessages
 title: IFaxIncomingArchive::GetMessages (faxcomex.h)
-description: The GetMessages method returns a new iterator (archive cursor) for the archive of inbound fax messages.
+description: The GetMessages method returns a new iterator (archive cursor) for the archive of inbound fax messages.helpviewer_keywords: ["GetMessages","GetMessages method [Fax Service]","GetMessages method [Fax Service]","IFaxIncomingArchive interface","IFaxIncomingArchive interface [Fax Service]","GetMessages method","IFaxIncomingArchive.GetMessages","IFaxIncomingArchive::GetMessages","_mfax_faxincomingarchive.getmessages","fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_getmessages_cpp","fax._mfax_faxincomingarchive_getmessages","faxcomex/IFaxIncomingArchive::GetMessages"]
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_getmessages_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1qnn.htm

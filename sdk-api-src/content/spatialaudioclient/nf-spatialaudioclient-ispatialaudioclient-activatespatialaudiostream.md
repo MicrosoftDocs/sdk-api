@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.ActivateSpatialAudioStream
 title: ISpatialAudioClient::ActivateSpatialAudioStream (spatialaudioclient.h)
-description: Activates and initializes spatial audio stream using one of the spatial audio stream activation structures.
+description: Activates and initializes spatial audio stream using one of the spatial audio stream activation structures.helpviewer_keywords: ["ActivateSpatialAudioStream","ActivateSpatialAudioStream method [Core Audio]","ActivateSpatialAudioStream method [Core Audio]","ISpatialAudioClient interface","ISpatialAudioClient interface [Core Audio]","ActivateSpatialAudioStream method","ISpatialAudioClient.ActivateSpatialAudioStream","ISpatialAudioClient::ActivateSpatialAudioStream","coreaudio.ispatialaudioclient_activatespatialaudiostream","spatialaudioclient/ISpatialAudioClient::ActivateSpatialAudioStream"]
 old-location: coreaudio\ispatialaudioclient_activatespatialaudiostream.htm
 tech.root: CoreAudio
 ms.assetid: CBBB5A62-D342-4FB7-890C-9FE37949CC07

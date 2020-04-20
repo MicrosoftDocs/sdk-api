@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.IntPtrSub
 title: IntPtrSub function (intsafe.h)
-description: Subtracts one value of type INT_PTR from another.
+description: Subtracts one value of type INT_PTR from another.helpviewer_keywords: ["IntPtrSub","IntPtrSub function [Windows Shell]","intsafe/IntPtrSub","shell.IntPtrSub"]
 old-location: shell\IntPtrSub.htm
 tech.root: shell
 ms.assetid: ad30f236-7412-401f-b6a9-76b74118092d

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamRotation
 title: ID3D11VideoContext::VideoProcessorSetStreamRotation (d3d11.h)
-description: Sets the stream rotation for an input stream on the video processor.
+description: Sets the stream rotation for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamRotation method","ID3D11VideoContext.VideoProcessorSetStreamRotation","ID3D11VideoContext::VideoProcessorSetStreamRotation","VideoProcessorSetStreamRotation","VideoProcessorSetStreamRotation method [Media Foundation]","VideoProcessorSetStreamRotation method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamRotation","mf.id3d11videocontext_videoprocessorsetstreamrotation"]
 old-location: mf\id3d11videocontext_videoprocessorsetstreamrotation.htm
 tech.root: medfound
 ms.assetid: f94d283c-5eea-4248-8c06-46ef66e86b22
@@ -75,15 +75,6 @@ Specifies if the stream is to be rotated in a clockwise orientation.
 ### -param Rotation
 
 Specifies the rotation of the stream.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

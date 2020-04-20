@@ -1,7 +1,7 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetNextProgram
 title: ITuneRequestInfo::GetNextProgram (bdatif.h)
-description: The GetNextProgram method creates a new tune request with channel or program locator information for the next service.
+description: The GetNextProgram method creates a new tune request with channel or program locator information for the next service.helpviewer_keywords: ["GetNextProgram","GetNextProgram method [Microsoft TV Technologies]","GetNextProgram method [Microsoft TV Technologies]","ITuneRequestInfo interface","ITuneRequestInfo interface [Microsoft TV Technologies]","GetNextProgram method","ITuneRequestInfo.GetNextProgram","ITuneRequestInfo::GetNextProgram","ITuneRequestInfoGetNextProgram","bdatif/ITuneRequestInfo::GetNextProgram","mstv.itunerequestinfo_getnextprogram"]
 old-location: mstv\itunerequestinfo_getnextprogram.htm
 tech.root: mstv
 ms.assetid: ed1c5a30-19fb-46a8-b521-017da56d85c8

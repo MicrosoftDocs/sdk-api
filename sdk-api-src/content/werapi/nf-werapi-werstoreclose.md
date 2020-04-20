@@ -1,7 +1,7 @@
 ---
 UID: NF:werapi.WerStoreClose
 title: WerStoreClose function (werapi.h)
-description: Closes the collection of stored reports.
+description: Closes the collection of stored reports.helpviewer_keywords: ["WerStoreClose","WerStoreClose function [Windows Error Reporting]","wer.werstoreclose","werapi/WerStoreClose"]
 old-location: wer\werstoreclose.htm
 tech.root: wer
 ms.assetid: C34FBA67-5267-471C-B1AA-87BFC5725831
@@ -62,15 +62,6 @@ Closes the collection of stored reports.
 ### -param hReportStore
 
 The error report store to close (previously retrieved with <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werstoreopen">WerStoreOpen</a>).
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

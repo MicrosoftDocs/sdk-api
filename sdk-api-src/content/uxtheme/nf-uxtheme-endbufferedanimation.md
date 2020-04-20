@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.EndBufferedAnimation
 title: EndBufferedAnimation function (uxtheme.h)
-description: Renders the first frame of a buffered animation operation and starts the animation timer.
+description: Renders the first frame of a buffered animation operation and starts the animation timer.helpviewer_keywords: ["EndBufferedAnimation","EndBufferedAnimation function [Windows Controls]","_shell_EndBufferedAnimation","_shell_EndBufferedAnimation_cpp","controls.EndBufferedAnimation","controls._shell_EndBufferedAnimation","uxtheme/EndBufferedAnimation"]
 old-location: controls\EndBufferedAnimation.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endbufferedanimation.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN IStream)
 title: Metafile::Metafile(IN IStream) (gdiplusheaders.h)
-description: Creates a Metafile::Metafile object from an IStream interface for playback.
+description: Creates a Metafile::Metafile object from an IStream interface for playback.helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile constructor","Metafile constructor [GDI+]","Metafile constructor [GDI+]","Metafile class","Metafile.Metafile","Metafile.Metafile(IN IStream)","Metafile.Metafile(IStream*)","Metafile::Metafile","Metafile::Metafile(IN IStream)","_gdiplus_CLASS_Metafile_Metafile_stream_","gdiplus._gdiplus_CLASS_Metafile_Metafile_stream_"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_stream_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_81stream.htm

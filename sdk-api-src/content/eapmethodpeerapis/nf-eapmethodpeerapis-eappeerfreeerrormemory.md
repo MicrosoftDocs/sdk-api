@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerFreeErrorMemory
 title: EapPeerFreeErrorMemory function (eapmethodpeerapis.h)
-description: Releases error-specific memory allocated by the EAP peer method.
+description: Releases error-specific memory allocated by the EAP peer method.helpviewer_keywords: ["EapPeerFreeErrorMemory","EapPeerFreeErrorMemory function [EAPHost]","eaphost.eappeerfreeerrormemory","eapmethodpeerapis/EapPeerFreeErrorMemory"]
 old-location: eaphost\eappeerfreeerrormemory.htm
 tech.root: eaphost
 ms.assetid: 85b4197c-5caf-4e2b-94fd-e651712dd39d
@@ -60,15 +60,6 @@ Releases error-specific memory allocated by the EAP peer method.
 ### -param pEapError [in]
 
 A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains the error data to free.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

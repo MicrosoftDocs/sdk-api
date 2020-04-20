@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.WaitForCompletion
 title: IFsrmReportJob::WaitForCompletion (fsrmreports.h)
-description: Waits for the reports in the job to complete.
+description: Waits for the reports in the job to complete.helpviewer_keywords: ["IFsrmReportJob interface [File Server Resource Manager]","WaitForCompletion method","IFsrmReportJob.WaitForCompletion","IFsrmReportJob::WaitForCompletion","WaitForCompletion","WaitForCompletion method [File Server Resource Manager]","WaitForCompletion method [File Server Resource Manager]","IFsrmReportJob interface","fs.ifsrmreportjob_waitforcompletion","fsrm.ifsrmreportjob_waitforcompletion","fsrmreports/IFsrmReportJob::WaitForCompletion"]
 old-location: fsrm\ifsrmreportjob_waitforcompletion.htm
 tech.root: fsrm
 ms.assetid: 127027a0-7f05-4de4-a3be-8e3c3ec30910

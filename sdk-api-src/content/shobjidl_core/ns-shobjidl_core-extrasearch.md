@@ -1,7 +1,7 @@
 ---
 UID: NS:shobjidl_core.EXTRASEARCH
 title: EXTRASEARCH (shobjidl_core.h)
-description: Used by an IEnumExtraSearch enumerator object to return information on the search objects supported by a Shell Folder object.
+description: Used by an IEnumExtraSearch enumerator object to return information on the search objects supported by a Shell Folder object.helpviewer_keywords: ["*LPEXTRASEARCH","EXTRASEARCH","EXTRASEARCH structure [Windows Shell]","LPEXTRASEARCH","LPEXTRASEARCH structure pointer [Windows Shell]","_win32_EXTRASEARCH","shell.EXTRASEARCH","shobjidl_core/EXTRASEARCH","shobjidl_core/LPEXTRASEARCH"]
 old-location: shell\EXTRASEARCH.htm
 tech.root: shell
 ms.assetid: d930a00b-3084-4da7-8915-0bebdb33df9b

@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowCallback.InvokeTargetShadow
 title: IWTSProtocolShadowCallback::InvokeTargetShadow (wtsprotocol.h)
-description: IWTSProtocolShadowCallback::InvokeTargetShadow is no longer available. Instead, use IWRdsProtocolShadowCallback::InvokeTargetShadow.
+description: IWTSProtocolShadowCallback::InvokeTargetShadow is no longer available. Instead, use IWRdsProtocolShadowCallback::InvokeTargetShadow.helpviewer_keywords: ["IWTSProtocolShadowCallback interface [Remote Desktop Services]","InvokeTargetShadow method","IWTSProtocolShadowCallback.InvokeTargetShadow","IWTSProtocolShadowCallback::InvokeTargetShadow","InvokeTargetShadow","InvokeTargetShadow method [Remote Desktop Services]","InvokeTargetShadow method [Remote Desktop Services]","IWTSProtocolShadowCallback interface","termserv.iwtsprotocolshadowcallback_invoketargetshadow","wtsprotocol/IWTSProtocolShadowCallback::InvokeTargetShadow"]
 old-location: termserv\iwtsprotocolshadowcallback_invoketargetshadow.htm
 tech.root: TermServ
 ms.assetid: 1ce090cd-6824-4a89-acb4-138a1d0f6f76

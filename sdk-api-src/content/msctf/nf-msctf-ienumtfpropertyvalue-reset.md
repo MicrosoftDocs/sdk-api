@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfPropertyValue.Reset
 title: IEnumTfPropertyValue::Reset (msctf.h)
-description: IEnumTfPropertyValue::Reset method
+description: IEnumTfPropertyValue::Reset methodhelpviewer_keywords: ["IEnumTfPropertyValue interface [Text Services Framework]","Reset method","IEnumTfPropertyValue.Reset","IEnumTfPropertyValue::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfPropertyValue interface","_tsf_ienumtfpropertyvalue_reset_ref","msctf/IEnumTfPropertyValue::Reset","tsf.ienumtfpropertyvalue_reset"]
 old-location: tsf\ienumtfpropertyvalue_reset.htm
 tech.root: TSF
 ms.assetid: d18fd066-94a3-48af-8db4-0def6c51565e
@@ -45,18 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfPropertyValue::Reset
 
-
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
@@ -81,7 +74,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfPropertyValue interface](nn-msctf-ienumtfpropertyvalue.md), [TF_PROPERTYVAL structure](ns-msctf-tf_propertyval.md)

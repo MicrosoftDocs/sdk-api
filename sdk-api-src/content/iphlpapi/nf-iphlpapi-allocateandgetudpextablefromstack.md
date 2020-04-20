@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.AllocateAndGetUdpExTableFromStack
 title: AllocateAndGetUdpExTableFromStack function (iphlpapi.h)
-description: Retrieves the UDP connection table and allocates memory from the local heap to store the table.
+description: Retrieves the UDP connection table and allocates memory from the local heap to store the table.helpviewer_keywords: ["AF_INET","AF_INET6","AllocateAndGetUdpExTableFromStack","AllocateAndGetUdpExTableFromStack function [IP Helper]","iphlp.allocateandgetudpextablefromstack","iphlpapi/AllocateAndGetUdpExTableFromStack"]
 old-location: iphlp\allocateandgetudpextablefromstack.htm
 tech.root: IpHlp
 ms.assetid: 22bb2cc2-c559-4a03-a1ab-9a7fa0442b13

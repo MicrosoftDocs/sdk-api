@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.EndPlaylistBurn
 title: IWMReaderPlaylistBurn::EndPlaylistBurn (wmsdkidl.h)
-description: The EndPlaylistBurn method completes the playlist burn process. This includes releasing resources and adjusting counts associated with rights in DRM licenses.
+description: The EndPlaylistBurn method completes the playlist burn process. This includes releasing resources and adjusting counts associated with rights in DRM licenses.helpviewer_keywords: ["EndPlaylistBurn","EndPlaylistBurn method [windows Media Format]","EndPlaylistBurn method [windows Media Format]","IWMReaderPlaylistBurn interface","IWMReaderPlaylistBurn interface [windows Media Format]","EndPlaylistBurn method","IWMReaderPlaylistBurn.EndPlaylistBurn","IWMReaderPlaylistBurn::EndPlaylistBurn","IWMReaderPlaylistBurnEndPlaylistBurn","wmformat.iwmreaderplaylistburn_endplaylistburn","wmsdkidl/IWMReaderPlaylistBurn::EndPlaylistBurn"]
 old-location: wmformat\iwmreaderplaylistburn_endplaylistburn.htm
 tech.root: wmformat
 ms.assetid: 355f23eb-3cdb-4c27-bc48-499f349aef2b

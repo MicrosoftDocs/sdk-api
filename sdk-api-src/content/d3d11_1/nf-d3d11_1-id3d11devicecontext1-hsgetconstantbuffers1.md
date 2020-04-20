@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.HSGetConstantBuffers1
 title: ID3D11DeviceContext1::HSGetConstantBuffers1 (d3d11_1.h)
-description: Gets the constant buffers that the hull-shader stage uses.
+description: Gets the constant buffers that the hull-shader stage uses.helpviewer_keywords: ["HSGetConstantBuffers1","HSGetConstantBuffers1 method [Direct3D 11]","HSGetConstantBuffers1 method [Direct3D 11]","ID3D11DeviceContext1 interface","ID3D11DeviceContext1 interface [Direct3D 11]","HSGetConstantBuffers1 method","ID3D11DeviceContext1.HSGetConstantBuffers1","ID3D11DeviceContext1::HSGetConstantBuffers1","d3d11_1/ID3D11DeviceContext1::HSGetConstantBuffers1","direct3d11.id3d11devicecontext1_hsgetconstantbuffers1"]
 old-location: direct3d11\id3d11devicecontext1_hsgetconstantbuffers1.htm
 tech.root: direct3d11
 ms.assetid: 600F04B5-2173-4CB0-9978-7A0327BE1FE0
@@ -81,15 +81,6 @@ A pointer to an array that receives the offsets into the buffers that  <i>ppCons
 ### -param pNumConstants [out, optional]
 
 A pointer to an array that receives the numbers of constants in the buffers that  <i>ppConstantBuffers</i> specifies. Each number specifies the number of constants that are contained in the constant buffer that the shader uses. Each number of constants starts from its respective offset that is specified in the <i>pFirstConstant</i> array. The runtime sets <i>pNumConstants</i> to <b>NULL</b> if it doesn't specify the numbers of constants in each buffer.
-
-
-## -returns
-
-
-
-Returns nothing
-
-
 
 
 ## -remarks

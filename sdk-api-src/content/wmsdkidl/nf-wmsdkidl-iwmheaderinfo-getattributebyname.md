@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetAttributeByName
 title: IWMHeaderInfo::GetAttributeByName (wmsdkidl.h)
-description: The GetAttributeByName method returns a descriptive attribute that is stored in the header section of the ASF file.
+description: The GetAttributeByName method returns a descriptive attribute that is stored in the header section of the ASF file.helpviewer_keywords: ["GetAttributeByName","GetAttributeByName method [windows Media Format]","GetAttributeByName method [windows Media Format]","IWMHeaderInfo interface","GetAttributeByName method [windows Media Format]","IWMHeaderInfo2 interface","GetAttributeByName method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo interface [windows Media Format]","GetAttributeByName method","IWMHeaderInfo.GetAttributeByName","IWMHeaderInfo2 interface [windows Media Format]","GetAttributeByName method","IWMHeaderInfo2::GetAttributeByName","IWMHeaderInfo3 interface [windows Media Format]","GetAttributeByName method","IWMHeaderInfo3::GetAttributeByName","IWMHeaderInfo::GetAttributeByName","IWMHeaderInfoGetAttributeByName","wmformat.iwmheaderinfo_getattributebyname","wmsdkidl/IWMHeaderInfo2::GetAttributeByName","wmsdkidl/IWMHeaderInfo3::GetAttributeByName","wmsdkidl/IWMHeaderInfo::GetAttributeByName"]
 old-location: wmformat\iwmheaderinfo_getattributebyname.htm
 tech.root: wmformat
 ms.assetid: 8941b989-f052-4e61-a64a-06748947fcf4

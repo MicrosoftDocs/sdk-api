@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1GeometrySink.AddQuadraticBeziers
 title: ID2D1GeometrySink::AddQuadraticBeziers (d2d1.h)
-description: Adds a sequence of quadratic Bezier segments as an array in a single call.
+description: Adds a sequence of quadratic Bezier segments as an array in a single call.helpviewer_keywords: ["AddQuadraticBeziers","AddQuadraticBeziers method [Direct2D]","AddQuadraticBeziers method [Direct2D]","ID2D1GeometrySink interface","ID2D1GeometrySink interface [Direct2D]","AddQuadraticBeziers method","ID2D1GeometrySink.AddQuadraticBeziers","ID2D1GeometrySink::AddQuadraticBeziers","d2d1/ID2D1GeometrySink::AddQuadraticBeziers","direct2d.ID2D1GeometrySink_AddQuadraticBeziers"]
 old-location: direct2d\ID2D1GeometrySink_AddQuadraticBeziers.htm
 tech.root: Direct2D
 ms.assetid: 3eb0921e-1d9c-48a0-a709-3ac7feed22c5
@@ -69,15 +69,6 @@ An array of a sequence of quadratic Bezier segments.
 Type: <b>UINT</b>
 
 A value indicating the number of quadratic Bezier segments in <i>beziers</i>. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NS:wsman._WSMAN_ERROR
 title: WSMAN_ERROR (wsman.h)
-description: Contains error information that is returned by a Windows Remote Management (WinRM) client.
+description: Contains error information that is returned by a Windows Remote Management (WinRM) client.helpviewer_keywords: ["WSMAN_ERROR","WSMAN_ERROR structure [Windows Remote Management]","winrm.wsman_error_struct","wsman/WSMAN_ERROR"]
 old-location: winrm\wsman_error_struct.htm
 tech.root: winrm
 ms.assetid: 6705b560-9c72-4cb9-a290-f7c65cd470b2

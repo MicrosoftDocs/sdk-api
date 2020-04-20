@@ -1,7 +1,7 @@
 ---
 UID: NS:ddkmapi._DDFLIPOVERLAY
 title: DDFLIPOVERLAY (ddkmapi.h)
-description: The DDFLIPOVERLAY structure contains the surface information required for the flip.
+description: The DDFLIPOVERLAY structure contains the surface information required for the flip.helpviewer_keywords: ["*LPDDFLIPOVERLAY","DDFLIPOVERLAY","DDFLIPOVERLAY structure [Display Devices]","LPDDFLIPOVERLAY","LPDDFLIPOVERLAY structure pointer [Display Devices]","ddkmapi/DDFLIPOVERLAY","ddkmapi/LPDDFLIPOVERLAY","ddstrcts_a29d7c69-b024-435d-8853-54477c17e960.xml","display.ddflipoverlay"]
 old-location: display\ddflipoverlay.htm
 tech.root: display
 ms.assetid: 455005d8-5713-4188-9bcb-333c7c4f849d

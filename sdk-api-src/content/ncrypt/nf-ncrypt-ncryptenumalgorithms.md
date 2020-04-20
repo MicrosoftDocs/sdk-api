@@ -1,7 +1,7 @@
 ---
 UID: NF:ncrypt.NCryptEnumAlgorithms
 title: NCryptEnumAlgorithms function (ncrypt.h)
-description: Obtains the names of the algorithms that are supported by the specified key storage provider.
+description: Obtains the names of the algorithms that are supported by the specified key storage provider.helpviewer_keywords: ["NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION","NCRYPT_CIPHER_OPERATION","NCRYPT_HASH_OPERATION","NCRYPT_SECRET_AGREEMENT_OPERATION","NCRYPT_SIGNATURE_OPERATION","NCRYPT_SILENT_FLAG","NCryptEnumAlgorithms","NCryptEnumAlgorithms function [Security]","ncrypt/NCryptEnumAlgorithms","security.ncryptenumalgorithms_func"]
 old-location: security\ncryptenumalgorithms_func.htm
 tech.root: SecCNG
 ms.assetid: ea4f270b-c556-4f52-892a-199c9cfced26

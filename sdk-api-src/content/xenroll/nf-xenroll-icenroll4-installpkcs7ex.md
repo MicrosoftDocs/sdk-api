@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.ICEnroll4.InstallPKCS7Ex
 title: ICEnroll4::InstallPKCS7Ex (xenroll.h)
-description: Processes a certificate or chain of certificates, placing them into the appropriate certificate stores.InstallPKCS7 except that it returns the number of certificates actually installed in local stores.
+description: Processes a certificate or chain of certificates, placing them into the appropriate certificate stores.InstallPKCS7 except that it returns the number of certificates actually installed in local stores.helpviewer_keywords: ["CEnroll object [Security]","InstallPKCS7Ex method","ICEnroll4 interface [Security]","InstallPKCS7Ex method","ICEnroll4.InstallPKCS7Ex","ICEnroll4::InstallPKCS7Ex","InstallPKCS7Ex","InstallPKCS7Ex method [Security]","InstallPKCS7Ex method [Security]","CEnroll object","InstallPKCS7Ex method [Security]","ICEnroll4 interface","_xen_icenroll4_installpkcs7ex","security.icenroll4_installpkcs7ex","xenroll/ICEnroll4::InstallPKCS7Ex"]
 old-location: security\icenroll4_installpkcs7ex.htm
 tech.root: SecCrypto
 ms.assetid: 886fd5f0-d91f-439f-b259-dfb0206d3078

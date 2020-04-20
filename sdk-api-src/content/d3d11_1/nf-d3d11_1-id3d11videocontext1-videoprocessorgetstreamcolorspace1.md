@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorGetStreamColorSpace1
 title: ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1 (d3d11_1.h)
-description: Gets the color space information for the video processor input stream.
+description: Gets the color space information for the video processor input stream.helpviewer_keywords: ["ID3D11VideoContext1 interface [Media Foundation]","VideoProcessorGetStreamColorSpace1 method","ID3D11VideoContext1.VideoProcessorGetStreamColorSpace1","ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1","VideoProcessorGetStreamColorSpace1","VideoProcessorGetStreamColorSpace1 method [Media Foundation]","VideoProcessorGetStreamColorSpace1 method [Media Foundation]","ID3D11VideoContext1 interface","d3d11_1/ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1","mf.id3d11videocontext1_videoprocessorgetstreamcolorspace1"]
 old-location: mf\id3d11videocontext1_videoprocessorgetstreamcolorspace1.htm
 tech.root: medfound
 ms.assetid: C9A53D81-C3E4-4B6F-9189-A58E40F8B7E7
@@ -76,15 +76,6 @@ An index identifying the input stream.
 Type: <b>DXGI_COLOR_SPACE_TYPE*</b>
 
 A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a> value that specifies the colorspace for the video processor input stream.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

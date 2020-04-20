@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IViewObjectEx.QueryHitRect
 title: IViewObjectEx::QueryHitRect (ocidl.h)
-description: Indicates whether any point in a rectangle is within a given drawing aspect of an object.
+description: Indicates whether any point in a rectangle is within a given drawing aspect of an object.helpviewer_keywords: ["IViewObjectEx interface [COM]","QueryHitRect method","IViewObjectEx.QueryHitRect","IViewObjectEx::QueryHitRect","QueryHitRect","QueryHitRect method [COM]","QueryHitRect method [COM]","IViewObjectEx interface","_ole_iviewobjectex_queryhitrect","com.iviewobjectex_queryhitrect","ocidl/IViewObjectEx::QueryHitRect"]
 old-location: com\iviewobjectex_queryhitrect.htm
 tech.root: com
 ms.assetid: eb155424-e74c-497f-a9c0-33ed3b2b5513

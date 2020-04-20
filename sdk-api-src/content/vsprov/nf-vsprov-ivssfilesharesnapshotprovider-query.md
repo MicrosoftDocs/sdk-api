@@ -1,7 +1,7 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.Query
 title: IVssFileShareSnapshotProvider::Query (vsprov.h)
-description: Gets an enumeration of VSS_SNAPSHOT_PROP structures for all file share snapshots that are available to the application server.
+description: Gets an enumeration of VSS_SNAPSHOT_PROP structures for all file share snapshots that are available to the application server.helpviewer_keywords: ["IVssFileShareSnapshotProvider interface [VSS]","Query method","IVssFileShareSnapshotProvider.Query","IVssFileShareSnapshotProvider::Query","Query","Query method [VSS]","Query method [VSS]","IVssFileShareSnapshotProvider interface","base.ivssfilesharesnapshotprovider_query","vsprov/IVssFileShareSnapshotProvider::Query"]
 old-location: base\ivssfilesharesnapshotprovider_query.htm
 tech.root: VSS
 ms.assetid: 686d2104-f657-4c3b-967b-d6fb9137be17

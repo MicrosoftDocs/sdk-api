@@ -1,7 +1,7 @@
 ---
 UID: NS:http._HTTP_TIMEOUT_LIMIT_INFO
 title: HTTP_TIMEOUT_LIMIT_INFO (http.h)
-description: Defines the application-specific connection timeout limits.
+description: Defines the application-specific connection timeout limits.helpviewer_keywords: ["*PHTTP_TIMEOUT_LIMIT_INFO","*PHTTP_TIMEOUT_LIMIT_INFO structure [HTTP]","HTTP_TIMEOUT_LIMIT_INFO","HTTP_TIMEOUT_LIMIT_INFO structure [HTTP]","http.http_timeout_limit_info","http/*PHTTP_TIMEOUT_LIMIT_INFO","http/HTTP_TIMEOUT_LIMIT_INFO"]
 old-location: http\http_timeout_limit_info.htm
 tech.root: http
 ms.assetid: 900f4b4d-c34d-4994-b8eb-b3f15e54f29a

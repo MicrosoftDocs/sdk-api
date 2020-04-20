@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMVisual
 title: IXpsOMVisual (xpsobjectmodel.h)
-description: The base interface for path, canvas, and glyph interfaces.
+description: The base interface for path, canvas, and glyph interfaces.helpviewer_keywords: ["IXpsOMVisual","IXpsOMVisual interface [XPS Documents and Packaging]","IXpsOMVisual interface [XPS Documents and Packaging]","described","xps.ixpsomvisual","xpsobjectmodel/IXpsOMVisual"]
 old-location: xps\ixpsomvisual.htm
 tech.root: printdocs
 ms.assetid: f2ec412c-aece-4b20-a721-e6c17615e56b

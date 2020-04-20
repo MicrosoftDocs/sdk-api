@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptRetrieveTimeStamp
 title: CryptRetrieveTimeStamp function (wincrypt.h)
-description: Encodes a time stamp request and retrieves the time stamp token from a location specified by a URL to a Time Stamping Authority (TSA).
+description: Encodes a time stamp request and retrieves the time stamp token from a location specified by a URL to a Time Stamping Authority (TSA).helpviewer_keywords: ["CryptRetrieveTimeStamp","CryptRetrieveTimeStamp function [Security]","TIMESTAMP_DONT_HASH_DATA","TIMESTAMP_NO_AUTH_RETRIEVAL","TIMESTAMP_VERIFY_CONTEXT_SIGNATURE","security.cryptretrievetimestamp","wincrypt/CryptRetrieveTimeStamp"]
 old-location: security\cryptretrievetimestamp.htm
 tech.root: SecCrypto
 ms.assetid: 68ba3d40-08b0-4261-ab2f-6deb1795f830

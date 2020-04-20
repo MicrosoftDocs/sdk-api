@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.InsertEffect
 title: IMFPMediaPlayer::InsertEffect (mfplay.h)
-description: Applies an audio or video effect to playback.
+description: Applies an audio or video effect to playback.helpviewer_keywords: ["FALSE","IMFPMediaPlayer interface [Media Foundation]","InsertEffect method","IMFPMediaPlayer.InsertEffect","IMFPMediaPlayer::InsertEffect","InsertEffect","InsertEffect method [Media Foundation]","InsertEffect method [Media Foundation]","IMFPMediaPlayer interface","TRUE","mf.imfpmediaplayer_inserteffect","mfplay/IMFPMediaPlayer::InsertEffect"]
 old-location: mf\imfpmediaplayer_inserteffect.htm
 tech.root: medfound
 ms.assetid: 2689ee46-5cfe-4616-850c-eb5aef340daa

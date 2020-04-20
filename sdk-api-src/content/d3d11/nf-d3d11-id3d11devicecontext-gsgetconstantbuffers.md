@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GSGetConstantBuffers
 title: ID3D11DeviceContext::GSGetConstantBuffers (d3d11.h)
-description: Get the constant buffers used by the geometry shader pipeline stage.
+description: Get the constant buffers used by the geometry shader pipeline stage.helpviewer_keywords: ["90cf0266-e4b2-8106-f337-5c65752dd7d8","GSGetConstantBuffers","GSGetConstantBuffers method [Direct3D 11]","GSGetConstantBuffers method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GSGetConstantBuffers method","ID3D11DeviceContext.GSGetConstantBuffers","ID3D11DeviceContext::GSGetConstantBuffers","d3d11/ID3D11DeviceContext::GSGetConstantBuffers","direct3d11.id3d11devicecontext_gsgetconstantbuffers"]
 old-location: direct3d11\id3d11devicecontext_gsgetconstantbuffers.htm
 tech.root: direct3d11
 ms.assetid: 1a28c673-1e37-4801-bb9c-ba0cf28335d1
@@ -77,15 +77,6 @@ Number of buffers to retrieve (ranges from 0 to D3D11_COMMONSHADER_CONSTANT_BUFF
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>**</b>
 
 Array of constant buffer interface pointers (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>) to be returned by the method.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

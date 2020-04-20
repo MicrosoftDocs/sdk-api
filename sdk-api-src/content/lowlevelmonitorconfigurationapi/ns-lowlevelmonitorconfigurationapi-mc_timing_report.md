@@ -1,7 +1,7 @@
 ---
 UID: NS:lowlevelmonitorconfigurationapi._MC_TIMING_REPORT
 title: MC_TIMING_REPORT (lowlevelmonitorconfigurationapi.h)
-description: Contains information from a monitor's timing report.
+description: Contains information from a monitor's timing report.helpviewer_keywords: ["*LPMC_TIMING_REPORT","LPMC_TIMING_REPORT","LPMC_TIMING_REPORT structure pointer [Monitor Configuration]","MC_TIMING_REPORT","MC_TIMING_REPORT structure [Monitor Configuration]","lowlevelmonitorconfigurationapi/LPMC_TIMING_REPORT","lowlevelmonitorconfigurationapi/MC_TIMING_REPORT","monitor.mc_timing_report"]
 old-location: monitor\mc_timing_report.htm
 tech.root: Monitor
 ms.assetid: dfad2277-4f0d-4a92-a332-2c6c2bbac138

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.GetGUID
 title: ITfCategoryMgr::GetGUID (msctf.h)
-description: ITfCategoryMgr::GetGUID method
+description: ITfCategoryMgr::GetGUID methodhelpviewer_keywords: ["GetGUID","GetGUID method [Text Services Framework]","GetGUID method [Text Services Framework]","ITfCategoryMgr interface","ITfCategoryMgr interface [Text Services Framework]","GetGUID method","ITfCategoryMgr.GetGUID","ITfCategoryMgr::GetGUID","_tsf_itfcategorymgr_getguid_ref","msctf/ITfCategoryMgr::GetGUID","tsf.itfcategorymgr_getguid"]
 old-location: tsf\itfcategorymgr_getguid.htm
 tech.root: TSF
 ms.assetid: a5f5a67c-3152-4933-8a35-0a0cd555a0bf
@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::GetGUID
 
-
 ## -description
 
-
-
+Obtains a GUID from the internal table using its atom.
 
 ## -parameters
-
-
-
 
 ### -param guidatom [in]
 
 Contains a <b>TfGuidAtom</b> value that specifies the GUID to obtain.
 
-
 ### -param pguid [out]
 
 Pointer to a <b>GUID</b> value that receives the <b>GUID</b> for the specified atom. Receives GUID_NULL if the <b>GUID</b> for the atom cannot be found.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,29 +102,7 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguid">ITfCategoryMgr::RegisterGUID
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tfguidatom">TfGuidAtom
-      </a>
- 
-
- 
-
+[nn-msctf-itfcategorymgr](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::RegisterGUID](nf-msctf-itfcategorymgr-registerguid.md), [ITfCategoryMgr::IsEqualTfGuidAtom](nf-msctf-itfcategorymgr-isequaltfguidatom.md)

@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocatorNotify9.NotifyEvent
 title: IVMRSurfaceAllocatorNotify9::NotifyEvent (vmr9.h)
-description: The NotifyEvent method is called by the allocator-presenter to inform the VMR of any significant DirectShow events that it (the allocator presenter) generates during the allocation or presentation processes.
+description: The NotifyEvent method is called by the allocator-presenter to inform the VMR of any significant DirectShow events that it (the allocator presenter) generates during the allocation or presentation processes.helpviewer_keywords: ["IVMRSurfaceAllocatorNotify9 interface [DirectShow]","NotifyEvent method","IVMRSurfaceAllocatorNotify9.NotifyEvent","IVMRSurfaceAllocatorNotify9::NotifyEvent","IVMRSurfaceAllocatorNotify9NotifyEvent","NotifyEvent","NotifyEvent method [DirectShow]","NotifyEvent method [DirectShow]","IVMRSurfaceAllocatorNotify9 interface","dshow.ivmrsurfaceallocatornotify9_notifyevent","vmr9/IVMRSurfaceAllocatorNotify9::NotifyEvent"]
 old-location: dshow\ivmrsurfaceallocatornotify9_notifyevent.htm
 tech.root: DirectShow
 ms.assetid: 04c92e0f-9f6e-484c-96cd-3567c09a2ff6

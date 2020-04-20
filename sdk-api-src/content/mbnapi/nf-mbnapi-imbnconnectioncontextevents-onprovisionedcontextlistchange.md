@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContextEvents.OnProvisionedContextListChange
 title: IMbnConnectionContextEvents::OnProvisionedContextListChange (mbnapi.h)
-description: Notification method called by the Mobile Broadband service to indicate that a provisioned context stored in the device is available or updated.
+description: Notification method called by the Mobile Broadband service to indicate that a provisioned context stored in the device is available or updated.helpviewer_keywords: ["IMbnConnectionContextEvents interface [Microsoft Broadband Networks]","OnProvisionedContextListChange method","IMbnConnectionContextEvents.OnProvisionedContextListChange","IMbnConnectionContextEvents::OnProvisionedContextListChange","OnProvisionedContextListChange","OnProvisionedContextListChange method [Microsoft Broadband Networks]","OnProvisionedContextListChange method [Microsoft Broadband Networks]","IMbnConnectionContextEvents interface","mbn.imbnconnectioncontextevents_onprovisionedcontextlistchange","mbnapi/IMbnConnectionContextEvents::OnProvisionedContextListChange"]
 old-location: mbn\imbnconnectioncontextevents_onprovisionedcontextlistchange.htm
 tech.root: mbn
 ms.assetid: 3c8fa150-7c36-4ad8-ada8-2b17693671d9

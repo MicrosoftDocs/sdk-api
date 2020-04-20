@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GET_XBUTTON_WPARAM
 title: GET_XBUTTON_WPARAM macro (winuser.h)
-description: Retrieves the state of certain buttons from the specified WPARAM value.
+description: Retrieves the state of certain buttons from the specified WPARAM value.helpviewer_keywords: ["GET_XBUTTON_WPARAM","GET_XBUTTON_WPARAM macro [Keyboard and Mouse Input]","_win32_GET_XBUTTON_WPARAM","_win32_get_xbutton_wparam_cpp","inputdev.get_xbutton_wparam","winui._win32_get_xbutton_wparam","winuser/GET_XBUTTON_WPARAM"]
 old-location: inputdev\get_xbutton_wparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_xbutton_wparam.htm

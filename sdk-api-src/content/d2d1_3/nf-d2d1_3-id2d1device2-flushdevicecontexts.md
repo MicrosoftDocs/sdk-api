@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1Device2.FlushDeviceContexts
 title: ID2D1Device2::FlushDeviceContexts (d2d1_3.h)
-description: Flush all device contexts that reference a given bitmap.
+description: Flush all device contexts that reference a given bitmap.helpviewer_keywords: ["FlushDeviceContexts","FlushDeviceContexts method [Direct2D]","FlushDeviceContexts method [Direct2D]","ID2D1Device2 interface","ID2D1Device2 interface [Direct2D]","FlushDeviceContexts method","ID2D1Device2.FlushDeviceContexts","ID2D1Device2::FlushDeviceContexts","d2d1_3/ID2D1Device2::FlushDeviceContexts","direct2d.id2d1device2_flushdevicecontexts"]
 old-location: direct2d\id2d1device2_flushdevicecontexts.htm
 tech.root: Direct2D
 ms.assetid: 914A64BA-61CD-4A66-91D8-F7CC040AF67A
@@ -62,15 +62,6 @@ Flush all device contexts that reference a given bitmap.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>*</b>
 
 The bitmap, created on this device, for which all referencing device contexts will be flushed. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

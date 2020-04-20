@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.Next
 title: IWbemQualifierSet::Next (wbemcli.h)
-description: The IWbemQualifierSet::Next method retrieves the next qualifier in an enumeration that started with IWbemQualifierSet::BeginEnumeration.
+description: The IWbemQualifierSet::Next method retrieves the next qualifier in an enumeration that started with IWbemQualifierSet::BeginEnumeration.helpviewer_keywords: ["IWbemQualifierSet interface [Windows Management Instrumentation]","Next method","IWbemQualifierSet.Next","IWbemQualifierSet::Next","Next","Next method [Windows Management Instrumentation]","Next method [Windows Management Instrumentation]","IWbemQualifierSet interface","_hmm_iwbemqualifierset_next","wbemcli/IWbemQualifierSet::Next","wmi.iwbemqualifierset_next"]
 old-location: wmi\iwbemqualifierset_next.htm
 tech.root: WmiSdk
 ms.assetid: 76afa293-1bd9-442b-bc9b-2247459bd49c

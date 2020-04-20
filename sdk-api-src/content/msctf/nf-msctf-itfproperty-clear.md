@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfProperty.Clear
 title: ITfProperty::Clear (msctf.h)
-description: ITfProperty::Clear method
+description: ITfProperty::Clear methodhelpviewer_keywords: ["Clear","Clear method [Text Services Framework]","Clear method [Text Services Framework]","ITfProperty interface","ITfProperty interface [Text Services Framework]","Clear method","ITfProperty.Clear","ITfProperty::Clear","_tsf_itfproperty_clear_ref","msctf/ITfProperty::Clear","tsf.itfproperty_clear"]
 old-location: tsf\itfproperty_clear.htm
 tech.root: TSF
 ms.assetid: bbfbbe0d-bea7-4c46-8b9c-6b607a761f48
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Empties the property value over the specified range.
 
 ## -parameters
 

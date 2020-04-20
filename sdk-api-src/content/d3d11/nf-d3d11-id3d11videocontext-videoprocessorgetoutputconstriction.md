@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputConstriction
 title: ID3D11VideoContext::VideoProcessorGetOutputConstriction (d3d11.h)
-description: Gets the current level of downsampling that is performed by the video processor.
+description: Gets the current level of downsampling that is performed by the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetOutputConstriction method","ID3D11VideoContext.VideoProcessorGetOutputConstriction","ID3D11VideoContext::VideoProcessorGetOutputConstriction","VideoProcessorGetOutputConstriction","VideoProcessorGetOutputConstriction method [Media Foundation]","VideoProcessorGetOutputConstriction method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetOutputConstriction","mf.id3d11videocontext_videoprocessorgetoutputconstriction"]
 old-location: mf\id3d11videocontext_videoprocessorgetoutputconstriction.htm
 tech.root: medfound
 ms.assetid: 40F7D380-C385-4C1C-90E5-E362CA54CD41
@@ -70,15 +70,6 @@ Receives the value <b>TRUE</b> if downsampling was explicitly enabled using the 
 ### -param pSize [out]
 
 If <i>Enabled</i> receives the value <b>TRUE</b>, this parameter receives the downsampling size. Otherwise, this parameter is ignored.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

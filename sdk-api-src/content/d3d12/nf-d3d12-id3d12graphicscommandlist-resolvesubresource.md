@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResolveSubresource
 title: ID3D12GraphicsCommandList::ResolveSubresource (d3d12.h)
-description: Copy a multi-sampled resource into a non-multi-sampled resource.
+description: Copy a multi-sampled resource into a non-multi-sampled resource.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","ResolveSubresource method","ID3D12GraphicsCommandList.ResolveSubresource","ID3D12GraphicsCommandList::ResolveSubresource","ResolveSubresource","ResolveSubresource method","ResolveSubresource method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::ResolveSubresource","direct3d12.id3d12graphicscommandlist_resolvesubresource"]
 old-location: direct3d12\id3d12graphicscommandlist_resolvesubresource.htm
 tech.root: direct3d12
 ms.assetid: F1D4BAD1-B08E-47D0-9D2B-41873D6B4456
@@ -97,16 +97,6 @@ Type: <b>DXGI_FORMAT</b>
 A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource.
             See remarks.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

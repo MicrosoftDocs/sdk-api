@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Clone
 title: IEnumTfCandidates::Clone (ctffunc.h)
-description: IEnumTfCandidates::Clone method
+description: IEnumTfCandidates::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfCandidates interface","IEnumTfCandidates interface [Text Services Framework]","Clone method","IEnumTfCandidates.Clone","IEnumTfCandidates::Clone","_tsf_ienumtfcandidates_clone_ref","ctffunc/IEnumTfCandidates::Clone","tsf.ienumtfcandidates_clone"]
 old-location: tsf\ienumtfcandidates_clone.htm
 tech.root: TSF
 ms.assetid: 7e7fc6d9-69eb-4457-be28-2b28b9eeeabb
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
 

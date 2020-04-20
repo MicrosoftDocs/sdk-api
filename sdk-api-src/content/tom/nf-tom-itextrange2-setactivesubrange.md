@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange2.SetActiveSubrange
 title: ITextRange2::SetActiveSubrange (tom.h)
-description: Makes the specified subrange the active subrange of this range.
+description: Makes the specified subrange the active subrange of this range.helpviewer_keywords: ["ITextRange2 interface [Windows Controls]","SetActiveSubrange method","ITextRange2.SetActiveSubrange","ITextRange2::SetActiveSubrange","SetActiveSubrange","SetActiveSubrange method [Windows Controls]","SetActiveSubrange method [Windows Controls]","ITextRange2 interface","controls.itextrange2_setactivesubrange","tom/ITextRange2::SetActiveSubrange"]
 old-location: controls\itextrange2_setactivesubrange.htm
 tech.root: Controls
 ms.assetid: a635edd3-dcb9-4f1f-bf6e-774ce3f0c505

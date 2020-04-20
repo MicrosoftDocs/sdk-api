@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetValue
 title: IWICMetadataReader::GetValue (wincodecsdk.h)
-description: Gets the metadata item value.
+description: Gets the metadata item value.helpviewer_keywords: ["GetValue","GetValue method [Windows Imaging Component]","GetValue method [Windows Imaging Component]","IWICMetadataReader interface","IWICMetadataReader interface [Windows Imaging Component]","GetValue method","IWICMetadataReader.GetValue","IWICMetadataReader::GetValue","_wic_codec_iwicmetadatareader_getvalue","wic._wic_codec_iwicmetadatareader_getvalue","wincodecsdk/IWICMetadataReader::GetValue"]
 old-location: wic\_wic_codec_iwicmetadatareader_getvalue.htm
 tech.root: wic
 ms.assetid: 7ae1328d-cda7-4522-9bcf-2c4b16fd6984

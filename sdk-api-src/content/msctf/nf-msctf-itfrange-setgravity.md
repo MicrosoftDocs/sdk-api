@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRange.SetGravity
 title: ITfRange::SetGravity (msctf.h)
-description: ITfRange::SetGravity method
+description: ITfRange::SetGravity methodhelpviewer_keywords: ["ITfRange interface [Text Services Framework]","SetGravity method","ITfRange.SetGravity","ITfRange::SetGravity","SetGravity","SetGravity method [Text Services Framework]","SetGravity method [Text Services Framework]","ITfRange interface","_tsf_itfrange_setgravity_ref","msctf/ITfRange::SetGravity","tsf.itfrange_setgravity"]
 old-location: tsf\itfrange_setgravity.htm
 tech.root: TSF
 ms.assetid: f8be0458-cd14-471d-a138-0730f87374e0
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the gravity of the anchors in the object.
 
 ## -parameters
 

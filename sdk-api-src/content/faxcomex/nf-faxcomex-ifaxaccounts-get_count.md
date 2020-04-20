@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxAccounts.get_Count
 title: IFaxAccounts::get_Count (faxcomex.h)
-description: Holds the number of items in the IFaxAccounts collection.
+description: Holds the number of items in the IFaxAccounts collection.helpviewer_keywords: ["Count property [Fax Service]","Count property [Fax Service]","IFaxAccounts interface","IFaxAccounts interface [Fax Service]","Count property","IFaxAccounts.Count","IFaxAccounts.get_Count","IFaxAccounts::Count","IFaxAccounts::get_Count","_mfax_faxaccounts.count","fax._mfax_faxaccounts_count","fax._mfax_faxaccounts_cpp_mfax_faxaccounts_count_cpp","faxcomex/IFaxAccounts::Count","faxcomex/IFaxAccounts::get_Count","get_Count"]
 old-location: fax\_mfax_faxaccounts_cpp_mfax_faxaccounts_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\count.htm

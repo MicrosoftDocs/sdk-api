@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ComboBox_GetItemHeight
 title: ComboBox_GetItemHeight macro (windowsx.h)
-description: Retrieves the height of list items in a combo box. You can use this macro or send the CB_GETITEMHEIGHT message explicitly.
+description: Retrieves the height of list items in a combo box. You can use this macro or send the CB_GETITEMHEIGHT message explicitly.helpviewer_keywords: ["ComboBox_GetItemHeight","ComboBox_GetItemHeight macro [Windows Controls]","_win32_ComboBox_GetItemHeight","_win32_ComboBox_GetItemHeight_cpp","controls.ComboBox_GetItemHeight","controls._win32_ComboBox_GetItemHeight","windowsx/ComboBox_GetItemHeight"]
 old-location: controls\ComboBox_GetItemHeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getitemheight.htm

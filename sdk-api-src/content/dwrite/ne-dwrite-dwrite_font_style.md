@@ -1,7 +1,7 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_STYLE
 title: DWRITE_FONT_STYLE (dwrite.h)
-description: Represents the style of a font face as normal, italic, or oblique.
+description: Represents the style of a font face as normal, italic, or oblique.helpviewer_keywords: ["DWRITE_FONT_STYLE","DWRITE_FONT_STYLE enumeration [Direct Write]","DWRITE_FONT_STYLE_ITALIC","DWRITE_FONT_STYLE_NORMAL","DWRITE_FONT_STYLE_OBLIQUE","directwrite.dwrite_font_style","dwrite/DWRITE_FONT_STYLE","dwrite/DWRITE_FONT_STYLE_ITALIC","dwrite/DWRITE_FONT_STYLE_NORMAL","dwrite/DWRITE_FONT_STYLE_OBLIQUE"]
 old-location: directwrite\dwrite_font_style.htm
 tech.root: DirectWrite
 ms.assetid: e48a3b82-4a60-472d-8cb8-a6f63d7eeefc

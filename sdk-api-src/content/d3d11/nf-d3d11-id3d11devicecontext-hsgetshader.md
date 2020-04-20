@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSGetShader
 title: ID3D11DeviceContext::HSGetShader (d3d11.h)
-description: Get the hull shader currently set on the device.
+description: Get the hull shader currently set on the device.helpviewer_keywords: ["86d0e4a8-a23d-ed0e-3574-68679ce095a8","HSGetShader","HSGetShader method [Direct3D 11]","HSGetShader method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","HSGetShader method","ID3D11DeviceContext.HSGetShader","ID3D11DeviceContext::HSGetShader","d3d11/ID3D11DeviceContext::HSGetShader","direct3d11.id3d11devicecontext_hsgetshader"]
 old-location: direct3d11\id3d11devicecontext_hsgetshader.htm
 tech.root: direct3d11
 ms.assetid: 2ac2d88f-8c66-490e-add8-95ecaadf0147
@@ -77,15 +77,6 @@ Pointer to an array of class instance interfaces (see <a href="https://docs.micr
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 The number of class-instance elements in the array.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.IASetInputLayout
 title: ID3D10Device::IASetInputLayout (d3d10.h)
-description: Bind an input-layout object to the input-assembler stage.
+description: Bind an input-layout object to the input-assembler stage.helpviewer_keywords: ["5492ac19-1f40-6d42-38a5-490e297331f0","IASetInputLayout","IASetInputLayout method [Direct3D 10]","IASetInputLayout method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","IASetInputLayout method","ID3D10Device.IASetInputLayout","ID3D10Device::IASetInputLayout","d3d10/ID3D10Device::IASetInputLayout","direct3d10.id3d10device_iasetinputlayout"]
 old-location: direct3d10\id3d10device_iasetinputlayout.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iasetinputlayout.htm
@@ -63,15 +63,6 @@ Bind an input-layout object to the <a href="https://docs.microsoft.com/windows/d
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10inputlayout">ID3D10InputLayout</a>*</b>
 
 A pointer to the input-layout object (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10inputlayout">ID3D10InputLayout</a>), which describes the input buffers that will be read by the IA stage.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

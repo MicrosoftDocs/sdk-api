@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.FreeWriterStatus
 title: IVssBackupComponents::FreeWriterStatus (vsbackup.h)
-description: The FreeWriterStatus method frees system resources allocated during the call to IVssBackupComponents::GatherWriterStatus.
+description: The FreeWriterStatus method frees system resources allocated during the call to IVssBackupComponents::GatherWriterStatus.helpviewer_keywords: ["FreeWriterStatus","FreeWriterStatus method [VSS]","FreeWriterStatus method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","FreeWriterStatus method","IVssBackupComponents.FreeWriterStatus","IVssBackupComponents::FreeWriterStatus","_win32_ivssbackupcomponents_freewriterstatus","base.ivssbackupcomponents_freewriterstatus","vsbackup/IVssBackupComponents::FreeWriterStatus"]
 old-location: base\ivssbackupcomponents_freewriterstatus.htm
 tech.root: VSS
 ms.assetid: 2bf4c575-f94d-43df-b141-94ed5a55294b

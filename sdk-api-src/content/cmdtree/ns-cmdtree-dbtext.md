@@ -1,7 +1,7 @@
 ---
 UID: NS:cmdtree.tagDBTEXT
 title: DBTEXT (cmdtree.h)
-description: The DBTEXT structure is used by the DBOP_text_command node.
+description: The DBTEXT structure is used by the DBOP_text_command node.helpviewer_keywords: ["DBTEXT","DBTEXT structure [Indexing Service]","_idxs_DBTEXT","cmdtree/DBTEXT","indexsrv.dbtext","tagDBTEXT"]
 old-location: indexsrv\dbtext.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2qyc.htm

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFPMPHostApp
 title: IMFPMPHostApp (mfidl.h)
-description: Allows a media source to create a Windows Runtime object in the Protected Media Path (PMP) process.
+description: Allows a media source to create a Windows Runtime object in the Protected Media Path (PMP) process.helpviewer_keywords: ["IMFPMPHostApp","IMFPMPHostApp interface [Media Foundation]","IMFPMPHostApp interface [Media Foundation]","described","mf.imfpmphostapp","mfidl/IMFPMPHostApp"]
 old-location: mf\imfpmphostapp.htm
 tech.root: medfound
 ms.assetid: ca24930d-bd1e-4c12-8246-1e505a98944a

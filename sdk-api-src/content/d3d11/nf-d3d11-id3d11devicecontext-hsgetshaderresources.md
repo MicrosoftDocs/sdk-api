@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSGetShaderResources
 title: ID3D11DeviceContext::HSGetShaderResources (d3d11.h)
-description: Get the hull-shader resources.
+description: Get the hull-shader resources.helpviewer_keywords: ["HSGetShaderResources","HSGetShaderResources method [Direct3D 11]","HSGetShaderResources method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","HSGetShaderResources method","ID3D11DeviceContext.HSGetShaderResources","ID3D11DeviceContext::HSGetShaderResources","d3d11/ID3D11DeviceContext::HSGetShaderResources","da564466-b697-f908-c81d-dda7a85378db","direct3d11.id3d11devicecontext_hsgetshaderresources"]
 old-location: direct3d11\id3d11devicecontext_hsgetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: 21956575-5f4b-48ca-944b-5cab57d02c7f
@@ -77,15 +77,6 @@ The number of resources to get from the device. Up to a maximum of 128 slots are
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a>**</b>
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">shader resource view</a> interfaces to be returned by the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

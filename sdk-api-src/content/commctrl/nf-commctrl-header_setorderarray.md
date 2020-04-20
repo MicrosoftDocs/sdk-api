@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Header_SetOrderArray
 title: Header_SetOrderArray macro (commctrl.h)
-description: Sets the left-to-right order of header items. You can use this macro or send the HDM_SETORDERARRAY message explicitly.
+description: Sets the left-to-right order of header items. You can use this macro or send the HDM_SETORDERARRAY message explicitly.helpviewer_keywords: ["Header_SetOrderArray","Header_SetOrderArray macro [Windows Controls]","_win32_Header_SetOrderArray","_win32_Header_SetOrderArray_cpp","commctrl/Header_SetOrderArray","controls.Header_SetOrderArray","controls._win32_Header_SetOrderArray"]
 old-location: controls\Header_SetOrderArray.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setorderarray.htm

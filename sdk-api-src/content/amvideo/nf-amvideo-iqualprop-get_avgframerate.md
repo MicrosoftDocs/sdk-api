@@ -1,7 +1,7 @@
 ---
 UID: NF:amvideo.IQualProp.get_AvgFrameRate
 title: IQualProp::get_AvgFrameRate (amvideo.h)
-description: The get_AvgFrameRate method retrieves the actual average frame rate since streaming started.
+description: The get_AvgFrameRate method retrieves the actual average frame rate since streaming started.helpviewer_keywords: ["IQualProp interface [DirectShow]","get_AvgFrameRate method","IQualProp.get_AvgFrameRate","IQualProp::get_AvgFrameRate","IQualPropget_AvgFrameRate","amvideo/IQualProp::get_AvgFrameRate","dshow.iqualprop_get_avgframerate","get_AvgFrameRate","get_AvgFrameRate method [DirectShow]","get_AvgFrameRate method [DirectShow]","IQualProp interface"]
 old-location: dshow\iqualprop_get_avgframerate.htm
 tech.root: DirectShow
 ms.assetid: 31e326e2-56de-4c7c-b26a-836c9fc76342

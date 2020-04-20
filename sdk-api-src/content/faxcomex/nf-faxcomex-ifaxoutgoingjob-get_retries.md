@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Retries
 title: IFaxOutgoingJob::get_Retries (faxcomex.h)
-description: The IFaxOutgoingJob::get_Retries property is a value that indicates the number of times that the fax service attempted to transmit an outgoing fax after the initial transmission attempt failed.
+description: The IFaxOutgoingJob::get_Retries property is a value that indicates the number of times that the fax service attempted to transmit an outgoing fax after the initial transmission attempt failed.helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","Retries property","IFaxOutgoingJob.Retries","IFaxOutgoingJob.get_Retries","IFaxOutgoingJob::Retries","IFaxOutgoingJob::get_Retries","Retries property [Fax Service]","Retries property [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.retries","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_retries_cpp","fax._mfax_faxoutgoingjob_retries","faxcomex/IFaxOutgoingJob::Retries","faxcomex/IFaxOutgoingJob::get_Retries","get_Retries"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_retries_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7c1f.htm

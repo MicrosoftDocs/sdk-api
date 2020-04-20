@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRangeACP.GetExtent
 title: ITfRangeACP::GetExtent (msctf.h)
-description: ITfRangeACP::GetExtent method
+description: ITfRangeACP::GetExtent methodhelpviewer_keywords: ["GetExtent","GetExtent method [Text Services Framework]","GetExtent method [Text Services Framework]","ITfRangeACP interface","ITfRangeACP interface [Text Services Framework]","GetExtent method","ITfRangeACP.GetExtent","ITfRangeACP::GetExtent","_tsf_itfrangeacp_getextent_ref","msctf/ITfRangeACP::GetExtent","tsf.itfrangeacp_getextent"]
 old-location: tsf\itfrangeacp_getextent.htm
 tech.root: TSF
 ms.assetid: 14838cea-1a19-4faa-ac7f-617fde82432d
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the application character position and length of the range object.
 
 ## -parameters
 

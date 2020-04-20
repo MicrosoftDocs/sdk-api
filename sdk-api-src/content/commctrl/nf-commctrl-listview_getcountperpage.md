@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_GetCountPerPage
 title: ListView_GetCountPerPage macro (commctrl.h)
-description: Calculates the number of items that can fit vertically in the visible area of a list-view control when in list or report view. Only fully visible items are counted. You can use this macro or send the LVM_GETCOUNTPERPAGE message explicitly.
+description: Calculates the number of items that can fit vertically in the visible area of a list-view control when in list or report view. Only fully visible items are counted. You can use this macro or send the LVM_GETCOUNTPERPAGE message explicitly.helpviewer_keywords: ["ListView_GetCountPerPage","ListView_GetCountPerPage macro [Windows Controls]","_win32_ListView_GetCountPerPage","_win32_ListView_GetCountPerPage_cpp","commctrl/ListView_GetCountPerPage","controls.ListView_GetCountPerPage","controls._win32_ListView_GetCountPerPage"]
 old-location: controls\ListView_GetCountPerPage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcountperpage.htm

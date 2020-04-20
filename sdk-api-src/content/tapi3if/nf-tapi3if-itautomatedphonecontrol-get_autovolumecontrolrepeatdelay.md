@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoVolumeControlRepeatDelay
 title: ITAutomatedPhoneControl::get_AutoVolumeControlRepeatDelay (tapi3if.h)
-description: The get_AutoVolumeControlRepeatDelay method retrieves the current value of the AutoVolumeControlRepeatDelay property. The property specifies the delay, in milliseconds (ms), before a volume button starts repeating when it is held down.
+description: The get_AutoVolumeControlRepeatDelay method retrieves the current value of the AutoVolumeControlRepeatDelay property. The property specifies the delay, in milliseconds (ms), before a volume button starts repeating when it is held down.helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","get_AutoVolumeControlRepeatDelay method","ITAutomatedPhoneControl.get_AutoVolumeControlRepeatDelay","ITAutomatedPhoneControl::get_AutoVolumeControlRepeatDelay","_tapi3_itautomatedphonecontrol_get_autovolumecontrolrepeatdelay","get_AutoVolumeControlRepeatDelay","get_AutoVolumeControlRepeatDelay method [TAPI 2.2]","get_AutoVolumeControlRepeatDelay method [TAPI 2.2]","ITAutomatedPhoneControl interface","tapi3.itautomatedphonecontrol_get_autovolumecontrolrepeatdelay","tapi3if/ITAutomatedPhoneControl::get_AutoVolumeControlRepeatDelay"]
 old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrolrepeatdelay.htm
 tech.root: Tapi
 ms.assetid: a26fd436-b792-4415-bc47-eca2b1114002

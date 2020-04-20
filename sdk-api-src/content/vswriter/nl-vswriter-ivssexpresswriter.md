@@ -1,7 +1,7 @@
 ---
 UID: NL:vswriter.IVssExpressWriter
 title: IVssExpressWriter (vswriter.h)
-description: Defines methods to manage metadata for a VSS express writer.
+description: Defines methods to manage metadata for a VSS express writer.helpviewer_keywords: ["IVssExpressWriter","IVssExpressWriter interface","IVssExpressWriter interface","described","base.ivssexpresswriter","vswriter/IVssExpressWriter"]
 old-location: base\ivssexpresswriter.htm
 tech.root: VSS
 ms.assetid: debb0731-6e24-4320-8236-220e07ec37c3

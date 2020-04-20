@@ -1,7 +1,7 @@
 ---
 UID: NN:wcndevice.IWCNConnectNotify
 title: IWCNConnectNotify (wcndevice.h)
-description: Use this interface to receive a success or failure notification when a Windows Connect Now connect session completes.
+description: Use this interface to receive a success or failure notification when a Windows Connect Now connect session completes.helpviewer_keywords: ["IWCNConnectNotify","IWCNConnectNotify interface [Windows Connect Now]","IWCNConnectNotify interface [Windows Connect Now]","described","wcn.iwcnconnectnotify","wcndevice/IWCNConnectNotify"]
 old-location: wcn\iwcnconnectnotify.htm
 tech.root: wcn
 ms.assetid: 63ea2b5a-4bec-4050-9a61-962a1faef0a0

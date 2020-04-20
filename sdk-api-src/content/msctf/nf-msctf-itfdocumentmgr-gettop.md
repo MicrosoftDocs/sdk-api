@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.GetTop
 title: ITfDocumentMgr::GetTop (msctf.h)
-description: ITfDocumentMgr::GetTop method
+description: ITfDocumentMgr::GetTop methodhelpviewer_keywords: ["GetTop","GetTop method [Text Services Framework]","GetTop method [Text Services Framework]","ITfDocumentMgr interface","ITfDocumentMgr interface [Text Services Framework]","GetTop method","ITfDocumentMgr.GetTop","ITfDocumentMgr::GetTop","_tsf_itfdocumentmgr_gettop_ref","msctf/ITfDocumentMgr::GetTop","tsf.itfdocumentmgr_gettop"]
 old-location: tsf\itfdocumentmgr_gettop.htm
 tech.root: TSF
 ms.assetid: 5be7635f-ec27-4892-9cfe-dba31e202510
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the context at the top of the context stack.
 
 ## -parameters
 

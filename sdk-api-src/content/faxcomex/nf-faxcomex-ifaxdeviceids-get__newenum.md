@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.get__NewEnum
 title: IFaxDeviceIds::get__NewEnum (faxcomex.h)
-description: The IFaxDeviceIds::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the FaxDeviceIds collection.
+description: The IFaxDeviceIds::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the FaxDeviceIds collection.helpviewer_keywords: ["IFaxDeviceIds interface [Fax Service]","get__NewEnum method","IFaxDeviceIds.get__NewEnum","IFaxDeviceIds::get__NewEnum","_mfax_ifaxdeviceids_get__newenum","fax._mfax_ifaxdeviceids_get__newenum","faxcomex/IFaxDeviceIds::get__NewEnum","get__NewEnum","get__NewEnum method [Fax Service]","get__NewEnum method [Fax Service]","IFaxDeviceIds interface"]
 old-location: fax\_mfax_ifaxdeviceids_get__newenum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4gj1.htm

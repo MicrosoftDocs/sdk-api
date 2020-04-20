@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Reset
 title: IEnumTfFunctionProviders::Reset (msctf.h)
-description: IEnumTfFunctionProviders::Reset method
+description: IEnumTfFunctionProviders::Reset methodhelpviewer_keywords: ["IEnumTfFunctionProviders interface [Text Services Framework]","Reset method","IEnumTfFunctionProviders.Reset","IEnumTfFunctionProviders::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfFunctionProviders interface","_tsf_ienumtffunctionproviders_reset_ref","msctf/IEnumTfFunctionProviders::Reset","tsf.ienumtffunctionproviders_reset"]
 old-location: tsf\ienumtffunctionproviders_reset.htm
 tech.root: TSF
 ms.assetid: 99f4b38e-bb7f-41a8-ad3a-dd0ee7213699
@@ -45,18 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfFunctionProviders::Reset
 
-
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
@@ -81,7 +74,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfFunctionProviders interface](nn-msctf-ienumtffunctionproviders.md), [ITfFunctionProvider interface](nn-msctf-itffunctionprovider.md)

@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.SetContentRect
 title: IDirectManipulationContent::SetContentRect (directmanipulation.h)
-description: Specifies the bounding rectangle of the content, relative to its viewport.
+description: Specifies the bounding rectangle of the content, relative to its viewport.helpviewer_keywords: ["IDirectManipulationContent interface [Direct Manipulation]","SetContentRect method","IDirectManipulationContent.SetContentRect","IDirectManipulationContent::SetContentRect","SetContentRect","SetContentRect method [Direct Manipulation]","SetContentRect method [Direct Manipulation]","IDirectManipulationContent interface","directmanipulation.idirectmanipulationcontent_setcontentrect","directmanipulation/IDirectManipulationContent::SetContentRect"]
 old-location: directmanipulation\idirectmanipulationcontent_setcontentrect.htm
 tech.root: directmanipulation
 ms.assetid: 41b14e56-ba24-4ad2-9dac-28daf7d13c6a

@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfCandidateString.GetIndex
 title: ITfCandidateString::GetIndex (ctffunc.h)
-description: ITfCandidateString::GetIndex method
+description: ITfCandidateString::GetIndex methodhelpviewer_keywords: ["GetIndex","GetIndex method [Text Services Framework]","GetIndex method [Text Services Framework]","ITfCandidateString interface","ITfCandidateString interface [Text Services Framework]","GetIndex method","ITfCandidateString.GetIndex","ITfCandidateString::GetIndex","_tsf_itfcandidatestring_getindex_ref","ctffunc/ITfCandidateString::GetIndex","tsf.itfcandidatestring_getindex"]
 old-location: tsf\itfcandidatestring_getindex.htm
 tech.root: TSF
 ms.assetid: 16ec9a89-db57-41ad-9e32-db0b24abda13

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.IASetVertexBuffers
 title: ID3D12GraphicsCommandList::IASetVertexBuffers (d3d12.h)
-description: Sets a CPU descriptor handle for the vertex buffers.
+description: Sets a CPU descriptor handle for the vertex buffers.helpviewer_keywords: ["IASetVertexBuffers","IASetVertexBuffers method","IASetVertexBuffers method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","IASetVertexBuffers method","ID3D12GraphicsCommandList.IASetVertexBuffers","ID3D12GraphicsCommandList::IASetVertexBuffers","d3d12/ID3D12GraphicsCommandList::IASetVertexBuffers","direct3d12.id3d12graphicscommandlist_iasetvertexbuffers"]
 old-location: direct3d12\id3d12graphicscommandlist_iasetvertexbuffers.htm
 tech.root: direct3d12
 ms.assetid: AADD6CEF-376D-43AB-86E6-37B5D7DD0B25
@@ -79,16 +79,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-
 
 Specifies the vertex buffer views in an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_vertex_buffer_view">D3D12_VERTEX_BUFFER_VIEW</a> structures.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IAdviseSink2.OnLinkSrcChange
 title: IAdviseSink2::OnLinkSrcChange (objidl.h)
-description: Notifies the container that registered the advise sink that a link source has changed (either name or location), enabling the container to update the link's moniker.
+description: Notifies the container that registered the advise sink that a link source has changed (either name or location), enabling the container to update the link's moniker.helpviewer_keywords: ["IAdviseSink2 interface [COM]","OnLinkSrcChange method","IAdviseSink2.OnLinkSrcChange","IAdviseSink2::OnLinkSrcChange","OnLinkSrcChange","OnLinkSrcChange method [COM]","OnLinkSrcChange method [COM]","IAdviseSink2 interface","_ole_iadvisesink2_onlinksrcchange","com.iadvisesink2_onlinksrcchange","objidl/IAdviseSink2::OnLinkSrcChange"]
 old-location: com\iadvisesink2_onlinksrcchange.htm
 tech.root: com
 ms.assetid: 753ac9a3-0207-4c98-9d86-5ac16be2c5fa
@@ -60,15 +60,6 @@ Notifies the container that registered the advise sink that a link source has ch
 ### -param pmk [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface identifying the source of a linked object.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

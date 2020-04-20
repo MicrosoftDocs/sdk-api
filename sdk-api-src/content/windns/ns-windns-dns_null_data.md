@@ -1,7 +1,7 @@
 ---
 UID: NS:windns.__unnamed_struct_13
 title: DNS_NULL_DATA (windns.h)
-description: The DNS_NULL_DATA structure represents NULL data for a DNS resource record as specified in section 3.3.10 of RFC 1035.
+description: The DNS_NULL_DATA structure represents NULL data for a DNS resource record as specified in section 3.3.10 of RFC 1035.helpviewer_keywords: ["*PDNS_NULL_DATA","DNS_NULL_DATA","DNS_NULL_DATA structure [DNS]","PDNS_NULL_DATA","PDNS_NULL_DATA structure pointer [DNS]","_dns_dns_null_data","dns.dns_null_data","windns/DNS_NULL_DATA","windns/PDNS_NULL_DATA"]
 old-location: dns\dns_null_data.htm
 tech.root: DNS
 ms.assetid: c31e468f-8efd-4173-bc2c-442ee4df737f

@@ -1,7 +1,7 @@
 ---
-UID: NS:winhttp._WINHTTP_CERTIFICATE_INFO
+UID: NS:winhttp.__unnamed_struct_5
 title: WINHTTP_CERTIFICATE_INFO (winhttp.h)
-description: The WINHTTP_CERTIFICATE_INFO structure contains certificate information returned from the server. This structure is used by the WinHttpQueryOption function.
+description: The WINHTTP_CERTIFICATE_INFO structure contains certificate information returned from the server. This structure is used by the WinHttpQueryOption function.helpviewer_keywords: ["WINHTTP_CERTIFICATE_INFO","WINHTTP_CERTIFICATE_INFO structure [HTTP]","http.internet_certificate_info","winhttp/WINHTTP_CERTIFICATE_INFO","winhttp_internet_certificate_info_structure"]
 old-location: http\internet_certificate_info.htm
 tech.root: WinHttp
 ms.assetid: 72b0094b-ac9d-499f-8a75-6728be2826ea
@@ -43,20 +43,12 @@ req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and W
 ms.custom: 19H1
 ---
 
-# WINHTTP_CERTIFICATE_INFO structure
-
-
 ## -description
-
 
 The <b>WINHTTP_CERTIFICATE_INFO</b> structure contains certificate information returned from the server. This structure is used by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption">WinHttpQueryOption</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ftExpiry
 
@@ -74,35 +66,27 @@ A
 
 A pointer to a buffer that contains the name of the organization, site, and server for which the certificate was issued. 
 
-
 ### -field lpszIssuerInfo
 
 A pointer to a buffer that contains the name of the organization, site, and server that issued the certificate. 
-
 
 ### -field lpszProtocolName
 
 A pointer to a buffer that contains the name of the protocol used to provide the secure connection. This member is not current used.
 
-
 ### -field lpszSignatureAlgName
 
 A pointer to a buffer that contains the name of the algorithm used to sign the certificate. This member is not current used.
-
 
 ### -field lpszEncryptionAlgName
 
 A pointer to a buffer that contains the name of the algorithm used to perform encryption over the secure channel (SSL/TLS) connection. This member is not current used.
 
-
 ### -field dwKeySize
 
 The size, in bytes, of the key. 
 
-
 ## -remarks
-
-
 
 The <b>WINHTTP_CERTIFICATE_INFO</b> structure contains information on the certificate returned by the server when the connection uses SSL/TLS. The <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption">WinHttpQueryOption</a> function returns the <b>WINHTTP_CERTIFICATE_INFO</b> structure when the <i>dwOption</i> parameter passed to the <b>WinHttpQueryOption</b> function is set to <b>WINHTTP_OPTION_SECURITY_CERTIFICATE_STRUCT</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinHttp/option-flags">Option Flags</a>.
 
@@ -113,12 +97,7 @@ Once the application no longer needs the returned <b>WINHTTP_CERTIFICATE_INFO</b
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Windows HTTP Services</a> start page.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/option-flags">Option Flags</a>
 
@@ -128,9 +107,4 @@ Once the application no longer needs the returned <b>WINHTTP_CERTIFICATE_INFO</b
 		  Versions</a>
 
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption">WinHttpQueryOption</a>
- 
-
- 
-

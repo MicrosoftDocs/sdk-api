@@ -1,7 +1,7 @@
 ---
 UID: NE:dcomptypes.DCOMPOSITION_OPACITY_MODE
 title: DCOMPOSITION_OPACITY_MODE (dcomptypes.h)
-description: Specifies how the effective opacity value of a visual is applied to that visual’s content and children.
+description: Specifies how the effective opacity value of a visual is applied to that visual’s content and children.helpviewer_keywords: ["DCOMPOSITION_OPACITY_MODE","DCOMPOSITION_OPACITY_MODE enumeration [DirectComposition]","DCOMPOSITION_OPACITY_MODE_INHERIT","DCOMPOSITION_OPACITY_MODE_LAYER","DCOMPOSITION_OPACITY_MODE_MULTIPLY","dcomptypes/DCOMPOSITION_OPACITY_MODE","dcomptypes/DCOMPOSITION_OPACITY_MODE_INHERIT","dcomptypes/DCOMPOSITION_OPACITY_MODE_LAYER","dcomptypes/DCOMPOSITION_OPACITY_MODE_MULTIPLY","directcomp.dcomposition_opacity_mode"]
 old-location: directcomp\dcomposition_opacity_mode.htm
 tech.root: directcomp
 ms.assetid: D768F699-39F6-4ED5-B3D7-D509871BCEAB

@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.IEnumChangeUnitExceptions
 title: IEnumChangeUnitExceptions (winsync.h)
-description: Enumerates change unit exceptions that are stored in a knowledge object.
+description: Enumerates change unit exceptions that are stored in a knowledge object.helpviewer_keywords: ["IEnumChangeUnitExceptions","IEnumChangeUnitExceptions interface [Windows Sync]","IEnumChangeUnitExceptions interface [Windows Sync]","described","winsync.ienumchangeunitexceptions","winsync/IEnumChangeUnitExceptions"]
 old-location: winsync\ienumchangeunitexceptions.htm
 tech.root: winsync
 ms.assetid: 40b2977e-f3ae-4ad2-89ed-aacf32b1171e

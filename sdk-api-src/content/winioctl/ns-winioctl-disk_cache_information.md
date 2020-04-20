@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._DISK_CACHE_INFORMATION
 title: DISK_CACHE_INFORMATION
-description: Provides information about the disk cache.
+description: Provides information about the disk cache.helpviewer_keywords: ["*PDISK_CACHE_INFORMATION","DISK_CACHE_INFORMATION","DISK_CACHE_INFORMATION structure [Files]","EqualPriority","KeepPrefetchedData","KeepReadData","PDISK_CACHE_INFORMATION","PDISK_CACHE_INFORMATION structure pointer [Files]","base.disk_cache_information_str","fs.disk_cache_information_str","winioctl/DISK_CACHE_INFORMATION","winioctl/PDISK_CACHE_INFORMATION"]
 old-location: fs\disk_cache_information_str.htm
 tech.root: FileIO
 ms.assetid: ea175bea-5f2b-4f3e-9fe0-239b1d2e3d96

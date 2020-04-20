@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SafeArraySetRecordInfo
 title: SafeArraySetRecordInfo function (oleauto.h)
-description: Sets the record info in the specified safe array.
+description: Sets the record info in the specified safe array.helpviewer_keywords: ["SafeArraySetRecordInfo","SafeArraySetRecordInfo function [Automation]","_oa96_SafeArraySetRecordInfo","automat.safearraysetrecordinfo","oleauto/SafeArraySetRecordInfo"]
 old-location: automat\safearraysetrecordinfo.htm
 tech.root: automat
 ms.assetid: 85317e8e-7625-4799-9c34-73245f164f85

@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.ISnapinHelp
 title: ISnapinHelp (mmc.h)
-description: Allows snap-ins to add HTML Help support.
+description: Allows snap-ins to add HTML Help support.helpviewer_keywords: ["ISnapinHelp","ISnapinHelp interface [MMC]","ISnapinHelp interface [MMC]","described","mmc.isnapinhelp","mmc/ISnapinHelp"]
 old-location: mmc\isnapinhelp.htm
 tech.root: mmc
 ms.assetid: 237E52F7-5EB9-45DA-ACC3-391ED3BF7C5E

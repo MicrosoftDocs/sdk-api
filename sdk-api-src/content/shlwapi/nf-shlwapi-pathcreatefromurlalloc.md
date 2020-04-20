@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathCreateFromUrlAlloc
 title: PathCreateFromUrlAlloc function (shlwapi.h)
-description: Creates a path from a file URL.
+description: Creates a path from a file URL.helpviewer_keywords: ["PathCreateFromUrlAlloc","PathCreateFromUrlAlloc function [Windows Shell]","_shell_PathCreateFromUrlAlloc","shell.PathCreateFromUrlAlloc","shlwapi/PathCreateFromUrlAlloc"]
 old-location: shell\PathCreateFromUrlAlloc.htm
 tech.root: shell
 ms.assetid: 274411cd-5922-4db8-8775-feb93cae32dd

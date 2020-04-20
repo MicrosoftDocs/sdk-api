@@ -1,7 +1,7 @@
 ---
 UID: NF:psapi.InitializeProcessForWsWatch
 title: InitializeProcessForWsWatch function (psapi.h)
-description: Initiates monitoring of the working set of the specified process.
+description: Initiates monitoring of the working set of the specified process.helpviewer_keywords: ["InitializeProcessForWsWatch","InitializeProcessForWsWatch function [PSAPI]","K32InitializeProcessForWatch","K32InitializeProcessForWsWatch","_win32_initializeprocessforwswatch","base.initializeprocessforwswatch","psapi.initializeprocessforwswatch","psapi/InitializeProcessForWsWatch","psapi/K32InitializeProcessForWsWatch"]
 old-location: psapi\initializeprocessforwswatch.htm
 tech.root: psapi
 ms.assetid: c928656c-a59d-41b5-9434-911329b0278e

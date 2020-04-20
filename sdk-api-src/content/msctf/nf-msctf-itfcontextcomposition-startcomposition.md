@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextComposition.StartComposition
 title: ITfContextComposition::StartComposition (msctf.h)
-description: ITfContextComposition::StartComposition method
+description: ITfContextComposition::StartComposition methodhelpviewer_keywords: ["ITfContextComposition interface [Text Services Framework]","StartComposition method","ITfContextComposition.StartComposition","ITfContextComposition::StartComposition","StartComposition","StartComposition method [Text Services Framework]","StartComposition method [Text Services Framework]","ITfContextComposition interface","_tsf_itfcontextcomposition_startcomposition_ref","msctf/ITfContextComposition::StartComposition","tsf.itfcontextcomposition_startcomposition"]
 old-location: tsf\itfcontextcomposition_startcomposition.htm
 tech.root: TSF
 ms.assetid: aab84e6c-39c7-438e-b4f0-1d174473aa02
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates a new composition.
 
 ## -parameters
 
@@ -183,36 +182,4 @@ Any text covered by <i>pCompositionRange</i> receives the GUID_PROP_COMPOSING pr
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionsink">ITfCompositionSink
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextcomposition">ITfContextComposition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onstartcomposition">ITfContextOwnerCompositionSink::OnStartComposition
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfContextComposition interface](nn-msctf-itfcontextcomposition.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfCompositionSink interface](nn-msctf-itfcompositionsink.md), [ITfContextOwnerCompositionSink::OnStartComposition](nf-msctf-itfcontextownercompositionsink-onstartcomposition.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md)

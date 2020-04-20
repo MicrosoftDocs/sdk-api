@@ -1,7 +1,7 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordStreamType
 title: IPMT::GetRecordStreamType (mpeg2psiparser.h)
-description: The GetRecordStreamType method returns the stream type for a given elementary stream in the program.
+description: The GetRecordStreamType method returns the stream type for a given elementary stream in the program.helpviewer_keywords: ["GetRecordStreamType","GetRecordStreamType method [Microsoft TV Technologies]","GetRecordStreamType method [Microsoft TV Technologies]","IPMT interface","IPMT interface [Microsoft TV Technologies]","GetRecordStreamType method","IPMT.GetRecordStreamType","IPMT::GetRecordStreamType","IPMTGetRecordStreamType","mpeg2psiparser/IPMT::GetRecordStreamType","mstv.ipmt_getrecordstreamtype"]
 old-location: mstv\ipmt_getrecordstreamtype.htm
 tech.root: mstv
 ms.assetid: c3e17c0c-88ea-4143-aa9b-da2c5bf2069f

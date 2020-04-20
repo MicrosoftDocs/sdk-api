@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtSaveChannelConfig
 title: EvtSaveChannelConfig function (winevt.h)
-description: Saves the changes made to a channel's configuration.
+description: Saves the changes made to a channel's configuration.helpviewer_keywords: ["EvtSaveChannelConfig","EvtSaveChannelConfig function [EventLog]","wes.evtsavechannelconfig","winevt/EvtSaveChannelConfig"]
 old-location: wes\evtsavechannelconfig.htm
 tech.root: wes
 ms.assetid: 3f3eff67-24b6-448e-bb61-0bc851d9bdfa

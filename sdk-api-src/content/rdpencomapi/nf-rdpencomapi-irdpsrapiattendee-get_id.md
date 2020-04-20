@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_Id
 title: IRDPSRAPIAttendee::get_Id (rdpencomapi.h)
-description: The unique identifier for the attendee.
+description: The unique identifier for the attendee.helpviewer_keywords: ["CONST_ATTENDEE_ID_DEFAULT","IRDPSRAPIAttendee interface [RDP]","Id property","IRDPSRAPIAttendee.Id","IRDPSRAPIAttendee.get_Id","IRDPSRAPIAttendee::Id","IRDPSRAPIAttendee::get_Id","Id property [RDP]","Id property [RDP]","IRDPSRAPIAttendee interface","Id property [RDP]","RDPSRAPIAttendee object","RDPSRAPIAttendee object [RDP]","Id property","get_Id","rdp.irdpsrapiattendee_id","rdpencomapi/IRDPSRAPIAttendee::Id","rdpencomapi/IRDPSRAPIAttendee::get_Id"]
 old-location: rdp\irdpsrapiattendee_id.htm
 tech.root: rdp
 ms.assetid: 9ed04c11-d3cc-4846-88e8-aad9fb23fee8

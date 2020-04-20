@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.RegisterEventSourceW
 title: RegisterEventSourceW function (winbase.h)
-description: Retrieves a registered handle to the specified event log.
+description: Retrieves a registered handle to the specified event log.helpviewer_keywords: ["RegisterEventSource","RegisterEventSource function","RegisterEventSourceA","RegisterEventSourceW","_win32_registereventsource","base.registereventsource","winbase/RegisterEventSource","winbase/RegisterEventSourceA","winbase/RegisterEventSourceW"]
 old-location: base\registereventsource.htm
 tech.root: EventLog
 ms.assetid: 53706f83-6bc9-45d6-981c-bd0680d7bc08

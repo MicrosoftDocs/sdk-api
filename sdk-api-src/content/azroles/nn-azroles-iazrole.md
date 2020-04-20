@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzRole
 title: IAzRole (azroles.h)
-description: Defines the set of operations that can be performed by a set of users within a scope.
+description: Defines the set of operations that can be performed by a set of users within a scope.helpviewer_keywords: ["IAzRole","IAzRole interface [Security]","IAzRole interface [Security]","described","azroles/IAzRole","security.iazrole"]
 old-location: security\iazrole.htm
 tech.root: SecAuthZ
 ms.assetid: 2934d783-b379-486c-80e7-e7650b89dc1a

@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.QueryDrives
 title: IVdsSubSystem::QueryDrives (vdshwprv.h)
-description: Returns an object that enumerates the drives in the subsystem.
+description: Returns an object that enumerates the drives in the subsystem.helpviewer_keywords: ["IVdsSubSystem interface [VDS]","QueryDrives method","IVdsSubSystem.QueryDrives","IVdsSubSystem::QueryDrives","QueryDrives","QueryDrives method [VDS]","QueryDrives method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_querydrives","vds/IVdsSubSystem::QueryDrives","vdshwprv/IVdsSubSystem::QueryDrives"]
 old-location: base\ivdssubsystem_querydrives.htm
 tech.root: VDS
 ms.assetid: 7d54922f-0531-4eab-afa9-f51ce6c75bfe

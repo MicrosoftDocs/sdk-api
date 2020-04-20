@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSSetShaderResources
 title: ID3D11DeviceContext::CSSetShaderResources (d3d11.h)
-description: Bind an array of shader resources to the compute-shader stage.
+description: Bind an array of shader resources to the compute-shader stage.helpviewer_keywords: ["CSSetShaderResources","CSSetShaderResources method [Direct3D 11]","CSSetShaderResources method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CSSetShaderResources method","ID3D11DeviceContext.CSSetShaderResources","ID3D11DeviceContext::CSSetShaderResources","cef14155-2203-ea99-84d2-f1722c5ae802","d3d11/ID3D11DeviceContext::CSSetShaderResources","direct3d11.id3d11devicecontext_cssetshaderresources"]
 old-location: direct3d11\id3d11devicecontext_cssetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: 04babe17-b053-49f4-90bc-8080f521079e
@@ -77,15 +77,6 @@ Number of shader resources to set. Up to a maximum of 128 slots are available fo
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a>*</b>
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">shader resource view</a> interfaces to set to the device.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

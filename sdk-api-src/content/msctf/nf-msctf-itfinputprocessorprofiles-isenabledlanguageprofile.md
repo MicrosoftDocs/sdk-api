@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.IsEnabledLanguageProfile
 title: ITfInputProcessorProfiles::IsEnabledLanguageProfile (msctf.h)
-description: ITfInputProcessorProfiles::IsEnabledLanguageProfile method
+description: ITfInputProcessorProfiles::IsEnabledLanguageProfile methodhelpviewer_keywords: ["ITfInputProcessorProfiles interface [Text Services Framework]","IsEnabledLanguageProfile method","ITfInputProcessorProfiles.IsEnabledLanguageProfile","ITfInputProcessorProfiles::IsEnabledLanguageProfile","IsEnabledLanguageProfile","IsEnabledLanguageProfile method [Text Services Framework]","IsEnabledLanguageProfile method [Text Services Framework]","ITfInputProcessorProfiles interface","_tsf_itfinputprocessorprofiles_isenabledlanguageprofile_ref","msctf/ITfInputProcessorProfiles::IsEnabledLanguageProfile","tsf.itfinputprocessorprofiles_isenabledlanguageprofile"]
 old-location: tsf\itfinputprocessorprofiles_isenabledlanguageprofile.htm
 tech.root: TSF
 ms.assetid: 9daaa5bf-3eb8-416f-b7f5-9b10c04bceb0
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if a specific language profile is enabled or disabled.
 
 ## -parameters
 

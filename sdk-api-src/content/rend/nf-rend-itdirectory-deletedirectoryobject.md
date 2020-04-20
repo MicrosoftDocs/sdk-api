@@ -1,7 +1,7 @@
 ---
 UID: NF:rend.ITDirectory.DeleteDirectoryObject
 title: ITDirectory::DeleteDirectoryObject (rend.h)
-description: The DeleteDirectoryObject method deletes an object from the server.
+description: The DeleteDirectoryObject method deletes an object from the server.helpviewer_keywords: ["DeleteDirectoryObject","DeleteDirectoryObject method [TAPI 2.2]","DeleteDirectoryObject method [TAPI 2.2]","ITDirectory interface","ITDirectory interface [TAPI 2.2]","DeleteDirectoryObject method","ITDirectory.DeleteDirectoryObject","ITDirectory::DeleteDirectoryObject","_tapi3_itdirectory_deletedirectoryobject","rend/ITDirectory::DeleteDirectoryObject","tapi3.itdirectory_deletedirectoryobject"]
 old-location: tapi3\itdirectory_deletedirectoryobject.htm
 tech.root: Tapi
 ms.assetid: 1d2bb052-6986-4407-8a37-3a74920bf78e

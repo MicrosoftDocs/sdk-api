@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Reset
 title: IEnumTfDocumentMgrs::Reset (msctf.h)
-description: IEnumTfDocumentMgrs::Reset method
+description: IEnumTfDocumentMgrs::Reset methodhelpviewer_keywords: ["IEnumTfDocumentMgrs interface [Text Services Framework]","Reset method","IEnumTfDocumentMgrs.Reset","IEnumTfDocumentMgrs::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfDocumentMgrs interface","_tsf_ienumtfdocumentmgrs_reset_ref","msctf/IEnumTfDocumentMgrs::Reset","tsf.ienumtfdocumentmgrs_reset"]
 old-location: tsf\ienumtfdocumentmgrs_reset.htm
 tech.root: TSF
 ms.assetid: 9f7b016d-ff67-4b73-b373-b5a04cd25b58
@@ -45,22 +45,13 @@ ms.custom: 19H1
 
 # IEnumTfDocumentMgrs::Reset
 
-
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -81,7 +72,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfDocumentMgrs interface](nn-msctf-ienumtfdocumentmgrs.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md)

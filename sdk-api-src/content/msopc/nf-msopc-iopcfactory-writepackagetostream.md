@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcFactory.WritePackageToStream
 title: IOpcFactory::WritePackageToStream (msopc.h)
-description: Serializes a package that is represented by a package object.
+description: Serializes a package that is represented by a package object.helpviewer_keywords: ["IOpcFactory interface [Open Packaging Conventions]","WritePackageToStream method","IOpcFactory.WritePackageToStream","IOpcFactory::WritePackageToStream","WritePackageToStream","WritePackageToStream method [Open Packaging Conventions]","WritePackageToStream method [Open Packaging Conventions]","IOpcFactory interface","msopc/IOpcFactory::WritePackageToStream","opc.iopcfactory_writepackagetostream"]
 old-location: opc\iopcfactory_writepackagetostream.htm
 tech.root: OPC
 ms.assetid: b155700d-3037-4c6e-b2f2-bba39513d7d3

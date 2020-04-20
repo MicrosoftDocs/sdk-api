@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFactory.GetGdiInterop
 title: IDWriteFactory::GetGdiInterop (dwrite.h)
-description: Creates an object that is used for interoperability with GDI.
+description: Creates an object that is used for interoperability with GDI.helpviewer_keywords: ["GetGdiInterop","GetGdiInterop method [Direct Write]","GetGdiInterop method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","GetGdiInterop method","IDWriteFactory.GetGdiInterop","IDWriteFactory::GetGdiInterop","directwrite.IDWriteFactory_GetGdiInterop","dwrite/IDWriteFactory::GetGdiInterop"]
 old-location: directwrite\IDWriteFactory_GetGdiInterop.htm
 tech.root: DirectWrite
 ms.assetid: 0ff7930b-8840-42d6-b52d-6766deab1aac

@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost2.TxFreeTextServicesNotification
 title: ITextHost2::TxFreeTextServicesNotification (textserv.h)
-description: Notifies the text host that text services have been freed.
+description: Notifies the text host that text services have been freed.helpviewer_keywords: ["ITextHost2 interface [Windows Controls]","TxFreeTextServicesNotification method","ITextHost2.TxFreeTextServicesNotification","ITextHost2::TxFreeTextServicesNotification","TxFreeTextServicesNotification","TxFreeTextServicesNotification method [Windows Controls]","TxFreeTextServicesNotification method [Windows Controls]","ITextHost2 interface","controls.itexthost2_txfreetextservicesnotification","textserv/ITextHost2::TxFreeTextServicesNotification"]
 old-location: controls\itexthost2_txfreetextservicesnotification.htm
 tech.root: Controls
 ms.assetid: AD017B2A-C38E-4A55-AA31-84639BE87FA8
@@ -55,15 +55,6 @@ Notifies the text host that text services have been freed.
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

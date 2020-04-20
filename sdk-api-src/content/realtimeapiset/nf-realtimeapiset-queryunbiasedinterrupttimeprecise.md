@@ -1,7 +1,7 @@
 ---
 UID: NF:realtimeapiset.QueryUnbiasedInterruptTimePrecise
 title: QueryUnbiasedInterruptTimePrecise function (realtimeapiset.h)
-description: Gets the current unbiased interrupt-time count, in a more precise form than QueryUnbiasedInterruptTime does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
+description: Gets the current unbiased interrupt-time count, in a more precise form than QueryUnbiasedInterruptTime does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.helpviewer_keywords: ["QueryUnbiasedInterruptTimePrecise","QueryUnbiasedInterruptTimePrecise function","base.queryunbiasedinterrupttimeprecise","realtimeapiset/QueryUnbiasedInterruptTimePrecise"]
 old-location: base\queryunbiasedinterrupttimeprecise.htm
 tech.root: SysInfo
 ms.assetid: FADFC168-A3CF-4676-9B6E-7A4028049423
@@ -65,15 +65,6 @@ Gets the current unbiased interrupt-time count, in a more precise form than <a h
 ### -param lpUnbiasedInterruptTimePrecise [out]
 
 A pointer to a ULONGLONG in which to receive the unbiased interrupt-time count in system time units of 100 nanoseconds. Divide by ten million, or 1e7, to get seconds (there are 1e9 nanoseconds in a second, so there are 1e7 100-nanoseconds in a second).
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionEvents.NetworkConnectionConnectivityChanged
 title: INetworkConnectionEvents::NetworkConnectionConnectivityChanged (netlistmgr.h)
-description: The NetworkConnectionConnectivityChanged method notifies a client when connectivity change events occur on a network connection level.
+description: The NetworkConnectionConnectivityChanged method notifies a client when connectivity change events occur on a network connection level.helpviewer_keywords: ["INetworkConnectionEvents interface [Network Awareness]","NetworkConnectionConnectivityChanged method","INetworkConnectionEvents.NetworkConnectionConnectivityChanged","INetworkConnectionEvents::NetworkConnectionConnectivityChanged","NetworkConnectionConnectivityChanged","NetworkConnectionConnectivityChanged method [Network Awareness]","NetworkConnectionConnectivityChanged method [Network Awareness]","INetworkConnectionEvents interface","netlistmgr/INetworkConnectionEvents::NetworkConnectionConnectivityChanged","nla.inetworkconnectionevents_networkconnectionconnectivitychanged"]
 old-location: nla\inetworkconnectionevents_networkconnectionconnectivitychanged.htm
 tech.root: nla
 ms.assetid: 0b245a6e-918c-41de-b33e-87723491e900

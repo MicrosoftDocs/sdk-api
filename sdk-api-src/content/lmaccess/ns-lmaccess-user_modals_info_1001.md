@@ -1,7 +1,7 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_1001
 title: USER_MODALS_INFO_1001 (lmaccess.h)
-description: The USER_MODALS_INFO_1001 structure contains the minimum length for passwords in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
+description: The USER_MODALS_INFO_1001 structure contains the minimum length for passwords in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.helpviewer_keywords: ["*LPUSER_MODALS_INFO_1001","*PUSER_MODALS_INFO_1001","LPUSER_MODALS_INFO_1001","LPUSER_MODALS_INFO_1001 structure pointer [Network Management]","PUSER_MODALS_INFO_1001","PUSER_MODALS_INFO_1001 structure pointer [Network Management]","USER_MODALS_INFO_1001","USER_MODALS_INFO_1001 structure [Network Management]","_win32_user_modals_info_1001_str","lmaccess/LPUSER_MODALS_INFO_1001","lmaccess/PUSER_MODALS_INFO_1001","lmaccess/USER_MODALS_INFO_1001","netmgmt.user_modals_info_1001_str"]
 old-location: netmgmt\user_modals_info_1001_str.htm
 tech.root: NetMgmt
 ms.assetid: ef6e63da-f092-4435-93f0-e50d2fdd5664

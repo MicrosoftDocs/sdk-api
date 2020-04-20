@@ -1,7 +1,7 @@
 ---
 UID: NN:msaatext.IAccDictionary
 title: IAccDictionary (msaatext.h)
-description: Exposes methods for string manipulation.
+description: Exposes methods for string manipulation.helpviewer_keywords: ["IAccDictionary","IAccDictionary interface [Windows Accessibility]","IAccDictionary interface [Windows Accessibility]","described","msaa.iaccdictionary","msaatext/IAccDictionary","winauto.iaccdictionary"]
 old-location: winauto\iaccdictionary.htm
 tech.root: WinAuto
 ms.assetid: 0d18d219-b584-43ff-bded-6ed8f00a252f

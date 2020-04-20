@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1RenderInfo.SetInstructionCountHint
 title: ID2D1RenderInfo::SetInstructionCountHint (d2d1effectauthor.h)
-description: Provides an estimated hint of shader execution cost to D2D.
+description: Provides an estimated hint of shader execution cost to D2D.helpviewer_keywords: ["ID2D1RenderInfo interface [Direct2D]","SetInstructionCountHint method","ID2D1RenderInfo.SetInstructionCountHint","ID2D1RenderInfo::SetInstructionCountHint","SetInstructionCountHint","SetInstructionCountHint method [Direct2D]","SetInstructionCountHint method [Direct2D]","ID2D1RenderInfo interface","d2d1effectauthor/ID2D1RenderInfo::SetInstructionCountHint","direct2d.id2d1renderinfo_setinstructioncounthint"]
 old-location: direct2d\id2d1renderinfo_setinstructioncounthint.htm
 tech.root: Direct2D
 ms.assetid: 44077C5C-E3AA-4AE6-B772-BF2669B205B3
@@ -63,15 +63,6 @@ Provides an estimated hint of shader execution cost to D2D.
 Type: <b>UINT32</b>
 
 An approximate instruction count of the associated shader.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

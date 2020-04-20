@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.EnumItemsInCategory
 title: ITfCategoryMgr::EnumItemsInCategory (msctf.h)
-description: ITfCategoryMgr::EnumItemsInCategory method
+description: ITfCategoryMgr::EnumItemsInCategory methodhelpviewer_keywords: ["EnumItemsInCategory","EnumItemsInCategory method [Text Services Framework]","EnumItemsInCategory method [Text Services Framework]","ITfCategoryMgr interface","ITfCategoryMgr interface [Text Services Framework]","EnumItemsInCategory method","ITfCategoryMgr.EnumItemsInCategory","ITfCategoryMgr::EnumItemsInCategory","_tsf_itfcategorymgr_enumitemsincategory_ref","msctf/ITfCategoryMgr::EnumItemsInCategory","tsf.itfcategorymgr_enumitemsincategory"]
 old-location: tsf\itfcategorymgr_enumitemsincategory.htm
 tech.root: TSF
 ms.assetid: 88b123d8-86aa-40ae-8777-1b33cfbb953a
@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::EnumItemsInCategory
 
-
 ## -description
 
-
-
+Obtains an IEnumGUID interface that enumerates all GUIDs included in the specified category.
 
 ## -parameters
-
-
-
 
 ### -param rcatid [in]
 
 Contains a GUID value that identifies the category to enumerate the items for.
 
-
 ### -param ppEnum [out]
 
 Pointer to an IEnumGUID interface pointer that receives the enumerator.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,29 +113,7 @@ There is insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumcategoriesinitem">ITfCategoryMgr::EnumCategoriesInItem
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory
-      </a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::EnumCategoriesInItem](nf-msctf-itfcategorymgr-enumcategoriesinitem.md), [ITfCategoryMgr::RegisterCategory](nf-msctf-itfcategorymgr-registercategory.md)

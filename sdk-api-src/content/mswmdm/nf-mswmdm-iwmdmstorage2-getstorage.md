@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMStorage2.GetStorage
 title: IWMDMStorage2::GetStorage (mswmdm.h)
-description: The GetStorage method retrieves a child storage by name directly from the current storage without having to enumerate through all the children.
+description: The GetStorage method retrieves a child storage by name directly from the current storage without having to enumerate through all the children.helpviewer_keywords: ["GetStorage","GetStorage method [windows Media Device Manager]","GetStorage method [windows Media Device Manager]","IWMDMStorage2 interface","IWMDMStorage2 interface [windows Media Device Manager]","GetStorage method","IWMDMStorage2.GetStorage","IWMDMStorage2::GetStorage","IWMDMStorage2GetStorage","mswmdm/IWMDMStorage2::GetStorage","wmdm.iwmdmstorage2_getstorage"]
 old-location: wmdm\iwmdmstorage2_getstorage.htm
 tech.root: WMDM
 ms.assetid: be7b3da1-583b-4bad-8e35-19f309242744

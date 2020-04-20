@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetEndCap
 title: ID2D1StrokeStyle::GetEndCap (d2d1.h)
-description: Retrieves the type of shape used at the end of a stroke.
+description: Retrieves the type of shape used at the end of a stroke.helpviewer_keywords: ["GetEndCap","GetEndCap method [Direct2D]","GetEndCap method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetEndCap method","ID2D1StrokeStyle.GetEndCap","ID2D1StrokeStyle::GetEndCap","d2d1/ID2D1StrokeStyle::GetEndCap","direct2d.ID2D1StrokeStyle_GetEndCap"]
 old-location: direct2d\ID2D1StrokeStyle_GetEndCap.htm
 tech.root: Direct2D
 ms.assetid: 06cf4629-9fa8-471a-9f92-94bdfb18c2d1

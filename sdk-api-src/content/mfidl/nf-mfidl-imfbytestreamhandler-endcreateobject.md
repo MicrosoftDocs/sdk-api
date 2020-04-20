@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFByteStreamHandler.EndCreateObject
 title: IMFByteStreamHandler::EndCreateObject (mfidl.h)
-description: Completes an asynchronous request to create a media source.
+description: Completes an asynchronous request to create a media source.helpviewer_keywords: ["8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e","EndCreateObject","EndCreateObject method [Media Foundation]","EndCreateObject method [Media Foundation]","IMFByteStreamHandler interface","IMFByteStreamHandler interface [Media Foundation]","EndCreateObject method","IMFByteStreamHandler.EndCreateObject","IMFByteStreamHandler::EndCreateObject","mf.imfbytestreamhandler_endcreateobject","mfidl/IMFByteStreamHandler::EndCreateObject"]
 old-location: mf\imfbytestreamhandler_endcreateobject.htm
 tech.root: medfound
 ms.assetid: 8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e

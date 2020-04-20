@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetLabel
 title: IMFTimedTextTrack::GetLabel (mfmediaengine.h)
-description: Gets the label of the track.
+description: Gets the label of the track.helpviewer_keywords: ["GetLabel","GetLabel method [Media Foundation]","GetLabel method [Media Foundation]","IMFTimedTextTrack interface","IMFTimedTextTrack interface [Media Foundation]","GetLabel method","IMFTimedTextTrack.GetLabel","IMFTimedTextTrack::GetLabel","mf.imftimedtexttrack_getlabel","mfmediaengine/IMFTimedTextTrack::GetLabel"]
 old-location: mf\imftimedtexttrack_getlabel.htm
 tech.root: medfound
 ms.assetid: BB3B1089-6489-4C70-BAFD-22D72DE3CB38

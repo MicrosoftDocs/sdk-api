@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Tools.EnableShaderInstrumentation
 title: ID3D12Tools::EnableShaderInstrumentation (d3d12.h)
-description: This method enables tools such as PIX to instrument shaders.
+description: This method enables tools such as PIX to instrument shaders.helpviewer_keywords: ["EnableShaderInstrumentation","EnableShaderInstrumentation method","EnableShaderInstrumentation method","ID3D12Tools interface","ID3D12Tools interface","EnableShaderInstrumentation method","ID3D12Tools.EnableShaderInstrumentation","ID3D12Tools::EnableShaderInstrumentation","d3d12/ID3D12Tools::EnableShaderInstrumentation","direct3d12.id3d12tools_enableshaderinstrumentation"]
 old-location: direct3d12\id3d12tools_enableshaderinstrumentation.htm
 tech.root: direct3d12
 ms.assetid: 35920253-1153-42AD-AEAC-2C646FF15879
@@ -62,15 +62,6 @@ This method enables tools such as PIX to instrument shaders.
 Type: <b>BOOL</b>
 
 TRUE to enable shader instrumentation; otherwise, FALSE.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

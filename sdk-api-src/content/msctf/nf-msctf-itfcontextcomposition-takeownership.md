@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextComposition.TakeOwnership
 title: ITfContextComposition::TakeOwnership (msctf.h)
-description: ITfContextComposition::TakeOwnership method
+description: ITfContextComposition::TakeOwnership methodhelpviewer_keywords: ["ITfContextComposition interface [Text Services Framework]","TakeOwnership method","ITfContextComposition.TakeOwnership","ITfContextComposition::TakeOwnership","TakeOwnership","TakeOwnership method [Text Services Framework]","TakeOwnership method [Text Services Framework]","ITfContextComposition interface","_tsf_itfcontextcomposition_takeownership_ref","msctf/ITfContextComposition::TakeOwnership","tsf.itfcontextcomposition_takeownership"]
 old-location: tsf\itfcontextcomposition_takeownership.htm
 tech.root: TSF
 ms.assetid: 54182932-f749-4de0-a536-0f2f29d7664c
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Not currently implemented.
 
 ## -parameters
 
@@ -100,6 +99,6 @@ This method is not currently implemented.
 </tr>
 </table>
  
+## -see-also
 
-
-
+[IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfContextComposition interface](nn-msctf-itfcontextcomposition.md)

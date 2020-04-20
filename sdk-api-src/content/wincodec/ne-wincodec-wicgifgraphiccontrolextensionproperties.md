@@ -1,7 +1,7 @@
 ---
 UID: NE:wincodec.WICGifGraphicControlExtensionProperties
 title: WICGifGraphicControlExtensionProperties (wincodec.h)
-description: Specifies the graphic control extension metadata properties that define the transitions between each frame animation for Graphics Interchange Format (GIF) images.
+description: Specifies the graphic control extension metadata properties that define the transitions between each frame animation for Graphics Interchange Format (GIF) images.helpviewer_keywords: ["WICGifGraphicControlExtensionDelay","WICGifGraphicControlExtensionDisposal","WICGifGraphicControlExtensionProperties","WICGifGraphicControlExtensionProperties enumeration [Windows Imaging Component]","WICGifGraphicControlExtensionTransparencyFlag","WICGifGraphicControlExtensionTransparentColorIndex","WICGifGraphicControlExtensionUserInputFlag","_wic_codec_wicgifgraphiccontrolextensionproperties","wic._wic_codec_wicgifgraphiccontrolextensionproperties","wincodec/WICGifGraphicControlExtensionDelay","wincodec/WICGifGraphicControlExtensionDisposal","wincodec/WICGifGraphicControlExtensionProperties","wincodec/WICGifGraphicControlExtensionTransparencyFlag","wincodec/WICGifGraphicControlExtensionTransparentColorIndex","wincodec/WICGifGraphicControlExtensionUserInputFlag"]
 old-location: wic\_wic_codec_wicgifgraphiccontrolextensionproperties.htm
 tech.root: wic
 ms.assetid: 32fbf62d-0479-4ead-8246-6c757467ccaa

@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl._TrackMouseEvent
 title: _TrackMouseEvent function (commctrl.h)
-description: Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time. This function calls TrackMouseEvent if it exists, otherwise it emulates it.
+description: Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time. This function calls TrackMouseEvent if it exists, otherwise it emulates it.helpviewer_keywords: ["_TrackMouseEvent","_TrackMouseEvent function [Keyboard and Mouse Input]","_win32__TrackMouseEvent","_win32__trackmouseevent_cpp","commctrl/_TrackMouseEvent","inputdev._trackmouseevent","winui._win32__trackmouseevent"]
 old-location: inputdev\_trackmouseevent.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\_trackmouseevent.htm

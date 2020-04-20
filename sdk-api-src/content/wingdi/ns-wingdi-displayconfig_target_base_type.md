@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_BASE_TYPE
 title: DISPLAYCONFIG_TARGET_BASE_TYPE (wingdi.h)
-description: Specifies base output technology info for a given target ID.
+description: Specifies base output technology info for a given target ID.helpviewer_keywords: ["DISPLAYCONFIG_TARGET_BASE_TYPE","DISPLAYCONFIG_TARGET_BASE_TYPE structure [Display Devices]","display.displayconfig_target_base_type","wingdi/DISPLAYCONFIG_TARGET_BASE_TYPE"]
 old-location: display\displayconfig_target_base_type.htm
 tech.root: display
 ms.assetid: 7916E714-9A3C-4682-AC08-9B6EE222D8B7

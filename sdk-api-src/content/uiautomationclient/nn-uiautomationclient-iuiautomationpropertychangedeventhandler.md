@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationPropertyChangedEventHandler
 title: IUIAutomationPropertyChangedEventHandler (uiautomationclient.h)
-description: Exposes a method to handle Microsoft UI Automation events that occur when a property is changed.
+description: Exposes a method to handle Microsoft UI Automation events that occur when a property is changed.helpviewer_keywords: ["IUIAutomationPropertyChangedEventHandler","IUIAutomationPropertyChangedEventHandler interface [Windows Accessibility]","IUIAutomationPropertyChangedEventHandler interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationPropertyChangedEventHandler","uiauto_IUIAutomationPropertyChangedEventHandler","uiautomationclient/IUIAutomationPropertyChangedEventHandler","winauto.uiauto_IUIAutomationPropertyChangedEventHandler"]
 old-location: winauto\uiauto_IUIAutomationPropertyChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: e89d1600-35f0-4baa-a32a-265a7ef82679

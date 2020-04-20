@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMImageInfo.GetImage
 title: IWMImageInfo::GetImage (wmsdkidl.h)
-description: The GetImage method retrieves an image stored in a file as an ID3v2 &#0034;APIC&#0034; metadata frame.
+description: The GetImage method retrieves an image stored in a file as an ID3v2 &#0034;APIC&#0034; metadata frame.helpviewer_keywords: ["GetImage","GetImage method [windows Media Format]","GetImage method [windows Media Format]","IWMImageInfo interface","IWMImageInfo interface [windows Media Format]","GetImage method","IWMImageInfo.GetImage","IWMImageInfo::GetImage","IWMImageInfoGetImage","wmformat.iwmimageinfo_getimage","wmsdkidl/IWMImageInfo::GetImage"]
 old-location: wmformat\iwmimageinfo_getimage.htm
 tech.root: wmformat
 ms.assetid: fe1dcd53-fcdd-4190-9a07-65d0b34112d0

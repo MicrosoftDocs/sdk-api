@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMGetRenderTargets
 title: ID3D11DeviceContext::OMGetRenderTargets (d3d11.h)
-description: Get pointers to the resources bound to the output-merger stage.
+description: Get pointers to the resources bound to the output-merger stage.helpviewer_keywords: ["ID3D11DeviceContext interface [Direct3D 11]","OMGetRenderTargets method","ID3D11DeviceContext.OMGetRenderTargets","ID3D11DeviceContext::OMGetRenderTargets","OMGetRenderTargets","OMGetRenderTargets method [Direct3D 11]","OMGetRenderTargets method [Direct3D 11]","ID3D11DeviceContext interface","b914865b-766f-62c4-e7e9-5b7590860668","d3d11/ID3D11DeviceContext::OMGetRenderTargets","direct3d11.id3d11devicecontext_omgetrendertargets"]
 old-location: direct3d11\id3d11devicecontext_omgetrendertargets.htm
 tech.root: direct3d11
 ms.assetid: 27ac656a-0906-43ad-8089-b41639b55ecf
@@ -77,15 +77,6 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11depthstencilview">ID3D11DepthStencilView</a>**</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11depthstencilview">ID3D11DepthStencilView</a>, which represents a depth-stencil view. Specify <b>NULL</b> for this parameter when retrieval of the depth-stencil view is not needed.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

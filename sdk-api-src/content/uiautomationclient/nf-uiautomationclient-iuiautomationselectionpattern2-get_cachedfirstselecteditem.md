@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CachedFirstSelectedItem
 title: IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem (uiautomationclient.h)
-description: Gets a cached IUIAutomationElement object representing the first item in a group of selected items.
+description: Gets a cached IUIAutomationElement object representing the first item in a group of selected items.helpviewer_keywords: ["CachedFirstSelectedItem property [Windows Accessibility]","CachedFirstSelectedItem property [Windows Accessibility]","IUIAutomationSelectionPattern2 interface","IUIAutomationSelectionPattern2 interface [Windows Accessibility]","CachedFirstSelectedItem property","IUIAutomationSelectionPattern2.CachedFirstSelectedItem","IUIAutomationSelectionPattern2.get_CachedFirstSelectedItem","IUIAutomationSelectionPattern2::CachedFirstSelectedItem","IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem","get_CachedFirstSelectedItem","uiautomationclient/IUIAutomationSelectionPattern2::CachedFirstSelectedItem","uiautomationclient/IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem","winauto.uiauto_IUIAutomationSelectionPattern2_CachedFirstSelectedItem"]
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedFirstSelectedItem.htm
 tech.root: WinAuto
 ms.assetid: 580E229B-70E3-4FE6-85FF-42F0757F0620

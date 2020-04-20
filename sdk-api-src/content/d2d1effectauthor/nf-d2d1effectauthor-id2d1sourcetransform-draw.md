@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1SourceTransform.Draw
 title: ID2D1SourceTransform::Draw (d2d1effectauthor.h)
-description: Draws the transform to the graphics processing unit (GPU)–based Direct2D pipeline.
+description: Draws the transform to the graphics processing unit (GPU)–based Direct2D pipeline.helpviewer_keywords: ["Draw","Draw method [Direct2D]","Draw method [Direct2D]","ID2D1SourceTransform interface","ID2D1SourceTransform interface [Direct2D]","Draw method","ID2D1SourceTransform.Draw","ID2D1SourceTransform::Draw","d2d1effectauthor/ID2D1SourceTransform::Draw","direct2d.id2d1sourcetransform_draw"]
 old-location: direct2d\id2d1sourcetransform_draw.htm
 tech.root: Direct2D
 ms.assetid: 38EBBFB2-7A49-4386-80B3-86B44BF2FC39

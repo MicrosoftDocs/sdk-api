@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.WMCreateWriterPushSink
 title: WMCreateWriterPushSink function (wmsdkidl.h)
-description: The WMCreateWriterPushSink function creates a writer push sink object. Push sinks are used to deliver streaming content to other media servers for distribution.
+description: The WMCreateWriterPushSink function creates a writer push sink object. Push sinks are used to deliver streaming content to other media servers for distribution.helpviewer_keywords: ["WMCreateWriterPushSink","WMCreateWriterPushSink function [windows Media Format]","wmformat.wmcreatewriterpushsink","wmsdkidl/WMCreateWriterPushSink"]
 old-location: wmformat\wmcreatewriterpushsink.htm
 tech.root: wmformat
 ms.assetid: 544aa6d4-a8fe-4ce5-b329-01b031aa3e6f

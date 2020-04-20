@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.Cancel
 title: IFsrmReportJob::Cancel (fsrmreports.h)
-description: Cancels the running reports for this report job.
+description: Cancels the running reports for this report job.helpviewer_keywords: ["Cancel","Cancel method [File Server Resource Manager]","Cancel method [File Server Resource Manager]","IFsrmReportJob interface","IFsrmReportJob interface [File Server Resource Manager]","Cancel method","IFsrmReportJob.Cancel","IFsrmReportJob::Cancel","fs.ifsrmreportjob_cancel","fsrm.ifsrmreportjob_cancel","fsrmreports/IFsrmReportJob::Cancel"]
 old-location: fsrm\ifsrmreportjob_cancel.htm
 tech.root: fsrm
 ms.assetid: 7a8680e4-e5b4-4174-8eae-aad65b1d4f22

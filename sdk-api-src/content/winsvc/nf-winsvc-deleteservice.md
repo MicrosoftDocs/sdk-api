@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.DeleteService
 title: DeleteService function (winsvc.h)
-description: Marks the specified service for deletion from the service control manager database.
+description: Marks the specified service for deletion from the service control manager database.helpviewer_keywords: ["DeleteService","DeleteService function","_win32_deleteservice","base.deleteservice","winsvc/DeleteService"]
 old-location: base\deleteservice.htm
 tech.root: Services
 ms.assetid: 5b0fc714-60e0-4ae3-8fa8-ace36dab2fb0

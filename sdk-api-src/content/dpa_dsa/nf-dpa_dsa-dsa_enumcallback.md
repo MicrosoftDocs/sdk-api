@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DSA_EnumCallback
 title: DSA_EnumCallback function (dpa_dsa.h)
-description: Iterates through the dynamic structure array (DSA) and calls pfnCB on each item.
+description: Iterates through the dynamic structure array (DSA) and calls pfnCB on each item.helpviewer_keywords: ["DSA_EnumCallback","DSA_EnumCallback function [Windows Controls]","_shell_DSA_EnumCallback","_shell_DSA_EnumCallback_cpp","controls.DSA_EnumCallback","controls._shell_DSA_EnumCallback","dpa_dsa/DSA_EnumCallback"]
 old-location: controls\DSA_EnumCallback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_enumcallback.htm
@@ -76,15 +76,6 @@ A callback function pointer. See <a href="https://docs.microsoft.com/windows/des
 Type: <b>void*</b>
 
 A callback data pointer. <i>pData</i> is passed as a parameter to <i>pfnCB</i>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

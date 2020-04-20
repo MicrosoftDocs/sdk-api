@@ -1,7 +1,7 @@
 ---
 UID: NE:avrfsdk.eUserAllocationState
 title: eUserAllocationState (avrfsdk.h)
-description: Specifies the application's current heap allocation state.
+description: Specifies the application's current heap allocation state.helpviewer_keywords: ["AllocationStateBusy","AllocationStateFree","AllocationStateUnknown","avrfsdk/AllocationStateBusy","avrfsdk/AllocationStateFree","avrfsdk/AllocationStateUnknown","avrfsdk/eUserAllocationState","base.euserallocationstate","eUserAllocationState","eUserAllocationState enumeration [Windows API]","winprog.euserallocationstate"]
 old-location: winprog\euserallocationstate.htm
 tech.root: DevNotes
 ms.assetid: 8aa46c8a-1261-47da-8145-e7ff9826d2ab

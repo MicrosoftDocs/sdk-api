@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.FLOATOBJ_AddFloat
 title: FLOATOBJ_AddFloat function (winddi.h)
-description: The FLOATOBJ_AddFloat function adds the value of type FLOATL to the FLOATOBJ, and returns with the result in the first parameter.
+description: The FLOATOBJ_AddFloat function adds the value of type FLOATL to the FLOATOBJ, and returns with the result in the first parameter.helpviewer_keywords: ["FLOATOBJ_AddFloat","FLOATOBJ_AddFloat function [Display Devices]","display.floatobj_addfloat","gdifncs_2e5305b6-571f-4ae2-bfd7-2305c006b6da.xml","winddi/FLOATOBJ_AddFloat"]
 old-location: display\floatobj_addfloat.htm
 tech.root: display
 ms.assetid: 47af86ec-a7b2-49c1-aeda-1a273f17c4ae
@@ -65,15 +65,6 @@ Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be r
 ### -param arg2 [in]
 
 Specifies the FLOATL operand. This value is converted to a FLOATOBJ for the summation.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

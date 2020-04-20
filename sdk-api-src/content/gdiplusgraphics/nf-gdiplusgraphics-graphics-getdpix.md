@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetDpiX
 title: Graphics::GetDpiX (gdiplusgraphics.h)
-description: The Graphics::GetDpiX method gets the horizontal resolution, in dots per inch, of the display device associated with this Graphics object.
+description: The Graphics::GetDpiX method gets the horizontal resolution, in dots per inch, of the display device associated with this Graphics object.helpviewer_keywords: ["GetDpiX","GetDpiX method [GDI+]","GetDpiX method [GDI+]","Graphics class","Graphics class [GDI+]","GetDpiX method","Graphics.GetDpiX","Graphics::GetDpiX","_gdiplus_CLASS_Graphics_GetDpiX_","gdiplus._gdiplus_CLASS_Graphics_GetDpiX_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetDpiX_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getdpix.htm

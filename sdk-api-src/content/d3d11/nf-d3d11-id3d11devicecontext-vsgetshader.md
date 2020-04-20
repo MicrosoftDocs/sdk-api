@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSGetShader
 title: ID3D11DeviceContext::VSGetShader (d3d11.h)
-description: Get the vertex shader currently set on the device.
+description: Get the vertex shader currently set on the device.helpviewer_keywords: ["3e9ed365-9e14-baae-7c23-80439c5771f7","ID3D11DeviceContext interface [Direct3D 11]","VSGetShader method","ID3D11DeviceContext.VSGetShader","ID3D11DeviceContext::VSGetShader","VSGetShader","VSGetShader method [Direct3D 11]","VSGetShader method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::VSGetShader","direct3d11.id3d11devicecontext_vsgetshader"]
 old-location: direct3d11\id3d11devicecontext_vsgetshader.htm
 tech.root: direct3d11
 ms.assetid: 03347303-bab2-46aa-81e8-7df75911ff21
@@ -77,15 +77,6 @@ Pointer to an array of class instance interfaces (see <a href="https://docs.micr
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 The number of class-instance elements in the array.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

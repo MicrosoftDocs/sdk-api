@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_CurrentPage
 title: IFaxOutgoingJob::get_CurrentPage (faxcomex.h)
-description: The IFaxOutgoingJob::get_CurrentPage property is a number that identifies the page that the fax service is actively transmitting on an outbound fax job.
+description: The IFaxOutgoingJob::get_CurrentPage property is a number that identifies the page that the fax service is actively transmitting on an outbound fax job.helpviewer_keywords: ["CurrentPage property [Fax Service]","CurrentPage property [Fax Service]","IFaxOutgoingJob interface","IFaxOutgoingJob interface [Fax Service]","CurrentPage property","IFaxOutgoingJob.CurrentPage","IFaxOutgoingJob.get_CurrentPage","IFaxOutgoingJob::CurrentPage","IFaxOutgoingJob::get_CurrentPage","_mfax_faxoutgoingjob.currentpage","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_currentpage_cpp","fax._mfax_faxoutgoingjob_currentpage","faxcomex/IFaxOutgoingJob::CurrentPage","faxcomex/IFaxOutgoingJob::get_CurrentPage","get_CurrentPage"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_currentpage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3ep1.htm

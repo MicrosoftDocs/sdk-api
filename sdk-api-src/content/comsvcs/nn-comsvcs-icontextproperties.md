@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IContextProperties
 title: IContextProperties (comsvcs.h)
-description: Provides access to context object properties.
+description: Provides access to context object properties.helpviewer_keywords: ["IContextProperties","IContextProperties interface [COM+]","IContextProperties interface [COM+]","described","_cos_IContextProperties","comsvcs/IContextProperties","cos.icontextproperties"]
 old-location: cos\icontextproperties.htm
 tech.root: cossdk
 ms.assetid: 95a5cfda-7587-496e-ba16-0dd2e8a4db32

@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.BrokenConnection
 title: IWRdsProtocolConnectionCallback::BrokenConnection (wtsprotocol.h)
-description: Informs the Remote Desktop Services service that the client connection has been lost.
+description: Informs the Remote Desktop Services service that the client connection has been lost.helpviewer_keywords: ["BrokenConnection","BrokenConnection method [Remote Desktop Services]","BrokenConnection method [Remote Desktop Services]","IWRdsProtocolConnectionCallback interface","IWRdsProtocolConnectionCallback interface [Remote Desktop Services]","BrokenConnection method","IWRdsProtocolConnectionCallback.BrokenConnection","IWRdsProtocolConnectionCallback::BrokenConnection","termserv.iwrdsprotocolconnectioncallback_brokenconnection","wtsprotocol/IWRdsProtocolConnectionCallback::BrokenConnection"]
 old-location: termserv\iwrdsprotocolconnectioncallback_brokenconnection.htm
 tech.root: TermServ
 ms.assetid: bc317e10-e09c-423b-8016-eb1cf49eba43

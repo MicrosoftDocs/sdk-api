@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_CREATE_DATABASE_FN
 title: PIBIO_STORAGE_CREATE_DATABASE_FN (winbio_adapter.h)
-description: Creates and configures a new database.
+description: Creates and configures a new database.helpviewer_keywords: ["PIBIO_STORAGE_CREATE_DATABASE_FN","PIBIO_STORAGE_CREATE_DATABASE_FN callback","StorageAdapterCreateDatabase","StorageAdapterCreateDatabase callback function [Windows Biometric Framework API]","secbiomet.storageadaptercreatedatabase","winbio_adapter/StorageAdapterCreateDatabase"]
 old-location: secbiomet\storageadaptercreatedatabase.htm
 tech.root: SecBioMet
 ms.assetid: 7b9e034e-51d4-4209-9092-14e21e9fff3c

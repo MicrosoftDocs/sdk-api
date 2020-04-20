@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_LOAD_MEDIA
 title: IOCTL_STORAGE_LOAD_MEDIA
-description: Loads media into a device.
+description: Loads media into a device.helpviewer_keywords: ["IOCTL_STORAGE_LOAD_MEDIA","IOCTL_STORAGE_LOAD_MEDIA control","IOCTL_STORAGE_LOAD_MEDIA control code","_win32_ioctl_storage_load_media","base.ioctl_storage_load_media","winioctl/IOCTL_STORAGE_LOAD_MEDIA"]
 old-location: base\ioctl_storage_load_media.htm
 tech.root: devio
 ms.assetid: e5b370e9-03e8-4ab8-ba3c-4677cecb3bef

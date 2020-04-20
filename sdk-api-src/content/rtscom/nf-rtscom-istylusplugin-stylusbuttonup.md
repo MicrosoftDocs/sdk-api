@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusButtonUp
 title: IStylusPlugin::StylusButtonUp (rtscom.h)
-description: Notifies the implementing plug-in that the user has released a stylus button.
+description: Notifies the implementing plug-in that the user has released a stylus button.helpviewer_keywords: ["IStylusPlugin interface [Tablet PC]","StylusButtonUp method","IStylusPlugin.StylusButtonUp","IStylusPlugin::StylusButtonUp","StylusButtonUp","StylusButtonUp method [Tablet PC]","StylusButtonUp method [Tablet PC]","IStylusPlugin interface","a56182f3-3e9a-4cc2-895d-54010cd00cb4","rtscom/IStylusPlugin::StylusButtonUp","tablet.istylusplugin_stylusbuttonup"]
 old-location: tablet\istylusplugin_stylusbuttonup.htm
 tech.root: tablet
 ms.assetid: a56182f3-3e9a-4cc2-895d-54010cd00cb4

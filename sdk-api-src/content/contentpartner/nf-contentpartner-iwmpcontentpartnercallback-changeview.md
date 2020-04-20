@@ -1,7 +1,7 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.ChangeView
 title: IWMPContentPartnerCallback::ChangeView (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The ChangeView method changes the view in Windows Media Player.
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The ChangeView method changes the view in Windows Media Player.helpviewer_keywords: ["ChangeView","ChangeView method [Windows Media Player]","ChangeView method [Windows Media Player]","IWMPContentPartnerCallback interface","IWMPContentPartnerCallback interface [Windows Media Player]","ChangeView method","IWMPContentPartnerCallback.ChangeView","IWMPContentPartnerCallback::ChangeView","IWMPContentPartnerCallbackChangeView","contentpartner/IWMPContentPartnerCallback::ChangeView","wmp.iwmpcontentpartnercallback_changeview"]
 old-location: wmp\iwmpcontentpartnercallback_changeview.htm
 tech.root: WMP
 ms.assetid: eb796ef2-6d08-4746-952b-24ac51ae7733

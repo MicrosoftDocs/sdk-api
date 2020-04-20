@@ -1,7 +1,7 @@
 ---
 UID: NE:bits5_0.BITS_JOB_TRANSFER_POLICY
 title: BITS_JOB_TRANSFER_POLICY (bits5_0.h)
-description: Defines constants that specify ID values corresponding to BITS properties.
+description: Defines constants that specify ID values corresponding to BITS properties.helpviewer_keywords: ["BITS_JOB_TRANSFER_POLICY","BITS_JOB_TRANSFER_POLICY enumeration [BITS]","BITS_JOB_TRANSFER_POLICY_ALWAYS","BITS_JOB_TRANSFER_POLICY_NOT_ROAMING","BITS_JOB_TRANSFER_POLICY_NO_SURCHARGE","BITS_JOB_TRANSFER_POLICY_STANDARD","BITS_JOB_TRANSFER_POLICY_UNRESTRICTED","bits.bits_job_transfer_policy","bits5_0/BITS_JOB_TRANSFER_POLICY","bits5_0/BITS_JOB_TRANSFER_POLICY_ALWAYS","bits5_0/BITS_JOB_TRANSFER_POLICY_NOT_ROAMING","bits5_0/BITS_JOB_TRANSFER_POLICY_NO_SURCHARGE","bits5_0/BITS_JOB_TRANSFER_POLICY_STANDARD","bits5_0/BITS_JOB_TRANSFER_POLICY_UNRESTRICTED"]
 old-location: bits\bits_job_transfer_policy.htm
 tech.root: Bits
 ms.assetid: 6B321E80-333A-49F3-B36F-18652F2C92FE

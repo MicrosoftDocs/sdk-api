@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE (wincrypt.h)
-description: Releases the provider.
+description: Releases the provider.helpviewer_keywords: ["CRYPT_OBJECT_LOCATOR_RELEASE_DLL_UNLOAD","CRYPT_OBJECT_LOCATOR_RELEASE_PROCESS_EXIT","CRYPT_OBJECT_LOCATOR_RELEASE_SERVICE_STOP","CRYPT_OBJECT_LOCATOR_RELEASE_SYSTEM_SHUTDOWN","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE callback","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE callback function [Security]","security.pfn_crypt_object_locator_provider_release","wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE"]
 old-location: security\pfn_crypt_object_locator_provider_release.htm
 tech.root: SecCrypto
 ms.assetid: DDF1243D-A6C8-426A-A800-018E7FF7E182
@@ -117,15 +117,6 @@ The provider DLL is unloading.
 ### -param pPluginContext [in, optional]
 
 Pointer to an optional buffer defined by this provider and returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_initialize">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</a> function. The buffer is not modified by the caller. Your provider can use the data to help it determine what actions to perform or to maintain additional information. 
-
-
-## -returns
-
-
-
-Do not return a value from this function. 
-
-
 
 
 ## -remarks

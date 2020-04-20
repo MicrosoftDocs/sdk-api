@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ProjectOntoItem
 title: ISyncKnowledge::ProjectOntoItem (winsync.h)
-description: Gets the knowledge for the specified item.
+description: Gets the knowledge for the specified item.helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","ProjectOntoItem method","ISyncKnowledge.ProjectOntoItem","ISyncKnowledge::ProjectOntoItem","ProjectOntoItem","ProjectOntoItem method [Windows Sync]","ProjectOntoItem method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_projectontoitem","winsync/ISyncKnowledge::ProjectOntoItem"]
 old-location: winsync\isyncknowledge_projectontoitem.htm
 tech.root: winsync
 ms.assetid: 069fdc90-bea3-42e4-835c-b2a397d13b60

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.Remove
 title: IX509NameValuePairs::Remove (certenroll.h)
-description: Removes an IX509NameValuePair object from the collection by index number.
+description: Removes an IX509NameValuePair object from the collection by index number.helpviewer_keywords: ["IX509NameValuePairs interface [Security]","Remove method","IX509NameValuePairs.Remove","IX509NameValuePairs::Remove","Remove","Remove method [Security]","Remove method [Security]","IX509NameValuePairs interface","certenroll/IX509NameValuePairs::Remove","security.ix509namevaluepairs_remove_method"]
 old-location: security\ix509namevaluepairs_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: f66dbfd1-331f-4e1b-a17e-f8071044d073

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarCyFromUI8
 title: VarCyFromUI8 function (oleauto.h)
-description: Converts an 8-byte unsigned integer value to a currency value.
+description: Converts an 8-byte unsigned integer value to a currency value.helpviewer_keywords: ["VarCyFromUI8","VarCyFromUI8 function [Automation]","_oa96_VarCyFromUI8","automat.varcyfromui8","oleauto/VarCyFromUI8"]
 old-location: automat\varcyfromui8.htm
 tech.root: automat
 ms.assetid: 7267e880-d241-457f-b105-6b9d357d029f

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMallocSpy.PreHeapMinimize
 title: IMallocSpy::PreHeapMinimize (objidl.h)
-description: Performs operations required before calling IMalloc::HeapMinimize.
+description: Performs operations required before calling IMalloc::HeapMinimize.helpviewer_keywords: ["IMallocSpy interface [COM]","PreHeapMinimize method","IMallocSpy.PreHeapMinimize","IMallocSpy::PreHeapMinimize","PreHeapMinimize","PreHeapMinimize method [COM]","PreHeapMinimize method [COM]","IMallocSpy interface","_com_imallocspy_preheapminimize","com.imallocspy_preheapminimize","objidl/IMallocSpy::PreHeapMinimize"]
 old-location: com\imallocspy_preheapminimize.htm
 tech.root: com
 ms.assetid: 9e80f555-5382-4bd9-ab56-a67f42b13cae
@@ -55,15 +55,6 @@ Performs operations required before calling <a href="https://docs.microsoft.com/
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

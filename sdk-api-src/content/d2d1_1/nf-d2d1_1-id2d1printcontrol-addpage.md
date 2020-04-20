@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1PrintControl.AddPage
 title: ID2D1PrintControl::AddPage (d2d1_1.h)
-description: Converts Direct2D primitives in the passed-in command list into a fixed page representation for use by the print subsystem.
+description: Converts Direct2D primitives in the passed-in command list into a fixed page representation for use by the print subsystem.helpviewer_keywords: ["AddPage","AddPage method [Direct2D]","AddPage method [Direct2D]","ID2D1PrintControl interface","ID2D1PrintControl interface [Direct2D]","AddPage method","ID2D1PrintControl.AddPage","ID2D1PrintControl::AddPage","d2d1_1/ID2D1PrintControl::AddPage","direct2d.id2d1printcontrol_addpage"]
 old-location: direct2d\id2d1printcontrol_addpage.htm
 tech.root: Direct2D
 ms.assetid: 6B157EE8-36C8-4054-9975-3D3B82B3D013

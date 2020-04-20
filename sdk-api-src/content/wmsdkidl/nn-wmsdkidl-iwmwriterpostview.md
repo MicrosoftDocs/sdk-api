@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMWriterPostView
 title: IWMWriterPostView (wmsdkidl.h)
-description: The IWMWriterPostView interface manages advanced writing functionality related to the postviewing of samples.
+description: The IWMWriterPostView interface manages advanced writing functionality related to the postviewing of samples.helpviewer_keywords: ["IWMWriterPostView","IWMWriterPostView interface [windows Media Format]","IWMWriterPostView interface [windows Media Format]","described","IWMWriterPostViewInterface","wmformat.iwmwriterpostview","wmsdkidl/IWMWriterPostView"]
 old-location: wmformat\iwmwriterpostview.htm
 tech.root: wmformat
 ms.assetid: 1d24dbd6-86df-4a0a-8110-15f6a4c1f31d

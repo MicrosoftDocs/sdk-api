@@ -1,7 +1,7 @@
 ---
 UID: NF:fltuser.FilterGetInformation
 title: FilterGetInformation function (fltuser.h)
-description: The FilterGetInformation function returns various kinds of information about a minifilter.
+description: The FilterGetInformation function returns various kinds of information about a minifilter.helpviewer_keywords: ["FilterGetInformation","FilterGetInformation function [Installable File System Drivers]","FltWin32ApiRef_244d89a8-3a31-44bd-bc08-b3ea8bb4dbba.xml","fltuser/FilterGetInformation","ifsk.filtergetinformation"]
 old-location: ifsk\filtergetinformation.htm
 tech.root: ifsk
 ms.assetid: d5124ac2-dd1e-46b2-b25c-e965768eaf9e

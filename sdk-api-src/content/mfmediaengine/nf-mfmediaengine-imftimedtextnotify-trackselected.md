@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.TrackSelected
 title: IMFTimedTextNotify::TrackSelected (mfmediaengine.h)
-description: Called when a track is selected or deselected.
+description: Called when a track is selected or deselected.helpviewer_keywords: ["IMFTimedTextNotify interface [Media Foundation]","TrackSelected method","IMFTimedTextNotify.TrackSelected","IMFTimedTextNotify::TrackSelected","TrackSelected","TrackSelected method [Media Foundation]","TrackSelected method [Media Foundation]","IMFTimedTextNotify interface","mf.imftimedtextnotify_trackselected","mfmediaengine/IMFTimedTextNotify::TrackSelected"]
 old-location: mf\imftimedtextnotify_trackselected.htm
 tech.root: medfound
 ms.assetid: C4757863-3D92-4D49-A2CA-8AD7C65461E6
@@ -71,15 +71,6 @@ The identifier of the track that was selected or deselected.
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if the track was selected. <b>FALSE</b> if the track was deselected. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.GetFrameCount
 title: Image::GetFrameCount (gdiplusheaders.h)
-description: The Image::GetFrameCount method gets the number of frames in a specified dimension of this Image object.
+description: The Image::GetFrameCount method gets the number of frames in a specified dimension of this Image object.helpviewer_keywords: ["GetFrameCount","GetFrameCount method [GDI+]","GetFrameCount method [GDI+]","Image class","Image class [GDI+]","GetFrameCount method","Image.GetFrameCount","Image::GetFrameCount","_gdiplus_CLASS_Image_GetFrameCount_dimensionID_","gdiplus._gdiplus_CLASS_Image_GetFrameCount_dimensionID_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetFrameCount_dimensionID_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getframecount.htm

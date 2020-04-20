@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IObjectIds.Clear
 title: IObjectIds::Clear (certenroll.h)
-description: Removes all IObjectId objects from the collection.
+description: Removes all IObjectId objects from the collection.helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","IObjectIds interface","IObjectIds interface [Security]","Clear method","IObjectIds.Clear","IObjectIds::Clear","certenroll/IObjectIds::Clear","security.iobjectids_clear_method"]
 old-location: security\iobjectids_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: f539a79a-477a-49cc-b761-2a615c3d5ea4

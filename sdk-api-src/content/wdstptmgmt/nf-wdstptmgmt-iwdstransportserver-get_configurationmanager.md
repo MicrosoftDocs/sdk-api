@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer.get_ConfigurationManager
 title: IWdsTransportServer::get_ConfigurationManager (wdstptmgmt.h)
-description: Returns a pointer to the object of an IWdsTransportConfigurationManager interface used to manage the configuration of this server.
+description: Returns a pointer to the object of an IWdsTransportConfigurationManager interface used to manage the configuration of this server.helpviewer_keywords: ["ConfigurationManager property [Windows Deployment Services]","ConfigurationManager property [Windows Deployment Services]","IWdsTransportServer interface","IWdsTransportServer interface [Windows Deployment Services]","ConfigurationManager property","IWdsTransportServer.ConfigurationManager","IWdsTransportServer.get_ConfigurationManager","IWdsTransportServer::ConfigurationManager","IWdsTransportServer::get_ConfigurationManager","get_ConfigurationManager","wds.iwdstransportserver_configurationmanager","wdstptmgmt/IWdsTransportServer::ConfigurationManager","wdstptmgmt/IWdsTransportServer::get_ConfigurationManager"]
 old-location: wds\iwdstransportserver_configurationmanager.htm
 tech.root: wds
 ms.assetid: 007e166b-a8f9-4acc-8963-ffa14b22084a

@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMRBAUTOSIZE
 title: NMRBAUTOSIZE (commctrl.h)
-description: Contains information used in handling the RBN_AUTOSIZE notification codes.
+description: Contains information used in handling the RBN_AUTOSIZE notification codes.helpviewer_keywords: ["*LPNMRBAUTOSIZE","LPNMRBAUTOSIZE","LPNMRBAUTOSIZE structure pointer [Windows Controls]","NMRBAUTOSIZE","NMRBAUTOSIZE structure [Windows Controls]","_win32_NMRBAUTOSIZE","_win32_NMRBAUTOSIZE_cpp","commctrl/LPNMRBAUTOSIZE","commctrl/NMRBAUTOSIZE","controls.NMRBAUTOSIZE","controls._win32_NMRBAUTOSIZE"]
 old-location: controls\NMRBAUTOSIZE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrbautosize.htm

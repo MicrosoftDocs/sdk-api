@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedProviderDescription
 title: IUIAutomationElement::get_CachedProviderDescription (uiautomationclient.h)
-description: Retrieves a cached description of the provider for this element.
+description: Retrieves a cached description of the provider for this element.helpviewer_keywords: ["CachedProviderDescription property [Windows Accessibility]","CachedProviderDescription property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedProviderDescription property","IUIAutomationElement.CachedProviderDescription","IUIAutomationElement.get_CachedProviderDescription","IUIAutomationElement::CachedProviderDescription","IUIAutomationElement::get_CachedProviderDescription","get_CachedProviderDescription","uiauto.uiauto_IUIAutomationElement_CachedProviderDescription","uiauto_IUIAutomationElement_CachedProviderDescription","uiautomationclient/IUIAutomationElement::CachedProviderDescription","uiautomationclient/IUIAutomationElement::get_CachedProviderDescription","winauto.uiauto_IUIAutomationElement_CachedProviderDescription"]
 old-location: winauto\uiauto_IUIAutomationElement_CachedProviderDescription.htm
 tech.root: WinAuto
 ms.assetid: ed26dbb7-9838-48f2-8401-f169038b8b92

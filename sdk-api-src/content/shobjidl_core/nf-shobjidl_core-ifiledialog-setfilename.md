@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetFileName
 title: IFileDialog::SetFileName (shobjidl_core.h)
-description: Sets the file name that appears in the File name edit box when that dialog box is opened.
+description: Sets the file name that appears in the File name edit box when that dialog box is opened.helpviewer_keywords: ["IFileDialog interface [Windows Shell]","SetFileName method","IFileDialog.SetFileName","IFileDialog::SetFileName","SetFileName","SetFileName method [Windows Shell]","SetFileName method [Windows Shell]","IFileDialog interface","_shell_IFileDialog_SetFileName","shell.IFileDialog_SetFileName","shobjidl_core/IFileDialog::SetFileName"]
 old-location: shell\IFileDialog_SetFileName.htm
 tech.root: shell
 ms.assetid: b8b72a76-6cdb-4675-8d84-f3c7171b8576

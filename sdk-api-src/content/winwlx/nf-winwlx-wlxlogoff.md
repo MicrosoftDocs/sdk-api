@@ -1,7 +1,7 @@
 ---
 UID: NF:winwlx.WlxLogoff
 title: WlxLogoff function (winwlx.h)
-description: Winlogon calls this function to notify the GINA of a logoff operation on this workstation, allowing the GINA to perform any logoff operations that may be required.
+description: Winlogon calls this function to notify the GINA of a logoff operation on this workstation, allowing the GINA to perform any logoff operations that may be required.helpviewer_keywords: ["WlxLogoff","WlxLogoff function [Security]","_gina_wlxlogoff","security.wlxlogoff","winwlx/WlxLogoff"]
 old-location: security\wlxlogoff.htm
 tech.root: SecAuthN
 ms.assetid: bbeafd41-fe01-497d-8514-a6c088a11d73
@@ -63,15 +63,6 @@ The <b>WlxLogoff</b> function must be implemented by a replacement <a href="http
 
 A pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

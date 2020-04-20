@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IESOpenMmiEvent.GetDialogData
 title: IESOpenMmiEvent::GetDialogData (tuner.h)
-description: Gets the data associated with an OpenMMI event, in byte stream format. This data can be the contents of the dialog that is opened or the Uniform Resource Locator (URL) that contains the dialog.
+description: Gets the data associated with an OpenMMI event, in byte stream format. This data can be the contents of the dialog that is opened or the Uniform Resource Locator (URL) that contains the dialog.helpviewer_keywords: ["GetDialogData","GetDialogData method [Microsoft TV Technologies]","GetDialogData method [Microsoft TV Technologies]","IESOpenMmiEvent interface","IESOpenMmiEvent interface [Microsoft TV Technologies]","GetDialogData method","IESOpenMmiEvent.GetDialogData","IESOpenMmiEvent::GetDialogData","mstv.iesopenmmievent_getdialogdata","tuner/IESOpenMmiEvent::GetDialogData"]
 old-location: mstv\iesopenmmievent_getdialogdata.htm
 tech.root: mstv
 ms.assetid: c5deaffb-ceac-4609-a862-b050a1afa1f9

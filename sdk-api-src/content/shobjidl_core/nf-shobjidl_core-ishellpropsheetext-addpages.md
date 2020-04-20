@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellPropSheetExt.AddPages
 title: IShellPropSheetExt::AddPages (shobjidl_core.h)
-description: Adds one or more pages to a property sheet that the Shell displays for a file object. The Shell calls this method for each property sheet handler registered to the file type.
+description: Adds one or more pages to a property sheet that the Shell displays for a file object. The Shell calls this method for each property sheet handler registered to the file type.helpviewer_keywords: ["AddPages","AddPages method [Windows Shell]","AddPages method [Windows Shell]","IShellPropSheetExt interface","IShellPropSheetExt interface [Windows Shell]","AddPages method","IShellPropSheetExt.AddPages","IShellPropSheetExt::AddPages","_win32_IShellPropSheetExt_AddPages","_win32_ishellpropsheetext_win32_ishellpropsheetext_addpages_cpp","shell.IShellPropSheetExt_AddPages","shobjidl_core/IShellPropSheetExt::AddPages"]
 old-location: shell\IShellPropSheetExt_AddPages.htm
 tech.root: shell
 ms.assetid: 76a2a94b-b79f-41d1-9e42-fbfda545d12f

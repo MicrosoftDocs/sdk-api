@@ -1,7 +1,7 @@
 ---
 UID: NS:amva._tag_AMVAUncompDataInfo
 title: AMVAUncompDataInfo (amva.h)
-description: The AMVAUncompDataInfo structure specifies the dimensions and pixel format of the uncompressed surfaces for DirectX Video Acceleration (DXVA) video decoding.
+description: The AMVAUncompDataInfo structure specifies the dimensions and pixel format of the uncompressed surfaces for DirectX Video Acceleration (DXVA) video decoding.helpviewer_keywords: ["*LPAMVAUncompDataInfo","AMVAUncompDataInfo","AMVAUncompDataInfo structure [DirectShow]","AMVAUncompDataInfoStructure","LPAMVAUncompDataInfo","LPAMVAUncompDataInfo structure pointer [DirectShow]","amva/AMVAUncompDataInfo","amva/LPAMVAUncompDataInfo","dshow.amvauncompdatainfo"]
 old-location: dshow\amvauncompdatainfo.htm
 tech.root: DirectShow
 ms.assetid: 920f88bb-c671-4ab9-b482-b03505cca118

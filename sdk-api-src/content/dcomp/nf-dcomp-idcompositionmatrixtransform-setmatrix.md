@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionMatrixTransform.SetMatrix
 title: IDCompositionMatrixTransform::SetMatrix (dcomp.h)
-description: Changes all values of the matrix of this 2D transform.
+description: Changes all values of the matrix of this 2D transform.helpviewer_keywords: ["IDCompositionMatrixTransform interface [DirectComposition]","SetMatrix method","IDCompositionMatrixTransform.SetMatrix","IDCompositionMatrixTransform::SetMatrix","SetMatrix","SetMatrix method [DirectComposition]","SetMatrix method [DirectComposition]","IDCompositionMatrixTransform interface","dcomp/IDCompositionMatrixTransform::SetMatrix","directcomp.idcompositionmatrixtransform_setmatrix"]
 old-location: directcomp\idcompositionmatrixtransform_setmatrix.htm
 tech.root: directcomp
 ms.assetid: 1f164dfd-8bd4-4f6e-a5d2-d455808b5b0f

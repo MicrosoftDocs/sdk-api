@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.GetDescription
 title: ITfDisplayAttributeInfo::GetDescription (msctf.h)
-description: ITfDisplayAttributeInfo::GetDescription method
+description: ITfDisplayAttributeInfo::GetDescription methodhelpviewer_keywords: ["GetDescription","GetDescription method [Text Services Framework]","GetDescription method [Text Services Framework]","ITfDisplayAttributeInfo interface","ITfDisplayAttributeInfo interface [Text Services Framework]","GetDescription method","ITfDisplayAttributeInfo.GetDescription","ITfDisplayAttributeInfo::GetDescription","_tsf_itfdisplayattributeinfo_getdescription_ref","msctf/ITfDisplayAttributeInfo::GetDescription","tsf.itfdisplayattributeinfo_getdescription"]
 old-location: tsf\itfdisplayattributeinfo_getdescription.htm
 tech.root: TSF
 ms.assetid: e65aedac-284d-4e2a-b574-fc469f66e06e
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the description string of the display attribute.
 
 ## -parameters
 
@@ -102,19 +101,4 @@ The method was successful.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
- 
-
- 
-
+[ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md), [SysAllocString function](../oleauto/nf-oleauto-sysallocstring.md), [SysFreeString function](../oleauto/nf-oleauto-sysfreestring.md)

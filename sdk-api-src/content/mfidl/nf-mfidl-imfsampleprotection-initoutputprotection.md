@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.InitOutputProtection
 title: IMFSampleProtection::InitOutputProtection (mfidl.h)
-description: Retrieves initialization information for sample protection from the upstream component.
+description: Retrieves initialization information for sample protection from the upstream component.helpviewer_keywords: ["03bee13d-1c51-4b26-98bb-bac15264aa54","IMFSampleProtection interface [Media Foundation]","InitOutputProtection method","IMFSampleProtection.InitOutputProtection","IMFSampleProtection::InitOutputProtection","InitOutputProtection","InitOutputProtection method [Media Foundation]","InitOutputProtection method [Media Foundation]","IMFSampleProtection interface","mf.imfsampleprotection_initoutputprotection","mfidl/IMFSampleProtection::InitOutputProtection"]
 old-location: mf\imfsampleprotection_initoutputprotection.htm
 tech.root: medfound
 ms.assetid: 03bee13d-1c51-4b26-98bb-bac15264aa54

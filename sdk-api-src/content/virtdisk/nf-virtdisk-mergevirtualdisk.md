@@ -1,7 +1,7 @@
 ---
 UID: NF:virtdisk.MergeVirtualDisk
 title: MergeVirtualDisk function (virtdisk.h)
-description: Merges a child virtual hard disk (VHD) in a differencing chain with one or more parent virtual disks in the chain.
+description: Merges a child virtual hard disk (VHD) in a differencing chain with one or more parent virtual disks in the chain.helpviewer_keywords: ["MergeVirtualDisk","MergeVirtualDisk function [VHD]","vdssys/MergeVirtualDisk","vhd.mergevirtualdisk","virtdisk/MergeVirtualDisk"]
 old-location: vhd\mergevirtualdisk.htm
 tech.root: VStor
 ms.assetid: 9a9068d1-2f81-42a2-a3b2-6030a24a4445

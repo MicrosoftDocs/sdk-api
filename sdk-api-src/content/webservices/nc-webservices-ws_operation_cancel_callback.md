@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_OPERATION_CANCEL_CALLBACK
 title: WS_OPERATION_CANCEL_CALLBACK (webservices.h)
-description: Gives notification of the cancellation of an asynchronous service operation call as a result of an aborted shutdown of service host.
+description: Gives notification of the cancellation of an asynchronous service operation call as a result of an aborted shutdown of service host.helpviewer_keywords: ["WS_OPERATION_CANCEL_CALLBACK","WS_OPERATION_CANCEL_CALLBACK callback","WS_OPERATION_CANCEL_CALLBACK callback function [Web Services for Windows]","webservices/WS_OPERATION_CANCEL_CALLBACK","wsw.ws_operation_cancel_callback"]
 old-location: wsw\ws_operation_cancel_callback.htm
 tech.root: wsw
 ms.assetid: 177f9abb-861d-42a9-8044-25076b026f1d
@@ -69,15 +69,6 @@ Specifies the reason for which the call back is called.
 
 A reference to the application defined state registered with the callback. 
                 
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2spi.WSAUnadvertiseProvider
 title: WSAUnadvertiseProvider function (ws2spi.h)
-description: Makes a specific namespace version-2 provider no longer available for clients.
+description: Makes a specific namespace version-2 provider no longer available for clients.helpviewer_keywords: ["WSAUnadvertiseProvider","WSAUnadvertiseProvider function [Winsock]","winsock.wsaunadvertiseprovider","ws2spi/WSAUnadvertiseProvider"]
 old-location: winsock\wsaunadvertiseprovider.htm
 tech.root: WinSock
 ms.assetid: 5975b496-53a7-4f8a-8efc-27ef447596c2

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillGeometry
 title: ID2D1RenderTarget::FillGeometry (d2d1.h)
-description: Paints the interior of the specified geometry.
+description: Paints the interior of the specified geometry.helpviewer_keywords: ["FillGeometry","FillGeometry method [Direct2D]","FillGeometry method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","FillGeometry method","ID2D1RenderTarget.FillGeometry","ID2D1RenderTarget::FillGeometry","d2d1/ID2D1RenderTarget::FillGeometry","direct2d.ID2D1RenderTarget_FillGeometry"]
 old-location: direct2d\ID2D1RenderTarget_FillGeometry.htm
 tech.root: Direct2D
 ms.assetid: 097f21ac-a062-4ce1-bdc7-87317dbdf5be
@@ -76,15 +76,6 @@ The brush used to paint the geometry's interior.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The opacity mask to apply to the geometry, or <b>NULL</b> for no opacity mask. If an opacity mask (the <i>opacityBrush</i> parameter) is specified, <i>brush</i> must be an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> that has   its x- and y-extend modes set to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE_CLAMP</a>. For more information, see the Remarks section. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

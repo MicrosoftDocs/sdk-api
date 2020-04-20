@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IFolderActionCollection.Add
 title: IFolderActionCollection::Add (pla.h)
-description: Adds a folder action to the collection.
+description: Adds a folder action to the collection.helpviewer_keywords: ["Add","Add method [PLA]","Add method [PLA]","IFolderActionCollection interface","IFolderActionCollection interface [PLA]","Add method","IFolderActionCollection.Add","IFolderActionCollection::Add","base.ifolderactioncollection_add","pla.ifolderactioncollection_add","pla/IFolderActionCollection::Add"]
 old-location: pla\ifolderactioncollection_add.htm
 tech.root: PLA
 ms.assetid: 39597249-29d5-44a0-9954-01b9b6a62977

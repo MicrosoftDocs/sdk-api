@@ -1,7 +1,7 @@
 ---
 UID: NF:ddeml.DdeUninitialize
 title: DdeUninitialize function (ddeml.h)
-description: Frees all Dynamic Data Exchange Management Library (DDEML) resources associated with the calling application.
+description: Frees all Dynamic Data Exchange Management Library (DDEML) resources associated with the calling application.helpviewer_keywords: ["DdeUninitialize","DdeUninitialize function [Data Exchange]","_win32_DdeUninitialize","_win32_ddeuninitialize_cpp","dataxchg.ddeuninitialize","ddeml/DdeUninitialize","winui._win32_ddeuninitialize"]
 old-location: dataxchg\ddeuninitialize.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeuninitialize.htm

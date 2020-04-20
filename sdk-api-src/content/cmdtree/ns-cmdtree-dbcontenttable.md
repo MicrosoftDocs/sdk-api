@@ -1,7 +1,7 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTTABLE
 title: DBCONTENTTABLE (cmdtree.h)
-description: The DBCONTENTTABLE structure represents the machine and catalog names for a command tree.
+description: The DBCONTENTTABLE structure represents the machine and catalog names for a command tree.helpviewer_keywords: ["DBCONTENTTABLE","DBCONTENTTABLE structure [Indexing Service]","_idxs_DBCONTENTTABLE","cmdtree/DBCONTENTTABLE","indexsrv.dbcontenttable","tagDBCONTENTTABLE"]
 old-location: indexsrv\dbcontenttable.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_1zs5.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceChild.GetDevice
 title: ID3D11DeviceChild::GetDevice (d3d11.h)
-description: Get a pointer to the device that created this interface.
+description: Get a pointer to the device that created this interface.helpviewer_keywords: ["07aa3147-aab3-5e52-2809-7bddfdb31126","GetDevice","GetDevice method [Direct3D 11]","GetDevice method [Direct3D 11]","ID3D11DeviceChild interface","ID3D11DeviceChild interface [Direct3D 11]","GetDevice method","ID3D11DeviceChild.GetDevice","ID3D11DeviceChild::GetDevice","d3d11/ID3D11DeviceChild::GetDevice","direct3d11.id3d11devicechild_getdevice"]
 old-location: direct3d11\id3d11devicechild_getdevice.htm
 tech.root: direct3d11
 ms.assetid: d18f43ef-4edc-47ff-b1be-1be670c2ccb2
@@ -63,15 +63,6 @@ Get a pointer to the device that created this interface.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>**</b>
 
 Address of a pointer to a device (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>).
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

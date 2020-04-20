@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetArcDirection
 title: GetArcDirection function (wingdi.h)
-description: The GetArcDirection function retrieves the current arc direction for the specified device context. Arc and rectangle functions use the arc direction.
+description: The GetArcDirection function retrieves the current arc direction for the specified device context. Arc and rectangle functions use the arc direction.helpviewer_keywords: ["GetArcDirection","GetArcDirection function [Windows GDI]","_win32_GetArcDirection","gdi.getarcdirection","wingdi/GetArcDirection"]
 old-location: gdi\getarcdirection.htm
 tech.root: gdi
 ms.assetid: 6bf426cd-e028-4568-9e9a-aca58dd69732

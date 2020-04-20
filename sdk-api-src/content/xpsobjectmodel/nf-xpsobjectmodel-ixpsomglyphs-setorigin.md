@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetOrigin
 title: IXpsOMGlyphs::SetOrigin (xpsobjectmodel.h)
-description: Sets the starting position of the text.
+description: Sets the starting position of the text.helpviewer_keywords: ["IXpsOMGlyphs interface [XPS Documents and Packaging]","SetOrigin method","IXpsOMGlyphs.SetOrigin","IXpsOMGlyphs::SetOrigin","SetOrigin","SetOrigin method [XPS Documents and Packaging]","SetOrigin method [XPS Documents and Packaging]","IXpsOMGlyphs interface","xps.ixpsomglyphs_setorigin","xpsobjectmodel/IXpsOMGlyphs::SetOrigin"]
 old-location: xps\ixpsomglyphs_setorigin.htm
 tech.root: printdocs
 ms.assetid: f5491bf0-bc40-491e-bf5e-f3fb580e10b4

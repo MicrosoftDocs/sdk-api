@@ -1,7 +1,7 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetDecoderLevel
 title: IAMWstDecoder::GetDecoderLevel (iwstdec.h)
-description: Applications use the GetDecoderLevel method to retrieve the WST decoder level. This method is not implemented and always returns AM_WST_LEVEL_1_5.
+description: Applications use the GetDecoderLevel method to retrieve the WST decoder level. This method is not implemented and always returns AM_WST_LEVEL_1_5.helpviewer_keywords: ["GetDecoderLevel","GetDecoderLevel method [DirectShow]","GetDecoderLevel method [DirectShow]","IAMWstDecoder interface","IAMWstDecoder interface [DirectShow]","GetDecoderLevel method","IAMWstDecoder.GetDecoderLevel","IAMWstDecoder::GetDecoderLevel","IAMWstDecoderGetDecoderLevel","dshow.iamwstdecoder_getdecoderlevel","iwstdec/IAMWstDecoder::GetDecoderLevel"]
 old-location: dshow\iamwstdecoder_getdecoderlevel.htm
 tech.root: DirectShow
 ms.assetid: 629ee71d-7d79-4fa9-b169-3b5328659435

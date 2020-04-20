@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfInputProcessorProfileMgr
 title: ITfInputProcessorProfileMgr (msctf.h)
-description: The ITfInputProcessorProfileMgr interface is implemented by the TSF manager and used by an application or text service to manipulate the language profile of one or more text services.
+description: The ITfInputProcessorProfileMgr interface is implemented by the TSF manager and used by an application or text service to manipulate the language profile of one or more text services.helpviewer_keywords: ["ITfInputProcessorProfileMgr","ITfInputProcessorProfileMgr interface [Text Services Framework]","ITfInputProcessorProfileMgr interface [Text Services Framework]","described","_tsf_itfinputprocessorprofilemgr_ref","msctf/ITfInputProcessorProfileMgr","tsf.itfinputprocessorprofilemgr"]
 old-location: tsf\itfinputprocessorprofilemgr.htm
 tech.root: TSF
 ms.assetid: d60bb748-3c61-466d-9c17-df7bc4904994

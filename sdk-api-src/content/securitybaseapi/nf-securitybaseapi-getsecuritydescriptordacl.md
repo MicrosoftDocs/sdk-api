@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorDacl
 title: GetSecurityDescriptorDacl function (securitybaseapi.h)
-description: Retrieves a pointer to the discretionary access control list (DACL) in a specified security descriptor.
+description: Retrieves a pointer to the discretionary access control list (DACL) in a specified security descriptor.helpviewer_keywords: ["GetSecurityDescriptorDacl","GetSecurityDescriptorDacl function [Security]","_win32_getsecuritydescriptordacl","security.getsecuritydescriptordacl","securitybaseapi/GetSecurityDescriptorDacl"]
 old-location: security\getsecuritydescriptordacl.htm
 tech.root: SecAuthZ
 ms.assetid: 8006c8bb-4976-463f-b074-a59c3bbab36b

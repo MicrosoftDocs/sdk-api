@@ -1,7 +1,7 @@
 ---
 UID: NF:drt.DrtDeleteDnsBootstrapResolver
 title: DrtDeleteDnsBootstrapResolver function (drt.h)
-description: DrtDeleteDnsBootstrapResolver function deletes a DNS Bootstrap Provider instance.
+description: DrtDeleteDnsBootstrapResolver function deletes a DNS Bootstrap Provider instance.helpviewer_keywords: ["DrtDeleteDnsBootstrapResolver","DrtDeleteDnsBootstrapResolver function [Distributed Routing Tables]","drt/DrtDeleteDnsBootstrapResolver","p2p.drtdeletednsbootstrapresolver"]
 old-location: p2p\drtdeletednsbootstrapresolver.htm
 tech.root: P2PSdk
 ms.assetid: fc3d0b6a-1bf3-41f9-82b6-965c285bc6c7
@@ -60,15 +60,6 @@ The <b>DrtDeleteDnsBootstrapResolver</b> function deletes a DNS Bootstrap Provid
 ### -param pResolver [in]
 
 Pointer to a DRT_BOOTSTRAP_PROVIDER instance specifying the security provider to delte.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

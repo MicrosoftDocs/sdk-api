@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1_1.D2D1_PROPERTY
 title: D2D1_PROPERTY (d2d1_1.h)
-description: Specifies the indices of the system properties present on the ID2D1Properties interface for an ID2D1Effect.
+description: Specifies the indices of the system properties present on the ID2D1Properties interface for an ID2D1Effect.helpviewer_keywords: ["D2D1_PROPERTY","D2D1_PROPERTY","D2D1_PROPERTY enumeration [Direct2D]","D2D1_PROPERTY_AUTHOR","D2D1_PROPERTY_CACHED","D2D1_PROPERTY_CATEGORY","D2D1_PROPERTY_CLSID","D2D1_PROPERTY_DESCRIPTION","D2D1_PROPERTY_DISPLAYNAME","D2D1_PROPERTY_INPUTS","D2D1_PROPERTY_MAX_INPUTS","D2D1_PROPERTY_MIN_INPUTS","D2D1_PROPERTY_PRECISION","d2d1_1/D2D1_PROPERTY","d2d1_1/D2D1_PROPERTY_AUTHOR","d2d1_1/D2D1_PROPERTY_CACHED","d2d1_1/D2D1_PROPERTY_CATEGORY","d2d1_1/D2D1_PROPERTY_CLSID","d2d1_1/D2D1_PROPERTY_DESCRIPTION","d2d1_1/D2D1_PROPERTY_DISPLAYNAME","d2d1_1/D2D1_PROPERTY_INPUTS","d2d1_1/D2D1_PROPERTY_MAX_INPUTS","d2d1_1/D2D1_PROPERTY_MIN_INPUTS","d2d1_1/D2D1_PROPERTY_PRECISION","direct2d.__d2d1_property"]
 old-location: direct2d\__d2d1_property.htm
 tech.root: Direct2D
 ms.assetid: 7261ea3c-bd52-4809-93c8-9e7a0a7424d0

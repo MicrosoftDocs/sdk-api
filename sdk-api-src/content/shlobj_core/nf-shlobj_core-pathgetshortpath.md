@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.PathGetShortPath
 title: PathGetShortPath function (shlobj_core.h)
-description: PathGetShortPath may be altered or unavailable.
+description: PathGetShortPath may be altered or unavailable.helpviewer_keywords: ["PathGetShortPath","PathGetShortPath function [Windows Shell]","_win32_PathGetShortPath","shell.PathGetShortPath","shlobj_core/PathGetShortPath"]
 old-location: shell\PathGetShortPath.htm
 tech.root: shell
 ms.assetid: f374a575-3fbf-4bed-aa76-76ed81e01d60
@@ -64,13 +64,5 @@ Retrieves the short path form of a specified input path.
 Type: <b>PWSTR</b>
 
 A pointer to a null-terminated, Unicode string that contains the long path. When the function returns, it contains the equivalent short path.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

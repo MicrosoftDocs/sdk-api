@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.GetProperty
 title: ITfContext::GetProperty (msctf.h)
-description: ITfContext::GetProperty method
+description: ITfContext::GetProperty methodhelpviewer_keywords: ["GetProperty","GetProperty method [Text Services Framework]","GetProperty method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetProperty method","ITfContext.GetProperty","ITfContext::GetProperty","_tsf_itfcontext_getproperty_ref","msctf/ITfContext::GetProperty","tsf.itfcontext_getproperty"]
 old-location: tsf\itfcontext_getproperty.htm
 tech.root: TSF
 ms.assetid: e5d76443-f767-47fb-be3a-8cbac224d299
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a text property.
 
 ## -parameters
 
@@ -149,21 +148,4 @@ An application or text service can define unique properties identified by a GUID
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfProperty interface](nn-msctf-itfproperty.md), [Predefined Properties](/windows/desktop/TSF/predefined-properties)

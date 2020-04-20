@@ -1,7 +1,7 @@
 ---
 UID: NF:sddl.ConvertSecurityDescriptorToStringSecurityDescriptorA
 title: ConvertSecurityDescriptorToStringSecurityDescriptorA function (sddl.h)
-description: Converts a security descriptor to a string format. You can use the string format to store or transmit the security descriptor.
+description: Converts a security descriptor to a string format. You can use the string format to store or transmit the security descriptor.helpviewer_keywords: ["ConvertSecurityDescriptorToStringSecurityDescriptor","ConvertSecurityDescriptorToStringSecurityDescriptor function [Security]","ConvertSecurityDescriptorToStringSecurityDescriptorA","ConvertSecurityDescriptorToStringSecurityDescriptorW","_win32_convertsecuritydescriptortostringsecuritydescriptor","sddl/ConvertSecurityDescriptorToStringSecurityDescriptor","sddl/ConvertSecurityDescriptorToStringSecurityDescriptorA","sddl/ConvertSecurityDescriptorToStringSecurityDescriptorW","security.convertsecuritydescriptortostringsecuritydescriptor"]
 old-location: security\convertsecuritydescriptortostringsecuritydescriptor.htm
 tech.root: SecAuthZ
 ms.assetid: 36140833-8e30-4c32-a88a-c10751b6c223
@@ -81,10 +81,7 @@ Specifies the revision level of the output <i>StringSecurityDescriptor</i> strin
 Specifies a combination of the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags to indicate the components of the security descriptor to include in the output string. 
 
-
-
-
-					The BACKUP_SECURITY_INFORMATION 	flag is not applicable to this function. If the BACKUP_SECURITY_INFORMATION 	flag is passed in, the <i>SecurityInformation</i> parameter returns TRUE with <b>null</b> string output.
+The BACKUP_SECURITY_INFORMATION flag is not applicable to this function. If the BACKUP_SECURITY_INFORMATION flag is passed in, the <i>SecurityInformation</i> parameter returns TRUE with <b>null</b> string output.
 
 
 ### -param StringSecurityDescriptor [out]

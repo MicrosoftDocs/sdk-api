@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.CloseEnum
 title: IMetaDataAssemblyImport::CloseEnum (rometadataapi.h)
-description: Releases a reference to the specified enumeration instance.
+description: Releases a reference to the specified enumeration instance.helpviewer_keywords: ["CloseEnum","CloseEnum method [Windows Runtime]","CloseEnum method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","CloseEnum method","IMetaDataAssemblyImport.CloseEnum","IMetaDataAssemblyImport::CloseEnum","rometadataapi/IMetaDataAssemblyImport::CloseEnum","winrt.imetadataassemblyimport_closeenum"]
 old-location: winrt\imetadataassemblyimport_closeenum.htm
 tech.root: WinRT
 ms.assetid: 95adc5b3-19f1-4be1-bb77-a481f81f5d3e
@@ -60,15 +60,6 @@ Releases a reference to the specified enumeration instance.
 ### -param hEnum [in]
 
 The enumeration instance to be closed.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

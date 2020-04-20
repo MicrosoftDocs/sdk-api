@@ -1,7 +1,7 @@
 ---
 UID: NF:winusb.WinUsb_GetCurrentFrameNumber
 title: WinUsb_GetCurrentFrameNumber function (winusb.h)
-description: The WinUsb_GetCurrentFrameNumber function gets the current frame number for the bus.
+description: The WinUsb_GetCurrentFrameNumber function gets the current frame number for the bus.helpviewer_keywords: ["WinUsb_GetCurrentFrameNumber","WinUsb_GetCurrentFrameNumber function [Buses]","buses.winusb_getcurrentframenumber","winusb/WinUsb_GetCurrentFrameNumber"]
 old-location: buses\winusb_getcurrentframenumber.htm
 tech.root: usbref
 ms.assetid: 178E1679-B78F-4032-8D1B-66B7ABE902C7

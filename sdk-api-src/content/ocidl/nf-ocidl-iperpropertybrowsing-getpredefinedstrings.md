@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPerPropertyBrowsing.GetPredefinedStrings
 title: IPerPropertyBrowsing::GetPredefinedStrings (ocidl.h)
-description: Retrieves an array description strings for the allowable values that the specified property can accept.
+description: Retrieves an array description strings for the allowable values that the specified property can accept.helpviewer_keywords: ["GetPredefinedStrings","GetPredefinedStrings method [COM]","GetPredefinedStrings method [COM]","IPerPropertyBrowsing interface","IPerPropertyBrowsing interface [COM]","GetPredefinedStrings method","IPerPropertyBrowsing.GetPredefinedStrings","IPerPropertyBrowsing::GetPredefinedStrings","_ctrl_iperpropertybrowsing_getpredefinedstrings","com.iperpropertybrowsing_getpredefinedstrings","ocidl/IPerPropertyBrowsing::GetPredefinedStrings"]
 old-location: com\iperpropertybrowsing_getpredefinedstrings.htm
 tech.root: com
 ms.assetid: 1b20585f-2bcd-475e-abee-80158692ae0f

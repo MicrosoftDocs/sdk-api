@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgr.SetFocus
 title: ITfThreadMgr::SetFocus (msctf.h)
-description: ITfThreadMgr::SetFocus method
+description: ITfThreadMgr::SetFocus methodhelpviewer_keywords: ["ITfThreadMgr interface [Text Services Framework]","SetFocus method","ITfThreadMgr.SetFocus","ITfThreadMgr::SetFocus","SetFocus","SetFocus method [Text Services Framework]","SetFocus method [Text Services Framework]","ITfThreadMgr interface","_tsf_itfthreadmgr_setfocus_ref","msctf/ITfThreadMgr::SetFocus","tsf.itfthreadmgr_setfocus"]
 old-location: tsf\itfthreadmgr_setfocus.htm
 tech.root: TSF
 ms.assetid: b437c646-2a15-4ad6-8e7e-3553e7106249
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the input focus to the specified document manager.
 
 ## -parameters
 

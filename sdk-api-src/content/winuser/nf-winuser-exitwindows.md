@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ExitWindows
 title: ExitWindows macro (winuser.h)
-description: Calls the ExitWindowsEx function to log off the interactive user.
+description: Calls the ExitWindowsEx function to log off the interactive user.helpviewer_keywords: ["ExitWindows","ExitWindows macro","_win32_exitwindows","base.exitwindows","winuser/ExitWindows"]
 old-location: base\exitwindows.htm
 tech.root: Shutdown
 ms.assetid: 7c76caac-459d-45df-ae00-bc208a9e7b22

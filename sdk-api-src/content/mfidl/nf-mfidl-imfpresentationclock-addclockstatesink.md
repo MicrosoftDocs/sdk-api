@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.AddClockStateSink
 title: IMFPresentationClock::AddClockStateSink (mfidl.h)
-description: Registers an object to be notified whenever the clock starts, stops, or pauses, or changes rate.
+description: Registers an object to be notified whenever the clock starts, stops, or pauses, or changes rate.helpviewer_keywords: ["AddClockStateSink","AddClockStateSink method [Media Foundation]","AddClockStateSink method [Media Foundation]","IMFPresentationClock interface","IMFPresentationClock interface [Media Foundation]","AddClockStateSink method","IMFPresentationClock.AddClockStateSink","IMFPresentationClock::AddClockStateSink","c90c3d26-51fa-4cd6-a154-6f72c21219d2","mf.imfpresentationclock_addclockstatesink","mfidl/IMFPresentationClock::AddClockStateSink"]
 old-location: mf\imfpresentationclock_addclockstatesink.htm
 tech.root: medfound
 ms.assetid: c90c3d26-51fa-4cd6-a154-6f72c21219d2

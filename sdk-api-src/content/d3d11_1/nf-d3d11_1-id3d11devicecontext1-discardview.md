@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.DiscardView
 title: ID3D11DeviceContext1::DiscardView (d3d11_1.h)
-description: Discards a resource view from the device context.
+description: Discards a resource view from the device context.helpviewer_keywords: ["DiscardView","DiscardView method [Direct3D 11]","DiscardView method [Direct3D 11]","ID3D11DeviceContext1 interface","ID3D11DeviceContext1 interface [Direct3D 11]","DiscardView method","ID3D11DeviceContext1.DiscardView","ID3D11DeviceContext1::DiscardView","d3d11_1/ID3D11DeviceContext1::DiscardView","direct3d11.id3d11devicecontext1_discardview"]
 old-location: direct3d11\id3d11devicecontext1_discardview.htm
 tech.root: direct3d11
 ms.assetid: 7BBF20BC-3777-46B9-8DE3-40B7B88DAF6C
@@ -63,15 +63,6 @@ Discards a resource view from the device context.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11view">ID3D11View</a>*</b>
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11view">ID3D11View</a> interface for the resource view to discard. The resource that underlies the view must have been created with usage <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DYNAMIC</a>, otherwise the runtime drops the call to <b>DiscardView</b>; if the debug layer is enabled, the runtime returns an error message.
-
-
-## -returns
-
-
-
-Returns nothing
-
-
 
 
 ## -remarks

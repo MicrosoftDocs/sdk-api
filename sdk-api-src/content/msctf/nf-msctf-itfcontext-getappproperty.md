@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.GetAppProperty
 title: ITfContext::GetAppProperty (msctf.h)
-description: ITfContext::GetAppProperty method
+description: ITfContext::GetAppProperty methodhelpviewer_keywords: ["GetAppProperty","GetAppProperty method [Text Services Framework]","GetAppProperty method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetAppProperty method","ITfContext.GetAppProperty","ITfContext::GetAppProperty","_tsf_itfcontext_getappproperty_ref","msctf/ITfContext::GetAppProperty","tsf.itfcontext_getappproperty"]
 old-location: tsf\itfcontext_getappproperty.htm
 tech.root: TSF
 ms.assetid: 5c04ff8e-5686-4802-b312-71dddaf0155e
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an application property.
 
 ## -parameters
 
@@ -173,26 +172,4 @@ Application properties differ from text properties, obtained by <a href="https:/
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfContext::GetProperty](nf-msctf-itfcontext-getproperty.md), [ITfReadOnlyProperty interface](nn-msctf-itfreadonlyproperty.md), [Predefined Properties](/windows/desktop/TSF/predefined-properties)

@@ -1,7 +1,7 @@
 ---
 UID: NF:cscapi.OfflineFilesStart
 title: OfflineFilesStart function (cscapi.h)
-description: Starts the Offline Files service.
+description: Starts the Offline Files service.helpviewer_keywords: ["OfflineFilesStart","OfflineFilesStart function [Offline Files]","cscapi/OfflineFilesStart","of.offlinefilesstart"]
 old-location: of\offlinefilesstart.htm
 tech.root: offlinefiles
 ms.assetid: 79060780-A2C1-45CE-BB9A-75DF433C3F3C

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetCenterZ(float)
 title: IDCompositionRotateTransform3D::SetCenterZ (dcomp.h)
-description: Changes the value of the CenterZ property of a 3D rotation transform. The CenterZ property specifies the z-coordinate of the point about which the rotation is performed. The default value is zero.
+description: Changes the value of the CenterZ property of a 3D rotation transform. The CenterZ property specifies the z-coordinate of the point about which the rotation is performed. The default value is zero.helpviewer_keywords: ["IDCompositionRotateTransform3D interface [DirectComposition]","SetCenterZ method","IDCompositionRotateTransform3D.SetCenterZ","IDCompositionRotateTransform3D::SetCenterZ","IDCompositionRotateTransform3D::SetCenterZ(float)","SetCenterZ","SetCenterZ method [DirectComposition]","SetCenterZ method [DirectComposition]","IDCompositionRotateTransform3D interface","dcomp/IDCompositionRotateTransform3D::SetCenterZ","directcomp.idcompositionrotatetransform3d_setcenterz_float"]
 old-location: directcomp\idcompositionrotatetransform3d_setcenterz_float.htm
 tech.root: directcomp
 ms.assetid: 56406AD4-F257-444C-8E72-6B9A901D6075

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IASetIndexBuffer
 title: ID3D11DeviceContext::IASetIndexBuffer (d3d11.h)
-description: Bind an index buffer to the input-assembler stage.
+description: Bind an index buffer to the input-assembler stage.helpviewer_keywords: ["73896724-c6e5-3a60-25c3-af31308264c5","IASetIndexBuffer","IASetIndexBuffer method [Direct3D 11]","IASetIndexBuffer method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","IASetIndexBuffer method","ID3D11DeviceContext.IASetIndexBuffer","ID3D11DeviceContext::IASetIndexBuffer","d3d11/ID3D11DeviceContext::IASetIndexBuffer","direct3d11.id3d11devicecontext_iasetindexbuffer"]
 old-location: direct3d11\id3d11devicecontext_iasetindexbuffer.htm
 tech.root: direct3d11
 ms.assetid: c556dda2-0808-4701-90cb-16c67a24add1
@@ -81,15 +81,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiform
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Offset (in bytes) from the start of the index buffer to the first index to use.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

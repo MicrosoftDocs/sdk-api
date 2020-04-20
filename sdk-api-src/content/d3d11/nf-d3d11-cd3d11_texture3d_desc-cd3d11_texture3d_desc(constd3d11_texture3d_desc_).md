@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.CD3D11_TEXTURE3D_DESC.CD3D11_TEXTURE3D_DESC(const D3D11_TEXTURE3D_DESC &)
 title: CD3D11_TEXTURE3D_DESC::CD3D11_TEXTURE3D_DESC(const D3D11_TEXTURE3D_DESC &) (d3d11.h)
-description: Instantiates a new instance of a CD3D11_TEXTURE3D_DESC structure that is initialized with a D3D11_TEXTURE3D_DESC structure.
+description: Instantiates a new instance of a CD3D11_TEXTURE3D_DESC structure that is initialized with a D3D11_TEXTURE3D_DESC structure.helpviewer_keywords: ["CD3D11_TEXTURE3D_DESC","CD3D11_TEXTURE3D_DESC interface [Direct3D 11]","CD3D11_TEXTURE3D_DESC method","CD3D11_TEXTURE3D_DESC method [Direct3D 11]","CD3D11_TEXTURE3D_DESC method [Direct3D 11]","CD3D11_TEXTURE3D_DESC interface","CD3D11_TEXTURE3D_DESC.CD3D11_TEXTURE3D_DESC","CD3D11_TEXTURE3D_DESC.CD3D11_TEXTURE3D_DESC(const D3D11_TEXTURE3D_DESC &)","CD3D11_TEXTURE3D_DESC::CD3D11_TEXTURE3D_DESC","CD3D11_TEXTURE3D_DESC::CD3D11_TEXTURE3D_DESC(const D3D11_TEXTURE3D_DESC &)","CD3D11_TEXTURE3D_DESC::CD3D11_TEXTURE3D_DESC(const D3D11_TEXTURE3D_DESC&)","d3d11/CD3D11_TEXTURE3D_DESC::CD3D11_TEXTURE3D_DESC","direct3d11.cd3d11_texture3d_desc_cd3d11_texture3d_desc_d3d11_texture3d_desc_"]
 old-location: direct3d11\cd3d11_texture3d_desc_cd3d11_texture3d_desc_d3d11_texture3d_desc_.htm
 tech.root: direct3d11
 ms.assetid: 31DF3BE6-64C4-4CA1-B9F0-1D4F3FB96F55
@@ -63,15 +63,6 @@ Instantiates a new instance of a <a href="https://docs.microsoft.com/previous-ve
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture3d_desc">D3D11_TEXTURE3D_DESC</a></b>
 
 Address of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture3d_desc">D3D11_TEXTURE3D_DESC</a> structure that initializes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151706(v=vs.85)">CD3D11_TEXTURE3D_DESC</a> structure.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

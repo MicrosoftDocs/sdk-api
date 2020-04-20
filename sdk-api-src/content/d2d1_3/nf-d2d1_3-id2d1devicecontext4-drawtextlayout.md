@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.DrawTextLayout
 title: ID2D1DeviceContext4::DrawTextLayout (d2d1_3.h)
-description: Draws a text layout object. If the layout is not subsequently changed, this can be more efficient than DrawText when drawing the same layout repeatedly.
+description: Draws a text layout object. If the layout is not subsequently changed, this can be more efficient than DrawText when drawing the same layout repeatedly.helpviewer_keywords: ["DrawTextLayout","DrawTextLayout method [Direct2D]","DrawTextLayout method [Direct2D]","ID2D1DeviceContext4 interface","ID2D1DeviceContext4 interface [Direct2D]","DrawTextLayout method","ID2D1DeviceContext4.DrawTextLayout","ID2D1DeviceContext4::DrawTextLayout","d2d1_3/ID2D1DeviceContext4::DrawTextLayout","direct2d.id2d1devicecontext4_drawtextlayout"]
 old-location: direct2d\id2d1devicecontext4_drawtextlayout.htm
 tech.root: Direct2D
 ms.assetid: 54993EFD-A649-4613-8A9C-744FE22F7BFC
@@ -100,15 +100,6 @@ A value that indicates whether the text should be snapped to pixel boundaries an
             The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options">D2D1_DRAW_TEXT_OPTIONS_NONE</a>, 
             which indicates that text should be snapped to pixel boundaries and it should not be clipped to the layout rectangle.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

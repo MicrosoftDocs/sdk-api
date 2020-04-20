@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixPerspectiveOffCenterRH
 title: XMMatrixPerspectiveOffCenterRH function (directxmath.h)
-description: Builds a custom version of a right-handed perspective projection matrix.
+description: Builds a custom version of a right-handed perspective projection matrix.helpviewer_keywords: ["Use DirectX..XMMatrixPerspectiveOffCenterRH","XMMatrixPerspectiveOffCenterRH","XMMatrixPerspectiveOffCenterRH method [DirectX Math Support APIs]","dxmath.xmmatrixperspectiveoffcenterrh"]
 old-location: dxmath\xmmatrixperspectiveoffcenterrh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixPerspectiveOffCenterRH(float,float,float,float,float,float)

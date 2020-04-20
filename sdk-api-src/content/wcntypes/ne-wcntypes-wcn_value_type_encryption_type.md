@@ -1,7 +1,7 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_ENCRYPTION_TYPE
 title: WCN_VALUE_TYPE_ENCRYPTION_TYPE (wcntypes.h)
-description: WCN_VALUE_TYPE_ENCRYPTION_TYPE enumeration defines the supported WLAN encryption types.
+description: WCN_VALUE_TYPE_ENCRYPTION_TYPE enumeration defines the supported WLAN encryption types.helpviewer_keywords: ["WCN_VALUE_ET_AES","WCN_VALUE_ET_NONE","WCN_VALUE_ET_TKIP","WCN_VALUE_ET_TKIP_AES_MIXED","WCN_VALUE_ET_WEP","WCN_VALUE_TYPE_ENCRYPTION_TYPE","WCN_VALUE_TYPE_ENCRYPTION_TYPE enumeration [Windows Connect Now]","wcn.wcn_value_type_encryption_type","wcntypes/WCN_VALUE_ET_AES","wcntypes/WCN_VALUE_ET_NONE","wcntypes/WCN_VALUE_ET_TKIP","wcntypes/WCN_VALUE_ET_TKIP_AES_MIXED","wcntypes/WCN_VALUE_ET_WEP","wcntypes/WCN_VALUE_TYPE_ENCRYPTION_TYPE"]
 old-location: wcn\wcn_value_type_encryption_type.htm
 tech.root: wcn
 ms.assetid: 4bd6ef62-82cd-4d3d-925a-637396452c03

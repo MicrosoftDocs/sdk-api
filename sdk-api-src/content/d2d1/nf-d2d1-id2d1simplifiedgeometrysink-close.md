@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.Close
 title: ID2D1SimplifiedGeometrySink::Close (d2d1.h)
-description: Closes the geometry sink, indicates whether it is in an error state, and resets the sink's error state.
+description: Closes the geometry sink, indicates whether it is in an error state, and resets the sink's error state.helpviewer_keywords: ["Close","Close method [Direct2D]","Close method [Direct2D]","ID2D1SimplifiedGeometrySink interface","ID2D1SimplifiedGeometrySink interface [Direct2D]","Close method","ID2D1SimplifiedGeometrySink.Close","ID2D1SimplifiedGeometrySink::Close","d2d1/ID2D1SimplifiedGeometrySink::Close","direct2d.ID2D1SimplifiedGeometrySink_Close"]
 old-location: direct2d\ID2D1SimplifiedGeometrySink_Close.htm
 tech.root: Direct2D
 ms.assetid: 9dbbe5c6-d21c-4408-9208-53c7c051b22a

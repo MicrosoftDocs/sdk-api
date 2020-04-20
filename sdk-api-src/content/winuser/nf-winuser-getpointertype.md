@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetPointerType
 title: GetPointerType function (winuser.h)
-description: Retrieves the pointer type for a specified pointer.
+description: Retrieves the pointer type for a specified pointer.helpviewer_keywords: ["GetPointerType","GetPointerType function [Input Messages and Notifications]","inputmsg.getpointertype","winuser/GetPointerType"]
 old-location: inputmsg\getpointertype.htm
 tech.root: InputMsg
 ms.assetid: 63bfc340-9691-463c-96ca-0a5b80b8fe40

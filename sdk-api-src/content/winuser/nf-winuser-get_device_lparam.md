@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GET_DEVICE_LPARAM
 title: GET_DEVICE_LPARAM macro (winuser.h)
-description: Retrieves the input device type from the specified LPARAM value.
+description: Retrieves the input device type from the specified LPARAM value.helpviewer_keywords: ["GET_DEVICE_LPARAM","GET_DEVICE_LPARAM macro [Keyboard and Mouse Input]","_win32_GET_DEVICE_LPARAM","_win32_get_device_lparam_cpp","inputdev.get_device_lparam","winui._win32_get_device_lparam","winuser/GET_DEVICE_LPARAM"]
 old-location: inputdev\get_device_lparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_device_lparam.htm
@@ -67,9 +67,7 @@ The value to be converted.
 
 
 
-This macro is identical to the <a href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)">GET_MOUSEORKEY_LPARAM</a> macro.
-
-
+This macro is identical to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)">GET_MOUSEORKEY_LPARAM</a> macro.
 
 
 ## -see-also
@@ -81,7 +79,7 @@ This macro is identical to the <a href="https://docs.microsoft.com/en-us/previou
 
 
 
-<a href="https://msdn.microsoft.com/e21789b8-bc85-4753-a8b4-05297f190c61">GET_MOUSEORKEY_LPARAM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)">GET_MOUSEORKEY_LPARAM</a>
 
 
 

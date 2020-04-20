@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMDECN4.XMDECN4(uint32_t)
 title: XMDECN4::XMDECN4(uint32_t) (directxpackedvector.h)
-description: Initializes a new instance of XMDECN4 from a uint32_t variable containing component data in a packed format.
+description: Initializes a new instance of XMDECN4 from a uint32_t variable containing component data in a packed format.helpviewer_keywords: ["XMDECN4","XMDECN4 constructor [DirectX Math Support APIs]","XMDECN4 constructor [DirectX Math Support APIs]","XMDECN4 structure","XMDECN4 structure [DirectX Math Support APIs]","XMDECN4 constructor","XMDECN4.XMDECN4","XMDECN4.XMDECN4(uint32_t)","XMDECN4::XMDECN4","XMDECN4::XMDECN4(uint32_t)","dxmath.xmdecn4_ctor_2"]
 old-location: dxmath\xmdecn4_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMDECN4.#ctor(uint32_t)

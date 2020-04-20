@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Reset
 title: IEnumTfContexts::Reset (msctf.h)
-description: IEnumTfContexts::Reset method
+description: IEnumTfContexts::Reset methodhelpviewer_keywords: ["IEnumTfContexts interface [Text Services Framework]","Reset method","IEnumTfContexts.Reset","IEnumTfContexts::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfContexts interface","_tsf_ienumtfcontexts_reset_ref","msctf/IEnumTfContexts::Reset","tsf.ienumtfcontexts_reset"]
 old-location: tsf\ienumtfcontexts_reset.htm
 tech.root: TSF
 ms.assetid: bfe1d8a3-5a5f-4397-b972-ee42358aeb66
@@ -45,22 +45,13 @@ ms.custom: 19H1
 
 # IEnumTfContexts::Reset
 
-
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -81,7 +72,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfContexts interface](nn-msctf-ienumtfcontexts.md), [ITfContext interface](nn-msctf-itfcontext.md)

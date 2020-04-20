@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetNumber
 title: MI_SubscriptionDeliveryOptions_GetNumber function (mi.h)
-description: Gets the value of the named numeric option.
+description: Gets the value of the named numeric option.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetNumber","MI_SubscriptionDeliveryOptions_GetNumber function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetNumber","wmi_v2.mi_subscriptiondeliveryoptions_getnumber"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getnumber.htm
 tech.root: wmi_v2
 ms.assetid: 80314490-204d-4b99-937f-f9b55266ac1a

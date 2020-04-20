@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSGetShaderResources
 title: ID3D10Device::VSGetShaderResources (d3d10.h)
-description: Get the vertex shader resources.
+description: Get the vertex shader resources.helpviewer_keywords: ["55f36c24-a1d1-912f-485e-13d633bf3178","ID3D10Device interface [Direct3D 10]","VSGetShaderResources method","ID3D10Device.VSGetShaderResources","ID3D10Device::VSGetShaderResources","VSGetShaderResources","VSGetShaderResources method [Direct3D 10]","VSGetShaderResources method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::VSGetShaderResources","direct3d10.id3d10device_vsgetshaderresources"]
 old-location: direct3d10\id3d10device_vsgetshaderresources.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vsgetshaderresources.htm
@@ -77,15 +77,6 @@ The number of resources to get from the device. Up to a maximum of 128 slots are
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview">ID3D10ShaderResourceView</a>**</b>
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview">shader resource view</a> interfaces to be returned by the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

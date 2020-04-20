@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Skip
 title: IEnumTfRanges::Skip (msctf.h)
-description: IEnumTfRanges::Skip method
+description: IEnumTfRanges::Skip methodhelpviewer_keywords: ["IEnumTfRanges interface [Text Services Framework]","Skip method","IEnumTfRanges.Skip","IEnumTfRanges::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfRanges interface","_tsf_ienumtfranges_skip_ref","msctf/IEnumTfRanges::Skip","tsf.ienumtfranges_skip"]
 old-location: tsf\ienumtfranges_skip.htm
 tech.root: TSF
 ms.assetid: f13ec6c2-379f-42e1-af92-62c4a8d8d922
@@ -45,16 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfRanges::Skip
 
-
 ## -description
 
-
-
+Moves the current position forward in the enumeration sequence by the specified number of elements.
 
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
@@ -95,7 +90,7 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfRanges interface](nn-msctf-ienumtfranges.md), [ITfRange interface](nn-msctf-itfrange.md)

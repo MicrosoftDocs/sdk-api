@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_DXIL_LIBRARY_DESC
 title: D3D12_DXIL_LIBRARY_DESC (d3d12.h)
-description: Describes a DXIL library state subobject that can be included in a state object.
+description: Describes a DXIL library state subobject that can be included in a state object.helpviewer_keywords: ["D3D12_DXIL_LIBRARY_DESC","D3D12_DXIL_LIBRARY_DESC structure","PD3D12_DXIL_LIBRARY_DESC","PD3D12_DXIL_LIBRARY_DESC structure pointer","d3d12/D3D12_DXIL_LIBRARY_DESC","d3d12/PD3D12_DXIL_LIBRARY_DESC","direct3d12.d3d12_dxil_library_desc"]
 old-location: direct3d12\d3d12_dxil_library_desc.htm
 tech.root: direct3d12
 ms.assetid: C21E91D4-C307-40D8-A82E-DDB542C1D346

@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.get_Item
 title: IRDPSRAPIInvitationManager::get_Item (rdpencomapi.h)
-description: An item in the invitation collection.
+description: An item in the invitation collection.helpviewer_keywords: ["IRDPSRAPIInvitationManager interface [RDP]","Item property","IRDPSRAPIInvitationManager.Item","IRDPSRAPIInvitationManager.get_Item","IRDPSRAPIInvitationManager::Item","IRDPSRAPIInvitationManager::get_Item","Item property [RDP]","Item property [RDP]","IRDPSRAPIInvitationManager interface","Item property [RDP]","RDPSRAPIInvitationManager object","RDPSRAPIInvitationManager object [RDP]","Item property","get_Item","rdp.irdpsrapiinvitationmanager_item","rdpencomapi/IRDPSRAPIInvitationManager::Item","rdpencomapi/IRDPSRAPIInvitationManager::get_Item"]
 old-location: rdp\irdpsrapiinvitationmanager_item.htm
 tech.root: rdp
 ms.assetid: 0a6acaec-0051-4753-8926-c708e75c3e07

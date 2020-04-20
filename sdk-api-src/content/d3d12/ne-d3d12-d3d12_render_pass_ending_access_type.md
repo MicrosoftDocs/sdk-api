@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_RENDER_PASS_ENDING_ACCESS_TYPE
 title: D3D12_RENDER_PASS_ENDING_ACCESS_TYPE (d3d12.h)
-description: Specifies the type of access that an application is given to the specified resource(s) at the transition out of a render pass.
+description: Specifies the type of access that an application is given to the specified resource(s) at the transition out of a render pass.helpviewer_keywords: ["D3D12_RENDER_PASS_ENDING_ACCESS_TYPE","D3D12_RENDER_PASS_ENDING_ACCESS_TYPE enumeration","D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_DISCARD","D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_NO_ACCESS","D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_PRESERVE","D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_RESOLVE","d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE","d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_DISCARD","d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_NO_ACCESS","d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_PRESERVE","d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_RESOLVE","direct3d12.d3d12_render_pass_ending_access_type"]
 old-location: direct3d12\d3d12_render_pass_ending_access_type.htm
 tech.root: direct3d12
 ms.assetid: 61B6003B-DDA5-4FF5-B1F5-994642937D29

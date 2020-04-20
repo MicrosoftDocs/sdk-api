@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICryptAttribute.InitializeFromObjectId
 title: ICryptAttribute::InitializeFromObjectId (certenroll.h)
-description: Initializes a cryptographic attribute by using an object identifier.
+description: Initializes a cryptographic attribute by using an object identifier.helpviewer_keywords: ["ICryptAttribute interface [Security]","InitializeFromObjectId method","ICryptAttribute.InitializeFromObjectId","ICryptAttribute::InitializeFromObjectId","InitializeFromObjectId","InitializeFromObjectId method [Security]","InitializeFromObjectId method [Security]","ICryptAttribute interface","certenroll/ICryptAttribute::InitializeFromObjectId","security.icryptattribute_initializefromobjectid_method"]
 old-location: security\icryptattribute_initializefromobjectid_method.htm
 tech.root: seccertenroll
 ms.assetid: 6825cca7-c3a5-46a8-9be5-851344629929

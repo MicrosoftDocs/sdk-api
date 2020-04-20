@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.ScrollIntoView
 title: ITextRange::ScrollIntoView (tom.h)
-description: Scrolls the specified range into view.
+description: Scrolls the specified range into view.helpviewer_keywords: ["ITextRange interface [Windows Controls]","ScrollIntoView method","ITextRange.ScrollIntoView","ITextRange::ScrollIntoView","ScrollIntoView","ScrollIntoView method [Windows Controls]","ScrollIntoView method [Windows Controls]","ITextRange interface","_win32_ITextRange_ScrollIntoView","_win32_ITextRange_ScrollIntoView_cpp","controls.ITextRange_ScrollIntoView","controls._win32_ITextRange_ScrollIntoView","tom/ITextRange::ScrollIntoView","tomEnd","tomNoUpScroll","tomNoVpScroll","tomStart"]
 old-location: controls\ITextRange_ScrollIntoView.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\scrollintoview.htm

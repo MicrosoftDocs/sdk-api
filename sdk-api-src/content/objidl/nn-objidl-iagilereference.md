@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IAgileReference
 title: IAgileReference (objidl.h)
-description: Enables retrieving an agile reference to an object.
+description: Enables retrieving an agile reference to an object.helpviewer_keywords: ["IAgileReference","IAgileReference interface [Windows Runtime]","IAgileReference interface [Windows Runtime]","described","objidl/IAgileReference","winrt.iagilereference"]
 old-location: winrt\iagilereference.htm
 tech.root: WinRT
 ms.assetid: 51787A45-BCDE-4028-A338-1C16F2DE79AD

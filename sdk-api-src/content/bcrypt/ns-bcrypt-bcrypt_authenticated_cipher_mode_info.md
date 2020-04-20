@@ -1,7 +1,7 @@
 ---
 UID: NS:bcrypt._BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO
 title: BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO (bcrypt.h)
-description: Used with the BCryptEncrypt and BCryptDecrypt functions to contain additional information related to authenticated cipher modes.
+description: Used with the BCryptEncrypt and BCryptDecrypt functions to contain additional information related to authenticated cipher modes.helpviewer_keywords: ["*PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO","BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO","BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure [Security]","BCRYPT_AUTH_MODE_CHAIN_CALLS_FLAG","BCRYPT_AUTH_MODE_IN_PROGRESS_FLAG","BCryptDecrypt","BCryptEncrypt","PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO","PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure pointer [Security]","bcrypt/BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO","bcrypt/PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO","security.bcrypt_authenticated_cipher_mode_info"]
 old-location: security\bcrypt_authenticated_cipher_mode_info.htm
 tech.root: SecCNG
 ms.assetid: 6c00f458-7198-44fe-bdb6-2c2eb9995bd9

@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.InvokeFunc
 title: ITfFnLMProcessor::InvokeFunc (ctffunc.h)
-description: ITfFnLMProcessor::InvokeFunc method
+description: ITfFnLMProcessor::InvokeFunc methodhelpviewer_keywords: ["ITfFnLMProcessor interface [Text Services Framework]","InvokeFunc method","ITfFnLMProcessor.InvokeFunc","ITfFnLMProcessor::InvokeFunc","InvokeFunc","InvokeFunc method [Text Services Framework]","InvokeFunc method [Text Services Framework]","ITfFnLMProcessor interface","_tsf_itffnlmprocessor_invokefunc_ref","ctffunc/ITfFnLMProcessor::InvokeFunc","tsf.itffnlmprocessor_invokefunc"]
 old-location: tsf\itffnlmprocessor_invokefunc.htm
 tech.root: TSF
 ms.assetid: 9545c715-ec31-4360-b8f9-bb0746164878
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Invokes a function of the language model text service.
 
 ## -parameters
 

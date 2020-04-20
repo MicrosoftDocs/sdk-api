@@ -1,7 +1,7 @@
 ---
 UID: NS:ual.tagUAL_DATA_BLOB
 title: UAL_DATA_BLOB (ual.h)
-description: Specifies information about a User Access Logging (UAL) session.
+description: Specifies information about a User Access Logging (UAL) session.helpviewer_keywords: ["*PUAL_DATA_BLOB","PUAL_DATA_BLOB","PUAL_DATA_BLOB structure pointer [User Access Logging]","UAL_DATA_BLOB","UAL_DATA_BLOB structure [User Access Logging]","ual.ual_data_blob","ual/PUAL_DATA_BLOB","ual/UAL_DATA_BLOB"]
 old-location: ual\ual_data_blob.htm
 tech.root: ual
 ms.assetid: 5C191327-0D15-41D7-8218-73F387740FDF

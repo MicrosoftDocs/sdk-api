@@ -1,7 +1,7 @@
 ---
 UID: NE:codecapi.eAVEncVideoFilmContent
 title: eAVEncVideoFilmContent (codecapi.h)
-description: Specifies whether the original source of the input video was film or video. This enumeration is used with the AVEncVideoSourceFilmContent property.
+description: Specifies whether the original source of the input video was film or video. This enumeration is used with the AVEncVideoSourceFilmContent property.helpviewer_keywords: ["codecapi/eAVEncVideoFilmContent","codecapi/eAVEncVideoFilmContent_FilmOnly","codecapi/eAVEncVideoFilmContent_Mixed","codecapi/eAVEncVideoFilmContent_VideoOnly","dshow.eavencvideofilmcontent","eAVEncVideoFilmContent","eAVEncVideoFilmContent enumeration [DirectShow]","eAVEncVideoFilmContentEnumeration","eAVEncVideoFilmContent_FilmOnly","eAVEncVideoFilmContent_Mixed","eAVEncVideoFilmContent_VideoOnly"]
 old-location: dshow\eavencvideofilmcontent.htm
 tech.root: DirectShow
 ms.assetid: 64a7c075-342d-49c1-90eb-9ac34d0c2318

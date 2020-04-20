@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathRemoveExtensionA
 title: PathRemoveExtensionA function (shlwapi.h)
-description: Removes the file name extension from a path, if one is present.
+description: Removes the file name extension from a path, if one is present.helpviewer_keywords: ["PathRemoveExtension","PathRemoveExtension function [Windows Shell]","PathRemoveExtensionA","PathRemoveExtensionW","_win32_PathRemoveExtension","shell.PathRemoveExtension","shlwapi/PathRemoveExtension","shlwapi/PathRemoveExtensionA","shlwapi/PathRemoveExtensionW"]
 old-location: shell\PathRemoveExtension.htm
 tech.root: shell
 ms.assetid: 6e26d005-50af-4376-b734-19ba3d9c470f
@@ -70,13 +70,5 @@ Removes the file name extension from a path, if one is present.
 Type: <b>LPTSTR</b>
 
 A pointer to a null-terminated string of length MAX_PATH from which to remove the extension.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

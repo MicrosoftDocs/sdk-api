@@ -1,7 +1,7 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.WTSSBX_GetUserExternalSession
 title: IWTSSBPlugin::WTSSBX_GetUserExternalSession (tssbx.h)
-description: Redirects an incoming connection to a computing resource, such as a virtual machine, a blade server, or even the user's own corporate desktop by providing a WTSSBX_MACHINE_CONNECT_INFO structure that contains information about the resource.
+description: Redirects an incoming connection to a computing resource, such as a virtual machine, a blade server, or even the user's own corporate desktop by providing a WTSSBX_MACHINE_CONNECT_INFO structure that contains information about the resource.helpviewer_keywords: ["IWTSSBPlugin interface [Remote Desktop Services]","WTSSBX_GetUserExternalSession method","IWTSSBPlugin.WTSSBX_GetUserExternalSession","IWTSSBPlugin::WTSSBX_GetUserExternalSession","WTSSBX_GetUserExternalSession","WTSSBX_GetUserExternalSession method [Remote Desktop Services]","WTSSBX_GetUserExternalSession method [Remote Desktop Services]","IWTSSBPlugin interface","termserv.iwtssbplugin_wtssbx_getuserexternalsession","tssbx/IWTSSBPlugin::WTSSBX_GetUserExternalSession"]
 old-location: termserv\iwtssbplugin_wtssbx_getuserexternalsession.htm
 tech.root: TermServ
 ms.assetid: 989cd7bc-932f-4a33-91c8-e66fac7195ad

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.BeginEventInt
 title: ID3D11DeviceContext2::BeginEventInt (d3d11_2.h)
-description: Allows applications to annotate the beginning of a range of graphics commands.
+description: Allows applications to annotate the beginning of a range of graphics commands.helpviewer_keywords: ["BeginEventInt","BeginEventInt method [Direct3D 11]","BeginEventInt method [Direct3D 11]","ID3D11DeviceContext2 interface","ID3D11DeviceContext2 interface [Direct3D 11]","BeginEventInt method","ID3D11DeviceContext2.BeginEventInt","ID3D11DeviceContext2::BeginEventInt","d3d11_2/ID3D11DeviceContext2::BeginEventInt","direct3d11.id3d11devicecontext2_begineventint"]
 old-location: direct3d11\id3d11devicecontext2_begineventint.htm
 tech.root: direct3d11
 ms.assetid: 9a45e16f-a598-4196-ad9c-8a157ae94de0
@@ -65,15 +65,6 @@ An optional string that will be logged to <a href="https://docs.microsoft.com/pr
 ### -param Data
 
 A signed data value that will be logged to ETW when ETW logging is active.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

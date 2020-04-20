@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core.DEF_SHARE_ID
 title: DEF_SHARE_ID (shobjidl_core.h)
-description: Values that specify the folder being acted on by methods of the ISharingConfigurationManager interface.
+description: Values that specify the folder being acted on by methods of the ISharingConfigurationManager interface.helpviewer_keywords: ["DEFSHAREID_PUBLIC","DEFSHAREID_USERS","DEF_SHARE_ID","DEF_SHARE_ID enumeration [Windows Shell]","_shell_DEF_SHARE_ID","shell.DEF_SHARE_ID","shobjidl_core/DEFSHAREID_PUBLIC","shobjidl_core/DEFSHAREID_USERS","shobjidl_core/DEF_SHARE_ID"]
 old-location: shell\DEF_SHARE_ID.htm
 tech.root: shell
 ms.assetid: 02d3b664-eeef-4214-99e8-246241103c4e

@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoReleaseMarshalData
 title: CoReleaseMarshalData function (combaseapi.h)
-description: Destroys a previously marshaled data packet.
+description: Destroys a previously marshaled data packet.helpviewer_keywords: ["CoReleaseMarshalData","CoReleaseMarshalData function [COM]","_com_CoReleaseMarshalData","com.coreleasemarshaldata","combaseapi/CoReleaseMarshalData"]
 old-location: com\coreleasemarshaldata.htm
 tech.root: com
 ms.assetid: a642a20f-3a3c-46bc-b833-e424dab3a16d

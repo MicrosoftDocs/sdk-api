@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.FreeLibraryWhenCallbackReturns
 title: FreeLibraryWhenCallbackReturns function (threadpoolapiset.h)
-description: Specifies the DLL that the thread pool will unload when the current callback completes.
+description: Specifies the DLL that the thread pool will unload when the current callback completes.helpviewer_keywords: ["FreeLibraryWhenCallbackReturns","FreeLibraryWhenCallbackReturns function","base.freelibrarywhencallbackreturns","threadpoolapiset/FreeLibraryWhenCallbackReturns","winbase/FreeLibraryWhenCallbackReturns"]
 old-location: base\freelibrarywhencallbackreturns.htm
 tech.root: ProcThread
 ms.assetid: a29ba988-5d66-4914-9e37-a229bce75af2
@@ -70,15 +70,6 @@ A <b>TP_CALLBACK_INSTANCE</b> structure that defines the callback instance. The 
 ### -param mod [in]
 
 A handle to the DLL.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTogglePattern.get_CachedToggleState
 title: IUIAutomationTogglePattern::get_CachedToggleState (uiautomationclient.h)
-description: Retrieves the cached state of the control.
+description: Retrieves the cached state of the control.helpviewer_keywords: ["CachedToggleState property [Windows Accessibility]","CachedToggleState property [Windows Accessibility]","IUIAutomationTogglePattern interface","IUIAutomationTogglePattern interface [Windows Accessibility]","CachedToggleState property","IUIAutomationTogglePattern.CachedToggleState","IUIAutomationTogglePattern.get_CachedToggleState","IUIAutomationTogglePattern::CachedToggleState","IUIAutomationTogglePattern::get_CachedToggleState","get_CachedToggleState","uiauto.uiauto_IUIAutomationTogglePattern_CachedToggleState","uiauto_IUIAutomationTogglePattern_CachedToggleState","uiautomationclient/IUIAutomationTogglePattern::CachedToggleState","uiautomationclient/IUIAutomationTogglePattern::get_CachedToggleState","winauto.uiauto_IUIAutomationTogglePattern_CachedToggleState"]
 old-location: winauto\uiauto_IUIAutomationTogglePattern_CachedToggleState.htm
 tech.root: WinAuto
 ms.assetid: 49d32394-d7e0-43be-b1f5-db57c6cbe3c4

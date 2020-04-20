@@ -1,7 +1,7 @@
 ---
 UID: NF:propkeydef.IsEqualPropertyKey
 title: IsEqualPropertyKey macro (propkeydef.h)
-description: Compares the members of two PROPERTYKEY structures and returns whether they are equal.
+description: Compares the members of two PROPERTYKEY structures and returns whether they are equal.helpviewer_keywords: ["IsEqualPropertyKey","IsEqualPropertyKey macro [Windows Shell]","_shell_IsEqualPropertyKey","propkeydef/IsEqualPropertyKey","shell.IsEqualPropertyKey"]
 old-location: shell\IsEqualPropertyKey.htm
 tech.root: shell
 ms.assetid: 89218de5-95c8-440a-bde1-e4a0bc0d0549

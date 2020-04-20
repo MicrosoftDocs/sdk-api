@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio.WinBioOpenSession
 title: WinBioOpenSession function (winbio.h)
-description: Connects to a biometric service provider and one or more biometric units.
+description: Connects to a biometric service provider and one or more biometric units.helpviewer_keywords: ["WINBIO_DB_BOOTSTRAP","WINBIO_DB_DEFAULT","WINBIO_DB_ONCHIP","WINBIO_FLAG_ADVANCED","WINBIO_FLAG_BASIC","WINBIO_FLAG_DEFAULT","WINBIO_FLAG_MAINTENANCE","WINBIO_FLAG_RAW","WINBIO_POOL_PRIVATE","WINBIO_POOL_SYSTEM","WinBioOpenSession","WinBioOpenSession function [Windows Biometric Framework API]","secbiomet.winbioopensession","winbio/WinBioOpenSession"]
 old-location: secbiomet\winbioopensession.htm
 tech.root: SecBioMet
 ms.assetid: e9a0bb5f-4bbd-4dc4-9cd8-c26f5e4f74cf

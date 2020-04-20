@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteSubnet
 title: DhcpDeleteSubnet function (dhcpsapi.h)
-description: The DhcpDeleteSubnet function deletes a subnet from the DHCP server.
+description: The DhcpDeleteSubnet function deletes a subnet from the DHCP server.helpviewer_keywords: ["DhcpDeleteSubnet","DhcpDeleteSubnet function [DHCP]","dhcp.dhcpdeletesubnet","dhcpsapi/DhcpDeleteSubnet"]
 old-location: dhcp\dhcpdeletesubnet.htm
 tech.root: DHCP
 ms.assetid: e000a81b-b61b-4ba9-adee-4940edc78050

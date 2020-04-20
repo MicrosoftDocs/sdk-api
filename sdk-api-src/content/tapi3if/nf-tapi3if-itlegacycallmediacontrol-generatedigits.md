@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl.GenerateDigits
 title: ITLegacyCallMediaControl::GenerateDigits (tapi3if.h)
-description: The GenerateDigits method causes digits to be output on the current call.
+description: The GenerateDigits method causes digits to be output on the current call.helpviewer_keywords: ["GenerateDigits","GenerateDigits method [TAPI 2.2]","GenerateDigits method [TAPI 2.2]","ITLegacyCallMediaControl interface","ITLegacyCallMediaControl interface [TAPI 2.2]","GenerateDigits method","ITLegacyCallMediaControl.GenerateDigits","ITLegacyCallMediaControl::GenerateDigits","_tapi3_itlegacycallmediacontrol_generatedigits","tapi3.itlegacycallmediacontrol_generatedigits","tapi3if/ITLegacyCallMediaControl::GenerateDigits"]
 old-location: tapi3\itlegacycallmediacontrol_generatedigits.htm
 tech.root: Tapi
 ms.assetid: d4dcdce0-4df5-43bb-a5ea-ea72782d5f04

@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.EndSubscribeToEvents
 title: IUPnPServiceAsync::EndSubscribeToEvents (upnp.h)
-description: EndSubscribeToEvents method retrieves the results of a previous BeginSubscribeToEvents operation.
+description: EndSubscribeToEvents method retrieves the results of a previous BeginSubscribeToEvents operation.helpviewer_keywords: ["EndSubscribeToEvents","EndSubscribeToEvents method [UPnP APIs]","EndSubscribeToEvents method [UPnP APIs]","IUPnPServiceAsync interface","IUPnPServiceAsync interface [UPnP APIs]","EndSubscribeToEvents method","IUPnPServiceAsync.EndSubscribeToEvents","IUPnPServiceAsync::EndSubscribeToEvents","upnp.iupnpserviceasync_endsubscribetoevents","upnp/IUPnPServiceAsync::EndSubscribeToEvents"]
 old-location: upnp\iupnpserviceasync_endsubscribetoevents.htm
 tech.root: upnp
 ms.assetid: A0C0D01C-3A05-4498-9235-CBBF7D5D558F

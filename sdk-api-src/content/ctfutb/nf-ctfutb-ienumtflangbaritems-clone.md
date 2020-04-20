@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Clone
 title: IEnumTfLangBarItems::Clone (ctfutb.h)
-description: IEnumTfLangBarItems::Clone method
+description: IEnumTfLangBarItems::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfLangBarItems interface","IEnumTfLangBarItems interface [Text Services Framework]","Clone method","IEnumTfLangBarItems.Clone","IEnumTfLangBarItems::Clone","_tsf_ienumtflangbaritems_clone_ref","ctfutb/IEnumTfLangBarItems::Clone","tsf.ienumtflangbaritems_clone"]
 old-location: tsf\ienumtflangbaritems_clone.htm
 tech.root: TSF
 ms.assetid: 2a1f4a40-cf2c-4872-bb15-c4622ab2bfd1
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
 

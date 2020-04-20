@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.midiStreamProperty
 title: midiStreamProperty function (mmeapi.h)
-description: The midiStreamProperty function sets or retrieves properties of a MIDI data stream associated with a MIDI output device.
+description: The midiStreamProperty function sets or retrieves properties of a MIDI data stream associated with a MIDI output device.helpviewer_keywords: ["_win32_midiStreamProperty","midiStreamProperty","midiStreamProperty function [Windows Multimedia]","mmeapi/midiStreamProperty","multimedia.midistreamproperty"]
 old-location: multimedia\midistreamproperty.htm
 tech.root: Multimedia
 ms.assetid: fb0f8bf4-5802-444e-9b2e-d9a7c80e3a20

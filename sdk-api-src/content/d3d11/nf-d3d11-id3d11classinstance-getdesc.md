@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11ClassInstance.GetDesc
 title: ID3D11ClassInstance::GetDesc (d3d11.h)
-description: Gets a description of the current HLSL class.
+description: Gets a description of the current HLSL class.helpviewer_keywords: ["64584e80-07e5-d72e-198e-074e63a44c16","GetDesc","GetDesc method [Direct3D 11]","GetDesc method [Direct3D 11]","ID3D11ClassInstance interface","ID3D11ClassInstance interface [Direct3D 11]","GetDesc method","ID3D11ClassInstance.GetDesc","ID3D11ClassInstance::GetDesc","d3d11/ID3D11ClassInstance::GetDesc","direct3d11.id3d11classinstance_getdesc"]
 old-location: direct3d11\id3d11classinstance_getdesc.htm
 tech.root: direct3d11
 ms.assetid: 5062595c-4152-4cfd-afcd-3e51d1087675
@@ -64,15 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_class_instance_desc">D3D11_CLASS_INSTANCE_DESC</a> structure that describes the current HLSL class.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsVolumeMF.DeleteAccessPath
 title: IVdsVolumeMF::DeleteAccessPath (vds.h)
-description: Removes the access path from the current volume.
+description: Removes the access path from the current volume.helpviewer_keywords: ["DeleteAccessPath","DeleteAccessPath method [VDS]","DeleteAccessPath method [VDS]","IVdsVolumeMF interface","IVdsVolumeMF interface [VDS]","DeleteAccessPath method","IVdsVolumeMF.DeleteAccessPath","IVdsVolumeMF::DeleteAccessPath","base.ivdsvolumemf_deleteaccesspath","vds/IVdsVolumeMF::DeleteAccessPath"]
 old-location: base\ivdsvolumemf_deleteaccesspath.htm
 tech.root: VDS
 ms.assetid: 05020390-475f-4528-ba44-ecdfe008149f

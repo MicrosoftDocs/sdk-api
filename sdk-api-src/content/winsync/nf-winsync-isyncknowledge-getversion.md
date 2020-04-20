@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetVersion
 title: ISyncKnowledge::GetVersion (winsync.h)
-description: Gets the version of this knowledge structure.
+description: Gets the version of this knowledge structure.helpviewer_keywords: ["GetVersion","GetVersion method [Windows Sync]","GetVersion method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","GetVersion method","ISyncKnowledge.GetVersion","ISyncKnowledge::GetVersion","winsync.isyncknowledge_getversion","winsync/ISyncKnowledge::GetVersion"]
 old-location: winsync\isyncknowledge_getversion.htm
 tech.root: winsync
 ms.assetid: b54114f1-aa54-493d-b449-0b9161004ffa

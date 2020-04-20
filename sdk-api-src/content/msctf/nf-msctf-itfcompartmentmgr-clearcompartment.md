@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCompartmentMgr.ClearCompartment
 title: ITfCompartmentMgr::ClearCompartment (msctf.h)
-description: ITfCompartmentMgr::ClearCompartment method
+description: ITfCompartmentMgr::ClearCompartment methodhelpviewer_keywords: ["ClearCompartment","ClearCompartment method [Text Services Framework]","ClearCompartment method [Text Services Framework]","ITfCompartmentMgr interface","ITfCompartmentMgr interface [Text Services Framework]","ClearCompartment method","ITfCompartmentMgr.ClearCompartment","ITfCompartmentMgr::ClearCompartment","_tsf_itfcompartmentmgr_clearcompartment_ref","msctf/ITfCompartmentMgr::ClearCompartment","tsf.itfcompartmentmgr_clearcompartment"]
 old-location: tsf\itfcompartmentmgr_clearcompartment.htm
 tech.root: TSF
 ms.assetid: 862ec077-b192-412a-b80c-6105f503ed21
@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfCompartmentMgr::ClearCompartment
 
-
 ## -description
 
-
-
+Removes the specified compartment.
 
 ## -parameters
-
-
-
 
 ### -param tid [in]
 
 Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
 
-
 ### -param rguid [in]
 
 Contains a GUID that identifies the compartment.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,23 +113,7 @@ The owner must clear this compartment.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmentmgr">ITfCompartmentMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId
-      </a>
- 
-
- 
-
+[ITfCompartmentMgr interface](nn-msctf-itfcompartmentmgr.md), [ITfCompartment interface](nn-msctf-itfcompartment.md), [Compartments](/windows/desktop/TSF/compartments)

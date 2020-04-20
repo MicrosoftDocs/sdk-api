@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolWait
 title: CloseThreadpoolWait function (threadpoolapiset.h)
-description: Releases the specified wait object.
+description: Releases the specified wait object.helpviewer_keywords: ["CloseThreadpoolWait","CloseThreadpoolWait function","base.closethreadpoolwait","threadpoolapiset/CloseThreadpoolWait","winbase/CloseThreadpoolWait"]
 old-location: base\closethreadpoolwait.htm
 tech.root: ProcThread
 ms.assetid: f8323ad2-c0b6-4e5c-b6eb-7195673f8992
@@ -65,15 +65,6 @@ Releases the specified wait object.
 ### -param pwa [in, out]
 
 A <b>TP_WAIT</b> structure that defines the wait object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait">CreateThreadpoolWait</a> function returns this structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

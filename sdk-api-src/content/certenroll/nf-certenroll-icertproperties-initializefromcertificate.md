@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertProperties.InitializeFromCertificate
 title: ICertProperties::InitializeFromCertificate (certenroll.h)
-description: Initializes the collection from the properties contained in a certificate.
+description: Initializes the collection from the properties contained in a certificate.helpviewer_keywords: ["ICertProperties interface [Security]","InitializeFromCertificate method","ICertProperties.InitializeFromCertificate","ICertProperties::InitializeFromCertificate","InitializeFromCertificate","InitializeFromCertificate method [Security]","InitializeFromCertificate method [Security]","ICertProperties interface","certenroll/ICertProperties::InitializeFromCertificate","security.icertproperties_initializefromcertificate_method"]
 old-location: security\icertproperties_initializefromcertificate_method.htm
 tech.root: seccertenroll
 ms.assetid: 74de47cb-44fd-45d7-ba32-03824fc0995d

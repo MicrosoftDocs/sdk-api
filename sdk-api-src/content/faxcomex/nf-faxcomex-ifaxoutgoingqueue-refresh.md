@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.Refresh
 title: IFaxOutgoingQueue::Refresh (faxcomex.h)
-description: The IFaxOutgoingQueue::Refresh method refreshes FaxOutgoingQueue object information from the fax server. When the IFaxOutgoingQueue::Refresh method is called, any configuration changes made after the last IFaxOutgoingQueue::Save method call are lost.
+description: The IFaxOutgoingQueue::Refresh method refreshes FaxOutgoingQueue object information from the fax server. When the IFaxOutgoingQueue::Refresh method is called, any configuration changes made after the last IFaxOutgoingQueue::Save method call are lost.helpviewer_keywords: ["IFaxOutgoingQueue interface [Fax Service]","Refresh method","IFaxOutgoingQueue.Refresh","IFaxOutgoingQueue::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxOutgoingQueue interface","_mfax_faxoutgoingqueue.refresh","fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_refresh_cpp","fax._mfax_faxoutgoingqueue_refresh","faxcomex/IFaxOutgoingQueue::Refresh"]
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4my0.htm

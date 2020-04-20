@@ -1,7 +1,7 @@
 ---
 UID: NN:mobsync.ISyncMgrEnumItems
 title: ISyncMgrEnumItems (mobsync.h)
-description: Exposes methods that enumerate through an array of SYNCMGRITEM structures.
+description: Exposes methods that enumerate through an array of SYNCMGRITEM structures.helpviewer_keywords: ["ISyncMgrEnumItems","ISyncMgrEnumItems interface [Windows Shell]","ISyncMgrEnumItems interface [Windows Shell]","described","mobsync/ISyncMgrEnumItems","shell.syncmgr_isyncmgrenumitems","syncmgr.isyncmgrenumitems"]
 old-location: shell\syncmgr_isyncmgrenumitems.htm
 tech.root: shell
 ms.assetid: d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI1FromStr
 title: VarUI1FromStr function (oleauto.h)
-description: Converts an OLECHAR string to an unsigned char string.
+description: Converts an OLECHAR string to an unsigned char string.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VarUI1FromStr","VarUI1FromStr function [Automation]","_oa96_VarUI1FromStr","automat.varui1fromstr","oleauto/VarUI1FromStr"]
 old-location: automat\varui1fromstr.htm
 tech.root: automat
 ms.assetid: cd21a474-d75f-40ad-aa5a-43eda74e6b2b

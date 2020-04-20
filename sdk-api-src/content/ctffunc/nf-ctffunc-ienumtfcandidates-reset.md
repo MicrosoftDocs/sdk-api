@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Reset
 title: IEnumTfCandidates::Reset (ctffunc.h)
-description: IEnumTfCandidates::Reset method
+description: IEnumTfCandidates::Reset methodhelpviewer_keywords: ["IEnumTfCandidates interface [Text Services Framework]","Reset method","IEnumTfCandidates.Reset","IEnumTfCandidates::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfCandidates interface","_tsf_ienumtfcandidates_reset_ref","ctffunc/IEnumTfCandidates::Reset","tsf.ienumtfcandidates_reset"]
 old-location: tsf\ienumtfcandidates_reset.htm
 tech.root: TSF
 ms.assetid: 2c5527ff-5f26-4e94-93ea-15273ec5a315
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NC:gamingtcui.PlayerPickerUICompletionRoutine
 title: PlayerPickerUICompletionRoutine (gamingtcui.h)
-description: Do not use. This API is only supported for Xbox developers.
+description: Do not use. This API is only supported for Xbox developers.helpviewer_keywords: ["PlayerPickerUICompletionRoutine","PlayerPickerUICompletionRoutine callback","PlayerPickerUICompletionRoutine callback function","gamingtcui/PlayerPickerUICompletionRoutine","tcui.playerpickeruicompletionroutine"]
 old-location: tcui\playerpickeruicompletionroutine.htm
 tech.root: tcui
 ms.assetid: 301AB1B0-BABA-4971-A301-5AEDD2F32B31
@@ -85,13 +85,5 @@ Do not use. This API is only supported for Xbox developers.
 Type: <b>size_t</b>
 
 Do not use. This API is only supported for Xbox developers.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
 
 

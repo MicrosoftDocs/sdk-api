@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumPermissionSets
 title: IMetaDataImport::EnumPermissionSets (rometadataapi.h)
-description: Enumerates permissions for the objects in a specified metadata scope.
+description: Enumerates permissions for the objects in a specified metadata scope.helpviewer_keywords: ["EnumPermissionSets","EnumPermissionSets method [Windows Runtime]","EnumPermissionSets method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumPermissionSets method","IMetaDataImport.EnumPermissionSets","IMetaDataImport::EnumPermissionSets","rometadataapi/IMetaDataImport::EnumPermissionSets","winrt.imetadataimport_enumpermissionsets"]
 old-location: winrt\imetadataimport_enumpermissionsets.htm
 tech.root: WinRT
 ms.assetid: 20fec6e8-02f8-4158-8d61-550653e99dad

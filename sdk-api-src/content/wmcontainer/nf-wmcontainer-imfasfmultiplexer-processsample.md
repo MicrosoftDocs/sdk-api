@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.ProcessSample
 title: IMFASFMultiplexer::ProcessSample (wmcontainer.h)
-description: Delivers input samples to the multiplexer.
+description: Delivers input samples to the multiplexer.helpviewer_keywords: ["30a693bb-255c-47a4-8102-1543872b0a5e","IMFASFMultiplexer interface [Media Foundation]","ProcessSample method","IMFASFMultiplexer.ProcessSample","IMFASFMultiplexer::ProcessSample","ProcessSample","ProcessSample method [Media Foundation]","ProcessSample method [Media Foundation]","IMFASFMultiplexer interface","mf.imfasfmultiplexer_processsample","wmcontainer/IMFASFMultiplexer::ProcessSample"]
 old-location: mf\imfasfmultiplexer_processsample.htm
 tech.root: medfound
 ms.assetid: 30a693bb-255c-47a4-8102-1543872b0a5e

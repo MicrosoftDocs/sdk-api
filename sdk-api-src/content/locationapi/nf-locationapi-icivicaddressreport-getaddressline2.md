@@ -1,7 +1,7 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetAddressLine2
 title: ICivicAddressReport::GetAddressLine2 (locationapi.h)
-description: Retrieves the second line of a street address.
+description: Retrieves the second line of a street address.helpviewer_keywords: ["GetAddressLine2","GetAddressLine2 method [WinLocation]","GetAddressLine2 method [WinLocation]","ICivicAddressReport interface","ICivicAddressReport interface [WinLocation]","GetAddressLine2 method","ICivicAddressReport.GetAddressLine2","ICivicAddressReport::GetAddressLine2","WinLocation_COM_Ref.icivicaddressreport_getaddressline2","locationapi/ICivicAddressReport::GetAddressLine2"]
 old-location: winlocation_com_ref\icivicaddressreport_getaddressline2.htm
 tech.root: locationapi
 ms.assetid: 2c66b294-15a9-490a-b77c-ff48f35d1d3b

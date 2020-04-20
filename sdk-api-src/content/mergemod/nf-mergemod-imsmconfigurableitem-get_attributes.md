@@ -1,7 +1,7 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Attributes
 title: IMsmConfigurableItem::get_Attributes (mergemod.h)
-description: The get_Attributes method retrieves the Attributes property of the ConfigurableItem object.
+description: The get_Attributes method retrieves the Attributes property of the ConfigurableItem object.helpviewer_keywords: ["IMsmConfigurableItem interface","get_Attributes method","IMsmConfigurableItem.get_Attributes","IMsmConfigurableItem::get_Attributes","_msi_get_attributes_function","get_Attributes","get_Attributes method","get_Attributes method","IMsmConfigurableItem interface","mergemod/IMsmConfigurableItem::get_Attributes","setup.imsmconfigurableitem_get_attributes"]
 old-location: setup\imsmconfigurableitem_get_attributes.htm
 tech.root: Msi
 ms.assetid: 347451e9-0623-4d31-a9f5-7cb95f234717

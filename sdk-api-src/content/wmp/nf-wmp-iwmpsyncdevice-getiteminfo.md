@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.getItemInfo
 title: IWMPSyncDevice::getItemInfo (wmp.h)
-description: The getItemInfo method retrieves a metadata value from the device.
+description: The getItemInfo method retrieves a metadata value from the device.helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","getItemInfo method","IWMPSyncDevice.getItemInfo","IWMPSyncDevice::getItemInfo","IWMPSyncDevicegetItemInfo","getItemInfo","getItemInfo method [Windows Media Player]","getItemInfo method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_getiteminfo","wmp/IWMPSyncDevice::getItemInfo"]
 old-location: wmp\iwmpsyncdevice_getiteminfo.htm
 tech.root: WMP
 ms.assetid: a25b91b8-fe14-4fde-8b68-4e61515e0e5c

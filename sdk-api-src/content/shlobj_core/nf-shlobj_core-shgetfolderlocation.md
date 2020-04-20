@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHGetFolderLocation
 title: SHGetFolderLocation function (shlobj_core.h)
-description: Deprecated. Retrieves the path of a folder as an ITEMIDLIST structure.
+description: Deprecated. Retrieves the path of a folder as an ITEMIDLIST structure.helpviewer_keywords: ["SHGetFolderLocation","SHGetFolderLocation function [Windows Shell]","_win32_SHGetFolderLocation","shell.SHGetFolderLocation","shlobj_core/SHGetFolderLocation"]
 old-location: shell\SHGetFolderLocation.htm
 tech.root: shell
 ms.assetid: 6fcac066-1ab0-443a-9994-b68ead3bbc20

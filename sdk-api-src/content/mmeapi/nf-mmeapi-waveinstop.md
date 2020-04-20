@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.waveInStop
 title: waveInStop function (mmeapi.h)
-description: The waveInStop function stops waveform-audio input.
+description: The waveInStop function stops waveform-audio input.helpviewer_keywords: ["_win32_waveInStop","mmeapi/waveInStop","multimedia.waveinstop","waveInStop","waveInStop function [Windows Multimedia]"]
 old-location: multimedia\waveinstop.htm
 tech.root: Multimedia
 ms.assetid: c56085f9-256d-41e2-a3d5-7d17d42f0e57

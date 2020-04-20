@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMNameCollection
 title: IXpsOMNameCollection (xpsobjectmodel.h)
-description: A collection of name strings.
+description: A collection of name strings.helpviewer_keywords: ["IXpsOMNameCollection","IXpsOMNameCollection interface [XPS Documents and Packaging]","IXpsOMNameCollection interface [XPS Documents and Packaging]","described","xps.ixpsomnamecollection","xpsobjectmodel/IXpsOMNameCollection"]
 old-location: xps\ixpsomnamecollection.htm
 tech.root: printdocs
 ms.assetid: b27f83fc-0fcf-44e9-a6ce-c3612c5399ff

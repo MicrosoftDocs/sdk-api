@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputConstriction
 title: ID3D11VideoContext::VideoProcessorSetOutputConstriction (d3d11.h)
-description: Sets the amount of downsampling to perform on the output.
+description: Sets the amount of downsampling to perform on the output.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetOutputConstriction method","ID3D11VideoContext.VideoProcessorSetOutputConstriction","ID3D11VideoContext::VideoProcessorSetOutputConstriction","VideoProcessorSetOutputConstriction","VideoProcessorSetOutputConstriction method [Media Foundation]","VideoProcessorSetOutputConstriction method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetOutputConstriction","mf.id3d11videocontext_videoprocessorsetoutputconstriction"]
 old-location: mf\id3d11videocontext_videoprocessorsetoutputconstriction.htm
 tech.root: medfound
 ms.assetid: EA61A4B8-0853-4F17-B634-70A896DCF5F7
@@ -70,15 +70,6 @@ If <b>TRUE</b>, downsampling is enabled. Otherwise, downsampling is disabled and
 ### -param Size
 
 The sampling size.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

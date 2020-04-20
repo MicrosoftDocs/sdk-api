@@ -1,7 +1,7 @@
 ---
 UID: NN:structuredquerycondition.ICondition2
 title: ICondition2 (structuredquerycondition.h)
-description: Extends the functionality of the ICondition interface. ICondition2 provides methods for retrieving information about a search condition.
+description: Extends the functionality of the ICondition interface. ICondition2 provides methods for retrieving information about a search condition.helpviewer_keywords: ["ICondition2","ICondition2 interface [search]","ICondition2 interface [search]","described","_search_ICondition2","search._search_ICondition2","structuredquerycondition/ICondition2"]
 old-location: search\_search_ICondition2.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\icondition2.htm

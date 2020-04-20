@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.GetItemFlags
 title: IImageList::GetItemFlags (commoncontrols.h)
-description: Gets the flags of an image.
+description: Gets the flags of an image.helpviewer_keywords: ["GetItemFlags","GetItemFlags method [Windows Controls]","GetItemFlags method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","GetItemFlags method","IImageList.GetItemFlags","IImageList::GetItemFlags","ILIF_ALPHA","ILIF_LOWQUALITY","comctl_IImageList_GetItemFlags","comctl_IImageList_GetItemFlags_cpp","commoncontrols/IImageList::GetItemFlags","controls.IImageList_GetItemFlags","controls.comctl_IImageList_GetItemFlags"]
 old-location: controls\IImageList_GetItemFlags.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getitemflags.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.GetReportJob
 title: IFsrmReportManager::GetReportJob (fsrmreports.h)
-description: Retrieves the specified report job.
+description: Retrieves the specified report job.helpviewer_keywords: ["FsrmReportManager class [File Server Resource Manager]","GetReportJob method","GetReportJob","GetReportJob method [File Server Resource Manager]","GetReportJob method [File Server Resource Manager]","FsrmReportManager class","GetReportJob method [File Server Resource Manager]","IFsrmReportManager interface","IFsrmReportManager interface [File Server Resource Manager]","GetReportJob method","IFsrmReportManager.GetReportJob","IFsrmReportManager::GetReportJob","fs.ifsrmreportmanager_getreportjob","fsrm.ifsrmreportmanager_getreportjob","fsrmreports/IFsrmReportManager::GetReportJob"]
 old-location: fsrm\ifsrmreportmanager_getreportjob.htm
 tech.root: fsrm
 ms.assetid: 60a1387f-a25f-4026-a582-71981c26dd1b

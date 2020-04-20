@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspen.Pen.GetCompoundArray
 title: Pen::GetCompoundArray (gdipluspen.h)
-description: The Pen::GetCompoundArray method gets the compound array currently set for this Pen object.
+description: The Pen::GetCompoundArray method gets the compound array currently set for this Pen object.helpviewer_keywords: ["GetCompoundArray","GetCompoundArray method [GDI+]","GetCompoundArray method [GDI+]","Pen class","Pen class [GDI+]","GetCompoundArray method","Pen.GetCompoundArray","Pen::GetCompoundArray","_gdiplus_CLASS_Pen_GetCompoundArray_compoundArray_count_","gdiplus._gdiplus_CLASS_Pen_GetCompoundArray_compoundArray_count_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetCompoundArray_compoundArray_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getcompoundarray.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSiloAction.GetDescription
 title: IEnhancedStorageSiloAction::GetDescription (ehstorapi.h)
-description: Returns a descriptive string for the action specified by the IEnhancedStorageSiloAction object.
+description: Returns a descriptive string for the action specified by the IEnhancedStorageSiloAction object.helpviewer_keywords: ["GetDescription","GetDescription method [Enhanced Storage]","GetDescription method [Enhanced Storage]","IEnhancedStorageSiloAction interface","IEnhancedStorageSiloAction interface [Enhanced Storage]","GetDescription method","IEnhancedStorageSiloAction.GetDescription","IEnhancedStorageSiloAction::GetDescription","ehstorapi/IEnhancedStorageSiloAction::GetDescription","enstor.ienhancedstoragesiloaction_getdescription"]
 old-location: enstor\ienhancedstoragesiloaction_getdescription.htm
 tech.root: enstor
 ms.assetid: 1eb94182-520e-40a6-87e6-6ead2ab2e188

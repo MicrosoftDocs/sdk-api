@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMProfile2.GetProfileID
 title: IWMProfile2::GetProfileID (wmsdkidl.h)
-description: The GetProfileID method retrieves the globally unique identifier of a system profile.
+description: The GetProfileID method retrieves the globally unique identifier of a system profile.helpviewer_keywords: ["GetProfileID","GetProfileID method [windows Media Format]","GetProfileID method [windows Media Format]","IWMProfile2 interface","GetProfileID method [windows Media Format]","IWMProfile3 interface","IWMProfile2 interface [windows Media Format]","GetProfileID method","IWMProfile2.GetProfileID","IWMProfile2::GetProfileID","IWMProfile2GetProfileID","IWMProfile3 interface [windows Media Format]","GetProfileID method","IWMProfile3::GetProfileID","wmformat.iwmprofile2_getprofileid","wmsdkidl/IWMProfile2::GetProfileID","wmsdkidl/IWMProfile3::GetProfileID"]
 old-location: wmformat\iwmprofile2_getprofileid.htm
 tech.root: wmformat
 ms.assetid: 82e3e086-4b19-4eb9-91ad-d30392f97a28

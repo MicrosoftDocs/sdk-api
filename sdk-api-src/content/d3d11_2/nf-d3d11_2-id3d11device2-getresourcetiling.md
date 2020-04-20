@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_2.ID3D11Device2.GetResourceTiling
 title: ID3D11Device2::GetResourceTiling (d3d11_2.h)
-description: Gets info about how a tiled resource is broken into tiles.
+description: Gets info about how a tiled resource is broken into tiles.helpviewer_keywords: ["GetResourceTiling","GetResourceTiling method [Direct3D 11]","GetResourceTiling method [Direct3D 11]","ID3D11Device2 interface","ID3D11Device2 interface [Direct3D 11]","GetResourceTiling method","ID3D11Device2.GetResourceTiling","ID3D11Device2::GetResourceTiling","d3d11_2/ID3D11Device2::GetResourceTiling","direct3d11.id3d11device2_getresourcetiling"]
 old-location: direct3d11\id3d11device2_getresourcetiling.htm
 tech.root: direct3d11
 ms.assetid: 51E7C948-5B14-4389-94BA-DB0DA7DFFC14
@@ -117,15 +117,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/n
 If subresource tiles are part of packed mipmaps, <b>GetResourceTiling</b> sets the members of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ns-d3d11_2-d3d11_subresource_tiling">D3D11_SUBRESOURCE_TILING</a> to zeros, except the <b>StartTileIndexInOverallResource</b> member, which <b>GetResourceTiling</b> sets to <b>D3D11_PACKED_TILE</b> (0xffffffff). The <b>D3D11_PACKED_TILE</b> constant indicates that the whole
             <b>D3D11_SUBRESOURCE_TILING</b> structure is meaningless for this situation, and the info that the <i>pPackedMipDesc</i> parameter points to applies.
           
-
-
-## -returns
-
-
-
-Returns nothing
-
-
 
 
 ## -remarks

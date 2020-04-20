@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.SubmitThreadpoolWork
 title: SubmitThreadpoolWork function (threadpoolapiset.h)
-description: Posts a work object to the thread pool. A worker thread calls the work object's callback function.
+description: Posts a work object to the thread pool. A worker thread calls the work object's callback function.helpviewer_keywords: ["SubmitThreadpoolWork","SubmitThreadpoolWork function","base.submitthreadpoolwork","threadpoolapiset/SubmitThreadpoolWork","winbase/SubmitThreadpoolWork"]
 old-location: base\submitthreadpoolwork.htm
 tech.root: ProcThread
 ms.assetid: 28df173d-b78c-4158-97d5-63117a2d3967
@@ -65,15 +65,6 @@ Posts a work object to the thread pool. A worker thread calls the work object's 
 ### -param pwk [in, out]
 
 A <b>TP_WORK</b> structure that defines the work object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork">CreateThreadpoolWork</a> function returns this structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

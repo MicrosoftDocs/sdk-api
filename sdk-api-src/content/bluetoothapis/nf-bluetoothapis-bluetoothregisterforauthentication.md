@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothRegisterForAuthentication
 title: BluetoothRegisterForAuthentication function (bluetoothapis.h)
-description: The BluetoothRegisterForAuthentication function registers a callback function that is called when a particular Bluetooth device requests authentication.
+description: The BluetoothRegisterForAuthentication function registers a callback function that is called when a particular Bluetooth device requests authentication.helpviewer_keywords: ["BluetoothRegisterForAuthentication","BluetoothRegisterForAuthentication function [Bluetooth]","bluetooth.bluetoothregisterforauthentication","bluetoothapis/BluetoothRegisterForAuthentication"]
 old-location: bluetooth\bluetoothregisterforauthentication.htm
 tech.root: bluetooth
 ms.assetid: f85dd076-9062-413f-863f-9d3baba322ad

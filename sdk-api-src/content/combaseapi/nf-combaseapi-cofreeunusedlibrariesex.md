@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoFreeUnusedLibrariesEx
 title: CoFreeUnusedLibrariesEx function (combaseapi.h)
-description: Unloads any DLLs that are no longer in use and whose unload delay has expired.
+description: Unloads any DLLs that are no longer in use and whose unload delay has expired.helpviewer_keywords: ["CoFreeUnusedLibrariesEx","CoFreeUnusedLibrariesEx function [COM]","_com_CoFreeUnusedLibrariesEx","com.cofreeunusedlibrariesex","combaseapi/CoFreeUnusedLibrariesEx"]
 old-location: com\cofreeunusedlibrariesex.htm
 tech.root: com
 ms.assetid: 01660e9d-d8f2-40ef-a6d6-b80f0140ab5f
@@ -69,15 +69,6 @@ The delay in milliseconds between the time that the DLL has stated it can be unl
 ### -param dwReserved [in]
 
 This parameter is reserved and must be 0.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

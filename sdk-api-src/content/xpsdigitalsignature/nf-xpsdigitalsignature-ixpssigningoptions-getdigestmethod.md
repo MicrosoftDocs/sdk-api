@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetDigestMethod
 title: IXpsSigningOptions::GetDigestMethod (xpsdigitalsignature.h)
-description: Gets the current digest method.
+description: Gets the current digest method.helpviewer_keywords: ["GetDigestMethod","GetDigestMethod method [XPS Documents and Packaging]","GetDigestMethod method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetDigestMethod method","IXpsSigningOptions.GetDigestMethod","IXpsSigningOptions::GetDigestMethod","xps.ixpssigningoptions_getdigestmethod","xpsdigitalsignature/IXpsSigningOptions::GetDigestMethod"]
 old-location: xps\ixpssigningoptions_getdigestmethod.htm
 tech.root: printdocs
 ms.assetid: b8976719-970b-4598-8f1c-0ef2446ae12b

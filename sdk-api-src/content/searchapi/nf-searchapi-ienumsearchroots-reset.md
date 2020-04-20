@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Reset
 title: IEnumSearchRoots::Reset (searchapi.h)
-description: Moves the internal counter to the beginning of the list so a subsequent call to IEnumSearchRoots::Next retrieves from the beginning.
+description: Moves the internal counter to the beginning of the list so a subsequent call to IEnumSearchRoots::Next retrieves from the beginning.helpviewer_keywords: ["IEnumSearchRoots interface [search]","Reset method","IEnumSearchRoots.Reset","IEnumSearchRoots::Reset","Reset","Reset method [search]","Reset method [search]","IEnumSearchRoots interface","_search_IEnumSearchRoots_Reset","search._search_IEnumSearchRoots_Reset","searchapi/IEnumSearchRoots::Reset"]
 old-location: search\_search_IEnumSearchRoots_Reset.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\reset.htm

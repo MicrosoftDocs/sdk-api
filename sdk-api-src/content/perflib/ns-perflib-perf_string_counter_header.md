@@ -1,7 +1,7 @@
 ---
 UID: NS:perflib._STRING_COUNTER_HEADER
 title: PERF_STRING_COUNTER_HEADER (perflib.h)
-description: Indicates where in the PERF_STRING_BUFFER_HEADER block that the string that contains the name or help string for the indicated performance counter starts.
+description: Indicates where in the PERF_STRING_BUFFER_HEADER block that the string that contains the name or help string for the indicated performance counter starts.helpviewer_keywords: ["*PPERF_STRING_COUNTER_HEADER","PERF_STRING_COUNTER_HEADER","PERF_STRING_COUNTER_HEADER structure [Perf]","PPERF_STRING_COUNTER_HEADER","PPERF_STRING_COUNTER_HEADER structure pointer [Perf]","perf.perf_string_counter_header","perflib/PERF_STRING_COUNTER_HEADER","perflib/PPERF_STRING_COUNTER_HEADER"]
 old-location: perf\perf_string_counter_header.htm
 tech.root: perfctrs
 ms.assetid: 73DFA1C0-B0E8-4788-8CBA-1CFA7580F633

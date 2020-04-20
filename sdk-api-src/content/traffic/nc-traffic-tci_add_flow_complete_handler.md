@@ -1,7 +1,7 @@
 ---
 UID: NC:traffic.TCI_ADD_FLOW_COMPLETE_HANDLER
 title: TCI_ADD_FLOW_COMPLETE_HANDLER (traffic.h)
-description: The ClAddFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcAddFlow function.
+description: The ClAddFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcAddFlow function.helpviewer_keywords: ["ClAddFlowComplete","ClAddFlowComplete callback","ClAddFlowComplete callback function [QOS]","TCI_ADD_FLOW_COMPLETE_HANDLER","TCI_ADD_FLOW_COMPLETE_HANDLER callback function [QOS]","_gqos_claddflowcomplete","qos.claddflowcomplete","traffic/ClAddFlowComplete"]
 old-location: qos\claddflowcomplete.htm
 tech.root: QOS
 ms.assetid: 0aa6f590-f7b2-4312-87a7-3854f883fa22
@@ -81,15 +81,6 @@ Completion status for the
 <div class="alert"><b>Note</b>  Use of the 
 <b>ClAddFlowComplete</b> function requires administrative privilege.</div>
 <div> </div>
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
 
 ## -see-also
 

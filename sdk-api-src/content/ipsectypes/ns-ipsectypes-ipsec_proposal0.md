@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_PROPOSAL0_
 title: IPSEC_PROPOSAL0 (ipsectypes.h)
-description: Used to store an IPsec quick mode proposal.
+description: Used to store an IPsec quick mode proposal.helpviewer_keywords: ["IPSEC_PROPOSAL0","IPSEC_PROPOSAL0 structure [Filtering]","fwp.ipsec_proposal0_struct","ipsectypes/IPSEC_PROPOSAL0"]
 old-location: fwp\ipsec_proposal0_struct.htm
 tech.root: fwp
 ms.assetid: bc551733-dbba-4d66-8054-fbf4bbfa28b5

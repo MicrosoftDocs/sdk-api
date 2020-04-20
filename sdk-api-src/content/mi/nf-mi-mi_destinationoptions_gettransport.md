@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetTransport
 title: MI_DestinationOptions_GetTransport function (mi.h)
-description: Gets the transport setting that the client added.
+description: Gets the transport setting that the client added.helpviewer_keywords: ["MI_DestinationOptions_GetTransport","MI_DestinationOptions_GetTransport function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetTransport","wmi_v2.mi_destinationoptions_gettransport"]
 old-location: wmi_v2\mi_destinationoptions_gettransport.htm
 tech.root: wmi_v2
 ms.assetid: 85e0a952-c51c-4877-b9fb-d2fe0d0b1bb1

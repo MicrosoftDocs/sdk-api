@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetRecordLangId
 title: IDvbTeletextDescriptor::GetRecordLangId (dvbsiparser.h)
-description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) teletext descriptor.
+description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) teletext descriptor.helpviewer_keywords: ["GetRecordLangId","GetRecordLangId method [Microsoft TV Technologies]","GetRecordLangId method [Microsoft TV Technologies]","IDvbTeletextDescriptor interface","IDvbTeletextDescriptor interface [Microsoft TV Technologies]","GetRecordLangId method","IDvbTeletextDescriptor.GetRecordLangId","IDvbTeletextDescriptor::GetRecordLangId","dvbsiparser/IDvbTeletextDescriptor::GetRecordLangId","mstv.idvbteletextdescriptor_getrecordlangid"]
 old-location: mstv\idvbteletextdescriptor_getrecordlangid.htm
 tech.root: mstv
 ms.assetid: cce0fd15-5098-4871-baab-e40b6cae39b1

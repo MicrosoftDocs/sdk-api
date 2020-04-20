@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.RequestEditSession
 title: ITfContext::RequestEditSession (msctf.h)
-description: ITfContext::RequestEditSession method
+description: ITfContext::RequestEditSession methodhelpviewer_keywords: ["ITfContext interface [Text Services Framework]","RequestEditSession method","ITfContext.RequestEditSession","ITfContext::RequestEditSession","RequestEditSession","RequestEditSession method [Text Services Framework]","RequestEditSession method [Text Services Framework]","ITfContext interface","TF_ES_ASYNC","TF_ES_ASYNCDONTCARE","TF_ES_READ","TF_ES_READWRITE","TF_ES_SYNC","_tsf_itfcontext_requesteditsession_ref","msctf/ITfContext::RequestEditSession","tsf.itfcontext_requesteditsession"]
 old-location: tsf\itfcontext_requesteditsession.htm
 tech.root: TSF
 ms.assetid: 6c7b150c-0ca0-4aa5-8828-0c548dbfb215
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains access to the document text and properties.
 
 ## -parameters
 
@@ -241,31 +240,4 @@ A synchronous read/write request will fail if made when processing one of the fo
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfeditsession">ITfEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfstatussink-onstatuschange">ITfStatusSink::OnStatusChange
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession interface](nn-msctf-itfeditsession.md), [ITfStatusSink::OnStatusChange](nf-msctf-itfstatussink-onstatuschange.md), [ITfTextEditSink::OnEndEdit](nf-msctf-itftexteditsink-onendedit.md), [ITfTextLayoutSink::OnLayoutChange](nf-msctf-itftextlayoutsink-onlayoutchange.md)

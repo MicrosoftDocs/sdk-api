@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetXStateFeaturesMask
 title: GetXStateFeaturesMask function (winbase.h)
-description: Returns the mask of XState features set within a CONTEXT structure.
+description: Returns the mask of XState features set within a CONTEXT structure.helpviewer_keywords: ["GetXStateFeaturesMask","GetXStateFeaturesMask function","base.getxstatefeaturesmask","winbase/GetXStateFeaturesMask"]
 old-location: base\getxstatefeaturesmask.htm
 tech.root: Debug
 ms.assetid: D9A8D0B6-21E3-46B7-AB88-CE2FF4025A17

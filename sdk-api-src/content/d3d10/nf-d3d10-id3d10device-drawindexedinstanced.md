@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.DrawIndexedInstanced
 title: ID3D10Device::DrawIndexedInstanced (d3d10.h)
-description: Draw indexed, instanced primitives.
+description: Draw indexed, instanced primitives.helpviewer_keywords: ["38658e6f-340e-68e9-eb0a-101f9c8f0c5e","DrawIndexedInstanced","DrawIndexedInstanced method [Direct3D 10]","DrawIndexedInstanced method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","DrawIndexedInstanced method","ID3D10Device.DrawIndexedInstanced","ID3D10Device::DrawIndexedInstanced","d3d10/ID3D10Device::DrawIndexedInstanced","direct3d10.id3d10device_drawindexedinstanced"]
 old-location: direct3d10\id3d10device_drawindexedinstanced.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_drawindexedinstanced.htm
@@ -91,15 +91,6 @@ Index of the first vertex. The index is signed, which allows a negative index. I
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index of the first instance.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

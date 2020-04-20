@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CIPHER_INFORMATION0_
 title: IPSEC_SA_CIPHER_INFORMATION0 (ipsectypes.h)
-description: Stores information about the encryption algorithm of an IPsec security association (SA).
+description: Stores information about the encryption algorithm of an IPsec security association (SA).helpviewer_keywords: ["IPSEC_SA_CIPHER_INFORMATION0","IPSEC_SA_CIPHER_INFORMATION0 structure [Filtering]","fwp.ipsec_sa_cipher_information0_struct","ipsectypes/IPSEC_SA_CIPHER_INFORMATION0"]
 old-location: fwp\ipsec_sa_cipher_information0_struct.htm
 tech.root: fwp
 ms.assetid: 2a5105ad-b77f-46b7-9a79-50514b88e7ce

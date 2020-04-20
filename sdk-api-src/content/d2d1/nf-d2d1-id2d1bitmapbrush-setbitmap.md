@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.SetBitmap
 title: ID2D1BitmapBrush::SetBitmap (d2d1.h)
-description: Specifies the bitmap source that this brush uses to paint.
+description: Specifies the bitmap source that this brush uses to paint.helpviewer_keywords: ["ID2D1BitmapBrush interface [Direct2D]","SetBitmap method","ID2D1BitmapBrush.SetBitmap","ID2D1BitmapBrush::SetBitmap","SetBitmap","SetBitmap method [Direct2D]","SetBitmap method [Direct2D]","ID2D1BitmapBrush interface","d2d1/ID2D1BitmapBrush::SetBitmap","direct2d.ID2D1BitmapBrush_SetBitmap"]
 old-location: direct2d\ID2D1BitmapBrush_SetBitmap.htm
 tech.root: Direct2D
 ms.assetid: 776dba7f-11d0-4055-9071-8719ac192f00
@@ -62,15 +62,6 @@ Specifies the bitmap source that this brush uses to paint.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>*</b>
 
 The bitmap source used by the brush.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

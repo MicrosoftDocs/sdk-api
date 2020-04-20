@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.CreateTable
 title: ISimilarityFileIdTable::CreateTable (msrdc.h)
-description: Creates or opens a similarity file ID table.
+description: Creates or opens a similarity file ID table.helpviewer_keywords: ["CreateTable","CreateTable method [Remote Differential Compression]","CreateTable method [Remote Differential Compression]","ISimilarityFileIdTable interface","ISimilarityFileIdTable interface [Remote Differential Compression]","CreateTable method","ISimilarityFileIdTable.CreateTable","ISimilarityFileIdTable::CreateTable","fs.isimilarityfileidtable_createtable","msrdc/ISimilarityFileIdTable::CreateTable","rdc.isimilarityfileidtable_createtable"]
 old-location: rdc\isimilarityfileidtable_createtable.htm
 tech.root: rdc
 ms.assetid: bc683c53-5491-4cc6-abe1-c82e69aaa7f4

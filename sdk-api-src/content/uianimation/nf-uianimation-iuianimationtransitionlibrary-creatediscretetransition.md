@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateDiscreteTransition
 title: IUIAnimationTransitionLibrary::CreateDiscreteTransition (uianimation.h)
-description: Creates a discrete transition.
+description: Creates a discrete transition.helpviewer_keywords: ["CreateDiscreteTransition","CreateDiscreteTransition method [Windows Animation]","CreateDiscreteTransition method [Windows Animation]","IUIAnimationTransitionLibrary interface","IUIAnimationTransitionLibrary interface [Windows Animation]","CreateDiscreteTransition method","IUIAnimationTransitionLibrary.CreateDiscreteTransition","IUIAnimationTransitionLibrary::CreateDiscreteTransition","uianimation.iuianimationtransitionlibrary_creatediscretetransition","uianimation/IUIAnimationTransitionLibrary::CreateDiscreteTransition"]
 old-location: uianimation\iuianimationtransitionlibrary_creatediscretetransition.htm
 tech.root: UIAnimation
 ms.assetid: 7c3f6ccb-7a42-4a48-90ad-dba99c67aa6f

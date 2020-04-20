@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IDVBSLocator2.get_LocalOscillatorOverrideLow
 title: IDVBSLocator2::get_LocalOscillatorOverrideLow (tuner.h)
-description: Specifies the low oscillator frequency of a Digital Video Broadcasting (DVB) system, in kHz.
+description: Specifies the low oscillator frequency of a Digital Video Broadcasting (DVB) system, in kHz.helpviewer_keywords: ["IDVBSLocator2 interface [Microsoft TV Technologies]","LocalOscillatorOverrideLow property","IDVBSLocator2.LocalOscillatorOverrideLow","IDVBSLocator2.get_LocalOscillatorOverrideLow","IDVBSLocator2::LocalOscillatorOverrideLow","IDVBSLocator2::get_LocalOscillatorOverrideLow","IDVBSLocator2::put_LocalOscillatorOverrideLow","LocalOscillatorOverrideLow property [Microsoft TV Technologies]","LocalOscillatorOverrideLow property [Microsoft TV Technologies]","IDVBSLocator2 interface","get_LocalOscillatorOverrideLow","mstv.idvbslocator2_localoscillatoroverridelow","tuner/IDVBSLocator2::LocalOscillatorOverrideLow","tuner/IDVBSLocator2::get_LocalOscillatorOverrideLow","tuner/IDVBSLocator2::put_LocalOscillatorOverrideLow"]
 old-location: mstv\idvbslocator2_localoscillatoroverridelow.htm
 tech.root: mstv
 ms.assetid: 141295c9-1129-4996-84e9-5ad63d70da05

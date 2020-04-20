@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_GetEnclosingElement
 title: TextRange_GetEnclosingElement function (uiautomationcoreapi.h)
-description: Returns the node for the next smallest provider that covers the range.
+description: Returns the node for the next smallest provider that covers the range.helpviewer_keywords: ["TextRange_GetEnclosingElement","TextRange_GetEnclosingElement function [Windows Accessibility]","uiauto.uiauto_TextRange_GetEnclosingElementConPat","uiauto_TextRange_GetEnclosingElementConPat","uiautomationcoreapi/TextRange_GetEnclosingElement","winauto.uiauto_TextRange_GetEnclosingElementConPat"]
 old-location: winauto\uiauto_TextRange_GetEnclosingElementConPat.htm
 tech.root: WinAuto
 ms.assetid: 842754a0-1fe7-4432-ab7f-716ef870df92

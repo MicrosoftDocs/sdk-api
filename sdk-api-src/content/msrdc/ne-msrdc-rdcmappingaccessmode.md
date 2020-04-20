@@ -1,7 +1,7 @@
 ---
 UID: NE:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0010
 title: RdcMappingAccessMode (msrdc.h)
-description: Defines the access mode values for RDC file mapping objects.
+description: Defines the access mode values for RDC file mapping objects.helpviewer_keywords: ["RDCMAPPING_ReadOnly","RDCMAPPING_ReadWrite","RDCMAPPING_Undefined","RdcMappingAccessMode","RdcMappingAccessMode enumeration [Remote Differential Compression]","fs.rdcmappingaccessmode","msrdc/RDCMAPPING_ReadOnly","msrdc/RDCMAPPING_ReadWrite","msrdc/RDCMAPPING_Undefined","msrdc/RdcMappingAccessMode","rdc.rdcmappingaccessmode"]
 old-location: rdc\rdcmappingaccessmode.htm
 tech.root: rdc
 ms.assetid: 570fe290-1209-4bae-a56c-f6f663e53f87

@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio.PWINBIO_CAPTURE_CALLBACK
 title: PWINBIO_CAPTURE_CALLBACK (winbio.h)
-description: Returns results from the asynchronous WinBioCaptureSampleWithCallback function.
+description: Returns results from the asynchronous WinBioCaptureSampleWithCallback function.helpviewer_keywords: ["PWINBIO_CAPTURE_CALLBACK","PWINBIO_CAPTURE_CALLBACK function","PWINBIO_CAPTURE_CALLBACK function pointer [Windows Biometric Framework API]","secbiomet.pwinbio_capture_callback","winbio/PWINBIO_CAPTURE_CALLBACK"]
 old-location: secbiomet\pwinbio_capture_callback.htm
 tech.root: SecBioMet
 ms.assetid: 7B517246-410C-49B6-9DEE-30E066D8F5C6
@@ -96,15 +96,6 @@ Size, in bytes, of the sample data pointed to by the <i>Sample</i> parameter.
 ### -param RejectDetail [in]
 
 Additional information about the failure, if any, to perform the operation. For more information,  see Remarks.
-
-
-## -returns
-
-
-
-Do not return a value from your implementation of this function.
-
-
 
 
 ## -remarks

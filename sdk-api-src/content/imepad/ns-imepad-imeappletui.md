@@ -1,7 +1,7 @@
 ---
 UID: NS:imepad.tagIMEAPPLETUI
 title: IMEAPPLETUI (imepad.h)
-description: Used by IImePadApplet::CreateUI to specify applet window style.
+description: Used by IImePadApplet::CreateUI to specify applet window style.helpviewer_keywords: ["*LPIMEAPPLETUI","IMEAPPLETUI","IMEAPPLETUI structure [Internationalization for Windows Applications]","PIMEAPPLETUI","PIMEAPPLETUI structure pointer [Internationalization for Windows Applications]","imepad/IMEAPPLETUI","imepad/PIMEAPPLETUI","intl.imeappletui"]
 old-location: intl\imeappletui.htm
 tech.root: Intl
 ms.assetid: 9C44287B-77A9-48FB-8A17-6CB0FA234EE2

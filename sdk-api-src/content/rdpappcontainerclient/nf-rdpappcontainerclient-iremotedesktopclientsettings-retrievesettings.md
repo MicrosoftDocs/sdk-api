@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.RetrieveSettings
 title: IRemoteDesktopClientSettings::RetrieveSettings (rdpappcontainerclient.h)
-description: Retrieves the entire RDP file as a string.
+description: Retrieves the entire RDP file as a string.helpviewer_keywords: ["IRemoteDesktopClientSettings interface [Remote Desktop Services]","RetrieveSettings method","IRemoteDesktopClientSettings.RetrieveSettings","IRemoteDesktopClientSettings::RetrieveSettings","RetrieveSettings","RetrieveSettings method [Remote Desktop Services]","RetrieveSettings method [Remote Desktop Services]","IRemoteDesktopClientSettings interface","rdpappcontainerclient/IRemoteDesktopClientSettings::RetrieveSettings","termserv.iremotedesktopclientsettings_retrievesettings"]
 old-location: termserv\iremotedesktopclientsettings_retrievesettings.htm
 tech.root: TermServ
 ms.assetid: 5c28a172-42f3-4abd-9983-ee5acb1c9c78

@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.TpInitializeCallbackEnviron
 title: TpInitializeCallbackEnviron function (winnt.h)
-description: Initializes a callback environment for the thread pool.
+description: Initializes a callback environment for the thread pool.helpviewer_keywords: ["TpInitializeCallbackEnviron","TpInitializeCallbackEnviron function","base.tpinitializecallbackenviron","winnt/TpInitializeCallbackEnviron"]
 old-location: base\tpinitializecallbackenviron.htm
 tech.root: ProcThread
 ms.assetid: 4602CB19-D8C0-460E-A853-8DDECE643A76
@@ -60,15 +60,6 @@ Initializes a callback environment for the thread pool.
 ### -param CallbackEnviron [out]
 
 A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. Allocate space for this structure and initialize it using this function.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

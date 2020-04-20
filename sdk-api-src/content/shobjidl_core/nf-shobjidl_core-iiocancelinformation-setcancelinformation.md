@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IIOCancelInformation.SetCancelInformation
 title: IIOCancelInformation::SetCancelInformation (shobjidl_core.h)
-description: Sets information that is posted when a user selects Cancel from the progress UI.
+description: Sets information that is posted when a user selects Cancel from the progress UI.helpviewer_keywords: ["IIOCancelInformation interface [Windows Shell]","SetCancelInformation method","IIOCancelInformation.SetCancelInformation","IIOCancelInformation::SetCancelInformation","SetCancelInformation","SetCancelInformation method [Windows Shell]","SetCancelInformation method [Windows Shell]","IIOCancelInformation interface","_shell_IIOCancelInformation_SetCancelInformation","shell.IIOCancelInformation_SetCancelInformation","shobjidl_core/IIOCancelInformation::SetCancelInformation"]
 old-location: shell\IIOCancelInformation_SetCancelInformation.htm
 tech.root: shell
 ms.assetid: ed7a2a43-8944-4e17-af0a-d64f0cb493e6

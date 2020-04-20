@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.UpdateProgress
 title: IActionProgress::UpdateProgress (shobjidl_core.h)
-description: Updates the progress of an action to the UI.
+description: Updates the progress of an action to the UI.helpviewer_keywords: ["IActionProgress interface [Windows Shell]","UpdateProgress method","IActionProgress.UpdateProgress","IActionProgress::UpdateProgress","UpdateProgress","UpdateProgress method [Windows Shell]","UpdateProgress method [Windows Shell]","IActionProgress interface","shell.IActionProgress_UpdateProgress","shell_IActionProgress_UpdateProgress","shobjidl_core/IActionProgress::UpdateProgress"]
 old-location: shell\IActionProgress_UpdateProgress.htm
 tech.root: shell
 ms.assetid: d9c6fd82-96a2-4021-a6c4-ab61e20eb0d0

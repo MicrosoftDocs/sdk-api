@@ -1,7 +1,7 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ScheduleEntryChanged
 title: IGuideDataEvent::ScheduleEntryChanged (bdatif.h)
-description: The ScheduleEntryChanged method is called by the TIF when information about one or more schedule entries has changed.
+description: The ScheduleEntryChanged method is called by the TIF when information about one or more schedule entries has changed.helpviewer_keywords: ["IGuideDataEvent interface [Microsoft TV Technologies]","ScheduleEntryChanged method","IGuideDataEvent.ScheduleEntryChanged","IGuideDataEvent::ScheduleEntryChanged","IGuideDataEventScheduleEntryChanged","ScheduleEntryChanged","ScheduleEntryChanged method [Microsoft TV Technologies]","ScheduleEntryChanged method [Microsoft TV Technologies]","IGuideDataEvent interface","bdatif/IGuideDataEvent::ScheduleEntryChanged","mstv.iguidedataevent_scheduleentrychanged"]
 old-location: mstv\iguidedataevent_scheduleentrychanged.htm
 tech.root: mstv
 ms.assetid: 04c278a0-8a92-4801-9463-696beb22819e

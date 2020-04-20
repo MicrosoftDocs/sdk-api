@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_ERASE_DATABASE_FN
 title: PIBIO_STORAGE_ERASE_DATABASE_FN (winbio_adapter.h)
-description: Erases the database and marks it for deletion.
+description: Erases the database and marks it for deletion.helpviewer_keywords: ["PIBIO_STORAGE_ERASE_DATABASE_FN","PIBIO_STORAGE_ERASE_DATABASE_FN callback","StorageAdapterEraseDatabase","StorageAdapterEraseDatabase callback function [Windows Biometric Framework API]","secbiomet.storageadaptererasedatabase","winbio_adapter/StorageAdapterEraseDatabase"]
 old-location: secbiomet\storageadaptererasedatabase.htm
 tech.root: SecBioMet
 ms.assetid: c1fc2f3f-034b-4546-aeee-1d1a38695793

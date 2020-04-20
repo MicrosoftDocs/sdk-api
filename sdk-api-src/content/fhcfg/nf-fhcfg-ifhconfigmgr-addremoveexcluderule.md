@@ -1,7 +1,7 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.AddRemoveExcludeRule
 title: IFhConfigMgr::AddRemoveExcludeRule (fhcfg.h)
-description: Adds an exclusion rule to the exclusion list or removes a rule from the list.
+description: Adds an exclusion rule to the exclusion list or removes a rule from the list.helpviewer_keywords: ["AddRemoveExcludeRule","AddRemoveExcludeRule method [Windows API]","AddRemoveExcludeRule method [Windows API]","FhConfigMgr class","AddRemoveExcludeRule method [Windows API]","IFhConfigMgr interface","FhConfigMgr class [Windows API]","AddRemoveExcludeRule method","IFhConfigMgr interface [Windows API]","AddRemoveExcludeRule method","IFhConfigMgr.AddRemoveExcludeRule","IFhConfigMgr::AddRemoveExcludeRule","fhcfg/IFhConfigMgr::AddRemoveExcludeRule","winprog.ifhconfigmgr_addremoveexcluderule"]
 old-location: winprog\ifhconfigmgr_addremoveexcluderule.htm
 tech.root: DevNotes
 ms.assetid: 8900944D-3B73-49AB-AE26-F0B2D5842B02

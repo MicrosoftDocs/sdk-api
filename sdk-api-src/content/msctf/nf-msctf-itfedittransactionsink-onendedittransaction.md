@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfEditTransactionSink.OnEndEditTransaction
 title: ITfEditTransactionSink::OnEndEditTransaction (msctf.h)
-description: ITfEditTransactionSink::OnEndEditTransaction method
+description: ITfEditTransactionSink::OnEndEditTransaction methodhelpviewer_keywords: ["ITfEditTransactionSink interface [Text Services Framework]","OnEndEditTransaction method","ITfEditTransactionSink.OnEndEditTransaction","ITfEditTransactionSink::OnEndEditTransaction","OnEndEditTransaction","OnEndEditTransaction method [Text Services Framework]","OnEndEditTransaction method [Text Services Framework]","ITfEditTransactionSink interface","_tsf_itfedittransactionsink_onendedittransaction_ref","msctf/ITfEditTransactionSink::OnEndEditTransaction","tsf.itfedittransactionsink_onendedittransaction"]
 old-location: tsf\itfedittransactionsink_onendedittransaction.htm
 tech.root: TSF
 ms.assetid: 9ca9eac8-f30b-4a52-b851-3ad7a5c4dfb7
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Indicates the end of an edit transaction.
 
 ## -parameters
 

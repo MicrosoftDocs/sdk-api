@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._READ_ELEMENT_ADDRESS_INFO
 title: READ_ELEMENT_ADDRESS_INFO
-description: Represents the volume tag information. It is used by the IOCTL_CHANGER_QUERY_VOLUME_TAGS control code.
+description: Represents the volume tag information. It is used by the IOCTL_CHANGER_QUERY_VOLUME_TAGS control code.helpviewer_keywords: ["*PREAD_ELEMENT_ADDRESS_INFO","PREAD_ELEMENT_ADDRESS_INFO","PREAD_ELEMENT_ADDRESS_INFO structure pointer","READ_ELEMENT_ADDRESS_INFO","READ_ELEMENT_ADDRESS_INFO structure","_win32_read_element_address_info_str","base.read_element_address_info_str","winioctl/PREAD_ELEMENT_ADDRESS_INFO","winioctl/READ_ELEMENT_ADDRESS_INFO"]
 old-location: base\read_element_address_info_str.htm
 tech.root: devio
 ms.assetid: 2b7e611b-7db6-4ba6-ae1f-4269a96dbb16

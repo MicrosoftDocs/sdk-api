@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetIntent
 title: IXpsSignatureRequest::SetIntent (xpsdigitalsignature.h)
-description: Sets the string that describes the intent or meaning of the signature.
+description: Sets the string that describes the intent or meaning of the signature.helpviewer_keywords: ["IXpsSignatureRequest interface [XPS Documents and Packaging]","SetIntent method","IXpsSignatureRequest.SetIntent","IXpsSignatureRequest::SetIntent","SetIntent","SetIntent method [XPS Documents and Packaging]","SetIntent method [XPS Documents and Packaging]","IXpsSignatureRequest interface","xps.ixpssignaturerequest_setintent","xpsdigitalsignature/IXpsSignatureRequest::SetIntent"]
 old-location: xps\ixpssignaturerequest_setintent.htm
 tech.root: printdocs
 ms.assetid: 8a77a168-58c7-4bb4-83ee-ed4dfd2839fe

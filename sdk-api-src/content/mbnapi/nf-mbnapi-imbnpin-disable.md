@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnPin.Disable
 title: IMbnPin::Disable (mbnapi.h)
-description: Disables a PIN.
+description: Disables a PIN.helpviewer_keywords: ["Disable","Disable method [Microsoft Broadband Networks]","Disable method [Microsoft Broadband Networks]","IMbnPin interface","IMbnPin interface [Microsoft Broadband Networks]","Disable method","IMbnPin.Disable","IMbnPin::Disable","mbn.imbnpin_disable","mbnapi/IMbnPin::Disable"]
 old-location: mbn\imbnpin_disable.htm
 tech.root: mbn
 ms.assetid: 612edeb9-3de4-48ac-a311-7238402e8658

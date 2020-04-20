@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CoGetInstanceFromIStorage
 title: CoGetInstanceFromIStorage function (objbase.h)
-description: Creates a new object and initializes it from a storage object through an internal call to IPersistFile::Load.
+description: Creates a new object and initializes it from a storage object through an internal call to IPersistFile::Load.helpviewer_keywords: ["CoGetInstanceFromIStorage","CoGetInstanceFromIStorage function [COM]","_com_CoGetInstanceFromIStorage","com.cogetinstancefromistorage","objbase/CoGetInstanceFromIStorage"]
 old-location: com\cogetinstancefromistorage.htm
 tech.root: com
 ms.assetid: 6a77770c-b7e1-4d29-9c4b-331b5950a635

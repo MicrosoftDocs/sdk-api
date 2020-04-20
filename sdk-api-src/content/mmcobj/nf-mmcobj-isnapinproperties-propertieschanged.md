@@ -1,7 +1,7 @@
 ---
 UID: NF:mmcobj.ISnapinProperties.PropertiesChanged
 title: ISnapinProperties::PropertiesChanged (mmcobj.h)
-description: Called when a property is added, changed, or deleted.
+description: Called when a property is added, changed, or deleted.helpviewer_keywords: ["ISnapinProperties interface [MMC]","PropertiesChanged method","ISnapinProperties.PropertiesChanged","ISnapinProperties::PropertiesChanged","PropertiesChanged","PropertiesChanged method [MMC]","PropertiesChanged method [MMC]","ISnapinProperties interface","_slate_isnapinproperties_propertieschanged","mmc.isnapinproperties_propertieschanged","mmcobj/ISnapinProperties::PropertiesChanged"]
 old-location: mmc\isnapinproperties_propertieschanged.htm
 tech.root: mmc
 ms.assetid: 6e64a620-9c1d-4803-81a0-ec432c30fbc9

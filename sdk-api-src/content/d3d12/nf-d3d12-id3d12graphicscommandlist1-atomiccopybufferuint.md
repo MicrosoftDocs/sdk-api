@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.AtomicCopyBufferUINT
 title: ID3D12GraphicsCommandList1::AtomicCopyBufferUINT (d3d12.h)
-description: Atomically copies a primary data element of type UINT from one resource to another, along with optional dependent resources.
+description: Atomically copies a primary data element of type UINT from one resource to another, along with optional dependent resources.helpviewer_keywords: ["AtomicCopyBufferUINT","AtomicCopyBufferUINT method","AtomicCopyBufferUINT method","ID3D12GraphicsCommandList1 interface","ID3D12GraphicsCommandList1 interface","AtomicCopyBufferUINT method","ID3D12GraphicsCommandList1.AtomicCopyBufferUINT","ID3D12GraphicsCommandList1::AtomicCopyBufferUINT","d3d12/ID3D12GraphicsCommandList1::AtomicCopyBufferUINT","direct3d12.id3d12graphicscommandlist1_atomiccopybufferuint"]
 old-location: direct3d12\id3d12graphicscommandlist1_atomiccopybufferuint.htm
 tech.root: direct3d12
 ms.assetid: 745B641F-B136-46A2-A0EE-F5FDC13656E5
@@ -116,15 +116,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-
 <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_reads_(Dependencies)</code>
 
 An array of subresource ranges that specify the dependent elements of the data payload. These elements are completely updated before the primary data element is itself atomically copied. This ensures that the entire operation is logically atomic; that is, the primary data element never refers to an incomplete data payload.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

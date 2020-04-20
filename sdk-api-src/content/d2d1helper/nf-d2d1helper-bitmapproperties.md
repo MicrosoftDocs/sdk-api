@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.BitmapProperties
 title: BitmapProperties function (d2d1helper.h)
-description: Creates a D2D1_BITMAP_PROPERTIES structure.
+description: Creates a D2D1_BITMAP_PROPERTIES structure.helpviewer_keywords: ["BitmapProperties","BitmapProperties function [Direct2D]","d2d1helper/BitmapProperties","direct2d.bitmapproperties"]
 old-location: direct2d\bitmapproperties.htm
 tech.root: Direct2D
 ms.assetid: 5f85602a-3706-4cd6-8124-07e06be2d29c

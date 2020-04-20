@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.GetOEMCP
 title: GetOEMCP function (winnls.h)
-description: Returns the current original equipment manufacturer (OEM) code page identifier for the operating system.
+description: Returns the current original equipment manufacturer (OEM) code page identifier for the operating system.helpviewer_keywords: ["GetOEMCP","GetOEMCP function [Internationalization for Windows Applications]","_win32_GetOEMCP","intl.getoemcp","winnls/GetOEMCP"]
 old-location: intl\getoemcp.htm
 tech.root: Intl
 ms.assetid: e6d42641-4bbe-44d8-baea-1087e48dae7d

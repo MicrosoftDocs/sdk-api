@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetIsHyperlinkTarget
 title: IXpsOMPage::SetIsHyperlinkTarget (xpsobjectmodel.h)
-description: Specifies whether the page is the target of a hyperlink.
+description: Specifies whether the page is the target of a hyperlink.helpviewer_keywords: ["IXpsOMPage interface [XPS Documents and Packaging]","SetIsHyperlinkTarget method","IXpsOMPage.SetIsHyperlinkTarget","IXpsOMPage::SetIsHyperlinkTarget","SetIsHyperlinkTarget","SetIsHyperlinkTarget method [XPS Documents and Packaging]","SetIsHyperlinkTarget method [XPS Documents and Packaging]","IXpsOMPage interface","xps.ixpsompage_setishyperlinktarget","xpsobjectmodel/IXpsOMPage::SetIsHyperlinkTarget"]
 old-location: xps\ixpsompage_setishyperlinktarget.htm
 tech.root: printdocs
 ms.assetid: a8096303-5940-4ad1-aa5a-de604efe8c9e

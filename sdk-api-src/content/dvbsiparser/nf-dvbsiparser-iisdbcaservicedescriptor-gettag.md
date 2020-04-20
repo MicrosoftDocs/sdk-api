@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetTag
 title: IIsdbCAServiceDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag that identifies a conditional access (CA) service descriptor.
+description: Gets the tag that identifies a conditional access (CA) service descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbCAServiceDescriptor interface","IIsdbCAServiceDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbCAServiceDescriptor.GetTag","IIsdbCAServiceDescriptor::GetTag","dvbsiparser/IIsdbCAServiceDescriptor::GetTag","mstv.iisdbcaservicedescriptor_gettag"]
 old-location: mstv\iisdbcaservicedescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 55f7b955-03f6-4c40-bd73-175bf3453ed0

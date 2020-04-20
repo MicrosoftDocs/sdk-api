@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.GetRotation
 title: IMFCapturePreviewSink::GetRotation (mfcaptureengine.h)
-description: Gets the rotation of the video preview stream.
+description: Gets the rotation of the video preview stream.helpviewer_keywords: ["GetRotation","GetRotation method [Media Foundation]","GetRotation method [Media Foundation]","IMFCapturePreviewSink interface","IMFCapturePreviewSink interface [Media Foundation]","GetRotation method","IMFCapturePreviewSink.GetRotation","IMFCapturePreviewSink::GetRotation","mf.imfcapturepreviewsink_getrotation","mfcaptureengine/IMFCapturePreviewSink::GetRotation"]
 old-location: mf\imfcapturepreviewsink_getrotation.htm
 tech.root: medfound
 ms.assetid: 5C750060-762B-42EE-92AD-8497B83E5D51

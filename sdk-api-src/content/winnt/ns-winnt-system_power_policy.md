@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._SYSTEM_POWER_POLICY
 title: SYSTEM_POWER_POLICY (winnt.h)
-description: Contains information about the current system power policy.
+description: Contains information about the current system power policy.helpviewer_keywords: ["*PSYSTEM_POWER_POLICY","PSYSTEM_POWER_POLICY","PSYSTEM_POWER_POLICY structure pointer","SYSTEM_POWER_POLICY","SYSTEM_POWER_POLICY structure","_SYSTEM_POWER_POLICY","_win32_system_power_policy_str","base.system_power_policy_str","winnt/PSYSTEM_POWER_POLICY","winnt/SYSTEM_POWER_POLICY"]
 old-location: base\system_power_policy_str.htm
 tech.root: power
 ms.assetid: 0e73e94d-e529-46fb-b3e5-a79ba2c05713

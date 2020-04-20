@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxAccountOutgoingArchive.get_SizeLow
 title: IFaxAccountOutgoingArchive::get_SizeLow (faxcomex.h)
-description: Specifies the low-order 32-bit value of the size (in bytes) of the archive of outbound fax messages for a particular fax account.
+description: Specifies the low-order 32-bit value of the size (in bytes) of the archive of outbound fax messages for a particular fax account.helpviewer_keywords: ["IFaxAccountOutgoingArchive interface [Fax Service]","SizeLow property","IFaxAccountOutgoingArchive.SizeLow","IFaxAccountOutgoingArchive.get_SizeLow","IFaxAccountOutgoingArchive::SizeLow","IFaxAccountOutgoingArchive::get_SizeLow","SizeLow property [Fax Service]","SizeLow property [Fax Service]","IFaxAccountOutgoingArchive interface","_mfax_faxaccountoutgoingarchive.sizelow","fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_sizelow_cpp","fax._mfax_faxaccountoutgoingarchive_sizelow","faxcomex/IFaxAccountOutgoingArchive::SizeLow","faxcomex/IFaxAccountOutgoingArchive::get_SizeLow","get_SizeLow"]
 old-location: fax\_mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_sizelow_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchive\sizelow.htm

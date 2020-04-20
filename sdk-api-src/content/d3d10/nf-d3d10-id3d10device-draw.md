@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.Draw
 title: ID3D10Device::Draw (d3d10.h)
-description: Draw non-indexed, non-instanced primitives.
+description: Draw non-indexed, non-instanced primitives.helpviewer_keywords: ["32601c9d-0f76-a5ab-559a-a11064280174","Draw","Draw method [Direct3D 10]","Draw method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","Draw method","ID3D10Device.Draw","ID3D10Device::Draw","d3d10/ID3D10Device::Draw","direct3d10.id3d10device_draw"]
 old-location: direct3d10\id3d10device_draw.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_draw.htm
@@ -70,15 +70,6 @@ Number of vertices to draw.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index of the first vertex, which is usually an offset in a vertex buffer; it could also be used as the first vertex id generated for a shader parameter marked with the <b>SV_TargetId</b> <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">system-value semantic</a>.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

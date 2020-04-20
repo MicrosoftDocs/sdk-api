@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.ICDBurn.Burn
 title: ICDBurn::Burn (shobjidl.h)
-description: Instructs data to be copied from the staging area to a writable CD.
+description: Instructs data to be copied from the staging area to a writable CD.helpviewer_keywords: ["Burn","Burn method [Windows Shell]","Burn method [Windows Shell]","ICDBurn interface","ICDBurn interface [Windows Shell]","Burn method","ICDBurn.Burn","ICDBurn::Burn","_shell_ICDBurn_Burn","shell.ICDBurn_Burn","shobjidl/ICDBurn::Burn"]
 old-location: shell\ICDBurn_Burn.htm
 tech.root: shell
 ms.assetid: e081973a-e923-45de-93ba-3281be73cc93

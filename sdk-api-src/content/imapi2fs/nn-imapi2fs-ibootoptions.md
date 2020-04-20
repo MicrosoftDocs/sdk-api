@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2fs.IBootOptions
 title: IBootOptions (imapi2fs.h)
-description: Use this interface to specify the boot image to add to the optical disc. A boot image contains one or more sectors of code used to start the computer.
+description: Use this interface to specify the boot image to add to the optical disc. A boot image contains one or more sectors of code used to start the computer.helpviewer_keywords: ["IBootOptions","IBootOptions interface [IMAPI]","IBootOptions interface [IMAPI]","described","imapi.ibootoptions","imapi2fs/IBootOptions"]
 old-location: imapi\ibootoptions.htm
 tech.root: imapi
 ms.assetid: 446b535c-d576-4f96-8b74-305e34cb99d4

@@ -1,7 +1,7 @@
 ---
 UID: NF:wlanapi.WlanSetProfile
 title: WlanSetProfile function (wlanapi.h)
-description: Sets the content of a specific profile.
+description: Sets the content of a specific profile.helpviewer_keywords: ["WLAN_PROFILE_GROUP_POLICY","WLAN_PROFILE_USER","WlanSetProfile","WlanSetProfile function [NativeWIFI]","nwifi.wlansetprofile","wlanapi/WlanSetProfile"]
 old-location: nwifi\wlansetprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5

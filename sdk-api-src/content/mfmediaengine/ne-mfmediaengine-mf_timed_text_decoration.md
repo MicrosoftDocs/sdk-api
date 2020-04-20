@@ -1,7 +1,7 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_DECORATION
 title: MF_TIMED_TEXT_DECORATION (mfmediaengine.h)
-description: Specifies how text is decorated (underlined and so on).
+description: Specifies how text is decorated (underlined and so on).helpviewer_keywords: ["MF_TIMED_TEXT_DECORATION","MF_TIMED_TEXT_DECORATION enumeration [Media Foundation]","MF_TIMED_TEXT_DECORATION_LINE_THROUGH","MF_TIMED_TEXT_DECORATION_NONE","MF_TIMED_TEXT_DECORATION_OVERLINE","MF_TIMED_TEXT_DECORATION_UNDERLINE","mf.mf_timed_text_decoration","mfmediaengine/MF_TIMED_TEXT_DECORATION","mfmediaengine/MF_TIMED_TEXT_DECORATION_LINE_THROUGH","mfmediaengine/MF_TIMED_TEXT_DECORATION_NONE","mfmediaengine/MF_TIMED_TEXT_DECORATION_OVERLINE","mfmediaengine/MF_TIMED_TEXT_DECORATION_UNDERLINE"]
 old-location: mf\mf_timed_text_decoration.htm
 tech.root: medfound
 ms.assetid: CA2AFC99-F30F-4AFC-928A-45EA7218B851

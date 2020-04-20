@@ -1,7 +1,7 @@
 ---
 UID: NS:msacm.tACMFORMATCHOOSE
 title: ACMFORMATCHOOSE (msacm.h)
-description: The ACMFORMATCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio format selection dialog box.
+description: The ACMFORMATCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio format selection dialog box.helpviewer_keywords: ["*LPACMFORMATCHOOSE","*PACMFORMATCHOOSE","ACMFORMATCHOOSE","ACMFORMATCHOOSE structure [Windows Multimedia]","ACMFORMATCHOOSE_STYLEF_CONTEXTHELP","ACMFORMATCHOOSE_STYLEF_ENABLEHOOK","ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATE","ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATEHANDLE","ACMFORMATCHOOSE_STYLEF_INITTOWFXSTRUCT","ACMFORMATCHOOSE_STYLEF_SHOWHELP","ACM_FORMATENUMF_CONVERT","ACM_FORMATENUMF_HARDWARE","ACM_FORMATENUMF_INPUT","ACM_FORMATENUMF_NCHANNELS","ACM_FORMATENUMF_NSAMPLESPERSEC","ACM_FORMATENUMF_OUTPUT","ACM_FORMATENUMF_SUGGEST","ACM_FORMATENUMF_WBITSPERSAMPLE","ACM_FORMATENUMF_WFORMATTAG","msacm/ACMFORMATCHOOSE","multimedia.acmformatchoose_struct"]
 old-location: multimedia\acmformatchoose_struct.htm
 tech.root: Multimedia
 ms.assetid: b5e36dbd-9eaf-479a-af4c-ce07e4b6f042

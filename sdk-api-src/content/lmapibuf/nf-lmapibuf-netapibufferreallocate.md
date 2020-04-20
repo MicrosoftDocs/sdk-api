@@ -1,7 +1,7 @@
 ---
 UID: NF:lmapibuf.NetApiBufferReallocate
 title: NetApiBufferReallocate function (lmapibuf.h)
-description: The NetApiBufferReallocate function changes the size of a buffer allocated by a previous call to the NetApiBufferAllocate function.
+description: The NetApiBufferReallocate function changes the size of a buffer allocated by a previous call to the NetApiBufferAllocate function.helpviewer_keywords: ["NetApiBufferReallocate","NetApiBufferReallocate function [Network Management]","_win32_netapibufferreallocate","lmapibuf/NetApiBufferReallocate","netmgmt.netapibufferreallocate"]
 old-location: netmgmt\netapibufferreallocate.htm
 tech.root: NetMgmt
 ms.assetid: 61153de0-33d3-4c83-a8aa-a7179252328c

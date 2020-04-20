@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMMatrixTransform
 title: IXpsOMMatrixTransform (xpsobjectmodel.h)
-description: Specifies an affine matrix transform that can be applied to other objects in the object model.
+description: Specifies an affine matrix transform that can be applied to other objects in the object model.helpviewer_keywords: ["IXpsOMMatrixTransform","IXpsOMMatrixTransform interface [XPS Documents and Packaging]","IXpsOMMatrixTransform interface [XPS Documents and Packaging]","described","xps.ixpsommatrixtransform","xpsobjectmodel/IXpsOMMatrixTransform"]
 old-location: xps\ixpsommatrixtransform.htm
 tech.root: printdocs
 ms.assetid: d21457bc-9445-4ca2-ab9f-1e3f55e2e635

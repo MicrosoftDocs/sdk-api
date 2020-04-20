@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader2.GetCopyOutputLevels
 title: IWMDRMReader2::GetCopyOutputLevels (wmsdkidl.h)
-description: The GetCopyOutputLevels method retrieves the output protection levels (OPLs) that apply to the copy action in the license of the file loaded in the reader.
+description: The GetCopyOutputLevels method retrieves the output protection levels (OPLs) that apply to the copy action in the license of the file loaded in the reader.helpviewer_keywords: ["GetCopyOutputLevels","GetCopyOutputLevels method [windows Media Format]","GetCopyOutputLevels method [windows Media Format]","IWMDRMReader2 interface","IWMDRMReader2 interface [windows Media Format]","GetCopyOutputLevels method","IWMDRMReader2.GetCopyOutputLevels","IWMDRMReader2::GetCopyOutputLevels","IWMDRMReader2GetCopyOutputLevels","wmformat.iwmdrmreader2_getcopyoutputlevels","wmsdkidl/IWMDRMReader2::GetCopyOutputLevels"]
 old-location: wmformat\iwmdrmreader2_getcopyoutputlevels.htm
 tech.root: wmformat
 ms.assetid: 32c8110b-1a96-432d-a82c-5769757dd4f6

@@ -1,7 +1,7 @@
 ---
 UID: NF:dsclient.IDsBrowseDomainTree.SetComputer
 title: IDsBrowseDomainTree::SetComputer (dsclient.h)
-description: Specifies the computer and credentials to be used by this instance of the IDsBrowseDomainTree interface.
+description: Specifies the computer and credentials to be used by this instance of the IDsBrowseDomainTree interface.helpviewer_keywords: ["IDsBrowseDomainTree interface [Active Directory]","SetComputer method","IDsBrowseDomainTree.SetComputer","IDsBrowseDomainTree::SetComputer","SetComputer","SetComputer method [Active Directory]","SetComputer method [Active Directory]","IDsBrowseDomainTree interface","_glines_idsbrowsedomaintree_setcomputer","ad.idsbrowsedomaintree__setcomputer","ad.idsbrowsedomaintree_setcomputer","dsclient/IDsBrowseDomainTree::SetComputer"]
 old-location: ad\idsbrowsedomaintree_setcomputer.htm
 tech.root: ad
 ms.assetid: 1e070673-ce8d-4f68-a066-5baf38180745

@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.RemoveFromConference
 title: ITBasicCallControl::RemoveFromConference (tapi3if.h)
-description: The RemoveFromConference method removes the call from a conference if it is involved in one.
+description: The RemoveFromConference method removes the call from a conference if it is involved in one.helpviewer_keywords: ["ITBasicCallControl interface [TAPI 2.2]","RemoveFromConference method","ITBasicCallControl.RemoveFromConference","ITBasicCallControl::RemoveFromConference","RemoveFromConference","RemoveFromConference method [TAPI 2.2]","RemoveFromConference method [TAPI 2.2]","ITBasicCallControl interface","_tapi3_itbasiccallcontrol_removefromconference","tapi3.itbasiccallcontrol_removefromconference","tapi3if/ITBasicCallControl::RemoveFromConference"]
 old-location: tapi3\itbasiccallcontrol_removefromconference.htm
 tech.root: Tapi
 ms.assetid: c3a357a1-9bfa-4d23-b7d7-e1d9b636e861

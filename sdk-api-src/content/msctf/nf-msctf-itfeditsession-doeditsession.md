@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfEditSession.DoEditSession
 title: ITfEditSession::DoEditSession (msctf.h)
-description: ITfEditSession::DoEditSession method
+description: ITfEditSession::DoEditSession methodhelpviewer_keywords: ["DoEditSession","DoEditSession method [Text Services Framework]","DoEditSession method [Text Services Framework]","ITfEditSession interface","ITfEditSession interface [Text Services Framework]","DoEditSession method","ITfEditSession.DoEditSession","ITfEditSession::DoEditSession","_tsf_itfeditsession_doeditsession_ref","msctf/ITfEditSession::DoEditSession","tsf.itfeditsession_doeditsession"]
 old-location: tsf\itfeditsession_doeditsession.htm
 tech.root: TSF
 ms.assetid: f89b2676-9a69-492f-be8a-96e4436d594c
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to enable a text service to read and/or modify the contents of a context.
 
 ## -parameters
 

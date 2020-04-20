@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11VideoDecoderOutputView
 title: ID3D11VideoDecoderOutputView (d3d11.h)
-description: Identifies the output surfaces that can be accessed during video decoding.
+description: Identifies the output surfaces that can be accessed during video decoding.helpviewer_keywords: ["ID3D11VideoDecoderOutputView","ID3D11VideoDecoderOutputView interface [Media Foundation]","ID3D11VideoDecoderOutputView interface [Media Foundation]","described","d3d11/ID3D11VideoDecoderOutputView","mf.id3d11videodecoderoutputview"]
 old-location: mf\id3d11videodecoderoutputview.htm
 tech.root: medfound
 ms.assetid: 389E0CCC-4DD2-4E82-84D7-3794AEE59208

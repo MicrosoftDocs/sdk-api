@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.FillFromObject
 title: IExplorerBrowser::FillFromObject (shobjidl_core.h)
-description: Creates a results folder and fills it with items.
+description: Creates a results folder and fills it with items.helpviewer_keywords: ["FillFromObject","FillFromObject method [Windows Shell]","FillFromObject method [Windows Shell]","IExplorerBrowser interface","IExplorerBrowser interface [Windows Shell]","FillFromObject method","IExplorerBrowser.FillFromObject","IExplorerBrowser::FillFromObject","_shell_IExplorerBrowser_FillFromObject","shell.IExplorerBrowser_FillFromObject","shobjidl_core/IExplorerBrowser::FillFromObject"]
 old-location: shell\IExplorerBrowser_FillFromObject.htm
 tech.root: shell
 ms.assetid: f978d5d1-a597-4e49-9a2a-de23e99bf65e

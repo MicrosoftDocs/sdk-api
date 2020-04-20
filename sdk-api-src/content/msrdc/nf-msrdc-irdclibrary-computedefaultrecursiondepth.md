@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.IRdcLibrary.ComputeDefaultRecursionDepth
 title: IRdcLibrary::ComputeDefaultRecursionDepth (msrdc.h)
-description: Computes the maximum level of recursion for the specified file size.
+description: Computes the maximum level of recursion for the specified file size.helpviewer_keywords: ["ComputeDefaultRecursionDepth","ComputeDefaultRecursionDepth method [Remote Differential Compression]","ComputeDefaultRecursionDepth method [Remote Differential Compression]","IRdcLibrary interface","IRdcLibrary interface [Remote Differential Compression]","ComputeDefaultRecursionDepth method","IRdcLibrary.ComputeDefaultRecursionDepth","IRdcLibrary::ComputeDefaultRecursionDepth","fs.irdclibrary_computedefaultrecursiondepth","msrdc/IRdcLibrary::ComputeDefaultRecursionDepth","rdc.irdclibrary_computedefaultrecursiondepth"]
 old-location: rdc\irdclibrary_computedefaultrecursiondepth.htm
 tech.root: rdc
 ms.assetid: b42c7b46-9f3c-46d2-a6a7-b5176fc40645

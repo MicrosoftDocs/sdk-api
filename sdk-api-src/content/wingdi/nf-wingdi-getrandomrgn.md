@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetRandomRgn
 title: GetRandomRgn function (wingdi.h)
-description: The GetRandomRgn function copies the system clipping region of a specified device context to a specific region.
+description: The GetRandomRgn function copies the system clipping region of a specified device context to a specific region.helpviewer_keywords: ["GetRandomRgn","GetRandomRgn function [Windows GDI]","_win32_GetRandomRgn","gdi.getrandomrgn","wingdi/GetRandomRgn"]
 old-location: gdi\getrandomrgn.htm
 tech.root: gdi
 ms.assetid: a7527d7a-7b5e-4dd5-9270-94bc92b5a4a0

@@ -1,7 +1,7 @@
 ---
 UID: NN:wsmandisp.IWSManEx2
 title: IWSManEx2 (wsmandisp.h)
-description: Extends the methods and properties of the IWSManEx interface to include a method that returns a session flag value related to authentication using client certificates.
+description: Extends the methods and properties of the IWSManEx interface to include a method that returns a session flag value related to authentication using client certificates.helpviewer_keywords: ["IWSManEx2","IWSManEx2 interface [Windows Remote Management]","IWSManEx2 interface [Windows Remote Management]","described","winrm.iwsmanex2","wsmandisp/IWSManEx2"]
 old-location: winrm\iwsmanex2.htm
 tech.root: winrm
 ms.assetid: 4c398e10-3822-4042-8a43-1d7889ae6cac

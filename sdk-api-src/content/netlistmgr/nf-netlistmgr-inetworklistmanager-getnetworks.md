@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetNetworks
 title: INetworkListManager::GetNetworks (netlistmgr.h)
-description: The GetNetworks method retrieves the list of networks available on the local machine.
+description: The GetNetworks method retrieves the list of networks available on the local machine.helpviewer_keywords: ["GetNetworks","GetNetworks method [Network Awareness]","GetNetworks method [Network Awareness]","INetworkListManager interface","INetworkListManager interface [Network Awareness]","GetNetworks method","INetworkListManager.GetNetworks","INetworkListManager::GetNetworks","netlistmgr/INetworkListManager::GetNetworks","nla.inetworklistmanager_getnetworks"]
 old-location: nla\inetworklistmanager_getnetworks.htm
 tech.root: nla
 ms.assetid: 547ab687-b323-4fd7-8c08-80a79352a626

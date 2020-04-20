@@ -1,7 +1,7 @@
 ---
 UID: NF:lmaccess.NetAccessDel
 title: NetAccessDel function (lmaccess.h)
-description: Not supported.
+description: Not supported.helpviewer_keywords: ["NetAccessDel","NetAccessDel function [Network Management]","_win32_netaccessdel","lmaccess/NetAccessDel","netmgmt.netaccessdel"]
 old-location: netmgmt\netaccessdel.htm
 tech.root: NetMgmt
 ms.assetid: be33d9b4-9740-4ccb-ac95-25ae02edaa42

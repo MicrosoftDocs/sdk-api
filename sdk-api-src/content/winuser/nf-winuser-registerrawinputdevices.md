@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.RegisterRawInputDevices
 title: RegisterRawInputDevices function (winuser.h)
-description: Registers the devices that supply the raw input data.
+description: Registers the devices that supply the raw input data.helpviewer_keywords: ["RegisterRawInputDevices","RegisterRawInputDevices function [Keyboard and Mouse Input]","_win32_RegisterRawInputDevices","_win32_registerrawinputdevices_cpp","inputdev.registerrawinputdevices","winui._win32_registerrawinputdevices","winuser/RegisterRawInputDevices"]
 old-location: inputdev\registerrawinputdevices.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\registerrawinputdevices.htm

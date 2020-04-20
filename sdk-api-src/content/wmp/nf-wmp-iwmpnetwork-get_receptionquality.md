@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_receptionQuality
 title: IWMPNetwork::get_receptionQuality (wmp.h)
-description: The get_receptionQuality method retrieves the percentage of packets received in the last 30 seconds.
+description: The get_receptionQuality method retrieves the percentage of packets received in the last 30 seconds.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_receptionQuality method","IWMPNetwork.get_receptionQuality","IWMPNetwork::get_receptionQuality","IWMPNetworkget_receptionQuality","get_receptionQuality","get_receptionQuality method [Windows Media Player]","get_receptionQuality method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_receptionquality","wmp/IWMPNetwork::get_receptionQuality"]
 old-location: wmp\iwmpnetwork_get_receptionquality.htm
 tech.root: WMP
 ms.assetid: 835f56a4-26d3-480c-bf3e-49c269e9cc5a

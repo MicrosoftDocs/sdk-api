@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10SwitchToRef.SetUseRef
 title: ID3D10SwitchToRef::SetUseRef (d3d10sdklayers.h)
-description: Switch between a hardware and a software device.
+description: Switch between a hardware and a software device.helpviewer_keywords: ["7960e1b8-7255-59bd-3f8f-533b12811a49","ID3D10SwitchToRef interface [Direct3D 10]","SetUseRef method","ID3D10SwitchToRef.SetUseRef","ID3D10SwitchToRef::SetUseRef","SetUseRef","SetUseRef method [Direct3D 10]","SetUseRef method [Direct3D 10]","ID3D10SwitchToRef interface","d3d10sdklayers/ID3D10SwitchToRef::SetUseRef","direct3d10.id3d10switchtoref_setuseref"]
 old-location: direct3d10\id3d10switchtoref_setuseref.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10switchtoref_setuseref.htm

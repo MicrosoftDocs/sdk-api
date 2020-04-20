@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetPointerInputTransform
 title: GetPointerInputTransform function (winuser.h)
-description: Gets one or more transforms for the pointer information coordinates associated with the current message.
+description: Gets one or more transforms for the pointer information coordinates associated with the current message.helpviewer_keywords: ["GetPointerInputTransform","GetPointerInputTransform function [Input Messages and Notifications]","inputmsg.getpointerinputtransform","winuser/GetPointerInputTransform"]
 old-location: inputmsg\getpointerinputtransform.htm
 tech.root: InputMsg
 ms.assetid: 9F10ED61-90E3-441B-8F4D-E33DA54D473C
@@ -14,8 +14,8 @@ dev_langs:
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

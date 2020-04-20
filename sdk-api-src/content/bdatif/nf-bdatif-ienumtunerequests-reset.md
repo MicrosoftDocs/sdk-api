@@ -1,7 +1,7 @@
 ---
 UID: NF:bdatif.IEnumTuneRequests.Reset
 title: IEnumTuneRequests::Reset (bdatif.h)
-description: The Reset method sets the enumerator to the first item in the collection.
+description: The Reset method sets the enumerator to the first item in the collection.helpviewer_keywords: ["IEnumTuneRequests interface [Microsoft TV Technologies]","Reset method","IEnumTuneRequests.Reset","IEnumTuneRequests::Reset","IEnumTuneRequestsReset","Reset","Reset method [Microsoft TV Technologies]","Reset method [Microsoft TV Technologies]","IEnumTuneRequests interface","bdatif/IEnumTuneRequests::Reset","mstv.ienumtunerequests_reset"]
 old-location: mstv\ienumtunerequests_reset.htm
 tech.root: mstv
 ms.assetid: bb06a6b3-83a6-4deb-8394-1c17cf97c1b2

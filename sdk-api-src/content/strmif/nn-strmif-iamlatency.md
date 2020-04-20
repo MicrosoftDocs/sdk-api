@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IAMLatency
 title: IAMLatency (strmif.h)
-description: The IAMLatency interface reports the amount of latency that a filter introduces into the graph.
+description: The IAMLatency interface reports the amount of latency that a filter introduces into the graph.helpviewer_keywords: ["IAMLatency","IAMLatency interface [DirectShow]","IAMLatency interface [DirectShow]","described","IAMLatencyInterface","dshow.iamlatency","strmif/IAMLatency"]
 old-location: dshow\iamlatency.htm
 tech.root: DirectShow
 ms.assetid: 83384ef6-40d6-4d37-866d-6059dc5d7542

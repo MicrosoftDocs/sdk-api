@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.SetAt
 title: IXpsOMColorProfileResourceCollection::SetAt (xpsobjectmodel.h)
-description: Replaces an IXpsOMColorProfileResource interface pointer at a specified location in the collection.
+description: Replaces an IXpsOMColorProfileResource interface pointer at a specified location in the collection.helpviewer_keywords: ["IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging]","SetAt method","IXpsOMColorProfileResourceCollection.SetAt","IXpsOMColorProfileResourceCollection::SetAt","SetAt","SetAt method [XPS Documents and Packaging]","SetAt method [XPS Documents and Packaging]","IXpsOMColorProfileResourceCollection interface","xps.ixpsomcolorprofileresourcecollection_setat","xpsobjectmodel/IXpsOMColorProfileResourceCollection::SetAt"]
 old-location: xps\ixpsomcolorprofileresourcecollection_setat.htm
 tech.root: printdocs
 ms.assetid: dbabddbb-a558-4166-9951-7126221d88e6

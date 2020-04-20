@@ -1,7 +1,7 @@
 ---
 UID: NN:mstask.ITaskTrigger
 title: ITaskTrigger (mstask.h)
-description: Provides the methods for accessing and setting triggers for a task. Triggers specify task start times, repetition criteria, and other parameters that control when a task is run.
+description: Provides the methods for accessing and setting triggers for a task. Triggers specify task start times, repetition criteria, and other parameters that control when a task is run.helpviewer_keywords: ["ITaskTrigger","ITaskTrigger interface [Task Scheduler]","ITaskTrigger interface [Task Scheduler]","described","_msb_itasktrigger","mstask/ITaskTrigger","taskschd.itasktrigger","triggers [Task Scheduler]","interfaces","ITaskTrigger (obsolete)"]
 old-location: taskschd\itasktrigger.htm
 tech.root: taskschd
 ms.assetid: 990702f4-fb6f-47a7-b538-f6632f831a4e

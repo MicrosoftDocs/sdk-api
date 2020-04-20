@@ -1,7 +1,7 @@
 ---
 UID: NC:winnt.PTP_CLEANUP_GROUP_CANCEL_CALLBACK
 title: PTP_CLEANUP_GROUP_CANCEL_CALLBACK (winnt.h)
-description: Applications implement this callback if they call the SetThreadpoolCallbackCleanupGroup function to specify the callback to use when CloseThreadpoolCleanupGroup is called.
+description: Applications implement this callback if they call the SetThreadpoolCallbackCleanupGroup function to specify the callback to use when CloseThreadpoolCleanupGroup is called.helpviewer_keywords: ["PTP_CLEANUP_GROUP_CANCEL_CALLBACK","PTP_CLEANUP_GROUP_CANCEL_CALLBACK callback","PTP_CLEANUP_GROUP_CANCEL_CALLBACK callback function","base.cleanupgroupcancelcallback","winnt/PTP_CLEANUP_GROUP_CANCEL_CALLBACK"]
 old-location: base\cleanupgroupcancelcallback.htm
 tech.root: ProcThread
 ms.assetid: 5704b0df-a868-40f0-9bcf-41274facb0b5
@@ -67,15 +67,6 @@ Optional application-defined data specified during creation of the object.
 ### -param CleanupContext [in, out, optional]
 
 Optional application-defined data specified using <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroupmembers">CloseThreadpoolCleanupGroupMembers</a>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

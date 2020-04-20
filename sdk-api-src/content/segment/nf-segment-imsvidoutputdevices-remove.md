@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidOutputDevices.Remove
 title: IMSVidOutputDevices::Remove (segment.h)
-description: The Remove method removes an item from the collection.
+description: The Remove method removes an item from the collection.helpviewer_keywords: ["IMSVidOutputDevices interface [Microsoft TV Technologies]","Remove method","IMSVidOutputDevices.Remove","IMSVidOutputDevices::Remove","IMSVidOutputDevicesRemove","Remove","Remove method [Microsoft TV Technologies]","Remove method [Microsoft TV Technologies]","IMSVidOutputDevices interface","mstv.imsvidoutputdevices_remove","segment/IMSVidOutputDevices::Remove"]
 old-location: mstv\imsvidoutputdevices_remove.htm
 tech.root: mstv
 ms.assetid: 40c4bc6b-091b-44b5-a313-5db20842adcf

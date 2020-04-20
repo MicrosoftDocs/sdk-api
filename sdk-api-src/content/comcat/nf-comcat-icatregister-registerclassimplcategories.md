@@ -1,7 +1,7 @@
 ---
 UID: NF:comcat.ICatRegister.RegisterClassImplCategories
 title: ICatRegister::RegisterClassImplCategories (comcat.h)
-description: Registers the class as implementing one or more component categories.
+description: Registers the class as implementing one or more component categories.helpviewer_keywords: ["ICatRegister interface [COM]","RegisterClassImplCategories method","ICatRegister.RegisterClassImplCategories","ICatRegister::RegisterClassImplCategories","RegisterClassImplCategories","RegisterClassImplCategories method [COM]","RegisterClassImplCategories method [COM]","ICatRegister interface","_com_icatregister_registerclassimplcategories","com.icatregister_registerclassimplcategories","comcat/ICatRegister::RegisterClassImplCategories"]
 old-location: com\icatregister_registerclassimplcategories.htm
 tech.root: com
 ms.assetid: c293038f-4dbf-40af-9237-c9bb59c84252

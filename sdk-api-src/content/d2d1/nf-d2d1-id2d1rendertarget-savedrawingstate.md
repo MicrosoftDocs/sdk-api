@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.SaveDrawingState
 title: ID2D1RenderTarget::SaveDrawingState (d2d1.h)
-description: Saves the current drawing state to the specified ID2D1DrawingStateBlock.
+description: Saves the current drawing state to the specified ID2D1DrawingStateBlock.helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","SaveDrawingState method","ID2D1RenderTarget.SaveDrawingState","ID2D1RenderTarget::SaveDrawingState","SaveDrawingState","SaveDrawingState method [Direct2D]","SaveDrawingState method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::SaveDrawingState","direct2d.ID2D1RenderTarget_SaveDrawingState"]
 old-location: direct2d\ID2D1RenderTarget_SaveDrawingState.htm
 tech.root: Direct2D
 ms.assetid: 8658cdbf-979c-41e2-b180-eb21ad6b63c7
@@ -62,15 +62,6 @@ Saves the current drawing state to the specified <a href="https://docs.microsoft
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>*</b>
 
 When this method returns, contains the current drawing state of the render target. This parameter must be initialized before passing it to the method.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

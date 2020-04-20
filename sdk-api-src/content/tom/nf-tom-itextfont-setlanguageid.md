@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.SetLanguageID
 title: ITextFont::SetLanguageID (tom.h)
-description: Sets the language ID or language code identifier (LCID).
+description: Sets the language ID or language code identifier (LCID).helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetLanguageID method","ITextFont.SetLanguageID","ITextFont::SetLanguageID","SetLanguageID","SetLanguageID method [Windows Controls]","SetLanguageID method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetLanguageID","_win32_ITextFont_SetLanguageID_cpp","controls.ITextFont_SetLanguageID","controls._win32_ITextFont_SetLanguageID","tom/ITextFont::SetLanguageID"]
 old-location: controls\ITextFont_SetLanguageID.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlanguageid.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetHierarchyInformation
 title: IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetHierarchyInformation","GetHierarchyInformation method [Microsoft TV Technologies]","GetHierarchyInformation method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetHierarchyInformation method","IDvbTerrestrialDeliverySystemDescriptor.GetHierarchyInformation","IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation","IDvbTerrestrialDeliverySystemDescriptorGetHierarchyInformation","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation","mstv.idvbterrestrialdeliverysystemdescriptor_gethierarchyinformation"]
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_gethierarchyinformation.htm
 tech.root: mstv
 ms.assetid: 8ad35924-b6e0-47b1-9873-14bf48574669

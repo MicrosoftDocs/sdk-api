@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchRemoveFileSpec
 title: PathCchRemoveFileSpec function (pathcch.h)
-description: Removes the last element in a path string, whether that element is a file name or a directory name.
+description: Removes the last element in a path string, whether that element is a file name or a directory name.helpviewer_keywords: ["PathCchRemoveFileSpec","PathCchRemoveFileSpec function [Windows Shell]","pathcch/PathCchRemoveFileSpec","shell.PathCchRemoveFileSpec"]
 old-location: shell\PathCchRemoveFileSpec.htm
 tech.root: shell
 ms.assetid: c37aeddc-ed24-4828-b92b-bce0e6384726
@@ -50,18 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Removes the last element in a path string, whether that element is a file name or a directory name. The element's leading backslash is also removed.
 
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremovefilespeca">PathRemoveFileSpec</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
+<div class="alert"><b>Note</b>This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremovefilespeca">PathRemoveFileSpec</a> to prevent the possibility of a buffer overrun.</div>
 
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremovefilespeca">PathRemoveFileSpec</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
-
-
 
 
 ### -param pszPath [in, out]
@@ -76,20 +72,12 @@ The size of the buffer pointed to by <i>pszPath</i>, in characters.
 
 ## -returns
 
-
-
-This function returns S_OK if the function was successful, S_FALSE if there was nothing to remove, or an error code otherwise.
-
-
+This function returns <b>S_OK</b> if the function was successful, <b>S_FALSE</b> if there was nothing to remove, or an error code otherwise.
 
 
 ## -remarks
 
-
-
 The following table shows the effect of this function on a selection of path strings.
-            
-                
 
 <table class="clsStd">
 <tr>
@@ -118,6 +106,3 @@ The following table shows the effect of this function on a selection of path str
 </tr>
 </table>
  
-
-
-

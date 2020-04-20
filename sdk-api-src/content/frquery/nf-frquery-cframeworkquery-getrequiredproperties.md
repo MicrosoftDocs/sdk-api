@@ -1,7 +1,7 @@
 ---
 UID: NF:frquery.CFrameworkQuery.GetRequiredProperties
 title: CFrameworkQuery::GetRequiredProperties (frquery.h)
-description: The GetRequiredProperties method returns a list of all of the properties specified in the SELECT statement of a query. It returns the properties from both the SELECT and WHERE clauses.
+description: The GetRequiredProperties method returns a list of all of the properties specified in the SELECT statement of a query. It returns the properties from both the SELECT and WHERE clauses.helpviewer_keywords: ["CFrameworkQuery interface [Windows Management Instrumentation]","GetRequiredProperties method","CFrameworkQuery.GetRequiredProperties","CFrameworkQuery::GetRequiredProperties","GetRequiredProperties","GetRequiredProperties method [Windows Management Instrumentation]","GetRequiredProperties method [Windows Management Instrumentation]","CFrameworkQuery interface","_hmm_cframeworkquery_getrequiredproperties","frquery/CFrameworkQuery::GetRequiredProperties","wmi.cframeworkquery_getrequiredproperties"]
 old-location: wmi\cframeworkquery_getrequiredproperties.htm
 tech.root: WmiSdk
 ms.assetid: cf02aa01-6d56-4fd7-b8f2-67b0c855e807
@@ -67,15 +67,6 @@ The <b>GetRequiredProperties</b> method returns a list of all of the properties 
 ### -param saProperties
 
 Array of properties that were included in the query's <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/select-statement-for-data-queries">SELECT statement</a>.
-
-
-## -returns
-
-
-
-This method has no return values.
-
-
 
 
 ## -remarks

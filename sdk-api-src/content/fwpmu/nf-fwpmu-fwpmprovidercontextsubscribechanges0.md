@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextSubscribeChanges0
 title: FwpmProviderContextSubscribeChanges0 function (fwpmu.h)
-description: Is used to request the delivery of notifications regarding changes in a particular provider context.
+description: Is used to request the delivery of notifications regarding changes in a particular provider context.helpviewer_keywords: ["FwpmProviderContextSubscribeChanges0","FwpmProviderContextSubscribeChanges0 function [Filtering]","fwp.fwpmprovidercontextsubscribechanges0_func","fwpmu/FwpmProviderContextSubscribeChanges0"]
 old-location: fwp\fwpmprovidercontextsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: cd8c9ec5-c93c-45e5-8a91-88bd89e465d7

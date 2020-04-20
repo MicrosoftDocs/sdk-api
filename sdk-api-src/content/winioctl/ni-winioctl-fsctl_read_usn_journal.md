@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_READ_USN_JOURNAL
 title: FSCTL_READ_USN_JOURNAL
-description: Retrieves the set of update sequence number (USN) change journal records between two specified USN values.
+description: Retrieves the set of update sequence number (USN) change journal records between two specified USN values.helpviewer_keywords: ["FSCTL_READ_USN_JOURNAL","FSCTL_READ_USN_JOURNAL control","FSCTL_READ_USN_JOURNAL control code [Files]","_win32_fsctl_read_usn_journal","base.fsctl_read_usn_journal","fs.fsctl_read_usn_journal","winioctl/FSCTL_READ_USN_JOURNAL"]
 old-location: fs\fsctl_read_usn_journal.htm
 tech.root: FileIO
 ms.assetid: 205de464-7e96-477b-9115-e819719b160e

@@ -1,7 +1,7 @@
 ---
 UID: NS:imepad.tagAPPLETIDLIST
 title: APPLETIDLIST (imepad.h)
-description: Specifies an IImePadApplet IID list.
+description: Specifies an IImePadApplet IID list.helpviewer_keywords: ["*LPAPPLETIDLIST","APPLETIDLIST","APPLETIDLIST structure [Internationalization for Windows Applications]","PAPPLETIDLIST","PAPPLETIDLIST structure pointer [Internationalization for Windows Applications]","imepad/APPLETIDLIST","imepad/PAPPLETIDLIST","intl.appletidlist"]
 old-location: intl\appletidlist.htm
 tech.root: Intl
 ms.assetid: 6A93B726-1C35-4779-AF60-859DF3B18462

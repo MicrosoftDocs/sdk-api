@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManCloseCommand
 title: WSManCloseCommand function (wsman.h)
-description: Deletes a command and frees the resources that are associated with it.
+description: Deletes a command and frees the resources that are associated with it.helpviewer_keywords: ["WSManCloseCommand","WSManCloseCommand function [Windows Remote Management]","winrm.wsmanclosecommand","wsman/WSManCloseCommand"]
 old-location: winrm\wsmanclosecommand.htm
 tech.root: winrm
 ms.assetid: 41ef2a6d-af1a-4a51-b01d-262380f01187
@@ -71,13 +71,5 @@ Must be set to zero.
 ### -param async [in]
 
 Defines an asynchronous structure. The asynchronous structure contains an optional user context and a mandatory callback function. See the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_shell_async">WSMAN_SHELL_ASYNC</a> structure for more information.  This parameter cannot be <b>NULL</b>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

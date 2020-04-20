@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.GetFarmProperty
 title: ITsSbGlobalStore::GetFarmProperty (sbtsv.h)
-description: Retrieves a property of a farm.
+description: Retrieves a property of a farm.helpviewer_keywords: ["GetFarmProperty","GetFarmProperty method [Remote Desktop Services]","GetFarmProperty method [Remote Desktop Services]","ITsSbGlobalStore interface","ITsSbGlobalStore interface [Remote Desktop Services]","GetFarmProperty method","ITsSbGlobalStore.GetFarmProperty","ITsSbGlobalStore::GetFarmProperty","sbtsv/ITsSbGlobalStore::GetFarmProperty","termserv.itssbglobalstore_getfarmproperty"]
 old-location: termserv\itssbglobalstore_getfarmproperty.htm
 tech.root: TermServ
 ms.assetid: 14b9ca43-735d-43d1-bda5-d84cc9a7761a

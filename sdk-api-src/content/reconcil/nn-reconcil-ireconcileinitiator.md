@@ -1,7 +1,7 @@
 ---
 UID: NN:reconcil.IReconcileInitiator
 title: IReconcileInitiator (reconcil.h)
-description: Exposes methods that provide the briefcase reconciler with the means to notify the initiator of its progress, to set a termination object, and to request a given version of a document. The initiator is responsible for implementing this interface.
+description: Exposes methods that provide the briefcase reconciler with the means to notify the initiator of its progress, to set a termination object, and to request a given version of a document. The initiator is responsible for implementing this interface.helpviewer_keywords: ["IReconcileInitiator","IReconcileInitiator interface [Legacy Windows Environment Features]","IReconcileInitiator interface [Legacy Windows Environment Features]","described","_win32_IReconcileInitiator","lwef.ireconcileinitiator","reconcil/IReconcileInitiator","shell.ireconcileinitiator"]
 old-location: lwef\ireconcileinitiator.htm
 tech.root: lwef
 ms.assetid: 1a32d67f-1ddc-49dc-af88-b8c41a50ac54

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.GetValue
 title: IDataCollectorSet::GetValue (pla.h)
-description: Retrieves a user-defined value.
+description: Retrieves a user-defined value.helpviewer_keywords: ["GetValue","GetValue method [PLA]","GetValue method [PLA]","IDataCollectorSet interface","IDataCollectorSet interface [PLA]","GetValue method","IDataCollectorSet.GetValue","IDataCollectorSet::GetValue","base.idatacollectorset_getvalue","pla.idatacollectorset_getvalue","pla/IDataCollectorSet::GetValue"]
 old-location: pla\idatacollectorset_getvalue.htm
 tech.root: PLA
 ms.assetid: 0f82e154-7d3f-44c9-8bdd-cc1522499e85

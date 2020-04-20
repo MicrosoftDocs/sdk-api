@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_FindAttribute
 title: TextRange_FindAttribute function (uiautomationcoreapi.h)
-description: Searches in a specified direction for the first piece of text supporting a specified text attribute.
+description: Searches in a specified direction for the first piece of text supporting a specified text attribute.helpviewer_keywords: ["TextRange_FindAttribute","TextRange_FindAttribute function [Windows Accessibility]","uiauto.uiauto_TextRange_FindAttributeConPat","uiauto_TextRange_FindAttributeConPat","uiautomationcoreapi/TextRange_FindAttribute","winauto.uiauto_TextRange_FindAttributeConPat"]
 old-location: winauto\uiauto_TextRange_FindAttributeConPat.htm
 tech.root: WinAuto
 ms.assetid: b5fac0d6-77d7-4fbf-a1b0-4ae0effbd23a

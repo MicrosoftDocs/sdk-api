@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgPointCollection
 title: ID2D1SvgPointCollection (d2d1svg.h)
-description: Interface describing an SVG points value in a polyline or polygon element.
+description: Interface describing an SVG points value in a polyline or polygon element.helpviewer_keywords: ["ID2D1SvgPointCollection","ID2D1SvgPointCollection interface [Direct2D]","ID2D1SvgPointCollection interface [Direct2D]","described","d2d1svg/ID2D1SvgPointCollection","direct2d.id2d1svgpointcollection"]
 old-location: direct2d\id2d1svgpointcollection.htm
 tech.root: Direct2D
 ms.assetid: 6033F923-35E1-400F-965F-2FBED95B260A

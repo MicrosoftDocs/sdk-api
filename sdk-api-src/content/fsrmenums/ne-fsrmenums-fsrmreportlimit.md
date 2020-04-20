@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._FsrmReportLimit
 title: FsrmReportLimit (fsrmenums.h)
-description: Defines the limit used to limit the files included in a report.
+description: Defines the limit used to limit the files included in a report.helpviewer_keywords: ["FsrmReportLimit","FsrmReportLimit enumeration [File Server Resource Manager]","FsrmReportLimit_MaxDuplicateGroups","FsrmReportLimit_MaxFileGroups","FsrmReportLimit_MaxFileScreenEvents","FsrmReportLimit_MaxFiles","FsrmReportLimit_MaxFilesPerDuplGroup","FsrmReportLimit_MaxFilesPerFileGroup","FsrmReportLimit_MaxFilesPerOwner","FsrmReportLimit_MaxFilesPerPropertyValue","FsrmReportLimit_MaxFolders","FsrmReportLimit_MaxOwners","FsrmReportLimit_MaxPropertyValues","FsrmReportLimit_MaxQuotas","fs.fsrmreportlimit","fsrm.fsrmreportlimit","fsrmenums/FsrmReportLimit","fsrmenums/FsrmReportLimit_MaxDuplicateGroups","fsrmenums/FsrmReportLimit_MaxFileGroups","fsrmenums/FsrmReportLimit_MaxFileScreenEvents","fsrmenums/FsrmReportLimit_MaxFiles","fsrmenums/FsrmReportLimit_MaxFilesPerDuplGroup","fsrmenums/FsrmReportLimit_MaxFilesPerFileGroup","fsrmenums/FsrmReportLimit_MaxFilesPerOwner","fsrmenums/FsrmReportLimit_MaxFilesPerPropertyValue","fsrmenums/FsrmReportLimit_MaxFolders","fsrmenums/FsrmReportLimit_MaxOwners","fsrmenums/FsrmReportLimit_MaxPropertyValues","fsrmenums/FsrmReportLimit_MaxQuotas"]
 old-location: fsrm\fsrmreportlimit.htm
 tech.root: fsrm
 ms.assetid: 225c583c-679c-43b4-85f4-3f2294fa7bc3

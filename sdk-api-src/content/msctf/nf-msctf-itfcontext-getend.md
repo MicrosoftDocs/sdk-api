@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.GetEnd
 title: ITfContext::GetEnd (msctf.h)
-description: ITfContext::GetEnd method
+description: ITfContext::GetEnd methodhelpviewer_keywords: ["GetEnd","GetEnd method [Text Services Framework]","GetEnd method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetEnd method","ITfContext.GetEnd","ITfContext::GetEnd","_tsf_itfcontext_getend_ref","msctf/ITfContext::GetEnd","tsf.itfcontext_getend"]
 old-location: tsf\itfcontext_getend.htm
 tech.root: TSF
 ms.assetid: 4fdae76d-ad02-43a4-8a39-418cae847ae8
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a range of text positioned at the end of the document.
 
 ## -parameters
 
@@ -162,21 +161,4 @@ An unspecified error occurred.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md)

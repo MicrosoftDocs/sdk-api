@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1_
 title: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1 (ipsectypes.h)
-description: Stores aggregate IPsec kernel packet drop statistics.
+description: Stores aggregate IPsec kernel packet drop statistics.helpviewer_keywords: ["IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1","IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1 structure [Filtering]","fwp.ipsec_aggregate_drop_packet_statistics1_struct","ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0"]
 old-location: fwp\ipsec_aggregate_drop_packet_statistics1_struct.htm
 tech.root: fwp
 ms.assetid: 8ee7150e-ac6e-4f8e-99af-1b92b4e54615

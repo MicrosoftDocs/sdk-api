@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.GetStart
 title: ITfContext::GetStart (msctf.h)
-description: ITfContext::GetStart method
+description: ITfContext::GetStart methodhelpviewer_keywords: ["GetStart","GetStart method [Text Services Framework]","GetStart method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetStart method","ITfContext.GetStart","ITfContext::GetStart","_tsf_itfcontext_getstart_ref","msctf/ITfContext::GetStart","tsf.itfcontext_getstart"]
 old-location: tsf\itfcontext_getstart.htm
 tech.root: TSF
 ms.assetid: 3108da05-c38f-4f0c-a16a-1f7e5f05d475
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a range of text positioned at the beginning of the document.
 
 ## -parameters
 
@@ -162,21 +161,4 @@ An unspecified error occurred.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md)

@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.TabCtrl_GetItemCount
 title: TabCtrl_GetItemCount macro (commctrl.h)
-description: Retrieves the number of tabs in the tab control. You can use this macro or send the TCM_GETITEMCOUNT message explicitly.
+description: Retrieves the number of tabs in the tab control. You can use this macro or send the TCM_GETITEMCOUNT message explicitly.helpviewer_keywords: ["TabCtrl_GetItemCount","TabCtrl_GetItemCount macro [Windows Controls]","_win32_TabCtrl_GetItemCount","_win32_TabCtrl_GetItemCount_cpp","commctrl/TabCtrl_GetItemCount","controls.TabCtrl_GetItemCount","controls._win32_TabCtrl_GetItemCount"]
 old-location: controls\TabCtrl_GetItemCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitemcount.htm

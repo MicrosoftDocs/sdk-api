@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.GetDocumentMgr
 title: ITfContext::GetDocumentMgr (msctf.h)
-description: ITfContext::GetDocumentMgr method
+description: ITfContext::GetDocumentMgr methodhelpviewer_keywords: ["GetDocumentMgr","GetDocumentMgr method [Text Services Framework]","GetDocumentMgr method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetDocumentMgr method","ITfContext.GetDocumentMgr","ITfContext::GetDocumentMgr","_tsf_itfcontext_getdocumentmgr_ref","msctf/ITfContext::GetDocumentMgr","tsf.itfcontext_getdocumentmgr"]
 old-location: tsf\itfcontext_getdocumentmgr.htm
 tech.root: TSF
 ms.assetid: 21fa683d-c386-4aa2-8bc5-d5170443c5cd
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the document manager that contains the context.
 
 ## -parameters
 
@@ -122,21 +121,4 @@ If the context is not contained within a document manager, this method returns S
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">ITfDocumentMgr::Pop
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md), [ITfDocumentMgr::Pop](nf-msctf-itfdocumentmgr-pop.md)

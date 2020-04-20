@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetListKeyInformation
 title: ISettingsItem::GetListKeyInformation (wcmconfig.h)
-description: Gets the list information for this item.
+description: Gets the list information for this item.helpviewer_keywords: ["GetListKeyInformation","GetListKeyInformation method [SMI]","GetListKeyInformation method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetListKeyInformation method","ISettingsItem.GetListKeyInformation","ISettingsItem::GetListKeyInformation","smi.isettingsitem_getlistkeyinformation","wcmconfig/ISettingsItem::GetListKeyInformation"]
 old-location: smi\isettingsitem_getlistkeyinformation.htm
 tech.root: SMI
 ms.assetid: 34ee8457-34d1-4eff-813b-f59c35c4aa95

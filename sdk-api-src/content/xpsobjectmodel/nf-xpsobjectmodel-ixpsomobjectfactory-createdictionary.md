@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateDictionary
 title: IXpsOMObjectFactory::CreateDictionary (xpsobjectmodel.h)
-description: Creates an IXpsOMDictionary interface, which enables the sharing of property resources.
+description: Creates an IXpsOMDictionary interface, which enables the sharing of property resources.helpviewer_keywords: ["CreateDictionary","CreateDictionary method [XPS Documents and Packaging]","CreateDictionary method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateDictionary method","IXpsOMObjectFactory.CreateDictionary","IXpsOMObjectFactory::CreateDictionary","xps.ixpsomobjectfactory_createdictionary","xpsobjectmodel/IXpsOMObjectFactory::CreateDictionary"]
 old-location: xps\ixpsomobjectfactory_createdictionary.htm
 tech.root: printdocs
 ms.assetid: d0a26f36-b25d-4ab6-9779-88d01d59e41c

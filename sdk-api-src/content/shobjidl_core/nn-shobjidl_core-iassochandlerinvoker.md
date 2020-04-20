@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IAssocHandlerInvoker
 title: IAssocHandlerInvoker (shobjidl_core.h)
-description: Exposes methods that invoke an associated application handler.
+description: Exposes methods that invoke an associated application handler.helpviewer_keywords: ["IAssocHandlerInvoker","IAssocHandlerInvoker interface [Windows Shell]","IAssocHandlerInvoker interface [Windows Shell]","described","_shell_IAssocHandlerInvoker","shell.IAssocHandlerInvoker","shobjidl_core/IAssocHandlerInvoker"]
 old-location: shell\IAssocHandlerInvoker.htm
 tech.root: shell
 ms.assetid: b602280e-4237-4539-9a10-cec21c65e90d

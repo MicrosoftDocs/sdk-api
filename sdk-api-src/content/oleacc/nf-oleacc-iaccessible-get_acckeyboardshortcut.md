@@ -1,7 +1,7 @@
 ---
 UID: NF:oleacc.IAccessible.get_accKeyboardShortcut
 title: IAccessible::get_accKeyboardShortcut (oleacc.h)
-description: The IAccessible::get_accKeyboardShortcut method retrieves the specified object's shortcut key or access key, also known as the mnemonic. All objects that have a shortcut key or an access key support this property.
+description: The IAccessible::get_accKeyboardShortcut method retrieves the specified object's shortcut key or access key, also known as the mnemonic. All objects that have a shortcut key or an access key support this property.helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","get_accKeyboardShortcut method","IAccessible.get_accKeyboardShortcut","IAccessible::get_accKeyboardShortcut","_msaa_IAccessible_get_accKeyboardShortcut","get_accKeyboardShortcut","get_accKeyboardShortcut method [Windows Accessibility]","get_accKeyboardShortcut method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__get_acckeyboardshortcut","oleacc/IAccessible::get_accKeyboardShortcut","winauto.iaccessible_iaccessible__get_acckeyboardshortcut"]
 old-location: winauto\iaccessible_iaccessible__get_acckeyboardshortcut.htm
 tech.root: WinAuto
 ms.assetid: 0d91c791-1e9b-45da-8fa6-b879ac6d11a7

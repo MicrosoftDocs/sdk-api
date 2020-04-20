@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.DateTime_GetMonthCalColor
 title: DateTime_GetMonthCalColor macro (commctrl.h)
-description: Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the DTM_GETMCCOLOR message explicitly.
+description: Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the DTM_GETMCCOLOR message explicitly.helpviewer_keywords: ["DateTime_GetMonthCalColor","DateTime_GetMonthCalColor macro [Windows Controls]","MCSC_BACKGROUND","MCSC_MONTHBK","MCSC_TEXT","MCSC_TITLEBK","MCSC_TITLETEXT","MCSC_TRAILINGTEXT","_win32_DateTime_GetMonthCalColor","_win32_DateTime_GetMonthCalColor_cpp","commctrl/DateTime_GetMonthCalColor","controls.DateTime_GetMonthCalColor","controls._win32_DateTime_GetMonthCalColor"]
 old-location: controls\DateTime_GetMonthCalColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalcolor.htm

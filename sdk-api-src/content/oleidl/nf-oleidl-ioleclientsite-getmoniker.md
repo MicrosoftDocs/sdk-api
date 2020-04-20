@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleClientSite.GetMoniker
 title: IOleClientSite::GetMoniker (oleidl.h)
-description: Retrieves a moniker for the object's client site. An object can force the assignment of its own or its container's moniker by specifying a value for dwAssign.
+description: Retrieves a moniker for the object's client site. An object can force the assignment of its own or its container's moniker by specifying a value for dwAssign.helpviewer_keywords: ["GetMoniker","GetMoniker method [COM]","GetMoniker method [COM]","IOleClientSite interface","IOleClientSite interface [COM]","GetMoniker method","IOleClientSite.GetMoniker","IOleClientSite::GetMoniker","_ole_ioleclientsite_getmoniker","com.ioleclientsite_getmoniker","oleidl/IOleClientSite::GetMoniker"]
 old-location: com\ioleclientsite_getmoniker.htm
 tech.root: com
 ms.assetid: 9ca3e997-9a96-43c3-a213-de8c8440cd54

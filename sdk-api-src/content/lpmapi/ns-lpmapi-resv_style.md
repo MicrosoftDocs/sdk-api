@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_5
 title: RESV_STYLE (lpmapi.h)
-description: The RESV_STYLE structure contains information about RSVP RESV style.
+description: The RESV_STYLE structure contains information about RSVP RESV style.helpviewer_keywords: ["RESV_STYLE","RESV_STYLE structure [QOS]","STYLE_FF","STYLE_SE","STYLE_WF","lpmapi/RESV_STYLE","qos.resv_style"]
 old-location: qos\resv_style.htm
 tech.root: QOS
 ms.assetid: facc4217-1e6f-44af-bc04-84993f2dfeec

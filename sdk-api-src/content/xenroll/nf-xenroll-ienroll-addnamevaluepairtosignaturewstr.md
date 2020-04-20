@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.AddNameValuePairToSignatureWStr
 title: IEnroll::AddNameValuePairToSignatureWStr (xenroll.h)
-description: Adds the authenticated name-value pair of an attribute to the request. The certification authority (CA) interprets the meaning of the name-value pair.
+description: Adds the authenticated name-value pair of an attribute to the request. The certification authority (CA) interprets the meaning of the name-value pair.helpviewer_keywords: ["AddNameValuePairToSignatureWStr","AddNameValuePairToSignatureWStr method [Security]","AddNameValuePairToSignatureWStr method [Security]","IEnroll interface","AddNameValuePairToSignatureWStr method [Security]","IEnroll4 interface","IEnroll interface [Security]","AddNameValuePairToSignatureWStr method","IEnroll.AddNameValuePairToSignatureWStr","IEnroll4 interface [Security]","AddNameValuePairToSignatureWStr method","IEnroll4::AddNameValuePairToSignatureWStr","IEnroll::AddNameValuePairToSignatureWStr","security.ienroll4_addnamevaluepairtosignaturewstr","xenroll/IEnroll4::AddNameValuePairToSignatureWStr","xenroll/IEnroll::AddNameValuePairToSignatureWStr"]
 old-location: security\ienroll4_addnamevaluepairtosignaturewstr.htm
 tech.root: SecCrypto
 ms.assetid: 8ccc0bdf-01db-4863-aaaf-94910bfa0b8b

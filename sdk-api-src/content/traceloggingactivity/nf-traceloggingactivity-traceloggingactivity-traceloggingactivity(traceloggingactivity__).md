@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingActivity.TraceLoggingActivity(TraceLoggingActivity &&)
 title: TraceLoggingActivity::TraceLoggingActivity(TraceLoggingActivity &&) (traceloggingactivity.h)
-description: Creates a new TraceLoggingActivity object.
+description: Creates a new TraceLoggingActivity object.helpviewer_keywords: ["TraceLoggingActivity","TraceLoggingActivity interface","TraceLoggingActivity method","TraceLoggingActivity method","TraceLoggingActivity method","TraceLoggingActivity interface","TraceLoggingActivity.TraceLoggingActivity","TraceLoggingActivity.TraceLoggingActivity(TraceLoggingActivity &&)","TraceLoggingActivity::TraceLoggingActivity","TraceLoggingActivity::TraceLoggingActivity(TraceLoggingActivity &&)","tracelogging.traceloggingactivity_traceloggingactivity","traceloggingactivity/TraceLoggingActivity::TraceLoggingActivity"]
 old-location: tracelogging\traceloggingactivity_traceloggingactivity.htm
 tech.root: tracelogging
 ms.assetid: 21A4BB42-1D78-48A9-A037-64A3508A9957
@@ -62,15 +62,6 @@ Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/traceloggi
 ### -param rhs
 
 A reference to a <b>TraceLoggingActivity</b>.
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

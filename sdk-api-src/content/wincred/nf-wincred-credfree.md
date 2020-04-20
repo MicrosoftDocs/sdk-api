@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredFree
 title: CredFree function (wincred.h)
-description: The CredFree function frees a buffer returned by any of the credentials management functions.
+description: The CredFree function frees a buffer returned by any of the credentials management functions.helpviewer_keywords: ["CredFree","CredFree function [Security]","_cred_credfree","security.credfree","wincred/CredFree"]
 old-location: security\credfree.htm
 tech.root: SecAuthN
 ms.assetid: bc33ab1b-dd3f-4e1b-96d2-e32ceff89ada
@@ -64,13 +64,5 @@ The <b>CredFree</b> function frees a buffer returned by any of the credentials m
 ### -param Buffer [in]
 
 Pointer to the buffer to be freed.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

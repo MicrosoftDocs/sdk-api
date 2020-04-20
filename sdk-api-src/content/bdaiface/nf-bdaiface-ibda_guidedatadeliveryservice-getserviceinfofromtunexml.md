@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml
 title: IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml (bdaiface.h)
-description: Gets service information from an XML tune request.
+description: Gets service information from an XML tune request.helpviewer_keywords: ["GetServiceInfoFromTuneXml","GetServiceInfoFromTuneXml method [Microsoft TV Technologies]","GetServiceInfoFromTuneXml method [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","GetServiceInfoFromTuneXml method","IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml","IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml","bdaiface/IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml","mstv.ibda_guidedatadeliveryservice_getserviceinfofromtunexml"]
 old-location: mstv\ibda_guidedatadeliveryservice_getserviceinfofromtunexml.htm
 tech.root: mstv
 ms.assetid: 8084e4dd-a5d5-48a0-a052-24310a79df78

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorSet
 title: XMVectorSet function (directxmath.h)
-description: Creates a vector using four floating-point values.
+description: Creates a vector using four floating-point values.helpviewer_keywords: ["Use DirectX..XMVectorSet","XMVectorSet","XMVectorSet method [DirectX Math Support APIs]","dxmath.xmvectorset"]
 old-location: dxmath\xmvectorset.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSet(float,float,float,float)

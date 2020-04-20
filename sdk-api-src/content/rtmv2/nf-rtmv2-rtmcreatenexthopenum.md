@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmCreateNextHopEnum
 title: RtmCreateNextHopEnum function (rtmv2.h)
-description: The RtmCreateNextHopEnum enumerates the next hops in the next-hop list.
+description: The RtmCreateNextHopEnum enumerates the next hops in the next-hop list.helpviewer_keywords: ["RTM_ENUM_NEXT","RTM_ENUM_RANGE","RTM_ENUM_START","RtmCreateNextHopEnum","RtmCreateNextHopEnum function [RAS]","_rtmv2ref_rtmcreatenexthopenum","rras.rtmcreatenexthopenum","rtmv2/RtmCreateNextHopEnum"]
 old-location: rras\rtmcreatenexthopenum.htm
 tech.root: RRAS
 ms.assetid: d26ce475-ea05-4e84-92da-06df9c386858

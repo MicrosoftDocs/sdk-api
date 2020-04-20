@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CreateClusterResourceType
 title: CreateClusterResourceType function (clusapi.h)
-description: Creates a resource type in a cluster.
+description: Creates a resource type in a cluster.helpviewer_keywords: ["CreateClusterResourceType","CreateClusterResourceType function [Failover Cluster]","PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE","PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE function [Failover Cluster]","_wolf_createclusterresourcetype","clusapi/CreateClusterResourceType","clusapi/PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE","mscs.createclusterresourcetype"]
 old-location: mscs\createclusterresourcetype.htm
 tech.root: MsCS
 ms.assetid: 19b8e8cf-898c-4df5-959c-e3789b082a76

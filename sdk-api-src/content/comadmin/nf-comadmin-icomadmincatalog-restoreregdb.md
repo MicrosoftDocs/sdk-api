@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.RestoreREGDB
 title: ICOMAdminCatalog::RestoreREGDB (comadmin.h)
-description: Restores the COM+ class registration database (RegDB) from the specified file. For this to take effect, a system reboot is required.
+description: Restores the COM+ class registration database (RegDB) from the specified file. For this to take effect, a system reboot is required.helpviewer_keywords: ["ICOMAdminCatalog interface [COM+]","RestoreREGDB method","ICOMAdminCatalog.RestoreREGDB","ICOMAdminCatalog::RestoreREGDB","RestoreREGDB","RestoreREGDB method [COM+]","RestoreREGDB method [COM+]","ICOMAdminCatalog interface","_cos_ICOMAdminCatalog_RestoreREGDB","comadmin/ICOMAdminCatalog::RestoreREGDB","cos.icomadmincatalog_restoreregdb"]
 old-location: cos\icomadmincatalog_restoreregdb.htm
 tech.root: cossdk
 ms.assetid: 7cb2201c-601c-4add-8608-3f98ef92c26d

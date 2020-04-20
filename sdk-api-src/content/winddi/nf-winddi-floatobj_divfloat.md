@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.FLOATOBJ_DivFloat
 title: FLOATOBJ_DivFloat function (winddi.h)
-description: The FLOATOBJ_DivFloat function divides the FLOATOBJ by the value of type FLOATL, and returns with the result in the first parameter.
+description: The FLOATOBJ_DivFloat function divides the FLOATOBJ by the value of type FLOATL, and returns with the result in the first parameter.helpviewer_keywords: ["FLOATOBJ_DivFloat","FLOATOBJ_DivFloat function [Display Devices]","display.floatobj_divfloat","gdifncs_b815b21c-c9fb-4334-857f-e6e66053014a.xml","winddi/FLOATOBJ_DivFloat"]
 old-location: display\floatobj_divfloat.htm
 tech.root: display
 ms.assetid: 47ebf68c-6dfa-43d3-8bc9-1f0b8f030974
@@ -65,15 +65,6 @@ Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be r
 ### -param arg2 [in]
 
 Specifies the FLOATL operand. This value is converted to a FLOATOBJ for the division.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcasync.RpcBindingUnbind
 title: RpcBindingUnbind function (rpcasync.h)
-description: Unbinds a binding handle previously bound by RpcBindingBind.
+description: Unbinds a binding handle previously bound by RpcBindingBind.helpviewer_keywords: ["RpcBindingUnbind","RpcBindingUnbind function [RPC]","rpc.rpcbindingunbind","rpcasync/RpcBindingUnbind"]
 old-location: rpc\rpcbindingunbind.htm
 tech.root: Rpc
 ms.assetid: a9e30764-22ea-4dbf-9311-f37bd55ed2c4

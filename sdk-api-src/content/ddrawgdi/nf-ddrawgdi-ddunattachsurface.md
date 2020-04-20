@@ -1,7 +1,7 @@
 ---
 UID: NF:ddrawgdi.DdUnattachSurface
 title: DdUnattachSurface function (ddrawgdi.h)
-description: The DdUnattachSurface function removes an attachment, created with DdAttachSurface, between two kernel-mode surface objects.
+description: The DdUnattachSurface function removes an attachment, created with DdAttachSurface, between two kernel-mode surface objects.helpviewer_keywords: ["DdUnattachSurface","DdUnattachSurface function [Windows API]","GdiEntry12","_dxgkernel_ddunattachsurface","ddrawgdi/DdUnattachSurface","ddrawgdi/GdiEntry12","winprog._dxgkernel_ddunattachsurface","winui._dxgkernel_ddunattachsurface"]
 old-location: winprog\_dxgkernel_ddunattachsurface.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddunattachsurface.htm
@@ -73,15 +73,6 @@ Pointer to the kernel-mode surface object that was passed as the <i>pSurfaceFrom
 ### -param pSurfaceAttached [in]
 
 Pointer to the kernel-mode surface object that was passed as the <i>pSurfaceTo</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawgdi/nf-ddrawgdi-ddattachsurface">DdAttachSurface</a>
-
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.SetDirectory
 title: IStreamBufferConfigure::SetDirectory (sbe.h)
-description: The SetDirectory method sets the directory where backing files are saved.
+description: The SetDirectory method sets the directory where backing files are saved.helpviewer_keywords: ["IStreamBufferConfigure interface [Microsoft TV Technologies]","SetDirectory method","IStreamBufferConfigure.SetDirectory","IStreamBufferConfigure::SetDirectory","IStreamBufferConfigureSetDirectory","SetDirectory","SetDirectory method [Microsoft TV Technologies]","SetDirectory method [Microsoft TV Technologies]","IStreamBufferConfigure interface","mstv.istreambufferconfigure_setdirectory","sbe/IStreamBufferConfigure::SetDirectory"]
 old-location: mstv\istreambufferconfigure_setdirectory.htm
 tech.root: mstv
 ms.assetid: ff0604d4-bbcd-409e-8e3d-a132218dc3a9

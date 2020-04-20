@@ -1,7 +1,7 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioObjectForMetadataItems
 title: ISpatialAudioObjectForMetadataItems (spatialaudiometadata.h)
-description: Used to write spatial audio metadata for applications that require multiple metadata items per buffer with frame-accurate placement.
+description: Used to write spatial audio metadata for applications that require multiple metadata items per buffer with frame-accurate placement.helpviewer_keywords: ["ISpatialAudioObjectForMetadataItems","ISpatialAudioObjectForMetadataItems interface [Core Audio]","ISpatialAudioObjectForMetadataItems interface [Core Audio]","described","coreaudio.ispatialaudioobjectformetadataitems","spatialaudiometadata/ISpatialAudioObjectForMetadataItems"]
 old-location: coreaudio\ispatialaudioobjectformetadataitems.htm
 tech.root: CoreAudio
 ms.assetid: 4861D2AA-E685-4A72-BE98-6FEEB72ACF67

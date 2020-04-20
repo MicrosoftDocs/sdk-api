@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.LSA_FREE_SHARED_MEMORY
 title: LSA_FREE_SHARED_MEMORY (ntsecpkg.h)
-description: The FreeSharedMemory function frees a block of shared memory previously allocated by the AllocateSharedMemory function.
+description: The FreeSharedMemory function frees a block of shared memory previously allocated by the AllocateSharedMemory function.helpviewer_keywords: ["FreeSharedMemory","FreeSharedMemory callback function [Security]","LSA_FREE_SHARED_MEMORY","LSA_FREE_SHARED_MEMORY callback","_ssp_freesharedmemory","ntsecpkg/FreeSharedMemory","security.freesharedmemory"]
 old-location: security\freesharedmemory.htm
 tech.root: SecAuthN
 ms.assetid: def16ef0-4ae7-43c5-99c8-493bdf0c6a97
@@ -68,15 +68,6 @@ Pointer to the shared memory section previously reserved using the
 
 Pointer to the memory previously allocated from the shared memory section specified by the <i>SharedMem</i> parameter, using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_shared_memory">AllocateSharedMemory</a> function.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

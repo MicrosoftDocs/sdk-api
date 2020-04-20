@@ -1,7 +1,7 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.GetProp
 title: IBackgroundCopyGroup::GetProp (qmgr.h)
-description: Use the GetProp method to retrieve a property value from the group.
+description: Use the GetProp method to retrieve a property value from the group.helpviewer_keywords: ["GetProp","GetProp method [BITS]","GetProp method [BITS]","IBackgroundCopyGroup interface","IBackgroundCopyGroup interface [BITS]","GetProp method","IBackgroundCopyGroup.GetProp","IBackgroundCopyGroup::GetProp","bits.ibackgroundcopygroup_getprop","qmgr/IBackgroundCopyGroup::GetProp"]
 old-location: bits\ibackgroundcopygroup_getprop.htm
 tech.root: Bits
 ms.assetid: c27debdf-22eb-417e-b870-2891167f4498

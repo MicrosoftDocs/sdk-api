@@ -1,7 +1,7 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriterEncoderConfig
 title: IMFSinkWriterEncoderConfig (mfreadwrite.h)
-description: Provides additional functionality on the sink writer for dynamically changing the media type and encoder configuration.
+description: Provides additional functionality on the sink writer for dynamically changing the media type and encoder configuration.helpviewer_keywords: ["IMFSinkWriterEncoderConfig","IMFSinkWriterEncoderConfig interface [Media Foundation]","IMFSinkWriterEncoderConfig interface [Media Foundation]","described","mf.imfsinkwriterencoderconfig","mfreadwrite/IMFSinkWriterEncoderConfig"]
 old-location: mf\imfsinkwriterencoderconfig.htm
 tech.root: medfound
 ms.assetid: 3a0d090d-9eb1-4624-989b-c5da27b988aa

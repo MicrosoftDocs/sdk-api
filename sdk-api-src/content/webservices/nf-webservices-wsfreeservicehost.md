@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsFreeServiceHost
 title: WsFreeServiceHost function (webservices.h)
-description: Releases the memory associated with a Service Host object.
+description: Releases the memory associated with a Service Host object.helpviewer_keywords: ["WsFreeServiceHost","WsFreeServiceHost function [Web Services for Windows]","webservices/WsFreeServiceHost","wsw.wsfreeservicehost"]
 old-location: wsw\wsfreeservicehost.htm
 tech.root: wsw
 ms.assetid: 5362d8a4-8b38-462a-a7c1-9cde19abee1e
@@ -64,13 +64,5 @@ A pointer to the <b>Service Host</b> object to release.  The pointer must refere
                     returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> and the referenced <b>Service Host</b> value may not be <b>NULL</b>.
         
                 
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

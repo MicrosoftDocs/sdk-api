@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents3.LibraryDisconnect
 title: IWMPEvents3::LibraryDisconnect (wmp.h)
-description: The LibraryDisconnect event occurs when a library is no longer available.
+description: The LibraryDisconnect event occurs when a library is no longer available.helpviewer_keywords: ["IWMPEvents3 interface [Windows Media Player]","LibraryDisconnect method","IWMPEvents3.LibraryDisconnect","IWMPEvents3::LibraryDisconnect","IWMPEvents3LibraryDisconnect","LibraryDisconnect","LibraryDisconnect method [Windows Media Player]","LibraryDisconnect method [Windows Media Player]","IWMPEvents3 interface","wmp.iwmpevents3_iwmpevents3__librarydisconnect","wmp/IWMPEvents3::LibraryDisconnect"]
 old-location: wmp\iwmpevents3_iwmpevents3__librarydisconnect.htm
 tech.root: WMP
 ms.assetid: eb0f4d9f-23b7-4fe7-b45d-152a2f64af30
@@ -63,15 +63,6 @@ The <b>LibraryDisconnect</b> event occurs when a library is no longer available.
 ### -param pLibrary [in]
 
 Pointer to the <b>IWMPLibrary</b> interface that represents the library that disconnected.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

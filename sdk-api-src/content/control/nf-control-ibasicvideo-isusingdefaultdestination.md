@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IBasicVideo.IsUsingDefaultDestination
 title: IBasicVideo::IsUsingDefaultDestination (control.h)
-description: The IsUsingDefaultDestination method queries whether the renderer is using the default destination rectangle.
+description: The IsUsingDefaultDestination method queries whether the renderer is using the default destination rectangle.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","IsUsingDefaultDestination method","IBasicVideo.IsUsingDefaultDestination","IBasicVideo::IsUsingDefaultDestination","IBasicVideoIsUsingDefaultDestination","IsUsingDefaultDestination","IsUsingDefaultDestination method [DirectShow]","IsUsingDefaultDestination method [DirectShow]","IBasicVideo interface","control/IBasicVideo::IsUsingDefaultDestination","dshow.ibasicvideo_isusingdefaultdestination"]
 old-location: dshow\ibasicvideo_isusingdefaultdestination.htm
 tech.root: DirectShow
 ms.assetid: eceec24b-7743-4989-b112-e6a70283d397

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
 title: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT (d3d11.h)
-description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE command.
+description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE command.helpviewer_keywords: ["D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT","D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT structure [Media Foundation]","d3d11/D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT","mf.d3d11_authenticated_configure_initialize_input"]
 old-location: mf\d3d11_authenticated_configure_initialize_input.htm
 tech.root: medfound
 ms.assetid: D634AF82-BC17-43FC-9E0E-1FEC10B5A42E

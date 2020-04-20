@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawRoundedRectangle(const D2D1_ROUNDED_RECT,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawRoundedRectangle (d2d1.h)
-description: Draws the outline of the specified rounded rectangle using the specified stroke style.
+description: Draws the outline of the specified rounded rectangle using the specified stroke style.helpviewer_keywords: ["DrawRoundedRectangle","DrawRoundedRectangle methods [Direct2D]","ID2D1RenderTarget.DrawRoundedRectangle","ID2D1RenderTarget::DrawRoundedRectangle","d2d1/DrawRoundedRectangle","direct2d.id2d1rendertarget_drawroundedrectangle"]
 old-location: direct2d\id2d1rendertarget_drawroundedrectangle.htm
 tech.root: Direct2D
 ms.assetid: d718c355-ffd8-4a7f-90f3-9a10d37a19c8

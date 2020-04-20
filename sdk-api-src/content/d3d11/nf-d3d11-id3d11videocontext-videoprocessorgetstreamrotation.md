@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamRotation
 title: ID3D11VideoContext::VideoProcessorGetStreamRotation (d3d11.h)
-description: Gets the stream rotation for an input stream on the video processor.
+description: Gets the stream rotation for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamRotation method","ID3D11VideoContext.VideoProcessorGetStreamRotation","ID3D11VideoContext::VideoProcessorGetStreamRotation","VideoProcessorGetStreamRotation","VideoProcessorGetStreamRotation method [Media Foundation]","VideoProcessorGetStreamRotation method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamRotation","mf.id3d11videocontext_videoprocessorgetstreamrotation"]
 old-location: mf\id3d11videocontext_videoprocessorgetstreamrotation.htm
 tech.root: medfound
 ms.assetid: 6593d829-7f33-408e-aac1-f13e59f7b4bd
@@ -75,15 +75,6 @@ Specifies if the stream is rotated.
 ### -param pRotation
 
 Specifies the rotation of the stream in a clockwise orientation.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

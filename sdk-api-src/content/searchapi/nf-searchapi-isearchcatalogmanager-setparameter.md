@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.SetParameter
 title: ISearchCatalogManager::SetParameter (searchapi.h)
-description: Sets a name/value parameter for the catalog.
+description: Sets a name/value parameter for the catalog.helpviewer_keywords: ["ISearchCatalogManager interface [search]","SetParameter method","ISearchCatalogManager.SetParameter","ISearchCatalogManager::SetParameter","SetParameter","SetParameter method [search]","SetParameter method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_SetParameter","search._search_ISearchCatalogManager_SetParameter","searchapi/ISearchCatalogManager::SetParameter"]
 old-location: search\_search_ISearchCatalogManager_SetParameter.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\setparameter.htm

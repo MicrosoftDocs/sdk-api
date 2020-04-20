@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineUnparkW
 title: lineUnparkW function (tapi.h)
-description: The lineUnpark function retrieves the call parked at the specified address and returns a call handle for it.
+description: The lineUnpark function retrieves the call parked at the specified address and returns a call handle for it.helpviewer_keywords: ["_tapi2_lineunpark","lineUnpark","lineUnpark function [TAPI 2.2]","lineUnparkA","lineUnparkW","tapi/lineUnpark","tapi/lineUnparkA","tapi/lineUnparkW","tapi2.lineunpark"]
 old-location: tapi2\lineunpark.htm
 tech.root: Tapi
 ms.assetid: 9262ab44-eac7-43e2-a0ec-dceea0838b09

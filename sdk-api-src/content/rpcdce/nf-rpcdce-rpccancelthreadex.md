@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcCancelThreadEx
 title: RpcCancelThreadEx function (rpcdce.h)
-description: The RpcCancelThreadEx function stops the execution of a thread.
+description: The RpcCancelThreadEx function stops the execution of a thread.helpviewer_keywords: ["RpcCancelThreadEx","RpcCancelThreadEx function [RPC]","_rpc_rpccancelthreadex","rpc.rpccancelthreadex","rpcdce/RpcCancelThreadEx"]
 old-location: rpc\rpccancelthreadex.htm
 tech.root: Rpc
 ms.assetid: ecf00da0-bc26-4762-94e1-9a5e1cdbc32e

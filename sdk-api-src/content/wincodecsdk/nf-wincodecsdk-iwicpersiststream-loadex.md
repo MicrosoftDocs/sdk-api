@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.IWICPersistStream.LoadEx
 title: IWICPersistStream::LoadEx (wincodecsdk.h)
-description: Loads data from an input stream using the given parameters.
+description: Loads data from an input stream using the given parameters.helpviewer_keywords: ["IWICPersistStream interface [Windows Imaging Component]","LoadEx method","IWICPersistStream.LoadEx","IWICPersistStream::LoadEx","LoadEx","LoadEx method [Windows Imaging Component]","LoadEx method [Windows Imaging Component]","IWICPersistStream interface","_wic_codec_iwicpersiststream_loadex","wic._wic_codec_iwicpersiststream_loadex","wincodecsdk/IWICPersistStream::LoadEx"]
 old-location: wic\_wic_codec_iwicpersiststream_loadex.htm
 tech.root: wic
 ms.assetid: cb200a21-6c01-469e-b70f-f787f1dae382

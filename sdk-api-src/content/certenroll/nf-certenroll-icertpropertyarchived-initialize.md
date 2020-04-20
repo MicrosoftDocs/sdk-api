@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertPropertyArchived.Initialize
 title: ICertPropertyArchived::Initialize (certenroll.h)
-description: Initializes the object from a Boolean value that specifies whether the certificate has been archived.
+description: Initializes the object from a Boolean value that specifies whether the certificate has been archived.helpviewer_keywords: ["ICertPropertyArchived interface [Security]","Initialize method","ICertPropertyArchived.Initialize","ICertPropertyArchived::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICertPropertyArchived interface","certenroll/ICertPropertyArchived::Initialize","security.icertpropertyarchived_initialize_method"]
 old-location: security\icertpropertyarchived_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 66efee4f-61af-447a-b668-81fbe2107b7f

@@ -1,7 +1,7 @@
 ---
 UID: NS:mmc._MENUBUTTONDATA
 title: MENUBUTTONDATA (mmc.h)
-description: The MENUBUTTONDATA structure contains values used to create buttons on a toolbar.
+description: The MENUBUTTONDATA structure contains values used to create buttons on a toolbar.helpviewer_keywords: ["*LPMENUBUTTONDATA","LPMENUBUTTONDATA","LPMENUBUTTONDATA structure pointer [MMC]","MENUBUTTONDATA","MENUBUTTONDATA structure [MMC]","_slate_menubuttondata","mmc.menubuttondata","mmc/LPMENUBUTTONDATA","mmc/MENUBUTTONDATA"]
 old-location: mmc\menubuttondata.htm
 tech.root: mmc
 ms.assetid: 440467ea-3d6c-49a0-a81a-24088e307d22

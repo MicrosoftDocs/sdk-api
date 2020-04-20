@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagCredUsernamePassword
 title: IWSManEx::SessionFlagCredUsernamePassword (wsmandisp.h)
-description: Returns the value of the authentication flag WSManFlagCredUsernamePassword for use in the flags parameter of IWSMan::CreateSession.
+description: Returns the value of the authentication flag WSManFlagCredUsernamePassword for use in the flags parameter of IWSMan::CreateSession.helpviewer_keywords: ["IWSManEx interface [Windows Remote Management]","SessionFlagCredUsernamePassword method","IWSManEx.SessionFlagCredUsernamePassword","IWSManEx::SessionFlagCredUsernamePassword","SessionFlagCredUsernamePassword","SessionFlagCredUsernamePassword method [Windows Remote Management]","SessionFlagCredUsernamePassword method [Windows Remote Management]","IWSManEx interface","winrm.iwsmanex_sessionflagcredusernamepassword","wsmandisp/IWSManEx::SessionFlagCredUsernamePassword"]
 old-location: winrm\iwsmanex_sessionflagcredusernamepassword.htm
 tech.root: winrm
 ms.assetid: e9af95ac-4543-4d8b-ac6e-15e89b73713e

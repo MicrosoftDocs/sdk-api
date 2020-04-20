@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DSSetSamplers
 title: ID3D11DeviceContext::DSSetSamplers (d3d11.h)
-description: Set an array of sampler states to the domain-shader stage.
+description: Set an array of sampler states to the domain-shader stage.helpviewer_keywords: ["5141e937-00ce-e7e4-cf38-b06ad4222cd4","DSSetSamplers","DSSetSamplers method [Direct3D 11]","DSSetSamplers method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","DSSetSamplers method","ID3D11DeviceContext.DSSetSamplers","ID3D11DeviceContext::DSSetSamplers","d3d11/ID3D11DeviceContext::DSSetSamplers","direct3d11.id3d11devicecontext_dssetsamplers"]
 old-location: direct3d11\id3d11devicecontext_dssetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 15cc8f81-2d57-4148-821c-0136c0ce3f82
@@ -77,15 +77,6 @@ Number of samplers in the array. Each pipeline stage has a total of 16 sampler s
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>*</b>
 
 Pointer to an array of sampler-state interfaces (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>). See Remarks.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

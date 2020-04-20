@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtSeek
 title: EvtSeek function (winevt.h)
-description: Seeks to a specific event in a query result set.
+description: Seeks to a specific event in a query result set.helpviewer_keywords: ["EvtSeek","EvtSeek function [EventLog]","wes.evtseek","winevt/EvtSeek"]
 old-location: wes\evtseek.htm
 tech.root: wes
 ms.assetid: 62cf5039-f7c5-4f16-b7e3-dcc8907e6b7c

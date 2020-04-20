@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl.SubpictureStreamChange
 title: IDvdControl::SubpictureStreamChange (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the new subpicture stream and enables or disables it for display.
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the new subpicture stream and enables or disables it for display.helpviewer_keywords: ["IDvdControl interface [DirectShow]","SubpictureStreamChange method","IDvdControl.SubpictureStreamChange","IDvdControl::SubpictureStreamChange","IDvdControlSubpictureStreamChange","SubpictureStreamChange","SubpictureStreamChange method [DirectShow]","SubpictureStreamChange method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_subpicturestreamchange","strmif/IDvdControl::SubpictureStreamChange"]
 old-location: dshow\idvdcontrol_subpicturestreamchange.htm
 tech.root: DirectShow
 ms.assetid: 527031fa-bab9-49f5-89b1-f0c5c5812a76

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.CopyTiles
 title: ID3D12GraphicsCommandList::CopyTiles (d3d12.h)
-description: Copies tiles from buffer to tiled resource or vice versa.
+description: Copies tiles from buffer to tiled resource or vice versa.helpviewer_keywords: ["CopyTiles","CopyTiles method","CopyTiles method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","CopyTiles method","ID3D12GraphicsCommandList.CopyTiles","ID3D12GraphicsCommandList::CopyTiles","d3d12/ID3D12GraphicsCommandList::CopyTiles","direct3d12.id3d12graphicscommandlist_copytiles"]
 old-location: direct3d12\id3d12graphicscommandlist_copytiles.htm
 tech.root: direct3d12
 ms.assetid: F770CE6B-DD70-4102-BEFD-3E46B9957F5E
@@ -104,16 +104,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-
 
 A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_tile_copy_flags">D3D12_TILE_COPY_FLAGS</a>-typed values that are combined by using a bitwise OR operation and that identifies how to copy tiles.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

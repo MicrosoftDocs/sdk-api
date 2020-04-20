@@ -1,7 +1,7 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.CXAPOParametersBase
 title: CXAPOParametersBase::CXAPOParametersBase (xapobase.h)
-description: Creates an instance of the CXAPOParametersBase class.
+description: Creates an instance of the CXAPOParametersBase class.helpviewer_keywords: ["CXAPOParametersBase","CXAPOParametersBase interface [XAudio2 Audio Mixing APIs]","CXAPOParametersBase method","CXAPOParametersBase method [XAudio2 Audio Mixing APIs]","CXAPOParametersBase method [XAudio2 Audio Mixing APIs]","CXAPOParametersBase interface","CXAPOParametersBase.CXAPOParametersBase","CXAPOParametersBase::CXAPOParametersBase","xapobase/CXAPOParametersBase::CXAPOParametersBase","xaudio2.cxapoparametersbase_cxapoparametersbase"]
 old-location: xaudio2\cxapoparametersbase_cxapoparametersbase.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.CXAPOParametersBase(BYTE,UINT32,BOOL)
@@ -84,15 +84,6 @@ Size of a parameter block in <i>pParameterBlocks</i>.
 Type: <b>BOOL</b>
 
 If TRUE, indicates <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a> produces data to be returned by <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-getparameters">IXAPOParameters::GetParameters</a> and disallows calls to <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a>.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCAsForTemplate
 title: IX509EnrollmentPolicyServer::GetCAsForTemplate (certenroll.h)
-description: Retrieves a collection of certificate enrollment servers that support a specified template.
+description: Retrieves a collection of certificate enrollment servers that support a specified template.helpviewer_keywords: ["GetCAsForTemplate","GetCAsForTemplate method [Security]","GetCAsForTemplate method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetCAsForTemplate method","IX509EnrollmentPolicyServer.GetCAsForTemplate","IX509EnrollmentPolicyServer::GetCAsForTemplate","certenroll/IX509EnrollmentPolicyServer::GetCAsForTemplate","security.ix509enrollmentpolicyserver_getcasfortemplate"]
 old-location: security\ix509enrollmentpolicyserver_getcasfortemplate.htm
 tech.root: seccertenroll
 ms.assetid: 7330aea0-36b3-49fa-8970-2476f2ae9d34

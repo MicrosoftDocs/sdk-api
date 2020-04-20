@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.IASetPrimitiveTopology
 title: ID3D10Device::IASetPrimitiveTopology (d3d10.h)
-description: Bind information about the primitive type, and data order that describes input data for the input assembler stage.
+description: Bind information about the primitive type, and data order that describes input data for the input assembler stage.helpviewer_keywords: ["574e830c-3db9-ca52-4b41-1b3e8224137a","IASetPrimitiveTopology","IASetPrimitiveTopology method [Direct3D 10]","IASetPrimitiveTopology method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","IASetPrimitiveTopology method","ID3D10Device.IASetPrimitiveTopology","ID3D10Device::IASetPrimitiveTopology","d3d10/ID3D10Device::IASetPrimitiveTopology","direct3d10.id3d10device_iasetprimitivetopology"]
 old-location: direct3d10\id3d10device_iasetprimitivetopology.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iasetprimitivetopology.htm
@@ -63,15 +63,6 @@ Bind information about the <a href="https://docs.microsoft.com/windows/desktop/d
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205334(v=vs.85)">D3D10_PRIMITIVE_TOPOLOGY</a></b>
 
 The type of primitive and ordering of the primitive data (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205334(v=vs.85)">D3D10_PRIMITIVE_TOPOLOGY</a>).
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -see-also

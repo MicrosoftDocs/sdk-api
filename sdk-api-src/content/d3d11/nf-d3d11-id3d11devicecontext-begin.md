@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.Begin
 title: ID3D11DeviceContext::Begin (d3d11.h)
-description: Mark the beginning of a series of commands.
+description: Mark the beginning of a series of commands.helpviewer_keywords: ["Begin","Begin method [Direct3D 11]","Begin method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","Begin method","ID3D11DeviceContext.Begin","ID3D11DeviceContext::Begin","d3d11/ID3D11DeviceContext::Begin","direct3d11.id3d11devicecontext_begin","e0186f02-1f56-8ba4-2429-48dc47ff8dc9"]
 old-location: direct3d11\id3d11devicecontext_begin.htm
 tech.root: direct3d11
 ms.assetid: 5a9cdc60-2226-4d18-bfbd-5db10de35e53
@@ -63,15 +63,6 @@ Mark the beginning of a series of commands.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11asynchronous">ID3D11Asynchronous</a>*</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11asynchronous">ID3D11Asynchronous</a> interface.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

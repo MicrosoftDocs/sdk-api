@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRange.ShiftStartToRange
 title: ITfRange::ShiftStartToRange (msctf.h)
-description: ITfRange::ShiftStartToRange method
+description: ITfRange::ShiftStartToRange methodhelpviewer_keywords: ["ITfRange interface [Text Services Framework]","ShiftStartToRange method","ITfRange.ShiftStartToRange","ITfRange::ShiftStartToRange","ShiftStartToRange","ShiftStartToRange method [Text Services Framework]","ShiftStartToRange method [Text Services Framework]","ITfRange interface","_tsf_itfrange_shiftstarttorange_ref","msctf/ITfRange::ShiftStartToRange","tsf.itfrange_shiftstarttorange"]
 old-location: tsf\itfrange_shiftstarttorange.htm
 tech.root: TSF
 ms.assetid: 8e3e40a0-71ba-4abf-ac99-99d66856746c
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Moves the start anchor of this range to an anchor within another range.
 
 ## -parameters
 

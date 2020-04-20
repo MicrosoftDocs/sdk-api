@@ -1,7 +1,7 @@
 ---
 UID: NE:imapi2._IMAPI_FORMAT2_TAO_WRITE_ACTION
 title: IMAPI_FORMAT2_TAO_WRITE_ACTION (imapi2.h)
-description: Defines values that indicate the current state of the write operation when using the IDiscFormat2TrackAtOnceEventArgs interface.
+description: Defines values that indicate the current state of the write operation when using the IDiscFormat2TrackAtOnceEventArgs interface.helpviewer_keywords: ["*PIMAPI_FORMAT2_TAO_WRITE_ACTION","IMAPI_FORMAT2_TAO_WRITE_ACTION","IMAPI_FORMAT2_TAO_WRITE_ACTION enumeration [IMAPI]","IMAPI_FORMAT2_TAO_WRITE_ACTION_FINISHING","IMAPI_FORMAT2_TAO_WRITE_ACTION_PREPARING","IMAPI_FORMAT2_TAO_WRITE_ACTION_UNKNOWN","IMAPI_FORMAT2_TAO_WRITE_ACTION_WRITING","PIMAPI_FORMAT2_TAO_WRITE_ACTION","PIMAPI_FORMAT2_TAO_WRITE_ACTION enumeration pointer [IMAPI]","imapi.imapi_format2_tao_write_action","imapi2/IMAPI_FORMAT2_TAO_WRITE_ACTION","imapi2/IMAPI_FORMAT2_TAO_WRITE_ACTION_FINISHING","imapi2/IMAPI_FORMAT2_TAO_WRITE_ACTION_PREPARING","imapi2/IMAPI_FORMAT2_TAO_WRITE_ACTION_UNKNOWN","imapi2/IMAPI_FORMAT2_TAO_WRITE_ACTION_WRITING","imapi2/PIMAPI_FORMAT2_TAO_WRITE_ACTION"]
 old-location: imapi\imapi_format2_tao_write_action.htm
 tech.root: imapi
 ms.assetid: 82d5b842-1bc1-41c7-acb3-faf9986329c3

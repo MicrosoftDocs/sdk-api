@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsFreeReader
 title: WsFreeReader function (webservices.h)
-description: Releases the memory resource associated with an XML_Reader object.
+description: Releases the memory resource associated with an XML_Reader object.helpviewer_keywords: ["WsFreeReader","WsFreeReader function [Web Services for Windows]","webservices/WsFreeReader","wsw.wsfreereader"]
 old-location: wsw\wsfreereader.htm
 tech.root: wsw
 ms.assetid: 31163bea-266f-43a3-bdf5-61386ebc197c
@@ -62,13 +62,5 @@ Releases the memory resource associated with  an XML_Reader object.
 
 A pointer to the <b>XML Reader</b> object to release.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a>    and the referenced <b>XML Reader</b> value may not be <b>NULL</b>.
         
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

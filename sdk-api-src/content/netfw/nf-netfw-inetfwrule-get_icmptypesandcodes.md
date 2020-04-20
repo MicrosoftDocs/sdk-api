@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.get_IcmpTypesAndCodes
 title: INetFwRule::get_IcmpTypesAndCodes (netfw.h)
-description: Specifies the list of ICMP types and codes for this rule.
+description: Specifies the list of ICMP types and codes for this rule.helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","IcmpTypesAndCodes property","INetFwRule.IcmpTypesAndCodes","INetFwRule.get_IcmpTypesAndCodes","INetFwRule::IcmpTypesAndCodes","INetFwRule::get_IcmpTypesAndCodes","INetFwRule::put_IcmpTypesAndCodes","IcmpTypesAndCodes property [ICS/ICF]","IcmpTypesAndCodes property [ICS/ICF]","INetFwRule interface","get_IcmpTypesAndCodes","ics.inetfwrule_icmptypesandcodes","netfw/INetFwRule::IcmpTypesAndCodes","netfw/INetFwRule::get_IcmpTypesAndCodes","netfw/INetFwRule::put_IcmpTypesAndCodes"]
 old-location: ics\inetfwrule_icmptypesandcodes.htm
 tech.root: ics
 ms.assetid: 5b1e2e50-7ca1-4a96-a1c3-1f55f51a6a4f

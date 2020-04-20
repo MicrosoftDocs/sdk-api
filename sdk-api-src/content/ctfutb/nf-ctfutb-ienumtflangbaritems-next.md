@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Next
 title: IEnumTfLangBarItems::Next (ctfutb.h)
-description: IEnumTfLangBarItems::Next method
+description: IEnumTfLangBarItems::Next methodhelpviewer_keywords: ["IEnumTfLangBarItems interface [Text Services Framework]","Next method","IEnumTfLangBarItems.Next","IEnumTfLangBarItems::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfLangBarItems interface","_tsf_ienumtflangbaritems_next_ref","ctfutb/IEnumTfLangBarItems::Next","tsf.ienumtflangbaritems_next"]
 old-location: tsf\ienumtflangbaritems_next.htm
 tech.root: TSF
 ms.assetid: 46e24685-581c-4c68-80df-4465e90e3e36
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the specified number of elements in the enumeration sequence from the current position.
 
 ## -parameters
 

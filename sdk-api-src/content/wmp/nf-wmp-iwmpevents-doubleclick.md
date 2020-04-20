@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.DoubleClick
 title: IWMPEvents::DoubleClick (wmp.h)
-description: The DoubleClick event occurs when the user double-clicks a mouse button.
+description: The DoubleClick event occurs when the user double-clicks a mouse button.helpviewer_keywords: ["DoubleClick","DoubleClick method [Windows Media Player]","DoubleClick method [Windows Media Player]","IWMPEvents interface","IWMPEvents interface [Windows Media Player]","DoubleClick method","IWMPEvents.DoubleClick","IWMPEvents::DoubleClick","IWMPEventsDoubleClick","wmp.iwmpevents_iwmpevents__doubleclick","wmp/IWMPEvents::DoubleClick"]
 old-location: wmp\iwmpevents_iwmpevents__doubleclick.htm
 tech.root: WMP
 ms.assetid: 76b1eebb-45d9-40fc-a845-24a7dac8c96c
@@ -78,15 +78,6 @@ The x coordinate of the mouse pointer relative to the upper left-hand corner of 
 ### -param fY [in]
 
 The y coordinate of the mouse pointer relative to the upper left-hand corner of the control.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

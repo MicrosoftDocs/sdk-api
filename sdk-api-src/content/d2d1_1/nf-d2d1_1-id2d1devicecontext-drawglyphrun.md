@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.DrawGlyphRun
 title: ID2D1DeviceContext::DrawGlyphRun (d2d1_1.h)
-description: Draws a series of glyphs to the device context.
+description: Draws a series of glyphs to the device context.helpviewer_keywords: ["DrawGlyphRun","DrawGlyphRun method [Direct2D]","DrawGlyphRun method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","DrawGlyphRun method","ID2D1DeviceContext.DrawGlyphRun","ID2D1DeviceContext::DrawGlyphRun","d2d1_1/ID2D1DeviceContext::DrawGlyphRun","direct2d.id2d1devicecontext_drawglyphrun"]
 old-location: direct2d\id2d1devicecontext_drawglyphrun.htm
 tech.root: Direct2D
 ms.assetid: a169604c-64d6-401f-83f5-fb322230e110
@@ -90,15 +90,6 @@ The brush that defines the text color.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 The measuring mode of the glyph series, used to determine the advances and offsets. The default value is DWRITE_MEASURING_MODE_NATURAL.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

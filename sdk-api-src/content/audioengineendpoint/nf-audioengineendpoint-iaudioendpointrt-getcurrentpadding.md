@@ -1,7 +1,7 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointRT.GetCurrentPadding
 title: IAudioEndpointRT::GetCurrentPadding (audioengineendpoint.h)
-description: Gets the amount, in 100-nanosecond units, of data that is queued up in the endpoint.
+description: Gets the amount, in 100-nanosecond units, of data that is queued up in the endpoint.helpviewer_keywords: ["GetCurrentPadding","GetCurrentPadding method [Remote Desktop Services]","GetCurrentPadding method [Remote Desktop Services]","IAudioEndpointRT interface","IAudioEndpointRT interface [Remote Desktop Services]","GetCurrentPadding method","IAudioEndpointRT.GetCurrentPadding","IAudioEndpointRT::GetCurrentPadding","audioengineendpoint/IAudioEndpointRT::GetCurrentPadding","termserv.iaudioendpointrt_getcurrentpadding"]
 old-location: termserv\iaudioendpointrt_getcurrentpadding.htm
 tech.root: TermServ
 ms.assetid: f61497c8-35da-4fbf-af83-1f15d5fe94f7
@@ -65,15 +65,6 @@ Receives the number of frames available in the endpoint buffer.
 ### -param pAeCurrentPosition [out]
 
 Receives information about the position of the  current frame in the endpoint buffer in an <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/ns-audioengineendpoint-ae_current_position">AE_CURRENT_POSITION</a> structure specified by the caller.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

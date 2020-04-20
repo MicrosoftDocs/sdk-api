@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfDisplayAttributeInfo.Clone
 title: IEnumTfDisplayAttributeInfo::Clone (msctf.h)
-description: IEnumTfDisplayAttributeInfo::Clone method
+description: IEnumTfDisplayAttributeInfo::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfDisplayAttributeInfo interface","IEnumTfDisplayAttributeInfo interface [Text Services Framework]","Clone method","IEnumTfDisplayAttributeInfo.Clone","IEnumTfDisplayAttributeInfo::Clone","_tsf_ienumtfdisplayattributeinfo_clone_ref","msctf/IEnumTfDisplayAttributeInfo::Clone","tsf.ienumtfdisplayattributeinfo_clone"]
 old-location: tsf\ienumtfdisplayattributeinfo_clone.htm
 tech.root: TSF
 ms.assetid: 3cf57360-b07b-4a6c-850a-10c44895108d
@@ -45,25 +45,17 @@ ms.custom: 19H1
 
 # IEnumTfDisplayAttributeInfo::Clone
 
-
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdisplayattributeinfo">IEnumTfDisplayAttributeInfo</a> interface pointer that receives the new enumerator.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,19 +87,9 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+## -see-also
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdisplayattributeinfo">IEnumTfDisplayAttributeInfo
-      </a>
- 
-
- 
-
+[IEnumTfDisplayAttributeInfo interface](nn-msctf-ienumtfdisplayattributeinfo.md), [ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md)

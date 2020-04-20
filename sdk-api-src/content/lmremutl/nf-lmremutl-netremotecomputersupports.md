@@ -1,7 +1,7 @@
 ---
 UID: NF:lmremutl.NetRemoteComputerSupports
 title: NetRemoteComputerSupports function (lmremutl.h)
-description: The NetRemoteComputerSupports function queries the redirector to retrieve the optional features the remote system supports.
+description: The NetRemoteComputerSupports function queries the redirector to retrieve the optional features the remote system supports.helpviewer_keywords: ["NetRemoteComputerSupports","NetRemoteComputerSupports function [Network Management]","SUPPORTS_LOCAL","SUPPORTS_REMOTE_ADMIN_PROTOCOL","SUPPORTS_RPC","SUPPORTS_SAM_PROTOCOL","SUPPORTS_UNICODE","_win32_netremotecomputersupports","lmremutl/NetRemoteComputerSupports","netmgmt.netremotecomputersupports"]
 old-location: netmgmt\netremotecomputersupports.htm
 tech.root: NetMgmt
 ms.assetid: e807489a-250e-4d4c-adb6-eff8ac30603b

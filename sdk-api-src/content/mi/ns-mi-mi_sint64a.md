@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Sint64A
 title: MI_Sint64A (mi.h)
-description: Represents an array of MI_Sint64 types.
+description: Represents an array of MI_Sint64 types.helpviewer_keywords: ["MI_Sint64A","MI_Sint64A structure [Windows Management Infrastructure (MI)]","mi/MI_Sint64A","wmi._mi_sint64a","wmi_v2.mi_sint64a"]
 old-location: wmi_v2\mi_sint64a.htm
 tech.root: wmi_v2
 ms.assetid: 2d5aac14-9f9f-426d-8eee-d6ea4ecb75f4

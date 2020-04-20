@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagCWPRETSTRUCT
 title: CWPRETSTRUCT (winuser.h)
-description: Defines the message parameters passed to a WH_CALLWNDPROCRET hook procedure, CallWndRetProc.
+description: Defines the message parameters passed to a WH_CALLWNDPROCRET hook procedure, CallWndRetProc.helpviewer_keywords: ["*LPCWPRETSTRUCT","*NPCWPRETSTRUCT","*PCWPRETSTRUCT","CWPRETSTRUCT","CWPRETSTRUCT structure [Windows and Messages]","LPCWPRETSTRUCT","LPCWPRETSTRUCT structure pointer [Windows and Messages]","PCWPRETSTRUCT","PCWPRETSTRUCT structure pointer [Windows and Messages]","_win32_CWPRETSTRUCT_str","_win32_cwpretstruct_str_cpp","winmsg.cwpretstruct","winui._win32_cwpretstruct_str","winuser/CWPRETSTRUCT","winuser/LPCWPRETSTRUCT","winuser/PCWPRETSTRUCT"]
 old-location: winmsg\cwpretstruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\cwpretstruct.htm

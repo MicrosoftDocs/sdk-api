@@ -1,7 +1,7 @@
 ---
 UID: NF:clfsw32.RemoveLogContainerSet
 title: RemoveLogContainerSet function (clfsw32.h)
-description: Removes multiple containers from a log that is associated with a dedicated or multiplexed log handle.
+description: Removes multiple containers from a log that is associated with a dedicated or multiplexed log handle.helpviewer_keywords: ["RemoveLogContainerSet","RemoveLogContainerSet function [Files]","clfsw32/RemoveLogContainerSet","fs.removelogcontainerset"]
 old-location: fs\removelogcontainerset.htm
 tech.root: Clfs
 ms.assetid: adc35813-7368-4d8c-ad2b-1bb0824ad019

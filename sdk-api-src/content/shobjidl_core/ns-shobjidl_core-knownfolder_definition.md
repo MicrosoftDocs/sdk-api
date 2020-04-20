@@ -1,7 +1,7 @@
 ---
 UID: NS:shobjidl_core.KNOWNFOLDER_DEFINITION
 title: KNOWNFOLDER_DEFINITION (shobjidl_core.h)
-description: Defines the specifics of a known folder.
+description: Defines the specifics of a known folder.helpviewer_keywords: ["KNOWNFOLDER_DEFINITION","KNOWNFOLDER_DEFINITION structure [Windows Shell]","_shell_KNOWNFOLDER_DEFINITION","shell.KNOWNFOLDER_DEFINITION","shobjidl_core/KNOWNFOLDER_DEFINITION"]
 old-location: shell\KNOWNFOLDER_DEFINITION.htm
 tech.root: shell
 ms.assetid: 08bd8406-68fa-4e02-9a64-ed5e62f8639b

@@ -1,7 +1,7 @@
 ---
 UID: NN:peninputpanel.IPenInputPanel
 title: IPenInputPanel (peninputpanel.h)
-description: .
+description: .helpviewer_keywords: ["IPenInputPanel","IPenInputPanel interface [Tablet PC]","IPenInputPanel interface [Tablet PC]","described","peninputpanel/IPenInputPanel","tablet.ipeninputpanel"]
 old-location: tablet\ipeninputpanel.htm
 tech.root: tablet
 ms.assetid: AA973F9D-264F-4D08-9D86-C5DAEF1C09D5
@@ -48,9 +48,9 @@ ms.custom: 19H1
 
 ## -description
 
+Enables adding in-place pen input to your applications.
 
-
-
+**IPenInputPanel** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [IInputPanelConfiguration interface](../inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration.md).
 
 ## -inheritance
 

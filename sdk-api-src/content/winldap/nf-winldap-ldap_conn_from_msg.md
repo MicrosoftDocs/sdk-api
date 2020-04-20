@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_conn_from_msg
 title: ldap_conn_from_msg function (winldap.h)
-description: Returns the LDAP session handle (connection pointer) for a particular message.
+description: Returns the LDAP session handle (connection pointer) for a particular message.helpviewer_keywords: ["_ldap_ldap_conn_from_msg","ldap.ldap__conn__from__msg","ldap.ldap_conn_from_msg","ldap_conn_from_msg","ldap_conn_from_msg function [LDAP]","winldap/ldap_conn_from_msg"]
 old-location: ldap\ldap_conn_from_msg.htm
 tech.root: ldap
 ms.assetid: 0f536c42-06c1-43d9-a298-4a9e9bf96a46

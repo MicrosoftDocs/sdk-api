@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorGetOutputColorSpace1
 title: ID3D11VideoContext1::VideoProcessorGetOutputColorSpace1 (d3d11_1.h)
-description: Gets the color space information for the video processor output surface.
+description: Gets the color space information for the video processor output surface.helpviewer_keywords: ["ID3D11VideoContext1 interface [Media Foundation]","VideoProcessorGetOutputColorSpace1 method","ID3D11VideoContext1.VideoProcessorGetOutputColorSpace1","ID3D11VideoContext1::VideoProcessorGetOutputColorSpace1","VideoProcessorGetOutputColorSpace1","VideoProcessorGetOutputColorSpace1 method [Media Foundation]","VideoProcessorGetOutputColorSpace1 method [Media Foundation]","ID3D11VideoContext1 interface","d3d11_1/ID3D11VideoContext1::VideoProcessorGetOutputColorSpace1","mf.id3d11videocontext1_videoprocessorgetoutputcolorspace1"]
 old-location: mf\id3d11videocontext1_videoprocessorgetoutputcolorspace1.htm
 tech.root: medfound
 ms.assetid: 1B2BC801-CC5C-460C-A10E-CCDEE35A8E27
@@ -69,15 +69,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/n
 Type: <b>DXGI_COLOR_SPACE_TYPE*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a> value that indicates the colorspace for the video processor output surface.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

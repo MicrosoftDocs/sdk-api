@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.IsWindowedStereoEnabled
 title: IDXGIFactory2::IsWindowedStereoEnabled (dxgi1_2.h)
-description: Determines whether to use stereo mode.
+description: Determines whether to use stereo mode.helpviewer_keywords: ["IDXGIFactory2 interface [DXGI]","IsWindowedStereoEnabled method","IDXGIFactory2.IsWindowedStereoEnabled","IDXGIFactory2::IsWindowedStereoEnabled","IsWindowedStereoEnabled","IsWindowedStereoEnabled method [DXGI]","IsWindowedStereoEnabled method [DXGI]","IDXGIFactory2 interface","direct3ddxgi.idxgifactory2_iswindowedstereoenabled","dxgi1_2/IDXGIFactory2::IsWindowedStereoEnabled"]
 old-location: direct3ddxgi\idxgifactory2_iswindowedstereoenabled.htm
 tech.root: direct3ddxgi
 ms.assetid: 81DA1DD6-7D36-4848-ADCB-1F7B765B0A62

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumObjects.Clone
 title: IEnumObjects::Clone (shobjidl_core.h)
-description: Not implemented.Not implemented.
+description: Not implemented.Not implemented.helpviewer_keywords: ["Clone","Clone method [Windows Shell]","Clone method [Windows Shell]","IEnumObjects interface","IEnumObjects interface [Windows Shell]","Clone method","IEnumObjects.Clone","IEnumObjects::Clone","_shell_IEnumObjects_Clone","shell.IEnumObjects_Clone","shobjidl_core/IEnumObjects::Clone"]
 old-location: shell\IEnumObjects_Clone.htm
 tech.root: shell
 ms.assetid: 17dd1539-cf98-4cbf-8c06-4e21123f6f54

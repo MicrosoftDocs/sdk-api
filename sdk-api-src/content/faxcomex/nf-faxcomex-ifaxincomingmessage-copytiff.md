@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.CopyTiff
 title: IFaxIncomingMessage::CopyTiff (faxcomex.h)
-description: The CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax message to a file on the local computer.
+description: The CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax message to a file on the local computer.helpviewer_keywords: ["CopyTiff","CopyTiff method [Fax Service]","CopyTiff method [Fax Service]","IFaxIncomingMessage interface","IFaxIncomingMessage interface [Fax Service]","CopyTiff method","IFaxIncomingMessage.CopyTiff","IFaxIncomingMessage::CopyTiff","_mfax_faxincomingmessage.copytiff","fax._mfax_faxincomingmessage_copytiff","fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_copytiff_cpp","faxcomex/IFaxIncomingMessage::CopyTiff"]
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_copytiff_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1vc6.htm

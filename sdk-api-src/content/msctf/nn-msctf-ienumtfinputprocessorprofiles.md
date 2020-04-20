@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.IEnumTfInputProcessorProfiles
 title: IEnumTfInputProcessorProfiles (msctf.h)
-description: The IEnumTfInputProcessorProfiles interface is implemented by TSF manager and used by applications or textservices. This interface can be retrieved by ITfInputProcessorProfileMgr::EnumProfiles and enumerates the registered profiles.
+description: The IEnumTfInputProcessorProfiles interface is implemented by TSF manager and used by applications or textservices. This interface can be retrieved by ITfInputProcessorProfileMgr::EnumProfiles and enumerates the registered profiles.helpviewer_keywords: ["IEnumTfInputProcessorProfiles","IEnumTfInputProcessorProfiles interface [Text Services Framework]","IEnumTfInputProcessorProfiles interface [Text Services Framework]","described","_tsf_ienumtfinputprocessorprofiles_ref","msctf/IEnumTfInputProcessorProfiles","tsf.ienumtfinputprocessorprofiles"]
 old-location: tsf\ienumtfinputprocessorprofiles.htm
 tech.root: TSF
 ms.assetid: 1a6dd7f9-d348-4c86-8d74-544aaa45581d

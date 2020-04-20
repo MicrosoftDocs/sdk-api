@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI8FromDisp
 title: VarI8FromDisp function (oleauto.h)
-description: Converts the default property of an IDispatch instance to an 8-byte integer value.
+description: Converts the default property of an IDispatch instance to an 8-byte integer value.helpviewer_keywords: ["VarI8FromDisp","VarI8FromDisp function [Automation]","_oa96_VarI8FromDisp","automat.vari8fromdisp","oleauto/VarI8FromDisp"]
 old-location: automat\vari8fromdisp.htm
 tech.root: automat
 ms.assetid: 8b638eb0-d56d-4851-a913-b121beb4dbe3

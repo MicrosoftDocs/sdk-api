@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetFileName
 title: IESLicenseRenewalResultEvent::GetFileName (tuner.h)
-description: Gets the file name for the license to renew from a LicenseRenewalResult event.
+description: Gets the file name for the license to renew from a LicenseRenewalResult event.helpviewer_keywords: ["GetFileName","GetFileName method [DirectShow]","GetFileName method [DirectShow]","IESLicenseRenewalResultEvent interface","IESLicenseRenewalResultEvent interface [DirectShow]","GetFileName method","IESLicenseRenewalResultEvent.GetFileName","IESLicenseRenewalResultEvent::GetFileName","mstv.ieslicenserenewalresultevent_getfilename","tuner/IESLicenseRenewalResultEvent::GetFileName"]
 old-location: mstv\ieslicenserenewalresultevent_getfilename.htm
 tech.root: mstv
 ms.assetid: 6ef49a38-c005-4731-a1cb-d5a63ea94e71

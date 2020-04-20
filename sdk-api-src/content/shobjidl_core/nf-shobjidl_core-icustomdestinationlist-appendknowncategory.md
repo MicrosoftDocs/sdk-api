@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.AppendKnownCategory
 title: ICustomDestinationList::AppendKnownCategory (shobjidl_core.h)
-description: Specifies that the Frequent or Recent category should be included in a custom Jump List.
+description: Specifies that the Frequent or Recent category should be included in a custom Jump List.helpviewer_keywords: ["AppendKnownCategory","AppendKnownCategory method [Windows Shell]","AppendKnownCategory method [Windows Shell]","ICustomDestinationList interface","ICustomDestinationList interface [Windows Shell]","AppendKnownCategory method","ICustomDestinationList.AppendKnownCategory","ICustomDestinationList::AppendKnownCategory","KDC_FREQUENT","KDC_RECENT","_shell_ICustomDestinationList_AppendKnownCategory","shell.ICustomDestinationList_AppendKnownCategory","shobjidl_core/ICustomDestinationList::AppendKnownCategory"]
 old-location: shell\ICustomDestinationList_AppendKnownCategory.htm
 tech.root: shell
 ms.assetid: ce73fff3-8d1a-4912-98ce-7149460ffa49

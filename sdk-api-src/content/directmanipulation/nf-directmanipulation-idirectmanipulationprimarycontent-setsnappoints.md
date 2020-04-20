@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetSnapPoints
 title: IDirectManipulationPrimaryContent::SetSnapPoints (directmanipulation.h)
-description: Specifies the snap points for the inertia rest position.
+description: Specifies the snap points for the inertia rest position.helpviewer_keywords: ["IDirectManipulationPrimaryContent interface [Direct Manipulation]","SetSnapPoints method","IDirectManipulationPrimaryContent.SetSnapPoints","IDirectManipulationPrimaryContent::SetSnapPoints","SetSnapPoints","SetSnapPoints method [Direct Manipulation]","SetSnapPoints method [Direct Manipulation]","IDirectManipulationPrimaryContent interface","directmanipulation.idirectmanipulationprimarycontent_setsnappoints","directmanipulation/IDirectManipulationPrimaryContent::SetSnapPoints"]
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnappoints.htm
 tech.root: directmanipulation
 ms.assetid: 3257952d-903b-455c-9422-9739411a5924

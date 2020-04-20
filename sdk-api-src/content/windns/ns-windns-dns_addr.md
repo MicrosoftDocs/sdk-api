@@ -1,7 +1,7 @@
 ---
 UID: NS:windns._DnsAddr
 title: DNS_ADDR (windns.h)
-description: A DNS_ADDR structure stores an IPv4 or IPv6 address.
+description: A DNS_ADDR structure stores an IPv4 or IPv6 address.helpviewer_keywords: ["*PDNS_ADDR","DNS_ADDR","DNS_ADDR structure [DNS]","PDNS_ADDR","PDNS_ADDR structure pointer [DNS]","dns.dns_addr","windns/DNS_ADDR","windns/PDNS_ADDR"]
 old-location: dns\dns_addr.htm
 tech.root: DNS
 ms.assetid: c14e6fc0-34b3-40e8-b9b8-61e4aea01677

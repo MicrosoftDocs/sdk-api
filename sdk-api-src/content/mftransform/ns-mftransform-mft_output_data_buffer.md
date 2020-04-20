@@ -1,7 +1,7 @@
 ---
 UID: NS:mftransform._MFT_OUTPUT_DATA_BUFFER
 title: MFT_OUTPUT_DATA_BUFFER (mftransform.h)
-description: Contains information about an output buffer for a Media Foundation transform. This structure is used in the IMFTransform::ProcessOutput method.
+description: Contains information about an output buffer for a Media Foundation transform. This structure is used in the IMFTransform::ProcessOutput method.helpviewer_keywords: ["*PMFT_OUTPUT_DATA_BUFFER","57623c8f-f7b6-4cb3-8d54-4ee516c706c3","MFT_OUTPUT_DATA_BUFFER","MFT_OUTPUT_DATA_BUFFER structure [Media Foundation]","mf.mft_output_data_buffer","mftransform/MFT_OUTPUT_DATA_BUFFER"]
 old-location: mf\mft_output_data_buffer.htm
 tech.root: medfound
 ms.assetid: 57623c8f-f7b6-4cb3-8d54-4ee516c706c3

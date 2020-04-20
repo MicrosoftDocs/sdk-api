@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge
 title: ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge (winsync.h)
-description: Gets the minimum knowledge that a destination provider is required to have to process this change.
+description: Gets the minimum knowledge that a destination provider is required to have to process this change.helpviewer_keywords: ["GetPrerequisiteKnowledge","GetPrerequisiteKnowledge method [Windows Sync]","GetPrerequisiteKnowledge method [Windows Sync]","ISyncChangeWithPrerequisite interface","ISyncChangeWithPrerequisite interface [Windows Sync]","GetPrerequisiteKnowledge method","ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge","ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge","winsync.isyncchangewithprerequisite_getprerequisiteknowledge","winsync/ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge"]
 old-location: winsync\isyncchangewithprerequisite_getprerequisiteknowledge.htm
 tech.root: winsync
 ms.assetid: 48aa9436-b708-4dad-9201-d57988baf749

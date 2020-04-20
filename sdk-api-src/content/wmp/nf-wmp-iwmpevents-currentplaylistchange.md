@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.CurrentPlaylistChange
 title: IWMPEvents::CurrentPlaylistChange (wmp.h)
-description: The CurrentPlaylistChange event occurs when something changes within the current playlist.
+description: The CurrentPlaylistChange event occurs when something changes within the current playlist.helpviewer_keywords: ["CurrentPlaylistChange","CurrentPlaylistChange method [Windows Media Player]","CurrentPlaylistChange method [Windows Media Player]","IWMPEvents interface","IWMPEvents interface [Windows Media Player]","CurrentPlaylistChange method","IWMPEvents.CurrentPlaylistChange","IWMPEvents::CurrentPlaylistChange","IWMPEventsCurrentPlaylistChange","wmp.iwmpevents_iwmpevents__currentplaylistchange","wmp/IWMPEvents::CurrentPlaylistChange"]
 old-location: wmp\iwmpevents_iwmpevents__currentplaylistchange.htm
 tech.root: WMP
 ms.assetid: b8020b8a-4f2e-4039-862e-9c0f371645fa
@@ -63,15 +63,6 @@ The <b>CurrentPlaylistChange</b> event occurs when something changes within the 
 ### -param change [in]
 
 Specifies what type of change occurred to the playlist. See the <b>PlaylistChange</b> event for a table of possible values.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

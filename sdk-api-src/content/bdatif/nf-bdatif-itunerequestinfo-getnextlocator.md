@@ -1,7 +1,7 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetNextLocator
 title: ITuneRequestInfo::GetNextLocator (bdatif.h)
-description: The GetNextLocator method creates a new tune request with locator information for the next transport stream on the network.
+description: The GetNextLocator method creates a new tune request with locator information for the next transport stream on the network.helpviewer_keywords: ["GetNextLocator","GetNextLocator method [Microsoft TV Technologies]","GetNextLocator method [Microsoft TV Technologies]","ITuneRequestInfo interface","ITuneRequestInfo interface [Microsoft TV Technologies]","GetNextLocator method","ITuneRequestInfo.GetNextLocator","ITuneRequestInfo::GetNextLocator","ITuneRequestInfoGetNextLocator","bdatif/ITuneRequestInfo::GetNextLocator","mstv.itunerequestinfo_getnextlocator"]
 old-location: mstv\itunerequestinfo_getnextlocator.htm
 tech.root: mstv
 ms.assetid: 300479bf-f8e3-41e2-898e-8a87e4abc801

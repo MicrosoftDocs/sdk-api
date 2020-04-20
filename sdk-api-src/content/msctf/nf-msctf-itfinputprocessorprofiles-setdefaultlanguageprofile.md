@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.SetDefaultLanguageProfile
 title: ITfInputProcessorProfiles::SetDefaultLanguageProfile (msctf.h)
-description: ITfInputProcessorProfiles::SetDefaultLanguageProfile method
+description: ITfInputProcessorProfiles::SetDefaultLanguageProfile methodhelpviewer_keywords: ["ITfInputProcessorProfiles interface [Text Services Framework]","SetDefaultLanguageProfile method","ITfInputProcessorProfiles.SetDefaultLanguageProfile","ITfInputProcessorProfiles::SetDefaultLanguageProfile","SetDefaultLanguageProfile","SetDefaultLanguageProfile method [Text Services Framework]","SetDefaultLanguageProfile method [Text Services Framework]","ITfInputProcessorProfiles interface","_tsf_itfinputprocessorprofiles_setdefaultlanguageprofile_ref","msctf/ITfInputProcessorProfiles::SetDefaultLanguageProfile","tsf.itfinputprocessorprofiles_setdefaultlanguageprofile"]
 old-location: tsf\itfinputprocessorprofiles_setdefaultlanguageprofile.htm
 tech.root: TSF
 ms.assetid: 385bf5d6-6541-483d-8286-1ba759616fc6
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the default profile for a specific language.
 
 ## -parameters
 

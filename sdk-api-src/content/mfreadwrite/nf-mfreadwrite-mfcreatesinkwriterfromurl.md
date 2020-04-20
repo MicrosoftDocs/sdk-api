@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.MFCreateSinkWriterFromURL
 title: MFCreateSinkWriterFromURL function (mfreadwrite.h)
-description: Creates the sink writer from a URL or byte stream.
+description: Creates the sink writer from a URL or byte stream.helpviewer_keywords: ["MFCreateSinkWriterFromURL","MFCreateSinkWriterFromURL function [Media Foundation]","mf.mfcreatesinkwriterfromurl","mfreadwrite/MFCreateSinkWriterFromURL"]
 old-location: mf\mfcreatesinkwriterfromurl.htm
 tech.root: medfound
 ms.assetid: ac6a30c7-5e44-453a-8114-8d7d65332024

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IWizardSite.GetCancelledPage
 title: IWizardSite::GetCancelledPage (shobjidl.h)
-description: Called when the user cancels navigation through the wizard extension. Gets the handle of the PROPSHEETPAGE that represents the wizard page to display when the user cancels navigation while in the wizard extension.
+description: Called when the user cancels navigation through the wizard extension. Gets the handle of the PROPSHEETPAGE that represents the wizard page to display when the user cancels navigation while in the wizard extension.helpviewer_keywords: ["GetCancelledPage","GetCancelledPage method [Windows Shell]","GetCancelledPage method [Windows Shell]","IWizardSite interface","IWizardSite interface [Windows Shell]","GetCancelledPage method","IWizardSite.GetCancelledPage","IWizardSite::GetCancelledPage","_shell_IWizardSite_GetCancelledPage","shell.IWizardSite_GetCancelledPage","shobjidl/IWizardSite::GetCancelledPage"]
 old-location: shell\IWizardSite_GetCancelledPage.htm
 tech.root: shell
 ms.assetid: 682f5624-5fec-4bc9-9455-150e8e951538

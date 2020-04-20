@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLastInputTime
 title: IWRdsProtocolConnection::GetLastInputTime (wtsprotocol.h)
-description: Retrieves the last time the protocol received user input.
+description: Retrieves the last time the protocol received user input.helpviewer_keywords: ["GetLastInputTime","GetLastInputTime method [Remote Desktop Services]","GetLastInputTime method [Remote Desktop Services]","IWRdsProtocolConnection interface","IWRdsProtocolConnection interface [Remote Desktop Services]","GetLastInputTime method","IWRdsProtocolConnection.GetLastInputTime","IWRdsProtocolConnection::GetLastInputTime","termserv.iwrdsprotocolconnection_getlastinputtime","wtsprotocol/IWRdsProtocolConnection::GetLastInputTime"]
 old-location: termserv\iwrdsprotocolconnection_getlastinputtime.htm
 tech.root: TermServ
 ms.assetid: 1a6acbd2-6155-4513-8892-50a4552abb12

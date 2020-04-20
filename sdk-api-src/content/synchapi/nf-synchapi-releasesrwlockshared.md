@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.ReleaseSRWLockShared
 title: ReleaseSRWLockShared function (synchapi.h)
-description: Releases a slim reader/writer (SRW) lock that was acquired in shared mode.
+description: Releases a slim reader/writer (SRW) lock that was acquired in shared mode.helpviewer_keywords: ["ReleaseSRWLockShared","ReleaseSRWLockShared function","base.releasesrwlockshared","synchapi/ReleaseSRWLockShared","winbase/ReleaseSRWLockShared"]
 old-location: base\releasesrwlockshared.htm
 tech.root: Sync
 ms.assetid: afefd9f2-7fd4-4cba-9a6f-1f9da614dcec
@@ -69,15 +69,6 @@ Releases a slim reader/writer (SRW) lock that was acquired in shared mode.
 ### -param SRWLock [in, out]
 
 A pointer to the SRW lock.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

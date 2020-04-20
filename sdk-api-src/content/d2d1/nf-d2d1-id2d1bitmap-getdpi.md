@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Bitmap.GetDpi
 title: ID2D1Bitmap::GetDpi (d2d1.h)
-description: Return the dots per inch (DPI) of the bitmap.
+description: Return the dots per inch (DPI) of the bitmap.helpviewer_keywords: ["GetDpi","GetDpi method [Direct2D]","GetDpi method [Direct2D]","ID2D1Bitmap interface","ID2D1Bitmap interface [Direct2D]","GetDpi method","ID2D1Bitmap.GetDpi","ID2D1Bitmap::GetDpi","d2d1/ID2D1Bitmap::GetDpi","direct2d.ID2D1Bitmap_GetDpi"]
 old-location: direct2d\ID2D1Bitmap_GetDpi.htm
 tech.root: Direct2D
 ms.assetid: 50659165-86e9-4143-af88-a68e422a74e0
@@ -69,15 +69,6 @@ The horizontal DPI of the image. You must allocate storage for this parameter.
 Type: <b>FLOAT*</b>
 
 The vertical DPI of the image.  You must allocate storage for this parameter.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

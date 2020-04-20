@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.RemoveAt
 title: IXpsOMSignatureBlockResourceCollection::RemoveAt (xpsobjectmodel.h)
-description: Removes and releases an IXpsOMSignatureBlockResource interface pointer from a specified location in the collection.
+description: Removes and releases an IXpsOMSignatureBlockResource interface pointer from a specified location in the collection.helpviewer_keywords: ["IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMSignatureBlockResourceCollection.RemoveAt","IXpsOMSignatureBlockResourceCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMSignatureBlockResourceCollection interface","xps.ixpsomsignatureblockresourcecollection_removeat","xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::RemoveAt"]
 old-location: xps\ixpsomsignatureblockresourcecollection_removeat.htm
 tech.root: printdocs
 ms.assetid: 5f33e46a-0926-4802-8581-eca5f1cdea65

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamAlpha
 title: ID3D11VideoContext::VideoProcessorSetStreamAlpha (d3d11.h)
-description: Sets the planar alpha for an input stream on the video processor.
+description: Sets the planar alpha for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamAlpha method","ID3D11VideoContext.VideoProcessorSetStreamAlpha","ID3D11VideoContext::VideoProcessorSetStreamAlpha","VideoProcessorSetStreamAlpha","VideoProcessorSetStreamAlpha method [Media Foundation]","VideoProcessorSetStreamAlpha method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamAlpha","mf.id3d11videocontext_videoprocessorsetstreamalpha"]
 old-location: mf\id3d11videocontext_videoprocessorsetstreamalpha.htm
 tech.root: medfound
 ms.assetid: DA869E3F-25BB-4794-B7AE-A3C2DA968800
@@ -76,15 +76,6 @@ Specifies whether alpha blending is enabled.
 
 The planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaque). 
  If <i>Enable</i> is <b>FALSE</b>, this parameter is ignored.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

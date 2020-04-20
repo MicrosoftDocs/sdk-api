@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertGetCRLContextProperty
 title: CertGetCRLContextProperty function (wincrypt.h)
-description: Gets an extended property for the specified certificate revocation list (CRL) context.
+description: Gets an extended property for the specified certificate revocation list (CRL) context.helpviewer_keywords: ["CERT_ACCESS_STATE_PROP_ID","CERT_ARCHIVED_PROP_ID","CERT_AUTO_ENROLL_PROP_ID","CERT_CTL_USAGE_PROP_ID","CERT_DESCRIPTION_PROP_ID","CERT_ENHKEY_USAGE_PROP_ID","CERT_FRIENDLY_NAME_PROP_ID","CERT_ISSUER_CHAIN_PUB_KEY_CNG_ALG_BIT_LENGTH_PROP_ID","CERT_ISSUER_CHAIN_SIGN_HASH_CNG_ALG_PROP_ID","CERT_ISSUER_PUB_KEY_BIT_LENGTH_PROP_ID","CERT_KEY_CONTEXT_PROP_ID","CERT_KEY_IDENTIFIER_PROP_ID","CERT_KEY_PROV_HANDLE_PROP_ID","CERT_KEY_PROV_INFO_PROP_ID","CERT_KEY_SPEC_PROP_ID","CERT_MD5_HASH_PROP_ID","CERT_NEXT_UPDATE_LOCATION_PROP_ID","CERT_PVK_FILE_PROP_ID","CERT_SHA1_HASH_PROP_ID","CERT_SIGNATURE_HASH_PROP_ID","CERT_SIGN_HASH_CNG_ALG_PROP_ID","CertGetCRLContextProperty","CertGetCRLContextProperty function [Security]","_crypto2_certgetcrlcontextproperty","security.certgetcrlcontextproperty","wincrypt/CertGetCRLContextProperty"]
 old-location: security\certgetcrlcontextproperty.htm
 tech.root: SecCrypto
 ms.assetid: 16c2cc06-28fd-42d9-a377-0df2eaeeae56

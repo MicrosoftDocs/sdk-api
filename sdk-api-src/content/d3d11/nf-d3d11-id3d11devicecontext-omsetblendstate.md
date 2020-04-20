@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMSetBlendState
 title: ID3D11DeviceContext::OMSetBlendState (d3d11.h)
-description: Set the blend state of the output-merger stage.
+description: Set the blend state of the output-merger stage.helpviewer_keywords: ["1f1e71f6-6b9d-3137-ba6e-8c5e5e8079ac","ID3D11DeviceContext interface [Direct3D 11]","OMSetBlendState method","ID3D11DeviceContext.OMSetBlendState","ID3D11DeviceContext::OMSetBlendState","OMSetBlendState","OMSetBlendState method [Direct3D 11]","OMSetBlendState method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::OMSetBlendState","direct3d11.id3d11devicecontext_omsetblendstate"]
 old-location: direct3d11\id3d11devicecontext_omsetblendstate.htm
 tech.root: direct3d11
 ms.assetid: fabcae1d-2ad8-4f4d-8eef-18945e369225
@@ -77,15 +77,6 @@ Array of blend factors, one for each RGBA component. The blend factors modulate 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 32-bit sample coverage. The default value is 0xffffffff. See remarks.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

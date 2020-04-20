@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.IChangeUnitException
 title: IChangeUnitException (winsync.h)
-description: Represents a change unit to exclude from a knowledge object.
+description: Represents a change unit to exclude from a knowledge object.helpviewer_keywords: ["IChangeUnitException","IChangeUnitException interface [Windows Sync]","IChangeUnitException interface [Windows Sync]","described","winsync.ichangeunitexception","winsync/IChangeUnitException"]
 old-location: winsync\ichangeunitexception.htm
 tech.root: winsync
 ms.assetid: 3b47abab-0a33-405f-a765-307ab800bad6

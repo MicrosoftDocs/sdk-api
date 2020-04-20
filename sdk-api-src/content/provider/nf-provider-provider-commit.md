@@ -1,7 +1,7 @@
 ---
 UID: NF:provider.Provider.Commit
 title: Provider::Commit (provider.h)
-description: The Commit method is used to send an instance to WMI. This method is a helper function and should not be overridden.
+description: The Commit method is used to send an instance to WMI. This method is a helper function and should not be overridden.helpviewer_keywords: ["?Commit@Provider@@IAEJPAVCInstance@@_N@Z","?Commit@Provider@@IEAAJPEAVCInstance@@_N@Z","Commit","Commit method [Windows Management Instrumentation]","Commit method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","Commit method","Provider.Commit","Provider::Commit","_hmm_provider_commit","provider/Provider::Commit","wmi.provider_commit"]
 old-location: wmi\provider_commit.htm
 tech.root: WmiSdk
 ms.assetid: 619adf78-26db-4a90-90ba-bdacb3e55975

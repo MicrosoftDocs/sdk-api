@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange2.GetText2
 title: ITextRange2::GetText2 (tom.h)
-description: Gets the text in this range according to the specified conversion flags.
+description: Gets the text in this range according to the specified conversion flags.helpviewer_keywords: ["GetText2","GetText2 method [Windows Controls]","GetText2 method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetText2 method","ITextRange2.GetText2","ITextRange2::GetText2","controls.itextrange2_gettext2","tom/ITextRange2::GetText2","tomAdjustCRLF","tomAllowFinalEOP","tomFoldMathAlpha","tomIncludeNumbering","tomLanguageTag","tomNoHidden","tomNoMathZoneBrackets","tomTextize","tomTranslateTableCell","tomUseCRLF"]
 old-location: controls\itextrange2_gettext2.htm
 tech.root: Controls
 ms.assetid: 77f39808-b39d-45bb-ba03-3a27d503fe0e

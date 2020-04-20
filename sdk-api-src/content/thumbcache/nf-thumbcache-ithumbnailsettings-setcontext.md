@@ -1,7 +1,7 @@
 ---
 UID: NF:thumbcache.IThumbnailSettings.SetContext
 title: IThumbnailSettings::SetContext (thumbcache.h)
-description: Enables a thumbnail provider to return a thumbnail specific to the user's context.
+description: Enables a thumbnail provider to return a thumbnail specific to the user's context.helpviewer_keywords: ["IThumbnailSettings interface [Windows Shell]","SetContext method","IThumbnailSettings.SetContext","IThumbnailSettings::SetContext","SetContext","SetContext method [Windows Shell]","SetContext method [Windows Shell]","IThumbnailSettings interface","shell.IThumbnailSettings_SetContext","thumbcache/IThumbnailSettings::SetContext"]
 old-location: shell\IThumbnailSettings_SetContext.htm
 tech.root: shell
 ms.assetid: AD333075-3358-4fee-BDEE-087B7012C93E

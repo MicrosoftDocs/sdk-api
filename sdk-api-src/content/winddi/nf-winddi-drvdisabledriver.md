@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvDisableDriver
 title: DrvDisableDriver function (winddi.h)
-description: The DrvDisableDriver function is used by GDI to notify a driver that it no longer requires the driver and is ready to unload it.
+description: The DrvDisableDriver function is used by GDI to notify a driver that it no longer requires the driver and is ready to unload it.helpviewer_keywords: ["DrvDisableDriver","DrvDisableDriver function [Display Devices]","ddifncs_213ec824-0230-4b4b-879e-ed48401f3788.xml","display.drvdisabledriver","winddi/DrvDisableDriver"]
 old-location: display\drvdisabledriver.htm
 tech.root: display
 ms.assetid: 8f12cc40-6cff-4e40-a264-58d16d3e55bd
@@ -55,15 +55,6 @@ The <b>DrvDisableDriver</b> function is used by GDI to notify a driver that it n
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-None
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:tsgpolicyengine.ITSGAccountingEngine.DoAccounting
 title: ITSGAccountingEngine::DoAccounting (tsgpolicyengine.h)
-description: Provides information about the creation or closing of sessions for a connection.
+description: Provides information about the creation or closing of sessions for a connection.helpviewer_keywords: ["DoAccounting","DoAccounting method [Remote Desktop Services]","DoAccounting method [Remote Desktop Services]","ITSGAccountingEngine interface","ITSGAccountingEngine interface [Remote Desktop Services]","DoAccounting method","ITSGAccountingEngine.DoAccounting","ITSGAccountingEngine::DoAccounting","termserv.itsgaccountingengine_doaccounting","tsgpolicyengine/ITSGAccountingEngine::DoAccounting"]
 old-location: termserv\itsgaccountingengine_doaccounting.htm
 tech.root: TermServ
 ms.assetid: ebc57caa-804b-46a4-96bb-8b50c13029ab

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.SetPredication
 title: ID3D12VideoDecodeCommandList::SetPredication
-description: Specifies that subsequent commands should not be performed if the predicate value passes the specified operation.
+description: Specifies that subsequent commands should not be performed if the predicate value passes the specified operation.helpviewer_keywords: ["ID3D12VideoDecodeCommandList::SetPredication","SetPredication","ID3D12VideoDecodeCommandList.SetPredication","ID3D12VideoDecodeCommandList::SetPredication","ID3D12VideoDecodeCommandList.SetPredication"]
 tech.root: mf
 ms.assetid: b0cf433f-b0d2-463d-b960-8964807b0012
 ms.date: 05/28/2019
@@ -60,10 +60,6 @@ The UINT64-aligned buffer offset.
 
 A member of the [D3D12_PREDICATION_OP](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op) enumeration specifying the predicate operation.
 
-
-## -returns
-
-This method returns void.
 
 ## -remarks
 

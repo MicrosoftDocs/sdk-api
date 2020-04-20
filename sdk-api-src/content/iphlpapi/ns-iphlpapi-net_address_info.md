@@ -1,7 +1,7 @@
 ---
 UID: NS:iphlpapi.NET_ADDRESS_INFO_
 title: NET_ADDRESS_INFO (iphlpapi.h)
-description: Contains IP address information returned by the ParseNetworkString function.
+description: Contains IP address information returned by the ParseNetworkString function.helpviewer_keywords: ["*PNET_ADDRESS_INFO","NET_ADDRESS_INFO","NET_ADDRESS_INFO structure [IP Helper]","NET_ADDRESS_INFO_","PNET_ADDRESS_INFO","PNET_ADDRESS_INFO structure pointer [IP Helper]","iphlp.net_address_info","iphlpapi/NET_ADDRESS_INFO","iphlpapi/PNET_ADDRESS_INFO"]
 old-location: iphlp\net_address_info.htm
 tech.root: IpHlp
 ms.assetid: 1a59cc13-a3fc-4489-aafd-444a96d9a339

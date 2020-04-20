@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.ClearStorageFilter
 title: IDXGIInfoQueue::ClearStorageFilter (dxgidebug.h)
-description: Removes a storage filter from the top of the storage-filter stack.
+description: Removes a storage filter from the top of the storage-filter stack.helpviewer_keywords: ["ClearStorageFilter","ClearStorageFilter method [DXGI]","ClearStorageFilter method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","ClearStorageFilter method","IDXGIInfoQueue.ClearStorageFilter","IDXGIInfoQueue::ClearStorageFilter","direct3ddxgi.idxgiinfoqueue_clearstoragefilter","dxgidebug/IDXGIInfoQueue::ClearStorageFilter"]
 old-location: direct3ddxgi\idxgiinfoqueue_clearstoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: 4CD81C2B-53F2-4046-A001-72CBFD5C04CA
@@ -60,15 +60,6 @@ Removes a storage filter from the top of the storage-filter stack.
 ### -param Producer [in]
 
  A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that removes the filter.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

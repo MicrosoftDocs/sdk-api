@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetMetadataHandlerInfo
 title: IWICMetadataReader::GetMetadataHandlerInfo (wincodecsdk.h)
-description: Gets the metadata handler info associated with the reader.
+description: Gets the metadata handler info associated with the reader.helpviewer_keywords: ["GetMetadataHandlerInfo","GetMetadataHandlerInfo method [Windows Imaging Component]","GetMetadataHandlerInfo method [Windows Imaging Component]","IWICMetadataReader interface","IWICMetadataReader interface [Windows Imaging Component]","GetMetadataHandlerInfo method","IWICMetadataReader.GetMetadataHandlerInfo","IWICMetadataReader::GetMetadataHandlerInfo","_wic_codec_iwicmetadatareader_getmetadatahandlerinfo","wic._wic_codec_iwicmetadatareader_getmetadatahandlerinfo","wincodecsdk/IWICMetadataReader::GetMetadataHandlerInfo"]
 old-location: wic\_wic_codec_iwicmetadatareader_getmetadatahandlerinfo.htm
 tech.root: wic
 ms.assetid: f3843044-4963-4e9f-8b5d-69d0201c9ec9

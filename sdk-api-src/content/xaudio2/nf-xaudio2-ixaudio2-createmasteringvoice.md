@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2.CreateMasteringVoice
 title: IXAudio2::CreateMasteringVoice (xaudio2.h)
-description: Creates and configures a mastering voice.
+description: Creates and configures a mastering voice.helpviewer_keywords: ["CreateMasteringVoice","CreateMasteringVoice method [XAudio2 Audio Mixing APIs]","CreateMasteringVoice method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","IXAudio2 interface [XAudio2 Audio Mixing APIs]","CreateMasteringVoice method","IXAudio2.CreateMasteringVoice","IXAudio2::CreateMasteringVoice","xaudio2.ixaudio2_interface_createmasteringvoice","xaudio2/IXAudio2::CreateMasteringVoice"]
 old-location: xaudio2\ixaudio2_interface_createmasteringvoice.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateMasteringVoice(IXAudio2MasteringVoice@,UINT32,UINT32,UINT32,LPCWSTR,const XAUDIO2_EFFECT_CHAIN,AUDIO_STREAM_CATEGORY)

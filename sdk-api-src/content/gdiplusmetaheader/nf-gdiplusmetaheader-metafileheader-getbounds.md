@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetBounds
 title: MetafileHeader::GetBounds (gdiplusmetaheader.h)
-description: The MetafileHeader::GetBounds method gets the bounding rectangle for the associated metafile.
+description: The MetafileHeader::GetBounds method gets the bounding rectangle for the associated metafile.helpviewer_keywords: ["GetBounds","GetBounds method [GDI+]","GetBounds method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetBounds method","MetafileHeader.GetBounds","MetafileHeader::GetBounds","_gdiplus_CLASS_MetafileHeader_GetBounds_rect_","gdiplus._gdiplus_CLASS_MetafileHeader_GetBounds_rect_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetBounds_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getbounds_14rect.htm
@@ -63,15 +63,6 @@ The <b>MetafileHeader::GetBounds</b> method gets the bounding rectangle for the 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>*</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> object that receives the bounding rectangle. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

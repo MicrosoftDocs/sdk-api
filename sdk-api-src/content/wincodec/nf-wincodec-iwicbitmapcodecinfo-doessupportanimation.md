@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.DoesSupportAnimation
 title: IWICBitmapCodecInfo::DoesSupportAnimation (wincodec.h)
-description: Retrieves a value indicating whether the codec supports animation.
+description: Retrieves a value indicating whether the codec supports animation.helpviewer_keywords: ["DoesSupportAnimation","DoesSupportAnimation method [Windows Imaging Component]","DoesSupportAnimation method [Windows Imaging Component]","IWICBitmapCodecInfo interface","IWICBitmapCodecInfo interface [Windows Imaging Component]","DoesSupportAnimation method","IWICBitmapCodecInfo.DoesSupportAnimation","IWICBitmapCodecInfo::DoesSupportAnimation","_wic_codec_iwicbitmapcodecinfo_doessupportanimation","wic._wic_codec_iwicbitmapcodecinfo_doessupportanimation","wincodec/IWICBitmapCodecInfo::DoesSupportAnimation"]
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportanimation.htm
 tech.root: wic
 ms.assetid: 17635459-e067-4fdb-a801-4ad6cc622215

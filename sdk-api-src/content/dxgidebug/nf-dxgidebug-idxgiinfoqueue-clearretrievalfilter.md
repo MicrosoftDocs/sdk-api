@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.ClearRetrievalFilter
 title: IDXGIInfoQueue::ClearRetrievalFilter (dxgidebug.h)
-description: Removes a retrieval filter from the top of the retrieval-filter stack.
+description: Removes a retrieval filter from the top of the retrieval-filter stack.helpviewer_keywords: ["ClearRetrievalFilter","ClearRetrievalFilter method [DXGI]","ClearRetrievalFilter method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","ClearRetrievalFilter method","IDXGIInfoQueue.ClearRetrievalFilter","IDXGIInfoQueue::ClearRetrievalFilter","direct3ddxgi.idxgiinfoqueue_clearretrievalfilter","dxgidebug/IDXGIInfoQueue::ClearRetrievalFilter"]
 old-location: direct3ddxgi\idxgiinfoqueue_clearretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: F8CCB852-4719-4A1D-A881-5A9EF37E18CF
@@ -60,15 +60,6 @@ Removes a retrieval filter from the top of the retrieval-filter stack.
 ### -param Producer [in]
 
  A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that removes the filter.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

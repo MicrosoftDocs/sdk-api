@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.Redirect
 title: IKnownFolderManager::Redirect (shobjidl_core.h)
-description: Redirects folder requests for common and per-user folders.
+description: Redirects folder requests for common and per-user folders.helpviewer_keywords: ["IKnownFolderManager interface [Windows Shell]","Redirect method","IKnownFolderManager.Redirect","IKnownFolderManager::Redirect","Redirect","Redirect method [Windows Shell]","Redirect method [Windows Shell]","IKnownFolderManager interface","_shell_IKnownFolderManager_Redirect","shell.IKnownFolderManager_Redirect","shobjidl_core/IKnownFolderManager::Redirect"]
 old-location: shell\IKnownFolderManager_Redirect.htm
 tech.root: shell
 ms.assetid: 0f4fc609-597b-4c72-b875-4b3f051dd056

@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.ClearStoredMessages
 title: IDXGIInfoQueue::ClearStoredMessages (dxgidebug.h)
-description: Clears all messages from the message queue.
+description: Clears all messages from the message queue.helpviewer_keywords: ["ClearStoredMessages","ClearStoredMessages method [DXGI]","ClearStoredMessages method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","ClearStoredMessages method","IDXGIInfoQueue.ClearStoredMessages","IDXGIInfoQueue::ClearStoredMessages","direct3ddxgi.idxgiinfoqueue_clearstoredmessages","dxgidebug/IDXGIInfoQueue::ClearStoredMessages"]
 old-location: direct3ddxgi\idxgiinfoqueue_clearstoredmessages.htm
 tech.root: direct3ddxgi
 ms.assetid: DAE3D3F2-A07E-4A24-863A-042AB3DAF98E
@@ -60,15 +60,6 @@ Clears all messages from the message queue.
 ### -param Producer [in]
 
  A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that clears the messages.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

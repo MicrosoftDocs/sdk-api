@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.ILIsEmpty
 title: ILIsEmpty function (shlobj_core.h)
-description: Verifies whether an ITEMIDLIST structure is empty.
+description: Verifies whether an ITEMIDLIST structure is empty.helpviewer_keywords: ["ILIsEmpty","ILIsEmpty function [Windows Shell]","_shell_ILIsEmpty","shell.ILIsEmpty","shlobj_core/ILIsEmpty"]
 old-location: shell\ILIsEmpty.htm
 tech.root: shell
 ms.assetid: bb727aad-9c4e-44dc-9c0c-4cbcbf3f9a78

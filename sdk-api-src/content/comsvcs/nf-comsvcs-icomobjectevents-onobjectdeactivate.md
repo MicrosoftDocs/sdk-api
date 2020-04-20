@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnObjectDeactivate
 title: IComObjectEvents::OnObjectDeactivate (comsvcs.h)
-description: Generated when the JIT-activated object is freed by SetComplete or SetAbort.
+description: Generated when the JIT-activated object is freed by SetComplete or SetAbort.helpviewer_keywords: ["IComObjectEvents interface [COM+]","OnObjectDeactivate method","IComObjectEvents.OnObjectDeactivate","IComObjectEvents::OnObjectDeactivate","OnObjectDeactivate","OnObjectDeactivate method [COM+]","OnObjectDeactivate method [COM+]","IComObjectEvents interface","_dtc_IComObjectEvents_OnObjectDeactivate","comsvcs/IComObjectEvents::OnObjectDeactivate","cos.icomobjectevents_onobjectdeactivate"]
 old-location: cos\icomobjectevents_onobjectdeactivate.htm
 tech.root: cossdk
 ms.assetid: 3284da44-bcc4-49eb-9aa8-40061bf51869

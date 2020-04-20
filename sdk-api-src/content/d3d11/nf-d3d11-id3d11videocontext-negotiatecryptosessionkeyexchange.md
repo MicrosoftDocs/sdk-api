@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.NegotiateCryptoSessionKeyExchange
 title: ID3D11VideoContext::NegotiateCryptoSessionKeyExchange (d3d11.h)
-description: Establishes the session key for a cryptographic session.
+description: Establishes the session key for a cryptographic session.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","NegotiateCryptoSessionKeyExchange method","ID3D11VideoContext.NegotiateCryptoSessionKeyExchange","ID3D11VideoContext::NegotiateCryptoSessionKeyExchange","NegotiateCryptoSessionKeyExchange","NegotiateCryptoSessionKeyExchange method [Media Foundation]","NegotiateCryptoSessionKeyExchange method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::NegotiateCryptoSessionKeyExchange","mf.id3d11videocontext_negotiatecryptosessionkeyexchange"]
 old-location: mf\id3d11videocontext_negotiatecryptosessionkeyexchange.htm
 tech.root: medfound
 ms.assetid: 76160B03-6F7F-4618-859B-0A7E73540CA4

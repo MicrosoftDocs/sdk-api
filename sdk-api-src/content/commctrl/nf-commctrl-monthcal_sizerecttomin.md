@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MonthCal_SizeRectToMin
 title: MonthCal_SizeRectToMin macro (commctrl.h)
-description: Calculates how many calendars will fit in the given rectangle, and then returns the minimum size that a rectangle needs to be to fit that number of calendars. You can use this macro or send the MCM_SIZERECTTOMIN message explicitly.
+description: Calculates how many calendars will fit in the given rectangle, and then returns the minimum size that a rectangle needs to be to fit that number of calendars. You can use this macro or send the MCM_SIZERECTTOMIN message explicitly.helpviewer_keywords: ["MonthCal_SizeRectToMin","MonthCal_SizeRectToMin macro [Windows Controls]","_shell_MonthCal_SizeRectToMin","_shell_MonthCal_SizeRectToMin_cpp","commctrl/MonthCal_SizeRectToMin","controls.MonthCal_SizeRectToMin","controls._shell_MonthCal_SizeRectToMin"]
 old-location: controls\MonthCal_SizeRectToMin.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_sizerecttomin.htm

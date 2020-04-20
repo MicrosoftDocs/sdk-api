@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceVisibilityChanging
 title: ITextInputPanelEventSink::InPlaceVisibilityChanging (peninputpanel.h)
-description: Occurs when the Tablet PC Input Panel is about to switch between visible and invisible.
+description: Occurs when the Tablet PC Input Panel is about to switch between visible and invisible.helpviewer_keywords: ["957e1c24-3eee-4a6f-9157-961e3d6914b7","ITextInputPanelEventSink interface [Tablet PC]","InPlaceVisibilityChanging method","ITextInputPanelEventSink.InPlaceVisibilityChanging","ITextInputPanelEventSink::InPlaceVisibilityChanging","InPlaceVisibilityChanging","InPlaceVisibilityChanging method [Tablet PC]","InPlaceVisibilityChanging method [Tablet PC]","ITextInputPanelEventSink interface","peninputpanel/ITextInputPanelEventSink::InPlaceVisibilityChanging","tablet.itextinputpaneleventsink_inplacevisibilitychanging"]
 old-location: tablet\itextinputpaneleventsink_inplacevisibilitychanging.htm
 tech.root: tablet
 ms.assetid: 957e1c24-3eee-4a6f-9157-961e3d6914b7

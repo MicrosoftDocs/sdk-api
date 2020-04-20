@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireDeviceSelectionDialog.DoModal
 title: IPhotoAcquireDeviceSelectionDialog::DoModal (photoacquire.h)
-description: The DoModal method displays a device selection dialog box. The function returns when the user selects a device using the modal dialog box.
+description: The DoModal method displays a device selection dialog box. The function returns when the user selects a device using the modal dialog box.helpviewer_keywords: ["DoModal","DoModal method [Picture Acquisition]","DoModal method [Picture Acquisition]","IPhotoAcquireDeviceSelectionDialog interface","IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition]","DoModal method","IPhotoAcquireDeviceSelectionDialog.DoModal","IPhotoAcquireDeviceSelectionDialog::DoModal","IPhotoAcquireDeviceSelectionDialogDoModal","photoacquire/IPhotoAcquireDeviceSelectionDialog::DoModal","picacq.iphotoacquiredeviceselectiondialog_domodal"]
 old-location: picacq\iphotoacquiredeviceselectiondialog_domodal.htm
 tech.root: acquisition
 ms.assetid: eb79c07b-3b80-4f2b-b1f1-2394e1c7a30b

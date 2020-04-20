@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._CSV_QUERY_REDIRECT_STATE
 title: CSV_QUERY_REDIRECT_STATE
-description: Contains information about whether files in a stream have been redirected.
+description: Contains information about whether files in a stream have been redirected.helpviewer_keywords: ["*PCSV_QUERY_REDIRECT_STATE","CSV_QUERY_REDIRECT_STATE","CSV_QUERY_REDIRECT_STATE structure [Files]","PCSV_QUERY_REDIRECT_STATE","PCSV_QUERY_REDIRECT_STATE structure pointer [Files]","fs.csv_query_redirect_state","winioctl/CSV_QUERY_REDIRECT_STATE","winioctl/PCSV_QUERY_REDIRECT_STATE"]
 old-location: fs\csv_query_redirect_state.htm
 tech.root: FileIO
 ms.assetid: E628FFC2-B665-4160-AA63-9F027D4A2736

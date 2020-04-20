@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.GetBoolArray
 title: ID3D10EffectScalarVariable::GetBoolArray (d3d10effect.h)
-description: Get an array of boolean variables.
+description: Get an array of boolean variables.helpviewer_keywords: ["GetBoolArray","GetBoolArray method [Direct3D 10]","GetBoolArray method [Direct3D 10]","ID3D10EffectScalarVariable interface","ID3D10EffectScalarVariable interface [Direct3D 10]","GetBoolArray method","ID3D10EffectScalarVariable.GetBoolArray","ID3D10EffectScalarVariable::GetBoolArray","d3d10effect/ID3D10EffectScalarVariable::GetBoolArray","direct3d10.id3d10effectscalarvariable_getboolarray","fbddf130-1eef-5bad-8fad-819c89e5a371"]
 old-location: direct3d10\id3d10effectscalarvariable_getboolarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_getboolarray.htm

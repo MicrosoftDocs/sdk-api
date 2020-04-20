@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Asynchronous.End
 title: ID3D10Asynchronous::End (d3d10.h)
-description: Ends the collection of GPU data.
+description: Ends the collection of GPU data.helpviewer_keywords: ["453b6ede-999a-d914-5698-e6749585c82e","End","End method [Direct3D 10]","End method [Direct3D 10]","ID3D10Asynchronous interface","ID3D10Asynchronous interface [Direct3D 10]","End method","ID3D10Asynchronous.End","ID3D10Asynchronous::End","d3d10/ID3D10Asynchronous::End","direct3d10.id3d10asynchronous_end"]
 old-location: direct3d10\id3d10asynchronous_end.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous_end.htm
@@ -56,15 +56,6 @@ Ends the collection of GPU data.
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-Returns nothing.
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_POL_EXPR_ARRAY
 title: DHCP_POL_EXPR_ARRAY (dhcpsapi.h)
-description: The DHCP_POL_EXPR_ARRAY structure defines an array of DHCP server policy expressions.
+description: The DHCP_POL_EXPR_ARRAY structure defines an array of DHCP server policy expressions.helpviewer_keywords: ["*LPDHCP_POL_EXPR_ARRAY","*PDHCP_POL_EXPR_ARRAY","DHCP_POL_EXPR_ARRAY","DHCP_POL_EXPR_ARRAY structure [DHCP]","LPDHCP_POL_EXPR_ARRAY","LPDHCP_POL_EXPR_ARRAY structure pointer [DHCP]","PDHCP_POL_EXPR_ARRAY","PDHCP_POL_EXPR_ARRAY structure pointer [DHCP]","dhcp.dhcp_pol_expr_array","dhcpsapi/DHCP_POL_EXPR_ARRAY","dhcpsapi/LPDHCP_POL_EXPR_ARRAY","dhcpsapi/PDHCP_POL_EXPR_ARRAY"]
 old-location: dhcp\dhcp_pol_expr_array.htm
 tech.root: DHCP
 ms.assetid: F6EDFFAC-ECBD-4B0E-A929-3DB67D8366AC

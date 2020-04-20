@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.MFCreateSourceReaderFromMediaSource
 title: MFCreateSourceReaderFromMediaSource function (mfreadwrite.h)
-description: Creates the source reader from a media source.
+description: Creates the source reader from a media source.helpviewer_keywords: ["MFCreateSourceReaderFromMediaSource","MFCreateSourceReaderFromMediaSource function [Media Foundation]","mf.mfcreatesourcereaderfrommediasource","mfreadwrite/MFCreateSourceReaderFromMediaSource"]
 old-location: mf\mfcreatesourcereaderfrommediasource.htm
 tech.root: medfound
 ms.assetid: 924e1813-b025-435b-9770-52503a9eb619

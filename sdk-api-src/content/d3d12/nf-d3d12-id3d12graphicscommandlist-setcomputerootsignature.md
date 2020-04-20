@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRootSignature
 title: ID3D12GraphicsCommandList::SetComputeRootSignature (d3d12.h)
-description: Sets the layout of the compute root signature.
+description: Sets the layout of the compute root signature.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetComputeRootSignature method","ID3D12GraphicsCommandList.SetComputeRootSignature","ID3D12GraphicsCommandList::SetComputeRootSignature","SetComputeRootSignature","SetComputeRootSignature method","SetComputeRootSignature method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetComputeRootSignature","direct3d12.id3d12graphicscommandlist_setcomputerootsignature"]
 old-location: direct3d12\id3d12graphicscommandlist_setcomputerootsignature.htm
 tech.root: direct3d12
 ms.assetid: 5DF04D51-DC09-4B02-8A82-ED68E049D392
@@ -64,16 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12rootsignature">ID3D12RootSignature</a> object.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -see-also

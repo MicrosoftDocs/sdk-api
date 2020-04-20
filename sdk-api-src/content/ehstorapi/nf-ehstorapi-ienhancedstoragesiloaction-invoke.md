@@ -1,7 +1,7 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSiloAction.Invoke
 title: IEnhancedStorageSiloAction::Invoke (ehstorapi.h)
-description: Performs the action specified by an IEnhancedStorageSiloAction object.
+description: Performs the action specified by an IEnhancedStorageSiloAction object.helpviewer_keywords: ["IEnhancedStorageSiloAction interface [Enhanced Storage]","Invoke method","IEnhancedStorageSiloAction.Invoke","IEnhancedStorageSiloAction::Invoke","Invoke","Invoke method [Enhanced Storage]","Invoke method [Enhanced Storage]","IEnhancedStorageSiloAction interface","ehstorapi/IEnhancedStorageSiloAction::Invoke","enstor.ienhancedstoragesiloaction_invoke"]
 old-location: enstor\ienhancedstoragesiloaction_invoke.htm
 tech.root: enstor
 ms.assetid: 7f19cd0a-6d12-4e76-b46e-7c6267914223

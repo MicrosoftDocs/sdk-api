@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTGetCharacteristics
 title: BluetoothGATTGetCharacteristics function (bluetoothleapis.h)
-description: Gets all the characteristics available for the specified service.
+description: Gets all the characteristics available for the specified service.helpviewer_keywords: ["BluetoothGATTGetCharacteristics","BluetoothGATTGetCharacteristics function [Bluetooth Devices]","bltooth.bluetoothgattgetcharacteristics","bluetoothleapis/BluetoothGATTGetCharacteristics"]
 old-location: bltooth\bluetoothgattgetcharacteristics.htm
 tech.root: bltooth
 ms.assetid: 974270EE-6319-45E3-BAB8-3A57665591EA

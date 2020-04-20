@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSCreatePropertyStoreFromPropertySetStorage
 title: PSCreatePropertyStoreFromPropertySetStorage function (propsys.h)
-description: Wraps an IPropertySetStorage interface in an IPropertyStore interface.
+description: Wraps an IPropertySetStorage interface in an IPropertyStore interface.helpviewer_keywords: ["PSCreatePropertyStoreFromPropertySetStorage","PSCreatePropertyStoreFromPropertySetStorage function [Windows Properties]","STGM_READ","STGM_READWRITE","STGM_WRITE","_shell_PSCreatePropertyStoreFromPropertySetStorage","properties.PSCreatePropertyStoreFromPropertySetStorage","propsys/PSCreatePropertyStoreFromPropertySetStorage","shell.PSCreatePropertyStoreFromPropertySetStorage"]
 old-location: properties\PSCreatePropertyStoreFromPropertySetStorage.htm
 tech.root: properties
 ms.assetid: efba5a2a-df26-4f7e-9ddf-ec471e3d547c

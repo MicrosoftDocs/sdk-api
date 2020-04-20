@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_3.ID3D11Device3.GetImmediateContext3
 title: ID3D11Device3::GetImmediateContext3 (d3d11_3.h)
-description: Gets an immediate context, which can play back command lists.
+description: Gets an immediate context, which can play back command lists.helpviewer_keywords: ["GetImmediateContext3","GetImmediateContext3 method [Direct3D 11]","GetImmediateContext3 method [Direct3D 11]","ID3D11Device3 interface","ID3D11Device3 interface [Direct3D 11]","GetImmediateContext3 method","ID3D11Device3.GetImmediateContext3","ID3D11Device3::GetImmediateContext3","d3d11_3/ID3D11Device3::GetImmediateContext3","direct3d11.id3d11device3_getimmediatecontext3"]
 old-location: direct3d11\id3d11device3_getimmediatecontext3.htm
 tech.root: direct3d11
 ms.assetid: E9E247C3-6326-46AC-A742-F5A4BE701B5B
@@ -65,15 +65,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d1
 
 Upon completion of the method, the passed pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext3">ID3D11DeviceContext3</a> interface pointer is initialized.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

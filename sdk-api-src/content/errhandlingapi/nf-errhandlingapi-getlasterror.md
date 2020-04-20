@@ -1,7 +1,7 @@
 ---
 UID: NF:errhandlingapi.GetLastError
 title: GetLastError function (errhandlingapi.h)
-description: Retrieves the calling thread's last-error code value.
+description: Retrieves the calling thread's last-error code value.helpviewer_keywords: ["GetLastError","GetLastError function","_win32_getlasterror","base.getlasterror","errhandlingapi/GetLastError"]
 old-location: base\getlasterror.htm
 tech.root: Debug
 ms.assetid: d852e148-985c-416f-a5a7-27b6914b45d4

@@ -1,7 +1,7 @@
 ---
 UID: NF:cluadmex.IWCWizard97Callback.EnableNext
 title: IWCWizard97Callback::EnableNext (cluadmex.h)
-description: Enables or disables the Next or Finish button on a Wizard97 wizard page, depending on whether the current page is last.
+description: Enables or disables the Next or Finish button on a Wizard97 wizard page, depending on whether the current page is last.helpviewer_keywords: ["EnableNext","EnableNext method [Failover Cluster]","EnableNext method [Failover Cluster]","IWCWizard97Callback interface","IWCWizard97Callback interface [Failover Cluster]","EnableNext method","IWCWizard97Callback.EnableNext","IWCWizard97Callback::EnableNext","_wolf_iwcwizard97callback_enablenext","cluadmex/IWCWizard97Callback::EnableNext","mscs.iwcwizard97callback_enablenext"]
 old-location: mscs\iwcwizard97callback_enablenext.htm
 tech.root: MsCS
 ms.assetid: aac4dd75-aa98-4db0-8201-33d4c115896b

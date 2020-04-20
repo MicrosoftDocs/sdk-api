@@ -1,7 +1,7 @@
 ---
 UID: NN:wbemprov.IWbemEventSink
 title: IWbemEventSink (wbemprov.h)
-description: Initiates communication with an event provider using a restricted set of queries.
+description: Initiates communication with an event provider using a restricted set of queries.helpviewer_keywords: ["IWbemEventSink","IWbemEventSink interface [Windows Management Instrumentation]","IWbemEventSink interface [Windows Management Instrumentation]","described","_hmm_iwbemeventsink","wbemprov/IWbemEventSink","wmi.iwbemeventsink"]
 old-location: wmi\iwbemeventsink.htm
 tech.root: WmiSdk
 ms.assetid: dd076dd0-ed39-47a2-86fb-a595baf3f464

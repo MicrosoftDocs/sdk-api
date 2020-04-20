@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearRenderTargetView
 title: ID3D12GraphicsCommandList::ClearRenderTargetView (d3d12.h)
-description: Sets all the elements in a render target to one value.
+description: Sets all the elements in a render target to one value.helpviewer_keywords: ["ClearRenderTargetView","ClearRenderTargetView method","ClearRenderTargetView method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","ClearRenderTargetView method","ID3D12GraphicsCommandList.ClearRenderTargetView","ID3D12GraphicsCommandList::ClearRenderTargetView","d3d12/ID3D12GraphicsCommandList::ClearRenderTargetView","direct3d12.id3d12graphicscommandlist_clearrendertargetview"]
 old-location: direct3d12\id3d12graphicscommandlist_clearrendertargetview.htm
 tech.root: direct3d12
 ms.assetid: 5AB13E36-A189-41B4-AEF8-B5C5831655DB
@@ -88,16 +88,6 @@ Type: <b>const D3D12_RECT*</b>
 
 An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <b>ClearRenderTargetView</b> clears the entire resource view.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

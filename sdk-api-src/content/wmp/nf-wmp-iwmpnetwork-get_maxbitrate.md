@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_maxBitRate
 title: IWMPNetwork::get_maxBitRate (wmp.h)
-description: The get_maxBitRate method retrieves the maximum possible video bit rate.
+description: The get_maxBitRate method retrieves the maximum possible video bit rate.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_maxBitRate method","IWMPNetwork.get_maxBitRate","IWMPNetwork::get_maxBitRate","IWMPNetworkget_maxBitRate","get_maxBitRate","get_maxBitRate method [Windows Media Player]","get_maxBitRate method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_maxbitrate","wmp/IWMPNetwork::get_maxBitRate"]
 old-location: wmp\iwmpnetwork_get_maxbitrate.htm
 tech.root: WMP
 ms.assetid: 42917ca3-07d3-4d32-a2f3-5f0ef9d387d7

@@ -1,7 +1,7 @@
 ---
 UID: NF:certview.ICertView.GetColumnIndex
 title: ICertView::GetColumnIndex (certview.h)
-description: Retrieves the zero-based index of a column.
+description: Retrieves the zero-based index of a column.helpviewer_keywords: ["CCertView object [Security]","GetColumnIndex method","CVRC_COLUMN_MASK","CVRC_COLUMN_RESULT","CVRC_COLUMN_SCHEMA","CVRC_COLUMN_VALUE","GetColumnIndex","GetColumnIndex method [Security]","GetColumnIndex method [Security]","CCertView object","GetColumnIndex method [Security]","ICertView interface","GetColumnIndex method [Security]","ICertView2 interface","ICertView interface [Security]","GetColumnIndex method","ICertView.GetColumnIndex","ICertView2 interface [Security]","GetColumnIndex method","ICertView2::GetColumnIndex","ICertView::GetColumnIndex","certview/ICertView2::GetColumnIndex","certview/ICertView::GetColumnIndex","security.icertview2_getcolumnindex"]
 old-location: security\icertview2_getcolumnindex.htm
 tech.root: SecCrypto
 ms.assetid: 3d869db9-b4df-4fcd-85e7-19fe773b4262

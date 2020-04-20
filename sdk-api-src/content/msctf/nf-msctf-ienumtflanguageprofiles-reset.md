@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Reset
 title: IEnumTfLanguageProfiles::Reset (msctf.h)
-description: IEnumTfLanguageProfiles::Reset method
+description: IEnumTfLanguageProfiles::Reset methodhelpviewer_keywords: ["IEnumTfLanguageProfiles interface [Text Services Framework]","Reset method","IEnumTfLanguageProfiles.Reset","IEnumTfLanguageProfiles::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfLanguageProfiles interface","_tsf_ienumtflanguageprofiles_reset_ref","msctf/IEnumTfLanguageProfiles::Reset","tsf.ienumtflanguageprofiles_reset"]
 old-location: tsf\ienumtflanguageprofiles_reset.htm
 tech.root: TSF
 ms.assetid: 30be7551-f326-4132-814a-a896b148f2fe
@@ -45,18 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfLanguageProfiles::Reset
 
-
 ## -description
 
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
@@ -81,7 +74,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[IEnumTfLanguageProfiles interface](nn-msctf-ienumtflanguageprofiles.md), [TF_LANGUAGEPROFILE](ns-msctf-tf_languageprofile.md)

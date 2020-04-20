@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_SET_SPARSE
 title: FSCTL_SET_SPARSE
-description: Marks the indicated file as sparse or not sparse. In a sparse file, large ranges of zeros may not require disk allocation.
+description: Marks the indicated file as sparse or not sparse. In a sparse file, large ranges of zeros may not require disk allocation.helpviewer_keywords: ["FSCTL_SET_SPARSE","FSCTL_SET_SPARSE control","FSCTL_SET_SPARSE control code [Files]","_win32_fsctl_set_sparse","base.fsctl_set_sparse","fs.fsctl_set_sparse","winioctl/FSCTL_SET_SPARSE"]
 old-location: fs\fsctl_set_sparse.htm
 tech.root: FileIO
 ms.assetid: aa8f5880-f831-49b6-8359-fe07c78c032f

@@ -1,7 +1,7 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetDefault
 title: IFullScreenVideoEx::SetDefault (amvideo.h)
-description: The SetDefault method saves the current settings.
+description: The SetDefault method saves the current settings.helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","SetDefault method","IFullScreenVideoEx.SetDefault","IFullScreenVideoEx::SetDefault","IFullScreenVideoSetDefault","SetDefault","SetDefault method [DirectShow]","SetDefault method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::SetDefault","dshow.ifullscreenvideoex_setdefault"]
 old-location: dshow\ifullscreenvideoex_setdefault.htm
 tech.root: DirectShow
 ms.assetid: 1821703c-0da1-4b3e-a921-a66770b8ee0d

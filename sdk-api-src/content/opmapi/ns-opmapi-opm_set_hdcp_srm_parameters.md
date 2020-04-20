@@ -1,7 +1,7 @@
 ---
 UID: NS:opmapi._OPM_SET_HDCP_SRM_PARAMETERS
 title: OPM_SET_HDCP_SRM_PARAMETERS (opmapi.h)
-description: Contains parameters for the OPM_SET_HDCP_SRM command.
+description: Contains parameters for the OPM_SET_HDCP_SRM command.helpviewer_keywords: ["OPM_SET_HDCP_SRM_PARAMETERS","OPM_SET_HDCP_SRM_PARAMETERS structure [Media Foundation]","mf.opm_set_hdcp_srm_parameters","opmapi/OPM_SET_HDCP_SRM_PARAMETERS"]
 old-location: mf\opm_set_hdcp_srm_parameters.htm
 tech.root: medfound
 ms.assetid: 0689e132-8def-43d1-965f-a6f652ad0fbe

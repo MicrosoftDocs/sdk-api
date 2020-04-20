@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableMulticast
 title: IWMReaderNetworkConfig::GetEnableMulticast (wmsdkidl.h)
-description: The GetEnableMulticast method ascertains whether multicast is enabled.
+description: The GetEnableMulticast method ascertains whether multicast is enabled.helpviewer_keywords: ["GetEnableMulticast","GetEnableMulticast method [windows Media Format]","GetEnableMulticast method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetEnableMulticast method","IWMReaderNetworkConfig.GetEnableMulticast","IWMReaderNetworkConfig::GetEnableMulticast","IWMReaderNetworkConfigGetEnableMulticast","wmformat.iwmreadernetworkconfig_getenablemulticast","wmsdkidl/IWMReaderNetworkConfig::GetEnableMulticast"]
 old-location: wmformat\iwmreadernetworkconfig_getenablemulticast.htm
 tech.root: wmformat
 ms.assetid: 2fc51a74-18b6-4ddd-9089-9a8bdfce70ea

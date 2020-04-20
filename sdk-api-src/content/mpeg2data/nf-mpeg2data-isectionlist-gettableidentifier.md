@@ -1,7 +1,7 @@
 ---
 UID: NF:mpeg2data.ISectionList.GetTableIdentifier
 title: ISectionList::GetTableIdentifier (mpeg2data.h)
-description: The GetTableIdentifier method returns the table identifier (TID) of the packets that this object is receiving.
+description: The GetTableIdentifier method returns the table identifier (TID) of the packets that this object is receiving.helpviewer_keywords: ["GetTableIdentifier","GetTableIdentifier method [Microsoft TV Technologies]","GetTableIdentifier method [Microsoft TV Technologies]","ISectionList interface","ISectionList interface [Microsoft TV Technologies]","GetTableIdentifier method","ISectionList.GetTableIdentifier","ISectionList::GetTableIdentifier","ISectionListGetTableIdentifier","mpeg2data/ISectionList::GetTableIdentifier","mstv.isectionlist_gettableidentifier"]
 old-location: mstv\isectionlist_gettableidentifier.htm
 tech.root: mstv
 ms.assetid: e0fd82ec-283e-4d6f-aa74-c65f15df651f

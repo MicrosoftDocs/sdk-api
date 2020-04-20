@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuningSpace.get_FrequencyMapping
 title: ITuningSpace::get_FrequencyMapping (tuner.h)
-description: The get_FrequencyMapping method retrieves the frequency mapping previously created by the network provider by a call to put_FrequencyMapping.
+description: The get_FrequencyMapping method retrieves the frequency mapping previously created by the network provider by a call to put_FrequencyMapping.helpviewer_keywords: ["ITuningSpace interface [Microsoft TV Technologies]","get_FrequencyMapping method","ITuningSpace.get_FrequencyMapping","ITuningSpace::get_FrequencyMapping","ITuningSpaceget_FrequencyMapping","get_FrequencyMapping","get_FrequencyMapping method [Microsoft TV Technologies]","get_FrequencyMapping method [Microsoft TV Technologies]","ITuningSpace interface","mstv.ituningspace_get_frequencymapping","tuner/ITuningSpace::get_FrequencyMapping"]
 old-location: mstv\ituningspace_get_frequencymapping.htm
 tech.root: mstv
 ms.assetid: 86f6f991-7ba6-4dcc-86bd-03e44c799c22

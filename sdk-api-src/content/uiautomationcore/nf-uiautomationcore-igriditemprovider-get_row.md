@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IGridItemProvider.get_Row
 title: IGridItemProvider::get_Row (uiautomationcore.h)
-description: Specifies the ordinal number of the row that contains this cell or item.
+description: Specifies the ordinal number of the row that contains this cell or item.helpviewer_keywords: ["IGridItemProvider interface [Windows Accessibility]","Row property","IGridItemProvider.Row","IGridItemProvider.get_Row","IGridItemProvider::Row","IGridItemProvider::get_Row","Row property [Windows Accessibility]","Row property [Windows Accessibility]","IGridItemProvider interface","get_Row","uiauto.uiauto_IGridItemProvider_Row","uiauto_IGridItemProvider_Row","uiautomationcore/IGridItemProvider::Row","uiautomationcore/IGridItemProvider::get_Row","winauto.uiauto_IGridItemProvider_Row"]
 old-location: winauto\uiauto_IGridItemProvider_Row.htm
 tech.root: WinAuto
 ms.assetid: 546e9914-3904-4386-9809-6c22ad9c9acd

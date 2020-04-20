@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetRegisteredDeviceByID
 title: IWMDeviceRegistration::GetRegisteredDeviceByID (wmsdkidl.h)
-description: The GetRegisteredDeviceByID method retrieves information about a registered device by the device identifier.
+description: The GetRegisteredDeviceByID method retrieves information about a registered device by the device identifier.helpviewer_keywords: ["GetRegisteredDeviceByID","GetRegisteredDeviceByID method [windows Media Format]","GetRegisteredDeviceByID method [windows Media Format]","IWMDeviceRegistration interface","IWMDeviceRegistration interface [windows Media Format]","GetRegisteredDeviceByID method","IWMDeviceRegistration.GetRegisteredDeviceByID","IWMDeviceRegistration::GetRegisteredDeviceByID","IWMDeviceRegistrationGetRegisteredDeviceByID","wmformat.iwmdeviceregistration_getregistereddevicebyid","wmsdkidl/IWMDeviceRegistration::GetRegisteredDeviceByID"]
 old-location: wmformat\iwmdeviceregistration_getregistereddevicebyid.htm
 tech.root: wmformat
 ms.assetid: 26ded37b-1169-4c47-8880-bd19c977171e

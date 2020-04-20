@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope.OpenTask
 title: IAzScope::OpenTask (azroles.h)
-description: Opens an IAzTask object with the specified name.
+description: Opens an IAzTask object with the specified name.helpviewer_keywords: ["AzScope object [Security]","OpenTask method","IAzScope interface [Security]","OpenTask method","IAzScope.OpenTask","IAzScope::OpenTask","OpenTask","OpenTask method [Security]","OpenTask method [Security]","AzScope object","OpenTask method [Security]","IAzScope interface","azroles/IAzScope::OpenTask","security.iazscope_opentask"]
 old-location: security\iazscope_opentask.htm
 tech.root: SecAuthZ
 ms.assetid: 8719ab1f-8004-4d5c-b64c-ae17c8d1ab30

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHGetSetSettings
 title: SHGetSetSettings function (shlobj_core.h)
-description: SHGetSetSettings may be altered or unavailable.
+description: SHGetSetSettings may be altered or unavailable.helpviewer_keywords: ["SHGetSetSettings","SHGetSetSettings function [Windows Shell]","_win32_SHGetSetSettings","shell.SHGetSetSettings","shlobj_core/SHGetSetSettings"]
 old-location: shell\SHGetSetSettings.htm
 tech.root: shell
 ms.assetid: d7c2646c-03e0-4d7a-9503-bdf487d43723
@@ -78,15 +78,6 @@ One or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/ssf
 Type: <b>BOOL</b>
 
 <b>TRUE</b> to indicate that the contents of <i>lpss</i> should be used to set the Shell settings, <b>FALSE</b> to indicate that the Shell settings should be retrieved to <i>lpss</i>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

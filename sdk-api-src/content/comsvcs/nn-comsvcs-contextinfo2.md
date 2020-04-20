@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.ContextInfo2
 title: ContextInfo2 (comsvcs.h)
-description: Provides additional information about an object's context, supplementing the information that is available through the ContextInfo interface.
+description: Provides additional information about an object's context, supplementing the information that is available through the ContextInfo interface.helpviewer_keywords: ["ContextInfo2","ContextInfo2 interface [COM+]","ContextInfo2 interface [COM+]","described","_cos_ContextInfo2","comsvcs/ContextInfo2","cos.contextinfo2"]
 old-location: cos\contextinfo2.htm
 tech.root: cossdk
 ms.assetid: 06954cc5-19a7-4bae-ac30-94dcdc35d15d

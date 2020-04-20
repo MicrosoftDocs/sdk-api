@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IOverlayNotify2
 title: IOverlayNotify2 (strmif.h)
-description: The IOverlayNotify2 interface derives from the IOverlayNotify interface.
+description: The IOverlayNotify2 interface derives from the IOverlayNotify interface.helpviewer_keywords: ["IOverlayNotify2","IOverlayNotify2 interface [DirectShow]","IOverlayNotify2 interface [DirectShow]","described","IOverlayNotify2Interface","dshow.ioverlaynotify2","strmif/IOverlayNotify2"]
 old-location: dshow\ioverlaynotify2.htm
 tech.root: DirectShow
 ms.assetid: 439b3939-84da-48f5-b2a5-47f68fedef06

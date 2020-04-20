@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateLinearGradientBrush
 title: IXpsOMObjectFactory::CreateLinearGradientBrush (xpsobjectmodel.h)
-description: Creates an IXpsOMLinearGradientBrush interface.
+description: Creates an IXpsOMLinearGradientBrush interface.helpviewer_keywords: ["CreateLinearGradientBrush","CreateLinearGradientBrush method [XPS Documents and Packaging]","CreateLinearGradientBrush method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateLinearGradientBrush method","IXpsOMObjectFactory.CreateLinearGradientBrush","IXpsOMObjectFactory::CreateLinearGradientBrush","xps.ixpsomobjectfactory_createlineargradientbrush","xpsobjectmodel/IXpsOMObjectFactory::CreateLinearGradientBrush"]
 old-location: xps\ixpsomobjectfactory_createlineargradientbrush.htm
 tech.root: printdocs
 ms.assetid: b829e8fe-5ef0-43d8-b115-9cddbfe1a255

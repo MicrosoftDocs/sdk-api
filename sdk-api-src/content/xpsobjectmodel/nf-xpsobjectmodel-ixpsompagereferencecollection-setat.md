@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.SetAt
 title: IXpsOMPageReferenceCollection::SetAt (xpsobjectmodel.h)
-description: Replaces an IXpsOMPageReference interface pointer at a specified location in the collection.
+description: Replaces an IXpsOMPageReference interface pointer at a specified location in the collection.helpviewer_keywords: ["IXpsOMPageReferenceCollection interface [XPS Documents and Packaging]","SetAt method","IXpsOMPageReferenceCollection.SetAt","IXpsOMPageReferenceCollection::SetAt","SetAt","SetAt method [XPS Documents and Packaging]","SetAt method [XPS Documents and Packaging]","IXpsOMPageReferenceCollection interface","xps.ixpsompagereferencecollection_setat","xpsobjectmodel/IXpsOMPageReferenceCollection::SetAt"]
 old-location: xps\ixpsompagereferencecollection_setat.htm
 tech.root: printdocs
 ms.assetid: b06b7ae2-e684-46a3-ab46-9f33cc6c10fc

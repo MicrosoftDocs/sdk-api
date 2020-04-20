@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1GeometryGroup.GetSourceGeometries
 title: ID2D1GeometryGroup::GetSourceGeometries (d2d1.h)
-description: Retrieves the geometries in the geometry group.
+description: Retrieves the geometries in the geometry group.helpviewer_keywords: ["GetSourceGeometries","GetSourceGeometries method [Direct2D]","GetSourceGeometries method [Direct2D]","ID2D1GeometryGroup interface","ID2D1GeometryGroup interface [Direct2D]","GetSourceGeometries method","ID2D1GeometryGroup.GetSourceGeometries","ID2D1GeometryGroup::GetSourceGeometries","d2d1/ID2D1GeometryGroup::GetSourceGeometries","direct2d.ID2D1GeometryGroup_GetSourceGeometries"]
 old-location: direct2d\ID2D1GeometryGroup_GetSourceGeometries.htm
 tech.root: Direct2D
 ms.assetid: 11c375a1-aea0-44bf-abcb-ee071140525a
@@ -69,15 +69,6 @@ When this method returns, contains the address of a pointer to an array of geome
 Type: <b>UINT</b>
 
 A value indicating the number of geometries to return in the <i>geometries</i> array. If this value is less than the number of geometries in the geometry group, the remaining geometries are omitted. If this value is larger than the number of geometries in the geometry group, the extra geometries are set to <b>NULL</b>. To obtain the number of geometries currently in the geometry group, use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometrygroup-getsourcegeometrycount">GetSourceGeometryCount</a> method.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

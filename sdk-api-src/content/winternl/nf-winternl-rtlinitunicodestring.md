@@ -1,7 +1,7 @@
 ---
 UID: NF:winternl.RtlInitUnicodeString
 title: RtlInitUnicodeString function (winternl.h)
-description: Initializes a counted Unicode string.
+description: Initializes a counted Unicode string.helpviewer_keywords: ["RtlInitUnicodeString","RtlInitUnicodeString function [Windows API]","winprog.rtlinitunicodestring","winternl/RtlInitUnicodeString","winui.rtlinitunicodestring"]
 old-location: winprog\rtlinitunicodestring.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlinitunicodestring.htm
@@ -67,13 +67,5 @@ The buffer for a counted Unicode string to be initialized. The length is initial
 
 Optional pointer to a null-terminated Unicode string with
         which to initialize the counted string. 
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

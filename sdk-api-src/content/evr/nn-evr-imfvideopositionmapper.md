@@ -1,7 +1,7 @@
 ---
 UID: NN:evr.IMFVideoPositionMapper
 title: IMFVideoPositionMapper (evr.h)
-description: Maps a position on an input video stream to the corresponding position on an output video stream.
+description: Maps a position on an input video stream to the corresponding position on an output video stream.helpviewer_keywords: ["282fa124-909f-49dc-9a86-3d962193e903","IMFVideoPositionMapper","IMFVideoPositionMapper interface [Media Foundation]","IMFVideoPositionMapper interface [Media Foundation]","described","evr/IMFVideoPositionMapper","mf.imfvideopositionmapper"]
 old-location: mf\imfvideopositionmapper.htm
 tech.root: medfound
 ms.assetid: 282fa124-909f-49dc-9a86-3d962193e903

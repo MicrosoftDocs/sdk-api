@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceWebControl.GetDeviceFromIdAsync
 title: IPortableDeviceWebControl::GetDeviceFromIdAsync (portabledeviceapi.h)
-description: Instantiates a WPD Automation Device object asynchronously for a given WPD device identifier.
+description: Instantiates a WPD Automation Device object asynchronously for a given WPD device identifier.helpviewer_keywords: ["GetDeviceFromIdAsync","GetDeviceFromIdAsync method [WPD Automation]","GetDeviceFromIdAsync method [WPD Automation]","IPortableDeviceWebControl interface","IPortableDeviceWebControl interface [WPD Automation]","GetDeviceFromIdAsync method","IPortableDeviceWebControl.GetDeviceFromIdAsync","IPortableDeviceWebControl::GetDeviceFromIdAsync","portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromIdAsync","wpdauto.iportabledevicewebcontrol_getdevicefromidasync"]
 old-location: wpdauto\iportabledevicewebcontrol_getdevicefromidasync.htm
 tech.root: wpdauto
 ms.assetid: a53e4a15-4f51-43e7-84c7-4c75be87e3d9

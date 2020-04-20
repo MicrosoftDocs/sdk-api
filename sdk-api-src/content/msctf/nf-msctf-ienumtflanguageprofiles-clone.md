@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Clone
 title: IEnumTfLanguageProfiles::Clone (msctf.h)
-description: IEnumTfLanguageProfiles::Clone method
+description: IEnumTfLanguageProfiles::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfLanguageProfiles interface","IEnumTfLanguageProfiles interface [Text Services Framework]","Clone method","IEnumTfLanguageProfiles.Clone","IEnumTfLanguageProfiles::Clone","_tsf_ienumtflanguageprofiles_clone_ref","msctf/IEnumTfLanguageProfiles::Clone","tsf.ienumtflanguageprofiles_clone"]
 old-location: tsf\ienumtflanguageprofiles_clone.htm
 tech.root: TSF
 ms.assetid: 77fbb195-b3c8-4254-a4d9-117ea8052951
@@ -45,16 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfLanguageProfiles::Clone
 
-
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
@@ -95,19 +90,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtflanguageprofiles">IEnumTfLanguageProfiles
-      </a>
- 
-
- 
-
+[IEnumTfLanguageProfiles interface](nn-msctf-ienumtflanguageprofiles.md), [TF_LANGUAGEPROFILE](ns-msctf-tf_languageprofile.md)

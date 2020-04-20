@@ -1,7 +1,7 @@
 ---
 UID: NF:mscat.CryptCATCatalogInfoFromContext
 title: CryptCATCatalogInfoFromContext function (mscat.h)
-description: Retrieves catalog information from a specified catalog context.
+description: Retrieves catalog information from a specified catalog context.helpviewer_keywords: ["CryptCATCatalogInfoFromContext","CryptCATCatalogInfoFromContext function [Security]","mscat/CryptCATCatalogInfoFromContext","security.cryptcatcataloginfofromcontext"]
 old-location: security\cryptcatcataloginfofromcontext.htm
 tech.root: SecCrypto
 ms.assetid: ec195fcc-1cff-4dd6-9075-c4904b653da7

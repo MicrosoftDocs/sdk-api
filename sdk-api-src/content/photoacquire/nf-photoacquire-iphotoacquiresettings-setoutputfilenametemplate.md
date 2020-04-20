@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetOutputFilenameTemplate
 title: IPhotoAcquireSettings::SetOutputFilenameTemplate (photoacquire.h)
-description: The SetOutputFilenameTemplate method specifies a format string (template) that specifies the format of file names.
+description: The SetOutputFilenameTemplate method specifies a format string (template) that specifies the format of file names.helpviewer_keywords: ["IPhotoAcquireSettings interface [Picture Acquisition]","SetOutputFilenameTemplate method","IPhotoAcquireSettings.SetOutputFilenameTemplate","IPhotoAcquireSettings::SetOutputFilenameTemplate","IPhotoAcquireSettingsSetOutputFilenameTemplate","SetOutputFilenameTemplate","SetOutputFilenameTemplate method [Picture Acquisition]","SetOutputFilenameTemplate method [Picture Acquisition]","IPhotoAcquireSettings interface","photoacquire/IPhotoAcquireSettings::SetOutputFilenameTemplate","picacq.iphotoacquiresettings_setoutputfilenametemplate"]
 old-location: picacq\iphotoacquiresettings_setoutputfilenametemplate.htm
 tech.root: acquisition
 ms.assetid: 28eaeee4-05eb-4d51-9e21-937481bc7703

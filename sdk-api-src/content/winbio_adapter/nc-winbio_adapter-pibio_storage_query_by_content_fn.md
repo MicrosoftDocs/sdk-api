@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_QUERY_BY_CONTENT_FN
 title: PIBIO_STORAGE_QUERY_BY_CONTENT_FN (winbio_adapter.h)
-description: Queries the database that is currently open for templates associated with a specified index vector.
+description: Queries the database that is currently open for templates associated with a specified index vector.helpviewer_keywords: ["PIBIO_STORAGE_QUERY_BY_CONTENT_FN","PIBIO_STORAGE_QUERY_BY_CONTENT_FN callback","StorageAdapterQueryByContent","StorageAdapterQueryByContent callback function [Windows Biometric Framework API]","secbiomet.storageadapterquerybycontent","winbio_adapter/StorageAdapterQueryByContent"]
 old-location: secbiomet\storageadapterquerybycontent.htm
 tech.root: SecBioMet
 ms.assetid: 773aacd1-a34a-4c5a-b615-2a5485f13ca1

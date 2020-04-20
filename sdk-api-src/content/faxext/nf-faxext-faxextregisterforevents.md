@@ -1,7 +1,7 @@
 ---
 UID: NF:faxext.FaxExtRegisterForEvents
 title: FaxExtRegisterForEvents function (faxext.h)
-description: The FaxExtRegisterForEvents callback function registers the fax extension DLL for notifications about configuration data changes related to a specific device and GUID.
+description: The FaxExtRegisterForEvents callback function registers the fax extension DLL for notifications about configuration data changes related to a specific device and GUID.helpviewer_keywords: ["DEV_ID_SRC_FAX","DEV_ID_SRC_TAPI","FaxExtRegisterForEvents","FaxExtRegisterForEvents function [Fax Service]","_mfax_faxextregisterforevents","fax._mfax_faxextregisterforevents","faxext/FaxExtRegisterForEvents"]
 old-location: fax\_mfax_faxextregisterforevents.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_9ysz.htm

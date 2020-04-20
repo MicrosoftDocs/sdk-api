@@ -1,7 +1,7 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.TRefPointerCollection
 title: TRefPointerCollection::TRefPointerCollection (refptrco.h)
-description: This constructor initializes a new TRefPointerCollection object.
+description: This constructor initializes a new TRefPointerCollection object.helpviewer_keywords: ["TRefPointerCollection","TRefPointerCollection interface [Windows Management Instrumentation]","TRefPointerCollection method","TRefPointerCollection method [Windows Management Instrumentation]","TRefPointerCollection method [Windows Management Instrumentation]","TRefPointerCollection interface","TRefPointerCollection.TRefPointerCollection","TRefPointerCollection::TRefPointerCollection","_hmm_trefpointercollection_trefpointercollection","refptrco/TRefPointerCollection::TRefPointerCollection","wmi.trefpointercollection_trefpointercollection"]
 old-location: wmi\trefpointercollection_trefpointercollection.htm
 tech.root: WmiSdk
 ms.assetid: f4fcfe31-49ce-434c-a6e4-cf60e0a435e6
@@ -69,13 +69,5 @@ This constructor initializes a new <a href="https://docs.microsoft.com/windows/d
 #### - trpc [ref]
 
 Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> object.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
 
 

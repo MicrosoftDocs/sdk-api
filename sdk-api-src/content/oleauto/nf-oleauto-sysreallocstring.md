@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SysReAllocString
 title: SysReAllocString function (oleauto.h)
-description: Reallocates a previously allocated string to be the size of a second string and copies the second string into the reallocated memory.
+description: Reallocates a previously allocated string to be the size of a second string and copies the second string into the reallocated memory.helpviewer_keywords: ["SysReAllocString","SysReAllocString function [Automation]","_oa96_SysReAllocString","automat.sysreallocstring","oleauto/SysReAllocString"]
 old-location: automat\sysreallocstring.htm
 tech.root: automat
 ms.assetid: 0207c33b-c065-42bb-8d70-ccdc3fddb338

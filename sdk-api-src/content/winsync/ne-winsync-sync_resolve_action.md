@@ -1,7 +1,7 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0005
 title: SYNC_RESOLVE_ACTION (winsync.h)
-description: Represents actions that are taken to resolve a specific concurrency conflict.
+description: Represents actions that are taken to resolve a specific concurrency conflict.helpviewer_keywords: ["SRA_ACCEPT_DESTINATION_PROVIDER","SRA_ACCEPT_SOURCE_PROVIDER","SRA_DEFER","SRA_LAST","SRA_MERGE","SRA_TRANSFER_AND_DEFER","SYNC_RESOLVE_ACTION","SYNC_RESOLVE_ACTION enumeration [Windows Sync]","winsync.sync_resolve_action","winsync/SRA_ACCEPT_DESTINATION_PROVIDER","winsync/SRA_ACCEPT_SOURCE_PROVIDER","winsync/SRA_DEFER","winsync/SRA_LAST","winsync/SRA_MERGE","winsync/SRA_TRANSFER_AND_DEFER","winsync/SYNC_RESOLVE_ACTION"]
 old-location: winsync\sync_resolve_action.htm
 tech.root: winsync
 ms.assetid: 6549eee1-6bf4-46b0-97d1-bb2c0f1b59a4

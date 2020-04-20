@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.VariantToUInt64Array
 title: VariantToUInt64Array function (propvarutil.h)
-description: Extracts data from a vector structure into an unsigned Int64 array.
+description: Extracts data from a vector structure into an unsigned Int64 array.helpviewer_keywords: ["VariantToUInt64Array","VariantToUInt64Array function [Windows Properties]","_shell_VariantToUInt64Array","properties.VariantToUInt64Array","propvarutil/VariantToUInt64Array","shell.VariantToUInt64Array"]
 old-location: properties\VariantToUInt64Array.htm
 tech.root: properties
 ms.assetid: 90b39ed2-a8a9-424c-bfd2-90517b9224fd

@@ -1,7 +1,7 @@
 ---
 UID: NE:tapi3if.ADDRESS_STATE
 title: ADDRESS_STATE (tapi3if.h)
-description: The ADDRESS_STATE enum is used by the ITAddress::get_State method to check the address state.
+description: The ADDRESS_STATE enum is used by the ITAddress::get_State method to check the address state.helpviewer_keywords: ["ADDRESS_STATE","ADDRESS_STATE enumeration [TAPI 2.2]","AS_INSERVICE","AS_OUTOFSERVICE","_tapi3_address_state","tapi3.address_state","tapi3if/ADDRESS_STATE","tapi3if/AS_INSERVICE","tapi3if/AS_OUTOFSERVICE"]
 old-location: tapi3\address_state.htm
 tech.root: Tapi
 ms.assetid: 7c79bd68-5f1d-4796-a16b-fd786345cffd

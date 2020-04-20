@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGradientStop
 title: IXpsOMObjectFactory::CreateGradientStop (xpsobjectmodel.h)
-description: Creates an IXpsOMGradientStop interface to represent a single color and location definition within a gradient.
+description: Creates an IXpsOMGradientStop interface to represent a single color and location definition within a gradient.helpviewer_keywords: ["CreateGradientStop","CreateGradientStop method [XPS Documents and Packaging]","CreateGradientStop method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateGradientStop method","IXpsOMObjectFactory.CreateGradientStop","IXpsOMObjectFactory::CreateGradientStop","xps.ixpsomobjectfactory_creategradientstop","xpsobjectmodel/IXpsOMObjectFactory::CreateGradientStop"]
 old-location: xps\ixpsomobjectfactory_creategradientstop.htm
 tech.root: printdocs
 ms.assetid: c9217444-fc9d-4b1e-abb2-7e1badd32052

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptSignAndEncryptMessage
 title: CryptSignAndEncryptMessage function (wincrypt.h)
-description: The CryptSignAndEncryptMessage function creates a hash of the specified content, signs the hash, encrypts the content, hashes the encrypted contents and the signed hash, and then encodes both the encrypted content and the signed hash.
+description: The CryptSignAndEncryptMessage function creates a hash of the specified content, signs the hash, encrypts the content, hashes the encrypted contents and the signed hash, and then encodes both the encrypted content and the signed hash.helpviewer_keywords: ["CryptSignAndEncryptMessage","CryptSignAndEncryptMessage function [Security]","_crypto2_cryptsignandencryptmessage","security.cryptsignandencryptmessage","wincrypt/CryptSignAndEncryptMessage"]
 old-location: security\cryptsignandencryptmessage.htm
 tech.root: SecCrypto
 ms.assetid: 0ab234f2-a681-463f-8ba8-b23b05cf2626

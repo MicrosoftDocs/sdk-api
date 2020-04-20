@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.RpcUserFree
 title: RpcUserFree function (rpcndr.h)
-description: RpcUserFree may be altered or unavailable.
+description: RpcUserFree may be altered or unavailable.helpviewer_keywords: ["RpcUserFree","RpcUserFree function [RPC]","rpc.rpcuserfree","rpcndr/RpcUserFree"]
 old-location: rpc\rpcuserfree.htm
 tech.root: Rpc
 ms.assetid: A10E3C20-DB43-4F76-BF4B-87F4126BAF1A
@@ -67,13 +67,5 @@ Reserved.
 ### -param pBuffer
 
 Reserved.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

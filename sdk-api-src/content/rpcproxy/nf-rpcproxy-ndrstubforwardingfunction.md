@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.NdrStubForwardingFunction
 title: NdrStubForwardingFunction function (rpcproxy.h)
-description: The NdrStubForwardingFunction function is the entry point for server-side object methods that are defined in a base interface.
+description: The NdrStubForwardingFunction function is the entry point for server-side object methods that are defined in a base interface.helpviewer_keywords: ["NdrStubForwardingFunction","NdrStubForwardingFunction function [RPC]","rpc.ndrstubforwardingfunction","rpcproxy/NdrStubForwardingFunction"]
 old-location: rpc\ndrstubforwardingfunction.htm
 tech.root: Rpc
 ms.assetid: 05d69090-4274-4dad-8fef-89db247d0c09
@@ -75,15 +75,6 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/rpcdcep/ns
 ### -param pdwStubPhase [out]
 
 Pointer to a flag that tracks the current interpreter call's activity.
-
-
-## -returns
-
-
-
-This function has no return value. Throws an exception upon error.
-
-
 
 
 ## -remarks

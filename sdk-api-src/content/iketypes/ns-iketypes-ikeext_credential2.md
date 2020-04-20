@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_CREDENTIAL2_
 title: IKEEXT_CREDENTIAL2 (iketypes.h)
-description: Is used to store credential information used for the authentication.
+description: Is used to store credential information used for the authentication.helpviewer_keywords: ["IKEEXT_CREDENTIAL2","IKEEXT_CREDENTIAL2 structure [Filtering]","fwp.ikeext_credential2","iketypes/IKEEXT_CREDENTIAL2"]
 old-location: fwp\ikeext_credential2.htm
 tech.root: fwp
 ms.assetid: b27689ef-5e2a-4163-a4d7-40f8939d4c66

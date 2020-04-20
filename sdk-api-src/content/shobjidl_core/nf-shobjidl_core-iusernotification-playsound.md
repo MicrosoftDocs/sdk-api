@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IUserNotification.PlaySound
 title: IUserNotification::PlaySound (shobjidl_core.h)
-description: Plays a sound in conjunction with the notification.
+description: Plays a sound in conjunction with the notification.helpviewer_keywords: ["IUserNotification interface [Windows Shell]","PlaySound method","IUserNotification.PlaySound","IUserNotification::PlaySound","PlaySound","PlaySound method [Windows Shell]","PlaySound method [Windows Shell]","IUserNotification interface","inet_IUserNotification_PlaySound","shell.IUserNotification_PlaySound","shobjidl_core/IUserNotification::PlaySound"]
 old-location: shell\IUserNotification_PlaySound.htm
 tech.root: shell
 ms.assetid: 3d7533c8-3b52-42dd-bfaa-2305bf3b0b18

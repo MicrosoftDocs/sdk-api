@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCompartmentMgr.EnumCompartments
 title: ITfCompartmentMgr::EnumCompartments (msctf.h)
-description: The ITfCompartmentMgr::EnumCompartments method obtains an enumerator that contains the GUID of the compartments within the compartment manager.
+description: The ITfCompartmentMgr::EnumCompartments method obtains an enumerator that contains the GUID of the compartments within the compartment manager.helpviewer_keywords: ["EnumCompartments","EnumCompartments method [Text Services Framework]","EnumCompartments method [Text Services Framework]","ITfCompartmentMgr interface","ITfCompartmentMgr interface [Text Services Framework]","EnumCompartments method","ITfCompartmentMgr.EnumCompartments","ITfCompartmentMgr::EnumCompartments","_tsf_itfcompartmentmgr_enumcompartments_ref","msctf/ITfCompartmentMgr::EnumCompartments","tsf.itfcompartmentmgr_enumcompartments"]
 old-location: tsf\itfcompartmentmgr_enumcompartments.htm
 tech.root: TSF
 ms.assetid: d8c90637-dd6d-425f-9d5d-44c7dbfcf8a5
@@ -118,7 +118,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
-
+[ITfCompartmentMgr interface](nn-msctf-itfcompartmentmgr.md), [ITfCompartment interface](nn-msctf-itfcompartment.md), [Compartments](/windows/desktop/TSF/compartments)

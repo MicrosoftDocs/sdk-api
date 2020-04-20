@@ -1,7 +1,7 @@
 ---
 UID: NF:wintrust.WintrustAddDefaultForUsage
 title: WintrustAddDefaultForUsage function (wintrust.h)
-description: Specifies the default usage identifier and callback information for a provider.
+description: Specifies the default usage identifier and callback information for a provider.helpviewer_keywords: ["WintrustAddDefaultForUsage","WintrustAddDefaultForUsage function [Security]","security.wintrustadddefaultforusage","wintrust/WintrustAddDefaultForUsage"]
 old-location: security\wintrustadddefaultforusage.htm
 tech.root: SecCrypto
 ms.assetid: 511D05BD-0F8C-45B8-A1B0-D3C7AAFECCFC

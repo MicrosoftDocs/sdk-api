@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.ICertAdmin.DenyRequest
 title: ICertAdmin::DenyRequest (certadm.h)
-description: Denies a specified certificate request that is pending.
+description: Denies a specified certificate request that is pending.helpviewer_keywords: ["CCertAdmin interface [Security]","DenyRequest method","DenyRequest","DenyRequest method [Security]","DenyRequest method [Security]","CCertAdmin interface","DenyRequest method [Security]","ICertAdmin interface","DenyRequest method [Security]","ICertAdmin2 interface","ICertAdmin interface [Security]","DenyRequest method","ICertAdmin.DenyRequest","ICertAdmin2 interface [Security]","DenyRequest method","ICertAdmin2::DenyRequest","ICertAdmin::DenyRequest","certadm/ICertAdmin2::DenyRequest","certadm/ICertAdmin::DenyRequest","security.icertadmin2_denyrequest"]
 old-location: security\icertadmin2_denyrequest.htm
 tech.root: SecCrypto
 ms.assetid: a432fd66-0f80-4fb8-9778-38b240dd6369

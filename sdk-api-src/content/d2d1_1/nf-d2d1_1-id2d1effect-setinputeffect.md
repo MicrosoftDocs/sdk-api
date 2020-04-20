@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Effect.SetInputEffect
 title: ID2D1Effect::SetInputEffect (d2d1_1.h)
-description: Sets the given input effect by index.
+description: Sets the given input effect by index.helpviewer_keywords: ["ID2D1Effect interface [Direct2D]","SetInputEffect method","ID2D1Effect.SetInputEffect","ID2D1Effect::SetInputEffect","SetInputEffect","SetInputEffect method [Direct2D]","SetInputEffect method [Direct2D]","ID2D1Effect interface","d2d1_1/ID2D1Effect::SetInputEffect","direct2d.id2d1effect_setinputeffect"]
 old-location: direct2d\id2d1effect_setinputeffect.htm
 tech.root: Direct2D
 ms.assetid: 361B0644-7437-47DA-A34C-0234EE4E92C3
@@ -72,15 +72,6 @@ The input effect to set.
 ### -param invalidate
 
 Whether to invalidate the graph at the location of the effect input
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

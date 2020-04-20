@@ -1,7 +1,7 @@
 ---
 UID: NS:spatialaudioclient.SpatialAudioClientActivationParams
 title: SpatialAudioClientActivationParams (spatialaudioclient.h)
-description: Represents optional activation parameters for a spatial audio render stream. Pass this structure to ActivateAudioInterfaceAsync when activating an ISpatialAudioClient interface.
+description: Represents optional activation parameters for a spatial audio render stream. Pass this structure to ActivateAudioInterfaceAsync when activating an ISpatialAudioClient interface.helpviewer_keywords: ["PSpatialAudioClientActivationParams","PSpatialAudioClientActivationParams structure pointer [Core Audio]","SpatialAudioClientActivationParams","SpatialAudioClientActivationParams structure [Core Audio]","coreaudio.spatialaudioclientactivationparams","spatialaudioclient/PSpatialAudioClientActivationParams","spatialaudioclient/SpatialAudioClientActivationParams"]
 old-location: coreaudio\spatialaudioclientactivationparams.htm
 tech.root: CoreAudio
 ms.assetid: 6FEC7A70-D12E-4DB9-91DC-A54D5CCF8B57

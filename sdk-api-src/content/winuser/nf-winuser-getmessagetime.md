@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetMessageTime
 title: GetMessageTime function (winuser.h)
-description: Retrieves the message time for the last message retrieved by the GetMessage function.
+description: Retrieves the message time for the last message retrieved by the GetMessage function.helpviewer_keywords: ["GetMessageTime","GetMessageTime function [Windows and Messages]","_win32_GetMessageTime","_win32_getmessagetime_cpp","winmsg.getmessagetime","winui._win32_getmessagetime","winuser/GetMessageTime"]
 old-location: winmsg\getmessagetime.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessagetime.htm
@@ -82,7 +82,7 @@ The return value specifies the message time.
 
 
 
-The return value from the <b>GetMessageTime</b> function does not necessarily increase between subsequent messages, because the value wraps to wraps to the minimum value for a long integer if the timer count exceeds the maximum value for a long integer.
+The return value from the <b>GetMessageTime</b> function does not necessarily increase between subsequent messages, because the value wraps to the minimum value for a long integer if the timer count exceeds the maximum value for a long integer.
 
 To calculate time delays between messages, subtract the time of the first message from the time of the second message (ignoring overflow) and compare the result of the subtraction against the desired delay amount. 
 

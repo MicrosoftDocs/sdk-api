@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarR4FromR8
 title: VarR4FromR8 function (oleauto.h)
-description: Converts a double value to a float value.
+description: Converts a double value to a float value.helpviewer_keywords: ["VarR4FromR8","VarR4FromR8 function [Automation]","_oa96_VarR4FromR8","automat.varr4fromr8","oleauto/VarR4FromR8"]
 old-location: automat\varr4fromr8.htm
 tech.root: automat
 ms.assetid: 5cc2b908-740b-4c6e-bddd-9dbe3b3d2b06

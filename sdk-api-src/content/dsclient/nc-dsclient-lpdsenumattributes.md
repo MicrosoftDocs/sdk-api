@@ -1,7 +1,7 @@
 ---
 UID: NC:dsclient.LPDSENUMATTRIBUTES
 title: LPDSENUMATTRIBUTES (dsclient.h)
-description: The DSEnumAttributesCallback function is an application-defined callback function that is called once for each attribute enumerated by the IDsDisplaySpecifier::EnumClassAttributes method.
+description: The DSEnumAttributesCallback function is an application-defined callback function that is called once for each attribute enumerated by the IDsDisplaySpecifier::EnumClassAttributes method.helpviewer_keywords: ["DSECAF_NOTLISTED","DSEnumAttributesCallback","DSEnumAttributesCallback callback","DSEnumAttributesCallback callback function [Active Directory]","LPDSENUMATTRIBUTES","LPDSENUMATTRIBUTES callback function [Active Directory]","ad.dsenumattributescallback","dsclient/DSEnumAttributesCallback"]
 old-location: ad\dsenumattributescallback.htm
 tech.root: ad
 ms.assetid: f4f35119-9ffc-4fe9-aea1-2d4a5d4edd0b

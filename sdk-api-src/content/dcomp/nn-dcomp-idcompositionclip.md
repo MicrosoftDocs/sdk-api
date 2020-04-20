@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionClip
 title: IDCompositionClip (dcomp.h)
-description: Represents a clip object that is used to restrict the rendering of a visual subtree to a rectangular area.
+description: Represents a clip object that is used to restrict the rendering of a visual subtree to a rectangular area.helpviewer_keywords: ["IDCompositionClip","IDCompositionClip interface [DirectComposition]","IDCompositionClip interface [DirectComposition]","described","dcomp/IDCompositionClip","directcomp.idcompositionclip"]
 old-location: directcomp\idcompositionclip.htm
 tech.root: directcomp
 ms.assetid: 647638f4-7eca-42bc-a083-3d9d15089648

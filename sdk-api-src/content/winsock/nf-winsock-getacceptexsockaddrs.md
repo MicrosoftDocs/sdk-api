@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock.GetAcceptExSockaddrs
 title: GetAcceptExSockaddrs function (winsock.h)
-description: Parses the data obtained from a call to the AcceptEx function and passes the local and remote addresses to a sockaddr structure.Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
+description: Parses the data obtained from a call to the AcceptEx function and passes the local and remote addresses to a sockaddr structure.Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .helpviewer_keywords: ["GetAcceptExSockaddrs","GetAcceptExSockaddrs function [Winsock]","_win32_getacceptexsockaddrs_2","winsock.getacceptexsockaddrs_2","winsock/GetAcceptExSockaddrs"]
 old-location: winsock\getacceptexsockaddrs_2.htm
 tech.root: WinSock
 ms.assetid: 381ba8ab-3c99-45c8-8895-4c87949f5238
@@ -108,15 +108,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/WinSock/soc
 ### -param RemoteSockaddrLength [out]
 
 The size, in bytes, of the local address. This parameter must be specified.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

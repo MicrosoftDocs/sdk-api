@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.Edit_SetReadOnly
 title: Edit_SetReadOnly macro (windowsx.h)
-description: Sets or removes the read-only style (ES_READONLY) of an edit or rich edit control. You can use this macro or send the EM_SETREADONLY message explicitly.
+description: Sets or removes the read-only style (ES_READONLY) of an edit or rich edit control. You can use this macro or send the EM_SETREADONLY message explicitly.helpviewer_keywords: ["Edit_SetReadOnly","Edit_SetReadOnly macro [Windows Controls]","_win32_Edit_SetReadOnly","_win32_Edit_SetReadOnly_cpp","controls.Edit_SetReadOnly","controls._win32_Edit_SetReadOnly","windowsx/Edit_SetReadOnly"]
 old-location: controls\Edit_SetReadOnly.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setreadonly.htm

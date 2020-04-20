@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.GetFormat
 title: IInkLineInfo::GetFormat (msinkaut.h)
-description: Returns the display properties currently set on the text ink object (tInk).
+description: Returns the display properties currently set on the text ink object (tInk).helpviewer_keywords: ["8f894963-7075-46f4-8809-82d1aa7e13e7","GetFormat","GetFormat method [Tablet PC]","GetFormat method [Tablet PC]","IInkLineInfo interface","IInkLineInfo interface [Tablet PC]","GetFormat method","IInkLineInfo.GetFormat","IInkLineInfo::GetFormat","msinkaut/IInkLineInfo::GetFormat","tablet.iinklineinfo_getformat"]
 old-location: tablet\iinklineinfo_getformat.htm
 tech.root: tablet
 ms.assetid: 8f894963-7075-46f4-8809-82d1aa7e13e7

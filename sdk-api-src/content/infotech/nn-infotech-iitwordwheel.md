@@ -1,7 +1,7 @@
 ---
 UID: NN:infotech.IITWordWheel
 title: IITWordWheel (infotech.h)
-description: Use this interface to perform word wheel keyword lookups. The Lookup method offers several ways of performing a search:\_it returns either an exact match, or the closest approximation based on a given prefix.
+description: Use this interface to perform word wheel keyword lookups. The Lookup method offers several ways of performing a search:\_it returns either an exact match, or the closest approximation based on a given prefix.helpviewer_keywords: ["IITWordWheel","IITWordWheel interface [HTML Help Workshop]","IITWordWheel interface [HTML Help Workshop]","described","htmlhelp.iitwordwheel","infotech/IITWordWheel","refIITWordWheelInterface"]
 old-location: htmlhelp\iitwordwheel.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelinterface.htm

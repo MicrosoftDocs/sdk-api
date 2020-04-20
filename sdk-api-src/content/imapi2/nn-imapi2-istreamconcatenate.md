@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.IStreamConcatenate
 title: IStreamConcatenate (imapi2.h)
-description: Use this interface to combine several data streams into a single stream.
+description: Use this interface to combine several data streams into a single stream.helpviewer_keywords: ["IStreamConcatenate","IStreamConcatenate interface [IMAPI]","IStreamConcatenate interface [IMAPI]","described","imapi.istreamconcatenate","imapi2/IStreamConcatenate"]
 old-location: imapi\istreamconcatenate.htm
 tech.root: imapi
 ms.assetid: 48b786ef-a1b6-4dcf-9329-c659f15185e1

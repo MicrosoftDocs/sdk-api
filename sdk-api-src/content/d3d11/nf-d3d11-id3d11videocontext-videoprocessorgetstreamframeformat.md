@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamFrameFormat
 title: ID3D11VideoContext::VideoProcessorGetStreamFrameFormat (d3d11.h)
-description: Gets the format of an input stream on the video processor.
+description: Gets the format of an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamFrameFormat method","ID3D11VideoContext.VideoProcessorGetStreamFrameFormat","ID3D11VideoContext::VideoProcessorGetStreamFrameFormat","VideoProcessorGetStreamFrameFormat","VideoProcessorGetStreamFrameFormat method [Media Foundation]","VideoProcessorGetStreamFrameFormat method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamFrameFormat","mf.id3d11videocontext_videoprocessorgetstreamframeformat"]
 old-location: mf\id3d11videocontext_videoprocessorgetstreamframeformat.htm
 tech.root: medfound
 ms.assetid: 43879368-1730-4881-B77E-0A975DD5E473
@@ -70,15 +70,6 @@ The zero-based index of the input stream. To get the maximum number of streams, 
 ### -param pFrameFormat [out]
 
 Receives a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_frame_format">D3D11_VIDEO_FRAME_FORMAT</a> value that specifies whether the stream contains interlaced or progressive frames.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

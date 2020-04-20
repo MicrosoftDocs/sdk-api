@@ -1,7 +1,7 @@
 ---
 UID: NN:winml.IWinMLRuntimeFactory
 title: IWinMLRuntimeFactory (winml.h)
-description: Represents the factory that creates the WinML runtime for model loading and evaluation.
+description: Represents the factory that creates the WinML runtime for model loading and evaluation.helpviewer_keywords: ["IWinMLRuntimeFactory","IWinMLRuntimeFactory interface","IWinMLRuntimeFactory interface","described","MachineLearning.iwinmlruntimefactory","winml/IWinMLRuntimeFactory"]
 old-location: machinelearning\iwinmlruntimefactory.htm
 tech.root: MachineLearning
 ms.assetid: 7817A028-031C-49AA-A17A-4364DC0E78D0

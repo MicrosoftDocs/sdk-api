@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMPlaneNormalizeEst
 title: XMPlaneNormalizeEst function (directxmath.h)
-description: Estimates the coefficients of a plane so that coefficients of x, y, and z form a unit normal vector.
+description: Estimates the coefficients of a plane so that coefficients of x, y, and z form a unit normal vector.helpviewer_keywords: ["Use DirectX..XMPlaneNormalizeEst","XMPlaneNormalizeEst","XMPlaneNormalizeEst method [DirectX Math Support APIs]","dxmath.xmplanenormalizeest"]
 old-location: dxmath\xmplanenormalizeest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneNormalizeEst(XMVECTOR)

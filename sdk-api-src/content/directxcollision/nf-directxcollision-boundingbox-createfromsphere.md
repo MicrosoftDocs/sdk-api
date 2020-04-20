@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingBox.CreateFromSphere
 title: BoundingBox::CreateFromSphere
-description: Creates a BoundingBox large enough to contain the a specified BoundingSphere.
+description: Creates a BoundingBox large enough to contain the a specified BoundingSphere.helpviewer_keywords: ["BoundingBox interface [DirectX Math Support APIs]","CreateFromSphere method","BoundingBox.CreateFromSphere","BoundingBox::CreateFromSphere","CreateFromSphere","CreateFromSphere method [DirectX Math Support APIs]","CreateFromSphere method [DirectX Math Support APIs]","BoundingBox interface","Use DirectX..BoundingBox.CreateFromSphere","Use DirectX::::BoundingBox::CreateFromSphere","dxmath.boundingbox_createfromsphere"]
 old-location: dxmath\boundingbox_createfromsphere.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.CreateFromSphere(BoundingBox@,BoundingSphere)
@@ -65,15 +65,6 @@ The new BoundingBox.
 ### -param sh [in, ref]
 
 The BoundingSphere the new BoundingBox should contain.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

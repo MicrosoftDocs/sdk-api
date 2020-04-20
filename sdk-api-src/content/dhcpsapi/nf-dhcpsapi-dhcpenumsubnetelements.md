@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetElements
 title: DhcpEnumSubnetElements function (dhcpsapi.h)
-description: Returns an enumerated list of elements for a specific DHCP subnet.
+description: Returns an enumerated list of elements for a specific DHCP subnet.helpviewer_keywords: ["DhcpEnumSubnetElements","DhcpEnumSubnetElements function [DHCP]","dhcp.dhcpenumsubnetelements","dhcpsapi/DhcpEnumSubnetElements"]
 old-location: dhcp\dhcpenumsubnetelements.htm
 tech.root: DHCP
 ms.assetid: 1e2f1476-2a73-4298-80f7-c57efdc10fd2

@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamEvents.OnReadCompleted
 title: IRDPSRAPITransportStreamEvents::OnReadCompleted (rdpencomapi.h)
-description: Notifies the Remote Desktop Protocol (RDP) stack that a read operation has completed.
+description: Notifies the Remote Desktop Protocol (RDP) stack that a read operation has completed.helpviewer_keywords: ["IRDPSRAPITransportStreamEvents interface [RDP]","OnReadCompleted method","IRDPSRAPITransportStreamEvents.OnReadCompleted","IRDPSRAPITransportStreamEvents::OnReadCompleted","OnReadCompleted","OnReadCompleted method [RDP]","OnReadCompleted method [RDP]","IRDPSRAPITransportStreamEvents interface","rdp.irdpsrapitransportstreamevents_onreadcompleted","rdpencomapi/IRDPSRAPITransportStreamEvents::OnReadCompleted"]
 old-location: rdp\irdpsrapitransportstreamevents_onreadcompleted.htm
 tech.root: rdp
 ms.assetid: 27c3a16a-3d78-46b1-b328-1a1b6f059687
@@ -62,15 +62,6 @@ Notifies the Remote Desktop Protocol (RDP) stack that a read operation has compl
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>*</b>
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a> interface pointer that represents the stream buffer that was read.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

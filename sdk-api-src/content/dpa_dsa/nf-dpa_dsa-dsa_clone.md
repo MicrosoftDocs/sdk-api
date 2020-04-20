@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DSA_Clone
 title: DSA_Clone function (dpa_dsa.h)
-description: Duplicates a dynamic structure array (DSA).
+description: Duplicates a dynamic structure array (DSA).helpviewer_keywords: ["DSA_Clone","DSA_Clone function [Windows Controls]","_shell_DSA_Clone","_shell_DSA_Clone_cpp","controls.DSA_Clone","controls._shell_DSA_Clone","dpa_dsa/DSA_Clone"]
 old-location: controls\DSA_Clone.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_clone.htm

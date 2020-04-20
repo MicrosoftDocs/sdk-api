@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ModelNumber
 title: IUPnPDevice::get_ModelNumber (upnp.h)
-description: The ModelNumber property specifies a human-readable form of the model number of the device.
+description: The ModelNumber property specifies a human-readable form of the model number of the device.helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_ModelNumber method","IUPnPDevice.get_ModelNumber","IUPnPDevice::get_ModelNumber","_upnp_iupnpdevice_modelnumber","get_ModelNumber","get_ModelNumber method [UPnP APIs]","get_ModelNumber method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_modelnumber","upnp/IUPnPDevice::get_ModelNumber"]
 old-location: upnp\iupnpdevice_modelnumber.htm
 tech.root: upnp
 ms.assetid: 7e9b92a6-efad-41f0-b083-a2fed0f70c8b

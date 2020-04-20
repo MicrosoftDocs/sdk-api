@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CRYPT_ATTRIBUTE_TYPE_VALUE
 title: CRYPT_ATTRIBUTE_TYPE_VALUE (wincrypt.h)
-description: Contains a single attribute value. The Value member's CRYPT_OBJID_BLOB is encoded.
+description: Contains a single attribute value. The Value member's CRYPT_OBJID_BLOB is encoded.helpviewer_keywords: ["*PCRYPT_ATTRIBUTE_TYPE_VALUE","CRYPT_ATTRIBUTE_TYPE_VALUE","CRYPT_ATTRIBUTE_TYPE_VALUE structure [Security]","PCRYPT_ATTRIBUTE_TYPE_VALUE","PCRYPT_ATTRIBUTE_TYPE_VALUE structure pointer [Security]","_crypto2_crypt_attribute_type_value","security.crypt_attribute_type_value","wincrypt/CRYPT_ATTRIBUTE_TYPE_VALUE","wincrypt/PCRYPT_ATTRIBUTE_TYPE_VALUE"]
 old-location: security\crypt_attribute_type_value.htm
 tech.root: SecCrypto
 ms.assetid: 84057581-d0a9-464a-9399-ba806e37516f

@@ -1,7 +1,7 @@
 ---
 UID: NF:wct.OpenThreadWaitChainSession
 title: OpenThreadWaitChainSession function (wct.h)
-description: Creates a new WCT session.
+description: Creates a new WCT session.helpviewer_keywords: ["OpenThreadWaitChainSession","OpenThreadWaitChainSession function","WCT_ASYNC_OPEN_FLAG","base.openthreadwaitchainsession","wct/OpenThreadWaitChainSession"]
 old-location: base\openthreadwaitchainsession.htm
 tech.root: Debug
 ms.assetid: 405d9f3d-c11b-4e20-acc8-9c4f7989685d

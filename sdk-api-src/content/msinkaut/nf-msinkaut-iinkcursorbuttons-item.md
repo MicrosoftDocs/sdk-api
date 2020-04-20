@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCursorButtons.Item
 title: IInkCursorButtons::Item (msinkaut.h)
-description: Retrieves the IInkCursorButton object at the specified index or string identifier within the IInkCursorButtons collection.
+description: Retrieves the IInkCursorButton object at the specified index or string identifier within the IInkCursorButtons collection.helpviewer_keywords: ["801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf","IInkCursorButtons interface [Tablet PC]","Item method","IInkCursorButtons.Item","IInkCursorButtons::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkCursorButtons interface","msinkaut/IInkCursorButtons::Item","tablet.iinkcursorbuttons_item"]
 old-location: tablet\iinkcursorbuttons_item.htm
 tech.root: tablet
 ms.assetid: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf

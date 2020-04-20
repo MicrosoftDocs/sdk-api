@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_DIRECTDRAW_LOCAL
 title: DD_DIRECTDRAW_LOCAL (ddrawint.h)
-description: The DD_DIRECTDRAW_LOCAL structure contains driver information that is relevant to the current DirectDraw process only.
+description: The DD_DIRECTDRAW_LOCAL structure contains driver information that is relevant to the current DirectDraw process only.helpviewer_keywords: ["*PDD_DIRECTDRAW_LOCAL","DD_DIRECTDRAW_LOCAL","DD_DIRECTDRAW_LOCAL structure [Display Devices]","ddrawint/DD_DIRECTDRAW_LOCAL","ddstrcts_2df3e80e-6d5d-4d81-9ae8-d92b7c7c74eb.xml","display.dd_directdraw_local"]
 old-location: display\dd_directdraw_local.htm
 tech.root: display
 ms.assetid: 58e378b7-863a-46d4-91cb-904ed4e892a3

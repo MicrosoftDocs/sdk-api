@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserSize
 title: LPSAFEARRAY_UserSize function (wia_xp.h)
-description: Calculates the wire size of the SAFEARRAY object, and gets its handle and data.
+description: Calculates the wire size of the SAFEARRAY object, and gets its handle and data.helpviewer_keywords: ["LPSAFEARRAY_UserSize","LPSAFEARRAY_UserSize function [Automation]","_oa96_LPSAFEARRAY_UserSize","automat.lpsafearray_usersize","wia_xp/LPSAFEARRAY_UserSize"]
 old-location: automat\lpsafearray_usersize.htm
 tech.root: automat
 ms.assetid: 85cb5bc1-5dab-4b50-950e-0d18c403f996

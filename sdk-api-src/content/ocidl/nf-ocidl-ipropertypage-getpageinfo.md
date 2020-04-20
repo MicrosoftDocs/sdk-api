@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPropertyPage.GetPageInfo
 title: IPropertyPage::GetPageInfo (ocidl.h)
-description: Retrieves information about the property page.
+description: Retrieves information about the property page.helpviewer_keywords: ["GetPageInfo","GetPageInfo method [COM]","GetPageInfo method [COM]","IPropertyPage interface","IPropertyPage interface [COM]","GetPageInfo method","IPropertyPage.GetPageInfo","IPropertyPage::GetPageInfo","_ctrl_ipropertypage_getpageinfo","com.ipropertypage_getpageinfo","ocidl/IPropertyPage::GetPageInfo"]
 old-location: com\ipropertypage_getpageinfo.htm
 tech.root: com
 ms.assetid: 3cb7168c-bb05-4e01-a73b-11a52c5e690b

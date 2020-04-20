@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.UnRegisterForNotification
 title: ITsSbProvider::UnRegisterForNotification (sbtsv.h)
-description: Requests that Remote Desktop Connection Broker (RD Connection Broker) not send notifications about specified events.
+description: Requests that Remote Desktop Connection Broker (RD Connection Broker) not send notifications about specified events.helpviewer_keywords: ["ITsSbProvider interface [Remote Desktop Services]","UnRegisterForNotification method","ITsSbProvider.UnRegisterForNotification","ITsSbProvider::UnRegisterForNotification","TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE","TSSB_NOTIFY_SESSION_CHANGE","TSSB_NOTIFY_TARGET_CHANGE","UnRegisterForNotification","UnRegisterForNotification method [Remote Desktop Services]","UnRegisterForNotification method [Remote Desktop Services]","ITsSbProvider interface","sbtsv/ITsSbProvider::UnRegisterForNotification","termserv.itssbprovider_unregisterfornotification"]
 old-location: termserv\itssbprovider_unregisterfornotification.htm
 tech.root: TermServ
 ms.assetid: e2fa297e-9923-4e60-9e6e-caa6e4b8c963

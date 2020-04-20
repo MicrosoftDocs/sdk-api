@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.SetDuplicate
 title: ITextPara::SetDuplicate (tom.h)
-description: Sets the formatting for an existing paragraph by copying a given format.
+description: Sets the formatting for an existing paragraph by copying a given format.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetDuplicate method","ITextPara.SetDuplicate","ITextPara::SetDuplicate","SetDuplicate","SetDuplicate method [Windows Controls]","SetDuplicate method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetDuplicate","_win32_ITextPara_SetDuplicate_cpp","controls.ITextPara_SetDuplicate","controls._win32_ITextPara_SetDuplicate","tom/ITextPara::SetDuplicate"]
 old-location: controls\ITextPara_SetDuplicate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparasetduplicate.htm

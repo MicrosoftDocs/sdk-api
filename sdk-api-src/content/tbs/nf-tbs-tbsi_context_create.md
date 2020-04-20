@@ -1,7 +1,7 @@
 ---
 UID: NF:tbs.Tbsi_Context_Create
 title: Tbsi_Context_Create function (tbs.h)
-description: Creates a context handle that can be used to pass commands to TBS.
+description: Creates a context handle that can be used to pass commands to TBS.helpviewer_keywords: ["Tbsi_Context_Create","Tbsi_Context_Create function [TBS]","tbs._tbsi_context_create","tbs/Tbsi_Context_Create"]
 old-location: tbs\_tbsi_context_create.htm
 tech.root: TBS
 ms.assetid: 5f19f649-2132-4fd8-a346-4be73fb8917c

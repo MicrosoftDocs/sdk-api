@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi.IDXGIDevice.GetAdapter
 title: IDXGIDevice::GetAdapter (dxgi.h)
-description: Returns the adapter for the specified device.
+description: Returns the adapter for the specified device.helpviewer_keywords: ["3bbfc03f-4bda-05eb-f6de-6f2c4564fa75","GetAdapter","GetAdapter method [DXGI]","GetAdapter method [DXGI]","IDXGIDevice interface","IDXGIDevice interface [DXGI]","GetAdapter method","IDXGIDevice.GetAdapter","IDXGIDevice::GetAdapter","direct3ddxgi.idxgidevice_getadapter","dxgi/IDXGIDevice::GetAdapter"]
 old-location: direct3ddxgi\idxgidevice_getadapter.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_getadapter.htm

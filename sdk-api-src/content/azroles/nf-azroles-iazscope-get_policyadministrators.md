@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope.get_PolicyAdministrators
 title: IAzScope::get_PolicyAdministrators (azroles.h)
-description: The PolicyAdministrators property of IAzScope retrieves the security identifiers (SIDs), in text form, of principals that act as policy administrators.
+description: The PolicyAdministrators property of IAzScope retrieves the security identifiers (SIDs), in text form, of principals that act as policy administrators.helpviewer_keywords: ["AzScope object [Security]","PolicyAdministrators property","IAzScope interface [Security]","PolicyAdministrators property","IAzScope.PolicyAdministrators","IAzScope.get_PolicyAdministrators","IAzScope::PolicyAdministrators","IAzScope::get_PolicyAdministrators","PolicyAdministrators property [Security]","PolicyAdministrators property [Security]","AzScope object","PolicyAdministrators property [Security]","IAzScope interface","azroles/IAzScope::PolicyAdministrators","azroles/IAzScope::get_PolicyAdministrators","get_PolicyAdministrators","security.iazscope_policyadministrators"]
 old-location: security\iazscope_policyadministrators.htm
 tech.root: SecAuthZ
 ms.assetid: 13c11105-b44d-46e0-ab73-c11fede1507b

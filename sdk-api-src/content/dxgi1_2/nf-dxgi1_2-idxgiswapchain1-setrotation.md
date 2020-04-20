@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.SetRotation
 title: IDXGISwapChain1::SetRotation (dxgi1_2.h)
-description: Sets the rotation of the back buffers for the swap chain.
+description: Sets the rotation of the back buffers for the swap chain.helpviewer_keywords: ["IDXGISwapChain1 interface [DXGI]","SetRotation method","IDXGISwapChain1.SetRotation","IDXGISwapChain1::SetRotation","SetRotation","SetRotation method [DXGI]","SetRotation method [DXGI]","IDXGISwapChain1 interface","direct3ddxgi.idxgiswapchain1_setrotation","dxgi1_2/IDXGISwapChain1::SetRotation"]
 old-location: direct3ddxgi\idxgiswapchain1_setrotation.htm
 tech.root: direct3ddxgi
 ms.assetid: D1CD2B20-FC7E-4141-A828-96E070A63F4A

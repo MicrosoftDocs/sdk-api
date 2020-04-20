@@ -1,7 +1,7 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerFreeMemory
 title: EapHostPeerFreeMemory function (eaphostpeerconfigapis.h)
-description: Frees memory returned by the configuration APIs.
+description: Frees memory returned by the configuration APIs.helpviewer_keywords: ["EapHostPeerFreeMemory","EapHostPeerFreeMemory function [EAPHost]","eaphost.eaphostpeerfreememory","eaphostpeerconfigapis/EapHostPeerFreeMemory"]
 old-location: eaphost\eaphostpeerfreememory.htm
 tech.root: eaphost
 ms.assetid: 162c796c-b9dc-465a-a1bc-f11d740f3fa0
@@ -60,15 +60,6 @@ ms.custom: 19H1
 ### -param pData
 
 A pointer to the memory to free.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

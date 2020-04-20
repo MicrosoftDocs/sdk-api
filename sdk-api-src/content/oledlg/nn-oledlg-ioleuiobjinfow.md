@@ -1,7 +1,7 @@
 ---
 UID: NN:oledlg.IOleUIObjInfoW
 title: IOleUIObjInfoW (oledlg.h)
-description: Implemented by containers and used by the container's Object Properties dialog box and by the Convert dialog box.
+description: Implemented by containers and used by the container's Object Properties dialog box and by the Convert dialog box.helpviewer_keywords: ["IOleUIObjInfo","IOleUIObjInfo interface [COM]","IOleUIObjInfo interface [COM]","described","IOleUIObjInfoA","IOleUIObjInfoW","_ole_IOleUIObjInfo","com.ioleuiobjinfo","oledlg/IOleUIObjInfo"]
 old-location: com\ioleuiobjinfo.htm
 tech.root: com
 ms.assetid: 508dccb3-e98b-4f62-8bc3-98ca2b0d1349

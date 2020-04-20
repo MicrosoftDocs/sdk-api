@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10ShaderResourceView.GetDesc
 title: ID3D10ShaderResourceView::GetDesc (d3d10.h)
-description: Get the shader resource view's description.
+description: Get the shader resource view's description.helpviewer_keywords: ["8574c822-dc15-12c5-f791-318996a6c282","GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10ShaderResourceView interface","ID3D10ShaderResourceView interface [Direct3D 10]","GetDesc method","ID3D10ShaderResourceView.GetDesc","ID3D10ShaderResourceView::GetDesc","d3d10/ID3D10ShaderResourceView::GetDesc","direct3d10.id3d10shaderresourceview_getdesc"]
 old-location: direct3d10\id3d10shaderresourceview_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderresourceview_getdesc.htm
@@ -62,15 +62,6 @@ Get the shader resource view's description.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_shader_resource_view_desc">D3D10_SHADER_RESOURCE_VIEW_DESC</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_shader_resource_view_desc">D3D10_SHADER_RESOURCE_VIEW_DESC</a> structure to be filled with data about the shader resource view.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -see-also

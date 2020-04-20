@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Flags
 title: IRDPSRAPIWindow::get_Flags (rdpencomapi.h)
-description: Returns the flags on the current window.
+description: Returns the flags on the current window.helpviewer_keywords: ["Flags property [RDP]","Flags property [RDP]","IRDPSRAPIWindow interface","Flags property [RDP]","RDPSRAPIWindow object","IRDPSRAPIWindow interface [RDP]","Flags property","IRDPSRAPIWindow.Flags","IRDPSRAPIWindow.get_Flags","IRDPSRAPIWindow::Flags","IRDPSRAPIWindow::get_Flags","RDPSRAPIWindow object [RDP]","Flags property","get_Flags","rdp.irdpsrapiwindow_flags","rdpencomapi/IRDPSRAPIWindow::Flags","rdpencomapi/IRDPSRAPIWindow::get_Flags"]
 old-location: rdp\irdpsrapiwindow_flags.htm
 tech.root: rdp
 ms.assetid: 64215325-fb94-4708-9391-5ef86c2c0076

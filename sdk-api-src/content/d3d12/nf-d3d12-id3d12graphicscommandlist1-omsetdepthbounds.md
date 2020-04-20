@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.OMSetDepthBounds
 title: ID3D12GraphicsCommandList1::OMSetDepthBounds (d3d12.h)
-description: This method enables you to change the depth bounds dynamically.
+description: This method enables you to change the depth bounds dynamically.helpviewer_keywords: ["ID3D12GraphicsCommandList1 interface","OMSetDepthBounds method","ID3D12GraphicsCommandList1.OMSetDepthBounds","ID3D12GraphicsCommandList1::OMSetDepthBounds","OMSetDepthBounds","OMSetDepthBounds method","OMSetDepthBounds method","ID3D12GraphicsCommandList1 interface","d3d12/ID3D12GraphicsCommandList1::OMSetDepthBounds","direct3d12.id3d12graphicscommandlist1_omsetdepthbounds"]
 old-location: direct3d12\id3d12graphicscommandlist1_omsetdepthbounds.htm
 tech.root: direct3d12
 ms.assetid: 065DBAD3-F4B6-4C94-BA0E-821A46E0B2EE
@@ -66,10 +66,6 @@ Type: <b>FLOAT</b>
 <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 Specifies the maximum depth bounds. The default value is 1. NaN values silently convert to 0.
-
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 

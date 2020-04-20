@@ -1,7 +1,7 @@
 ---
 UID: NF:lmerrlog.NetErrorLogWrite
 title: NetErrorLogWrite function (lmerrlog.h)
-description: The NetErrorLogWrite function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.
+description: The NetErrorLogWrite function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.helpviewer_keywords: ["NetErrorLogWrite","NetErrorLogWrite function [Network Management]","_win32_neterrorlogwrite","lmerrlog/NetErrorLogWrite","netmgmt.neterrorlogwrite"]
 old-location: netmgmt\neterrorlogwrite.htm
 tech.root: NetMgmt
 ms.assetid: b97d97ab-aecd-4da5-b8c2-46582cbd3ea4

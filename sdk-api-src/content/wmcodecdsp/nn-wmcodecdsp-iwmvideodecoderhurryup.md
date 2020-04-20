@@ -1,7 +1,7 @@
 ---
 UID: NN:wmcodecdsp.IWMVideoDecoderHurryup
 title: IWMVideoDecoderHurryup (wmcodecdsp.h)
-description: Controls the speed of the video decoder.
+description: Controls the speed of the video decoder.helpviewer_keywords: ["IWMVideoDecoderHurryup","IWMVideoDecoderHurryup interface [Media Foundation]","IWMVideoDecoderHurryup interface [Media Foundation]","described","codecapi.iwmvideodecoderhurryupinterface","mf.iwmvideodecoderhurryup","mf.iwmvideodecoderhurryupinterface","wmcodecdsp/IWMVideoDecoderHurryup"]
 old-location: mf\iwmvideodecoderhurryupinterface.htm
 tech.root: medfound
 ms.assetid: 5e33be5f-5ce8-4f4f-94db-4be2dfcaeec0

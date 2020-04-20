@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetComponentDetails
 title: IGetAppTrackerData::GetComponentDetails (comsvcs.h)
-description: Retrieves detailed information about a single COM+ component hosted in a process.
+description: Retrieves detailed information about a single COM+ component hosted in a process.helpviewer_keywords: ["GetComponentDetails","GetComponentDetails method [COM+]","GetComponentDetails method [COM+]","IGetAppTrackerData interface","IGetAppTrackerData interface [COM+]","GetComponentDetails method","IGetAppTrackerData.GetComponentDetails","IGetAppTrackerData::GetComponentDetails","comsvcs/IGetAppTrackerData::GetComponentDetails","cos.igetapptrackerdata_getcomponentdetails"]
 old-location: cos\igetapptrackerdata_getcomponentdetails.htm
 tech.root: cossdk
 ms.assetid: 89924a6d-e5cf-4262-9707-d2e4a91dd6ce

@@ -1,7 +1,7 @@
 ---
 UID: NF:errhandlingapi.RaiseFailFastException
 title: RaiseFailFastException function (errhandlingapi.h)
-description: Raises an exception that bypasses all exception handlers (frame or vector based).
+description: Raises an exception that bypasses all exception handlers (frame or vector based).helpviewer_keywords: ["FAIL_FAST_GENERATE_EXCEPTION_ADDRESS","RaiseFailFastException","RaiseFailFastException function","base.raisefailfastexception","errhandlingapi/RaiseFailFastException"]
 old-location: base\raisefailfastexception.htm
 tech.root: Debug
 ms.assetid: 69fbb722-2733-4035-8bfa-a5828311581c
@@ -106,15 +106,6 @@ Causes <b>RaiseFailFastException</b> to set the <b>ExceptionAddress</b> of <a hr
 </tr>
 </table>
  
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:ktmw32.RecoverEnlistment
 title: RecoverEnlistment function (ktmw32.h)
-description: Recovers an enlistment's state.
+description: Recovers an enlistment's state.helpviewer_keywords: ["RecoverEnlistment","RecoverEnlistment function [Files]","fs.recoverenlistment","ktmw32/RecoverEnlistment"]
 old-location: fs\recoverenlistment.htm
 tech.root: ktm
 ms.assetid: 5c36732f-bf4f-4071-959e-3359be0b2363

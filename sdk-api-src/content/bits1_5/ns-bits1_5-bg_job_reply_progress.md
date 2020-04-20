@@ -1,7 +1,7 @@
 ---
 UID: NS:bits1_5._BG_JOB_REPLY_PROGRESS
 title: BG_JOB_REPLY_PROGRESS
-description: Provides progress information related to the reply portion of an upload-reply job.
+description: Provides progress information related to the reply portion of an upload-reply job.helpviewer_keywords: ["BG_JOB_REPLY_PROGRESS","BG_JOB_REPLY_PROGRESS structure [BITS]","_drz_bg_job_reply_progress","bits.bg_job_reply_progress","bits1_5/BG_JOB_REPLY_PROGRESS"]
 old-location: bits\bg_job_reply_progress.htm
 tech.root: Bits
 ms.assetid: ea78ee22-87b2-4859-bd49-dd309c8aa234

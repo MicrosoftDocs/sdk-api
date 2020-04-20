@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteFontCollection1
 title: IDWriteFontCollection1 (dwrite_3.h)
-description: An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory.
+description: An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory.helpviewer_keywords: ["IDWriteFontCollection1","IDWriteFontCollection1 interface [Direct Write]","IDWriteFontCollection1 interface [Direct Write]","described","directwrite.idwritefontcollection1","dwrite_3/IDWriteFontCollection1"]
 old-location: directwrite\idwritefontcollection1.htm
 tech.root: DirectWrite
 ms.assetid: bdee031b-53fa-321d-5cdc-4cc2c7ec58ca

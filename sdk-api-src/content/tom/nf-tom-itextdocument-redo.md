@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument.Redo
 title: ITextDocument::Redo (tom.h)
-description: Performs a specified number of redo operations.
+description: Performs a specified number of redo operations.helpviewer_keywords: ["ITextDocument interface [Windows Controls]","Redo method","ITextDocument.Redo","ITextDocument::Redo","Redo","Redo method [Windows Controls]","Redo method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_Redo","_win32_ITextDocument_Redo_cpp","controls.ITextDocument_Redo","controls._win32_ITextDocument_Redo","tom/ITextDocument::Redo"]
 old-location: controls\ITextDocument_Redo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\redo.htm

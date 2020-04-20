@@ -1,7 +1,7 @@
 ---
 UID: NF:heapapi.HeapUnlock
 title: HeapUnlock function (heapapi.h)
-description: Releases ownership of the critical section object, or lock, that is associated with a specified heap.
+description: Releases ownership of the critical section object, or lock, that is associated with a specified heap.helpviewer_keywords: ["HeapUnlock","HeapUnlock function","_win32_heapunlock","base.heapunlock","heapapi/HeapUnlock","winbase/HeapUnlock"]
 old-location: base\heapunlock.htm
 tech.root: Memory
 ms.assetid: c1a7b2c8-293e-4e07-a654-fd10b2f0ef39

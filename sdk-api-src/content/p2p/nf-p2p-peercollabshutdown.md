@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabShutdown
 title: PeerCollabShutdown function (p2p.h)
-description: Shuts down the Peer Collaboration infrastructure and releases any resources associated with it.
+description: Shuts down the Peer Collaboration infrastructure and releases any resources associated with it.helpviewer_keywords: ["PeerCollabShutdown","PeerCollabShutdown function [Peer Networking]","p2p.peercollabshutdown","p2p/PeerCollabShutdown"]
 old-location: p2p\peercollabshutdown.htm
 tech.root: P2PSdk
 ms.assetid: 4e328188-c8a1-4ba9-817b-3d130a64b985

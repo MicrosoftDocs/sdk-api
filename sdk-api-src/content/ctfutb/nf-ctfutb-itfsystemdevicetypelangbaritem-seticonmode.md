@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfSystemDeviceTypeLangBarItem.SetIconMode
 title: ITfSystemDeviceTypeLangBarItem::SetIconMode (ctfutb.h)
-description: ITfSystemDeviceTypeLangBarItem::SetIconMode method
+description: ITfSystemDeviceTypeLangBarItem::SetIconMode methodhelpviewer_keywords: ["0","ITfSystemDeviceTypeLangBarItem interface [Text Services Framework]","SetIconMode method","ITfSystemDeviceTypeLangBarItem.SetIconMode","ITfSystemDeviceTypeLangBarItem::SetIconMode","SetIconMode","SetIconMode method [Text Services Framework]","SetIconMode method [Text Services Framework]","ITfSystemDeviceTypeLangBarItem interface","TF_DTLBI_USEPROFILEICON","_tsf_itfsystemdevicetypelangbaritem_seticonmode_ref","ctfutb/ITfSystemDeviceTypeLangBarItem::SetIconMode","tsf.itfsystemdevicetypelangbaritem_seticonmode"]
 old-location: tsf\itfsystemdevicetypelangbaritem_seticonmode.htm
 tech.root: TSF
 ms.assetid: 25124539-4bf9-4299-b441-9a5fac18b60d
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Modifies the type of icon displayed for a system language bar item.
 
 ## -parameters
 

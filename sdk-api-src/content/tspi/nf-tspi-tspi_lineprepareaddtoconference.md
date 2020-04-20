@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_linePrepareAddToConference
 title: TSPI_linePrepareAddToConference function (tspi.h)
-description: The TSPI_linePrepareAddToConference function prepares an existing conference call for the addition of another party. It creates a new, temporary consultation call. The new consultation call can be subsequently added to the conference call.
+description: The TSPI_linePrepareAddToConference function prepares an existing conference call for the addition of another party. It creates a new, temporary consultation call. The new consultation call can be subsequently added to the conference call.helpviewer_keywords: ["TSPI_linePrepareAddToConference","TSPI_linePrepareAddToConference function [TAPI 2.2]","_tspi_tspi_lineprepareaddtoconference","tspi.tspi_lineprepareaddtoconference","tspi/TSPI_linePrepareAddToConference"]
 old-location: tspi\tspi_lineprepareaddtoconference.htm
 tech.root: Tapi
 ms.assetid: 84642d7d-7673-45f1-91fb-aede75e51029

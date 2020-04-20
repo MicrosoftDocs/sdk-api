@@ -1,7 +1,7 @@
 ---
 UID: NF:winternl.NtQueryInformationProcess
 title: NtQueryInformationProcess function (winternl.h)
-description: Retrieves information about the specified process.
+description: Retrieves information about the specified process.helpviewer_keywords: ["NtQueryInformationProcess","NtQueryInformationProcess function","ProcessBasicInformation","ProcessBreakOnTermination","ProcessDebugPort","ProcessImageFileName","ProcessSubsystemInformation","ProcessWow64Information","base.ntqueryinformationprocess","winternl/NtQueryInformationProcess"]
 old-location: base\ntqueryinformationprocess.htm
 tech.root: ProcThread
 ms.assetid: 0eae7899-c40b-4a5f-9e9c-adae021885e7

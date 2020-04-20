@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.CD3D11_RENDER_TARGET_VIEW_DESC.CD3D11_RENDER_TARGET_VIEW_DESC(ID3D11Texture3D,DXGI_FORMAT,UINT,UINT,UINT)
 title: CD3D11_RENDER_TARGET_VIEW_DESC::CD3D11_RENDER_TARGET_VIEW_DESC(ID3D11Texture3D,DXGI_FORMAT,UINT,UINT,UINT) (d3d11.h)
-description: Instantiates a new instance of a CD3D11_RENDER_TARGET_VIEW_DESC structure that is initialized with 3D texture values.
+description: Instantiates a new instance of a CD3D11_RENDER_TARGET_VIEW_DESC structure that is initialized with 3D texture values.helpviewer_keywords: ["CD3D11_RENDER_TARGET_VIEW_DESC","CD3D11_RENDER_TARGET_VIEW_DESC interface [Direct3D 11]","CD3D11_RENDER_TARGET_VIEW_DESC method","CD3D11_RENDER_TARGET_VIEW_DESC method [Direct3D 11]","CD3D11_RENDER_TARGET_VIEW_DESC method [Direct3D 11]","CD3D11_RENDER_TARGET_VIEW_DESC interface","CD3D11_RENDER_TARGET_VIEW_DESC.CD3D11_RENDER_TARGET_VIEW_DESC","CD3D11_RENDER_TARGET_VIEW_DESC.CD3D11_RENDER_TARGET_VIEW_DESC(ID3D11Texture3D","DXGI_FORMAT","UINT","UINT","UINT)","CD3D11_RENDER_TARGET_VIEW_DESC::CD3D11_RENDER_TARGET_VIEW_DESC","CD3D11_RENDER_TARGET_VIEW_DESC::CD3D11_RENDER_TARGET_VIEW_DESC(ID3D11Texture3D","DXGI_FORMAT","UINT","UINT","UINT)","CD3D11_RENDER_TARGET_VIEW_DESC::CD3D11_RENDER_TARGET_VIEW_DESC(const D3D11_RENDER_TARGET_VIEW_DESC&)","d3d11/CD3D11_RENDER_TARGET_VIEW_DESC::CD3D11_RENDER_TARGET_VIEW_DESC","direct3d11.cd3d11_render_target_view_desc_cd3d11_render_target_view_desc_d3d11_render_target_view_desc_"]
 old-location: 
 tech.root: direct3d11
 ms.assetid: 02F5F533-6DDC-4AA9-AB7F-867D3D0B05DF
@@ -72,10 +72,6 @@ First depth level to use.
 ### -param wSize
 
 Number of depth levels to use in the render-target view, starting from *firstWSlice*. A value of -1 indicates all of the slices along the w axis, starting from *firstWSlice*.
-
-## -returns
-
-This method does not return a value.
 
 ## -see-also
 

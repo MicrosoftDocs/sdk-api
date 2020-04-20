@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.AppPolicyGetWindowingModel
 title: AppPolicyGetWindowingModel function (appmodel.h)
-description: Retrieves a value indicating whether a process uses a CoreWindow-based, or a HWND-based, windowing model. You can use the value to decide how to register for window state change notifications (size changed, visibility changed, etc.).
+description: Retrieves a value indicating whether a process uses a CoreWindow-based, or a HWND-based, windowing model. You can use the value to decide how to register for window state change notifications (size changed, visibility changed, etc.).helpviewer_keywords: ["AppPolicyGetWindowingModel","AppPolicyGetWindowingModel function [App packaging and management]","appmodel/AppPolicyGetWindowingModel","appxpkg.apppolicygetwindowingmodel_function"]
 old-location: appxpkg\apppolicygetwindowingmodel_function.htm
 tech.root: appxpkg
 ms.assetid: AA1682F8-1DDD-48C3-B16A-6C89D28455E8

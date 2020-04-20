@@ -1,7 +1,7 @@
 ---
 UID: NN:unknwnbase.IClassFactory
 title: IClassFactory (unknwnbase.h)
-description: Enables a class of objects to be created.
+description: Enables a class of objects to be created.helpviewer_keywords: ["IClassFactory","IClassFactory interface [COM]","IClassFactory interface [COM]","described","_com_iclassfactory","com.iclassfactory","unknwnbase/IClassFactory"]
 old-location: com\iclassfactory.htm
 tech.root: com
 ms.assetid: f624f833-2b69-43bc-92cd-c4ecbe6051c5

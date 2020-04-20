@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6RequestPrefix
 title: Dhcpv6RequestPrefix function (dhcpv6csdk.h)
-description: Requests a specific prefix.
+description: Requests a specific prefix.helpviewer_keywords: ["Dhcpv6RequestPrefix","Dhcpv6RequestPrefix function [DHCP]","dhcp.dhcpv6requestprefix","dhcpv6csdk/Dhcpv6RequestPrefix"]
 old-location: dhcp\dhcpv6requestprefix.htm
 tech.root: DHCP
 ms.assetid: 60f18e54-a0a4-4fbe-a416-16b924ce4616

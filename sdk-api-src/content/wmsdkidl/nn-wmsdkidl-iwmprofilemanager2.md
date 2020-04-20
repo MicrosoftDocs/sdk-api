@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMProfileManager2
 title: IWMProfileManager2 (wmsdkidl.h)
-description: The IWMProfileManager2 interface adds methods to specify and retrieve the version number of the system profiles enumerated by the profile manager.
+description: The IWMProfileManager2 interface adds methods to specify and retrieve the version number of the system profiles enumerated by the profile manager.helpviewer_keywords: ["IWMProfileManager2","IWMProfileManager2 interface [windows Media Format]","IWMProfileManager2 interface [windows Media Format]","described","IWMProfileManager2Interface","wmformat.iwmprofilemanager2","wmsdkidl/IWMProfileManager2"]
 old-location: wmformat\iwmprofilemanager2.htm
 tech.root: wmformat
 ms.assetid: eb5d904e-15ee-4066-ab05-c4e133bc89d7

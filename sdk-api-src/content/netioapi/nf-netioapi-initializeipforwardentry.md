@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.InitializeIpForwardEntry
 title: InitializeIpForwardEntry function (netioapi.h)
-description: Initializes a MIB_IPFORWARD_ROW2 structure with default values for an IP route entry on the local computer.
+description: Initializes a MIB_IPFORWARD_ROW2 structure with default values for an IP route entry on the local computer.helpviewer_keywords: ["InitializeIpForwardEntry","InitializeIpForwardEntry function [IP Helper]","iphlp.initializeipforwardentry","netioapi/InitializeIpForwardEntry"]
 old-location: iphlp\initializeipforwardentry.htm
 tech.root: IpHlp
 ms.assetid: 1968c4e5-4b28-4387-a918-3326bc80bb3e

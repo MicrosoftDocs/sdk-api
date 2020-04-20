@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolTimer
 title: CreateThreadpoolTimer function (threadpoolapiset.h)
-description: Creates a new timer object.
+description: Creates a new timer object.helpviewer_keywords: ["CreateThreadpoolTimer","CreateThreadpoolTimer function","base.createthreadpooltimer","threadpoolapiset/CreateThreadpoolTimer","winbase/CreateThreadpoolTimer"]
 old-location: base\createthreadpooltimer.htm
 tech.root: ProcThread
 ms.assetid: 1fa98b79-e646-4e48-9979-1817d2c1b713

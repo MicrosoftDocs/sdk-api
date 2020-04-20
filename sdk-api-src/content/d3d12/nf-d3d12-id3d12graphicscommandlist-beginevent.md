@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.BeginEvent
 title: ID3D12GraphicsCommandList::BeginEvent (d3d12.h)
-description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command list.
+description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command list.helpviewer_keywords: ["BeginEvent","BeginEvent method","BeginEvent method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","BeginEvent method","ID3D12GraphicsCommandList.BeginEvent","ID3D12GraphicsCommandList::BeginEvent","d3d12/ID3D12GraphicsCommandList::BeginEvent","direct3d12.id3d12graphicscommandlist_beginevent"]
 old-location: direct3d12\id3d12graphicscommandlist_beginevent.htm
 tech.root: direct3d12
 ms.assetid: 2A5292C0-ED9B-4E3C-87E4-88EA2FF09B28
@@ -81,16 +81,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Internal.
 
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

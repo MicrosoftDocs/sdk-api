@@ -1,7 +1,7 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0004
 title: CorrectionMode (peninputpanel.h)
-description: Specifies the correction modes of the Tablet PC Input Panel.
+description: Specifies the correction modes of the Tablet PC Input Panel.helpviewer_keywords: ["133d2012-e43c-490a-b126-b7670ea7acf8","CorrectionMode","CorrectionMode enumeration [Tablet PC]","CorrectionMode_NotVisible","CorrectionMode_PostInsertionCollapsed","CorrectionMode_PostInsertionExpanded","CorrectionMode_PreInsertion","peninputpanel/CorrectionMode","peninputpanel/CorrectionMode_NotVisible","peninputpanel/CorrectionMode_PostInsertionCollapsed","peninputpanel/CorrectionMode_PostInsertionExpanded","peninputpanel/CorrectionMode_PreInsertion","tablet.correctionmode"]
 old-location: tablet\correctionmode.htm
 tech.root: tablet
 ms.assetid: 133d2012-e43c-490a-b126-b7670ea7acf8

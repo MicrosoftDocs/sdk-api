@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilGetResourceDependencyByNameEx
 title: ResUtilGetResourceDependencyByNameEx function (resapi.h)
-description: Enumerates the dependencies of a specified resource in a specified cluster and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME_EX type defines a pointer to this function.
+description: Enumerates the dependencies of a specified resource in a specified cluster and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME_EX type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME","PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME function [Failover Cluster]","ResUtilGetResourceDependencyByNameEx","ResUtilGetResourceDependencyByNameEx function [Failover Cluster]","mscs.resutilgetresourcedependencybynameex","resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME","resapi/ResUtilGetResourceDependencyByNameEx"]
 old-location: mscs\resutilgetresourcedependencybynameex.htm
 tech.root: MsCS
 ms.assetid: 3BB9E8D4-2E8C-4A67-966F-6E2729ACE9A9

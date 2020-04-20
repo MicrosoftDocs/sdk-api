@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10.D3D10_RESOURCE_MISC_FLAG
 title: D3D10_RESOURCE_MISC_FLAG (d3d10.h)
-description: Identifies other, less common options for resources.
+description: Identifies other, less common options for resources.helpviewer_keywords: ["933479cf-687a-018f-fa4e-e44396ff5c4b","D3D10_RESOURCE_MISC_FLAG","D3D10_RESOURCE_MISC_FLAG enumeration [Direct3D 10]","D3D10_RESOURCE_MISC_GDI_COMPATIBLE","D3D10_RESOURCE_MISC_GENERATE_MIPS","D3D10_RESOURCE_MISC_SHARED","D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX","D3D10_RESOURCE_MISC_TEXTURECUBE","d3d10/D3D10_RESOURCE_MISC_FLAG","d3d10/D3D10_RESOURCE_MISC_GDI_COMPATIBLE","d3d10/D3D10_RESOURCE_MISC_GENERATE_MIPS","d3d10/D3D10_RESOURCE_MISC_SHARED","d3d10/D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX","d3d10/D3D10_RESOURCE_MISC_TEXTURECUBE","direct3d10.d3d10_resource_misc_flag"]
 old-location: direct3d10\d3d10_resource_misc_flag.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_resource_misc_flag.htm

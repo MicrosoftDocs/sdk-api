@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumn
 title: ICrmFormatLogRecords::GetColumn (comsvcs.h)
-description: Formats one unstructured log record into an array of viewable fields.
+description: Formats one unstructured log record into an array of viewable fields.helpviewer_keywords: ["GetColumn","GetColumn method [COM+]","GetColumn method [COM+]","ICrmFormatLogRecords interface","ICrmFormatLogRecords interface [COM+]","GetColumn method","ICrmFormatLogRecords.GetColumn","ICrmFormatLogRecords::GetColumn","_dtc_ICrmFormatLogRecords_GetColumn","comsvcs/ICrmFormatLogRecords::GetColumn","cos.icrmformatlogrecords_getcolumn"]
 old-location: cos\icrmformatlogrecords_getcolumn.htm
 tech.root: cossdk
 ms.assetid: 5234f582-88e2-4a9a-8650-d0d2d4b39f31

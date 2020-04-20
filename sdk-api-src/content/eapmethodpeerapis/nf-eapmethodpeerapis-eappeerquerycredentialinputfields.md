@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerQueryCredentialInputFields
 title: EapPeerQueryCredentialInputFields function (eapmethodpeerapis.h)
-description: Defines the implementation of an EAP method-specific function that obtains the EAP Single-Sign-On (SSO) credential input fields for an EAP method.
+description: Defines the implementation of an EAP method-specific function that obtains the EAP Single-Sign-On (SSO) credential input fields for an EAP method.helpviewer_keywords: ["EapPeerQueryCredentialInputFields","EapPeerQueryCredentialInputFields function [EAPHost]","eaphost.eappeerquerycredentialinputfields","eapmethodpeerapis/EapPeerQueryCredentialInputFields"]
 old-location: eaphost\eappeerquerycredentialinputfields.htm
 tech.root: eaphost
 ms.assetid: 8ae42352-e972-4094-bf03-90a2f20ab641

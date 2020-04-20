@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSGetSamplers
 title: ID3D11DeviceContext::VSGetSamplers (d3d11.h)
-description: Get an array of sampler states from the vertex shader pipeline stage.
+description: Get an array of sampler states from the vertex shader pipeline stage.helpviewer_keywords: ["ID3D11DeviceContext interface [Direct3D 11]","VSGetSamplers method","ID3D11DeviceContext.VSGetSamplers","ID3D11DeviceContext::VSGetSamplers","VSGetSamplers","VSGetSamplers method [Direct3D 11]","VSGetSamplers method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::VSGetSamplers","da7916b1-64dc-68da-7790-065a4977bd36","direct3d11.id3d11devicecontext_vsgetsamplers"]
 old-location: direct3d11\id3d11devicecontext_vsgetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 0b8cbdfe-58e1-46f0-86c1-22da8178d296
@@ -77,15 +77,6 @@ Number of samplers to get from a device context. Each pipeline stage has a total
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>**</b>
 
 Arry of sampler-state interface pointers (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>) to be returned by the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

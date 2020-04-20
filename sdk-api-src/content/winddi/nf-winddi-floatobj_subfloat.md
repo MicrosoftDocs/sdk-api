@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.FLOATOBJ_SubFloat
 title: FLOATOBJ_SubFloat function (winddi.h)
-description: The FLOATOBJ_SubFloat function subtracts the value of type FLOATL from the FLOATOBJ, and returns with the result in the first parameter.
+description: The FLOATOBJ_SubFloat function subtracts the value of type FLOATL from the FLOATOBJ, and returns with the result in the first parameter.helpviewer_keywords: ["FLOATOBJ_SubFloat","FLOATOBJ_SubFloat function [Display Devices]","display.floatobj_subfloat","gdifncs_9f655d6e-8ef0-45e5-9d0e-963a30460920.xml","winddi/FLOATOBJ_SubFloat"]
 old-location: display\floatobj_subfloat.htm
 tech.root: display
 ms.assetid: 0fa69283-3236-43bc-9c16-6bd220ad4e0c
@@ -65,15 +65,6 @@ Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be r
 ### -param arg2 [in]
 
 Specifies the FLOATL operand. This value is converted to a FLOATOBJ for the subtraction.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

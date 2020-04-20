@@ -1,7 +1,7 @@
 ---
 UID: NF:lmshare.NetShareCheck
 title: NetShareCheck function (lmshare.h)
-description: Checks whether or not a server is sharing a device.
+description: Checks whether or not a server is sharing a device.helpviewer_keywords: ["NetShareCheck","NetShareCheck function [Files]","STYPE_DEVICE","STYPE_DISKTREE","STYPE_IPC","STYPE_PRINTQ","STYPE_SPECIAL","STYPE_TEMPORARY","_win32_netsharecheck","fs.netsharecheck","lmshare/NetShareCheck","netmgmt.netsharecheck"]
 old-location: fs\netsharecheck.htm
 tech.root: NetShare
 ms.assetid: 8453dcd2-5c58-4fe4-9426-0fd51647394d

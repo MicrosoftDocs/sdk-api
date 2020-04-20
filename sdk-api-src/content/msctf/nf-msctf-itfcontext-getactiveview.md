@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.GetActiveView
 title: ITfContext::GetActiveView (msctf.h)
-description: ITfContext::GetActiveView method
+description: ITfContext::GetActiveView methodhelpviewer_keywords: ["GetActiveView","GetActiveView method [Text Services Framework]","GetActiveView method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetActiveView method","ITfContext.GetActiveView","ITfContext::GetActiveView","_tsf_itfcontext_getactiveview_ref","msctf/ITfContext::GetActiveView","tsf.itfcontext_getactiveview"]
 old-location: tsf\itfcontext_getactiveview.htm
 tech.root: TSF
 ms.assetid: 41f7eb74-bca2-4d53-8a70-0b872616fd1b
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the active view for the context.
 
 ## -parameters
 
@@ -124,16 +123,4 @@ An unspecified error occurred.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfContextView interface](nn-msctf-itfcontextview.md)

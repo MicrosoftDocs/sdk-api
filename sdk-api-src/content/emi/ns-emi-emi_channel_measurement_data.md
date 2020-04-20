@@ -1,7 +1,7 @@
 ---
 UID: NS:emi.__unnamed_struct_2
 title: EMI_CHANNEL_MEASUREMENT_DATA (emi.h)
-description: The EMI_MEASUREMENT_DATA structure provides data about the current energy measurement and the time at which the measurement was taken.
+description: The EMI_MEASUREMENT_DATA structure provides data about the current energy measurement and the time at which the measurement was taken.helpviewer_keywords: ["EMI_CHANNEL_MEASUREMENT_DATA","EMI_MEASUREMENT_DATA","EMI_MEASUREMENT_DATA structure [Power Metering and Budgeting Devices]","EMI_MEASUREMENT_DATA_V1","PEMI_MEASUREMENT_DATA","PEMI_MEASUREMENT_DATA structure pointer [Power Metering and Budgeting Devices]","emi/EMI_MEASUREMENT_DATA","emi/PEMI_MEASUREMENT_DATA","powermeter.emi_measurement_data"]
 old-location: powermeter\emi_measurement_data.htm
 tech.root: powermeter
 ms.assetid: 5D8E8146-D6B4-427B-9B17-0FB4FB0372A8

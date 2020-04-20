@@ -1,7 +1,7 @@
 ---
 UID: NN:uianimation.IUIAnimationVariable2
 title: IUIAnimationVariable2 (uianimation.h)
-description: Defines an animation variable, which represents a visual element that can be animated in multiple dimensions.
+description: Defines an animation variable, which represents a visual element that can be animated in multiple dimensions.helpviewer_keywords: ["IUIAnimationVariable2","IUIAnimationVariable2 interface [Windows Animation]","IUIAnimationVariable2 interface [Windows Animation]","described","uianimation.iuianimationvariable2","uianimation/IUIAnimationVariable2"]
 old-location: uianimation\iuianimationvariable2.htm
 tech.root: UIAnimation
 ms.assetid: A676EF27-B59D-4D2D-AD5B-8F46EE337E69

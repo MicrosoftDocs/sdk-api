@@ -1,7 +1,7 @@
 ---
 UID: NF:winefs.FreeEncryptionCertificateHashList
 title: FreeEncryptionCertificateHashList function (winefs.h)
-description: Frees a certificate hash list.
+description: Frees a certificate hash list.helpviewer_keywords: ["FreeEncryptionCertificateHashList","FreeEncryptionCertificateHashList function [Files]","_win32_freeencryptioncertificatehashlist","base.freeencryptioncertificatehashlist","fs.freeencryptioncertificatehashlist","winefs/FreeEncryptionCertificateHashList"]
 old-location: fs\freeencryptioncertificatehashlist.htm
 tech.root: FileIO
 ms.assetid: 63d5811f-a135-45b0-8f23-fd8851f7bcca
@@ -65,15 +65,6 @@ A pointer to a certificate hash list structure,
 <a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate_hash_list">ENCRYPTION_CERTIFICATE_HASH_LIST</a>, which was returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-queryusersonencryptedfile">QueryUsersOnEncryptedFile</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-queryrecoveryagentsonencryptedfile">QueryRecoveryAgentsOnEncryptedFile</a> function.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

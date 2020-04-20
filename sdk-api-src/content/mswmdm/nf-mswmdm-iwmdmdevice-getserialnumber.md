@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetSerialNumber
 title: IWMDMDevice::GetSerialNumber (mswmdm.h)
-description: The GetSerialNumber method retrieves a serial number that uniquely identifies the device.
+description: The GetSerialNumber method retrieves a serial number that uniquely identifies the device.helpviewer_keywords: ["GetSerialNumber","GetSerialNumber method [windows Media Device Manager]","GetSerialNumber method [windows Media Device Manager]","IWMDMDevice interface","IWMDMDevice interface [windows Media Device Manager]","GetSerialNumber method","IWMDMDevice.GetSerialNumber","IWMDMDevice::GetSerialNumber","IWMDMDeviceGetSerialNumber","mswmdm/IWMDMDevice::GetSerialNumber","wmdm.iwmdmdevice_getserialnumber"]
 old-location: wmdm\iwmdmdevice_getserialnumber.htm
 tech.root: WMDM
 ms.assetid: e2498ca3-7109-4713-9110-2dbca0436d00

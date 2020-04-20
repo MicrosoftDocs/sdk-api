@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSGetConstantBuffers
 title: ID3D11DeviceContext::HSGetConstantBuffers (d3d11.h)
-description: Get the constant buffers used by the hull-shader stage.
+description: Get the constant buffers used by the hull-shader stage.helpviewer_keywords: ["46eee6d7-9ce0-ef7b-68bd-2f0c8f0b3136","HSGetConstantBuffers","HSGetConstantBuffers method [Direct3D 11]","HSGetConstantBuffers method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","HSGetConstantBuffers method","ID3D11DeviceContext.HSGetConstantBuffers","ID3D11DeviceContext::HSGetConstantBuffers","d3d11/ID3D11DeviceContext::HSGetConstantBuffers","direct3d11.id3d11devicecontext_hsgetconstantbuffers"]
 old-location: direct3d11\id3d11devicecontext_hsgetconstantbuffers.htm
 tech.root: direct3d11
 ms.assetid: 82987afa-fcb4-4d87-ab53-916a9dac3609
@@ -77,15 +77,6 @@ Number of buffers to retrieve (ranges from 0 to D3D11_COMMONSHADER_CONSTANT_BUFF
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>**</b>
 
 Array of constant buffer interface pointers (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>) to be returned by the method.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

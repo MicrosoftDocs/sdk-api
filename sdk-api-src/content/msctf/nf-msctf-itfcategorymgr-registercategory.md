@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.RegisterCategory
 title: ITfCategoryMgr::RegisterCategory (msctf.h)
-description: ITfCategoryMgr::RegisterCategory method
+description: ITfCategoryMgr::RegisterCategory methodhelpviewer_keywords: ["ITfCategoryMgr interface [Text Services Framework]","RegisterCategory method","ITfCategoryMgr.RegisterCategory","ITfCategoryMgr::RegisterCategory","RegisterCategory","RegisterCategory method [Text Services Framework]","RegisterCategory method [Text Services Framework]","ITfCategoryMgr interface","_tsf_itfcategorymgr_registercategory_ref","msctf/ITfCategoryMgr::RegisterCategory","tsf.itfcategorymgr_registercategory"]
 old-location: tsf\itfcategorymgr_registercategory.htm
 tech.root: TSF
 ms.assetid: 9e9a72a8-ea9b-4438-992c-5a7db64f7d82
@@ -45,35 +45,25 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::RegisterCategory
 
-
 ## -description
 
-
-
+Adds a specified GUID to the specified category in the Windows registry.
 
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 Contains the CLSID of the text service that owns the item.
 
-
 ### -param rcatid [in]
 
 Contains a GUID value that identifies the category to register the item under. This can be a user-defined category or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-category-values">predefined category values</a>.
-
 
 ### -param rguid [in]
 
 Contains a GUID value that identifies the item to register.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,27 +97,6 @@ An unspecified error occurred.
 </table>
  
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregistercategory">ITfCategoryMgr::UnregisterCategory
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-category-values">Predefined Category Values
-      </a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::UnregisterCategory](nf-msctf-itfcategorymgr-unregistercategory.md), [Predefined Category Values](/windows/desktop/TSF/predefined-category-values)

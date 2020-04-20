@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLActivateProduct
 title: SLActivateProduct function (slpublic.h)
-description: Acquires a use license from the Software License Server (SLS).
+description: Acquires a use license from the Software License Server (SLS).helpviewer_keywords: ["SLActivateProduct","SLActivateProduct function [Security]","security.slactivateproduct","slpublic/SLActivateProduct"]
 old-location: security\slactivateproduct.htm
 tech.root: SecSLApi
 ms.assetid: 14a2e84f-f5f7-4f17-8c7c-2cf580e14a26

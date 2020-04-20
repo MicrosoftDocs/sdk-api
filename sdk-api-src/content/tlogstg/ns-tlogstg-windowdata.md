@@ -1,7 +1,7 @@
 ---
 UID: NS:tlogstg._WINDOWDATA
 title: WINDOWDATA (tlogstg.h)
-description: Stores window data.
+description: Stores window data.helpviewer_keywords: ["*LPWINDOWDATA","WINDOWDATA","WINDOWDATA structure [Windows Shell]","_shell_WINDOWDATA","shell.WINDOWDATA","tlogstg/WINDOWDATA"]
 old-location: shell\WINDOWDATA.htm
 tech.root: shell
 ms.assetid: ef83bd02-cde9-41a8-b5ad-a26794663ac2

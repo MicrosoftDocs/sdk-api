@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHAddToRecentDocs
 title: SHAddToRecentDocs function (shlobj_core.h)
-description: Notifies the system that an item has been accessed, for the purposes of tracking those items used most recently and most frequently. This function can also be used to clear all usage data.
+description: Notifies the system that an item has been accessed, for the purposes of tracking those items used most recently and most frequently. This function can also be used to clear all usage data.helpviewer_keywords: ["SHAddToRecentDocs","SHAddToRecentDocs function [Windows Shell]","_win32_SHAddToRecentDocs","shell.SHAddToRecentDocs","shlobj_core/SHAddToRecentDocs"]
 old-location: shell\SHAddToRecentDocs.htm
 tech.root: shell
 ms.assetid: 84e065e6-b68d-4303-b98b-3f8507539468
@@ -82,15 +82,6 @@ A pointer to data that identifies the item that has been accessed. The item can 
 
 
 Set this parameter to <b>NULL</b> to clear all usage data on all items.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

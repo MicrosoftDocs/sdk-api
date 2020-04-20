@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecpkg._SECPKG_CALL_INFO
 title: SECPKG_CALL_INFO (ntsecpkg.h)
-description: Contains information about a currently executing call.
+description: Contains information about a currently executing call.helpviewer_keywords: ["*PSECPKG_CALL_INFO","PSECPKG_CALL_INFO","PSECPKG_CALL_INFO structure pointer [Security]","SECPKG_CALL_ANSI","SECPKG_CALL_ASYNC_UPDATE","SECPKG_CALL_BUFFER_MARSHALL","SECPKG_CALL_CLEANUP","SECPKG_CALL_INFO","SECPKG_CALL_INFO structure [Security]","SECPKG_CALL_IN_PROC","SECPKG_CALL_IS_TCB","SECPKG_CALL_KERNEL_MODE","SECPKG_CALL_NEGO","SECPKG_CALL_NEGO_EXTENDER","SECPKG_CALL_NETWORK_ONLY","SECPKG_CALL_PROCESS_TERM","SECPKG_CALL_RECURSIVE","SECPKG_CALL_SYSTEM_PROC","SECPKG_CALL_THREAD_TERM","SECPKG_CALL_URGENT","SECPKG_CALL_WINLOGON","SECPKG_CALL_WOWCLIENT","_ssp_secpkg_call_info","ntsecpkg/PSECPKG_CALL_INFO","ntsecpkg/SECPKG_CALL_INFO","security.secpkg_call_info"]
 old-location: security\secpkg_call_info.htm
 tech.root: SecAuthN
 ms.assetid: ac25ef88-7c64-42dd-8daa-fad039453043

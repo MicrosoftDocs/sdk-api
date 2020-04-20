@@ -1,7 +1,7 @@
 ---
 UID: NC:tapi.LINECALLBACK
 title: LINECALLBACK (tapi.h)
-description: The lineCallback function is a placeholder for the application-supplied function name.
+description: The lineCallback function is a placeholder for the application-supplied function name.helpviewer_keywords: ["LINECALLBACK","LINECALLBACK callback function [TAPI 2.2]","_tapi2_linecallbackfunc","lineCallback callback","tapi/LINECALLBACK","tapi2.linecallbackfunc"]
 old-location: tapi2\linecallbackfunc.htm
 tech.root: Tapi
 ms.assetid: 449ecf4f-0b1b-449e-9eae-049770d41dbc
@@ -92,15 +92,6 @@ Callback instance data passed back to the application in the callback. This <b>D
 #### - dwMsg
 
 Line or call device message.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

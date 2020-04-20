@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupSetDirectoryIdW
 title: SetupSetDirectoryIdW function (setupapi.h)
-description: The SetupSetDirectoryId function associates a directory identifier in an INF file with a specific directory.
+description: The SetupSetDirectoryId function associates a directory identifier in an INF file with a specific directory.helpviewer_keywords: ["SetupSetDirectoryId","SetupSetDirectoryId function [Setup API]","SetupSetDirectoryIdA","SetupSetDirectoryIdW","_setupapi_setupsetdirectoryid","setup.setupsetdirectoryid","setupapi/SetupSetDirectoryId","setupapi/SetupSetDirectoryIdA","setupapi/SetupSetDirectoryIdW"]
 old-location: setup\setupsetdirectoryid.htm
 tech.root: SetupApi
 ms.assetid: bacb7b90-a391-4f05-bedb-0c0f52fd15f9

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptExportPublicKeyInfoFromBCryptKeyHandle
 title: CryptExportPublicKeyInfoFromBCryptKeyHandle function (wincrypt.h)
-description: Exports the public key information associated with a provider's corresponding private key.
+description: Exports the public key information associated with a provider's corresponding private key.helpviewer_keywords: ["CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG","CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG","CryptExportPublicKeyInfoFromBCryptKeyHandle","CryptExportPublicKeyInfoFromBCryptKeyHandle function [Security]","security.cryptexportpublickeyinfofrombcryptkeyhandle","wincrypt/CryptExportPublicKeyInfoFromBCryptKeyHandle"]
 old-location: security\cryptexportpublickeyinfofrombcryptkeyhandle.htm
 tech.root: SecCrypto
 ms.assetid: f96bff4a-d354-4231-907a-383aff5cfacc

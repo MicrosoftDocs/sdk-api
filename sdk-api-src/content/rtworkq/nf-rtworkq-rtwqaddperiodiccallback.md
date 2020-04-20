@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqAddPeriodicCallback
 title: RtwqAddPeriodicCallback function (rtworkq.h)
-description: Sets a callback function to be called at a fixed interval.
+description: Sets a callback function to be called at a fixed interval.helpviewer_keywords: ["RtwqAddPeriodicCallback","RtwqAddPeriodicCallback function","base.rtwqaddperiodiccallback","rtworkq/RtwqAddPeriodicCallback"]
 old-location: base\rtwqaddperiodiccallback.htm
 tech.root: ProcThread
 ms.assetid: 5f472e42-7c62-462a-91a8-240c395ad765

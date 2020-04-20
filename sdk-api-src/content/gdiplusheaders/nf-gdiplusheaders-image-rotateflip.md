@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.RotateFlip
 title: Image::RotateFlip (gdiplusheaders.h)
-description: The Image::RotateFlip method rotates and flips this image.
+description: The Image::RotateFlip method rotates and flips this image.helpviewer_keywords: ["Image class [GDI+]","RotateFlip method","Image.RotateFlip","Image::RotateFlip","RotateFlip","RotateFlip method [GDI+]","RotateFlip method [GDI+]","Image class","_gdiplus_CLASS_Image_RotateFlip_rotateFlipType_","gdiplus._gdiplus_CLASS_Image_RotateFlip_rotateFlipType_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_RotateFlip_rotateFlipType_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\rotateflip.htm

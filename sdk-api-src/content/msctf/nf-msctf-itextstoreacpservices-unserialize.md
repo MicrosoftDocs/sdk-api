@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.Unserialize
 title: ITextStoreACPServices::Unserialize (msctf.h)
-description: ITextStoreACPServices::Unserialize method
+description: ITextStoreACPServices::Unserialize methodhelpviewer_keywords: ["ITextStoreACPServices interface [Text Services Framework]","Unserialize method","ITextStoreACPServices.Unserialize","ITextStoreACPServices::Unserialize","Unserialize","Unserialize method [Text Services Framework]","Unserialize method [Text Services Framework]","ITextStoreACPServices interface","_tsf_itextstoreacpservices_unserialize_ref","msctf/ITextStoreACPServices::Unserialize","tsf.itextstoreacpservices_unserialize"]
 old-location: tsf\itextstoreacpservices_unserialize.htm
 tech.root: TSF
 ms.assetid: 4eb2f2b9-51fb-4970-a195-c05e1d19ff99
@@ -45,40 +45,29 @@ ms.custom: 19H1
 
 # ITextStoreACPServices::Unserialize
 
-
 ## -description
 
-
-
+Takes previously serialized property data and applies it to a property object.
 
 ## -parameters
-
-
-
 
 ### -param pProp [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> object that receives the property data.
 
-
 ### -param pHdr [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_persistent_property_header_acp">TF_PERSISTENT_PROPERTY_HEADER_ACP</a> structure that contains the header data for the property.
-
 
 ### -param pStream [in]
 
 Pointer to an <b>IStream</b> object that contains the property data. This parameter can be <b>NULL</b> if <i>pLoader</i> is not <b>NULL</b>. This parameter is ignored if <i>pLoader</i> is not <b>NULL</b>.
 
-
 ### -param pLoader [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpersistentpropertyloaderacp">ITfPersistentPropertyLoaderACP</a> object that the TSF manager will use to obtain the property data. This parameter can be <b>NULL</b> if <i>pStream</i> is not <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -132,49 +121,13 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>pStream</i> is specified rather than <i>pLoader</i>, the property data will be read from <i>pStream</i> during the call to <b>Unserialize</b> . If <i>pLoader</i> is specified rather than <i>pStream</i>, the property data will be read from <i>pLoader</i> asynchronously. Using <i>pStream</i> can cause long delays if the property data is large.
 
 While calling this method, the application must be able to grant a synchronous read-only lock.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itextstoreacpservices">ITextStoreACPServices</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-serialize">ITextStoreACPServices::Serialize
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpersistentpropertyloaderacp">ITfPersistentPropertyLoaderACP
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_persistent_property_header_acp">TF_PERSISTENT_PROPERTY_HEADER_ACP
-      </a>
- 
-
- 
-
+[ITextStoreACPServices interface](nn-msctf-itextstoreacpservices.md), [ITextStoreACPServices::Serialize](nf-msctf-itextstoreacpservices-serialize.md), [ITfContext::EnumProperties](nf-msctf-itfcontext-enumproperties.md), [ITfProperty interface](nn-msctf-itfproperty.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfReadOnlyProperty::EnumRanges](nf-msctf-itfreadonlyproperty-enumranges.md), [TF_PERSISTENT_PROPERTY_HEADER_ACP structure](ns-msctf-tf_persistent_property_header_acp.md)

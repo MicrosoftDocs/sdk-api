@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.ITuner
 title: ITuner (tuner.h)
-description: The ITuner interface is implemented on the Microsoft BDA Network Provider filters.
+description: The ITuner interface is implemented on the Microsoft BDA Network Provider filters.helpviewer_keywords: ["ITuner","ITuner interface [Microsoft TV Technologies]","ITuner interface [Microsoft TV Technologies]","described","ITunerInterface","mstv.ituner","tuner/ITuner"]
 old-location: mstv\ituner.htm
 tech.root: mstv
 ms.assetid: 1bc965a5-6bc9-488a-a2f9-f35d0cfbcccd

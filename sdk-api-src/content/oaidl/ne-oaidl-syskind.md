@@ -1,7 +1,7 @@
 ---
 UID: NE:oaidl.tagSYSKIND
 title: SYSKIND (oaidl.h)
-description: Identifies the target operating system platform.
+description: Identifies the target operating system platform.helpviewer_keywords: ["SYSKIND","SYSKIND enumeration [Automation]","SYS_MAC","SYS_WIN16","SYS_WIN32","SYS_WIN64","_oa96_SYSKIND","automat.syskind","oaidl/SYSKIND","oaidl/SYS_MAC","oaidl/SYS_WIN16","oaidl/SYS_WIN32","oaidl/SYS_WIN64"]
 old-location: automat\syskind.htm
 tech.root: automat
 ms.assetid: 662048b2-59a8-48ca-9e4f-2f9a5306faa1

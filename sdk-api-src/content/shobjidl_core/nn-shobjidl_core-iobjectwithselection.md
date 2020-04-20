@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IObjectWithSelection
 title: IObjectWithSelection (shobjidl_core.h)
-description: Exposes methods that get or set selected items represented by a Shell item array.
+description: Exposes methods that get or set selected items represented by a Shell item array.helpviewer_keywords: ["IObjectWithSelection","IObjectWithSelection interface [Windows Shell]","IObjectWithSelection interface [Windows Shell]","described","_shell_IObjectWithSelection","shell.IObjectWithSelection","shobjidl_core/IObjectWithSelection"]
 old-location: shell\IObjectWithSelection.htm
 tech.root: shell
 ms.assetid: 8fb248eb-73e7-4db0-8585-4accafe332d0

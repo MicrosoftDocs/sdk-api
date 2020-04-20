@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManCloseShell
 title: WSManCloseShell function (wsman.h)
-description: Deletes a shell object and frees the resources associated with the shell.
+description: Deletes a shell object and frees the resources associated with the shell.helpviewer_keywords: ["WSManCloseShell","WSManCloseShell function [Windows Remote Management]","winrm.wsmancloseshell","wsman/WSManCloseShell"]
 old-location: winrm\wsmancloseshell.htm
 tech.root: winrm
 ms.assetid: 1da452ef-5842-4d8d-941b-09fa57393ebb
@@ -70,13 +70,5 @@ Reserved for future use. Must be set to zero.
 ### -param async [in]
 
 Defines an asynchronous structure. The asynchronous structure contains an optional user context and a mandatory callback function. See the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_shell_async">WSMAN_SHELL_ASYNC</a> structure for more information.  This parameter cannot be <b>NULL</b>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

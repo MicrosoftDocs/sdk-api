@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DSGetSamplers
 title: ID3D11DeviceContext::DSGetSamplers (d3d11.h)
-description: Get an array of sampler state interfaces from the domain-shader stage.
+description: Get an array of sampler state interfaces from the domain-shader stage.helpviewer_keywords: ["070d6004-b3cb-bc84-b78f-d7f9851d5fbf","DSGetSamplers","DSGetSamplers method [Direct3D 11]","DSGetSamplers method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","DSGetSamplers method","ID3D11DeviceContext.DSGetSamplers","ID3D11DeviceContext::DSGetSamplers","d3d11/ID3D11DeviceContext::DSGetSamplers","direct3d11.id3d11devicecontext_dsgetsamplers"]
 old-location: direct3d11\id3d11devicecontext_dsgetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 9cb6fee7-0dda-472c-b2e0-36d52e7f12b7
@@ -77,15 +77,6 @@ Number of samplers to get from a device context. Each pipeline stage has a total
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>**</b>
 
 Pointer to an array of sampler-state interfaces (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>).
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

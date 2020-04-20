@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.GetCommands
 title: ID2D1SvgPathData::GetCommands (d2d1svg.h)
-description: Gets commands from the commands array.
+description: Gets commands from the commands array.helpviewer_keywords: ["GetCommands","GetCommands method [Direct2D]","GetCommands method [Direct2D]","ID2D1SvgPathData interface","ID2D1SvgPathData interface [Direct2D]","GetCommands method","ID2D1SvgPathData.GetCommands","ID2D1SvgPathData::GetCommands","d2d1svg/ID2D1SvgPathData::GetCommands","direct2d.id2d1svgpathdata_getcommands"]
 old-location: direct2d\id2d1svgpathdata_getcommands.htm
 tech.root: Direct2D
 ms.assetid: D72199E5-11E5-413E-88F0-85EF17585587

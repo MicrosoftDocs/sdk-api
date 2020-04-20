@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecDospStateCreateEnumHandle0
 title: IPsecDospStateCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of IPsec DoS Protection objects.
+description: Creates a handle used to enumerate a set of IPsec DoS Protection objects.helpviewer_keywords: ["IPsecDospStateCreateEnumHandle0","IPsecDospStateCreateEnumHandle0 function [Filtering]","fwp.ipsecdospstatecreateenumhandle0","fwpmu/IPsecDospStateCreateEnumHandle0"]
 old-location: fwp\ipsecdospstatecreateenumhandle0.htm
 tech.root: fwp
 ms.assetid: 5ceb78eb-bcbf-48fe-b2a9-52a687e5ce20

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.PollForPotentialSupportedPatterns
 title: IUIAutomation::PollForPotentialSupportedPatterns (uiautomationclient.h)
-description: Retrieves the control patterns that might be supported on a UI Automation element.
+description: Retrieves the control patterns that might be supported on a UI Automation element.helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","PollForPotentialSupportedPatterns method","IUIAutomation.PollForPotentialSupportedPatterns","IUIAutomation::PollForPotentialSupportedPatterns","PollForPotentialSupportedPatterns","PollForPotentialSupportedPatterns method [Windows Accessibility]","PollForPotentialSupportedPatterns method [Windows Accessibility]","IUIAutomation interface","uiauto.uiauto_IUIAutomation_PollForPotentialSupportedPatterns","uiauto_IUIAutomation_PollForPotentialSupportedPatterns","uiautomationclient/IUIAutomation::PollForPotentialSupportedPatterns","winauto.uiauto_IUIAutomation_PollForPotentialSupportedPatterns"]
 old-location: winauto\uiauto_IUIAutomation_PollForPotentialSupportedPatterns.htm
 tech.root: WinAuto
 ms.assetid: 1319420e-17d6-4d0f-81c5-46b22b644e68

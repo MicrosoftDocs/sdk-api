@@ -1,7 +1,7 @@
 ---
 UID: NF:lmshare.NetFileEnum
 title: NetFileEnum function (lmshare.h)
-description: Returns information about some or all open files on a server, depending on the parameters specified.
+description: Returns information about some or all open files on a server, depending on the parameters specified.helpviewer_keywords: ["2","3","NetFileEnum","NetFileEnum function [Files]","_win32_netfileenum","fs.netfileenum","lmshare/NetFileEnum","netmgmt.netfileenum"]
 old-location: fs\netfileenum.htm
 tech.root: NetShare
 ms.assetid: 1375b337-efb0-4be1-94f7-473456a825b5

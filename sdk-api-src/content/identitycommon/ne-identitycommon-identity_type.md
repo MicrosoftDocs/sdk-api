@@ -1,7 +1,7 @@
 ---
 UID: NE:identitycommon._IdentityType
 title: IDENTITY_TYPE (identitycommon.h)
-description: Specifies the type of identities to enumerate.
+description: Specifies the type of identities to enumerate.helpviewer_keywords: ["IDENTITIES_ALL","IDENTITIES_ME_ONLY","IDENTITY_TYPE","IDENTITY_TYPE enumeration [Security]","identitycommon/IDENTITIES_ALL","identitycommon/IDENTITIES_ME_ONLY","identitycommon/IDENTITY_TYPE","security.identity_type"]
 old-location: security\identity_type.htm
 tech.root: SecAuthN
 ms.assetid: b15fadf6-5331-4c66-9a6b-0cfdef2ca867

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.get_ModuleImplementation
 title: IFsrmPipelineModuleConnector::get_ModuleImplementation (fsrmpipeline.h)
-description: The interface that implements the pipeline module.
+description: The interface that implements the pipeline module.helpviewer_keywords: ["FsrmPipelineModuleConnector class [File Server Resource Manager]","ModuleImplementation property","IFsrmPipelineModuleConnector interface [File Server Resource Manager]","ModuleImplementation property","IFsrmPipelineModuleConnector.ModuleImplementation","IFsrmPipelineModuleConnector.get_ModuleImplementation","IFsrmPipelineModuleConnector::ModuleImplementation","IFsrmPipelineModuleConnector::get_ModuleImplementation","ModuleImplementation property [File Server Resource Manager]","ModuleImplementation property [File Server Resource Manager]","FsrmPipelineModuleConnector class","ModuleImplementation property [File Server Resource Manager]","IFsrmPipelineModuleConnector interface","fs.ifsrmpipelinemoduleconnector_moduleimplementation","fsrm.ifsrmpipelinemoduleconnector_moduleimplementation","fsrmpipeline/IFsrmPipelineModuleConnector::ModuleImplementation","fsrmpipeline/IFsrmPipelineModuleConnector::get_ModuleImplementation","get_ModuleImplementation"]
 old-location: fsrm\ifsrmpipelinemoduleconnector_moduleimplementation.htm
 tech.root: fsrm
 ms.assetid: 0399ffd6-39c1-40fe-8cfa-c627bbd59680

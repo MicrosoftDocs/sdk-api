@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_SET_DISK_ATTRIBUTES
 title: IOCTL_DISK_SET_DISK_ATTRIBUTES
-description: Sets the attributes of the specified disk device.
+description: Sets the attributes of the specified disk device.helpviewer_keywords: ["IOCTL_DISK_SET_DISK_ATTRIBUTES","IOCTL_DISK_SET_DISK_ATTRIBUTES control","IOCTL_DISK_SET_DISK_ATTRIBUTES control code [Files]","fs.ioctl_disk_set_disk_attributes","winioctl/IOCTL_DISK_SET_DISK_ATTRIBUTES"]
 old-location: fs\ioctl_disk_set_disk_attributes.htm
 tech.root: FileIO
 ms.assetid: ba0e3666-8660-493c-b821-5997d577e7e2

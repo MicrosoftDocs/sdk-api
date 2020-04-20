@@ -1,7 +1,7 @@
 ---
 UID: NN:msrdc.ISimilarityTraitsTable
 title: ISimilarityTraitsTable (msrdc.h)
-description: Defines methods for storing per-file similarity data and performing similarity lookups.
+description: Defines methods for storing per-file similarity data and performing similarity lookups.helpviewer_keywords: ["ISimilarityTraitsTable","ISimilarityTraitsTable interface [Remote Differential Compression]","ISimilarityTraitsTable interface [Remote Differential Compression]","described","fs.isimilaritytraitstable","msrdc/ISimilarityTraitsTable","rdc.isimilaritytraitstable"]
 old-location: rdc\isimilaritytraitstable.htm
 tech.root: rdc
 ms.assetid: 0985e27c-aa70-43c1-bcec-00ef14f2df58

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.Register
 title: ITfInputProcessorProfiles::Register (msctf.h)
-description: ITfInputProcessorProfiles::Register method
+description: ITfInputProcessorProfiles::Register methodhelpviewer_keywords: ["ITfInputProcessorProfiles interface [Text Services Framework]","Register method","ITfInputProcessorProfiles.Register","ITfInputProcessorProfiles::Register","Register","Register method [Text Services Framework]","Register method [Text Services Framework]","ITfInputProcessorProfiles interface","_tsf_itfinputprocessorprofiles_register_ref","msctf/ITfInputProcessorProfiles::Register","tsf.itfinputprocessorprofiles_register"]
 old-location: tsf\itfinputprocessorprofiles_register.htm
 tech.root: TSF
 ms.assetid: 264bc32e-60a2-4dff-a212-5682d30a769e
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Adds a text service to Text Services Foundation (TSF).
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio.PWINBIO_ASYNC_COMPLETION_CALLBACK
 title: PWINBIO_ASYNC_COMPLETION_CALLBACK (winbio.h)
-description: Notifies the client application that an asynchronous operation started by using WinBioAsyncOpenSession or WinBioAsyncOpenFramework has completed.
+description: Notifies the client application that an asynchronous operation started by using WinBioAsyncOpenSession or WinBioAsyncOpenFramework has completed.helpviewer_keywords: ["PWINBIO_ASYNC_COMPLETION_CALLBACK","PWINBIO_ASYNC_COMPLETION_CALLBACK function","PWINBIO_ASYNC_COMPLETION_CALLBACK function pointer [Windows Biometric Framework API]","secbiomet.pwinbio_async_completion_callback","winbio/PWINBIO_ASYNC_COMPLETION_CALLBACK"]
 old-location: secbiomet\pwinbio_async_completion_callback.htm
 tech.root: SecBioMet
 ms.assetid: 550EA13D-18CE-4B73-9C9B-4D5C46C48A75
@@ -60,15 +60,6 @@ Called by the Windows Biometric Framework to notify the client application that 
 ### -param AsyncResult [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure that contains information about the completed operation. The structure is created by the Windows Biometric Framework. You must call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the structure.
-
-
-## -returns
-
-
-
-Do not return a value from your implementation of this function.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSSetShaderResources
 title: ID3D10Device::GSSetShaderResources (d3d10.h)
-description: Bind an array of shader resources to the geometry shader stage.
+description: Bind an array of shader resources to the geometry shader stage.helpviewer_keywords: ["GSSetShaderResources","GSSetShaderResources method [Direct3D 10]","GSSetShaderResources method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GSSetShaderResources method","ID3D10Device.GSSetShaderResources","ID3D10Device::GSSetShaderResources","ae1befd7-901e-0bc8-c1d4-e5f83866bff2","d3d10/ID3D10Device::GSSetShaderResources","direct3d10.id3d10device_gssetshaderresources"]
 old-location: direct3d10\id3d10device_gssetshaderresources.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gssetshaderresources.htm
@@ -77,15 +77,6 @@ Number of shader resources to set. Up to a maximum of 128 slots are available fo
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview">ID3D10ShaderResourceView</a>*</b>
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview">shader resource view</a> interfaces to set to the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

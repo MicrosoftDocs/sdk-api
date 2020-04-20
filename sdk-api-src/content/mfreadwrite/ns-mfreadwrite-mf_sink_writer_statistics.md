@@ -1,7 +1,7 @@
 ---
 UID: NS:mfreadwrite._MF_SINK_WRITER_STATISTICS
 title: MF_SINK_WRITER_STATISTICS (mfreadwrite.h)
-description: Contains statistics about the performance of the sink writer.
+description: Contains statistics about the performance of the sink writer.helpviewer_keywords: ["MF_SINK_WRITER_STATISTICS","MF_SINK_WRITER_STATISTICS structure [Media Foundation]","mf.mf_sink_writer_statistics","mfreadwrite/MF_SINK_WRITER_STATISTICS"]
 old-location: mf\mf_sink_writer_statistics.htm
 tech.root: medfound
 ms.assetid: ff083ae1-9a53-4215-9738-d1776f8d7f9b

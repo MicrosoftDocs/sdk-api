@@ -1,7 +1,7 @@
 ---
 UID: NS:dxva9typ._DXVA_COPPStatusSignalingCmdData
 title: DXVA_COPPStatusSignalingCmdData (dxva9typ.h)
-description: Contains the result from a Signaling query in Certified Output Protection Protocol (COPP).
+description: Contains the result from a Signaling query in Certified Output Protection Protocol (COPP).helpviewer_keywords: ["DXVA_COPPStatusSignalingCmdData","DXVA_COPPStatusSignalingCmdData structure [DirectShow]","DXVA_COPPStatusSignalingCmdDataStructure","_DXVA_COPPStatusSignalingCmdData","dshow.dxva_coppstatussignalingcmddata","dxva9typ/DXVA_COPPStatusSignalingCmdData"]
 old-location: dshow\dxva_coppstatussignalingcmddata.htm
 tech.root: DirectShow
 ms.assetid: c6bc7d84-3e4d-41f9-8309-5817029477dd

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostCopyItem
 title: IFileOperationProgressSink::PostCopyItem (shobjidl_core.h)
-description: Performs caller-implemented actions after the copy process for each item is complete.
+description: Performs caller-implemented actions after the copy process for each item is complete.helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PostCopyItem method","IFileOperationProgressSink.PostCopyItem","IFileOperationProgressSink::PostCopyItem","PostCopyItem","PostCopyItem method [Windows Shell]","PostCopyItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PostCopyItem","shell.IFileOperationProgressSink_PostCopyItem","shobjidl_core/IFileOperationProgressSink::PostCopyItem"]
 old-location: shell\IFileOperationProgressSink_PostCopyItem.htm
 tech.root: shell
 ms.assetid: 2e5568a8-e689-48ca-82a1-36292d91a65b

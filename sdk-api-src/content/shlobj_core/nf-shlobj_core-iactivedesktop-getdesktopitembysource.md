@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetDesktopItemBySource
 title: IActiveDesktop::GetDesktopItemBySource (shlobj_core.h)
-description: Gets a desktop item using its source URL.
+description: Gets a desktop item using its source URL.helpviewer_keywords: ["GetDesktopItemBySource","GetDesktopItemBySource method [Legacy Windows Environment Features]","GetDesktopItemBySource method [Legacy Windows Environment Features]","IActiveDesktop interface","IActiveDesktop interface [Legacy Windows Environment Features]","GetDesktopItemBySource method","IActiveDesktop.GetDesktopItemBySource","IActiveDesktop::GetDesktopItemBySource","_win32_IActiveDesktop_GetDesktopItemBySource","lwef.iactivedesktop_getdesktopitembysource","shell.iactivedesktop_getdesktopitembysource","shlobj_core/IActiveDesktop::GetDesktopItemBySource"]
 old-location: lwef\iactivedesktop_getdesktopitembysource.htm
 tech.root: lwef
 ms.assetid: 9449238a-c1af-493c-9c23-503317fe6656

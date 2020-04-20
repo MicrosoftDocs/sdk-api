@@ -1,7 +1,7 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService.startBackgroundProcessing
 title: IWMPSubscriptionService::startBackgroundProcessing (subscriptionservices.h)
-description: Note  This section describes functionality designed for use by online stores.
+description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPSubscriptionService interface [Windows Media Player]","startBackgroundProcessing method","IWMPSubscriptionService.startBackgroundProcessing","IWMPSubscriptionService::startBackgroundProcessing","IWMPSubscriptionServicestartBackgroundProcessing","startBackgroundProcessing","startBackgroundProcessing method [Windows Media Player]","startBackgroundProcessing method [Windows Media Player]","IWMPSubscriptionService interface","subscriptionservices/IWMPSubscriptionService::startBackgroundProcessing","wmp.iwmpsubscriptionservice_startbackgroundprocessing"]
 old-location: wmp\iwmpsubscriptionservice_startbackgroundprocessing.htm
 tech.root: WMP
 ms.assetid: a3bdb4b1-8479-484f-92db-2b73a0c40bfb

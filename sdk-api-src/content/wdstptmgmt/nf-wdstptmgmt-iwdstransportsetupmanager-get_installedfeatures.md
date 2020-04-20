@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.get_InstalledFeatures
 title: IWdsTransportSetupManager::get_InstalledFeatures (wdstptmgmt.h)
-description: Receives a value that indicates which WDS features are installed on the server.
+description: Receives a value that indicates which WDS features are installed on the server.helpviewer_keywords: ["IWdsTransportSetupManager interface [Windows Deployment Services]","InstalledFeatures property","IWdsTransportSetupManager.InstalledFeatures","IWdsTransportSetupManager.get_InstalledFeatures","IWdsTransportSetupManager::InstalledFeatures","IWdsTransportSetupManager::get_InstalledFeatures","IWdsTransportSetupManager::put_InstalledFeatures","InstalledFeatures property [Windows Deployment Services]","InstalledFeatures property [Windows Deployment Services]","IWdsTransportSetupManager interface","get_InstalledFeatures","wds.iwdstransportsetupmanager_installedfeatures","wdstptmgmt/IWdsTransportSetupManager::InstalledFeatures","wdstptmgmt/IWdsTransportSetupManager::get_InstalledFeatures","wdstptmgmt/IWdsTransportSetupManager::put_InstalledFeatures"]
 old-location: wds\iwdstransportsetupmanager_installedfeatures.htm
 tech.root: wds
 ms.assetid: 885b6e96-2f42-4388-9859-845b715dbe70

@@ -1,7 +1,7 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.SetOptionValue
 title: ISpellCheckProvider::SetOptionValue (spellcheckprovider.h)
-description: Sets the value associated with the given option.
+description: Sets the value associated with the given option.helpviewer_keywords: ["ISpellCheckProvider interface [Internationalization for Windows Applications]","SetOptionValue method","ISpellCheckProvider.SetOptionValue","ISpellCheckProvider::SetOptionValue","SetOptionValue","SetOptionValue method [Internationalization for Windows Applications]","SetOptionValue method [Internationalization for Windows Applications]","ISpellCheckProvider interface","intl.ispellcheckprovider_setoptionvalue","spellcheckprovider/ISpellCheckProvider::SetOptionValue"]
 old-location: intl\ispellcheckprovider_setoptionvalue.htm
 tech.root: Intl
 ms.assetid: 635E6024-DD9F-403D-B05F-B719EFE78FC0

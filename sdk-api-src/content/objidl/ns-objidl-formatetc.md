@@ -1,7 +1,7 @@
 ---
 UID: NS:objidl.tagFORMATETC
 title: FORMATETC (objidl.h)
-description: Represents a generalized clipboard format.
+description: Represents a generalized clipboard format.helpviewer_keywords: ["*LPFORMATETC","FORMATETC","FORMATETC structure [COM]","LPFORMATETC","LPFORMATETC structure pointer [COM]","_ole_FORMATETC","com.formatetc","objidl/FORMATETC","objidl/LPFORMATETC"]
 old-location: com\formatetc.htm
 tech.root: com
 ms.assetid: 4478eb9a-84a1-4f3a-8290-94b8dd20c081

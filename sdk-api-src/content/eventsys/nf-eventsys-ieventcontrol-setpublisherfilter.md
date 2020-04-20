@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventControl.SetPublisherFilter
 title: IEventControl::SetPublisherFilter (eventsys.h)
-description: Assigns a publisher filter to an event method.
+description: Assigns a publisher filter to an event method.helpviewer_keywords: ["IEventControl interface [COM+]","SetPublisherFilter method","IEventControl.SetPublisherFilter","IEventControl::SetPublisherFilter","SetPublisherFilter","SetPublisherFilter method [COM+]","SetPublisherFilter method [COM+]","IEventControl interface","_cos_IEventControl_SetPublisherFilter","cos.ieventcontrol_setpublisherfilter","eventsys/IEventControl::SetPublisherFilter"]
 old-location: cos\ieventcontrol_setpublisherfilter.htm
 tech.root: cossdk
 ms.assetid: 9ebe0f55-9e2f-4538-9c16-1b237abfd07b

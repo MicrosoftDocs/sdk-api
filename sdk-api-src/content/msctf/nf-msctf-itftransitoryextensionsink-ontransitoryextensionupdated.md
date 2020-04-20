@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated
 title: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated (msctf.h)
-description: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated method
+description: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated methodhelpviewer_keywords: ["ITfTransitoryExtensionSink interface [Text Services Framework]","OnTransitoryExtensionUpdated method","ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated","ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated","OnTransitoryExtensionUpdated","OnTransitoryExtensionUpdated method [Text Services Framework]","OnTransitoryExtensionUpdated method [Text Services Framework]","ITfTransitoryExtensionSink interface","msctf/ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated","tsf.itftransitoryextensionsink_ontransitoryextensionupdated"]
 old-location: tsf\itftransitoryextensionsink_ontransitoryextensionupdated.htm
 tech.root: TSF
 ms.assetid: 2501e0b7-a1fe-46ee-8b18-b13de875d66b
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Transitory Document has been updated.
 
 ## -parameters
 

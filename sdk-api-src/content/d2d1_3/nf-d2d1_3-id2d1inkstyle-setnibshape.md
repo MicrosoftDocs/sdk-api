@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1InkStyle.SetNibShape
 title: ID2D1InkStyle::SetNibShape (d2d1_3.h)
-description: Sets the pre-transform nib shape for this style.
+description: Sets the pre-transform nib shape for this style.helpviewer_keywords: ["ID2D1InkStyle interface [Direct2D]","SetNibShape method","ID2D1InkStyle.SetNibShape","ID2D1InkStyle::SetNibShape","SetNibShape","SetNibShape method [Direct2D]","SetNibShape method [Direct2D]","ID2D1InkStyle interface","d2d1_3/ID2D1InkStyle::SetNibShape","direct2d.id2d1inkstyle_setnibshape"]
 old-location: direct2d\id2d1inkstyle_setnibshape.htm
 tech.root: Direct2D
 ms.assetid: 460A037D-5315-4CAE-AB6B-5286B48551F1
@@ -62,15 +62,6 @@ Sets the pre-transform nib shape for this style.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_ink_nib_shape">D2D1_INK_NIB_SHAPE</a></b>
 
 The pre-transform nib shape to use in this style.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

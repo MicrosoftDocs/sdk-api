@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmFilterSubscriptionsGet0
 title: FwpmFilterSubscriptionsGet0 function (fwpmu.h)
-description: Retrieves an array of all the current filter change notification subscriptions.
+description: Retrieves an array of all the current filter change notification subscriptions.helpviewer_keywords: ["FwpmFilterSubscriptionsGet0","FwpmFilterSubscriptionsGet0 function [Filtering]","fwp.fwpmfiltersubscriptionsget0_func","fwpmu/FwpmFilterSubscriptionsGet0"]
 old-location: fwp\fwpmfiltersubscriptionsget0_func.htm
 tech.root: fwp
 ms.assetid: 347c7792-12bc-4a2c-b4c2-7a71ee4a3709

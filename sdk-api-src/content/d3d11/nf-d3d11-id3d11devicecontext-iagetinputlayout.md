@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IAGetInputLayout
 title: ID3D11DeviceContext::IAGetInputLayout (d3d11.h)
-description: Get a pointer to the input-layout object that is bound to the input-assembler stage.
+description: Get a pointer to the input-layout object that is bound to the input-assembler stage.helpviewer_keywords: ["833fde64-5672-81f0-24a0-876e6fb4fc29","IAGetInputLayout","IAGetInputLayout method [Direct3D 11]","IAGetInputLayout method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","IAGetInputLayout method","ID3D11DeviceContext.IAGetInputLayout","ID3D11DeviceContext::IAGetInputLayout","d3d11/ID3D11DeviceContext::IAGetInputLayout","direct3d11.id3d11devicecontext_iagetinputlayout"]
 old-location: direct3d11\id3d11devicecontext_iagetinputlayout.htm
 tech.root: direct3d11
 ms.assetid: b3d07e01-405e-4973-956f-85a08b720aaa
@@ -63,15 +63,6 @@ Get a pointer to the input-layout object that is bound to the input-assembler st
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11inputlayout">ID3D11InputLayout</a>**</b>
 
 A pointer to the input-layout object (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11inputlayout">ID3D11InputLayout</a>), which describes the input buffers that will be read by the IA stage.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

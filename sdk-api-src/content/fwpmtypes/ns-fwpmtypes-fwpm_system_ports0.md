@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_SYSTEM_PORTS0_
 title: FWPM_SYSTEM_PORTS0 (fwpmtypes.h)
-description: The FWPM_SYSTEM_PORTS0 structure.
+description: The FWPM_SYSTEM_PORTS0 structure.helpviewer_keywords: ["FWPM_SYSTEM_PORTS0","FWPM_SYSTEM_PORTS0 structure [Filtering]","fwp.fwpm_system_ports0","fwpmtypes/FWPM_SYSTEM_PORTS0"]
 old-location: fwp\fwpm_system_ports0.htm
 tech.root: fwp
 ms.assetid: cf6fbd43-f603-417d-925d-418d9aec5a03

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_SHADER_MODEL
 title: D3D12_FEATURE_DATA_SHADER_MODEL (d3d12.h)
-description: Contains the supported shader model.
+description: Contains the supported shader model.helpviewer_keywords: ["D3D12_FEATURE_DATA_SHADER_MODEL","D3D12_FEATURE_DATA_SHADER_MODEL structure","d3d12/D3D12_FEATURE_DATA_SHADER_MODEL","direct3d12.d3d12_feature_data_shader_model"]
 old-location: direct3d12\d3d12_feature_data_shader_model.htm
 tech.root: direct3d12
 ms.assetid: 17978B9A-D21B-4A8A-B367-12F4ABC43A94

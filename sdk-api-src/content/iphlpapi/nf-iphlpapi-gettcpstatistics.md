@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetTcpStatistics
 title: GetTcpStatistics function (iphlpapi.h)
-description: The GetTcpStatistics function retrieves the TCP statistics for the local computer.
+description: The GetTcpStatistics function retrieves the TCP statistics for the local computer.helpviewer_keywords: ["GetTcpStatistics","GetTcpStatistics function [IP Helper]","_iphlp_gettcpstatistics","iphlp.gettcpstatistics","iphlpapi/GetTcpStatistics"]
 old-location: iphlp\gettcpstatistics.htm
 tech.root: IpHlp
 ms.assetid: 841cdeaa-6284-4b39-a218-69937eca1982

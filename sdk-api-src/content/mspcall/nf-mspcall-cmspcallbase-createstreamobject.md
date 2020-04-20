@@ -1,7 +1,7 @@
 ---
 UID: NF:mspcall.CMSPCallBase.CreateStreamObject
 title: CMSPCallBase::CreateStreamObject (mspcall.h)
-description: The CreateStreamObject method is called by InternalCreateStream.
+description: The CreateStreamObject method is called by InternalCreateStream.helpviewer_keywords: ["CMSPCallBase interface [TAPI 2.2]","CreateStreamObject method","CMSPCallBase.CreateStreamObject","CMSPCallBase::CreateStreamObject","CreateStreamObject","CreateStreamObject method [TAPI 2.2]","CreateStreamObject method [TAPI 2.2]","CMSPCallBase interface","_tapi3_cmspcallbase_createstreamobject","mspcall/CMSPCallBase::CreateStreamObject","tapi3.cmspcallbase_createstreamobject"]
 old-location: tapi3\cmspcallbase_createstreamobject.htm
 tech.root: Tapi
 ms.assetid: ac98dd08-4250-40f6-91a8-e1f67b94b51f

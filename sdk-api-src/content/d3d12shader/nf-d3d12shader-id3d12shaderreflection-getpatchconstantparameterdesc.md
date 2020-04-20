@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetPatchConstantParameterDesc
 title: ID3D12ShaderReflection::GetPatchConstantParameterDesc (d3d12shader.h)
-description: Gets a patch-constant parameter description for a shader.
+description: Gets a patch-constant parameter description for a shader.helpviewer_keywords: ["GetPatchConstantParameterDesc","GetPatchConstantParameterDesc method","GetPatchConstantParameterDesc method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetPatchConstantParameterDesc method","ID3D12ShaderReflection.GetPatchConstantParameterDesc","ID3D12ShaderReflection::GetPatchConstantParameterDesc","d3d12shader/ID3D12ShaderReflection::GetPatchConstantParameterDesc","direct3d12.id3d12shaderreflection_getpatchconstantparameterdesc"]
 old-location: direct3d12\id3d12shaderreflection_getpatchconstantparameterdesc.htm
 tech.root: direct3d12
 ms.assetid: 01353250-0C8F-4C72-93CE-64BEF52EB985

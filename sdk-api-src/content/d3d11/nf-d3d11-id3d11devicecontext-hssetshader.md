@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSSetShader
 title: ID3D11DeviceContext::HSSetShader (d3d11.h)
-description: Set a hull shader to the device.
+description: Set a hull shader to the device.helpviewer_keywords: ["12c23e83-63d7-9b87-4fe7-75e515f02660","HSSetShader","HSSetShader method [Direct3D 11]","HSSetShader method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","HSSetShader method","ID3D11DeviceContext.HSSetShader","ID3D11DeviceContext::HSSetShader","d3d11/ID3D11DeviceContext::HSSetShader","direct3d11.id3d11devicecontext_hssetshader"]
 old-location: direct3d11\id3d11devicecontext_hssetshader.htm
 tech.root: direct3d11
 ms.assetid: e540f88f-fbf8-4135-b1ee-873ec18bc2c8
@@ -77,15 +77,6 @@ A pointer to an array of class-instance interfaces (see <a href="https://docs.mi
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of class-instance interfaces in the array.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

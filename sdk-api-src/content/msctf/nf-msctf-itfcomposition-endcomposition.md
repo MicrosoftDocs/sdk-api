@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfComposition.EndComposition
 title: ITfComposition::EndComposition (msctf.h)
-description: ITfComposition::EndComposition method
+description: ITfComposition::EndComposition methodhelpviewer_keywords: ["EndComposition","EndComposition method [Text Services Framework]","EndComposition method [Text Services Framework]","ITfComposition interface","ITfComposition interface [Text Services Framework]","EndComposition method","ITfComposition.EndComposition","ITfComposition::EndComposition","_tsf_itfcomposition_endcomposition_ref","msctf/ITfComposition::EndComposition","tsf.itfcomposition_endcomposition"]
 old-location: tsf\itfcomposition_endcomposition.htm
 tech.root: TSF
 ms.assetid: b5717c03-2611-4199-b07d-b6f3b6f65d3a
@@ -45,25 +45,17 @@ ms.custom: 19H1
 
 # ITfComposition::EndComposition
 
-
 ## -description
 
-
-
+Terminates a composition.
 
 ## -parameters
-
-
-
 
 ### -param ecWrite [in]
 
 Contains an edit cookie that identifies the edit context obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,13 +104,7 @@ The edit context identified by <i>ecWrite</i> does not have a read/write lock.
 </tr>
 </table>
  
-
-
-
-
 ## -remarks
-
-
 
 This method does not release the composition object, but the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition</a> methods will fail with E_UNEXPECTED after this method is called.
 
@@ -126,27 +112,6 @@ Context owners should use the <a href="https://docs.microsoft.com/windows/deskto
 
 This method causes the GUID_PROP_COMPOSING property to be removed from the text covered by the composition.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionservices-terminatecomposition">ITFContextOwnerCompositionServices::TerminateComposition
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
- 
-
- 
-
+[ITfContextOwnerCompositionServices::TerminateComposition](nf-msctf-itfcontextownercompositionservices-terminatecomposition.md), [ITfComposition interface](nn-msctf-itfcomposition.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md)

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.Rotate
 title: IUIAutomationTransformPattern::Rotate (uiautomationclient.h)
-description: Rotates the UI Automation element.
+description: Rotates the UI Automation element.helpviewer_keywords: ["IUIAutomationTransformPattern interface [Windows Accessibility]","Rotate method","IUIAutomationTransformPattern.Rotate","IUIAutomationTransformPattern::Rotate","Rotate","Rotate method [Windows Accessibility]","Rotate method [Windows Accessibility]","IUIAutomationTransformPattern interface","uiauto.uiauto_IUIAutomationTransformPattern_Rotate","uiauto_IUIAutomationTransformPattern_Rotate","uiautomationclient/IUIAutomationTransformPattern::Rotate","winauto.uiauto_IUIAutomationTransformPattern_Rotate"]
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Rotate.htm
 tech.root: WinAuto
 ms.assetid: 97312397-dfea-435b-950d-6f346d5fa222

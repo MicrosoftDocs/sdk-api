@@ -1,7 +1,7 @@
 ---
 UID: NF:mssip.CryptSIPGetSignedDataMsg
 title: CryptSIPGetSignedDataMsg function (mssip.h)
-description: Retrieves an Authenticode signature from the file.
+description: Retrieves an Authenticode signature from the file.helpviewer_keywords: ["CryptSIPGetSignedDataMsg","CryptSIPGetSignedDataMsg function [Security]","PKCS_7_ASN_ENCODING","X509_ASN_ENCODING","mssip/CryptSIPGetSignedDataMsg","security.cryptsipgetsigneddatamsg"]
 old-location: security\cryptsipgetsigneddatamsg.htm
 tech.root: SecCrypto
 ms.assetid: e3fabaa7-2dda-4c6c-8d1a-3ee5363e10b5

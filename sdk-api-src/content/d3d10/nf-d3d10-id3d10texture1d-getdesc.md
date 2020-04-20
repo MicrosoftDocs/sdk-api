@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Texture1D.GetDesc
 title: ID3D10Texture1D::GetDesc (d3d10.h)
-description: Get the properties of the texture resource.
+description: Get the properties of the texture resource.helpviewer_keywords: ["GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10Texture1D interface","ID3D10Texture1D interface [Direct3D 10]","GetDesc method","ID3D10Texture1D.GetDesc","ID3D10Texture1D::GetDesc","d3d10/ID3D10Texture1D::GetDesc","direct3d10.id3d10texture1d_getdesc","e161a409-5177-1fd7-fcce-004736f62d94"]
 old-location: direct3d10\id3d10texture1d_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture1d_getdesc.htm
@@ -63,15 +63,6 @@ Get the properties of the texture resource.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_texture1d_desc">D3D10_TEXTURE1D_DESC</a>*</b>
 
 Pointer to a resource description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_texture1d_desc">D3D10_TEXTURE1D_DESC</a>).
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -see-also

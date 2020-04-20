@@ -1,7 +1,7 @@
 ---
 UID: NC:fwpmu.FWPM_PROVIDER_CHANGE_CALLBACK0
 title: FWPM_PROVIDER_CHANGE_CALLBACK0 (fwpmu.h)
-description: To add custom behavior to the provider change notification process.
+description: To add custom behavior to the provider change notification process.helpviewer_keywords: ["FWPM_PROVIDER_CHANGE_CALLBACK0","FWPM_PROVIDER_CHANGE_CALLBACK0 callback","FWPM_PROVIDER_CHANGE_CALLBACK0 callback function [Filtering]","fwp.fwpm_provider_change_callback0_func","fwpmu/FWPM_PROVIDER_CHANGE_CALLBACK0"]
 old-location: fwp\fwpm_provider_change_callback0_func.htm
 tech.root: fwp
 ms.assetid: 00f564d3-90b3-449e-a88a-ea5b3d9cff16
@@ -69,15 +69,6 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 Type: [FWPM_PROVIDER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_change0)a>*</b>
 
 The change notification information.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

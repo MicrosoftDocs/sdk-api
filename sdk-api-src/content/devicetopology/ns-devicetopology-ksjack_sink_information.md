@@ -1,7 +1,7 @@
 ---
 UID: NS:devicetopology._tagKSJACK_SINK_INFORMATION
 title: KSJACK_SINK_INFORMATION (devicetopology.h)
-description: The KSJACK_SINK_INFORMATION structure stores information about an audio jack sink.
+description: The KSJACK_SINK_INFORMATION structure stores information about an audio jack sink.helpviewer_keywords: ["KSJACK_SINK_INFORMATION","KSJACK_SINK_INFORMATION structure [Core Audio]","PKSJACK_SINK_INFORMATION","PKSJACK_SINK_INFORMATION structure pointer [Core Audio]","coreaudio.ksjack_sink_information","devicetopology/KSJACK_SINK_INFORMATION","devicetopology/PKSJACK_SINK_INFORMATION"]
 old-location: coreaudio\ksjack_sink_information.htm
 tech.root: CoreAudio
 ms.assetid: ee7211d8-a34f-40c9-9925-7bb40792bae9

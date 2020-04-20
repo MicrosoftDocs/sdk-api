@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SOGetTargets
 title: ID3D11DeviceContext::SOGetTargets (d3d11.h)
-description: Get the target output buffers for the stream-output stage of the pipeline.
+description: Get the target output buffers for the stream-output stage of the pipeline.helpviewer_keywords: ["90e06f28-a9a0-3b66-9901-3e60886b896d","ID3D11DeviceContext interface [Direct3D 11]","SOGetTargets method","ID3D11DeviceContext.SOGetTargets","ID3D11DeviceContext::SOGetTargets","SOGetTargets","SOGetTargets method [Direct3D 11]","SOGetTargets method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::SOGetTargets","direct3d11.id3d11devicecontext_sogettargets"]
 old-location: direct3d11\id3d11devicecontext_sogettargets.htm
 tech.root: direct3d11
 ms.assetid: 878402ed-0c89-42db-8210-d9a90b347226
@@ -71,15 +71,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 An array of output buffers (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>) to be retrieved from the device.
           
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

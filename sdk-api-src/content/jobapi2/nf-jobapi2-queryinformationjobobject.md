@@ -1,7 +1,7 @@
 ---
 UID: NF:jobapi2.QueryInformationJobObject
 title: QueryInformationJobObject function (jobapi2.h)
-description: Retrieves limit and job state information from the job object.
+description: Retrieves limit and job state information from the job object.helpviewer_keywords: ["JobObjectBasicAccountingInformation","JobObjectBasicAndIoAccountingInformation","JobObjectBasicLimitInformation","JobObjectBasicProcessIdList","JobObjectBasicUIRestrictions","JobObjectCpuRateControlInformation","JobObjectEndOfJobTimeInformation","JobObjectExtendedLimitInformation","JobObjectGroupInformation","JobObjectGroupInformationEx","JobObjectLimitViolationInformation","JobObjectLimitViolationInformation2","JobObjectNetRateControlInformation","JobObjectNotificationLimitInformation","JobObjectNotificationLimitInformation2","JobObjectSecurityLimitInformation","QueryInformationJobObject","QueryInformationJobObject function","_win32_queryinformationjobobject","base.queryinformationjobobject","jobapi2/QueryInformationJobObject"]
 old-location: base\queryinformationjobobject.htm
 tech.root: ProcThread
 ms.assetid: d843d578-fd67-4708-959f-00245ff70ec6
@@ -223,7 +223,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 <tr>
 <td width="40%"><a id="JobObjectLimitViolationInformation2"></a><a id="jobobjectlimitviolationinformation2"></a><a id="JOBOBJECTLIMITVIOLATIONINFORMATION2"></a><dl>
 <dt><b>JobObjectLimitViolationInformation2</b></dt>
-<dt>35</dt>
+<dt>34</dt>
 </dl>
 </td>
 <td width="60%">
@@ -269,7 +269,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 <tr>
 <td width="40%"><a id="JobObjectNotificationLimitInformation2"></a><a id="jobobjectnotificationlimitinformation2"></a><a id="JOBOBJECTNOTIFICATIONLIMITINFORMATION2"></a><dl>
 <dt><b>JobObjectNotificationLimitInformation2</b></dt>
-<dt>34</dt>
+<dt>33</dt>
 </dl>
 </td>
 <td width="60%">

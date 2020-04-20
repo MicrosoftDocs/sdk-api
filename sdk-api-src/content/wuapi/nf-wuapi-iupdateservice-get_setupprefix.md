@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateService.get_SetupPrefix
 title: IUpdateService::get_SetupPrefix (wuapi.h)
-description: Identifies the prefix for the setup files.
+description: Identifies the prefix for the setup files.helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","SetupPrefix property","IUpdateService.SetupPrefix","IUpdateService.get_SetupPrefix","IUpdateService::SetupPrefix","IUpdateService::get_SetupPrefix","SetupPrefix property [Windows Update Agent]","SetupPrefix property [Windows Update Agent]","IUpdateService interface","get_SetupPrefix","wua.iupdateservice_setupprefix","wuapi/IUpdateService::SetupPrefix","wuapi/IUpdateService::get_SetupPrefix"]
 old-location: wua\iupdateservice_setupprefix.htm
 tech.root: Wua_Sdk
 ms.assetid: 025d2278-c973-410a-bccf-da8d1a59b6ac

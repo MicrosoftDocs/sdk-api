@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.Remove
 title: IFsiDirectoryItem::Remove (imapi2fs.h)
-description: Removes the specified item from the file system image.
+description: Removes the specified item from the file system image.helpviewer_keywords: ["IFsiDirectoryItem interface [IMAPI]","Remove method","IFsiDirectoryItem.Remove","IFsiDirectoryItem::Remove","Remove","Remove method [IMAPI]","Remove method [IMAPI]","IFsiDirectoryItem interface","imapi.ifsidirectoryitem_remove","imapi2fs/IFsiDirectoryItem::Remove"]
 old-location: imapi\ifsidirectoryitem_remove.htm
 tech.root: imapi
 ms.assetid: bbd45185-439a-4847-8481-7139e81b34fd

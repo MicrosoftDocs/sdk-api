@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.GetRecordOriginalNetworkId
 title: IDVB_BAT::GetRecordOriginalNetworkId (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordOriginalNetworkId","GetRecordOriginalNetworkId method [Microsoft TV Technologies]","GetRecordOriginalNetworkId method [Microsoft TV Technologies]","IDVB_BAT interface","IDVB_BAT interface [Microsoft TV Technologies]","GetRecordOriginalNetworkId method","IDVB_BAT.GetRecordOriginalNetworkId","IDVB_BAT::GetRecordOriginalNetworkId","IDVB_BATGetRecordOriginalNetworkId","dvbsiparser/IDVB_BAT::GetRecordOriginalNetworkId","mstv.idvb_bat_getrecordoriginalnetworkid"]
 old-location: mstv\idvb_bat_getrecordoriginalnetworkid.htm
 tech.root: mstv
 ms.assetid: b59aaea4-4960-4c82-b949-e8372c1e3f4c

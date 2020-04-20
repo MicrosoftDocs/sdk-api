@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextKeyEventSink.OnKeyUp
 title: ITfContextKeyEventSink::OnKeyUp (msctf.h)
-description: ITfContextKeyEventSink::OnKeyUp method
+description: ITfContextKeyEventSink::OnKeyUp methodhelpviewer_keywords: ["ITfContextKeyEventSink interface [Text Services Framework]","OnKeyUp method","ITfContextKeyEventSink.OnKeyUp","ITfContextKeyEventSink::OnKeyUp","OnKeyUp","OnKeyUp method [Text Services Framework]","OnKeyUp method [Text Services Framework]","ITfContextKeyEventSink interface","_tsf_itfcontextkeyeventsink_onkeyup_ref","msctf/ITfContextKeyEventSink::OnKeyUp","tsf.itfcontextkeyeventsink_onkeyup"]
 old-location: tsf\itfcontextkeyeventsink_onkeyup.htm
 tech.root: TSF
 ms.assetid: ed0c6e14-d216-425c-a194-08e8ea85bb92
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when a key up event occurs.
 
 ## -parameters
 
@@ -101,15 +100,4 @@ The method was successful.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextkeyeventsink">ITfContextKeyEventSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
- 
-
- 
-
+[ITfContextKeyEventSink interface](nn-msctf-itfcontextkeyeventsink.md), [WM_KEYUP](/windows/desktop/inputdev/wm-keyup)

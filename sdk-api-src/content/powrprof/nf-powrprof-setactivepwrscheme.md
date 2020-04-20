@@ -1,7 +1,7 @@
 ---
 UID: NF:powrprof.SetActivePwrScheme
 title: SetActivePwrScheme function (powrprof.h)
-description: Sets the active power scheme.
+description: Sets the active power scheme.helpviewer_keywords: ["SetActivePwrScheme","SetActivePwrScheme function","_win32_setactivepwrscheme","base.setactivepwrscheme","powrprof/SetActivePwrScheme"]
 old-location: base\setactivepwrscheme.htm
 tech.root: power
 ms.assetid: f449ff0d-5c22-4c6d-8c88-dc18258a8c6d

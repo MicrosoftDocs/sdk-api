@@ -1,7 +1,7 @@
 ---
 UID: NF:rasshost.RasSecurityDialogComplete
 title: RasSecurityDialogComplete function (rasshost.h)
-description: The RasSecurityDialogComplete function notifies the RAS server of the results of a third-party security authentication transaction.
+description: The RasSecurityDialogComplete function notifies the RAS server of the results of a third-party security authentication transaction.helpviewer_keywords: ["RasSecurityDialogComplete","RasSecurityDialogComplete function [RAS]","_ras_rassecuritydialogcomplete","rasshost/RasSecurityDialogComplete","rras.rassecuritydialogcomplete"]
 old-location: rras\rassecuritydialogcomplete.htm
 tech.root: RRAS
 ms.assetid: 9ebe8b85-7500-405f-98c2-6f51f3339629
@@ -70,15 +70,6 @@ The RAS server passes a pointer to the
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-security_message">SECURITY_MESSAGE</a> structure that specifies the results of the authentication transaction.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

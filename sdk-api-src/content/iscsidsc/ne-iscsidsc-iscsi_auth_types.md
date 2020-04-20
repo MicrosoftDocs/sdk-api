@@ -1,7 +1,7 @@
 ---
 UID: NE:iscsidsc.__unnamed_enum_1
 title: ISCSI_AUTH_TYPES (iscsidsc.h)
-description: ISCSI_AUTH_TYPES enumeration indicates the type of authentication method utilized.
+description: ISCSI_AUTH_TYPES enumeration indicates the type of authentication method utilized.helpviewer_keywords: ["*PISCSI_AUTH_TYPES","ISCSI_AUTH_TYPES","ISCSI_AUTH_TYPES enumeration [iSCSI Discovery Library API]","ISCSI_CHAP_AUTH_TYPE","ISCSI_MUTUAL_CHAP_AUTH_TYPE","ISCSI_NO_AUTH_TYPE","iscsidisc.iscsi_auth_types","iscsidsc/ISCSI_AUTH_TYPES","iscsidsc/ISCSI_CHAP_AUTH_TYPE","iscsidsc/ISCSI_MUTUAL_CHAP_AUTH_TYPE","iscsidsc/ISCSI_NO_AUTH_TYPE"]
 old-location: iscsidisc\iscsi_auth_types.htm
 tech.root: iSCSIDisc
 ms.assetid: 432f1968-e2ca-4594-80cc-0f1a852ec81a

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManCreateShell
 title: WSManCreateShell function (wsman.h)
-description: Creates a shell object.
+description: Creates a shell object.helpviewer_keywords: ["WSManCreateShell","WSManCreateShell function [Windows Remote Management]","winrm.wsmancreateshell","wsman/WSManCreateShell"]
 old-location: winrm\wsmancreateshell.htm
 tech.root: winrm
 ms.assetid: 901c0a2d-d25f-451c-8d6c-83662f1f1061
@@ -97,13 +97,5 @@ Defines an asynchronous structure. The asynchronous structure contains an option
 ### -param shell [out]
 
 Defines a shell handle that uniquely identifies the shell object. The resource handle is used to track the client endpoint for the shell and is used by other WinRM methods to interact with the shell object. The shell object should be deleted by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancloseshell">WSManCloseShell</a> method. This parameter cannot be <b>NULL</b>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.GetAttributeInfo
 title: ITfDisplayAttributeInfo::GetAttributeInfo (msctf.h)
-description: ITfDisplayAttributeInfo::GetAttributeInfo method
+description: ITfDisplayAttributeInfo::GetAttributeInfo methodhelpviewer_keywords: ["GetAttributeInfo","GetAttributeInfo method [Text Services Framework]","GetAttributeInfo method [Text Services Framework]","ITfDisplayAttributeInfo interface","ITfDisplayAttributeInfo interface [Text Services Framework]","GetAttributeInfo method","ITfDisplayAttributeInfo.GetAttributeInfo","ITfDisplayAttributeInfo::GetAttributeInfo","_tsf_itfdisplayattributeinfo_getattributeinfo_ref","msctf/ITfDisplayAttributeInfo::GetAttributeInfo","tsf.itfdisplayattributeinfo_getattributeinfo"]
 old-location: tsf\itfdisplayattributeinfo_getattributeinfo.htm
 tech.root: TSF
 ms.assetid: 32e28feb-1186-4848-a9d4-70b27f865d3c
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the display attribute data.
 
 ## -parameters
 
@@ -102,16 +101,5 @@ The method was successful.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_displayattribute">TF_DISPLAYATTRIBUTE
-      </a>
- 
-
- 
+[ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md), [ITfDisplayAttributeMgr::OnUpdateInfo](nf-msctf-itfdisplayattributemgr-onupdateinfo.md), [TF_DISPLAYATTRIBUTE structure](ns-msctf-tf_displayattribute.md), [ITfDisplayAttributeInfo::SetAttributeInfo](nf-msctf-itfdisplayattributeinfo-setattributeinfo.md)
 

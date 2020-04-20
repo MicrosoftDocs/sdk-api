@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll4.getProviderTypeWStr
 title: IEnroll4::getProviderTypeWStr (xenroll.h)
-description: Retrieves the type of the specified cryptographic service provider (CSP).
+description: Retrieves the type of the specified cryptographic service provider (CSP).helpviewer_keywords: ["IEnroll4 interface [Security]","getProviderTypeWStr method","IEnroll4.getProviderTypeWStr","IEnroll4::getProviderTypeWStr","getProviderTypeWStr","getProviderTypeWStr method [Security]","getProviderTypeWStr method [Security]","IEnroll4 interface","security.ienroll4_getprovidertypewstr","xenroll/IEnroll4::getProviderTypeWStr"]
 old-location: security\ienroll4_getprovidertypewstr.htm
 tech.root: SecCrypto
 ms.assetid: 64d0d96a-b9d4-4b66-8329-2dfc03ba9ce5

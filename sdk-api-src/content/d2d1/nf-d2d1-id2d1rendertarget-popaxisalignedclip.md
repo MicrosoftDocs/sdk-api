@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.PopAxisAlignedClip
 title: ID2D1RenderTarget::PopAxisAlignedClip (d2d1.h)
-description: Removes the last axis-aligned clip from the render target. After this method is called, the clip is no longer applied to subsequent drawing operations.
+description: Removes the last axis-aligned clip from the render target. After this method is called, the clip is no longer applied to subsequent drawing operations.helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","PopAxisAlignedClip method","ID2D1RenderTarget.PopAxisAlignedClip","ID2D1RenderTarget::PopAxisAlignedClip","PopAxisAlignedClip","PopAxisAlignedClip method [Direct2D]","PopAxisAlignedClip method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::PopAxisAlignedClip","direct2d.ID2D1RenderTarget_PopAxisAlignedClip"]
 old-location: direct2d\ID2D1RenderTarget_PopAxisAlignedClip.htm
 tech.root: Direct2D
 ms.assetid: 0f0a2826-2356-4ced-a372-5bb59dd394ee
@@ -55,15 +55,6 @@ Removes the last axis-aligned clip from the render target. After this method is 
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumITfCompositionView.Next
 title: IEnumITfCompositionView::Next (msctf.h)
-description: IEnumITfCompositionView::Next method
+description: IEnumITfCompositionView::Next methodhelpviewer_keywords: ["IEnumITfCompositionView interface [Text Services Framework]","Next method","IEnumITfCompositionView.Next","IEnumITfCompositionView::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumITfCompositionView interface","_tsf_ienumitfcompositionview_next_ref","msctf/IEnumITfCompositionView::Next","tsf.ienumitfcompositionview_next"]
 old-location: tsf\ienumitfcompositionview_next.htm
 tech.root: TSF
 ms.assetid: 70b0dd55-41c0-4188-b79e-e49a0e203949
@@ -45,16 +45,11 @@ ms.custom: 19H1
 
 # IEnumITfCompositionView::Next
 
-
 ## -description
 
-
-
+Obtains, from the current position, the specified number of elements in the enumeration sequence.
 
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
@@ -116,23 +111,7 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView
-      </a>
- 
-
- 
-
+[IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfCompositionView interface](nn-msctf-itfcompositionview.md)

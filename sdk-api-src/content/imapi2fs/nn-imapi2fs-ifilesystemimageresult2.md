@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2fs.IFileSystemImageResult2
 title: IFileSystemImageResult2 (imapi2fs.h)
-description: The IFileSystemImageResult2 interface allows the data recorder object to retrieve information about modified blocks in images created for rewritable discs.
+description: The IFileSystemImageResult2 interface allows the data recorder object to retrieve information about modified blocks in images created for rewritable discs.helpviewer_keywords: ["IFileSystemImageResult2","IFileSystemImageResult2 interface [IMAPI]","IFileSystemImageResult2 interface [IMAPI]","described","imapi.ifilesystemimageresult2","imapi2fs/IFileSystemImageResult2"]
 old-location: imapi\ifilesystemimageresult2.htm
 tech.root: imapi
 ms.assetid: 83834da1-fa5a-42ef-8e59-7ba133d3e6cb

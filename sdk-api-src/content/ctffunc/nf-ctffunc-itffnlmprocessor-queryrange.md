@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.QueryRange
 title: ITfFnLMProcessor::QueryRange (ctffunc.h)
-description: ITfFnLMProcessor::QueryRange method
+description: ITfFnLMProcessor::QueryRange methodhelpviewer_keywords: ["ITfFnLMProcessor interface [Text Services Framework]","QueryRange method","ITfFnLMProcessor.QueryRange","ITfFnLMProcessor::QueryRange","QueryRange","QueryRange method [Text Services Framework]","QueryRange method [Text Services Framework]","ITfFnLMProcessor interface","_tsf_itffnlmprocessor_queryrange_ref","ctffunc/ITfFnLMProcessor::QueryRange","tsf.itffnlmprocessor_queryrange"]
 old-location: tsf\itffnlmprocessor_queryrange.htm
 tech.root: TSF
 ms.assetid: 84a9bf73-7215-429a-9573-66acf4d3ff18
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the range of text that a reconversion applies to.
 
 ## -parameters
 

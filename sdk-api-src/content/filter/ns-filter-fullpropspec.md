@@ -1,7 +1,7 @@
 ---
 UID: NS:filter.tagFULLPROPSPEC
 title: FULLPROPSPEC (filter.h)
-description: Specifies a property set and a property within the property set.
+description: Specifies a property set and a property within the property set.helpviewer_keywords: ["FULLPROPSPEC","FULLPROPSPEC structure [Indexing Service]","_idxs_FULLPROPSPEC","filter/FULLPROPSPEC","indexsrv.fullpropspec","tagFULLPROPSPEC"]
 old-location: indexsrv\fullpropspec.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_599f.htm

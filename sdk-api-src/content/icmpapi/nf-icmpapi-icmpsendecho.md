@@ -1,7 +1,7 @@
 ---
 UID: NF:icmpapi.IcmpSendEcho
 title: IcmpSendEcho function (icmpapi.h)
-description: The IcmpSendEcho function sends an IPv4 ICMP echo request and returns any echo response replies. The call returns when the time-out has expired or the reply buffer is filled.
+description: The IcmpSendEcho function sends an IPv4 ICMP echo request and returns any echo response replies. The call returns when the time-out has expired or the reply buffer is filled.helpviewer_keywords: ["IcmpSendEcho","IcmpSendEcho function [IP Helper]","_iphlp_icmpsendecho","icmpapi/IcmpSendEcho","iphlp.icmpsendecho"]
 old-location: iphlp\icmpsendecho.htm
 tech.root: IpHlp
 ms.assetid: c3cdc535-2c13-48c6-9ab1-88cc5e5119b5

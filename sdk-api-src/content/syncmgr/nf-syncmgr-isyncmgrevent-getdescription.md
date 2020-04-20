@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetDescription
 title: ISyncMgrEvent::GetDescription (syncmgr.h)
-description: Gets the event description.
+description: Gets the event description.helpviewer_keywords: ["GetDescription","GetDescription method [Windows Shell]","GetDescription method [Windows Shell]","ISyncMgrEvent interface","ISyncMgrEvent interface [Windows Shell]","GetDescription method","ISyncMgrEvent.GetDescription","ISyncMgrEvent::GetDescription","_shell_ISyncMgrEvent_GetDescription","shell.ISyncMgrEvent_GetDescription","syncmgr/ISyncMgrEvent::GetDescription"]
 old-location: shell\ISyncMgrEvent_GetDescription.htm
 tech.root: shell
 ms.assetid: 3ec45cf6-d282-4df9-bd4a-b5d75df69ff4

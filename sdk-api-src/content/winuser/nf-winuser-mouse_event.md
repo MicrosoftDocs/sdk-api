@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.mouse_event
 title: mouse_event function (winuser.h)
-description: The mouse_event function synthesizes mouse motion and button clicks.
+description: The mouse_event function synthesizes mouse motion and button clicks.helpviewer_keywords: ["MOUSEEVENTF_ABSOLUTE","MOUSEEVENTF_HWHEEL","MOUSEEVENTF_LEFTDOWN","MOUSEEVENTF_LEFTUP","MOUSEEVENTF_MIDDLEDOWN","MOUSEEVENTF_MIDDLEUP","MOUSEEVENTF_MOVE","MOUSEEVENTF_RIGHTDOWN","MOUSEEVENTF_RIGHTUP","MOUSEEVENTF_WHEEL","MOUSEEVENTF_XDOWN","MOUSEEVENTF_XUP","XBUTTON1","XBUTTON2","_win32_mouse_event","_win32_mouse_event_cpp","inputdev.mouse_event","mouse_event","mouse_event function [Keyboard and Mouse Input]","winui._win32_mouse_event","winuser/mouse_event"]
 old-location: inputdev\mouse_event.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\mouse_event.htm
@@ -294,15 +294,6 @@ Set if the second X button was pressed or released.
 Type: <b>ULONG_PTR</b>
 
 An additional value associated with the mouse event. An application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> to obtain this extra information. 
-
-
-## -returns
-
-
-
-This function has no return value. 
-
-
 
 
 ## -remarks

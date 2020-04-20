@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFDRMNetHelper.ProcessLicenseRequest
 title: IMFDRMNetHelper::ProcessLicenseRequest (wmcontainer.h)
-description: Gets the license response for the specified request.
+description: Gets the license response for the specified request.helpviewer_keywords: ["IMFDRMNetHelper interface [Media Foundation]","ProcessLicenseRequest method","IMFDRMNetHelper.ProcessLicenseRequest","IMFDRMNetHelper::ProcessLicenseRequest","ProcessLicenseRequest","ProcessLicenseRequest method [Media Foundation]","ProcessLicenseRequest method [Media Foundation]","IMFDRMNetHelper interface","mf.imfdrmnethelper_processlicenserequest","wmcontainer/IMFDRMNetHelper::ProcessLicenseRequest"]
 old-location: mf\imfdrmnethelper_processlicenserequest.htm
 tech.root: medfound
 ms.assetid: e60f9831-f59d-46ff-b685-b26d6484a70d

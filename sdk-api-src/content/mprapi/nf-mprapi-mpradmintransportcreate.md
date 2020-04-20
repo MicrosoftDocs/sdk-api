@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminTransportCreate
 title: MprAdminTransportCreate function (mprapi.h)
-description: The MprAdminTransportCreate function loads a new transport, and starts the router manager for the transport.
+description: The MprAdminTransportCreate function loads a new transport, and starts the router manager for the transport.helpviewer_keywords: ["MprAdminTransportCreate","MprAdminTransportCreate function [RAS]","_mpr_mpradmintransportcreate","mprapi/MprAdminTransportCreate","rras.mpradmintransportcreate"]
 old-location: rras\mpradmintransportcreate.htm
 tech.root: RRAS
 ms.assetid: 14639cec-9c9a-48f5-b7cc-0aaca7ececbc

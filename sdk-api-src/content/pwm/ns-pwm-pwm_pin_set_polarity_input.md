@@ -1,7 +1,7 @@
 ---
 UID: NS:pwm._PWM_PIN_SET_POLARITY_INPUT
 title: PWM_PIN_SET_POLARITY_INPUT (pwm.h)
-description: Contains a desired value for polarity of a pin or channel.
+description: Contains a desired value for polarity of a pin or channel.helpviewer_keywords: ["PWM_PIN_SET_POLARITY_INPUT","PWM_PIN_SET_POLARITY_INPUT structure","base.pwm_pin_set_polarity_input","pwm/PWM_PIN_SET_POLARITY_INPUT"]
 old-location: base\pwm_pin_set_polarity_input.htm
 tech.root: devio
 ms.assetid: 346F981E-DAE1-4CEE-86A6-4416E3C293DE

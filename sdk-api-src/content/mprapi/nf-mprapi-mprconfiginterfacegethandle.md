@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceGetHandle
 title: MprConfigInterfaceGetHandle function (mprapi.h)
-description: The MprConfigInterfaceGetHandle function retrieves a handle to the specified interface's configuration in the specified router configuration.
+description: The MprConfigInterfaceGetHandle function retrieves a handle to the specified interface's configuration in the specified router configuration.helpviewer_keywords: ["MprConfigInterfaceGetHandle","MprConfigInterfaceGetHandle function [RAS]","_mpr_mprconfiginterfacegethandle","mprapi/MprConfigInterfaceGetHandle","rras.mprconfiginterfacegethandle"]
 old-location: rras\mprconfiginterfacegethandle.htm
 tech.root: RRAS
 ms.assetid: 1088e587-4446-4463-b411-a11e34adaf6a

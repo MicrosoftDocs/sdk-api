@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertGetIssuerCertificateFromStore
 title: CertGetIssuerCertificateFromStore function (wincrypt.h)
-description: Retrieves the certificate context from the certificate store for the first or next issuer of the specified subject certificate. The new Certificate Chain Verification Functions are recommended instead of the use of this function.
+description: Retrieves the certificate context from the certificate store for the first or next issuer of the specified subject certificate. The new Certificate Chain Verification Functions are recommended instead of the use of this function.helpviewer_keywords: ["CERT_STORE_NO_CRL_FLAG","CERT_STORE_NO_ISSUER_FLAG","CERT_STORE_REVOCATION_FLAG","CERT_STORE_SIGNATURE_FLAG","CERT_STORE_TIME_VALIDITY_FLAG","CertGetIssuerCertificateFromStore","CertGetIssuerCertificateFromStore function [Security]","_crypto2_certgetissuercertificatefromstore","security.certgetissuercertificatefromstore","wincrypt/CertGetIssuerCertificateFromStore"]
 old-location: security\certgetissuercertificatefromstore.htm
 tech.root: SecCrypto
 ms.assetid: b57982d0-cba8-43cd-a544-3635fdf599e2

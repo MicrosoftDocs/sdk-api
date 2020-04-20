@@ -1,7 +1,7 @@
 ---
 UID: NS:credentialprovider._CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
 title: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION (credentialprovider.h)
-description: Contains details about a credential.
+description: Contains details about a credential.helpviewer_keywords: ["CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION","CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION structure [Windows Shell]","_shell_CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION","credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION","shell.CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION"]
 old-location: shell\CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION.htm
 tech.root: shell
 ms.assetid: 55ff9be3-490d-4f82-92a0-3551ccbcaade

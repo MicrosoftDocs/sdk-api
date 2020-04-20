@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._RAS_CONNECTION_0
 title: RAS_CONNECTION_0 (mprapi.h)
-description: The RAS_CONNECTION_0 structure contains general information regarding a specific connection, such as user name or domain. For more detailed information about a specific connection, such as bytes sent or received, see RAS_CONNECTION_1.
+description: The RAS_CONNECTION_0 structure contains general information regarding a specific connection, such as user name or domain. For more detailed information about a specific connection, such as bytes sent or received, see RAS_CONNECTION_1.helpviewer_keywords: ["*PRAS_CONNECTION_0","PRAS_CONNECTION_0","PRAS_CONNECTION_0 structure pointer [RAS]","RAS_CONNECTION_0","RAS_CONNECTION_0 structure [RAS]","RAS_FLAGS_ARAP_CONNECTION","RAS_FLAGS_DORMANT","RAS_FLAGS_IKEV2_CONNECTION","RAS_FLAGS_MESSENGER_PRESENT","RAS_FLAGS_PPP_CONNECTION","RAS_FLAGS_QUARANTINE_PRESENT","_mpr_ras_connection_0","mprapi/PRAS_CONNECTION_0","mprapi/RAS_CONNECTION_0","rras.ras_connection_0"]
 old-location: rras\ras_connection_0.htm
 tech.root: RRAS
 ms.assetid: e2561365-be3f-44cd-bb3c-18b001fc4d5d

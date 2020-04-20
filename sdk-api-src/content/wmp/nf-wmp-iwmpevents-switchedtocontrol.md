@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.SwitchedToControl
 title: IWMPEvents::SwitchedToControl (wmp.h)
-description: The SwitchedToControl event occurs when a remoted Windows Media Player control switches to the docked state.
+description: The SwitchedToControl event occurs when a remoted Windows Media Player control switches to the docked state.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","SwitchedToControl method","IWMPEvents.SwitchedToControl","IWMPEvents::SwitchedToControl","IWMPEventsSwitchedToControl","SwitchedToControl","SwitchedToControl method [Windows Media Player]","SwitchedToControl method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__switchedtocontrol","wmp/IWMPEvents::SwitchedToControl"]
 old-location: wmp\iwmpevents_iwmpevents__switchedtocontrol.htm
 tech.root: WMP
 ms.assetid: 3f6d6a77-8d8a-4ed8-8222-95086c08037c
@@ -58,15 +58,6 @@ The <b>SwitchedToControl</b> event occurs when a remoted Windows Media Player co
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

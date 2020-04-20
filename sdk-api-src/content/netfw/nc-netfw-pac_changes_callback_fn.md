@@ -1,7 +1,7 @@
 ---
 UID: NC:netfw.PAC_CHANGES_CALLBACK_FN
 title: PAC_CHANGES_CALLBACK_FN (netfw.h)
-description: Used to add custom behavior to the app container change notification process.
+description: Used to add custom behavior to the app container change notification process.helpviewer_keywords: ["PAC_CHANGES_CALLBACK_FN","PAC_CHANGES_CALLBACK_FN callback","PAC_CHANGES_CALLBACK_FN callback function [ICS/ICF]","ics.pac_changes_callback_fn","networkisolation/PAC_CHANGES_CALLBACK_FN"]
 old-location: ics\pac_changes_callback_fn.htm
 tech.root: ics
 ms.assetid: 7a2afc36-c250-4eb1-9853-d79def85bb67
@@ -69,15 +69,6 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>*</b>
 
 The app container change information.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

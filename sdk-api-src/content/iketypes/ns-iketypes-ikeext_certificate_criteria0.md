@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_CRITERIA0_
 title: IKEEXT_CERTIFICATE_CRITERIA0 (iketypes.h)
-description: Contains a set of criteria to applied to an authentication method.
+description: Contains a set of criteria to applied to an authentication method.helpviewer_keywords: ["IKEEXT_CERTIFICATE_CRITERIA0","IKEEXT_CERTIFICATE_CRITERIA0 structure [Filtering]","fwp.ikeext_certificate_criteria0","iketypes/IKEEXT_CERTIFICATE_CRITERIA0"]
 old-location: fwp\ikeext_certificate_criteria0.htm
 tech.root: fwp
 ms.assetid: dbcb0e25-fdde-44d9-bfad-b3605f563773

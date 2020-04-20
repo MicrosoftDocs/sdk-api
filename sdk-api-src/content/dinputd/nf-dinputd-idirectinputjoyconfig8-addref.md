@@ -1,7 +1,7 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.AddRef
 title: IDirectInputJoyConfig8::AddRef (dinputd.h)
-description: The IDirectInputJoyConfig8::AddRef method increases the reference count of the DirectInputJoyConfig object by 1. This method is part of the IUnknown interface inherited by DirectInputJoyConfig.
+description: The IDirectInputJoyConfig8::AddRef method increases the reference count of the DirectInputJoyConfig object by 1. This method is part of the IUnknown interface inherited by DirectInputJoyConfig.helpviewer_keywords: ["AddRef","AddRef method [Human Input Devices]","AddRef method [Human Input Devices]","IDirectInputJoyConfig8 interface","IDirectInputJoyConfig8 interface [Human Input Devices]","AddRef method","IDirectInputJoyConfig8.AddRef","IDirectInputJoyConfig8::AddRef","di_ref_5b8306ac-22f0-48f9-af91-a83d6bd8b936.xml","dinputd/IDirectInputJoyConfig8::AddRef","hid.idirectinputjoyconfig8_addref"]
 old-location: hid\idirectinputjoyconfig8_addref.htm
 tech.root: hid
 ms.assetid: 04e10558-367e-495c-aa1a-43344f803c8a

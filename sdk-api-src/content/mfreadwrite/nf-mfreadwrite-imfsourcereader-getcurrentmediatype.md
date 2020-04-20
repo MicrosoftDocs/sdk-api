@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetCurrentMediaType
 title: IMFSourceReader::GetCurrentMediaType (mfreadwrite.h)
-description: Gets the current media type for a stream.
+description: Gets the current media type for a stream.helpviewer_keywords: ["GetCurrentMediaType","GetCurrentMediaType method [Media Foundation]","GetCurrentMediaType method [Media Foundation]","IMFSourceReader interface","IMFSourceReader interface [Media Foundation]","GetCurrentMediaType method","IMFSourceReader.GetCurrentMediaType","IMFSourceReader::GetCurrentMediaType","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","mf.imfsourcereader_getcurrentmediatype","mfreadwrite/IMFSourceReader::GetCurrentMediaType"]
 old-location: mf\imfsourcereader_getcurrentmediatype.htm
 tech.root: medfound
 ms.assetid: c0fe3b34-42ad-45e4-812d-679bbe01a200

@@ -1,7 +1,7 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_InputActive
 title: IMSVidCtl::put_InputActive (msvidctl.h)
-description: The put_InputActive method specifies the input device to use in the filter graph.
+description: The put_InputActive method specifies the input device to use in the filter graph.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","put_InputActive method","IMSVidCtl.put_InputActive","IMSVidCtl::put_InputActive","IMSVidCtlput_InputActive","mstv.imsvidctl_put_inputactive","msvidctl/IMSVidCtl::put_InputActive","put_InputActive","put_InputActive method [Microsoft TV Technologies]","put_InputActive method [Microsoft TV Technologies]","IMSVidCtl interface"]
 old-location: mstv\imsvidctl_put_inputactive.htm
 tech.root: mstv
 ms.assetid: 696d8ece-a377-4fe8-a790-a68d1a24e65a

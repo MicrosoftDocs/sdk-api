@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfActiveLanguageProfileNotifySink.OnActivated
 title: ITfActiveLanguageProfileNotifySink::OnActivated (msctf.h)
-description: ITfActiveLanguageProfileNotifySink::OnActivated method
+description: ITfActiveLanguageProfileNotifySink::OnActivated methodhelpviewer_keywords: ["ITfActiveLanguageProfileNotifySink interface [Text Services Framework]","OnActivated method","ITfActiveLanguageProfileNotifySink.OnActivated","ITfActiveLanguageProfileNotifySink::OnActivated","OnActivated","OnActivated method [Text Services Framework]","OnActivated method [Text Services Framework]","ITfActiveLanguageProfileNotifySink interface","_tsf_itfactivelanguageprofilenotifysink_onactivated_ref","msctf/ITfActiveLanguageProfileNotifySink::OnActivated","tsf.itfactivelanguageprofilenotifysink_onactivated"]
 old-location: tsf\itfactivelanguageprofilenotifysink_onactivated.htm
 tech.root: TSF
 ms.assetid: 89444189-254e-4a3c-9c8e-79c8b96aee34
@@ -45,37 +45,30 @@ ms.custom: 19H1
 
 # ITfActiveLanguageProfileNotifySink::OnActivated
 
-
 ## -description
 
-
-
+Called when the active language or text service changes.
 
 ## -parameters
 
-
-
+Called when the active language or text service changes.
 
 ### -param clsid [in]
 
-CLSID of the TSF text service activated or deactivated. This will be <b>NULL</b> for a language change.
-
+CLSID of the TSF text service activated or deactivated. This will be **NULL** for a language change.
 
 ### -param guidProfile [in]
 
 Profile GUID for the TSF text service. This is specified by the TSF text service when it is installed. This will be <b>NULL</b> for a language change.
 
-
 ### -param fActivated [in]
 
 TRUE if the TSF text service is activated or FALSE if the TSF text service is deactivated.
 
-
 ## -returns
 
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
+## -see-also
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+[ITfActiveLanguageProfileNotifySink interface](nn-msctf-itfactivelanguageprofilenotifysink.md)

@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification
 title: IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification (dxgi1_4.h)
-description: This method stops notifying a CPU synchronization object whenever a budget change occurs. An application may switch back to polling the information regularly.
+description: This method stops notifying a CPU synchronization object whenever a budget change occurs. An application may switch back to polling the information regularly.helpviewer_keywords: ["IDXGIAdapter3 interface [DXGI]","UnregisterVideoMemoryBudgetChangeNotification method","IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification","IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification","UnregisterVideoMemoryBudgetChangeNotification","UnregisterVideoMemoryBudgetChangeNotification method [DXGI]","UnregisterVideoMemoryBudgetChangeNotification method [DXGI]","IDXGIAdapter3 interface","direct3ddxgi.idxgiadapter3_unregistervideomemorybudgetchangenotification","dxgi1_4/IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification"]
 old-location: direct3ddxgi\idxgiadapter3_unregistervideomemorybudgetchangenotification.htm
 tech.root: direct3ddxgi
 ms.assetid: 11695B9E-75B5-44BF-BC09-D377BCEDA341
@@ -62,15 +62,6 @@ This method stops notifying a CPU synchronization object whenever a budget chang
 Type: <b>DWORD</b>
 
 A key value for the window or event to unregister. The  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-registerhardwarecontentprotectionteardownstatusevent">IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent</a> method returns this value. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

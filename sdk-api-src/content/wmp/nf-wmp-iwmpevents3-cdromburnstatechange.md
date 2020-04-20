@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromBurnStateChange
 title: IWMPEvents3::CdromBurnStateChange (wmp.h)
-description: The CdromBurnStateChange event occurs when a CD burning operation changes state.
+description: The CdromBurnStateChange event occurs when a CD burning operation changes state.helpviewer_keywords: ["CdromBurnStateChange","CdromBurnStateChange method [Windows Media Player]","CdromBurnStateChange method [Windows Media Player]","IWMPEvents3 interface","IWMPEvents3 interface [Windows Media Player]","CdromBurnStateChange method","IWMPEvents3.CdromBurnStateChange","IWMPEvents3::CdromBurnStateChange","IWMPEvents3CdromBurnStateChange","wmp.iwmpevents3_iwmpevents3__cdromburnstatechange","wmp/IWMPEvents3::CdromBurnStateChange"]
 old-location: wmp\iwmpevents3_iwmpevents3__cdromburnstatechange.htm
 tech.root: WMP
 ms.assetid: 8328f1bf-c928-4504-859f-f1b62e77e9e0
@@ -68,15 +68,6 @@ Pointer to the <b>IWMPCdromBurn</b> interface that represents the burning operat
 ### -param wmpbs [in]
 
 <b>WMPBurnState</b> enumeration value that indicates the new state.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

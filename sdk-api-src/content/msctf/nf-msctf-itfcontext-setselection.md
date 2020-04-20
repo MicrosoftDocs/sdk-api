@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.SetSelection
 title: ITfContext::SetSelection (msctf.h)
-description: ITfContext::SetSelection method
+description: ITfContext::SetSelection methodhelpviewer_keywords: ["ITfContext interface [Text Services Framework]","SetSelection method","ITfContext.SetSelection","ITfContext::SetSelection","SetSelection","SetSelection method [Text Services Framework]","SetSelection method [Text Services Framework]","ITfContext interface","_tsf_itfcontext_setselection_ref","msctf/ITfContext::SetSelection","tsf.itfcontext_setselection"]
 old-location: tsf\itfcontext_setselection.htm
 tech.root: TSF
 ms.assetid: 1cf50b5e-6ec2-4649-9acc-743a2e3d8096
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the selection within the document.
 
 ## -parameters
 
@@ -131,26 +130,6 @@ If an application must adjust the text covered by a selection, it should wait un
 
 The caller can set the <b>fInterimChar</b> flag only if one selection is set. In this case, the selection should span exactly one character and the <b>ase</b> member of the <b>TF_SELECTION</b> structure is set to TFAE_NONE.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_selection">TF_SELECTION
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [TF_SELECTION structure](ns-msctf-tf_selection.md), [ITfContext::GetSelection](nf-msctf-itfcontext-getselection.md)

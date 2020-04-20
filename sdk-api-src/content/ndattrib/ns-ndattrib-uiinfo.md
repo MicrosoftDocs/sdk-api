@@ -1,7 +1,7 @@
 ---
 UID: NS:ndattrib.tagUiInfo
 title: UiInfo (ndattrib.h)
-description: The UiInfo structure is used to display repair messages to the user.
+description: The UiInfo structure is used to display repair messages to the user.helpviewer_keywords: ["*PUiInfo","UiInfo","UiInfo structure [NDF]","UiInfo","*PUiInfo","UiInfo","*PUiInfo structure [NDF]","ndattrib/UiInfo","ndf.uiinfo"]
 old-location: ndf\uiinfo.htm
 tech.root: NDF
 ms.assetid: 62d3c908-8fc4-4bd9-94ac-94dfcf8db395

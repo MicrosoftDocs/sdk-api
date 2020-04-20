@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11SwitchToRef.GetUseRef
 title: ID3D11SwitchToRef::GetUseRef (d3d11sdklayers.h)
-description: ID3D11SwitchToRef::GetUseRef method
+description: ID3D11SwitchToRef::GetUseRef methodhelpviewer_keywords: ["GetUseRef","GetUseRef method [Direct3D 11]","GetUseRef method [Direct3D 11]","ID3D11SwitchToRef interface","ID3D11SwitchToRef interface [Direct3D 11]","GetUseRef method","ID3D11SwitchToRef.GetUseRef","ID3D11SwitchToRef::GetUseRef","d2a88f74-2129-d715-e015-72a288420026","d3d11sdklayers/ID3D11SwitchToRef::GetUseRef","direct3d11.id3d11switchtoref_getuseref"]
 old-location: direct3d11\id3d11switchtoref_getuseref.htm
 tech.root: direct3d11
 ms.assetid: 7dc2dc8a-eff6-49b6-a557-88a9d0e5acbf

@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SEC_WINNT_CREDUI_CONTEXT
 title: SEC_WINNT_CREDUI_CONTEXT (sspi.h)
-description: Specifies unserialized credential information.
+description: Specifies unserialized credential information.helpviewer_keywords: ["*PSEC_WINNT_CREDUI_CONTEXT","PSEC_WINNT_CREDUI_CONTEXT","PSEC_WINNT_CREDUI_CONTEXT structure pointer [Security]","SEC_WINNT_CREDUI_CONTEXT","SEC_WINNT_CREDUI_CONTEXT structure [Security]","security.sec_winnt_credui_context","sspi/PSEC_WINNT_CREDUI_CONTEXT","sspi/SEC_WINNT_CREDUI_CONTEXT"]
 old-location: security\sec_winnt_credui_context.htm
 tech.root: SecAuthN
 ms.assetid: ac9410eb-ec1b-494c-8e8b-6d161ff2b41c

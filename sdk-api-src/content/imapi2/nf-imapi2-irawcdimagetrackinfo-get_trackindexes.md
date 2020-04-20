@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_TrackIndexes
 title: IRawCDImageTrackInfo::get_TrackIndexes (imapi2.h)
-description: Retrieves the one-based index of the tracks on the disc.
+description: Retrieves the one-based index of the tracks on the disc.helpviewer_keywords: ["IRawCDImageTrackInfo interface [IMAPI]","get_TrackIndexes method","IRawCDImageTrackInfo.get_TrackIndexes","IRawCDImageTrackInfo::get_TrackIndexes","get_TrackIndexes","get_TrackIndexes method [IMAPI]","get_TrackIndexes method [IMAPI]","IRawCDImageTrackInfo interface","imapi.irawcdimagetrackinfo_get_trackindexes","imapi2/IRawCDImageTrackInfo::get_TrackIndexes"]
 old-location: imapi\irawcdimagetrackinfo_get_trackindexes.htm
 tech.root: imapi
 ms.assetid: a83766f7-8d02-47df-9691-26d6f2cd0d5b

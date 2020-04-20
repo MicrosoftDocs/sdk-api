@@ -1,7 +1,7 @@
 ---
 UID: NS:clfs._CLS_ARCHIVE_DESCRIPTOR
 title: CLS_ARCHIVE_DESCRIPTOR (clfs.h)
-description: Used by the GetNextLogArchiveExtent function to return information about log archive extents.
+description: Used by the GetNextLogArchiveExtent function to return information about log archive extents.helpviewer_keywords: ["*PCLFS_ARCHIVE_DESCRIPTOR","*PCLS_ARCHIVE_DESCRIPTOR","CLFS_ARCHIVE_DESCRIPTOR","CLFS_ARCHIVE_DESCRIPTOR structure [Files]","CLS_ARCHIVE_DESCRIPTOR","PCLFS_ARCHIVE_DESCRIPTOR","PCLFS_ARCHIVE_DESCRIPTOR structure pointer [Files]","PPCLFS_ARCHIVE_DESCRIPTOR","PPCLFS_ARCHIVE_DESCRIPTOR structure pointer [Files]","PPCLS_ARCHIVE_DESCRIPTOR","clfs/CLFS_ARCHIVE_DESCRIPTOR","clfs/PCLFS_ARCHIVE_DESCRIPTOR","clfs/PPCLFS_ARCHIVE_DESCRIPTOR","fs.clfs_archive_descriptor"]
 old-location: fs\clfs_archive_descriptor.htm
 tech.root: Clfs
 ms.assetid: a2d50d1d-f4cb-48de-be73-4858adfa951f

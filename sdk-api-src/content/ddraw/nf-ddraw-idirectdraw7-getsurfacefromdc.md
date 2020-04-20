@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetSurfaceFromDC
 title: IDirectDraw7::GetSurfaceFromDC (ddraw.h)
-description: Retrieves the IDirectDrawSurface7 interface for a surface, based on its GDI device context handle.
+description: Retrieves the IDirectDrawSurface7 interface for a surface, based on its GDI device context handle.helpviewer_keywords: ["GetSurfaceFromDC","GetSurfaceFromDC method [DirectDraw]","GetSurfaceFromDC method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","GetSurfaceFromDC method","IDirectDraw7.GetSurfaceFromDC","IDirectDraw7::GetSurfaceFromDC","ddraw/IDirectDraw7::GetSurfaceFromDC","directdraw.idirectdraw7_getsurfacefromdc"]
 old-location: directdraw\idirectdraw7_getsurfacefromdc.htm
 tech.root: directdraw
 ms.assetid: d1d96045-a19b-46b0-8b71-5d0bea6889c3

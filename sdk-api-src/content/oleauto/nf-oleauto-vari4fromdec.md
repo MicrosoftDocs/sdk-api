@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI4FromDec
 title: VarI4FromDec function (oleauto.h)
-description: Converts a decimal value to a long value.
+description: Converts a decimal value to a long value.helpviewer_keywords: ["VarI4FromDec","VarI4FromDec function [Automation]","_oa96_VarI4FromDec","automat.vari4fromdec","oleauto/VarI4FromDec"]
 old-location: automat\vari4fromdec.htm
 tech.root: automat
 ms.assetid: 23a02b3d-e2cf-4723-8d21-b7c44723efe5

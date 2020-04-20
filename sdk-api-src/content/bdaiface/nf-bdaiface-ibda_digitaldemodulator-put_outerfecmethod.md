@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_OuterFECMethod
 title: IBDA_DigitalDemodulator::put_OuterFECMethod (bdaiface.h)
-description: The put_OuterFECMethod method specifies the outer forward error correction method for the signal.
+description: The put_OuterFECMethod method specifies the outer forward error correction method for the signal.helpviewer_keywords: ["IBDA_DigitalDemodulator interface [Microsoft TV Technologies]","put_OuterFECMethod method","IBDA_DigitalDemodulator.put_OuterFECMethod","IBDA_DigitalDemodulator::put_OuterFECMethod","IBDA_DigitalDemodulatorput_OuterFECMethod","bdaiface/IBDA_DigitalDemodulator::put_OuterFECMethod","mstv.ibda_digitaldemodulator_put_outerfecmethod","put_OuterFECMethod","put_OuterFECMethod method [Microsoft TV Technologies]","put_OuterFECMethod method [Microsoft TV Technologies]","IBDA_DigitalDemodulator interface"]
 old-location: mstv\ibda_digitaldemodulator_put_outerfecmethod.htm
 tech.root: mstv
 ms.assetid: 8ec9c75b-5f71-4a07-8234-8f38b96b962d

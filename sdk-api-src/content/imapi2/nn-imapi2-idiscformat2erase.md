@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.IDiscFormat2Erase
 title: IDiscFormat2Erase (imapi2.h)
-description: Use this interface to erase data from a disc.
+description: Use this interface to erase data from a disc.helpviewer_keywords: ["IDiscFormat2Erase","IDiscFormat2Erase interface [IMAPI]","IDiscFormat2Erase interface [IMAPI]","described","imapi.idiscformat2erase","imapi2/IDiscFormat2Erase"]
 old-location: imapi\idiscformat2erase.htm
 tech.root: imapi
 ms.assetid: 3789c876-f42c-4f69-b683-96c157d6418d

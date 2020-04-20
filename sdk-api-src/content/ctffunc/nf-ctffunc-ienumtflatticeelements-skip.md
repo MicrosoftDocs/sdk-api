@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.IEnumTfLatticeElements.Skip
 title: IEnumTfLatticeElements::Skip (ctffunc.h)
-description: IEnumTfLatticeElements::Skip method
+description: IEnumTfLatticeElements::Skip methodhelpviewer_keywords: ["IEnumTfLatticeElements interface [Text Services Framework]","Skip method","IEnumTfLatticeElements.Skip","IEnumTfLatticeElements::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfLatticeElements interface","_tsf_ienumtflatticeelements_skip_ref","ctffunc/IEnumTfLatticeElements::Skip","tsf.ienumtflatticeelements_skip"]
 old-location: tsf\ienumtflatticeelements_skip.htm
 tech.root: TSF
 ms.assetid: 53dbe7f0-cc1f-4ba4-9ed5-7b328c707902
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Moves the current position forward in the enumeration sequence by the specified number of elements.
 
 ## -parameters
 

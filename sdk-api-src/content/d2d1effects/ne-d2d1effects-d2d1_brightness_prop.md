@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects.D2D1_BRIGHTNESS_PROP
 title: D2D1_BRIGHTNESS_PROP (d2d1effects.h)
-description: Identifiers for the properties of the Brightness effect.
+description: Identifiers for the properties of the Brightness effect.helpviewer_keywords: ["D2D1_BRIGHTNESS_PROP","D2D1_BRIGHTNESS_PROP enumeration [Direct2D]","D2D1_BRIGHTNESS_PROP_BLACK_POINT","D2D1_BRIGHTNESS_PROP_WHITE_POINT","d2d1effects/D2D1_BRIGHTNESS_PROP","d2d1effects/D2D1_BRIGHTNESS_PROP_BLACK_POINT","d2d1effects/D2D1_BRIGHTNESS_PROP_WHITE_POINT","direct2d.d2d1_brightness_prop"]
 old-location: direct2d\d2d1_brightness_prop.htm
 tech.root: Direct2D
 ms.assetid: 7D3CEF7A-AF72-451B-8E6A-A9DF8E85EDE9

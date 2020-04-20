@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IQueryParserManager.SetOption
 title: IQueryParserManager::SetOption (structuredquery.h)
-description: Changes a single option in this IQueryParserManager object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.
+description: Changes a single option in this IQueryParserManager object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.helpviewer_keywords: ["IQueryParserManager interface [search]","SetOption method","IQueryParserManager.SetOption","IQueryParserManager::SetOption","SetOption","SetOption method [search]","SetOption method [search]","IQueryParserManager interface","_search_IQueryParserManager_SetOption","search._search_IQueryParserManager_SetOption","structuredquery/IQueryParserManager::SetOption"]
 old-location: search\_search_IQueryParserManager_SetOption.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\setoption.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IGraphConfig.GetFilterFlags
 title: IGraphConfig::GetFilterFlags (strmif.h)
-description: The GetFilterFlags method retrieves a filter's configuration information.
+description: The GetFilterFlags method retrieves a filter's configuration information.helpviewer_keywords: ["GetFilterFlags","GetFilterFlags method [DirectShow]","GetFilterFlags method [DirectShow]","IGraphConfig interface","IGraphConfig interface [DirectShow]","GetFilterFlags method","IGraphConfig.GetFilterFlags","IGraphConfig::GetFilterFlags","IGraphConfigGetFilterFlags","dshow.igraphconfig_getfilterflags","strmif/IGraphConfig::GetFilterFlags"]
 old-location: dshow\igraphconfig_getfilterflags.htm
 tech.root: DirectShow
 ms.assetid: 747c3865-1969-45e8-a2c9-dbd72a9ea463

@@ -1,7 +1,7 @@
 ---
 UID: NF:qos2.QOSQueryFlow
 title: QOSQueryFlow function (qos2.h)
-description: Requests information about a specific flow.
+description: Requests information about a specific flow.helpviewer_keywords: ["QOSQueryFlow","QOSQueryFlow function [QOS]","QOSQueryFlowFundamentals","QOSQueryOutgoingRate","QOSQueryPacketPriority","QOS_QUERYFLOW_FRESH","qos.qosqueryflow","qos2/QOSQueryFlow"]
 old-location: qos\qosqueryflow.htm
 tech.root: QOS
 ms.assetid: 8cae3ba2-beca-45e2-9526-2d917abc2606

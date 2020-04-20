@@ -1,7 +1,7 @@
 ---
 UID: NS:resapi._CLUSTER_HEALTH_FAULT_ARRAY
 title: CLUSTER_HEALTH_FAULT_ARRAY (resapi.h)
-description: TBD.
+description: TBD.helpviewer_keywords: ["*PCLUSTER_HEALTH_FAULT_ARRAY","CLUSTER_HEALTH_FAULT_ARRAY","CLUSTER_HEALTH_FAULT_ARRAY structure [Failover Cluster]","PCLUSTER_HEALTH_FAULT_ARRAY","PCLUSTER_HEALTH_FAULT_ARRAY structure pointer [Failover Cluster]","mscs.cluster_health_fault_array","resapi/CLUSTER_HEALTH_FAULT_ARRAY","resapi/PCLUSTER_HEALTH_FAULT_ARRAY"]
 old-location: mscs\cluster_health_fault_array.htm
 tech.root: MsCS
 ms.assetid: 7d741fca-3ded-4f24-81e0-e2c4e230ead2

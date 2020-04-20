@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IStringable.ToString
 title: IStringable::IStringable (windows.foundation.h)
-description: Gets a string that represents the current object.
+description: Gets a string that represents the current object.helpviewer_keywords: ["IStringable interface [Windows Runtime]","ToString method","IStringable.IStringable","IStringable.ToString","IStringable::IStringable","IStringable::ToString","ToString","ToString method [Windows Runtime]","ToString method [Windows Runtime]","IStringable interface","windows/IStringable::ToString","winrt.istringable_tostring"]
 old-location: winrt\istringable_tostring.htm
 tech.root: WinRT
 ms.assetid: A102D2DB-A1DF-489A-A025-99C5B9AAB893

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMStoreSInt3
 title: XMStoreSInt3 function (directxmath.h)
-description: Stores signed integer data from an XMVECTOR in an XMINT3 structure.
+description: Stores signed integer data from an XMVECTOR in an XMINT3 structure.helpviewer_keywords: ["Use DirectX..XMStoreSInt3","XMStoreSInt3","XMStoreSInt3 method [DirectX Math Support APIs]","dxmath.xmstoresint3"]
 old-location: dxmath\xmstoresint3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreSInt3(XMINT3@,XMVECTOR)

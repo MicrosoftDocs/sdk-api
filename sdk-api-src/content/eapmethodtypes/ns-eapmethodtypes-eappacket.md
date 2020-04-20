@@ -1,7 +1,7 @@
 ---
 UID: NS:eapmethodtypes.tagEapPacket
 title: EapPacket (eapmethodtypes.h)
-description: Contains a packet of opaque data sent during an EAP authentication session.
+description: Contains a packet of opaque data sent during an EAP authentication session.helpviewer_keywords: ["EapPacket","EapPacket structure [EAPHost]","eaphost.eappacket","eapmethodtypes/EapPacket"]
 old-location: eaphost\eappacket.htm
 tech.root: eaphost
 ms.assetid: a5d78db0-990f-4318-8f1a-4e903221845f

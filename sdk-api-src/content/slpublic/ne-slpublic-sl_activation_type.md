@@ -1,7 +1,7 @@
 ---
 UID: NE:slpublic._tagSL_ACTIVATION_TYPE
 title: SL_ACTIVATION_TYPE (slpublic.h)
-description: Represents the type of offline activation for a license.
+description: Represents the type of offline activation for a license.helpviewer_keywords: ["SL_ACTIVATION_TYPE","SL_ACTIVATION_TYPE enumeration [Security]","SL_ACTIVATION_TYPE_ACTIVE_DIRECTORY","SL_ACTIVATION_TYPE_DEFAULT","security.sl_activation_type","slpublic/SL_ACTIVATION_TYPE","slpublic/SL_ACTIVATION_TYPE_ACTIVE_DIRECTORY","slpublic/SL_ACTIVATION_TYPE_DEFAULT"]
 old-location: security\sl_activation_type.htm
 tech.root: SecSLApi
 ms.assetid: e16a4e43-f7ef-43a3-a268-5f644340274c

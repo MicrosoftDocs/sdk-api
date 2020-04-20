@@ -1,7 +1,7 @@
 ---
 UID: NS:winddi._BRUSHOBJ
 title: BRUSHOBJ (winddi.h)
-description: The BRUSHOBJ structure contains three public members that describe a brush object.
+description: The BRUSHOBJ structure contains three public members that describe a brush object.helpviewer_keywords: ["BRUSHOBJ","BRUSHOBJ structure [Display Devices]","display.brushobj","grstrcts_eb8de3ab-7f42-4f7b-b4bd-7c3c739e52ed.xml","winddi/BRUSHOBJ"]
 old-location: display\brushobj.htm
 tech.root: display
 ms.assetid: 81216bee-d13f-4880-a839-337a247a6c82

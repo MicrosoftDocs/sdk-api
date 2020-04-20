@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.TrackRemoved
 title: IMFTimedTextNotify::TrackRemoved (mfmediaengine.h)
-description: Called when a text track is removed.
+description: Called when a text track is removed.helpviewer_keywords: ["IMFTimedTextNotify interface [Media Foundation]","TrackRemoved method","IMFTimedTextNotify.TrackRemoved","IMFTimedTextNotify::TrackRemoved","TrackRemoved","TrackRemoved method [Media Foundation]","TrackRemoved method [Media Foundation]","IMFTimedTextNotify interface","mf.imftimedtextnotify_trackremoved","mfmediaengine/IMFTimedTextNotify::TrackRemoved"]
 old-location: mf\imftimedtextnotify_trackremoved.htm
 tech.root: medfound
 ms.assetid: 6C88C832-5C18-4196-B142-4E398D498A36
@@ -62,15 +62,6 @@ Called when a text track is removed.
 Type: <b>DWORD</b>
 
 The identifier of the track that was removed.
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

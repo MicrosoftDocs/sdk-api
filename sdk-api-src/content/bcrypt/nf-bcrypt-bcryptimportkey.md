@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptImportKey
 title: BCryptImportKey function (bcrypt.h)
-description: Imports a symmetric key from a key BLOB.
+description: Imports a symmetric key from a key BLOB.helpviewer_keywords: ["BCRYPT_AES_WRAP_KEY_BLOB","BCRYPT_KEY_DATA_BLOB","BCRYPT_OPAQUE_KEY_BLOB","BCryptImportKey","BCryptImportKey function [Security]","bcrypt/BCryptImportKey","security.bcryptimportkey_func"]
 old-location: security\bcryptimportkey_func.htm
 tech.root: SecCNG
 ms.assetid: 6b9683f4-10f2-40e4-9757-a1f01991bef7

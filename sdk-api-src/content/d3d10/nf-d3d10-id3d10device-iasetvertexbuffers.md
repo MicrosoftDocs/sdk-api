@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.IASetVertexBuffers
 title: ID3D10Device::IASetVertexBuffers (d3d10.h)
-description: Bind an array of vertex buffers to the input-assembler stage.
+description: Bind an array of vertex buffers to the input-assembler stage.helpviewer_keywords: ["IASetVertexBuffers","IASetVertexBuffers method [Direct3D 10]","IASetVertexBuffers method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","IASetVertexBuffers method","ID3D10Device.IASetVertexBuffers","ID3D10Device::IASetVertexBuffers","d3d10/ID3D10Device::IASetVertexBuffers","db68f354-a2bd-412e-0600-c324eb254808","direct3d10.id3d10device_iasetvertexbuffers"]
 old-location: direct3d10\id3d10device_iasetvertexbuffers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iasetvertexbuffers.htm
@@ -91,15 +91,6 @@ Pointer to an array of stride values; one stride value for each buffer in the ve
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Pointer to an array of offset values; one offset value for each buffer in the vertex-buffer array. Each offset is the number of bytes between the first element of a vertex buffer and the first element that will be used.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

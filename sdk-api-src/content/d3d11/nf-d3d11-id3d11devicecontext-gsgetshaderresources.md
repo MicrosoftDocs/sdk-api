@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GSGetShaderResources
 title: ID3D11DeviceContext::GSGetShaderResources (d3d11.h)
-description: Get the geometry shader resources.
+description: Get the geometry shader resources.helpviewer_keywords: ["GSGetShaderResources","GSGetShaderResources method [Direct3D 11]","GSGetShaderResources method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GSGetShaderResources method","ID3D11DeviceContext.GSGetShaderResources","ID3D11DeviceContext::GSGetShaderResources","c6b8b8fc-6738-6d1a-fb77-fce217b9c9a0","d3d11/ID3D11DeviceContext::GSGetShaderResources","direct3d11.id3d11devicecontext_gsgetshaderresources"]
 old-location: direct3d11\id3d11devicecontext_gsgetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: 2b81a09d-678d-42f8-8935-6d167509fcbb
@@ -77,15 +77,6 @@ The number of resources to get from the device. Up to a maximum of 128 slots are
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a>**</b>
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">shader resource view</a> interfaces to be returned by the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

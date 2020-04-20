@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IAMovieSetup
 title: IAMovieSetup (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated.helpviewer_keywords: ["IAMovieSetup","IAMovieSetup interface [DirectShow]","IAMovieSetup interface [DirectShow]","described","IAMovieSetupInterface","dshow.iamoviesetup","strmif/IAMovieSetup"]
 old-location: dshow\iamoviesetup.htm
 tech.root: DirectShow
 ms.assetid: b200dbee-bab7-43d7-a204-751592fa2405

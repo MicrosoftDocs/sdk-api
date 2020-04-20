@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IExplorerCommandState
 title: IExplorerCommandState (shobjidl_core.h)
-description: Exposes a single method that allows retrieval of the command state.
+description: Exposes a single method that allows retrieval of the command state.helpviewer_keywords: ["IExplorerCommandState","IExplorerCommandState interface [Windows Shell]","IExplorerCommandState interface [Windows Shell]","described","_shell_IExplorerCommandState","shell.IExplorerCommandState","shobjidl_core/IExplorerCommandState"]
 old-location: shell\IExplorerCommandState.htm
 tech.root: shell
 ms.assetid: 020a6f6f-1d45-44bd-a57f-ef8000976b5b

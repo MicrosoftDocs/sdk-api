@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.SetViewInstanceMask
 title: ID3D12GraphicsCommandList1::SetViewInstanceMask (d3d12.h)
-description: Set a mask that controls which view instances are enabled for subsequent draws.
+description: Set a mask that controls which view instances are enabled for subsequent draws.helpviewer_keywords: ["ID3D12GraphicsCommandList1 interface","SetViewInstanceMask method","ID3D12GraphicsCommandList1.SetViewInstanceMask","ID3D12GraphicsCommandList1::SetViewInstanceMask","SetViewInstanceMask","SetViewInstanceMask method","SetViewInstanceMask method","ID3D12GraphicsCommandList1 interface","d3d12/ID3D12GraphicsCommandList1::SetViewInstanceMask","direct3d12.id3d12graphicscommandlist1_setviewinstancemask_uint"]
 old-location: direct3d12\id3d12graphicscommandlist1_setviewinstancemask_uint.htm
 tech.root: direct3d12
 ms.assetid: 0AE16797-6F9E-4387-A810-EF59DDC771E6
@@ -62,15 +62,6 @@ Set a mask that controls which view instances are enabled for subsequent draws.
 Type: <b>UINT</b>
 
 A mask that specifies which views are enabled or disabled. If bit <i>i</i> starting from the least-significant bit is set, view instance <i>i</i> is enabled.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

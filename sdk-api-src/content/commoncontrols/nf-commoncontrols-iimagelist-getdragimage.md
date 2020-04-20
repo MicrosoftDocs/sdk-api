@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.GetDragImage
 title: IImageList::GetDragImage (commoncontrols.h)
-description: Gets the temporary image list that is used for the drag image. The function also retrieves the current drag position and the offset of the drag image relative to the drag position.
+description: Gets the temporary image list that is used for the drag image. The function also retrieves the current drag position and the offset of the drag image relative to the drag position.helpviewer_keywords: ["GetDragImage","GetDragImage method [Windows Controls]","GetDragImage method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","GetDragImage method","IImageList.GetDragImage","IImageList::GetDragImage","comctl_IImageList_GetDragImage","comctl_IImageList_GetDragImage_cpp","commoncontrols/IImageList::GetDragImage","controls.IImageList_GetDragImage","controls.comctl_IImageList_GetDragImage"]
 old-location: controls\IImageList_GetDragImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getdragimage.htm

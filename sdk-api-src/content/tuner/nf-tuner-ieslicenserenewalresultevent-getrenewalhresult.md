@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetRenewalHResult
 title: IESLicenseRenewalResultEvent::GetRenewalHResult (tuner.h)
-description: Gets the final HRESULT value from a LicenseRenewalResult event that is returned by a call to a COM interface method during the renewal process.
+description: Gets the final HRESULT value from a LicenseRenewalResult event that is returned by a call to a COM interface method during the renewal process.helpviewer_keywords: ["GetRenewalHResult","GetRenewalHResult method [DirectShow]","GetRenewalHResult method [DirectShow]","IESLicenseRenewalResultEvent interface","IESLicenseRenewalResultEvent interface [DirectShow]","GetRenewalHResult method","IESLicenseRenewalResultEvent.GetRenewalHResult","IESLicenseRenewalResultEvent::GetRenewalHResult","mstv.ieslicenserenewalresultevent_getrenewalhresult","tuner/IESLicenseRenewalResultEvent::GetRenewalHResult"]
 old-location: mstv\ieslicenserenewalresultevent_getrenewalhresult.htm
 tech.root: mstv
 ms.assetid: ed823c23-ae7d-4e2d-8546-92f04bd3b212

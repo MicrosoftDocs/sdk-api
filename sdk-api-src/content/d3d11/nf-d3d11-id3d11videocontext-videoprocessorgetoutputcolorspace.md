@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputColorSpace
 title: ID3D11VideoContext::VideoProcessorGetOutputColorSpace (d3d11.h)
-description: Gets the current output color space for the video processor.
+description: Gets the current output color space for the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetOutputColorSpace method","ID3D11VideoContext.VideoProcessorGetOutputColorSpace","ID3D11VideoContext::VideoProcessorGetOutputColorSpace","VideoProcessorGetOutputColorSpace","VideoProcessorGetOutputColorSpace method [Media Foundation]","VideoProcessorGetOutputColorSpace method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetOutputColorSpace","mf.id3d11videocontext_videoprocessorgetoutputcolorspace"]
 old-location: mf\id3d11videocontext_videoprocessorgetoutputcolorspace.htm
 tech.root: medfound
 ms.assetid: 26D9C908-D8A6-44F9-895F-48C52F4C8B59
@@ -65,15 +65,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/n
 ### -param pColorSpace [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_color_space">D3D11_VIDEO_PROCESSOR_COLOR_SPACE</a> structure. The method fills in the structure with the output color space.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

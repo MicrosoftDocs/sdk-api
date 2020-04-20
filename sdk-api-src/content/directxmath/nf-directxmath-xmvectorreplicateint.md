@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorReplicateInt
 title: XMVectorReplicateInt function (directxmath.h)
-description: Replicates an integer value into all four components of a vector.
+description: Replicates an integer value into all four components of a vector.helpviewer_keywords: ["Use DirectX..XMVectorReplicateInt","XMVectorReplicateInt","XMVectorReplicateInt method [DirectX Math Support APIs]","dxmath.xmvectorreplicateint"]
 old-location: dxmath\xmvectorreplicateint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorReplicateInt(uint32_t)

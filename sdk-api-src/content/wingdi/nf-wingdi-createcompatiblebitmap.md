@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.CreateCompatibleBitmap
 title: CreateCompatibleBitmap function (wingdi.h)
-description: The CreateCompatibleBitmap function creates a bitmap compatible with the device that is associated with the specified device context.
+description: The CreateCompatibleBitmap function creates a bitmap compatible with the device that is associated with the specified device context.helpviewer_keywords: ["CreateCompatibleBitmap","CreateCompatibleBitmap function [Windows GDI]","_win32_CreateCompatibleBitmap","gdi.createcompatiblebitmap","wingdi/CreateCompatibleBitmap"]
 old-location: gdi\createcompatiblebitmap.htm
 tech.root: gdi
 ms.assetid: d2866beb-ff7a-4390-8651-e7bf458ddf88

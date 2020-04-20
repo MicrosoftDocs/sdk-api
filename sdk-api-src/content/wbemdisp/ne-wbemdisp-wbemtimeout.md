@@ -1,7 +1,7 @@
 ---
 UID: NE:wbemdisp.WbemTimeout
 title: WbemTimeout (wbemdisp.h)
-description: Defines the time-out constants. This constant is used by SWbemEventSource.NextEvent.
+description: Defines the time-out constants. This constant is used by SWbemEventSource.NextEvent.helpviewer_keywords: ["WbemTimeout","WbemTimeout enumeration [Windows Management Instrumentation]","_hmm_wbemtimeout","wbemTimeoutInfinite","wbemdisp/WbemTimeout","wbemdisp/wbemTimeoutInfinite","wmi.wbemtimeout"]
 old-location: wmi\wbemtimeout.htm
 tech.root: WmiSdk
 ms.assetid: 1dfe8412-0b6a-40be-94b7-c993851a9205

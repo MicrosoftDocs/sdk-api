@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMSitesContainer.GetSite
 title: IGPMSitesContainer::GetSite (gpmgmt.h)
-description: Returns the scope of management (SOM) object that corresponds to the site.
+description: Returns the scope of management (SOM) object that corresponds to the site.helpviewer_keywords: ["GPMSitesContainer class [GPMC]","GetSite method","GetSite","GetSite method [GPMC]","GetSite method [GPMC]","GPMSitesContainer class","GetSite method [GPMC]","IGPMSitesContainer interface","IGPMSitesContainer interface [GPMC]","GetSite method","IGPMSitesContainer.GetSite","IGPMSitesContainer::GetSite","_win32_igpmsitescontainer_getsite","gpmc.igpmsitescontainer_getsite","gpmgmt/IGPMSitesContainer::GetSite"]
 old-location: gpmc\igpmsitescontainer_getsite.htm
 tech.root: gpmc
 ms.assetid: f8b459d0-d0f5-48b1-8870-487a1645ae7a

@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IkeextSaCreateEnumHandle0
 title: IkeextSaCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) security association (SA) objects.
+description: Creates a handle used to enumerate a set of Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) security association (SA) objects.helpviewer_keywords: ["IkeextSaCreateEnumHandle0","IkeextSaCreateEnumHandle0 function [Filtering]","fwp.ikeextsacreateenumhandle0","fwpmu/IkeextSaCreateEnumHandle0"]
 old-location: fwp\ikeextsacreateenumhandle0.htm
 tech.root: fwp
 ms.assetid: c72ec488-0721-406e-8ca0-6a34873e2683

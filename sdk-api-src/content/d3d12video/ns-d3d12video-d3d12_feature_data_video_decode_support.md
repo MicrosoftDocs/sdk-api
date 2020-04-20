@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT
 title: D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT
-description: Retrieves support information for video decoding.
+description: Retrieves support information for video decoding.helpviewer_keywords: ["D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT","D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT",""]
 tech.root: mf
 ms.assetid: 2a7019a1-e3a8-49ca-b094-12e1f45b43e3
 ms.date: 05/28/2019

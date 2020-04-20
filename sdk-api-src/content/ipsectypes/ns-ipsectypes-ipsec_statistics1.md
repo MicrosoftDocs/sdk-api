@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_STATISTICS1_
 title: IPSEC_STATISTICS1 (ipsectypes.h)
-description: Is the top-level of the IPsec statistics structures.
+description: Is the top-level of the IPsec statistics structures.helpviewer_keywords: ["IPSEC_STATISTICS1","IPSEC_STATISTICS1 structure [Filtering]","fwp.ipsec_statistics1_struct","ipsectypes/IPSEC_STATISTICS1"]
 old-location: fwp\ipsec_statistics1_struct.htm
 tech.root: fwp
 ms.assetid: d61d8eb5-1b0b-419e-a248-58541db8906b

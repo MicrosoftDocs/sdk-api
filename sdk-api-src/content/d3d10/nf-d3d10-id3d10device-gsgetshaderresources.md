@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSGetShaderResources
 title: ID3D10Device::GSGetShaderResources (d3d10.h)
-description: Get the geometry shader resources.
+description: Get the geometry shader resources.helpviewer_keywords: ["1f730e36-30d4-870c-a3ab-3a6e91123778","GSGetShaderResources","GSGetShaderResources method [Direct3D 10]","GSGetShaderResources method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GSGetShaderResources method","ID3D10Device.GSGetShaderResources","ID3D10Device::GSGetShaderResources","d3d10/ID3D10Device::GSGetShaderResources","direct3d10.id3d10device_gsgetshaderresources"]
 old-location: direct3d10\id3d10device_gsgetshaderresources.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gsgetshaderresources.htm
@@ -77,15 +77,6 @@ The number of resources to get from the device. Up to a maximum of 128 slots are
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview">ID3D10ShaderResourceView</a>**</b>
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview">shader resource view</a> interfaces to be returned by the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

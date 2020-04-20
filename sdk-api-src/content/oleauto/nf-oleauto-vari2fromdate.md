@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI2FromDate
 title: VarI2FromDate function (oleauto.h)
-description: Converts a date value to a short value.
+description: Converts a date value to a short value.helpviewer_keywords: ["VarI2FromDate","VarI2FromDate function [Automation]","_oa96_VarI2FromDate","automat.vari2fromdate","oleauto/VarI2FromDate"]
 old-location: automat\vari2fromdate.htm
 tech.root: automat
 ms.assetid: e4b86c29-5fc5-45dd-9ed1-7aa2bf8946dc

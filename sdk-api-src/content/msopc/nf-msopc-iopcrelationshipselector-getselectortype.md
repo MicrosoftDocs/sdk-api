@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelector.GetSelectorType
 title: IOpcRelationshipSelector::GetSelectorType (msopc.h)
-description: Gets a value that describes how relationships are selected to be referenced for signing.
+description: Gets a value that describes how relationships are selected to be referenced for signing.helpviewer_keywords: ["GetSelectorType","GetSelectorType method [Open Packaging Conventions]","GetSelectorType method [Open Packaging Conventions]","IOpcRelationshipSelector interface","IOpcRelationshipSelector interface [Open Packaging Conventions]","GetSelectorType method","IOpcRelationshipSelector.GetSelectorType","IOpcRelationshipSelector::GetSelectorType","msopc/IOpcRelationshipSelector::GetSelectorType","opc.iopcrelationshipselector_getselectortype"]
 old-location: opc\iopcrelationshipselector_getselectortype.htm
 tech.root: OPC
 ms.assetid: 583f56e5-c374-4f79-badd-35eb5eecef70

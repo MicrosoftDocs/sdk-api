@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.UnregisterGUIDDescription
 title: ITfCategoryMgr::UnregisterGUIDDescription (msctf.h)
-description: ITfCategoryMgr::UnregisterGUIDDescription method
+description: ITfCategoryMgr::UnregisterGUIDDescription methodhelpviewer_keywords: ["ITfCategoryMgr interface [Text Services Framework]","UnregisterGUIDDescription method","ITfCategoryMgr.UnregisterGUIDDescription","ITfCategoryMgr::UnregisterGUIDDescription","UnregisterGUIDDescription","UnregisterGUIDDescription method [Text Services Framework]","UnregisterGUIDDescription method [Text Services Framework]","ITfCategoryMgr interface","_tsf_itfcategorymgr_unregisterguiddescription_ref","msctf/ITfCategoryMgr::UnregisterGUIDDescription","tsf.itfcategorymgr_unregisterguiddescription"]
 old-location: tsf\itfcategorymgr_unregisterguiddescription.htm
 tech.root: TSF
 ms.assetid: 42bc1ddc-9f11-40dc-849c-2effc6efe1c8
@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfCategoryMgr::UnregisterGUIDDescription
 
-
 ## -description
 
-
-
+Removes the description for a GUID from the Windows registry.
 
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 Contains the CLSID of the text service that owns the GUID.
 
-
 ### -param rguid [in]
 
 Contains the GUID that the description is removed for.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -100,29 +91,7 @@ The GUID cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguiddescription">ITfCategoryMgr::GetGUIDDescription
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguiddescription">ITfCategoryMgr::RegisterGUIDDescription
-      </a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::GetGUIDDescription](nf-msctf-itfcategorymgr-getguiddescription.md), [ITfCategoryMgr::RegisterGUIDDescription](nf-msctf-itfcategorymgr-registerguiddescription.md)

@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IAudioOutputSelector.SetSelection
 title: IAudioOutputSelector::SetSelection (devicetopology.h)
-description: The SetSelection method selects one of the outputs of the output selector.
+description: The SetSelection method selects one of the outputs of the output selector.helpviewer_keywords: ["IAudioOutputSelector interface [Core Audio]","SetSelection method","IAudioOutputSelector.SetSelection","IAudioOutputSelector::SetSelection","IAudioOutputSelectorSetSelection","SetSelection","SetSelection method [Core Audio]","SetSelection method [Core Audio]","IAudioOutputSelector interface","coreaudio.iaudiooutputselector_setselection","devicetopology/IAudioOutputSelector::SetSelection"]
 old-location: coreaudio\iaudiooutputselector_setselection.htm
 tech.root: CoreAudio
 ms.assetid: e81d54f4-1451-4bd0-be06-28ff01fb65ab

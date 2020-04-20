@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceDeviceGetInfo
 title: MprAdminInterfaceDeviceGetInfo function (mprapi.h)
-description: The MprAdminInterfaceDeviceGetInfo retrieves information about a device that is used in a router demand-dial interface.
+description: The MprAdminInterfaceDeviceGetInfo retrieves information about a device that is used in a router demand-dial interface.helpviewer_keywords: ["MprAdminInterfaceDeviceGetInfo","MprAdminInterfaceDeviceGetInfo function [RAS]","_mpr_mpradmininterfacedevicegetinfo","mprapi/MprAdminInterfaceDeviceGetInfo","rras.mpradmininterfacedevicegetinfo"]
 old-location: rras\mpradmininterfacedevicegetinfo.htm
 tech.root: RRAS
 ms.assetid: edff88dd-80ae-4704-b320-925006346dda

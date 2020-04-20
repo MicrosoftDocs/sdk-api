@@ -1,7 +1,7 @@
 ---
 UID: NN:wsbapp.IWsbApplicationAsync
 title: IWsbApplicationAsync (wsbapp.h)
-description: Defines methods to monitor and control the progress of an asynchronous operation.
+description: Defines methods to monitor and control the progress of an asynchronous operation.helpviewer_keywords: ["IWsbApplicationAsync","IWsbApplicationAsync interface [Windows Server Backup]","IWsbApplicationAsync interface [Windows Server Backup]","described","wsb.iwsbapplicationasync","wsbapp/IWsbApplicationAsync"]
 old-location: wsb\iwsbapplicationasync.htm
 tech.root: wsb
 ms.assetid: cd8f74c0-c2dc-487c-b702-1e1355e99b7d

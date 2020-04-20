@@ -1,7 +1,7 @@
 ---
 UID: NS:dpapi._CRYPTPROTECT_PROMPTSTRUCT
 title: CRYPTPROTECT_PROMPTSTRUCT (dpapi.h)
-description: Provides the text of a prompt and information about when and where that prompt is to be displayed when using the CryptProtectData and CryptUnprotectData functions.
+description: Provides the text of a prompt and information about when and where that prompt is to be displayed when using the CryptProtectData and CryptUnprotectData functions.helpviewer_keywords: ["*PCRYPTPROTECT_PROMPTSTRUCT","CRYPTPROTECT_PROMPTSTRUCT","CRYPTPROTECT_PROMPTSTRUCT structure [Security]","CRYPTPROTECT_PROMPT_ON_PROTECT","CRYPTPROTECT_PROMPT_ON_UNPROTECT","PCRYPTPROTECT_PROMPTSTRUCT","PCRYPTPROTECT_PROMPTSTRUCT structure pointer [Security]","_crypto2_cryptprotect_promptstruct","dpapi/CRYPTPROTECT_PROMPTSTRUCT","dpapi/PCRYPTPROTECT_PROMPTSTRUCT","security.cryptprotect_promptstruct","wincrypt/CRYPTPROTECT_PROMPTSTRUCT","wincrypt/PCRYPTPROTECT_PROMPTSTRUCT"]
 old-location: security\cryptprotect_promptstruct.htm
 tech.root: SecCrypto
 ms.assetid: 412ce598-a7c9-446d-bd98-6583a20d6cd7

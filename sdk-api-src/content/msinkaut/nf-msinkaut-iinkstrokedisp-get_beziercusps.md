@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_BezierCusps
 title: IInkStrokeDisp::get_BezierCusps (msinkaut.h)
-description: Gets an array that contains the indices of the cusps of the Bezier approximation of the stroke.
+description: Gets an array that contains the indices of the cusps of the Bezier approximation of the stroke.helpviewer_keywords: ["9fdd007a-1c8e-4389-975c-849a67be94a1","BezierCusps property [Tablet PC]","BezierCusps property [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","BezierCusps property","IInkStrokeDisp.BezierCusps","IInkStrokeDisp.get_BezierCusps","IInkStrokeDisp::BezierCusps","IInkStrokeDisp::get_BezierCusps","get_BezierCusps","msinkaut/IInkStrokeDisp::BezierCusps","msinkaut/IInkStrokeDisp::get_BezierCusps","tablet.iinkstrokedisp_beziercusps"]
 old-location: tablet\iinkstrokedisp_beziercusps.htm
 tech.root: tablet
 ms.assetid: 9fdd007a-1c8e-4389-975c-849a67be94a1

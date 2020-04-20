@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.SetRadiusX
 title: ID2D1RadialGradientBrush::SetRadiusX (d2d1.h)
-description: Specifies the x-radius of the gradient ellipse, in the brush's coordinate space.
+description: Specifies the x-radius of the gradient ellipse, in the brush's coordinate space.helpviewer_keywords: ["ID2D1RadialGradientBrush interface [Direct2D]","SetRadiusX method","ID2D1RadialGradientBrush.SetRadiusX","ID2D1RadialGradientBrush::SetRadiusX","SetRadiusX","SetRadiusX method [Direct2D]","SetRadiusX method [Direct2D]","ID2D1RadialGradientBrush interface","d2d1/ID2D1RadialGradientBrush::SetRadiusX","direct2d.ID2D1RadialGradientBrush_SetRadiusX"]
 old-location: direct2d\ID2D1RadialGradientBrush_SetRadiusX.htm
 tech.root: Direct2D
 ms.assetid: 6392b3fd-4eab-48a3-ada4-230e2b274df1
@@ -62,15 +62,6 @@ Specifies the x-radius of the gradient ellipse, in the brush's coordinate space.
 Type: <b>FLOAT</b>
 
 The x-radius of the gradient ellipse. This value is in the brush's coordinate space.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

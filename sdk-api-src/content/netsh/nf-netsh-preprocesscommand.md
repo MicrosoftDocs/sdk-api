@@ -1,7 +1,7 @@
 ---
 UID: NF:netsh.PreprocessCommand
 title: PreprocessCommand function (netsh.h)
-description: Parses an argument string and verifies that all required tags are present.
+description: Parses an argument string and verifies that all required tags are present.helpviewer_keywords: ["PreprocessCommand","PreprocessCommand function [NetShell]","_netsh_preprocesscommand","netsh/PreprocessCommand","netshell.preprocesscommand"]
 old-location: netshell\preprocesscommand.htm
 tech.root: netshell
 ms.assetid: 6795512e-4b90-47da-962a-d9e6ecfb7ee0

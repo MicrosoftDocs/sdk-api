@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_IpAddress
 title: IWdsTransportTftpClient::get_IpAddress (wdstptmgmt.h)
-description: Receives a string value containing the client’s IP address.
+description: Receives a string value containing the client’s IP address.helpviewer_keywords: ["IWdsTransportTftpClient interface [Windows Deployment Services]","IpAddress property","IWdsTransportTftpClient.IpAddress","IWdsTransportTftpClient.get_IpAddress","IWdsTransportTftpClient::IpAddress","IWdsTransportTftpClient::get_IpAddress","IpAddress property [Windows Deployment Services]","IpAddress property [Windows Deployment Services]","IWdsTransportTftpClient interface","get_IpAddress","wds.iwdstransporttftpclient_ipaddress","wdstptmgmt/IWdsTransportTftpClient::IpAddress","wdstptmgmt/IWdsTransportTftpClient::get_IpAddress"]
 old-location: wds\iwdstransporttftpclient_ipaddress.htm
 tech.root: wds
 ms.assetid: ABF9E29D-225A-4673-8922-A1BF53B685F9

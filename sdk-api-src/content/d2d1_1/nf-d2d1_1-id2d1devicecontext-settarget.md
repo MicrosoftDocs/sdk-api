@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.SetTarget
 title: ID2D1DeviceContext::SetTarget (d2d1_1.h)
-description: The bitmap or command list to which the Direct2D device context will now render.
+description: The bitmap or command list to which the Direct2D device context will now render.helpviewer_keywords: ["ID2D1DeviceContext interface [Direct2D]","SetTarget method","ID2D1DeviceContext.SetTarget","ID2D1DeviceContext::SetTarget","SetTarget","SetTarget method [Direct2D]","SetTarget method [Direct2D]","ID2D1DeviceContext interface","d2d1_1/ID2D1DeviceContext::SetTarget","direct2d.id2d1devicecontext_settarget"]
 old-location: direct2d\id2d1devicecontext_settarget.htm
 tech.root: Direct2D
 ms.assetid: 66914048-7bef-4551-bb14-5ab67c727dc5
@@ -62,15 +62,6 @@ The bitmap or command list to which the <a href="https://docs.microsoft.com/wind
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>*</b>
 
 The surface or command list to which the Direct2D device context will render.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

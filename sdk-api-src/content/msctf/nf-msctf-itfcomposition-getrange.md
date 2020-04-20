@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfComposition.GetRange
 title: ITfComposition::GetRange (msctf.h)
-description: ITfComposition::GetRange method
+description: ITfComposition::GetRange methodhelpviewer_keywords: ["GetRange","GetRange method [Text Services Framework]","GetRange method [Text Services Framework]","ITfComposition interface","ITfComposition interface [Text Services Framework]","GetRange method","ITfComposition.GetRange","ITfComposition::GetRange","_tsf_itfcomposition_getrange_ref","msctf/ITfComposition::GetRange","tsf.itfcomposition_getrange"]
 old-location: tsf\itfcomposition_getrange.htm
 tech.root: TSF
 ms.assetid: 14a726c3-6531-4d49-9f22-20460be02b81
@@ -45,25 +45,17 @@ ms.custom: 19H1
 
 # ITfComposition::GetRange
 
-
 ## -description
 
-
-
+Obtains a range object that contains the text covered by the composition.
 
 ## -parameters
-
-
-
 
 ### -param ppRange [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfRange</a> interface pointer that receives the range object. It is possible that the range will have zero length.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -128,19 +120,7 @@ The composition has already terminated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfRange
-      </a>
- 
-
- 
-
+[ITfComposition interface](nn-msctf-itfcomposition.md), [ITfRange interface](nn-msctf-itfrange.md)

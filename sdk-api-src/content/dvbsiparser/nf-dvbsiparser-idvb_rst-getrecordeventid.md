@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_RST.GetRecordEventId
 title: IDVB_RST::GetRecordEventId (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordEventId","GetRecordEventId method [Microsoft TV Technologies]","GetRecordEventId method [Microsoft TV Technologies]","IDVB_RST interface","IDVB_RST interface [Microsoft TV Technologies]","GetRecordEventId method","IDVB_RST.GetRecordEventId","IDVB_RST::GetRecordEventId","IDVB_RSTGetRecordEventId","dvbsiparser/IDVB_RST::GetRecordEventId","mstv.idvb_rst_getrecordeventid"]
 old-location: mstv\idvb_rst_getrecordeventid.htm
 tech.root: mstv
 ms.assetid: 4263160a-dd00-42a8-9ed3-6b266c0d6355

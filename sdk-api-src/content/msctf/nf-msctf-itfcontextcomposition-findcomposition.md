@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextComposition.FindComposition
 title: ITfContextComposition::FindComposition (msctf.h)
-description: ITfContextComposition::FindComposition method
+description: ITfContextComposition::FindComposition methodhelpviewer_keywords: ["FindComposition","FindComposition method [Text Services Framework]","FindComposition method [Text Services Framework]","ITfContextComposition interface","ITfContextComposition interface [Text Services Framework]","FindComposition method","ITfContextComposition.FindComposition","ITfContextComposition::FindComposition","_tsf_itfcontextcomposition_findcomposition_ref","msctf/ITfContextComposition::FindComposition","tsf.itfcontextcomposition_findcomposition"]
 old-location: tsf\itfcontextcomposition_findcomposition.htm
 tech.root: TSF
 ms.assetid: f5a7bd54-3b8f-44fd-ae6e-1415cc69c49e
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates an enumerator object that contains all compositions that intersect a specified range of text.
 
 ## -parameters
 
@@ -145,26 +144,4 @@ The edit context identified by <i>ecRead</i> does not have a read-only lock.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextcomposition">ITfContextComposition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfContextComposition interface](nn-msctf-itfcontextcomposition.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), 

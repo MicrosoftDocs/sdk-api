@@ -1,7 +1,7 @@
 ---
 UID: NS:lmdfs._DFS_INFO_103
 title: DFS_INFO_103 (lmdfs.h)
-description: Contains properties that set specific behaviors for a DFS root or link.
+description: Contains properties that set specific behaviors for a DFS root or link.helpviewer_keywords: ["*LPDFS_INFO_103","*PDFS_INFO_103","DFS_INFO_103","DFS_INFO_103 structure [Distributed File System]","DFS_PROPERTY_FLAG_ABDE","DFS_PROPERTY_FLAG_CLUSTER_ENABLED","DFS_PROPERTY_FLAG_INSITE_REFERRALS","DFS_PROPERTY_FLAG_ROOT_SCALABILITY","DFS_PROPERTY_FLAG_SITE_COSTING","DFS_PROPERTY_FLAG_TARGET_FAILBACK","LPDFS_INFO_103","LPDFS_INFO_103 structure pointer [Distributed File System]","PDFS_INFO_103","PDFS_INFO_103 structure pointer [Distributed File System]","dfs.dfs_info_103","fs.dfs_info_103","lmdfs/DFS_INFO_103","lmdfs/LPDFS_INFO_103","lmdfs/PDFS_INFO_103","netmgmt.dfs_info_103"]
 old-location: dfs\dfs_info_103.htm
 tech.root: Dfs
 ms.assetid: d3d31087-770e-4434-8ee0-6183102a9a6b

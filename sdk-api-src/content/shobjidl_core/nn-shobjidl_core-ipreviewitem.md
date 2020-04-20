@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IPreviewItem
 title: IPreviewItem (shobjidl_core.h)
-description: Identifies an item that will be shown in the preview pane.
+description: Identifies an item that will be shown in the preview pane.helpviewer_keywords: ["IPreviewItem","IPreviewItem interface [Windows Shell]","IPreviewItem interface [Windows Shell]","described","_shell_IPreviewItem","shell.IPreviewItem","shobjidl_core/IPreviewItem"]
 old-location: shell\IPreviewItem.htm
 tech.root: shell
 ms.assetid: ad228cc9-2c13-4e28-8468-7f8c66eb221e

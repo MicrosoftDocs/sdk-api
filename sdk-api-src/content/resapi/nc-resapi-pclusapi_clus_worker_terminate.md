@@ -1,7 +1,7 @@
 ---
 UID: NC:resapi.PCLUSAPI_CLUS_WORKER_TERMINATE
 title: PCLUSAPI_CLUS_WORKER_TERMINATE (resapi.h)
-description: Terminates a worker thread. The PCLUSAPI_CLUS_WORKER_TERMINATE type defines a pointer to this function.
+description: Terminates a worker thread. The PCLUSAPI_CLUS_WORKER_TERMINATE type defines a pointer to this function.helpviewer_keywords: ["PCLUSAPI_CLUS_WORKER_TERMINATE","PCLUSAPI_CLUS_WORKER_TERMINATE callback","PCLUSAPI_CLUS_WORKER_TERMINATE callback function [Failover Cluster]","_wolf_clusworkerterminate","mscs.clusworkerterminate","resapi/PCLUSAPI_CLUS_WORKER_TERMINATE"]
 old-location: mscs\clusworkerterminate.htm
 tech.root: MsCS
 ms.assetid: d143a860-92fe-4fa9-b0d7-d591376a0209
@@ -61,15 +61,6 @@ Terminates a worker thread. The <b>PCLUSAPI_CLUS_WORKER_TERMINATE</b> type defin
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clus_worker">CLUS_WORKER</a> structure describing the 
        thread to terminate.
-
-
-## -returns
-
-
-
-This function has no return values.
-
-
 
 
 ## -remarks

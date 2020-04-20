@@ -1,7 +1,7 @@
 ---
 UID: NF:wslapi.WslConfigureDistribution
 title: WslConfigureDistribution function (wslapi.h)
-description: Modifies the behavior of a distribution registered with the Windows Subsystem for Linux (WSL).
+description: Modifies the behavior of a distribution registered with the Windows Subsystem for Linux (WSL).helpviewer_keywords: ["WslConfigureDistribution","WslConfigureDistribution function","wsl.wslconfiguredistribution","wslapi/WslConfigureDistribution"]
 old-location: wsl\wslconfiguredistribution.htm
 tech.root: wsl
 ms.assetid: 4E89F367-4E10-4E76-93BC-FD5E2450D430

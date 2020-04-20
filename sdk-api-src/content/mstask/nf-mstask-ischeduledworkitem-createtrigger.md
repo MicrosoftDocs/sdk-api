@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.CreateTrigger
 title: IScheduledWorkItem::CreateTrigger (mstask.h)
-description: Creates a trigger for the work item.
+description: Creates a trigger for the work item.helpviewer_keywords: ["CreateTrigger","CreateTrigger method [Task Scheduler]","CreateTrigger method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","CreateTrigger method","IScheduledWorkItem.CreateTrigger","IScheduledWorkItem::CreateTrigger","_msb_ischeduledworkitem_createtrigger","mstask/IScheduledWorkItem::CreateTrigger","taskschd.ischeduledworkitem_createtrigger"]
 old-location: taskschd\ischeduledworkitem_createtrigger.htm
 tech.root: taskschd
 ms.assetid: ff8c9c3b-697f-42f0-a5b5-6194e4c89096

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.AddTree
 title: IFsiDirectoryItem::AddTree (imapi2fs.h)
-description: Adds the contents of a directory tree to the file system image.
+description: Adds the contents of a directory tree to the file system image.helpviewer_keywords: ["AddTree","AddTree method [IMAPI]","AddTree method [IMAPI]","IFsiDirectoryItem interface","IFsiDirectoryItem interface [IMAPI]","AddTree method","IFsiDirectoryItem.AddTree","IFsiDirectoryItem::AddTree","imapi.ifsidirectoryitem_addtree","imapi2fs/IFsiDirectoryItem::AddTree"]
 old-location: imapi\ifsidirectoryitem_addtree.htm
 tech.root: imapi
 ms.assetid: 4f36538c-fba7-4a0c-a2e9-443b7dc2fdab

@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsGetCustomHeader
 title: WsGetCustomHeader function (webservices.h)
-description: Finds an application-defined header of the message and deserializes it.
+description: Finds an application-defined header of the message and deserializes it.helpviewer_keywords: ["WsGetCustomHeader","WsGetCustomHeader function [Web Services for Windows]","webservices/WsGetCustomHeader","wsw.wsgetcustomheader"]
 old-location: wsw\wsgetcustomheader.htm
 tech.root: wsw
 ms.assetid: bdfb441b-afc4-4be8-b437-f299a31ce84b

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.BeginDeferWindowPos
 title: BeginDeferWindowPos function (winuser.h)
-description: Allocates memory for a multiple-window- position structure and returns the handle to the structure.
+description: Allocates memory for a multiple-window- position structure and returns the handle to the structure.helpviewer_keywords: ["BeginDeferWindowPos","BeginDeferWindowPos function [Windows and Messages]","_win32_BeginDeferWindowPos","_win32_begindeferwindowpos_cpp","winmsg.begindeferwindowpos","winui._win32_begindeferwindowpos","winuser/BeginDeferWindowPos"]
 old-location: winmsg\begindeferwindowpos.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\begindeferwindowpos.htm

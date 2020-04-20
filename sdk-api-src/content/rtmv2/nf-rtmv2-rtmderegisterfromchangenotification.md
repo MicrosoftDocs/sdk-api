@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmDeregisterFromChangeNotification
 title: RtmDeregisterFromChangeNotification function (rtmv2.h)
-description: The RtmDeregisterFromChangeNotification function unregisters a client from change notification and frees all resources allocated to the notification.
+description: The RtmDeregisterFromChangeNotification function unregisters a client from change notification and frees all resources allocated to the notification.helpviewer_keywords: ["RtmDeregisterFromChangeNotification","RtmDeregisterFromChangeNotification function [RAS]","_rtmv2ref_rtmderegisterfromchangenotification","rras.rtmderegisterfromchangenotification","rtmv2/RtmDeregisterFromChangeNotification"]
 old-location: rras\rtmderegisterfromchangenotification.htm
 tech.root: RRAS
 ms.assetid: 489668ce-9226-470d-8306-5ad0546275e7

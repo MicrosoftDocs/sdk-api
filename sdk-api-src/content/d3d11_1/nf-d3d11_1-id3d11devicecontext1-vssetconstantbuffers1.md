@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.VSSetConstantBuffers1
 title: ID3D11DeviceContext1::VSSetConstantBuffers1 (d3d11_1.h)
-description: Sets the constant buffers that the vertex shader pipeline stage uses.
+description: Sets the constant buffers that the vertex shader pipeline stage uses.helpviewer_keywords: ["ID3D11DeviceContext1 interface [Direct3D 11]","VSSetConstantBuffers1 method","ID3D11DeviceContext1.VSSetConstantBuffers1","ID3D11DeviceContext1::VSSetConstantBuffers1","VSSetConstantBuffers1","VSSetConstantBuffers1 method [Direct3D 11]","VSSetConstantBuffers1 method [Direct3D 11]","ID3D11DeviceContext1 interface","d3d11_1/ID3D11DeviceContext1::VSSetConstantBuffers1","direct3d11.id3d11devicecontext1_vssetconstantbuffers1"]
 old-location: direct3d11\id3d11devicecontext1_vssetconstantbuffers1.htm
 tech.root: direct3d11
 ms.assetid: 4D896539-216F-4823-B36E-2FE3E8A40C64
@@ -91,15 +91,6 @@ An array that holds the offsets into the buffers that  <i>ppConstantBuffers</i> 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 An array that holds the numbers of constants in the buffers that  <i>ppConstantBuffers</i> specifies. Each number specifies the number of constants that are contained in the constant buffer that the shader uses. Each number of constants starts from its respective offset that is specified in the <i>pFirstConstant</i> array. Each number of constants must be a multiple of 16 constants, in the range [0..4096]. 
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

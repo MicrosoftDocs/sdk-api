@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.FillOpacityMask(ID2D1Bitmap,ID2D1Brush,const D2D1_RECT_F &,const D2D1_RECT_F &)
 title: ID2D1DeviceContext::FillOpacityMask(ID2D1Bitmap,ID2D1Brush,const D2D1_RECT_F &,const D2D1_RECT_F &) (d2d1_1.h)
-description: Fill using the alpha channel of the supplied opacity mask bitmap. The brush opacity will be modulated by the mask. The render target antialiasing mode must be set to aliased.
+description: Fill using the alpha channel of the supplied opacity mask bitmap. The brush opacity will be modulated by the mask. The render target antialiasing mode must be set to aliased.helpviewer_keywords: ["FillOpacityMask","FillOpacityMask method [Direct2D]","FillOpacityMask method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","FillOpacityMask method","ID2D1DeviceContext.FillOpacityMask","ID2D1DeviceContext.FillOpacityMask(ID2D1Bitmap","ID2D1Brush","const D2D1_RECT_F &","const D2D1_RECT_F &)","ID2D1DeviceContext::FillOpacityMask","ID2D1DeviceContext::FillOpacityMask(ID2D1Bitmap","ID2D1Brush","const D2D1_RECT_F &","const D2D1_RECT_F &)","d2d1_1/ID2D1DeviceContext::FillOpacityMask","direct2d.id2d1devicecontext_fillopacitymask3"]
 old-location: direct2d\id2d1devicecontext_fillopacitymask3.htm
 tech.root: Direct2D
 ms.assetid: 73FB6A8D-FC1E-49B4-BFB0-9655D0597F2D
@@ -83,15 +83,6 @@ The destination rectangle to output to in the render target
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
 
 The source rectangle from the opacity mask bitmap.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

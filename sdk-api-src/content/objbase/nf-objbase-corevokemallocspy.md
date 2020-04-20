@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CoRevokeMallocSpy
 title: CoRevokeMallocSpy function (objbase.h)
-description: Revokes a registered IMallocSpy object.
+description: Revokes a registered IMallocSpy object.helpviewer_keywords: ["CoRevokeMallocSpy","CoRevokeMallocSpy function [COM]","_com_CoRevokeMallocSpy","com.corevokemallocspy","objbase/CoRevokeMallocSpy"]
 old-location: com\corevokemallocspy.htm
 tech.root: com
 ms.assetid: e1e984a2-2aee-452c-840c-42201ef5ee96

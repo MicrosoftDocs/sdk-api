@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IFileSinkFilter.SetFileName
 title: IFileSinkFilter::SetFileName (strmif.h)
-description: The SetFileName method sets the name of the file into which media samples will be written.
+description: The SetFileName method sets the name of the file into which media samples will be written.helpviewer_keywords: ["IFileSinkFilter interface [DirectShow]","SetFileName method","IFileSinkFilter.SetFileName","IFileSinkFilter2 interface [DirectShow]","SetFileName method","IFileSinkFilter2::SetFileName","IFileSinkFilter::SetFileName","IFileSinkFilterSetFileName","SetFileName","SetFileName method [DirectShow]","SetFileName method [DirectShow]","IFileSinkFilter interface","SetFileName method [DirectShow]","IFileSinkFilter2 interface","dshow.ifilesinkfilter_setfilename","strmif/IFileSinkFilter2::SetFileName","strmif/IFileSinkFilter::SetFileName"]
 old-location: dshow\ifilesinkfilter_setfilename.htm
 tech.root: DirectShow
 ms.assetid: d202be46-0a7a-4097-adf6-6ec9c6274449

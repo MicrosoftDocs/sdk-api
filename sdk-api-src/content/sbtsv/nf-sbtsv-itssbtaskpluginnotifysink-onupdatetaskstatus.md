@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnUpdateTaskStatus
 title: ITsSbTaskPluginNotifySink::OnUpdateTaskStatus (sbtsv.h)
-description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of a task has changed.
+description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of a task has changed.helpviewer_keywords: ["ITsSbTaskPluginNotifySink interface [Remote Desktop Services]","OnUpdateTaskStatus method","ITsSbTaskPluginNotifySink.OnUpdateTaskStatus","ITsSbTaskPluginNotifySink::OnUpdateTaskStatus","OnUpdateTaskStatus","OnUpdateTaskStatus method [Remote Desktop Services]","OnUpdateTaskStatus method [Remote Desktop Services]","ITsSbTaskPluginNotifySink interface","sbtsv/ITsSbTaskPluginNotifySink::OnUpdateTaskStatus","termserv.itssbtaskpluginnotifysink_onupdatetaskstatus"]
 old-location: termserv\itssbtaskpluginnotifysink_onupdatetaskstatus.htm
 tech.root: TermServ
 ms.assetid: 5fc22173-12b2-41a4-a487-8092088ecfe9

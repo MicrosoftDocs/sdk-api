@@ -1,7 +1,7 @@
 ---
 UID: NF:wofapi.WofWimAddEntry
 title: WofWimAddEntry function (wofapi.h)
-description: Adds a single WIM data source to a volume such that files can be created on the volume which are stored within the WIM.
+description: Adds a single WIM data source to a volume such that files can be created on the volume which are stored within the WIM.helpviewer_keywords: ["WofWimAddEntry","WofWimAddEntry function [Files]","fs.wofwimaddentry","wofapi/WofWimAddEntry"]
 old-location: fs\wofwimaddentry.htm
 tech.root: FileIO
 ms.assetid: 53CE16AE-E14D-4E51-87E2-DDF88D5CE806

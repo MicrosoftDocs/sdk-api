@@ -1,7 +1,7 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD
 title: MINIDUMP_THREAD (minidumpapiset.h)
-description: Contains information for a specific thread.
+description: Contains information for a specific thread.helpviewer_keywords: ["*PMINIDUMP_THREAD","MINIDUMP_THREAD","MINIDUMP_THREAD structure","PMINIDUMP_THREAD","PMINIDUMP_THREAD structure pointer","_MINIDUMP_THREAD","_win32_minidump_thread_str","base.minidump_thread_str","minidumpapiset/MINIDUMP_THREAD","minidumpapiset/PMINIDUMP_THREAD"]
 old-location: base\minidump_thread_str.htm
 tech.root: Debug
 ms.assetid: 07d4ba98-e74d-4f50-9afa-d09d93da3d6b

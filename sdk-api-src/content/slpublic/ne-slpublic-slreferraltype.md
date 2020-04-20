@@ -1,7 +1,7 @@
 ---
 UID: NE:slpublic.__unnamed_enum_0
 title: SLREFERRALTYPE (slpublic.h)
-description: Represents the types of information that can be queried with the SLGetReferralInformation function.
+description: Represents the types of information that can be queried with the SLGetReferralInformation function.helpviewer_keywords: ["SLREFERRALTYPE","SLREFERRALTYPE enumeration [Security]","SL_REFERRALTYPE_APPID","SL_REFERRALTYPE_BEST_MATCH","SL_REFERRALTYPE_OVERRIDE_APPID","SL_REFERRALTYPE_OVERRIDE_SKUID","SL_REFERRALTYPE_SKUID","security.slreferraltype","slpublic/SLREFERRALTYPE","slpublic/SL_REFERRALTYPE_APPID","slpublic/SL_REFERRALTYPE_BEST_MATCH","slpublic/SL_REFERRALTYPE_OVERRIDE_APPID","slpublic/SL_REFERRALTYPE_OVERRIDE_SKUID","slpublic/SL_REFERRALTYPE_SKUID"]
 old-location: security\slreferraltype.htm
 tech.root: SecSLApi
 ms.assetid: 350a28bd-cbdf-46f2-a404-aa16550a4711

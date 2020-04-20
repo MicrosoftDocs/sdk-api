@@ -1,7 +1,7 @@
 ---
 UID: NE:mbnapi.MBN_PIN_CONSTANTS
 title: MBN_PIN_CONSTANTS (mbnapi.h)
-description: The MBN_PIN_CONSTANTS enumerated type defines constant values used by the MBN_PIN_INFO structure.
+description: The MBN_PIN_CONSTANTS enumerated type defines constant values used by the MBN_PIN_INFO structure.helpviewer_keywords: ["MBN_ATTEMPTS_REMAINING_UNKNOWN","MBN_PIN_CONSTANTS","MBN_PIN_CONSTANTS enumeration [Microsoft Broadband Networks]","MBN_PIN_LENGTH_UNKNOWN","mbn.mbn_pin_constants","mbnapi/MBN_ATTEMPTS_REMAINING_UNKNOWN","mbnapi/MBN_PIN_CONSTANTS","mbnapi/MBN_PIN_LENGTH_UNKNOWN"]
 old-location: mbn\mbn_pin_constants.htm
 tech.root: mbn
 ms.assetid: dff1b2d3-d5f7-4349-8602-f2b5ccff1f41

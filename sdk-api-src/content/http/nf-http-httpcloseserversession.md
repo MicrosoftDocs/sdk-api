@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpCloseServerSession
 title: HttpCloseServerSession function (http.h)
-description: Deletes the server session identified by the server session ID.
+description: Deletes the server session identified by the server session ID.helpviewer_keywords: ["HttpCloseServerSession","HttpCloseServerSession function [HTTP]","http.httpcloseserversession","http/HttpCloseServerSession"]
 old-location: http\httpcloseserversession.htm
 tech.root: http
 ms.assetid: d1ceb491-c726-4aa0-b17e-f98f34279e32

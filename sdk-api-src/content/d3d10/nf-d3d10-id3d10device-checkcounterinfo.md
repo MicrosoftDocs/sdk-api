@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CheckCounterInfo
 title: ID3D10Device::CheckCounterInfo (d3d10.h)
-description: Get a counter's information.
+description: Get a counter's information.helpviewer_keywords: ["10aa0166-3a37-c674-790b-e34167e1b454","CheckCounterInfo","CheckCounterInfo method [Direct3D 10]","CheckCounterInfo method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CheckCounterInfo method","ID3D10Device.CheckCounterInfo","ID3D10Device::CheckCounterInfo","d3d10/ID3D10Device::CheckCounterInfo","direct3d10.id3d10device_checkcounterinfo"]
 old-location: direct3d10\id3d10device_checkcounterinfo.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_checkcounterinfo.htm
@@ -63,15 +63,6 @@ Get a counter's information.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_counter_info">D3D10_COUNTER_INFO</a>*</b>
 
 Pointer to counter information (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_counter_info">D3D10_COUNTER_INFO</a>).
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -see-also

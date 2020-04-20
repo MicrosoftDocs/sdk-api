@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.GetMaximumFrameLatency
 title: IDXGISwapChain2::GetMaximumFrameLatency (dxgi1_3.h)
-description: Gets the number of frames that the swap chain is allowed to queue for rendering.
+description: Gets the number of frames that the swap chain is allowed to queue for rendering.helpviewer_keywords: ["GetMaximumFrameLatency","GetMaximumFrameLatency method [DXGI]","GetMaximumFrameLatency method [DXGI]","IDXGISwapChain2 interface","IDXGISwapChain2 interface [DXGI]","GetMaximumFrameLatency method","IDXGISwapChain2.GetMaximumFrameLatency","IDXGISwapChain2::GetMaximumFrameLatency","direct3ddxgi.idxgiswapchain2_getmaximumframelatency","dxgi1_3/IDXGISwapChain2::GetMaximumFrameLatency"]
 old-location: direct3ddxgi\idxgiswapchain2_getmaximumframelatency.htm
 tech.root: direct3ddxgi
 ms.assetid: F0A07900-8F10-475B-B13F-E0F49B50C2EB

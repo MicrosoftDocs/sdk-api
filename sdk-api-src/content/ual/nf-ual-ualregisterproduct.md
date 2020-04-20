@@ -1,7 +1,7 @@
 ---
 UID: NF:ual.UalRegisterProduct
 title: UalRegisterProduct function (ual.h)
-description: Registers a product with User Access Logging (UAL).
+description: Registers a product with User Access Logging (UAL).helpviewer_keywords: ["UalRegisterProduct","UalRegisterProduct function [User Access Logging]","ual.ualregisterproduct","ual/UalRegisterProduct"]
 old-location: ual\ualregisterproduct.htm
 tech.root: ual
 ms.assetid: EF5A9F0E-DD6A-4CFB-B8A6-AA4298FC6BE8

@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StopSyncAll
 title: ISyncMgrControl::StopSyncAll (syncmgr.h)
-description: Stops the synchronization of all items managed by all handlers.
+description: Stops the synchronization of all items managed by all handlers.helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","StopSyncAll method","ISyncMgrControl.StopSyncAll","ISyncMgrControl::StopSyncAll","StopSyncAll","StopSyncAll method [Windows Shell]","StopSyncAll method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_StopSyncAll","shell.ISyncMgrControl_StopSyncAll","syncmgr/ISyncMgrControl::StopSyncAll"]
 old-location: shell\ISyncMgrControl_StopSyncAll.htm
 tech.root: shell
 ms.assetid: c6f75833-a1b8-46d0-a339-99e5bf814f7f

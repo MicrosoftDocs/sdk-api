@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetTypeDescAlias
 title: ICreateTypeInfo::SetTypeDescAlias (oaidl.h)
-description: Sets the type description for which this type description is an alias, if TYPEKIND=TKIND_ALIAS.
+description: Sets the type description for which this type description is an alias, if TYPEKIND=TKIND_ALIAS.helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetTypeDescAlias method","ICreateTypeInfo.SetTypeDescAlias","ICreateTypeInfo::SetTypeDescAlias","SetTypeDescAlias","SetTypeDescAlias method [Automation]","SetTypeDescAlias method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetTypeDescAlias","automat.icreatetypeinfo_settypedescalias","oaidl/ICreateTypeInfo::SetTypeDescAlias"]
 old-location: automat\icreatetypeinfo_settypedescalias.htm
 tech.root: automat
 ms.assetid: 63435592-9fc8-4d49-a388-87f1d15f2603

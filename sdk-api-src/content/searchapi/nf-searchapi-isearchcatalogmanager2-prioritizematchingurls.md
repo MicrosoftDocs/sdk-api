@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager2.PrioritizeMatchingURLs
 title: ISearchCatalogManager2::PrioritizeMatchingURLs (searchapi.h)
-description: Instructs the indexer to give a higher priority to indexing items that have URLs that match a specified pattern. These items will then have a higher priority than other indexing tasks.
+description: Instructs the indexer to give a higher priority to indexing items that have URLs that match a specified pattern. These items will then have a higher priority than other indexing tasks.helpviewer_keywords: ["ISearchCatalogManager2 interface [search]","PrioritizeMatchingURLs method","ISearchCatalogManager2.PrioritizeMatchingURLs","ISearchCatalogManager2::PrioritizeMatchingURLs","PrioritizeMatchingURLs","PrioritizeMatchingURLs method [search]","PrioritizeMatchingURLs method [search]","ISearchCatalogManager2 interface","_search_ISearchCatalogManager2_PrioritizeMatchingURLs","search._search_ISearchCatalogManager2_PrioritizeMatchingURLs","searchapi/ISearchCatalogManager2::PrioritizeMatchingURLs"]
 old-location: search\_search_ISearchCatalogManager2_PrioritizeMatchingURLs.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager2\prioritizematchingurls.htm

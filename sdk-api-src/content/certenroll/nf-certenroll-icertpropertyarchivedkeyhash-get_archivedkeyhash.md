@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertPropertyArchivedKeyHash.get_ArchivedKeyHash
 title: ICertPropertyArchivedKeyHash::get_ArchivedKeyHash (certenroll.h)
-description: Retrieves a SHA-1 hash of the private key.
+description: Retrieves a SHA-1 hash of the private key.helpviewer_keywords: ["ArchivedKeyHash property [Security]","ArchivedKeyHash property [Security]","ICertPropertyArchivedKeyHash interface","ICertPropertyArchivedKeyHash interface [Security]","ArchivedKeyHash property","ICertPropertyArchivedKeyHash.ArchivedKeyHash","ICertPropertyArchivedKeyHash.get_ArchivedKeyHash","ICertPropertyArchivedKeyHash::ArchivedKeyHash","ICertPropertyArchivedKeyHash::get_ArchivedKeyHash","certenroll/ICertPropertyArchivedKeyHash::ArchivedKeyHash","certenroll/ICertPropertyArchivedKeyHash::get_ArchivedKeyHash","get_ArchivedKeyHash","security.icertpropertyarchivedkeyhash_archivedkeyhash"]
 old-location: security\icertpropertyarchivedkeyhash_archivedkeyhash.htm
 tech.root: seccertenroll
 ms.assetid: b5f38bfc-58aa-42c6-a457-44bdfd013ce7

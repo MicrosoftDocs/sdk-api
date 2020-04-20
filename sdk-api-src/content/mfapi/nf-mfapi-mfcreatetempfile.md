@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFCreateTempFile
 title: MFCreateTempFile function (mfapi.h)
-description: Creates a byte stream that is backed by a temporary local file.
+description: Creates a byte stream that is backed by a temporary local file.helpviewer_keywords: ["1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678","MFCreateTempFile","MFCreateTempFile function [Media Foundation]","mf.mfcreatetempfile","mfapi/MFCreateTempFile"]
 old-location: mf\mfcreatetempfile.htm
 tech.root: medfound
 ms.assetid: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678

@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetDigestMethod
 title: IOpcSignatureRelationshipReference::GetDigestMethod (msopc.h)
-description: Gets the digest method to use on relationship markup of the selected relationships.
+description: Gets the digest method to use on relationship markup of the selected relationships.helpviewer_keywords: ["GetDigestMethod","GetDigestMethod method [Open Packaging Conventions]","GetDigestMethod method [Open Packaging Conventions]","IOpcSignatureRelationshipReference interface","IOpcSignatureRelationshipReference interface [Open Packaging Conventions]","GetDigestMethod method","IOpcSignatureRelationshipReference.GetDigestMethod","IOpcSignatureRelationshipReference::GetDigestMethod","msopc/IOpcSignatureRelationshipReference::GetDigestMethod","opc.iopcsignaturerelationshipreference_getdigestmethod"]
 old-location: opc\iopcsignaturerelationshipreference_getdigestmethod.htm
 tech.root: OPC
 ms.assetid: 126e0b2c-8b58-4b42-b2b5-99f6fab40f27

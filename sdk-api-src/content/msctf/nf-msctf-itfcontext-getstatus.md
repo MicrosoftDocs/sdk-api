@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.GetStatus
 title: ITfContext::GetStatus (msctf.h)
-description: ITfContext::GetStatus method
+description: ITfContext::GetStatus methodhelpviewer_keywords: ["GetStatus","GetStatus method [Text Services Framework]","GetStatus method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetStatus method","ITfContext.GetStatus","ITfContext::GetStatus","_tsf_itfcontext_getstatus_ref","msctf/ITfContext::GetStatus","tsf.itfcontext_getstatus"]
 old-location: tsf\itfcontext_getstatus.htm
 tech.root: TSF
 ms.assetid: a1f193b0-fcfc-4db6-90e9-61d528b08672
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the document status.
 
 ## -parameters
 
@@ -113,16 +112,4 @@ The context is not on a document stack.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [TF_STATUS](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85))

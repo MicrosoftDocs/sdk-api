@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.SetPropertyItem
 title: Image::SetPropertyItem (gdiplusheaders.h)
-description: The Image::SetPropertyItem method sets a property item (piece of metadata) for this Image object. If the item already exists, then its contents are updated; otherwise, a new item is added.
+description: The Image::SetPropertyItem method sets a property item (piece of metadata) for this Image object. If the item already exists, then its contents are updated; otherwise, a new item is added.helpviewer_keywords: ["Image class [GDI+]","SetPropertyItem method","Image.SetPropertyItem","Image::SetPropertyItem","SetPropertyItem","SetPropertyItem method [GDI+]","SetPropertyItem method [GDI+]","Image class","_gdiplus_CLASS_Image_SetPropertyItem_item_","gdiplus._gdiplus_CLASS_Image_SetPropertyItem_item_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_SetPropertyItem_item_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\setpropertyitem.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_WhiteBalance
 title: IVideoProcAmp::put_WhiteBalance (vidcap.h)
-description: The put_WhiteBalance method sets the camera's white balance, specified as a color temperature.
+description: The put_WhiteBalance method sets the camera's white balance, specified as a color temperature.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","put_WhiteBalance method","IVideoProcAmp.put_WhiteBalance","IVideoProcAmp::put_WhiteBalance","IVideoProcAmpput_WhiteBalance","dshow.ivideoprocamp_put_whitebalance","put_WhiteBalance","put_WhiteBalance method [DirectShow]","put_WhiteBalance method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::put_WhiteBalance"]
 old-location: dshow\ivideoprocamp_put_whitebalance.htm
 tech.root: DirectShow
 ms.assetid: b79e64e1-4b0f-4111-ae25-54891f743c01

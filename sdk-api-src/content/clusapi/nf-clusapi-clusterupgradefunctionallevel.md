@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterUpgradeFunctionalLevel
 title: ClusterUpgradeFunctionalLevel function (clusapi.h)
-description: Initiates a rolling upgrade of the operating system on a cluster. PCLUSAPI_CLUSTER_UPGRADE defines a pointer to this function.
+description: Initiates a rolling upgrade of the operating system on a cluster. PCLUSAPI_CLUSTER_UPGRADE defines a pointer to this function.helpviewer_keywords: ["ClusterUpgradeFunctionalLevel","ClusterUpgradeFunctionalLevel function [Failover Cluster]","PCLUSAPI_CLUSTER_UPGRADE","PCLUSAPI_CLUSTER_UPGRADE function [Failover Cluster]","clusapi/ClusterUpgradeFunctionalLevel","clusapi/PCLUSAPI_CLUSTER_UPGRADE","mscs.clusterupgradefunctionallevel"]
 old-location: mscs\clusterupgradefunctionallevel.htm
 tech.root: MsCS
 ms.assetid: EA013501-A4E2-48D8-9062-D20141485CC5

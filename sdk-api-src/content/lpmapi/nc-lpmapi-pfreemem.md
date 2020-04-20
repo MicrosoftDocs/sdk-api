@@ -1,7 +1,7 @@
 ---
 UID: NC:lpmapi.PFREEMEM
 title: PFREEMEM (lpmapi.h)
-description: The PFREEMEM function is a memory-freeing function provided by the PCM.
+description: The PFREEMEM function is a memory-freeing function provided by the PCM.helpviewer_keywords: ["PFREEMEM","PFREEMEM callback","PFREEMEM callback function [QOS]","_gqos_pfreemem","lpmapi/PFREEMEM","qos.pfreemem"]
 old-location: qos\pfreemem.htm
 tech.root: QOS
 ms.assetid: b700b5c1-9fd7-4fc9-a5ed-f8ac75d22037
@@ -77,15 +77,6 @@ Pointer to the memory buffer to free.
 
 
 
-
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
 
 
 

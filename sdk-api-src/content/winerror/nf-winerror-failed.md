@@ -1,7 +1,7 @@
 ---
 UID: NF:winerror.FAILED
 title: FAILED macro (winerror.h)
-description: Provides a generic test for failure on any status value.
+description: Provides a generic test for failure on any status value.helpviewer_keywords: ["FAILED","FAILED macro [COM]","_com_FAILED","com.failed","com.failed_macro","winerror/FAILED"]
 old-location: com\failed_macro.htm
 tech.root: com
 ms.assetid: d9c4ff73-c255-4a82-b901-23bd5b41ee6c

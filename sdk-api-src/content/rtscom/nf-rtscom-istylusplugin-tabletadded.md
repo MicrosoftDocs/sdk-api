@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IStylusPlugin.TabletAdded
 title: IStylusPlugin::TabletAdded (rtscom.h)
-description: Notifies an implementing plug-in when an ITablet object is attached to the system.
+description: Notifies an implementing plug-in when an ITablet object is attached to the system.helpviewer_keywords: ["IStylusPlugin interface [Tablet PC]","TabletAdded method","IStylusPlugin.TabletAdded","IStylusPlugin::TabletAdded","TabletAdded","TabletAdded method [Tablet PC]","TabletAdded method [Tablet PC]","IStylusPlugin interface","fbc971ad-7cfb-4f75-8d63-a210a7967424","rtscom/IStylusPlugin::TabletAdded","tablet.istylusplugin_tabletadded"]
 old-location: tablet\istylusplugin_tabletadded.htm
 tech.root: tablet
 ms.assetid: fbc971ad-7cfb-4f75-8d63-a210a7967424

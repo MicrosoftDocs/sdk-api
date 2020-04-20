@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuningSpace.get_UniqueName
 title: ITuningSpace::get_UniqueName (tuner.h)
-description: The get_UniqueName method retrieves the unique name of the tuning space.
+description: The get_UniqueName method retrieves the unique name of the tuning space.helpviewer_keywords: ["ITuningSpace interface [Microsoft TV Technologies]","get_UniqueName method","ITuningSpace.get_UniqueName","ITuningSpace::get_UniqueName","ITuningSpaceget_UniqueName","get_UniqueName","get_UniqueName method [Microsoft TV Technologies]","get_UniqueName method [Microsoft TV Technologies]","ITuningSpace interface","mstv.ituningspace_get_uniquename","tuner/ITuningSpace::get_UniqueName"]
 old-location: mstv\ituningspace_get_uniquename.htm
 tech.root: mstv
 ms.assetid: 5c605f8c-7b0c-478d-a823-19e2f396953a

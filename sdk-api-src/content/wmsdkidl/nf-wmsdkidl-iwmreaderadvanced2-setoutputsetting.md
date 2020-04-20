@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.SetOutputSetting
 title: IWMReaderAdvanced2::SetOutputSetting (wmsdkidl.h)
-description: The SetOutputSetting method specifies a named setting for a particular output.
+description: The SetOutputSetting method specifies a named setting for a particular output.helpviewer_keywords: ["IWMReaderAdvanced2 interface [windows Media Format]","SetOutputSetting method","IWMReaderAdvanced2.SetOutputSetting","IWMReaderAdvanced2::SetOutputSetting","IWMReaderAdvanced2SetOutputSetting","SetOutputSetting","SetOutputSetting method [windows Media Format]","SetOutputSetting method [windows Media Format]","IWMReaderAdvanced2 interface","wmformat.iwmreaderadvanced2_setoutputsetting","wmsdkidl/IWMReaderAdvanced2::SetOutputSetting"]
 old-location: wmformat\iwmreaderadvanced2_setoutputsetting.htm
 tech.root: wmformat
 ms.assetid: 035a74d2-288d-4754-8cb2-4508b7fe4649

@@ -1,7 +1,7 @@
 ---
 UID: NC:resapi.PCANCEL_ROUTINE
 title: PCANCEL_ROUTINE (resapi.h)
-description: Cancels an operation on a resource.
+description: Cancels an operation on a resource.helpviewer_keywords: ["Cancel","Cancel callback","Cancel callback function [Failover Cluster]","PCANCEL_ROUTINE","PCANCEL_ROUTINE callback function [Failover Cluster]","mscs.cancel","resapi/Cancel","resapi/PCANCEL_ROUTINE"]
 old-location: mscs\cancel.htm
 tech.root: MsCS
 ms.assetid: F2A22C00-5B25-48F7-BB25-9C351A47B770

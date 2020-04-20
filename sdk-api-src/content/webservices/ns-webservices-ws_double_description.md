@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_DOUBLE_DESCRIPTION
 title: WS_DOUBLE_DESCRIPTION (webservices.h)
-description: An optional type description used with WS_DOUBLE_TYPE. It is used to specify constraints on the set of values which can be deserialized.
+description: An optional type description used with WS_DOUBLE_TYPE. It is used to specify constraints on the set of values which can be deserialized.helpviewer_keywords: ["WS_DOUBLE_DESCRIPTION","WS_DOUBLE_DESCRIPTION structure [Web Services for Windows]","webservices/WS_DOUBLE_DESCRIPTION","wsw.ws_double_description"]
 old-location: wsw\ws_double_description.htm
 tech.root: wsw
 ms.assetid: cc845d24-4bbd-4491-9d4e-7a39c6c251da

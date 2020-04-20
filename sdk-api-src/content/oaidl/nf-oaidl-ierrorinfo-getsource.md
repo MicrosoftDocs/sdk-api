@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetSource
 title: IErrorInfo::GetSource (oaidl.h)
-description: Returns the language-dependent programmatic ID (ProgID) for the class or application that raised the error.
+description: Returns the language-dependent programmatic ID (ProgID) for the class or application that raised the error.helpviewer_keywords: ["GetSource","GetSource method [Automation]","GetSource method [Automation]","IErrorInfo interface","IErrorInfo interface [Automation]","GetSource method","IErrorInfo.GetSource","IErrorInfo::GetSource","_oa96_IErrorInfo_GetSource","automat.ierrorinfo_getsource","oaidl/IErrorInfo::GetSource"]
 old-location: automat\ierrorinfo_getsource.htm
 tech.root: automat
 ms.assetid: b7bbf4ac-7c02-4abe-83fb-bc9fcd52129e

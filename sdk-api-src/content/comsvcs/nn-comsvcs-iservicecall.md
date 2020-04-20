@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IServiceCall
 title: IServiceCall (comsvcs.h)
-description: Used to implement the batch work that is submitted through the activity created by CoCreateActivity.
+description: Used to implement the batch work that is submitted through the activity created by CoCreateActivity.helpviewer_keywords: ["IServiceCall","IServiceCall interface [COM+]","IServiceCall interface [COM+]","described","_cos_IServiceCall","comsvcs/IServiceCall","cos.iservicecall"]
 old-location: cos\iservicecall.htm
 tech.root: cossdk
 ms.assetid: 97532e29-3d1a-4a7c-8103-dd7ae2866a70

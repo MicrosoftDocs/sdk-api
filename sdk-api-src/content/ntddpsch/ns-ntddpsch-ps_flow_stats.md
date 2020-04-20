@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddpsch._PS_FLOW_STATS
 title: PS_FLOW_STATS (ntddpsch.h)
-description: The PS_FLOW_STATS structure provides statistical packet shaper information about a particular flow. Note that the PS_FLOW_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
+description: The PS_FLOW_STATS structure provides statistical packet shaper information about a particular flow. Note that the PS_FLOW_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.helpviewer_keywords: ["*PPS_FLOW_STATS","PPS_FLOW_STATS","PPS_FLOW_STATS structure pointer [QOS]","PS_FLOW_STATS","PS_FLOW_STATS structure [QOS]","_gqos_ps_flow_stats","ntddpsch/PPS_FLOW_STATS","ntddpsch/PS_FLOW_STATS","qos.ps_flow_stats"]
 old-location: qos\ps_flow_stats.htm
 tech.root: QOS
 ms.assetid: 1d40c247-9e61-4f8b-85f9-eddc90727a17

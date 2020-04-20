@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._AdrClientDisplayFlags
 title: AdrClientDisplayFlags (fsrmenums.h)
-description: Describes the possible types of access denied remediation (ADR) client display flags.
+description: Describes the possible types of access denied remediation (ADR) client display flags.helpviewer_keywords: ["AdrClientDisplayFlags","AdrClientDisplayFlags enumeration [File Server Resource Manager]","AdrClientDisplayFlags_AllowEmailRequests","AdrClientDisplayFlags_ShowDeviceTroubleshooting","fs.adrclientdisplayflags","fsrm.adrclientdisplayflags","fsrmenums/AdrClientDisplayFlags","fsrmenums/AdrClientDisplayFlags_AllowEmailRequests","fsrmenums/AdrClientDisplayFlags_ShowDeviceTroubleshooting"]
 old-location: fsrm\adrclientdisplayflags.htm
 tech.root: fsrm
 ms.assetid: 939ecb44-e59b-452d-901f-72207a6ae89a

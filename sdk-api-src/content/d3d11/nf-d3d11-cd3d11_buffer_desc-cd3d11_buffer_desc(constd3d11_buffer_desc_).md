@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.CD3D11_BUFFER_DESC.CD3D11_BUFFER_DESC(const D3D11_BUFFER_DESC &)
 title: CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC(const D3D11_BUFFER_DESC &) (d3d11.h)
-description: Instantiates a new instance of a CD3D11_BUFFER_DESC structure that is initialized with a D3D11_BUFFER_DESC structure.
+description: Instantiates a new instance of a CD3D11_BUFFER_DESC structure that is initialized with a D3D11_BUFFER_DESC structure.helpviewer_keywords: ["CD3D11_BUFFER_DESC","CD3D11_BUFFER_DESC interface [Direct3D 11]","CD3D11_BUFFER_DESC method","CD3D11_BUFFER_DESC method [Direct3D 11]","CD3D11_BUFFER_DESC method [Direct3D 11]","CD3D11_BUFFER_DESC interface","CD3D11_BUFFER_DESC.CD3D11_BUFFER_DESC","CD3D11_BUFFER_DESC.CD3D11_BUFFER_DESC(const D3D11_BUFFER_DESC &)","CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC","CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC(const D3D11_BUFFER_DESC &)","CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC(const D3D11_BUFFER_DESC&)","d3d11/CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC","direct3d11.cd3d11_buffer_desc_cd3d11_buffer_desc_d3d11_buffer_desc_"]
 old-location: direct3d11\cd3d11_buffer_desc_cd3d11_buffer_desc_d3d11_buffer_desc_.htm
 tech.root: direct3d11
 ms.assetid: 5D244353-F514-4E1C-AA50-AD085EA11FEE
@@ -63,15 +63,6 @@ Instantiates a new instance of a <a href="https://docs.microsoft.com/windows/des
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_desc">D3D11_BUFFER_DESC</a></b>
 
 Address of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_desc">D3D11_BUFFER_DESC</a> structure that initializes the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_buffer_desc">CD3D11_BUFFER_DESC</a> structure.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

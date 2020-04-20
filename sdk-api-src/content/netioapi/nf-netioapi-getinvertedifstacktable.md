@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.GetInvertedIfStackTable
 title: GetInvertedIfStackTable function (netioapi.h)
-description: Retrieves a table of inverted network interface stack row entries that specify the relationship of the network interfaces on an interface stack.
+description: Retrieves a table of inverted network interface stack row entries that specify the relationship of the network interfaces on an interface stack.helpviewer_keywords: ["GetInvertedIfStackTable","GetInvertedIfStackTable function [IP Helper]","iphlp.getinvertedifstacktable","netioapi/GetInvertedIfStackTable"]
 old-location: iphlp\getinvertedifstacktable.htm
 tech.root: IpHlp
 ms.assetid: d1808ded-2798-46cc-8021-fdbcd3da60ea

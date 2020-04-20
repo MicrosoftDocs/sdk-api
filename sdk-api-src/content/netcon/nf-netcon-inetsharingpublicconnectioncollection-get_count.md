@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.INetSharingPublicConnectionCollection.get_Count
 title: INetSharingPublicConnectionCollection::get_Count (netcon.h)
-description: The get_Count method retrieves the number of items in the public connections collection.
+description: The get_Count method retrieves the number of items in the public connections collection.helpviewer_keywords: ["INetSharingPublicConnectionCollection interface [ICS/ICF]","get_Count method","INetSharingPublicConnectionCollection.get_Count","INetSharingPublicConnectionCollection::get_Count","_ics_inetsharingpublicconnectioncollection_get_count","get_Count","get_Count method [ICS/ICF]","get_Count method [ICS/ICF]","INetSharingPublicConnectionCollection interface","ics.inetsharingpublicconnectioncollection_get_count","netcon/INetSharingPublicConnectionCollection::get_Count"]
 old-location: ics\inetsharingpublicconnectioncollection_get_count.htm
 tech.root: ics
 ms.assetid: 7d90ce6c-4ac7-4188-9d25-9144e112a8df

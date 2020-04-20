@@ -1,7 +1,7 @@
 ---
 UID: NS:ntdsapi._DS_REPL_CURSOR_BLOB
 title: DS_REPL_CURSOR_BLOB (ntdsapi.h)
-description: The DS_REPL_CURSOR_BLOB structure contains inbound replication state data with respect to all replicas of a given naming context.
+description: The DS_REPL_CURSOR_BLOB structure contains inbound replication state data with respect to all replicas of a given naming context.helpviewer_keywords: ["DS_REPL_CURSOR_BLOB","DS_REPL_CURSOR_BLOB structure [Active Directory]","ad.ds_repl_cursor_blob","ntdsapi/DS_REPL_CURSOR_BLOB"]
 old-location: ad\ds_repl_cursor_blob.htm
 tech.root: ad
 ms.assetid: c41e4737-5ef8-40ce-9af1-0afff7e11dc1

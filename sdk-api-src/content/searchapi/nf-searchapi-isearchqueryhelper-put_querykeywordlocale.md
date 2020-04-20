@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryKeywordLocale
 title: ISearchQueryHelper::put_QueryKeywordLocale (searchapi.h)
-description: Sets the language code identifier (LCID) for the locale to use when parsing Advanced Query Syntax (AQS) keywords.
+description: Sets the language code identifier (LCID) for the locale to use when parsing Advanced Query Syntax (AQS) keywords.helpviewer_keywords: ["ISearchQueryHelper interface [search]","put_QueryKeywordLocale method","ISearchQueryHelper.put_QueryKeywordLocale","ISearchQueryHelper::put_QueryKeywordLocale","_search_ISearchQueryHelper_put_QueryKeywordLocale","put_QueryKeywordLocale","put_QueryKeywordLocale method [search]","put_QueryKeywordLocale method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_put_QueryKeywordLocale","searchapi/ISearchQueryHelper::put_QueryKeywordLocale"]
 old-location: search\_search_ISearchQueryHelper_put_QueryKeywordLocale.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querykeywordlocale.htm

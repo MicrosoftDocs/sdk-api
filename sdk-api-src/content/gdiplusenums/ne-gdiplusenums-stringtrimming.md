@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.StringTrimming
 title: StringTrimming (gdiplusenums.h)
-description: The StringTrimming enumeration specifies how to trim characters from a string so that the string fits into a layout rectangle. The layout rectangle is used to position and size the display string.
+description: The StringTrimming enumeration specifies how to trim characters from a string so that the string fits into a layout rectangle. The layout rectangle is used to position and size the display string.helpviewer_keywords: ["StringTrimming","StringTrimming enumeration [GDI+]","StringTrimmingCharacter","StringTrimmingEllipsisCharacter","StringTrimmingEllipsisPath","StringTrimmingEllipsisWord","StringTrimmingNone","StringTrimmingWord","_gdiplus_ENUM_StringTrimming","gdiplus._gdiplus_ENUM_StringTrimming","gdiplusenums/StringTrimming","gdiplusenums/StringTrimmingCharacter","gdiplusenums/StringTrimmingEllipsisCharacter","gdiplusenums/StringTrimmingEllipsisPath","gdiplusenums/StringTrimmingEllipsisWord","gdiplusenums/StringTrimmingNone","gdiplusenums/StringTrimmingWord"]
 old-location: gdiplus\_gdiplus_ENUM_StringTrimming.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringtrimming.htm

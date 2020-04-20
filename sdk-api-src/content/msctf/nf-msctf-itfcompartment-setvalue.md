@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCompartment.SetValue
 title: ITfCompartment::SetValue (msctf.h)
-description: ITfCompartment::SetValue method
+description: ITfCompartment::SetValue methodhelpviewer_keywords: ["ITfCompartment interface [Text Services Framework]","SetValue method","ITfCompartment.SetValue","ITfCompartment::SetValue","SetValue","SetValue method [Text Services Framework]","SetValue method [Text Services Framework]","ITfCompartment interface","_tsf_itfcompartment_setvalue_ref","msctf/ITfCompartment::SetValue","tsf.itfcompartment_setvalue"]
 old-location: tsf\itfcompartment_setvalue.htm
 tech.root: TSF
 ms.assetid: 1a1a175f-a24e-4f83-92d3-ac6a24f5f486
@@ -45,30 +45,21 @@ ms.custom: 19H1
 
 # ITfCompartment::SetValue
 
-
 ## -description
 
-
-
+Sets the data for a compartment.
 
 ## -parameters
-
-
-
 
 ### -param tid [in]
 
 Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
 
-
 ### -param pvarValue [in]
 
 Pointer to a VARIANT structure that contains the data to be set. Only VT_I4, VT_UNKNOWN and VT_BSTR data types are allowed.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,23 +113,7 @@ The compartment was cleared by a call to <a href="https://docs.microsoft.com/win
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId
-      </a>
- 
-
- 
-
+[ITfCompartment interface](nn-msctf-itfcompartment.md), [ITfCompartment::GetValue](nf-msctf-itfcompartment-getvalue.md), [ITfCompartmentMgr::ClearCompartment](nf-msctf-itfcompartmentmgr-clearcompartment.md), [VariantClear function](../oleauto/nf-oleauto-variantclear.md)

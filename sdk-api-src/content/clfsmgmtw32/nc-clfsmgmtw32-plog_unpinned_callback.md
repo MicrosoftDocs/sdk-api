@@ -1,7 +1,7 @@
 ---
 UID: NC:clfsmgmtw32.PLOG_UNPINNED_CALLBACK
 title: PLOG_UNPINNED_CALLBACK (clfsmgmtw32.h)
-description: The LOG_UNPINNED_CALLBACK function is an application-defined callback function that receives notification that the log has become unpinned.
+description: The LOG_UNPINNED_CALLBACK function is an application-defined callback function that receives notification that the log has become unpinned.helpviewer_keywords: ["LOG_UNPINNED_CALLBACK","LOG_UNPINNED_CALLBACK callback function [Files]","PLOG_UNPINNED_CALLBACK","PLOG_UNPINNED_CALLBACK callback","clfsmgmtw32/LOG_UNPINNED_CALLBACK","fs.log_unpinned_callback"]
 old-location: fs\log_unpinned_callback.htm
 tech.root: Clfs
 ms.assetid: ab3b5ffb-01a5-4678-bcfa-7e71b1f4c0f3
@@ -66,15 +66,6 @@ The handle to the log.
 ### -param pvClientContext [in]
 
 A pointer to the client context. This is the same context specified when registering the client, which is a member of <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/ns-clfsmgmtw32-log_management_callbacks">LOG_MANAGEMENT_CALLBACKS</a>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

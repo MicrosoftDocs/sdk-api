@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecpkg._LSA_TOKEN_INFORMATION_NULL
 title: LSA_TOKEN_INFORMATION_NULL (ntsecpkg.h)
-description: Used in cases where a non-authenticated system access is needed.
+description: Used in cases where a non-authenticated system access is needed.helpviewer_keywords: ["*PLSA_TOKEN_INFORMATION_NULL","LSA_TOKEN_INFORMATION_NULL","LSA_TOKEN_INFORMATION_NULL structure [Security]","PLSA_TOKEN_INFORMATION_NULL","PLSA_TOKEN_INFORMATION_NULL structure pointer [Security]","_LSA_TOKEN_INFORMATION_NULL","_lsa_lsa_token_information_null","ntsecpkg/LSA_TOKEN_INFORMATION_NULL","ntsecpkg/PLSA_TOKEN_INFORMATION_NULL","security.lsa_token_information_null"]
 old-location: security\lsa_token_information_null.htm
 tech.root: SecAuthN
 ms.assetid: fbcd0f78-1ad5-4bea-a95f-d19fb3894537

@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.ISwapChainBackgroundPanelNative
 title: ISwapChainBackgroundPanelNative (windows.ui.xaml.media.dxinterop.h)
-description: Provides interoperation between XAML and a DirectX swap chain.
+description: Provides interoperation between XAML and a DirectX swap chain.helpviewer_keywords: ["ISwapChainBackgroundPanelNative","ISwapChainBackgroundPanelNative interface [Windows Runtime]","ISwapChainBackgroundPanelNative interface [Windows Runtime]","described","windows/ISwapChainBackgroundPanelNative","winrt.iswapchainbackgroundpanelnative"]
 old-location: winrt\iswapchainbackgroundpanelnative.htm
 tech.root: WinRT
 ms.assetid: 77F5EB53-0DF9-4BA7-810C-9B7B073E76A7

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.SetColor
 title: IXpsOMGradientStop::SetColor (xpsobjectmodel.h)
-description: Sets the color value and color profile of the gradient stop.
+description: Sets the color value and color profile of the gradient stop.helpviewer_keywords: ["IXpsOMGradientStop interface [XPS Documents and Packaging]","SetColor method","IXpsOMGradientStop.SetColor","IXpsOMGradientStop::SetColor","SetColor","SetColor method [XPS Documents and Packaging]","SetColor method [XPS Documents and Packaging]","IXpsOMGradientStop interface","xps.ixpsomgradientstop_setcolor","xpsobjectmodel/IXpsOMGradientStop::SetColor"]
 old-location: xps\ixpsomgradientstop_setcolor.htm
 tech.root: printdocs
 ms.assetid: 535b14f3-6d17-4c3c-b310-b018922d48e8

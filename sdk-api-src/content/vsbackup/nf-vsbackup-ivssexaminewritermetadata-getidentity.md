@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetIdentity
 title: IVssExamineWriterMetadata::GetIdentity (vsbackup.h)
-description: The GetIdentity method obtains basic information about a specific writer instance.
+description: The GetIdentity method obtains basic information about a specific writer instance.helpviewer_keywords: ["GetIdentity","GetIdentity method [VSS]","GetIdentity method [VSS]","IVssExamineWriterMetadata interface","IVssExamineWriterMetadata interface [VSS]","GetIdentity method","IVssExamineWriterMetadata.GetIdentity","IVssExamineWriterMetadata::GetIdentity","_win32_ivssexaminewritermetadata_getidentity","base.ivssexaminewritermetadata_getidentity","vsbackup/IVssExamineWriterMetadata::GetIdentity"]
 old-location: base\ivssexaminewritermetadata_getidentity.htm
 tech.root: VSS
 ms.assetid: 55240ef2-f480-4917-98f9-e88a2e23edea

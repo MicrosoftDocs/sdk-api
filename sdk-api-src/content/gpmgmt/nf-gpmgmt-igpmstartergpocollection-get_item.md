@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOCollection.get_Item
 title: IGPMStarterGPOCollection::get_Item (gpmgmt.h)
-description: Given an index, returns a pointer to an IGPMGPO interface from the collection.
+description: Given an index, returns a pointer to an IGPMGPO interface from the collection.helpviewer_keywords: ["IGPMStarterGPOCollection interface [GPMC]","Item property","IGPMStarterGPOCollection.Item","IGPMStarterGPOCollection.get_Item","IGPMStarterGPOCollection::Item","IGPMStarterGPOCollection::get_Item","Item property [GPMC]","Item property [GPMC]","IGPMStarterGPOCollection interface","get_Item","gpmc.igpmstartergpocollection_get_item","gpmgmt/IGPMStarterGPOCollection::Item","gpmgmt/IGPMStarterGPOCollection::get_Item"]
 old-location: gpmc\igpmstartergpocollection_get_item.htm
 tech.root: gpmc
 ms.assetid: e8385fe5-8a65-48be-b997-dbddd638ddbc

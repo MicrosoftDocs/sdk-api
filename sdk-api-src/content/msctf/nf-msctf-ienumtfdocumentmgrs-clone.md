@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Clone
 title: IEnumTfDocumentMgrs::Clone (msctf.h)
-description: IEnumTfDocumentMgrs::Clone method
+description: IEnumTfDocumentMgrs::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfDocumentMgrs interface","IEnumTfDocumentMgrs interface [Text Services Framework]","Clone method","IEnumTfDocumentMgrs.Clone","IEnumTfDocumentMgrs::Clone","_tsf_ienumtfdocumentmgrs_clone_ref","msctf/IEnumTfDocumentMgrs::Clone","tsf.ienumtfdocumentmgrs_clone"]
 old-location: tsf\ienumtfdocumentmgrs_clone.htm
 tech.root: TSF
 ms.assetid: d7a6ff9c-327b-45bf-93d0-7bf08065ad9c
@@ -45,25 +45,17 @@ ms.custom: 19H1
 
 # IEnumTfDocumentMgrs::Clone
 
-
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs</a> interface pointer that receives the new enumerator.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,19 +87,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs
-      </a>
- 
-
- 
-
+[IEnumTfDocumentMgrs interface](nn-msctf-ienumtfdocumentmgrs.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md)

@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IResultData.SetItem
 title: IResultData::SetItem (mmc.h)
-description: The IResultData::SetItem method enables the snap-in to set a single item in the result pane.
+description: The IResultData::SetItem method enables the snap-in to set a single item in the result pane.helpviewer_keywords: ["IResultData interface [MMC]","SetItem method","IResultData.SetItem","IResultData2 interface [MMC]","SetItem method","IResultData2::SetItem","IResultData::SetItem","SetItem","SetItem method [MMC]","SetItem method [MMC]","IResultData interface","SetItem method [MMC]","IResultData2 interface","_slate_iresultdata_setitem","mmc.iresultdata_setitem","mmc/IResultData2::SetItem","mmc/IResultData::SetItem"]
 old-location: mmc\iresultdata_setitem.htm
 tech.root: mmc
 ms.assetid: d24ab645-aae2-4c0f-8fc5-05d028a724d4

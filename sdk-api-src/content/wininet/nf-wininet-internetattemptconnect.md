@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetAttemptConnect
 title: InternetAttemptConnect function (wininet.h)
-description: Attempts to make a connection to the Internet.
+description: Attempts to make a connection to the Internet.helpviewer_keywords: ["InternetAttemptConnect","InternetAttemptConnect function [WinINet]","_inet_internetattemptconnect_function","wininet.internetattemptconnect","wininet/InternetAttemptConnect"]
 old-location: wininet\internetattemptconnect.htm
 tech.root: wininet
 ms.assetid: a6f22704-f7ca-4c4d-91c3-304b592db6ca

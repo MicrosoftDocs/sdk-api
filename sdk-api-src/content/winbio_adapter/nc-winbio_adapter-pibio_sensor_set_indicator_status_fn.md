@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_SET_INDICATOR_STATUS_FN
 title: PIBIO_SENSOR_SET_INDICATOR_STATUS_FN (winbio_adapter.h)
-description: Toggles the sensor indicator on or off.
+description: Toggles the sensor indicator on or off.helpviewer_keywords: ["PIBIO_SENSOR_SET_INDICATOR_STATUS_FN","PIBIO_SENSOR_SET_INDICATOR_STATUS_FN callback","SensorAdapterSetIndicatorStatus","SensorAdapterSetIndicatorStatus callback function [Windows Biometric Framework API]","secbiomet.sensoradaptersetindicatorstatus","winbio_adapter/SensorAdapterSetIndicatorStatus"]
 old-location: secbiomet\sensoradaptersetindicatorstatus.htm
 tech.root: SecBioMet
 ms.assetid: a47815d0-934c-43d4-8f4a-5f57a1c9f278

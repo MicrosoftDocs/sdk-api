@@ -1,7 +1,7 @@
 ---
 UID: NF:winternl.RtlInitString
 title: RtlInitString function (winternl.h)
-description: Initializes a counted string.
+description: Initializes a counted string.helpviewer_keywords: ["RtlInitString","RtlInitString function [Windows API]","winprog.rtlinitstring","winternl/RtlInitString","winui.rtlinitstring"]
 old-location: winprog\rtlinitstring.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlinitstring.htm
@@ -67,15 +67,6 @@ The counted string to be initialized. The <i>DestinationString</i> is initialize
 ### -param SourceString [in]
 
 A pointer to a null-terminated string. If the <i>SourceString</i> is not specified, the <b>Length</b> and <b>MaximumLength</b> fields of the <i>DestinationString</i> are initialized to zero.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

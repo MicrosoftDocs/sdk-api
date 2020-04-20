@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.NdrProxyFreeBuffer
 title: NdrProxyFreeBuffer function (rpcproxy.h)
-description: The NdrProxyFreeBuffer function frees an RPC buffer.
+description: The NdrProxyFreeBuffer function frees an RPC buffer.helpviewer_keywords: ["NdrProxyFreeBuffer","NdrProxyFreeBuffer function [RPC]","rpc.ndrproxyfreebuffer","rpcproxy/NdrProxyFreeBuffer"]
 old-location: rpc\ndrproxyfreebuffer.htm
 tech.root: Rpc
 ms.assetid: 6abc3f93-6eef-4363-aa1a-1ecfffb9d934
@@ -65,15 +65,6 @@ Pointer to the interface proxy.
 ### -param pStubMsg [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>pRpcMsg</b> member points to a structure whose <b>Buffer</b> member is to be freed. Structure is for internal use only; do not modify.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

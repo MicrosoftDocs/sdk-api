@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.UpdateCache
 title: IAzAuthorizationStore::UpdateCache (azroles.h)
-description: Updates the cache of objects and object attributes to match the underlying policy store.
+description: Updates the cache of objects and object attributes to match the underlying policy store.helpviewer_keywords: ["AzAuthorizationStore object [Security]","UpdateCache method","IAzAuthorizationStore interface [Security]","UpdateCache method","IAzAuthorizationStore.UpdateCache","IAzAuthorizationStore::UpdateCache","UpdateCache","UpdateCache method [Security]","UpdateCache method [Security]","AzAuthorizationStore object","UpdateCache method [Security]","IAzAuthorizationStore interface","azroles/IAzAuthorizationStore::UpdateCache","security.azauthorizationstore_updatecache"]
 old-location: security\azauthorizationstore_updatecache.htm
 tech.root: SecAuthZ
 ms.assetid: 1fd17040-f736-44a6-8a01-720f4c8fe9ac

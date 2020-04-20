@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.IEnumNetworks.get__NewEnum
 title: IEnumNetworks::get__NewEnum (netlistmgr.h)
-description: The get_NewEnum property returns an automation enumerator object that you can use to iterate through the IEnumNetworks collection.
+description: The get_NewEnum property returns an automation enumerator object that you can use to iterate through the IEnumNetworks collection.helpviewer_keywords: ["IEnumNetworks interface [Network Awareness]","get__NewEnum method","IEnumNetworks.get__NewEnum","IEnumNetworks::get__NewEnum","get__NewEnum","get__NewEnum method [Network Awareness]","get__NewEnum method [Network Awareness]","IEnumNetworks interface","netlistmgr/IEnumNetworks::get__NewEnum","nla.ienumnetworks_get__newenum"]
 old-location: nla\ienumnetworks_get__newenum.htm
 tech.root: nla
 ms.assetid: ddff98c2-669d-4f8d-9584-b8590705c2f0

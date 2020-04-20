@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerGroupGetStatus
 title: PeerGroupGetStatus function (p2p.h)
-description: The PeerGroupGetStatus function retrieves the current status of a group.
+description: The PeerGroupGetStatus function retrieves the current status of a group.helpviewer_keywords: ["PeerGroupGetStatus","PeerGroupGetStatus function [Peer Networking]","p2p.peergroupgetstatus","p2p/PeerGroupGetStatus"]
 old-location: p2p\peergroupgetstatus.htm
 tech.root: P2PSdk
 ms.assetid: 712e6473-bb49-460a-9761-69a5ee4a067e

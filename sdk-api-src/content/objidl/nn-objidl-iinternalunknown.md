@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IInternalUnknown
 title: IInternalUnknown (objidl.h)
-description: Used exclusively in lightweight client-side handlers that require access to some of the internal interfaces on the proxy.
+description: Used exclusively in lightweight client-side handlers that require access to some of the internal interfaces on the proxy.helpviewer_keywords: ["IInternalUnknown","IInternalUnknown interface [COM]","IInternalUnknown interface [COM]","described","_com_iinternalunknown","com.iinternalunknown","objidlbase/IInternalUnknown"]
 old-location: com\iinternalunknown.htm
 tech.root: com
 ms.assetid: d2f4c8bc-80b9-4ba0-9f30-f0864144902b

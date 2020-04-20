@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IExplorerCommand
 title: IExplorerCommand (shobjidl_core.h)
-description: Exposes methods that get the command appearance, enumerate subcommands, or invoke the command.
+description: Exposes methods that get the command appearance, enumerate subcommands, or invoke the command.helpviewer_keywords: ["IExplorerCommand","IExplorerCommand interface [Windows Shell]","IExplorerCommand interface [Windows Shell]","described","_shell_IExplorerCommand","shell.IExplorerCommand","shobjidl_core/IExplorerCommand"]
 old-location: shell\IExplorerCommand.htm
 tech.root: shell
 ms.assetid: 61e94e50-9e12-4a2c-a6c7-64a9181f80b8

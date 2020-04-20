@@ -1,7 +1,7 @@
 ---
 UID: NC:ddrawint.PDD_CREATEPALETTE
 title: PDD_CREATEPALETTE (ddrawint.h)
-description: The DdCreatePalette callback function creates a DirectDrawPalette object for the specified DirectDraw object.
+description: The DdCreatePalette callback function creates a DirectDrawPalette object for the specified DirectDraw object.helpviewer_keywords: ["DdCreatePalette","DdCreatePalette callback function [Display Devices]","PDD_CREATEPALETTE","PDD_CREATEPALETTE callback","ddfncs_5930e0e6-1029-4c6d-aa6b-b8050e2f9d9d.xml","ddrawint/DdCreatePalette","display.ddcreatepalette"]
 old-location: display\ddcreatepalette.htm
 tech.root: display
 ms.assetid: 047d63c6-eb4c-4944-8c98-0f9686e2c37a

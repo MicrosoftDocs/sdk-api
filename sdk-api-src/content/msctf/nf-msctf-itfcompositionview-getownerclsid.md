@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCompositionView.GetOwnerClsid
 title: ITfCompositionView::GetOwnerClsid (msctf.h)
-description: ITfCompositionView::GetOwnerClsid method
+description: ITfCompositionView::GetOwnerClsid methodhelpviewer_keywords: ["GetOwnerClsid","GetOwnerClsid method [Text Services Framework]","GetOwnerClsid method [Text Services Framework]","ITfCompositionView interface","ITfCompositionView interface [Text Services Framework]","GetOwnerClsid method","ITfCompositionView.GetOwnerClsid","ITfCompositionView::GetOwnerClsid","_tsf_itfcompositionview_getownerclsid_ref","msctf/ITfCompositionView::GetOwnerClsid","tsf.itfcompositionview_getownerclsid"]
 old-location: tsf\itfcompositionview_getownerclsid.htm
 tech.root: TSF
 ms.assetid: 1435e083-c6a1-491c-a7c2-7d2cb1d54508
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the class identifier of the text service that created the composition object.
 
 ## -parameters
 
@@ -128,5 +127,6 @@ The composition has been terminated.
 
 This method can be used to enable a text service to filter compositions that it does not own.
 
+## -see-also
 
-
+[ITfCompositionView interface](nn-msctf-itfcompositionview.md)

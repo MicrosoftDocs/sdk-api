@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetLogonErrorRedirector
 title: IWTSProtocolConnection::GetLogonErrorRedirector (wtsprotocol.h)
-description: IWTSProtocolConnection::GetLogonErrorRedirector is no longer available. Instead, use IWRdsProtocolConnection::GetLogonErrorRedirector.
+description: IWTSProtocolConnection::GetLogonErrorRedirector is no longer available. Instead, use IWRdsProtocolConnection::GetLogonErrorRedirector.helpviewer_keywords: ["GetLogonErrorRedirector","GetLogonErrorRedirector method [Remote Desktop Services]","GetLogonErrorRedirector method [Remote Desktop Services]","IWTSProtocolConnection interface","IWTSProtocolConnection interface [Remote Desktop Services]","GetLogonErrorRedirector method","IWTSProtocolConnection.GetLogonErrorRedirector","IWTSProtocolConnection::GetLogonErrorRedirector","termserv.iwtsprotocolconnection_getlogonerrorredirector","wtsprotocol/IWTSProtocolConnection::GetLogonErrorRedirector"]
 old-location: termserv\iwtsprotocolconnection_getlogonerrorredirector.htm
 tech.root: TermServ
 ms.assetid: 59bd7d50-2903-42b7-b556-4da7b50d8e7a

@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerProcessRequestPacket
 title: EapPeerProcessRequestPacket function (eapmethodpeerapis.h)
-description: Processes a packet received by EAPHost from a supplicant.
+description: Processes a packet received by EAPHost from a supplicant.helpviewer_keywords: ["EapPeerProcessRequestPacket","EapPeerProcessRequestPacket function [EAPHost]","eaphost.eappeerprocessrequestpacket","eapmethodpeerapis/EapPeerProcessRequestPacket"]
 old-location: eaphost\eappeerprocessrequestpacket.htm
 tech.root: eaphost
 ms.assetid: 7054b6e5-68df-4d76-9941-99ee00178926

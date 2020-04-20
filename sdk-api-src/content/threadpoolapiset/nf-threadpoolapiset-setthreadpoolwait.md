@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolWait
 title: SetThreadpoolWait function (threadpoolapiset.h)
-description: Sets the wait object&#8212;replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.
+description: Sets the wait object&#8212;replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.helpviewer_keywords: ["SetThreadpoolWait","SetThreadpoolWait function","base.setthreadpoolwait","threadpoolapiset/SetThreadpoolWait","winbase/SetThreadpoolWait"]
 old-location: base\setthreadpoolwait.htm
 tech.root: ProcThread
 ms.assetid: ebd0ecad-a864-43cf-a1cb-e4c2d595ef81
@@ -83,15 +83,6 @@ If this handle is closed while the wait is still pending, the function's behavio
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the absolute or relative time at which the wait operation should time out.  If this parameter points to a positive value, it indicates the absolute time since January 1, 1601 (UTC), in 100-nanosecond intervals. If this parameter points to a negative value, it indicates the amount of time to wait relative to the current time. For more information about time values, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>.
 
 If this parameter points to 0, the wait times out immediately. If this parameter is NULL, the wait will not time out.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

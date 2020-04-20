@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITBasicAudioTerminal.put_Balance
 title: ITBasicAudioTerminal::put_Balance (tapi3if.h)
-description: The put_Balance method sets the balance. This method is not implemented for terminals shipped with TAPI 3.0 and higher.
+description: The put_Balance method sets the balance. This method is not implemented for terminals shipped with TAPI 3.0 and higher.helpviewer_keywords: ["ITBasicAudioTerminal interface [TAPI 2.2]","put_Balance method","ITBasicAudioTerminal.put_Balance","ITBasicAudioTerminal::put_Balance","_tapi3_itbasicaudioterminal_put_balance","put_Balance","put_Balance method [TAPI 2.2]","put_Balance method [TAPI 2.2]","ITBasicAudioTerminal interface","tapi3.itbasicaudioterminal_put_balance","tapi3if/ITBasicAudioTerminal::put_Balance"]
 old-location: tapi3\itbasicaudioterminal_put_balance.htm
 tech.root: Tapi
 ms.assetid: 8337376e-5de6-4d6d-9f95-49b83d438168

@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffect.GetParentEffect
 title: IMILBitmapEffect::GetParentEffect (mileffects.h)
-description: Gets a parent of the effect.
+description: Gets a parent of the effect.helpviewer_keywords: ["GetParentEffect","GetParentEffect method [WPF Bitmap Effects]","GetParentEffect method [WPF Bitmap Effects]","IMILBitmapEffect interface","IMILBitmapEffect interface [WPF Bitmap Effects]","GetParentEffect method","IMILBitmapEffect.GetParentEffect","IMILBitmapEffect::GetParentEffect","_wibe_imilbitmapeffect_getparenteffect","mileffects/IMILBitmapEffect::GetParentEffect","wibe._wibe_imilbitmapeffect_getparenteffect"]
 old-location: wibe\_wibe_imilbitmapeffect_getparenteffect.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\getparenteffect.htm

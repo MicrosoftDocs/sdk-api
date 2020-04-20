@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.Reset
 title: ITfDisplayAttributeInfo::Reset (msctf.h)
-description: ITfDisplayAttributeInfo::Reset method
+description: ITfDisplayAttributeInfo::Reset methodhelpviewer_keywords: ["ITfDisplayAttributeInfo interface [Text Services Framework]","Reset method","ITfDisplayAttributeInfo.Reset","ITfDisplayAttributeInfo::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","ITfDisplayAttributeInfo interface","_tsf_itfdisplayattributeinfo_reset_ref","msctf/ITfDisplayAttributeInfo::Reset","tsf.itfdisplayattributeinfo_reset"]
 old-location: tsf\itfdisplayattributeinfo_reset.htm
 tech.root: TSF
 ms.assetid: f7a95bb4-a2f1-4734-8a71-286591544984
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Resets the display attribute data to its default value.
 
 ## -parameters
 
@@ -108,16 +107,4 @@ The implementation of this method should not call <a href="https://docs.microsof
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-onupdateinfo">ITfDisplayAttributeMgr::OnUpdateInfo
-      </a>
- 
-
- 
-
+[ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md), [ITfDisplayAttributeMgr::OnUpdateInfo](nf-msctf-itfdisplayattributemgr-onupdateinfo.md),

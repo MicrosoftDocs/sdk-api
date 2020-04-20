@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi1_2.IDXGIFactory2
 title: IDXGIFactory2 (dxgi1_2.h)
-description: The IDXGIFactory2 interface includes methods to create a newer version swap chain with more features than IDXGISwapChain and to monitor stereoscopic 3D capabilities.
+description: The IDXGIFactory2 interface includes methods to create a newer version swap chain with more features than IDXGISwapChain and to monitor stereoscopic 3D capabilities.helpviewer_keywords: ["IDXGIFactory2","IDXGIFactory2 interface [DXGI]","IDXGIFactory2 interface [DXGI]","described","direct3ddxgi.idxgifactory2","dxgi1_2/IDXGIFactory2"]
 old-location: direct3ddxgi\idxgifactory2.htm
 tech.root: direct3ddxgi
 ms.assetid: D4F210E1-E184-410A-947A-22ED47B3E9F3

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCleanupContextDurationSink.OnEndCleanupContext
 title: ITfCleanupContextDurationSink::OnEndCleanupContext (msctf.h)
-description: ITfCleanupContextDurationSink::OnEndCleanupContext method
+description: ITfCleanupContextDurationSink::OnEndCleanupContext methodhelpviewer_keywords: ["ITfCleanupContextDurationSink interface [Text Services Framework]","OnEndCleanupContext method","ITfCleanupContextDurationSink.OnEndCleanupContext","ITfCleanupContextDurationSink::OnEndCleanupContext","OnEndCleanupContext","OnEndCleanupContext method [Text Services Framework]","OnEndCleanupContext method [Text Services Framework]","ITfCleanupContextDurationSink interface","_tsf_itfcleanupcontextdurationsink_onendcleanupcontext_ref","msctf/ITfCleanupContextDurationSink::OnEndCleanupContext","tsf.itfcleanupcontextdurationsink_onendcleanupcontext"]
 old-location: tsf\itfcleanupcontextdurationsink_onendcleanupcontext.htm
 tech.root: TSF
 ms.assetid: d7af4584-9c77-40cd-a83d-7b6fd3945b17
@@ -45,64 +45,25 @@ ms.custom: 19H1
 
 # ITfCleanupContextDurationSink::OnEndCleanupContext
 
-
 ## -description
 
-
-
+Called when a context cleanup operation completes.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-
-
 A context cleanup occurs when:
 
-<ul>
-<li>The text service is deactivated while a context is still on the context stack. This can occur when the active text service is changed or when the active language changes while the text service is active.</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-deactivate">ITfThreadMgr::Deactivate
-            </a> is called while a context is still on the context stack.</li>
-</ul>
+- The text service is deactivated while a context is still on the context stack. This can occur when the active text service is changed or when the active language changes while the text service is active.
+- [ITfThreadMgr::Deactivate](nf-msctf-itfthreadmgr-deactivate.md) is called while a context is still on the context stack.
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcleanupcontextdurationsink-onstartcleanupcontext">ITfCleanupContextDurationSink::OnStartCleanupContext
-        </a> is called just before the TSF manager begins making <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcleanupcontextsink-oncleanupcontext">ITfCleanupContextSink::OnCleanupContext</a> notifications. When all of the OnCleanupContext notifications complete, the TSF manager calls <b>OnEndCleanupContext</b>.
-
-
-
+[ITfCleanupContextDurationSink::OnStartCleanupContext](nf-msctf-itfcleanupcontextdurationsink-onstartcleanupcontext.md) is called just before the TSF manager begins making [ITfCleanupContextSink::OnCleanupContext](nf-msctf-itfcleanupcontextsink-oncleanupcontext.md) notifications. When all of the OnCleanupContext notifications complete, the TSF manager calls **OnEndCleanupContext**.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcleanupcontextdurationsink">ITfCleanupContextDurationSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcleanupcontextdurationsink-onstartcleanupcontext">ITfCleanupContextDurationSink::OnStartCleanupContext
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcleanupcontextsink-oncleanupcontext">ITfCleanupContextSink::OnCleanupContext
-      </a>
- 
-
- 
-
+[ITfCleanupContextDurationSink interface](nn-msctf-itfcleanupcontextdurationsink.md), [ITfCleanupContextDurationSink::OnStartCleanupContext](nf-msctf-itfcleanupcontextdurationsink-onstartcleanupcontext.md), [ITfCleanupContextSink::OnCleanupContext](nf-msctf-itfcleanupcontextsink-oncleanupcontext.md)

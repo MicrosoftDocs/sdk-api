@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.GetAt
 title: IXpsOMDocumentCollection::GetAt (xpsobjectmodel.h)
-description: Gets an IXpsOMDocument interface pointer from a specified location in the collection.
+description: Gets an IXpsOMDocument interface pointer from a specified location in the collection.helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsOMDocumentCollection interface","IXpsOMDocumentCollection interface [XPS Documents and Packaging]","GetAt method","IXpsOMDocumentCollection.GetAt","IXpsOMDocumentCollection::GetAt","xps.ixpsomdocumentcollection_getat","xpsobjectmodel/IXpsOMDocumentCollection::GetAt"]
 old-location: xps\ixpsomdocumentcollection_getat.htm
 tech.root: printdocs
 ms.assetid: 74649245-b6ec-4ebb-aa9b-8de9c0c6c761

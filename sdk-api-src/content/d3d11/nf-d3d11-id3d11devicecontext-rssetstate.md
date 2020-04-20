@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.RSSetState
 title: ID3D11DeviceContext::RSSetState (d3d11.h)
-description: Set the rasterizer state for the rasterizer stage of the pipeline.
+description: Set the rasterizer state for the rasterizer stage of the pipeline.helpviewer_keywords: ["6a517464-81db-3af7-335a-c1eefddd9385","ID3D11DeviceContext interface [Direct3D 11]","RSSetState method","ID3D11DeviceContext.RSSetState","ID3D11DeviceContext::RSSetState","RSSetState","RSSetState method [Direct3D 11]","RSSetState method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::RSSetState","direct3d11.id3d11devicecontext_rssetstate"]
 old-location: direct3d11\id3d11devicecontext_rssetstate.htm
 tech.root: direct3d11
 ms.assetid: aa76cd3f-5d08-48e7-bd38-ff4d7119eae3
@@ -63,15 +63,6 @@ Set the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11rasterizerstate">ID3D11RasterizerState</a>*</b>
 
 Pointer to a rasterizer-state interface (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11rasterizerstate">ID3D11RasterizerState</a>) to bind to the pipeline.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

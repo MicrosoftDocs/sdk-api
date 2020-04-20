@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoDecoderOutputView.GetDesc
 title: ID3D11VideoDecoderOutputView::GetDesc (d3d11.h)
-description: Gets the properties of the video decoder output view.
+description: Gets the properties of the video decoder output view.helpviewer_keywords: ["GetDesc","GetDesc method [Media Foundation]","GetDesc method [Media Foundation]","ID3D11VideoDecoderOutputView interface","ID3D11VideoDecoderOutputView interface [Media Foundation]","GetDesc method","ID3D11VideoDecoderOutputView.GetDesc","ID3D11VideoDecoderOutputView::GetDesc","d3d11/ID3D11VideoDecoderOutputView::GetDesc","mf.id3d11videodecoderoutputview_getdesc"]
 old-location: mf\id3d11videodecoderoutputview_getdesc.htm
 tech.root: medfound
 ms.assetid: 002BE600-2B4C-4337-BAA4-EC132FD3BC8A
@@ -61,15 +61,6 @@ Gets the properties of the video decoder output view.
 ### -param pDesc [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_output_view_desc">D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC</a> structure. The method fills the structure with the view properties.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

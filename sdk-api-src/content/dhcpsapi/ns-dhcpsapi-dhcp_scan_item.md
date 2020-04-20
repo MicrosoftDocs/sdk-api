@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_SCAN_ITEM
 title: DHCP_SCAN_ITEM (dhcpsapi.h)
-description: The DHCP_SCAN_ITEM structure defines a desynchronized client lease address stored on a DHCPv4 server, and the location in which it should be fixed (in-memory cache or database).
+description: The DHCP_SCAN_ITEM structure defines a desynchronized client lease address stored on a DHCPv4 server, and the location in which it should be fixed (in-memory cache or database).helpviewer_keywords: ["*LPDHCP_SCAN_ITEM","DHCP_SCAN_ITEM","DHCP_SCAN_ITEM structure [DHCP]","LPDHCP_SCAN_ITEM","LPDHCP_SCAN_ITEM structure pointer [DHCP]","dhcp.dhcp_scan_item","dhcpsapi/LPDHCP_SCAN_ITEM","dhcpsapi/_DHCP_SCAN_ITEM"]
 old-location: dhcp\dhcp_scan_item.htm
 tech.root: DHCP
 ms.assetid: 82e36660-fb56-4334-97d0-c34facad55a6

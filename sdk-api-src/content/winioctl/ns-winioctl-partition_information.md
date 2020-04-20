@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._PARTITION_INFORMATION
 title: PARTITION_INFORMATION
-description: Contains information about a disk partition.
+description: Contains information about a disk partition.helpviewer_keywords: ["*PPARTITION_INFORMATION","PARTITION_INFORMATION","PARTITION_INFORMATION structure [Files]","PPARTITION_INFORMATION","PPARTITION_INFORMATION structure pointer [Files]","_win32_partition_information_str","base.partition_information_str","fs.partition_information_str","winioctl/PARTITION_INFORMATION","winioctl/PPARTITION_INFORMATION"]
 old-location: fs\partition_information_str.htm
 tech.root: FileIO
 ms.assetid: 2c8fa83a-0694-4e17-a9e4-87f839a0d458

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgAttribute.GetElement
 title: ID2D1SvgAttribute::GetElement (d2d1svg.h)
-description: Returns the element on which this attribute is set. Returns null if the attribute is not set on any element.
+description: Returns the element on which this attribute is set. Returns null if the attribute is not set on any element.helpviewer_keywords: ["GetElement","GetElement method [Direct2D]","GetElement method [Direct2D]","ID2D1SvgAttribute interface","ID2D1SvgAttribute interface [Direct2D]","GetElement method","ID2D1SvgAttribute.GetElement","ID2D1SvgAttribute::GetElement","d2d1svg/ID2D1SvgAttribute::GetElement","direct2d.id2d1svgattribute_getelement"]
 old-location: direct2d\id2d1svgattribute_getelement.htm
 tech.root: Direct2D
 ms.assetid: F02A13BF-955A-4D74-BC12-F1E6DCFFCCE9
@@ -62,15 +62,6 @@ Returns the element on which this attribute is set. Returns null if the attribut
 Type: <b>ID2D1SvgElement**</b>
 
 When this method completes, this will contain a pointer to the element on which this attribute is set.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

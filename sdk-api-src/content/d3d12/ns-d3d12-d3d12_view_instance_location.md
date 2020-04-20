@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_VIEW_INSTANCE_LOCATION
 title: D3D12_VIEW_INSTANCE_LOCATION (d3d12.h)
-description: Specifies the viewport/stencil and render target associated with a view instance.
+description: Specifies the viewport/stencil and render target associated with a view instance.helpviewer_keywords: ["D3D12_VIEW_INSTANCE_LOCATION","D3D12_VIEW_INSTANCE_LOCATION structure","d3d12/D3D12_VIEW_INSTANCE_LOCATION","direct3d12.d3d12_view_instance_location"]
 old-location: direct3d12\d3d12_view_instance_location.htm
 tech.root: direct3d12
 ms.assetid: 10E5956E-6DFB-447D-8D1A-C1A41A1C4A03

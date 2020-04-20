@@ -1,7 +1,7 @@
 ---
 UID: NL:textserv.ITextServices2
 title: ITextServices2 (textserv.h)
-description: The ITextServices2 interface extends the ITextServices interface.
+description: The ITextServices2 interface extends the ITextServices interface.helpviewer_keywords: ["ITextServices2","ITextServices2 interface [Windows Controls]","ITextServices2 interface [Windows Controls]","described","controls.itextservices2","textserv/ITextServices2"]
 old-location: controls\itextservices2.htm
 tech.root: Controls
 ms.assetid: B5DC90BA-F9A5-45DC-8C8A-784380C38769

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetFirstChild
 title: ID2D1SvgElement::GetFirstChild (d2d1svg.h)
-description: Gets the first child of this element.
+description: Gets the first child of this element.helpviewer_keywords: ["GetFirstChild","GetFirstChild method [Direct2D]","GetFirstChild method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetFirstChild method","ID2D1SvgElement.GetFirstChild","ID2D1SvgElement::GetFirstChild","d2d1svg/ID2D1SvgElement::GetFirstChild","direct2d.id2d1svgelement_getfirstchild"]
 old-location: direct2d\id2d1svgelement_getfirstchild.htm
 tech.root: Direct2D
 ms.assetid: 6EA233AE-CC2C-442D-A8CE-FF3DC645785A
@@ -62,15 +62,6 @@ Gets the first child of this element.
 Type: <b>ID2D1SvgElement**</b>
 
 Outputs the first child of this element.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

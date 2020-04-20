@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.ProcessEvent
 title: IMFDeviceTransform::ProcessEvent (mftransform.h)
-description: The ProcessEvent method sends an event to an input stream on this Media Foundation transform (MFT).
+description: The ProcessEvent method sends an event to an input stream on this Media Foundation transform (MFT).helpviewer_keywords: ["IMFDeviceTransform interface [Streaming Media Devices]","ProcessEvent method","IMFDeviceTransform.ProcessEvent","IMFDeviceTransform::ProcessEvent","ProcessEvent","ProcessEvent method [Streaming Media Devices]","ProcessEvent method [Streaming Media Devices]","IMFDeviceTransform interface","mftransform/IMFDeviceTransform::ProcessEvent","stream.imfdevicetransform_processevent"]
 old-location: stream\imfdevicetransform_processevent.htm
 tech.root: stream
 ms.assetid: 6E8B208C-A492-41C8-9A86-34B11375053B

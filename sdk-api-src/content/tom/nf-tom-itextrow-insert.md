@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.Insert
 title: ITextRow::Insert (tom.h)
-description: Inserts a row, or rows, at the location identified by the associated ITextRange2 object.
+description: Inserts a row, or rows, at the location identified by the associated ITextRange2 object.helpviewer_keywords: ["ITextRow interface [Windows Controls]","Insert method","ITextRow.Insert","ITextRow::Insert","Insert","Insert method [Windows Controls]","Insert method [Windows Controls]","ITextRow interface","controls.itextrow_insert","tom/ITextRow::Insert"]
 old-location: controls\itextrow_insert.htm
 tech.root: Controls
 ms.assetid: b46a6391-7332-4cca-8199-d801a1e4c299

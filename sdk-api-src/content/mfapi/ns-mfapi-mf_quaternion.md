@@ -1,7 +1,7 @@
 ---
 UID: NS:mfapi._MF_QUATERNION
 title: MF_QUATERNION (mfapi.h)
-description: A four dimensional vector, used to represent a rotation.
+description: A four dimensional vector, used to represent a rotation.helpviewer_keywords: ["MF_QUATERNION","MF_QUATERNION structure [Media Foundation]","PMF_QUATERNION","PMF_QUATERNION structure pointer [Media Foundation]","mf.mf_quaternion","mfapi/MF_QUATERNION","mfapi/PMF_QUATERNION"]
 old-location: mf\mf_quaternion.htm
 tech.root: medfound
 ms.assetid: 109C0C32-0465-46A6-8851-E56159BE6FD0

@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveSubnetElementV5
 title: DhcpRemoveSubnetElementV5 function (dhcpsapi.h)
-description: The DhcpRemoveSubnetElementV5 function removes an element from a subnet defined on the DHCP server.
+description: The DhcpRemoveSubnetElementV5 function removes an element from a subnet defined on the DHCP server.helpviewer_keywords: ["DhcpRemoveSubnetElementV5","DhcpRemoveSubnetElementV5 function [DHCP]","dhcp.dhcpremovesubnetelementv5","dhcpsapi/DhcpRemoveSubnetElementV5"]
 old-location: dhcp\dhcpremovesubnetelementv5.htm
 tech.root: DHCP
 ms.assetid: 8232b2cc-0bb1-4509-ad5f-6d1d1ece9fe5

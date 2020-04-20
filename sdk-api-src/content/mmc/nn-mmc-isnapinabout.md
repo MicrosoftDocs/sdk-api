@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.ISnapinAbout
 title: ISnapinAbout (mmc.h)
-description: The ISnapinAbout interface enables the console to get copyright and version information from a snap-in. The console also uses this interface to obtain images for the static folder from the snap-in.
+description: The ISnapinAbout interface enables the console to get copyright and version information from a snap-in. The console also uses this interface to obtain images for the static folder from the snap-in.helpviewer_keywords: ["ISnapinAbout","ISnapinAbout interface [MMC]","ISnapinAbout interface [MMC]","described","_slate_isnapinabout","mmc.isnapinabout","mmc/ISnapinAbout"]
 old-location: mmc\isnapinabout.htm
 tech.root: mmc
 ms.assetid: 39732334-f849-433b-a313-0c4a675bf408

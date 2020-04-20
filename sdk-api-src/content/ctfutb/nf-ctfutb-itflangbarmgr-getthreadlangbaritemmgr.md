@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetThreadLangBarItemMgr
 title: ITfLangBarMgr::GetThreadLangBarItemMgr (ctfutb.h)
-description: ITfLangBarMgr::GetThreadLangBarItemMgr method
+description: ITfLangBarMgr::GetThreadLangBarItemMgr methodhelpviewer_keywords: ["GetThreadLangBarItemMgr","GetThreadLangBarItemMgr method [Text Services Framework]","GetThreadLangBarItemMgr method [Text Services Framework]","ITfLangBarMgr interface","ITfLangBarMgr interface [Text Services Framework]","GetThreadLangBarItemMgr method","ITfLangBarMgr.GetThreadLangBarItemMgr","ITfLangBarMgr::GetThreadLangBarItemMgr","_tsf_itflangbarmgr_getthreadlangbaritemmgr_ref","ctfutb/ITfLangBarMgr::GetThreadLangBarItemMgr","tsf.itflangbarmgr_getthreadlangbaritemmgr"]
 old-location: tsf\itflangbarmgr_getthreadlangbaritemmgr.htm
 tech.root: TSF
 ms.assetid: 3ca37268-eb27-4d8b-9a16-306f77369e8f
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Should not be used.
 
 ## -parameters
 

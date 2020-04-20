@@ -1,7 +1,7 @@
 ---
 UID: NF:activationregistration.IActivatableClassRegistration.get_ActivationType
 title: IActivatableClassRegistration::get_ActivationType (activationregistration.h)
-description: Gets the kind of activation for the current activatable class.
+description: Gets the kind of activation for the current activatable class.helpviewer_keywords: ["IActivatableClassRegistration interface [Windows Runtime]","get_ActivationType method","IActivatableClassRegistration.get_ActivationType","IActivatableClassRegistration::get_ActivationType","activationregistration/IActivatableClassRegistration::get_ActivationType","get_ActivationType","get_ActivationType method [Windows Runtime]","get_ActivationType method [Windows Runtime]","IActivatableClassRegistration interface","winrt.iactivatableclassregistration_activationtype"]
 old-location: winrt\iactivatableclassregistration_activationtype.htm
 tech.root: WinRT
 ms.assetid: 145DF7F2-839A-4B94-B4DC-BA2103A04D2F

@@ -1,7 +1,7 @@
 ---
 UID: NN:vpnotify.IVPNotify2
 title: IVPNotify2 (vpnotify.h)
-description: The IVPNotify2 interface inherits from IVPNotify and is implemented by the Overlay Mixer filter.
+description: The IVPNotify2 interface inherits from IVPNotify and is implemented by the Overlay Mixer filter.helpviewer_keywords: ["IVPNotify2","IVPNotify2 interface [DirectShow]","IVPNotify2 interface [DirectShow]","described","IVPNotify2Interface","dshow.ivpnotify2","vpnotify/IVPNotify2"]
 old-location: dshow\ivpnotify2.htm
 tech.root: DirectShow
 ms.assetid: 8d5fc7ee-93ee-4297-ba24-0eed63bec1ea

@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntryCreate
 title: MprAdminMIBEntryCreate function (mprapi.h)
-description: The MprAdminMIBEntryCreate function creates an entry for one of the variables exported by a routing protocol or router manager.
+description: The MprAdminMIBEntryCreate function creates an entry for one of the variables exported by a routing protocol or router manager.helpviewer_keywords: ["MprAdminMIBEntryCreate","MprAdminMIBEntryCreate function [RAS]","_mpr_mpradminmibentrycreate","mprapi/MprAdminMIBEntryCreate","rras.mpradminmibentrycreate"]
 old-location: rras\mpradminmibentrycreate.htm
 tech.root: RRAS
 ms.assetid: b634ed78-ca01-4128-aeeb-fd8585e64f75

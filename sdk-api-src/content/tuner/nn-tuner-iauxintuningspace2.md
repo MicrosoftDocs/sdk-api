@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IAuxInTuningSpace2
 title: IAuxInTuningSpace2 (tuner.h)
-description: This topic applies to Windows XP Media Center Edition 2004 and later.
+description: This topic applies to Windows XP Media Center Edition 2004 and later.helpviewer_keywords: ["IAuxInTuningSpace2","IAuxInTuningSpace2 interface [Microsoft TV Technologies]","IAuxInTuningSpace2 interface [Microsoft TV Technologies]","described","IAuxInTuningSpace2Interface","mstv.iauxintuningspace2","tuner/IAuxInTuningSpace2"]
 old-location: mstv\iauxintuningspace2.htm
 tech.root: mstv
 ms.assetid: 51d92eab-1cf0-451c-aefb-ca36360e29f7

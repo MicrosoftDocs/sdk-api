@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetSignatureMethod
 title: IXpsSigningOptions::GetSignatureMethod (xpsdigitalsignature.h)
-description: Gets the signature method.
+description: Gets the signature method.helpviewer_keywords: ["GetSignatureMethod","GetSignatureMethod method [XPS Documents and Packaging]","GetSignatureMethod method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetSignatureMethod method","IXpsSigningOptions.GetSignatureMethod","IXpsSigningOptions::GetSignatureMethod","xps.ixpssigningoptions_getsignaturemethod","xpsdigitalsignature/IXpsSigningOptions::GetSignatureMethod"]
 old-location: xps\ixpssigningoptions_getsignaturemethod.htm
 tech.root: printdocs
 ms.assetid: ab01420f-c401-463a-a695-4594c1f579d3

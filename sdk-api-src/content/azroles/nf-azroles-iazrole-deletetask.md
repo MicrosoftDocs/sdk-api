@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRole.DeleteTask
 title: IAzRole::DeleteTask (azroles.h)
-description: Removes the IAzTask object with the specified name from the role.
+description: Removes the IAzTask object with the specified name from the role.helpviewer_keywords: ["AzRole object [Security]","DeleteTask method","DeleteTask","DeleteTask method [Security]","DeleteTask method [Security]","AzRole object","DeleteTask method [Security]","IAzRole interface","IAzRole interface [Security]","DeleteTask method","IAzRole.DeleteTask","IAzRole::DeleteTask","azroles/IAzRole::DeleteTask","security.iazrole_deletetask"]
 old-location: security\iazrole_deletetask.htm
 tech.root: SecAuthZ
 ms.assetid: 62623d45-33a6-4e3f-b0a8-d3e3e7c9e33e

@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorRedGreenOrBlueGain
 title: GetMonitorRedGreenOrBlueGain function (highlevelmonitorconfigurationapi.h)
-description: Retrieves a monitor's red, green, or blue gain value.
+description: Retrieves a monitor's red, green, or blue gain value.helpviewer_keywords: ["GetMonitorRedGreenOrBlueGain","GetMonitorRedGreenOrBlueGain function [Monitor Configuration]","highlevelmonitorconfigurationapi/GetMonitorRedGreenOrBlueGain","monitor.getmonitorredgreenorbluegain"]
 old-location: monitor\getmonitorredgreenorbluegain.htm
 tech.root: Monitor
 ms.assetid: 058d70c4-a29c-4916-a4b9-911db5863363

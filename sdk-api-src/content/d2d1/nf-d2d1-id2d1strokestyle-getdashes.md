@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetDashes
 title: ID2D1StrokeStyle::GetDashes (d2d1.h)
-description: Copies the dash pattern to the specified array.
+description: Copies the dash pattern to the specified array.helpviewer_keywords: ["GetDashes","GetDashes method [Direct2D]","GetDashes method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetDashes method","ID2D1StrokeStyle.GetDashes","ID2D1StrokeStyle::GetDashes","d2d1/ID2D1StrokeStyle::GetDashes","direct2d.ID2D1StrokeStyle_GetDashes"]
 old-location: direct2d\ID2D1StrokeStyle_GetDashes.htm
 tech.root: Direct2D
 ms.assetid: b5add3b9-e052-4727-b14f-543fa452ad6d
@@ -69,15 +69,6 @@ A pointer to an array that will receive the dash pattern. The array must be able
 Type: <b>UINT</b>
 
 The number of dashes to copy. If this value is less than the number of dashes in the stroke style's dashes array, the returned dashes are truncated to <i>dashesCount</i>. If this value is greater than the number of dashes in the stroke style's dashes array, the extra dashes are set to 0.0f. To obtain the actual number of dashes in the stroke style's dashes array, use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1strokestyle-getdashescount">GetDashesCount</a> method. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

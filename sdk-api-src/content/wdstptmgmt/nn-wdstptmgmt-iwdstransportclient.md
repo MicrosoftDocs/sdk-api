@@ -1,7 +1,7 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportClient
 title: IWdsTransportClient (wdstptmgmt.h)
-description: Represents a WDS client that is joined to a transport session on a WDS transport server.
+description: Represents a WDS client that is joined to a transport session on a WDS transport server.helpviewer_keywords: ["IWdsTransportClient","IWdsTransportClient interface [Windows Deployment Services]","IWdsTransportClient interface [Windows Deployment Services]","described","wds.iwdstransportclient","wdstptmgmt/IWdsTransportClient"]
 old-location: wds\iwdstransportclient.htm
 tech.root: wds
 ms.assetid: 39534411-3d69-408d-b495-10851fe40bdf

@@ -1,7 +1,7 @@
 ---
 UID: NS:dinputd.DIDEVICESTATE
 title: DIDEVICESTATE (dinputd.h)
-description: The DIDEVICESTATE structure returns information about the state of a force feedback device.
+description: The DIDEVICESTATE structure returns information about the state of a force feedback device.helpviewer_keywords: ["*LPDIDEVICESTATE","DIDEVICESTATE","DIDEVICESTATE structure [Human Input Devices]","di_ref_53204ab2-7d3d-4a59-8359-ef3fd114147d.xml","dinputd/DIDEVICESTATE","hid.didevicestate"]
 old-location: hid\didevicestate.htm
 tech.root: hid
 ms.assetid: 86885ca6-0b1f-42cb-8d6e-d5140e579905

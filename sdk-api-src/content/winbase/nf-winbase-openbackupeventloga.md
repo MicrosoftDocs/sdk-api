@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.OpenBackupEventLogA
 title: OpenBackupEventLogA function (winbase.h)
-description: Opens a handle to a backup event log created by the BackupEventLog function.
+description: Opens a handle to a backup event log created by the BackupEventLog function.helpviewer_keywords: ["OpenBackupEventLog","OpenBackupEventLog function","OpenBackupEventLogA","OpenBackupEventLogW","_win32_openbackupeventlog","base.openbackupeventlog","winbase/OpenBackupEventLog","winbase/OpenBackupEventLogA","winbase/OpenBackupEventLogW"]
 old-location: base\openbackupeventlog.htm
 tech.root: EventLog
 ms.assetid: cfef0912-9d35-44aa-a1d3-f9bb37213ce0

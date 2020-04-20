@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextKeyEventSink.OnTestKeyDown
 title: ITfContextKeyEventSink::OnTestKeyDown (msctf.h)
-description: ITfContextKeyEventSink::OnTestKeyDown method
+description: ITfContextKeyEventSink::OnTestKeyDown methodhelpviewer_keywords: ["ITfContextKeyEventSink interface [Text Services Framework]","OnTestKeyDown method","ITfContextKeyEventSink.OnTestKeyDown","ITfContextKeyEventSink::OnTestKeyDown","OnTestKeyDown","OnTestKeyDown method [Text Services Framework]","OnTestKeyDown method [Text Services Framework]","ITfContextKeyEventSink interface","_tsf_itfcontextkeyeventsink_ontestkeydown_ref","msctf/ITfContextKeyEventSink::OnTestKeyDown","tsf.itfcontextkeyeventsink_ontestkeydown"]
 old-location: tsf\itfcontextkeyeventsink_ontestkeydown.htm
 tech.root: TSF
 ms.assetid: 26f22721-6d64-4637-92cd-8c18caa2d95f
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to determine if a text service will handle a key down event.
 
 ## -parameters
 
@@ -101,15 +100,4 @@ The method was successful.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextkeyeventsink">ITfContextKeyEventSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
- 
-
- 
-
+[ITfContextKeyEventSink interface](nn-msctf-itfcontextkeyeventsink.md), [WM_KEYDOWN](/windows/desktop/inputdev/wm-keydown)

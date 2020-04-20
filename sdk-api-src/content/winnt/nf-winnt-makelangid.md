@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.MAKELANGID
 title: MAKELANGID macro (winnt.h)
-description: Creates a language identifier from a primary language identifier and a sublanguage identifier.
+description: Creates a language identifier from a primary language identifier and a sublanguage identifier.helpviewer_keywords: ["MAKELANGID","MAKELANGID macro [Internationalization for Windows Applications]","_win32_MAKELANGID","intl.makelangid","winnt/MAKELANGID"]
 old-location: intl\makelangid.htm
 tech.root: Intl
 ms.assetid: cdf6424a-bf2b-4c14-8bc7-8b5f04c29ed3

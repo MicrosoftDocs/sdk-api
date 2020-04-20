@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceQuery.Execute
 title: IFunctionInstanceQuery::Execute (functiondiscoveryapi.h)
-description: Performs the query defined by IFunctionDiscovery::CreateInstanceQuery.
+description: Performs the query defined by IFunctionDiscovery::CreateInstanceQuery.helpviewer_keywords: ["Execute","Execute method","Execute method","IFunctionInstanceQuery interface","IFunctionInstanceQuery interface","Execute method","IFunctionInstanceQuery.Execute","IFunctionInstanceQuery::Execute","functiondiscoveryapi/IFunctionInstanceQuery::Execute","ncd.ifunctioninstancequery_execute_method"]
 old-location: ncd\ifunctioninstancequery_execute_method.htm
 tech.root: FunDisc
 ms.assetid: 42618944-6ae6-45f0-85f9-3c958d719ed2

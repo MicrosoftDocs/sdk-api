@@ -1,7 +1,7 @@
 ---
 UID: NE:ntdsapi._DS_REPL_OP_TYPE
 title: DS_REPL_OP_TYPE (ntdsapi.h)
-description: Used to indicate the type of replication operation that a given entry in the replication queue represents.
+description: Used to indicate the type of replication operation that a given entry in the replication queue represents.helpviewer_keywords: ["DS_REPL_OP_TYPE","DS_REPL_OP_TYPE enumeration [Active Directory]","DS_REPL_OP_TYPE_ADD","DS_REPL_OP_TYPE_DELETE","DS_REPL_OP_TYPE_MODIFY","DS_REPL_OP_TYPE_SYNC","DS_REPL_OP_TYPE_UPDATE_REFS","_glines_ds_repl_op_type","ad.ds__repl__op__type","ad.ds_repl_op_type","ntdsapi/DS_REPL_OP_TYPE","ntdsapi/DS_REPL_OP_TYPE_ADD","ntdsapi/DS_REPL_OP_TYPE_DELETE","ntdsapi/DS_REPL_OP_TYPE_MODIFY","ntdsapi/DS_REPL_OP_TYPE_SYNC","ntdsapi/DS_REPL_OP_TYPE_UPDATE_REFS"]
 old-location: ad\ds_repl_op_type.htm
 tech.root: ad
 ms.assetid: 81d9f464-90f4-405c-b014-0a61f5a5b816

@@ -1,7 +1,7 @@
 ---
 UID: NS:winternl._RTL_USER_PROCESS_PARAMETERS
 title: RTL_USER_PROCESS_PARAMETERS (winternl.h)
-description: Contains process parameter information.
+description: Contains process parameter information.helpviewer_keywords: ["*PRTL_USER_PROCESS_PARAMETERS","PRTL_USER_PROCESS_PARAMETERS","PRTL_USER_PROCESS_PARAMETERS structure pointer","RTL_USER_PROCESS_PARAMETERS","RTL_USER_PROCESS_PARAMETERS structure","base.rtl_user_process_parameters","winternl/PRTL_USER_PROCESS_PARAMETERS","winternl/RTL_USER_PROCESS_PARAMETERS"]
 old-location: base\rtl_user_process_parameters.htm
 tech.root: ProcThread
 ms.assetid: e736aefa-9945-4526-84d8-adb6e82b9991

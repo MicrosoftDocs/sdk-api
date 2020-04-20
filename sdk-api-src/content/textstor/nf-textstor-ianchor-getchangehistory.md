@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.IAnchor.GetChangeHistory
 title: IAnchor::GetChangeHistory (textstor.h)
-description: The IAnchor::GetChangeHistory method gets the history of deletions that have occurred immediately preceding or following the anchor.
+description: The IAnchor::GetChangeHistory method gets the history of deletions that have occurred immediately preceding or following the anchor.helpviewer_keywords: ["GetChangeHistory","GetChangeHistory method [Text Services Framework]","GetChangeHistory method [Text Services Framework]","IAnchor interface","IAnchor interface [Text Services Framework]","GetChangeHistory method","IAnchor.GetChangeHistory","IAnchor::GetChangeHistory","TS_CH_FOLLOWING_DEL","TS_CH_PRECEDING_DEL","textstor/IAnchor::GetChangeHistory","tsf.ianchor_getchangehistory"]
 old-location: tsf\ianchor_getchangehistory.htm
 tech.root: TSF
 ms.assetid: d373a379-1d27-4438-abaf-2e11f2332790

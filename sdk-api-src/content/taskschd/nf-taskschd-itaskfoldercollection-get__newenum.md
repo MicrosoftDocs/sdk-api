@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskFolderCollection.get__NewEnum
 title: ITaskFolderCollection::get__NewEnum (taskschd.h)
-description: Gets the collection enumerator for the folder collection.
+description: Gets the collection enumerator for the folder collection.helpviewer_keywords: ["ITaskFolderCollection interface [Task Scheduler]","_NewEnum property","ITaskFolderCollection._NewEnum","ITaskFolderCollection.get__NewEnum","ITaskFolderCollection::_NewEnum","ITaskFolderCollection::get__NewEnum","_NewEnum property [Task Scheduler]","_NewEnum property [Task Scheduler]","ITaskFolderCollection interface","get__NewEnum","taskschd.itaskfoldercollection__newenum","taskschd/ITaskFolderCollection::_NewEnum","taskschd/ITaskFolderCollection::get__NewEnum"]
 old-location: taskschd\itaskfoldercollection__newenum.htm
 tech.root: taskschd
 ms.assetid: 6b412a88-7096-44b4-8d80-356a3488c957

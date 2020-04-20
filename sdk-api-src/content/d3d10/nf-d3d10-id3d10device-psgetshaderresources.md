@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSGetShaderResources
 title: ID3D10Device::PSGetShaderResources (d3d10.h)
-description: Get the pixel shader resources.
+description: Get the pixel shader resources.helpviewer_keywords: ["54b6aa73-f39a-9734-0be4-f47362f38b2f","ID3D10Device interface [Direct3D 10]","PSGetShaderResources method","ID3D10Device.PSGetShaderResources","ID3D10Device::PSGetShaderResources","PSGetShaderResources","PSGetShaderResources method [Direct3D 10]","PSGetShaderResources method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::PSGetShaderResources","direct3d10.id3d10device_psgetshaderresources"]
 old-location: direct3d10\id3d10device_psgetshaderresources.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_psgetshaderresources.htm
@@ -77,15 +77,6 @@ The number of resources to get from the device. Up to a maximum of 128 slots are
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview">ID3D10ShaderResourceView</a>**</b>
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview">shader resource view</a> interfaces to be returned by the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

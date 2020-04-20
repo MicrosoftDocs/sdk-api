@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetScreenExt
 title: ITfContextOwner::GetScreenExt (msctf.h)
-description: The ITfContextOwner::GetScreenExt method returns the bounding box, in screen coordinates, of the display surface where the text stream is rendered.
+description: The ITfContextOwner::GetScreenExt method returns the bounding box, in screen coordinates, of the display surface where the text stream is rendered.helpviewer_keywords: ["GetScreenExt","GetScreenExt method [Text Services Framework]","GetScreenExt method [Text Services Framework]","ITfContextOwner interface","ITfContextOwner interface [Text Services Framework]","GetScreenExt method","ITfContextOwner.GetScreenExt","ITfContextOwner::GetScreenExt","_tsf_itfcontextowner_getscreenext_ref","msctf/ITfContextOwner::GetScreenExt","tsf.itfcontextowner_getscreenext"]
 old-location: tsf\itfcontextowner_getscreenext.htm
 tech.root: TSF
 ms.assetid: 499a446d-1575-4636-b444-dd6078ed8736

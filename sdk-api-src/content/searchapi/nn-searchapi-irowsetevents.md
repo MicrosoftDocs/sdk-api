@@ -1,7 +1,7 @@
 ---
 UID: NN:searchapi.IRowsetEvents
 title: IRowsetEvents (searchapi.h)
-description: Exposes methods for receiving event notifications.
+description: Exposes methods for receiving event notifications.helpviewer_keywords: ["IRowsetEvents","IRowsetEvents interface [search]","IRowsetEvents interface [search]","described","_search_IRowsetEvents","search._search_IRowsetEvents","searchapi/IRowsetEvents"]
 old-location: search\_search_IRowsetEvents.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\irowsetevents.htm

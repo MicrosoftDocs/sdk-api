@@ -1,7 +1,7 @@
 ---
 UID: NS:ws2def.addrinfo
 title: ADDRINFOA (ws2def.h)
-description: Used by the getaddrinfo function to hold host address information.
+description: Used by the getaddrinfo function to hold host address information.helpviewer_keywords: ["*PADDRINFOA","ADDRINFOA","ADDRINFOA structure [Winsock]","AF_BTH","AF_INET","AF_INET6","AF_IRDA","AF_NETBIOS","AF_UNSPEC","AI_ADDRCONFIG","AI_ALL","AI_CANONNAME","AI_FILESERVER","AI_FQDN","AI_NON_AUTHORITATIVE","AI_NUMERICHOST","AI_PASSIVE","AI_RETURN_PREFERRED_NAMES","AI_SECURE","AI_V4MAPPED","IPPROTO_RM","IPPROTO_TCP","IPPROTO_UDP","PADDRINFOA","PADDRINFOA structure pointer [Winsock]","SOCK_DGRAM","SOCK_RAW","SOCK_RDM","SOCK_SEQPACKET","SOCK_STREAM","_win32_addrinfo_2","addrinfo","addrinfo structure [Winsock]","winsock.addrinfo_2","ws2def/PADDRINFOA","ws2def/addrinfo","ws2tcpip/PADDRINFOA","ws2tcpip/addrinfo","wspiapi/PADDRINFOA","wspiapi/addrinfo"]
 old-location: winsock\addrinfo_2.htm
 tech.root: WinSock
 ms.assetid: 4df914ab-59b0-4110-bc81-59e5f6722b8d

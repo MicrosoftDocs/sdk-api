@@ -1,7 +1,7 @@
 ---
 UID: NC:oobenotification.OOBE_COMPLETED_CALLBACK
 title: OOBE_COMPLETED_CALLBACK (oobenotification.h)
-description: Application-defined callback function used with the RegisterWaitUntilOOBECompleted function.
+description: Application-defined callback function used with the RegisterWaitUntilOOBECompleted function.helpviewer_keywords: ["OOBE_COMPLETED_CALLBACK","OOBE_COMPLETED_CALLBACK callback","OOBE_COMPLETED_CALLBACK callback function","oobenotification/OOBE_COMPLETED_CALLBACK","windowssetupandmigration.oobe_completed_callback"]
 old-location: windowssetupandmigration\oobe_completed_callback.htm
 tech.root: WNF
 ms.assetid: 9786D6C3-82B1-4546-9BE9-7705AD3B7DBD
@@ -60,15 +60,6 @@ Application-defined callback function used with the <a href="https://docs.micros
 ### -param CallbackContext
 
 Pointer to the callback context. This is the value passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a> function as the <i>CallbackContext</i> parameter.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

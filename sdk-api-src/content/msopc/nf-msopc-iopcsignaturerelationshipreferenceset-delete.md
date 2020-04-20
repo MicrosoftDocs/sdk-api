@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceSet.Delete
 title: IOpcSignatureRelationshipReferenceSet::Delete (msopc.h)
-description: Deletes a specified IOpcSignatureRelationshipReference interface pointer from the set.
+description: Deletes a specified IOpcSignatureRelationshipReference interface pointer from the set.helpviewer_keywords: ["Delete","Delete method [Open Packaging Conventions]","Delete method [Open Packaging Conventions]","IOpcSignatureRelationshipReferenceSet interface","IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions]","Delete method","IOpcSignatureRelationshipReferenceSet.Delete","IOpcSignatureRelationshipReferenceSet::Delete","msopc/IOpcSignatureRelationshipReferenceSet::Delete","opc.iopcsignaturerelationshipreferenceset_delete"]
 old-location: opc\iopcsignaturerelationshipreferenceset_delete.htm
 tech.root: OPC
 ms.assetid: b4f09a75-5c9d-4870-80e1-3c589435a6b7

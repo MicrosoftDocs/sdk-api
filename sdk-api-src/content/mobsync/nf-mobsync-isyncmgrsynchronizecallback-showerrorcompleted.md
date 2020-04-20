@@ -1,7 +1,7 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.ShowErrorCompleted
 title: ISyncMgrSynchronizeCallback::ShowErrorCompleted (mobsync.h)
-description: Called by the registered application's handler before or after its PrepareForSync operation has been completed.
+description: Called by the registered application's handler before or after its PrepareForSync operation has been completed.helpviewer_keywords: ["ISyncMgrSynchronizeCallback interface [Windows Shell]","ShowErrorCompleted method","ISyncMgrSynchronizeCallback.ShowErrorCompleted","ISyncMgrSynchronizeCallback::ShowErrorCompleted","ShowErrorCompleted","ShowErrorCompleted method [Windows Shell]","ShowErrorCompleted method [Windows Shell]","ISyncMgrSynchronizeCallback interface","mobsync/ISyncMgrSynchronizeCallback::ShowErrorCompleted","shell.syncmgr_isyncmgrsynchronizecallback_showerrorcompleted","syncmgr.isyncmgrsynchronizecallback_showerrorcompleted"]
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_showerrorcompleted.htm
 tech.root: shell
 ms.assetid: 7441f8d3-1b9b-400f-a2c4-ec67f7677a32

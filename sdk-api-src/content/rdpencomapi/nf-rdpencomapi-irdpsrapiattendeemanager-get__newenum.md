@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeManager.get__NewEnum
 title: IRDPSRAPIAttendeeManager::get__NewEnum (rdpencomapi.h)
-description: An enumerator interface for the attendee collection.
+description: An enumerator interface for the attendee collection.helpviewer_keywords: ["IRDPSRAPIAttendeeManager interface [RDP]","_NewEnum property","IRDPSRAPIAttendeeManager._NewEnum","IRDPSRAPIAttendeeManager.get__NewEnum","IRDPSRAPIAttendeeManager::_NewEnum","IRDPSRAPIAttendeeManager::get__NewEnum","RDPSRAPIAttendeeManager object [RDP]","_NewEnum property","_NewEnum property [RDP]","_NewEnum property [RDP]","IRDPSRAPIAttendeeManager interface","_NewEnum property [RDP]","RDPSRAPIAttendeeManager object","get__NewEnum","rdp.irdpsrapiattendeemanager__newenum","rdpencomapi/IRDPSRAPIAttendeeManager::_NewEnum","rdpencomapi/IRDPSRAPIAttendeeManager::get__NewEnum"]
 old-location: rdp\irdpsrapiattendeemanager__newenum.htm
 tech.root: rdp
 ms.assetid: f79bfd9c-b9f9-4da4-977c-cae8f11ba239

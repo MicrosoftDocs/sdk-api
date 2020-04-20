@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeMgr.EnumDisplayAttributeInfo
 title: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo (msctf.h)
-description: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo method
+description: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo methodhelpviewer_keywords: ["EnumDisplayAttributeInfo","EnumDisplayAttributeInfo method [Text Services Framework]","EnumDisplayAttributeInfo method [Text Services Framework]","ITfDisplayAttributeMgr interface","ITfDisplayAttributeMgr interface [Text Services Framework]","EnumDisplayAttributeInfo method","ITfDisplayAttributeMgr.EnumDisplayAttributeInfo","ITfDisplayAttributeMgr::EnumDisplayAttributeInfo","_tsf_itfdisplayattributemgr_enumdisplayattributeinfo_ref","msctf/ITfDisplayAttributeMgr::EnumDisplayAttributeInfo","tsf.itfdisplayattributemgr_enumdisplayattributeinfo"]
 old-location: tsf\itfdisplayattributemgr_enumdisplayattributeinfo.htm
 tech.root: TSF
 ms.assetid: ea0cb5b1-46a3-43c6-a109-1972d3fcbc18
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a display attribute enumerator object.
 
 ## -parameters
 
@@ -124,16 +123,4 @@ The enumerator object cannot be initialized.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdisplayattributeinfo">IEnumTfDisplayAttributeInfo
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributemgr">ITfDisplayAttributeMgr</a>
- 
-
- 
-
+[ITfDisplayAttributeMgr interface](nn-msctf-itfdisplayattributemgr.md), [IEnumTfDisplayAttributeInfo interface](nn-msctf-ienumtfdisplayattributeinfo.md)

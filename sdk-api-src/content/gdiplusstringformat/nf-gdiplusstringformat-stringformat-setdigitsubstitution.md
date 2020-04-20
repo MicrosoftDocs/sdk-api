@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetDigitSubstitution
 title: StringFormat::SetDigitSubstitution (gdiplusstringformat.h)
-description: The StringFormat::SetDigitSubstitution method sets the digit substitution method and the language that corresponds to the digit substitutes.
+description: The StringFormat::SetDigitSubstitution method sets the digit substitution method and the language that corresponds to the digit substitutes.helpviewer_keywords: ["SetDigitSubstitution","SetDigitSubstitution method [GDI+]","SetDigitSubstitution method [GDI+]","StringFormat class","StringFormat class [GDI+]","SetDigitSubstitution method","StringFormat.SetDigitSubstitution","StringFormat::SetDigitSubstitution","_gdiplus_CLASS_StringFormat_SetDigitSubstitution_language_substitute_","gdiplus._gdiplus_CLASS_StringFormat_SetDigitSubstitution_language_substitute_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetDigitSubstitution_language_substitute_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setdigitsubstitution.htm

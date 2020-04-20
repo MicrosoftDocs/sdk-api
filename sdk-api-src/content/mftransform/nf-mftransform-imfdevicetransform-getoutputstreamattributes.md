@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetOutputStreamAttributes
 title: IMFDeviceTransform::GetOutputStreamAttributes (mftransform.h)
-description: The GetOutputStreamAttributes method gets the attribute store for an output stream on this Media Foundation transform (MFT).
+description: The GetOutputStreamAttributes method gets the attribute store for an output stream on this Media Foundation transform (MFT).helpviewer_keywords: ["GetOutputStreamAttributes","GetOutputStreamAttributes method [Streaming Media Devices]","GetOutputStreamAttributes method [Streaming Media Devices]","IMFDeviceTransform interface","IMFDeviceTransform interface [Streaming Media Devices]","GetOutputStreamAttributes method","IMFDeviceTransform.GetOutputStreamAttributes","IMFDeviceTransform::GetOutputStreamAttributes","mftransform/IMFDeviceTransform::GetOutputStreamAttributes","stream.imfdevicetransform_getoutputstreamattributes"]
 old-location: stream\imfdevicetransform_getoutputstreamattributes.htm
 tech.root: stream
 ms.assetid: ABC8699B-0DFB-401B-9DB2-F3EBA5A64C8B

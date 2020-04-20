@@ -1,7 +1,7 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.UnRegisterNotificationSink
 title: IWSDiscoveryPublisher::UnRegisterNotificationSink (wsddisco.h)
-description: Detaches a callback notification sink from the discovery publisher.
+description: Detaches a callback notification sink from the discovery publisher.helpviewer_keywords: ["IWSDiscoveryPublisher interface","UnRegisterNotificationSink method","IWSDiscoveryPublisher.UnRegisterNotificationSink","IWSDiscoveryPublisher::UnRegisterNotificationSink","UnRegisterNotificationSink","UnRegisterNotificationSink method","UnRegisterNotificationSink method","IWSDiscoveryPublisher interface","ncd.iwsdiscoverypublisher_unregisternotificationsink_method","wsddisco/IWSDiscoveryPublisher::UnRegisterNotificationSink"]
 old-location: ncd\iwsdiscoverypublisher_unregisternotificationsink_method.htm
 tech.root: WsdApi
 ms.assetid: aaf6bc07-8ce9-41f7-b468-971b31b51a86

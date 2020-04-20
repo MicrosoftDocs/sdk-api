@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.CancelWaitableTimer
 title: CancelWaitableTimer function (synchapi.h)
-description: Sets the specified waitable timer to the inactive state.
+description: Sets the specified waitable timer to the inactive state.helpviewer_keywords: ["CancelWaitableTimer","CancelWaitableTimer function","_win32_cancelwaitabletimer","base.cancelwaitabletimer","synchapi/CancelWaitableTimer","winbase/CancelWaitableTimer"]
 old-location: base\cancelwaitabletimer.htm
 tech.root: Sync
 ms.assetid: 614a237b-71b3-4091-975d-4c0b3cd6ec69

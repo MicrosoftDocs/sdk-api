@@ -1,7 +1,7 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.Reset
 title: ICertEncodeAltName::Reset (certenc.h)
-description: Specifies the size of the alternate name array in this object. The value of all elements in the array are set to zero.
+description: Specifies the size of the alternate name array in this object. The value of all elements in the array are set to zero.helpviewer_keywords: ["CCertEncodeAltName object [Security]","Reset method","ICertEncodeAltName interface [Security]","Reset method","ICertEncodeAltName.Reset","ICertEncodeAltName::Reset","Reset","Reset method [Security]","Reset method [Security]","CCertEncodeAltName object","Reset method [Security]","ICertEncodeAltName interface","certenc/ICertEncodeAltName::Reset","security.icertencodealtname_reset"]
 old-location: security\icertencodealtname_reset.htm
 tech.root: SecCrypto
 ms.assetid: 99aa43fe-534b-4696-8bfc-7049b16be1cf

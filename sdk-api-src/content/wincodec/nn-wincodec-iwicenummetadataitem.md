@@ -1,7 +1,7 @@
 ---
 UID: NN:wincodec.IWICEnumMetadataItem
 title: IWICEnumMetadataItem (wincodec.h)
-description: Exposes methods that provide enumeration services for individual metadata items.
+description: Exposes methods that provide enumeration services for individual metadata items.helpviewer_keywords: ["IWICEnumMetadataItem","IWICEnumMetadataItem interface [Windows Imaging Component]","IWICEnumMetadataItem interface [Windows Imaging Component]","described","_wic_codec_iwicenummetadataitem","wic._wic_codec_iwicenummetadataitem","wincodec/IWICEnumMetadataItem"]
 old-location: wic\_wic_codec_iwicenummetadataitem.htm
 tech.root: wic
 ms.assetid: 4fe0e47f-9ef4-4aa1-a3ae-578b3759f9ef

@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.IsPropVariantVector
 title: IsPropVariantVector function (propvarutil.h)
-description: Specifies whether a PROPVARIANT structure has a vector type.
+description: Specifies whether a PROPVARIANT structure has a vector type.helpviewer_keywords: ["IsPropVariantVector","IsPropVariantVector function [Windows Properties]","properties.IsPropVariantVector","propvarutil/IsPropVariantVector","shell.IsPropVariantVector","shell_IsPropVariantVector"]
 old-location: properties\IsPropVariantVector.htm
 tech.root: properties
 ms.assetid: c094c636-e51d-4a61-8d92-90abe2f0446e

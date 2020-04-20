@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindNextDevice
 title: BluetoothFindNextDevice function (bluetoothapis.h)
-description: The BluetoothFindNextDevice function finds the next Bluetooth device.
+description: The BluetoothFindNextDevice function finds the next Bluetooth device.helpviewer_keywords: ["BluetoothFindNextDevice","BluetoothFindNextDevice function [Bluetooth]","bluetooth.bluetoothfindnextdevice","bluetoothapis/BluetoothFindNextDevice"]
 old-location: bluetooth\bluetoothfindnextdevice.htm
 tech.root: bluetooth
 ms.assetid: a17d87b2-91d7-4a03-bff7-9bc0ee48c3b4

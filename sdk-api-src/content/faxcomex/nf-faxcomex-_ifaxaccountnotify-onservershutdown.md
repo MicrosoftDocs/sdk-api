@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex._IFaxAccountNotify.OnServerShutDown
 title: _IFaxAccountNotify::OnServerShutDown (faxcomex.h)
-description: Called by the fax service when it shuts down.
+description: Called by the fax service when it shuts down.helpviewer_keywords: ["IFaxAccountNotify.OnServerShutDown","OnServerShutDown","OnServerShutDown method [Fax Service]","OnServerShutDown method [Fax Service]","_IFaxAccountNotify interface","_IFaxAccountNotify interface [Fax Service]","OnServerShutDown method","_IFaxAccountNotify.OnServerShutDown","_IFaxAccountNotify::OnServerShutDown","_mfax_ifaxaccountnotify_onservershutdown","fax._mfax_ifaxaccountnotify_onservershutdown","faxcomex/_IFaxAccountNotify::OnServerShutDown"]
 old-location: fax\_mfax_ifaxaccountnotify_onservershutdown.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onservershutdown.htm

@@ -1,7 +1,7 @@
 ---
 UID: NE:msxml6._XHR_CERT_IGNORE_FLAG
 title: XHR_CERT_IGNORE_FLAG (msxml6.h)
-description: Defines flags that you can assign to an outgoing HTTP request to ignore certain certificate errors by calling the SetProperty method on the IXMLHTTPRequest3 interface.
+description: Defines flags that you can assign to an outgoing HTTP request to ignore certain certificate errors by calling the SetProperty method on the IXMLHTTPRequest3 interface.helpviewer_keywords: ["XHR_CERT_IGNORE_ALL_SERVER_ERRORS","XHR_CERT_IGNORE_CERT_CN_INVALID","XHR_CERT_IGNORE_CERT_DATE_INVALID","XHR_CERT_IGNORE_FLAG","XHR_CERT_IGNORE_FLAG enumeration [XMLHttpRequest2]","XHR_CERT_IGNORE_REVOCATION_FAILED","XHR_CERT_IGNORE_UNKNOWN_CA","ixhr2.xhr_cert_ignore_flag","msxml6/XHR_CERT_IGNORE_ALL_SERVER_ERRORS","msxml6/XHR_CERT_IGNORE_CERT_CN_INVALID","msxml6/XHR_CERT_IGNORE_CERT_DATE_INVALID","msxml6/XHR_CERT_IGNORE_FLAG","msxml6/XHR_CERT_IGNORE_REVOCATION_FAILED","msxml6/XHR_CERT_IGNORE_UNKNOWN_CA"]
 old-location: ixhr2\xhr_cert_ignore_flag.htm
 tech.root: ixhr2
 ms.assetid: 22b7b3b0-a5e2-4cf1-af92-4fe66506fa40

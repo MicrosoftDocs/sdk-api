@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.IPrincipal2
 title: IPrincipal2 (taskschd.h)
-description: Provides the extended settings applied to security credentials for a principal.
+description: Provides the extended settings applied to security credentials for a principal.helpviewer_keywords: ["IPrincipal2","IPrincipal2 interface [Task Scheduler]","IPrincipal2 interface [Task Scheduler]","described","taskschd.iprincipal2","taskschd/IPrincipal2"]
 old-location: taskschd\iprincipal2.htm
 tech.root: taskschd
 ms.assetid: 480f8038-0f67-4a69-b6f6-d7ba881d9d57

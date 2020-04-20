@@ -1,7 +1,7 @@
 ---
 UID: NF:thumbnailstreamcache.IThumbnailStreamCache.GetThumbnailStream
 title: IThumbnailStreamCache::GetThumbnailStream (thumbnailstreamcache.h)
-description: Gets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
+description: Gets the thumbnail stream. This method is for internal use only and can only be called by the photos application.helpviewer_keywords: ["GetThumbnailStream","GetThumbnailStream method [Windows Shell]","GetThumbnailStream method [Windows Shell]","IThumbnailStreamCache interface","IThumbnailStreamCache interface [Windows Shell]","GetThumbnailStream method","IThumbnailStreamCache.GetThumbnailStream","IThumbnailStreamCache::GetThumbnailStream","shell.ithumbnailstreamcache_getthumbnailstream","thumbnailstreamcache/IThumbnailStreamCache::GetThumbnailStream"]
 old-location: shell\ithumbnailstreamcache_getthumbnailstream.htm
 tech.root: shell
 ms.assetid: 66A89AF9-DEBE-485C-B8E9-519F63386F7D

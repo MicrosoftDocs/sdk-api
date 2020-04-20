@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.IRdcSignatureReader.ReadHeader
 title: IRdcSignatureReader::ReadHeader (msrdc.h)
-description: Reads the signature header and returns a copy of the parameters used to generate the signatures.
+description: Reads the signature header and returns a copy of the parameters used to generate the signatures.helpviewer_keywords: ["IRdcSignatureReader interface [Remote Differential Compression]","ReadHeader method","IRdcSignatureReader.ReadHeader","IRdcSignatureReader::ReadHeader","ReadHeader","ReadHeader method [Remote Differential Compression]","ReadHeader method [Remote Differential Compression]","IRdcSignatureReader interface","fs.irdcsignaturereader_readheader","msrdc/IRdcSignatureReader::ReadHeader","rdc.irdcsignaturereader_readheader"]
 old-location: rdc\irdcsignaturereader_readheader.htm
 tech.root: rdc
 ms.assetid: c0f4d31d-338f-49fc-9f1a-e8e31ffa1bc7

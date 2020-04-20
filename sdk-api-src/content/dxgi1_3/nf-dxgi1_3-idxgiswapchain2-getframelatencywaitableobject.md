@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.GetFrameLatencyWaitableObject
 title: IDXGISwapChain2::GetFrameLatencyWaitableObject (dxgi1_3.h)
-description: Returns a waitable handle that signals when the DXGI adapter has finished presenting a new frame.
+description: Returns a waitable handle that signals when the DXGI adapter has finished presenting a new frame.helpviewer_keywords: ["GetFrameLatencyWaitableObject","GetFrameLatencyWaitableObject method [DXGI]","GetFrameLatencyWaitableObject method [DXGI]","IDXGISwapChain2 interface","IDXGISwapChain2 interface [DXGI]","GetFrameLatencyWaitableObject method","IDXGISwapChain2.GetFrameLatencyWaitableObject","IDXGISwapChain2::GetFrameLatencyWaitableObject","direct3ddxgi.idxgiswapchain2_getframelatencywaitableobject","dxgi1_3/IDXGISwapChain2::GetFrameLatencyWaitableObject"]
 old-location: direct3ddxgi\idxgiswapchain2_getframelatencywaitableobject.htm
 tech.root: direct3ddxgi
 ms.assetid: 70E7347F-C6F9-49FA-9796-B728CF3F7778

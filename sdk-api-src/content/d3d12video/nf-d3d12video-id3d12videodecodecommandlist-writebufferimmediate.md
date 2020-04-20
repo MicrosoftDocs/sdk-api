@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.WriteBufferImmediate
 title: ID3D12VideoDecodeCommandList::WriteBufferImmediate
-description: Writes a number of 32-bit immediate values to the specified buffer locations directly from the command stream.
+description: Writes a number of 32-bit immediate values to the specified buffer locations directly from the command stream.helpviewer_keywords: ["ID3D12VideoDecodeCommandList::WriteBufferImmediate","WriteBufferImmediate","ID3D12VideoDecodeCommandList.WriteBufferImmediate","ID3D12VideoDecodeCommandList::WriteBufferImmediate","ID3D12VideoDecodeCommandList.WriteBufferImmediate"]
 tech.root: mf
 ms.assetid: cdc54874-4d54-4595-8f19-17dc35ff670c
 ms.date: 05/28/2019
@@ -58,9 +58,6 @@ The address of an array of [D3D12_WRITEBUFFERIMMEDIATE_PARAMETER](https://docs.m
 
 ### -param pModes
 The address of an array of [D3D12_WRITEBUFFERIMMEDIATE_MODE](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode) structures of size *Count*. The default value is <b>null</b>. Passing <b>null</b> causes the system to write all immediate values using **D3D12_WRITEBUFFERIMMEDIATE_MODE_DEFAULT**.
-
-## -returns
-This method returns void.
 
 ## -remarks
 

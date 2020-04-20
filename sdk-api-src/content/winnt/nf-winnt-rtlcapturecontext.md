@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.RtlCaptureContext
 title: RtlCaptureContext function (winnt.h)
-description: Retrieves a context record in the context of the caller.
+description: Retrieves a context record in the context of the caller.helpviewer_keywords: ["RtlCaptureContext","RtlCaptureContext function","base.rtlcapturecontext","winnt/RtlCaptureContext"]
 old-location: base\rtlcapturecontext.htm
 tech.root: Debug
 ms.assetid: e2ce0cde-43ab-4681-be66-bd7509fd6ca2

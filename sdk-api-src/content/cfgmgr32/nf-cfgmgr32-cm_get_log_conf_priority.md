@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Log_Conf_Priority
 title: CM_Get_Log_Conf_Priority function (cfgmgr32.h)
-description: The CM_Get_Log_Conf_Priority function obtains the configuration priority of a specified logical configuration on the local machine.
+description: The CM_Get_Log_Conf_Priority function obtains the configuration priority of a specified logical configuration on the local machine.helpviewer_keywords: ["CM_Get_Log_Conf_Priority","CM_Get_Log_Conf_Priority function [Device and Driver Installation]","cfgmgr32/CM_Get_Log_Conf_Priority","cfgmgrfn_23c7a94b-fd43-493e-ae6b-56ce7c69278b.xml","devinst.cm_get_log_conf_priority"]
 old-location: devinst\cm_get_log_conf_priority.htm
 tech.root: devinst
 ms.assetid: 0db6c2f4-2d44-49ad-a1cc-f29a5088c74c

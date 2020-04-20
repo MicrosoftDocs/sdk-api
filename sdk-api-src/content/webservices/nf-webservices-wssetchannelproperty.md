@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsSetChannelProperty
 title: WsSetChannelProperty function (webservices.h)
-description: Sets a property of the channel.
+description: Sets a property of the channel.helpviewer_keywords: ["WsSetChannelProperty","WsSetChannelProperty function [Web Services for Windows]","webservices/WsSetChannelProperty","wsw.wssetchannelproperty"]
 old-location: wsw\wssetchannelproperty.htm
 tech.root: wsw
 ms.assetid: 0bf3ec1b-c711-4c26-9c54-5d0184c89871

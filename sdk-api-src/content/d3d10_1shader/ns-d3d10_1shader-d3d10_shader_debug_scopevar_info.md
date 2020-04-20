@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_SCOPEVAR_INFO
 title: D3D10_SHADER_DEBUG_SCOPEVAR_INFO (d3d10_1shader.h)
-description: Describes a shader scope variable.
+description: Describes a shader scope variable.helpviewer_keywords: ["90b648c2-0ae3-a5f5-05de-ba4f5d6c85d1","D3D10_SHADER_DEBUG_SCOPEVAR_INFO","D3D10_SHADER_DEBUG_SCOPEVAR_INFO structure [Direct3D 10]","d3d10_1shader/D3D10_SHADER_DEBUG_SCOPEVAR_INFO","direct3d10.d3d10_shader_debug_scopevar_info"]
 old-location: direct3d10\d3d10_shader_debug_scopevar_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_scopevar_info.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnDevicesConfigChange
 title: _IFaxServerNotify2::OnDevicesConfigChange (faxcomex.h)
-description: The fax service calls the IFaxServerNotify2::OnDevicesConfigChange method when there is a change to a fax device configuration.
+description: The fax service calls the IFaxServerNotify2::OnDevicesConfigChange method when there is a change to a fax device configuration.helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnDevicesConfigChange method","IFaxServerNotify2.OnDevicesConfigChange","IFaxServerNotify2::OnDevicesConfigChange","OnDevicesConfigChange","OnDevicesConfigChange method [Fax Service]","OnDevicesConfigChange method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnDevicesConfigChange","_IFaxServerNotify2::OnDevicesConfigChange","_mfax_ifaxservernotify2_ondevicesconfigchange","fax._mfax_ifaxservernotify2_ondevicesconfigchange","faxcomex/IFaxServerNotify2::OnDevicesConfigChange"]
 old-location: fax\_mfax_ifaxservernotify2_ondevicesconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_ondevicesconfigchange.htm

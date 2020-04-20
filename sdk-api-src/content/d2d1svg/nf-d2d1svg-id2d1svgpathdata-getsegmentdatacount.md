@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.GetSegmentDataCount
 title: ID2D1SvgPathData::GetSegmentDataCount (d2d1svg.h)
-description: Gets the size of the segment data array.
+description: Gets the size of the segment data array.helpviewer_keywords: ["GetSegmentDataCount","GetSegmentDataCount method [Direct2D]","GetSegmentDataCount method [Direct2D]","ID2D1SvgPathData interface","ID2D1SvgPathData interface [Direct2D]","GetSegmentDataCount method","ID2D1SvgPathData.GetSegmentDataCount","ID2D1SvgPathData::GetSegmentDataCount","d2d1svg/ID2D1SvgPathData::GetSegmentDataCount","direct2d.id2d1svgpathdata_getsegmentdatacount"]
 old-location: direct2d\id2d1svgpathdata_getsegmentdatacount.htm
 tech.root: Direct2D
 ms.assetid: 93D41E54-8D09-46E9-A83F-87C84F26B9C4

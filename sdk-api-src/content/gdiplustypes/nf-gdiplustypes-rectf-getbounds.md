@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.RectF.GetBounds
 title: RectF::GetBounds (gdiplustypes.h)
-description: The RectF::GetBounds method makes a copy of this rectangle.
+description: The RectF::GetBounds method makes a copy of this rectangle.helpviewer_keywords: ["GetBounds","GetBounds method [GDI+]","GetBounds method [GDI+]","RectF class","RectF class [GDI+]","GetBounds method","RectF.GetBounds","RectF::GetBounds","_gdiplus_CLASS_RectF_GetBounds_rect_","gdiplus._gdiplus_CLASS_RectF_GetBounds_rect_"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetBounds_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getbounds_74rect.htm
@@ -64,15 +64,6 @@ Type: <b>RectF*</b>
 
 Pointer to a 
 					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object that receives the copy of this rectangle. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

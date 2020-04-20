@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.SetAttributeInfo
 title: ITfDisplayAttributeInfo::SetAttributeInfo (msctf.h)
-description: ITfDisplayAttributeInfo::SetAttributeInfo method
+description: ITfDisplayAttributeInfo::SetAttributeInfo methodhelpviewer_keywords: ["ITfDisplayAttributeInfo interface [Text Services Framework]","SetAttributeInfo method","ITfDisplayAttributeInfo.SetAttributeInfo","ITfDisplayAttributeInfo::SetAttributeInfo","SetAttributeInfo","SetAttributeInfo method [Text Services Framework]","SetAttributeInfo method [Text Services Framework]","ITfDisplayAttributeInfo interface","_tsf_itfdisplayattributeinfo_setattributeinfo_ref","msctf/ITfDisplayAttributeInfo::SetAttributeInfo","tsf.itfdisplayattributeinfo_setattributeinfo"]
 old-location: tsf\itfdisplayattributeinfo_setattributeinfo.htm
 tech.root: TSF
 ms.assetid: 3e9a472c-7992-48fc-be47-993f6d53f043
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the new attribute data.
 
 ## -parameters
 
@@ -122,21 +121,4 @@ The implementation of this method should not call <a href="https://docs.microsof
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-onupdateinfo">ITfDisplayAttributeMgr::OnUpdateInfo
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_displayattribute">TF_DISPLAYATTRIBUTE
-      </a>
- 
-
- 
-
+[ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md), [ITfDisplayAttributeMgr::OnUpdateInfo](nf-msctf-itfdisplayattributemgr-onupdateinfo.md), [TF_DISPLAYATTRIBUTE structure](ns-msctf-tf_displayattribute.md), [ITfDisplayAttributeInfo::GetAttributeInfo](nf-msctf-itfdisplayattributeinfo-getattributeinfo.md)

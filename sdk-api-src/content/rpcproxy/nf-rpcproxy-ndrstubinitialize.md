@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.NdrStubInitialize
 title: NdrStubInitialize function (rpcproxy.h)
-description: The NdrStubInitialize function is called by the server stub before unmarshalling. It sets up some stub message fields.
+description: The NdrStubInitialize function is called by the server stub before unmarshalling. It sets up some stub message fields.helpviewer_keywords: ["NdrStubInitialize","NdrStubInitialize function [RPC]","rpc.ndrstubinitialize","rpcproxy/NdrStubInitialize"]
 old-location: rpc\ndrstubinitialize.htm
 tech.root: Rpc
 ms.assetid: 078442d1-1e35-4679-b86d-0a9110977a7c
@@ -76,15 +76,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-r
 ### -param pRpcChannelBuffer [in]
 
 Pointer to RPC channel buffer.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

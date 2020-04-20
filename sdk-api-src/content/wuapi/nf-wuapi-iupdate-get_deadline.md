@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdate.get_Deadline
 title: IUpdate::get_Deadline (wuapi.h)
-description: Gets the date by which the update must be installed.
+description: Gets the date by which the update must be installed.helpviewer_keywords: ["Deadline property [Windows Update Agent]","Deadline property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","Deadline property","IUpdate.Deadline","IUpdate.get_Deadline","IUpdate::Deadline","IUpdate::get_Deadline","get_Deadline","wua.iupdate_deadline","wuapi/IUpdate::Deadline","wuapi/IUpdate::get_Deadline"]
 old-location: wua\iupdate_deadline.htm
 tech.root: Wua_Sdk
 ms.assetid: 78f5ab06-13d1-4564-b9eb-334d4f0c34e8

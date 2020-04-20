@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfFunction.GetDisplayName
 title: ITfFunction::GetDisplayName (msctf.h)
-description: ITfFunction::GetDisplayName method
+description: ITfFunction::GetDisplayName methodhelpviewer_keywords: ["GetDisplayName","GetDisplayName method [Text Services Framework]","GetDisplayName method [Text Services Framework]","ITfFunction interface","ITfFunction interface [Text Services Framework]","GetDisplayName method","ITfFunction.GetDisplayName","ITfFunction::GetDisplayName","_tsf_itffunction_getdisplayname_ref","msctf/ITfFunction::GetDisplayName","tsf.itffunction_getdisplayname"]
 old-location: tsf\itffunction_getdisplayname.htm
 tech.root: TSF
 ms.assetid: da52ca6d-9606-45c5-8db9-c876c827df14
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the function display name.
 
 ## -parameters
 

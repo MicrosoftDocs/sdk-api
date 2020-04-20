@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfProperties.Clone
 title: IEnumTfProperties::Clone (msctf.h)
-description: IEnumTfProperties::Clone method
+description: IEnumTfProperties::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfProperties interface","IEnumTfProperties interface [Text Services Framework]","Clone method","IEnumTfProperties.Clone","IEnumTfProperties::Clone","_tsf_ienumtfproperties_clone_ref","msctf/IEnumTfProperties::Clone","tsf.ienumtfproperties_clone"]
 old-location: tsf\ienumtfproperties_clone.htm
 tech.root: TSF
 ms.assetid: ee90f452-7e50-4b9a-b81d-b5d4244f55b4
@@ -45,16 +45,11 @@ ms.custom: 19H1
 
 # IEnumTfProperties::Clone
 
-
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
@@ -106,19 +101,7 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties
-      </a>
- 
-
- 
-
+[IEnumTfProperties interface](nn-msctf-ienumtfproperties.md), [ITfProperty interface](nn-msctf-itfproperty.md)

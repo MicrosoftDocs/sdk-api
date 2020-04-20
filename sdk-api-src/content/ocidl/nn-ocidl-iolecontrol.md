@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IOleControl
 title: IOleControl (ocidl.h)
-description: Provides the features for supporting keyboard mnemonics, ambient properties, and events in control objects.
+description: Provides the features for supporting keyboard mnemonics, ambient properties, and events in control objects.helpviewer_keywords: ["IOleControl","IOleControl interface [COM]","IOleControl interface [COM]","described","_ctrl_iolecontrol","com.iolecontrol","ocidl/IOleControl"]
 old-location: com\iolecontrol.htm
 tech.root: com
 ms.assetid: ef85dce6-b680-4a72-9277-4cfdab27cbbc

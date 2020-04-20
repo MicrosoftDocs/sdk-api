@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetDigestMethod
 title: IOpcSignatureReference::GetDigestMethod (msopc.h)
-description: Gets the digest method to use on the referenced XML element, when the element is signed.
+description: Gets the digest method to use on the referenced XML element, when the element is signed.helpviewer_keywords: ["GetDigestMethod","GetDigestMethod method [Open Packaging Conventions]","GetDigestMethod method [Open Packaging Conventions]","IOpcSignatureReference interface","IOpcSignatureReference interface [Open Packaging Conventions]","GetDigestMethod method","IOpcSignatureReference.GetDigestMethod","IOpcSignatureReference::GetDigestMethod","msopc/IOpcSignatureReference::GetDigestMethod","opc.iopcsignaturereference_getdigestmethod"]
 old-location: opc\iopcsignaturereference_getdigestmethod.htm
 tech.root: OPC
 ms.assetid: 438adeba-bf5f-4f87-ab4c-c370e58565ce

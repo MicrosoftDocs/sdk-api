@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_ARRAY
 title: DHCP_IP_ARRAY (dhcpsapi.h)
-description: The DHCP_IP_ARRAY structure defines an array of IP addresses.
+description: The DHCP_IP_ARRAY structure defines an array of IP addresses.helpviewer_keywords: ["*LPDHCP_IP_ARRAY","DHCP_IP_ARRAY","DHCP_IP_ARRAY structure [DHCP]","LPDHCP_IP_ARRAY","LPDHCP_IP_ARRAY structure pointer [DHCP]","dhcp.dhcp_ip_array","dhcpsapi/LPDHCP_IP_ARRAY","dhcpsapi/_DHCP_IP_ARRAY"]
 old-location: dhcp\dhcp_ip_array.htm
 tech.root: DHCP
 ms.assetid: 84f42e55-8364-4119-83e4-c03699a9aa0a

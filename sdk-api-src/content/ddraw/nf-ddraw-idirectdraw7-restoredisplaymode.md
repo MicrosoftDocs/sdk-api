@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDraw7.RestoreDisplayMode
 title: IDirectDraw7::RestoreDisplayMode (ddraw.h)
-description: Resets the mode of the display device hardware for the primary surface to what it was before the IDirectDraw7::SetDisplayMode method was called. Exclusive-level access is required to use this method.
+description: Resets the mode of the display device hardware for the primary surface to what it was before the IDirectDraw7::SetDisplayMode method was called. Exclusive-level access is required to use this method.helpviewer_keywords: ["IDirectDraw7 interface [DirectDraw]","RestoreDisplayMode method","IDirectDraw7.RestoreDisplayMode","IDirectDraw7::RestoreDisplayMode","RestoreDisplayMode","RestoreDisplayMode method [DirectDraw]","RestoreDisplayMode method [DirectDraw]","IDirectDraw7 interface","ddraw/IDirectDraw7::RestoreDisplayMode","directdraw.idirectdraw7_restoredisplaymode"]
 old-location: directdraw\idirectdraw7_restoredisplaymode.htm
 tech.root: directdraw
 ms.assetid: 7538339a-8886-4b40-9779-17c8ebe81446

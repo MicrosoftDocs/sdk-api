@@ -1,7 +1,7 @@
 ---
 UID: NF:objectarray.IObjectArray.GetAt
 title: IObjectArray::GetAt (objectarray.h)
-description: Provides a pointer to a specified object's interface. The object and interface are specified by index and interface ID.
+description: Provides a pointer to a specified object's interface. The object and interface are specified by index and interface ID.helpviewer_keywords: ["GetAt","GetAt method [Windows Shell]","GetAt method [Windows Shell]","IObjectArray interface","IObjectArray interface [Windows Shell]","GetAt method","IObjectArray.GetAt","IObjectArray::GetAt","_shell_IObjectArray_GetAt","objectarray/IObjectArray::GetAt","shell.IObjectArray_GetAt"]
 old-location: shell\IObjectArray_GetAt.htm
 tech.root: shell
 ms.assetid: 168d2f09-60c9-457a-b4dd-7678f97eda1b

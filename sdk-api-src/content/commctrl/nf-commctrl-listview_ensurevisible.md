@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_EnsureVisible
 title: ListView_EnsureVisible macro (commctrl.h)
-description: Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can use this macro or send the LVM_ENSUREVISIBLE message explicitly.
+description: Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can use this macro or send the LVM_ENSUREVISIBLE message explicitly.helpviewer_keywords: ["ListView_EnsureVisible","ListView_EnsureVisible macro [Windows Controls]","_win32_ListView_EnsureVisible","_win32_ListView_EnsureVisible_cpp","commctrl/ListView_EnsureVisible","controls.ListView_EnsureVisible","controls._win32_ListView_EnsureVisible"]
 old-location: controls\ListView_EnsureVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_ensurevisible.htm

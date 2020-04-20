@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IClockVector.GetClockVectorElements
 title: IClockVector::GetClockVectorElements (winsync.h)
-description: Returns an enumerator that iterates through the clock vector elements.
+description: Returns an enumerator that iterates through the clock vector elements.helpviewer_keywords: ["GetClockVectorElements","GetClockVectorElements method [Windows Sync]","GetClockVectorElements method [Windows Sync]","IClockVector interface","IClockVector interface [Windows Sync]","GetClockVectorElements method","IClockVector.GetClockVectorElements","IClockVector::GetClockVectorElements","winsync.iclockvector_getclockvectorelements","winsync/IClockVector::GetClockVectorElements"]
 old-location: winsync\iclockvector_getclockvectorelements.htm
 tech.root: winsync
 ms.assetid: a0712a2b-5aeb-458d-bc0f-c18eeb7ba9ff

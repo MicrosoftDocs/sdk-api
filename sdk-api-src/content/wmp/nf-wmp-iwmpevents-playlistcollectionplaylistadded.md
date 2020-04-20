@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.PlaylistCollectionPlaylistAdded
 title: IWMPEvents::PlaylistCollectionPlaylistAdded (wmp.h)
-description: The PlaylistCollectionPlaylistAdded event occurs when a playlist is added to the playlist collection.
+description: The PlaylistCollectionPlaylistAdded event occurs when a playlist is added to the playlist collection.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","PlaylistCollectionPlaylistAdded method","IWMPEvents.PlaylistCollectionPlaylistAdded","IWMPEvents::PlaylistCollectionPlaylistAdded","IWMPEventsPlaylistCollectionPlaylistAdded","PlaylistCollectionPlaylistAdded","PlaylistCollectionPlaylistAdded method [Windows Media Player]","PlaylistCollectionPlaylistAdded method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__playlistcollectionplaylistadded","wmp/IWMPEvents::PlaylistCollectionPlaylistAdded"]
 old-location: wmp\iwmpevents_iwmpevents__playlistcollectionplaylistadded.htm
 tech.root: WMP
 ms.assetid: f865021c-692b-425e-a37a-b3048f7e5c64
@@ -63,15 +63,6 @@ The <b>PlaylistCollectionPlaylistAdded</b> event occurs when a playlist is added
 ### -param bstrPlaylistName [in]
 
 Specifies the name of the playlist that was added.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

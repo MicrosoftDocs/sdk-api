@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.Start
 title: ISpatialAudioObjectRenderStreamBase::Start (spatialaudioclient.h)
-description: Starts the spatial audio stream.
+description: Starts the spatial audio stream.helpviewer_keywords: ["ISpatialAudioObjectRenderStreamBase interface [Core Audio]","Start method","ISpatialAudioObjectRenderStreamBase.Start","ISpatialAudioObjectRenderStreamBase::Start","Start","Start method [Core Audio]","Start method [Core Audio]","ISpatialAudioObjectRenderStreamBase interface","coreaudio.ispatialaudioobjectrenderstream_start","spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Start"]
 old-location: coreaudio\ispatialaudioobjectrenderstream_start.htm
 tech.root: CoreAudio
 ms.assetid: 25D968AC-F5D2-4CAB-87ED-29FC63E5A5A4
