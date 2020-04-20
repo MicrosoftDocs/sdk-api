@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetMonitorDevicePathAt
 title: IDesktopWallpaper::GetMonitorDevicePathAt (shobjidl_core.h)
-description: Retrieves the unique ID of one of the system's monitors.
+description: Retrieves the unique ID of one of the system's monitors.helpviewer_keywords: ["GetMonitorDevicePathAt","GetMonitorDevicePathAt method [Windows Shell]","GetMonitorDevicePathAt method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","GetMonitorDevicePathAt method","IDesktopWallpaper.GetMonitorDevicePathAt","IDesktopWallpaper::GetMonitorDevicePathAt","shell.IDesktopWallpaper_GetMonitorDevicePathAt","shobjidl_core/IDesktopWallpaper::GetMonitorDevicePathAt"]
 old-location: shell\IDesktopWallpaper_GetMonitorDevicePathAt.htm
 tech.root: shell
 ms.assetid: CE0C6B07-F9D1-4221-9D9D-8D17CF6780E6

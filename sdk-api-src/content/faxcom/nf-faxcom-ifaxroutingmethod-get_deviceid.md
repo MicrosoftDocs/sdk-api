@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_DeviceId
 title: IFaxRoutingMethod::get_DeviceId (faxcom.h)
-description: The IFaxRoutingMethod::get_DeviceId property is a number representing the line identifier for the fax port.
+description: The IFaxRoutingMethod::get_DeviceId property is a number representing the line identifier for the fax port.helpviewer_keywords: ["DeviceId property [Fax Service]","DeviceId property [Fax Service]","IFaxRoutingMethod interface","IFaxRoutingMethod interface [Fax Service]","DeviceId property","IFaxRoutingMethod.DeviceId","IFaxRoutingMethod.get_DeviceId","IFaxRoutingMethod::DeviceId","IFaxRoutingMethod::get_DeviceId","_mfax_ifaxroutingmethod_get_deviceid","fax._mfax_ifaxroutingmethod_get_deviceid","fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_deviceid_cpp","faxcom/IFaxRoutingMethod::DeviceId","faxcom/IFaxRoutingMethod::get_DeviceId","get_DeviceId"]
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_deviceid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_44h0.htm

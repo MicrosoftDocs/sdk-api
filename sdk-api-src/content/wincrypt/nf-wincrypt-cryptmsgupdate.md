@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptMsgUpdate
 title: CryptMsgUpdate function (wincrypt.h)
-description: Adds contents to a cryptographic message.
+description: Adds contents to a cryptographic message.helpviewer_keywords: ["CryptMsgUpdate","CryptMsgUpdate function [Security]","_crypto2_cryptmsgupdate","security.cryptmsgupdate","wincrypt/CryptMsgUpdate"]
 old-location: security\cryptmsgupdate.htm
 tech.root: SecCrypto
 ms.assetid: d27d75f0-1646-4926-b375-59e52b00326c

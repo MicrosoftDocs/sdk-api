@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmSessionCreateEnumHandle0
 title: FwpmSessionCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of session objects.
+description: Creates a handle used to enumerate a set of session objects.helpviewer_keywords: ["FwpmSessionCreateEnumHandle0","FwpmSessionCreateEnumHandle0 function [Filtering]","fwp.fwpmsessioncreateenumhandle0_func","fwpmu/FwpmSessionCreateEnumHandle0"]
 old-location: fwp\fwpmsessioncreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 018944eb-698b-4d3e-a9ba-253b8bbebea7

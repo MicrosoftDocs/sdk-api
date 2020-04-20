@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmConnectionCreateEnumHandle0
 title: FwpmConnectionCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of connection objects.
+description: Creates a handle used to enumerate a set of connection objects.helpviewer_keywords: ["FwpmConnectionCreateEnumHandle0","FwpmConnectionCreateEnumHandle0 function [Filtering]","fwp.fwpmconnectioncreateenumhandle0","fwpmu/FwpmConnectionCreateEnumHandle0"]
 old-location: fwp\fwpmconnectioncreateenumhandle0.htm
 tech.root: fwp
 ms.assetid: b33878d5-437d-4625-b488-28fbe95eb69f

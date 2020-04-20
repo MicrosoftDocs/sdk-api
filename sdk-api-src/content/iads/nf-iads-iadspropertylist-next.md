@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPropertyList.Next
 title: IADsPropertyList::Next (iads.h)
-description: The IADsPropertyList::Next method gets the next item in the property list. The returned item is a Property Entry object.
+description: The IADsPropertyList::Next method gets the next item in the property list. The returned item is a Property Entry object.helpviewer_keywords: ["IADsPropertyList interface [ADSI]","Next method","IADsPropertyList.Next","IADsPropertyList::Next","Next","Next method [ADSI]","Next method [ADSI]","IADsPropertyList interface","_ds_iadspropertylist_next","adsi.iadspropertylist__next","adsi.iadspropertylist_next","iads/IADsPropertyList::Next"]
 old-location: adsi\iadspropertylist_next.htm
 tech.root: adsi
 ms.assetid: 2a12ba88-363b-41e3-bd05-8a71f5317097

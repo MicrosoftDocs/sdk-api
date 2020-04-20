@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ClusterGetVolumeNameForVolumeMountPoint
 title: ClusterGetVolumeNameForVolumeMountPoint function (resapi.h)
-description: ClusterGetVolumeNameForVolumeMountPoint may be altered or unavailable. Instead, use GetVolumeNameForVolumeMountPoint.
+description: ClusterGetVolumeNameForVolumeMountPoint may be altered or unavailable. Instead, use GetVolumeNameForVolumeMountPoint.helpviewer_keywords: ["ClusterGetVolumeNameForVolumeMountPoint","ClusterGetVolumeNameForVolumeMountPoint function [Failover Cluster]","PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT","PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT function [Failover Cluster]","mscs.clustergetvolumenameforvolumemountpoint","resapi/ClusterGetVolumeNameForVolumeMountPoint","resapi/PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT"]
 old-location: mscs\clustergetvolumenameforvolumemountpoint.htm
 tech.root: MsCS
 ms.assetid: d110e30d-046e-45f3-b326-72160a69c17d

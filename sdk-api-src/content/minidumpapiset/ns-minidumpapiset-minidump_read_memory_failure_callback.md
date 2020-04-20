@@ -1,7 +1,7 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_READ_MEMORY_FAILURE_CALLBACK
 title: MINIDUMP_READ_MEMORY_FAILURE_CALLBACK (minidumpapiset.h)
-description: Contains information about a failed memory read operation.
+description: Contains information about a failed memory read operation.helpviewer_keywords: ["*PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK","MINIDUMP_READ_MEMORY_FAILURE_CALLBACK","MINIDUMP_READ_MEMORY_FAILURE_CALLBACK structure","PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK","PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK structure pointer","_MINIDUMP_READ_MEMORY_FAILURE_CALLBACK","base.minidump_read_memory_failure_callback","minidumpapiset/MINIDUMP_READ_MEMORY_FAILURE_CALLBACK","minidumpapiset/PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK"]
 old-location: base\minidump_read_memory_failure_callback.htm
 tech.root: Debug
 ms.assetid: 9710684a-4d08-4ab8-bc33-17c5f01c581f

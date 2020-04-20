@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IQueryAssociations.GetString
 title: IQueryAssociations::GetString (shlwapi.h)
-description: Searches for and retrieves a file or protocol association-related string from the registry.
+description: Searches for and retrieves a file or protocol association-related string from the registry.helpviewer_keywords: ["GetString","GetString method [Windows Shell]","GetString method [Windows Shell]","IQueryAssociations interface","IQueryAssociations interface [Windows Shell]","GetString method","IQueryAssociations.GetString","IQueryAssociations::GetString","_win32_IQueryAssociations_GetString","shell.IQueryAssociations_GetString","shlwapi/IQueryAssociations::GetString"]
 old-location: shell\IQueryAssociations_GetString.htm
 tech.root: shell
 ms.assetid: 72463664-783b-4375-a6ba-43633a82ec7e

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableTCP
 title: IWMReaderNetworkConfig::GetEnableTCP (wmsdkidl.h)
-description: The GetEnableTCP method queries whether TCP is enabled for protocol rollover.
+description: The GetEnableTCP method queries whether TCP is enabled for protocol rollover.helpviewer_keywords: ["GetEnableTCP","GetEnableTCP method [windows Media Format]","GetEnableTCP method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetEnableTCP method","IWMReaderNetworkConfig.GetEnableTCP","IWMReaderNetworkConfig::GetEnableTCP","IWMReaderNetworkConfigGetEnableTCP","wmformat.iwmreadernetworkconfig_getenabletcp","wmsdkidl/IWMReaderNetworkConfig::GetEnableTCP"]
 old-location: wmformat\iwmreadernetworkconfig_getenabletcp.htm
 tech.root: wmformat
 ms.assetid: 6623c2f9-24cb-4038-9aa5-2eb634b3f1a2

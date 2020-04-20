@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentSubpicture
 title: IDvdInfo2::GetCurrentSubpicture (strmif.h)
-description: The GetCurrentSubpicture method retrieves the number of available subpicture streams in the current title, the currently selected subpicture stream number, and the state of the subpicture.
+description: The GetCurrentSubpicture method retrieves the number of available subpicture streams in the current title, the currently selected subpicture stream number, and the state of the subpicture.helpviewer_keywords: ["GetCurrentSubpicture","GetCurrentSubpicture method [DirectShow]","GetCurrentSubpicture method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetCurrentSubpicture method","IDvdInfo2.GetCurrentSubpicture","IDvdInfo2::GetCurrentSubpicture","IDvdInfo2GetCurrentSubpicture","dshow.idvdinfo2_getcurrentsubpicture","strmif/IDvdInfo2::GetCurrentSubpicture"]
 old-location: dshow\idvdinfo2_getcurrentsubpicture.htm
 tech.root: DirectShow
 ms.assetid: d41fb9ad-83e3-46d6-90b3-abdc61a6b997

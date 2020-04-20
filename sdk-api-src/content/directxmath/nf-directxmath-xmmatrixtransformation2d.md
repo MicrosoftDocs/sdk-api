@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixTransformation2D
 title: XMMatrixTransformation2D function (directxmath.h)
-description: Builds a 2D transformation matrix in the xy plane.
+description: Builds a 2D transformation matrix in the xy plane.helpviewer_keywords: ["Use DirectX..XMMatrixTransformation2D","XMMatrixTransformation2D","XMMatrixTransformation2D method [DirectX Math Support APIs]","dxmath.xmmatrixtransformation2d"]
 old-location: dxmath\xmmatrixtransformation2d.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixTransformation2D(XMVECTOR,float,XMVECTOR,XMVECTOR,float,XMVECTOR)

@@ -1,7 +1,7 @@
 ---
 UID: NN:netfw.INetFwRule3
 title: INetFwRule3 (netfw.h)
-description: Allows an application or service to access all the properties of INetFwRule2 and to provide access to the requirements of app containers.
+description: Allows an application or service to access all the properties of INetFwRule2 and to provide access to the requirements of app containers.helpviewer_keywords: ["INetFwRule3","INetFwRule3 interface [ICS/ICF]","INetFwRule3 interface [ICS/ICF]","described","ics.inetfwrule3","netfw/INetFwRule3"]
 old-location: ics\inetfwrule3.htm
 tech.root: ics
 ms.assetid: 72bf5ac3-7ee7-4837-96b2-815b499aac2f

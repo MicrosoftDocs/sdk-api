@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost.TxViewChange
 title: ITextHost::TxViewChange (textserv.h)
-description: Indicates to the text host that the update region has changed.
+description: Indicates to the text host that the update region has changed.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxViewChange method","ITextHost.TxViewChange","ITextHost::TxViewChange","TxViewChange","TxViewChange method [Windows Controls]","TxViewChange method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxViewChange","_win32_ITextHost_TxViewChange_cpp","controls.ITextHost_TxViewChange","controls._win32_ITextHost_TxViewChange","textserv/ITextHost::TxViewChange"]
 old-location: controls\ITextHost_TxViewChange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txviewchange.htm

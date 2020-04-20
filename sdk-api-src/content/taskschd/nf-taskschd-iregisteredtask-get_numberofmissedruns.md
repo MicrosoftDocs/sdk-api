@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_NumberOfMissedRuns
 title: IRegisteredTask::get_NumberOfMissedRuns (taskschd.h)
-description: Gets the number of times the registered task has missed a scheduled run.
+description: Gets the number of times the registered task has missed a scheduled run.helpviewer_keywords: ["IRegisteredTask interface [Task Scheduler]","NumberOfMissedRuns property","IRegisteredTask.NumberOfMissedRuns","IRegisteredTask.get_NumberOfMissedRuns","IRegisteredTask::NumberOfMissedRuns","IRegisteredTask::get_NumberOfMissedRuns","NumberOfMissedRuns property [Task Scheduler]","NumberOfMissedRuns property [Task Scheduler]","IRegisteredTask interface","get_NumberOfMissedRuns","taskschd.iregisteredtask_numberofmissedruns","taskschd/IRegisteredTask::NumberOfMissedRuns","taskschd/IRegisteredTask::get_NumberOfMissedRuns"]
 old-location: taskschd\iregisteredtask_numberofmissedruns.htm
 tech.root: taskschd
 ms.assetid: 8f5b5471-edfa-45e6-b556-ba12c0721aed

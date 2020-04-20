@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_LocationName
 title: ITLocationInfo::get_LocationName (tapi3if.h)
-description: The get_LocationName method gets the location name.
+description: The get_LocationName method gets the location name.helpviewer_keywords: ["ITLocationInfo interface [TAPI 2.2]","get_LocationName method","ITLocationInfo.get_LocationName","ITLocationInfo::get_LocationName","_tapi3_itlocationinfo_get_locationname","get_LocationName","get_LocationName method [TAPI 2.2]","get_LocationName method [TAPI 2.2]","ITLocationInfo interface","tapi3.itlocationinfo_get_locationname","tapi3if/ITLocationInfo::get_LocationName"]
 old-location: tapi3\itlocationinfo_get_locationname.htm
 tech.root: Tapi
 ms.assetid: 2bd86295-8240-477d-90aa-f3061666c5e6

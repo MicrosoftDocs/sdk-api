@@ -1,7 +1,7 @@
 ---
 UID: NF:lmaccess.NetLocalGroupEnum
 title: NetLocalGroupEnum function (lmaccess.h)
-description: The NetLocalGroupEnum function returns information about each local group account on the specified server.
+description: The NetLocalGroupEnum function returns information about each local group account on the specified server.helpviewer_keywords: ["0","1","NetLocalGroupEnum","NetLocalGroupEnum function [Network Management]","_win32_netlocalgroupenum","lmaccess/NetLocalGroupEnum","netmgmt.netlocalgroupenum"]
 old-location: netmgmt\netlocalgroupenum.htm
 tech.root: NetMgmt
 ms.assetid: fc27d7f1-bfbe-46d7-a154-f04eb9249248

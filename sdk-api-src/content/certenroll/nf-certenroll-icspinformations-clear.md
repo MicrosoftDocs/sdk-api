@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICspInformations.Clear
 title: ICspInformations::Clear (certenroll.h)
-description: Removes all ICspInformation objects from the collection.
+description: Removes all ICspInformation objects from the collection.helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","ICspInformations interface","ICspInformations interface [Security]","Clear method","ICspInformations.Clear","ICspInformations::Clear","certenroll/ICspInformations::Clear","security.icspinformations_clear_method"]
 old-location: security\icspinformations_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: 54afd0aa-24b4-4987-bab3-bccbaef6e08f

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetColorContexts
 title: IWICBitmapFrameEncode::SetColorContexts (wincodec.h)
-description: Sets a given number IWICColorContext profiles to the frame.
+description: Sets a given number IWICColorContext profiles to the frame.helpviewer_keywords: ["IWICBitmapFrameEncode interface [Windows Imaging Component]","SetColorContexts method","IWICBitmapFrameEncode.SetColorContexts","IWICBitmapFrameEncode::SetColorContexts","SetColorContexts","SetColorContexts method [Windows Imaging Component]","SetColorContexts method [Windows Imaging Component]","IWICBitmapFrameEncode interface","_wic_codec_iwicbitmapframeencode_setcolorcontexts","wic._wic_codec_iwicbitmapframeencode_setcolorcontexts","wincodec/IWICBitmapFrameEncode::SetColorContexts"]
 old-location: wic\_wic_codec_iwicbitmapframeencode_setcolorcontexts.htm
 tech.root: wic
 ms.assetid: c955dede-297f-44c1-aa03-31a07a6d69d2

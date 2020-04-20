@@ -1,7 +1,7 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_STATUS_ICON
 title: CREDENTIAL_PROVIDER_STATUS_ICON (credentialprovider.h)
-description: Indicates which status icon should be displayed.
+description: Indicates which status icon should be displayed.helpviewer_keywords: ["CPSI_ERROR","CPSI_NONE","CPSI_SUCCESS","CPSI_WARNING","CREDENTIAL_PROVIDER_STATUS_ICON","CREDENTIAL_PROVIDER_STATUS_ICON enumeration [Windows Shell]","_shell_CREDENTIAL_PROVIDER_STATUS_ICON","credentialprovider/CPSI_ERROR","credentialprovider/CPSI_NONE","credentialprovider/CPSI_SUCCESS","credentialprovider/CPSI_WARNING","credentialprovider/CREDENTIAL_PROVIDER_STATUS_ICON","shell.CREDENTIAL_PROVIDER_STATUS_ICON"]
 old-location: shell\CREDENTIAL_PROVIDER_STATUS_ICON.htm
 tech.root: shell
 ms.assetid: 2aa5b5dc-4756-4eff-a7d8-97c8a1dce41b

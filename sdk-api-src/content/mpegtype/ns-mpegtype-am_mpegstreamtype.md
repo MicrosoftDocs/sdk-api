@@ -1,7 +1,7 @@
 ---
 UID: NS:mpegtype.tagAM_MPEGSTREAMTYPE
 title: AM_MPEGSTREAMTYPE (mpegtype.h)
-description: The AM_MPEGSTREAMTYPE structure defines the media type for an MPEG-1 program stream.
+description: The AM_MPEGSTREAMTYPE structure defines the media type for an MPEG-1 program stream.helpviewer_keywords: ["AM_MPEGSTREAMTYPE","AM_MPEGSTREAMTYPE structure [DirectShow]","dshow.am_mpegstreamtype","mpegtype/AM_MPEGSTREAMTYPE"]
 old-location: dshow\am_mpegstreamtype.htm
 tech.root: DirectShow
 ms.assetid: 8622ffcb-be64-4a8f-8bc7-834b559b0f95

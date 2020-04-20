@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGradientStop
 title: IXpsOMGradientStop (xpsobjectmodel.h)
-description: Represents a single color and location within a gradient.
+description: Represents a single color and location within a gradient.helpviewer_keywords: ["IXpsOMGradientStop","IXpsOMGradientStop interface [XPS Documents and Packaging]","IXpsOMGradientStop interface [XPS Documents and Packaging]","described","xps.ixpsomgradientstop","xpsobjectmodel/IXpsOMGradientStop"]
 old-location: xps\ixpsomgradientstop.htm
 tech.root: printdocs
 ms.assetid: e115d806-70c1-4c6a-810e-e6a058628b44

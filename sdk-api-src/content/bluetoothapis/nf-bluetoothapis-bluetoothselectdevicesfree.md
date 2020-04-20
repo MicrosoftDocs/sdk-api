@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothSelectDevicesFree
 title: BluetoothSelectDevicesFree function (bluetoothapis.h)
-description: Frees resources associated with a previous call to BluetoothSelectDevices.
+description: Frees resources associated with a previous call to BluetoothSelectDevices.helpviewer_keywords: ["BluetoothSelectDevicesFree","BluetoothSelectDevicesFree function [Bluetooth]","_bth_bluetoothselectdevicesfree","bluetooth.bluetoothselectdevicesfree","bluetoothapis/BluetoothSelectDevicesFree"]
 old-location: bluetooth\bluetoothselectdevicesfree.htm
 tech.root: bluetooth
 ms.assetid: 9332e62d-a7ee-452e-8e21-27bbbc82448e

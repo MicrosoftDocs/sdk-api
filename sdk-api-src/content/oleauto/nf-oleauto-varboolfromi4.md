@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBoolFromI4
 title: VarBoolFromI4 function (oleauto.h)
-description: Converts a long value to a Boolean value.
+description: Converts a long value to a Boolean value.helpviewer_keywords: ["VarBoolFromI4","VarBoolFromI4 function [Automation]","_oa96_VarBoolFromI4","automat.varboolfromi4","oleauto/VarBoolFromI4"]
 old-location: automat\varboolfromi4.htm
 tech.root: automat
 ms.assetid: 1f59fa17-7e09-4763-816a-44faf89986f1

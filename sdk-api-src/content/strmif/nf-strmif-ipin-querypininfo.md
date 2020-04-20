@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IPin.QueryPinInfo
 title: IPin::QueryPinInfo (strmif.h)
-description: The QueryPinInfo method retrieves information about the pin.
+description: The QueryPinInfo method retrieves information about the pin.helpviewer_keywords: ["IPin interface [DirectShow]","QueryPinInfo method","IPin.QueryPinInfo","IPin::QueryPinInfo","IPinQueryPinInfo","QueryPinInfo","QueryPinInfo method [DirectShow]","QueryPinInfo method [DirectShow]","IPin interface","dshow.ipin_querypininfo","strmif/IPin::QueryPinInfo"]
 old-location: dshow\ipin_querypininfo.htm
 tech.root: DirectShow
 ms.assetid: 1a7c85ce-46f1-4928-9e2a-3a4bd96dc771

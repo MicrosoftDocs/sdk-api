@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.DestroyCluster
 title: DestroyCluster function (clusapi.h)
-description: Removes a cluster.
+description: Removes a cluster.helpviewer_keywords: ["DestroyCluster","DestroyCluster function [Failover Cluster]","PCLUSAPI_DESTROY_CLUSTER","PCLUSAPI_DESTROY_CLUSTER function [Failover Cluster]","clusapi/DestroyCluster","clusapi/PCLUSAPI_DESTROY_CLUSTER","mscs.destroycluster"]
 old-location: mscs\destroycluster.htm
 tech.root: MsCS
 ms.assetid: 55e601de-b427-43cd-b7f8-6cc576077e59

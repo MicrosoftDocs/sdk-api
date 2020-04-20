@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IVMRSurfaceAllocatorNotify
 title: IVMRSurfaceAllocatorNotify (strmif.h)
-description: The IVMRSurfaceAllocatorNotify interface is implemented by the Video Mixing Renderer Filter 7 (VMR-7).
+description: The IVMRSurfaceAllocatorNotify interface is implemented by the Video Mixing Renderer Filter 7 (VMR-7).helpviewer_keywords: ["IVMRSurfaceAllocatorNotify","IVMRSurfaceAllocatorNotify interface [DirectShow]","IVMRSurfaceAllocatorNotify interface [DirectShow]","described","IVMRSurfaceAllocatorNotifyInterface","dshow.ivmrsurfaceallocatornotify","strmif/IVMRSurfaceAllocatorNotify"]
 old-location: dshow\ivmrsurfaceallocatornotify.htm
 tech.root: DirectShow
 ms.assetid: c590c4cb-43ba-41c2-ab1f-28f7aeee0c87

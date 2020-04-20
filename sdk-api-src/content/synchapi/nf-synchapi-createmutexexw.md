@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.CreateMutexExW
 title: CreateMutexExW function (synchapi.h)
-description: Creates or opens a named or unnamed mutex object and returns a handle to the object.
+description: Creates or opens a named or unnamed mutex object and returns a handle to the object.helpviewer_keywords: ["CREATE_MUTEX_INITIAL_OWNER","CreateMutexEx","CreateMutexEx function","CreateMutexExA","CreateMutexExW","base.createmutexex","synchapi/CreateMutexEx","synchapi/CreateMutexExA","synchapi/CreateMutexExW","winbase/CreateMutexEx","winbase/CreateMutexExA","winbase/CreateMutexExW"]
 old-location: base\createmutexex.htm
 tech.root: Sync
 ms.assetid: c22ec98a-29c0-444e-afa4-fa2ad131a086

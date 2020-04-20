@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR)
 title: BoundingFrustum::Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR)
-description: Test the BoundingFrustum for intersection with a triangle.
+description: Test the BoundingFrustum for intersection with a triangle.helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","Intersects method","BoundingFrustum.Intersects","BoundingFrustum.Intersects(FXMVECTOR","FXMVECTOR","FXMVECTOR)","BoundingFrustum.Intersects(XMVECTOR","XMVECTOR","XMVECTOR)","BoundingFrustum::Intersects","BoundingFrustum::Intersects(FXMVECTOR","FXMVECTOR","FXMVECTOR)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_intersects_3"]
 old-location: dxmath\boundingfrustum_intersects_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.Intersects(XMVECTOR,XMVECTOR,XMVECTOR)

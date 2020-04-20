@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_Recorder
 title: IWriteEngine2::get_Recorder (imapi2.h)
-description: Retrieves the recording device to use in the write operation.
+description: Retrieves the recording device to use in the write operation.helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","get_Recorder method","IWriteEngine2.get_Recorder","IWriteEngine2::get_Recorder","get_Recorder","get_Recorder method [IMAPI]","get_Recorder method [IMAPI]","IWriteEngine2 interface","imapi.iwriteengine2_get_recorder","imapi2/IWriteEngine2::get_Recorder"]
 old-location: imapi\iwriteengine2_get_recorder.htm
 tech.root: imapi
 ms.assetid: f42c5289-0896-4e2f-902e-9c6bdbf23b40

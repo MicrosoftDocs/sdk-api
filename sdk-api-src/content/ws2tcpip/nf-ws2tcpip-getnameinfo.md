@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2tcpip.getnameinfo
 title: getnameinfo function (ws2tcpip.h)
-description: Provides protocol-independent name resolution from an address to an ANSI host name and from a port number to the ANSI service name.
+description: Provides protocol-independent name resolution from an address to an ANSI host name and from a port number to the ANSI service name.helpviewer_keywords: ["GetNameInfoA","_win32_getnameinfo_2","getnameinfo","getnameinfo function [Winsock]","winsock.getnameinfo_2","ws2tcpip/getnameinfo"]
 old-location: winsock\getnameinfo_2.htm
 tech.root: WinSock
 ms.assetid: 7d1fb0ed-cc32-4b38-8ff5-88c2cca4f375

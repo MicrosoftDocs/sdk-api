@@ -1,7 +1,7 @@
 ---
 UID: NS:xapofx.FXECHO_INITDATA
 title: FXECHO_INITDATA (xapofx.h)
-description: Initialization parameters for use with the FXECHO XAPOFX.
+description: Initialization parameters for use with the FXECHO XAPOFX.helpviewer_keywords: ["FXECHO_INITDATA","FXECHO_INITDATA structure [XAudio2 Audio Mixing APIs]","xapofx/FXECHO_INITDATA","xaudio2.fxecho_initdata"]
 old-location: xaudio2\fxecho_initdata.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXECHO_INITDATA

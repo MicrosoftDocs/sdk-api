@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.devices.display.core.interop.IDisplayDeviceInterop.OpenSharedHandle
 title: IDisplayDeviceInterop::OpenSharedHandle
-description: Opens a handle for shared primary surfaces, shared fences, and source presentation handles.
+description: Opens a handle for shared primary surfaces, shared fences, and source presentation handles.helpviewer_keywords: ["IDisplayDeviceInterop::OpenSharedHandle"]
 ms.date: 02/10/2020
 tech.root: winrt
 dev_langs:

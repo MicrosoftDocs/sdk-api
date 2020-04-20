@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_EnumerationDepth
 title: ISearchRoot::get_EnumerationDepth (searchapi.h)
-description: Gets the enumeration depth for this search root.
+description: Gets the enumeration depth for this search root.helpviewer_keywords: ["ISearchRoot interface [search]","get_EnumerationDepth method","ISearchRoot.get_EnumerationDepth","ISearchRoot::get_EnumerationDepth","_search_ISearchRoot_get_EnumerationDepth","get_EnumerationDepth","get_EnumerationDepth method [search]","get_EnumerationDepth method [search]","ISearchRoot interface","search._search_ISearchRoot_get_EnumerationDepth","searchapi/ISearchRoot::get_EnumerationDepth"]
 old-location: search\_search_ISearchRoot_get_EnumerationDepth.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_enumerationdepth.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetCADistinguishedName
 title: ICertSrvSetup::SetCADistinguishedName (casetup.h)
-description: Sets a certification authority (CA) common name and an optional distinguished name suffix.
+description: Sets a certification authority (CA) common name and an optional distinguished name suffix.helpviewer_keywords: ["ICertSrvSetup interface [Security]","SetCADistinguishedName method","ICertSrvSetup.SetCADistinguishedName","ICertSrvSetup::SetCADistinguishedName","SetCADistinguishedName","SetCADistinguishedName method [Security]","SetCADistinguishedName method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::SetCADistinguishedName","security.icertsrvsetup_setcadistinguishedname"]
 old-location: security\icertsrvsetup_setcadistinguishedname.htm
 tech.root: SecCrypto
 ms.assetid: d513d4fd-abc7-44e6-822e-955de8613d55

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder2.AddFont
 title: IDWriteFontSetBuilder2::AddFont
-description: Adds a font to the set being built.
+description: Adds a font to the set being built.helpviewer_keywords: ["IDWriteFontSetBuilder2 interface [Direct Write]","AddFont method","IDWriteFontSetBuilder2.AddFont","IDWriteFontSetBuilder2::AddFont","AddFont","AddFont method [Direct Write]","AddFont method [Direct Write]","IDWriteFontSetBuilder2 interface","directwrite.idwritefontsetbuilder2_addfont","dwrite_3/IDWriteFontSetBuilder2::AddFont"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2 interface [Direct Write],AddFont method, IDWriteFontSetBuilder2.AddFont, IDWriteFontSetBuilder2::AddFont, AddFont, AddFont method [Direct Write], AddFont method [Direct Write],IDWriteFontSetBuilder2 interface, directwrite.idwritefontsetbuilder2_addfont, dwrite_3/IDWriteFontSetBuilder2::AddFont

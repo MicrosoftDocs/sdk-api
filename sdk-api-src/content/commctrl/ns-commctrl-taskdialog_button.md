@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl._TASKDIALOG_BUTTON
 title: TASKDIALOG_BUTTON (commctrl.h)
-description: The TASKDIALOG_BUTTON structure contains information used to display a button in a task dialog. The TASKDIALOGCONFIG structure uses this structure.
+description: The TASKDIALOG_BUTTON structure contains information used to display a button in a task dialog. The TASKDIALOGCONFIG structure uses this structure.helpviewer_keywords: ["TASKDIALOG_BUTTON","TASKDIALOG_BUTTON structure [Windows Controls]","_shell_TASKDIALOG_BUTTON","_shell_TASKDIALOG_BUTTON_cpp","commctrl/TASKDIALOG_BUTTON","controls.TASKDIALOG_BUTTON","controls._shell_TASKDIALOG_BUTTON"]
 old-location: controls\TASKDIALOG_BUTTON.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogstructures\taskdialog_button.htm

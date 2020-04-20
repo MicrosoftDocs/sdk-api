@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.GetProperty
 title: ICertificateEnrollmentPolicyServerSetup::GetProperty (casetup.h)
-description: Retrieves a CEPSetupProperty enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
+description: Retrieves a CEPSetupProperty enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.helpviewer_keywords: ["GetProperty","GetProperty method [Security]","GetProperty method [Security]","ICertificateEnrollmentPolicyServerSetup interface","ICertificateEnrollmentPolicyServerSetup interface [Security]","GetProperty method","ICertificateEnrollmentPolicyServerSetup.GetProperty","ICertificateEnrollmentPolicyServerSetup::GetProperty","casetup/ICertificateEnrollmentPolicyServerSetup::GetProperty","security.icertificateenrollmentpolicyserversetup_getproperty"]
 old-location: security\icertificateenrollmentpolicyserversetup_getproperty.htm
 tech.root: SecCrypto
 ms.assetid: 52AD50BB-4146-44FC-BA32-9FC46FFE32E4

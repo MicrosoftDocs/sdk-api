@@ -1,7 +1,7 @@
 ---
 UID: NS:wsman._WSMAN_OPTION
 title: WSMAN_OPTION (wsman.h)
-description: Represents a specific option name and value pair.
+description: Represents a specific option name and value pair.helpviewer_keywords: ["WSMAN_OPTION","WSMAN_OPTION structure [Windows Remote Management]","winrm.wsman_option","wsman/WSMAN_OPTION"]
 old-location: winrm\wsman_option.htm
 tech.root: winrm
 ms.assetid: 9ebb9b21-1418-476d-a7a2-395c77f26dc9

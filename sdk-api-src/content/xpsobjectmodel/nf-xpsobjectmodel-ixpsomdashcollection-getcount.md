@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.GetCount
 title: IXpsOMDashCollection::GetCount (xpsobjectmodel.h)
-description: Gets the number of XPS_DASH structures in the collection.
+description: Gets the number of XPS_DASH structures in the collection.helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMDashCollection interface","IXpsOMDashCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMDashCollection.GetCount","IXpsOMDashCollection::GetCount","xps.ixpsomdashcollection_getcount","xpsobjectmodel/IXpsOMDashCollection::GetCount"]
 old-location: xps\ixpsomdashcollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 51393b2f-6658-4268-bcfc-5647ef2c8406

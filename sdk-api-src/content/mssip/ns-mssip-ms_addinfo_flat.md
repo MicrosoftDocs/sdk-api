@@ -1,7 +1,7 @@
 ---
 UID: NS:mssip.MS_ADDINFO_FLAT_
 title: MS_ADDINFO_FLAT (mssip.h)
-description: Provides additional information about flat or end-to-end subject types.
+description: Provides additional information about flat or end-to-end subject types.helpviewer_keywords: ["*PMS_ADDINFO_FLAT","MS_ADDINFO_FLAT","MS_ADDINFO_FLAT structure [Security]","PMS_ADDINFO_FLAT","PMS_ADDINFO_FLAT structure pointer [Security]","mssip/MS_ADDINFO_FLAT_","mssip/PMS_ADDINFO_FLAT","security.ms_addinfo_flat"]
 old-location: security\ms_addinfo_flat.htm
 tech.root: SecCrypto
 ms.assetid: 9f5bebd1-8eda-456d-9339-3334a19c0ea4

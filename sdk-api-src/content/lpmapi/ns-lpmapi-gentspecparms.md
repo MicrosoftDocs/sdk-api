@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_18
 title: GenTspecParms (lpmapi.h)
-description: The GenTspecParms structure stores generic Tspec parameters.
+description: The GenTspecParms structure stores generic Tspec parameters.helpviewer_keywords: ["GenTspecParms","GenTspecParms structure [QOS]","lpmapi/GenTspecParms","qos.gentspecparms"]
 old-location: qos\gentspecparms.htm
 tech.root: QOS
 ms.assetid: 8a702e7c-0dfd-48f5-8612-d64d19f2a55c

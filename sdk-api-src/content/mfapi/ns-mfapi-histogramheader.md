@@ -1,7 +1,7 @@
 ---
 UID: NS:mfapi.tagHistogramHeader
 title: HistogramHeader (mfapi.h)
-description: The HistogramHeader structure describes the blob format for MF_CAPTURE_METADATA_HISTOGRAM.
+description: The HistogramHeader structure describes the blob format for MF_CAPTURE_METADATA_HISTOGRAM.helpviewer_keywords: ["HistogramHeader","HistogramHeader structure [Streaming Media Devices]","mfapi/HistogramHeader","stream.histogramheader"]
 old-location: stream\histogramheader.htm
 tech.root: stream
 ms.assetid: C41EC25A-98EF-4C35-9E5A-954C80B29DA6

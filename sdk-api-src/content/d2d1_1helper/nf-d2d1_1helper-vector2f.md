@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1helper.Vector2F
 title: Vector2F function (d2d1_1helper.h)
-description: Returns a filled D2D1_VECTOR_2F structure.
+description: Returns a filled D2D1_VECTOR_2F structure.helpviewer_keywords: ["Vector2F","Vector2F function [Direct2D]","d2d1_1helper/Vector2F","direct2d.vector2f"]
 old-location: direct2d\vector2f.htm
 tech.root: Direct2D
 ms.assetid: 11279C5A-F825-437D-9F5F-ADCA328EBD33

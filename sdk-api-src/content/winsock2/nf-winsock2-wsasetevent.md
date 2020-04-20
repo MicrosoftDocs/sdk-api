@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSASetEvent
 title: WSASetEvent function (winsock2.h)
-description: The WSASetEvent function sets the state of the specified event object to signaled.
+description: The WSASetEvent function sets the state of the specified event object to signaled.helpviewer_keywords: ["WSASetEvent","WSASetEvent function [Winsock]","_win32_wsasetevent_2","winsock.wsasetevent_2","winsock2/WSASetEvent"]
 old-location: winsock\wsasetevent_2.htm
 tech.root: WinSock
 ms.assetid: 8a3f41fe-77da-4e4e-975d-00eec7c11446

@@ -1,7 +1,7 @@
 ---
 UID: NC:commdlg.LPOFNHOOKPROC
 title: LPOFNHOOKPROC (commdlg.h)
-description: Receives notification messages sent from the dialog box.
+description: Receives notification messages sent from the dialog box.helpviewer_keywords: ["LPOFNHOOKPROC","LPOFNHOOKPROC callback","LPOFNHOOKPROC callback function [Dialog Boxes]","_win32_OFNHookProc","_win32_ofnhookproc_cpp","commdlg/LPOFNHOOKPROC","dlgbox.ofnhookproc","winui._win32_ofnhookproc"]
 old-location: dlgbox\ofnhookproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\ofnhookproc.htm

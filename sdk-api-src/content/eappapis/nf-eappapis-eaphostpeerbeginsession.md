@@ -1,7 +1,7 @@
 ---
 UID: NF:eappapis.EapHostPeerBeginSession
 title: EapHostPeerBeginSession function (eappapis.h)
-description: Starts an EAP authentication session.
+description: Starts an EAP authentication session.helpviewer_keywords: ["EapHostPeerBeginSession","EapHostPeerBeginSession function [EAPHost]","eaphost.eaphostpeerbeginsession","eappapis/EapHostPeerBeginSession"]
 old-location: eaphost\eaphostpeerbeginsession.htm
 tech.root: eaphost
 ms.assetid: 9dc339bc-ef01-4432-83cb-b4b14a36f18e

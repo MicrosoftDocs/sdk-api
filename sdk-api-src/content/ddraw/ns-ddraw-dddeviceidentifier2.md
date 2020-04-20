@@ -1,7 +1,7 @@
 ---
 UID: NS:ddraw.tagDDDEVICEIDENTIFIER2
 title: DDDEVICEIDENTIFIER2 (ddraw.h)
-description: The DDDEVICEIDENTIFIER2 structure is passed to the IDirectDraw7::GetDeviceIdentifier method to obtain information about a device.
+description: The DDDEVICEIDENTIFIER2 structure is passed to the IDirectDraw7::GetDeviceIdentifier method to obtain information about a device.helpviewer_keywords: ["*LPDDDEVICEIDENTIFIER2","DDDEVICEIDENTIFIER2","DDDEVICEIDENTIFIER2 structure [DirectDraw]","LPDDDEVICEIDENTIFIER2","LPDDDEVICEIDENTIFIER2 structure pointer [DirectDraw]","ddraw/DDDEVICEIDENTIFIER2","ddraw/LPDDDEVICEIDENTIFIER2","directdraw.dddeviceidentifier2"]
 old-location: directdraw\dddeviceidentifier2.htm
 tech.root: directdraw
 ms.assetid: 3fdec953-72d4-48f8-b540-e2e6ca770b3c

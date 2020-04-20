@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoRegisterActivationFilter
 title: CoRegisterActivationFilter function (combaseapi.h)
-description: Registers a process-wide filter to process activation requests.
+description: Registers a process-wide filter to process activation requests.helpviewer_keywords: ["CoRegisterActivationFilter","CoRegisterActivationFilter function [COM]","com.coregisteractivationfilter","combaseapi/CoRegisterActivationFilter"]
 old-location: com\coregisteractivationfilter.htm
 tech.root: com
 ms.assetid: 4189633F-9B14-4EAD-84BD-F74355376164

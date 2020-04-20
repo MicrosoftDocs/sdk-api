@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_2.IDWriteRenderingParams2
 title: IDWriteRenderingParams2 (dwrite_2.h)
-description: Represents text rendering settings for glyph rasterization and filtering.
+description: Represents text rendering settings for glyph rasterization and filtering.helpviewer_keywords: ["IDWriteRenderingParams2","IDWriteRenderingParams2 interface [Direct Write]","IDWriteRenderingParams2 interface [Direct Write]","described","directwrite.idwriterenderingparams2","dwrite_2/IDWriteRenderingParams2"]
 old-location: directwrite\idwriterenderingparams2.htm
 tech.root: DirectWrite
 ms.assetid: 0ABE2EBD-E568-4485-9B38-BA0E1E8FDA6F

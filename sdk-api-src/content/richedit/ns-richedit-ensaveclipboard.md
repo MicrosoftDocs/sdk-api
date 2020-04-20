@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._ensaveclipboard
 title: ENSAVECLIPBOARD (richedit.h)
-description: Contains information about objects and text on the clipboard.
+description: Contains information about objects and text on the clipboard.helpviewer_keywords: ["ENSAVECLIPBOARD","ENSAVECLIPBOARD structure [Windows Controls]","_win32_ENSAVECLIPBOARD_str","_win32_ENSAVECLIPBOARD_str_cpp","controls.ENSAVECLIPBOARD","controls._win32_ENSAVECLIPBOARD_str","richedit/ENSAVECLIPBOARD"]
 old-location: controls\ENSAVECLIPBOARD.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\ensaveclipboard.htm

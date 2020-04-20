@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.InitializeDecode
 title: IX509CertificateRequestPkcs10::InitializeDecode (certenroll.h)
-description: Decodes an existing signed or unsigned PKCS
+description: Decodes an existing signed or unsigned PKCShelpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","InitializeDecode method","IX509CertificateRequestPkcs10.InitializeDecode","IX509CertificateRequestPkcs10::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::InitializeDecode","security.ix509certificaterequestpkcs10_initializedecode_method"]
 old-location: security\ix509certificaterequestpkcs10_initializedecode_method.htm
 tech.root: seccertenroll
 ms.assetid: 10ab62c3-9c6f-4e1b-8a86-131d08282d9c

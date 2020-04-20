@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.IX509CertificateTemplateWritable
 title: IX509CertificateTemplateWritable (certenroll.h)
-description: The IX509CertificateTemplateWritable interface enables you to add a template to or delete it from a template store. Currently, Active Directory is the only available store.
+description: The IX509CertificateTemplateWritable interface enables you to add a template to or delete it from a template store. Currently, Active Directory is the only available store.helpviewer_keywords: ["IX509CertificateTemplateWritable","IX509CertificateTemplateWritable interface [Security]","IX509CertificateTemplateWritable interface [Security]","described","certenroll/IX509CertificateTemplateWritable","security.ix509certificatetemplatewritable"]
 old-location: security\ix509certificatetemplatewritable.htm
 tech.root: seccertenroll
 ms.assetid: 87660b16-06a8-4a71-8669-24521f1399e4

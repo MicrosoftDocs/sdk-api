@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetCenterColor
 title: PathGradientBrush::SetCenterColor (gdipluspath.h)
-description: The PathGradientBrush::SetCenterColor method sets the center color of this path gradient brush. The center color is the color that appears at the brush's center point.
+description: The PathGradientBrush::SetCenterColor method sets the center color of this path gradient brush. The center color is the color that appears at the brush's center point.helpviewer_keywords: ["PathGradientBrush class [GDI+]","SetCenterColor method","PathGradientBrush.SetCenterColor","PathGradientBrush::SetCenterColor","SetCenterColor","SetCenterColor method [GDI+]","SetCenterColor method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_SetCenterColor_color_","gdiplus._gdiplus_CLASS_PathGradientBrush_SetCenterColor_color_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetCenterColor_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setcentercolor.htm

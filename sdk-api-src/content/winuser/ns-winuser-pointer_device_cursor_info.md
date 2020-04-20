@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagPOINTER_DEVICE_CURSOR_INFO
 title: POINTER_DEVICE_CURSOR_INFO (winuser.h)
-description: Contains cursor ID mappings for pointer devices.
+description: Contains cursor ID mappings for pointer devices.helpviewer_keywords: ["POINTER_DEVICE_CURSOR_INFO","POINTER_DEVICE_CURSOR_INFO structure","input_pointerdevice.pointer_device_cursor_info","tagPOINTER_DEVICE_CURSOR_INFO","unifiedinputstack.pointer_device_cursor_info","winuser/POINTER_DEVICE_CURSOR_INFO"]
 old-location: input_pointerdevice\pointer_device_cursor_info.htm
 tech.root: Input_PointerDevice
 ms.assetid: 5d71e5b4-95eb-453e-9164-e7659ef4059e

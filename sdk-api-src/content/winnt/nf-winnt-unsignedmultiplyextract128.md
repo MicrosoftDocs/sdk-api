@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.UnsignedMultiplyExtract128
 title: UnsignedMultiplyExtract128 function (winnt.h)
-description: Multiplies two unsigned 64-bit integers to produce an unsigned 128-bit integer, shifts the product to the right by the specified number of bits, and returns the low 64 bits of the result.
+description: Multiplies two unsigned 64-bit integers to produce an unsigned 128-bit integer, shifts the product to the right by the specified number of bits, and returns the low 64 bits of the result.helpviewer_keywords: ["UnsignedMultiplyExtract128","UnsignedMultiplyExtract128 function [Windows API]","winnt/UnsignedMultiplyExtract128","winprog.unsignedmultiplyextract128"]
 old-location: winprog\unsignedmultiplyextract128.htm
 tech.root: WinProg
 ms.assetid: 93a2550d-b95a-4206-95a6-3412d9b38f37

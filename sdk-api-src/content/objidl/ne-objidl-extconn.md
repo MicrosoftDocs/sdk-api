@@ -1,7 +1,7 @@
 ---
 UID: NE:objidl.tagEXTCONN
 title: EXTCONN (objidl.h)
-description: Specifies the type of external connection existing on an embedded object.
+description: Specifies the type of external connection existing on an embedded object.helpviewer_keywords: ["EXTCONN","EXTCONN enumeration [COM]","EXTCONN_CALLABLE","EXTCONN_STRONG","EXTCONN_WEAK","_com_EXTCONN","com.extconn","objidlbase/EXTCONN","objidlbase/EXTCONN_CALLABLE","objidlbase/EXTCONN_STRONG","objidlbase/EXTCONN_WEAK"]
 old-location: com\extconn.htm
 tech.root: com
 ms.assetid: 95c7de47-9f81-4316-99b8-0f5f0aa54d65

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegisteredTask.Stop
 title: IRegisteredTask::Stop (taskschd.h)
-description: Stops the registered task immediately.
+description: Stops the registered task immediately.helpviewer_keywords: ["IRegisteredTask interface [Task Scheduler]","Stop method","IRegisteredTask.Stop","IRegisteredTask::Stop","Stop","Stop method [Task Scheduler]","Stop method [Task Scheduler]","IRegisteredTask interface","taskschd.iregisteredtask_stop","taskschd/IRegisteredTask::Stop"]
 old-location: taskschd\iregisteredtask_stop.htm
 tech.root: taskschd
 ms.assetid: c58d7b15-1044-4d35-a501-b936503ee0fc

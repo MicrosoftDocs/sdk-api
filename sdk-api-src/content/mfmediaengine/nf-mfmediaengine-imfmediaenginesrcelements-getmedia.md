@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetMedia
 title: IMFMediaEngineSrcElements::GetMedia (mfmediaengine.h)
-description: Gets the intended media type of an element in the list.
+description: Gets the intended media type of an element in the list.helpviewer_keywords: ["GetMedia","GetMedia method [Media Foundation]","GetMedia method [Media Foundation]","IMFMediaEngineSrcElements interface","IMFMediaEngineSrcElements interface [Media Foundation]","GetMedia method","IMFMediaEngineSrcElements.GetMedia","IMFMediaEngineSrcElements::GetMedia","mf.imfmediaenginesrcelements_getmedia","mfmediaengine/IMFMediaEngineSrcElements::GetMedia"]
 old-location: mf\imfmediaenginesrcelements_getmedia.htm
 tech.root: medfound
 ms.assetid: AC99D8D0-ACA6-4FE9-A061-1D3A7D92E596

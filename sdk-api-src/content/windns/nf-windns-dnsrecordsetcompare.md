@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsRecordSetCompare
 title: DnsRecordSetCompare function (windns.h)
-description: The DnsRecordSetCompare function compares two RR sets.
+description: The DnsRecordSetCompare function compares two RR sets.helpviewer_keywords: ["DnsRecordSetCompare","DnsRecordSetCompare function [DNS]","_dns_dnsrecordsetcompare","dns.dnsrecordsetcompare","windns/DnsRecordSetCompare"]
 old-location: dns\dnsrecordsetcompare.htm
 tech.root: DNS
 ms.assetid: 008cf2ba-ccb2-430a-85d9-68d424b6938f

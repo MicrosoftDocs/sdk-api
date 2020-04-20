@@ -1,7 +1,7 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.GetTableDescriptorByIndex
 title: ITSDT::GetTableDescriptorByIndex (mpeg2psiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["GetTableDescriptorByIndex","GetTableDescriptorByIndex method [Microsoft TV Technologies]","GetTableDescriptorByIndex method [Microsoft TV Technologies]","ITSDT interface","ITSDT interface [Microsoft TV Technologies]","GetTableDescriptorByIndex method","ITSDT.GetTableDescriptorByIndex","ITSDT::GetTableDescriptorByIndex","ITSDTGetTableDescriptorByIndex","mpeg2psiparser/ITSDT::GetTableDescriptorByIndex","mstv.itsdt_gettabledescriptorbyindex"]
 old-location: mstv\itsdt_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 9adcc8f6-44a7-41c6-b42a-e45c33cd5d6a

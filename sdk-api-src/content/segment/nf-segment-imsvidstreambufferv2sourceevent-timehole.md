@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.TimeHole
 title: IMSVidStreamBufferV2SourceEvent::TimeHole (segment.h)
-description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_TIMEHOLE event, which indicates playback has reached a gap in recorded content.
+description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_TIMEHOLE event, which indicates playback has reached a gap in recorded content.helpviewer_keywords: ["IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies]","TimeHole method","IMSVidStreamBufferV2SourceEvent.TimeHole","IMSVidStreamBufferV2SourceEvent::TimeHole","TimeHole","TimeHole method [Microsoft TV Technologies]","TimeHole method [Microsoft TV Technologies]","IMSVidStreamBufferV2SourceEvent interface","mstv.imsvidstreambufferv2sourceevent_timehole","segment/IMSVidStreamBufferV2SourceEvent::TimeHole"]
 old-location: mstv\imsvidstreambufferv2sourceevent_timehole.htm
 tech.root: mstv
 ms.assetid: 2eceda3b-b3d6-4714-85c5-ec8bb0986b6f

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.ResetProtocolRollover
 title: IWMReaderNetworkConfig::ResetProtocolRollover (wmsdkidl.h)
-description: The ResetProtocolRollover method forces the reader object to use the normal protocol rollover algorithm.
+description: The ResetProtocolRollover method forces the reader object to use the normal protocol rollover algorithm.helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","ResetProtocolRollover method","IWMReaderNetworkConfig.ResetProtocolRollover","IWMReaderNetworkConfig::ResetProtocolRollover","IWMReaderNetworkConfigResetProtocolRollover","ResetProtocolRollover","ResetProtocolRollover method [windows Media Format]","ResetProtocolRollover method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_resetprotocolrollover","wmsdkidl/IWMReaderNetworkConfig::ResetProtocolRollover"]
 old-location: wmformat\iwmreadernetworkconfig_resetprotocolrollover.htm
 tech.root: wmformat
 ms.assetid: 10a11131-48bd-49bd-a767-1c6148f84b95

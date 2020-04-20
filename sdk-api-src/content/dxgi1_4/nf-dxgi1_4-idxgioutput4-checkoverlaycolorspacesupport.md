@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_4.IDXGIOutput4.CheckOverlayColorSpaceSupport
 title: IDXGIOutput4::CheckOverlayColorSpaceSupport (dxgi1_4.h)
-description: Checks for overlay color space support.
+description: Checks for overlay color space support.helpviewer_keywords: ["CheckOverlayColorSpaceSupport","CheckOverlayColorSpaceSupport method [DXGI]","CheckOverlayColorSpaceSupport method [DXGI]","IDXGIOutput4 interface","IDXGIOutput4 interface [DXGI]","CheckOverlayColorSpaceSupport method","IDXGIOutput4.CheckOverlayColorSpaceSupport","IDXGIOutput4::CheckOverlayColorSpaceSupport","direct3ddxgi.idxgioutput4_checkoverlaycolorspacesupport","dxgi1_4/IDXGIOutput4::CheckOverlayColorSpaceSupport"]
 old-location: direct3ddxgi\idxgioutput4_checkoverlaycolorspacesupport.htm
 tech.root: direct3ddxgi
 ms.assetid: C9F582EA-DB16-4FF3-B7BD-ACEA019FF7D4

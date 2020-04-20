@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminMIBGetTrapInfo
 title: MprAdminMIBGetTrapInfo function (mprapi.h)
-description: The MprAdminMIBGetTrapInfo function queries the module that set a trap event for more information about the trap.
+description: The MprAdminMIBGetTrapInfo function queries the module that set a trap event for more information about the trap.helpviewer_keywords: ["MprAdminMIBGetTrapInfo","MprAdminMIBGetTrapInfo function [RAS]","_mpr_mpradminmibgettrapinfo","mprapi/MprAdminMIBGetTrapInfo","rras.mpradminmibgettrapinfo"]
 old-location: rras\mpradminmibgettrapinfo.htm
 tech.root: RRAS
 ms.assetid: 626c66c8-db7b-4be3-b5b0-c10a41ca46cc

@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN
 title: PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN (winbio_adapter.h)
-description: Queries the WINBIO_PROPERTY_EXTENDED_ENROLLMENT_STATUS property.
+description: Queries the WINBIO_PROPERTY_EXTENDED_ENROLLMENT_STATUS property.helpviewer_keywords: ["EngineAdapterQueryExtendedEnrollmentStatus","EngineAdapterQueryExtendedEnrollmentStatus callback function [Windows Biometric Framework API]","PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN","PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN callback","secbiomet.engineadapterqueryextendedenrollmentstatus","winbio_adapter/EngineAdapterQueryExtendedEnrollmentStatus"]
 old-location: secbiomet\engineadapterqueryextendedenrollmentstatus.htm
 tech.root: SecBioMet
 ms.assetid: E471FC60-9FFC-4269-92A0-7CCA53D3475B

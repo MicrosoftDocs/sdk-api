@@ -1,7 +1,7 @@
 ---
 UID: NF:projectedfslib.PrjGetVirtualizationInstanceInfo
 title: PrjGetVirtualizationInstanceInfo function (projectedfslib.h)
-description: Retrieves information about the virtualization instance.
+description: Retrieves information about the virtualization instance.helpviewer_keywords: ["PrjGetVirtualizationInstanceInfo","PrjGetVirtualizationInstanceInfo function","ProjFS.prjgetvirtualizationinstanceinfo","projectedfslib/PrjGetVirtualizationInstanceInfo"]
 old-location: projfs\prjgetvirtualizationinstanceinfo.htm
 tech.root: ProjFS
 ms.assetid: 0C04D13F-862C-4E4C-9BC1-13E6FAC86E99

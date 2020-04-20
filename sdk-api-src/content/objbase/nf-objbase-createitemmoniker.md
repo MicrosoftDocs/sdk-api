@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CreateItemMoniker
 title: CreateItemMoniker function (objbase.h)
-description: Creates an item moniker that identifies an object within a containing object (typically a compound document).
+description: Creates an item moniker that identifies an object within a containing object (typically a compound document).helpviewer_keywords: ["CreateItemMoniker","CreateItemMoniker function [COM]","_com_CreateItemMoniker","com.createitemmoniker","objbase/CreateItemMoniker"]
 old-location: com\createitemmoniker.htm
 tech.root: com
 ms.assetid: 339919ed-660c-4239-825b-7fa96c48e5cd

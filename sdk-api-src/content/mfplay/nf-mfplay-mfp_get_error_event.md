@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.MFP_GET_ERROR_EVENT
 title: MFP_GET_ERROR_EVENT macro (mfplay.h)
-description: Casts an MFP_EVENT_HEADER pointer to an MFP_ERROR_EVENT pointer.
+description: Casts an MFP_EVENT_HEADER pointer to an MFP_ERROR_EVENT pointer.helpviewer_keywords: ["MFP_GET_ERROR_EVENT","MFP_GET_ERROR_EVENT macro [Media Foundation]","mf.mfp_get_error_event","mfplay/MFP_GET_ERROR_EVENT"]
 old-location: mf\mfp_get_error_event.htm
 tech.root: medfound
 ms.assetid: a8a86e1d-f009-4352-a388-822c2577ebe3

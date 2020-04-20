@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.midiInStart
 title: midiInStart function (mmeapi.h)
-description: The midiInStart function starts MIDI input on the specified MIDI input device.
+description: The midiInStart function starts MIDI input on the specified MIDI input device.helpviewer_keywords: ["_win32_midiInStart","midiInStart","midiInStart function [Windows Multimedia]","mmeapi/midiInStart","multimedia.midiinstart"]
 old-location: multimedia\midiinstart.htm
 tech.root: Multimedia
 ms.assetid: c8d570a2-30a2-453e-a320-7b097c4e90bb

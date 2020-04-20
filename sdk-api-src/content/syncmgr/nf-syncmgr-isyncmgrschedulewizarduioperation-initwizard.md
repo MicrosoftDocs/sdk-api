@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrScheduleWizardUIOperation.InitWizard
 title: ISyncMgrScheduleWizardUIOperation::InitWizard (syncmgr.h)
-description: Initializes the sync schedule wizard.
+description: Initializes the sync schedule wizard.helpviewer_keywords: ["ISyncMgrScheduleWizardUIOperation interface [Windows Shell]","InitWizard method","ISyncMgrScheduleWizardUIOperation.InitWizard","ISyncMgrScheduleWizardUIOperation::InitWizard","InitWizard","InitWizard method [Windows Shell]","InitWizard method [Windows Shell]","ISyncMgrScheduleWizardUIOperation interface","_shell_ISyncMgrScheduleWizardUIOperation_InitWizard","shell.ISyncMgrScheduleWizardUIOperation_InitWizard","syncmgr/ISyncMgrScheduleWizardUIOperation::InitWizard"]
 old-location: shell\ISyncMgrScheduleWizardUIOperation_InitWizard.htm
 tech.root: shell
 ms.assetid: f88a9a13-6e07-400a-bb05-75b1267343a9

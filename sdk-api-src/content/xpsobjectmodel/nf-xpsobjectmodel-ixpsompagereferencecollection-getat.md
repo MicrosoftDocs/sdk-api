@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.GetAt
 title: IXpsOMPageReferenceCollection::GetAt (xpsobjectmodel.h)
-description: Gets an IXpsOMPageReference interface pointer from a specified location in the collection.
+description: Gets an IXpsOMPageReference interface pointer from a specified location in the collection.helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsOMPageReferenceCollection interface","IXpsOMPageReferenceCollection interface [XPS Documents and Packaging]","GetAt method","IXpsOMPageReferenceCollection.GetAt","IXpsOMPageReferenceCollection::GetAt","xps.ixpsompagereferencecollection_getat","xpsobjectmodel/IXpsOMPageReferenceCollection::GetAt"]
 old-location: xps\ixpsompagereferencecollection_getat.htm
 tech.root: printdocs
 ms.assetid: 5b888771-fc69-4857-94a4-eea5a068c740

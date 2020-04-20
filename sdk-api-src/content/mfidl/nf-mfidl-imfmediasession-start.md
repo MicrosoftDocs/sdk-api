@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Start
 title: IMFMediaSession::Start (mfidl.h)
-description: Starts the Media Session.
+description: Starts the Media Session.helpviewer_keywords: ["1bdec0c0-b042-4e5e-a72b-b15942750ced","GUID_NULL","IMFMediaSession interface [Media Foundation]","Start method","IMFMediaSession.Start","IMFMediaSession::Start","MF_TIME_FORMAT_ENTRY_RELATIVE","MF_TIME_FORMAT_SEGMENT_OFFSET","Start","Start method [Media Foundation]","Start method [Media Foundation]","IMFMediaSession interface","mf.imfmediasession_start","mfidl/IMFMediaSession::Start"]
 old-location: mf\imfmediasession_start.htm
 tech.root: medfound
 ms.assetid: 1bdec0c0-b042-4e5e-a72b-b15942750ced

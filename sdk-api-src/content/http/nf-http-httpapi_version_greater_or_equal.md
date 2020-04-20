@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HTTPAPI_VERSION_GREATER_OR_EQUAL
 title: HTTPAPI_VERSION_GREATER_OR_EQUAL macro (http.h)
-description: The HTTPAPI_VERSION_GREATER_OR_EQUAL returns a non-zero value if an HTTPAPI_VERSION structure is greater than or equal to a specified major/minor version combination, or zero otherwise.
+description: The HTTPAPI_VERSION_GREATER_OR_EQUAL returns a non-zero value if an HTTPAPI_VERSION structure is greater than or equal to a specified major/minor version combination, or zero otherwise.helpviewer_keywords: ["HTTPAPI_VERSION_GREATER_OR_EQUAL","HTTPAPI_VERSION_GREATER_OR_EQUAL macro [HTTP]","http.httpapi_version_greater_or_equal","http/HTTPAPI_VERSION_GREATER_OR_EQUAL"]
 old-location: http\httpapi_version_greater_or_equal.htm
 tech.root: http
 ms.assetid: d9ac035f-7085-417f-b7df-0607b95f4233

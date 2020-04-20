@@ -1,7 +1,7 @@
 ---
 UID: NF:shellscalingapi.GetDpiForMonitor
 title: GetDpiForMonitor function (shellscalingapi.h)
-description: Queries the dots per inch (dpi) of a display.
+description: Queries the dots per inch (dpi) of a display.helpviewer_keywords: ["GetDpiForMonitor","GetDpiForMonitor function [High DPI]","hidpi.getdpiformonitor","shellscalingapi/GetDpiForMonitor"]
 old-location: hidpi\getdpiformonitor.htm
 tech.root: hidpi
 ms.assetid: AB741D14-0BA1-4C33-91D8-1331BE96DE95

@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_NetworkProvider
 title: IBDA_NetworkProvider (bdaiface.h)
-description: The IBDA_NetworkProvider interface is implemented on a Network Provider filter. It provides methods that BDA device filters call to register themselves after they are added to the graph.
+description: The IBDA_NetworkProvider interface is implemented on a Network Provider filter. It provides methods that BDA device filters call to register themselves after they are added to the graph.helpviewer_keywords: ["IBDA_NetworkProvider","IBDA_NetworkProvider interface [Microsoft TV Technologies]","IBDA_NetworkProvider interface [Microsoft TV Technologies]","described","IBDA_NetworkProviderInterface","bdaiface/IBDA_NetworkProvider","mstv.ibda_networkprovider"]
 old-location: mstv\ibda_networkprovider.htm
 tech.root: mstv
 ms.assetid: 84b6cd51-4cb5-4a43-9ac2-88ca8049b950

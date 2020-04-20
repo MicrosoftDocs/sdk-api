@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.TextPattern_RangeFromChild
 title: TextPattern_RangeFromChild function (uiautomationcoreapi.h)
-description: Gets the text range that a given node spans.
+description: Gets the text range that a given node spans.helpviewer_keywords: ["TextPattern_RangeFromChild","TextPattern_RangeFromChild function [Windows Accessibility]","uiauto.uiauto_TextPattern_RangeFromChildConPat","uiauto_TextPattern_RangeFromChildConPat","uiautomationcoreapi/TextPattern_RangeFromChild","winauto.uiauto_TextPattern_RangeFromChildConPat"]
 old-location: winauto\uiauto_TextPattern_RangeFromChildConPat.htm
 tech.root: WinAuto
 ms.assetid: 9745b837-f185-48c5-94d6-30c93fa58313

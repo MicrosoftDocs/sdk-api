@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsVolume2
 title: IVdsVolume2 (vds.h)
-description: Provides a method for returning volume property information, including the volume GUIDs.
+description: Provides a method for returning volume property information, including the volume GUIDs.helpviewer_keywords: ["IVdsVolume2","IVdsVolume2 interface","IVdsVolume2 interface","described","base.ivdsvolume2","vds/IVdsVolume2"]
 old-location: base\ivdsvolume2.htm
 tech.root: VDS
 ms.assetid: 78077ce6-04f7-4d76-9057-40941feb941b

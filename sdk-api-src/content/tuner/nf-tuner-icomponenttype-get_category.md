@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IComponentType.get_Category
 title: IComponentType::get_Category (tuner.h)
-description: The get_Category method retrieves the component category.
+description: The get_Category method retrieves the component category.helpviewer_keywords: ["IComponentType interface [Microsoft TV Technologies]","get_Category method","IComponentType.get_Category","IComponentType::get_Category","IComponentTypeget_Category","get_Category","get_Category method [Microsoft TV Technologies]","get_Category method [Microsoft TV Technologies]","IComponentType interface","mstv.icomponenttype_get_category","tuner/IComponentType::get_Category"]
 old-location: mstv\icomponenttype_get_category.htm
 tech.root: mstv
 ms.assetid: e0a61359-a15a-47f6-8388-90368867e945

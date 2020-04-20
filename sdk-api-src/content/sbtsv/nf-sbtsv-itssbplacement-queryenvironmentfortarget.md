@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbPlacement.QueryEnvironmentForTarget
 title: ITsSbPlacement::QueryEnvironmentForTarget (sbtsv.h)
-description: Determines whether the specified environment is ready to host the target that was returned by load balancing.
+description: Determines whether the specified environment is ready to host the target that was returned by load balancing.helpviewer_keywords: ["ITsSbPlacement interface [Remote Desktop Services]","QueryEnvironmentForTarget method","ITsSbPlacement.QueryEnvironmentForTarget","ITsSbPlacement::QueryEnvironmentForTarget","QueryEnvironmentForTarget","QueryEnvironmentForTarget method [Remote Desktop Services]","QueryEnvironmentForTarget method [Remote Desktop Services]","ITsSbPlacement interface","sbtsv/ITsSbPlacement::QueryEnvironmentForTarget","termserv.itssbplacement_queryenvironmentfortarget"]
 old-location: termserv\itssbplacement_queryenvironmentfortarget.htm
 tech.root: TermServ
 ms.assetid: 62320a0b-3f3e-4341-a481-a43af39c06f7

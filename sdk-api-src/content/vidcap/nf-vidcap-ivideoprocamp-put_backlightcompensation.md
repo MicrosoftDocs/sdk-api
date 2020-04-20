@@ -1,7 +1,7 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_BacklightCompensation
 title: IVideoProcAmp::put_BacklightCompensation (vidcap.h)
-description: The put_BacklightCompensation method sets the camera's backlight compensation.
+description: The put_BacklightCompensation method sets the camera's backlight compensation.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","put_BacklightCompensation method","IVideoProcAmp.put_BacklightCompensation","IVideoProcAmp::put_BacklightCompensation","IVideoProcAmpput_BacklightCompensation","dshow.ivideoprocamp_put_backlightcompensation","put_BacklightCompensation","put_BacklightCompensation method [DirectShow]","put_BacklightCompensation method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::put_BacklightCompensation"]
 old-location: dshow\ivideoprocamp_put_backlightcompensation.htm
 tech.root: DirectShow
 ms.assetid: 52a9a841-b3d0-41fe-b531-70fa6bac4517

@@ -1,7 +1,7 @@
 ---
 UID: NE:bits.BG_ERROR_CONTEXT
 title: BG_ERROR_CONTEXT (bits.h)
-description: Defines constants that specify the context in which the error occurred.
+description: Defines constants that specify the context in which the error occurred.helpviewer_keywords: ["BG_ERROR_CONTEXT","BG_ERROR_CONTEXT enumeration [BITS]","BG_ERROR_CONTEXT_GENERAL_QUEUE_MANAGER","BG_ERROR_CONTEXT_GENERAL_TRANSPORT","BG_ERROR_CONTEXT_LOCAL_FILE","BG_ERROR_CONTEXT_NONE","BG_ERROR_CONTEXT_QUEUE_MANAGER_NOTIFICATION","BG_ERROR_CONTEXT_REMOTE_APPLICATION","BG_ERROR_CONTEXT_REMOTE_FILE","BG_ERROR_CONTEXT_UNKNOWN","_drz_bg_error_context","bits.bg_error_context","bits/BG_ERROR_CONTEXT","bits/BG_ERROR_CONTEXT_GENERAL_QUEUE_MANAGER","bits/BG_ERROR_CONTEXT_GENERAL_TRANSPORT","bits/BG_ERROR_CONTEXT_LOCAL_FILE","bits/BG_ERROR_CONTEXT_NONE","bits/BG_ERROR_CONTEXT_QUEUE_MANAGER_NOTIFICATION","bits/BG_ERROR_CONTEXT_REMOTE_APPLICATION","bits/BG_ERROR_CONTEXT_REMOTE_FILE","bits/BG_ERROR_CONTEXT_UNKNOWN"]
 old-location: bits\bg_error_context.htm
 tech.root: Bits
 ms.assetid: c9d98518-6f2e-4fd1-b0ee-6735c6d6ecd9

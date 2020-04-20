@@ -1,7 +1,7 @@
 ---
 UID: NF:mscat.CryptCATHandleFromStore
 title: CryptCATHandleFromStore function (mscat.h)
-description: Retrieves a catalog handle from memory.
+description: Retrieves a catalog handle from memory.helpviewer_keywords: ["CryptCATHandleFromStore","CryptCATHandleFromStore function [Security]","mscat/CryptCATHandleFromStore","security.cryptcathandlefromstore"]
 old-location: security\cryptcathandlefromstore.htm
 tech.root: SecCrypto
 ms.assetid: e9aedc2d-9492-4ed7-9f2d-891997f85f6f

@@ -1,7 +1,7 @@
 ---
 UID: NC:clfsmgmtw32.PLOG_FULL_HANDLER_CALLBACK
 title: PLOG_FULL_HANDLER_CALLBACK (clfsmgmtw32.h)
-description: The LOG_FULL_HANDLER_CALLBACK function is an application-defined callback function that receives notification that the call to HandleLogFull is complete.
+description: The LOG_FULL_HANDLER_CALLBACK function is an application-defined callback function that receives notification that the call to HandleLogFull is complete.helpviewer_keywords: ["LOG_FULL_HANDLER_CALLBACK","LOG_FULL_HANDLER_CALLBACK callback function [Files]","PLOG_FULL_HANDLER_CALLBACK","PLOG_FULL_HANDLER_CALLBACK callback","clfsmgmtw32/ LOG_FULL_HANDLER_CALLBACK","fs.log_full_handler_callback"]
 old-location: fs\log_full_handler_callback.htm
 tech.root: Clfs
 ms.assetid: 7b8d3b94-2b2e-427e-9b89-530310ecc6fe

@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPrintQueueOperations.Pause
 title: IADsPrintQueueOperations::Pause (iads.h)
-description: The IADsPrintQueueOperations::Pause method suspends the processing of print jobs within a print queue service.
+description: The IADsPrintQueueOperations::Pause method suspends the processing of print jobs within a print queue service.helpviewer_keywords: ["IADsPrintQueueOperations interface [ADSI]","Pause method","IADsPrintQueueOperations.Pause","IADsPrintQueueOperations::Pause","Pause","Pause method [ADSI]","Pause method [ADSI]","IADsPrintQueueOperations interface","_ds_iadsprintqueueoperations_pause","adsi.iadsprintqueueoperations__pause","adsi.iadsprintqueueoperations_pause","iads/IADsPrintQueueOperations::Pause"]
 old-location: adsi\iadsprintqueueoperations_pause.htm
 tech.root: adsi
 ms.assetid: 6d64b176-3329-451f-b593-f30abc1be588

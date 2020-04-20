@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.Dispatch
 title: ID3D12GraphicsCommandList::Dispatch (d3d12.h)
-description: Executes a command list from a thread group.
+description: Executes a command list from a thread group.helpviewer_keywords: ["Dispatch","Dispatch method","Dispatch method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","Dispatch method","ID3D12GraphicsCommandList.Dispatch","ID3D12GraphicsCommandList::Dispatch","d3d12/ID3D12GraphicsCommandList::Dispatch","direct3d12.id3d12graphicscommandlist_dispatch"]
 old-location: direct3d12\id3d12graphicscommandlist_dispatch.htm
 tech.root: direct3d12
 ms.assetid: 948EE430-6B34-473D-9B5F-1C78CECFBF6F

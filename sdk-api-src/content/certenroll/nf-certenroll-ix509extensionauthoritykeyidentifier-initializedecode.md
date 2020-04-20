@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509ExtensionAuthorityKeyIdentifier.InitializeDecode
 title: IX509ExtensionAuthorityKeyIdentifier::InitializeDecode (certenroll.h)
-description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
+description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.helpviewer_keywords: ["IX509ExtensionAuthorityKeyIdentifier interface [Security]","InitializeDecode method","IX509ExtensionAuthorityKeyIdentifier.InitializeDecode","IX509ExtensionAuthorityKeyIdentifier::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","IX509ExtensionAuthorityKeyIdentifier interface","certenroll/IX509ExtensionAuthorityKeyIdentifier::InitializeDecode","security.ix509extensionauthoritykeyidentifier_initializedecode_method"]
 old-location: security\ix509extensionauthoritykeyidentifier_initializedecode_method.htm
 tech.root: seccertenroll
 ms.assetid: ce37bcba-05b1-4d42-8853-14fecbcb436b

@@ -1,7 +1,7 @@
 ---
 UID: NS:dsclient._DOMAINDESC
 title: DOMAINDESC (dsclient.h)
-description: Contains data about an element in a domain tree obtained with the IDsBrowseDomainTree::GetDomains method.
+description: Contains data about an element in a domain tree obtained with the IDsBrowseDomainTree::GetDomains method.helpviewer_keywords: ["*LPDOMAINDESC","*PDOMAIN_DESC","DOMAINDESC","DOMAINDESC structure [Active Directory]","DOMAIN_DESC","DOMAIN_DESC structure [Active Directory]","LPDOMAINDESC","LPDOMAINDESC structure pointer [Active Directory]","PDOMAIN_DESC","PDOMAIN_DESC structure pointer [Active Directory]","_glines_domaindesc","ad.domaindesc","dsclient/DOMAINDESC","dsclient/LPDOMAINDESC","dsclient/PDOMAIN_DESC"]
 old-location: ad\domaindesc.htm
 tech.root: ad
 ms.assetid: c788d106-2cc7-4d67-8568-23e858c0075f

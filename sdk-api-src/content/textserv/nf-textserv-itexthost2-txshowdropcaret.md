@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost2.TxShowDropCaret
 title: ITextHost2::TxShowDropCaret (textserv.h)
-description: Shows or hides the caret during the drop portion of a drag-and-drop operation (Direct2D only).
+description: Shows or hides the caret during the drop portion of a drag-and-drop operation (Direct2D only).helpviewer_keywords: ["ITextHost2 interface [Windows Controls]","TxShowDropCaret method","ITextHost2.TxShowDropCaret","ITextHost2::TxShowDropCaret","TxShowDropCaret","TxShowDropCaret method [Windows Controls]","TxShowDropCaret method [Windows Controls]","ITextHost2 interface","controls.itexthost2_txshowdropcaret","textserv/ITextHost2::TxShowDropCaret"]
 old-location: controls\itexthost2_txshowdropcaret.htm
 tech.root: Controls
 ms.assetid: D7FAD45E-3467-4F07-A0D9-3131E48C314B

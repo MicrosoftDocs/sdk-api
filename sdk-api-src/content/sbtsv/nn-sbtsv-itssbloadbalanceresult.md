@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbLoadBalanceResult
 title: ITsSbLoadBalanceResult (sbtsv.h)
-description: Exposes methods and properties that store the target name returned by a load-balancing algorithm.
+description: Exposes methods and properties that store the target name returned by a load-balancing algorithm.helpviewer_keywords: ["ITsSbLoadBalanceResult","ITsSbLoadBalanceResult interface [Remote Desktop Services]","ITsSbLoadBalanceResult interface [Remote Desktop Services]","described","sbtsv/ITsSbLoadBalanceResult","termserv.itssbloadbalanceresult"]
 old-location: termserv\itssbloadbalanceresult.htm
 tech.root: TermServ
 ms.assetid: f19f006c-e74a-4f44-8be8-f71852d4c305

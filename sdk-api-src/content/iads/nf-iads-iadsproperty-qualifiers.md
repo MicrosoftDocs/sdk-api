@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsProperty.Qualifiers
 title: IADsProperty::Qualifiers (iads.h)
-description: Returns a collection of ADSI objects that describe additional qualifiers of this property.
+description: Returns a collection of ADSI objects that describe additional qualifiers of this property.helpviewer_keywords: ["IADsProperty interface [ADSI]","Qualifiers method","IADsProperty.Qualifiers","IADsProperty::Qualifiers","Qualifiers","Qualifiers method [ADSI]","Qualifiers method [ADSI]","IADsProperty interface","_ds_iadsproperty_qualifiers","adsi.iadsproperty__qualifiers","adsi.iadsproperty_qualifiers","iads/IADsProperty::Qualifiers"]
 old-location: adsi\iadsproperty_qualifiers.htm
 tech.root: adsi
 ms.assetid: 48645dda-ba1e-47fa-b483-120ba982451e

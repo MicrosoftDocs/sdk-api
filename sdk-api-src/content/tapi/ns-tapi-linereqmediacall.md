@@ -1,7 +1,7 @@
 ---
 UID: NS:tapi.linereqmediacall_tag
 title: LINEREQMEDIACALL (tapi.h)
-description: Describes a request initiated by a call to the lineGetRequest function. This data structure is obsolete and should not be used.
+description: Describes a request initiated by a call to the lineGetRequest function. This data structure is obsolete and should not be used.helpviewer_keywords: ["*LPLINEREQMEDIACALL","LINEREQMEDIACALL","LINEREQMEDIACALL structure [TAPI 2.2]","LPLINEREQMEDIACALL","LPLINEREQMEDIACALL structure pointer [TAPI 2.2]","_tapi2_linereqmediacall_str","tapi/LINEREQMEDIACALL","tapi/LPLINEREQMEDIACALL","tapi2.linereqmediacall_str"]
 old-location: tapi2\linereqmediacall_str.htm
 tech.root: Tapi
 ms.assetid: 4b0e4919-ebf9-496c-a8c9-bb8357879c65

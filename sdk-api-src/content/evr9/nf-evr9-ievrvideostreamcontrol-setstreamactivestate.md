@@ -1,7 +1,7 @@
 ---
 UID: NF:evr9.IEVRVideoStreamControl.SetStreamActiveState
 title: IEVRVideoStreamControl::SetStreamActiveState (evr9.h)
-description: IEVRVideoStreamControl::SetStreamActiveState method
+description: IEVRVideoStreamControl::SetStreamActiveState methodhelpviewer_keywords: ["85f711f1-1536-4ab0-90b7-79e22c210198","IEVRVideoStreamControl interface [Media Foundation]","SetStreamActiveState method","IEVRVideoStreamControl.SetStreamActiveState","IEVRVideoStreamControl::SetStreamActiveState","SetStreamActiveState","SetStreamActiveState method [Media Foundation]","SetStreamActiveState method [Media Foundation]","IEVRVideoStreamControl interface","evr9/IEVRVideoStreamControl::SetStreamActiveState","mf.ievrvideostreamcontrol_setstreamactivestate"]
 old-location: mf\ievrvideostreamcontrol_setstreamactivestate.htm
 tech.root: medfound
 ms.assetid: 85f711f1-1536-4ab0-90b7-79e22c210198

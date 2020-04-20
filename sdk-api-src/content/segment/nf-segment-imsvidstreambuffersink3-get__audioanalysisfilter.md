@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get__AudioAnalysisFilter
 title: IMSVidStreamBufferSink3::get__AudioAnalysisFilter (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","get__AudioAnalysisFilter method","IMSVidStreamBufferSink3.get__AudioAnalysisFilter","IMSVidStreamBufferSink3::get__AudioAnalysisFilter","IMSVidStreamBufferSink3get__AudioAnalysisFilter","get__AudioAnalysisFilter","get__AudioAnalysisFilter method [Microsoft TV Technologies]","get__AudioAnalysisFilter method [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface","mstv.imsvidstreambuffersink3_get__audioanalysisfilter","segment/IMSVidStreamBufferSink3::get__AudioAnalysisFilter"]
 old-location: mstv\imsvidstreambuffersink3_get__audioanalysisfilter.htm
 tech.root: mstv
 ms.assetid: a66ec9d3-f27b-45b5-b8f4-6779a5069cde

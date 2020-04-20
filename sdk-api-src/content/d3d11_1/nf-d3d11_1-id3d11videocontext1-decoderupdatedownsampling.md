@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.DecoderUpdateDownsampling
 title: ID3D11VideoContext1::DecoderUpdateDownsampling (d3d11_1.h)
-description: Updates the decoder downsampling parameters.
+description: Updates the decoder downsampling parameters.helpviewer_keywords: ["DecoderUpdateDownsampling","DecoderUpdateDownsampling method [Media Foundation]","DecoderUpdateDownsampling method [Media Foundation]","ID3D11VideoContext1 interface","ID3D11VideoContext1 interface [Media Foundation]","DecoderUpdateDownsampling method","ID3D11VideoContext1.DecoderUpdateDownsampling","ID3D11VideoContext1::DecoderUpdateDownsampling","d3d11_1/ID3D11VideoContext1::DecoderUpdateDownsampling","mf.id3d11videocontext1_decoderupdatedownsampling"]
 old-location: mf\id3d11videocontext1_decoderupdatedownsampling.htm
 tech.root: medfound
 ms.assetid: A55D652B-9295-42E4-9A83-CAC467BEE68E

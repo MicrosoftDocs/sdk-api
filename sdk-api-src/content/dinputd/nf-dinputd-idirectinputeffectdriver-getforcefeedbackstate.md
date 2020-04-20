@@ -1,7 +1,7 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.GetForceFeedbackState
 title: IDirectInputEffectDriver::GetForceFeedbackState (dinputd.h)
-description: The IDirectInputEffectDriver::GetForceFeedbackState method retrieves the force-feedback state for the device.
+description: The IDirectInputEffectDriver::GetForceFeedbackState method retrieves the force-feedback state for the device.helpviewer_keywords: ["GetForceFeedbackState","GetForceFeedbackState method [Human Input Devices]","GetForceFeedbackState method [Human Input Devices]","IDirectInputEffectDriver interface","IDirectInputEffectDriver interface [Human Input Devices]","GetForceFeedbackState method","IDirectInputEffectDriver.GetForceFeedbackState","IDirectInputEffectDriver::GetForceFeedbackState","di_ref_a4cecccc-23d2-408c-90af-f178846f3938.xml","dinputd/IDirectInputEffectDriver::GetForceFeedbackState","hid.idirectinputeffectdriver_getforcefeedbackstate"]
 old-location: hid\idirectinputeffectdriver_getforcefeedbackstate.htm
 tech.root: hid
 ms.assetid: 0cf48162-2b43-4417-820b-5197993ac990

@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstStringA
 title: MI_ConstStringA (mi.h)
-description: Represents an array of MI_Char types.
+description: Represents an array of MI_Char types.helpviewer_keywords: ["MI_ConstStringA","MI_ConstStringA structure [Windows Management Infrastructure (MI)]","mi/MI_ConstStringA","wmi._mi_conststringa","wmi_v2.mi_conststringa"]
 old-location: wmi_v2\mi_conststringa.htm
 tech.root: wmi_v2
 ms.assetid: 38790be7-1a7d-4ec0-9e7d-b1248fb8952b

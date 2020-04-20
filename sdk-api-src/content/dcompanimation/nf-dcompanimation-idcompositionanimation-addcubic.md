@@ -1,7 +1,7 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.AddCubic
 title: IDCompositionAnimation::AddCubic (dcompanimation.h)
-description: Adds a cubic polynomial segment to the animation function.
+description: Adds a cubic polynomial segment to the animation function.helpviewer_keywords: ["AddCubic","AddCubic method [DirectComposition]","AddCubic method [DirectComposition]","IDCompositionAnimation interface","IDCompositionAnimation interface [DirectComposition]","AddCubic method","IDCompositionAnimation.AddCubic","IDCompositionAnimation::AddCubic","dcompanimation/IDCompositionAnimation::AddCubic","directcomp.idcompositionanimation_addcubic"]
 old-location: directcomp\idcompositionanimation_addcubic.htm
 tech.root: directcomp
 ms.assetid: d80ab2db-0d88-46ed-a40d-4408bf315a85

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResource.GetDictionary
 title: IXpsOMRemoteDictionaryResource::GetDictionary (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMDictionary interface of the remote dictionary that is associated with this resource.
+description: Gets a pointer to the IXpsOMDictionary interface of the remote dictionary that is associated with this resource.helpviewer_keywords: ["GetDictionary","GetDictionary method [XPS Documents and Packaging]","GetDictionary method [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResource interface","IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging]","GetDictionary method","IXpsOMRemoteDictionaryResource.GetDictionary","IXpsOMRemoteDictionaryResource::GetDictionary","xps.ixpsomremotedictionaryresource_getdictionary","xpsobjectmodel/IXpsOMRemoteDictionaryResource::GetDictionary"]
 old-location: xps\ixpsomremotedictionaryresource_getdictionary.htm
 tech.root: printdocs
 ms.assetid: 8363aa97-b7ca-458e-84d9-d9316070a3d0

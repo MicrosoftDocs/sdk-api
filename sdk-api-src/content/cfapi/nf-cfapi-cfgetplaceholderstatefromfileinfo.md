@@ -1,7 +1,7 @@
 ---
 UID: NF:cfapi.CfGetPlaceholderStateFromFileInfo
 title: CfGetPlaceholderStateFromFileInfo function (cfapi.h)
-description: Gets a set of placeholder states based on the various information of the file.
+description: Gets a set of placeholder states based on the various information of the file.helpviewer_keywords: ["CfGetPlaceholderStateFromFileInfo","CfGetPlaceholderStateFromFileInfo function","cfapi/CfGetPlaceholderStateFromFileInfo","cloudApi.cfgetplaceholderstatefromfileinfo"]
 old-location: cloudapi\cfgetplaceholderstatefromfileinfo.htm
 tech.root: cfApi
 ms.assetid: 33DB8FAC-D2C9-4BBB-8505-1D9A680EA2BF

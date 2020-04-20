@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IDirectorySearch.CloseSearchHandle
 title: IDirectorySearch::CloseSearchHandle (iads.h)
-description: The IDirectorySearch::CloseSearchHandle method closes the handle to a search result and frees the associated memory.
+description: The IDirectorySearch::CloseSearchHandle method closes the handle to a search result and frees the associated memory.helpviewer_keywords: ["CloseSearchHandle","CloseSearchHandle method [ADSI]","CloseSearchHandle method [ADSI]","IDirectorySearch interface","IDirectorySearch interface [ADSI]","CloseSearchHandle method","IDirectorySearch.CloseSearchHandle","IDirectorySearch::CloseSearchHandle","_ds_idirectorysearch_closesearchhandle","adsi.idirectorysearch__closesearchhandle","adsi.idirectorysearch_closesearchhandle","iads/IDirectorySearch::CloseSearchHandle"]
 old-location: adsi\idirectorysearch_closesearchhandle.htm
 tech.root: adsi
 ms.assetid: a233c67b-4747-4417-bec8-86b27147863c

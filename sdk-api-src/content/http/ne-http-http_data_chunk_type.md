@@ -1,7 +1,7 @@
 ---
 UID: NE:http._HTTP_DATA_CHUNK_TYPE
 title: HTTP_DATA_CHUNK_TYPE (http.h)
-description: Defines the data source for a data chunk.
+description: Defines the data source for a data chunk.helpviewer_keywords: ["*PHTTP_DATA_CHUNK_TYPE","HTTP_DATA_CHUNK_TYPE","HTTP_DATA_CHUNK_TYPE enumeration [HTTP]","HttpDataChunkFromFileHandle","HttpDataChunkFromFragmentCache","HttpDataChunkFromFragmentCacheEx","HttpDataChunkFromMemory","http.http_data_chunk_type","http/HTTP_DATA_CHUNK_TYPE","http/HttpDataChunkFromFileHandle","http/HttpDataChunkFromFragmentCache","http/HttpDataChunkFromFragmentCacheEx","http/HttpDataChunkFromMemory"]
 old-location: http\http_data_chunk_type.htm
 tech.root: http
 ms.assetid: fbb04b0a-df1a-409d-aadc-c06b816924c5

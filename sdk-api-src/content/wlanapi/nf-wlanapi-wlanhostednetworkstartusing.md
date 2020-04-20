@@ -1,7 +1,7 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkStartUsing
 title: WlanHostedNetworkStartUsing function (wlanapi.h)
-description: Starts the wireless Hosted Network.
+description: Starts the wireless Hosted Network.helpviewer_keywords: ["WlanHostedNetworkStartUsing","WlanHostedNetworkStartUsing function [NativeWIFI]","nwifi.wlanhostednetworkstartusing","wlanapi/WlanHostedNetworkStartUsing"]
 old-location: nwifi\wlanhostednetworkstartusing.htm
 tech.root: NativeWiFi
 ms.assetid: 923ffc09-f378-442c-a891-34b0c0d04c41

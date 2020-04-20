@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIDebug1.EnableLeakTrackingForThread
 title: IDXGIDebug1::EnableLeakTrackingForThread (dxgidebug.h)
-description: Starts tracking leaks for the current thread.
+description: Starts tracking leaks for the current thread.helpviewer_keywords: ["EnableLeakTrackingForThread","EnableLeakTrackingForThread method [DXGI]","EnableLeakTrackingForThread method [DXGI]","IDXGIDebug1 interface","IDXGIDebug1 interface [DXGI]","EnableLeakTrackingForThread method","IDXGIDebug1.EnableLeakTrackingForThread","IDXGIDebug1::EnableLeakTrackingForThread","direct3ddxgi.idxgidebug1_enableleaktrackingforthread","dxgidebug/IDXGIDebug1::EnableLeakTrackingForThread"]
 old-location: direct3ddxgi\idxgidebug1_enableleaktrackingforthread.htm
 tech.root: direct3ddxgi
 ms.assetid: A6CE092E-389C-4DFE-A7A6-10CA96A0C1F4

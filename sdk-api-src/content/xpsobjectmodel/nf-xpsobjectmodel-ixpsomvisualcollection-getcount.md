@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.GetCount
 title: IXpsOMVisualCollection::GetCount (xpsobjectmodel.h)
-description: Gets the number of IXpsOMVisual interface pointers in the collection.
+description: Gets the number of IXpsOMVisual interface pointers in the collection.helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMVisualCollection interface","IXpsOMVisualCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMVisualCollection.GetCount","IXpsOMVisualCollection::GetCount","xps.ixpsomvisualcollection_getcount","xpsobjectmodel/IXpsOMVisualCollection::GetCount"]
 old-location: xps\ixpsomvisualcollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 5a89f2ab-47b3-4e82-94ac-d3aa8c02ff60

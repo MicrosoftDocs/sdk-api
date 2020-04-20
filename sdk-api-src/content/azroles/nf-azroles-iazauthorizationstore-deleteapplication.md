@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeleteApplication
 title: IAzAuthorizationStore::DeleteApplication (azroles.h)
-description: Removes the IAzApplication object with the specified name from the AzAuthorizationStore object.
+description: Removes the IAzApplication object with the specified name from the AzAuthorizationStore object.helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeleteApplication method","DeleteApplication","DeleteApplication method [Security]","DeleteApplication method [Security]","AzAuthorizationStore object","DeleteApplication method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","DeleteApplication method","IAzAuthorizationStore.DeleteApplication","IAzAuthorizationStore::DeleteApplication","azroles/IAzAuthorizationStore::DeleteApplication","security.azauthorizationstore_deleteapplication"]
 old-location: security\azauthorizationstore_deleteapplication.htm
 tech.root: SecAuthZ
 ms.assetid: 512907fc-8657-4f2a-8b4a-af3027c6bbcd

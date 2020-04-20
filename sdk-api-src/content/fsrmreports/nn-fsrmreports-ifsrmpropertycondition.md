@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmreports.IFsrmPropertyCondition
 title: IFsrmPropertyCondition (fsrmreports.h)
-description: Defines a property condition that the file management job uses to determine if the file is expired.
+description: Defines a property condition that the file management job uses to determine if the file is expired.helpviewer_keywords: ["IFsrmPropertyCondition","IFsrmPropertyCondition interface [File Server Resource Manager]","IFsrmPropertyCondition interface [File Server Resource Manager]","described","fs.ifsrmpropertycondition","fsrm.ifsrmpropertycondition","fsrm/IFsrmPropertyCondition"]
 old-location: fsrm\ifsrmpropertycondition.htm
 tech.root: fsrm
 ms.assetid: 5c50b86b-f166-459e-92ce-63faa374c407

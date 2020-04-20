@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IEnumTuningSpaces.Skip
 title: IEnumTuningSpaces::Skip (tuner.h)
-description: The Skip method skips the specified element in the collection.
+description: The Skip method skips the specified element in the collection.helpviewer_keywords: ["IEnumTuningSpaces interface [Microsoft TV Technologies]","Skip method","IEnumTuningSpaces.Skip","IEnumTuningSpaces::Skip","IEnumTuningSpacesSkip","Skip","Skip method [Microsoft TV Technologies]","Skip method [Microsoft TV Technologies]","IEnumTuningSpaces interface","mstv.ienumtuningspaces_skip","tuner/IEnumTuningSpaces::Skip"]
 old-location: mstv\ienumtuningspaces_skip.htm
 tech.root: mstv
 ms.assetid: 5449fca0-4b8d-402e-b444-e7bc314e47b3

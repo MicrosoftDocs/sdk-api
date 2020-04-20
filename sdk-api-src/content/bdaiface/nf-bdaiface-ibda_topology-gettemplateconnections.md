@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetTemplateConnections
 title: IBDA_Topology::GetTemplateConnections (bdaiface.h)
-description: The GetTemplateConnections method retrieves a list of all template connections that appear in the template topology for this filter and network type.
+description: The GetTemplateConnections method retrieves a list of all template connections that appear in the template topology for this filter and network type.helpviewer_keywords: ["GetTemplateConnections","GetTemplateConnections method [Microsoft TV Technologies]","GetTemplateConnections method [Microsoft TV Technologies]","IBDA_Topology interface","IBDA_Topology interface [Microsoft TV Technologies]","GetTemplateConnections method","IBDA_Topology.GetTemplateConnections","IBDA_Topology::GetTemplateConnections","IBDA_TopologyGetTemplateConnections","bdaiface/IBDA_Topology::GetTemplateConnections","mstv.ibda_topology_gettemplateconnections"]
 old-location: mstv\ibda_topology_gettemplateconnections.htm
 tech.root: mstv
 ms.assetid: eeceee7f-8e0f-4852-a69d-eced9772df1a

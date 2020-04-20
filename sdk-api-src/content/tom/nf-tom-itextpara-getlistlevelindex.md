@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.GetListLevelIndex
 title: ITextPara::GetListLevelIndex (tom.h)
-description: Retrieves the list level index used with paragraphs.
+description: Retrieves the list level index used with paragraphs.helpviewer_keywords: ["GetListLevelIndex","GetListLevelIndex method [Windows Controls]","GetListLevelIndex method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetListLevelIndex method","ITextPara.GetListLevelIndex","ITextPara::GetListLevelIndex","_win32_ITextPara_GetListLevelIndex","_win32_ITextPara_GetListLevelIndex_cpp","controls.ITextPara_GetListLevelIndex","controls._win32_ITextPara_GetListLevelIndex","tom/ITextPara::GetListLevelIndex"]
 old-location: controls\ITextPara_GetListLevelIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlistlevelindex.htm

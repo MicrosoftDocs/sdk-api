@@ -1,7 +1,7 @@
 ---
 UID: NF:holographicspaceinterop.IHolographicSpaceInterop.CreateForWindow
 title: IHolographicSpaceInterop::CreateForWindow (holographicspaceinterop.h)
-description: Instantiates a HolographicSpace object and binds it to the current application.
+description: Instantiates a HolographicSpace object and binds it to the current application.helpviewer_keywords: ["CreateForWindow","CreateForWindow method","CreateForWindow method","IHolographicSpaceInterop interface","IHolographicSpaceInterop interface","CreateForWindow method","IHolographicSpaceInterop.CreateForWindow","IHolographicSpaceInterop::CreateForWindow","MixedReality.iholographicspaceinterop_createforwindow","holographicspaceinterop/IHolographicSpaceInterop::CreateForWindow"]
 old-location: mixedreality\iholographicspaceinterop_createforwindow.htm
 tech.root: MixedReality
 ms.assetid: 8B7A226E-FB47-4BA2-B13E-B37250C75920

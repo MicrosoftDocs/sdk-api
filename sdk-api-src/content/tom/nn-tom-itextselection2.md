@@ -1,7 +1,7 @@
 ---
 UID: NN:tom.ITextSelection2
 title: ITextSelection2 (tom.h)
-description: Currently, this interface contains no methods other than those inherited from ITextRange2.
+description: Currently, this interface contains no methods other than those inherited from ITextRange2.helpviewer_keywords: ["ITextSelection2","ITextSelection2 interface [Windows Controls]","ITextSelection2 interface [Windows Controls]","described","controls.itextselection2","tom/ITextSelection2"]
 old-location: controls\itextselection2.htm
 tech.root: Controls
 ms.assetid: 75a4e233-6672-4407-bd68-ba8a7072b7b1

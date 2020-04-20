@@ -1,7 +1,7 @@
 ---
 UID: NC:evr.MFCreateVideoMixerAndPresenter
 title: MFCreateVideoMixerAndPresenter (evr.h)
-description: Creates the default video mixer and video presenter for the enhanced video renderer (EVR).
+description: Creates the default video mixer and video presenter for the enhanced video renderer (EVR).helpviewer_keywords: ["1777027a-85bb-47d2-baf8-6f420282b01a","MFCreateVideoMixerAndPresenter","MFCreateVideoMixerAndPresenter callback","MFCreateVideoMixerAndPresenter callback function [Media Foundation]","evr/MFCreateVideoMixerAndPresenter","mf.mfcreatevideomixerandpresenter"]
 old-location: mf\mfcreatevideomixerandpresenter.htm
 tech.root: medfound
 ms.assetid: 1777027a-85bb-47d2-baf8-6f420282b01a

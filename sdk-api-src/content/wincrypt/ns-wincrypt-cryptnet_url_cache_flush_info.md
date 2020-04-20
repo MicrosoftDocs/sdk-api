@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CRYPTNET_URL_CACHE_FLUSH_INFO
 title: CRYPTNET_URL_CACHE_FLUSH_INFO (wincrypt.h)
-description: Contains expiry information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.
+description: Contains expiry information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.helpviewer_keywords: ["*PCRYPTNET_URL_CACHE_FLUSH_INFO","CRYPTNET_URL_CACHE_DEFAULT_FLUSH","CRYPTNET_URL_CACHE_DISABLE_FLUSH","CRYPTNET_URL_CACHE_FLUSH_INFO","CRYPTNET_URL_CACHE_FLUSH_INFO structure [Security]","PCRYPTNET_URL_CACHE_FLUSH_INFO","PCRYPTNET_URL_CACHE_FLUSH_INFO structure pointer [Security]","security.cryptnet_url_cache_flush_info","wincrypt/CRYPTNET_URL_CACHE_FLUSH_INFO","wincrypt/PCRYPTNET_URL_CACHE_FLUSH_INFO"]
 old-location: security\cryptnet_url_cache_flush_info.htm
 tech.root: SecCrypto
 ms.assetid: 68b52dbe-c521-4281-9a00-d91ee14dd697

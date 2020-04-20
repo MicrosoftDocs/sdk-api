@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabInviteContact
 title: PeerCollabInviteContact function (p2p.h)
-description: Sends an invitation to join a peer collaboration activity to a trusted contact. This call is synchronous and, if successful, obtains a response from the contact.
+description: Sends an invitation to join a peer collaboration activity to a trusted contact. This call is synchronous and, if successful, obtains a response from the contact.helpviewer_keywords: ["PeerCollabInviteContact","PeerCollabInviteContact function [Peer Networking]","p2p.peercollabinvitecontact","p2p/PeerCollabInviteContact"]
 old-location: p2p\peercollabinvitecontact.htm
 tech.root: P2PSdk
 ms.assetid: 65c6cdb5-33af-435c-9444-42f8689e13a8

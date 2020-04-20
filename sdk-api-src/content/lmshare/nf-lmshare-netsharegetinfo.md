@@ -1,7 +1,7 @@
 ---
 UID: NF:lmshare.NetShareGetInfo
 title: NetShareGetInfo function (lmshare.h)
-description: Retrieves information about a particular shared resource on a server.
+description: Retrieves information about a particular shared resource on a server.helpviewer_keywords: ["0","1","1005","2","501","502","503","NetShareGetInfo","NetShareGetInfo function [Files]","_win32_netsharegetinfo","fs.netsharegetinfo","lmshare/NetShareGetInfo","netmgmt.netsharegetinfo"]
 old-location: fs\netsharegetinfo.htm
 tech.root: NetShare
 ms.assetid: 672ea208-4048-4d2f-9606-ee3e2133765b

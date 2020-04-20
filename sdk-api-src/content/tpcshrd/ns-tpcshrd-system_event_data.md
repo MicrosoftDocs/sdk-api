@@ -1,7 +1,7 @@
 ---
 UID: NS:tpcshrd.tagSYSTEM_EVENT_DATA
 title: SYSTEM_EVENT_DATA (tpcshrd.h)
-description: Contains information about a tablet system event.
+description: Contains information about a tablet system event.helpviewer_keywords: ["3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90","SYSTEM_EVENT_DATA","SYSTEM_EVENT_DATA structure [Tablet PC]","tablet.system_event_data","tagSYSTEM_EVENT_DATA","tpcshrd/SYSTEM_EVENT_DATA"]
 old-location: tablet\system_event_data.htm
 tech.root: tablet
 ms.assetid: 3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90

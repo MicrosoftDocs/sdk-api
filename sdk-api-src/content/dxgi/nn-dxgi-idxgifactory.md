@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi.IDXGIFactory
 title: IDXGIFactory (dxgi.h)
-description: An IDXGIFactory interface implements methods for generating DXGI objects (which handle full screen transitions).
+description: An IDXGIFactory interface implements methods for generating DXGI objects (which handle full screen transitions).helpviewer_keywords: ["IDXGIFactory","IDXGIFactory interface [DXGI]","IDXGIFactory interface [DXGI]","described","b1276108-6fb6-9c57-75ed-b22303809d9e","direct3ddxgi.idxgifactory","dxgi/IDXGIFactory"]
 old-location: direct3ddxgi\idxgifactory.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory.htm

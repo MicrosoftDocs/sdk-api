@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.DataLost
 title: IOfflineFilesEvents::DataLost (cscobj.h)
-description: Reports that one or more events destined for this event sink have been lost and will not be delivered.
+description: Reports that one or more events destined for this event sink have been lost and will not be delivered.helpviewer_keywords: ["DataLost","DataLost method [Offline Files]","DataLost method [Offline Files]","IOfflineFilesEvents interface","IOfflineFilesEvents interface [Offline Files]","DataLost method","IOfflineFilesEvents.DataLost","IOfflineFilesEvents::DataLost","cscobj/IOfflineFilesEvents::DataLost","of.iofflinefilesevents_datalost"]
 old-location: of\iofflinefilesevents_datalost.htm
 tech.root: offlinefiles
 ms.assetid: da0414dd-2acb-48d9-ac84-66bb1f7ccbef

@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.SHGetStockIconInfo
 title: SHGetStockIconInfo function (shellapi.h)
-description: Retrieves information about system-defined Shell icons.
+description: Retrieves information about system-defined Shell icons.helpviewer_keywords: ["SHGSI_ICON","SHGSI_ICONLOCATION","SHGSI_LARGEICON","SHGSI_LINKOVERLAY","SHGSI_SELECTED","SHGSI_SHELLICONSIZE","SHGSI_SMALLICON","SHGSI_SYSICONINDEX","SHGetStockIconInfo","SHGetStockIconInfo function [Windows Shell]","_shell_SHGetStockIconInfo","shell.SHGetStockIconInfo","shellapi/SHGetStockIconInfo"]
 old-location: shell\SHGetStockIconInfo.htm
 tech.root: shell
 ms.assetid: c08b1a53-e67c-4ed0-a9c6-d000c448e182

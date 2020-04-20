@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetRenderingOrigin
 title: Graphics::GetRenderingOrigin (gdiplusgraphics.h)
-description: The Graphics::GetRenderingOrigin method gets the rendering origin currently set for this Graphics object.
+description: The Graphics::GetRenderingOrigin method gets the rendering origin currently set for this Graphics object.helpviewer_keywords: ["GetRenderingOrigin","GetRenderingOrigin method [GDI+]","GetRenderingOrigin method [GDI+]","Graphics class","Graphics class [GDI+]","GetRenderingOrigin method","Graphics.GetRenderingOrigin","Graphics::GetRenderingOrigin","_gdiplus_CLASS_Graphics_GetRenderingOrigin_x_y_","gdiplus._gdiplus_CLASS_Graphics_GetRenderingOrigin_x_y_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetRenderingOrigin_x_y_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getrenderingorigin.htm

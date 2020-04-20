@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_DNS_ENDPOINT_IDENTITY
 title: WS_DNS_ENDPOINT_IDENTITY (webservices.h)
-description: Type for specifying an endpoint identity represented by a DNS name.
+description: Type for specifying an endpoint identity represented by a DNS name.helpviewer_keywords: ["WS_DNS_ENDPOINT_IDENTITY","WS_DNS_ENDPOINT_IDENTITY structure [Web Services for Windows]","webservices/WS_DNS_ENDPOINT_IDENTITY","wsw.ws_dns_endpoint_identity"]
 old-location: wsw\ws_dns_endpoint_identity.htm
 tech.root: wsw
 ms.assetid: 09dea451-68ae-4052-8563-30f15c1335d6

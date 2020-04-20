@@ -1,7 +1,7 @@
 ---
 UID: NF:evntrace.TraceQueryInformation
 title: TraceQueryInformation function (evntrace.h)
-description: Queries event tracing session settings for the specified information class.
+description: Queries event tracing session settings for the specified information class.helpviewer_keywords: ["TraceQueryInformation","TraceQueryInformation function [ETW]","etw.tracequeryinformation","evntrace/TraceQueryInformation"]
 old-location: etw\tracequeryinformation.htm
 tech.root: ETW
 ms.assetid: 3CC91F7C-7F82-4B3B-AA50-FE03CFEC0278

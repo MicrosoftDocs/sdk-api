@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfCompartmentMgr
 title: ITfCompartmentMgr (msctf.h)
-description: The ITfCompartmentMgr interface is implemented by the TSF manager and used by clients (applications and text services) to obtain and manipulate TSF compartments.
+description: The ITfCompartmentMgr interface is implemented by the TSF manager and used by clients (applications and text services) to obtain and manipulate TSF compartments.helpviewer_keywords: ["ITfCompartmentMgr","ITfCompartmentMgr interface [Text Services Framework]","ITfCompartmentMgr interface [Text Services Framework]","described","_tsf_itfcompartmentmgr_ref","msctf/ITfCompartmentMgr","tsf.itfcompartmentmgr"]
 old-location: tsf\itfcompartmentmgr.htm
 tech.root: TSF
 ms.assetid: 7cdc5c82-4aac-4ec9-b791-93cea33ba8d2

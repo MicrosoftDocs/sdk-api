@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetRuntimeId
 title: UiaGetRuntimeId function (uiautomationcoreapi.h)
-description: Retrieves the runtime identifier of a UI Automation node.
+description: Retrieves the runtime identifier of a UI Automation node.helpviewer_keywords: ["UiaGetRuntimeId","UiaGetRuntimeId function [Windows Accessibility]","uiauto.uiauto_UiaGetRuntimeIdAutoMeth","uiauto_UiaGetRuntimeIdAutoMeth","uiautomationcoreapi/UiaGetRuntimeId","winauto.uiauto_UiaGetRuntimeIdAutoMeth"]
 old-location: winauto\uiauto_UiaGetRuntimeIdAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 3b339cda-3569-4705-b5cf-028c354d627e

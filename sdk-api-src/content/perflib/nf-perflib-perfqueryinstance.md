@@ -1,7 +1,7 @@
 ---
 UID: NF:perflib.PerfQueryInstance
 title: PerfQueryInstance function (perflib.h)
-description: Retrieves a pointer to the specified counter set instance. Providers use this function.
+description: Retrieves a pointer to the specified counter set instance. Providers use this function.helpviewer_keywords: ["PerfQueryInstance","PerfQueryInstance function [Perf]","base.perfqueryinstance","perf.perfqueryinstance","perflib/PerfQueryInstance"]
 old-location: perf\perfqueryinstance.htm
 tech.root: perfctrs
 ms.assetid: 844f3f9e-8de2-4995-b13c-befe0da8a1ab

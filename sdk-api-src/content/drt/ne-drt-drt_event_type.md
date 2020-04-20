@@ -1,7 +1,7 @@
 ---
 UID: NE:drt.drt_event_type_tag
 title: DRT_EVENT_TYPE (drt.h)
-description: The DRT_EVENT_TYPE enumeration defines the set of events that can be raised by the Distributed Routing Table.
+description: The DRT_EVENT_TYPE enumeration defines the set of events that can be raised by the Distributed Routing Table.helpviewer_keywords: ["DRT_EVENT_LEAFSET_KEY_CHANGED","DRT_EVENT_REGISTRATION_STATE_CHANGED","DRT_EVENT_STATUS_CHANGED","DRT_EVENT_TYPE","DRT_EVENT_TYPE enumeration [Peer Networking]","drt/DRT_EVENT_LEAFSET_KEY_CHANGED","drt/DRT_EVENT_REGISTRATION_STATE_CHANGED","drt/DRT_EVENT_STATUS_CHANGED","drt/DRT_EVENT_TYPE","p2p.drt_event_type"]
 old-location: p2p\drt_event_type.htm
 tech.root: P2PSdk
 ms.assetid: 8125e663-10dd-4c3d-b9d6-ac6164b9f0a4

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspen.Pen.Pen(IN const Brush,IN REAL)
 title: Pen::Pen(IN const Brush,IN REAL) (gdipluspen.h)
-description: Creates a Pen object that uses the attributes of a brush and a real number to set the width of this Pen object.
+description: Creates a Pen object that uses the attributes of a brush and a real number to set the width of this Pen object.helpviewer_keywords: ["Pen","Pen class [GDI+]","Pen constructor","Pen constructor [GDI+]","Pen constructor [GDI+]","Pen class","Pen.Pen","Pen.Pen(IN const Brush","IN REAL)","Pen.Pen(const Brush*","REAL)","Pen::Pen","Pen::Pen(IN const Brush","IN REAL)","_gdiplus_CLASS_Pen_Pen_brush_width_","gdiplus._gdiplus_CLASS_Pen_Pen_brush_width_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_Pen_brush_width_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructors\pen_34brush_width.htm

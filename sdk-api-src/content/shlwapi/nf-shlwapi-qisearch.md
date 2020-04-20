@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.QISearch
 title: QISearch function (shlwapi.h)
-description: A table-driven implementation of the IUnknown::QueryInterface method.
+description: A table-driven implementation of the IUnknown::QueryInterface method.helpviewer_keywords: ["QISearch","QISearch function [Windows Shell]","_win32_QISearch","shell.QISearch","shlwapi/QISearch"]
 old-location: shell\QISearch.htm
 tech.root: shell
 ms.assetid: 8429778b-bc9c-43f6-8d75-0fb78e36e790

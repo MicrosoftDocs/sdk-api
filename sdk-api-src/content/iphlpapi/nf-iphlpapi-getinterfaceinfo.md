@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetInterfaceInfo
 title: GetInterfaceInfo function (iphlpapi.h)
-description: The GetInterfaceInfo function obtains the list of the network interface adapters with IPv4 enabled on the local system.
+description: The GetInterfaceInfo function obtains the list of the network interface adapters with IPv4 enabled on the local system.helpviewer_keywords: ["GetInterfaceInfo","GetInterfaceInfo function [IP Helper]","_iphlp_getinterfaceinfo","iphlp.getinterfaceinfo","iphlpapi/GetInterfaceInfo"]
 old-location: iphlp\getinterfaceinfo.htm
 tech.root: IpHlp
 ms.assetid: efc0d175-2c6d-4608-b385-1623a9e0375c

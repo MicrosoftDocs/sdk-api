@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._IMAGE_DATA_DIRECTORY
 title: IMAGE_DATA_DIRECTORY (winnt.h)
-description: Represents the data directory.
+description: Represents the data directory.helpviewer_keywords: ["*PIMAGE_DATA_DIRECTORY","IMAGE_DATA_DIRECTORY","IMAGE_DATA_DIRECTORY structure","PIMAGE_DATA_DIRECTORY","PIMAGE_DATA_DIRECTORY structure pointer","_IMAGE_DATA_DIRECTORY","_win32_image_data_directory_str","base.image_data_directory_str","winnt/IMAGE_DATA_DIRECTORY","winnt/PIMAGE_DATA_DIRECTORY"]
 old-location: base\image_data_directory_str.htm
 tech.root: Debug
 ms.assetid: 06d53806-d3a3-4990-bc9a-3a3004e60a3c

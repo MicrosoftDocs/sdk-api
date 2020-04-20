@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITTAPI.SetCallHubTracking
 title: ITTAPI::SetCallHubTracking (tapi3if.h)
-description: The SetCallHubTracking method enables or disables CallHub tracking.
+description: The SetCallHubTracking method enables or disables CallHub tracking.helpviewer_keywords: ["ITTAPI interface [TAPI 2.2]","SetCallHubTracking method","ITTAPI.SetCallHubTracking","ITTAPI::SetCallHubTracking","SetCallHubTracking","SetCallHubTracking method [TAPI 2.2]","SetCallHubTracking method [TAPI 2.2]","ITTAPI interface","_tapi3_ittapi_setcallhubtracking","tapi3.ittapi_setcallhubtracking","tapi3if/ITTAPI::SetCallHubTracking"]
 old-location: tapi3\ittapi_setcallhubtracking.htm
 tech.root: Tapi
 ms.assetid: 8c33a294-ed45-4353-91ed-fa0d3d66e5da

@@ -1,7 +1,7 @@
 ---
 UID: NS:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0002
 title: BITS_FILE_PROPERTY_VALUE
-description: Provides the property value of a BITS file.
+description: Provides the property value of a BITS file.helpviewer_keywords: ["BITS_FILE_PROPERTY_VALUE","BITS_FILE_PROPERTY_VALUE union [BITS]","bits.bits_file_property_value","bits5_0/BITS_FILE_PROPERTY_VALUE"]
 old-location: bits\bits_file_property_value.htm
 tech.root: Bits
 ms.assetid: 0296014d-d5cc-40f0-a3d3-93d8ea704ce5

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetRecommendedRenderingMode
 title: IDWriteFontFace1::GetRecommendedRenderingMode (dwrite_1.h)
-description: Determines the recommended rendering mode for the font, using the specified size and rendering parameters.
+description: Determines the recommended rendering mode for the font, using the specified size and rendering parameters.helpviewer_keywords: ["GetRecommendedRenderingMode","GetRecommendedRenderingMode method [Direct Write]","GetRecommendedRenderingMode method [Direct Write]","IDWriteFontFace1 interface","IDWriteFontFace1 interface [Direct Write]","GetRecommendedRenderingMode method","IDWriteFontFace1.GetRecommendedRenderingMode","IDWriteFontFace1::GetRecommendedRenderingMode","directwrite.idwritefontface1_getrecommendedrenderingmode","dwrite_1/IDWriteFontFace1::GetRecommendedRenderingMode"]
 old-location: directwrite\idwritefontface1_getrecommendedrenderingmode.htm
 tech.root: DirectWrite
 ms.assetid: 4726A5FC-6481-4986-AE2D-EBC044D0B9C6

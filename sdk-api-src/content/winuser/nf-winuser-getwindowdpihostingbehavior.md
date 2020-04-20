@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetWindowDpiHostingBehavior
 title: GetWindowDpiHostingBehavior function (winuser.h)
-description: Returns the DPI_HOSTING_BEHAVIOR of the specified window.
+description: Returns the DPI_HOSTING_BEHAVIOR of the specified window.helpviewer_keywords: ["GetWindowDpiHostingBehavior","GetWindowDpiHostingBehavior function [High DPI]","hidpi.getwindowdpihostingbehavior","winuser/GetWindowDpiHostingBehavior"]
 old-location: hidpi\getwindowdpihostingbehavior.htm
 tech.root: hidpi
 ms.assetid: BD16F545-54A1-479A-BA4B-F54834043EB2

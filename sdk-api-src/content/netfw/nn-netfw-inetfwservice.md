@@ -1,7 +1,7 @@
 ---
 UID: NN:netfw.INetFwService
 title: INetFwService (netfw.h)
-description: The INetFwService interface provides access to the properties of a service that may be authorized to listen through the firewall.
+description: The INetFwService interface provides access to the properties of a service that may be authorized to listen through the firewall.helpviewer_keywords: ["INetFwService","INetFwService interface [ICS/ICF]","INetFwService interface [ICS/ICF]","described","ics.inetfwservice","netfw/INetFwService"]
 old-location: ics\inetfwservice.htm
 tech.root: ics
 ms.assetid: 57a777a4-03f5-416a-ae28-474d8794a759

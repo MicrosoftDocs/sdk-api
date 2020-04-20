@@ -1,7 +1,7 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_ALIGNMENT
 title: MF_TIMED_TEXT_ALIGNMENT (mfmediaengine.h)
-description: Specifies how text is aligned in its parent block element.
+description: Specifies how text is aligned in its parent block element.helpviewer_keywords: ["MF_TIMED_TEXT_ALIGNMENT","MF_TIMED_TEXT_ALIGNMENT enumeration [Media Foundation]","MF_TIMED_TEXT_ALIGNMENT_CENTER","MF_TIMED_TEXT_ALIGNMENT_END","MF_TIMED_TEXT_ALIGNMENT_START","mf.mf_timed_text_alignment","mfmediaengine/MF_TIMED_TEXT_ALIGNMENT","mfmediaengine/MF_TIMED_TEXT_ALIGNMENT_CENTER","mfmediaengine/MF_TIMED_TEXT_ALIGNMENT_END","mfmediaengine/MF_TIMED_TEXT_ALIGNMENT_START"]
 old-location: mf\mf_timed_text_alignment.htm
 tech.root: medfound
 ms.assetid: F94DF6A5-1FF7-48C2-834F-50C90B2D9C33

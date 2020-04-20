@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.SetIpForwardEntry
 title: SetIpForwardEntry function (iphlpapi.h)
-description: The SetIpForwardEntry function modifies an existing route in the local computer's IPv4 routing table.
+description: The SetIpForwardEntry function modifies an existing route in the local computer's IPv4 routing table.helpviewer_keywords: ["SetIpForwardEntry","SetIpForwardEntry function [IP Helper]","_iphlp_setipforwardentry","iphlp.setipforwardentry","iphlpapi/SetIpForwardEntry"]
 old-location: iphlp\setipforwardentry.htm
 tech.root: IpHlp
 ms.assetid: a98de796-8fa2-4835-8d15-07d86d89c348

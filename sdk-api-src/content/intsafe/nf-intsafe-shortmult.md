@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ShortMult
 title: ShortMult function (intsafe.h)
-description: Multiplies two values of type SHORT.
+description: Multiplies two values of type SHORT.helpviewer_keywords: ["ShortMult","ShortMult function [Windows Shell]","intsafe/ShortMult","shell.ShortMult"]
 old-location: shell\ShortMult.htm
 tech.root: shell
 ms.assetid: ca602be6-a066-4192-a240-96192e5dbdf8

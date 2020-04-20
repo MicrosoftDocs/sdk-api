@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.IsClosed
 title: IWMWriterFileSink2::IsClosed (wmsdkidl.h)
-description: The IsClosed method ascertains whether the file sink has been closed.
+description: The IsClosed method ascertains whether the file sink has been closed.helpviewer_keywords: ["IWMWriterFileSink2 interface [windows Media Format]","IsClosed method","IWMWriterFileSink2.IsClosed","IWMWriterFileSink2::IsClosed","IWMWriterFileSink2IsClosed","IsClosed","IsClosed method [windows Media Format]","IsClosed method [windows Media Format]","IWMWriterFileSink2 interface","wmformat.iwmwriterfilesink2_isclosed","wmsdkidl/IWMWriterFileSink2::IsClosed"]
 old-location: wmformat\iwmwriterfilesink2_isclosed.htm
 tech.root: wmformat
 ms.assetid: 0ae9137f-ce43-4860-a28f-deac39f216a4

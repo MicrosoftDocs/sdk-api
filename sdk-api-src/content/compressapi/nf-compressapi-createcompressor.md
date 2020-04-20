@@ -1,7 +1,7 @@
 ---
 UID: NF:compressapi.CreateCompressor
 title: CreateCompressor function (compressapi.h)
-description: Generates a new COMPRESSOR_HANDLE.
+description: Generates a new COMPRESSOR_HANDLE.helpviewer_keywords: ["COMPRESS_ALGORITHM_LZMS","COMPRESS_ALGORITHM_MSZIP","COMPRESS_ALGORITHM_XPRESS","COMPRESS_ALGORITHM_XPRESS_HUFF","CreateCompressor","CreateCompressor function [Compression API]","cmpapi.createcompressor","compressapi/CreateCompressor"]
 old-location: cmpapi\createcompressor.htm
 tech.root: cmpapi
 ms.assetid: 782b3c08-158a-4bbd-89a5-c20666cbfb94

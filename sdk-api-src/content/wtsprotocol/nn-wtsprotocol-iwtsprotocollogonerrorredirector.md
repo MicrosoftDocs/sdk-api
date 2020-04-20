@@ -1,7 +1,7 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolLogonErrorRedirector
 title: IWTSProtocolLogonErrorRedirector (wtsprotocol.h)
-description: IWTSProtocolLogonErrorRedirector is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector.
+description: IWTSProtocolLogonErrorRedirector is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector.helpviewer_keywords: ["IWTSProtocolLogonErrorRedirector","IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services]","IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services]","described","termserv.iwtsprotocollogonerrorredirector","wtsprotocol/IWTSProtocolLogonErrorRedirector"]
 old-location: termserv\iwtsprotocollogonerrorredirector.htm
 tech.root: TermServ
 ms.assetid: 1ff30217-9091-47df-a38f-30784538f0b9

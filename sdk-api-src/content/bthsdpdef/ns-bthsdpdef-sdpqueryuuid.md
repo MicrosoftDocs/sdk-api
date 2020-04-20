@@ -1,7 +1,7 @@
 ---
 UID: NS:bthsdpdef._SdpQueryUuid
 title: SdpQueryUuid (bthsdpdef.h)
-description: The SdpQueryUuid structure facilitates searching for UUIDs.
+description: The SdpQueryUuid structure facilitates searching for UUIDs.helpviewer_keywords: ["SdpQueryUuid","SdpQueryUuid structure [Bluetooth]","bluetooth.sdpqueryuuid","bthsdpdef/SdpQueryUuid"]
 old-location: bluetooth\sdpqueryuuid.htm
 tech.root: bluetooth
 ms.assetid: 8c67b1b1-d289-4273-a512-589b19cd1f85

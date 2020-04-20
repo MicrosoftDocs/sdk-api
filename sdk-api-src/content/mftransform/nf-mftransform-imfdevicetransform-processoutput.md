@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.ProcessOutput
 title: IMFDeviceTransform::ProcessOutput (mftransform.h)
-description: The ProcessOutput method gets the processed output from the Device MFT output streams.
+description: The ProcessOutput method gets the processed output from the Device MFT output streams.helpviewer_keywords: ["IMFDeviceTransform interface [Streaming Media Devices]","ProcessOutput method","IMFDeviceTransform.ProcessOutput","IMFDeviceTransform::ProcessOutput","ProcessOutput","ProcessOutput method [Streaming Media Devices]","ProcessOutput method [Streaming Media Devices]","IMFDeviceTransform interface","mftransform/IMFDeviceTransform::ProcessOutput","stream.imfdevicetransform_processoutput"]
 old-location: stream\imfdevicetransform_processoutput.htm
 tech.root: stream
 ms.assetid: A99242D6-5225-493C-A5A8-CFDBB49D01A0

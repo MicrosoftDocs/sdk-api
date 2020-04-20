@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Clone
 title: IEnumExtraSearch::Clone (shobjidl_core.h)
-description: Used to request a duplicate of the enumerator object to preserve its current state.
+description: Used to request a duplicate of the enumerator object to preserve its current state.helpviewer_keywords: ["Clone","Clone method [Windows Shell]","Clone method [Windows Shell]","IEnumExtraSearch interface","IEnumExtraSearch interface [Windows Shell]","Clone method","IEnumExtraSearch.Clone","IEnumExtraSearch::Clone","_win32_IEnumExtraSearch_Clone","shell.IEnumExtraSearch_Clone","shobjidl_core/IEnumExtraSearch::Clone"]
 old-location: shell\IEnumExtraSearch_Clone.htm
 tech.root: shell
 ms.assetid: 9d766cf9-784b-4e89-ad58-bab6415630fe

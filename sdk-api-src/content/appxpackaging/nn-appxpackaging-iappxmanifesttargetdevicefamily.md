@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxManifestTargetDeviceFamily
 title: IAppxManifestTargetDeviceFamily (appxpackaging.h)
-description: Retrieves information about the target device family from the AppxManifest.xml.
+description: Retrieves information about the target device family from the AppxManifest.xml.helpviewer_keywords: ["IAppxManifestTargetDeviceFamily","IAppxManifestTargetDeviceFamily interface [App packaging and management]","IAppxManifestTargetDeviceFamily interface [App packaging and management]","described","appxpackaging/IAppxManifestTargetDeviceFamily","appxpkg.iappxmanifesttargetdevicefamily"]
 old-location: appxpkg\iappxmanifesttargetdevicefamily.htm
 tech.root: appxpkg
 ms.assetid: 52C2950B-FB7F-44A8-BAB5-BCC238B012FE

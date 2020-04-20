@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoAllowUnmarshalerCLSID
 title: CoAllowUnmarshalerCLSID function (combaseapi.h)
-description: Adds an unmarshaler CLSID to the allowed list for the calling process only.
+description: Adds an unmarshaler CLSID to the allowed list for the calling process only.helpviewer_keywords: ["CoAllowUnmarshalerCLSID","CoAllowUnmarshalerCLSID function [COM]","com.coallowunmarshalerclsid","combaseapi/CoAllowUnmarshalerCLSID"]
 old-location: com\coallowunmarshalerclsid.htm
 tech.root: com
 ms.assetid: 4655C6B6-02CE-42B2-A157-0C0325D1BE52

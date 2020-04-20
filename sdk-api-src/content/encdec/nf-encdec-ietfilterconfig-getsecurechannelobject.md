@@ -1,7 +1,7 @@
 ---
 UID: NF:encdec.IETFilterConfig.GetSecureChannelObject
 title: IETFilterConfig::GetSecureChannelObject (encdec.h)
-description: This topic applies to Windows XP Service Pack 1 or later.
+description: This topic applies to Windows XP Service Pack 1 or later.helpviewer_keywords: ["GetSecureChannelObject","GetSecureChannelObject method [Microsoft TV Technologies]","GetSecureChannelObject method [Microsoft TV Technologies]","IETFilterConfig interface","IETFilterConfig interface [Microsoft TV Technologies]","GetSecureChannelObject method","IETFilterConfig.GetSecureChannelObject","IETFilterConfig::GetSecureChannelObject","IETFilterConfigGetSecureChannelObject","encdec/IETFilterConfig::GetSecureChannelObject","mstv.ietfilterconfig_getsecurechannelobject"]
 old-location: mstv\ietfilterconfig_getsecurechannelobject.htm
 tech.root: mstv
 ms.assetid: 385f4525-97b0-4973-8b74-a05816e43556

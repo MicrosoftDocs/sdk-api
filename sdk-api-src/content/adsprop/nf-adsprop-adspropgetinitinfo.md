@@ -1,7 +1,7 @@
 ---
 UID: NF:adsprop.ADsPropGetInitInfo
 title: ADsPropGetInitInfo function (adsprop.h)
-description: Used to obtain directory object data that an Active Directory Domain Services property sheet extension applies to.
+description: Used to obtain directory object data that an Active Directory Domain Services property sheet extension applies to.helpviewer_keywords: ["ADsPropGetInitInfo","ADsPropGetInitInfo function [Active Directory]","ad.adspropgetinitinfo","adsprop/ADsPropGetInitInfo"]
 old-location: ad\adspropgetinitinfo.htm
 tech.root: ad
 ms.assetid: dcc4ea8f-6924-4e26-a675-ce326f35933c

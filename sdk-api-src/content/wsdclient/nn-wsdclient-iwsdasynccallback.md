@@ -1,7 +1,7 @@
 ---
 UID: NN:wsdclient.IWSDAsyncCallback
 title: IWSDAsyncCallback (wsdclient.h)
-description: Handles callbacks for the completion of an asynchronous operation.
+description: Handles callbacks for the completion of an asynchronous operation.helpviewer_keywords: ["IWSDAsyncCallback","IWSDAsyncCallback interface","IWSDAsyncCallback interface","described","ncd.iwsdasynccallback","wsdclient/IWSDAsyncCallback"]
 old-location: ncd\iwsdasynccallback.htm
 tech.root: WsdApi
 ms.assetid: 24108143-55b7-4098-a4cc-025dfdfd054a

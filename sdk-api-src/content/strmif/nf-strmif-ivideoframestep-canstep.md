@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IVideoFrameStep.CanStep
 title: IVideoFrameStep::CanStep (strmif.h)
-description: The CanStep method determines the stepping capabilities of the specified filter.
+description: The CanStep method determines the stepping capabilities of the specified filter.helpviewer_keywords: ["CanStep","CanStep method [DirectShow]","CanStep method [DirectShow]","IVideoFrameStep interface","IVideoFrameStep interface [DirectShow]","CanStep method","IVideoFrameStep.CanStep","IVideoFrameStep::CanStep","IVideoFrameStepCanStep","dshow.ivideoframestep_canstep","strmif/IVideoFrameStep::CanStep"]
 old-location: dshow\ivideoframestep_canstep.htm
 tech.root: DirectShow
 ms.assetid: e2e3f665-28be-4a6d-b29a-4f0485d9a672

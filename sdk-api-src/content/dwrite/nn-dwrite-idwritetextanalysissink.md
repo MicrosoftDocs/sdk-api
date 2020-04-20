@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite.IDWriteTextAnalysisSink
 title: IDWriteTextAnalysisSink (dwrite.h)
-description: This interface is implemented by the text analyzer's client to receive the output of a given text analysis.
+description: This interface is implemented by the text analyzer's client to receive the output of a given text analysis.helpviewer_keywords: ["IDWriteTextAnalysisSink","IDWriteTextAnalysisSink interface [Direct Write]","IDWriteTextAnalysisSink interface [Direct Write]","described","directwrite.idwritetextanalysissink","dwrite/IDWriteTextAnalysisSink"]
 old-location: directwrite\idwritetextanalysissink.htm
 tech.root: DirectWrite
 ms.assetid: 1fd2ca46-006c-4b01-8258-6c24f4be1641

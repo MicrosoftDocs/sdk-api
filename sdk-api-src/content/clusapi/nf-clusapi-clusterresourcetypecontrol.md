@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterResourceTypeControl
 title: ClusterResourceTypeControl function (clusapi.h)
-description: Initiates an operation affecting a resource type. The operation performed depends on the control code passed to the dwControlCode parameter.
+description: Initiates an operation affecting a resource type. The operation performed depends on the control code passed to the dwControlCode parameter.helpviewer_keywords: ["ClusterResourceTypeControl","ClusterResourceTypeControl function [Failover Cluster]","_wolf_clusterresourcetypecontrol","clusapi/ClusterResourceTypeControl","mscs.clusterresourcetypecontrol"]
 old-location: mscs\clusterresourcetypecontrol.htm
 tech.root: MsCS
 ms.assetid: 79f4949d-e5ef-4d2e-ac11-0e30b6c566fd

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISupportFilteredSync.AddFilter
 title: ISupportFilteredSync::AddFilter (winsync.h)
-description: Sets the filter that is used for change enumeration by the source provider, when implemented by a derived class.
+description: Sets the filter that is used for change enumeration by the source provider, when implemented by a derived class.helpviewer_keywords: ["AddFilter","AddFilter method [Windows Sync]","AddFilter method [Windows Sync]","ISupportFilteredSync interface","ISupportFilteredSync interface [Windows Sync]","AddFilter method","ISupportFilteredSync.AddFilter","ISupportFilteredSync::AddFilter","winsync.isupportfilteredsync_addfilter","winsync/ISupportFilteredSync::AddFilter"]
 old-location: winsync\isupportfilteredsync_addfilter.htm
 tech.root: winsync
 ms.assetid: 00a533fa-2a91-46e8-9754-af162a5e59ec

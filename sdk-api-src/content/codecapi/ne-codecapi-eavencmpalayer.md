@@ -1,7 +1,7 @@
 ---
 UID: NE:codecapi.eAVEncMPALayer
 title: eAVEncMPALayer (codecapi.h)
-description: Specifies the MPEG audio layer. This enumeration is used with the AVEncMPALayer property.
+description: Specifies the MPEG audio layer. This enumeration is used with the AVEncMPALayer property.helpviewer_keywords: ["codecapi/eAVEncMPALayer","codecapi/eAVEncMPALayer_1","codecapi/eAVEncMPALayer_2","codecapi/eAVEncMPALayer_3","dshow.eavencmpalayer","eAVEncMPALayer","eAVEncMPALayer enumeration [DirectShow]","eAVEncMPALayerEnumeration","eAVEncMPALayer_1","eAVEncMPALayer_2","eAVEncMPALayer_3"]
 old-location: dshow\eavencmpalayer.htm
 tech.root: DirectShow
 ms.assetid: dbe5c4ac-15c8-443b-a344-a9d529ed841f

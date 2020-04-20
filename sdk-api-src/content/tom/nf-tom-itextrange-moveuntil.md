@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.MoveUntil
 title: ITextRange::MoveUntil (tom.h)
-description: Searches up to Count characters for the first character in the set of characters specified by Cset. If a character is found, the range is collapsed to that point. The start of the search and the direction are also specified by Count.
+description: Searches up to Count characters for the first character in the set of characters specified by Cset. If a character is found, the range is collapsed to that point. The start of the search and the direction are also specified by Count.helpviewer_keywords: ["ITextRange interface [Windows Controls]","MoveUntil method","ITextRange.MoveUntil","ITextRange::MoveUntil","MoveUntil","MoveUntil method [Windows Controls]","MoveUntil method [Windows Controls]","ITextRange interface","_win32_ITextRange_MoveUntil","_win32_ITextRange_MoveUntil_cpp","controls.ITextRange_MoveUntil","controls._win32_ITextRange_MoveUntil","tom/ITextRange::MoveUntil"]
 old-location: controls\ITextRange_MoveUntil.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveuntil.htm

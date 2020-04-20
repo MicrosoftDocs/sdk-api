@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetLastErrorEx
 title: SetLastErrorEx function (winuser.h)
-description: Sets the last-error code.
+description: Sets the last-error code.helpviewer_keywords: ["SetLastErrorEx","SetLastErrorEx function","_win32_setlasterrorex","base.setlasterrorex","winuser/SetLastErrorEx"]
 old-location: base\setlasterrorex.htm
 tech.root: Debug
 ms.assetid: d97494db-868a-49d4-a613-e8beba86d4e6

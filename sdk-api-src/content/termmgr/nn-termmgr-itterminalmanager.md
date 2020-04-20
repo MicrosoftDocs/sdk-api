@@ -1,7 +1,7 @@
 ---
 UID: NN:termmgr.ITTerminalManager
 title: ITTerminalManager (termmgr.h)
-description: The ITTerminalManager interface is used by the MSP to create dynamic terminals.
+description: The ITTerminalManager interface is used by the MSP to create dynamic terminals.helpviewer_keywords: ["ITTerminalManager","ITTerminalManager interface [TAPI 2.2]","ITTerminalManager interface [TAPI 2.2]","described","_tapi3_itterminalmanager","tapi3.itterminalmanager","termmgr/ITTerminalManager"]
 old-location: tapi3\itterminalmanager.htm
 tech.root: Tapi
 ms.assetid: 7e5bd83d-42c5-463c-8ce0-c6f466f60588

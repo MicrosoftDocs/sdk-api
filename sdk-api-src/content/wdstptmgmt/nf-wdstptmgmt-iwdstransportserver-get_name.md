@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer.get_Name
 title: IWdsTransportServer::get_Name (wdstptmgmt.h)
-description: Returns the name of the server represented by this object.
+description: Returns the name of the server represented by this object.helpviewer_keywords: ["IWdsTransportServer interface [Windows Deployment Services]","Name property","IWdsTransportServer.Name","IWdsTransportServer.get_Name","IWdsTransportServer::Name","IWdsTransportServer::get_Name","Name property [Windows Deployment Services]","Name property [Windows Deployment Services]","IWdsTransportServer interface","get_Name","wds.iwdstransportserver_name","wdstptmgmt/IWdsTransportServer::Name","wdstptmgmt/IWdsTransportServer::get_Name"]
 old-location: wds\iwdstransportserver_name.htm
 tech.root: wds
 ms.assetid: d638f1f5-e74a-4ef6-a3ab-7ed6e11f863f

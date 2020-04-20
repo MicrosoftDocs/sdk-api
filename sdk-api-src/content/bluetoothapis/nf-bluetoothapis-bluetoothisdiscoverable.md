@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothIsDiscoverable
 title: BluetoothIsDiscoverable function (bluetoothapis.h)
-description: The BluetoothIsDiscoverable function determines whether a Bluetooth radio or radios is discoverable.
+description: The BluetoothIsDiscoverable function determines whether a Bluetooth radio or radios is discoverable.helpviewer_keywords: ["BluetoothIsDiscoverable","BluetoothIsDiscoverable function [Bluetooth]","bluetooth.bluetoothisdiscoverable","bluetoothapis/BluetoothIsDiscoverable"]
 old-location: bluetooth\bluetoothisdiscoverable.htm
 tech.root: bluetooth
 ms.assetid: 33d34e36-dc17-4029-91bd-53ece5a93b4b

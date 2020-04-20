@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionPrepare
 title: IComLTxEvents::OnLtxTransactionPrepare (comsvcs.h)
-description: Generated when COM+ receives a prepare notification for a transaction.
+description: Generated when COM+ receives a prepare notification for a transaction.helpviewer_keywords: ["IComLTxEvents interface [COM+]","OnLtxTransactionPrepare method","IComLTxEvents.OnLtxTransactionPrepare","IComLTxEvents::OnLtxTransactionPrepare","OnLtxTransactionPrepare","OnLtxTransactionPrepare method [COM+]","OnLtxTransactionPrepare method [COM+]","IComLTxEvents interface","comsvcs/IComLTxEvents::OnLtxTransactionPrepare","cos.icomltxevents_onltxtransactionprepare"]
 old-location: cos\icomltxevents_onltxtransactionprepare.htm
 tech.root: cossdk
 ms.assetid: 31915d4c-7ac0-406b-b2d2-ab96b317be3f

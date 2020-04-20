@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.IMSCEPSetup.SetMSCEPSetupProperty
 title: IMSCEPSetup::SetMSCEPSetupProperty (casetup.h)
-description: Sets a property value for a Network Device Enrollment Service (NDES) configuration.
+description: Sets a property value for a Network Device Enrollment Service (NDES) configuration.helpviewer_keywords: ["IMSCEPSetup interface [Security]","SetMSCEPSetupProperty method","IMSCEPSetup.SetMSCEPSetupProperty","IMSCEPSetup::SetMSCEPSetupProperty","SetMSCEPSetupProperty","SetMSCEPSetupProperty method [Security]","SetMSCEPSetupProperty method [Security]","IMSCEPSetup interface","casetup/IMSCEPSetup::SetMSCEPSetupProperty","security.imscepsetup_setmscepsetupproperty"]
 old-location: security\imscepsetup_setmscepsetupproperty.htm
 tech.root: SecCrypto
 ms.assetid: 868f3e5f-1345-414b-a75f-d2e68213469b

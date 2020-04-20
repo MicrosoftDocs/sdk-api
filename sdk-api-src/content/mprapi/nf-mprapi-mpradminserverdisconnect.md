@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminServerDisconnect
 title: MprAdminServerDisconnect function (mprapi.h)
-description: The MprAdminServerDisconnect function disconnects the connection made by a previous call to MprAdminServerConnect.
+description: The MprAdminServerDisconnect function disconnects the connection made by a previous call to MprAdminServerConnect.helpviewer_keywords: ["MprAdminServerDisconnect","MprAdminServerDisconnect function [RAS]","_mpr_mpradminserverdisconnect","mprapi/MprAdminServerDisconnect","rras.mpradminserverdisconnect"]
 old-location: rras\mpradminserverdisconnect.htm
 tech.root: RRAS
 ms.assetid: 905b5296-ae6b-40a6-ba49-837db96de152

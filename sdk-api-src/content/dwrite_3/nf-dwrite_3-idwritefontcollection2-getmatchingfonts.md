@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontCollection2.GetMatchingFonts
 title: IDWriteFontCollection2::GetMatchingFonts
-description: Retrieves a list of fonts in the specified font family, ranked in order of how well they match the specified axis values.
+description: Retrieves a list of fonts in the specified font family, ranked in order of how well they match the specified axis values.helpviewer_keywords: ["IDWriteFontCollection2 interface [Direct Write]","GetMatchingFonts method","IDWriteFontCollection2.GetMatchingFonts","IDWriteFontCollection2::GetMatchingFonts","GetMatchingFonts","GetMatchingFonts method [Direct Write]","GetMatchingFonts method [Direct Write]","IDWriteFontCollection2 interface","directwrite.idwritefontcollection2_getmatchingfont","dwrite_3/IDWriteFontCollection2::GetMatchingFonts"]
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetMatchingFonts method, IDWriteFontCollection2.GetMatchingFonts, IDWriteFontCollection2::GetMatchingFonts, GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontCollection2 interface, directwrite.idwritefontcollection2_getmatchingfont, dwrite_3/IDWriteFontCollection2::GetMatchingFonts

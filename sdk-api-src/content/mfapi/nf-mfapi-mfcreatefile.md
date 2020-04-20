@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFCreateFile
 title: MFCreateFile function (mfapi.h)
-description: Creates a byte stream from a file.
+description: Creates a byte stream from a file.helpviewer_keywords: ["29269ea4-151f-4819-ae49-9f1c13a901e5","MFCreateFile","MFCreateFile function [Media Foundation]","mf.mfcreatefile","mfapi/MFCreateFile"]
 old-location: mf\mfcreatefile.htm
 tech.root: medfound
 ms.assetid: 29269ea4-151f-4819-ae49-9f1c13a901e5

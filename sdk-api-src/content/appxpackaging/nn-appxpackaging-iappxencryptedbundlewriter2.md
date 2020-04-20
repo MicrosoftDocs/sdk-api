@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptedBundleWriter2
 title: IAppxEncryptedBundleWriter2 (appxpackaging.h)
-description: Provides a write-only object model for encrypted bundle packages.
+description: Provides a write-only object model for encrypted bundle packages.helpviewer_keywords: ["IAppxEncryptedBundleWriter2","IAppxEncryptedBundleWriter2 interface [App packaging and management]","IAppxEncryptedBundleWriter2 interface [App packaging and management]","described","appxpackaging/IAppxEncryptedBundleWriter2","appxpkg.iappxencryptedbundlewriter2"]
 old-location: appxpkg\iappxencryptedbundlewriter2.htm
 tech.root: appxpkg
 ms.assetid: 357D7166-C115-4F32-AE8B-AA31018F700C

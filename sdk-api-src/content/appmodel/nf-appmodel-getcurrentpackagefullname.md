@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetCurrentPackageFullName
 title: GetCurrentPackageFullName function (appmodel.h)
-description: Gets the package full name for the calling process.
+description: Gets the package full name for the calling process.helpviewer_keywords: ["GetCurrentPackageFullName","GetCurrentPackageFullName function [App packaging and management]","appmodel/GetCurrentPackageFullName","appxpkg.getcurrentpackagefullname"]
 old-location: appxpkg\getcurrentpackagefullname.htm
 tech.root: appxpkg
 ms.assetid: D5B00C53-1FBF-4245-92D1-FA39713A9EE7

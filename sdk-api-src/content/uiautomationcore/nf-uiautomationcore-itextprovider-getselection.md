@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextProvider.GetSelection
 title: ITextProvider::GetSelection (uiautomationcore.h)
-description: Retrieves a collection of text ranges that represents the currently selected text in a text-based control.
+description: Retrieves a collection of text ranges that represents the currently selected text in a text-based control.helpviewer_keywords: ["GetSelection","GetSelection method [Windows Accessibility]","GetSelection method [Windows Accessibility]","ITextProvider interface","ITextProvider interface [Windows Accessibility]","GetSelection method","ITextProvider.GetSelection","ITextProvider::GetSelection","uiauto.uiauto_ITextProvider_GetSelection","uiauto_ITextProvider_GetSelection","uiautomationcore/ITextProvider::GetSelection","winauto.uiauto_ITextProvider_GetSelection"]
 old-location: winauto\uiauto_ITextProvider_GetSelection.htm
 tech.root: WinAuto
 ms.assetid: f5c0b2ed-e891-4856-8829-617a69d4708a

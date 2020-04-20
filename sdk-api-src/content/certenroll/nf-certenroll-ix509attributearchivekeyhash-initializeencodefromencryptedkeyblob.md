@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKeyHash.InitializeEncodeFromEncryptedKeyBlob
 title: IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob (certenroll.h)
-description: Initializes the attribute from an encrypted private key.
+description: Initializes the attribute from an encrypted private key.helpviewer_keywords: ["IX509AttributeArchiveKeyHash interface [Security]","InitializeEncodeFromEncryptedKeyBlob method","IX509AttributeArchiveKeyHash.InitializeEncodeFromEncryptedKeyBlob","IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob","InitializeEncodeFromEncryptedKeyBlob","InitializeEncodeFromEncryptedKeyBlob method [Security]","InitializeEncodeFromEncryptedKeyBlob method [Security]","IX509AttributeArchiveKeyHash interface","certenroll/IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob","security.ix509attributearchivekeyhash_initializeencodefromencryptedkeyblob_method"]
 old-location: security\ix509attributearchivekeyhash_initializeencodefromencryptedkeyblob_method.htm
 tech.root: seccertenroll
 ms.assetid: 2101f15f-b71b-4dea-8ec8-2d3c1926ae15

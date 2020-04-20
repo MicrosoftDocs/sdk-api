@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMWriterFileSink2
 title: IWMWriterFileSink2 (wmsdkidl.h)
-description: The IWMWriterFileSink2 interface provides extended management of a file sink.This interface can be obtained by calling the QueryInterface method of an IWMWriterFileSink interface.
+description: The IWMWriterFileSink2 interface provides extended management of a file sink.This interface can be obtained by calling the QueryInterface method of an IWMWriterFileSink interface.helpviewer_keywords: ["IWMWriterFileSink2","IWMWriterFileSink2 interface [windows Media Format]","IWMWriterFileSink2 interface [windows Media Format]","described","IWMWriterFileSink2Interface","wmformat.iwmwriterfilesink2","wmsdkidl/IWMWriterFileSink2"]
 old-location: wmformat\iwmwriterfilesink2.htm
 tech.root: wmformat
 ms.assetid: 229ae2a5-103a-4a33-b7ca-c9b2854c6741

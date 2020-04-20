@@ -1,7 +1,7 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.GetTimingReport
 title: GetTimingReport function (lowlevelmonitorconfigurationapi.h)
-description: Retrieves a monitor's horizontal and vertical synchronization frequencies.
+description: Retrieves a monitor's horizontal and vertical synchronization frequencies.helpviewer_keywords: ["GetTimingReport","GetTimingReport function [Monitor Configuration]","lowlevelmonitorconfigurationapi/GetTimingReport","monitor.gettimingreport"]
 old-location: monitor\gettimingreport.htm
 tech.root: Monitor
 ms.assetid: 17b5a7e4-936f-451f-b586-032f94a99be5

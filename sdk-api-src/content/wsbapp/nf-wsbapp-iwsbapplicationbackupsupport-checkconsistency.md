@@ -1,7 +1,7 @@
 ---
 UID: NF:wsbapp.IWsbApplicationBackupSupport.CheckConsistency
 title: IWsbApplicationBackupSupport::CheckConsistency (wsbapp.h)
-description: Checks the consistency of the VSS writer's components in the shadow copy after shadow copies are created for the volumes to be backed up.
+description: Checks the consistency of the VSS writer's components in the shadow copy after shadow copies are created for the volumes to be backed up.helpviewer_keywords: ["CheckConsistency","CheckConsistency method [Windows Server Backup]","CheckConsistency method [Windows Server Backup]","IWsbApplicationBackupSupport interface","IWsbApplicationBackupSupport interface [Windows Server Backup]","CheckConsistency method","IWsbApplicationBackupSupport.CheckConsistency","IWsbApplicationBackupSupport::CheckConsistency","wsb.iwsbapplicationbackupsupport_checkconsistency","wsbapp/IWsbApplicationBackupSupport::CheckConsistency"]
 old-location: wsb\iwsbapplicationbackupsupport_checkconsistency.htm
 tech.root: wsb
 ms.assetid: 27ec1ee5-d612-48eb-8a5b-41e01c7f28d3

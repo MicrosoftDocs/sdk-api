@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.CreateIpForwardEntry
 title: CreateIpForwardEntry function (iphlpapi.h)
-description: The CreateIpForwardEntry function creates a route in the local computer's IPv4 routing table.
+description: The CreateIpForwardEntry function creates a route in the local computer's IPv4 routing table.helpviewer_keywords: ["CreateIpForwardEntry","CreateIpForwardEntry function [IP Helper]","_iphlp_createipforwardentry","iphlp.createipforwardentry","iphlpapi/CreateIpForwardEntry"]
 old-location: iphlp\createipforwardentry.htm
 tech.root: IpHlp
 ms.assetid: 72243390-c3b8-41c3-8771-a5fb1d6383ae

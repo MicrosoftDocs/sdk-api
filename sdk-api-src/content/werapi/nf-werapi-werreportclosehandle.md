@@ -1,7 +1,7 @@
 ---
 UID: NF:werapi.WerReportCloseHandle
 title: WerReportCloseHandle function (werapi.h)
-description: Closes the specified report.
+description: Closes the specified report.helpviewer_keywords: ["WerReportCloseHandle","WerReportCloseHandle function [Windows Error Reporting]","base.werreportclosehandle","wer.werreportclosehandle","werapi/WerReportCloseHandle"]
 old-location: wer\werreportclosehandle.htm
 tech.root: wer
 ms.assetid: b7326003-cd25-4988-9ed4-31c2e030beec

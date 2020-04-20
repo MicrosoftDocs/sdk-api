@@ -1,7 +1,7 @@
 ---
 UID: NN:evr.IMFVideoMixerControl2
 title: IMFVideoMixerControl2 (evr.h)
-description: Controls preferences for video deinterlacing.
+description: Controls preferences for video deinterlacing.helpviewer_keywords: ["IMFVideoMixerControl2","IMFVideoMixerControl2 interface [Media Foundation]","IMFVideoMixerControl2 interface [Media Foundation]","described","evr/IMFVideoMixerControl2","mf.imfvideomixercontrol2"]
 old-location: mf\imfvideomixercontrol2.htm
 tech.root: medfound
 ms.assetid: a238b050-101d-4b8a-9479-984b889823f4

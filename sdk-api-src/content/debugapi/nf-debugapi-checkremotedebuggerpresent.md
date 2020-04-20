@@ -1,7 +1,7 @@
 ---
 UID: NF:debugapi.CheckRemoteDebuggerPresent
 title: CheckRemoteDebuggerPresent function (debugapi.h)
-description: Determines whether the specified process is being debugged.
+description: Determines whether the specified process is being debugged.helpviewer_keywords: ["CheckRemoteDebuggerPresent","CheckRemoteDebuggerPresent function","base.checkremotedebuggerpresent","debugapi/CheckRemoteDebuggerPresent"]
 old-location: base\checkremotedebuggerpresent.htm
 tech.root: Debug
 ms.assetid: e7eb2d48-4ef3-4708-8895-2bc33d2c3e91

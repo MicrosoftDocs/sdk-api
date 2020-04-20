@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsmli.__unnamed_struct_0
 title: MediaLabelInfo (ntmsmli.h)
-description: The MediaLabelInfo structure conveys information to the RSM database about a tape OMID. The media label library fills in this structure for all media labels the library recognizes.
+description: The MediaLabelInfo structure conveys information to the RSM database about a tape OMID. The media label library fills in this structure for all media labels the library recognizes.helpviewer_keywords: ["*pMediaLabelInfo","MediaLabelInfo","MediaLabelInfo structure [Files]","_zaw_medialabelinfo","base.medialabelinfo","fs.medialabelinfo","ntmsmli/MediaLabelInfo"]
 old-location: fs\medialabelinfo.htm
 tech.root: Rsm
 ms.assetid: 8641e9e6-e251-4bf9-935a-f8888705f9a1

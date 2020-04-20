@@ -1,7 +1,7 @@
 ---
 UID: NE:xpsdigitalsignature.__MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0003
 title: XPS_SIGN_FLAGS (xpsdigitalsignature.h)
-description: Specifies whether markup compatibility detection must be run before signing.
+description: Specifies whether markup compatibility detection must be run before signing.helpviewer_keywords: ["XPS_SIGN_FLAGS","XPS_SIGN_FLAGS enumeration [XPS Documents and Packaging]","XPS_SIGN_FLAGS_IGNORE_MARKUP_COMPATIBILITY","XPS_SIGN_FLAGS_NONE","xps.xps_sign_flags","xpsdigitalsignature/XPS_SIGN_FLAGS","xpsdigitalsignature/XPS_SIGN_FLAGS_IGNORE_MARKUP_COMPATIBILITY","xpsdigitalsignature/XPS_SIGN_FLAGS_NONE"]
 old-location: xps\xps_sign_flags.htm
 tech.root: printdocs
 ms.assetid: 36fa92d4-ffd4-4666-8d3e-02436e3bb464

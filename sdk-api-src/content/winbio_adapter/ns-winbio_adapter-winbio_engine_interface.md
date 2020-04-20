@@ -1,7 +1,7 @@
 ---
 UID: NS:winbio_adapter._WINBIO_ENGINE_INTERFACE
 title: WINBIO_ENGINE_INTERFACE (winbio_adapter.h)
-description: Contains pointers to your custom engine adapter functions.
+description: Contains pointers to your custom engine adapter functions.helpviewer_keywords: ["*PWINBIO_ENGINE_INTERFACE","PWINBIO_ENGINE_INTERFACE","PWINBIO_ENGINE_INTERFACE structure pointer [Windows Biometric Framework API]","WINBIO_ENGINE_INTERFACE","WINBIO_ENGINE_INTERFACE structure [Windows Biometric Framework API]","secbiomet.winbio_engine_interface","winbio_adapter/PWINBIO_ENGINE_INTERFACE","winbio_adapter/WINBIO_ENGINE_INTERFACE"]
 old-location: secbiomet\winbio_engine_interface.htm
 tech.root: SecBioMet
 ms.assetid: 04429f64-ae41-4c26-a777-bdb7aa92b685

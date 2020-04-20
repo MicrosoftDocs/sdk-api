@@ -1,7 +1,7 @@
 ---
 UID: NF:eappapis.EapHostPeerGetUIContext
 title: EapHostPeerGetUIContext function (eappapis.h)
-description: Obtains the user interface context for the supplicant from EAPHost if the UI is to be raised.
+description: Obtains the user interface context for the supplicant from EAPHost if the UI is to be raised.helpviewer_keywords: ["EapHostPeerGetUIContext","EapHostPeerGetUIContext function [EAPHost]","eaphost.eaphostpeergetuicontext","eappapis/EapHostPeerGetUIContext"]
 old-location: eaphost\eaphostpeergetuicontext.htm
 tech.root: eaphost
 ms.assetid: 47ade6f1-067b-48ab-b4ac-a3d3cf63d809

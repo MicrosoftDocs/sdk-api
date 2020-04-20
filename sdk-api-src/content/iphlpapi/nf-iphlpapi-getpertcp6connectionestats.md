@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetPerTcp6ConnectionEStats
 title: GetPerTcp6ConnectionEStats function (iphlpapi.h)
-description: Retrieves extended statistics for an IPv6 TCP connection.
+description: Retrieves extended statistics for an IPv6 TCP connection.helpviewer_keywords: ["GetPerTcp6ConnectionEStats","GetPerTcp6ConnectionEStats function [IP Helper]","TcpConnectionEstatsBandwidth","TcpConnectionEstatsData","TcpConnectionEstatsFineRtt","TcpConnectionEstatsObsRec","TcpConnectionEstatsPath","TcpConnectionEstatsRec","TcpConnectionEstatsSendBuff","TcpConnectionEstatsSndCong","TcpConnectionEstatsSynOpts","iphlp.getpertcp6connectionestats","iphlpapi/GetPerTcp6ConnectionEStats"]
 old-location: iphlp\getpertcp6connectionestats.htm
 tech.root: IpHlp
 ms.assetid: 291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e

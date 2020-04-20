@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.CopyItem
 title: IFileOperation::CopyItem (shobjidl_core.h)
-description: Declares a single item that is to be copied to a specified destination.
+description: Declares a single item that is to be copied to a specified destination.helpviewer_keywords: ["CopyItem","CopyItem method [Windows Shell]","CopyItem method [Windows Shell]","IFileOperation interface","IFileOperation interface [Windows Shell]","CopyItem method","IFileOperation.CopyItem","IFileOperation::CopyItem","_shell_IFileOperation_CopyItem","shell.IFileOperation_CopyItem","shobjidl_core/IFileOperation::CopyItem"]
 old-location: shell\IFileOperation_CopyItem.htm
 tech.root: shell
 ms.assetid: 36d623b7-67c3-48b7-be9b-9264b5b8d919

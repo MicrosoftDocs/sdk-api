@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_OFFLINE
 title: IOCTL_VOLUME_OFFLINE
-description: Takes a volume offline.
+description: Takes a volume offline.helpviewer_keywords: ["IOCTL_VOLUME_OFFLINE","IOCTL_VOLUME_OFFLINE control","IOCTL_VOLUME_OFFLINE control code [Files]","fs.ioctl_volume_offline","winioctl/IOCTL_VOLUME_OFFLINE"]
 old-location: fs\ioctl_volume_offline.htm
 tech.root: FileIO
 ms.assetid: 7c9b97eb-c167-41cd-b235-7a9d7830915e

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3helper.InkPoint
 title: InkPoint function (d2d1_3helper.h)
-description: Creates a D2D1_INK_POINT structure.
+description: Creates a D2D1_INK_POINT structure.helpviewer_keywords: ["InkPoint","InkPoint function [Direct2D]","d2d1_3helper/InkPoint","direct2d.inkpoint"]
 old-location: direct2d\inkpoint.htm
 tech.root: Direct2D
 ms.assetid: 6ab8c30d-1ab8-1148-5cce-29797c5f5ad5

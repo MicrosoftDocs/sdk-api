@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDocument2.ConnectedSubmit2
 title: IFaxDocument2::ConnectedSubmit2 (faxcomex.h)
-description: Submits one or more fax documents to the connected FaxServer.
+description: Submits one or more fax documents to the connected FaxServer.helpviewer_keywords: ["ConnectedSubmit2","ConnectedSubmit2 method [Fax Service]","ConnectedSubmit2 method [Fax Service]","IFaxDocument2 interface","IFaxDocument2 interface [Fax Service]","ConnectedSubmit2 method","IFaxDocument2.ConnectedSubmit2","IFaxDocument2::ConnectedSubmit2","_mfax_faxdocument2.connectedsubmit2","fax._mfax_faxdocument2_connectedsubmit2","fax._mfax_faxdocument2_cpp_mfax_faxdocument2_connectedsubmit2_cpp","faxcomex/IFaxDocument2::ConnectedSubmit2"]
 old-location: fax\_mfax_faxdocument2_cpp_mfax_faxdocument2_connectedsubmit2_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\connectedsubmit2.htm

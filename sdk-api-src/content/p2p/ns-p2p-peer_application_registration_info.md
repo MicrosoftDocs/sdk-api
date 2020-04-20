@@ -1,7 +1,7 @@
 ---
 UID: NS:p2p.peer_application_registration_info_tag
 title: PEER_APPLICATION_REGISTRATION_INFO (p2p.h)
-description: The PEER_APPLICATION_REGISTRATION_INFO structure contains peer application information for registration with the local computer.
+description: The PEER_APPLICATION_REGISTRATION_INFO structure contains peer application information for registration with the local computer.helpviewer_keywords: ["*PPEER_APPLICATION_REGISTRATION_INFO","PCPEER_APPLICATION_REGISTRATION_INFO","PCPEER_APPLICATION_REGISTRATION_INFO structure pointer [Peer Networking]","PEER_APPLICATION_REGISTRATION_INFO","PEER_APPLICATION_REGISTRATION_INFO structure [Peer Networking]","PPEER_APPLICATION_REGISTRATION_INFO","PPEER_APPLICATION_REGISTRATION_INFO structure pointer [Peer Networking]","p2p.peer_application_registration_info","p2p/PCPEER_APPLICATION_REGISTRATION_INFO","p2p/PEER_APPLICATION_REGISTRATION_INFO","p2p/PPEER_APPLICATION_REGISTRATION_INFO"]
 old-location: p2p\peer_application_registration_info.htm
 tech.root: P2PSdk
 ms.assetid: 64c9eb02-3235-4824-8de1-352b0a1ffbb4

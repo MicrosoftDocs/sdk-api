@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddNonMemberName
 title: IAzApplicationGroup::AddNonMemberName (azroles.h)
-description: Adds the specified account name to the list of accounts that are refused membership in the application group.
+description: Adds the specified account name to the list of accounts that are refused membership in the application group.helpviewer_keywords: ["AddNonMemberName","AddNonMemberName method [Security]","AddNonMemberName method [Security]","AzApplicationGroup object","AddNonMemberName method [Security]","IAzApplicationGroup interface","AzApplicationGroup object [Security]","AddNonMemberName method","IAzApplicationGroup interface [Security]","AddNonMemberName method","IAzApplicationGroup.AddNonMemberName","IAzApplicationGroup::AddNonMemberName","azroles/IAzApplicationGroup::AddNonMemberName","security.iazapplicationgroup_addnonmembername"]
 old-location: security\iazapplicationgroup_addnonmembername.htm
 tech.root: SecAuthZ
 ms.assetid: 56bde3d9-f4f7-449d-a080-5215dda940a0

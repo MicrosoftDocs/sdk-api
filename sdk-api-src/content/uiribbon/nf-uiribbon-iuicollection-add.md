@@ -1,7 +1,7 @@
 ---
 UID: NF:uiribbon.IUICollection.Add
 title: IUICollection::Add (uiribbon.h)
-description: Adds an item to the end of the IUICollection.
+description: Adds an item to the end of the IUICollection.helpviewer_keywords: ["Add","Add method [Windows Ribbon]","Add method [Windows Ribbon]","IUICollection interface","IUICollection interface [Windows Ribbon]","Add method","IUICollection.Add","IUICollection::Add","scenicintent_IUICollection_Add","uiribbon/IUICollection::Add","windowsribbon.windowsribbon_iuicollection_add"]
 old-location: windowsribbon\windowsribbon_iuicollection_add.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\add.htm

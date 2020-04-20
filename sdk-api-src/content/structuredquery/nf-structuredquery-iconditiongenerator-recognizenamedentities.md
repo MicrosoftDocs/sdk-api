@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.RecognizeNamedEntities
 title: IConditionGenerator::RecognizeNamedEntities (structuredquery.h)
-description: Identifies named entities in an input string, and creates a collection containing them.
+description: Identifies named entities in an input string, and creates a collection containing them.helpviewer_keywords: ["IConditionGenerator interface [search]","RecognizeNamedEntities method","IConditionGenerator.RecognizeNamedEntities","IConditionGenerator::RecognizeNamedEntities","RecognizeNamedEntities","RecognizeNamedEntities method [search]","RecognizeNamedEntities method [search]","IConditionGenerator interface","_search_IConditionGenerator_RecognizeNamedEntities","search._search_IConditionGenerator_RecognizeNamedEntities","structuredquery/IConditionGenerator::RecognizeNamedEntities"]
 old-location: search\_search_IConditionGenerator_RecognizeNamedEntities.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\recognizenamedentities.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableUDP
 title: IWMReaderNetworkConfig::GetEnableUDP (wmsdkidl.h)
-description: The GetEnableUDP method queries whether UDP is enabled for protocol rollover.
+description: The GetEnableUDP method queries whether UDP is enabled for protocol rollover.helpviewer_keywords: ["GetEnableUDP","GetEnableUDP method [windows Media Format]","GetEnableUDP method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetEnableUDP method","IWMReaderNetworkConfig.GetEnableUDP","IWMReaderNetworkConfig::GetEnableUDP","IWMReaderNetworkConfigGetEnableUDP","wmformat.iwmreadernetworkconfig_getenableudp","wmsdkidl/IWMReaderNetworkConfig::GetEnableUDP"]
 old-location: wmformat\iwmreadernetworkconfig_getenableudp.htm
 tech.root: wmformat
 ms.assetid: 81c6536c-303c-4eac-a75a-54e9df29e299

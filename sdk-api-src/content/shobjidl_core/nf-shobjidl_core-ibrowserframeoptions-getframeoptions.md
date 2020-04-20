@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IBrowserFrameOptions.GetFrameOptions
 title: IBrowserFrameOptions::GetFrameOptions (shobjidl_core.h)
-description: Retrieves the available browser frame view options.
+description: Retrieves the available browser frame view options.helpviewer_keywords: ["GetFrameOptions","GetFrameOptions method [Windows Shell]","GetFrameOptions method [Windows Shell]","IBrowserFrameOptions interface","IBrowserFrameOptions interface [Windows Shell]","GetFrameOptions method","IBrowserFrameOptions.GetFrameOptions","IBrowserFrameOptions::GetFrameOptions","_shell_IBrowserFrameOptions_GetFrameOptions","shell.IBrowserFrameOptions_GetFrameOptions","shobjidl_core/IBrowserFrameOptions::GetFrameOptions"]
 old-location: shell\IBrowserFrameOptions_GetFrameOptions.htm
 tech.root: shell
 ms.assetid: 4f0e9f69-92e5-4fec-bdfa-b37d594ff5fe

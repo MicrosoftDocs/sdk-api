@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IPart.GetControlInterfaceCount
 title: IPart::GetControlInterfaceCount (devicetopology.h)
-description: The GetControlInterfaceCount method gets the number of control interfaces that this part supports.
+description: The GetControlInterfaceCount method gets the number of control interfaces that this part supports.helpviewer_keywords: ["GetControlInterfaceCount","GetControlInterfaceCount method [Core Audio]","GetControlInterfaceCount method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetControlInterfaceCount method","IPart.GetControlInterfaceCount","IPart::GetControlInterfaceCount","IPartGetControlInterfaceCount","coreaudio.ipart_getcontrolinterfacecount","devicetopology/IPart::GetControlInterfaceCount"]
 old-location: coreaudio\ipart_getcontrolinterfacecount.htm
 tech.root: CoreAudio
 ms.assetid: 8b82f69a-9b15-4bdf-9676-f2015ed67cfc

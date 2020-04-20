@@ -1,7 +1,7 @@
 ---
 UID: NN:oaidl.IErrorInfo
 title: IErrorInfo (oaidl.h)
-description: Provides detailed contextual error information.
+description: Provides detailed contextual error information.helpviewer_keywords: ["IErrorInfo","IErrorInfo interface [Automation]","IErrorInfo interface [Automation]","described","_oa96_IErrorInfo_Interface","automat.ierrorinfo","oaidl/IErrorInfo"]
 old-location: automat\ierrorinfo.htm
 tech.root: automat
 ms.assetid: 4dda6909-2d9a-4727-ae0c-b5f90dcfa447

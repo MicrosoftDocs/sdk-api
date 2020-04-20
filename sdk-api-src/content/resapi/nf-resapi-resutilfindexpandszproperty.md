@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilFindExpandSzProperty
 title: ResUtilFindExpandSzProperty function (resapi.h)
-description: Locates an expandable string property in a property list. The PRESUTIL_FIND_EXPAND_SZ_PROPERTY type defines a pointer to this function.
+description: Locates an expandable string property in a property list. The PRESUTIL_FIND_EXPAND_SZ_PROPERTY type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_FIND_EXPAND_SZ_PROPERTY","PRESUTIL_FIND_EXPAND_SZ_PROPERTY function [Failover Cluster]","ResUtilFindExpandSzProperty","ResUtilFindExpandSzProperty function [Failover Cluster]","_wolf_resutilfindexpandszproperty","mscs.resutilfindexpandszproperty","resapi/PRESUTIL_FIND_EXPAND_SZ_PROPERTY","resapi/ResUtilFindExpandSzProperty"]
 old-location: mscs\resutilfindexpandszproperty.htm
 tech.root: MsCS
 ms.assetid: 44fb21bd-6cc2-4b1b-ae8f-c977fa336747

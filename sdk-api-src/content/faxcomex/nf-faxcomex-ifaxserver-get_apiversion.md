@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_APIVersion
 title: IFaxServer::get_APIVersion (faxcomex.h)
-description: The IFaxServer::get_APIVersion property is a value that indicates the version of the fax server API.
+description: The IFaxServer::get_APIVersion property is a value that indicates the version of the fax server API.helpviewer_keywords: ["APIVersion property [Fax Service]","APIVersion property [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","APIVersion property","IFaxServer.APIVersion","IFaxServer.get_APIVersion","IFaxServer::APIVersion","IFaxServer::get_APIVersion","_mfax_faxserver.apiversion","fax._mfax_faxserver_apiversion","fax._mfax_faxserver_cpp_mfax_faxserver_apiversion_cpp","faxcomex/IFaxServer::APIVersion","faxcomex/IFaxServer::get_APIVersion","get_APIVersion"]
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_apiversion_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_43vy.htm

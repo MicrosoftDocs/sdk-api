@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetNodeDescriptors
 title: IBDA_Topology::GetNodeDescriptors (bdaiface.h)
-description: The GetNodeDescriptors method retrieves a list of descriptors for the nodes in the topology.
+description: The GetNodeDescriptors method retrieves a list of descriptors for the nodes in the topology.helpviewer_keywords: ["GetNodeDescriptors","GetNodeDescriptors method [Microsoft TV Technologies]","GetNodeDescriptors method [Microsoft TV Technologies]","IBDA_Topology interface","IBDA_Topology interface [Microsoft TV Technologies]","GetNodeDescriptors method","IBDA_Topology.GetNodeDescriptors","IBDA_Topology::GetNodeDescriptors","IBDA_TopologyGetNodeDescriptors","bdaiface/IBDA_Topology::GetNodeDescriptors","mstv.ibda_topology_getnodedescriptors"]
 old-location: mstv\ibda_topology_getnodedescriptors.htm
 tech.root: mstv
 ms.assetid: 4bbfa1d1-7101-4ca6-b6dc-e66b3c49857d

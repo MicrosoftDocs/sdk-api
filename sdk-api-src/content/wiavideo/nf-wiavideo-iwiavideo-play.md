@@ -1,7 +1,7 @@
 ---
 UID: NF:wiavideo.IWiaVideo.Play
 title: IWiaVideo::Play (wiavideo.h)
-description: Begins playback of streaming video.
+description: Begins playback of streaming video.helpviewer_keywords: ["IWiaVideo interface [WIA]","Play method","IWiaVideo.Play","IWiaVideo::Play","Play","Play method [WIA]","Play method [WIA]","IWiaVideo interface","_wia_IWiaVideo_Play","wia._wia_IWiaVideo_Play","wiavideo/IWiaVideo::Play"]
 old-location: wia\_wia_IWiaVideo_Play.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\play.htm

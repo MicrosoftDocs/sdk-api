@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITMediaControl.Stop
 title: ITMediaControl::Stop (tapi3if.h)
-description: The Stop method stops the current action and sets the current location to the beginning of the file.
+description: The Stop method stops the current action and sets the current location to the beginning of the file.helpviewer_keywords: ["ITMediaControl interface [TAPI 2.2]","Stop method","ITMediaControl.Stop","ITMediaControl::Stop","Stop","Stop method [TAPI 2.2]","Stop method [TAPI 2.2]","ITMediaControl interface","_tapi3_itmediacontrol_stop","tapi3.itmediacontrol_stop","tapi3if/ITMediaControl::Stop"]
 old-location: tapi3\itmediacontrol_stop.htm
 tech.root: Tapi
 ms.assetid: 4c108838-ad31-407a-b9af-bfc8c1c4a577

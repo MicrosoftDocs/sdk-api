@@ -1,7 +1,7 @@
 ---
 UID: NN:mfmediaengine.IMFMediaKeys
 title: IMFMediaKeys (mfmediaengine.h)
-description: Represents a media keys used for decrypting media data using a Digital Rights Management (DRM) key system.
+description: Represents a media keys used for decrypting media data using a Digital Rights Management (DRM) key system.helpviewer_keywords: ["IMFMediaKeys","IMFMediaKeys interface [Media Foundation]","IMFMediaKeys interface [Media Foundation]","described","mf.imfmediakeys","mfmediaengine/IMFMediaKeys"]
 old-location: mf\imfmediakeys.htm
 tech.root: medfound
 ms.assetid: 0689d938-e0be-46d7-bfed-add431331a90

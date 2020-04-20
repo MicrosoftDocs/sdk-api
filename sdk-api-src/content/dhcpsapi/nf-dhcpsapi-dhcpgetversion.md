@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpGetVersion
 title: DhcpGetVersion function (dhcpsapi.h)
-description: The DhcpGetVersion function returns the major and minor version numbers of the DHCP server.
+description: The DhcpGetVersion function returns the major and minor version numbers of the DHCP server.helpviewer_keywords: ["DhcpGetVersion","DhcpGetVersion function [DHCP]","dhcp.dhcpgetversion","dhcpsapi/DhcpGetVersion"]
 old-location: dhcp\dhcpgetversion.htm
 tech.root: DHCP
 ms.assetid: 1977c4d7-094c-41b0-a7bf-aacdb15e265f

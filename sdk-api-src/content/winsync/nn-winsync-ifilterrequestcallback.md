@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.IFilterRequestCallback
 title: IFilterRequestCallback (winsync.h)
-description: Mediates filter negotiation between a destination provider and a source provider.
+description: Mediates filter negotiation between a destination provider and a source provider.helpviewer_keywords: ["IFilterRequestCallback","IFilterRequestCallback interface [Windows Sync]","IFilterRequestCallback interface [Windows Sync]","described","winsync.ifilterrequestcallback","winsync/IFilterRequestCallback"]
 old-location: winsync\ifilterrequestcallback.htm
 tech.root: winsync
 ms.assetid: 11ba822e-63d6-4947-8e21-7134bdbcbdc0

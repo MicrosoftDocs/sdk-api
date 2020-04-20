@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetDescriptorHeaps
 title: ID3D12GraphicsCommandList::SetDescriptorHeaps (d3d12.h)
-description: Changes the currently bound descriptor heaps that are associated with a command list.
+description: Changes the currently bound descriptor heaps that are associated with a command list.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetDescriptorHeaps method","ID3D12GraphicsCommandList.SetDescriptorHeaps","ID3D12GraphicsCommandList::SetDescriptorHeaps","SetDescriptorHeaps","SetDescriptorHeaps method","SetDescriptorHeaps method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetDescriptorHeaps","direct3d12.id3d12graphicscommandlist_setdescriptorheaps"]
 old-location: direct3d12\id3d12graphicscommandlist_setdescriptorheaps.htm
 tech.root: direct3d12
 ms.assetid: EE475B68-1DCA-44D4-994E-717D40F47DFA

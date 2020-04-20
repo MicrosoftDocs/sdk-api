@@ -1,7 +1,7 @@
 ---
 UID: NN:structuredquery.INamedEntity
 title: INamedEntity (structuredquery.h)
-description: Provides methods to get the value of, or a default phrase for the value of, a named entity.
+description: Provides methods to get the value of, or a default phrase for the value of, a named entity.helpviewer_keywords: ["INamedEntity","INamedEntity interface [search]","INamedEntity interface [search]","described","_search_INamedEntity","search._search_INamedEntity","structuredquery/INamedEntity"]
 old-location: search\_search_INamedEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\inamedentity.htm

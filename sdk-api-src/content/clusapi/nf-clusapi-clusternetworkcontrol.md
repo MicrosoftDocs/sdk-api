@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterNetworkControl
 title: ClusterNetworkControl function (clusapi.h)
-description: Initiates an operation on a network. The operation performed depends on the control code passed to the dwControlCode parameter.
+description: Initiates an operation on a network. The operation performed depends on the control code passed to the dwControlCode parameter.helpviewer_keywords: ["ClusterNetworkControl","ClusterNetworkControl function [Failover Cluster]","_wolf_clusternetworkcontrol","clusapi/ClusterNetworkControl","mscs.clusternetworkcontrol"]
 old-location: mscs\clusternetworkcontrol.htm
 tech.root: MsCS
 ms.assetid: df0d7b45-4d8b-4780-944a-0fbba670f99a

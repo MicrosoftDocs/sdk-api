@@ -1,7 +1,7 @@
 ---
 UID: NF:davclnt.DavDeleteConnection
 title: DavDeleteConnection function (davclnt.h)
-description: Closes a connection that was created by using the DavAddConnection function.
+description: Closes a connection that was created by using the DavAddConnection function.helpviewer_keywords: ["DavDeleteConnection","DavDeleteConnection function [WebDAV]","davclnt/DavDeleteConnection","webdav.davdeleteconnection"]
 old-location: webdav\davdeleteconnection.htm
 tech.root: WebDAV
 ms.assetid: 736b8a16-30db-410e-8295-97730297d04b

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMStoreFloat3PK
 title: XMStoreFloat3PK function (directxpackedvector.h)
-description: Stores an XMVECTOR in a XMFLOAT3PK.
+description: Stores an XMVECTOR in a XMFLOAT3PK.helpviewer_keywords: ["DirectX::PackedVector.XMStoreFloat3PK","XMStoreFloat3PK","XMStoreFloat3PK method [DirectX Math Support APIs]","dxmath.xmstorefloat3pk"]
 old-location: dxmath\xmstorefloat3pk.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat3PK(XMFLOAT3PK@,XMVECTOR)

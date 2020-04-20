@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.UnAdvise
 title: ICredentialProviderCredential::UnAdvise (credentialprovider.h)
-description: Used by the Logon UI or Credential UI to advise the credential that event callbacks are no longer accepted.
+description: Used by the Logon UI or Credential UI to advise the credential that event callbacks are no longer accepted.helpviewer_keywords: ["ICredentialProviderCredential interface [Windows Shell]","UnAdvise method","ICredentialProviderCredential.UnAdvise","ICredentialProviderCredential::UnAdvise","UnAdvise","UnAdvise method [Windows Shell]","UnAdvise method [Windows Shell]","ICredentialProviderCredential interface","credentialprovider/ICredentialProviderCredential::UnAdvise","shell.ICredentialProviderCredential_UnAdvise","shell_ICredentialProviderCredential_UnAdvise"]
 old-location: shell\ICredentialProviderCredential_UnAdvise.htm
 tech.root: shell
 ms.assetid: 29e01ef4-3186-4f9a-9898-b7424bba2b61

@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcPartSet.PartExists
 title: IOpcPartSet::PartExists (msopc.h)
-description: Gets a value that indicates whether a specified part is represented as a part object in the set.
+description: Gets a value that indicates whether a specified part is represented as a part object in the set.helpviewer_keywords: ["IOpcPartSet interface [Open Packaging Conventions]","PartExists method","IOpcPartSet.PartExists","IOpcPartSet::PartExists","PartExists","PartExists method [Open Packaging Conventions]","PartExists method [Open Packaging Conventions]","IOpcPartSet interface","msopc/IOpcPartSet::PartExists","opc.iopcpartset_partexists"]
 old-location: opc\iopcpartset_partexists.htm
 tech.root: OPC
 ms.assetid: 721e0252-330a-4218-9267-b3dd0dea7598

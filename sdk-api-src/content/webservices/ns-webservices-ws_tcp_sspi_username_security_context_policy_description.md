@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION
 title: WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION (webservices.h)
-description: Describes the policy specifying security context message binding using TCP channel binding with windows SSPI transport security. The bootstrap channel uses TCP channel binding with windows SSPI transport security and username/password message security.
+description: Describes the policy specifying security context message binding using TCP channel binding with windows SSPI transport security. The bootstrap channel uses TCP channel binding with windows SSPI transport security and username/password message security.helpviewer_keywords: ["WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION","WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION structure [Web Services for Windows]","webservices/WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION","wsw.ws_tcp_sspi_username_security_context_policy_description"]
 old-location: wsw\ws_tcp_sspi_username_security_context_policy_description.htm
 tech.root: wsw
 ms.assetid: ec51c3a6-726d-470a-b818-f604d2519151

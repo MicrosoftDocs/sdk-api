@@ -1,7 +1,7 @@
 ---
 UID: NF:oleacc.IAccPropServices.DecomposeHmenuIdentityString
 title: IAccPropServices::DecomposeHmenuIdentityString (oleacc.h)
-description: Use this method to determine the HMENU, object ID, and child ID for the accessible element identified by the identity string.
+description: Use this method to determine the HMENU, object ID, and child ID for the accessible element identified by the identity string.helpviewer_keywords: ["DecomposeHmenuIdentityString","DecomposeHmenuIdentityString method [Windows Accessibility]","DecomposeHmenuIdentityString method [Windows Accessibility]","IAccPropServices interface","IAccPropServices interface [Windows Accessibility]","DecomposeHmenuIdentityString method","IAccPropServices.DecomposeHmenuIdentityString","IAccPropServices::DecomposeHmenuIdentityString","oleacc/IAccPropServices::DecomposeHmenuIdentityString","winauto.iaccpropservices_iaccpropservices__decomposehmenuidentitystring"]
 old-location: winauto\iaccpropservices_iaccpropservices__decomposehmenuidentitystring.htm
 tech.root: WinAuto
 ms.assetid: b76c4ba8-fb9a-438b-8547-b73b3c459ec6

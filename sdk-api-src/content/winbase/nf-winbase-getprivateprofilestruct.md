@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetPrivateProfileStruct
 title: GetPrivateProfileStruct function (winbase.h)
-description: Retrieves the data associated with a key in the specified section of an initialization file.
+description: Retrieves the data associated with a key in the specified section of an initialization file.helpviewer_keywords: ["GetPrivateProfileStruct","GetPrivateProfileStruct function","GetPrivateProfileStructA","GetPrivateProfileStructW","_win32_getprivateprofilestruct","base.getprivateprofilestruct","winbase/GetPrivateProfileStruct","winbase/GetPrivateProfileStructA","winbase/GetPrivateProfileStructW"]
 old-location: base\getprivateprofilestruct.htm
 tech.root: SysInfo
 ms.assetid: a14ba43e-d16d-4c52-a8ac-0d4c71229b7b

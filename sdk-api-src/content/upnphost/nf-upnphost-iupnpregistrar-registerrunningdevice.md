@@ -1,7 +1,7 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.RegisterRunningDevice
 title: IUPnPRegistrar::RegisterRunningDevice (upnphost.h)
-description: The RegisterRunningDevice method registers a running device with the device host.
+description: The RegisterRunningDevice method registers a running device with the device host.helpviewer_keywords: ["IUPnPRegistrar interface [UPnP APIs]","RegisterRunningDevice method","IUPnPRegistrar.RegisterRunningDevice","IUPnPRegistrar::RegisterRunningDevice","RegisterRunningDevice","RegisterRunningDevice method [UPnP APIs]","RegisterRunningDevice method [UPnP APIs]","IUPnPRegistrar interface","_upnp_iupnpregistrar_registerrunningdevice","upnp.iupnpregistrar_registerrunningdevice","upnphost/IUPnPRegistrar::RegisterRunningDevice"]
 old-location: upnp\iupnpregistrar_registerrunningdevice.htm
 tech.root: upnp
 ms.assetid: 4b494b7e-4fcc-4de0-bdcc-96c68a5e0688

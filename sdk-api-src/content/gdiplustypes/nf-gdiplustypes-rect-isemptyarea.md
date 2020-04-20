@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.Rect.IsEmptyArea
 title: Rect::IsEmptyArea (gdiplustypes.h)
-description: The Rect::IsEmptyArea method determines whether this rectangle is empty.
+description: The Rect::IsEmptyArea method determines whether this rectangle is empty.helpviewer_keywords: ["IsEmptyArea","IsEmptyArea method [GDI+]","IsEmptyArea method [GDI+]","Rect class","Rect class [GDI+]","IsEmptyArea method","Rect.IsEmptyArea","Rect::IsEmptyArea","_gdiplus_CLASS_Rect_IsEmptyArea_","gdiplus._gdiplus_CLASS_Rect_IsEmptyArea_"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_IsEmptyArea_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\isemptyarea.htm

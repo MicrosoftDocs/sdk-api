@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_VOID_DESCRIPTION
 title: WS_VOID_DESCRIPTION (webservices.h)
-description: Specifies information about a field which is neither serialized nor deserialized.
+description: Specifies information about a field which is neither serialized nor deserialized.helpviewer_keywords: ["WS_VOID_DESCRIPTION","WS_VOID_DESCRIPTION structure [Web Services for Windows]","webservices/WS_VOID_DESCRIPTION","wsw.ws_void_description"]
 old-location: wsw\ws_void_description.htm
 tech.root: wsw
 ms.assetid: 92373e0d-3fe1-4486-8e79-deb0fc24cb63

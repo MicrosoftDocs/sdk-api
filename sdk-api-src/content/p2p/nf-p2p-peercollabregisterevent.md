@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabRegisterEvent
 title: PeerCollabRegisterEvent function (p2p.h)
-description: Registers an application with the peer collaboration infrastructure to receive callbacks for specific peer collaboration events.
+description: Registers an application with the peer collaboration infrastructure to receive callbacks for specific peer collaboration events.helpviewer_keywords: ["PeerCollabRegisterEvent","PeerCollabRegisterEvent function [Peer Networking]","p2p.peercollabregisterevent","p2p/PeerCollabRegisterEvent"]
 old-location: p2p\peercollabregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: db7daf08-8d79-493f-8df5-172dae498df0

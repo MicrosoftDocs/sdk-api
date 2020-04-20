@@ -1,7 +1,7 @@
 ---
 UID: NF:powrprof.GetCurrentPowerPolicies
 title: GetCurrentPowerPolicies function (powrprof.h)
-description: Retrieves the current system power policy settings.
+description: Retrieves the current system power policy settings.helpviewer_keywords: ["GetCurrentPowerPolicies","GetCurrentPowerPolicies function","_win32_getcurrentpowerpolicies","base.getcurrentpowerpolicies","powrprof/GetCurrentPowerPolicies"]
 old-location: base\getcurrentpowerpolicies.htm
 tech.root: power
 ms.assetid: 9a834fb6-35ae-4d36-885c-0d81cd39e9a6

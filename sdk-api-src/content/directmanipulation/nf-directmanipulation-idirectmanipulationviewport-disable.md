@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Disable
 title: IDirectManipulationViewport::Disable (directmanipulation.h)
-description: Stops input processing by the viewport.
+description: Stops input processing by the viewport.helpviewer_keywords: ["Disable","Disable method [Direct Manipulation]","Disable method [Direct Manipulation]","IDirectManipulationViewport interface","IDirectManipulationViewport interface [Direct Manipulation]","Disable method","IDirectManipulationViewport.Disable","IDirectManipulationViewport::Disable","directmanipulation.idirectmanipulationviewport_disable","directmanipulation/IDirectManipulationViewport::Disable"]
 old-location: directmanipulation\idirectmanipulationviewport_disable.htm
 tech.root: directmanipulation
 ms.assetid: ac4f3cbe-2769-468e-abe3-07b76ada5d7e

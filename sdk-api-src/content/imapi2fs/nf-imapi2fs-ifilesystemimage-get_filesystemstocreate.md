@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_FileSystemsToCreate
 title: IFileSystemImage::get_FileSystemsToCreate (imapi2fs.h)
-description: Retrieves the types of file systems to create when generating the result stream.
+description: Retrieves the types of file systems to create when generating the result stream.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_FileSystemsToCreate method","IFileSystemImage.get_FileSystemsToCreate","IFileSystemImage::get_FileSystemsToCreate","get_FileSystemsToCreate","get_FileSystemsToCreate method [IMAPI]","get_FileSystemsToCreate method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_filesystemstocreate","imapi2fs/IFileSystemImage::get_FileSystemsToCreate"]
 old-location: imapi\ifilesystemimage_get_filesystemstocreate.htm
 tech.root: imapi
 ms.assetid: 7350de0b-683a-4363-9233-dbe40f637f2d

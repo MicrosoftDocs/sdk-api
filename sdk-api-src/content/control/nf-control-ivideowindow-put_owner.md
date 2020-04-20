@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IVideoWindow.put_Owner
 title: IVideoWindow::put_Owner (control.h)
-description: The put_Owner method specifies a parent window for the video window.
+description: The put_Owner method specifies a parent window for the video window.helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_Owner method","IVideoWindow.put_Owner","IVideoWindow::put_Owner","IVideoWindowput_Owner","control/IVideoWindow::put_Owner","dshow.ivideowindow_put_owner","put_Owner","put_Owner method [DirectShow]","put_Owner method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_put_owner.htm
 tech.root: DirectShow
 ms.assetid: 658ad234-cb5a-428b-ae19-0cd52db6718b

@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.AVIStreamReadFormat
 title: AVIStreamReadFormat function (vfw.h)
-description: The AVIStreamReadFormat function reads the stream format data.
+description: The AVIStreamReadFormat function reads the stream format data.helpviewer_keywords: ["AVIStreamReadFormat","AVIStreamReadFormat function [Windows Multimedia]","_win32_AVIStreamReadFormat","multimedia.avistreamreadformat","vfw/AVIStreamReadFormat"]
 old-location: multimedia\avistreamreadformat.htm
 tech.root: Multimedia
 ms.assetid: 312b7d20-89b2-4102-acf6-f603610dadd6

@@ -1,7 +1,7 @@
 ---
 UID: NN:iaccess.IAccessControl
 title: IAccessControl (iaccess.h)
-description: Enables the management of access to objects and properties on the objects.
+description: Enables the management of access to objects and properties on the objects.helpviewer_keywords: ["IAccessControl","IAccessControl interface [COM]","IAccessControl interface [COM]","described","_com_iaccesscontrol","com.iaccesscontrol","iaccess/IAccessControl"]
 old-location: com\iaccesscontrol.htm
 tech.root: com
 ms.assetid: f7f19a9d-27ed-479f-b5d4-562cab5be12a

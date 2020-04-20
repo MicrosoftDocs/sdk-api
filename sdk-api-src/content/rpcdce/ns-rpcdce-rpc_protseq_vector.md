@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcdce._RPC_PROTSEQ_VECTOR
 title: RPC_PROTSEQ_VECTOR (rpcdce.h)
-description: The RPC_PROTSEQ_VECTOR structure contains a list of protocol sequences the RPC run-time library uses to send and receive remote procedure calls.
+description: The RPC_PROTSEQ_VECTOR structure contains a list of protocol sequences the RPC run-time library uses to send and receive remote procedure calls.helpviewer_keywords: ["RPC_PROTSEQ_VECTOR","RPC_PROTSEQ_VECTOR structure [RPC]","_rpc_rpc_protseq_vector","rpc.rpc_protseq_vector","rpcdce/RPC_PROTSEQ_VECTOR"]
 old-location: rpc\rpc_protseq_vector.htm
 tech.root: Rpc
 ms.assetid: 535ffce0-54e2-483c-8b74-006b6f5e05f0

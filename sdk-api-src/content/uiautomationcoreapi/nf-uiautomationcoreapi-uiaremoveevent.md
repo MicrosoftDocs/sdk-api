@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRemoveEvent
 title: UiaRemoveEvent function (uiautomationcoreapi.h)
-description: Removes a listener for events on a node in the UI Automation tree.
+description: Removes a listener for events on a node in the UI Automation tree.helpviewer_keywords: ["UiaRemoveEvent","UiaRemoveEvent function [Windows Accessibility]","uiauto.uiauto_UiaRemoveEventClientEvent","uiauto_UiaRemoveEventClientEvent","uiautomationcoreapi/UiaRemoveEvent","winauto.uiauto_UiaRemoveEventClientEvent"]
 old-location: winauto\uiauto_UiaRemoveEventClientEvent.htm
 tech.root: WinAuto
 ms.assetid: c98b3e0f-c3d3-45a5-b1a1-80da1b5673f3

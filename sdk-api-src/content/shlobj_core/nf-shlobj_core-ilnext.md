@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.ILNext
 title: ILNext function (shlobj_core.h)
-description: Retrieves the next SHITEMID structure in an ITEMIDLIST structure.
+description: Retrieves the next SHITEMID structure in an ITEMIDLIST structure.helpviewer_keywords: ["ILNext","ILNext function [Windows Shell]","ILNext(PCUIDLIST_RELATIVE)","_shell_ILNext_PCUIDLIST_RELATIVE","shell.ILNext_PCUIDLIST_RELATIVE","shlobj_core/ILNext"]
 old-location: shell\ILNext_PCUIDLIST_RELATIVE.htm
 tech.root: shell
 ms.assetid: 9f9650b3-1f0c-413c-bc32-29dd81556ce0

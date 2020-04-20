@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetImage
 title: IPhotoProgressDialog::SetImage (photoacquire.h)
-description: Sets either the thumbnail image displayed in the progress dialog box, the icon in the title bar of the progress dialog box, or the icon in ALT+TAB key combination windows.
+description: Sets either the thumbnail image displayed in the progress dialog box, the icon in the title bar of the progress dialog box, or the icon in ALT+TAB key combination windows.helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","SetImage method","IPhotoProgressDialog.SetImage","IPhotoProgressDialog::SetImage","IPhotoProgressDialogSetImage","PROGRESS_DIALOG_BITMAP_THUMBNAIL","PROGRESS_DIALOG_ICON_LARGE","PROGRESS_DIALOG_ICON_SMALL","PROGRESS_DIALOG_ICON_THUMBNAIL","SetImage","SetImage method [Picture Acquisition]","SetImage method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::SetImage","picacq.iphotoprogressdialog_setimage"]
 old-location: picacq\iphotoprogressdialog_setimage.htm
 tech.root: acquisition
 ms.assetid: 45b795c4-4f95-4132-86a7-cda47e534e9c

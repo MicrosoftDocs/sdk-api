@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.SetRange
 title: ITextRange::SetRange (tom.h)
-description: Adjusts the range endpoints to the specified values.
+description: Adjusts the range endpoints to the specified values.helpviewer_keywords: ["ITextRange interface [Windows Controls]","SetRange method","ITextRange.SetRange","ITextRange::SetRange","SetRange","SetRange method [Windows Controls]","SetRange method [Windows Controls]","ITextRange interface","_win32_ITextRange_SetRange","_win32_ITextRange_SetRange_cpp","controls.ITextRange_SetRange","controls._win32_ITextRange_SetRange","tom/ITextRange::SetRange"]
 old-location: controls\ITextRange_SetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setrange.htm

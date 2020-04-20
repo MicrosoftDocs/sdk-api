@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetFlags
 title: IMFASFIndexer::GetFlags (wmcontainer.h)
-description: Retrieves the flags that indicate the selected indexer options.
+description: Retrieves the flags that indicate the selected indexer options.helpviewer_keywords: ["97809620-57ad-48f1-94ba-a2e121cdfee6","GetFlags","GetFlags method [Media Foundation]","GetFlags method [Media Foundation]","IMFASFIndexer interface","IMFASFIndexer interface [Media Foundation]","GetFlags method","IMFASFIndexer.GetFlags","IMFASFIndexer::GetFlags","mf.imfasfindexer_getflags","wmcontainer/IMFASFIndexer::GetFlags"]
 old-location: mf\imfasfindexer_getflags.htm
 tech.root: medfound
 ms.assetid: 97809620-57ad-48f1-94ba-a2e121cdfee6

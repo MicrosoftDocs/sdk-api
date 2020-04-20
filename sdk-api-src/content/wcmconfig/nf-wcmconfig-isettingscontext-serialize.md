@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.Serialize
 title: ISettingsContext::Serialize (wcmconfig.h)
-description: Serializes the data in this context into the provided stream.
+description: Serializes the data in this context into the provided stream.helpviewer_keywords: ["ISettingsContext interface [SMI]","Serialize method","ISettingsContext.Serialize","ISettingsContext::Serialize","Serialize","Serialize method [SMI]","Serialize method [SMI]","ISettingsContext interface","smi.isettingscontext_serialize","wcmconfig/ISettingsContext::Serialize"]
 old-location: smi\isettingscontext_serialize.htm
 tech.root: SMI
 ms.assetid: 13b29096-8572-4539-abd4-de22a9594f38

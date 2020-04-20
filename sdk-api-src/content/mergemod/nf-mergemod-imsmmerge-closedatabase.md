@@ -1,7 +1,7 @@
 ---
 UID: NF:mergemod.IMsmMerge.CloseDatabase
 title: IMsmMerge::CloseDatabase (mergemod.h)
-description: The CloseDatabase method closes the currently open Windows Installer database. For more information, see the CloseDatabase method of the Merge object.
+description: The CloseDatabase method closes the currently open Windows Installer database. For more information, see the CloseDatabase method of the Merge object.helpviewer_keywords: ["CloseDatabase","CloseDatabase method","CloseDatabase method","IMsmMerge interface","IMsmMerge interface","CloseDatabase method","IMsmMerge.CloseDatabase","IMsmMerge::CloseDatabase","_msi_closedatabase_function","mergemod/IMsmMerge::CloseDatabase","setup.imsmmerge_closedatabase"]
 old-location: setup\imsmmerge_closedatabase.htm
 tech.root: Msi
 ms.assetid: efbb6238-e9e3-4603-896a-75fcff2bb362

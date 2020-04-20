@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EnumClipboardFormats
 title: EnumClipboardFormats function (winuser.h)
-description: Enumerates the data formats currently available on the clipboard.
+description: Enumerates the data formats currently available on the clipboard.helpviewer_keywords: ["EnumClipboardFormats","EnumClipboardFormats function [Data Exchange]","_win32_EnumClipboardFormats","_win32_enumclipboardformats_cpp","dataxchg.enumclipboardformats","winui._win32_enumclipboardformats","winuser/EnumClipboardFormats"]
 old-location: dataxchg\enumclipboardformats.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\enumclipboardformats.htm

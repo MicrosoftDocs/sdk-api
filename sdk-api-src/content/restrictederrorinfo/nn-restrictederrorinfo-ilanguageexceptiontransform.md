@@ -1,7 +1,7 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionTransform
 title: ILanguageExceptionTransform (restrictederrorinfo.h)
-description: Allows language projections to make available to the system any and all context from an exception that gets thrown from the context of a catch handler that catches a different exception.
+description: Allows language projections to make available to the system any and all context from an exception that gets thrown from the context of a catch handler that catches a different exception.helpviewer_keywords: ["ILanguageExceptionTransform","ILanguageExceptionTransform interface [Windows Runtime]","ILanguageExceptionTransform interface [Windows Runtime]","described","restrictederrorinfo/ILanguageExceptionTransform","winrt.ilanguageexceptiontransform"]
 old-location: winrt\ilanguageexceptiontransform.htm
 tech.root: WinRT
 ms.assetid: A42470EE-FA05-4716-BA17-009D59FEE259

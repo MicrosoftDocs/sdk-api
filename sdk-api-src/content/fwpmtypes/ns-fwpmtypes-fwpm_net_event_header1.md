@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_HEADER1_
 title: FWPM_NET_EVENT_HEADER1 (fwpmtypes.h)
-description: Information common to all events. Reserved.
+description: Information common to all events. Reserved.helpviewer_keywords: ["FWPM_NET_EVENT_FLAG_APP_ID_SET","FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET","FWPM_NET_EVENT_FLAG_IP_VERSION_SET","FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET","FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET","FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET","FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET","FWPM_NET_EVENT_FLAG_SCOPE_ID_SET","FWPM_NET_EVENT_FLAG_USER_ID_SET","FWPM_NET_EVENT_HEADER1","FWPM_NET_EVENT_HEADER1 structure [Filtering]","fwp.fwpm_net_event_header1","fwpmtypes/FWPM_NET_EVENT_HEADER1"]
 old-location: fwp\fwpm_net_event_header1.htm
 tech.root: fwp
 ms.assetid: b5315a3b-07ae-4596-92f3-0ca72ca4dd49

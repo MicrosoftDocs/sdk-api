@@ -1,7 +1,7 @@
 ---
 UID: NN:directml.IDMLOperator
 title: IDMLOperator
-description: Represents a DirectML operator.
+description: Represents a DirectML operator.helpviewer_keywords: ["IDMLOperator","IDMLOperator interface","IDMLOperator interface","described","direct3d12.idmloperator","directml/IDMLOperator"]
 old-location: direct3d12\idmloperator.htm
 tech.root: direct3d12
 ms.assetid: 6AEC2D11-EDAA-419D-B7A0-7D4FEB6B2EF4

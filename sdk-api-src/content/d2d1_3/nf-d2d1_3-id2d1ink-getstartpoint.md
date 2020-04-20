@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.GetStartPoint
 title: ID2D1Ink::GetStartPoint (d2d1_3.h)
-description: Retrieves the starting point for this ink object.
+description: Retrieves the starting point for this ink object.helpviewer_keywords: ["GetStartPoint","GetStartPoint method [Direct2D]","GetStartPoint method [Direct2D]","ID2D1Ink interface","ID2D1Ink interface [Direct2D]","GetStartPoint method","ID2D1Ink.GetStartPoint","ID2D1Ink::GetStartPoint","d2d1_3/ID2D1Ink::GetStartPoint","direct2d.id2d1ink_getstartpoint"]
 old-location: direct2d\id2d1ink_getstartpoint.htm
 tech.root: Direct2D
 ms.assetid: 95CD771D-1B7A-4E6F-B9B2-B0565221F8F4

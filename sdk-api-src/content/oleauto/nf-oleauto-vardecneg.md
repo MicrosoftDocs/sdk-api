@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarDecNeg
 title: VarDecNeg function (oleauto.h)
-description: Performs logical negation on a variant of type decimal.
+description: Performs logical negation on a variant of type decimal.helpviewer_keywords: ["VarDecNeg","VarDecNeg function [Automation]","_oa96_VarDecNeg","automat.vardecneg","oleauto/VarDecNeg"]
 old-location: automat\vardecneg.htm
 tech.root: automat
 ms.assetid: c2c43a6c-6c9d-4d97-a003-96e3fea46e5e

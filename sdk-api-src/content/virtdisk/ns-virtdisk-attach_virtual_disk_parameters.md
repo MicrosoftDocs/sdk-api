@@ -1,7 +1,7 @@
 ---
 UID: NS:virtdisk._ATTACH_VIRTUAL_DISK_PARAMETERS
 title: ATTACH_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
-description: Contains virtual hard disk (VHD) attach request parameters.
+description: Contains virtual hard disk (VHD) attach request parameters.helpviewer_keywords: ["*PATTACH_VIRTUAL_DISK_PARAMETERS","ATTACH_VIRTUAL_DISK_PARAMETERS","ATTACH_VIRTUAL_DISK_PARAMETERS structure [VHD]","PATTACH_VIRTUAL_DISK_PARAMETERS","PATTACH_VIRTUAL_DISK_PARAMETERS structure pointer [VHD]","_ATTACH_VIRTUAL_DISK_PARAMETERS","vdssys/ATTACH_VIRTUAL_DISK_PARAMETERS","vdssys/PATTACH_VIRTUAL_DISK_PARAMETERS","vhd.attach_virtual_disk_parameters","vhd.surface_virtual_disk_parameters","virtdisk/ATTACH_VIRTUAL_DISK_PARAMETERS","virtdisk/PATTACH_VIRTUAL_DISK_PARAMETERS"]
 old-location: vhd\attach_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: 2bccad87-ddfe-4db4-9bf3-1892d8dd1237

@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.get_ErrorString
 title: ICertificateEnrollmentServerSetup::get_ErrorString (casetup.h)
-description: Retrieves a string that contains additional information about Certificate Enrollment Web Service (CES) setup failure.
+description: Retrieves a string that contains additional information about Certificate Enrollment Web Service (CES) setup failure.helpviewer_keywords: ["ErrorString property [Security]","ErrorString property [Security]","ICertificateEnrollmentServerSetup interface","ICertificateEnrollmentServerSetup interface [Security]","ErrorString property","ICertificateEnrollmentServerSetup.ErrorString","ICertificateEnrollmentServerSetup.get_ErrorString","ICertificateEnrollmentServerSetup::ErrorString","ICertificateEnrollmentServerSetup::get_ErrorString","casetup/ICertificateEnrollmentServerSetup::ErrorString","casetup/ICertificateEnrollmentServerSetup::get_ErrorString","get_ErrorString","security.icertificateenrollmentserversetup_errorstring"]
 old-location: security\icertificateenrollmentserversetup_errorstring.htm
 tech.root: SecCrypto
 ms.assetid: D4322BE8-1CED-47D0-98C2-D5D7C151DEAB

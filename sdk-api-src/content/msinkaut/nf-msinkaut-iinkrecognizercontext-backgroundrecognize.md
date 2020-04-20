@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.BackgroundRecognize
 title: IInkRecognizerContext::BackgroundRecognize (msinkaut.h)
-description: Causes the IInkRecognizer object to recognize the associated strokes collection and fire a Recognition event when recognition is complete.
+description: Causes the IInkRecognizer object to recognize the associated strokes collection and fire a Recognition event when recognition is complete.helpviewer_keywords: ["BackgroundRecognize","BackgroundRecognize method [Tablet PC]","BackgroundRecognize method [Tablet PC]","IInkRecognizerContext interface","IInkRecognizerContext interface [Tablet PC]","BackgroundRecognize method","IInkRecognizerContext.BackgroundRecognize","IInkRecognizerContext::BackgroundRecognize","d3fc8117-4acd-474a-aec0-cb421230ef94","msinkaut/IInkRecognizerContext::BackgroundRecognize","tablet.inkrecognizercontext_backgroundrecognize"]
 old-location: tablet\inkrecognizercontext_backgroundrecognize.htm
 tech.root: tablet
 ms.assetid: d3fc8117-4acd-474a-aec0-cb421230ef94

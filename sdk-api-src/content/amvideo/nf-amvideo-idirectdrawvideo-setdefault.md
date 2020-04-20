@@ -1,7 +1,7 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.SetDefault
 title: IDirectDrawVideo::SetDefault (amvideo.h)
-description: The SetDefault method makes the current property settings the global default.
+description: The SetDefault method makes the current property settings the global default.helpviewer_keywords: ["IDirectDrawVideo interface [DirectShow]","SetDefault method","IDirectDrawVideo.SetDefault","IDirectDrawVideo::SetDefault","IDirectDrawVideoSetDefault","SetDefault","SetDefault method [DirectShow]","SetDefault method [DirectShow]","IDirectDrawVideo interface","amvideo/IDirectDrawVideo::SetDefault","dshow.idirectdrawvideo_setdefault"]
 old-location: dshow\idirectdrawvideo_setdefault.htm
 tech.root: DirectShow
 ms.assetid: 9525ee57-3c53-42db-bc40-eb1d4658d9b6

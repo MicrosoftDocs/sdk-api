@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.Refresh
 title: IAutomaticUpdatesSettings::Refresh (wuapi.h)
-description: Retrieves the latest Automatic Updates settings.
+description: Retrieves the latest Automatic Updates settings.helpviewer_keywords: ["IAutomaticUpdatesSettings interface [Windows Update Agent]","Refresh method","IAutomaticUpdatesSettings.Refresh","IAutomaticUpdatesSettings::Refresh","Refresh","Refresh method [Windows Update Agent]","Refresh method [Windows Update Agent]","IAutomaticUpdatesSettings interface","wua.iautomaticupdatessettings_refresh","wuapi/IAutomaticUpdatesSettings::Refresh"]
 old-location: wua\iautomaticupdatessettings_refresh.htm
 tech.root: Wua_Sdk
 ms.assetid: 308426d9-d524-406a-931c-1fdb854aa4fb

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.send
 title: send function (winsock2.h)
-description: Sends data on a connected socket.
+description: Sends data on a connected socket.helpviewer_keywords: ["MSG_DONTROUTE","MSG_OOB","_win32_send_2","send","send function [Winsock]","winsock.send_2","winsock2/send"]
 old-location: winsock\send_2.htm
 tech.root: WinSock
 ms.assetid: 902bb9cf-d847-43fc-8282-394d619b8f1b

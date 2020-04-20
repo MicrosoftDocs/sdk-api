@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.FLOATOBJ_DivLong
 title: FLOATOBJ_DivLong function (winddi.h)
-description: The FLOATOBJ_DivLong function divides the FLOATOBJ by the value of type LONG, and returns with the result in the first parameter.
+description: The FLOATOBJ_DivLong function divides the FLOATOBJ by the value of type LONG, and returns with the result in the first parameter.helpviewer_keywords: ["FLOATOBJ_DivLong","FLOATOBJ_DivLong function [Display Devices]","display.floatobj_divlong","gdifncs_2c12858b-3c1a-4f4e-883f-aa4527695961.xml","winddi/FLOATOBJ_DivLong"]
 old-location: display\floatobj_divlong.htm
 tech.root: display
 ms.assetid: 23452749-1a10-4d19-b24a-24ec42931efd

@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList2.SetCallback
 title: IImageList2::SetCallback (commoncontrols.h)
-description: Sets an image list callback.
+description: Sets an image list callback.helpviewer_keywords: ["IImageList2 interface [Windows Controls]","SetCallback method","IImageList2.SetCallback","IImageList2::SetCallback","SetCallback","SetCallback method [Windows Controls]","SetCallback method [Windows Controls]","IImageList2 interface","_shell_IImageList2_SetCallback","_shell_IImageList2_SetCallback_cpp","commoncontrols/IImageList2::SetCallback","controls.IImageList2_SetCallback","controls._shell_IImageList2_SetCallback"]
 old-location: controls\IImageList2_SetCallback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\setcallback.htm

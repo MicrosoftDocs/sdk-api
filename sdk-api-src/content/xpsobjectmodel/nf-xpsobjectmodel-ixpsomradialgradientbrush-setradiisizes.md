@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.SetRadiiSizes
 title: IXpsOMRadialGradientBrush::SetRadiiSizes (xpsobjectmodel.h)
-description: Sets the sizes of the radii that define ellipse of the radial gradient region.
+description: Sets the sizes of the radii that define ellipse of the radial gradient region.helpviewer_keywords: ["IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","SetRadiiSizes method","IXpsOMRadialGradientBrush.SetRadiiSizes","IXpsOMRadialGradientBrush::SetRadiiSizes","SetRadiiSizes","SetRadiiSizes method [XPS Documents and Packaging]","SetRadiiSizes method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","xps.ixpsomradialgradientbrush_setradiisizes","xpsobjectmodel/IXpsOMRadialGradientBrush::SetRadiiSizes"]
 old-location: xps\ixpsomradialgradientbrush_setradiisizes.htm
 tech.root: printdocs
 ms.assetid: 2d32c0a7-1069-4c76-ba5c-5978e3fd7125

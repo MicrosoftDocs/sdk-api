@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Scale(FLOAT,FLOAT,D2D1_POINT_2F)
 title: Matrix3x2F::Scale(FLOAT,FLOAT,D2D1_POINT_2F) (d2d1helper.h)
-description: Creates a scale transformation that has the specified scale factors and center point.
+description: Creates a scale transformation that has the specified scale factors and center point.helpviewer_keywords: ["D2D1.Matrix3x2F.Scale","D2D1::Matrix3x2F::Scale","Matrix3x2F interface [Direct2D]","Scale method","Matrix3x2F.Scale","Matrix3x2F.Scale(FLOAT","FLOAT","D2D1_POINT_2F)","Matrix3x2F::Scale","Matrix3x2F::Scale(FLOAT","FLOAT","D2D1_POINT_2F)","Scale","Scale method [Direct2D]","Scale method [Direct2D]","Matrix3x2F interface","d2d1helper/Matrix3x2F::Scale","direct2d.matrix3x2f_scale_float_float_d2d1_point_2f_"]
 old-location: direct2d\matrix3x2f_scale_float_float_d2d1_point_2f_.htm
 tech.root: Direct2D
 ms.assetid: 401b8710-c486-44b0-b79c-d7238279fdef

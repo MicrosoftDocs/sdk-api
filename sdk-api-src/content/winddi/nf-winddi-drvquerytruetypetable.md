@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvQueryTrueTypeTable
 title: DrvQueryTrueTypeTable function (winddi.h)
-description: The DrvQueryTrueTypeTable function accesses specific tables in a TrueType font-description file.
+description: The DrvQueryTrueTypeTable function accesses specific tables in a TrueType font-description file.helpviewer_keywords: ["DrvQueryTrueTypeTable","DrvQueryTrueTypeTable function [Display Devices]","ddifncs_bcc0c4c9-b3f4-471d-8f04-1cca202e9d24.xml","display.drvquerytruetypetable","winddi/DrvQueryTrueTypeTable"]
 old-location: display\drvquerytruetypetable.htm
 tech.root: display
 ms.assetid: d1c76df6-8c27-47b5-a879-4e064081481c

@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmFilterGetSecurityInfoByKey0
 title: FwpmFilterGetSecurityInfoByKey0 function (fwpmu.h)
-description: Retrieves a copy of the security descriptor for a filter object.
+description: Retrieves a copy of the security descriptor for a filter object.helpviewer_keywords: ["FwpmFilterGetSecurityInfoByKey0","FwpmFilterGetSecurityInfoByKey0 function [Filtering]","fwp.fwpmfiltergetsecurityinfobykey0_func","fwpmu/FwpmFilterGetSecurityInfoByKey0"]
 old-location: fwp\fwpmfiltergetsecurityinfobykey0_func.htm
 tech.root: fwp
 ms.assetid: 9d35f4ca-b268-45de-b252-527b3a6fbd93

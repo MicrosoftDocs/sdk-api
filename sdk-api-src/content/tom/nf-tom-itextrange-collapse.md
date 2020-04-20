@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.Collapse
 title: ITextRange::Collapse (tom.h)
-description: Collapses the specified text range into a degenerate point at either the beginning or end of the range.
+description: Collapses the specified text range into a degenerate point at either the beginning or end of the range.helpviewer_keywords: ["Collapse","Collapse method [Windows Controls]","Collapse method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","Collapse method","ITextRange.Collapse","ITextRange::Collapse","_win32_ITextRange_Collapse","_win32_ITextRange_Collapse_cpp","controls.ITextRange_Collapse","controls._win32_ITextRange_Collapse","tom/ITextRange::Collapse","tomEnd or tomFalse","tomStart or tomTrue"]
 old-location: controls\ITextRange_Collapse.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\collapse.htm

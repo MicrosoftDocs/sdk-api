@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.SuspendScreenUpdates
 title: IRemoteDesktopClientActions::SuspendScreenUpdates (rdpappcontainerclient.h)
-description: Suspends screen updates being sent to the client.
+description: Suspends screen updates being sent to the client.helpviewer_keywords: ["IRemoteDesktopClientActions interface [Remote Desktop Services]","SuspendScreenUpdates method","IRemoteDesktopClientActions.SuspendScreenUpdates","IRemoteDesktopClientActions::SuspendScreenUpdates","SuspendScreenUpdates","SuspendScreenUpdates method [Remote Desktop Services]","SuspendScreenUpdates method [Remote Desktop Services]","IRemoteDesktopClientActions interface","rdpappcontainerclient/IRemoteDesktopClientActions::SuspendScreenUpdates","termserv.iremotedesktopclientactions_suspendscreenupdates"]
 old-location: termserv\iremotedesktopclientactions_suspendscreenupdates.htm
 tech.root: TermServ
 ms.assetid: 0161ee5f-5e67-4bc9-b822-800c2b23ec44

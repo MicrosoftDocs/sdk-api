@@ -1,7 +1,7 @@
 ---
 UID: NF:amxmlgraphbuilder.IXMLGraphBuilder.BuildFromXML
 title: IXMLGraphBuilder::BuildFromXML (amxmlgraphbuilder.h)
-description: The BuildFromXML method loads a filter graph from an XML element.
+description: The BuildFromXML method loads a filter graph from an XML element.helpviewer_keywords: ["BuildFromXML","BuildFromXML method [DirectShow]","BuildFromXML method [DirectShow]","IXMLGraphBuilder interface","IXMLGraphBuilder interface [DirectShow]","BuildFromXML method","IXMLGraphBuilder.BuildFromXML","IXMLGraphBuilder::BuildFromXML","IXMLGraphBuilderBuildFromXML","amxmlgraphbuilder/IXMLGraphBuilder::BuildFromXML","dshow.ixmlgraphbuilder_buildfromxml"]
 old-location: dshow\ixmlgraphbuilder_buildfromxml.htm
 tech.root: DirectShow
 ms.assetid: 953449da-620e-44cd-880c-b4c13d8bdbf6

@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._enprotected
 title: ENPROTECTED (richedit.h)
-description: Contains information associated with an EN_PROTECTED notification code. A rich edit control sends this notification when the user attempts to edit protected text.
+description: Contains information associated with an EN_PROTECTED notification code. A rich edit control sends this notification when the user attempts to edit protected text.helpviewer_keywords: ["ENPROTECTED","ENPROTECTED structure [Windows Controls]","_win32_ENPROTECTED_str","_win32_ENPROTECTED_str_cpp","controls.ENPROTECTED","controls._win32_ENPROTECTED_str","richedit/ENPROTECTED"]
 old-location: controls\ENPROTECTED.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enprotected.htm

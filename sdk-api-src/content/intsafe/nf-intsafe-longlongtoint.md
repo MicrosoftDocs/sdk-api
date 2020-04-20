@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.LongLongToInt
 title: LongLongToInt function (intsafe.h)
-description: Converts a value of type LONGLONG to a value of type INT.
+description: Converts a value of type LONGLONG to a value of type INT.helpviewer_keywords: ["Int64ToInt","LongLongToInt","LongLongToInt function [Windows Shell]","intsafe/LongLongToInt","shell.LongLongToInt"]
 old-location: shell\LongLongToInt.htm
 tech.root: shell
 ms.assetid: c011e0d1-69bd-446b-a352-ef92dd801f2e

@@ -1,7 +1,7 @@
 ---
 UID: NF:mixerocx.IMixerOCX.GetVideoSize
 title: IMixerOCX::GetVideoSize (mixerocx.h)
-description: The GetVideoSize method retrieves the current size of the video rectangle.
+description: The GetVideoSize method retrieves the current size of the video rectangle.helpviewer_keywords: ["GetVideoSize","GetVideoSize method [DirectShow]","GetVideoSize method [DirectShow]","IMixerOCX interface","IMixerOCX interface [DirectShow]","GetVideoSize method","IMixerOCX.GetVideoSize","IMixerOCX::GetVideoSize","IMixerOCXGetVideoSize","dshow.imixerocx_getvideosize","mixerocx/IMixerOCX::GetVideoSize"]
 old-location: dshow\imixerocx_getvideosize.htm
 tech.root: DirectShow
 ms.assetid: e4cc71b6-23a5-4610-ac59-06484af6d0b4

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IContextProperties.Count
 title: IContextProperties::Count (comsvcs.h)
-description: Retrieves the number of context object properties.
+description: Retrieves the number of context object properties.helpviewer_keywords: ["Count","Count method [COM+]","Count method [COM+]","IContextProperties interface","IContextProperties interface [COM+]","Count method","IContextProperties.Count","IContextProperties::Count","_cos_IContextProperties_Count","comsvcs/IContextProperties::Count","cos.icontextproperties_count"]
 old-location: cos\icontextproperties_count.htm
 tech.root: cossdk
 ms.assetid: 96259fe8-138d-498e-8be0-1fe1cc3f0d83

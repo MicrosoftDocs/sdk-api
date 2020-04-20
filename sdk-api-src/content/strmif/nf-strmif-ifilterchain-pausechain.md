@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IFilterChain.PauseChain
 title: IFilterChain::PauseChain (strmif.h)
-description: The PauseChain method switches all the filters in a filter chain into a paused state.
+description: The PauseChain method switches all the filters in a filter chain into a paused state.helpviewer_keywords: ["IFilterChain interface [DirectShow]","PauseChain method","IFilterChain.PauseChain","IFilterChain::PauseChain","IFilterChainPauseChain","PauseChain","PauseChain method [DirectShow]","PauseChain method [DirectShow]","IFilterChain interface","dshow.ifilterchain_pausechain","strmif/IFilterChain::PauseChain"]
 old-location: dshow\ifilterchain_pausechain.htm
 tech.root: DirectShow
 ms.assetid: a153ebf6-1d0a-45d0-ad2a-eb1eda62da2c

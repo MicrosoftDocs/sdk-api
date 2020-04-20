@@ -1,7 +1,7 @@
 ---
 UID: NF:wsbapp.IWsbApplicationAsync.QueryStatus
 title: IWsbApplicationAsync::QueryStatus (wsbapp.h)
-description: Queries the status of an asynchronous operation.
+description: Queries the status of an asynchronous operation.helpviewer_keywords: ["IWsbApplicationAsync interface [Windows Server Backup]","QueryStatus method","IWsbApplicationAsync.QueryStatus","IWsbApplicationAsync::QueryStatus","QueryStatus","QueryStatus method [Windows Server Backup]","QueryStatus method [Windows Server Backup]","IWsbApplicationAsync interface","S_OK","WSBAPP_ASYNC_IN_PROGRESS","wsb.iwsbapplicationasync_querystatus","wsbapp/IWsbApplicationAsync::QueryStatus"]
 old-location: wsb\iwsbapplicationasync_querystatus.htm
 tech.root: wsb
 ms.assetid: 0705e4a8-b65e-4740-b073-7fb24e5d02ef

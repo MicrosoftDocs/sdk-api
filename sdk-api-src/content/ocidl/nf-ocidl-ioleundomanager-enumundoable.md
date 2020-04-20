@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleUndoManager.EnumUndoable
 title: IOleUndoManager::EnumUndoable (ocidl.h)
-description: Creates an enumerator object that the caller can use to iterate through a series of top-level undo units from the undo stack.
+description: Creates an enumerator object that the caller can use to iterate through a series of top-level undo units from the undo stack.helpviewer_keywords: ["EnumUndoable","EnumUndoable method [COM]","EnumUndoable method [COM]","IOleUndoManager interface","IOleUndoManager interface [COM]","EnumUndoable method","IOleUndoManager.EnumUndoable","IOleUndoManager::EnumUndoable","_ole_ioleundomanager_enumundoable","com.ioleundomanager_enumundoable","ocidl/IOleUndoManager::EnumUndoable"]
 old-location: com\ioleundomanager_enumundoable.htm
 tech.root: com
 ms.assetid: 7199910b-3ea3-4b4e-89df-c1188195941c

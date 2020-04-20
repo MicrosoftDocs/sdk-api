@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IStringCollection
 title: IStringCollection (wuapi.h)
-description: Represents an ordered list of strings.
+description: Represents an ordered list of strings.helpviewer_keywords: ["IStringCollection","IStringCollection interface [Windows Update Agent]","IStringCollection interface [Windows Update Agent]","described","wua.istringcollection","wuapi/IStringCollection"]
 old-location: wua\istringcollection.htm
 tech.root: Wua_Sdk
 ms.assetid: 3aaab669-1f80-41ee-8c29-6da613ebccff

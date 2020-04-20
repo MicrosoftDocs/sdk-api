@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellItemFilter.GetEnumFlagsForItem
 title: IShellItemFilter::GetEnumFlagsForItem (shobjidl_core.h)
-description: Allows a client to specify which classes of objects in a Shell item should be enumerated for inclusion in the view.
+description: Allows a client to specify which classes of objects in a Shell item should be enumerated for inclusion in the view.helpviewer_keywords: ["GetEnumFlagsForItem","GetEnumFlagsForItem method [Windows Shell]","GetEnumFlagsForItem method [Windows Shell]","IShellItemFilter interface","IShellItemFilter interface [Windows Shell]","GetEnumFlagsForItem method","IShellItemFilter.GetEnumFlagsForItem","IShellItemFilter::GetEnumFlagsForItem","_shell_IShellItemFilter_GetEnumFlagsForItem","shell.IShellItemFilter_GetEnumFlagsForItem","shobjidl_core/IShellItemFilter::GetEnumFlagsForItem"]
 old-location: shell\IShellItemFilter_GetEnumFlagsForItem.htm
 tech.root: shell
 ms.assetid: a84868ab-25c4-4cb7-84a1-aba0eff09b4a

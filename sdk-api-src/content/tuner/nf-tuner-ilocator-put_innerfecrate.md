@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ILocator.put_InnerFECRate
 title: ILocator::put_InnerFECRate (tuner.h)
-description: The put_InnerFECRate method sets the inner FEC rate.
+description: The put_InnerFECRate method sets the inner FEC rate.helpviewer_keywords: ["IDigitalLocatorput_InnerFECRate","ILocator interface [Microsoft TV Technologies]","put_InnerFECRate method","ILocator.put_InnerFECRate","ILocator::put_InnerFECRate","mstv.ilocator_put_innerfecrate","put_InnerFECRate","put_InnerFECRate method [Microsoft TV Technologies]","put_InnerFECRate method [Microsoft TV Technologies]","ILocator interface","tuner/ILocator::put_InnerFECRate"]
 old-location: mstv\ilocator_put_innerfecrate.htm
 tech.root: mstv
 ms.assetid: 009d1ddf-73ae-432b-adf2-a5a0067345fa

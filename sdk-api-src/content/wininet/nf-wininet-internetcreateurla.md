@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetCreateUrlA
 title: InternetCreateUrlA function (wininet.h)
-description: Creates a URL from its component parts.
+description: Creates a URL from its component parts.helpviewer_keywords: ["InternetCreateUrl","InternetCreateUrl function [WinINet]","InternetCreateUrlA","InternetCreateUrlW","_inet_internetcreateurl_function","wininet.internetcreateurl","wininet/InternetCreateUrl","wininet/InternetCreateUrlA","wininet/InternetCreateUrlW"]
 old-location: wininet\internetcreateurl.htm
 tech.root: wininet
 ms.assetid: b01bb684-0b2f-4c17-ab32-9f83fdd89e69

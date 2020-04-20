@@ -1,7 +1,7 @@
 ---
 UID: NN:upnphost.IUPnPDeviceProvider
 title: IUPnPDeviceProvider (upnphost.h)
-description: The IUPnPDeviceProvider interface allows a device provider to start and stop its processing.
+description: The IUPnPDeviceProvider interface allows a device provider to start and stop its processing.helpviewer_keywords: ["IUPnPDeviceProvider","IUPnPDeviceProvider interface [UPnP APIs]","IUPnPDeviceProvider interface [UPnP APIs]","described","_upnp_iupnpdeviceprovider","upnp.iupnpdeviceprovider","upnphost/IUPnPDeviceProvider"]
 old-location: upnp\iupnpdeviceprovider.htm
 tech.root: upnp
 ms.assetid: daaa8b55-bcef-4142-8f7b-e6f64e0ac258

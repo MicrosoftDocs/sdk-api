@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.ProcessIdToSessionId
 title: ProcessIdToSessionId function (processthreadsapi.h)
-description: Retrieves the Remote Desktop Services session associated with a specified process.
+description: Retrieves the Remote Desktop Services session associated with a specified process.helpviewer_keywords: ["ProcessIdToSessionId","ProcessIdToSessionId function [Remote Desktop Services]","_win32_processidtosessionid","processthreadsapi/ProcessIdToSessionId","termserv.processidtosessionid"]
 old-location: termserv\processidtosessionid.htm
 tech.root: TermServ
 ms.assetid: 99a3f047-705c-40bc-8cc2-055257a4f2b3

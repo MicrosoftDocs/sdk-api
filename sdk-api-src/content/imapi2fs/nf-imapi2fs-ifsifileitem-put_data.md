@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem.put_Data
 title: IFsiFileItem::put_Data (imapi2fs.h)
-description: Sets the data stream of the file's content.
+description: Sets the data stream of the file's content.helpviewer_keywords: ["IFsiFileItem interface [IMAPI]","put_Data method","IFsiFileItem.put_Data","IFsiFileItem::put_Data","imapi.ifsifileitem_put_data","imapi2fs/IFsiFileItem::put_Data","put_Data","put_Data method [IMAPI]","put_Data method [IMAPI]","IFsiFileItem interface"]
 old-location: imapi\ifsifileitem_put_data.htm
 tech.root: imapi
 ms.assetid: 5fe00500-615c-48fe-a4a3-b3291e61db1f

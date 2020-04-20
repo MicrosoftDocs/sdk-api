@@ -1,7 +1,7 @@
 ---
 UID: NE:rpcasync._RPC_NOTIFICATIONS
 title: RPC_NOTIFICATIONS (rpcasync.h)
-description: The RPC_NOTIFICATIONS enumeration specifies the notifications a server can receive from RPC.
+description: The RPC_NOTIFICATIONS enumeration specifies the notifications a server can receive from RPC.helpviewer_keywords: ["RPC_NOTIFICATIONS","RPC_NOTIFICATIONS enumeration [RPC]","RpcNotificationCallCancel","RpcNotificationCallNone","RpcNotificationClientDisconnect","rpc.rpc_notifications","rpcasync/RPC_NOTIFICATIONS","rpcasync/RpcNotificationCallCancel","rpcasync/RpcNotificationCallNone","rpcasync/RpcNotificationClientDisconnect"]
 old-location: rpc\rpc_notifications.htm
 tech.root: Rpc
 ms.assetid: d5074917-837c-4f3c-a582-97f488ed4919

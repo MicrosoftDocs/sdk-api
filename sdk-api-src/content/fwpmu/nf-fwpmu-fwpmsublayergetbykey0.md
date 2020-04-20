@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerGetByKey0
 title: FwpmSubLayerGetByKey0 function (fwpmu.h)
-description: Retrieves a sublayer by its key.
+description: Retrieves a sublayer by its key.helpviewer_keywords: ["FwpmSubLayerGetByKey0","FwpmSubLayerGetByKey0 function [Filtering]","fwp.fwpmsublayergetbykey0_func","fwpmu/FwpmSubLayerGetByKey0"]
 old-location: fwp\fwpmsublayergetbykey0_func.htm
 tech.root: fwp
 ms.assetid: 3435b4fb-abea-43cc-b1a9-a8bea673d72e

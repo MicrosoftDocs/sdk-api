@@ -1,7 +1,7 @@
 ---
 UID: NF:iaccess.IAccessControl.SetAccessRights
 title: IAccessControl::SetAccessRights (iaccess.h)
-description: Replaces the existing access rights on an object with the specified list.
+description: Replaces the existing access rights on an object with the specified list.helpviewer_keywords: ["IAccessControl interface [COM]","SetAccessRights method","IAccessControl.SetAccessRights","IAccessControl::SetAccessRights","SetAccessRights","SetAccessRights method [COM]","SetAccessRights method [COM]","IAccessControl interface","_com_iaccesscontrol_setaccessrights","com.iaccesscontrol_setaccessrights","iaccess/IAccessControl::SetAccessRights"]
 old-location: com\iaccesscontrol_setaccessrights.htm
 tech.root: com
 ms.assetid: 5f4224fe-255f-4eb7-88bb-47501718589b

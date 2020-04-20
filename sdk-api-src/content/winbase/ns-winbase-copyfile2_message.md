@@ -1,7 +1,7 @@
 ---
 UID: NS:winbase.COPYFILE2_MESSAGE
 title: COPYFILE2_MESSAGE (winbase.h)
-description: Passed to the CopyFile2ProgressRoutine callback function with information about a pending copy operation.
+description: Passed to the CopyFile2ProgressRoutine callback function with information about a pending copy operation.helpviewer_keywords: ["COPYFILE2_CALLBACK_CHUNK_FINISHED","COPYFILE2_CALLBACK_CHUNK_STARTED","COPYFILE2_CALLBACK_ERROR","COPYFILE2_CALLBACK_POLL_CONTINUE","COPYFILE2_CALLBACK_STREAM_FINISHED","COPYFILE2_CALLBACK_STREAM_STARTED","COPYFILE2_MESSAGE","COPYFILE2_MESSAGE structure [Files]","fs.copyfile2_message","winbase/COPYFILE2_MESSAGE"]
 old-location: fs\copyfile2_message.htm
 tech.root: FileIO
 ms.assetid: ab841bee-90a0-4beb-99d3-764e608c3872

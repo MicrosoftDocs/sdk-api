@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.IWriteEngine2EventArgs
 title: IWriteEngine2EventArgs (imapi2.h)
-description: Use this interface to retrieve information about the current write operation. This interface is passed to the DWriteEngine2Events::Update method that you implement.
+description: Use this interface to retrieve information about the current write operation. This interface is passed to the DWriteEngine2Events::Update method that you implement.helpviewer_keywords: ["IWriteEngine2EventArgs","IWriteEngine2EventArgs interface [IMAPI]","IWriteEngine2EventArgs interface [IMAPI]","described","imapi.iwriteengine2eventargs","imapi2/IWriteEngine2EventArgs"]
 old-location: imapi\iwriteengine2eventargs.htm
 tech.root: imapi
 ms.assetid: 1922410a-5871-477f-b778-36b12ad95168

@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.SetEngrave
 title: ITextFont::SetEngrave (tom.h)
-description: Sets whether characters are displayed as imprinted characters.
+description: Sets whether characters are displayed as imprinted characters.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetEngrave method","ITextFont.SetEngrave","ITextFont::SetEngrave","SetEngrave","SetEngrave method [Windows Controls]","SetEngrave method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetEngrave","_win32_ITextFont_SetEngrave_cpp","controls.ITextFont_SetEngrave","controls._win32_ITextFont_SetEngrave","tom/ITextFont::SetEngrave"]
 old-location: controls\ITextFont_SetEngrave.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setengrave.htm

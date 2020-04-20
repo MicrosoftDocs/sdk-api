@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.GetUpdateRectCount
 title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
-description: Gets the total number of regions of the surface that must be updated.
+description: Gets the total number of regions of the surface that must be updated.helpviewer_keywords: ["GetUpdateRectCount","GetUpdateRectCount method [Windows Runtime]","GetUpdateRectCount method [Windows Runtime]","IVirtualSurfaceImageSourceNative interface","IVirtualSurfaceImageSourceNative interface [Windows Runtime]","GetUpdateRectCount method","IVirtualSurfaceImageSourceNative.GetUpdateRectCount","IVirtualSurfaceImageSourceNative.xaml","IVirtualSurfaceImageSourceNative::GetUpdateRectCount","IVirtualSurfaceImageSourceNative::xaml","windows/IVirtualSurfaceImageSourceNative::GetUpdateRectCount","winrt.ivirtualsurfaceimagesourcenative_getupdaterectcount"]
 old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterectcount.htm
 tech.root: WinRT
 ms.assetid: AE717587-0156-4DEC-B7B2-FF8937117D5A

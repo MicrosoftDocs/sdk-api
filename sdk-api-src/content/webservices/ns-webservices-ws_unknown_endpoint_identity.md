@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_UNKNOWN_ENDPOINT_IDENTITY
 title: WS_UNKNOWN_ENDPOINT_IDENTITY (webservices.h)
-description: Type for unknown endpoint identity. This type is only used to represent an endpoint identity type that was deserialized but was not understood.
+description: Type for unknown endpoint identity. This type is only used to represent an endpoint identity type that was deserialized but was not understood.helpviewer_keywords: ["WS_UNKNOWN_ENDPOINT_IDENTITY","WS_UNKNOWN_ENDPOINT_IDENTITY structure [Web Services for Windows]","webservices/WS_UNKNOWN_ENDPOINT_IDENTITY","wsw.ws_unknown_endpoint_identity"]
 old-location: wsw\ws_unknown_endpoint_identity.htm
 tech.root: wsw
 ms.assetid: 93a51fe5-7195-4286-97f3-92c20b0d3e54

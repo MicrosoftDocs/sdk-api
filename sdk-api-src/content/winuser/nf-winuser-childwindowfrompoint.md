@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ChildWindowFromPoint
 title: ChildWindowFromPoint function (winuser.h)
-description: Determines which, if any, of the child windows belonging to a parent window contains the specified point. The search is restricted to immediate child windows. Grandchildren, and deeper descendant windows are not searched.
+description: Determines which, if any, of the child windows belonging to a parent window contains the specified point. The search is restricted to immediate child windows. Grandchildren, and deeper descendant windows are not searched.helpviewer_keywords: ["ChildWindowFromPoint","ChildWindowFromPoint function [Windows and Messages]","_win32_ChildWindowFromPoint","_win32_childwindowfrompoint_cpp","winmsg.childwindowfrompoint","winui._win32_childwindowfrompoint","winuser/ChildWindowFromPoint"]
 old-location: winmsg\childwindowfrompoint.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\childwindowfrompoint.htm

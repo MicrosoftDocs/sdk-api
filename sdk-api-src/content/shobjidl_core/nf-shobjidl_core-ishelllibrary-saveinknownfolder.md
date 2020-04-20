@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SaveInKnownFolder
 title: IShellLibrary::SaveInKnownFolder (shobjidl_core.h)
-description: Saves the library to a new file in a specified known folder.
+description: Saves the library to a new file in a specified known folder.helpviewer_keywords: ["IShellLibrary interface [Windows Shell]","SaveInKnownFolder method","IShellLibrary.SaveInKnownFolder","IShellLibrary::SaveInKnownFolder","SaveInKnownFolder","SaveInKnownFolder method [Windows Shell]","SaveInKnownFolder method [Windows Shell]","IShellLibrary interface","_shell_IShellLibrary_SaveInKnownFolder","shell.IShellLibrary_SaveInKnownFolder","shobjidl_core/IShellLibrary::SaveInKnownFolder"]
 old-location: shell\IShellLibrary_SaveInKnownFolder.htm
 tech.root: shell
 ms.assetid: 3a6fa57f-808d-4893-a01c-f192355f8989

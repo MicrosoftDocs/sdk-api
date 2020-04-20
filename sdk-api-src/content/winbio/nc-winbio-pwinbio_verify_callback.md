@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio.PWINBIO_VERIFY_CALLBACK
 title: PWINBIO_VERIFY_CALLBACK (winbio.h)
-description: Returns results from the asynchronous WinBioVerifyWithCallback function.
+description: Returns results from the asynchronous WinBioVerifyWithCallback function.helpviewer_keywords: ["PWINBIO_VERIFY_CALLBACK","PWINBIO_VERIFY_CALLBACK callback","PWINBIO_VERIFY_CALLBACK callback function [Windows Biometric Framework API]","secbiomet.pwinbio_verify_callback","winbio/PWINBIO_VERIFY_CALLBACK"]
 old-location: secbiomet\pwinbio_verify_callback.htm
 tech.root: SecBioMet
 ms.assetid: CD847827-D50F-41C2-81F7-B5ED316E7ABD

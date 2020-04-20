@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminTransportSetInfo
 title: MprAdminTransportSetInfo function (mprapi.h)
-description: The MprAdminTransportSetInfo function sets global information, or default client interface information, or both, for a specified transport.
+description: The MprAdminTransportSetInfo function sets global information, or default client interface information, or both, for a specified transport.helpviewer_keywords: ["MprAdminTransportSetInfo","MprAdminTransportSetInfo function [RAS]","_mpr_mpradmintransportsetinfo","mprapi/MprAdminTransportSetInfo","rras.mpradmintransportsetinfo"]
 old-location: rras\mpradmintransportsetinfo.htm
 tech.root: RRAS
 ms.assetid: ac0be570-e484-481b-9b16-ccdd4870deda

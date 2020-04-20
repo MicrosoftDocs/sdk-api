@@ -1,7 +1,7 @@
 ---
 UID: NS:qossp._QOS_DESTADDR
 title: QOS_DESTADDR (qossp.h)
-description: The QOS object QOS_DESTADDR is used during a call to the WSAIoctl (SIO_SET_QOS) function in order to avoid issuing a connect function call for a sending socket.
+description: The QOS object QOS_DESTADDR is used during a call to the WSAIoctl (SIO_SET_QOS) function in order to avoid issuing a connect function call for a sending socket.helpviewer_keywords: ["*LPQOS_DESTADDR","LPQOS_DESTADDR","LPQOS_DESTADDR structure pointer [QOS]","QOS_DESTADDR","QOS_DESTADDR structure [QOS]","_gqos_qos_destaddr","qos.qos_destaddr","qossp/LPQOS_DESTADDR","qossp/QOS_DESTADDR"]
 old-location: qos\qos_destaddr.htm
 tech.root: QOS
 ms.assetid: 6b9e52b2-58d0-437f-a71b-248feac59c13

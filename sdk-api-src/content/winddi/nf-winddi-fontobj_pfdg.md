@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.FONTOBJ_pfdg
 title: FONTOBJ_pfdg function (winddi.h)
-description: The FONTOBJ_pfdg function retrieves the pointer to the FD_GLYPHSET structure associated with the specified font.
+description: The FONTOBJ_pfdg function retrieves the pointer to the FD_GLYPHSET structure associated with the specified font.helpviewer_keywords: ["FONTOBJ_pfdg","FONTOBJ_pfdg function [Display Devices]","display.fontobj_pfdg","gdifncs_858ebe0b-c792-4472-967d-cdf46ec12c28.xml","winddi/FONTOBJ_pfdg"]
 old-location: display\fontobj_pfdg.htm
 tech.root: display
 ms.assetid: 5813b06e-5fa8-4279-bd16-aa7b7129a181

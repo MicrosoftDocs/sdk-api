@@ -1,7 +1,7 @@
 ---
 UID: NS:tssbx.__MIDL_IWTSSBPlugin_0009
 title: WTSSBX_SESSION_INFO (tssbx.h)
-description: Contains information about sessions that are available to Remote Desktop Connection Broker (RD Connection Broker).
+description: Contains information about sessions that are available to Remote Desktop Connection Broker (RD Connection Broker).helpviewer_keywords: ["WTSSBX_SESSION_INFO","WTSSBX_SESSION_INFO structure [Remote Desktop Services]","__MIDL_IWTSSBPlugin_0009","termserv.wtssbx_session_info","tssbx/WTSSBX_SESSION_INFO"]
 old-location: termserv\wtssbx_session_info.htm
 tech.root: TermServ
 ms.assetid: d0c142a9-2495-46e6-b53b-0c415bddb0b2

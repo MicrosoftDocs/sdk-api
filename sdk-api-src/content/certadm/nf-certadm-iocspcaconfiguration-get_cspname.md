@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_CSPName
 title: IOCSPCAConfiguration::get_CSPName (certadm.h)
-description: Gets a cryptographic service provider (CSP) or key storage provider (KSP) name.
+description: Gets a cryptographic service provider (CSP) or key storage provider (KSP) name.helpviewer_keywords: ["CSPName property [Security]","CSPName property [Security]","IOCSPCAConfiguration interface","IOCSPCAConfiguration interface [Security]","CSPName property","IOCSPCAConfiguration.CSPName","IOCSPCAConfiguration.get_CSPName","IOCSPCAConfiguration::CSPName","IOCSPCAConfiguration::get_CSPName","certadm/IOCSPCAConfiguration::CSPName","certadm/IOCSPCAConfiguration::get_CSPName","get_CSPName","security.iocspcaconfiguration_cspname_method"]
 old-location: security\iocspcaconfiguration_cspname_method.htm
 tech.root: SecCrypto
 ms.assetid: a35400a9-7eb7-4298-b023-efe2a087ba7d

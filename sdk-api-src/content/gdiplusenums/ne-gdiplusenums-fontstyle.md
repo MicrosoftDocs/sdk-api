@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.FontStyle
 title: FontStyle (gdiplusenums.h)
-description: The FontStyle enumeration specifies the style of the typeface of a font. Styles can be combined.
+description: The FontStyle enumeration specifies the style of the typeface of a font. Styles can be combined.helpviewer_keywords: ["FontStyle","FontStyle enumeration [GDI+]","FontStyleBold","FontStyleBoldItalic","FontStyleItalic","FontStyleRegular","FontStyleStrikeout","FontStyleUnderline","_gdiplus_ENUM_FontStyle","gdiplus._gdiplus_ENUM_FontStyle","gdiplusenums/FontStyle","gdiplusenums/FontStyleBold","gdiplusenums/FontStyleBoldItalic","gdiplusenums/FontStyleItalic","gdiplusenums/FontStyleRegular","gdiplusenums/FontStyleStrikeout","gdiplusenums/FontStyleUnderline"]
 old-location: gdiplus\_gdiplus_ENUM_FontStyle.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\fontstyle.htm

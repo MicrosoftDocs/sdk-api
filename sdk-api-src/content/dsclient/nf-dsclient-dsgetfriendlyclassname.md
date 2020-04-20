@@ -1,7 +1,7 @@
 ---
 UID: NF:dsclient.DsGetFriendlyClassName
 title: DsGetFriendlyClassName function (dsclient.h)
-description: Retrieves the localized name for an object class.
+description: Retrieves the localized name for an object class.helpviewer_keywords: ["DsGetFriendlyClassName","DsGetFriendlyClassName function [Active Directory]","ad.dsgetfriendlyclassname","dsclient/DsGetFriendlyClassName"]
 old-location: ad\dsgetfriendlyclassname.htm
 tech.root: ad
 ms.assetid: 944b7227-2f22-418e-a9da-6fddec66876b

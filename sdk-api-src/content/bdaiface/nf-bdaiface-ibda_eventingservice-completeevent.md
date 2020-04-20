@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_EventingService.CompleteEvent
 title: IBDA_EventingService::CompleteEvent (bdaiface.h)
-description: Notifies the media transform device (MTD) when the media sink device (MSD) completes an event.
+description: Notifies the media transform device (MTD) when the media sink device (MSD) completes an event.helpviewer_keywords: ["CompleteEvent","CompleteEvent method [Microsoft TV Technologies]","CompleteEvent method [Microsoft TV Technologies]","IBDA_EventingService interface","IBDA_EventingService interface [Microsoft TV Technologies]","CompleteEvent method","IBDA_EventingService.CompleteEvent","IBDA_EventingService::CompleteEvent","bdaiface/IBDA_EventingService::CompleteEvent","mstv.ibda_eventingservice_completeevent"]
 old-location: mstv\ibda_eventingservice_completeevent.htm
 tech.root: mstv
 ms.assetid: 399530a7-5a02-485e-aa5e-6b3ddb7f3d54

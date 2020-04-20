@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.IRdcFileReader.Read
 title: IRdcFileReader::Read (msrdc.h)
-description: Reads the specified amount of data starting at the specified position.
+description: Reads the specified amount of data starting at the specified position.helpviewer_keywords: ["IRdcFileReader interface [Remote Differential Compression]","Read method","IRdcFileReader.Read","IRdcFileReader::Read","Read","Read method [Remote Differential Compression]","Read method [Remote Differential Compression]","IRdcFileReader interface","fs.irdcfilereader_read","msrdc/IRdcFileReader::Read","rdc.irdcfilereader_read"]
 old-location: rdc\irdcfilereader_read.htm
 tech.root: rdc
 ms.assetid: 194944c8-94a8-4f9b-9970-012392e069b1

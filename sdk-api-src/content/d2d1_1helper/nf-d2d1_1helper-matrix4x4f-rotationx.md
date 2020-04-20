@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.RotationX
 title: Matrix4x4F::RotationX (d2d1_1helper.h)
-description: Rotates the transform matrix around the X axis.
+description: Rotates the transform matrix around the X axis.helpviewer_keywords: ["Matrix4x4F interface [Direct2D]","RotationX method","Matrix4x4F.RotationX","Matrix4x4F::RotationX","RotationX","RotationX method [Direct2D]","RotationX method [Direct2D]","Matrix4x4F interface","d2d1_1helper/Matrix4x4F::RotationX","direct2d.matrix4x4f_rotationx"]
 old-location: direct2d\matrix4x4f_rotationx.htm
 tech.root: Direct2D
 ms.assetid: 3F9B9CE2-18F4-4F73-9725-A10B84639817

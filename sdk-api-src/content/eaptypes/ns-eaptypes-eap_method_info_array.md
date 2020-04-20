@@ -1,7 +1,7 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_INFO_ARRAY
 title: EAP_METHOD_INFO_ARRAY (eaptypes.h)
-description: Contains information on EAP methods installed on the client computer.
+description: Contains information on EAP methods installed on the client computer.helpviewer_keywords: ["EAP_METHOD_INFO_ARRAY","EAP_METHOD_INFO_ARRAY structure [EAPHost]","PEAP_METHOD_INFO_ARRAY","PEAP_METHOD_INFO_ARRAY structure pointer [EAPHost]","eaphost.eap_method_info_array","eaptypes/EAP_METHOD_INFO_ARRAY","eaptypes/PEAP_METHOD_INFO_ARRAY"]
 old-location: eaphost\eap_method_info_array.htm
 tech.root: eaphost
 ms.assetid: a3e2d5c0-eacd-46de-b092-6fd749870881

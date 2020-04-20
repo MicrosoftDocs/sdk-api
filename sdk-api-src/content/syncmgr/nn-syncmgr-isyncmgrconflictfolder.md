@@ -1,7 +1,7 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictFolder
 title: ISyncMgrConflictFolder (syncmgr.h)
-description: Exposes a method that gets the conflict ID list for a conflict object.
+description: Exposes a method that gets the conflict ID list for a conflict object.helpviewer_keywords: ["ISyncMgrConflictFolder","ISyncMgrConflictFolder interface [Windows Shell]","ISyncMgrConflictFolder interface [Windows Shell]","described","_shell_ISyncMgrConflictFolder","shell.ISyncMgrConflictFolder","syncmgr/ISyncMgrConflictFolder"]
 old-location: shell\ISyncMgrConflictFolder.htm
 tech.root: shell
 ms.assetid: de4bb2b2-ebb2-4ab8-afba-3f00a69d51a8

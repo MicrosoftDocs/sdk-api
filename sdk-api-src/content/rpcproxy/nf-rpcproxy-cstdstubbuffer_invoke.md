@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_Invoke
 title: CStdStubBuffer_Invoke function (rpcproxy.h)
-description: The CStdStubBuffer_Invoke function implements the IRpcStubBuffer::Invoke method.
+description: The CStdStubBuffer_Invoke function implements the IRpcStubBuffer::Invoke method.helpviewer_keywords: ["CStdStubBuffer_Invoke","CStdStubBuffer_Invoke function [RPC]","rpc.cstdstubbuffer_invoke","rpcproxy/CStdStubBuffer_Invoke"]
 old-location: rpc\cstdstubbuffer_invoke.htm
 tech.root: Rpc
 ms.assetid: ad092a99-5a30-489a-9743-a06b148e9797

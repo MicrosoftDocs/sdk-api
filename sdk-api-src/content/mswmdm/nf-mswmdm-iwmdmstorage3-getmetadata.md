@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMStorage3.GetMetadata
 title: IWMDMStorage3::GetMetadata (mswmdm.h)
-description: The GetMetadata method retrieves the metadata associated with the storage.
+description: The GetMetadata method retrieves the metadata associated with the storage.helpviewer_keywords: ["GetMetadata","GetMetadata method [windows Media Device Manager]","GetMetadata method [windows Media Device Manager]","IWMDMStorage3 interface","IWMDMStorage3 interface [windows Media Device Manager]","GetMetadata method","IWMDMStorage3.GetMetadata","IWMDMStorage3::GetMetadata","IWMDMStorage3GetMetadata","mswmdm/IWMDMStorage3::GetMetadata","wmdm.iwmdmstorage3_getmetadata"]
 old-location: wmdm\iwmdmstorage3_getmetadata.htm
 tech.root: WMDM
 ms.assetid: 7e436742-fb19-4e8e-98a2-d961c9f0ecbf

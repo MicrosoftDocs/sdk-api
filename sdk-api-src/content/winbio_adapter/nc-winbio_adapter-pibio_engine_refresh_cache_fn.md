@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_REFRESH_CACHE_FN
 title: PIBIO_ENGINE_REFRESH_CACHE_FN (winbio_adapter.h)
-description: Notifies the Engine Adapter that it should discard any cached templates that it may be keeping in memory.
+description: Notifies the Engine Adapter that it should discard any cached templates that it may be keeping in memory.helpviewer_keywords: ["EngineAdapterRefreshCache","EngineAdapterRefreshCache callback function [Windows Biometric Framework API]","PIBIO_ENGINE_REFRESH_CACHE_FN","PIBIO_ENGINE_REFRESH_CACHE_FN callback","secbiomet.engineadapterrefreshcache","winbio_adapter/EngineAdapterRefreshCache"]
 old-location: secbiomet\engineadapterrefreshcache.htm
 tech.root: SecBioMet
 ms.assetid: AD0A3BBC-3948-402A-AC3A-96BAF00A164C

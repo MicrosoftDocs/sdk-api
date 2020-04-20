@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_IKEEXT_QM_FAILURE0_
 title: FWPM_NET_EVENT_IKEEXT_QM_FAILURE0 (fwpmtypes.h)
-description: Contains information that describes an IKE/AuthIP Quick Mode (QM) failure.
+description: Contains information that describes an IKE/AuthIP Quick Mode (QM) failure.helpviewer_keywords: ["FWPM_NET_EVENT_IKEEXT_QM_FAILURE0","FWPM_NET_EVENT_IKEEXT_QM_FAILURE0 structure [Filtering]","fwp.fwpm_net_event_ikeext_qm_failure0","fwpmtypes/FWPM_NET_EVENT_IKEEXT_QM_FAILURE0"]
 old-location: fwp\fwpm_net_event_ikeext_qm_failure0.htm
 tech.root: fwp
 ms.assetid: a9cffcee-67a2-4a04-9ff1-85e2e02fa9a9

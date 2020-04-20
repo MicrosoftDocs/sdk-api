@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.GetMatrixArray
 title: ID3D10EffectMatrixVariable::GetMatrixArray (d3d10effect.h)
-description: Get an array of matrices.
+description: Get an array of matrices.helpviewer_keywords: ["84951199-eff7-9ce2-9bad-b1bc01eab150","GetMatrixArray","GetMatrixArray method [Direct3D 10]","GetMatrixArray method [Direct3D 10]","ID3D10EffectMatrixVariable interface","ID3D10EffectMatrixVariable interface [Direct3D 10]","GetMatrixArray method","ID3D10EffectMatrixVariable.GetMatrixArray","ID3D10EffectMatrixVariable::GetMatrixArray","d3d10effect/ID3D10EffectMatrixVariable::GetMatrixArray","direct3d10.id3d10effectmatrixvariable_getmatrixarray"]
 old-location: direct3d10\id3d10effectmatrixvariable_getmatrixarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_getmatrixarray.htm

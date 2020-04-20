@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMWriter
 title: IWMWriter (wmsdkidl.h)
-description: The IWMWriter interface is used to write ASF files.
+description: The IWMWriter interface is used to write ASF files.helpviewer_keywords: ["IWMWriter","IWMWriter interface [windows Media Format]","IWMWriter interface [windows Media Format]","described","IWMWriterInterface","wmformat.iwmwriter","wmsdkidl/IWMWriter"]
 old-location: wmformat\iwmwriter.htm
 tech.root: wmformat
 ms.assetid: a194ef11-5203-4e85-af91-cdce0c53fe76

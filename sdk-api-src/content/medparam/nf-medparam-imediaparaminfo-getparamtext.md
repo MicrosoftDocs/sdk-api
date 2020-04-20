@@ -1,7 +1,7 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetParamText
 title: IMediaParamInfo::GetParamText (medparam.h)
-description: The GetParamText method retrieves a series of text strings that describe the parameter.
+description: The GetParamText method retrieves a series of text strings that describe the parameter.helpviewer_keywords: ["GetParamText","GetParamText method [DirectShow]","GetParamText method [DirectShow]","IMediaParamInfo interface","IMediaParamInfo interface [DirectShow]","GetParamText method","IMediaParamInfo.GetParamText","IMediaParamInfo::GetParamText","IMediaParamInfoGetParamText","dshow.imediaparaminfo_getparamtext","medparam/IMediaParamInfo::GetParamText"]
 old-location: dshow\imediaparaminfo_getparamtext.htm
 tech.root: DirectShow
 ms.assetid: 38ecde61-fd4a-4ba3-9cd4-d62a5aa55294

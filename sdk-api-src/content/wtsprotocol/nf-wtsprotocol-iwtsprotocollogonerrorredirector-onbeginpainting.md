@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.OnBeginPainting
 title: IWTSProtocolLogonErrorRedirector::OnBeginPainting (wtsprotocol.h)
-description: IWTSProtocolLogonErrorRedirector::OnBeginPainting is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::OnBeginPainting.
+description: IWTSProtocolLogonErrorRedirector::OnBeginPainting is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::OnBeginPainting.helpviewer_keywords: ["IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services]","OnBeginPainting method","IWTSProtocolLogonErrorRedirector.OnBeginPainting","IWTSProtocolLogonErrorRedirector::OnBeginPainting","OnBeginPainting","OnBeginPainting method [Remote Desktop Services]","OnBeginPainting method [Remote Desktop Services]","IWTSProtocolLogonErrorRedirector interface","termserv.iwtsprotocollogonerrorredirector_onbeginpainting","wtsprotocol/IWTSProtocolLogonErrorRedirector::OnBeginPainting"]
 old-location: termserv\iwtsprotocollogonerrorredirector_onbeginpainting.htm
 tech.root: TermServ
 ms.assetid: 1356deeb-ac4a-4877-95be-9df09f4b0210

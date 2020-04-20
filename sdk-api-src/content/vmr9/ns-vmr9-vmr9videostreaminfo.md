@@ -1,7 +1,7 @@
 ---
 UID: NS:vmr9._VMR9VideoStreamInfo
 title: VMR9VideoStreamInfo (vmr9.h)
-description: The VMR9VideoStreamInfo structure describes the rendering parameters for a video compositing operation in the VRM-9 filter. This structure is used in the IVMRImageCompositor9::CompositeImage method.
+description: The VMR9VideoStreamInfo structure describes the rendering parameters for a video compositing operation in the VRM-9 filter. This structure is used in the IVMRImageCompositor9::CompositeImage method.helpviewer_keywords: ["VMR9VideoStreamInfo","VMR9VideoStreamInfo structure [DirectShow]","VMR9VideoStreamInfoStructure","dshow.vmr9videostreaminfo","vmr9/VMR9VideoStreamInfo"]
 old-location: dshow\vmr9videostreaminfo.htm
 tech.root: DirectShow
 ms.assetid: e2da0c1e-d592-49ce-937c-0d75ce270282

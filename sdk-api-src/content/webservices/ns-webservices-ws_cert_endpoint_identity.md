@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_CERT_ENDPOINT_IDENTITY
 title: WS_CERT_ENDPOINT_IDENTITY (webservices.h)
-description: Type for certificate endpoint identity
+description: Type for certificate endpoint identityhelpviewer_keywords: ["WS_CERT_ENDPOINT_IDENTITY","WS_CERT_ENDPOINT_IDENTITY structure [Web Services for Windows]","webservices/WS_CERT_ENDPOINT_IDENTITY","wsw.ws_cert_endpoint_identity"]
 old-location: wsw\ws_cert_endpoint_identity.htm
 tech.root: wsw
 ms.assetid: c4d0f409-49c8-4b8c-82fd-302e96cb6a84

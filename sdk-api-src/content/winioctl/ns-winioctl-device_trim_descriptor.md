@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._DEVICE_TRIM_DESCRIPTOR
 title: DEVICE_TRIM_DESCRIPTOR
-description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the trim descriptor data for a device.
+description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the trim descriptor data for a device.helpviewer_keywords: ["*PDEVICE_TRIM_DESCRIPTOR","DEVICE_TRIM_DESCRIPTOR","DEVICE_TRIM_DESCRIPTOR structure [Files]","PDEVICE_TRIM_DESCRIPTOR","PDEVICE_TRIM_DESCRIPTOR structure pointer [Files]","fs.device_trim_descriptor","winioctl/DEVICE_TRIM_DESCRIPTOR","winioctl/PDEVICE_TRIM_DESCRIPTOR"]
 old-location: fs\device_trim_descriptor.htm
 tech.root: FileIO
 ms.assetid: 60b38d08-5869-442f-845b-b3d8667d069f

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetSubProperties(UINT32,ID2D1Properties)
 title: ID2D1Properties::GetSubProperties (d2d1_1.h)
-description: Gets the sub-properties of the provided property by index.
+description: Gets the sub-properties of the provided property by index.helpviewer_keywords: ["GetSubProperties","GetSubProperties method [Direct2D]","GetSubProperties method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetSubProperties method","ID2D1Properties.GetSubProperties","ID2D1Properties::GetSubProperties","ID2D1Properties::GetSubProperties(UINT32","ID2D1Properties)","ID2D1Properties::GetSubProperties(UINT32","ID2D1Properties**)","d2d1_1/ID2D1Properties::GetSubProperties","direct2d.id2d1properties_getsubproperties"]
 old-location: direct2d\id2d1properties_getsubproperties.htm
 tech.root: Direct2D
 ms.assetid: 6ba7ba8e-63fd-44a1-9a03-565b2e2a128c

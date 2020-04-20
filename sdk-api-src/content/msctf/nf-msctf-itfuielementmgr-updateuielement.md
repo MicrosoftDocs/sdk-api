@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.UpdateUIElement
 title: ITfUIElementMgr::UpdateUIElement (msctf.h)
-description: The ITfUIElementMgr::UpdateUIElement method is called by a text service when the UI element must be updated.
+description: The ITfUIElementMgr::UpdateUIElement method is called by a text service when the UI element must be updated.helpviewer_keywords: ["ITfUIElementMgr interface [Text Services Framework]","UpdateUIElement method","ITfUIElementMgr.UpdateUIElement","ITfUIElementMgr::UpdateUIElement","UpdateUIElement","UpdateUIElement method [Text Services Framework]","UpdateUIElement method [Text Services Framework]","ITfUIElementMgr interface","msctf/ITfUIElementMgr::UpdateUIElement","tsf.itfuielementmgr_updateuielement"]
 old-location: tsf\itfuielementmgr_updateuielement.htm
 tech.root: TSF
 ms.assetid: c7df9abf-53a0-41a4-aac5-d90b9abfbeec

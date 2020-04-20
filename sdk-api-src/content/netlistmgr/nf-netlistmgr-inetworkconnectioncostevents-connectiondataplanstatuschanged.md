@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged
 title: INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged (netlistmgr.h)
-description: ConnectionDataPlanStatusChanged method notifies an application of a data plan status change on a connection.
+description: ConnectionDataPlanStatusChanged method notifies an application of a data plan status change on a connection.helpviewer_keywords: ["ConnectionDataPlanStatusChanged","ConnectionDataPlanStatusChanged method [Network Awareness]","ConnectionDataPlanStatusChanged method [Network Awareness]","INetworkConnectionCostEvents interface","INetworkConnectionCostEvents interface [Network Awareness]","ConnectionDataPlanStatusChanged method","INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged","INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged","netlistmgr/INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged","nla.inetworkconnectioncostevents_connectiondataplanstatuschanged"]
 old-location: nla\inetworkconnectioncostevents_connectiondataplanstatuschanged.htm
 tech.root: nla
 ms.assetid: F965C648-EC59-40E4-8E8A-FE5A7E8FDAEA

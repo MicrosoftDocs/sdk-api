@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.AddVisual
 title: IDCompositionVisual::AddVisual (dcomp.h)
-description: Adds a new child visual to the children list of this visual.
+description: Adds a new child visual to the children list of this visual.helpviewer_keywords: ["AddVisual","AddVisual method [DirectComposition]","AddVisual method [DirectComposition]","IDCompositionVisual interface","IDCompositionVisual interface [DirectComposition]","AddVisual method","IDCompositionVisual.AddVisual","IDCompositionVisual::AddVisual","dcomp/IDCompositionVisual::AddVisual","directcomp.idcompositionvisual_addvisual"]
 old-location: directcomp\idcompositionvisual_addvisual.htm
 tech.root: directcomp
 ms.assetid: e1124df5-7795-49c3-a640-f218cfdd4f1d

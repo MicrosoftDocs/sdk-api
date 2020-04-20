@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetMaxStreamSampleSize
 title: IWMSyncReader::GetMaxStreamSampleSize (wmsdkidl.h)
-description: The GetMaxStreamSampleSize method retrieves the maximum sample size for a specified stream in the file that is open in the synchronous reader.
+description: The GetMaxStreamSampleSize method retrieves the maximum sample size for a specified stream in the file that is open in the synchronous reader.helpviewer_keywords: ["GetMaxStreamSampleSize","GetMaxStreamSampleSize method [windows Media Format]","GetMaxStreamSampleSize method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetMaxStreamSampleSize method","IWMSyncReader.GetMaxStreamSampleSize","IWMSyncReader::GetMaxStreamSampleSize","IWMSyncReaderGetMaxStreamSampleSize","wmformat.iwmsyncreader_getmaxstreamsamplesize","wmsdkidl/IWMSyncReader::GetMaxStreamSampleSize"]
 old-location: wmformat\iwmsyncreader_getmaxstreamsamplesize.htm
 tech.root: wmformat
 ms.assetid: 8b098985-4eb2-4292-a9b9-cfdd051e9c0e

@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetValueNormalization
 title: ICondition::GetValueNormalization (structuredquerycondition.h)
-description: Retrieves the character-normalized value of the search condition node.
+description: Retrieves the character-normalized value of the search condition node.helpviewer_keywords: ["GetValueNormalization","GetValueNormalization method [search]","GetValueNormalization method [search]","ICondition interface","ICondition interface [search]","GetValueNormalization method","ICondition.GetValueNormalization","ICondition::GetValueNormalization","_search_ICondition_GetValueNormalization","search._search_ICondition_GetValueNormalization","structuredquerycondition/ICondition::GetValueNormalization"]
 old-location: search\_search_ICondition_GetValueNormalization.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getvaluenormalization.htm

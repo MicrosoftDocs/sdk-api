@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmNetEventSubscriptionsGet0
 title: FwpmNetEventSubscriptionsGet0 function (fwpmu.h)
-description: Retrieves an array of all the current net event notification subscriptions.
+description: Retrieves an array of all the current net event notification subscriptions.helpviewer_keywords: ["FwpmNetEventSubscriptionsGet0","FwpmNetEventSubscriptionsGet0 function [Filtering]","fwp.fwpmneteventsubscriptionsget0","fwpmu/FwpmNetEventSubscriptionsGet0"]
 old-location: fwp\fwpmneteventsubscriptionsget0.htm
 tech.root: fwp
 ms.assetid: 08a5378d-b9f7-45d9-b63c-fabcd94b717c

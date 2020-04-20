@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.AddCertTypeToRequestWStr
 title: IEnroll::AddCertTypeToRequestWStr (xenroll.h)
-description: Adds a certificate template to a request (used to support the enterprise certification authority (CA)).
+description: Adds a certificate template to a request (used to support the enterprise certification authority (CA)).helpviewer_keywords: ["AddCertTypeToRequestWStr","AddCertTypeToRequestWStr method [Security]","AddCertTypeToRequestWStr method [Security]","IEnroll interface","IEnroll interface [Security]","AddCertTypeToRequestWStr method","IEnroll.AddCertTypeToRequestWStr","IEnroll::AddCertTypeToRequestWStr","security.ienroll4_addcerttypetorequestwstr","xenroll/IEnroll::AddCertTypeToRequestWStr"]
 old-location: security\ienroll4_addcerttypetorequestwstr.htm
 tech.root: SecCrypto
 ms.assetid: d9bf51db-375e-4230-953c-d9893228d7e1

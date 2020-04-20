@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetWordWrapping
 title: IDWriteTextFormat::GetWordWrapping (dwrite.h)
-description: Gets the word wrapping option.
+description: Gets the word wrapping option.helpviewer_keywords: ["GetWordWrapping","GetWordWrapping method [Direct Write]","GetWordWrapping method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetWordWrapping method","IDWriteTextFormat.GetWordWrapping","IDWriteTextFormat::GetWordWrapping","directwrite.IDWriteTextFormat_GetWordWrapping","dwrite/IDWriteTextFormat::GetWordWrapping"]
 old-location: directwrite\IDWriteTextFormat_GetWordWrapping.htm
 tech.root: DirectWrite
 ms.assetid: b3ce0513-da7e-4645-b677-52dcd2a060d4

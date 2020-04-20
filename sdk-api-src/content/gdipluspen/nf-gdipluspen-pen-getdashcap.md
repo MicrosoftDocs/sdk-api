@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspen.Pen.GetDashCap
 title: Pen::GetDashCap (gdipluspen.h)
-description: The Pen::GetDashCap method gets the dash cap style currently set for this Pen object.
+description: The Pen::GetDashCap method gets the dash cap style currently set for this Pen object.helpviewer_keywords: ["GetDashCap","GetDashCap method [GDI+]","GetDashCap method [GDI+]","Pen class","Pen class [GDI+]","GetDashCap method","Pen.GetDashCap","Pen::GetDashCap","_gdiplus_CLASS_Pen_GetDashCap_","gdiplus._gdiplus_CLASS_Pen_GetDashCap_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashcap.htm

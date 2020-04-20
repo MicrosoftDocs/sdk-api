@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPPlayer4
 title: IWMPPlayer4 (wmp.h)
-description: The IWMPPlayer4 interface provides methods for modifying the basic behavior of the Windows Media Player control user interface.
+description: The IWMPPlayer4 interface provides methods for modifying the basic behavior of the Windows Media Player control user interface.helpviewer_keywords: ["IWMPPlayer4","IWMPPlayer4 interface [Windows Media Player]","IWMPPlayer4 interface [Windows Media Player]","described","IWMPPlayer4Interface","wmp.iwmpplayer4","wmp/IWMPPlayer4"]
 old-location: wmp\iwmpplayer4.htm
 tech.root: WMP
 ms.assetid: afe5dbd1-96e1-4abe-b843-ec6130fa02d0

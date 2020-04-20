@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.EndContainer
 title: Graphics::EndContainer (gdiplusgraphics.h)
-description: The Graphics::EndContainer method closes a graphics container that was previously opened by the Graphics::BeginContainer method.
+description: The Graphics::EndContainer method closes a graphics container that was previously opened by the Graphics::BeginContainer method.helpviewer_keywords: ["EndContainer","EndContainer method [GDI+]","EndContainer method [GDI+]","Graphics class","Graphics class [GDI+]","EndContainer method","Graphics.EndContainer","Graphics::EndContainer","_gdiplus_CLASS_Graphics_EndContainer_state_","gdiplus._gdiplus_CLASS_Graphics_EndContainer_state_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_EndContainer_state_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\endcontainer.htm

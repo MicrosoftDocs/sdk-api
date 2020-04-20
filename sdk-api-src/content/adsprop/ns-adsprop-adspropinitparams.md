@@ -1,7 +1,7 @@
 ---
 UID: NS:adsprop._ADSPROPINITPARAMS
 title: ADSPROPINITPARAMS (adsprop.h)
-description: Used with the ADsPropGetInitInfo function to obtain object data that a display specifier applies to.
+description: Used with the ADsPropGetInitInfo function to obtain object data that a display specifier applies to.helpviewer_keywords: ["*PADSPROPINITPARAMS","ADSPROPINITPARAMS","ADSPROPINITPARAMS structure [Active Directory]","PADSPROPINITPARAMS","PADSPROPINITPARAMS structure pointer [Active Directory]","_glines_adspropinitparams","ad.adspropinitparams","adsprop/ADSPROPINITPARAMS","adsprop/PADSPROPINITPARAMS"]
 old-location: ad\adspropinitparams.htm
 tech.root: ad
 ms.assetid: cbee3515-5037-4d65-8817-4c63fe13ef5d

@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpGetAllOptionsV6
 title: DhcpGetAllOptionsV6 function (dhcpsapi.h)
-description: The DhcpGetAllOptionsV6 function returns an array that contains all options defined on the DHCP server.
+description: The DhcpGetAllOptionsV6 function returns an array that contains all options defined on the DHCP server.helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpGetAllOptionsV6","DhcpGetAllOptionsV6 function [DHCP]","dhcp.dhcpgetalloptionsv6","dhcpsapi/DhcpGetAllOptionsV6"]
 old-location: dhcp\dhcpgetalloptionsv6.htm
 tech.root: DHCP
 ms.assetid: 66a49f05-66ab-489d-abd7-b9f0bbe5a7cc

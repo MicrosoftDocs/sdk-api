@@ -1,7 +1,7 @@
 ---
 UID: NN:structuredquery.IQuerySolution
 title: IQuerySolution (structuredquery.h)
-description: Provides methods that retrieve information about the interpretation of a parsed query.
+description: Provides methods that retrieve information about the interpretation of a parsed query.helpviewer_keywords: ["IQuerySolution","IQuerySolution interface [search]","IQuerySolution interface [search]","described","_search_IQuerySolution","search._search_IQuerySolution","structuredquery/IQuerySolution"]
 old-location: search\_search_IQuerySolution.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\iquerysolution.htm

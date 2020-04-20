@@ -1,7 +1,7 @@
 ---
 UID: NF:avrt.AvRtDeleteThreadOrderingGroup
 title: AvRtDeleteThreadOrderingGroup function (avrt.h)
-description: Deletes the specified thread ordering group created by the caller. It cleans up resources for the thread ordering group, including the context information, and returns.
+description: Deletes the specified thread ordering group created by the caller. It cleans up resources for the thread ordering group, including the context information, and returns.helpviewer_keywords: ["AvRtDeleteThreadOrderingGroup","AvRtDeleteThreadOrderingGroup function","avrt/AvRtDeleteThreadOrderingGroup","base.avrtdeletethreadorderinggroup"]
 old-location: base\avrtdeletethreadorderinggroup.htm
 tech.root: ProcThread
 ms.assetid: fa881a0f-3087-4605-9c42-880f6694c018

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellIconOverlayIdentifier.GetPriority
 title: IShellIconOverlayIdentifier::GetPriority (shobjidl_core.h)
-description: Specifies the priority of an icon overlay.
+description: Specifies the priority of an icon overlay.helpviewer_keywords: ["GetPriority","GetPriority method [Windows Shell]","GetPriority method [Windows Shell]","IShellIconOverlayIdentifier interface","IShellIconOverlayIdentifier interface [Windows Shell]","GetPriority method","IShellIconOverlayIdentifier.GetPriority","IShellIconOverlayIdentifier::GetPriority","_win32_IShellIconOverlayIdentifier_GetPriority","shell.IShellIconOverlayIdentifier_GetPriority","shobjidl_core/IShellIconOverlayIdentifier::GetPriority"]
 old-location: shell\IShellIconOverlayIdentifier_GetPriority.htm
 tech.root: shell
 ms.assetid: c191bcf7-8b49-4276-9e30-2a8dcaf1fc46

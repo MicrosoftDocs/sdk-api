@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_AGREE_ENCRYPT_INFO
 title: CMSG_KEY_AGREE_ENCRYPT_INFO (wincrypt.h)
-description: Contains encryption information applicable to all key agreement recipients of an enveloped message.
+description: Contains encryption information applicable to all key agreement recipients of an enveloped message.helpviewer_keywords: ["*PCMSG_KEY_AGREE_ENCRYPT_INFO","CMSG_KEY_AGREE_ENCRYPT_FREE_MATERIAL_FLAG","CMSG_KEY_AGREE_ENCRYPT_FREE_OBJID_FLAG","CMSG_KEY_AGREE_ENCRYPT_FREE_PARA_FLAG","CMSG_KEY_AGREE_ENCRYPT_FREE_PUBKEY_ALG_FLAG","CMSG_KEY_AGREE_ENCRYPT_FREE_PUBKEY_BITS_FLAG","CMSG_KEY_AGREE_ENCRYPT_FREE_PUBKEY_PARA_FLAG","CMSG_KEY_AGREE_ENCRYPT_INFO","CMSG_KEY_AGREE_ENCRYPT_INFO structure [Security]","CMSG_KEY_AGREE_ORIGINATOR_CERT","CMSG_KEY_AGREE_ORIGINATOR_PUBLIC_KEY","PCMSG_KEY_AGREE_ENCRYPT_INFO","PCMSG_KEY_AGREE_ENCRYPT_INFO structure pointer [Security]","security.cmsg_key_agree_encrypt_info","wincrypt/CMSG_KEY_AGREE_ENCRYPT_INFO","wincrypt/PCMSG_KEY_AGREE_ENCRYPT_INFO"]
 old-location: security\cmsg_key_agree_encrypt_info.htm
 tech.root: SecCrypto
 ms.assetid: 7604ac82-a1a2-451b-8615-98303ce1d83e

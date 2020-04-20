@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetSettingType
 title: ISettingsItem::GetSettingType (wcmconfig.h)
-description: Gets the setting type for the item.
+description: Gets the setting type for the item.helpviewer_keywords: ["GetSettingType","GetSettingType method [SMI]","GetSettingType method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetSettingType method","ISettingsItem.GetSettingType","ISettingsItem::GetSettingType","smi.isettingsitem_getsettingtype","wcmconfig/ISettingsItem::GetSettingType"]
 old-location: smi\isettingsitem_getsettingtype.htm
 tech.root: SMI
 ms.assetid: d222939f-9295-4751-8b32-586fa9930177

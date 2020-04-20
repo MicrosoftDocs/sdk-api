@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_2.ID2D1DeviceContext1
 title: ID2D1DeviceContext1 (d2d1_2.h)
-description: Enables creation and drawing of geometry realization objects.
+description: Enables creation and drawing of geometry realization objects.helpviewer_keywords: ["ID2D1DeviceContext1","ID2D1DeviceContext1 interface [Direct2D]","ID2D1DeviceContext1 interface [Direct2D]","described","d2d1_2/ID2D1DeviceContext1","direct2d.id2d1devicecontext1"]
 old-location: direct2d\id2d1devicecontext1.htm
 tech.root: Direct2D
 ms.assetid: E08FDAE4-05D3-472C-9AD9-228BAF989F1D

@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_GET_BOOT_AREA_INFO
 title: FSCTL_GET_BOOT_AREA_INFO
-description: Retrieves the locations of boot sectors for a volume.
+description: Retrieves the locations of boot sectors for a volume.helpviewer_keywords: ["FSCTL_GET_BOOT_AREA_INFO","FSCTL_GET_BOOT_AREA_INFO control","FSCTL_GET_BOOT_AREA_INFO control code [Files]","fs.fsctl_get_boot_area_info","winioctl/FSCTL_GET_BOOT_AREA_INFO"]
 old-location: fs\fsctl_get_boot_area_info.htm
 tech.root: FileIO
 ms.assetid: 5739354b-5342-4be9-ac50-bb983d51587c

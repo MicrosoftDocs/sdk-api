@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetCurrentPackagePath2
 title: GetCurrentPackagePath2
-description: Gets the package path for the calling process.
+description: Gets the package path for the calling process.helpviewer_keywords: ["GetCurrentPackagePath2"]
 tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: GetCurrentPackagePath2

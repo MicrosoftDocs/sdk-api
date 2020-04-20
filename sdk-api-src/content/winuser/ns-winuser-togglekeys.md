@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagTOGGLEKEYS
 title: TOGGLEKEYS (winuser.h)
-description: Contains information about the ToggleKeys accessibility feature.
+description: Contains information about the ToggleKeys accessibility feature.helpviewer_keywords: ["*LPTOGGLEKEYS","LPTOGGLEKEYS","LPTOGGLEKEYS structure pointer [Windows Accessibility]","TKF_AVAILABLE","TKF_CONFIRMHOTKEY","TKF_HOTKEYACTIVE","TKF_HOTKEYSOUND","TKF_INDICATOR","TKF_TOGGLEKEYSON","TOGGLEKEYS","TOGGLEKEYS structure [Windows Accessibility]","_win32_TOGGLEKEYS_str","msaa.togglekeys","tagTOGGLEKEYS","winauto.togglekeys","winuser/LPTOGGLEKEYS","winuser/TOGGLEKEYS"]
 old-location: winauto\togglekeys.htm
 tech.root: WinAuto
 ms.assetid: 85ebc8c2-ac0b-45f2-aee5-11ec4ba582b7

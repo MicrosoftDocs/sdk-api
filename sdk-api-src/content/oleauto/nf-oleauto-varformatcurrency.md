@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarFormatCurrency
 title: VarFormatCurrency function (oleauto.h)
-description: Formats a variant containing currency values into a string form.
+description: Formats a variant containing currency values into a string form.helpviewer_keywords: ["VarFormatCurrency","VarFormatCurrency function [Automation]","_oa96_VarFormatCurrency","automat.varformatcurrency","oleauto/VarFormatCurrency"]
 old-location: automat\varformatcurrency.htm
 tech.root: automat
 ms.assetid: a0ad0c42-1b61-4421-9ea6-a256812bb342

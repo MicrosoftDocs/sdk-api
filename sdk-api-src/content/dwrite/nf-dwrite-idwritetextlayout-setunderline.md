@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetUnderline
 title: IDWriteTextLayout::SetUnderline (dwrite.h)
-description: Sets underlining for text within a specified text range.
+description: Sets underlining for text within a specified text range.helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetUnderline method","IDWriteTextLayout.SetUnderline","IDWriteTextLayout::SetUnderline","SetUnderline","SetUnderline method [Direct Write]","SetUnderline method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetUnderline","dwrite/IDWriteTextLayout::SetUnderline"]
 old-location: directwrite\IDWriteTextLayout_SetUnderline.htm
 tech.root: DirectWrite
 ms.assetid: 677bb4e2-4ae9-4e79-96a3-d4961e317886

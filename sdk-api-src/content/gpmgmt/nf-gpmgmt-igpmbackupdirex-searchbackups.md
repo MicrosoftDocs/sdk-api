@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMBackupDirEx.SearchBackups
 title: IGPMBackupDirEx::SearchBackups (gpmgmt.h)
-description: Executes a search for a GPMBackup object or an IGPMStarterGPOBackup interface according to the specified criteria, and returns a GPMBackupCollection or GPMStarterGPOBackupCollection object.
+description: Executes a search for a GPMBackup object or an IGPMStarterGPOBackup interface according to the specified criteria, and returns a GPMBackupCollection or GPMStarterGPOBackupCollection object.helpviewer_keywords: ["GPMBackupDirEx object [GPMC]","SearchBackups method","IGPMBackupDirEx interface [GPMC]","SearchBackups method","IGPMBackupDirEx.SearchBackups","IGPMBackupDirEx::SearchBackups","SearchBackups","SearchBackups method [GPMC]","SearchBackups method [GPMC]","GPMBackupDirEx object","SearchBackups method [GPMC]","IGPMBackupDirEx interface","backupMostRecent","gpmc.igpmbackupdirex_searchbackups","gpmgmt/IGPMBackupDirEx::SearchBackups","gpoDisplayName","gpoDomain","gpoID"]
 old-location: gpmc\igpmbackupdirex_searchbackups.htm
 tech.root: gpmc
 ms.assetid: e45f012e-ce88-4baf-88a2-bd61e365b291

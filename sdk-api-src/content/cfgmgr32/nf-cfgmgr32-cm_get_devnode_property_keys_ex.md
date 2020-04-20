@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Get_DevNode_Property_Keys_Ex
 title: CM_Get_DevNode_Property_Keys_Ex function (cfgmgr32.h)
-description: The CM_Get_DevNode_Property_Keys_Ex function retrieves an array of the device property keys that represent the device properties that are set for a device instance.
+description: The CM_Get_DevNode_Property_Keys_Ex function retrieves an array of the device property keys that represent the device properties that are set for a device instance.helpviewer_keywords: ["CM_Get_DevNode_Property_Keys_Ex","CM_Get_DevNode_Property_Keys_Ex function [Device and Driver Installation]","cfgmgr32/CM_Get_DevNode_Property_Keys_Ex","devinst.cm_get_devnode_property_keys_ex"]
 old-location: devinst\cm_get_devnode_property_keys_ex.htm
 tech.root: devinst
 ms.assetid: E73358D5-7C7E-4D66-A7E7-566BBDC75ED0

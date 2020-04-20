@@ -1,7 +1,7 @@
 ---
 UID: NS:wincodec.WICRawCapabilitiesInfo
 title: WICRawCapabilitiesInfo (wincodec.h)
-description: Defines raw codec capabilites.
+description: Defines raw codec capabilites.helpviewer_keywords: ["WICRawCapabilitiesInfo","WICRawCapabilitiesInfo structure [Windows Imaging Component]","_wic_codec_wicrawcapabilitiesinfo","wic._wic_codec_wicrawcapabilitiesinfo","wincodec/WICRawCapabilitiesInfo"]
 old-location: wic\_wic_codec_wicrawcapabilitiesinfo.htm
 tech.root: wic
 ms.assetid: 1466cd90-8eab-4c5c-bb77-c75d35fe586b

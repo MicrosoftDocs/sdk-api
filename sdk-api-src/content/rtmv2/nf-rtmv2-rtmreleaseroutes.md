@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmReleaseRoutes
 title: RtmReleaseRoutes function (rtmv2.h)
-description: The RtmReleaseRoutes function releases the route handles.
+description: The RtmReleaseRoutes function releases the route handles.helpviewer_keywords: ["RtmReleaseRoutes","RtmReleaseRoutes function [RAS]","_rtmv2ref_rtmreleaseroutes","rras.rtmreleaseroutes","rtmv2/RtmReleaseRoutes"]
 old-location: rras\rtmreleaseroutes.htm
 tech.root: RRAS
 ms.assetid: 4c893144-a2c5-4dc8-83c1-cae0d3024505

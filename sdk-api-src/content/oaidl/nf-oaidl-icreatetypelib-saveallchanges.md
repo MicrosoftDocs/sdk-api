@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SaveAllChanges
 title: ICreateTypeLib::SaveAllChanges (oaidl.h)
-description: Saves the ICreateTypeLib instance following the layout of type information.
+description: Saves the ICreateTypeLib instance following the layout of type information.helpviewer_keywords: ["ICreateTypeLib interface [Automation]","SaveAllChanges method","ICreateTypeLib.SaveAllChanges","ICreateTypeLib::SaveAllChanges","SaveAllChanges","SaveAllChanges method [Automation]","SaveAllChanges method [Automation]","ICreateTypeLib interface","_oa96_ICreateTypeLib_SaveAllChanges","automat.icreatetypelib_saveallchanges","oaidl/ICreateTypeLib::SaveAllChanges"]
 old-location: automat\icreatetypelib_saveallchanges.htm
 tech.root: automat
 ms.assetid: 67824f38-e515-487e-8f4b-6682a5ac669c

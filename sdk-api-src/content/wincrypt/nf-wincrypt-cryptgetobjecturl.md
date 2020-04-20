@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptGetObjectUrl
 title: CryptGetObjectUrl function (wincrypt.h)
-description: Acquires the URL of the remote object from a certificate, certificate trust list (CTL), or certificate revocation list (CRL).
+description: Acquires the URL of the remote object from a certificate, certificate trust list (CTL), or certificate revocation list (CRL).helpviewer_keywords: ["CRYPT_GET_URL_FROM_AUTH_ATTRIBUTE","CRYPT_GET_URL_FROM_EXTENSION","CRYPT_GET_URL_FROM_PROPERTY","CRYPT_GET_URL_FROM_UNAUTH_ATTRIBUTE","CryptGetObjectUrl","CryptGetObjectUrl function [Security]","URL_OID_CERTIFICATE_CRL_DIST_POINT","URL_OID_CERTIFICATE_CRL_DIST_POINT_AND_OCSP","URL_OID_CERTIFICATE_FRESHEST_CRL","URL_OID_CERTIFICATE_ISSUER","URL_OID_CERTIFICATE_OCSP","URL_OID_CERTIFICATE_OCSP_AND_CRL_DIST_POINT","URL_OID_CERTIFICATE_ONLY_OCSP","URL_OID_CRL_FRESHEST_CRL","URL_OID_CRL_ISSUER","URL_OID_CROSS_CERT_DIST_POINT","URL_OID_CROSS_CERT_SUBJECT_INFO_ACCESS","URL_OID_CTL_ISSUER","URL_OID_CTL_NEXT_UPDATE","_crypto2_cryptgetobjecturl","security.cryptgetobjecturl","wincrypt/CryptGetObjectUrl"]
 old-location: security\cryptgetobjecturl.htm
 tech.root: SecCrypto
 ms.assetid: a92117b8-9144-4480-b88a-b9ffe1026d63

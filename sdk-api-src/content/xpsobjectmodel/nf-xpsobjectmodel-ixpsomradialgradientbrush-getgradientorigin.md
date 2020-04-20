@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetGradientOrigin
 title: IXpsOMRadialGradientBrush::GetGradientOrigin (xpsobjectmodel.h)
-description: Gets the origin point of the radial gradient.
+description: Gets the origin point of the radial gradient.helpviewer_keywords: ["GetGradientOrigin","GetGradientOrigin method [XPS Documents and Packaging]","GetGradientOrigin method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","GetGradientOrigin method","IXpsOMRadialGradientBrush.GetGradientOrigin","IXpsOMRadialGradientBrush::GetGradientOrigin","xps.ixpsomradialgradientbrush_getgradientorigin","xpsobjectmodel/IXpsOMRadialGradientBrush::GetGradientOrigin"]
 old-location: xps\ixpsomradialgradientbrush_getgradientorigin.htm
 tech.root: printdocs
 ms.assetid: 44e55c42-a18b-45dd-aa92-b9336eedd9ad

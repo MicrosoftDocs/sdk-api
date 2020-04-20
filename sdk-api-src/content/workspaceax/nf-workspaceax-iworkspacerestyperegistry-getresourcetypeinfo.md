@@ -1,7 +1,7 @@
 ---
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.GetResourceTypeInfo
 title: IWorkspaceResTypeRegistry::GetResourceTypeInfo (workspaceax.h)
-description: Retrieves information about a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.
+description: Retrieves information about a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.helpviewer_keywords: ["GetResourceTypeInfo","GetResourceTypeInfo method [Remote Desktop Services]","GetResourceTypeInfo method [Remote Desktop Services]","IWorkspaceResTypeRegistry interface","GetResourceTypeInfo method [Remote Desktop Services]","Workspace object","IWorkspaceResTypeRegistry interface [Remote Desktop Services]","GetResourceTypeInfo method","IWorkspaceResTypeRegistry.GetResourceTypeInfo","IWorkspaceResTypeRegistry::GetResourceTypeInfo","Workspace object [Remote Desktop Services]","GetResourceTypeInfo method","termserv.iworkspacerestyperegistry_getresourcetypeinfo","workspaceax/IWorkspaceResTypeRegistry::GetResourceTypeInfo"]
 old-location: termserv\iworkspacerestyperegistry_getresourcetypeinfo.htm
 tech.root: TermServ
 ms.assetid: 60fa6676-c098-41b6-bebd-0a600ca37954

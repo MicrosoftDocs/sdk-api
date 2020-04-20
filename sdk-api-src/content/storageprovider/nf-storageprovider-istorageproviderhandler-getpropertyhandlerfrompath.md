@@ -1,7 +1,7 @@
 ---
 UID: NF:storageprovider.IStorageProviderHandler.GetPropertyHandlerFromPath
 title: IStorageProviderHandler::GetPropertyHandlerFromPath (storageprovider.h)
-description: Gets an instance of IStorageProviderPropertyHandler associated with the provided path.
+description: Gets an instance of IStorageProviderPropertyHandler associated with the provided path.helpviewer_keywords: ["GetPropertyHandlerFromPath","GetPropertyHandlerFromPath method [Windows Shell]","GetPropertyHandlerFromPath method [Windows Shell]","IStorageProviderHandler interface","IStorageProviderHandler interface [Windows Shell]","GetPropertyHandlerFromPath method","IStorageProviderHandler.GetPropertyHandlerFromPath","IStorageProviderHandler::GetPropertyHandlerFromPath","shell.istorageproviderhandler_getpropertyhandlerfrompath","storageprovider/IStorageProviderHandler::GetPropertyHandlerFromPath"]
 old-location: shell\istorageproviderhandler_getpropertyhandlerfrompath.htm
 tech.root: shell
 ms.assetid: E02B43AC-73A8-4FD0-BC54-47922CA5EEDB

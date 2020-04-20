@@ -1,7 +1,7 @@
 ---
 UID: NS:credssp._CREDSSP_CRED
 title: CREDSSP_CRED (credssp.h)
-description: Specifies authentication data for both Schannel and Negotiate security packages.
+description: Specifies authentication data for both Schannel and Negotiate security packages.helpviewer_keywords: ["*PCREDSSP_CRED","CREDSSP_CRED","CREDSSP_CRED structure [Security]","PCREDSSP_CRED","PCREDSSP_CRED structure pointer [Security]","credssp/CREDSSP_CRED","credssp/PCREDSSP_CRED","security.credssp_cred"]
 old-location: security\credssp_cred.htm
 tech.root: SecAuthN
 ms.assetid: b22bd22c-e6e1-4817-b5cf-ab49f574e75f

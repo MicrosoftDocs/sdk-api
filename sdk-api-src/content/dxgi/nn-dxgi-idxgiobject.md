@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi.IDXGIObject
 title: IDXGIObject (dxgi.h)
-description: An IDXGIObject interface is a base interface for all DXGI objects; IDXGIObject supports associating caller-defined (private data) with an object and retrieval of an interface to the parent object.
+description: An IDXGIObject interface is a base interface for all DXGI objects; IDXGIObject supports associating caller-defined (private data) with an object and retrieval of an interface to the parent object.helpviewer_keywords: ["IDXGIObject","IDXGIObject interface [DXGI]","IDXGIObject interface [DXGI]","described","ae721ac9-3ed3-d7ef-07a7-3f3acbb19dcd","direct3ddxgi.idxgiobject","dxgi/IDXGIObject"]
 old-location: direct3ddxgi\idxgiobject.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject.htm

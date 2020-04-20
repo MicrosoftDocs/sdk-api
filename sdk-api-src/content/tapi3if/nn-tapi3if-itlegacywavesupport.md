@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.ITLegacyWaveSupport
 title: ITLegacyWaveSupport (tapi3if.h)
-description: The ITLegacyWaveSupport interface allows an application to discover whether a terminal created by a legacy TSP (pre-TAPI 3) can be controlled using the Wave API.
+description: The ITLegacyWaveSupport interface allows an application to discover whether a terminal created by a legacy TSP (pre-TAPI 3) can be controlled using the Wave API.helpviewer_keywords: ["ITLegacyWaveSupport","ITLegacyWaveSupport interface [TAPI 2.2]","ITLegacyWaveSupport interface [TAPI 2.2]","described","_tapi3_itlegacywavesupport","tapi3.itlegacywavesupport","tapi3if/ITLegacyWaveSupport"]
 old-location: tapi3\itlegacywavesupport.htm
 tech.root: Tapi
 ms.assetid: f1ef5f5d-822d-466d-997e-e9c1a09abcbe

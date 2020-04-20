@@ -1,7 +1,7 @@
 ---
 UID: NN:mobsync.ISyncMgrSynchronize
 title: ISyncMgrSynchronize (mobsync.h)
-description: Exposes methods that enable the registered application or service to receive notifications from the synchronization manager.
+description: Exposes methods that enable the registered application or service to receive notifications from the synchronization manager.helpviewer_keywords: ["ISyncMgrSynchronize","ISyncMgrSynchronize interface [Windows Shell]","ISyncMgrSynchronize interface [Windows Shell]","described","mobsync/ISyncMgrSynchronize","shell.syncmgr_isyncmgrsynchronize","syncmgr.isyncmgrsynchronize"]
 old-location: shell\syncmgr_isyncmgrsynchronize.htm
 tech.root: shell
 ms.assetid: bb821672-10b1-4fe6-a752-6cd1ccd1e49e

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11_2.D3D11_TILE_SHAPE
 title: D3D11_TILE_SHAPE (d3d11_2.h)
-description: Describes the shape of a tile by specifying its dimensions.
+description: Describes the shape of a tile by specifying its dimensions.helpviewer_keywords: ["D3D11_TILE_SHAPE","D3D11_TILE_SHAPE structure [Direct3D 11]","d3d11_2/D3D11_TILE_SHAPE","direct3d11.d3d11_tile_shape"]
 old-location: direct3d11\d3d11_tile_shape.htm
 tech.root: direct3d11
 ms.assetid: B4B9D82C-2890-4CC4-AB5C-026FBD931B4E

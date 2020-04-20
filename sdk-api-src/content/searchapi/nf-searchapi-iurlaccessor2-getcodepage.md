@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IUrlAccessor2.GetCodePage
 title: IUrlAccessor2::GetCodePage (searchapi.h)
-description: Gets the code page for properties of the URL item.
+description: Gets the code page for properties of the URL item.helpviewer_keywords: ["GetCodePage","GetCodePage method [search]","GetCodePage method [search]","IUrlAccessor2 interface","GetCodePage method [search]","IUrlAccessor4 interface","IUrlAccessor2 interface [search]","GetCodePage method","IUrlAccessor2.GetCodePage","IUrlAccessor2::GetCodePage","IUrlAccessor4 interface [search]","GetCodePage method","IUrlAccessor4::GetCodePage","_search_IUrlAccessor2_GetCodePage","search._search_IUrlAccessor2_GetCodePage","searchapi/IUrlAccessor2::GetCodePage","searchapi/IUrlAccessor4::GetCodePage"]
 old-location: search\_search_IUrlAccessor2_GetCodePage.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\getcodepage.htm

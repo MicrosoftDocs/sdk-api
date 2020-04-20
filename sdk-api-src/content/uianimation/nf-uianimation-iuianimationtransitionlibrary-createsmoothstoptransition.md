@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateSmoothStopTransition
 title: IUIAnimationTransitionLibrary::CreateSmoothStopTransition (uianimation.h)
-description: Creates a smooth-stop transition.
+description: Creates a smooth-stop transition.helpviewer_keywords: ["CreateSmoothStopTransition","CreateSmoothStopTransition method [Windows Animation]","CreateSmoothStopTransition method [Windows Animation]","IUIAnimationTransitionLibrary interface","IUIAnimationTransitionLibrary interface [Windows Animation]","CreateSmoothStopTransition method","IUIAnimationTransitionLibrary.CreateSmoothStopTransition","IUIAnimationTransitionLibrary::CreateSmoothStopTransition","uianimation.iuianimationtransitionlibrary_createsmoothstoptransition","uianimation/IUIAnimationTransitionLibrary::CreateSmoothStopTransition"]
 old-location: uianimation\iuianimationtransitionlibrary_createsmoothstoptransition.htm
 tech.root: UIAnimation
 ms.assetid: fce15425-5529-4ebf-9961-7e125cc64edb

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPaletteSize
 title: Image::GetPaletteSize (gdiplusheaders.h)
-description: The Image::GetPaletteSize method gets the size, in bytes, of the color palette of this Image object.
+description: The Image::GetPaletteSize method gets the size, in bytes, of the color palette of this Image object.helpviewer_keywords: ["GetPaletteSize","GetPaletteSize method [GDI+]","GetPaletteSize method [GDI+]","Image class","Image class [GDI+]","GetPaletteSize method","Image.GetPaletteSize","Image::GetPaletteSize","_gdiplus_CLASS_Image_GetPaletteSize_","gdiplus._gdiplus_CLASS_Image_GetPaletteSize_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPaletteSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpalettesize.htm

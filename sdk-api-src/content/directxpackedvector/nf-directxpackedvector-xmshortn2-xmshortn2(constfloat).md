@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMSHORTN2.XMSHORTN2(const float)
 title: XMSHORTN2::XMSHORTN2(const float) (directxpackedvector.h)
-description: Initializes a new instance of XMSHORTN2 from a two element float array argument.
+description: Initializes a new instance of XMSHORTN2 from a two element float array argument.helpviewer_keywords: ["XMSHORTN2","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 structure","XMSHORTN2 structure [DirectX Math Support APIs]","XMSHORTN2 constructor","XMSHORTN2.XMSHORTN2","XMSHORTN2.XMSHORTN2()","XMSHORTN2.XMSHORTN2(const float)","XMSHORTN2::XMSHORTN2","XMSHORTN2::XMSHORTN2(const float)","dxmath.xmshortn2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: ff110a88-4c5e-4f1a-b04e-c8aa8e00d2b8

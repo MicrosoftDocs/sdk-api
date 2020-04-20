@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpAuditLogSetParams
 title: DhcpAuditLogSetParams function (dhcpsapi.h)
-description: Sets the parameters for audit log generation on a DHCP server.
+description: Sets the parameters for audit log generation on a DHCP server.helpviewer_keywords: ["DhcpAuditLogSetParams","DhcpAuditLogSetParams function [DHCP]","dhcp.dhcpauditlogsetparams","dhcpsapi/DhcpAuditLogSetParams"]
 old-location: dhcp\dhcpauditlogsetparams.htm
 tech.root: DHCP
 ms.assetid: ea7fc321-3e7c-4d1f-9a39-6a25d0d1c5b2

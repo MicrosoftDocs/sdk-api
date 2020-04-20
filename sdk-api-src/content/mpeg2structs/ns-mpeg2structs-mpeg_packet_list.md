@@ -1,7 +1,7 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0015
 title: MPEG_PACKET_LIST (mpeg2structs.h)
-description: The MPEG_PACKET_LIST structure contains a list of MPEG-2 sections.
+description: The MPEG_PACKET_LIST structure contains a list of MPEG-2 sections.helpviewer_keywords: ["*PMPEG_PACKET_LIST","MPEG_PACKET_LIST","MPEG_PACKET_LIST structure [Microsoft TV Technologies]","PMPEG_PACKET_LIST","PMPEG_PACKET_LIST structure pointer [Microsoft TV Technologies]","mpeg2structs/MPEG_PACKET_LIST","mpeg2structs/PMPEG_PACKET_LIST","mstv.mpeg_packet_list"]
 old-location: mstv\mpeg_packet_list.htm
 tech.root: mstv
 ms.assetid: 83131e71-3e06-4d42-9f71-f2da95400b63

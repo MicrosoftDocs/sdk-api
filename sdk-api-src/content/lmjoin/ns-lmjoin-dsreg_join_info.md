@@ -1,7 +1,7 @@
 ---
 UID: NS:lmjoin._DSREG_JOIN_INFO
 title: DSREG_JOIN_INFO (lmjoin.h)
-description: Contains information about how a device is joined to Microsoft Azure Active Directory.
+description: Contains information about how a device is joined to Microsoft Azure Active Directory.helpviewer_keywords: ["*PDSREG_JOIN_INFO","DSREG_JOIN_INFO","DSREG_JOIN_INFO structure [Network Management]","PDSREG_JOIN_INFO","PDSREG_JOIN_INFO structure pointer [Network Management]","lmjoin/DSREG_JOIN_INFO","lmjoin/PDSREG_JOIN_INFO","netmgmt.dsreg_join_info"]
 old-location: netmgmt\dsreg_join_info.htm
 tech.root: NetMgmt
 ms.assetid: 9B0F7BE3-BDCD-437E-9157-9A646A2A20E2

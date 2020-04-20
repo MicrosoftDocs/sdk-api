@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFAudioStreamVolume.GetChannelVolume
 title: IMFAudioStreamVolume::GetChannelVolume (mfidl.h)
-description: Retrieves the volume level for a specified channel in the audio stream.
+description: Retrieves the volume level for a specified channel in the audio stream.helpviewer_keywords: ["5cfcc3a8-2911-45a3-8322-bf4e3b023dd2","GetChannelVolume","GetChannelVolume method [Media Foundation]","GetChannelVolume method [Media Foundation]","IMFAudioStreamVolume interface","IMFAudioStreamVolume interface [Media Foundation]","GetChannelVolume method","IMFAudioStreamVolume.GetChannelVolume","IMFAudioStreamVolume::GetChannelVolume","mf.imfaudiostreamvolume_getchannelvolume","mfidl/IMFAudioStreamVolume::GetChannelVolume"]
 old-location: mf\imfaudiostreamvolume_getchannelvolume.htm
 tech.root: medfound
 ms.assetid: 5cfcc3a8-2911-45a3-8322-bf4e3b023dd2

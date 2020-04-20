@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsWriteMessageEnd
 title: WsWriteMessageEnd function (webservices.h)
-description: Write the closing elements of the message to the channel.
+description: Write the closing elements of the message to the channel.helpviewer_keywords: ["WsWriteMessageEnd","WsWriteMessageEnd function [Web Services for Windows]","webservices/WsWriteMessageEnd","wsw.wswritemessageend"]
 old-location: wsw\wswritemessageend.htm
 tech.root: wsw
 ms.assetid: 329193a7-932a-46d0-8e46-eef6bbdb8fa2

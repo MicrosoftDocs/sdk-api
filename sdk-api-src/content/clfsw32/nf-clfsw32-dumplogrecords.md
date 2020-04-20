@@ -1,7 +1,7 @@
 ---
 UID: NF:clfsw32.DumpLogRecords
 title: DumpLogRecords function (clfsw32.h)
-description: Scans a specified log; filters log records based on record type; and places the records in an output file stream that the caller opens.
+description: Scans a specified log; filters log records based on record type; and places the records in an output file stream that the caller opens.helpviewer_keywords: ["ClfsClientRecord","ClfsDataRecord","ClfsNullRecord","ClfsRestartRecord","DumpLogRecords","DumpLogRecords function [Files]","clfsw32/DumpLogRecords","fs.dumplogrecords"]
 old-location: fs\dumplogrecords.htm
 tech.root: Clfs
 ms.assetid: 221b701b-93d5-4ff3-ae6d-c1b980064629

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector4EqualInt
 title: XMVector4EqualInt function (directxmath.h)
-description: Tests whether two 4D vectors are equal, treating each component as an unsigned integer.
+description: Tests whether two 4D vectors are equal, treating each component as an unsigned integer.helpviewer_keywords: ["Use DirectX..XMVector4EqualInt","XMVector4EqualInt","XMVector4EqualInt method [DirectX Math Support APIs]","dxmath.xmvector4equalint"]
 old-location: dxmath\xmvector4equalint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4EqualInt(XMVECTOR,XMVECTOR)

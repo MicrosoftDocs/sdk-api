@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetTextCharacterExtra
 title: GetTextCharacterExtra function (wingdi.h)
-description: The GetTextCharacterExtra function retrieves the current intercharacter spacing for the specified device context.
+description: The GetTextCharacterExtra function retrieves the current intercharacter spacing for the specified device context.helpviewer_keywords: ["GetTextCharacterExtra","GetTextCharacterExtra function [Windows GDI]","_win32_GetTextCharacterExtra","gdi.gettextcharacterextra","wingdi/GetTextCharacterExtra"]
 old-location: gdi\gettextcharacterextra.htm
 tech.root: gdi
 ms.assetid: 44d5145d-1c42-429e-89c4-dc31d275bc73

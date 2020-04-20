@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.CallbackMayRunLong
 title: CallbackMayRunLong function (threadpoolapiset.h)
-description: Indicates that the callback may not return quickly.
+description: Indicates that the callback may not return quickly.helpviewer_keywords: ["CallbackMayRunLong","CallbackMayRunLong function","base.callbackmayrunlong","threadpoolapiset/CallbackMayRunLong","winbase/CallbackMayRunLong"]
 old-location: base\callbackmayrunlong.htm
 tech.root: ProcThread
 ms.assetid: 59364b91-d78b-46e2-b298-42f77e712577

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.Intersects~r1
 title: Intersects
-description: Test whether two triangles intersect.
+description: Test whether two triangles intersect.helpviewer_keywords: ["Intersects"]
 ms.date: 04/22/19
 ms.keywords: Intersects
 f1_keywords:

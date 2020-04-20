@@ -1,7 +1,7 @@
 ---
 UID: NF:winml.IWinMLModel.GetDescription
 title: IWinMLModel::GetDescription (winml.h)
-description: Retrieves the WinML model description.
+description: Retrieves the WinML model description.helpviewer_keywords: ["GetDescription","GetDescription method","GetDescription method","IWinMLModel interface","IWinMLModel interface","GetDescription method","IWinMLModel.GetDescription","IWinMLModel::GetDescription","MachineLearning.iwinmlmodel_getdescription","winml/IWinMLModel::GetDescription"]
 old-location: machinelearning\iwinmlmodel_getdescription.htm
 tech.root: MachineLearning
 ms.assetid: 57B05316-8E6B-4490-B181-EB1717B15E31

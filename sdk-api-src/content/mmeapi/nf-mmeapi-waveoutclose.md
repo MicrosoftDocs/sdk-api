@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.waveOutClose
 title: waveOutClose function (mmeapi.h)
-description: The waveOutClose function closes the given waveform-audio output device.
+description: The waveOutClose function closes the given waveform-audio output device.helpviewer_keywords: ["_win32_waveOutClose","mmeapi/waveOutClose","multimedia.waveoutclose","waveOutClose","waveOutClose function [Windows Multimedia]"]
 old-location: multimedia\waveoutclose.htm
 tech.root: Multimedia
 ms.assetid: 582669bf-9a43-453d-9458-9cd4b4dfcb6d

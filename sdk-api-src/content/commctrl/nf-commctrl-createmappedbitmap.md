@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.CreateMappedBitmap
 title: CreateMappedBitmap function (commctrl.h)
-description: Creates a bitmap for use in a toolbar.
+description: Creates a bitmap for use in a toolbar.helpviewer_keywords: ["CMB_MASKED","CreateMappedBitmap","CreateMappedBitmap function [Windows Controls]","_win32_CreateMappedBitmap","_win32_CreateMappedBitmap_cpp","commctrl/CreateMappedBitmap","controls.CreateMappedBitmap","controls._win32_CreateMappedBitmap"]
 old-location: controls\CreateMappedBitmap.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\functions\createmappedbitmap.htm

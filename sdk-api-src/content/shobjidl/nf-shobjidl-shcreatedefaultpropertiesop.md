@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.SHCreateDefaultPropertiesOp
 title: SHCreateDefaultPropertiesOp function (shobjidl.h)
-description: Creates a file operation that sets the default properties on the Shell item that have not already been set.
+description: Creates a file operation that sets the default properties on the Shell item that have not already been set.helpviewer_keywords: ["SHCreateDefaultPropertiesOp","SHCreateDefaultPropertiesOp function [Windows Shell]","_shell_SHCreateDefaultPropertiesOp","shell.SHCreateDefaultPropertiesOp","shobjidl/SHCreateDefaultPropertiesOp"]
 old-location: shell\SHCreateDefaultPropertiesOp.htm
 tech.root: shell
 ms.assetid: 5202ac48-16e7-4d64-8a69-2493036e1e11

@@ -1,7 +1,7 @@
 ---
 UID: NS:mfobjects.__MFAYUVSample
 title: MFAYUVSample (mfobjects.h)
-description: Describes a 4:4:4:4 Y'Cb'Cr' sample.
+description: Describes a 4:4:4:4 Y'Cb'Cr' sample.helpviewer_keywords: ["9784b561-3b87-4df9-a434-55e12f97b05a","MFAYUVSample","MFAYUVSample structure [Media Foundation]","mf.mfayuvsample","mfobjects/MFAYUVSample"]
 old-location: mf\mfayuvsample.htm
 tech.root: medfound
 ms.assetid: 9784b561-3b87-4df9-a434-55e12f97b05a

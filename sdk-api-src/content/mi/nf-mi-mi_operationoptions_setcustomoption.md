@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetCustomOption
 title: MI_OperationOptions_SetCustomOption function (mi.h)
-description: Sets a custom option for the operation.
+description: Sets a custom option for the operation.helpviewer_keywords: ["MI_OperationOptions_SetCustomOption","MI_OperationOptions_SetCustomOption function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_SetCustomOption","wmi_v2.mi_operationoptions_setcustomoption"]
 old-location: wmi_v2\mi_operationoptions_setcustomoption.htm
 tech.root: wmi_v2
 ms.assetid: 5db96e9e-dd81-4b62-a555-770b781d0ed3

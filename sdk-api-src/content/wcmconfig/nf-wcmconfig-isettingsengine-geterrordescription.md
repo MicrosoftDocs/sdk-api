@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetErrorDescription
 title: ISettingsEngine::GetErrorDescription (wcmconfig.h)
-description: Retrieves a text message for a returned HRESULT code.
+description: Retrieves a text message for a returned HRESULT code.helpviewer_keywords: ["GetErrorDescription","GetErrorDescription method [SMI]","GetErrorDescription method [SMI]","ISettingsEngine interface","ISettingsEngine interface [SMI]","GetErrorDescription method","ISettingsEngine.GetErrorDescription","ISettingsEngine::GetErrorDescription","smi.isettingsengine_geterrordescription","wcmconfig/ISettingsEngine::GetErrorDescription"]
 old-location: smi\isettingsengine_geterrordescription.htm
 tech.root: SMI
 ms.assetid: 1a1ac3eb-c2d5-4a23-928e-51ef1a52ad73

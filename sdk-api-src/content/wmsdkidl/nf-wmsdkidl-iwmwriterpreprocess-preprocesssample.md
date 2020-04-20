@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.PreprocessSample
 title: IWMWriterPreprocess::PreprocessSample (wmsdkidl.h)
-description: The PreprocessSample method delivers a sample to the writer for preprocessing.
+description: The PreprocessSample method delivers a sample to the writer for preprocessing.helpviewer_keywords: ["IWMWriterPreprocess interface [windows Media Format]","PreprocessSample method","IWMWriterPreprocess.PreprocessSample","IWMWriterPreprocess::PreprocessSample","IWMWriterPreprocessPreprocessSample","PreprocessSample","PreprocessSample method [windows Media Format]","PreprocessSample method [windows Media Format]","IWMWriterPreprocess interface","wmformat.iwmwriterpreprocess_preprocesssample","wmsdkidl/IWMWriterPreprocess::PreprocessSample"]
 old-location: wmformat\iwmwriterpreprocess_preprocesssample.htm
 tech.root: wmformat
 ms.assetid: 95223ace-0c74-48d8-b49a-98b27c7b735f

@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvDeleteDeviceBitmap
 title: DrvDeleteDeviceBitmap function (winddi.h)
-description: The DrvDeleteDeviceBitmap function deletes a device bitmap created by DrvCreateDeviceBitmap.
+description: The DrvDeleteDeviceBitmap function deletes a device bitmap created by DrvCreateDeviceBitmap.helpviewer_keywords: ["DrvDeleteDeviceBitmap","DrvDeleteDeviceBitmap function [Display Devices]","ddifncs_3c8f9ccd-c145-481c-9d31-6a951557527d.xml","display.drvdeletedevicebitmap","winddi/DrvDeleteDeviceBitmap"]
 old-location: display\drvdeletedevicebitmap.htm
 tech.root: display
 ms.assetid: cb52b133-95c6-4a3d-b8b6-e1628a301542

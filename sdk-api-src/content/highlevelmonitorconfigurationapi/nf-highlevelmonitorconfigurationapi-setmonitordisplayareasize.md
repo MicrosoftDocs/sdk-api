@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorDisplayAreaSize
 title: SetMonitorDisplayAreaSize function (highlevelmonitorconfigurationapi.h)
-description: Sets the width or height of a monitor's display area.
+description: Sets the width or height of a monitor's display area.helpviewer_keywords: ["SetMonitorDisplayAreaSize","SetMonitorDisplayAreaSize function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize","monitor.setmonitordisplayareasize"]
 old-location: monitor\setmonitordisplayareasize.htm
 tech.root: Monitor
 ms.assetid: 0c3acb13-c5db-44ce-937d-b0b001a08062

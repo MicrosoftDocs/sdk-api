@@ -1,7 +1,7 @@
 ---
 UID: NS:oaidl.tagTYPEDESC
 title: TYPEDESC (oaidl.h)
-description: Describes the type of a variable, the return type of a function, or the type of a function parameter.
+description: Describes the type of a variable, the return type of a function, or the type of a function parameter.helpviewer_keywords: ["TYPEDESC","TYPEDESC structure [Automation]","_oa96_TYPEDESC","automat.typedesc","oaidl/TYPEDESC"]
 old-location: automat\typedesc.htm
 tech.root: automat
 ms.assetid: 45a8c5bf-c776-49da-8517-29055a5e74bc

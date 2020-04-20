@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngCreateWnd
 title: EngCreateWnd function (winddi.h)
-description: The EngCreateWnd function creates a WNDOBJ structure for the window referenced by hwnd.
+description: The EngCreateWnd function creates a WNDOBJ structure for the window referenced by hwnd.helpviewer_keywords: ["EngCreateWnd","EngCreateWnd function [Display Devices]","display.engcreatewnd","gdifncs_71294a09-97a4-41c5-9ddb-2295febc73a2.xml","winddi/EngCreateWnd"]
 old-location: display\engcreatewnd.htm
 tech.root: display
 ms.assetid: 14b1cced-32d0-4ba8-be7c-e626bef37e3f

@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._FsrmFileManagementType
 title: FsrmFileManagementType (fsrmenums.h)
-description: Defines the file management job types.
+description: Defines the file management job types.helpviewer_keywords: ["FsrmFileManagementType","FsrmFileManagementType enumeration [File Server Resource Manager]","FsrmFileManagementType_Custom","FsrmFileManagementType_Expiration","FsrmFileManagementType_Rms","FsrmFileManagementType_Unknown","fs.fsrmfilemanagementtype","fsrm.fsrmfilemanagementtype","fsrm/FsrmFileManagementType","fsrm/FsrmFileManagementType_Custom","fsrm/FsrmFileManagementType_Expiration","fsrm/FsrmFileManagementType_Rms","fsrm/FsrmFileManagementType_Unknown"]
 old-location: fsrm\fsrmfilemanagementtype.htm
 tech.root: fsrm
 ms.assetid: f4e352c7-32fe-4a42-9d64-604c29680d7d

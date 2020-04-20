@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetSnapsToPixels
 title: IXpsOMPath::SetSnapsToPixels (xpsobjectmodel.h)
-description: Sets a Boolean value that indicates whether the path will be snapped to device pixels when that path is being rendered.
+description: Sets a Boolean value that indicates whether the path will be snapped to device pixels when that path is being rendered.helpviewer_keywords: ["FALSE","IXpsOMPath interface [XPS Documents and Packaging]","SetSnapsToPixels method","IXpsOMPath.SetSnapsToPixels","IXpsOMPath::SetSnapsToPixels","SetSnapsToPixels","SetSnapsToPixels method [XPS Documents and Packaging]","SetSnapsToPixels method [XPS Documents and Packaging]","IXpsOMPath interface","TRUE","xps.ixpsompath_setsnapstopixels","xpsobjectmodel/IXpsOMPath::SetSnapsToPixels"]
 old-location: xps\ixpsompath_setsnapstopixels.htm
 tech.root: printdocs
 ms.assetid: 6b063829-3941-42be-bbe2-49b5a71b695a

@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorColorTemperature
 title: SetMonitorColorTemperature function (highlevelmonitorconfigurationapi.h)
-description: Sets a monitor's color temperature.
+description: Sets a monitor's color temperature.helpviewer_keywords: ["SetMonitorColorTemperature","SetMonitorColorTemperature function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorColorTemperature","monitor.setmonitorcolortemperature"]
 old-location: monitor\setmonitorcolortemperature.htm
 tech.root: Monitor
 ms.assetid: a7f2753c-810f-41e5-9378-4072e8d4bc38

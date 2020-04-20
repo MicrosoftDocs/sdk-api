@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetGUID
 title: ICreateErrorInfo::SetGUID (oaidl.h)
-description: Sets the globally unique identifier (GUID) of the interface that defined the error.
+description: Sets the globally unique identifier (GUID) of the interface that defined the error.helpviewer_keywords: ["ICreateErrorInfo interface [Automation]","SetGUID method","ICreateErrorInfo.SetGUID","ICreateErrorInfo::SetGUID","SetGUID","SetGUID method [Automation]","SetGUID method [Automation]","ICreateErrorInfo interface","_oa96_ICreateErrorInfo_SetGUID","automat.icreateerrorinfo_setguid","oaidl/ICreateErrorInfo::SetGUID"]
 old-location: automat\icreateerrorinfo_setguid.htm
 tech.root: automat
 ms.assetid: f7570ba3-d738-40d3-aefc-fbf6f4ca633e

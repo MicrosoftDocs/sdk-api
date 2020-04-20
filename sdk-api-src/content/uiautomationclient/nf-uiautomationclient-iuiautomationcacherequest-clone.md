@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.Clone
 title: IUIAutomationCacheRequest::Clone (uiautomationclient.h)
-description: Creates a copy of the cache request.
+description: Creates a copy of the cache request.helpviewer_keywords: ["Clone","Clone method [Windows Accessibility]","Clone method [Windows Accessibility]","IUIAutomationCacheRequest interface","IUIAutomationCacheRequest interface [Windows Accessibility]","Clone method","IUIAutomationCacheRequest.Clone","IUIAutomationCacheRequest::Clone","uiauto.uiauto_IUIAutomationCacheRequest_Clone","uiauto_IUIAutomationCacheRequest_Clone","uiautomationclient/IUIAutomationCacheRequest::Clone","winauto.uiauto_IUIAutomationCacheRequest_Clone"]
 old-location: winauto\uiauto_IUIAutomationCacheRequest_Clone.htm
 tech.root: WinAuto
 ms.assetid: e7ba5cb0-a4a5-4556-ba28-899e9635af5d

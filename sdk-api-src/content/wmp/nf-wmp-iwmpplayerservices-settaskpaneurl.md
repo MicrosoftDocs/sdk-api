@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPPlayerServices.setTaskPaneURL
 title: IWMPPlayerServices::setTaskPaneURL (wmp.h)
-description: This page documents a feature of the Windows Media Player 9 Series SDK and the Windows Media Player 10 SDK. It may be unavailable in subsequent versions.
+description: This page documents a feature of the Windows Media Player 9 Series SDK and the Windows Media Player 10 SDK. It may be unavailable in subsequent versions.helpviewer_keywords: ["IWMPPlayerServices interface [Windows Media Player]","setTaskPaneURL method","IWMPPlayerServices.setTaskPaneURL","IWMPPlayerServices::setTaskPaneURL","IWMPPlayerServicessetTaskPaneURLdeprecated","setTaskPaneURL","setTaskPaneURL method [Windows Media Player]","setTaskPaneURL method [Windows Media Player]","IWMPPlayerServices interface","wmp.iwmpplayerservices_settaskpaneurl","wmp/IWMPPlayerServices::setTaskPaneURL"]
 old-location: wmp\iwmpplayerservices_settaskpaneurl.htm
 tech.root: WMP
 ms.assetid: 4ceacaeb-09af-4cdf-84b7-04574a83ec48

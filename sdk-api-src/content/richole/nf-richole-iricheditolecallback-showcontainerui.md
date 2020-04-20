@@ -1,7 +1,7 @@
 ---
 UID: NF:richole.IRichEditOleCallback.ShowContainerUI
 title: IRichEditOleCallback::ShowContainerUI (richole.h)
-description: Indicates whether or not the application is to display its container UI.
+description: Indicates whether or not the application is to display its container UI.helpviewer_keywords: ["IRichEditOleCallback interface [Windows Controls]","ShowContainerUI method","IRichEditOleCallback.ShowContainerUI","IRichEditOleCallback::ShowContainerUI","ShowContainerUI","ShowContainerUI method [Windows Controls]","ShowContainerUI method [Windows Controls]","IRichEditOleCallback interface","_win32_IRichEditOleCallback_ShowContainerUI","_win32_IRichEditOleCallback_ShowContainerUI_cpp","controls.IRichEditOleCallback_ShowContainerUI","controls._win32_IRichEditOleCallback_ShowContainerUI","richole/IRichEditOleCallback::ShowContainerUI"]
 old-location: controls\IRichEditOleCallback_ShowContainerUI.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackshowcontainerui.htm

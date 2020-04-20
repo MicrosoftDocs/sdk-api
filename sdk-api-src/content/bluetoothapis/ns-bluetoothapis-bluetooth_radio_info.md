@@ -1,7 +1,7 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_RADIO_INFO
 title: BLUETOOTH_RADIO_INFO (bluetoothapis.h)
-description: Contains information about a Bluetooth radio.
+description: Contains information about a Bluetooth radio.helpviewer_keywords: ["*PBLUETOOTH_RADIO_INFO","BLUETOOTH_RADIO_INFO","BLUETOOTH_RADIO_INFO structure [Bluetooth]","bluetooth.bluetooth_radio_info","bluetoothapis/BLUETOOTH_RADIO_INFO"]
 old-location: bluetooth\bluetooth_radio_info.htm
 tech.root: bluetooth
 ms.assetid: 14440e02-ff2e-4fae-aac9-1b2fd936510e

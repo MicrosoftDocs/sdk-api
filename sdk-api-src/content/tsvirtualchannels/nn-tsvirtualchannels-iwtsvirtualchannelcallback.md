@@ -1,7 +1,7 @@
 ---
 UID: NN:tsvirtualchannels.IWTSVirtualChannelCallback
 title: IWTSVirtualChannelCallback (tsvirtualchannels.h)
-description: Receives notifications about channel state changes or data received.
+description: Receives notifications about channel state changes or data received.helpviewer_keywords: ["IWTSVirtualChannelCallback","IWTSVirtualChannelCallback interface [Remote Desktop Services]","IWTSVirtualChannelCallback interface [Remote Desktop Services]","described","termserv.iwtsvirtualchannelcallback","tsvirtualchannels/IWTSVirtualChannelCallback"]
 old-location: termserv\iwtsvirtualchannelcallback.htm
 tech.root: TermServ
 ms.assetid: d90c6f80-ed4c-4b99-af85-d2c5816ade85

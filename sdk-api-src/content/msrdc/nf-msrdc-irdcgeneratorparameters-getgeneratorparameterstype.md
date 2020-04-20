@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.GetGeneratorParametersType
 title: IRdcGeneratorParameters::GetGeneratorParametersType (msrdc.h)
-description: Returns the specific type of the parameters.
+description: Returns the specific type of the parameters.helpviewer_keywords: ["GetGeneratorParametersType","GetGeneratorParametersType method [Remote Differential Compression]","GetGeneratorParametersType method [Remote Differential Compression]","IRdcGeneratorParameters interface","IRdcGeneratorParameters interface [Remote Differential Compression]","GetGeneratorParametersType method","IRdcGeneratorParameters.GetGeneratorParametersType","IRdcGeneratorParameters::GetGeneratorParametersType","fs.irdcgeneratorparameters_getgeneratorparameterstype","msrdc/IRdcGeneratorParameters::GetGeneratorParametersType","rdc.irdcgeneratorparameters_getgeneratorparameterstype"]
 old-location: rdc\irdcgeneratorparameters_getgeneratorparameterstype.htm
 tech.root: rdc
 ms.assetid: d9fd60d5-a542-4a00-becd-85c7dafbe105

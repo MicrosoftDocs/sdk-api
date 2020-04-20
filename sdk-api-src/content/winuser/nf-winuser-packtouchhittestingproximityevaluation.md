@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.PackTouchHitTestingProximityEvaluation
 title: PackTouchHitTestingProximityEvaluation function (winuser.h)
-description: Returns the proximity evaluation score and the adjusted touch-point coordinates as a packed value for the WM_TOUCHHITTESTING callback.
+description: Returns the proximity evaluation score and the adjusted touch-point coordinates as a packed value for the WM_TOUCHHITTESTING callback.helpviewer_keywords: ["PackTouchHitTestingProximityEvaluation","PackTouchHitTestingProximityEvaluation function","input_touchhittest.packtouchhittestingproximityevaluation","touch_hittest.packtouchhittestingproximityevaluation","winuser/PackTouchHitTestingProximityEvaluation"]
 old-location: input_touchhittest\packtouchhittestingproximityevaluation.htm
 tech.root: Input_TouchHitTest
 ms.assetid: c4061285-2d0f-4404-9b63-bda2ec61b764

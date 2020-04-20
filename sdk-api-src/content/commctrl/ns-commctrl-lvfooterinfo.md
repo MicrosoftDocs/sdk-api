@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagLVFOOTERINFO
 title: LVFOOTERINFO (commctrl.h)
-description: Contains information on a footer in a list-view control.
+description: Contains information on a footer in a list-view control.helpviewer_keywords: ["*LPLVFOOTERINFO","LPLVFOOTERINFO","LPLVFOOTERINFO structure pointer [Windows Controls]","LVFOOTERINFO","LVFOOTERINFO structure [Windows Controls]","_shell_LVFOOTERINFO","_shell_LVFOOTERINFO_cpp","commctrl/LPLVFOOTERINFO","commctrl/LVFOOTERINFO","controls.LVFOOTERINFO","controls._shell_LVFOOTERINFO"]
 old-location: controls\LVFOOTERINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfooterinfo.htm

@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsAccessControlEntry
 title: IADsAccessControlEntry (iads.h)
-description: The IADsAccessControlEntry interface is a dual interface that enables directory clients to access and manipulate individual access-control entries (ACEs) of the owning object.
+description: The IADsAccessControlEntry interface is a dual interface that enables directory clients to access and manipulate individual access-control entries (ACEs) of the owning object.helpviewer_keywords: ["AccessControlEntry","IADsAccessControlEntry","IADsAccessControlEntry interface [ADSI]","IADsAccessControlEntry interface [ADSI]","described","_ds_iadsaccesscontrolentry","adsi.iadsaccesscontrolentry","iads/IADsAccessControlEntry"]
 old-location: adsi\iadsaccesscontrolentry.htm
 tech.root: adsi
 ms.assetid: 6d2cd45b-0dc6-4bb3-9c41-014bec71f258

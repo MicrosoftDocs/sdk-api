@@ -1,7 +1,7 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerGetMethodProperties
 title: EapHostPeerGetMethodProperties function (eaphostpeerconfigapis.h)
-description: Used to retrieve the properties of an EAP method given the connection and user data.
+description: Used to retrieve the properties of an EAP method given the connection and user data.helpviewer_keywords: ["EapHostPeerGetMethodProperties","EapHostPeerGetMethodProperties function [EAPHost]","eaphost.eaphostpeergetmethodproperties","eaphostpeerconfigapis/EapHostPeerGetMethodProperties"]
 old-location: eaphost\eaphostpeergetmethodproperties.htm
 tech.root: eaphost
 ms.assetid: b553c022-c9a2-4cf7-8c09-e629b49cd929

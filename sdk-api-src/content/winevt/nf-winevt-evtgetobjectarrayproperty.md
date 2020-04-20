@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtGetObjectArrayProperty
 title: EvtGetObjectArrayProperty function (winevt.h)
-description: Gets a provider metadata property from the specified object in the array.
+description: Gets a provider metadata property from the specified object in the array.helpviewer_keywords: ["EvtGetObjectArrayProperty","EvtGetObjectArrayProperty function [EventLog]","wes.evtgetobjectarrayproperty","winevt/EvtGetObjectArrayProperty"]
 old-location: wes\evtgetobjectarrayproperty.htm
 tech.root: wes
 ms.assetid: a522f0a8-6050-4082-acdf-e700ebfa7efc

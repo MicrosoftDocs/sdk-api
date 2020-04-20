@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core._SFVM_PROPPAGE_DATA
 title: SFVM_PROPPAGE_DATA (shlobj_core.h)
-description: Contains the details of a page to be added to an object's Properties sheet.
+description: Contains the details of a page to be added to an object's Properties sheet.helpviewer_keywords: ["SFVM_PROPPAGE_DATA","SFVM_PROPPAGE_DATA structure [Windows Shell]","_SFVM_PROPPAGE_DATA","_win32_SFVM_PROPPAGE_DATA","shell.SFVM_PROPPAGE_DATA","shlobj_core/SFVM_PROPPAGE_DATA"]
 old-location: shell\SFVM_PROPPAGE_DATA.htm
 tech.root: shell
 ms.assetid: 9f214786-fc82-4f1b-a0ec-7bf61b1f3cf7

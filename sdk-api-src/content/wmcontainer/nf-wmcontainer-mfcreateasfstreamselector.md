@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.MFCreateASFStreamSelector
 title: MFCreateASFStreamSelector function (wmcontainer.h)
-description: Creates the ASF stream selector.
+description: Creates the ASF stream selector.helpviewer_keywords: ["71b1af5b-f127-463f-9720-72e789bb2cd1","MFCreateASFStreamSelector","MFCreateASFStreamSelector function [Media Foundation]","mf.mfcreateasfstreamselector","wmcontainer/MFCreateASFStreamSelector"]
 old-location: mf\mfcreateasfstreamselector.htm
 tech.root: medfound
 ms.assetid: 71b1af5b-f127-463f-9720-72e789bb2cd1

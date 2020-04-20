@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesSuspend.SuspendRoot
 title: IOfflineFilesSuspend::SuspendRoot (cscobj.h)
-description: Suspend or release a share root or directory tree.
+description: Suspend or release a share root or directory tree.helpviewer_keywords: ["IOfflineFilesSuspend interface [Offline Files]","SuspendRoot method","IOfflineFilesSuspend.SuspendRoot","IOfflineFilesSuspend::SuspendRoot","SuspendRoot","SuspendRoot method [Offline Files]","SuspendRoot method [Offline Files]","IOfflineFilesSuspend interface","cscobj/IOfflineFilesSuspend::SuspendRoot","of.iofflinefilessuspend_suspendroot"]
 old-location: of\iofflinefilessuspend_suspendroot.htm
 tech.root: offlinefiles
 ms.assetid: 5307bc8c-e6e9-4ae7-b2da-036fc9c5c08d

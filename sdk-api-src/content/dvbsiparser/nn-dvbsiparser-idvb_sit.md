@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IDVB_SIT
 title: IDVB_SIT (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IDVB_SIT","IDVB_SIT interface [Microsoft TV Technologies]","IDVB_SIT interface [Microsoft TV Technologies]","described","IDVB_SITInterface","dvbsiparser/IDVB_SIT","mstv.idvb_sit"]
 old-location: mstv\idvb_sit.htm
 tech.root: mstv
 ms.assetid: f278d942-a450-4a01-998d-4dac1c8a1fcc

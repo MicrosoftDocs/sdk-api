@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.PrepareForBackup
 title: IVssBackupComponents::PrepareForBackup (vsbackup.h)
-description: The PrepareForBackup method will cause VSS to generate a PrepareForBackup event, signaling writers to prepare for an upcoming backup operation. This makes a requester's Backup Components Document available to writers.
+description: The PrepareForBackup method will cause VSS to generate a PrepareForBackup event, signaling writers to prepare for an upcoming backup operation. This makes a requester's Backup Components Document available to writers.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","PrepareForBackup method","IVssBackupComponents.PrepareForBackup","IVssBackupComponents::PrepareForBackup","PrepareForBackup","PrepareForBackup method [VSS]","PrepareForBackup method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_prepareforbackup","base.ivssbackupcomponents_prepareforbackup","vsbackup/IVssBackupComponents::PrepareForBackup"]
 old-location: base\ivssbackupcomponents_prepareforbackup.htm
 tech.root: VSS
 ms.assetid: 46ce8282-a434-4b0b-b66e-40810052b34b

@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsServiceLoader.LoadService
 title: IVdsServiceLoader::LoadService (vds.h)
-description: Launches VDS on the specified computer and returns a pointer to the service object.
+description: Launches VDS on the specified computer and returns a pointer to the service object.helpviewer_keywords: ["IVdsServiceLoader interface [VDS]","LoadService method","IVdsServiceLoader.LoadService","IVdsServiceLoader::LoadService","LoadService","LoadService method [VDS]","LoadService method [VDS]","IVdsServiceLoader interface","base.ivdsserviceloader_loadservice","vds/IVdsServiceLoader::LoadService"]
 old-location: base\ivdsserviceloader_loadservice.htm
 tech.root: VDS
 ms.assetid: 26bb0a1f-37ad-4bb0-af6c-1063c5ccdc0f

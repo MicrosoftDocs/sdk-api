@@ -1,7 +1,7 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.PrepareForSyncCompleted
 title: ISyncMgrSynchronizeCallback::PrepareForSyncCompleted (mobsync.h)
-description: Called by a registered handler of an application after the PrepareForSync method is complete.
+description: Called by a registered handler of an application after the PrepareForSync method is complete.helpviewer_keywords: ["ISyncMgrSynchronizeCallback interface [Windows Shell]","PrepareForSyncCompleted method","ISyncMgrSynchronizeCallback.PrepareForSyncCompleted","ISyncMgrSynchronizeCallback::PrepareForSyncCompleted","PrepareForSyncCompleted","PrepareForSyncCompleted method [Windows Shell]","PrepareForSyncCompleted method [Windows Shell]","ISyncMgrSynchronizeCallback interface","mobsync/ISyncMgrSynchronizeCallback::PrepareForSyncCompleted","shell.syncmgr_isyncmgrsynchronizecallback_prepareforsynccompleted","syncmgr.isyncmgrsynchronizecallback_prepareforsynccompleted"]
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_prepareforsynccompleted.htm
 tech.root: shell
 ms.assetid: 2ba73e09-c01b-44af-8979-8aae450c9c0b

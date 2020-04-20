@@ -1,7 +1,7 @@
 ---
 UID: NS:http._HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS
 title: HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS (http.h)
-description: Contains the information for digest authentication on a URL Group.
+description: Contains the information for digest authentication on a URL Group.helpviewer_keywords: ["*PHTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS","*PHTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS structure [HTTP]","HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS","HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS structure [HTTP]","http.http_server_authentication_digest_params","http/*PHTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS","http/HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS"]
 old-location: http\http_server_authentication_digest_params.htm
 tech.root: http
 ms.assetid: 923d06ed-8f34-46b6-98d8-96828848dca8

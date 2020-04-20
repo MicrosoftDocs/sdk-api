@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkWordList2
 title: IInkWordList2 (msinkaut.h)
-description: Adds members to the InkWordList Class.
+description: Adds members to the InkWordList Class.helpviewer_keywords: ["16be0c11-7525-4e6e-9556-e7308c1919cf","IInkWordList2","IInkWordList2 interface [Tablet PC]","IInkWordList2 interface [Tablet PC]","described","msinkaut/IInkWordList2","tablet.iinkwordlist2"]
 old-location: tablet\iinkwordlist2.htm
 tech.root: tablet
 ms.assetid: 16be0c11-7525-4e6e-9556-e7308c1919cf

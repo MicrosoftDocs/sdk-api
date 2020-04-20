@@ -1,7 +1,7 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_SET_PIPE_STATE
 title: IOCTL_GENERICUSBFN_SET_PIPE_STATE (genericusbfnioctl.h)
-description: This I/O control code (IOCTL) is sent by a user-mode service or application to set the state of the specified Universal Serial Bus (USB) pipe.
+description: This I/O control code (IOCTL) is sent by a user-mode service or application to set the state of the specified Universal Serial Bus (USB) pipe.helpviewer_keywords: ["IOCTL_GENERICUSBFN_SET_PIPE_STATE","IOCTL_GENERICUSBFN_SET_PIPE_STATE control","IOCTL_GENERICUSBFN_SET_PIPE_STATE control code [Buses]","buses.ioctl_genericusbfn_set_pipe_state","genericusbfnioctl/IOCTL_GENERICUSBFN_SET_PIPE_STATE"]
 old-location: buses\ioctl_genericusbfn_set_pipe_state.htm
 tech.root: usbref
 ms.assetid: C9276A60-382C-40FE-B5B9-49E95C71CDE9

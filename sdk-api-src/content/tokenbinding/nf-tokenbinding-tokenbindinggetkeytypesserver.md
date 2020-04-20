@@ -1,7 +1,7 @@
 ---
 UID: NF:tokenbinding.TokenBindingGetKeyTypesServer
 title: TokenBindingGetKeyTypesServer function (tokenbinding.h)
-description: Retrieves a list of the key types that the server supports.
+description: Retrieves a list of the key types that the server supports.helpviewer_keywords: ["TokenBindingGetKeyTypesServer","TokenBindingGetKeyTypesServer function [Security]","security.tokenbindinggetkeytypesserver","tokenbinding/TokenBindingGetKeyTypesServer"]
 old-location: security\tokenbindinggetkeytypesserver.htm
 tech.root: SecCNG
 ms.assetid: 8ABAC0AF-AF68-4742-9C36-3FB17D303409

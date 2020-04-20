@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.ExecuteRemoteAction
 title: IRemoteDesktopClientActions::ExecuteRemoteAction (rdpappcontainerclient.h)
-description: Causes an action to be performed in the remote session.
+description: Causes an action to be performed in the remote session.helpviewer_keywords: ["ExecuteRemoteAction","ExecuteRemoteAction method [Remote Desktop Services]","ExecuteRemoteAction method [Remote Desktop Services]","IRemoteDesktopClientActions interface","IRemoteDesktopClientActions interface [Remote Desktop Services]","ExecuteRemoteAction method","IRemoteDesktopClientActions.ExecuteRemoteAction","IRemoteDesktopClientActions::ExecuteRemoteAction","rdpappcontainerclient/IRemoteDesktopClientActions::ExecuteRemoteAction","termserv.iremotedesktopclientactions_executeremoteaction"]
 old-location: termserv\iremotedesktopclientactions_executeremoteaction.htm
 tech.root: TermServ
 ms.assetid: 944fbfe4-b033-471b-9a28-87349382d37a

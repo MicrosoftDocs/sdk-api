@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EnumDesktopWindows
 title: EnumDesktopWindows function (winuser.h)
-description: Enumerates all top-level windows associated with the specified desktop. It passes the handle to each window, in turn, to an application-defined callback function.
+description: Enumerates all top-level windows associated with the specified desktop. It passes the handle to each window, in turn, to an application-defined callback function.helpviewer_keywords: ["EnumDesktopWindows","EnumDesktopWindows function [Windows Stations and Desktops]","_win32_enumdesktopwindows","base.enumdesktopwindows","winstation.enumdesktopwindows","winuser/EnumDesktopWindows"]
 old-location: winstation\enumdesktopwindows.htm
 tech.root: winstation
 ms.assetid: b399ff19-e2e5-4509-8bb5-9647734881b3

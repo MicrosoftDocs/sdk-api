@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetGradientStops1
 title: ID2D1GradientStopCollection1::GetGradientStops1 (d2d1_1.h)
-description: Copies the gradient stops from the collection into memory.
+description: Copies the gradient stops from the collection into memory.helpviewer_keywords: ["GetGradientStops1","GetGradientStops1 method [Direct2D]","GetGradientStops1 method [Direct2D]","ID2D1GradientStopCollection1 interface","ID2D1GradientStopCollection1 interface [Direct2D]","GetGradientStops1 method","ID2D1GradientStopCollection1.GetGradientStops1","ID2D1GradientStopCollection1::GetGradientStops1","d2d1_1/ID2D1GradientStopCollection1::GetGradientStops1","direct2d.id2d1gradientstopcollection1_getgradientstops1"]
 old-location: direct2d\id2d1gradientstopcollection1_getgradientstops1.htm
 tech.root: Direct2D
 ms.assetid: da3987a5-b40f-49eb-9930-0162cf64d6a9

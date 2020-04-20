@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorReciprocal
 title: XMVectorReciprocal function (directxmath.h)
-description: Computes the per-component reciprocal of a vector.
+description: Computes the per-component reciprocal of a vector.helpviewer_keywords: ["Use DirectX..XMVectorReciprocal","XMVectorReciprocal","XMVectorReciprocal method [DirectX Math Support APIs]","dxmath.xmvectorreciprocal"]
 old-location: dxmath\xmvectorreciprocal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorReciprocal(XMVECTOR)

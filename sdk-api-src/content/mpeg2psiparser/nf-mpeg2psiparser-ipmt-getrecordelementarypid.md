@@ -1,7 +1,7 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordElementaryPid
 title: IPMT::GetRecordElementaryPid (mpeg2psiparser.h)
-description: The GetRecordElementaryPid method returns the packet identifier (PID) for a given elementary stream in the program.
+description: The GetRecordElementaryPid method returns the packet identifier (PID) for a given elementary stream in the program.helpviewer_keywords: ["GetRecordElementaryPid","GetRecordElementaryPid method [Microsoft TV Technologies]","GetRecordElementaryPid method [Microsoft TV Technologies]","IPMT interface","IPMT interface [Microsoft TV Technologies]","GetRecordElementaryPid method","IPMT.GetRecordElementaryPid","IPMT::GetRecordElementaryPid","IPMTGetRecordElementaryPid","mpeg2psiparser/IPMT::GetRecordElementaryPid","mstv.ipmt_getrecordelementarypid"]
 old-location: mstv\ipmt_getrecordelementarypid.htm
 tech.root: mstv
 ms.assetid: ed4790ee-97ce-482e-834e-4081a310f4bb

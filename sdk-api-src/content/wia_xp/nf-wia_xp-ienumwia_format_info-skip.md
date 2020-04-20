@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IEnumWIA_FORMAT_INFO.Skip
 title: IEnumWIA_FORMAT_INFO::Skip (wia_xp.h)
-description: The IEnumWIA_FORMAT_INFO::Skip method skips the specified number of structures in the enumeration.
+description: The IEnumWIA_FORMAT_INFO::Skip method skips the specified number of structures in the enumeration.helpviewer_keywords: ["IEnumWIA_FORMAT_INFO interface [WIA]","Skip method","IEnumWIA_FORMAT_INFO.Skip","IEnumWIA_FORMAT_INFO::Skip","Skip","Skip method [WIA]","Skip method [WIA]","IEnumWIA_FORMAT_INFO interface","_wia_IEnumWIA_FORMAT_INFO_Skip","wia._wia_IEnumWIA_FORMAT_INFO_Skip","wia_xp/IEnumWIA_FORMAT_INFO::Skip"]
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO_Skip.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_format_info\skip.htm

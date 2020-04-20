@@ -1,7 +1,7 @@
 ---
 UID: NN:commdlg.IPrintDialogServices
 title: IPrintDialogServices (commdlg.h)
-description: Provides methods that enable an application using the PrintDlgEx function to retrieve information about the currently selected printer.
+description: Provides methods that enable an application using the PrintDlgEx function to retrieve information about the currently selected printer.helpviewer_keywords: ["IPrintDialogServices","IPrintDialogServices interface [Dialog Boxes]","IPrintDialogServices interface [Dialog Boxes]","described","_win32_IPrintDialogServices","_win32_iprintdialogservices_cpp","commdlg/IPrintDialogServices","dlgbox.iprintdialogservices","winui._win32_iprintdialogservices"]
 old-location: dlgbox\iprintdialogservices.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices.htm

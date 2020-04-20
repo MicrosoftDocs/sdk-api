@@ -1,7 +1,7 @@
 ---
 UID: NF:ktmw32.GetTransactionId
 title: GetTransactionId function (ktmw32.h)
-description: Obtains the identifier (ID) for the specified transaction.
+description: Obtains the identifier (ID) for the specified transaction.helpviewer_keywords: ["GetTransactionId","GetTransactionId function [Files]","fs.gettransactionid","ktmw32/GetTransactionId"]
 old-location: fs\gettransactionid.htm
 tech.root: ktm
 ms.assetid: 10f4729f-3e6e-469a-8f72-48c29735e7b1

@@ -1,7 +1,7 @@
 ---
 UID: NC:mapi.MAPILOGOFF
 title: MAPILOGOFF (mapi.h)
-description: The MAPILogoff function ends a session with the messaging system.
+description: The MAPILogoff function ends a session with the messaging system.helpviewer_keywords: ["MAPILogoff","MAPILogoff callback","MAPILogoff callback function","mapi.mapilogoff","mapi/MAPILogoff"]
 old-location: mapi\mapilogoff.htm
 tech.root: WindowsMAPI
 ms.assetid: d04316cf-31f5-4f5f-ad20-01ce720fdf4c

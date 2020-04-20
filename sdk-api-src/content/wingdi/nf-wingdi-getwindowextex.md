@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetWindowExtEx
 title: GetWindowExtEx function (wingdi.h)
-description: This function retrieves the x-extent and y-extent of the window for the specified device context.
+description: This function retrieves the x-extent and y-extent of the window for the specified device context.helpviewer_keywords: ["GetWindowExtEx","GetWindowExtEx function [Windows GDI]","_win32_GetWindowExtEx","gdi.getwindowextex","wingdi/GetWindowExtEx"]
 old-location: gdi\getwindowextex.htm
 tech.root: gdi
 ms.assetid: 17f41fcb-c9a4-4b7e-acde-73450044413e

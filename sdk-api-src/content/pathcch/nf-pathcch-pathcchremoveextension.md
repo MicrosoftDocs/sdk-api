@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchRemoveExtension
 title: PathCchRemoveExtension function (pathcch.h)
-description: Removes the file name extension from a path, if one is present.This function differs from PathRemoveExtension in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
+description: Removes the file name extension from a path, if one is present.This function differs from PathRemoveExtension in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.helpviewer_keywords: ["PathCchRemoveExtension","PathCchRemoveExtension function [Windows Shell]","pathcch/PathCchRemoveExtension","shell.PathCchRemoveExtension"]
 old-location: shell\PathCchRemoveExtension.htm
 tech.root: shell
 ms.assetid: 9adfb054-6d62-41bb-9036-0bf670ea24b2
@@ -50,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Removes the file name extension from a path, if one is present.
 
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremoveextensiona">PathRemoveExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-
-<div class="alert"><b>Note</b>  This function, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremoveextensiona">PathRemoveExtension</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>This function, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremoveextensiona">PathRemoveExtension</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
-
-
 
 
 ### -param pszPath [in, out]
@@ -76,9 +71,5 @@ The size of the buffer pointed to by <i>pszPath</i>, in characters.
 
 ## -returns
 
-
-
-This function returns S_OK if the function was successful, S_FALSE if no extension was found, or an error code otherwise.
-
-
+This function returns <b>S_OK</b> if the function was successful, <b>S_FALSE</b> if no extension was found, or an error code otherwise.
 

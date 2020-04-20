@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_FEATURE_LEVEL
 title: D2D1_FEATURE_LEVEL (d2d1.h)
-description: Describes the minimum DirectX support required for hardware rendering by a render target.
+description: Describes the minimum DirectX support required for hardware rendering by a render target.helpviewer_keywords: ["D2D1_FEATURE_LEVEL","D2D1_FEATURE_LEVEL enumeration [Direct2D]","D2D1_FEATURE_LEVEL_10","D2D1_FEATURE_LEVEL_9","D2D1_FEATURE_LEVEL_DEFAULT","d2d1/D2D1_FEATURE_LEVEL","d2d1/D2D1_FEATURE_LEVEL_10","d2d1/D2D1_FEATURE_LEVEL_9","d2d1/D2D1_FEATURE_LEVEL_DEFAULT","direct2d.D2D1_FEATURE_LEVEL"]
 old-location: direct2d\D2D1_FEATURE_LEVEL.htm
 tech.root: Direct2D
 ms.assetid: d9604c37-7345-40e3-850c-2e2c99353ba5

@@ -1,7 +1,7 @@
 ---
 UID: NF:virtdisk.CreateVirtualDisk
 title: CreateVirtualDisk function (virtdisk.h)
-description: Creates a virtual hard disk (VHD) image file, either using default parameters or using an existing virtual disk or physical disk.
+description: Creates a virtual hard disk (VHD) image file, either using default parameters or using an existing virtual disk or physical disk.helpviewer_keywords: ["CreateVirtualDisk","CreateVirtualDisk function [VHD]","vdssys/CreateVirtualDisk","vhd.createvirtualdisk","virtdisk/CreateVirtualDisk"]
 old-location: vhd\createvirtualdisk.htm
 tech.root: VStor
 ms.assetid: 9d9f187e-dea1-48ca-a3fe-9e9c513e9088

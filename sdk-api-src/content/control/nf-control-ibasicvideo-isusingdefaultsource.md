@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IBasicVideo.IsUsingDefaultSource
 title: IBasicVideo::IsUsingDefaultSource (control.h)
-description: The IsUsingDefaultSource method queries whether the renderer is using the default source rectangle.
+description: The IsUsingDefaultSource method queries whether the renderer is using the default source rectangle.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","IsUsingDefaultSource method","IBasicVideo.IsUsingDefaultSource","IBasicVideo::IsUsingDefaultSource","IBasicVideoIsUsingDefaultSource","IsUsingDefaultSource","IsUsingDefaultSource method [DirectShow]","IsUsingDefaultSource method [DirectShow]","IBasicVideo interface","control/IBasicVideo::IsUsingDefaultSource","dshow.ibasicvideo_isusingdefaultsource"]
 old-location: dshow\ibasicvideo_isusingdefaultsource.htm
 tech.root: DirectShow
 ms.assetid: 85cb633f-95cd-4cbe-9572-324ec784e6bb

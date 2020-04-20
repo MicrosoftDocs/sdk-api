@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlocksEnumerator.MoveNext
 title: IAppxBlockMapBlocksEnumerator::MoveNext (appxpackaging.h)
-description: Advances the position of the enumerator to the next block.
+description: Advances the position of the enumerator to the next block.helpviewer_keywords: ["IAppxBlockMapBlocksEnumerator interface [App packaging and management]","MoveNext method","IAppxBlockMapBlocksEnumerator.MoveNext","IAppxBlockMapBlocksEnumerator::MoveNext","MoveNext","MoveNext method [App packaging and management]","MoveNext method [App packaging and management]","IAppxBlockMapBlocksEnumerator interface","appxpackaging/IAppxBlockMapBlocksEnumerator::MoveNext","appxpkg.iappxblockmapblocksenumerator_movenext"]
 old-location: appxpkg\iappxblockmapblocksenumerator_movenext.htm
 tech.root: appxpkg
 ms.assetid: CDF8C336-CFF8-41FE-AC3E-48988209850E

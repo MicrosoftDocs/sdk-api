@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetNoise
 title: IDCompositionTurbulenceEffect::SetNoise (dcomp.h)
-description: Sets the turbulence noise mode.
+description: Sets the turbulence noise mode.helpviewer_keywords: ["IDCompositionTurbulenceEffect interface [DirectComposition]","SetNoise method","IDCompositionTurbulenceEffect.SetNoise","IDCompositionTurbulenceEffect::SetNoise","SetNoise","SetNoise method [DirectComposition]","SetNoise method [DirectComposition]","IDCompositionTurbulenceEffect interface","dcomp/IDCompositionTurbulenceEffect::SetNoise","directcomp.idcompositionturbulenceeffect_setnoise"]
 old-location: directcomp\idcompositionturbulenceeffect_setnoise.htm
 tech.root: directcomp
 ms.assetid: 6EF5C8D0-C614-4520-BAE5-A3C8E609FB64

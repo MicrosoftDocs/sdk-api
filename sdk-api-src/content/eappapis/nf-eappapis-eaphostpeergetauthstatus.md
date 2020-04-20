@@ -1,7 +1,7 @@
 ---
 UID: NF:eappapis.EapHostPeerGetAuthStatus
 title: EapHostPeerGetAuthStatus function (eappapis.h)
-description: Obtains the supplicant's current EAP authentication status from EAPHost.
+description: Obtains the supplicant's current EAP authentication status from EAPHost.helpviewer_keywords: ["EapHostNapInfo","EapHostPeerAuthStatus","EapHostPeerGetAuthStatus","EapHostPeerGetAuthStatus function [EAPHost]","EapHostPeerIdentity","EapHostPeerIdentityExtendedInfo","eaphost.eaphostpeergetauthstatus","eappapis/EapHostPeerGetAuthStatus"]
 old-location: eaphost\eaphostpeergetauthstatus.htm
 tech.root: eaphost
 ms.assetid: cb5ceffb-941f-48ad-9271-111f41adc65b

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_Activity
 title: IFaxServer::get_Activity (faxcomex.h)
-description: The IFaxServer::get_Activity property creates a IFaxActivity interface object. The interface permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
+description: The IFaxServer::get_Activity property creates a IFaxActivity interface object. The interface permits a fax client application to access information about the activity on a connected fax server, and the fax server status.helpviewer_keywords: ["Activity property [Fax Service]","Activity property [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","Activity property","IFaxServer.Activity","IFaxServer.get_Activity","IFaxServer::Activity","IFaxServer::get_Activity","_mfax_faxserver.activity_cpp","fax._mfax_faxserver_activity_cpp","faxcomex/IFaxServer::Activity","faxcomex/IFaxServer::get_Activity","get_Activity"]
 old-location: fax\_mfax_faxserver_activity_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2i9l_cpp.htm

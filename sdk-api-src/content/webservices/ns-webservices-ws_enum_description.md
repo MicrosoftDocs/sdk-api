@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_ENUM_DESCRIPTION
 title: WS_ENUM_DESCRIPTION (webservices.h)
-description: A type description that is used with WS_ENUM_TYPE and is required. It provides information used in serializing and deserializing values of an enumeration.
+description: A type description that is used with WS_ENUM_TYPE and is required. It provides information used in serializing and deserializing values of an enumeration.helpviewer_keywords: ["WS_ENUM_DESCRIPTION","WS_ENUM_DESCRIPTION structure [Web Services for Windows]","webservices/WS_ENUM_DESCRIPTION","wsw.ws_enum_description"]
 old-location: wsw\ws_enum_description.htm
 tech.root: wsw
 ms.assetid: cf7c9254-c806-4ada-8852-beb6be5e81d9

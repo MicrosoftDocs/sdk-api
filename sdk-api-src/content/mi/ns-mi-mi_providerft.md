@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ProviderFT
 title: MI_ProviderFT (mi.h)
-description: A support structure used in the MI_ClassDecl and MI_Module structures.
+description: A support structure used in the MI_ClassDecl and MI_Module structures.helpviewer_keywords: ["MI_ProviderFT","MI_ProviderFT structure [Windows Management Infrastructure (MI)]","mi/MI_ProviderFT","wmi_v2.mi_providerft"]
 old-location: wmi_v2\mi_providerft.htm
 tech.root: wmi_v2
 ms.assetid: 494eb3cb-6476-4fe3-8da4-dc7112c6f62f

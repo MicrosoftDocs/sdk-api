@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetPackagePath
 title: GetPackagePath function (appmodel.h)
-description: Gets the path for the specified package.
+description: Gets the path for the specified package.helpviewer_keywords: ["GetPackagePath","GetPackagePath function [App packaging and management]","appmodel/GetPackagePath","appxpkg.getpackagepath"]
 old-location: appxpkg\getpackagepath.htm
 tech.root: appxpkg
 ms.assetid: BDA0DD87-A36D-486B-BF89-EA5CC105C742

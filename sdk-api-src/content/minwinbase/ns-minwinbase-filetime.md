@@ -1,7 +1,7 @@
 ---
 UID: NS:minwinbase._FILETIME
 title: FILETIME (minwinbase.h)
-description: Contains a 64-bit value representing the number of 100-nanosecond intervals since January 1, 1601 (UTC).
+description: Contains a 64-bit value representing the number of 100-nanosecond intervals since January 1, 1601 (UTC).helpviewer_keywords: ["*LPFILETIME","*PFILETIME","FILETIME","FILETIME structure","PFILETIME","PFILETIME structure pointer","_FILETIME","_win32_filetime_str","base.filetime_str","minwinbase/FILETIME","minwinbase/PFILETIME"]
 old-location: base\filetime_str.htm
 tech.root: SysInfo
 ms.assetid: 9baf8a0e-59e3-4fbd-9616-2ec9161520d1

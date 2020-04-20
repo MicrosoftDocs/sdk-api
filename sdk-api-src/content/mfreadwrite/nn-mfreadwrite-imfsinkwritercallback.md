@@ -1,7 +1,7 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriterCallback
 title: IMFSinkWriterCallback (mfreadwrite.h)
-description: Callback interface for the Microsoft Media Foundation sink writer.
+description: Callback interface for the Microsoft Media Foundation sink writer.helpviewer_keywords: ["IMFSinkWriterCallback","IMFSinkWriterCallback interface [Media Foundation]","IMFSinkWriterCallback interface [Media Foundation]","described","mf.imfsinkwritercallback","mfreadwrite/IMFSinkWriterCallback"]
 old-location: mf\imfsinkwritercallback.htm
 tech.root: medfound
 ms.assetid: fa0295e6-473d-4304-9a7b-24584cade0a0

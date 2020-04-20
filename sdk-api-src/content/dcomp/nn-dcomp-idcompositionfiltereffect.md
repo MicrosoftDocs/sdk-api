@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionFilterEffect
 title: IDCompositionFilterEffect (dcomp.h)
-description: Represents a filter effect.
+description: Represents a filter effect.helpviewer_keywords: ["IDCompositionFilterEffect","IDCompositionFilterEffect interface [DirectComposition]","IDCompositionFilterEffect interface [DirectComposition]","described","dcomp/IDCompositionFilterEffect","directcomp.idcompositionfiltereffect"]
 old-location: directcomp\idcompositionfiltereffect.htm
 tech.root: directcomp
 ms.assetid: 4303c24d-e3e1-e188-bbef-e654c0e7e266

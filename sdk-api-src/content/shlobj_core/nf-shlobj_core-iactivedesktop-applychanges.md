@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.ApplyChanges
 title: IActiveDesktop::ApplyChanges (shlobj_core.h)
-description: Applies changes to the Active Desktop and saves them in the registry.
+description: Applies changes to the Active Desktop and saves them in the registry.helpviewer_keywords: ["AD_APPLY_ALL","AD_APPLY_BUFFERED_REFRESH","AD_APPLY_DYNAMICREFRESH","AD_APPLY_FORCE","AD_APPLY_HTMLGEN","AD_APPLY_REFRESH","AD_APPLY_SAVE","ApplyChanges","ApplyChanges method [Legacy Windows Environment Features]","ApplyChanges method [Legacy Windows Environment Features]","IActiveDesktop interface","IActiveDesktop interface [Legacy Windows Environment Features]","ApplyChanges method","IActiveDesktop.ApplyChanges","IActiveDesktop::ApplyChanges","_win32_IActiveDesktop_ApplyChanges","lwef.iactivedesktop_applychanges","shell.iactivedesktop_applychanges","shlobj_core/IActiveDesktop::ApplyChanges"]
 old-location: lwef\iactivedesktop_applychanges.htm
 tech.root: lwef
 ms.assetid: 3bac5af5-f4a6-4822-83de-11633beef88a

@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_OPEN_LISTENER_CALLBACK
 title: WS_OPEN_LISTENER_CALLBACK (webservices.h)
-description: Handles the WsOpenListener call for a WS_CUSTOM_CHANNEL_BINDING.
+description: Handles the WsOpenListener call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_OPEN_LISTENER_CALLBACK","WS_OPEN_LISTENER_CALLBACK callback","WS_OPEN_LISTENER_CALLBACK callback function [Web Services for Windows]","webservices/WS_OPEN_LISTENER_CALLBACK","wsw.ws_open_listener_callback"]
 old-location: wsw\ws_open_listener_callback.htm
 tech.root: wsw
 ms.assetid: 061111f5-a568-4a8a-9892-9c8a352556ef

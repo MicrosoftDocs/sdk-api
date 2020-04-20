@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetEmfHeader
 title: MetafileHeader::GetEmfHeader (gdiplusmetaheader.h)
-description: The MetafileHeader::GetEmfHeader method gets an ENHMETAHEADER3 structure that contains properties of the associated metafile.
+description: The MetafileHeader::GetEmfHeader method gets an ENHMETAHEADER3 structure that contains properties of the associated metafile.helpviewer_keywords: ["GetEmfHeader","GetEmfHeader method [GDI+]","GetEmfHeader method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetEmfHeader method","MetafileHeader.GetEmfHeader","MetafileHeader::GetEmfHeader","_gdiplus_CLASS_MetafileHeader_GetEmfHeader_","gdiplus._gdiplus_CLASS_MetafileHeader_GetEmfHeader_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetEmfHeader_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getemfheader.htm

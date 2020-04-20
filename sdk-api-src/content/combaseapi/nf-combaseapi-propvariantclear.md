@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.PropVariantClear
 title: PropVariantClear function (combaseapi.h)
-description: Frees all elements that can be freed in a given PROPVARIANT structure.
+description: Frees all elements that can be freed in a given PROPVARIANT structure.helpviewer_keywords: ["PropVariantClear","PropVariantClear function [Structured Storage]","_stg_propvariantclear","combaseapi/PropVariantClear","stg.propvariantclear"]
 old-location: stg\propvariantclear.htm
 tech.root: Stg
 ms.assetid: 062b6065-a56f-4ecd-b232-3ba338a6d806

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio.WinBioEnrollBegin
 title: WinBioEnrollBegin function (winbio.h)
-description: Initiates a biometric enrollment sequence and creates an empty biometric template. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
+description: Initiates a biometric enrollment sequence and creates an empty biometric template. Starting with Windows 10, build 1607, this function is available to use with a mobile image.helpviewer_keywords: ["WinBioEnrollBegin","WinBioEnrollBegin function [Windows Biometric Framework API]","secbiomet.winbioenrollbegin","winbio/WinBioEnrollBegin"]
 old-location: secbiomet\winbioenrollbegin.htm
 tech.root: SecBioMet
 ms.assetid: ee706f2a-f544-4f53-b776-064d32e8acc8

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.CD3D11_RENDER_TARGET_VIEW_DESC
 title: CD3D11_RENDER_TARGET_VIEW_DESC (d3d11.h)
-description: Represents a render-target view and provides convenience methods for creating render-target views.
+description: Represents a render-target view and provides convenience methods for creating render-target views.helpviewer_keywords: ["CD3D11_RENDER_TARGET_VIEW_DESC","CD3D11_RENDER_TARGET_VIEW_DESC structure [Direct3D 11]","d3d11/CD3D11_RENDER_TARGET_VIEW_DESC","direct3d11.cd3d11_render_target_view_desc"]
 old-location: direct3d11\cd3d11_render_target_view_desc.htm
 tech.root: direct3d11
 ms.assetid: 28D033EF-3EAC-41F0-A633-D69E4B10343D

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.ReleaseFontTable
 title: IDWriteFontFace::ReleaseFontTable (dwrite.h)
-description: Releases the table obtained earlier from TryGetFontTable.
+description: Releases the table obtained earlier from TryGetFontTable.helpviewer_keywords: ["IDWriteFontFace interface [Direct Write]","ReleaseFontTable method","IDWriteFontFace.ReleaseFontTable","IDWriteFontFace::ReleaseFontTable","ReleaseFontTable","ReleaseFontTable method [Direct Write]","ReleaseFontTable method [Direct Write]","IDWriteFontFace interface","directwrite.IDWriteFontFace_ReleaseFontTable","dwrite/IDWriteFontFace::ReleaseFontTable"]
 old-location: directwrite\IDWriteFontFace_ReleaseFontTable.htm
 tech.root: DirectWrite
 ms.assetid: 6e9b7e30-eae9-476b-89bd-a794e08ba468

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_FRAME_CODED_INTERLACE_TYPE
 title: D3D12_VIDEO_FRAME_CODED_INTERLACE_TYPE
-description: Specifies the interlace type of coded video frames.
+description: Specifies the interlace type of coded video frames.helpviewer_keywords: ["D3D12_VIDEO_FRAME_CODED_INTERLACE_TYPE","D3D12_VIDEO_FRAME_CODED_INTERLACE_TYPE",""]
 tech.root: mf
 ms.assetid: 4a097241-184b-4c7f-bf43-bdb0c375f4f4
 ms.date: 05/28/2019

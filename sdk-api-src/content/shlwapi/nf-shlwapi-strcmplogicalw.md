@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrCmpLogicalW
 title: StrCmpLogicalW function (shlwapi.h)
-description: Compares two Unicode strings. Digits in the strings are considered as numerical content rather than text. This test is not case-sensitive.
+description: Compares two Unicode strings. Digits in the strings are considered as numerical content rather than text. This test is not case-sensitive.helpviewer_keywords: ["StrCmpLogicalW","StrCmpLogicalW function [Windows Shell]","_shell_StrCmpLogicalW","shell.StrCmpLogicalW","shlwapi/StrCmpLogicalW"]
 old-location: shell\StrCmpLogicalW.htm
 tech.root: shell
 ms.assetid: 013c6db3-7d14-44ef-89af-b3aac28f4e3f

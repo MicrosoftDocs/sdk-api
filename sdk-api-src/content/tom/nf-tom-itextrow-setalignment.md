@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.SetAlignment
 title: ITextRow::SetAlignment (tom.h)
-description: Sets the horizontal alignment of a row.
+description: Sets the horizontal alignment of a row.helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetAlignment method","ITextRow.SetAlignment","ITextRow::SetAlignment","SetAlignment","SetAlignment method [Windows Controls]","SetAlignment method [Windows Controls]","ITextRow interface","controls.itextrow_setalignment","tom/ITextRow::SetAlignment"]
 old-location: controls\itextrow_setalignment.htm
 tech.root: Controls
 ms.assetid: bfcc900d-2bec-4314-a2c5-09f55e27a626

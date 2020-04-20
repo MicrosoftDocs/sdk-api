@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.GetDeinterlaceModeCaps
 title: IVMRDeinterlaceControl9::GetDeinterlaceModeCaps (vmr9.h)
-description: The GetDeinterlaceModeCaps method gets the capabilities of a deinterlacing mode supported by the graphics device driver.
+description: The GetDeinterlaceModeCaps method gets the capabilities of a deinterlacing mode supported by the graphics device driver.helpviewer_keywords: ["GetDeinterlaceModeCaps","GetDeinterlaceModeCaps method [DirectShow]","GetDeinterlaceModeCaps method [DirectShow]","IVMRDeinterlaceControl9 interface","IVMRDeinterlaceControl9 interface [DirectShow]","GetDeinterlaceModeCaps method","IVMRDeinterlaceControl9.GetDeinterlaceModeCaps","IVMRDeinterlaceControl9::GetDeinterlaceModeCaps","IVMRDeinterlaceControl9GetDeinterlaceModeCaps","dshow.ivmrdeinterlacecontrol9_getdeinterlacemodecaps","vmr9/IVMRDeinterlaceControl9::GetDeinterlaceModeCaps"]
 old-location: dshow\ivmrdeinterlacecontrol9_getdeinterlacemodecaps.htm
 tech.root: DirectShow
 ms.assetid: 62b71df5-7665-4023-90cd-e426b751c1df

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetRecordCountOfDescriptors
 title: IDVB_NIT::GetRecordCountOfDescriptors (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordCountOfDescriptors","GetRecordCountOfDescriptors method [Microsoft TV Technologies]","GetRecordCountOfDescriptors method [Microsoft TV Technologies]","IDVB_NIT interface","IDVB_NIT interface [Microsoft TV Technologies]","GetRecordCountOfDescriptors method","IDVB_NIT.GetRecordCountOfDescriptors","IDVB_NIT::GetRecordCountOfDescriptors","IDVB_NITGetRecordCountOfDescriptors","dvbsiparser/IDVB_NIT::GetRecordCountOfDescriptors","mstv.idvb_nit_getrecordcountofdescriptors"]
 old-location: mstv\idvb_nit_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: 3f3e43d8-5063-4fac-bbec-22b6876716f0

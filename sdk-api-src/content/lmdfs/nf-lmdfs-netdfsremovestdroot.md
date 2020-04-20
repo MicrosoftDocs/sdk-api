@@ -1,7 +1,7 @@
 ---
 UID: NF:lmdfs.NetDfsRemoveStdRoot
 title: NetDfsRemoveStdRoot function (lmdfs.h)
-description: Deletes a stand-alone Distributed File System (DFS) namespace.
+description: Deletes a stand-alone Distributed File System (DFS) namespace.helpviewer_keywords: ["NetDfsRemoveStdRoot","NetDfsRemoveStdRoot function [Distributed File System]","_win32_netdfsremovestdroot","dfs.netdfsremovestdroot","fs.netdfsremovestdroot","lmdfs/NetDfsRemoveStdRoot","netmgmt.netdfsremovestdroot"]
 old-location: dfs\netdfsremovestdroot.htm
 tech.root: Dfs
 ms.assetid: 850427cc-56da-45cc-8833-e242acc53589

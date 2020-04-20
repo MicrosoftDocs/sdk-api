@@ -1,7 +1,7 @@
 ---
 UID: NF:tdh.TdhGetDecodingParameter
 title: TdhGetDecodingParameter function (tdh.h)
-description: Retrieves the value of a decoding parameter.
+description: Retrieves the value of a decoding parameter.helpviewer_keywords: ["TdhGetDecodingParameter","TdhGetDecodingParameter function [ETW]","etw.tdhgetdecodingparameter","tdh/TdhGetDecodingParameter"]
 old-location: etw\tdhgetdecodingparameter.htm
 tech.root: ETW
 ms.assetid: 81aeea7c-fd35-4fa8-af72-804006c22f7b

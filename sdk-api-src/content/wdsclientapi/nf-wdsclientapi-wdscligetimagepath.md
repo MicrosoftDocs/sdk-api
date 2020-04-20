@@ -1,7 +1,7 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImagePath
 title: WdsCliGetImagePath function (wdsclientapi.h)
-description: Returns the path to the file that contains the current image.
+description: Returns the path to the file that contains the current image.helpviewer_keywords: ["WdsCliGetImagePath","WdsCliGetImagePath function [Windows Deployment Services]","wds.wdscligetimagepath","wdsclientapi/WdsCliGetImagePath"]
 old-location: wds\wdscligetimagepath.htm
 tech.root: wds
 ms.assetid: 1ad28066-dcec-4dd4-896d-e009e6827ea3

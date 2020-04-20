@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvStretchBlt
 title: DrvStretchBlt function (winddi.h)
-description: The DrvStretchBlt function provides stretching bit-block transfer capabilities between any combination of device-managed and GDI-managed surfaces.
+description: The DrvStretchBlt function provides stretching bit-block transfer capabilities between any combination of device-managed and GDI-managed surfaces.helpviewer_keywords: ["DrvStretchBlt","DrvStretchBlt function [Display Devices]","ddifncs_7df09cb9-b2df-4ec9-a207-0f1cc8f74536.xml","display.drvstretchblt","winddi/DrvStretchBlt"]
 old-location: display\drvstretchblt.htm
 tech.root: display
 ms.assetid: 3520533d-4e42-4abc-bc10-557c674caa33

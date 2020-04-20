@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumSTATSTG.Clone
 title: IEnumSTATSTG::Clone (objidl.h)
-description: Creates a new enumerator that contains the same enumeration state as the current STATSTG structure enumerator.
+description: Creates a new enumerator that contains the same enumeration state as the current STATSTG structure enumerator.helpviewer_keywords: ["Clone","Clone method [Structured Storage]","Clone method [Structured Storage]","IEnumSTATSTG interface","IEnumSTATSTG interface [Structured Storage]","Clone method","IEnumSTATSTG.Clone","IEnumSTATSTG::Clone","objidl/IEnumSTATSTG::Clone","stg.ienumstatstg_clone"]
 old-location: stg\ienumstatstg_clone.htm
 tech.root: Stg
 ms.assetid: b6bc5dbd-7e09-4590-a7d4-d58fcd297f74

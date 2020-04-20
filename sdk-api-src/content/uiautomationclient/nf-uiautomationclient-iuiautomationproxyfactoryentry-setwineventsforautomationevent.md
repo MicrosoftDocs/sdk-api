@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.SetWinEventsForAutomationEvent
 title: IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent (uiautomationclient.h)
-description: Maps Microsoft UI Automation events to WinEvents.
+description: Maps Microsoft UI Automation events to WinEvents.helpviewer_keywords: ["IUIAutomationProxyFactoryEntry interface [Windows Accessibility]","SetWinEventsForAutomationEvent method","IUIAutomationProxyFactoryEntry.SetWinEventsForAutomationEvent","IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent","SetWinEventsForAutomationEvent","SetWinEventsForAutomationEvent method [Windows Accessibility]","SetWinEventsForAutomationEvent method [Windows Accessibility]","IUIAutomationProxyFactoryEntry interface","uiauto.uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent","uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent","uiautomationclient/IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent","winauto.uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent.htm
 tech.root: WinAuto
 ms.assetid: 694cc14b-837c-4e09-b1e7-91bdc237657f

@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegCreateKeyW
 title: RegCreateKeyW function (winreg.h)
-description: Creates the specified registry key. If the key already exists in the registry, the function opens it.
+description: Creates the specified registry key. If the key already exists in the registry, the function opens it.helpviewer_keywords: ["RegCreateKey","RegCreateKey function","RegCreateKeyA","RegCreateKeyW","_win32_regcreatekey","base.regcreatekey","winreg/RegCreateKey","winreg/RegCreateKeyA","winreg/RegCreateKeyW"]
 old-location: base\regcreatekey.htm
 tech.root: SysInfo
 ms.assetid: cb4d30f4-e288-41e8-86e0-807c313db53d

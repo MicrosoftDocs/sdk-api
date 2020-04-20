@@ -1,7 +1,7 @@
 ---
 UID: NE:msinkaut.InkOverlayEraserMode
 title: InkOverlayEraserMode (msinkaut.h)
-description: Specifies the way in which ink is erased from the InkOverlay object and the InkPicture control.This mode is used when the InkOverlayEditingMode is set to Delete.
+description: Specifies the way in which ink is erased from the InkOverlay object and the InkPicture control.This mode is used when the InkOverlayEditingMode is set to Delete.helpviewer_keywords: ["IOERM_PointErase","IOERM_StrokeErase","InkOverlayEraserMode","InkOverlayEraserMode enumeration [Tablet PC]","e7400a40-9b82-4750-8e92-a39c6f25b7cd","msinkaut/IOERM_PointErase","msinkaut/IOERM_StrokeErase","msinkaut/InkOverlayEraserMode","tablet.inkoverlayerasermode"]
 old-location: tablet\inkoverlayerasermode.htm
 tech.root: tablet
 ms.assetid: e7400a40-9b82-4750-8e92-a39c6f25b7cd

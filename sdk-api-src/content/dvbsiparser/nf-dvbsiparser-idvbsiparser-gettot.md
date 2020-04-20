@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetTOT
 title: IDvbSiParser::GetTOT (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetTOT","GetTOT method [Microsoft TV Technologies]","GetTOT method [Microsoft TV Technologies]","IDvbSiParser interface","IDvbSiParser interface [Microsoft TV Technologies]","GetTOT method","IDvbSiParser.GetTOT","IDvbSiParser::GetTOT","IDvbSiParserGetTOT","dvbsiparser/IDvbSiParser::GetTOT","mstv.idvbsiparser_gettot"]
 old-location: mstv\idvbsiparser_gettot.htm
 tech.root: mstv
 ms.assetid: 07e27472-2cb9-4bb1-9976-200bcdccb539

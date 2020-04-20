@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.RpcSsAllocate
 title: RpcSsAllocate function (rpcndr.h)
-description: The RpcSsAllocate function allocates memory within the RPC stub memory-management function, and returns a pointer to the allocated memory or NULL.
+description: The RpcSsAllocate function allocates memory within the RPC stub memory-management function, and returns a pointer to the allocated memory or NULL.helpviewer_keywords: ["RpcSsAllocate","RpcSsAllocate function [RPC]","_rpc_rpcssallocate","rpc.rpcssallocate","rpcndr/RpcSsAllocate"]
 old-location: rpc\rpcssallocate.htm
 tech.root: Rpc
 ms.assetid: d1c1af46-63c5-4e50-abfb-c4f251972427

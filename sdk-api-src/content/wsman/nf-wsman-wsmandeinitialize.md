@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManDeinitialize
 title: WSManDeinitialize function (wsman.h)
-description: Deinitializes the Windows Remote Management client stack.
+description: Deinitializes the Windows Remote Management client stack.helpviewer_keywords: ["WSManDeinitialize","WSManDeinitialize function [Windows Remote Management]","winrm.wsmandeinitialize","wsman/WSManDeinitialize"]
 old-location: winrm\wsmandeinitialize.htm
 tech.root: winrm
 ms.assetid: 1b20ead1-cda0-4449-a454-1e695fe71de6

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetPlayMode
 title: IWMReaderAdvanced2::GetPlayMode (wmsdkidl.h)
-description: The GetPlayMode method retrieves the current play mode.
+description: The GetPlayMode method retrieves the current play mode.helpviewer_keywords: ["GetPlayMode","GetPlayMode method [windows Media Format]","GetPlayMode method [windows Media Format]","IWMReaderAdvanced2 interface","IWMReaderAdvanced2 interface [windows Media Format]","GetPlayMode method","IWMReaderAdvanced2.GetPlayMode","IWMReaderAdvanced2::GetPlayMode","IWMReaderAdvanced2GetPlayMode","wmformat.iwmreaderadvanced2_getplaymode","wmsdkidl/IWMReaderAdvanced2::GetPlayMode"]
 old-location: wmformat\iwmreaderadvanced2_getplaymode.htm
 tech.root: wmformat
 ms.assetid: 45c7e2c2-fff4-41a9-b5ce-76d8d6257e77

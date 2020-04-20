@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.FindTextStart
 title: ITextRange::FindTextStart (tom.h)
-description: Searches up to Count characters for the string, bstr, starting at the range's Start cp (cpFirst).
+description: Searches up to Count characters for the string, bstr, starting at the range's Start cp (cpFirst).helpviewer_keywords: ["FindTextStart","FindTextStart method [Windows Controls]","FindTextStart method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","FindTextStart method","ITextRange.FindTextStart","ITextRange::FindTextStart","_win32_ITextRange_FindTextStart","_win32_ITextRange_FindTextStart_cpp","controls.ITextRange_FindTextStart","controls._win32_ITextRange_FindTextStart","tom/ITextRange::FindTextStart"]
 old-location: controls\ITextRange_FindTextStart.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtextstart.htm

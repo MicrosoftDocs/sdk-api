@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange2.GetMathFunctionType
 title: ITextRange2::GetMathFunctionType (tom.h)
-description: Retrieves the math function type associated with the specified math function name.
+description: Retrieves the math function type associated with the specified math function name.helpviewer_keywords: ["GetMathFunctionType","GetMathFunctionType method [Windows Controls]","GetMathFunctionType method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetMathFunctionType method","ITextRange2.GetMathFunctionType","ITextRange2::GetMathFunctionType","controls.itextrange2_getmathfunctiontype","tom/ITextRange2::GetMathFunctionType","tomFunctionTypeIsLim","tomFunctionTypeNone","tomFunctionTypeTakesArg","tomFunctionTypeTakesLim","tomFunctionTypeTakesLim2"]
 old-location: controls\itextrange2_getmathfunctiontype.htm
 tech.root: Controls
 ms.assetid: 00bae237-5853-430e-8313-563da0cf0fde

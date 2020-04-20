@@ -1,7 +1,7 @@
 ---
 UID: NS:wincodec.WICImageParameters
 title: WICImageParameters (wincodec.h)
-description: This defines parameters that you can use to override the default parameters normally used when encoding an image.
+description: This defines parameters that you can use to override the default parameters normally used when encoding an image.helpviewer_keywords: ["PWICImageParameters","PWICImageParameters structure pointer [Windows Imaging Component]","WICImageParameters","WICImageParameters structure [Windows Imaging Component]","wic.wicimageparameters","wincodec/PWICImageParameters","wincodec/WICImageParameters"]
 old-location: wic\wicimageparameters.htm
 tech.root: wic
 ms.assetid: 0B461697-C7ED-48C9-A880-1B5F4A26FCFC

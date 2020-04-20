@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkTablets
 title: IInkTablets (msinkaut.h)
-description: .
+description: .helpviewer_keywords: ["IInkTablets","IInkTablets interface [Tablet PC]","IInkTablets interface [Tablet PC]","described","msinkaut/IInkTablets","tablet.iinktablets"]
 old-location: tablet\iinktablets.htm
 tech.root: tablet
 ms.assetid: 98052ECB-9385-45C9-A03C-3F312ADD9872

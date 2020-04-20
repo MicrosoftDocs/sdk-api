@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara2.SetEffects
 title: ITextPara2::SetEffects (tom.h)
-description: Sets the paragraph format effects.
+description: Sets the paragraph format effects.helpviewer_keywords: ["ITextPara2 interface [Windows Controls]","SetEffects method","ITextPara2.SetEffects","ITextPara2::SetEffects","SetEffects","SetEffects method [Windows Controls]","SetEffects method [Windows Controls]","ITextPara2 interface","controls.itextpara2_seteffects","tom/ITextPara2::SetEffects"]
 old-location: controls\itextpara2_seteffects.htm
 tech.root: Controls
 ms.assetid: e7184de4-b416-4f28-8f10-c89ffcccf1a1

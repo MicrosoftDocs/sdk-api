@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_FeatureDecl
 title: MI_FeatureDecl (mi.h)
-description: Contains properties that are common to the MI_PropertyDeclMI_ParameterDecland MI_MethodDecl structures.
+description: Contains properties that are common to the MI_PropertyDeclMI_ParameterDecland MI_MethodDecl structures.helpviewer_keywords: ["MI_FeatureDecl","MI_FeatureDecl structure [Windows Management Infrastructure (MI)]","mi/MI_FeatureDecl","wmi_v2.mi_featuredecl"]
 old-location: wmi_v2\mi_featuredecl.htm
 tech.root: wmi_v2
 ms.assetid: 7C669B89-C6D7-45E5-AAD8-A884F4E87659

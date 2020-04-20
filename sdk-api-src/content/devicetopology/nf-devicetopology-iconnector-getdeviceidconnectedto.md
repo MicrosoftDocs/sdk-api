@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IConnector.GetDeviceIdConnectedTo
 title: IConnector::GetDeviceIdConnectedTo (devicetopology.h)
-description: The GetDeviceIdConnectedTo method gets the device identifier of the audio device, if any, that this connector is connected to.
+description: The GetDeviceIdConnectedTo method gets the device identifier of the audio device, if any, that this connector is connected to.helpviewer_keywords: ["GetDeviceIdConnectedTo","GetDeviceIdConnectedTo method [Core Audio]","GetDeviceIdConnectedTo method [Core Audio]","IConnector interface","IConnector interface [Core Audio]","GetDeviceIdConnectedTo method","IConnector.GetDeviceIdConnectedTo","IConnector::GetDeviceIdConnectedTo","IConnectorGetDeviceIdConnectedTo","coreaudio.iconnector_getdeviceidconnectedto","devicetopology/IConnector::GetDeviceIdConnectedTo"]
 old-location: coreaudio\iconnector_getdeviceidconnectedto.htm
 tech.root: CoreAudio
 ms.assetid: 8f62bdeb-4765-467f-b68d-d94fc9a51dfb

@@ -1,7 +1,7 @@
 ---
 UID: NS:bits1_5.__MIDL_IBackgroundCopyJob2_0001
 title: BG_BASIC_CREDENTIALS
-description: The BG_BASIC_CREDENTIALS structure identifies the user name and password to authenticate.
+description: The BG_BASIC_CREDENTIALS structure identifies the user name and password to authenticate.helpviewer_keywords: ["*PBG_BASIC_CREDENTIALS","BG_BASIC_CREDENTIALS","BG_BASIC_CREDENTIALS structure [BITS]","_drz_bg_basic_credentials","bits.bg_basic_credentials","bits1_5/BG_BASIC_CREDENTIALS"]
 old-location: bits\bg_basic_credentials.htm
 tech.root: Bits
 ms.assetid: e078e464-37b7-45ce-add8-6472a4607ff3

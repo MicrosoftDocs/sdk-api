@@ -1,7 +1,7 @@
 ---
 UID: NF:amvideo.IQualProp.get_FramesDrawn
 title: IQualProp::get_FramesDrawn (amvideo.h)
-description: The get_FramesDrawn method retrieves the number of frames actually drawn since streaming started.
+description: The get_FramesDrawn method retrieves the number of frames actually drawn since streaming started.helpviewer_keywords: ["IQualProp interface [DirectShow]","get_FramesDrawn method","IQualProp.get_FramesDrawn","IQualProp::get_FramesDrawn","IQualPropget_FramesDrawn","amvideo/IQualProp::get_FramesDrawn","dshow.iqualprop_get_framesdrawn","get_FramesDrawn","get_FramesDrawn method [DirectShow]","get_FramesDrawn method [DirectShow]","IQualProp interface"]
 old-location: dshow\iqualprop_get_framesdrawn.htm
 tech.root: DirectShow
 ms.assetid: 5a5d4aee-dd35-432f-b6a6-4b1b59ad9b78

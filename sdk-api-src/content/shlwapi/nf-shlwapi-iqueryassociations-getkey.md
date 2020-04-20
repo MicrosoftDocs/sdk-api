@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IQueryAssociations.GetKey
 title: IQueryAssociations::GetKey (shlwapi.h)
-description: Searches for and retrieves a file or protocol association-related key from the registry.
+description: Searches for and retrieves a file or protocol association-related key from the registry.helpviewer_keywords: ["GetKey","GetKey method [Windows Shell]","GetKey method [Windows Shell]","IQueryAssociations interface","IQueryAssociations interface [Windows Shell]","GetKey method","IQueryAssociations.GetKey","IQueryAssociations::GetKey","_win32_IQueryAssociations_GetKey","shell.IQueryAssociations_GetKey","shlwapi/IQueryAssociations::GetKey"]
 old-location: shell\IQueryAssociations_GetKey.htm
 tech.root: shell
 ms.assetid: 7f380a9e-fda0-46be-88a1-fd73b0a4b7b7

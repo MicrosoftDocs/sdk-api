@@ -1,7 +1,7 @@
 ---
 UID: NE:mbnapi.MBN_SMS_FORMAT
 title: MBN_SMS_FORMAT (mbnapi.h)
-description: Format of SMS messages.
+description: Format of SMS messages.helpviewer_keywords: ["MBN_SMS_FORMAT","MBN_SMS_FORMAT enumeration [Microsoft Broadband Networks]","MBN_SMS_FORMAT_NONE","MBN_SMS_FORMAT_PDU","MBN_SMS_FORMAT_TEXT","mbn.mbn_sms_format","mbnapi/MBN_SMS_FORMAT","mbnapi/MBN_SMS_FORMAT_NONE","mbnapi/MBN_SMS_FORMAT_PDU","mbnapi/MBN_SMS_FORMAT_TEXT"]
 old-location: mbn\mbn_sms_format.htm
 tech.root: mbn
 ms.assetid: ece079e2-43a2-4ca9-9aa7-1b9484f0176e

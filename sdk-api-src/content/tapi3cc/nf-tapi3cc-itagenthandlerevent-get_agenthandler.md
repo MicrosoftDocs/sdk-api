@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgentHandlerEvent.get_AgentHandler
 title: ITAgentHandlerEvent::get_AgentHandler (tapi3cc.h)
-description: The get_AgentHandler method gets the ITAgentHandler interface pointer.
+description: The get_AgentHandler method gets the ITAgentHandler interface pointer.helpviewer_keywords: ["ITAgentHandlerEvent interface [TAPI 2.2]","get_AgentHandler method","ITAgentHandlerEvent.get_AgentHandler","ITAgentHandlerEvent::get_AgentHandler","_tapi3_itagenthandlerevent_get_agenthandler","get_AgentHandler","get_AgentHandler method [TAPI 2.2]","get_AgentHandler method [TAPI 2.2]","ITAgentHandlerEvent interface","tapi3.itagenthandlerevent_get_agenthandler","tapi3cc/ITAgentHandlerEvent::get_AgentHandler"]
 old-location: tapi3\itagenthandlerevent_get_agenthandler.htm
 tech.root: Tapi
 ms.assetid: 7288edb3-e7df-4e31-815d-dc8fc44bb5bc

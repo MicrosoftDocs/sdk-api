@@ -1,7 +1,7 @@
 ---
 UID: NF:faxroute.FaxRouteInitialize
 title: FaxRouteInitialize function (faxroute.h)
-description: The fax service calls the FaxRouteInitialize function once, each time the service starts, to initialize the fax routing extension DLL. Each fax routing extension DLL must export the FaxRouteInitialize function.
+description: The fax service calls the FaxRouteInitialize function once, each time the service starts, to initialize the fax routing extension DLL. Each fax routing extension DLL must export the FaxRouteInitialize function.helpviewer_keywords: ["FaxRouteInitialize","FaxRouteInitialize function [Fax Service]","_mfax_faxrouteinitialize","fax._mfax_faxrouteinitialize","faxroute/FaxRouteInitialize"]
 old-location: fax\_mfax_faxrouteinitialize.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_54o5.htm

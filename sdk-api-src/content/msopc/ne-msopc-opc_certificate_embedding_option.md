@@ -1,7 +1,7 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0004
 title: OPC_CERTIFICATE_EMBEDDING_OPTION (msopc.h)
-description: Describes the storage location of a certificate that is used in signing.
+description: Describes the storage location of a certificate that is used in signing.helpviewer_keywords: ["OPC_CERTIFICATE_EMBEDDING_OPTION","OPC_CERTIFICATE_EMBEDDING_OPTION enumeration [Open Packaging Conventions]","OPC_CERTIFICATE_IN_CERTIFICATE_PART","OPC_CERTIFICATE_IN_SIGNATURE_PART","OPC_CERTIFICATE_NOT_EMBEDDED","msopc/OPC_CERTIFICATE_EMBEDDING_OPTION","msopc/OPC_CERTIFICATE_IN_CERTIFICATE_PART","msopc/OPC_CERTIFICATE_IN_SIGNATURE_PART","msopc/OPC_CERTIFICATE_NOT_EMBEDDED","opc.opc_certificate_embedding_option"]
 old-location: opc\opc_certificate_embedding_option.htm
 tech.root: OPC
 ms.assetid: 4292a53b-33a2-431c-806a-7e8c96ecce40

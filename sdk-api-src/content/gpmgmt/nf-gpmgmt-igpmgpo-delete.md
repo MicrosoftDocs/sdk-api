@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.Delete
 title: IGPMGPO::Delete (gpmgmt.h)
-description: Deletes a Group Policy object (GPO) from the directory service and from the system volume folder (SYSVOL).
+description: Deletes a Group Policy object (GPO) from the directory service and from the system volume folder (SYSVOL).helpviewer_keywords: ["Delete","Delete method [GPMC]","Delete method [GPMC]","GPMGPO class","Delete method [GPMC]","IGPMGPO interface","GPMGPO class [GPMC]","Delete method","IGPMGPO interface [GPMC]","Delete method","IGPMGPO.Delete","IGPMGPO::Delete","_win32_igpmgpo_delete","gpmc.igpmgpo_delete","gpmgmt/IGPMGPO::Delete"]
 old-location: gpmc\igpmgpo_delete.htm
 tech.root: gpmc
 ms.assetid: 63a29bf5-bac5-43af-87ec-01c3c2a5b3af

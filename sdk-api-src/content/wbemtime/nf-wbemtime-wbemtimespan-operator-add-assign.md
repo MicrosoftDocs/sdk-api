@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-add-assign
 title: WBEMTimeSpan::operator-add-assign (wbemtime.h)
-description: The WBEMTimeSpan class add-and-assign operator adds one time span to another. The operation create a new time span that contains the resulting time.
+description: The WBEMTimeSpan class add-and-assign operator adds one time span to another. The operation create a new time span that contains the resulting time.helpviewer_keywords: ["WBEMTimeSpan interface [Windows Management Instrumentation]","operator+= method","WBEMTimeSpan.operator+=","WBEMTimeSpan.operator-add-assign","WBEMTimeSpan::operator+=","WBEMTimeSpan::operator-add-assign","_hmm_wbemtimespan_operator_plus_equal","operator+=","operator+= method [Windows Management Instrumentation]","operator+= method [Windows Management Instrumentation]","WBEMTimeSpan interface","wbemtime/WBEMTimeSpan::operator+=","wmi.wbemtimespan_operator_plus_equal"]
 old-location: wmi\wbemtimespan_operator_plus_equal.htm
 tech.root: WmiSdk
 ms.assetid: d531e7e0-7de2-41d0-bf1b-7c4ef43b3b46

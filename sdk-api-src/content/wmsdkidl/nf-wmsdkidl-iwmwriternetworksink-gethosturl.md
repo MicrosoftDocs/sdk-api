@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.GetHostURL
 title: IWMWriterNetworkSink::GetHostURL (wmsdkidl.h)
-description: The GetHostURL method retrieves the URL from which the stream is broadcast. Clients will access the stream from this URL.
+description: The GetHostURL method retrieves the URL from which the stream is broadcast. Clients will access the stream from this URL.helpviewer_keywords: ["GetHostURL","GetHostURL method [windows Media Format]","GetHostURL method [windows Media Format]","IWMWriterNetworkSink interface","IWMWriterNetworkSink interface [windows Media Format]","GetHostURL method","IWMWriterNetworkSink.GetHostURL","IWMWriterNetworkSink::GetHostURL","IWMWriterNetworkSinkGetHostURL","wmformat.iwmwriternetworksink_gethosturl","wmsdkidl/IWMWriterNetworkSink::GetHostURL"]
 old-location: wmformat\iwmwriternetworksink_gethosturl.htm
 tech.root: wmformat
 ms.assetid: 66d4747e-aec5-47bd-ac4a-dc052e964601

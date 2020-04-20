@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_9
 title: AUTO_SCROLL_DATA (shlobj_core.h)
-description: AUTO_SCROLL_DATA may be altered or unavailable.
+description: AUTO_SCROLL_DATA may be altered or unavailable.helpviewer_keywords: ["AUTO_SCROLL_DATA","AUTO_SCROLL_DATA structure [Windows Shell]","_win32_AUTO_SCROLL_DATA_str","shell.AUTO_SCROLL_DATA_str","shlobj_core/AUTO_SCROLL_DATA"]
 old-location: shell\AUTO_SCROLL_DATA_str.htm
 tech.root: shell
 ms.assetid: 4229dd3b-1fc7-4cc7-bcc9-4e25bdc17c11

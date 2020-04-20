@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_SUBRESOURCE_INFO
 title: D3D12_SUBRESOURCE_INFO (d3d12.h)
-description: Describes subresource data.
+description: Describes subresource data.helpviewer_keywords: ["D3D12_SUBRESOURCE_INFO","D3D12_SUBRESOURCE_INFO structure","d3d12/D3D12_SUBRESOURCE_INFO","direct3d12.d3d12_subresource_info"]
 old-location: direct3d12\d3d12_subresource_info.htm
 tech.root: direct3d12
 ms.assetid: C4AD5D77-ABC0-4CDF-8F91-A363131763A3

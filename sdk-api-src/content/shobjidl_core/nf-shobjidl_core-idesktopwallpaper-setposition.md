@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.SetPosition
 title: IDesktopWallpaper::SetPosition (shobjidl_core.h)
-description: Sets the display option for the desktop wallpaper image, determining whether the image should be centered, tiled, or stretched.
+description: Sets the display option for the desktop wallpaper image, determining whether the image should be centered, tiled, or stretched.helpviewer_keywords: ["IDesktopWallpaper interface [Windows Shell]","SetPosition method","IDesktopWallpaper.SetPosition","IDesktopWallpaper::SetPosition","SetPosition","SetPosition method [Windows Shell]","SetPosition method [Windows Shell]","IDesktopWallpaper interface","shell.IDesktopWallpaper_SetPosition","shobjidl_core/IDesktopWallpaper::SetPosition"]
 old-location: shell\IDesktopWallpaper_SetPosition.htm
 tech.root: shell
 ms.assetid: A4993DB8-9132-43c1-B900-02BA5384B7A8

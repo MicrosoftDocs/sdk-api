@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.LSA_GET_AUTH_DATA_FOR_USER
 title: LSA_GET_AUTH_DATA_FOR_USER (ntsecpkg.h)
-description: The GetAuthDataForUser function retrieves authentication information for a user from the Security Accounts Manager (SAM) database and puts it into a format suitable for the ConvertAuthDataToToken function.
+description: The GetAuthDataForUser function retrieves authentication information for a user from the Security Accounts Manager (SAM) database and puts it into a format suitable for the ConvertAuthDataToToken function.helpviewer_keywords: ["GetAuthDataForUser","GetAuthDataForUser callback function [Security]","LSA_GET_AUTH_DATA_FOR_USER","LSA_GET_AUTH_DATA_FOR_USER callback","SecNameAlternateId","SecNameDN","SecNameFlat","SecNameSamCompatible","_ssp_getauthdataforuser","ntsecpkg/GetAuthDataForUser","security.getauthdataforuser"]
 old-location: security\getauthdataforuser.htm
 tech.root: SecAuthN
 ms.assetid: 1cc02c6b-2628-441d-97ae-ed83a4f6bfd0

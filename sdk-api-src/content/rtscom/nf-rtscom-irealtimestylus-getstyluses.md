@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStyluses
 title: IRealTimeStylus::GetStyluses (rtscom.h)
-description: Retrieves the collection of styluses the RealTimeStylus Class object has encountered.
+description: Retrieves the collection of styluses the RealTimeStylus Class object has encountered.helpviewer_keywords: ["1e838591-ce9e-4f3f-9b5e-b8414faac6ba","GetStyluses","GetStyluses method [Tablet PC]","GetStyluses method [Tablet PC]","IRealTimeStylus interface","IRealTimeStylus interface [Tablet PC]","GetStyluses method","IRealTimeStylus.GetStyluses","IRealTimeStylus::GetStyluses","rtscom/IRealTimeStylus::GetStyluses","tablet.irealtimestylus_getstyluses"]
 old-location: tablet\irealtimestylus_getstyluses.htm
 tech.root: tablet
 ms.assetid: 1e838591-ce9e-4f3f-9b5e-b8414faac6ba

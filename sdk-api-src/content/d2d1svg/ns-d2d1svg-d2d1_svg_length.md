@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1svg.D2D1_SVG_LENGTH
 title: D2D1_SVG_LENGTH (d2d1svg.h)
-description: Represents an SVG length.
+description: Represents an SVG length.helpviewer_keywords: ["D2D1_SVG_LENGTH","D2D1_SVG_LENGTH structure [Direct2D]","d2d1svg/D2D1_SVG_LENGTH","direct2d.d2d1_svg_length"]
 old-location: direct2d\d2d1_svg_length.htm
 tech.root: Direct2D
 ms.assetid: 6DD79037-0BF2-4C1B-A2E3-85EB77682FB6

@@ -1,7 +1,7 @@
 ---
 UID: NE:mbnapi.MBN_DATA_CLASS
 title: MBN_DATA_CLASS (mbnapi.h)
-description: The MBN_DATA_CLASS enumerated type specifies the data classes that a provider supports.
+description: The MBN_DATA_CLASS enumerated type specifies the data classes that a provider supports.helpviewer_keywords: ["MBN_DATA_CLASS","MBN_DATA_CLASS enumeration [Microsoft Broadband Networks]","MBN_DATA_CLASS_1XEVDO","MBN_DATA_CLASS_1XEVDO_REVA","MBN_DATA_CLASS_1XEVDO_REVB","MBN_DATA_CLASS_1XEVDV","MBN_DATA_CLASS_1XRTT","MBN_DATA_CLASS_3XRTT","MBN_DATA_CLASS_CUSTOM","MBN_DATA_CLASS_EDGE","MBN_DATA_CLASS_GPRS","MBN_DATA_CLASS_HSDPA","MBN_DATA_CLASS_HSUPA","MBN_DATA_CLASS_LTE","MBN_DATA_CLASS_NONE","MBN_DATA_CLASS_UMB","MBN_DATA_CLASS_UMTS","mbn.mbn_data_class","mbnapi/MBN_DATA_CLASS","mbnapi/MBN_DATA_CLASS_1XEVDO","mbnapi/MBN_DATA_CLASS_1XEVDO_REVA","mbnapi/MBN_DATA_CLASS_1XEVDO_REVB","mbnapi/MBN_DATA_CLASS_1XEVDV","mbnapi/MBN_DATA_CLASS_1XRTT","mbnapi/MBN_DATA_CLASS_3XRTT","mbnapi/MBN_DATA_CLASS_CUSTOM","mbnapi/MBN_DATA_CLASS_EDGE","mbnapi/MBN_DATA_CLASS_GPRS","mbnapi/MBN_DATA_CLASS_HSDPA","mbnapi/MBN_DATA_CLASS_HSUPA","mbnapi/MBN_DATA_CLASS_LTE","mbnapi/MBN_DATA_CLASS_NONE","mbnapi/MBN_DATA_CLASS_UMB","mbnapi/MBN_DATA_CLASS_UMTS"]
 old-location: mbn\mbn_data_class.htm
 tech.root: mbn
 ms.assetid: 798d5d72-9267-433f-b890-9302a0a600f2

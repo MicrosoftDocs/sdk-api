@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetNativeMediaType
 title: IMFSourceReader::GetNativeMediaType (mfreadwrite.h)
-description: Gets a format that is supported natively by the media source.
+description: Gets a format that is supported natively by the media source.helpviewer_keywords: ["GetNativeMediaType","GetNativeMediaType method [Media Foundation]","GetNativeMediaType method [Media Foundation]","IMFSourceReader interface","IMFSourceReader interface [Media Foundation]","GetNativeMediaType method","IMFSourceReader.GetNativeMediaType","IMFSourceReader::GetNativeMediaType","MF_SOURCE_READER_CURRENT_TYPE_INDEX","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","mf.imfsourcereader_getnativemediatype","mfreadwrite/IMFSourceReader::GetNativeMediaType"]
 old-location: mf\imfsourcereader_getnativemediatype.htm
 tech.root: medfound
 ms.assetid: 4b514f8d-082f-4e84-b512-d4a59706a6d8

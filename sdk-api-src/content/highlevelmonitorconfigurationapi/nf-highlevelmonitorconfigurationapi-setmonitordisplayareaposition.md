@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorDisplayAreaPosition
 title: SetMonitorDisplayAreaPosition function (highlevelmonitorconfigurationapi.h)
-description: Sets the horizontal or vertical position of a monitor's display area.
+description: Sets the horizontal or vertical position of a monitor's display area.helpviewer_keywords: ["SetMonitorDisplayAreaPosition","SetMonitorDisplayAreaPosition function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorDisplayAreaPosition","monitor.setmonitordisplayareaposition"]
 old-location: monitor\setmonitordisplayareaposition.htm
 tech.root: Monitor
 ms.assetid: ad7604e5-5ede-479b-881e-0a6060182e5b

@@ -1,7 +1,7 @@
 ---
 UID: NS:mapi.__unnamed_struct_6
 title: MapiMessageW (mapi.h)
-description: A MapiMessageW structure contains information about a message.
+description: A MapiMessageW structure contains information about a message.helpviewer_keywords: ["*lpMapiMessageW","MAPI_RECEIPT_REQUESTED","MAPI_SENT","MAPI_UNREAD","MapiMessageW","MapiMessageW structure","lpMapiMessageW","lpMapiMessageW structure pointer","mapi.mapimessagew","mapi/MapiMessageW","mapi/lpMapiMessageW"]
 old-location: mapi\mapimessagew.htm
 tech.root: WindowsMAPI
 ms.assetid: 3C74A9C0-1483-4A97-94EB-19A0D30D9A08

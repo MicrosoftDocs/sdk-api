@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMDRMReader
 title: IWMDRMReader (wmsdkidl.h)
-description: The IWMDRMReader interface provides methods to configure the DRM component and to manage DRM license acquisition and individualization of client applications.
+description: The IWMDRMReader interface provides methods to configure the DRM component and to manage DRM license acquisition and individualization of client applications.helpviewer_keywords: ["IWMDRMReader","IWMDRMReader interface [windows Media Format]","IWMDRMReader interface [windows Media Format]","described","IWMDRMReaderInterface","wmformat.iwmdrmreader","wmsdkidl/IWMDRMReader"]
 old-location: wmformat\iwmdrmreader.htm
 tech.root: wmformat
 ms.assetid: bf4ff0f3-1f78-43c4-be4d-c74209176e58

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorSplatY
 title: XMVectorSplatY function (directxmath.h)
-description: Replicates the y component of a vector to all of the components.
+description: Replicates the y component of a vector to all of the components.helpviewer_keywords: ["Use DirectX..XMVectorSplatY","XMVectorSplatY","XMVectorSplatY method [DirectX Math Support APIs]","dxmath.xmvectorsplaty"]
 old-location: dxmath\xmvectorsplaty.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSplatY(XMVECTOR)

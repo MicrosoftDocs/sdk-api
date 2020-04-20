@@ -1,7 +1,7 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyDataObject.ReleaseData
 title: IPrintAsyncNotifyDataObject::ReleaseData (prnasnot.h)
-description: Releases the memory used by the data encapsulated in IPrintAsyncNotifyDataObject.
+description: Releases the memory used by the data encapsulated in IPrintAsyncNotifyDataObject.helpviewer_keywords: ["IPrintAsyncNotifyDataObject interface [Windows GDI]","ReleaseData method","IPrintAsyncNotifyDataObject.ReleaseData","IPrintAsyncNotifyDataObject::ReleaseData","ReleaseData","ReleaseData method [Windows GDI]","ReleaseData method [Windows GDI]","IPrintAsyncNotifyDataObject interface","_win32_IPrintAsyncNotifyDataObject_ReleaseData","gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__releasedata","prnasnot/IPrintAsyncNotifyDataObject::ReleaseData"]
 old-location: gdi\iprintasyncnotifydataobject_iprintasyncnotifydataobject__releasedata.htm
 tech.root: printdocs
 ms.assetid: f4960aa1-237f-491e-b69c-0aa107d9ddad

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IValueMap.Add
 title: IValueMap::Add (pla.h)
-description: Adds an item to the collection.
+description: Adds an item to the collection.helpviewer_keywords: ["Add","Add method [PLA]","Add method [PLA]","IValueMap interface","IValueMap interface [PLA]","Add method","IValueMap.Add","IValueMap::Add","base.ivaluemap_add","pla.ivaluemap_add","pla/IValueMap::Add"]
 old-location: pla\ivaluemap_add.htm
 tech.root: PLA
 ms.assetid: 4a6f074d-8d18-44ea-bbbc-8d3a7f6c033a

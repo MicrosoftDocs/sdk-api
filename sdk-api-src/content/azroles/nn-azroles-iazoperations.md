@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzOperations
 title: IAzOperations (azroles.h)
-description: Represents a collection of IAzOperation objects.
+description: Represents a collection of IAzOperation objects.helpviewer_keywords: ["IAzOperations","IAzOperations interface [Security]","IAzOperations interface [Security]","described","azroles/IAzOperations","security.iazoperations"]
 old-location: security\iazoperations.htm
 tech.root: SecAuthZ
 ms.assetid: 43db28af-86cb-4530-a87b-d11061533d84

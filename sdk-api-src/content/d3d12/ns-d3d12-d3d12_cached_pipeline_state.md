@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_CACHED_PIPELINE_STATE
 title: D3D12_CACHED_PIPELINE_STATE (d3d12.h)
-description: Stores a pipeline state.
+description: Stores a pipeline state.helpviewer_keywords: ["D3D12_CACHED_PIPELINE_STATE","D3D12_CACHED_PIPELINE_STATE structure","d3d12/D3D12_CACHED_PIPELINE_STATE","direct3d12.d3d12_cached_pipeline_state"]
 old-location: direct3d12\d3d12_cached_pipeline_state.htm
 tech.root: direct3d12
 ms.assetid: 82A0CF70-7A16-45D5-A717-0BBB35DCC5A6

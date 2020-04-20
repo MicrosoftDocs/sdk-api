@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.ISuspensionDependencyManager
 title: ISuspensionDependencyManager (shobjidl_core.h)
-description: .
+description: .helpviewer_keywords: ["ISuspensionDependencyManager","ISuspensionDependencyManager interface [Windows Shell]","ISuspensionDependencyManager interface [Windows Shell]","described","shell.ISuspensionDependencyManager","shobjidl_core/ISuspensionDependencyManager"]
 old-location: shell\ISuspensionDependencyManager.htm
 tech.root: shell
 ms.assetid: F632DC0B-01EF-4421-ADF3-2CD5AD363CC0

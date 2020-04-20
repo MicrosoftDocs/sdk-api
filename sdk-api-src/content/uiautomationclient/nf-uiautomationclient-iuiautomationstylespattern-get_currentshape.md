@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentShape
 title: IUIAutomationStylesPattern::get_CurrentShape (uiautomationclient.h)
-description: Retrieves the shape of an element in a document.
+description: Retrieves the shape of an element in a document.helpviewer_keywords: ["CurrentShape property [Windows Accessibility]","CurrentShape property [Windows Accessibility]","IUIAutomationStylesPattern interface","IUIAutomationStylesPattern interface [Windows Accessibility]","CurrentShape property","IUIAutomationStylesPattern.CurrentShape","IUIAutomationStylesPattern.get_CurrentShape","IUIAutomationStylesPattern::CurrentShape","IUIAutomationStylesPattern::get_CurrentShape","get_CurrentShape","uiautomationclient/IUIAutomationStylesPattern::CurrentShape","uiautomationclient/IUIAutomationStylesPattern::get_CurrentShape","winauto.uiauto_IUIAutomationStylesPattern_CurrentShape"]
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentShape.htm
 tech.root: WinAuto
 ms.assetid: 597609F0-D2F1-447D-80EC-426066581380

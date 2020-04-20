@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE (wincrypt.h)
-description: Releases the provider.
+description: Releases the provider.helpviewer_keywords: ["CRYPT_OBJECT_LOCATOR_RELEASE_DLL_UNLOAD","CRYPT_OBJECT_LOCATOR_RELEASE_PROCESS_EXIT","CRYPT_OBJECT_LOCATOR_RELEASE_SERVICE_STOP","CRYPT_OBJECT_LOCATOR_RELEASE_SYSTEM_SHUTDOWN","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE callback","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE callback function [Security]","security.pfn_crypt_object_locator_provider_release","wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE"]
 old-location: security\pfn_crypt_object_locator_provider_release.htm
 tech.root: SecCrypto
 ms.assetid: DDF1243D-A6C8-426A-A800-018E7FF7E182

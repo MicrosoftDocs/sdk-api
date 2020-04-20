@@ -1,7 +1,7 @@
 ---
 UID: NF:clfsw32.LsnContainer
 title: LsnContainer function (clfsw32.h)
-description: Retrieves the logical container ID that is contained in a specified LSN.
+description: Retrieves the logical container ID that is contained in a specified LSN.helpviewer_keywords: ["LsnContainer","LsnContainer function [Files]","clfsw32/LsnContainer","fs.lsncontainer"]
 old-location: fs\lsncontainer.htm
 tech.root: Clfs
 ms.assetid: 1bbbb37b-8197-44bd-b19b-c43ece1c46d2

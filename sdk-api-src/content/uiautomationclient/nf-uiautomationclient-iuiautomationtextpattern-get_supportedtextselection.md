@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.get_SupportedTextSelection
 title: IUIAutomationTextPattern::get_SupportedTextSelection (uiautomationclient.h)
-description: Retrieves a value that specifies the type of text selection that is supported by the control.
+description: Retrieves a value that specifies the type of text selection that is supported by the control.helpviewer_keywords: ["IUIAutomationTextPattern interface [Windows Accessibility]","SupportedTextSelection property","IUIAutomationTextPattern.SupportedTextSelection","IUIAutomationTextPattern.get_SupportedTextSelection","IUIAutomationTextPattern::SupportedTextSelection","IUIAutomationTextPattern::get_SupportedTextSelection","SupportedTextSelection property [Windows Accessibility]","SupportedTextSelection property [Windows Accessibility]","IUIAutomationTextPattern interface","get_SupportedTextSelection","uiauto.uiauto_IUIAutomationTextPattern_SupportedTextSelection","uiauto_IUIAutomationTextPattern_SupportedTextSelection","uiautomationclient/IUIAutomationTextPattern::SupportedTextSelection","uiautomationclient/IUIAutomationTextPattern::get_SupportedTextSelection","winauto.uiauto_IUIAutomationTextPattern_SupportedTextSelection"]
 old-location: winauto\uiauto_IUIAutomationTextPattern_SupportedTextSelection.htm
 tech.root: WinAuto
 ms.assetid: 794c08d4-9305-4fdd-8ca0-188e1e9b6547

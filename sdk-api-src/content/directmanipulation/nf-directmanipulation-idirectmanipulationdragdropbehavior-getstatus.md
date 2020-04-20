@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDragDropBehavior.GetStatus
 title: IDirectManipulationDragDropBehavior::GetStatus (directmanipulation.h)
-description: Gets the status of the drag-drop interaction for the viewport this behavior is attached to.
+description: Gets the status of the drag-drop interaction for the viewport this behavior is attached to.helpviewer_keywords: ["GetStatus","GetStatus method [Direct Manipulation]","GetStatus method [Direct Manipulation]","IDirectManipulationDragDropBehavior interface","IDirectManipulationDragDropBehavior interface [Direct Manipulation]","GetStatus method","IDirectManipulationDragDropBehavior.GetStatus","IDirectManipulationDragDropBehavior::GetStatus","directmanipulation.idirectmanipulationdragdropbehavior_getstatus","directmanipulation/IDirectManipulationDragDropBehavior::GetStatus"]
 old-location: directmanipulation\idirectmanipulationdragdropbehavior_getstatus.htm
 tech.root: directmanipulation
 ms.assetid: 40D706B0-E396-436C-BD0B-66B8F6EFA5B1

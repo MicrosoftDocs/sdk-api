@@ -1,7 +1,7 @@
 ---
 UID: NN:mftransform.IMFDeviceTransform
 title: IMFDeviceTransform (mftransform.h)
-description: This section contains reference information for the IMFDeviceTransform interface.
+description: This section contains reference information for the IMFDeviceTransform interface.helpviewer_keywords: ["IMFDeviceTransform","IMFDeviceTransform interface [Streaming Media Devices]","IMFDeviceTransform interface [Streaming Media Devices]","described","mftransform/IMFDeviceTransform","stream.imfdevicetransform"]
 old-location: stream\imfdevicetransform.htm
 tech.root: stream
 ms.assetid: 375293FA-8017-4F74-A93C-C15FED8F19AF

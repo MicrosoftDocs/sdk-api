@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateGuidArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-description: Creates a new IPropertyValue object that contains the specified array of Guid values.
+description: Creates a new IPropertyValue object that contains the specified array of Guid values.helpviewer_keywords: ["CreateGuidArray","CreateGuidArray method [Windows Runtime]","CreateGuidArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateGuidArray method","IPropertyValueStatics.CreateGuidArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateGuidArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateGuidArray","winrt.ipropertyvaluefactory_createguidarray","winrt.ipropertyvaluestatics_createguidarray"]
 old-location: winrt\ipropertyvaluestatics_createguidarray.htm
 tech.root: WinRT
 ms.assetid: 8284b582-2bba-4afd-9f8c-3b2169e0adbf

@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.RtlAddGrowableFunctionTable
 title: RtlAddGrowableFunctionTable function (winnt.h)
-description: Informs the system of a dynamic function table representing a region of memory containing code.
+description: Informs the system of a dynamic function table representing a region of memory containing code.helpviewer_keywords: ["RtlAddGrowableFunctionTable","RtlAddGrowableFunctionTable function","base.rtladdgrowablefunctiontable","winnt/RtlAddGrowableFunctionTable"]
 old-location: base\rtladdgrowablefunctiontable.htm
 tech.root: Debug
 ms.assetid: 84ba7171-a4eb-4807-9883-f4fac6296ed0

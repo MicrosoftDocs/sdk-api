@@ -1,7 +1,7 @@
 ---
 UID: NE:dwmapi.DWMTRANSITION_OWNEDWINDOW_TARGET
 title: DWMTRANSITION_OWNEDWINDOW_TARGET (dwmapi.h)
-description: Identifies the target.
+description: Identifies the target.helpviewer_keywords: ["DWMTRANSITION_OWNEDWINDOW_NULL","DWMTRANSITION_OWNEDWINDOW_REPOSITION","DWMTRANSITION_OWNEDWINDOW_TARGET","DWMTRANSITION_OWNEDWINDOW_TARGET enumeration [Desktop Window Manager]","dwm.dwmtransition_ownedwindow_target","dwmapi/DWMTRANSITION_OWNEDWINDOW_NULL","dwmapi/DWMTRANSITION_OWNEDWINDOW_REPOSITION","dwmapi/DWMTRANSITION_OWNEDWINDOW_TARGET"]
 old-location: dwm\dwmtransition_ownedwindow_target.htm
 tech.root: dwm
 ms.assetid: 01164EBA-EAD1-47EB-9ED6-F4791DAF7E00

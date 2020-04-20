@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmCalloutDestroyEnumHandle0
 title: FwpmCalloutDestroyEnumHandle0 function (fwpmu.h)
-description: Frees a handle returned by FwpmCalloutCreateEnumHandle0.
+description: Frees a handle returned by FwpmCalloutCreateEnumHandle0.helpviewer_keywords: ["FwpmCalloutDestroyEnumHandle0","FwpmCalloutDestroyEnumHandle0 function [Filtering]","fwp.fwpmcalloutdestroyenumhandle0_func","fwpmu/FwpmCalloutDestroyEnumHandle0"]
 old-location: fwp\fwpmcalloutdestroyenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 6aa41eed-b53c-4b35-a45c-88f89086cacc

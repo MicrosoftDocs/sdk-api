@@ -1,7 +1,7 @@
 ---
 UID: NE:wmpservices.WMPPlugin_Caps
 title: WMPPlugin_Caps (wmpservices.h)
-description: The WMPPlugin_Caps enumeration type signals whether the plug-in can convert between input and output formats.
+description: The WMPPlugin_Caps enumeration type signals whether the plug-in can convert between input and output formats.helpviewer_keywords: ["WMPPlugin_Caps","WMPPlugin_Caps enumeration [Windows Media Player]","WMPPlugin_CapsDSP","WMPPlugin_Caps_CannotConvertFormats","wmp.wmpplugin_caps","wmpservices/WMPPlugin_Caps","wmpservices/WMPPlugin_Caps_CannotConvertFormats"]
 old-location: wmp\wmpplugin_caps.htm
 tech.root: WMP
 ms.assetid: 0f6cad76-7583-4272-88d7-25a121a0c2b9

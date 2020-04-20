@@ -1,7 +1,7 @@
 ---
 UID: NE:interactioncontext.CROSS_SLIDE_FLAGS
 title: CROSS_SLIDE_FLAGS (interactioncontext.h)
-description: Specifies the state of the cross-slide interaction.
+description: Specifies the state of the cross-slide interaction.helpviewer_keywords: ["CROSS_SLIDE_FLAGS","CROSS_SLIDE_FLAGS enumeration","CROSS_SLIDE_FLAGS_MAX","CROSS_SLIDE_FLAGS_NONE","CROSS_SLIDE_FLAGS_REARRANGE","CROSS_SLIDE_FLAGS_SELECT","CROSS_SLIDE_FLAGS_SPEED_BUMP","input_intcontext.cross_slide_flags","interactioncontext.cross_slide_flags","interactioncontext/CROSS_SLIDE_FLAGS","interactioncontext/CROSS_SLIDE_FLAGS_MAX","interactioncontext/CROSS_SLIDE_FLAGS_NONE","interactioncontext/CROSS_SLIDE_FLAGS_REARRANGE","interactioncontext/CROSS_SLIDE_FLAGS_SELECT","interactioncontext/CROSS_SLIDE_FLAGS_SPEED_BUMP"]
 old-location: input_intcontext\cross_slide_flags.htm
 tech.root: Input_IntContext
 ms.assetid: 3be72ad1-87da-4c08-84fd-a84d4c03d33b

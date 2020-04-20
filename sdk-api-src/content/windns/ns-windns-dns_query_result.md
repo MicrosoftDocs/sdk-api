@@ -1,7 +1,7 @@
 ---
 UID: NS:windns._DNS_QUERY_RESULT
 title: DNS_QUERY_RESULT (windns.h)
-description: A DNS_QUERY_RESULT structure contains the DNS query results returned from a call to DnsQueryEx.
+description: A DNS_QUERY_RESULT structure contains the DNS query results returned from a call to DnsQueryEx.helpviewer_keywords: ["*PDNS_QUERY_RESULT","DNS_QUERY_REQUEST_VERSION1","DNS_QUERY_RESULT","DNS_QUERY_RESULT structure [DNS]","PDNS_QUERY_RESULT","PDNS_QUERY_RESULT structure pointer [DNS]","dns.dns_query_result","windns/DNS_QUERY_RESULT","windns/PDNS_QUERY_RESULT"]
 old-location: dns\dns_query_result.htm
 tech.root: DNS
 ms.assetid: 03EB1DC2-FAB0-45C5-B438-E8FFDD218F09

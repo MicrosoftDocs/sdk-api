@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.Map
 title: ID3D11DeviceContext::Map (d3d11.h)
-description: Gets a pointer to the data contained in a subresource, and denies the GPU access to that subresource.
+description: Gets a pointer to the data contained in a subresource, and denies the GPU access to that subresource.helpviewer_keywords: ["8c85eb6d-c7f1-0944-a729-628dc7dd5fbc","ID3D11DeviceContext interface [Direct3D 11]","Map method","ID3D11DeviceContext.Map","ID3D11DeviceContext::Map","Map","Map method [Direct3D 11]","Map method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::Map","direct3d11.id3d11devicecontext_map"]
 old-location: direct3d11\id3d11devicecontext_map.htm
 tech.root: direct3d11
 ms.assetid: c9d57873-1faa-42fa-855c-26f565e3b27c

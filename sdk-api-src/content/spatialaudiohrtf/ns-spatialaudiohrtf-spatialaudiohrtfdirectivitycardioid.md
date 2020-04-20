@@ -1,7 +1,7 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityCardioid
 title: SpatialAudioHrtfDirectivityCardioid (spatialaudiohrtf.h)
-description: Represents a cardioid-shaped directivity model for an ISpatialAudioObjectForHrtf.
+description: Represents a cardioid-shaped directivity model for an ISpatialAudioObjectForHrtf.helpviewer_keywords: ["PSpatialAudioHrtfDirectivityCardioid","PSpatialAudioHrtfDirectivityCardioid structure pointer [Core Audio]","SpatialAudioHrtfDirectivityCardioid","SpatialAudioHrtfDirectivityCardioid structure [Core Audio]","coreaudio.spatialaudiohrtfdirectivitycardioid","spatialaudiohrtf/PSpatialAudioHrtfDirectivityCardioid","spatialaudiohrtf/SpatialAudioHrtfDirectivityCardioid"]
 old-location: coreaudio\spatialaudiohrtfdirectivitycardioid.htm
 tech.root: CoreAudio
 ms.assetid: 71E2E152-14DC-472B-B582-82D4412EAA85

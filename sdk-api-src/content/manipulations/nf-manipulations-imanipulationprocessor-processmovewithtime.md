@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessMoveWithTime
 title: IManipulationProcessor::ProcessMoveWithTime (manipulations.h)
-description: Feeds movement data, including a time stamp, for the target object to its manipulation processor.
+description: Feeds movement data, including a time stamp, for the target object to its manipulation processor.helpviewer_keywords: ["IManipulationProcessor interface [Windows Touch]","ProcessMoveWithTime method","IManipulationProcessor.ProcessMoveWithTime","IManipulationProcessor::ProcessMoveWithTime","ProcessMoveWithTime","ProcessMoveWithTime method [Windows Touch]","ProcessMoveWithTime method [Windows Touch]","IManipulationProcessor interface","manipulations/IManipulationProcessor::ProcessMoveWithTime","wintouch.imanpiulationprocessor_processmovewithtime"]
 old-location: wintouch\imanpiulationprocessor_processmovewithtime.htm
 tech.root: wintouch
 ms.assetid: 0840ef85-9b18-4248-96fe-93653274a89a

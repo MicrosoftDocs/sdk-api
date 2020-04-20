@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManagerEvents.OnConnectionProfileRemoval
 title: IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval (mbnapi.h)
-description: Notification method that indicates a connection profile has been removed from the system.
+description: Notification method that indicates a connection profile has been removed from the system.helpviewer_keywords: ["IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks]","OnConnectionProfileRemoval method","IMbnConnectionProfileManagerEvents.OnConnectionProfileRemoval","IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval","OnConnectionProfileRemoval","OnConnectionProfileRemoval method [Microsoft Broadband Networks]","OnConnectionProfileRemoval method [Microsoft Broadband Networks]","IMbnConnectionProfileManagerEvents interface","mbn.imbnconnectionprofilemanagerevents_onconnectionprofileremoval","mbnapi/IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval"]
 old-location: mbn\imbnconnectionprofilemanagerevents_onconnectionprofileremoval.htm
 tech.root: mbn
 ms.assetid: 30b8c7fb-5a48-4025-aa94-18f17e7c8d19

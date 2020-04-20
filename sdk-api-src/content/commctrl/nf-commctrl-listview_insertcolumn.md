@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_InsertColumn
 title: ListView_InsertColumn macro (commctrl.h)
-description: Inserts a new column in a list-view control. You can use this macro or send the LVM_INSERTCOLUMN message explicitly.
+description: Inserts a new column in a list-view control. You can use this macro or send the LVM_INSERTCOLUMN message explicitly.helpviewer_keywords: ["ListView_InsertColumn","ListView_InsertColumn macro [Windows Controls]","_win32_ListView_InsertColumn","_win32_ListView_InsertColumn_cpp","commctrl/ListView_InsertColumn","controls.ListView_InsertColumn","controls._win32_ListView_InsertColumn"]
 old-location: controls\ListView_InsertColumn.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertcolumn.htm

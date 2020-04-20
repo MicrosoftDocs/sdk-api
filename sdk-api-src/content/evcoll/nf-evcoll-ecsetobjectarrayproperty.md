@@ -1,7 +1,7 @@
 ---
 UID: NF:evcoll.EcSetObjectArrayProperty
 title: EcSetObjectArrayProperty function (evcoll.h)
-description: Sets a property value in an array of property values for the event sources of a subscription.
+description: Sets a property value in an array of property values for the event sources of a subscription.helpviewer_keywords: ["EcSetObjectArrayProperty","EcSetObjectArrayProperty function","evcoll/EcSetObjectArrayProperty","wec.ecsetobjectarrayproperty","wes.ecsetobjectarrayproperty"]
 old-location: wec\ecsetobjectarrayproperty.htm
 tech.root: WEC
 ms.assetid: 0c219e3b-a7dd-4a7f-8fb3-0d281351ba24

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFMediaType.GetMajorType
 title: IMFMediaType::GetMajorType (mfobjects.h)
-description: Gets the major type of the format.
+description: Gets the major type of the format.helpviewer_keywords: ["98f0a9ca-4766-4d2b-89b8-d6e30b75f47d","GetMajorType","GetMajorType method [Media Foundation]","GetMajorType method [Media Foundation]","IMFMediaType interface","IMFMediaType interface [Media Foundation]","GetMajorType method","IMFMediaType.GetMajorType","IMFMediaType::GetMajorType","mf.imfmediatype_getmajortype","mfobjects/IMFMediaType::GetMajorType"]
 old-location: mf\imfmediatype_getmajortype.htm
 tech.root: medfound
 ms.assetid: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d

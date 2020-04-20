@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IShellItemArray
 title: IShellItemArray (shobjidl_core.h)
-description: Exposes methods that create and manipulate Shell item arrays.
+description: Exposes methods that create and manipulate Shell item arrays.helpviewer_keywords: ["IShellItemArray","IShellItemArray interface [Windows Shell]","IShellItemArray interface [Windows Shell]","described","_shell_IShellItemArray","shell.IShellItemArray","shobjidl_core/IShellItemArray"]
 old-location: shell\IShellItemArray.htm
 tech.root: shell
 ms.assetid: 348213d1-c03f-4c38-9d13-3b1009d94e07

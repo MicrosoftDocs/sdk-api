@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBundleReader
 title: IAppxBundleReader (appxpackaging.h)
-description: Provides a read-only object model for bundle packages.
+description: Provides a read-only object model for bundle packages.helpviewer_keywords: ["IAppxBundleReader","IAppxBundleReader interface [App packaging and management]","IAppxBundleReader interface [App packaging and management]","described","appxpackaging/IAppxBundleReader","appxpkg.iappxbundlereader"]
 old-location: appxpkg\iappxbundlereader.htm
 tech.root: appxpkg
 ms.assetid: 3847AF32-D8E4-4BB2-9FBC-7CFAEF2CA664

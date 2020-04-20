@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbParentalRatingDescriptor.GetLength
 title: IDvbParentalRatingDescriptor::GetLength (dvbsiparser.h)
-description: Gets the body length of a Digital Video Broadcast (DVB) parental rating descriptor, in bytes,.
+description: Gets the body length of a Digital Video Broadcast (DVB) parental rating descriptor, in bytes,.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbParentalRatingDescriptor interface","IDvbParentalRatingDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbParentalRatingDescriptor.GetLength","IDvbParentalRatingDescriptor::GetLength","dvbsiparser/IDvbParentalRatingDescriptor::GetLength","mstv.idvbparentalratingdescriptor_getlength"]
 old-location: mstv\idvbparentalratingdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 019c6998-74b3-4966-ad5d-b8da2bbacca5

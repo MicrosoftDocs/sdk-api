@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagWINDOWINFO
 title: WINDOWINFO (winuser.h)
-description: Contains window information.
+description: Contains window information.helpviewer_keywords: ["*LPWINDOWINFO","*PWINDOWINFO","LPWINDOWINFO","LPWINDOWINFO structure pointer [Windows and Messages]","PWINDOWINFO","PWINDOWINFO structure pointer [Windows and Messages]","WINDOWINFO","WINDOWINFO structure [Windows and Messages]","_win32_WINDOWINFO_str","_win32_windowinfo_str_cpp","winmsg.windowinfo","winui._win32_windowinfo_str","winuser/LPWINDOWINFO","winuser/PWINDOWINFO","winuser/WINDOWINFO"]
 old-location: winmsg\windowinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\windowinfo.htm

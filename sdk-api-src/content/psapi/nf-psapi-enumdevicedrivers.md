@@ -1,7 +1,7 @@
 ---
 UID: NF:psapi.EnumDeviceDrivers
 title: EnumDeviceDrivers function (psapi.h)
-description: Retrieves the load address for each device driver in the system.
+description: Retrieves the load address for each device driver in the system.helpviewer_keywords: ["EnumDeviceDrivers","EnumDeviceDrivers function [PSAPI]","K32EnumDeviceDrivers","_win32_enumdevicedrivers","base.enumdevicedrivers","psapi.enumdevicedrivers","psapi/EnumDeviceDrivers","psapi/K32EnumDeviceDrivers"]
 old-location: psapi\enumdevicedrivers.htm
 tech.root: psapi
 ms.assetid: 55925741-da23-44b1-93e8-0e9468434a61

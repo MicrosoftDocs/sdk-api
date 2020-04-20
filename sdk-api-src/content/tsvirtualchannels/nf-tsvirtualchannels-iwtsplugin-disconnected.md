@@ -1,7 +1,7 @@
 ---
 UID: NF:tsvirtualchannels.IWTSPlugin.Disconnected
 title: IWTSPlugin::Disconnected (tsvirtualchannels.h)
-description: Notifies the plug-in that the Remote Desktop Connection (RDC) client has disconnected from the Remote Desktop Session Host (RD Session Host) server.
+description: Notifies the plug-in that the Remote Desktop Connection (RDC) client has disconnected from the Remote Desktop Session Host (RD Session Host) server.helpviewer_keywords: ["Disconnected","Disconnected method [Remote Desktop Services]","Disconnected method [Remote Desktop Services]","IWTSPlugin interface","IWTSPlugin interface [Remote Desktop Services]","Disconnected method","IWTSPlugin.Disconnected","IWTSPlugin::Disconnected","termserv.iwtsplugin_disconnected","tsvirtualchannels/IWTSPlugin::Disconnected"]
 old-location: termserv\iwtsplugin_disconnected.htm
 tech.root: TermServ
 ms.assetid: cbc753b4-531f-476e-8743-b8fbf2481c91

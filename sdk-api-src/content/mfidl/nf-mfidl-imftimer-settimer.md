@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFTimer.SetTimer
 title: IMFTimer::SetTimer (mfidl.h)
-description: Sets a timer that invokes a callback at the specified time.
+description: Sets a timer that invokes a callback at the specified time.helpviewer_keywords: ["3b583541-6480-490d-883f-376ea95f7a98","IMFTimer interface [Media Foundation]","SetTimer method","IMFTimer.SetTimer","IMFTimer::SetTimer","SetTimer","SetTimer method [Media Foundation]","SetTimer method [Media Foundation]","IMFTimer interface","mf.imftimer_settimer","mfidl/IMFTimer::SetTimer"]
 old-location: mf\imftimer_settimer.htm
 tech.root: medfound
 ms.assetid: 3b583541-6480-490d-883f-376ea95f7a98

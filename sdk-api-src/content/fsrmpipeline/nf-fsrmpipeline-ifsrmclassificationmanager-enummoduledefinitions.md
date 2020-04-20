@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.EnumModuleDefinitions
 title: IFsrmClassificationManager::EnumModuleDefinitions (fsrmpipeline.h)
-description: Enumerates the module definitions of the specified type.
+description: Enumerates the module definitions of the specified type.helpviewer_keywords: ["EnumModuleDefinitions","EnumModuleDefinitions method [File Server Resource Manager]","EnumModuleDefinitions method [File Server Resource Manager]","FsrmClassificationManager class","EnumModuleDefinitions method [File Server Resource Manager]","IFsrmClassificationManager interface","EnumModuleDefinitions method [File Server Resource Manager]","IFsrmClassificationManager2 interface","FsrmClassificationManager class [File Server Resource Manager]","EnumModuleDefinitions method","IFsrmClassificationManager interface [File Server Resource Manager]","EnumModuleDefinitions method","IFsrmClassificationManager.EnumModuleDefinitions","IFsrmClassificationManager2 interface [File Server Resource Manager]","EnumModuleDefinitions method","IFsrmClassificationManager2::EnumModuleDefinitions","IFsrmClassificationManager::EnumModuleDefinitions","fs.ifsrmclassificationmanager_enummoduledefinitions","fsrm.ifsrmclassificationmanager_enummoduledefinitions","fsrmpipeline/IFsrmClassificationManager2::EnumModuleDefinitions","fsrmpipeline/IFsrmClassificationManager::EnumModuleDefinitions"]
 old-location: fsrm\ifsrmclassificationmanager_enummoduledefinitions.htm
 tech.root: fsrm
 ms.assetid: eeda0802-e450-4a8b-a08c-135784540b17

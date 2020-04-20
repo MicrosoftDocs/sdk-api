@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_SET_INDICATORS
 title: IOCTL_KEYBOARD_SET_INDICATORS (ntddkbd.h)
-description: The IOCTL_KEYBOARD_SET_INDICATORS request sets the keyboard indicators.
+description: The IOCTL_KEYBOARD_SET_INDICATORS request sets the keyboard indicators.helpviewer_keywords: ["IOCTL_KEYBOARD_SET_INDICATORS","IOCTL_KEYBOARD_SET_INDICATORS control","IOCTL_KEYBOARD_SET_INDICATORS control code [Human Input Devices]","hid.ioctl_keyboard_set_indicators2","i8042ref_45e33d11-eb35-4f90-b7c8-52f75afb60ef.xml","ntddkbd/IOCTL_KEYBOARD_SET_INDICATORS"]
 old-location: hid\ioctl_keyboard_set_indicators2.htm
 tech.root: hid
 ms.assetid: 34b25d9d-daa5-48c6-8941-f3795ef1802b

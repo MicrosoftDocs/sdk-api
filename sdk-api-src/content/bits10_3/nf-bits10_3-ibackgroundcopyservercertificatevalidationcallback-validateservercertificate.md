@@ -3,7 +3,7 @@ UID: NF:bits10_3.IBackgroundCopyServerCertificateValidationCallback.ValidateServ
 title: IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
 ms.date: 05/09/2019
 ms.keywords: IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
-description: A callback method that you implement that will be called so that you can validate the server certificates sent when an HTTPS connection is opened.
+description: A callback method that you implement that will be called so that you can validate the server certificates sent when an HTTPS connection is opened.helpviewer_keywords: ["IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate"]
 tech.root: Bits
 f1_keywords:
 - bits10_3/IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate

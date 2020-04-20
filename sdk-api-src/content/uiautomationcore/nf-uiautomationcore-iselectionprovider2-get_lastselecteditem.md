@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider2.get_LastSelectedItem
 title: ISelectionProvider2::get_LastSelectedItem (uiautomationcore.h)
-description: Gets the last item in a group of selected items.
+description: Gets the last item in a group of selected items.helpviewer_keywords: ["ISelectionProvider2 interface [Windows Accessibility]","LastSelectedItem property","ISelectionProvider2.LastSelectedItem","ISelectionProvider2.get_LastSelectedItem","ISelectionProvider2::LastSelectedItem","ISelectionProvider2::get_LastSelectedItem","LastSelectedItem property [Windows Accessibility]","LastSelectedItem property [Windows Accessibility]","ISelectionProvider2 interface","get_LastSelectedItem","uiautomationcore/ISelectionProvider2::LastSelectedItem","uiautomationcore/ISelectionProvider2::get_LastSelectedItem","winauto.uiauto_ISelectionProvider2_LastSelectedItem"]
 old-location: winauto\uiauto_ISelectionProvider2_LastSelectedItem.htm
 tech.root: WinAuto
 ms.assetid: 94A9A0EC-EE57-4D80-841E-7442139B9306

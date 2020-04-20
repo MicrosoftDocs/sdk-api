@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationAndCondition
 title: IUIAutomationAndCondition (uiautomationclient.h)
-description: Exposes properties and methods that Microsoft UI Automation client applications can use to retrieve information about an AND-based property condition.
+description: Exposes properties and methods that Microsoft UI Automation client applications can use to retrieve information about an AND-based property condition.helpviewer_keywords: ["IUIAutomationAndCondition","IUIAutomationAndCondition interface [Windows Accessibility]","IUIAutomationAndCondition interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationAndCondition","uiauto_IUIAutomationAndCondition","uiautomationclient/IUIAutomationAndCondition","winauto.uiauto_IUIAutomationAndCondition"]
 old-location: winauto\uiauto_IUIAutomationAndCondition.htm
 tech.root: WinAuto
 ms.assetid: f9808c48-dc98-465b-958d-223a8b7cc371

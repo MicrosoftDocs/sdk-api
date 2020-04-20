@@ -1,7 +1,7 @@
 ---
 UID: NF:iwscapi.IWscProduct.get_ProductStateTimestamp
 title: IWscProduct::get_ProductStateTimestamp (iwscapi.h)
-description: Returns the current time stamp for the security product.
+description: Returns the current time stamp for the security product.helpviewer_keywords: ["IWscProduct interface [Windows API]","get_ProductStateTimeStamp method","IWscProduct.get_ProductStateTimestamp","IWscProduct::get_ProductStateTimeStamp","IWscProduct::get_ProductStateTimestamp","get_ProductStateTimeStamp","get_ProductStateTimeStamp method [Windows API]","get_ProductStateTimeStamp method [Windows API]","IWscProduct interface","get_ProductStateTimestamp","iwscapi/IWscProduct::get_ProductStateTimeStamp","winprog.iwscproduct_producttimestamp"]
 old-location: winprog\iwscproduct_producttimestamp.htm
 tech.root: DevNotes
 ms.assetid: 3BE70437-8BBE-47DF-8C5E-390353073580

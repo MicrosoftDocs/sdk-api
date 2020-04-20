@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxContentGroupMapReader
 title: IAppxContentGroupMapReader (appxpackaging.h)
-description: Gets information about a content group map.
+description: Gets information about a content group map.helpviewer_keywords: ["IAppxContentGroupMapReader","IAppxContentGroupMapReader interface [App packaging and management]","IAppxContentGroupMapReader interface [App packaging and management]","described","appxpackaging/IAppxContentGroupMapReader","appxpkg.iappxcontentgroupmapreader"]
 old-location: appxpkg\iappxcontentgroupmapreader.htm
 tech.root: appxpkg
 ms.assetid: 45C6F61E-8CF6-4188-9715-3954562F8AB0

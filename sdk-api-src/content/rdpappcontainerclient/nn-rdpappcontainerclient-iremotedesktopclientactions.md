@@ -1,7 +1,7 @@
 ---
 UID: NN:rdpappcontainerclient.IRemoteDesktopClientActions
 title: IRemoteDesktopClientActions (rdpappcontainerclient.h)
-description: Provides the methods used to interact with the Remote Desktop Protocol (RDP) app container client control.
+description: Provides the methods used to interact with the Remote Desktop Protocol (RDP) app container client control.helpviewer_keywords: ["IRemoteDesktopClientActions","IRemoteDesktopClientActions interface [Remote Desktop Services]","IRemoteDesktopClientActions interface [Remote Desktop Services]","described","rdpappcontainerclient/IRemoteDesktopClientActions","termserv.iremotedesktopclientactions"]
 old-location: termserv\iremotedesktopclientactions.htm
 tech.root: TermServ
 ms.assetid: 64b3683e-e577-48c1-a319-601e7944f68a

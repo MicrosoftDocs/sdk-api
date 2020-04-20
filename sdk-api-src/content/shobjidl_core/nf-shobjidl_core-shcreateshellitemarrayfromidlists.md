@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.SHCreateShellItemArrayFromIDLists
 title: SHCreateShellItemArrayFromIDLists function (shobjidl_core.h)
-description: Creates a Shell item array object from a list of ITEMIDLIST structures.
+description: Creates a Shell item array object from a list of ITEMIDLIST structures.helpviewer_keywords: ["SHCreateShellItemArrayFromIDLists","SHCreateShellItemArrayFromIDLists function [Windows Shell]","_shell_SHCreateShellItemArrayFromIDLists","shell.SHCreateShellItemArrayFromIDLists","shobjidl_core/SHCreateShellItemArrayFromIDLists"]
 old-location: shell\SHCreateShellItemArrayFromIDLists.htm
 tech.root: shell
 ms.assetid: af462941-8c23-4f48-baf5-1ead9739a2c5

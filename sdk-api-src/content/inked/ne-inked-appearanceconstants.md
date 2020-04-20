@@ -1,7 +1,7 @@
 ---
 UID: NE:inked.AppearanceConstants
 title: AppearanceConstants (inked.h)
-description: Specifies how an InkEdit control appears on the screen.
+description: Specifies how an InkEdit control appears on the screen.helpviewer_keywords: ["1ec00514-49d0-40dc-a9cf-8ec7d9e6a816","AppearanceConstants","AppearanceConstants enumeration [Tablet PC]","inked/AppearanceConstants","inked/rtfFlat","inked/rtfThreeD","rtfFlat","rtfThreeD","tablet.appearanceconstants"]
 old-location: tablet\appearanceconstants.htm
 tech.root: tablet
 ms.assetid: 1ec00514-49d0-40dc-a9cf-8ec7d9e6a816

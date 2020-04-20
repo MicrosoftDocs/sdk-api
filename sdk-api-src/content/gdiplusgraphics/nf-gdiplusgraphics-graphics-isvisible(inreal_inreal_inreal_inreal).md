@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IsVisible(IN REAL,IN REAL,IN REAL,IN REAL)
 title: Graphics::IsVisible(IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusgraphics.h)
-description: The Graphics::IsVisible method determines whether the specified rectangle intersects the visible clipping region of this Graphics object.
+description: The Graphics::IsVisible method determines whether the specified rectangle intersects the visible clipping region of this Graphics object.helpviewer_keywords: ["Graphics class [GDI+]","IsVisible method","Graphics.IsVisible","Graphics.IsVisible(IN REAL","IN REAL","IN REAL","IN REAL)","Graphics.IsVisible(REAL","REAL","REAL","REAL)","Graphics::IsVisible","Graphics::IsVisible(IN REAL","IN REAL","IN REAL","IN REAL)","IsVisible","IsVisible method [GDI+]","IsVisible method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_IsVisible_REAL_x_REAL_y_REAL_width_REAL_height_","gdiplus._gdiplus_CLASS_Graphics_IsVisible_REAL_x_REAL_y_REAL_width_REAL_height_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IsVisible_REAL_x_REAL_y_REAL_width_REAL_height_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsisvisiblemethods\isvisible_6realx_realy_realwidth_realheight.htm

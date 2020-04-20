@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IFont.Clone
 title: IFont::Clone (ocidl.h)
-description: Creates a duplicate font object.
+description: Creates a duplicate font object.helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IFont interface","IFont interface [COM]","Clone method","IFont.Clone","IFont::Clone","_ctrl_ifont_clone","com.ifont_clone","ocidl/IFont::Clone"]
 old-location: com\ifont_clone.htm
 tech.root: com
 ms.assetid: de5da0d1-338a-455c-a04b-99dc025b95bb

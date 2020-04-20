@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.get_MajorVersion
 title: ICOMAdminCatalog::get_MajorVersion (comadmin.h)
-description: Retrieves the major version number of the COMAdmin library.
+description: Retrieves the major version number of the COMAdmin library.helpviewer_keywords: ["ICOMAdminCatalog interface [COM+]","MajorVersion property","ICOMAdminCatalog.MajorVersion","ICOMAdminCatalog.get_MajorVersion","ICOMAdminCatalog::MajorVersion","ICOMAdminCatalog::get_MajorVersion","MajorVersion property [COM+]","MajorVersion property [COM+]","ICOMAdminCatalog interface","_cos_IComAdminCatalog_get_MajorVersion","comadmin/ICOMAdminCatalog::MajorVersion","comadmin/ICOMAdminCatalog::get_MajorVersion","cos.icomadmincatalog_majorversion","get_MajorVersion"]
 old-location: cos\icomadmincatalog_majorversion.htm
 tech.root: cossdk
 ms.assetid: caa82b0e-435d-4d98-bef0-cd823213c518

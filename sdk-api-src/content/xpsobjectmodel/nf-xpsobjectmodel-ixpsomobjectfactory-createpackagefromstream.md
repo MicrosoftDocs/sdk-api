@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageFromStream
 title: IXpsOMObjectFactory::CreatePackageFromStream (xpsobjectmodel.h)
-description: Opens a stream that contains an XPS package, and returns an instantiated XPS document object tree.
+description: Opens a stream that contains an XPS package, and returns an instantiated XPS document object tree.helpviewer_keywords: ["CreatePackageFromStream","CreatePackageFromStream method [XPS Documents and Packaging]","CreatePackageFromStream method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","FALSE","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePackageFromStream method","IXpsOMObjectFactory.CreatePackageFromStream","IXpsOMObjectFactory::CreatePackageFromStream","TRUE","xps.ixpsomobjectfactory_createpackagefromstream","xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromStream"]
 old-location: xps\ixpsomobjectfactory_createpackagefromstream.htm
 tech.root: printdocs
 ms.assetid: 4a4bb128-9480-4e50-8848-a2e1e715f4e3

@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_INFO
 title: DHCP_SUBNET_INFO (dhcpsapi.h)
-description: The DHCP_SUBNET_INFO structure defines information describing a subnet.
+description: The DHCP_SUBNET_INFO structure defines information describing a subnet.helpviewer_keywords: ["*LPDHCP_SUBNET_INFO","DHCP_SUBNET_INFO","DHCP_SUBNET_INFO structure [DHCP]","LPDHCP_SUBNET_INFO","LPDHCP_SUBNET_INFO structure pointer [DHCP]","dhcp.dhcp_subnet_info","dhcpsapi/LPDHCP_SUBNET_INFO","dhcpsapi/_DHCP_SUBNET_INFO"]
 old-location: dhcp\dhcp_subnet_info.htm
 tech.root: DHCP
 ms.assetid: 030b4743-7558-493c-931c-1ad28a6b435a

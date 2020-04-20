@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ClusWorkerCheckTerminate
 title: ClusWorkerCheckTerminate function (resapi.h)
-description: Determines whether a worker thread should exit as soon as possible. The PCLUSAPIClusWorkerCheckTerminate type defines a pointer to this function.
+description: Determines whether a worker thread should exit as soon as possible. The PCLUSAPIClusWorkerCheckTerminate type defines a pointer to this function.helpviewer_keywords: ["ClusWorkerCheckTerminate","ClusWorkerCheckTerminate function [Failover Cluster]","PCLUSAPIClusWorkerCheckTerminate","PCLUSAPIClusWorkerCheckTerminate function [Failover Cluster]","_wolf_clusworkercheckterminate","mscs.clusworkercheckterminate","resapi/ClusWorkerCheckTerminate","resapi/PCLUSAPIClusWorkerCheckTerminate"]
 old-location: mscs\clusworkercheckterminate.htm
 tech.root: MsCS
 ms.assetid: e8833961-ac0e-4d8c-a57e-5aabdb2c8c96

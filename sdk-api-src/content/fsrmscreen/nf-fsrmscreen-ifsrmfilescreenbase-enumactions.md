@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.EnumActions
 title: IFsrmFileScreenBase::EnumActions (fsrmscreen.h)
-description: Enumerates all the actions for the file screen object.
+description: Enumerates all the actions for the file screen object.helpviewer_keywords: ["EnumActions","EnumActions method [File Server Resource Manager]","EnumActions method [File Server Resource Manager]","IFsrmFileScreenBase interface","IFsrmFileScreenBase interface [File Server Resource Manager]","EnumActions method","IFsrmFileScreenBase.EnumActions","IFsrmFileScreenBase::EnumActions","fs.ifsrmfilescreenbase_enumactions","fsrm.ifsrmfilescreenbase_enumactions","fsrmscreen/IFsrmFileScreenBase::EnumActions"]
 old-location: fsrm\ifsrmfilescreenbase_enumactions.htm
 tech.root: fsrm
 ms.assetid: fbc22338-8271-407a-97c6-4a2329445979

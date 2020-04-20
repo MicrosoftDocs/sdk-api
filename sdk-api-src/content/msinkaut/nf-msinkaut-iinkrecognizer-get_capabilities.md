@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Capabilities
 title: IInkRecognizer::get_Capabilities (msinkaut.h)
-description: Gets the capabilities of the IInkRecognizer object.
+description: Gets the capabilities of the IInkRecognizer object.helpviewer_keywords: ["Capabilities property [Tablet PC]","Capabilities property [Tablet PC]","IInkRecognizer interface","IInkRecognizer interface [Tablet PC]","Capabilities property","IInkRecognizer.Capabilities","IInkRecognizer.get_Capabilities","IInkRecognizer::Capabilities","IInkRecognizer::get_Capabilities","c8662817-0a33-4828-8de7-c4ce259738a7","get_Capabilities","msinkaut/IInkRecognizer::Capabilities","msinkaut/IInkRecognizer::get_Capabilities","tablet.iinkrecognizer_capabilities"]
 old-location: tablet\iinkrecognizer_capabilities.htm
 tech.root: tablet
 ms.assetid: c8662817-0a33-4828-8de7-c4ce259738a7

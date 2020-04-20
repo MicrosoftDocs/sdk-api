@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.GetSelectedControlItem
 title: IFileDialogCustomize::GetSelectedControlItem (shobjidl_core.h)
-description: Gets a particular item from specified container controls in the dialog.
+description: Gets a particular item from specified container controls in the dialog.helpviewer_keywords: ["GetSelectedControlItem","GetSelectedControlItem method [Windows Shell]","GetSelectedControlItem method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","GetSelectedControlItem method","IFileDialogCustomize.GetSelectedControlItem","IFileDialogCustomize::GetSelectedControlItem","shell.IFileDialogCustomize_GetSelectedControlItem","shell_IFileDialogCustomize_GetSelectedControlItem","shobjidl_core/IFileDialogCustomize::GetSelectedControlItem"]
 old-location: shell\IFileDialogCustomize_GetSelectedControlItem.htm
 tech.root: shell
 ms.assetid: 1dd33779-071f-484e-9d89-1cc64ea03293

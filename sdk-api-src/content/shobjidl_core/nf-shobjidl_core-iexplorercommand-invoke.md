@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.Invoke
 title: IExplorerCommand::Invoke (shobjidl_core.h)
-description: Invokes a Windows Explorer command.
+description: Invokes a Windows Explorer command.helpviewer_keywords: ["IExplorerCommand interface [Windows Shell]","Invoke method","IExplorerCommand.Invoke","IExplorerCommand::Invoke","Invoke","Invoke method [Windows Shell]","Invoke method [Windows Shell]","IExplorerCommand interface","_shell_IExplorerCommand_Invoke","shell.IExplorerCommand_Invoke","shobjidl_core/IExplorerCommand::Invoke"]
 old-location: shell\IExplorerCommand_Invoke.htm
 tech.root: shell
 ms.assetid: 3ea545a4-5f4c-4f98-9e56-b7c7eed5f821

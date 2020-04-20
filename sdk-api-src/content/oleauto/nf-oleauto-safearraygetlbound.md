@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SafeArrayGetLBound
 title: SafeArrayGetLBound function (oleauto.h)
-description: Gets the lower bound for any dimension of the specified safe array.
+description: Gets the lower bound for any dimension of the specified safe array.helpviewer_keywords: ["SafeArrayGetLBound","SafeArrayGetLBound function [Automation]","_oa96_SafeArrayGetLBound","automat.safearraygetlbound","oleauto/SafeArrayGetLBound"]
 old-location: automat\safearraygetlbound.htm
 tech.root: automat
 ms.assetid: f3134cc9-759b-4908-ada0-d025a525e795

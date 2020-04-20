@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetMixingPrefs
 title: IVMRMixerControl::GetMixingPrefs (strmif.h)
-description: Retrieves the mixing preferences for the stream.
+description: Retrieves the mixing preferences for the stream.helpviewer_keywords: ["GetMixingPrefs","GetMixingPrefs method [DirectShow]","GetMixingPrefs method [DirectShow]","IVMRMixerControl interface","IVMRMixerControl interface [DirectShow]","GetMixingPrefs method","IVMRMixerControl.GetMixingPrefs","IVMRMixerControl::GetMixingPrefs","IVMRMixerControlGetMixingPrefs","dshow.ivmrmixercontrol_getmixingprefs","strmif/IVMRMixerControl::GetMixingPrefs"]
 old-location: dshow\ivmrmixercontrol_getmixingprefs.htm
 tech.root: DirectShow
 ms.assetid: ee410a7e-e021-408a-bf40-cb58dc8eca1c

@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_PIPELINE_CLEANUP_FN
 title: PIBIO_ENGINE_PIPELINE_CLEANUP_FN (winbio_adapter.h)
-description: Gives the Engine Adapter the chance to perform any cleanup that requires help from the Storage Adapter.
+description: Gives the Engine Adapter the chance to perform any cleanup that requires help from the Storage Adapter.helpviewer_keywords: ["EngineAdapterPipelineCleanup","EngineAdapterPipelineCleanup callback function [Windows Biometric Framework API]","PIBIO_ENGINE_PIPELINE_CLEANUP_FN","PIBIO_ENGINE_PIPELINE_CLEANUP_FN callback","secbiomet.engineadapterpipelinecleanup","winbio_adapter/EngineAdapterPipelineCleanup"]
 old-location: secbiomet\engineadapterpipelinecleanup.htm
 tech.root: SecBioMet
 ms.assetid: C77EBE33-E781-4FFA-BE3A-A08BD9C3D459

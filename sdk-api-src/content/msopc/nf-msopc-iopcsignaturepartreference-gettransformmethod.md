@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetTransformMethod
 title: IOpcSignaturePartReference::GetTransformMethod (msopc.h)
-description: Gets the canonicalization method to use on part content of a referenced part when the part is signed.
+description: Gets the canonicalization method to use on part content of a referenced part when the part is signed.helpviewer_keywords: ["GetTransformMethod","GetTransformMethod method [Open Packaging Conventions]","GetTransformMethod method [Open Packaging Conventions]","IOpcSignaturePartReference interface","IOpcSignaturePartReference interface [Open Packaging Conventions]","GetTransformMethod method","IOpcSignaturePartReference.GetTransformMethod","IOpcSignaturePartReference::GetTransformMethod","msopc/IOpcSignaturePartReference::GetTransformMethod","opc.iopcsignaturepartreference_gettransformmethod"]
 old-location: opc\iopcsignaturepartreference_gettransformmethod.htm
 tech.root: OPC
 ms.assetid: 74cf5d3b-a350-4574-972d-1907562aece5

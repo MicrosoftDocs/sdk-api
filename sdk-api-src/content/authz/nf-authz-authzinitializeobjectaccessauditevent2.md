@@ -1,7 +1,7 @@
 ---
 UID: NF:authz.AuthzInitializeObjectAccessAuditEvent2
 title: AuthzInitializeObjectAccessAuditEvent2 function (authz.h)
-description: Allocates and initializes an AUTHZ_AUDIT_EVENT_HANDLE handle for use with the AuthzAccessCheck function.
+description: Allocates and initializes an AUTHZ_AUDIT_EVENT_HANDLE handle for use with the AuthzAccessCheck function.helpviewer_keywords: ["AUTHZ_NO_ALLOC_STRINGS","AUTHZ_NO_FAILURE_AUDIT","AUTHZ_NO_SUCCESS_AUDIT","AuthzInitializeObjectAccessAuditEvent2","AuthzInitializeObjectAccessAuditEvent2 function [Security]","authz/AuthzInitializeObjectAccessAuditEvent2","security.authzinitializeobjectaccessauditevent2"]
 old-location: security\authzinitializeobjectaccessauditevent2.htm
 tech.root: SecAuthZ
 ms.assetid: c65bb799-0158-496a-b428-0331c4474b74

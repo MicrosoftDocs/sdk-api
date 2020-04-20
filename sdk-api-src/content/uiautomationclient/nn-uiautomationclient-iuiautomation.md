@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation
 title: IUIAutomation (uiautomationclient.h)
-description: Exposes methods that enable Microsoft UI Automation client applications to discover, access, and filter UI Automation elements.
+description: Exposes methods that enable Microsoft UI Automation client applications to discover, access, and filter UI Automation elements.helpviewer_keywords: ["IUIAutomation","IUIAutomation interface [Windows Accessibility]","IUIAutomation interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomation","uiauto_IUIAutomation","uiautomationclient/IUIAutomation","winauto.uiauto_IUIAutomation"]
 old-location: winauto\uiauto_IUIAutomation.htm
 tech.root: WinAuto
 ms.assetid: 46b31ab6-39aa-4df8-a421-6369c32a9605

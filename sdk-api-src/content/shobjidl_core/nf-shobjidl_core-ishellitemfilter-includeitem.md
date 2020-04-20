@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellItemFilter.IncludeItem
 title: IShellItemFilter::IncludeItem (shobjidl_core.h)
-description: Sets a given Shell item status to inclusion in the view.
+description: Sets a given Shell item status to inclusion in the view.helpviewer_keywords: ["IShellItemFilter interface [Windows Shell]","IncludeItem method","IShellItemFilter.IncludeItem","IShellItemFilter::IncludeItem","IncludeItem","IncludeItem method [Windows Shell]","IncludeItem method [Windows Shell]","IShellItemFilter interface","_shell_IShellItemFilter_IncludeItem","shell.IShellItemFilter_IncludeItem","shobjidl_core/IShellItemFilter::IncludeItem"]
 old-location: shell\IShellItemFilter_IncludeItem.htm
 tech.root: shell
 ms.assetid: 39ec171e-24a0-40ff-b199-36b5a2809164

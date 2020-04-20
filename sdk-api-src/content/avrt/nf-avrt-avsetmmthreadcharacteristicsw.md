@@ -1,7 +1,7 @@
 ---
 UID: NF:avrt.AvSetMmThreadCharacteristicsW
 title: AvSetMmThreadCharacteristicsW function (avrt.h)
-description: Associates the calling thread with the specified task.
+description: Associates the calling thread with the specified task.helpviewer_keywords: ["AvSetMmThreadCharacteristics","AvSetMmThreadCharacteristics function","AvSetMmThreadCharacteristicsA","AvSetMmThreadCharacteristicsW","avrt/AvSetMmThreadCharacteristics","avrt/AvSetMmThreadCharacteristicsA","avrt/AvSetMmThreadCharacteristicsW","base.avsetmmthreadcharacteristics"]
 old-location: base\avsetmmthreadcharacteristics.htm
 tech.root: ProcThread
 ms.assetid: 881d3f97-e68e-40cb-b799-76784185dd37

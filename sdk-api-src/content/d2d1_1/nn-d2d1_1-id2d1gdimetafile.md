@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_1.ID2D1GdiMetafile
 title: ID2D1GdiMetafile (d2d1_1.h)
-description: A Direct2D resource that wraps a WMF, EMF, or EMF+ metafile.
+description: A Direct2D resource that wraps a WMF, EMF, or EMF+ metafile.helpviewer_keywords: ["ID2D1GdiMetafile","ID2D1GdiMetafile interface [Direct2D]","ID2D1GdiMetafile interface [Direct2D]","described","d2d1_1/ID2D1GdiMetafile","direct2d.id2d1gdimetafile"]
 old-location: direct2d\id2d1gdimetafile.htm
 tech.root: Direct2D
 ms.assetid: 36A454EC-7DE0-4610-B49C-7FBBD21C425C

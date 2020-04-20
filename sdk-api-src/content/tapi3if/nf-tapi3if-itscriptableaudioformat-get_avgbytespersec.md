@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_AvgBytesPerSec
 title: ITScriptableAudioFormat::get_AvgBytesPerSec (tapi3if.h)
-description: The get_AvgBytesPerSec method returns the value for the nAvgBytesPerSec member in the WAVEFORMATEX structure.
+description: The get_AvgBytesPerSec method returns the value for the nAvgBytesPerSec member in the WAVEFORMATEX structure.helpviewer_keywords: ["ITScriptableAudioFormat interface [TAPI 2.2]","get_AvgBytesPerSec method","ITScriptableAudioFormat.get_AvgBytesPerSec","ITScriptableAudioFormat::get_AvgBytesPerSec","_tapi3_itscriptableaudioformat_get_avgbytespersec","get_AvgBytesPerSec","get_AvgBytesPerSec method [TAPI 2.2]","get_AvgBytesPerSec method [TAPI 2.2]","ITScriptableAudioFormat interface","tapi3.itscriptableaudioformat_get_avgbytespersec","tapi3if/ITScriptableAudioFormat::get_AvgBytesPerSec"]
 old-location: tapi3\itscriptableaudioformat_get_avgbytespersec.htm
 tech.root: Tapi
 ms.assetid: fe54e1a5-ff8f-486d-90ba-3c7fc595ec1d

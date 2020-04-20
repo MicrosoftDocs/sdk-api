@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSchemeHandler.CancelObjectCreation
 title: IMFSchemeHandler::CancelObjectCreation (mfidl.h)
-description: Cancels the current request to create an object from a URL.
+description: Cancels the current request to create an object from a URL.helpviewer_keywords: ["662a4c47-95f8-4a84-ab2b-96e51d13906c","CancelObjectCreation","CancelObjectCreation method [Media Foundation]","CancelObjectCreation method [Media Foundation]","IMFSchemeHandler interface","IMFSchemeHandler interface [Media Foundation]","CancelObjectCreation method","IMFSchemeHandler.CancelObjectCreation","IMFSchemeHandler::CancelObjectCreation","mf.imfschemehandler_cancelobjectcreation","mfidl/IMFSchemeHandler::CancelObjectCreation"]
 old-location: mf\imfschemehandler_cancelobjectcreation.htm
 tech.root: medfound
 ms.assetid: 662a4c47-95f8-4a84-ab2b-96e51d13906c

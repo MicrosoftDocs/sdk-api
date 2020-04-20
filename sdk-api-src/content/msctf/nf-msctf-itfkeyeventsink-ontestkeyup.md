@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnTestKeyUp
 title: ITfKeyEventSink::OnTestKeyUp (msctf.h)
-description: ITfKeyEventSink::OnTestKeyUp method
+description: ITfKeyEventSink::OnTestKeyUp methodhelpviewer_keywords: ["ITfKeyEventSink interface [Text Services Framework]","OnTestKeyUp method","ITfKeyEventSink.OnTestKeyUp","ITfKeyEventSink::OnTestKeyUp","OnTestKeyUp","OnTestKeyUp method [Text Services Framework]","OnTestKeyUp method [Text Services Framework]","ITfKeyEventSink interface","_tsf_itfkeyeventsink_ontestkeyup_ref","msctf/ITfKeyEventSink::OnTestKeyUp","tsf.itfkeyeventsink_ontestkeyup"]
 old-location: tsf\itfkeyeventsink_ontestkeyup.htm
 tech.root: TSF
 ms.assetid: 2d105a20-3fb8-43aa-a36a-744803bd4035

@@ -1,7 +1,7 @@
 ---
 UID: NN:ctfutb.ITfLangBarItem
 title: ITfLangBarItem (ctfutb.h)
-description: The ITfLangBarItem interface is implemented by a language bar item provider and used by the language bar manager to obtain detailed information about the language bar item.
+description: The ITfLangBarItem interface is implemented by a language bar item provider and used by the language bar manager to obtain detailed information about the language bar item.helpviewer_keywords: ["ITfLangBarItem","ITfLangBarItem interface [Text Services Framework]","ITfLangBarItem interface [Text Services Framework]","described","_tsf_itflangbaritem_ref","ctfutb/ITfLangBarItem","tsf.itflangbaritem"]
 old-location: tsf\itflangbaritem.htm
 tech.root: TSF
 ms.assetid: 16612641-2bff-4e6f-a955-85793021a20b

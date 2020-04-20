@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnSignal
 title: IMbnSignal (mbnapi.h)
-description: Get radio signal quality of a Mobile Broadband connection.
+description: Get radio signal quality of a Mobile Broadband connection.helpviewer_keywords: ["IMbnSignal","IMbnSignal interface [Microsoft Broadband Networks]","IMbnSignal interface [Microsoft Broadband Networks]","described","mbn.imbnsignal","mbnapi/IMbnSignal"]
 old-location: mbn\imbnsignal.htm
 tech.root: mbn
 ms.assetid: 2b60d078-ccbd-4cc5-addf-e6e95832b3a1

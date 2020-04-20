@@ -1,7 +1,7 @@
 ---
 UID: NF:winerror.HRESULT_FROM_NT
 title: HRESULT_FROM_NT macro (winerror.h)
-description: Maps an NT status value to an HRESULT value.
+description: Maps an NT status value to an HRESULT value.helpviewer_keywords: ["HRESULT_FROM_NT","HRESULT_FROM_NT macro [COM]","_com_HRESULT_FROM_NT","com.hresult_from_nt","com.hresult_from_nt_macro","winerror/HRESULT_FROM_NT"]
 old-location: com\hresult_from_nt_macro.htm
 tech.root: com
 ms.assetid: e8bf07b8-6bc4-4a6a-b982-03b6436ca6b0

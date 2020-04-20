@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.GenerateReport
 title: IGPMGPO::GenerateReport (gpmgmt.h)
-description: Gets the report for a GPO.
+description: Gets the report for a GPO.helpviewer_keywords: ["GenerateReport","GenerateReport method [GPMC]","GenerateReport method [GPMC]","IGPMGPO interface","IGPMGPO interface [GPMC]","GenerateReport method","IGPMGPO.GenerateReport","IGPMGPO::GenerateReport","gpmc.igpmgpo_generatereport","gpmgmt/IGPMGPO::GenerateReport"]
 old-location: gpmc\igpmgpo_generatereport.htm
 tech.root: gpmc
 ms.assetid: 19b3b027-59f1-4c31-896b-5b5fd23b9be4

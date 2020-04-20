@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplustypes.CharacterRange
 title: CharacterRange (gdiplustypes.h)
-description: A CharacterRange object specifies a range of character positions within a string.
+description: A CharacterRange object specifies a range of character positions within a string.helpviewer_keywords: ["CharacterRange","CharacterRange class [GDI+]","CharacterRange class [GDI+]","described","_gdiplus_CLASS_CharacterRange_Class","gdiplus._gdiplus_CLASS_CharacterRange_Class","gdiplustypes/CharacterRange"]
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrange.htm

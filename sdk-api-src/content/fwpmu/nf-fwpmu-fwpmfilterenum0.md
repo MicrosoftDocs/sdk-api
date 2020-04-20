@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmFilterEnum0
 title: FwpmFilterEnum0 function (fwpmu.h)
-description: Returns the next page of results from the filter enumerator.
+description: Returns the next page of results from the filter enumerator.helpviewer_keywords: ["FwpmFilterEnum0","FwpmFilterEnum0 function [Filtering]","fwp.fwpmfilterenum0_func","fwpmu/FwpmFilterEnum0"]
 old-location: fwp\fwpmfilterenum0_func.htm
 tech.root: fwp
 ms.assetid: ced06ffd-668f-4d2b-b727-b705ad6a3149

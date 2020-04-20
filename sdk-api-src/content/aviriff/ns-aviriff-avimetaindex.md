@@ -1,7 +1,7 @@
 ---
 UID: NS:aviriff._avimetaindex
 title: AVIMETAINDEX (aviriff.h)
-description: The base structure for an AVI 2.0 index ('indx' format).
+description: The base structure for an AVI 2.0 index ('indx' format).helpviewer_keywords: ["AVIMETAINDEX","AVIMETAINDEX structure [DirectShow]","AVI_INDEX_IS_DATA","AVI_INDEX_OF_CHUNKS","AVI_INDEX_OF_INDEXES","aviriff/AVIMETAINDEX","dshow.avimetaindex"]
 old-location: dshow\avimetaindex.htm
 tech.root: DirectShow
 ms.assetid: d27b2b14-55a1-4992-ad85-75244369accc

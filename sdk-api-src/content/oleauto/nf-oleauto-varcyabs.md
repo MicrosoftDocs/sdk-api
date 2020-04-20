@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarCyAbs
 title: VarCyAbs function (oleauto.h)
-description: Retrieves the absolute value of a variant of type currency.
+description: Retrieves the absolute value of a variant of type currency.helpviewer_keywords: ["VarCyAbs","VarCyAbs function [Automation]","_oa96_VarCyAbs","automat.varcyabs","oleauto/VarCyAbs"]
 old-location: automat\varcyabs.htm
 tech.root: automat
 ms.assetid: 72ab02df-69e8-40ab-884c-6b23ce5dc6ce

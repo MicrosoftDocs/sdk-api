@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetAlignment
 title: StringFormat::SetAlignment (gdiplusstringformat.h)
-description: The StringFormat::SetAlignment method sets the character alignment of this StringFormat object in relation to the origin of the layout rectangle. A layout rectangle is used to position the displayed string.
+description: The StringFormat::SetAlignment method sets the character alignment of this StringFormat object in relation to the origin of the layout rectangle. A layout rectangle is used to position the displayed string.helpviewer_keywords: ["SetAlignment","SetAlignment method [GDI+]","SetAlignment method [GDI+]","StringFormat class","StringFormat class [GDI+]","SetAlignment method","StringFormat.SetAlignment","StringFormat::SetAlignment","_gdiplus_CLASS_StringFormat_SetAlignment_align_","gdiplus._gdiplus_CLASS_StringFormat_SetAlignment_align_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetAlignment_align_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setalignment_24align.htm

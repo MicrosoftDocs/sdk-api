@@ -1,7 +1,7 @@
 ---
 UID: NF:srpapi.SrpGetEnterpriseIds
 title: SrpGetEnterpriseIds function (srpapi.h)
-description: Gets the list of enterprise identifiers for the given token.
+description: Gets the list of enterprise identifiers for the given token.helpviewer_keywords: ["EDP.srpgetenterpriseids","SrpGetEnterpriseIds","SrpGetEnterpriseIds function","srpapi/SrpGetEnterpriseIds"]
 old-location: edp\srpgetenterpriseids.htm
 tech.root: EDP
 ms.assetid: 850FA83D-A90F-40CA-99BE-F6DD890F4E6F

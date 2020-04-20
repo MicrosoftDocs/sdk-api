@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsDelete
 title: IMbnSms::SmsDelete (mbnapi.h)
-description: Deletes a set of SMS messages from a device.
+description: Deletes a set of SMS messages from a device.helpviewer_keywords: ["IMbnSms interface [Microsoft Broadband Networks]","SmsDelete method","IMbnSms.SmsDelete","IMbnSms::SmsDelete","SmsDelete","SmsDelete method [Microsoft Broadband Networks]","SmsDelete method [Microsoft Broadband Networks]","IMbnSms interface","mbn.imbnsms_smsdelete","mbnapi/IMbnSms::SmsDelete"]
 old-location: mbn\imbnsms_smsdelete.htm
 tech.root: mbn
 ms.assetid: cd37582e-891d-4f6a-aba3-01ad3101a6b9

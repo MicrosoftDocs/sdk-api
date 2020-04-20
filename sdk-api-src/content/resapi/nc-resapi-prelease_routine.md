@@ -1,7 +1,7 @@
 ---
 UID: NC:resapi.PRELEASE_ROUTINE
 title: PRELEASE_ROUTINE (resapi.h)
-description: Releases the quorum resource from arbitration.
+description: Releases the quorum resource from arbitration.helpviewer_keywords: ["PRELEASE_ROUTINE","PRELEASE_ROUTINE callback","Release","Release callback function [Failover Cluster]","_wolf_release","mscs.release","resapi/PRELEASE_ROUTINE","resapi/Release"]
 old-location: mscs\release.htm
 tech.root: MsCS
 ms.assetid: 9e8e4557-b223-4f8f-9393-67f589181754

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CachedAuthor
 title: IUIAutomationAnnotationPattern::get_CachedAuthor (uiautomationclient.h)
-description: Retrieves the cached name of the annotation author.
+description: Retrieves the cached name of the annotation author.helpviewer_keywords: ["CachedAuthor property [Windows Accessibility]","CachedAuthor property [Windows Accessibility]","IUIAutomationAnnotationPattern interface","IUIAutomationAnnotationPattern interface [Windows Accessibility]","CachedAuthor property","IUIAutomationAnnotationPattern.CachedAuthor","IUIAutomationAnnotationPattern.get_CachedAuthor","IUIAutomationAnnotationPattern::CachedAuthor","IUIAutomationAnnotationPattern::get_CachedAuthor","get_CachedAuthor","uiautomationclient/IUIAutomationAnnotationPattern::CachedAuthor","uiautomationclient/IUIAutomationAnnotationPattern::get_CachedAuthor","winauto.uiauto_IUIAutomationAnnotationPattern_CachedAuthor"]
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedAuthor.htm
 tech.root: WinAuto
 ms.assetid: 9B1B2150-38DA-4B47-B539-BD1175F39A2D

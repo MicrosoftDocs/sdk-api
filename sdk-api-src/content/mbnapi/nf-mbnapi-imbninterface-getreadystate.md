@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetReadyState
 title: IMbnInterface::GetReadyState (mbnapi.h)
-description: Gets the ready state.
+description: Gets the ready state.helpviewer_keywords: ["GetReadyState","GetReadyState method [Microsoft Broadband Networks]","GetReadyState method [Microsoft Broadband Networks]","IMbnInterface interface","IMbnInterface interface [Microsoft Broadband Networks]","GetReadyState method","IMbnInterface.GetReadyState","IMbnInterface::GetReadyState","mbn.imbninterface_getreadystate","mbnapi/IMbnInterface::GetReadyState"]
 old-location: mbn\imbninterface_getreadystate.htm
 tech.root: mbn
 ms.assetid: 4236fd9d-292a-4840-b52e-c28c3e6eea10

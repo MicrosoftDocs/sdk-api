@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.GetCenter
 title: ID2D1RadialGradientBrush::GetCenter (d2d1.h)
-description: Retrieves the center of the gradient ellipse.
+description: Retrieves the center of the gradient ellipse.helpviewer_keywords: ["GetCenter","GetCenter method [Direct2D]","GetCenter method [Direct2D]","ID2D1RadialGradientBrush interface","ID2D1RadialGradientBrush interface [Direct2D]","GetCenter method","ID2D1RadialGradientBrush.GetCenter","ID2D1RadialGradientBrush::GetCenter","d2d1/ID2D1RadialGradientBrush::GetCenter","direct2d.ID2D1RadialGradientBrush_GetCenter"]
 old-location: direct2d\ID2D1RadialGradientBrush_GetCenter.htm
 tech.root: Direct2D
 ms.assetid: 9f6fd69b-bc0e-458c-8e39-546103874fe9

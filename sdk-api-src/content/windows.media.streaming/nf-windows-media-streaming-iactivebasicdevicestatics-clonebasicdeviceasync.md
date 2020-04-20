@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDeviceStatics.CloneBasicDeviceAsync
 title: IActiveBasicDeviceStatics::streaming (windows.media.streaming.h)
-description: Asynchronously creates a clone of a basic device.
+description: Asynchronously creates a clone of a basic device.helpviewer_keywords: ["CloneBasicDeviceAsync","CloneBasicDeviceAsync method [Media Streaming API]","CloneBasicDeviceAsync method [Media Streaming API]","IActiveBasicDeviceStatics interface","IActiveBasicDeviceStatics interface [Media Streaming API]","CloneBasicDeviceAsync method","IActiveBasicDeviceStatics.CloneBasicDeviceAsync","IActiveBasicDeviceStatics.streaming","IActiveBasicDeviceStatics::CloneBasicDeviceAsync","IActiveBasicDeviceStatics::streaming","mediastreaming.iactivebasicdevicestatics_clonebasicdeviceasync","windows/IActiveBasicDeviceStatics::CloneBasicDeviceAsync"]
 old-location: mediastreaming\iactivebasicdevicestatics_clonebasicdeviceasync.htm
 tech.root: mediastreaming
 ms.assetid: B79B569D-FADF-437E-A2F5-DB9C176F570C

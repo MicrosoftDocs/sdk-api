@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IDirectoryObject.GetObjectAttributes
 title: IDirectoryObject::GetObjectAttributes (iads.h)
-description: Retrieves one or more specified attributes of the directory service object.
+description: Retrieves one or more specified attributes of the directory service object.helpviewer_keywords: ["GetObjectAttributes","GetObjectAttributes method [ADSI]","GetObjectAttributes method [ADSI]","IDirectoryObject interface","IDirectoryObject interface [ADSI]","GetObjectAttributes method","IDirectoryObject.GetObjectAttributes","IDirectoryObject::GetObjectAttributes","_ds_idirectoryobject_getobjectattributes","adsi.idirectoryobject__getobjectattributes","adsi.idirectoryobject_getobjectattributes","iads/IDirectoryObject::GetObjectAttributes"]
 old-location: adsi\idirectoryobject_getobjectattributes.htm
 tech.root: adsi
 ms.assetid: 6e3d046f-eac0-4955-925b-71ab15df9ed3

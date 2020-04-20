@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.SetErrorInfo
 title: IWRdsProtocolConnection::SetErrorInfo (wtsprotocol.h)
-description: Sets error information in the protocol.
+description: Sets error information in the protocol.helpviewer_keywords: ["IWRdsProtocolConnection interface [Remote Desktop Services]","SetErrorInfo method","IWRdsProtocolConnection.SetErrorInfo","IWRdsProtocolConnection::SetErrorInfo","SetErrorInfo","SetErrorInfo method [Remote Desktop Services]","SetErrorInfo method [Remote Desktop Services]","IWRdsProtocolConnection interface","termserv.iwrdsprotocolconnection_seterrorinfo","wtsprotocol/IWRdsProtocolConnection::SetErrorInfo"]
 old-location: termserv\iwrdsprotocolconnection_seterrorinfo.htm
 tech.root: TermServ
 ms.assetid: 114abaf1-fe67-4d80-ad5d-f49aac9dd587

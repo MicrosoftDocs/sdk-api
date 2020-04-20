@@ -1,7 +1,7 @@
 ---
 UID: NN:uianimation.IUIAnimationStoryboardEventHandler2
 title: IUIAnimationStoryboardEventHandler2 (uianimation.h)
-description: Defines methods for handling storyboard events.
+description: Defines methods for handling storyboard events.helpviewer_keywords: ["IUIAnimationStoryboardEventHandler2","IUIAnimationStoryboardEventHandler2 interface [Windows Animation]","IUIAnimationStoryboardEventHandler2 interface [Windows Animation]","described","uianimation.iuianimationstoryboardeventhandler2","uianimation/IUIAnimationStoryboardEventHandler2"]
 old-location: uianimation\iuianimationstoryboardeventhandler2.htm
 tech.root: UIAnimation
 ms.assetid: 2AB8C0C5-2203-4778-BBEA-6D52B727FDDB

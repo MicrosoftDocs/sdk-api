@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj.IThumbnailCapture
 title: IThumbnailCapture (shlobj.h)
-description: Exposes a method that obtains a thumbnail representation of an HTML wallpaper.
+description: Exposes a method that obtains a thumbnail representation of an HTML wallpaper.helpviewer_keywords: ["IThumbnailCapture","IThumbnailCapture interface [Windows Shell]","IThumbnailCapture interface [Windows Shell]","described","_shell_IThumbnailCapture","shell.IThumbnailCapture","shlobj/IThumbnailCapture"]
 old-location: shell\IThumbnailCapture.htm
 tech.root: shell
 ms.assetid: fecf1f8f-ea76-4a3d-a6cf-faa3e400f5e4

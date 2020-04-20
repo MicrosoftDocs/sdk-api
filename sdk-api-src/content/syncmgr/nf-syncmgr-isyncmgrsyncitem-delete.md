@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.Delete
 title: ISyncMgrSyncItem::Delete (syncmgr.h)
-description: Deletes a sync item.
+description: Deletes a sync item.helpviewer_keywords: ["Delete","Delete method [Windows Shell]","Delete method [Windows Shell]","ISyncMgrSyncItem interface","ISyncMgrSyncItem interface [Windows Shell]","Delete method","ISyncMgrSyncItem.Delete","ISyncMgrSyncItem::Delete","_shell_ISyncMgrSyncItem_Delete","shell.ISyncMgrSyncItem_Delete","syncmgr/ISyncMgrSyncItem::Delete"]
 old-location: shell\ISyncMgrSyncItem_Delete.htm
 tech.root: shell
 ms.assetid: 403c01fe-928d-4b9b-a087-6cc68d1aa90a

@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument2.GetTypographyOptions
 title: ITextDocument2::GetTypographyOptions (tom.h)
-description: Gets the typography options.
+description: Gets the typography options.helpviewer_keywords: ["GetTypographyOptions","GetTypographyOptions method [Windows Controls]","GetTypographyOptions method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","GetTypographyOptions method","ITextDocument2.GetTypographyOptions","ITextDocument2::GetTypographyOptions","TO_ADVANCEDTYPOGRAPHY","TO_SIMPLELINEBREAK","controls.itextdocument2_gettypographyoptions","tom/ITextDocument2::GetTypographyOptions"]
 old-location: controls\itextdocument2_gettypographyoptions.htm
 tech.root: Controls
 ms.assetid: 3433954c-818b-4811-9e38-4bc8ab3ee7f9

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetClipboardViewer
 title: SetClipboardViewer function (winuser.h)
-description: Adds the specified window to the chain of clipboard viewers. Clipboard viewer windows receive a WM_DRAWCLIPBOARD message whenever the content of the clipboard changes. This function is used for backward compatibility with earlier versions of Windows.
+description: Adds the specified window to the chain of clipboard viewers. Clipboard viewer windows receive a WM_DRAWCLIPBOARD message whenever the content of the clipboard changes. This function is used for backward compatibility with earlier versions of Windows.helpviewer_keywords: ["SetClipboardViewer","SetClipboardViewer function [Data Exchange]","_win32_SetClipboardViewer","_win32_setclipboardviewer_cpp","dataxchg.setclipboardviewer","winui._win32_setclipboardviewer","winuser/SetClipboardViewer"]
 old-location: dataxchg\setclipboardviewer.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\setclipboardviewer.htm

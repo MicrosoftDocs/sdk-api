@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IAnnotationProvider.get_AnnotationTypeId
 title: IAnnotationProvider::get_AnnotationTypeId (uiautomationcore.h)
-description: The annotation type identifier of this annotation.
+description: The annotation type identifier of this annotation.helpviewer_keywords: ["AnnotationTypeId property [Windows Accessibility]","AnnotationTypeId property [Windows Accessibility]","IAnnotationProvider interface","IAnnotationProvider interface [Windows Accessibility]","AnnotationTypeId property","IAnnotationProvider.AnnotationTypeId","IAnnotationProvider.get_AnnotationTypeId","IAnnotationProvider::AnnotationTypeId","IAnnotationProvider::get_AnnotationTypeId","get_AnnotationTypeId","uiautomationcore/IAnnotationProvider::AnnotationTypeId","uiautomationcore/IAnnotationProvider::get_AnnotationTypeId","winauto.uiauto_IAnnotationProvider_AnnotationTypeId"]
 old-location: winauto\uiauto_IAnnotationProvider_AnnotationTypeId.htm
 tech.root: WinAuto
 ms.assetid: DA6BEF52-5069-4FE3-B1D9-6A781556A6BE

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMQuaternionNormalize
 title: XMQuaternionNormalize function (directxmath.h)
-description: Normalizes a quaternion.
+description: Normalizes a quaternion.helpviewer_keywords: ["Use DirectX..XMQuaternionNormalize","XMQuaternionNormalize","XMQuaternionNormalize method [DirectX Math Support APIs]","dxmath.xmquaternionnormalize"]
 old-location: dxmath\xmquaternionnormalize.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionNormalize(XMVECTOR)

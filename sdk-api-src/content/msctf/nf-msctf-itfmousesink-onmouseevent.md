@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfMouseSink.OnMouseEvent
 title: ITfMouseSink::OnMouseEvent (msctf.h)
-description: ITfMouseSink::OnMouseEvent method
+description: ITfMouseSink::OnMouseEvent methodhelpviewer_keywords: ["ITfMouseSink interface [Text Services Framework]","OnMouseEvent method","ITfMouseSink.OnMouseEvent","ITfMouseSink::OnMouseEvent","OnMouseEvent","OnMouseEvent method [Text Services Framework]","OnMouseEvent method [Text Services Framework]","ITfMouseSink interface","_tsf_itfmousesink_onmouseevent_ref","msctf/ITfMouseSink::OnMouseEvent","tsf.itfmousesink_onmouseevent"]
 old-location: tsf\itfmousesink_onmouseevent.htm
 tech.root: TSF
 ms.assetid: 1aa4fdb7-b16d-4e58-934a-8323450f6749

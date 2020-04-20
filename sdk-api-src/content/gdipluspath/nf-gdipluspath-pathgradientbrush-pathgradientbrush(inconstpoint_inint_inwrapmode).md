@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.PathGradientBrush(IN const Point,IN INT,IN WrapMode)
 title: PathGradientBrush::PathGradientBrush(IN const Point,IN INT,IN WrapMode) (gdipluspath.h)
-description: Creates a PathGradientBrush::PathGradientBrush object based on an array of points. Initializes the wrap mode of the path gradient brush.
+description: Creates a PathGradientBrush::PathGradientBrush object based on an array of points. Initializes the wrap mode of the path gradient brush.helpviewer_keywords: ["PathGradientBrush","PathGradientBrush class [GDI+]","PathGradientBrush constructor","PathGradientBrush constructor [GDI+]","PathGradientBrush constructor [GDI+]","PathGradientBrush class","PathGradientBrush.PathGradientBrush","PathGradientBrush.PathGradientBrush(IN const Point","IN INT","IN WrapMode)","PathGradientBrush.PathGradientBrush(const Point*","INT","WrapMode)","PathGradientBrush::PathGradientBrush","PathGradientBrush::PathGradientBrush(IN const Point","IN INT","IN WrapMode)","_gdiplus_CLASS_PathGradientBrush_PathGradientBrush_Point_points_INT_count_WrapMode_wrapMode_","gdiplus._gdiplus_CLASS_PathGradientBrush_PathGradientBrush_Point_points_INT_count_WrapMode_wrapMode_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_PathGradientBrush_Point_points_INT_count_WrapMode_wrapMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushconstructors\pathgradientbrush_15pointpoints_intcount_wrapmodewrapmode.htm

@@ -1,7 +1,7 @@
 ---
 UID: NS:cloneviewhelper.tagAdapter
 title: Adapter (cloneviewhelper.h)
-description: The Adapter structure describes a graphics adapter.
+description: The Adapter structure describes a graphics adapter.helpviewer_keywords: ["Adapter","Adapter structure [Display Devices]","TMM_Ref_6570c45d-9024-46c4-bcd4-848eb2d18955.xml","cloneviewhelper/Adapter","display.adapter"]
 old-location: display\adapter.htm
 tech.root: display
 ms.assetid: c62c6aed-2593-4b5d-884f-99d20e269eb1

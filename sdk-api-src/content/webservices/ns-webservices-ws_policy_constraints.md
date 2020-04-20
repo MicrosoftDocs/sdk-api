@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_POLICY_CONSTRAINTS
 title: WS_POLICY_CONSTRAINTS (webservices.h)
-description: Specifies policy constraints for a channel.
+description: Specifies policy constraints for a channel.helpviewer_keywords: ["WS_POLICY_CONSTRAINTS","WS_POLICY_CONSTRAINTS structure [Web Services for Windows]","webservices/WS_POLICY_CONSTRAINTS","wsw.ws_policy_constraints"]
 old-location: wsw\ws_policy_constraints.htm
 tech.root: wsw
 ms.assetid: 2cf65426-336f-4148-ab3b-063a229db99f

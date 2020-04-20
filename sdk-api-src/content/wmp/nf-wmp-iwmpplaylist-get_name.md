@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_name
 title: IWMPPlaylist::get_name (wmp.h)
-description: The get_name method retrieves the name of the playlist.
+description: The get_name method retrieves the name of the playlist.helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","get_name method","IWMPPlaylist.get_name","IWMPPlaylist::get_name","IWMPPlaylistget_name","get_name","get_name method [Windows Media Player]","get_name method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_get_name","wmp/IWMPPlaylist::get_name"]
 old-location: wmp\iwmpplaylist_get_name.htm
 tech.root: WMP
 ms.assetid: 547a8ebe-b7c7-4dbc-96c4-1d5f5ef77f97

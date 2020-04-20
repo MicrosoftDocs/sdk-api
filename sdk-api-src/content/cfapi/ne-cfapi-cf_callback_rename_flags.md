@@ -1,7 +1,7 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_RENAME_FLAGS
 title: CF_CALLBACK_RENAME_FLAGS (cfapi.h)
-description: Call back flags to inform the sync provider that a placeholder under one of its sync roots is about to be renamed or moved.
+description: Call back flags to inform the sync provider that a placeholder under one of its sync roots is about to be renamed or moved.helpviewer_keywords: ["CF_CALLBACK_RENAME_FLAGS","CF_CALLBACK_RENAME_FLAGS enumeration","CF_CALLBACK_RENAME_FLAG_IS_DIRECTORY","CF_CALLBACK_RENAME_FLAG_NONE","CF_CALLBACK_RENAME_FLAG_SOURCE_IN_SCOPE","CF_CALLBACK_RENAME_FLAG_TARGET_IN_SCOPE","cfapi/CF_CALLBACK_RENAME_FLAGS","cfapi/CF_CALLBACK_RENAME_FLAG_IS_DIRECTORY","cfapi/CF_CALLBACK_RENAME_FLAG_NONE","cfapi/CF_CALLBACK_RENAME_FLAG_SOURCE_IN_SCOPE","cfapi/CF_CALLBACK_RENAME_FLAG_TARGET_IN_SCOPE","cloudApi.cf_callback_rename_flags"]
 old-location: cloudapi\cf_callback_rename_flags.htm
 tech.root: cfApi
 ms.assetid: 7506ED1D-F6A8-49EB-B03B-B629264DFBB2

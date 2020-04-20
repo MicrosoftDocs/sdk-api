@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.GetStyle
 title: ITextFont::GetStyle (tom.h)
-description: Gets the character style handle of the characters in a range.
+description: Gets the character style handle of the characters in a range.helpviewer_keywords: ["GetStyle","GetStyle method [Windows Controls]","GetStyle method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetStyle method","ITextFont.GetStyle","ITextFont::GetStyle","_win32_ITextFont_GetStyle","_win32_ITextFont_GetStyle_cpp","controls.ITextFont_GetStyle","controls._win32_ITextFont_GetStyle","tom/ITextFont::GetStyle"]
 old-location: controls\ITextFont_GetStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetstyle.htm

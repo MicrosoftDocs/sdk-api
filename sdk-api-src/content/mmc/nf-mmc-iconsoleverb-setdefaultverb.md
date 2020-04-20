@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IConsoleVerb.SetDefaultVerb
 title: IConsoleVerb::SetDefaultVerb (mmc.h)
-description: The SetDefaultVerb method sets the default action on an object.
+description: The SetDefaultVerb method sets the default action on an object.helpviewer_keywords: ["IConsoleVerb interface [MMC]","SetDefaultVerb method","IConsoleVerb.SetDefaultVerb","IConsoleVerb::SetDefaultVerb","SetDefaultVerb","SetDefaultVerb method [MMC]","SetDefaultVerb method [MMC]","IConsoleVerb interface","_slate_iconsoleverb_setdefaultverb","mmc.iconsoleverb_setdefaultverb","mmc/IConsoleVerb::SetDefaultVerb"]
 old-location: mmc\iconsoleverb_setdefaultverb.htm
 tech.root: mmc
 ms.assetid: 099a5cd7-b1c8-45c0-a109-7e78d1b6ee98

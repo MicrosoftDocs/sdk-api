@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMQuaternionIsNaN
 title: XMQuaternionIsNaN function (directxmath.h)
-description: Test whether any component of a quaternion is a NaN.
+description: Test whether any component of a quaternion is a NaN.helpviewer_keywords: ["Use DirectX..XMQuaternionIsNaN","XMQuaternionIsNaN","XMQuaternionIsNaN method [DirectX Math Support APIs]","dxmath.xmquaternionisnan"]
 old-location: dxmath\xmquaternionisnan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionIsNaN(XMVECTOR)

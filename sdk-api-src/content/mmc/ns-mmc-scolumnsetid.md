@@ -1,7 +1,7 @@
 ---
 UID: NS:mmc._SColumnSetID
 title: SColumnSetID (mmc.h)
-description: The SColumnSetID structure is introduced in MMC 1.2.
+description: The SColumnSetID structure is introduced in MMC 1.2.helpviewer_keywords: ["SColumnSetID","SColumnSetID structure [MMC]","_slate_scolumnsetid","mmc.scolumnsetid","mmc/SColumnSetID"]
 old-location: mmc\scolumnsetid.htm
 tech.root: mmc
 ms.assetid: eb08f699-74bc-445d-96b7-678abbd366b3

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IOverlay.GetVideoPosition
 title: IOverlay::GetVideoPosition (strmif.h)
-description: The GetVideoPosition method retrieves the current video source and destination rectangles.
+description: The GetVideoPosition method retrieves the current video source and destination rectangles.helpviewer_keywords: ["GetVideoPosition","GetVideoPosition method [DirectShow]","GetVideoPosition method [DirectShow]","IOverlay interface","IOverlay interface [DirectShow]","GetVideoPosition method","IOverlay.GetVideoPosition","IOverlay::GetVideoPosition","IOverlayGetVideoPosition","dshow.ioverlay_getvideoposition","strmif/IOverlay::GetVideoPosition"]
 old-location: dshow\ioverlay_getvideoposition.htm
 tech.root: DirectShow
 ms.assetid: a140cc63-29a1-4c81-8393-7f4342c7b7cc

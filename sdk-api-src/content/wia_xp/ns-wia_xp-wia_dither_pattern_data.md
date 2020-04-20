@@ -1,7 +1,7 @@
 ---
 UID: NS:wia_xp._WIA_DITHER_PATTERN_DATA
 title: WIA_DITHER_PATTERN_DATA (wia_xp.h)
-description: The WIA_DITHER_PATTERN_DATA structure specifies a dither pattern for scanners. It is used in conjunction with the scanner device property constant WIA_DPS_DITHER_PATTERN_DATA.
+description: The WIA_DITHER_PATTERN_DATA structure specifies a dither pattern for scanners. It is used in conjunction with the scanner device property constant WIA_DPS_DITHER_PATTERN_DATA.helpviewer_keywords: ["*PWIA_DITHER_PATTERN_DATA","PWIA_DITHER_PATTERN_DATA","PWIA_DITHER_PATTERN_DATA structure pointer [WIA]","WIA_DITHER_PATTERN_DATA","WIA_DITHER_PATTERN_DATA structure [WIA]","_wia_WIA_DITHER_PATTERN_DATA","wia._wia_WIA_DITHER_PATTERN_DATA","wia_xp/PWIA_DITHER_PATTERN_DATA","wia_xp/WIA_DITHER_PATTERN_DATA"]
 old-location: wia\_wia_WIA_DITHER_PATTERN_DATA.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_dither_pattern_data.htm

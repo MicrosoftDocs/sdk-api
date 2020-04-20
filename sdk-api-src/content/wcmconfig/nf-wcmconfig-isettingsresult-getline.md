@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetLine
 title: ISettingsResult::GetLine (wcmconfig.h)
-description: Returns the line number where the error has occurred.
+description: Returns the line number where the error has occurred.helpviewer_keywords: ["GetLine","GetLine method [SMI]","GetLine method [SMI]","ISettingsResult interface","ISettingsResult interface [SMI]","GetLine method","ISettingsResult.GetLine","ISettingsResult::GetLine","smi.isettingsresult_getline","wcmconfig/ISettingsResult::GetLine"]
 old-location: smi\isettingsresult_getline.htm
 tech.root: SMI
 ms.assetid: c74beea9-5e81-4cd2-ade2-c812b6a035a1

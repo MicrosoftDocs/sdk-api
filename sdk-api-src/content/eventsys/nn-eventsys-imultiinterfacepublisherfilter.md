@@ -1,7 +1,7 @@
 ---
 UID: NN:eventsys.IMultiInterfacePublisherFilter
 title: IMultiInterfacePublisherFilter (eventsys.h)
-description: Manages a filtered subscription cache for an event method.
+description: Manages a filtered subscription cache for an event method.helpviewer_keywords: ["IMultiInterfacePublisherFilter","IMultiInterfacePublisherFilter interface [COM+]","IMultiInterfacePublisherFilter interface [COM+]","described","_cos_IMultiInterfacePublisherFilter","cos.imultiinterfacepublisherfilter","eventsys/IMultiInterfacePublisherFilter"]
 old-location: cos\imultiinterfacepublisherfilter.htm
 tech.root: cossdk
 ms.assetid: f20f778b-fdd5-4c34-871b-d03cd1cd31cc

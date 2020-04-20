@@ -1,7 +1,7 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO
 title: CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO (cryptuiapi.h)
-description: Used with the CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure to contain extended information about a signature.
+description: Used with the CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure to contain extended information about a signature.helpviewer_keywords: ["*PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_COMMERCIAL","CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO structure [Security]","CRYPTUI_WIZ_DIGITAL_SIGN_INDIVIDUAL","PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO","PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO structure pointer [Security]","cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO","cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO","security.cryptui_wiz_digital_sign_extended_info"]
 old-location: security\cryptui_wiz_digital_sign_extended_info.htm
 tech.root: SecCrypto
 ms.assetid: e061aac4-8c9f-4282-a8f8-bc0c5a10e566

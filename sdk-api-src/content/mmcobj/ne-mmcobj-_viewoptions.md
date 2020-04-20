@@ -1,7 +1,7 @@
 ---
 UID: NE:mmcobj.ViewOptions
 title: _ViewOptions (mmcobj.h)
-description: The ViewOptions enumeration is used by the Views.Add method and specifies the visibility of the view, scope tree, and toolbars, as well as the persistence state of the view.
+description: The ViewOptions enumeration is used by the Views.Add method and specifies the visibility of the view, scope tree, and toolbars, as well as the persistence state of the view.helpviewer_keywords: ["*PVIEWOPTIONS","PPVIEWOPTIONS","PPVIEWOPTIONS enumeration pointer [MMC]","PVIEWOPTIONS","PVIEWOPTIONS enumeration pointer [MMC]","VIEWOPTIONS","ViewOption_Default","ViewOption_NoToolBars","ViewOption_NotPersistable","ViewOption_ScopeTreeHidden","ViewOptions","ViewOptions enumeration [MMC]","_ViewOptions","_ViewOptions enumeration [MMC]","_slate_viewoptions","mmc.viewoptions","mmcobj/PPVIEWOPTIONS","mmcobj/PVIEWOPTIONS","mmcobj/ViewOption_Default","mmcobj/ViewOption_NoToolBars","mmcobj/ViewOption_NotPersistable","mmcobj/ViewOption_ScopeTreeHidden","mmcobj/ViewOptions"]
 old-location: mmc\viewoptions.htm
 tech.root: mmc
 ms.assetid: e3cc2834-873d-4cc1-a917-f3aeabdb2350

@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IShellItem
 title: IShellItem (shobjidl_core.h)
-description: Exposes methods that retrieve information about a Shell item. IShellItem and IShellItem2 are the preferred representations of items in any new code.
+description: Exposes methods that retrieve information about a Shell item. IShellItem and IShellItem2 are the preferred representations of items in any new code.helpviewer_keywords: ["IShellItem","IShellItem interface [Windows Shell]","IShellItem interface [Windows Shell]","described","_win32_IShellItem","shell.IShellItem","shobjidl_core/IShellItem"]
 old-location: shell\IShellItem.htm
 tech.root: shell
 ms.assetid: 599b9c0a-df04-4dbd-a5a6-a8736eecc560

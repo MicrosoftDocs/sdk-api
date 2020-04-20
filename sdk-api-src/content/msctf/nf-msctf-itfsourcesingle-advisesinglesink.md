@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfSourceSingle.AdviseSingleSink
 title: ITfSourceSingle::AdviseSingleSink (msctf.h)
-description: ITfSourceSingle::AdviseSingleSink method
+description: ITfSourceSingle::AdviseSingleSink methodhelpviewer_keywords: ["AdviseSingleSink","AdviseSingleSink method [Text Services Framework]","AdviseSingleSink method [Text Services Framework]","ITfSourceSingle interface","IID_ITfCleanupContextDurationSink","IID_ITfFunctionProvider","ITfSourceSingle interface [Text Services Framework]","AdviseSingleSink method","ITfSourceSingle.AdviseSingleSink","ITfSourceSingle::AdviseSingleSink","_tsf_itfsourcesingle_advisesinglesink_ref","msctf/ITfSourceSingle::AdviseSingleSink","tsf.itfsourcesingle_advisesinglesink"]
 old-location: tsf\itfsourcesingle_advisesinglesink.htm
 tech.root: TSF
 ms.assetid: d9231f36-24c4-4d46-97e7-518f5fcc1ce2

@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_3.ID2D1DeviceContext5
 title: ID2D1DeviceContext5 (d2d1_3.h)
-description: This interface performs all the same functions as the ID2D1DeviceContext4 interface, plus it enables the creation of color contexts and Svg documents.
+description: This interface performs all the same functions as the ID2D1DeviceContext4 interface, plus it enables the creation of color contexts and Svg documents.helpviewer_keywords: ["ID2D1DeviceContext5","ID2D1DeviceContext5 interface [Direct2D]","ID2D1DeviceContext5 interface [Direct2D]","described","d2d1_3/ID2D1DeviceContext5","direct2d.id2d1devicecontext5"]
 old-location: direct2d\id2d1devicecontext5.htm
 tech.root: Direct2D
 ms.assetid: 38689191-3315-44F3-A259-DC1EB378485D

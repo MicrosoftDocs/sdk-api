@@ -1,7 +1,7 @@
 ---
 UID: NS:winddi._GAMMARAMP
 title: GAMMARAMP (winddi.h)
-description: The GAMMARAMP structure is used by DrvIcmSetDeviceGammaRamp to set the hardware gamma ramp of a particular display device.
+description: The GAMMARAMP structure is used by DrvIcmSetDeviceGammaRamp to set the hardware gamma ramp of a particular display device.helpviewer_keywords: ["*PGAMMARAMP","GAMMARAMP","GAMMARAMP structure [Display Devices]","PGAMMARAMP","PGAMMARAMP structure pointer [Display Devices]","display.gammaramp","grstrcts_fdf8b6b9-dfc1-4679-b461-58488eb5d9b4.xml","winddi/GAMMARAMP","winddi/PGAMMARAMP"]
 old-location: display\gammaramp.htm
 tech.root: display
 ms.assetid: cc082911-5089-4335-93d2-1405ca390741

@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx3.GetSessionId
 title: IVssBackupComponentsEx3::GetSessionId (vsbackup.h)
-description: Returns the requester's session identifier.
+description: Returns the requester's session identifier.helpviewer_keywords: ["GetSessionId","GetSessionId method","GetSessionId method","IVssBackupComponentsEx3 interface","IVssBackupComponentsEx3 interface","GetSessionId method","IVssBackupComponentsEx3.GetSessionId","IVssBackupComponentsEx3::GetSessionId","base.ivssbackupcomponentsex3_getsessionid","vsbackup/IVssBackupComponentsEx3::GetSessionId"]
 old-location: base\ivssbackupcomponentsex3_getsessionid.htm
 tech.root: VSS
 ms.assetid: ad7e548a-9f7a-4e35-9811-edb68458a1df

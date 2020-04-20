@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsEmfPlusDual
 title: MetafileHeader::IsEmfPlusDual (gdiplusmetaheader.h)
-description: The MetafileHeader::IsEmfPlusDual method determines whether the associated metafile is in the EMF+ Dual format.
+description: The MetafileHeader::IsEmfPlusDual method determines whether the associated metafile is in the EMF+ Dual format.helpviewer_keywords: ["IsEmfPlusDual","IsEmfPlusDual method [GDI+]","IsEmfPlusDual method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","IsEmfPlusDual method","MetafileHeader.IsEmfPlusDual","MetafileHeader::IsEmfPlusDual","_gdiplus_CLASS_MetafileHeader_IsEmfPlusDual_","gdiplus._gdiplus_CLASS_MetafileHeader_IsEmfPlusDual_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmfPlusDual_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemfplusdual.htm

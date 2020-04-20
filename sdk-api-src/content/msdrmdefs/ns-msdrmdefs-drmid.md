@@ -1,7 +1,7 @@
 ---
 UID: NS:msdrmdefs._DRMID
 title: DRMID (msdrmdefs.h)
-description: Identifies an object.
+description: Identifies an object.helpviewer_keywords: ["DRMID","DRMID structure [Active Directory Rights Management Services SDK 1.0]","msdrmdefs/DRMID","rm.drmid"]
 old-location: rm\drmid.htm
 tech.root: AdRms_Sdk
 ms.assetid: 8b7f22e0-586e-4950-94fe-868b3fc91ffa

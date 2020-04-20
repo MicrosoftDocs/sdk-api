@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprInfoCreate
 title: MprInfoCreate function (mprapi.h)
-description: The MprInfoCreate function creates a new information header.
+description: The MprInfoCreate function creates a new information header.helpviewer_keywords: ["MprInfoCreate","MprInfoCreate function [RAS]","_mpr_mprinfocreate","mprapi/MprInfoCreate","rras.mprinfocreate"]
 old-location: rras\mprinfocreate.htm
 tech.root: RRAS
 ms.assetid: c48fc24f-8cf6-45c0-8ce1-841896648ba7

@@ -1,7 +1,7 @@
 ---
 UID: NF:qos2.QOSNotifyFlow
 title: QOSNotifyFlow function (qos2.h)
-description: Registers the calling application to receive a notification.
+description: Registers the calling application to receive a notification.helpviewer_keywords: ["QOSNotifyFlow","QOSNotifyFlow function [QOS]","qos.qosnotifyflow","qos2/QOSNotifyFlow"]
 old-location: qos\qosnotifyflow.htm
 tech.root: QOS
 ms.assetid: e6d541fe-2aeb-4969-b138-869754dbdaa3

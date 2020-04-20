@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IDeskBand2
 title: IDeskBand2 (shobjidl.h)
-description: Exposes methods to enable and query translucency effects in a deskband object.
+description: Exposes methods to enable and query translucency effects in a deskband object.helpviewer_keywords: ["IDeskBand2","IDeskBand2 interface [Windows Shell]","IDeskBand2 interface [Windows Shell]","described","_shell_IDeskBand2","shell.IDeskBand2","shobjidl/IDeskBand2"]
 old-location: shell\IDeskBand2.htm
 tech.root: shell
 ms.assetid: ba73527a-7762-45c0-8c69-87f03e55e5c6

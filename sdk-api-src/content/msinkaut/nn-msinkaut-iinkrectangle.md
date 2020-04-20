@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkRectangle
 title: IInkRectangle (msinkaut.h)
-description: .
+description: .helpviewer_keywords: ["IInkRectangle","IInkRectangle interface [Tablet PC]","IInkRectangle interface [Tablet PC]","described","msinkaut/IInkRectangle","tablet.iinkrectangle"]
 old-location: tablet\iinkrectangle.htm
 tech.root: tablet
 ms.assetid: 9E438012-0991-46AA-8D0F-2C561F523EC2

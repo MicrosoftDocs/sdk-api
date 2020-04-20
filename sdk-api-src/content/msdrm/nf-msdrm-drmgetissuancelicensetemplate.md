@@ -1,7 +1,7 @@
 ---
 UID: NF:msdrm.DRMGetIssuanceLicenseTemplate
 title: DRMGetIssuanceLicenseTemplate function (msdrm.h)
-description: Obtains an issuance license template from an existing issuance license.
+description: Obtains an issuance license template from an existing issuance license.helpviewer_keywords: ["DRMGetIssuanceLicenseTemplate","DRMGetIssuanceLicenseTemplate function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetIssuanceLicenseTemplate","rm.drmgetissuancelicensetemplate"]
 old-location: rm\drmgetissuancelicensetemplate.htm
 tech.root: AdRms_Sdk
 ms.assetid: 6667bab3-5022-4279-846a-61a0a37e9d33

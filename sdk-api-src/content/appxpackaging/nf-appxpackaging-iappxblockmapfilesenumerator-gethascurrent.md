@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFilesEnumerator.GetHasCurrent
 title: IAppxBlockMapFilesEnumerator::GetHasCurrent (appxpackaging.h)
-description: Determines whether there is a file at the current position of the enumerator.
+description: Determines whether there is a file at the current position of the enumerator.helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxBlockMapFilesEnumerator interface","IAppxBlockMapFilesEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxBlockMapFilesEnumerator.GetHasCurrent","IAppxBlockMapFilesEnumerator::GetHasCurrent","appxpackaging/IAppxBlockMapFilesEnumerator::GetHasCurrent","appxpkg.iappxblockmapfilesenumerator_gethascurrent"]
 old-location: appxpkg\iappxblockmapfilesenumerator_gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: B0021CBC-9A3F-4D2D-8898-FE797396B312

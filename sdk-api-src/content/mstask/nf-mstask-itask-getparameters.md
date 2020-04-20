@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.ITask.GetParameters
 title: ITask::GetParameters (mstask.h)
-description: This method retrieves the task's command-line parameters.
+description: This method retrieves the task's command-line parameters.helpviewer_keywords: ["GetParameters","GetParameters method [Task Scheduler]","GetParameters method [Task Scheduler]","ITask interface","ITask interface [Task Scheduler]","GetParameters method","ITask.GetParameters","ITask::GetParameters","_msb_itask_getparameters","mstask/ITask::GetParameters","taskschd.itask_getparameters"]
 old-location: taskschd\itask_getparameters.htm
 tech.root: taskschd
 ms.assetid: f59118d6-b430-4fcd-9c78-e6b5a65c151a

@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.waveOutMessage
 title: waveOutMessage function (mmeapi.h)
-description: The waveOutMessage function sends messages to the waveform-audio output device drivers.
+description: The waveOutMessage function sends messages to the waveform-audio output device drivers.helpviewer_keywords: ["_win32_waveOutMessage","mmeapi/waveOutMessage","multimedia.waveoutmessage","waveOutMessage","waveOutMessage function [Windows Multimedia]"]
 old-location: multimedia\waveoutmessage.htm
 tech.root: Multimedia
 ms.assetid: b4f06107-781f-4b95-8138-ca0e11a21cf4

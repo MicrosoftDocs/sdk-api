@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.IsValidAcl
 title: IsValidAcl function (securitybaseapi.h)
-description: Validates an access control list (ACL).
+description: Validates an access control list (ACL).helpviewer_keywords: ["IsValidAcl","IsValidAcl function [Security]","_win32_isvalidacl","security.isvalidacl","securitybaseapi/IsValidAcl"]
 old-location: security\isvalidacl.htm
 tech.root: SecAuthZ
 ms.assetid: 3ae9f147-4e90-44df-a1af-cf6ebad92aea

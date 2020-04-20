@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetLocaleName
 title: IDWriteTextLayout::SetLocaleName (dwrite.h)
-description: Sets the locale name for text within a specified text range.
+description: Sets the locale name for text within a specified text range.helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetLocaleName method","IDWriteTextLayout.SetLocaleName","IDWriteTextLayout::SetLocaleName","SetLocaleName","SetLocaleName method [Direct Write]","SetLocaleName method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetLocaleName","dwrite/IDWriteTextLayout::SetLocaleName"]
 old-location: directwrite\IDWriteTextLayout_SetLocaleName.htm
 tech.root: DirectWrite
 ms.assetid: c00d28dc-5338-438f-9046-5ad54e845e9d

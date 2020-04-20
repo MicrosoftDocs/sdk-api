@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CRYPT_TIMESTAMP_INFO
 title: CRYPT_TIMESTAMP_INFO (wincrypt.h)
-description: Contains a signed data content type in Cryptographic Message Syntax (CMS) format.
+description: Contains a signed data content type in Cryptographic Message Syntax (CMS) format.helpviewer_keywords: ["*PCRYPT_TIMESTAMP_INFO","CRYPT_TIMESTAMP_INFO","CRYPT_TIMESTAMP_INFO structure [Security]","PCRYPT_TIMESTAMP_INFO","PCRYPT_TIMESTAMP_INFO structure pointer [Security]","TIMESTAMP_VERSION","security.crypt_timestamp_info","wincrypt/CRYPT_TIMESTAMP_INFO","wincrypt/PCRYPT_TIMESTAMP_INFO"]
 old-location: security\crypt_timestamp_info.htm
 tech.root: SecCrypto
 ms.assetid: 05ca0877-5e9d-4b21-9fca-a1eef2cb4626

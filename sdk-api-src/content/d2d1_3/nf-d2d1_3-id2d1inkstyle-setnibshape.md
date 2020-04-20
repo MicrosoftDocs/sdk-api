@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1InkStyle.SetNibShape
 title: ID2D1InkStyle::SetNibShape (d2d1_3.h)
-description: Sets the pre-transform nib shape for this style.
+description: Sets the pre-transform nib shape for this style.helpviewer_keywords: ["ID2D1InkStyle interface [Direct2D]","SetNibShape method","ID2D1InkStyle.SetNibShape","ID2D1InkStyle::SetNibShape","SetNibShape","SetNibShape method [Direct2D]","SetNibShape method [Direct2D]","ID2D1InkStyle interface","d2d1_3/ID2D1InkStyle::SetNibShape","direct2d.id2d1inkstyle_setnibshape"]
 old-location: direct2d\id2d1inkstyle_setnibshape.htm
 tech.root: Direct2D
 ms.assetid: 460A037D-5315-4CAE-AB6B-5286B48551F1

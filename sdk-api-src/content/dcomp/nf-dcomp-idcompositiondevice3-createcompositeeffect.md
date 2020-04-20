@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateCompositeEffect
 title: IDCompositionDevice3::CreateCompositeEffect (dcomp.h)
-description: Creates an instance of IDCompositionCompositeEffect.
+description: Creates an instance of IDCompositionCompositeEffect.helpviewer_keywords: ["CreateCompositeEffect","CreateCompositeEffect method [DirectComposition]","CreateCompositeEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateCompositeEffect method","IDCompositionDevice3.CreateCompositeEffect","IDCompositionDevice3::CreateCompositeEffect","dcomp/IDCompositionDevice3::CreateCompositeEffect","directcomp.idcompositiondevice3_createcompositeeffect"]
 old-location: directcomp\idcompositiondevice3_createcompositeeffect.htm
 tech.root: directcomp
 ms.assetid: 9DA1541E-0792-482E-81AF-A6C91665D9D8

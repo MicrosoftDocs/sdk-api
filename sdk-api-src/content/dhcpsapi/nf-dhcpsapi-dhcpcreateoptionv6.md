@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateOptionV6
 title: DhcpCreateOptionV6 function (dhcpsapi.h)
-description: The DhcpCreateOptionV6 function creates a DHCP option.
+description: The DhcpCreateOptionV6 function creates a DHCP option.helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpCreateOptionV6","DhcpCreateOptionV6 function [DHCP]","dhcp.dhcpcreateoptionv6","dhcpsapi/DhcpCreateOptionV6"]
 old-location: dhcp\dhcpcreateoptionv6.htm
 tech.root: DHCP
 ms.assetid: c1a54d82-3fea-4f65-be46-d2a81d639429

@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.Copy
 title: IImageList::Copy (commoncontrols.h)
-description: Copies images from a given image list.
+description: Copies images from a given image list.helpviewer_keywords: ["Copy","Copy method [Windows Controls]","Copy method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","Copy method","IImageList.Copy","IImageList::Copy","comctl_IImageList_Copy","comctl_IImageList_Copy_cpp","commoncontrols/IImageList::Copy","controls.IImageList_Copy","controls.comctl_IImageList_Copy"]
 old-location: controls\IImageList_Copy.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\copy.htm

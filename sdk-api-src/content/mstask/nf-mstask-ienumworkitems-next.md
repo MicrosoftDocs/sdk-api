@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Next
 title: IEnumWorkItems::Next (mstask.h)
-description: Retrieves the next specified number of tasks in the enumeration sequence.
+description: Retrieves the next specified number of tasks in the enumeration sequence.helpviewer_keywords: ["IEnumWorkItems interface [Task Scheduler]","Next method","IEnumWorkItems.Next","IEnumWorkItems::Next","Next","Next method [Task Scheduler]","Next method [Task Scheduler]","IEnumWorkItems interface","_msb_ienumworkitems_next","mstask/IEnumWorkItems::Next","taskschd.ienumworkitems_next"]
 old-location: taskschd\ienumworkitems_next.htm
 tech.root: taskschd
 ms.assetid: a606e340-33fb-4a51-acdd-b7428c755ac5

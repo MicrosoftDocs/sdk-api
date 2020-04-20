@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.GetEncoderParameterListSize
 title: Image::GetEncoderParameterListSize (gdiplusheaders.h)
-description: The Image::GetEncoderParameterListSize method gets the size, in bytes, of the parameter list for a specified image encoder.
+description: The Image::GetEncoderParameterListSize method gets the size, in bytes, of the parameter list for a specified image encoder.helpviewer_keywords: ["GetEncoderParameterListSize","GetEncoderParameterListSize method [GDI+]","GetEncoderParameterListSize method [GDI+]","Image class","Image class [GDI+]","GetEncoderParameterListSize method","Image.GetEncoderParameterListSize","Image::GetEncoderParameterListSize","_gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEncoder_","gdiplus._gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEncoder_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEncoder_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getencoderparameterlistsize.htm

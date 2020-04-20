@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_0
 title: NT_CONSOLE_PROPS (shlobj_core.h)
-description: Holds an extra data block used by IShellLinkDataList. It holds console properties.
+description: Holds an extra data block used by IShellLinkDataList. It holds console properties.helpviewer_keywords: ["*LPNT_CONSOLE_PROPS","LPNT_CONSOLE_PROPS","LPNT_CONSOLE_PROPS structure pointer [Windows Shell]","NT_CONSOLE_PROPS","NT_CONSOLE_PROPS structure [Windows Shell]","_win32_NT_CONSOLE_PROPS_str","shell.NT_CONSOLE_PROPS_str","shlobj_core/LPNT_CONSOLE_PROPS","shlobj_core/NT_CONSOLE_PROPS"]
 old-location: shell\NT_CONSOLE_PROPS_str.htm
 tech.root: shell
 ms.assetid: 02542cd4-be8f-45c0-ad0f-e1e39a45f5de

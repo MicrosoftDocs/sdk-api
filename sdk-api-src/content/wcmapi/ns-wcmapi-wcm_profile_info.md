@@ -1,7 +1,7 @@
 ---
 UID: NS:wcmapi._WCM_PROFILE_INFO
 title: WCM_PROFILE_INFO (wcmapi.h)
-description: Contains information about a specific profile.
+description: Contains information about a specific profile.helpviewer_keywords: ["*PWCM_PROFILE_INFO","PWCM_PROFILE_INFO","PWCM_PROFILE_INFO structure pointer [Windows Connection Manager]","WCM_PROFILE_INFO","WCM_PROFILE_INFO structure [Windows Connection Manager]","wcm.wcm_profile_info","wcmapi/PWCM_PROFILE_INFO","wcmapi/WCM_PROFILE_INFO"]
 old-location: wcm\wcm_profile_info.htm
 tech.root: wcm
 ms.assetid: bf917afa-c6c5-408a-bd34-b4a4c7b991b9

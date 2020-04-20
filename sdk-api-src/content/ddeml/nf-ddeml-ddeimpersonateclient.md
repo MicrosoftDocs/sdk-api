@@ -1,7 +1,7 @@
 ---
 UID: NF:ddeml.DdeImpersonateClient
 title: DdeImpersonateClient function (ddeml.h)
-description: Impersonates a Dynamic Data Exchange (DDE) client application in a DDE client conversation.
+description: Impersonates a Dynamic Data Exchange (DDE) client application in a DDE client conversation.helpviewer_keywords: ["DdeImpersonateClient","DdeImpersonateClient function [Data Exchange]","_win32_DdeImpersonateClient","_win32_ddeimpersonateclient_cpp","dataxchg.ddeimpersonateclient","ddeml/DdeImpersonateClient","winui._win32_ddeimpersonateclient"]
 old-location: dataxchg\ddeimpersonateclient.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeimpersonateclient.htm

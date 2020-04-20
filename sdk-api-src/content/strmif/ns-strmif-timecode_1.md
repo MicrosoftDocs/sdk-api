@@ -1,7 +1,7 @@
 ---
 UID: NS:strmif._timecode
 title: TIMECODE (strmif.h)
-description: The TIMECODE structure contains basic timecode frame count information.
+description: The TIMECODE structure contains basic timecode frame count information.helpviewer_keywords: ["*PTIMECODE","ED_FORMAT_SMPTE_24","ED_FORMAT_SMPTE_25","ED_FORMAT_SMPTE_30","ED_FORMAT_SMPTE_30DROP","TIMECODE","TIMECODE structure [DirectShow]","TIMECODEStructure","dshow.timecode","strmif/TIMECODE","tagTIMECODE"]
 old-location: dshow\timecode.htm
 tech.root: DirectShow
 ms.assetid: 652be387-aa5e-4077-8b2d-b08bc40b31bb

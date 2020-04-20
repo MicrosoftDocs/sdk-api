@@ -1,7 +1,7 @@
 ---
 UID: NF:evntrace.RemoveTraceCallback
 title: RemoveTraceCallback function (evntrace.h)
-description: The RemoveTraceCallback function stops an EventClassCallback function from receiving events for an event trace class.
+description: The RemoveTraceCallback function stops an EventClassCallback function from receiving events for an event trace class.helpviewer_keywords: ["RemoveTraceCallback","RemoveTraceCallback function [ETW]","_evt_removetracecallback","base.removetracecallback","etw.removetracecallback","evntrace/RemoveTraceCallback"]
 old-location: etw\removetracecallback.htm
 tech.root: ETW
 ms.assetid: da779e8d-4984-44e3-8731-647a422b55b2

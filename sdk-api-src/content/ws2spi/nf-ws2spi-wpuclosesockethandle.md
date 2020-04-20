@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2spi.WPUCloseSocketHandle
 title: WPUCloseSocketHandle function (ws2spi.h)
-description: The WPUCloseSocketHandle function closes an existing socket handle.
+description: The WPUCloseSocketHandle function closes an existing socket handle.helpviewer_keywords: ["WPUCloseSocketHandle","WPUCloseSocketHandle function [Winsock]","_win32_wpuclosesockethandle_2","winsock.wpuclosesockethandle_2","ws2spi/WPUCloseSocketHandle"]
 old-location: winsock\wpuclosesockethandle_2.htm
 tech.root: WinSock
 ms.assetid: c125b763-6c5a-4a83-ba34-79e898fdc9fe

@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1_1.D2D1_POINT_DESCRIPTION
 title: D2D1_POINT_DESCRIPTION (d2d1_1.h)
-description: Describes a point on a path geometry.
+description: Describes a point on a path geometry.helpviewer_keywords: ["D2D1_POINT_DESCRIPTION","D2D1_POINT_DESCRIPTION structure [Direct2D]","PD2D1_POINT_DESCRIPTION","PD2D1_POINT_DESCRIPTION structure pointer [Direct2D]","d2d1_1/D2D1_POINT_DESCRIPTION","d2d1_1/PD2D1_POINT_DESCRIPTION","direct2d.d2d1_point_description"]
 old-location: direct2d\d2d1_point_description.htm
 tech.root: Direct2D
 ms.assetid: d6e7a4c1-135f-4ffe-91d7-486de8a9338d

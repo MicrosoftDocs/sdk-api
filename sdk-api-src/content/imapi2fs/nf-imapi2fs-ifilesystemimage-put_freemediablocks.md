@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_FreeMediaBlocks
 title: IFileSystemImage::put_FreeMediaBlocks (imapi2fs.h)
-description: Sets the maximum number of blocks available for the image.
+description: Sets the maximum number of blocks available for the image.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","put_FreeMediaBlocks method","IFileSystemImage.put_FreeMediaBlocks","IFileSystemImage::put_FreeMediaBlocks","imapi.ifilesystemimage_put_freemediablocks","imapi2fs/IFileSystemImage::put_FreeMediaBlocks","put_FreeMediaBlocks","put_FreeMediaBlocks method [IMAPI]","put_FreeMediaBlocks method [IMAPI]","IFileSystemImage interface"]
 old-location: imapi\ifilesystemimage_put_freemediablocks.htm
 tech.root: imapi
 ms.assetid: 7ffa2736-6480-4bda-8144-b949bf43e580

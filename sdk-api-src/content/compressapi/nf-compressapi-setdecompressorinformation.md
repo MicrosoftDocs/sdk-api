@@ -1,7 +1,7 @@
 ---
 UID: NF:compressapi.SetDecompressorInformation
 title: SetDecompressorInformation function (compressapi.h)
-description: Sets information in a decompressor for a particular compression algorithm.
+description: Sets information in a decompressor for a particular compression algorithm.helpviewer_keywords: ["SetDecompressorInformation","SetDecompressorInformation function [Compression API]","cmpapi.setdecompressorinformation","compressapi/SetDecompressorInformation"]
 old-location: cmpapi\setdecompressorinformation.htm
 tech.root: cmpapi
 ms.assetid: 804B73D3-E68E-43A3-8F23-6A46ABDECB23

@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_SessionFT
 title: MI_SessionFT (mi.h)
-description: Function table for all actions on a session object.
+description: Function table for all actions on a session object.helpviewer_keywords: ["MI_SessionFT","MI_SessionFT structure [Windows Management Infrastructure (MI)]","mi/MI_SessionFT","wmi_v2.mi_sessionft"]
 old-location: wmi_v2\mi_sessionft.htm
 tech.root: wmi_v2
 ms.assetid: 24bf4ca7-db0e-4ce5-bffd-48d94130c424

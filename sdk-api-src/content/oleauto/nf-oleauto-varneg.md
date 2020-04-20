@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarNeg
 title: VarNeg function (oleauto.h)
-description: Performs logical negation on a variant.
+description: Performs logical negation on a variant.helpviewer_keywords: ["VarNeg","VarNeg function [Automation]","_oa96_VarNeg","automat.varneg","oleauto/VarNeg"]
 old-location: automat\varneg.htm
 tech.root: automat
 ms.assetid: 95a8c1ee-6c8a-4eff-871b-63be3a616995

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.QueryCapability
 title: IWICBitmapDecoder::QueryCapability (wincodec.h)
-description: Retrieves the capabilities of the decoder based on the specified stream.
+description: Retrieves the capabilities of the decoder based on the specified stream.helpviewer_keywords: ["IWICBitmapDecoder interface [Windows Imaging Component]","QueryCapability method","IWICBitmapDecoder.QueryCapability","IWICBitmapDecoder::QueryCapability","QueryCapability","QueryCapability method [Windows Imaging Component]","QueryCapability method [Windows Imaging Component]","IWICBitmapDecoder interface","_wic_codec_iwicbitmapdecoder_querycapability","wic._wic_codec_iwicbitmapdecoder_querycapability","wincodec/IWICBitmapDecoder::QueryCapability"]
 old-location: wic\_wic_codec_iwicbitmapdecoder_querycapability.htm
 tech.root: wic
 ms.assetid: eeff3d5d-ed7f-41f7-b529-aeeeb8503a50

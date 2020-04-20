@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidPlayback.Step
 title: IMSVidPlayback::Step (segment.h)
-description: The Step method steps through the video stream by a specified number of frames.
+description: The Step method steps through the video stream by a specified number of frames.helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","Step method","IMSVidPlayback.Step","IMSVidPlayback::Step","IMSVidPlaybackStep","Step","Step method [Microsoft TV Technologies]","Step method [Microsoft TV Technologies]","IMSVidPlayback interface","mstv.imsvidplayback_step","segment/IMSVidPlayback::Step"]
 old-location: mstv\imsvidplayback_step.htm
 tech.root: mstv
 ms.assetid: 8e971571-61f4-4b24-81a7-45fa17b6b785

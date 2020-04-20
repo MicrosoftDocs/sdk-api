@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.VariantGetInt16Elem
 title: VariantGetInt16Elem function (propvarutil.h)
-description: Extracts a single Int16 element from a variant structure.
+description: Extracts a single Int16 element from a variant structure.helpviewer_keywords: ["VariantGetInt16Elem","VariantGetInt16Elem function [Windows Properties]","_shell_VariantGetInt16Elem","properties.VariantGetInt16Elem","propvarutil/VariantGetInt16Elem","shell.VariantGetInt16Elem"]
 old-location: properties\VariantGetInt16Elem.htm
 tech.root: properties
 ms.assetid: fd572a65-c74c-490e-8cff-aa9ba54da5a1

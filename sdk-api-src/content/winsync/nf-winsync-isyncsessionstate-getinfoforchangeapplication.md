@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncSessionState.GetInfoForChangeApplication
 title: ISyncSessionState::GetInfoForChangeApplication (winsync.h)
-description: Retrieves stored data for a serialized change applier.
+description: Retrieves stored data for a serialized change applier.helpviewer_keywords: ["GetInfoForChangeApplication","GetInfoForChangeApplication method [Windows Sync]","GetInfoForChangeApplication method [Windows Sync]","ISyncSessionState interface","ISyncSessionState interface [Windows Sync]","GetInfoForChangeApplication method","ISyncSessionState.GetInfoForChangeApplication","ISyncSessionState::GetInfoForChangeApplication","winsync.isyncsessionstate_getinfoforchangeapplication","winsync/ISyncSessionState::GetInfoForChangeApplication"]
 old-location: winsync\isyncsessionstate_getinfoforchangeapplication.htm
 tech.root: winsync
 ms.assetid: 88f7f8f7-468f-4d9d-9593-0d3f92cb458f

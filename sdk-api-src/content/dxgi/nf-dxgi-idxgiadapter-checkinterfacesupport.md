@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi.IDXGIAdapter.CheckInterfaceSupport
 title: IDXGIAdapter::CheckInterfaceSupport (dxgi.h)
-description: Checks whether the system supports a device interface for a graphics component.
+description: Checks whether the system supports a device interface for a graphics component.helpviewer_keywords: ["5922d4df-f6ec-4fce-1a94-3779ba7e2830","CheckInterfaceSupport","CheckInterfaceSupport method [DXGI]","CheckInterfaceSupport method [DXGI]","IDXGIAdapter interface","IDXGIAdapter interface [DXGI]","CheckInterfaceSupport method","IDXGIAdapter.CheckInterfaceSupport","IDXGIAdapter::CheckInterfaceSupport","direct3ddxgi.idxgiadapter_checkinterfacesupport","dxgi/IDXGIAdapter::CheckInterfaceSupport"]
 old-location: direct3ddxgi\idxgiadapter_checkinterfacesupport.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_checkinterfacesupport.htm

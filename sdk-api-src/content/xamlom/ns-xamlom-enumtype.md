@@ -1,7 +1,7 @@
 ---
 UID: NS:xamlom.EnumType
 title: EnumType (xamlom.h)
-description: Represents a XAML Runtime enumeration.
+description: Represents a XAML Runtime enumeration.helpviewer_keywords: ["EnumType","EnumType structure","PEnumType","PEnumType structure pointer","xaml_diagnostics.enumtype","xamlom/EnumType","xamlom/PEnumType"]
 old-location: xaml_diagnostics\enumtype.htm
 tech.root: xaml_diagnostics
 ms.assetid: 0C50F820-E55B-425E-A8D2-1F0CEE03FEE7

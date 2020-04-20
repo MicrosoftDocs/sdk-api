@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetLength
 title: IAtscContentAdvisoryDescriptor::GetLength (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","GetLength method","IAtscContentAdvisoryDescriptor.GetLength","IAtscContentAdvisoryDescriptor::GetLength","IAtscContentAdvisoryDescriptorGetLength","atscpsipparser/IAtscContentAdvisoryDescriptor::GetLength","mstv.iatsccontentadvisorydescriptor_getlength"]
 old-location: mstv\iatsccontentadvisorydescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 954d7dc4-43dd-4e33-a3cf-7584092cd0e7

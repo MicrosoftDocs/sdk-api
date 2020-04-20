@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IComponentTypes.get_Count
 title: IComponentTypes::get_Count (tuner.h)
-description: The get_Count method returns the number of component types in the collection.
+description: The get_Count method returns the number of component types in the collection.helpviewer_keywords: ["IComponentTypes interface [Microsoft TV Technologies]","get_Count method","IComponentTypes.get_Count","IComponentTypes::get_Count","IComponentTypesget_Count","get_Count","get_Count method [Microsoft TV Technologies]","get_Count method [Microsoft TV Technologies]","IComponentTypes interface","mstv.icomponenttypes_get_count","tuner/IComponentTypes::get_Count"]
 old-location: mstv\icomponenttypes_get_count.htm
 tech.root: mstv
 ms.assetid: 9f353702-1be1-4fa0-9312-f76f23f63a2b

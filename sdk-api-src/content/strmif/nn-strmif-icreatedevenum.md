@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.ICreateDevEnum
 title: ICreateDevEnum (strmif.h)
-description: The ICreateDevEnum interface creates an enumerator for a category of filters, such as video capture devices or audio capture devices.
+description: The ICreateDevEnum interface creates an enumerator for a category of filters, such as video capture devices or audio capture devices.helpviewer_keywords: ["ICreateDevEnum","ICreateDevEnum interface [DirectShow]","ICreateDevEnum interface [DirectShow]","described","ICreateDevEnumInterface","dshow.icreatedevenum","strmif/ICreateDevEnum"]
 old-location: dshow\icreatedevenum.htm
 tech.root: DirectShow
 ms.assetid: fc300bb8-aea4-4848-af43-a70a7fb8c07c

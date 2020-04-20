@@ -1,7 +1,7 @@
 ---
 UID: NF:usp10.ScriptItemize
 title: ScriptItemize function (usp10.h)
-description: Breaks a Unicode string into individually shapeable items.
+description: Breaks a Unicode string into individually shapeable items.helpviewer_keywords: ["ScriptItemize","ScriptItemize function [Internationalization for Windows Applications]","_win32_ScriptItemize","intl.scriptitemize","usp10/ScriptItemize"]
 old-location: intl\scriptitemize.htm
 tech.root: Intl
 ms.assetid: 1491d9c5-e86b-45cc-bb47-85c8619eab69

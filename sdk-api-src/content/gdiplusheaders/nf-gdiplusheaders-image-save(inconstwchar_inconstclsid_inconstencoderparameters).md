@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.Save(IN const WCHAR,IN const CLSID,IN const EncoderParameters)
 title: Image::Save
-description: The Image::Save method saves this image to a file.
+description: The Image::Save method saves this image to a file.helpviewer_keywords: ["Image::Save"]
 ms.assetid: e2c57259-fe82-40dc-86a3-3f4110e6c0ee
 ms.date: 05/20/2019
 ms.keywords: Image::Save

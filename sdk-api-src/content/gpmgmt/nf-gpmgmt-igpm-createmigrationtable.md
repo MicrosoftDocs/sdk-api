@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPM.CreateMigrationTable
 title: IGPM::CreateMigrationTable (gpmgmt.h)
-description: Creates an empty migration table.
+description: Creates an empty migration table.helpviewer_keywords: ["CreateMigrationTable","CreateMigrationTable method [GPMC]","CreateMigrationTable method [GPMC]","GPM class","CreateMigrationTable method [GPMC]","IGPM interface","GPM class [GPMC]","CreateMigrationTable method","IGPM interface [GPMC]","CreateMigrationTable method","IGPM.CreateMigrationTable","IGPM::CreateMigrationTable","gpmc.igpm_createmigrationtable","gpmgmt/IGPM::CreateMigrationTable"]
 old-location: gpmc\igpm_createmigrationtable.htm
 tech.root: gpmc
 ms.assetid: ae9ea50f-d652-4d7a-aac5-5b9ef27b99e0

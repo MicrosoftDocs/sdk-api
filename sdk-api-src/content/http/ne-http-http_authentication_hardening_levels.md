@@ -1,7 +1,7 @@
 ---
 UID: NE:http._HTTP_AUTHENTICATION_HARDENING_LEVELS
 title: HTTP_AUTHENTICATION_HARDENING_LEVELS (http.h)
-description: Server Hardening level.
+description: Server Hardening level.helpviewer_keywords: ["HTTP_AUTHENTICATION_HARDENING_LEVELS","HTTP_AUTHENTICATION_HARDENING_LEVELS enumeration [HTTP]","HttpAuthenticationHardeningLegacy","HttpAuthenticationHardeningMedium","HttpAuthenticationHardeningStrict","http.http_authentication_hardening_levels","http/HTTP_AUTHENTICATION_HARDENING_LEVELS","http/HttpAuthenticationHardeningLegacy","http/HttpAuthenticationHardeningMedium","http/HttpAuthenticationHardeningStrict"]
 old-location: http\http_authentication_hardening_levels.htm
 tech.root: http
 ms.assetid: da61e548-388a-4cb7-81bf-30bd312e27a6

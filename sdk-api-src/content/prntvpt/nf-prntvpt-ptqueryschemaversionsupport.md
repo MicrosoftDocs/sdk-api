@@ -1,7 +1,7 @@
 ---
 UID: NF:prntvpt.PTQuerySchemaVersionSupport
 title: PTQuerySchemaVersionSupport function (prntvpt.h)
-description: Retrieves the highest (latest) version of the Print Schema that the specified printer supports.
+description: Retrieves the highest (latest) version of the Print Schema that the specified printer supports.helpviewer_keywords: ["PTQuerySchemaVersionSupport","PTQuerySchemaVersionSupport function [Windows GDI]","_win32_PTQuerySchemaVersionSupport","gdi.ptqueryschemaversionsupport","prntvpt/PTQuerySchemaVersionSupport"]
 old-location: gdi\ptqueryschemaversionsupport.htm
 tech.root: printdocs
 ms.assetid: a3b5a92f-3a5b-4438-b788-91c9ac5a191f

@@ -1,7 +1,7 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetAttributeADsType
 title: IDsDisplaySpecifier::GetAttributeADsType (dsclient.h)
-description: Retrieves the attribute type for a given attribute.
+description: Retrieves the attribute type for a given attribute.helpviewer_keywords: ["GetAttributeADsType","GetAttributeADsType method [Active Directory]","GetAttributeADsType method [Active Directory]","IDsDisplaySpecifier interface","IDsDisplaySpecifier interface [Active Directory]","GetAttributeADsType method","IDsDisplaySpecifier.GetAttributeADsType","IDsDisplaySpecifier::GetAttributeADsType","_glines_idsdisplayspecifier_getattributeadstype","ad.idsdisplayspecifier__getattributeadstype","ad.idsdisplayspecifier_getattributeadstype","dsclient/IDsDisplaySpecifier::GetAttributeADsType"]
 old-location: ad\idsdisplayspecifier_getattributeadstype.htm
 tech.root: ad
 ms.assetid: 4e9ecbee-b298-42a4-ad02-28bab9d99b6b

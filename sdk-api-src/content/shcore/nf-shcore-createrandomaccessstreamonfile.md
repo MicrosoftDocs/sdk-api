@@ -1,7 +1,7 @@
 ---
 UID: NF:shcore.CreateRandomAccessStreamOnFile
 title: CreateRandomAccessStreamOnFile function (shcore.h)
-description: Creates a Windows Runtime random access stream for a file.
+description: Creates a Windows Runtime random access stream for a file.helpviewer_keywords: ["CreateRandomAccessStreamOnFile","CreateRandomAccessStreamOnFile function [Windows Runtime]","shcore/CreateRandomAccessStreamOnFile","winrt.createrandomaccessstreamonfile"]
 old-location: winrt\createrandomaccessstreamonfile.htm
 tech.root: WinRT
 ms.assetid: 6D3D2B25-7373-4BA5-BF6B-FB461C2DE982

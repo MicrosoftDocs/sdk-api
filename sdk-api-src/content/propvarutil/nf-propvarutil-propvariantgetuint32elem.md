@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantGetUInt32Elem
 title: PropVariantGetUInt32Elem function (propvarutil.h)
-description: Extracts a single unsigned Int32 element from a PROPVARIANT structure of type VT_UI4, VT_VECTOR | VT_UI4, or VT_ARRAY | VT_UI4.
+description: Extracts a single unsigned Int32 element from a PROPVARIANT structure of type VT_UI4, VT_VECTOR | VT_UI4, or VT_ARRAY | VT_UI4.helpviewer_keywords: ["PropVariantGetUInt32Elem","PropVariantGetUInt32Elem function [Windows Properties]","_shell_PropVariantGetUInt32Elem","properties.PropVariantGetUInt32Elem","propvarutil/PropVariantGetUInt32Elem","shell.PropVariantGetUInt32Elem"]
 old-location: properties\PropVariantGetUInt32Elem.htm
 tech.root: properties
 ms.assetid: b31975b6-d717-4e8d-bf5a-2ade96034031

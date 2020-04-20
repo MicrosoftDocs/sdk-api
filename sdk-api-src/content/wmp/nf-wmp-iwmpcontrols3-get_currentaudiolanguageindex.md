@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPControls3.get_currentAudioLanguageIndex
 title: IWMPControls3::get_currentAudioLanguageIndex (wmp.h)
-description: The get_currentAudioLanguageIndex method retrieves the one-based index that corresponds to the audio language for playback.
+description: The get_currentAudioLanguageIndex method retrieves the one-based index that corresponds to the audio language for playback.helpviewer_keywords: ["IWMPControls3 interface [Windows Media Player]","get_currentAudioLanguageIndex method","IWMPControls3.get_currentAudioLanguageIndex","IWMPControls3::get_currentAudioLanguageIndex","IWMPControls3get_currentAudioLanguageIndex","get_currentAudioLanguageIndex","get_currentAudioLanguageIndex method [Windows Media Player]","get_currentAudioLanguageIndex method [Windows Media Player]","IWMPControls3 interface","wmp.iwmpcontrols3_get_currentaudiolanguageindex","wmp/IWMPControls3::get_currentAudioLanguageIndex"]
 old-location: wmp\iwmpcontrols3_get_currentaudiolanguageindex.htm
 tech.root: WMP
 ms.assetid: 559ff3a8-b053-44f6-90dc-02f99614c51b

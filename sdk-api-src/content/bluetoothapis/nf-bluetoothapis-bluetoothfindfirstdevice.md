@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindFirstDevice
 title: BluetoothFindFirstDevice function (bluetoothapis.h)
-description: The BluetoothFindFirstDevice function begins the enumeration Bluetooth devices.
+description: The BluetoothFindFirstDevice function begins the enumeration Bluetooth devices.helpviewer_keywords: ["BluetoothFindFirstDevice","BluetoothFindFirstDevice function [Bluetooth]","bluetooth.bluetoothfindfirstdevice","bluetoothapis/BluetoothFindFirstDevice"]
 old-location: bluetooth\bluetoothfindfirstdevice.htm
 tech.root: bluetooth
 ms.assetid: f73acbb4-119f-4a73-a338-d11e8cf7e6be

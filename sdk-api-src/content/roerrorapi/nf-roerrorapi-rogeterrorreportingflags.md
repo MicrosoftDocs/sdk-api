@@ -1,7 +1,7 @@
 ---
 UID: NF:roerrorapi.RoGetErrorReportingFlags
 title: RoGetErrorReportingFlags function
-description: Gets the current reporting behavior of Windows Runtime error functions.
+description: Gets the current reporting behavior of Windows Runtime error functions.helpviewer_keywords: ["RoGetErrorReportingFlags","RoGetErrorReportingFlags function [Windows Runtime]","WinRTGetErrorReportingFlags","roerrorapi/RoGetErrorReportingFlags","roerrorapi/WinRTGetErrorReportingFlags","winrt.rogeterrorreportingflags","winrt.winrtgeterrorreportingflags"]
 old-location: winrt\rogeterrorreportingflags.htm
 tech.root: WinRT
 ms.assetid: 0DCF6693-5066-46E3-A7F9-5CF0780FA87C

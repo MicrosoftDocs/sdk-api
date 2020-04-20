@@ -1,7 +1,7 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer
 title: ISpatialAudioMetadataItemsBuffer (spatialaudiometadata.h)
-description: Provides methods for attaching buffers to SpatialAudioMetadataItems for in-place storage of data.
+description: Provides methods for attaching buffers to SpatialAudioMetadataItems for in-place storage of data.helpviewer_keywords: ["ISpatialAudioMetadataItemsBuffer","ISpatialAudioMetadataItemsBuffer interface [Core Audio]","ISpatialAudioMetadataItemsBuffer interface [Core Audio]","described","coreaudio.ispatialaudiometadataitemsbuffer","spatialaudiometadata/ISpatialAudioMetadataItemsBuffer"]
 old-location: coreaudio\ispatialaudiometadataitemsbuffer.htm
 tech.root: CoreAudio
 ms.assetid: 5DDD468E-0C46-4C00-BCFF-1FF7353ADB8B

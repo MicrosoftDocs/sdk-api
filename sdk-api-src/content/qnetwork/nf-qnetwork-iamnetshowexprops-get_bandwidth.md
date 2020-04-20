@@ -1,7 +1,7 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_Bandwidth
 title: IAMNetShowExProps::get_Bandwidth (qnetwork.h)
-description: The get_Bandwidth method retrieves the bandwidth.
+description: The get_Bandwidth method retrieves the bandwidth.helpviewer_keywords: ["IAMNetShowExProps interface [DirectShow]","get_Bandwidth method","IAMNetShowExProps.get_Bandwidth","IAMNetShowExProps::get_Bandwidth","IAMNetShowExPropsget_Bandwidth","dshow.iamnetshowexprops_get_bandwidth","get_Bandwidth","get_Bandwidth method [DirectShow]","get_Bandwidth method [DirectShow]","IAMNetShowExProps interface","qnetwork/IAMNetShowExProps::get_Bandwidth"]
 old-location: dshow\iamnetshowexprops_get_bandwidth.htm
 tech.root: DirectShow
 ms.assetid: 042ddea5-c17a-4cd6-a18d-9a3b65bf11b7

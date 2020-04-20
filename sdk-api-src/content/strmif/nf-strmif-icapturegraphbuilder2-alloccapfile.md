@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.AllocCapFile
 title: ICaptureGraphBuilder2::AllocCapFile (strmif.h)
-description: The AllocCapFile method preallocates a capture file to a specified size. For best results, always capture to a defragmented, preallocated capture file that is larger than the size of the capture data.
+description: The AllocCapFile method preallocates a capture file to a specified size. For best results, always capture to a defragmented, preallocated capture file that is larger than the size of the capture data.helpviewer_keywords: ["AllocCapFile","AllocCapFile method [DirectShow]","AllocCapFile method [DirectShow]","ICaptureGraphBuilder2 interface","ICaptureGraphBuilder2 interface [DirectShow]","AllocCapFile method","ICaptureGraphBuilder2.AllocCapFile","ICaptureGraphBuilder2::AllocCapFile","ICaptureGraphBuilder2AllocCapFile","dshow.icapturegraphbuilder2_alloccapfile","strmif/ICaptureGraphBuilder2::AllocCapFile"]
 old-location: dshow\icapturegraphbuilder2_alloccapfile.htm
 tech.root: DirectShow
 ms.assetid: e61459bd-cccb-4857-b336-82d23135fa16

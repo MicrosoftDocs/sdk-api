@@ -1,7 +1,7 @@
 ---
 UID: NF:winber.ber_init
 title: ber_init function (winber.h)
-description: The ber_init function allocates a new BerElement structure containing the data taken from the supplied berval structure.
+description: The ber_init function allocates a new BerElement structure containing the data taken from the supplied berval structure.helpviewer_keywords: ["_ldap_ber_init","ber_init","ber_init function [LDAP]","ldap.ber__init","ldap.ber_init","winber/ber_init"]
 old-location: ldap\ber_init.htm
 tech.root: ldap
 ms.assetid: ad6557e9-1683-4ffd-a59e-8f37eb67d089

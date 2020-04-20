@@ -1,7 +1,7 @@
 ---
 UID: NF:traffic.TcAddFilter
 title: TcAddFilter function (traffic.h)
-description: The TcAddFilter function associates a new filter with an existing flow that allows packets matching the filter to be directed to the associated flow.
+description: The TcAddFilter function associates a new filter with an existing flow that allows packets matching the filter to be directed to the associated flow.helpviewer_keywords: ["TcAddFilter","TcAddFilter function [QOS]","_gqos_tcaddfilter","qos.tcaddfilter","traffic/TcAddFilter"]
 old-location: qos\tcaddfilter.htm
 tech.root: QOS
 ms.assetid: c6d7c346-c353-4224-a8b5-56910e447902

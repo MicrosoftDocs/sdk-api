@@ -1,7 +1,7 @@
 ---
 UID: NC:mapi.MAPIFINDNEXT
 title: MAPIFINDNEXT (mapi.h)
-description: The MAPIFindNext function retrieves the next (or first) message identifier of a specified type of incoming message.
+description: The MAPIFindNext function retrieves the next (or first) message identifier of a specified type of incoming message.helpviewer_keywords: ["MAPIFindNext","MAPIFindNext callback","MAPIFindNext callback function","MAPI_GUARANTEE_FIFO","MAPI_LONG_MSGID","MAPI_UNREAD_ONLY","mapi.mapifindnext","mapi/MAPIFindNext"]
 old-location: mapi\mapifindnext.htm
 tech.root: WindowsMAPI
 ms.assetid: 6c11e88c-2883-4486-9679-2bdf0b30b8b0

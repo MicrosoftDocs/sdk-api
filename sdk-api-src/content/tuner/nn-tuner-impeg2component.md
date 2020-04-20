@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IMPEG2Component
 title: IMPEG2Component (tuner.h)
-description: The IMPEG2Component interface contains methods for getting and setting properties that describe an MPEG2 elementary stream.
+description: The IMPEG2Component interface contains methods for getting and setting properties that describe an MPEG2 elementary stream.helpviewer_keywords: ["IMPEG2Component","IMPEG2Component interface [Microsoft TV Technologies]","IMPEG2Component interface [Microsoft TV Technologies]","described","IMPEG2ComponentInterface","mstv.impeg2component","tuner/IMPEG2Component"]
 old-location: mstv\impeg2component.htm
 tech.root: mstv
 ms.assetid: 63d1ae17-8e38-457e-98d7-e81e7576f1c1

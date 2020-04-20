@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_FREE_DECODER_CALLBACK
 title: WS_FREE_DECODER_CALLBACK (webservices.h)
-description: Handles freeing a decoder instance.
+description: Handles freeing a decoder instance.helpviewer_keywords: ["WS_FREE_DECODER_CALLBACK","WS_FREE_DECODER_CALLBACK callback","WS_FREE_DECODER_CALLBACK callback function [Web Services for Windows]","webservices/WS_FREE_DECODER_CALLBACK","wsw.ws_free_decoder_callback"]
 old-location: wsw\ws_free_decoder_callback.htm
 tech.root: wsw
 ms.assetid: 95c8ed10-7077-488e-affd-1a13b44decb6

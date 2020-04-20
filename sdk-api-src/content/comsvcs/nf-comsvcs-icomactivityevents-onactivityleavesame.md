@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityLeaveSame
 title: IComActivityEvents::OnActivityLeaveSame (comsvcs.h)
-description: Generated when an activity thread is left after being entered recursively.
+description: Generated when an activity thread is left after being entered recursively.helpviewer_keywords: ["IComActivityEvents interface [COM+]","OnActivityLeaveSame method","IComActivityEvents.OnActivityLeaveSame","IComActivityEvents::OnActivityLeaveSame","OnActivityLeaveSame","OnActivityLeaveSame method [COM+]","OnActivityLeaveSame method [COM+]","IComActivityEvents interface","_dtc_IComActivityEvents_OnActivityLeaveSame","comsvcs/IComActivityEvents::OnActivityLeaveSame","cos.icomactivityevents_onactivityleavesame"]
 old-location: cos\icomactivityevents_onactivityleavesame.htm
 tech.root: cossdk
 ms.assetid: 5a82fba1-a7d8-48d6-aa54-2f1a28e1b3d9

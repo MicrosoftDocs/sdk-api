@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IInitializeCommand
 title: IInitializeCommand (shobjidl_core.h)
-description: Exposes a single method used to initialize objects that implement IExplorerCommandState, IExecuteCommand or IDropTarget with the application-specified command name and its registered properties.
+description: Exposes a single method used to initialize objects that implement IExplorerCommandState, IExecuteCommand or IDropTarget with the application-specified command name and its registered properties.helpviewer_keywords: ["IInitializeCommand","IInitializeCommand interface [Windows Shell]","IInitializeCommand interface [Windows Shell]","described","_shell_IInitializeCommand","shell.IInitializeCommand","shobjidl_core/IInitializeCommand"]
 old-location: shell\IInitializeCommand.htm
 tech.root: shell
 ms.assetid: e5a2a4d3-2488-4da2-aaab-c27461859d9f

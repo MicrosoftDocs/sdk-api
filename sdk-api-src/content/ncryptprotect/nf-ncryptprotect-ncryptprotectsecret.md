@@ -1,7 +1,7 @@
 ---
 UID: NF:ncryptprotect.NCryptProtectSecret
 title: NCryptProtectSecret function (ncryptprotect.h)
-description: Encrypts data to a specified protection descriptor.
+description: Encrypts data to a specified protection descriptor.helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptProtectSecret","NCryptProtectSecret function [Security]","ncryptprotect/NCryptProtectSecret","security.ncryptprotectsecret"]
 old-location: security\ncryptprotectsecret.htm
 tech.root: SecCNG
 ms.assetid: 8726F92B-34D5-4696-8803-3D7F50F1006D

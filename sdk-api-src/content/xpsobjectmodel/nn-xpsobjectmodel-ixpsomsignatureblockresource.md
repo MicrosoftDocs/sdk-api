@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMSignatureBlockResource
 title: IXpsOMSignatureBlockResource (xpsobjectmodel.h)
-description: Provides an IStream interface to a signature block resource.
+description: Provides an IStream interface to a signature block resource.helpviewer_keywords: ["IXpsOMSignatureBlockResource","IXpsOMSignatureBlockResource interface [XPS Documents and Packaging]","IXpsOMSignatureBlockResource interface [XPS Documents and Packaging]","described","xps.ixpsomsignatureblockresource","xpsobjectmodel/IXpsOMSignatureBlockResource"]
 old-location: xps\ixpsomsignatureblockresource.htm
 tech.root: printdocs
 ms.assetid: f5052470-487d-4f47-8d42-70538a4a45a8

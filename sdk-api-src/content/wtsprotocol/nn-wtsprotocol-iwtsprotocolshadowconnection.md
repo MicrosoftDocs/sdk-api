@@ -1,7 +1,7 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolShadowConnection
 title: IWTSProtocolShadowConnection (wtsprotocol.h)
-description: IWTSProtocolShadowConnection is no longer available. Instead, use IWRdsProtocolShadowConnection.
+description: IWTSProtocolShadowConnection is no longer available. Instead, use IWRdsProtocolShadowConnection.helpviewer_keywords: ["IWTSProtocolShadowConnection","IWTSProtocolShadowConnection interface [Remote Desktop Services]","IWTSProtocolShadowConnection interface [Remote Desktop Services]","described","termserv.iwtsprotocolshadowconnection","wtsprotocol/IWTSProtocolShadowConnection"]
 old-location: termserv\iwtsprotocolshadowconnection.htm
 tech.root: TermServ
 ms.assetid: 83285a6a-903f-4c23-8f62-b04bbeaa52f9

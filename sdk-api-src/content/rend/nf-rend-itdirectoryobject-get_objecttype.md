@@ -1,7 +1,7 @@
 ---
 UID: NF:rend.ITDirectoryObject.get_ObjectType
 title: ITDirectoryObject::get_ObjectType (rend.h)
-description: The get_ObjectType method gets a DIRECTORY_OBJECT_TYPE descriptor of the object.
+description: The get_ObjectType method gets a DIRECTORY_OBJECT_TYPE descriptor of the object.helpviewer_keywords: ["ITDirectoryObject interface [TAPI 2.2]","get_ObjectType method","ITDirectoryObject.get_ObjectType","ITDirectoryObject::get_ObjectType","_tapi3_itdirectoryobject_get_objecttype","get_ObjectType","get_ObjectType method [TAPI 2.2]","get_ObjectType method [TAPI 2.2]","ITDirectoryObject interface","rend/ITDirectoryObject::get_ObjectType","tapi3.itdirectoryobject_get_objecttype"]
 old-location: tapi3\itdirectoryobject_get_objecttype.htm
 tech.root: Tapi
 ms.assetid: b71f5286-d97d-4129-942b-fa4d4ef0943e

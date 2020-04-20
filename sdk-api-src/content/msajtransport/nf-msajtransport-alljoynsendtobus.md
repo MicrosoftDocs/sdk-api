@@ -1,7 +1,7 @@
 ---
 UID: NF:msajtransport.AllJoynSendToBus
 title: AllJoynSendToBus function (msajtransport.h)
-description: Sends data to the bus via named pipe. The caller of this API is responsible to check if the bytesTransferred is less than the requested bytes and call this API again to resend the rest of the data.
+description: Sends data to the bus via named pipe. The caller of this API is responsible to check if the bytesTransferred is less than the requested bytes and call this API again to resend the rest of the data.helpviewer_keywords: ["AllJoynSendToBus","AllJoynSendToBus function [AllJoyn API]","alljoyn.alljoynsendtobus","msajtransport/AllJoynSendToBus"]
 old-location: alljoyn\alljoynsendtobus.htm
 tech.root: AllJoyn
 ms.assetid: 8D941DB8-AA73-472B-92E2-85EA72BD9A40

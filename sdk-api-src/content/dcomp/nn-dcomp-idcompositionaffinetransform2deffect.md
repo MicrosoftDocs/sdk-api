@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionAffineTransform2DEffect
 title: IDCompositionAffineTransform2DEffect (dcomp.h)
-description: The arithmetic composite effect is used to combine 2 images using a weighted sum of pixels from the input images.
+description: The arithmetic composite effect is used to combine 2 images using a weighted sum of pixels from the input images.helpviewer_keywords: ["IDCompositionAffineTransform2DEffect","IDCompositionAffineTransform2DEffect interface [DirectComposition]","IDCompositionAffineTransform2DEffect interface [DirectComposition]","described","dcomp/IDCompositionAffineTransform2DEffect","directcomp.idcompositionaffinetransform2deffect"]
 old-location: directcomp\idcompositionaffinetransform2deffect.htm
 tech.root: directcomp
 ms.assetid: 1B693705-1118-4B9B-A7B7-E8811AE881AC

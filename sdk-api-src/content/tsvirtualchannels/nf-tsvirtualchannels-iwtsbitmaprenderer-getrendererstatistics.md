@@ -1,7 +1,7 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRenderer.GetRendererStatistics
 title: IWTSBitmapRenderer::GetRendererStatistics (tsvirtualchannels.h)
-description: Retrieves statistics for the RemoteFX media redirection bitmap renderer.
+description: Retrieves statistics for the RemoteFX media redirection bitmap renderer.helpviewer_keywords: ["GetRendererStatistics","GetRendererStatistics method [Remote Desktop Services]","GetRendererStatistics method [Remote Desktop Services]","IWTSBitmapRenderer interface","IWTSBitmapRenderer interface [Remote Desktop Services]","GetRendererStatistics method","IWTSBitmapRenderer.GetRendererStatistics","IWTSBitmapRenderer::GetRendererStatistics","termserv.iwtsbitmaprenderer_getrendererstatistics","tsvirtualchannels/IWTSBitmapRenderer::GetRendererStatistics"]
 old-location: termserv\iwtsbitmaprenderer_getrendererstatistics.htm
 tech.root: TermServ
 ms.assetid: 9BC4C091-053E-4E94-BF65-91AEB03C355F

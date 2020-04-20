@@ -1,7 +1,7 @@
 ---
 UID: NS:vsmgmt._VSS_VOLUME_PROP
 title: VSS_VOLUME_PROP (vsmgmt.h)
-description: Contains the properties of a shadow copy source volume.
+description: Contains the properties of a shadow copy source volume.helpviewer_keywords: ["*PVSS_VOLUME_PROP","PVSS_VOLUME_PROP","PVSS_VOLUME_PROP structure pointer [VSS]","VSS_VOLUME_PROP","VSS_VOLUME_PROP structure [VSS]","base.vss_volume_prop","vsmgmt/PVSS_VOLUME_PROP","vsmgmt/VSS_VOLUME_PROP"]
 old-location: base\vss_volume_prop.htm
 tech.root: VSS
 ms.assetid: f17765d5-ccb4-4ede-86e4-36ac80022da0

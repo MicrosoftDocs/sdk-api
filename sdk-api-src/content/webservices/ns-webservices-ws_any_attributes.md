@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_ANY_ATTRIBUTES
 title: WS_ANY_ATTRIBUTES (webservices.h)
-description: This type is used to store a set of attributes that have not been directly mapped to field of a structure.
+description: This type is used to store a set of attributes that have not been directly mapped to field of a structure.helpviewer_keywords: ["WS_ANY_ATTRIBUTES","WS_ANY_ATTRIBUTES structure [Web Services for Windows]","webservices/WS_ANY_ATTRIBUTES","wsw.ws_any_attributes"]
 old-location: wsw\ws_any_attributes.htm
 tech.root: wsw
 ms.assetid: 6c428c99-755f-40ab-bc9e-e1a7a3d70c1d

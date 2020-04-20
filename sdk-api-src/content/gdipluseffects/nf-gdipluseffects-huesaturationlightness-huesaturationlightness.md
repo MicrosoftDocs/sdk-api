@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluseffects.HueSaturationLightness.HueSaturationLightness
 title: HueSaturationLightness::HueSaturationLightness (gdipluseffects.h)
-description: Creates a HueSaturationLightness object.
+description: Creates a HueSaturationLightness object.helpviewer_keywords: ["HueSaturationLightness","HueSaturationLightness class [GDI+]","HueSaturationLightness constructor","HueSaturationLightness constructor [GDI+]","HueSaturationLightness constructor [GDI+]","HueSaturationLightness class","HueSaturationLightness.HueSaturationLightness","HueSaturationLightness::HueSaturationLightness","_gdiplus_CLASS_HueSaturationLightness_HueSaturationLightness_","gdiplus._gdiplus_CLASS_HueSaturationLightness_HueSaturationLightness_"]
 old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_HueSaturationLightness_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightnessclass\huesaturationlightnessconstructors\huesaturationlightness.htm

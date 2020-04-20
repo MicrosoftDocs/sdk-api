@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.SpGetExtendedInformationFn
 title: SpGetExtendedInformationFn (ntsecpkg.h)
-description: Provides extended information about a security package.
+description: Provides extended information about a security package.helpviewer_keywords: ["SpGetExtendedInformation","SpGetExtendedInformation callback function [Security]","SpGetExtendedInformationFn","SpGetExtendedInformationFn callback","_ssp_spgetextendedinformation","ntsecpkg/SpGetExtendedInformation","security.spgetextendedinformation"]
 old-location: security\spgetextendedinformation.htm
 tech.root: SecAuthN
 ms.assetid: e3cb602a-2c98-4e9c-bfbc-f12f353ce3e3

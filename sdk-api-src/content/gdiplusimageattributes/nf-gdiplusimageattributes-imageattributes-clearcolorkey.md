@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearColorKey
 title: ImageAttributes::ClearColorKey (gdiplusimageattributes.h)
-description: The ImageAttributes::ClearColorKey method clears the color key (transparency range) for a specified category.
+description: The ImageAttributes::ClearColorKey method clears the color key (transparency range) for a specified category.helpviewer_keywords: ["ClearColorKey","ClearColorKey method [GDI+]","ClearColorKey method [GDI+]","ImageAttributes class","ImageAttributes class [GDI+]","ClearColorKey method","ImageAttributes.ClearColorKey","ImageAttributes::ClearColorKey","_gdiplus_CLASS_ImageAttributes_ClearColorKey_type_","gdiplus._gdiplus_CLASS_ImageAttributes_ClearColorKey_type_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearColorKey_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearcolorkey.htm

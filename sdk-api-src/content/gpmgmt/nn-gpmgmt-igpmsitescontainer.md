@@ -1,7 +1,7 @@
 ---
 UID: NN:gpmgmt.IGPMSitesContainer
 title: IGPMSitesContainer (gpmgmt.h)
-description: The IGPMSitesContainer interface provides the methods required to access the scope of management (SOM) objects that represent sites in a forest.
+description: The IGPMSitesContainer interface provides the methods required to access the scope of management (SOM) objects that represent sites in a forest.helpviewer_keywords: ["GPMSitesContainer","IGPMSitesContainer","IGPMSitesContainer interface [GPMC]","IGPMSitesContainer interface [GPMC]","described","_win32_igpmsitescontainer","gpmc.igpmsitescontainer","gpmgmt/IGPMSitesContainer"]
 old-location: gpmc\igpmsitescontainer.htm
 tech.root: gpmc
 ms.assetid: e3fdfd44-9e90-4206-b7e9-97d4ed6eb8af

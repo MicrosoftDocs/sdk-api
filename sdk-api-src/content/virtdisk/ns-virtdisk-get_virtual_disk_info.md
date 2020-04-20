@@ -1,7 +1,7 @@
 ---
 UID: NS:virtdisk._GET_VIRTUAL_DISK_INFO
 title: GET_VIRTUAL_DISK_INFO (virtdisk.h)
-description: Contains virtual hard disk (VHD) information.
+description: Contains virtual hard disk (VHD) information.helpviewer_keywords: ["*PGET_VIRTUAL_DISK_INFO","GET_VIRTUAL_DISK_INFO","GET_VIRTUAL_DISK_INFO structure [VHD]","PGET_VIRTUAL_DISK_INFO","PGET_VIRTUAL_DISK_INFO structure pointer [VHD]","_GET_VIRTUAL_DISK_INFO","vdssys/GET_VIRTUAL_DISK_INFO","vdssys/PGET_VIRTUAL_DISK_INFO","vhd.get_virtual_disk_info","virtdisk/GET_VIRTUAL_DISK_INFO","virtdisk/PGET_VIRTUAL_DISK_INFO"]
 old-location: vhd\get_virtual_disk_info.htm
 tech.root: VStor
 ms.assetid: 666c1d6e-cf23-4452-98ea-e7d4c31c3d3b

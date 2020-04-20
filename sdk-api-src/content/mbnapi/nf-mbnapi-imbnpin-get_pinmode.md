@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnPin.get_PinMode
 title: IMbnPin::get_PinMode (mbnapi.h)
-description: The PIN mode.
+description: The PIN mode.helpviewer_keywords: ["IMbnPin interface [Microsoft Broadband Networks]","PinMode property","IMbnPin.PinMode","IMbnPin.get_PinMode","IMbnPin::PinMode","IMbnPin::get_PinMode","PinMode property [Microsoft Broadband Networks]","PinMode property [Microsoft Broadband Networks]","IMbnPin interface","get_PinMode","mbn.imbnpin_pinmode","mbnapi/IMbnPin::PinMode","mbnapi/IMbnPin::get_PinMode"]
 old-location: mbn\imbnpin_pinmode.htm
 tech.root: mbn
 ms.assetid: d286c442-6878-4194-a605-40385a9789b9

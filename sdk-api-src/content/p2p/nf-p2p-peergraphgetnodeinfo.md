@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerGraphGetNodeInfo
 title: PeerGraphGetNodeInfo function (p2p.h)
-description: The PeerGraphGetNodeInfo function retrieves information about a specific node.
+description: The PeerGraphGetNodeInfo function retrieves information about a specific node.helpviewer_keywords: ["PeerGraphGetNodeInfo","PeerGraphGetNodeInfo function [Peer Networking]","p2p.peergraphgetnodeinfo","p2p/PeerGraphGetNodeInfo"]
 old-location: p2p\peergraphgetnodeinfo.htm
 tech.root: P2PSdk
 ms.assetid: 7149aba3-d44b-4492-aa56-4d8dbfba7b7c

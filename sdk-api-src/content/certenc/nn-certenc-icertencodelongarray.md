@@ -1,7 +1,7 @@
 ---
 UID: NN:certenc.ICertEncodeLongArray
 title: ICertEncodeLongArray (certenc.h)
-description: Provides methods for handling Long arrays used in certificate extensions.
+description: Provides methods for handling Long arrays used in certificate extensions.helpviewer_keywords: ["ICertEncodeLongArray","ICertEncodeLongArray interface [Security]","ICertEncodeLongArray interface [Security]","described","_certsrv_icertencodelongarray","certenc/ICertEncodeLongArray","security.icertencodelongarray"]
 old-location: security\icertencodelongarray.htm
 tech.root: SecCrypto
 ms.assetid: e8555282-6c09-4f23-830e-358bc73287ee

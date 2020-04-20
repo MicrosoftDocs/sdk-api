@@ -1,7 +1,7 @@
 ---
 UID: NS:eaptypes._EAP_ATTRIBUTE
 title: EAP_ATTRIBUTE (eaptypes.h)
-description: Contains an EAP attribute.
+description: Contains an EAP attribute.helpviewer_keywords: ["EAP_ATTRIBUTE","EAP_ATTRIBUTE structure [EAPHost]","EapAttribute","EapAttribute structure [EAPHost]","eaphost.eap_attribute","eaptypes/EAP_ATTRIBUTE","eaptypes/EapAttribute"]
 old-location: eaphost\eap_attribute.htm
 tech.root: eaphost
 ms.assetid: a8fe754a-ce6f-45f4-9536-7ffda2183e9e

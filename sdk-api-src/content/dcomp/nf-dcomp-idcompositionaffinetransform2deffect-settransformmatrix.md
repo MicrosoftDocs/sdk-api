@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetTransformMatrix
 title: IDCompositionAffineTransform2DEffect::SetTransformMatrix (dcomp.h)
-description: Sets the transform matrix of the effect.
+description: Sets the transform matrix of the effect.helpviewer_keywords: ["IDCompositionAffineTransform2DEffect interface [DirectComposition]","SetTransformMatrix method","IDCompositionAffineTransform2DEffect.SetTransformMatrix","IDCompositionAffineTransform2DEffect::SetTransformMatrix","SetTransformMatrix","SetTransformMatrix method [DirectComposition]","SetTransformMatrix method [DirectComposition]","IDCompositionAffineTransform2DEffect interface","dcomp/IDCompositionAffineTransform2DEffect::SetTransformMatrix","directcomp.idcompositionaffinetransform2deffect_settransformmatrix"]
 old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrix.htm
 tech.root: directcomp
 ms.assetid: C6ED5F96-CA6A-4E96-A368-197242066CC0

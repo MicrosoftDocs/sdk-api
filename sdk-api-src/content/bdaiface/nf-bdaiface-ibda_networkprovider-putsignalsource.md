@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.PutSignalSource
 title: IBDA_NetworkProvider::PutSignalSource (bdaiface.h)
-description: The PutSignalSource method specifies the signal source.
+description: The PutSignalSource method specifies the signal source.helpviewer_keywords: ["IBDA_NetworkProvider interface [Microsoft TV Technologies]","PutSignalSource method","IBDA_NetworkProvider.PutSignalSource","IBDA_NetworkProvider::PutSignalSource","IBDA_NetworkProviderPutSignalSource","PutSignalSource","PutSignalSource method [Microsoft TV Technologies]","PutSignalSource method [Microsoft TV Technologies]","IBDA_NetworkProvider interface","bdaiface/IBDA_NetworkProvider::PutSignalSource","mstv.ibda_networkprovider_putsignalsource"]
 old-location: mstv\ibda_networkprovider_putsignalsource.htm
 tech.root: mstv
 ms.assetid: e461ff83-c3fc-43f2-934b-3f4c3afd0061

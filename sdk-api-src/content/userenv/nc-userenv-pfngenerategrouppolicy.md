@@ -1,7 +1,7 @@
 ---
 UID: NC:userenv.PFNGENERATEGROUPPOLICY
 title: PFNGENERATEGROUPPOLICY (userenv.h)
-description: The GenerateGroupPolicy callback function is an application-defined callback function that each policy extension must export when generating RSoP data in the planning mode.
+description: The GenerateGroupPolicy callback function is an application-defined callback function that each policy extension must export when generating RSoP data in the planning mode.helpviewer_keywords: ["GPO_INFO_FLAG_SLOWLINK","GPO_INFO_FLAG_VERBOSE","GenerateGroupPolicy","PFNGENERATEGROUPPOLICY","PFNGENERATEGROUPPOLICY callback","PFNGENERATEGROUPPOLICY callback function [Group Policy]","_win32_generategrouppolicy","policy.generategrouppolicy","userenv/PFNGENERATEGROUPPOLICY"]
 old-location: policy\generategrouppolicy.htm
 tech.root: Policy
 ms.assetid: 748b61a1-79fb-44b9-8c9b-0b1746fa981b

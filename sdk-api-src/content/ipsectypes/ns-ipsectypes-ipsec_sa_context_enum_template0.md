@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT_ENUM_TEMPLATE0_
 title: IPSEC_SA_CONTEXT_ENUM_TEMPLATE0 (ipsectypes.h)
-description: Enumeration template used to enumerate security association (SA) contexts.
+description: Enumeration template used to enumerate security association (SA) contexts.helpviewer_keywords: ["IPSEC_SA_CONTEXT_ENUM_TEMPLATE0","IPSEC_SA_CONTEXT_ENUM_TEMPLATE0 structure [Filtering]","fwp.ipsec_sa_context_enum_template0","ipsectypes/IPSEC_SA_CONTEXT_ENUM_TEMPLATE0"]
 old-location: fwp\ipsec_sa_context_enum_template0.htm
 tech.root: fwp
 ms.assetid: 2e099545-4075-4ea0-9035-53ce334decc4

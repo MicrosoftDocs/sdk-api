@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IRecoverableErrorData.Initialize
 title: IRecoverableErrorData::Initialize (winsync.h)
-description: Initializes the object by using the specified display name of the item that caused the error and a description of the error.
+description: Initializes the object by using the specified display name of the item that caused the error and a description of the error.helpviewer_keywords: ["IRecoverableErrorData interface [Windows Sync]","Initialize method","IRecoverableErrorData.Initialize","IRecoverableErrorData::Initialize","Initialize","Initialize method [Windows Sync]","Initialize method [Windows Sync]","IRecoverableErrorData interface","winsync.irecoverableerrordata_initialize","winsync/IRecoverableErrorData::Initialize"]
 old-location: winsync\irecoverableerrordata_initialize.htm
 tech.root: winsync
 ms.assetid: df34b3ee-fc78-47ca-8916-ee4a81110628

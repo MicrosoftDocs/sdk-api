@@ -1,7 +1,7 @@
 ---
 UID: NS:perflib._STRING_BUFFER_HEADER
 title: PERF_STRING_BUFFER_HEADER (perflib.h)
-description: Provides information about the PERF_STRING_BUFFER_HEADER block that contains the structure.
+description: Provides information about the PERF_STRING_BUFFER_HEADER block that contains the structure.helpviewer_keywords: ["*PPERF_STRING_BUFFER_HEADER","PERF_STRING_BUFFER_HEADER","PERF_STRING_BUFFER_HEADER structure [Perf]","PPERF_STRING_BUFFER_HEADER","PPERF_STRING_BUFFER_HEADER structure pointer [Perf]","perf.perf_string_buffer_header","perflib/PERF_STRING_BUFFER_HEADER","perflib/PPERF_STRING_BUFFER_HEADER"]
 old-location: perf\perf_string_buffer_header.htm
 tech.root: perfctrs
 ms.assetid: 874A97BA-708E-4001-A7CA-1C3114577D7D

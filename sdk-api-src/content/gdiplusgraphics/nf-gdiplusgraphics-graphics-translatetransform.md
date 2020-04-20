@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.TranslateTransform
 title: Graphics::TranslateTransform (gdiplusgraphics.h)
-description: The Graphics::TranslateTransform method updates this Graphics object's world transformation matrix with the product of itself and a translation matrix.
+description: The Graphics::TranslateTransform method updates this Graphics object's world transformation matrix with the product of itself and a translation matrix.helpviewer_keywords: ["Graphics class [GDI+]","TranslateTransform method","Graphics.TranslateTransform","Graphics::TranslateTransform","TranslateTransform","TranslateTransform method [GDI+]","TranslateTransform method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_TranslateTransform_dx_dy_order_","gdiplus._gdiplus_CLASS_Graphics_TranslateTransform_dx_dy_order_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_TranslateTransform_dx_dy_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\translatetransform.htm

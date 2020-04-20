@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.FlushInstructionCache
 title: FlushInstructionCache function (processthreadsapi.h)
-description: Flushes the instruction cache for the specified process.
+description: Flushes the instruction cache for the specified process.helpviewer_keywords: ["FlushInstructionCache","FlushInstructionCache function","_win32_flushinstructioncache","base.flushinstructioncache","processthreadsapi/FlushInstructionCache"]
 old-location: base\flushinstructioncache.htm
 tech.root: Debug
 ms.assetid: 6267adde-8169-4673-97ec-78c66e2135c1

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleCache.SetData
 title: IOleCache::SetData (oleidl.h)
-description: Initializes the cache with data in a specified format and on a specified medium.
+description: Initializes the cache with data in a specified format and on a specified medium.helpviewer_keywords: ["IOleCache interface [COM]","SetData method","IOleCache.SetData","IOleCache::SetData","SetData","SetData method [COM]","SetData method [COM]","IOleCache interface","_ole_iolecache_setdata","com.iolecache_setdata","oleidl/IOleCache::SetData"]
 old-location: com\iolecache_setdata.htm
 tech.root: com
 ms.assetid: b826411d-6e00-44ba-8603-85db40c4a55f

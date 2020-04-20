@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.Preroll
 title: IWMReaderAdvanced2::Preroll (wmsdkidl.h)
-description: The Preroll method is used to begin prerolling (buffering data) for the reader.
+description: The Preroll method is used to begin prerolling (buffering data) for the reader.helpviewer_keywords: ["IWMReaderAdvanced2 interface [windows Media Format]","Preroll method","IWMReaderAdvanced2.Preroll","IWMReaderAdvanced2::Preroll","IWMReaderAdvanced2Preroll","Preroll","Preroll method [windows Media Format]","Preroll method [windows Media Format]","IWMReaderAdvanced2 interface","wmformat.iwmreaderadvanced2_preroll","wmsdkidl/IWMReaderAdvanced2::Preroll"]
 old-location: wmformat\iwmreaderadvanced2_preroll.htm
 tech.root: wmformat
 ms.assetid: c216adf1-390c-45cc-acae-645fe29f55de

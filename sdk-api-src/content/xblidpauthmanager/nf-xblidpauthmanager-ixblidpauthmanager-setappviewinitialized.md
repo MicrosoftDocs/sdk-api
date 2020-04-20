@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.SetAppViewInitialized
 title: IXblIdpAuthManager::SetAppViewInitialized (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use.helpviewer_keywords: ["IXblIdpAuthManager interface","SetAppViewInitialized method","IXblIdpAuthManager.SetAppViewInitialized","IXblIdpAuthManager::SetAppViewInitialized","SetAppViewInitialized","SetAppViewInitialized method","SetAppViewInitialized method","IXblIdpAuthManager interface","xblidp.ixblidpauthmanager_setappviewinitialized","xblidpauthmanager/IXblIdpAuthManager::SetAppViewInitialized"]
 old-location: xblidp\ixblidpauthmanager_setappviewinitialized.htm
 tech.root: xblidp
 ms.assetid: 0FC3C8A8-FB37-4207-9EC4-4DA15721C7AF

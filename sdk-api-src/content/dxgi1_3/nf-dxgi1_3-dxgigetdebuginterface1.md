@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_3.DXGIGetDebugInterface1
 title: DXGIGetDebugInterface1 function (dxgi1_3.h)
-description: Retrieves an interface that Windows Store apps use for debugging the Microsoft DirectX Graphics Infrastructure (DXGI).
+description: Retrieves an interface that Windows Store apps use for debugging the Microsoft DirectX Graphics Infrastructure (DXGI).helpviewer_keywords: ["DXGIGetDebugInterface1","DXGIGetDebugInterface1 function [DXGI]","direct3ddxgi.dxgigetdebuginterface1","dxgi1_3/DXGIGetDebugInterface1"]
 old-location: direct3ddxgi\dxgigetdebuginterface1.htm
 tech.root: direct3ddxgi
 ms.assetid: 0FE0EAF5-3ADC-426F-9DA9-FEDEC519EEF0

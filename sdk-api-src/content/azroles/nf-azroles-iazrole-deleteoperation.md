@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRole.DeleteOperation
 title: IAzRole::DeleteOperation (azroles.h)
-description: Removes the IAzOperation object with the specified name from the role.
+description: Removes the IAzOperation object with the specified name from the role.helpviewer_keywords: ["AzRole object [Security]","DeleteOperation method","DeleteOperation","DeleteOperation method [Security]","DeleteOperation method [Security]","AzRole object","DeleteOperation method [Security]","IAzRole interface","IAzRole interface [Security]","DeleteOperation method","IAzRole.DeleteOperation","IAzRole::DeleteOperation","azroles/IAzRole::DeleteOperation","security.iazrole_deleteoperation"]
 old-location: security\iazrole_deleteoperation.htm
 tech.root: SecAuthZ
 ms.assetid: d3486a12-7059-47b8-9f06-a025d5756b70

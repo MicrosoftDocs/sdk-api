@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.Clone
 title: IEnumBitsPeerCacheRecords::Clone (bits3_0.h)
-description: Creates another IEnumBitsPeerCacheRecords enumerator that contains the same enumeration state as the current one.
+description: Creates another IEnumBitsPeerCacheRecords enumerator that contains the same enumeration state as the current one.helpviewer_keywords: ["Clone","Clone method [BITS]","Clone method [BITS]","IEnumBitsPeerCacheRecords interface","IEnumBitsPeerCacheRecords interface [BITS]","Clone method","IEnumBitsPeerCacheRecords.Clone","IEnumBitsPeerCacheRecords::Clone","bits.ienumbitspeercacherecords_clone","bits3_0/IEnumBitsPeerCacheRecords::Clone"]
 old-location: bits\ienumbitspeercacherecords_clone.htm
 tech.root: Bits
 ms.assetid: 4eb19401-119d-4ce6-92b1-aa41b6dcb97c

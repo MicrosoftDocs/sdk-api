@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IPersistTuneXml.InitNew
 title: IPersistTuneXml::InitNew (tuner.h)
-description: This method is not implemented in the current release. It was created to make the IPersistTuneXml interface compatible with the IPersistStreamInit interface and is reserved for future use.
+description: This method is not implemented in the current release. It was created to make the IPersistTuneXml interface compatible with the IPersistStreamInit interface and is reserved for future use.helpviewer_keywords: ["IPersistTuneXml interface [Microsoft TV Technologies]","InitNew method","IPersistTuneXml.InitNew","IPersistTuneXml::InitNew","InitNew","InitNew method [Microsoft TV Technologies]","InitNew method [Microsoft TV Technologies]","IPersistTuneXml interface","mstv.ipersisttunexml_initnew","tuner/IPersistTuneXml::InitNew"]
 old-location: mstv\ipersisttunexml_initnew.htm
 tech.root: mstv
 ms.assetid: 75485d59-118c-4098-974b-40f7a36dbd91

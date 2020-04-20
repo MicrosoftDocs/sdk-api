@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_maxBandwidth
 title: IWMPNetwork::get_maxBandwidth (wmp.h)
-description: The get_maxBandwidth method retrieves the maximum allowed bandwidth.
+description: The get_maxBandwidth method retrieves the maximum allowed bandwidth.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_maxBandwidth method","IWMPNetwork.get_maxBandwidth","IWMPNetwork::get_maxBandwidth","IWMPNetworkget_maxBandwidth","get_maxBandwidth","get_maxBandwidth method [Windows Media Player]","get_maxBandwidth method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_maxbandwidth","wmp/IWMPNetwork::get_maxBandwidth"]
 old-location: wmp\iwmpnetwork_get_maxbandwidth.htm
 tech.root: WMP
 ms.assetid: b3b1b845-7aa5-49d7-a9da-52dea06e51c4

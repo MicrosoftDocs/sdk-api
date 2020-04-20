@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceCreate
 title: IComResourceEvents::OnResourceCreate (comsvcs.h)
-description: Generated when a new resource is created and allocated.
+description: Generated when a new resource is created and allocated.helpviewer_keywords: ["IComResourceEvents interface [COM+]","OnResourceCreate method","IComResourceEvents.OnResourceCreate","IComResourceEvents::OnResourceCreate","OnResourceCreate","OnResourceCreate method [COM+]","OnResourceCreate method [COM+]","IComResourceEvents interface","_dtc_IComResourceEvents_OnResourceCreate","comsvcs/IComResourceEvents::OnResourceCreate","cos.icomresourceevents_onresourcecreate"]
 old-location: cos\icomresourceevents_onresourcecreate.htm
 tech.root: cossdk
 ms.assetid: 6c1cb030-c6c7-4f91-a1ea-eebbec41813b

@@ -1,7 +1,7 @@
 ---
 UID: NF:compressapi.CloseCompressor
 title: CloseCompressor function (compressapi.h)
-description: Call to close an open COMPRESSOR_HANDLE.
+description: Call to close an open COMPRESSOR_HANDLE.helpviewer_keywords: ["CloseCompressor","CloseCompressor function [Compression API]","cmpapi.closecompressor","compressapi/CloseCompressor"]
 old-location: cmpapi\closecompressor.htm
 tech.root: cmpapi
 ms.assetid: 098cf0b9-cd42-4a40-b30f-d7364d067e41

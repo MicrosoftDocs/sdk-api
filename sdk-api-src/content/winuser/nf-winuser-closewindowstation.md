@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CloseWindowStation
 title: CloseWindowStation function (winuser.h)
-description: Closes an open window station handle.
+description: Closes an open window station handle.helpviewer_keywords: ["CloseWindowStation","CloseWindowStation function [Windows Stations and Desktops]","_win32_closewindowstation","base.closewindowstation","winstation.closewindowstation","winuser/CloseWindowStation"]
 old-location: winstation\closewindowstation.htm
 tech.root: winstation
 ms.assetid: 417cb01b-c206-4b5b-9516-94e5d90717f4

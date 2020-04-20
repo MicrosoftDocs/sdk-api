@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1helper.StrokeStyleProperties1
 title: StrokeStyleProperties1 function (d2d1_1helper.h)
-description: Returns a filled D2D1_STROKE_STYLE_PROPERTIES1 structure.
+description: Returns a filled D2D1_STROKE_STYLE_PROPERTIES1 structure.helpviewer_keywords: ["StrokeStyleProperties1","StrokeStyleProperties1 function [Direct2D]","d2d1_1helper/StrokeStyleProperties1","direct2d.strokestyleproperties1"]
 old-location: direct2d\strokestyleproperties1.htm
 tech.root: Direct2D
 ms.assetid: 12D8FBEF-2FB5-4846-857D-6D6B230DE837

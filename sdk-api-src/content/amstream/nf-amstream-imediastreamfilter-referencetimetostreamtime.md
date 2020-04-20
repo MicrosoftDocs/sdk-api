@@ -1,7 +1,7 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.ReferenceTimeToStreamTime
 title: IMediaStreamFilter::ReferenceTimeToStreamTime (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The ReferenceTimeToStreamTime method converts a reference time to stream time.
+description: Note  This interface is deprecated. New applications should not use it. The ReferenceTimeToStreamTime method converts a reference time to stream time.helpviewer_keywords: ["IMediaStreamFilter interface [DirectShow]","ReferenceTimeToStreamTime method","IMediaStreamFilter.ReferenceTimeToStreamTime","IMediaStreamFilter::ReferenceTimeToStreamTime","IMediaStreamFilterReferenceTimeToStreamTime","ReferenceTimeToStreamTime","ReferenceTimeToStreamTime method [DirectShow]","ReferenceTimeToStreamTime method [DirectShow]","IMediaStreamFilter interface","amstream/IMediaStreamFilter::ReferenceTimeToStreamTime","dshow.imediastreamfilter_referencetimetostreamtime"]
 old-location: dshow\imediastreamfilter_referencetimetostreamtime.htm
 tech.root: DirectShow
 ms.assetid: 71ddbf0b-17aa-4481-81a7-6d4a12275c31

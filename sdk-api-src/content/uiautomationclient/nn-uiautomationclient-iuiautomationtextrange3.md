@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextRange3
 title: IUIAutomationTextRange3 (uiautomationclient.h)
-description: Extends the IUIAutomationTextRange2 interface to support faster access to the underlying rich text data on a text range.
+description: Extends the IUIAutomationTextRange2 interface to support faster access to the underlying rich text data on a text range.helpviewer_keywords: ["IUIAutomationTextRange3","IUIAutomationTextRange3 interface [Windows Accessibility]","IUIAutomationTextRange3 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationTextRange3","winauto.uiauto_IUIAutomationTextRange3"]
 old-location: winauto\uiauto_IUIAutomationTextRange3.htm
 tech.root: WinAuto
 ms.assetid: 3491996E-89EF-496D-94B6-FF8D121D3828

@@ -1,7 +1,7 @@
 ---
 UID: NS:evntrace._TRACE_PERIODIC_CAPTURE_STATE_INFO
 title: TRACE_PERIODIC_CAPTURE_STATE_INFO (evntrace.h)
-description: Information relating to a periodic capture state.
+description: Information relating to a periodic capture state.helpviewer_keywords: ["*PTRACE_PERIODIC_CAPTURE_STATE_INFO","PTRACE_PERIODIC_CAPTURE_STATE_INFO","PTRACE_PERIODIC_CAPTURE_STATE_INFO structure pointer [ETW]","TRACE_PERIODIC_CAPTURE_STATE_INFO","TRACE_PERIODIC_CAPTURE_STATE_INFO structure [ETW]","_TRACE_PERIODIC_CAPTURE_STATE_INFO","etw.trace_periodic_capture_state_info","evntrace/PTRACE_PERIODIC_CAPTURE_STATE_INFO","evntrace/TRACE_PERIODIC_CAPTURE_STATE_INFO"]
 old-location: etw\trace_periodic_capture_state_info.htm
 tech.root: ETW
 ms.assetid: 6C032D97-4B37-48D2-BD1A-35B8BA48B8AB

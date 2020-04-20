@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMTVAudio.get_TVAudioMode
 title: IAMTVAudio::get_TVAudioMode (strmif.h)
-description: The get_TVAudioMode method retrieves the current TV audio mode.
+description: The get_TVAudioMode method retrieves the current TV audio mode.helpviewer_keywords: ["IAMTVAudio interface [DirectShow]","get_TVAudioMode method","IAMTVAudio.get_TVAudioMode","IAMTVAudio::get_TVAudioMode","IAMTVAudioget_TVAudioMode","dshow.iamtvaudio_get_tvaudiomode","get_TVAudioMode","get_TVAudioMode method [DirectShow]","get_TVAudioMode method [DirectShow]","IAMTVAudio interface","strmif/IAMTVAudio::get_TVAudioMode"]
 old-location: dshow\iamtvaudio_get_tvaudiomode.htm
 tech.root: DirectShow
 ms.assetid: fa2e71f3-3aa0-4260-925d-579006459a09

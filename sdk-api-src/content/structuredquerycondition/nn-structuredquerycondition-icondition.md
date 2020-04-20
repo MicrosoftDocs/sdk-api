@@ -1,7 +1,7 @@
 ---
 UID: NN:structuredquerycondition.ICondition
 title: ICondition (structuredquerycondition.h)
-description: Provides methods for retrieving information about a search condition.
+description: Provides methods for retrieving information about a search condition.helpviewer_keywords: ["ICondition","ICondition interface [search]","ICondition interface [search]","described","_search_ICondition","search._search_ICondition","structuredquerycondition/ICondition"]
 old-location: search\_search_ICondition.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\icondition.htm

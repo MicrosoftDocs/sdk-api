@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.GetImageInfo
 title: IImageList::GetImageInfo (commoncontrols.h)
-description: Gets information about an image.
+description: Gets information about an image.helpviewer_keywords: ["GetImageInfo","GetImageInfo method [Windows Controls]","GetImageInfo method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","GetImageInfo method","IImageList.GetImageInfo","IImageList::GetImageInfo","comctl_IImageList_GetImageInfo","comctl_IImageList_GetImageInfo_cpp","commoncontrols/IImageList::GetImageInfo","controls.IImageList_GetImageInfo","controls.comctl_IImageList_GetImageInfo"]
 old-location: controls\IImageList_GetImageInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimageinfo.htm

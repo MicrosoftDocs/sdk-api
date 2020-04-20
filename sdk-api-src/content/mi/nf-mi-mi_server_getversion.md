@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Server_GetVersion
 title: MI_Server_GetVersion function (mi.h)
-description: Gets the value of the MI_VERSION macro used when generating the provider.
+description: Gets the value of the MI_VERSION macro used when generating the provider.helpviewer_keywords: ["MI_Server_GetVersion","MI_Server_GetVersion callback","MI_Server_GetVersion callback function [Windows Management Infrastructure (MI)]","mi/MI_Server_GetVersion","wmi_v2.mi_server_getversion"]
 old-location: wmi_v2\mi_server_getversion.htm
 tech.root: wmi_v2
 ms.assetid: ba3d3bc8-fd07-45c7-8292-38768738cf82

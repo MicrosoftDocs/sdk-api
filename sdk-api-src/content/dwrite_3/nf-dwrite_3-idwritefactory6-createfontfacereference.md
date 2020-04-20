@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory6.CreateFontFaceReference
 title: IDWriteFactory6::CreateFontFaceReference
-description: Creates a reference to a specific font instance within a file.
+description: Creates a reference to a specific font instance within a file.helpviewer_keywords: ["IDWriteFactory6 interface [Direct Write]","CreateFontFaceReference method","IDWriteFactory6.CreateFontFaceReference","IDWriteFactory6::CreateFontFaceReference","CreateFontFaceReference","CreateFontFaceReference method [Direct Write]","CreateFontFaceReference method [Direct Write]","IDWriteFactory6 interface","directwrite.idwritefactory6_createfontfacereference","dwrite_3/IDWriteFactory6::CreateFontFaceReference"]
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontFaceReference method, IDWriteFactory6.CreateFontFaceReference, IDWriteFactory6::CreateFontFaceReference, CreateFontFaceReference, CreateFontFaceReference method [Direct Write], CreateFontFaceReference method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontfacereference, dwrite_3/IDWriteFactory6::CreateFontFaceReference

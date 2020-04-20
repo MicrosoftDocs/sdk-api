@@ -1,7 +1,7 @@
 ---
 UID: NF:winstring.WindowsCreateStringReference
 title: WindowsCreateStringReference function (winstring.h)
-description: Creates a new string reference based on the specified string.
+description: Creates a new string reference based on the specified string.helpviewer_keywords: ["WindowsCreateStringReference","WindowsCreateStringReference function [Windows Runtime]","winrt.windowscreatestringreference","winstring/WindowsCreateStringReference"]
 old-location: winrt\windowscreatestringreference.htm
 tech.root: WinRT
 ms.assetid: 0361BB7E-DA49-4289-A93E-DE7AAB8712AC

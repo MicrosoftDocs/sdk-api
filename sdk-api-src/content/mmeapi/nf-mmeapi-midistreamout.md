@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.midiStreamOut
 title: midiStreamOut function (mmeapi.h)
-description: The midiStreamOut function plays or queues a stream (buffer) of MIDI data to a MIDI output device.
+description: The midiStreamOut function plays or queues a stream (buffer) of MIDI data to a MIDI output device.helpviewer_keywords: ["_win32_midiStreamOut","midiStreamOut","midiStreamOut function [Windows Multimedia]","mmeapi/midiStreamOut","multimedia.midistreamout"]
 old-location: multimedia\midistreamout.htm
 tech.root: Multimedia
 ms.assetid: f2ebc646-7d8b-4fde-a6fc-2455b02d3d8b

@@ -1,7 +1,7 @@
 ---
 UID: NE:strmif.__MIDL___MIDL_itf_strmif_0000_0132_0004
 title: DVD_RELATIVE_BUTTON (strmif.h)
-description: Identifies the four directional buttons used for DVD menu navigation and other operations.
+description: Identifies the four directional buttons used for DVD menu navigation and other operations.helpviewer_keywords: ["DVD_RELATIVE_BUTTON","DVD_RELATIVE_BUTTON","DVD_RELATIVE_BUTTON enumeration [DirectShow]","DVD_RELATIVE_BUTTONEnumeration","DVD_Relative_Left","DVD_Relative_Lower","DVD_Relative_Right","DVD_Relative_Upper","dshow.dvd_relative_button","strmif/DVD_RELATIVE_BUTTON","strmif/DVD_Relative_Left","strmif/DVD_Relative_Lower","strmif/DVD_Relative_Right","strmif/DVD_Relative_Upper"]
 old-location: dshow\dvd_relative_button.htm
 tech.root: DirectShow
 ms.assetid: f2641b5c-08a4-44a1-8f53-fad636a03c45

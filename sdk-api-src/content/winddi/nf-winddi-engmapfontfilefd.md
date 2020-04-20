@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngMapFontFileFD
 title: EngMapFontFileFD function (winddi.h)
-description: The EngMapFontFileFD function maps a font file into system memory, if necessary, and returns a pointer to the base location of the font data in the file.
+description: The EngMapFontFileFD function maps a font file into system memory, if necessary, and returns a pointer to the base location of the font data in the file.helpviewer_keywords: ["EngMapFontFileFD","EngMapFontFileFD function [Display Devices]","display.engmapfontfilefd","gdifncs_873b241c-9910-4699-8962-576e6083e1f0.xml","winddi/EngMapFontFileFD"]
 old-location: display\engmapfontfilefd.htm
 tech.root: display
 ms.assetid: 582570b0-981f-4852-974f-cb6575c68717

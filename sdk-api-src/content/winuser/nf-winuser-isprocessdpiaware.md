@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.IsProcessDPIAware
 title: IsProcessDPIAware function (winuser.h)
-description: IsProcessDPIAware may be altered or unavailable. Instead, use GetProcessDPIAwareness.
+description: IsProcessDPIAware may be altered or unavailable. Instead, use GetProcessDPIAwareness.helpviewer_keywords: ["IsProcessDPIAware","IsProcessDPIAware function [Windows and Messages]","_win32_IsProcessDPIAware","_win32_isprocessdpiaware_cpp","winmsg.isprocessdpiaware","winui._win32_isprocessdpiaware","winuser/IsProcessDPIAware"]
 old-location: winmsg\isprocessdpiaware.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\isprocessdpiaware.htm

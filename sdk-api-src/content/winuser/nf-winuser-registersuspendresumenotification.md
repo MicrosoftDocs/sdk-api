@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.RegisterSuspendResumeNotification
 title: RegisterSuspendResumeNotification function (winuser.h)
-description: Registers to receive notification when the system is suspended or resumed. Similar to PowerRegisterSuspendResumeNotification, but operates in user mode and can take a window handle.
+description: Registers to receive notification when the system is suspended or resumed. Similar to PowerRegisterSuspendResumeNotification, but operates in user mode and can take a window handle.helpviewer_keywords: ["RegisterSuspendResumeNotification","RegisterSuspendResumeNotification function","base.registersuspendresumenotification","winuser/RegisterSuspendResumeNotification"]
 old-location: base\registersuspendresumenotification.htm
 tech.root: power
 ms.assetid: 6cd42d32-07e9-4cbd-83f9-6146b1cb54db

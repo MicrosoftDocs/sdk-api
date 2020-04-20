@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixInverse
 title: XMMatrixInverse function (directxmath.h)
-description: Computes the inverse of a matrix.
+description: Computes the inverse of a matrix.helpviewer_keywords: ["Use DirectX..XMMatrixInverse","XMMatrixInverse","XMMatrixInverse method [DirectX Math Support APIs]","dxmath.xmmatrixinverse"]
 old-location: dxmath\xmmatrixinverse.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixInverse(XMVECTOR@,XMMATRIX)

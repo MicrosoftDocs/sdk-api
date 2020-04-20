@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICDdsEncoder.CreateNewFrame
 title: IWICDdsEncoder::CreateNewFrame (wincodec.h)
-description: Creates a new frame to encode.
+description: Creates a new frame to encode.helpviewer_keywords: ["CreateNewFrame","CreateNewFrame method [Windows Imaging Component]","CreateNewFrame method [Windows Imaging Component]","IWICDdsEncoder interface","IWICDdsEncoder interface [Windows Imaging Component]","CreateNewFrame method","IWICDdsEncoder.CreateNewFrame","IWICDdsEncoder::CreateNewFrame","wic.iwicddsencoder_createnewframe","wincodec/IWICDdsEncoder::CreateNewFrame"]
 old-location: wic\iwicddsencoder_createnewframe.htm
 tech.root: wic
 ms.assetid: 14195781-DA71-400A-B4A7-F336A0B5429B

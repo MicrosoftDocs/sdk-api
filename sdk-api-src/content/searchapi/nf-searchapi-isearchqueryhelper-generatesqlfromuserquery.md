@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.GenerateSQLFromUserQuery
 title: ISearchQueryHelper::GenerateSQLFromUserQuery (searchapi.h)
-description: Generates a Structured Query Language (SQL) query based on a client-supplied query string expressed in either Advanced Query Syntax (AQS) or Natural Query Syntax (NQS).
+description: Generates a Structured Query Language (SQL) query based on a client-supplied query string expressed in either Advanced Query Syntax (AQS) or Natural Query Syntax (NQS).helpviewer_keywords: ["GenerateSQLFromUserQuery","GenerateSQLFromUserQuery method [search]","GenerateSQLFromUserQuery method [search]","ISearchQueryHelper interface","ISearchQueryHelper interface [search]","GenerateSQLFromUserQuery method","ISearchQueryHelper.GenerateSQLFromUserQuery","ISearchQueryHelper::GenerateSQLFromUserQuery","_search_ISearchQueryHelper_GenerateSQLFromUserQuery","search._search_ISearchQueryHelper_GenerateSQLFromUserQuery","searchapi/ISearchQueryHelper::GenerateSQLFromUserQuery"]
 old-location: search\_search_ISearchQueryHelper_GenerateSQLFromUserQuery.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\generatesqlfromuserquery.htm

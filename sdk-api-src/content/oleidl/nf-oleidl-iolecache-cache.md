@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleCache.Cache
 title: IOleCache::Cache (oleidl.h)
-description: Specifies the format and other data to be cached inside an embedded object.
+description: Specifies the format and other data to be cached inside an embedded object.helpviewer_keywords: ["Cache","Cache method [COM]","Cache method [COM]","IOleCache interface","IOleCache interface [COM]","Cache method","IOleCache.Cache","IOleCache::Cache","_ole_iolecache_cache","com.iolecache_cache","oleidl/IOleCache::Cache"]
 old-location: com\iolecache_cache.htm
 tech.root: com
 ms.assetid: 2a86063a-3ee6-4fc2-a6e0-6e9ffa658348

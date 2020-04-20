@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DSA_GetItemPtr
 title: DSA_GetItemPtr function (dpa_dsa.h)
-description: Gets a pointer to an element from a dynamic structure array (DSA).
+description: Gets a pointer to an element from a dynamic structure array (DSA).helpviewer_keywords: ["DSA_GetItemPtr","DSA_GetItemPtr function [Windows Controls]","_win32_DSA_GetItemPtr","_win32_DSA_GetItemPtr_cpp","controls.DSA_GetItemPtr","controls._win32_DSA_GetItemPtr","dpa_dsa/DSA_GetItemPtr"]
 old-location: controls\DSA_GetItemPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getitemptr.htm

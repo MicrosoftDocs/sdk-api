@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Bitmap1.GetColorContext
 title: ID2D1Bitmap1::GetColorContext (d2d1_1.h)
-description: Gets the color context information associated with the bitmap.
+description: Gets the color context information associated with the bitmap.helpviewer_keywords: ["GetColorContext","GetColorContext method [Direct2D]","GetColorContext method [Direct2D]","ID2D1Bitmap1 interface","ID2D1Bitmap1 interface [Direct2D]","GetColorContext method","ID2D1Bitmap1.GetColorContext","ID2D1Bitmap1::GetColorContext","d2d1_1/ID2D1Bitmap1::GetColorContext","direct2d.id2d1bitmap1_getcolorcontext"]
 old-location: direct2d\id2d1bitmap1_getcolorcontext.htm
 tech.root: Direct2D
 ms.assetid: 7ab8bed5-c124-4e14-8a05-3a71f07f5fd1

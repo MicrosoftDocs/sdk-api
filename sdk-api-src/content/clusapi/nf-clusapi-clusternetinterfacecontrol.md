@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterNetInterfaceControl
 title: ClusterNetInterfaceControl function (clusapi.h)
-description: Initiates an operation that affects a network interface. The operation performed depends on the control code passed to the dwControlCode parameter.
+description: Initiates an operation that affects a network interface. The operation performed depends on the control code passed to the dwControlCode parameter.helpviewer_keywords: ["ClusterNetInterfaceControl","ClusterNetInterfaceControl function [Failover Cluster]","_wolf_clusternetinterfacecontrol","clusapi/ClusterNetInterfaceControl","mscs.clusternetinterfacecontrol"]
 old-location: mscs\clusternetinterfacecontrol.htm
 tech.root: MsCS
 ms.assetid: cfb56e61-3652-47a3-860b-706e6dba03d7

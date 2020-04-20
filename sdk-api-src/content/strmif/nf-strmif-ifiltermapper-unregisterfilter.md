@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IFilterMapper.UnregisterFilter
 title: IFilterMapper::UnregisterFilter (strmif.h)
-description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Removes the registration of this filter from the registry.
+description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Removes the registration of this filter from the registry.helpviewer_keywords: ["IFilterMapper interface [DirectShow]","UnregisterFilter method","IFilterMapper.UnregisterFilter","IFilterMapper::UnregisterFilter","IFilterMapperUnregisterFilter","UnregisterFilter","UnregisterFilter method [DirectShow]","UnregisterFilter method [DirectShow]","IFilterMapper interface","dshow.ifiltermapper_unregisterfilter","strmif/IFilterMapper::UnregisterFilter"]
 old-location: dshow\ifiltermapper_unregisterfilter.htm
 tech.root: DirectShow
 ms.assetid: 9b5941d4-d0e7-4f4a-b273-e0fa4a1e1c2e

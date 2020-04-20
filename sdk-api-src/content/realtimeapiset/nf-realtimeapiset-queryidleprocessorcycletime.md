@@ -1,7 +1,7 @@
 ---
 UID: NF:realtimeapiset.QueryIdleProcessorCycleTime
 title: QueryIdleProcessorCycleTime function (realtimeapiset.h)
-description: Retrieves the cycle time for the idle thread of each processor in the system.
+description: Retrieves the cycle time for the idle thread of each processor in the system.helpviewer_keywords: ["QueryIdleProcessorCycleTime","QueryIdleProcessorCycleTime function","base.queryidleprocessorcycletime","realtimeapiset/QueryIdleProcessorCycleTime","winbase/QueryIdleProcessorCycleTime"]
 old-location: base\queryidleprocessorcycletime.htm
 tech.root: ProcThread
 ms.assetid: 75a5c4cf-ccc7-47ab-a2a9-88051e0a7d06

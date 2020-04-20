@@ -1,7 +1,7 @@
 ---
 UID: NS:msacm.tACMFILTERCHOOSE
 title: ACMFILTERCHOOSE (msacm.h)
-description: The ACMFILTERCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio filter selection dialog box.
+description: The ACMFILTERCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio filter selection dialog box.helpviewer_keywords: ["*LPACMFILTERCHOOSE","*PACMFILTERCHOOSE","ACMFILTERCHOOSE","ACMFILTERCHOOSE structure [Windows Multimedia]","ACMFILTERCHOOSE_STYLEF_CONTEXTHELP","ACMFILTERCHOOSE_STYLEF_ENABLEHOOK","ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE","ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATEHANDLE","ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT","ACMFILTERCHOOSE_STYLEF_SHOWHELP","ACM_FILTERENUMF_DWFILTERTAG","msacm/ACMFILTERCHOOSE","multimedia.acmfilterchoose_COLLISION925","multimedia.acmfilterchoose_struct"]
 old-location: multimedia\acmfilterchoose_struct.htm
 tech.root: Multimedia
 ms.assetid: 92ec2a41-e853-4533-b831-43c9d52dc27f

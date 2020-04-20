@@ -1,7 +1,7 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.GetSummaryInfo
 title: IDsAdminNewObjExt::GetSummaryInfo (dsadmin.h)
-description: The IDsAdminNewObjExt::GetSummaryInfo method obtains a string that contains a summary of the data gathered by the new object wizard extension page. This string is displayed in the wizard Finish page.
+description: The IDsAdminNewObjExt::GetSummaryInfo method obtains a string that contains a summary of the data gathered by the new object wizard extension page. This string is displayed in the wizard Finish page.helpviewer_keywords: ["GetSummaryInfo","GetSummaryInfo method [Active Directory]","GetSummaryInfo method [Active Directory]","IDsAdminNewObjExt interface","IDsAdminNewObjExt interface [Active Directory]","GetSummaryInfo method","IDsAdminNewObjExt.GetSummaryInfo","IDsAdminNewObjExt::GetSummaryInfo","_glines_idsadminnewobjext_getsummaryinfo","ad.idsadminnewobjext__getsummaryinfo","ad.idsadminnewobjext_getsummaryinfo","dsadmin/IDsAdminNewObjExt::GetSummaryInfo"]
 old-location: ad\idsadminnewobjext_getsummaryinfo.htm
 tech.root: ad
 ms.assetid: 61d97253-360a-4e35-a05a-33315d153c0f

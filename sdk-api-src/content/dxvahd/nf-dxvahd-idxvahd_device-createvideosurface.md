@@ -1,7 +1,7 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.CreateVideoSurface
 title: IDXVAHD_Device::CreateVideoSurface (dxvahd.h)
-description: Creates one or more Microsoft Direct3D video surfaces.
+description: Creates one or more Microsoft Direct3D video surfaces.helpviewer_keywords: ["CreateVideoSurface","CreateVideoSurface method [Media Foundation]","CreateVideoSurface method [Media Foundation]","IDXVAHD_Device interface","IDXVAHD_Device interface [Media Foundation]","CreateVideoSurface method","IDXVAHD_Device.CreateVideoSurface","IDXVAHD_Device::CreateVideoSurface","dxvahd/IDXVAHD_Device::CreateVideoSurface","mf.idxvahd_device_createvideosurface"]
 old-location: mf\idxvahd_device_createvideosurface.htm
 tech.root: medfound
 ms.assetid: c467a077-104c-443d-896b-d69441aa5160

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollector.get_DataCollectorSet
 title: IDataCollector::get_DataCollectorSet (pla.h)
-description: Retrieves the data collector set to which this data collector belongs.
+description: Retrieves the data collector set to which this data collector belongs.helpviewer_keywords: ["DataCollectorSet property [PLA]","DataCollectorSet property [PLA]","IDataCollector interface","IDataCollector interface [PLA]","DataCollectorSet property","IDataCollector.DataCollectorSet","IDataCollector.get_DataCollectorSet","IDataCollector::DataCollectorSet","IDataCollector::get_DataCollectorSet","base.idatacollector_datacollectorset","get_DataCollectorSet","pla.idatacollector_datacollectorset","pla/IDataCollector::DataCollectorSet","pla/IDataCollector::get_DataCollectorSet"]
 old-location: pla\idatacollector_datacollectorset.htm
 tech.root: PLA
 ms.assetid: d4449953-b982-474b-ac35-b03e39db48c9

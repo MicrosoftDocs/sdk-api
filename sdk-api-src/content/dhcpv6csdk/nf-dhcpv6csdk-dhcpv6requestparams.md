@@ -2,6 +2,7 @@
 UID: NF:dhcpv6csdk.Dhcpv6RequestParams
 title: Dhcpv6RequestParams function (dhcpv6csdk.h)
 description: Requests options from the DHCPv6 client cache or directly from the DHCPv6 server.
+helpviewer_keywords: ["Dhcpv6RequestParams","Dhcpv6RequestParams function [DHCP]","dhcp.dhcpv6requestparams","dhcpv6csdk/Dhcpv6RequestParams"]
 old-location: dhcp\dhcpv6requestparams.htm
 tech.root: DHCP
 ms.assetid: dfe94735-ee9d-4781-9d54-90a10d0e243a
@@ -145,7 +146,3 @@ The <i>AdapterName</i> is not in the correct format. It should be in this format
 </tr>
 
 </table>
- 
-
-
-

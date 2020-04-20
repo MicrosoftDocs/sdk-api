@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMU555.operator-assign(uint16_t)
 title: XMU555::operator-assign(uint16_t) (directxpackedvector.h)
-description: Assigns the vector component data packed in an instance of uint16_t to the current instance of XMU555.
+description: Assigns the vector component data packed in an instance of uint16_t to the current instance of XMU555.helpviewer_keywords: ["XMU555 structure [DirectX Math Support APIs]","operator = method","XMU555.operator =(const uint16_t)","XMU555.operator-assign(uint16_t)","XMU555.operator=","XMU555::operator-assign(uint16_t)","XMU555::operator=","dxmath.xmu555_operator_eq_2","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMU555 structure","operator="]
 old-location: dxmath\xmu555_operator_eq_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU555.operator = (const uint16_t)

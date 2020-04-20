@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeProvider.GetDisplayAttributeInfo
 title: ITfDisplayAttributeProvider::GetDisplayAttributeInfo (msctf.h)
-description: ITfDisplayAttributeProvider::GetDisplayAttributeInfo method
+description: ITfDisplayAttributeProvider::GetDisplayAttributeInfo methodhelpviewer_keywords: ["GetDisplayAttributeInfo","GetDisplayAttributeInfo method [Text Services Framework]","GetDisplayAttributeInfo method [Text Services Framework]","ITfDisplayAttributeProvider interface","ITfDisplayAttributeProvider interface [Text Services Framework]","GetDisplayAttributeInfo method","ITfDisplayAttributeProvider.GetDisplayAttributeInfo","ITfDisplayAttributeProvider::GetDisplayAttributeInfo","_tsf_itfdisplayattributeprovider_getdisplayattributeinfo_ref","msctf/ITfDisplayAttributeProvider::GetDisplayAttributeInfo","tsf.itfdisplayattributeprovider_getdisplayattributeinfo"]
 old-location: tsf\itfdisplayattributeprovider_getdisplayattributeinfo.htm
 tech.root: TSF
 ms.assetid: 2081f1b4-45b4-43bd-ba20-392a5ad0a30e

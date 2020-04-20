@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6CApiCleanup
 title: Dhcpv6CApiCleanup function (dhcpv6csdk.h)
-description: The Dhcpv6CApiCleanup function enables DHCPv6 to properly clean up resources allocated throughout the use of DHCPv6 function calls. The Dhcpv6CApiCleanup function must only be called if a previous call to Dhcpv6CApiInitialize executed successfully.
+description: The Dhcpv6CApiCleanup function enables DHCPv6 to properly clean up resources allocated throughout the use of DHCPv6 function calls. The Dhcpv6CApiCleanup function must only be called if a previous call to Dhcpv6CApiInitialize executed successfully.helpviewer_keywords: ["Dhcpv6CApiCleanup","Dhcpv6CApiCleanup function [DHCP]","dhcp.dhcpv6capicleanup","dhcpv6csdk/Dhcpv6CApiCleanup"]
 old-location: dhcp\dhcpv6capicleanup.htm
 tech.root: DHCP
 ms.assetid: eb951723-4bfb-4eb5-85bd-d469163d72e1

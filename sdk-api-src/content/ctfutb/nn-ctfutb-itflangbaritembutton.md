@@ -1,7 +1,7 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemButton
 title: ITfLangBarItemButton (ctfutb.h)
-description: The ITfLangBarItemButton interface is implemented by a language bar button provider and used by the language bar manager to obtain information about a button item on the language bar.
+description: The ITfLangBarItemButton interface is implemented by a language bar button provider and used by the language bar manager to obtain information about a button item on the language bar.helpviewer_keywords: ["ITfLangBarItemButton","ITfLangBarItemButton interface [Text Services Framework]","ITfLangBarItemButton interface [Text Services Framework]","described","_tsf_itflangbaritembutton_ref","ctfutb/ITfLangBarItemButton","tsf.itflangbaritembutton"]
 old-location: tsf\itflangbaritembutton.htm
 tech.root: TSF
 ms.assetid: 098a8cdc-ff34-4729-9b34-279c499d40a8

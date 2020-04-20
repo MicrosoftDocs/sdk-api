@@ -1,7 +1,7 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetCurrentMode
 title: IFullScreenVideoEx::GetCurrentMode (amvideo.h)
-description: The GetCurrentMode method retrieves the current display mode.
+description: The GetCurrentMode method retrieves the current display mode.helpviewer_keywords: ["GetCurrentMode","GetCurrentMode method [DirectShow]","GetCurrentMode method [DirectShow]","IFullScreenVideoEx interface","IFullScreenVideoEx interface [DirectShow]","GetCurrentMode method","IFullScreenVideoEx.GetCurrentMode","IFullScreenVideoEx::GetCurrentMode","IFullScreenVideoGetCurrentMode","amvideo/IFullScreenVideoEx::GetCurrentMode","dshow.ifullscreenvideoex_getcurrentmode"]
 old-location: dshow\ifullscreenvideoex_getcurrentmode.htm
 tech.root: DirectShow
 ms.assetid: 036914da-4223-4601-9e4a-4c7840b7dd22

@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssComponent.GetAdditionalRestores
 title: IVssComponent::GetAdditionalRestores (vswriter.h)
-description: The GetAdditionalRestores method is used by a writer during incremental or differential restore operations to determine whether a given component will require additional restore operations to completely retrieve it.
+description: The GetAdditionalRestores method is used by a writer during incremental or differential restore operations to determine whether a given component will require additional restore operations to completely retrieve it.helpviewer_keywords: ["GetAdditionalRestores","GetAdditionalRestores method [VSS]","GetAdditionalRestores method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetAdditionalRestores method","IVssComponent.GetAdditionalRestores","IVssComponent::GetAdditionalRestores","_win32_ivsscomponent_getadditionalrestores","base.ivsscomponent_getadditionalrestores","vswriter/IVssComponent::GetAdditionalRestores"]
 old-location: base\ivsscomponent_getadditionalrestores.htm
 tech.root: VSS
 ms.assetid: f398a88a-6572-4d0b-a241-37cc0e9e99a0

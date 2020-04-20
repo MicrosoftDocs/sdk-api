@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex._IFaxAccountNotify.OnIncomingJobRemoved
 title: _IFaxAccountNotify::OnIncomingJobRemoved (faxcomex.h)
-description: Called by the fax service when an incoming fax job is removed from the job queue of a particular fax account.
+description: Called by the fax service when an incoming fax job is removed from the job queue of a particular fax account.helpviewer_keywords: ["IFaxAccountNotify.OnIncomingJobRemoved","OnIncomingJobRemoved","OnIncomingJobRemoved method [Fax Service]","OnIncomingJobRemoved method [Fax Service]","_IFaxAccountNotify interface","_IFaxAccountNotify interface [Fax Service]","OnIncomingJobRemoved method","_IFaxAccountNotify.OnIncomingJobRemoved","_IFaxAccountNotify::OnIncomingJobRemoved","_mfax_ifaxaccountnotify_onincomingjobremoved","fax._mfax_ifaxaccountnotify_onincomingjobremoved","faxcomex/_IFaxAccountNotify::OnIncomingJobRemoved"]
 old-location: fax\_mfax_ifaxaccountnotify_onincomingjobremoved.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onincomingjobremoved.htm

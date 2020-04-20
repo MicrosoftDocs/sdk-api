@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SafeArrayCreateEx
 title: SafeArrayCreateEx function (oleauto.h)
-description: Creates and returns a safe array descriptor from the specified VARTYPE, number of dimensions and bounds.
+description: Creates and returns a safe array descriptor from the specified VARTYPE, number of dimensions and bounds.helpviewer_keywords: ["SafeArrayCreateEx","SafeArrayCreateEx function [Automation]","_oa96_SafeArrayCreateEx","automat.safearraycreateex","oleauto/SafeArrayCreateEx"]
 old-location: automat\safearraycreateex.htm
 tech.root: automat
 ms.assetid: 63117428-6676-4fb5-a0ae-7e3b22546d77

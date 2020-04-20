@@ -1,7 +1,7 @@
 ---
 UID: NF:cmdtree.ICommandTree.FindErrorNodes
 title: ICommandTree::FindErrorNodes (cmdtree.h)
-description: The ICommandTree::FindErrorNodes method traverses a command tree and returns an array of nodes with errors in them.
+description: The ICommandTree::FindErrorNodes method traverses a command tree and returns an array of nodes with errors in them.helpviewer_keywords: ["FindErrorNodes","FindErrorNodes method [Indexing Service]","FindErrorNodes method [Indexing Service]","ICommandTree interface","ICommandTree interface [Indexing Service]","FindErrorNodes method","ICommandTree.FindErrorNodes","ICommandTree::FindErrorNodes","_idxs_ICommandTree_FindErrorNodes","cmdtree/ICommandTree::FindErrorNodes","indexsrv.icommandtree_finderrornodes"]
 old-location: indexsrv\icommandtree_finderrornodes.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_68tv.htm

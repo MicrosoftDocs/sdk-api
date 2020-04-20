@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.CreateRangeBackup
 title: ITfContext::CreateRangeBackup (msctf.h)
-description: ITfContext::CreateRangeBackup method
+description: ITfContext::CreateRangeBackup methodhelpviewer_keywords: ["CreateRangeBackup","CreateRangeBackup method [Text Services Framework]","CreateRangeBackup method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","CreateRangeBackup method","ITfContext.CreateRangeBackup","ITfContext::CreateRangeBackup","_tsf_itfcontext_createrangebackup_ref","msctf/ITfContext::CreateRangeBackup","tsf.itfcontext_createrangebackup"]
 old-location: tsf\itfcontext_createrangebackup.htm
 tech.root: TSF
 ms.assetid: c3b52170-af1b-407b-9160-1265ae3c9afc

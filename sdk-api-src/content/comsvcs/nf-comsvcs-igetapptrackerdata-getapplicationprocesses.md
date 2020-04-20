@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetApplicationProcesses
 title: IGetAppTrackerData::GetApplicationProcesses (comsvcs.h)
-description: Retrieves summary information for all processes that are hosting COM+ applications, or for a specified subset of these processes.
+description: Retrieves summary information for all processes that are hosting COM+ applications, or for a specified subset of these processes.helpviewer_keywords: ["GetApplicationProcesses","GetApplicationProcesses method [COM+]","GetApplicationProcesses method [COM+]","IGetAppTrackerData interface","IGetAppTrackerData interface [COM+]","GetApplicationProcesses method","IGetAppTrackerData.GetApplicationProcesses","IGetAppTrackerData::GetApplicationProcesses","comsvcs/IGetAppTrackerData::GetApplicationProcesses","cos.igetapptrackerdata_getapplicationprocesses"]
 old-location: cos\igetapptrackerdata_getapplicationprocesses.htm
 tech.root: cossdk
 ms.assetid: ec15db5c-fce6-42c0-a291-635344a7c4fc

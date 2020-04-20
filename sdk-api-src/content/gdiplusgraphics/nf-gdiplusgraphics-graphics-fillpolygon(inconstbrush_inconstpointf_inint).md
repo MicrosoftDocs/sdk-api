@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPolygon(IN const Brush,IN const PointF,IN INT)
 title: Graphics::FillPolygon
-description: The Graphics::FillPolygon method uses a brush to fill the interior of a polygon.
+description: The Graphics::FillPolygon method uses a brush to fill the interior of a polygon.helpviewer_keywords: ["Graphics::FillPolygon"]
 ms.assetid: d5922fd8-b17d-4a1f-9e1b-3531f0b7d2d0
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillPolygon

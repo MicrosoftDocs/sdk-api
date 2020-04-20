@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_Protocol
 title: INetFwOpenPort::get_Protocol (netfw.h)
-description: Specifies the protocol type setting for this port.
+description: Specifies the protocol type setting for this port.helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","Protocol property","INetFwOpenPort.Protocol","INetFwOpenPort.get_Protocol","INetFwOpenPort::Protocol","INetFwOpenPort::get_Protocol","INetFwOpenPort::put_Protocol","Protocol property [ICS/ICF]","Protocol property [ICS/ICF]","INetFwOpenPort interface","get_Protocol","ics.inetfwopenport_protocol","netfw/INetFwOpenPort::Protocol","netfw/INetFwOpenPort::get_Protocol","netfw/INetFwOpenPort::put_Protocol"]
 old-location: ics\inetfwopenport_protocol.htm
 tech.root: ics
 ms.assetid: 775c3d29-89c7-4768-9476-2e56555fd82b

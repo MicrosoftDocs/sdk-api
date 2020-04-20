@@ -1,7 +1,7 @@
 ---
 UID: NS:directxmath.XMFLOAT3X3
 title: XMFLOAT3X3 (directxmath.h)
-description: A 3*3 floating point matrix.
+description: A 3*3 floating point matrix.helpviewer_keywords: ["XMFLOAT3X3","XMFLOAT3X3 structure [DirectX Math Support APIs]","directxmath/XMFLOAT3X3","dxmath.xmfloat3x3"]
 old-location: dxmath\xmfloat3x3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3X3

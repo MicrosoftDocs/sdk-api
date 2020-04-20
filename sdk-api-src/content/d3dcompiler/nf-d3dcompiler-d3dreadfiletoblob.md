@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcompiler.D3DReadFileToBlob
 title: D3DReadFileToBlob function (d3dcompiler.h)
-description: Reads a file that is on disk into memory.
+description: Reads a file that is on disk into memory.helpviewer_keywords: ["D3DReadFileToBlob","D3DReadFileToBlob function [HLSL]","d3dcompiler/D3DReadFileToBlob","direct3dhlsl.d3dreadfiletoblob"]
 old-location: direct3dhlsl\d3dreadfiletoblob.htm
 tech.root: direct3dhlsl
 ms.assetid: 7CFB1BA6-7C36-4BDB-9705-781CCC2E7DB2

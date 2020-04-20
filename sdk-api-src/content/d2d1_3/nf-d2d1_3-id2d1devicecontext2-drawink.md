@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.DrawInk
 title: ID2D1DeviceContext2::DrawInk (d2d1_3.h)
-description: Renders the given ink object using the given brush and ink style.
+description: Renders the given ink object using the given brush and ink style.helpviewer_keywords: ["DrawInk","DrawInk method [Direct2D]","DrawInk method [Direct2D]","ID2D1DeviceContext2 interface","ID2D1DeviceContext2 interface [Direct2D]","DrawInk method","ID2D1DeviceContext2.DrawInk","ID2D1DeviceContext2::DrawInk","d2d1_3/ID2D1DeviceContext2::DrawInk","direct2d.id2d1devicecontext2_drawink"]
 old-location: direct2d\id2d1devicecontext2_drawink.htm
 tech.root: Direct2D
 ms.assetid: d7c27267-c0c3-d21c-7980-3d92396509c7

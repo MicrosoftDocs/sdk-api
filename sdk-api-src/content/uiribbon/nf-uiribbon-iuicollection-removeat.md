@@ -1,7 +1,7 @@
 ---
 UID: NF:uiribbon.IUICollection.RemoveAt
 title: IUICollection::RemoveAt (uiribbon.h)
-description: Removes an item from the IUICollection at the specified index.
+description: Removes an item from the IUICollection at the specified index.helpviewer_keywords: ["IUICollection interface [Windows Ribbon]","RemoveAt method","IUICollection.RemoveAt","IUICollection::RemoveAt","RemoveAt","RemoveAt method [Windows Ribbon]","RemoveAt method [Windows Ribbon]","IUICollection interface","scenicintent_IUICollection_RemoveAt","uiribbon/IUICollection::RemoveAt","windowsribbon.windowsribbon_iuicollection_removeat"]
 old-location: windowsribbon\windowsribbon_iuicollection_removeat.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\removeat.htm

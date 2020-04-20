@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.TreeView_GetFirstVisible
 title: TreeView_GetFirstVisible macro (commctrl.h)
-description: Retrieves the first visible item in a tree-view control window. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_FIRSTVISIBLE flag.
+description: Retrieves the first visible item in a tree-view control window. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_FIRSTVISIBLE flag.helpviewer_keywords: ["TreeView_GetFirstVisible","TreeView_GetFirstVisible macro [Windows Controls]","_win32_TreeView_GetFirstVisible","_win32_TreeView_GetFirstVisible_cpp","commctrl/TreeView_GetFirstVisible","controls.TreeView_GetFirstVisible","controls._win32_TreeView_GetFirstVisible"]
 old-location: controls\TreeView_GetFirstVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getfirstvisible.htm

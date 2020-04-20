@@ -1,7 +1,7 @@
 ---
 UID: NS:winml.WINML_IMAGE_VARIABLE_DESC
 title: WINML_IMAGE_VARIABLE_DESC (winml.h)
-description: Contains properties for the image variable description.
+description: Contains properties for the image variable description.helpviewer_keywords: ["MachineLearning.winml_image_variable_desc","PWINML_IMAGE_VARIABLE_DESC","PWINML_IMAGE_VARIABLE_DESC structure pointer","WINML_IMAGE_VARIABLE_DESC","WINML_IMAGE_VARIABLE_DESC structure","winml/PWINML_IMAGE_VARIABLE_DESC","winml/WINML_IMAGE_VARIABLE_DESC"]
 old-location: machinelearning\winml_image_variable_desc.htm
 tech.root: MachineLearning
 ms.assetid: 82EE6D9B-08C4-4128-BE8A-DF922AA7318E

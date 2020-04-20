@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.GetDDrawSurface
 title: IDDrawExclModeVideo::GetDDrawSurface (strmif.h)
-description: The GetDDrawSurface method retrieves the DirectDraw surface being used by the Overlay Mixer.
+description: The GetDDrawSurface method retrieves the DirectDraw surface being used by the Overlay Mixer.helpviewer_keywords: ["GetDDrawSurface","GetDDrawSurface method [DirectShow]","GetDDrawSurface method [DirectShow]","IDDrawExclModeVideo interface","IDDrawExclModeVideo interface [DirectShow]","GetDDrawSurface method","IDDrawExclModeVideo.GetDDrawSurface","IDDrawExclModeVideo::GetDDrawSurface","IDDrawExclModeVideoGetDDrawSurface","dshow.iddrawexclmodevideo_getddrawsurface","strmif/IDDrawExclModeVideo::GetDDrawSurface"]
 old-location: dshow\iddrawexclmodevideo_getddrawsurface.htm
 tech.root: DirectShow
 ms.assetid: 0fb29af3-5f6f-4502-8785-72c64f72fec4

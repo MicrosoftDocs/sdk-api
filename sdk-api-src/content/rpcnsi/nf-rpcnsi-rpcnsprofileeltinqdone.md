@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltInqDone
 title: RpcNsProfileEltInqDone function (rpcnsi.h)
-description: The RpcNsProfileEltInqDone function deletes the inquiry context for viewing the elements in a profile.
+description: The RpcNsProfileEltInqDone function deletes the inquiry context for viewing the elements in a profile.helpviewer_keywords: ["RpcNsProfileEltInqDone","RpcNsProfileEltInqDone function [RPC]","_rpc_rpcnsprofileeltinqdone","rpc.rpcnsprofileeltinqdone","rpcnsi/RpcNsProfileEltInqDone"]
 old-location: rpc\rpcnsprofileeltinqdone.htm
 tech.root: Rpc
 ms.assetid: 957cdfb6-2b5a-4339-8197-897999df5ea0

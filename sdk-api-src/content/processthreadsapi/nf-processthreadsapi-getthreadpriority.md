@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.GetThreadPriority
 title: GetThreadPriority function (processthreadsapi.h)
-description: Retrieves the priority value for the specified thread. This value, together with the priority class of the thread's process, determines the thread's base-priority level.
+description: Retrieves the priority value for the specified thread. This value, together with the priority class of the thread's process, determines the thread's base-priority level.helpviewer_keywords: ["GetThreadPriority","GetThreadPriority function","_win32_getthreadpriority","base.getthreadpriority","processthreadsapi/GetThreadPriority","winbase/GetThreadPriority"]
 old-location: base\getthreadpriority.htm
 tech.root: ProcThread
 ms.assetid: 9e5ce4e8-bdd1-48c3-aa1d-b24b2b7bfb00

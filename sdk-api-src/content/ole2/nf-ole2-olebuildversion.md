@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleBuildVersion
 title: OleBuildVersion function (ole2.h)
-description: This function is obsolete.
+description: This function is obsolete.helpviewer_keywords: ["OleBuildVersion","OleBuildVersion function [COM]","com.olebuildversion","ole2/OleBuildVersion"]
 old-location: com\olebuildversion.htm
 tech.root: com
 ms.assetid: 5715CF82-7598-4D04-8EC8-BB27582A739E

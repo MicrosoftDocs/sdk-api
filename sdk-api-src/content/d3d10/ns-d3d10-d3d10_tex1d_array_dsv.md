@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_TEX1D_ARRAY_DSV
 title: D3D10_TEX1D_ARRAY_DSV (d3d10.h)
-description: Specifies the subresource(s) from an array of 1D textures to use in a depth-stencil view.
+description: Specifies the subresource(s) from an array of 1D textures to use in a depth-stencil view.helpviewer_keywords: ["6ec1c875-1c8a-b908-390d-b6e25b6557b8","D3D10_TEX1D_ARRAY_DSV","D3D10_TEX1D_ARRAY_DSV structure [Direct3D 10]","d3d10/D3D10_TEX1D_ARRAY_DSV","direct3d10.d3d10_tex1d_array_dsv"]
 old-location: direct3d10\d3d10_tex1d_array_dsv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_array_dsv.htm

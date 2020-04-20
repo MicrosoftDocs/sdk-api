@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDevices
 title: IPortableDeviceManager::GetDevices (portabledeviceapi.h)
-description: Retrieves a list of portable devices connected to the computer.
+description: Retrieves a list of portable devices connected to the computer.helpviewer_keywords: ["GetDevices","GetDevices method [Windows Portable Devices SDK]","GetDevices method [Windows Portable Devices SDK]","IPortableDeviceManager interface","IPortableDeviceManager interface [Windows Portable Devices SDK]","GetDevices method","IPortableDeviceManager.GetDevices","IPortableDeviceManager::GetDevices","IPortableDeviceManagerGetDevices","portabledeviceapi/IPortableDeviceManager::GetDevices","wpdsdk.iportabledevicemanager_getdevices"]
 old-location: wpdsdk\iportabledevicemanager_getdevices.htm
 tech.root: wpd_sdk
 ms.assetid: 5061b3c0-8b93-480d-b1c6-0a6b616a2c8d

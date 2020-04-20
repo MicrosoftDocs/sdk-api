@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorUpdateInnerMethodParams
 title: EapMethodAuthenticatorUpdateInnerMethodParams function (eapmethodauthenticatorapis.h)
-description: Updates the EAP authentication session settings previous established by a call to EapMethodAuthenticatorBeginSession from the server EAPHost.
+description: Updates the EAP authentication session settings previous established by a call to EapMethodAuthenticatorBeginSession from the server EAPHost.helpviewer_keywords: ["EapMethodAuthenticatorUpdateInnerMethodParams","EapMethodAuthenticatorUpdateInnerMethodParams function [EAPHost]","eaphost.eapmethodauthenticatorupdateinnermethodparams","eapmethodauthenticatorapis/EapMethodAuthenticatorUpdateInnerMethodParams"]
 old-location: eaphost\eapmethodauthenticatorupdateinnermethodparams.htm
 tech.root: eaphost
 ms.assetid: 13ca6504-63c6-4dd6-a3bf-0f3929bc527f

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.LsaAddAccountRights
 title: LsaAddAccountRights function (ntsecapi.h)
-description: Assigns one or more privileges to an account.
+description: Assigns one or more privileges to an account.helpviewer_keywords: ["LsaAddAccountRights","LsaAddAccountRights function [Security]","_lsa_lsaaddaccountrights","ntsecapi/LsaAddAccountRights","security.lsaaddaccountrights"]
 old-location: security\lsaaddaccountrights.htm
 tech.root: SecMgmt
 ms.assetid: 66b78404-02c2-48e9-92c3-d27b68f77c23

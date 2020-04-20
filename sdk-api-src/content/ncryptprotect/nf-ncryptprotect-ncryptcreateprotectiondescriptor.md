@@ -1,7 +1,7 @@
 ---
 UID: NF:ncryptprotect.NCryptCreateProtectionDescriptor
 title: NCryptCreateProtectionDescriptor function (ncryptprotect.h)
-description: Retrieves a handle to a protection descriptor object.
+description: Retrieves a handle to a protection descriptor object.helpviewer_keywords: ["NCryptCreateProtectionDescriptor","NCryptCreateProtectionDescriptor function [Security]","ncryptprotect/NCryptCreateProtectionDescriptor","security.ncryptcreateprotectiondescriptor"]
 old-location: security\ncryptcreateprotectiondescriptor.htm
 tech.root: SecCNG
 ms.assetid: BA6B15AC-2CD8-4D9A-817F-65CF9C09D22C

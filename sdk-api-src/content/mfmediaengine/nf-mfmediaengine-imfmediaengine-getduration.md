@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetDuration
 title: IMFMediaEngine::GetDuration (mfmediaengine.h)
-description: Gets the duration of the media resource.
+description: Gets the duration of the media resource.helpviewer_keywords: ["GetDuration","GetDuration method [Media Foundation]","GetDuration method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetDuration method","IMFMediaEngine.GetDuration","IMFMediaEngine::GetDuration","mf.imfmediaengine_getduration","mfmediaengine/IMFMediaEngine::GetDuration"]
 old-location: mf\imfmediaengine_getduration.htm
 tech.root: medfound
 ms.assetid: E5C793A2-7C6F-42D0-B8DE-17F1B62A0352

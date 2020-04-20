@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.GetUnderlinePositionMode
 title: ITextFont2::GetUnderlinePositionMode (tom.h)
-description: Gets the underline position mode.
+description: Gets the underline position mode.helpviewer_keywords: ["GetUnderlinePositionMode","GetUnderlinePositionMode method [Windows Controls]","GetUnderlinePositionMode method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetUnderlinePositionMode method","ITextFont2.GetUnderlinePositionMode","ITextFont2::GetUnderlinePositionMode","controls.itextfont2_getunderlinepositionmode","tom/ITextFont2::GetUnderlinePositionMode"]
 old-location: controls\itextfont2_getunderlinepositionmode.htm
 tech.root: Controls
 ms.assetid: cd7a45be-05b0-4a43-90c8-0fd8393794c0

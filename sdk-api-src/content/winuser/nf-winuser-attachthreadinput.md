@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.AttachThreadInput
 title: AttachThreadInput function (winuser.h)
-description: Attaches or detaches the input processing mechanism of one thread to that of another thread.
+description: Attaches or detaches the input processing mechanism of one thread to that of another thread.helpviewer_keywords: ["AttachThreadInput","AttachThreadInput function","_win32_attachthreadinput","base.attachthreadinput","winuser/AttachThreadInput"]
 old-location: base\attachthreadinput.htm
 tech.root: ProcThread
 ms.assetid: 0c343fab-56ae-4c70-a79e-0c5f827158a3

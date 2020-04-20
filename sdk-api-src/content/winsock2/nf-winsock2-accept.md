@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.accept
 title: accept function (winsock2.h)
-description: The accept function permits an incoming connection attempt on a socket.
+description: The accept function permits an incoming connection attempt on a socket.helpviewer_keywords: ["_win32_accept_2","accept","accept function [Winsock]","winsock.accept_2","winsock2/accept"]
 old-location: winsock\accept_2.htm
 tech.root: WinSock
 ms.assetid: 72246263-4806-4ab2-9b26-89a1782a954b

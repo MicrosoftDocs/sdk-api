@@ -1,7 +1,7 @@
 ---
 UID: NE:virtdisk._MODIFY_VHDSET_VERSION
 title: MODIFY_VHDSET_VERSION (virtdisk.h)
-description: Contains the version of the MODIFY_VHDSET_PARAMETERS structure to use in calls to virtual disk functions.
+description: Contains the version of the MODIFY_VHDSET_PARAMETERS structure to use in calls to virtual disk functions.helpviewer_keywords: ["*PMODIFY_VHDSET_VERSION","MODIFY_VHDSET_DEFAULT_SNAPSHOT_PATH","MODIFY_VHDSET_REMOVE_SNAPSHOT","MODIFY_VHDSET_SNAPSHOT_PATH","MODIFY_VHDSET_UNSPECIFIED","MODIFY_VHDSET_VERSION","MODIFY_VHDSET_VERSION enumeration [VHD]","PMODIFY_VHDSET_VERSION","PMODIFY_VHDSET_VERSION enumeration pointer [VHD]","vdssys/MODIFY_VHDSET_DEFAULT_SNAPSHOT_PATH","vdssys/MODIFY_VHDSET_REMOVE_SNAPSHOT","vdssys/MODIFY_VHDSET_SNAPSHOT_PATH","vdssys/MODIFY_VHDSET_UNSPECIFIED","vdssys/MODIFY_VHDSET_VERSION","vdssys/PMODIFY_VHDSET_VERSION","vhd.modify_vhdset_version","virtdisk/MODIFY_VHDSET_DEFAULT_SNAPSHOT_PATH","virtdisk/MODIFY_VHDSET_REMOVE_SNAPSHOT","virtdisk/MODIFY_VHDSET_SNAPSHOT_PATH","virtdisk/MODIFY_VHDSET_UNSPECIFIED","virtdisk/MODIFY_VHDSET_VERSION","virtdisk/PMODIFY_VHDSET_VERSION"]
 old-location: vhd\modify_vhdset_version.htm
 tech.root: VStor
 ms.assetid: A93E73C9-63B2-49C3-A0E4-63BEC96F449A

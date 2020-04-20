@@ -1,7 +1,7 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_VideoProcessBltHD
 title: PDXVAHDSW_VideoProcessBltHD (dxvahd.h)
-description: Performs a video processing blit.
+description: Performs a video processing blit.helpviewer_keywords: ["PDXVAHDSW_VideoProcessBltHD","PDXVAHDSW_VideoProcessBltHD callback","PDXVAHDSW_VideoProcessBltHD callback function [Media Foundation]","dxvahd/PDXVAHDSW_VideoProcessBltHD","mf.pdxvahdsw_videoprocessblthd"]
 old-location: mf\pdxvahdsw_videoprocessblthd.htm
 tech.root: medfound
 ms.assetid: 94e6b59f-dd00-4d32-b1ca-a592a67cd0ec

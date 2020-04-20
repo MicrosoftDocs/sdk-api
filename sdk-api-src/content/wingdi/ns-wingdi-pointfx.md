@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagPOINTFX
 title: POINTFX (wingdi.h)
-description: The POINTFX structure contains the coordinates of points that describe the outline of a character in a TrueType font.
+description: The POINTFX structure contains the coordinates of points that describe the outline of a character in a TrueType font.helpviewer_keywords: ["*LPPOINTFX","LPPOINTFX","LPPOINTFX structure pointer [Windows GDI]","POINTFX","POINTFX structure [Windows GDI]","_win32_POINTFX_str","gdi.pointfx","wingdi/LPPOINTFX","wingdi/POINTFX"]
 old-location: gdi\pointfx.htm
 tech.root: gdi
 ms.assetid: a8736c6c-7944-42ed-811c-308f41f1ab2f

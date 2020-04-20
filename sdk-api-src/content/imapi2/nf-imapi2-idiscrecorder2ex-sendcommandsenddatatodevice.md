@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.SendCommandSendDataToDevice
 title: IDiscRecorder2Ex::SendCommandSendDataToDevice (imapi2.h)
-description: Sends a MMC command and its associated data buffer to the recording device.
+description: Sends a MMC command and its associated data buffer to the recording device.helpviewer_keywords: ["IDiscRecorder2Ex interface [IMAPI]","SendCommandSendDataToDevice method","IDiscRecorder2Ex.SendCommandSendDataToDevice","IDiscRecorder2Ex::SendCommandSendDataToDevice","SendCommandSendDataToDevice","SendCommandSendDataToDevice method [IMAPI]","SendCommandSendDataToDevice method [IMAPI]","IDiscRecorder2Ex interface","imapi.idiscrecorder2ex_sendcommandsenddatatodevice","imapi2/IDiscRecorder2Ex::SendCommandSendDataToDevice"]
 old-location: imapi\idiscrecorder2ex_sendcommandsenddatatodevice.htm
 tech.root: imapi
 ms.assetid: e893c3d8-1bf8-461e-9792-3b7d6d3beebb

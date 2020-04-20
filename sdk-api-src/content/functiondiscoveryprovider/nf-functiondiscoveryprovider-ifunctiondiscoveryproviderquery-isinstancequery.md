@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery.IsInstanceQuery
 title: IFunctionDiscoveryProviderQuery::IsInstanceQuery (functiondiscoveryprovider.h)
-description: Determines whether a query is for a single function instance or multiple function instances.
+description: Determines whether a query is for a single function instance or multiple function instances.helpviewer_keywords: ["IFunctionDiscoveryProviderQuery interface","IsInstanceQuery method","IFunctionDiscoveryProviderQuery.IsInstanceQuery","IFunctionDiscoveryProviderQuery::IsInstanceQuery","IsInstanceQuery","IsInstanceQuery method","IsInstanceQuery method","IFunctionDiscoveryProviderQuery interface","functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsInstanceQuery","ncd.ifunctiondiscoveryproviderquery_isinstancequery"]
 old-location: ncd\ifunctiondiscoveryproviderquery_isinstancequery.htm
 tech.root: FunDisc
 ms.assetid: 5cd4288f-8cb8-451b-b982-4b9dcf31f66a

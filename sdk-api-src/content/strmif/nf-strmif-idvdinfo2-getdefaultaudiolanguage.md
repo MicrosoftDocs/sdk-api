@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDefaultAudioLanguage
 title: IDvdInfo2::GetDefaultAudioLanguage (strmif.h)
-description: The GetDefaultAudioLanguage method retrieves the default audio language.
+description: The GetDefaultAudioLanguage method retrieves the default audio language.helpviewer_keywords: ["GetDefaultAudioLanguage","GetDefaultAudioLanguage method [DirectShow]","GetDefaultAudioLanguage method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDefaultAudioLanguage method","IDvdInfo2.GetDefaultAudioLanguage","IDvdInfo2::GetDefaultAudioLanguage","IDvdInfo2GetDefaultAudioLanguage","dshow.idvdinfo2_getdefaultaudiolanguage","strmif/IDvdInfo2::GetDefaultAudioLanguage"]
 old-location: dshow\idvdinfo2_getdefaultaudiolanguage.htm
 tech.root: DirectShow
 ms.assetid: 89f93521-9df7-4162-bb66-2210cceebc75

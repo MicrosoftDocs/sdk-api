@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetTransformMethod
 title: IOpcSignatureRelationshipReference::GetTransformMethod (msopc.h)
-description: Gets the canonicalization method to use on the relationship markup of the selected relationships when they are signed.
+description: Gets the canonicalization method to use on the relationship markup of the selected relationships when they are signed.helpviewer_keywords: ["GetTransformMethod","GetTransformMethod method [Open Packaging Conventions]","GetTransformMethod method [Open Packaging Conventions]","IOpcSignatureRelationshipReference interface","IOpcSignatureRelationshipReference interface [Open Packaging Conventions]","GetTransformMethod method","IOpcSignatureRelationshipReference.GetTransformMethod","IOpcSignatureRelationshipReference::GetTransformMethod","msopc/IOpcSignatureRelationshipReference::GetTransformMethod","opc.iopcsignaturerelationshipreference_gettransformmethod"]
 old-location: opc\iopcsignaturerelationshipreference_gettransformmethod.htm
 tech.root: OPC
 ms.assetid: 87d85f7e-abf2-4f6f-91b6-36a014cc0f33

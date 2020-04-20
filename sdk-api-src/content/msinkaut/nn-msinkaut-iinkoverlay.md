@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkOverlay
 title: IInkOverlay (msinkaut.h)
-description: .
+description: .helpviewer_keywords: ["IInkOverlay","IInkOverlay interface [Tablet PC]","IInkOverlay interface [Tablet PC]","described","msinkaut/IInkOverlay","tablet.iinkoverlay"]
 old-location: tablet\iinkoverlay.htm
 tech.root: tablet
 ms.assetid: ACE11946-113B-42EE-A3F1-0036B1DF8141

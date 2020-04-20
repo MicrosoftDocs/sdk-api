@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.AllocateForStream
 title: IWMReaderCallbackAdvanced::AllocateForStream (wmsdkidl.h)
-description: The AllocateForStream method allocates user-created buffers for stream samples delivered to IWMReaderCallbackAdvanced::OnStreamSample. For more information about allocating your own buffers, see User Allocated Sample Support.
+description: The AllocateForStream method allocates user-created buffers for stream samples delivered to IWMReaderCallbackAdvanced::OnStreamSample. For more information about allocating your own buffers, see User Allocated Sample Support.helpviewer_keywords: ["AllocateForStream","AllocateForStream method [windows Media Format]","AllocateForStream method [windows Media Format]","IWMReaderCallbackAdvanced interface","IWMReaderCallbackAdvanced interface [windows Media Format]","AllocateForStream method","IWMReaderCallbackAdvanced.AllocateForStream","IWMReaderCallbackAdvanced::AllocateForStream","IWMReaderCallbackAdvancedAllocateForStream","wmformat.iwmreadercallbackadvanced_allocateforstream","wmsdkidl/IWMReaderCallbackAdvanced::AllocateForStream"]
 old-location: wmformat\iwmreadercallbackadvanced_allocateforstream.htm
 tech.root: wmformat
 ms.assetid: 82d31f4b-d8a8-4538-be5e-dd9149e3f420

@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.SelectClipRgn
 title: SelectClipRgn function (wingdi.h)
-description: The SelectClipRgn function selects a region as the current clipping region for the specified device context.
+description: The SelectClipRgn function selects a region as the current clipping region for the specified device context.helpviewer_keywords: ["SelectClipRgn","SelectClipRgn function [Windows GDI]","_win32_SelectClipRgn","gdi.selectcliprgn","wingdi/SelectClipRgn"]
 old-location: gdi\selectcliprgn.htm
 tech.root: gdi
 ms.assetid: 7a4f0b9c-8588-4da8-a030-ed9d8b4ee08d

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_status
 title: IWMPSyncDevice::get_status (wmp.h)
-description: The get_status method retrieves a value that indicates the status of the relationship between Windows Media Player and the device.
+description: The get_status method retrieves a value that indicates the status of the relationship between Windows Media Player and the device.helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","get_status method","IWMPSyncDevice.get_status","IWMPSyncDevice::get_status","IWMPSyncDeviceget_status","get_status","get_status method [Windows Media Player]","get_status method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_get_status","wmp/IWMPSyncDevice::get_status"]
 old-location: wmp\iwmpsyncdevice_get_status.htm
 tech.root: WMP
 ms.assetid: 2b194161-c25c-43d9-90ee-dd25ff61034b

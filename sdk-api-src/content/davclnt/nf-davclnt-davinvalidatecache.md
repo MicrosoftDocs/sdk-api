@@ -1,7 +1,7 @@
 ---
 UID: NF:davclnt.DavInvalidateCache
 title: DavInvalidateCache function (davclnt.h)
-description: Invalidates the contents of the local cache for a remote file on a WebDAV server.
+description: Invalidates the contents of the local cache for a remote file on a WebDAV server.helpviewer_keywords: ["DavInvalidateCache","DavInvalidateCache function [WebDAV]","davclnt/DavInvalidateCache","webdav.davinvalidatecache"]
 old-location: webdav\davinvalidatecache.htm
 tech.root: WebDAV
 ms.assetid: f111b19c-5472-463a-b33d-7d2188d224e8

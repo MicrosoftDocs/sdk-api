@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnServiceActivation.Activate
 title: IMbnServiceActivation::Activate (mbnapi.h)
-description: Send the service activation request to the network.
+description: Send the service activation request to the network.helpviewer_keywords: ["Activate","Activate method [Microsoft Broadband Networks]","Activate method [Microsoft Broadband Networks]","IMbnServiceActivation interface","IMbnServiceActivation interface [Microsoft Broadband Networks]","Activate method","IMbnServiceActivation.Activate","IMbnServiceActivation::Activate","mbn.imbnserviceactivation_activate","mbnapi/IMbnServiceActivation::Activate"]
 old-location: mbn\imbnserviceactivation_activate.htm
 tech.root: mbn
 ms.assetid: 3c131363-9403-4c7a-984d-6602b879c08e

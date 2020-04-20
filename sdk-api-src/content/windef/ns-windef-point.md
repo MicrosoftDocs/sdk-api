@@ -1,7 +1,7 @@
 ---
 UID: NS:windef.tagPOINT
 title: POINT (windef.h)
-description: The POINT structure defines the x- and y-coordinates of a point.
+description: The POINT structure defines the x- and y-coordinates of a point.helpviewer_keywords: ["*LPPOINT","*NPPOINT","*PPOINT","LPPOINT","LPPOINT structure pointer [Display Devices]","NPPOINT","NPPOINT structure pointer [Display Devices]","POINT","POINT structure [Display Devices]","PPOINT","PPOINT structure pointer [Display Devices]","display.point","grstrcts_1a83f2ca-3373-4aa6-b6ec-54c3b6b173f3.xml","windef/LPPOINT","windef/NPPOINT","windef/POINT","windef/PPOINT"]
 old-location: display\point.htm
 tech.root: display
 ms.assetid: 6fb3bd3f-f810-4043-812b-94495f38a6aa

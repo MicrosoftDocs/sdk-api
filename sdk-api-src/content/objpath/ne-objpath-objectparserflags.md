@@ -1,7 +1,7 @@
 ---
 UID: NE:objpath.__unnamed_enum_0
 title: ObjectParserFlags (objpath.h)
-description: Flags used by constructor for CObjectPathParser.
+description: Flags used by constructor for CObjectPathParser.helpviewer_keywords: ["ObjectParserFlags","ObjectParserFlags enumeration [Windows Management Instrumentation]","e_ParserAbsoluteNamespaceOnly","e_ParserAcceptAll","e_ParserAcceptRelativeNamespace","objpath/ObjectParserFlags","objpath/e_ParserAbsoluteNamespaceOnly","objpath/e_ParserAcceptAll","objpath/e_ParserAcceptRelativeNamespace","wmi.objectparserflags"]
 old-location: wmi\objectparserflags.htm
 tech.root: WmiSdk
 ms.assetid: 25e575fc-c8d3-461c-a792-0780ea56612d

@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_31
 title: GenAdspecParams (lpmapi.h)
-description: The GenAdspecParams structure contains general path characterization parameters.
+description: The GenAdspecParams structure contains general path characterization parameters.helpviewer_keywords: ["GenAdspecParams","GenAdspecParams structure [QOS]","lpmapi/GenAdspecParams","qos.genadspecparams"]
 old-location: qos\genadspecparams.htm
 tech.root: QOS
 ms.assetid: 0d980286-bce6-483e-b2a1-117c7280c1c1

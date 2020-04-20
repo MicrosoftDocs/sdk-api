@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDTextLanguageInfo
 title: IDvdInfo2::GetDVDTextLanguageInfo (strmif.h)
-description: The GetDVDTextLanguageInfo method retrieves information about the text strings for a specified language. The method retrieves the number of strings for that language, the locale identifier, and the character set.
+description: The GetDVDTextLanguageInfo method retrieves information about the text strings for a specified language. The method retrieves the number of strings for that language, the locale identifier, and the character set.helpviewer_keywords: ["GetDVDTextLanguageInfo","GetDVDTextLanguageInfo method [DirectShow]","GetDVDTextLanguageInfo method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDVDTextLanguageInfo method","IDvdInfo2.GetDVDTextLanguageInfo","IDvdInfo2::GetDVDTextLanguageInfo","IDvdInfo2GetDVDTextLanguageInfo","dshow.idvdinfo2_getdvdtextlanguageinfo","strmif/IDvdInfo2::GetDVDTextLanguageInfo"]
 old-location: dshow\idvdinfo2_getdvdtextlanguageinfo.htm
 tech.root: DirectShow
 ms.assetid: af8662af-f306-4142-b563-3b40a98b7fbe

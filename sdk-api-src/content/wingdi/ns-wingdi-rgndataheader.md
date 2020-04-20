@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi._RGNDATAHEADER
 title: RGNDATAHEADER (wingdi.h)
-description: The RGNDATAHEADER structure describes the data returned by the GetRegionData function.
+description: The RGNDATAHEADER structure describes the data returned by the GetRegionData function.helpviewer_keywords: ["*PRGNDATAHEADER","PRGNDATAHEADER","PRGNDATAHEADER structure pointer [Windows GDI]","RGNDATAHEADER","RGNDATAHEADER structure [Windows GDI]","_RGNDATAHEADER","_win32_RGNDATAHEADER_str","gdi.rgndataheader","wingdi/PRGNDATAHEADER","wingdi/RGNDATAHEADER"]
 old-location: gdi\rgndataheader.htm
 tech.root: gdi
 ms.assetid: 15990903-8a48-4c47-b527-269d775255a5

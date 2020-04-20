@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.GetIconSize
 title: IImageList::GetIconSize (commoncontrols.h)
-description: Gets the dimensions of images in an image list. All images in an image list have the same dimensions.
+description: Gets the dimensions of images in an image list. All images in an image list have the same dimensions.helpviewer_keywords: ["GetIconSize","GetIconSize method [Windows Controls]","GetIconSize method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","GetIconSize method","IImageList.GetIconSize","IImageList::GetIconSize","comctl_IImageList_GetIconSize","comctl_IImageList_GetIconSize_cpp","commoncontrols/IImageList::GetIconSize","controls.IImageList_GetIconSize","controls.comctl_IImageList_GetIconSize"]
 old-location: controls\IImageList_GetIconSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\geticonsize.htm

@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfMessagePump
 title: ITfMessagePump (msctf.h)
-description: The ITfMessagePump interface is implemented by the TSF manager and is used by an application to obtain messages from the application message queue.
+description: The ITfMessagePump interface is implemented by the TSF manager and is used by an application to obtain messages from the application message queue.helpviewer_keywords: ["ITfMessagePump","ITfMessagePump interface [Text Services Framework]","ITfMessagePump interface [Text Services Framework]","described","_tsf_itfmessagepump_ref","msctf/ITfMessagePump","tsf.itfmessagepump"]
 old-location: tsf\itfmessagepump.htm
 tech.root: TSF
 ms.assetid: f7c3d039-cffc-4ce0-8579-041ba849de6d

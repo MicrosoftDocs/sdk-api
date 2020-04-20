@@ -1,7 +1,7 @@
 ---
 UID: NF:wpcapi.IWPCSettings.GetRestrictions
 title: IWPCSettings::GetRestrictions (wpcapi.h)
-description: Determines whether web restrictions, time limits, or game restrictions are on.
+description: Determines whether web restrictions, time limits, or game restrictions are on.helpviewer_keywords: ["GetRestrictions","GetRestrictions method","GetRestrictions method","IWPCSettings interface","IWPCSettings interface","GetRestrictions method","IWPCSettings.GetRestrictions","IWPCSettings::GetRestrictions","WPCFLAG_APPS_RESTRICTED","WPCFLAG_GAMES_BLOCKED","WPCFLAG_HOURS_RESTRICTED","WPCFLAG_LOGGING_REQUIRED","WPCFLAG_NO_RESTRICTION","WPCFLAG_WEB_FILTERED","parcon.iwpcsettings_getrestrictions","wpcapi/IWPCSettings::GetRestrictions"]
 old-location: parcon\iwpcsettings_getrestrictions.htm
 tech.root: parcon
 ms.assetid: 22350ef3-3068-4d33-a023-74644e5fbb83

@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.IResultDataCompare
 title: IResultDataCompare (mmc.h)
-description: Allows primary snap-ins to compare result items that are displayed in a sorted order in the result pane.
+description: Allows primary snap-ins to compare result items that are displayed in a sorted order in the result pane.helpviewer_keywords: ["IResultDataCompare","IResultDataCompare interface [MMC]","IResultDataCompare interface [MMC]","described","_slate_iresultdatacompare","mmc.iresultdatacompare","mmc/IResultDataCompare"]
 old-location: mmc\iresultdatacompare.htm
 tech.root: mmc
 ms.assetid: 7a68713c-2de5-4944-a617-0b2d46c23eea

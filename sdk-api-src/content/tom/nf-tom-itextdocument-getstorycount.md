@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument.GetStoryCount
 title: ITextDocument::GetStoryCount (tom.h)
-description: Gets the count of stories in this document.
+description: Gets the count of stories in this document.helpviewer_keywords: ["GetStoryCount","GetStoryCount method [Windows Controls]","GetStoryCount method [Windows Controls]","ITextDocument interface","ITextDocument interface [Windows Controls]","GetStoryCount method","ITextDocument.GetStoryCount","ITextDocument::GetStoryCount","_win32_ITextDocument_GetStoryCount","_win32_ITextDocument_GetStoryCount_cpp","controls.ITextDocument_GetStoryCount","controls._win32_ITextDocument_GetStoryCount","tom/ITextDocument::GetStoryCount"]
 old-location: controls\ITextDocument_GetStoryCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorycount.htm

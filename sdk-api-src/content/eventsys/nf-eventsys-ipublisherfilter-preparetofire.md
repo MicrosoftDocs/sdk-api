@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IPublisherFilter.PrepareToFire
 title: IPublisherFilter::PrepareToFire (eventsys.h)
-description: Prepares a publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
+description: Prepares a publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.helpviewer_keywords: ["IPublisherFilter interface [COM+]","PrepareToFire method","IPublisherFilter.PrepareToFire","IPublisherFilter::PrepareToFire","PrepareToFire","PrepareToFire method [COM+]","PrepareToFire method [COM+]","IPublisherFilter interface","_cos_IPublisherFilter_PrepareToFire","cos.ipublisherfilter_preparetofire","eventsys/IPublisherFilter::PrepareToFire"]
 old-location: cos\ipublisherfilter_preparetofire.htm
 tech.root: cossdk
 ms.assetid: 78faa83f-ee73-4034-9be1-5576e5a909e3

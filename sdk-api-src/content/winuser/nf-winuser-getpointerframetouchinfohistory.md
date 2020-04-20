@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetPointerFrameTouchInfoHistory
 title: GetPointerFrameTouchInfoHistory function (winuser.h)
-description: Gets the entire frame of touch-based information (including coalesced input frames) for the specified pointers (of type PT_TOUCH) associated with the current message.
+description: Gets the entire frame of touch-based information (including coalesced input frames) for the specified pointers (of type PT_TOUCH) associated with the current message.helpviewer_keywords: ["GetPointerFrameTouchInfoHistory","GetPointerFrameTouchInfoHistory function [Input Messages and Notifications]","inputmsg.getpointerframetouchinfohistory","winuser/GetPointerFrameTouchInfoHistory"]
 old-location: inputmsg\getpointerframetouchinfohistory.htm
 tech.root: InputMsg
 ms.assetid: f2521a67-9850-46e9-bc8b-75bf5b6cc263

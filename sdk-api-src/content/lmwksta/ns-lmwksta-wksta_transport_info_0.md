@@ -1,7 +1,7 @@
 ---
 UID: NS:lmwksta._WKSTA_TRANSPORT_INFO_0
 title: WKSTA_TRANSPORT_INFO_0 (lmwksta.h)
-description: The WKSTA_TRANSPORT_INFO_0 structure contains information about the workstation transport protocol, such as Wide Area Network (WAN) or NetBIOS.
+description: The WKSTA_TRANSPORT_INFO_0 structure contains information about the workstation transport protocol, such as Wide Area Network (WAN) or NetBIOS.helpviewer_keywords: ["*LPWKSTA_TRANSPORT_INFO_0","*PWKSTA_TRANSPORT_INFO_0","LPWKSTA_TRANSPORT_INFO_0","LPWKSTA_TRANSPORT_INFO_0 structure pointer [Network Management]","PWKSTA_TRANSPORT_INFO_0","PWKSTA_TRANSPORT_INFO_0 structure pointer [Network Management]","WKSTA_TRANSPORT_INFO_0","WKSTA_TRANSPORT_INFO_0 structure [Network Management]","_win32_wksta_transport_info_0_str","lmwksta/LPWKSTA_TRANSPORT_INFO_0","lmwksta/PWKSTA_TRANSPORT_INFO_0","lmwksta/WKSTA_TRANSPORT_INFO_0","netmgmt.wksta_transport_info_0_str"]
 old-location: netmgmt\wksta_transport_info_0_str.htm
 tech.root: NetMgmt
 ms.assetid: e7afe2a3-f729-4fd5-afc3-d3ffbd09e884

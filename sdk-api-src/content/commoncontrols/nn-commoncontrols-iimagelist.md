@@ -1,7 +1,7 @@
 ---
 UID: NN:commoncontrols.IImageList
 title: IImageList (commoncontrols.h)
-description: Exposes methods that manipulate and interact with image lists.
+description: Exposes methods that manipulate and interact with image lists.helpviewer_keywords: ["IImageList","IImageList interface [Windows Controls]","IImageList interface [Windows Controls]","described","comctl_IImageList","comctl_IImageList_cpp","commoncontrols/IImageList","controls.IImageList","controls.comctl_IImageList"]
 old-location: controls\IImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\iimagelist.htm

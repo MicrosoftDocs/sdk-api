@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateColorTransformer
 title: IWICImagingFactory::CreateColorTransformer (wincodec.h)
-description: Creates a new instance of the IWICColorTransform class.
+description: Creates a new instance of the IWICColorTransform class.helpviewer_keywords: ["CreateColorTransformer","CreateColorTransformer method [Windows Imaging Component]","CreateColorTransformer method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateColorTransformer method","IWICImagingFactory.CreateColorTransformer","IWICImagingFactory::CreateColorTransformer","_wic_codec_iwicimagingfactory_createcolortransformer","wic._wic_codec_iwicimagingfactory_createcolortransformer","wincodec/IWICImagingFactory::CreateColorTransformer"]
 old-location: wic\_wic_codec_iwicimagingfactory_createcolortransformer.htm
 tech.root: wic
 ms.assetid: 1cbe7987-2845-4d12-92f4-fcdd4ae6f370

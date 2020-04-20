@@ -1,7 +1,7 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetInternalCompBufferInfo
 title: IAMVideoAccelerator::GetInternalCompBufferInfo (videoacc.h)
-description: The GetInternalCompBufferInfo method gets information about the compressed buffers used for DirectX Video Acceleration (DXVA) decoding.
+description: The GetInternalCompBufferInfo method gets information about the compressed buffers used for DirectX Video Acceleration (DXVA) decoding.helpviewer_keywords: ["GetInternalCompBufferInfo","GetInternalCompBufferInfo method [DirectShow]","GetInternalCompBufferInfo method [DirectShow]","IAMVideoAccelerator interface","IAMVideoAccelerator interface [DirectShow]","GetInternalCompBufferInfo method","IAMVideoAccelerator.GetInternalCompBufferInfo","IAMVideoAccelerator::GetInternalCompBufferInfo","IAMVideoAcceleratorGetInternalCompBufferInfo","dshow.iamvideoaccelerator_getinternalcompbufferinfo","videoacc/IAMVideoAccelerator::GetInternalCompBufferInfo"]
 old-location: dshow\iamvideoaccelerator_getinternalcompbufferinfo.htm
 tech.root: DirectShow
 ms.assetid: b60c6bf7-6cb6-4a82-bec4-7f1662d4ee95

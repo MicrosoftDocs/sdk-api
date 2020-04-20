@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorRedGreenOrBlueGain
 title: SetMonitorRedGreenOrBlueGain function (highlevelmonitorconfigurationapi.h)
-description: Sets a monitor's red, green, or blue gain value.
+description: Sets a monitor's red, green, or blue gain value.helpviewer_keywords: ["SetMonitorRedGreenOrBlueGain","SetMonitorRedGreenOrBlueGain function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueGain","monitor.setmonitorredgreenorbluegain"]
 old-location: monitor\setmonitorredgreenorbluegain.htm
 tech.root: Monitor
 ms.assetid: e8814478-1129-421e-999c-f59321db69b9

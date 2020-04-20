@@ -1,7 +1,7 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Validate
 title: INetDiagHelper::Validate (ndhelper.h)
-description: Called by NDF after a repair is successfully completed.
+description: Called by NDF after a repair is successfully completed.helpviewer_keywords: ["INetDiagHelper interface [NDF]","Validate method","INetDiagHelper.Validate","INetDiagHelper::Validate","Validate","Validate method [NDF]","Validate method [NDF]","INetDiagHelper interface","ndf.inetdiaghelpe_validate","ndhelper/INetDiagHelper::Validate"]
 old-location: ndf\inetdiaghelpe_validate.htm
 tech.root: NDF
 ms.assetid: 2faab163-5684-4b10-b62d-7e22d5b789a8

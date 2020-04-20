@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetSurroundColorCount
 title: PathGradientBrush::GetSurroundColorCount (gdipluspath.h)
-description: The PathGradientBrush::GetSurroundColorCount method gets the number of colors that have been specified for the boundary path of this path gradient brush.
+description: The PathGradientBrush::GetSurroundColorCount method gets the number of colors that have been specified for the boundary path of this path gradient brush.helpviewer_keywords: ["GetSurroundColorCount","GetSurroundColorCount method [GDI+]","GetSurroundColorCount method [GDI+]","PathGradientBrush class","PathGradientBrush class [GDI+]","GetSurroundColorCount method","PathGradientBrush.GetSurroundColorCount","PathGradientBrush::GetSurroundColorCount","_gdiplus_CLASS_PathGradientBrush_GetSurroundColorCount_","gdiplus._gdiplus_CLASS_PathGradientBrush_GetSurroundColorCount_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetSurroundColorCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getsurroundcolorcount.htm

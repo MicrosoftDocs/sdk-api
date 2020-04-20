@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.SharePrinters
 title: ISharingConfigurationManager::SharePrinters (shobjidl_core.h)
-description: Shares all local printers connected to a computer, enabling them to be discovered by other computers on the network.
+description: Shares all local printers connected to a computer, enabling them to be discovered by other computers on the network.helpviewer_keywords: ["ISharingConfigurationManager interface [Windows Shell]","SharePrinters method","ISharingConfigurationManager.SharePrinters","ISharingConfigurationManager::SharePrinters","SharePrinters","SharePrinters method [Windows Shell]","SharePrinters method [Windows Shell]","ISharingConfigurationManager interface","_shell_ISharingConfigurationManager_SharePrinters","shell.ISharingConfigurationManager_SharePrinters","shobjidl_core/ISharingConfigurationManager::SharePrinters"]
 old-location: shell\ISharingConfigurationManager_SharePrinters.htm
 tech.root: shell
 ms.assetid: bc8d3b2b-88b6-4c2d-a3c2-94bba245708c

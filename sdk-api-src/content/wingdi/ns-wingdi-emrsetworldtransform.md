@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRSETWORLDTRANSFORM
 title: EMRSETWORLDTRANSFORM (wingdi.h)
-description: The EMRSETWORLDTRANSFORM structure contains members for the SetWorldTransform enhanced metafile record.
+description: The EMRSETWORLDTRANSFORM structure contains members for the SetWorldTransform enhanced metafile record.helpviewer_keywords: ["*PEMRSETWORLDTRANSFORM","EMRSETWORLDTRANSFORM","EMRSETWORLDTRANSFORM structure [Windows GDI]","PEMRSETWORLDTRANSFORM","PEMRSETWORLDTRANSFORM structure pointer [Windows GDI]","_win32_EMRSETWORLDTRANSFORM_str","gdi.emrsetworldtransform","wingdi/EMRSETWORLDTRANSFORM","wingdi/PEMRSETWORLDTRANSFORM"]
 old-location: gdi\emrsetworldtransform.htm
 tech.root: gdi
 ms.assetid: 08e5e272-22b5-4097-a293-f5a1fd865edf

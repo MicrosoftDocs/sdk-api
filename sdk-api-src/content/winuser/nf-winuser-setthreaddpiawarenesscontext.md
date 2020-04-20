@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetThreadDpiAwarenessContext
 title: SetThreadDpiAwarenessContext function (winuser.h)
-description: Set the DPI awareness for the current thread to the provided value.
+description: Set the DPI awareness for the current thread to the provided value.helpviewer_keywords: ["SetThreadDpiAwarenessContext","SetThreadDpiAwarenessContext function [High DPI]","hidpi.setthreaddpiawarenesscontext","winuser/SetThreadDpiAwarenessContext"]
 old-location: hidpi\setthreaddpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: 95531BDC-3D45-4BB6-8C63-0D845C66B88F

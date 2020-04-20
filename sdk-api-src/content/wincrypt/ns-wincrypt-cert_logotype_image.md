@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_LOGOTYPE_IMAGE
 title: CERT_LOGOTYPE_IMAGE (wincrypt.h)
-description: Contains information about an image logotype.
+description: Contains information about an image logotype.helpviewer_keywords: ["*PCERT_LOGOTYPE_IMAGE","CERT_LOGOTYPE_IMAGE","CERT_LOGOTYPE_IMAGE structure [Security]","PCERT_LOGOTYPE_IMAGE","PCERT_LOGOTYPE_IMAGE structure pointer [Security]","security.cert_logotype_image","wincrypt/CERT_LOGOTYPE_IMAGE","wincrypt/PCERT_LOGOTYPE_IMAGE"]
 old-location: security\cert_logotype_image.htm
 tech.root: SecCrypto
 ms.assetid: d1dff71c-41e1-4f02-93b4-019d688ed012

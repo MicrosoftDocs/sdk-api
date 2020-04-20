@@ -1,7 +1,7 @@
 ---
 UID: NN:objectarray.IObjectCollection
 title: IObjectCollection (objectarray.h)
-description: Extends the IObjectArray interface by providing methods that enable clients to add and remove objects that support IUnknown in a collection.
+description: Extends the IObjectArray interface by providing methods that enable clients to add and remove objects that support IUnknown in a collection.helpviewer_keywords: ["IObjectCollection","IObjectCollection interface [Windows Shell]","IObjectCollection interface [Windows Shell]","described","_shell_IObjectCollection","objectarray/IObjectCollection","shell.IObjectCollection"]
 old-location: shell\IObjectCollection.htm
 tech.root: shell
 ms.assetid: d7665b26-5839-4b08-a099-ef25a68c65db

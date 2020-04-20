@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdtypes._WSD_SOAP_MESSAGE
 title: WSD_SOAP_MESSAGE (wsdtypes.h)
-description: The contents of a WSD SOAP message.
+description: The contents of a WSD SOAP message.helpviewer_keywords: ["WSD_SOAP_MESSAGE","WSD_SOAP_MESSAGE structure","ncd.wsd_soap_message_struct","wsdtypes/WSD_SOAP_MESSAGE"]
 old-location: ncd\wsd_soap_message_struct.htm
 tech.root: WsdApi
 ms.assetid: e5352a78-3ece-45d3-bf95-2d922065e3d5

@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_3.ID2D1DeviceContext4
 title: ID2D1DeviceContext4 (d2d1_3.h)
-description: This interface performs all the same functions as the ID2D1DeviceContext3 interface, plus it enables functionality for handling new types of color font glyphs.
+description: This interface performs all the same functions as the ID2D1DeviceContext3 interface, plus it enables functionality for handling new types of color font glyphs.helpviewer_keywords: ["ID2D1DeviceContext4","ID2D1DeviceContext4 interface [Direct2D]","ID2D1DeviceContext4 interface [Direct2D]","described","d2d1_3/ID2D1DeviceContext4","direct2d.id2d1devicecontext4"]
 old-location: direct2d\id2d1devicecontext4.htm
 tech.root: Direct2D
 ms.assetid: 59E1F73B-BAD9-4826-BF5B-435E760CC546

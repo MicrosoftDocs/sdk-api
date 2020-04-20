@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_WRITE_MESSAGE_END_CALLBACK
 title: WS_WRITE_MESSAGE_END_CALLBACK (webservices.h)
-description: Handles the WsWriteMessageEnd call for a WS_CUSTOM_CHANNEL_BINDING.
+description: Handles the WsWriteMessageEnd call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_WRITE_MESSAGE_END_CALLBACK","WS_WRITE_MESSAGE_END_CALLBACK callback","WS_WRITE_MESSAGE_END_CALLBACK callback function [Web Services for Windows]","webservices/WS_WRITE_MESSAGE_END_CALLBACK","wsw.ws_write_message_end_callback"]
 old-location: wsw\ws_write_message_end_callback.htm
 tech.root: wsw
 ms.assetid: 308f4df8-6dc3-4b78-a066-3fc6da3155b9

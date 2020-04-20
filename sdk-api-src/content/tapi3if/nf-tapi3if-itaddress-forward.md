@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITAddress.Forward
 title: ITAddress::Forward (tapi3if.h)
-description: The Forward method forwards calls destined for the address according to the forwarding instructions contained in ITForwardInformation. If pForwardInfo is set to NULL, forwarding is canceled.
+description: The Forward method forwards calls destined for the address according to the forwarding instructions contained in ITForwardInformation. If pForwardInfo is set to NULL, forwarding is canceled.helpviewer_keywords: ["Forward","Forward method [TAPI 2.2]","Forward method [TAPI 2.2]","ITAddress interface","ITAddress interface [TAPI 2.2]","Forward method","ITAddress.Forward","ITAddress::Forward","_tapi3_itaddress_forward","tapi3.itaddress_forward","tapi3if/ITAddress::Forward"]
 old-location: tapi3\itaddress_forward.htm
 tech.root: Tapi
 ms.assetid: 4f070b50-db9a-49e8-a0f3-e448c5dee144

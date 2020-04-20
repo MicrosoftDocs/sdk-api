@@ -1,7 +1,7 @@
 ---
 UID: NF:authz.AuthzInitializeContextFromSid
 title: AuthzInitializeContextFromSid function (authz.h)
-description: Creates a user-mode client context from a user security identifier (SID).
+description: Creates a user-mode client context from a user security identifier (SID).helpviewer_keywords: ["AUTHZ_COMPUTE_PRIVILEGES","AUTHZ_REQUIRE_S4U_LOGON","AUTHZ_SKIP_TOKEN_GROUPS","AuthzInitializeContextFromSid","AuthzInitializeContextFromSid function [Security]","_win32_authzinitializecontextfromsid","authz/AuthzInitializeContextFromSid","security.authzinitializecontextfromsid"]
 old-location: security\authzinitializecontextfromsid.htm
 tech.root: SecAuthZ
 ms.assetid: 402a8641-5644-45c1-80e9-c60321c1ac38

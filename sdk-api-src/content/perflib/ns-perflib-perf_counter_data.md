@@ -1,7 +1,7 @@
 ---
 UID: NS:perflib._PERF_COUNTER_DATA
 title: PERF_COUNTER_DATA (perflib.h)
-description: Contains information about the PERF_COUNTER_DATA block that contains the structure.
+description: Contains information about the PERF_COUNTER_DATA block that contains the structure.helpviewer_keywords: ["*PPERF_COUNTER_DATA","PERF_COUNTER_DATA","PERF_COUNTER_DATA structure [Perf]","PPERF_COUNTER_DATA","PPERF_COUNTER_DATA structure pointer [Perf]","perf.perf_counter_data","perflib/PERF_COUNTER_DATA","perflib/PPERF_COUNTER_DATA"]
 old-location: perf\perf_counter_data.htm
 tech.root: perfctrs
 ms.assetid: 19D65E98-182E-45CC-946F-F1924CB78029

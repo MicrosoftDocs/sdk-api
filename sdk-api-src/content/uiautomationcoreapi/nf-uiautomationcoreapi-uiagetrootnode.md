@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetRootNode
 title: UiaGetRootNode function (uiautomationcoreapi.h)
-description: Retrieves the root UI Automation node.
+description: Retrieves the root UI Automation node.helpviewer_keywords: ["UiaGetRootNode","UiaGetRootNode function [Windows Accessibility]","uiauto.uiauto_UiaGetRootNodeFunction","uiauto_UiaGetRootNodeFunction","uiautomationcoreapi/UiaGetRootNode","winauto.uiauto_UiaGetRootNodeFunction"]
 old-location: winauto\uiauto_UiaGetRootNodeFunction.htm
 tech.root: WinAuto
 ms.assetid: 14296fec-1b03-408c-ba96-9429107df592

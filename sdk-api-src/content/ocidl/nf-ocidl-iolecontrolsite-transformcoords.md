@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleControlSite.TransformCoords
 title: IOleControlSite::TransformCoords (ocidl.h)
-description: Converts coordinates expressed in HIMETRIC units (as is standard in OLE) to the units specified by the container.
+description: Converts coordinates expressed in HIMETRIC units (as is standard in OLE) to the units specified by the container.helpviewer_keywords: ["IOleControlSite interface [COM]","TransformCoords method","IOleControlSite.TransformCoords","IOleControlSite::TransformCoords","TransformCoords","TransformCoords method [COM]","TransformCoords method [COM]","IOleControlSite interface","XFORMCOORDS_CONTAINERTOHIMETRIC","XFORMCOORDS_EVENTCOMPAT","XFORMCOORDS_HIMETRICTOCONTAINER","XFORMCOORDS_POSITION","XFORMCOORDS_SIZE","_ctrl_iolecontrolsite_transformcoords","com.iolecontrolsite_transformcoords","ocidl/IOleControlSite::TransformCoords"]
 old-location: com\iolecontrolsite_transformcoords.htm
 tech.root: com
 ms.assetid: c7add062-4b42-43be-a982-c881c947f8f0

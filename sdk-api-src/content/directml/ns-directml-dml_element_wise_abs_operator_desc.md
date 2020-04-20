@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_ABS_OPERATOR_DESC
 title: DML_ELEMENT_WISE_ABS_OPERATOR_DESC
-description: Describes a DirectML math operator that performs the element-wise absolute value function f(x) = abs(x * scale + bias), where the scale and bias terms are optional. The absolute value of x is its magnitude without regard to its sign.
+description: Describes a DirectML math operator that performs the element-wise absolute value function f(x) = abs(x * scale + bias), where the scale and bias terms are optional. The absolute value of x is its magnitude without regard to its sign.helpviewer_keywords: ["DML_ELEMENT_WISE_ABS_OPERATOR_DESC","DML_ELEMENT_WISE_ABS_OPERATOR_DESC structure","direct3d12.dml_element_wise_abs_operator_desc","directml/DML_ELEMENT_WISE_ABS_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_abs_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 1B8A06A0-1409-4FF5-85FB-DE2D814A2212

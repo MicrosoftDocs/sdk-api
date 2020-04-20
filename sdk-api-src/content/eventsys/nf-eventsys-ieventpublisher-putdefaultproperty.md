@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventPublisher.PutDefaultProperty
 title: IEventPublisher::PutDefaultProperty (eventsys.h)
-description: Writes a named property and its value to the property bag associated with the event publisher.
+description: Writes a named property and its value to the property bag associated with the event publisher.helpviewer_keywords: ["IEventPublisher interface [COM]","PutDefaultProperty method","IEventPublisher.PutDefaultProperty","IEventPublisher::PutDefaultProperty","PutDefaultProperty","PutDefaultProperty method [COM]","PutDefaultProperty method [COM]","IEventPublisher interface","_com_ieventpublisher_putdefaultproperty","com.ieventpublisher_putdefaultproperty","eventsys/IEventPublisher::PutDefaultProperty"]
 old-location: com\ieventpublisher_putdefaultproperty.htm
 tech.root: com
 ms.assetid: 418f1c16-1b21-4023-b0fc-6e9082b8264e

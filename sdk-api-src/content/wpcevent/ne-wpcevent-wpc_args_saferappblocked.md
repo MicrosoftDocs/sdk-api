@@ -1,7 +1,7 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_SAFERAPPBLOCKED
 title: WPC_ARGS_SAFERAPPBLOCKED (wpcevent.h)
-description: Indicates information about a safer application that is being blocked.
+description: Indicates information about a safer application that is being blocked.helpviewer_keywords: ["WPC_ARGS_SAFERAPPBLOCKED","WPC_ARGS_SAFERAPPBLOCKED enumeration","WPC_ARGS_SAFERAPPBLOCKED_CARGS","WPC_ARGS_SAFERAPPBLOCKED_PATH","WPC_ARGS_SAFERAPPBLOCKED_RULEID","WPC_ARGS_SAFERAPPBLOCKED_TIMESTAMP","WPC_ARGS_SAFERAPPBLOCKED_USERID","parcon.wpc_args_saferappblocked","wpcevent/WPC_ARGS_SAFERAPPBLOCKED","wpcevent/WPC_ARGS_SAFERAPPBLOCKED_CARGS","wpcevent/WPC_ARGS_SAFERAPPBLOCKED_PATH","wpcevent/WPC_ARGS_SAFERAPPBLOCKED_RULEID","wpcevent/WPC_ARGS_SAFERAPPBLOCKED_TIMESTAMP","wpcevent/WPC_ARGS_SAFERAPPBLOCKED_USERID"]
 old-location: parcon\wpc_args_saferappblocked.htm
 tech.root: parcon
 ms.assetid: 8fdc7d09-6bbb-4e0b-82f5-276186312f75

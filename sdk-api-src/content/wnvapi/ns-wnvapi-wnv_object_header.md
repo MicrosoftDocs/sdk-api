@@ -1,7 +1,7 @@
 ---
 UID: NS:wnvapi._WNV_OBJECT_HEADER
 title: WNV_OBJECT_HEADER (wnvapi.h)
-description: Specifies the major version, minor version, and buffer size of the WNV_NOTIFICATION_PARAM structure that is passed to the WnvRequestNotification function.
+description: Specifies the major version, minor version, and buffer size of the WNV_NOTIFICATION_PARAM structure that is passed to the WnvRequestNotification function.helpviewer_keywords: ["*PWNV_OBJECT_HEADER","PWNV_OBJECT_HEADER","PWNV_OBJECT_HEADER structure pointer [Windows Network Virtualization]","WNV_OBJECT_HEADER","WNV_OBJECT_HEADER structure [Windows Network Virtualization]","wnv.wnv_object_header","wnvapi/PWNV_OBJECT_HEADER","wnvapi/WNV_OBJECT_HEADER"]
 old-location: wnv\wnv_object_header.htm
 tech.root: wnv
 ms.assetid: 3D139C56-0224-4120-B308-A33F257DD9DC

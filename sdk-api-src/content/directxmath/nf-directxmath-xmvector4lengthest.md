@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector4LengthEst
 title: XMVector4LengthEst function (directxmath.h)
-description: Estimates the length of a 4D vector.
+description: Estimates the length of a 4D vector.helpviewer_keywords: ["Use DirectX..XMVector4LengthEst","XMVector4LengthEst","XMVector4LengthEst method [DirectX Math Support APIs]","dxmath.xmvector4lengthest"]
 old-location: dxmath\xmvector4lengthest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4LengthEst(XMVECTOR)

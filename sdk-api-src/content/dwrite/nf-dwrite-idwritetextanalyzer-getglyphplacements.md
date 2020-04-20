@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.GetGlyphPlacements
 title: IDWriteTextAnalyzer::GetGlyphPlacements (dwrite.h)
-description: Places glyphs output from the GetGlyphs method according to the font and the writing system's rendering rules.
+description: Places glyphs output from the GetGlyphs method according to the font and the writing system's rendering rules.helpviewer_keywords: ["GetGlyphPlacements","GetGlyphPlacements method [Direct Write]","GetGlyphPlacements method [Direct Write]","IDWriteTextAnalyzer interface","IDWriteTextAnalyzer interface [Direct Write]","GetGlyphPlacements method","IDWriteTextAnalyzer.GetGlyphPlacements","IDWriteTextAnalyzer::GetGlyphPlacements","directwrite.IDWriteTextAnalyzer_GetGlyphPlacements","dwrite/IDWriteTextAnalyzer::GetGlyphPlacements"]
 old-location: directwrite\IDWriteTextAnalyzer_GetGlyphPlacements.htm
 tech.root: DirectWrite
 ms.assetid: 72e9af97-6fd2-4dd0-befc-2e9f809c12a2

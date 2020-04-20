@@ -1,7 +1,7 @@
 ---
 UID: NS:eaptypes._EAP_CONFIG_INPUT_FIELD_DATA
 title: EAP_CONFIG_INPUT_FIELD_DATA (eaptypes.h)
-description: Contains the data associated with a single input field.
+description: Contains the data associated with a single input field.helpviewer_keywords: ["*PEAP_CONFIG_INPUT_FIELD_DATA","EAP_CONFIG_INPUT_FIELD_DATA","EAP_CONFIG_INPUT_FIELD_DATA structure [EAPHost]","EAP_CONFIG_INPUT_FIELD_PROPS_DEFAULT","EAP_CONFIG_INPUT_FIELD_PROPS_NON_DISPLAYABLE","EAP_CONFIG_INPUT_FIELD_PROPS_NON_PERSIST","EAP_UI_INPUT_FIELD_PROPS_DEFAULT","EAP_UI_INPUT_FIELD_PROPS_NON_DISPLAYABLE","EAP_UI_INPUT_FIELD_PROPS_NON_PERSIST","EAP_UI_INPUT_FIELD_PROPS_READ_ONLY","MAX_EAP_CONFIG_INPUT_FIELD_LENGTH","MAX_EAP_CONFIG_INPUT_FIELD_VALUE_LENGTH","PEAP_CONFIG_INPUT_FIELD_DATA","PEAP_CONFIG_INPUT_FIELD_DATA structure pointer [EAPHost]","eaphost.eap_config_input_field_data","eaptypes/EAP_CONFIG_INPUT_FIELD_DATA","eaptypes/PEAP_CONFIG_INPUT_FIELD_DATA"]
 old-location: eaphost\eap_config_input_field_data.htm
 tech.root: eaphost
 ms.assetid: 2b321f26-fb40-44e5-b483-52d85cb54c8c

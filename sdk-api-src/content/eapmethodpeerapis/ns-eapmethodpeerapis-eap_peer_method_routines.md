@@ -1,7 +1,7 @@
 ---
 UID: NS:eapmethodpeerapis._EAP_PEER_METHOD_ROUTINES
 title: EAP_PEER_METHOD_ROUTINES (eapmethodpeerapis.h)
-description: Contains a set of function pointers to the EAPHost Peer Method APIs.
+description: Contains a set of function pointers to the EAPHost Peer Method APIs.helpviewer_keywords: ["EAP_PEER_METHOD_ROUTINES","EAP_PEER_METHOD_ROUTINES structure [EAPHost]","eaphost.eap_peer_method_routines","eapmethodpeerapis/EAP_PEER_METHOD_ROUTINES"]
 old-location: eaphost\eap_peer_method_routines.htm
 tech.root: eaphost
 ms.assetid: fb15d5d0-f27b-4249-bf6f-afc67f6ae7dc

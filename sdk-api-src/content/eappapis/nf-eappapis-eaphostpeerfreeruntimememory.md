@@ -1,7 +1,7 @@
 ---
 UID: NF:eappapis.EapHostPeerFreeRuntimeMemory
 title: EapHostPeerFreeRuntimeMemory function (eappapis.h)
-description: Releases the memory space used during run-time.
+description: Releases the memory space used during run-time.helpviewer_keywords: ["EapHostPeerFreeRuntimeMemory","EapHostPeerFreeRuntimeMemory function [EAPHost]","eaphost.eaphostpeerfreeruntimememory","eappapis/ EapHostPeerFreeRuntimeMemory"]
 old-location: eaphost\eaphostpeerfreeruntimememory.htm
 tech.root: eaphost
 ms.assetid: d27233a0-b41f-43f6-a934-1ab8df8b0581

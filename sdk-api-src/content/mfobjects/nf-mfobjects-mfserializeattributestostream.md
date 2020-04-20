@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.MFSerializeAttributesToStream
 title: MFSerializeAttributesToStream function (mfobjects.h)
-description: Writes the contents of an attribute store to a stream.
+description: Writes the contents of an attribute store to a stream.helpviewer_keywords: ["MFSerializeAttributesToStream","MFSerializeAttributesToStream function [Media Foundation]","b8bc88e5-19ae-46b3-aa78-a00afee1f481","mf.mfserializeattributestostream","mfobjects/MFSerializeAttributesToStream"]
 old-location: mf\mfserializeattributestostream.htm
 tech.root: medfound
 ms.assetid: b8bc88e5-19ae-46b3-aa78-a00afee1f481

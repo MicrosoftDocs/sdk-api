@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICDdsFrameDecode.CopyBlocks
 title: IWICDdsFrameDecode::CopyBlocks (wincodec.h)
-description: Requests pixel data as it is natively stored within the DDS file.
+description: Requests pixel data as it is natively stored within the DDS file.helpviewer_keywords: ["CopyBlocks","CopyBlocks method [Windows Imaging Component]","CopyBlocks method [Windows Imaging Component]","IWICDdsFrameDecode interface","IWICDdsFrameDecode interface [Windows Imaging Component]","CopyBlocks method","IWICDdsFrameDecode.CopyBlocks","IWICDdsFrameDecode::CopyBlocks","wic.iwicddsframedecode_copyblocks","wincodec/IWICDdsFrameDecode::CopyBlocks"]
 old-location: wic\iwicddsframedecode_copyblocks.htm
 tech.root: wic
 ms.assetid: D090AA8E-46F2-40C9-A156-12038053E040

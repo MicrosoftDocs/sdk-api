@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleImplementation.SaveProperties
 title: IFsrmStorageModuleImplementation::SaveProperties (fsrmpipeline.h)
-description: Instructs the storage module to save properties associated with a file.
+description: Instructs the storage module to save properties associated with a file.helpviewer_keywords: ["IFsrmStorageModuleImplementation interface [File Server Resource Manager]","SaveProperties method","IFsrmStorageModuleImplementation.SaveProperties","IFsrmStorageModuleImplementation::SaveProperties","SaveProperties","SaveProperties method [File Server Resource Manager]","SaveProperties method [File Server Resource Manager]","IFsrmStorageModuleImplementation interface","fs.ifsrmstoragemoduleimplementation_saveproperties","fsrm.ifsrmstoragemoduleimplementation_saveproperties","fsrmpipeline/IFsrmStorageModuleImplementation::SaveProperties"]
 old-location: fsrm\ifsrmstoragemoduleimplementation_saveproperties.htm
 tech.root: fsrm
 ms.assetid: 4d31db26-9d03-46f3-a902-401f9e0d9767

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Brush.GetOpacity
 title: ID2D1Brush::GetOpacity (d2d1.h)
-description: Gets the degree of opacity of this brush.
+description: Gets the degree of opacity of this brush.helpviewer_keywords: ["GetOpacity","GetOpacity method [Direct2D]","GetOpacity method [Direct2D]","ID2D1Brush interface","ID2D1Brush interface [Direct2D]","GetOpacity method","ID2D1Brush.GetOpacity","ID2D1Brush::GetOpacity","d2d1/ID2D1Brush::GetOpacity","direct2d.ID2D1Brush_GetOpacity"]
 old-location: direct2d\ID2D1Brush_GetOpacity.htm
 tech.root: Direct2D
 ms.assetid: 1a11b36f-96c3-46fb-9fae-721edb097ad7

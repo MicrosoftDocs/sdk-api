@@ -1,7 +1,7 @@
 ---
 UID: NF:usp10.ScriptPlace
 title: ScriptPlace function (usp10.h)
-description: Generates glyph advance width and two-dimensional offset information from the output of ScriptShape.
+description: Generates glyph advance width and two-dimensional offset information from the output of ScriptShape.helpviewer_keywords: ["ScriptPlace","ScriptPlace function [Internationalization for Windows Applications]","_win32_ScriptPlace","intl.scriptplace","usp10/ScriptPlace"]
 old-location: intl\scriptplace.htm
 tech.root: Intl
 ms.assetid: 7f88432f-052f-4781-8346-31c8a0771e51

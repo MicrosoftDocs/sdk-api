@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetBlend
 title: LinearGradientBrush::SetBlend (gdiplusbrush.h)
-description: The LinearGradientBrush::SetBlend method sets the blend factors and the blend positions of this linear gradient brush to create a custom blend.
+description: The LinearGradientBrush::SetBlend method sets the blend factors and the blend positions of this linear gradient brush to create a custom blend.helpviewer_keywords: ["LinearGradientBrush class [GDI+]","SetBlend method","LinearGradientBrush.SetBlend","LinearGradientBrush::SetBlend","SetBlend","SetBlend method [GDI+]","SetBlend method [GDI+]","LinearGradientBrush class","_gdiplus_CLASS_LinearGradientBrush_SetBlend_blendFactors_blendPositions_count_","gdiplus._gdiplus_CLASS_LinearGradientBrush_SetBlend_blendFactors_blendPositions_count_"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetBlend_blendFactors_blendPositions_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setblend.htm

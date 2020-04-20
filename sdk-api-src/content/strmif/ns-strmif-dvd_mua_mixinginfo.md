@@ -1,7 +1,7 @@
 ---
 UID: NS:strmif.tagDVD_MUA_MixingInfo
 title: DVD_MUA_MixingInfo (strmif.h)
-description: The DVD_MUA_MixingInfo structure describes the surround sound mixing information for the channels in one audio stream in a specified title.
+description: The DVD_MUA_MixingInfo structure describes the surround sound mixing information for the channels in one audio stream in a specified title.helpviewer_keywords: ["DVD_MUA_MixingInfo","DVD_MUA_MixingInfo structure [DirectShow]","DVD_MUA_MixingInfoStructure","dshow.dvd_mua_mixinginfo","strmif/DVD_MUA_MixingInfo"]
 old-location: dshow\dvd_mua_mixinginfo.htm
 tech.root: DirectShow
 ms.assetid: df830598-f484-483d-a0dc-e6bd9debbe53

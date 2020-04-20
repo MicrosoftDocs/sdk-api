@@ -1,7 +1,7 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetTime
 title: IAMMediaTypeSample::GetTime (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The GetTime method retrieves the stream times at which the sample should start and stop.
+description: Note  This interface is deprecated. New applications should not use it. The GetTime method retrieves the stream times at which the sample should start and stop.helpviewer_keywords: ["GetTime","GetTime method [DirectShow]","GetTime method [DirectShow]","IAMMediaTypeSample interface","IAMMediaTypeSample interface [DirectShow]","GetTime method","IAMMediaTypeSample.GetTime","IAMMediaTypeSample::GetTime","IAMMediaTypeSampleGetTime","amstream/IAMMediaTypeSample::GetTime","dshow.iammediatypesample_gettime"]
 old-location: dshow\iammediatypesample_gettime.htm
 tech.root: DirectShow
 ms.assetid: ffbbc857-ddcc-4625-b591-b95a256d40ba

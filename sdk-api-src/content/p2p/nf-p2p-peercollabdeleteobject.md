@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabDeleteObject
 title: PeerCollabDeleteObject function (p2p.h)
-description: Deletes a peer object from the calling endpoint.
+description: Deletes a peer object from the calling endpoint.helpviewer_keywords: ["PeerCollabDeleteObject","PeerCollabDeleteObject function [Peer Networking]","p2p.peercollabdeleteobject","p2p/PeerCollabDeleteObject"]
 old-location: p2p\peercollabdeleteobject.htm
 tech.root: P2PSdk
 ms.assetid: 4849f8da-7f8a-4951-94eb-624ee186ec83

@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.GetIfStackTable
 title: GetIfStackTable function (netioapi.h)
-description: Retrieves a table of network interface stack row entries that specify the relationship of the network interfaces on an interface stack.
+description: Retrieves a table of network interface stack row entries that specify the relationship of the network interfaces on an interface stack.helpviewer_keywords: ["GetIfStackTable","GetIfStackTable function [IP Helper]","iphlp.getifstacktable","netioapi/GetIfStackTable"]
 old-location: iphlp\getifstacktable.htm
 tech.root: IpHlp
 ms.assetid: c1b0f091-2aef-447e-9866-a886838a6267

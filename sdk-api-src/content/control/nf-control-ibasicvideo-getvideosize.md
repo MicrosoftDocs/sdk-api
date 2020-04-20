@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IBasicVideo.GetVideoSize
 title: IBasicVideo::GetVideoSize (control.h)
-description: The GetVideoSize method retrieves the native video dimensions.
+description: The GetVideoSize method retrieves the native video dimensions.helpviewer_keywords: ["GetVideoSize","GetVideoSize method [DirectShow]","GetVideoSize method [DirectShow]","IBasicVideo interface","IBasicVideo interface [DirectShow]","GetVideoSize method","IBasicVideo.GetVideoSize","IBasicVideo::GetVideoSize","IBasicVideoGetVideoSize","control/IBasicVideo::GetVideoSize","dshow.ibasicvideo_getvideosize"]
 old-location: dshow\ibasicvideo_getvideosize.htm
 tech.root: DirectShow
 ms.assetid: fbabba8b-b86b-451b-ad06-4454174ee352

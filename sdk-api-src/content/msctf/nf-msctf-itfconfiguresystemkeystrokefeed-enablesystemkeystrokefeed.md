@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed
 title: ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed (msctf.h)
-description: ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed method
+description: ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed methodhelpviewer_keywords: ["EnableSystemKeystrokeFeed","EnableSystemKeystrokeFeed method [Text Services Framework]","EnableSystemKeystrokeFeed method [Text Services Framework]","ITfConfigureSystemKeystrokeFeed interface","ITfConfigureSystemKeystrokeFeed interface [Text Services Framework]","EnableSystemKeystrokeFeed method","ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed","ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed","_tsf_itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed_ref","msctf/ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed","tsf.itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed"]
 old-location: tsf\itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed.htm
 tech.root: TSF
 ms.assetid: 66dc5db3-c4d9-422e-bbc0-300409a9576a

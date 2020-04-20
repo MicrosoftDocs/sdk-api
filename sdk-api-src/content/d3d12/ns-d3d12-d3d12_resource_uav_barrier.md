@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_RESOURCE_UAV_BARRIER
 title: D3D12_RESOURCE_UAV_BARRIER (d3d12.h)
-description: Represents a resource in which all UAV accesses must complete before any future UAV accesses can begin.
+description: Represents a resource in which all UAV accesses must complete before any future UAV accesses can begin.helpviewer_keywords: ["D3D12_RESOURCE_UAV_BARRIER","D3D12_RESOURCE_UAV_BARRIER structure","d3d12/D3D12_RESOURCE_UAV_BARRIER","direct3d12.d3d12_resource_uav_barrier"]
 old-location: direct3d12\d3d12_resource_uav_barrier.htm
 tech.root: direct3d12
 ms.assetid: 683F645F-9A90-4648-99EF-2F7444254B41

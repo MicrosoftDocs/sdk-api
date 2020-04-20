@@ -1,7 +1,7 @@
 ---
 UID: NE:mfapi._MFVideoDRMFlags
 title: MFVideoDRMFlags (mfapi.h)
-description: Specifies the type of copy protection required for a video stream.
+description: Specifies the type of copy protection required for a video stream.helpviewer_keywords: ["6d218992-c1c3-4d83-b364-4c7d3b50474f","MFVideoDRMFlag_AnalogProtected","MFVideoDRMFlag_DigitallyProtected","MFVideoDRMFlag_None","MFVideoDRMFlags","MFVideoDRMFlags enumeration [Media Foundation]","mf.mfvideodrmflags","mfapi/MFVideoDRMFlag_AnalogProtected","mfapi/MFVideoDRMFlag_DigitallyProtected","mfapi/MFVideoDRMFlag_None","mfapi/MFVideoDRMFlags"]
 old-location: mf\mfvideodrmflags.htm
 tech.root: medfound
 ms.assetid: 6d218992-c1c3-4d83-b364-4c7d3b50474f

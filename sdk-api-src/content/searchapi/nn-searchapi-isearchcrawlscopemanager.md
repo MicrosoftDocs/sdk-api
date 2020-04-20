@@ -1,7 +1,7 @@
 ---
 UID: NN:searchapi.ISearchCrawlScopeManager
 title: ISearchCrawlScopeManager (searchapi.h)
-description: Provides methods that notify the search engine of containers to crawl and/or watch, and items under those containers to include or exclude when crawling or watching.
+description: Provides methods that notify the search engine of containers to crawl and/or watch, and items under those containers to include or exclude when crawling or watching.helpviewer_keywords: ["ISearchCrawlScopeManager","ISearchCrawlScopeManager interface [search]","ISearchCrawlScopeManager interface [search]","described","_search_ISearchCrawlScopeManager","search._search_ISearchCrawlScopeManager","searchapi/ISearchCrawlScopeManager"]
 old-location: search\_search_ISearchCrawlScopeManager.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\isearchcrawlscopemanager.htm

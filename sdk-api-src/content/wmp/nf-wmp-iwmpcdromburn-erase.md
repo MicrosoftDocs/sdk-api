@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.erase
 title: IWMPCdromBurn::erase (wmp.h)
-description: The erase method erases the current CD.
+description: The erase method erases the current CD.helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","erase method","IWMPCdromBurn.erase","IWMPCdromBurn::erase","IWMPCdromBurnerase","erase","erase method [Windows Media Player]","erase method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_erase","wmp/IWMPCdromBurn::erase"]
 old-location: wmp\iwmpcdromburn_erase.htm
 tech.root: WMP
 ms.assetid: 93a37f59-4269-4f84-93dc-8350aabd4ebe

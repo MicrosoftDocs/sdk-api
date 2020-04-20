@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.GetServiceMetadata
 title: IWSDServiceProxy::GetServiceMetadata (wsdclient.h)
-description: Retrieves the metadata for the IWSDServiceProxy object.
+description: Retrieves the metadata for the IWSDServiceProxy object.helpviewer_keywords: ["GetServiceMetadata","GetServiceMetadata method","GetServiceMetadata method","IWSDServiceProxy interface","IWSDServiceProxy interface","GetServiceMetadata method","IWSDServiceProxy.GetServiceMetadata","IWSDServiceProxy::GetServiceMetadata","ncd.iwsdserviceproxy_getservicemetadata_method","wsdclient/IWSDServiceProxy::GetServiceMetadata"]
 old-location: ncd\iwsdserviceproxy_getservicemetadata_method.htm
 tech.root: WsdApi
 ms.assetid: 552da68f-6e6a-44b2-8c95-e29bc67de3c2

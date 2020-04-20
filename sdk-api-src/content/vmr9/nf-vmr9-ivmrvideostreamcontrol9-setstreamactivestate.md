@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRVideoStreamControl9.SetStreamActiveState
 title: IVMRVideoStreamControl9::SetStreamActiveState (vmr9.h)
-description: The SetStreamActiveState method activates or inactivates an input stream.
+description: The SetStreamActiveState method activates or inactivates an input stream.helpviewer_keywords: ["IVMRVideoStreamControl9 interface [DirectShow]","SetStreamActiveState method","IVMRVideoStreamControl9.SetStreamActiveState","IVMRVideoStreamControl9::SetStreamActiveState","IVMRVideoStreamControl9SetStreamActiveState","SetStreamActiveState","SetStreamActiveState method [DirectShow]","SetStreamActiveState method [DirectShow]","IVMRVideoStreamControl9 interface","dshow.ivmrvideostreamcontrol9_setstreamactivestate","vmr9/IVMRVideoStreamControl9::SetStreamActiveState"]
 old-location: dshow\ivmrvideostreamcontrol9_setstreamactivestate.htm
 tech.root: DirectShow
 ms.assetid: 2c17a006-f086-49cd-a237-3713fb9bd3f9

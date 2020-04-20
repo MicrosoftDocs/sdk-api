@@ -1,7 +1,7 @@
 ---
 UID: NN:wpcapi.IWindowsParentalControlsCore
 title: IWindowsParentalControlsCore (wpcapi.h)
-description: .
+description: .helpviewer_keywords: ["IWindowsParentalControlsCore","IWindowsParentalControlsCore interface","IWindowsParentalControlsCore interface","described","parcon.iwindowsparentalcontrolscore","wpcapi/IWindowsParentalControlsCore"]
 old-location: parcon\iwindowsparentalcontrolscore.htm
 tech.root: parcon
 ms.assetid: 49F43A0F-5C93-4FEC-870B-17535DE674C5

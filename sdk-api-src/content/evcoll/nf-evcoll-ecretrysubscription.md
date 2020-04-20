@@ -1,7 +1,7 @@
 ---
 UID: NF:evcoll.EcRetrySubscription
 title: EcRetrySubscription function (evcoll.h)
-description: Retries connecting to the event source of a subscription that is not connected.
+description: Retries connecting to the event source of a subscription that is not connected.helpviewer_keywords: ["EcRetrySubscription","EcRetrySubscription function","evcoll/EcRetrySubscription","wec.ecretrysubscription","wes.ecretrysubscription"]
 old-location: wec\ecretrysubscription.htm
 tech.root: WEC
 ms.assetid: 31a9148d-8026-4383-9f31-04b75b4a278d

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio.WinBioAsyncMonitorFrameworkChanges
 title: WinBioAsyncMonitorFrameworkChanges function (winbio.h)
-description: Starts an asynchronous monitor of changes to the biometric framework.
+description: Starts an asynchronous monitor of changes to the biometric framework.helpviewer_keywords: ["WINBIO_FRAMEWORK_CHANGE_UNIT","WinBioAsyncMonitorFrameworkChanges","WinBioAsyncMonitorFrameworkChanges function [Windows Biometric Framework API]","secbiomet.winbioasyncmonitorframeworkchanges","winbio/WinBioAsyncMonitorFrameworkChanges"]
 old-location: secbiomet\winbioasyncmonitorframeworkchanges.htm
 tech.root: SecBioMet
 ms.assetid: 4BA91B17-DA7D-456C-A815-ED25A3C5D74A

@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsSecurityDescriptor.CopySecurityDescriptor
 title: IADsSecurityDescriptor::CopySecurityDescriptor (iads.h)
-description: The IADsSecurityDescriptor::CopySecurityDescriptor method copies an ADSI security descriptor object that holds security data about an object.
+description: The IADsSecurityDescriptor::CopySecurityDescriptor method copies an ADSI security descriptor object that holds security data about an object.helpviewer_keywords: ["CopySecurityDescriptor","CopySecurityDescriptor method [ADSI]","CopySecurityDescriptor method [ADSI]","IADsSecurityDescriptor interface","IADsSecurityDescriptor interface [ADSI]","CopySecurityDescriptor method","IADsSecurityDescriptor.CopySecurityDescriptor","IADsSecurityDescriptor::CopySecurityDescriptor","_ds_iadssecuritydescriptor_copysecuritydescriptor","adsi.iadssecuritydescriptor__copysecuritydescriptor","adsi.iadssecuritydescriptor_copysecuritydescriptor","iads/IADsSecurityDescriptor::CopySecurityDescriptor"]
 old-location: adsi\iadssecuritydescriptor_copysecuritydescriptor.htm
 tech.root: adsi
 ms.assetid: fe30a23a-ccf0-4852-bfcc-9f5a010bd0ec

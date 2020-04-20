@@ -1,7 +1,7 @@
 ---
 UID: NS:minwinbase._EXIT_PROCESS_DEBUG_INFO
 title: EXIT_PROCESS_DEBUG_INFO (minwinbase.h)
-description: Contains the exit code for a terminating process.
+description: Contains the exit code for a terminating process.helpviewer_keywords: ["*LPEXIT_PROCESS_DEBUG_INFO","EXIT_PROCESS_DEBUG_INFO","EXIT_PROCESS_DEBUG_INFO structure","LPEXIT_PROCESS_DEBUG_INFO","LPEXIT_PROCESS_DEBUG_INFO structure pointer","_EXIT_PROCESS_DEBUG_INFO","_win32_exit_process_debug_info_str","base.exit_process_debug_info_str","minwinbase/EXIT_PROCESS_DEBUG_INFO","minwinbase/LPEXIT_PROCESS_DEBUG_INFO"]
 old-location: base\exit_process_debug_info_str.htm
 tech.root: Debug
 ms.assetid: 91a7f4bf-88c7-4a57-b0d0-0d379d967baf

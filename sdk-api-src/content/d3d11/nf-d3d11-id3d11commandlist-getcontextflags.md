@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11CommandList.GetContextFlags
 title: ID3D11CommandList::GetContextFlags (d3d11.h)
-description: Gets the initialization flags associated with the deferred context that created the command list.
+description: Gets the initialization flags associated with the deferred context that created the command list.helpviewer_keywords: ["64bf9914-05c2-c831-c3c4-d1181d8ca907","GetContextFlags","GetContextFlags method [Direct3D 11]","GetContextFlags method [Direct3D 11]","ID3D11CommandList interface","ID3D11CommandList interface [Direct3D 11]","GetContextFlags method","ID3D11CommandList.GetContextFlags","ID3D11CommandList::GetContextFlags","d3d11/ID3D11CommandList::GetContextFlags","direct3d11.id3d11commandlist_getcontextflags"]
 old-location: direct3d11\id3d11commandlist_getcontextflags.htm
 tech.root: direct3d11
 ms.assetid: a3d98f3f-6e66-408e-baee-661afb65c0a4

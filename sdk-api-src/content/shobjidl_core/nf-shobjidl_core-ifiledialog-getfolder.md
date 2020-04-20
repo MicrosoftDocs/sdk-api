@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetFolder
 title: IFileDialog::GetFolder (shobjidl_core.h)
-description: Gets either the folder currently selected in the dialog, or, if the dialog is not currently displayed, the folder that is to be selected when the dialog is opened.
+description: Gets either the folder currently selected in the dialog, or, if the dialog is not currently displayed, the folder that is to be selected when the dialog is opened.helpviewer_keywords: ["GetFolder","GetFolder method [Windows Shell]","GetFolder method [Windows Shell]","IFileDialog interface","IFileDialog interface [Windows Shell]","GetFolder method","IFileDialog.GetFolder","IFileDialog::GetFolder","shell.IFileDialog_GetFolder","shell_IFileDialog_GetFolder","shobjidl_core/IFileDialog::GetFolder"]
 old-location: shell\IFileDialog_GetFolder.htm
 tech.root: shell
 ms.assetid: 424d1507-e42a-43d7-8904-347bfb311dd4

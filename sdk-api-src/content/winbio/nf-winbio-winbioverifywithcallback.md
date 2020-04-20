@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio.WinBioVerifyWithCallback
 title: WinBioVerifyWithCallback function (winbio.h)
-description: Asynchronously captures a biometric sample and determines whether the sample corresponds to the specified user identity.
+description: Asynchronously captures a biometric sample and determines whether the sample corresponds to the specified user identity.helpviewer_keywords: ["WinBioVerifyWithCallback","WinBioVerifyWithCallback function [Windows Biometric Framework API]","secbiomet.winbioverifywithcallback","winbio/WinBioVerifyWithCallback"]
 old-location: secbiomet\winbioverifywithcallback.htm
 tech.root: SecBioMet
 ms.assetid: 4ea03163-062a-4abf-837a-b12b03ada375

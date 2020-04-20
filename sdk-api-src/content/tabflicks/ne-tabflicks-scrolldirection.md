@@ -1,7 +1,7 @@
 ---
 UID: NE:tabflicks.SCROLLDIRECTION
 title: SCROLLDIRECTION (tabflicks.h)
-description: Defines the direction of the scrolling command for a pen flick.
+description: Defines the direction of the scrolling command for a pen flick.helpviewer_keywords: ["79d64632-a0ac-4c1b-83e3-76c9fbd11da9","SCROLLDIRECTION","SCROLLDIRECTION enumeration [Tablet PC]","SCROLLDIRECTION_DOWN","SCROLLDIRECTION_UP","tabflicks/SCROLLDIRECTION","tabflicks/SCROLLDIRECTION_DOWN","tabflicks/SCROLLDIRECTION_UP","tablet.scrolldirection"]
 old-location: tablet\scrolldirection.htm
 tech.root: tablet
 ms.assetid: 79d64632-a0ac-4c1b-83e3-76c9fbd11da9

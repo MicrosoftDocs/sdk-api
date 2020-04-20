@@ -1,7 +1,7 @@
 ---
 UID: NF:relogger.ITraceEvent.GetUserContext
 title: ITraceEvent::GetUserContext (relogger.h)
-description: Retrieves the user context associated with the stream to which the event belongs.
+description: Retrieves the user context associated with the stream to which the event belongs.helpviewer_keywords: ["GetUserContext","GetUserContext method [ETW]","GetUserContext method [ETW]","ITraceEvent interface","ITraceEvent interface [ETW]","GetUserContext method","ITraceEvent.GetUserContext","ITraceEvent::GetUserContext","etw.ievent_getusercontext","relogger/ITraceEvent::GetUserContext"]
 old-location: etw\ievent_getusercontext.htm
 tech.root: ETW
 ms.assetid: 9d4d8abd-b48a-487b-bb73-a6fa48c512c7

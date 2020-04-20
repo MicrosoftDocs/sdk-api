@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagTVSORTCB
 title: TVSORTCB (commctrl.h)
-description: Contains information used to sort child items in a tree-view control. This structure is used with the TVM_SORTCHILDRENCB message. This structure is identical to the TV_SORTCB structure, but it has been renamed to follow current naming conventions.
+description: Contains information used to sort child items in a tree-view control. This structure is used with the TVM_SORTCHILDRENCB message. This structure is identical to the TV_SORTCB structure, but it has been renamed to follow current naming conventions.helpviewer_keywords: ["*LPTVSORTCB","LPTVSORTCB","LPTVSORTCB structure pointer [Windows Controls]","TVSORTCB","TVSORTCB structure [Windows Controls]","_win32_TVSORTCB","_win32_TVSORTCB_cpp","commctrl/LPTVSORTCB","commctrl/TVSORTCB","controls.TVSORTCB","controls._win32_TVSORTCB"]
 old-location: controls\TVSORTCB.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvsortcb.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:rend.ITDirectory.put_DefaultObjectTTL
 title: ITDirectory::put_DefaultObjectTTL (rend.h)
-description: The put_DefaultObjectTTL method sets the default time to live (TTL) value, in seconds, for objects created. Only applies to dynamic servers. The minimum value is 300 seconds.
+description: The put_DefaultObjectTTL method sets the default time to live (TTL) value, in seconds, for objects created. Only applies to dynamic servers. The minimum value is 300 seconds.helpviewer_keywords: ["ITDirectory interface [TAPI 2.2]","put_DefaultObjectTTL method","ITDirectory.put_DefaultObjectTTL","ITDirectory::put_DefaultObjectTTL","_tapi3_itdirectory_put_defaultobjectttl","put_DefaultObjectTTL","put_DefaultObjectTTL method [TAPI 2.2]","put_DefaultObjectTTL method [TAPI 2.2]","ITDirectory interface","rend/ITDirectory::put_DefaultObjectTTL","tapi3.itdirectory_put_defaultobjectttl"]
 old-location: tapi3\itdirectory_put_defaultobjectttl.htm
 tech.root: Tapi
 ms.assetid: aecadd26-648e-43ce-8331-ef4af24567ed

@@ -1,7 +1,7 @@
 ---
 UID: NF:activationregistration.IActivatableClassRegistration.get_Attributes
 title: IActivatableClassRegistration::get_Attributes (activationregistration.h)
-description: Gets the attributes associated with the current activatable class.
+description: Gets the attributes associated with the current activatable class.helpviewer_keywords: ["IActivatableClassRegistration interface [Windows Runtime]","get_Attributes method","IActivatableClassRegistration.get_Attributes","IActivatableClassRegistration::get_Attributes","activationregistration/IActivatableClassRegistration::get_Attributes","get_Attributes","get_Attributes method [Windows Runtime]","get_Attributes method [Windows Runtime]","IActivatableClassRegistration interface","winrt.iactivatableclassregistration_attributes"]
 old-location: winrt\iactivatableclassregistration_attributes.htm
 tech.root: WinRT
 ms.assetid: E058C71F-5F37-4089-89BD-28D8FF7E0711

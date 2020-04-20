@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11TracingDevice
 title: ID3D11TracingDevice (d3d11sdklayers.h)
-description: The tracing device interface sets shader tracking information, which enables accurate logging and playback of shader execution.
+description: The tracing device interface sets shader tracking information, which enables accurate logging and playback of shader execution.helpviewer_keywords: ["ID3D11TracingDevice","ID3D11TracingDevice interface [Direct3D 11]","ID3D11TracingDevice interface [Direct3D 11]","described","d3d11sdklayers/ID3D11TracingDevice","direct3d11.id3d11tracingdevice"]
 old-location: direct3d11\id3d11tracingdevice.htm
 tech.root: direct3d11
 ms.assetid: AE42E2A8-9FEE-4991-B1A0-4C6C04958DE4

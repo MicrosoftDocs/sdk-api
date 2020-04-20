@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11VideoDecoder
 title: ID3D11VideoDecoder (d3d11.h)
-description: Represents a hardware-accelerated video decoder for Microsoft Direct3D 11.
+description: Represents a hardware-accelerated video decoder for Microsoft Direct3D 11.helpviewer_keywords: ["ID3D11VideoDecoder","ID3D11VideoDecoder interface [Media Foundation]","ID3D11VideoDecoder interface [Media Foundation]","described","d3d11/ID3D11VideoDecoder","mf.id3d11videodecoder"]
 old-location: mf\id3d11videodecoder.htm
 tech.root: medfound
 ms.assetid: F25AFA0B-7413-40F0-AFF8-C9B4549305D2

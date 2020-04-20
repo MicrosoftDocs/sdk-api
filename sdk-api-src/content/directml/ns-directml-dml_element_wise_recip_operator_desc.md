@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_RECIP_OPERATOR_DESC
 title: DML_ELEMENT_WISE_RECIP_OPERATOR_DESC
-description: Describes a DirectML math operator that performs a reciprocal function on every element in the input, f(x) = 1 / (x * scale + bias), where the scale and bias terms are optional.
+description: Describes a DirectML math operator that performs a reciprocal function on every element in the input, f(x) = 1 / (x * scale + bias), where the scale and bias terms are optional.helpviewer_keywords: ["DML_ELEMENT_WISE_RECIP_OPERATOR_DESC","DML_ELEMENT_WISE_RECIP_OPERATOR_DESC structure","direct3d12.dml_element_wise_recip_operator_desc","directml/DML_ELEMENT_WISE_RECIP_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_recip_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: B5198895-7F09-4163-8F9E-F23FE0D92724

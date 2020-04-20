@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_SetItemState
 title: ListView_SetItemState macro (commctrl.h)
-description: Changes the state of an item in a list-view control. You can use this macro or send the LVM_SETITEMSTATE message explicitly.
+description: Changes the state of an item in a list-view control. You can use this macro or send the LVM_SETITEMSTATE message explicitly.helpviewer_keywords: ["LVIS_CUT","LVIS_DROPHILITED","LVIS_FOCUSED","LVIS_SELECTED","ListView_SetItemState","ListView_SetItemState macro [Windows Controls]","_win32_ListView_SetItemState","_win32_ListView_SetItemState_cpp","commctrl/ListView_SetItemState","controls.ListView_SetItemState","controls._win32_ListView_SetItemState"]
 old-location: controls\ListView_SetItemState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemstate.htm

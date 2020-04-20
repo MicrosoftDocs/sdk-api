@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertProperty.RemoveFromCertificate
 title: ICertProperty::RemoveFromCertificate (certenroll.h)
-description: Disassociates a property from a certificate.
+description: Disassociates a property from a certificate.helpviewer_keywords: ["ICertProperty interface [Security]","RemoveFromCertificate method","ICertProperty.RemoveFromCertificate","ICertProperty::RemoveFromCertificate","RemoveFromCertificate","RemoveFromCertificate method [Security]","RemoveFromCertificate method [Security]","ICertProperty interface","certenroll/ICertProperty::RemoveFromCertificate","security.icertproperty_removefromcertificate_method"]
 old-location: security\icertproperty_removefromcertificate_method.htm
 tech.root: seccertenroll
 ms.assetid: 9f3e21ec-f537-40ba-84a3-b71c7aa50e84

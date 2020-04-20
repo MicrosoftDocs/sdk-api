@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY
 title: PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY (wincrypt.h)
-description: Imports an already decrypted content encryption key (CEK).
+description: Imports an already decrypted content encryption key (CEK).helpviewer_keywords: ["PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY","PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY callback","PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY callback function [Security]","security.pfn_cmsg_cng_import_content_encrypt_key","wincrypt/PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY"]
 old-location: security\pfn_cmsg_cng_import_content_encrypt_key.htm
 tech.root: SecCrypto
 ms.assetid: cb410582-68bd-43ed-b65f-17a7c1e0800f

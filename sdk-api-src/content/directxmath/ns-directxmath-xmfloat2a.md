@@ -1,7 +1,7 @@
 ---
 UID: NS:directxmath.XMFLOAT2A
 title: XMFLOAT2A
-description: Describes an XMFLOAT2 structure aligned on a 16-byte boundary.
+description: Describes an XMFLOAT2 structure aligned on a 16-byte boundary.helpviewer_keywords: ["XMFLOAT2A"]
 ms.assetid: 9717e83e-b8d8-4855-9e53-e54f946fdd97
 ms.date: 05/20/2019
 ms.keywords: XMFLOAT2A

@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiGetSourcePathW
 title: MsiGetSourcePathW function (msiquery.h)
-description: The MsiGetSourcePath function returns the full source path for a folder in the Directory table.
+description: The MsiGetSourcePath function returns the full source path for a folder in the Directory table.helpviewer_keywords: ["MsiGetSourcePath","MsiGetSourcePath function","MsiGetSourcePathA","MsiGetSourcePathW","_msi_msigetsourcepath","msiquery/MsiGetSourcePath","msiquery/MsiGetSourcePathA","msiquery/MsiGetSourcePathW","setup.msigetsourcepath"]
 old-location: setup\msigetsourcepath.htm
 tech.root: Msi
 ms.assetid: 3cb8c3fa-6f0a-4829-befd-450e58c86962

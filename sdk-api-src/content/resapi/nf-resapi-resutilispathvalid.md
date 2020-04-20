@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilIsPathValid
 title: ResUtilIsPathValid function (resapi.h)
-description: Checks whether a path is syntactically valid.
+description: Checks whether a path is syntactically valid.helpviewer_keywords: ["PRESUTIL_IS_PATH_VALID","PRESUTIL_IS_PATH_VALID function [Failover Cluster]","ResUtilIsPathValid","ResUtilIsPathValid function [Failover Cluster]","_wolf_resutilispathvalid","mscs.resutilispathvalid","resapi/PRESUTIL_IS_PATH_VALID","resapi/ResUtilIsPathValid"]
 old-location: mscs\resutilispathvalid.htm
 tech.root: MsCS
 ms.assetid: 4cc8e0ad-8dbc-409d-b063-9fa26f810aac

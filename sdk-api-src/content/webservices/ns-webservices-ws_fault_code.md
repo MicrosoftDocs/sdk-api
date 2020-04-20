@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_FAULT_CODE
 title: WS_FAULT_CODE (webservices.h)
-description: Represents a fault code.
+description: Represents a fault code.helpviewer_keywords: ["WS_FAULT_CODE","WS_FAULT_CODE structure [Web Services for Windows]","webservices/WS_FAULT_CODE","wsw.ws_fault_code"]
 old-location: wsw\ws_fault_code.htm
 tech.root: wsw
 ms.assetid: 31fb8432-6bf6-475b-81ae-e4b1a797b189

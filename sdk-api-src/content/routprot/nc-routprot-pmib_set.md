@@ -1,7 +1,7 @@
 ---
 UID: NC:routprot.PMIB_SET
 title: PMIB_SET (routprot.h)
-description: The MibSet function passes a SNMP MIB-style Set Request to the routing protocol.
+description: The MibSet function passes a SNMP MIB-style Set Request to the routing protocol.helpviewer_keywords: ["MibSet","PMIB_SET","PMIB_SET callback","PMIB_SET callback function [RAS]","TBD","_mpr_mibset","routprot/PMIB_SET","rras.mibset"]
 old-location: rras\mibset.htm
 tech.root: RRAS
 ms.assetid: f1df3476-f6c5-4f7e-bc86-83e5f8d0cd57

@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_POLICY_MAPPING
 title: CERT_POLICY_MAPPING (wincrypt.h)
-description: Contains a mapping between issuer domain and subject domain policy OIDs.
+description: Contains a mapping between issuer domain and subject domain policy OIDs.helpviewer_keywords: ["*PCERT_POLICY_MAPPING","CERT_POLICY_MAPPING","CERT_POLICY_MAPPING structure [Security]","PCERT_POLICY_MAPPING","PCERT_POLICY_MAPPING structure pointer [Security]","_crypto2_cert_policy_mapping","security.cert_policy_mapping","wincrypt/CERT_POLICY_MAPPING","wincrypt/PCERT_POLICY_MAPPING"]
 old-location: security\cert_policy_mapping.htm
 tech.root: SecCrypto
 ms.assetid: 6270888a-1c61-472d-8ec7-10c24b890220

@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_EAP_AUTHENTICATION0__
 title: IKEEXT_EAP_AUTHENTICATION0 (iketypes.h)
-description: Stores information needed for Extensible Authentication Protocol (EAP) authentication.
+description: Stores information needed for Extensible Authentication Protocol (EAP) authentication.helpviewer_keywords: ["IKEEXT_EAP_AUTHENTICATION0","IKEEXT_EAP_AUTHENTICATION0 structure [Filtering]","IKEEXT_EAP_FLAG_LOCAL_AUTH_ONLY","IKEEXT_EAP_FLAG_REMOTE_AUTH_ONLY","fwp.ikeext_eap_authentication0","iketypes/IKEEXT_EAP_AUTHENTICATION0"]
 old-location: fwp\ikeext_eap_authentication0.htm
 tech.root: fwp
 ms.assetid: 86029526-ea87-4962-b5f5-f535c7034c60

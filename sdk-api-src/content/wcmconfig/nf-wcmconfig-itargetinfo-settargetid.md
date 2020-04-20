@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetTargetID
 title: ITargetInfo::SetTargetID (wcmconfig.h)
-description: Sets the unique identifier associated with current target.
+description: Sets the unique identifier associated with current target.helpviewer_keywords: ["ITargetInfo interface [SMI]","SetTargetID method","ITargetInfo.SetTargetID","ITargetInfo::SetTargetID","SetTargetID","SetTargetID method [SMI]","SetTargetID method [SMI]","ITargetInfo interface","smi.itargetinfo_settargetid","wcmconfig/ITargetInfo::SetTargetID"]
 old-location: smi\itargetinfo_settargetid.htm
 tech.root: SMI
 ms.assetid: 183b1ccd-9244-42d5-a787-617e43a55f64

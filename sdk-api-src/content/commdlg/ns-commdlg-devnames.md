@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagDEVNAMES
 title: DEVNAMES (commdlg.h)
-description: Contains strings that identify the driver, device, and output port names for a printer.
+description: Contains strings that identify the driver, device, and output port names for a printer.helpviewer_keywords: ["*LPDEVNAMES","DEVNAMES","DEVNAMES structure [Dialog Boxes]","LPDEVNAMES","LPDEVNAMES structure pointer [Dialog Boxes]","_win32_DEVNAMES_str","_win32_devnames_str_cpp","commdlg/DEVNAMES","commdlg/LPDEVNAMES","dlgbox.devnames_str","winui._win32_devnames_str"]
 old-location: dlgbox\devnames_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\devnames.htm

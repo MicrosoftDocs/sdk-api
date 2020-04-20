@@ -1,7 +1,7 @@
 ---
 UID: NN:tom.ITextStoryRanges
 title: ITextStoryRanges (tom.h)
-description: The purpose of the ITextStoryRanges interface is to enumerate the stories in an ITextDocument.
+description: The purpose of the ITextStoryRanges interface is to enumerate the stories in an ITextDocument.helpviewer_keywords: ["ITextStoryRanges","ITextStoryRanges interface [Windows Controls]","ITextStoryRanges interface [Windows Controls]","described","_win32_ITextStoryRanges","_win32_ITextStoryRanges_cpp","controls.ITextStoryRanges","controls._win32_ITextStoryRanges","tom/ITextStoryRanges"]
 old-location: controls\ITextStoryRanges.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextstoryranges.htm

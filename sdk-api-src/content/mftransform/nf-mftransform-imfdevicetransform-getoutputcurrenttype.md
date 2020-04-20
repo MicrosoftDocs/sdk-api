@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetOutputCurrentType
 title: IMFDeviceTransform::GetOutputCurrentType (mftransform.h)
-description: The GetOutputCurrentType method gets the current media type for an output stream on this Media Foundation transform (MFT).
+description: The GetOutputCurrentType method gets the current media type for an output stream on this Media Foundation transform (MFT).helpviewer_keywords: ["GetOutputCurrentType","GetOutputCurrentType method [Streaming Media Devices]","GetOutputCurrentType method [Streaming Media Devices]","IMFDeviceTransform interface","IMFDeviceTransform interface [Streaming Media Devices]","GetOutputCurrentType method","IMFDeviceTransform.GetOutputCurrentType","IMFDeviceTransform::GetOutputCurrentType","mftransform/IMFDeviceTransform::GetOutputCurrentType","stream.imfdevicetransform_getoutputcurrenttype"]
 old-location: stream\imfdevicetransform_getoutputcurrenttype.htm
 tech.root: stream
 ms.assetid: ABDDED13-5C35-4030-838B-92BECA23F6A2

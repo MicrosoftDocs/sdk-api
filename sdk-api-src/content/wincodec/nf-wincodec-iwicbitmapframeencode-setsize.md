@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetSize
 title: IWICBitmapFrameEncode::SetSize (wincodec.h)
-description: Sets the output image dimensions for the frame.
+description: Sets the output image dimensions for the frame.helpviewer_keywords: ["IWICBitmapFrameEncode interface [Windows Imaging Component]","SetSize method","IWICBitmapFrameEncode.SetSize","IWICBitmapFrameEncode::SetSize","SetSize","SetSize method [Windows Imaging Component]","SetSize method [Windows Imaging Component]","IWICBitmapFrameEncode interface","_wic_codec_iwicbitmapframeencode_setsize","wic._wic_codec_iwicbitmapframeencode_setsize","wincodec/IWICBitmapFrameEncode::SetSize"]
 old-location: wic\_wic_codec_iwicbitmapframeencode_setsize.htm
 tech.root: wic
 ms.assetid: e21e1a66-b1fa-4700-a14e-dc382b5404f7

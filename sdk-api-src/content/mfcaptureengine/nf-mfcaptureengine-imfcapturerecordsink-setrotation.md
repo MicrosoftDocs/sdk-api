@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetRotation
 title: IMFCaptureRecordSink::SetRotation (mfcaptureengine.h)
-description: Rotates the recorded video stream.
+description: Rotates the recorded video stream.helpviewer_keywords: ["IMFCaptureRecordSink interface [Media Foundation]","SetRotation method","IMFCaptureRecordSink.SetRotation","IMFCaptureRecordSink::SetRotation","SetRotation","SetRotation method [Media Foundation]","SetRotation method [Media Foundation]","IMFCaptureRecordSink interface","mf.imfcapturerecordsink_setrotation","mfcaptureengine/IMFCaptureRecordSink::SetRotation"]
 old-location: mf\imfcapturerecordsink_setrotation.htm
 tech.root: medfound
 ms.assetid: 3C451FF9-F5CD-48C6-A7FE-88BD3E82DA83

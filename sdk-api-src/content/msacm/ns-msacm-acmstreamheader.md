@@ -1,7 +1,7 @@
 ---
 UID: NS:msacm.tACMSTREAMHEADER
 title: ACMSTREAMHEADER (msacm.h)
-description: The ACMSTREAMHEADER structure defines the header used to identify an ACM conversion source and destination buffer pair for a conversion stream.
+description: The ACMSTREAMHEADER structure defines the header used to identify an ACM conversion source and destination buffer pair for a conversion stream.helpviewer_keywords: ["*LPACMSTREAMHEADER","*PACMSTREAMHEADER","ACMSTREAMHEADER","ACMSTREAMHEADER structure [Windows Multimedia]","ACMSTREAMHEADER_STATUSF_DONE","ACMSTREAMHEADER_STATUSF_INQUEUE","ACMSTREAMHEADER_STATUSF_PREPARED","_win32_ACMSTREAMHEADER_str","msacm/ACMSTREAMHEADER","multimedia.acmstreamheader"]
 old-location: multimedia\acmstreamheader.htm
 tech.root: Multimedia
 ms.assetid: 723e96d8-f098-4e08-862a-a9fea8d2fbe3

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetResult
 title: IFileDialog::GetResult (shobjidl_core.h)
-description: Gets the choice that the user made in the dialog.
+description: Gets the choice that the user made in the dialog.helpviewer_keywords: ["GetResult","GetResult method [Windows Shell]","GetResult method [Windows Shell]","IFileDialog interface","IFileDialog interface [Windows Shell]","GetResult method","IFileDialog.GetResult","IFileDialog::GetResult","shell.IFileDialog_GetResult","shell_IFileDialog_GetResult","shobjidl_core/IFileDialog::GetResult"]
 old-location: shell\IFileDialog_GetResult.htm
 tech.root: shell
 ms.assetid: 6572f172-8b66-4b42-b087-d0133595b380

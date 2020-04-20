@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantGetStringElem
 title: PropVariantGetStringElem function (propvarutil.h)
-description: Extracts a single Unicode string element from a PROPVARIANT structure of type VT_LPWSTR, VT_BSTR, VT_VECTOR | VT_LPWSTR, VT_VECTOR | VT_BSTR, or VT_ARRAY | VT_BSTR.
+description: Extracts a single Unicode string element from a PROPVARIANT structure of type VT_LPWSTR, VT_BSTR, VT_VECTOR | VT_LPWSTR, VT_VECTOR | VT_BSTR, or VT_ARRAY | VT_BSTR.helpviewer_keywords: ["PropVariantGetStringElem","PropVariantGetStringElem function [Windows Properties]","_shell_PropVariantGetStringElem","properties.PropVariantGetStringElem","propvarutil/PropVariantGetStringElem","shell.PropVariantGetStringElem"]
 old-location: properties\PropVariantGetStringElem.htm
 tech.root: properties
 ms.assetid: 6e803d93-5b55-4b73-8e23-a584f5f91969

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmUpdateThumbnailProperties
 title: DwmUpdateThumbnailProperties function (dwmapi.h)
-description: Updates the properties for a Desktop Window Manager (DWM) thumbnail.
+description: Updates the properties for a Desktop Window Manager (DWM) thumbnail.helpviewer_keywords: ["DwmUpdateThumbnailProperties","DwmUpdateThumbnailProperties function [Desktop Window Manager]","_udwm_dwmupdatethumbnailproperties","_udwm_dwmupdatethumbnailproperties_cpp","dwm.dwmupdatethumbnailproperties","dwmapi/DwmUpdateThumbnailProperties","winui._udwm_dwmupdatethumbnailproperties"]
 old-location: dwm\dwmupdatethumbnailproperties.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmupdatethumbnailproperties.htm

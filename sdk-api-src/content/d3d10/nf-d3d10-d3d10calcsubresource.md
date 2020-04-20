@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.D3D10CalcSubresource
 title: D3D10CalcSubresource function (d3d10.h)
-description: Calculate a subresource index for a texture.
+description: Calculate a subresource index for a texture.helpviewer_keywords: ["91f92116-0ae9-0407-3cba-2a8ff2762095","D3D10CalcSubresource","D3D10CalcSubresource function [Direct3D 10]","d3d10/D3D10CalcSubresource","direct3d10.d3d10calcsubresource"]
 old-location: direct3d10\d3d10calcsubresource.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10calcsubresource.htm

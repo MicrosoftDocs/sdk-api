@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.GetFrameStatistics
 title: IDCompositionDevice::GetFrameStatistics (dcomp.h)
-description: Retrieves information from the composition engine about composition times and the frame rate.
+description: Retrieves information from the composition engine about composition times and the frame rate.helpviewer_keywords: ["GetFrameStatistics","GetFrameStatistics method [DirectComposition]","GetFrameStatistics method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","GetFrameStatistics method","IDCompositionDevice.GetFrameStatistics","IDCompositionDevice::GetFrameStatistics","dcomp/IDCompositionDevice::GetFrameStatistics","directcomp.idcompositiondevice_getframestatistics"]
 old-location: directcomp\idcompositiondevice_getframestatistics.htm
 tech.root: directcomp
 ms.assetid: C4DB7A16-BF91-4CD0-BCD2-4793D9599E0A

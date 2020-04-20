@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._PRIVKEYVER3
 title: DHPRIVKEY_VER3 (wincrypt.h)
-description: Contains information specific to the particular private key contained in the key BLOB.
+description: Contains information specific to the particular private key contained in the key BLOB.helpviewer_keywords: ["DHPRIVKEY_VER3","DHPRIVKEY_VER3 structure [Security]","DSSPRIVKEY_VER3","_PRIVKEYVER3","_crypto2_dhprivkey_ver3","security.dhprivkey_ver3","wincrypt/DHPRIVKEY_VER3"]
 old-location: security\dhprivkey_ver3.htm
 tech.root: SecCrypto
 ms.assetid: ad4bf20d-5c6c-4373-bd88-9a5bbb832ba5

@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.NameSetLock
 title: IMSVidStreamBufferSink::NameSetLock (segment.h)
-description: The NameSetLock method locks the stream buffer profile.
+description: The NameSetLock method locks the stream buffer profile.helpviewer_keywords: ["IMSVidStreamBufferSink interface [Microsoft TV Technologies]","NameSetLock method","IMSVidStreamBufferSink.NameSetLock","IMSVidStreamBufferSink::NameSetLock","IMSVidStreamBufferSinkNameSetLock","NameSetLock","NameSetLock method [Microsoft TV Technologies]","NameSetLock method [Microsoft TV Technologies]","IMSVidStreamBufferSink interface","mstv.imsvidstreambuffersink_namesetlock","segment/IMSVidStreamBufferSink::NameSetLock"]
 old-location: mstv\imsvidstreambuffersink_namesetlock.htm
 tech.root: mstv
 ms.assetid: 0195d515-4018-4a96-9af9-566fcdeffaf7

@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.Detach
 title: IVdsOpenVDisk::Detach (vds.h)
-description: Detaches a virtual disk.
+description: Detaches a virtual disk.helpviewer_keywords: ["Detach","Detach method","Detach method","IVdsOpenVDisk interface","IVdsOpenVDisk interface","Detach method","IVdsOpenVDisk.Detach","IVdsOpenVDisk::Detach","base.ivdsopenvdisk_detach","vds/IVdsOpenVDisk::Detach"]
 old-location: base\ivdsopenvdisk_detach.htm
 tech.root: VDS
 ms.assetid: b720f6fc-f6a0-4cda-b710-30941bb79a06

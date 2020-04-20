@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyBurnComplete
 title: IDiscMasterProgressEvents::NotifyBurnComplete (imapi.h)
-description: Notifies an application that a call to IDiscMaster::RecordDisc has finished.
+description: Notifies an application that a call to IDiscMaster::RecordDisc has finished.helpviewer_keywords: ["IDiscMasterProgressEvents interface [IMAPI]","NotifyBurnComplete method","IDiscMasterProgressEvents.NotifyBurnComplete","IDiscMasterProgressEvents::NotifyBurnComplete","NotifyBurnComplete","NotifyBurnComplete method [IMAPI]","NotifyBurnComplete method [IMAPI]","IDiscMasterProgressEvents interface","_win32_idiscmasterprogressevents_notifyburncomplete","base.idiscmasterprogressevents_notifyburncomplete","imapi.idiscmasterprogressevents_notifyburncomplete","imapi/IDiscMasterProgressEvents::NotifyBurnComplete"]
 old-location: imapi\idiscmasterprogressevents_notifyburncomplete.htm
 tech.root: imapi
 ms.assetid: deefe7cb-60aa-4255-a7b1-261fb40e6318

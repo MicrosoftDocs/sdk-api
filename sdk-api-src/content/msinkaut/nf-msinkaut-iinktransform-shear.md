@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTransform.Shear
 title: IInkTransform::Shear (msinkaut.h)
-description: Adjusts the shear of the InkTransform by the specified horizontal and vertical factors.
+description: Adjusts the shear of the InkTransform by the specified horizontal and vertical factors.helpviewer_keywords: ["4a3d828e-33cc-435f-9276-7c3304cca71d","IInkTransform interface [Tablet PC]","Shear method","IInkTransform.Shear","IInkTransform::Shear","Shear","Shear method [Tablet PC]","Shear method [Tablet PC]","IInkTransform interface","msinkaut/IInkTransform::Shear","tablet.inktransform_shear"]
 old-location: tablet\inktransform_shear.htm
 tech.root: tablet
 ms.assetid: 4a3d828e-33cc-435f-9276-7c3304cca71d

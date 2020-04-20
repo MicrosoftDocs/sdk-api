@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVAudioSampleRate
 title: IMSVidAudioRendererEvent2::AVAudioSampleRate (segment.h)
-description: Indicates a change in the AVAudioSampleRate codec property.
+description: Indicates a change in the AVAudioSampleRate codec property.helpviewer_keywords: ["AVAudioSampleRate","AVAudioSampleRate method [Microsoft TV Technologies]","AVAudioSampleRate method [Microsoft TV Technologies]","IMSVidAudioRendererEvent2 interface","IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies]","AVAudioSampleRate method","IMSVidAudioRendererEvent2.AVAudioSampleRate","IMSVidAudioRendererEvent2::AVAudioSampleRate","mstv.imsvidaudiorendererevent2_avaudiosamplerate","segment/IMSVidAudioRendererEvent2::AVAudioSampleRate"]
 old-location: mstv\imsvidaudiorendererevent2_avaudiosamplerate.htm
 tech.root: mstv
 ms.assetid: a8654fd1-4843-4489-ba43-444912107ca2

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1GdiMetafileSink1.ProcessRecord
 title: ID2D1GdiMetafileSink1::ProcessRecord (d2d1_3.h)
-description: Provides access to metafile records, including their type, data, and flags.
+description: Provides access to metafile records, including their type, data, and flags.helpviewer_keywords: ["ID2D1GdiMetafileSink1 interface [Direct2D]","ProcessRecord method","ID2D1GdiMetafileSink1.ProcessRecord","ID2D1GdiMetafileSink1::ProcessRecord","ProcessRecord","ProcessRecord method [Direct2D]","ProcessRecord method [Direct2D]","ID2D1GdiMetafileSink1 interface","d2d1_3/ID2D1GdiMetafileSink1::ProcessRecord","direct2d.id2d1gdimetafilesink1_processrecord"]
 old-location: direct2d\id2d1gdimetafilesink1_processrecord.htm
 tech.root: Direct2D
 ms.assetid: 1f33988f-e4c5-23f9-899a-64ebeaa77007

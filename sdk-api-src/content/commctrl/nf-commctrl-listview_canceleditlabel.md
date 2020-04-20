@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_CancelEditLabel
 title: ListView_CancelEditLabel macro (commctrl.h)
-description: Cancels an item text editing operation. You can use this macro or send the LVM_CANCELEDITLABEL message explicitly.
+description: Cancels an item text editing operation. You can use this macro or send the LVM_CANCELEDITLABEL message explicitly.helpviewer_keywords: ["ListView_CancelEditLabel","ListView_CancelEditLabel macro [Windows Controls]","_win32_ListView_CancelEditLabel","_win32_ListView_CancelEditLabel_cpp","commctrl/ListView_CancelEditLabel","controls.ListView_CancelEditLabel","controls._win32_ListView_CancelEditLabel"]
 old-location: controls\ListView_CancelEditLabel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_canceleditlabel.htm

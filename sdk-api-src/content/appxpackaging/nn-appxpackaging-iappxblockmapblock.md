@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapBlock
 title: IAppxBlockMapBlock (appxpackaging.h)
-description: The IAppxBlockMapBlock interface provides a read-only object that represents an individual block within a file contained in the block map file (AppxBlockMap.xml) for the App package.
+description: The IAppxBlockMapBlock interface provides a read-only object that represents an individual block within a file contained in the block map file (AppxBlockMap.xml) for the App package.helpviewer_keywords: ["IAppxBlockMapBlock","IAppxBlockMapBlock interface [App packaging and management]","IAppxBlockMapBlock interface [App packaging and management]","described","appxpackaging/IAppxBlockMapBlock","appxpkg.iappxblockmapblock"]
 old-location: appxpkg\iappxblockmapblock.htm
 tech.root: appxpkg
 ms.assetid: 39B0680A-F27B-478F-8E83-FE1BFCF61AC4

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRange.GetGravity
 title: ITfRange::GetGravity (msctf.h)
-description: ITfRange::GetGravity method
+description: ITfRange::GetGravity methodhelpviewer_keywords: ["GetGravity","GetGravity method [Text Services Framework]","GetGravity method [Text Services Framework]","ITfRange interface","ITfRange interface [Text Services Framework]","GetGravity method","ITfRange.GetGravity","ITfRange::GetGravity","_tsf_itfrange_getgravity_ref","msctf/ITfRange::GetGravity","tsf.itfrange_getgravity"]
 old-location: tsf\itfrange_getgravity.htm
 tech.root: TSF
 ms.assetid: 7569b9dd-869f-49a6-ad0f-c2d9b5f0ae70

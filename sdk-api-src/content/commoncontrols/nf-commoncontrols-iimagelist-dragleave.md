@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.DragLeave
 title: IImageList::DragLeave (commoncontrols.h)
-description: Unlocks the specified window and hides the drag image, which enables the window to update.
+description: Unlocks the specified window and hides the drag image, which enables the window to update.helpviewer_keywords: ["DragLeave","DragLeave method [Windows Controls]","DragLeave method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","DragLeave method","IImageList.DragLeave","IImageList::DragLeave","comctl_IImageList_DragLeave","comctl_IImageList_DragLeave_cpp","commoncontrols/IImageList::DragLeave","controls.IImageList_DragLeave","controls.comctl_IImageList_DragLeave"]
 old-location: controls\IImageList_DragLeave.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragleave.htm

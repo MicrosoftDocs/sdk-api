@@ -1,7 +1,7 @@
 ---
 UID: NS:tcpioctl.IPAddrEntry
 title: IPAddrEntry (tcpioctl.h)
-description: Implements part of the Management Information Base (MIB-II) information group for the Internet Protocol (IP) as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 2011.
+description: Implements part of the Management Information Base (MIB-II) information group for the Internet Protocol (IP) as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 2011.helpviewer_keywords: ["IPAddrEntry","IPAddrEntry structure [Windows API]","tcpioctl/IPAddrEntry","winprog.ipaddrentry"]
 old-location: winprog\ipaddrentry.htm
 tech.root: DevNotes
 ms.assetid: c48453e8-05f1-49d8-bae6-fad0681bdf7e

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFCreateMuxStreamMediaType
 title: MFCreateMuxStreamMediaType function (mfapi.h)
-description: Creates an IMFMediaType describing the media types of multiplexed substreams.
+description: Creates an IMFMediaType describing the media types of multiplexed substreams.helpviewer_keywords: ["MFCreateMuxStreamMediaType","MFCreateMuxStreamMediaType function [Media Foundation]","mf.mfcreatemuxstreammediatype","mfapi/MFCreateMuxStreamMediaType"]
 old-location: mf\mfcreatemuxstreammediatype.htm
 tech.root: medfound
 ms.assetid: 27E1295C-BFB1-45EB-ABB2-DDFF927F6E30

@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothGetRadioInfo
 title: BluetoothGetRadioInfo function (bluetoothapis.h)
-description: Obtains information about a Bluetooth radio.
+description: Obtains information about a Bluetooth radio.helpviewer_keywords: ["BluetoothGetRadioInfo","BluetoothGetRadioInfo function [Bluetooth]","bluetooth.bluetoothgetradioinfo","bluetoothapis/BluetoothGetRadioInfo"]
 old-location: bluetooth\bluetoothgetradioinfo.htm
 tech.root: bluetooth
 ms.assetid: 0c596f49-70f9-4a58-842c-e01dcf69bd01

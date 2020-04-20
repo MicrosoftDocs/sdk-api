@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.GetGlyphs
 title: IDWriteTextAnalyzer::GetGlyphs (dwrite.h)
-description: Parses the input text string and maps it to the set of glyphs and associated glyph data according to the font and the writing system's rendering rules.
+description: Parses the input text string and maps it to the set of glyphs and associated glyph data according to the font and the writing system's rendering rules.helpviewer_keywords: ["GetGlyphs","GetGlyphs method [Direct Write]","GetGlyphs method [Direct Write]","IDWriteTextAnalyzer interface","IDWriteTextAnalyzer interface [Direct Write]","GetGlyphs method","IDWriteTextAnalyzer.GetGlyphs","IDWriteTextAnalyzer::GetGlyphs","directwrite.IDWriteTextAnalyzer_GetGlyphs","dwrite/IDWriteTextAnalyzer::GetGlyphs"]
 old-location: directwrite\IDWriteTextAnalyzer_GetGlyphs.htm
 tech.root: DirectWrite
 ms.assetid: 9bc373b6-9161-4ffc-a942-50d97d6509c3

@@ -1,7 +1,7 @@
 ---
 UID: NF:provider.Provider.ValidateGetObjFlags
 title: Provider::ValidateGetObjFlags (provider.h)
-description: The ValidateGetObjFlags method determines whether a set of flags is valid for an instance retrieval operation.
+description: The ValidateGetObjFlags method determines whether a set of flags is valid for an instance retrieval operation.helpviewer_keywords: ["?ValidateGetObjFlags@Provider@@MAEJJ@Z","?ValidateGetObjFlags@Provider@@MEAAJJ@Z","Provider interface [Windows Management Instrumentation]","ValidateGetObjFlags method","Provider.ValidateGetObjFlags","Provider::ValidateGetObjFlags","ValidateGetObjFlags","ValidateGetObjFlags method [Windows Management Instrumentation]","ValidateGetObjFlags method [Windows Management Instrumentation]","Provider interface","_hmm_provider_validategetobjflags","provider/Provider::ValidateGetObjFlags","wmi.provider_validategetobjflags"]
 old-location: wmi\provider_validategetobjflags.htm
 tech.root: WmiSdk
 ms.assetid: 5090c47b-062b-4359-b03b-0d05c225447d

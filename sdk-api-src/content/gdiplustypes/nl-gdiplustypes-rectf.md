@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplustypes.RectF
 title: RectF (gdiplustypes.h)
-description: A RectF object stores the upper-left corner, width, and height of a rectangle.
+description: A RectF object stores the upper-left corner, width, and height of a rectangle.helpviewer_keywords: ["RectF","RectF class [GDI+]","RectF class [GDI+]","described","_gdiplus_CLASS_RectF_Class","gdiplus._gdiplus_CLASS_RectF_Class","gdiplustypes/RectF"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectf.htm

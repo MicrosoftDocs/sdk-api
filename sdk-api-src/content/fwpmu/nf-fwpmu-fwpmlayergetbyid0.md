@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmLayerGetById0
 title: FwpmLayerGetById0 function (fwpmu.h)
-description: Retrieves a layer object.
+description: Retrieves a layer object.helpviewer_keywords: ["FwpmLayerGetById0","FwpmLayerGetById0 function [Filtering]","fwp.fwpmlayergetbyid0_func","fwpmu/FwpmLayerGetById0"]
 old-location: fwp\fwpmlayergetbyid0_func.htm
 tech.root: fwp
 ms.assetid: c7668d06-8533-4dd1-a4f6-fb38c97219db

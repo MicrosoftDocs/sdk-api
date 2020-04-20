@@ -1,7 +1,7 @@
 ---
 UID: NF:cryptuiapi.CryptUIWizDigitalSign
 title: CryptUIWizDigitalSign function (cryptuiapi.h)
-description: Digitally signs a document or BLOB.
+description: Digitally signs a document or BLOB.helpviewer_keywords: ["CRYPTUI_WIZ_NO_UI","CryptUIWizDigitalSign","CryptUIWizDigitalSign function [Security]","cryptuiapi/CryptUIWizDigitalSign","security.cryptuiwizdigitalsign"]
 old-location: security\cryptuiwizdigitalsign.htm
 tech.root: SecCrypto
 ms.assetid: 1d01523e-d47b-49be-82c8-5e98f97be800

@@ -1,7 +1,7 @@
 ---
 UID: NN:uiribbon.IUISimplePropertySet
 title: IUISimplePropertySet (uiribbon.h)
-description: IUISimplePropertySet is a read-only interface that defines a method for retrieving the value identified by a property key.
+description: IUISimplePropertySet is a read-only interface that defines a method for retrieving the value identified by a property key.helpviewer_keywords: ["IUISimplePropertySet","IUISimplePropertySet interface [Windows Ribbon]","IUISimplePropertySet interface [Windows Ribbon]","described","scenicintent_IUISimplePropertySet","uiribbon/IUISimplePropertySet","windowsribbon.windowsribbon_iuisimplepropertyset"]
 old-location: windowsribbon\windowsribbon_iuisimplepropertyset.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuisimplepropertyset\iuisimplepropertyset.htm

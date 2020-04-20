@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetBalance
 title: IMFMediaEngineEx::GetBalance (mfmediaengine.h)
-description: Gets the audio balance.
+description: Gets the audio balance.helpviewer_keywords: ["GetBalance","GetBalance method [Media Foundation]","GetBalance method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","GetBalance method","IMFMediaEngineEx.GetBalance","IMFMediaEngineEx::GetBalance","mf.imfmediaengineex_getbalance","mfmediaengine/IMFMediaEngineEx::GetBalance"]
 old-location: mf\imfmediaengineex_getbalance.htm
 tech.root: medfound
 ms.assetid: 57935B52-27BE-47AF-8702-9DF91E1B515D

@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.GetConfigurationFlags
 title: IBitsPeerCacheAdministration::GetConfigurationFlags (bits3_0.h)
-description: Gets the configuration flags that determine if the computer serves content to peers and can download content from peers.
+description: Gets the configuration flags that determine if the computer serves content to peers and can download content from peers.helpviewer_keywords: ["BG_ENABLE_PEERCACHING_CLIENT","BG_ENABLE_PEERCACHING_SERVER","GetConfigurationFlags","GetConfigurationFlags method [BITS]","GetConfigurationFlags method [BITS]","IBitsPeerCacheAdministration interface","IBitsPeerCacheAdministration interface [BITS]","GetConfigurationFlags method","IBitsPeerCacheAdministration.GetConfigurationFlags","IBitsPeerCacheAdministration::GetConfigurationFlags","bits.ibitspeercacheadministration_getconfigurationflags","bits3_0/IBitsPeerCacheAdministration::GetConfigurationFlags"]
 old-location: bits\ibitspeercacheadministration_getconfigurationflags.htm
 tech.root: Bits
 ms.assetid: caa54ee0-c771-47e7-95d1-26a812f0f95f

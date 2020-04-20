@@ -1,7 +1,7 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0011
 title: SimilarityMappedViewInfo (msrdc.h)
-description: Contains information about a similarity mapped view.
+description: Contains information about a similarity mapped view.helpviewer_keywords: ["SimilarityMappedViewInfo","SimilarityMappedViewInfo structure [Remote Differential Compression]","fs.similaritymappedviewinfo","msrdc/SimilarityMappedViewInfo","rdc.similaritymappedviewinfo"]
 old-location: rdc\similaritymappedviewinfo.htm
 tech.root: rdc
 ms.assetid: f7bd0ebd-6abd-4d2c-af7d-21a90a633276

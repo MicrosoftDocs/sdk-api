@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.InterlockedAnd8
 title: InterlockedAnd8 function (winnt.h)
-description: Performs an atomic AND operation on the specified char values.
+description: Performs an atomic AND operation on the specified char values.helpviewer_keywords: ["InterlockedAnd8","InterlockedAnd8 function","base.interlockedand8","winnt/InterlockedAnd8"]
 old-location: base\interlockedand8.htm
 tech.root: Sync
 ms.assetid: 1b900308-f1dd-465b-b67d-ec2655819425

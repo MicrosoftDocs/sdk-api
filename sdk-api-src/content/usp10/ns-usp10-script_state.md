@@ -1,7 +1,7 @@
 ---
 UID: NS:usp10.tag_SCRIPT_STATE
 title: SCRIPT_STATE (usp10.h)
-description: Contains script state information.
+description: Contains script state information.helpviewer_keywords: ["FALSE","SCRIPT_STATE","SCRIPT_STATE structure [Internationalization for Windows Applications]","TRUE","_win32_SCRIPT_STATE_str","intl.script_state","usp10/SCRIPT_STATE"]
 old-location: intl\script_state.htm
 tech.root: Intl
 ms.assetid: 4b1724f7-7773-42c0-9c19-fbded5aef14e

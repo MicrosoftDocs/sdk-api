@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetByteAlignmentMask
 title: IDiscRecorder2Ex::GetByteAlignmentMask (imapi2.h)
-description: Retrieves the byte alignment mask for the device.
+description: Retrieves the byte alignment mask for the device.helpviewer_keywords: ["GetByteAlignmentMask","GetByteAlignmentMask method [IMAPI]","GetByteAlignmentMask method [IMAPI]","IDiscRecorder2Ex interface","IDiscRecorder2Ex interface [IMAPI]","GetByteAlignmentMask method","IDiscRecorder2Ex.GetByteAlignmentMask","IDiscRecorder2Ex::GetByteAlignmentMask","imapi.idiscrecorder2ex_getbytealignmentmask","imapi2/IDiscRecorder2Ex::GetByteAlignmentMask"]
 old-location: imapi\idiscrecorder2ex_getbytealignmentmask.htm
 tech.root: imapi
 ms.assetid: 6a92efb1-4da8-4cf4-8011-b06a0f82a3eb

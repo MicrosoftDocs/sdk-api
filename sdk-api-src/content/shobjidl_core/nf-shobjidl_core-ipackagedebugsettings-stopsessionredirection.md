@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.StopSessionRedirection
 title: IPackageDebugSettings::StopSessionRedirection (shobjidl_core.h)
-description: Stops redirection of background tasks for the specified package.
+description: Stops redirection of background tasks for the specified package.helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","StopSessionRedirection method","IPackageDebugSettings.StopSessionRedirection","IPackageDebugSettings::StopSessionRedirection","StopSessionRedirection","StopSessionRedirection method [Windows Shell]","StopSessionRedirection method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_StopSessionRedirection","shobjidl_core/IPackageDebugSettings::StopSessionRedirection"]
 old-location: shell\IPackageDebugSettings_StopSessionRedirection.htm
 tech.root: shell
 ms.assetid: 6edd4f9a-c9e8-45eb-a86b-a04116530aad

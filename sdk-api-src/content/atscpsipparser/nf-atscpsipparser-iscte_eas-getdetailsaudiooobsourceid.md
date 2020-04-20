@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsAudioOOBSourceID
 title: ISCTE_EAS::GetDetailsAudioOOBSourceID (atscpsipparser.h)
-description: The GetDetailsAudioOOBSourceID method returns the source identifier of the virtual audio channel for the emergency alert.
+description: The GetDetailsAudioOOBSourceID method returns the source identifier of the virtual audio channel for the emergency alert.helpviewer_keywords: ["GetDetailsAudioOOBSourceID","GetDetailsAudioOOBSourceID method [Microsoft TV Technologies]","GetDetailsAudioOOBSourceID method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetDetailsAudioOOBSourceID method","ISCTE_EAS.GetDetailsAudioOOBSourceID","ISCTE_EAS::GetDetailsAudioOOBSourceID","ISCTE_EASGetDetailsAudioOOBSourceID","atscpsipparser/ISCTE_EAS::GetDetailsAudioOOBSourceID","mstv.iscte_eas_getdetailsaudiooobsourceid"]
 old-location: mstv\iscte_eas_getdetailsaudiooobsourceid.htm
 tech.root: mstv
 ms.assetid: ab054225-e8e6-4f78-9010-15fc8e5ad15b

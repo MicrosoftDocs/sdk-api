@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.GetAt
 title: IXpsOMVisualCollection::GetAt (xpsobjectmodel.h)
-description: Gets an IXpsOMVisual interface pointer from a specified location in the collection.
+description: Gets an IXpsOMVisual interface pointer from a specified location in the collection.helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsOMVisualCollection interface","IXpsOMVisualCollection interface [XPS Documents and Packaging]","GetAt method","IXpsOMVisualCollection.GetAt","IXpsOMVisualCollection::GetAt","xps.ixpsomvisualcollection_getat","xpsobjectmodel/IXpsOMVisualCollection::GetAt"]
 old-location: xps\ixpsomvisualcollection_getat.htm
 tech.root: printdocs
 ms.assetid: 8bd54fab-64e8-42a5-ac9d-fa19328b1acb

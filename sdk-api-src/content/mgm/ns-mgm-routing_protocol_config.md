@@ -1,7 +1,7 @@
 ---
 UID: NS:mgm._ROUTING_PROTOCOL_CONFIG
 title: ROUTING_PROTOCOL_CONFIG (mgm.h)
-description: The ROUTING_PROTOCOL_CONFIG structure describes the routing protocol configuration information that is passed to the multicast group manager when a protocol registers with the multicast group manager.
+description: The ROUTING_PROTOCOL_CONFIG structure describes the routing protocol configuration information that is passed to the multicast group manager when a protocol registers with the multicast group manager.helpviewer_keywords: ["*PROUTING_PROTOCOL_CONFIG","PROUTING_PROTOCOL_CONFIG","PROUTING_PROTOCOL_CONFIG structure pointer [RAS]","ROUTING_PROTOCOL_CONFIG","ROUTING_PROTOCOL_CONFIG structure [RAS]","_mpr_routing_protocol_config_str","mgm/PROUTING_PROTOCOL_CONFIG","mgm/ROUTING_PROTOCOL_CONFIG","rras.routing_protocol_config_str"]
 old-location: rras\routing_protocol_config_str.htm
 tech.root: RRAS
 ms.assetid: acbf0519-a0c8-4b96-9722-9eeccee026d7

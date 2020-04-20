@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetDoubleClickTime
 title: SetDoubleClickTime function (winuser.h)
-description: Sets the double-click time for the mouse.
+description: Sets the double-click time for the mouse.helpviewer_keywords: ["SetDoubleClickTime","SetDoubleClickTime function [Keyboard and Mouse Input]","_win32_SetDoubleClickTime","_win32_setdoubleclicktime_cpp","inputdev.setdoubleclicktime","winui._win32_setdoubleclicktime","winuser/SetDoubleClickTime"]
 old-location: inputdev\setdoubleclicktime.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\setdoubleclicktime.htm

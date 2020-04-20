@@ -1,7 +1,7 @@
 ---
 UID: NF:mgm.MgmTakeInterfaceOwnership
 title: MgmTakeInterfaceOwnership function (mgm.h)
-description: The MgmTakeInterfaceOwnership function is called by a client (such as a routing protocol) when it is enabled on an interface.
+description: The MgmTakeInterfaceOwnership function is called by a client (such as a routing protocol) when it is enabled on an interface.helpviewer_keywords: ["MgmTakeInterfaceOwnership","MgmTakeInterfaceOwnership function [RAS]","_mpr_mgmtakeinterfaceownership","mgm/MgmTakeInterfaceOwnership","rras.mgmtakeinterfaceownership"]
 old-location: rras\mgmtakeinterfaceownership.htm
 tech.root: RRAS
 ms.assetid: b072c884-0b84-4dd9-a14c-185f5d327017

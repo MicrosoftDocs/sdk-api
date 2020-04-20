@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITMediaSupport.QueryMediaType
 title: ITMediaSupport::QueryMediaType (tapi3if.h)
-description: The QueryMediaType method indicates whether the service provider associated with the current address supports the media type or types indicated by lMediaType.
+description: The QueryMediaType method indicates whether the service provider associated with the current address supports the media type or types indicated by lMediaType.helpviewer_keywords: ["ITMediaSupport interface [TAPI 2.2]","QueryMediaType method","ITMediaSupport.QueryMediaType","ITMediaSupport::QueryMediaType","QueryMediaType","QueryMediaType method [TAPI 2.2]","QueryMediaType method [TAPI 2.2]","ITMediaSupport interface","_tapi3_itmediasupport_querymediatype","tapi3.itmediasupport_querymediatype","tapi3if/ITMediaSupport::QueryMediaType"]
 old-location: tapi3\itmediasupport_querymediatype.htm
 tech.root: Tapi
 ms.assetid: 684bfd94-5bef-415b-b548-49f564ce8a83

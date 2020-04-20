@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector4AngleBetweenVectors
 title: XMVector4AngleBetweenVectors function (directxmath.h)
-description: Compute the radian angle between two 4D vectors.
+description: Compute the radian angle between two 4D vectors.helpviewer_keywords: ["Use DirectX..XMVector4AngleBetweenVectors","XMVector4AngleBetweenVectors","XMVector4AngleBetweenVectors method [DirectX Math Support APIs]","dxmath.xmvector4anglebetweenvectors"]
 old-location: dxmath\xmvector4anglebetweenvectors.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4AngleBetweenVectors(XMVECTOR,XMVECTOR)

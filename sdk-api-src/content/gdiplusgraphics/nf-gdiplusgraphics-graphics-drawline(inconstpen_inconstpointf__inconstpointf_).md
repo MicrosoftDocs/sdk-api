@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawLine(IN const Pen,IN const PointF &,IN const PointF &)
 title: Graphics::DrawLine(IN const Pen,IN const PointF &,IN const PointF &) (gdiplusgraphics.h)
-description: The Graphics::DrawLine method draws a line that connects two points.
+description: The Graphics::DrawLine method draws a line that connects two points.helpviewer_keywords: ["DrawLine","DrawLine method [GDI+]","DrawLine method [GDI+]","Graphics class","Graphics class [GDI+]","DrawLine method","Graphics.DrawLine","Graphics.DrawLine(IN const Pen","IN const PointF &","IN const PointF &)","Graphics.DrawLine(const Pen*","const PointF&","const PointF&)","Graphics::DrawLine","Graphics::DrawLine(IN const Pen","IN const PointF &","IN const PointF &)","_gdiplus_CLASS_Graphics_DrawLine_Pen_pen_PointF_pt1_PointF_pt2_","gdiplus._gdiplus_CLASS_Graphics_DrawLine_Pen_pen_PointF_pt1_PointF_pt2_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLine_Pen_pen_PointF_pt1_PointF_pt2_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawlinemethods\drawline_18penpen_pointfamppt1_pointfamppt2.htm

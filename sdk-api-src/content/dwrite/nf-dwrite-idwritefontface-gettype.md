@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetType
 title: IDWriteFontFace::GetType (dwrite.h)
-description: Obtains the file format type of a font face.
+description: Obtains the file format type of a font face.helpviewer_keywords: ["GetType","GetType method [Direct Write]","GetType method [Direct Write]","IDWriteFontFace interface","IDWriteFontFace interface [Direct Write]","GetType method","IDWriteFontFace.GetType","IDWriteFontFace::GetType","directwrite.IDWriteFontFace_GetType","dwrite/IDWriteFontFace::GetType"]
 old-location: directwrite\IDWriteFontFace_GetType.htm
 tech.root: DirectWrite
 ms.assetid: 8ea4b0b0-faf4-4291-838d-480e2bc68b0c

@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.AddHierarchicalScope
 title: ISearchCrawlScopeManager::AddHierarchicalScope (searchapi.h)
-description: Adds a hierarchical scope to the search engine.
+description: Adds a hierarchical scope to the search engine.helpviewer_keywords: ["AddHierarchicalScope","AddHierarchicalScope method [search]","AddHierarchicalScope method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","AddHierarchicalScope method","ISearchCrawlScopeManager.AddHierarchicalScope","ISearchCrawlScopeManager::AddHierarchicalScope","_search_ISearchCrawlScopeManager_AddHierachicalScope","search._search_ISearchCrawlScopeManager_AddHierachicalScope","searchapi/ISearchCrawlScopeManager::AddHierarchicalScope"]
 old-location: search\_search_ISearchCrawlScopeManager_AddHierachicalScope.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\addhierarchicalscope.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmvSwitchEventSubscribe0
 title: FwpmvSwitchEventSubscribe0 function (fwpmu.h)
-description: Is used to request the delivery of notifications regarding a particular vSwitch event.
+description: Is used to request the delivery of notifications regarding a particular vSwitch event.helpviewer_keywords: ["FwpmvSwitchEventSubscribe0","FwpmvSwitchEventSubscribe0 function [Filtering]","fwp.fwpmvswitcheventsubscribe0","fwpmu/FwpmvSwitchEventSubscribe0"]
 old-location: fwp\fwpmvswitcheventsubscribe0.htm
 tech.root: fwp
 ms.assetid: 1264a58d-81e1-4877-915d-6ed3d7d15512

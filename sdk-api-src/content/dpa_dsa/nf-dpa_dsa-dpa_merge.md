@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DPA_Merge
 title: DPA_Merge function (dpa_dsa.h)
-description: Combines the contents of two dynamic pointer arrays (DPAs).
+description: Combines the contents of two dynamic pointer arrays (DPAs).helpviewer_keywords: ["DPAM_INTERSECT","DPAM_NORMAL","DPAM_SORTED","DPAM_UNION","DPA_Merge","DPA_Merge function [Windows Controls]","_shell_DPA_Merge","_shell_DPA_Merge_cpp","controls.DPA_Merge","controls._shell_DPA_Merge","dpa_dsa/DPA_Merge"]
 old-location: controls\DPA_Merge.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_merge.htm

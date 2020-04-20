@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetClientInfo
 title: DhcpV4FailoverGetClientInfo function (dhcpsapi.h)
-description: Retrieves the DHCPv4 client lease information.
+description: Retrieves the DHCPv4 client lease information.helpviewer_keywords: ["DhcpV4FailoverGetClientInfo","DhcpV4FailoverGetClientInfo function [DHCP]","dhcp.dhcpv4failovergetclientinfo","dhcpsapi/DhcpV4FailoverGetClientInfo"]
 old-location: dhcp\dhcpv4failovergetclientinfo.htm
 tech.root: DHCP
 ms.assetid: 125665d1-5af6-4d8f-b7fe-cdbff6a7b415

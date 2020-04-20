@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleSetClipboard
 title: OleSetClipboard function (ole2.h)
-description: Places a pointer to a specific data object onto the clipboard. This makes the data object accessible to the OleGetClipboard function.
+description: Places a pointer to a specific data object onto the clipboard. This makes the data object accessible to the OleGetClipboard function.helpviewer_keywords: ["OleSetClipboard","OleSetClipboard function [COM]","_ole_OleSetClipboard","com.olesetclipboard","ole2/OleSetClipboard"]
 old-location: com\olesetclipboard.htm
 tech.root: com
 ms.assetid: 741def10-d2b5-4395-8049-1eba2e29b0e8

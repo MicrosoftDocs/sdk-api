@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag2.GetFieldValue
 title: IFsrmPropertyBag2::GetFieldValue (fsrmpipeline.h)
-description: Gets the value of the specified field from the property bag.
+description: Gets the value of the specified field from the property bag.helpviewer_keywords: ["GetFieldValue","GetFieldValue method [File Server Resource Manager]","GetFieldValue method [File Server Resource Manager]","IFsrmPropertyBag2 interface","IFsrmPropertyBag2 interface [File Server Resource Manager]","GetFieldValue method","IFsrmPropertyBag2.GetFieldValue","IFsrmPropertyBag2::GetFieldValue","fs.ifsrmpropertybag2_getfieldvalue","fsrm.ifsrmpropertybag2_getfieldvalue","fsrmpipeline/IFsrmPropertyBag2::GetFieldValue"]
 old-location: fsrm\ifsrmpropertybag2_getfieldvalue.htm
 tech.root: fsrm
 ms.assetid: ccd52bbc-998e-435f-bea5-ed456adf3ff9

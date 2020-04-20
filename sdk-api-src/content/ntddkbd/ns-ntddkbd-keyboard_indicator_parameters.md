@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_INDICATOR_PARAMETERS
 title: KEYBOARD_INDICATOR_PARAMETERS (ntddkbd.h)
-description: KEYBOARD_INDICATOR_PARAMETERS specifies the state of a keyboard's indicator LEDs.
+description: KEYBOARD_INDICATOR_PARAMETERS specifies the state of a keyboard's indicator LEDs.helpviewer_keywords: ["*PKEYBOARD_INDICATOR_PARAMETERS","KEYBOARD_INDICATOR_PARAMETERS","KEYBOARD_INDICATOR_PARAMETERS structure [Human Input Devices]","PKEYBOARD_INDICATOR_PARAMETERS","PKEYBOARD_INDICATOR_PARAMETERS structure pointer [Human Input Devices]","hid.keyboard_indicator_parameters","kref_d0dd9f49-1ccb-444f-8dd6-243f6d150ab9.xml","ntddkbd/KEYBOARD_INDICATOR_PARAMETERS","ntddkbd/PKEYBOARD_INDICATOR_PARAMETERS"]
 old-location: hid\keyboard_indicator_parameters.htm
 tech.root: hid
 ms.assetid: 68c9d24a-c1c9-4ef6-904d-6aeb68cea32a

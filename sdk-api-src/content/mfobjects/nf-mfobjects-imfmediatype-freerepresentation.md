@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFMediaType.FreeRepresentation
 title: IMFMediaType::FreeRepresentation (mfobjects.h)
-description: Frees memory that was allocated by the IMFMediaType::GetRepresentation method.
+description: Frees memory that was allocated by the IMFMediaType::GetRepresentation method.helpviewer_keywords: ["FreeRepresentation","FreeRepresentation method [Media Foundation]","FreeRepresentation method [Media Foundation]","IMFMediaType interface","IMFMediaType interface [Media Foundation]","FreeRepresentation method","IMFMediaType.FreeRepresentation","IMFMediaType::FreeRepresentation","d2007f16-543f-4f05-a44d-b4b4ae8019fb","mf.imfmediatype_freerepresentation","mfobjects/IMFMediaType::FreeRepresentation"]
 old-location: mf\imfmediatype_freerepresentation.htm
 tech.root: medfound
 ms.assetid: d2007f16-543f-4f05-a44d-b4b4ae8019fb

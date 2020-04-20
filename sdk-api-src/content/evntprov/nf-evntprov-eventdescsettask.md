@@ -1,7 +1,7 @@
 ---
 UID: NF:evntprov.EventDescSetTask
 title: EventDescSetTask function (evntprov.h)
-description: Sets the Task member of the event descriptor.
+description: Sets the Task member of the event descriptor.helpviewer_keywords: ["EventDescSetTask","EventDescSetTask function [ETW]","base.eventdescsettask_func","etw.eventdescsettask_func","evntprov/EventDescSetTask"]
 old-location: etw\eventdescsettask_func.htm
 tech.root: ETW
 ms.assetid: 74298e6f-b29a-4fa7-98d1-f81270fcbc0e

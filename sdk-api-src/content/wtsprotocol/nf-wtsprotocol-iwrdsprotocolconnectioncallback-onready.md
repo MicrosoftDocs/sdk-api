@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.OnReady
 title: IWRdsProtocolConnectionCallback::OnReady (wtsprotocol.h)
-description: Requests that the Remote Desktop Services service continue the connection process for that client.
+description: Requests that the Remote Desktop Services service continue the connection process for that client.helpviewer_keywords: ["IWRdsProtocolConnectionCallback interface [Remote Desktop Services]","OnReady method","IWRdsProtocolConnectionCallback.OnReady","IWRdsProtocolConnectionCallback::OnReady","OnReady","OnReady method [Remote Desktop Services]","OnReady method [Remote Desktop Services]","IWRdsProtocolConnectionCallback interface","termserv.iwrdsprotocolconnectioncallback_onready","wtsprotocol/IWRdsProtocolConnectionCallback::OnReady"]
 old-location: termserv\iwrdsprotocolconnectioncallback_onready.htm
 tech.root: TermServ
 ms.assetid: 88134a34-c494-48ea-9063-206e7d0c5139

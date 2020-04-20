@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_SortGroups
 title: ListView_SortGroups macro (commctrl.h)
-description: Uses an application-defined comparison function to sort groups by ID within a list-view control. You can use this macro or send the LVM_SORTGROUPS message explicitly.
+description: Uses an application-defined comparison function to sort groups by ID within a list-view control. You can use this macro or send the LVM_SORTGROUPS message explicitly.helpviewer_keywords: ["ListView_SortGroups","ListView_SortGroups macro [Windows Controls]","_win32_ListView_SortGroups","_win32_ListView_SortGroups_cpp","commctrl/ListView_SortGroups","controls.ListView_SortGroups","controls._win32_ListView_SortGroups"]
 old-location: controls\ListView_SortGroups.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sortgroups.htm

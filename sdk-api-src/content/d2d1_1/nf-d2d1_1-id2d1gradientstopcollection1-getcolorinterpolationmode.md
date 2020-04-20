@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetColorInterpolationMode
 title: ID2D1GradientStopCollection1::GetColorInterpolationMode (d2d1_1.h)
-description: Retrieves the color interpolation mode that the gradient stop collection uses.
+description: Retrieves the color interpolation mode that the gradient stop collection uses.helpviewer_keywords: ["GetColorInterpolationMode","GetColorInterpolationMode method [Direct2D]","GetColorInterpolationMode method [Direct2D]","ID2D1GradientStopCollection1 interface","ID2D1GradientStopCollection1 interface [Direct2D]","GetColorInterpolationMode method","ID2D1GradientStopCollection1.GetColorInterpolationMode","ID2D1GradientStopCollection1::GetColorInterpolationMode","d2d1_1/ID2D1GradientStopCollection1::GetColorInterpolationMode","direct2d.id2d1gradientstopcollection1_getcolorinterpolationmode"]
 old-location: direct2d\id2d1gradientstopcollection1_getcolorinterpolationmode.htm
 tech.root: Direct2D
 ms.assetid: D1351D2B-B259-400C-A77A-2437E80D46E9

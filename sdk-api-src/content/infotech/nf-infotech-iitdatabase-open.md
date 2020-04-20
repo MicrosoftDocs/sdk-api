@@ -1,7 +1,7 @@
 ---
 UID: NF:infotech.IITDatabase.Open
 title: IITDatabase::Open (infotech.h)
-description: Opens a database.
+description: Opens a database.helpviewer_keywords: ["IITDatabase interface [HTML Help Workshop]","Open method","IITDatabase.Open","IITDatabase::Open","Open","Open method [HTML Help Workshop]","Open method [HTML Help Workshop]","IITDatabase interface","htmlhelp.iitdatabase_open","infotech/IITDatabase::Open","refIITDatabaseOpen"]
 old-location: htmlhelp\iitdatabase_open.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabaseopen.htm

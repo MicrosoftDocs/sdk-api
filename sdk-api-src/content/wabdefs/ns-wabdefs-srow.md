@@ -1,7 +1,7 @@
 ---
 UID: NS:wabdefs._SRow
 title: SRow (wabdefs.h)
-description: Do not use. Describes a row from a table containing selected properties for a specific object.
+description: Do not use. Describes a row from a table containing selected properties for a specific object.helpviewer_keywords: ["*LPSRow","LPSRow","LPSRow structure pointer [Windows Address Book]","SRow","SRow structure [Windows Address Book]","_wab_SRow","wab._wab_SRow","wabdefs/LPSRow","wabdefs/SRow"]
 old-location: wab\_wab_SRow.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srow.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetLogoVersion
 title: IIsdbLogoTransmissionDescriptor::GetLogoVersion (dvbsiparser.h)
-description: Gets the value of the logo_version field from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor. This field contains the version number of the logo specified in the descriptor logo_id field.
+description: Gets the value of the logo_version field from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor. This field contains the version number of the logo specified in the descriptor logo_id field.helpviewer_keywords: ["GetLogoVersion","GetLogoVersion method [Microsoft TV Technologies]","GetLogoVersion method [Microsoft TV Technologies]","IIsdbLogoTransmissionDescriptor interface","IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies]","GetLogoVersion method","IIsdbLogoTransmissionDescriptor.GetLogoVersion","IIsdbLogoTransmissionDescriptor::GetLogoVersion","dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoVersion","mstv.iisdblogotransmissiondescriptor_getlogoversion"]
 old-location: mstv\iisdblogotransmissiondescriptor_getlogoversion.htm
 tech.root: mstv
 ms.assetid: b6cc23b4-b0cf-410c-9c15-03d58e795e6b

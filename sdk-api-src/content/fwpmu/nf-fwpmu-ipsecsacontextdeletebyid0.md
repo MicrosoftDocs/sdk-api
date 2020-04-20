@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecSaContextDeleteById0
 title: IPsecSaContextDeleteById0 function (fwpmu.h)
-description: Deletes an IPsec security association (SA) context.
+description: Deletes an IPsec security association (SA) context.helpviewer_keywords: ["IPsecSaContextDeleteById0","IPsecSaContextDeleteById0 function [Filtering]","fwp.ipsecsacontextdeletebyid0","fwpmu/IPsecSaContextDeleteById0"]
 old-location: fwp\ipsecsacontextdeletebyid0.htm
 tech.root: fwp
 ms.assetid: 4e3b1c5e-3da4-4c6b-aacf-beb90aa96923

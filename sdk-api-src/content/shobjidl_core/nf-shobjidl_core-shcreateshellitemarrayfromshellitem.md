@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.SHCreateShellItemArrayFromShellItem
 title: SHCreateShellItemArrayFromShellItem function (shobjidl_core.h)
-description: Creates an array of one element from a single Shell item.
+description: Creates an array of one element from a single Shell item.helpviewer_keywords: ["SHCreateShellItemArrayFromShellItem","SHCreateShellItemArrayFromShellItem function [Windows Shell]","_shell_SHCreateShellItemArrayFromShellItem","shell.SHCreateShellItemArrayFromShellItem","shobjidl_core/SHCreateShellItemArrayFromShellItem"]
 old-location: shell\SHCreateShellItemArrayFromShellItem.htm
 tech.root: shell
 ms.assetid: 93401708-6f11-474d-8009-24554f316e79

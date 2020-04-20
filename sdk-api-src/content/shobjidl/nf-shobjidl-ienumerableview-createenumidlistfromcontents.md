@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IEnumerableView.CreateEnumIDListFromContents
 title: IEnumerableView::CreateEnumIDListFromContents (shobjidl.h)
-description: Creates an enumerator of ID lists from the contents of the view.
+description: Creates an enumerator of ID lists from the contents of the view.helpviewer_keywords: ["CreateEnumIDListFromContents","CreateEnumIDListFromContents method [Windows Shell]","CreateEnumIDListFromContents method [Windows Shell]","IEnumerableView interface","IEnumerableView interface [Windows Shell]","CreateEnumIDListFromContents method","IEnumerableView.CreateEnumIDListFromContents","IEnumerableView::CreateEnumIDListFromContents","_shell_IEnumerableView_CreateEnumIDListFromContents","shell.IEnumerableView_CreateEnumIDListFromContents","shobjidl/IEnumerableView::CreateEnumIDListFromContents"]
 old-location: shell\IEnumerableView_CreateEnumIDListFromContents.htm
 tech.root: shell
 ms.assetid: 413d913d-e6f3-4e2d-bf1f-5d5ad6d4f650

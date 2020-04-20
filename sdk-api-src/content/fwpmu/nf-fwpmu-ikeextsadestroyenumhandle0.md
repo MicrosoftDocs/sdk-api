@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IkeextSaDestroyEnumHandle0
 title: IkeextSaDestroyEnumHandle0 function (fwpmu.h)
-description: Frees a handle returned by IkeextSaCreateEnumHandle0.
+description: Frees a handle returned by IkeextSaCreateEnumHandle0.helpviewer_keywords: ["IkeextSaDestroyEnumHandle0","IkeextSaDestroyEnumHandle0 function [Filtering]","fwp.ikeextsadestroyenumhandle0","fwpmu/IkeextSaDestroyEnumHandle0"]
 old-location: fwp\ikeextsadestroyenumhandle0.htm
 tech.root: fwp
 ms.assetid: b9351d74-bc0b-4423-9f21-5f3be8608b8a

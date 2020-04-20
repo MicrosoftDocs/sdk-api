@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpScanDatabase
 title: DhcpScanDatabase function (dhcpsapi.h)
-description: Enumerates the leased DHCPv4 client IPv4 addresses that are not synchronized between the in-memory cache and the server database.
+description: Enumerates the leased DHCPv4 client IPv4 addresses that are not synchronized between the in-memory cache and the server database.helpviewer_keywords: ["DhcpScanDatabase","DhcpScanDatabase function [DHCP]","dhcp.dhcpscandatabase","dhcpsapi/DhcpScanDatabase"]
 old-location: dhcp\dhcpscandatabase.htm
 tech.root: DHCP
 ms.assetid: 6324c197-7237-449f-ae23-4f04b1b7498e

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteLocalizedStrings.GetLocaleNameLength
 title: IDWriteLocalizedStrings::GetLocaleNameLength (dwrite.h)
-description: Gets the length in characters (not including the null terminator) of the locale name with the specified index.
+description: Gets the length in characters (not including the null terminator) of the locale name with the specified index.helpviewer_keywords: ["GetLocaleNameLength","GetLocaleNameLength method [Direct Write]","GetLocaleNameLength method [Direct Write]","IDWriteLocalizedStrings interface","IDWriteLocalizedStrings interface [Direct Write]","GetLocaleNameLength method","IDWriteLocalizedStrings.GetLocaleNameLength","IDWriteLocalizedStrings::GetLocaleNameLength","directwrite.IDWriteLocalizedStrings_GetLocaleNameLength","dwrite/IDWriteLocalizedStrings::GetLocaleNameLength"]
 old-location: directwrite\IDWriteLocalizedStrings_GetLocaleNameLength.htm
 tech.root: DirectWrite
 ms.assetid: a175380b-1109-476d-8bd7-9ba0753c125f

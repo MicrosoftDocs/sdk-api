@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IATSC_STT.Initialize
 title: IATSC_STT::Initialize (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IATSC_STT interface [Microsoft TV Technologies]","Initialize method","IATSC_STT.Initialize","IATSC_STT::Initialize","IATSC_STTInitialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","IATSC_STT interface","atscpsipparser/IATSC_STT::Initialize","mstv.iatsc_stt_initialize"]
 old-location: mstv\iatsc_stt_initialize.htm
 tech.root: mstv
 ms.assetid: 8a887c78-a1ea-4b81-b933-f95bd33f13c5

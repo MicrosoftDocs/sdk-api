@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsServiceUninstallDisk.UninstallDisks
 title: IVdsServiceUninstallDisk::UninstallDisks (vds.h)
-description: Uninstalls a set of disks.
+description: Uninstalls a set of disks.helpviewer_keywords: ["IVdsServiceUninstallDisk interface","UninstallDisks method","IVdsServiceUninstallDisk.UninstallDisks","IVdsServiceUninstallDisk::UninstallDisks","UninstallDisks","UninstallDisks method","UninstallDisks method","IVdsServiceUninstallDisk interface","base.ivdsserviceuninstalldisk_uninstalldisks","vds/IVdsServiceUninstallDisk::UninstallDisks"]
 old-location: base\ivdsserviceuninstalldisk_uninstalldisks.htm
 tech.root: VDS
 ms.assetid: 65c5444f-7e97-4746-9d74-561dc435212d

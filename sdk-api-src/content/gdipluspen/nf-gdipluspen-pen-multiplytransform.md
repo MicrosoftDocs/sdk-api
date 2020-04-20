@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspen.Pen.MultiplyTransform
 title: Pen::MultiplyTransform (gdipluspen.h)
-description: The Pen::MultiplyTransform method updates the world transformation matrix of this Pen object with the product of itself and another matrix.
+description: The Pen::MultiplyTransform method updates the world transformation matrix of this Pen object with the product of itself and another matrix.helpviewer_keywords: ["MultiplyTransform","MultiplyTransform method [GDI+]","MultiplyTransform method [GDI+]","Pen class","Pen class [GDI+]","MultiplyTransform method","Pen.MultiplyTransform","Pen::MultiplyTransform","_gdiplus_CLASS_Pen_MultiplyTransform_matrix_order_","gdiplus._gdiplus_CLASS_Pen_MultiplyTransform_matrix_order_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_MultiplyTransform_matrix_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\multiplytransform_75matrix_order.htm

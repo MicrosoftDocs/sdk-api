@@ -1,7 +1,7 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetMatchingVolume
 title: IEnhancedStorageACT::GetMatchingVolume (ehstorapi.h)
-description: Returns the volume associated with the Addressable Command Target (ACT).
+description: Returns the volume associated with the Addressable Command Target (ACT).helpviewer_keywords: ["GetMatchingVolume","GetMatchingVolume method [Enhanced Storage]","GetMatchingVolume method [Enhanced Storage]","IEnhancedStorageACT interface","IEnhancedStorageACT interface [Enhanced Storage]","GetMatchingVolume method","IEnhancedStorageACT.GetMatchingVolume","IEnhancedStorageACT::GetMatchingVolume","ehstorapi/IEnhancedStorageACT::GetMatchingVolume","enstor.ienhancedstorageact_getmatchingvolume"]
 old-location: enstor\ienhancedstorageact_getmatchingvolume.htm
 tech.root: enstor
 ms.assetid: aa5e5d33-0fc8-46bc-b1e8-c2bd341f0b4f

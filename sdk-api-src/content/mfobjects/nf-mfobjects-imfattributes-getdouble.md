@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetDouble
 title: IMFAttributes::GetDouble (mfobjects.h)
-description: Retrieves a double value associated with a key.
+description: Retrieves a double value associated with a key.helpviewer_keywords: ["650a5f7f-609f-477b-8834-ff66ca3a9ca3","GetDouble","GetDouble method [Media Foundation]","GetDouble method [Media Foundation]","IMFAttributes interface","IMFActivate.GetDouble","IMFAttributes interface [Media Foundation]","GetDouble method","IMFAttributes.GetDouble","IMFAttributes::GetDouble","mf.imfattributes_getdouble","mfobjects/IMFAttributes::GetDouble"]
 old-location: mf\imfattributes_getdouble.htm
 tech.root: medfound
 ms.assetid: 650a5f7f-609f-477b-8834-ff66ca3a9ca3

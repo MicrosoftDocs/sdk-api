@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixRotationNormal
 title: XMMatrixRotationNormal function (directxmath.h)
-description: Builds a matrix that rotates around an arbitrary normal vector.
+description: Builds a matrix that rotates around an arbitrary normal vector.helpviewer_keywords: ["Use DirectX..XMMatrixRotationNormal","XMMatrixRotationNormal","XMMatrixRotationNormal method [DirectX Math Support APIs]","dxmath.xmmatrixrotationnormal"]
 old-location: dxmath\xmmatrixrotationnormal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationNormal(XMVECTOR,float)

@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerCreateEnumHandle0
 title: FwpmSubLayerCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of sublayers.
+description: Creates a handle used to enumerate a set of sublayers.helpviewer_keywords: ["FwpmSubLayerCreateEnumHandle0","FwpmSubLayerCreateEnumHandle0 function [Filtering]","fwp.fwpmsublayercreateenumhandle0_func","fwpmu/FwpmSubLayerCreateEnumHandle0"]
 old-location: fwp\fwpmsublayercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: a8acff10-8395-4ef8-8976-7a99cd498a7d

@@ -1,7 +1,7 @@
 ---
 UID: NS:usbuser._USBUSER_GET_DRIVER_VERSION
 title: USBUSER_GET_DRIVER_VERSION (usbuser.h)
-description: The USBUSER_GET_DRIVER_VERSION structure is used with the IOCTL_USB_USER_REQUEST I/O control request to read driver and interface version information.
+description: The USBUSER_GET_DRIVER_VERSION structure is used with the IOCTL_USB_USER_REQUEST I/O control request to read driver and interface version information.helpviewer_keywords: ["*PUSBUSER_GET_DRIVER_VERSION","PUSBUSER_GET_DRIVER_VERSION","PUSBUSER_GET_DRIVER_VERSION structure pointer [Buses]","USBUSER_GET_DRIVER_VERSION","USBUSER_GET_DRIVER_VERSION structure [Buses]","buses.usbuser_get_driver_version","usbstrct_adb61812-7474-4eae-bf31-9b2c9a03962f.xml","usbuser/PUSBUSER_GET_DRIVER_VERSION","usbuser/USBUSER_GET_DRIVER_VERSION"]
 old-location: buses\usbuser_get_driver_version.htm
 tech.root: usbref
 ms.assetid: 415eefbb-e39a-43fa-9fff-49799f74fbd6

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.Terminate
 title: IWSDDeviceHost::Terminate (wsdhost.h)
-description: Terminates the host and releases any attached services.
+description: Terminates the host and releases any attached services.helpviewer_keywords: ["IWSDDeviceHost interface","Terminate method","IWSDDeviceHost.Terminate","IWSDDeviceHost::Terminate","Terminate","Terminate method","Terminate method","IWSDDeviceHost interface","ncd.iwsddevicehost_terminate","wsdhost/IWSDDeviceHost::Terminate"]
 old-location: ncd\iwsddevicehost_terminate.htm
 tech.root: WsdApi
 ms.assetid: 2a8df6fb-2834-44f4-9f25-454dcc2ff660

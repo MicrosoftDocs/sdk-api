@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.Merge
 title: IVdsOpenVDisk::Merge (vds.h)
-description: Merges a child virtual disk with its parents in the differencing chain.
+description: Merges a child virtual disk with its parents in the differencing chain.helpviewer_keywords: ["IVdsOpenVDisk interface","Merge method","IVdsOpenVDisk.Merge","IVdsOpenVDisk::Merge","Merge","Merge method","Merge method","IVdsOpenVDisk interface","base.ivdsopenvdisk_merge","vds/IVdsOpenVDisk::Merge"]
 old-location: base\ivdsopenvdisk_merge.htm
 tech.root: VDS
 ms.assetid: b513e904-a6ff-494e-9f63-b5158467b245

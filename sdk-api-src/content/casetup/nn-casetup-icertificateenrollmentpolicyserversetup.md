@@ -1,7 +1,7 @@
 ---
 UID: NN:casetup.ICertificateEnrollmentPolicyServerSetup
 title: ICertificateEnrollmentPolicyServerSetup (casetup.h)
-description: The ICertificateEnrollmentPolicyServerSetup interface represents the Certificate Enrollment Policy (CEP) Web Service within Active Directory Certificate Services (ADCS).
+description: The ICertificateEnrollmentPolicyServerSetup interface represents the Certificate Enrollment Policy (CEP) Web Service within Active Directory Certificate Services (ADCS).helpviewer_keywords: ["ICertificateEnrollmentPolicyServerSetup","ICertificateEnrollmentPolicyServerSetup interface [Security]","ICertificateEnrollmentPolicyServerSetup interface [Security]","described","casetup/ICertificateEnrollmentPolicyServerSetup","security.icertificateenrollmentpolicyserversetup"]
 old-location: security\icertificateenrollmentpolicyserversetup.htm
 tech.root: SecCrypto
 ms.assetid: 8C9F33BA-5FCB-4B99-869C-FADDC37A326A

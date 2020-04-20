@@ -1,7 +1,7 @@
 ---
 UID: NN:oleacc.IAccPropServices
 title: IAccPropServices (oleacc.h)
-description: Exposes methods for annotating accessible elements and for manipulating identity strings.
+description: Exposes methods for annotating accessible elements and for manipulating identity strings.helpviewer_keywords: ["IAccPropServices","IAccPropServices interface [Windows Accessibility]","IAccPropServices interface [Windows Accessibility]","described","msaa.iaccpropservices","oleacc/IAccPropServices","winauto.iaccpropservices"]
 old-location: winauto\iaccpropservices.htm
 tech.root: WinAuto
 ms.assetid: 0474dacf-7aa1-4d12-bac2-1091676a1ced

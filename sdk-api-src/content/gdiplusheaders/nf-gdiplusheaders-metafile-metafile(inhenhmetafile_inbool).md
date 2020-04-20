@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN HENHMETAFILE,IN BOOL)
 title: Metafile::Metafile(IN HENHMETAFILE,IN BOOL) (gdiplusheaders.h)
-description: Creates a Windows GDI+ Metafile::Metafile object for playback based on a Windows Graphics Device Interface (GDI) Enhanced Metafile (EMF) file.
+description: Creates a Windows GDI+ Metafile::Metafile object for playback based on a Windows Graphics Device Interface (GDI) Enhanced Metafile (EMF) file.helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile constructor","Metafile constructor [GDI+]","Metafile constructor [GDI+]","Metafile class","Metafile.Metafile","Metafile.Metafile(HENHMETAFILE","BOOL)","Metafile.Metafile(IN HENHMETAFILE","IN BOOL)","Metafile::Metafile","Metafile::Metafile(IN HENHMETAFILE","IN BOOL)","_gdiplus_CLASS_Metafile_Metafile_hEmf_deleteEmf_","gdiplus._gdiplus_CLASS_Metafile_Metafile_hEmf_deleteEmf_"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_hEmf_deleteEmf_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_91hemf_deleteemf.htm

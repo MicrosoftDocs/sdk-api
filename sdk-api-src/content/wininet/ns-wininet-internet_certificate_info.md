@@ -1,7 +1,7 @@
 ---
 UID: NS:wininet.__unnamed_struct_12
 title: INTERNET_CERTIFICATE_INFO (wininet.h)
-description: Contains certificate information returned from the server. This structure is used by the InternetQueryOption function.
+description: Contains certificate information returned from the server. This structure is used by the InternetQueryOption function.helpviewer_keywords: ["*LPINTERNET_CERTIFICATE_INFO","INTERNET_CERTIFICATE_INFO","INTERNET_CERTIFICATE_INFO structure [WinINet]","LPINTERNET_CERTIFICATE_INFO","LPINTERNET_CERTIFICATE_INFO structure pointer [WinINet]","_inet_internet_certificate_info_structure","wininet.internet_certificate_info","wininet/ LPINTERNET_CERTIFICATE_INFO","wininet/INTERNET_CERTIFICATE_INFO"]
 old-location: wininet\internet_certificate_info.htm
 tech.root: wininet
 ms.assetid: 2262a3cf-f325-470a-a7cd-9bcafc5aadc4

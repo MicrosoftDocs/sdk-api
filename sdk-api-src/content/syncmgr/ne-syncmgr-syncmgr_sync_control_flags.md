@@ -1,7 +1,7 @@
 ---
 UID: NE:syncmgr.SYNCMGR_SYNC_CONTROL_FLAGS
 title: SYNCMGR_SYNC_CONTROL_FLAGS (syncmgr.h)
-description: Indicates flags used by ISyncMgrControl::StartHandlerSync and ISyncMgrControl::StartItemSync.
+description: Indicates flags used by ISyncMgrControl::StartHandlerSync and ISyncMgrControl::StartItemSync.helpviewer_keywords: ["SYNCMGR_SCF_IGNORE_IF_ALREADY_SYNCING","SYNCMGR_SCF_NONE","SYNCMGR_SCF_VALID","SYNCMGR_SYNC_CONTROL_FLAGS","SYNCMGR_SYNC_CONTROL_FLAGS enumeration [Windows Shell]","_shell_SYNCMGR_SYNC_CONTROL_FLAGS","shell.SYNCMGR_SYNC_CONTROL_FLAGS","syncmgr/SYNCMGR_SCF_IGNORE_IF_ALREADY_SYNCING","syncmgr/SYNCMGR_SCF_NONE","syncmgr/SYNCMGR_SCF_VALID","syncmgr/SYNCMGR_SYNC_CONTROL_FLAGS"]
 old-location: shell\SYNCMGR_SYNC_CONTROL_FLAGS.htm
 tech.root: shell
 ms.assetid: 2191c105-788d-434e-a3c1-4f7b7dc543c4

@@ -1,7 +1,7 @@
 ---
 UID: NN:netcon.INetSharingManager
 title: INetSharingManager (netcon.h)
-description: The INetSharingManager interface is the primary interface for the Manager object. INetSharingManager provides methods to determine if sharing is installed, to manage port mappings, and to obtain enumeration interfaces for public and private connections.
+description: The INetSharingManager interface is the primary interface for the Manager object. INetSharingManager provides methods to determine if sharing is installed, to manage port mappings, and to obtain enumeration interfaces for public and private connections.helpviewer_keywords: ["INetSharingManager","INetSharingManager interface [ICS/ICF]","INetSharingManager interface [ICS/ICF]","described","_ics_inetsharingmanager","ics.inetsharingmanager","netcon/INetSharingManager"]
 old-location: ics\inetsharingmanager.htm
 tech.root: ics
 ms.assetid: e7009d13-89c2-4fd9-8f6c-dcdc67178598

@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleUndoManager.RedoTo
 title: IOleUndoManager::RedoTo (ocidl.h)
-description: Instructs the undo manager to invoke undo actions back through the redo stack, down to and including the specified undo unit.
+description: Instructs the undo manager to invoke undo actions back through the redo stack, down to and including the specified undo unit.helpviewer_keywords: ["IOleUndoManager interface [COM]","RedoTo method","IOleUndoManager.RedoTo","IOleUndoManager::RedoTo","RedoTo","RedoTo method [COM]","RedoTo method [COM]","IOleUndoManager interface","_ole_ioleundomanager_redoto","com.ioleundomanager_redoto","ocidl/IOleUndoManager::RedoTo"]
 old-location: com\ioleundomanager_redoto.htm
 tech.root: com
 ms.assetid: 1d5d0cb6-2c1b-49c8-8923-59845fa6231c

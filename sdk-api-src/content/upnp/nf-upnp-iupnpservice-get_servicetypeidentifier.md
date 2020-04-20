@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPService.get_ServiceTypeIdentifier
 title: IUPnPService::get_ServiceTypeIdentifier (upnp.h)
-description: The ServiceTypeIdentifier property specifies the service type identifier for the device.
+description: The ServiceTypeIdentifier property specifies the service type identifier for the device.helpviewer_keywords: ["IUPnPService interface [UPnP APIs]","get_ServiceTypeIdentifier method","IUPnPService.get_ServiceTypeIdentifier","IUPnPService::get_ServiceTypeIdentifier","_upnp_iupnpservice_servicetypeidentifier","get_ServiceTypeIdentifier","get_ServiceTypeIdentifier method [UPnP APIs]","get_ServiceTypeIdentifier method [UPnP APIs]","IUPnPService interface","upnp.iupnpservice_servicetypeidentifier","upnp/IUPnPService::get_ServiceTypeIdentifier"]
 old-location: upnp\iupnpservice_servicetypeidentifier.htm
 tech.root: upnp
 ms.assetid: 440344c9-b229-421b-b8a7-76f2f98c2c6b

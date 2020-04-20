@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnPinManager.GetPin
 title: IMbnPinManager::GetPin (mbnapi.h)
-description: Gets a specific type of PIN.
+description: Gets a specific type of PIN.helpviewer_keywords: ["GetPin","GetPin method [Microsoft Broadband Networks]","GetPin method [Microsoft Broadband Networks]","IMbnPinManager interface","IMbnPinManager interface [Microsoft Broadband Networks]","GetPin method","IMbnPinManager.GetPin","IMbnPinManager::GetPin","mbn.imbnpinmanager_getpin","mbnapi/IMbnPinManager::GetPin"]
 old-location: mbn\imbnpinmanager_getpin.htm
 tech.root: mbn
 ms.assetid: 21752fb9-db6b-4fd1-9c6f-a756408bda53

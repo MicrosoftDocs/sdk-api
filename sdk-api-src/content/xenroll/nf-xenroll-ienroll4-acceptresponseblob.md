@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll4.acceptResponseBlob
 title: IEnroll4::acceptResponseBlob (xenroll.h)
-description: Accepts delivery of the credentials issued in response to an earlier call to createRequestWStr and places the credentials in the appropriate store.
+description: Accepts delivery of the credentials issued in response to an earlier call to createRequestWStr and places the credentials in the appropriate store.helpviewer_keywords: ["IEnroll4 interface [Security]","acceptResponseBlob method","IEnroll4.acceptResponseBlob","IEnroll4::acceptResponseBlob","acceptResponseBlob","acceptResponseBlob method [Security]","acceptResponseBlob method [Security]","IEnroll4 interface","security.ienroll4_acceptresponseblob","xenroll/IEnroll4::acceptResponseBlob"]
 old-location: security\ienroll4_acceptresponseblob.htm
 tech.root: SecCrypto
 ms.assetid: 4a28bf6b-ad3d-414b-8740-ce7d4301a05b

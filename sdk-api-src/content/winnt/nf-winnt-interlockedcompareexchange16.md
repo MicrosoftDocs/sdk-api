@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.InterlockedCompareExchange16
 title: InterlockedCompareExchange16 function (winnt.h)
-description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 16-bit values and exchanges with another 16-bit value based on the outcome of the comparison.
+description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 16-bit values and exchanges with another 16-bit value based on the outcome of the comparison.helpviewer_keywords: ["InterlockedCompareExchange16","InterlockedCompareExchange16 function","base.interlockedcompareexchange16","winnt/InterlockedCompareExchange16"]
 old-location: base\interlockedcompareexchange16.htm
 tech.root: Sync
 ms.assetid: 5bf2e0d7-1b64-4622-8b6f-4ac903027064

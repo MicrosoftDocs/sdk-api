@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetSetFilePointer
 title: InternetSetFilePointer function (wininet.h)
-description: Sets a file position for InternetReadFile. This is a synchronous call; however, subsequent calls to InternetReadFile might block or return pending if the data is not available from the cache and the server does not support random access.
+description: Sets a file position for InternetReadFile. This is a synchronous call; however, subsequent calls to InternetReadFile might block or return pending if the data is not available from the cache and the server does not support random access.helpviewer_keywords: ["InternetSetFilePointer","InternetSetFilePointer function [WinINet]","_inet_internetsetfilepointer_function","wininet.internetsetfilepointer","wininet/InternetSetFilePointer"]
 old-location: wininet\internetsetfilepointer.htm
 tech.root: wininet
 ms.assetid: 0fdd85cb-f6a9-4a08-b72b-10d2075efb59

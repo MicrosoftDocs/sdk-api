@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleObject.IsUpToDate
 title: IOleObject::IsUpToDate (oleidl.h)
-description: Checks whether an object is up to date.
+description: Checks whether an object is up to date.helpviewer_keywords: ["IOleObject interface [COM]","IsUpToDate method","IOleObject.IsUpToDate","IOleObject::IsUpToDate","IsUpToDate","IsUpToDate method [COM]","IsUpToDate method [COM]","IOleObject interface","_ole_ioleobject_isuptodate","com.ioleobject_isuptodate","oleidl/IOleObject::IsUpToDate"]
 old-location: com\ioleobject_isuptodate.htm
 tech.root: com
 ms.assetid: 74203a74-c5dd-4a98-9223-1dc54c9d4399

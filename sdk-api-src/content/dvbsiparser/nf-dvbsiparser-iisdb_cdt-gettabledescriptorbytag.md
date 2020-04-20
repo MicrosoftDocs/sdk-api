@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetTableDescriptorByTag
 title: IISDB_CDT::GetTableDescriptorByTag (dvbsiparser.h)
-description: Searches a subtable in an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
+description: Searches a subtable in an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).helpviewer_keywords: ["GetTableDescriptorByTag","GetTableDescriptorByTag method [Microsoft TV Technologies]","GetTableDescriptorByTag method [Microsoft TV Technologies]","IISDB_CDT interface","IISDB_CDT interface [Microsoft TV Technologies]","GetTableDescriptorByTag method","IISDB_CDT.GetTableDescriptorByTag","IISDB_CDT::GetTableDescriptorByTag","dvbsiparser/IISDB_CDT::GetTableDescriptorByTag","mstv.iisdb_cdt_gettabledescriptorbytag"]
 old-location: mstv\iisdb_cdt_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: c06f9d03-a46a-4c3f-bacc-a78f79c411c3

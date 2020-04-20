@@ -1,7 +1,7 @@
 ---
 UID: NF:libloaderapi.FreeResource
 title: FreeResource function (libloaderapi.h)
-description: Decrements (decreases by one) the reference count of a loaded resource. When the reference count reaches zero, the memory occupied by the resource is freed.
+description: Decrements (decreases by one) the reference count of a loaded resource. When the reference count reaches zero, the memory occupied by the resource is freed.helpviewer_keywords: ["FreeResource","FreeResource function [Menus and Other Resources]","_win32_FreeResource","_win32_freeresource_cpp","libloaderapi/FreeResource","menurc.freeresource","winui._win32_freeresource"]
 old-location: menurc\freeresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\freeresource.htm

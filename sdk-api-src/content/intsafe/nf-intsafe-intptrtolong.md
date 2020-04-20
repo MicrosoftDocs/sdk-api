@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.IntPtrToLong
 title: IntPtrToLong function (intsafe.h)
-description: Converts a value of type INT_PTR to a value of type LONG.
+description: Converts a value of type INT_PTR to a value of type LONG.helpviewer_keywords: ["IntPtrToLong","IntPtrToLong function [Windows Shell]","_shell_IntPtrToLong","intsafe/IntPtrToLong","shell.IntPtrToLong"]
 old-location: shell\IntPtrToLong.htm
 tech.root: shell
 ms.assetid: 43ccfd9b-6bef-4870-ad7a-f207443cf5cf

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_NumberOfExistingTracks
 title: IRawCDImageCreator::get_NumberOfExistingTracks (imapi2.h)
-description: Retrieves the number of existing audio tracks on the media.
+description: Retrieves the number of existing audio tracks on the media.helpviewer_keywords: ["IRawCDImageCreator interface [IMAPI]","get_NumberOfExistingTracks method","IRawCDImageCreator.get_NumberOfExistingTracks","IRawCDImageCreator::get_NumberOfExistingTracks","get_NumberOfExistingTracks","get_NumberOfExistingTracks method [IMAPI]","get_NumberOfExistingTracks method [IMAPI]","IRawCDImageCreator interface","imapi.irawcdimagecreator_get_numberofexistingtracks","imapi2/IRawCDImageCreator::get_NumberOfExistingTracks"]
 old-location: imapi\irawcdimagecreator_get_numberofexistingtracks.htm
 tech.root: imapi
 ms.assetid: c10053d0-d9c1-4ac0-aa38-71dacf1e4425

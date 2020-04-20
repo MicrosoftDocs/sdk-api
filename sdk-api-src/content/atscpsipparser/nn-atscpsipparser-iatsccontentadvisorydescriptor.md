@@ -1,7 +1,7 @@
 ---
 UID: NN:atscpsipparser.IAtscContentAdvisoryDescriptor
 title: IAtscContentAdvisoryDescriptor (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IAtscContentAdvisoryDescriptor","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","described","IAtscContentAdvisoryDescriptorInterface","atscpsipparser/IAtscContentAdvisoryDescriptor","mstv.iatsccontentadvisorydescriptor"]
 old-location: mstv\iatsccontentadvisorydescriptor.htm
 tech.root: mstv
 ms.assetid: b7379d66-c57b-45e0-9c63-901bf3637f21

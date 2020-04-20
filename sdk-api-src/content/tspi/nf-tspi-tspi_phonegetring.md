@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_phoneGetRing
 title: TSPI_phoneGetRing function (tspi.h)
-description: The TSPI_phoneGetRing function enables an application to query the specified open phone device as to its current ring mode.
+description: The TSPI_phoneGetRing function enables an application to query the specified open phone device as to its current ring mode.helpviewer_keywords: ["TSPI_phoneGetRing","TSPI_phoneGetRing function [TAPI 2.2]","_tspi_tspi_phonegetring","tspi.tspi_phonegetring","tspi/TSPI_phoneGetRing"]
 old-location: tspi\tspi_phonegetring.htm
 tech.root: Tapi
 ms.assetid: dcdfff60-e853-4ad7-a2b4-ddfc0ee73a48

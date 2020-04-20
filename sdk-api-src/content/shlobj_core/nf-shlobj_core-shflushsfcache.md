@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHFlushSFCache
 title: SHFlushSFCache function (shlobj_core.h)
-description: SHFlushSFCache may be altered or unavailable.
+description: SHFlushSFCache may be altered or unavailable.helpviewer_keywords: ["SHFlushSFCache","SHFlushSFCache function [Windows Shell]","_win32_SHFlushSFCache","shell.SHFlushSFCache","shlobj_core/SHFlushSFCache"]
 old-location: shell\SHFlushSFCache.htm
 tech.root: shell
 ms.assetid: 2e39b6b1-e60c-411c-aabc-5a3511f0693b

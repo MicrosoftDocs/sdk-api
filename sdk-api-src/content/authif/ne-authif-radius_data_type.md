@@ -1,7 +1,7 @@
 ---
 UID: NE:authif._RADIUS_DATA_TYPE
 title: RADIUS_DATA_TYPE (authif.h)
-description: The RADIUS_DATA_TYPE type enumerates the possible data type for a RADIUS attribute or extended attribute.
+description: The RADIUS_DATA_TYPE type enumerates the possible data type for a RADIUS attribute or extended attribute.helpviewer_keywords: ["RADIUS_DATA_TYPE","RADIUS_DATA_TYPE enumeration [Network Policy Server]","_ias_radius_data_type","authif/RADIUS_DATA_TYPE","authif/rdtAddress","authif/rdtInteger","authif/rdtIpv6Address","authif/rdtString","authif/rdtTime","authif/rdtUnknown","ias.radius_data_type","nps.IAS_radius_data_type","rdtAddress","rdtInteger","rdtIpv6Address","rdtString","rdtTime","rdtUnknown"]
 old-location: nps\IAS_radius_data_type.htm
 tech.root: Nps
 ms.assetid: 620d5c1f-61dc-48af-a1b2-4eaa81e358a7

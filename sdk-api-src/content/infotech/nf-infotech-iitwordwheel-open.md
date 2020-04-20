@@ -1,7 +1,7 @@
 ---
 UID: NF:infotech.IITWordWheel.Open
 title: IITWordWheel::Open (infotech.h)
-description: Opens a word wheel.
+description: Opens a word wheel.helpviewer_keywords: ["IITWordWheel interface [HTML Help Workshop]","Open method","IITWordWheel.Open","IITWordWheel::Open","ITWW_OPEN_CONNECT","Open","Open method [HTML Help Workshop]","Open method [HTML Help Workshop]","IITWordWheel interface","htmlhelp.iitwordwheel_open","infotech/IITWordWheel::Open","refIITWordWheelOpen"]
 old-location: htmlhelp\iitwordwheel_open.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelopen.htm

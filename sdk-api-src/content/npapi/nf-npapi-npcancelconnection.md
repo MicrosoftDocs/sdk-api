@@ -1,7 +1,7 @@
 ---
 UID: NF:npapi.NPCancelConnection
 title: NPCancelConnection function (npapi.h)
-description: Disconnects a network connection.
+description: Disconnects a network connection.helpviewer_keywords: ["NPCancelConnection","NPCancelConnection function [Security]","_mnp_npcancelconnection","npapi/NPCancelConnection","security.npcancelconnection"]
 old-location: security\npcancelconnection.htm
 tech.root: SecAuthN
 ms.assetid: e06768b2-760c-48f1-a6a4-896c3ea286f6

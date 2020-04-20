@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.ITravelEntry.GetPidl
 title: ITravelEntry::GetPidl (shdeprecated.h)
-description: Deprecated. Gets the pointer to an item identifier list (PIDL) associated with the travel entry.
+description: Deprecated. Gets the pointer to an item identifier list (PIDL) associated with the travel entry.helpviewer_keywords: ["GetPidl","GetPidl method [Windows Shell]","GetPidl method [Windows Shell]","ITravelEntry interface","ITravelEntry interface [Windows Shell]","GetPidl method","ITravelEntry.GetPidl","ITravelEntry::GetPidl","shdeprecated/ITravelEntry::GetPidl","shell.ITravelEntry_GetPidl","zone_ITravelEntry_GetPidl"]
 old-location: shell\ITravelEntry_GetPidl.htm
 tech.root: shell
 ms.assetid: 9a3a156f-4d61-4987-b1d8-9e77564d3962

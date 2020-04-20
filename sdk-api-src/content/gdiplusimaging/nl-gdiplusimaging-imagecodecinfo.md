@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplusimaging.ImageCodecInfo
 title: ImageCodecInfo (gdiplusimaging.h)
-description: An ImageCodecInfo object stores information about an image codec (encoder/decoder).
+description: An ImageCodecInfo object stores information about an image codec (encoder/decoder).helpviewer_keywords: ["ImageCodecInfo","ImageCodecInfo class [GDI+]","ImageCodecInfo class [GDI+]","described","_gdiplus_CLASS_ImageCodecInfo_Class","gdiplus._gdiplus_CLASS_ImageCodecInfo_Class","gdiplusimaging/ImageCodecInfo"]
 old-location: gdiplus\_gdiplus_CLASS_ImageCodecInfo_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imagecodecinfo.htm

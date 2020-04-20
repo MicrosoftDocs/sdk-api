@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.D3D10StateBlockMaskIntersect
 title: D3D10StateBlockMaskIntersect function (d3d10effect.h)
-description: Combine two state-block masks with a bitwise AND.
+description: Combine two state-block masks with a bitwise AND.helpviewer_keywords: ["7ef37c3a-8924-5736-9b40-6a56cdf480c7","D3D10StateBlockMaskIntersect","D3D10StateBlockMaskIntersect function [Direct3D 10]","d3d10effect/D3D10StateBlockMaskIntersect","direct3d10.d3d10stateblockmaskintersect"]
 old-location: direct3d10\d3d10stateblockmaskintersect.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskintersect.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetValueByIndex
 title: IWICMetadataReader::GetValueByIndex (wincodecsdk.h)
-description: Gets the metadata item at the given index.
+description: Gets the metadata item at the given index.helpviewer_keywords: ["GetValueByIndex","GetValueByIndex method [Windows Imaging Component]","GetValueByIndex method [Windows Imaging Component]","IWICMetadataReader interface","IWICMetadataReader interface [Windows Imaging Component]","GetValueByIndex method","IWICMetadataReader.GetValueByIndex","IWICMetadataReader::GetValueByIndex","_wic_codec_iwicmetadatareader_getvaluebyindex","wic._wic_codec_iwicmetadatareader_getvaluebyindex","wincodecsdk/IWICMetadataReader::GetValueByIndex"]
 old-location: wic\_wic_codec_iwicmetadatareader_getvaluebyindex.htm
 tech.root: wic
 ms.assetid: dd22e0e6-d607-48ae-a51c-b49003004f1f

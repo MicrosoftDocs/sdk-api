@@ -1,7 +1,7 @@
 ---
 UID: NF:mergemod.IMsmMerge.OpenModule
 title: IMsmMerge::OpenModule (mergemod.h)
-description: The OpenModule method opens a Windows Installer merge module in read-only mode. A module must be opened before it can be merged with an installation database. For more information, see the OpenModule method of the Merge object.
+description: The OpenModule method opens a Windows Installer merge module in read-only mode. A module must be opened before it can be merged with an installation database. For more information, see the OpenModule method of the Merge object.helpviewer_keywords: ["IMsmMerge interface","OpenModule method","IMsmMerge.OpenModule","IMsmMerge::OpenModule","OpenModule","OpenModule method","OpenModule method","IMsmMerge interface","_msi_openmodule_function","mergemod/IMsmMerge::OpenModule","setup.imsmmerge_openmodule"]
 old-location: setup\imsmmerge_openmodule.htm
 tech.root: Msi
 ms.assetid: 37225e61-c24f-4a44-8fdf-673590a6e09d

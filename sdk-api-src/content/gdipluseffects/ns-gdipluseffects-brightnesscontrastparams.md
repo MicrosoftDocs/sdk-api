@@ -1,7 +1,7 @@
 ---
 UID: NS:gdipluseffects.BrightnessContrastParams
 title: BrightnessContrastParams (gdipluseffects.h)
-description: A BrightnessContrastParams structure contains members that specify the nature of a brightness or contrast adjustment.
+description: A BrightnessContrastParams structure contains members that specify the nature of a brightness or contrast adjustment.helpviewer_keywords: ["BrightnessContrastParams","BrightnessContrastParams structure [GDI+]","_gdiplus_STRUC_BrightnessContrastParams","gdiplus._gdiplus_STRUC_BrightnessContrastParams","gdipluseffects/BrightnessContrastParams"]
 old-location: gdiplus\_gdiplus_STRUC_BrightnessContrastParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\brightnesscontrastparams.htm

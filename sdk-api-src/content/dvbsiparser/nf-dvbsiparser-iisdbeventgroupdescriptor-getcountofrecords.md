@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetCountOfRecords
 title: IIsdbEventGroupDescriptor::GetCountOfRecords (dvbsiparser.h)
-description: Gets the number of event records from an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
+description: Gets the number of event records from an Integrated Services Digital Broadcasting (ISDB) event group descriptor.helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IIsdbEventGroupDescriptor interface","IIsdbEventGroupDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IIsdbEventGroupDescriptor.GetCountOfRecords","IIsdbEventGroupDescriptor::GetCountOfRecords","dvbsiparser/IIsdbEventGroupDescriptor::GetCountOfRecords","mstv.iisdbeventgroupdescriptor_getcountofrecords"]
 old-location: mstv\iisdbeventgroupdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: a254840c-c6bd-4245-a0fc-b0b0b63e637a

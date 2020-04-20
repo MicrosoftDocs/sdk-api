@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetOldestEventLogRecord
 title: GetOldestEventLogRecord function (winbase.h)
-description: Retrieves the absolute record number of the oldest record in the specified event log.
+description: Retrieves the absolute record number of the oldest record in the specified event log.helpviewer_keywords: ["GetOldestEventLogRecord","GetOldestEventLogRecord function","_win32_getoldesteventlogrecord","base.getoldesteventlogrecord","winbase/GetOldestEventLogRecord"]
 old-location: base\getoldesteventlogrecord.htm
 tech.root: EventLog
 ms.assetid: 2f64f82b-a5f5-4701-844b-5979a0124414

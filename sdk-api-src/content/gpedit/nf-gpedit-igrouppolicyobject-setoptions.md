@@ -1,7 +1,7 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.SetOptions
 title: IGroupPolicyObject::SetOptions (gpedit.h)
-description: The SetOptions method sets the options for the GPO.
+description: The SetOptions method sets the options for the GPO.helpviewer_keywords: ["GPO_OPTION_DISABLE_MACHINE","GPO_OPTION_DISABLE_USER","IGroupPolicyObject interface [Group Policy]","SetOptions method","IGroupPolicyObject.SetOptions","IGroupPolicyObject::SetOptions","SetOptions","SetOptions method [Group Policy]","SetOptions method [Group Policy]","IGroupPolicyObject interface","_win32_igrouppolicyobject_setoptions","gpedit/IGroupPolicyObject::SetOptions","policy.igrouppolicyobject_setoptions"]
 old-location: policy\igrouppolicyobject_setoptions.htm
 tech.root: Policy
 ms.assetid: 4caed430-2861-49cb-9418-b12bf1c46707

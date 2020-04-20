@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.D2D1InvertMatrix
 title: D2D1InvertMatrix function (d2d1.h)
-description: Tries to invert the specified matrix.
+description: Tries to invert the specified matrix.helpviewer_keywords: ["D2D1InvertMatrix","D2D1InvertMatrix function [Direct2D]","d2d1/D2D1InvertMatrix","direct2d.d2d1invertmatrix"]
 old-location: direct2d\d2d1invertmatrix.htm
 tech.root: Direct2D
 ms.assetid: af01b6df-ada9-4e21-98f0-356b96d1017a

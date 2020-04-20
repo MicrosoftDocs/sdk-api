@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminServerSetCredentials
 title: MprAdminServerSetCredentials function (mprapi.h)
-description: The MprAdminServerSetCredentials functions sets the pre-shared key for the specified server.
+description: The MprAdminServerSetCredentials functions sets the pre-shared key for the specified server.helpviewer_keywords: ["MprAdminServerSetCredentials","MprAdminServerSetCredentials function [RAS]","_mpr_mpradminserversetcredentials","mprapi/MprAdminServerSetCredentials","rras.mpradminserversetcredentials"]
 old-location: rras\mpradminserversetcredentials.htm
 tech.root: RRAS
 ms.assetid: cc77007f-306f-467a-a52f-bf920da15e74

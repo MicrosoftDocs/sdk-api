@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationcore.IProxyProviderWinEventHandler
 title: IProxyProviderWinEventHandler (uiautomationcore.h)
-description: Exposes a method that is implemented by proxy providers to handle WinEvents.
+description: Exposes a method that is implemented by proxy providers to handle WinEvents.helpviewer_keywords: ["IProxyProviderWinEventHandler","IProxyProviderWinEventHandler interface [Windows Accessibility]","IProxyProviderWinEventHandler interface [Windows Accessibility]","described","uiauto.uiauto_IProxyProviderWinEventHandler","uiauto_IProxyProviderWinEventHandler","uiautomationcore/IProxyProviderWinEventHandler","winauto.uiauto_IProxyProviderWinEventHandler"]
 old-location: winauto\uiauto_IProxyProviderWinEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 3105ce04-fc99-494a-8db2-1a221af61c0a

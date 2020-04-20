@@ -1,7 +1,7 @@
 ---
 UID: NF:lmaccess.NetEnumerateServiceAccounts
 title: NetEnumerateServiceAccounts function (lmaccess.h)
-description: Enumerates the standalone managed service accounts (sMSA) on the specified server.
+description: Enumerates the standalone managed service accounts (sMSA) on the specified server.helpviewer_keywords: ["NetEnumerateServiceAccounts","NetEnumerateServiceAccounts function [Security]","lmaccess/NetEnumerateServiceAccounts","security.netenumerateserviceaccounts"]
 old-location: security\netenumerateserviceaccounts.htm
 tech.root: SecMgmt
 ms.assetid: 048116b6-1bae-4dcc-9bd0-a466c395e5d8

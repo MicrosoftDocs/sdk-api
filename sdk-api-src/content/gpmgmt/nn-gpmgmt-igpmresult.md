@@ -1,7 +1,7 @@
 ---
 UID: NN:gpmgmt.IGPMResult
 title: IGPMResult (gpmgmt.h)
-description: The IGPMResult interface contains methods to retrieve status message information while performing various types of GPO processing operations such as restore, import, copy and backup.
+description: The IGPMResult interface contains methods to retrieve status message information while performing various types of GPO processing operations such as restore, import, copy and backup.helpviewer_keywords: ["GPMResult","IGPMResult","IGPMResult interface [GPMC]","IGPMResult interface [GPMC]","described","_win32_igpmresult","gpmc.igpmresult","gpmgmt/IGPMResult"]
 old-location: gpmc\igpmresult.htm
 tech.root: gpmc
 ms.assetid: 0228ed1a-3a8f-486a-9dd8-806ca35c649e

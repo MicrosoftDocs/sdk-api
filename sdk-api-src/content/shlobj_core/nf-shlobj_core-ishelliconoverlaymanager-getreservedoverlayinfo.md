@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IShellIconOverlayManager.GetReservedOverlayInfo
 title: IShellIconOverlayManager::GetReservedOverlayInfo (shlobj_core.h)
-description: Gets the index of the icon overlay or the icon image for the specified file with the specified attributes from one of the reserved overlays.
+description: Gets the index of the icon overlay or the icon image for the specified file with the specified attributes from one of the reserved overlays.helpviewer_keywords: ["GetReservedOverlayInfo","GetReservedOverlayInfo method [Windows Shell]","GetReservedOverlayInfo method [Windows Shell]","IShellIconOverlayManager interface","IShellIconOverlayManager interface [Windows Shell]","GetReservedOverlayInfo method","IShellIconOverlayManager.GetReservedOverlayInfo","IShellIconOverlayManager::GetReservedOverlayInfo","_win32_IShellIconOverlayManager_GetReservedOverlayInfo","shell.IShellIconOverlayManager_GetReservedOverlayInfo","shlobj_core/IShellIconOverlayManager::GetReservedOverlayInfo"]
 old-location: shell\IShellIconOverlayManager_GetReservedOverlayInfo.htm
 tech.root: shell
 ms.assetid: 052e1648-359c-4202-a3ca-c5bd8a7e54e5

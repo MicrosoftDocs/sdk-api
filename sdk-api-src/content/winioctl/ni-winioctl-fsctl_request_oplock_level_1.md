@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_REQUEST_OPLOCK_LEVEL_1
 title: FSCTL_REQUEST_OPLOCK_LEVEL_1
-description: Requests a level 1 opportunistic lock on a file.
+description: Requests a level 1 opportunistic lock on a file.helpviewer_keywords: ["FSCTL_REQUEST_OPLOCK_LEVEL_1","FSCTL_REQUEST_OPLOCK_LEVEL_1 control","FSCTL_REQUEST_OPLOCK_LEVEL_1 control code [Files]","_win32_fsctl_request_oplock_level_1","base.fsctl_request_oplock_level_1","fs.fsctl_request_oplock_level_1","winioctl/FSCTL_REQUEST_OPLOCK_LEVEL_1"]
 old-location: fs\fsctl_request_oplock_level_1.htm
 tech.root: FileIO
 ms.assetid: 625830b1-d99a-49cb-b072-303f076d4d3e

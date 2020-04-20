@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITStream.PauseStream
 title: ITStream::PauseStream (tapi3if.h)
-description: The PauseStream method pauses the stream.
+description: The PauseStream method pauses the stream.helpviewer_keywords: ["ITStream interface [TAPI 2.2]","PauseStream method","ITStream.PauseStream","ITStream::PauseStream","PauseStream","PauseStream method [TAPI 2.2]","PauseStream method [TAPI 2.2]","ITStream interface","_tapi3_itstream_pausestream","tapi3.itstream_pausestream","tapi3if/ITStream::PauseStream"]
 old-location: tapi3\itstream_pausestream.htm
 tech.root: Tapi
 ms.assetid: d7d70dd9-dcac-4b25-9954-10b4d6b436de

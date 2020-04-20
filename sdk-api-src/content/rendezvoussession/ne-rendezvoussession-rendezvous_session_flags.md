@@ -1,7 +1,7 @@
 ---
 UID: NE:rendezvoussession.__MIDL___MIDL_itf_rendezvoussession_0000_0000_0002
 title: RENDEZVOUS_SESSION_FLAGS (rendezvoussession.h)
-description: Provides the list of possible flags for the session invitation.
+description: Provides the list of possible flags for the session invitation.helpviewer_keywords: ["RENDEZVOUS_SESSION_FLAGS","RENDEZVOUS_SESSION_FLAGS enumeration [Remote Assistance]","RSF_INVITEE","RSF_INVITER","RSF_NONE","RSF_ORIGINAL_INVITER","RSF_REMOTE_LEGACYSESSION","remoteassist.remoteassist_RENDEZVOUS_SESSION_FLAGS","remoteassist_RENDEZVOUS_SESSION_FLAGS","rendezvoussession/RENDEZVOUS_SESSION_FLAGS","rendezvoussession/RSF_INVITEE","rendezvoussession/RSF_INVITER","rendezvoussession/RSF_NONE","rendezvoussession/RSF_ORIGINAL_INVITER","rendezvoussession/RSF_REMOTE_LEGACYSESSION"]
 old-location: remoteassist\remoteassist_RENDEZVOUS_SESSION_FLAGS.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\enums\rendezvous_session_flags.htm

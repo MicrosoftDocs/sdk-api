@@ -1,7 +1,7 @@
 ---
 UID: NE:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0027
 title: MPEG_CONTEXT_TYPE (mpeg2structs.h)
-description: The MPEG_CONTEXT_TYPE enumeration type identifies the source of an MPEG-2 data stream.
+description: The MPEG_CONTEXT_TYPE enumeration type identifies the source of an MPEG-2 data stream.helpviewer_keywords: ["MPEG_CONTEXT_BCS_DEMUX","MPEG_CONTEXT_TYPE","MPEG_CONTEXT_TYPE enumeration [Microsoft TV Technologies]","MPEG_CONTEXT_WINSOCK","mpeg2structs/MPEG_CONTEXT_BCS_DEMUX","mpeg2structs/MPEG_CONTEXT_TYPE","mpeg2structs/MPEG_CONTEXT_WINSOCK","mstv.mpeg_context_type"]
 old-location: mstv\mpeg_context_type.htm
 tech.root: mstv
 ms.assetid: cb76873e-78d0-4fd2-9caa-bff4ae250073

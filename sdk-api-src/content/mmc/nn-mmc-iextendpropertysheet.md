@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.IExtendPropertySheet
 title: IExtendPropertySheet (mmc.h)
-description: Enables a snap-in component to add pages to the property sheet of an item.
+description: Enables a snap-in component to add pages to the property sheet of an item.helpviewer_keywords: ["IExtendPropertySheet","IExtendPropertySheet interface [MMC]","IExtendPropertySheet interface [MMC]","described","mmc.iextendpropertysheet","mmc/IExtendPropertySheet"]
 old-location: mmc\iextendpropertysheet.htm
 tech.root: mmc
 ms.assetid: BE0AD832-0FF0-44ED-BD11-3F9BD2860DE5

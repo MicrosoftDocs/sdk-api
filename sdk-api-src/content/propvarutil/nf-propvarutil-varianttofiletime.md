@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.VariantToFileTime
 title: VariantToFileTime function (propvarutil.h)
-description: Extracts a FILETIME structure from a variant structure.
+description: Extracts a FILETIME structure from a variant structure.helpviewer_keywords: ["PSTF_LOCAL","PSTF_UTC","VariantToFileTime","VariantToFileTime function [Windows Properties]","_shell_VariantToFileTime","properties.VariantToFileTime","propvarutil/VariantToFileTime","shell.VariantToFileTime"]
 old-location: properties\VariantToFileTime.htm
 tech.root: properties
 ms.assetid: e3094bd1-e641-43d8-8bc5-926c8d5a6ebe

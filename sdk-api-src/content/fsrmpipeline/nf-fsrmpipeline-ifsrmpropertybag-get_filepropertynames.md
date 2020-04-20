@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_FilePropertyNames
 title: IFsrmPropertyBag::get_FilePropertyNames (fsrmpipeline.h)
-description: A list of the names of the properties that the bag contains.
+description: A list of the names of the properties that the bag contains.helpviewer_keywords: ["FilePropertyNames property [File Server Resource Manager]","FilePropertyNames property [File Server Resource Manager]","IFsrmPropertyBag interface","IFsrmPropertyBag interface [File Server Resource Manager]","FilePropertyNames property","IFsrmPropertyBag.FilePropertyNames","IFsrmPropertyBag.get_FilePropertyNames","IFsrmPropertyBag::FilePropertyNames","IFsrmPropertyBag::get_FilePropertyNames","fs.ifsrmpropertybag_filepropertynames","fsrm.ifsrmpropertybag_filepropertynames","fsrmpipeline/IFsrmPropertyBag::FilePropertyNames","fsrmpipeline/IFsrmPropertyBag::get_FilePropertyNames","get_FilePropertyNames"]
 old-location: fsrm\ifsrmpropertybag_filepropertynames.htm
 tech.root: fsrm
 ms.assetid: 5dfbf1a8-99a4-4348-8fc4-9d582330be57

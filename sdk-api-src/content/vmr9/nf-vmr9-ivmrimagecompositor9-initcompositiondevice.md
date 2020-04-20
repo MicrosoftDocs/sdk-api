@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRImageCompositor9.InitCompositionDevice
 title: IVMRImageCompositor9::InitCompositionDevice (vmr9.h)
-description: The InitCompositionDevice method informs the compositor that a new composition target has been created.
+description: The InitCompositionDevice method informs the compositor that a new composition target has been created.helpviewer_keywords: ["IVMRImageCompositor9 interface [DirectShow]","InitCompositionDevice method","IVMRImageCompositor9.InitCompositionDevice","IVMRImageCompositor9::InitCompositionDevice","IVMRImageCompositor9InitCompositionDevice","InitCompositionDevice","InitCompositionDevice method [DirectShow]","InitCompositionDevice method [DirectShow]","IVMRImageCompositor9 interface","dshow.ivmrimagecompositor9_initcompositiondevice","vmr9/IVMRImageCompositor9::InitCompositionDevice"]
 old-location: dshow\ivmrimagecompositor9_initcompositiondevice.htm
 tech.root: DirectShow
 ms.assetid: 78381141-6b6d-4ed5-b8d3-aa1114fd9ac0

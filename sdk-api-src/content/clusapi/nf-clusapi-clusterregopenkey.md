@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterRegOpenKey
 title: ClusterRegOpenKey function (clusapi.h)
-description: Opens an existing cluster database key.
+description: Opens an existing cluster database key.helpviewer_keywords: ["ClusterRegOpenKey","ClusterRegOpenKey function [Failover Cluster]","_wolf_clusterregopenkey","clusapi/ClusterRegOpenKey","mscs.clusterregopenkey"]
 old-location: mscs\clusterregopenkey.htm
 tech.root: MsCS
 ms.assetid: f2cf204e-d02d-40b9-86d7-0262b8cc4db1

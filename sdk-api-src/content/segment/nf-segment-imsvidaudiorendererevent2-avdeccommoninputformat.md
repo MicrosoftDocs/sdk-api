@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDecCommonInputFormat
 title: IMSVidAudioRendererEvent2::AVDecCommonInputFormat (segment.h)
-description: Indicates a change in the AVDecCommonInputFormat codec property.
+description: Indicates a change in the AVDecCommonInputFormat codec property.helpviewer_keywords: ["AVDecCommonInputFormat","AVDecCommonInputFormat method [Microsoft TV Technologies]","AVDecCommonInputFormat method [Microsoft TV Technologies]","IMSVidAudioRendererEvent2 interface","IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies]","AVDecCommonInputFormat method","IMSVidAudioRendererEvent2.AVDecCommonInputFormat","IMSVidAudioRendererEvent2::AVDecCommonInputFormat","mstv.imsvidaudiorendererevent2_avdeccommoninputformat","segment/IMSVidAudioRendererEvent2::AVDecCommonInputFormat"]
 old-location: mstv\imsvidaudiorendererevent2_avdeccommoninputformat.htm
 tech.root: mstv
 ms.assetid: 7a1e26b8-ef4d-4697-b08e-28685174c177

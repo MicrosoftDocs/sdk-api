@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmEnableBlurBehindWindow
 title: DwmEnableBlurBehindWindow function (dwmapi.h)
-description: Enables the blur effect on a specified window.
+description: Enables the blur effect on a specified window.helpviewer_keywords: ["DwmEnableBlurBehindWindow","DwmEnableBlurBehindWindow function [Desktop Window Manager]","_udwm_dwmenableblurbehindwindow","_udwm_dwmenableblurbehindwindow_cpp","dwm.dwmenableblurbehindwindow","dwmapi/DwmEnableBlurBehindWindow","winui._udwm_dwmenableblurbehindwindow"]
 old-location: dwm\dwmenableblurbehindwindow.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmenableblurbehindwindow.htm

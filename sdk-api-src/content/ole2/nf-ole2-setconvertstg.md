@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.SetConvertStg
 title: SetConvertStg function (ole2.h)
-description: The SetConvertStg function sets the convert bit in a storage object to indicate that the object is to be converted to a new class when it is opened. The setting can be retrieved with a call to the GetConvertStg function.
+description: The SetConvertStg function sets the convert bit in a storage object to indicate that the object is to be converted to a new class when it is opened. The setting can be retrieved with a call to the GetConvertStg function.helpviewer_keywords: ["SetConvertStg","SetConvertStg function [Structured Storage]","_stg_setconvertstg","ole2/SetConvertStg","stg.setconvertstg"]
 old-location: stg\setconvertstg.htm
 tech.root: Stg
 ms.assetid: 98c8fd20-6384-4656-941c-1f24d9a4d4a9

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_DECODE_CONFIGURATION_FLAGS
 title: D3D12_VIDEO_DECODE_CONFIGURATION_FLAGS
-description: Specifies the configuration for video decoding.
+description: Specifies the configuration for video decoding.helpviewer_keywords: ["D3D12_VIDEO_DECODE_CONFIGURATION_FLAGS","D3D12_VIDEO_DECODE_CONFIGURATION_FLAGS",""]
 tech.root: mf
 ms.assetid: bc59fda4-a50d-4e4e-abea-f539cfb7c8a7
 ms.date: 05/28/2019

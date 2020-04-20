@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsecure.IWMAuthorizer.GetCert
 title: IWMAuthorizer::GetCert (wmsecure.h)
-description: Retrieves the specified certificate.
+description: Retrieves the specified certificate.helpviewer_keywords: ["GetCert","GetCert method [windows Media Format]","GetCert method [windows Media Format]","IWMAuthorizer interface","IWMAuthorizer interface [windows Media Format]","GetCert method","IWMAuthorizer.GetCert","IWMAuthorizer::GetCert","wmformat.iwmauthorizer_getcert","wmsecure/IWMAuthorizer::GetCert"]
 old-location: wmformat\iwmauthorizer_getcert.htm
 tech.root: wmformat
 ms.assetid: e165356c-b14b-47dc-b046-a74499251cab

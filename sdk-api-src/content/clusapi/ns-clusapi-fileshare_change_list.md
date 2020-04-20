@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._FILESHARE_CHANGE_LIST
 title: FILESHARE_CHANGE_LIST (clusapi.h)
-description: Describes an event notification list for file shares managed by the File Server resource.
+description: Describes an event notification list for file shares managed by the File Server resource.helpviewer_keywords: ["*PFILESHARE_CHANGE_LIST","FILESHARE_CHANGE_LIST","FILESHARE_CHANGE_LIST structure [Failover Cluster]","PFILESHARE_CHANGE_LIST","PFILESHARE_CHANGE_LIST structure pointer [Failover Cluster]","clusapi/FILESHARE_CHANGE_LIST","clusapi/PFILESHARE_CHANGE_LIST","mscs.fileshare_change_list"]
 old-location: mscs\fileshare_change_list.htm
 tech.root: MsCS
 ms.assetid: 7bc77f09-8984-497c-9d86-d8e8d4b55b94

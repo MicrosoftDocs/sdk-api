@@ -1,7 +1,7 @@
 ---
 UID: NN:cluadmex.IWEExtendWizard97
 title: IWEExtendWizard97 (cluadmex.h)
-description: Implement the IWEExtendWizard97 interface to add Wizard97-style wizard pages to a Failover Cluster Administrator wizard.
+description: Implement the IWEExtendWizard97 interface to add Wizard97-style wizard pages to a Failover Cluster Administrator wizard.helpviewer_keywords: ["IWEExtendWizard97","IWEExtendWizard97 interface [Failover Cluster]","IWEExtendWizard97 interface [Failover Cluster]","described","_wolf_iweextendwizard97","cluadmex/IWEExtendWizard97","mscs.iweextendwizard97"]
 old-location: mscs\iweextendwizard97.htm
 tech.root: MsCS
 ms.assetid: 3473dc89-8676-4b13-b3c8-f112c0b9cf8c

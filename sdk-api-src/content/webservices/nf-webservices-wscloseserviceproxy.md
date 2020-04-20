@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsCloseServiceProxy
 title: WsCloseServiceProxy function (webservices.h)
-description: Closes down communication with the specified service proxy.
+description: Closes down communication with the specified service proxy.helpviewer_keywords: ["WsCloseServiceProxy","WsCloseServiceProxy function [Web Services for Windows]","webservices/WsCloseServiceProxy","wsw.wscloseserviceproxy"]
 old-location: wsw\wscloseserviceproxy.htm
 tech.root: wsw
 ms.assetid: 034f9c60-5616-4ec7-9773-b34bde2e26c6

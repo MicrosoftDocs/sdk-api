@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.KillTimer
 title: KillTimer function (winuser.h)
-description: Destroys the specified timer.
+description: Destroys the specified timer.helpviewer_keywords: ["KillTimer","KillTimer function [Windows and Messages]","_win32_KillTimer","_win32_killtimer_cpp","winmsg.killtimer","winui._win32_killtimer","winuser/KillTimer"]
 old-location: winmsg\killtimer.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\killtimer.htm

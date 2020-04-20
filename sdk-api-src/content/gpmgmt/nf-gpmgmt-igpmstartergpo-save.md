@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.Save
 title: IGPMStarterGPO::Save (gpmgmt.h)
-description: Saves all Starter GPO settings into a single CAB file.
+description: Saves all Starter GPO settings into a single CAB file.helpviewer_keywords: ["IGPMStarterGPO interface [GPMC]","Save method","IGPMStarterGPO.Save","IGPMStarterGPO::Save","Save","Save method [GPMC]","Save method [GPMC]","IGPMStarterGPO interface","gpmc.igpmstartergpo_save","gpmgmt/IGPMStarterGPO::Save"]
 old-location: gpmc\igpmstartergpo_save.htm
 tech.root: gpmc
 ms.assetid: 3262513c-9909-47b9-a425-41f913204f16

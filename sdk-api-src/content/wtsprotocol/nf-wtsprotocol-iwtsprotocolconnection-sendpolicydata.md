@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.SendPolicyData
 title: IWTSProtocolConnection::SendPolicyData (wtsprotocol.h)
-description: IWTSProtocolConnection::SendPolicyData is no longer available. Instead, use IWRdsProtocolManager::NotifySettingsChange.
+description: IWTSProtocolConnection::SendPolicyData is no longer available. Instead, use IWRdsProtocolManager::NotifySettingsChange.helpviewer_keywords: ["IWTSProtocolConnection interface [Remote Desktop Services]","SendPolicyData method","IWTSProtocolConnection.SendPolicyData","IWTSProtocolConnection::SendPolicyData","SendPolicyData","SendPolicyData method [Remote Desktop Services]","SendPolicyData method [Remote Desktop Services]","IWTSProtocolConnection interface","termserv.iwtsprotocolconnection_sendpolicydata","wtsprotocol/IWTSProtocolConnection::SendPolicyData"]
 old-location: termserv\iwtsprotocolconnection_sendpolicydata.htm
 tech.root: TermServ
 ms.assetid: b3fcc213-8257-433f-b304-ce19bc209591

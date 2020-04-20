@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.Arc
 title: Arc function (wingdi.h)
-description: The Arc function draws an elliptical arc.
+description: The Arc function draws an elliptical arc.helpviewer_keywords: ["Arc","Arc function [Windows GDI]","_win32_Arc","gdi.arc","wingdi/Arc"]
 old-location: gdi\arc.htm
 tech.root: gdi
 ms.assetid: c15a2173-0fad-4a8a-b0f9-cd39fe4e7bac

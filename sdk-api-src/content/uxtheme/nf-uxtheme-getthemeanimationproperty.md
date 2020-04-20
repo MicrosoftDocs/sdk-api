@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.GetThemeAnimationProperty
 title: GetThemeAnimationProperty function (uxtheme.h)
-description: Gets a theme animation property based on the storyboard id and the target id.
+description: Gets a theme animation property based on the storyboard id and the target id.helpviewer_keywords: ["GetThemeAnimationProperty","GetThemeAnimationProperty function [Windows Controls]","controls.getthemeanimationproperty","uxtheme/GetThemeAnimationProperty"]
 old-location: controls\getthemeanimationproperty.htm
 tech.root: Controls
 ms.assetid: CEFB457B-2022-4FCC-AF1E-78A62D62E034

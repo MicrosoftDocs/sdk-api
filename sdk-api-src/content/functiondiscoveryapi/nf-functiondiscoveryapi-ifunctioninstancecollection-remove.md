@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Remove
 title: IFunctionInstanceCollection::Remove (functiondiscoveryapi.h)
-description: Deletes the specified function instance and returns a pointer to the function instance being removed.
+description: Deletes the specified function instance and returns a pointer to the function instance being removed.helpviewer_keywords: ["IFunctionInstanceCollection interface","Remove method","IFunctionInstanceCollection.Remove","IFunctionInstanceCollection::Remove","Remove","Remove method","Remove method","IFunctionInstanceCollection interface","functiondiscoveryapi/IFunctionInstanceCollection::Remove","ncd.ifunctioninstancecollection_remove"]
 old-location: ncd\ifunctioninstancecollection_remove.htm
 tech.root: FunDisc
 ms.assetid: e5abe3e0-a07c-45e4-a590-133f6b30a7f7

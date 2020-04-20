@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarDiv
 title: VarDiv function (oleauto.h)
-description: Returns the result from dividing two variants.
+description: Returns the result from dividing two variants.helpviewer_keywords: ["VarDiv","VarDiv function [Automation]","_oa96_VarDiv","automat.vardiv","oleauto/VarDiv"]
 old-location: automat\vardiv.htm
 tech.root: automat
 ms.assetid: 63cd466d-da23-4c61-ba7c-899f56f02245

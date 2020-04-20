@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._QualityOfService
 title: QOS (winsock2.h)
-description: The QOS structure provides the means by which QOS-enabled applications can specify quality of service parameters for sent and received traffic on a particular flow.
+description: The QOS structure provides the means by which QOS-enabled applications can specify quality of service parameters for sent and received traffic on a particular flow.helpviewer_keywords: ["*LPQOS","LPQOS","LPQOS structure pointer [QOS]","QOS","QOS structure [QOS]","_gqos_qos","qos.qos","winsock2/LPQOS","winsock2/QOS"]
 old-location: qos\qos.htm
 tech.root: QOS
 ms.assetid: 859faa13-bd66-46ee-8452-6ff5d53d66c9

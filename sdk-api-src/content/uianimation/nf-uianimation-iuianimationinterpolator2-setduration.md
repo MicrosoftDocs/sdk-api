@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator2.SetDuration
 title: IUIAnimationInterpolator2::SetDuration (uianimation.h)
-description: Sets the duration of the transition in the given dimension.
+description: Sets the duration of the transition in the given dimension.helpviewer_keywords: ["IUIAnimationInterpolator2 interface [Windows Animation]","SetDuration method","IUIAnimationInterpolator2.SetDuration","IUIAnimationInterpolator2::SetDuration","SetDuration","SetDuration method [Windows Animation]","SetDuration method [Windows Animation]","IUIAnimationInterpolator2 interface","uianimation.iuianimationinterpolator2_setduration","uianimation/IUIAnimationInterpolator2::SetDuration"]
 old-location: uianimation\iuianimationinterpolator2_setduration.htm
 tech.root: UIAnimation
 ms.assetid: C1E6EC87-283A-4C56-96C5-531C5C5F5575

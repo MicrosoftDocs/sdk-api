@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ComboBox_ResetContent
 title: ComboBox_ResetContent macro (windowsx.h)
-description: Removes all items from the list box and edit control of a combo box. You can use this macro or send the CB_RESETCONTENT message explicitly.
+description: Removes all items from the list box and edit control of a combo box. You can use this macro or send the CB_RESETCONTENT message explicitly.helpviewer_keywords: ["ComboBox_ResetContent","ComboBox_ResetContent macro [Windows Controls]","_win32_ComboBox_ResetContent","_win32_ComboBox_ResetContent_cpp","controls.ComboBox_ResetContent","controls._win32_ComboBox_ResetContent","windowsx/ComboBox_ResetContent"]
 old-location: controls\ComboBox_ResetContent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_resetcontent.htm

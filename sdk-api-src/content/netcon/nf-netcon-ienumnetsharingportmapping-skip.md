@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.IEnumNetSharingPortMapping.Skip
 title: IEnumNetSharingPortMapping::Skip (netcon.h)
-description: The Skip method skips the specified number of port mappings for this enumeration.
+description: The Skip method skips the specified number of port mappings for this enumeration.helpviewer_keywords: ["IEnumNetSharingPortMapping interface [ICS/ICF]","Skip method","IEnumNetSharingPortMapping.Skip","IEnumNetSharingPortMapping::Skip","Skip","Skip method [ICS/ICF]","Skip method [ICS/ICF]","IEnumNetSharingPortMapping interface","_ics_ienumnetsharingportmapping_skip","ics.ienumnetsharingportmapping_skip","netcon/IEnumNetSharingPortMapping::Skip"]
 old-location: ics\ienumnetsharingportmapping_skip.htm
 tech.root: ics
 ms.assetid: b041a1fd-fe33-4519-8ac2-106903c5892f

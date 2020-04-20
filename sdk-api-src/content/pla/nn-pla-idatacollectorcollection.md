@@ -1,7 +1,7 @@
 ---
 UID: NN:pla.IDataCollectorCollection
 title: IDataCollectorCollection (pla.h)
-description: Manages a collection of DataCollector objects.To get this interface, access the IDataCollectorSet::DataCollectors property.
+description: Manages a collection of DataCollector objects.To get this interface, access the IDataCollectorSet::DataCollectors property.helpviewer_keywords: ["IDataCollectorCollection","IDataCollectorCollection interface [PLA]","IDataCollectorCollection interface [PLA]","described","base.idatacollectorcollection","pla.idatacollectorcollection","pla/IDataCollectorCollection"]
 old-location: pla\idatacollectorcollection.htm
 tech.root: PLA
 ms.assetid: 6b47fb9d-6ca4-4e6b-b117-027ef1e963ac

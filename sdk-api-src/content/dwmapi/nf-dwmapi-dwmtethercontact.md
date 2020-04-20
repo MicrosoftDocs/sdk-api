@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmTetherContact
 title: DwmTetherContact function (dwmapi.h)
-description: Enables the graphical feedback of touch and drag interactions to the user.
+description: Enables the graphical feedback of touch and drag interactions to the user.helpviewer_keywords: ["DwmTetherContact","DwmTetherContact function [Desktop Window Manager]","dwm.dwmtethercontact","dwmapi/DwmTetherContact"]
 old-location: dwm\dwmtethercontact.htm
 tech.root: dwm
 ms.assetid: 9F7EFFD4-A69A-435B-8B73-A789F7BDE7BB

@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeComp.BindType
 title: ITypeComp::BindType (oaidl.h)
-description: Binds to the type descriptions contained within a type library.
+description: Binds to the type descriptions contained within a type library.helpviewer_keywords: ["BindType","BindType method [Automation]","BindType method [Automation]","ITypeComp interface","ITypeComp interface [Automation]","BindType method","ITypeComp.BindType","ITypeComp::BindType","_oa96_ITypeComp_BindType","automat.itypecomp_bindtype","oaidl/ITypeComp::BindType"]
 old-location: automat\itypecomp_bindtype.htm
 tech.root: automat
 ms.assetid: e1b6eb9c-aa5a-41b9-bc97-afa82206ccef

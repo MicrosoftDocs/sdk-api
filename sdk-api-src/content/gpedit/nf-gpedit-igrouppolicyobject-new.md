@@ -1,7 +1,7 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.New
 title: IGroupPolicyObject::New (gpedit.h)
-description: The New method creates a new GPO in the Active Directory with the specified display name. The method opens the GPO using the OpenDSGPO method.
+description: The New method creates a new GPO in the Active Directory with the specified display name. The method opens the GPO using the OpenDSGPO method.helpviewer_keywords: ["GPO_OPEN_LOAD_REGISTRY","GPO_OPEN_READ_ONLY","IGroupPolicyObject interface [Group Policy]","New method","IGroupPolicyObject.New","IGroupPolicyObject::New","New","New method [Group Policy]","New method [Group Policy]","IGroupPolicyObject interface","_win32_igrouppolicyobject_new","gpedit/IGroupPolicyObject::New","policy.igrouppolicyobject_new"]
 old-location: policy\igrouppolicyobject_new.htm
 tech.root: Policy
 ms.assetid: e251cac2-8fc8-4ed0-b940-4a9f47eca26b

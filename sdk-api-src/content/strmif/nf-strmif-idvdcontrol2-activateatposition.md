@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl2.ActivateAtPosition
 title: IDvdControl2::ActivateAtPosition (strmif.h)
-description: The ActivateAtPosition method activates the menu button under the mouse pointer position.
+description: The ActivateAtPosition method activates the menu button under the mouse pointer position.helpviewer_keywords: ["ActivateAtPosition","ActivateAtPosition method [DirectShow]","ActivateAtPosition method [DirectShow]","IDvdControl2 interface","IDvdControl2 interface [DirectShow]","ActivateAtPosition method","IDvdControl2.ActivateAtPosition","IDvdControl2::ActivateAtPosition","IDvdControl2ActivateAtPosition","dshow.idvdcontrol2_activateatposition","strmif/IDvdControl2::ActivateAtPosition"]
 old-location: dshow\idvdcontrol2_activateatposition.htm
 tech.root: DirectShow
 ms.assetid: ff9eb02c-09c0-4b58-8e38-ec84ab1f1c42

@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.FinishAllStoryboards
 title: IUIAnimationManager::FinishAllStoryboards (uianimation.h)
-description: Finishes all active storyboards within the specified time interval.
+description: Finishes all active storyboards within the specified time interval.helpviewer_keywords: ["FinishAllStoryboards","FinishAllStoryboards method [Windows Animation]","FinishAllStoryboards method [Windows Animation]","IUIAnimationManager interface","IUIAnimationManager interface [Windows Animation]","FinishAllStoryboards method","IUIAnimationManager.FinishAllStoryboards","IUIAnimationManager::FinishAllStoryboards","uianimation.iuianimationmanager_finishallstoryboards","uianimation/IUIAnimationManager::FinishAllStoryboards"]
 old-location: uianimation\iuianimationmanager_finishallstoryboards.htm
 tech.root: UIAnimation
 ms.assetid: db5ba70c-3904-4053-881a-b1412beb35f3

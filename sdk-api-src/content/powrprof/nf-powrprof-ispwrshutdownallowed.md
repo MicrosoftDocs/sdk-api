@@ -1,7 +1,7 @@
 ---
 UID: NF:powrprof.IsPwrShutdownAllowed
 title: IsPwrShutdownAllowed function (powrprof.h)
-description: Determines whether the computer supports the soft off power state.
+description: Determines whether the computer supports the soft off power state.helpviewer_keywords: ["IsPwrShutdownAllowed","IsPwrShutdownAllowed function","_win32_ispwrshutdownallowed","base.ispwrshutdownallowed","powrprof/IsPwrShutdownAllowed"]
 old-location: base\ispwrshutdownallowed.htm
 tech.root: power
 ms.assetid: e48d6f67-225b-40f7-902b-0e65112303b9

@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.foundation.IPropertyValue
 title: IPropertyValue (windows.foundation.h)
-description: Represents a value in a Windows Runtime property store.
+description: Represents a value in a Windows Runtime property store.helpviewer_keywords: ["IPropertyValue","IPropertyValue interface [Windows Runtime]","IPropertyValue interface [Windows Runtime]","described","windows/IPropertyValue","winrt.ipropertyvalue"]
 old-location: winrt\ipropertyvalue.htm
 tech.root: WinRT
 ms.assetid: 447625BA-F982-4155-9B05-E478E1229443

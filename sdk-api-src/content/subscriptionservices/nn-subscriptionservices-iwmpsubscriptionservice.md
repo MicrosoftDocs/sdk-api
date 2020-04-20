@@ -1,7 +1,7 @@
 ---
 UID: NN:subscriptionservices.IWMPSubscriptionService
 title: IWMPSubscriptionService (subscriptionservices.h)
-description: Note  This section describes functionality designed for use by online stores.
+description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPSubscriptionService","IWMPSubscriptionService interface [Windows Media Player]","IWMPSubscriptionService interface [Windows Media Player]","described","IWMPSubscriptionServiceInterface","subscriptionservices/IWMPSubscriptionService","wmp.iwmpsubscriptionservice"]
 old-location: wmp\iwmpsubscriptionservice.htm
 tech.root: WMP
 ms.assetid: cb9d0f20-d5ca-4db9-adcc-0a803f97f196

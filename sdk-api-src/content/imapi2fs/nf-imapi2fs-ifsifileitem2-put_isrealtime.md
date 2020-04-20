@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.put_IsRealTime
 title: IFsiFileItem2::put_IsRealTime (imapi2fs.h)
-description: Sets the 'Real-Time' attribute of a file in a file system. This attribute specifies whether or not the content requires a minimum data-transfer rate when writing or reading, for example, audio and video data.
+description: Sets the 'Real-Time' attribute of a file in a file system. This attribute specifies whether or not the content requires a minimum data-transfer rate when writing or reading, for example, audio and video data.helpviewer_keywords: ["IFsiFileItem2 interface [IMAPI]","put_IsRealTime method","IFsiFileItem2.put_IsRealTime","IFsiFileItem2::put_IsRealTime","imapi.ifsifileitem2_put_isrealtime","imapi2fs/IFsiFileItem2::put_IsRealTime","put_IsRealTime","put_IsRealTime method [IMAPI]","put_IsRealTime method [IMAPI]","IFsiFileItem2 interface"]
 old-location: imapi\ifsifileitem2_put_isrealtime.htm
 tech.root: imapi
 ms.assetid: 69ec720a-67b3-4cd7-b291-feb303ab1803

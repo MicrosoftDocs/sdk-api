@@ -1,7 +1,7 @@
 ---
 UID: NF:fhsvcctl.FhServiceStopBackup
 title: FhServiceStopBackup function (fhsvcctl.h)
-description: This function stops an ongoing backup cycle for the current user.
+description: This function stops an ongoing backup cycle for the current user.helpviewer_keywords: ["FhServiceStopBackup","FhServiceStopBackup function [Windows API]","fhsvcctl/FhServiceStopBackup","winprog.fhservicestopbackup"]
 old-location: winprog\fhservicestopbackup.htm
 tech.root: DevNotes
 ms.assetid: 17FCD464-2543-454A-B60E-E37EDF61C595

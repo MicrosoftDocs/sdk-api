@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Class_PropertyW
 title: CM_Get_Class_PropertyW function (cfgmgr32.h)
-description: The CM_Get_Class_Property function retrieves a device property that is set for a device interface class or device setup class.
+description: The CM_Get_Class_Property function retrieves a device property that is set for a device interface class or device setup class.helpviewer_keywords: ["CM_Get_Class_Property","CM_Get_Class_Property function [Device and Driver Installation]","CM_Get_Class_PropertyW","cfgmgr32/CM_Get_Class_Property","cfgmgr32/CM_Get_Class_PropertyW","devinst.cm_get_class_property"]
 old-location: devinst\cm_get_class_property.htm
 tech.root: devinst
 ms.assetid: D2388F05-20BC-42E5-907E-A7DD89448AF3

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.Suspend
 title: IPackageDebugSettings::Suspend (shobjidl_core.h)
-description: Suspends the processes of the package if they are currently running.
+description: Suspends the processes of the package if they are currently running.helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","Suspend method","IPackageDebugSettings.Suspend","IPackageDebugSettings::Suspend","Suspend","Suspend method [Windows Shell]","Suspend method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_Suspend","shobjidl_core/IPackageDebugSettings::Suspend"]
 old-location: shell\IPackageDebugSettings_Suspend.htm
 tech.root: shell
 ms.assetid: b1a62712-cd03-4728-b0f1-c1b543f2e056

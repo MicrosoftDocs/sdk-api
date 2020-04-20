@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnTextChange
 title: ITextStoreACPSink::OnTextChange (textstor.h)
-description: ITextStoreACPSink::OnTextChange method
+description: ITextStoreACPSink::OnTextChange methodhelpviewer_keywords: ["0","ITextStoreACPSink interface [Text Services Framework]","OnTextChange method","ITextStoreACPSink.OnTextChange","ITextStoreACPSink::OnTextChange","OnTextChange","OnTextChange method [Text Services Framework]","OnTextChange method [Text Services Framework]","ITextStoreACPSink interface","TS_ST_CORRECTION","_tsf_itextstoreacpsink_ontextchange_ref","textstor/ITextStoreACPSink::OnTextChange","tsf.itextstoreacpsink_ontextchange"]
 old-location: tsf\itextstoreacpsink_ontextchange.htm
 tech.root: TSF
 ms.assetid: ed11ebb8-312b-40c7-90de-f5aa7591afd2

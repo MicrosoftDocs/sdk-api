@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManSetSessionOption
 title: WSManSetSessionOption function (wsman.h)
-description: Sets an extended set of options for the session.
+description: Sets an extended set of options for the session.helpviewer_keywords: ["WSManSetSessionOption","WSManSetSessionOption function [Windows Remote Management]","winrm.wsmansetsessionoption","wsman/WSManSetSessionOption"]
 old-location: winrm\wsmansetsessionoption.htm
 tech.root: winrm
 ms.assetid: e6d21412-49c5-4e04-974d-28e0165ddb69

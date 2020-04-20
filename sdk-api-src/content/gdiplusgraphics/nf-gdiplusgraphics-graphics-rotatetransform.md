@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.RotateTransform
 title: Graphics::RotateTransform (gdiplusgraphics.h)
-description: The Graphics::RotateTransform method updates the world transformation matrix of this Graphics object with the product of itself and a rotation matrix.
+description: The Graphics::RotateTransform method updates the world transformation matrix of this Graphics object with the product of itself and a rotation matrix.helpviewer_keywords: ["Graphics class [GDI+]","RotateTransform method","Graphics.RotateTransform","Graphics::RotateTransform","RotateTransform","RotateTransform method [GDI+]","RotateTransform method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_RotateTransform_angle_order_","gdiplus._gdiplus_CLASS_Graphics_RotateTransform_angle_order_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_RotateTransform_angle_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\rotatetransform.htm

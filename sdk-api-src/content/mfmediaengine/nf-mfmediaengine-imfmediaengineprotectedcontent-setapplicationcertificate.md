@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.SetApplicationCertificate
 title: IMFMediaEngineProtectedContent::SetApplicationCertificate (mfmediaengine.h)
-description: Sets the application's certificate.
+description: Sets the application's certificate.helpviewer_keywords: ["IMFMediaEngineProtectedContent interface [Media Foundation]","SetApplicationCertificate method","IMFMediaEngineProtectedContent.SetApplicationCertificate","IMFMediaEngineProtectedContent::SetApplicationCertificate","SetApplicationCertificate","SetApplicationCertificate method [Media Foundation]","SetApplicationCertificate method [Media Foundation]","IMFMediaEngineProtectedContent interface","mf.imfmediaengineprotectedcontent_setapplicationcertificate","mfmediaengine/IMFMediaEngineProtectedContent::SetApplicationCertificate"]
 old-location: mf\imfmediaengineprotectedcontent_setapplicationcertificate.htm
 tech.root: medfound
 ms.assetid: 2D1F31B1-9A4E-4B94-93FF-255B3006C904

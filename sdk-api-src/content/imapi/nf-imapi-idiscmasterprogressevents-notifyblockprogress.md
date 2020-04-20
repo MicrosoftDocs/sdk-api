@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyBlockProgress
 title: IDiscMasterProgressEvents::NotifyBlockProgress (imapi.h)
-description: Notifies an application of its progress in burning a disc on the active recorder. Notifications are sent for the first and last blocks, and at points in between.
+description: Notifies an application of its progress in burning a disc on the active recorder. Notifications are sent for the first and last blocks, and at points in between.helpviewer_keywords: ["IDiscMasterProgressEvents interface [IMAPI]","NotifyBlockProgress method","IDiscMasterProgressEvents.NotifyBlockProgress","IDiscMasterProgressEvents::NotifyBlockProgress","NotifyBlockProgress","NotifyBlockProgress method [IMAPI]","NotifyBlockProgress method [IMAPI]","IDiscMasterProgressEvents interface","_win32_idiscmasterprogressevents_notifyblockprogress","base.idiscmasterprogressevents_notifyblockprogress","imapi.idiscmasterprogressevents_notifyblockprogress","imapi/IDiscMasterProgressEvents::NotifyBlockProgress"]
 old-location: imapi\idiscmasterprogressevents_notifyblockprogress.htm
 tech.root: imapi
 ms.assetid: 6c156be7-5ba4-48e7-a0d1-b0b8d69b30e2

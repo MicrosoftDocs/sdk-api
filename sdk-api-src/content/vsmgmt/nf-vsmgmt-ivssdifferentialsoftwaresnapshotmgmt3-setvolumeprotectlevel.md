@@ -1,7 +1,7 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.SetVolumeProtectLevel
 title: IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel (vsmgmt.h)
-description: Sets the shadow copy protection level for an original volume or a shadow copy storage area volume.
+description: Sets the shadow copy protection level for an original volume or a shadow copy storage area volume.helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt3 interface","SetVolumeProtectLevel method","IVssDifferentialSoftwareSnapshotMgmt3.SetVolumeProtectLevel","IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel","SetVolumeProtectLevel","SetVolumeProtectLevel method","SetVolumeProtectLevel method","IVssDifferentialSoftwareSnapshotMgmt3 interface","base.ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel.htm
 tech.root: VSS
 ms.assetid: 3f8f3a0c-5076-4ce3-aa8b-5c66ac5fa47a

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IObjectId.get_Value
 title: IObjectId::get_Value (certenroll.h)
-description: Retrieves a string that contains the dotted decimal object identifier (OID).
+description: Retrieves a string that contains the dotted decimal object identifier (OID).helpviewer_keywords: ["IObjectId interface [Security]","Value property","IObjectId.Value","IObjectId.get_Value","IObjectId::Value","IObjectId::get_Value","Value property [Security]","Value property [Security]","IObjectId interface","certenroll/IObjectId::Value","certenroll/IObjectId::get_Value","get_Value","security.iobjectid_value_property"]
 old-location: security\iobjectid_value_property.htm
 tech.root: seccertenroll
 ms.assetid: 9ccb681a-f31b-4d31-ae56-25efd2af2b2c

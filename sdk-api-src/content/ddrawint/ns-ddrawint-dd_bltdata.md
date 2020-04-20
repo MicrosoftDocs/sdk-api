@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_BLTDATA
 title: DD_BLTDATA (ddrawint.h)
-description: The DD_BLTDATA structure contains the information relevant to the driver for doing bit block transfers.
+description: The DD_BLTDATA structure contains the information relevant to the driver for doing bit block transfers.helpviewer_keywords: ["*PDD_BLTDATA","DD_BLTDATA","DD_BLTDATA structure [Display Devices]","ddrawint/DD_BLTDATA","ddstrcts_0697bd98-66f4-4f58-b407-c3bcc73eee86.xml","display.dd_bltdata"]
 old-location: display\dd_bltdata.htm
 tech.root: display
 ms.assetid: e39bdfc4-89d0-4440-93d3-1b455cc9a8e5

@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ShortSub
 title: ShortSub function (intsafe.h)
-description: Subtracts one value of type SHORT from another.
+description: Subtracts one value of type SHORT from another.helpviewer_keywords: ["ShortSub","ShortSub function [Windows Shell]","intsafe/ShortSub","shell.ShortSub"]
 old-location: shell\ShortSub.htm
 tech.root: shell
 ms.assetid: df438d87-5786-4c55-81f2-534fa9532f09

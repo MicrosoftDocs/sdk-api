@@ -1,7 +1,7 @@
 ---
 UID: NF:clfsw32.AllocReservedLog
 title: AllocReservedLog function (clfsw32.h)
-description: Allocates sector-aligned space for a set of reserved records.
+description: Allocates sector-aligned space for a set of reserved records.helpviewer_keywords: ["AllocReservedLog","AllocReservedLog function [Files]","clfsw32/AllocReservedLog","fs.allocreservedlog"]
 old-location: fs\allocreservedlog.htm
 tech.root: Clfs
 ms.assetid: 5e464b64-4617-4fbd-97cd-3c2db8f151b2

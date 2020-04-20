@@ -1,7 +1,7 @@
 ---
 UID: NE:oleidl.tagOLERENDER
 title: OLERENDER (oleidl.h)
-description: Indicates the type of caching requested for newly created objects.
+description: Indicates the type of caching requested for newly created objects.helpviewer_keywords: ["*LPOLERENDER","LPOLERENDER","LPOLERENDER enumeration pointer [COM]","OLERENDER","OLERENDER enumeration [COM]","OLERENDER_ASIS","OLERENDER_DRAW","OLERENDER_FORMAT","OLERENDER_NONE","_ole_OLERENDER","com.olerender","oleidl/LPOLERENDER","oleidl/OLERENDER","oleidl/OLERENDER_ASIS","oleidl/OLERENDER_DRAW","oleidl/OLERENDER_FORMAT","oleidl/OLERENDER_NONE"]
 old-location: com\olerender.htm
 tech.root: com
 ms.assetid: bab871ba-4ec4-49fd-854a-585732b91290

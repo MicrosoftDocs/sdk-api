@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMIndoubt
 title: IComCRMEvents::OnCRMIndoubt (comsvcs.h)
-description: Generated when CRM clerk receives an in-doubt notification to pass on to the CRM compensator.
+description: Generated when CRM clerk receives an in-doubt notification to pass on to the CRM compensator.helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMIndoubt method","IComCRMEvents.OnCRMIndoubt","IComCRMEvents::OnCRMIndoubt","OnCRMIndoubt","OnCRMIndoubt method [COM+]","OnCRMIndoubt method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMIndoubt","comsvcs/IComCRMEvents::OnCRMIndoubt","cos.icomcrmevents_oncrmindoubt"]
 old-location: cos\icomcrmevents_oncrmindoubt.htm
 tech.root: cossdk
 ms.assetid: b1144b7c-097f-4a1c-b7d7-d71b8108625b

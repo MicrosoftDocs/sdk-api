@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenser.OpenScopeOnMemory
 title: IMetaDataDispenser::OpenScopeOnMemory (rometadataapi.h)
-description: Opens an area of memory that contains existing metadata. That is, this method opens a specified area of memory in which the existing data is treated as metadata.
+description: Opens an area of memory that contains existing metadata. That is, this method opens a specified area of memory in which the existing data is treated as metadata.helpviewer_keywords: ["IMetaDataDispenser interface [Windows Runtime]","OpenScopeOnMemory method","IMetaDataDispenser.OpenScopeOnMemory","IMetaDataDispenser::OpenScopeOnMemory","OpenScopeOnMemory","OpenScopeOnMemory method [Windows Runtime]","OpenScopeOnMemory method [Windows Runtime]","IMetaDataDispenser interface","rometadataapi/IMetaDataDispenser::OpenScopeOnMemory","winrt.imetadatadispenser_openscopeonmemory"]
 old-location: winrt\imetadatadispenser_openscopeonmemory.htm
 tech.root: WinRT
 ms.assetid: 4558b229-0fe9-4ff7-a666-e69b47cb8170

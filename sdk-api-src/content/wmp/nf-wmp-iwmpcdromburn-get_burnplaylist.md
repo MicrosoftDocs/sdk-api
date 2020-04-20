@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.get_burnPlaylist
 title: IWMPCdromBurn::get_burnPlaylist (wmp.h)
-description: The get_burnPlaylist method retrieves the current playlist to burn to the CD.
+description: The get_burnPlaylist method retrieves the current playlist to burn to the CD.helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","get_burnPlaylist method","IWMPCdromBurn.get_burnPlaylist","IWMPCdromBurn::get_burnPlaylist","IWMPCdromBurnget_burnPlaylist","get_burnPlaylist","get_burnPlaylist method [Windows Media Player]","get_burnPlaylist method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_get_burnplaylist","wmp/IWMPCdromBurn::get_burnPlaylist"]
 old-location: wmp\iwmpcdromburn_get_burnplaylist.htm
 tech.root: WMP
 ms.assetid: b31f4e87-2029-4001-94c7-268b14807cf0

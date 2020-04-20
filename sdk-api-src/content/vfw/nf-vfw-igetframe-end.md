@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.IGetFrame.End
 title: IGetFrame::End (vfw.h)
-description: The End method ends frame extraction and decompression. Called when an application uses the AVIStreamGetFrameClose function.
+description: The End method ends frame extraction and decompression. Called when an application uses the AVIStreamGetFrameClose function.helpviewer_keywords: ["End","End method [Windows Multimedia]","End method [Windows Multimedia]","IGetFrame interface","IGetFrame interface [Windows Multimedia]","End method","IGetFrame.End","IGetFrame::End","_win32_IGetFrame_End","multimedia.igetframe_end","vfw/IGetFrame::End"]
 old-location: multimedia\igetframe_end.htm
 tech.root: Multimedia
 ms.assetid: dc5423c7-4f21-4941-adda-6f4665e86210

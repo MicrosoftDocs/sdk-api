@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Pager_GetPos
 title: Pager_GetPos macro (commctrl.h)
-description: Retrieves the current scroll position of the pager control. You can use this macro or send the PGM_GETPOS message explicitly.
+description: Retrieves the current scroll position of the pager control. You can use this macro or send the PGM_GETPOS message explicitly.helpviewer_keywords: ["Pager_GetPos","Pager_GetPos macro [Windows Controls]","_win32_Pager_GetPos","_win32_Pager_GetPos_cpp","commctrl/Pager_GetPos","controls.Pager_GetPos","controls._win32_Pager_GetPos"]
 old-location: controls\Pager_GetPos.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getpos.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothSdpGetElementData
 title: BluetoothSdpGetElementData function (bluetoothapis.h)
-description: Retrieves and parses a single element from an SDP stream.
+description: Retrieves and parses a single element from an SDP stream.helpviewer_keywords: ["BluetoothSdpGetElementData","BluetoothSdpGetElementData function [Bluetooth]","bluetooth.bluetoothsdpgetelementdata","bluetoothapis/BluetoothSdpGetElementData"]
 old-location: bluetooth\bluetoothsdpgetelementdata.htm
 tech.root: bluetooth
 ms.assetid: 65de8f2f-1781-44fa-87a9-21aa461eb8ee

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateFastMetadataEncoderFromDecoder
 title: IWICImagingFactory::CreateFastMetadataEncoderFromDecoder (wincodec.h)
-description: Creates a new instance of the fast metadata encoder based on the given IWICBitmapDecoder.
+description: Creates a new instance of the fast metadata encoder based on the given IWICBitmapDecoder.helpviewer_keywords: ["CreateFastMetadataEncoderFromDecoder","CreateFastMetadataEncoderFromDecoder method [Windows Imaging Component]","CreateFastMetadataEncoderFromDecoder method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateFastMetadataEncoderFromDecoder method","IWICImagingFactory.CreateFastMetadataEncoderFromDecoder","IWICImagingFactory::CreateFastMetadataEncoderFromDecoder","_wic_codec_iwicimagingfactory_createfastmetadataencoderfromdecoder","wic._wic_codec_iwicimagingfactory_createfastmetadataencoderfromdecoder","wincodec/IWICImagingFactory::CreateFastMetadataEncoderFromDecoder"]
 old-location: wic\_wic_codec_iwicimagingfactory_createfastmetadataencoderfromdecoder.htm
 tech.root: wic
 ms.assetid: 3264a987-4308-4c50-b99c-70142bc49476

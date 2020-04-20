@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMREXTFLOODFILL
 title: EMREXTFLOODFILL (wingdi.h)
-description: The EMREXTFLOODFILL structure contains members for the ExtFloodFill enhanced metafile record.
+description: The EMREXTFLOODFILL structure contains members for the ExtFloodFill enhanced metafile record.helpviewer_keywords: ["*PEMREXTFLOODFILL","EMREXTFLOODFILL","EMREXTFLOODFILL structure [Windows GDI]","PEMREXTFLOODFILL","PEMREXTFLOODFILL structure pointer [Windows GDI]","_win32_EMREXTFLOODFILL_str","gdi.emrextfloodfill","wingdi/EMREXTFLOODFILL","wingdi/PEMREXTFLOODFILL"]
 old-location: gdi\emrextfloodfill.htm
 tech.root: gdi
 ms.assetid: 93c80ea4-42f3-4c0a-8f72-76d2a6634e15

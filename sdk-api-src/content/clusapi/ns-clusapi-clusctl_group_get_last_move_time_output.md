@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
 title: CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT (clusapi.h)
-description: Specifies information about the last time a group was moved to another node.
+description: Specifies information about the last time a group was moved to another node.helpviewer_keywords: ["*PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT","CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT","CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT structure [Failover Cluster]","PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT","PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT structure pointer [Failover Cluster]","clusapi/CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT","clusapi/PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT","mscs.clusctl_group_get_last_move_time_output"]
 old-location: mscs\clusctl_group_get_last_move_time_output.htm
 tech.root: MsCS
 ms.assetid: C8292546-4220-4A5D-91C6-03687DD06A9B

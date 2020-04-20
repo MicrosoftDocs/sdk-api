@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmProviderAdd0
 title: FwpmProviderAdd0 function (fwpmu.h)
-description: Adds a new provider to the system.
+description: Adds a new provider to the system.helpviewer_keywords: ["FwpmProviderAdd0","FwpmProviderAdd0 function [Filtering]","fwp.fwpmprovideradd0_func","fwpmu/FwpmProviderAdd0"]
 old-location: fwp\fwpmprovideradd0_func.htm
 tech.root: fwp
 ms.assetid: e76f03e2-0853-465a-9f82-c29d35de32c9
