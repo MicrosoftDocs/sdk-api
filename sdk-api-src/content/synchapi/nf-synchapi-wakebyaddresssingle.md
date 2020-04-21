@@ -26,7 +26,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Synchronization.lib
-req.dll: api-ms-win-core-synch-l1-2-0.dll
+req.dll: Kernel32.dll
 req.irql: 
 topic_type:
 - APIRef
