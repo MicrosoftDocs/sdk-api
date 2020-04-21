@@ -184,13 +184,13 @@ A 3.5" floppy, with 32MB and 512 bytes/sector.
 
 ## -remarks
 
-The **MediaType** member of the [DISK_GEOMETRY](./ns-winioctl-disk_geometry.md) data structure is of type **MEDIA_TYPE**. The [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) function receives a **DISK_GEOMETRY** structure in response to an [IOCTL_DISK_GET_DRIVE_GEOMETRY](./ni-winioctl-ioctl_disk_get_drive_geometry.md) control code. The **DeviceIoControl** function receives an array of **DISK_GEOMETRY** structures in response to an [IOCTL_STORAGE_GET_MEDIA_TYPES](./ni-winioctl-ioctl_storage_get_media_types.md) control code. The [STORAGE_MEDIA_TYPE](./ne-winioctl-storage_media_type.md) enumeration type extends this enumeration type.
+The **MediaType** member of the [DISK_GEOMETRY](ns-winioctl-disk_geometry.md) data structure is of type **MEDIA_TYPE**. The [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) function receives a **DISK_GEOMETRY** structure in response to an [IOCTL_DISK_GET_DRIVE_GEOMETRY](ni-winioctl-ioctl_disk_get_drive_geometry.md) control code. The **DeviceIoControl** function receives an array of **DISK_GEOMETRY** structures in response to an [IOCTL_STORAGE_GET_MEDIA_TYPES](ni-winioctl-ioctl_storage_get_media_types.md) control code. The [STORAGE_MEDIA_TYPE](ne-winioctl-storage_media_type.md) enumeration type extends this enumeration type.
 
 
 ## -see-also
 
-* [DISK_GEOMETRY](./ns-winioctl-disk_geometry.md)
+* [DISK_GEOMETRY](ns-winioctl-disk_geometry.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [IOCTL_DISK_GET_DRIVE_GEOMETRY](./ni-winioctl-ioctl_disk_get_drive_geometry.md)
-* [IOCTL_STORAGE_GET_MEDIA_TYPES](./ni-winioctl-ioctl_storage_get_media_types.md)
-* [STORAGE_MEDIA_TYPE](./ne-winioctl-storage_media_type.md)
+* [IOCTL_DISK_GET_DRIVE_GEOMETRY](ni-winioctl-ioctl_disk_get_drive_geometry.md)
+* [IOCTL_STORAGE_GET_MEDIA_TYPES](ni-winioctl-ioctl_storage_get_media_types.md)
+* [STORAGE_MEDIA_TYPE](ne-winioctl-storage_media_type.md)
