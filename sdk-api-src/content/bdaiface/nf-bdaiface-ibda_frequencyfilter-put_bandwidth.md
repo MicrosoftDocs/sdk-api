@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Bandwidth
 title: IBDA_FrequencyFilter::put_Bandwidth (bdaiface.h)
-description: The put_Bandwidth method specifies the bandwidth.
+description: The put_Bandwidth method specifies the bandwidth.helpviewer_keywords: ["IBDA_FrequencyFilter interface [Microsoft TV Technologies]","put_Bandwidth method","IBDA_FrequencyFilter.put_Bandwidth","IBDA_FrequencyFilter::put_Bandwidth","IBDA_FrequencyFilterput_Bandwidth","bdaiface/IBDA_FrequencyFilter::put_Bandwidth","mstv.ibda_frequencyfilter_put_bandwidth","put_Bandwidth","put_Bandwidth method [Microsoft TV Technologies]","put_Bandwidth method [Microsoft TV Technologies]","IBDA_FrequencyFilter interface"]
 old-location: mstv\ibda_frequencyfilter_put_bandwidth.htm
 tech.root: mstv
 ms.assetid: 8e44a5b4-c3ea-4afa-aab3-4f6732a3bd82

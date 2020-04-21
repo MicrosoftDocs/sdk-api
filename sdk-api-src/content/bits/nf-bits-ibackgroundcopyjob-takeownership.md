@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.TakeOwnership
 title: IBackgroundCopyJob::TakeOwnership (bits.h)
-description: Changes ownership of the job to the current user.
+description: Changes ownership of the job to the current user.helpviewer_keywords: ["IBackgroundCopyJob interface [BITS]","TakeOwnership method","IBackgroundCopyJob.TakeOwnership","IBackgroundCopyJob::TakeOwnership","TakeOwnership","TakeOwnership method [BITS]","TakeOwnership method [BITS]","IBackgroundCopyJob interface","_drz_ibackgroundcopyjob_takeownership","bits.ibackgroundcopyjob_takeownership","bits/IBackgroundCopyJob::TakeOwnership"]
 old-location: bits\ibackgroundcopyjob_takeownership.htm
 tech.root: Bits
 ms.assetid: 12ac2dd8-516b-4b5d-a2bf-0abb55d18ee0

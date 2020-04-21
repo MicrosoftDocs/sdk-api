@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_DATA_V5
 title: DHCP_SUBNET_ELEMENT_DATA_V5 (dhcpsapi.h)
-description: The DHCP_SUBNET_ELEMENT_DATA_V5 structure defines an element that describes a feature or restriction of a subnet.
+description: The DHCP_SUBNET_ELEMENT_DATA_V5 structure defines an element that describes a feature or restriction of a subnet.helpviewer_keywords: ["*LPDHCP_SUBNET_ELEMENT_DATA_V5","DHCP_SUBNET_ELEMENT_DATA_V5","DHCP_SUBNET_ELEMENT_DATA_V5 structure [DHCP]","LPDHCP_SUBNET_ELEMENT_DATA_V5","LPDHCP_SUBNET_ELEMENT_DATA_V5 structure pointer [DHCP]","dhcp.dhcp_subnet_element_data_v5","dhcpsapi/LPDHCP_SUBNET_ELEMENT_DATA_V5","dhcpsapi/_DHCP_SUBNET_ELEMENT_DATA_V5"]
 old-location: dhcp\dhcp_subnet_element_data_v5.htm
 tech.root: DHCP
 ms.assetid: ea6df1bc-2d15-4a09-8100-ee17d3de34d9

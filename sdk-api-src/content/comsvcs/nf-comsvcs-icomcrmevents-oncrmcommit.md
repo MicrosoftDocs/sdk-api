@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMCommit
 title: IComCRMEvents::OnCRMCommit (comsvcs.h)
-description: Generated when CRM clerk receives a commit notification to pass on to the CRM compensator.
+description: Generated when CRM clerk receives a commit notification to pass on to the CRM compensator.helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMCommit method","IComCRMEvents.OnCRMCommit","IComCRMEvents::OnCRMCommit","OnCRMCommit","OnCRMCommit method [COM+]","OnCRMCommit method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMCommit","comsvcs/IComCRMEvents::OnCRMCommit","cos.icomcrmevents_oncrmcommit"]
 old-location: cos\icomcrmevents_oncrmcommit.htm
 tech.root: cossdk
 ms.assetid: 76b87452-fa29-49f7-acc8-2ae2039757b0

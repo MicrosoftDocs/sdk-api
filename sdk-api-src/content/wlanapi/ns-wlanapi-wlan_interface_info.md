@@ -1,7 +1,7 @@
 ---
 UID: NS:wlanapi._WLAN_INTERFACE_INFO
 title: WLAN_INTERFACE_INFO (wlanapi.h)
-description: Contains information about a wireless LAN interface.
+description: Contains information about a wireless LAN interface.helpviewer_keywords: ["*PWLAN_INTERFACE_INFO","PWLAN_INTERFACE_INFO","PWLAN_INTERFACE_INFO structure pointer [NativeWIFI]","WLAN_INTERFACE_INFO","WLAN_INTERFACE_INFO structure [NativeWIFI]","nwifi.wlan_interface_info","wlanapi/PWLAN_INTERFACE_INFO","wlanapi/WLAN_INTERFACE_INFO"]
 old-location: nwifi\wlan_interface_info.htm
 tech.root: NativeWiFi
 ms.assetid: 906e7d59-ebd0-47e7-985e-f5d313f19ecb

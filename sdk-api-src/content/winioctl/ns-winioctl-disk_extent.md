@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._DISK_EXTENT
 title: DISK_EXTENT
-description: Represents a disk extent.
+description: Represents a disk extent.helpviewer_keywords: ["*PDISK_EXTENT","DISK_EXTENT","DISK_EXTENT structure [Files]","PDISK_EXTENT","PDISK_EXTENT structure pointer [Files]","_win32_disk_extent_str","base.disk_extent_str","fs.disk_extent_str","winioctl/DISK_EXTENT","winioctl/PDISK_EXTENT"]
 old-location: fs\disk_extent_str.htm
 tech.root: FileIO
 ms.assetid: 1b8dc6fa-e60b-4490-b439-44c93b6f4ce5
@@ -44,18 +44,25 @@ req.redist:
 
 # DISK_EXTENT structure
 
+
 ## -description
+
 
 Represents a disk extent.
 
 
 ## -struct-fields
 
+
+
+
 ### -field DiskNumber
 
 The number of the disk that contains this extent.
 
-This is the same number that is used to construct the name of the disk, for example, the *X* in "\\\\?\\PhysicalDrive*X*" or "\\\\?\\\Harddisk*X*".
+This is the same number that is used to construct the name of the disk, for example, the 
+       <i>X</i> in "\\?\PhysicalDrive<i>X</i>" 
+       or "\\?\Harddisk<i>X</i>".
 
 
 ### -field StartingOffset
@@ -70,6 +77,19 @@ The number of bytes in this extent.
 
 ## -see-also
 
-* [IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS](./ni-winioctl-ioctl_volume_get_volume_disk_extents.md)
-* [LARGE_INTEGER](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1)
-* [VOLUME_DISK_EXTENTS](./ns-winioctl-volume_disk_extents.md)
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-volume_disk_extents">VOLUME_DISK_EXTENTS</a>
+ 
+
+ 
+

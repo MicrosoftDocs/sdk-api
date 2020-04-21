@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.HAS_POINTER_CONFIDENCE_WPARAM
 title: HAS_POINTER_CONFIDENCE_WPARAM macro (winuser.h)
-description: Checks whether the specified pointer message is considered intentional rather than accidental.
+description: Checks whether the specified pointer message is considered intentional rather than accidental.helpviewer_keywords: ["HAS_POINTER_CONFIDENCE_WPARAM","HAS_POINTER_CONFIDENCE_WPARAM macro [Input Messages and Notifications]","inputmsg.has_pointer_confidence_wparam","winuser/HAS_POINTER_CONFIDENCE_WPARAM"]
 old-location: inputmsg\has_pointer_confidence_wparam.htm
 tech.root: InputMsg
 ms.assetid: 58E66EC4-D855-4B24-80E9-54B6DAE6D36C

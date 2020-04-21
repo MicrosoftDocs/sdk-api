@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.Destroy
 title: IExplorerBrowser::Destroy (shobjidl_core.h)
-description: Destroys the browser.
+description: Destroys the browser.helpviewer_keywords: ["Destroy","Destroy method [Windows Shell]","Destroy method [Windows Shell]","IExplorerBrowser interface","IExplorerBrowser interface [Windows Shell]","Destroy method","IExplorerBrowser.Destroy","IExplorerBrowser::Destroy","_shell_IExplorerBrowser_Destroy","shell.IExplorerBrowser_Destroy","shobjidl_core/IExplorerBrowser::Destroy"]
 old-location: shell\IExplorerBrowser_Destroy.htm
 tech.root: shell
 ms.assetid: b6fc4aa6-f689-4b3e-a922-f8361d33b6dd

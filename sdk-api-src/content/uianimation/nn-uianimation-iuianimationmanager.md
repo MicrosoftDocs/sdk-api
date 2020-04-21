@@ -1,7 +1,7 @@
 ---
 UID: NN:uianimation.IUIAnimationManager
 title: IUIAnimationManager (uianimation.h)
-description: Defines the animation manager, which provides a central interface for creating and managing animations.
+description: Defines the animation manager, which provides a central interface for creating and managing animations.helpviewer_keywords: ["IUIAnimationManager","IUIAnimationManager interface [Windows Animation]","IUIAnimationManager interface [Windows Animation]","described","uianimation.iuianimationmanager","uianimation/IUIAnimationManager"]
 old-location: uianimation\iuianimationmanager.htm
 tech.root: UIAnimation
 ms.assetid: 21f16c65-90aa-4b1f-93bc-8ee0488c6ded

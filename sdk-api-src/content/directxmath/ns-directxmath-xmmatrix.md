@@ -1,7 +1,7 @@
 ---
 UID: NS:directxmath.XMMATRIX
 title: XMMATRIX (directxmath.h)
-description: Describes a 4*4 matrix aligned on a 16-byte boundary that maps to four hardware vector registers.
+description: Describes a 4*4 matrix aligned on a 16-byte boundary that maps to four hardware vector registers.helpviewer_keywords: ["XMMATRIX","XMMATRIX structure [DirectX Math Support APIs]","directxmath/XMMATRIX","dxmath.xmmatrix"]
 old-location: dxmath\xmmatrix.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMMATRIX

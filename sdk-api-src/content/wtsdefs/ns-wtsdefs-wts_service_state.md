@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsdefs._WTS_SERVICE_STATE
 title: WTS_SERVICE_STATE (wtsdefs.h)
-description: Contains information about changes in the state of the Remote Desktop Services service.
+description: Contains information about changes in the state of the Remote Desktop Services service.helpviewer_keywords: ["*PWTS_SERVICE_STATE","PWRDS_SERVICE_STATE","PWRDS_SERVICE_STATE structure pointer [Remote Desktop Services]","PWTS_SERVICE_STATE","PWTS_SERVICE_STATE structure pointer [Remote Desktop Services]","WRDS_SERVICE_STATE","WRDS_SERVICE_STATE structure [Remote Desktop Services]","WTS_SERVICE_STATE","WTS_SERVICE_STATE structure [Remote Desktop Services]","termserv.wts_service_state","wtsdefs/PWRDS_SERVICE_STATE","wtsdefs/PWTS_SERVICE_STATE","wtsdefs/WRDS_SERVICE_STATE","wtsdefs/WTS_SERVICE_STATE"]
 old-location: termserv\wts_service_state.htm
 tech.root: TermServ
 ms.assetid: 5f4469f5-5a64-4292-bbe6-cc030f1421f5

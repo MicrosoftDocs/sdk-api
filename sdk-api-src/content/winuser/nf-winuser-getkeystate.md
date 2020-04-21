@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetKeyState
 title: GetKeyState function (winuser.h)
-description: Retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off&#8212;alternating each time the key is pressed).
+description: Retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off&#8212;alternating each time the key is pressed).helpviewer_keywords: ["GetKeyState","GetKeyState function [Keyboard and Mouse Input]","_win32_GetKeyState","_win32_getkeystate_cpp","inputdev.getkeystate","winui._win32_getkeystate","winuser/GetKeyState"]
 old-location: inputdev\getkeystate.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeystate.htm

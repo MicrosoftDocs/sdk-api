@@ -1,7 +1,7 @@
 ---
 UID: NS:evr9.MFVideoAlphaBitmap
 title: MFVideoAlphaBitmap (evr9.h)
-description: Specifies a bitmap for the enhanced video renderer (EVR) to alpha-blend with the video.
+description: Specifies a bitmap for the enhanced video renderer (EVR) to alpha-blend with the video.helpviewer_keywords: ["609041f2-7ba4-4157-819b-4ac21612dca2","MFVideoAlphaBitmap","MFVideoAlphaBitmap structure [Media Foundation]","evr9/MFVideoAlphaBitmap","mf.mfvideoalphabitmap"]
 old-location: mf\mfvideoalphabitmap.htm
 tech.root: medfound
 ms.assetid: 609041f2-7ba4-4157-819b-4ac21612dca2

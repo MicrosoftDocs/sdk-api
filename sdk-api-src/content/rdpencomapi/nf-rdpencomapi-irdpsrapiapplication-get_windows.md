@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.get_Windows
 title: IRDPSRAPIApplication::get_Windows (rdpencomapi.h)
-description: The list of windows.
+description: The list of windows.helpviewer_keywords: ["IRDPSRAPIApplication interface [RDP]","Windows property","IRDPSRAPIApplication.Windows","IRDPSRAPIApplication.get_Windows","IRDPSRAPIApplication::Windows","IRDPSRAPIApplication::get_Windows","RDPSRAPIApplication object [RDP]","Windows property","Windows property [RDP]","Windows property [RDP]","IRDPSRAPIApplication interface","Windows property [RDP]","RDPSRAPIApplication object","get_Windows","rdp.irdpsrapiapplication_windows","rdpencomapi/IRDPSRAPIApplication::Windows","rdpencomapi/IRDPSRAPIApplication::get_Windows"]
 old-location: rdp\irdpsrapiapplication_windows.htm
 tech.root: rdp
 ms.assetid: 6e6cf29d-e19a-43bd-a4e7-993c10bac92b

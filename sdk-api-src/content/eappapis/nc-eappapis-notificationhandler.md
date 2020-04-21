@@ -1,7 +1,7 @@
 ---
 UID: NC:eappapis.NotificationHandler
 title: NotificationHandler (eappapis.h)
-description: Notifies the supplicant that there is a change in the Statement of Health (SoH) and re-authentication of a Network Access Protection (NAP) system connection is required.
+description: Notifies the supplicant that there is a change in the Statement of Health (SoH) and re-authentication of a Network Access Protection (NAP) system connection is required.helpviewer_keywords: ["NotificationHandler","NotificationHandler callback","NotificationHandler callback function [EAPHost]","eaphost.notificationhandler","eappapis/NotificationHandler"]
 old-location: eaphost\notificationhandler.htm
 tech.root: eaphost
 ms.assetid: 7fa12cb4-694a-4db6-9743-5a2cbb995721

@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkCursorButtons
 title: IInkCursorButtons (msinkaut.h)
-description: Represents a collection of IInkCursorButton objects for an IInkCursor interface.
+description: Represents a collection of IInkCursorButton objects for an IInkCursor interface.helpviewer_keywords: ["3f695ab4-8174-402f-b7d6-810f149f5153","IInkCursorButtons","IInkCursorButtons interface [Tablet PC]","IInkCursorButtons interface [Tablet PC]","described","msinkaut/IInkCursorButtons","tablet.iinkcursorbuttons"]
 old-location: tablet\iinkcursorbuttons.htm
 tech.root: tablet
 ms.assetid: 3f695ab4-8174-402f-b7d6-810f149f5153

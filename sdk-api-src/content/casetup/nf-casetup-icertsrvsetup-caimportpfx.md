@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetup.CAImportPFX
 title: ICertSrvSetup::CAImportPFX (casetup.h)
-description: Imports a certification authority (CA) certificate and its associated private key into the local computer store.
+description: Imports a certification authority (CA) certificate and its associated private key into the local computer store.helpviewer_keywords: ["CAImportPFX","CAImportPFX method [Security]","CAImportPFX method [Security]","ICertSrvSetup interface","ICertSrvSetup interface [Security]","CAImportPFX method","ICertSrvSetup.CAImportPFX","ICertSrvSetup::CAImportPFX","casetup/ICertSrvSetup::CAImportPFX","security.icertsrvsetup_caimportpfx"]
 old-location: security\icertsrvsetup_caimportpfx.htm
 tech.root: SecCrypto
 ms.assetid: a661b74b-04ba-49b9-bde2-3e368ae6228e

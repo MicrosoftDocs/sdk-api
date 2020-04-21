@@ -1,7 +1,7 @@
 ---
 UID: NE:intshcut.mimeassociationdialog_in_flags
 title: MIMEASSOCIATIONDIALOG_IN_FLAGS (intshcut.h)
-description: Used with the MIMEAssociationDialog function to determine how it executes.
+description: Used with the MIMEAssociationDialog function to determine how it executes.helpviewer_keywords: ["MIMEASSOCDLG_FL_REGISTER_ASSOC","MIMEASSOCIATIONDIALOG_IN_FLAGS","MIMEASSOCIATIONDIALOG_IN_FLAGS enumeration [Windows Shell]","_win32_MIMEASSOCIATIONDIALOG_IN_FLAGS","intshcut/MIMEASSOCDLG_FL_REGISTER_ASSOC","intshcut/MIMEASSOCIATIONDIALOG_IN_FLAGS","shell.MIMEASSOCIATIONDIALOG_IN_FLAGS"]
 old-location: shell\MIMEASSOCIATIONDIALOG_IN_FLAGS.htm
 tech.root: shell
 ms.assetid: 916712a7-08ec-496d-aa83-42bf1e4bdbd8

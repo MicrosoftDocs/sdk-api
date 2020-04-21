@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoCreateInstanceEx
 title: CoCreateInstanceEx function (combaseapi.h)
-description: Creates an instance of a specific class on a specific computer.
+description: Creates an instance of a specific class on a specific computer.helpviewer_keywords: ["CoCreateInstanceEx","CoCreateInstanceEx function [COM]","_com_CoCreateInstanceEx","com.cocreateinstanceex","combaseapi/CoCreateInstanceEx"]
 old-location: com\cocreateinstanceex.htm
 tech.root: com
 ms.assetid: 3b414b95-e8d2-42e8-b4f2-5cc5189a3d08

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3dcsx.ID3DX11Scan
 title: ID3DX11Scan (d3dcsx.h)
-description: Scan context.
+description: Scan context.helpviewer_keywords: ["ID3DX11Scan","ID3DX11Scan interface [Direct3D 11]","ID3DX11Scan interface [Direct3D 11]","described","d3dcsx/ID3DX11Scan","direct3d11.id3dx11scan","f606bccf-3795-f179-4742-0c561a907373"]
 old-location: direct3d11\id3dx11scan.htm
 tech.root: direct3d11
 ms.assetid: f57401b9-fa1e-4470-a974-825749773f95

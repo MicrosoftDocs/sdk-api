@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetIntegerValue
 title: IUIAnimationVariable::GetIntegerValue (uianimation.h)
-description: Gets the current value of the animation variable as an integer.
+description: Gets the current value of the animation variable as an integer.helpviewer_keywords: ["GetIntegerValue","GetIntegerValue method [Windows Animation]","GetIntegerValue method [Windows Animation]","IUIAnimationVariable interface","IUIAnimationVariable interface [Windows Animation]","GetIntegerValue method","IUIAnimationVariable.GetIntegerValue","IUIAnimationVariable::GetIntegerValue","uianimation.iuianimationvariable_getintegervalue","uianimation/IUIAnimationVariable::GetIntegerValue"]
 old-location: uianimation\iuianimationvariable_getintegervalue.htm
 tech.root: UIAnimation
 ms.assetid: 044fd6a3-6e40-4f4f-8777-1a1a66c91989

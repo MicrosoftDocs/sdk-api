@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupWriteTextLog
 title: SetupWriteTextLog function (setupapi.h)
-description: The SetupWriteTextLog function writes a log entry in a SetupAPI text log.
+description: The SetupWriteTextLog function writes a log entry in a SetupAPI text log.helpviewer_keywords: ["SetupWriteTextLog","SetupWriteTextLog function [Device and Driver Installation]","devinst.setupwritetextlog","setupapi/SetupWriteTextLog","setupapilog-ref_42860a5c-0ea7-4185-81eb-76996286cafc.xml"]
 old-location: devinst\setupwritetextlog.htm
 tech.root: devinst
 ms.assetid: 8a59c796-1386-495c-9790-8916d677ebd3

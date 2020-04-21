@@ -1,7 +1,7 @@
 ---
 UID: NS:elscore._MAPPING_DATA_RANGE
 title: MAPPING_DATA_RANGE (elscore.h)
-description: Contains text recognition results for a recognized text subrange. An array of structures of this type is retrieved by an Extended Linguistic Services (ELS) service in a MAPPING_PROPERTY_BAG structure.
+description: Contains text recognition results for a recognized text subrange. An array of structures of this type is retrieved by an Extended Linguistic Services (ELS) service in a MAPPING_PROPERTY_BAG structure.helpviewer_keywords: ["*PMAPPING_DATA_RANGE","MAPPING_DATA_RANGE","MAPPING_DATA_RANGE structure [Internationalization for Windows Applications]","PMAPPING_DATA_RANGE","PMAPPING_DATA_RANGE structure pointer [Internationalization for Windows Applications]","elscore/MAPPING_DATA_RANGE","elscore/PMAPPING_DATA_RANGE","intl.mappingdatarange"]
 old-location: intl\mappingdatarange.htm
 tech.root: Intl
 ms.assetid: adff7901-1903-45dd-888f-1b8c5bb05de1

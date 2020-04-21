@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHFind_InitMenuPopup
 title: SHFind_InitMenuPopup function (shlobj_core.h)
-description: SHFind_InitMenuPopup may be altered or unavailable.
+description: SHFind_InitMenuPopup may be altered or unavailable.helpviewer_keywords: ["SHFind_InitMenuPopup","SHFind_InitMenuPopup function [Windows Shell]","_win32_SHFind_InitMenuPopup","shell.SHFind_InitMenuPopup","shlobj_core/SHFind_InitMenuPopup"]
 old-location: shell\SHFind_InitMenuPopup.htm
 tech.root: shell
 ms.assetid: ca44bd57-6af0-45b3-9331-914e93360743

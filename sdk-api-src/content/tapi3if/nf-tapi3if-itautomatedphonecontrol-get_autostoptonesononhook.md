@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoStopTonesOnOnHook
 title: ITAutomatedPhoneControl::get_AutoStopTonesOnOnHook (tapi3if.h)
-description: The get_AutoStopTonesOnOnHook method retrieves the current value of the AutoStopTonesOnOnHook property.
+description: The get_AutoStopTonesOnOnHook method retrieves the current value of the AutoStopTonesOnOnHook property.helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","get_AutoStopTonesOnOnHook method","ITAutomatedPhoneControl.get_AutoStopTonesOnOnHook","ITAutomatedPhoneControl::get_AutoStopTonesOnOnHook","_tapi3_itautomatedphonecontrol_get_autostoptonesononhook","get_AutoStopTonesOnOnHook","get_AutoStopTonesOnOnHook method [TAPI 2.2]","get_AutoStopTonesOnOnHook method [TAPI 2.2]","ITAutomatedPhoneControl interface","tapi3.itautomatedphonecontrol_get_autostoptonesononhook","tapi3if/ITAutomatedPhoneControl::get_AutoStopTonesOnOnHook"]
 old-location: tapi3\itautomatedphonecontrol_get_autostoptonesononhook.htm
 tech.root: Tapi
 ms.assetid: 2ece8d7a-b280-42b6-9f51-d88650488699

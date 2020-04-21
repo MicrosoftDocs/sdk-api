@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_IS_DEFAULT_VALUE_CALLBACK
 title: WS_IS_DEFAULT_VALUE_CALLBACK (webservices.h)
-description: Determines if a value is the default value.
+description: Determines if a value is the default value.helpviewer_keywords: ["WS_IS_DEFAULT_VALUE_CALLBACK","WS_IS_DEFAULT_VALUE_CALLBACK callback","WS_IS_DEFAULT_VALUE_CALLBACK callback function [Web Services for Windows]","webservices/WS_IS_DEFAULT_VALUE_CALLBACK","wsw.ws_is_default_value_callback"]
 old-location: wsw\ws_is_default_value_callback.htm
 tech.root: wsw
 ms.assetid: 1bfbd405-860e-4888-8363-bbc678d1256a

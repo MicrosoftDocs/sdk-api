@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationChangesEventHandler.HandleChangesEvent
 title: IUIAutomationChangesEventHandler::HandleChangesEvent (uiautomationclient.h)
-description: Handles one or more Microsoft UI Automation change events.
+description: Handles one or more Microsoft UI Automation change events.helpviewer_keywords: ["HandleChangesEvent","HandleChangesEvent method [Windows Accessibility]","HandleChangesEvent method [Windows Accessibility]","IUIAutomationChangesEventHandler interface","IUIAutomationChangesEventHandler interface [Windows Accessibility]","HandleChangesEvent method","IUIAutomationChangesEventHandler.HandleChangesEvent","IUIAutomationChangesEventHandler::HandleChangesEvent","uiautomationclient/IUIAutomationChangesEventHandler::HandleChangesEvent","winauto.uiauto_IUIAutomationChangesEventHandler_HandleChangesEvent"]
 old-location: winauto\uiauto_IUIAutomationChangesEventHandler_HandleChangesEvent.htm
 tech.root: WinAuto
 ms.assetid: 5BCE09F7-9811-49F5-B2C4-8DABC44CA406

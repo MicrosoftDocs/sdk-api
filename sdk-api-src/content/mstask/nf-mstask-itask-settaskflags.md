@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.ITask.SetTaskFlags
 title: ITask::SetTaskFlags (mstask.h)
-description: This method sets the flags that modify the behavior of a scheduled task.
+description: This method sets the flags that modify the behavior of a scheduled task.helpviewer_keywords: ["ITask interface [Task Scheduler]","SetTaskFlags method","ITask.SetTaskFlags","ITask::SetTaskFlags","SetTaskFlags","SetTaskFlags method [Task Scheduler]","SetTaskFlags method [Task Scheduler]","ITask interface","_msb_itask_settaskflags","mstask/ITask::SetTaskFlags","taskschd.itask_settaskflags"]
 old-location: taskschd\itask_settaskflags.htm
 tech.root: taskschd
 ms.assetid: 32231145-241a-46ff-9c49-94f5bf7cc532

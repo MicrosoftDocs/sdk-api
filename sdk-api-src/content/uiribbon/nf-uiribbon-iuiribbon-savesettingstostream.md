@@ -1,7 +1,7 @@
 ---
 UID: NF:uiribbon.IUIRibbon.SaveSettingsToStream
 title: IUIRibbon::SaveSettingsToStream (uiribbon.h)
-description: Writes ribbon settings to a binary stream.
+description: Writes ribbon settings to a binary stream.helpviewer_keywords: ["IUIRibbon interface [Windows Ribbon]","SaveSettingsToStream method","IUIRibbon.SaveSettingsToStream","IUIRibbon::SaveSettingsToStream","SaveSettingsToStream","SaveSettingsToStream method [Windows Ribbon]","SaveSettingsToStream method [Windows Ribbon]","IUIRibbon interface","scenicintent_IUIRibbon_SaveSettingsToStream","uiribbon/IUIRibbon::SaveSettingsToStream","windowsribbon.windowsribbon_iuiribbon_savesettingstostream"]
 old-location: windowsribbon\windowsribbon_iuiribbon_savesettingstostream.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\savesettingstostream.htm

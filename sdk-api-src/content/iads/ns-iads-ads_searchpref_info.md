@@ -1,7 +1,7 @@
 ---
 UID: NS:iads.ads_searchpref_info
 title: ADS_SEARCHPREF_INFO (iads.h)
-description: The ADS_SEARCHPREF_INFO structure specifies the query preferences.
+description: The ADS_SEARCHPREF_INFO structure specifies the query preferences.helpviewer_keywords: ["*LPADS_SEARCHPREF_INFO","*PADS_SEARCHPREF_INFO","ADS_SEARCHPREF_INFO","ADS_SEARCHPREF_INFO structure [ADSI]","LPADS_SEARCHPREF_INFO","LPADS_SEARCHPREF_INFO structure pointer [ADSI]","PADS_SEARCHPREF_INFO","PADS_SEARCHPREF_INFO structure pointer [ADSI]","_ds_ads_searchpref_info","adsi.ads__searchpref__info","adsi.ads_searchpref_info","iads/ADS_SEARCHPREF_INFO","iads/LPADS_SEARCHPREF_INFO","iads/PADS_SEARCHPREF_INFO"]
 old-location: adsi\ads_searchpref_info.htm
 tech.root: adsi
 ms.assetid: 5fc46271-a1be-4a9d-a340-ed801211736a

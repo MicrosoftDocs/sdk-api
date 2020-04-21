@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleCreateStaticFromData
 title: OleCreateStaticFromData function (ole2.h)
-description: Creates a static object, that contains only a representation, with no native data, from a data transfer object.
+description: Creates a static object, that contains only a representation, with no native data, from a data transfer object.helpviewer_keywords: ["OleCreateStaticFromData","OleCreateStaticFromData function [COM]","_ole_OleCreateStaticFromData","com.olecreatestaticfromdata","ole2/OleCreateStaticFromData"]
 old-location: com\olecreatestaticfromdata.htm
 tech.root: com
 ms.assetid: 847d82f5-149d-48a4-a228-f5551a07a790

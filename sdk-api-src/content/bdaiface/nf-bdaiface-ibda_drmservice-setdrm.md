@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_DRMService.SetDRM
 title: IBDA_DRMService::SetDRM (bdaiface.h)
-description: Activates a digital rights management (DRM) system on the media transform device (MTD).
+description: Activates a digital rights management (DRM) system on the media transform device (MTD).helpviewer_keywords: ["IBDA_DRMService interface [Microsoft TV Technologies]","SetDRM method","IBDA_DRMService.SetDRM","IBDA_DRMService::SetDRM","SetDRM","SetDRM method [Microsoft TV Technologies]","SetDRM method [Microsoft TV Technologies]","IBDA_DRMService interface","bdaiface/IBDA_DRMService::SetDRM","mstv.ibda_drmservice_setdrm"]
 old-location: mstv\ibda_drmservice_setdrm.htm
 tech.root: mstv
 ms.assetid: 89da348f-c79c-4c77-8270-51a71b0a1a89

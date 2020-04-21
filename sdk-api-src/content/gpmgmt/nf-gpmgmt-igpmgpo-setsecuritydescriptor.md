@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.SetSecurityDescriptor
 title: IGPMGPO::SetSecurityDescriptor (gpmgmt.h)
-description: Sets the security descriptor for the GPO. The method replaces the existing security descriptor.
+description: Sets the security descriptor for the GPO. The method replaces the existing security descriptor.helpviewer_keywords: ["DACL_SECURITY_INFORMATION","GPMGPO class [GPMC]","SetSecurityDescriptor method","GROUP_SECURITY_INFORMATION","IGPMGPO interface [GPMC]","SetSecurityDescriptor method","IGPMGPO.SetSecurityDescriptor","IGPMGPO::SetSecurityDescriptor","OWNER_SECURITY_INFORMATION","SACL_SECURITY_INFORMATION","SetSecurityDescriptor","SetSecurityDescriptor method [GPMC]","SetSecurityDescriptor method [GPMC]","GPMGPO class","SetSecurityDescriptor method [GPMC]","IGPMGPO interface","_win32_igpmgpo_setsecuritydescriptor","gpmc.igpmgpo_setsecuritydescriptor","gpmgmt/IGPMGPO::SetSecurityDescriptor"]
 old-location: gpmc\igpmgpo_setsecuritydescriptor.htm
 tech.root: gpmc
 ms.assetid: 087cbe19-25d9-4134-8893-1b2906915220

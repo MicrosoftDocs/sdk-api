@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.Edit_Enable
 title: Edit_Enable macro (windowsx.h)
-description: Enables or disables an edit control.
+description: Enables or disables an edit control.helpviewer_keywords: ["Edit_Enable","Edit_Enable macro [Windows Controls]","_win32_Edit_Enable","_win32_Edit_Enable_cpp","controls.Edit_Enable","controls._win32_Edit_Enable","windowsx/Edit_Enable"]
 old-location: controls\Edit_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_enable.htm

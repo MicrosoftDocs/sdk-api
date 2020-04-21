@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetPixelOffsetMode
 title: Graphics::SetPixelOffsetMode (gdiplusgraphics.h)
-description: The Graphics::SetPixelOffsetMode method sets the pixel offset mode of this Graphics object.
+description: The Graphics::SetPixelOffsetMode method sets the pixel offset mode of this Graphics object.helpviewer_keywords: ["Graphics class [GDI+]","SetPixelOffsetMode method","Graphics.SetPixelOffsetMode","Graphics::SetPixelOffsetMode","SetPixelOffsetMode","SetPixelOffsetMode method [GDI+]","SetPixelOffsetMode method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetPixelOffsetMode_pixelOffsetMode_","gdiplus._gdiplus_CLASS_Graphics_SetPixelOffsetMode_pixelOffsetMode_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetPixelOffsetMode_pixelOffsetMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setpixeloffsetmode.htm

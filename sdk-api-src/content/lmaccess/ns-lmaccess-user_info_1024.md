@@ -1,7 +1,7 @@
 ---
 UID: NS:lmaccess._USER_INFO_1024
 title: USER_INFO_1024 (lmaccess.h)
-description: The USER_INFO_1024 structure contains the country/region code for a network user's language of choice. This information level is valid only when you call the NetUserSetInfo function.
+description: The USER_INFO_1024 structure contains the country/region code for a network user's language of choice. This information level is valid only when you call the NetUserSetInfo function.helpviewer_keywords: ["*LPUSER_INFO_1024","*PUSER_INFO_1024","LPUSER_INFO_1024","LPUSER_INFO_1024 structure pointer [Network Management]","PUSER_INFO_1024","PUSER_INFO_1024 structure pointer [Network Management]","USER_INFO_1024","USER_INFO_1024 structure [Network Management]","_win32_user_info_1024_str","lmaccess/LPUSER_INFO_1024","lmaccess/PUSER_INFO_1024","lmaccess/USER_INFO_1024","netmgmt.user_info_1024_str"]
 old-location: netmgmt\user_info_1024_str.htm
 tech.root: NetMgmt
 ms.assetid: 8133238f-c968-4a65-a8dd-7b9a61a193f5

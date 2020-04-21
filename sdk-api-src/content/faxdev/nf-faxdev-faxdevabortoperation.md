@@ -1,7 +1,7 @@
 ---
 UID: NF:faxdev.FaxDevAbortOperation
 title: FaxDevAbortOperation function (faxdev.h)
-description: The fax service calls the FaxDevAbortOperation function to request that the fax service provider (FSP) terminate the active fax operation for the fax job specified by the FaxHandle parameter. Each FSP must export the FaxDevAbortOperation function.
+description: The fax service calls the FaxDevAbortOperation function to request that the fax service provider (FSP) terminate the active fax operation for the fax job specified by the FaxHandle parameter. Each FSP must export the FaxDevAbortOperation function.helpviewer_keywords: ["FaxDevAbortOperation","FaxDevAbortOperation function [Fax Service]","_mfax_faxdevabortoperation","fax._mfax_faxdevabortoperation","faxdev/FaxDevAbortOperation"]
 old-location: fax\_mfax_faxdevabortoperation.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_3y26.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPControls3.getAudioLanguageDescription
 title: IWMPControls3::getAudioLanguageDescription (wmp.h)
-description: The getAudioLanguageDescription method retrieves the description for the audio language corresponding to the specified one-based index.
+description: The getAudioLanguageDescription method retrieves the description for the audio language corresponding to the specified one-based index.helpviewer_keywords: ["IWMPControls3 interface [Windows Media Player]","getAudioLanguageDescription method","IWMPControls3.getAudioLanguageDescription","IWMPControls3::getAudioLanguageDescription","IWMPControls3getAudioLanguageDescription","getAudioLanguageDescription","getAudioLanguageDescription method [Windows Media Player]","getAudioLanguageDescription method [Windows Media Player]","IWMPControls3 interface","wmp.iwmpcontrols3_getaudiolanguagedescription","wmp/IWMPControls3::getAudioLanguageDescription"]
 old-location: wmp\iwmpcontrols3_getaudiolanguagedescription.htm
 tech.root: WMP
 ms.assetid: 4530267c-8b43-4778-a396-f365f6dae5f3

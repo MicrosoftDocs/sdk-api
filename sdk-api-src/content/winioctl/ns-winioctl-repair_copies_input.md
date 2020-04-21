@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._REPAIR_COPIES_INPUT
 title: REPAIR_COPIES_INPUT
-description: Input structure for the FSCTL_REPAIR_COPIES control code.
+description: Input structure for the FSCTL_REPAIR_COPIES control code.helpviewer_keywords: ["*PREPAIR_COPIES_INPUT","PREPAIR_COPIES_INPUT","PREPAIR_COPIES_INPUT structure pointer [Files]","REPAIR_COPIES_INPUT","REPAIR_COPIES_INPUT structure [Files]","fs.repair_copies_input","winioctl/PREPAIR_COPIES_INPUT","winioctl/REPAIR_COPIES_INPUT"]
 old-location: fs\repair_copies_input.htm
 tech.root: FileIO
 ms.assetid: c3cefb13-4825-4482-a87c-4ba482d3820b

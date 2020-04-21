@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmConnectionSubscriptionsGet0
 title: FwpmConnectionSubscriptionsGet0 function (fwpmu.h)
-description: Retrieves an array of all the current connection object change notification subscriptions.
+description: Retrieves an array of all the current connection object change notification subscriptions.helpviewer_keywords: ["FwpmConnectionSubscriptionsGet0","FwpmConnectionSubscriptionsGet0 function [Filtering]","fwp.fwpmconnectionsubscriptionsget0","fwpmu/FwpmConnectionSubscriptionsGet0"]
 old-location: fwp\fwpmconnectionsubscriptionsget0.htm
 tech.root: fwp
 ms.assetid: fc6c94be-9c2f-4b32-9cf5-4af33b8f1c97

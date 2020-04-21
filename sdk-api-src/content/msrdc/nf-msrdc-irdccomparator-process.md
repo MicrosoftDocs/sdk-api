@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.IRdcComparator.Process
 title: IRdcComparator::Process (msrdc.h)
-description: Compares two signature streams (seed and source) and produces a needs list, which describes the chunks of file data needed to create the target file.
+description: Compares two signature streams (seed and source) and produces a needs list, which describes the chunks of file data needed to create the target file.helpviewer_keywords: ["IRdcComparator interface [Remote Differential Compression]","Process method","IRdcComparator.Process","IRdcComparator::Process","Process","Process method [Remote Differential Compression]","Process method [Remote Differential Compression]","IRdcComparator interface","fs.irdccomparator_process","msrdc/IRdcComparator::Process","rdc.irdccomparator_process"]
 old-location: rdc\irdccomparator_process.htm
 tech.root: rdc
 ms.assetid: cc98a90c-ba82-4b92-a56c-07496a843089

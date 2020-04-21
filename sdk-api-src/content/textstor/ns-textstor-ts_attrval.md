@@ -1,7 +1,7 @@
 ---
 UID: NS:textstor.TS_ATTRVAL
 title: TS_ATTRVAL (textstor.h)
-description: The TS_ATTRVAL structure contains document attribute values.
+description: The TS_ATTRVAL structure contains document attribute values.helpviewer_keywords: ["TS_ATTRVAL","TS_ATTRVAL structure [Text Services Framework]","_tsf_ts_attrval_ref","textstor/TS_ATTRVAL","tsf.ts_attrval"]
 old-location: tsf\ts_attrval.htm
 tech.root: TSF
 ms.assetid: 9209ef60-6a1d-4aad-9f9f-775534116f37

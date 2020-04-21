@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.Rotate
 title: ITransformProvider::Rotate (uiautomationcore.h)
-description: Rotates the control.
+description: Rotates the control.helpviewer_keywords: ["ITransformProvider interface [Windows Accessibility]","Rotate method","ITransformProvider.Rotate","ITransformProvider::Rotate","Rotate","Rotate method [Windows Accessibility]","Rotate method [Windows Accessibility]","ITransformProvider interface","uiauto.uiauto_ITransformProvider_Rotate","uiauto_ITransformProvider_Rotate","uiautomationcore/ITransformProvider::Rotate","winauto.uiauto_ITransformProvider_Rotate"]
 old-location: winauto\uiauto_ITransformProvider_Rotate.htm
 tech.root: WinAuto
 ms.assetid: 2e8255de-b28d-4fc4-82ea-4255771f9838

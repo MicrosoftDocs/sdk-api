@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetWindowPlacement
 title: SetWindowPlacement function (winuser.h)
-description: Sets the show state and the restored, minimized, and maximized positions of the specified window.
+description: Sets the show state and the restored, minimized, and maximized positions of the specified window.helpviewer_keywords: ["SetWindowPlacement","SetWindowPlacement function [Windows and Messages]","_win32_SetWindowPlacement","_win32_setwindowplacement_cpp","winmsg.setwindowplacement","winui._win32_setwindowplacement","winuser/SetWindowPlacement"]
 old-location: winmsg\setwindowplacement.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setwindowplacement.htm

@@ -1,7 +1,7 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MODULE_LIST
 title: MINIDUMP_MODULE_LIST (minidumpapiset.h)
-description: Contains a list of modules.
+description: Contains a list of modules.helpviewer_keywords: ["*PMINIDUMP_MODULE_LIST","MINIDUMP_MODULE_LIST","MINIDUMP_MODULE_LIST structure","PMINIDUMP_MODULE_LIST","PMINIDUMP_MODULE_LIST structure pointer","_MINIDUMP_MODULE_LIST","_win32_minidump_module_list_str","base.minidump_module_list_str","minidumpapiset/MINIDUMP_MODULE_LIST","minidumpapiset/PMINIDUMP_MODULE_LIST"]
 old-location: base\minidump_module_list_str.htm
 tech.root: Debug
 ms.assetid: 9c30026d-9c72-472f-9d71-b15274459aae

@@ -1,7 +1,7 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.StopEffect
 title: IDirectInputEffectDriver::StopEffect (dinputd.h)
-description: The IDirectInputEffectDriver::StopEffect method halts the playback of an effect.
+description: The IDirectInputEffectDriver::StopEffect method halts the playback of an effect.helpviewer_keywords: ["IDirectInputEffectDriver interface [Human Input Devices]","StopEffect method","IDirectInputEffectDriver.StopEffect","IDirectInputEffectDriver::StopEffect","StopEffect","StopEffect method [Human Input Devices]","StopEffect method [Human Input Devices]","IDirectInputEffectDriver interface","di_ref_8aed81a3-c45d-4b8e-bcfb-2c17e1a708a2.xml","dinputd/IDirectInputEffectDriver::StopEffect","hid.idirectinputeffectdriver_stopeffect"]
 old-location: hid\idirectinputeffectdriver_stopeffect.htm
 tech.root: hid
 ms.assetid: 613cb68f-1fa8-4122-a1c9-feabde2dfbc9

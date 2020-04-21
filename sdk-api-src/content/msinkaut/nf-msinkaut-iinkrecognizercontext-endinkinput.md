@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.EndInkInput
 title: IInkRecognizerContext::EndInkInput (msinkaut.h)
-description: EndInkInput is no longer available for use for recognizers of western languages as of Windows Vista.
+description: EndInkInput is no longer available for use for recognizers of western languages as of Windows Vista.helpviewer_keywords: ["EndInkInput","EndInkInput method [Tablet PC]","EndInkInput method [Tablet PC]","IInkRecognizerContext interface","IInkRecognizerContext interface [Tablet PC]","EndInkInput method","IInkRecognizerContext.EndInkInput","IInkRecognizerContext::EndInkInput","a384edf8-3b3d-4e0c-b39c-976798457076","msinkaut/IInkRecognizerContext::EndInkInput","tablet.inkrecognizercontext_endinkinput"]
 old-location: tablet\inkrecognizercontext_endinkinput.htm
 tech.root: tablet
 ms.assetid: a384edf8-3b3d-4e0c-b39c-976798457076

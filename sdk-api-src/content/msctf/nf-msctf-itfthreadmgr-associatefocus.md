@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgr.AssociateFocus
 title: ITfThreadMgr::AssociateFocus (msctf.h)
-description: ITfThreadMgr::AssociateFocus method
+description: ITfThreadMgr::AssociateFocus methodhelpviewer_keywords: ["AssociateFocus","AssociateFocus method [Text Services Framework]","AssociateFocus method [Text Services Framework]","ITfThreadMgr interface","ITfThreadMgr interface [Text Services Framework]","AssociateFocus method","ITfThreadMgr.AssociateFocus","ITfThreadMgr::AssociateFocus","_tsf_itfthreadmgr_associatefocus_ref","msctf/ITfThreadMgr::AssociateFocus","tsf.itfthreadmgr_associatefocus"]
 old-location: tsf\itfthreadmgr_associatefocus.htm
 tech.root: TSF
 ms.assetid: e2e0ef4e-5254-42c3-aebf-9d46cdee7e67

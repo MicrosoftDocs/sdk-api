@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SspiCompareAuthIdentities
 title: SspiCompareAuthIdentities function (sspi.h)
-description: Compares the two specified credentials.
+description: Compares the two specified credentials.helpviewer_keywords: ["SspiCompareAuthIdentities","SspiCompareAuthIdentities function [Security]","security.sspicompareauthidentities","sspi/SspiCompareAuthIdentities"]
 old-location: security\sspicompareauthidentities.htm
 tech.root: SecAuthN
 ms.assetid: d2c4f363-3d86-48f0-bae1-4f9240d68bab

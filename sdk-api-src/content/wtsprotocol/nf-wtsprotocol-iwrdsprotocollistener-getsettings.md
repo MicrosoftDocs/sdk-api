@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolListener.GetSettings
 title: IWRdsProtocolListener::GetSettings (wtsprotocol.h)
-description: Gets the listener setting information for client connection requests.
+description: Gets the listener setting information for client connection requests.helpviewer_keywords: ["GetSettings","GetSettings method [Remote Desktop Services]","GetSettings method [Remote Desktop Services]","IWRdsProtocolListener interface","IWRdsProtocolListener interface [Remote Desktop Services]","GetSettings method","IWRdsProtocolListener.GetSettings","IWRdsProtocolListener::GetSettings","termserv.iwrdsprotocollistener_getsettings","wtsprotocol/IWRdsProtocolListener::GetSettings"]
 old-location: termserv\iwrdsprotocollistener_getsettings.htm
 tech.root: TermServ
 ms.assetid: 644eaa8f-776d-49de-af23-de9faef80e74

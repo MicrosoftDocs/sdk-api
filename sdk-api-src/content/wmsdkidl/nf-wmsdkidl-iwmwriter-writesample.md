@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.WriteSample
 title: IWMWriter::WriteSample (wmsdkidl.h)
-description: The WriteSample method passes in uncompressed data to be compressed and appended to the file that is being created.
+description: The WriteSample method passes in uncompressed data to be compressed and appended to the file that is being created.helpviewer_keywords: ["IWMWriter interface [windows Media Format]","WriteSample method","IWMWriter.WriteSample","IWMWriter::WriteSample","IWMWriterWriteSample","WriteSample","WriteSample method [windows Media Format]","WriteSample method [windows Media Format]","IWMWriter interface","wmformat.iwmwriter_writesample","wmsdkidl/IWMWriter::WriteSample"]
 old-location: wmformat\iwmwriter_writesample.htm
 tech.root: wmformat
 ms.assetid: ba1cf121-1d01-4e90-9ab0-95af0b6e3850

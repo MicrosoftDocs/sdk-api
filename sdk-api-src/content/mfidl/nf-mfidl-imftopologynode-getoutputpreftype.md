@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetOutputPrefType
 title: IMFTopologyNode::GetOutputPrefType (mfidl.h)
-description: Retrieves the preferred media type for an output stream on this node.
+description: Retrieves the preferred media type for an output stream on this node.helpviewer_keywords: ["972052ca-1d87-4fa4-abeb-6e74ba6c9368","GetOutputPrefType","GetOutputPrefType method [Media Foundation]","GetOutputPrefType method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","GetOutputPrefType method","IMFTopologyNode.GetOutputPrefType","IMFTopologyNode::GetOutputPrefType","mf.imftopologynode_getoutputpreftype","mfidl/IMFTopologyNode::GetOutputPrefType"]
 old-location: mf\imftopologynode_getoutputpreftype.htm
 tech.root: medfound
 ms.assetid: 972052ca-1d87-4fa4-abeb-6e74ba6c9368

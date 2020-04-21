@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._KERB_QUERY_BINDING_CACHE_REQUEST
 title: KERB_QUERY_BINDING_CACHE_REQUEST (ntsecapi.h)
-description: Contains information used to query the binding cache.
+description: Contains information used to query the binding cache.helpviewer_keywords: ["*PKERB_QUERY_BINDING_CACHE_REQUEST","KERB_QUERY_BINDING_CACHE_REQUEST","KERB_QUERY_BINDING_CACHE_REQUEST structure [Security]","PKERB_QUERY_BINDING_CACHE_REQUEST","PKERB_QUERY_BINDING_CACHE_REQUEST structure pointer [Security]","ntsecapi/KERB_QUERY_BINDING_CACHE_REQUEST","ntsecapi/PKERB_QUERY_BINDING_CACHE_REQUEST","security.kerb_query_binding_cache_request"]
 old-location: security\kerb_query_binding_cache_request.htm
 tech.root: SecAuthN
 ms.assetid: 45DAA909-8D5D-4522-803B-E42EA8E09CE8

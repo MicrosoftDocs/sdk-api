@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeLib.GetLibAttr
 title: ITypeLib::GetLibAttr (oaidl.h)
-description: Retrieves the structure that contains the library's attributes.
+description: Retrieves the structure that contains the library's attributes.helpviewer_keywords: ["GetLibAttr","GetLibAttr method [Automation]","GetLibAttr method [Automation]","ITypeLib interface","ITypeLib interface [Automation]","GetLibAttr method","ITypeLib.GetLibAttr","ITypeLib::GetLibAttr","_oa96_ITypeLib_GetLibAttr","automat.itypelib_getlibattr","oaidl/ITypeLib::GetLibAttr"]
 old-location: automat\itypelib_getlibattr.htm
 tech.root: automat
 ms.assetid: edc35364-99dc-438b-81de-4f129c0cf50f

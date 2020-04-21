@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManConnectShellCommand
 title: WSManConnectShellCommand function (wsman.h)
-description: Connects to an existing command running in a shell.
+description: Connects to an existing command running in a shell.helpviewer_keywords: ["WSManConnectShellCommand","WSManConnectShellCommand function [Windows Remote Management]","winrm.wsmanconnectshellcommand","wsman/WSManConnectShellCommand"]
 old-location: winrm\wsmanconnectshellcommand.htm
 tech.root: winrm
 ms.assetid: 860EC6F8-35A9-4C12-9247-4E14E6B1D66A

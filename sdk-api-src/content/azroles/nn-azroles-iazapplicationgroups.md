@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzApplicationGroups
 title: IAzApplicationGroups (azroles.h)
-description: Represents a collection of IAzApplicationGroup objects.
+description: Represents a collection of IAzApplicationGroup objects.helpviewer_keywords: ["IAzApplicationGroups","IAzApplicationGroups interface [Security]","IAzApplicationGroups interface [Security]","described","azroles/IAzApplicationGroups","security.iazapplicationgroups"]
 old-location: security\iazapplicationgroups.htm
 tech.root: SecAuthZ
 ms.assetid: e96c4cae-0a0a-4ac4-805f-2042312f0267

@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.SendScsiReadCapacity
 title: SendScsiReadCapacity function (iscsidsc.h)
-description: SendScsiReadCapacity function sends a SCSI READ CAPACITY command to the indicated target.
+description: SendScsiReadCapacity function sends a SCSI READ CAPACITY command to the indicated target.helpviewer_keywords: ["SendScsiReadCapacity","SendScsiReadCapacity function [iSCSI Discovery Library API]","iscsidisc.sendscsireadcapacity","iscsidsc/SendScsiReadCapacity"]
 old-location: iscsidisc\sendscsireadcapacity.htm
 tech.root: iSCSIDisc
 ms.assetid: 1a12848f-4b2d-45f6-971b-d8e4ccd00c21

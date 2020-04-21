@@ -1,7 +1,7 @@
 ---
 UID: NF:physicalmonitorenumerationapi.DestroyPhysicalMonitors
 title: DestroyPhysicalMonitors function (physicalmonitorenumerationapi.h)
-description: Closes an array of physical monitor handles.
+description: Closes an array of physical monitor handles.helpviewer_keywords: ["DestroyPhysicalMonitors","DestroyPhysicalMonitors function [Monitor Configuration]","monitor.destroyphysicalmonitors","physicalmonitorenumerationapi/DestroyPhysicalMonitors"]
 old-location: monitor\destroyphysicalmonitors.htm
 tech.root: Monitor
 ms.assetid: ec9bbadf-93f3-4842-9bcc-e6a76f2f1ccf

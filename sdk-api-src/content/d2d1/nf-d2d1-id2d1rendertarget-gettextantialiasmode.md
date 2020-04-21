@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetTextAntialiasMode
 title: ID2D1RenderTarget::GetTextAntialiasMode (d2d1.h)
-description: Gets the current antialiasing mode for text and glyph drawing operations.
+description: Gets the current antialiasing mode for text and glyph drawing operations.helpviewer_keywords: ["GetTextAntialiasMode","GetTextAntialiasMode method [Direct2D]","GetTextAntialiasMode method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetTextAntialiasMode method","ID2D1RenderTarget.GetTextAntialiasMode","ID2D1RenderTarget::GetTextAntialiasMode","d2d1/ID2D1RenderTarget::GetTextAntialiasMode","direct2d.ID2D1RenderTarget_GetTextAntialiasMode"]
 old-location: direct2d\ID2D1RenderTarget_GetTextAntialiasMode.htm
 tech.root: Direct2D
 ms.assetid: c9d4ecd9-816d-43b2-adcf-25ac595279f4

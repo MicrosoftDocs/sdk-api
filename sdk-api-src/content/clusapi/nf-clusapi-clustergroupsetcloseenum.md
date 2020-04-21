@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterGroupSetCloseEnum
 title: ClusterGroupSetCloseEnum function (clusapi.h)
-description: Closes an open enumeration for a groupset.
+description: Closes an open enumeration for a groupset.helpviewer_keywords: ["ClusterGroupSetCloseEnum","ClusterGroupSetCloseEnum function [Failover Cluster]","PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET","PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET function [Failover Cluster]","clusapi/ClusterGroupSetCloseEnum","clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET","mscs.clustergroupcollectioncloseenum"]
 old-location: mscs\clustergroupcollectioncloseenum.htm
 tech.root: MsCS
 ms.assetid: b82e13f0-364c-41cf-9fda-98a95f23ff7d

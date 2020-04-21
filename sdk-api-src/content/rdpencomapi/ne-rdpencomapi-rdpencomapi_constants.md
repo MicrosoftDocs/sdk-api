@@ -1,7 +1,7 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0028_0001
 title: RDPENCOMAPI_CONSTANTS (rdpencomapi.h)
-description: Defines values for some of the constants used in this API.
+description: Defines values for some of the constants used in this API.helpviewer_keywords: ["CONST_ATTENDEE_ID_DEFAULT","CONST_ATTENDEE_ID_EVERYONE","CONST_ATTENDEE_ID_HOST","CONST_CONN_INTERVAL","CONST_MAX_CHANNEL_MESSAGE_SIZE","CONST_MAX_CHANNEL_NAME_LEN","CONST_MAX_LEGACY_CHANNEL_MESSAGE_SIZE","RDPENCOMAPI_CONSTANTS","RDPENCOMAPI_CONSTANTS enumeration [RDP]","rdp.rdpencomapi_constants","rdpencomapi/CONST_ATTENDEE_ID_DEFAULT","rdpencomapi/CONST_ATTENDEE_ID_EVERYONE","rdpencomapi/CONST_ATTENDEE_ID_HOST","rdpencomapi/CONST_CONN_INTERVAL","rdpencomapi/CONST_MAX_CHANNEL_MESSAGE_SIZE","rdpencomapi/CONST_MAX_CHANNEL_NAME_LEN","rdpencomapi/CONST_MAX_LEGACY_CHANNEL_MESSAGE_SIZE","rdpencomapi/RDPENCOMAPI_CONSTANTS"]
 old-location: rdp\rdpencomapi_constants.htm
 tech.root: rdp
 ms.assetid: 50c56089-75f9-41c9-a4a4-10556f98d6e8

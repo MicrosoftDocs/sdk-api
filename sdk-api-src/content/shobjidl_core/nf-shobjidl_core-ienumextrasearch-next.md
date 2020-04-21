@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Next
 title: IEnumExtraSearch::Next (shobjidl_core.h)
-description: Used to request information on one or more search objects.
+description: Used to request information on one or more search objects.helpviewer_keywords: ["IEnumExtraSearch interface [Windows Shell]","Next method","IEnumExtraSearch.Next","IEnumExtraSearch::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumExtraSearch interface","_win32_IEnumExtraSearch_Next","shell.IEnumExtraSearch_Next","shobjidl_core/IEnumExtraSearch::Next"]
 old-location: shell\IEnumExtraSearch_Next.htm
 tech.root: shell
 ms.assetid: 915f1cd5-5429-4080-8357-753dd1744d93

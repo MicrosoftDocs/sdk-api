@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMQuaternionRotationMatrix
 title: XMQuaternionRotationMatrix function (directxmath.h)
-description: Computes a rotation quaternion from a rotation matrix.
+description: Computes a rotation quaternion from a rotation matrix.helpviewer_keywords: ["Use DirectX..XMQuaternionRotationMatrix","XMQuaternionRotationMatrix","XMQuaternionRotationMatrix method [DirectX Math Support APIs]","dxmath.xmquaternionrotationmatrix"]
 old-location: dxmath\xmquaternionrotationmatrix.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionRotationMatrix(XMMATRIX)

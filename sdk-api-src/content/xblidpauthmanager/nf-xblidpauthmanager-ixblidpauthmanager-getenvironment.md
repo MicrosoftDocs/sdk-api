@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetEnvironment
 title: IXblIdpAuthManager::GetEnvironment (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use.helpviewer_keywords: ["GetEnvironment","GetEnvironment method","GetEnvironment method","IXblIdpAuthManager interface","IXblIdpAuthManager interface","GetEnvironment method","IXblIdpAuthManager.GetEnvironment","IXblIdpAuthManager::GetEnvironment","xblidp.ixblidpauthmanager_getenvironment","xblidpauthmanager/IXblIdpAuthManager::GetEnvironment"]
 old-location: xblidp\ixblidpauthmanager_getenvironment.htm
 tech.root: xblidp
 ms.assetid: 9AEFE6CB-9C15-4945-ACAC-6AE0C04331CC

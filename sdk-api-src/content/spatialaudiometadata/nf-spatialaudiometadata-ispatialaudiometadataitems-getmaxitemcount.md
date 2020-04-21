@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetMaxItemCount
 title: ISpatialAudioMetadataItems::GetMaxItemCount (spatialaudiometadata.h)
-description: The maximum number of items allowed by the ISpatialAudioMetadataItems, defined when the object is created.
+description: The maximum number of items allowed by the ISpatialAudioMetadataItems, defined when the object is created.helpviewer_keywords: ["GetMaxItemCount","GetMaxItemCount method [Core Audio]","GetMaxItemCount method [Core Audio]","ISpatialAudioMetadataItems interface","ISpatialAudioMetadataItems interface [Core Audio]","GetMaxItemCount method","ISpatialAudioMetadataItems.GetMaxItemCount","ISpatialAudioMetadataItems::GetMaxItemCount","coreaudio.ispatialaudiometadataitems_getmaxitemcount","spatialaudiometadata/ISpatialAudioMetadataItems::GetMaxItemCount"]
 old-location: coreaudio\ispatialaudiometadataitems_getmaxitemcount.htm
 tech.root: CoreAudio
 ms.assetid: 933DEDE0-3DC1-4D0B-8EAE-58EFB52CE2FE

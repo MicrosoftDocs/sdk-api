@@ -1,7 +1,7 @@
 ---
 UID: NF:locationapi.ILocationEvents.OnStatusChanged
 title: ILocationEvents::OnStatusChanged (locationapi.h)
-description: Called when a report status changes.
+description: Called when a report status changes.helpviewer_keywords: ["ILocationEvents interface [WinLocation]","OnStatusChanged method","ILocationEvents.OnStatusChanged","ILocationEvents::OnStatusChanged","OnStatusChanged","OnStatusChanged method [WinLocation]","OnStatusChanged method [WinLocation]","ILocationEvents interface","WinLocation_COM_Ref.ilocationevents_onstatuschanged","locationapi/ILocationEvents::OnStatusChanged"]
 old-location: winlocation_com_ref\ilocationevents_onstatuschanged.htm
 tech.root: locationapi
 ms.assetid: d13d8b72-3188-479f-a70c-52b1a9435b80

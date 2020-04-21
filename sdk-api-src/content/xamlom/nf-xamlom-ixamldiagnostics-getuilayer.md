@@ -1,7 +1,7 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetUiLayer
 title: IXamlDiagnostics::GetUiLayer (xamlom.h)
-description: Gets the visual diagnostics root that can be used to draw on for highlighting elements in the tree.
+description: Gets the visual diagnostics root that can be used to draw on for highlighting elements in the tree.helpviewer_keywords: ["GetUiLayer","GetUiLayer method","GetUiLayer method","IXamlDiagnostics interface","IXamlDiagnostics interface","GetUiLayer method","IXamlDiagnostics.GetUiLayer","IXamlDiagnostics::GetUiLayer","xaml_diagnostics.ixamldiagnostics_getuilayer","xamlom/IXamlDiagnostics::GetUiLayer"]
 old-location: xaml_diagnostics\ixamldiagnostics_getuilayer.htm
 tech.root: xaml_diagnostics
 ms.assetid: BE45AF9E-0C2D-439B-A360-2B9AE9359AEE

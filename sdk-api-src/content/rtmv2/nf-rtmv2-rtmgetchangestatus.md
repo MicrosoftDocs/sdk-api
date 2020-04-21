@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmGetChangeStatus
 title: RtmGetChangeStatus function (rtmv2.h)
-description: The RtmGetChangeStatus function checks whether there are pending changes that have not been retrieved with RtmGetChangedDests.
+description: The RtmGetChangeStatus function checks whether there are pending changes that have not been retrieved with RtmGetChangedDests.helpviewer_keywords: ["RtmGetChangeStatus","RtmGetChangeStatus function [RAS]","_rtmv2ref_rtmgetchangestatus","rras.rtmgetchangestatus","rtmv2/RtmGetChangeStatus"]
 old-location: rras\rtmgetchangestatus.htm
 tech.root: RRAS
 ms.assetid: fafe465a-6c89-45b0-83a9-f08d1d9546c6

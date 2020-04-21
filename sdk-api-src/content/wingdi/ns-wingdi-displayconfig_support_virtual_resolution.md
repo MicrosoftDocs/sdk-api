@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 title: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION (wingdi.h)
-description: The DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure contains information on the state of virtual resolution support for the monitor.
+description: The DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure contains information on the state of virtual resolution support for the monitor.helpviewer_keywords: ["DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION","DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure [Display Devices]","display.displayconfig_support_virtual_resolution","wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION"]
 old-location: display\displayconfig_support_virtual_resolution.htm
 tech.root: display
 ms.assetid: D9208D00-F437-4B2E-8C39-044F75088659

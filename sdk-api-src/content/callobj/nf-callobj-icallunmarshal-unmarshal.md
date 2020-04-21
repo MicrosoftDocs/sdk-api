@@ -1,7 +1,7 @@
 ---
 UID: NF:callobj.ICallUnmarshal.Unmarshal
 title: ICallUnmarshal::Unmarshal (callobj.h)
-description: Turns a marshaled packet of data back into an activation record that can then be invoked or manipulated in some other way.
+description: Turns a marshaled packet of data back into an activation record that can then be invoked or manipulated in some other way.helpviewer_keywords: ["ICallUnmarshal interface [COM]","Unmarshal method","ICallUnmarshal.Unmarshal","ICallUnmarshal::Unmarshal","Unmarshal","Unmarshal method [COM]","Unmarshal method [COM]","ICallUnmarshal interface","_com_icallunmarshal_unmarshal","callobj/ICallUnmarshal::Unmarshal","com.icallunmarshal_unmarshal"]
 old-location: com\icallunmarshal_unmarshal.htm
 tech.root: com
 ms.assetid: 15d04287-285d-43d9-ad55-3dc9c7ae192e

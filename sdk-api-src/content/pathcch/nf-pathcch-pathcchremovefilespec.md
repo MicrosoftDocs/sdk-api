@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchRemoveFileSpec
 title: PathCchRemoveFileSpec function (pathcch.h)
-description: Removes the last element in a path string, whether that element is a file name or a directory name.
+description: Removes the last element in a path string, whether that element is a file name or a directory name.helpviewer_keywords: ["PathCchRemoveFileSpec","PathCchRemoveFileSpec function [Windows Shell]","pathcch/PathCchRemoveFileSpec","shell.PathCchRemoveFileSpec"]
 old-location: shell\PathCchRemoveFileSpec.htm
 tech.root: shell
 ms.assetid: c37aeddc-ed24-4828-b92b-bce0e6384726

@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbGlobalStore
 title: ITsSbGlobalStore (sbtsv.h)
-description: Exposes methods that query for target computers, sessions, environments, and farms that have been added to the Remote Desktop Connection Broker (RD Connection Broker) store.
+description: Exposes methods that query for target computers, sessions, environments, and farms that have been added to the Remote Desktop Connection Broker (RD Connection Broker) store.helpviewer_keywords: ["ITsSbGlobalStore","ITsSbGlobalStore interface [Remote Desktop Services]","ITsSbGlobalStore interface [Remote Desktop Services]","described","sbtsv/ITsSbGlobalStore","termserv.itssbglobalstore"]
 old-location: termserv\itssbglobalstore.htm
 tech.root: TermServ
 ms.assetid: d25b6f73-ee5f-40e4-9c49-fd48dd3990d2

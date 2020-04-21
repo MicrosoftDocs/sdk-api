@@ -1,7 +1,7 @@
 ---
 UID: NC:windns.MDNS_QUERY_CALLBACK
 title: MDNS_QUERY_CALLBACK callback function
-description: Used to asynchronously return the results of an mDNS query.
+description: Used to asynchronously return the results of an mDNS query.helpviewer_keywords: ["MDNS_QUERY_CALLBACK"]
 ms.date: 02/19/2019
 ms.keywords: MDNS_QUERY_CALLBACK
 f1_keywords:

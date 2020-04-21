@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.PauseClusterNodeEx
 title: PauseClusterNodeEx function (clusapi.h)
-description: Requests that a node temporarily suspends its cluster activity.
+description: Requests that a node temporarily suspends its cluster activity.helpviewer_keywords: ["PCLUSAPI_PAUSE_CLUSTER_NODE_EX","PCLUSAPI_PAUSE_CLUSTER_NODE_EX function [Failover Cluster]","PauseClusterNodeEx","PauseClusterNodeEx function [Failover Cluster]","clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE_EX","clusapi/PauseClusterNodeEx","mscs.pauseclusternodeex"]
 old-location: mscs\pauseclusternodeex.htm
 tech.root: MsCS
 ms.assetid: 632C26C2-ED12-40DC-9615-4A09A7E2F7CB

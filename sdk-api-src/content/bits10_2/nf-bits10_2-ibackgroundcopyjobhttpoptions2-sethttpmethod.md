@@ -1,7 +1,7 @@
 ---
 UID: NF:bits10_2.IBackgroundCopyJobHttpOptions2.SetHttpMethod
 title: IBackgroundCopyJobHttpOptions2::SetHttpMethod (bits10_2.h)
-description: Overrides the default HTTP method used for a BITS transfer.
+description: Overrides the default HTTP method used for a BITS transfer.helpviewer_keywords: ["IBackgroundCopyJobHttpOptions2 interface [BITS]","SetHttpMethod method","IBackgroundCopyJobHttpOptions2.SetHttpMethod","IBackgroundCopyJobHttpOptions2::SetHttpMethod","SetHttpMethod","SetHttpMethod method [BITS]","SetHttpMethod method [BITS]","IBackgroundCopyJobHttpOptions2 interface","bits.ibackgroundcopyjobhttpoptions2_sethttpmethod","bits10_2/IBackgroundCopyJobHttpOptions2::SetHttpMethod"]
 old-location: bits\ibackgroundcopyjobhttpoptions2_sethttpmethod.htm
 tech.root: Bits
 ms.assetid: 0CF8236B-7630-4A38-8A8F-51E69D3461B0

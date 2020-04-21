@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MonthCal_SetMaxSelCount
 title: MonthCal_SetMaxSelCount macro (commctrl.h)
-description: Sets the maximum number of days that can be selected in a month calendar control. You can use this macro or send the MCM_SETMAXSELCOUNT message explicitly.
+description: Sets the maximum number of days that can be selected in a month calendar control. You can use this macro or send the MCM_SETMAXSELCOUNT message explicitly.helpviewer_keywords: ["MonthCal_SetMaxSelCount","MonthCal_SetMaxSelCount macro [Windows Controls]","_win32_MonthCal_SetMaxSelCount","_win32_MonthCal_SetMaxSelCount_cpp","commctrl/MonthCal_SetMaxSelCount","controls.MonthCal_SetMaxSelCount","controls._win32_MonthCal_SetMaxSelCount"]
 old-location: controls\MonthCal_SetMaxSelCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setmaxselcount.htm

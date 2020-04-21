@@ -1,7 +1,7 @@
 ---
 UID: NS:p2p.peer_event_request_status_changed_data_tag
 title: PEER_EVENT_REQUEST_STATUS_CHANGED_DATA (p2p.h)
-description: The PEER_EVENT_REQUEST_STATUS_CHANGED_DATA structure contains information returned when a PEER_EVENT_REQUEST_STATUS_CHANGED event is raised on a peer participating in a peer collaboration network.
+description: The PEER_EVENT_REQUEST_STATUS_CHANGED_DATA structure contains information returned when a PEER_EVENT_REQUEST_STATUS_CHANGED event is raised on a peer participating in a peer collaboration network.helpviewer_keywords: ["*PPEER_EVENT_REQUEST_STATUS_CHANGED_DATA","PEER_EVENT_REQUEST_STATUS_CHANGED_DATA","PEER_EVENT_REQUEST_STATUS_CHANGED_DATA structure [Peer Networking]","PPEER_EVENT_REQUEST_STATUS_CHANGED_DATA","PPEER_EVENT_REQUEST_STATUS_CHANGED_DATA structure pointer [Peer Networking]","p2p.peer_event_request_status_changed_data","p2p/PEER_EVENT_REQUEST_STATUS_CHANGED_DATA","p2p/PPEER_EVENT_REQUEST_STATUS_CHANGED_DATA"]
 old-location: p2p\peer_event_request_status_changed_data.htm
 tech.root: P2PSdk
 ms.assetid: 88bcf892-5591-49a0-bb00-090f4d5f2f79

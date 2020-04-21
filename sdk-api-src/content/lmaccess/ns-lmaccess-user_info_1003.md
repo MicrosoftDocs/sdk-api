@@ -1,7 +1,7 @@
 ---
 UID: NS:lmaccess._USER_INFO_1003
 title: USER_INFO_1003 (lmaccess.h)
-description: The USER_INFO_1003 structure contains a user password. This information level is valid only when you call the NetUserSetInfo function.
+description: The USER_INFO_1003 structure contains a user password. This information level is valid only when you call the NetUserSetInfo function.helpviewer_keywords: ["*LPUSER_INFO_1003","*PUSER_INFO_1003","LPUSER_INFO_1003","LPUSER_INFO_1003 structure pointer [Network Management]","PUSER_INFO_1003","PUSER_INFO_1003 structure pointer [Network Management]","USER_INFO_1003","USER_INFO_1003 structure [Network Management]","_win32_user_info_1003_str","lmaccess/LPUSER_INFO_1003","lmaccess/PUSER_INFO_1003","lmaccess/USER_INFO_1003","netmgmt.user_info_1003_str"]
 old-location: netmgmt\user_info_1003_str.htm
 tech.root: NetMgmt
 ms.assetid: ef1d1ecd-7226-4e4e-a0b3-ec096d3b1207

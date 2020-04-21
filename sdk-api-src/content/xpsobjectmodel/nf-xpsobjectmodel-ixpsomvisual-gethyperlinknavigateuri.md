@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetHyperlinkNavigateUri
 title: IXpsOMVisual::GetHyperlinkNavigateUri (xpsobjectmodel.h)
-description: Gets a pointer to the IUri interface to which this visual object links.
+description: Gets a pointer to the IUri interface to which this visual object links.helpviewer_keywords: ["GetHyperlinkNavigateUri","GetHyperlinkNavigateUri method [XPS Documents and Packaging]","GetHyperlinkNavigateUri method [XPS Documents and Packaging]","IXpsOMVisual interface","IXpsOMVisual interface [XPS Documents and Packaging]","GetHyperlinkNavigateUri method","IXpsOMVisual.GetHyperlinkNavigateUri","IXpsOMVisual::GetHyperlinkNavigateUri","xps.ixpsomvisual_gethyperlinknavigateuri","xpsobjectmodel/IXpsOMVisual::GetHyperlinkNavigateUri"]
 old-location: xps\ixpsomvisual_gethyperlinknavigateuri.htm
 tech.root: printdocs
 ms.assetid: 297ddac1-8383-423a-8e47-7b4466e7e5d1

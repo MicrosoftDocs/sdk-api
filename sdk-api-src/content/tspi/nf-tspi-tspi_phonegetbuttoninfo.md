@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_phoneGetButtonInfo
 title: TSPI_phoneGetButtonInfo function (tspi.h)
-description: The TSPI_phoneGetButtonInfo function returns information about a specified button.
+description: The TSPI_phoneGetButtonInfo function returns information about a specified button.helpviewer_keywords: ["TSPI_phoneGetButtonInfo","TSPI_phoneGetButtonInfo function [TAPI 2.2]","_tspi_tspi_phonegetbuttoninfo","tspi.tspi_phonegetbuttoninfo","tspi/TSPI_phoneGetButtonInfo"]
 old-location: tspi\tspi_phonegetbuttoninfo.htm
 tech.root: Tapi
 ms.assetid: b4db8075-1e45-4662-805c-6e3004517374

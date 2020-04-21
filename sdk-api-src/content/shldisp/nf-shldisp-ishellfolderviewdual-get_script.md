@@ -1,7 +1,7 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_Script
 title: IShellFolderViewDual::get_Script (shldisp.h)
-description: Gets the scripting object for the view.
+description: Gets the scripting object for the view.helpviewer_keywords: ["IShellFolderViewDual interface [Windows Shell]","get_Script method","IShellFolderViewDual.get_Script","IShellFolderViewDual::get_Script","_shell_IShellFolderViewDual_get_Script","get_Script","get_Script method [Windows Shell]","get_Script method [Windows Shell]","IShellFolderViewDual interface","shell.IShellFolderViewDual_get_Script","shldisp/IShellFolderViewDual::get_Script"]
 old-location: shell\IShellFolderViewDual_get_Script.htm
 tech.root: shell
 ms.assetid: 9d683cda-0fe0-4984-b556-a6dd1223ca4c

@@ -1,7 +1,7 @@
 ---
 UID: NS:winusbio._WINUSB_PIPE_INFORMATION_EX
 title: WINUSB_PIPE_INFORMATION_EX (winusbio.h)
-description: The WINUSB_PIPE_INFORMATION_EX structure contains pipe information that the WinUsb_QueryPipeEx routine retrieves.
+description: The WINUSB_PIPE_INFORMATION_EX structure contains pipe information that the WinUsb_QueryPipeEx routine retrieves.helpviewer_keywords: ["*PWINUSB_PIPE_INFORMATION_EX","PWINUSB_PIPE_INFORMATION_EX","PWINUSB_PIPE_INFORMATION_EX structure pointer [Buses]","WINUSB_PIPE_INFORMATION_EX","WINUSB_PIPE_INFORMATION_EX structure [Buses]","buses.win_usb_pipe_information_ex","winusbio/PWINUSB_PIPE_INFORMATION_EX","winusbio/WINUSB_PIPE_INFORMATION_EX"]
 old-location: buses\win_usb_pipe_information_ex.htm
 tech.root: usbref
 ms.assetid: 1A70E67D-8A1E-4041-A1E4-E322317E2849

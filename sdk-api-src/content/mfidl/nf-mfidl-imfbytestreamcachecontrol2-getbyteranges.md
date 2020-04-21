@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFByteStreamCacheControl2.GetByteRanges
 title: IMFByteStreamCacheControl2::GetByteRanges (mfidl.h)
-description: Gets the ranges of bytes that are currently stored in the cache.
+description: Gets the ranges of bytes that are currently stored in the cache.helpviewer_keywords: ["GetByteRanges","GetByteRanges method [Media Foundation]","GetByteRanges method [Media Foundation]","IMFByteStreamCacheControl2 interface","IMFByteStreamCacheControl2 interface [Media Foundation]","GetByteRanges method","IMFByteStreamCacheControl2.GetByteRanges","IMFByteStreamCacheControl2::GetByteRanges","mf.imfbytestreamcachecontrol2_getbyteranges","mfidl/IMFByteStreamCacheControl2::GetByteRanges"]
 old-location: mf\imfbytestreamcachecontrol2_getbyteranges.htm
 tech.root: medfound
 ms.assetid: FC91FCB5-CD22-494F-85B7-38571C38A44E

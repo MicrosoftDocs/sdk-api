@@ -1,7 +1,7 @@
 ---
 UID: NF:werapi.WerRemoveExcludedApplication
 title: WerRemoveExcludedApplication function (werapi.h)
-description: Removes the specified application from the list of applications that are to be excluded from error reporting.
+description: Removes the specified application from the list of applications that are to be excluded from error reporting.helpviewer_keywords: ["WerRemoveExcludedApplication","WerRemoveExcludedApplication function [Windows Error Reporting]","base.werremoveexcludedapplication","wer.werremoveexcludedapplication","werapi/WerRemoveExcludedApplication"]
 old-location: wer\werremoveexcludedapplication.htm
 tech.root: wer
 ms.assetid: e7bab01b-a09c-4b06-a233-34ed63f75857

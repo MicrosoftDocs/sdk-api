@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMQuaternionIsInfinite
 title: XMQuaternionIsInfinite function (directxmath.h)
-description: Test whether any component of a quaternion is either positive or negative infinity.
+description: Test whether any component of a quaternion is either positive or negative infinity.helpviewer_keywords: ["Use DirectX..XMQuaternionIsInfinite","XMQuaternionIsInfinite","XMQuaternionIsInfinite method [DirectX Math Support APIs]","dxmath.xmquaternionisinfinite"]
 old-location: dxmath\xmquaternionisinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionIsInfinite(XMVECTOR)

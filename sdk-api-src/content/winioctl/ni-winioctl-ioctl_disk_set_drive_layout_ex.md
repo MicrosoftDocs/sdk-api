@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_SET_DRIVE_LAYOUT_EX
 title: IOCTL_DISK_SET_DRIVE_LAYOUT_EX
-description: Partitions a disk according to the specified drive layout and partition information data.
+description: Partitions a disk according to the specified drive layout and partition information data.helpviewer_keywords: ["IOCTL_DISK_SET_DRIVE_LAYOUT_EX","IOCTL_DISK_SET_DRIVE_LAYOUT_EX control","IOCTL_DISK_SET_DRIVE_LAYOUT_EX control code [Files]","_win32_ioctl_disk_set_drive_layout_ex","base.ioctl_disk_set_drive_layout_ex","fs.ioctl_disk_set_drive_layout_ex","winioctl/IOCTL_DISK_SET_DRIVE_LAYOUT_EX"]
 old-location: fs\ioctl_disk_set_drive_layout_ex.htm
 tech.root: FileIO
 ms.assetid: a600e841-c692-4aa4-bea2-a33931d9b007
@@ -117,7 +117,4 @@ If the partition is on a disk formatted as type master boot record (MBR), partit
 
 ## -see-also
 
-* [DRIVE_LAYOUT_INFORMATION_EX](ns-winioctl-drive_layout_information_ex.md)
-* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
-* [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_get_drive_layout_ex.md)
+[DRIVE_LAYOUT_INFORMATION_EX](ns-winioctl-drive_layout_information_ex.md), [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md), [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes), [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_get_drive_layout_ex.md)

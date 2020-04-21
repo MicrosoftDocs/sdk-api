@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInterfaceAlias
 title: SetupDiGetDeviceInterfaceAlias function (setupapi.h)
-description: The SetupDiGetDeviceInterfaceAlias function returns an alias of a specified device interface.
+description: The SetupDiGetDeviceInterfaceAlias function returns an alias of a specified device interface.helpviewer_keywords: ["SetupDiGetDeviceInterfaceAlias","SetupDiGetDeviceInterfaceAlias function [Device and Driver Installation]","devinst.setupdigetdeviceinterfacealias","di-rtns_a9f0fc2b-7a4e-49fc-afc5-723a0120a5d7.xml","setupapi/SetupDiGetDeviceInterfaceAlias"]
 old-location: devinst\setupdigetdeviceinterfacealias.htm
 tech.root: devinst
 ms.assetid: eb36da2a-4ff1-4f2b-abc6-9bdaf491252f

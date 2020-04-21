@@ -1,7 +1,7 @@
 ---
 UID: NF:lmaccess.NetUserGetInfo
 title: NetUserGetInfo function (lmaccess.h)
-description: The NetUserGetInfo function retrieves information about a particular user account on a server.
+description: The NetUserGetInfo function retrieves information about a particular user account on a server.helpviewer_keywords: ["0","1","10","11","2","20","23","24","3","4","NetUserGetInfo","NetUserGetInfo function [Network Management]","_win32_netusergetinfo","lmaccess/NetUserGetInfo","netmgmt.netusergetinfo"]
 old-location: netmgmt\netusergetinfo.htm
 tech.root: NetMgmt
 ms.assetid: 5bd13bed-938a-4273-840e-99fca99f7139

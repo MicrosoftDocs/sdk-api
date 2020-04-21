@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssWMDependency.GetComponentName
 title: IVssWMDependency::GetComponentName (vswriter.h)
-description: The GetComponentName method retrieves the name of a component that the current component depends on in an explicit writer-component dependency.
+description: The GetComponentName method retrieves the name of a component that the current component depends on in an explicit writer-component dependency.helpviewer_keywords: ["GetComponentName","GetComponentName method [VSS]","GetComponentName method [VSS]","IVssWMDependency interface","IVssWMDependency interface [VSS]","GetComponentName method","IVssWMDependency.GetComponentName","IVssWMDependency::GetComponentName","_win32_ivsswmdependency_getcomponentname","base.ivsswmdependency_getcomponentname","vswriter/IVssWMDependency::GetComponentName"]
 old-location: base\ivsswmdependency_getcomponentname.htm
 tech.root: VSS
 ms.assetid: b0115a42-3c74-41a0-8062-0f20123780fe

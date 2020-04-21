@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsOU
 title: IADsOU (iads.h)
-description: Used to manage organizationalUnit objects.
+description: Used to manage organizationalUnit objects.helpviewer_keywords: ["IADsOU","IADsOU interface [ADSI]","IADsOU interface [ADSI]","described","_ds_iadsou","adsi.iadsou","iads/IADsOU"]
 old-location: adsi\iadsou.htm
 tech.root: adsi
 ms.assetid: 3ac61a48-faa3-4457-8842-7e57175e35e5

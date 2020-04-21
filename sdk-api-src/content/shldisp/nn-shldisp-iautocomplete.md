@@ -1,7 +1,7 @@
 ---
 UID: NN:shldisp.IAutoComplete
 title: IAutoComplete (shldisp.h)
-description: Exposed by the autocomplete object (CLSID_AutoComplete). This interface allows applications to initialize, enable, and disable the object.
+description: Exposed by the autocomplete object (CLSID_AutoComplete). This interface allows applications to initialize, enable, and disable the object.helpviewer_keywords: ["IAutoComplete","IAutoComplete interface [Windows Shell]","IAutoComplete interface [Windows Shell]","described","_win32_IAutoComplete","shell.IAutoComplete","shldisp/IAutoComplete"]
 old-location: shell\IAutoComplete.htm
 tech.root: shell
 ms.assetid: bed6eb41-3086-4af7-8c75-651da9dba3b2

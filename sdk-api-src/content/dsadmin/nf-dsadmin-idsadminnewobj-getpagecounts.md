@@ -1,7 +1,7 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObj.GetPageCounts
 title: IDsAdminNewObj::GetPageCounts (dsadmin.h)
-description: The IDsAdminNewObj::GetPageCounts method obtains the total number of pages in the wizard as well as the index of the first page of the extension.
+description: The IDsAdminNewObj::GetPageCounts method obtains the total number of pages in the wizard as well as the index of the first page of the extension.helpviewer_keywords: ["GetPageCounts","GetPageCounts method [Active Directory]","GetPageCounts method [Active Directory]","IDsAdminNewObj interface","IDsAdminNewObj interface [Active Directory]","GetPageCounts method","IDsAdminNewObj.GetPageCounts","IDsAdminNewObj::GetPageCounts","_glines_idsadminnewobj_getpagecounts","ad.idsadminnewobj__getpagecounts","ad.idsadminnewobj_getpagecounts","dsadmin/IDsAdminNewObj::GetPageCounts"]
 old-location: ad\idsadminnewobj_getpagecounts.htm
 tech.root: ad
 ms.assetid: babc5baf-33d6-47e9-a99e-81ed339f71d6

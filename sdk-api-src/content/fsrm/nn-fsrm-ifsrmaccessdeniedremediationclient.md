@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrm.IFsrmAccessDeniedRemediationClient
 title: IFsrmAccessDeniedRemediationClient (fsrm.h)
-description: Used to show the Access Denied Remediation (ADR) client user interface.
+description: Used to show the Access Denied Remediation (ADR) client user interface.helpviewer_keywords: ["IFsrmAccessDeniedRemediationClient","IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager]","IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager]","described","fs.ifsrmaccessdeniedremediationclient","fsrm.ifsrmaccessdeniedremediationclient","fsrm/IFsrmAccessDeniedRemediationClient"]
 old-location: fsrm\ifsrmaccessdeniedremediationclient.htm
 tech.root: fsrm
 ms.assetid: 572d2985-a579-4bfa-a305-403b6be516ca

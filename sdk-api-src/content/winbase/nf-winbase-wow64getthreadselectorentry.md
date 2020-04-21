@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.Wow64GetThreadSelectorEntry
 title: Wow64GetThreadSelectorEntry function (winbase.h)
-description: Retrieves a descriptor table entry for the specified selector and WOW64 thread.
+description: Retrieves a descriptor table entry for the specified selector and WOW64 thread.helpviewer_keywords: ["Wow64GetThreadSelectorEntry","Wow64GetThreadSelectorEntry function","base.wow64getthreadselectorentry","winbase/Wow64GetThreadSelectorEntry"]
 old-location: base\wow64getthreadselectorentry.htm
 tech.root: Debug
 ms.assetid: 68393913-6725-4cc6-90b9-57da2a96c91e

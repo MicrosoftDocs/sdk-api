@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordEventId
 title: IPBDA_EIT::GetRecordEventId (dvbsiparser.h)
-description: Receives the unique identifier from an event record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
+description: Receives the unique identifier from an event record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.helpviewer_keywords: ["GetRecordEventId","GetRecordEventId method [Microsoft TV Technologies]","GetRecordEventId method [Microsoft TV Technologies]","IPBDA_EIT interface","IPBDA_EIT interface [Microsoft TV Technologies]","GetRecordEventId method","IPBDA_EIT.GetRecordEventId","IPBDA_EIT::GetRecordEventId","dvbsiparser/IPBDA_EIT::GetRecordEventId","mstv.ipbda_eit_getrecordeventid"]
 old-location: mstv\ipbda_eit_getrecordeventid.htm
 tech.root: mstv
 ms.assetid: c34ad3ee-f4f9-4088-88ae-1340ea503cf5

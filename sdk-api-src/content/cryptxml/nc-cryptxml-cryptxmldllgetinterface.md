@@ -1,7 +1,7 @@
 ---
 UID: NC:cryptxml.CryptXmlDllGetInterface
 title: CryptXmlDllGetInterface (cryptxml.h)
-description: Retrieves a pointer to the cryptographic extension functions for the specified algorithm.
+description: Retrieves a pointer to the cryptographic extension functions for the specified algorithm.helpviewer_keywords: ["CryptXmlDllGetInterface","CryptXmlDllGetInterface callback","CryptXmlDllGetInterface callback function [Security]","cryptxml/CryptXmlDllGetInterface","security.cryptxmldllgetinterface"]
 old-location: security\cryptxmldllgetinterface.htm
 tech.root: SecCrypto
 ms.assetid: a547e869-3c9f-4408-9895-29fae0cc6066

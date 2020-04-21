@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUSHORTN4.XMUSHORTN4(const float)
 title: XMUSHORTN4::XMUSHORTN4(const float) (directxpackedvector.h)
-description: Initializes a new instance of XMUSHORTN4 from a four element float array argument.
+description: Initializes a new instance of XMUSHORTN4 from a four element float array argument.helpviewer_keywords: ["XMUSHORTN4","XMUSHORTN4 constructor [DirectX Math Support APIs]","XMUSHORTN4 constructor [DirectX Math Support APIs]","XMUSHORTN4 structure","XMUSHORTN4 structure [DirectX Math Support APIs]","XMUSHORTN4 constructor","XMUSHORTN4.XMUSHORTN4","XMUSHORTN4.XMUSHORTN4()","XMUSHORTN4.XMUSHORTN4(const float)","XMUSHORTN4::XMUSHORTN4","XMUSHORTN4::XMUSHORTN4(const float)","dxmath.xmushortn4_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: d9b1c62d-8201-4235-a532-9a0674fd1887

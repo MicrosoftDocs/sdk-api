@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.Stop
 title: ISpatialAudioObjectRenderStreamBase::Stop (spatialaudioclient.h)
-description: Stops a running audio stream.
+description: Stops a running audio stream.helpviewer_keywords: ["ISpatialAudioObjectRenderStreamBase interface [Core Audio]","Stop method","ISpatialAudioObjectRenderStreamBase.Stop","ISpatialAudioObjectRenderStreamBase::Stop","Stop","Stop method [Core Audio]","Stop method [Core Audio]","ISpatialAudioObjectRenderStreamBase interface","coreaudio.ispatialaudioobjectrenderstream_stop","spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Stop"]
 old-location: coreaudio\ispatialaudioobjectrenderstream_stop.htm
 tech.root: CoreAudio
 ms.assetid: 6ECD17AB-C37D-4F4E-9D7F-EC48FC3B838C

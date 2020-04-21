@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Heap.GetDesc
 title: ID3D12Heap::GetDesc (d3d12.h)
-description: Gets the heap description.
+description: Gets the heap description.helpviewer_keywords: ["GetDesc","GetDesc method","GetDesc method","ID3D12Heap interface","ID3D12Heap interface","GetDesc method","ID3D12Heap.GetDesc","ID3D12Heap::GetDesc","d3d12/ID3D12Heap::GetDesc","direct3d12.id3d12heap_getdesc"]
 old-location: direct3d12\id3d12heap_getdesc.htm
 tech.root: direct3d12
 ms.assetid: 45237F32-FBDE-49FF-926F-80B914B36AE5

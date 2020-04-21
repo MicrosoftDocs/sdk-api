@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetPathTypes
 title: GraphicsPath::GetPathTypes (gdipluspath.h)
-description: The GraphicsPath::GetPathTypes method gets this path's array of point types.
+description: The GraphicsPath::GetPathTypes method gets this path's array of point types.helpviewer_keywords: ["GetPathTypes","GetPathTypes method [GDI+]","GetPathTypes method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","GetPathTypes method","GraphicsPath.GetPathTypes","GraphicsPath::GetPathTypes","_gdiplus_CLASS_GraphicsPath_GetPathTypes_types_count_","gdiplus._gdiplus_CLASS_GraphicsPath_GetPathTypes_types_count_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathTypes_types_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getpathtypes.htm

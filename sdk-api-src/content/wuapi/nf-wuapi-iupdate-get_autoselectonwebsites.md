@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdate.get_AutoSelectOnWebSites
 title: IUpdate::get_AutoSelectOnWebSites (wuapi.h)
-description: Gets a Boolean value that indicates whether the update is flagged to be automatically selected by Windows Update.
+description: Gets a Boolean value that indicates whether the update is flagged to be automatically selected by Windows Update.helpviewer_keywords: ["AutoSelectOnWebSites property [Windows Update Agent]","AutoSelectOnWebSites property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","AutoSelectOnWebSites property","IUpdate.AutoSelectOnWebSites","IUpdate.get_AutoSelectOnWebSites","IUpdate::AutoSelectOnWebSites","IUpdate::get_AutoSelectOnWebSites","get_AutoSelectOnWebSites","wua.iupdate_autoselectonwebsites","wuapi/IUpdate::AutoSelectOnWebSites","wuapi/IUpdate::get_AutoSelectOnWebSites"]
 old-location: wua\iupdate_autoselectonwebsites.htm
 tech.root: Wua_Sdk
 ms.assetid: a27d7144-bd76-40e3-b8a7-951ae1974afb

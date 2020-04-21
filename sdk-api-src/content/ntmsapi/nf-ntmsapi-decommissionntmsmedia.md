@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.DecommissionNtmsMedia
 title: DecommissionNtmsMedia function (ntmsapi.h)
-description: The DecommissionNtmsMedia function moves a side from the Available state to the Decommissioned state.
+description: The DecommissionNtmsMedia function moves a side from the Available state to the Decommissioned state.helpviewer_keywords: ["DecommissionNtmsMedia","DecommissionNtmsMedia function [Files]","_zaw_decommissionntmsmedia","base.decommissionntmsmedia","fs.decommissionntmsmedia","ntmsapi/DecommissionNtmsMedia"]
 old-location: fs\decommissionntmsmedia.htm
 tech.root: Rsm
 ms.assetid: 2bb1a54b-6308-4ccd-9fc6-1b11f4432a3f

@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.GetWidowControl
 title: ITextPara::GetWidowControl (tom.h)
-description: Retrieves the widow and orphan control state for the paragraphs in a range.
+description: Retrieves the widow and orphan control state for the paragraphs in a range.helpviewer_keywords: ["GetWidowControl","GetWidowControl method [Windows Controls]","GetWidowControl method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetWidowControl method","ITextPara.GetWidowControl","ITextPara::GetWidowControl","_win32_ITextPara_GetWidowControl","_win32_ITextPara_GetWidowControl_cpp","controls.ITextPara_GetWidowControl","controls._win32_ITextPara_GetWidowControl","tom/ITextPara::GetWidowControl"]
 old-location: controls\ITextPara_GetWidowControl.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getwidowcontrol.htm

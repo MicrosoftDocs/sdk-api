@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITMediaPlayback.put_PlayList
 title: ITMediaPlayback::put_PlayList (tapi3if.h)
-description: The put_PlayList method provides the file playback terminal with the list of files to play.
+description: The put_PlayList method provides the file playback terminal with the list of files to play.helpviewer_keywords: ["ITMediaPlayback interface [TAPI 2.2]","put_PlayList method","ITMediaPlayback.put_PlayList","ITMediaPlayback::put_PlayList","_tapi3_itmediaplayback_put_playlist","put_PlayList","put_PlayList method [TAPI 2.2]","put_PlayList method [TAPI 2.2]","ITMediaPlayback interface","tapi3.itmediaplayback_put_playlist","tapi3if/ITMediaPlayback::put_PlayList"]
 old-location: tapi3\itmediaplayback_put_playlist.htm
 tech.root: Tapi
 ms.assetid: 685712ef-100f-4f8d-9b1f-c43170c0f197

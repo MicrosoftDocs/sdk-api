@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.IMSCEPSetup.InitializeDefaults
 title: IMSCEPSetup::InitializeDefaults (casetup.h)
-description: Initializes a CMSCEPSetup object with default values to enable installation of a Network Device Enrollment Service (NDES) role.
+description: Initializes a CMSCEPSetup object with default values to enable installation of a Network Device Enrollment Service (NDES) role.helpviewer_keywords: ["IMSCEPSetup interface [Security]","InitializeDefaults method","IMSCEPSetup.InitializeDefaults","IMSCEPSetup::InitializeDefaults","InitializeDefaults","InitializeDefaults method [Security]","InitializeDefaults method [Security]","IMSCEPSetup interface","casetup/IMSCEPSetup::InitializeDefaults","security.imscepsetup_initializedefaults"]
 old-location: security\imscepsetup_initializedefaults.htm
 tech.root: SecCrypto
 ms.assetid: 25b1fd48-7b2c-4687-af7e-09efd99038b3

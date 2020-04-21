@@ -1,7 +1,7 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1540
 title: SERVER_INFO_1540 (lmserver.h)
-description: The SERVER_INFO_1540 structure specifies whether the server allows redirected server drives to be shared.
+description: The SERVER_INFO_1540 structure specifies whether the server allows redirected server drives to be shared.helpviewer_keywords: ["*LPSERVER_INFO_1540","*PSERVER_INFO_1540","LPSERVER_INFO_1540","LPSERVER_INFO_1540 structure pointer [Network Management]","PSERVER_INFO_1540","PSERVER_INFO_1540 structure pointer [Network Management]","SERVER_INFO_1540","SERVER_INFO_1540 structure [Network Management]","_win32_server_info_1540_str","lmserver/LPSERVER_INFO_1540","lmserver/PSERVER_INFO_1540","lmserver/SERVER_INFO_1540","netmgmt.server_info_1540_str"]
 old-location: netmgmt\server_info_1540_str.htm
 tech.root: NetMgmt
 ms.assetid: 918c568d-392a-4efc-9c32-fa6b01614040

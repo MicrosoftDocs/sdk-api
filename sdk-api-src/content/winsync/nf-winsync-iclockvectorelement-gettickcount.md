@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IClockVectorElement.GetTickCount
 title: IClockVectorElement::GetTickCount (winsync.h)
-description: Gets the tick count that defines the upper bound on the range of tick counts that are contained in this clock vector element.
+description: Gets the tick count that defines the upper bound on the range of tick counts that are contained in this clock vector element.helpviewer_keywords: ["GetTickCount","GetTickCount method [Windows Sync]","GetTickCount method [Windows Sync]","IClockVectorElement interface","IClockVectorElement interface [Windows Sync]","GetTickCount method","IClockVectorElement.GetTickCount","IClockVectorElement::GetTickCount","winsync.iclockvectorelement_gettickcount","winsync/IClockVectorElement::GetTickCount"]
 old-location: winsync\iclockvectorelement_gettickcount.htm
 tech.root: winsync
 ms.assetid: 927d769b-c100-4f5f-a243-c5ca53b4d528

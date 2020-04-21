@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.RemoveAllEffects
 title: IMFCaptureSource::RemoveAllEffects (mfcaptureengine.h)
-description: Removes all effects from a capture stream.
+description: Removes all effects from a capture stream.helpviewer_keywords: ["IMFCaptureSource interface [Media Foundation]","RemoveAllEffects method","IMFCaptureSource.RemoveAllEffects","IMFCaptureSource::RemoveAllEffects","MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM","RemoveAllEffects","RemoveAllEffects method [Media Foundation]","RemoveAllEffects method [Media Foundation]","IMFCaptureSource interface","mf.imfcapturesource_removealleffects","mfcaptureengine/IMFCaptureSource::RemoveAllEffects"]
 old-location: mf\imfcapturesource_removealleffects.htm
 tech.root: medfound
 ms.assetid: C01F7A61-3585-4E8B-B914-7DB1446D1BC1

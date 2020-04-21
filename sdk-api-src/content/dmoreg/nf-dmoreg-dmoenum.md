@@ -1,7 +1,7 @@
 ---
 UID: NF:dmoreg.DMOEnum
 title: DMOEnum function (dmoreg.h)
-description: The DMOEnum function enumerates DMOs listed in the registry. The caller can search by category, media type, or both.
+description: The DMOEnum function enumerates DMOs listed in the registry. The caller can search by category, media type, or both.helpviewer_keywords: ["DMOEnum","DMOEnum function [DirectShow]","dmoreg/DMOEnum","dshow.dmoenum"]
 old-location: dshow\dmoenum.htm
 tech.root: DirectShow
 ms.assetid: 2cb69d28-15be-44fb-a180-98b560848c08

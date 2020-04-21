@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumExplorerCommand.Reset
 title: IEnumExplorerCommand::Reset (shobjidl_core.h)
-description: Resets the enumeration to 0.
+description: Resets the enumeration to 0.helpviewer_keywords: ["IEnumExplorerCommand interface [Windows Shell]","Reset method","IEnumExplorerCommand.Reset","IEnumExplorerCommand::Reset","Reset","Reset method [Windows Shell]","Reset method [Windows Shell]","IEnumExplorerCommand interface","_shell_IEnumExplorerCommand_Reset","shell.IEnumExplorerCommand_Reset","shobjidl_core/IEnumExplorerCommand::Reset"]
 old-location: shell\IEnumExplorerCommand_Reset.htm
 tech.root: shell
 ms.assetid: 296ff94a-81ec-49ac-95a3-92c7ca76c9bf

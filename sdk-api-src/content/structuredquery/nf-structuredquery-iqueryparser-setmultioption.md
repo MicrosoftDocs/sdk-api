@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IQueryParser.SetMultiOption
 title: IQueryParser::SetMultiOption (structuredquery.h)
-description: Sets a complex option, such as a specified condition generator, to use when parsing an input string.
+description: Sets a complex option, such as a specified condition generator, to use when parsing an input string.helpviewer_keywords: ["IQueryParser interface [search]","SetMultiOption method","IQueryParser.SetMultiOption","IQueryParser::SetMultiOption","SetMultiOption","SetMultiOption method [search]","SetMultiOption method [search]","IQueryParser interface","_search_IQueryParser_SetMultiOption","search._search_IQueryParser_SetMultiOption","structuredquery/IQueryParser::SetMultiOption"]
 old-location: search\_search_IQueryParser_SetMultiOption.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\setmultioption.htm

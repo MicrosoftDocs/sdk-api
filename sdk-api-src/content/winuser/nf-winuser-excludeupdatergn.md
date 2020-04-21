@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ExcludeUpdateRgn
 title: ExcludeUpdateRgn function (winuser.h)
-description: The ExcludeUpdateRgn function prevents drawing within invalid areas of a window by excluding an updated region in the window from a clipping region.
+description: The ExcludeUpdateRgn function prevents drawing within invalid areas of a window by excluding an updated region in the window from a clipping region.helpviewer_keywords: ["ExcludeUpdateRgn","ExcludeUpdateRgn function [Windows GDI]","_win32_ExcludeUpdateRgn","gdi.excludeupdatergn","winuser/ExcludeUpdateRgn"]
 old-location: gdi\excludeupdatergn.htm
 tech.root: gdi
 ms.assetid: 408fda82-30c3-4eb4-be42-3085c71ba99e

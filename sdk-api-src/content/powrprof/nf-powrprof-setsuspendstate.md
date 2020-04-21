@@ -1,7 +1,7 @@
 ---
 UID: NF:powrprof.SetSuspendState
 title: SetSuspendState function (powrprof.h)
-description: Suspends the system by shutting power down. Depending on the Hibernate parameter, the system either enters a suspend (sleep) state or hibernation (S4).
+description: Suspends the system by shutting power down. Depending on the Hibernate parameter, the system either enters a suspend (sleep) state or hibernation (S4).helpviewer_keywords: ["SetSuspendState","SetSuspendState function","_win32_setsuspendstate","base.setsuspendstate","powrprof/SetSuspendState"]
 old-location: base\setsuspendstate.htm
 tech.root: power
 ms.assetid: 63cb6574-8c0d-4bcb-832c-7088447a5c04

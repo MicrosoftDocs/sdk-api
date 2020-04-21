@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_FIELD_DESCRIPTION
 title: WS_FIELD_DESCRIPTION (webservices.h)
-description: Represents serialization information about a field within a structure.
+description: Represents serialization information about a field within a structure.helpviewer_keywords: ["WS_FIELD_DESCRIPTION","WS_FIELD_DESCRIPTION structure [Web Services for Windows]","webservices/WS_FIELD_DESCRIPTION","wsw.ws_field_description"]
 old-location: wsw\ws_field_description.htm
 tech.root: wsw
 ms.assetid: 8b562fab-f3c5-4732-b993-f7f61ca14ab6

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.PifMgr_OpenProperties
 title: PifMgr_OpenProperties function (shlobj_core.h)
-description: Opens the .pif file associated with a Microsoft MS-DOS application, and returns a handle to the application's properties.
+description: Opens the .pif file associated with a Microsoft MS-DOS application, and returns a handle to the application's properties.helpviewer_keywords: ["OPENPROPS_INHIBITPIF","OPENPROPS_NONE","PifMgr_OpenProperties","PifMgr_OpenProperties function [Windows Properties]","_win32_PifMgr_OpenProperties","properties.PifMgr_OpenProperties","shell.PifMgr_OpenProperties","shlobj_core/PifMgr_OpenProperties"]
 old-location: properties\PifMgr_OpenProperties.htm
 tech.root: properties
 ms.assetid: 0bc11528-7278-4765-b3cb-671ba82c9155

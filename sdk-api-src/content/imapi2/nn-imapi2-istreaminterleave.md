@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.IStreamInterleave
 title: IStreamInterleave (imapi2.h)
-description: Use this interface to combine several data streams into a single stream by alternately interspersing portions of each.
+description: Use this interface to combine several data streams into a single stream by alternately interspersing portions of each.helpviewer_keywords: ["IStreamInterleave","IStreamInterleave interface [IMAPI]","IStreamInterleave interface [IMAPI]","described","imapi.istreaminterleave","imapi2/IStreamInterleave"]
 old-location: imapi\istreaminterleave.htm
 tech.root: imapi
 ms.assetid: 2d0f03e5-a47d-4b46-a177-f462bbafe153

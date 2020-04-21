@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core._QCMINFO
 title: QCMINFO (shlobj_core.h)
-description: Contains information for merging menu items into Windows Explorer menus.
+description: Contains information for merging menu items into Windows Explorer menus.helpviewer_keywords: ["*LPQCMINFO","QCMINFO","QCMINFO structure [Windows Shell]","_QCMINFO","_win32_QCMINFO_str","shell.QCMINFO_str","shlobj_core/QCMINFO"]
 old-location: shell\QCMINFO_str.htm
 tech.root: shell
 ms.assetid: 3f991ebb-d66c-4bdc-b9d2-2bf6bb5a269a

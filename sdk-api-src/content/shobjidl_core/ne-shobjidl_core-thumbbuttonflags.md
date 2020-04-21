@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core.THUMBBUTTONFLAGS
 title: THUMBBUTTONFLAGS (shobjidl_core.h)
-description: Used by THUMBBUTTON to control specific states and behaviors of the button.
+description: Used by THUMBBUTTON to control specific states and behaviors of the button.helpviewer_keywords: ["THBF_DISABLED","THBF_DISMISSONCLICK","THBF_ENABLED","THBF_HIDDEN","THBF_NOBACKGROUND","THBF_NONINTERACTIVE","THUMBBUTTONFLAGS","THUMBBUTTONFLAGS enumeration [Windows Shell]","_shell_THUMBBUTTONFLAGS","shell.THUMBBUTTONFLAGS","shobjidl_core/THBF_DISABLED","shobjidl_core/THBF_DISMISSONCLICK","shobjidl_core/THBF_ENABLED","shobjidl_core/THBF_HIDDEN","shobjidl_core/THBF_NOBACKGROUND","shobjidl_core/THBF_NONINTERACTIVE","shobjidl_core/THUMBBUTTONFLAGS"]
 old-location: shell\THUMBBUTTONFLAGS.htm
 tech.root: shell
 ms.assetid: 601a2517-cfce-4edb-b2ca-e2ed8a365a0d

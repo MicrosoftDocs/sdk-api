@@ -1,7 +1,7 @@
 ---
 UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.InitiateFormalAssessment
 title: IInitiateWinSATAssessment::InitiateFormalAssessment (winsatcominterfacei.h)
-description: Initiates a formal assessment.
+description: Initiates a formal assessment.helpviewer_keywords: ["IInitiateWinSATAssessment interface [WinSAT]","InitiateFormalAssessment method","IInitiateWinSATAssessment.InitiateFormalAssessment","IInitiateWinSATAssessment::InitiateFormalAssessment","InitiateFormalAssessment","InitiateFormalAssessment method [WinSAT]","InitiateFormalAssessment method [WinSAT]","IInitiateWinSATAssessment interface","winsat.iinitiatewinsatassessment_initiateformalassessment","winsatcominterfacei/IInitiateWinSATAssessment::InitiateFormalAssessment"]
 old-location: winsat\iinitiatewinsatassessment_initiateformalassessment.htm
 tech.root: WinSAT
 ms.assetid: 9425e41c-fe03-4c94-a5eb-686775b5fce7

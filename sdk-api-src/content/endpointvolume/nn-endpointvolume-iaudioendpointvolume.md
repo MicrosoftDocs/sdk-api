@@ -1,7 +1,7 @@
 ---
 UID: NN:endpointvolume.IAudioEndpointVolume
 title: IAudioEndpointVolume (endpointvolume.h)
-description: The IAudioEndpointVolume interface represents the volume controls on the audio stream to or from an audio endpoint device.
+description: The IAudioEndpointVolume interface represents the volume controls on the audio stream to or from an audio endpoint device.helpviewer_keywords: ["IAudioEndpointVolume","IAudioEndpointVolume interface [Core Audio]","IAudioEndpointVolume interface [Core Audio]","described","coreaudio.iaudioendpointvolume","endpointvolume/IAudioEndpointVolume"]
 old-location: coreaudio\iaudioendpointvolume.htm
 tech.root: CoreAudio
 ms.assetid: 5e3e7ffc-8822-4b1b-b9af-206ec1e767e2

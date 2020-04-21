@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetGlyphIndices
 title: IXpsOMGlyphsEditor::SetGlyphIndices (xpsobjectmodel.h)
-description: Sets an XPS_GLYPH_INDEX structure array that describes which glyph indices are to be used in the font.
+description: Sets an XPS_GLYPH_INDEX structure array that describes which glyph indices are to be used in the font.helpviewer_keywords: ["IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","SetGlyphIndices method","IXpsOMGlyphsEditor.SetGlyphIndices","IXpsOMGlyphsEditor::SetGlyphIndices","SetGlyphIndices","SetGlyphIndices method [XPS Documents and Packaging]","SetGlyphIndices method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","xps.ixpsomglyphseditor_setglyphindices","xpsobjectmodel/IXpsOMGlyphsEditor::SetGlyphIndices"]
 old-location: xps\ixpsomglyphseditor_setglyphindices.htm
 tech.root: printdocs
 ms.assetid: a95aaf48-9a55-4a62-b8e1-7b8d077f1b2e

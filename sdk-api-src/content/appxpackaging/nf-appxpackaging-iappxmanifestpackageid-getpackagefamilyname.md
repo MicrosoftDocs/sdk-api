@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetPackageFamilyName
 title: IAppxManifestPackageId::GetPackageFamilyName (appxpackaging.h)
-description: Gets the package family name.
+description: Gets the package family name.helpviewer_keywords: ["GetPackageFamilyName","GetPackageFamilyName method [App packaging and management]","GetPackageFamilyName method [App packaging and management]","IAppxManifestPackageId interface","IAppxManifestPackageId interface [App packaging and management]","GetPackageFamilyName method","IAppxManifestPackageId.GetPackageFamilyName","IAppxManifestPackageId::GetPackageFamilyName","appxpackaging/IAppxManifestPackageId::GetPackageFamilyName","appxpkg.iappxmanifestpackageid_getpackagefamilyname"]
 old-location: appxpkg\iappxmanifestpackageid_getpackagefamilyname.htm
 tech.root: appxpkg
 ms.assetid: A4505020-61CB-4893-AB3B-6EF0E55FD225

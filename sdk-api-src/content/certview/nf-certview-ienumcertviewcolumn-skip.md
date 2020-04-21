@@ -1,7 +1,7 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.Skip
 title: IEnumCERTVIEWCOLUMN::Skip (certview.h)
-description: Skips a specified number of columns in the column-enumeration sequence.
+description: Skips a specified number of columns in the column-enumeration sequence.helpviewer_keywords: ["IEnumCERTVIEWCOLUMN interface [Security]","Skip method","IEnumCERTVIEWCOLUMN object [Security]","Skip method","IEnumCERTVIEWCOLUMN.Skip","IEnumCERTVIEWCOLUMN::Skip","Skip","Skip method [Security]","Skip method [Security]","IEnumCERTVIEWCOLUMN interface","Skip method [Security]","IEnumCERTVIEWCOLUMN object","_certsrv_ienumcertviewcolumn_skip","certview/IEnumCERTVIEWCOLUMN::Skip","security.ienumcertviewcolumn_skip"]
 old-location: security\ienumcertviewcolumn_skip.htm
 tech.root: SecCrypto
 ms.assetid: 9a101e5b-a137-4e15-81b6-90e0fc14b887

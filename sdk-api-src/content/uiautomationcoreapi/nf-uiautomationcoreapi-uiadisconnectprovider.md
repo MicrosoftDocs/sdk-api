@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaDisconnectProvider
 title: UiaDisconnectProvider function (uiautomationcoreapi.h)
-description: Releases all references that a particular provider holds to Microsoft UI Automation objects.
+description: Releases all references that a particular provider holds to Microsoft UI Automation objects.helpviewer_keywords: ["UiaDisconnectProvider","UiaDisconnectProvider function [Windows Accessibility]","uiautomationcoreapi/UiaDisconnectProvider","winauto.uiauto_UiaDisconnectProvider"]
 old-location: winauto\uiauto_UiaDisconnectProvider.htm
 tech.root: WinAuto
 ms.assetid: D4CE0071-47C4-421D-A0F1-D6E2D9983838

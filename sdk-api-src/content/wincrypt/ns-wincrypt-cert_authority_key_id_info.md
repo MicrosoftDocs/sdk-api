@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_AUTHORITY_KEY_ID_INFO
 title: CERT_AUTHORITY_KEY_ID_INFO (wincrypt.h)
-description: Identifies the key used to sign a certificate or certificate revocation list (CRL).
+description: Identifies the key used to sign a certificate or certificate revocation list (CRL).helpviewer_keywords: ["*PCERT_AUTHORITY_KEY_ID_INFO","CERT_AUTHORITY_KEY_ID_INFO","CERT_AUTHORITY_KEY_ID_INFO structure [Security]","PCERT_AUTHORITY_KEY_ID_INFO","PCERT_AUTHORITY_KEY_ID_INFO structure pointer [Security]","_crypto2_cert_authority_key_id_info","security.cert_authority_key_id_info","wincrypt/CERT_AUTHORITY_KEY_ID_INFO","wincrypt/PCERT_AUTHORITY_KEY_ID_INFO"]
 old-location: security\cert_authority_key_id_info.htm
 tech.root: SecCrypto
 ms.assetid: 2f966d39-8d7c-41e7-bf6a-5a30170b100d

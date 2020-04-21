@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterGroupSetControl
 title: ClusterGroupSetControl function (clusapi.h)
-description: Initiates an operation affecting a groupset.
+description: Initiates an operation affecting a groupset.helpviewer_keywords: ["ClusterGroupSetControl","ClusterGroupSetControl function [Failover Cluster]","PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL","PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL function [Failover Cluster]","clusapi/ClusterGroupSetControl","clusapi/PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL","mscs.clustergroupcollectioncontrol"]
 old-location: mscs\clustergroupcollectioncontrol.htm
 tech.root: MsCS
 ms.assetid: 20f0f70a-b300-41b8-b215-e5a3f24db44b

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetMenu
 title: GetMenu function (winuser.h)
-description: Retrieves a handle to the menu assigned to the specified window.
+description: Retrieves a handle to the menu assigned to the specified window.helpviewer_keywords: ["GetMenu","GetMenu function [Menus and Other Resources]","_win32_GetMenu","_win32_getmenu_cpp","menurc.getmenu","winui._win32_getmenu","winuser/GetMenu"]
 old-location: menurc\getmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenu.htm

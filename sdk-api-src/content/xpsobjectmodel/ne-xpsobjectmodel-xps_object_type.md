@@ -1,7 +1,7 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0014
 title: XPS_OBJECT_TYPE (xpsobjectmodel.h)
-description: Describes the type of an object that is derived from IXpsOMShareable.
+description: Describes the type of an object that is derived from IXpsOMShareable.helpviewer_keywords: ["XPS_OBJECT_TYPE","XPS_OBJECT_TYPE enumeration [XPS Documents and Packaging]","XPS_OBJECT_TYPE_CANVAS","XPS_OBJECT_TYPE_GEOMETRY","XPS_OBJECT_TYPE_GLYPHS","XPS_OBJECT_TYPE_IMAGE_BRUSH","XPS_OBJECT_TYPE_LINEAR_GRADIENT_BRUSH","XPS_OBJECT_TYPE_MATRIX_TRANSFORM","XPS_OBJECT_TYPE_PATH","XPS_OBJECT_TYPE_RADIAL_GRADIENT_BRUSH","XPS_OBJECT_TYPE_SOLID_COLOR_BRUSH","XPS_OBJECT_TYPE_VISUAL_BRUSH","xps.xps_object_type","xpsobjectmodel/XPS_OBJECT_TYPE","xpsobjectmodel/XPS_OBJECT_TYPE_CANVAS","xpsobjectmodel/XPS_OBJECT_TYPE_GEOMETRY","xpsobjectmodel/XPS_OBJECT_TYPE_GLYPHS","xpsobjectmodel/XPS_OBJECT_TYPE_IMAGE_BRUSH","xpsobjectmodel/XPS_OBJECT_TYPE_LINEAR_GRADIENT_BRUSH","xpsobjectmodel/XPS_OBJECT_TYPE_MATRIX_TRANSFORM","xpsobjectmodel/XPS_OBJECT_TYPE_PATH","xpsobjectmodel/XPS_OBJECT_TYPE_RADIAL_GRADIENT_BRUSH","xpsobjectmodel/XPS_OBJECT_TYPE_SOLID_COLOR_BRUSH","xpsobjectmodel/XPS_OBJECT_TYPE_VISUAL_BRUSH"]
 old-location: xps\xps_object_type.htm
 tech.root: printdocs
 ms.assetid: 2e53f22e-7521-45c9-ac88-b76fb381f556

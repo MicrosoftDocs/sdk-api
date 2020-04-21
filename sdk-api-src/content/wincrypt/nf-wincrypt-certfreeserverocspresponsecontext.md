@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertFreeServerOcspResponseContext
 title: CertFreeServerOcspResponseContext function (wincrypt.h)
-description: Decrements the reference count for a CERT_SERVER_OCSP_RESPONSE_CONTEXT structure.
+description: Decrements the reference count for a CERT_SERVER_OCSP_RESPONSE_CONTEXT structure.helpviewer_keywords: ["CertFreeServerOcspResponseContext","CertFreeServerOcspResponseContext function [Security]","security.certfreeserverocspresponsecontext","wincrypt/CertFreeServerOcspResponseContext"]
 old-location: security\certfreeserverocspresponsecontext.htm
 tech.root: SecCrypto
 ms.assetid: a07fc1e0-6f06-4336-b33c-d4d6a838b609

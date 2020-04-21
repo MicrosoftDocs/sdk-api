@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceSet.Create
 title: IOpcSignaturePartReferenceSet::Create (msopc.h)
-description: Creates an IOpcSignaturePartReference interface pointer that represents a reference to a part to be signed, and adds the new interface to the set.
+description: Creates an IOpcSignaturePartReference interface pointer that represents a reference to a part to be signed, and adds the new interface to the set.helpviewer_keywords: ["Create","Create method [Open Packaging Conventions]","Create method [Open Packaging Conventions]","IOpcSignaturePartReferenceSet interface","IOpcSignaturePartReferenceSet interface [Open Packaging Conventions]","Create method","IOpcSignaturePartReferenceSet.Create","IOpcSignaturePartReferenceSet::Create","msopc/IOpcSignaturePartReferenceSet::Create","opc.iopcsignaturepartreferenceset_create"]
 old-location: opc\iopcsignaturepartreferenceset_create.htm
 tech.root: OPC
 ms.assetid: 63162b37-0262-4d92-a14f-726fe4c87cc1

@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_PRESENT_OPTIONS
 title: D2D1_PRESENT_OPTIONS (d2d1.h)
-description: Describes how a render target behaves when it presents its content. This enumeration allows a bitwise combination of its member values.
+description: Describes how a render target behaves when it presents its content. This enumeration allows a bitwise combination of its member values.helpviewer_keywords: ["D2D1_PRESENT_OPTIONS","D2D1_PRESENT_OPTIONS enumeration [Direct2D]","D2D1_PRESENT_OPTIONS_IMMEDIATELY","D2D1_PRESENT_OPTIONS_NONE","D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS","d2d1/D2D1_PRESENT_OPTIONS","d2d1/D2D1_PRESENT_OPTIONS_IMMEDIATELY","d2d1/D2D1_PRESENT_OPTIONS_NONE","d2d1/D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS","direct2d.D2D1_PRESENT_OPTIONS"]
 old-location: direct2d\D2D1_PRESENT_OPTIONS.htm
 tech.root: Direct2D
 ms.assetid: 56178ee9-7d35-42e1-97f8-62835010f277

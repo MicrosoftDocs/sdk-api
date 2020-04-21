@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11_3.D3D11_TEXTURE_LAYOUT
 title: D3D11_TEXTURE_LAYOUT (d3d11_3.h)
-description: Specifies texture layout options.
+description: Specifies texture layout options.helpviewer_keywords: ["D3D11_TEXTURE_LAYOUT","D3D11_TEXTURE_LAYOUT enumeration [Direct3D 11]","D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE","D3D11_TEXTURE_LAYOUT_ROW_MAJOR","D3D11_TEXTURE_LAYOUT_UNDEFINED","d3d11_3/D3D11_TEXTURE_LAYOUT","d3d11_3/D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE","d3d11_3/D3D11_TEXTURE_LAYOUT_ROW_MAJOR","d3d11_3/D3D11_TEXTURE_LAYOUT_UNDEFINED","direct3d11.d3d11_texture_layout"]
 old-location: direct3d11\d3d11_texture_layout.htm
 tech.root: direct3d11
 ms.assetid: E7786550-99FC-4F8E-B93F-C2877C052EC2

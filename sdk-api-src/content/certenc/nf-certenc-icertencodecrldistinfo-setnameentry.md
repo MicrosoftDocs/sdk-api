@@ -1,7 +1,7 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.SetNameEntry
 title: ICertEncodeCRLDistInfo::SetNameEntry (certenc.h)
-description: Sets a name at a specified index of a distribution point in a certificate revocation list (CRL) distribution information array.
+description: Sets a name at a specified index of a distribution point in a certificate revocation list (CRL) distribution information array.helpviewer_keywords: ["CCertEncodeCRLDistInfo object [Security]","SetNameEntry method","CERT_ALT_NAME_DNS_NAME","CERT_ALT_NAME_REGISTERED_ID","CERT_ALT_NAME_RFC822_NAME","CERT_ALT_NAME_URL","ICertEncodeCRLDistInfo interface [Security]","SetNameEntry method","ICertEncodeCRLDistInfo.SetNameEntry","ICertEncodeCRLDistInfo::SetNameEntry","SetNameEntry","SetNameEntry method [Security]","SetNameEntry method [Security]","CCertEncodeCRLDistInfo object","SetNameEntry method [Security]","ICertEncodeCRLDistInfo interface","_certsrv_icertencodecrldistinfo_setnameentry","certenc/ICertEncodeCRLDistInfo::SetNameEntry","security.icertencodecrldistinfo_setnameentry"]
 old-location: security\icertencodecrldistinfo_setnameentry.htm
 tech.root: SecCrypto
 ms.assetid: fe33265a-8c75-4e16-8178-3569cf30d8e4

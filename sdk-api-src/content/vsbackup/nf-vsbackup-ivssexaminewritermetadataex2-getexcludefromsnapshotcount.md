@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
 title: IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount (vsbackup.h)
-description: Obtains the number of file sets that have been explicitly excluded from a given shadow copy.
+description: Obtains the number of file sets that have been explicitly excluded from a given shadow copy.helpviewer_keywords: ["GetExcludeFromSnapshotCount","GetExcludeFromSnapshotCount method","GetExcludeFromSnapshotCount method","IVssExamineWriterMetadataEx2 interface","IVssExamineWriterMetadataEx2 interface","GetExcludeFromSnapshotCount method","IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount","IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount","base.ivssexaminewritermetadataex2_getexcludefromsnapshotcount","vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount"]
 old-location: base\ivssexaminewritermetadataex2_getexcludefromsnapshotcount.htm
 tech.root: VSS
 ms.assetid: 77f21feb-bd7c-4fd0-820b-9dabb1bcbc89

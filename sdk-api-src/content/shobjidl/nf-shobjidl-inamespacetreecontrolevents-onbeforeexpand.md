@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnBeforeExpand
 title: INameSpaceTreeControlEvents::OnBeforeExpand (shobjidl.h)
-description: Called before an IShellItem is expanded.
+description: Called before an IShellItem is expanded.helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnBeforeExpand method","INameSpaceTreeControlEvents.OnBeforeExpand","INameSpaceTreeControlEvents::OnBeforeExpand","OnBeforeExpand","OnBeforeExpand method [Windows Shell]","OnBeforeExpand method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnBeforeExpand","shell.INameSpaceTreeControlEvents_OnBeforeExpand","shobjidl/INameSpaceTreeControlEvents::OnBeforeExpand"]
 old-location: shell\INameSpaceTreeControlEvents_OnBeforeExpand.htm
 tech.root: shell
 ms.assetid: b3cf5edf-061a-434a-b273-dc33fcdd8448

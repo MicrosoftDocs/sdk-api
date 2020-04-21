@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFDRMNetHelper.GetChainedLicenseResponse
 title: IMFDRMNetHelper::GetChainedLicenseResponse (wmcontainer.h)
-description: Not implemented in this release.
+description: Not implemented in this release.helpviewer_keywords: ["GetChainedLicenseResponse","GetChainedLicenseResponse method [Media Foundation]","GetChainedLicenseResponse method [Media Foundation]","IMFDRMNetHelper interface","IMFDRMNetHelper interface [Media Foundation]","GetChainedLicenseResponse method","IMFDRMNetHelper.GetChainedLicenseResponse","IMFDRMNetHelper::GetChainedLicenseResponse","mf.imfdrmnethelper_getchainedlicenseresponse","wmcontainer/IMFDRMNetHelper::GetChainedLicenseResponse"]
 old-location: mf\imfdrmnethelper_getchainedlicenseresponse.htm
 tech.root: medfound
 ms.assetid: eedbefd8-8540-4bf9-b602-6bebf089fcf7

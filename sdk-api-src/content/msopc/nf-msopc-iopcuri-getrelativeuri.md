@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcUri.GetRelativeUri
 title: IOpcUri::GetRelativeUri (msopc.h)
-description: Forms a relative URI for a specified part, relative to the URI represented by the current OPC URI object.
+description: Forms a relative URI for a specified part, relative to the URI represented by the current OPC URI object.helpviewer_keywords: ["GetRelativeUri","GetRelativeUri method [Open Packaging Conventions]","GetRelativeUri method [Open Packaging Conventions]","IOpcUri interface","IOpcUri interface [Open Packaging Conventions]","GetRelativeUri method","IOpcUri.GetRelativeUri","IOpcUri::GetRelativeUri","msopc/IOpcUri::GetRelativeUri","opc.iopcuri_getrelativeuri"]
 old-location: opc\iopcuri_getrelativeuri.htm
 tech.root: OPC
 ms.assetid: ce98b0a6-f4b3-4f49-897a-f144af7dfc49

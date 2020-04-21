@@ -1,7 +1,7 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetEmulatedCaps
 title: IDirectDrawVideo::GetEmulatedCaps (amvideo.h)
-description: The GetEmulatedCaps method retrieves a DirectDraw-defined DDCAPS structure containing the emulated capabilities.
+description: The GetEmulatedCaps method retrieves a DirectDraw-defined DDCAPS structure containing the emulated capabilities.helpviewer_keywords: ["GetEmulatedCaps","GetEmulatedCaps method [DirectShow]","GetEmulatedCaps method [DirectShow]","IDirectDrawVideo interface","IDirectDrawVideo interface [DirectShow]","GetEmulatedCaps method","IDirectDrawVideo.GetEmulatedCaps","IDirectDrawVideo::GetEmulatedCaps","IDirectDrawVideoGetEmulatedCaps","amvideo/IDirectDrawVideo::GetEmulatedCaps","dshow.idirectdrawvideo_getemulatedcaps"]
 old-location: dshow\idirectdrawvideo_getemulatedcaps.htm
 tech.root: DirectShow
 ms.assetid: 623cd000-6194-458d-8ef1-5eca202756c1

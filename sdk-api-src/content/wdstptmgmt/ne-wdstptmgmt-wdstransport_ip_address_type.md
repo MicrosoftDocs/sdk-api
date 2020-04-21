@@ -1,7 +1,7 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0006
 title: WDSTRANSPORT_IP_ADDRESS_TYPE (wdstptmgmt.h)
-description: Indicates the type of IP address.
+description: Indicates the type of IP address.helpviewer_keywords: ["*PWDSTRANSPORT_IP_ADDRESS_TYPE","WDSTRANSPORT_IP_ADDRESS_TYPE","WDSTRANSPORT_IP_ADDRESS_TYPE enumeration [Windows Deployment Services]","WdsTptIpAddressIpv4","WdsTptIpAddressIpv6","WdsTptIpAddressUnknown","wds.wdstransport_ip_address_type","wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_TYPE","wdstptmgmt/WdsTptIpAddressIpv4","wdstptmgmt/WdsTptIpAddressIpv6","wdstptmgmt/WdsTptIpAddressUnknown"]
 old-location: wds\wdstransport_ip_address_type.htm
 tech.root: wds
 ms.assetid: 11ed1cff-eeb6-41ab-86a1-af2db5b8e155

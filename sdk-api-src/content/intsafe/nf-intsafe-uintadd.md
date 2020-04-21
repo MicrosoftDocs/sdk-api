@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.UIntAdd
 title: UIntAdd function (intsafe.h)
-description: Adds two values of type UINT.
+description: Adds two values of type UINT.helpviewer_keywords: ["UIntAdd","UIntAdd function [Windows Shell]","_shell_UIntAdd","intsafe/UIntAdd","shell.UIntAdd"]
 old-location: shell\UIntAdd.htm
 tech.root: shell
 ms.assetid: 387d53e8-3e52-470f-bfd2-ad2b1e0a3d5a

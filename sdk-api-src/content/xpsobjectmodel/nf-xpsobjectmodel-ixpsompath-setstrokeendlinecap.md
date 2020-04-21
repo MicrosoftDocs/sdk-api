@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeEndLineCap
 title: IXpsOMPath::SetStrokeEndLineCap (xpsobjectmodel.h)
-description: Sets the style of the stroke line's end cap.
+description: Sets the style of the stroke line's end cap.helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetStrokeEndLineCap method","IXpsOMPath.SetStrokeEndLineCap","IXpsOMPath::SetStrokeEndLineCap","SetStrokeEndLineCap","SetStrokeEndLineCap method [XPS Documents and Packaging]","SetStrokeEndLineCap method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setstrokeendlinecap","xpsobjectmodel/IXpsOMPath::SetStrokeEndLineCap"]
 old-location: xps\ixpsompath_setstrokeendlinecap.htm
 tech.root: printdocs
 ms.assetid: f223503c-4934-4b3d-b489-c8f6488b05d0

@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateManager.Update
 title: IDirectManipulationUpdateManager::Update (directmanipulation.h)
-description: Updates Direct Manipulation at the current time.
+description: Updates Direct Manipulation at the current time.helpviewer_keywords: ["IDirectManipulationUpdateManager interface [Direct Manipulation]","Update method","IDirectManipulationUpdateManager.Update","IDirectManipulationUpdateManager::Update","Update","Update method [Direct Manipulation]","Update method [Direct Manipulation]","IDirectManipulationUpdateManager interface","directmanipulation.idirectmanipulationupdatemanager_update","directmanipulation/IDirectManipulationUpdateManager::Update"]
 old-location: directmanipulation\idirectmanipulationupdatemanager_update.htm
 tech.root: directmanipulation
 ms.assetid: dffa747c-933a-4b61-9f15-e175d9338774

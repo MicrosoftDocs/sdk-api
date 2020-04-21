@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemServices.GetObjectAsync
 title: IWbemServices::GetObjectAsync (wbemcli.h)
-description: The IWbemServices::GetObjectAsync method retrieves an object, either a class definition or instance, based on its path.
+description: The IWbemServices::GetObjectAsync method retrieves an object, either a class definition or instance, based on its path.helpviewer_keywords: ["GetObjectAsync","GetObjectAsync method [Windows Management Instrumentation]","GetObjectAsync method [Windows Management Instrumentation]","IWbemServices interface","IWbemServices interface [Windows Management Instrumentation]","GetObjectAsync method","IWbemServices.GetObjectAsync","IWbemServices::GetObjectAsync","WBEM_FLAG_DIRECT_READ","WBEM_FLAG_SEND_STATUS","WBEM_FLAG_USE_AMENDED_QUALIFIERS","_hmm_iwbemservices_getobjectasync","wbemcli/IWbemServices::GetObjectAsync","wmi.iwbemservices_getobjectasync"]
 old-location: wmi\iwbemservices_getobjectasync.htm
 tech.root: WmiSdk
 ms.assetid: 6868a14d-3776-43a0-b241-b40d42a97afc

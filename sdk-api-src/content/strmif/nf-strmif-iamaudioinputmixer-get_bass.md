@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Bass
 title: IAMAudioInputMixer::get_Bass (strmif.h)
-description: The get_Bass method retrieves the bass equalization.
+description: The get_Bass method retrieves the bass equalization.helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_Bass method","IAMAudioInputMixer.get_Bass","IAMAudioInputMixer::get_Bass","IAMAudioInputMixerget_Bass","dshow.iamaudioinputmixer_get_bass","get_Bass","get_Bass method [DirectShow]","get_Bass method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::get_Bass"]
 old-location: dshow\iamaudioinputmixer_get_bass.htm
 tech.root: DirectShow
 ms.assetid: 08edf6be-81b7-4402-a500-1b7d9c389042

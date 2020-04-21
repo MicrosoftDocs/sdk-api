@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IAudioCaptureClient.ReleaseBuffer
 title: IAudioCaptureClient::ReleaseBuffer (audioclient.h)
-description: The ReleaseBuffer method releases the buffer.
+description: The ReleaseBuffer method releases the buffer.helpviewer_keywords: ["IAudioCaptureClient interface [Core Audio]","ReleaseBuffer method","IAudioCaptureClient.ReleaseBuffer","IAudioCaptureClient::ReleaseBuffer","IAudioCaptureClientReleaseBuffer","ReleaseBuffer","ReleaseBuffer method [Core Audio]","ReleaseBuffer method [Core Audio]","IAudioCaptureClient interface","audioclient/IAudioCaptureClient::ReleaseBuffer","coreaudio.iaudiocaptureclient_releasebuffer"]
 old-location: coreaudio\iaudiocaptureclient_releasebuffer.htm
 tech.root: CoreAudio
 ms.assetid: 38e1ea6c-d07d-4075-b6f2-d563c4bce007

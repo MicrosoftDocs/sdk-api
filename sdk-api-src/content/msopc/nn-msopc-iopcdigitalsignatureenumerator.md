@@ -1,7 +1,7 @@
 ---
 UID: NN:msopc.IOpcDigitalSignatureEnumerator
 title: IOpcDigitalSignatureEnumerator (msopc.h)
-description: A read-only enumerator of IOpcDigitalSignature interface pointers.
+description: A read-only enumerator of IOpcDigitalSignature interface pointers.helpviewer_keywords: ["IOpcDigitalSignatureEnumerator","IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions]","IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions]","described","msopc/IOpcDigitalSignatureEnumerator","opc.iopcdigitalsignatureenumerator"]
 old-location: opc\iopcdigitalsignatureenumerator.htm
 tech.root: OPC
 ms.assetid: 73fd0e47-7503-470d-b649-e4b2ba492bf1

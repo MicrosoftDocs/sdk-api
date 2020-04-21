@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.RateResource
 title: IDispenserDriver::RateResource (comsvcs.h)
-description: Evaluates how well a candidate resource matches.
+description: Evaluates how well a candidate resource matches.helpviewer_keywords: ["IDispenserDriver interface [COM+]","RateResource method","IDispenserDriver.RateResource","IDispenserDriver::RateResource","RateResource","RateResource method [COM+]","RateResource method [COM+]","IDispenserDriver interface","_dtc_IDispenserDriver_RateResource","comsvcs/IDispenserDriver::RateResource","cos.idispenserdriver_rateresource"]
 old-location: cos\idispenserdriver_rateresource.htm
 tech.root: cossdk
 ms.assetid: 5fe3ca39-e4cb-4dae-be96-ce1a2099486a

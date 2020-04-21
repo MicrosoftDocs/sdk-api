@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.INetworkSettings
 title: INetworkSettings (taskschd.h)
-description: Provides the settings that the Task Scheduler service uses to obtain a network profile.
+description: Provides the settings that the Task Scheduler service uses to obtain a network profile.helpviewer_keywords: ["INetworkSettings","INetworkSettings interface [Task Scheduler]","INetworkSettings interface [Task Scheduler]","described","taskschd.inetworksettings","taskschd/INetworkSettings"]
 old-location: taskschd\inetworksettings.htm
 tech.root: taskschd
 ms.assetid: 831e1259-df2b-4b03-8336-706727fd7b14

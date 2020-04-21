@@ -1,7 +1,7 @@
 ---
 UID: NN:exdisp.IShellWindows
 title: IShellWindows (exdisp.h)
-description: Provides access to the collection of open Shell windows.
+description: Provides access to the collection of open Shell windows.helpviewer_keywords: ["IShellWindows","IShellWindows interface [Windows Shell]","IShellWindows interface [Windows Shell]","described","_win32_IShellWindows","exdisp/IShellWindows","shell.IShellWindows"]
 old-location: shell\IShellWindows.htm
 tech.root: shell
 ms.assetid: e609c8b6-2b2e-4188-894c-5c85960206ea

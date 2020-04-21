@@ -1,7 +1,7 @@
 ---
 UID: NF:psapi.GetPerformanceInfo
 title: GetPerformanceInfo function (psapi.h)
-description: Retrieves the performance values contained in the PERFORMANCE_INFORMATION structure.
+description: Retrieves the performance values contained in the PERFORMANCE_INFORMATION structure.helpviewer_keywords: ["GetPerformanceInfo","GetPerformanceInfo function [PSAPI]","K32GetPerformanceInfo","_win32_getperformanceinfo","base.getperformanceinfo","psapi.getperformanceinfo","psapi/GetPerformanceInfo","psapi/K32GetPerformanceInfo"]
 old-location: psapi\getperformanceinfo.htm
 tech.root: psapi
 ms.assetid: 21655278-49da-4e63-a4f9-0ee9f6179f4a

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Date
 title: IRegistrationInfo::put_Date (taskschd.h)
-description: Gets or sets the date and time when the task is registered.
+description: Gets or sets the date and time when the task is registered.helpviewer_keywords: ["Date property [Task Scheduler]","Date property [Task Scheduler]","IRegistrationInfo interface","IRegistrationInfo interface [Task Scheduler]","Date property","IRegistrationInfo.Date","IRegistrationInfo.put_Date","IRegistrationInfo::Date","IRegistrationInfo::get_Date","IRegistrationInfo::put_Date","put_Date","taskschd.iregistrationinfo_date","taskschd/IRegistrationInfo::Date","taskschd/IRegistrationInfo::get_Date","taskschd/IRegistrationInfo::put_Date"]
 old-location: taskschd\iregistrationinfo_date.htm
 tech.root: taskschd
 ms.assetid: b9a41413-954f-447c-8fce-f99c81fec40a

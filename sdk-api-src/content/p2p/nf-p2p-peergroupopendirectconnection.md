@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerGroupOpenDirectConnection
 title: PeerGroupOpenDirectConnection function (p2p.h)
-description: The PeerGroupOpenDirectConnection function establishes a direct connection with another peer in a peer group.
+description: The PeerGroupOpenDirectConnection function establishes a direct connection with another peer in a peer group.helpviewer_keywords: ["PeerGroupOpenDirectConnection","PeerGroupOpenDirectConnection function [Peer Networking]","p2p.peergroupopendirectconnection","p2p/PeerGroupOpenDirectConnection"]
 old-location: p2p\peergroupopendirectconnection.htm
 tech.root: P2PSdk
 ms.assetid: a3c52754-91b0-4722-a459-87c70b3ab9ad

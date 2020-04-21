@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnDeviceServicesContext
 title: IMbnDeviceServicesContext (mbnapi.h)
-description: Allows for enumerating and retrieving Mobile Broadband device objects on the system.
+description: Allows for enumerating and retrieving Mobile Broadband device objects on the system.helpviewer_keywords: ["IMbnDeviceServicesContext","IMbnDeviceServicesContext interface [Microsoft Broadband Networks]","IMbnDeviceServicesContext interface [Microsoft Broadband Networks]","described","mbn.imbndeviceservicescontext","mbnapi/IMbnDeviceServicesContext"]
 old-location: mbn\imbndeviceservicescontext.htm
 tech.root: mbn
 ms.assetid: 0B97FCCD-0A90-4FA2-9122-B00BD3F1A033

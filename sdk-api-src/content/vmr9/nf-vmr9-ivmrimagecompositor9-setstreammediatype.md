@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRImageCompositor9.SetStreamMediaType
 title: IVMRImageCompositor9::SetStreamMediaType (vmr9.h)
-description: The SetStreamMediaType method sets the media type for the input stream.
+description: The SetStreamMediaType method sets the media type for the input stream.helpviewer_keywords: ["IVMRImageCompositor9 interface [DirectShow]","SetStreamMediaType method","IVMRImageCompositor9.SetStreamMediaType","IVMRImageCompositor9::SetStreamMediaType","IVMRImageCompositor9SetStreamMediaType","SetStreamMediaType","SetStreamMediaType method [DirectShow]","SetStreamMediaType method [DirectShow]","IVMRImageCompositor9 interface","dshow.ivmrimagecompositor9_setstreammediatype","vmr9/IVMRImageCompositor9::SetStreamMediaType"]
 old-location: dshow\ivmrimagecompositor9_setstreammediatype.htm
 tech.root: DirectShow
 ms.assetid: 4d994a83-a5be-427c-bf19-0090577d6ee5

@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_DELIVERY_MODE
 title: WSD_EVENTING_DELIVERY_MODE (wsdtypes.h)
-description: Represents the delivery mode used in a WS-Eventing Subscribe message.
+description: Represents the delivery mode used in a WS-Eventing Subscribe message.helpviewer_keywords: ["WSD_EVENTING_DELIVERY_MODE","WSD_EVENTING_DELIVERY_MODE structure","http://schemas.xmlsoap.org/ws/2004/08/eventing/DeliveryModes/Push","ncd.wsd_eventing_delivery_mode","wsdtypes/WSD_EVENTING_DELIVERY_MODE"]
 old-location: ncd\wsd_eventing_delivery_mode.htm
 tech.root: WsdApi
 ms.assetid: 6c767642-3b3c-47cb-afd9-c4c005241996

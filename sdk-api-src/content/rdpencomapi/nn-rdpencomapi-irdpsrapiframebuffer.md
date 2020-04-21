@@ -1,7 +1,7 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIFrameBuffer
 title: IRDPSRAPIFrameBuffer (rdpencomapi.h)
-description: Provides data about the frame buffer size and format and allows the contents to be retrieved.
+description: Provides data about the frame buffer size and format and allows the contents to be retrieved.helpviewer_keywords: ["IRDPSRAPIFrameBuffer","IRDPSRAPIFrameBuffer interface [RDP]","IRDPSRAPIFrameBuffer interface [RDP]","described","rdp.irdpsrapiframebuffer","rdpencomapi/IRDPSRAPIFrameBuffer"]
 old-location: rdp\irdpsrapiframebuffer.htm
 tech.root: rdp
 ms.assetid: ab40bdd2-448f-4867-aabd-d6b66add5247

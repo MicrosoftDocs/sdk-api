@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetGuid
 title: ICreateTypeInfo::SetGuid (oaidl.h)
-description: Sets the globally unique identifier (GUID) associated with the type description.
+description: Sets the globally unique identifier (GUID) associated with the type description.helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetGuid method","ICreateTypeInfo.SetGuid","ICreateTypeInfo::SetGuid","SetGuid","SetGuid method [Automation]","SetGuid method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetGuid","automat.icreatetypeinfo_setguid","oaidl/ICreateTypeInfo::SetGuid"]
 old-location: automat\icreatetypeinfo_setguid.htm
 tech.root: automat
 ms.assetid: 031bc83d-8e0c-49da-aa15-cd44af469592

@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.SetStyle
 title: ITextFont::SetStyle (tom.h)
-description: Sets the character style handle of the characters in a range.
+description: Sets the character style handle of the characters in a range.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetStyle method","ITextFont.SetStyle","ITextFont::SetStyle","SetStyle","SetStyle method [Windows Controls]","SetStyle method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetStyle","_win32_ITextFont_SetStyle_cpp","controls.ITextFont_SetStyle","controls._win32_ITextFont_SetStyle","tom/ITextFont::SetStyle"]
 old-location: controls\ITextFont_SetStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontsetstyle.htm

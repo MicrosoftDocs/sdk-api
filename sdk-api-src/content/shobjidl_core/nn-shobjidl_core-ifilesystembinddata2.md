@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IFileSystemBindData2
 title: IFileSystemBindData2 (shobjidl_core.h)
-description: Extends IFileSystemBindData, which stores file system information for optimizing calls to IShellFolder::ParseDisplayName. This interface adds the ability set or get file ID or junction class identifier (CLSID).
+description: Extends IFileSystemBindData, which stores file system information for optimizing calls to IShellFolder::ParseDisplayName. This interface adds the ability set or get file ID or junction class identifier (CLSID).helpviewer_keywords: ["IFileSystemBindData2","IFileSystemBindData2 interface [Windows Shell]","IFileSystemBindData2 interface [Windows Shell]","described","_shell_IFileSystemBindData2","shell.IFileSystemBindData2","shobjidl_core/IFileSystemBindData2"]
 old-location: shell\IFileSystemBindData2.htm
 tech.root: shell
 ms.assetid: c9659147-e2b6-4040-b939-42b7efec32d7

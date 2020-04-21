@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBoolFromCy
 title: VarBoolFromCy function (oleauto.h)
-description: Converts a currency value to a Boolean value.
+description: Converts a currency value to a Boolean value.helpviewer_keywords: ["VarBoolFromCy","VarBoolFromCy function [Automation]","_oa96_VarBoolFromCy","automat.varboolfromcy","oleauto/VarBoolFromCy"]
 old-location: automat\varboolfromcy.htm
 tech.root: automat
 ms.assetid: 4d13c480-26f6-49d3-aaaa-1804d56f8fe3

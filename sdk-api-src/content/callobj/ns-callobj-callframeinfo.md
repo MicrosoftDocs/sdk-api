@@ -1,7 +1,7 @@
 ---
 UID: NS:callobj.__MIDL_ICallFrame_0001
 title: CALLFRAMEINFO (callobj.h)
-description: Provides information about a call frame such as the method in the call frame, if it has in, out, or in/out parameters, the number of [in], [out], or [in, out] interfaces, the interface ID, the number of methods in the interface and the number of parameters in this method.
+description: Provides information about a call frame such as the method in the call frame, if it has in, out, or in/out parameters, the number of [in], [out], or [in, out] interfaces, the interface ID, the number of methods in the interface and the number of parameters in this method.helpviewer_keywords: ["CALLFRAMEINFO","CALLFRAMEINFO structure [COM]","callobj/CALLFRAMEINFO","com.callframeinfo"]
 old-location: com\callframeinfo.htm
 tech.root: com
 ms.assetid: 3d490c8b-d254-458b-b355-39c3942ddc5e

@@ -1,7 +1,7 @@
 ---
 UID: NE:propsys.PSC_STATE
 title: PSC_STATE (propsys.h)
-description: Specifies the state of a property. They are set manually by the code that is hosting the in-memory property store cache.
+description: Specifies the state of a property. They are set manually by the code that is hosting the in-memory property store cache.helpviewer_keywords: ["PSC_DIRTY","PSC_NORMAL","PSC_NOTINSOURCE","PSC_STATE","PSC_STATE enumeration [Windows Properties]","properties.PSC_STATE","propsys/PSC_DIRTY","propsys/PSC_NORMAL","propsys/PSC_NOTINSOURCE","propsys/PSC_STATE","shell.PSC_STATE","shell_PSC_STATE"]
 old-location: properties\PSC_STATE.htm
 tech.root: properties
 ms.assetid: f6a09b32-e642-4c11-ae89-fed787b4913c

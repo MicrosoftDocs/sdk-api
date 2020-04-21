@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IPersistFile
 title: IPersistFile (objidl.h)
-description: Enables an object to be loaded from or saved to a disk file, rather than a storage object or stream.
+description: Enables an object to be loaded from or saved to a disk file, rather than a storage object or stream.helpviewer_keywords: ["IPersistFile","IPersistFile interface [COM]","IPersistFile interface [COM]","described","_com_ipersistfile","com.ipersistfile","objidl/IPersistFile"]
 old-location: com\ipersistfile.htm
 tech.root: com
 ms.assetid: 7d34507f-8a16-43b4-8225-010798abc546

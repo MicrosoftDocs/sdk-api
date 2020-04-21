@@ -1,7 +1,7 @@
 ---
 UID: NE:msinkaut.InkRecognitionStatus
 title: InkRecognitionStatus (msinkaut.h)
-description: Specifies whether an error occurred during recognition and, if so, which error occurred.
+description: Specifies whether an error occurred during recognition and, if so, which error occurred.helpviewer_keywords: ["IRS_InkAddedFailed","IRS_Interrupted","IRS_NoError","IRS_ProcessFailed","IRS_SetAutoCompletionModeFailed","IRS_SetFactoidFailed","IRS_SetFlagsFailed","IRS_SetGuideFailed","IRS_SetPrefixSuffixFailed","IRS_SetStrokesFailed","IRS_SetWordListFailed","InkRecognitionStatus","InkRecognitionStatus enumeration [Tablet PC]","d6ff29a8-d100-4bfe-848b-941367d8b2dd","msinkaut/IRS_InkAddedFailed","msinkaut/IRS_Interrupted","msinkaut/IRS_NoError","msinkaut/IRS_ProcessFailed","msinkaut/IRS_SetAutoCompletionModeFailed","msinkaut/IRS_SetFactoidFailed","msinkaut/IRS_SetFlagsFailed","msinkaut/IRS_SetGuideFailed","msinkaut/IRS_SetPrefixSuffixFailed","msinkaut/IRS_SetStrokesFailed","msinkaut/IRS_SetWordListFailed","msinkaut/InkRecognitionStatus","tablet.inkrecognitionstatus"]
 old-location: tablet\inkrecognitionstatus.htm
 tech.root: tablet
 ms.assetid: d6ff29a8-d100-4bfe-848b-941367d8b2dd

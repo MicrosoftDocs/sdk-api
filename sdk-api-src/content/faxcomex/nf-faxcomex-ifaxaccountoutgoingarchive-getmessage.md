@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxAccountOutgoingArchive.GetMessage
 title: IFaxAccountOutgoingArchive::GetMessage (faxcomex.h)
-description: Returns a fax message from the archive of outbound faxes for a particular fax account, by using the fax message ID.
+description: Returns a fax message from the archive of outbound faxes for a particular fax account, by using the fax message ID.helpviewer_keywords: ["GetMessage","GetMessage method [Fax Service]","GetMessage method [Fax Service]","IFaxAccountOutgoingArchive interface","IFaxAccountOutgoingArchive interface [Fax Service]","GetMessage method","IFaxAccountOutgoingArchive.GetMessage","IFaxAccountOutgoingArchive::GetMessage","_mfax_faxaccountoutgoingarchive.getmessage","fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_getmessage_cpp","fax._mfax_faxaccountoutgoingarchive_getmessage","faxcomex/IFaxAccountOutgoingArchive::GetMessage"]
 old-location: fax\_mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_getmessage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchive\getmessage.htm

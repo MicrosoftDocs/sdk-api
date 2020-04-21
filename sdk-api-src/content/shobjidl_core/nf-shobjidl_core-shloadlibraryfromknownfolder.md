@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.SHLoadLibraryFromKnownFolder
 title: SHLoadLibraryFromKnownFolder function (shobjidl_core.h)
-description: Creates and loads an IShellLibrary object for a specified known folder ID.
+description: Creates and loads an IShellLibrary object for a specified known folder ID.helpviewer_keywords: ["SHLoadLibraryFromKnownFolder","SHLoadLibraryFromKnownFolder function [Windows Shell]","_shell_SHLoadLibraryFromKnownFolder","shell.SHLoadLibraryFromKnownFolder","shobjidl_core/SHLoadLibraryFromKnownFolder"]
 old-location: shell\SHLoadLibraryFromKnownFolder.htm
 tech.root: shell
 ms.assetid: 9486252b-9aaf-4daf-b307-5a5adddfaa99

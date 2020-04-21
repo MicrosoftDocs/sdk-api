@@ -1,7 +1,7 @@
 ---
 UID: NE:winioctl._PARTITION_STYLE
 title: PARTITION_STYLE
-description: Represents the format of a partition.
+description: Represents the format of a partition.helpviewer_keywords: ["PARTITION_STYLE","PARTITION_STYLE enumeration [Files]","PARTITION_STYLE_GPT","PARTITION_STYLE_MBR","PARTITION_STYLE_RAW","_win32_partition_style_str","base.partition_style_str","fs.partition_style_str","winioctl/PARTITION_STYLE","winioctl/PARTITION_STYLE_GPT","winioctl/PARTITION_STYLE_MBR","winioctl/PARTITION_STYLE_RAW"]
 old-location: fs\partition_style_str.htm
 tech.root: FileIO
 ms.assetid: 254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8
@@ -47,14 +47,18 @@ req.redist:
 
 ## -description
 
+
 Represents the format of a partition.
 
 
 ## -enum-fields
 
+
+
+
 ### -field PARTITION_STYLE_MBR
 
-Master boot record (MBR) format. This corresponds to standard *AT-style* MBR partitions.
+Master boot record (MBR) format. This corresponds to standard <i>AT-style</i> MBR partitions.
 
 
 ### -field PARTITION_STYLE_GPT
@@ -69,7 +73,23 @@ Partition not formatted in either of the recognized formats—MBR or GPT.
 
 ## -see-also
 
-* [File System Recognition](https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition)
-* [IOCTL_DISK_GET_PARTITION_INFO_EX](./ni-winioctl-ioctl_disk_get_partition_info_ex.md)
-* [IOCTL_DISK_SET_PARTITION_INFO_EX](./ni-winioctl-ioctl_disk_set_partition_info_ex.md)
-* [PARTITION_INFORMATION_EX](./ns-winioctl-partition_information_ex.md)
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition">File System Recognition</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info_ex">IOCTL_DISK_GET_PARTITION_INFO_EX</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
+ 
+
+ 
+

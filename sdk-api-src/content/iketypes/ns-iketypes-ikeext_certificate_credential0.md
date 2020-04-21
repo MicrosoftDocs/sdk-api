@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_CREDENTIAL0_
 title: IKEEXT_CERTIFICATE_CREDENTIAL0 (iketypes.h)
-description: Is used to store credential information specific to certificate authentication.
+description: Is used to store credential information specific to certificate authentication.helpviewer_keywords: ["IKEEXT_CERTIFICATE_CREDENTIAL0","IKEEXT_CERTIFICATE_CREDENTIAL0 structure [Filtering]","IKEEXT_CERT_CREDENTIAL_FLAG_NAP_CERT","fwp.ikeext_certificate_credential0","iketypes/IKEEXT_CERTIFICATE_CREDENTIAL0"]
 old-location: fwp\ikeext_certificate_credential0.htm
 tech.root: fwp
 ms.assetid: 926a7e74-a225-4234-8be0-c8731840756a

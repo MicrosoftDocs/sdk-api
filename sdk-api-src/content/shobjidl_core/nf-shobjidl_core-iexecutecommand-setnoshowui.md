@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetNoShowUI
 title: IExecuteCommand::SetNoShowUI (shobjidl_core.h)
-description: Indicates whether any UI associated with the selected Shell item should be displayed.
+description: Indicates whether any UI associated with the selected Shell item should be displayed.helpviewer_keywords: ["IExecuteCommand interface [Windows Shell]","SetNoShowUI method","IExecuteCommand.SetNoShowUI","IExecuteCommand::SetNoShowUI","SetNoShowUI","SetNoShowUI method [Windows Shell]","SetNoShowUI method [Windows Shell]","IExecuteCommand interface","_shell_IExecuteCommand_SetNoShowUI","shell.IExecuteCommand_SetNoShowUI","shobjidl_core/IExecuteCommand::SetNoShowUI"]
 old-location: shell\IExecuteCommand_SetNoShowUI.htm
 tech.root: shell
 ms.assetid: 26cec8f2-984a-4358-9082-bf6b886690eb

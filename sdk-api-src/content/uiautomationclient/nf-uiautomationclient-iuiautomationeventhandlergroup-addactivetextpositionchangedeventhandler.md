@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler
 title: IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler (uiautomationclient.h)
-description: Registers a method (in an event handler group) that handles when the active text position changes.
+description: Registers a method (in an event handler group) that handles when the active text position changes.helpviewer_keywords: ["AddActiveTextPositionChangedEventHandler","AddActiveTextPositionChangedEventHandler method [Windows Accessibility]","AddActiveTextPositionChangedEventHandler method [Windows Accessibility]","IUIAutomationEventHandlerGroup interface","IUIAutomationEventHandlerGroup interface [Windows Accessibility]","AddActiveTextPositionChangedEventHandler method","IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler","IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler","uiautomationclient/IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler","winauto.uiauto_IUIAutomationEventHandlerGroup_AddActiveTextPositionChangedEventHandler"]
 old-location: winauto\uiauto_IUIAutomationEventHandlerGroup_AddActiveTextPositionChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: D3A09F61-5536-409E-BFA2-63D6E4A774A2

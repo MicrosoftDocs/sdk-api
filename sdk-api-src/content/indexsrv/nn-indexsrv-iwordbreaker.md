@@ -1,7 +1,7 @@
 ---
 UID: NN:indexsrv.IWordBreaker
 title: IWordBreaker (indexsrv.h)
-description: Parses text and identifies individual words and phrases. This interface is a language-specific language resource component. It is used in background processes and must be optimized for both throughput and minimal use of resources.
+description: Parses text and identifies individual words and phrases. This interface is a language-specific language resource component. It is used in background processes and must be optimized for both throughput and minimal use of resources.helpviewer_keywords: ["IWordBreaker","IWordBreaker interface [search]","IWordBreaker interface [search]","described","_search_IWordBreaker","indexsrv/IWordBreaker","search._search_IWordBreaker"]
 old-location: search\_search_IWordBreaker.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\iwordbreaker.htm

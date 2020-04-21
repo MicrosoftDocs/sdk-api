@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateSettingsContext
 title: ISettingsEngine::CreateSettingsContext (wcmconfig.h)
-description: Creates a settings context.
+description: Creates a settings context.helpviewer_keywords: ["CreateSettingsContext","CreateSettingsContext method [SMI]","CreateSettingsContext method [SMI]","ISettingsEngine interface","ISettingsEngine interface [SMI]","CreateSettingsContext method","ISettingsEngine.CreateSettingsContext","ISettingsEngine::CreateSettingsContext","smi.isettingsengine_createsettingscontext","wcmconfig/ISettingsEngine::CreateSettingsContext"]
 old-location: smi\isettingsengine_createsettingscontext.htm
 tech.root: SMI
 ms.assetid: a9fe2c24-f696-4726-8e67-07280c8e8a3e

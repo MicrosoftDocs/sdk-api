@@ -1,7 +1,7 @@
 ---
 UID: NS:vfw.__unnamed_struct_6
 title: ICDECOMPRESSEX (vfw.h)
-description: The ICDECOMPRESSEX structure contains decompression parameters used with the ICM_DECOMPRESSEX message.
+description: The ICDECOMPRESSEX structure contains decompression parameters used with the ICM_DECOMPRESSEX message.helpviewer_keywords: ["ICDECOMPRESSEX","ICDECOMPRESSEX structure [Windows Multimedia]","ICDECOMPRESS_HURRYUP","ICDECOMPRESS_NOTKEYFRAME","ICDECOMPRESS_NULLFRAME","ICDECOMPRESS_PREROLL","ICDECOMPRESS_UPDATE","multimedia.icdecompressex_COLLISION172","multimedia.icdecompressex_struct","vfw/ICDECOMPRESSEX"]
 old-location: multimedia\icdecompressex_struct.htm
 tech.root: Multimedia
 ms.assetid: a07a7d1b-9967-4c52-9dd6-7616c3545b95

@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.SetItem
 title: IConsoleNameSpace::SetItem (mmc.h)
-description: The IConsoleNameSpace2::SetItem method enables the snap-in to set the attributes of a single scope-view item.
+description: The IConsoleNameSpace2::SetItem method enables the snap-in to set the attributes of a single scope-view item.helpviewer_keywords: ["IConsoleNameSpace interface [MMC]","SetItem method","IConsoleNameSpace.SetItem","IConsoleNameSpace2 interface [MMC]","SetItem method","IConsoleNameSpace2::SetItem","IConsoleNameSpace::SetItem","SetItem","SetItem method [MMC]","SetItem method [MMC]","IConsoleNameSpace interface","SetItem method [MMC]","IConsoleNameSpace2 interface","_slate_iconsolenamespace2_setitem","mmc.iconsolenamespace2_setitem","mmc/IConsoleNameSpace2::SetItem","mmc/IConsoleNameSpace::SetItem"]
 old-location: mmc\iconsolenamespace2_setitem.htm
 tech.root: mmc
 ms.assetid: e63dd8dd-dcef-4d52-96f7-cf9a7e42a0f1

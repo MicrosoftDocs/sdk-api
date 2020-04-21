@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateRadialGradientBrush
 title: IXpsOMObjectFactory::CreateRadialGradientBrush (xpsobjectmodel.h)
-description: Creates an IXpsOMRadialGradientBrush interface.
+description: Creates an IXpsOMRadialGradientBrush interface.helpviewer_keywords: ["CreateRadialGradientBrush","CreateRadialGradientBrush method [XPS Documents and Packaging]","CreateRadialGradientBrush method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateRadialGradientBrush method","IXpsOMObjectFactory.CreateRadialGradientBrush","IXpsOMObjectFactory::CreateRadialGradientBrush","xps.ixpsomobjectfactory_createradialgradientbrush","xpsobjectmodel/IXpsOMObjectFactory::CreateRadialGradientBrush"]
 old-location: xps\ixpsomobjectfactory_createradialgradientbrush.htm
 tech.root: printdocs
 ms.assetid: b91c9490-1995-48cb-a313-ef83f00b9c50

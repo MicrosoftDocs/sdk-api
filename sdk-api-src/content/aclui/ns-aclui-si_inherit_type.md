@@ -1,7 +1,7 @@
 ---
 UID: NS:aclui._SI_INHERIT_TYPE
 title: SI_INHERIT_TYPE (aclui.h)
-description: Contains information about how access control entries (ACEs) can be inherited by child objects.
+description: Contains information about how access control entries (ACEs) can be inherited by child objects.helpviewer_keywords: ["*PSI_INHERIT_TYPE","CONTAINER_INHERIT_ACE","INHERIT_ONLY_ACE","OBJECT_INHERIT_ACE","PSI_INHERIT_TYPE","PSI_INHERIT_TYPE structure pointer [Security]","SI_INHERIT_TYPE","SI_INHERIT_TYPE structure [Security]","_win32_si_inherit_type_str","aclui/PSI_INHERIT_TYPE","aclui/SI_INHERIT_TYPE","security.si_inherit_type"]
 old-location: security\si_inherit_type.htm
 tech.root: SecAuthZ
 ms.assetid: e8382c14-d3b4-4a7e-aeaa-06ef44d6ace2

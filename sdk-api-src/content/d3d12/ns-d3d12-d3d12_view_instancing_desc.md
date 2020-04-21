@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_VIEW_INSTANCING_DESC
 title: D3D12_VIEW_INSTANCING_DESC (d3d12.h)
-description: Specifies parameters used during view instancing configuration.
+description: Specifies parameters used during view instancing configuration.helpviewer_keywords: ["D3D12_VIEW_INSTANCING_DESC","D3D12_VIEW_INSTANCING_DESC structure","d3d12/D3D12_VIEW_INSTANCING_DESC","direct3d12.d3d12_view_instancing_desc"]
 old-location: direct3d12\d3d12_view_instancing_desc.htm
 tech.root: direct3d12
 ms.assetid: AFB7AB23-9A59-49D7-8C3E-222C3AED2314

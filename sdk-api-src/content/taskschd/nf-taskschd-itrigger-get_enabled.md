@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITrigger.get_Enabled
 title: ITrigger::get_Enabled (taskschd.h)
-description: Gets or sets a Boolean value that indicates whether the trigger is enabled.
+description: Gets or sets a Boolean value that indicates whether the trigger is enabled.helpviewer_keywords: ["Enabled property [Task Scheduler]","Enabled property [Task Scheduler]","ITrigger interface","ITrigger interface [Task Scheduler]","Enabled property","ITrigger.Enabled","ITrigger.get_Enabled","ITrigger::Enabled","ITrigger::get_Enabled","ITrigger::put_Enabled","get_Enabled","taskschd.itrigger_enabled","taskschd/ITrigger::Enabled","taskschd/ITrigger::get_Enabled","taskschd/ITrigger::put_Enabled"]
 old-location: taskschd\itrigger_enabled.htm
 tech.root: taskschd
 ms.assetid: 20300470-e434-4296-b3e2-98c65b16e9f2

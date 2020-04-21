@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._STORAGE_OFFLOAD_TOKEN
 title: STORAGE_OFFLOAD_TOKEN
-description: The token used to represent a portion of a file used in by offload read and write operations.
+description: The token used to represent a portion of a file used in by offload read and write operations.helpviewer_keywords: ["*PSTORAGE_OFFLOAD_TOKEN","PSTORAGE_OFFLOAD_TOKEN","PSTORAGE_OFFLOAD_TOKEN structure pointer","STORAGE_OFFLOAD_TOKEN","STORAGE_OFFLOAD_TOKEN structure","STORAGE_OFFLOAD_TOKEN_TYPE_WELL_KNOWN","base.storage_offload_token","winioctl/PSTORAGE_OFFLOAD_TOKEN","winioctl/STORAGE_OFFLOAD_TOKEN"]
 old-location: base\storage_offload_token.htm
 tech.root: devio
 ms.assetid: e33550d6-8d98-4fbb-8e61-d309f0e8e867

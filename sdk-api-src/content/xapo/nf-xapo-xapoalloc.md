@@ -1,7 +1,7 @@
 ---
 UID: NF:xapo.XAPOAlloc
 title: XAPOAlloc macro (xapo.h)
-description: Memory allocation macro used by IXAPO methods that must allocate arbitrary sized structures that are subsequently returned to the application.
+description: Memory allocation macro used by IXAPO methods that must allocate arbitrary sized structures that are subsequently returned to the application.helpviewer_keywords: ["XAPOAlloc","XAPOAlloc macro [XAudio2 Audio Mixing APIs]","xapo/XAPOAlloc","xaudio2.xapoalloc"]
 old-location: xaudio2\xapoalloc.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xapo.XAPOAlloc(ULONG)

@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmIsIME
 title: ImmIsIME function (immdev.h)
-description: Determines if the specified input locale has an IME.
+description: Determines if the specified input locale has an IME.helpviewer_keywords: ["ImmIsIME","ImmIsIME function [Internationalization for Windows Applications]","_win32_ImmIsIME","imm/ImmIsIME","intl.immisime"]
 old-location: intl\immisime.htm
 tech.root: Intl
 ms.assetid: 87bd38ce-c82c-4a65-8157-fcd69bc79566

@@ -1,7 +1,7 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Pan
 title: ICameraControl::put_Pan (vidcap.h)
-description: The put_Pan method sets the camera's panning angle.
+description: The put_Pan method sets the camera's panning angle.helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_Pan method","ICameraControl.put_Pan","ICameraControl::put_Pan","ICameraControlput_Pan","dshow.icameracontrol_put_pan","put_Pan","put_Pan method [DirectShow]","put_Pan method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_Pan"]
 old-location: dshow\icameracontrol_put_pan.htm
 tech.root: DirectShow
 ms.assetid: 71dc3fe3-089c-46e8-a63b-7a638068d069

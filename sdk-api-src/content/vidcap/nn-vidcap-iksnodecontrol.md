@@ -1,7 +1,7 @@
 ---
 UID: NN:vidcap.IKsNodeControl
 title: IKsNodeControl (vidcap.h)
-description: The IKsNodeControl interface must be implemented by USB Video Class (UVC) extension units.
+description: The IKsNodeControl interface must be implemented by USB Video Class (UVC) extension units.helpviewer_keywords: ["IKsNodeControl","IKsNodeControl interface [DirectShow]","IKsNodeControl interface [DirectShow]","described","IKsNodeControlInterface","dshow.iksnodecontrol","vidcap/IKsNodeControl"]
 old-location: dshow\iksnodecontrol.htm
 tech.root: DirectShow
 ms.assetid: c38ce847-726a-4c1a-9276-810385af6c9f

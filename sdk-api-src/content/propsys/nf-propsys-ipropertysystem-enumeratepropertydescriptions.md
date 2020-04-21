@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertySystem.EnumeratePropertyDescriptions
 title: IPropertySystem::EnumeratePropertyDescriptions (propsys.h)
-description: Gets an instance of the subsystem object that implements IPropertyDescriptionList, to obtain either the entire or a partial list of property descriptions in the system.
+description: Gets an instance of the subsystem object that implements IPropertyDescriptionList, to obtain either the entire or a partial list of property descriptions in the system.helpviewer_keywords: ["EnumeratePropertyDescriptions","EnumeratePropertyDescriptions method [Windows Properties]","EnumeratePropertyDescriptions method [Windows Properties]","IPropertySystem interface","IPropertySystem interface [Windows Properties]","EnumeratePropertyDescriptions method","IPropertySystem.EnumeratePropertyDescriptions","IPropertySystem::EnumeratePropertyDescriptions","properties.IPropertySystem_EnumeratePropertyDescriptions","propsys/IPropertySystem::EnumeratePropertyDescriptions","shell.IPropertySystem_EnumeratePropertyDescriptions","shell_IPropertySystem_EnumeratePropertyDescriptions"]
 old-location: properties\IPropertySystem_EnumeratePropertyDescriptions.htm
 tech.root: properties
 ms.assetid: eb87e6b6-2a48-497a-8a42-9c929a742502

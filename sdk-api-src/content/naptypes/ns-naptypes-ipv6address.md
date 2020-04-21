@@ -1,7 +1,7 @@
 ---
 UID: NS:naptypes.tagIpv6Address
 title: Ipv6Address (naptypes.h)
-description: Defines an IPv6 address.
+description: Defines an IPv6 address.helpviewer_keywords: ["Ipv6Address","Ipv6Address structure [NAP]","nap.ipv6address_struct","naptypes/Ipv6Address"]
 old-location: nap\ipv6address_struct.htm
 tech.root: NAP
 ms.assetid: 7d8a87fc-2817-4f24-8d06-1656b79da6d2

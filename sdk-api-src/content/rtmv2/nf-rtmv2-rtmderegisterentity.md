@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmDeregisterEntity
 title: RtmDeregisterEntity function (rtmv2.h)
-description: The RtmDeregisterEntity function unregisters a client from a routing table manager instance and address family.
+description: The RtmDeregisterEntity function unregisters a client from a routing table manager instance and address family.helpviewer_keywords: ["RtmDeregisterEntity","RtmDeregisterEntity function [RAS]","_rtmv2ref_rtmderegisterentity","rras.rtmderegisterentity","rtmv2/RtmDeregisterEntity"]
 old-location: rras\rtmderegisterentity.htm
 tech.root: RRAS
 ms.assetid: dc13022b-e474-4442-a19c-856ee130c383

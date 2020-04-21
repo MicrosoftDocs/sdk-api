@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.Point.Point
 title: Point::Point (gdiplustypes.h)
-description: Creates a Point object and initializes the X and Y data members to zero. This is the default constructor.
+description: Creates a Point object and initializes the X and Y data members to zero. This is the default constructor.helpviewer_keywords: ["Point","Point class [GDI+]","Point constructor","Point constructor [GDI+]","Point constructor [GDI+]","Point class","Point.Point","Point.Point()","Point::Point","_gdiplus_CLASS_Point_Point_","gdiplus._gdiplus_CLASS_Point_Point_"]
 old-location: gdiplus\_gdiplus_CLASS_Point_Point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_14.htm

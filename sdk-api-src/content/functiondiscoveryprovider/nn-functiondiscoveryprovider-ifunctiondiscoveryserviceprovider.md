@@ -1,7 +1,7 @@
 ---
 UID: NN:functiondiscoveryprovider.IFunctionDiscoveryServiceProvider
 title: IFunctionDiscoveryServiceProvider (functiondiscoveryprovider.h)
-description: This interface is implemented to create and initialize objects to provide a specified access interface to a resource represented by the function instance. After the object is created, the Initialize method is called to initialize the object.
+description: This interface is implemented to create and initialize objects to provide a specified access interface to a resource represented by the function instance. After the object is created, the Initialize method is called to initialize the object.helpviewer_keywords: ["IFunctionDiscoveryServiceProvider","IFunctionDiscoveryServiceProvider interface","IFunctionDiscoveryServiceProvider interface","described","functiondiscoveryprovider/IFunctionDiscoveryServiceProvider","ncd.ifunctiondiscoveryserviceprovider"]
 old-location: ncd\ifunctiondiscoveryserviceprovider.htm
 tech.root: FunDisc
 ms.assetid: dbdf27dc-5fb9-49ef-9a9b-ffcd7b148479

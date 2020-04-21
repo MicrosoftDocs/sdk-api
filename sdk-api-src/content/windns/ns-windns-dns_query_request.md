@@ -1,7 +1,7 @@
 ---
 UID: NS:windns._DNS_QUERY_REQUEST
 title: DNS_QUERY_REQUEST (windns.h)
-description: The DNS_QUERY_REQUEST structure contains the DNS query parameters used in a call to DnsQueryEx.
+description: The DNS_QUERY_REQUEST structure contains the DNS query parameters used in a call to DnsQueryEx.helpviewer_keywords: ["*PDNS_QUERY_REQUEST","DNS_QUERY_REQUEST","DNS_QUERY_REQUEST structure [DNS]","DNS_QUERY_REQUEST_VERSION1","PDNS_QUERY_REQUEST","PDNS_QUERY_REQUEST structure pointer [DNS]","dns.dns_query_request","windns/DNS_QUERY_REQUEST","windns/PDNS_QUERY_REQUEST"]
 old-location: dns\dns_query_request.htm
 tech.root: DNS
 ms.assetid: 9C382800-DE71-4481-AC8D-9F89D6F59EE6

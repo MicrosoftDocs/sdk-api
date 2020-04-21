@@ -1,7 +1,7 @@
 ---
 UID: NF:callobj.ICallFrame.Unmarshal
 title: ICallFrame::Unmarshal (callobj.h)
-description: Unmarshals a packet of data containing the previously marshaled [out] parameters of a call into this already existing activation record.
+description: Unmarshals a packet of data containing the previously marshaled [out] parameters of a call into this already existing activation record.helpviewer_keywords: ["ICallFrame interface [COM]","Unmarshal method","ICallFrame.Unmarshal","ICallFrame::Unmarshal","Unmarshal","Unmarshal method [COM]","Unmarshal method [COM]","ICallFrame interface","_com_icallframe_unmarshal","callobj/ICallFrame::Unmarshal","com.icallframe_unmarshal"]
 old-location: com\icallframe_unmarshal.htm
 tech.root: com
 ms.assetid: 9f604366-0e1f-4e04-9843-13c77ea573ab

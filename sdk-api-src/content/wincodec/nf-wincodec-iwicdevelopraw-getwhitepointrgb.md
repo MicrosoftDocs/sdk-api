@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetWhitePointRGB
 title: IWICDevelopRaw::GetWhitePointRGB (wincodec.h)
-description: Gets the white point RGB values.
+description: Gets the white point RGB values.helpviewer_keywords: ["GetWhitePointRGB","GetWhitePointRGB method [Windows Imaging Component]","GetWhitePointRGB method [Windows Imaging Component]","IWICDevelopRaw interface","IWICDevelopRaw interface [Windows Imaging Component]","GetWhitePointRGB method","IWICDevelopRaw.GetWhitePointRGB","IWICDevelopRaw::GetWhitePointRGB","_wic_codec_iwicdevelopraw_getwhitepointrgb","wic._wic_codec_iwicdevelopraw_getwhitepointrgb","wincodec/IWICDevelopRaw::GetWhitePointRGB"]
 old-location: wic\_wic_codec_iwicdevelopraw_getwhitepointrgb.htm
 tech.root: wic
 ms.assetid: e163ba80-6ed2-4f03-b74f-07c96b478ac0

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFObjectReferenceStream
 title: IMFObjectReferenceStream (mfidl.h)
-description: Marshals an interface pointer to and from a stream.Stream objects that support IStream can expose this interface to provide custom marshaling for interface pointers.
+description: Marshals an interface pointer to and from a stream.Stream objects that support IStream can expose this interface to provide custom marshaling for interface pointers.helpviewer_keywords: ["9d29befd-b0ae-4610-a0b7-17face03c45e","IMFObjectReferenceStream","IMFObjectReferenceStream interface [Media Foundation]","IMFObjectReferenceStream interface [Media Foundation]","described","mf.imfobjectreferencestream","mfidl/IMFObjectReferenceStream"]
 old-location: mf\imfobjectreferencestream.htm
 tech.root: medfound
 ms.assetid: 9d29befd-b0ae-4610-a0b7-17face03c45e

@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IContextMenuSite
 title: IContextMenuSite (shobjidl_core.h)
-description: Implemented by the default folder view created using SHCreateShellFolderView.
+description: Implemented by the default folder view created using SHCreateShellFolderView.helpviewer_keywords: ["IContextMenuSite","IContextMenuSite interface [Windows Shell]","IContextMenuSite interface [Windows Shell]","described","_shell_IContextMenuSite","shell.IContextMenuSite","shobjidl_core/IContextMenuSite"]
 old-location: shell\IContextMenuSite.htm
 tech.root: shell
 ms.assetid: ad444495-560b-40fe-9619-e84c6786714b

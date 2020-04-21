@@ -1,7 +1,7 @@
 ---
 UID: NE:msinkaut.InkPenTip
 title: InkPenTip (msinkaut.h)
-description: Specifies the pen-tip shape.
+description: Specifies the pen-tip shape.helpviewer_keywords: ["1e68f701-f012-40bb-8ee4-a47da80cb8d6","IPT_Ball","IPT_Rectangle","InkPenTip","InkPenTip enumeration [Tablet PC]","msinkaut/IPT_Ball","msinkaut/IPT_Rectangle","msinkaut/InkPenTip","tablet.inkpentip"]
 old-location: tablet\inkpentip.htm
 tech.root: tablet
 ms.assetid: 1e68f701-f012-40bb-8ee4-a47da80cb8d6

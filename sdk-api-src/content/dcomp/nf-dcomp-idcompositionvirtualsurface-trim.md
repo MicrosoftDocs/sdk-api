@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionVirtualSurface.Trim
 title: IDCompositionVirtualSurface::Trim (dcomp.h)
-description: Discards pixels that fall outside of the specified trim rectangles.
+description: Discards pixels that fall outside of the specified trim rectangles.helpviewer_keywords: ["IDCompositionVirtualSurface interface [DirectComposition]","Trim method","IDCompositionVirtualSurface.Trim","IDCompositionVirtualSurface::Trim","Trim","Trim method [DirectComposition]","Trim method [DirectComposition]","IDCompositionVirtualSurface interface","dcomp/IDCompositionVirtualSurface::Trim","directcomp.idcompositionvirtualsurface_trim"]
 old-location: directcomp\idcompositionvirtualsurface_trim.htm
 tech.root: directcomp
 ms.assetid: 5A4F516F-B031-47E6-9A3D-068CF2C3D53A

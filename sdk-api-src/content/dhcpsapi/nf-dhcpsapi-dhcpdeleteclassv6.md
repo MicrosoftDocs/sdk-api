@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteClassV6
 title: DhcpDeleteClassV6 function (dhcpsapi.h)
-description: Deletes a DHCP class from the DHCPv6 server.
+description: Deletes a DHCP class from the DHCPv6 server.helpviewer_keywords: ["DhcpDeleteClassV6","DhcpDeleteClassV6 function [DHCP]","dhcp.dhcpdeleteclassv6","dhcpsapi/DhcpDeleteClassV6"]
 old-location: dhcp\dhcpdeleteclassv6.htm
 tech.root: DHCP
 ms.assetid: b818ed6f-16a3-4259-be40-001875809c78

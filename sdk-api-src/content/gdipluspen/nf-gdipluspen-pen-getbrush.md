@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspen.Pen.GetBrush
 title: Pen::GetBrush (gdipluspen.h)
-description: The Pen::GetBrush method gets the Brush object that is currently set for this Pen object.
+description: The Pen::GetBrush method gets the Brush object that is currently set for this Pen object.helpviewer_keywords: ["GetBrush","GetBrush method [GDI+]","GetBrush method [GDI+]","Pen class","Pen class [GDI+]","GetBrush method","Pen.GetBrush","Pen::GetBrush","_gdiplus_CLASS_Pen_GetBrush_","gdiplus._gdiplus_CLASS_Pen_GetBrush_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetBrush_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getbrush.htm

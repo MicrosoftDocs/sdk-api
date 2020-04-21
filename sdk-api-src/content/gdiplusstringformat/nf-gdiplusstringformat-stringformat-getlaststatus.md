@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetLastStatus
 title: StringFormat::GetLastStatus (gdiplusstringformat.h)
-description: The StringFormat::GetLastStatus method returns a value that indicates the nature of this StringFormat object's most recent method failure.
+description: The StringFormat::GetLastStatus method returns a value that indicates the nature of this StringFormat object's most recent method failure.helpviewer_keywords: ["GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetLastStatus method","StringFormat.GetLastStatus","StringFormat::GetLastStatus","_gdiplus_CLASS_StringFormat_GetLastStatus_","gdiplus._gdiplus_CLASS_StringFormat_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getlaststatus_15.htm

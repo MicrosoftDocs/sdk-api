@@ -1,7 +1,7 @@
 ---
 UID: NF:fci.FCIAddFile
 title: FCIAddFile function (fci.h)
-description: The FCIAddFile adds a file to the cabinet under construction.
+description: The FCIAddFile adds a file to the cabinet under construction.helpviewer_keywords: ["FCIAddFile","FCIAddFile function [Windows API]","fci/FCIAddFile","tcompTYPE_MSZIP","tcompTYPE_NONE","winprog.fciaddfile"]
 old-location: winprog\fciaddfile.htm
 tech.root: DevNotes
 ms.assetid: f99e8718-853b-4d35-98ae-61a8333dbaba

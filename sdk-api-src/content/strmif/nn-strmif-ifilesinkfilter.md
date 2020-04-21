@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IFileSinkFilter
 title: IFileSinkFilter (strmif.h)
-description: The IFileSinkFilter interface is implemented on filters that write media streams to a file.
+description: The IFileSinkFilter interface is implemented on filters that write media streams to a file.helpviewer_keywords: ["IFileSinkFilter","IFileSinkFilter interface [DirectShow]","IFileSinkFilter interface [DirectShow]","described","IFileSinkFilterInterface","dshow.ifilesinkfilter","strmif/IFileSinkFilter"]
 old-location: dshow\ifilesinkfilter.htm
 tech.root: DirectShow
 ms.assetid: aa1d3f8e-9790-4442-ba7e-896981bf1b96

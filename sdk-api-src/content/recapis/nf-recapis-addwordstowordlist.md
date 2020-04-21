@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.AddWordsToWordList
 title: AddWordsToWordList function (recapis.h)
-description: Adds one or more words to the word list.
+description: Adds one or more words to the word list.helpviewer_keywords: ["8487bdad-c927-44dc-b757-40a0aba285ca","AddWordsToWordList","AddWordsToWordList function [Tablet PC]","recapis/AddWordsToWordList","tablet.addwordstowordlist"]
 old-location: tablet\addwordstowordlist.htm
 tech.root: tablet
 ms.assetid: 8487bdad-c927-44dc-b757-40a0aba285ca

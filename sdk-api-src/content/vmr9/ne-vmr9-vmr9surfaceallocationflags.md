@@ -1,7 +1,7 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0001_0001
 title: VMR9SurfaceAllocationFlags (vmr9.h)
-description: The VMR9SurfaceAllocationFlags enumeration type is used with the IVMRSurfaceAllocator9::InitializeDevice method to specify surface creation parameters (VMR-9 only).
+description: The VMR9SurfaceAllocationFlags enumeration type is used with the IVMRSurfaceAllocator9::InitializeDevice method to specify surface creation parameters (VMR-9 only).helpviewer_keywords: ["VMR9AllocFlag_3DRenderTarget","VMR9AllocFlag_DXVATarget","VMR9AllocFlag_OffscreenSurface","VMR9AllocFlag_RGBDynamicSwitch","VMR9AllocFlag_TextureSurface","VMR9AllocFlag_UsageMask","VMR9AllocFlag_UsageReserved","VMR9SurfaceAllocationFlags","VMR9SurfaceAllocationFlags","VMR9SurfaceAllocationFlags enumeration [DirectShow]","VMR9SurfaceAllocationFlagsEnumeration","dshow.vmr9surfaceallocationflags","vmr9/VMR9AllocFlag_3DRenderTarget","vmr9/VMR9AllocFlag_DXVATarget","vmr9/VMR9AllocFlag_OffscreenSurface","vmr9/VMR9AllocFlag_RGBDynamicSwitch","vmr9/VMR9AllocFlag_TextureSurface","vmr9/VMR9AllocFlag_UsageMask","vmr9/VMR9AllocFlag_UsageReserved","vmr9/VMR9SurfaceAllocationFlags"]
 old-location: dshow\vmr9surfaceallocationflags.htm
 tech.root: DirectShow
 ms.assetid: 880e6c78-177f-49d0-a526-5f036c715f9e

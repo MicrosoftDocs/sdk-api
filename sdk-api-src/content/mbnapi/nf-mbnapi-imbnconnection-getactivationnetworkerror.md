@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnConnection.GetActivationNetworkError
 title: IMbnConnection::GetActivationNetworkError (mbnapi.h)
-description: Gets the network error returned in a Packet Data Protocol (PDP) context activation failure.
+description: Gets the network error returned in a Packet Data Protocol (PDP) context activation failure.helpviewer_keywords: ["GetActivationNetworkError","GetActivationNetworkError method [Microsoft Broadband Networks]","GetActivationNetworkError method [Microsoft Broadband Networks]","IMbnConnection interface","IMbnConnection interface [Microsoft Broadband Networks]","GetActivationNetworkError method","IMbnConnection.GetActivationNetworkError","IMbnConnection::GetActivationNetworkError","mbn.imbnconnection_getactivationnetworkerror","mbnapi/IMbnConnection::GetActivationNetworkError"]
 old-location: mbn\imbnconnection_getactivationnetworkerror.htm
 tech.root: mbn
 ms.assetid: a8bda00b-5eff-46a4-b640-1794e8ea21cf

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform3D.SetOffsetX(float)
 title: IDCompositionTranslateTransform3D::SetOffsetX(float) (dcomp.h)
-description: Changes the value of the OffsetX property of a 3D translation transform effect. The OffsetX property specifies the distance to translate along the x-axis.
+description: Changes the value of the OffsetX property of a 3D translation transform effect. The OffsetX property specifies the distance to translate along the x-axis.helpviewer_keywords: ["IDCompositionTranslateTransform3D interface [DirectComposition]","SetOffsetX method","IDCompositionTranslateTransform3D.SetOffsetX","IDCompositionTranslateTransform3D.SetOffsetX(float)","IDCompositionTranslateTransform3D::SetOffsetX","IDCompositionTranslateTransform3D::SetOffsetX(float)","SetOffsetX","SetOffsetX method [DirectComposition]","SetOffsetX method [DirectComposition]","IDCompositionTranslateTransform3D interface","dcomp/IDCompositionTranslateTransform3D::SetOffsetX","directcomp.idcompositiontranslatetransform3d_setoffsetx_float"]
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsetx_float.htm
 tech.root: directcomp
 ms.assetid: 1C31C4B1-A31E-4131-A305-91AF4E6EF1B5

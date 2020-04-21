@@ -1,7 +1,7 @@
 ---
 UID: NF:processsnapshot.PssCaptureSnapshot
 title: PssCaptureSnapshot function (processsnapshot.h)
-description: Captures a snapshot of a target process.
+description: Captures a snapshot of a target process.helpviewer_keywords: ["PssCaptureSnapshot","PssCaptureSnapshot function","proc_snap.psscapturesnapshot","processsnapshot/PssCaptureSnapshot"]
 old-location: proc_snap\psscapturesnapshot.htm
 tech.root: proc_snap
 ms.assetid: 44F2CB48-A9F6-4131-B21C-9F27A27CECD5

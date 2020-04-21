@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectConstantBuffer
 title: ID3D10EffectConstantBuffer (d3d10effect.h)
-description: A constant-buffer interface accesses constant buffers or texture buffers.
+description: A constant-buffer interface accesses constant buffers or texture buffers.helpviewer_keywords: ["03babb38-8c88-954d-43c3-eb8942a15d5a","ID3D10EffectConstantBuffer","ID3D10EffectConstantBuffer interface [Direct3D 10]","ID3D10EffectConstantBuffer interface [Direct3D 10]","described","d3d10effect/ID3D10EffectConstantBuffer","direct3d10.id3d10effectconstantbuffer"]
 old-location: direct3d10\id3d10effectconstantbuffer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectconstantbuffer.htm

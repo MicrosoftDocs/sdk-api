@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothSetLocalServiceInfo
 title: BluetoothSetLocalServiceInfo function (bluetoothapis.h)
-description: Sets local service information for a specific Bluetooth radio.
+description: Sets local service information for a specific Bluetooth radio.helpviewer_keywords: ["BluetoothSetLocalServiceInfo","BluetoothSetLocalServiceInfo function [Bluetooth Devices]","bltooth.bluetoothsetlocalserviceinfo","bluetoothapis/BluetoothSetLocalServiceInfo","bth_funcs_036c64a4-5050-4d5d-8217-fc4ff9ef300d.xml"]
 old-location: bltooth\bluetoothsetlocalserviceinfo.htm
 tech.root: bltooth
 ms.assetid: ab76f5d5-b7b6-4dc5-967d-5fe19260b5ad

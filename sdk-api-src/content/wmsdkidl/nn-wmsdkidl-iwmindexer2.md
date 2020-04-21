@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMIndexer2
 title: IWMIndexer2 (wmsdkidl.h)
-description: The IWMIndexer2 interface enables you to change the settings of the indexer object to suit your needs.This interface is implemented as part of the indexer object.
+description: The IWMIndexer2 interface enables you to change the settings of the indexer object to suit your needs.This interface is implemented as part of the indexer object.helpviewer_keywords: ["IWMIndexer2","IWMIndexer2 interface [windows Media Format]","IWMIndexer2 interface [windows Media Format]","described","IWMIndexer2Interface","wmformat.iwmindexer2","wmsdkidl/IWMIndexer2"]
 old-location: wmformat\iwmindexer2.htm
 tech.root: wmformat
 ms.assetid: ce900a2b-765b-46bb-87f4-bf9fe57d1cdb

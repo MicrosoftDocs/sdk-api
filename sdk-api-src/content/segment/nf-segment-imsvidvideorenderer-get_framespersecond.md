@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_FramesPerSecond
 title: IMSVidVideoRenderer::get_FramesPerSecond (segment.h)
-description: The get_FramesPerSecond method retrieves the current frame rate.
+description: The get_FramesPerSecond method retrieves the current frame rate.helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","get_FramesPerSecond method","IMSVidVideoRenderer.get_FramesPerSecond","IMSVidVideoRenderer::get_FramesPerSecond","IMSVidVideoRendererget_FramesPerSecond","get_FramesPerSecond","get_FramesPerSecond method [Microsoft TV Technologies]","get_FramesPerSecond method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","mstv.imsvidvideorenderer_get_framespersecond","segment/IMSVidVideoRenderer::get_FramesPerSecond"]
 old-location: mstv\imsvidvideorenderer_get_framespersecond.htm
 tech.root: mstv
 ms.assetid: 94634499-748d-42d1-8d06-fb52d10d4656

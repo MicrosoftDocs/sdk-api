@@ -1,7 +1,7 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService2.serviceEvent
 title: IWMPSubscriptionService2::serviceEvent (subscriptionservices.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The serviceEvent method is called when the online store is activated or deactivated.
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The serviceEvent method is called when the online store is activated or deactivated.helpviewer_keywords: ["IWMPSubscriptionService2 interface [Windows Media Player]","serviceEvent method","IWMPSubscriptionService2.serviceEvent","IWMPSubscriptionService2::serviceEvent","IWMPSubscriptionService2serviceEvent","serviceEvent","serviceEvent method [Windows Media Player]","serviceEvent method [Windows Media Player]","IWMPSubscriptionService2 interface","subscriptionservices/IWMPSubscriptionService2::serviceEvent","wmp.iwmpsubscriptionservice2_serviceevent"]
 old-location: wmp\iwmpsubscriptionservice2_serviceevent.htm
 tech.root: WMP
 ms.assetid: 5937cf18-2548-45da-87eb-519448e64405

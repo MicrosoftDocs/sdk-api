@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPartResources
 title: IXpsOMPartResources (xpsobjectmodel.h)
-description: Provides access to all shared, part-based resources of the XPS document.
+description: Provides access to all shared, part-based resources of the XPS document.helpviewer_keywords: ["IXpsOMPartResources","IXpsOMPartResources interface [XPS Documents and Packaging]","IXpsOMPartResources interface [XPS Documents and Packaging]","described","xps.ixpsompartresources","xpsobjectmodel/IXpsOMPartResources"]
 old-location: xps\ixpsompartresources.htm
 tech.root: printdocs
 ms.assetid: 9f706f23-25a0-40ee-93f4-3d7ac98ad6ed

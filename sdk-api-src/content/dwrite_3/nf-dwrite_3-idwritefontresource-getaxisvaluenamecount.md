@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetAxisValueNameCount
 title: IDWriteFontResource::GetAxisValueNameCount
-description: Retrieves the number of named values for a specific axis.
+description: Retrieves the number of named values for a specific axis.helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetAxisValueNameCount method","IDWriteFontResource.GetAxisValueNameCount","IDWriteFontResource::GetAxisValueNameCount","GetAxisValueNameCount","GetAxisValueNameCount method [Direct Write]","GetAxisValueNameCount method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getaxisvaluenamecount","dwrite_3/IDWriteFontResource::GetAxisValueNameCount"]
 tech.root: DirectWrite
 ms.date: 09/15/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetAxisValueNameCount method, IDWriteFontResource.GetAxisValueNameCount, IDWriteFontResource::GetAxisValueNameCount, GetAxisValueNameCount, GetAxisValueNameCount method [Direct Write], GetAxisValueNameCount method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getaxisvaluenamecount, dwrite_3/IDWriteFontResource::GetAxisValueNameCount

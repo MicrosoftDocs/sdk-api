@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragmentRoot.ElementProviderFromPoint
 title: IRawElementProviderFragmentRoot::ElementProviderFromPoint (uiautomationcore.h)
-description: Retrieves the provider of the element that is at the specified point in this fragment.
+description: Retrieves the provider of the element that is at the specified point in this fragment.helpviewer_keywords: ["ElementProviderFromPoint","ElementProviderFromPoint method [Windows Accessibility]","ElementProviderFromPoint method [Windows Accessibility]","IRawElementProviderFragmentRoot interface","IRawElementProviderFragmentRoot interface [Windows Accessibility]","ElementProviderFromPoint method","IRawElementProviderFragmentRoot.ElementProviderFromPoint","IRawElementProviderFragmentRoot::ElementProviderFromPoint","uiauto.uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint","uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint","uiautomationcore/IRawElementProviderFragmentRoot::ElementProviderFromPoint","winauto.uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint"]
 old-location: winauto\uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint.htm
 tech.root: WinAuto
 ms.assetid: 469149c7-8c2c-468c-b7cc-6d849de427f1

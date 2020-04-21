@@ -1,7 +1,7 @@
 ---
 UID: NN:wincodec.IWICDdsEncoder
 title: IWICDdsEncoder (wincodec.h)
-description: Enables writing DDS format specific information to an encoder.
+description: Enables writing DDS format specific information to an encoder.helpviewer_keywords: ["IWICDdsEncoder","IWICDdsEncoder interface [Windows Imaging Component]","IWICDdsEncoder interface [Windows Imaging Component]","described","wic.iwicddsencoder","wincodec/IWICDdsEncoder"]
 old-location: wic\iwicddsencoder.htm
 tech.root: wic
 ms.assetid: DF14309F-7595-4ABE-BB6E-03D2914CC86D

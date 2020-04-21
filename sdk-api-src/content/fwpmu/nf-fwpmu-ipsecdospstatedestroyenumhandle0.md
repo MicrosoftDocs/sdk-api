@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecDospStateDestroyEnumHandle0
 title: IPsecDospStateDestroyEnumHandle0 function (fwpmu.h)
-description: Frees a handle returned by IPsecDospStateCreateEnumHandle0.
+description: Frees a handle returned by IPsecDospStateCreateEnumHandle0.helpviewer_keywords: ["IPsecDospStateDestroyEnumHandle0","IPsecDospStateDestroyEnumHandle0 function [Filtering]","fwp.ipsecdospstatedestroyenumhandle0","fwpmu/IPsecDospStateDestroyEnumHandle0"]
 old-location: fwp\ipsecdospstatedestroyenumhandle0.htm
 tech.root: fwp
 ms.assetid: d7e1710d-8142-4583-a7b6-960fbdb2fcbb

@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDDSurroundMode
 title: IMSVidAudioRendererEvent2::AVDDSurroundMode (segment.h)
-description: Indicates a change in the AVDDSurroundMode codec property.
+description: Indicates a change in the AVDDSurroundMode codec property.helpviewer_keywords: ["AVDDSurroundMode","AVDDSurroundMode method [Microsoft TV Technologies]","AVDDSurroundMode method [Microsoft TV Technologies]","IMSVidAudioRendererEvent2 interface","IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies]","AVDDSurroundMode method","IMSVidAudioRendererEvent2.AVDDSurroundMode","IMSVidAudioRendererEvent2::AVDDSurroundMode","mstv.imsvidaudiorendererevent2_avddsurroundmode","segment/IMSVidAudioRendererEvent2::AVDDSurroundMode"]
 old-location: mstv\imsvidaudiorendererevent2_avddsurroundmode.htm
 tech.root: mstv
 ms.assetid: 30a4d8d7-ee77-43bb-b1fc-5be13a9b6872

@@ -1,7 +1,7 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT
 title: IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT (genericusbfnioctl.h)
-description: This I/O control code (IOCTL) is sent by a user-mode service or application to complete a zero-length control status handshake on endpoint 0 in the OUT direction.
+description: This I/O control code (IOCTL) is sent by a user-mode service or application to complete a zero-length control status handshake on endpoint 0 in the OUT direction.helpviewer_keywords: ["IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT","IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT control","IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT control code [Buses]","buses.ioctl_genericusbfn_control_status_handshake_out","genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT"]
 old-location: buses\ioctl_genericusbfn_control_status_handshake_out.htm
 tech.root: usbref
 ms.assetid: B8DE5F6E-6FC5-4E53-8A02-301A3CE436C9

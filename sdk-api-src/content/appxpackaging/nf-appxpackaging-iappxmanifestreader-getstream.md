@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetStream
 title: IAppxManifestReader::GetStream (appxpackaging.h)
-description: Gets the raw XML parsed and read by the manifest reader.
+description: Gets the raw XML parsed and read by the manifest reader.helpviewer_keywords: ["GetStream","GetStream method [App packaging and management]","GetStream method [App packaging and management]","IAppxManifestReader interface","IAppxManifestReader interface [App packaging and management]","GetStream method","IAppxManifestReader.GetStream","IAppxManifestReader::GetStream","appxpackaging/IAppxManifestReader::GetStream","appxpkg.iappxmanifestreader_getstream"]
 old-location: appxpkg\iappxmanifestreader_getstream.htm
 tech.root: appxpkg
 ms.assetid: 00467E92-5282-4119-A036-00CE769839B9

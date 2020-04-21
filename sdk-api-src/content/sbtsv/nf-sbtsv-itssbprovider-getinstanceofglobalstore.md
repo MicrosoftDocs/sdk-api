@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.GetInstanceOfGlobalStore
 title: ITsSbProvider::GetInstanceOfGlobalStore (sbtsv.h)
-description: Retrieves an ITsSbGlobalStore instance of the global store object.
+description: Retrieves an ITsSbGlobalStore instance of the global store object.helpviewer_keywords: ["GetInstanceOfGlobalStore","GetInstanceOfGlobalStore method [Remote Desktop Services]","GetInstanceOfGlobalStore method [Remote Desktop Services]","ITsSbProvider interface","ITsSbProvider interface [Remote Desktop Services]","GetInstanceOfGlobalStore method","ITsSbProvider.GetInstanceOfGlobalStore","ITsSbProvider::GetInstanceOfGlobalStore","sbtsv/ITsSbProvider::GetInstanceOfGlobalStore","termserv.itssbprovider_getinstanceofglobalstore"]
 old-location: termserv\itssbprovider_getinstanceofglobalstore.htm
 tech.root: TermServ
 ms.assetid: e6c83775-56e7-4342-a26a-418f472e190f

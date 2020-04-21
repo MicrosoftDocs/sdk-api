@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_OuterFECRate
 title: IBDA_DigitalDemodulator::get_OuterFECRate (bdaiface.h)
-description: The get_OuterFECRate method retrieves the outer forward error correction rate for the signal.
+description: The get_OuterFECRate method retrieves the outer forward error correction rate for the signal.helpviewer_keywords: ["IBDA_DigitalDemodulator interface [Microsoft TV Technologies]","get_OuterFECRate method","IBDA_DigitalDemodulator.get_OuterFECRate","IBDA_DigitalDemodulator::get_OuterFECRate","IBDA_DigitalDemodulatorget_OuterFECRate","bdaiface/IBDA_DigitalDemodulator::get_OuterFECRate","get_OuterFECRate","get_OuterFECRate method [Microsoft TV Technologies]","get_OuterFECRate method [Microsoft TV Technologies]","IBDA_DigitalDemodulator interface","mstv.ibda_digitaldemodulator_get_outerfecrate"]
 old-location: mstv\ibda_digitaldemodulator_get_outerfecrate.htm
 tech.root: mstv
 ms.assetid: 99f6e920-0b2d-4509-9a68-c6404d676b8a

@@ -1,7 +1,7 @@
 ---
 UID: NF:adshlp.ADsGetObject
 title: ADsGetObject function (adshlp.h)
-description: Binds to an object given its path and a specified interface identifier.
+description: Binds to an object given its path and a specified interface identifier.helpviewer_keywords: ["ADsGetObject","ADsGetObject function [ADSI]","_ds_adsgetobject","adshlp/ADsGetObject","adsi.adsgetobject"]
 old-location: adsi\adsgetobject.htm
 tech.root: adsi
 ms.assetid: 595b2c7f-584c-4343-a75c-327d8ed4ceb1

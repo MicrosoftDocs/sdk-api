@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.StgGetIFillLockBytesOnILockBytes
 title: StgGetIFillLockBytesOnILockBytes function (objbase.h)
-description: Creates a new wrapper object on a byte array object provided by the caller.
+description: Creates a new wrapper object on a byte array object provided by the caller.helpviewer_keywords: ["StgGetIFillLockBytesOnILockBytes","StgGetIFillLockBytesOnILockBytes function [Structured Storage]","_stg_stggetifilllockbytesonilockbytes","objbase/StgGetIFillLockBytesOnILockBytes","stg.stggetifilllockbytesonilockbytes"]
 old-location: stg\stggetifilllockbytesonilockbytes.htm
 tech.root: Stg
 ms.assetid: 87159472-3b80-4c0f-b2d4-7635dfcf2121

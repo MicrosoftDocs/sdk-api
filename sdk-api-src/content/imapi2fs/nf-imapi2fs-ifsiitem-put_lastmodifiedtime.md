@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiItem.put_LastModifiedTime
 title: IFsiItem::put_LastModifiedTime (imapi2fs.h)
-description: Sets the date and time that the item was last modified in the file system image.
+description: Sets the date and time that the item was last modified in the file system image.helpviewer_keywords: ["IFsiItem interface [IMAPI]","put_LastModifiedTime method","IFsiItem.put_LastModifiedTime","IFsiItem::put_LastModifiedTime","imapi.ifsiitem_put_lastmodifiedtime","imapi2fs/IFsiItem::put_LastModifiedTime","put_LastModifiedTime","put_LastModifiedTime method [IMAPI]","put_LastModifiedTime method [IMAPI]","IFsiItem interface"]
 old-location: imapi\ifsiitem_put_lastmodifiedtime.htm
 tech.root: imapi
 ms.assetid: 11491b16-0bdc-41a6-a99d-0543cdc3bb64

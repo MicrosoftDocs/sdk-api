@@ -1,7 +1,7 @@
 ---
 UID: NS:minwinbase._SYSTEMTIME
 title: SYSTEMTIME (minwinbase.h)
-description: Specifies a date and time, using individual members for the month, day, year, weekday, hour, minute, second, and millisecond. The time is either in coordinated universal time (UTC) or local time, depending on the function that is being called.
+description: Specifies a date and time, using individual members for the month, day, year, weekday, hour, minute, second, and millisecond. The time is either in coordinated universal time (UTC) or local time, depending on the function that is being called.helpviewer_keywords: ["*LPSYSTEMTIME","*PSYSTEMTIME","PSYSTEMTIME","PSYSTEMTIME structure pointer","SYSTEMTIME","SYSTEMTIME structure","_SYSTEMTIME","_win32_systemtime_str","base.systemtime_str","minwinbase/PSYSTEMTIME","minwinbase/SYSTEMTIME"]
 old-location: base\systemtime_str.htm
 tech.root: SysInfo
 ms.assetid: f77cdf86-0f97-4a89-b565-95b46fa7d65b

@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC
 title: DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC
-description: Describes a DirectML math operator that performs the function of dividing every element in ATensor by its corresponding element in BTensor, f(a, b) = a / b.
+description: Describes a DirectML math operator that performs the function of dividing every element in ATensor by its corresponding element in BTensor, f(a, b) = a / b.helpviewer_keywords: ["DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC","DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC structure","direct3d12.dml_element_wise_divide_operator_desc","directml/DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_divide_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: DBAA1EF2-B85A-421E-BB64-3E0812D03FFD

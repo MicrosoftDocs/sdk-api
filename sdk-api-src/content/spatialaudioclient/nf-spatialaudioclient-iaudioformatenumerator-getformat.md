@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudioclient.IAudioFormatEnumerator.GetFormat
 title: IAudioFormatEnumerator::GetFormat (spatialaudioclient.h)
-description: Gets the format with the specified index in the list. The formats are listed in order of importance. The most preferable format is first in the list.
+description: Gets the format with the specified index in the list. The formats are listed in order of importance. The most preferable format is first in the list.helpviewer_keywords: ["GetFormat","GetFormat method [Core Audio]","GetFormat method [Core Audio]","IAudioFormatEnumerator interface","IAudioFormatEnumerator interface [Core Audio]","GetFormat method","IAudioFormatEnumerator.GetFormat","IAudioFormatEnumerator::GetFormat","coreaudio.iaudioformatenumerator_getformat","spatialaudioclient/IAudioFormatEnumerator::GetFormat"]
 old-location: coreaudio\iaudioformatenumerator_getformat.htm
 tech.root: CoreAudio
 ms.assetid: 9949F688-51D1-418B-947D-2607C90CA4E4

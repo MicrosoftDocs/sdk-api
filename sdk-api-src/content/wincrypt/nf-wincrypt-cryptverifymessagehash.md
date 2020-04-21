@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptVerifyMessageHash
 title: CryptVerifyMessageHash function (wincrypt.h)
-description: The CryptVerifyMessageHash function verifies the hash of specified content.
+description: The CryptVerifyMessageHash function verifies the hash of specified content.helpviewer_keywords: ["CryptVerifyMessageHash","CryptVerifyMessageHash function [Security]","_crypto2_cryptverifymessagehash","security.cryptverifymessagehash","wincrypt/CryptVerifyMessageHash"]
 old-location: security\cryptverifymessagehash.htm
 tech.root: SecCrypto
 ms.assetid: 3b5185b9-e24b-4302-a60c-74ccbd19077c

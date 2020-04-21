@@ -1,7 +1,7 @@
 ---
 UID: NS:tapi.linecountrylist_tag
 title: LINECOUNTRYLIST (tapi.h)
-description: The LINECOUNTRYLIST structure describes a list of countries/regions. This structure can contain an array of LINECOUNTRYENTRY structures. LINECOUNTRYLIST is returned by the lineGetCountry function.
+description: The LINECOUNTRYLIST structure describes a list of countries/regions. This structure can contain an array of LINECOUNTRYENTRY structures. LINECOUNTRYLIST is returned by the lineGetCountry function.helpviewer_keywords: ["*LPLINECOUNTRYLIST","LINECOUNTRYLIST","LINECOUNTRYLIST structure [TAPI 2.2]","LPLINECOUNTRYLIST","LPLINECOUNTRYLIST structure pointer [TAPI 2.2]","_tapi2_linecountrylist_str","tapi/LINECOUNTRYLIST","tapi/LPLINECOUNTRYLIST","tapi2.linecountrylist_str"]
 old-location: tapi2\linecountrylist_str.htm
 tech.root: Tapi
 ms.assetid: f6634d40-0c17-4eb1-a0ca-9590e9e649e2

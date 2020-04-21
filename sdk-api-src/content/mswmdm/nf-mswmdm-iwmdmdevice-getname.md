@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetName
 title: IWMDMDevice::GetName (mswmdm.h)
-description: The GetName method retrieves the human-readable name of the media device.
+description: The GetName method retrieves the human-readable name of the media device.helpviewer_keywords: ["GetName","GetName method [windows Media Device Manager]","GetName method [windows Media Device Manager]","IWMDMDevice interface","IWMDMDevice interface [windows Media Device Manager]","GetName method","IWMDMDevice.GetName","IWMDMDevice::GetName","IWMDMDeviceGetName","mswmdm/IWMDMDevice::GetName","wmdm.iwmdmdevice_getname"]
 old-location: wmdm\iwmdmdevice_getname.htm
 tech.root: WMDM
 ms.assetid: 4bc5d550-6631-40ea-b020-2f5bb55899d6

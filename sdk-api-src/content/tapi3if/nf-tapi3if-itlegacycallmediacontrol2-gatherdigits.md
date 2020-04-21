@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GatherDigits
 title: ITLegacyCallMediaControl2::GatherDigits (tapi3if.h)
-description: The GatherDigits method initiates the gathering of digits on the specified call. The application specifies the maximum number of digits to collect.
+description: The GatherDigits method initiates the gathering of digits on the specified call. The application specifies the maximum number of digits to collect.helpviewer_keywords: ["GatherDigits","GatherDigits method [TAPI 2.2]","GatherDigits method [TAPI 2.2]","ITLegacyCallMediaControl2 interface","ITLegacyCallMediaControl2 interface [TAPI 2.2]","GatherDigits method","ITLegacyCallMediaControl2.GatherDigits","ITLegacyCallMediaControl2::GatherDigits","_tapi3_itlegacycallmediacontrol2_gatherdigits","tapi3.itlegacycallmediacontrol2_gatherdigits","tapi3if/ITLegacyCallMediaControl2::GatherDigits"]
 old-location: tapi3\itlegacycallmediacontrol2_gatherdigits.htm
 tech.root: Tapi
 ms.assetid: ff464b1e-bd4c-4807-b019-cdae6896f897

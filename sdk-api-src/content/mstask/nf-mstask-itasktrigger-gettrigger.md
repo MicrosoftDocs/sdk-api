@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.ITaskTrigger.GetTrigger
 title: ITaskTrigger::GetTrigger (mstask.h)
-description: The GetTrigger method retrieves the current task trigger.
+description: The GetTrigger method retrieves the current task trigger.helpviewer_keywords: ["GetTrigger","GetTrigger method [Task Scheduler]","GetTrigger method [Task Scheduler]","ITaskTrigger interface","ITaskTrigger interface [Task Scheduler]","GetTrigger method","ITaskTrigger.GetTrigger","ITaskTrigger::GetTrigger","_msb_itasktrigger_gettrigger","mstask/ITaskTrigger::GetTrigger","taskschd.itasktrigger_gettrigger"]
 old-location: taskschd\itasktrigger_gettrigger.htm
 tech.root: taskschd
 ms.assetid: d6c9110d-c79e-475d-871b-83dca6577fc5

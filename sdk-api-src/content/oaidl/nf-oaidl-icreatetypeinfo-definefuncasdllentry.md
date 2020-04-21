@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.DefineFuncAsDllEntry
 title: ICreateTypeInfo::DefineFuncAsDllEntry (oaidl.h)
-description: Associates a DLL entry point with the function that has the specified index.
+description: Associates a DLL entry point with the function that has the specified index.helpviewer_keywords: ["DefineFuncAsDllEntry","DefineFuncAsDllEntry method [Automation]","DefineFuncAsDllEntry method [Automation]","ICreateTypeInfo interface","ICreateTypeInfo interface [Automation]","DefineFuncAsDllEntry method","ICreateTypeInfo.DefineFuncAsDllEntry","ICreateTypeInfo::DefineFuncAsDllEntry","_oa96_ICreateTypeInfo_DefineFuncAsDllEntry","automat.icreatetypeinfo_definefuncasdllentry","oaidl/ICreateTypeInfo::DefineFuncAsDllEntry"]
 old-location: automat\icreatetypeinfo_definefuncasdllentry.htm
 tech.root: automat
 ms.assetid: 47ec09af-0642-4645-b946-acabbb7c028a

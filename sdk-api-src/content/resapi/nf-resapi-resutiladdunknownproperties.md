@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilAddUnknownProperties
 title: ResUtilAddUnknownProperties function (resapi.h)
-description: Retrieves a set of unknown properties from the cluster database and appends them to the end of a property list.
+description: Retrieves a set of unknown properties from the cluster database and appends them to the end of a property list.helpviewer_keywords: ["PRESUTIL_ADD_UNKNOWN_PROPERTIES","PRESUTIL_ADD_UNKNOWN_PROPERTIES function [Failover Cluster]","ResUtilAddUnknownProperties","ResUtilAddUnknownProperties function [Failover Cluster]","_wolf_resutiladdunknownproperties","mscs.resutiladdunknownproperties","resapi/PRESUTIL_ADD_UNKNOWN_PROPERTIES","resapi/ResUtilAddUnknownProperties"]
 old-location: mscs\resutiladdunknownproperties.htm
 tech.root: MsCS
 ms.assetid: 17659c86-d7cc-4316-ba0e-ce71de727fa1

@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.IMultisessionSequential2
 title: IMultisessionSequential2 (imapi2.h)
-description: Use this interface to retrieve information about the size of a writeable unit on sequentially recorded media.
+description: Use this interface to retrieve information about the size of a writeable unit on sequentially recorded media.helpviewer_keywords: ["IMultisessionSequential2","IMultisessionSequential2 interface [IMAPI]","IMultisessionSequential2 interface [IMAPI]","described","imapi.imultisessionsequential2","imapi2/IMultisessionSequential2"]
 old-location: imapi\imultisessionsequential2.htm
 tech.root: imapi
 ms.assetid: da226f8f-7ae9-4013-a0d4-c76a7b5dae64

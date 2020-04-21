@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMStoryFragmentsResource.GetOwner
 title: IXpsOMStoryFragmentsResource::GetOwner (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMPage interface that contains this resource.
+description: Gets a pointer to the IXpsOMPage interface that contains this resource.helpviewer_keywords: ["GetOwner","GetOwner method [XPS Documents and Packaging]","GetOwner method [XPS Documents and Packaging]","IXpsOMStoryFragmentsResource interface","IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging]","GetOwner method","IXpsOMStoryFragmentsResource.GetOwner","IXpsOMStoryFragmentsResource::GetOwner","xps.ixpsomstoryfragmentsresource_getowner","xpsobjectmodel/IXpsOMStoryFragmentsResource::GetOwner"]
 old-location: xps\ixpsomstoryfragmentsresource_getowner.htm
 tech.root: printdocs
 ms.assetid: 8dc44277-d296-4747-8dd7-8901a94b5213

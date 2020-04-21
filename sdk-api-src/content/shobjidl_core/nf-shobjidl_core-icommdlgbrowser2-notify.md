@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ICommDlgBrowser2.Notify
 title: ICommDlgBrowser2::Notify (shobjidl_core.h)
-description: Called by a Shell view to notify the common dialog box hosting it that an event has occurred.
+description: Called by a Shell view to notify the common dialog box hosting it that an event has occurred.helpviewer_keywords: ["CDB2N_CONTEXTMENU_DONE","CDB2N_CONTEXTMENU_START","ICommDlgBrowser2 interface [Windows Shell]","Notify method","ICommDlgBrowser2.Notify","ICommDlgBrowser2::Notify","Notify","Notify method [Windows Shell]","Notify method [Windows Shell]","ICommDlgBrowser2 interface","_win32_ICommDlgBrowser2_Notify","shell.ICommDlgBrowser2_Notify","shobjidl_core/ICommDlgBrowser2::Notify"]
 old-location: shell\ICommDlgBrowser2_Notify.htm
 tech.root: shell
 ms.assetid: 486c306d-90ea-4ea4-afe1-2c3f5015ccf7

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory5.AnalyzeContainerType
 title: IDWriteFactory5::AnalyzeContainerType (dwrite_3.h)
-description: The AnalyzeContainerType method analyzes the specified file data to determine whether it is a known font container format (e.g., WOFF or WOFF2).
+description: The AnalyzeContainerType method analyzes the specified file data to determine whether it is a known font container format (e.g., WOFF or WOFF2).helpviewer_keywords: ["AnalyzeContainerType","AnalyzeContainerType method [Direct Write]","AnalyzeContainerType method [Direct Write]","IDWriteFactory5 interface","IDWriteFactory5 interface [Direct Write]","AnalyzeContainerType method","IDWriteFactory5.AnalyzeContainerType","IDWriteFactory5::AnalyzeContainerType","directwrite.idwritefactory5_analyzecontainertype","dwrite_3/IDWriteFactory5::AnalyzeContainerType"]
 old-location: directwrite\idwritefactory5_analyzecontainertype.htm
 tech.root: DirectWrite
 ms.assetid: A13656C9-E793-40E2-81BD-0F9C0F437F1E

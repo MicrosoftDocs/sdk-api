@@ -1,7 +1,7 @@
 ---
 UID: NN:gpmgmt.IGPMTrustee
 title: IGPMTrustee (gpmgmt.h)
-description: The IGPMTrustee interface contains methods to retrieve information about a given trustee when using the Group Policy Management Console (GPMC).
+description: The IGPMTrustee interface contains methods to retrieve information about a given trustee when using the Group Policy Management Console (GPMC).helpviewer_keywords: ["GPMTrustee","IGPMTrustee","IGPMTrustee interface [GPMC]","IGPMTrustee interface [GPMC]","described","_win32_igpmtrustee","gpmc.igpmtrustee","gpmgmt/IGPMTrustee"]
 old-location: gpmc\igpmtrustee.htm
 tech.root: gpmc
 ms.assetid: f9c24fe6-58c7-4e82-9ac0-1157ed8fffeb

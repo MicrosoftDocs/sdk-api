@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SspiUnmarshalCredUIContext
 title: SspiUnmarshalCredUIContext function (sspi.h)
-description: Deserializes credential information obtained by a credential provider during a previous call to the ICredentialProvider::SetSerialization method.
+description: Deserializes credential information obtained by a credential provider during a previous call to the ICredentialProvider::SetSerialization method.helpviewer_keywords: ["SspiUnmarshalCredUIContext","SspiUnmarshalCredUIContext function [Security]","security.sspiunmarshalcreduicontext","sspi/SspiUnmarshalCredUIContext"]
 old-location: security\sspiunmarshalcreduicontext.htm
 tech.root: SecAuthN
 ms.assetid: c8861b27-d42d-4f7f-96c7-718f23fbaf86

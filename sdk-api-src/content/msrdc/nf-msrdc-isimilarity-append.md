@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.ISimilarity.Append
 title: ISimilarity::Append (msrdc.h)
-description: Adds the file ID and similarity data information to the tables in the similarity file.
+description: Adds the file ID and similarity data information to the tables in the similarity file.helpviewer_keywords: ["Append","Append method [Remote Differential Compression]","Append method [Remote Differential Compression]","ISimilarity interface","ISimilarity interface [Remote Differential Compression]","Append method","ISimilarity.Append","ISimilarity::Append","fs.isimilarity_append","msrdc/ISimilarity::Append","rdc.isimilarity_append"]
 old-location: rdc\isimilarity_append.htm
 tech.root: rdc
 ms.assetid: f8896d9e-ca6a-404f-b80f-ef739ec97b53

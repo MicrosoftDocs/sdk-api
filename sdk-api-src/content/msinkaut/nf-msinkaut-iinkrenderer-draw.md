@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRenderer.Draw
 title: IInkRenderer::Draw (msinkaut.h)
-description: Draws ink strokes using the known device context.
+description: Draws ink strokes using the known device context.helpviewer_keywords: ["18f67080-ed56-43af-b0d6-8af35c2e871b","Draw","Draw method [Tablet PC]","Draw method [Tablet PC]","IInkRenderer interface","IInkRenderer","IInkRenderer interface [Tablet PC]","Draw method","IInkRenderer.Draw","IInkRenderer::Draw","msinkaut/IInkRenderer::Draw","tablet.inkrenderer_draw"]
 old-location: tablet\inkrenderer_draw.htm
 tech.root: tablet
 ms.assetid: 18f67080-ed56-43af-b0d6-8af35c2e871b

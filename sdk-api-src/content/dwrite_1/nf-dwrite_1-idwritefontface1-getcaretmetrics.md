@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetCaretMetrics
 title: IDWriteFontFace1::GetCaretMetrics (dwrite_1.h)
-description: Gets caret metrics for the font in design units.
+description: Gets caret metrics for the font in design units.helpviewer_keywords: ["GetCaretMetrics","GetCaretMetrics method [Direct Write]","GetCaretMetrics method [Direct Write]","IDWriteFontFace1 interface","IDWriteFontFace1 interface [Direct Write]","GetCaretMetrics method","IDWriteFontFace1.GetCaretMetrics","IDWriteFontFace1::GetCaretMetrics","directwrite.idwritefontface1_getcaretmetrics","dwrite_1/IDWriteFontFace1::GetCaretMetrics"]
 old-location: directwrite\idwritefontface1_getcaretmetrics.htm
 tech.root: DirectWrite
 ms.assetid: D9006617-A5B5-4575-9C00-26F52A73DC0D

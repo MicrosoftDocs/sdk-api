@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfFnPropertyUIStatus.GetStatus
 title: ITfFnPropertyUIStatus::GetStatus (ctffunc.h)
-description: ITfFnPropertyUIStatus::GetStatus method
+description: ITfFnPropertyUIStatus::GetStatus methodhelpviewer_keywords: ["GetStatus","GetStatus method [Text Services Framework]","GetStatus method [Text Services Framework]","ITfFnPropertyUIStatus interface","ITfFnPropertyUIStatus interface [Text Services Framework]","GetStatus method","ITfFnPropertyUIStatus.GetStatus","ITfFnPropertyUIStatus::GetStatus","TF_PROPUI_STATUS_SAVETOFILE","_tsf_itffnpropertyuistatus_getstatus_ref","ctffunc/ITfFnPropertyUIStatus::GetStatus","tsf.itffnpropertyuistatus_getstatus"]
 old-location: tsf\itffnpropertyuistatus_getstatus.htm
 tech.root: TSF
 ms.assetid: aef8c1b4-3cda-4fa3-ae8c-a8f8da4840b5

@@ -1,7 +1,7 @@
 ---
 UID: NS:netsh._CMD_ENTRY
 title: CMD_ENTRY (netsh.h)
-description: Defines a helper command.
+description: Defines a helper command.helpviewer_keywords: ["*PCMD_ENTRY","CMD_ENTRY","CMD_ENTRY structure [NetShell]","PCMD_ENTRY","PCMD_ENTRY structure pointer [NetShell]","_netsh_cmd_entry","netsh/CMD_ENTRY","netsh/PCMD_ENTRY","netshell.cmd_entry"]
 old-location: netshell\cmd_entry.htm
 tech.root: netshell
 ms.assetid: 299962c8-8f93-4b22-a232-8230eb64cc12

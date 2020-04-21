@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.SetThemeAppProperties
 title: SetThemeAppProperties function (uxtheme.h)
-description: Sets the flags that determine how visual styles are implemented in the calling application.
+description: Sets the flags that determine how visual styles are implemented in the calling application.helpviewer_keywords: ["SetThemeAppProperties","SetThemeAppProperties function [Windows Controls]","controls.SetThemeAppProperties","controls.inet_SetThemeAppProperties","inet_SetThemeAppProperties","inet_SetThemeAppProperties_cpp","uxtheme/SetThemeAppProperties"]
 old-location: controls\SetThemeAppProperties.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setthemeappproperties.htm

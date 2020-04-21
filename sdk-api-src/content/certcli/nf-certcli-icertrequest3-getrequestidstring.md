@@ -1,7 +1,7 @@
 ---
 UID: NF:certcli.ICertRequest3.GetRequestIdString
 title: ICertRequest3::GetRequestIdString (certcli.h)
-description: Gets the current internal request number, formatted as a string, for the request and subsequent certificate.
+description: Gets the current internal request number, formatted as a string, for the request and subsequent certificate.helpviewer_keywords: ["CCertRequest object [Security]","GetRequestIdString method","GetRequestIdString","GetRequestIdString method [Security]","GetRequestIdString method [Security]","CCertRequest object","GetRequestIdString method [Security]","ICertRequest3 class","ICertRequest3 class [Security]","GetRequestIdString method","ICertRequest3.GetRequestIdString","ICertRequest3::GetRequestIdString","certcli/ICertRequest3::GetRequestIdString","security.icertrequest3_getrequestidstring"]
 old-location: security\icertrequest3_getrequestidstring.htm
 tech.root: SecCrypto
 ms.assetid: 09afc06f-95e8-4519-b0c7-36da5986e077

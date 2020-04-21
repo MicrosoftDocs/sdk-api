@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsADSystemInfo
 title: IADsADSystemInfo (iads.h)
-description: The IADsADSystemInfo interface retrieves data about the local computer if it is running a Windows operating system in a Windows domain. For example, you can get the domain, site, and distinguished name of the local computer.
+description: The IADsADSystemInfo interface retrieves data about the local computer if it is running a Windows operating system in a Windows domain. For example, you can get the domain, site, and distinguished name of the local computer.helpviewer_keywords: ["ADSystemInfo","IADsADSystemInfo","IADsADSystemInfo interface [ADSI]","IADsADSystemInfo interface [ADSI]","described","_ds_iadsadsysteminfo","adsi.iadsadsysteminfo","iads/IADsADSystemInfo"]
 old-location: adsi\iadsadsysteminfo.htm
 tech.root: adsi
 ms.assetid: 5573d37b-10a8-4176-80c7-711552ff36cb

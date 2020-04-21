@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IStreamAsync.OverlappedResult
 title: IStreamAsync::OverlappedResult (shobjidl.h)
-description: Retrieves the results of an overlapped operation.
+description: Retrieves the results of an overlapped operation.helpviewer_keywords: ["IStreamAsync interface [Windows Shell]","OverlappedResult method","IStreamAsync.OverlappedResult","IStreamAsync::OverlappedResult","OverlappedResult","OverlappedResult method [Windows Shell]","OverlappedResult method [Windows Shell]","IStreamAsync interface","_shell_IStreamAsync_OverlappedResult","shell.IStreamAsync_OverlappedResult","shobjidl/IStreamAsync::OverlappedResult"]
 old-location: shell\IStreamAsync_OverlappedResult.htm
 tech.root: shell
 ms.assetid: 5a53934f-bbff-4bb0-b374-01adb629a041

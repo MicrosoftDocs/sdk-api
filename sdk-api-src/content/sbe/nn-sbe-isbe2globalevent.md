@@ -1,7 +1,7 @@
 ---
 UID: NN:sbe.ISBE2GlobalEvent
 title: ISBE2GlobalEvent (sbe.h)
-description: Offers access to global spanning events and their data from the Stream Buffer Source filters. A global spanning event contains state information that applies to all the streams in a pipeline.
+description: Offers access to global spanning events and their data from the Stream Buffer Source filters. A global spanning event contains state information that applies to all the streams in a pipeline.helpviewer_keywords: ["ISBE2GlobalEvent","ISBE2GlobalEvent interface [Microsoft TV Technologies]","ISBE2GlobalEvent interface [Microsoft TV Technologies]","described","mstv.isbe2globalevent","sbe/ISBE2GlobalEvent"]
 old-location: mstv\isbe2globalevent.htm
 tech.root: mstv
 ms.assetid: 18bb9f8a-df97-468c-acb2-be7fa61a4789

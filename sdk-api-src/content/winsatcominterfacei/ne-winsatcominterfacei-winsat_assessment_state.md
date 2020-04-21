@@ -1,7 +1,7 @@
 ---
 UID: NE:winsatcominterfacei.__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0002
 title: WINSAT_ASSESSMENT_STATE (winsatcominterfacei.h)
-description: Defines the possible states of an assessment.
+description: Defines the possible states of an assessment.helpviewer_keywords: ["WINSAT_ASSESSMENT_STATE","WINSAT_ASSESSMENT_STATE enumeration [WinSAT]","WINSAT_ASSESSMENT_STATE_INCOHERENT_WITH_HARDWARE","WINSAT_ASSESSMENT_STATE_INVALID","WINSAT_ASSESSMENT_STATE_MAX","WINSAT_ASSESSMENT_STATE_MIN","WINSAT_ASSESSMENT_STATE_NOT_AVAILABLE","WINSAT_ASSESSMENT_STATE_UNKNOWN","WINSAT_ASSESSMENT_STATE_VALID","winsat.winsat_assessment_state","winsatcominterfacei/WINSAT_ASSESSMENT_STATE","winsatcominterfacei/WINSAT_ASSESSMENT_STATE_INCOHERENT_WITH_HARDWARE","winsatcominterfacei/WINSAT_ASSESSMENT_STATE_INVALID","winsatcominterfacei/WINSAT_ASSESSMENT_STATE_MAX","winsatcominterfacei/WINSAT_ASSESSMENT_STATE_MIN","winsatcominterfacei/WINSAT_ASSESSMENT_STATE_NOT_AVAILABLE","winsatcominterfacei/WINSAT_ASSESSMENT_STATE_UNKNOWN","winsatcominterfacei/WINSAT_ASSESSMENT_STATE_VALID"]
 old-location: winsat\winsat_assessment_state.htm
 tech.root: WinSAT
 ms.assetid: 8d2afd18-9764-44d2-b01d-dfefc1506c6a

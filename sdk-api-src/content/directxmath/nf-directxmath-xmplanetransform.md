@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMPlaneTransform
 title: XMPlaneTransform function (directxmath.h)
-description: Transforms a plane by a given matrix.
+description: Transforms a plane by a given matrix.helpviewer_keywords: ["Use DirectX..XMPlaneTransform","XMPlaneTransform","XMPlaneTransform method [DirectX Math Support APIs]","dxmath.xmplanetransform"]
 old-location: dxmath\xmplanetransform.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneTransform(XMVECTOR,XMMATRIX)

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetRightToLeft
 title: IMFTimedTextStyle::GetRightToLeft (mfmediaengine.h)
-description: Determines whether the right to left writing mode of the timed-text style is enabled.
+description: Determines whether the right to left writing mode of the timed-text style is enabled.helpviewer_keywords: ["GetRightToLeft","GetRightToLeft method [Media Foundation]","GetRightToLeft method [Media Foundation]","IMFTimedTextStyle interface","IMFTimedTextStyle interface [Media Foundation]","GetRightToLeft method","IMFTimedTextStyle.GetRightToLeft","IMFTimedTextStyle::GetRightToLeft","mf.imftimedtextstyle_getrighttoleft","mfmediaengine/IMFTimedTextStyle::GetRightToLeft"]
 old-location: mf\imftimedtextstyle_getrighttoleft.htm
 tech.root: medfound
 ms.assetid: 6BE5C8A0-F577-4E1D-8DB7-3FFBEF059C18

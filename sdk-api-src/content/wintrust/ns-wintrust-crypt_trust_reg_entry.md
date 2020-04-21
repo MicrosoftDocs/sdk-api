@@ -1,7 +1,7 @@
 ---
 UID: NS:wintrust._CRYPT_TRUST_REG_ENTRY
 title: CRYPT_TRUST_REG_ENTRY (wintrust.h)
-description: Identifies a provider function by DLL name and function name.
+description: Identifies a provider function by DLL name and function name.helpviewer_keywords: ["*PCRYPT_TRUST_REG_ENTRY","CRYPT_TRUST_REG_ENTRY","CRYPT_TRUST_REG_ENTRY structure [Security]","PCRYPT_TRUST_REG_ENTRY","PCRYPT_TRUST_REG_ENTRY structure pointer [Security]","security.crypt_trust_reg_entry","wintrust/CRYPT_TRUST_REG_ENTRY","wintrust/PCRYPT_TRUST_REG_ENTRY"]
 old-location: security\crypt_trust_reg_entry.htm
 tech.root: SecCrypto
 ms.assetid: 1a531219-f254-4057-934b-af95bfe0bb83

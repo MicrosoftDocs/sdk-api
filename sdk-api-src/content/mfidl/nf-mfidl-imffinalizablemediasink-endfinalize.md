@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFFinalizableMediaSink.EndFinalize
 title: IMFFinalizableMediaSink::EndFinalize (mfidl.h)
-description: Completes an asynchronous finalize operation.
+description: Completes an asynchronous finalize operation.helpviewer_keywords: ["1b2a9b24-69da-41c7-8379-3f3d066d2582","EndFinalize","EndFinalize method [Media Foundation]","EndFinalize method [Media Foundation]","IMFFinalizableMediaSink interface","IMFFinalizableMediaSink interface [Media Foundation]","EndFinalize method","IMFFinalizableMediaSink.EndFinalize","IMFFinalizableMediaSink::EndFinalize","mf.imffinalizablemediasink_endfinalize","mfidl/IMFFinalizableMediaSink::EndFinalize"]
 old-location: mf\imffinalizablemediasink_endfinalize.htm
 tech.root: medfound
 ms.assetid: 1b2a9b24-69da-41c7-8379-3f3d066d2582

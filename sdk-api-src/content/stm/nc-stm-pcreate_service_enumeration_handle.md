@@ -1,7 +1,7 @@
 ---
 UID: NC:stm.PCREATE_SERVICE_ENUMERATION_HANDLE
 title: PCREATE_SERVICE_ENUMERATION_HANDLE (stm.h)
-description: The CreateServiceEnumerationHandle function returns a handle that allows the use of fast and change-tolerant enumeration functions.
+description: The CreateServiceEnumerationHandle function returns a handle that allows the use of fast and change-tolerant enumeration functions.helpviewer_keywords: ["CreateServiceEnumerationHandle","CreateServiceEnumerationHandle callback function [RAS]","PCREATE_SERVICE_ENUMERATION_HANDLE","PCREATE_SERVICE_ENUMERATION_HANDLE callback","STM_ONLY_THIS_INTERFACE","STM_ONLY_THIS_PROTOCOL","STM_ONLY_THIS_TYPE","_mpr_createserviceenumerationhandle","rras.createserviceenumerationhandle","stm/CreateServiceEnumerationHandle"]
 old-location: rras\createserviceenumerationhandle.htm
 tech.root: RRAS
 ms.assetid: 68ed5662-ffa8-456b-b79c-a6fb27339262

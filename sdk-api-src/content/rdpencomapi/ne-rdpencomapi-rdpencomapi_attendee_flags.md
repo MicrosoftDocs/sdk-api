@@ -1,7 +1,7 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0006
 title: RDPENCOMAPI_ATTENDEE_FLAGS (rdpencomapi.h)
-description: Defines values for the type of attendee.
+description: Defines values for the type of attendee.helpviewer_keywords: ["ATTENDEE_FLAGS_LOCAL","RDPENCOMAPI_ATTENDEE_FLAGS","RDPENCOMAPI_ATTENDEE_FLAGS enumeration [RDP]","rdp.rdpencomapi_attendee_flags","rdpencomapi/ATTENDEE_FLAGS_LOCAL","rdpencomapi/RDPENCOMAPI_ATTENDEE_FLAGS"]
 old-location: rdp\rdpencomapi_attendee_flags.htm
 tech.root: rdp
 ms.assetid: a2e5520f-f19a-4800-bc41-bb12bd244d35

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValueLength
 title: ID2D1SvgElement::GetAttributeValueLength (d2d1svg.h)
-description: Gets the string length of an attribute of this element.
+description: Gets the string length of an attribute of this element.helpviewer_keywords: ["GetAttributeValueLength","GetAttributeValueLength method [Direct2D]","GetAttributeValueLength method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetAttributeValueLength method","ID2D1SvgElement.GetAttributeValueLength","ID2D1SvgElement::GetAttributeValueLength","d2d1svg/ID2D1SvgElement::GetAttributeValueLength","direct2d.id2d1svgelement_getattributevaluelength"]
 old-location: direct2d\id2d1svgelement_getattributevaluelength.htm
 tech.root: Direct2D
 ms.assetid: 2B466C04-7768-4F15-AC68-55A3074499C1

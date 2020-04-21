@@ -1,7 +1,7 @@
 ---
 UID: NF:aux_ulib.AuxUlibIsDLLSynchronizationHeld
 title: AuxUlibIsDLLSynchronizationHeld function (aux_ulib.h)
-description: Determines whether the caller is holding a synchronization primitive.
+description: Determines whether the caller is holding a synchronization primitive.helpviewer_keywords: ["AuxUlibIsDLLSynchronizationHeld","AuxUlibIsDLLSynchronizationHeld function [Windows API]","aux_ulib/AuxUlibIsDLLSynchronizationHeld","winprog.auxulibisdllsynchronizationheld"]
 old-location: winprog\auxulibisdllsynchronizationheld.htm
 tech.root: DevNotes
 ms.assetid: fa2adb90-757c-4796-9842-e1f1a16d46fa

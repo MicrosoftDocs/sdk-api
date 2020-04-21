@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.CombineRgn
 title: CombineRgn function (wingdi.h)
-description: The CombineRgn function combines two regions and stores the result in a third region. The two regions are combined according to the specified mode.
+description: The CombineRgn function combines two regions and stores the result in a third region. The two regions are combined according to the specified mode.helpviewer_keywords: ["CombineRgn","CombineRgn function [Windows GDI]","RGN_AND","RGN_COPY","RGN_DIFF","RGN_OR","RGN_XOR","_win32_CombineRgn","gdi.combinergn","wingdi/CombineRgn"]
 old-location: gdi\combinergn.htm
 tech.root: gdi
 ms.assetid: ef9fc4f3-737e-4c10-a80b-8ae2097c17d1

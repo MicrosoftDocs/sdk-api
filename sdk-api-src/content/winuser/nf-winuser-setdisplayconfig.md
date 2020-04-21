@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetDisplayConfig
 title: SetDisplayConfig function (winuser.h)
-description: The SetDisplayConfig function modifies the display topology, source, and target modes by exclusively enabling the specified paths in the current session.
+description: The SetDisplayConfig function modifies the display topology, source, and target modes by exclusively enabling the specified paths in the current session.helpviewer_keywords: ["CCD_Functions_fceeecb0-8c34-4ff0-b201-fc5b7f39f2df.xml","SetDisplayConfig","SetDisplayConfig function [Display Devices]","display.setdisplayconfig","winuser/SetDisplayConfig"]
 old-location: display\setdisplayconfig.htm
 tech.root: display
 ms.assetid: 9f649fa0-ffb2-44c6-9a66-049f888e3b04

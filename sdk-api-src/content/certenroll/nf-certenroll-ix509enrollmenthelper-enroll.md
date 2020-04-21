@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.Enroll
 title: IX509EnrollmentHelper::Enroll (certenroll.h)
-description: Enrolls a certificate request and retrieves the issued certificate.
+description: Enrolls a certificate request and retrieves the issued certificate.helpviewer_keywords: ["Enroll","Enroll method [Security]","Enroll method [Security]","IX509EnrollmentHelper interface","EnrollPrompt","IX509EnrollmentHelper interface [Security]","Enroll method","IX509EnrollmentHelper.Enroll","IX509EnrollmentHelper::Enroll","certenroll/IX509EnrollmentHelper::Enroll","security.ix509enrollmenthelper_enroll"]
 old-location: security\ix509enrollmenthelper_enroll.htm
 tech.root: seccertenroll
 ms.assetid: 4f178df7-714f-49e6-9bf5-647acc23b0ad

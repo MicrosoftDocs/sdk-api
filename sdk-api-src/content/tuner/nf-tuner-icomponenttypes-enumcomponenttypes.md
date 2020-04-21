@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IComponentTypes.EnumComponentTypes
 title: IComponentTypes::EnumComponentTypes (tuner.h)
-description: The EnumComponentTypes method returns an IEnumComponentTypes enumerator for all component types in the collection.
+description: The EnumComponentTypes method returns an IEnumComponentTypes enumerator for all component types in the collection.helpviewer_keywords: ["EnumComponentTypes","EnumComponentTypes method [Microsoft TV Technologies]","EnumComponentTypes method [Microsoft TV Technologies]","IComponentTypes interface","IComponentTypes interface [Microsoft TV Technologies]","EnumComponentTypes method","IComponentTypes.EnumComponentTypes","IComponentTypes::EnumComponentTypes","IComponentTypesEnumComponentTypes","mstv.icomponenttypes_enumcomponenttypes","tuner/IComponentTypes::EnumComponentTypes"]
 old-location: mstv\icomponenttypes_enumcomponenttypes.htm
 tech.root: mstv
 ms.assetid: c070998c-4350-4630-80c0-e3db46154845

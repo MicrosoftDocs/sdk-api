@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11ClassLinkage
 title: ID3D11ClassLinkage (d3d11.h)
-description: This interface encapsulates an HLSL dynamic linkage.
+description: This interface encapsulates an HLSL dynamic linkage.helpviewer_keywords: ["6153eaad-32d7-c087-4631-725183e63035","ID3D11ClassLinkage","ID3D11ClassLinkage interface [Direct3D 11]","ID3D11ClassLinkage interface [Direct3D 11]","described","d3d11/ID3D11ClassLinkage","direct3d11.id3d11classlinkage"]
 old-location: direct3d11\id3d11classlinkage.htm
 tech.root: direct3d11
 ms.assetid: eac03911-d881-4304-9598-912321ac0b0c

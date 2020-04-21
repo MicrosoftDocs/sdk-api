@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_QualifierSet_GetQualifier
 title: MI_QualifierSet_GetQualifier function (mi.h)
-description: Gets the qualifier information based on the given qualifier name.
+description: Gets the qualifier information based on the given qualifier name.helpviewer_keywords: ["MI_QualifierSet_GetQualifier","MI_QualifierSet_GetQualifier function [Windows Management Infrastructure (MI)]","mi/MI_QualifierSet_GetQualifier","wmi_v2.mi_qualifierset_getqualifier"]
 old-location: wmi_v2\mi_qualifierset_getqualifier.htm
 tech.root: wmi_v2
 ms.assetid: 16dde421-3746-4722-9f08-56835b7603fb

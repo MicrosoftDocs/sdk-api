@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.AddRoot
 title: ISearchCrawlScopeManager::AddRoot (searchapi.h)
-description: Adds a new search root to the search engine.
+description: Adds a new search root to the search engine.helpviewer_keywords: ["AddRoot","AddRoot method [search]","AddRoot method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","AddRoot method","ISearchCrawlScopeManager.AddRoot","ISearchCrawlScopeManager::AddRoot","_search_ISearchCrawlScopeManager_AddRoot","search._search_ISearchCrawlScopeManager_AddRoot","searchapi/ISearchCrawlScopeManager::AddRoot"]
 old-location: search\_search_ISearchCrawlScopeManager_AddRoot.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\addroot.htm

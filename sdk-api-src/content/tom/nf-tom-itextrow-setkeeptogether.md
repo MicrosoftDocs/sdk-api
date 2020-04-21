@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.SetKeepTogether
 title: ITextRow::SetKeepTogether (tom.h)
-description: Sets whether this row is allowed to be broken across pages.
+description: Sets whether this row is allowed to be broken across pages.helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetKeepTogether method","ITextRow.SetKeepTogether","ITextRow::SetKeepTogether","SetKeepTogether","SetKeepTogether method [Windows Controls]","SetKeepTogether method [Windows Controls]","ITextRow interface","controls.itextrow_setkeeptogether","tom/ITextRow::SetKeepTogether"]
 old-location: controls\itextrow_setkeeptogether.htm
 tech.root: Controls
 ms.assetid: ca2130b4-3e29-43d7-b03d-a6c45897e447

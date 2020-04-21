@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMResource
 title: IXpsOMResource (xpsobjectmodel.h)
-description: Used as the base interface for the resource interfaces of the XPS object model.
+description: Used as the base interface for the resource interfaces of the XPS object model.helpviewer_keywords: ["IXpsOMResource","IXpsOMResource interface [XPS Documents and Packaging]","IXpsOMResource interface [XPS Documents and Packaging]","described","xps.ixpsomresource","xpsobjectmodel/IXpsOMResource"]
 old-location: xps\ixpsomresource.htm
 tech.root: printdocs
 ms.assetid: ed3d6ea0-efe5-4917-85fa-bd9ad1978b4e

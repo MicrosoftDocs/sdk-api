@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IPartsList.GetPart
 title: IPartsList::GetPart (devicetopology.h)
-description: The GetPart method gets a part from the parts list.
+description: The GetPart method gets a part from the parts list.helpviewer_keywords: ["GetPart","GetPart method [Core Audio]","GetPart method [Core Audio]","IPartsList interface","IPartsList interface [Core Audio]","GetPart method","IPartsList.GetPart","IPartsList::GetPart","IPartsListGetPart","coreaudio.ipartslist_getpart","devicetopology/IPartsList::GetPart"]
 old-location: coreaudio\ipartslist_getpart.htm
 tech.root: CoreAudio
 ms.assetid: 505e2412-2849-4e64-9751-ce68831823b8

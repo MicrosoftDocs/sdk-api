@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.DebugBreakProcess
 title: DebugBreakProcess function (winbase.h)
-description: Causes a breakpoint exception to occur in the specified process. This allows the calling thread to signal the debugger to handle the exception.
+description: Causes a breakpoint exception to occur in the specified process. This allows the calling thread to signal the debugger to handle the exception.helpviewer_keywords: ["DebugBreakProcess","DebugBreakProcess function","_win32_debugbreakprocess","base.debugbreakprocess","winbase/DebugBreakProcess"]
 old-location: base\debugbreakprocess.htm
 tech.root: Debug
 ms.assetid: db90d46b-fdbc-49c9-ac99-6b1db1db708c

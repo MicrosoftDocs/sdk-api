@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.SetProcessInformation
 title: SetProcessInformation function (processthreadsapi.h)
-description: Sets information for the specified process.
+description: Sets information for the specified process.helpviewer_keywords: ["SetProcessInformation","SetProcessInformation function","base.setprocessinformation","processthreadsapi/SetProcessInformation"]
 old-location: base\setprocessinformation.htm
 tech.root: ProcThread
 ms.assetid: 1739fadf-6b43-4b89-8a17-87d9867d5197

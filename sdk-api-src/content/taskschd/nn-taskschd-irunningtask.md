@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.IRunningTask
 title: IRunningTask (taskschd.h)
-description: Provides the methods to get information from and control a running task.
+description: Provides the methods to get information from and control a running task.helpviewer_keywords: ["IRunningTask","IRunningTask interface [Task Scheduler]","IRunningTask interface [Task Scheduler]","described","taskschd.irunningtask","taskschd/IRunningTask"]
 old-location: taskschd\irunningtask.htm
 tech.root: taskschd
 ms.assetid: 71a06a8f-8628-415d-b002-977c0d27f9a4

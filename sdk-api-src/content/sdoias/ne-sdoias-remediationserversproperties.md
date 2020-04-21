@@ -1,7 +1,7 @@
 ---
 UID: NE:sdoias._REMEDIATIONSERVERSPROPERTIES
 title: REMEDIATIONSERVERSPROPERTIES (sdoias.h)
-description: The values of the REMEDIATIONSERVERSPROPERTIES enumeration type enumerate the properties of a set of remediation server groups.
+description: The values of the REMEDIATIONSERVERSPROPERTIES enumeration type enumerate the properties of a set of remediation server groups.helpviewer_keywords: ["PROPERTY_REMEDIATIONSERVERS_SERVERGROUPS","REMEDIATIONSERVERSPROPERTIES","REMEDIATIONSERVERSPROPERTIES enumeration [Network Policy Server]","nps.SDO_remediationserversproperties","sdo.remediationserversproperties","sdoias/PROPERTY_REMEDIATIONSERVERS_SERVERGROUPS","sdoias/REMEDIATIONSERVERSPROPERTIES"]
 old-location: nps\SDO_remediationserversproperties.htm
 tech.root: Nps
 ms.assetid: 6cee6264-4cb7-47cc-81ba-a06d22f0528d

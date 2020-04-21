@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.Validate
 title: IOpcDigitalSignatureManager::Validate (msopc.h)
-description: Validates a specified package signature using a specified certificate.
+description: Validates a specified package signature using a specified certificate.helpviewer_keywords: ["IOpcDigitalSignatureManager interface [Open Packaging Conventions]","Validate method","IOpcDigitalSignatureManager.Validate","IOpcDigitalSignatureManager::Validate","Validate","Validate method [Open Packaging Conventions]","Validate method [Open Packaging Conventions]","IOpcDigitalSignatureManager interface","msopc/IOpcDigitalSignatureManager::Validate","opc.iopcdigitalsignaturemanager_validate"]
 old-location: opc\iopcdigitalsignaturemanager_validate.htm
 tech.root: OPC
 ms.assetid: 76a37ad6-caa0-4fa3-abc1-2eae63e3134b

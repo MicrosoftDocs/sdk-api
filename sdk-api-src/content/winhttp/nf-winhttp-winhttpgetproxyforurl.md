@@ -1,7 +1,7 @@
 ---
 UID: NF:winhttp.WinHttpGetProxyForUrl
 title: WinHttpGetProxyForUrl function (winhttp.h)
-description: Retrieves the proxy data for the specified URL.
+description: Retrieves the proxy data for the specified URL.helpviewer_keywords: ["WinHttpGetProxyForUrl","WinHttpGetProxyForUrl function [WinHTTP]","http.winhttpgetproxyforurl","winhttp/WinHttpGetProxyForUrl"]
 old-location: http\winhttpgetproxyforurl.htm
 tech.root: WinHttp
 ms.assetid: d01b101e-a496-4e84-9aec-61afe3920fbb

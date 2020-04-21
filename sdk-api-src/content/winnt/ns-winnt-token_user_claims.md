@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._TOKEN_USER_CLAIMS
 title: TOKEN_USER_CLAIMS (winnt.h)
-description: Defines the user claims for the token.
+description: Defines the user claims for the token.helpviewer_keywords: ["*PTOKEN_USER_CLAIMS","PTOKEN_USER_CLAIMS","PTOKEN_USER_CLAIMS structure pointer [Security]","TOKEN_USER_CLAIMS","TOKEN_USER_CLAIMS structure [Security]","_TOKEN_USER_CLAIMS","security.token_user_claims","winnt/PTOKEN_USER_CLAIMS","winnt/TOKEN_USER_CLAIMS"]
 old-location: security\token_user_claims.htm
 tech.root: SecAuthZ
 ms.assetid: 730541ED-0E33-4F19-BB99-145131161355

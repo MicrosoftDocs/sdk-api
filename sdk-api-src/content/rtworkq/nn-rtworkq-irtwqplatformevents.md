@@ -1,7 +1,7 @@
 ---
 UID: NN:rtworkq.IRtwqPlatformEvents
 title: IRtwqPlatformEvents (rtworkq.h)
-description: Provides events related platform work queue.
+description: Provides events related platform work queue.helpviewer_keywords: ["IRtwqPlatformEvents","IRtwqPlatformEvents interface","IRtwqPlatformEvents interface","described","base.irtwqplatformevents","rtworkq/IRtwqPlatformEvents"]
 old-location: base\irtwqplatformevents.htm
 tech.root: ProcThread
 ms.assetid: 9184D930-9305-4CA0-8E89-0CBAA5E4D53F

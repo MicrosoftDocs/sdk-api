@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1VertexBuffer.Map
 title: ID2D1VertexBuffer::Map (d2d1effectauthor.h)
-description: Maps the provided data into user memory.
+description: Maps the provided data into user memory.helpviewer_keywords: ["ID2D1VertexBuffer interface [Direct2D]","Map method","ID2D1VertexBuffer.Map","ID2D1VertexBuffer::Map","Map","Map method [Direct2D]","Map method [Direct2D]","ID2D1VertexBuffer interface","d2d1effectauthor/ID2D1VertexBuffer::Map","direct2d.id2d1vertexbuffer_map"]
 old-location: direct2d\id2d1vertexbuffer_map.htm
 tech.root: Direct2D
 ms.assetid: 3EFC0584-2F03-4B35-8C6C-E46CDD9D9057

@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsCall
 title: WsCall function (webservices.h)
-description: Used internally by the service proxy to format the specified arguments according to the specified metadata and send them in a message. The application should never call this function directly.
+description: Used internally by the service proxy to format the specified arguments according to the specified metadata and send them in a message. The application should never call this function directly.helpviewer_keywords: ["WsCall","WsCall function [Web Services for Windows]","webservices/WsCall","wsw.wscall"]
 old-location: wsw\wscall.htm
 tech.root: wsw
 ms.assetid: 300d25b7-6742-4bed-9786-6c599981ec22

@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.graphics.directx.direct3d11.interop.CreateDirect3D11SurfaceFromDXGISurface
 title: CreateDirect3D11SurfaceFromDXGISurface function
-description: Creates an instance of IDirect3DSurface from an IDXGISurface.
+description: Creates an instance of IDirect3DSurface from an IDXGISurface.helpviewer_keywords: ["81213ad6-5736-1d54-c0a6-628697437568","CreateDirect3D11SurfaceFromDXGISurface","CreateDirect3D11SurfaceFromDXGISurface function [Direct3D 11]","windows.graphics.directx.direct3d11.interop/CreateDirect3D11SurfaceFromDXGISurface","direct3d11.createdirect3d11surfacefromdxgisurface"]
 tech.root: winrt
 ms.assetid: 81213ad6-5736-1d54-c0a6-628697437568
 ms.date: 05/13/2019

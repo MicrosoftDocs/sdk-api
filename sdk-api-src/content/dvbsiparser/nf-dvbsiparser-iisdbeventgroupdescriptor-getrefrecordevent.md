@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetRefRecordEvent
 title: IIsdbEventGroupDescriptor::GetRefRecordEvent (dvbsiparser.h)
-description: Gets data from a related event record in an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
+description: Gets data from a related event record in an Integrated Services Digital Broadcasting (ISDB) event group descriptor.helpviewer_keywords: ["GetRefRecordEvent","GetRefRecordEvent method [Microsoft TV Technologies]","GetRefRecordEvent method [Microsoft TV Technologies]","IIsdbEventGroupDescriptor interface","IIsdbEventGroupDescriptor interface [Microsoft TV Technologies]","GetRefRecordEvent method","IIsdbEventGroupDescriptor.GetRefRecordEvent","IIsdbEventGroupDescriptor::GetRefRecordEvent","dvbsiparser/IIsdbEventGroupDescriptor::GetRefRecordEvent","mstv.iisdbeventgroupdescriptor_getrefrecordevent"]
 old-location: mstv\iisdbeventgroupdescriptor_getrefrecordevent.htm
 tech.root: mstv
 ms.assetid: fede6a0e-5ac1-472e-aaa8-9d31737a8a1d

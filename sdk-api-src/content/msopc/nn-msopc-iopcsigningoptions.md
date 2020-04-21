@@ -1,7 +1,7 @@
 ---
 UID: NN:msopc.IOpcSigningOptions
 title: IOpcSigningOptions (msopc.h)
-description: Provides methods to set and access information required to generate a signature.
+description: Provides methods to set and access information required to generate a signature.helpviewer_keywords: ["IOpcSigningOptions","IOpcSigningOptions interface [Open Packaging Conventions]","IOpcSigningOptions interface [Open Packaging Conventions]","described","msopc/IOpcSigningOptions","opc.iopcsigningoptions"]
 old-location: opc\iopcsigningoptions.htm
 tech.root: OPC
 ms.assetid: 5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec

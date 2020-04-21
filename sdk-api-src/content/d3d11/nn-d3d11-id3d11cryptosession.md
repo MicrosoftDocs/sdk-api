@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11CryptoSession
 title: ID3D11CryptoSession (d3d11.h)
-description: Represents a cryptographic session.
+description: Represents a cryptographic session.helpviewer_keywords: ["ID3D11CryptoSession","ID3D11CryptoSession interface [Media Foundation]","ID3D11CryptoSession interface [Media Foundation]","described","d3d11/ID3D11CryptoSession","mf.id3d11cryptosession"]
 old-location: mf\id3d11cryptosession.htm
 tech.root: medfound
 ms.assetid: E17F39CB-61E3-44EF-805D-AD386743744E

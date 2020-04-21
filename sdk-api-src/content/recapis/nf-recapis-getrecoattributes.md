@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.GetRecoAttributes
 title: GetRecoAttributes function (recapis.h)
-description: Retrieves the attributes of the recognizer.
+description: Retrieves the attributes of the recognizer.helpviewer_keywords: ["45683203-1886-4542-8b66-84861862cb6a","GetRecoAttributes","GetRecoAttributes function [Tablet PC]","recapis/GetRecoAttributes","tablet.getrecoattributes"]
 old-location: tablet\getrecoattributes.htm
 tech.root: tablet
 ms.assetid: 45683203-1886-4542-8b66-84861862cb6a

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordDurationByIndex
 title: IISDB_SDTT::GetRecordDurationByIndex (dvbsiparser.h)
-description: Receives the event duration from a schedule record in an Integrated Services Digital Broadcasting (ISDB) Software Download Trigger Table (SDTT).
+description: Receives the event duration from a schedule record in an Integrated Services Digital Broadcasting (ISDB) Software Download Trigger Table (SDTT).helpviewer_keywords: ["GetRecordDurationByIndex","GetRecordDurationByIndex method [Microsoft TV Technologies]","GetRecordDurationByIndex method [Microsoft TV Technologies]","IISDB_SDTT interface","IISDB_SDTT interface [Microsoft TV Technologies]","GetRecordDurationByIndex method","IISDB_SDTT.GetRecordDurationByIndex","IISDB_SDTT::GetRecordDurationByIndex","dvbsiparser/IISDB_SDTT::GetRecordDurationByIndex","mstv.iisdb_sdtt_getrecorddurationbyindex"]
 old-location: mstv\iisdb_sdtt_getrecorddurationbyindex.htm
 tech.root: mstv
 ms.assetid: e7021a9e-4266-4c17-8874-4b10cf7d6428

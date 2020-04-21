@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CoInitialize
 title: CoInitialize function (objbase.h)
-description: Initializes the COM library on the current thread and identifies the concurrency model as single-thread apartment (STA).
+description: Initializes the COM library on the current thread and identifies the concurrency model as single-thread apartment (STA).helpviewer_keywords: ["CoInitialize","CoInitialize function [COM]","_com_CoInitialize","com.coinitialize","objbase/CoInitialize"]
 old-location: com\coinitialize.htm
 tech.root: com
 ms.assetid: 0f171cf4-87b9-43a6-97f2-80ed344fe376

@@ -1,7 +1,7 @@
 ---
 UID: NN:workspaceruntime.IWorkspaceRegistration
 title: IWorkspaceRegistration (workspaceruntime.h)
-description: Exposes methods that add and remove references to custom clients in RemoteApp and Desktop Connection.
+description: Exposes methods that add and remove references to custom clients in RemoteApp and Desktop Connection.helpviewer_keywords: ["IWorkspaceRegistration","IWorkspaceRegistration interface [Remote Desktop Services]","IWorkspaceRegistration interface [Remote Desktop Services]","described","termserv.iworkspaceregistration","workspaceruntime/IWorkspaceRegistration"]
 old-location: termserv\iworkspaceregistration.htm
 tech.root: TermServ
 ms.assetid: 29e7da7b-7da2-4000-8f3d-d12aa7e12fed

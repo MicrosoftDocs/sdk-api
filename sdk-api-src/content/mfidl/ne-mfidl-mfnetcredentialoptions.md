@@ -1,7 +1,7 @@
 ---
 UID: NE:mfidl._MFNetCredentialOptions
 title: MFNetCredentialOptions (mfidl.h)
-description: Describes options for the caching network credentials.
+description: Describes options for the caching network credentials.helpviewer_keywords: ["5ee4f46c-762c-4acf-86ff-da7a93b5de05","MFNET_CREDENTIAL_ALLOW_CLEAR_TEXT","MFNET_CREDENTIAL_DONT_CACHE","MFNET_CREDENTIAL_SAVE","MFNetCredentialOptions","MFNetCredentialOptions enumeration [Media Foundation]","mf.mfnetcredentialoptions","mfidl/MFNET_CREDENTIAL_ALLOW_CLEAR_TEXT","mfidl/MFNET_CREDENTIAL_DONT_CACHE","mfidl/MFNET_CREDENTIAL_SAVE","mfidl/MFNetCredentialOptions"]
 old-location: mf\mfnetcredentialoptions.htm
 tech.root: medfound
 ms.assetid: 5ee4f46c-762c-4acf-86ff-da7a93b5de05

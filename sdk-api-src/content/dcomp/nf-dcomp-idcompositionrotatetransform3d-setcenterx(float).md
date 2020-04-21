@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetCenterX(float)
 title: IDCompositionRotateTransform3D::SetCenterX (dcomp.h)
-description: Changes the value of the CenterX property of a 3D rotation transform. The CenterX property specifies the x-coordinate of the point about which the rotation is performed. The default value is zero.
+description: Changes the value of the CenterX property of a 3D rotation transform. The CenterX property specifies the x-coordinate of the point about which the rotation is performed. The default value is zero.helpviewer_keywords: ["IDCompositionRotateTransform3D interface [DirectComposition]","SetCenterX method","IDCompositionRotateTransform3D.SetCenterX","IDCompositionRotateTransform3D::SetCenterX","IDCompositionRotateTransform3D::SetCenterX(float)","SetCenterX","SetCenterX method [DirectComposition]","SetCenterX method [DirectComposition]","IDCompositionRotateTransform3D interface","dcomp/IDCompositionRotateTransform3D::SetCenterX","directcomp.idcompositionrotatetransform3d_setcenterx_float"]
 old-location: directcomp\idcompositionrotatetransform3d_setcenterx_float.htm
 tech.root: directcomp
 ms.assetid: 669A3002-23C0-44FA-ABC9-B4AE1C8A2C81

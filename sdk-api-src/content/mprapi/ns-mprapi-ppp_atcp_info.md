@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._PPP_ATCP_INFO
 title: PPP_ATCP_INFO (mprapi.h)
-description: The PPP_ATCP_INFO structure contains the result of a PPP AppleTalk projection operation.
+description: The PPP_ATCP_INFO structure contains the result of a PPP AppleTalk projection operation.helpviewer_keywords: ["PPP_ATCP_INFO","PPP_ATCP_INFO structure [RAS]","_mpr_ppp_atcp_info","mprapi/PPP_ATCP_INFO","rras.ppp_atcp_info"]
 old-location: rras\ppp_atcp_info.htm
 tech.root: RRAS
 ms.assetid: 48d2404b-df8d-4ed0-9203-921474c88551

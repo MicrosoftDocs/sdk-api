@@ -1,7 +1,7 @@
 ---
 UID: NC:mswsock.LPFN_RIODEQUEUECOMPLETION
 title: LPFN_RIODEQUEUECOMPLETION
-description: Removes entries from an I/O completion queue for use with the Winsock registered I/O extensions.
+description: Removes entries from an I/O completion queue for use with the Winsock registered I/O extensions.helpviewer_keywords: ["LPFN_RIODEQUEUECOMPLETION"]
 old-location: 
 tech.root: WinSock
 ms.assetid: 658729C0-2963-45F0-B616-01372A7144D1

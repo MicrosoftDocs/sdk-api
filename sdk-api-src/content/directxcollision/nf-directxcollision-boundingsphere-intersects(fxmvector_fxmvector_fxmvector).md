@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR)
 title: BoundingSphere::Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR)
-description: Tests the BoundingSphere for intersection with a triangle.
+description: Tests the BoundingSphere for intersection with a triangle.helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","Intersects method","BoundingSphere.Intersects","BoundingSphere.Intersects(FXMVECTOR","FXMVECTOR","FXMVECTOR)","BoundingSphere.Intersects(XMVECTOR","XMVECTOR","XMVECTOR)","BoundingSphere::Intersects","BoundingSphere::Intersects(FXMVECTOR","FXMVECTOR","FXMVECTOR)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingSphere interface","dxmath.boundingsphere_intersects_3"]
 old-location: dxmath\boundingsphere_intersects_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.Intersects(XMVECTOR,XMVECTOR,XMVECTOR)

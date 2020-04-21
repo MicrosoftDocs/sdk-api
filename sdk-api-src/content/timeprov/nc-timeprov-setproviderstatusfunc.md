@@ -1,7 +1,7 @@
 ---
 UID: NC:timeprov.SetProviderStatusFunc
 title: SetProviderStatusFunc (timeprov.h)
-description: Sets the time provider's status information.
+description: Sets the time provider's status information.helpviewer_keywords: ["SetProviderStatusFunc","SetProviderStatusFunc callback","SetProviderStatusFunc callback function","_win32_setproviderstatusfunc","base.setproviderstatusfunc","timeprov/SetProviderStatusFunc"]
 old-location: base\setproviderstatusfunc.htm
 tech.root: SysInfo
 ms.assetid: e52dd1d3-081a-4fcc-85d9-a1dcef0e8011

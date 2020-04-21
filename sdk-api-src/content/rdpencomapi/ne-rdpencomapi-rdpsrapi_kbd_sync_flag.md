@@ -1,7 +1,7 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0011
 title: RDPSRAPI_KBD_SYNC_FLAG (rdpencomapi.h)
-description: Defines values for the type of keys that control the state of a keyboard, such as the Caps Lock key.
+description: Defines values for the type of keys that control the state of a keyboard, such as the Caps Lock key.helpviewer_keywords: ["RDPSRAPI_KBD_SYNC_FLAG","RDPSRAPI_KBD_SYNC_FLAG enumeration [RDP]","RDPSRAPI_KBD_SYNC_FLAG_CAPS_LOCK","RDPSRAPI_KBD_SYNC_FLAG_KANA_LOCK","RDPSRAPI_KBD_SYNC_FLAG_NUM_LOCK","RDPSRAPI_KBD_SYNC_FLAG_SCROLL_LOCK","rdp.rdpsrapi_kbd_sync_flag","rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG","rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_CAPS_LOCK","rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_KANA_LOCK","rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_NUM_LOCK","rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_SCROLL_LOCK"]
 old-location: rdp\rdpsrapi_kbd_sync_flag.htm
 tech.root: rdp
 ms.assetid: 0E16C482-E7D7-4477-B5B2-830D8CD9012A

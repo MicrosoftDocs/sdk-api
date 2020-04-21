@@ -1,7 +1,7 @@
 ---
 UID: NF:coml2api.StgIsStorageILockBytes
 title: StgIsStorageILockBytes function (coml2api.h)
-description: The StgIsStorageILockBytes function indicates whether the specified byte array contains a storage object.
+description: The StgIsStorageILockBytes function indicates whether the specified byte array contains a storage object.helpviewer_keywords: ["StgIsStorageILockBytes","StgIsStorageILockBytes function [Structured Storage]","_stg_stgisstorageilockbytes","coml2api/StgIsStorageILockBytes","stg.stgisstorageilockbytes"]
 old-location: stg\stgisstorageilockbytes.htm
 tech.root: Stg
 ms.assetid: ce0e29fd-1b21-4064-8e37-1a5d5df8bb61

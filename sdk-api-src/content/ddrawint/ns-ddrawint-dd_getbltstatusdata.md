@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_GETBLTSTATUSDATA
 title: DD_GETBLTSTATUSDATA (ddrawint.h)
-description: The DD_GETBLTSTATUSDATA structure returns the blit status information.
+description: The DD_GETBLTSTATUSDATA structure returns the blit status information.helpviewer_keywords: ["*PDD_GETBLTSTATUSDATA","DD_GETBLTSTATUSDATA","DD_GETBLTSTATUSDATA structure [Display Devices]","ddrawint/DD_GETBLTSTATUSDATA","ddstrcts_fec10d7e-ffc0-4368-8cd8-e1028ac7874d.xml","display.dd_getbltstatusdata"]
 old-location: display\dd_getbltstatusdata.htm
 tech.root: display
 ms.assetid: 16b0cac9-af8c-4106-b74e-6c9ada543851

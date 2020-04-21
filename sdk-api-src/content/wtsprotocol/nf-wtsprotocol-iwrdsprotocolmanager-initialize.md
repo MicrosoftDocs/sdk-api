@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.Initialize
 title: IWRdsProtocolManager::Initialize (wtsprotocol.h)
-description: Initializes the protocol manager.
+description: Initializes the protocol manager.helpviewer_keywords: ["IWRdsProtocolManager interface [Remote Desktop Services]","Initialize method","IWRdsProtocolManager.Initialize","IWRdsProtocolManager::Initialize","Initialize","Initialize method [Remote Desktop Services]","Initialize method [Remote Desktop Services]","IWRdsProtocolManager interface","termserv.iwrdsprotocolmanager_initialize","wtsprotocol/IWRdsProtocolManager::Initialize"]
 old-location: termserv\iwrdsprotocolmanager_initialize.htm
 tech.root: TermServ
 ms.assetid: c63c794c-41a0-4f07-be93-ba24dc156ca2

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.TakePhoto
 title: IMFCaptureEngine::TakePhoto (mfcaptureengine.h)
-description: Captures a still image from the video stream.
+description: Captures a still image from the video stream.helpviewer_keywords: ["IMFCaptureEngine interface [Media Foundation]","TakePhoto method","IMFCaptureEngine.TakePhoto","IMFCaptureEngine::TakePhoto","TakePhoto","TakePhoto method [Media Foundation]","TakePhoto method [Media Foundation]","IMFCaptureEngine interface","mf.imfcaptureengine_takephoto","mfcaptureengine/IMFCaptureEngine::TakePhoto"]
 old-location: mf\imfcaptureengine_takephoto.htm
 tech.root: medfound
 ms.assetid: 6E633E90-9C8B-44B6-9149-704872143147

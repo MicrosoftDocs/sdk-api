@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcMgmtEnableIdleCleanup
 title: RpcMgmtEnableIdleCleanup function (rpcdce.h)
-description: The RpcMgmtEnableIdleCleanup function enables RPC to close idle resources, such as network connections, on the client.
+description: The RpcMgmtEnableIdleCleanup function enables RPC to close idle resources, such as network connections, on the client.helpviewer_keywords: ["RpcMgmtEnableIdleCleanup","RpcMgmtEnableIdleCleanup function [RPC]","_rpc_rpcmgmtenableidlecleanup","rpc.rpcmgmtenableidlecleanup","rpcdce/RpcMgmtEnableIdleCleanup"]
 old-location: rpc\rpcmgmtenableidlecleanup.htm
 tech.root: Rpc
 ms.assetid: f24bf105-2cdb-4efa-b095-8479545fecb5

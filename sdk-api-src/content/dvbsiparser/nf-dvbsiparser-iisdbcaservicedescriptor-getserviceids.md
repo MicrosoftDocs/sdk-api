@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetServiceIds
 title: IIsdbCAServiceDescriptor::GetServiceIds (dvbsiparser.h)
-description: Gets the service identifier (ID) records from a conditional access (CA) service descriptor.
+description: Gets the service identifier (ID) records from a conditional access (CA) service descriptor.helpviewer_keywords: ["GetServiceIds","GetServiceIds method [Microsoft TV Technologies]","GetServiceIds method [Microsoft TV Technologies]","IIsdbCAServiceDescriptor interface","IIsdbCAServiceDescriptor interface [Microsoft TV Technologies]","GetServiceIds method","IIsdbCAServiceDescriptor.GetServiceIds","IIsdbCAServiceDescriptor::GetServiceIds","dvbsiparser/IIsdbCAServiceDescriptor::GetServiceIds","mstv.iisdbcaservicedescriptor_getserviceids"]
 old-location: mstv\iisdbcaservicedescriptor_getserviceids.htm
 tech.root: mstv
 ms.assetid: f2a6d1f2-2cd5-4f8c-97e1-33880ffb0449

@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.SetWindowThemeNonClientAttributes
 title: SetWindowThemeNonClientAttributes function (uxtheme.h)
-description: Sets non-client attributes to control how visual styles are applied to a specified window.
+description: Sets non-client attributes to control how visual styles are applied to a specified window.helpviewer_keywords: ["SetWindowThemeNonClientAttributes","SetWindowThemeNonClientAttributes function [Windows Controls]","_shell_SetWindowThemeNonClientAttributes","_shell_SetWindowThemeNonClientAttributes_cpp","controls.SetWindowThemeNonClientAttributes","controls._shell_SetWindowThemeNonClientAttributes","uxtheme/SetWindowThemeNonClientAttributes"]
 old-location: controls\SetWindowThemeNonClientAttributes.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowthemenonclientattributes.htm

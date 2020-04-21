@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPDevice.IconURL
 title: IUPnPDevice::IconURL (upnp.h)
-description: The IconURL method returns a URL from which an icon of the specified format can be loaded.
+description: The IconURL method returns a URL from which an icon of the specified format can be loaded.helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","IconURL method","IUPnPDevice.IconURL","IUPnPDevice::IconURL","IconURL","IconURL method [UPnP APIs]","IconURL method [UPnP APIs]","IUPnPDevice interface","_upnp_iupnpdevice_iconurl","upnp.iupnpdevice_iconurl","upnp/IUPnPDevice::IconURL"]
 old-location: upnp\iupnpdevice_iconurl.htm
 tech.root: upnp
 ms.assetid: 17b3d4f1-a51a-42f9-8fc0-4156d4975889

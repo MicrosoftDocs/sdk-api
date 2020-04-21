@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetTemporaryStoreLocation
 title: ITargetInfo::SetTemporaryStoreLocation (wcmconfig.h)
-description: Sets the current temporary store location.
+description: Sets the current temporary store location.helpviewer_keywords: ["ITargetInfo interface [SMI]","SetTemporaryStoreLocation method","ITargetInfo.SetTemporaryStoreLocation","ITargetInfo::SetTemporaryStoreLocation","SetTemporaryStoreLocation","SetTemporaryStoreLocation method [SMI]","SetTemporaryStoreLocation method [SMI]","ITargetInfo interface","smi.itargetinfo_settemporarystorelocation","wcmconfig/ITargetInfo::SetTemporaryStoreLocation"]
 old-location: smi\itargetinfo_settemporarystorelocation.htm
 tech.root: SMI
 ms.assetid: ef2b6983-02ff-488a-99ef-9976d76f51b5

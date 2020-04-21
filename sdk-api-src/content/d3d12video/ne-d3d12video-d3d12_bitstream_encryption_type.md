@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12video.D3D12_BITSTREAM_ENCRYPTION_TYPE
 title: D3D12_BITSTREAM_ENCRYPTION_TYPE
-description: Specifies a bitstream encryption type.
+description: Specifies a bitstream encryption type.helpviewer_keywords: ["D3D12_BITSTREAM_ENCRYPTION_TYPE","D3D12_BITSTREAM_ENCRYPTION_TYPE",""]
 tech.root: mf
 ms.assetid: 54de4ba4-fa73-4d1b-9d57-86387bbb90b0
 ms.date: 05/28/2019

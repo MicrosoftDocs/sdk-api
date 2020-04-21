@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncChange.GetFlags
 title: ISyncChange::GetFlags (winsync.h)
-description: Gets flags that are associated with this change.
+description: Gets flags that are associated with this change.helpviewer_keywords: ["GetFlags","GetFlags method [Windows Sync]","GetFlags method [Windows Sync]","ISyncChange interface","ISyncChange interface [Windows Sync]","GetFlags method","ISyncChange.GetFlags","ISyncChange::GetFlags","winsync.isyncchange_getflags","winsync/ISyncChange::GetFlags"]
 old-location: winsync\isyncchange_getflags.htm
 tech.root: winsync
 ms.assetid: de0509a4-550b-49f2-a850-fc1bd57b60cd

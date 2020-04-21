@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetDigestMethod
 title: IOpcSignaturePartReference::GetDigestMethod (msopc.h)
-description: Gets the digest method to use on part content of the referenced part when the part is signed.
+description: Gets the digest method to use on part content of the referenced part when the part is signed.helpviewer_keywords: ["GetDigestMethod","GetDigestMethod method [Open Packaging Conventions]","GetDigestMethod method [Open Packaging Conventions]","IOpcSignaturePartReference interface","IOpcSignaturePartReference interface [Open Packaging Conventions]","GetDigestMethod method","IOpcSignaturePartReference.GetDigestMethod","IOpcSignaturePartReference::GetDigestMethod","msopc/IOpcSignaturePartReference::GetDigestMethod","opc.iopcsignaturepartreference_getdigestmethod"]
 old-location: opc\iopcsignaturepartreference_getdigestmethod.htm
 tech.root: OPC
 ms.assetid: 750aec1a-92b4-4c70-8c17-c15c9536bc41

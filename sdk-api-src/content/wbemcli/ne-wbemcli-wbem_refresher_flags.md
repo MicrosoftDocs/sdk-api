@@ -1,7 +1,7 @@
 ---
 UID: NE:wbemcli.tag_WBEM_REFRESHER_FLAGS
 title: WBEM_REFRESHER_FLAGS (wbemcli.h)
-description: Contains flags that modify the behavior of refresher methods.
+description: Contains flags that modify the behavior of refresher methods.helpviewer_keywords: ["WBEM_FLAG_REFRESH_AUTO_RECONNECT","WBEM_FLAG_REFRESH_NO_AUTO_RECONNECT","WBEM_REFRESHER_FLAGS","WBEM_REFRESHER_FLAGS enumeration [Windows Management Instrumentation]","wbemcli/WBEM_FLAG_REFRESH_AUTO_RECONNECT","wbemcli/WBEM_FLAG_REFRESH_NO_AUTO_RECONNECT","wbemcli/WBEM_REFRESHER_FLAGS","wmi.wbem_refresher_flags"]
 old-location: wmi\wbem_refresher_flags.htm
 tech.root: WmiSdk
 ms.assetid: F855478C-BF26-46B1-B3F8-9DD5E8F05862

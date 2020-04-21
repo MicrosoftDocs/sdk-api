@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTGetDescriptors
 title: BluetoothGATTGetDescriptors function (bluetoothleapis.h)
-description: Gets all the descriptors available for the specified characteristic.
+description: Gets all the descriptors available for the specified characteristic.helpviewer_keywords: ["BluetoothGATTGetDescriptors","BluetoothGATTGetDescriptors function [Bluetooth Devices]","bltooth.bluetoothgattgetdescriptors","bluetoothleapis/BluetoothGATTGetDescriptors"]
 old-location: bltooth\bluetoothgattgetdescriptors.htm
 tech.root: bltooth
 ms.assetid: C4D51362-5D4E-45CC-8E29-10B201B5673C

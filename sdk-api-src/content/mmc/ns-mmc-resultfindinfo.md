@@ -1,7 +1,7 @@
 ---
 UID: NS:mmc._RESULTFINDINFO
 title: RESULTFINDINFO (mmc.h)
-description: Used by the IResultOwnerData::FindItem method to support keyboard navigation in virtual lists in the result pane.
+description: Used by the IResultOwnerData::FindItem method to support keyboard navigation in virtual lists in the result pane.helpviewer_keywords: ["*LPRESULTFINDINFO","LPRESULTFINDINFO","LPRESULTFINDINFO structure pointer [MMC]","RESULTFINDINFO","RESULTFINDINFO structure [MMC]","RFI_PARTIAL","RFI_WRAP","_slate_resultfindinfo","mmc.resultfindinfo","mmc/LPRESULTFINDINFO","mmc/RESULTFINDINFO"]
 old-location: mmc\resultfindinfo.htm
 tech.root: mmc
 ms.assetid: e52c3437-45ac-4397-ab8f-70bc4d5f44f5

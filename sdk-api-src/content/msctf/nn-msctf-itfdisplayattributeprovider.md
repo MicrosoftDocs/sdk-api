@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfDisplayAttributeProvider
 title: ITfDisplayAttributeProvider (msctf.h)
-description: The ITfDisplayAttributeProvider interface is implemented by a text service and is used by the TSF manager to enumerate and obtain individual display attribute information objects.
+description: The ITfDisplayAttributeProvider interface is implemented by a text service and is used by the TSF manager to enumerate and obtain individual display attribute information objects.helpviewer_keywords: ["ITfDisplayAttributeProvider","ITfDisplayAttributeProvider interface [Text Services Framework]","ITfDisplayAttributeProvider interface [Text Services Framework]","described","_tsf_itfdisplayattributeprovider_ref","msctf/ITfDisplayAttributeProvider","tsf.itfdisplayattributeprovider"]
 old-location: tsf\itfdisplayattributeprovider.htm
 tech.root: TSF
 ms.assetid: c0346d5e-d4a2-4c72-90be-de5ff1681acd

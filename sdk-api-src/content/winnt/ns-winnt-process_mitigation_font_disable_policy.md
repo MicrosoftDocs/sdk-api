@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_FONT_DISABLE_POLICY
 title: PROCESS_MITIGATION_FONT_DISABLE_POLICY (winnt.h)
-description: Contains process mitigation policy settings for the loading of non-system fonts.
+description: Contains process mitigation policy settings for the loading of non-system fonts.helpviewer_keywords: ["*PPROCESS_MITIGATION_FONT_DISABLE_POLICY","PPROCESS_MITIGATION_FONT_DISABLE_POLICY","PPROCESS_MITIGATION_FONT_DISABLE_POLICY structure pointer","PROCESS_MITIGATION_FONT_DISABLE_POLICY","PROCESS_MITIGATION_FONT_DISABLE_POLICY structure","base.process_mitigation_font_disable_policy","winnt/PPROCESS_MITIGATION_FONT_DISABLE_POLICY","winnt/PROCESS_MITIGATION_FONT_DISABLE_POLICY"]
 old-location: base\process_mitigation_font_disable_policy.htm
 tech.root: ProcThread
 ms.assetid: 7DDBEDEC-55F4-4DEA-8FFD-EA128FAA1A9B

@@ -1,7 +1,7 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIVirtualChannelManager
 title: IRDPSRAPIVirtualChannelManager (rdpencomapi.h)
-description: Manages the list of virtual channels.
+description: Manages the list of virtual channels.helpviewer_keywords: ["IRDPSRAPIVirtualChannelManager","IRDPSRAPIVirtualChannelManager interface [RDP]","IRDPSRAPIVirtualChannelManager interface [RDP]","described","rdp.irdpsrapivirtualchannelmanager","rdpencomapi/IRDPSRAPIVirtualChannelManager"]
 old-location: rdp\irdpsrapivirtualchannelmanager.htm
 tech.root: rdp
 ms.assetid: 750e7d98-196f-4bf2-864b-50b3bef6f6ad

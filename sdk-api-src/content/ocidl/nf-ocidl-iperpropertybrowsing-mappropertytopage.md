@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPerPropertyBrowsing.MapPropertyToPage
 title: IPerPropertyBrowsing::MapPropertyToPage (ocidl.h)
-description: Retrieves the CLSID of the property page associated with the specified property.
+description: Retrieves the CLSID of the property page associated with the specified property.helpviewer_keywords: ["IPerPropertyBrowsing interface [COM]","MapPropertyToPage method","IPerPropertyBrowsing.MapPropertyToPage","IPerPropertyBrowsing::MapPropertyToPage","MapPropertyToPage","MapPropertyToPage method [COM]","MapPropertyToPage method [COM]","IPerPropertyBrowsing interface","_ctrl_iperpropertybrowsing_mappropertytopage","com.iperpropertybrowsing_mappropertytopage","ocidl/IPerPropertyBrowsing::MapPropertyToPage"]
 old-location: com\iperpropertybrowsing_mappropertytopage.htm
 tech.root: com
 ms.assetid: f8cf86eb-23d1-4aa6-859a-055df99b064c

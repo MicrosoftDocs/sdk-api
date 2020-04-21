@@ -1,7 +1,7 @@
 ---
 UID: NN:bits3_0.IBitsPeerCacheAdministration
 title: IBitsPeerCacheAdministration (bits3_0.h)
-description: Use IBitsPeerCacheAdministration to manage the pool of peers from which you can download content.
+description: Use IBitsPeerCacheAdministration to manage the pool of peers from which you can download content.helpviewer_keywords: ["IBitsPeerCacheAdministration","IBitsPeerCacheAdministration interface [BITS]","IBitsPeerCacheAdministration interface [BITS]","described","bits.ibitspeercacheadministration","bits3_0/IBitsPeerCacheAdministration"]
 old-location: bits\ibitspeercacheadministration.htm
 tech.root: Bits
 ms.assetid: 5fa30b4e-f13c-4341-af65-a2e3d2703b96

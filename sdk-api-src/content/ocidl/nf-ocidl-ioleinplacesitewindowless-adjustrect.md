@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.AdjustRect
 title: IOleInPlaceSiteWindowless::AdjustRect (ocidl.h)
-description: Adjusts a specified rectangle if it is entirely or partially covered by overlapping, opaque objects.
+description: Adjusts a specified rectangle if it is entirely or partially covered by overlapping, opaque objects.helpviewer_keywords: ["AdjustRect","AdjustRect method [COM]","AdjustRect method [COM]","IOleInPlaceSiteWindowless interface","IOleInPlaceSiteWindowless interface [COM]","AdjustRect method","IOleInPlaceSiteWindowless.AdjustRect","IOleInPlaceSiteWindowless::AdjustRect","_ole_ioleinplacesitewindowless_adjustrect","com.ioleinplacesitewindowless_adjustrect","ocidl/IOleInPlaceSiteWindowless::AdjustRect"]
 old-location: com\ioleinplacesitewindowless_adjustrect.htm
 tech.root: com
 ms.assetid: 36fa395d-09b2-474d-85ae-5a22d25e88eb

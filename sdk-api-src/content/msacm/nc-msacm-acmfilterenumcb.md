@@ -1,7 +1,7 @@
 ---
 UID: NC:msacm.ACMFILTERENUMCB
 title: ACMFILTERENUMCB (msacm.h)
-description: The acmFilterEnumCallback function specifies a callback function used with the acmFilterEnum function. The acmFilterEnumCallback name is a placeholder for an application-defined function name.
+description: The acmFilterEnumCallback function specifies a callback function used with the acmFilterEnum function. The acmFilterEnumCallback name is a placeholder for an application-defined function name.helpviewer_keywords: ["ACMFILTERENUMCB","ACMFILTERENUMCB callback","ACMFILTERENUMCB callback function [Windows Multimedia]","ACMFILTERENUMCBA","ACMFILTERENUMCBW","_win32_acmFilterEnumCallback","acmFilterEnumCallback","msacm/ACMFILTERENUMCB","msacm/ACMFILTERENUMCBA","msacm/ACMFILTERENUMCBW","multimedia.acmfilterenumcallback"]
 old-location: multimedia\acmfilterenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 8d2eb1eb-97a3-4001-bec0-7bb9b107d38e

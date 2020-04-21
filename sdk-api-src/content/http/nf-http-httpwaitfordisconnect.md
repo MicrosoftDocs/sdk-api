@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpWaitForDisconnect
 title: HttpWaitForDisconnect function (http.h)
-description: Notifies the application when the connection to an HTTP client is broken for any reason.
+description: Notifies the application when the connection to an HTTP client is broken for any reason.helpviewer_keywords: ["HttpWaitForDisconnect","HttpWaitForDisconnect function [HTTP]","_http_httpwaitfordisconnect","http.httpwaitfordisconnect","http/HttpWaitForDisconnect"]
 old-location: http\httpwaitfordisconnect.htm
 tech.root: http
 ms.assetid: 1f1c16c1-43ef-4e29-8d3d-8592ce6a6bf0

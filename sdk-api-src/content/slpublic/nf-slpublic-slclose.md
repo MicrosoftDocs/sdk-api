@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLClose
 title: SLClose function (slpublic.h)
-description: Closes the Software Licensing Client (SLC) context handle.
+description: Closes the Software Licensing Client (SLC) context handle.helpviewer_keywords: ["SLClose","SLClose function [Security]","security.slclose","slpublic/SLClose"]
 old-location: security\slclose.htm
 tech.root: SecSLApi
 ms.assetid: a2483fa2-cdd6-48b8-861f-34fd5efc34df

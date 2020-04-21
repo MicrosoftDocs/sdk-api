@@ -1,7 +1,7 @@
 ---
 UID: NE:mfidl._MF_QUALITY_DROP_MODE
 title: MF_QUALITY_DROP_MODE (mfidl.h)
-description: Specifies how aggressively a pipeline component should drop samples.
+description: Specifies how aggressively a pipeline component should drop samples.helpviewer_keywords: ["MF_DROP_MODE_1","MF_DROP_MODE_2","MF_DROP_MODE_3","MF_DROP_MODE_4","MF_DROP_MODE_5","MF_DROP_MODE_NONE","MF_NUM_DROP_MODES","MF_QUALITY_DROP_MODE","MF_QUALITY_DROP_MODE enumeration [Media Foundation]","e40751d2-9abf-4fe6-8829-9b1fbf4531e8","mf.mf_quality_drop_mode","mfidl/MF_DROP_MODE_1","mfidl/MF_DROP_MODE_2","mfidl/MF_DROP_MODE_3","mfidl/MF_DROP_MODE_4","mfidl/MF_DROP_MODE_5","mfidl/MF_DROP_MODE_NONE","mfidl/MF_NUM_DROP_MODES","mfidl/MF_QUALITY_DROP_MODE"]
 old-location: mf\mf_quality_drop_mode.htm
 tech.root: medfound
 ms.assetid: e40751d2-9abf-4fe6-8829-9b1fbf4531e8

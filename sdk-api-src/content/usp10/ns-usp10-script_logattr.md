@@ -1,7 +1,7 @@
 ---
 UID: NS:usp10.tag_SCRIPT_LOGATTR
 title: SCRIPT_LOGATTR (usp10.h)
-description: Contains attributes of logical characters that are useful when editing and formatting text.
+description: Contains attributes of logical characters that are useful when editing and formatting text.helpviewer_keywords: ["FALSE","SCRIPT_LOGATTR","SCRIPT_LOGATTR structure [Internationalization for Windows Applications]","TRUE","_win32_SCRIPT_LOGATTR_str","intl.script_logattr","usp10/SCRIPT_LOGATTR"]
 old-location: intl\script_logattr.htm
 tech.root: Intl
 ms.assetid: 24131b04-870a-4841-b9cd-7a09497bd2e6

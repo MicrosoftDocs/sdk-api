@@ -1,7 +1,7 @@
 ---
 UID: NS:dxmini._DDFLIPOVERLAYINFO
 title: DDFLIPOVERLAYINFO (dxmini.h)
-description: The DDFLIPOVERLAYINFO structure contains the flip information for the surface.
+description: The DDFLIPOVERLAYINFO structure contains the flip information for the surface.helpviewer_keywords: ["*PDDFLIPOVERLAYINFO","DDFLIPOVERLAYINFO","DDFLIPOVERLAYINFO structure [Display Devices]","PDDFLIPOVERLAYINFO","PDDFLIPOVERLAYINFO structure pointer [Display Devices]","Video_Structs_c9d5aaff-82e8-482e-b774-6c14f0fa8610.xml","display.ddflipoverlayinfo","dxmini/DDFLIPOVERLAYINFO","dxmini/PDDFLIPOVERLAYINFO"]
 old-location: display\ddflipoverlayinfo.htm
 tech.root: display
 ms.assetid: 04e4baba-4b6c-4f0a-8197-1fb2d83f53d6

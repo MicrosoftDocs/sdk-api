@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.SetCellShading
 title: ITextRow::SetCellShading (tom.h)
-description: Sets the shading of the active cell.
+description: Sets the shading of the active cell.helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetCellShading method","ITextRow.SetCellShading","ITextRow::SetCellShading","SetCellShading","SetCellShading method [Windows Controls]","SetCellShading method [Windows Controls]","ITextRow interface","controls.itextrow_setcellshading","tom/ITextRow::SetCellShading"]
 old-location: controls\itextrow_setcellshading.htm
 tech.root: Controls
 ms.assetid: 9163a9a3-6f8c-4318-a5a1-4b00a9037f6a

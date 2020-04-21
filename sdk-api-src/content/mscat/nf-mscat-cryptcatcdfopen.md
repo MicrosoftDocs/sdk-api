@@ -1,7 +1,7 @@
 ---
 UID: NF:mscat.CryptCATCDFOpen
 title: CryptCATCDFOpen function (mscat.h)
-description: Opens an existing catalog definition file (CDF) for reading and initializes a CRYPTCATCDF structure.
+description: Opens an existing catalog definition file (CDF) for reading and initializes a CRYPTCATCDF structure.helpviewer_keywords: ["CryptCATCDFOpen","CryptCATCDFOpen function [Security]","mscat/CryptCATCDFOpen","security.cryptcatcdfopen"]
 old-location: security\cryptcatcdfopen.htm
 tech.root: SecCrypto
 ms.assetid: d400d8bd-c0a0-41dc-9093-8e4fc758d82f

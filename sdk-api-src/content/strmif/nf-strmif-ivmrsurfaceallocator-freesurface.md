@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocator.FreeSurface
 title: IVMRSurfaceAllocator::FreeSurface (strmif.h)
-description: The FreeSurface method frees the allocated DirectDraw surface.
+description: The FreeSurface method frees the allocated DirectDraw surface.helpviewer_keywords: ["FreeSurface","FreeSurface method [DirectShow]","FreeSurface method [DirectShow]","IVMRSurfaceAllocator interface","IVMRSurfaceAllocator interface [DirectShow]","FreeSurface method","IVMRSurfaceAllocator.FreeSurface","IVMRSurfaceAllocator::FreeSurface","IVMRSurfaceAllocatorFreeSurface","dshow.ivmrsurfaceallocator_freesurface","strmif/IVMRSurfaceAllocator::FreeSurface"]
 old-location: dshow\ivmrsurfaceallocator_freesurface.htm
 tech.root: DirectShow
 ms.assetid: 7b00d32c-832f-439f-8da5-7e77f90e1510

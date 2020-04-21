@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.DoesRequireFixedSize
 title: IWICMetadataHandlerInfo::DoesRequireFixedSize (wincodecsdk.h)
-description: Determines if the metadata handler requires a fixed size.
+description: Determines if the metadata handler requires a fixed size.helpviewer_keywords: ["DoesRequireFixedSize","DoesRequireFixedSize method [Windows Imaging Component]","DoesRequireFixedSize method [Windows Imaging Component]","IWICMetadataHandlerInfo interface","IWICMetadataHandlerInfo interface [Windows Imaging Component]","DoesRequireFixedSize method","IWICMetadataHandlerInfo.DoesRequireFixedSize","IWICMetadataHandlerInfo::DoesRequireFixedSize","_wic_codec_iwicmetadatahandlerinfo_doesrequirefixedsize","wic._wic_codec_iwicmetadatahandlerinfo_doesrequirefixedsize","wincodecsdk/IWICMetadataHandlerInfo::DoesRequireFixedSize"]
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_doesrequirefixedsize.htm
 tech.root: wic
 ms.assetid: 522294c5-e424-40cf-b982-275198e705dc

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.XMCOLOR
 title: XMCOLOR::XMCOLOR (directxpackedvector.h)
-description: Default constructor for XMCOLOR.
+description: Default constructor for XMCOLOR.helpviewer_keywords: ["XMCOLOR","XMCOLOR constructor [DirectX Math Support APIs]","XMCOLOR constructor [DirectX Math Support APIs]","XMCOLOR structure","XMCOLOR structure [DirectX Math Support APIs]","XMCOLOR constructor","XMCOLOR.XMCOLOR","XMCOLOR.XMCOLOR()","XMCOLOR::XMCOLOR","dxmath.xmcolor_ctor_1"]
 old-location: dxmath\xmcolor_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.#ctor

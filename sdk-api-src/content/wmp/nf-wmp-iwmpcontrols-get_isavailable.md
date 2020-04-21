@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPControls.get_isAvailable
 title: IWMPControls::get_isAvailable (wmp.h)
-description: The get_isAvailable method indicates whether a specified type of information is available or a specified action can be performed.
+description: The get_isAvailable method indicates whether a specified type of information is available or a specified action can be performed.helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","get_isAvailable method","IWMPControls.get_isAvailable","IWMPControls::get_isAvailable","IWMPControlsget_isAvailable","get_isAvailable","get_isAvailable method [Windows Media Player]","get_isAvailable method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_get_isavailable","wmp/IWMPControls::get_isAvailable"]
 old-location: wmp\iwmpcontrols_get_isavailable.htm
 tech.root: WMP
 ms.assetid: 702e09f2-e086-45e3-9ae1-b62ec3e9561f

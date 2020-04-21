@@ -1,7 +1,7 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.Notify
 title: IWMPContentPartnerCallback::Notify (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.
+description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPContentPartnerCallback interface [Windows Media Player]","Notify method","IWMPContentPartnerCallback.Notify","IWMPContentPartnerCallback::Notify","IWMPContentPartnerCallbackNotify","Notify","Notify method [Windows Media Player]","Notify method [Windows Media Player]","IWMPContentPartnerCallback interface","contentpartner/IWMPContentPartnerCallback::Notify","wmp.iwmpcontentpartnercallback_notify"]
 old-location: wmp\iwmpcontentpartnercallback_notify.htm
 tech.root: WMP
 ms.assetid: e8402662-7e14-4be7-bc2d-45338bf2a226

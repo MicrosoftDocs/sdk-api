@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.CreateObjectFromURL
 title: IMFSourceResolver::CreateObjectFromURL (mfidl.h)
-description: Creates a media source or a byte stream from a URL. This method is synchronous.
+description: Creates a media source or a byte stream from a URL. This method is synchronous.helpviewer_keywords: ["CreateObjectFromURL","CreateObjectFromURL method [Media Foundation]","CreateObjectFromURL method [Media Foundation]","IMFSourceResolver interface","IMFSourceResolver interface [Media Foundation]","CreateObjectFromURL method","IMFSourceResolver.CreateObjectFromURL","IMFSourceResolver::CreateObjectFromURL","b8f751b1-6456-4d67-839d-ecfa388e8d71","mf.imfsourceresolver_createobjectfromurl","mfidl/IMFSourceResolver::CreateObjectFromURL"]
 old-location: mf\imfsourceresolver_createobjectfromurl.htm
 tech.root: medfound
 ms.assetid: b8f751b1-6456-4d67-839d-ecfa388e8d71

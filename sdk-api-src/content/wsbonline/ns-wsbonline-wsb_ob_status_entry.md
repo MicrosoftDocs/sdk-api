@@ -1,7 +1,7 @@
 ---
 UID: NS:wsbonline._WSB_OB_STATUS_ENTRY
 title: WSB_OB_STATUS_ENTRY (wsbonline.h)
-description: Contains status information for one entry to be shown in the Windows Server Backup MMC snap-in.
+description: Contains status information for one entry to be shown in the Windows Server Backup MMC snap-in.helpviewer_keywords: ["WSB_OB_STATUS_ENTRY","WSB_OB_STATUS_ENTRY structure [Windows Server Backup]","wsb.wsb_ob_status_entry","wsbonline/WSB_OB_STATUS_ENTRY"]
 old-location: wsb\wsb_ob_status_entry.htm
 tech.root: wsb
 ms.assetid: BFC13B54-60F3-43A1-B464-D09DD96F57FA

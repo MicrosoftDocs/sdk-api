@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMStoreFloat4x3A
 title: XMStoreFloat4x3A function (directxmath.h)
-description: Stores an XMVECTOR in an XMFLOAT4X3A.
+description: Stores an XMVECTOR in an XMFLOAT4X3A.helpviewer_keywords: ["Use DirectX..XMStoreFloat4x3A","XMStoreFloat4x3A","XMStoreFloat4x3A method [DirectX Math Support APIs]","dxmath.xmstorefloat4x3a"]
 old-location: dxmath\xmstorefloat4x3a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat4x3A(XMFLOAT4X3A@,XMMATRIX)

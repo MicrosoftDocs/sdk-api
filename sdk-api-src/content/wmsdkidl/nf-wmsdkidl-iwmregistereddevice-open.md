@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.Open
 title: IWMRegisteredDevice::Open (wmsdkidl.h)
-description: The Open method opens the device so that it can receive media data.
+description: The Open method opens the device so that it can receive media data.helpviewer_keywords: ["IWMRegisteredDevice interface [windows Media Format]","Open method","IWMRegisteredDevice.Open","IWMRegisteredDevice::Open","IWMRegisteredDeviceOpen","Open","Open method [windows Media Format]","Open method [windows Media Format]","IWMRegisteredDevice interface","wmformat.iwmregistereddevice_open","wmsdkidl/IWMRegisteredDevice::Open"]
 old-location: wmformat\iwmregistereddevice_open.htm
 tech.root: wmformat
 ms.assetid: 277f2724-5d82-4db7-96d9-af392b39fccf

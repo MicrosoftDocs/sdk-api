@@ -1,7 +1,7 @@
 ---
 UID: NS:usp10.script_glyphprop
 title: SCRIPT_GLYPHPROP (usp10.h)
-description: Contains information about a glyph that is part of an output glyph array.
+description: Contains information about a glyph that is part of an output glyph array.helpviewer_keywords: ["SCRIPT_GLYPHPROP","SCRIPT_GLYPHPROP structure [Internationalization for Windows Applications]","_win32_SCRIPT_GLYPHPROP","intl.script_glyphprop","usp10/SCRIPT_GLYPHPROP"]
 old-location: intl\script_glyphprop.htm
 tech.root: Intl
 ms.assetid: 5d68c8b6-77dd-48f7-b05a-0c02c9271097

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsnmp.SnmpDuplicatePdu
 title: SnmpDuplicatePdu function (winsnmp.h)
-description: The WinSNMP SnmpDuplicatePdu function duplicates the SNMP protocol data unit (PDU) that the PDU parameter identifies, allocating any necessary memory for the duplicate PDU.
+description: The WinSNMP SnmpDuplicatePdu function duplicates the SNMP protocol data unit (PDU) that the PDU parameter identifies, allocating any necessary memory for the duplicate PDU.helpviewer_keywords: ["SnmpDuplicatePdu","SnmpDuplicatePdu function [SNMP]","_snmp_snmpduplicatepdu","snmp.snmpduplicatepdu","winsnmp/SnmpDuplicatePdu"]
 old-location: snmp\snmpduplicatepdu.htm
 tech.root: SNMP
 ms.assetid: 4507cc9b-36a5-45bf-916d-9dc82ac381a5

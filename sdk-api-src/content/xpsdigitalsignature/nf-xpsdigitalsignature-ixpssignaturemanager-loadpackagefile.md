@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.LoadPackageFile
 title: IXpsSignatureManager::LoadPackageFile (xpsdigitalsignature.h)
-description: Loads an existing XPS package from a file into the digital signature manager.
+description: Loads an existing XPS package from a file into the digital signature manager.helpviewer_keywords: ["IXpsSignatureManager interface [XPS Documents and Packaging]","LoadPackageFile method","IXpsSignatureManager.LoadPackageFile","IXpsSignatureManager::LoadPackageFile","LoadPackageFile","LoadPackageFile method [XPS Documents and Packaging]","LoadPackageFile method [XPS Documents and Packaging]","IXpsSignatureManager interface","xps.ixpssignaturemanager_loadpackagefile","xpsdigitalsignature/IXpsSignatureManager::LoadPackageFile"]
 old-location: xps\ixpssignaturemanager_loadpackagefile.htm
 tech.root: printdocs
 ms.assetid: ecb33eee-4622-4a2e-bc24-7a77d16ef4a4

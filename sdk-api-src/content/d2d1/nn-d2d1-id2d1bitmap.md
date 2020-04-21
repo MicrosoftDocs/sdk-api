@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1Bitmap
 title: ID2D1Bitmap (d2d1.h)
-description: Represents a bitmap that has been bound to an ID2D1RenderTarget.
+description: Represents a bitmap that has been bound to an ID2D1RenderTarget.helpviewer_keywords: ["ID2D1Bitmap","ID2D1Bitmap interface [Direct2D]","ID2D1Bitmap interface [Direct2D]","described","d2d1/ID2D1Bitmap","direct2d.ID2D1Bitmap"]
 old-location: direct2d\ID2D1Bitmap.htm
 tech.root: Direct2D
 ms.assetid: e58216ea-e6b5-450f-a0ea-b879aa5dff38

@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IResultData.ModifyItemState
 title: IResultData::ModifyItemState (mmc.h)
-description: Enables the snap-in to modify the state of an item.
+description: Enables the snap-in to modify the state of an item.helpviewer_keywords: ["IResultData interface [MMC]","ModifyItemState method","IResultData.ModifyItemState","IResultData2 interface [MMC]","ModifyItemState method","IResultData2::ModifyItemState","IResultData::ModifyItemState","LVIS_CUT","LVIS_DROPHILITED","LVIS_FOCUSED","LVIS_SELECTED","ModifyItemState","ModifyItemState method [MMC]","ModifyItemState method [MMC]","IResultData interface","ModifyItemState method [MMC]","IResultData2 interface","_slate_iresultdata_modifyitemstate","mmc.iresultdata_modifyitemstate","mmc/IResultData2::ModifyItemState","mmc/IResultData::ModifyItemState"]
 old-location: mmc\iresultdata_modifyitemstate.htm
 tech.root: mmc
 ms.assetid: f7eb7a23-27e6-40f3-a2f3-139ad1d3cde0

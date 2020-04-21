@@ -1,7 +1,7 @@
 ---
 UID: NF:restartmanager.RmRegisterResources
 title: RmRegisterResources function (restartmanager.h)
-description: Registers resources to a Restart Manager session.
+description: Registers resources to a Restart Manager session.helpviewer_keywords: ["RmRegisterResources","RmRegisterResources function [Restart Mgr]","restartmanager/RmRegisterResources","rstmgr.rmregisterresources"]
 old-location: rstmgr\rmregisterresources.htm
 tech.root: rstmgr
 ms.assetid: 9ac94461-bf75-4517-b47e-23d82474efe8

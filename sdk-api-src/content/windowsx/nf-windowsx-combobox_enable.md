@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ComboBox_Enable
 title: ComboBox_Enable macro (windowsx.h)
-description: Enables or disables a combo box control.
+description: Enables or disables a combo box control.helpviewer_keywords: ["ComboBox_Enable","ComboBox_Enable macro [Windows Controls]","_win32_ComboBox_Enable","_win32_ComboBox_Enable_cpp","controls.ComboBox_Enable","controls._win32_ComboBox_Enable","windowsx/ComboBox_Enable"]
 old-location: controls\ComboBox_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_enable.htm

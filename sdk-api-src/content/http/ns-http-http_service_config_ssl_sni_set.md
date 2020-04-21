@@ -1,7 +1,7 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_SNI_SET
 title: HTTP_SERVICE_CONFIG_SSL_SNI_SET (http.h)
-description: Used to add a new Secure Sockets Layer (SSL) Server Name Indication (SNI) certificate record to the SSL SNI store or retrieve an existing record from it.
+description: Used to add a new Secure Sockets Layer (SSL) Server Name Indication (SNI) certificate record to the SSL SNI store or retrieve an existing record from it.helpviewer_keywords: ["*PHTTP_SERVICE_CONFIG_SSL_SNI_SET","HTTP_SERVICE_CONFIG_SSL_SNI_SET","HTTP_SERVICE_CONFIG_SSL_SNI_SET structure [HTTP]","PHTTP_SERVICE_CONFIG_SSL_SNI_SET","PHTTP_SERVICE_CONFIG_SSL_SNI_SET structure pointer [HTTP]","http.http_service_config_ssl_sni_set","http/HTTP_SERVICE_CONFIG_SSL_SNI_SET","http/PHTTP_SERVICE_CONFIG_SSL_SNI_SET"]
 old-location: http\http_service_config_ssl_sni_set.htm
 tech.root: http
 ms.assetid: 382838B9-C15E-459F-AC40-ECA15EFC18B8

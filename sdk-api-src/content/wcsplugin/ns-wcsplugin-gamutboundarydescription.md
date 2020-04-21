@@ -1,7 +1,7 @@
 ---
 UID: NS:wcsplugin._GamutBoundaryDescription
 title: GamutBoundaryDescription (wcsplugin.h)
-description: Defines a gamut boundary.
+description: Defines a gamut boundary.helpviewer_keywords: ["GamutBoundaryDescription","GamutBoundaryDescription structure [Windows Color System]","_color_GamutBoundaryDescription_str","wcs.gamutboundarydescription","wcsplugin/GamutBoundaryDescription"]
 old-location: wcs\gamutboundarydescription.htm
 tech.root: WCS
 ms.assetid: b7551967-ff2f-48ed-9346-a75e19fe2c31

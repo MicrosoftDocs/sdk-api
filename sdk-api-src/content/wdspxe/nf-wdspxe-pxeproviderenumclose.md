@@ -1,7 +1,7 @@
 ---
 UID: NF:wdspxe.PxeProviderEnumClose
 title: PxeProviderEnumClose function (wdspxe.h)
-description: Closes the enumeration of providers opened by the PxeProviderEnumFirst function.
+description: Closes the enumeration of providers opened by the PxeProviderEnumFirst function.helpviewer_keywords: ["PxeProviderEnumClose","PxeProviderEnumClose function [Windows Deployment Services]","wds.pxeproviderenumclose","wdspxe/PxeProviderEnumClose"]
 old-location: wds\pxeproviderenumclose.htm
 tech.root: wds
 ms.assetid: 6b71c2cf-a156-4ccb-be7c-2955b4db26a2

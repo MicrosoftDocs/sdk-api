@@ -1,7 +1,7 @@
 ---
 UID: NE:websocket._WEB_SOCKET_ACTION
 title: WEB_SOCKET_ACTION (websocket.h)
-description: Specifies actions to be taken by WebSocket applications.
+description: Specifies actions to be taken by WebSocket applications.helpviewer_keywords: ["*PWEB_SOCKET_ACTION","PWEB_SOCKET_ACTION","PWEB_SOCKET_ACTION enumeration pointer [Websocket Protocol Component API]","WEB_SOCKET_ACTION","WEB_SOCKET_ACTION enumeration [Websocket Protocol Component API]","WEB_SOCKET_INDICATE_RECEIVE_COMPLETE_ACTION","WEB_SOCKET_INDICATE_SEND_COMPLETE_ACTION","WEB_SOCKET_NO_ACTION","WEB_SOCKET_RECEIVE_FROM_NETWORK_ACTION","WEB_SOCKET_SEND_TO_NETWORK_ACTION","websock.web_socket_action","websocket/PWEB_SOCKET_ACTION","websocket/WEB_SOCKET_ACTION","websocket/WEB_SOCKET_INDICATE_RECEIVE_COMPLETE_ACTION","websocket/WEB_SOCKET_INDICATE_SEND_COMPLETE_ACTION","websocket/WEB_SOCKET_NO_ACTION","websocket/WEB_SOCKET_RECEIVE_FROM_NETWORK_ACTION","websocket/WEB_SOCKET_SEND_TO_NETWORK_ACTION"]
 old-location: websock\web_socket_action.htm
 tech.root: WebSock
 ms.assetid: 46d22fb5-adc3-4d1c-81b8-480f1c6de327

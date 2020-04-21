@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.IsValid
 title: ID3D10EffectVariable::IsValid (d3d10effect.h)
-description: Compare the data type with the data stored.
+description: Compare the data type with the data stored.helpviewer_keywords: ["ID3D10EffectVariable interface [Direct3D 10]","IsValid method","ID3D10EffectVariable.IsValid","ID3D10EffectVariable::IsValid","IsValid","IsValid method [Direct3D 10]","IsValid method [Direct3D 10]","ID3D10EffectVariable interface","b6f93adf-228e-7f53-1caf-9b813e3b0811","d3d10effect/ID3D10EffectVariable::IsValid","direct3d10.id3d10effectvariable_isvalid"]
 old-location: direct3d10\id3d10effectvariable_isvalid.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_isvalid.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetOrigin
 title: IXpsOMGlyphs::GetOrigin (xpsobjectmodel.h)
-description: Gets the starting position of the text.
+description: Gets the starting position of the text.helpviewer_keywords: ["GetOrigin","GetOrigin method [XPS Documents and Packaging]","GetOrigin method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetOrigin method","IXpsOMGlyphs.GetOrigin","IXpsOMGlyphs::GetOrigin","xps.ixpsomglyphs_getorigin","xpsobjectmodel/IXpsOMGlyphs::GetOrigin"]
 old-location: xps\ixpsomglyphs_getorigin.htm
 tech.root: printdocs
 ms.assetid: ec661cff-4671-401b-9c77-5036549762af

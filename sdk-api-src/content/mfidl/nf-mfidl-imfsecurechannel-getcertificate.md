@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSecureChannel.GetCertificate
 title: IMFSecureChannel::GetCertificate (mfidl.h)
-description: Retrieves the client's certificate.
+description: Retrieves the client's certificate.helpviewer_keywords: ["GetCertificate","GetCertificate method [Media Foundation]","GetCertificate method [Media Foundation]","IMFSecureChannel interface","IMFSecureChannel interface [Media Foundation]","GetCertificate method","IMFSecureChannel.GetCertificate","IMFSecureChannel::GetCertificate","d5465070-1706-4420-8351-fab5e8e8cd08","mf.imfsecurechannel_getcertificate","mfidl/IMFSecureChannel::GetCertificate"]
 old-location: mf\imfsecurechannel_getcertificate.htm
 tech.root: medfound
 ms.assetid: d5465070-1706-4420-8351-fab5e8e8cd08

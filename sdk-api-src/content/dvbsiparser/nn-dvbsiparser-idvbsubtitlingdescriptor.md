@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IDvbSubtitlingDescriptor
 title: IDvbSubtitlingDescriptor (dvbsiparser.h)
-description: Implements methods that get data from a Digital Video Broadcast (DVB) subtitling descriptor.
+description: Implements methods that get data from a Digital Video Broadcast (DVB) subtitling descriptor.helpviewer_keywords: ["IDvbSubtitlingDescriptor","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbSubtitlingDescriptor","mstv.idvbsubtitlingdescriptor"]
 old-location: mstv\idvbsubtitlingdescriptor.htm
 tech.root: mstv
 ms.assetid: 7308e8a9-6e16-4719-b87e-9445499f499c

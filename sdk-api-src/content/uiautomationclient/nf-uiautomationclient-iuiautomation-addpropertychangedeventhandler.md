@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.AddPropertyChangedEventHandler
 title: IUIAutomation::AddPropertyChangedEventHandler (uiautomationclient.h)
-description: Registers a method that handles and array of property-changed events.
+description: Registers a method that handles and array of property-changed events.helpviewer_keywords: ["AddPropertyChangedEventHandler","AddPropertyChangedEventHandler method [Windows Accessibility]","AddPropertyChangedEventHandler method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","AddPropertyChangedEventHandler method","IUIAutomation.AddPropertyChangedEventHandler","IUIAutomation::AddPropertyChangedEventHandler","uiauto.uiauto_IUIAutomation_AddPropertyChangedEventHandler","uiauto_IUIAutomation_AddPropertyChangedEventHandler","uiautomationclient/IUIAutomation::AddPropertyChangedEventHandler","winauto.uiauto_IUIAutomation_AddPropertyChangedEventHandler"]
 old-location: winauto\uiauto_IUIAutomation_AddPropertyChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 2623a48e-8818-486c-9bde-b218cde49189

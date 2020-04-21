@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdutil.WSDXMLAddChild
 title: WSDXMLAddChild function (wsdutil.h)
-description: Adds a child element.
+description: Adds a child element.helpviewer_keywords: ["WSDXMLAddChild","WSDXMLAddChild function","ncd.wsdxmladdchild","wsdutil/WSDXMLAddChild"]
 old-location: ncd\wsdxmladdchild.htm
 tech.root: WsdApi
 ms.assetid: a0688b03-6f91-4b8e-88d1-b40af69fe8bb

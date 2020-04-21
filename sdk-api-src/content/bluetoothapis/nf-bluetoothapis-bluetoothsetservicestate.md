@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothSetServiceState
 title: BluetoothSetServiceState function (bluetoothapis.h)
-description: Enables or disables services for a Bluetooth device.
+description: Enables or disables services for a Bluetooth device.helpviewer_keywords: ["BluetoothSetServiceState","BluetoothSetServiceState function [Bluetooth]","bluetooth.bluetoothsetservicestate","bluetoothapis/BluetoothSetServiceState"]
 old-location: bluetooth\bluetoothsetservicestate.htm
 tech.root: bluetooth
 ms.assetid: 9c68139c-6f55-4b5a-bea0-64681e32a7c5

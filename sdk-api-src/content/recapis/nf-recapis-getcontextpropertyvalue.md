@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.GetContextPropertyValue
 title: GetContextPropertyValue function (recapis.h)
-description: Returns a specified property value from the recognizer context.
+description: Returns a specified property value from the recognizer context.helpviewer_keywords: ["GetContextPropertyValue","GetContextPropertyValue function [Tablet PC]","e3f154ce-b4bf-4520-a4de-03cfe27ef9b0","recapis/GetContextPropertyValue","tablet.getcontextpropertyvalue"]
 old-location: tablet\getcontextpropertyvalue.htm
 tech.root: tablet
 ms.assetid: e3f154ce-b4bf-4520-a4de-03cfe27ef9b0

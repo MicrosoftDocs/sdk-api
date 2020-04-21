@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._SECURITY_DESCRIPTOR
 title: SECURITY_DESCRIPTOR (winnt.h)
-description: Contains the security information associated with an object.
+description: Contains the security information associated with an object.helpviewer_keywords: ["*PISECURITY_DESCRIPTOR","PISECURITY_DESCRIPTOR","PISECURITY_DESCRIPTOR structure pointer [Security]","SECURITY_DESCRIPTOR","SECURITY_DESCRIPTOR structure [Security]","_SECURITY_DESCRIPTOR","_win32_security_descriptor_str","security.security_descriptor","winnt/PISECURITY_DESCRIPTOR","winnt/SECURITY_DESCRIPTOR"]
 old-location: security\security_descriptor.htm
 tech.root: SecAuthZ
 ms.assetid: 653992aa-4e32-4187-b3ac-727e82bfe0b6

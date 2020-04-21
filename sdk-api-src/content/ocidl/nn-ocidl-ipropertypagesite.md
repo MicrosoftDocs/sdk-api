@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IPropertyPageSite
 title: IPropertyPageSite (ocidl.h)
-description: Provides the main features for a property page site object.
+description: Provides the main features for a property page site object.helpviewer_keywords: ["IPropertyPageSite","IPropertyPageSite interface [COM]","IPropertyPageSite interface [COM]","described","_ctrl_ipropertypagesite","com.ipropertypagesite","ocidl/IPropertyPageSite"]
 old-location: com\ipropertypagesite.htm
 tech.root: com
 ms.assetid: a9035a10-2078-4626-8386-f9298526dfb7

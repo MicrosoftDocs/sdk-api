@@ -1,7 +1,7 @@
 ---
 UID: NS:dwrite_1.DWRITE_CARET_METRICS
 title: DWRITE_CARET_METRICS (dwrite_1.h)
-description: The DWRITE_CARET_METRICS structure specifies the metrics for caret placement in a font.
+description: The DWRITE_CARET_METRICS structure specifies the metrics for caret placement in a font.helpviewer_keywords: ["DWRITE_CARET_METRICS","DWRITE_CARET_METRICS structure [Direct Write]","directwrite.dwrite_caret_metrics","dwrite_1/DWRITE_CARET_METRICS"]
 old-location: directwrite\dwrite_caret_metrics.htm
 tech.root: DirectWrite
 ms.assetid: CC7591F8-0671-436F-B0A7-C5D4C183D253

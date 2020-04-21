@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerRenderingSurface.SetRenderingSurface
 title: IRDPViewerRenderingSurface::SetRenderingSurface (rdpencomapi.h)
-description: Sets the rendering surface to be used by the viewer.
+description: Sets the rendering surface to be used by the viewer.helpviewer_keywords: ["IRDPViewerRenderingSurface interface [RDP]","SetRenderingSurface method","IRDPViewerRenderingSurface.SetRenderingSurface","IRDPViewerRenderingSurface::SetRenderingSurface","SetRenderingSurface","SetRenderingSurface method [RDP]","SetRenderingSurface method [RDP]","IRDPViewerRenderingSurface interface","rdp.irdpviewerrenderingsurface_setrenderingsurface","rdpencomapi/IRDPViewerRenderingSurface::SetRenderingSurface"]
 old-location: rdp\irdpviewerrenderingsurface_setrenderingsurface.htm
 tech.root: rdp
 ms.assetid: e70541ab-fc23-4960-be38-8eb6849ab14f

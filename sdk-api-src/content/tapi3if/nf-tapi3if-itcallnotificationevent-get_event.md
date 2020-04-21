@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITCallNotificationEvent.get_Event
 title: ITCallNotificationEvent::get_Event (tapi3if.h)
-description: The get_Event method returns a CALL_NOTIFICATION_EVENT description of whether the application owns or is monitoring the call on which the event has occurred.
+description: The get_Event method returns a CALL_NOTIFICATION_EVENT description of whether the application owns or is monitoring the call on which the event has occurred.helpviewer_keywords: ["ITCallNotificationEvent interface [TAPI 2.2]","get_Event method","ITCallNotificationEvent.get_Event","ITCallNotificationEvent::get_Event","_tapi3_itcallnotificationevent_get_event","get_Event","get_Event method [TAPI 2.2]","get_Event method [TAPI 2.2]","ITCallNotificationEvent interface","tapi3.itcallnotificationevent_get_event","tapi3if/ITCallNotificationEvent::get_Event"]
 old-location: tapi3\itcallnotificationevent_get_event.htm
 tech.root: Tapi
 ms.assetid: 08a3925c-e14e-442e-952e-483fc41d049c

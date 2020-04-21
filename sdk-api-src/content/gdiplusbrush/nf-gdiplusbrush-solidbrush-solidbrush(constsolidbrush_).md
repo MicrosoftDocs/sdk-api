@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.SolidBrush.SolidBrush(const SolidBrush &)
 title: SolidBrush::SolidBrush(const SolidBrush &) (gdiplusbrush.h)
-description: Creates a SolidBrush object based on a color.
+description: Creates a SolidBrush object based on a color.helpviewer_keywords: ["SolidBrush","SolidBrush class [GDI+]","SolidBrush constructor","SolidBrush constructor [GDI+]","SolidBrush constructor [GDI+]","SolidBrush class","SolidBrush.SolidBrush","SolidBrush.SolidBrush(const SolidBrush &)","SolidBrush::SolidBrush","SolidBrush::SolidBrush(const SolidBrush &)","_gdiplus_CLASS_SolidBrush_SolidBrush_color_","gdiplus._gdiplus_CLASS_SolidBrush_SolidBrush_color_"]
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_SolidBrush_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbrush_81color.htm

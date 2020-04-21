@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_DataManager
 title: IDataCollectorSet::get_DataManager (pla.h)
-description: Retrieves the data manager associated with this data collector set.
+description: Retrieves the data manager associated with this data collector set.helpviewer_keywords: ["DataManager property [PLA]","DataManager property [PLA]","IDataCollectorSet interface","IDataCollectorSet interface [PLA]","DataManager property","IDataCollectorSet.DataManager","IDataCollectorSet.get_DataManager","IDataCollectorSet::DataManager","IDataCollectorSet::get_DataManager","base.idatacollectorset_get_datamanager","get_DataManager","pla.idatacollectorset_get_datamanager","pla/IDataCollectorSet::DataManager","pla/IDataCollectorSet::get_DataManager"]
 old-location: pla\idatacollectorset_get_datamanager.htm
 tech.root: PLA
 ms.assetid: 739cf386-c5fb-454c-9919-e3997944d68c

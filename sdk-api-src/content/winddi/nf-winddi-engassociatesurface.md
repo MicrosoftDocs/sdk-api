@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngAssociateSurface
 title: EngAssociateSurface function (winddi.h)
-description: The EngAssociateSurface function marks a given surface as belonging to a specified device.
+description: The EngAssociateSurface function marks a given surface as belonging to a specified device.helpviewer_keywords: ["EngAssociateSurface","EngAssociateSurface function [Display Devices]","display.engassociatesurface","gdifncs_6be89779-b79a-4620-b740-d702945464c5.xml","winddi/EngAssociateSurface"]
 old-location: display\engassociatesurface.htm
 tech.root: display
 ms.assetid: 8cb6d4bf-67bd-4bfb-9605-eeb954fc590c

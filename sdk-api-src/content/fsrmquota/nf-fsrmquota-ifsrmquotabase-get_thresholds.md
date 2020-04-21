@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.get_Thresholds
 title: IFsrmQuotaBase::get_Thresholds (fsrmquota.h)
-description: Retrieves the thresholds for the quota object.
+description: Retrieves the thresholds for the quota object.helpviewer_keywords: ["IFsrmQuotaBase interface [File Server Resource Manager]","Thresholds property","IFsrmQuotaBase.Thresholds","IFsrmQuotaBase.get_Thresholds","IFsrmQuotaBase::Thresholds","IFsrmQuotaBase::get_Thresholds","Thresholds property [File Server Resource Manager]","Thresholds property [File Server Resource Manager]","IFsrmQuotaBase interface","fs.ifsrmquotabase_thresholds","fsrm.ifsrmquotabase_thresholds","fsrmquota/IFsrmQuotaBase::Thresholds","fsrmquota/IFsrmQuotaBase::get_Thresholds","get_Thresholds"]
 old-location: fsrm\ifsrmquotabase_thresholds.htm
 tech.root: fsrm
 ms.assetid: e9a68b62-5d53-419f-a0c4-2e284fa51313

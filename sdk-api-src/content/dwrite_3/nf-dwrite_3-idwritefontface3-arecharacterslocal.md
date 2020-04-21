@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.AreCharactersLocal
 title: IDWriteFontFace3::AreCharactersLocal (dwrite_3.h)
-description: Determines whether the specified characters are local.
+description: Determines whether the specified characters are local.helpviewer_keywords: ["AreCharactersLocal","AreCharactersLocal method [Direct Write]","AreCharactersLocal method [Direct Write]","IDWriteFontFace3 interface","IDWriteFontFace3 interface [Direct Write]","AreCharactersLocal method","IDWriteFontFace3.AreCharactersLocal","IDWriteFontFace3::AreCharactersLocal","directwrite.idwritefontface3_arecharacterslocal","dwrite_3/IDWriteFontFace3::AreCharactersLocal"]
 old-location: directwrite\idwritefontface3_arecharacterslocal.htm
 tech.root: DirectWrite
 ms.assetid: 4cbb6895-3151-c6dd-881e-50d3532c8a14

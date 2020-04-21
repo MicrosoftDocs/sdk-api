@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFPMPHost
 title: IMFPMPHost (mfidl.h)
-description: Enables a media source in the application process to create objects in the protected media path (PMP) process.
+description: Enables a media source in the application process to create objects in the protected media path (PMP) process.helpviewer_keywords: ["IMFPMPHost","IMFPMPHost interface [Media Foundation]","IMFPMPHost interface [Media Foundation]","described","fab1fb42-07c5-4a74-b6f5-0950b2c3ba46","mf.imfpmphost","mfidl/IMFPMPHost"]
 old-location: mf\imfpmphost.htm
 tech.root: medfound
 ms.assetid: fab1fb42-07c5-4a74-b6f5-0950b2c3ba46

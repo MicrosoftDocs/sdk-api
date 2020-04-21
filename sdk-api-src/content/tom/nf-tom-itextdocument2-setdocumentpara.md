@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument2.SetDocumentPara
 title: ITextDocument2::SetDocumentPara (tom.h)
-description: Sets the default paragraph formatting for this instance of the Text Object Model (TOM) engine.
+description: Sets the default paragraph formatting for this instance of the Text Object Model (TOM) engine.helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","SetDocumentPara method","ITextDocument2.SetDocumentPara","ITextDocument2::SetDocumentPara","SetDocumentPara","SetDocumentPara method [Windows Controls]","SetDocumentPara method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_setdocumentpara","tom/ITextDocument2::SetDocumentPara"]
 old-location: controls\itextdocument2_setdocumentpara.htm
 tech.root: Controls
 ms.assetid: d35d57e9-a005-48cd-a92d-381dc490d44f

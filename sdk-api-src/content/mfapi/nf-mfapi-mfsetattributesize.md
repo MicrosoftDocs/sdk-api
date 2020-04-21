@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFSetAttributeSize
 title: MFSetAttributeSize function (mfapi.h)
-description: Sets width and height as a single 64-bit attribute value.
+description: Sets width and height as a single 64-bit attribute value.helpviewer_keywords: ["MFSetAttributeSize","MFSetAttributeSize function [Media Foundation]","cf7b3cfe-fdce-417d-8c0b-198d026b8768","mf.mfsetattributesize","mfapi/MFSetAttributeSize"]
 old-location: mf\mfsetattributesize.htm
 tech.root: medfound
 ms.assetid: cf7b3cfe-fdce-417d-8c0b-198d026b8768

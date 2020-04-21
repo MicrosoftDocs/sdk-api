@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.ISyncRegistrationChange.GetEvent
 title: ISyncRegistrationChange::GetEvent (syncregistration.h)
-description: Gets the next pending registration event.
+description: Gets the next pending registration event.helpviewer_keywords: ["GetEvent","GetEvent method [Windows Sync]","GetEvent method [Windows Sync]","ISyncRegistrationChange interface","ISyncRegistrationChange interface [Windows Sync]","GetEvent method","ISyncRegistrationChange.GetEvent","ISyncRegistrationChange::GetEvent","syncregistration/ISyncRegistrationChange::GetEvent","winsync.isyncregistrationchange_getevent"]
 old-location: winsync\isyncregistrationchange_getevent.htm
 tech.root: winsync
 ms.assetid: 7c96c6ad-13ca-4e00-8e6e-61898206001f

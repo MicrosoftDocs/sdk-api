@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.UnpackRatio
 title: UnpackRatio function (mfapi.h)
-description: Gets the low-order and high-order UINT32 values from a UINT64 value that represents a ratio.
+description: Gets the low-order and high-order UINT32 values from a UINT64 value that represents a ratio.helpviewer_keywords: ["UnpackRatio","mf.unpackratio","mfapi/unpackratio","unpackratio","unpackratio function [Media Foundation]"]
 old-location: mf\unpackratio.htm
 tech.root: medfound
 ms.assetid: 8E4E1E6C-1C80-4A0B-98CE-2ED3443E1821

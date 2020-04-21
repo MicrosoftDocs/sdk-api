@@ -1,7 +1,7 @@
 ---
 UID: NN:syncmgr.ISyncMgrScheduleWizardUIOperation
 title: ISyncMgrScheduleWizardUIOperation (syncmgr.h)
-description: Exposes a method that allows a handler to display the sync schedule wizard for the handler.
+description: Exposes a method that allows a handler to display the sync schedule wizard for the handler.helpviewer_keywords: ["ISyncMgrScheduleWizardUIOperation","ISyncMgrScheduleWizardUIOperation interface [Windows Shell]","ISyncMgrScheduleWizardUIOperation interface [Windows Shell]","described","_shell_ISyncMgrScheduleWizardUIOperation","shell.ISyncMgrScheduleWizardUIOperation","syncmgr/ISyncMgrScheduleWizardUIOperation"]
 old-location: shell\ISyncMgrScheduleWizardUIOperation.htm
 tech.root: shell
 ms.assetid: dcbe22fb-624f-4784-b1c3-5c463d6502a3

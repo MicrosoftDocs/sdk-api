@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoReleaseServerProcess
 title: CoReleaseServerProcess function (combaseapi.h)
-description: Decrements the global per-process reference count.
+description: Decrements the global per-process reference count.helpviewer_keywords: ["CoReleaseServerProcess","CoReleaseServerProcess function [COM]","_com_CoReleaseServerProcess","com.coreleaseserverprocess","combaseapi/CoReleaseServerProcess"]
 old-location: com\coreleaseserverprocess.htm
 tech.root: com
 ms.assetid: b28d41e2-4144-413d-9963-14f2d4dc8876

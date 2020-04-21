@@ -1,7 +1,7 @@
 ---
 UID: NF:infotech.IITPropList.SaveHeader
 title: IITPropList::SaveHeader (infotech.h)
-description: Saves the property ID and data type from the property list to a buffer. Only saves properties marked with a persistence state of TRUE.
+description: Saves the property ID and data type from the property list to a buffer. Only saves properties marked with a persistence state of TRUE.helpviewer_keywords: ["IITPropList interface [HTML Help Workshop]","SaveHeader method","IITPropList.SaveHeader","IITPropList::SaveHeader","SaveHeader","SaveHeader method [HTML Help Workshop]","SaveHeader method [HTML Help Workshop]","IITPropList interface","htmlhelp.iitproplist_saveheader","infotech/IITPropList::SaveHeader","refIITPropListSaveHeader"]
 old-location: htmlhelp\iitproplist_saveheader.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsaveheader.htm

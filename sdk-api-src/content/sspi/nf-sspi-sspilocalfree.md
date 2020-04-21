@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SspiLocalFree
 title: SspiLocalFree function (sspi.h)
-description: Frees the memory associated with the specified buffer.
+description: Frees the memory associated with the specified buffer.helpviewer_keywords: ["SspiLocalFree","SspiLocalFree function [Security]","security.sspilocalfree","sspi/SspiLocalFree"]
 old-location: security\sspilocalfree.htm
 tech.root: SecAuthN
 ms.assetid: afb890a8-a2c3-4c35-ba76-758b047ababb

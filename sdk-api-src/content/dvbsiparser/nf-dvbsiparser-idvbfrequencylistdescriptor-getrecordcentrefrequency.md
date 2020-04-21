@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbFrequencyListDescriptor.GetRecordCentreFrequency
 title: IDvbFrequencyListDescriptor::GetRecordCentreFrequency (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordCentreFrequency","GetRecordCentreFrequency method [Microsoft TV Technologies]","GetRecordCentreFrequency method [Microsoft TV Technologies]","IDvbFrequencyListDescriptor interface","IDvbFrequencyListDescriptor interface [Microsoft TV Technologies]","GetRecordCentreFrequency method","IDvbFrequencyListDescriptor.GetRecordCentreFrequency","IDvbFrequencyListDescriptor::GetRecordCentreFrequency","IDvbFrequencyListDescriptorGetRecordCentreFrequency","dvbsiparser/IDvbFrequencyListDescriptor::GetRecordCentreFrequency","mstv.idvbfrequencylistdescriptor_getrecordcentrefrequency"]
 old-location: mstv\idvbfrequencylistdescriptor_getrecordcentrefrequency.htm
 tech.root: mstv
 ms.assetid: bb6c3c14-c4b6-412d-ad12-1c7fdb025527

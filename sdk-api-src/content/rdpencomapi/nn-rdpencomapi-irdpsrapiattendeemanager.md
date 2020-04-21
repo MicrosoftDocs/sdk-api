@@ -1,7 +1,7 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIAttendeeManager
 title: IRDPSRAPIAttendeeManager (rdpencomapi.h)
-description: Manages attendee objects.
+description: Manages attendee objects.helpviewer_keywords: ["IRDPSRAPIAttendeeManager","IRDPSRAPIAttendeeManager interface [RDP]","IRDPSRAPIAttendeeManager interface [RDP]","described","rdp.irdpsrapiattendeemanager","rdpencomapi/IRDPSRAPIAttendeeManager"]
 old-location: rdp\irdpsrapiattendeemanager.htm
 tech.root: rdp
 ms.assetid: 202b539c-b7a0-4cf3-ba64-f60cc062575a

@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFTransform.ProcessOutput
 title: IMFTransform::ProcessOutput (mftransform.h)
-description: Generates output from the current input data.
+description: Generates output from the current input data.helpviewer_keywords: ["IMFTransform interface [Media Foundation]","ProcessOutput method","IMFTransform.ProcessOutput","IMFTransform::ProcessOutput","ProcessOutput","ProcessOutput method [Media Foundation]","ProcessOutput method [Media Foundation]","IMFTransform interface","dc58cc75-7e01-4f47-a572-8e3ca1bc43b4","mf.imftransform_processoutput","mftransform/IMFTransform::ProcessOutput"]
 old-location: mf\imftransform_processoutput.htm
 tech.root: medfound
 ms.assetid: dc58cc75-7e01-4f47-a572-8e3ca1bc43b4

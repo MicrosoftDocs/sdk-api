@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdate.get_KBArticleIDs
 title: IUpdate::get_KBArticleIDs (wuapi.h)
-description: Gets a collection of Microsoft Knowledge Base article IDs that are associated with the update.
+description: Gets a collection of Microsoft Knowledge Base article IDs that are associated with the update.helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","KBArticleIDs property","IUpdate.KBArticleIDs","IUpdate.get_KBArticleIDs","IUpdate::KBArticleIDs","IUpdate::get_KBArticleIDs","KBArticleIDs property [Windows Update Agent]","KBArticleIDs property [Windows Update Agent]","IUpdate interface","get_KBArticleIDs","wua.iupdate_kbarticleids","wuapi/IUpdate::KBArticleIDs","wuapi/IUpdate::get_KBArticleIDs"]
 old-location: wua\iupdate_kbarticleids.htm
 tech.root: Wua_Sdk
 ms.assetid: 3f30f356-6534-40b7-b3e5-18ab2980a610

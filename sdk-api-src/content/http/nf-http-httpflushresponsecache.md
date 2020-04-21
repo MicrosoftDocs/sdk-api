@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpFlushResponseCache
 title: HttpFlushResponseCache function (http.h)
-description: Removes from the HTTP Server API cache associated with a given request queue all response fragments that have a name whose site portion matches a specified UrlPrefix.
+description: Removes from the HTTP Server API cache associated with a given request queue all response fragments that have a name whose site portion matches a specified UrlPrefix.helpviewer_keywords: ["HttpFlushResponseCache","HttpFlushResponseCache function [HTTP]","_http_httpflushresponsecache","http.httpflushresponsecache","http/HttpFlushResponseCache"]
 old-location: http\httpflushresponsecache.htm
 tech.root: http
 ms.assetid: 5b7377cf-b4a9-45c7-8456-72a52c3778a0

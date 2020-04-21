@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPServiceDocumentAccess.GetDocument
 title: IUPnPServiceDocumentAccess::GetDocument (upnp.h)
-description: GetDocument method retrieves the Service Control Protocol Description (SCPD) document for a service object.
+description: GetDocument method retrieves the Service Control Protocol Description (SCPD) document for a service object.helpviewer_keywords: ["GetDocument","GetDocument method [UPnP APIs]","GetDocument method [UPnP APIs]","IUPnPServiceDocumentAccess interface","IUPnPServiceDocumentAccess interface [UPnP APIs]","GetDocument method","IUPnPServiceDocumentAccess.GetDocument","IUPnPServiceDocumentAccess::GetDocument","upnp.iupnpservicedocumentaccess_getdocument","upnp/IUPnPServiceDocumentAccess::GetDocument"]
 old-location: upnp\iupnpservicedocumentaccess_getdocument.htm
 tech.root: upnp
 ms.assetid: B0C197A0-4987-43BD-A48D-BF2E6150A85F

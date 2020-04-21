@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.CreateMediaSource
 title: IMFSensorGroup::CreateMediaSource (mfidl.h)
-description: Creates an IMFMediaSource that virtualizes the sensor group.
+description: Creates an IMFMediaSource that virtualizes the sensor group.helpviewer_keywords: ["CreateMediaSource","CreateMediaSource method [Media Foundation]","CreateMediaSource method [Media Foundation]","IMFSensorGroup interface","IMFSensorGroup interface [Media Foundation]","CreateMediaSource method","IMFSensorGroup.CreateMediaSource","IMFSensorGroup::CreateMediaSource","mf.imfsensorgroup_createmediasource","mfidl/IMFSensorGroup::CreateMediaSource"]
 old-location: mf\imfsensorgroup_createmediasource.htm
 tech.root: medfound
 ms.assetid: 2C69A81E-7159-43AA-92EA-7B1EB4A7A681

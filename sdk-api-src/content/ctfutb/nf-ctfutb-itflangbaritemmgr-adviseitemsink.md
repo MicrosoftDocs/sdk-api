@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.AdviseItemSink
 title: ITfLangBarItemMgr::AdviseItemSink (ctfutb.h)
-description: ITfLangBarItemMgr::AdviseItemSink method
+description: ITfLangBarItemMgr::AdviseItemSink methodhelpviewer_keywords: ["AdviseItemSink","AdviseItemSink method [Text Services Framework]","AdviseItemSink method [Text Services Framework]","ITfLangBarItemMgr interface","ITfLangBarItemMgr interface [Text Services Framework]","AdviseItemSink method","ITfLangBarItemMgr.AdviseItemSink","ITfLangBarItemMgr::AdviseItemSink","_tsf_itflangbaritemmgr_adviseitemsink_ref","ctfutb/ITfLangBarItemMgr::AdviseItemSink","tsf.itflangbaritemmgr_adviseitemsink"]
 old-location: tsf\itflangbaritemmgr_adviseitemsink.htm
 tech.root: TSF
 ms.assetid: c01d80eb-9156-4fbf-98ff-7f06b145e72f

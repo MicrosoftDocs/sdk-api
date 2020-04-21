@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnMultiCarrierEvents
 title: IMbnMultiCarrierEvents (mbnapi.h)
-description: This interface is a notification interface used to handle asynchronous IMbnMultiCarrier method calls.
+description: This interface is a notification interface used to handle asynchronous IMbnMultiCarrier method calls.helpviewer_keywords: ["IMbnMultiCarrierEvents","IMbnMultiCarrierEvents interface [Microsoft Broadband Networks]","IMbnMultiCarrierEvents interface [Microsoft Broadband Networks]","described","mbn.imbnmulticarrierevents","mbnapi/IMbnMultiCarrierEvents"]
 old-location: mbn\imbnmulticarrierevents.htm
 tech.root: mbn
 ms.assetid: F7CAF21B-F487-4F35-806B-312B5246C1B2

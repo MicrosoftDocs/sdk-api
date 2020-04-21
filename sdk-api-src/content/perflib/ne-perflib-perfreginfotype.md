@@ -1,7 +1,7 @@
 ---
 UID: NE:perflib._PerfRegInfoType
 title: PerfRegInfoType (perflib.h)
-description: Indicates the types of information that you can request about a performance counter set by calling the PerfQueryCounterSetRegistrationInfo function.
+description: Indicates the types of information that you can request about a performance counter set by calling the PerfQueryCounterSetRegistrationInfo function.helpviewer_keywords: ["PERF_REG_COUNTERSET_ENGLISH_NAME","PERF_REG_COUNTERSET_HELP_STRING","PERF_REG_COUNTERSET_NAME_STRING","PERF_REG_COUNTERSET_STRUCT","PERF_REG_COUNTER_ENGLISH_NAMES","PERF_REG_COUNTER_HELP_STRINGS","PERF_REG_COUNTER_NAME_STRINGS","PERF_REG_COUNTER_STRUCT","PERF_REG_PROVIDER_GUID","PERF_REG_PROVIDER_NAME","PerfRegInfoType","PerfRegInfoType enumeration [Perf]","perf.perfreginfotype","perflib/PERF_REG_COUNTERSET_ENGLISH_NAME","perflib/PERF_REG_COUNTERSET_HELP_STRING","perflib/PERF_REG_COUNTERSET_NAME_STRING","perflib/PERF_REG_COUNTERSET_STRUCT","perflib/PERF_REG_COUNTER_ENGLISH_NAMES","perflib/PERF_REG_COUNTER_HELP_STRINGS","perflib/PERF_REG_COUNTER_NAME_STRINGS","perflib/PERF_REG_COUNTER_STRUCT","perflib/PERF_REG_PROVIDER_GUID","perflib/PERF_REG_PROVIDER_NAME","perflib/PerfRegInfoType"]
 old-location: perf\perfreginfotype.htm
 tech.root: perfctrs
 ms.assetid: 8D54F31F-9ABA-405F-84A5-9C7225B7BE67

@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_OPLOCK_BREAK_NOTIFY
 title: FSCTL_OPLOCK_BREAK_NOTIFY
-description: Enables the calling application to wait for completion of an opportunistic lock break.
+description: Enables the calling application to wait for completion of an opportunistic lock break.helpviewer_keywords: ["FSCTL_OPLOCK_BREAK_NOTIFY","FSCTL_OPLOCK_BREAK_NOTIFY control","FSCTL_OPLOCK_BREAK_NOTIFY control code [Files]","_win32_fsctl_oplock_break_notify","base.fsctl_oplock_break_notify","fs.fsctl_oplock_break_notify","winioctl/FSCTL_OPLOCK_BREAK_NOTIFY"]
 old-location: fs\fsctl_oplock_break_notify.htm
 tech.root: FileIO
 ms.assetid: 5d064b92-4d30-4213-a9f0-713fd0e7c321
@@ -44,48 +44,100 @@ req.redist:
 
 # FSCTL_OPLOCK_BREAK_NOTIFY IOCTL
 
+
 ## -description
+
 
 Enables the calling application to wait for completion of an opportunistic lock break.
 
-This operation is not useful to application developers and is documented here only for completeness. [CreateFile](../fileapi/nf-fileapi-createfilea.md) handles the problem that this operation was designed to handle.
+This operation is not useful to application developers and is documented here only for completeness. 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> handles the problem that this operation was 
+    designed to handle.
 
-To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function using the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
-  (HANDLE) hDevice,             // handle to file
-  FSCTL_OPLOCK_BREAK_NOTIFY,    // dwIoControlCode
-  NULL,                         // lpInBuffer
-  0,                            // nInBufferSize
-  NULL,                         // lpOutBuffer
-  0,                            // nOutBufferSize
-  (LPDWORD) lpBytesReturned,    // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped   // OVERLAPPED structure
-);
-```
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
+    function using the following parameters.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL 
+WINAPI 
+DeviceIoControl( (HANDLE) hDevice,              // handle to file
+                 FSCTL_OPLOCK_BREAK_NOTIFY,     // dwIoControlCode
+                 NULL,                          // lpInBuffer
+                 0,                             // nInBufferSize
+                 NULL,                          // lpOutBuffer
+                 0,                             // nOutBufferSize
+                 (LPDWORD) lpBytesReturned,     // number of bytes returned
+                 (LPOVERLAPPED) lpOverlapped ); // OVERLAPPED structure</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
+
+
+<text></text>
+
+
 
 
 ### -input-buffer-length
 
 
+
+<text></text>
+
+
+
+
 ### -output-buffer
+
+
+
+<text></text>
+
+
 
 
 ### -output-buffer-length
 
 
+
+<text></text>
+
+
+
+
 ### -in-out-buffer
+
+
+
+<text></text>
+
+
 
 
 ### -inout-buffer-length
 
 
+
+<text></text>
+
+
+
+
 ### -status-block
+
+
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -94,27 +146,105 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
+
+
 ## -remarks
 
-This operation is used only by client applications that have requested an opportunistic lock from a local server. Client applications requesting opportunistic locks from remote servers must not request them directly—the network redirector transparently requests opportunistic locks for the application.
 
-For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) topic.
+
+This operation is used only by client applications that have requested an opportunistic lock from a local 
+    server. Client applications requesting opportunistic locks from remote servers must not request them 
+    directly—the network redirector transparently requests opportunistic locks for the application.
+
+For the implications of overlapped I/O on this operation, see the Remarks section of the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
-Technology | Supported
------------|----------
-Server Message Block (SMB) 3.0 protocol | No
-SMB 3.0 Transparent Failover (TFO) | No
-SMB 3.0 with Scale-out File Shares (SO) | No
-Cluster Shared Volume File System (CsvFS) | Yes
-Resilient File System (ReFS) | Yes
+<table>
+<tr>
+<th>Technology</th>
+<th>Supported</th>
+</tr>
+<tr>
+<td>
+Server Message Block (SMB) 3.0 protocol
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+SMB 3.0 Transparent Failover (TFO)
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+SMB 3.0 with Scale-out File Shares (SO)
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+Cluster Shared Volume File System (CsvFS)
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<td>
+Resilient File System (ReFS)
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+</table>
+ 
+
+
 
 
 ## -see-also
 
-* [CreateFile](../fileapi/nf-fileapi-createfilea.md)
-* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
-* [Oplock Semantics](https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics)
-* [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks)
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+
+
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks">Opportunistic Locks</a>
+ 
+
+ 
+

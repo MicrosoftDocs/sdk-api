@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComTransaction2Events.OnTransactionPrepare2
 title: IComTransaction2Events::OnTransactionPrepare2 (comsvcs.h)
-description: Generated when the transaction is in the prepare phase of the commit protocol.
+description: Generated when the transaction is in the prepare phase of the commit protocol.helpviewer_keywords: ["IComTransaction2Events interface [COM+]","OnTransactionPrepare2 method","IComTransaction2Events.OnTransactionPrepare2","IComTransaction2Events::OnTransactionPrepare2","OnTransactionPrepare2","OnTransactionPrepare2 method [COM+]","OnTransactionPrepare2 method [COM+]","IComTransaction2Events interface","_cos_IComTransaction2Events_OnTransactionPrepare2","comsvcs/IComTransaction2Events::OnTransactionPrepare2","cos.icomtransaction2events_ontransactionprepare2"]
 old-location: cos\icomtransaction2events_ontransactionprepare2.htm
 tech.root: cossdk
 ms.assetid: 1b2ea10f-7b74-474e-bdf1-040d789fa7c9

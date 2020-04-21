@@ -1,7 +1,7 @@
 ---
 UID: NC:mapi.MAPISENDDOCUMENTS
 title: MAPISENDDOCUMENTS (mapi.h)
-description: The MAPISendDocuments function sends a standard message with one or more attached files and a cover note.
+description: The MAPISendDocuments function sends a standard message with one or more attached files and a cover note.helpviewer_keywords: ["MAPISendDocuments","MAPISendDocuments callback","MAPISendDocuments callback function","mapi.mapisenddocuments","mapi/MAPISendDocuments"]
 old-location: mapi\mapisenddocuments.htm
 tech.root: WindowsMAPI
 ms.assetid: 79a2f17e-fb07-4f3b-b8f6-0448399ffa50

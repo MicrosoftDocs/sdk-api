@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGeometryFigureCollection
 title: IXpsOMGeometryFigureCollection (xpsobjectmodel.h)
-description: A collection of IXpsOMGeometryFigure interface pointers.
+description: A collection of IXpsOMGeometryFigure interface pointers.helpviewer_keywords: ["IXpsOMGeometryFigureCollection","IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging]","IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging]","described","xps.ixpsomgeometryfigurecollection","xpsobjectmodel/IXpsOMGeometryFigureCollection"]
 old-location: xps\ixpsomgeometryfigurecollection.htm
 tech.root: printdocs
 ms.assetid: 24ed79ff-9160-4e9b-b322-c538b30f113b

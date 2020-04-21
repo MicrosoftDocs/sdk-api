@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._TOKEN_PRIVILEGES
 title: TOKEN_PRIVILEGES (winnt.h)
-description: Contains information about a set of privileges for an access token.
+description: Contains information about a set of privileges for an access token.helpviewer_keywords: ["*PTOKEN_PRIVILEGES","PTOKEN_PRIVILEGES","PTOKEN_PRIVILEGES structure pointer [Security]","SE_PRIVILEGE_ENABLED","SE_PRIVILEGE_ENABLED_BY_DEFAULT","SE_PRIVILEGE_REMOVED","SE_PRIVILEGE_USED_FOR_ACCESS","TOKEN_PRIVILEGES","TOKEN_PRIVILEGES structure [Security]","_TOKEN_PRIVILEGES","_win32_token_privileges_str","security.token_privileges","winnt/PTOKEN_PRIVILEGES","winnt/TOKEN_PRIVILEGES"]
 old-location: security\token_privileges.htm
 tech.root: SecAuthZ
 ms.assetid: c9016511-740f-44f3-92ed-17cc518c6612

@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionCost.GetDataPlanStatus
 title: INetworkConnectionCost::GetDataPlanStatus (netlistmgr.h)
-description: GetDataPlanStatus method retrieves the status of the data plan associated with a connection.
+description: GetDataPlanStatus method retrieves the status of the data plan associated with a connection.helpviewer_keywords: ["GetDataPlanStatus","GetDataPlanStatus method [Network Awareness]","GetDataPlanStatus method [Network Awareness]","INetworkConnectionCost interface","INetworkConnectionCost interface [Network Awareness]","GetDataPlanStatus method","INetworkConnectionCost.GetDataPlanStatus","INetworkConnectionCost::GetDataPlanStatus","netlistmgr/INetworkConnectionCost::GetDataPlanStatus","nla.inetworkconnectioncost_getdataplanstatus"]
 old-location: nla\inetworkconnectioncost_getdataplanstatus.htm
 tech.root: nla
 ms.assetid: 861ED7D2-569A-4B62-BAB6-CA649CA9B524

@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingWriteActivity
 title: TraceLoggingWriteActivity macro (traceloggingprovider.h)
-description: Emits an event with specific activity IDs.
+description: Emits an event with specific activity IDs.helpviewer_keywords: ["TraceLoggingWriteActivity","TraceLoggingWriteActivity macro","tracelogging.traceloggingwriteactivity","traceloggingprovider/TraceLoggingWriteActivity"]
 old-location: tracelogging\traceloggingwriteactivity.htm
 tech.root: tracelogging
 ms.assetid: 1BFEC534-A9D4-4310-9E40-FCC1AB301D0F

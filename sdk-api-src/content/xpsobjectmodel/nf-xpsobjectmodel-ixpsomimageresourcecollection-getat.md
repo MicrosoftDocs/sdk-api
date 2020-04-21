@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.GetAt
 title: IXpsOMImageResourceCollection::GetAt (xpsobjectmodel.h)
-description: Gets an IXpsOMImageResource interface pointer from a specified location in the collection.
+description: Gets an IXpsOMImageResource interface pointer from a specified location in the collection.helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsOMImageResourceCollection interface","IXpsOMImageResourceCollection interface [XPS Documents and Packaging]","GetAt method","IXpsOMImageResourceCollection.GetAt","IXpsOMImageResourceCollection::GetAt","xps.ixpsomimageresourcecollection_getat","xpsobjectmodel/IXpsOMImageResourceCollection::GetAt"]
 old-location: xps\ixpsomimageresourcecollection_getat.htm
 tech.root: printdocs
 ms.assetid: 31d4989d-72bd-4065-a0d7-c1ba5bea8391

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptGenRandom
 title: CryptGenRandom function (wincrypt.h)
-description: Fills a buffer with cryptographically random bytes.
+description: Fills a buffer with cryptographically random bytes.helpviewer_keywords: ["CryptGenRandom","CryptGenRandom function [Security]","_crypto2_cryptgenrandom","security.cryptgenrandom","wincrypt/CryptGenRandom"]
 old-location: security\cryptgenrandom.htm
 tech.root: SecCrypto
 ms.assetid: 3e5a437f-7439-43c9-a191-2908d2df0eb6

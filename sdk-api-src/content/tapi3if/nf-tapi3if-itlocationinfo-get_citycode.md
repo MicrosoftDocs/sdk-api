@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_CityCode
 title: ITLocationInfo::get_CityCode (tapi3if.h)
-description: The get_CityCode method gets the code for the city.
+description: The get_CityCode method gets the code for the city.helpviewer_keywords: ["ITLocationInfo interface [TAPI 2.2]","get_CityCode method","ITLocationInfo.get_CityCode","ITLocationInfo::get_CityCode","_tapi3_itlocationinfo_get_citycode","get_CityCode","get_CityCode method [TAPI 2.2]","get_CityCode method [TAPI 2.2]","ITLocationInfo interface","tapi3.itlocationinfo_get_citycode","tapi3if/ITLocationInfo::get_CityCode"]
 old-location: tapi3\itlocationinfo_get_citycode.htm
 tech.root: Tapi
 ms.assetid: ab8aee25-84b8-4913-876f-dd01bca5e3b0

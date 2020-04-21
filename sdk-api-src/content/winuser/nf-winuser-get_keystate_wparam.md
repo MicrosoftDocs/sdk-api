@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GET_KEYSTATE_WPARAM
 title: GET_KEYSTATE_WPARAM macro (winuser.h)
-description: Retrieves the state of certain virtual keys from the specified WPARAM value.
+description: Retrieves the state of certain virtual keys from the specified WPARAM value.helpviewer_keywords: ["GET_KEYSTATE_WPARAM","GET_KEYSTATE_WPARAM macro [Keyboard and Mouse Input]","_win32_GET_KEYSTATE_WPARAM","_win32_get_keystate_wparam_cpp","inputdev.get_keystate_wparam","winui._win32_get_keystate_wparam","winuser/GET_KEYSTATE_WPARAM"]
 old-location: inputdev\get_keystate_wparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_keystate_wparam.htm

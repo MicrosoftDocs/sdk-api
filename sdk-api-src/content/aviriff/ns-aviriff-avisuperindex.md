@@ -1,7 +1,7 @@
 ---
 UID: NS:aviriff._avisuperindex
 title: AVISUPERINDEX (aviriff.h)
-description: Contains an AVI 2.0 super index (index of indexes).
+description: Contains an AVI 2.0 super index (index of indexes).helpviewer_keywords: ["AVISUPERINDEX","AVISUPERINDEX structure [DirectShow]","aviriff/AVISUPERINDEX","dshow.avisuperindex"]
 old-location: dshow\avisuperindex.htm
 tech.root: DirectShow
 ms.assetid: 57c855ef-d4ea-4e11-a37b-941335ccf657

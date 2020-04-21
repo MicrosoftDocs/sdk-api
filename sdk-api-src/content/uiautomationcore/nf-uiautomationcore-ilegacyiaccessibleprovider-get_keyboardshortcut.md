@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_KeyboardShortcut
 title: ILegacyIAccessibleProvider::get_KeyboardShortcut (uiautomationcore.h)
-description: Specifies the keyboard shortcut for this element.
+description: Specifies the keyboard shortcut for this element.helpviewer_keywords: ["ILegacyIAccessibleProvider interface [Windows Accessibility]","KeyboardShortcut property","ILegacyIAccessibleProvider.KeyboardShortcut","ILegacyIAccessibleProvider.get_KeyboardShortcut","ILegacyIAccessibleProvider::KeyboardShortcut","ILegacyIAccessibleProvider::get_KeyboardShortcut","KeyboardShortcut property [Windows Accessibility]","KeyboardShortcut property [Windows Accessibility]","ILegacyIAccessibleProvider interface","get_KeyboardShortcut","uiauto.uiauto_ILegacyIAccessibleProvider_KeyboardShortcut","uiauto_ILegacyIAccessibleProvider_KeyboardShortcut","uiautomationcore/ILegacyIAccessibleProvider::KeyboardShortcut","uiautomationcore/ILegacyIAccessibleProvider::get_KeyboardShortcut","winauto.uiauto_ILegacyIAccessibleProvider_KeyboardShortcut"]
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_KeyboardShortcut.htm
 tech.root: WinAuto
 ms.assetid: cedb3a14-026f-4d2a-857f-313f4b5efad7

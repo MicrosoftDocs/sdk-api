@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManager.CreateConnectionProfile
 title: IMbnConnectionProfileManager::CreateConnectionProfile (mbnapi.h)
-description: Creates a new connection profile for the device.
+description: Creates a new connection profile for the device.helpviewer_keywords: ["CreateConnectionProfile","CreateConnectionProfile method [Microsoft Broadband Networks]","CreateConnectionProfile method [Microsoft Broadband Networks]","IMbnConnectionProfileManager interface","IMbnConnectionProfileManager interface [Microsoft Broadband Networks]","CreateConnectionProfile method","IMbnConnectionProfileManager.CreateConnectionProfile","IMbnConnectionProfileManager::CreateConnectionProfile","mbn.imbnconnectionprofilemanager_createconnectionprofile","mbnapi/IMbnConnectionProfileManager::CreateConnectionProfile"]
 old-location: mbn\imbnconnectionprofilemanager_createconnectionprofile.htm
 tech.root: mbn
 ms.assetid: b9c191cc-aa6f-4548-ad4a-f2b9808c5f23

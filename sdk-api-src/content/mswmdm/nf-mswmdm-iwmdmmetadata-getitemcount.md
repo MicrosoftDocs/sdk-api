@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMMetaData.GetItemCount
 title: IWMDMMetaData::GetItemCount (mswmdm.h)
-description: The GetItemCount method retrieves the total number of properties held by the interface.
+description: The GetItemCount method retrieves the total number of properties held by the interface.helpviewer_keywords: ["GetItemCount","GetItemCount method [windows Media Device Manager]","GetItemCount method [windows Media Device Manager]","IWMDMMetaData interface","IWMDMMetaData interface [windows Media Device Manager]","GetItemCount method","IWMDMMetaData.GetItemCount","IWMDMMetaData::GetItemCount","IWMDMMetaDataGetItemCount","mswmdm/IWMDMMetaData::GetItemCount","wmdm.iwmdmmetadata_getitemcount"]
 old-location: wmdm\iwmdmmetadata_getitemcount.htm
 tech.root: WMDM
 ms.assetid: 9f7f9661-d632-4502-940b-6d83fc32cdad

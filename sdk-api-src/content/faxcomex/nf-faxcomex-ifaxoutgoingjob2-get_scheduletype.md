@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob2.get_ScheduleType
 title: IFaxOutgoingJob2::get_ScheduleType (faxcomex.h)
-description: Specifies the schedule type that was used for the transmission.
+description: Specifies the schedule type that was used for the transmission.helpviewer_keywords: ["IFaxOutgoingJob2 interface [Fax Service]","ScheduleType property","IFaxOutgoingJob2.ScheduleType","IFaxOutgoingJob2.get_ScheduleType","IFaxOutgoingJob2::ScheduleType","IFaxOutgoingJob2::get_ScheduleType","ScheduleType property [Fax Service]","ScheduleType property [Fax Service]","IFaxOutgoingJob2 interface","_mfax_faxoutgoingjob.scheduletype","fax._mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_scheduletype_cpp","fax._mfax_faxoutgoingjob_scheduletype","faxcomex/IFaxOutgoingJob2::ScheduleType","faxcomex/IFaxOutgoingJob2::get_ScheduleType","get_ScheduleType"]
 old-location: fax\_mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_scheduletype_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingjob2\scheduletype.htm

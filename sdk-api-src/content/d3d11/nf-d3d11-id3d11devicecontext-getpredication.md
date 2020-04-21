@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GetPredication
 title: ID3D11DeviceContext::GetPredication (d3d11.h)
-description: Get the rendering predicate state.
+description: Get the rendering predicate state.helpviewer_keywords: ["GetPredication","GetPredication method [Direct3D 11]","GetPredication method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GetPredication method","ID3D11DeviceContext.GetPredication","ID3D11DeviceContext::GetPredication","ae323354-9c3a-634f-4e86-882e408d29d5","d3d11/ID3D11DeviceContext::GetPredication","direct3d11.id3d11devicecontext_getpredication"]
 old-location: direct3d11\id3d11devicecontext_getpredication.htm
 tech.root: direct3d11
 ms.assetid: 9a283895-51c4-4de5-bdeb-994f3085bd79

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumSTATSTG.Reset
 title: IEnumSTATSTG::Reset (objidl.h)
-description: Resets the enumeration sequence to the beginning of the STATSTG structure array.
+description: Resets the enumeration sequence to the beginning of the STATSTG structure array.helpviewer_keywords: ["IEnumSTATSTG interface [Structured Storage]","Reset method","IEnumSTATSTG.Reset","IEnumSTATSTG::Reset","Reset","Reset method [Structured Storage]","Reset method [Structured Storage]","IEnumSTATSTG interface","objidl/IEnumSTATSTG::Reset","stg.ienumstatstg_reset"]
 old-location: stg\ienumstatstg_reset.htm
 tech.root: Stg
 ms.assetid: 696aaa93-1b56-4baf-a6be-753c7d6f5456

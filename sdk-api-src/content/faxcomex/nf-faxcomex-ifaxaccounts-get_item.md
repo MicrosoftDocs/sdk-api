@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxAccounts.get_Item
 title: IFaxAccounts::get_Item (faxcomex.h)
-description: Returns a FaxAccount object from a FaxAccounts collection.
+description: Returns a FaxAccount object from a FaxAccounts collection.helpviewer_keywords: ["IFaxAccounts interface [Fax Service]","get_Item method","IFaxAccounts.get_Item","IFaxAccounts::get_Item","_mfax_faxaccounts.item_cpp","fax._mfax_faxaccounts_item_cpp","faxcomex/IFaxAccounts::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxAccounts interface"]
 old-location: fax\_mfax_faxaccounts_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\get_item.htm

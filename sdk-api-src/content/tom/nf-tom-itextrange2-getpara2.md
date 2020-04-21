@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange2.GetPara2
 title: ITextRange2::GetPara2 (tom.h)
-description: Gets an ITextPara2 object with the paragraph attributes of a range.
+description: Gets an ITextPara2 object with the paragraph attributes of a range.helpviewer_keywords: ["GetPara2","GetPara2 method [Windows Controls]","GetPara2 method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetPara2 method","ITextRange2.GetPara2","ITextRange2::GetPara2","controls.itextrange2_getpara2","tom/ITextRange2::GetPara2"]
 old-location: controls\itextrange2_getpara2.htm
 tech.root: Controls
 ms.assetid: b20ebe85-f2a6-4a19-8b25-f1f16ebf5627

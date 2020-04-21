@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscMaster2.get__NewEnum
 title: IDiscMaster2::get__NewEnum (imapi2.h)
-description: Retrieves a list of the CD and DVD devices installed on the computer.
+description: Retrieves a list of the CD and DVD devices installed on the computer.helpviewer_keywords: ["IDiscMaster2 interface [IMAPI]","get__NewEnum method","IDiscMaster2.get__NewEnum","IDiscMaster2::get__NewEnum","get__NewEnum","get__NewEnum method [IMAPI]","get__NewEnum method [IMAPI]","IDiscMaster2 interface","imapi.idiscmaster2_get__newenum","imapi2/IDiscMaster2::get__NewEnum"]
 old-location: imapi\idiscmaster2_get__newenum.htm
 tech.root: imapi
 ms.assetid: f148a1c0-cb76-40e9-9749-a074f04c93e8

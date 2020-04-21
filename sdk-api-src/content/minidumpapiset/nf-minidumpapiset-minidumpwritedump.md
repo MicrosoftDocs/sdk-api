@@ -1,7 +1,7 @@
 ---
 UID: NF:minidumpapiset.MiniDumpWriteDump
 title: MiniDumpWriteDump function (minidumpapiset.h)
-description: Writes user-mode minidump information to the specified file.
+description: Writes user-mode minidump information to the specified file.helpviewer_keywords: ["MiniDumpWriteDump","MiniDumpWriteDump function","_win32_minidumpwritedump","base.minidumpwritedump","minidumpapiset/MiniDumpWriteDump"]
 old-location: base\minidumpwritedump.htm
 tech.root: Debug
 ms.assetid: b476023d-0e93-4d76-9ba8-ce5766c9ac51

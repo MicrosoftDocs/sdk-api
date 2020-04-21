@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcasync.RpcAsyncAbortCall
 title: RpcAsyncAbortCall function (rpcasync.h)
-description: The server calls RpcAsyncAbortCall to abort an asynchronous call.
+description: The server calls RpcAsyncAbortCall to abort an asynchronous call.helpviewer_keywords: ["RpcAsyncAbortCall","RpcAsyncAbortCall function [RPC]","_rpc_rpcasyncabortcall","rpc.rpcasyncabortcall","rpcasync/RpcAsyncAbortCall"]
 old-location: rpc\rpcasyncabortcall.htm
 tech.root: Rpc
 ms.assetid: 651c53f3-8bb5-4162-a8a8-2da5a0d05d21

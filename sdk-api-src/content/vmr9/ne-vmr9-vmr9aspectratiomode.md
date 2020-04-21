@@ -1,7 +1,7 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0004_0001
 title: VMR9AspectRatioMode (vmr9.h)
-description: The VMR9AspectRatioMode enumeration type is used with the IVMRWindowlessControl9::GetAspectRatioMode and IVMRWindowlessControl9::SetAspectRatioMode methods to set and retrieve the aspect ratio mode (VMR-9 only).
+description: The VMR9AspectRatioMode enumeration type is used with the IVMRWindowlessControl9::GetAspectRatioMode and IVMRWindowlessControl9::SetAspectRatioMode methods to set and retrieve the aspect ratio mode (VMR-9 only).helpviewer_keywords: ["VMR9ARMode_LetterBox","VMR9ARMode_None","VMR9AspectRatioMode","VMR9AspectRatioMode","VMR9AspectRatioMode enumeration [DirectShow]","VMR9AspectRatioModeEnumeration","dshow.vmr9aspectratiomode","vmr9/VMR9ARMode_LetterBox","vmr9/VMR9ARMode_None","vmr9/VMR9AspectRatioMode"]
 old-location: dshow\vmr9aspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: 745e7aad-a598-4be6-b28b-bb5969ef0c77

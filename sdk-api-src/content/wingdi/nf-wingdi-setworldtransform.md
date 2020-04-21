@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.SetWorldTransform
 title: SetWorldTransform function (wingdi.h)
-description: The SetWorldTransform function sets a two-dimensional linear transformation between world space and page space for the specified device context. This transformation can be used to scale, rotate, shear, or translate graphics output.
+description: The SetWorldTransform function sets a two-dimensional linear transformation between world space and page space for the specified device context. This transformation can be used to scale, rotate, shear, or translate graphics output.helpviewer_keywords: ["SetWorldTransform","SetWorldTransform function [Windows GDI]","_win32_SetWorldTransform","gdi.setworldtransform","wingdi/SetWorldTransform"]
 old-location: gdi\setworldtransform.htm
 tech.root: gdi
 ms.assetid: d103a4dd-949e-4f18-ac90-bb0e51011233

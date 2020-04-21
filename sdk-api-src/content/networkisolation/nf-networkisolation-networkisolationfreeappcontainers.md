@@ -1,7 +1,7 @@
 ---
 UID: NF:networkisolation.NetworkIsolationFreeAppContainers
 title: NetworkIsolationFreeAppContainers function (networkisolation.h)
-description: Used to release memory resources allocated to one or more app containers.
+description: Used to release memory resources allocated to one or more app containers.helpviewer_keywords: ["NetworkIsolationFreeAppContainers","NetworkIsolationFreeAppContainers function [ICS/ICF]","ics.networkisolationfreeappcontainers","networkisolation/NetworkIsolationFreeAppContainers"]
 old-location: ics\networkisolationfreeappcontainers.htm
 tech.root: ics
 ms.assetid: d850eef3-382e-4b3e-9059-35f3171a07c7

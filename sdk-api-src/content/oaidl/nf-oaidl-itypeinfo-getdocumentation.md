@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetDocumentation
 title: ITypeInfo::GetDocumentation (oaidl.h)
-description: Retrieves the documentation string, the complete Help file name and path, and the context ID for the Help topic for a specified type description.
+description: Retrieves the documentation string, the complete Help file name and path, and the context ID for the Help topic for a specified type description.helpviewer_keywords: ["GetDocumentation","GetDocumentation method [Automation]","GetDocumentation method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetDocumentation method","ITypeInfo.GetDocumentation","ITypeInfo::GetDocumentation","_oa96_ITypeInfo_GetDocumentation","automat.itypeinfo_getdocumentation","oaidl/ITypeInfo::GetDocumentation"]
 old-location: automat\itypeinfo_getdocumentation.htm
 tech.root: automat
 ms.assetid: 64d2cb0c-d0ca-499b-b089-44525f7f9749

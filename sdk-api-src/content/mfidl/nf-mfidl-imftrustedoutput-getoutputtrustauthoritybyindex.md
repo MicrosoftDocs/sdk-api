@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFTrustedOutput.GetOutputTrustAuthorityByIndex
 title: IMFTrustedOutput::GetOutputTrustAuthorityByIndex (mfidl.h)
-description: Gets an output trust authority (OTA), specified by index.
+description: Gets an output trust authority (OTA), specified by index.helpviewer_keywords: ["4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf","GetOutputTrustAuthorityByIndex","GetOutputTrustAuthorityByIndex method [Media Foundation]","GetOutputTrustAuthorityByIndex method [Media Foundation]","IMFTrustedOutput interface","IMFTrustedOutput interface [Media Foundation]","GetOutputTrustAuthorityByIndex method","IMFTrustedOutput.GetOutputTrustAuthorityByIndex","IMFTrustedOutput::GetOutputTrustAuthorityByIndex","mf.imftrustedoutput_getoutputtrustauthoritybyindex","mfidl/IMFTrustedOutput::GetOutputTrustAuthorityByIndex"]
 old-location: mf\imftrustedoutput_getoutputtrustauthoritybyindex.htm
 tech.root: medfound
 ms.assetid: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf

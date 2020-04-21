@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.Initialize
 title: IISDB_NBIT::Initialize (dvbsiparser.h)
-description: Initializes the object by using captured table section data from an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
+description: Initializes the object by using captured table section data from an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).helpviewer_keywords: ["IISDB_NBIT interface [Microsoft TV Technologies]","Initialize method","IISDB_NBIT.Initialize","IISDB_NBIT::Initialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","IISDB_NBIT interface","dvbsiparser/IISDB_NBIT::Initialize","mstv.iisdb_nbit_initialize"]
 old-location: mstv\iisdb_nbit_initialize.htm
 tech.root: mstv
 ms.assetid: 8c4e3f53-1b32-4374-915f-15651259dd55

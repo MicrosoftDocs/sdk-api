@@ -1,7 +1,7 @@
 ---
 UID: NF:xapo.IXAPOParameters.SetParameters
 title: IXAPOParameters::SetParameters (xapo.h)
-description: Sets effect-specific parameters.
+description: Sets effect-specific parameters.helpviewer_keywords: ["IXAPOParameters interface [XAudio2 Audio Mixing APIs]","SetParameters method","IXAPOParameters.SetParameters","IXAPOParameters::SetParameters","SetParameters","SetParameters method [XAudio2 Audio Mixing APIs]","SetParameters method [XAudio2 Audio Mixing APIs]","IXAPOParameters interface","xapo/IXAPOParameters::SetParameters","xaudio2.ixapoparameters_interface_setparameters"]
 old-location: xaudio2\ixapoparameters_interface_setparameters.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters.SetParameters(const void,UINT32)

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluseffects.Levels.GetParameters
 title: Levels::GetParameters (gdipluseffects.h)
-description: The Levels::GetParameters method gets the current values of the parameters of this Levels object.
+description: The Levels::GetParameters method gets the current values of the parameters of this Levels object.helpviewer_keywords: ["GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","Levels class","Levels class [GDI+]","GetParameters method","Levels.GetParameters","Levels::GetParameters","_gdiplus_CLASS_Levels_GetParameters_","gdiplus._gdiplus_CLASS_Levels_GetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_Levels_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsmethods\getparameters.htm

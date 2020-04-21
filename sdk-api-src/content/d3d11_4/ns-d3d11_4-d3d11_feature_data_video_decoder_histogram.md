@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11_4.D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM
 title: D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM
-description: Provides data for calls to ID3D11VideoDevice2::CheckFeatureSupport when the feature specified is D3D11_FEATURE_VIDEO_DECODER_HISTOGRAM.
+description: Provides data for calls to ID3D11VideoDevice2::CheckFeatureSupport when the feature specified is D3D11_FEATURE_VIDEO_DECODER_HISTOGRAM.helpviewer_keywords: ["D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM"]
 ms.date: 4/26/2019
 ms.keywords: D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM
 f1_keywords:

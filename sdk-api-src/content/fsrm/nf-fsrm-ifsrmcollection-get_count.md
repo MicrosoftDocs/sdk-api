@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmCollection.get_Count
 title: IFsrmCollection::get_Count (fsrm.h)
-description: Retrieves the number of items in the collection.
+description: Retrieves the number of items in the collection.helpviewer_keywords: ["Count property [File Server Resource Manager]","Count property [File Server Resource Manager]","IFsrmCollection interface","IFsrmCollection interface [File Server Resource Manager]","Count property","IFsrmCollection.Count","IFsrmCollection.get_Count","IFsrmCollection::Count","IFsrmCollection::get_Count","fs.ifsrmcollection_count","fsrm.ifsrmcollection_count","fsrm/IFsrmCollection::Count","fsrm/IFsrmCollection::get_Count","get_Count"]
 old-location: fsrm\ifsrmcollection_count.htm
 tech.root: fsrm
 ms.assetid: 47ea1193-0afe-4036-b8b5-511fa2e013be

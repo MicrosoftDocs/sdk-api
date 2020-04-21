@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_DESTROYSURFACEDATA
 title: DD_DESTROYSURFACEDATA (ddrawint.h)
-description: The DD_DESTROYSURFACEDATA structure contains information necessary to destroy the specified surface--in the case of DestroyD3DBuffer, a command or vertex buffer.
+description: The DD_DESTROYSURFACEDATA structure contains information necessary to destroy the specified surface--in the case of DestroyD3DBuffer, a command or vertex buffer.helpviewer_keywords: ["*PDD_DESTROYSURFACEDATA","DD_DESTROYSURFACEDATA","DD_DESTROYSURFACEDATA structure [Display Devices]","ddrawint/DD_DESTROYSURFACEDATA","ddstrcts_19c2445b-0f9f-445d-a486-8ca100beeca7.xml","display.dd_destroysurfacedata"]
 old-location: display\dd_destroysurfacedata.htm
 tech.root: display
 ms.assetid: 77d9544d-72df-4e7d-ba57-644aeee34a88

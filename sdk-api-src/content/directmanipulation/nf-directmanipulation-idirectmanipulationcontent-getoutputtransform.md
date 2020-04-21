@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetOutputTransform
 title: IDirectManipulationContent::GetOutputTransform (directmanipulation.h)
-description: Gets the final transform applied to the content.
+description: Gets the final transform applied to the content.helpviewer_keywords: ["GetOutputTransform","GetOutputTransform method [Direct Manipulation]","GetOutputTransform method [Direct Manipulation]","IDirectManipulationContent interface","IDirectManipulationContent interface [Direct Manipulation]","GetOutputTransform method","IDirectManipulationContent.GetOutputTransform","IDirectManipulationContent::GetOutputTransform","directmanipulation.idirectmanipulationcontent_getoutputtransform","directmanipulation/IDirectManipulationContent::GetOutputTransform"]
 old-location: directmanipulation\idirectmanipulationcontent_getoutputtransform.htm
 tech.root: directmanipulation
 ms.assetid: a8f746a4-650f-4f6d-8734-2e98f01898f2

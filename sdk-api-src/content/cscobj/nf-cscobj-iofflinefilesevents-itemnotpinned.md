@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemNotPinned
 title: IOfflineFilesEvents::ItemNotPinned (cscobj.h)
-description: Reports that an item in the Offline Files cache is no longer pinned.
+description: Reports that an item in the Offline Files cache is no longer pinned.helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemNotPinned method","IOfflineFilesEvents.ItemNotPinned","IOfflineFilesEvents::ItemNotPinned","ItemNotPinned","ItemNotPinned method [Offline Files]","ItemNotPinned method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemNotPinned","of.iofflinefilesevents_itemnotpinned"]
 old-location: of\iofflinefilesevents_itemnotpinned.htm
 tech.root: offlinefiles
 ms.assetid: cefd7408-9e98-48a4-ad43-0bdef9da1c95

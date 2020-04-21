@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IServiceInheritanceConfig.ContainingContextTreatment
 title: IServiceInheritanceConfig::ContainingContextTreatment (comsvcs.h)
-description: Determines whether the containing context is based on the current context.
+description: Determines whether the containing context is based on the current context.helpviewer_keywords: ["ContainingContextTreatment","ContainingContextTreatment method [COM+]","ContainingContextTreatment method [COM+]","IServiceInheritanceConfig interface","IServiceInheritanceConfig interface [COM+]","ContainingContextTreatment method","IServiceInheritanceConfig.ContainingContextTreatment","IServiceInheritanceConfig::ContainingContextTreatment","_cos_IServiceInheritanceConfig_ContainingContextTreatment","comsvcs/IServiceInheritanceConfig::ContainingContextTreatment","cos.iserviceinheritanceconfig_containingcontexttreatment"]
 old-location: cos\iserviceinheritanceconfig_containingcontexttreatment.htm
 tech.root: cossdk
 ms.assetid: 05009c50-1d39-46f7-b549-281342d07f5b

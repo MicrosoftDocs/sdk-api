@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbOrchestration
 title: ITsSbOrchestration (sbtsv.h)
-description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to ensure that the target is ready before a client is redirected to it.
+description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to ensure that the target is ready before a client is redirected to it.helpviewer_keywords: ["ITsSbOrchestration","ITsSbOrchestration interface [Remote Desktop Services]","ITsSbOrchestration interface [Remote Desktop Services]","described","sbtsv/ITsSbOrchestration","termserv.itssborchestration"]
 old-location: termserv\itssborchestration.htm
 tech.root: TermServ
 ms.assetid: fae858ae-19e5-453d-b9ef-1da7ea706e49

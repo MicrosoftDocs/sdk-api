@@ -1,7 +1,7 @@
 ---
 UID: NS:ocidl.tagPROPPAGEINFO
 title: PROPPAGEINFO (ocidl.h)
-description: Contains parameters used to describe a property page to a property frame. A property page fills a caller-provided structure in the IPropertyPage::GetPageInfo method.
+description: Contains parameters used to describe a property page to a property frame. A property page fills a caller-provided structure in the IPropertyPage::GetPageInfo method.helpviewer_keywords: ["*LPPROPPAGEINFO","LPPROPPAGEINFO","LPPROPPAGEINFO structure pointer [COM]","PROPPAGEINFO","PROPPAGEINFO structure [COM]","_ctrl_PROPPAGEINFO","com.proppageinfo","ocidl/LPPROPPAGEINFO","ocidl/PROPPAGEINFO"]
 old-location: com\proppageinfo.htm
 tech.root: com
 ms.assetid: 363fd45f-fb36-41f0-9d72-dc9c018859ec

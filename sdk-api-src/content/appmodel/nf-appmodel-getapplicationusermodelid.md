@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetApplicationUserModelId
 title: GetApplicationUserModelId function (appmodel.h)
-description: Gets the application user model ID for the specified process.
+description: Gets the application user model ID for the specified process.helpviewer_keywords: ["GetApplicationUserModelId","GetApplicationUserModelId function [App packaging and management]","appmodel/GetApplicationUserModelId","appxpkg.getapplicationusermodelid"]
 old-location: appxpkg\getapplicationusermodelid.htm
 tech.root: appxpkg
 ms.assetid: FE4E0818-F548-494B-B3BD-FB51DC748451

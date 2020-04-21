@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.ILogonTrigger
 title: ILogonTrigger (taskschd.h)
-description: Represents a trigger that starts a task when a user logs on.
+description: Represents a trigger that starts a task when a user logs on.helpviewer_keywords: ["ILogonTrigger","ILogonTrigger interface [Task Scheduler]","ILogonTrigger interface [Task Scheduler]","described","logon trigger [Task Scheduler]","interface","taskschd.ilogontrigger","taskschd/ILogonTrigger"]
 old-location: taskschd\ilogontrigger.htm
 tech.root: taskschd
 ms.assetid: c0206a18-53f2-4def-8f54-2b175a0579f4

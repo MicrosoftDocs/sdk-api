@@ -1,7 +1,7 @@
 ---
 UID: NS:mmeapi.midievent_tag
 title: MIDIEVENT (mmeapi.h)
-description: The MIDIEVENT structure describes a MIDI event in a stream buffer.
+description: The MIDIEVENT structure describes a MIDI event in a stream buffer.helpviewer_keywords: ["MIDIEVENT","MIDIEVENT structure [Windows Multimedia]","_win32_MIDIEVENT_str","midievent_tag","mmeapi/MIDIEVENT","multimedia.midievent"]
 old-location: multimedia\midievent.htm
 tech.root: Multimedia
 ms.assetid: e83bf111-2075-4cfc-a68b-e0a59a0c53e6

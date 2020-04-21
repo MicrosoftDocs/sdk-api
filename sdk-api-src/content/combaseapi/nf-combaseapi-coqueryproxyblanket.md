@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoQueryProxyBlanket
 title: CoQueryProxyBlanket function (combaseapi.h)
-description: Retrieves the authentication information the client uses to make calls on the specified proxy.
+description: Retrieves the authentication information the client uses to make calls on the specified proxy.helpviewer_keywords: ["CoQueryProxyBlanket","CoQueryProxyBlanket function [COM]","_com_CoQueryProxyBlanket","com.coqueryproxyblanket","combaseapi/CoQueryProxyBlanket"]
 old-location: com\coqueryproxyblanket.htm
 tech.root: com
 ms.assetid: e613e06a-0900-413e-bde2-39ce1612fed1

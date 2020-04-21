@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteBitmapRenderTarget1.SetTextAntialiasMode
 title: IDWriteBitmapRenderTarget1::SetTextAntialiasMode (dwrite_1.h)
-description: Sets the current text antialiasing mode of the bitmap render target.
+description: Sets the current text antialiasing mode of the bitmap render target.helpviewer_keywords: ["IDWriteBitmapRenderTarget1 interface [Direct Write]","SetTextAntialiasMode method","IDWriteBitmapRenderTarget1.SetTextAntialiasMode","IDWriteBitmapRenderTarget1::SetTextAntialiasMode","SetTextAntialiasMode","SetTextAntialiasMode method [Direct Write]","SetTextAntialiasMode method [Direct Write]","IDWriteBitmapRenderTarget1 interface","directwrite.idwritebitmaprendertarget1_settextantialiasmode","dwrite_1/IDWriteBitmapRenderTarget1::SetTextAntialiasMode"]
 old-location: directwrite\idwritebitmaprendertarget1_settextantialiasmode.htm
 tech.root: DirectWrite
 ms.assetid: 813C984D-81BC-4CAA-8C0A-166612E8028F

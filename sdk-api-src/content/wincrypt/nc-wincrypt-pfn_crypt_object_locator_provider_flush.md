@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH (wincrypt.h)
-description: Specifies that an object has changed.
+description: Specifies that an object has changed.helpviewer_keywords: ["PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH callback","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH callback function [Security]","security.pfn_crypt_object_locator_provider_flush","wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH"]
 old-location: security\pfn_crypt_object_locator_provider_flush.htm
 tech.root: SecCrypto
 ms.assetid: F6EE5424-A3ED-4E90-897B-56C605EB985C

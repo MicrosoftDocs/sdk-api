@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi.CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
 title: CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL (clusapi.h)
-description: Represents IP information for a NetName resource that has Multichannel enabled.
+description: Represents IP information for a NetName resource that has Multichannel enabled.helpviewer_keywords: ["*PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL","CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL","CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL structure [Failover Cluster]","PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL","PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL structure pointer [Failover Cluster]","clusapi/CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL","clusapi/PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL","mscs.clus_netname_ip_info_for_multichannel"]
 old-location: mscs\clus_netname_ip_info_for_multichannel.htm
 tech.root: MsCS
 ms.assetid: 724FD774-00F4-4617-B761-87509AD61AF4

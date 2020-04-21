@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerCredentialsXml2Blob
 title: EapPeerCredentialsXml2Blob function (eapmethodpeerapis.h)
-description: Converts XML into the configuration BLOB.
+description: Converts XML into the configuration BLOB.helpviewer_keywords: ["EapPeerCredentialsXml2Blob","EapPeerCredentialsXml2Blob function [EAPHost]","eaphost.eappeercredentialsxml2blob","eapmethodpeerapis/EapPeerCredentialsXml2Blob"]
 old-location: eaphost\eappeercredentialsxml2blob.htm
 tech.root: eaphost
 ms.assetid: 45a13be7-9a01-467b-97db-ca896d945ee7

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BoundsAdjustmentTransform.SetOutputBounds
 title: ID2D1BoundsAdjustmentTransform::SetOutputBounds (d2d1effectauthor.h)
-description: This sets the output bounds for the support transform.
+description: This sets the output bounds for the support transform.helpviewer_keywords: ["ID2D1BoundsAdjustmentTransform interface [Direct2D]","SetOutputBounds method","ID2D1BoundsAdjustmentTransform.SetOutputBounds","ID2D1BoundsAdjustmentTransform::SetOutputBounds","SetOutputBounds","SetOutputBounds method [Direct2D]","SetOutputBounds method [Direct2D]","ID2D1BoundsAdjustmentTransform interface","d2d1effectauthor/ID2D1BoundsAdjustmentTransform::SetOutputBounds","direct2d.id2d1boundsadjustmenttransform_setoutputbounds"]
 old-location: direct2d\id2d1boundsadjustmenttransform_setoutputbounds.htm
 tech.root: Direct2D
 ms.assetid: AC0E392A-0410-44BC-8B52-FAD97D45970F

@@ -1,7 +1,7 @@
 ---
 UID: NI:vmgenerationcounter.IOCTL_VMGENCOUNTER_READ
 title: IOCTL_VMGENCOUNTER_READ (vmgenerationcounter.h)
-description: The IOCTL_VMGENCOUNTER_READ control code retrieves a virtual machine generation identifier.
+description: The IOCTL_VMGENCOUNTER_READ control code retrieves a virtual machine generation identifier.helpviewer_keywords: ["IOCTL_VMGENCOUNTER_READ","IOCTL_VMGENCOUNTER_READ control","IOCTL_VMGENCOUNTER_READ control code","hyperv.ioctl_vmgencounter_read","vmgenerationcounter/IOCTL_VMGENCOUNTER_READ"]
 old-location: hyperv\ioctl_vmgencounter_read.htm
 tech.root: HyperV_v2
 ms.assetid: D8945F17-8982-4694-BDD9-DD67963626D1

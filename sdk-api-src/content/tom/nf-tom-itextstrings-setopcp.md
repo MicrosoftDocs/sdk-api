@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextStrings.SetOpCp
 title: ITextStrings::SetOpCp (tom.h)
-description: Sets the character position in the source range's story that has desired character formatting attributes.
+description: Sets the character position in the source range's story that has desired character formatting attributes.helpviewer_keywords: ["ITextStrings interface [Windows Controls]","SetOpCp method","ITextStrings.SetOpCp","ITextStrings::SetOpCp","SetOpCp","SetOpCp method [Windows Controls]","SetOpCp method [Windows Controls]","ITextStrings interface","controls.itextstrings_setopcp","tom/ITextStrings::SetOpCp"]
 old-location: controls\itextstrings_setopcp.htm
 tech.root: Controls
 ms.assetid: c869a42a-0937-4051-9cb0-d454255989d2

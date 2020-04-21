@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsReadEndAttribute
 title: WsReadEndAttribute function (webservices.h)
-description: Moves the reader back to the element node containing the attribute that was read.
+description: Moves the reader back to the element node containing the attribute that was read.helpviewer_keywords: ["WsReadEndAttribute","WsReadEndAttribute function [Web Services for Windows]","webservices/WsReadEndAttribute","wsw.wsreadendattribute"]
 old-location: wsw\wsreadendattribute.htm
 tech.root: wsw
 ms.assetid: 1181ca68-f67b-47e1-b9de-1bc57ecf36f6

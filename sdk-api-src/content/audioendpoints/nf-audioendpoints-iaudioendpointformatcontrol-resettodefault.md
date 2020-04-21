@@ -1,7 +1,7 @@
 ---
 UID: NF:audioendpoints.IAudioEndpointFormatControl.ResetToDefault
 title: IAudioEndpointFormatControl::ResetToDefault (audioendpoints.h)
-description: Resets the format to the default setting provided by the device manufacturer.
+description: Resets the format to the default setting provided by the device manufacturer.helpviewer_keywords: ["IAudioEndpointFormatControl interface [Core Audio]","ResetToDefault method","IAudioEndpointFormatControl.ResetToDefault","IAudioEndpointFormatControl::ResetToDefault","ResetToDefault","ResetToDefault method [Core Audio]","ResetToDefault method [Core Audio]","IAudioEndpointFormatControl interface","audioendpoints/IAudioEndpointFormatControl::ResetToDefault","coreaudio.iaudioendpointformatcontrol_resettodefault"]
 old-location: coreaudio\iaudioendpointformatcontrol_resettodefault.htm
 tech.root: CoreAudio
 ms.assetid: EAE5206D-8BDF-4016-A0E6-D56D0F6B3566

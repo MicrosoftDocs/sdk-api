@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetSize
 title: ID2D1RenderTarget::GetSize (d2d1.h)
-description: Returns the size of the render target in device-independent pixels.
+description: Returns the size of the render target in device-independent pixels.helpviewer_keywords: ["GetSize","GetSize method [Direct2D]","GetSize method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetSize method","ID2D1RenderTarget.GetSize","ID2D1RenderTarget::GetSize","d2d1/ID2D1RenderTarget::GetSize","direct2d.ID2D1RenderTarget_GetSize"]
 old-location: direct2d\ID2D1RenderTarget_GetSize.htm
 tech.root: Direct2D
 ms.assetid: a46ec1c6-b0ff-4822-ab92-0b0a2ab564ba

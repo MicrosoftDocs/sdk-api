@@ -1,7 +1,7 @@
 ---
 UID: NF:perflib.PerfOpenQueryHandle
 title: PerfOpenQueryHandle function (perflib.h)
-description: Creates a handle that references a query on the specified system. A query is a list of counter specifications.
+description: Creates a handle that references a query on the specified system. A query is a list of counter specifications.helpviewer_keywords: ["PerfOpenQueryHandle","PerfOpenQueryHandle function [Perf]","perf.perfopenqueryhandle","perflib/PerfOpenQueryHandle"]
 old-location: perf\perfopenqueryhandle.htm
 tech.root: perfctrs
 ms.assetid: 5105F617-9443-451D-B802-C6A241769E65

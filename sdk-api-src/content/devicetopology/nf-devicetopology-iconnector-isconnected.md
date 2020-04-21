@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IConnector.IsConnected
 title: IConnector::IsConnected (devicetopology.h)
-description: The IsConnected method indicates whether this connector is connected to another connector.
+description: The IsConnected method indicates whether this connector is connected to another connector.helpviewer_keywords: ["IConnector interface [Core Audio]","IsConnected method","IConnector.IsConnected","IConnector::IsConnected","IConnectorIsConnected","IsConnected","IsConnected method [Core Audio]","IsConnected method [Core Audio]","IConnector interface","coreaudio.iconnector_isconnected","devicetopology/IConnector::IsConnected"]
 old-location: coreaudio\iconnector_isconnected.htm
 tech.root: CoreAudio
 ms.assetid: 56aaee41-bf55-4556-b3d3-b0548a0db37c

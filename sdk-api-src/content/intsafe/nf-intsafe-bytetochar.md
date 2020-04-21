@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ByteToChar
 title: ByteToChar function (intsafe.h)
-description: Converts a value of type BYTE to a value of type CHAR.
+description: Converts a value of type BYTE to a value of type CHAR.helpviewer_keywords: ["ByteToChar","ByteToChar function [Windows Shell]","intsafe/ByteToChar","shell.ByteToChar"]
 old-location: shell\ByteToChar.htm
 tech.root: shell
 ms.assetid: d10b3450-3dfc-4acf-9853-f7c191041b33

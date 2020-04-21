@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetThreadDpiHostingBehavior
 title: GetThreadDpiHostingBehavior function (winuser.h)
-description: Retrieves the DPI_HOSTING_BEHAVIOR from the current thread.
+description: Retrieves the DPI_HOSTING_BEHAVIOR from the current thread.helpviewer_keywords: ["GetThreadDpiHostingBehavior","GetThreadDpiHostingBehavior function [High DPI]","hidpi.getthreaddpihostingbehavior","winuser/GetThreadDpiHostingBehavior"]
 old-location: hidpi\getthreaddpihostingbehavior.htm
 tech.root: hidpi
 ms.assetid: B9500745-9B53-47FF-9F45-0BFF3A66FD46

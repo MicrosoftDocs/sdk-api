@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpShutdownRequestQueue
 title: HttpShutdownRequestQueue function (http.h)
-description: Stops queuing requests for the specified request queue process.
+description: Stops queuing requests for the specified request queue process.helpviewer_keywords: ["HttpShutdownRequestQueue","HttpShutdownRequestQueue function [HTTP]","http.httpshutdownrequestqueue","http/HttpShutdownRequestQueue"]
 old-location: http\httpshutdownrequestqueue.htm
 tech.root: http
 ms.assetid: f6640565-a5a1-4a71-938c-1adf54beb40a

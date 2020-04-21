@@ -1,7 +1,7 @@
 ---
 UID: NS:fwptypes.IPSEC_VIRTUAL_IF_TUNNEL_INFO0_
 title: IPSEC_VIRTUAL_IF_TUNNEL_INFO0 (fwptypes.h)
-description: Is used to store information specific to virtual interface tunneling.
+description: Is used to store information specific to virtual interface tunneling.helpviewer_keywords: ["IPSEC_VIRTUAL_IF_TUNNEL_INFO0","IPSEC_VIRTUAL_IF_TUNNEL_INFO0 structure [Filtering]","IPSEC_VIRTUAL_IF_TUNNEL_INFO0_","fwp.ipsec_virtual_if_tunnel_info0","fwptypes/IPSEC_VIRTUAL_IF_TUNNEL_INFO0"]
 old-location: fwp\ipsec_virtual_if_tunnel_info0.htm
 tech.root: fwp
 ms.assetid: 91af0790-865f-44f5-b6c8-fd048bf99125

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngineOnSampleCallback2
 title: IMFCaptureEngineOnSampleCallback2 (mfcaptureengine.h)
-description: Extensions for the IMFCaptureEngineOnSampleCallback callback interface that is used to receive data from the capture engine.
+description: Extensions for the IMFCaptureEngineOnSampleCallback callback interface that is used to receive data from the capture engine.helpviewer_keywords: ["IMFCaptureEngineOnSampleCallback2","IMFCaptureEngineOnSampleCallback2 interface [Media Foundation]","IMFCaptureEngineOnSampleCallback2 interface [Media Foundation]","described","mf.imfcaptureengineonsamplecallback2","mfcaptureengine/IMFCaptureEngineOnSampleCallback2"]
 old-location: mf\imfcaptureengineonsamplecallback2.htm
 tech.root: medfound
 ms.assetid: 0899e558-df9e-4060-970c-af0bd26ed5ce

@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._SECURITY_QUALITY_OF_SERVICE
 title: SECURITY_QUALITY_OF_SERVICE (winnt.h)
-description: Contains information used to support client impersonation.
+description: Contains information used to support client impersonation.helpviewer_keywords: ["*PSECURITY_QUALITY_OF_SERVICE","PSECURITY_QUALITY_OF_SERVICE","PSECURITY_QUALITY_OF_SERVICE structure pointer [Security]","SECURITY_QUALITY_OF_SERVICE","SECURITY_QUALITY_OF_SERVICE structure [Security]","_SECURITY_QUALITY_OF_SERVICE","_win32_security_quality_of_service_str","security.security_quality_of_service","winnt/PSECURITY_QUALITY_OF_SERVICE","winnt/SECURITY_QUALITY_OF_SERVICE"]
 old-location: security\security_quality_of_service.htm
 tech.root: SecAuthZ
 ms.assetid: 21f99d04-b21b-442c-9034-35f9f7bbee53

@@ -1,7 +1,7 @@
 ---
 UID: NC:winwlx.PWLX_WIN31_MIGRATE
 title: PWLX_WIN31_MIGRATE (winwlx.h)
-description: Called by a replacement GINA DLL if Terminal Services is enabled. GINA calls this function to complete the setup of the Terminal Services client.
+description: Called by a replacement GINA DLL if Terminal Services is enabled. GINA calls this function to complete the setup of the Terminal Services client.helpviewer_keywords: ["PWLX_WIN31_MIGRATE","PWLX_WIN31_MIGRATE callback","WlxWin31Migrate","WlxWin31Migrate callback function [Security]","_gina_wlxwin31migrate","security.wlxwin31migrate","winwlx/WlxWin31Migrate"]
 old-location: security\wlxwin31migrate.htm
 tech.root: SecAuthN
 ms.assetid: bb36254c-0696-4f3f-89d7-332837ec3a75

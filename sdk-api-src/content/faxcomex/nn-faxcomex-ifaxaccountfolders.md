@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxAccountFolders
 title: IFaxAccountFolders (faxcomex.h)
-description: Provides access to the incoming and outgoing fax queues and fax archives.
+description: Provides access to the incoming and outgoing fax queues and fax archives.helpviewer_keywords: ["IFaxAccountFolders","IFaxAccountFolders interface [Fax Service]","IFaxAccountFolders interface [Fax Service]","described","_mfax_faxaccountfolders_cpp","fax._mfax_faxaccountfolders_cpp","faxcomex/IFaxAccountFolders"]
 old-location: fax\_mfax_faxaccountfolders_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\faxint_ifaxaccountfolders.htm

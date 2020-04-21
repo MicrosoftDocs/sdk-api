@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.GetSystemDefaultLocaleName
 title: GetSystemDefaultLocaleName function (winnls.h)
-description: Retrieves the system default locale name.Note  It is recommended that applications call GetUserDefaultLocaleName in preference over this function.
+description: Retrieves the system default locale name.Note  It is recommended that applications call GetUserDefaultLocaleName in preference over this function.helpviewer_keywords: ["GetSystemDefaultLocaleName","GetSystemDefaultLocaleName function [Internationalization for Windows Applications]","_win32_GetSystemDefaultLocaleName","intl.getsystemdefaultlocalename","winnls/GetSystemDefaultLocaleName"]
 old-location: intl\getsystemdefaultlocalename.htm
 tech.root: Intl
 ms.assetid: 1e925e41-64db-44aa-ab73-05d0f2036c8f

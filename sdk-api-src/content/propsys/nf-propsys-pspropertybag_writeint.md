@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteInt
 title: PSPropertyBag_WriteInt function (propsys.h)
-description: Sets the int value of a property in a property bag.
+description: Sets the int value of a property in a property bag.helpviewer_keywords: ["PSPropertyBag_WriteInt","PSPropertyBag_WriteInt function [Windows Properties]","properties.PSPropertyBag_WriteInt","propsys/PSPropertyBag_WriteInt","shell.PSPropertyBag_WriteInt","shell_PSPropertyBag_WriteInt"]
 old-location: properties\PSPropertyBag_WriteInt.htm
 tech.root: properties
 ms.assetid: 1FCC59B1-5084-4981-8F1D-A5860744F221

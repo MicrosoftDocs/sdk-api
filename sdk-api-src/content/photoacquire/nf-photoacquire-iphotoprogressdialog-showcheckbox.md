@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.ShowCheckbox
 title: IPhotoProgressDialog::ShowCheckbox (photoacquire.h)
-description: The ShowCheckbox method indicates whether to show the check box in the progress dialog box indicating whether to delete images after transfer.
+description: The ShowCheckbox method indicates whether to show the check box in the progress dialog box indicating whether to delete images after transfer.helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","ShowCheckbox method","IPhotoProgressDialog.ShowCheckbox","IPhotoProgressDialog::ShowCheckbox","IPhotoProgressDialogShowCheckbox","ShowCheckbox","ShowCheckbox method [Picture Acquisition]","ShowCheckbox method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::ShowCheckbox","picacq.iphotoprogressdialog_showcheckbox"]
 old-location: picacq\iphotoprogressdialog_showcheckbox.htm
 tech.root: acquisition
 ms.assetid: 6518c073-b4d9-49df-819f-473028ad230a

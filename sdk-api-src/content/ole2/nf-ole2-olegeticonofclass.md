@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleGetIconOfClass
 title: OleGetIconOfClass function (ole2.h)
-description: Returns a handle to a metafile containing an icon and a string label for the specified CLSID.
+description: Returns a handle to a metafile containing an icon and a string label for the specified CLSID.helpviewer_keywords: ["OleGetIconOfClass","OleGetIconOfClass function [COM]","_com_OleGetIconOfClass","com.olegeticonofclass","ole2/OleGetIconOfClass"]
 old-location: com\olegeticonofclass.htm
 tech.root: com
 ms.assetid: 88ac1c14-b5a8-4100-9fa5-d7af35052b48

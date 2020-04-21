@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MAKEIPADDRESS
 title: MAKEIPADDRESS macro (commctrl.h)
-description: Packs four byte-values into a single LPARAM suitable for use with the IPM_SETADDRESS message.
+description: Packs four byte-values into a single LPARAM suitable for use with the IPM_SETADDRESS message.helpviewer_keywords: ["MAKEIPADDRESS","MAKEIPADDRESS macro [Windows Controls]","_win32_MAKEIPADDRESS","_win32_MAKEIPADDRESS_cpp","commctrl/MAKEIPADDRESS","controls.MAKEIPADDRESS","controls._win32_MAKEIPADDRESS"]
 old-location: controls\MAKEIPADDRESS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeipaddress.htm

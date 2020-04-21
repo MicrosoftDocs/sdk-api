@@ -1,7 +1,7 @@
 ---
 UID: NE:cfapi.CF_OPEN_FILE_FLAGS
 title: CF_OPEN_FILE_FLAGS (cfapi.h)
-description: Flags to request various permissions on opening a file.
+description: Flags to request various permissions on opening a file.helpviewer_keywords: ["CF_OPEN_FILE_FLAGS","CF_OPEN_FILE_FLAGS enumeration","CF_OPEN_FILE_FLAG_DELETE_ACCESS","CF_OPEN_FILE_FLAG_EXCLUSIVE","CF_OPEN_FILE_FLAG_NONE","CF_OPEN_FILE_FLAG_WRITE_ACCESS","cfapi/CF_OPEN_FILE_FLAGS","cfapi/CF_OPEN_FILE_FLAG_DELETE_ACCESS","cfapi/CF_OPEN_FILE_FLAG_EXCLUSIVE","cfapi/CF_OPEN_FILE_FLAG_NONE","cfapi/CF_OPEN_FILE_FLAG_WRITE_ACCESS","cloudApi.cf_open_file_flags"]
 old-location: cloudapi\cf_open_file_flags.htm
 tech.root: cfApi
 ms.assetid: 4A9D87AB-7B81-46DF-80C3-DB2F63C76964

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseKerberos
 title: IWSManEx::SessionFlagUseKerberos (wsmandisp.h)
-description: Returns the value of the authentication flag WSManFlagUseKerberos for use in the flags parameter of IWSMan::CreateSession.
+description: Returns the value of the authentication flag WSManFlagUseKerberos for use in the flags parameter of IWSMan::CreateSession.helpviewer_keywords: ["IWSManEx interface [Windows Remote Management]","SessionFlagUseKerberos method","IWSManEx.SessionFlagUseKerberos","IWSManEx::SessionFlagUseKerberos","SessionFlagUseKerberos","SessionFlagUseKerberos method [Windows Remote Management]","SessionFlagUseKerberos method [Windows Remote Management]","IWSManEx interface","winrm.iwsmanex_sessionflagusekerberos","wsmandisp/IWSManEx::SessionFlagUseKerberos"]
 old-location: winrm\iwsmanex_sessionflagusekerberos.htm
 tech.root: winrm
 ms.assetid: 14b949d8-774b-4224-ab08-b52ff71ab1bb

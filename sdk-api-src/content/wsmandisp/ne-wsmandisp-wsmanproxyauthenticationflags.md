@@ -1,7 +1,7 @@
 ---
 UID: NE:wsmandisp._WSManProxyAuthenticationFlags
 title: WSManProxyAuthenticationFlags (wsmandisp.h)
-description: Determines the proxy authentication mechanism.
+description: Determines the proxy authentication mechanism.helpviewer_keywords: ["WSManFlagProxyAuthenticationUseBasic","WSManFlagProxyAuthenticationUseDigest","WSManFlagProxyAuthenticationUseNegotiate","WSManProxyAuthenticationFlags","WSManProxyAuthenticationFlags enumeration [Windows Remote Management]","winrm.wsmanproxyauthenticationflags","wsmandisp/WSManFlagProxyAuthenticationUseBasic","wsmandisp/WSManFlagProxyAuthenticationUseDigest","wsmandisp/WSManFlagProxyAuthenticationUseNegotiate","wsmandisp/WSManProxyAuthenticationFlags"]
 old-location: winrm\wsmanproxyauthenticationflags.htm
 tech.root: winrm
 ms.assetid: 4a86dfae-18c9-4865-8b8b-bb0ac01f558c

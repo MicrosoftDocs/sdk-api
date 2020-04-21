@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMoniker.IsRunning
 title: IMoniker::IsRunning (objidl.h)
-description: Determines whether the object identified by this moniker is currently loaded and running.
+description: Determines whether the object identified by this moniker is currently loaded and running.helpviewer_keywords: ["IMoniker interface [COM]","IsRunning method","IMoniker.IsRunning","IMoniker::IsRunning","IsRunning","IsRunning method [COM]","IsRunning method [COM]","IMoniker interface","_com_imoniker_isrunning","com.imoniker_isrunning","objidl/IMoniker::IsRunning"]
 old-location: com\imoniker_isrunning.htm
 tech.root: com
 ms.assetid: 081b394c-1fe8-4519-999e-b3985a77bd9c

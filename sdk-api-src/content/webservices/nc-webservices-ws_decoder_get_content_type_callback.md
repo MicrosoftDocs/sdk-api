@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_DECODER_GET_CONTENT_TYPE_CALLBACK
 title: WS_DECODER_GET_CONTENT_TYPE_CALLBACK (webservices.h)
-description: Gets the content type of the message.
+description: Gets the content type of the message.helpviewer_keywords: ["WS_DECODER_GET_CONTENT_TYPE_CALLBACK","WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback","WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows]","webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK","wsw.ws_decoder_get_content_type_callback"]
 old-location: wsw\ws_decoder_get_content_type_callback.htm
 tech.root: wsw
 ms.assetid: 8920259f-e52d-4141-87ff-0e1ac1396517

@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.ICspAlgorithm
 title: ICspAlgorithm (certenroll.h)
-description: Represents an algorithm implemented by a cryptographic provider.
+description: Represents an algorithm implemented by a cryptographic provider.helpviewer_keywords: ["ICspAlgorithm","ICspAlgorithm interface [Security]","ICspAlgorithm interface [Security]","described","certenroll/ICspAlgorithm","security.icspalgorithm"]
 old-location: security\icspalgorithm.htm
 tech.root: seccertenroll
 ms.assetid: 08eba616-2e96-40cd-9fda-8549de98c138

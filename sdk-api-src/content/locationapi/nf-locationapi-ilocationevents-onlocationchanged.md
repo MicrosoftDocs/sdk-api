@@ -1,7 +1,7 @@
 ---
 UID: NF:locationapi.ILocationEvents.OnLocationChanged
 title: ILocationEvents::OnLocationChanged (locationapi.h)
-description: Called when a new location report is available.
+description: Called when a new location report is available.helpviewer_keywords: ["ILocationEvents interface [WinLocation]","OnLocationChanged method","ILocationEvents.OnLocationChanged","ILocationEvents::OnLocationChanged","OnLocationChanged","OnLocationChanged method [WinLocation]","OnLocationChanged method [WinLocation]","ILocationEvents interface","WinLocation_COM_Ref.ilocationevents_onlocationchanged","locationapi/ILocationEvents::OnLocationChanged"]
 old-location: winlocation_com_ref\ilocationevents_onlocationchanged.htm
 tech.root: locationapi
 ms.assetid: 14353c8e-15f5-493b-9b49-139924f2397e

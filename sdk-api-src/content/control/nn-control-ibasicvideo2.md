@@ -1,7 +1,7 @@
 ---
 UID: NN:control.IBasicVideo2
 title: IBasicVideo2 (control.h)
-description: The IBasicVideo2 interface extends the IBasicVideo interface.
+description: The IBasicVideo2 interface extends the IBasicVideo interface.helpviewer_keywords: ["IBasicVideo2","IBasicVideo2 interface [DirectShow]","IBasicVideo2 interface [DirectShow]","described","IBasicVideo2Interface","control/IBasicVideo2","dshow.ibasicvideo2"]
 old-location: dshow\ibasicvideo2.htm
 tech.root: DirectShow
 ms.assetid: a21fe7b9-75db-4c5b-bb29-42d305f048a1

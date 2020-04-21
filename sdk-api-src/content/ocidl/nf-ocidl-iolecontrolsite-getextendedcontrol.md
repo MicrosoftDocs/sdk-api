@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleControlSite.GetExtendedControl
 title: IOleControlSite::GetExtendedControl (ocidl.h)
-description: Retrieves an IDispatch pointer to the extended control that the container uses to wrap the real control.
+description: Retrieves an IDispatch pointer to the extended control that the container uses to wrap the real control.helpviewer_keywords: ["GetExtendedControl","GetExtendedControl method [COM]","GetExtendedControl method [COM]","IOleControlSite interface","IOleControlSite interface [COM]","GetExtendedControl method","IOleControlSite.GetExtendedControl","IOleControlSite::GetExtendedControl","_ctrl_iolecontrolsite_getextendedcontrol","com.iolecontrolsite_getextendedcontrol","ocidl/IOleControlSite::GetExtendedControl"]
 old-location: com\iolecontrolsite_getextendedcontrol.htm
 tech.root: com
 ms.assetid: 66cfdf22-db2b-41d2-9854-d6bf70fbe146

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ICategorizer.CompareCategory
 title: ICategorizer::CompareCategory (shobjidl_core.h)
-description: Determines the relative order of two items in their item identifier lists, and hence in the UI.
+description: Determines the relative order of two items in their item identifier lists, and hence in the UI.helpviewer_keywords: ["CompareCategory","CompareCategory method [Windows Shell]","CompareCategory method [Windows Shell]","ICategorizer interface","ICategorizer interface [Windows Shell]","CompareCategory method","ICategorizer.CompareCategory","ICategorizer::CompareCategory","inet_ICategorizer_CompareCategory","shell.ICategorizer_CompareCategory","shobjidl_core/ICategorizer::CompareCategory"]
 old-location: shell\ICategorizer_CompareCategory.htm
 tech.root: shell
 ms.assetid: 25775fa5-595d-4911-9cd4-47fde429b923

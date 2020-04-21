@@ -1,7 +1,7 @@
 ---
 UID: NN:workspaceruntimeclientext.IWorkspaceClientExt
 title: IWorkspaceClientExt (workspaceruntimeclientext.h)
-description: Exposes methods that allow the runtime to disconnect a custom client in RemoteApp and Desktop Connection.
+description: Exposes methods that allow the runtime to disconnect a custom client in RemoteApp and Desktop Connection.helpviewer_keywords: ["IWorkspaceClientExt","IWorkspaceClientExt interface [Remote Desktop Services]","IWorkspaceClientExt interface [Remote Desktop Services]","described","termserv.iworkspaceclientext","workspaceruntimeclientext/IWorkspaceClientExt"]
 old-location: termserv\iworkspaceclientext.htm
 tech.root: TermServ
 ms.assetid: f72b0709-1a55-49c9-ab5d-22f9259c41f0

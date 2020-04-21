@@ -1,7 +1,7 @@
 ---
 UID: NF:dsclient.IDsBrowseDomainTree.BrowseTo
 title: IDsBrowseDomainTree::BrowseTo (dsclient.h)
-description: The IDsBrowseDomainTree::BrowseTo method displays a dialog box used to browse for a domain.
+description: The IDsBrowseDomainTree::BrowseTo method displays a dialog box used to browse for a domain.helpviewer_keywords: ["BrowseTo","BrowseTo method [Active Directory]","BrowseTo method [Active Directory]","IDsBrowseDomainTree interface","DBDTF_RETURNEXTERNAL","DBDTF_RETURNFQDN","DBDTF_RETURNINBOUND","DBDTF_RETURNINOUTBOUND","DBDTF_RETURNMIXEDDOMAINS","IDsBrowseDomainTree interface [Active Directory]","BrowseTo method","IDsBrowseDomainTree.BrowseTo","IDsBrowseDomainTree::BrowseTo","_glines_idsbrowsedomaintree_browseto","ad.idsbrowsedomaintree__browseto","ad.idsbrowsedomaintree_browseto","dsclient/IDsBrowseDomainTree::BrowseTo"]
 old-location: ad\idsbrowsedomaintree_browseto.htm
 tech.root: ad
 ms.assetid: 22b719fc-bd46-44c6-a690-af6e9767f9ce

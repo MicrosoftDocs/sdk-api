@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextGetByKey1
 title: FwpmProviderContextGetByKey1 function (fwpmu.h)
-description: Retrieves a provider context.
+description: Retrieves a provider context.helpviewer_keywords: ["FwpmProviderContextGetByKey1","FwpmProviderContextGetByKey1 function [Filtering]","fwp.fwpmprovidercontextgetbykey1_func","fwpmu/FwpmProviderContextGetByKey1"]
 old-location: fwp\fwpmprovidercontextgetbykey1_func.htm
 tech.root: fwp
 ms.assetid: 896b0b83-b262-4a09-a88e-eb4b623888ab

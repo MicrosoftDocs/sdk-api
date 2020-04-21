@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt._interlockedbittestandreset64
 title: _interlockedbittestandreset64 function (winnt.h)
-description: Tests the specified bit of the specified LONG64 value and sets it to 0. The operation is atomic.
+description: Tests the specified bit of the specified LONG64 value and sets it to 0. The operation is atomic.helpviewer_keywords: ["InterlockedBitTestAndReset64","InterlockedBitTestAndReset64 function","_interlockedbittestandreset64","base.interlockedbittestandreset64","winnt/InterlockedBitTestAndReset64"]
 old-location: base\interlockedbittestandreset64.htm
 tech.root: Sync
 ms.assetid: a0f05333-d391-4596-b4f1-3146b46a6108

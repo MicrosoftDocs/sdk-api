@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetDestSize
 title: IDXGIDecodeSwapChain::SetDestSize (dxgi1_3.h)
-description: Sets the size of the destination surface to use for the video processing blit operation.
+description: Sets the size of the destination surface to use for the video processing blit operation.helpviewer_keywords: ["IDXGIDecodeSwapChain interface [DXGI]","SetDestSize method","IDXGIDecodeSwapChain.SetDestSize","IDXGIDecodeSwapChain::SetDestSize","SetDestSize","SetDestSize method [DXGI]","SetDestSize method [DXGI]","IDXGIDecodeSwapChain interface","direct3ddxgi.idxgidecodeswapchain_setdestsize","dxgi1_3/IDXGIDecodeSwapChain::SetDestSize"]
 old-location: direct3ddxgi\idxgidecodeswapchain_setdestsize.htm
 tech.root: direct3ddxgi
 ms.assetid: BF35FFFE-89C7-4220-9D9F-5BFFE53D3430

@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetConfigEntry
 title: ICertAdmin2::GetConfigEntry (certadm.h)
-description: Retrieves configuration information for a certification authority (CA).
+description: Retrieves configuration information for a certification authority (CA).helpviewer_keywords: ["GetConfigEntry","GetConfigEntry method [Security]","GetConfigEntry method [Security]","ICertAdmin2 interface","ICertAdmin2 interface [Security]","GetConfigEntry method","ICertAdmin2.GetConfigEntry","ICertAdmin2::GetConfigEntry","certadm/ICertAdmin2::GetConfigEntry","security.icertadmin2_getconfigentry"]
 old-location: security\icertadmin2_getconfigentry.htm
 tech.root: SecCrypto
 ms.assetid: 1acb9e06-c9e5-419a-899a-b0ae80fab99e

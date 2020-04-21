@@ -1,7 +1,7 @@
 ---
 UID: NS:mstcpip._SOCKET_SECURITY_QUERY_TEMPLATE
 title: SOCKET_SECURITY_QUERY_TEMPLATE (mstcpip.h)
-description: Contains the security template used by the WSAQuerySocketSecurity function.
+description: Contains the security template used by the WSAQuerySocketSecurity function.helpviewer_keywords: ["SOCKET_SECURITY_QUERY_TEMPLATE","SOCKET_SECURITY_QUERY_TEMPLATE structure [Winsock]","mstcpip/SOCKET_SECURITY_QUERY_TEMPLATE","winsock.socket_security_query_template"]
 old-location: winsock\socket_security_query_template.htm
 tech.root: WinSock
 ms.assetid: cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4

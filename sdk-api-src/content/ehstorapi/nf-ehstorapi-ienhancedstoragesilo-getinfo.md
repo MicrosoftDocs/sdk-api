@@ -1,7 +1,7 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSilo.GetInfo
 title: IEnhancedStorageSilo::GetInfo (ehstorapi.h)
-description: Returns the descriptive information associated with the silo object.
+description: Returns the descriptive information associated with the silo object.helpviewer_keywords: ["GetInfo","GetInfo method [Enhanced Storage]","GetInfo method [Enhanced Storage]","IEnhancedStorageSilo interface","IEnhancedStorageSilo interface [Enhanced Storage]","GetInfo method","IEnhancedStorageSilo.GetInfo","IEnhancedStorageSilo::GetInfo","ehstorapi/IEnhancedStorageSilo::GetInfo","enstor.ienhancedstoragesilo_getinfo"]
 old-location: enstor\ienhancedstoragesilo_getinfo.htm
 tech.root: enstor
 ms.assetid: c3d84462-fb2c-4ad7-b539-1d6c775812dd

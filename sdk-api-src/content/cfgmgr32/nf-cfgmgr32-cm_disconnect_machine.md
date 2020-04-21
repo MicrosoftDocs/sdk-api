@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Disconnect_Machine
 title: CM_Disconnect_Machine function (cfgmgr32.h)
-description: The CM_Disconnect_Machine function removes a connection to a remote machine.
+description: The CM_Disconnect_Machine function removes a connection to a remote machine.helpviewer_keywords: ["CM_Disconnect_Machine","CM_Disconnect_Machine function [Device and Driver Installation]","cfgmgr32/CM_Disconnect_Machine","cfgmgrfn_e3549f15-0066-4ace-9b50-45ecf20cce87.xml","devinst.cm_disconnect_machine"]
 old-location: devinst\cm_disconnect_machine.htm
 tech.root: devinst
 ms.assetid: 8318eb7e-f0fa-4b2a-b82d-e8f830665c9d

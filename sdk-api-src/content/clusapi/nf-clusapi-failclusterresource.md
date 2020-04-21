@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.FailClusterResource
 title: FailClusterResource function (clusapi.h)
-description: Initiates a resource failure.
+description: Initiates a resource failure.helpviewer_keywords: ["FailClusterResource","FailClusterResource function [Failover Cluster]","PCLUSAPI_FAIL_CLUSTER_RESOURCE","PCLUSAPI_FAIL_CLUSTER_RESOURCE function [Failover Cluster]","_wolf_failclusterresource","clusapi/FailClusterResource","clusapi/PCLUSAPI_FAIL_CLUSTER_RESOURCE","mscs.failclusterresource"]
 old-location: mscs\failclusterresource.htm
 tech.root: MsCS
 ms.assetid: fcf0226e-4dd0-4c13-86eb-bc87e461234c

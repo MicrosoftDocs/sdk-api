@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_SignalPolarisation
 title: IDVBSLocator::put_SignalPolarisation (tuner.h)
-description: The put_SignalPolarisation method sets the signal polarisation.
+description: The put_SignalPolarisation method sets the signal polarisation.helpviewer_keywords: ["IDVBSLocator interface [Microsoft TV Technologies]","put_SignalPolarisation method","IDVBSLocator.put_SignalPolarisation","IDVBSLocator::put_SignalPolarisation","IDVBSLocatorput_SignalPolarisation","mstv.idvbslocator_put_signalpolarisation","put_SignalPolarisation","put_SignalPolarisation method [Microsoft TV Technologies]","put_SignalPolarisation method [Microsoft TV Technologies]","IDVBSLocator interface","tuner/IDVBSLocator::put_SignalPolarisation"]
 old-location: mstv\idvbslocator_put_signalpolarisation.htm
 tech.root: mstv
 ms.assetid: cc94c956-6895-451a-8d1c-2001a6fbec63

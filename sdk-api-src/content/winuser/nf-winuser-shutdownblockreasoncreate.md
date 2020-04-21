@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ShutdownBlockReasonCreate
 title: ShutdownBlockReasonCreate function (winuser.h)
-description: Indicates that the system cannot be shut down and sets a reason string to be displayed to the user if system shutdown is initiated.
+description: Indicates that the system cannot be shut down and sets a reason string to be displayed to the user if system shutdown is initiated.helpviewer_keywords: ["ShutdownBlockReasonCreate","ShutdownBlockReasonCreate function","base.shutdownblockreasoncreate","winuser/ShutdownBlockReasonCreate"]
 old-location: base\shutdownblockreasoncreate.htm
 tech.root: Shutdown
 ms.assetid: 4c6f9159-fac2-431e-bbdf-c35c4cdb25ac

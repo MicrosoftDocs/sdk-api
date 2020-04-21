@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusimaging.ImageFlags
 title: ImageFlags (gdiplusimaging.h)
-description: The ImageFlags enumeration specifies the attributes of the pixel data contained in an Image object. The Image::GetFlags method returns an element of this enumeration.
+description: The ImageFlags enumeration specifies the attributes of the pixel data contained in an Image object. The Image::GetFlags method returns an element of this enumeration.helpviewer_keywords: ["ImageFlags","ImageFlags enumeration [GDI+]","ImageFlagsCaching","ImageFlagsColorSpaceCMYK","ImageFlagsColorSpaceGRAY","ImageFlagsColorSpaceRGB","ImageFlagsColorSpaceYCBCR","ImageFlagsColorSpaceYCCK","ImageFlagsHasAlpha","ImageFlagsHasRealDPI","ImageFlagsHasRealPixelSize","ImageFlagsHasTranslucent","ImageFlagsNone","ImageFlagsPartiallyScalable","ImageFlagsReadOnly","ImageFlagsScalable","_gdiplus_ENUM_ImageFlags","gdiplus._gdiplus_ENUM_ImageFlags","gdiplusimaging/ImageFlags","gdiplusimaging/ImageFlagsCaching","gdiplusimaging/ImageFlagsColorSpaceCMYK","gdiplusimaging/ImageFlagsColorSpaceGRAY","gdiplusimaging/ImageFlagsColorSpaceRGB","gdiplusimaging/ImageFlagsColorSpaceYCBCR","gdiplusimaging/ImageFlagsColorSpaceYCCK","gdiplusimaging/ImageFlagsHasAlpha","gdiplusimaging/ImageFlagsHasRealDPI","gdiplusimaging/ImageFlagsHasRealPixelSize","gdiplusimaging/ImageFlagsHasTranslucent","gdiplusimaging/ImageFlagsNone","gdiplusimaging/ImageFlagsPartiallyScalable","gdiplusimaging/ImageFlagsReadOnly","gdiplusimaging/ImageFlagsScalable"]
 old-location: gdiplus\_gdiplus_ENUM_ImageFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imageflags.htm

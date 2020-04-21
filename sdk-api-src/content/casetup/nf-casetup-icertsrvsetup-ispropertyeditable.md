@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetup.IsPropertyEditable
 title: ICertSrvSetup::IsPropertyEditable (casetup.h)
-description: Indicates to the caller whether a specified property can be edited.
+description: Indicates to the caller whether a specified property can be edited.helpviewer_keywords: ["ICertSrvSetup interface [Security]","IsPropertyEditable method","ICertSrvSetup.IsPropertyEditable","ICertSrvSetup::IsPropertyEditable","IsPropertyEditable","IsPropertyEditable method [Security]","IsPropertyEditable method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::IsPropertyEditable","security.icertsrvsetup_ispropertyeditable"]
 old-location: security\icertsrvsetup_ispropertyeditable.htm
 tech.root: SecCrypto
 ms.assetid: 2facae59-aa96-4ac7-97e1-ff094022681a

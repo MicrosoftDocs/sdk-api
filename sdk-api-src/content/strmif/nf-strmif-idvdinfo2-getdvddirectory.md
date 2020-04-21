@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDDirectory
 title: IDvdInfo2::GetDVDDirectory (strmif.h)
-description: The GetDVDDirectory method retrieves the root directory that is set in the DVD Navigator.
+description: The GetDVDDirectory method retrieves the root directory that is set in the DVD Navigator.helpviewer_keywords: ["GetDVDDirectory","GetDVDDirectory method [DirectShow]","GetDVDDirectory method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDVDDirectory method","IDvdInfo2.GetDVDDirectory","IDvdInfo2::GetDVDDirectory","IDvdInfo2GetDVDDirectory","dshow.idvdinfo2_getdvddirectory","strmif/IDvdInfo2::GetDVDDirectory"]
 old-location: dshow\idvdinfo2_getdvddirectory.htm
 tech.root: DirectShow
 ms.assetid: fad4dd0a-4831-4460-9631-ed06b6647f2d

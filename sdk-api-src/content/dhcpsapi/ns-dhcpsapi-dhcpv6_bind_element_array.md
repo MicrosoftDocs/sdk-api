@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCPV6_BIND_ELEMENT_ARRAY
 title: DHCPV6_BIND_ELEMENT_ARRAY (dhcpsapi.h)
-description: Specifies an array of DHCPV6_BIND_ELEMENT structures that contain DHCPv6 interface bindings.
+description: Specifies an array of DHCPV6_BIND_ELEMENT structures that contain DHCPv6 interface bindings.helpviewer_keywords: ["*LPDHCPV6_BIND_ELEMENT_ARRAY","DHCPV6_BIND_ELEMENT_ARRAY","DHCPV6_BIND_ELEMENT_ARRAY structure [DHCP]","PDHCPV6_BIND_ELEMENT_ARRAY","PDHCPV6_BIND_ELEMENT_ARRAY structure pointer [DHCP]","dhcp.dhcpv6_bind_element_array","dhcpsapi/DHCPV6_BIND_ELEMENT_ARRAY","dhcpsapi/PDHCPV6_BIND_ELEMENT_ARRAY"]
 old-location: dhcp\dhcpv6_bind_element_array.htm
 tech.root: DHCP
 ms.assetid: b78ebdf8-da24-418c-8fe8-aed3047dfdf3

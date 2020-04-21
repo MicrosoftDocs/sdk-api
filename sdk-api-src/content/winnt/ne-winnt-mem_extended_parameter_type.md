@@ -1,7 +1,7 @@
 ---
 UID: NE:winnt.MEM_EXTENDED_PARAMETER_TYPE
 title: MEM_EXTENDED_PARAMETER_TYPE (winnt.h)
-description: Defines values for extended parameters used for file mapping into an address space.
+description: Defines values for extended parameters used for file mapping into an address space.helpviewer_keywords: ["*PMEM_EXTENDED_PARAMETER_TYPE","MEM_EXTENDED_PARAMETER_TYPE","MEM_EXTENDED_PARAMETER_TYPE enumeration","MemExtendedParameterAddressRequirements","MemExtendedParameterAttributeFlags","MemExtendedParameterInvalidType","MemExtendedParameterMax","MemExtendedParameterNumaNode","MemExtendedParameterPartitionHandle","MemExtendedParameterUserPhysicalHandle","base.mem_extended_parameter_type","winnt/MEM_EXTENDED_PARAMETER_TYPE","winnt/MemExtendedParameterAddressRequirements","winnt/MemExtendedParameterAttributeFlags","winnt/MemExtendedParameterInvalidType","winnt/MemExtendedParameterMax","winnt/MemExtendedParameterNumaNode","winnt/MemExtendedParameterPartitionHandle","winnt/MemExtendedParameterUserPhysicalHandle"]
 old-location: base\mem_extended_parameter_type.htm
 tech.root: Memory
 ms.assetid: B3591D93-BAF5-4D6E-90ED-88E1C193670E

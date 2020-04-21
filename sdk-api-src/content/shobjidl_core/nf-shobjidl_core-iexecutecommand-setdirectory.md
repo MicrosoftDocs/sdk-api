@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetDirectory
 title: IExecuteCommand::SetDirectory (shobjidl_core.h)
-description: Sets a new working directory.
+description: Sets a new working directory.helpviewer_keywords: ["IExecuteCommand interface [Windows Shell]","SetDirectory method","IExecuteCommand.SetDirectory","IExecuteCommand::SetDirectory","SetDirectory","SetDirectory method [Windows Shell]","SetDirectory method [Windows Shell]","IExecuteCommand interface","_shell_IExecuteCommand_SetDirectory","shell.IExecuteCommand_SetDirectory","shobjidl_core/IExecuteCommand::SetDirectory"]
 old-location: shell\IExecuteCommand_SetDirectory.htm
 tech.root: shell
 ms.assetid: 8416b2ef-8e62-4679-adc1-ec953875db34

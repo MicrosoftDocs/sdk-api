@@ -1,7 +1,7 @@
 ---
 UID: NS:timezoneapi._TIME_ZONE_INFORMATION
 title: TIME_ZONE_INFORMATION (timezoneapi.h)
-description: Specifies settings for a time zone.
+description: Specifies settings for a time zone.helpviewer_keywords: ["*LPTIME_ZONE_INFORMATION","*PTIME_ZONE_INFORMATION","PTIME_ZONE_INFORMATION","PTIME_ZONE_INFORMATION structure pointer","TIME_ZONE_INFORMATION","TIME_ZONE_INFORMATION structure","_TIME_ZONE_INFORMATION","_TIME_ZONE_INFORMATION structure","_win32_time_zone_information_str","base.time_zone_information_str","timezoneapi/PTIME_ZONE_INFORMATION","timezoneapi/_TIME_ZONE_INFORMATION"]
 old-location: base\time_zone_information_str.htm
 tech.root: SysInfo
 ms.assetid: 18c10ad6-8bc9-4a3b-a424-d17ee1d9e004

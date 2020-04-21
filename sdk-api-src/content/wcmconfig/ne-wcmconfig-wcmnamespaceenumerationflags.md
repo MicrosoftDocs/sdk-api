@@ -1,7 +1,7 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0002
 title: WcmNamespaceEnumerationFlags (wcmconfig.h)
-description: Describes the types of enumeration flags.
+description: Describes the types of enumeration flags.helpviewer_keywords: ["AllEnumeration","SharedEnumeration","UserEnumeration","WcmNamespaceEnumerationFlags","WcmNamespaceEnumerationFlags enumeration [SMI]","smi.wcmnamespaceenumerationflags","wcmconfig/AllEnumeration","wcmconfig/SharedEnumeration","wcmconfig/UserEnumeration","wcmconfig/WcmNamespaceEnumerationFlags"]
 old-location: smi\wcmnamespaceenumerationflags.htm
 tech.root: SMI
 ms.assetid: 606fad95-1f93-4e16-9be5-2ebd52b91180

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.GetMatchingFonts
 title: IDWriteFontSet1::GetMatchingFonts
-description: Retrieves a matching font set based on the requested inputs, ordered so that nearer matches are earlier.
+description: Retrieves a matching font set based on the requested inputs, ordered so that nearer matches are earlier.helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetMatchingFonts method","IDWriteFontSet1.GetMatchingFonts","IDWriteFontSet1::GetMatchingFonts","GetMatchingFonts","GetMatchingFonts method [Direct Write]","GetMatchingFonts method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getmatchingfonts","dwrite_3/IDWriteFontSet1::GetMatchingFonts"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetMatchingFonts method, IDWriteFontSet1.GetMatchingFonts, IDWriteFontSet1::GetMatchingFonts, GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getmatchingfonts, dwrite_3/IDWriteFontSet1::GetMatchingFonts

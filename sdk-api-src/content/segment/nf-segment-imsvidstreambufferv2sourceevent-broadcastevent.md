@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.BroadcastEvent
 title: IMSVidStreamBufferV2SourceEvent::BroadcastEvent (segment.h)
-description: Fired when the SBE2 source filter receives any event fired through the IBroadcastEvent interface, other than the EVENTID_DTFilterRatingChange event.
+description: Fired when the SBE2 source filter receives any event fired through the IBroadcastEvent interface, other than the EVENTID_DTFilterRatingChange event.helpviewer_keywords: ["BroadcastEvent","BroadcastEvent method [Microsoft TV Technologies]","BroadcastEvent method [Microsoft TV Technologies]","IMSVidStreamBufferV2SourceEvent interface","IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies]","BroadcastEvent method","IMSVidStreamBufferV2SourceEvent.BroadcastEvent","IMSVidStreamBufferV2SourceEvent::BroadcastEvent","mstv.imsvidstreambufferv2sourceevent_broadcastevent","segment/IMSVidStreamBufferV2SourceEvent::BroadcastEvent"]
 old-location: mstv\imsvidstreambufferv2sourceevent_broadcastevent.htm
 tech.root: mstv
 ms.assetid: f5d5b6d8-9baa-4a9e-8275-e817394c211a

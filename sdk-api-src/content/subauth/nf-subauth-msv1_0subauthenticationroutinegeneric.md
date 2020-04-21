@@ -1,7 +1,7 @@
 ---
 UID: NF:subauth.Msv1_0SubAuthenticationRoutineGeneric
 title: Msv1_0SubAuthenticationRoutineGeneric function (subauth.h)
-description: Performs Remote Access Service authentication when subauthentication is requested by calling the LsaCallAuthenticationPackage function.
+description: Performs Remote Access Service authentication when subauthentication is requested by calling the LsaCallAuthenticationPackage function.helpviewer_keywords: ["Msv1_0SubAuthenticationRoutineGeneric","Msv1_0SubAuthenticationRoutineGeneric function [Security]","security.msv1_0subauthenticationroutinegeneric","subauth/Msv1_0SubAuthenticationRoutineGeneric"]
 old-location: security\msv1_0subauthenticationroutinegeneric.htm
 tech.root: SecAuthN
 ms.assetid: 78F51B69-DCFA-47D0-84C5-B44C79D50DAF

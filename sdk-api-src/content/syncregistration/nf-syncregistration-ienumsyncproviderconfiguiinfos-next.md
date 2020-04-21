@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderConfigUIInfos.Next
 title: IEnumSyncProviderConfigUIInfos::Next (syncregistration.h)
-description: Returns the next ISyncProviderConfigUIInfo object.
+description: Returns the next ISyncProviderConfigUIInfo object.helpviewer_keywords: ["IEnumSyncProviderConfigUIInfos interface [Windows Sync]","Next method","IEnumSyncProviderConfigUIInfos.Next","IEnumSyncProviderConfigUIInfos::Next","Next","Next method [Windows Sync]","Next method [Windows Sync]","IEnumSyncProviderConfigUIInfos interface","syncregistration/IEnumSyncProviderConfigUIInfos::Next","winsync.ienumsyncproviderconfiguiinfos_next"]
 old-location: winsync\ienumsyncproviderconfiguiinfos_next.htm
 tech.root: winsync
 ms.assetid: 46564ed2-233d-409c-a996-dd3d9cfde907

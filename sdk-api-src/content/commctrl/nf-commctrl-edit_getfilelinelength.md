@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Edit_GetFileLineLength
 title: Edit_GetFileLineLength macro (commctrl.h)
-description: Gets the length of the file (or logical) line of text from the specified character index (text wrap delimiters are ignored). You can use this macro or send the EM_FILELINELENGTH message explicitly.
+description: Gets the length of the file (or logical) line of text from the specified character index (text wrap delimiters are ignored). You can use this macro or send the EM_FILELINELENGTH message explicitly.helpviewer_keywords: ["Edit_GetFileLineLength","Edit_GetFileLineLength macro [Windows Controls]","commctrl/Edit_GetFileLineLength","controls.edit_getfilelinelength"]
 old-location: controls\edit_getfilelinelength.htm
 tech.root: Controls
 ms.assetid: 04315431-FC5C-41FB-9806-7904F71C19FD

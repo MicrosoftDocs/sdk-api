@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfTextLayoutSink.OnLayoutChange
 title: ITfTextLayoutSink::OnLayoutChange (msctf.h)
-description: ITfTextLayoutSink::OnLayoutChange method
+description: ITfTextLayoutSink::OnLayoutChange methodhelpviewer_keywords: ["ITfTextLayoutSink interface [Text Services Framework]","OnLayoutChange method","ITfTextLayoutSink.OnLayoutChange","ITfTextLayoutSink::OnLayoutChange","OnLayoutChange","OnLayoutChange method [Text Services Framework]","OnLayoutChange method [Text Services Framework]","ITfTextLayoutSink interface","_tsf_itftextlayoutsink_onlayoutchange_ref","msctf/ITfTextLayoutSink::OnLayoutChange","tsf.itftextlayoutsink_onlayoutchange"]
 old-location: tsf\itftextlayoutsink_onlayoutchange.htm
 tech.root: TSF
 ms.assetid: a99313ab-98a7-4fc0-b3ae-78ff26a41d8e

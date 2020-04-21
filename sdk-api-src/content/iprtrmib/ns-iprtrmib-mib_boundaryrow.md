@@ -1,7 +1,7 @@
 ---
 UID: NS:iprtrmib.__unnamed_struct_0
 title: MIB_BOUNDARYROW (iprtrmib.h)
-description: Contains the IPv4 group address value and mask for a multicast boundary.
+description: Contains the IPv4 group address value and mask for a multicast boundary.helpviewer_keywords: ["*PMIB_BOUNDARYROW","MIB_BOUNDARYROW","MIB_BOUNDARYROW structure [MIB]","PMIB_BOUNDARYROW","PMIB_BOUNDARYROW structure pointer [MIB]","iprtrmib/MIB_BOUNDARYROW","iprtrmib/PMIB_BOUNDARYROW","mib.mib_boundaryrow"]
 old-location: mib\mib_boundaryrow.htm
 tech.root: MIB
 ms.assetid: df252c06-6067-4cf8-b66e-5c9f15e954f5

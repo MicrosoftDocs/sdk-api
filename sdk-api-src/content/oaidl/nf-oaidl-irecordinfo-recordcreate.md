@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordCreate
 title: IRecordInfo::RecordCreate (oaidl.h)
-description: Allocates memory for a new record, initializes the instance and returns a pointer to the record.
+description: Allocates memory for a new record, initializes the instance and returns a pointer to the record.helpviewer_keywords: ["IRecordInfo interface [Automation]","RecordCreate method","IRecordInfo.RecordCreate","IRecordInfo::RecordCreate","RecordCreate","RecordCreate method [Automation]","RecordCreate method [Automation]","IRecordInfo interface","_oa96_IRecordInfo_RecordCreate","automat.irecordinfo_recordcreate","oaidl/IRecordInfo::RecordCreate"]
 old-location: automat\irecordinfo_recordcreate.htm
 tech.root: automat
 ms.assetid: f688623e-c03b-456f-bd51-426049e0eb2b

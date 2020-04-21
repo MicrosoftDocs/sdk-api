@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IApplicationAssociationRegistration
 title: IApplicationAssociationRegistration (shobjidl_core.h)
-description: Exposes methods that query and set default applications for specific file Association Type, and protocols at a specific Association Level.
+description: Exposes methods that query and set default applications for specific file Association Type, and protocols at a specific Association Level.helpviewer_keywords: ["IApplicationAssociationRegistration","IApplicationAssociationRegistration interface [Windows Shell]","IApplicationAssociationRegistration interface [Windows Shell]","described","_shell_IApplicationAssociationRegistration","shell.IApplicationAssociationRegistration","shobjidl_core/IApplicationAssociationRegistration"]
 old-location: shell\IApplicationAssociationRegistration.htm
 tech.root: shell
 ms.assetid: 015a3be4-2e74-4a2b-8c02-54dcbf0ecacd

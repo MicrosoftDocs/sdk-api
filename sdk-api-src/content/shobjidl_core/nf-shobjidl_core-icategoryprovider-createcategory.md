@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.CreateCategory
 title: ICategoryProvider::CreateCategory (shobjidl_core.h)
-description: Creates a category object.
+description: Creates a category object.helpviewer_keywords: ["CreateCategory","CreateCategory method [Windows Shell]","CreateCategory method [Windows Shell]","ICategoryProvider interface","ICategoryProvider interface [Windows Shell]","CreateCategory method","ICategoryProvider.CreateCategory","ICategoryProvider::CreateCategory","inet_ICategoryProvider_CreateCategory","shell.ICategoryProvider_CreateCategory","shobjidl_core/ICategoryProvider::CreateCategory"]
 old-location: shell\ICategoryProvider_CreateCategory.htm
 tech.root: shell
 ms.assetid: 3703c061-4d21-4c36-900a-9ccacf4d482a

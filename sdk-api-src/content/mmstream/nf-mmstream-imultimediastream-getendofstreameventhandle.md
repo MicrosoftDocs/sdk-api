@@ -1,7 +1,7 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.GetEndOfStreamEventHandle
 title: IMultiMediaStream::GetEndOfStreamEventHandle (mmstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The GetEndOfStreamEventHandle method retrieves an event that is signaled when the multimedia stream completes playback.
+description: Note  This interface is deprecated. New applications should not use it. The GetEndOfStreamEventHandle method retrieves an event that is signaled when the multimedia stream completes playback.helpviewer_keywords: ["GetEndOfStreamEventHandle","GetEndOfStreamEventHandle method [DirectShow]","GetEndOfStreamEventHandle method [DirectShow]","IMultiMediaStream interface","IMultiMediaStream interface [DirectShow]","GetEndOfStreamEventHandle method","IMultiMediaStream.GetEndOfStreamEventHandle","IMultiMediaStream::GetEndOfStreamEventHandle","IMultiMediaStreamGetEndOfStreamEventHandle","dshow.imultimediastream_getendofstreameventhandle","mmstream/IMultiMediaStream::GetEndOfStreamEventHandle"]
 old-location: dshow\imultimediastream_getendofstreameventhandle.htm
 tech.root: DirectShow
 ms.assetid: 0e4f59f8-c56e-4768-9047-2793515edfeb

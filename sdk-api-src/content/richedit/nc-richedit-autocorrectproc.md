@@ -1,7 +1,7 @@
 ---
 UID: NC:richedit.AutoCorrectProc
 title: AutoCorrectProc (richedit.h)
-description: The AutoCorrectProc function is an application-defined callback function that is used with the EM_SETAUTOCORRECTPROC message.
+description: The AutoCorrectProc function is an application-defined callback function that is used with the EM_SETAUTOCORRECTPROC message.helpviewer_keywords: ["AutoCorrectProc","AutoCorrectProc callback","AutoCorrectProc callback function [Windows Controls]","controls.autocorrectproc","richedit/AutoCorrectProc"]
 old-location: controls\autocorrectproc.htm
 tech.root: Controls
 ms.assetid: 36EF880D-F6A9-434A-820B-17E663357573

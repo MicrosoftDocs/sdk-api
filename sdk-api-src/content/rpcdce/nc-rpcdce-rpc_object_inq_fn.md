@@ -1,7 +1,7 @@
 ---
 UID: NC:rpcdce.RPC_OBJECT_INQ_FN
 title: RPC_OBJECT_INQ_FN (rpcdce.h)
-description: The RPC_OBJECT_INQ_FN function is a prototype for a function that facilitates replacement of the default object UUID to type UUID mapping.
+description: The RPC_OBJECT_INQ_FN function is a prototype for a function that facilitates replacement of the default object UUID to type UUID mapping.helpviewer_keywords: ["RPC_OBJECT_INQ_FN","RPC_OBJECT_INQ_FN callback","RPC_OBJECT_INQ_FN callback function [RPC]","RpcObjectInqFn","_rpc_rpc_object_inq_fn","rpc.rpc_object_inq_fn","rpcdce/RPC_OBJECT_INQ_FN"]
 old-location: rpc\rpc_object_inq_fn.htm
 tech.root: Rpc
 ms.assetid: 163a5160-1b47-4b65-8f6c-8b009f548ed9

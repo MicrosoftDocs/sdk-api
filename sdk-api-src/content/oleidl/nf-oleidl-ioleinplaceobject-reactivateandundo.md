@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleInPlaceObject.ReactivateAndUndo
 title: IOleInPlaceObject::ReactivateAndUndo (oleidl.h)
-description: Reactivates a previously deactivated object, undoing the last state of the object.
+description: Reactivates a previously deactivated object, undoing the last state of the object.helpviewer_keywords: ["IOleInPlaceObject interface [COM]","ReactivateAndUndo method","IOleInPlaceObject.ReactivateAndUndo","IOleInPlaceObject::ReactivateAndUndo","ReactivateAndUndo","ReactivateAndUndo method [COM]","ReactivateAndUndo method [COM]","IOleInPlaceObject interface","_ole_ioleinplaceobject_reactivateandundo","com.ioleinplaceobject_reactivateandundo","oleidl/IOleInPlaceObject::ReactivateAndUndo"]
 old-location: com\ioleinplaceobject_reactivateandundo.htm
 tech.root: com
 ms.assetid: b41bbfd6-1a86-4ca6-9d4b-c87c4feea7c3

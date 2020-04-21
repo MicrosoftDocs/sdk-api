@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
 title: FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
-description: Returns a list of all files currently locked by the specified transaction. If the return value is ERROR_MORE_DATA, it returns the length of the buffer required to hold the complete list of files at the time of this call.
+description: Returns a list of all files currently locked by the specified transaction. If the return value is ERROR_MORE_DATA, it returns the length of the buffer required to hold the complete list of files at the time of this call.helpviewer_keywords: ["FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES","FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES control","FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES control code [Files]","fs.fsctl_txfs_list_transaction_locked_files","winioctl/FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES"]
 old-location: fs\fsctl_txfs_list_transaction_locked_files.htm
 tech.root: FileIO
 ms.assetid: fdef45fd-b197-4428-96c5-ac91b43681b1
@@ -44,48 +44,98 @@ req.redist:
 
 # FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES IOCTL
 
+
 ## -description
 
-> [!NOTE]
-> Microsoft strongly recommends developers utilize alternative means to achieve your application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf).
 
-Returns a list of all files currently locked by the specified transaction. If the return value is **ERROR_MORE_DATA**, it returns the length of the buffer required to hold the complete list of files at the time of this call.
+<p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
+    application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
+    available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
+    information, and alternatives to TxF, please see 
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
-```cpp
-BOOL DeviceIoControl(
-  (HANDLE) hDevice,                         // handle to device
-  FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES, // dwIoControlCode
-  (LPVOID) lpInBuffer,                      // input buffer
+Returns a list of all files currently locked by the specified transaction. If the return value is 
+    <b>ERROR_MORE_DATA</b>, it returns the length of the buffer required to hold the complete list 
+    of files at the time of this call.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl( (HANDLE) hDevice,     // handle to device
+  FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES, // dwIoControlCode(LPVOID) lpInBuffer,                      // input buffer
   (DWORD) nInBufferSize,                    // size of input buffer
   (LPVOID) lpOutBuffer,                     // output buffer
   (DWORD) nOutBufferSize,                   // size of output buffer
   (LPDWORD) lpBytesReturned,                // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped );            // OVERLAPPED structure
-);
-```
-
+  (LPOVERLAPPED) lpOverlapped );            // OVERLAPPED structure</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
+
+
+<text></text>
+
+
 
 
 ### -input-buffer-length
 
 
+
+<text></text>
+
+
+
+
 ### -output-buffer
+
+
+
+<text></text>
+
+
 
 
 ### -output-buffer-length
 
 
+
+<text></text>
+
+
+
+
 ### -in-out-buffer
+
+
+
+<text></text>
+
+
 
 
 ### -inout-buffer-length
 
 
+
+<text></text>
+
+
+
+
 ### -status-block
+
+
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -94,19 +144,42 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
+
+
 ## -remarks
 
-**FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES** is a synchronous operation.
+
+
+<b>FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES</b> 
+    is a synchronous operation.
 
 The file path names returned are relative to the volume root.
 
-The number of files returned from one call to the next can change depending on the number of active transactions at any given point in time. If this call returns a request for a larger buffer, that size may or may not be adequate for the next call, based on the number of active transactions at the time of the next call.
+The number of files returned from one 
+    call to the next can change depending on the number of active transactions at any given point in time. If this 
+    call returns a request for a larger buffer, that size may or may not be adequate for the next call, based on the 
+    number of active transactions at the time of the next call.
 
-**ReFS:**  This code is not supported.
+<b>ReFS:  </b>This code is not supported.
+
+
 
 
 ## -see-also
 
-* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [TXFS_LIST_TRANSACTION_LOCKED_FILES](./ns-winioctl-txfs_list_transaction_locked_files.md)
-* [TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY](./ns-winioctl-txfs_list_transaction_locked_files_entry.md)
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files">TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
+ 
+
+ 
+

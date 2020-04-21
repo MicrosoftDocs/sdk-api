@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextServices.TxGetVScroll
 title: ITextServices::TxGetVScroll (textserv.h)
-description: Returns vertical scroll bar state information.
+description: Returns vertical scroll bar state information.helpviewer_keywords: ["ITextServices interface [Windows Controls]","TxGetVScroll method","ITextServices.TxGetVScroll","ITextServices::TxGetVScroll","TxGetVScroll","TxGetVScroll method [Windows Controls]","TxGetVScroll method [Windows Controls]","ITextServices interface","_win32_ITextServices_TxGetVScroll","_win32_ITextServices_TxGetVScroll_cpp","controls.ITextServices_TxGetVScroll","controls._win32_ITextServices_TxGetVScroll","textserv/ITextServices::TxGetVScroll"]
 old-location: controls\ITextServices_TxGetVScroll.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetvscroll.htm

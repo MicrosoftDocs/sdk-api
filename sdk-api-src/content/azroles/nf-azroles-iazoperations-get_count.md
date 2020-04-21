@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzOperations.get_Count
 title: IAzOperations::get_Count (azroles.h)
-description: Retrieves the number of IAzOperation objects in the collection.
+description: Retrieves the number of IAzOperation objects in the collection.helpviewer_keywords: ["AzOperations object [Security]","Count property","Count property [Security]","Count property [Security]","AzOperations object","Count property [Security]","IAzOperations interface","IAzOperations interface [Security]","Count property","IAzOperations.Count","IAzOperations.get_Count","IAzOperations::Count","IAzOperations::get_Count","azroles/IAzOperations::Count","azroles/IAzOperations::get_Count","get_Count","security.iazoperations_count"]
 old-location: security\iazoperations_count.htm
 tech.root: SecAuthZ
 ms.assetid: 665fdf1f-4606-4cfc-b33b-6bae4ce3b6c9

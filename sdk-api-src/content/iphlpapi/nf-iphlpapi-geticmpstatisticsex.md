@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetIcmpStatisticsEx
 title: GetIcmpStatisticsEx function (iphlpapi.h)
-description: The GetIcmpStatisticsEx function retrieves Internet Control Message Protocol (ICMP) statistics for the local computer. The GetIcmpStatisticsEx function is capable of retrieving IPv6 ICMP statistics.
+description: The GetIcmpStatisticsEx function retrieves Internet Control Message Protocol (ICMP) statistics for the local computer. The GetIcmpStatisticsEx function is capable of retrieving IPv6 ICMP statistics.helpviewer_keywords: ["AF_INET","AF_INET6","GetIcmpStatisticsEx","GetIcmpStatisticsEx function [IP Helper]","iphlp.geticmpstatisticsex","iphlpapi/GetIcmpStatisticsEx"]
 old-location: iphlp\geticmpstatisticsex.htm
 tech.root: IpHlp
 ms.assetid: b074650a-0f03-448c-8828-c7bcec9d6030

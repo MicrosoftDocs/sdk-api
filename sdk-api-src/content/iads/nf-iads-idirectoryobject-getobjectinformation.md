@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IDirectoryObject.GetObjectInformation
 title: IDirectoryObject::GetObjectInformation (iads.h)
-description: The IDirectoryObject::GetObjectInformation method retrieves a pointer to an ADS_OBJECT_INFO structure that contains data regarding the identity and location of a directory service object.
+description: The IDirectoryObject::GetObjectInformation method retrieves a pointer to an ADS_OBJECT_INFO structure that contains data regarding the identity and location of a directory service object.helpviewer_keywords: ["GetObjectInformation","GetObjectInformation method [ADSI]","GetObjectInformation method [ADSI]","IDirectoryObject interface","IDirectoryObject interface [ADSI]","GetObjectInformation method","IDirectoryObject.GetObjectInformation","IDirectoryObject::GetObjectInformation","_ds_idirectoryobject_getobjectinformation","adsi.idirectoryobject__getobjectinformation","adsi.idirectoryobject_getobjectinformation","iads/IDirectoryObject::GetObjectInformation"]
 old-location: adsi\idirectoryobject_getobjectinformation.htm
 tech.root: adsi
 ms.assetid: 5a2d7fee-666e-4b3b-b6fa-b9f6d785c2c1

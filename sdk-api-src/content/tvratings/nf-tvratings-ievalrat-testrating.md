@@ -1,7 +1,7 @@
 ---
 UID: NF:tvratings.IEvalRat.TestRating
 title: IEvalRat::TestRating (tvratings.h)
-description: The TestRating method determines whether a program with the specified rating should be blocked.
+description: The TestRating method determines whether a program with the specified rating should be blocked.helpviewer_keywords: ["IEvalRat interface [Microsoft TV Technologies]","TestRating method","IEvalRat.TestRating","IEvalRat::TestRating","IEvalRatTestRating","TestRating","TestRating method [Microsoft TV Technologies]","TestRating method [Microsoft TV Technologies]","IEvalRat interface","mstv.ievalrat_testrating","tvratings/IEvalRat::TestRating"]
 old-location: mstv\ievalrat_testrating.htm
 tech.root: mstv
 ms.assetid: 26144496-200c-49b8-9f5e-23a39fea20bc

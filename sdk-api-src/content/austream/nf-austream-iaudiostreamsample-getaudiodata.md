@@ -1,7 +1,7 @@
 ---
 UID: NF:austream.IAudioStreamSample.GetAudioData
 title: IAudioStreamSample::GetAudioData (austream.h)
-description: Note  This interface is deprecated. New applications should not use it. Retrieves the address of a pointer to the IAudioData object associated with the sample.
+description: Note  This interface is deprecated. New applications should not use it. Retrieves the address of a pointer to the IAudioData object associated with the sample.helpviewer_keywords: ["GetAudioData","GetAudioData method [DirectShow]","GetAudioData method [DirectShow]","IAudioStreamSample interface","IAudioStreamSample interface [DirectShow]","GetAudioData method","IAudioStreamSample.GetAudioData","IAudioStreamSample::GetAudioData","IAudioStreamSampleGetAudioData","austream/IAudioStreamSample::GetAudioData","dshow.iaudiostreamsample_getaudiodata"]
 old-location: dshow\iaudiostreamsample_getaudiodata.htm
 tech.root: DirectShow
 ms.assetid: b482e628-d4bc-461e-b529-58e891689513

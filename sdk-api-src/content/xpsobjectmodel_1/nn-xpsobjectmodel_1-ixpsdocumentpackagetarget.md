@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel_1.IXpsDocumentPackageTarget
 title: IXpsDocumentPackageTarget (xpsobjectmodel_1.h)
-description: The IXpsDocumentPackageTarget interface contains the elements needed for printing XPS content in the Document Printing model.
+description: The IXpsDocumentPackageTarget interface contains the elements needed for printing XPS content in the Document Printing model.helpviewer_keywords: ["IXpsDocumentPackageTarget","IXpsDocumentPackageTarget interface [XPS Documents and Packaging]","IXpsDocumentPackageTarget interface [XPS Documents and Packaging]","described","xps.ixpsdocumentpackagetarget","xpsobjectmodel_1/IXpsDocumentPackageTarget"]
 old-location: xps\ixpsdocumentpackagetarget.htm
 tech.root: printdocs
 ms.assetid: B8B43CE5-2222-428B-8E78-C7049D027EE1

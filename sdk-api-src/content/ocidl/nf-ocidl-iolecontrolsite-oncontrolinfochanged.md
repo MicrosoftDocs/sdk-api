@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleControlSite.OnControlInfoChanged
 title: IOleControlSite::OnControlInfoChanged (ocidl.h)
-description: Informs the container that the control's CONTROLINFO structure has changed and that the container should call the control's IOleControl::GetControlInfo for an update.
+description: Informs the container that the control's CONTROLINFO structure has changed and that the container should call the control's IOleControl::GetControlInfo for an update.helpviewer_keywords: ["IOleControlSite interface [COM]","OnControlInfoChanged method","IOleControlSite.OnControlInfoChanged","IOleControlSite::OnControlInfoChanged","OnControlInfoChanged","OnControlInfoChanged method [COM]","OnControlInfoChanged method [COM]","IOleControlSite interface","_ctrl_iolecontrolsite_oncontrolinfochanged","com.iolecontrolsite_oncontrolinfochanged","ocidl/IOleControlSite::OnControlInfoChanged"]
 old-location: com\iolecontrolsite_oncontrolinfochanged.htm
 tech.root: com
 ms.assetid: d9e915c0-3443-4464-9e3e-e1fbfe37e838

@@ -1,7 +1,7 @@
 ---
 UID: NF:usp10.ScriptPlaceOpenType
 title: ScriptPlaceOpenType function (usp10.h)
-description: Generates glyphs and visual attributes for a Unicode run with OpenType information from the output of ScriptShapeOpenType.
+description: Generates glyphs and visual attributes for a Unicode run with OpenType information from the output of ScriptShapeOpenType.helpviewer_keywords: ["ScriptPlaceOpenType","ScriptPlaceOpenType function [Internationalization for Windows Applications]","_win32_ScriptPlaceOpenType","intl.scriptplaceopentype","usp10/ScriptPlaceOpenType"]
 old-location: intl\scriptplaceopentype.htm
 tech.root: Intl
 ms.assetid: dd456988-ec9d-4e62-a93f-753ac08a18d9

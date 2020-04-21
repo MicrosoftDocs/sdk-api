@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IChannelAudioVolume.SetAllVolumes
 title: IChannelAudioVolume::SetAllVolumes (audioclient.h)
-description: The SetAllVolumes method sets the individual volume levels for all the channels in the audio session.
+description: The SetAllVolumes method sets the individual volume levels for all the channels in the audio session.helpviewer_keywords: ["IChannelAudioVolume interface [Core Audio]","SetAllVolumes method","IChannelAudioVolume.SetAllVolumes","IChannelAudioVolume::SetAllVolumes","IChannelAudioVolumeSetAllVolumes","SetAllVolumes","SetAllVolumes method [Core Audio]","SetAllVolumes method [Core Audio]","IChannelAudioVolume interface","audioclient/IChannelAudioVolume::SetAllVolumes","coreaudio.ichannelaudiovolume_setallvolumes"]
 old-location: coreaudio\ichannelaudiovolume_setallvolumes.htm
 tech.root: CoreAudio
 ms.assetid: 9081e814-d0b2-4b0e-9e4c-3590058e7196

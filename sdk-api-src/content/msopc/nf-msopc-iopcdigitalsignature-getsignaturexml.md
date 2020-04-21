@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureXml
 title: IOpcDigitalSignature::GetSignatureXml (msopc.h)
-description: Gets the signature markup.
+description: Gets the signature markup.helpviewer_keywords: ["GetSignatureXml","GetSignatureXml method [Open Packaging Conventions]","GetSignatureXml method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetSignatureXml method","IOpcDigitalSignature.GetSignatureXml","IOpcDigitalSignature::GetSignatureXml","msopc/IOpcDigitalSignature::GetSignatureXml","opc.iopcdigitalsignature_getsignaturexml"]
 old-location: opc\iopcdigitalsignature_getsignaturexml.htm
 tech.root: OPC
 ms.assetid: 7b495661-32ed-4010-a945-7e638f30f4f2

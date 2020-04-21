@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.RequestControl
 title: IRDPSRAPIViewer::RequestControl (rdpencomapi.h)
-description: Requests the sharer to change the control level of the viewer.
+description: Requests the sharer to change the control level of the viewer.helpviewer_keywords: ["IRDPSRAPIViewer interface [RDP]","RequestControl method","IRDPSRAPIViewer.RequestControl","IRDPSRAPIViewer::RequestControl","RequestControl","RequestControl method [RDP]","RequestControl method [RDP]","IRDPSRAPIViewer interface","rdp.irdpsrapiviewer_requestcontrol","rdpencomapi/IRDPSRAPIViewer::RequestControl"]
 old-location: rdp\irdpsrapiviewer_requestcontrol.htm
 tech.root: rdp
 ms.assetid: be913f3c-9a5b-46bd-be9a-1ba0b0c20211

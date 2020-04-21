@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.NdrComplexArrayBufferSize
 title: NdrComplexArrayBufferSize function (rpcndr.h)
-description: The NdrComplexArrayBufferSize function calculates the required buffer size, in bytes, to marshal the complex array.
+description: The NdrComplexArrayBufferSize function calculates the required buffer size, in bytes, to marshal the complex array.helpviewer_keywords: ["NdrComplexArrayBufferSize","NdrComplexArrayBufferSize function [Windows API]","rpcndr/NdrComplexArrayBufferSize","winprog.ndrcomplexarraybuffersize"]
 old-location: winprog\ndrcomplexarraybuffersize.htm
 tech.root: DevNotes
 ms.assetid: 8efd63c5-7444-4b30-b642-18dfecb7d026

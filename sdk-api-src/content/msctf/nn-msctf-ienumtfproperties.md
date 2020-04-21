@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.IEnumTfProperties
 title: IEnumTfProperties (msctf.h)
-description: The IEnumTfProperties interface is implemented by the TSF manager to provide an enumeration of property objects.
+description: The IEnumTfProperties interface is implemented by the TSF manager to provide an enumeration of property objects.helpviewer_keywords: ["IEnumTfProperties","IEnumTfProperties interface [Text Services Framework]","IEnumTfProperties interface [Text Services Framework]","described","_tsf_ienumtfproperties_ref","msctf/IEnumTfProperties","tsf.ienumtfproperties"]
 old-location: tsf\ienumtfproperties.htm
 tech.root: TSF
 ms.assetid: 99d8564f-98bc-4f30-bff9-923a4016a5fe

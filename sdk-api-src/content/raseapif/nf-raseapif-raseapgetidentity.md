@@ -1,7 +1,7 @@
 ---
 UID: NF:raseapif.RasEapGetIdentity
 title: RasEapGetIdentity function (raseapif.h)
-description: The RAS connection manager calls the RasEapGetIdentity function to obtain identity information for the user requesting authentication.
+description: The RAS connection manager calls the RasEapGetIdentity function to obtain identity information for the user requesting authentication.helpviewer_keywords: ["RAS_EAP_FLAG_8021X_AUTH","RAS_EAP_FLAG_FIRST_LINK","RAS_EAP_FLAG_LOGON","RAS_EAP_FLAG_MACHINE_AUTH","RAS_EAP_FLAG_NON_INTERACTIVE","RAS_EAP_FLAG_PREVIEW","RAS_EAP_FLAG_ROUTER","RasEapGetIdentity","RasEapGetIdentity callback","RasEapGetIdentity callback function [EAP]","_eap_raseapgetidentity","eap.raseapgetidentity","raseapif/RasEapGetIdentity"]
 old-location: eap\raseapgetidentity.htm
 tech.root: EAP
 ms.assetid: 66bc34d2-54b9-46eb-b952-6ad66868c8ce

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateGdiCompatibleTextLayout
 title: IDWriteFactory::CreateGdiCompatibleTextLayout (dwrite.h)
-description: Takes a string, format, and associated constraints, and produces an object representing the result, formatted for a particular display resolution and measuring mode.
+description: Takes a string, format, and associated constraints, and produces an object representing the result, formatted for a particular display resolution and measuring mode.helpviewer_keywords: ["CreateGdiCompatibleTextLayout","CreateGdiCompatibleTextLayout method [Direct Write]","CreateGdiCompatibleTextLayout method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateGdiCompatibleTextLayout method","IDWriteFactory.CreateGdiCompatibleTextLayout","IDWriteFactory::CreateGdiCompatibleTextLayout","directwrite.IDWriteFactory_CreateDisplayTextLayout","dwrite/IDWriteFactory::CreateGdiCompatibleTextLayout"]
 old-location: directwrite\IDWriteFactory_CreateDisplayTextLayout.htm
 tech.root: DirectWrite
 ms.assetid: f9205ce6-1586-461a-9c48-3f3f25780dd0

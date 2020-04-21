@@ -1,7 +1,7 @@
 ---
 UID: NN:webapplication.IWebApplicationHost
 title: IWebApplicationHost (webapplication.h)
-description: Exposes methods and properties that are implemented by the WWAHost.
+description: Exposes methods and properties that are implemented by the WWAHost.helpviewer_keywords: ["IWebApplicationHost","IWebApplicationHost interface [Debugging Windows Store apps]","IWebApplicationHost interface [Debugging Windows Store apps]","described","debug.iwebapplicationhost","webapplication/IWebApplicationHost"]
 old-location: debug\iwebapplicationhost.htm
 tech.root: debug_wwahost
 ms.assetid: ac0ace8e-3f83-44be-baee-560c5472aa08

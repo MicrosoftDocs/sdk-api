@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfProperty
 title: ITfProperty (msctf.h)
-description: The ITfProperty interface is implemented by the TSF manager and used by a client (application or text service) to modify a property value.
+description: The ITfProperty interface is implemented by the TSF manager and used by a client (application or text service) to modify a property value.helpviewer_keywords: ["ITfProperty","ITfProperty interface [Text Services Framework]","ITfProperty interface [Text Services Framework]","described","_tsf_itfproperty_ref","msctf/ITfProperty","tsf.itfproperty"]
 old-location: tsf\itfproperty.htm
 tech.root: TSF
 ms.assetid: 72bd92f9-d82e-4994-82ad-0989e987903b

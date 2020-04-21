@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.DrawThemeIcon
 title: DrawThemeIcon function (uxtheme.h)
-description: Draws an image from an image list with the icon effect defined by the visual style.
+description: Draws an image from an image list with the icon effect defined by the visual style.helpviewer_keywords: ["DrawThemeIcon","DrawThemeIcon function [Windows Controls]","controls.DrawThemeIcon","controls.inet_DrawThemeIcon","inet_DrawThemeIcon","inet_DrawThemeIcon_cpp","uxtheme/DrawThemeIcon"]
 old-location: controls\DrawThemeIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeicon.htm

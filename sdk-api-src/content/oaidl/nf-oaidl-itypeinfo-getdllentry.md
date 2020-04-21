@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetDllEntry
 title: ITypeInfo::GetDllEntry (oaidl.h)
-description: Retrieves a description or specification of an entry point for a function in a DLL.
+description: Retrieves a description or specification of an entry point for a function in a DLL.helpviewer_keywords: ["GetDllEntry","GetDllEntry method [Automation]","GetDllEntry method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetDllEntry method","ITypeInfo.GetDllEntry","ITypeInfo::GetDllEntry","_oa96_ITypeInfo_GetDllEntry","automat.itypeinfo_getdllentry","oaidl/ITypeInfo::GetDllEntry"]
 old-location: automat\itypeinfo_getdllentry.htm
 tech.root: automat
 ms.assetid: 1b947de4-4a3e-40f3-837b-c60b0ab67ef1

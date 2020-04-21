@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetName
 title: IXpsOMPage::SetName (xpsobjectmodel.h)
-description: Sets the Name property of this page.
+description: Sets the Name property of this page.helpviewer_keywords: ["IXpsOMPage interface [XPS Documents and Packaging]","SetName method","IXpsOMPage.SetName","IXpsOMPage::SetName","SetName","SetName method [XPS Documents and Packaging]","SetName method [XPS Documents and Packaging]","IXpsOMPage interface","xps.ixpsompage_setname","xpsobjectmodel/IXpsOMPage::SetName"]
 old-location: xps\ixpsompage_setname.htm
 tech.root: printdocs
 ms.assetid: 675e4fd2-e8b9-400f-9042-df5b0bb0b89a

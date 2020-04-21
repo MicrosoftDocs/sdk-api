@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionSurfaceFactory
 title: IDCompositionSurfaceFactory (dcomp.h)
-description: Creates surface and virtual surface objects associated with an application-provided rendering device.
+description: Creates surface and virtual surface objects associated with an application-provided rendering device.helpviewer_keywords: ["IDCompositionSurfaceFactory","IDCompositionSurfaceFactory interface [DirectComposition]","IDCompositionSurfaceFactory interface [DirectComposition]","described","dcomp/IDCompositionSurfaceFactory","directcomp.idcompositionsurfacefactory"]
 old-location: directcomp\idcompositionsurfacefactory.htm
 tech.root: directcomp
 ms.assetid: 1BB028E0-376E-42BD-82FD-08331341C93B

@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmreports.IFsrmReport
 title: IFsrmReport (fsrmreports.h)
-description: Used to configure the description and filters for a single report.
+description: Used to configure the description and filters for a single report.helpviewer_keywords: ["IFsrmReport","IFsrmReport interface [File Server Resource Manager]","IFsrmReport interface [File Server Resource Manager]","described","fs.ifsrmreport","fsrm.ifsrmreport","fsrm/IFsrmReport"]
 old-location: fsrm\ifsrmreport.htm
 tech.root: fsrm
 ms.assetid: 2172a543-b3b7-453e-887b-05c8ee74f197

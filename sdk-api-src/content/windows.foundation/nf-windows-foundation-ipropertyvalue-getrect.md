@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetRect
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the Rect value that is stored in the current IPropertyValue object.
+description: Gets the Rect value that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetRect","GetRect method [Windows Runtime]","GetRect method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetRect method","IPropertyValue.GetRect","IPropertyValue.IPropertyValue","IPropertyValue::GetRect","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetRect","winrt.ipropertyvalue_getrect"]
 old-location: winrt\ipropertyvalue_getrect.htm
 tech.root: WinRT
 ms.assetid: 2333bd80-56db-4fa4-b696-269969fd1362

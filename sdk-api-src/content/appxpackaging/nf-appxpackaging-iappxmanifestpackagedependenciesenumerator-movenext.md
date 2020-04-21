@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependenciesEnumerator.MoveNext
 title: IAppxManifestPackageDependenciesEnumerator::MoveNext (appxpackaging.h)
-description: Advances the position of the enumerator to the next package dependency.
+description: Advances the position of the enumerator to the next package dependency.helpviewer_keywords: ["IAppxManifestPackageDependenciesEnumerator interface [App packaging and management]","MoveNext method","IAppxManifestPackageDependenciesEnumerator.MoveNext","IAppxManifestPackageDependenciesEnumerator::MoveNext","MoveNext","MoveNext method [App packaging and management]","MoveNext method [App packaging and management]","IAppxManifestPackageDependenciesEnumerator interface","appxpackaging/IAppxManifestPackageDependenciesEnumerator::MoveNext","appxpkg.iappxmanifestpackagedependenciesenumerator_movenext"]
 old-location: appxpkg\iappxmanifestpackagedependenciesenumerator_movenext.htm
 tech.root: appxpkg
 ms.assetid: DC30BC6F-C2E2-49B4-B0A8-1973880C9B4F

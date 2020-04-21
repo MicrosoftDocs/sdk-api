@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_BlockSize
 title: IWdsTransportTftpClient::get_BlockSize (wdstptmgmt.h)
-description: Retrieves the block size used in the TFTP session.
+description: Retrieves the block size used in the TFTP session.helpviewer_keywords: ["BlockSize property [Windows Deployment Services]","BlockSize property [Windows Deployment Services]","IWdsTransportTftpClient interface","IWdsTransportTftpClient interface [Windows Deployment Services]","BlockSize property","IWdsTransportTftpClient.BlockSize","IWdsTransportTftpClient.get_BlockSize","IWdsTransportTftpClient::BlockSize","IWdsTransportTftpClient::get_BlockSize","get_BlockSize","wds.iwdstransporttftpclient_blocksize","wdstptmgmt/IWdsTransportTftpClient::BlockSize","wdstptmgmt/IWdsTransportTftpClient::get_BlockSize"]
 old-location: wds\iwdstransporttftpclient_blocksize.htm
 tech.root: wds
 ms.assetid: 64C3BBAE-F60E-411C-89E6-6DC59B95AF41

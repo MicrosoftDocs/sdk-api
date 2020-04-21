@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminConnectionGetInfo
 title: MprAdminConnectionGetInfo function (mprapi.h)
-description: Retrieves data about a specific connection.
+description: Retrieves data about a specific connection.helpviewer_keywords: ["MprAdminConnectionGetInfo","MprAdminConnectionGetInfo function [RAS]","_mpr_mpradminconnectiongetinfo","mprapi/MprAdminConnectionGetInfo","rras.mpradminconnectiongetinfo"]
 old-location: rras\mpradminconnectiongetinfo.htm
 tech.root: RRAS
 ms.assetid: 1fef5fbf-de3f-43c6-8b94-808f6ed209d8

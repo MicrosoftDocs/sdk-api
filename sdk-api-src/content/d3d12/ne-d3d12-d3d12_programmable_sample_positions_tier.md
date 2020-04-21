@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER
 title: D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER (d3d12.h)
-description: Specifies the level of support for programmable sample positions that's offered by the adapter.
+description: Specifies the level of support for programmable sample positions that's offered by the adapter.helpviewer_keywords: ["D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER","D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER enumeration","D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_1","D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_2","D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_NOT_SUPPORTED","d3d12/D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER","d3d12/D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_1","d3d12/D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_2","d3d12/D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_NOT_SUPPORTED","direct3d12.d3d12_programmable_sample_positions_tier"]
 old-location: direct3d12\d3d12_programmable_sample_positions_tier.htm
 tech.root: direct3d12
 ms.assetid: A20B501F-4F76-4CEA-AAEE-7F732E64F8F6

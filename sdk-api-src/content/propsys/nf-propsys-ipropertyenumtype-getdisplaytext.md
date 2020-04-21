@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetDisplayText
 title: IPropertyEnumType::GetDisplayText (propsys.h)
-description: Gets display text from an enumeration information structure.
+description: Gets display text from an enumeration information structure.helpviewer_keywords: ["GetDisplayText","GetDisplayText method [Windows Properties]","GetDisplayText method [Windows Properties]","IPropertyEnumType interface","IPropertyEnumType interface [Windows Properties]","GetDisplayText method","IPropertyEnumType.GetDisplayText","IPropertyEnumType::GetDisplayText","_shell_IPropertyEnumType_GetDisplayText","properties.IPropertyEnumType_GetDisplayText","propsys/IPropertyEnumType::GetDisplayText","shell.IPropertyEnumType_GetDisplayText"]
 old-location: properties\IPropertyEnumType_GetDisplayText.htm
 tech.root: properties
 ms.assetid: d5168ca2-107f-45c2-80fa-21a2379776ed

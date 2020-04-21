@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentAudio
 title: IDvdInfo2::GetCurrentAudio (strmif.h)
-description: The GetCurrentAudio method retrieves the number of available audio streams and the number of the currently selected audio stream.
+description: The GetCurrentAudio method retrieves the number of available audio streams and the number of the currently selected audio stream.helpviewer_keywords: ["GetCurrentAudio","GetCurrentAudio method [DirectShow]","GetCurrentAudio method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetCurrentAudio method","IDvdInfo2.GetCurrentAudio","IDvdInfo2::GetCurrentAudio","IDvdInfo2GetCurrentAudio","dshow.idvdinfo2_getcurrentaudio","strmif/IDvdInfo2::GetCurrentAudio"]
 old-location: dshow\idvdinfo2_getcurrentaudio.htm
 tech.root: DirectShow
 ms.assetid: 0f2ff79f-cefa-43e5-ab91-348a5341a171

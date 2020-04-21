@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.UIntMult
 title: UIntMult function (intsafe.h)
-description: Multiplies one value of type UINT by another.
+description: Multiplies one value of type UINT by another.helpviewer_keywords: ["UIntMult","UIntMult function [Windows Shell]","_shell_UIntMult","intsafe/UIntMult","shell.UIntMult"]
 old-location: shell\UIntMult.htm
 tech.root: shell
 ms.assetid: c469417c-c774-4946-b873-cc2845417655

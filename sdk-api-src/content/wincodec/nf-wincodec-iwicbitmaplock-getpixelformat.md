@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapLock.GetPixelFormat
 title: IWICBitmapLock::GetPixelFormat (wincodec.h)
-description: Gets the pixel format of for the locked area of pixels. This can be used to compute the number of bytes-per-pixel in the locked area.
+description: Gets the pixel format of for the locked area of pixels. This can be used to compute the number of bytes-per-pixel in the locked area.helpviewer_keywords: ["GetPixelFormat","GetPixelFormat method [Windows Imaging Component]","GetPixelFormat method [Windows Imaging Component]","IWICBitmapLock interface","IWICBitmapLock interface [Windows Imaging Component]","GetPixelFormat method","IWICBitmapLock.GetPixelFormat","IWICBitmapLock::GetPixelFormat","_wic_codec_iwicbitmaplock_getpixelformat","wic._wic_codec_iwicbitmaplock_getpixelformat","wincodec/IWICBitmapLock::GetPixelFormat"]
 old-location: wic\_wic_codec_iwicbitmaplock_getpixelformat.htm
 tech.root: wic
 ms.assetid: 2dfc6b0a-eb0f-416f-8123-17e5b93da612

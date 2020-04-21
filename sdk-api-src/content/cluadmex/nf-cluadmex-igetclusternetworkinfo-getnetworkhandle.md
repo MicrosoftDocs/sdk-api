@@ -1,7 +1,7 @@
 ---
 UID: NF:cluadmex.IGetClusterNetworkInfo.GetNetworkHandle
 title: IGetClusterNetworkInfo::GetNetworkHandle (cluadmex.h)
-description: Retrieves a handle to a network.
+description: Retrieves a handle to a network.helpviewer_keywords: ["GetNetworkHandle","GetNetworkHandle method [Failover Cluster]","GetNetworkHandle method [Failover Cluster]","IGetClusterNetworkInfo interface","IGetClusterNetworkInfo interface [Failover Cluster]","GetNetworkHandle method","IGetClusterNetworkInfo.GetNetworkHandle","IGetClusterNetworkInfo::GetNetworkHandle","_wolf_igetclusternetworkinfo_getnetworkhandle","cluadmex/IGetClusterNetworkInfo::GetNetworkHandle","mscs.igetclusternetworkinfo_getnetworkhandle"]
 old-location: mscs\igetclusternetworkinfo_getnetworkhandle.htm
 tech.root: MsCS
 ms.assetid: 596ebdb3-c4c1-4186-ac6b-e6a7d4a61688

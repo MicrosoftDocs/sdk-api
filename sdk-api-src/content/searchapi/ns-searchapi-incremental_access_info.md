@@ -1,7 +1,7 @@
 ---
 UID: NS:searchapi._INCREMENTAL_ACCESS_INFO
 title: INCREMENTAL_ACCESS_INFO (searchapi.h)
-description: Contains access information used by an incremental crawl, such as the last access date and modification time.
+description: Contains access information used by an incremental crawl, such as the last access date and modification time.helpviewer_keywords: ["INCREMENTAL_ACCESS_INFO","INCREMENTAL_ACCESS_INFO structure [search]","_search_INCREMENTAL_ACCESS_INFO","search._search_INCREMENTAL_ACCESS_INFO","searchapi/INCREMENTAL_ACCESS_INFO"]
 old-location: search\_search_INCREMENTAL_ACCESS_INFO.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\incremental_access_info.htm

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFQualityAdviseLimits
 title: IMFQualityAdviseLimits (mfidl.h)
-description: Queries an object for the number of quality modes it supports.
+description: Queries an object for the number of quality modes it supports.helpviewer_keywords: ["IMFQualityAdviseLimits","IMFQualityAdviseLimits interface [Media Foundation]","IMFQualityAdviseLimits interface [Media Foundation]","described","mf.imfqualityadviselimits","mfidl/IMFQualityAdviseLimits"]
 old-location: mf\imfqualityadviselimits.htm
 tech.root: medfound
 ms.assetid: 8ef7088c-2f49-4be9-b719-481616e1737d

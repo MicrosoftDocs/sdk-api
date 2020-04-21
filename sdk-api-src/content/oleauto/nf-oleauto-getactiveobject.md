@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.GetActiveObject
 title: GetActiveObject function (oleauto.h)
-description: Retrieves a pointer to a running object that has been registered with OLE.
+description: Retrieves a pointer to a running object that has been registered with OLE.helpviewer_keywords: ["GetActiveObject","GetActiveObject function [Automation]","_oa96_GetActiveObject","automat.getactiveobject","oleauto/GetActiveObject"]
 old-location: automat\getactiveobject.htm
 tech.root: automat
 ms.assetid: a276e30c-6a7f-4cde-9639-21a9f5170b62

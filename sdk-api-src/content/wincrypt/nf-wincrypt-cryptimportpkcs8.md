@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptImportPKCS8
 title: CryptImportPKCS8 function (wincrypt.h)
-description: Imports the private key in PKCS
+description: Imports the private key in PKCShelpviewer_keywords: ["CRYPT_EXPORTABLE","CRYPT_USER_PROTECTED","CryptImportPKCS8","CryptImportPKCS8 function [Security]","security.cryptimportpkcs8","wincrypt/CryptImportPKCS8"]
 old-location: security\cryptimportpkcs8.htm
 tech.root: SecCrypto
 ms.assetid: fa3deff9-b4c1-4b63-a59f-738f87e1a409

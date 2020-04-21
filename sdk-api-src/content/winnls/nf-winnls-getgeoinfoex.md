@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.GetGeoInfoEx
 title: GetGeoInfoEx function (winnls.h)
-description: Retrieves information about a geographic location that you specify by using a two-letter International Organization for Standardization (ISO) 3166-1 code or numeric United Nations (UN) Series M, Number 49 (M.49) code.
+description: Retrieves information about a geographic location that you specify by using a two-letter International Organization for Standardization (ISO) 3166-1 code or numeric United Nations (UN) Series M, Number 49 (M.49) code.helpviewer_keywords: ["GetGeoInfoEx","GetGeoInfoEx function [Internationalization for Windows Applications]","intl.getgeoinfoex","winnls/GetGeoInfoEx"]
 old-location: intl\getgeoinfoex.htm
 tech.root: Intl
 ms.assetid: 05BF6434-A80F-4BF5-9A43-C4D65E72F43B

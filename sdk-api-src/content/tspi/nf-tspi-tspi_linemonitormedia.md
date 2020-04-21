@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_lineMonitorMedia
 title: TSPI_lineMonitorMedia function (tspi.h)
-description: The TSPI_lineMonitorMedia function enables and disables the detection of media types on the specified call. When a media type is detected, a LINE_MONITORMEDIA message is sent to TAPI.
+description: The TSPI_lineMonitorMedia function enables and disables the detection of media types on the specified call. When a media type is detected, a LINE_MONITORMEDIA message is sent to TAPI.helpviewer_keywords: ["TSPI_lineMonitorMedia","TSPI_lineMonitorMedia function [TAPI 2.2]","_tspi_tspi_linemonitormedia","tspi.tspi_linemonitormedia","tspi/TSPI_lineMonitorMedia"]
 old-location: tspi\tspi_linemonitormedia.htm
 tech.root: Tapi
 ms.assetid: 56a7207a-0ddf-49e6-91f9-e47db6df3b61

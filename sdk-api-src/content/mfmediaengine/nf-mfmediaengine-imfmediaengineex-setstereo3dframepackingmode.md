@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetStereo3DFramePackingMode
 title: IMFMediaEngineEx::SetStereo3DFramePackingMode (mfmediaengine.h)
-description: For stereoscopic 3D video, sets the layout of the two views within a video frame.
+description: For stereoscopic 3D video, sets the layout of the two views within a video frame.helpviewer_keywords: ["IMFMediaEngineEx interface [Media Foundation]","SetStereo3DFramePackingMode method","IMFMediaEngineEx.SetStereo3DFramePackingMode","IMFMediaEngineEx::SetStereo3DFramePackingMode","SetStereo3DFramePackingMode","SetStereo3DFramePackingMode method [Media Foundation]","SetStereo3DFramePackingMode method [Media Foundation]","IMFMediaEngineEx interface","mf.imfmediaengineex_setstereo3dframepackingmode","mfmediaengine/IMFMediaEngineEx::SetStereo3DFramePackingMode"]
 old-location: mf\imfmediaengineex_setstereo3dframepackingmode.htm
 tech.root: medfound
 ms.assetid: E6B1EFA3-188E-495C-A38C-9CD48214BD23

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IPlaybackControl.FinalServerRetry
 title: IPlaybackControl::FinalServerRetry (comsvcs.h)
-description: Informs the server-side Exception_CLSID implementation that all attempts to play back the deferred activation have failed. The message is about to be moved to the final resting queue.
+description: Informs the server-side Exception_CLSID implementation that all attempts to play back the deferred activation have failed. The message is about to be moved to the final resting queue.helpviewer_keywords: ["FinalServerRetry","FinalServerRetry method [COM+]","FinalServerRetry method [COM+]","IPlaybackControl interface","IPlaybackControl interface [COM+]","FinalServerRetry method","IPlaybackControl.FinalServerRetry","IPlaybackControl::FinalServerRetry","_cos_IPlaybackControl_FinalServerRetry","comsvcs/IPlaybackControl::FinalServerRetry","cos.iplaybackcontrol_finalserverretry"]
 old-location: cos\iplaybackcontrol_finalserverretry.htm
 tech.root: cossdk
 ms.assetid: 03f0bd46-004d-4ed6-b00b-de765d339ba0

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymEnumSourceFileTokens
 title: SymEnumSourceFileTokens function (dbghelp.h)
-description: Enumerates all individual entries in a module's source server data, if available.
+description: Enumerates all individual entries in a module's source server data, if available.helpviewer_keywords: ["SymEnumSourceFileTokens","SymEnumSourceFileTokens function","base.symenumsourcefiletokens","dbghelp/SymEnumSourceFileTokens"]
 old-location: base\symenumsourcefiletokens.htm
 tech.root: Debug
 ms.assetid: 0377ef07-bf9f-4938-8fc4-ae14373db590

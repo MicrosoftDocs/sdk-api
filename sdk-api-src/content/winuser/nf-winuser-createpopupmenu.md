@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CreatePopupMenu
 title: CreatePopupMenu function (winuser.h)
-description: Creates a drop-down menu, submenu, or shortcut menu.
+description: Creates a drop-down menu, submenu, or shortcut menu.helpviewer_keywords: ["CreatePopupMenu","CreatePopupMenu function [Menus and Other Resources]","_win32_CreatePopupMenu","_win32_createpopupmenu_cpp","menurc.createpopupmenu","winui._win32_createpopupmenu","winuser/CreatePopupMenu"]
 old-location: menurc\createpopupmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\createpopupmenu.htm

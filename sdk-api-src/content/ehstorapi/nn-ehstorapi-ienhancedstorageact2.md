@@ -1,7 +1,7 @@
 ---
 UID: NN:ehstorapi.IEnhancedStorageACT2
 title: IEnhancedStorageACT2 (ehstorapi.h)
-description: IEnhancedStorageACT2 interface is used to obtain information for a 1667 Addressable Contact Target (ACT).
+description: IEnhancedStorageACT2 interface is used to obtain information for a 1667 Addressable Contact Target (ACT).helpviewer_keywords: ["IEnhancedStorageACT2","IEnhancedStorageACT2 interface [Enhanced Storage]","IEnhancedStorageACT2 interface [Enhanced Storage]","described","ehstorapi/IEnhancedStorageACT2","enstor.ienhancedstorageact2"]
 old-location: enstor\ienhancedstorageact2.htm
 tech.root: enstor
 ms.assetid: 23f47a1a-c2d1-43ed-871a-ca80aab2eed6

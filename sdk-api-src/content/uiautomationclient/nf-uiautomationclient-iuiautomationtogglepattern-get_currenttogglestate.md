@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTogglePattern.get_CurrentToggleState
 title: IUIAutomationTogglePattern::get_CurrentToggleState (uiautomationclient.h)
-description: Retrieves the state of the control.
+description: Retrieves the state of the control.helpviewer_keywords: ["CurrentToggleState property [Windows Accessibility]","CurrentToggleState property [Windows Accessibility]","IUIAutomationTogglePattern interface","IUIAutomationTogglePattern interface [Windows Accessibility]","CurrentToggleState property","IUIAutomationTogglePattern.CurrentToggleState","IUIAutomationTogglePattern.get_CurrentToggleState","IUIAutomationTogglePattern::CurrentToggleState","IUIAutomationTogglePattern::get_CurrentToggleState","get_CurrentToggleState","uiauto.uiauto_IUIAutomationTogglePattern_CurrentToggleState","uiauto_IUIAutomationTogglePattern_CurrentToggleState","uiautomationclient/IUIAutomationTogglePattern::CurrentToggleState","uiautomationclient/IUIAutomationTogglePattern::get_CurrentToggleState","winauto.uiauto_IUIAutomationTogglePattern_CurrentToggleState"]
 old-location: winauto\uiauto_IUIAutomationTogglePattern_CurrentToggleState.htm
 tech.root: WinAuto
 ms.assetid: 93966356-11b1-4b2a-ac1c-d3daa9d5b1dd

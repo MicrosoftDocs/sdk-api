@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_DC_INITIALIZE_MODE
 title: D2D1_DC_INITIALIZE_MODE (d2d1.h)
-description: Specifies how a device context is initialized for GDI rendering when it is retrieved from the render target.
+description: Specifies how a device context is initialized for GDI rendering when it is retrieved from the render target.helpviewer_keywords: ["D2D1_DC_INITIALIZE_MODE","D2D1_DC_INITIALIZE_MODE enumeration [Direct2D]","D2D1_DC_INITIALIZE_MODE_CLEAR","D2D1_DC_INITIALIZE_MODE_COPY","d2d1/D2D1_DC_INITIALIZE_MODE","d2d1/D2D1_DC_INITIALIZE_MODE_CLEAR","d2d1/D2D1_DC_INITIALIZE_MODE_COPY","direct2d.D2D1_DC_INITIALIZE_MODE"]
 old-location: direct2d\D2D1_DC_INITIALIZE_MODE.htm
 tech.root: Direct2D
 ms.assetid: a7837fe4-6e11-42a0-8a85-cba42e0f123a

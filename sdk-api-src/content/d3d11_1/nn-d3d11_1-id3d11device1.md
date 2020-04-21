@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11_1.ID3D11Device1
 title: ID3D11Device1 (d3d11_1.h)
-description: The device interface represents a virtual adapter; it is used to create resources. ID3D11Device1 adds new methods to those in ID3D11Device.
+description: The device interface represents a virtual adapter; it is used to create resources. ID3D11Device1 adds new methods to those in ID3D11Device.helpviewer_keywords: ["ID3D11Device1","ID3D11Device1 interface [Direct3D 11]","ID3D11Device1 interface [Direct3D 11]","described","d3d11_1/ID3D11Device1","direct3d11.id3d11device1"]
 old-location: direct3d11\id3d11device1.htm
 tech.root: direct3d11
 ms.assetid: DB4DAD13-3CD7-4362-950B-6403328CB071

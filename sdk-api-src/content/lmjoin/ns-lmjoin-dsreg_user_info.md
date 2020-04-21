@@ -1,7 +1,7 @@
 ---
 UID: NS:lmjoin._DSREG_USER_INFO
 title: DSREG_USER_INFO (lmjoin.h)
-description: Contains information about a user account that is used to join a device to Microsoft Azure Active Directory.
+description: Contains information about a user account that is used to join a device to Microsoft Azure Active Directory.helpviewer_keywords: ["*PDSREG_USER_INFO","DSREG_USER_INFO","DSREG_USER_INFO structure [Network Management]","PDSREG_USER_INFO","PDSREG_USER_INFO structure pointer [Network Management]","lmjoin/DSREG_USER_INFO","lmjoin/PDSREG_USER_INFO","netmgmt.dsreg_user_info"]
 old-location: netmgmt\dsreg_user_info.htm
 tech.root: NetMgmt
 ms.assetid: 5E639988-0F53-40D7-BBEC-F78B3D124CC0

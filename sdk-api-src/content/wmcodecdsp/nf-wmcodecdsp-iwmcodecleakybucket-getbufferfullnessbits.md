@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecLeakyBucket.GetBufferFullnessBits
 title: IWMCodecLeakyBucket::GetBufferFullnessBits (wmcodecdsp.h)
-description: Not implemented in this release.
+description: Not implemented in this release.helpviewer_keywords: ["GetBufferFullnessBits","GetBufferFullnessBits method [Media Foundation]","GetBufferFullnessBits method [Media Foundation]","IWMCodecLeakyBucket interface","IWMCodecLeakyBucket interface [Media Foundation]","GetBufferFullnessBits method","IWMCodecLeakyBucket.GetBufferFullnessBits","IWMCodecLeakyBucket::GetBufferFullnessBits","codecapi.iwmcodecleakybucketgetbufferfullnessbits","codecapi.iwmcodecleakybuffergetbufferfullnessbits","mf.iwmcodecleakybucketgetbufferfullnessbits","wmcodecdsp/IWMCodecLeakyBucket::GetBufferFullnessBits"]
 old-location: mf\iwmcodecleakybucketgetbufferfullnessbits.htm
 tech.root: medfound
 ms.assetid: 46eee8c9-e10e-41e3-9400-051b4484eee0

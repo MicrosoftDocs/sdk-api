@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed
 title: ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed (msctf.h)
-description: ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed method
+description: ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed methodhelpviewer_keywords: ["DisableSystemKeystrokeFeed","DisableSystemKeystrokeFeed method [Text Services Framework]","DisableSystemKeystrokeFeed method [Text Services Framework]","ITfConfigureSystemKeystrokeFeed interface","ITfConfigureSystemKeystrokeFeed interface [Text Services Framework]","DisableSystemKeystrokeFeed method","ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed","ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed","_tsf_itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed_ref","msctf/ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed","tsf.itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed"]
 old-location: tsf\itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed.htm
 tech.root: TSF
 ms.assetid: 6bdca5cc-84b4-4184-a8cc-76dddc573b35

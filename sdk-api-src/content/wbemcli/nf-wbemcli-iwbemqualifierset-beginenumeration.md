@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.BeginEnumeration
 title: IWbemQualifierSet::BeginEnumeration (wbemcli.h)
-description: The IWbemQualifierSet::BeginEnumeration method resets before there is an enumeration of all the qualifiers in the object.
+description: The IWbemQualifierSet::BeginEnumeration method resets before there is an enumeration of all the qualifiers in the object.helpviewer_keywords: ["0 (Zero)","BeginEnumeration","BeginEnumeration method [Windows Management Instrumentation]","BeginEnumeration method [Windows Management Instrumentation]","IWbemQualifierSet interface","IWbemQualifierSet interface [Windows Management Instrumentation]","BeginEnumeration method","IWbemQualifierSet.BeginEnumeration","IWbemQualifierSet::BeginEnumeration","WBEM_FLAG_LOCAL_ONLY","WBEM_FLAG_PROPAGATED_ONLY","_hmm_iwbemqualifierset_beginenumeration","wbemcli/IWbemQualifierSet::BeginEnumeration","wmi.iwbemqualifierset_beginenumeration"]
 old-location: wmi\iwbemqualifierset_beginenumeration.htm
 tech.root: WmiSdk
 ms.assetid: 57fa60d1-54d2-412d-b39b-c35dfd709d0c

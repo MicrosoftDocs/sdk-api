@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IRegisterServiceProvider
 title: IRegisterServiceProvider (strmif.h)
-description: The IRegisterServiceProvider interface registers an object as a service with the Filter Graph Manager. For more information, see IRegisterServiceProvider::RegisterService.
+description: The IRegisterServiceProvider interface registers an object as a service with the Filter Graph Manager. For more information, see IRegisterServiceProvider::RegisterService.helpviewer_keywords: ["IRegisterServiceProvider","IRegisterServiceProvider interface [DirectShow]","IRegisterServiceProvider interface [DirectShow]","described","IRegisterServiceProviderInterface","dshow.iregisterserviceprovider","strmif/IRegisterServiceProvider"]
 old-location: dshow\iregisterserviceprovider.htm
 tech.root: DirectShow
 ms.assetid: 1097fa4c-d81d-4268-8492-c0d9f4888733

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_DECODE_TIER
 title: D3D12_VIDEO_DECODE_TIER
-description: Specifies the decoding tier of a hardware video decoder, which determines the required format of application-defined textures and buffers.
+description: Specifies the decoding tier of a hardware video decoder, which determines the required format of application-defined textures and buffers.helpviewer_keywords: ["D3D12_VIDEO_DECODE_TIER","D3D12_VIDEO_DECODE_TIER",""]
 tech.root: mf
 ms.assetid: a7e84f4d-3aa0-4986-a1da-747bbbd6c889
 ms.date: 05/28/2019

@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IEnumMoniker
 title: IEnumMoniker (objidl.h)
-description: Enumerates the components of a moniker or the monikers in a table of monikers.
+description: Enumerates the components of a moniker or the monikers in a table of monikers.helpviewer_keywords: ["IEnumMoniker","IEnumMoniker interface [COM]","IEnumMoniker interface [COM]","described","_ole_ienummoniker","com.ienummoniker","objidl/IEnumMoniker"]
 old-location: com\ienummoniker.htm
 tech.root: com
 ms.assetid: c8dec22b-946d-48ae-9315-54d353f3b853

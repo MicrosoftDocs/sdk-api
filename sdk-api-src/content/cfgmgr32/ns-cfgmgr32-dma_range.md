@@ -1,7 +1,7 @@
 ---
 UID: NS:cfgmgr32.DMA_Range_s
 title: DMA_RANGE (cfgmgr32.h)
-description: The DMA_RANGE structure specifies a resource requirements list that describes DMA channel usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
+description: The DMA_RANGE structure specifies a resource requirements list that describes DMA channel usage for a device instance. For more information about resource requirements lists, see Hardware Resources.helpviewer_keywords: ["*PDMA_RANGE","DMA_RANGE","DMA_RANGE structure [Device and Driver Installation]","PDMA_RANGE","PDMA_RANGE structure pointer [Device and Driver Installation]","cfgmgr32/DMA_RANGE","cfgmgr32/PDMA_RANGE","cfgmgrst_a19d993e-d664-4218-8bae-23e97919b3a8.xml","devinst.dma_range"]
 old-location: devinst\dma_range.htm
 tech.root: devinst
 ms.assetid: 46c80013-1863-4e02-be8d-282d2e619200

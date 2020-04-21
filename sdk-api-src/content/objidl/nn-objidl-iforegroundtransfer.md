@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IForegroundTransfer
 title: IForegroundTransfer (objidl.h)
-description: Transfers the foreground window to the process hosting the COM server.
+description: Transfers the foreground window to the process hosting the COM server.helpviewer_keywords: ["IForegroundTransfer","IForegroundTransfer interface [COM]","IForegroundTransfer interface [COM]","described","_com_iforegroundtransfer","com.iforegroundtransfer","objidl/IForegroundTransfer"]
 old-location: com\iforegroundtransfer.htm
 tech.root: com
 ms.assetid: 21857592-0f98-4eb4-a153-4ce20edf26c7

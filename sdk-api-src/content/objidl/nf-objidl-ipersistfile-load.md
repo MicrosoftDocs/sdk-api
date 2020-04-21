@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IPersistFile.Load
 title: IPersistFile::Load (objidl.h)
-description: Opens the specified file and initializes an object from the file contents.
+description: Opens the specified file and initializes an object from the file contents.helpviewer_keywords: ["IPersistFile interface [COM]","Load method","IPersistFile.Load","IPersistFile::Load","Load","Load method [COM]","Load method [COM]","IPersistFile interface","_com_ipersistfile_load","com.ipersistfile_load","objidl/IPersistFile::Load"]
 old-location: com\ipersistfile_load.htm
 tech.root: com
 ms.assetid: 8391aa5c-fe6e-4b03-9eef-7958f75910a5

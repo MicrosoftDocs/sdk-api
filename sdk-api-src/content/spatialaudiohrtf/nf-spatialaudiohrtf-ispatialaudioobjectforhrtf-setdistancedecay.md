@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetDistanceDecay
 title: ISpatialAudioObjectForHrtf::SetDistanceDecay (spatialaudiohrtf.h)
-description: Sets the decay model that is applied over distance from the position of an ISpatialAudioObjectForHrtf to the position of the listener.
+description: Sets the decay model that is applied over distance from the position of an ISpatialAudioObjectForHrtf to the position of the listener.helpviewer_keywords: ["ISpatialAudioObjectForHrtf interface [Core Audio]","SetDistanceDecay method","ISpatialAudioObjectForHrtf.SetDistanceDecay","ISpatialAudioObjectForHrtf::SetDistanceDecay","SetDistanceDecay","SetDistanceDecay method [Core Audio]","SetDistanceDecay method [Core Audio]","ISpatialAudioObjectForHrtf interface","coreaudio.ispatialaudioobjectforhrtf_setdistancedecay","spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetDistanceDecay"]
 old-location: coreaudio\ispatialaudioobjectforhrtf_setdistancedecay.htm
 tech.root: CoreAudio
 ms.assetid: 62C95E6A-C27E-4C17-91E1-D6D80172F15B

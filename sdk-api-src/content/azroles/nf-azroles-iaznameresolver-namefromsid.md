@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzNameResolver.NameFromSid
 title: IAzNameResolver::NameFromSid (azroles.h)
-description: Gets the display name that corresponds to the specified security identifier (SID).
+description: Gets the display name that corresponds to the specified security identifier (SID).helpviewer_keywords: ["IAzNameResolver interface [Security]","NameFromSid method","IAzNameResolver.NameFromSid","IAzNameResolver::NameFromSid","NameFromSid","NameFromSid method [Security]","NameFromSid method [Security]","IAzNameResolver interface","azroles/IAzNameResolver::NameFromSid","security.iaznameresolver_namefromsid_method"]
 old-location: security\iaznameresolver_namefromsid_method.htm
 tech.root: SecAuthZ
 ms.assetid: 3518e620-85cf-4bae-8366-d43564535774

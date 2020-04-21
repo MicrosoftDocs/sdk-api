@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IComponents.put_Item
 title: IComponents::put_Item (tuner.h)
-description: The put_Item method inserts a component into the collection, replacing the item that is identified by the specified index.
+description: The put_Item method inserts a component into the collection, replacing the item that is identified by the specified index.helpviewer_keywords: ["IComponents interface [Microsoft TV Technologies]","put_Item method","IComponents.put_Item","IComponents::put_Item","IComponentsput_Item","mstv.icomponents_put_item","put_Item","put_Item method [Microsoft TV Technologies]","put_Item method [Microsoft TV Technologies]","IComponents interface","tuner/IComponents::put_Item"]
 old-location: mstv\icomponents_put_item.htm
 tech.root: mstv
 ms.assetid: c1e18e97-e8d3-441c-b7ea-6743e478033b

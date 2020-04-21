@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl.BackwardScan
 title: IDvdControl::BackwardScan (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Searches backward through the current disc at the specified speed.
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Searches backward through the current disc at the specified speed.helpviewer_keywords: ["BackwardScan","BackwardScan method [DirectShow]","BackwardScan method [DirectShow]","IDvdControl interface","IDvdControl interface [DirectShow]","BackwardScan method","IDvdControl.BackwardScan","IDvdControl::BackwardScan","IDvdControlBackwardScan","dshow.idvdcontrol_backwardscan","strmif/IDvdControl::BackwardScan"]
 old-location: dshow\idvdcontrol_backwardscan.htm
 tech.root: DirectShow
 ms.assetid: 9d2b1635-9b02-465a-a725-8b7985b651fb

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1RenderInfo.SetOutputBuffer
 title: ID2D1RenderInfo::SetOutputBuffer (d2d1effectauthor.h)
-description: Allows a caller to control the output precision and channel-depth of the transform in which the render information is encapsulated.
+description: Allows a caller to control the output precision and channel-depth of the transform in which the render information is encapsulated.helpviewer_keywords: ["ID2D1RenderInfo interface [Direct2D]","SetOutputBuffer method","ID2D1RenderInfo.SetOutputBuffer","ID2D1RenderInfo::SetOutputBuffer","SetOutputBuffer","SetOutputBuffer method [Direct2D]","SetOutputBuffer method [Direct2D]","ID2D1RenderInfo interface","d2d1effectauthor/ID2D1RenderInfo::SetOutputBuffer","direct2d.id2d1renderinfo_setoutputbuffer"]
 old-location: direct2d\id2d1renderinfo_setoutputbuffer.htm
 tech.root: Direct2D
 ms.assetid: 4267FCA0-10AF-4731-8B68-B3425FA00185

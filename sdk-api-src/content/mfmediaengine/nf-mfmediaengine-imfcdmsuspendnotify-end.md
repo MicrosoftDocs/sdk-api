@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFCdmSuspendNotify.End
 title: IMFCdmSuspendNotify::End (mfmediaengine.h)
-description: The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
+description: The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).helpviewer_keywords: ["End","End method [Media Foundation]","End method [Media Foundation]","IMFCdmSuspendNotify interface","IMFCdmSuspendNotify interface [Media Foundation]","End method","IMFCdmSuspendNotify.End","IMFCdmSuspendNotify::End","mf.imfcdmsuspendnotify_end","mfmediaengine/IMFCdmSuspendNotify::End"]
 old-location: mf\imfcdmsuspendnotify_end.htm
 tech.root: medfound
 ms.assetid: 7a319fbb-9757-45da-8a8b-51dd48f08464

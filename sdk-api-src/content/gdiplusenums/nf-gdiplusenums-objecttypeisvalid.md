@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusenums.ObjectTypeIsValid
 title: ObjectTypeIsValid function (gdiplusenums.h)
-description: The ObjectTypeIsValid function determines whether an element of the ObjectType enumeration represents a valid object type.
+description: The ObjectTypeIsValid function determines whether an element of the ObjectType enumeration represents a valid object type.helpviewer_keywords: ["ObjectTypeIsValid","ObjectTypeIsValid function [GDI+]","_gdiplus_FUNC_ObjectTypeIsValid_","gdiplus._gdiplus_FUNC_ObjectTypeIsValid_","gdiplusenums/ObjectTypeIsValid"]
 old-location: gdiplus\_gdiplus_FUNC_ObjectTypeIsValid_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\objecttypeisvalid.htm

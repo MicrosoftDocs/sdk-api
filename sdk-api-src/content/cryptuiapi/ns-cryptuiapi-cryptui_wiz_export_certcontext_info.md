@@ -1,7 +1,7 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
 title: CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO (cryptuiapi.h)
-description: Contains information that controls the operation of the CryptUIWizExport function when a certificate is the object being exported.
+description: Contains information that controls the operation of the CryptUIWizExport function when a certificate is the object being exported.helpviewer_keywords: ["*PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO","CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO","CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure [Security]","CRYPTUI_WIZ_EXPORT_FORMAT_BASE64","CRYPTUI_WIZ_EXPORT_FORMAT_CRL","CRYPTUI_WIZ_EXPORT_FORMAT_CTL","CRYPTUI_WIZ_EXPORT_FORMAT_DER","CRYPTUI_WIZ_EXPORT_FORMAT_PFX","CRYPTUI_WIZ_EXPORT_FORMAT_PKCS7","PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO","PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure pointer [Security]","cryptuiapi/CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO","cryptuiapi/PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO","security.cryptui_wiz_export_certcontext_info"]
 old-location: security\cryptui_wiz_export_certcontext_info.htm
 tech.root: SecCrypto
 ms.assetid: 6be86c4f-0ac7-43c2-81fb-9767279ebeaf

@@ -1,7 +1,7 @@
 ---
 UID: NF:roerrorapi.RoReportUnhandledError
 title: RoReportUnhandledError function
-description: Triggers the Global Error Handler when an unhandled exception occurs.
+description: Triggers the Global Error Handler when an unhandled exception occurs.helpviewer_keywords: ["RoReportUnhandledError","RoReportUnhandledError function [Windows Runtime]","roerrorapi/RoReportUnhandledError","winrt.roreportunhandlederror"]
 old-location: winrt\roreportunhandlederror.htm
 tech.root: WinRT
 ms.assetid: DE8F29B4-505C-480E-9258-9E5300BEA3F0

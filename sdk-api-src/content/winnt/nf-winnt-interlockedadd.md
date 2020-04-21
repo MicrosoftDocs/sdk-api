@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.InterlockedAdd
 title: InterlockedAdd function (winnt.h)
-description: Performs an atomic addition operation on the specified LONG values.
+description: Performs an atomic addition operation on the specified LONG values.helpviewer_keywords: ["InterlockedAdd","InterlockedAdd function","base.interlockedadd","winnt/InterlockedAdd"]
 old-location: base\interlockedadd.htm
 tech.root: Sync
 ms.assetid: c3ff4c2f-ac84-4046-ac4e-600569b874be

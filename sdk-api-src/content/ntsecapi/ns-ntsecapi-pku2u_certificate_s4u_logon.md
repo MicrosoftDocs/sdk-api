@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._PKU2U_CERTIFICATE_S4U_LOGON
 title: PKU2U_CERTIFICATE_S4U_LOGON (ntsecapi.h)
-description: Specifies a certificate used for S4U logon.
+description: Specifies a certificate used for S4U logon.helpviewer_keywords: ["*PPKU2U_CERTIFICATE_S4U_LOGON","PKU2U_CERTIFICATE_S4U_LOGON","PKU2U_CERTIFICATE_S4U_LOGON structure [Security]","PPKU2U_CERTIFICATE_S4U_LOGON","PPKU2U_CERTIFICATE_S4U_LOGON structure pointer [Security]","ntsecapi/PKU2U_CERTIFICATE_S4U_LOGON","ntsecapi/PPKU2U_CERTIFICATE_S4U_LOGON","security.pku2u_certificate_s4u_logon"]
 old-location: security\pku2u_certificate_s4u_logon.htm
 tech.root: SecAuthN
 ms.assetid: 438b5637-d711-419a-a163-a9b014bf0662

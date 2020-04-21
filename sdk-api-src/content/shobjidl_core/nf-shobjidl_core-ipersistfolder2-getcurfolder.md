@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IPersistFolder2.GetCurFolder
 title: IPersistFolder2::GetCurFolder (shobjidl_core.h)
-description: Gets the ITEMIDLIST for the folder object.
+description: Gets the ITEMIDLIST for the folder object.helpviewer_keywords: ["GetCurFolder","GetCurFolder method [Windows Shell]","GetCurFolder method [Windows Shell]","IPersistFolder2 interface","IPersistFolder2 interface [Windows Shell]","GetCurFolder method","IPersistFolder2.GetCurFolder","IPersistFolder2::GetCurFolder","_win32_IPersistFolder2_GetCurFolder","shell.IPersistFolder2_GetCurFolder","shobjidl_core/IPersistFolder2::GetCurFolder"]
 old-location: shell\IPersistFolder2_GetCurFolder.htm
 tech.root: shell
 ms.assetid: 6aaf6ed5-ae8e-4521-80cb-ec45af8827aa

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.GetIUnknown
 title: IManagedObjectInfo::GetIUnknown (comsvcs.h)
-description: Retrieves the IUnknown interface that is associated with the managed object.
+description: Retrieves the IUnknown interface that is associated with the managed object.helpviewer_keywords: ["GetIUnknown","GetIUnknown method [COM+]","GetIUnknown method [COM+]","IManagedObjectInfo interface","IManagedObjectInfo interface [COM+]","GetIUnknown method","IManagedObjectInfo.GetIUnknown","IManagedObjectInfo::GetIUnknown","_cos_IManagedObjectInfo_GetIUnknown","comsvcs/IManagedObjectInfo::GetIUnknown","cos.imanagedobjectinfo_getiunknown"]
 old-location: cos\imanagedobjectinfo_getiunknown.htm
 tech.root: cossdk
 ms.assetid: 1c0d27cb-1725-4654-ab15-0ef815ce6657

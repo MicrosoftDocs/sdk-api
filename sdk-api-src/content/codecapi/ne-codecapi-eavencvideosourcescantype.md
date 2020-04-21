@@ -1,7 +1,7 @@
 ---
 UID: NE:codecapi.eAVEncVideoSourceScanType
 title: eAVEncVideoSourceScanType (codecapi.h)
-description: Specifies whether the input frames for an encoder are progressive or interlaced. This enumeration is used with the AVEncVideoForceSourceScanType property.
+description: Specifies whether the input frames for an encoder are progressive or interlaced. This enumeration is used with the AVEncVideoForceSourceScanType property.helpviewer_keywords: ["codecapi/eAVEncVideoSourceScanType","codecapi/eAVEncVideoSourceScan_Automatic","codecapi/eAVEncVideoSourceScan_Interlaced","codecapi/eAVEncVideoSourceScan_Progressive","dshow.eavencvideosourcescantype","eAVEncVideoSourceScanType","eAVEncVideoSourceScanType enumeration [DirectShow]","eAVEncVideoSourceScanTypeEnumeration","eAVEncVideoSourceScan_Automatic","eAVEncVideoSourceScan_Interlaced","eAVEncVideoSourceScan_Progressive"]
 old-location: dshow\eavencvideosourcescantype.htm
 tech.root: DirectShow
 ms.assetid: f191f4de-2549-4223-b40d-828df467b691

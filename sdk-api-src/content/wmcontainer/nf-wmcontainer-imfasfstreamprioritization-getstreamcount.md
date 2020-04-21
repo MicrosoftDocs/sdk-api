@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.GetStreamCount
 title: IMFASFStreamPrioritization::GetStreamCount (wmcontainer.h)
-description: Note  This interface is not implemented in this version of Media Foundation. Retrieves the number of entries in the stream priority list.
+description: Note  This interface is not implemented in this version of Media Foundation. Retrieves the number of entries in the stream priority list.helpviewer_keywords: ["8c9dacbb-a952-411e-82df-0c8768d0b3fe","GetStreamCount","GetStreamCount method [Media Foundation]","GetStreamCount method [Media Foundation]","IMFASFStreamPrioritization interface","IMFASFStreamPrioritization interface [Media Foundation]","GetStreamCount method","IMFASFStreamPrioritization.GetStreamCount","IMFASFStreamPrioritization::GetStreamCount","mf.imfasfstreamprioritization_getstreamcount","wmcontainer/IMFASFStreamPrioritization::GetStreamCount"]
 old-location: mf\imfasfstreamprioritization_getstreamcount.htm
 tech.root: medfound
 ms.assetid: 8c9dacbb-a952-411e-82df-0c8768d0b3fe

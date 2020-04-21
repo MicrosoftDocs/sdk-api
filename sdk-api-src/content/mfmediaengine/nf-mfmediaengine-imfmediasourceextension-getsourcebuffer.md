@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.GetSourceBuffer
 title: IMFMediaSourceExtension::GetSourceBuffer (mfmediaengine.h)
-description: Gets the IMFSourceBuffer at the specified index in the collection of buffers.
+description: Gets the IMFSourceBuffer at the specified index in the collection of buffers.helpviewer_keywords: ["GetSourceBuffer","GetSourceBuffer method [Media Foundation]","GetSourceBuffer method [Media Foundation]","IMFMediaSourceExtension interface","IMFMediaSourceExtension interface [Media Foundation]","GetSourceBuffer method","IMFMediaSourceExtension.GetSourceBuffer","IMFMediaSourceExtension::GetSourceBuffer","mf.imfmediasourceextension_getsourcebuffer","mfmediaengine/IMFMediaSourceExtension::GetSourceBuffer"]
 old-location: mf\imfmediasourceextension_getsourcebuffer.htm
 tech.root: medfound
 ms.assetid: ada32819-0ec3-4083-97a3-b8ae257d751b

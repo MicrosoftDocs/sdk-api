@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateLeaf
 title: IConditionFactory2::CreateLeaf (structuredquery.h)
-description: Creates a leaf condition node for any value. The returned object supports ICondition and ICondition2.
+description: Creates a leaf condition node for any value. The returned object supports ICondition and ICondition2.helpviewer_keywords: ["CreateLeaf","CreateLeaf method [search]","CreateLeaf method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateLeaf method","IConditionFactory2.CreateLeaf","IConditionFactory2::CreateLeaf","_search_IConditionFactory2_CreateLeaf","search._search_IConditionFactory2_CreateLeaf","structuredquery/IConditionFactory2::CreateLeaf"]
 old-location: search\_search_IConditionFactory2_CreateLeaf.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory\createleaf.htm

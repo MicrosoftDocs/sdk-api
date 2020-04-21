@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetMessageCountLimit
 title: IDXGIInfoQueue::GetMessageCountLimit (dxgidebug.h)
-description: Gets the maximum number of messages that can be added to the message queue.
+description: Gets the maximum number of messages that can be added to the message queue.helpviewer_keywords: ["GetMessageCountLimit","GetMessageCountLimit method [DXGI]","GetMessageCountLimit method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetMessageCountLimit method","IDXGIInfoQueue.GetMessageCountLimit","IDXGIInfoQueue::GetMessageCountLimit","direct3ddxgi.idxgiinfoqueue_getmessagecountlimit","dxgidebug/IDXGIInfoQueue::GetMessageCountLimit"]
 old-location: direct3ddxgi\idxgiinfoqueue_getmessagecountlimit.htm
 tech.root: direct3ddxgi
 ms.assetid: F9700374-255D-423E-8E60-4FE7FFA9E807

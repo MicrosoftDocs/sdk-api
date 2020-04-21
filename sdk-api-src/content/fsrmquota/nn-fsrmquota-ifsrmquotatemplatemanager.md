@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaTemplateManager
 title: IFsrmQuotaTemplateManager (fsrmquota.h)
-description: Used to manage quota templates.
+description: Used to manage quota templates.helpviewer_keywords: ["IFsrmQuotaTemplateManager","IFsrmQuotaTemplateManager interface [File Server Resource Manager]","IFsrmQuotaTemplateManager interface [File Server Resource Manager]","described","fs.ifsrmquotatemplatemanager","fsrm.ifsrmquotatemplatemanager","fsrmquota/IFsrmQuotaTemplateManager"]
 old-location: fsrm\ifsrmquotatemplatemanager.htm
 tech.root: fsrm
 ms.assetid: c6e782ff-b2e7-4bd6-bd9f-cc645c6ee5d6

@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterResourceCloseEnum
 title: ClusterResourceCloseEnum function (clusapi.h)
-description: Closes a resource enumeration handle.
+description: Closes a resource enumeration handle.helpviewer_keywords: ["ClusterResourceCloseEnum","ClusterResourceCloseEnum function [Failover Cluster]","PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM","PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM function [Failover Cluster]","_wolf_clusterresourcecloseenum","clusapi/ClusterResourceCloseEnum","clusapi/PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM","mscs.clusterresourcecloseenum"]
 old-location: mscs\clusterresourcecloseenum.htm
 tech.root: MsCS
 ms.assetid: 49407b45-2b7f-43a2-90ff-98cc557edb31

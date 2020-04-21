@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.SetOpticalAlignment
 title: IDWriteTextFormat1::SetOpticalAlignment (dwrite_2.h)
-description: Sets the optical margin alignment for the text format.
+description: Sets the optical margin alignment for the text format.helpviewer_keywords: ["IDWriteTextFormat1 interface [Direct Write]","SetOpticalAlignment method","IDWriteTextFormat1.SetOpticalAlignment","IDWriteTextFormat1::SetOpticalAlignment","SetOpticalAlignment","SetOpticalAlignment method [Direct Write]","SetOpticalAlignment method [Direct Write]","IDWriteTextFormat1 interface","directwrite.idwritetextformat1_setopticalalignment","dwrite_2/IDWriteTextFormat1::SetOpticalAlignment"]
 old-location: directwrite\idwritetextformat1_setopticalalignment.htm
 tech.root: DirectWrite
 ms.assetid: FA050DAC-2788-4159-B299-D4B6100D85F4

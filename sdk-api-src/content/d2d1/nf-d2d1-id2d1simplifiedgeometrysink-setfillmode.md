@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.SetFillMode
 title: ID2D1SimplifiedGeometrySink::SetFillMode (d2d1.h)
-description: Specifies the method used to determine which points are inside the geometry described by this geometry sink and which points are outside.
+description: Specifies the method used to determine which points are inside the geometry described by this geometry sink and which points are outside.helpviewer_keywords: ["ID2D1SimplifiedGeometrySink interface [Direct2D]","SetFillMode method","ID2D1SimplifiedGeometrySink.SetFillMode","ID2D1SimplifiedGeometrySink::SetFillMode","SetFillMode","SetFillMode method [Direct2D]","SetFillMode method [Direct2D]","ID2D1SimplifiedGeometrySink interface","d2d1/ID2D1SimplifiedGeometrySink::SetFillMode","direct2d.ID2D1SimplifiedGeometrySink_SetFillMode"]
 old-location: direct2d\ID2D1SimplifiedGeometrySink_SetFillMode.htm
 tech.root: Direct2D
 ms.assetid: f60f48bb-989e-46a5-b77f-65da0b91a599

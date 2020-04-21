@@ -1,7 +1,7 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTSCOPE
 title: DBCONTENTSCOPE (cmdtree.h)
-description: The DBCONTENTSCOPE structure is used to pass a scope argument in a command tree.
+description: The DBCONTENTSCOPE structure is used to pass a scope argument in a command tree.helpviewer_keywords: ["DBCONTENTSCOPE","DBCONTENTSCOPE structure [Indexing Service]","_idxs_DBCONTENTSCOPE","cmdtree/DBCONTENTSCOPE","indexsrv.dbcontentscope","tagDBCONTENTSCOPE"]
 old-location: indexsrv\dbcontentscope.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_4s85.htm

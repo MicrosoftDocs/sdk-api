@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CopyContext
 title: CopyContext function (winbase.h)
-description: Copies a source context structure (including any XState) onto an initialized destination context structure.
+description: Copies a source context structure (including any XState) onto an initialized destination context structure.helpviewer_keywords: ["CopyContext","CopyContext function","base.copycontext","winbase/CopyContext"]
 old-location: base\copycontext.htm
 tech.root: Debug
 ms.assetid: 805CD02A-53BC-487C-83F8-FE804368C770

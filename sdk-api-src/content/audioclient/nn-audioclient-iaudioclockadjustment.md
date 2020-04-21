@@ -1,7 +1,7 @@
 ---
 UID: NN:audioclient.IAudioClockAdjustment
 title: IAudioClockAdjustment (audioclient.h)
-description: The IAudioClockAdjustment interface is used to adjust the sample rate of a stream.
+description: The IAudioClockAdjustment interface is used to adjust the sample rate of a stream.helpviewer_keywords: ["IAudioClockAdjustment","IAudioClockAdjustment interface [Core Audio]","IAudioClockAdjustment interface [Core Audio]","described","audioclient/IAudioClockAdjustment","coreaudio.iaudioclockadjustment"]
 old-location: coreaudio\iaudioclockadjustment.htm
 tech.root: CoreAudio
 ms.assetid: 61d90fd9-6c73-4987-b424-1523f15ab023

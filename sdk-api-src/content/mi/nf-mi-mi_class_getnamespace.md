@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Class_GetNameSpace
 title: MI_Class_GetNameSpace function (mi.h)
-description: Gets the namespace name of the specified class.
+description: Gets the namespace name of the specified class.helpviewer_keywords: ["MI_Class_GetNameSpace","MI_Class_GetNameSpace function [Windows Management Infrastructure (MI)]","mi/MI_Class_GetNameSpace","wmi_v2.mi_class_getnamespace"]
 old-location: wmi_v2\mi_class_getnamespace.htm
 tech.root: wmi_v2
 ms.assetid: 64ee42d6-d6ad-4a41-83f4-48de191a853c

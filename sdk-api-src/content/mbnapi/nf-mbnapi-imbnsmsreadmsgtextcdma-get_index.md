@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Index
 title: IMbnSmsReadMsgTextCdma::get_Index (mbnapi.h)
-description: The index of the message in device SMS memory.
+description: The index of the message in device SMS memory.helpviewer_keywords: ["IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks]","Index property","IMbnSmsReadMsgTextCdma.Index","IMbnSmsReadMsgTextCdma.get_Index","IMbnSmsReadMsgTextCdma::Index","IMbnSmsReadMsgTextCdma::get_Index","Index property [Microsoft Broadband Networks]","Index property [Microsoft Broadband Networks]","IMbnSmsReadMsgTextCdma interface","get_Index","mbn.imbnsmsreadmsgtextcdma_index","mbnapi/IMbnSmsReadMsgTextCdma::Index","mbnapi/IMbnSmsReadMsgTextCdma::get_Index"]
 old-location: mbn\imbnsmsreadmsgtextcdma_index.htm
 tech.root: mbn
 ms.assetid: c87890f3-c9d7-4011-b178-55d94a8e9b5e

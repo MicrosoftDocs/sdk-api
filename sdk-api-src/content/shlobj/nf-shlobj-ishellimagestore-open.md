@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.IShellImageStore.Open
 title: IShellImageStore::Open (shlobj.h)
-description: Opens the store and returns a lock.
+description: Opens the store and returns a lock.helpviewer_keywords: ["IShellImageStore interface [Windows Shell]","Open method","IShellImageStore.Open","IShellImageStore::Open","Open","Open method [Windows Shell]","Open method [Windows Shell]","IShellImageStore interface","_win32_IShellImageStore_Open","shell.IShellImageStore_Open","shlobj/IShellImageStore::Open"]
 old-location: shell\IShellImageStore_Open.htm
 tech.root: shell
 ms.assetid: 2aebf791-7681-42b3-8ffe-46e103e7c036

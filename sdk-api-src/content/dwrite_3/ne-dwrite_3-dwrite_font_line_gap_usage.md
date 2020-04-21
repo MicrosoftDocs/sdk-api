@@ -1,7 +1,7 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_LINE_GAP_USAGE
 title: DWRITE_FONT_LINE_GAP_USAGE (dwrite_3.h)
-description: Specify whether DWRITE_FONT_METRICS::lineGap value should be part of the line metrics.
+description: Specify whether DWRITE_FONT_METRICS::lineGap value should be part of the line metrics.helpviewer_keywords: ["DWRITE_FONT_LINE_GAP_USAGE","DWRITE_FONT_LINE_GAP_USAGE enumeration [Direct Write]","DWRITE_FONT_LINE_GAP_USAGE_DEFAULT","DWRITE_FONT_LINE_GAP_USAGE_DISABLED","DWRITE_FONT_LINE_GAP_USAGE_ENABLED","directwrite.dwrite_font_line_gap_usage","dwrite_3/DWRITE_FONT_LINE_GAP_USAGE","dwrite_3/DWRITE_FONT_LINE_GAP_USAGE_DEFAULT","dwrite_3/DWRITE_FONT_LINE_GAP_USAGE_DISABLED","dwrite_3/DWRITE_FONT_LINE_GAP_USAGE_ENABLED"]
 old-location: directwrite\dwrite_font_line_gap_usage.htm
 tech.root: DirectWrite
 ms.assetid: 43d38cca-429d-7ee5-e94c-fba542e19bb5

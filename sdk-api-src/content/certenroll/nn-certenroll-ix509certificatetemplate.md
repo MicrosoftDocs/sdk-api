@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.IX509CertificateTemplate
 title: IX509CertificateTemplate (certenroll.h)
-description: The IX509CertificateTemplate interface represents a certificate request template. It can be used to initialize an IX509CertificateTemplateWritable interface.
+description: The IX509CertificateTemplate interface represents a certificate request template. It can be used to initialize an IX509CertificateTemplateWritable interface.helpviewer_keywords: ["IX509CertificateTemplate","IX509CertificateTemplate interface [Security]","IX509CertificateTemplate interface [Security]","described","certenroll/IX509CertificateTemplate","security.ix509certificatetemplate"]
 old-location: security\ix509certificatetemplate.htm
 tech.root: seccertenroll
 ms.assetid: 56122d92-7e38-4eaa-b2f5-713adc81e68e

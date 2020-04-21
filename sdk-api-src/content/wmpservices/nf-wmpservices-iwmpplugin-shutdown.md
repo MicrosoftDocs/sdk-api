@@ -1,7 +1,7 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.Shutdown
 title: IWMPPlugin::Shutdown (wmpservices.h)
-description: The IWMPPlugin::Shutdown method is called when Windows Media Player shuts down the plug-in.
+description: The IWMPPlugin::Shutdown method is called when Windows Media Player shuts down the plug-in.helpviewer_keywords: ["IWMPPlugin interface [Windows Media Player]","Shutdown method","IWMPPlugin.Shutdown","IWMPPlugin::Shutdown","IWMPPluginShutdownDSP","Shutdown","Shutdown method [Windows Media Player]","Shutdown method [Windows Media Player]","IWMPPlugin interface","wmp.iwmpplugin_shutdown","wmpservices/IWMPPlugin::Shutdown"]
 old-location: wmp\iwmpplugin_shutdown.htm
 tech.root: WMP
 ms.assetid: 80a8fe19-3660-49cb-8bbb-0267b3f11b63

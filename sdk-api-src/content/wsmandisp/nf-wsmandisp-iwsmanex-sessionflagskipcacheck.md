@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagSkipCACheck
 title: IWSManEx::SessionFlagSkipCACheck (wsmandisp.h)
-description: Returns the value of the WSManFlagSkipCACheck authentication flag for use in the flags parameter of the IWSMan::CreateSession method.
+description: Returns the value of the WSManFlagSkipCACheck authentication flag for use in the flags parameter of the IWSMan::CreateSession method.helpviewer_keywords: ["IWSManEx interface [Windows Remote Management]","SessionFlagSkipCACheck method","IWSManEx.SessionFlagSkipCACheck","IWSManEx::SessionFlagSkipCACheck","SessionFlagSkipCACheck","SessionFlagSkipCACheck method [Windows Remote Management]","SessionFlagSkipCACheck method [Windows Remote Management]","IWSManEx interface","winrm.iwsmanex_sessionflagskipcacheck","wsmandisp/IWSManEx::SessionFlagSkipCACheck"]
 old-location: winrm\iwsmanex_sessionflagskipcacheck.htm
 tech.root: winrm
 ms.assetid: 683054fd-7ee3-4c90-a5cd-234e7d60349d

@@ -1,7 +1,7 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketClose
 title: WinHttpWebSocketClose function (winhttp.h)
-description: Closes a WebSocket connection.
+description: Closes a WebSocket connection.helpviewer_keywords: ["WinHttpWebSocketClose","WinHttpWebSocketClose function [WinHTTP]","http.winhttpwebsocketclose","winhttp/WinHttpWebSocketClose"]
 old-location: http\winhttpwebsocketclose.htm
 tech.root: WinHttp
 ms.assetid: bbfde3db-d9a7-4fce-9d8b-6b57f9e432e1

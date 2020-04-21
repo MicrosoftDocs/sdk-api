@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.DAD_DragMove
 title: DAD_DragMove function (shlobj_core.h)
-description: Moves the image that is being dragged during a drag-and-drop operation.
+description: Moves the image that is being dragged during a drag-and-drop operation.helpviewer_keywords: ["DAD_DragMove","DAD_DragMove function [Windows Shell]","shell.DAD_DragMove","shell_DAD_DragMove","shlobj_core/DAD_DragMove"]
 old-location: shell\DAD_DragMove.htm
 tech.root: shell
 ms.assetid: 7cd9f5ba-e14f-4c0c-8cde-2e7c4926b509

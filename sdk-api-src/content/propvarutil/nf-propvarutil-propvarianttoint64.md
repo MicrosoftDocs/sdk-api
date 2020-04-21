@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64
 title: PropVariantToInt64 function (propvarutil.h)
-description: Extracts a LONGLONG value from a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
+description: Extracts a LONGLONG value from a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.helpviewer_keywords: ["PropVariantToInt64","PropVariantToInt64 function [Windows Properties]","properties.PropVariantToInt64","propvarutil/PropVariantToInt64","shell.PropVariantToInt64","shell_PropVariantToInt64"]
 old-location: properties\PropVariantToInt64.htm
 tech.root: properties
 ms.assetid: a53c88e3-57cc-46f8-99f2-ffc2aafa0ce4

@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionSaturationEffect
 title: IDCompositionSaturationEffect (dcomp.h)
-description: This effect is used to alter the saturation of an image. The saturation effect is a specialization of the color matrix effect.
+description: This effect is used to alter the saturation of an image. The saturation effect is a specialization of the color matrix effect.helpviewer_keywords: ["IDCompositionSaturationEffect","IDCompositionSaturationEffect interface [DirectComposition]","IDCompositionSaturationEffect interface [DirectComposition]","described","dcomp/IDCompositionSaturationEffect","directcomp.idcompositionsaturationeffect"]
 old-location: directcomp\idcompositionsaturationeffect.htm
 tech.root: directcomp
 ms.assetid: ADA7C54C-E237-4455-8808-962A631B37E0

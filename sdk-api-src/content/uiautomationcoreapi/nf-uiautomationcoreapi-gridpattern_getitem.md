@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.GridPattern_GetItem
 title: GridPattern_GetItem function (uiautomationcoreapi.h)
-description: Gets the node for an item in a grid.
+description: Gets the node for an item in a grid.helpviewer_keywords: ["GridPattern_GetItem","GridPattern_GetItem function [Windows Accessibility]","uiauto.uiauto_GridPattern_GetItemConPat","uiauto_GridPattern_GetItemConPat","uiautomationcoreapi/GridPattern_GetItem","winauto.uiauto_GridPattern_GetItemConPat"]
 old-location: winauto\uiauto_GridPattern_GetItemConPat.htm
 tech.root: WinAuto
 ms.assetid: 776b704b-479b-4b01-8522-b50500bf1c84

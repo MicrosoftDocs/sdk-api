@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.GetSharedResourceAdapterLuid
 title: IDXGIFactory2::GetSharedResourceAdapterLuid (dxgi1_2.h)
-description: Identifies the adapter on which a shared resource object was created.
+description: Identifies the adapter on which a shared resource object was created.helpviewer_keywords: ["GetSharedResourceAdapterLuid","GetSharedResourceAdapterLuid method [DXGI]","GetSharedResourceAdapterLuid method [DXGI]","IDXGIFactory2 interface","IDXGIFactory2 interface [DXGI]","GetSharedResourceAdapterLuid method","IDXGIFactory2.GetSharedResourceAdapterLuid","IDXGIFactory2::GetSharedResourceAdapterLuid","direct3ddxgi.idxgifactory2_getsharedresourceadapterluid","dxgi1_2/IDXGIFactory2::GetSharedResourceAdapterLuid"]
 old-location: direct3ddxgi\idxgifactory2_getsharedresourceadapterluid.htm
 tech.root: direct3ddxgi
 ms.assetid: 278F1C2B-6DE7-4D4A-8C6E-10B1004B8EFC

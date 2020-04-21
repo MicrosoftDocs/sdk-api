@@ -1,7 +1,7 @@
 ---
 UID: NS:docobj.tagPAGERANGE
 title: PAGERANGE (docobj.h)
-description: Specifies a range of pages.
+description: Specifies a range of pages.helpviewer_keywords: ["PAGERANGE","PAGERANGE structure [COM]","_ctrl_PAGERANGE","com.pagerange","docobj/PAGERANGE"]
 old-location: com\pagerange.htm
 tech.root: com
 ms.assetid: b37d57e6-1634-4676-9f31-e3db2835983f

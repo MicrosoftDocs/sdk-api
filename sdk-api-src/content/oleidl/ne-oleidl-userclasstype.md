@@ -1,7 +1,7 @@
 ---
 UID: NE:oleidl.tagUSERCLASSTYPE
 title: USERCLASSTYPE (oleidl.h)
-description: Indicates the different variants of the display name associated with a class of objects.
+description: Indicates the different variants of the display name associated with a class of objects.helpviewer_keywords: ["USERCLASSTYPE","USERCLASSTYPE enumeration [COM]","USERCLASSTYPE_APPNAME","USERCLASSTYPE_FULL","USERCLASSTYPE_SHORT","_ole_USERCLASSTYPE","com.userclasstype","oleidl/USERCLASSTYPE","oleidl/USERCLASSTYPE_APPNAME","oleidl/USERCLASSTYPE_FULL","oleidl/USERCLASSTYPE_SHORT"]
 old-location: com\userclasstype.htm
 tech.root: com
 ms.assetid: f35dd18a-7fde-4954-8315-bc9bfd933827

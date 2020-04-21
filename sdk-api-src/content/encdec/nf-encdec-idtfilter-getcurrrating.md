@@ -1,7 +1,7 @@
 ---
 UID: NF:encdec.IDTFilter.GetCurrRating
 title: IDTFilter::GetCurrRating (encdec.h)
-description: The GetCurrRating method retrieves the current rating, based on the most recent media sample.
+description: The GetCurrRating method retrieves the current rating, based on the most recent media sample.helpviewer_keywords: ["GetCurrRating","GetCurrRating method [Microsoft TV Technologies]","GetCurrRating method [Microsoft TV Technologies]","IDTFilter interface","IDTFilter interface [Microsoft TV Technologies]","GetCurrRating method","IDTFilter.GetCurrRating","IDTFilter::GetCurrRating","IDTFilterGetCurrRating","encdec/IDTFilter::GetCurrRating","mstv.idtfilter_getcurrrating"]
 old-location: mstv\idtfilter_getcurrrating.htm
 tech.root: mstv
 ms.assetid: 6ea5c9a0-b04c-41a6-83ed-48ea9d187da7

@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_InternationalDialingRule
 title: ITCallingCard::get_InternationalDialingRule (tapi3if.h)
-description: The get_InternationalDialingRule method gets the international dialing rules for this calling card.
+description: The get_InternationalDialingRule method gets the international dialing rules for this calling card.helpviewer_keywords: ["ITCallingCard interface [TAPI 2.2]","get_InternationalDialingRule method","ITCallingCard.get_InternationalDialingRule","ITCallingCard::get_InternationalDialingRule","_tapi3_itcallingcard_get_internationaldialingrule","get_InternationalDialingRule","get_InternationalDialingRule method [TAPI 2.2]","get_InternationalDialingRule method [TAPI 2.2]","ITCallingCard interface","tapi3.itcallingcard_get_internationaldialingrule","tapi3if/ITCallingCard::get_InternationalDialingRule"]
 old-location: tapi3\itcallingcard_get_internationaldialingrule.htm
 tech.root: Tapi
 ms.assetid: b452edbd-2c37-4f40-873b-24b4b60836bb

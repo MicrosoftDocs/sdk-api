@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputStatus
 title: IMFTransform::GetOutputStatus (mftransform.h)
-description: Queries whether the Media Foundation transform (MFT) is ready to produce output data.
+description: Queries whether the Media Foundation transform (MFT) is ready to produce output data.helpviewer_keywords: ["3eb82f76-088b-4abc-9f3a-dfa5ecd1068d","GetOutputStatus","GetOutputStatus method [Media Foundation]","GetOutputStatus method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetOutputStatus method","IMFTransform.GetOutputStatus","IMFTransform::GetOutputStatus","mf.imftransform_getoutputstatus","mftransform/IMFTransform::GetOutputStatus"]
 old-location: mf\imftransform_getoutputstatus.htm
 tech.root: medfound
 ms.assetid: 3eb82f76-088b-4abc-9f3a-dfa5ecd1068d

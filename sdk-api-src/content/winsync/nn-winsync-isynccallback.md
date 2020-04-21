@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.ISyncCallback
 title: ISyncCallback (winsync.h)
-description: Represents application callbacks that are used to notify the application of synchronization events.
+description: Represents application callbacks that are used to notify the application of synchronization events.helpviewer_keywords: ["ISyncCallback","ISyncCallback interface [Windows Sync]","ISyncCallback interface [Windows Sync]","described","winsync.isynccallback","winsync/ISyncCallback"]
 old-location: winsync\isynccallback.htm
 tech.root: winsync
 ms.assetid: f6c96e02-e9db-402c-8197-580f688b068f

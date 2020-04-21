@@ -1,7 +1,7 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.WTSSBX_MachineChangeNotification
 title: IWTSSBPlugin::WTSSBX_MachineChangeNotification (tssbx.h)
-description: Notifies the plug-in that a change occurred in the server environment.
+description: Notifies the plug-in that a change occurred in the server environment.helpviewer_keywords: ["IWTSSBPlugin interface [Remote Desktop Services]","WTSSBX_MachineChangeNotification method","IWTSSBPlugin.WTSSBX_MachineChangeNotification","IWTSSBPlugin::WTSSBX_MachineChangeNotification","WTSSBX_MachineChangeNotification","WTSSBX_MachineChangeNotification method [Remote Desktop Services]","WTSSBX_MachineChangeNotification method [Remote Desktop Services]","IWTSSBPlugin interface","termserv.iwtssbplugin_wtssbx_machinechangenotification","tssbx/IWTSSBPlugin::WTSSBX_MachineChangeNotification"]
 old-location: termserv\iwtssbplugin_wtssbx_machinechangenotification.htm
 tech.root: TermServ
 ms.assetid: 226ca68e-6c3d-4160-a569-ca0b92cb9316

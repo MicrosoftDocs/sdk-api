@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmDeleteRouteToDest
 title: RtmDeleteRouteToDest function (rtmv2.h)
-description: The RtmDeleteRouteToDest function deletes a route from the routing table and updates the best-route information for the corresponding destination, if the best route changed. If the best route changes, a change notification is generated.
+description: The RtmDeleteRouteToDest function deletes a route from the routing table and updates the best-route information for the corresponding destination, if the best route changed. If the best route changes, a change notification is generated.helpviewer_keywords: ["RtmDeleteRouteToDest","RtmDeleteRouteToDest function [RAS]","_rtmv2ref_rtmdeleteroutetodest","rras.rtmdeleteroutetodest","rtmv2/RtmDeleteRouteToDest"]
 old-location: rras\rtmdeleteroutetodest.htm
 tech.root: RRAS
 ms.assetid: d82e68b4-aff4-4872-b719-d9354f35024c

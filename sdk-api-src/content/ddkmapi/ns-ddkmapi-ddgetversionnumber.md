@@ -1,7 +1,7 @@
 ---
 UID: NS:ddkmapi._DDGETVERSIONNUMBER
 title: DDGETVERSIONNUMBER (ddkmapi.h)
-description: The DDGETVERSIONNUMBER structure contains the version number of the kernel-mode video transport component of Microsoft DirectDraw that is supported by the video miniport driver's DxApi interface.
+description: The DDGETVERSIONNUMBER structure contains the version number of the kernel-mode video transport component of Microsoft DirectDraw that is supported by the video miniport driver's DxApi interface.helpviewer_keywords: ["*LPDDGETVERSIONNUMBER","DDGETVERSIONNUMBER","DDGETVERSIONNUMBER structure [Display Devices]","LPDDGETVERSIONNUMBER","LPDDGETVERSIONNUMBER structure pointer [Display Devices]","ddkmapi/DDGETVERSIONNUMBER","ddkmapi/LPDDGETVERSIONNUMBER","ddstrcts_82a9e57e-1569-44f2-b903-41140e18621f.xml","display.ddgetversionnumber"]
 old-location: display\ddgetversionnumber.htm
 tech.root: display
 ms.assetid: fa752700-8bc4-46be-bed9-d7d546f18f03

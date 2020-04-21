@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.FlushIntention
 title: FlushIntention (gdiplusenums.h)
-description: The FlushIntention enumeration specifies when to flush the queue of graphics operations.
+description: The FlushIntention enumeration specifies when to flush the queue of graphics operations.helpviewer_keywords: ["FlushIntention","FlushIntention enumeration [GDI+]","FlushIntentionFlush","FlushIntentionSync","_gdiplus_ENUM_FlushIntention","gdiplus._gdiplus_ENUM_FlushIntention","gdiplusenums/FlushIntention","gdiplusenums/FlushIntentionFlush","gdiplusenums/FlushIntentionSync"]
 old-location: gdiplus\_gdiplus_ENUM_FlushIntention.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\flushintention.htm

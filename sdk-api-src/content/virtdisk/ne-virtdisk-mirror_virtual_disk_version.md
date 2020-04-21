@@ -1,7 +1,7 @@
 ---
 UID: NE:virtdisk._MIRROR_VIRTUAL_DISK_VERSION
 title: MIRROR_VIRTUAL_DISK_VERSION (virtdisk.h)
-description: Contains the version of the virtual disk MIRROR_VIRTUAL_DISK_PARAMETERS structure used by the MirrorVirtualDisk function.
+description: Contains the version of the virtual disk MIRROR_VIRTUAL_DISK_PARAMETERS structure used by the MirrorVirtualDisk function.helpviewer_keywords: ["MIRROR_VIRTUAL_DISK_VERSION","MIRROR_VIRTUAL_DISK_VERSION enumeration [VHD]","MIRROR_VIRTUAL_DISK_VERSION_1","MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED","vdssys/MIRROR_VIRTUAL_DISK_VERSION","vdssys/MIRROR_VIRTUAL_DISK_VERSION_1","vdssys/MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED","vhd.mirror_virtual_disk_version","virtdisk/MIRROR_VIRTUAL_DISK_VERSION","virtdisk/MIRROR_VIRTUAL_DISK_VERSION_1","virtdisk/MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED"]
 old-location: vhd\mirror_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 42045e2b-3e3b-4497-b6bb-18f360139c18

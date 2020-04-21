@@ -1,7 +1,7 @@
 ---
 UID: NN:mstask.ITaskScheduler
 title: ITaskScheduler (mstask.h)
-description: Provides the methods for scheduling tasks.
+description: Provides the methods for scheduling tasks.helpviewer_keywords: ["ITaskScheduler","ITaskScheduler interface [Task Scheduler]","ITaskScheduler interface [Task Scheduler]","described","_msb_itaskscheduler","mstask/ITaskScheduler","taskschd.itaskscheduler"]
 old-location: taskschd\itaskscheduler.htm
 tech.root: taskschd
 ms.assetid: 70c276e1-a45a-4a7d-aacc-3eb647675098

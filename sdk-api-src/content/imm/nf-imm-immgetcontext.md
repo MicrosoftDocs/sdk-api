@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmGetContext
 title: ImmGetContext function (imm.h)
-description: Returns the input context associated with the specified window.
+description: Returns the input context associated with the specified window.helpviewer_keywords: ["ImmGetContext","ImmGetContext function [Internationalization for Windows Applications]","_win32_ImmGetContext","imm/ImmGetContext","intl.immgetcontext"]
 old-location: intl\immgetcontext.htm
 tech.root: Intl
 ms.assetid: 2b7502ac-fa1e-4104-a7ad-051303131a73

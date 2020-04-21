@@ -1,7 +1,7 @@
 ---
 UID: NE:comsvcs.tagCSC_ThreadPool
 title: CSC_ThreadPool (comsvcs.h)
-description: Indicates the thread pool in which the work runs that is submitted through the activity returned from CoCreateActivity.
+description: Indicates the thread pool in which the work runs that is submitted through the activity returned from CoCreateActivity.helpviewer_keywords: ["CSC_MTAThreadPool","CSC_STAThreadPool","CSC_ThreadPool","CSC_ThreadPool enumeration [COM+]","CSC_ThreadPoolInherit","CSC_ThreadPoolNone","_cos_CSC_ThreadPool","comsvcs/CSC_MTAThreadPool","comsvcs/CSC_STAThreadPool","comsvcs/CSC_ThreadPool","comsvcs/CSC_ThreadPoolInherit","comsvcs/CSC_ThreadPoolNone","cos.csc_threadpool"]
 old-location: cos\csc_threadpool.htm
 tech.root: cossdk
 ms.assetid: 5acf5c6b-b015-448b-ad4c-e4361a97c31e

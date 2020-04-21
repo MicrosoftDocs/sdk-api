@@ -1,7 +1,7 @@
 ---
 UID: NF:callobj.ICallFrame.SetReturnValue
 title: ICallFrame::SetReturnValue (callobj.h)
-description: Sets the return value within the call frame.
+description: Sets the return value within the call frame.helpviewer_keywords: ["ICallFrame interface [COM]","SetReturnValue method","ICallFrame.SetReturnValue","ICallFrame::SetReturnValue","SetReturnValue","SetReturnValue method [COM]","SetReturnValue method [COM]","ICallFrame interface","_com_icallframe_setreturnvalue","callobj/ICallFrame::SetReturnValue","com.icallframe_setreturnvalue"]
 old-location: com\icallframe_setreturnvalue.htm
 tech.root: com
 ms.assetid: 848cccc7-19c8-4ce6-b609-bcf798ec8c76

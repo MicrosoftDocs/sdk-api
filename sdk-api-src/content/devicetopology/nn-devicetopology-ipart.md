@@ -1,7 +1,7 @@
 ---
 UID: NN:devicetopology.IPart
 title: IPart (devicetopology.h)
-description: The IPart interface represents a part (connector or subunit) of a device topology.
+description: The IPart interface represents a part (connector or subunit) of a device topology.helpviewer_keywords: ["IPart","IPart interface [Core Audio]","IPart interface [Core Audio]","described","coreaudio.ipart","devicetopology/IPart"]
 old-location: coreaudio\ipart.htm
 tech.root: CoreAudio
 ms.assetid: 3bcfab9f-fad8-4605-8780-0b7c2068fcdf

@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupCommitFileQueueA
 title: SetupCommitFileQueueA function (setupapi.h)
-description: The SetupCommitFileQueue function performs file operations queued on a setup file queue.
+description: The SetupCommitFileQueue function performs file operations queued on a setup file queue.helpviewer_keywords: ["SetupCommitFileQueue","SetupCommitFileQueue function [Setup API]","SetupCommitFileQueueA","SetupCommitFileQueueW","_setupapi_setupcommitfilequeue","setup.setupcommitfilequeue","setupapi/SetupCommitFileQueue","setupapi/SetupCommitFileQueueA","setupapi/SetupCommitFileQueueW"]
 old-location: setup\setupcommitfilequeue.htm
 tech.root: SetupApi
 ms.assetid: c532f435-7393-49f0-975c-4c0ecca64407

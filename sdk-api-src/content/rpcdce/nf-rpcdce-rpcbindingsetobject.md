@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcBindingSetObject
 title: RpcBindingSetObject function (rpcdce.h)
-description: The RpcBindingSetObject function sets the object UUID value in a binding handle.
+description: The RpcBindingSetObject function sets the object UUID value in a binding handle.helpviewer_keywords: ["RpcBindingSetObject","RpcBindingSetObject function [RPC]","_rpc_rpcbindingsetobject","rpc.rpcbindingsetobject","rpcdce/RpcBindingSetObject"]
 old-location: rpc\rpcbindingsetobject.htm
 tech.root: Rpc
 ms.assetid: 5dcf341f-e392-4608-b741-8fa07cabd50b

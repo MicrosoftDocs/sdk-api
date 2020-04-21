@@ -1,7 +1,7 @@
 ---
 UID: NF:mdmregistration.DiscoverManagementServiceEx
 title: DiscoverManagementServiceEx function (mdmregistration.h)
-description: Discovers the MDM service using a candidate server.
+description: Discovers the MDM service using a candidate server.helpviewer_keywords: ["DiscoverManagementServiceEx","DiscoverManagementServiceEx function [MDM Registration]","mdmreg.discovermanagementserviceex","mdmregistration/DiscoverManagementServiceEx"]
 old-location: mdmreg\discovermanagementserviceex.htm
 tech.root: MDMReg
 ms.assetid: 600269ff-df88-49ed-b151-df0302cbc4d4

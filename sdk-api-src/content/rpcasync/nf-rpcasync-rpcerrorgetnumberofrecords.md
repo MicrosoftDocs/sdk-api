@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcasync.RpcErrorGetNumberOfRecords
 title: RpcErrorGetNumberOfRecords function (rpcasync.h)
-description: The RpcErrorGetNumberOfRecords function returns the number of records in the extended error information.
+description: The RpcErrorGetNumberOfRecords function returns the number of records in the extended error information.helpviewer_keywords: ["RpcErrorGetNumberOfRecords","RpcErrorGetNumberOfRecords function [RPC]","_rpc_rpcerrorgetnumberofrecords","rpc.rpcerrorgetnumberofrecords","rpcasync/RpcErrorGetNumberOfRecords"]
 old-location: rpc\rpcerrorgetnumberofrecords.htm
 tech.root: Rpc
 ms.assetid: 1b498cc8-9ee5-47bd-a484-33bf1c89413c

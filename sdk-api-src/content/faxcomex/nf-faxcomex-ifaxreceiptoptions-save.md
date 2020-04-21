@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.Save
 title: IFaxReceiptOptions::Save (faxcomex.h)
-description: The IFaxReceiptOptions::Save method saves the FaxReceiptOptions object data.
+description: The IFaxReceiptOptions::Save method saves the FaxReceiptOptions object data.helpviewer_keywords: ["IFaxReceiptOptions interface [Fax Service]","Save method","IFaxReceiptOptions.Save","IFaxReceiptOptions::Save","Save","Save method [Fax Service]","Save method [Fax Service]","IFaxReceiptOptions interface","_mfax_faxreceiptoptions.save","fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_save_cpp","fax._mfax_faxreceiptoptions_save","faxcomex/IFaxReceiptOptions::Save"]
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_25ph.htm

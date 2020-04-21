@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.put_DiseqUseToneBurst
 title: IBDA_DiseqCommand::put_DiseqUseToneBurst (bdaiface.h)
-description: Enables or disables Tone-Burst commands.
+description: Enables or disables Tone-Burst commands.helpviewer_keywords: ["IBDA_DiseqCommand interface [Microsoft TV Technologies]","put_DiseqUseToneBurst method","IBDA_DiseqCommand.put_DiseqUseToneBurst","IBDA_DiseqCommand::put_DiseqUseToneBurst","bdaiface/IBDA_DiseqCommand::put_DiseqUseToneBurst","mstv.ibda_diseqcommand_put_disequsetoneburst","put_DiseqUseToneBurst","put_DiseqUseToneBurst method [Microsoft TV Technologies]","put_DiseqUseToneBurst method [Microsoft TV Technologies]","IBDA_DiseqCommand interface"]
 old-location: mstv\ibda_diseqcommand_put_disequsetoneburst.htm
 tech.root: mstv
 ms.assetid: 23523ac9-19e0-4247-a697-24d6f1c07285

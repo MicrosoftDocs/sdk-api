@@ -1,7 +1,7 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.GetNameChoice
 title: ICertEncodeCRLDistInfo::GetNameChoice (certenc.h)
-description: Returns the name choice at a specified index of a certificate revocation list (CRL) distribution information point.
+description: Returns the name choice at a specified index of a certificate revocation list (CRL) distribution information point.helpviewer_keywords: ["CCertEncodeCRLDistInfo object [Security]","GetNameChoice method","GetNameChoice","GetNameChoice method [Security]","GetNameChoice method [Security]","CCertEncodeCRLDistInfo object","GetNameChoice method [Security]","ICertEncodeCRLDistInfo interface","ICertEncodeCRLDistInfo interface [Security]","GetNameChoice method","ICertEncodeCRLDistInfo.GetNameChoice","ICertEncodeCRLDistInfo::GetNameChoice","_certsrv_icertencodecrldistinfo_getnamechoice","certenc/ICertEncodeCRLDistInfo::GetNameChoice","security.icertencodecrldistinfo_getnamechoice"]
 old-location: security\icertencodecrldistinfo_getnamechoice.htm
 tech.root: SecCrypto
 ms.assetid: cab5d4a0-e6dc-4229-a3b7-2dc90e2256bf

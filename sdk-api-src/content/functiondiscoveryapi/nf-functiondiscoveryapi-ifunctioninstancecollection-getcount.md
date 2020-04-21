@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.GetCount
 title: IFunctionInstanceCollection::GetCount (functiondiscoveryapi.h)
-description: Gets the number of function instances in the collection.
+description: Gets the number of function instances in the collection.helpviewer_keywords: ["GetCount","GetCount method","GetCount method","IFunctionInstanceCollection interface","IFunctionInstanceCollection interface","GetCount method","IFunctionInstanceCollection.GetCount","IFunctionInstanceCollection::GetCount","functiondiscoveryapi/IFunctionInstanceCollection::GetCount","ncd.ifunctioninstancecollection_getcount_method"]
 old-location: ncd\ifunctioninstancecollection_getcount_method.htm
 tech.root: FunDisc
 ms.assetid: d74d10b1-dab1-4f7e-8dbc-434570bf9c79

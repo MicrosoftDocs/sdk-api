@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IForgottenKnowledge.ForgetToVersion
 title: IForgottenKnowledge::ForgetToVersion (winsync.h)
-description: Updates the forgotten knowledge to reflect that all versions that are less than or equal to the specified version might have been forgotten, and that corresponding tombstones might have been deleted.
+description: Updates the forgotten knowledge to reflect that all versions that are less than or equal to the specified version might have been forgotten, and that corresponding tombstones might have been deleted.helpviewer_keywords: ["ForgetToVersion","ForgetToVersion method [Windows Sync]","ForgetToVersion method [Windows Sync]","IForgottenKnowledge interface","IForgottenKnowledge interface [Windows Sync]","ForgetToVersion method","IForgottenKnowledge.ForgetToVersion","IForgottenKnowledge::ForgetToVersion","winsync.iforgottenknowledge_forgettoversion","winsync/IForgottenKnowledge::ForgetToVersion"]
 old-location: winsync\iforgottenknowledge_forgettoversion.htm
 tech.root: winsync
 ms.assetid: 63ea1fdc-5200-40d4-a42a-dcda0318f602

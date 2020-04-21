@@ -1,7 +1,7 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperty.get_Name
 title: IWindowsMediaLibrarySharingDeviceProperty::get_Name (wmlss.h)
-description: The get_Name method retrieves the name of an individual property of a media device.
+description: The get_Name method retrieves the name of an individual property of a media device.helpviewer_keywords: ["IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services]","get_Name method","IWindowsMediaLibrarySharingDeviceProperty.get_Name","IWindowsMediaLibrarySharingDeviceProperty::get_Name","get_Name","get_Name method [Windows Media Library Sharing Services]","get_Name method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDeviceProperty interface","wmlss.IWMLSDevicePropertyget_Name","wmlss/IWindowsMediaLibrarySharingDeviceProperty::get_Name"]
 old-location: wmlss\IWMLSDevicePropertyget_Name.htm
 tech.root: WMLSS
 ms.assetid: 335e3beb-351e-40ad-b065-7058716180d3

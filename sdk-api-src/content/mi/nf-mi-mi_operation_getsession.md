@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Operation_GetSession
 title: MI_Operation_GetSession function (mi.h)
-description: Gets the session associated with an operation.
+description: Gets the session associated with an operation.helpviewer_keywords: ["MI_Operation_GetSession","MI_Operation_GetSession function [Windows Management Infrastructure (MI)]","mi/MI_Operation_GetSession","wmi_v2.mi_operation_getsession"]
 old-location: wmi_v2\mi_operation_getsession.htm
 tech.root: wmi_v2
 ms.assetid: 710ccbc5-956c-4bb3-b93b-f61a449c08ef

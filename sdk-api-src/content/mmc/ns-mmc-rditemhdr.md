@@ -1,7 +1,7 @@
 ---
 UID: NS:mmc._RDCITEMHDR
 title: RDITEMHDR (mmc.h)
-description: The RDITEMHDR structure is introduced in MMC 1.2.
+description: The RDITEMHDR structure is introduced in MMC 1.2.helpviewer_keywords: ["RDITEMHDR","RDITEMHDR structure [MMC]","_slate_rditemhdr","mmc.rditemhdr","mmc/RDITEMHDR"]
 old-location: mmc\rditemhdr.htm
 tech.root: mmc
 ms.assetid: 35feb978-3859-423d-ac33-711b242ab939

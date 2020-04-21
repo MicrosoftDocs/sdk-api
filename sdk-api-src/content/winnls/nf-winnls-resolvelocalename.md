@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.ResolveLocaleName
 title: ResolveLocaleName function (winnls.h)
-description: Finds a possible locale name match for the supplied name.
+description: Finds a possible locale name match for the supplied name.helpviewer_keywords: ["ResolveLocaleName","ResolveLocaleName function [Internationalization for Windows Applications]","intl.resolvelocalename","winnls/ResolveLocaleName"]
 old-location: intl\resolvelocalename.htm
 tech.root: Intl
 ms.assetid: 99264b22-3fb5-47e2-b0b9-42a6768e67c1

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSource.GetParagraphReadingDirection
 title: IDWriteTextAnalysisSource::GetParagraphReadingDirection (dwrite.h)
-description: Gets the paragraph reading direction.
+description: Gets the paragraph reading direction.helpviewer_keywords: ["GetParagraphReadingDirection","GetParagraphReadingDirection method [Direct Write]","GetParagraphReadingDirection method [Direct Write]","IDWriteTextAnalysisSource interface","IDWriteTextAnalysisSource interface [Direct Write]","GetParagraphReadingDirection method","IDWriteTextAnalysisSource.GetParagraphReadingDirection","IDWriteTextAnalysisSource::GetParagraphReadingDirection","directwrite.idwritetextanalysissource_getparagraphreadingdirection","dwrite/IDWriteTextAnalysisSource::GetParagraphReadingDirection"]
 old-location: directwrite\idwritetextanalysissource_getparagraphreadingdirection.htm
 tech.root: DirectWrite
 ms.assetid: 23013354-54bd-4f45-91d7-159965f0c56c

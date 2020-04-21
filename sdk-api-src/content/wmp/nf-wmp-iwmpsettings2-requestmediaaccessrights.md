@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPSettings2.requestMediaAccessRights
 title: IWMPSettings2::requestMediaAccessRights (wmp.h)
-description: The requestMediaAccessRights method requests a specified level of access to the library.
+description: The requestMediaAccessRights method requests a specified level of access to the library.helpviewer_keywords: ["IWMPSettings2 interface [Windows Media Player]","requestMediaAccessRights method","IWMPSettings2.requestMediaAccessRights","IWMPSettings2::requestMediaAccessRights","IWMPSettings2requestMediaAccessRights","requestMediaAccessRights","requestMediaAccessRights method [Windows Media Player]","requestMediaAccessRights method [Windows Media Player]","IWMPSettings2 interface","wmp.iwmpsettings2_requestmediaaccessrights","wmp/IWMPSettings2::requestMediaAccessRights"]
 old-location: wmp\iwmpsettings2_requestmediaaccessrights.htm
 tech.root: WMP
 ms.assetid: 925a4c0b-d613-4248-a341-bfc51d02cb85

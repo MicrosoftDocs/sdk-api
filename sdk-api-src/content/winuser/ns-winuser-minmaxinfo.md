@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMINMAXINFO
 title: MINMAXINFO (winuser.h)
-description: Contains information about a window's maximized size and position and its minimum and maximum tracking size.
+description: Contains information about a window's maximized size and position and its minimum and maximum tracking size.helpviewer_keywords: ["*LPMINMAXINFO","*PMINMAXINFO","LPMINMAXINFO","LPMINMAXINFO structure pointer [Windows and Messages]","MINMAXINFO","MINMAXINFO structure [Windows and Messages]","PMINMAXINFO","PMINMAXINFO structure pointer [Windows and Messages]","_win32_MINMAXINFO_str","_win32_minmaxinfo_str_cpp","winmsg.minmaxinfo","winui._win32_minmaxinfo_str","winuser/LPMINMAXINFO","winuser/MINMAXINFO","winuser/PMINMAXINFO"]
 old-location: winmsg\minmaxinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\minmaxinfo.htm

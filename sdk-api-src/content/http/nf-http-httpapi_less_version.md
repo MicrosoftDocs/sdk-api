@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HTTPAPI_LESS_VERSION
 title: HTTPAPI_LESS_VERSION macro (http.h)
-description: Returns a non-zero value if an HTTPAPI_VERSION structure is less than a specified major/minor version combination, or zero otherwise.
+description: Returns a non-zero value if an HTTPAPI_VERSION structure is less than a specified major/minor version combination, or zero otherwise.helpviewer_keywords: ["HTTPAPI_LESS_VERSION","HTTPAPI_LESS_VERSION macro [HTTP]","http.httpapi_less_version","http/HTTPAPI_LESS_VERSION"]
 old-location: http\httpapi_less_version.htm
 tech.root: http
 ms.assetid: e53d1866-7e5a-43aa-a1b3-287e7cfe3ad8

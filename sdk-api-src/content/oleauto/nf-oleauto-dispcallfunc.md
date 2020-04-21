@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.DispCallFunc
 title: DispCallFunc function (oleauto.h)
-description: Low-level helper for Invoke that provides machine independence for customized Invoke.
+description: Low-level helper for Invoke that provides machine independence for customized Invoke.helpviewer_keywords: ["DispCallFunc","DispCallFunc function [Automation]","_oa96_DispCallFunc","automat.dispcallfunc","oleauto/DispCallFunc"]
 old-location: automat\dispcallfunc.htm
 tech.root: automat
 ms.assetid: 9a16d4e4-a03d-459d-a2ec-3258499f6932

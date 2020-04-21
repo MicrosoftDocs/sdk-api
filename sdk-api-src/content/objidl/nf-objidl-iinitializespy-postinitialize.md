@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IInitializeSpy.PostInitialize
 title: IInitializeSpy::PostInitialize (objidl.h)
-description: Performs initialization steps required after calling the CoInitializeEx function.
+description: Performs initialization steps required after calling the CoInitializeEx function.helpviewer_keywords: ["IInitializeSpy interface [COM]","PostInitialize method","IInitializeSpy.PostInitialize","IInitializeSpy::PostInitialize","PostInitialize","PostInitialize method [COM]","PostInitialize method [COM]","IInitializeSpy interface","_com_iinitializespy_postinitialize","com.iinitializespy_postinitialize","objidl/IInitializeSpy::PostInitialize"]
 old-location: com\iinitializespy_postinitialize.htm
 tech.root: com
 ms.assetid: bdef4089-93e6-4845-8dcc-1150d7a0d033

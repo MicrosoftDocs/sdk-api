@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.GetModuleDefinition
 title: IFsrmClassificationManager::GetModuleDefinition (fsrmpipeline.h)
-description: Retrieves the specified module definition.
+description: Retrieves the specified module definition.helpviewer_keywords: ["FsrmClassificationManager class [File Server Resource Manager]","GetModuleDefinition method","GetModuleDefinition","GetModuleDefinition method [File Server Resource Manager]","GetModuleDefinition method [File Server Resource Manager]","FsrmClassificationManager class","GetModuleDefinition method [File Server Resource Manager]","IFsrmClassificationManager interface","GetModuleDefinition method [File Server Resource Manager]","IFsrmClassificationManager2 interface","IFsrmClassificationManager interface [File Server Resource Manager]","GetModuleDefinition method","IFsrmClassificationManager.GetModuleDefinition","IFsrmClassificationManager2 interface [File Server Resource Manager]","GetModuleDefinition method","IFsrmClassificationManager2::GetModuleDefinition","IFsrmClassificationManager::GetModuleDefinition","fs.ifsrmclassificationmanager_getmoduledefinition","fsrm.ifsrmclassificationmanager_getmoduledefinition","fsrmpipeline/IFsrmClassificationManager2::GetModuleDefinition","fsrmpipeline/IFsrmClassificationManager::GetModuleDefinition"]
 old-location: fsrm\ifsrmclassificationmanager_getmoduledefinition.htm
 tech.root: fsrm
 ms.assetid: 41272218-25af-4c8f-8730-37a08a7fad4f

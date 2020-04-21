@@ -1,7 +1,7 @@
 ---
 UID: NS:bcrypt._BCRYPT_OID_LIST
 title: BCRYPT_OID_LIST (bcrypt.h)
-description: Used to contain a collection of BCRYPT_OID structures. Use this structure with the BCRYPT_HASH_OID_LIST property to retrieve the list of hashing object identifiers (OIDs) that have been encoded by using Distinguished Encoding Rules (DER) encoding.
+description: Used to contain a collection of BCRYPT_OID structures. Use this structure with the BCRYPT_HASH_OID_LIST property to retrieve the list of hashing object identifiers (OIDs) that have been encoded by using Distinguished Encoding Rules (DER) encoding.helpviewer_keywords: ["BCRYPT_OID_LIST","BCRYPT_OID_LIST structure [Security]","bcrypt/BCRYPT_OID_LIST","security.bcrypt_oid_list"]
 old-location: security\bcrypt_oid_list.htm
 tech.root: SecCNG
 ms.assetid: 5e07d4a9-88eb-4644-a9be-e39c52b97ea7

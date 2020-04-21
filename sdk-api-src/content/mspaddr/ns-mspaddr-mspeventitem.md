@@ -1,7 +1,7 @@
 ---
 UID: NS:mspaddr.__unnamed_struct_0
 title: MSPEVENTITEM (mspaddr.h)
-description: The MSPEVENTITEM structure contains link pointers and event types for MSP events.
+description: The MSPEVENTITEM structure contains link pointers and event types for MSP events.helpviewer_keywords: ["*PMSPEVENTITEM","MSPEVENTITEM","MSPEVENTITEM structure [TAPI 2.2]","PMSPEVENTITEM","PMSPEVENTITEM structure pointer [TAPI 2.2]","_tapi3_mspeventitem","mspaddr/MSPEVENTITEM","mspaddr/PMSPEVENTITEM","tapi3.mspeventitem"]
 old-location: tapi3\mspeventitem.htm
 tech.root: Tapi
 ms.assetid: fc99fd05-4d87-4b6e-b2f3-e00ac61ddafc

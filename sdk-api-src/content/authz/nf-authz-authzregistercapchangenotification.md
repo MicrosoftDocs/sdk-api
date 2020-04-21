@@ -1,7 +1,7 @@
 ---
 UID: NF:authz.AuthzRegisterCapChangeNotification
 title: AuthzRegisterCapChangeNotification function (authz.h)
-description: Registers a CAP update notification callback.
+description: Registers a CAP update notification callback.helpviewer_keywords: ["AuthzRegisterCapChangeNotification","AuthzRegisterCapChangeNotification function [Security]","authz/AuthzRegisterCapChangeNotification","security.authzregistercapchangenotification"]
 old-location: security\authzregistercapchangenotification.htm
 tech.root: SecAuthZ
 ms.assetid: B0675BB3-62FA-462E-8DFB-55C47576DFEC

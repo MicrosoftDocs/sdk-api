@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateReservedResource
 title: ID3D12Device::CreateReservedResource
-description: Creates a resource that is reserved, and not yet mapped to any pages in a heap.
+description: Creates a resource that is reserved, and not yet mapped to any pages in a heap.helpviewer_keywords: ["CreateReservedResource","CreateReservedResource method","CreateReservedResource method","ID3D12Device interface","ID3D12Device interface","CreateReservedResource method","ID3D12Device.CreateReservedResource","ID3D12Device::CreateReservedResource","d3d12/ID3D12Device::CreateReservedResource","direct3d12.id3d12device_createreservedresource"]
 old-location: direct3d12\id3d12device_createreservedresource.htm
 tech.root: direct3d12
 ms.assetid: 37E74129-1B5C-4997-A584-D7E9F92342EA

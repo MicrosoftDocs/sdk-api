@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxSecurity.Save
 title: IFaxSecurity::Save (faxcomex.h)
-description: The IFaxSecurity::Save method saves the FaxSecurity object data.
+description: The IFaxSecurity::Save method saves the FaxSecurity object data.helpviewer_keywords: ["IFaxSecurity interface [Fax Service]","Save method","IFaxSecurity.Save","IFaxSecurity::Save","Save","Save method [Fax Service]","Save method [Fax Service]","IFaxSecurity interface","_mfax_faxsecurity.save","fax._mfax_faxsecurity_cpp_mfax_faxsecurity_save_cpp","fax._mfax_faxsecurity_save","faxcomex/IFaxSecurity::Save"]
 old-location: fax\_mfax_faxsecurity_cpp_mfax_faxsecurity_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9qzp.htm

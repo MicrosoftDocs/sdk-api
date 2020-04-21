@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfLanguageProfileNotifySink
 title: ITfLanguageProfileNotifySink (msctf.h)
-description: The ITfLanguageProfileNotifySink interface is implemented by an application to receive notifications when the language profile changes.
+description: The ITfLanguageProfileNotifySink interface is implemented by an application to receive notifications when the language profile changes.helpviewer_keywords: ["ITfLanguageProfileNotifySink","ITfLanguageProfileNotifySink interface [Text Services Framework]","ITfLanguageProfileNotifySink interface [Text Services Framework]","described","_tsf_itflanguageprofilenotifysink_ref","msctf/ITfLanguageProfileNotifySink","tsf.itflanguageprofilenotifysink"]
 old-location: tsf\itflanguageprofilenotifysink.htm
 tech.root: TSF
 ms.assetid: c0c8d02a-cc3f-4c1c-96e9-516f49b868e6

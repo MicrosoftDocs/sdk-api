@@ -1,7 +1,7 @@
 ---
 UID: NN:control.IBasicVideo
 title: IBasicVideo (control.h)
-description: The IBasicVideo interface sets video properties such as the destination and source rectangles.
+description: The IBasicVideo interface sets video properties such as the destination and source rectangles.helpviewer_keywords: ["IBasicVideo","IBasicVideo interface [DirectShow]","IBasicVideo interface [DirectShow]","described","IBasicVideoInterface","control/IBasicVideo","dshow.ibasicvideo"]
 old-location: dshow\ibasicvideo.htm
 tech.root: DirectShow
 ms.assetid: 14f45bdc-2271-459d-b165-c860c8fc3e0b

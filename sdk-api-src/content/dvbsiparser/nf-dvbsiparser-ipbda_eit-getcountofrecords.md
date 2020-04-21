@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetCountOfRecords
 title: IPBDA_EIT::GetCountOfRecords (dvbsiparser.h)
-description: Receives the number of event records from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
+description: Receives the number of event records from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IPBDA_EIT interface","IPBDA_EIT interface [Microsoft TV Technologies]","GetCountOfRecords method","IPBDA_EIT.GetCountOfRecords","IPBDA_EIT::GetCountOfRecords","dvbsiparser/IPBDA_EIT::GetCountOfRecords","mstv.ipbda_eit_getcountofrecords"]
 old-location: mstv\ipbda_eit_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 7f09421d-ae19-4c8e-93a2-31fa8697742a

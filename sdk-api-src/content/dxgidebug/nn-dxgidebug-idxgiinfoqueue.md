@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgidebug.IDXGIInfoQueue
 title: IDXGIInfoQueue (dxgidebug.h)
-description: This interface controls the debug information queue, and can only be used if the debug layer is turned on.
+description: This interface controls the debug information queue, and can only be used if the debug layer is turned on.helpviewer_keywords: ["IDXGIInfoQueue","IDXGIInfoQueue interface [DXGI]","IDXGIInfoQueue interface [DXGI]","described","direct3ddxgi.idxgiinfoqueue","dxgidebug/IDXGIInfoQueue"]
 old-location: direct3ddxgi\idxgiinfoqueue.htm
 tech.root: direct3ddxgi
 ms.assetid: F1BC6752-F334-4E8C-BE42-B731635A799D

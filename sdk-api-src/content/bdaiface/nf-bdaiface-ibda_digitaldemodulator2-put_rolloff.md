@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.put_RollOff
 title: IBDA_DigitalDemodulator2::put_RollOff (bdaiface.h)
-description: Sets the demodulator's roll-off factor.
+description: Sets the demodulator's roll-off factor.helpviewer_keywords: ["IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies]","put_RollOff method","IBDA_DigitalDemodulator2.put_RollOff","IBDA_DigitalDemodulator2::put_RollOff","bdaiface/IBDA_DigitalDemodulator2::put_RollOff","mstv.ibda_digitaldemodulator2_put_rolloff","put_RollOff","put_RollOff method [Microsoft TV Technologies]","put_RollOff method [Microsoft TV Technologies]","IBDA_DigitalDemodulator2 interface"]
 old-location: mstv\ibda_digitaldemodulator2_put_rolloff.htm
 tech.root: mstv
 ms.assetid: ade8c334-b7b3-464e-a3ab-f8816a44a9dd

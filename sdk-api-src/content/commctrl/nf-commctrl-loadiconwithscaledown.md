@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.LoadIconWithScaleDown
 title: LoadIconWithScaleDown function (commctrl.h)
-description: Loads an icon. If the icon is not a standard size, this function scales down a larger image instead of scaling up a smaller image.
+description: Loads an icon. If the icon is not a standard size, this function scales down a larger image instead of scaling up a smaller image.helpviewer_keywords: ["IDI_APPLICATION","IDI_ASTERISK","IDI_ERROR","IDI_EXCLAMATION","IDI_HAND","IDI_INFORMATION","IDI_QUESTION","IDI_SHIELD","IDI_WARNING","IDI_WINLOGO","LoadIconWithScaleDown","LoadIconWithScaleDown function [Windows Controls]","_shell_LoadIconWithScaleDown","_shell_LoadIconWithScaleDown_cpp","commctrl/LoadIconWithScaleDown","controls.LoadIconWithScaleDown","controls._shell_LoadIconWithScaleDown"]
 old-location: controls\LoadIconWithScaleDown.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\loadiconwithscaledown.htm

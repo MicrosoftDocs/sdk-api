@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.graphics.directx.direct3d11.interop.GetDXGIInterfaceFromObject
 title: GetDXGIInterfaceFromObject
-description: Retrieves a DXGI interface from an object.
+description: Retrieves a DXGI interface from an object.helpviewer_keywords: ["interop::GetDXGIInterfaceFromObject"]
 tech.root: winrt
 ms.assetid: D6C4A15E-7E26-4289-ABF8-254656FFB864
 ms.date: 05/13/2019

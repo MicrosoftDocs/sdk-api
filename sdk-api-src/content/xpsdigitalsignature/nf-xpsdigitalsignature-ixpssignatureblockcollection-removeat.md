@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlockCollection.RemoveAt
 title: IXpsSignatureBlockCollection::RemoveAt (xpsdigitalsignature.h)
-description: Removes and releases an IXpsSignatureBlock interface pointer from a specified location in the collection.
+description: Removes and releases an IXpsSignatureBlock interface pointer from a specified location in the collection.helpviewer_keywords: ["IXpsSignatureBlockCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsSignatureBlockCollection.RemoveAt","IXpsSignatureBlockCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsSignatureBlockCollection interface","xps.ixpssignatureblockcollection_removeat","xpsdigitalsignature/IXpsSignatureBlockCollection::RemoveAt"]
 old-location: xps\ixpssignatureblockcollection_removeat.htm
 tech.root: printdocs
 ms.assetid: 895f6f0b-6259-4288-90be-659f1ca46d1a

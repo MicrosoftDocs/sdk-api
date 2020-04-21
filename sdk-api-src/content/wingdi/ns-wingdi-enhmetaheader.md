@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagENHMETAHEADER
 title: ENHMETAHEADER (wingdi.h)
-description: The ENHMETAHEADER structure contains enhanced-metafile data such as the dimensions of the picture stored in the enhanced metafile, the count of records in the enhanced metafile, the resolution of the device on which the picture was created, and so on.This structure is always the first record in an enhanced metafile.
+description: The ENHMETAHEADER structure contains enhanced-metafile data such as the dimensions of the picture stored in the enhanced metafile, the count of records in the enhanced metafile, the resolution of the device on which the picture was created, and so on.This structure is always the first record in an enhanced metafile.helpviewer_keywords: ["*LPENHMETAHEADER","*PENHMETAHEADER","ENHMETAHEADER","ENHMETAHEADER structure [Windows GDI]","PENHMETAHEADER","PENHMETAHEADER structure pointer [Windows GDI]","_win32_ENHMETAHEADER_str","gdi.enhmetaheader","wingdi/ENHMETAHEADER","wingdi/PENHMETAHEADER"]
 old-location: gdi\enhmetaheader.htm
 tech.root: gdi
 ms.assetid: 8e5f9a51-a995-48be-b936-1766fccb603a

@@ -1,7 +1,7 @@
 ---
 UID: NS:advpub._StrEntryW
 title: STRENTRYW (advpub.h)
-description: Represents a registry string replacement.
+description: Represents a registry string replacement.helpviewer_keywords: ["*LPSTRENTRYW","LPSTRENTRYW","LPSTRENTRYW structure pointer [Windows API]","STRENTRY","STRENTRYW","STRENTRYW structure [Windows API]","_StrEntryW","_StrEntryW structure [Windows API]","advpub/LPSTRENTRYW","advpub/_StrEntryW","winprog._strentryw"]
 old-location: winprog\_strentryw.htm
 tech.root: DevNotes
 ms.assetid: 0EA85285-B5CC-4DC2-ADB7-4888316634C3

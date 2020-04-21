@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSMan.CreateSession
 title: IWSMan::CreateSession (wsmandisp.h)
-description: Creates a Session object that can then be used for subsequent network operations.
+description: Creates a Session object that can then be used for subsequent network operations.helpviewer_keywords: ["CreateSession","CreateSession method [Windows Remote Management]","CreateSession method [Windows Remote Management]","IWSMan interface","IWSMan interface [Windows Remote Management]","CreateSession method","IWSMan.CreateSession","IWSMan::CreateSession","winrm.iwsman_createsession","wsmandisp/IWSMan::CreateSession"]
 old-location: winrm\iwsman_createsession.htm
 tech.root: winrm
 ms.assetid: 0ccab9bf-f8b4-432e-92d1-b5a5d3a2dfe5

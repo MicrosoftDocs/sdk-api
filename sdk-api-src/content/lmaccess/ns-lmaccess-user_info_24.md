@@ -1,7 +1,7 @@
 ---
 UID: NS:lmaccess._USER_INFO_24
 title: USER_INFO_24 (lmaccess.h)
-description: Contains user account information on an account which is connected to an Internet identity. This information includes the Internet provider name for the user, the user's Internet name, and the user's security identifier (SID).
+description: Contains user account information on an account which is connected to an Internet identity. This information includes the Internet provider name for the user, the user's Internet name, and the user's security identifier (SID).helpviewer_keywords: ["*LPUSER_INFO_24","*PUSER_INFO_24","LPUSER_INFO_24","LPUSER_INFO_24 structure pointer [Network Management]","PUSER_INFO_24","PUSER_INFO_24 structure pointer [Network Management]","USER_INFO_24","USER_INFO_24 structure [Network Management]","lmaccess/LPUSER_INFO_24","lmaccess/PUSER_INFO_24","lmaccess/USER_INFO_24","netmgmt.user_info_24"]
 old-location: netmgmt\user_info_24.htm
 tech.root: NetMgmt
 ms.assetid: CE65EDE0-F4AE-4582-9D7F-6667BBA98C75

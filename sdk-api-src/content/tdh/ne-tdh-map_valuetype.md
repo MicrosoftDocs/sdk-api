@@ -1,7 +1,7 @@
 ---
 UID: NE:tdh._MAP_VALUETYPE
 title: MAP_VALUETYPE (tdh.h)
-description: Defines if the value map value is in a ULONG data type or a string.
+description: Defines if the value map value is in a ULONG data type or a string.helpviewer_keywords: ["EVENTMAP_ENTRY_VALUETYPE_STRING","EVENTMAP_ENTRY_VALUETYPE_ULONG","MAP_VALUETYPE","MAP_VALUETYPE enumeration [ETW]","etw.map_valuetype_enum","tdh.map_valuetype_enum","tdh/EVENTMAP_ENTRY_VALUETYPE_STRING","tdh/EVENTMAP_ENTRY_VALUETYPE_ULONG","tdh/MAP_VALUETYPE"]
 old-location: etw\map_valuetype_enum.htm
 tech.root: ETW
 ms.assetid: a17e5214-29d3-465f-9785-0cc8965a42c9

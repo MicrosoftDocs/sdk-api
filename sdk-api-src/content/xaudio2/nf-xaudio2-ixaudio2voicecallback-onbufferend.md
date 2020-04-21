@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnBufferEnd
 title: IXAudio2VoiceCallback::OnBufferEnd (xaudio2.h)
-description: Called when the voice finishes processing a buffer.
+description: Called when the voice finishes processing a buffer.helpviewer_keywords: ["IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs]","OnBufferEnd method","IXAudio2VoiceCallback.OnBufferEnd","IXAudio2VoiceCallback::OnBufferEnd","OnBufferEnd","OnBufferEnd method [XAudio2 Audio Mixing APIs]","OnBufferEnd method [XAudio2 Audio Mixing APIs]","IXAudio2VoiceCallback interface","xaudio2.ixaudio2voicecallback_interface_onbufferend","xaudio2/IXAudio2VoiceCallback::OnBufferEnd"]
 old-location: xaudio2\ixaudio2voicecallback_interface_onbufferend.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnBufferEnd(void)

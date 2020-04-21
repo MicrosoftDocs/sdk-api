@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetOptionAt
 title: MI_DestinationOptions_GetOptionAt function (mi.h)
-description: Gets a previously added option value based on the specified index.
+description: Gets a previously added option value based on the specified index.helpviewer_keywords: ["MI_DestinationOptions_GetOptionAt","MI_DestinationOptions_GetOptionAt function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetOptionAt","wmi_v2.mi_destinationoptions_getoptionat"]
 old-location: wmi_v2\mi_destinationoptions_getoptionat.htm
 tech.root: wmi_v2
 ms.assetid: 8705721f-3631-4a92-aa5b-0f1b196fe684

@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_ENDPOINT_POLICY_EXTENSION
 title: WS_ENDPOINT_POLICY_EXTENSION (webservices.h)
-description: This structure is used to specify an endpoint policy extension.
+description: This structure is used to specify an endpoint policy extension.helpviewer_keywords: ["WS_ENDPOINT_POLICY_EXTENSION","WS_ENDPOINT_POLICY_EXTENSION structure [Web Services for Windows]","webservices/WS_ENDPOINT_POLICY_EXTENSION","wsw.ws_endpoint_policy_extension"]
 old-location: wsw\ws_endpoint_policy_extension.htm
 tech.root: wsw
 ms.assetid: 8bcb2466-fb07-4a15-82a2-87fc7f0f3d92

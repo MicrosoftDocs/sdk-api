@@ -1,7 +1,7 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.GetResourceList
 title: ItsPubPlugin::GetResourceList (tspubplugincom.h)
-description: Retrieves a list of resources assigned to the specified user.
+description: Retrieves a list of resources assigned to the specified user.helpviewer_keywords: ["GetResourceList","GetResourceList method [Remote Desktop Services]","GetResourceList method [Remote Desktop Services]","ItsPubPlugin interface","ItsPubPlugin interface [Remote Desktop Services]","GetResourceList method","ItsPubPlugin.GetResourceList","ItsPubPlugin::GetResourceList","termserv.itspubplugin_getresourcelist","tspubplugincom/ItsPubPlugin::GetResourceList"]
 old-location: termserv\itspubplugin_getresourcelist.htm
 tech.root: TermServ
 ms.assetid: c8f255fe-6f31-4cbb-a600-a27e977a84a0

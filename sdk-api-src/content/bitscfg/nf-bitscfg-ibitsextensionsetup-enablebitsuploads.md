@@ -1,7 +1,7 @@
 ---
 UID: NF:bitscfg.IBITSExtensionSetup.EnableBITSUploads
 title: IBITSExtensionSetup::EnableBITSUploads (bitscfg.h)
-description: Use the EnableBITSUploads method to enable BITS upload on the virtual directory to which the ADSI object points. This method sets the BITSUploadEnabled IIS extension property.
+description: Use the EnableBITSUploads method to enable BITS upload on the virtual directory to which the ADSI object points. This method sets the BITSUploadEnabled IIS extension property.helpviewer_keywords: ["EnableBITSUploads","EnableBITSUploads method [BITS]","EnableBITSUploads method [BITS]","IBITSExtensionSetup interface","IBITSExtensionSetup interface [BITS]","EnableBITSUploads method","IBITSExtensionSetup.EnableBITSUploads","IBITSExtensionSetup::EnableBITSUploads","_drz_ibitsextensionsetup_enablebitsuploads","bits.ibitsextensionsetup_enablebitsuploads","bitscfg/IBITSExtensionSetup::EnableBITSUploads"]
 old-location: bits\ibitsextensionsetup_enablebitsuploads.htm
 tech.root: Bits
 ms.assetid: 5b68dea2-f9a7-4a99-93d3-62c4f24b769f

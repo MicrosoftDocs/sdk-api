@@ -1,7 +1,7 @@
 ---
 UID: NE:audiosessiontypes._AudioSessionState
 title: AudioSessionState (audiosessiontypes.h)
-description: The AudioSessionState enumeration defines constants that indicate the current state of an audio session.
+description: The AudioSessionState enumeration defines constants that indicate the current state of an audio session.helpviewer_keywords: ["AudioSessionState","AudioSessionState","AudioSessionState enumeration [Core Audio]","AudioSessionStateActive","AudioSessionStateExpired","AudioSessionStateInactive","audiosessiontypes/AudioSessionState","audiosessiontypes/AudioSessionStateActive","audiosessiontypes/AudioSessionStateExpired","audiosessiontypes/AudioSessionStateInactive","coreaudio.audiosessionstate"]
 old-location: coreaudio\audiosessionstate.htm
 tech.root: CoreAudio
 ms.assetid: a972fed6-425f-46c8-b0cc-6538460bb104

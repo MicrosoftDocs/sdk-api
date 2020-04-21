@@ -1,7 +1,7 @@
 ---
 UID: NE:windows.media.streaming.TransportStatus
 title: TransportStatus (windows.media.streaming.h)
-description: Defines the available transport status as defined by the UPnP Guidelines.
+description: Defines the available transport status as defined by the UPnP Guidelines.helpviewer_keywords: ["ErrorOccurred","Last","Ok","TransportStatus","TransportStatus enumeration [Media Streaming API]","Unknown","mediastreaming.transportstatus","windows/ErrorOccurred","windows/Last","windows/Ok","windows/TransportStatus","windows/Unknown"]
 old-location: mediastreaming\transportstatus.htm
 tech.root: mediastreaming
 ms.assetid: 6fde82f0-9bc4-4abb-9d10-0000501c2b24

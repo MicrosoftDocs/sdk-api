@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetGammaCorrection
 title: PathGradientBrush::GetGammaCorrection (gdipluspath.h)
-description: The PathGradientBrush::GetGammaCorrection method determines whether gamma correction is enabled for this path gradient brush.
+description: The PathGradientBrush::GetGammaCorrection method determines whether gamma correction is enabled for this path gradient brush.helpviewer_keywords: ["GetGammaCorrection","GetGammaCorrection method [GDI+]","GetGammaCorrection method [GDI+]","PathGradientBrush class","PathGradientBrush class [GDI+]","GetGammaCorrection method","PathGradientBrush.GetGammaCorrection","PathGradientBrush::GetGammaCorrection","_gdiplus_CLASS_PathGradientBrush_GetGammaCorrection_","gdiplus._gdiplus_CLASS_PathGradientBrush_GetGammaCorrection_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetGammaCorrection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getgammacorrection_28.htm

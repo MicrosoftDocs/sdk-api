@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.PATHOBJ_bCloseFigure
 title: PATHOBJ_bCloseFigure function (winddi.h)
-description: The PATHOBJ_bCloseFigure function closes an open figure in a path by drawing a line from the current position to the first point of the figure.
+description: The PATHOBJ_bCloseFigure function closes an open figure in a path by drawing a line from the current position to the first point of the figure.helpviewer_keywords: ["PATHOBJ_bCloseFigure","PATHOBJ_bCloseFigure function [Display Devices]","display.pathobj_bclosefigure","gdifncs_49059159-bb68-43f7-acd1-2ea665e0db93.xml","winddi/PATHOBJ_bCloseFigure"]
 old-location: display\pathobj_bclosefigure.htm
 tech.root: display
 ms.assetid: e44fb1e3-3d6f-4ff4-83a7-b539d2b570aa

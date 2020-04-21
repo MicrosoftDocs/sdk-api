@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManagerEventHandler.OnManagerStatusChanged
 title: IUIAnimationManagerEventHandler::OnManagerStatusChanged (uianimation.h)
-description: Handles status changes to an animation manager.
+description: Handles status changes to an animation manager.helpviewer_keywords: ["IUIAnimationManagerEventHandler interface [Windows Animation]","OnManagerStatusChanged method","IUIAnimationManagerEventHandler.OnManagerStatusChanged","IUIAnimationManagerEventHandler::OnManagerStatusChanged","OnManagerStatusChanged","OnManagerStatusChanged method [Windows Animation]","OnManagerStatusChanged method [Windows Animation]","IUIAnimationManagerEventHandler interface","uianimation.iuianimationmanagereventhandler_onmanagerstatuschanged","uianimation/IUIAnimationManagerEventHandler::OnManagerStatusChanged"]
 old-location: uianimation\iuianimationmanagereventhandler_onmanagerstatuschanged.htm
 tech.root: UIAnimation
 ms.assetid: 17f98ff5-f18e-44be-a8bd-bc5a6467fa83

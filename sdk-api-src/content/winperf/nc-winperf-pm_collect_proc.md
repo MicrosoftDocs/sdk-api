@@ -1,7 +1,7 @@
 ---
 UID: NC:winperf.PM_COLLECT_PROC
 title: PM_COLLECT_PROC (winperf.h)
-description: Collects the performance data and returns it to the consumer.
+description: Collects the performance data and returns it to the consumer.helpviewer_keywords: ["CollectPerformanceData","CollectPerformanceData callback function [Perf]","PM_COLLECT_PROC","PM_COLLECT_PROC callback","base.collectperformancedata","perf.collectperformancedata","winperf/CollectPerformanceData"]
 old-location: perf\collectperformancedata.htm
 tech.root: perfctrs
 ms.assetid: 9903eb4b-017b-47df-81c5-98c4e1ac697d

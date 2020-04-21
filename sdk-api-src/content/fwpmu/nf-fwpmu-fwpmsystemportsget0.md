@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmSystemPortsGet0
 title: FwpmSystemPortsGet0 function (fwpmu.h)
-description: Retrieves an array of all of the system port types.
+description: Retrieves an array of all of the system port types.helpviewer_keywords: ["FwpmSystemPortsGet0","FwpmSystemPortsGet0 function [Filtering]","fwp.fwpmsystemportsget0","fwpmu/FwpmSystemPortsGet0"]
 old-location: fwp\fwpmsystemportsget0.htm
 tech.root: fwp
 ms.assetid: 675b1078-8f8e-4a97-aa01-fbf8fbe2b50f

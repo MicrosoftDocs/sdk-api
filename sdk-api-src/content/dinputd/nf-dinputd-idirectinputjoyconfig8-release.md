@@ -1,7 +1,7 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.Release
 title: IDirectInputJoyConfig8::Release (dinputd.h)
-description: The IDirectInputJoyConfig8::Release method decreases the reference count of the DirectInputJoyConfig object by 1. This method is part of the IUnknown interface inherited by DirectInputJoyConfig.
+description: The IDirectInputJoyConfig8::Release method decreases the reference count of the DirectInputJoyConfig object by 1. This method is part of the IUnknown interface inherited by DirectInputJoyConfig.helpviewer_keywords: ["IDirectInputJoyConfig8 interface [Human Input Devices]","Release method","IDirectInputJoyConfig8.Release","IDirectInputJoyConfig8::Release","Release","Release method [Human Input Devices]","Release method [Human Input Devices]","IDirectInputJoyConfig8 interface","di_ref_510ae21c-eb2d-472d-aef2-944d17e31f78.xml","dinputd/IDirectInputJoyConfig8::Release","hid.idirectinputjoyconfig8_release"]
 old-location: hid\idirectinputjoyconfig8_release.htm
 tech.root: hid
 ms.assetid: 60aff330-3646-4bc8-b7f4-b779a2e0796d

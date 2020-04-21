@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.RegisterNamespace
 title: ISettingsEngine::RegisterNamespace (wcmconfig.h)
-description: Registers a namespace from a stream.
+description: Registers a namespace from a stream.helpviewer_keywords: ["ISettingsEngine interface [SMI]","RegisterNamespace method","ISettingsEngine.RegisterNamespace","ISettingsEngine::RegisterNamespace","RegisterNamespace","RegisterNamespace method [SMI]","RegisterNamespace method [SMI]","ISettingsEngine interface","smi.isettingsengine_registernamespace","wcmconfig/ISettingsEngine::RegisterNamespace"]
 old-location: smi\isettingsengine_registernamespace.htm
 tech.root: SMI
 ms.assetid: 9b9ffba8-b2b7-469e-96d2-78b086987fae

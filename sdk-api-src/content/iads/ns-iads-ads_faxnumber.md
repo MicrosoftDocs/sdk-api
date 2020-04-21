@@ -1,7 +1,7 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0013
 title: ADS_FAXNUMBER (iads.h)
-description: The ADS_FAXNUMBER structure is an ADSI representation of the Facsimile Telephone Number attribute syntax.
+description: The ADS_FAXNUMBER structure is an ADSI representation of the Facsimile Telephone Number attribute syntax.helpviewer_keywords: ["*PADS_FAXNUMBER","ADS_FAXNUMBER","ADS_FAXNUMBER structure [ADSI]","PADS_FAXNUMBER","PADS_FAXNUMBER structure pointer [ADSI]","_ds_ads_faxnumber","adsi.ads__faxnumber","adsi.ads_faxnumber","iads/ADS_FAXNUMBER","iads/PADS_FAXNUMBER"]
 old-location: adsi\ads_faxnumber.htm
 tech.root: adsi
 ms.assetid: 32553290-e9ca-44e7-a085-f053df8104e6

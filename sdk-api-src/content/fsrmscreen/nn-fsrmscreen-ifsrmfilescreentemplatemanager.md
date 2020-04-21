@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenTemplateManager
 title: IFsrmFileScreenTemplateManager (fsrmscreen.h)
-description: Used to manage file screen templates.
+description: Used to manage file screen templates.helpviewer_keywords: ["IFsrmFileScreenTemplateManager","IFsrmFileScreenTemplateManager interface [File Server Resource Manager]","IFsrmFileScreenTemplateManager interface [File Server Resource Manager]","described","fs.ifsrmfilescreentemplatemanager","fsrm.ifsrmfilescreentemplatemanager","fsrmscreen/IFsrmFileScreenTemplateManager"]
 old-location: fsrm\ifsrmfilescreentemplatemanager.htm
 tech.root: fsrm
 ms.assetid: 89577ab3-2648-4b37-9fc0-c64929223a13

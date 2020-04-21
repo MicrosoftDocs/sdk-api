@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.SetFileProperty
 title: IFsrmClassificationManager::SetFileProperty (fsrmpipeline.h)
-description: Sets the value of the specified property in the file or folder.
+description: Sets the value of the specified property in the file or folder.helpviewer_keywords: ["FsrmClassificationManager class [File Server Resource Manager]","SetFileProperty method","IFsrmClassificationManager interface [File Server Resource Manager]","SetFileProperty method","IFsrmClassificationManager.SetFileProperty","IFsrmClassificationManager2 interface [File Server Resource Manager]","SetFileProperty method","IFsrmClassificationManager2::SetFileProperty","IFsrmClassificationManager::SetFileProperty","SetFileProperty","SetFileProperty method [File Server Resource Manager]","SetFileProperty method [File Server Resource Manager]","FsrmClassificationManager class","SetFileProperty method [File Server Resource Manager]","IFsrmClassificationManager interface","SetFileProperty method [File Server Resource Manager]","IFsrmClassificationManager2 interface","fs.ifsrmclassificationmanager_setfileproperty","fsrm.ifsrmclassificationmanager_setfileproperty","fsrmpipeline/IFsrmClassificationManager2::SetFileProperty","fsrmpipeline/IFsrmClassificationManager::SetFileProperty"]
 old-location: fsrm\ifsrmclassificationmanager_setfileproperty.htm
 tech.root: fsrm
 ms.assetid: 0f13f00e-6ca2-4436-822e-01eff638c446

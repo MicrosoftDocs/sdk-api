@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_ImageName
 title: IFaxRoutingMethod::get_ImageName (faxcom.h)
-description: The IFaxRoutingMethod::get_ImageName property is a null-terminated string that contains the executable image name of the fax routing extension DLL that implements the fax routing method.
+description: The IFaxRoutingMethod::get_ImageName property is a null-terminated string that contains the executable image name of the fax routing extension DLL that implements the fax routing method.helpviewer_keywords: ["IFaxRoutingMethod interface [Fax Service]","ImageName property","IFaxRoutingMethod.ImageName","IFaxRoutingMethod.get_ImageName","IFaxRoutingMethod::ImageName","IFaxRoutingMethod::get_ImageName","ImageName property [Fax Service]","ImageName property [Fax Service]","IFaxRoutingMethod interface","_mfax_ifaxroutingmethod_get_imagename","fax._mfax_ifaxroutingmethod_get_imagename","fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_imagename_cpp","faxcom/IFaxRoutingMethod::ImageName","faxcom/IFaxRoutingMethod::get_ImageName","get_ImageName"]
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_imagename_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1qud.htm

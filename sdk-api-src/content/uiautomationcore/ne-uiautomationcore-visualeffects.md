@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationcore.VisualEffects
 title: VisualEffects (uiautomationcore.h)
-description: Contains values for the VisualEffects attribute.
+description: Contains values for the VisualEffects attribute.helpviewer_keywords: ["VisualEffects","VisualEffects enumeration [Windows Accessibility]","VisualEffects_Bevel","VisualEffects_Glow","VisualEffects_None","VisualEffects_Reflection","VisualEffects_Shadow","VisualEffects_SoftEdges","uiautomationcore/VisualEffects","uiautomationcore/VisualEffects_Bevel","uiautomationcore/VisualEffects_Glow","uiautomationcore/VisualEffects_None","uiautomationcore/VisualEffects_Reflection","uiautomationcore/VisualEffects_Shadow","uiautomationcore/VisualEffects_SoftEdges","winauto.uiauto_VisualEffectsEnum"]
 old-location: winauto\uiauto_VisualEffectsEnum.htm
 tech.root: WinAuto
 ms.assetid: 961C2064-F896-4ECD-9529-71A1656EE0EE

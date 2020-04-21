@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509AttributeOSVersion.get_OSVersion
 title: IX509AttributeOSVersion::get_OSVersion (certenroll.h)
-description: Retrieves the client operating system version information.
+description: Retrieves the client operating system version information.helpviewer_keywords: ["IX509AttributeOSVersion interface [Security]","OSVersion property","IX509AttributeOSVersion.OSVersion","IX509AttributeOSVersion.get_OSVersion","IX509AttributeOSVersion::OSVersion","IX509AttributeOSVersion::get_OSVersion","OSVersion property [Security]","OSVersion property [Security]","IX509AttributeOSVersion interface","certenroll/IX509AttributeOSVersion::OSVersion","certenroll/IX509AttributeOSVersion::get_OSVersion","get_OSVersion","security.ix509attributeosversioner_osversion_property"]
 old-location: security\ix509attributeosversioner_osversion_property.htm
 tech.root: seccertenroll
 ms.assetid: 395ec2be-fe92-4bf1-bed3-db122e22f15e

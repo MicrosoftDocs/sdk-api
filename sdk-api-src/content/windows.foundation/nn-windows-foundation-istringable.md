@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.foundation.IStringable
 title: IStringable (windows.foundation.h)
-description: Provides a way to represent the current object as a string.
+description: Provides a way to represent the current object as a string.helpviewer_keywords: ["IStringable","IStringable interface [Windows Runtime]","IStringable interface [Windows Runtime]","described","windows/IStringable","winrt.istringable"]
 old-location: winrt\istringable.htm
 tech.root: WinRT
 ms.assetid: 1D67D073-57E8-4562-8586-CAF2619995D7

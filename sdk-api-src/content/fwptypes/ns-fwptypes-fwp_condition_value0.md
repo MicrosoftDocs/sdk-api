@@ -1,7 +1,7 @@
 ---
 UID: NS:fwptypes.FWP_CONDITION_VALUE0_
 title: FWP_CONDITION_VALUE0 (fwptypes.h)
-description: Contains values that are used in filter conditions when testing for matching filters.
+description: Contains values that are used in filter conditions when testing for matching filters.helpviewer_keywords: ["FWP_CONDITION_VALUE0","FWP_CONDITION_VALUE0 structure [Filtering]","fwp.fwp_condition_value0","fwptypes/FWP_CONDITION_VALUE0"]
 old-location: fwp\fwp_condition_value0.htm
 tech.root: fwp
 ms.assetid: edc34005-dbc1-45a4-b6c7-fbb8b13fa388

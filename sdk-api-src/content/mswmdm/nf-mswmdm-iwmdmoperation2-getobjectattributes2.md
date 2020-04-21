@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMOperation2.GetObjectAttributes2
 title: IWMDMOperation2::GetObjectAttributes2 (mswmdm.h)
-description: Windows Media Device Manager calls GetObjectAttributes when a file is written to the device in order to learn the attributes of the file.
+description: Windows Media Device Manager calls GetObjectAttributes when a file is written to the device in order to learn the attributes of the file.helpviewer_keywords: ["GetObjectAttributes2","GetObjectAttributes2 method [windows Media Device Manager]","GetObjectAttributes2 method [windows Media Device Manager]","IWMDMOperation2 interface","IWMDMOperation2 interface [windows Media Device Manager]","GetObjectAttributes2 method","IWMDMOperation2.GetObjectAttributes2","IWMDMOperation2::GetObjectAttributes2","IWMDMOperation2GetObjectAttributes2","mswmdm/IWMDMOperation2::GetObjectAttributes2","wmdm.iwmdmoperation2_getobjectattributes2"]
 old-location: wmdm\iwmdmoperation2_getobjectattributes2.htm
 tech.root: WMDM
 ms.assetid: 7bf76094-5660-47ac-b1a2-a67b6f95964b

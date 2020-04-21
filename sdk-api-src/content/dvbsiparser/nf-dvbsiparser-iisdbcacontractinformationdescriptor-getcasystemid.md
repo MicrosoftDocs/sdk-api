@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetCASystemId
 title: IIsdbCAContractInformationDescriptor::GetCASystemId (dvbsiparser.h)
-description: Gets the value of the CA_system_id field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field identifies the conditional access system associated with the contract information.
+description: Gets the value of the CA_system_id field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field identifies the conditional access system associated with the contract information.helpviewer_keywords: ["GetCASystemId","GetCASystemId method [Microsoft TV Technologies]","GetCASystemId method [Microsoft TV Technologies]","IIsdbCAContractInformationDescriptor interface","IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies]","GetCASystemId method","IIsdbCAContractInformationDescriptor.GetCASystemId","IIsdbCAContractInformationDescriptor::GetCASystemId","dvbsiparser/IIsdbCAContractInformationDescriptor::GetCASystemId","mstv.iisdbcacontractinformationdescriptor_getcasystemid"]
 old-location: mstv\iisdbcacontractinformationdescriptor_getcasystemid.htm
 tech.root: mstv
 ms.assetid: cb9f55c1-7967-43e4-9cb3-1d7cdf20c70a

@@ -1,7 +1,7 @@
 ---
 UID: NE:winioctl._FILE_STORAGE_TIER_MEDIA_TYPE
 title: FILE_STORAGE_TIER_MEDIA_TYPE
-description: Specifies the storage media type.
+description: Specifies the storage media type.helpviewer_keywords: ["*PFILE_STORAGE_TIER_MEDIA_TYPE","FILE_STORAGE_TIER_MEDIA_TYPE","FILE_STORAGE_TIER_MEDIA_TYPE enumeration [Files]","FileStorageTierMediaTypeDisk","FileStorageTierMediaTypeSsd","FileStorageTierMediaTypeUnspecified","fs.file_storage_tier_media_type","winioctl/FILE_STORAGE_TIER_MEDIA_TYPE","winioctl/FileStorageTierMediaTypeDisk","winioctl/FileStorageTierMediaTypeSsd","winioctl/FileStorageTierMediaTypeUnspecified"]
 old-location: fs\file_storage_tier_media_type.htm
 tech.root: FileIO
 ms.assetid: 6D580AC6-5E3C-4F0B-A922-E81E6B8D8658

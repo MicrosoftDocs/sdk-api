@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmIsCompositionEnabled
 title: DwmIsCompositionEnabled function (dwmapi.h)
-description: Obtains a value that indicates whether Desktop Window Manager (DWM) composition is enabled. Applications on machines running Windows 7 or earlier can listen for composition state changes by handling the WM_DWMCOMPOSITIONCHANGED notification.
+description: Obtains a value that indicates whether Desktop Window Manager (DWM) composition is enabled. Applications on machines running Windows 7 or earlier can listen for composition state changes by handling the WM_DWMCOMPOSITIONCHANGED notification.helpviewer_keywords: ["DwmIsCompositionEnabled","DwmIsCompositionEnabled function [Desktop Window Manager]","_udwm_dwmiscompositionenabled","_udwm_dwmiscompositionenabled_cpp","dwm.dwmiscompositionenabled","dwmapi/DwmIsCompositionEnabled","winui._udwm_dwmiscompositionenabled"]
 old-location: dwm\dwmiscompositionenabled.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmiscompositionenabled.htm

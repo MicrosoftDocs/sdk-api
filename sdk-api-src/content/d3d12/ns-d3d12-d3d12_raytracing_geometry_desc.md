@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_RAYTRACING_GEOMETRY_DESC
 title: D3D12_RAYTRACING_GEOMETRY_DESC (d3d12.h)
-description: Describes a set of geometry that is used in the D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS structure to provide input data to a raytracing acceleration structure build operation.
+description: Describes a set of geometry that is used in the D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS structure to provide input data to a raytracing acceleration structure build operation.helpviewer_keywords: ["D3D12_RAYTRACING_GEOMETRY_DESC","D3D12_RAYTRACING_GEOMETRY_DESC structure","PD3D12_RAYTRACING_GEOMETRY_DESC","PD3D12_RAYTRACING_GEOMETRY_DESC structure pointer","d3d12/D3D12_RAYTRACING_GEOMETRY_DESC","d3d12/PD3D12_RAYTRACING_GEOMETRY_DESC","direct3d12.d3d12_raytracing_geometry_desc"]
 old-location: direct3d12\d3d12_raytracing_geometry_desc.htm
 tech.root: direct3d12
 ms.assetid: 41E6348C-F0D0-4BA3-B24C-3844AE2B7423

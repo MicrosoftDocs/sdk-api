@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IClientSecurity.CopyProxy
 title: IClientSecurity::CopyProxy (objidlbase.h)
-description: Makes a private copy of the proxy for the specified interface.
+description: Makes a private copy of the proxy for the specified interface.helpviewer_keywords: ["CopyProxy","CopyProxy method [COM]","CopyProxy method [COM]","IClientSecurity interface","IClientSecurity interface [COM]","CopyProxy method","IClientSecurity.CopyProxy","IClientSecurity::CopyProxy","_com_iclientsecurity_copyproxy","com.iclientsecurity_copyproxy","objidlbase/IClientSecurity::CopyProxy"]
 old-location: com\iclientsecurity_copyproxy.htm
 tech.root: com
 ms.assetid: 4664351b-d43b-45dc-800e-574685afd0f6

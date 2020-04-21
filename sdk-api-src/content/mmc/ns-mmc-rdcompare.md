@@ -1,7 +1,7 @@
 ---
 UID: NS:mmc._RDCOMPARE
 title: RDCOMPARE (mmc.h)
-description: The RDCOMPARE structure is introduced in MMC 1.2.
+description: The RDCOMPARE structure is introduced in MMC 1.2.helpviewer_keywords: ["RDCOMPARE","RDCOMPARE structure [MMC]","_slate_rdcompare","mmc.rdcompare","mmc/RDCOMPARE"]
 old-location: mmc\rdcompare.htm
 tech.root: mmc
 ms.assetid: 78f0648b-1d1b-4786-89fa-ef51b7743a2d

@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_User
 title: ISearchRoot::put_User (searchapi.h)
-description: Not implemented.
+description: Not implemented.helpviewer_keywords: ["ISearchRoot interface [search]","put_User method","ISearchRoot.put_User","ISearchRoot::put_User","_search_ISearchRoot_put_User","put_User","put_User method [search]","put_User method [search]","ISearchRoot interface","search._search_ISearchRoot_put_User","searchapi/ISearchRoot::put_User"]
 old-location: search\_search_ISearchRoot_put_User.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_user.htm

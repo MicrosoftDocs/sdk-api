@@ -1,7 +1,7 @@
 ---
 UID: NF:cluadmex.IWCWizard97Callback.AddWizard97Page
 title: IWCWizard97Callback::AddWizard97Page (cluadmex.h)
-description: Adds a Wizard97 property page to a Wizard97 wizard, such as the Failover Cluster Application Wizard.
+description: Adds a Wizard97 property page to a Wizard97 wizard, such as the Failover Cluster Application Wizard.helpviewer_keywords: ["AddWizard97Page","AddWizard97Page method [Failover Cluster]","AddWizard97Page method [Failover Cluster]","IWCWizard97Callback interface","IWCWizard97Callback interface [Failover Cluster]","AddWizard97Page method","IWCWizard97Callback.AddWizard97Page","IWCWizard97Callback::AddWizard97Page","_wolf_iwcwizard97callback_addwizard97page","cluadmex/IWCWizard97Callback::AddWizard97Page","mscs.iwcwizard97callback_addwizard97page"]
 old-location: mscs\iwcwizard97callback_addwizard97page.htm
 tech.root: MsCS
 ms.assetid: c5de70da-2a08-4142-8f21-53a98e28fd42

@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONSTRAINTS
 title: WS_SECURITY_CONSTRAINTS (webservices.h)
-description: This structure specifies the security related constraints as part of WS_POLICY_CONSTRAINTS.
+description: This structure specifies the security related constraints as part of WS_POLICY_CONSTRAINTS.helpviewer_keywords: ["WS_SECURITY_CONSTRAINTS","WS_SECURITY_CONSTRAINTS structure [Web Services for Windows]","webservices/WS_SECURITY_CONSTRAINTS","wsw.ws_security_constraints"]
 old-location: wsw\ws_security_constraints.htm
 tech.root: wsw
 ms.assetid: 17fe7602-c050-46a2-b55c-aac6c277a5ce

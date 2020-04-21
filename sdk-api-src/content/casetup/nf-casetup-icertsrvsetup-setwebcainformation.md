@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetWebCAInformation
 title: ICertSrvSetup::SetWebCAInformation (casetup.h)
-description: Sets the certification authority (CA) information for the Certification Authority Web Enrollment role.
+description: Sets the certification authority (CA) information for the Certification Authority Web Enrollment role.helpviewer_keywords: ["ICertSrvSetup interface [Security]","SetWebCAInformation method","ICertSrvSetup.SetWebCAInformation","ICertSrvSetup::SetWebCAInformation","SetWebCAInformation","SetWebCAInformation method [Security]","SetWebCAInformation method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::SetWebCAInformation","security.icertsrvsetup_setwebcainformation"]
 old-location: security\icertsrvsetup_setwebcainformation.htm
 tech.root: SecCrypto
 ms.assetid: 6c8d6b06-d36c-496f-8d5a-da20f09a2b0a

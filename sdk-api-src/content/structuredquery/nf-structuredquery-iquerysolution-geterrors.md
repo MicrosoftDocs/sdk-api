@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IQuerySolution.GetErrors
 title: IQuerySolution::GetErrors (structuredquery.h)
-description: Identifies parts of the input string that the parser did not recognize or did not use when constructing the IQuerySolution condition tree.
+description: Identifies parts of the input string that the parser did not recognize or did not use when constructing the IQuerySolution condition tree.helpviewer_keywords: ["GetErrors","GetErrors method [search]","GetErrors method [search]","IQuerySolution interface","IQuerySolution interface [search]","GetErrors method","IQuerySolution.GetErrors","IQuerySolution::GetErrors","_search_IQuerySolution_GetErrors","search._search_IQuerySolution_GetErrors","structuredquery/IQuerySolution::GetErrors"]
 old-location: search\_search_IQuerySolution_GetErrors.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\geterrors.htm

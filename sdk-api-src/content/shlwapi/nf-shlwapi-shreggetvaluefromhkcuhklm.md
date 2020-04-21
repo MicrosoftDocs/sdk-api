@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHRegGetValueFromHKCUHKLM
 title: SHRegGetValueFromHKCUHKLM function (shlwapi.h)
-description: Obtains specified information from the registry.
+description: Obtains specified information from the registry.helpviewer_keywords: ["SHRegGetValueFromHKCUHKLM","SHRegGetValueFromHKCUHKLM function [Windows Shell]","_shell_SHRegGetValueFromHKCUHKLM","shell.SHRegGetValueFromHKCUHKLM","shlwapi/SHRegGetValueFromHKCUHKLM"]
 old-location: shell\SHRegGetValueFromHKCUHKLM.htm
 tech.root: shell
 ms.assetid: 5c4b13f4-0dd8-476e-9e89-ace23d541389

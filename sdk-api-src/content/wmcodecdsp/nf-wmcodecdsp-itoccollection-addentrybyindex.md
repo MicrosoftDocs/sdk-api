@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.AddEntryByIndex
 title: ITocCollection::AddEntryByIndex (wmcodecdsp.h)
-description: The AddEntryByIndex adds an individual table of contents to the collection and associates a caller-supplied index with the table of contents.
+description: The AddEntryByIndex adds an individual table of contents to the collection and associates a caller-supplied index with the table of contents.helpviewer_keywords: ["AddEntryByIndex","AddEntryByIndex method [Media Foundation]","AddEntryByIndex method [Media Foundation]","ITocCollection interface","ITocCollection interface [Media Foundation]","AddEntryByIndex method","ITocCollection.AddEntryByIndex","ITocCollection::AddEntryByIndex","codecapi.itoccollection_addentrybyindex","mf.itoccollection_addentrybyindex","wmcodecdsp/ITocCollection::AddEntryByIndex"]
 old-location: mf\itoccollection_addentrybyindex.htm
 tech.root: medfound
 ms.assetid: 61f3103b-9b81-4729-a410-ab5ea63e072c

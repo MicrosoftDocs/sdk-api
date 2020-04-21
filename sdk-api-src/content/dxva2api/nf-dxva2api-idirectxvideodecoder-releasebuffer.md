@@ -1,7 +1,7 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.ReleaseBuffer
 title: IDirectXVideoDecoder::ReleaseBuffer (dxva2api.h)
-description: Releases a buffer that was obtained by calling IDirectXVideoDecoder::GetBuffer.
+description: Releases a buffer that was obtained by calling IDirectXVideoDecoder::GetBuffer.helpviewer_keywords: ["IDirectXVideoDecoder interface [Media Foundation]","ReleaseBuffer method","IDirectXVideoDecoder.ReleaseBuffer","IDirectXVideoDecoder::ReleaseBuffer","ReleaseBuffer","ReleaseBuffer method [Media Foundation]","ReleaseBuffer method [Media Foundation]","IDirectXVideoDecoder interface","dxva2api/IDirectXVideoDecoder::ReleaseBuffer","e828a8e0-b9ec-4b86-abea-cbd8e0fd3a90","mf.idirectxvideodecoder_releasebuffer"]
 old-location: mf\idirectxvideodecoder_releasebuffer.htm
 tech.root: medfound
 ms.assetid: e828a8e0-b9ec-4b86-abea-cbd8e0fd3a90

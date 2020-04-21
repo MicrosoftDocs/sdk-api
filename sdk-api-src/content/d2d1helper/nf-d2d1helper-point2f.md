@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.Point2F
 title: Point2F function (d2d1helper.h)
-description: Creates a D2D1_POINT_2F structure that contains the specified x-coordinates and y-coordinates.
+description: Creates a D2D1_POINT_2F structure that contains the specified x-coordinates and y-coordinates.helpviewer_keywords: ["Point2F","Point2F function [Direct2D]","d2d1helper/Point2F","direct2d.point2f"]
 old-location: direct2d\point2f.htm
 tech.root: Direct2D
 ms.assetid: 62eb7517-0c38-4f63-b9f9-85211fcb36a4

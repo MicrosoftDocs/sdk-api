@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecSaContextAddInbound1
 title: IPsecSaContextAddInbound1 function (fwpmu.h)
-description: The IPsecSaContextAddInbound1 function adds an inbound IPsec security association (SA) bundle to an existing SA context.Note  IPsecSaContextAddInbound1 is the specific implementation of IPsecSaContextAddInbound used in Windows 7 and later.
+description: The IPsecSaContextAddInbound1 function adds an inbound IPsec security association (SA) bundle to an existing SA context.Note  IPsecSaContextAddInbound1 is the specific implementation of IPsecSaContextAddInbound used in Windows 7 and later.helpviewer_keywords: ["IPsecSaContextAddInbound1","IPsecSaContextAddInbound1 function [Filtering]","fwp.ipsecsacontextaddinbound1","fwpmu/IPsecSaContextAddInbound1"]
 old-location: fwp\ipsecsacontextaddinbound1.htm
 tech.root: fwp
 ms.assetid: a6717ff9-41f9-4cbc-9493-b9d80a137571

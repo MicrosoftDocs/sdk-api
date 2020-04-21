@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetCaptureDeviceActivate
 title: IMFCaptureSource::GetCaptureDeviceActivate (mfcaptureengine.h)
-description: Gets the current capture device's IMFActivate object pointer.
+description: Gets the current capture device's IMFActivate object pointer.helpviewer_keywords: ["GetCaptureDeviceActivate","GetCaptureDeviceActivate method [Media Foundation]","GetCaptureDeviceActivate method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","GetCaptureDeviceActivate method","IMFCaptureSource.GetCaptureDeviceActivate","IMFCaptureSource::GetCaptureDeviceActivate","mf.imfcapturesource_getcapturedeviceactivate","mfcaptureengine/IMFCaptureSource::GetCaptureDeviceActivate"]
 old-location: mf\imfcapturesource_getcapturedeviceactivate.htm
 tech.root: medfound
 ms.assetid: 5f69321f-67df-4d6c-a98a-51a9859f8a22

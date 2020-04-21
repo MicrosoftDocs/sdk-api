@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_LIST
 title: DHCP_OPTION_LIST (dhcpsapi.h)
-description: Defines a list of DHCP option values (just the option data with associated ID tags).
+description: Defines a list of DHCP option values (just the option data with associated ID tags).helpviewer_keywords: ["*LPDHCP_OPTION_LIST","DHCP_OPTION_LIST","DHCP_OPTION_LIST structure [DHCP]","LPDHCP_OPTION_LIST","LPDHCP_OPTION_LIST structure pointer [DHCP]","dhcp.dhcp_option_list","dhcpsapi/LPDHCP_OPTION_LIST","dhcpsapi/_DHCP_OPTION_LIST"]
 old-location: dhcp\dhcp_option_list.htm
 tech.root: DHCP
 ms.assetid: ffe9ed82-1aec-4e09-8258-399099c87b5a

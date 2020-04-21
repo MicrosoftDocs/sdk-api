@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IMalloc.HeapMinimize
 title: IMalloc::HeapMinimize (objidlbase.h)
-description: Minimizes the heap as much as possible by releasing unused memory to the operating system, coalescing adjacent free blocks, and committing free pages.
+description: Minimizes the heap as much as possible by releasing unused memory to the operating system, coalescing adjacent free blocks, and committing free pages.helpviewer_keywords: ["HeapMinimize","HeapMinimize method [COM]","HeapMinimize method [COM]","IMalloc interface","IMalloc interface [COM]","HeapMinimize method","IMalloc.HeapMinimize","IMalloc::HeapMinimize","_com_imalloc_heapminimize","com.imalloc_heapminimize","objidlbase/IMalloc::HeapMinimize"]
 old-location: com\imalloc_heapminimize.htm
 tech.root: com
 ms.assetid: b57e32eb-a637-47d8-b136-05cb193e9f73

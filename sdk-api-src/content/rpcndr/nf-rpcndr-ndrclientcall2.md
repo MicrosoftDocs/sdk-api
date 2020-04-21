@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.NdrClientCall2
 title: NdrClientCall2 function (rpcndr.h)
-description: The NdrClientCall2 function is the client-side entry point for the /Oicf mode stub.
+description: The NdrClientCall2 function is the client-side entry point for the /Oicf mode stub.helpviewer_keywords: ["NdrClientCall2","NdrClientCall2 function [RPC]","rpc.ndrclientcall2","rpcndr/NdrClientCall2"]
 old-location: rpc\ndrclientcall2.htm
 tech.root: Rpc
 ms.assetid: 136b6461-048a-41ee-8514-0dea0861b2c1

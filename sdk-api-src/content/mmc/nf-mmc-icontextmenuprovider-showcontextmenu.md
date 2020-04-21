@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IContextMenuProvider.ShowContextMenu
 title: IContextMenuProvider::ShowContextMenu (mmc.h)
-description: The IContextMenuProvider::ShowContextMenu method displays a context menu.
+description: The IContextMenuProvider::ShowContextMenu method displays a context menu.helpviewer_keywords: ["IContextMenuProvider interface [MMC]","ShowContextMenu method","IContextMenuProvider.ShowContextMenu","IContextMenuProvider::ShowContextMenu","ShowContextMenu","ShowContextMenu method [MMC]","ShowContextMenu method [MMC]","IContextMenuProvider interface","_slate_icontextmenuprovider_showcontextmenu","mmc.icontextmenuprovider_showcontextmenu","mmc/IContextMenuProvider::ShowContextMenu"]
 old-location: mmc\icontextmenuprovider_showcontextmenu.htm
 tech.root: mmc
 ms.assetid: 8fe9f474-c47b-4b53-8cbc-d658c82d7591

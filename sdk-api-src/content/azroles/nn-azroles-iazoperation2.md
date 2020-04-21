@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzOperation2
 title: IAzOperation2 (azroles.h)
-description: Extends the IAzOperation with a method that returns the role assignments associated with the operation.
+description: Extends the IAzOperation with a method that returns the role assignments associated with the operation.helpviewer_keywords: ["IAzOperation2","IAzOperation2 interface [Security]","IAzOperation2 interface [Security]","described","azroles/IAzOperation2","security.iazoperation2"]
 old-location: security\iazoperation2.htm
 tech.root: SecAuthZ
 ms.assetid: 83baa90b-bbc3-49b9-949e-45d68a155b5c

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetPointerPenInfoHistory
 title: GetPointerPenInfoHistory function (winuser.h)
-description: Gets the pen-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type PT_PEN).
+description: Gets the pen-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type PT_PEN).helpviewer_keywords: ["GetPointerPenInfoHistory","GetPointerPenInfoHistory function [Input Messages and Notifications]","inputmsg.getpointerpeninfohistory","winuser/GetPointerPenInfoHistory"]
 old-location: inputmsg\getpointerpeninfohistory.htm
 tech.root: InputMsg
 ms.assetid: 90082327-b242-4f5d-8cd7-fd8ef9340395

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EndDialog
 title: EndDialog function (winuser.h)
-description: Destroys a modal dialog box, causing the system to end any processing for the dialog box.
+description: Destroys a modal dialog box, causing the system to end any processing for the dialog box.helpviewer_keywords: ["EndDialog","EndDialog function [Dialog Boxes]","_win32_EndDialog","_win32_enddialog_cpp","dlgbox.enddialog","winui._win32_enddialog","winuser/EndDialog"]
 old-location: dlgbox\enddialog.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\enddialog.htm

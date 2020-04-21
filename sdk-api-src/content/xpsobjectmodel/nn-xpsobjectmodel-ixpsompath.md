@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPath
 title: IXpsOMPath (xpsobjectmodel.h)
-description: Describes a non-text visual item.
+description: Describes a non-text visual item.helpviewer_keywords: ["IXpsOMPath","IXpsOMPath interface [XPS Documents and Packaging]","IXpsOMPath interface [XPS Documents and Packaging]","described","xps.ixpsompath","xpsobjectmodel/IXpsOMPath"]
 old-location: xps\ixpsompath.htm
 tech.root: printdocs
 ms.assetid: 93257a77-3fef-400e-bfe1-06e760ba4b93

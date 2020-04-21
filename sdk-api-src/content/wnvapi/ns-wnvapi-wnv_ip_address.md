@@ -1,7 +1,7 @@
 ---
 UID: NS:wnvapi._WNV_IP_ADDRESS
 title: WNV_IP_ADDRESS (wnvapi.h)
-description: Defines an IP address object.
+description: Defines an IP address object.helpviewer_keywords: ["*PWNV_IP_ADDRESS","PWNV_IP_ADDRESS","PWNV_IP_ADDRESS structure pointer [Windows Network Virtualization]","WNV_IP_ADDRESS","WNV_IP_ADDRESS structure [Windows Network Virtualization]","wnv.wnv_ip_address","wnvapi/PWNV_IP_ADDRESS","wnvapi/WNV_IP_ADDRESS"]
 old-location: wnv\wnv_ip_address.htm
 tech.root: wnv
 ms.assetid: 1FD137B6-74F4-4E75-A77E-65F093938662

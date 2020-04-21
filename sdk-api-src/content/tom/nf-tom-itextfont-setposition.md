@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.SetPosition
 title: ITextFont::SetPosition (tom.h)
-description: Sets the amount that characters are offset vertically relative to the baseline.
+description: Sets the amount that characters are offset vertically relative to the baseline.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetPosition method","ITextFont.SetPosition","ITextFont::SetPosition","SetPosition","SetPosition method [Windows Controls]","SetPosition method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetPosition","_win32_ITextFont_SetPosition_cpp","controls.ITextFont_SetPosition","controls._win32_ITextFont_SetPosition","tom/ITextFont::SetPosition"]
 old-location: controls\ITextFont_SetPosition.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setposition.htm

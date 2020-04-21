@@ -1,7 +1,7 @@
 ---
 UID: NC:evr.MFCreateVideoSampleFromSurface
 title: MFCreateVideoSampleFromSurface (evr.h)
-description: Creates a media sample that manages a Direct3D surface.
+description: Creates a media sample that manages a Direct3D surface.helpviewer_keywords: ["MFCreateVideoSampleFromSurface","MFCreateVideoSampleFromSurface callback","MFCreateVideoSampleFromSurface callback function [Media Foundation]","d34d423b-4510-44ce-ab46-51560b01f205","evr/MFCreateVideoSampleFromSurface","mf.mfcreatevideosamplefromsurface"]
 old-location: mf\mfcreatevideosamplefromsurface.htm
 tech.root: medfound
 ms.assetid: d34d423b-4510-44ce-ab46-51560b01f205

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetEmfPlusFlags
 title: MetafileHeader::GetEmfPlusFlags (gdiplusmetaheader.h)
-description: The MetafileHeader::GetEmfPlusFlags method gets a flag that indicates whether the associated metafile was recorded against a video display device context.
+description: The MetafileHeader::GetEmfPlusFlags method gets a flag that indicates whether the associated metafile was recorded against a video display device context.helpviewer_keywords: ["GetEmfPlusFlags","GetEmfPlusFlags method [GDI+]","GetEmfPlusFlags method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetEmfPlusFlags method","MetafileHeader.GetEmfPlusFlags","MetafileHeader::GetEmfPlusFlags","_gdiplus_CLASS_MetafileHeader_GetEmfPlusFlags_","gdiplus._gdiplus_CLASS_MetafileHeader_GetEmfPlusFlags_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetEmfPlusFlags_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getemfplusflags.htm

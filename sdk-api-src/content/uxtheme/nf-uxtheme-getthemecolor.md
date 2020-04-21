@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.GetThemeColor
 title: GetThemeColor function (uxtheme.h)
-description: Retrieves the value of a color property.
+description: Retrieves the value of a color property.helpviewer_keywords: ["GetThemeColor","GetThemeColor function [Windows Controls]","controls.GetThemeColor","controls.inet_GetThemeColor","inet_GetThemeColor","inet_GetThemeColor_cpp","uxtheme/GetThemeColor"]
 old-location: controls\GetThemeColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemecolor.htm

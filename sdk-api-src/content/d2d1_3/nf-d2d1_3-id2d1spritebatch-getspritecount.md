@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1SpriteBatch.GetSpriteCount
 title: ID2D1SpriteBatch::GetSpriteCount (d2d1_3.h)
-description: Retrieves the number of sprites in this sprite batch.
+description: Retrieves the number of sprites in this sprite batch.helpviewer_keywords: ["GetSpriteCount","GetSpriteCount method [Direct2D]","GetSpriteCount method [Direct2D]","ID2D1SpriteBatch interface","ID2D1SpriteBatch interface [Direct2D]","GetSpriteCount method","ID2D1SpriteBatch.GetSpriteCount","ID2D1SpriteBatch::GetSpriteCount","d2d1_3/ID2D1SpriteBatch::GetSpriteCount","direct2d.id2d1spritebatch_getspritecount"]
 old-location: direct2d\id2d1spritebatch_getspritecount.htm
 tech.root: Direct2D
 ms.assetid: 4116A067-A02D-414F-B7A4-7D0B6A42653A

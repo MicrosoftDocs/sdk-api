@@ -1,7 +1,7 @@
 ---
 UID: NS:mfapi._MFCameraIntrinsic_DistortionModel
 title: MFCameraIntrinsic_DistortionModel (mfapi.h)
-description: Represents a polynomial lens distortion model.
+description: Represents a polynomial lens distortion model.helpviewer_keywords: ["MFCameraIntrinsic_DistortionModel","MFCameraIntrinsic_DistortionModel structure [Media Foundation]","PMFCameraIntrinsic_DistortionModel","PMFCameraIntrinsic_DistortionModel structure pointer [Media Foundation]","mf.mfcameraintrinsic_distortionmodel","mfapi/MFCameraIntrinsic_DistortionModel","mfapi/PMFCameraIntrinsic_DistortionModel"]
 old-location: mf\mfcameraintrinsic_distortionmodel.htm
 tech.root: medfound
 ms.assetid: 0D2410DC-E67E-4B5E-B55F-6B47A0B72290

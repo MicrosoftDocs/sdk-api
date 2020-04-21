@@ -1,7 +1,7 @@
 ---
 UID: NE:webservices.__unnamed_enum_71
 title: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE (webservices.h)
-description: The type of the Windows Integrated Authentication credential, used as a selector for subtypes of WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL.
+description: The type of the Windows Integrated Authentication credential, used as a selector for subtypes of WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL.helpviewer_keywords: ["WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE","WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE","WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE","WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE","WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE enumeration [Web Services for Windows]","webservices/WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE","webservices/WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE","webservices/WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE","webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE","wsw.ws_windows_integrated_auth_credential_type"]
 old-location: wsw\ws_windows_integrated_auth_credential_type.htm
 tech.root: wsw
 ms.assetid: 50fc723a-8c32-443d-b3ce-cd660f5ab18b

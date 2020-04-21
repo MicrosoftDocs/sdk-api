@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IFont.get_Name
 title: IFont::get_Name (ocidl.h)
-description: Retrieves the name of the font family.
+description: Retrieves the name of the font family.helpviewer_keywords: ["IFont interface [COM]","get_Name method","IFont.get_Name","IFont::get_Name","_ctrl_ifont_get_name","com.ifont_get_name","get_Name","get_Name method [COM]","get_Name method [COM]","IFont interface","ocidl/IFont::get_Name"]
 old-location: com\ifont_get_name.htm
 tech.root: com
 ms.assetid: 04ce50a6-b833-4476-91a9-0d1ca7296314

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPCore.get_currentMedia
 title: IWMPCore::get_currentMedia (wmp.h)
-description: The get_currentMedia method retrieves a pointer to an IWMPMedia interface corresponding to the current media item.
+description: The get_currentMedia method retrieves a pointer to an IWMPMedia interface corresponding to the current media item.helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_currentMedia method","IWMPCore.get_currentMedia","IWMPCore::get_currentMedia","IWMPCoreget_currentMedia","get_currentMedia","get_currentMedia method [Windows Media Player]","get_currentMedia method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_get_currentmedia","wmp/IWMPCore::get_currentMedia"]
 old-location: wmp\iwmpcore_get_currentmedia.htm
 tech.root: WMP
 ms.assetid: 4f199336-0555-40de-8d27-780b05ef9510

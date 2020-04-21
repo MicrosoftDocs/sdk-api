@@ -1,7 +1,7 @@
 ---
 UID: NE:sdoias._RADIUSSERVERGROUPPROPERTIES
 title: RADIUSSERVERGROUPPROPERTIES (sdoias.h)
-description: The values in the RADIUSSERVERGROUPPROPERTIES enumeration type enumerate properties of a RADIUS server group.
+description: The values in the RADIUSSERVERGROUPPROPERTIES enumeration type enumerate properties of a RADIUS server group.helpviewer_keywords: ["PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION","RADIUSSERVERGROUPPROPERTIES","RADIUSSERVERGROUPPROPERTIES enumeration [Network Policy Server]","_sdo_radiusservergroupproperties","nps.SDO_radiusservergroupproperties","sdo.radiusservergroupproperties","sdoias/PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION","sdoias/RADIUSSERVERGROUPPROPERTIES"]
 old-location: nps\SDO_radiusservergroupproperties.htm
 tech.root: Nps
 ms.assetid: b78aacfb-2e79-4c25-bc0c-acecb1a12993

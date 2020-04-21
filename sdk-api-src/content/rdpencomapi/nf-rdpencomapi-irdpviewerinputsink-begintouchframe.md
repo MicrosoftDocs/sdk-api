@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.BeginTouchFrame
 title: IRDPViewerInputSink::BeginTouchFrame (rdpencomapi.h)
-description: Begins to accept a series of touch inputs.
+description: Begins to accept a series of touch inputs.helpviewer_keywords: ["BeginTouchFrame","BeginTouchFrame method [RDP]","BeginTouchFrame method [RDP]","IRDPViewerInputSink interface","IRDPViewerInputSink interface [RDP]","BeginTouchFrame method","IRDPViewerInputSink.BeginTouchFrame","IRDPViewerInputSink::BeginTouchFrame","rdp.irdpviewerinputsink_begintouchframe","rdpencomapi/IRDPViewerInputSink::BeginTouchFrame"]
 old-location: rdp\irdpviewerinputsink_begintouchframe.htm
 tech.root: rdp
 ms.assetid: DCB67D63-A866-4D98-907B-6CDB7EB56312

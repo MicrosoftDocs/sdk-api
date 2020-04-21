@@ -1,7 +1,7 @@
 ---
 UID: NF:evr9.IEVRVideoStreamControl.GetStreamActiveState
 title: IEVRVideoStreamControl::GetStreamActiveState (evr9.h)
-description: IEVRVideoStreamControl::GetStreamActiveState method
+description: IEVRVideoStreamControl::GetStreamActiveState methodhelpviewer_keywords: ["GetStreamActiveState","GetStreamActiveState method [Media Foundation]","GetStreamActiveState method [Media Foundation]","IEVRVideoStreamControl interface","IEVRVideoStreamControl interface [Media Foundation]","GetStreamActiveState method","IEVRVideoStreamControl.GetStreamActiveState","IEVRVideoStreamControl::GetStreamActiveState","d4ca1da7-7768-45b4-a0be-f3ef86fed7b9","evr9/IEVRVideoStreamControl::GetStreamActiveState","mf.ievrvideostreamcontrol_getstreamactivestate"]
 old-location: mf\ievrvideostreamcontrol_getstreamactivestate.htm
 tech.root: medfound
 ms.assetid: d4ca1da7-7768-45b4-a0be-f3ef86fed7b9

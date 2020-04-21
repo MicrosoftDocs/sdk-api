@@ -1,7 +1,7 @@
 ---
 UID: NF:richole.IRichEditOleCallback.GetContextMenu
 title: IRichEditOleCallback::GetContextMenu (richole.h)
-description: Queries the application for a context menu to use on a right-click event.
+description: Queries the application for a context menu to use on a right-click event.helpviewer_keywords: ["GCM_RIGHTMOUSEDROP","GetContextMenu","GetContextMenu method [Windows Controls]","GetContextMenu method [Windows Controls]","IRichEditOleCallback interface","IRichEditOleCallback interface [Windows Controls]","GetContextMenu method","IRichEditOleCallback.GetContextMenu","IRichEditOleCallback::GetContextMenu","SEL_EMPTY","SEL_MULTICHAR","SEL_MULTIOBJECT","SEL_OBJECT","SEL_TEXT","_win32_IRichEditOleCallback_GetContextMenu","_win32_IRichEditOleCallback_GetContextMenu_cpp","controls.IRichEditOleCallback_GetContextMenu","controls._win32_IRichEditOleCallback_GetContextMenu","richole/IRichEditOleCallback::GetContextMenu"]
 old-location: controls\IRichEditOleCallback_GetContextMenu.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetcontextmenu.htm

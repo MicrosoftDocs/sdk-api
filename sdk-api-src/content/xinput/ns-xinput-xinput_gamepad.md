@@ -1,7 +1,7 @@
 ---
 UID: NS:xinput._XINPUT_GAMEPAD
 title: XINPUT_GAMEPAD (xinput.h)
-description: Describes the current state of the Xbox 360 Controller.
+description: Describes the current state of the Xbox 360 Controller.helpviewer_keywords: ["*PXINPUT_GAMEPAD","PXINPUT_GAMEPAD","PXINPUT_GAMEPAD structure pointer [XInput Game Controller APIs]","XINPUT_GAMEPAD","XINPUT_GAMEPAD structure [XInput Game Controller APIs]","xinput.xinput_gamepad","xinput/PXINPUT_GAMEPAD","xinput/XINPUT_GAMEPAD"]
 old-location: xinput\xinput_gamepad.htm
 tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_GAMEPAD

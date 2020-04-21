@@ -1,7 +1,7 @@
 ---
 UID: NN:gpmgmt.IGPMBackup
 title: IGPMBackup (gpmgmt.h)
-description: The IGPMBackup interface supports methods that allow you to delete GPMBackup objects and to retrieve various properties of GPMBackup objects.
+description: The IGPMBackup interface supports methods that allow you to delete GPMBackup objects and to retrieve various properties of GPMBackup objects.helpviewer_keywords: ["GPMBackup","IGPMBackup","IGPMBackup interface [GPMC]","IGPMBackup interface [GPMC]","described","_win32_igpmbackup","gpmc.igpmbackup","gpmgmt/IGPMBackup"]
 old-location: gpmc\igpmbackup.htm
 tech.root: gpmc
 ms.assetid: a593740a-9541-465a-9a2d-64ddf29793bf

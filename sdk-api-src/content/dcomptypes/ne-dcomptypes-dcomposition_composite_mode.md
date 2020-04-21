@@ -1,7 +1,7 @@
 ---
 UID: NE:dcomptypes.DCOMPOSITION_COMPOSITE_MODE
 title: DCOMPOSITION_COMPOSITE_MODE (dcomptypes.h)
-description: The mode to use to blend the bitmap content of a visual with the render target.
+description: The mode to use to blend the bitmap content of a visual with the render target.helpviewer_keywords: ["DCOMPOSITION_COMPOSITE_MODE","DCOMPOSITION_COMPOSITE_MODE enumeration [DirectComposition]","DCOMPOSITION_COMPOSITE_MODE_DESTINATION_INVERT","DCOMPOSITION_COMPOSITE_MODE_INHERIT","DCOMPOSITION_COMPOSITE_MODE_MIN_BLEND","DCOMPOSITION_COMPOSITE_MODE_SOURCE_OVER","dcomptypes/DCOMPOSITION_COMPOSITE_MODE","dcomptypes/DCOMPOSITION_COMPOSITE_MODE_DESTINATION_INVERT","dcomptypes/DCOMPOSITION_COMPOSITE_MODE_INHERIT","dcomptypes/DCOMPOSITION_COMPOSITE_MODE_MIN_BLEND","dcomptypes/DCOMPOSITION_COMPOSITE_MODE_SOURCE_OVER","directcomp.dcomposition_composite_mode"]
 old-location: directcomp\dcomposition_composite_mode.htm
 tech.root: directcomp
 ms.assetid: D89379F5-57F8-4838-8E8F-FF261D69DE59

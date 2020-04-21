@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_HostedProvider
 title: MI_HostedProvider (mi.h)
-description: Represents the hosting of a provider in a client application.
+description: Represents the hosting of a provider in a client application.helpviewer_keywords: ["MI_HostedProvider","MI_HostedProvider structure [Windows Management Infrastructure (MI)]","mi/MI_HostedProvider","wmi_v2.mi_hostedprovider"]
 old-location: wmi_v2\mi_hostedprovider.htm
 tech.root: wmi_v2
 ms.assetid: e63283b4-82eb-4bf4-a2f8-f7db29ccb6da

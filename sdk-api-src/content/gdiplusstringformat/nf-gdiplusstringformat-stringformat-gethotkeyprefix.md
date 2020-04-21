@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetHotkeyPrefix
 title: StringFormat::GetHotkeyPrefix (gdiplusstringformat.h)
-description: The StringFormat::GetHotkeyPrefix method gets an element of the HotkeyPrefix enumeration that indicates the type of processing that is performed on a string when a hot key prefix, an ampersand (&), is encountered.
+description: The StringFormat::GetHotkeyPrefix method gets an element of the HotkeyPrefix enumeration that indicates the type of processing that is performed on a string when a hot key prefix, an ampersand (&), is encountered.helpviewer_keywords: ["GetHotkeyPrefix","GetHotkeyPrefix method [GDI+]","GetHotkeyPrefix method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetHotkeyPrefix method","StringFormat.GetHotkeyPrefix","StringFormat::GetHotkeyPrefix","_gdiplus_CLASS_StringFormat_GetHotkeyPrefix_","gdiplus._gdiplus_CLASS_StringFormat_GetHotkeyPrefix_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetHotkeyPrefix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gethotkeyprefix.htm

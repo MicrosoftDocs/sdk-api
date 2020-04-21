@@ -1,7 +1,7 @@
 ---
 UID: NF:interactioncontext.RegisterOutputCallbackInteractionContext
 title: RegisterOutputCallbackInteractionContext function (interactioncontext.h)
-description: Registers a callback to receive interaction events from an Interaction Context object.
+description: Registers a callback to receive interaction events from an Interaction Context object.helpviewer_keywords: ["RegisterOutputCallbackInteractionContext","RegisterOutputCallbackInteractionContext function","input_intcontext.registeroutputcallbackinteractioncontext","interactioncontext.registeroutputcallbackinteractioncontext","interactioncontext/RegisterOutputCallbackInteractionContext"]
 old-location: input_intcontext\registeroutputcallbackinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 87000250-f225-4864-96d2-1e189f5be1a3

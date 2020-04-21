@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.ICSetStatusProc
 title: ICSetStatusProc function (vfw.h)
-description: The ICSetStatusProc function sends the address of a status callback function to a compressor. The compressor calls this function during lengthy operations.
+description: The ICSetStatusProc function sends the address of a status callback function to a compressor. The compressor calls this function during lengthy operations.helpviewer_keywords: ["ICSetStatusProc","ICSetStatusProc function [Windows Multimedia]","_win32_ICSetStatusProc","multimedia.icsetstatusproc","vfw/ICSetStatusProc"]
 old-location: multimedia\icsetstatusproc.htm
 tech.root: Multimedia
 ms.assetid: 1e59a5ae-ac59-45fd-b80a-1908f1bf0d5e

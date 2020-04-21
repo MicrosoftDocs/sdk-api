@@ -1,7 +1,7 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerInvokeInteractiveUI
 title: EapHostPeerInvokeInteractiveUI function (eaphostpeerconfigapis.h)
-description: Raises an interactive user interface used to get credentials from the user.
+description: Raises an interactive user interface used to get credentials from the user.helpviewer_keywords: ["EapHostPeerInvokeInteractiveUI","EapHostPeerInvokeInteractiveUI function [EAPHost]","eaphost.eaphostpeerinvokeinteractiveui","eaphostpeerconfigapis/EapHostPeerInvokeInteractiveUI"]
 old-location: eaphost\eaphostpeerinvokeinteractiveui.htm
 tech.root: eaphost
 ms.assetid: a4a46b77-f8ab-4062-b966-1590ea9e46d2

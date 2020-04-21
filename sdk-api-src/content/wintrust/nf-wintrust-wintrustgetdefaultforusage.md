@@ -1,7 +1,7 @@
 ---
 UID: NF:wintrust.WintrustGetDefaultForUsage
 title: WintrustGetDefaultForUsage function (wintrust.h)
-description: Retrieves the default usage identifier and callback information.
+description: Retrieves the default usage identifier and callback information.helpviewer_keywords: ["DWACTION_ALLOCANDFILL","DWACTION_FREE","WintrustGetDefaultForUsage","WintrustGetDefaultForUsage function [Security]","security.wintrustgetdefaultforusage","wintrust/WintrustGetDefaultForUsage"]
 old-location: security\wintrustgetdefaultforusage.htm
 tech.root: SecCrypto
 ms.assetid: B2ED5489-792F-4B00-A21E-EE1B1462D1C8

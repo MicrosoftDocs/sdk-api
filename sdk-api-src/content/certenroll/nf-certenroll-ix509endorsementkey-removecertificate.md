@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.RemoveCertificate
 title: IX509EndorsementKey::RemoveCertificate (certenroll.h)
-description: Removes an endorsement certificate related to the endorsement key from the key storage provider. You can only call the RemoveCertificate method after the Open method has been successfully called.
+description: Removes an endorsement certificate related to the endorsement key from the key storage provider. You can only call the RemoveCertificate method after the Open method has been successfully called.helpviewer_keywords: ["IX509EndorsementKey interface [Security]","RemoveCertificate method","IX509EndorsementKey.RemoveCertificate","IX509EndorsementKey::RemoveCertificate","RemoveCertificate","RemoveCertificate method [Security]","RemoveCertificate method [Security]","IX509EndorsementKey interface","certenroll/IX509EndorsementKey::RemoveCertificate","security.ix509endorsementkey_removecertificate"]
 old-location: security\ix509endorsementkey_removecertificate.htm
 tech.root: seccertenroll
 ms.assetid: 40c5d77c-9b0d-4ee4-a02e-cec9b2f1b392

@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._JOBOBJECT_BASIC_ACCOUNTING_INFORMATION
 title: JOBOBJECT_BASIC_ACCOUNTING_INFORMATION (winnt.h)
-description: Contains basic accounting information for a job object.
+description: Contains basic accounting information for a job object.helpviewer_keywords: ["*PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION","JOBOBJECT_BASIC_ACCOUNTING_INFORMATION","JOBOBJECT_BASIC_ACCOUNTING_INFORMATION structure","PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION","PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION structure pointer","_JOBOBJECT_BASIC_ACCOUNTING_INFORMATION","_win32_jobobject_basic_accounting_information_str","base.jobobject_basic_accounting_information_str","winnt/JOBOBJECT_BASIC_ACCOUNTING_INFORMATION","winnt/PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION"]
 old-location: base\jobobject_basic_accounting_information_str.htm
 tech.root: ProcThread
 ms.assetid: 84dbe191-a5bf-4f55-815f-c4f2e60da22b

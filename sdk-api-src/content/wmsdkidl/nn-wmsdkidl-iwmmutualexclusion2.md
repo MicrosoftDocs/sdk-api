@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMMutualExclusion2
 title: IWMMutualExclusion2 (wmsdkidl.h)
-description: The IWMMutualExclusion2 interface provides advanced configuration features for mutual exclusion objects.This interface supports both multiple languages and advanced mutual exclusion.An IWMMutualExclusion2 interface is created for each mutual exclusion object created. To retrieve a pointer to an IWMMutualExclusion2 interface, call the QueryInterface method of the IWMMutualExclusion interface returned by IWMProfile::CreateNewMutualExclusion.
+description: The IWMMutualExclusion2 interface provides advanced configuration features for mutual exclusion objects.This interface supports both multiple languages and advanced mutual exclusion.An IWMMutualExclusion2 interface is created for each mutual exclusion object created. To retrieve a pointer to an IWMMutualExclusion2 interface, call the QueryInterface method of the IWMMutualExclusion interface returned by IWMProfile::CreateNewMutualExclusion.helpviewer_keywords: ["IWMMutualExclusion2","IWMMutualExclusion2 interface [windows Media Format]","IWMMutualExclusion2 interface [windows Media Format]","described","IWMMutualExclusion2Interface","wmformat.iwmmutualexclusion2","wmsdkidl/IWMMutualExclusion2"]
 old-location: wmformat\iwmmutualexclusion2.htm
 tech.root: wmformat
 ms.assetid: 4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf

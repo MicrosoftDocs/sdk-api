@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetOutputStreamState
 title: IMFDeviceTransform::GetOutputStreamState (mftransform.h)
-description: The GetOutputStreamState method gets the Device MFT’s output stream state.
+description: The GetOutputStreamState method gets the Device MFT’s output stream state.helpviewer_keywords: ["GetOutputStreamState","GetOutputStreamState method [Streaming Media Devices]","GetOutputStreamState method [Streaming Media Devices]","IMFDeviceTransform interface","IMFDeviceTransform interface [Streaming Media Devices]","GetOutputStreamState method","IMFDeviceTransform.GetOutputStreamState","IMFDeviceTransform::GetOutputStreamState","mftransform/IMFDeviceTransform::GetOutputStreamState","stream.imfdevicetransform_getoutputstreamstate"]
 old-location: stream\imfdevicetransform_getoutputstreamstate.htm
 tech.root: stream
 ms.assetid: A79FC296-7D18-4C74-97E0-F37475AB90D5

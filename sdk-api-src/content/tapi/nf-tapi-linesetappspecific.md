@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineSetAppSpecific
 title: lineSetAppSpecific function (tapi.h)
-description: The lineSetAppSpecific function enables an application to set the application-specific field of the specified call's call-information record.
+description: The lineSetAppSpecific function enables an application to set the application-specific field of the specified call's call-information record.helpviewer_keywords: ["_tapi2_linesetappspecific","lineSetAppSpecific","lineSetAppSpecific function [TAPI 2.2]","tapi/lineSetAppSpecific","tapi2.linesetappspecific"]
 old-location: tapi2\linesetappspecific.htm
 tech.root: Tapi
 ms.assetid: b7d51f62-3b19-4961-8d4c-a44dc8498f14

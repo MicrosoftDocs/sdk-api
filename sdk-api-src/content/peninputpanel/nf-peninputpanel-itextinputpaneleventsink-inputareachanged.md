@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InputAreaChanged
 title: ITextInputPanelEventSink::InputAreaChanged (peninputpanel.h)
-description: Occurs when the input area has changed on the Tablet PC Input Panel.
+description: Occurs when the input area has changed on the Tablet PC Input Panel.helpviewer_keywords: ["ITextInputPanelEventSink interface [Tablet PC]","InputAreaChanged method","ITextInputPanelEventSink.InputAreaChanged","ITextInputPanelEventSink::InputAreaChanged","InputAreaChanged","InputAreaChanged method [Tablet PC]","InputAreaChanged method [Tablet PC]","ITextInputPanelEventSink interface","b30eaa39-a1f7-4c50-992f-11030bb175f9","peninputpanel/ITextInputPanelEventSink::InputAreaChanged","tablet.itextinputpaneleventsink_inputareachanged"]
 old-location: tablet\itextinputpaneleventsink_inputareachanged.htm
 tech.root: tablet
 ms.assetid: b30eaa39-a1f7-4c50-992f-11030bb175f9

@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT0_
 title: FWPM_NET_EVENT0 (fwpmtypes.h)
-description: Contains information about all event types.
+description: Contains information about all event types.helpviewer_keywords: ["FWPM_NET_EVENT0","FWPM_NET_EVENT0 structure [Filtering]","fwp.fwpm_net_event0","fwpmtypes/FWPM_NET_EVENT0"]
 old-location: fwp\fwpm_net_event0.htm
 tech.root: fwp
 ms.assetid: 91e15135-49b8-497e-8f09-984e9af64dbe

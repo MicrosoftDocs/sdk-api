@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_AUTH_SECURITY_BINDING
 title: WS_HTTP_HEADER_AUTH_SECURITY_BINDING (webservices.h)
-description: The security binding subtype for specifying the use of HTTP header authentication against a target service or a HTTP proxy server based on the basic, digest (RFC 2617) and the SPNEGO (RFC4559) protocols.
+description: The security binding subtype for specifying the use of HTTP header authentication against a target service or a HTTP proxy server based on the basic, digest (RFC 2617) and the SPNEGO (RFC4559) protocols.helpviewer_keywords: ["WS_HTTP_HEADER_AUTH_SECURITY_BINDING","WS_HTTP_HEADER_AUTH_SECURITY_BINDING structure [Web Services for Windows]","webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING","wsw.ws_http_header_auth_security_binding"]
 old-location: wsw\ws_http_header_auth_security_binding.htm
 tech.root: wsw
 ms.assetid: c6ca6760-a927-470f-9785-7500d1711902

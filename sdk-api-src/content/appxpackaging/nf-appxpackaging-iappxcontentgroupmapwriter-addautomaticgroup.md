@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupMapWriter.AddAutomaticGroup
 title: IAppxContentGroupMapWriter::AddAutomaticGroup (appxpackaging.h)
-description: Adds an automatic content group to the content group map.
+description: Adds an automatic content group to the content group map.helpviewer_keywords: ["AddAutomaticGroup","AddAutomaticGroup method [App packaging and management]","AddAutomaticGroup method [App packaging and management]","IAppxContentGroupMapWriter interface","IAppxContentGroupMapWriter interface [App packaging and management]","AddAutomaticGroup method","IAppxContentGroupMapWriter.AddAutomaticGroup","IAppxContentGroupMapWriter::AddAutomaticGroup","appxpackaging/IAppxContentGroupMapWriter::AddAutomaticGroup","appxpkg.iappxcontentgroupmapwriter_addautomaticgroup"]
 old-location: appxpkg\iappxcontentgroupmapwriter_addautomaticgroup.htm
 tech.root: appxpkg
 ms.assetid: 7CF0A38A-D557-417B-A863-0E5AA346B55C

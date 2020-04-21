@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IMediaFilter
 title: IMediaFilter (strmif.h)
-description: The IMediaFilter interface controls the streaming state of a filter.All DirectShow filters implement this interface.
+description: The IMediaFilter interface controls the streaming state of a filter.All DirectShow filters implement this interface.helpviewer_keywords: ["IMediaFilter","IMediaFilter interface [DirectShow]","IMediaFilter interface [DirectShow]","described","IMediaFilterInterface","dshow.imediafilter","strmif/IMediaFilter"]
 old-location: dshow\imediafilter.htm
 tech.root: DirectShow
 ms.assetid: 5c0060e8-a9e5-4141-a38d-9a1bc55cc91b

@@ -1,7 +1,7 @@
 ---
 UID: NC:ddrawint.PDD_WAITFORVERTICALBLANK
 title: PDD_WAITFORVERTICALBLANK (ddrawint.h)
-description: The DdWaitForVerticalBlank callback function returns the vertical blank status of the device.
+description: The DdWaitForVerticalBlank callback function returns the vertical blank status of the device.helpviewer_keywords: ["DdWaitForVerticalBlank","DdWaitForVerticalBlank callback function [Display Devices]","PDD_WAITFORVERTICALBLANK","PDD_WAITFORVERTICALBLANK callback","ddfncs_ed0f04a7-78e9-4ecc-80a6-95127dc28aed.xml","ddrawint/DdWaitForVerticalBlank","display.ddwaitforverticalblank"]
 old-location: display\ddwaitforverticalblank.htm
 tech.root: display
 ms.assetid: 0eeeed70-bfda-45c0-8709-29e97ab0c5a9

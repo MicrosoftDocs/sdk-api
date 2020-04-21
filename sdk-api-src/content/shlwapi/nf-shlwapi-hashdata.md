@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.HashData
 title: HashData function (shlwapi.h)
-description: Hashes an array of data.
+description: Hashes an array of data.helpviewer_keywords: ["HashData","HashData function [Windows Shell]","_win32_HashData","shell.HashData","shlwapi/HashData"]
 old-location: shell\HashData.htm
 tech.root: shell
 ms.assetid: 7b42b3ae-c021-49be-b5a7-d3bc0a5d346a

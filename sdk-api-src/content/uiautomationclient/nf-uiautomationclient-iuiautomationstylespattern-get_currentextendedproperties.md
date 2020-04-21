@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentExtendedProperties
 title: IUIAutomationStylesPattern::get_CurrentExtendedProperties (uiautomationclient.h)
-description: Retrieves a localized string that contains the list of extended properties for an element in a document.
+description: Retrieves a localized string that contains the list of extended properties for an element in a document.helpviewer_keywords: ["CurrentExtendedProperties property [Windows Accessibility]","CurrentExtendedProperties property [Windows Accessibility]","IUIAutomationStylesPattern interface","IUIAutomationStylesPattern interface [Windows Accessibility]","CurrentExtendedProperties property","IUIAutomationStylesPattern.CurrentExtendedProperties","IUIAutomationStylesPattern.get_CurrentExtendedProperties","IUIAutomationStylesPattern::CurrentExtendedProperties","IUIAutomationStylesPattern::get_CurrentExtendedProperties","get_CurrentExtendedProperties","uiautomationclient/IUIAutomationStylesPattern::CurrentExtendedProperties","uiautomationclient/IUIAutomationStylesPattern::get_CurrentExtendedProperties","winauto.iuiautomationstylespattern_currentextendedproperties"]
 old-location: winauto\iuiautomationstylespattern_currentextendedproperties.htm
 tech.root: WinAuto
 ms.assetid: E0D643A5-92C5-4307-88A9-8CC13903D976

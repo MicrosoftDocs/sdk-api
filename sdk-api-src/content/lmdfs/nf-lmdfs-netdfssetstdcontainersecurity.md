@@ -1,7 +1,7 @@
 ---
 UID: NF:lmdfs.NetDfsSetStdContainerSecurity
 title: NetDfsSetStdContainerSecurity function (lmdfs.h)
-description: Sets the security descriptor for the container object of the specified stand-alone DFS namespace.
+description: Sets the security descriptor for the container object of the specified stand-alone DFS namespace.helpviewer_keywords: ["NetDfsSetStdContainerSecurity","NetDfsSetStdContainerSecurity function [Distributed File System]","dfs.netdfssetstdcontainersecurity","fs.netdfssetstdcontainersecurity","lmdfs/NetDfsSetStdContainerSecurity","netmgmt.netdfssetstdcontainersecurity"]
 old-location: dfs\netdfssetstdcontainersecurity.htm
 tech.root: Dfs
 ms.assetid: bc408a12-5106-45a0-bbed-0468d51708bc

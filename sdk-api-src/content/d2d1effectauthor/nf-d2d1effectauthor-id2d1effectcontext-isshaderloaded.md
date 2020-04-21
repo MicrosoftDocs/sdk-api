@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.IsShaderLoaded
 title: ID2D1EffectContext::IsShaderLoaded (d2d1effectauthor.h)
-description: This tests to see if the given shader is loaded.
+description: This tests to see if the given shader is loaded.helpviewer_keywords: ["ID2D1EffectContext interface [Direct2D]","IsShaderLoaded method","ID2D1EffectContext.IsShaderLoaded","ID2D1EffectContext::IsShaderLoaded","IsShaderLoaded","IsShaderLoaded method [Direct2D]","IsShaderLoaded method [Direct2D]","ID2D1EffectContext interface","d2d1effectauthor/ID2D1EffectContext::IsShaderLoaded","direct2d.id2d1contextinternal_isresourceloaded"]
 old-location: direct2d\id2d1contextinternal_isresourceloaded.htm
 tech.root: Direct2D
 ms.assetid: 9B923E7A-FF71-4575-880F-FA6AB6C9F366

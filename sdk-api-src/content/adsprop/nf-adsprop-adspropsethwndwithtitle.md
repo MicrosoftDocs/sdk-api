@@ -1,7 +1,7 @@
 ---
 UID: NF:adsprop.ADsPropSetHwndWithTitle
 title: ADsPropSetHwndWithTitle function (adsprop.h)
-description: Used to notify the notification object of the property page window handle.
+description: Used to notify the notification object of the property page window handle.helpviewer_keywords: ["ADsPropSetHwndWithTitle","ADsPropSetHwndWithTitle function [Active Directory]","ad.adspropsethwndwithtitle","adsprop/ADsPropSetHwndWithTitle"]
 old-location: ad\adspropsethwndwithtitle.htm
 tech.root: ad
 ms.assetid: d0d26f32-1c15-4641-bdeb-0f464a510669

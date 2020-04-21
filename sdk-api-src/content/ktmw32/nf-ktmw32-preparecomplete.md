@@ -1,7 +1,7 @@
 ---
 UID: NF:ktmw32.PrepareComplete
 title: PrepareComplete function (ktmw32.h)
-description: Indicates that the resource manager (RM) has completed all processing necessary to guarantee that a commit or abort operation will succeed for the specified transaction.
+description: Indicates that the resource manager (RM) has completed all processing necessary to guarantee that a commit or abort operation will succeed for the specified transaction.helpviewer_keywords: ["PrepareComplete","PrepareComplete function [Files]","fs.preparecomplete","ktmw32/PrepareComplete"]
 old-location: fs\preparecomplete.htm
 tech.root: ktm
 ms.assetid: 47488c70-3409-4544-bcca-3415f91e7194

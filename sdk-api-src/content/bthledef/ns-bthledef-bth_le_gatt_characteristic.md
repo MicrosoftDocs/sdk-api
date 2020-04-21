@@ -1,7 +1,7 @@
 ---
 UID: NS:bthledef._BTH_LE_GATT_CHARACTERISTIC
 title: BTH_LE_GATT_CHARACTERISTIC (bthledef.h)
-description: The BTH_LE_GATT_CHARACTERISTIC structure describes a Bluetooth Low Energy (LE) generic attribute (GATT) profile characteristic.
+description: The BTH_LE_GATT_CHARACTERISTIC structure describes a Bluetooth Low Energy (LE) generic attribute (GATT) profile characteristic.helpviewer_keywords: ["*PBTH_LE_GATT_CHARACTERISTIC","BTH_LE_GATT_CHARACTERISTIC","BTH_LE_GATT_CHARACTERISTIC structure [Bluetooth Devices]","PBTH_LE_GATT_CHARACTERISTIC","PBTH_LE_GATT_CHARACTERISTIC structure pointer [Bluetooth Devices]","bltooth.bth_le_gatt_characteristic","bthledef/BTH_LE_GATT_CHARACTERISTIC","bthledef/PBTH_LE_GATT_CHARACTERISTIC"]
 old-location: bltooth\bth_le_gatt_characteristic.htm
 tech.root: bltooth
 ms.assetid: BE96F588-28C5-46C8-AFC9-852D940051F2

@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1.D2D1_TRIANGLE
 title: D2D1_TRIANGLE (d2d1.h)
-description: Contains the three vertices that describe a triangle.
+description: Contains the three vertices that describe a triangle.helpviewer_keywords: ["D2D1_TRIANGLE","D2D1_TRIANGLE structure [Direct2D]","d2d1/D2D1_TRIANGLE","direct2d.D2D1_TRIANGLE"]
 old-location: direct2d\D2D1_TRIANGLE.htm
 tech.root: Direct2D
 ms.assetid: 6978bfff-05ca-44b6-8694-c4741f7987f6

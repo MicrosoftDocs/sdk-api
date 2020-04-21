@@ -1,7 +1,7 @@
 ---
 UID: NF:winternl.NtQueryMultipleValueKey
 title: NtQueryMultipleValueKey function (winternl.h)
-description: Retrieves values for the specified multiple-value key.
+description: Retrieves values for the specified multiple-value key.helpviewer_keywords: ["NtQueryMultipleValueKey","NtQueryMultipleValueKey function [Windows API]","base.ntquerymultiplevaluekey","winprog.ntquerymultiplevaluekey","winternl/NtQueryMultipleValueKey"]
 old-location: winprog\ntquerymultiplevaluekey.htm
 tech.root: DevNotes
 ms.assetid: fe78446c-b936-4ded-846a-f3ca26eff06e

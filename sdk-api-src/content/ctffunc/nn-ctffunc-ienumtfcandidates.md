@@ -1,7 +1,7 @@
 ---
 UID: NN:ctffunc.IEnumTfCandidates
 title: IEnumTfCandidates (ctffunc.h)
-description: The IEnumTfCandidates interface is implemented by a text service and used by the TSF manager to provide an enumeration of candidate string objects.
+description: The IEnumTfCandidates interface is implemented by a text service and used by the TSF manager to provide an enumeration of candidate string objects.helpviewer_keywords: ["IEnumTfCandidates","IEnumTfCandidates interface [Text Services Framework]","IEnumTfCandidates interface [Text Services Framework]","described","_tsf_ienumtfcandidates_ref","ctffunc/IEnumTfCandidates","tsf.ienumtfcandidates"]
 old-location: tsf\ienumtfcandidates.htm
 tech.root: TSF
 ms.assetid: 4daef7e9-e5ab-4eb8-acb6-a475b84d4de6

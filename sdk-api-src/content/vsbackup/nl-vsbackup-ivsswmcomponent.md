@@ -1,7 +1,7 @@
 ---
 UID: NL:vsbackup.IVssWMComponent
 title: IVssWMComponent (vsbackup.h)
-description: The IVssWMComponent is a C++ (not COM) interface that allows access to component information stored in a Writer Metadata Document.
+description: The IVssWMComponent is a C++ (not COM) interface that allows access to component information stored in a Writer Metadata Document.helpviewer_keywords: ["IVssWMComponent","IVssWMComponent interface [VSS]","IVssWMComponent interface [VSS]","described","_win32_ivsswmcomponent","base.ivsswmcomponent","vsbackup/IVssWMComponent"]
 old-location: base\ivsswmcomponent.htm
 tech.root: VSS
 ms.assetid: 8567ca7f-dc50-4cf2-b3c1-a2ae8d55dc95

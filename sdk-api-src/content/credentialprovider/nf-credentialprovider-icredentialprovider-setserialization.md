@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.SetSerialization
 title: ICredentialProvider::SetSerialization (credentialprovider.h)
-description: Sets the serialization characteristics of the credential provider.
+description: Sets the serialization characteristics of the credential provider.helpviewer_keywords: ["ICredentialProvider interface [Windows Shell]","SetSerialization method","ICredentialProvider.SetSerialization","ICredentialProvider::SetSerialization","SetSerialization","SetSerialization method [Windows Shell]","SetSerialization method [Windows Shell]","ICredentialProvider interface","_shell_ICredentialProvider_SetSerialization","credentialprovider/ICredentialProvider::SetSerialization","shell.ICredentialProvider_SetSerialization"]
 old-location: shell\ICredentialProvider_SetSerialization.htm
 tech.root: shell
 ms.assetid: eeeaa3b8-ad0f-4d31-bdd1-646b0e33b7cd

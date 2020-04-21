@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DrawingStateBlock1.GetDescription
 title: ID2D1DrawingStateBlock1::GetDescription (d2d1_1.h)
-description: Gets the antialiasing mode, transform, tags, primitive blend, and unit mode portion of the drawing state.
+description: Gets the antialiasing mode, transform, tags, primitive blend, and unit mode portion of the drawing state.helpviewer_keywords: ["GetDescription","GetDescription method [Direct2D]","GetDescription method [Direct2D]","ID2D1DrawingStateBlock1 interface","ID2D1DrawingStateBlock1 interface [Direct2D]","GetDescription method","ID2D1DrawingStateBlock1.GetDescription","ID2D1DrawingStateBlock1::GetDescription","d2d1_1/ID2D1DrawingStateBlock1::GetDescription","direct2d.id2d1drawingstateblock1_getdescription1"]
 old-location: direct2d\id2d1drawingstateblock1_getdescription1.htm
 tech.root: Direct2D
 ms.assetid: F3A66B9F-0C95-4CFA-AA44-A50891545E31

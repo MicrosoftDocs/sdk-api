@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio.WinBioVerify
 title: WinBioVerify function (winbio.h)
-description: Captures a biometric sample and determines whether the sample corresponds to the specified user identity. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
+description: Captures a biometric sample and determines whether the sample corresponds to the specified user identity. Starting with Windows 10, build 1607, this function is available to use with a mobile image.helpviewer_keywords: ["WinBioVerify","WinBioVerify function [Windows Biometric Framework API]","secbiomet.winbioverify","winbio/WinBioVerify"]
 old-location: secbiomet\winbioverify.htm
 tech.root: SecBioMet
 ms.assetid: 7266ca33-d3f9-421f-8265-e23a3ec3a77e

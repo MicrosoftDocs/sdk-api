@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.MFCreateSourceReaderFromByteStream
 title: MFCreateSourceReaderFromByteStream function (mfreadwrite.h)
-description: Creates the source reader from a byte stream.
+description: Creates the source reader from a byte stream.helpviewer_keywords: ["MFCreateSourceReaderFromByteStream","MFCreateSourceReaderFromByteStream function [Media Foundation]","mf.mfcreatesourcereaderfrombytestream","mfreadwrite/MFCreateSourceReaderFromByteStream"]
 old-location: mf\mfcreatesourcereaderfrombytestream.htm
 tech.root: medfound
 ms.assetid: e167159d-902c-4c34-b5f0-eb764fe2de1c

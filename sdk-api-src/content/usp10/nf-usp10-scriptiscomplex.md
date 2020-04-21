@@ -1,7 +1,7 @@
 ---
 UID: NF:usp10.ScriptIsComplex
 title: ScriptIsComplex function (usp10.h)
-description: Determines whether a Unicode string requires complex script processing.
+description: Determines whether a Unicode string requires complex script processing.helpviewer_keywords: ["SIC_ASCIIDIGIT","SIC_COMPLEX","SIC_NEUTRAL","ScriptIsComplex","ScriptIsComplex function [Internationalization for Windows Applications]","_win32_ScriptIsComplex","intl.scriptiscomplex","usp10/ScriptIsComplex"]
 old-location: intl\scriptiscomplex.htm
 tech.root: Intl
 ms.assetid: 4f8c5494-1887-45f8-92f2-1a767a7d00da

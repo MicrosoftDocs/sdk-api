@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineAnswer
 title: lineAnswer function (tapi.h)
-description: The lineAnswer function answers the specified offering call.
+description: The lineAnswer function answers the specified offering call.helpviewer_keywords: ["_tapi2_lineanswer","lineAnswer","lineAnswer function [TAPI 2.2]","tapi/lineAnswer","tapi2.lineanswer"]
 old-location: tapi2\lineanswer.htm
 tech.root: Tapi
 ms.assetid: dd51991c-c044-4b88-8f97-9e0ae701a2a5

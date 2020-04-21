@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IBinaryConverter.StringToVariantByteArray
 title: IBinaryConverter::StringToVariantByteArray (certenroll.h)
-description: Creates a byte array from a Unicode encoded string.
+description: Creates a byte array from a Unicode encoded string.helpviewer_keywords: ["IBinaryConverter interface [Security]","StringToVariantByteArray method","IBinaryConverter.StringToVariantByteArray","IBinaryConverter::StringToVariantByteArray","StringToVariantByteArray","StringToVariantByteArray method [Security]","StringToVariantByteArray method [Security]","IBinaryConverter interface","certenroll/IBinaryConverter::StringToVariantByteArray","security.ibinaryconverter_stringtovariantbytearray_method"]
 old-location: security\ibinaryconverter_stringtovariantbytearray_method.htm
 tech.root: seccertenroll
 ms.assetid: b0d649f7-79a1-452c-a790-b6c05ccb84b0

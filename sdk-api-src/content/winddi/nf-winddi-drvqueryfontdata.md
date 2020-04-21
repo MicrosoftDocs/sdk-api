@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvQueryFontData
 title: DrvQueryFontData function (winddi.h)
-description: The DrvQueryFontData function retrieves information about a realized font.
+description: The DrvQueryFontData function retrieves information about a realized font.helpviewer_keywords: ["DrvQueryFontData","DrvQueryFontData function [Display Devices]","ddifncs_6992339b-a8e8-4bdf-b7a4-7a3087f62051.xml","display.drvqueryfontdata","winddi/DrvQueryFontData"]
 old-location: display\drvqueryfontdata.htm
 tech.root: display
 ms.assetid: 3f6efd3c-3ddf-4ce6-9527-730e01c45e74

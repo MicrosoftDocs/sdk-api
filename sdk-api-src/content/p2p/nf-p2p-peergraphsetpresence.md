@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerGraphSetPresence
 title: PeerGraphSetPresence function (p2p.h)
-description: The PeerGraphSetPresence function explicitly turns on or off the publication of presence records for a specific node.
+description: The PeerGraphSetPresence function explicitly turns on or off the publication of presence records for a specific node.helpviewer_keywords: ["PeerGraphSetPresence","PeerGraphSetPresence function [Peer Networking]","p2p.peergraphsetpresence","p2p/PeerGraphSetPresence"]
 old-location: p2p\peergraphsetpresence.htm
 tech.root: P2PSdk
 ms.assetid: f9d34fb0-4834-4fcf-ab44-e16c8114a3f4

@@ -1,7 +1,7 @@
 ---
 UID: NS:dxmini._DDGETPOLARITYOUTINFO
 title: DDGETPOLARITYOUTINFO (dxmini.h)
-description: The DDGETPOLARITYOUTINFO structure contains the polarity information of the video port extensions (VPE) object.
+description: The DDGETPOLARITYOUTINFO structure contains the polarity information of the video port extensions (VPE) object.helpviewer_keywords: ["*PDDGETPOLARITYOUTINFO","DDGETPOLARITYOUTINFO","DDGETPOLARITYOUTINFO structure [Display Devices]","PDDGETPOLARITYOUTINFO","PDDGETPOLARITYOUTINFO structure pointer [Display Devices]","Video_Structs_eec12c7a-29ad-4c50-b85e-a78342fcbd8a.xml","display.ddgetpolarityoutinfo","dxmini/DDGETPOLARITYOUTINFO","dxmini/PDDGETPOLARITYOUTINFO"]
 old-location: display\ddgetpolarityoutinfo.htm
 tech.root: display
 ms.assetid: 191d6c79-6f73-44f9-8016-912e4bb70453

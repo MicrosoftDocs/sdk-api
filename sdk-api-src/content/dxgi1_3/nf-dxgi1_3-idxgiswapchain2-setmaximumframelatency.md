@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.SetMaximumFrameLatency
 title: IDXGISwapChain2::SetMaximumFrameLatency (dxgi1_3.h)
-description: Sets the number of frames that the swap chain is allowed to queue for rendering.
+description: Sets the number of frames that the swap chain is allowed to queue for rendering.helpviewer_keywords: ["IDXGISwapChain2 interface [DXGI]","SetMaximumFrameLatency method","IDXGISwapChain2.SetMaximumFrameLatency","IDXGISwapChain2::SetMaximumFrameLatency","SetMaximumFrameLatency","SetMaximumFrameLatency method [DXGI]","SetMaximumFrameLatency method [DXGI]","IDXGISwapChain2 interface","direct3ddxgi.idxgiswapchain2_setmaximumframelatency","dxgi1_3/IDXGISwapChain2::SetMaximumFrameLatency"]
 old-location: direct3ddxgi\idxgiswapchain2_setmaximumframelatency.htm
 tech.root: direct3ddxgi
 ms.assetid: AF3F03F2-38B4-474A-8A66-86A93D776EA0

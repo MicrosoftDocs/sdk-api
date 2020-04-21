@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.FindAll
 title: IUIAutomationElement::FindAll (uiautomationclient.h)
-description: Returns all UI Automation elements that satisfy the specified condition.
+description: Returns all UI Automation elements that satisfy the specified condition.helpviewer_keywords: ["FindAll","FindAll method [Windows Accessibility]","FindAll method [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","FindAll method","IUIAutomationElement.FindAll","IUIAutomationElement::FindAll","uiauto.uiauto_IUIAutomationElement_FindAll","uiauto_IUIAutomationElement_FindAll","uiautomationclient/IUIAutomationElement::FindAll","winauto.uiauto_IUIAutomationElement_FindAll"]
 old-location: winauto\uiauto_IUIAutomationElement_FindAll.htm
 tech.root: WinAuto
 ms.assetid: ead73c6d-7fb8-4e00-b027-5d747268af08

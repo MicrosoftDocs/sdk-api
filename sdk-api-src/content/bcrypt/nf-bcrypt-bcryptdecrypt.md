@@ -2,6 +2,7 @@
 UID: NF:bcrypt.BCryptDecrypt
 title: BCryptDecrypt function (bcrypt.h)
 description: Decrypts a block of data.
+helpviewer_keywords: ["BCRYPT_BLOCK_PADDING","BCRYPT_PAD_NONE","BCRYPT_PAD_OAEP","BCRYPT_PAD_PKCS1","BCryptDecrypt","BCryptDecrypt function [Security]","bcrypt/BCryptDecrypt","security.bcryptdecrypt_func"]
 old-location: security\bcryptdecrypt_func.htm
 tech.root: SecCNG
 ms.assetid: 62286f6b-0d57-4691-83fc-2b9a9740af71

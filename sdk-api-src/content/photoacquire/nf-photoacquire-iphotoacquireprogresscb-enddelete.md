@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndDelete
 title: IPhotoAcquireProgressCB::EndDelete (photoacquire.h)
-description: The EndDelete method provides extended functionality when deletion of files from the image source is complete. The application provides the implementation of the EndDelete method.
+description: The EndDelete method provides extended functionality when deletion of files from the image source is complete. The application provides the implementation of the EndDelete method.helpviewer_keywords: ["EndDelete","EndDelete method [Picture Acquisition]","EndDelete method [Picture Acquisition]","IPhotoAcquireProgressCB interface","IPhotoAcquireProgressCB interface [Picture Acquisition]","EndDelete method","IPhotoAcquireProgressCB.EndDelete","IPhotoAcquireProgressCB::EndDelete","IPhotoAcquireProgressCBEndDelete","photoacquire/IPhotoAcquireProgressCB::EndDelete","picacq.iphotoacquireprogresscb_enddelete"]
 old-location: picacq\iphotoacquireprogresscb_enddelete.htm
 tech.root: acquisition
 ms.assetid: bc5879a9-851b-4b22-99bb-814464c2712d

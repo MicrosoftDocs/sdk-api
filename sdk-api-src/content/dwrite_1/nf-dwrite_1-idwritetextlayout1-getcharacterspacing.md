@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteTextLayout1.GetCharacterSpacing
 title: IDWriteTextLayout1::GetCharacterSpacing (dwrite_1.h)
-description: Gets the spacing between characters.
+description: Gets the spacing between characters.helpviewer_keywords: ["GetCharacterSpacing","GetCharacterSpacing method [Direct Write]","GetCharacterSpacing method [Direct Write]","IDWriteTextLayout1 interface","IDWriteTextLayout1 interface [Direct Write]","GetCharacterSpacing method","IDWriteTextLayout1.GetCharacterSpacing","IDWriteTextLayout1::GetCharacterSpacing","directwrite.idwritetextlayout1_getcharacterspacing","dwrite_1/IDWriteTextLayout1::GetCharacterSpacing"]
 old-location: directwrite\idwritetextlayout1_getcharacterspacing.htm
 tech.root: DirectWrite
 ms.assetid: A546DCB4-8068-4300-94FB-A5B314536869

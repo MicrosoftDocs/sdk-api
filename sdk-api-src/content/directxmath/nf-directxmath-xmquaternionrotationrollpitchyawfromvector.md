@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMQuaternionRotationRollPitchYawFromVector
 title: XMQuaternionRotationRollPitchYawFromVector function (directxmath.h)
-description: Computes a rotation quaternion based on a vector containing the Euler angles (pitch, yaw, and roll).
+description: Computes a rotation quaternion based on a vector containing the Euler angles (pitch, yaw, and roll).helpviewer_keywords: ["Use DirectX..XMQuaternionRotationRollPitchYawFromVector","XMQuaternionRotationRollPitchYawFromVector","XMQuaternionRotationRollPitchYawFromVector method [DirectX Math Support APIs]","dxmath.xmquaternionrotationrollpitchyawfromvector"]
 old-location: dxmath\xmquaternionrotationrollpitchyawfromvector.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionRotationRollPitchYawFromVector(XMVECTOR)

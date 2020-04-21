@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2.QueryInterface
 title: IXAudio2::QueryInterface (xaudio2.h)
-description: Queries for a given COM interface on the XAudio2 object.
+description: Queries for a given COM interface on the XAudio2 object.helpviewer_keywords: ["IXAudio2 interface [XAudio2 Audio Mixing APIs]","QueryInterface method","IXAudio2.QueryInterface","IXAudio2::QueryInterface","QueryInterface","QueryInterface method [XAudio2 Audio Mixing APIs]","QueryInterface method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","xaudio2.ixaudio2_interface_queryinterface","xaudio2/IXAudio2::QueryInterface"]
 old-location: xaudio2\ixaudio2_interface_queryinterface.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.QueryInterface(REFIID,void@)

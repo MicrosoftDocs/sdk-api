@@ -1,7 +1,7 @@
 ---
 UID: NE:mmcobj._MMC_PROPERTY_ACTION
 title: MMC_PROPERTY_ACTION (mmcobj.h)
-description: The MMC_PROPERTY_ACTION enumeration specifies the operations that can occur to a property contained in an MMC_SNAPIN_PROPERTY structure.
+description: The MMC_PROPERTY_ACTION enumeration specifies the operations that can occur to a property contained in an MMC_SNAPIN_PROPERTY structure.helpviewer_keywords: ["MMC_PROPACT_CHANGING","MMC_PROPACT_DELETING","MMC_PROPACT_INITIALIZED","MMC_PROPERTY_ACTION","MMC_PROPERTY_ACTION enumeration [MMC]","_slate_mmc_property_action","mmc.mmc_property_action","mmcobj/MMC_PROPACT_CHANGING","mmcobj/MMC_PROPACT_DELETING","mmcobj/MMC_PROPACT_INITIALIZED","mmcobj/MMC_PROPERTY_ACTION"]
 old-location: mmc\mmc_property_action.htm
 tech.root: mmc
 ms.assetid: c380d562-0acb-4c90-9460-6007a8eeb596

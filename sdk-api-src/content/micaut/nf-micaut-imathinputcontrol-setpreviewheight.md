@@ -1,7 +1,7 @@
 ---
 UID: NF:micaut.IMathInputControl.SetPreviewHeight
 title: IMathInputControl::SetPreviewHeight (micaut.h)
-description: Modifies the preview-area height in pixels.
+description: Modifies the preview-area height in pixels.helpviewer_keywords: ["IMathInputControl interface [Tablet PC]","SetPreviewHeight method","IMathInputControl.SetPreviewHeight","IMathInputControl::SetPreviewHeight","SetPreviewHeight","SetPreviewHeight method [Tablet PC]","SetPreviewHeight method [Tablet PC]","IMathInputControl interface","micaut/IMathInputControl::SetPreviewHeight","tablet.imathinputcontrol_setpreviewheight"]
 old-location: tablet\imathinputcontrol_setpreviewheight.htm
 tech.root: tablet
 ms.assetid: a5e011f6-cd51-4016-ba15-c47c152bfa99

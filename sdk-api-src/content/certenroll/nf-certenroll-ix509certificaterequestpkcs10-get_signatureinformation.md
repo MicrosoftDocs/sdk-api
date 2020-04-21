@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_SignatureInformation
 title: IX509CertificateRequestPkcs10::get_SignatureInformation (certenroll.h)
-description: Retrieves the IX509SignatureInformation object that contains information about the certificate request signature.
+description: Retrieves the IX509SignatureInformation object that contains information about the certificate request signature.helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","SignatureInformation property","IX509CertificateRequestPkcs10.SignatureInformation","IX509CertificateRequestPkcs10.get_SignatureInformation","IX509CertificateRequestPkcs10::SignatureInformation","IX509CertificateRequestPkcs10::get_SignatureInformation","SignatureInformation property [Security]","SignatureInformation property [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::SignatureInformation","certenroll/IX509CertificateRequestPkcs10::get_SignatureInformation","get_SignatureInformation","security.ix509certificaterequestpkcs10_signatureinformation_property"]
 old-location: security\ix509certificaterequestpkcs10_signatureinformation_property.htm
 tech.root: seccertenroll
 ms.assetid: d90a8b82-a4d7-4d31-bcd0-293572a2bdd2

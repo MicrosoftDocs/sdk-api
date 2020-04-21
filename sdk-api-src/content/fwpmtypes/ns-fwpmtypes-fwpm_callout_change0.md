@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_CALLOUT_CHANGE0_
 title: FWPM_CALLOUT_CHANGE0 (fwpmtypes.h)
-description: Specifies a change notification dispatched to subscribers.
+description: Specifies a change notification dispatched to subscribers.helpviewer_keywords: ["FWPM_CALLOUT_CHANGE0","FWPM_CALLOUT_CHANGE0 structure [Filtering]","fwp.fwpm_callout_change0_struct","fwpmtypes/FWPM_CALLOUT_CHANGE0"]
 old-location: fwp\fwpm_callout_change0_struct.htm
 tech.root: fwp
 ms.assetid: 70e2eaae-dd75-4acc-87fb-ab2ad450a234

@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.ShowCandidateNumbers
 title: ITfIntegratableCandidateListUIElement::ShowCandidateNumbers (ctffunc.h)
-description: Specifies whether candidate numbers should be shown.
+description: Specifies whether candidate numbers should be shown.helpviewer_keywords: ["ITfIntegratableCandidateListUIElement interface [Text Services Framework]","ShowCandidateNumbers method","ITfIntegratableCandidateListUIElement.ShowCandidateNumbers","ITfIntegratableCandidateListUIElement::ShowCandidateNumbers","ShowCandidateNumbers","ShowCandidateNumbers method [Text Services Framework]","ShowCandidateNumbers method [Text Services Framework]","ITfIntegratableCandidateListUIElement interface","ctffunc/ITfIntegratableCandidateListUIElement::ShowCandidateNumbers","tsf.itfintegratablecandidatelistuielement_showcandidatenumbers"]
 old-location: tsf\itfintegratablecandidatelistuielement_showcandidatenumbers.htm
 tech.root: TSF
 ms.assetid: 91F40471-69D0-457B-9614-1B5A690A82B7

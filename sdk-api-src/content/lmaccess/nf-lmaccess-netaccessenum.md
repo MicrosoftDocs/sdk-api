@@ -1,7 +1,7 @@
 ---
 UID: NF:lmaccess.NetAccessEnum
 title: NetAccessEnum function (lmaccess.h)
-description: Not supported.
+description: Not supported.helpviewer_keywords: ["0","1","NetAccessEnum","NetAccessEnum function [Network Management]","_win32_netaccessenum","lmaccess/NetAccessEnum","netmgmt.netaccessenum"]
 old-location: netmgmt\netaccessenum.htm
 tech.root: NetMgmt
 ms.assetid: 34ffea84-ff41-43c3-864c-957178e9d22a

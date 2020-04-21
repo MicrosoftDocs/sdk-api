@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetDevice
 title: ID2D1DeviceContext::GetDevice (d2d1_1.h)
-description: Gets the device associated with a device context.
+description: Gets the device associated with a device context.helpviewer_keywords: ["GetDevice","GetDevice method [Direct2D]","GetDevice method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","GetDevice method","ID2D1DeviceContext.GetDevice","ID2D1DeviceContext::GetDevice","d2d1_1/ID2D1DeviceContext::GetDevice","direct2d.id2d1devicecontext_getdevice"]
 old-location: direct2d\id2d1devicecontext_getdevice.htm
 tech.root: Direct2D
 ms.assetid: 8c8664cb-d6be-41e0-8415-d60dcd46132a

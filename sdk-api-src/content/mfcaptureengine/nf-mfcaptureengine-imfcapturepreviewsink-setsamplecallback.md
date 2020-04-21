@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetSampleCallback
 title: IMFCapturePreviewSink::SetSampleCallback (mfcaptureengine.h)
-description: Sets a callback to receive the preview data for one stream.
+description: Sets a callback to receive the preview data for one stream.helpviewer_keywords: ["IMFCapturePreviewSink interface [Media Foundation]","SetSampleCallback method","IMFCapturePreviewSink.SetSampleCallback","IMFCapturePreviewSink::SetSampleCallback","SetSampleCallback","SetSampleCallback method [Media Foundation]","SetSampleCallback method [Media Foundation]","IMFCapturePreviewSink interface","mf.imfcapturepreviewsink_setsamplecallback","mfcaptureengine/IMFCapturePreviewSink::SetSampleCallback"]
 old-location: mf\imfcapturepreviewsink_setsamplecallback.htm
 tech.root: medfound
 ms.assetid: 0E14E3E4-25C7-4FCA-B220-20E346E66933

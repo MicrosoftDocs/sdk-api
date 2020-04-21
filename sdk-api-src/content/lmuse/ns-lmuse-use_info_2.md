@@ -1,7 +1,7 @@
 ---
 UID: NS:lmuse._USE_INFO_2
 title: USE_INFO_2 (lmuse.h)
-description: The USE_INFO_2 structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, and domain name.
+description: The USE_INFO_2 structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, and domain name.helpviewer_keywords: ["*LPUSE_INFO_2","*PUSE_INFO_2","LPUSE_INFO_2","LPUSE_INFO_2 structure pointer [Network Management]","PUSE_INFO_2","PUSE_INFO_2 structure pointer [Network Management]","USE_CONN","USE_DISCONN","USE_DISKDEV","USE_INFO_2","USE_INFO_2 structure [Network Management]","USE_IPC","USE_NETERR","USE_OK","USE_PAUSED","USE_RECONN","USE_SESSLOST","USE_SPOOLDEV","USE_WILDCARD","_win32_use_info_2_str","lmuse/LPUSE_INFO_2","lmuse/PUSE_INFO_2","lmuse/USE_INFO_2","netmgmt.use_info_2_str"]
 old-location: netmgmt\use_info_2_str.htm
 tech.root: NetMgmt
 ms.assetid: 4cc36108-085a-47c4-9dfa-b46f7e208c8b

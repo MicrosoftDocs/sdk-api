@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRFRAMERGN
 title: EMRFRAMERGN (wingdi.h)
-description: The EMRFRAMERGN structure contains members for the FrameRgn enhanced metafile record.
+description: The EMRFRAMERGN structure contains members for the FrameRgn enhanced metafile record.helpviewer_keywords: ["*PEMRFRAMERGN","EMRFRAMERGN","EMRFRAMERGN structure [Windows GDI]","PEMRFRAMERGN","PEMRFRAMERGN structure pointer [Windows GDI]","_win32_EMRFRAMERGN_str","gdi.emrframergn","wingdi/EMRFRAMERGN","wingdi/PEMRFRAMERGN"]
 old-location: gdi\emrframergn.htm
 tech.root: gdi
 ms.assetid: 578a2824-b42e-401d-b4b0-8426440713c6

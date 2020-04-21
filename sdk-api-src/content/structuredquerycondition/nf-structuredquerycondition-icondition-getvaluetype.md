@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetValueType
 title: ICondition::GetValueType (structuredquerycondition.h)
-description: Retrieves the semantic type of the value of the search condition node.
+description: Retrieves the semantic type of the value of the search condition node.helpviewer_keywords: ["GetValueType","GetValueType method [search]","GetValueType method [search]","ICondition interface","ICondition interface [search]","GetValueType method","ICondition.GetValueType","ICondition::GetValueType","_search_ICondition_GetValueType","search._search_ICondition_GetValueType","structuredquerycondition/ICondition::GetValueType"]
 old-location: search\_search_ICondition_GetValueType.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getvaluetype.htm

@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesEvents2
 title: IOfflineFilesEvents2 (cscobj.h)
-description: Used to report additional events associated with Offline Files.
+description: Used to report additional events associated with Offline Files.helpviewer_keywords: ["IOfflineFilesEvents2","IOfflineFilesEvents2 interface [Offline Files]","IOfflineFilesEvents2 interface [Offline Files]","described","cscobj/IOfflineFilesEvents2","of.iofflinefilesevents2"]
 old-location: of\iofflinefilesevents2.htm
 tech.root: offlinefiles
 ms.assetid: 746f7220-8c87-4218-bd97-ec9b862e549c

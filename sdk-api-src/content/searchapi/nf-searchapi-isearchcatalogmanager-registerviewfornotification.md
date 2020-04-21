@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.RegisterViewForNotification
 title: ISearchCatalogManager::RegisterViewForNotification (searchapi.h)
-description: Not implemented.
+description: Not implemented.helpviewer_keywords: ["ISearchCatalogManager interface [search]","RegisterViewForNotification method","ISearchCatalogManager.RegisterViewForNotification","ISearchCatalogManager::RegisterViewForNotification","RegisterViewForNotification","RegisterViewForNotification method [search]","RegisterViewForNotification method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_RegisterViewForNotification","search._search_ISearchCatalogManager_RegisterViewForNotification","searchapi/ISearchCatalogManager::RegisterViewForNotification"]
 old-location: search\_search_ISearchCatalogManager_RegisterViewForNotification.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\registerviewfornotification.htm

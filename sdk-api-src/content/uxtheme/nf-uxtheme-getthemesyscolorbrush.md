@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.GetThemeSysColorBrush
 title: GetThemeSysColorBrush function (uxtheme.h)
-description: Retrieves a system color brush.
+description: Retrieves a system color brush.helpviewer_keywords: ["GetThemeSysColorBrush","GetThemeSysColorBrush function [Windows Controls]","TMT_ACTIVEBORDER","TMT_ACTIVECAPTION","TMT_APPWORKSPACE","TMT_BACKGROUND","TMT_BTNFACE","TMT_BTNHIGHLIGHT","TMT_BTNSHADOW","TMT_BTNTEXT","TMT_BUTTONALTERNATEFACE","TMT_CAPTIONTEXT","TMT_DKSHADOW3D","TMT_GRADIENTACTIVECAPTION","TMT_GRADIENTINACTIVECAPTION","TMT_GRAYTEXT","TMT_HIGHLIGHT","TMT_HIGHLIGHTTEXT","TMT_HOTTRACKING","TMT_INACTIVEBORDER","TMT_INACTIVECAPTION","TMT_INACTIVECAPTIONTEXT","TMT_INFOBK","TMT_INFOTEXT","TMT_LIGHT3D","TMT_MENUBAR","TMT_MENUHILIGHT","TMT_MENUTEXT","TMT_SCROLLBAR","TMT_WINDOW","TMT_WINDOWFRAME","TMT_WINDOWTEXT","controls.GetThemeSysColorBrush","controls.inet_GetThemeSysColorBrush","inet_GetThemeSysColorBrush","inet_GetThemeSysColorBrush_cpp","uxtheme/GetThemeSysColorBrush"]
 old-location: controls\GetThemeSysColorBrush.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyscolorbrush.htm

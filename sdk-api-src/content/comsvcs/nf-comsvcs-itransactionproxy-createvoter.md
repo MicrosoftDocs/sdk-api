@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.CreateVoter
 title: ITransactionProxy::CreateVoter (comsvcs.h)
-description: Provides a ballot so that a COM+ transaction context can vote on the transaction.
+description: Provides a ballot so that a COM+ transaction context can vote on the transaction.helpviewer_keywords: ["CreateVoter","CreateVoter method [COM+]","CreateVoter method [COM+]","ITransactionProxy interface","ITransactionProxy interface [COM+]","CreateVoter method","ITransactionProxy.CreateVoter","ITransactionProxy::CreateVoter","comsvcs/ITransactionProxy::CreateVoter","cos.itransactionproxy_createvoter"]
 old-location: cos\itransactionproxy_createvoter.htm
 tech.root: cossdk
 ms.assetid: dd837082-881e-4f7e-b71e-c0f6068e3cdb

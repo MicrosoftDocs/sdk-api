@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._PROCESSOR_POWER_POLICY_INFO
 title: PROCESSOR_POWER_POLICY_INFO (winnt.h)
-description: Contains information about processor C-state policy settings.
+description: Contains information about processor C-state policy settings.helpviewer_keywords: ["*PPROCESSOR_POWER_POLICY_INFO","PPROCESSOR_POWER_POLICY_INFO","PPROCESSOR_POWER_POLICY_INFO structure pointer","PROCESSOR_POWER_POLICY_INFO","PROCESSOR_POWER_POLICY_INFO structure","_PROCESSOR_POWER_POLICY_INFO","_win32_processor_power_policy_info_str","base.processor_power_policy_info_str","winnt/PPROCESSOR_POWER_POLICY_INFO","winnt/PROCESSOR_POWER_POLICY_INFO"]
 old-location: base\processor_power_policy_info_str.htm
 tech.root: power
 ms.assetid: 9d29aec0-ba22-46be-b429-d6dfd2191b98

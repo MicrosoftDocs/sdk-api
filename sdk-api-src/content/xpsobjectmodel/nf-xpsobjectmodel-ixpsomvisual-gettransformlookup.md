@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetTransformLookup
 title: IXpsOMVisual::GetTransformLookup (xpsobjectmodel.h)
-description: Gets the lookup key name of the IXpsOMMatrixTransform interface in a resource dictionary that contains the resolved matrix transform for the visual.
+description: Gets the lookup key name of the IXpsOMMatrixTransform interface in a resource dictionary that contains the resolved matrix transform for the visual.helpviewer_keywords: ["GetTransformLookup","GetTransformLookup method [XPS Documents and Packaging]","GetTransformLookup method [XPS Documents and Packaging]","IXpsOMVisual interface","IXpsOMVisual interface [XPS Documents and Packaging]","GetTransformLookup method","IXpsOMVisual.GetTransformLookup","IXpsOMVisual::GetTransformLookup","xps.ixpsomvisual_gettransformlookup","xpsobjectmodel/IXpsOMVisual::GetTransformLookup"]
 old-location: xps\ixpsomvisual_gettransformlookup.htm
 tech.root: printdocs
 ms.assetid: 83d30b9c-4d3d-4fca-8dea-121074642b39

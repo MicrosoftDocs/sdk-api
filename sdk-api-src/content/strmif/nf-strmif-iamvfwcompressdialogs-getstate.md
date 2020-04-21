@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.GetState
 title: IAMVfwCompressDialogs::GetState (strmif.h)
-description: The GetState method retrieves the current configuration settings for the VCM codec currently being used.
+description: The GetState method retrieves the current configuration settings for the VCM codec currently being used.helpviewer_keywords: ["GetState","GetState method [DirectShow]","GetState method [DirectShow]","IAMVfwCompressDialogs interface","IAMVfwCompressDialogs interface [DirectShow]","GetState method","IAMVfwCompressDialogs.GetState","IAMVfwCompressDialogs::GetState","IAMVfwCompressDialogsGetState","dshow.iamvfwcompressdialogs_getstate","strmif/IAMVfwCompressDialogs::GetState"]
 old-location: dshow\iamvfwcompressdialogs_getstate.htm
 tech.root: DirectShow
 ms.assetid: a010fd8a-ad4a-4b52-abfe-a2db8cd15b65

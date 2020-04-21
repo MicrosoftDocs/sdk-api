@@ -1,7 +1,7 @@
 ---
 UID: NE:mfidl.MFPMPSESSION_CREATION_FLAGS
 title: MFPMPSESSION_CREATION_FLAGS (mfidl.h)
-description: Contains flags that define the behavior of the MFCreatePMPMediaSession function.
+description: Contains flags that define the behavior of the MFCreatePMPMediaSession function.helpviewer_keywords: ["6341aaff-aa80-4172-8577-0b757a01ea53","MFPMPSESSION_CREATION_FLAGS","MFPMPSESSION_CREATION_FLAGS enumeration [Media Foundation]","MFPMPSESSION_UNPROTECTED_PROCESS","mf.mfpmpsession_creation_flags","mfidl/MFPMPSESSION_CREATION_FLAGS","mfidl/MFPMPSESSION_UNPROTECTED_PROCESS"]
 old-location: mf\mfpmpsession_creation_flags.htm
 tech.root: medfound
 ms.assetid: 6341aaff-aa80-4172-8577-0b757a01ea53

@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTS_SERVER_INFOA
 title: WTS_SERVER_INFOA (wtsapi32.h)
-description: Contains information about a specific Remote Desktop Services server.
+description: Contains information about a specific Remote Desktop Services server.helpviewer_keywords: ["*PWTS_SERVER_INFOA","PWTS_SERVER_INFO","PWTS_SERVER_INFO structure pointer [Remote Desktop Services]","WTS_SERVER_INFO","WTS_SERVER_INFO structure [Remote Desktop Services]","WTS_SERVER_INFOA","WTS_SERVER_INFOW","termserv.wts_server_info","wtsapi32/PWTS_SERVER_INFO","wtsapi32/WTS_SERVER_INFO","wtsapi32/WTS_SERVER_INFOA","wtsapi32/WTS_SERVER_INFOW"]
 old-location: termserv\wts_server_info.htm
 tech.root: TermServ
 ms.assetid: c7ba5a94-37ff-408f-9a77-91b07c28b7ce

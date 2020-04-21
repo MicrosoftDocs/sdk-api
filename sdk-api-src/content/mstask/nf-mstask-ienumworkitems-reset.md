@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Reset
 title: IEnumWorkItems::Reset (mstask.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning.helpviewer_keywords: ["IEnumWorkItems interface [Task Scheduler]","Reset method","IEnumWorkItems.Reset","IEnumWorkItems::Reset","Reset","Reset method [Task Scheduler]","Reset method [Task Scheduler]","IEnumWorkItems interface","_msb_ienumworkitems_reset","mstask/IEnumWorkItems::Reset","taskschd.ienumworkitems_reset"]
 old-location: taskschd\ienumworkitems_reset.htm
 tech.root: taskschd
 ms.assetid: 920ba47b-41cd-462b-9b72-73898a5cd4d0

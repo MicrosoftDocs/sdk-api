@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi.CLUSPROP_ULARGE_INTEGER
 title: CLUSPROP_ULARGE_INTEGER (clusapi.h)
-description: Describes an unsigned large integer.
+description: Describes an unsigned large integer.helpviewer_keywords: ["*PCLUSPROP_ULARGE_INTEGER","CLUSPROP_ULARGE_INTEGER","CLUSPROP_ULARGE_INTEGER structure [Failover Cluster]","PCLUSPROP_ULARGE_INTEGER","PCLUSPROP_ULARGE_INTEGER structure pointer [Failover Cluster]","_wolf_clusprop_ularge_integer","clusapi/CLUSPROP_ULARGE_INTEGER","clusapi/PCLUSPROP_ULARGE_INTEGER","mscs.clusprop_ularge_integer"]
 old-location: mscs\clusprop_ularge_integer.htm
 tech.root: MsCS
 ms.assetid: 1db28e46-e5e0-4d99-b9a8-80c3f1534ca6

@@ -1,7 +1,7 @@
 ---
 UID: NE:ras._RASPROJECTION_INFO_TYPE
 title: RASPROJECTION_INFO_TYPE (ras.h)
-description: Is used in the RAS_PROJECTION_INFO structure to represent either a RASPPP_PROJECTION_INFO or RASIKEV2_PROJECTION_INFO structure.
+description: Is used in the RAS_PROJECTION_INFO structure to represent either a RASPPP_PROJECTION_INFO or RASIKEV2_PROJECTION_INFO structure.helpviewer_keywords: ["PROJECTION_INFO_TYPE_IKEv2","PROJECTION_INFO_TYPE_PPP","RASPROJECTION_INFO_TYPE","RASPROJECTION_INFO_TYPE enumeration [RAS]","ras/PROJECTION_INFO_TYPE_IKEv2","ras/PROJECTION_INFO_TYPE_PPP","ras/RASPROJECTION_INFO_TYPE","rras.rasprojection_info_type"]
 old-location: rras\rasprojection_info_type.htm
 tech.root: RRAS
 ms.assetid: ac288100-a346-4d9b-9bf4-8144372f54a3

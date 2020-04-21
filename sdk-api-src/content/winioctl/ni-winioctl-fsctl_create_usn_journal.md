@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_CREATE_USN_JOURNAL
 title: FSCTL_CREATE_USN_JOURNAL
-description: Creates an update sequence number (USN) change journal stream on a target volume, or modifies an existing change journal stream.
+description: Creates an update sequence number (USN) change journal stream on a target volume, or modifies an existing change journal stream.helpviewer_keywords: ["FSCTL_CREATE_USN_JOURNAL","FSCTL_CREATE_USN_JOURNAL control","FSCTL_CREATE_USN_JOURNAL control code [Files]","_win32_fsctl_create_usn_journal","base.fsctl_create_usn_journal","fs.fsctl_create_usn_journal","winioctl/FSCTL_CREATE_USN_JOURNAL"]
 old-location: fs\fsctl_create_usn_journal.htm
 tech.root: FileIO
 ms.assetid: 92e737e6-dba6-47f1-a077-e303039e12eb
@@ -44,44 +44,92 @@ req.redist:
 
 # FSCTL_CREATE_USN_JOURNAL IOCTL
 
+
 ## -description
 
-Creates an update sequence number (USN) change journal stream on a target volume, or modifies an existing change journal stream.
 
-```cpp
-BOOL DeviceIoControl(
-  (HANDLE) hDevice,             // handle to volume
-  FSCTL_CREATE_USN_JOURNAL,     // dwIoControlCode
-  (LPVOID) lpInBuffer,          // input buffer
-  (DWORD) nInBufferSize,        // size of input buffer
-  NULL,                         // lpOutBuffer
-  0,                            // nOutBufferSize
-  (LPDWORD) lpBytesReturned,    // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped   // OVERLAPPED structure
-);
-```
+Creates an update sequence number (USN) change journal stream on a target volume, or modifies an existing change journal 
+    stream.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL 
+WINAPI 
+DeviceIoControl( (HANDLE) hDevice,              // handle to volume
+                 FSCTL_CREATE_USN_JOURNAL,      // dwIoControlCode(LPVOID) lpInBuffer,           // input buffer
+                 (DWORD) nInBufferSize,         // size of input buffer
+                 NULL,                          // lpOutBuffer
+                 0,                             // nOutBufferSize(LPDWORD) lpBytesReturned,     // number of bytes returned
+                 (LPOVERLAPPED) lpOverlapped ); // OVERLAPPED structure</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
+
+
+<text></text>
+
+
 
 
 ### -input-buffer-length
 
 
+
+<text></text>
+
+
+
+
 ### -output-buffer
+
+
+
+<text></text>
+
+
 
 
 ### -output-buffer-length
 
 
+
+<text></text>
+
+
+
+
 ### -in-out-buffer
+
+
+
+<text></text>
+
+
 
 
 ### -inout-buffer-length
 
 
+
+<text></text>
+
+
+
+
 ### -status-block
+
+
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -90,41 +138,125 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
+
+
 ## -remarks
 
-For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) topic.
 
-You can use **FSCTL_CREATE_USN_JOURNAL** to create a new change journal stream for a volume. After the creation of the stream, the NTFS file system maintains a change journal for that volume.
 
-You can also use **FSCTL_CREATE_USN_JOURNAL** to modify an existing change journal stream. If a change journal stream already exists, **FSCTL_CREATE_USN_JOURNAL** sets it to the characteristics provided in the [CREATE_USN_JOURNAL_DATA](./ns-winioctl-create_usn_journal_data.md) structure. The change journal stream eventually gets larger or is trimmed to the new size limit that [CREATE_USN_JOURNAL_DATA](./ns-winioctl-create_usn_journal_data.md) imposes.
+For the implications of overlapped I/O on this operation, see the Remarks section of the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
 
-For more information, see [Creating, Modifying, and Deleting a Change Journal](https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal).
+You can use <b>FSCTL_CREATE_USN_JOURNAL</b> to create 
+     a new change journal stream for a volume. After the creation of the stream, the NTFS file system maintains a 
+     change journal for that volume.
 
-To retrieve a handle to a volume, call [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) with the *lpFileName* parameter set to a string in the following form:
+You can also use <b>FSCTL_CREATE_USN_JOURNAL</b> to 
+     modify an existing change journal stream. If a change journal stream already exists, 
+     <b>FSCTL_CREATE_USN_JOURNAL</b> sets it to the 
+     characteristics provided in the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_usn_journal_data">CREATE_USN_JOURNAL_DATA</a> 
+     structure. The change journal stream eventually gets larger or is trimmed to the new size limit that 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_usn_journal_data">CREATE_USN_JOURNAL_DATA</a> 
+     imposes.
 
-\\\\.\\*X*:
+For more information, see 
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal">Creating, Modifying, and Deleting a Change Journal</a>.
 
-In the preceding string, *X* is the letter identifying the drive on which the volume appears. The volume must be NTFS 3.0 or later. To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command:
+To retrieve a handle to a volume, call 
+     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
+     <i>lpFileName</i> parameter set to a string in the following form:
 
-**fsutil fsinfo ntfsinfo** *X*<b>:</b>
+\\.\<i>X</i>:
 
-where *X* is the drive letter of the volume.
+In the preceding string, <i>X</i> is the letter identifying the drive on which the 
+     volume appears. The volume must be NTFS 3.0 or later. To obtain the NTFS version of a volume, open a command 
+     prompt with Administrator access rights and execute the following command:
+
+<b>fsutil fsinfo ntfsinfo </b><i>X</i><b>:</b>
+
+where <i>X</i> is the drive letter of the volume.
 
 In Windows Server 2012, this function is supported by the following technologies.
 
-Technology | Supported
------------|----------
-Server Message Block (SMB) 3.0 protocol | No
-SMB 3.0 Transparent Failover (TFO) | No
-SMB 3.0 with Scale-out File Shares (SO) | No
-Cluster Shared Volume File System (CsvFS) | Yes
+<table>
+<tr>
+<th>Technology</th>
+<th>Supported</th>
+</tr>
+<tr>
+<td>
+Server Message Block (SMB) 3.0 protocol
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+SMB 3.0 Transparent Failover (TFO)
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+SMB 3.0 with Scale-out File Shares (SO)
+
+</td>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<td>
+Cluster Shared Volume File System (CsvFS)
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+</table>
+ 
+
+
 
 
 ## -see-also
 
-* [CREATE_USN_JOURNAL_DATA](./ns-winioctl-create_usn_journal_data.md)
-* [Change Journals](https://docs.microsoft.com/windows/desktop/FileIO/change-journals)
-* [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
-* [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
-* [OVERLAPPED](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
-* [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_usn_journal_data">CREATE_USN_JOURNAL_DATA</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/change-journals">Change Journals</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
+ 
+
+ 
+

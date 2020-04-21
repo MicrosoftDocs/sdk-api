@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.IAnchor.IsEqual
 title: IAnchor::IsEqual (textstor.h)
-description: The IAnchor::IsEqual method evaluates two anchors within a text stream and returns a Boolean value that specifies the equality or inequality of the anchor positions.
+description: The IAnchor::IsEqual method evaluates two anchors within a text stream and returns a Boolean value that specifies the equality or inequality of the anchor positions.helpviewer_keywords: ["IAnchor interface [Text Services Framework]","IsEqual method","IAnchor.IsEqual","IAnchor::IsEqual","IsEqual","IsEqual method [Text Services Framework]","IsEqual method [Text Services Framework]","IAnchor interface","textstor/IAnchor::IsEqual","tsf.ianchor_isequal"]
 old-location: tsf\ianchor_isequal.htm
 tech.root: TSF
 ms.assetid: a2dedce7-f64d-406a-bebc-9a4b51a1ae38

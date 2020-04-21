@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._CLASS_MEDIA_CHANGE_CONTEXT
 title: CLASS_MEDIA_CHANGE_CONTEXT
-description: Contains information associated with a media change event.
+description: Contains information associated with a media change event.helpviewer_keywords: ["*PCLASS_MEDIA_CHANGE_CONTEXT","CLASS_MEDIA_CHANGE_CONTEXT","CLASS_MEDIA_CHANGE_CONTEXT structure","MediaNotPresent","MediaPresent","MediaUnavailable","MediaUnknown","PCLASS_MEDIA_CHANGE_CONTEXT","PCLASS_MEDIA_CHANGE_CONTEXT structure pointer","_win32_class_media_change_context_str","base.class_media_change_context_str","winioctl/CLASS_MEDIA_CHANGE_CONTEXT","winioctl/PCLASS_MEDIA_CHANGE_CONTEXT"]
 old-location: base\class_media_change_context_str.htm
 tech.root: devio
 ms.assetid: c89da554-3dc5-4278-8afe-8da9cc0a0120

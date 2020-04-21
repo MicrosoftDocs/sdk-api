@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument2.SetIMEInProgress
 title: ITextDocument2::SetIMEInProgress (tom.h)
-description: Sets the state of the Input Method Editor (IME) in-progress flag.
+description: Sets the state of the Input Method Editor (IME) in-progress flag.helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","SetIMEInProgress method","ITextDocument2.SetIMEInProgress","ITextDocument2::SetIMEInProgress","SetIMEInProgress","SetIMEInProgress method [Windows Controls]","SetIMEInProgress method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_setimeinprogress","tom/ITextDocument2::SetIMEInProgress"]
 old-location: controls\itextdocument2_setimeinprogress.htm
 tech.root: Controls
 ms.assetid: 65db4e97-48c9-48e0-b436-2b2e6713bebd

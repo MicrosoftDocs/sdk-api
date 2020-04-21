@@ -1,7 +1,7 @@
 ---
 UID: NN:wia_xp.IWiaItem
 title: IWiaItem (wia_xp.h)
-description: Each Windows Image Acquisition (WIA) hardware device is represented to an application as a hierarchical tree of IWiaItem objects.
+description: Each Windows Image Acquisition (WIA) hardware device is represented to an application as a hierarchical tree of IWiaItem objects.helpviewer_keywords: ["IWiaItem","IWiaItem interface [WIA]","IWiaItem interface [WIA]","described","_wia_IWiaItem","wia._wia_IWiaItem","wia_xp/IWiaItem"]
 old-location: wia\_wia_IWiaItem.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\iwiaitem.htm

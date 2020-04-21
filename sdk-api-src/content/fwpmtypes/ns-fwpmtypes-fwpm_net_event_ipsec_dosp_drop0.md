@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_IPSEC_DOSP_DROP0_
 title: FWPM_NET_EVENT_IPSEC_DOSP_DROP0 (fwpmtypes.h)
-description: Contains information that describes an IPsec DoS Protection drop event.
+description: Contains information that describes an IPsec DoS Protection drop event.helpviewer_keywords: ["FWPM_NET_EVENT_IPSEC_DOSP_DROP0","FWPM_NET_EVENT_IPSEC_DOSP_DROP0 structure [Filtering]","fwp.fwpm_net_event_ipsec_dosp_drop0","fwpmtypes/FWPM_NET_EVENT_IPSEC_DOSP_DROP0"]
 old-location: fwp\fwpm_net_event_ipsec_dosp_drop0.htm
 tech.root: fwp
 ms.assetid: 7b28a81f-bf80-4739-989e-a276a0ca8a3a

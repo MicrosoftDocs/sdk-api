@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsServiceRegisterCancel
 title: DnsServiceRegisterCancel function
-description: Used to cancel a pending registration operation.
+description: Used to cancel a pending registration operation.helpviewer_keywords: ["DnsServiceRegisterCancel"]
 ms.date: 02/14/2019
 ms.keywords: DnsServiceRegisterCancel
 f1_keywords:

@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_Merge
 title: ImageList_Merge function (commctrl.h)
-description: Creates a new image by combining two existing images. The function also creates a new image list in which to store the image.
+description: Creates a new image by combining two existing images. The function also creates a new image list in which to store the image.helpviewer_keywords: ["ImageList_Merge","ImageList_Merge function [Windows Controls]","_win32_ImageList_Merge","_win32_ImageList_Merge_cpp","commctrl/ImageList_Merge","controls.ImageList_Merge","controls._win32_ImageList_Merge"]
 old-location: controls\ImageList_Merge.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_merge.htm

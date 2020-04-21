@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetCueKind
 title: IMFTimedTextCue::GetCueKind (mfmediaengine.h)
-description: Gets the kind of timed-text cue.
+description: Gets the kind of timed-text cue.helpviewer_keywords: ["GetCueKind","GetCueKind method [Media Foundation]","GetCueKind method [Media Foundation]","IMFTimedTextCue interface","IMFTimedTextCue interface [Media Foundation]","GetCueKind method","IMFTimedTextCue.GetCueKind","IMFTimedTextCue::GetCueKind","mf.imftimedtextcue_getcuekind","mfmediaengine/IMFTimedTextCue::GetCueKind"]
 old-location: mf\imftimedtextcue_getcuekind.htm
 tech.root: medfound
 ms.assetid: 1BEB539D-4A51-4866-A627-5754525E7C8F

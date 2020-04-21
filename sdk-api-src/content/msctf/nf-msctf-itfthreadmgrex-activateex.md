@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgrEx.ActivateEx
 title: ITfThreadMgrEx::ActivateEx (msctf.h)
-description: The ITfThreadMgrEx::ActivateEx method is used by an application to initialize and activate TSF for the calling thread. Unlike ITfThreadMgr::Activate, ITfThreadMgrEx::ActivateEx can take a flag to specify how TSF is activated.
+description: The ITfThreadMgrEx::ActivateEx method is used by an application to initialize and activate TSF for the calling thread. Unlike ITfThreadMgr::Activate, ITfThreadMgrEx::ActivateEx can take a flag to specify how TSF is activated.helpviewer_keywords: ["ActivateEx","ActivateEx method [Text Services Framework]","ActivateEx method [Text Services Framework]","ITfThreadMgrEx interface","ITfThreadMgrEx interface [Text Services Framework]","ActivateEx method","ITfThreadMgrEx.ActivateEx","ITfThreadMgrEx::ActivateEx","TF_TMAE_COMLESS","TF_TMAE_NOACTIVATEKEYBOARDLAYOUT","TF_TMAE_NOACTIVATETIP","TF_TMAE_SECUREMODE","TF_TMAE_UIELEMENTENABLEDONLY","msctf/ITfThreadMgrEx::ActivateEx","tsf.itfthreadmgrex_activateex"]
 old-location: tsf\itfthreadmgrex_activateex.htm
 tech.root: TSF
 ms.assetid: a3cecc02-5228-4912-a609-f9f3334e11b7

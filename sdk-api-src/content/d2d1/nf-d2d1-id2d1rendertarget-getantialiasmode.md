@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetAntialiasMode
 title: ID2D1RenderTarget::GetAntialiasMode (d2d1.h)
-description: Retrieves the current antialiasing mode for nontext drawing operations.
+description: Retrieves the current antialiasing mode for nontext drawing operations.helpviewer_keywords: ["GetAntialiasMode","GetAntialiasMode method [Direct2D]","GetAntialiasMode method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetAntialiasMode method","ID2D1RenderTarget.GetAntialiasMode","ID2D1RenderTarget::GetAntialiasMode","d2d1/ID2D1RenderTarget::GetAntialiasMode","direct2d.ID2D1RenderTarget_GetAntialiasMode"]
 old-location: direct2d\ID2D1RenderTarget_GetAntialiasMode.htm
 tech.root: Direct2D
 ms.assetid: e9aa93fa-0978-415e-b9f7-802494e81095

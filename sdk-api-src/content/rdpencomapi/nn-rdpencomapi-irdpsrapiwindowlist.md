@@ -1,7 +1,7 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIWindowList
 title: IRDPSRAPIWindowList (rdpencomapi.h)
-description: Manages the window list.
+description: Manages the window list.helpviewer_keywords: ["IRDPSRAPIWindowList","IRDPSRAPIWindowList interface [RDP]","IRDPSRAPIWindowList interface [RDP]","described","rdp.irdpsrapiwindowlist","rdpencomapi/IRDPSRAPIWindowList"]
 old-location: rdp\irdpsrapiwindowlist.htm
 tech.root: rdp
 ms.assetid: 9ea90838-6de3-4b21-8db8-ff96e026505a

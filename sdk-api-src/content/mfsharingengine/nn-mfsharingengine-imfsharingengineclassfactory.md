@@ -1,7 +1,7 @@
 ---
 UID: NN:mfsharingengine.IMFSharingEngineClassFactory
 title: IMFSharingEngineClassFactory (mfsharingengine.h)
-description: Creates an instance of the media sharing engine.
+description: Creates an instance of the media sharing engine.helpviewer_keywords: ["IMFSharingEngineClassFactory","IMFSharingEngineClassFactory interface [Media Foundation]","IMFSharingEngineClassFactory interface [Media Foundation]","described","mf.imfsharingengineclassfactory","mfsharingengine/IMFSharingEngineClassFactory"]
 old-location: mf\imfsharingengineclassfactory.htm
 tech.root: medfound
 ms.assetid: 191CB50C-8CBB-470F-B558-F3A9EE554DA3

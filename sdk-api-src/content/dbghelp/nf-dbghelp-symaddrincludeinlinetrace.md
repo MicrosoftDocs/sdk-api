@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymAddrIncludeInlineTrace
 title: SymAddrIncludeInlineTrace function (dbghelp.h)
-description: Indicates whether the specified address is within an inline frame.
+description: Indicates whether the specified address is within an inline frame.helpviewer_keywords: ["SymAddrIncludeInlineTrace","SymAddrIncludeInlineTrace function","base.symaddrincludeinlinetrace","dbghelp/SymAddrIncludeInlineTrace"]
 old-location: base\symaddrincludeinlinetrace.htm
 tech.root: Debug
 ms.assetid: 12bb0fbf-3573-4efd-88a6-e94828906413

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetFaceNames
 title: IDWriteFontFace3::GetFaceNames (dwrite_3.h)
-description: Creates a localized strings object that contains the face names for the font (for example, Regular or Bold), indexed by locale name.
+description: Creates a localized strings object that contains the face names for the font (for example, Regular or Bold), indexed by locale name.helpviewer_keywords: ["GetFaceNames","GetFaceNames method [Direct Write]","GetFaceNames method [Direct Write]","IDWriteFontFace3 interface","IDWriteFontFace3 interface [Direct Write]","GetFaceNames method","IDWriteFontFace3.GetFaceNames","IDWriteFontFace3::GetFaceNames","directwrite.idwritefontface3_getfacenames","dwrite_3/IDWriteFontFace3::GetFaceNames"]
 old-location: directwrite\idwritefontface3_getfacenames.htm
 tech.root: DirectWrite
 ms.assetid: 81FBE594-3429-4E61-9A83-513605879D2D

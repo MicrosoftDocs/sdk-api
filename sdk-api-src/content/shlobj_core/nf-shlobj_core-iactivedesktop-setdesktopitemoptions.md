@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.SetDesktopItemOptions
 title: IActiveDesktop::SetDesktopItemOptions (shlobj_core.h)
-description: Sets the item's options.
+description: Sets the item's options.helpviewer_keywords: ["IActiveDesktop interface [Legacy Windows Environment Features]","SetDesktopItemOptions method","IActiveDesktop.SetDesktopItemOptions","IActiveDesktop::SetDesktopItemOptions","SetDesktopItemOptions","SetDesktopItemOptions method [Legacy Windows Environment Features]","SetDesktopItemOptions method [Legacy Windows Environment Features]","IActiveDesktop interface","_win32_IActiveDesktop_SetDesktopItemOptions","lwef.iactivedesktop_setdesktopitemoptions","shell.iactivedesktop_setdesktopitemoptions","shlobj_core/IActiveDesktop::SetDesktopItemOptions"]
 old-location: lwef\iactivedesktop_setdesktopitemoptions.htm
 tech.root: lwef
 ms.assetid: 5f2c1f41-d678-4eb8-b246-46133eec465f

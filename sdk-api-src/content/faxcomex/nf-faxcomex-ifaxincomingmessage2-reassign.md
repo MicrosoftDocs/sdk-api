@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.ReAssign
 title: IFaxIncomingMessage2::ReAssign (faxcomex.h)
-description: Reassign the fax to one or more recipients. It also commits changes to the IFaxIncomingMessage2::Subject, IFaxIncomingMessage2::SenderName, IFaxIncomingMessage2::SenderFaxNumber, and IFaxIncomingMessage2::HasCoverPage properties.
+description: Reassign the fax to one or more recipients. It also commits changes to the IFaxIncomingMessage2::Subject, IFaxIncomingMessage2::SenderName, IFaxIncomingMessage2::SenderFaxNumber, and IFaxIncomingMessage2::HasCoverPage properties.helpviewer_keywords: ["IFaxIncomingMessage2 interface [Fax Service]","Reassign method","IFaxIncomingMessage2.ReAssign","IFaxIncomingMessage2.Reassign","IFaxIncomingMessage2::ReAssign","IFaxIncomingMessage2::Reassign","ReAssign","Reassign method [Fax Service]","Reassign method [Fax Service]","IFaxIncomingMessage2 interface","_mfax_faxincomingmessage.reassign","fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_reassign_cpp","fax._mfax_faxincomingmessage_reassign","faxcomex/IFaxIncomingMessage2::Reassign"]
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_reassign_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\reassign.htm

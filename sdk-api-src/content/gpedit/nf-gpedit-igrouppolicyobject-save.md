@@ -1,7 +1,7 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.Save
 title: IGroupPolicyObject::Save (gpedit.h)
-description: The Save method saves the specified registry policy settings to disk and updates the revision number of the GPO.
+description: The Save method saves the specified registry policy settings to disk and updates the revision number of the GPO.helpviewer_keywords: ["IGroupPolicyObject interface [Group Policy]","Save method","IGroupPolicyObject.Save","IGroupPolicyObject::Save","Save","Save method [Group Policy]","Save method [Group Policy]","IGroupPolicyObject interface","_win32_igrouppolicyobject_save","gpedit/IGroupPolicyObject::Save","policy.igrouppolicyobject_save"]
 old-location: policy\igrouppolicyobject_save.htm
 tech.root: Policy
 ms.assetid: e3713e5f-c710-48f7-8081-f2669c77449d

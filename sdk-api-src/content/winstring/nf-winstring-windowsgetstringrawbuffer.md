@@ -1,7 +1,7 @@
 ---
 UID: NF:winstring.WindowsGetStringRawBuffer
 title: WindowsGetStringRawBuffer function (winstring.h)
-description: Gets the backing buffer for the specified string.
+description: Gets the backing buffer for the specified string.helpviewer_keywords: ["WindowsGetStringRawBuffer","WindowsGetStringRawBuffer function [Windows Runtime]","winrt.windowsgetstringrawbuffer","winstring/WindowsGetStringRawBuffer"]
 old-location: winrt\windowsgetstringrawbuffer.htm
 tech.root: WinRT
 ms.assetid: D2906CD0-7529-459E-A0E9-66D29A5DD1B0

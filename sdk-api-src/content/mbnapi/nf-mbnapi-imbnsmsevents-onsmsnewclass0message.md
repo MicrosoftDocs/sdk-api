@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsNewClass0Message
 title: IMbnSmsEvents::OnSmsNewClass0Message (mbnapi.h)
-description: Notification method signaling the arrival of a new class 0/flash message.
+description: Notification method signaling the arrival of a new class 0/flash message.helpviewer_keywords: ["IMbnSmsEvents interface [Microsoft Broadband Networks]","OnSmsNewClass0Message method","IMbnSmsEvents.OnSmsNewClass0Message","IMbnSmsEvents::OnSmsNewClass0Message","OnSmsNewClass0Message","OnSmsNewClass0Message method [Microsoft Broadband Networks]","OnSmsNewClass0Message method [Microsoft Broadband Networks]","IMbnSmsEvents interface","mbn.imbnsmsevents_onsmsnewclass0message","mbnapi/IMbnSmsEvents::OnSmsNewClass0Message"]
 old-location: mbn\imbnsmsevents_onsmsnewclass0message.htm
 tech.root: mbn
 ms.assetid: e6d13393-557c-462c-a640-2228ab0c9c17

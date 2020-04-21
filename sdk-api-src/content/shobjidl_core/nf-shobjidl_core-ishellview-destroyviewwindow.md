@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellView.DestroyViewWindow
 title: IShellView::DestroyViewWindow (shobjidl_core.h)
-description: Destroys the view window.
+description: Destroys the view window.helpviewer_keywords: ["DestroyViewWindow","DestroyViewWindow method [Windows Shell]","DestroyViewWindow method [Windows Shell]","IShellView interface","IShellView interface [Windows Shell]","DestroyViewWindow method","IShellView.DestroyViewWindow","IShellView::DestroyViewWindow","_win32_IShellView_DestroyViewWindow","shell.IShellView_DestroyViewWindow","shobjidl_core/IShellView::DestroyViewWindow"]
 old-location: shell\IShellView_DestroyViewWindow.htm
 tech.root: shell
 ms.assetid: b0dfc200-4438-4f11-a426-c82eeb9cc745

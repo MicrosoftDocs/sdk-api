@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFontCollection
 title: IDWriteTextFormat::GetFontCollection (dwrite.h)
-description: Gets the current font collection.
+description: Gets the current font collection.helpviewer_keywords: ["GetFontCollection","GetFontCollection method [Direct Write]","GetFontCollection method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetFontCollection method","IDWriteTextFormat.GetFontCollection","IDWriteTextFormat::GetFontCollection","directwrite.IDWriteTextFormat_GetFontCollection","dwrite/IDWriteTextFormat::GetFontCollection"]
 old-location: directwrite\IDWriteTextFormat_GetFontCollection.htm
 tech.root: DirectWrite
 ms.assetid: a94cfca5-3a03-4912-9a33-df705a2265cf

@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.IGetFrame.SetFormat
 title: IGetFrame::SetFormat (vfw.h)
-description: The SetFormat method sets the decompressed image format of the frames being extracted and optionally provides a buffer for the decompression operation.
+description: The SetFormat method sets the decompressed image format of the frames being extracted and optionally provides a buffer for the decompression operation.helpviewer_keywords: ["IGetFrame interface [Windows Multimedia]","SetFormat method","IGetFrame.SetFormat","IGetFrame::SetFormat","SetFormat","SetFormat method [Windows Multimedia]","SetFormat method [Windows Multimedia]","IGetFrame interface","_win32_IGetFrame_SetFormat","multimedia.igetframe_setformat","vfw/IGetFrame::SetFormat"]
 old-location: multimedia\igetframe_setformat.htm
 tech.root: Multimedia
 ms.assetid: 96a2afa5-af90-47e0-949a-a1498ed7f82e

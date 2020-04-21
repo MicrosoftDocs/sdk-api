@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange2.SetPara2
 title: ITextRange2::SetPara2 (tom.h)
-description: Sets the paragraph format attributes of a range.
+description: Sets the paragraph format attributes of a range.helpviewer_keywords: ["ITextRange2 interface [Windows Controls]","SetPara2 method","ITextRange2.SetPara2","ITextRange2::SetPara2","SetPara2","SetPara2 method [Windows Controls]","SetPara2 method [Windows Controls]","ITextRange2 interface","controls.itextrange2_setpara2","tom/ITextRange2::SetPara2"]
 old-location: controls\itextrange2_setpara2.htm
 tech.root: Controls
 ms.assetid: ffd25a04-27a8-47c0-95a4-d66291971819

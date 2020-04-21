@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.IObjectId
 title: IObjectId (certenroll.h)
-description: Represents an object identifier (OID).
+description: Represents an object identifier (OID).helpviewer_keywords: ["IObjectId","IObjectId interface [Security]","IObjectId interface [Security]","described","certenroll/IObjectId","security.iobjectid"]
 old-location: security\iobjectid.htm
 tech.root: seccertenroll
 ms.assetid: bc6608e3-cae7-4992-b599-06bc04cc8ad7

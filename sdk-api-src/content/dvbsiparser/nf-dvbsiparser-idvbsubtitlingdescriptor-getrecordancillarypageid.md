@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordAncillaryPageID
 title: IDvbSubtitlingDescriptor::GetRecordAncillaryPageID (dvbsiparser.h)
-description: Gets the ancillary page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.
+description: Gets the ancillary page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.helpviewer_keywords: ["GetRecordAncillaryPageID","GetRecordAncillaryPageID method [Microsoft TV Technologies]","GetRecordAncillaryPageID method [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","GetRecordAncillaryPageID method","IDvbSubtitlingDescriptor.GetRecordAncillaryPageID","IDvbSubtitlingDescriptor::GetRecordAncillaryPageID","dvbsiparser/IDvbSubtitlingDescriptor::GetRecordAncillaryPageID","mstv.idvbsubtitlingdescriptor_getrecordancillarypageid"]
 old-location: mstv\idvbsubtitlingdescriptor_getrecordancillarypageid.htm
 tech.root: mstv
 ms.assetid: ab490087-063d-4e9f-8aa5-679804548d26

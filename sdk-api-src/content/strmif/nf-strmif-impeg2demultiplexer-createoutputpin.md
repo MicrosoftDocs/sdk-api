@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IMpeg2Demultiplexer.CreateOutputPin
 title: IMpeg2Demultiplexer::CreateOutputPin (strmif.h)
-description: The CreateOutputPin method creates a new output pin on the Demux.
+description: The CreateOutputPin method creates a new output pin on the Demux.helpviewer_keywords: ["CreateOutputPin","CreateOutputPin method [DirectShow]","CreateOutputPin method [DirectShow]","IMpeg2Demultiplexer interface","IMpeg2Demultiplexer interface [DirectShow]","CreateOutputPin method","IMpeg2Demultiplexer.CreateOutputPin","IMpeg2Demultiplexer::CreateOutputPin","IMpeg2DemultiplexerCreateOutputPin","dshow.impeg2demultiplexer_createoutputpin","strmif/IMpeg2Demultiplexer::CreateOutputPin"]
 old-location: dshow\impeg2demultiplexer_createoutputpin.htm
 tech.root: DirectShow
 ms.assetid: fb863b9c-e8da-444a-b50f-37f4fe9d8164

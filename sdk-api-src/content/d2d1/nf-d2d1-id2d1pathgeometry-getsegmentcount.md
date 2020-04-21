@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1PathGeometry.GetSegmentCount
 title: ID2D1PathGeometry::GetSegmentCount (d2d1.h)
-description: Retrieves the number of segments in the path geometry.
+description: Retrieves the number of segments in the path geometry.helpviewer_keywords: ["GetSegmentCount","GetSegmentCount method [Direct2D]","GetSegmentCount method [Direct2D]","ID2D1PathGeometry interface","ID2D1PathGeometry interface [Direct2D]","GetSegmentCount method","ID2D1PathGeometry.GetSegmentCount","ID2D1PathGeometry::GetSegmentCount","d2d1/ID2D1PathGeometry::GetSegmentCount","direct2d.ID2D1PathGeometry_GetSegmentCount"]
 old-location: direct2d\ID2D1PathGeometry_GetSegmentCount.htm
 tech.root: Direct2D
 ms.assetid: 53a80fec-5851-4b62-aa9b-fb7f8b15b0e7

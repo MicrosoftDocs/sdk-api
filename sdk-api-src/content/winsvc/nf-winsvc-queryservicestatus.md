@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.QueryServiceStatus
 title: QueryServiceStatus function (winsvc.h)
-description: Retrieves the current status of the specified service.
+description: Retrieves the current status of the specified service.helpviewer_keywords: ["QueryServiceStatus","QueryServiceStatus function","_win32_queryservicestatus","base.queryservicestatus","winsvc/QueryServiceStatus"]
 old-location: base\queryservicestatus.htm
 tech.root: Services
 ms.assetid: dcd2d8a1-10ef-4229-b873-b4fc3ec9293f

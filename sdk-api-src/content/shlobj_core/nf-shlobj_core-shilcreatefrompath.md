@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHILCreateFromPath
 title: SHILCreateFromPath function (shlobj_core.h)
-description: SHILCreateFromPath may be altered or unavailable.
+description: SHILCreateFromPath may be altered or unavailable.helpviewer_keywords: ["SHILCreateFromPath","SHILCreateFromPath function [Windows Shell]","_win32_SHILCreateFromPath","shell.SHILCreateFromPath","shlobj_core/SHILCreateFromPath"]
 old-location: shell\SHILCreateFromPath.htm
 tech.root: shell
 ms.assetid: 08700af7-9dbd-4162-8578-bfa47e3db6bf

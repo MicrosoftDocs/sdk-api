@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterRegQueryValue
 title: ClusterRegQueryValue function (clusapi.h)
-description: Returns the name, type, and data components associated with a value for an open cluster database key.
+description: Returns the name, type, and data components associated with a value for an open cluster database key.helpviewer_keywords: ["ClusterRegQueryValue","ClusterRegQueryValue function [Failover Cluster]","REG_BINARY","REG_DWORD","REG_DWORD_BIG_ENDIAN","REG_EXPAND_SZ","REG_MULTI_SZ","REG_NONE","REG_QWORD","REG_SZ","_wolf_clusterregqueryvalue","clusapi/ClusterRegQueryValue","mscs.clusterregqueryvalue"]
 old-location: mscs\clusterregqueryvalue.htm
 tech.root: MsCS
 ms.assetid: 78ea27da-2b95-46df-b01e-4a3717276859

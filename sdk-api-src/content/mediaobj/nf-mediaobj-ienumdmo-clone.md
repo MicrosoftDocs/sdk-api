@@ -1,7 +1,7 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Clone
 title: IEnumDMO::Clone (mediaobj.h)
-description: This method is not implemented.
+description: This method is not implemented.helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IEnumDMO interface","IEnumDMO interface [DirectShow]","Clone method","IEnumDMO.Clone","IEnumDMO::Clone","IEnumDMOClone","dshow.ienumdmo_clone","mediaobj/IEnumDMO::Clone"]
 old-location: dshow\ienumdmo_clone.htm
 tech.root: DirectShow
 ms.assetid: 9edca502-7dff-493f-8bce-4bffe8233487

@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesEventsFilter
 title: IOfflineFilesEventsFilter (cscobj.h)
-description: Provides a mechanism for recipients of published events to restrict the number of event instances they receive.
+description: Provides a mechanism for recipients of published events to restrict the number of event instances they receive.helpviewer_keywords: ["IOfflineFilesEventsFilter","IOfflineFilesEventsFilter interface [Offline Files]","IOfflineFilesEventsFilter interface [Offline Files]","described","cscobj/IOfflineFilesEventsFilter","of.iofflinefileseventsfilter"]
 old-location: of\iofflinefileseventsfilter.htm
 tech.root: offlinefiles
 ms.assetid: 8c2c793e-c91c-4ca7-a03c-e349de00de6c

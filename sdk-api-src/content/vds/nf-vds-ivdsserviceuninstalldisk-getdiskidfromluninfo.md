@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsServiceUninstallDisk.GetDiskIdFromLunInfo
 title: IVdsServiceUninstallDisk::GetDiskIdFromLunInfo (vds.h)
-description: Retrieves the VDS object ID for the disk that corresponds to a specified LUN.
+description: Retrieves the VDS object ID for the disk that corresponds to a specified LUN.helpviewer_keywords: ["GetDiskIdFromLunInfo","GetDiskIdFromLunInfo method","GetDiskIdFromLunInfo method","IVdsServiceUninstallDisk interface","IVdsServiceUninstallDisk interface","GetDiskIdFromLunInfo method","IVdsServiceUninstallDisk.GetDiskIdFromLunInfo","IVdsServiceUninstallDisk::GetDiskIdFromLunInfo","base.ivdsserviceuninstalldisk_getdiskidfromluninfo","vds/IVdsServiceUninstallDisk::GetDiskIdFromLunInfo"]
 old-location: base\ivdsserviceuninstalldisk_getdiskidfromluninfo.htm
 tech.root: VDS
 ms.assetid: 0059bb30-2799-4a41-8a5c-bae3aa2bcfc4

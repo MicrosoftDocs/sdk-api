@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.IsBufferPrecisionSupported
 title: ID2D1EffectContext::IsBufferPrecisionSupported (d2d1effectauthor.h)
-description: Indicates whether the buffer precision is supported by the underlying Direct2D device.
+description: Indicates whether the buffer precision is supported by the underlying Direct2D device.helpviewer_keywords: ["ID2D1EffectContext interface [Direct2D]","IsBufferPrecisionSupported method","ID2D1EffectContext.IsBufferPrecisionSupported","ID2D1EffectContext::IsBufferPrecisionSupported","IsBufferPrecisionSupported","IsBufferPrecisionSupported method [Direct2D]","IsBufferPrecisionSupported method [Direct2D]","ID2D1EffectContext interface","d2d1effectauthor/ID2D1EffectContext::IsBufferPrecisionSupported","direct2d.id2d1effectcontext_isbufferprecisionsupported"]
 old-location: direct2d\id2d1effectcontext_isbufferprecisionsupported.htm
 tech.root: Direct2D
 ms.assetid: 731A7CF3-03E7-4D38-A8DD-8D207AE90B16

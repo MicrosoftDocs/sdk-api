@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IServicePartitionConfig.PartitionID
 title: IServicePartitionConfig::PartitionID (comsvcs.h)
-description: Sets the GUID for the partition that is used for the enclosed work.
+description: Sets the GUID for the partition that is used for the enclosed work.helpviewer_keywords: ["IServicePartitionConfig interface [COM+]","PartitionID method","IServicePartitionConfig.PartitionID","IServicePartitionConfig::PartitionID","PartitionID","PartitionID method [COM+]","PartitionID method [COM+]","IServicePartitionConfig interface","_cos_IServicePartitionConfig_PartitionID","comsvcs/IServicePartitionConfig::PartitionID","cos.iservicepartitionconfig_partitionid"]
 old-location: cos\iservicepartitionconfig_partitionid.htm
 tech.root: cossdk
 ms.assetid: 40480925-dfb6-40ea-a8ea-72659e359b47

@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_POLICY_ID
 title: CERT_POLICY_ID (wincrypt.h)
-description: The CERT_POLICY_ID structure contains a list of certificate policies that the certificate expressly supports, together with optional qualifier information pertaining to these policies.
+description: The CERT_POLICY_ID structure contains a list of certificate policies that the certificate expressly supports, together with optional qualifier information pertaining to these policies.helpviewer_keywords: ["*PCERT_POLICY_ID","CERT_POLICY_ID","CERT_POLICY_ID structure [Security]","PCERT_POLICY_ID","PCERT_POLICY_ID structure pointer [Security]","_crypto2_cert_policy_id","security.cert_policy_id","wincrypt/CERT_POLICY_ID","wincrypt/PCERT_POLICY_ID"]
 old-location: security\cert_policy_id.htm
 tech.root: SecCrypto
 ms.assetid: d0a8989c-3a32-4093-9db3-0811049b6601

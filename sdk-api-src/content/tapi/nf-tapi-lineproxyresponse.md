@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineProxyResponse
 title: lineProxyResponse function (tapi.h)
-description: Indicates completion of a proxy request by a registered proxy handler, such as an ACD agent handler on a server.
+description: Indicates completion of a proxy request by a registered proxy handler, such as an ACD agent handler on a server.helpviewer_keywords: ["_tapi2_lineproxyresponse","lineProxyResponse","lineProxyResponse function [TAPI 2.2]","tapi/lineProxyResponse","tapi2.lineproxyresponse"]
 old-location: tapi2\lineproxyresponse.htm
 tech.root: Tapi
 ms.assetid: af774fc5-d013-4da2-a737-9e99c09456a0

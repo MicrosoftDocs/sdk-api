@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.SetServiceDiscoverable
 title: IWSDDeviceHost::SetServiceDiscoverable (wsdhost.h)
-description: Controls whether or not the service is advertised using WS-Discovery.
+description: Controls whether or not the service is advertised using WS-Discovery.helpviewer_keywords: ["IWSDDeviceHost interface","SetServiceDiscoverable method","IWSDDeviceHost.SetServiceDiscoverable","IWSDDeviceHost::SetServiceDiscoverable","SetServiceDiscoverable","SetServiceDiscoverable method","SetServiceDiscoverable method","IWSDDeviceHost interface","ncd.iwsddevicehost_setservicediscoverable","wsdhost/IWSDDeviceHost::SetServiceDiscoverable"]
 old-location: ncd\iwsddevicehost_setservicediscoverable.htm
 tech.root: WsdApi
 ms.assetid: 8f6aa8f6-3b7a-4d13-a052-c73f21823661

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.ILFree
 title: ILFree function (shlobj_core.h)
-description: Frees an ITEMIDLIST structure allocated by the Shell.
+description: Frees an ITEMIDLIST structure allocated by the Shell.helpviewer_keywords: ["HashTable_CoTaskMemFreeCB","ILFree","ILFree function [Windows Shell]","_win32_ILFree","shell.ILFree","shlobj_core/HashTable_CoTaskMemFreeCB","shlobj_core/ILFree"]
 old-location: shell\ILFree.htm
 tech.root: shell
 ms.assetid: 3457f36e-fdfd-44a4-90ca-a86f00bc9f36

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymFunctionTableAccess64AccessRoutines
 title: SymFunctionTableAccess64AccessRoutines function (dbghelp.h)
-description: Finds a function table entry or frame pointer omission (FPO) record for an address.
+description: Finds a function table entry or frame pointer omission (FPO) record for an address.helpviewer_keywords: ["SymFunctionTableAccess64AccessRoutines","SymFunctionTableAccess64AccessRoutines function","base.symfunctiontableaccess64accessroutines","dbghelp/SymFunctionTableAccess64AccessRoutines"]
 old-location: base\symfunctiontableaccess64accessroutines.htm
 tech.root: Debug
 ms.assetid: 7AE8779A-F3F8-45FF-B11C-4D48CF76FDCA

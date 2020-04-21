@@ -1,7 +1,7 @@
 ---
 UID: NC:resapi.PEND_TYPE_CONTROL_CALL
 title: PEND_TYPE_CONTROL_CALL (resapi.h)
-description: Called when a resource type control code operation completes. The PEND_TYPE_CONTROL_CALL type defines a pointer to this function.
+description: Called when a resource type control code operation completes. The PEND_TYPE_CONTROL_CALL type defines a pointer to this function.helpviewer_keywords: ["EndTypeControlCall","EndTypeControlCall callback","EndTypeControlCall callback function [Failover Cluster]","PEND_TYPE_CONTROL_CALL","PEND_TYPE_CONTROL_CALL callback function [Failover Cluster]","mscs.endtypecontrolcall","resapi/EndTypeControlCall","resapi/PEND_TYPE_CONTROL_CALL"]
 old-location: mscs\endtypecontrolcall.htm
 tech.root: MsCS
 ms.assetid: EF3C2DFA-2B8A-4709-A6B6-56427C0C00A5

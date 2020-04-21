@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_HALINFO
 title: DD_HALINFO (ddrawint.h)
-description: The DD_HALINFO structure describes the capabilities of the hardware and driver.
+description: The DD_HALINFO structure describes the capabilities of the hardware and driver.helpviewer_keywords: ["*PDD_HALINFO","DD_HALINFO","DD_HALINFO structure [Display Devices]","PDD_HALINFO","PDD_HALINFO structure pointer [Display Devices]","ddrawint/DD_HALINFO","ddrawint/PDD_HALINFO","ddstrcts_3b4465cc-0f18-431c-b0a5-bf5bfb854f05.xml","display.dd_halinfo"]
 old-location: display\dd_halinfo.htm
 tech.root: display
 ms.assetid: 99ecd219-1e85-4904-867d-3efcb378bb11

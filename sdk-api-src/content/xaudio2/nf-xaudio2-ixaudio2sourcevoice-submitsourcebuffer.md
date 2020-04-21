@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.SubmitSourceBuffer
 title: IXAudio2SourceVoice::SubmitSourceBuffer (xaudio2.h)
-description: Adds a new audio buffer to the voice queue.
+description: Adds a new audio buffer to the voice queue.helpviewer_keywords: ["IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","SubmitSourceBuffer method","IXAudio2SourceVoice.SubmitSourceBuffer","IXAudio2SourceVoice::SubmitSourceBuffer","SubmitSourceBuffer","SubmitSourceBuffer method [XAudio2 Audio Mixing APIs]","SubmitSourceBuffer method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","xaudio2.ixaudio2sourcevoice_interface_submitsourcebuffer","xaudio2/IXAudio2SourceVoice::SubmitSourceBuffer"]
 old-location: xaudio2\ixaudio2sourcevoice_interface_submitsourcebuffer.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SubmitSourceBuffer(const XAUDIO2_BUFFER,const XAUDIO2_BUFFER_WMA)

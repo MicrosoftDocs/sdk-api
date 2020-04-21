@@ -1,7 +1,7 @@
 ---
 UID: NN:certexit.ICertExit
 title: ICertExit (certexit.h)
-description: Provides communications between the Certificate Services server and an exit module.
+description: Provides communications between the Certificate Services server and an exit module.helpviewer_keywords: ["ICertExit","ICertExit interface [Security]","ICertExit interface [Security]","described","_certsrv_icertexit","certexit/ICertExit","security.icertexit"]
 old-location: security\icertexit.htm
 tech.root: SecCrypto
 ms.assetid: 731c4f3c-20b4-4f3d-8241-a94cdf656fe5

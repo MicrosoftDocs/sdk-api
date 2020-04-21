@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkWordList.RemoveWord
 title: IInkWordList::RemoveWord (msinkaut.h)
-description: Removes a single word from an InkWordList.
+description: Removes a single word from an InkWordList.helpviewer_keywords: ["8bb88cad-7c63-4c2f-9aa1-96eae3a2e89d","IInkWordList","IInkWordList interface [Tablet PC]","RemoveWord method","IInkWordList.RemoveWord","IInkWordList::RemoveWord","InkWordList class [Tablet PC]","RemoveWord method","RemoveWord","RemoveWord method [Tablet PC]","RemoveWord method [Tablet PC]","IInkWordList interface","RemoveWord method [Tablet PC]","InkWordList class","msinkaut/IInkWordList::RemoveWord","tablet.inkwordlist_removeword"]
 old-location: tablet\inkwordlist_removeword.htm
 tech.root: tablet
 ms.assetid: 8bb88cad-7c63-4c2f-9aa1-96eae3a2e89d

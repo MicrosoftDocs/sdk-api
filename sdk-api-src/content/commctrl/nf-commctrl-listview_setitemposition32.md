@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_SetItemPosition32
 title: ListView_SetItemPosition32 macro (commctrl.h)
-description: Moves an item to a specified position in a list-view control (in icon or small icon view).
+description: Moves an item to a specified position in a list-view control (in icon or small icon view).helpviewer_keywords: ["ListView_SetItemPosition32","ListView_SetItemPosition32 macro [Windows Controls]","_win32_ListView_SetItemPosition32","_win32_ListView_SetItemPosition32_cpp","commctrl/ListView_SetItemPosition32","controls.ListView_SetItemPosition32","controls._win32_ListView_SetItemPosition32"]
 old-location: controls\ListView_SetItemPosition32.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemposition32.htm

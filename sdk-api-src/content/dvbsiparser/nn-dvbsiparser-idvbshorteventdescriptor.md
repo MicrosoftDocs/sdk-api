@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IDvbShortEventDescriptor
 title: IDvbShortEventDescriptor (dvbsiparser.h)
-description: Implements methods that get data from a Digital Video Broadcast (DVB) short event descriptor.
+description: Implements methods that get data from a Digital Video Broadcast (DVB) short event descriptor.helpviewer_keywords: ["IDvbShortEventDescriptor","IDvbShortEventDescriptor interface [Microsoft TV Technologies]","IDvbShortEventDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbShortEventDescriptor","mstv.idvbshorteventdescriptor"]
 old-location: mstv\idvbshorteventdescriptor.htm
 tech.root: mstv
 ms.assetid: 039ae2e1-1dad-4a70-a054-bd95b0b500fb

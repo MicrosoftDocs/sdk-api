@@ -1,7 +1,7 @@
 ---
 UID: NE:faxcomex.FAX_ACCOUNT_EVENTS_TYPE_ENUM
 title: FAX_ACCOUNT_EVENTS_TYPE_ENUM (faxcomex.h)
-description: Specifies the types of event notifications, on a particular account, that the server sends to listening clients.
+description: Specifies the types of event notifications, on a particular account, that the server sends to listening clients.helpviewer_keywords: ["FAX_ACCOUNT_EVENTS_TYPE_ENUM","FAX_ACCOUNT_EVENTS_TYPE_ENUM enumeration [Fax Service]","_mfax_fax_account_events_type_enum","faetFXSSVC_ENDED","faetIN_ARCHIVE","faetIN_QUEUE","faetNONE","faetOUT_ARCHIVE","faetOUT_QUEUE","fax._mfax_fax_account_events_type_enum","faxcomex/FAX_ACCOUNT_EVENTS_TYPE_ENUM","faxcomex/faetFXSSVC_ENDED","faxcomex/faetIN_ARCHIVE","faxcomex/faetIN_QUEUE","faxcomex/faetNONE","faxcomex/faetOUT_ARCHIVE","faxcomex/faetOUT_QUEUE"]
 old-location: fax\_mfax_fax_account_events_type_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\e\faxinto_z_fax_account_events_type_enum.htm

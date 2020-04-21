@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel_1.IXpsOMRemoteDictionaryResource1
 title: IXpsOMRemoteDictionaryResource1 (xpsobjectmodel_1.h)
-description: Extends IXpsOMRemoteDictionaryResource to provide methods that support OpenXPS documents.
+description: Extends IXpsOMRemoteDictionaryResource to provide methods that support OpenXPS documents.helpviewer_keywords: ["IXpsOMRemoteDictionaryResource1","IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging]","described","xps.ixpsomremotedictionaryresource1","xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1"]
 old-location: xps\ixpsomremotedictionaryresource1.htm
 tech.root: printdocs
 ms.assetid: 4B8DEDC7-4D7A-408F-9B2B-67B6FC87372F

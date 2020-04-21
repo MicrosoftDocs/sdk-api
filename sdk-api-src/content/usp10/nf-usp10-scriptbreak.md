@@ -1,7 +1,7 @@
 ---
 UID: NF:usp10.ScriptBreak
 title: ScriptBreak function (usp10.h)
-description: Retrieves information for determining line breaks.
+description: Retrieves information for determining line breaks.helpviewer_keywords: ["ScriptBreak","ScriptBreak function [Internationalization for Windows Applications]","_win32_ScriptBreak","intl.scriptbreak","usp10/ScriptBreak"]
 old-location: intl\scriptbreak.htm
 tech.root: Intl
 ms.assetid: 1613819f-9473-4d9f-8a65-a109c9ef3f43

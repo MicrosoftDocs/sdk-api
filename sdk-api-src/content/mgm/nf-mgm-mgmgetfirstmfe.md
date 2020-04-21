@@ -1,7 +1,7 @@
 ---
 UID: NF:mgm.MgmGetFirstMfe
 title: MgmGetFirstMfe function (mgm.h)
-description: The MgmGetFirstMfe function retrieves MFEs starting at the beginning of the MFE list.
+description: The MgmGetFirstMfe function retrieves MFEs starting at the beginning of the MFE list.helpviewer_keywords: ["MgmGetFirstMfe","MgmGetFirstMfe function [RAS]","_mpr_mgmgetfirstmfe","mgm/MgmGetFirstMfe","rras.mgmgetfirstmfe"]
 old-location: rras\mgmgetfirstmfe.htm
 tech.root: RRAS
 ms.assetid: b270efc9-479c-4f70-a29d-1fee269c4f30

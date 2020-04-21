@@ -1,7 +1,7 @@
 ---
 UID: NE:textstor.__MIDL_IAnchor_0002
 title: TsShiftDir (textstor.h)
-description: Elements of the TsShiftDir enumeration specify which direction an anchor is moved.
+description: Elements of the TsShiftDir enumeration specify which direction an anchor is moved.helpviewer_keywords: ["TS_SD_BACKWARD","TS_SD_FORWARD","TsShiftDir","TsShiftDir enumeration [Text Services Framework]","_tsf_tsshiftdir_ref","textstor/TS_SD_BACKWARD","textstor/TS_SD_FORWARD","textstor/TsShiftDir","tsf.tsshiftdir"]
 old-location: tsf\tsshiftdir.htm
 tech.root: TSF
 ms.assetid: e247b79d-354c-4211-9160-e705436d669c

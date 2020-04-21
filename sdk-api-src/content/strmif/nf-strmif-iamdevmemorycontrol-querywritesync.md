@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMDevMemoryControl.QueryWriteSync
 title: IAMDevMemoryControl::QueryWriteSync (strmif.h)
-description: Note  The IAMDevMemoryControl interface is deprecated. Checks if the memory supported by the allocator requires the use of the IAMDevMemoryControl::WriteSync method.
+description: Note  The IAMDevMemoryControl interface is deprecated. Checks if the memory supported by the allocator requires the use of the IAMDevMemoryControl::WriteSync method.helpviewer_keywords: ["IAMDevMemoryControl interface [DirectShow]","QueryWriteSync method","IAMDevMemoryControl.QueryWriteSync","IAMDevMemoryControl::QueryWriteSync","IAMDevMemoryControlQueryWriteSync","QueryWriteSync","QueryWriteSync method [DirectShow]","QueryWriteSync method [DirectShow]","IAMDevMemoryControl interface","dshow.iamdevmemorycontrol_querywritesync","strmif/IAMDevMemoryControl::QueryWriteSync"]
 old-location: dshow\iamdevmemorycontrol_querywritesync.htm
 tech.root: DirectShow
 ms.assetid: ec6dd7e2-b1f2-48fa-bf79-2688e286425e

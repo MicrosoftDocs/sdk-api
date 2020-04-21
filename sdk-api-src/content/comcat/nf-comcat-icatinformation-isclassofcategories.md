@@ -1,7 +1,7 @@
 ---
 UID: NF:comcat.ICatInformation.IsClassOfCategories
 title: ICatInformation::IsClassOfCategories (comcat.h)
-description: Determines whether a class implements one or more categories.
+description: Determines whether a class implements one or more categories.helpviewer_keywords: ["ICatInformation interface [COM]","IsClassOfCategories method","ICatInformation.IsClassOfCategories","ICatInformation::IsClassOfCategories","IsClassOfCategories","IsClassOfCategories method [COM]","IsClassOfCategories method [COM]","ICatInformation interface","_com_icatinformation_isclassofcategories","com.icatinformation_isclassofcategories","comcat/ICatInformation::IsClassOfCategories"]
 old-location: com\icatinformation_isclassofcategories.htm
 tech.root: com
 ms.assetid: 772d4d75-2076-4922-bf47-2e6e41a5687d

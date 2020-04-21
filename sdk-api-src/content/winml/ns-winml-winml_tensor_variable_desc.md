@@ -1,7 +1,7 @@
 ---
 UID: NS:winml.WINML_TENSOR_VARIABLE_DESC
 title: WINML_TENSOR_VARIABLE_DESC (winml.h)
-description: Contains description properties of the tensor variable.
+description: Contains description properties of the tensor variable.helpviewer_keywords: ["MachineLearning.winml_tensor_variable_desc","PWINML_TENSOR_VARIABLE_DESC","PWINML_TENSOR_VARIABLE_DESC structure pointer","WINML_TENSOR_VARIABLE_DESC","WINML_TENSOR_VARIABLE_DESC structure","winml/PWINML_TENSOR_VARIABLE_DESC","winml/WINML_TENSOR_VARIABLE_DESC"]
 old-location: machinelearning\winml_tensor_variable_desc.htm
 tech.root: MachineLearning
 ms.assetid: 71D65FC6-7A2B-40D6-B040-213C8BC77BE0

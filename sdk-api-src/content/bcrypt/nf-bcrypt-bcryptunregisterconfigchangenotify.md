@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptUnregisterConfigChangeNotify
 title: BCryptUnregisterConfigChangeNotify function (bcrypt.h)
-description: Removes a user mode CNG configuration change event handler that was created by using the BCryptRegisterConfigChangeNotify(HANDLE*) function.
+description: Removes a user mode CNG configuration change event handler that was created by using the BCryptRegisterConfigChangeNotify(HANDLE*) function.helpviewer_keywords: ["BCryptUnregisterConfigChangeNotify","BCryptUnregisterConfigChangeNotify function [Security]","BCryptUnregisterConfigChangeNotify(HANDLE)","bcrypt/BCryptUnregisterConfigChangeNotify","security.bcryptunregisterconfigchangenotify_handle"]
 old-location: security\bcryptunregisterconfigchangenotify_handle.htm
 tech.root: SecCNG
 ms.assetid: 204d289d-46c0-4815-a628-758310014790

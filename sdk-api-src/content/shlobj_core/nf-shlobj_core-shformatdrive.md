@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHFormatDrive
 title: SHFormatDrive function (shlobj_core.h)
-description: SHFormatDrive may be altered or unavailable.
+description: SHFormatDrive may be altered or unavailable.helpviewer_keywords: ["SHFMT_ID_DEFAULT","SHFMT_OPT_FULL","SHFMT_OPT_SYSONLY","SHFormatDrive","SHFormatDrive function [Windows Shell]","shell.SHFormatDrive","shell_SHFormatDrive","shlobj_core/SHFormatDrive"]
 old-location: shell\SHFormatDrive.htm
 tech.root: shell
 ms.assetid: 4aa255fa-c407-47db-9b1f-d449e0a0e94f

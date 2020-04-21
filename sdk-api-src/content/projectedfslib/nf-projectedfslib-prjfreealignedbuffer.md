@@ -1,7 +1,7 @@
 ---
 UID: NF:projectedfslib.PrjFreeAlignedBuffer
 title: PrjFreeAlignedBuffer function (projectedfslib.h)
-description: Frees an allocated buffer.
+description: Frees an allocated buffer.helpviewer_keywords: ["PrjFreeAlignedBuffer","PrjFreeAlignedBuffer function","ProjFS.prjfreealignedbuffer","projectedfslib/PrjFreeAlignedBuffer"]
 old-location: projfs\prjfreealignedbuffer.htm
 tech.root: ProjFS
 ms.assetid: EE5AC099-CB39-48B1-BB7B-8C9B436AA4A3

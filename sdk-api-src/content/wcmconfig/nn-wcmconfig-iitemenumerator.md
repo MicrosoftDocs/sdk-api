@@ -1,7 +1,7 @@
 ---
 UID: NN:wcmconfig.IItemEnumerator
 title: IItemEnumerator (wcmconfig.h)
-description: Enumerates the items of a collection of settings and attributes.
+description: Enumerates the items of a collection of settings and attributes.helpviewer_keywords: ["IItemEnumerator","IItemEnumerator interface [SMI]","IItemEnumerator interface [SMI]","described","smi.iitemenumerator","wcmconfig/IItemEnumerator"]
 old-location: smi\iitemenumerator.htm
 tech.root: SMI
 ms.assetid: f43245f1-81d9-4b06-8f0c-d490618a99fa

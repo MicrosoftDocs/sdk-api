@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfFnSearchCandidateProvider.SetResult
 title: ITfFnSearchCandidateProvider::SetResult (ctffunc.h)
-description: Provides a text Service or IME with history data when a candidate is chosen by the user.
+description: Provides a text Service or IME with history data when a candidate is chosen by the user.helpviewer_keywords: ["ITfFnSearchCandidateProvider interface [Text Services Framework]","SetResult method","ITfFnSearchCandidateProvider.SetResult","ITfFnSearchCandidateProvider::SetResult","SetResult","SetResult method [Text Services Framework]","SetResult method [Text Services Framework]","ITfFnSearchCandidateProvider interface","ctffunc/ITfFnSearchCandidateProvider::SetResult","tsf.itffnsearchcandidateprovider_setresult"]
 old-location: tsf\itffnsearchcandidateprovider_setresult.htm
 tech.root: TSF
 ms.assetid: 5C4DA0D3-58FD-4955-9658-29ECD8FECEC1

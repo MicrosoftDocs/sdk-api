@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_DRIVE_GEOMETRY
 title: IOCTL_DISK_GET_DRIVE_GEOMETRY
-description: Retrieves information about the physical disk's geometry:\_type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector.
+description: Retrieves information about the physical disk's geometry:\_type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector.helpviewer_keywords: ["IOCTL_DISK_GET_DRIVE_GEOMETRY","IOCTL_DISK_GET_DRIVE_GEOMETRY control","IOCTL_DISK_GET_DRIVE_GEOMETRY control code [Files]","_win32_ioctl_disk_get_drive_geometry","base.ioctl_disk_get_drive_geometry","fs.ioctl_disk_get_drive_geometry","winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY"]
 old-location: fs\ioctl_disk_get_drive_geometry.htm
 tech.root: FileIO
 ms.assetid: 574efc29-112b-42fe-ad1b-72543f20e831

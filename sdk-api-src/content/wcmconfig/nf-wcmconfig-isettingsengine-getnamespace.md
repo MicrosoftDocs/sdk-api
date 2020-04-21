@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetNamespace
 title: ISettingsEngine::GetNamespace (wcmconfig.h)
-description: Opens an existing namespace as specified by the ISettingsIdentity parameter.
+description: Opens an existing namespace as specified by the ISettingsIdentity parameter.helpviewer_keywords: ["GetNamespace","GetNamespace method [SMI]","GetNamespace method [SMI]","ISettingsEngine interface","ISettingsEngine interface [SMI]","GetNamespace method","ISettingsEngine.GetNamespace","ISettingsEngine::GetNamespace","smi.isettingsengine_getnamespace","wcmconfig/ISettingsEngine::GetNamespace"]
 old-location: smi\isettingsengine_getnamespace.htm
 tech.root: SMI
 ms.assetid: 4f8193f5-9e9f-4819-aa2e-72b8623eca71

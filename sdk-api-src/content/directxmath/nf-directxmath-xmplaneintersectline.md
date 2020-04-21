@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMPlaneIntersectLine
 title: XMPlaneIntersectLine function (directxmath.h)
-description: Finds the intersection between a plane and a line.
+description: Finds the intersection between a plane and a line.helpviewer_keywords: ["Use DirectX..XMPlaneIntersectLine","XMPlaneIntersectLine","XMPlaneIntersectLine method [DirectX Math Support APIs]","dxmath.xmplaneintersectline"]
 old-location: dxmath\xmplaneintersectline.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneIntersectLine(XMVECTOR,XMVECTOR,XMVECTOR)

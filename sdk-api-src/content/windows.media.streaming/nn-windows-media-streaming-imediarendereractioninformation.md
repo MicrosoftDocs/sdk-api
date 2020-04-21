@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.media.streaming.IMediaRendererActionInformation
 title: IMediaRendererActionInformation (windows.media.streaming.h)
-description: Encapsulates the methods needed to provide information about what methods can currently be invoked on the DMR.
+description: Encapsulates the methods needed to provide information about what methods can currently be invoked on the DMR.helpviewer_keywords: ["IMediaRendererActionInformation","IMediaRendererActionInformation interface [Media Streaming API]","IMediaRendererActionInformation interface [Media Streaming API]","described","mediastreaming.imediarendereractioninformation","windows/IMediaRendererActionInformation"]
 old-location: mediastreaming\imediarendereractioninformation.htm
 tech.root: mediastreaming
 ms.assetid: 854C7024-D582-405D-8A5F-C152DE8BE0BE

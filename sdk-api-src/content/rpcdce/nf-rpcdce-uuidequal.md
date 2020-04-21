@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.UuidEqual
 title: UuidEqual function (rpcdce.h)
-description: An application calls the UuidEqual function to compare two UUIDs and determine whether they are equal.
+description: An application calls the UuidEqual function to compare two UUIDs and determine whether they are equal.helpviewer_keywords: ["UuidEqual","UuidEqual function [RPC]","_rpc_uuidequal","rpc.uuidequal","rpcdce/UuidEqual"]
 old-location: rpc\uuidequal.htm
 tech.root: Rpc
 ms.assetid: ff83c66c-1f1f-4582-a93b-d7bb5181deec

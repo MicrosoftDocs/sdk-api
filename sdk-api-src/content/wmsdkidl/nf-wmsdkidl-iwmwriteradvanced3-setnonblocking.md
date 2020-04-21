@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced3.SetNonBlocking
 title: IWMWriterAdvanced3::SetNonBlocking (wmsdkidl.h)
-description: The SetNonBlocking method configures the writer so that the calling thread is not blocked while writing samples.
+description: The SetNonBlocking method configures the writer so that the calling thread is not blocked while writing samples.helpviewer_keywords: ["IWMWriterAdvanced3 interface [windows Media Format]","SetNonBlocking method","IWMWriterAdvanced3.SetNonBlocking","IWMWriterAdvanced3::SetNonBlocking","IWMWriterAdvanced3SetNonBlocking","SetNonBlocking","SetNonBlocking method [windows Media Format]","SetNonBlocking method [windows Media Format]","IWMWriterAdvanced3 interface","wmformat.iwmwriteradvanced3_setnonblocking","wmsdkidl/IWMWriterAdvanced3::SetNonBlocking"]
 old-location: wmformat\iwmwriteradvanced3_setnonblocking.htm
 tech.root: wmformat
 ms.assetid: 4bec5e6c-5f77-433c-95e0-e3df4dba905c

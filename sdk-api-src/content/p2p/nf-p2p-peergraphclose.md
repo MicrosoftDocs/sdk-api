@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerGraphClose
 title: PeerGraphClose function (p2p.h)
-description: The PeerGraphClose function invalidates the peer graph handle returned by a call to either PeerGraphCreate or PeerGraphOpen, and closes all network connections for the specified peer graph.
+description: The PeerGraphClose function invalidates the peer graph handle returned by a call to either PeerGraphCreate or PeerGraphOpen, and closes all network connections for the specified peer graph.helpviewer_keywords: ["PeerGraphClose","PeerGraphClose function [Peer Networking]","p2p.peergraphclose","p2p/PeerGraphClose"]
 old-location: p2p\peergraphclose.htm
 tech.root: P2PSdk
 ms.assetid: 7600da14-7641-4b5c-b5ba-e33ffc28097c

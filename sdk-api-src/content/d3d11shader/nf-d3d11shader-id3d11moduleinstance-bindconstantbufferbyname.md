@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindConstantBufferByName
 title: ID3D11ModuleInstance::BindConstantBufferByName (d3d11shader.h)
-description: Rebinds a constant buffer by name to a destination slot.
+description: Rebinds a constant buffer by name to a destination slot.helpviewer_keywords: ["BindConstantBufferByName","BindConstantBufferByName method [Direct3D 11]","BindConstantBufferByName method [Direct3D 11]","ID3D11ModuleInstance interface","ID3D11ModuleInstance interface [Direct3D 11]","BindConstantBufferByName method","ID3D11ModuleInstance.BindConstantBufferByName","ID3D11ModuleInstance::BindConstantBufferByName","d3d11shader/ID3D11ModuleInstance::BindConstantBufferByName","direct3d11.id3d11moduleinstance_bindconstantbufferbyname"]
 old-location: direct3d11\id3d11moduleinstance_bindconstantbufferbyname.htm
 tech.root: direct3d11
 ms.assetid: ACC4A9C6-8B6A-4923-A51E-66AB423F12D5

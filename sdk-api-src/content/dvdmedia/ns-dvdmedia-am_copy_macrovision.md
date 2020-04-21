@@ -1,7 +1,7 @@
 ---
 UID: NS:dvdmedia._AM_COPY_MACROVISION
 title: AM_COPY_MACROVISION (dvdmedia.h)
-description: The AM_COPY_MACROVISION structure specifies the analog copy protection level for an NTSC encoder.
+description: The AM_COPY_MACROVISION structure specifies the analog copy protection level for an NTSC encoder.helpviewer_keywords: ["*PAM_COPY_MACROVISION","AM_COPY_MACROVISION","AM_COPY_MACROVISION structure [DirectShow]","PAM_COPY_MACROVISION","PAM_COPY_MACROVISION structure pointer [DirectShow]","dshow.am_copy_macrovision","dvdmedia/AM_COPY_MACROVISION","dvdmedia/PAM_COPY_MACROVISION"]
 old-location: dshow\am_copy_macrovision.htm
 tech.root: DirectShow
 ms.assetid: 7fb1b12a-92f4-48e2-8ebe-359ebc33cd09

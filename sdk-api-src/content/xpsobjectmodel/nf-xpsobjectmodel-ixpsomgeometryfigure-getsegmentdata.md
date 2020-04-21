@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentData
 title: IXpsOMGeometryFigure::GetSegmentData (xpsobjectmodel.h)
-description: Gets the segment data points for the geometry figure.
+description: Gets the segment data points for the geometry figure.helpviewer_keywords: ["GetSegmentData","GetSegmentData method [XPS Documents and Packaging]","GetSegmentData method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetSegmentData method","IXpsOMGeometryFigure.GetSegmentData","IXpsOMGeometryFigure::GetSegmentData","xps.ixpsomgeometryfigure_getsegmentdata","xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentData"]
 old-location: xps\ixpsomgeometryfigure_getsegmentdata.htm
 tech.root: printdocs
 ms.assetid: e2e6be6f-3a9d-4d39-875f-cd23bc82e74b

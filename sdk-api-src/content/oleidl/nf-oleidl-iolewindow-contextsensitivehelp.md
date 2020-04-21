@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleWindow.ContextSensitiveHelp
 title: IOleWindow::ContextSensitiveHelp (oleidl.h)
-description: Determines whether context-sensitive help mode should be entered during an in-place activation session.
+description: Determines whether context-sensitive help mode should be entered during an in-place activation session.helpviewer_keywords: ["ContextSensitiveHelp","ContextSensitiveHelp method [COM]","ContextSensitiveHelp method [COM]","IOleWindow interface","IOleInPlaceSiteWindowless.ContextSensitiveHelp","IOleWindow interface [COM]","ContextSensitiveHelp method","IOleWindow.ContextSensitiveHelp","IOleWindow::ContextSensitiveHelp","_ole_iolewindow_contextsensitivehelp","com.iolewindow_contextsensitivehelp","oleidl/IOleWindow::ContextSensitiveHelp"]
 old-location: com\iolewindow_contextsensitivehelp.htm
 tech.root: com
 ms.assetid: 253f26c6-b5dd-4837-9135-96e11b4688c8

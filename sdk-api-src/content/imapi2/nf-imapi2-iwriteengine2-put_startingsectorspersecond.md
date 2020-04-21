@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IWriteEngine2.put_StartingSectorsPerSecond
 title: IWriteEngine2::put_StartingSectorsPerSecond (imapi2.h)
-description: Sets the estimated number of sectors per second that the recording device can write to the media at the start of the writing process.
+description: Sets the estimated number of sectors per second that the recording device can write to the media at the start of the writing process.helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","put_StartingSectorsPerSecond method","IWriteEngine2.put_StartingSectorsPerSecond","IWriteEngine2::put_StartingSectorsPerSecond","imapi.iwriteengine2_put_startingsectorspersecond","imapi2/IWriteEngine2::put_StartingSectorsPerSecond","put_StartingSectorsPerSecond","put_StartingSectorsPerSecond method [IMAPI]","put_StartingSectorsPerSecond method [IMAPI]","IWriteEngine2 interface"]
 old-location: imapi\iwriteengine2_put_startingsectorspersecond.htm
 tech.root: imapi
 ms.assetid: 80d6efdd-c3ce-4c6b-9bc2-7ad34c1dfb5e

@@ -1,7 +1,7 @@
 ---
 UID: NS:ifdef._NDIS_INTERFACE_INFORMATION
 title: NDIS_INTERFACE_INFORMATION (ifdef.h)
-description: The NDIS_INTERFACE_INFORMATION structure provides information about a network interface for the OID_GEN_INTERFACE_INFO OID.
+description: The NDIS_INTERFACE_INFORMATION structure provides information about a network interface for the OID_GEN_INTERFACE_INFO OID.helpviewer_keywords: ["*PNDIS_INTERFACE_INFORMATION","NDIS_INTERFACE_INFORMATION","NDIS_INTERFACE_INFORMATION structure [Network Drivers Starting with Windows Vista]","PNDIS_INTERFACE_INFORMATION","PNDIS_INTERFACE_INFORMATION structure pointer [Network Drivers Starting with Windows Vista]","ifdef/NDIS_INTERFACE_INFORMATION","ifdef/PNDIS_INTERFACE_INFORMATION","net_if_struct_ref_7b31aa66-635c-4992-b5d6-301c004bdc8a.xml","netvista.ndis_interface_information_str"]
 old-location: netvista\ndis_interface_information_str.htm
 tech.root: NetVista
 ms.assetid: 9bfcd319-faff-4bae-8653-511154c19863

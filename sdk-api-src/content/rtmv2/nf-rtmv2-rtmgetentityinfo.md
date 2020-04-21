@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmGetEntityInfo
 title: RtmGetEntityInfo function (rtmv2.h)
-description: The RtmGetEntityInfo function returns information about a previously registered client.
+description: The RtmGetEntityInfo function returns information about a previously registered client.helpviewer_keywords: ["RtmGetEntityInfo","RtmGetEntityInfo function [RAS]","_rtmv2ref_rtmgetentityinfo","rras.rtmgetentityinfo","rtmv2/RtmGetEntityInfo"]
 old-location: rras\rtmgetentityinfo.htm
 tech.root: RRAS
 ms.assetid: 6062369c-22c7-48e4-9dd3-91efba22df34

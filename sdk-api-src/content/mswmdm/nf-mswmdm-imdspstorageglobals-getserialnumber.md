@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetSerialNumber
 title: IMDSPStorageGlobals::GetSerialNumber (mswmdm.h)
-description: The GetSerialNumber method retrieves a serial number uniquely identifying the storage medium. This method must be implemented for protected content transfer, but otherwise it is optional. For more information, see Mandatory and Optional Interfaces.
+description: The GetSerialNumber method retrieves a serial number uniquely identifying the storage medium. This method must be implemented for protected content transfer, but otherwise it is optional. For more information, see Mandatory and Optional Interfaces.helpviewer_keywords: ["GetSerialNumber","GetSerialNumber method [windows Media Device Manager]","GetSerialNumber method [windows Media Device Manager]","IMDSPStorageGlobals interface","IMDSPStorageGlobals interface [windows Media Device Manager]","GetSerialNumber method","IMDSPStorageGlobals.GetSerialNumber","IMDSPStorageGlobals::GetSerialNumber","IMDSPStorageGlobalsGetSerialNumber","mswmdm/IMDSPStorageGlobals::GetSerialNumber","wmdm.imdspstorageglobals_getserialnumber"]
 old-location: wmdm\imdspstorageglobals_getserialnumber.htm
 tech.root: WMDM
 ms.assetid: 42765429-c230-4fa1-9e2e-e21c71e49ae0

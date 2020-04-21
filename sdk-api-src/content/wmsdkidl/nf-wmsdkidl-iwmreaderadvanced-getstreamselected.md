@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetStreamSelected
 title: IWMReaderAdvanced::GetStreamSelected (wmsdkidl.h)
-description: The GetStreamSelected method ascertains whether a particular stream is currently selected. This method can be used only when manual stream selection has been specified.
+description: The GetStreamSelected method ascertains whether a particular stream is currently selected. This method can be used only when manual stream selection has been specified.helpviewer_keywords: ["GetStreamSelected","GetStreamSelected method [windows Media Format]","GetStreamSelected method [windows Media Format]","IWMReaderAdvanced interface","IWMReaderAdvanced interface [windows Media Format]","GetStreamSelected method","IWMReaderAdvanced.GetStreamSelected","IWMReaderAdvanced::GetStreamSelected","IWMReaderAdvancedGetStreamSelected","wmformat.iwmreaderadvanced_getstreamselected","wmsdkidl/IWMReaderAdvanced::GetStreamSelected"]
 old-location: wmformat\iwmreaderadvanced_getstreamselected.htm
 tech.root: wmformat
 ms.assetid: 083fc743-79be-43c6-ac4b-458c74f42fa0

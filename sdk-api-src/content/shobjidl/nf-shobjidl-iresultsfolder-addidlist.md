@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IResultsFolder.AddIDList
 title: IResultsFolder::AddIDList (shobjidl.h)
-description: Inserts a pointer to an item identifier list (PIDL) into a results folder.
+description: Inserts a pointer to an item identifier list (PIDL) into a results folder.helpviewer_keywords: ["AddIDList","AddIDList method [Windows Shell]","AddIDList method [Windows Shell]","IResultsFolder interface","IResultsFolder interface [Windows Shell]","AddIDList method","IResultsFolder.AddIDList","IResultsFolder::AddIDList","_shell_IResultsFolder_AddIDList","shell.IResultsFolder_AddIDList","shobjidl/IResultsFolder::AddIDList"]
 old-location: shell\IResultsFolder_AddIDList.htm
 tech.root: shell
 ms.assetid: 0514fe4d-87d3-4665-a35b-9f9788fc169d

@@ -1,7 +1,7 @@
 ---
 UID: NE:appmodel.AppPolicyProcessTerminationMethod
 title: AppPolicyProcessTerminationMethod (appmodel.h)
-description: The AppPolicyProcessTerminationMethod enumeration indicates the method used to end a process.
+description: The AppPolicyProcessTerminationMethod enumeration indicates the method used to end a process.helpviewer_keywords: ["AppPolicyProcessTerminationMethod","AppPolicyProcessTerminationMethod enumeration [App packaging and management]","AppPolicyProcessTerminationMethod_ExitProcess","AppPolicyProcessTerminationMethod_TerminateProcess","appmodel/AppPolicyProcessTerminationMethod","appmodel/AppPolicyProcessTerminationMethod_ExitProcess","appmodel/AppPolicyProcessTerminationMethod_TerminateProcess","appxpkg.apppolicyprocessterminationmethod_enumeration"]
 old-location: appxpkg\apppolicyprocessterminationmethod_enumeration.htm
 tech.root: appxpkg
 ms.assetid: 874B576A-1AB5-4712-BF04-0406E5FE4923

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.GetDisabledByIndex
 title: IMFPluginControl::GetDisabledByIndex (mfobjects.h)
-description: Gets a class identifier (CLSID) from the blocked list.
+description: Gets a class identifier (CLSID) from the blocked list.helpviewer_keywords: ["GetDisabledByIndex","GetDisabledByIndex method [Media Foundation]","GetDisabledByIndex method [Media Foundation]","IMFPluginControl interface","IMFPluginControl interface [Media Foundation]","GetDisabledByIndex method","IMFPluginControl.GetDisabledByIndex","IMFPluginControl::GetDisabledByIndex","mf.imfplugincontrol_imfplugincontrol__getdisabledbyindex","mfobjects/IMFPluginControl::GetDisabledByIndex"]
 old-location: mf\imfplugincontrol_imfplugincontrol__getdisabledbyindex.htm
 tech.root: medfound
 ms.assetid: fae7ca09-3e37-444b-a4bc-bfd522917e3f

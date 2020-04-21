@@ -1,7 +1,7 @@
 ---
 UID: NS:projectedfslib.PRJ_CALLBACKS
 title: PRJ_CALLBACKS (projectedfslib.h)
-description: A set of callback routines to where the provider stores its implementation of the callback.
+description: A set of callback routines to where the provider stores its implementation of the callback.helpviewer_keywords: ["PRJ_CALLBACKS","PRJ_CALLBACKS structure","ProjFS.prj_callbacks","projectedfslib/PRJ_CALLBACKS"]
 old-location: projfs\prj_callbacks.htm
 tech.root: ProjFS
 ms.assetid: 2FFF6A39-92C0-4BD1-B293-AC5650B2575C

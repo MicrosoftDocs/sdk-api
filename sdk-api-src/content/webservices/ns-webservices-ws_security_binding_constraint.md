@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SECURITY_BINDING_CONSTRAINT
 title: WS_SECURITY_BINDING_CONSTRAINT (webservices.h)
-description: The base class for all security binding constraint structures.
+description: The base class for all security binding constraint structures.helpviewer_keywords: ["WS_SECURITY_BINDING_CONSTRAINT","WS_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows]","webservices/WS_SECURITY_BINDING_CONSTRAINT","wsw.ws_security_binding_constraint"]
 old-location: wsw\ws_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: d79795ea-6780-4d13-9d40-bd1ea7cd5113

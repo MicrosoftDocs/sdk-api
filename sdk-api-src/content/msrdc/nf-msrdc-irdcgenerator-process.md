@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.IRdcGenerator.Process
 title: IRdcGenerator::Process (msrdc.h)
-description: Processes the input data and produces 0 or more output bytes.
+description: Processes the input data and produces 0 or more output bytes.helpviewer_keywords: ["IRdcGenerator interface [Remote Differential Compression]","Process method","IRdcGenerator.Process","IRdcGenerator::Process","Process","Process method [Remote Differential Compression]","Process method [Remote Differential Compression]","IRdcGenerator interface","fs.irdcgenerator_process","msrdc/IRdcGenerator::Process","rdc.irdcgenerator_process"]
 old-location: rdc\irdcgenerator_process.htm
 tech.root: rdc
 ms.assetid: 34d19eee-0fa9-4ac3-a33b-9f01cfa06371

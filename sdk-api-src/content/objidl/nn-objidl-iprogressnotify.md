@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IProgressNotify
 title: IProgressNotify (objidl.h)
-description: Enables applications and other objects to receive notifications of changes in the progress of a downloading operation.
+description: Enables applications and other objects to receive notifications of changes in the progress of a downloading operation.helpviewer_keywords: ["IProgressNotify","IProgressNotify interface [COM]","IProgressNotify interface [COM]","described","_com_iprogressnotify","com.iprogressnotify","objidl/IProgressNotify"]
 old-location: com\iprogressnotify.htm
 tech.root: com
 ms.assetid: 3f90437d-df8f-42b2-af81-519bfb9577b1

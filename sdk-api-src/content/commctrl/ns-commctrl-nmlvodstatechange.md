@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMLVODSTATECHANGE
 title: NMLVODSTATECHANGE (commctrl.h)
-description: Structure that contains information for use in processing the LVN_ODSTATECHANGED notification code.
+description: Structure that contains information for use in processing the LVN_ODSTATECHANGED notification code.helpviewer_keywords: ["*LPNMLVODSTATECHANGE","LPNMLVODSTATECHANGE","LPNMLVODSTATECHANGE structure pointer [Windows Controls]","NMLVODSTATECHANGE","NMLVODSTATECHANGE structure [Windows Controls]","_win32_NMLVODSTATECHANGE","_win32_NMLVODSTATECHANGE_cpp","commctrl/LPNMLVODSTATECHANGE","commctrl/NMLVODSTATECHANGE","controls.NMLVODSTATECHANGE","controls._win32_NMLVODSTATECHANGE"]
 old-location: controls\NMLVODSTATECHANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvodstatechange.htm

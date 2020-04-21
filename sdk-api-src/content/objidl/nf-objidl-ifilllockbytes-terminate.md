@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IFillLockBytes.Terminate
 title: IFillLockBytes::Terminate (objidl.h)
-description: The Terminate method informs the byte array that the download has been terminated, either successfully or unsuccessfully.
+description: The Terminate method informs the byte array that the download has been terminated, either successfully or unsuccessfully.helpviewer_keywords: ["IFillLockBytes interface [Structured Storage]","Terminate method","IFillLockBytes.Terminate","IFillLockBytes::Terminate","Terminate","Terminate method [Structured Storage]","Terminate method [Structured Storage]","IFillLockBytes interface","_stg_ifilllockbytes_terminate","objidl/IFillLockBytes::Terminate","stg.ifilllockbytes_terminate"]
 old-location: stg\ifilllockbytes_terminate.htm
 tech.root: Stg
 ms.assetid: 21ea78c7-51f1-4418-915c-79db47c25715

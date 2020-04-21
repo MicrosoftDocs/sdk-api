@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult2.get_ModifiedBlocks
 title: IFileSystemImageResult2::get_ModifiedBlocks (imapi2fs.h)
-description: Retrieves the list of modified blocks in the result image.
+description: Retrieves the list of modified blocks in the result image.helpviewer_keywords: ["IFileSystemImageResult2 interface [IMAPI]","get_ModifiedBlocks method","IFileSystemImageResult2.get_ModifiedBlocks","IFileSystemImageResult2::get_ModifiedBlocks","get_ModifiedBlocks","get_ModifiedBlocks method [IMAPI]","get_ModifiedBlocks method [IMAPI]","IFileSystemImageResult2 interface","imapi.ifilesystemimageresult2_get_modifiedblocks","imapi2fs/IFileSystemImageResult2::get_ModifiedBlocks"]
 old-location: imapi\ifilesystemimageresult2_get_modifiedblocks.htm
 tech.root: imapi
 ms.assetid: 2148ba3f-f334-43cb-965a-37b078419e0c

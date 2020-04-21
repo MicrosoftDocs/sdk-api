@@ -1,7 +1,7 @@
 ---
 UID: NN:rrascfg.IEAPProviderConfig
 title: IEAPProviderConfig (rrascfg.h)
-description: UI for EAP provider.
+description: UI for EAP provider.helpviewer_keywords: ["IEAPProviderConfig","IEAPProviderConfig interface [EAP]","IEAPProviderConfig interface [EAP]","described","_eap_ieapproviderconfig","eap.ieapproviderconfig","rrascfg/IEAPProviderConfig"]
 old-location: eap\ieapproviderconfig.htm
 tech.root: EAP
 ms.assetid: 1e0283b7-ceb3-4c8a-99d9-1a1f1eb5eeb0

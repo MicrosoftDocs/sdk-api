@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockReader.GetEnumerator
 title: IWICMetadataBlockReader::GetEnumerator (wincodecsdk.h)
-description: Retrieves an enumeration of IWICMetadataReader objects representing each of the top level metadata blocks.
+description: Retrieves an enumeration of IWICMetadataReader objects representing each of the top level metadata blocks.helpviewer_keywords: ["GetEnumerator","GetEnumerator method [Windows Imaging Component]","GetEnumerator method [Windows Imaging Component]","IWICMetadataBlockReader interface","IWICMetadataBlockReader interface [Windows Imaging Component]","GetEnumerator method","IWICMetadataBlockReader.GetEnumerator","IWICMetadataBlockReader::GetEnumerator","_wic_codec_iwicmetadatablockreader_getenumerator","wic._wic_codec_iwicmetadatablockreader_getenumerator","wincodecsdk/IWICMetadataBlockReader::GetEnumerator"]
 old-location: wic\_wic_codec_iwicmetadatablockreader_getenumerator.htm
 tech.root: wic
 ms.assetid: 81441e25-f124-4978-830d-2ade9cde6917

@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindRadioClose
 title: BluetoothFindRadioClose function (bluetoothapis.h)
-description: The BluetoothFindRadioClose function closes the enumeration handle associated with finding Bluetooth radios.
+description: The BluetoothFindRadioClose function closes the enumeration handle associated with finding Bluetooth radios.helpviewer_keywords: ["BluetoothFindRadioClose","BluetoothFindRadioClose function [Bluetooth]","bluetooth.bluetoothfindradioclose","bluetoothapis/BluetoothFindRadioClose"]
 old-location: bluetooth\bluetoothfindradioclose.htm
 tech.root: bluetooth
 ms.assetid: 859771b1-d06c-414b-81cb-bb3913fd0380

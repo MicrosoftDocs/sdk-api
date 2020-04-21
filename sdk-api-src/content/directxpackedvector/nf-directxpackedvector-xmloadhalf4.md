@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMLoadHalf4
 title: XMLoadHalf4 function (directxpackedvector.h)
-description: Loads an XMHALF4 into an XMVECTOR.
+description: Loads an XMHALF4 into an XMVECTOR.helpviewer_keywords: ["DirectX::PackedVector.XMLoadHalf4","XMLoadHalf4","XMLoadHalf4 method [DirectX Math Support APIs]","dxmath.xmloadhalf4"]
 old-location: dxmath\xmloadhalf4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadHalf4(const XMHALF4)

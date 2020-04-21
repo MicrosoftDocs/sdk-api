@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12video.D3D12_FEATURE_VIDEO
 title: D3D12_FEATURE_VIDEO
-description: Specifies a Direct3D 12 video feature or feature set to query about.
+description: Specifies a Direct3D 12 video feature or feature set to query about.helpviewer_keywords: ["D3D12_FEATURE_VIDEO","D3D12_FEATURE_VIDEO",""]
 tech.root: mf
 ms.assetid: 19381358-07c5-4244-a28b-52b568da3b7c
 ms.date: 05/28/2019

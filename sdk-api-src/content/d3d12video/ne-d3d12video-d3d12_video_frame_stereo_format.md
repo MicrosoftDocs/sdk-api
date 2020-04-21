@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_FRAME_STEREO_FORMAT
 title: D3D12_VIDEO_FRAME_STEREO_FORMAT
-description: Defines the layout in memory of a stereo 3D video frame.
+description: Defines the layout in memory of a stereo 3D video frame.helpviewer_keywords: ["D3D12_VIDEO_FRAME_STEREO_FORMAT","D3D12_VIDEO_FRAME_STEREO_FORMAT",""]
 tech.root: mf
 ms.assetid: bc974169-35ed-4ebb-ba1c-d0c3fe56657a
 ms.date: 05/28/2019

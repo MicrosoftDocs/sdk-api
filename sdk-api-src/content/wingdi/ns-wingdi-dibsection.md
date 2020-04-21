@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagDIBSECTION
 title: DIBSECTION (wingdi.h)
-description: The DIBSECTION structure contains information about a DIB created by calling the CreateDIBSection function.
+description: The DIBSECTION structure contains information about a DIB created by calling the CreateDIBSection function.helpviewer_keywords: ["*LPDIBSECTION","*PDIBSECTION","DIBSECTION","DIBSECTION structure [Windows GDI]","PDIBSECTION","PDIBSECTION structure pointer [Windows GDI]","_win32_DIBSECTION_str","gdi.dibsection","wingdi/DIBSECTION","wingdi/PDIBSECTION"]
 old-location: gdi\dibsection.htm
 tech.root: gdi
 ms.assetid: 76e84c90-6553-46c6-9ab9-afa022e0b2e5

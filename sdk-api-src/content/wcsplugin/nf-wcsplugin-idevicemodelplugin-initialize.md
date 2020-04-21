@@ -1,7 +1,7 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.Initialize
 title: IDeviceModelPlugIn::Initialize (wcsplugin.h)
-description: Takes a pointer to a Stream that contains the whole device model plug-in as input, and initializes any internal parameters required by the plug-in.
+description: Takes a pointer to a Stream that contains the whole device model plug-in as input, and initializes any internal parameters required by the plug-in.helpviewer_keywords: ["IDeviceModelPlugIn interface [Windows Color System]","Initialize method","IDeviceModelPlugIn.Initialize","IDeviceModelPlugIn::Initialize","Initialize","Initialize method [Windows Color System]","Initialize method [Windows Color System]","IDeviceModelPlugIn interface","_color_IDeviceModelPlugIn::Initialize","wcs.IDeviceModelPlugIn_Initialize","wcsplugin/IDeviceModelPlugIn::Initialize"]
 old-location: wcs\IDeviceModelPlugIn_Initialize.htm
 tech.root: WCS
 ms.assetid: ae47dcc5-f771-4586-9086-b4ab1600c1bc

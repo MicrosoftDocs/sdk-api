@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio_adapter.WbioQueryEngineInterface
 title: WbioQueryEngineInterface function (winbio_adapter.h)
-description: Retrieves a pointer to the WINBIO_ENGINE_INTERFACE structure for the engine adapter.
+description: Retrieves a pointer to the WINBIO_ENGINE_INTERFACE structure for the engine adapter.helpviewer_keywords: ["WbioQueryEngineInterface","WbioQueryEngineInterface function [Windows Biometric Framework API]","secbiomet.wbioqueryengineinterface","winbio_adapter/WbioQueryEngineInterface"]
 old-location: secbiomet\wbioqueryengineinterface.htm
 tech.root: SecBioMet
 ms.assetid: d98da825-ce27-41ec-8f82-6f44e4854018

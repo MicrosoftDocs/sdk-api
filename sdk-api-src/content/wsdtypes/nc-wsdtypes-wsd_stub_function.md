@@ -1,7 +1,7 @@
 ---
 UID: NC:wsdtypes.WSD_STUB_FUNCTION
 title: WSD_STUB_FUNCTION (wsdtypes.h)
-description: Describes a stub function used to handle an incoming message.
+description: Describes a stub function used to handle an incoming message.helpviewer_keywords: ["WSD_STUB_FUNCTION","WSD_STUB_FUNCTION callback","WSD_STUB_FUNCTION callback function","ncd.wsd_stub_function_func","wsdtypes/WSD_STUB_FUNCTION"]
 old-location: ncd\wsd_stub_function_func.htm
 tech.root: WsdApi
 ms.assetid: 39d16b22-2af0-43e4-a0d2-ca5e1d3a9434

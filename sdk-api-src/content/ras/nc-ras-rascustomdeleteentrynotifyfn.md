@@ -1,7 +1,7 @@
 ---
 UID: NC:ras.RasCustomDeleteEntryNotifyFn
 title: RasCustomDeleteEntryNotifyFn (ras.h)
-description: The RasCustomDeleteEntryNotify function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom dialogs for managing phone-book entries.
+description: The RasCustomDeleteEntryNotify function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom dialogs for managing phone-book entries.helpviewer_keywords: ["RCD_AllUsers","RCD_Eap","RCD_Logon","RCD_SingleUser","RasCustomDeleteEntryNotify","RasCustomDeleteEntryNotify callback function [RAS]","RasCustomDeleteEntryNotifyFn","RasCustomDeleteEntryNotifyFn callback","_ras_rascustomdeleteentrynotify","ras/RasCustomDeleteEntryNotify","rras.rascustomdeleteentrynotify"]
 old-location: rras\rascustomdeleteentrynotify.htm
 tech.root: RRAS
 ms.assetid: bbdaff05-ec86-461a-b466-8f69cb9cba5a

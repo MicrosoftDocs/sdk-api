@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmreports.IFsrmReportJob
 title: IFsrmReportJob (fsrmreports.h)
-description: Used to configure a report job.
+description: Used to configure a report job.helpviewer_keywords: ["IFsrmReportJob","IFsrmReportJob interface [File Server Resource Manager]","IFsrmReportJob interface [File Server Resource Manager]","described","fs.ifsrmreportjob","fsrm.ifsrmreportjob","fsrm/IFsrmReportJob"]
 old-location: fsrm\ifsrmreportjob.htm
 tech.root: fsrm
 ms.assetid: ea8a3f6b-326b-4c8f-a6fc-7b7525c5543f

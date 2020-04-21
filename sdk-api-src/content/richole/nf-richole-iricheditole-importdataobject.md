@@ -1,7 +1,7 @@
 ---
 UID: NF:richole.IRichEditOle.ImportDataObject
 title: IRichEditOle::ImportDataObject (richole.h)
-description: Imports a clipboard object into a rich edit control, replacing the current selection.
+description: Imports a clipboard object into a rich edit control, replacing the current selection.helpviewer_keywords: ["IRichEditOle interface [Windows Controls]","ImportDataObject method","IRichEditOle.ImportDataObject","IRichEditOle::ImportDataObject","ImportDataObject","ImportDataObject method [Windows Controls]","ImportDataObject method [Windows Controls]","IRichEditOle interface","_win32_IRichEditOle_ImportDataObject","_win32_IRichEditOle_ImportDataObject_cpp","controls.IRichEditOle_ImportDataObject","controls._win32_IRichEditOle_ImportDataObject","richole/IRichEditOle::ImportDataObject"]
 old-location: controls\IRichEditOle_ImportDataObject.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleimportdataobject.htm

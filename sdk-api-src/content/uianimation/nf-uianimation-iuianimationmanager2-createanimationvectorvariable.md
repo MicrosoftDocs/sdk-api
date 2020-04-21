@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.CreateAnimationVectorVariable
 title: IUIAnimationManager2::CreateAnimationVectorVariable (uianimation.h)
-description: Creates a new animation variable for each specified dimension.
+description: Creates a new animation variable for each specified dimension.helpviewer_keywords: ["CreateAnimationVectorVariable","CreateAnimationVectorVariable method [Windows Animation]","CreateAnimationVectorVariable method [Windows Animation]","IUIAnimationManager2 interface","IUIAnimationManager2 interface [Windows Animation]","CreateAnimationVectorVariable method","IUIAnimationManager2.CreateAnimationVectorVariable","IUIAnimationManager2::CreateAnimationVectorVariable","uianimation.iuianimationmanager2_createanimationvectorvariable","uianimation/IUIAnimationManager2::CreateAnimationVectorVariable"]
 old-location: uianimation\iuianimationmanager2_createanimationvectorvariable.htm
 tech.root: UIAnimation
 ms.assetid: b102f7d7-1a0b-40b5-bcc6-fa82dbcb4156

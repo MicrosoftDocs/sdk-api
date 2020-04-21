@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10effect._D3D10_EFFECT_TYPE_DESC
 title: D3D10_EFFECT_TYPE_DESC (d3d10effect.h)
-description: Describes an effect-variable type.
+description: Describes an effect-variable type.helpviewer_keywords: ["18816cca-f97e-a1fe-114c-9342ac218237","D3D10_EFFECT_TYPE_DESC","D3D10_EFFECT_TYPE_DESC structure [Direct3D 10]","d3d10effect/D3D10_EFFECT_TYPE_DESC","direct3d10.d3d10_effect_type_desc"]
 old-location: direct3d10\d3d10_effect_type_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_effect_type_desc.htm

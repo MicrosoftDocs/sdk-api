@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IStreamConcatenate.Append
 title: IStreamConcatenate::Append (imapi2.h)
-description: Appends a stream to this stream.
+description: Appends a stream to this stream.helpviewer_keywords: ["Append","Append method [IMAPI]","Append method [IMAPI]","IStreamConcatenate interface","IStreamConcatenate interface [IMAPI]","Append method","IStreamConcatenate.Append","IStreamConcatenate::Append","imapi.istreamconcatenate_append","imapi2/IStreamConcatenate::Append"]
 old-location: imapi\istreamconcatenate_append.htm
 tech.root: imapi
 ms.assetid: 9871cc35-c955-4fd4-9082-5b6ab60cae7b

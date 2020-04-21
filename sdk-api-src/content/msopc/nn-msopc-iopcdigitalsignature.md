@@ -1,7 +1,7 @@
 ---
 UID: NN:msopc.IOpcDigitalSignature
 title: IOpcDigitalSignature (msopc.h)
-description: Represents a package digital signature.
+description: Represents a package digital signature.helpviewer_keywords: ["IOpcDigitalSignature","IOpcDigitalSignature interface [Open Packaging Conventions]","IOpcDigitalSignature interface [Open Packaging Conventions]","described","msopc/IOpcDigitalSignature","opc.iopcdigitalsignature"]
 old-location: opc\iopcdigitalsignature.htm
 tech.root: OPC
 ms.assetid: cfa38ef6-9d96-4577-a3bf-518784d19ad8

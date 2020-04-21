@@ -1,7 +1,7 @@
 ---
 UID: NF:richole.IRichEditOle.GetLinkCount
 title: IRichEditOle::GetLinkCount (richole.h)
-description: Returns the number of objects in a rich edit control that are links.
+description: Returns the number of objects in a rich edit control that are links.helpviewer_keywords: ["GetLinkCount","GetLinkCount method [Windows Controls]","GetLinkCount method [Windows Controls]","IRichEditOle interface","IRichEditOle interface [Windows Controls]","GetLinkCount method","IRichEditOle.GetLinkCount","IRichEditOle::GetLinkCount","_win32_IRichEditOle_GetLinkCount","_win32_IRichEditOle_GetLinkCount_cpp","controls.IRichEditOle_GetLinkCount","controls._win32_IRichEditOle_GetLinkCount","richole/IRichEditOle::GetLinkCount"]
 old-location: controls\IRichEditOle_GetLinkCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetlinkcount.htm

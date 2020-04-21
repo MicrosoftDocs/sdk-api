@@ -1,7 +1,7 @@
 ---
 UID: NS:lmaccess._LOCALGROUP_INFO_1
 title: LOCALGROUP_INFO_1 (lmaccess.h)
-description: The LOCALGROUP_INFO_1 structure contains a local group name and a comment describing the local group.
+description: The LOCALGROUP_INFO_1 structure contains a local group name and a comment describing the local group.helpviewer_keywords: ["*LPLOCALGROUP_INFO_1","*PLOCALGROUP_INFO_1","LOCALGROUP_INFO_1","LOCALGROUP_INFO_1 structure [Network Management]","LPLOCALGROUP_INFO_1","LPLOCALGROUP_INFO_1 structure pointer [Network Management]","PLOCALGROUP_INFO_1","PLOCALGROUP_INFO_1 structure pointer [Network Management]","_win32_localgroup_info_1_str","lmaccess/LOCALGROUP_INFO_1","lmaccess/LPLOCALGROUP_INFO_1","lmaccess/PLOCALGROUP_INFO_1","netmgmt.localgroup_info_1_str"]
 old-location: netmgmt\localgroup_info_1_str.htm
 tech.root: NetMgmt
 ms.assetid: b96d7ddc-3ffb-4203-88b1-4aa123051695

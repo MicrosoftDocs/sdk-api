@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationcore.BulletStyle
 title: BulletStyle (uiautomationcore.h)
-description: Contains values for the BulletStyle text attribute.
+description: Contains values for the BulletStyle text attribute.helpviewer_keywords: ["BulletStyle","BulletStyle enumeration [Windows Accessibility]","BulletStyle_DashBullet","BulletStyle_FilledRoundBullet","BulletStyle_FilledSquareBullet","BulletStyle_HollowRoundBullet","BulletStyle_HollowSquareBullet","BulletStyle_None","BulletStyle_Other","uiauto.uiauto_BulletStyleEnum","uiauto_BulletStyleEnum","uiautomationcore/BulletStyle","uiautomationcore/BulletStyle_DashBullet","uiautomationcore/BulletStyle_FilledRoundBullet","uiautomationcore/BulletStyle_FilledSquareBullet","uiautomationcore/BulletStyle_HollowRoundBullet","uiautomationcore/BulletStyle_HollowSquareBullet","uiautomationcore/BulletStyle_None","uiautomationcore/BulletStyle_Other","winauto.uiauto_BulletStyleEnum"]
 old-location: winauto\uiauto_BulletStyleEnum.htm
 tech.root: WinAuto
 ms.assetid: fb4e4df3-ef0d-43e9-abeb-01e328c32692

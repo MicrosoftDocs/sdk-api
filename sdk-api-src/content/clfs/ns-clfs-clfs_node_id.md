@@ -1,7 +1,7 @@
 ---
 UID: NS:clfs._CLFS_NODE_ID
 title: CLFS_NODE_ID (clfs.h)
-description: Represents a node identifier.
+description: Represents a node identifier.helpviewer_keywords: ["*PCLFS_NODE_ID","CLFS_NODE_ID","CLFS_NODE_ID structure [Files]","PCLFS_NODE_ID","PCLFS_NODE_ID structure pointer [Files]","clfs/CLFS_NODE_ID","clfs/PCLFS_NODE_ID","fs.clfs_node_id"]
 old-location: fs\clfs_node_id.htm
 tech.root: Clfs
 ms.assetid: 99132138-b7ba-47a1-ac40-353d5d70db42

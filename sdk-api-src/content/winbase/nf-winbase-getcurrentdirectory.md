@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetCurrentDirectory
 title: GetCurrentDirectory function (winbase.h)
-description: Retrieves the current directory for the current process.
+description: Retrieves the current directory for the current process.helpviewer_keywords: ["GetCurrentDirectory","GetCurrentDirectory function [Files]","GetCurrentDirectoryA","GetCurrentDirectoryW","_win32_getcurrentdirectory","base.getcurrentdirectory","fs.getcurrentdirectory","winbase/GetCurrentDirectory","winbase/GetCurrentDirectoryA","winbase/GetCurrentDirectoryW"]
 old-location: fs\getcurrentdirectory.htm
 tech.root: FileIO
 ms.assetid: 1fbe6289-2ca8-4ca8-b004-ecf513f9b0bd

@@ -1,7 +1,7 @@
 ---
 UID: NN:ddraw.IDirectDrawColorControl
 title: IDirectDrawColorControl (ddraw.h)
-description: Applications use the methods of the IDirectDrawColorControl interface to get and set color controls.
+description: Applications use the methods of the IDirectDrawColorControl interface to get and set color controls.helpviewer_keywords: ["IDirectDrawColorControl","IDirectDrawColorControl interface [DirectDraw]","IDirectDrawColorControl interface [DirectDraw]","described","ddraw/IDirectDrawColorControl","directdraw.idirectdrawcolorcontrol"]
 old-location: directdraw\idirectdrawcolorcontrol.htm
 tech.root: directdraw
 ms.assetid: e9bd0dc6-2d8a-452b-894d-72a3d7a20100

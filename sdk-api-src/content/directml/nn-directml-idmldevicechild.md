@@ -1,7 +1,7 @@
 ---
 UID: NN:directml.IDMLDeviceChild
 title: IDMLDeviceChild
-description: An interface implemented by all objects created from the DirectML device.
+description: An interface implemented by all objects created from the DirectML device.helpviewer_keywords: ["IDMLDeviceChild","IDMLDeviceChild interface","IDMLDeviceChild interface","described","direct3d12.idmldevicechild","directml/IDMLDeviceChild"]
 old-location: direct3d12\idmldevicechild.htm
 tech.root: direct3d12
 ms.assetid: 0FA4C848-7CC4-4096-845D-9EE65923C5BA

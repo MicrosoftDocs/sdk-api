@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetUnknown
 title: IMFAttributes::SetUnknown (mfobjects.h)
-description: Associates an IUnknown pointer with a key.
+description: Associates an IUnknown pointer with a key.helpviewer_keywords: ["IMFAttributes interface [Media Foundation]","SetUnknown method","IMFAttributes.SetUnknown","IMFAttributes::SetUnknown","SetUnknown","SetUnknown method [Media Foundation]","SetUnknown method [Media Foundation]","IMFAttributes interface","da0c3d59-07c4-4431-a137-8655ddbf6258","mf.imfattributes_setunknown","mfobjects/IMFAttributes::SetUnknown"]
 old-location: mf\imfattributes_setunknown.htm
 tech.root: medfound
 ms.assetid: da0c3d59-07c4-4431-a137-8655ddbf6258

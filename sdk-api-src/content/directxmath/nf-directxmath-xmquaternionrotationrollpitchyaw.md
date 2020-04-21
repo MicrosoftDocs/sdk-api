@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMQuaternionRotationRollPitchYaw
 title: XMQuaternionRotationRollPitchYaw function (directxmath.h)
-description: Computes a rotation quaternion based on the pitch, yaw, and roll (Euler angles).
+description: Computes a rotation quaternion based on the pitch, yaw, and roll (Euler angles).helpviewer_keywords: ["Use DirectX..XMQuaternionRotationRollPitchYaw","XMQuaternionRotationRollPitchYaw","XMQuaternionRotationRollPitchYaw method [DirectX Math Support APIs]","dxmath.xmquaternionrotationrollpitchyaw"]
 old-location: dxmath\xmquaternionrotationrollpitchyaw.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionRotationRollPitchYaw(float,float,float)

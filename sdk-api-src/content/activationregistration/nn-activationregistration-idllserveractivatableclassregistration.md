@@ -1,7 +1,7 @@
 ---
 UID: NN:activationregistration.IDllServerActivatableClassRegistration
 title: IDllServerActivatableClassRegistration (activationregistration.h)
-description: Enables getting the registration info for an in-process server.
+description: Enables getting the registration info for an in-process server.helpviewer_keywords: ["IDllServerActivatableClassRegistration","IDllServerActivatableClassRegistration interface [Windows Runtime]","IDllServerActivatableClassRegistration interface [Windows Runtime]","described","activationregistration/IDllServerActivatableClassRegistration","winrt.idllserveractivatableclassregistration"]
 old-location: winrt\idllserveractivatableclassregistration.htm
 tech.root: WinRT
 ms.assetid: 00E9476E-45E0-4D97-9DA4-FD293674BED4

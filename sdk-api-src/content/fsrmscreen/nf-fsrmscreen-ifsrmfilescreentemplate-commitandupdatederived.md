@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplate.CommitAndUpdateDerived
 title: IFsrmFileScreenTemplate::CommitAndUpdateDerived (fsrmscreen.h)
-description: Saves the file screen template and then applies any changes to the derived file screen objects.
+description: Saves the file screen template and then applies any changes to the derived file screen objects.helpviewer_keywords: ["CommitAndUpdateDerived","CommitAndUpdateDerived method [File Server Resource Manager]","CommitAndUpdateDerived method [File Server Resource Manager]","IFsrmFileScreenTemplate interface","IFsrmFileScreenTemplate interface [File Server Resource Manager]","CommitAndUpdateDerived method","IFsrmFileScreenTemplate.CommitAndUpdateDerived","IFsrmFileScreenTemplate::CommitAndUpdateDerived","fs.ifsrmfilescreentemplate_commitandupdatederived","fsrm.ifsrmfilescreentemplate_commitandupdatederived","fsrmscreen/IFsrmFileScreenTemplate::CommitAndUpdateDerived"]
 old-location: fsrm\ifsrmfilescreentemplate_commitandupdatederived.htm
 tech.root: fsrm
 ms.assetid: 6b50a93f-f6f0-4ab4-a4a3-3995b721c5d7

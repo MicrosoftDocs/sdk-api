@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterAddGroupToGroupSet
 title: ClusterAddGroupToGroupSet function (clusapi.h)
-description: Adds the specified group to a groupset in the cluster.
+description: Adds the specified group to a groupset in the cluster.helpviewer_keywords: ["ClusterAddGroupToGroupSet","ClusterAddGroupToGroupSet function [Failover Cluster]","PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET","PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET function [Failover Cluster]","clusapi/ClusterAddGroupToGroupSet","clusapi/PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET","mscs.clusteraddgrouptogroupcollection"]
 old-location: mscs\clusteraddgrouptogroupcollection.htm
 tech.root: MsCS
 ms.assetid: f201dfaa-d9e6-41e0-8d22-23c073b1789d

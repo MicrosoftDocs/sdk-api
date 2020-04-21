@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Reset
 title: IEnumVARIANT::Reset (oaidl.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning.helpviewer_keywords: ["IEnumVARIANT interface [Automation]","Reset method","IEnumVARIANT.Reset","IEnumVARIANT::Reset","Reset","Reset method [Automation]","Reset method [Automation]","IEnumVARIANT interface","_oa96_IEnumVARIANT::Reset","automat.ienumvariant_reset","oaidl/IEnumVARIANT::Reset"]
 old-location: automat\ienumvariant_reset.htm
 tech.root: automat
 ms.assetid: 0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd

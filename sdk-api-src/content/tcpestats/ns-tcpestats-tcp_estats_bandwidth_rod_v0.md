@@ -1,7 +1,7 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_BANDWIDTH_ROD_v0
 title: TCP_ESTATS_BANDWIDTH_ROD_v0 (tcpestats.h)
-description: Contains read-only dynamic information for extended TCP statistics on bandwidth estimation for a TCP connection.
+description: Contains read-only dynamic information for extended TCP statistics on bandwidth estimation for a TCP connection.helpviewer_keywords: ["*PTCP_ESTATS_BANDWIDTH_ROD_v0","PTCP_ESTATS_BANDWIDTH_ROD_v0","PTCP_ESTATS_BANDWIDTH_ROD_v0 structure pointer [IP Helper]","TCP_ESTATS_BANDWIDTH_ROD_v0","TCP_ESTATS_BANDWIDTH_ROD_v0 structure [IP Helper]","iphlp.tcp_estats_bandwidth_rod_v0","tcpestats/PTCP_ESTATS_BANDWIDTH_ROD_v0","tcpestats/TCP_ESTATS_BANDWIDTH_ROD_v0"]
 old-location: iphlp\tcp_estats_bandwidth_rod_v0.htm
 tech.root: IpHlp
 ms.assetid: 330d06a2-9966-4e2b-b1bd-44c0f1b9416d

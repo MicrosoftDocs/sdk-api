@@ -1,7 +1,7 @@
 ---
 UID: NF:roerrorapi.RoTransformErrorW
 title: RoTransformErrorW function
-description: Reports a transformed error and an informative string to an attached debugger.
+description: Reports a transformed error and an informative string to an attached debugger.helpviewer_keywords: ["RoTransformErrorW","RoTransformErrorW function [Windows Runtime]","WinRTTransformErrorW","roerrorapi/RoTransformErrorW","roerrorapi/WinRTTransformErrorW","winrt.rotransformerrorw","winrt.winrttransformerrorw"]
 old-location: winrt\rotransformerrorw.htm
 tech.root: WinRT
 ms.assetid: A13265FD-DC14-4552-A9FD-C954A7EA08C9

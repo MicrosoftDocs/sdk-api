@@ -1,7 +1,7 @@
 ---
 UID: NF:drt.DrtCreateDerivedKeySecurityProvider
 title: DrtCreateDerivedKeySecurityProvider function (drt.h)
-description: DrtCreateDerivedKeySecurityProvider function creates the derived key security provider for a Distributed Routing Table.
+description: DrtCreateDerivedKeySecurityProvider function creates the derived key security provider for a Distributed Routing Table.helpviewer_keywords: ["DrtCreateDerivedKeySecurityProvider","DrtCreateDerivedKeySecurityProvider function [Peer Networking]","drt/DrtCreateDerivedKeySecurityProvider","p2p.drtcreatederivedkeysecurityprovider"]
 old-location: p2p\drtcreatederivedkeysecurityprovider.htm
 tech.root: P2PSdk
 ms.assetid: e4cc8326-e2bc-459f-97dd-a00cfd1ed35e

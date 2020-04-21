@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminServerGetInfo
 title: MprAdminServerGetInfo function (mprapi.h)
-description: The MprAdminServerGetInfo function retrieves information about the specified RRAS server.
+description: The MprAdminServerGetInfo function retrieves information about the specified RRAS server.helpviewer_keywords: ["MprAdminServerGetInfo","MprAdminServerGetInfo function [RAS]","_mpr_mpradminservergetinfo","mprapi/MprAdminServerGetInfo","rras.mpradminservergetinfo"]
 old-location: rras\mpradminservergetinfo.htm
 tech.root: RRAS
 ms.assetid: d15dfb60-1239-4552-985f-d3c98f2981f4

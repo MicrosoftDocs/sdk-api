@@ -1,7 +1,7 @@
 ---
 UID: NF:clfsw32.LsnCreate
 title: LsnCreate function (clfsw32.h)
-description: Creates a log sequence number (LSN), given a container ID, a block offset, and a record sequence number.
+description: Creates a log sequence number (LSN), given a container ID, a block offset, and a record sequence number.helpviewer_keywords: ["LsnCreate","LsnCreate function [Files]","clfsw32/LsnCreate","fs.lsncreate"]
 old-location: fs\lsncreate.htm
 tech.root: Clfs
 ms.assetid: 3662ac53-25d5-4d8c-8f98-02f313e03dce

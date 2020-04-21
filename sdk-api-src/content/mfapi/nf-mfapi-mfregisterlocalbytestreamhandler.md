@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFRegisterLocalByteStreamHandler
 title: MFRegisterLocalByteStreamHandler function (mfapi.h)
-description: Registers a byte-stream handler in the caller's process.
+description: Registers a byte-stream handler in the caller's process.helpviewer_keywords: ["MFRegisterLocalByteStreamHandler","MFRegisterLocalByteStreamHandler function [Media Foundation]","mf.mfregisterlocalbytestreamhandler","mfapi/MFRegisterLocalByteStreamHandler"]
 old-location: mf\mfregisterlocalbytestreamhandler.htm
 tech.root: medfound
 ms.assetid: B41FAA50-9CF7-4DD0-8571-1817C7C49276

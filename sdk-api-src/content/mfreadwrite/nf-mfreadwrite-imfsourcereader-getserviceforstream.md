@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetServiceForStream
 title: IMFSourceReader::GetServiceForStream (mfreadwrite.h)
-description: Queries the underlying media source or decoder for an interface.
+description: Queries the underlying media source or decoder for an interface.helpviewer_keywords: ["GetServiceForStream","GetServiceForStream method [Media Foundation]","GetServiceForStream method [Media Foundation]","IMFSourceReader interface","IMFSourceReader interface [Media Foundation]","GetServiceForStream method","IMFSourceReader.GetServiceForStream","IMFSourceReader::GetServiceForStream","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","MF_SOURCE_READER_MEDIASOURCE","mf.imfsourcereader_getserviceforstream","mfreadwrite/IMFSourceReader::GetServiceForStream"]
 old-location: mf\imfsourcereader_getserviceforstream.htm
 tech.root: medfound
 ms.assetid: d8868e4d-eedd-4fbd-b870-d3af48890c92

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SystemTimeToVariantTime
 title: SystemTimeToVariantTime function (oleauto.h)
-description: Converts a system time to a variant representation.
+description: Converts a system time to a variant representation.helpviewer_keywords: ["SystemTimeToVariantTime","SystemTimeToVariantTime function [Automation]","_oa96_SystemTimeToVariantTime","automat.systemtimetovarianttime","oleauto/SystemTimeToVariantTime"]
 old-location: automat\systemtimetovarianttime.htm
 tech.root: automat
 ms.assetid: d9d69521-9b33-4fc5-8a1c-929f216db450

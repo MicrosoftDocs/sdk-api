@@ -1,7 +1,7 @@
 ---
 UID: NE:wmsdkidl.tagWMT_TRANSPORT_TYPE
 title: WMT_TRANSPORT_TYPE (wmsdkidl.h)
-description: The WMT_TRANSPORT_TYPE enumeration type defines the transport types supported by this SDK.
+description: The WMT_TRANSPORT_TYPE enumeration type defines the transport types supported by this SDK.helpviewer_keywords: ["WMT_TRANSPORT_TYPE","WMT_TRANSPORT_TYPE enumeration [windows Media Format]","WMT_Transport_Type_Reliable","WMT_Transport_Type_Unreliable","wmformat.wmt_transport_type","wmsdkidl/WMT_TRANSPORT_TYPE","wmsdkidl/WMT_Transport_Type_Reliable","wmsdkidl/WMT_Transport_Type_Unreliable"]
 old-location: wmformat\wmt_transport_type.htm
 tech.root: wmformat
 ms.assetid: 1d689487-f71b-4b27-928c-c55bd22579ed

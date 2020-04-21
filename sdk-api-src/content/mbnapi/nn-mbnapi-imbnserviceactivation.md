@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnServiceActivation
 title: IMbnServiceActivation (mbnapi.h)
-description: Pass-through mechanism for cellular service activation.
+description: Pass-through mechanism for cellular service activation.helpviewer_keywords: ["IMbnServiceActivation","IMbnServiceActivation interface [Microsoft Broadband Networks]","IMbnServiceActivation interface [Microsoft Broadband Networks]","described","mbn.imbnserviceactivation","mbnapi/IMbnServiceActivation"]
 old-location: mbn\imbnserviceactivation.htm
 tech.root: mbn
 ms.assetid: cf23be24-f7a8-41b9-81f1-c267a265f85b

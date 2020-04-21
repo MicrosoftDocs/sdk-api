@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_ReferenceRecorder
 title: IMSVidStreamBufferSink::get_ReferenceRecorder (segment.h)
-description: The get_ReferenceRecorder method creates a new reference recording object.
+description: The get_ReferenceRecorder method creates a new reference recording object.helpviewer_keywords: ["IMSVidStreamBufferSink interface [Microsoft TV Technologies]","get_ReferenceRecorder method","IMSVidStreamBufferSink.get_ReferenceRecorder","IMSVidStreamBufferSink::get_ReferenceRecorder","IMSVidStreamBufferSinkget_ReferenceRecorder","get_ReferenceRecorder","get_ReferenceRecorder method [Microsoft TV Technologies]","get_ReferenceRecorder method [Microsoft TV Technologies]","IMSVidStreamBufferSink interface","mstv.imsvidstreambuffersink_get_referencerecorder","segment/IMSVidStreamBufferSink::get_ReferenceRecorder"]
 old-location: mstv\imsvidstreambuffersink_get_referencerecorder.htm
 tech.root: mstv
 ms.assetid: 81315825-165a-48ef-be5e-fdeba67765f6

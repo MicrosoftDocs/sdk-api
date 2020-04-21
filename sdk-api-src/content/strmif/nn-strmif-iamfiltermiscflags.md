@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IAMFilterMiscFlags
 title: IAMFilterMiscFlags (strmif.h)
-description: The IAMFilterMiscFlags interface queries whether a filter is a source filter or a renderer.
+description: The IAMFilterMiscFlags interface queries whether a filter is a source filter or a renderer.helpviewer_keywords: ["IAMFilterMiscFlags","IAMFilterMiscFlags interface [DirectShow]","IAMFilterMiscFlags interface [DirectShow]","described","IAMFilterMiscFlagsInterface","dshow.iamfiltermiscflags","strmif/IAMFilterMiscFlags"]
 old-location: dshow\iamfiltermiscflags.htm
 tech.root: DirectShow
 ms.assetid: f9f3eaf9-4afa-412f-aa8f-b75e787cfecb

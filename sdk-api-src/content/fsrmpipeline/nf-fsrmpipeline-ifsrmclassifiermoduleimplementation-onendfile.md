@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.OnEndFile
 title: IFsrmClassifierModuleImplementation::OnEndFile (fsrmpipeline.h)
-description: Instructs the classifier to perform any cleanup after processing a file.
+description: Instructs the classifier to perform any cleanup after processing a file.helpviewer_keywords: ["IFsrmClassifierModuleImplementation interface [File Server Resource Manager]","OnEndFile method","IFsrmClassifierModuleImplementation.OnEndFile","IFsrmClassifierModuleImplementation::OnEndFile","OnEndFile","OnEndFile method [File Server Resource Manager]","OnEndFile method [File Server Resource Manager]","IFsrmClassifierModuleImplementation interface","fs.ifsrmclassifiermoduleimplementation_onendfile","fsrm.ifsrmclassifiermoduleimplementation_onendfile","fsrmpipeline/IFsrmClassifierModuleImplementation::OnEndFile"]
 old-location: fsrm\ifsrmclassifiermoduleimplementation_onendfile.htm
 tech.root: fsrm
 ms.assetid: 52de3e11-89b3-4cf2-92f3-cc6dff686e0b

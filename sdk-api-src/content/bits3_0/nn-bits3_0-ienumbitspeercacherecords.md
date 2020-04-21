@@ -1,7 +1,7 @@
 ---
 UID: NN:bits3_0.IEnumBitsPeerCacheRecords
 title: IEnumBitsPeerCacheRecords (bits3_0.h)
-description: Use IEnumBitsPeerCacheRecords to enumerate the records of the cache.
+description: Use IEnumBitsPeerCacheRecords to enumerate the records of the cache.helpviewer_keywords: ["IEnumBitsPeerCacheRecords","IEnumBitsPeerCacheRecords interface [BITS]","IEnumBitsPeerCacheRecords interface [BITS]","described","bits.ienumbitspeercacherecords","bits3_0/IEnumBitsPeerCacheRecords"]
 old-location: bits\ienumbitspeercacherecords.htm
 tech.root: Bits
 ms.assetid: 680c1468-d780-44a3-9048-c7c3928234f9

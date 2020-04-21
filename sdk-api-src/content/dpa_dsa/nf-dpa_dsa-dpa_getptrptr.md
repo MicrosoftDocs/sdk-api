@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DPA_GetPtrPtr
 title: DPA_GetPtrPtr macro (dpa_dsa.h)
-description: Gets the pointer to the internal pointer array of a dynamic pointer array (DPA).
+description: Gets the pointer to the internal pointer array of a dynamic pointer array (DPA).helpviewer_keywords: ["DPA_GetPtrPtr","DPA_GetPtrPtr macro [Windows Controls]","_shell_DPA_GetPtrPtr","_shell_DPA_GetPtrPtr_cpp","controls.DPA_GetPtrPtr","controls._shell_DPA_GetPtrPtr","dpa_dsa/DPA_GetPtrPtr"]
 old-location: controls\DPA_GetPtrPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_getptrptr.htm

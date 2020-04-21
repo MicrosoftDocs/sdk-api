@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssComponent.GetBackupStamp
 title: IVssComponent::GetBackupStamp (vswriter.h)
-description: The GetBackupStamp method returns the backup stamp string stored by a writer for a given component.
+description: The GetBackupStamp method returns the backup stamp string stored by a writer for a given component.helpviewer_keywords: ["GetBackupStamp","GetBackupStamp method [VSS]","GetBackupStamp method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetBackupStamp method","IVssComponent.GetBackupStamp","IVssComponent::GetBackupStamp","_win32_ivsscomponent_getbackupstamp","base.ivsscomponent_getbackupstamp","vswriter/IVssComponent::GetBackupStamp"]
 old-location: base\ivsscomponent_getbackupstamp.htm
 tech.root: VSS
 ms.assetid: a8f272d8-4024-46bf-a0e6-77d870615fc0

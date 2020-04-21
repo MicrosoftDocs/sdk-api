@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent
 title: IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent (uiautomationclient.h)
-description: Handles an event that is raised when the Microsoft UI Automation tree structure has changed.
+description: Handles an event that is raised when the Microsoft UI Automation tree structure has changed.helpviewer_keywords: ["HandleStructureChangedEvent","HandleStructureChangedEvent method [Windows Accessibility]","HandleStructureChangedEvent method [Windows Accessibility]","IUIAutomationStructureChangedEventHandler interface","IUIAutomationStructureChangedEventHandler interface [Windows Accessibility]","HandleStructureChangedEvent method","IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent","IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent","uiauto.uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent","uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent","uiautomationclient/IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent","winauto.uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent"]
 old-location: winauto\uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent.htm
 tech.root: WinAuto
 ms.assetid: 0fdaf2d3-cfd1-4c93-a7cd-94ec83b3e812

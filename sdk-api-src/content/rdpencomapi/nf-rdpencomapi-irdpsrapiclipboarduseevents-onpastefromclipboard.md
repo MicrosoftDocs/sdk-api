@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
 title: IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard (rdpencomapi.h)
-description: This callback is issued when an attempt to copy data from the sharer computer is made.
+description: This callback is issued when an attempt to copy data from the sharer computer is made.helpviewer_keywords: ["IRDPSRAPIClipboardUseEvents interface [RDP]","OnPasteFromClipboard method","IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard","IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard","OnPasteFromClipboard","OnPasteFromClipboard method [RDP]","OnPasteFromClipboard method [RDP]","IRDPSRAPIClipboardUseEvents interface","rdp.irdpsrapiclipboarduseevents_onpastefromclipboard","rdpencomapi/IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard"]
 old-location: rdp\irdpsrapiclipboarduseevents_onpastefromclipboard.htm
 tech.root: rdp
 ms.assetid: aa5fccb9-ca7b-4779-a454-f16be8bca72c

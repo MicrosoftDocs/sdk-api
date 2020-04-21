@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.BlockInput
 title: BlockInput function (winuser.h)
-description: Blocks keyboard and mouse input events from reaching applications.
+description: Blocks keyboard and mouse input events from reaching applications.helpviewer_keywords: ["BlockInput","BlockInput function [Keyboard and Mouse Input]","_win32_BlockInput","_win32_blockinput_cpp","inputdev.blockinput","winui._win32_blockinput","winuser/BlockInput"]
 old-location: inputdev\blockinput.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\blockinput.htm

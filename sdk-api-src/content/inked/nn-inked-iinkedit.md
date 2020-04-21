@@ -1,7 +1,7 @@
 ---
 UID: NN:inked.IInkEdit
 title: IInkEdit (inked.h)
-description: .
+description: .helpviewer_keywords: ["IInkEdit","IInkEdit interface [Tablet PC]","IInkEdit interface [Tablet PC]","described","inked/IInkEdit","tablet.iinkedit_"]
 old-location: tablet\iinkedit_.htm
 tech.root: tablet
 ms.assetid: 8F47529B-52E9-4D67-81B3-DD2584B98101

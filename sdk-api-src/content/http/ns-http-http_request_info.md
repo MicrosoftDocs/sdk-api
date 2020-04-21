@@ -1,7 +1,7 @@
 ---
 UID: NS:http._HTTP_REQUEST_INFO
 title: HTTP_REQUEST_INFO (http.h)
-description: Extends the HTTP_REQUEST structure with additional information about the request.
+description: Extends the HTTP_REQUEST structure with additional information about the request.helpviewer_keywords: ["*PHTTP_REQUEST_INFO","*PHTTP_REQUEST_INFO structure [HTTP]","HTTP_REQUEST_INFO","HTTP_REQUEST_INFO structure [HTTP]","http.http_request_info","http/*PHTTP_REQUEST_INFO","http/HTTP_REQUEST_INFO"]
 old-location: http\http_request_info.htm
 tech.root: http
 ms.assetid: 83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a

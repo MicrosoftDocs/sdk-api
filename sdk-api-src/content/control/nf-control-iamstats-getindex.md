@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IAMStats.GetIndex
 title: IAMStats::GetIndex (control.h)
-description: The GetIndex method retrieves the index for a named statistic, or creates a new statistic.
+description: The GetIndex method retrieves the index for a named statistic, or creates a new statistic.helpviewer_keywords: ["GetIndex","GetIndex method [DirectShow]","GetIndex method [DirectShow]","IAMStats interface","IAMStats interface [DirectShow]","GetIndex method","IAMStats.GetIndex","IAMStats::GetIndex","IAMStatsGetIndex","control/IAMStats::GetIndex","dshow.iamstats_getindex"]
 old-location: dshow\iamstats_getindex.htm
 tech.root: DirectShow
 ms.assetid: a5ea650c-42dd-405c-8ad9-6e48cf51353d

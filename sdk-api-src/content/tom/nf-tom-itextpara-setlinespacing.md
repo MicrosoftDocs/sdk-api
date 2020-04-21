@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.SetLineSpacing
 title: ITextPara::SetLineSpacing (tom.h)
-description: Sets the paragraph line-spacing rule and the line spacing for a paragraph.
+description: Sets the paragraph line-spacing rule and the line spacing for a paragraph.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetLineSpacing method","ITextPara.SetLineSpacing","ITextPara::SetLineSpacing","SetLineSpacing","SetLineSpacing method [Windows Controls]","SetLineSpacing method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetLineSpacing","_win32_ITextPara_SetLineSpacing_cpp","controls.ITextPara_SetLineSpacing","controls._win32_ITextPara_SetLineSpacing","tom/ITextPara::SetLineSpacing"]
 old-location: controls\ITextPara_SetLineSpacing.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlinespacing.htm

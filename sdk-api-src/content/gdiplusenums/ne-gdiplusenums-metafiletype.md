@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.MetafileType
 title: MetafileType (gdiplusenums.h)
-description: The MetafileType enumeration specifies types of metafiles. The MetafileHeader::GetType method returns an element of this enumeration.
+description: The MetafileType enumeration specifies types of metafiles. The MetafileHeader::GetType method returns an element of this enumeration.helpviewer_keywords: ["MetafileType","MetafileType enumeration [GDI+]","MetafileTypeEmf","MetafileTypeEmfPlusDual","MetafileTypeEmfPlusOnly","MetafileTypeInvalid","MetafileTypeWmf","MetafileTypeWmfPlaceable","_gdiplus_ENUM_MetafileType","gdiplus._gdiplus_ENUM_MetafileType","gdiplusenums/MetafileType","gdiplusenums/MetafileTypeEmf","gdiplusenums/MetafileTypeEmfPlusDual","gdiplusenums/MetafileTypeEmfPlusOnly","gdiplusenums/MetafileTypeInvalid","gdiplusenums/MetafileTypeWmf","gdiplusenums/MetafileTypeWmfPlaceable"]
 old-location: gdiplus\_gdiplus_ENUM_MetafileType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\metafiletype.htm

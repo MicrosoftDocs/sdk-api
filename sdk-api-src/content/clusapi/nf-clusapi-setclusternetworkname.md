@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.SetClusterNetworkName
 title: SetClusterNetworkName function (clusapi.h)
-description: Sets the name for a network.
+description: Sets the name for a network.helpviewer_keywords: ["PCLUSAPI_SET_CLUSTER_NETWORK_NAME","PCLUSAPI_SET_CLUSTER_NETWORK_NAME function [Failover Cluster]","SetClusterNetworkName","SetClusterNetworkName function [Failover Cluster]","_wolf_setclusternetworkname","clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_NAME","clusapi/SetClusterNetworkName","mscs.setclusternetworkname"]
 old-location: mscs\setclusternetworkname.htm
 tech.root: MsCS
 ms.assetid: c1b5dcd0-8974-495c-b85a-1d426719e9f9

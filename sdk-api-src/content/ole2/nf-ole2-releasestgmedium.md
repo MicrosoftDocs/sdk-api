@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.ReleaseStgMedium
 title: ReleaseStgMedium function (ole2.h)
-description: Frees the specified storage medium.
+description: Frees the specified storage medium.helpviewer_keywords: ["ReleaseStgMedium","ReleaseStgMedium function [COM]","_ole_ReleaseStgMedium","com.releasestgmedium","ole2/ReleaseStgMedium"]
 old-location: com\releasestgmedium.htm
 tech.root: com
 ms.assetid: da7d7bcb-0b5b-4053-8f0e-ff311c424375

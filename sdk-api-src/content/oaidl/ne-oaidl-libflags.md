@@ -1,7 +1,7 @@
 ---
 UID: NE:oaidl.tagLIBFLAGS
 title: LIBFLAGS (oaidl.h)
-description: Defines flags that apply to type libraries.
+description: Defines flags that apply to type libraries.helpviewer_keywords: ["LIBFLAGS","LIBFLAGS enumeration [Automation]","LIBFLAG_FCONTROL","LIBFLAG_FHASDISKIMAGE","LIBFLAG_FHIDDEN","LIBFLAG_FRESTRICTED","_oa96_LIBFLAGS","automat.libflags","oaidl/LIBFLAGS","oaidl/LIBFLAG_FCONTROL","oaidl/LIBFLAG_FHASDISKIMAGE","oaidl/LIBFLAG_FHIDDEN","oaidl/LIBFLAG_FRESTRICTED"]
 old-location: automat\libflags.htm
 tech.root: automat
 ms.assetid: 2c5ecbaf-ce6c-4be1-a3fa-1066dd6e716d

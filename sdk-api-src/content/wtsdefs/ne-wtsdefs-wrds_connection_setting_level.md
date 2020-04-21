@@ -1,7 +1,7 @@
 ---
 UID: NE:wtsdefs._WRDS_CONNECTION_SETTING_LEVEL
 title: WRDS_CONNECTION_SETTING_LEVEL (wtsdefs.h)
-description: Specifies the type of structure contained in the WRdsConnectionSetting member of the WRDS_CONNECTION_SETTINGS structure.
+description: Specifies the type of structure contained in the WRdsConnectionSetting member of the WRDS_CONNECTION_SETTINGS structure.helpviewer_keywords: ["*PWRDS_CONNECTION_SETTING_LEVEL","PWRDS_CONNECTION_SETTING_LEVEL","PWRDS_CONNECTION_SETTING_LEVEL enumeration pointer [Remote Desktop Services]","WRDS_CONNECTION_SETTING_LEVEL","WRDS_CONNECTION_SETTING_LEVEL enumeration [Remote Desktop Services]","WRDS_CONNECTION_SETTING_LEVEL_1","WRDS_CONNECTION_SETTING_LEVEL_INVALID","termserv.wrds_connection_setting_level","wtsdefs/PWRDS_CONNECTION_SETTING_LEVEL","wtsdefs/WRDS_CONNECTION_SETTING_LEVEL","wtsdefs/WRDS_CONNECTION_SETTING_LEVEL_1","wtsdefs/WRDS_CONNECTION_SETTING_LEVEL_INVALID"]
 old-location: termserv\wrds_connection_setting_level.htm
 tech.root: TermServ
 ms.assetid: 0D82D26F-1EA6-45A5-90DF-80BE144DC3BF

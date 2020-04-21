@@ -1,7 +1,7 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevice.put_Authorization
 title: IWindowsMediaLibrarySharingDevice::put_Authorization (wmlss.h)
-description: The put_Authorization method authorizes or unauthorizes the device to have access to the current user's media library.
+description: The put_Authorization method authorizes or unauthorizes the device to have access to the current user's media library.helpviewer_keywords: ["IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services]","put_Authorization method","IWindowsMediaLibrarySharingDevice.put_Authorization","IWindowsMediaLibrarySharingDevice::put_Authorization","put_Authorization","put_Authorization method [Windows Media Library Sharing Services]","put_Authorization method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDevice interface","wmlss.IWMLSDeviceput_Authorization","wmlss/IWindowsMediaLibrarySharingDevice::put_Authorization"]
 old-location: wmlss\IWMLSDeviceput_Authorization.htm
 tech.root: WMLSS
 ms.assetid: 26ac8f24-d212-4558-a66e-ffe5e90bd73b

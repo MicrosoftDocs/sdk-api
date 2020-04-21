@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.CheckColorsInGamut
 title: CheckColorsInGamut function (wingdi.h)
-description: The CheckColorsInGamut function determines whether a specified set of RGB triples lies in the output gamut of a specified device. The RGB triples are interpreted in the input logical color space.
+description: The CheckColorsInGamut function determines whether a specified set of RGB triples lies in the output gamut of a specified device. The RGB triples are interpreted in the input logical color space.helpviewer_keywords: ["CheckColorsInGamut","CheckColorsInGamut function [Windows Color System]","_color_CheckColorsInGamut","wcs.checkcolorsingamut","wingdi/CheckColorsInGamut"]
 old-location: wcs\checkcolorsingamut.htm
 tech.root: WCS
 ms.assetid: 87bee1a6-e3dd-4d0b-ad8a-9584833d9463

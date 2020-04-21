@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetFieldCount
 title: SetupGetFieldCount function (setupapi.h)
-description: The SetupGetFieldCount function retrieves the number of fields in the specified line in an INF file.
+description: The SetupGetFieldCount function retrieves the number of fields in the specified line in an INF file.helpviewer_keywords: ["SetupGetFieldCount","SetupGetFieldCount function [Setup API]","_setupapi_setupgetfieldcount","setup.setupgetfieldcount","setupapi/SetupGetFieldCount"]
 old-location: setup\setupgetfieldcount.htm
 tech.root: SetupApi
 ms.assetid: 7353d52c-7553-4f50-beab-7fcc4db1fe40

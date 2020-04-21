@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.IEnumNetworks.Next
 title: IEnumNetworks::Next (netlistmgr.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence.
+description: The Next method gets the next specified number of elements in the enumeration sequence.helpviewer_keywords: ["IEnumNetworks interface [Network Awareness]","Next method","IEnumNetworks.Next","IEnumNetworks::Next","Next","Next method [Network Awareness]","Next method [Network Awareness]","IEnumNetworks interface","netlistmgr/IEnumNetworks::Next","nla.ienumnetworks_next"]
 old-location: nla\ienumnetworks_next.htm
 tech.root: nla
 ms.assetid: 5ee2501c-502e-448e-8635-c8bf9d169ebb

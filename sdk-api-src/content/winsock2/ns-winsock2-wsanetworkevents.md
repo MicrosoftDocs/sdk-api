@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSANETWORKEVENTS
 title: WSANETWORKEVENTS (winsock2.h)
-description: The WSANETWORKEVENTS structure is used to store a socket's internal information about network events.
+description: The WSANETWORKEVENTS structure is used to store a socket's internal information about network events.helpviewer_keywords: ["*LPWSANETWORKEVENTS","LPWSANETWORKEVENTS","LPWSANETWORKEVENTS structure pointer [Winsock]","WSANETWORKEVENTS","WSANETWORKEVENTS structure [Winsock]","_win32_wsanetworkevents_2","winsock.wsanetworkevents_2","winsock2/LPWSANETWORKEVENTS","winsock2/WSANETWORKEVENTS"]
 old-location: winsock\wsanetworkevents_2.htm
 tech.root: WinSock
 ms.assetid: 72ae4aa8-4e15-4215-8dcb-45e394ac1313

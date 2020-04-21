@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetPropertyOccurrenceCount
 title: IDWriteFontSet::GetPropertyOccurrenceCount (dwrite_3.h)
-description: Returns how many times a given property value occurs in the set.
+description: Returns how many times a given property value occurs in the set.helpviewer_keywords: ["GetPropertyOccurrenceCount","GetPropertyOccurrenceCount method [Direct Write]","GetPropertyOccurrenceCount method [Direct Write]","IDWriteFontSet interface","IDWriteFontSet interface [Direct Write]","GetPropertyOccurrenceCount method","IDWriteFontSet.GetPropertyOccurrenceCount","IDWriteFontSet::GetPropertyOccurrenceCount","directwrite.idwritefontset_getpropertyoccurrencecount","dwrite_3/IDWriteFontSet::GetPropertyOccurrenceCount"]
 old-location: directwrite\idwritefontset_getpropertyoccurrencecount.htm
 tech.root: DirectWrite
 ms.assetid: 514359d4-595d-4cac-a784-527b65b53137

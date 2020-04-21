@@ -1,7 +1,7 @@
 ---
 UID: NF:websocket.WebSocketCompleteAction
 title: WebSocketCompleteAction function (websocket.h)
-description: Completes an action started by WebSocketGetAction.
+description: Completes an action started by WebSocketGetAction.helpviewer_keywords: ["WebSocketCompleteAction","WebSocketCompleteAction function [Websocket Protocol Component API]","websock.websocketcompleteaction","websocket/WebSocketCompleteAction"]
 old-location: websock\websocketcompleteaction.htm
 tech.root: WebSock
 ms.assetid: e9b90176-c76f-42c2-b378-834a690bfe72

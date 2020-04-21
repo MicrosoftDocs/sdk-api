@@ -1,7 +1,7 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0011
 title: ADS_NETADDRESS (iads.h)
-description: The ADS_NETADDRESS structure is an ADSI representation of the Net Address attribute syntax.
+description: The ADS_NETADDRESS structure is an ADSI representation of the Net Address attribute syntax.helpviewer_keywords: ["*PADS_NETADDRESS","ADS_NETADDRESS","ADS_NETADDRESS structure [ADSI]","PADS_NETADDRESS","PADS_NETADDRESS structure pointer [ADSI]","_ds_ads_netaddress","adsi.ads__netaddress","adsi.ads_netaddress","iads/ADS_NETADDRESS","iads/PADS_NETADDRESS"]
 old-location: adsi\ads_netaddress.htm
 tech.root: adsi
 ms.assetid: 108c5e24-c52b-472a-b5c6-f7d534cab892

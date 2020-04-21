@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_ROOT_SIGNATURE_DESC
 title: D3D12_ROOT_SIGNATURE_DESC (d3d12.h)
-description: Describes the layout of a root signature version 1.0.
+description: Describes the layout of a root signature version 1.0.helpviewer_keywords: ["D3D12_ROOT_SIGNATURE_DESC","D3D12_ROOT_SIGNATURE_DESC structure","d3d12/D3D12_ROOT_SIGNATURE_DESC","direct3d12.d3d12_root_signature_desc"]
 old-location: direct3d12\d3d12_root_signature_desc.htm
 tech.root: direct3d12
 ms.assetid: D74D9D3B-96AB-489A-A91C-4F68AC3D05EE

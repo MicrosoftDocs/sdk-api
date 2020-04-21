@@ -1,7 +1,7 @@
 ---
 UID: NN:ctffunc.ITfFnConfigure
 title: ITfFnConfigure (ctffunc.h)
-description: The ITfFnConfigure interface is implemented by a text service to enable the Text Services control panel application to allow the text service to display a configuration dialog box.
+description: The ITfFnConfigure interface is implemented by a text service to enable the Text Services control panel application to allow the text service to display a configuration dialog box.helpviewer_keywords: ["ITfFnConfigure","ITfFnConfigure interface [Text Services Framework]","ITfFnConfigure interface [Text Services Framework]","described","_tsf_itffnconfigure_ref","ctffunc/ITfFnConfigure","tsf.itffnconfigure"]
 old-location: tsf\itffnconfigure.htm
 tech.root: TSF
 ms.assetid: af23e668-9c00-4e53-89b6-c8be85ae961b

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IMediaSeeking.SetRate
 title: IMediaSeeking::SetRate (strmif.h)
-description: The SetRate method sets the playback rate.
+description: The SetRate method sets the playback rate.helpviewer_keywords: ["IMediaSeeking interface [DirectShow]","SetRate method","IMediaSeeking.SetRate","IMediaSeeking::SetRate","IMediaSeekingSetRate","SetRate","SetRate method [DirectShow]","SetRate method [DirectShow]","IMediaSeeking interface","dshow.imediaseeking_setrate","strmif/IMediaSeeking::SetRate"]
 old-location: dshow\imediaseeking_setrate.htm
 tech.root: DirectShow
 ms.assetid: 8cd44480-cadb-4b59-9fe7-4a82b3aed15b

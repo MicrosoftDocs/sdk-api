@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnPin.get_PinLengthMin
 title: IMbnPin::get_PinLengthMin (mbnapi.h)
-description: The minimum length of the PIN.
+description: The minimum length of the PIN.helpviewer_keywords: ["IMbnPin interface [Microsoft Broadband Networks]","PinLengthMin property","IMbnPin.PinLengthMin","IMbnPin.get_PinLengthMin","IMbnPin::PinLengthMin","IMbnPin::get_PinLengthMin","PinLengthMin property [Microsoft Broadband Networks]","PinLengthMin property [Microsoft Broadband Networks]","IMbnPin interface","get_PinLengthMin","mbn.imbnpin_pinlengthmin","mbnapi/IMbnPin::PinLengthMin","mbnapi/IMbnPin::get_PinLengthMin"]
 old-location: mbn\imbnpin_pinlengthmin.htm
 tech.root: mbn
 ms.assetid: 09cfbe04-cfc4-4942-a78b-f97ef40f0d2c

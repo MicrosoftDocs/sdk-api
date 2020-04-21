@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.SetLowerBound
 title: IUIAnimationVariable::SetLowerBound (uianimation.h)
-description: Sets the lower bound (floor) for the animation variable. The value of the animation variable should not fall below the specified value.
+description: Sets the lower bound (floor) for the animation variable. The value of the animation variable should not fall below the specified value.helpviewer_keywords: ["IUIAnimationVariable interface [Windows Animation]","SetLowerBound method","IUIAnimationVariable.SetLowerBound","IUIAnimationVariable::SetLowerBound","SetLowerBound","SetLowerBound method [Windows Animation]","SetLowerBound method [Windows Animation]","IUIAnimationVariable interface","uianimation.iuianimationvariable_setlowerbound","uianimation/IUIAnimationVariable::SetLowerBound"]
 old-location: uianimation\iuianimationvariable_setlowerbound.htm
 tech.root: UIAnimation
 ms.assetid: 1e8f1106-6320-4670-867a-24ce6597026e

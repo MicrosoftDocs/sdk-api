@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcFactory.CreateStreamOnFile
 title: IOpcFactory::CreateStreamOnFile (msopc.h)
-description: Creates a stream over a file.
+description: Creates a stream over a file.helpviewer_keywords: ["CreateStreamOnFile","CreateStreamOnFile method [Open Packaging Conventions]","CreateStreamOnFile method [Open Packaging Conventions]","IOpcFactory interface","IOpcFactory interface [Open Packaging Conventions]","CreateStreamOnFile method","IOpcFactory.CreateStreamOnFile","IOpcFactory::CreateStreamOnFile","msopc/IOpcFactory::CreateStreamOnFile","opc.iopcfactory_createstreamonfile"]
 old-location: opc\iopcfactory_createstreamonfile.htm
 tech.root: OPC
 ms.assetid: d41bb51d-127c-4b24-8c93-4224404e0b2d

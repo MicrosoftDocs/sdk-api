@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICImageEncoder.WriteFrameThumbnail
 title: IWICImageEncoder::WriteFrameThumbnail (wincodec.h)
-description: Encodes the image as a thumbnail to the frame given by the IWICBitmapFrameEncode.
+description: Encodes the image as a thumbnail to the frame given by the IWICBitmapFrameEncode.helpviewer_keywords: ["IWICImageEncoder interface [Windows Imaging Component]","WriteFrameThumbnail method","IWICImageEncoder.WriteFrameThumbnail","IWICImageEncoder::WriteFrameThumbnail","WriteFrameThumbnail","WriteFrameThumbnail method [Windows Imaging Component]","WriteFrameThumbnail method [Windows Imaging Component]","IWICImageEncoder interface","wic.iwicimageencoder_writeframethumbnail","wincodec/IWICImageEncoder::WriteFrameThumbnail"]
 old-location: wic\iwicimageencoder_writeframethumbnail.htm
 tech.root: wic
 ms.assetid: 5A34F900-73F1-4FFC-B251-F22E0EDDB873

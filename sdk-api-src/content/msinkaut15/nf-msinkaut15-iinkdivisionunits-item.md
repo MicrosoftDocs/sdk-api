@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnits.Item
 title: IInkDivisionUnits::Item (msinkaut15.h)
-description: Retrieves the IInkDivisionUnit object at the specified index within the IInkDivisionUnits collection.
+description: Retrieves the IInkDivisionUnit object at the specified index within the IInkDivisionUnits collection.helpviewer_keywords: ["332a9365-526e-43df-841f-20eed07762e7","IInkDivisionUnits interface [Tablet PC]","Item method","IInkDivisionUnits.Item","IInkDivisionUnits::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkDivisionUnits interface","msinkaut15/IInkDivisionUnits::Item","tablet.iinkdivisionunits_item"]
 old-location: tablet\iinkdivisionunits_item.htm
 tech.root: tablet
 ms.assetid: 332a9365-526e-43df-841f-20eed07762e7

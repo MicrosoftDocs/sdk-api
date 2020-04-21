@@ -1,7 +1,7 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetRepairInfo
 title: INetDiagHelper::GetRepairInfo (ndhelper.h)
-description: Retrieves the repair information that the Helper Class Extension has for a given problem type.
+description: Retrieves the repair information that the Helper Class Extension has for a given problem type.helpviewer_keywords: ["GetRepairInfo","GetRepairInfo method [NDF]","GetRepairInfo method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","GetRepairInfo method","INetDiagHelper.GetRepairInfo","INetDiagHelper::GetRepairInfo","ndf.inetdiaghelpe_getrepairinfo","ndhelper/INetDiagHelper::GetRepairInfo"]
 old-location: ndf\inetdiaghelpe_getrepairinfo.htm
 tech.root: NDF
 ms.assetid: a14b1f61-1ac7-4ee7-ad82-e0821f43a17d

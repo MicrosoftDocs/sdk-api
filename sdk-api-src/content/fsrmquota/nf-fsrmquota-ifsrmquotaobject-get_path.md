@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.get_Path
 title: IFsrmQuotaObject::get_Path (fsrmquota.h)
-description: Retrieves the path to which the quota applies.
+description: Retrieves the path to which the quota applies.helpviewer_keywords: ["IFsrmQuotaObject interface [File Server Resource Manager]","Path property","IFsrmQuotaObject.Path","IFsrmQuotaObject.get_Path","IFsrmQuotaObject::Path","IFsrmQuotaObject::get_Path","Path property [File Server Resource Manager]","Path property [File Server Resource Manager]","IFsrmQuotaObject interface","fs.ifsrmquotaobject_path","fsrm.ifsrmquotaobject_path","fsrmquota/IFsrmQuotaObject::Path","fsrmquota/IFsrmQuotaObject::get_Path","get_Path"]
 old-location: fsrm\ifsrmquotaobject_path.htm
 tech.root: fsrm
 ms.assetid: de587430-5179-4c9e-9ad0-86bb57757d1c

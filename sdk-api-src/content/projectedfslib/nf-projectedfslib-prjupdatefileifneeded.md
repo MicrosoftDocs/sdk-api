@@ -1,7 +1,7 @@
 ---
 UID: NF:projectedfslib.PrjUpdateFileIfNeeded
 title: PrjUpdateFileIfNeeded function (projectedfslib.h)
-description: Enables a provider to update an item that has been cached on the local file system.
+description: Enables a provider to update an item that has been cached on the local file system.helpviewer_keywords: ["PrjUpdateFileIfNeeded","PrjUpdateFileIfNeeded function","ProjFS.prjupdatefileifneeded","projectedfslib/PrjUpdateFileIfNeeded"]
 old-location: projfs\prjupdatefileifneeded.htm
 tech.root: ProjFS
 ms.assetid: 182C9C5E-ABBC-4A7C-99E4-D019B7E237CE

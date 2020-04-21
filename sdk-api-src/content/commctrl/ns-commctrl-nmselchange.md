@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMSELCHANGE
 title: NMSELCHANGE (commctrl.h)
-description: Carries information required to process the MCN_SELCHANGE notification code.
+description: Carries information required to process the MCN_SELCHANGE notification code.helpviewer_keywords: ["*LPNMSELCHANGE","*LPNMSELECT","LPNMSELCHANGE","LPNMSELCHANGE structure pointer [Windows Controls]","NMSELCHANGE","NMSELCHANGE structure [Windows Controls]","NMSELECT","_win32_NMSELCHANGE","_win32_NMSELCHANGE_cpp","commctrl/LPNMSELCHANGE","commctrl/NMSELCHANGE","controls.NMSELCHANGE","controls._win32_NMSELCHANGE"]
 old-location: controls\NMSELCHANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmselchange.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilFindMultiSzProperty
 title: ResUtilFindMultiSzProperty function (resapi.h)
-description: Locates a multiple string property in a property list. The PRESUTIL_FIND_MULTI_SZ_PROPERTY type defines a pointer to this function.
+description: Locates a multiple string property in a property list. The PRESUTIL_FIND_MULTI_SZ_PROPERTY type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_FIND_MULTI_SZ_PROPERTY","PRESUTIL_FIND_MULTI_SZ_PROPERTY function [Failover Cluster]","ResUtilFindMultiSzProperty","ResUtilFindMultiSzProperty function [Failover Cluster]","_wolf_resutilfindmultiszproperty","mscs.resutilfindmultiszproperty","resapi/PRESUTIL_FIND_MULTI_SZ_PROPERTY","resapi/ResUtilFindMultiSzProperty"]
 old-location: mscs\resutilfindmultiszproperty.htm
 tech.root: MsCS
 ms.assetid: 65209ca8-e293-40cc-ac8a-9643933e049f

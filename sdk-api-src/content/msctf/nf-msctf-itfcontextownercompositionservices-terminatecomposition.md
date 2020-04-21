@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionServices.TerminateComposition
 title: ITfContextOwnerCompositionServices::TerminateComposition (msctf.h)
-description: ITfContextOwnerCompositionServices::TerminateComposition method
+description: ITfContextOwnerCompositionServices::TerminateComposition methodhelpviewer_keywords: ["ITfContextOwnerCompositionServices interface [Text Services Framework]","TerminateComposition method","ITfContextOwnerCompositionServices.TerminateComposition","ITfContextOwnerCompositionServices::TerminateComposition","TerminateComposition","TerminateComposition method [Text Services Framework]","TerminateComposition method [Text Services Framework]","ITfContextOwnerCompositionServices interface","_tsf_itfcontextownercompositionservices_terminatecomposition_ref","msctf/ITfContextOwnerCompositionServices::TerminateComposition","tsf.itfcontextownercompositionservices_terminatecomposition"]
 old-location: tsf\itfcontextownercompositionservices_terminatecomposition.htm
 tech.root: TSF
 ms.assetid: 950ba2b3-cb12-4697-a4b2-1c87373b9a23

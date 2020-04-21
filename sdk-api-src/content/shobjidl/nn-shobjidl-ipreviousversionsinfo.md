@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IPreviousVersionsInfo
 title: IPreviousVersionsInfo (shobjidl.h)
-description: Exposes a method that checks for previous versions of server files or folders, stored for the purpose of reversion by the shadow copies technology provided with Windows Server 2003.
+description: Exposes a method that checks for previous versions of server files or folders, stored for the purpose of reversion by the shadow copies technology provided with Windows Server 2003.helpviewer_keywords: ["IPreviousVersionsInfo","IPreviousVersionsInfo interface [Windows Shell]","IPreviousVersionsInfo interface [Windows Shell]","described","_shell_IPreviousVersionsInfo","shell.IPreviousVersionsInfo","shobjidl/IPreviousVersionsInfo"]
 old-location: shell\IPreviousVersionsInfo.htm
 tech.root: shell
 ms.assetid: 5d55107e-a07a-4d70-80f6-7ec99578bb48

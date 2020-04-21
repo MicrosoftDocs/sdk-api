@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.Move
 title: ITextRange::Move (tom.h)
-description: Moves the insertion point forward or backward a specified number of units. If the range is nondegenerate, the range is collapsed to an insertion point at either end, depending on Count, and then is moved.
+description: Moves the insertion point forward or backward a specified number of units. If the range is nondegenerate, the range is collapsed to an insertion point at either end, depending on Count, and then is moved.helpviewer_keywords: ["ITextRange interface [Windows Controls]","Move method","ITextRange.Move","ITextRange::Move","Move","Move method [Windows Controls]","Move method [Windows Controls]","ITextRange interface","_win32_ITextRange_Move","_win32_ITextRange_Move_cpp","controls.ITextRange_Move","controls._win32_ITextRange_Move","tom/ITextRange::Move"]
 old-location: controls\ITextRange_Move.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\move.htm

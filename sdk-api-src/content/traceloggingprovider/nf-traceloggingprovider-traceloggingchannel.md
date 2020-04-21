@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingChannel
 title: TraceLoggingChannel macro (traceloggingprovider.h)
-description: Wrapper macro for setting the event's channel.
+description: Wrapper macro for setting the event's channel.helpviewer_keywords: ["TraceLoggingChannel","TraceLoggingChannel macro","tracelogging.traceloggingchannel","traceloggingprovider/TraceLoggingChannel"]
 old-location: tracelogging\traceloggingchannel.htm
 tech.root: tracelogging
 ms.assetid: E7769335-3A1D-4F0B-86DA-20DA3F7B6733

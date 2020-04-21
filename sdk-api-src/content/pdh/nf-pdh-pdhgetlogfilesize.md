@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhGetLogFileSize
 title: PdhGetLogFileSize function (pdh.h)
-description: Returns the size of the specified log file.
+description: Returns the size of the specified log file.helpviewer_keywords: ["PdhGetLogFileSize","PdhGetLogFileSize function [Perf]","_win32_pdhgetlogfilesize","base.pdhgetlogfilesize","pdh/PdhGetLogFileSize","perf.pdhgetlogfilesize"]
 old-location: perf\pdhgetlogfilesize.htm
 tech.root: perfctrs
 ms.assetid: 2bb94019-c664-4144-98b6-a0a545f7e4c1

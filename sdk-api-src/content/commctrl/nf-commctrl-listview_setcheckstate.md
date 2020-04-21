@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_SetCheckState
 title: ListView_SetCheckState macro (commctrl.h)
-description: Selects or deselects an item in a list-view control. You can use this macro or send the LVM_SETITEMSTATE message explicitly.
+description: Selects or deselects an item in a list-view control. You can use this macro or send the LVM_SETITEMSTATE message explicitly.helpviewer_keywords: ["ListView_SetCheckState","ListView_SetCheckState macro [Windows Controls]","_win32_ListView_SetCheckState","_win32_ListView_SetCheckState_cpp","commctrl/ListView_SetCheckState","controls.ListView_SetCheckState","controls._win32_ListView_SetCheckState"]
 old-location: controls\ListView_SetCheckState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcheckstate.htm

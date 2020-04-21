@@ -1,7 +1,7 @@
 ---
 UID: NS:wmsdkidl._WMUserText
 title: WM_USER_TEXT (wmsdkidl.h)
-description: The WM_USER_TEXT structure is used as the data item for the WM/Text complex metadata attribute.
+description: The WM_USER_TEXT structure is used as the data item for the WM/Text complex metadata attribute.helpviewer_keywords: ["WM_USER_TEXT","WM_USER_TEXT structure [windows Media Format]","wmformat.wm_user_text","wmsdkidl/WM_USER_TEXT"]
 old-location: wmformat\wm_user_text.htm
 tech.root: wmformat
 ms.assetid: 49a8faf1-2af4-4c47-bbac-d8745c0f60a1

@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteStr
 title: PSPropertyBag_WriteStr function (propsys.h)
-description: Sets the string value of a property in a property bag.
+description: Sets the string value of a property in a property bag.helpviewer_keywords: ["PSPropertyBag_WriteStr","PSPropertyBag_WriteStr function [Windows Properties]","properties.PSPropertyBag_WriteStr","propsys/PSPropertyBag_WriteStr","shell.PSPropertyBag_WriteStr","shell_PSPropertyBag_WriteStr"]
 old-location: properties\PSPropertyBag_WriteStr.htm
 tech.root: properties
 ms.assetid: D3614CAE-D594-4050-B80E-20D8BBB93744

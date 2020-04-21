@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateNotCondition
 title: IUIAutomation::CreateNotCondition (uiautomationclient.h)
-description: Creates a condition that is the negative of a specified condition.
+description: Creates a condition that is the negative of a specified condition.helpviewer_keywords: ["CreateNotCondition","CreateNotCondition method [Windows Accessibility]","CreateNotCondition method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateNotCondition method","IUIAutomation.CreateNotCondition","IUIAutomation::CreateNotCondition","uiauto.uiauto_IUIAutomation_CreateNotCondition","uiauto_IUIAutomation_CreateNotCondition","uiautomationclient/IUIAutomation::CreateNotCondition","winauto.uiauto_IUIAutomation_CreateNotCondition"]
 old-location: winauto\uiauto_IUIAutomation_CreateNotCondition.htm
 tech.root: WinAuto
 ms.assetid: 183603f9-6e5b-4c44-b6b2-c363b4d150c3

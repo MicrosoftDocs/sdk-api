@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMStoreInt2
 title: XMStoreInt2 function (directxmath.h)
-description: Stores an XMVECTOR in a 2-element uint32_t array.
+description: Stores an XMVECTOR in a 2-element uint32_t array.helpviewer_keywords: ["Use DirectX..XMStoreInt2","XMStoreInt2","XMStoreInt2 method [DirectX Math Support APIs]","dxmath.xmstoreint2"]
 old-location: dxmath\xmstoreint2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreInt2(VOID@,XMVERTORI)

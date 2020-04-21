@@ -1,7 +1,7 @@
 ---
 UID: NS:nldef._NL_BANDWIDTH_INFORMATION
 title: NL_BANDWIDTH_INFORMATION (nldef.h)
-description: Contains read-only information on the available bandwidth estimates and associated variance as determined by the TCP/IP stack.
+description: Contains read-only information on the available bandwidth estimates and associated variance as determined by the TCP/IP stack.helpviewer_keywords: ["*PNL_BANDWIDTH_INFORMATION","NL_BANDWIDTH_INFORMATION","NL_BANDWIDTH_INFORMATION structure [IP Helper]","PNL_BANDWIDTH_INFORMATION","PNL_BANDWIDTH_INFORMATION structure pointer [IP Helper]","iphlp.nl_bandwidth_information","nldef/NL_BANDWIDTH_INFORMATION","nldef/PNL_BANDWIDTH_INFORMATION"]
 old-location: iphlp\nl_bandwidth_information.htm
 tech.root: IpHlp
 ms.assetid: F5D7238A-EAE0-4D60-A0A4-D839F738EF48

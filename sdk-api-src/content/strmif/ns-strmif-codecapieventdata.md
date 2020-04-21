@@ -1,7 +1,7 @@
 ---
 UID: NS:strmif.CodecAPIEventData
 title: CodecAPIEventData (strmif.h)
-description: The CodecAPIEventData structure contains event data for the EC_CODECAPI_EVENT event. This event is sent by codecs that support the ICodecAPI interface.
+description: The CodecAPIEventData structure contains event data for the EC_CODECAPI_EVENT event. This event is sent by codecs that support the ICodecAPI interface.helpviewer_keywords: ["CodecAPIEventData","CodecAPIEventData structure [DirectShow]","CodecAPIEventDataStructure","dshow.codecapieventdata","strmif/CodecAPIEventData"]
 old-location: dshow\codecapieventdata.htm
 tech.root: DirectShow
 ms.assetid: 04d0177d-ec9d-4f23-abd1-a37c787c24b2

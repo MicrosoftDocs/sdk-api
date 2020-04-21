@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.GetOverlapping
 title: ITextFont2::GetOverlapping (tom.h)
-description: Gets whether overlapping text is active.
+description: Gets whether overlapping text is active.helpviewer_keywords: ["GetOverlapping","GetOverlapping method [Windows Controls]","GetOverlapping method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetOverlapping method","ITextFont2.GetOverlapping","ITextFont2::GetOverlapping","controls.itextfont2_getoverlapping","tom/ITextFont2::GetOverlapping"]
 old-location: controls\itextfont2_getoverlapping.htm
 tech.root: Controls
 ms.assetid: 26937777-a44b-4196-aa6b-f35787f934a9

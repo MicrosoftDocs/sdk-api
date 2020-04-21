@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFCopyImage
 title: MFCopyImage function (mfapi.h)
-description: Copies an image or image plane from one buffer to another.
+description: Copies an image or image plane from one buffer to another.helpviewer_keywords: ["MFCopyImage","MFCopyImage function [Media Foundation]","e6bc2777-d33c-4d44-84c6-e7b35d308d33","mf.mfcopyimage","mfapi/MFCopyImage"]
 old-location: mf\mfcopyimage.htm
 tech.root: medfound
 ms.assetid: e6bc2777-d33c-4d44-84c6-e7b35d308d33

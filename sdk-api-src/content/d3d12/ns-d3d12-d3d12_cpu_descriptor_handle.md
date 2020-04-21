@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_CPU_DESCRIPTOR_HANDLE
 title: D3D12_CPU_DESCRIPTOR_HANDLE (d3d12.h)
-description: Describes a CPU descriptor handle.
+description: Describes a CPU descriptor handle.helpviewer_keywords: ["D3D12_CPU_DESCRIPTOR_HANDLE","D3D12_CPU_DESCRIPTOR_HANDLE structure","d3d12/D3D12_CPU_DESCRIPTOR_HANDLE","direct3d12.d3d12_cpu_descriptor_handle"]
 old-location: direct3d12\d3d12_cpu_descriptor_handle.htm
 tech.root: direct3d12
 ms.assetid: 92451E4C-5E70-4015-8760-3F75066A44FD

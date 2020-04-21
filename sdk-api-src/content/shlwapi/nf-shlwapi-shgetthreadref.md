@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHGetThreadRef
 title: SHGetThreadRef function (shlwapi.h)
-description: Retrieves the per-thread object reference set by SHSetThreadRef.
+description: Retrieves the per-thread object reference set by SHSetThreadRef.helpviewer_keywords: ["SHGetThreadRef","SHGetThreadRef function [Windows Shell]","_win32_SHGetThreadRef","shell.SHGetThreadRef","shlwapi/SHGetThreadRef"]
 old-location: shell\SHGetThreadRef.htm
 tech.root: shell
 ms.assetid: 307b284b-f493-4d24-a7be-17c150d62b34

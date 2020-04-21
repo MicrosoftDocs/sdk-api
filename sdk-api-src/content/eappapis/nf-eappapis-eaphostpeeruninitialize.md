@@ -1,7 +1,7 @@
 ---
 UID: NF:eappapis.EapHostPeerUninitialize
 title: EapHostPeerUninitialize function (eappapis.h)
-description: Uninitializes all EAPHost authentication sessions.
+description: Uninitializes all EAPHost authentication sessions.helpviewer_keywords: ["EapHostPeerUninitialize","EapHostPeerUninitialize function [EAPHost]","eaphost.eaphostpeeruninitialize","eappapis/EapHostPeerUninitialize"]
 old-location: eaphost\eaphostpeeruninitialize.htm
 tech.root: eaphost
 ms.assetid: 5d3a101a-4de3-4da2-8c03-e672e206ffb0

@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._encorrecttext
 title: ENCORRECTTEXT (richedit.h)
-description: Contains information about the selected text to be corrected.
+description: Contains information about the selected text to be corrected.helpviewer_keywords: ["ENCORRECTTEXT","ENCORRECTTEXT structure [Windows Controls]","SEL_MULTICHAR","SEL_MULTIOBJECT","SEL_OBJECT","SEL_TEXT","_win32_ENCORRECTTEXT_str","_win32_ENCORRECTTEXT_str_cpp","controls.ENCORRECTTEXT","controls._win32_ENCORRECTTEXT_str","richedit/ENCORRECTTEXT"]
 old-location: controls\ENCORRECTTEXT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\encorrecttext.htm

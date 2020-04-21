@@ -1,7 +1,7 @@
 ---
 UID: NS:tapi.linetranslatecaps_tag
 title: LINETRANSLATECAPS (tapi.h)
-description: The LINETRANSLATECAPS structure describes the address translation capabilities.
+description: The LINETRANSLATECAPS structure describes the address translation capabilities.helpviewer_keywords: ["*LPLINETRANSLATECAPS","LINETRANSLATECAPS","LINETRANSLATECAPS structure [TAPI 2.2]","LPLINETRANSLATECAPS","LPLINETRANSLATECAPS structure pointer [TAPI 2.2]","_tapi2_linetranslatecaps_str","tapi/LINETRANSLATECAPS","tapi/LPLINETRANSLATECAPS","tapi2.linetranslatecaps_str"]
 old-location: tapi2\linetranslatecaps_str.htm
 tech.root: Tapi
 ms.assetid: 9b4dcbe6-41e9-4b9c-9150-d0c7edef5a19

@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.IQueryContinueWithStatus.SetStatusMessage
 title: IQueryContinueWithStatus::SetStatusMessage (credentialprovider.h)
-description: Enables the credential provider to set status messages as it attempts to complete IConnectableCredentialProviderCredential::Connect.
+description: Enables the credential provider to set status messages as it attempts to complete IConnectableCredentialProviderCredential::Connect.helpviewer_keywords: ["IQueryContinueWithStatus interface [Windows Shell]","SetStatusMessage method","IQueryContinueWithStatus.SetStatusMessage","IQueryContinueWithStatus::SetStatusMessage","SetStatusMessage","SetStatusMessage method [Windows Shell]","SetStatusMessage method [Windows Shell]","IQueryContinueWithStatus interface","_shell_IQueryContinueWithStatus_SetStatusMessage","credentialprovider/IQueryContinueWithStatus::SetStatusMessage","shell.IQueryContinueWithStatus_SetStatusMessage"]
 old-location: shell\IQueryContinueWithStatus_SetStatusMessage.htm
 tech.root: shell
 ms.assetid: 1619c592-f79b-429f-a1dc-ce0b66542dd6

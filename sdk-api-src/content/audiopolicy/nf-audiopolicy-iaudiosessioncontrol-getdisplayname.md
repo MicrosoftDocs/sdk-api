@@ -1,7 +1,7 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.GetDisplayName
 title: IAudioSessionControl::GetDisplayName (audiopolicy.h)
-description: The GetDisplayName method retrieves the display name for the audio session.
+description: The GetDisplayName method retrieves the display name for the audio session.helpviewer_keywords: ["GetDisplayName","GetDisplayName method [Core Audio]","GetDisplayName method [Core Audio]","IAudioSessionControl interface","IAudioSessionControl interface [Core Audio]","GetDisplayName method","IAudioSessionControl.GetDisplayName","IAudioSessionControl::GetDisplayName","IAudioSessionControlGetDisplayName","audiopolicy/IAudioSessionControl::GetDisplayName","coreaudio.iaudiosessioncontrol_getdisplayname"]
 old-location: coreaudio\iaudiosessioncontrol_getdisplayname.htm
 tech.root: CoreAudio
 ms.assetid: 28493e3a-ee5a-4331-b5b5-ba0bf2ee3370

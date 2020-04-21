@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.MetafileFrameUnit
 title: MetafileFrameUnit (gdiplusenums.h)
-description: The MetafileFrameUnit enumeration specifies the unit of measure for a metafile frame rectangle.
+description: The MetafileFrameUnit enumeration specifies the unit of measure for a metafile frame rectangle.helpviewer_keywords: ["MetafileFrameUnit","MetafileFrameUnit enumeration [GDI+]","MetafileFrameUnitDocument","MetafileFrameUnitGdi","MetafileFrameUnitInch","MetafileFrameUnitMillimeter","MetafileFrameUnitPixel","MetafileFrameUnitPoint","_gdiplus_ENUM_MetafileFrameUnit","gdiplus._gdiplus_ENUM_MetafileFrameUnit","gdiplusenums/MetafileFrameUnit","gdiplusenums/MetafileFrameUnitDocument","gdiplusenums/MetafileFrameUnitGdi","gdiplusenums/MetafileFrameUnitInch","gdiplusenums/MetafileFrameUnitMillimeter","gdiplusenums/MetafileFrameUnitPixel","gdiplusenums/MetafileFrameUnitPoint"]
 old-location: gdiplus\_gdiplus_ENUM_MetafileFrameUnit.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\metafileframeunit.htm

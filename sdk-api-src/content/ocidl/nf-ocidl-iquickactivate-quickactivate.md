@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IQuickActivate.QuickActivate
 title: IQuickActivate::QuickActivate (ocidl.h)
-description: Quick activates a control.
+description: Quick activates a control.helpviewer_keywords: ["IQuickActivate interface [COM]","QuickActivate method","IQuickActivate.QuickActivate","IQuickActivate::QuickActivate","QuickActivate","QuickActivate method [COM]","QuickActivate method [COM]","IQuickActivate interface","_ctrl_iquickactivate_quickactivate","com.iquickactivate_quickactivate","ocidl/IQuickActivate::QuickActivate"]
 old-location: com\iquickactivate_quickactivate.htm
 tech.root: com
 ms.assetid: 504cb272-da1c-4ffb-b4b1-fdf288901660

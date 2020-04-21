@@ -1,7 +1,7 @@
 ---
 UID: NC:authif.PRADIUS_EXTENSION_TERM
 title: PRADIUS_EXTENSION_TERM (authif.h)
-description: The RadiusExtensionTerm function is an application-defined function and is called by NPS prior to unloading the Extension DLL. Use RadiusExtensionTerm to perform any clean-up operations for the Extension DLL.
+description: The RadiusExtensionTerm function is an application-defined function and is called by NPS prior to unloading the Extension DLL. Use RadiusExtensionTerm to perform any clean-up operations for the Extension DLL.helpviewer_keywords: ["PRADIUS_EXTENSION_TERM","PRADIUS_EXTENSION_TERM callback","PRADIUS_EXTENSION_TERM callback function [Network Policy Server]","RadiusExtensionTerm","_ias_radiusextensionterm","authif/PRADIUS_EXTENSION_TERM","ias.radiusextensionterm","nps.IAS_radiusextensionterm"]
 old-location: nps\IAS_radiusextensionterm.htm
 tech.root: Nps
 ms.assetid: a3f6669f-bad5-4289-abbc-633851c1f5f8

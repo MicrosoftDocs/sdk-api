@@ -1,7 +1,7 @@
 ---
 UID: NN:syncmgr.ISyncMgrEvent
 title: ISyncMgrEvent (syncmgr.h)
-description: Exposes methods that retrieve data from an event store. An event store allows Sync Center to get an enumerator of all events in the store, as well as to retrieve individual events.
+description: Exposes methods that retrieve data from an event store. An event store allows Sync Center to get an enumerator of all events in the store, as well as to retrieve individual events.helpviewer_keywords: ["ISyncMgrEvent","ISyncMgrEvent interface [Windows Shell]","ISyncMgrEvent interface [Windows Shell]","described","_shell_ISyncMgrEvent","shell.ISyncMgrEvent","syncmgr/ISyncMgrEvent"]
 old-location: shell\ISyncMgrEvent.htm
 tech.root: shell
 ms.assetid: fb9877fc-016c-472b-9af2-f2470c5c7e3b

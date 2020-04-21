@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12DeviceChild.GetDevice
 title: ID3D12DeviceChild::GetDevice (d3d12.h)
-description: Gets a pointer to the device that created this interface.
+description: Gets a pointer to the device that created this interface.helpviewer_keywords: ["GetDevice","GetDevice method","GetDevice method","ID3D12DeviceChild interface","ID3D12DeviceChild interface","GetDevice method","ID3D12DeviceChild.GetDevice","ID3D12DeviceChild::GetDevice","d3d12/ID3D12DeviceChild::GetDevice","direct3d12.id3d12devicechild_getdevice"]
 old-location: direct3d12\id3d12devicechild_getdevice.htm
 tech.root: direct3d12
 ms.assetid: FFF72E85-4382-420B-82C9-CE72B223F703

@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsFindAttribute
 title: WsFindAttribute function (webservices.h)
-description: Searches the attributes of the current element for an attribute with the specified name and namespace and returns its index which may be passed to WsReadStartAttribute.
+description: Searches the attributes of the current element for an attribute with the specified name and namespace and returns its index which may be passed to WsReadStartAttribute.helpviewer_keywords: ["WsFindAttribute","WsFindAttribute function [Web Services for Windows]","webservices/WsFindAttribute","wsw.wsfindattribute"]
 old-location: wsw\wsfindattribute.htm
 tech.root: wsw
 ms.assetid: beb00382-6cc0-42c6-b835-4ebc94c5faa2

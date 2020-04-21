@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnOutgoingMessageAdded
 title: _IFaxServerNotify2::OnOutgoingMessageAdded (faxcomex.h)
-description: The fax service calls the IFaxServerNotify2::OnOutgoingMessageAdded method when an outgoing message is added to the outbound fax archive.
+description: The fax service calls the IFaxServerNotify2::OnOutgoingMessageAdded method when an outgoing message is added to the outbound fax archive.helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnOutgoingMessageAdded method","IFaxServerNotify2.OnOutgoingMessageAdded","IFaxServerNotify2::OnOutgoingMessageAdded","OnOutgoingMessageAdded","OnOutgoingMessageAdded method [Fax Service]","OnOutgoingMessageAdded method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnOutgoingMessageAdded","_IFaxServerNotify2::OnOutgoingMessageAdded","_mfax_ifaxservernotify2_onoutgoingmessageadded","fax._mfax_ifaxservernotify2_onoutgoingmessageadded","faxcomex/IFaxServerNotify2::OnOutgoingMessageAdded"]
 old-location: fax\_mfax_ifaxservernotify2_onoutgoingmessageadded.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingmessageadded.htm

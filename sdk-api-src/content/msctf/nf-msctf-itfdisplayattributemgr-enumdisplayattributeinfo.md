@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeMgr.EnumDisplayAttributeInfo
 title: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo (msctf.h)
-description: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo method
+description: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo methodhelpviewer_keywords: ["EnumDisplayAttributeInfo","EnumDisplayAttributeInfo method [Text Services Framework]","EnumDisplayAttributeInfo method [Text Services Framework]","ITfDisplayAttributeMgr interface","ITfDisplayAttributeMgr interface [Text Services Framework]","EnumDisplayAttributeInfo method","ITfDisplayAttributeMgr.EnumDisplayAttributeInfo","ITfDisplayAttributeMgr::EnumDisplayAttributeInfo","_tsf_itfdisplayattributemgr_enumdisplayattributeinfo_ref","msctf/ITfDisplayAttributeMgr::EnumDisplayAttributeInfo","tsf.itfdisplayattributemgr_enumdisplayattributeinfo"]
 old-location: tsf\itfdisplayattributemgr_enumdisplayattributeinfo.htm
 tech.root: TSF
 ms.assetid: ea0cb5b1-46a3-43c6-a109-1972d3fcbc18

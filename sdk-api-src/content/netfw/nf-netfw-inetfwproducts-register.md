@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwProducts.Register
 title: INetFwProducts::Register (netfw.h)
-description: The Register method registers a third-party firewall product.
+description: The Register method registers a third-party firewall product.helpviewer_keywords: ["INetFwProducts interface [ICS/ICF]","Register method","INetFwProducts.Register","INetFwProducts::Register","Register","Register method [ICS/ICF]","Register method [ICS/ICF]","INetFwProducts interface","ics.inetfwproducts_register","netfw/INetFwProducts::Register"]
 old-location: ics\inetfwproducts_register.htm
 tech.root: ics
 ms.assetid: eea30680-f1c7-454d-896c-5116209fdc2c

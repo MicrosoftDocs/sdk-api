@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.Load
 title: IUPnPDescriptionDocument::Load (upnp.h)
-description: The Load method loads a document synchronously. This method does not return control to the caller until the load operation is complete.
+description: The Load method loads a document synchronously. This method does not return control to the caller until the load operation is complete.helpviewer_keywords: ["IUPnPDescriptionDocument interface [UPnP APIs]","Load method","IUPnPDescriptionDocument.Load","IUPnPDescriptionDocument::Load","Load","Load method [UPnP APIs]","Load method [UPnP APIs]","IUPnPDescriptionDocument interface","_upnp_iupnpdescriptiondocument_load","upnp.iupnpdescriptiondocument_load","upnp/IUPnPDescriptionDocument::Load"]
 old-location: upnp\iupnpdescriptiondocument_load.htm
 tech.root: upnp
 ms.assetid: 02ae8af2-44f2-4b7c-a426-f2a26c43da37

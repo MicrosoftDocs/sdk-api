@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.CreatePointCollection
 title: ID2D1SvgDocument::CreatePointCollection (d2d1svg.h)
-description: Creates a points object which can be used to set a points attribute on a polygon or polyline element.
+description: Creates a points object which can be used to set a points attribute on a polygon or polyline element.helpviewer_keywords: ["CreatePointCollection","CreatePointCollection method [Direct2D]","CreatePointCollection method [Direct2D]","ID2D1SvgDocument interface","ID2D1SvgDocument interface [Direct2D]","CreatePointCollection method","ID2D1SvgDocument.CreatePointCollection","ID2D1SvgDocument::CreatePointCollection","d2d1svg/ID2D1SvgDocument::CreatePointCollection","direct2d.id2d1svgdocument_createpointcollection"]
 old-location: direct2d\id2d1svgdocument_createpointcollection.htm
 tech.root: Direct2D
 ms.assetid: A7AB02F2-32B0-4FF5-8A3A-CE7A6AD9DB57

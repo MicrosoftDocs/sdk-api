@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_ARCHITECTURE
 title: D3D12_FEATURE_DATA_ARCHITECTURE (d3d12.h)
-description: Provides detail about the adapter architecture, so that your application can better optimize for certain adapter properties.
+description: Provides detail about the adapter architecture, so that your application can better optimize for certain adapter properties.helpviewer_keywords: ["D3D12_FEATURE_DATA_ARCHITECTURE","D3D12_FEATURE_DATA_ARCHITECTURE structure","d3d12/D3D12_FEATURE_DATA_ARCHITECTURE","direct3d12.d3d12_feature_data_architecture"]
 old-location: direct3d12\d3d12_feature_data_architecture.htm
 tech.root: direct3d12
 ms.assetid: FA16A260-3CC9-4F32-A97B-8A561A01C138

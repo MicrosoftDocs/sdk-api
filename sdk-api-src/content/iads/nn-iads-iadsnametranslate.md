@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsNameTranslate
 title: IADsNameTranslate (iads.h)
-description: The IADsNameTranslateinterface translates distinguished names (DNs) among various formats as defined in the ADS_NAME_TYPE_ENUM enumeration. The feature is available to objects in Active Directory.
+description: The IADsNameTranslateinterface translates distinguished names (DNs) among various formats as defined in the ADS_NAME_TYPE_ENUM enumeration. The feature is available to objects in Active Directory.helpviewer_keywords: ["IADsNameTranslate","IADsNameTranslate interface [ADSI]","IADsNameTranslate interface [ADSI]","described","NameTranslate","_ds_iadsnametranslate","adsi.iadsnametranslate","iads/IADsNameTranslate"]
 old-location: adsi\iadsnametranslate.htm
 tech.root: adsi
 ms.assetid: 3d8baeb1-0edc-4648-8691-6ea4dcfd8f62

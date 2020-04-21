@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFMediaSource.Shutdown
 title: IMFMediaSource::Shutdown (mfidl.h)
-description: Shuts down the media source and releases the resources it is using.
+description: Shuts down the media source and releases the resources it is using.helpviewer_keywords: ["IMFMediaSource interface [Media Foundation]","Shutdown method","IMFMediaSource.Shutdown","IMFMediaSource::Shutdown","Shutdown","Shutdown method [Media Foundation]","Shutdown method [Media Foundation]","IMFMediaSource interface","c7f890a8-74bd-4418-bb02-a3fee62dec6d","mf.imfmediasource_shutdown","mfidl/IMFMediaSource::Shutdown"]
 old-location: mf\imfmediasource_shutdown.htm
 tech.root: medfound
 ms.assetid: c7f890a8-74bd-4418-bb02-a3fee62dec6d

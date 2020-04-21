@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.IAnchor.SetChangeHistoryMask
 title: IAnchor::SetChangeHistoryMask (textstor.h)
-description: This method has not been implemented.
+description: This method has not been implemented.helpviewer_keywords: ["IAnchor interface [Text Services Framework]","SetChangeHistoryMask method","IAnchor.SetChangeHistoryMask","IAnchor::SetChangeHistoryMask","SetChangeHistoryMask","SetChangeHistoryMask method [Text Services Framework]","SetChangeHistoryMask method [Text Services Framework]","IAnchor interface","textstor/IAnchor::SetChangeHistoryMask","tsf.ianchor_setchangehistorymask"]
 old-location: tsf\ianchor_setchangehistorymask.htm
 tech.root: TSF
 ms.assetid: b6be9a29-5d39-4719-a7e3-0c0921ecd89a

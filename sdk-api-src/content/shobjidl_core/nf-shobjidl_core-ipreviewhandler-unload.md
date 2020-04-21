@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.Unload
 title: IPreviewHandler::Unload (shobjidl_core.h)
-description: Directs the preview handler to cease rendering a preview and to release all resources that have been allocated based on the item passed in during the initialization.
+description: Directs the preview handler to cease rendering a preview and to release all resources that have been allocated based on the item passed in during the initialization.helpviewer_keywords: ["IPreviewHandler interface [Windows Shell]","Unload method","IPreviewHandler.Unload","IPreviewHandler::Unload","Unload","Unload method [Windows Shell]","Unload method [Windows Shell]","IPreviewHandler interface","_shell_IPreviewHandler_Unload","shell.IPreviewHandler_Unload","shobjidl_core/IPreviewHandler::Unload"]
 old-location: shell\IPreviewHandler_Unload.htm
 tech.root: shell
 ms.assetid: cefa9888-66cf-48a1-a6cd-49e273076d39

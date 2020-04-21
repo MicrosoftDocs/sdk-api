@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCleanupContextDurationSink.OnEndCleanupContext
 title: ITfCleanupContextDurationSink::OnEndCleanupContext (msctf.h)
-description: ITfCleanupContextDurationSink::OnEndCleanupContext method
+description: ITfCleanupContextDurationSink::OnEndCleanupContext methodhelpviewer_keywords: ["ITfCleanupContextDurationSink interface [Text Services Framework]","OnEndCleanupContext method","ITfCleanupContextDurationSink.OnEndCleanupContext","ITfCleanupContextDurationSink::OnEndCleanupContext","OnEndCleanupContext","OnEndCleanupContext method [Text Services Framework]","OnEndCleanupContext method [Text Services Framework]","ITfCleanupContextDurationSink interface","_tsf_itfcleanupcontextdurationsink_onendcleanupcontext_ref","msctf/ITfCleanupContextDurationSink::OnEndCleanupContext","tsf.itfcleanupcontextdurationsink_onendcleanupcontext"]
 old-location: tsf\itfcleanupcontextdurationsink_onendcleanupcontext.htm
 tech.root: TSF
 ms.assetid: d7af4584-9c77-40cd-a83d-7b6fd3945b17

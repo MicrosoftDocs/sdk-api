@@ -1,7 +1,7 @@
 ---
 UID: NS:strmif.tagDVD_VideoAttributes
 title: DVD_VideoAttributes (strmif.h)
-description: The DVD_VideoAttributes structure describes the attributes of the video stream for the current title or menu.
+description: The DVD_VideoAttributes structure describes the attributes of the video stream for the current title or menu.helpviewer_keywords: ["DVD_VideoAttributes","DVD_VideoAttributes structure [DirectShow]","DVD_VideoAttributesStructure","dshow.dvd_videoattributes","strmif/DVD_VideoAttributes"]
 old-location: dshow\dvd_videoattributes.htm
 tech.root: DirectShow
 ms.assetid: b395a322-d63e-41a0-b97a-88f99aeba0e5

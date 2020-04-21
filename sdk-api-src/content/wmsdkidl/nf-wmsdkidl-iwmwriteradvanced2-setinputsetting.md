@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced2.SetInputSetting
 title: IWMWriterAdvanced2::SetInputSetting (wmsdkidl.h)
-description: The SetInputSetting method specifies a named setting for a particular input.
+description: The SetInputSetting method specifies a named setting for a particular input.helpviewer_keywords: ["IWMWriterAdvanced2 interface [windows Media Format]","SetInputSetting method","IWMWriterAdvanced2.SetInputSetting","IWMWriterAdvanced2::SetInputSetting","IWMWriterAdvanced2SetInputSetting","SetInputSetting","SetInputSetting method [windows Media Format]","SetInputSetting method [windows Media Format]","IWMWriterAdvanced2 interface","wmformat.iwmwriteradvanced2_setinputsetting","wmsdkidl/IWMWriterAdvanced2::SetInputSetting"]
 old-location: wmformat\iwmwriteradvanced2_setinputsetting.htm
 tech.root: wmformat
 ms.assetid: a920bfe8-1f95-4957-b6c4-9749d5e10ee3

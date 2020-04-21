@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFSampleOutputStream
 title: IMFSampleOutputStream (mfobjects.h)
-description: Writes media samples to a byte stream.
+description: Writes media samples to a byte stream.helpviewer_keywords: ["IMFSampleOutputStream","IMFSampleOutputStream interface [Media Foundation]","IMFSampleOutputStream interface [Media Foundation]","described","mf.imfsampleoutputstream","mfobjects/IMFSampleOutputStream"]
 old-location: mf\imfsampleoutputstream.htm
 tech.root: medfound
 ms.assetid: BA293BB7-9191-4123-96DB-FF6386ABB3AE

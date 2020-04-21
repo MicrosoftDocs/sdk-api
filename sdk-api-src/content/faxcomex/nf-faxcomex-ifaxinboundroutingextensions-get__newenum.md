@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtensions.get__NewEnum
 title: IFaxInboundRoutingExtensions::get__NewEnum (faxcomex.h)
-description: The IFaxInboundRoutingExtensions::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the IFaxInboundRoutingExtensions collection.
+description: The IFaxInboundRoutingExtensions::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the IFaxInboundRoutingExtensions collection.helpviewer_keywords: ["IFaxInboundRoutingExtensions interface [Fax Service]","get__NewEnum method","IFaxInboundRoutingExtensions.get__NewEnum","IFaxInboundRoutingExtensions::get__NewEnum","_mfax_ifaxinboundroutingextensions_get__newenum","fax._mfax_ifaxinboundroutingextensions_get__newenum","faxcomex/IFaxInboundRoutingExtensions::get__NewEnum","get__NewEnum","get__NewEnum method [Fax Service]","get__NewEnum method [Fax Service]","IFaxInboundRoutingExtensions interface"]
 old-location: fax\_mfax_ifaxinboundroutingextensions_get__newenum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9965.htm

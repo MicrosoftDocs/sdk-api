@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetPersistentItemsChangedSink
 title: ISearchCatalogManager::GetPersistentItemsChangedSink (searchapi.h)
-description: Gets the change notification event sink interface for a client. This method is used by client applications and protocol handlers to notify the indexer of changes.
+description: Gets the change notification event sink interface for a client. This method is used by client applications and protocol handlers to notify the indexer of changes.helpviewer_keywords: ["GetPersistentItemsChangedSink","GetPersistentItemsChangedSink method [search]","GetPersistentItemsChangedSink method [search]","ISearchCatalogManager interface","ISearchCatalogManager interface [search]","GetPersistentItemsChangedSink method","ISearchCatalogManager.GetPersistentItemsChangedSink","ISearchCatalogManager::GetPersistentItemsChangedSink","_search_ISearchCatalogManager_GetPersistentItemsChangedSink","search._search_ISearchCatalogManager_GetPersistentItemsChangedSink","searchapi/ISearchCatalogManager::GetPersistentItemsChangedSink"]
 old-location: search\_search_ISearchCatalogManager_GetPersistentItemsChangedSink.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getpersistentitemschangedsink.htm

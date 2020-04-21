@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.IContextMenuCallback
 title: IContextMenuCallback (mmc.h)
-description: The IContextMenuCallback interface is used to add menu items to a context menu.
+description: The IContextMenuCallback interface is used to add menu items to a context menu.helpviewer_keywords: ["IContextMenuCallback","IContextMenuCallback interface [MMC]","IContextMenuCallback interface [MMC]","described","_slate_icontextmenucallback","mmc.icontextmenucallback","mmc/IContextMenuCallback"]
 old-location: mmc\icontextmenucallback.htm
 tech.root: mmc
 ms.assetid: 141a650f-a829-47b1-abf9-427302d98444

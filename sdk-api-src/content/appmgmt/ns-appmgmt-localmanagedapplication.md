@@ -1,7 +1,7 @@
 ---
 UID: NS:appmgmt._LOCALMANAGEDAPPLICATION
 title: LOCALMANAGEDAPPLICATION (appmgmt.h)
-description: The LOCALMANAGEDAPPLICATION structure describes a managed application installed for a user or a computer. Returned by the GetLocalManagedApplications function.
+description: The LOCALMANAGEDAPPLICATION structure describes a managed application installed for a user or a computer. Returned by the GetLocalManagedApplications function.helpviewer_keywords: ["*PLOCALMANAGEDAPPLICATION","LOCALMANAGEDAPPLICATION","LOCALMANAGEDAPPLICATION structure [Group Policy]","LOCAL_STATE_ASSIGNED","LOCAL_STATE_POLICYREMOVE_ORPHAN","LOCAL_STATE_POLICYREMOVE_UNINSTALL","LOCAL_STATE_PUBLISHED","LOCAL_STATE_UNINSTALL_UNMANAGED","PLOCALMANAGEDAPPLICATION","PLOCALMANAGEDAPPLICATION structure pointer [Group Policy]","appmgmt/LOCALMANAGEDAPPLICATION","appmgmt/PLOCALMANAGEDAPPLICATION","policy.localmanagedapplication_str"]
 old-location: policy\localmanagedapplication_str.htm
 tech.root: Policy
 ms.assetid: b2b7d209-76ee-4ba4-ac61-034d2c8e0689

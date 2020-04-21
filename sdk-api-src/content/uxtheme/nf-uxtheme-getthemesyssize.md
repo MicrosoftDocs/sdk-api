@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.GetThemeSysSize
 title: GetThemeSysSize function (uxtheme.h)
-description: Retrieves the value of a system size metric from theme data.
+description: Retrieves the value of a system size metric from theme data.helpviewer_keywords: ["GetThemeSysSize","GetThemeSysSize function [Windows Controls]","SM_CXBORDER","SM_CXHSCROLL","SM_CXMENUSIZE","SM_CXPADDEDBORDER","SM_CXSIZE","SM_CXSMSIZE","SM_CXVSCROLL","SM_CYMENUSIZE","SM_CYSIZE","SM_CYSMSIZE","controls.GetThemeSysSize","controls.inet_GetThemeSysSize","inet_GetThemeSysSize","inet_GetThemeSysSize_cpp","uxtheme/GetThemeSysSize"]
 old-location: controls\GetThemeSysSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyssize.htm

@@ -1,7 +1,7 @@
 ---
 UID: NS:tapi.lineagentsession_tag
 title: LINEAGENTSESSIONENTRY (tapi.h)
-description: The LINEAGENTSESSIONENTRY structure describes an ACD agent session. The LINEAGENTSESSIONLIST structure can contain an array of LINEAGENTSESSIONENTRY structures.
+description: The LINEAGENTSESSIONENTRY structure describes an ACD agent session. The LINEAGENTSESSIONLIST structure can contain an array of LINEAGENTSESSIONENTRY structures.helpviewer_keywords: ["*LPLINEAGENTSESSIONENTRY","LINEAGENTSESSIONENTRY","LINEAGENTSESSIONENTRY structure [TAPI 2.2]","LPLINEAGENTSESSIONENTRY","LPLINEAGENTSESSIONENTRY structure pointer [TAPI 2.2]","_tapi2_lineagentsessionentry_str","tapi/LINEAGENTSESSIONENTRY","tapi/LPLINEAGENTSESSIONENTRY","tapi2.lineagentsessionentry_str"]
 old-location: tapi2\lineagentsessionentry_str.htm
 tech.root: Tapi
 ms.assetid: 406b003a-11a2-445d-a466-a8549e201199

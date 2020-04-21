@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IWriteEngine2.CancelWrite
 title: IWriteEngine2::CancelWrite (imapi2.h)
-description: Cancels a write operation that is in progress.
+description: Cancels a write operation that is in progress.helpviewer_keywords: ["CancelWrite","CancelWrite method [IMAPI]","CancelWrite method [IMAPI]","IWriteEngine2 interface","IWriteEngine2 interface [IMAPI]","CancelWrite method","IWriteEngine2.CancelWrite","IWriteEngine2::CancelWrite","imapi.iwriteengine2_cancelwrite","imapi2/IWriteEngine2::CancelWrite"]
 old-location: imapi\iwriteengine2_cancelwrite.htm
 tech.root: imapi
 ms.assetid: cd658bd3-71ab-4e63-adec-8b7405a76c12

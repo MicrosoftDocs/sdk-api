@@ -1,7 +1,7 @@
 ---
 UID: NF:processenv.FreeEnvironmentStringsW
 title: FreeEnvironmentStringsW function (processenv.h)
-description: Frees a block of environment strings.
+description: Frees a block of environment strings.helpviewer_keywords: ["FreeEnvironmentStrings","FreeEnvironmentStrings function","FreeEnvironmentStringsA","FreeEnvironmentStringsW","_win32_freeenvironmentstrings","base.freeenvironmentstrings","processenv/FreeEnvironmentStrings","processenv/FreeEnvironmentStringsA","processenv/FreeEnvironmentStringsW","winbase/FreeEnvironmentStrings","winbase/FreeEnvironmentStringsA","winbase/FreeEnvironmentStringsW"]
 old-location: base\freeenvironmentstrings.htm
 tech.root: ProcThread
 ms.assetid: 8ac73f6e-4b42-4730-bf88-4b671f57b63b

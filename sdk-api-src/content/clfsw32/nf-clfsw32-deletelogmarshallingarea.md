@@ -1,7 +1,7 @@
 ---
 UID: NF:clfsw32.DeleteLogMarshallingArea
 title: DeleteLogMarshallingArea function (clfsw32.h)
-description: Deletes a marshaling area that is created by a successful call to CreateLogMarshallingArea.
+description: Deletes a marshaling area that is created by a successful call to CreateLogMarshallingArea.helpviewer_keywords: ["DeleteLogMarshallingArea","DeleteLogMarshallingArea function [Files]","clfsw32/DeleteLogMarshallingArea","fs.deletelogmarshalingarea","fs.deletelogmarshallingarea"]
 old-location: fs\deletelogmarshallingarea.htm
 tech.root: Clfs
 ms.assetid: d58bd64f-fa76-4ab3-9660-e31e9029171c

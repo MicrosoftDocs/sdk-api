@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_THUMBPRINT_CERT_CREDENTIAL
 title: WS_THUMBPRINT_CERT_CREDENTIAL (webservices.h)
-description: The type for specifying a certificate credential using the certificate's thumbprint, store location and store name. The specified credential is loaded when the containing channel or listener is opened.
+description: The type for specifying a certificate credential using the certificate's thumbprint, store location and store name. The specified credential is loaded when the containing channel or listener is opened.helpviewer_keywords: ["WS_THUMBPRINT_CERT_CREDENTIAL","WS_THUMBPRINT_CERT_CREDENTIAL structure [Web Services for Windows]","webservices/WS_THUMBPRINT_CERT_CREDENTIAL","wsw.ws_thumbprint_cert_credential"]
 old-location: wsw\ws_thumbprint_cert_credential.htm
 tech.root: wsw
 ms.assetid: b1e7b6a6-1f71-4bcd-9c0e-9a46b963b19b

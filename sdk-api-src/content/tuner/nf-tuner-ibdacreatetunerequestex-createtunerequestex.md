@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IBDACreateTuneRequestEx.CreateTuneRequestEx
 title: IBDACreateTuneRequestEx::CreateTuneRequestEx (tuner.h)
-description: Creates a new tuning request for a tuning space. This method enables the caller to specify a particular type of tuning request.
+description: Creates a new tuning request for a tuning space. This method enables the caller to specify a particular type of tuning request.helpviewer_keywords: ["CreateTuneRequestEx","CreateTuneRequestEx method [Microsoft TV Technologies]","CreateTuneRequestEx method [Microsoft TV Technologies]","IBDACreateTuneRequestEx interface","IBDACreateTuneRequestEx interface [Microsoft TV Technologies]","CreateTuneRequestEx method","IBDACreateTuneRequestEx.CreateTuneRequestEx","IBDACreateTuneRequestEx::CreateTuneRequestEx","mstv.ibdacreatetunerequestex_createtunerequestex","tuner/IBDACreateTuneRequestEx::CreateTuneRequestEx"]
 old-location: mstv\ibdacreatetunerequestex_createtunerequestex.htm
 tech.root: mstv
 ms.assetid: bf378da2-be79-484e-84c6-bf1669b50218

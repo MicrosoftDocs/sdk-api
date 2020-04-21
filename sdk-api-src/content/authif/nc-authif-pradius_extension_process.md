@@ -1,7 +1,7 @@
 ---
 UID: NC:authif.PRADIUS_EXTENSION_PROCESS
 title: PRADIUS_EXTENSION_PROCESS (authif.h)
-description: The RadiusExtensionProcess function is an application-defined function and is called by NPS for each authentication or accounting packet that NPS receives from the network access server (NAS).
+description: The RadiusExtensionProcess function is an application-defined function and is called by NPS for each authentication or accounting packet that NPS receives from the network access server (NAS).helpviewer_keywords: ["PRADIUS_EXTENSION_PROCESS","PRADIUS_EXTENSION_PROCESS callback","PRADIUS_EXTENSION_PROCESS callback function [Network Policy Server]","RadiusExtensionProcess","_ias_radiusextensionprocess","authif/PRADIUS_EXTENSION_PROCESS","ias.radiusextensionprocess","nps.IAS_radiusextensionprocess"]
 old-location: nps\IAS_radiusextensionprocess.htm
 tech.root: Nps
 ms.assetid: 75af0d43-f866-4769-8221-45e47c588bb0

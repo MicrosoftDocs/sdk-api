@@ -1,7 +1,7 @@
 ---
 UID: NN:callobj.ICallFrameEvents
 title: ICallFrameEvents (callobj.h)
-description: Delivers method call notifications.
+description: Delivers method call notifications.helpviewer_keywords: ["ICallFrameEvents","ICallFrameEvents interface [COM]","ICallFrameEvents interface [COM]","described","_com_icallframeevents_interface","callobj/ICallFrameEvents","com.icallframeevents"]
 old-location: com\icallframeevents.htm
 tech.root: com
 ms.assetid: 2f1e1b8d-6150-45e9-89e2-524d80df558d

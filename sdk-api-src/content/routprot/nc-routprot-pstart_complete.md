@@ -1,7 +1,7 @@
 ---
 UID: NC:routprot.PSTART_COMPLETE
 title: PSTART_COMPLETE (routprot.h)
-description: Router Manager calls the StartComplete function to inform the routing protocol that initialization is complete and all interfaces have been added. The routing protocol should wait for this call before starting any protocol-specific behavior.
+description: Router Manager calls the StartComplete function to inform the routing protocol that initialization is complete and all interfaces have been added. The routing protocol should wait for this call before starting any protocol-specific behavior.helpviewer_keywords: ["PSTART_COMPLETE","PSTART_COMPLETE callback","StartComplete","StartComplete callback function [RAS]","_mpr_startcomplete","routprot/StartComplete","rras.startcomplete"]
 old-location: rras\startcomplete.htm
 tech.root: RRAS
 ms.assetid: 1dace3a7-8e97-405c-b1fe-f5a67c05fb0c

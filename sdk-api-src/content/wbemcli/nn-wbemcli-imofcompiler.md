@@ -1,7 +1,7 @@
 ---
 UID: NN:wbemcli.IMofCompiler
 title: IMofCompiler (wbemcli.h)
-description: The IMofCompiler interface, implemented by Mofd.dll, provides a COM interface that is used by the Managed Object Format (MOF) compiler and any other applications that compile MOF files.
+description: The IMofCompiler interface, implemented by Mofd.dll, provides a COM interface that is used by the Managed Object Format (MOF) compiler and any other applications that compile MOF files.helpviewer_keywords: ["IMofCompiler","IMofCompiler interface [Windows Management Instrumentation]","IMofCompiler interface [Windows Management Instrumentation]","described","MofCompiler","_hmm_imofcompiler","wbemcli/IMofCompiler","wmi.imofcompiler"]
 old-location: wmi\imofcompiler.htm
 tech.root: WmiSdk
 ms.assetid: 5e01c7ac-7090-4cde-b836-01fa9d3f27f5

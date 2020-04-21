@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase._lwrite
 title: _lwrite function (winbase.h)
-description: Writes data to the specified file.
+description: Writes data to the specified file.helpviewer_keywords: ["_lwrite","_lwrite function [Windows API]","winbase/_lwrite","winprog._lwrite"]
 old-location: winprog\_lwrite.htm
 tech.root: DevNotes
 ms.assetid: 34b875a4-ca45-4f9d-a5be-e6e4d41c68bf

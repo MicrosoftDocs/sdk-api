@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiCreateDeviceInfoList
 title: SetupDiCreateDeviceInfoList function (setupapi.h)
-description: The SetupDiCreateDeviceInfoList function creates an empty device information set and optionally associates the set with a device setup class and a top-level window.
+description: The SetupDiCreateDeviceInfoList function creates an empty device information set and optionally associates the set with a device setup class and a top-level window.helpviewer_keywords: ["SetupDiCreateDeviceInfoList","SetupDiCreateDeviceInfoList function [Device and Driver Installation]","devinst.setupdicreatedeviceinfolist","di-rtns_8b7e7f05-0c72-4ae0-aee7-b88e8a59cc63.xml","setupapi/SetupDiCreateDeviceInfoList"]
 old-location: devinst\setupdicreatedeviceinfolist.htm
 tech.root: devinst
 ms.assetid: 0596f422-39ff-41ea-8bbd-63381d418ec8

@@ -1,7 +1,7 @@
 ---
 UID: NF:npapi.NPCloseEnum
 title: NPCloseEnum function (npapi.h)
-description: Closes an enumeration.
+description: Closes an enumeration.helpviewer_keywords: ["NPCloseEnum","NPCloseEnum function [Security]","_mnp_npcloseenum","npapi/NPCloseEnum","security.npcloseenum"]
 old-location: security\npcloseenum.htm
 tech.root: SecAuthN
 ms.assetid: fc6d5fe1-0953-4912-bdbd-b1372597f61d

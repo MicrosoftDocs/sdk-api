@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.Item
 title: INetFwOpenPorts::Item (netfw.h)
-description: Returns the specified port if it is in the collection.
+description: Returns the specified port if it is in the collection.helpviewer_keywords: ["INetFwOpenPorts interface [ICS/ICF]","Item method","INetFwOpenPorts.Item","INetFwOpenPorts::Item","Item","Item method [ICS/ICF]","Item method [ICS/ICF]","INetFwOpenPorts interface","ics.inetfwopenports_item","netfw/INetFwOpenPorts::Item"]
 old-location: ics\inetfwopenports_item.htm
 tech.root: ics
 ms.assetid: f0491047-d20d-49e4-9319-421b48feca48

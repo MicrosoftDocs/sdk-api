@@ -1,7 +1,7 @@
 ---
 UID: NS:wabdefs._SPropProblem
 title: SPropProblem (wabdefs.h)
-description: Do not use. Describes an error relating to an operation involving a property.
+description: Do not use. Describes an error relating to an operation involving a property.helpviewer_keywords: ["*LPSPropProblem","SPropProblem","SPropProblem structure [Windows Address Book]","_wab_SPropProblem","wab._wab_SPropProblem","wabdefs/SPropProblem"]
 old-location: wab\_wab_SPropProblem.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropproblem.htm

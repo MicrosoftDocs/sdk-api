@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapReader.GetStream
 title: IAppxBlockMapReader::GetStream (appxpackaging.h)
-description: Retrieves a read-only stream that represents the XML content of the block map.
+description: Retrieves a read-only stream that represents the XML content of the block map.helpviewer_keywords: ["GetStream","GetStream method [App packaging and management]","GetStream method [App packaging and management]","IAppxBlockMapReader interface","IAppxBlockMapReader interface [App packaging and management]","GetStream method","IAppxBlockMapReader.GetStream","IAppxBlockMapReader::GetStream","appxpackaging/IAppxBlockMapReader::GetStream","appxpkg.iappxblockmapreader_getstream"]
 old-location: appxpkg\iappxblockmapreader_getstream.htm
 tech.root: appxpkg
 ms.assetid: 95EBABDA-45D5-436C-B627-51C14D9091EA

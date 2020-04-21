@@ -1,7 +1,7 @@
 ---
 UID: NI:pwm.IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
 title: IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD (pwm.h)
-description: Retrieves the effective output signal period of the Pulse Width Modulation (PWM) controller as it would be measured on its output channels.
+description: Retrieves the effective output signal period of the Pulse Width Modulation (PWM) controller as it would be measured on its output channels.helpviewer_keywords: ["IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD","IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD control","IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD control code","base.ioctl_pwm_controller_get_actual_period","pwm/IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD"]
 old-location: base\ioctl_pwm_controller_get_actual_period.htm
 tech.root: devio
 ms.assetid: 11EB530E-4C73-44A3-8739-315F992DBE7B

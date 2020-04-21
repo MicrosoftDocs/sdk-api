@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineReleaseUserUserInfo
 title: lineReleaseUserUserInfo function (tapi.h)
-description: The lineReleaseUserUserInfo function informs the service provider that the application has processed the user-user information contained in the LINECALLINFO structure.
+description: The lineReleaseUserUserInfo function informs the service provider that the application has processed the user-user information contained in the LINECALLINFO structure.helpviewer_keywords: ["_tapi2_linereleaseuseruserinfo","lineReleaseUserUserInfo","lineReleaseUserUserInfo function [TAPI 2.2]","tapi/lineReleaseUserUserInfo","tapi2.linereleaseuseruserinfo"]
 old-location: tapi2\linereleaseuseruserinfo.htm
 tech.root: Tapi
 ms.assetid: 35d41764-7ed6-4be3-8854-37444f2a44a8

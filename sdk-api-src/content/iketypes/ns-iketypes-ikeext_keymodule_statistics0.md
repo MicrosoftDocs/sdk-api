@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_KEYMODULE_STATISTICS0_
 title: IKEEXT_KEYMODULE_STATISTICS0 (iketypes.h)
-description: Contains various statistics specific to the keying module.
+description: Contains various statistics specific to the keying module.helpviewer_keywords: ["IKEEXT_KEYMODULE_STATISTICS0","IKEEXT_KEYMODULE_STATISTICS0 structure [Filtering]","fwp.ikeext_keymodule_statistics0","iketypes/IKEEXT_KEYMODULE_STATISTICS0"]
 old-location: fwp\ikeext_keymodule_statistics0.htm
 tech.root: fwp
 ms.assetid: 87dca500-bf57-463a-a6de-db270430ae29

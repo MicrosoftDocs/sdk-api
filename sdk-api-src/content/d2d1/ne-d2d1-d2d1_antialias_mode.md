@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_ANTIALIAS_MODE
 title: D2D1_ANTIALIAS_MODE (d2d1.h)
-description: Specifies how the edges of nontext primitives are rendered.
+description: Specifies how the edges of nontext primitives are rendered.helpviewer_keywords: ["D2D1_ANTIALIAS_MODE","D2D1_ANTIALIAS_MODE enumeration [Direct2D]","D2D1_ANTIALIAS_MODE_ALIASED","D2D1_ANTIALIAS_MODE_PER_PRIMITIVE","d2d1/D2D1_ANTIALIAS_MODE","d2d1/D2D1_ANTIALIAS_MODE_ALIASED","d2d1/D2D1_ANTIALIAS_MODE_PER_PRIMITIVE","direct2d.D2D1_ANTIALIAS_MODE"]
 old-location: direct2d\D2D1_ANTIALIAS_MODE.htm
 tech.root: Direct2D
 ms.assetid: 3ca12155-6dd0-41bb-8778-3387422c4ffe

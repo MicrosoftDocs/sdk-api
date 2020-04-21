@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.SetIndex
 title: ITextRange::SetIndex (tom.h)
-description: Changes this range to the specified unit of the story.
+description: Changes this range to the specified unit of the story.helpviewer_keywords: ["ITextRange interface [Windows Controls]","SetIndex method","ITextRange.SetIndex","ITextRange::SetIndex","SetIndex","SetIndex method [Windows Controls]","SetIndex method [Windows Controls]","ITextRange interface","_win32_ITextRange_SetIndex","_win32_ITextRange_SetIndex_cpp","controls.ITextRange_SetIndex","controls._win32_ITextRange_SetIndex","tom/ITextRange::SetIndex"]
 old-location: controls\ITextRange_SetIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setindex.htm

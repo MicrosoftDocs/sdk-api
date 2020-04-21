@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetScrollBarInfo
 title: GetScrollBarInfo function (winuser.h)
-description: The GetScrollBarInfo function retrieves information about the specified scroll bar.
+description: The GetScrollBarInfo function retrieves information about the specified scroll bar.helpviewer_keywords: ["GetScrollBarInfo","GetScrollBarInfo function [Windows Controls]","OBJID_CLIENT","OBJID_HSCROLL","OBJID_VSCROLL","_win32_GetScrollBarInfo","_win32_GetScrollBarInfo_cpp","controls.GetScrollBarInfo","controls._win32_GetScrollBarInfo","winuser/GetScrollBarInfo"]
 old-location: controls\GetScrollBarInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollbarinfo.htm

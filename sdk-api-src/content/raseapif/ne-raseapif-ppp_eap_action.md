@@ -1,7 +1,7 @@
 ---
 UID: NE:raseapif._PPP_EAP_ACTION
 title: PPP_EAP_ACTION (raseapif.h)
-description: The PPP_EAP_ACTION enumerated type specifies actions that the Connection Manager should take on behalf of the authentication protocol.
+description: The PPP_EAP_ACTION enumerated type specifies actions that the Connection Manager should take on behalf of the authentication protocol.helpviewer_keywords: ["EAPACTION_Authenticate","EAPACTION_Done","EAPACTION_IndicateIdentity","EAPACTION_IndicateTLV","EAPACTION_NoAction","EAPACTION_Send","EAPACTION_SendAndDone","EAPACTION_SendWithTimeout","EAPACTION_SendWithTimeoutInteractive","PPP_EAP_ACTION","PPP_EAP_ACTION enumeration [EAP]","_eap_ppp_eap_action","eap.ppp_eap_action","raseapif/EAPACTION_Authenticate","raseapif/EAPACTION_Done","raseapif/EAPACTION_IndicateIdentity","raseapif/EAPACTION_IndicateTLV","raseapif/EAPACTION_NoAction","raseapif/EAPACTION_Send","raseapif/EAPACTION_SendAndDone","raseapif/EAPACTION_SendWithTimeout","raseapif/EAPACTION_SendWithTimeoutInteractive","raseapif/PPP_EAP_ACTION"]
 old-location: eap\ppp_eap_action.htm
 tech.root: EAP
 ms.assetid: 5b1ead41-1fc0-41af-8614-3246d220c88d

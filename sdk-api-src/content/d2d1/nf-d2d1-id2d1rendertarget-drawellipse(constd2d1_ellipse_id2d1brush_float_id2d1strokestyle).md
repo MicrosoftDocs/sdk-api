@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawEllipse(const D2D1_ELLIPSE,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawEllipse (d2d1.h)
-description: Draws the outline of an ellipse with the specified dimensions and stroke.
+description: Draws the outline of an ellipse with the specified dimensions and stroke.helpviewer_keywords: ["DrawEllipse","DrawEllipse methods [Direct2D]","ID2D1RenderTarget.DrawEllipse","ID2D1RenderTarget::DrawEllipse","d2d1/DrawEllipse","direct2d.id2d1rendertarget_drawellipse"]
 old-location: direct2d\id2d1rendertarget_drawellipse.htm
 tech.root: Direct2D
 ms.assetid: dabbb399-2d72-41c3-8b2f-aea49d7ad0cb

@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.AreFileApisANSI
 title: AreFileApisANSI function (fileapi.h)
-description: Determines whether the file I/O functions are using the ANSI or OEM character set code page.
+description: Determines whether the file I/O functions are using the ANSI or OEM character set code page.helpviewer_keywords: ["AreFileApisANSI","AreFileApisANSI function [Files]","_win32_arefileapisansi","base.arefileapisansi","fileapi/AreFileApisANSI","fs.arefileapisansi"]
 old-location: fs\arefileapisansi.htm
 tech.root: FileIO
 ms.assetid: 6bebe896-86d1-40b8-ab7f-0305ada71fdf

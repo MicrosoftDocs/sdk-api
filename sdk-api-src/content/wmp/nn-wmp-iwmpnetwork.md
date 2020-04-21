@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPNetwork
 title: IWMPNetwork (wmp.h)
-description: The IWMPNetwork interface provides methods relating to the network connection used by Windows Media Player.
+description: The IWMPNetwork interface provides methods relating to the network connection used by Windows Media Player.helpviewer_keywords: ["IWMPNetwork","IWMPNetwork interface [Windows Media Player]","IWMPNetwork interface [Windows Media Player]","described","IWMPNetworkInterface","wmp.iwmpnetwork","wmp/IWMPNetwork"]
 old-location: wmp\iwmpnetwork.htm
 tech.root: WMP
 ms.assetid: 074a4bc2-3d9f-4007-b6c8-91ea92a87b67

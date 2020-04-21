@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspen.Pen.SetLineJoin
 title: Pen::SetLineJoin (gdipluspen.h)
-description: The Pen::SetLineJoin method sets the line join for this Pen object.
+description: The Pen::SetLineJoin method sets the line join for this Pen object.helpviewer_keywords: ["Pen class [GDI+]","SetLineJoin method","Pen.SetLineJoin","Pen::SetLineJoin","SetLineJoin","SetLineJoin method [GDI+]","SetLineJoin method [GDI+]","Pen class","_gdiplus_CLASS_Pen_SetLineJoin_lineJoin_","gdiplus._gdiplus_CLASS_Pen_SetLineJoin_lineJoin_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetLineJoin_lineJoin_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setlinejoin.htm

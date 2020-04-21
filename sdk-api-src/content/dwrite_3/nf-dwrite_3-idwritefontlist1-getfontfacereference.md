@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontList1.GetFontFaceReference
 title: IDWriteFontList1::GetFontFaceReference (dwrite_3.h)
-description: Gets a font face reference given its zero-based index.
+description: Gets a font face reference given its zero-based index.helpviewer_keywords: ["GetFontFaceReference","GetFontFaceReference method [Direct Write]","GetFontFaceReference method [Direct Write]","IDWriteFontList1 interface","IDWriteFontList1 interface [Direct Write]","GetFontFaceReference method","IDWriteFontList1.GetFontFaceReference","IDWriteFontList1::GetFontFaceReference","directwrite.idwritefontlist1_getfontfacereference","dwrite_3/IDWriteFontList1::GetFontFaceReference"]
 old-location: directwrite\idwritefontlist1_getfontfacereference.htm
 tech.root: DirectWrite
 ms.assetid: E8EFDD13-2B6E-4C50-9A5D-AFBB4C0AF08B

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetSpreadMethod
 title: IXpsOMGradientBrush::GetSpreadMethod (xpsobjectmodel.h)
-description: Gets the XPS_SPREAD_METHOD value, which describes how the area outside of the gradient region will be rendered.
+description: Gets the XPS_SPREAD_METHOD value, which describes how the area outside of the gradient region will be rendered.helpviewer_keywords: ["GetSpreadMethod","GetSpreadMethod method [XPS Documents and Packaging]","GetSpreadMethod method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","IXpsOMGradientBrush interface [XPS Documents and Packaging]","GetSpreadMethod method","IXpsOMGradientBrush.GetSpreadMethod","IXpsOMGradientBrush::GetSpreadMethod","xps.ixpsomgradientbrush_getspreadmethod","xpsobjectmodel/IXpsOMGradientBrush::GetSpreadMethod"]
 old-location: xps\ixpsomgradientbrush_getspreadmethod.htm
 tech.root: printdocs
 ms.assetid: c4c62817-735b-4ef1-84cf-1c9fa63f55ee

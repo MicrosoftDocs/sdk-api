@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_PALETTE_LOCAL
 title: DD_PALETTE_LOCAL (ddrawint.h)
-description: The DD_PALETTE_LOCAL structure contains palette-related data that is unique to an individual palette object.
+description: The DD_PALETTE_LOCAL structure contains palette-related data that is unique to an individual palette object.helpviewer_keywords: ["*PDD_PALETTE_LOCAL","DD_PALETTE_LOCAL","DD_PALETTE_LOCAL structure [Display Devices]","ddrawint/DD_PALETTE_LOCAL","ddstrcts_e56ec243-4e12-4e79-afd7-afce67f148b1.xml","display.dd_palette_local"]
 old-location: display\dd_palette_local.htm
 tech.root: display
 ms.assetid: 28269aed-fb5e-42a2-aeca-9fa3c7f6481d

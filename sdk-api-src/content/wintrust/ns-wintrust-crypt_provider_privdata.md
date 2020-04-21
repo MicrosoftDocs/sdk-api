@@ -1,7 +1,7 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_PRIVDATA
 title: CRYPT_PROVIDER_PRIVDATA (wintrust.h)
-description: Contains private data to be used by a provider.
+description: Contains private data to be used by a provider.helpviewer_keywords: ["*PCRYPT_PROVIDER_PRIVDATA","CRYPT_PROVIDER_PRIVDATA","CRYPT_PROVIDER_PRIVDATA structure [Security]","PCRYPT_PROVIDER_PRIVDATA","PCRYPT_PROVIDER_PRIVDATA structure pointer [Security]","security.crypt_provider_privdata","wintrust/CRYPT_PROVIDER_PRIVDATA","wintrust/PCRYPT_PROVIDER_PRIVDATA"]
 old-location: security\crypt_provider_privdata.htm
 tech.root: SecCrypto
 ms.assetid: 499e4d9b-991a-4317-bc74-a1dfb6609a70

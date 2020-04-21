@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStylusSyncPluginCount
 title: IRealTimeStylus::GetStylusSyncPluginCount (rtscom.h)
-description: Retrieves the number of plug-ins in the synchronous plug-in collection.
+description: Retrieves the number of plug-ins in the synchronous plug-in collection.helpviewer_keywords: ["1f8d9097-6f17-4c62-a624-98583ac26f98","GetStylusSyncPluginCount","GetStylusSyncPluginCount method [Tablet PC]","GetStylusSyncPluginCount method [Tablet PC]","IRealTimeStylus interface","IRealTimeStylus interface [Tablet PC]","GetStylusSyncPluginCount method","IRealTimeStylus.GetStylusSyncPluginCount","IRealTimeStylus::GetStylusSyncPluginCount","rtscom/IRealTimeStylus::GetStylusSyncPluginCount","tablet.irealtimestylus_getstylussyncplugincount"]
 old-location: tablet\irealtimestylus_getstylussyncplugincount.htm
 tech.root: tablet
 ms.assetid: 1f8d9097-6f17-4c62-a624-98583ac26f98

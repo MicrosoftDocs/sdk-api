@@ -1,7 +1,7 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.Open
 title: IXMLHTTPRequest2::Open (msxml6.h)
-description: Initializes an IXMLHTTPRequest2 request and specifies the method, URL, and authentication information for the request. After calling this method, you must call the Send method to send the request and data, if any, to the server.
+description: Initializes an IXMLHTTPRequest2 request and specifies the method, URL, and authentication information for the request. After calling this method, you must call the Send method to send the request and data, if any, to the server.helpviewer_keywords: ["IXMLHTTPRequest2 interface [XMLHttpRequest2]","Open method","IXMLHTTPRequest2.Open","IXMLHTTPRequest2::Open","Open","Open method [XMLHttpRequest2]","Open method [XMLHttpRequest2]","IXMLHTTPRequest2 interface","ixhr2.ixmlhttprequest2_open","msxml6/IXMLHTTPRequest2::Open"]
 old-location: ixhr2\ixmlhttprequest2_open.htm
 tech.root: ixhr2
 ms.assetid: 8723F24B-0739-44D6-8443-1A378B585F42

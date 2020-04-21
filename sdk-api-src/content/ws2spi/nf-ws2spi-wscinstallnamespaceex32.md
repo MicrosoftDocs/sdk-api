@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2spi.WSCInstallNameSpaceEx32
 title: WSCInstallNameSpaceEx32 function (ws2spi.h)
-description: Installs a specified 32-bit namespace provider.
+description: Installs a specified 32-bit namespace provider.helpviewer_keywords: ["WSCInstallNameSpaceEx32","WSCInstallNameSpaceEx32 function [Winsock]","winsock.wscinstallnamespaceex32","ws2spi/WSCInstallNameSpaceEx32"]
 old-location: winsock\wscinstallnamespaceex32.htm
 tech.root: WinSock
 ms.assetid: 222ebfcc-8854-4224-b464-28098c84b750

@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.ITask.SetParameters
 title: ITask::SetParameters (mstask.h)
-description: This method sets the command-line parameters for the task.
+description: This method sets the command-line parameters for the task.helpviewer_keywords: ["ITask interface [Task Scheduler]","SetParameters method","ITask.SetParameters","ITask::SetParameters","SetParameters","SetParameters method [Task Scheduler]","SetParameters method [Task Scheduler]","ITask interface","_msb_itask_setparameters","mstask/ITask::SetParameters","taskschd.itask_setparameters"]
 old-location: taskschd\itask_setparameters.htm
 tech.root: taskschd
 ms.assetid: 094dcd8f-35aa-4300-b58d-c846bca1c88c

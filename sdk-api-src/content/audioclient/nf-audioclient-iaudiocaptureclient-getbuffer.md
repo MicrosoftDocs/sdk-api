@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IAudioCaptureClient.GetBuffer
 title: IAudioCaptureClient::GetBuffer (audioclient.h)
-description: Retrieves a pointer to the next available packet of data in the capture endpoint buffer.
+description: Retrieves a pointer to the next available packet of data in the capture endpoint buffer.helpviewer_keywords: ["GetBuffer","GetBuffer method [Core Audio]","GetBuffer method [Core Audio]","IAudioCaptureClient interface","IAudioCaptureClient interface [Core Audio]","GetBuffer method","IAudioCaptureClient.GetBuffer","IAudioCaptureClient::GetBuffer","IAudioCaptureClientGetBuffer","audioclient/IAudioCaptureClient::GetBuffer","coreaudio.iaudiocaptureclient_getbuffer"]
 old-location: coreaudio\iaudiocaptureclient_getbuffer.htm
 tech.root: CoreAudio
 ms.assetid: 4298f584-39ce-4138-994a-0e551370429f

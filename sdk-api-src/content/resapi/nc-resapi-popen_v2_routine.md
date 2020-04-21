@@ -1,7 +1,7 @@
 ---
 UID: NC:resapi.POPEN_V2_ROUTINE
 title: POPEN_V2_ROUTINE (resapi.h)
-description: Opens a resource.
+description: Opens a resource.helpviewer_keywords: ["CLUS_RESDLL_OPEN_RECOVER_MONITOR_STATE","OpenV2","OpenV2 callback","OpenV2 callback function [Failover Cluster]","POPEN_V2_ROUTINE","POPEN_V2_ROUTINE callback function [Failover Cluster]","mscs.openv2","resapi/OpenV2","resapi/POPEN_V2_ROUTINE"]
 old-location: mscs\openv2.htm
 tech.root: MsCS
 ms.assetid: EA798D15-9458-4F66-8D0E-13DA383552F7

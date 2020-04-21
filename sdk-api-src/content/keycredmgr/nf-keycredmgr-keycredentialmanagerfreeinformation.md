@@ -1,7 +1,7 @@
 ---
 UID: NF:keycredmgr.KeyCredentialManagerFreeInformation
 title: KeyCredentialManagerFreeInformation function (keycredmgr.h)
-description: API to free the KeyCredentialManagerInfo pointer variable from the KeyCredentialManagerGetInformation call.
+description: API to free the KeyCredentialManagerInfo pointer variable from the KeyCredentialManagerGetInformation call.helpviewer_keywords: ["KeyCredentialManagerFreeInformation","KeyCredentialManagerFreeInformation function [Security]","keycredmgr/KeyCredentialManagerFreeInformation","security.keycredentialmanagerfreeinformation"]
 old-location: security\keycredentialmanagerfreeinformation.htm
 tech.root: SecAuthN
 ms.assetid: CE89671C-C70D-49C0-AA22-E39EEAA310D7
