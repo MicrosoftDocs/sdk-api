@@ -1,7 +1,8 @@
 ---
 UID: NS:windns.__unnamed_struct_35
 title: DNS_TKEY_DATAW (windns.h)
-description: The DNS_TKEY_DATA structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in RFC 2930.helpviewer_keywords: ["*PDNS_TKEY_DATA","*PDNS_TKEY_DATAW","DNS_RCODE_BADKEY","DNS_RCODE_BADSIG","DNS_RCODE_BADTIME","DNS_TKEY_DATA","DNS_TKEY_DATA structure [DNS]","DNS_TKEY_DATAW","DNS_TKEY_MODE_DIFFIE_HELLMAN","DNS_TKEY_MODE_GSS","DNS_TKEY_MODE_RESOLVER_ASSIGN","DNS_TKEY_MODE_SERVER_ASSIGN","PDNS_TKEY_DATA","PDNS_TKEY_DATA structure pointer [DNS]","_dns_dns_tkey_data","dns.dns_tkey_data","windns/DNS_TKEY_DATA","windns/PDNS_TKEY_DATA"]
+description: The DNS_TKEY_DATA structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in RFC 2930.
+helpviewer_keywords: ["*PDNS_TKEY_DATA","*PDNS_TKEY_DATAW","DNS_RCODE_BADKEY","DNS_RCODE_BADSIG","DNS_RCODE_BADTIME","DNS_TKEY_DATA","DNS_TKEY_DATA structure [DNS]","DNS_TKEY_DATAW","DNS_TKEY_MODE_DIFFIE_HELLMAN","DNS_TKEY_MODE_GSS","DNS_TKEY_MODE_RESOLVER_ASSIGN","DNS_TKEY_MODE_SERVER_ASSIGN","PDNS_TKEY_DATA","PDNS_TKEY_DATA structure pointer [DNS]","_dns_dns_tkey_data","dns.dns_tkey_data","windns/DNS_TKEY_DATA","windns/PDNS_TKEY_DATA"]
 old-location: dns\dns_tkey_data.htm
 tech.root: DNS
 ms.assetid: 4dad3449-3e41-47d9-89c2-10fa6e51573b
@@ -156,7 +157,7 @@ An error, expressed in expanded RCODE format that covers TSIG and TKEY RR proces
 </dl>
 </td>
 <td width="60%">
-The <b>pSignature</b> of the <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_tsig_dataw">DNS_TSIG_DATA</a> RR is bad.
+The <b>pSignature</b> of the <a href="/windows/win32/api/windns/ns-windns-dns_tsig_dataw">DNS_TSIG_DATA</a> RR is bad.
 
 </td>
 </tr>
@@ -210,7 +211,7 @@ Reserved. Do not use.
 
 The 
 <b>DNS_TKEY_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -220,11 +221,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_tsig_dataw">DNS_TSIG_DATA</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_tsig_dataw">DNS_TSIG_DATA</a>
  
 
  

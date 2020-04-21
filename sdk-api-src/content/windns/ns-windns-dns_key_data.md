@@ -1,7 +1,8 @@
 ---
 UID: NS:windns.__unnamed_struct_18
 title: DNS_KEY_DATA (windns.h)
-description: The DNS_KEY_DATA structure represents a DNS key (KEY) resource record (RR) as specified in RFC 3445.helpviewer_keywords: ["*PDNS_DNSKEY_DATA","*PDNS_KEY_DATA","1","2","3","4","5","DNS_DNSKEY_DATA","DNS_DNSKEY_DATA structure [DNS]","DNS_KEY_DATA","DNS_KEY_DATA structure [DNS]","PDNS_DNSKEY_DATA","PDNS_DNSKEY_DATA structure pointer [DNS]","PDNS_KEY_DATA","PDNS_KEY_DATA structure pointer [DNS]","_dns_dns_key_data","dns.dns_key_data","windns/DNS_DNSKEY_DATA","windns/DNS_KEY_DATA","windns/PDNS_DNSKEY_DATA","windns/PDNS_KEY_DATA"]
+description: The DNS_KEY_DATA structure represents a DNS key (KEY) resource record (RR) as specified in RFC 3445.
+helpviewer_keywords: ["*PDNS_DNSKEY_DATA","*PDNS_KEY_DATA","1","2","3","4","5","DNS_DNSKEY_DATA","DNS_DNSKEY_DATA structure [DNS]","DNS_KEY_DATA","DNS_KEY_DATA structure [DNS]","PDNS_DNSKEY_DATA","PDNS_DNSKEY_DATA structure pointer [DNS]","PDNS_KEY_DATA","PDNS_KEY_DATA structure pointer [DNS]","_dns_dns_key_data","dns.dns_key_data","windns/DNS_DNSKEY_DATA","windns/DNS_KEY_DATA","windns/PDNS_DNSKEY_DATA","windns/PDNS_KEY_DATA"]
 old-location: dns\dns_key_data.htm
 tech.root: DNS
 ms.assetid: d7d60322-4d06-4c57-b181-c6a38e09e1ef
@@ -180,13 +181,13 @@ A <b>BYTE</b> array that contains the public key for the algorithm in <b>chAlgor
 
 The 
 <b>DNS_KEY_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a> structure represents a DNSKEY  resource record as specified in section 2 of  <a href="https://www.ietf.org/rfc/rfc4034.txt">RFC 4034</a>.
 
 The 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 The value of the <b>wFlags</b> member for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a> is a set of flags that specify key properties as  described in section 2.1.1 of <a href="https://www.ietf.org/rfc/rfc4034.txt">RFC 4034</a>.
 
@@ -198,7 +199,7 @@ The value of the <b>wFlags</b> member for <a href="https://docs.microsoft.com/pr
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

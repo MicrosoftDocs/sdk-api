@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateImageBrush
 title: IXpsOMObjectFactory::CreateImageBrush (xpsobjectmodel.h)
-description: Creates an IXpsOMImageBrush interface.helpviewer_keywords: ["CreateImageBrush","CreateImageBrush method [XPS Documents and Packaging]","CreateImageBrush method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateImageBrush method","IXpsOMObjectFactory.CreateImageBrush","IXpsOMObjectFactory::CreateImageBrush","xps.ixpsomobjectfactory_createimagebrush","xpsobjectmodel/IXpsOMObjectFactory::CreateImageBrush"]
+description: Creates an IXpsOMImageBrush interface.
+helpviewer_keywords: ["CreateImageBrush","CreateImageBrush method [XPS Documents and Packaging]","CreateImageBrush method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateImageBrush method","IXpsOMObjectFactory.CreateImageBrush","IXpsOMObjectFactory::CreateImageBrush","xps.ixpsomobjectfactory_createimagebrush","xpsobjectmodel/IXpsOMObjectFactory::CreateImageBrush"]
 old-location: xps\ixpsomobjectfactory_createimagebrush.htm
 tech.root: printdocs
 ms.assetid: f271e152-8120-49c4-804d-069e224c6597
@@ -66,12 +67,12 @@ The  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-x
 
 ### -param viewBox [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that defines the <i>viewbox</i>, which is the area  of the source image that is used by the brush.
+The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that defines the <i>viewbox</i>, which is the area  of the source image that is used by the brush.
 
 
 ### -param viewPort [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that defines the <i>viewport</i>, which is the area covered by the first    tile in the output area.
+The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that defines the <i>viewport</i>, which is the area covered by the first    tile in the output area.
 
 
 ### -param imageBrush [out, retval]
@@ -237,7 +238,7 @@ else
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
  
 
  

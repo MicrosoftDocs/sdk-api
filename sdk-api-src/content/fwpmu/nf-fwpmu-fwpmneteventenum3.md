@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmNetEventEnum3
 title: FwpmNetEventEnum3 function (fwpmu.h)
-description: Returns the next page of results from the network event enumerator.helpviewer_keywords: ["FwpmNetEventEnum3","FwpmNetEventEnum3 function [Filtering]","fwp.fwpmneteventenum3","fwpmu/FwpmNetEventEnum3"]
+description: Returns the next page of results from the network event enumerator.
+helpviewer_keywords: ["FwpmNetEventEnum3","FwpmNetEventEnum3 function [Filtering]","fwp.fwpmneteventenum3","fwpmu/FwpmNetEventEnum3"]
 old-location: fwp\fwpmneteventenum3.htm
 tech.root: fwp
 ms.assetid: D7098530-9B20-4DB0-908D-EC8E365CB70D
@@ -166,7 +167,7 @@ A subsequent call  that uses  the same <i>enumHandle</i> parameter will return t
 
 
 
-[FWPM_NET_EVENT3](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event3)a>
+[FWPM_NET_EVENT3](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event3)
 
 
 

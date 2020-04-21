@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreNewItem
 title: IFileOperationProgressSink::PreNewItem (shobjidl_core.h)
-description: Performs caller-implemented actions before the process to create a new item begins.helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PreNewItem method","IFileOperationProgressSink.PreNewItem","IFileOperationProgressSink::PreNewItem","PreNewItem","PreNewItem method [Windows Shell]","PreNewItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PreNewItem","shell.IFileOperationProgressSink_PreNewItem","shobjidl_core/IFileOperationProgressSink::PreNewItem"]
+description: Performs caller-implemented actions before the process to create a new item begins.
+helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PreNewItem method","IFileOperationProgressSink.PreNewItem","IFileOperationProgressSink::PreNewItem","PreNewItem","PreNewItem method [Windows Shell]","PreNewItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PreNewItem","shell.IFileOperationProgressSink_PreNewItem","shobjidl_core/IFileOperationProgressSink::PreNewItem"]
 old-location: shell\IFileOperationProgressSink_PreNewItem.htm
 tech.root: shell
 ms.assetid: ea6223e1-a574-4e4b-a264-384f33579c6d
@@ -61,7 +62,7 @@ Performs caller-implemented actions before the process to create a new item begi
 
 Type: <b>DWORD</b>
 
-bitwise value that contains flags that control the operation. See <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
+bitwise value that contains flags that control the operation. See <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
 
 
 ### -param psiDestinationFolder [in]

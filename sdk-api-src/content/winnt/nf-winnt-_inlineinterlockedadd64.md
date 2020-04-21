@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt._InlineInterlockedAdd64
 title: _InlineInterlockedAdd64 function (winnt.h)
-description: Performs an atomic addition operation on the specified LONGLONG values.helpviewer_keywords: ["InterlockedAdd64","InterlockedAdd64 function","_InlineInterlockedAdd64","base.interlockedadd64","winnt/InterlockedAdd64"]
+description: Performs an atomic addition operation on the specified LONGLONG values.
+helpviewer_keywords: ["InterlockedAdd64","InterlockedAdd64 function","_InlineInterlockedAdd64","base.interlockedadd64","winnt/InterlockedAdd64"]
 old-location: base\interlockedadd64.htm
 tech.root: Sync
 ms.assetid: ab37292f-4291-4cca-826c-d6488e141db8
@@ -104,7 +105,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-_inlineinterlockedadd">InterlockedAddAcquire</a>
+<a href="/windows/win32/api/winnt/nf-winnt-_inlineinterlockedadd">InterlockedAddAcquire</a>
 
 
 

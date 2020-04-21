@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagPOINTER_INFO
 title: POINTER_INFO (winuser.h)
-description: Contains basic pointer information common to all pointer types. Applications can retrieve this information using the GetPointerInfo, GetPointerFrameInfo, GetPointerInfoHistory and GetPointerFrameInfoHistory functions.helpviewer_keywords: ["POINTER_INFO","POINTER_INFO structure [Input Messages and Notifications]","_POINTER_INFO","inputmsg.pointer_info_struct","winuser/POINTER_INFO"]
+description: Contains basic pointer information common to all pointer types. Applications can retrieve this information using the GetPointerInfo, GetPointerFrameInfo, GetPointerInfoHistory and GetPointerFrameInfoHistory functions.
+helpviewer_keywords: ["POINTER_INFO","POINTER_INFO structure [Input Messages and Notifications]","_POINTER_INFO","inputmsg.pointer_info_struct","winuser/POINTER_INFO"]
 old-location: inputmsg\pointer_info_struct.htm
 tech.root: InputMsg
 ms.assetid: fee176ba-ad07-4145-0b4d-1b8c335fd102
@@ -59,9 +60,9 @@ Contains basic pointer information common to all pointer types. Applications can
 
 ### -field pointerType
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a></b>
+Type: <b><a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a> enumeration that specifies the pointer type.
+A value from the <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a> enumeration that specifies the pointer type.
 
 
 ### -field pointerId
@@ -107,7 +108,7 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)
 
 The predicted screen coordinates of the pointer, in pixels. 
 
-The predicted value is based on the pointer position reported by the digitizer and the motion of the pointer. This correction can compensate for visual lag due to inherent delays in sensing and processing the pointer location on the digitizer. This is applicable to  pointers of type <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>. For other pointer types, the predicted value will be the same as the non-predicted value (see <b>ptPixelLocationRaw</b>).
+The predicted value is based on the pointer position reported by the digitizer and the motion of the pointer. This correction can compensate for visual lag due to inherent delays in sensing and processing the pointer location on the digitizer. This is applicable to  pointers of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>. For other pointer types, the predicted value will be the same as the non-predicted value (see <b>ptPixelLocationRaw</b>).
 
 
 ### -field ptHimetricLocation
@@ -116,7 +117,7 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)
 
 The predicted screen coordinates of the pointer, in HIMETRIC units. 
 
-The predicted value is based on the pointer position reported by the digitizer and the motion of the pointer. This correction can compensate for visual lag due to inherent delays in sensing and processing the pointer location on the digitizer. This is applicable to  pointers of type <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>. For other pointer types, the predicted value will be the same as the non-predicted value (see <b>ptHimetricLocationRaw</b>).
+The predicted value is based on the pointer position reported by the digitizer and the motion of the pointer. This correction can compensate for visual lag due to inherent delays in sensing and processing the pointer location on the digitizer. This is applicable to  pointers of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>. For other pointer types, the predicted value will be the same as the non-predicted value (see <b>ptHimetricLocationRaw</b>).
 
 
 ### -field ptPixelLocationRaw

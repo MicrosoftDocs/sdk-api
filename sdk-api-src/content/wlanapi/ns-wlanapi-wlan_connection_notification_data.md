@@ -1,7 +1,8 @@
 ---
 UID: NS:wlanapi._WLAN_CONNECTION_NOTIFICATION_DATA
 title: WLAN_CONNECTION_NOTIFICATION_DATA (wlanapi.h)
-description: Contains information about connection related notifications.helpviewer_keywords: ["*PWLAN_CONNECTION_NOTIFICATION_DATA","PWLAN_CONNECTION_NOTIFICATION_DATA","PWLAN_CONNECTION_NOTIFICATION_DATA structure pointer [NativeWIFI]","WLAN_CONNECTION_NOTIFICATION_ADHOC_NETWORK_FORMED","WLAN_CONNECTION_NOTIFICATION_CONSOLE_USER_PROFILE","WLAN_CONNECTION_NOTIFICATION_DATA","WLAN_CONNECTION_NOTIFICATION_DATA structure [NativeWIFI]","nwifi.wlan_connection_notification_data","wlanapi/PWLAN_CONNECTION_NOTIFICATION_DATA","wlanapi/WLAN_CONNECTION_NOTIFICATION_DATA"]
+description: Contains information about connection related notifications.
+helpviewer_keywords: ["*PWLAN_CONNECTION_NOTIFICATION_DATA","PWLAN_CONNECTION_NOTIFICATION_DATA","PWLAN_CONNECTION_NOTIFICATION_DATA structure pointer [NativeWIFI]","WLAN_CONNECTION_NOTIFICATION_ADHOC_NETWORK_FORMED","WLAN_CONNECTION_NOTIFICATION_CONSOLE_USER_PROFILE","WLAN_CONNECTION_NOTIFICATION_DATA","WLAN_CONNECTION_NOTIFICATION_DATA structure [NativeWIFI]","nwifi.wlan_connection_notification_data","wlanapi/PWLAN_CONNECTION_NOTIFICATION_DATA","wlanapi/WLAN_CONNECTION_NOTIFICATION_DATA"]
 old-location: nwifi\wlan_connection_notification_data.htm
 tech.root: NativeWiFi
 ms.assetid: 005af5ef-994d-425a-be4b-54567a733fb3
@@ -139,7 +140,7 @@ The callback function is called with a pointer to a <a href="https://docs.micros
 
 If the <b>NotificationSource</b> member of the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure received by the callback function is <b>WLAN_NOTIFICATION_SOURCE_ACM</b>, then the received notification is an auto configuration module notification. The <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback">WLAN_NOTIFICATION_CALLBACK</a> function  determines the interpretation of the <i>pData</i> member of <b>WLAN_NOTIFICATION_DATA</b> structure.  For some of these notifications, a <b>WLAN_CONNECTION_NOTIFICATION_DATA</b> structure is returned in the <i>pData</i> member of <b>WLAN_NOTIFICATION_DATA</b> structure. 
 
-For more information on these notifications, see the <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a> enumeration reference.
+For more information on these notifications, see the <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a> enumeration reference.
 
 
 
@@ -149,7 +150,7 @@ For more information on these notifications, see the <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a>
 
 
 

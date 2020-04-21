@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_SUBSCRIPTION0_
 title: FWPM_NET_EVENT_SUBSCRIPTION0 (fwpmtypes.h)
-description: Stores information used to subscribe to notifications about a network event.helpviewer_keywords: ["FWPM_NET_EVENT_SUBSCRIPTION0","FWPM_NET_EVENT_SUBSCRIPTION0 structure [Filtering]","fwp.fwpm_net_event_subscription0","fwpmtypes/FWPM_NET_EVENT_SUBSCRIPTION0"]
+description: Stores information used to subscribe to notifications about a network event.
+helpviewer_keywords: ["FWPM_NET_EVENT_SUBSCRIPTION0","FWPM_NET_EVENT_SUBSCRIPTION0 structure [Filtering]","fwp.fwpm_net_event_subscription0","fwpmtypes/FWPM_NET_EVENT_SUBSCRIPTION0"]
 old-location: fwp\fwpm_net_event_subscription0.htm
 tech.root: fwp
 ms.assetid: a1aa8369-fd70-46f6-983d-0afdf8b8ff77
@@ -59,7 +60,7 @@ The <b>FWPM_NET_EVENT_SUBSCRIPTION0</b> structure stores information used to sub
 
 ### -field enumTemplate
 
-Address of an [FWPM_NET_EVENT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0)a> structure. Notifications are only dispatched for objects that match the template. If
+Address of an [FWPM_NET_EVENT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure. Notifications are only dispatched for objects that match the template. If
    <b>enumTemplate</b> is <b>NULL</b>, it matches all objects.
 
 

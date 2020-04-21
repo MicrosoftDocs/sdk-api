@@ -1,7 +1,8 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.CompleteTime
 title: IInertiaProcessor::CompleteTime (manipulations.h)
-description: Finishes the current manipulation at the given tick, stops inertia on the inertia processor, and raises the ManipulationCompleted event.helpviewer_keywords: ["CompleteTime","CompleteTime method [Windows Touch]","CompleteTime method [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","CompleteTime method","IInertiaProcessor.CompleteTime","IInertiaProcessor::CompleteTime","manipulations/IInertiaProcessor::CompleteTime","wintouch.iinertiaprocessor_completetime"]
+description: Finishes the current manipulation at the given tick, stops inertia on the inertia processor, and raises the ManipulationCompleted event.
+helpviewer_keywords: ["CompleteTime","CompleteTime method [Windows Touch]","CompleteTime method [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","CompleteTime method","IInertiaProcessor.CompleteTime","IInertiaProcessor::CompleteTime","manipulations/IInertiaProcessor::CompleteTime","wintouch.iinertiaprocessor_completetime"]
 old-location: wintouch\iinertiaprocessor_completetime.htm
 tech.root: wintouch
 ms.assetid: 325e04c2-a477-43c7-9513-36a2a92eef8e
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Finishes the current manipulation at the given tick, stops inertia on the inertia processor, and raises the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event.
+Finishes the current manipulation at the given tick, stops inertia on the inertia processor, and raises the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event.
 
 
 ## -parameters
@@ -75,7 +76,7 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 
 
-The <b>CompleteTime</b> method raises the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event on an <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a> interface implementation.
+The <b>CompleteTime</b> method raises the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event on an <a href="/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a> interface implementation.
 	 
 
 

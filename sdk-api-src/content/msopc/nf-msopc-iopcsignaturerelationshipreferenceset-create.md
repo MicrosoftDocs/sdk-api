@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceSet.Create
 title: IOpcSignatureRelationshipReferenceSet::Create (msopc.h)
-description: Creates an IOpcSignatureRelationshipReference interface pointer that represents a reference to a Relationships part, and adds the new interface pointer to the set.helpviewer_keywords: ["Create","Create method [Open Packaging Conventions]","Create method [Open Packaging Conventions]","IOpcSignatureRelationshipReferenceSet interface","IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions]","Create method","IOpcSignatureRelationshipReferenceSet.Create","IOpcSignatureRelationshipReferenceSet::Create","msopc/IOpcSignatureRelationshipReferenceSet::Create","opc.iopcsignaturerelationshipreferenceset_create"]
+description: Creates an IOpcSignatureRelationshipReference interface pointer that represents a reference to a Relationships part, and adds the new interface pointer to the set.
+helpviewer_keywords: ["Create","Create method [Open Packaging Conventions]","Create method [Open Packaging Conventions]","IOpcSignatureRelationshipReferenceSet interface","IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions]","Create method","IOpcSignatureRelationshipReferenceSet.Create","IOpcSignatureRelationshipReferenceSet::Create","msopc/IOpcSignatureRelationshipReferenceSet::Create","opc.iopcsignaturerelationshipreferenceset_create"]
 old-location: opc\iopcsignaturerelationshipreferenceset_create.htm
 tech.root: OPC
 ms.assetid: c348ac25-f2b3-491d-b378-f0daf282b1ca
@@ -131,7 +132,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>relationshipSigningOption</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_relationships_signing_option">OPC_RELATIONSHIPS_SIGNING_OPTION</a> enumeration value.
+The value passed in the <i>relationshipSigningOption</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_relationships_signing_option">OPC_RELATIONSHIPS_SIGNING_OPTION</a> enumeration value.
 
 </td>
 </tr>
@@ -142,7 +143,7 @@ The value passed in the <i>relationshipSigningOption</i> parameter is not a vali
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>transformMethod</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a> enumeration value.
+The value passed in the <i>transformMethod</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a> enumeration value.
 
 </td>
 </tr>
@@ -248,11 +249,11 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_relationships_signing_option">OPC_RELATIONSHIPS_SIGNING_OPTION</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_relationships_signing_option">OPC_RELATIONSHIPS_SIGNING_OPTION</a>
 
 
 

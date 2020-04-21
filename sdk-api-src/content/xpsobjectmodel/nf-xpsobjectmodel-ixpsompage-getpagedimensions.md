@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetPageDimensions
 title: IXpsOMPage::GetPageDimensions (xpsobjectmodel.h)
-description: Gets the page dimensions.helpviewer_keywords: ["GetPageDimensions","GetPageDimensions method [XPS Documents and Packaging]","GetPageDimensions method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetPageDimensions method","IXpsOMPage.GetPageDimensions","IXpsOMPage::GetPageDimensions","xps.ixpsompage_getpagedimensions","xpsobjectmodel/IXpsOMPage::GetPageDimensions"]
+description: Gets the page dimensions.
+helpviewer_keywords: ["GetPageDimensions","GetPageDimensions method [XPS Documents and Packaging]","GetPageDimensions method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetPageDimensions method","IXpsOMPage.GetPageDimensions","IXpsOMPage::GetPageDimensions","xps.ixpsompage_getpagedimensions","xpsobjectmodel/IXpsOMPage::GetPageDimensions"]
 old-location: xps\ixpsompage_getpagedimensions.htm
 tech.root: printdocs
 ms.assetid: 24a81c7a-f048-4347-8023-96ed85bec2a1
@@ -129,7 +130,7 @@ The default page size is passed to <a href="https://docs.microsoft.com/windows/d
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptCPtoX
 title: ScriptCPtoX function (usp10.h)
-description: Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character cluster.helpviewer_keywords: ["ScriptCPtoX","ScriptCPtoX function [Internationalization for Windows Applications]","_win32_ScriptCPtoX","intl.scriptcptox","usp10/ScriptCPtoX"]
+description: Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character cluster.
+helpviewer_keywords: ["ScriptCPtoX","ScriptCPtoX function [Internationalization for Windows Applications]","_win32_ScriptCPtoX","intl.scriptcptox","usp10/ScriptCPtoX"]
 old-location: intl\scriptcptox.htm
 tech.root: Intl
 ms.assetid: 65a11b21-3f4b-463a-b347-a00add32380c
@@ -87,7 +88,7 @@ Pointer to the logical clusters.
 
 ### -param psva [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a> array of visual attributes.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a> array of visual attributes.
 
 
 ### -param piAdvance [in]
@@ -97,7 +98,7 @@ Pointer to an advance widths value.
 
 ### -param psa [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure. The <b>fLogicalOrder</b> member specifies the end of the run from which to measure the offset. If the flag is set, the leading edge of the run is used. If the flag is not set, the left end of the run is used.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure. The <b>fLogicalOrder</b> member specifies the end of the run from which to measure the offset. If the flag is set, the leading edge of the run is used. If the flag is not set, the left end of the run is used.
 
 
 ### -param piX [out]
@@ -134,11 +135,11 @@ For scripts in which the caret is conventionally snapped to the boundaries of cl
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMShareable.GetType
 title: IXpsOMShareable::GetType (xpsobjectmodel.h)
-description: Gets the object type of the interface.helpviewer_keywords: ["GetType","GetType method [XPS Documents and Packaging]","GetType method [XPS Documents and Packaging]","IXpsOMShareable interface","IXpsOMShareable interface [XPS Documents and Packaging]","GetType method","IXpsOMShareable.GetType","IXpsOMShareable::GetType","xps.ixpsomshareable_gettype","xpsobjectmodel/IXpsOMShareable::GetType"]
+description: Gets the object type of the interface.
+helpviewer_keywords: ["GetType","GetType method [XPS Documents and Packaging]","GetType method [XPS Documents and Packaging]","IXpsOMShareable interface","IXpsOMShareable interface [XPS Documents and Packaging]","GetType method","IXpsOMShareable.GetType","IXpsOMShareable::GetType","xps.ixpsomshareable_gettype","xpsobjectmodel/IXpsOMShareable::GetType"]
 old-location: xps\ixpsomshareable_gettype.htm
 tech.root: printdocs
 ms.assetid: 1d30e11e-1306-4721-b5fc-0419715ba2c8
@@ -59,7 +60,7 @@ Gets the object type of the interface.
 
 ### -param type [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_object_type">XPS_OBJECT_TYPE</a> value that describes the interface that is derived from <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable">IXpsOMShareable</a>.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_object_type">XPS_OBJECT_TYPE</a> value that describes the interface that is derived from <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable">IXpsOMShareable</a>.
 
 
 ## -returns

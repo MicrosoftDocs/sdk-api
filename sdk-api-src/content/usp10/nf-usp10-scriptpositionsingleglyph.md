@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptPositionSingleGlyph
 title: ScriptPositionSingleGlyph function (usp10.h)
-description: Positions a single glyph with a single adjustment using a specified feature provided in the font for OpenType processing. Most often, applications use this function to align a glyph optically at the beginning or end of a line.helpviewer_keywords: ["ScriptPositionSingleGlyph","ScriptPositionSingleGlyph function [Internationalization for Windows Applications]","_win32_ScriptPositionSingleGlyph","intl.scriptpositionsingleglyph","usp10/ScriptPositionSingleGlyph"]
+description: Positions a single glyph with a single adjustment using a specified feature provided in the font for OpenType processing. Most often, applications use this function to align a glyph optically at the beginning or end of a line.
+helpviewer_keywords: ["ScriptPositionSingleGlyph","ScriptPositionSingleGlyph function [Internationalization for Windows Applications]","_win32_ScriptPositionSingleGlyph","intl.scriptpositionsingleglyph","usp10/ScriptPositionSingleGlyph"]
 old-location: intl\scriptpositionsingleglyph.htm
 tech.root: Intl
 ms.assetid: 8dc776a9-fdde-4982-a2ca-e4384615bc47
@@ -72,7 +73,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cac
 
 ### -param psa [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This structure identifies the shaping engine, so that the advance widths can be retrieved.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This structure identifies the shaping engine, so that the advance widths can be retrieved.
 
 Alternatively, the application can set this parameter to <b>NULL</b> to retrieve unfiltered results.
 
@@ -160,7 +161,7 @@ The following examples demonstrate this effect. The first example shows strict a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 

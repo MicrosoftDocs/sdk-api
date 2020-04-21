@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleX(IDCompositionAnimation)
 title: IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the AngleX property of a 2D skew transform.helpviewer_keywords: ["IDCompositionSkewTransform interface [DirectComposition]","SetAngleX method","IDCompositionSkewTransform.SetAngleX","IDCompositionSkewTransform.SetAngleX(IDCompositionAnimation)","IDCompositionSkewTransform::SetAngleX","IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation)","IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation*)","SetAngleX","SetAngleX method [DirectComposition]","SetAngleX method [DirectComposition]","IDCompositionSkewTransform interface","dcomp/IDCompositionSkewTransform::SetAngleX","directcomp.idcompositionskewtransform_setanglex_idcompositionanimation"]
+description: Animates the value of the AngleX property of a 2D skew transform.
+helpviewer_keywords: ["IDCompositionSkewTransform interface [DirectComposition]","SetAngleX method","IDCompositionSkewTransform.SetAngleX","IDCompositionSkewTransform.SetAngleX(IDCompositionAnimation)","IDCompositionSkewTransform::SetAngleX","IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation)","IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation*)","SetAngleX","SetAngleX method [DirectComposition]","SetAngleX method [DirectComposition]","IDCompositionSkewTransform interface","dcomp/IDCompositionSkewTransform::SetAngleX","directcomp.idcompositionskewtransform_setanglex_idcompositionanimation"]
 old-location: directcomp\idcompositionskewtransform_setanglex_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 27da99b3-038d-4c18-bb43-09f04dd58ff5
@@ -98,7 +99,7 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setangley(float)">IDCompositionSkewTransform::SetAngleY</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setangley(float)">IDCompositionSkewTransform::SetAngleY</a>
  
 
  

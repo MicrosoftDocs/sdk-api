@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_47
 title: WS_SECURITY_BINDING_TYPE (webservices.h)
-description: The type of the security binding, used as a selector for subtypes of WS_SECURITY_BINDING.helpviewer_keywords: ["WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE","WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TYPE","WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE","WS_SAML_MESSAGE_SECURITY_BINDING_TYPE","WS_SECURITY_BINDING_TYPE","WS_SECURITY_BINDING_TYPE enumeration [Web Services for Windows]","WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TYPE","WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE","WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TYPE","WS_USERNAME_MESSAGE_SECURITY_BINDING_TYPE","WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE","webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE","webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TYPE","webservices/WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE","webservices/WS_SAML_MESSAGE_SECURITY_BINDING_TYPE","webservices/WS_SECURITY_BINDING_TYPE","webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TYPE","webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE","webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TYPE","webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_TYPE","webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE","wsw.ws_security_binding_type"]
+description: The type of the security binding, used as a selector for subtypes of WS_SECURITY_BINDING.
+helpviewer_keywords: ["WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE","WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TYPE","WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE","WS_SAML_MESSAGE_SECURITY_BINDING_TYPE","WS_SECURITY_BINDING_TYPE","WS_SECURITY_BINDING_TYPE enumeration [Web Services for Windows]","WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TYPE","WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE","WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TYPE","WS_USERNAME_MESSAGE_SECURITY_BINDING_TYPE","WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE","webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE","webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TYPE","webservices/WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE","webservices/WS_SAML_MESSAGE_SECURITY_BINDING_TYPE","webservices/WS_SECURITY_BINDING_TYPE","webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TYPE","webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE","webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TYPE","webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_TYPE","webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE","wsw.ws_security_binding_type"]
 old-location: wsw\ws_security_binding_type.htm
 tech.root: wsw
 ms.assetid: caa3d71c-420c-4be0-a371-0f2d48ebd757
@@ -93,13 +94,13 @@ Type id for the security binding <a href="https://docs.microsoft.com/windows/des
 
 ### -field WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a>.
+Type id for the security binding <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a>.
                 
 
 
 ### -field WS_SAML_MESSAGE_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_saml_message_security_binding">WS_SAML_MESSAGE_SECURITY_BINDING</a>.
+Type id for the security binding <a href="/windows/win32/api/webservices/ns-webservices-ws_saml_message_security_binding">WS_SAML_MESSAGE_SECURITY_BINDING</a>.
                 
 
 
@@ -112,6 +113,6 @@ Type id for the security binding <a href="https://docs.microsoft.com/windows/des
 ### -field WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE
 
 Windows 8 or later:
-Type id for the security binding <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
+Type id for the security binding <a href="/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
                 
 

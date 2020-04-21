@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerCollabUnsubscribeEndpointData
 title: PeerCollabUnsubscribeEndpointData function (p2p.h)
-description: Removes a subscription to an endpoint created with PeerCollabSubscribeEndpointData.helpviewer_keywords: ["PeerCollabUnsubscribeEndpointData","PeerCollabUnsubscribeEndpointData function [Peer Networking]","p2p.peercollabunsubscribeendpointdata","p2p/PeerCollabUnsubscribeEndpointData"]
+description: Removes a subscription to an endpoint created with PeerCollabSubscribeEndpointData.
+helpviewer_keywords: ["PeerCollabUnsubscribeEndpointData","PeerCollabUnsubscribeEndpointData function [Peer Networking]","p2p.peercollabunsubscribeendpointdata","p2p/PeerCollabUnsubscribeEndpointData"]
 old-location: p2p\peercollabunsubscribeendpointdata.htm
 tech.root: P2PSdk
 ms.assetid: af07c7f5-bce2-4479-ad2a-8e501cfb6710
@@ -59,7 +60,7 @@ The <b>PeerCollabUnsubscribeEndpointData</b> function  removes a  subscription t
 
 ### -param pcEndpoint [in]
 
-Pointer to a [PEER_ENDPOINT](/windows/win32/api/p2p/ns-p2p-peer_endpoint)a> structure that contains the peer endpoint that is used to remove the subscription.
+Pointer to a [PEER_ENDPOINT](/windows/win32/api/p2p/ns-p2p-peer_endpoint) structure that contains the peer endpoint that is used to remove the subscription.
 
 
 ## -returns

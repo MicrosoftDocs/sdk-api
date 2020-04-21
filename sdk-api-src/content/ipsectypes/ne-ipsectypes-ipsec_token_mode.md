@@ -1,7 +1,8 @@
 ---
 UID: NE:ipsectypes.IPSEC_TOKEN_MODE_
 title: IPSEC_TOKEN_MODE (ipsectypes.h)
-description: Different IPsec modes in which a token can be obtained.helpviewer_keywords: ["IPSEC_TOKEN_MODE","IPSEC_TOKEN_MODE enumeration [Filtering]","IPSEC_TOKEN_MODE_EXTENDED","IPSEC_TOKEN_MODE_MAIN","IPSEC_TOKEN_MODE_MAX","fwp.ipsec_token_mode","ipsectypes/IPSEC_TOKEN_MODE","ipsectypes/IPSEC_TOKEN_MODE_EXTENDED","ipsectypes/IPSEC_TOKEN_MODE_MAIN","ipsectypes/IPSEC_TOKEN_MODE_MAX"]
+description: Different IPsec modes in which a token can be obtained.
+helpviewer_keywords: ["IPSEC_TOKEN_MODE","IPSEC_TOKEN_MODE enumeration [Filtering]","IPSEC_TOKEN_MODE_EXTENDED","IPSEC_TOKEN_MODE_MAIN","IPSEC_TOKEN_MODE_MAX","fwp.ipsec_token_mode","ipsectypes/IPSEC_TOKEN_MODE","ipsectypes/IPSEC_TOKEN_MODE_EXTENDED","ipsectypes/IPSEC_TOKEN_MODE_MAIN","ipsectypes/IPSEC_TOKEN_MODE_MAX"]
 old-location: fwp\ipsec_token_mode.htm
 tech.root: fwp
 ms.assetid: 5f90e473-39e1-4eed-9ea1-1f20929d5a07
@@ -77,7 +78,7 @@ Maximum value for testing only.
 
 
 
-[IPSEC_TOKEN0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0)a>
+[IPSEC_TOKEN0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0)
  
 
  

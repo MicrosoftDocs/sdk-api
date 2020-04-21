@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_KEYING_POLICY0_
 title: IPSEC_KEYING_POLICY0 (ipsectypes.h)
-description: Defines an unordered set of keying modules that will be tried for IPsec.helpviewer_keywords: ["IPSEC_KEYING_POLICY0","IPSEC_KEYING_POLICY0 structure [Filtering]","fwp.ipsec_keying_policy0_struct","ipsectypes/IPSEC_KEYING_POLICY0"]
+description: Defines an unordered set of keying modules that will be tried for IPsec.
+helpviewer_keywords: ["IPSEC_KEYING_POLICY0","IPSEC_KEYING_POLICY0 structure [Filtering]","fwp.ipsec_keying_policy0_struct","ipsectypes/IPSEC_KEYING_POLICY0"]
 old-location: fwp\ipsec_keying_policy0_struct.htm
 tech.root: fwp
 ms.assetid: 6eddafbf-ac57-419f-b2a0-f50a4ab31baf
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The [IPSEC_KEYING_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy1)a> is available.</div>
+The [IPSEC_KEYING_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy1) is available.</div>
 <div> </div>
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:callobj.ICallFrame.ReleaseMarshalData
 title: ICallFrame::ReleaseMarshalData (callobj.h)
-description: Releases resources that are held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet, and calls the CoReleaseMarshalData function on each one.helpviewer_keywords: ["ICallFrame interface [COM]","ReleaseMarshalData method","ICallFrame.ReleaseMarshalData","ICallFrame::ReleaseMarshalData","ReleaseMarshalData","ReleaseMarshalData method [COM]","ReleaseMarshalData method [COM]","ICallFrame interface","_com_icallframe_releasemarshaldata","callobj/ICallFrame::ReleaseMarshalData","com.icallframe_releasemarshaldata"]
+description: Releases resources that are held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet, and calls the CoReleaseMarshalData function on each one.
+helpviewer_keywords: ["ICallFrame interface [COM]","ReleaseMarshalData method","ICallFrame.ReleaseMarshalData","ICallFrame::ReleaseMarshalData","ReleaseMarshalData","ReleaseMarshalData method [COM]","ReleaseMarshalData method [COM]","ICallFrame interface","_com_icallframe_releasemarshaldata","callobj/ICallFrame::ReleaseMarshalData","com.icallframe_releasemarshaldata"]
 old-location: com\icallframe_releasemarshaldata.htm
 tech.root: com
 ms.assetid: c82107ad-68d1-4a46-ba78-37592d445c57
@@ -80,7 +81,7 @@ The data representation with which the data was marshaled.
 
 ### -param pcontext [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/callobj/ns-callobj-callframe_marshalcontext">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how un-marshalling is carried out.
+A pointer to the <a href="/windows/win32/api/callobj/ns-callobj-callframe_marshalcontext">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how un-marshalling is carried out.
 
 
 ## -returns

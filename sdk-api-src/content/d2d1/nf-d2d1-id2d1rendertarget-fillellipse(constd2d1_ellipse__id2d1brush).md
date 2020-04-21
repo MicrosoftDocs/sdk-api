@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush)
 title: ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush) (d2d1.h)
-description: Paints the interior of the specified ellipse.helpviewer_keywords: ["FillEllipse","FillEllipse method [Direct2D]","FillEllipse method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","FillEllipse method","ID2D1RenderTarget.FillEllipse","ID2D1RenderTarget.FillEllipse(const D2D1_ELLIPSE &","ID2D1Brush)","ID2D1RenderTarget::FillEllipse","ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &","ID2D1Brush)","d2d1/ID2D1RenderTarget::FillEllipse","direct2d.ID2D1RenderTarget_FillEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush"]
+description: Paints the interior of the specified ellipse.
+helpviewer_keywords: ["FillEllipse","FillEllipse method [Direct2D]","FillEllipse method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","FillEllipse method","ID2D1RenderTarget.FillEllipse","ID2D1RenderTarget.FillEllipse(const D2D1_ELLIPSE &","ID2D1Brush)","ID2D1RenderTarget::FillEllipse","ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &","ID2D1Brush)","d2d1/ID2D1RenderTarget::FillEllipse","direct2d.ID2D1RenderTarget_FillEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush"]
 old-location: direct2d\ID2D1RenderTarget_FillEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush.htm
 tech.root: Direct2D
 ms.assetid: 007c5733-91d4-42c8-bd76-ae10225d3d5e
@@ -75,7 +76,7 @@ The brush used to paint the interior of the ellipse.
 
 
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse_id2d1brush)">FillEllipse</a>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse_id2d1brush)">FillEllipse</a>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
 #### Examples

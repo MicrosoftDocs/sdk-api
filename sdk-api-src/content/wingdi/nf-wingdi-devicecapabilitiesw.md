@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.DeviceCapabilitiesW
 title: DeviceCapabilitiesW function (wingdi.h)
-description: The DeviceCapabilities function retrieves the capabilities of a printer driver.helpviewer_keywords: ["DC_BINNAMES","DC_BINS","DC_COLLATE","DC_COLORDEVICE","DC_COPIES","DC_DRIVER","DC_DUPLEX","DC_ENUMRESOLUTIONS","DC_EXTRA","DC_FIELDS","DC_FILEDEPENDENCIES","DC_MAXEXTENT","DC_MEDIAREADY","DC_MEDIATYPENAMES","DC_MEDIATYPES","DC_MINEXTENT","DC_NUP","DC_ORIENTATION","DC_PAPERNAMES","DC_PAPERS","DC_PAPERSIZE","DC_PERSONALITY","DC_PRINTERMEM","DC_PRINTRATE","DC_PRINTRATEPPM","DC_PRINTRATEUNIT","DC_SIZE","DC_STAPLE","DC_TRUETYPE","DC_VERSION","DeviceCapabilities","DeviceCapabilities function [Windows GDI]","DeviceCapabilitiesA","DeviceCapabilitiesW","_win32_DeviceCapabilities","gdi.devicecapabilities","wingdi/DeviceCapabilities","wingdi/DeviceCapabilitiesA","wingdi/DeviceCapabilitiesW"]
+description: The DeviceCapabilities function retrieves the capabilities of a printer driver.
+helpviewer_keywords: ["DC_BINNAMES","DC_BINS","DC_COLLATE","DC_COLORDEVICE","DC_COPIES","DC_DRIVER","DC_DUPLEX","DC_ENUMRESOLUTIONS","DC_EXTRA","DC_FIELDS","DC_FILEDEPENDENCIES","DC_MAXEXTENT","DC_MEDIAREADY","DC_MEDIATYPENAMES","DC_MEDIATYPES","DC_MINEXTENT","DC_NUP","DC_ORIENTATION","DC_PAPERNAMES","DC_PAPERS","DC_PAPERSIZE","DC_PERSONALITY","DC_PRINTERMEM","DC_PRINTRATE","DC_PRINTRATEPPM","DC_PRINTRATEUNIT","DC_SIZE","DC_STAPLE","DC_TRUETYPE","DC_VERSION","DeviceCapabilities","DeviceCapabilities function [Windows GDI]","DeviceCapabilitiesA","DeviceCapabilitiesW","_win32_DeviceCapabilities","gdi.devicecapabilities","wingdi/DeviceCapabilities","wingdi/DeviceCapabilitiesA","wingdi/DeviceCapabilitiesW"]
 old-location: gdi\devicecapabilities.htm
 tech.root: printdocs
 ms.assetid: d7f63ef7-0a2e-47c3-9e81-6e8a6dffe9af
@@ -97,7 +98,7 @@ Retrieves the names of the printer's paper bins. The <i>pOutput</i> buffer recei
 </dl>
 </td>
 <td width="60%">
-Retrieves a list of available paper bins. The <i>pOutput</i> buffer receives an array of <b>WORD</b> values that indicate the available paper sources for the printer. The return value indicates the number of entries in the array. For a list of the possible array values, see the description of the <b>dmDefaultSource</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. If <i>pOutput</i> is <b>NULL</b>, the return value indicates the required number of entries in the array.
+Retrieves a list of available paper bins. The <i>pOutput</i> buffer receives an array of <b>WORD</b> values that indicate the available paper sources for the printer. The return value indicates the number of entries in the array. For a list of the possible array values, see the description of the <b>dmDefaultSource</b> member of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. If <i>pOutput</i> is <b>NULL</b>, the return value indicates the required number of entries in the array.
 
 </td>
 </tr>
@@ -167,7 +168,7 @@ Retrieves a list of the resolutions supported by the printer. The <i>pOutput</i>
 </dl>
 </td>
 <td width="60%">
-Returns the number of bytes required for the device-specific portion of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure for the printer driver.
+Returns the number of bytes required for the device-specific portion of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure for the printer driver.
 
 </td>
 </tr>
@@ -177,7 +178,7 @@ Returns the number of bytes required for the device-specific portion of the <a h
 </dl>
 </td>
 <td width="60%">
-Returns the <b>dmFields</b> member of the printer driver's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. The <b>dmFields</b> member indicates which members in the device-independent portion of the structure are supported by the printer driver.
+Returns the <b>dmFields</b> member of the printer driver's <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. The <b>dmFields</b> member indicates which members in the device-independent portion of the structure are supported by the printer driver.
 
 </td>
 </tr>
@@ -197,7 +198,7 @@ Retrieves the names of any additional files that need to be loaded when a driver
 </dl>
 </td>
 <td width="60%">
-Returns the maximum paper size that the <b>dmPaperLength</b> and <b>dmPaperWidth</b> members of the printer driver's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure can specify. The LOWORD of the return value contains the maximum <b>dmPaperWidth</b> value, and the HIWORD contains the maximum <b>dmPaperLength</b> value.
+Returns the maximum paper size that the <b>dmPaperLength</b> and <b>dmPaperWidth</b> members of the printer driver's <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure can specify. The LOWORD of the return value contains the maximum <b>dmPaperWidth</b> value, and the HIWORD contains the maximum <b>dmPaperLength</b> value.
 
 </td>
 </tr>
@@ -227,7 +228,7 @@ Retrieves the names of the supported media types. The <i>pOutput</i> buffer rece
 </dl>
 </td>
 <td width="60%">
-Retrieves a list of supported media types. The <i>pOutput</i> buffer receives an array of DWORD values that indicate the supported media types. The return value indicates the number of entries in the array. For a list of possible array values, see the description of the <b>dmMediaType</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. If <i>pOutput</i> is <b>NULL</b>, the return value indicates the required number of entries in the array.
+Retrieves a list of supported media types. The <i>pOutput</i> buffer receives an array of DWORD values that indicate the supported media types. The return value indicates the number of entries in the array. For a list of possible array values, see the description of the <b>dmMediaType</b> member of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. If <i>pOutput</i> is <b>NULL</b>, the return value indicates the required number of entries in the array.
 
 </td>
 </tr>
@@ -237,7 +238,7 @@ Retrieves a list of supported media types. The <i>pOutput</i> buffer receives an
 </dl>
 </td>
 <td width="60%">
-Returns the minimum paper size that the <b>dmPaperLength</b> and <b>dmPaperWidth</b> members of the printer driver's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure can specify. The LOWORD of the return value contains the minimum <b>dmPaperWidth</b> value, and the HIWORD contains the minimum <b>dmPaperLength</b> value.
+Returns the minimum paper size that the <b>dmPaperLength</b> and <b>dmPaperWidth</b> members of the printer driver's <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure can specify. The LOWORD of the return value contains the minimum <b>dmPaperWidth</b> value, and the HIWORD contains the minimum <b>dmPaperLength</b> value.
 
 </td>
 </tr>
@@ -294,7 +295,7 @@ Retrieves a list of supported paper names (for example, Letter or Legal). The <i
 </dl>
 </td>
 <td width="60%">
-Retrieves a list of supported paper sizes. The <i>pOutput</i> buffer receives an array of <b>WORD</b> values that indicate the available paper sizes for the printer. The return value indicates the number of entries in the array. For a list of the possible array values, see the description of the <b>dmPaperSize</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. If <i>pOutput</i> is <b>NULL</b>, the return value indicates the required number of entries in the array.
+Retrieves a list of supported paper sizes. The <i>pOutput</i> buffer receives an array of <b>WORD</b> values that indicate the available paper sizes for the printer. The return value indicates the number of entries in the array. For a list of the possible array values, see the description of the <b>dmPaperSize</b> member of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. If <i>pOutput</i> is <b>NULL</b>, the return value indicates the required number of entries in the array.
 
 </td>
 </tr>
@@ -386,7 +387,7 @@ Pages per minute.
 </dl>
 </td>
 <td width="60%">
-Returns the <b>dmSize</b> member of the printer driver's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure.
+Returns the <b>dmSize</b> member of the printer driver's <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure.
 
 </td>
 </tr>
@@ -448,7 +449,7 @@ A pointer to an array. The format of the array depends on the setting of the <i>
 
 ### -param pDevMode [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. If this parameter is <b>NULL</b>, <b>DeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver. Otherwise, the function retrieves the values contained in the structure to which <i>pDevMode</i> points.
+A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. If this parameter is <b>NULL</b>, <b>DeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver. Otherwise, the function retrieves the values contained in the structure to which <i>pDevMode</i> points.
 
 
 ## -returns
@@ -468,7 +469,7 @@ If the function returns -1, this may mean either that the capability is not supp
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
-The <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure pointed to by the <i>pDevMode</i> parameter may be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function.
+The <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure pointed to by the <i>pDevMode</i> parameter may be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function.
 
 If a printer driver supports custom device capabilities, the driver must call the <a href="https://docs.microsoft.com/windows/desktop/printdocs/setprinterdata">SetPrinterData</a> function for each custom capability. The <b>SetPrinterData</b> function adds the appropriate printer data to the print system, which enables 32-bit applications to access the custom capabilities on 64-bit Windows installations.
 
@@ -489,7 +490,7 @@ If the custom capability is an array of items, you must call <b>SetPinterData</b
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

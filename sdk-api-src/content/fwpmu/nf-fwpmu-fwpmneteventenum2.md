@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmNetEventEnum2
 title: FwpmNetEventEnum2 function (fwpmu.h)
-description: Returns the next page of results from the network event enumerator.helpviewer_keywords: ["FwpmNetEventEnum2","FwpmNetEventEnum2 function [Filtering]","fwp.fwpmneteventenum2","fwpmu/FwpmNetEventEnum2"]
+description: Returns the next page of results from the network event enumerator.
+helpviewer_keywords: ["FwpmNetEventEnum2","FwpmNetEventEnum2 function [Filtering]","fwp.fwpmneteventenum2","fwpmu/FwpmNetEventEnum2"]
 old-location: fwp\fwpmneteventenum2.htm
 tech.root: fwp
 ms.assetid: bf0974b1-8ddf-4f88-8b15-75f255f7a9d6
@@ -80,7 +81,7 @@ The number of enumeration entries requested.
 
 ### -param entries [out]
 
-Type: [FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2)a>***</b>
+Type: [FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2)***</b>
 
 Addresses of enumeration entries.
 
@@ -178,7 +179,7 @@ A subsequent call  that uses  the same <i>enumHandle</i> parameter will return t
 
 
 
-[FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2)a>
+[FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2)
 
 
 

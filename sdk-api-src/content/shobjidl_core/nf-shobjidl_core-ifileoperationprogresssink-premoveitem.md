@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreMoveItem
 title: IFileOperationProgressSink::PreMoveItem (shobjidl_core.h)
-description: Performs caller-implemented actions before the move process for each item begins.helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PreMoveItem method","IFileOperationProgressSink.PreMoveItem","IFileOperationProgressSink::PreMoveItem","PreMoveItem","PreMoveItem method [Windows Shell]","PreMoveItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PreMoveItem","shell.IFileOperationProgressSink_PreMoveItem","shobjidl_core/IFileOperationProgressSink::PreMoveItem"]
+description: Performs caller-implemented actions before the move process for each item begins.
+helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PreMoveItem method","IFileOperationProgressSink.PreMoveItem","IFileOperationProgressSink::PreMoveItem","PreMoveItem","PreMoveItem method [Windows Shell]","PreMoveItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PreMoveItem","shell.IFileOperationProgressSink_PreMoveItem","shobjidl_core/IFileOperationProgressSink::PreMoveItem"]
 old-location: shell\IFileOperationProgressSink_PreMoveItem.htm
 tech.root: shell
 ms.assetid: bd92c9fa-fdea-4149-9727-90eafdf7c6bc
@@ -61,7 +62,7 @@ Performs caller-implemented actions before the move process for each item begins
 
 Type: <b>DWORD</b>
 
-bitwise value that contains flags that control the operation. See <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
+bitwise value that contains flags that control the operation. See <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
 
 
 ### -param psiItem [in]

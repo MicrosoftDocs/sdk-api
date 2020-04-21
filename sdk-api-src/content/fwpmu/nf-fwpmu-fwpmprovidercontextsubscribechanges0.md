@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextSubscribeChanges0
 title: FwpmProviderContextSubscribeChanges0 function (fwpmu.h)
-description: Is used to request the delivery of notifications regarding changes in a particular provider context.helpviewer_keywords: ["FwpmProviderContextSubscribeChanges0","FwpmProviderContextSubscribeChanges0 function [Filtering]","fwp.fwpmprovidercontextsubscribechanges0_func","fwpmu/FwpmProviderContextSubscribeChanges0"]
+description: Is used to request the delivery of notifications regarding changes in a particular provider context.
+helpviewer_keywords: ["FwpmProviderContextSubscribeChanges0","FwpmProviderContextSubscribeChanges0 function [Filtering]","fwp.fwpmprovidercontextsubscribechanges0_func","fwpmu/FwpmProviderContextSubscribeChanges0"]
 old-location: fwp\fwpmprovidercontextsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: cd8c9ec5-c93c-45e5-8a91-88bd89e465d7
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param subscription [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_subscription0">FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</a>*</b>
+Type: <b>const <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_subscription0">FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</a>*</b>
 
 The notifications to be delivered.
 
@@ -172,7 +173,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_subscription0">FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</a>
+<a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_subscription0">FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</a>
  
 
  

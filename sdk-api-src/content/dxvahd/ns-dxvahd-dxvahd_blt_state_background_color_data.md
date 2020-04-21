@@ -1,7 +1,8 @@
 ---
 UID: NS:dxvahd._DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
 title: DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA (dxvahd.h)
-description: Specifies the background color for blit operations, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).helpviewer_keywords: ["DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA","DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA structure [Media Foundation]","dxvahd/DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA","mf.dxvahd_blt_state_background_color_data"]
+description: Specifies the background color for blit operations, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+helpviewer_keywords: ["DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA","DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA structure [Media Foundation]","dxvahd/DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA","mf.dxvahd_blt_state_background_color_data"]
 old-location: mf\dxvahd_blt_state_background_color_data.htm
 tech.root: medfound
 ms.assetid: 34b8c29e-a183-4e68-bd46-802c43d554f7
@@ -73,7 +74,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxva
 
 The background color is used to fill the target rectangle wherever no video image appears. Areas outside the target rectangle are not affected. See <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_target_rect_data">DXVAHD_BLT_STATE_TARGET_RECT_DATA</a>.
 
-The color space of the background color is determined by the color space of the output. See <a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_output_color_space_data">DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a>.
+The color space of the background color is determined by the color space of the output. See <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_output_color_space_data">DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a>.
 
 The alpha value of the background color is used only when the alpha fill mode is <b>DXVAHD_ALPHA_FILL_MODE_BACKGROUND</b>. Otherwise, the alpha value is ignored. See <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a>.
 

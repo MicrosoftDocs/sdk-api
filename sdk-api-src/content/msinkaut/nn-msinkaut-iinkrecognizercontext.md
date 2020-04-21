@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkRecognizerContext
 title: IInkRecognizerContext (msinkaut.h)
-description: .helpviewer_keywords: ["IInkRecognizerContext","IInkRecognizerContext interface [Tablet PC]","IInkRecognizerContext interface [Tablet PC]","described","msinkaut/IInkRecognizerContext","tablet.iinkrecognizercontext"]
+description: .
+helpviewer_keywords: ["IInkRecognizerContext","IInkRecognizerContext interface [Tablet PC]","IInkRecognizerContext interface [Tablet PC]","described","msinkaut/IInkRecognizerContext","tablet.iinkrecognizercontext"]
 old-location: tablet\iinkrecognizercontext.htm
 tech.root: tablet
 ms.assetid: D3DC08E9-19CC-4281-9C71-CB9B8CBDDB7F
@@ -313,4 +314,4 @@ Gets or sets the word list that is used in the recognition process to improve th
 
 ## -see-also
 
-[InkRecognizerContext class](https://docs.microsoft.com/windows/win32/tablet/inkrecognizercontext-class)
+[InkRecognizerContext class](/windows/win32/tablet/inkrecognizercontext-class)

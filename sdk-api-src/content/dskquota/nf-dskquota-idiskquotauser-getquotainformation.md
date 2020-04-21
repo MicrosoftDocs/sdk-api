@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaInformation
 title: IDiskQuotaUser::GetQuotaInformation (dskquota.h)
-description: Retrieves the values for the user's warning threshold, hard quota limit, and quota used.helpviewer_keywords: ["GetQuotaInformation","GetQuotaInformation method [Files]","GetQuotaInformation method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaInformation method","IDiskQuotaUser.GetQuotaInformation","IDiskQuotaUser::GetQuotaInformation","_win32_idiskquotauser_getquotainformation","base.idiskquotauser_getquotainformation","dskquota/IDiskQuotaUser::GetQuotaInformation","fs.idiskquotauser_getquotainformation"]
+description: Retrieves the values for the user's warning threshold, hard quota limit, and quota used.
+helpviewer_keywords: ["GetQuotaInformation","GetQuotaInformation method [Files]","GetQuotaInformation method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaInformation method","IDiskQuotaUser.GetQuotaInformation","IDiskQuotaUser::GetQuotaInformation","_win32_idiskquotauser_getquotainformation","base.idiskquotauser_getquotainformation","dskquota/IDiskQuotaUser::GetQuotaInformation","fs.idiskquotauser_getquotainformation"]
 old-location: fs\idiskquotauser_getquotainformation.htm
 tech.root: FileIO
 ms.assetid: d1640803-965a-473c-bf10-bee51d47fcfa
@@ -60,7 +61,7 @@ Retrieves the values for the user's warning threshold, hard quota limit, and quo
 ### -param pbQuotaInfo [out]
 
 A pointer to the 
-[DISKQUOTA_USER_INFORMATION](/windows/win32/api/dskquota/ns-dskquota-diskquota_user_information)a> structure to receive the quota information.
+[DISKQUOTA_USER_INFORMATION](/windows/win32/api/dskquota/ns-dskquota-diskquota_user_information) structure to receive the quota information.
 
 
 ### -param cbQuotaInfo [in]

@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetTimeFormat
 title: IOpcSigningOptions::SetTimeFormat (msopc.h)
-description: Sets the format of the string retrieved by the IOpcDigitalSignature::GetSigningTime method.helpviewer_keywords: ["IOpcSigningOptions interface [Open Packaging Conventions]","SetTimeFormat method","IOpcSigningOptions.SetTimeFormat","IOpcSigningOptions::SetTimeFormat","SetTimeFormat","SetTimeFormat method [Open Packaging Conventions]","SetTimeFormat method [Open Packaging Conventions]","IOpcSigningOptions interface","msopc/IOpcSigningOptions::SetTimeFormat","opc.iopcsigningoptions_settimeformat"]
+description: Sets the format of the string retrieved by the IOpcDigitalSignature::GetSigningTime method.
+helpviewer_keywords: ["IOpcSigningOptions interface [Open Packaging Conventions]","SetTimeFormat method","IOpcSigningOptions.SetTimeFormat","IOpcSigningOptions::SetTimeFormat","SetTimeFormat","SetTimeFormat method [Open Packaging Conventions]","SetTimeFormat method [Open Packaging Conventions]","IOpcSigningOptions interface","msopc/IOpcSigningOptions::SetTimeFormat","opc.iopcsigningoptions_settimeformat"]
 old-location: opc\iopcsigningoptions_settimeformat.htm
 tech.root: OPC
 ms.assetid: 3f8c1dbe-6347-4013-bda6-5e08c9d6921d
@@ -91,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>timeFormat</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a> enumeration value.
+The value passed in the <i>timeFormat</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a> enumeration value.
 
 </td>
 </tr>
@@ -140,7 +141,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>
 
 
 

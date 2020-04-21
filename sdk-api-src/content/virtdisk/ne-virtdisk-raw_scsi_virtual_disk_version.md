@@ -1,7 +1,8 @@
 ---
 UID: NE:virtdisk._RAW_SCSI_VIRTUAL_DISK_VERSION
 title: RAW_SCSI_VIRTUAL_DISK_VERSION (virtdisk.h)
-description: Contains the version of the RAW_SCSI_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.helpviewer_keywords: ["RAW_SCSI_VIRTUAL_DISK_VERSION","RAW_SCSI_VIRTUAL_DISK_VERSION enumeration [VHD]","RAW_SCSI_VIRTUAL_DISK_VERSION_1","RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED","vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_1","vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED","vdssys/RAW_SCSI_VIRTUAL_DISK_VERSION","vhd.raw_scsi_virtual_disk_version","virtdisk/ RAW_SCSI_VIRTUAL_DISK_VERSION_1","virtdisk/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED","virtdisk/RAW_SCSI_VIRTUAL_DISK_VERSION"]
+description: Contains the version of the RAW_SCSI_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
+helpviewer_keywords: ["RAW_SCSI_VIRTUAL_DISK_VERSION","RAW_SCSI_VIRTUAL_DISK_VERSION enumeration [VHD]","RAW_SCSI_VIRTUAL_DISK_VERSION_1","RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED","vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_1","vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED","vdssys/RAW_SCSI_VIRTUAL_DISK_VERSION","vhd.raw_scsi_virtual_disk_version","virtdisk/ RAW_SCSI_VIRTUAL_DISK_VERSION_1","virtdisk/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED","virtdisk/RAW_SCSI_VIRTUAL_DISK_VERSION"]
 old-location: vhd\raw_scsi_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: EE0567C8-D479-436B-B1AC-7D1C4AC3B403
@@ -52,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Contains the version of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_parameters">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure to use in calls to virtual disk functions.
+Contains the version of the <a href="/windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_parameters">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure to use in calls to virtual disk functions.
 
 
 ## -enum-fields

@@ -1,7 +1,8 @@
 ---
 UID: NE:iphlpapi.NET_ADDRESS_FORMAT_
 title: NET_ADDRESS_FORMAT (iphlpapi.h)
-description: The NET_ADDRESS_FORMAT enumeration specifies the format of a network address returned by the ParseNetworkString function.helpviewer_keywords: ["NET_ADDRESS_DNS_NAME","NET_ADDRESS_FORMAT","NET_ADDRESS_FORMAT enumeration [IP Helper]","NET_ADDRESS_FORMAT_UNSPECIFIED","NET_ADDRESS_IPV4","NET_ADDRESS_IPV6","iphlp.net_address_format","iphlpapi/NET_ADDRESS_DNS_NAME","iphlpapi/NET_ADDRESS_FORMAT","iphlpapi/NET_ADDRESS_FORMAT_UNSPECIFIED","iphlpapi/NET_ADDRESS_IPV4","iphlpapi/NET_ADDRESS_IPV6"]
+description: The NET_ADDRESS_FORMAT enumeration specifies the format of a network address returned by the ParseNetworkString function.
+helpviewer_keywords: ["NET_ADDRESS_DNS_NAME","NET_ADDRESS_FORMAT","NET_ADDRESS_FORMAT enumeration [IP Helper]","NET_ADDRESS_FORMAT_UNSPECIFIED","NET_ADDRESS_IPV4","NET_ADDRESS_IPV6","iphlp.net_address_format","iphlpapi/NET_ADDRESS_DNS_NAME","iphlpapi/NET_ADDRESS_FORMAT","iphlpapi/NET_ADDRESS_FORMAT_UNSPECIFIED","iphlpapi/NET_ADDRESS_IPV4","iphlpapi/NET_ADDRESS_IPV6"]
 old-location: iphlp\net_address_format.htm
 tech.root: IpHlp
 ms.assetid: a99df758-d46e-452d-acf8-d2cb5a6fa22e
@@ -85,7 +86,7 @@ The format of the network address is a string in Internet standard hexadecimal e
 
 The <b>NET_ADDRESS_FORMAT</b> enumeration is defined on Windows Vista and later. 
 
-The [NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a> function. 
+The [NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info) structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a> function. 
 
 
 
@@ -95,7 +96,7 @@ The [NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/n
 
 
 
-[NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)a>
+[NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:sensorsapi.ISensorEvents.OnStateChanged
 title: ISensorEvents::OnStateChanged (sensorsapi.h)
-description: Provides a notification that a sensor state has changed.helpviewer_keywords: ["ISensorEvents interface","OnStateChanged method","ISensorEvents.OnStateChanged","ISensorEvents::OnStateChanged","OnStateChanged","OnStateChanged method","OnStateChanged method","ISensorEvents interface","sensorsapi/ISensorEvents::OnStateChanged","winsensors_com_ref.isensorevents_onstatechanged"]
+description: Provides a notification that a sensor state has changed.
+helpviewer_keywords: ["ISensorEvents interface","OnStateChanged method","ISensorEvents.OnStateChanged","ISensorEvents::OnStateChanged","OnStateChanged","OnStateChanged method","OnStateChanged method","ISensorEvents interface","sensorsapi/ISensorEvents::OnStateChanged","winsensors_com_ref.isensorevents_onstatechanged"]
 old-location: winsensors_com_ref\isensorevents_onstatechanged.htm
 tech.root: SensorsAPI
 ms.assetid: fb995dba-23aa-4a09-b411-7e95019535ce
@@ -65,7 +66,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsap
 ### -param state [in]
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/sensorsapi/ne-sensorsapi-sensorstate">SensorState</a> containing the new state.
+<a href="/windows/win32/api/sensorsapi/ne-sensorsapi-sensorstate">SensorState</a> containing the new state.
 
 
 ## -returns

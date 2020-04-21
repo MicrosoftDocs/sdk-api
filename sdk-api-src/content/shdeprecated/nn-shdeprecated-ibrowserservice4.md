@@ -1,7 +1,8 @@
 ---
 UID: NN:shdeprecated.IBrowserService4
 title: IBrowserService4 (shdeprecated.h)
-description: Deprecated.helpviewer_keywords: ["IBrowserService4","IBrowserService4 interface [Windows Shell]","IBrowserService4 interface [Windows Shell]","described","_shell_IBrowserService4","shdeprecated/IBrowserService4","shell.IBrowserService4"]
+description: Deprecated.
+helpviewer_keywords: ["IBrowserService4","IBrowserService4 interface [Windows Shell]","IBrowserService4 interface [Windows Shell]","described","_shell_IBrowserService4","shdeprecated/IBrowserService4","shell.IBrowserService4"]
 old-location: shell\IBrowserService4.htm
 tech.root: shell
 ms.assetid: 6054bdef-05c9-487f-8df1-4cbdd1c6d749
@@ -69,7 +70,7 @@ The <b>IBrowserService4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice4-_resizeallborders">_ResizeAllBorders</a>
+<a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice4-_resizeallborders">_ResizeAllBorders</a>
 </td>
 <td align="left" width="63%">
 Deprecated.

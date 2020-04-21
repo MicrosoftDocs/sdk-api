@@ -1,7 +1,8 @@
 ---
 UID: NF:windns.DnsQuery_UTF8
 title: DnsQuery_UTF8 function (windns.h)
-description: Is the generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.helpviewer_keywords: ["DnsQuery","DnsQuery function [DNS]","DnsQuery_A","DnsQuery_UTF8","DnsQuery_W","_dns_dnsquery","dns.dnsquery","windns/DnsQuery","windns/DnsQuery_A","windns/DnsQuery_UTF8","windns/DnsQuery_W"]
+description: Is the generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.
+helpviewer_keywords: ["DnsQuery","DnsQuery function [DNS]","DnsQuery_A","DnsQuery_UTF8","DnsQuery_W","_dns_dnsquery","dns.dnsquery","windns/DnsQuery","windns/DnsQuery_A","windns/DnsQuery_UTF8","windns/DnsQuery_W"]
 old-location: dns\dnsquery.htm
 tech.root: DNS
 ms.assetid: 3d810b76-cea1-4904-9b5a-c2566b332c2c
@@ -75,7 +76,7 @@ A pointer to a string that represents the DNS name to query.
 
 ### -param wType [in]
 
-A value that represents the Resource Record (RR)<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a> that is queried. <b>wType</b> determines the format of data pointed to by <b>ppQueryResultsSet</b>. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the format of data pointed to by <b>ppQueryResultsSet</b> is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
+A value that represents the Resource Record (RR)<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a> that is queried. <b>wType</b> determines the format of data pointed to by <b>ppQueryResultsSet</b>. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the format of data pointed to by <b>ppQueryResultsSet</b> is <a href="/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
 
 
 ### -param Options [in]
@@ -135,7 +136,7 @@ Consider the following scenario, in which multiple returned records require addi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 

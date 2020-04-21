@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.SetWinEventsForAutomationEvent
 title: IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent (uiautomationclient.h)
-description: Maps Microsoft UI Automation events to WinEvents.helpviewer_keywords: ["IUIAutomationProxyFactoryEntry interface [Windows Accessibility]","SetWinEventsForAutomationEvent method","IUIAutomationProxyFactoryEntry.SetWinEventsForAutomationEvent","IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent","SetWinEventsForAutomationEvent","SetWinEventsForAutomationEvent method [Windows Accessibility]","SetWinEventsForAutomationEvent method [Windows Accessibility]","IUIAutomationProxyFactoryEntry interface","uiauto.uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent","uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent","uiautomationclient/IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent","winauto.uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent"]
+description: Maps Microsoft UI Automation events to WinEvents.
+helpviewer_keywords: ["IUIAutomationProxyFactoryEntry interface [Windows Accessibility]","SetWinEventsForAutomationEvent method","IUIAutomationProxyFactoryEntry.SetWinEventsForAutomationEvent","IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent","SetWinEventsForAutomationEvent","SetWinEventsForAutomationEvent method [Windows Accessibility]","SetWinEventsForAutomationEvent method [Windows Accessibility]","IUIAutomationProxyFactoryEntry interface","uiauto.uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent","uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent","uiautomationclient/IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent","winauto.uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent.htm
 tech.root: WinAuto
 ms.assetid: 694cc14b-837c-4e09-b1e7-91bdc237657f
@@ -73,7 +74,7 @@ The property identifier. For a list of property IDs, see <a href="https://docs.m
 
 ### -param winEvents [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 The list of WinEvents that map to this event.
 

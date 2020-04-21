@@ -1,7 +1,8 @@
 ---
 UID: NF:raseapif.RasEapGetIdentity
 title: RasEapGetIdentity function (raseapif.h)
-description: The RAS connection manager calls the RasEapGetIdentity function to obtain identity information for the user requesting authentication.helpviewer_keywords: ["RAS_EAP_FLAG_8021X_AUTH","RAS_EAP_FLAG_FIRST_LINK","RAS_EAP_FLAG_LOGON","RAS_EAP_FLAG_MACHINE_AUTH","RAS_EAP_FLAG_NON_INTERACTIVE","RAS_EAP_FLAG_PREVIEW","RAS_EAP_FLAG_ROUTER","RasEapGetIdentity","RasEapGetIdentity callback","RasEapGetIdentity callback function [EAP]","_eap_raseapgetidentity","eap.raseapgetidentity","raseapif/RasEapGetIdentity"]
+description: The RAS connection manager calls the RasEapGetIdentity function to obtain identity information for the user requesting authentication.
+helpviewer_keywords: ["RAS_EAP_FLAG_8021X_AUTH","RAS_EAP_FLAG_FIRST_LINK","RAS_EAP_FLAG_LOGON","RAS_EAP_FLAG_MACHINE_AUTH","RAS_EAP_FLAG_NON_INTERACTIVE","RAS_EAP_FLAG_PREVIEW","RAS_EAP_FLAG_ROUTER","RasEapGetIdentity","RasEapGetIdentity callback","RasEapGetIdentity callback function [EAP]","_eap_raseapgetidentity","eap.raseapgetidentity","raseapif/RasEapGetIdentity"]
 old-location: eap\raseapgetidentity.htm
 tech.root: EAP
 ms.assetid: 66bc34d2-54b9-46eb-b952-6ad66868c8ce
@@ -124,7 +125,7 @@ Specifies that the user should be prompted for identity information before diali
 </td>
 <td width="60%">
 Indicates that this connection is the first link in a multilink connection. See 
-[Multilink and Callback Connections](https://docs.microsoft.com/windows/win32/eap/multilink-and-callback-connections)a> for more information.
+[Multilink and Callback Connections](/windows/win32/eap/multilink-and-callback-connections) for more information.
 
 </td>
 </tr>
@@ -257,15 +258,15 @@ If
 
 
 
-[EAP Functions](https://docs.microsoft.com/windows/win32/eap/eap-functions)a>
+[EAP Functions](/windows/win32/eap/eap-functions)
 
 
 
-[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
+[Extensible Authentication Protocol Reference](/windows/win32/eap/extensible-authentication-protocol-reference)
 
 
 
-[Obtaining Identity Information](https://docs.microsoft.com/windows/win32/eap/obtaining-identity-information)a>
+[Obtaining Identity Information](/windows/win32/eap/obtaining-identity-information)
 
 
 

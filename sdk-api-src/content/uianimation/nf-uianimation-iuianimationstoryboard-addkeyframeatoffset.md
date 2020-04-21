@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.AddKeyframeAtOffset
 title: IUIAnimationStoryboard::AddKeyframeAtOffset (uianimation.h)
-description: Adds a keyframe at the specified offset from an existing keyframe.helpviewer_keywords: ["AddKeyframeAtOffset","AddKeyframeAtOffset method [Windows Animation]","AddKeyframeAtOffset method [Windows Animation]","IUIAnimationStoryboard interface","IUIAnimationStoryboard interface [Windows Animation]","AddKeyframeAtOffset method","IUIAnimationStoryboard.AddKeyframeAtOffset","IUIAnimationStoryboard::AddKeyframeAtOffset","uianimation.iuianimationstoryboard_addkeyframeatoffset","uianimation/IUIAnimationStoryboard::AddKeyframeAtOffset"]
+description: Adds a keyframe at the specified offset from an existing keyframe.
+helpviewer_keywords: ["AddKeyframeAtOffset","AddKeyframeAtOffset method [Windows Animation]","AddKeyframeAtOffset method [Windows Animation]","IUIAnimationStoryboard interface","IUIAnimationStoryboard interface [Windows Animation]","AddKeyframeAtOffset method","IUIAnimationStoryboard.AddKeyframeAtOffset","IUIAnimationStoryboard::AddKeyframeAtOffset","uianimation.iuianimationstoryboard_addkeyframeatoffset","uianimation/IUIAnimationStoryboard::AddKeyframeAtOffset"]
 old-location: uianimation\iuianimationstoryboard_addkeyframeatoffset.htm
 tech.root: UIAnimation
 ms.assetid: f598c8a4-4325-49ed-bc18-5d672e089592
@@ -129,7 +130,7 @@ hr = pStoryboard->AddKeyframeAtOffset(
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ns-uianimation-__midl___midl_itf_uianimation_0000_0002_0003">UI_ANIMATION_KEYFRAME</a>
+<a href="/windows/win32/api/uianimation/ns-uianimation-__midl___midl_itf_uianimation_0000_0002_0003">UI_ANIMATION_KEYFRAME</a>
  
 
  

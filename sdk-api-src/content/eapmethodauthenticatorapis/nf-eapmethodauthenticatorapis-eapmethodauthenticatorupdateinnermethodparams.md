@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorUpdateInnerMethodParams
 title: EapMethodAuthenticatorUpdateInnerMethodParams function (eapmethodauthenticatorapis.h)
-description: Updates the EAP authentication session settings previous established by a call to EapMethodAuthenticatorBeginSession from the server EAPHost.helpviewer_keywords: ["EapMethodAuthenticatorUpdateInnerMethodParams","EapMethodAuthenticatorUpdateInnerMethodParams function [EAPHost]","eaphost.eapmethodauthenticatorupdateinnermethodparams","eapmethodauthenticatorapis/EapMethodAuthenticatorUpdateInnerMethodParams"]
+description: Updates the EAP authentication session settings previous established by a call to EapMethodAuthenticatorBeginSession from the server EAPHost.
+helpviewer_keywords: ["EapMethodAuthenticatorUpdateInnerMethodParams","EapMethodAuthenticatorUpdateInnerMethodParams function [EAPHost]","eaphost.eapmethodauthenticatorupdateinnermethodparams","eapmethodauthenticatorapis/EapMethodAuthenticatorUpdateInnerMethodParams"]
 old-location: eaphost\eapmethodauthenticatorupdateinnermethodparams.htm
 tech.root: eaphost
 ms.assetid: 13ca6504-63c6-4dd6-a3bf-0f3929bc527f
@@ -66,7 +67,7 @@ A pointer to an <b>EAP_SESSION_HANDLE</b> structure that contains the unique han
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  updated EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  updated EAP authentication session behavior.
 
 
 ### -param pwszIdentity [in]
@@ -89,7 +90,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
 
 
 

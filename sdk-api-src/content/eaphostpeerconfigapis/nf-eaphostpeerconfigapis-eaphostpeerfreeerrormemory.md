@@ -1,7 +1,8 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerFreeErrorMemory
 title: EapHostPeerFreeErrorMemory function (eaphostpeerconfigapis.h)
-description: Frees memory allocated to an EAP_ERROR structure.helpviewer_keywords: ["EapHostPeerFreeErrorMemory","EapHostPeerFreeErrorMemory function [EAPHost]","eaphost.eaphostpeerfreeerrormemory","eaphostpeerconfigapis/EapHostPeerFreeErrorMemory"]
+description: Frees memory allocated to an EAP_ERROR structure.
+helpviewer_keywords: ["EapHostPeerFreeErrorMemory","EapHostPeerFreeErrorMemory function [EAPHost]","eaphost.eaphostpeerfreeerrormemory","eaphostpeerconfigapis/EapHostPeerFreeErrorMemory"]
 old-location: eaphost\eaphostpeerfreeerrormemory.htm
 tech.root: eaphost
 ms.assetid: c80ac625-8202-49a7-813a-62a9e0d15058
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees memory allocated to an [EAPHost supplicant configuration function](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a> fails. 
+Frees memory allocated to an [EAPHost supplicant configuration function](/windows/win32/eaphost/eap-host-supplicant-configuration-functions) fails. 
 
 The  <b>EapHostPeerFreeErrorMemory</b> function is used only for freeing <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structures returned by EAPHost configuration APIs, while the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a> function is used for freeing <b>EAP_ERROR</b> structures returned by EAPHost run-time APIs.
 
@@ -91,11 +92,11 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
 
 
 
-[EAPHost Supplicant Frequently Asked Questions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-supplicant-frequently-asked-questions)a>
+[EAPHost Supplicant Frequently Asked Questions](/windows/win32/eaphost/eaphost-supplicant-frequently-asked-questions)
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_SA_ENUM_TEMPLATE0_
 title: IKEEXT_SA_ENUM_TEMPLATE0 (iketypes.h)
-description: Is an enumeration template used for enumerating IKE/AuthIP security associations (SAs).helpviewer_keywords: ["IKEEXT_SA_ENUM_TEMPLATE0","IKEEXT_SA_ENUM_TEMPLATE0 structure [Filtering]","fwp.ikeext_sa_enum_template0","iketypes/IKEEXT_SA_ENUM_TEMPLATE0"]
+description: Is an enumeration template used for enumerating IKE/AuthIP security associations (SAs).
+helpviewer_keywords: ["IKEEXT_SA_ENUM_TEMPLATE0","IKEEXT_SA_ENUM_TEMPLATE0 structure [Filtering]","fwp.ikeext_sa_enum_template0","iketypes/IKEEXT_SA_ENUM_TEMPLATE0"]
 old-location: fwp\ikeext_sa_enum_template0.htm
 tech.root: fwp
 ms.assetid: 69bb80de-e512-4fbd-a62f-40bb211e6b26
@@ -67,7 +68,7 @@ Matches SAs whose local address is on the specified subnet. Must be of one of th
 <li>FWP_V4_ADDR_MASK</li>
 <li>FWP_V6_ADDR_MASK</li>
 </ul>
-See [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a> for more information.
+See [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0) for more information.
 
 
 ### -field remoteSubNet
@@ -80,14 +81,14 @@ Matches SAs whose remote address is on the specified subnet. Must be of one of t
 <li>FWP_V4_ADDR_MASK</li>
 <li>FWP_V6_ADDR_MASK</li>
 </ul>
-See [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a> for more information.
+See [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0) for more information.
 
 
 ### -field localMainModeCertHash
 
 Matches SAs with a matching local main mode SHA thumbprint.  If none exist, this member will have a length of zero.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 
 ## -remarks

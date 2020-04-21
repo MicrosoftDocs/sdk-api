@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGeometry
 title: IXpsOMGeometry (xpsobjectmodel.h)
-description: Describes the shape of a path or of a clipping region.helpviewer_keywords: ["IXpsOMGeometry","IXpsOMGeometry interface [XPS Documents and Packaging]","IXpsOMGeometry interface [XPS Documents and Packaging]","described","xps.ixpsomgeometry","xpsobjectmodel/IXpsOMGeometry"]
+description: Describes the shape of a path or of a clipping region.
+helpviewer_keywords: ["IXpsOMGeometry","IXpsOMGeometry interface [XPS Documents and Packaging]","IXpsOMGeometry interface [XPS Documents and Packaging]","described","xps.ixpsomgeometry","xpsobjectmodel/IXpsOMGeometry"]
 old-location: xps\ixpsomgeometry.htm
 tech.root: printdocs
 ms.assetid: d3f74c1e-49ef-40ee-a2f4-b6d198b57624
@@ -91,7 +92,7 @@ Gets a pointer to the geometry's <a href="https://docs.microsoft.com/windows/des
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometry-getfillrule">GetFillRule</a>
 </td>
 <td align="left" width="63%">
-Gets the  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Gets the  <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
             
 
 </td>
@@ -131,7 +132,7 @@ Gets the lookup key for the <a href="https://docs.microsoft.com/windows/desktop/
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometry-setfillrule">SetFillRule</a>
 </td>
 <td align="left" width="63%">
-Sets the  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Sets the  <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
             
 
 </td>

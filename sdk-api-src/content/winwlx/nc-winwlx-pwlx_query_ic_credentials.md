@@ -1,7 +1,8 @@
 ---
 UID: NC:winwlx.PWLX_QUERY_IC_CREDENTIALS
 title: PWLX_QUERY_IC_CREDENTIALS (winwlx.h)
-description: Called by a replacement GINA DLL if Terminal Services is enabled. GINA calls this function to determine whether the terminal server is using Internet connector licensing and to retrieve credentials information.helpviewer_keywords: ["PWLX_QUERY_IC_CREDENTIALS","PWLX_QUERY_IC_CREDENTIALS callback","WlxQueryInetConnectorCredentials","WlxQueryInetConnectorCredentials callback function [Security]","_gina_wlxqueryinetconnectorcredentials","security.wlxqueryinetconnectorcredentials","winwlx/WlxQueryInetConnectorCredentials"]
+description: Called by a replacement GINA DLL if Terminal Services is enabled. GINA calls this function to determine whether the terminal server is using Internet connector licensing and to retrieve credentials information.
+helpviewer_keywords: ["PWLX_QUERY_IC_CREDENTIALS","PWLX_QUERY_IC_CREDENTIALS callback","WlxQueryInetConnectorCredentials","WlxQueryInetConnectorCredentials callback function [Security]","_gina_wlxqueryinetconnectorcredentials","security.wlxqueryinetconnectorcredentials","winwlx/WlxQueryInetConnectorCredentials"]
 old-location: security\wlxqueryinetconnectorcredentials.htm
 tech.root: SecAuthN
 ms.assetid: dfa12961-1552-4531-8f79-d44fb2a46e74
@@ -64,7 +65,7 @@ Called by a replacement GINA DLL if Terminal Services is enabled.
 ### -param pCred [out]
 
 When the return value is <b>TRUE</b>, <i>pCred</i> specifies a pointer to a 
-<a href="https://docs.microsoft.com/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v1_0">WLX_CLIENT_CREDENTIALS_INFO_V1_0</a> structure that contains the credentials to use for auto logon.
+<a href="/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v1_0">WLX_CLIENT_CREDENTIALS_INFO_V1_0</a> structure that contains the credentials to use for auto logon.
 
 
 ## -returns

@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_TOKEN0_
 title: IPSEC_TOKEN0 (ipsectypes.h)
-description: Various information about an IPsec-specific access token.helpviewer_keywords: ["IPSEC_TOKEN0","IPSEC_TOKEN0 structure [Filtering]","fwp.ipsec_token0","ipsectypes/IPSEC_TOKEN0"]
+description: Various information about an IPsec-specific access token.
+helpviewer_keywords: ["IPSEC_TOKEN0","IPSEC_TOKEN0 structure [Filtering]","fwp.ipsec_token0","ipsectypes/IPSEC_TOKEN0"]
 old-location: fwp\ipsec_token0.htm
 tech.root: fwp
 ms.assetid: 12adf88e-05c7-4e08-bbf7-6da529387af1
@@ -59,17 +60,17 @@ The <b>IPSEC_TOKEN0</b> structure contains various information about an IPsec-sp
 
 ### -field type
 
-An [IPSEC_TOKEN_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_type)a> value that specifies the type of token.
+An [IPSEC_TOKEN_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_type) value that specifies the type of token.
 
 
 ### -field principal
 
-An [IPSEC_TOKEN_PRINCIPAL](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_principal)a> value that specifies the token principal.
+An [IPSEC_TOKEN_PRINCIPAL](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_principal) value that specifies the token principal.
 
 
 ### -field mode
 
-An [IPSEC_TOKEN_MODE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_mode)a> value that indicates in which mode the token was obtained.
+An [IPSEC_TOKEN_MODE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_mode) value that indicates in which mode the token was obtained.
 
 
 ### -field token

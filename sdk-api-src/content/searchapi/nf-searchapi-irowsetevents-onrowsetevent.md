@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnRowsetEvent
 title: IRowsetEvents::OnRowsetEvent (searchapi.h)
-description: Called by the indexer to notify clients of an event related to the client rowset.helpviewer_keywords: ["IRowsetEvents interface [search]","OnRowsetEvent method","IRowsetEvents.OnRowsetEvent","IRowsetEvents::OnRowsetEvent","OnRowsetEvent","OnRowsetEvent method [search]","OnRowsetEvent method [search]","IRowsetEvents interface","_search_IRowsetEvents_OnRowsetEvent","search._search_IRowsetEvents_OnRowsetEvent","searchapi/IRowsetEvents::OnRowsetEvent"]
+description: Called by the indexer to notify clients of an event related to the client rowset.
+helpviewer_keywords: ["IRowsetEvents interface [search]","OnRowsetEvent method","IRowsetEvents.OnRowsetEvent","IRowsetEvents::OnRowsetEvent","OnRowsetEvent","OnRowsetEvent method [search]","OnRowsetEvent method [search]","IRowsetEvents interface","_search_IRowsetEvents_OnRowsetEvent","search._search_IRowsetEvents_OnRowsetEvent","searchapi/IRowsetEvents::OnRowsetEvent"]
 old-location: search\_search_IRowsetEvents_OnRowsetEvent.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onrowsetevent.htm
@@ -60,9 +61,9 @@ Called by the indexer to notify clients of an event related to the client rowset
 
 ### -param eventType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a></b>
+Type: <b><a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a></b>
 
-The event triggering the notification as the <a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a> enumeration.
+The event triggering the notification as the <a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a> enumeration.
         
 
 
@@ -106,19 +107,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
 
 
 

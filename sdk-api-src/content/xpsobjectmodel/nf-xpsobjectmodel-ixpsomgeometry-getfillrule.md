@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.GetFillRule
 title: IXpsOMGeometry::GetFillRule (xpsobjectmodel.h)
-description: Gets the XPS_FILL_RULE value that describes the fill rule to be used.helpviewer_keywords: ["GetFillRule","GetFillRule method [XPS Documents and Packaging]","GetFillRule method [XPS Documents and Packaging]","IXpsOMGeometry interface","IXpsOMGeometry interface [XPS Documents and Packaging]","GetFillRule method","IXpsOMGeometry.GetFillRule","IXpsOMGeometry::GetFillRule","xps.ixpsomgeometry_getfillrule","xpsobjectmodel/IXpsOMGeometry::GetFillRule"]
+description: Gets the XPS_FILL_RULE value that describes the fill rule to be used.
+helpviewer_keywords: ["GetFillRule","GetFillRule method [XPS Documents and Packaging]","GetFillRule method [XPS Documents and Packaging]","IXpsOMGeometry interface","IXpsOMGeometry interface [XPS Documents and Packaging]","GetFillRule method","IXpsOMGeometry.GetFillRule","IXpsOMGeometry::GetFillRule","xps.ixpsomgeometry_getfillrule","xpsobjectmodel/IXpsOMGeometry::GetFillRule"]
 old-location: xps\ixpsomgeometry_getfillrule.htm
 tech.root: printdocs
 ms.assetid: 5ec2cfdd-f05d-4e05-b290-fad175fe1cae
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Gets the  <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Gets the  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/n
 
 ### -param fillRule [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
 
 
 ## -returns
@@ -105,7 +106,7 @@ The method succeeded.
 
 
 
-For more information about how the file rule determines whether a point is inside the fill region, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a>. 
+For more information about how the file rule determines whether a point is inside the fill region, see <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a>. 
 
 The value that is returned in <i>fillRule</i>  corresponds to the <b>FillRule</b> attribute of the <b>PathGeometry</b> element in the document markup.
 
@@ -129,7 +130,7 @@ The value that is returned in <i>fillRule</i>  corresponds to the <b>FillRule</b
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a>
  
 
  

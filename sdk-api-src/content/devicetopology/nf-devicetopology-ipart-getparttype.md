@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IPart.GetPartType
 title: IPart::GetPartType (devicetopology.h)
-description: The GetPartType method gets the part type of this part.helpviewer_keywords: ["GetPartType","GetPartType method [Core Audio]","GetPartType method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetPartType method","IPart.GetPartType","IPart::GetPartType","IPartGetPartType","coreaudio.ipart_getparttype","devicetopology/IPart::GetPartType"]
+description: The GetPartType method gets the part type of this part.
+helpviewer_keywords: ["GetPartType","GetPartType method [Core Audio]","GetPartType method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetPartType method","IPart.GetPartType","IPart::GetPartType","IPartGetPartType","coreaudio.ipart_getparttype","devicetopology/IPart::GetPartType"]
 old-location: coreaudio\ipart_getparttype.htm
 tech.root: CoreAudio
 ms.assetid: 79af1dce-b946-4ef2-af36-4437603966da
@@ -62,7 +63,7 @@ The <b>GetPartType</b> method gets the part type of this part.
 
 ### -param pPartType [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ne-devicetopology-parttype">PartType</a> variable into which the method writes the part type. The part type is one of the following <b>PartType</b> enumeration values, which indicate whether the part is a connector or subunit:
+Pointer to a <a href="/windows/win32/api/devicetopology/ne-devicetopology-parttype">PartType</a> variable into which the method writes the part type. The part type is one of the following <b>PartType</b> enumeration values, which indicate whether the part is a connector or subunit:
 
 Connector
 

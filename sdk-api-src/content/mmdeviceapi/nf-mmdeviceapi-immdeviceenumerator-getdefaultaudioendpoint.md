@@ -1,7 +1,8 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.GetDefaultAudioEndpoint
 title: IMMDeviceEnumerator::GetDefaultAudioEndpoint (mmdeviceapi.h)
-description: The GetDefaultAudioEndpoint method retrieves the default audio endpoint for the specified data-flow direction and role.helpviewer_keywords: ["GetDefaultAudioEndpoint","GetDefaultAudioEndpoint method [Core Audio]","GetDefaultAudioEndpoint method [Core Audio]","IMMDeviceEnumerator interface","IMMDeviceEnumerator interface [Core Audio]","GetDefaultAudioEndpoint method","IMMDeviceEnumerator.GetDefaultAudioEndpoint","IMMDeviceEnumerator::GetDefaultAudioEndpoint","IMMDeviceEnumeratorGetDefaultAudioEndpoint","coreaudio.immdeviceenumerator_getdefaultaudioendpoint","mmdeviceapi/IMMDeviceEnumerator::GetDefaultAudioEndpoint"]
+description: The GetDefaultAudioEndpoint method retrieves the default audio endpoint for the specified data-flow direction and role.
+helpviewer_keywords: ["GetDefaultAudioEndpoint","GetDefaultAudioEndpoint method [Core Audio]","GetDefaultAudioEndpoint method [Core Audio]","IMMDeviceEnumerator interface","IMMDeviceEnumerator interface [Core Audio]","GetDefaultAudioEndpoint method","IMMDeviceEnumerator.GetDefaultAudioEndpoint","IMMDeviceEnumerator::GetDefaultAudioEndpoint","IMMDeviceEnumeratorGetDefaultAudioEndpoint","coreaudio.immdeviceenumerator_getdefaultaudioendpoint","mmdeviceapi/IMMDeviceEnumerator::GetDefaultAudioEndpoint"]
 old-location: coreaudio\immdeviceenumerator_getdefaultaudioendpoint.htm
 tech.root: CoreAudio
 ms.assetid: 96776d2a-27b7-490a-b3a8-04782ec34f91
@@ -62,7 +63,7 @@ The <b>GetDefaultAudioEndpoint</b> method retrieves the default audio endpoint f
 
 ### -param dataFlow [in]
 
-The data-flow direction for the endpoint device. The caller should set this parameter to one of the following two <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">EDataFlow</a> enumeration values:
+The data-flow direction for the endpoint device. The caller should set this parameter to one of the following two <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">EDataFlow</a> enumeration values:
 
 eRender
 
@@ -73,7 +74,7 @@ The data-flow direction for a rendering device is eRender. The data-flow directi
 
 ### -param role [in]
 
-The role of the endpoint device. The caller should set this parameter to one of the following <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">ERole</a> enumeration values:
+The role of the endpoint device. The caller should set this parameter to one of the following <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">ERole</a> enumeration values:
 
 eConsole
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:virtdisk.TakeSnapshotVhdSet
 title: TakeSnapshotVhdSet function (virtdisk.h)
-description: Creates a snapshot of the current virtual disk for VHD Set files.helpviewer_keywords: ["TakeSnapshotVhdSet","TakeSnapshotVhdSet function [VHD]","vdssys/TakeSnapshotVhdSet","vhd.takesnapshotvhdset","virtdisk/TakeSnapshotVhdSet"]
+description: Creates a snapshot of the current virtual disk for VHD Set files.
+helpviewer_keywords: ["TakeSnapshotVhdSet","TakeSnapshotVhdSet function [VHD]","vdssys/TakeSnapshotVhdSet","vhd.takesnapshotvhdset","virtdisk/TakeSnapshotVhdSet"]
 old-location: vhd\takesnapshotvhdset.htm
 tech.root: VStor
 ms.assetid: 370C6DB2-EA0F-4B6F-BA14-CE14377E2314
@@ -66,12 +67,12 @@ A handle to the open virtual disk. This must be a VHD Set file.
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-take_snapshot_vhdset_parameters">TAKE_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot data.
+A pointer to a valid <a href="/windows/win32/api/virtdisk/ns-virtdisk-take_snapshot_vhdset_parameters">TAKE_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot data.
 
 
 ### -param Flags [in]
 
-Snapshot flags, which must be a valid combination of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-take_snapshot_vhdset_flag">TAKE_SNAPSHOT_VHDSET_FLAG</a> enumeration
+Snapshot flags, which must be a valid combination of the <a href="/windows/win32/api/virtdisk/ne-virtdisk-take_snapshot_vhdset_flag">TAKE_SNAPSHOT_VHDSET_FLAG</a> enumeration
 
 
 ## -returns

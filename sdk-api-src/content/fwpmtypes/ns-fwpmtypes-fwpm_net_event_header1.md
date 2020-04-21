@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_HEADER1_
 title: FWPM_NET_EVENT_HEADER1 (fwpmtypes.h)
-description: Information common to all events. Reserved.helpviewer_keywords: ["FWPM_NET_EVENT_FLAG_APP_ID_SET","FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET","FWPM_NET_EVENT_FLAG_IP_VERSION_SET","FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET","FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET","FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET","FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET","FWPM_NET_EVENT_FLAG_SCOPE_ID_SET","FWPM_NET_EVENT_FLAG_USER_ID_SET","FWPM_NET_EVENT_HEADER1","FWPM_NET_EVENT_HEADER1 structure [Filtering]","fwp.fwpm_net_event_header1","fwpmtypes/FWPM_NET_EVENT_HEADER1"]
+description: Information common to all events. Reserved.
+helpviewer_keywords: ["FWPM_NET_EVENT_FLAG_APP_ID_SET","FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET","FWPM_NET_EVENT_FLAG_IP_VERSION_SET","FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET","FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET","FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET","FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET","FWPM_NET_EVENT_FLAG_SCOPE_ID_SET","FWPM_NET_EVENT_FLAG_USER_ID_SET","FWPM_NET_EVENT_HEADER1","FWPM_NET_EVENT_HEADER1 structure [Filtering]","fwp.fwpm_net_event_header1","fwpmtypes/FWPM_NET_EVENT_HEADER1"]
 old-location: fwp\fwpm_net_event_header1.htm
 tech.root: fwp
 ms.assetid: b5315a3b-07ae-4596-92f3-0ca72ca4dd49
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_HEADER1</b> structure contains information common to all events. Reserved.
-[FWPM_NET_EVENT_HEADER2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2)a> is available. </div><div> </div>
+[FWPM_NET_EVENT_HEADER2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2) is available. </div><div> </div>
 
 ## -struct-fields
 
@@ -171,7 +172,7 @@ The <b>ipVersion</b> member is set.
 
 ### -field ipVersion
 
-An [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a> value that specifies the IP version being used. 
+An [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version) value that specifies the IP version being used. 
 
 
 ### -field ipProtocol
@@ -188,7 +189,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field localAddrV6
 
-A [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a> structure that specifies an IPv6 local address.
+A [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16) structure that specifies an IPv6 local address.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
@@ -202,7 +203,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field remoteAddrV6
 
-An [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a> structure that specifies an IPv6 remote address.
+An [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16) structure that specifies an IPv6 remote address.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
@@ -224,7 +225,7 @@ IPv6 scope ID.
 
 ### -field appId
 
-An [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> that specifies the application ID of the local application associated with the event.
+An [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) that specifies the application ID of the local application associated with the event.
 
 
 ### -field userId
@@ -308,7 +309,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-f
 
 #### reserved4
 
-A <a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ne-fwpmtypes-dl_address_type">DL_ADDRESS_TYPE</a> enumeration.
+A <a href="/windows/win32/api/fwpmtypes/ne-fwpmtypes-dl_address_type">DL_ADDRESS_TYPE</a> enumeration.
 
 
 
@@ -351,7 +352,7 @@ The interface LUID corresponding to the network interface with which this packet
 
 
 
-This structure is reserved for system use. [FWPM_NET_EVENT_HEADER2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2)a> should be used in place of <b>FWPM_NET_EVENT_HEADER1</b>.
+This structure is reserved for system use. [FWPM_NET_EVENT_HEADER2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2) should be used in place of <b>FWPM_NET_EVENT_HEADER1</b>.
 
 
 
@@ -361,11 +362,11 @@ This structure is reserved for system use. [FWPM_NET_EVENT_HEADER2](https://docs
 
 
 
-[FWPM_NET_EVENT_HEADER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0)a>
+[FWPM_NET_EVENT_HEADER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0)
 
 
 
-[FWPM_NET_EVENT_HEADER2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2)a>
+[FWPM_NET_EVENT_HEADER2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2)
  
 
  

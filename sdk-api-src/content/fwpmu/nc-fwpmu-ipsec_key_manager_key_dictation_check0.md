@@ -1,7 +1,8 @@
 ---
 UID: NC:fwpmu.IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
 title: IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 (fwpmu.h)
-description: Indicates whether the Trusted Intermediary Agent (TIA) will dictate the keys for the SA being negotiated.helpviewer_keywords: ["IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0","IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 function","IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 function pointer [Filtering]","fwp.ipsec_key_manager_key_dictation_check0","fwpmu/IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0"]
+description: Indicates whether the Trusted Intermediary Agent (TIA) will dictate the keys for the SA being negotiated.
+helpviewer_keywords: ["IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0","IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 function","IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 function pointer [Filtering]","fwp.ipsec_key_manager_key_dictation_check0","fwpmu/IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0"]
 old-location: fwp\ipsec_key_manager_key_dictation_check0.htm
 tech.root: fwp
 ms.assetid: 0B91B57C-6943-4702-8926-8ED2B7B3E48D
@@ -59,7 +60,7 @@ The <b>IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0</b> function indicates whether the
 
 ### -param *ikeTraffic [in]
 
-Type: [IKEEXT_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0)a>*</b>
+Type: [IKEEXT_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0)*</b>
 
 Specifies the traffic for which keys should be set or retrieved.
 
@@ -94,7 +95,7 @@ If the TIA wants to dictate the keys, and its weight is higher than that of any 
 
 
 
-[IKEEXT_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0)a>
+[IKEEXT_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0)
 
 
 

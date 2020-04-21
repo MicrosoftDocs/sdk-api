@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange.ScrollIntoView
 title: ITextRange::ScrollIntoView (tom.h)
-description: Scrolls the specified range into view.helpviewer_keywords: ["ITextRange interface [Windows Controls]","ScrollIntoView method","ITextRange.ScrollIntoView","ITextRange::ScrollIntoView","ScrollIntoView","ScrollIntoView method [Windows Controls]","ScrollIntoView method [Windows Controls]","ITextRange interface","_win32_ITextRange_ScrollIntoView","_win32_ITextRange_ScrollIntoView_cpp","controls.ITextRange_ScrollIntoView","controls._win32_ITextRange_ScrollIntoView","tom/ITextRange::ScrollIntoView","tomEnd","tomNoUpScroll","tomNoVpScroll","tomStart"]
+description: Scrolls the specified range into view.
+helpviewer_keywords: ["ITextRange interface [Windows Controls]","ScrollIntoView method","ITextRange.ScrollIntoView","ITextRange::ScrollIntoView","ScrollIntoView","ScrollIntoView method [Windows Controls]","ScrollIntoView method [Windows Controls]","ITextRange interface","_win32_ITextRange_ScrollIntoView","_win32_ITextRange_ScrollIntoView_cpp","controls.ITextRange_ScrollIntoView","controls._win32_ITextRange_ScrollIntoView","tom/ITextRange::ScrollIntoView","tomEnd","tomNoUpScroll","tomNoVpScroll","tomStart"]
 old-location: controls\ITextRange_ScrollIntoView.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\scrollintoview.htm
@@ -70,7 +71,7 @@ Flag specifying the end to scroll into view. It can be one of the following.
 </tr>
 <tr>
 <td width="40%"><a id="tomEnd"></a><a id="tomend"></a><a id="TOMEND"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomEnd</a></b></dt>
+<dt><b><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomEnd</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -80,7 +81,7 @@ Scrolls the end character position to appear on the bottom line.
 </tr>
 <tr>
 <td width="40%"><a id="tomStart"></a><a id="tomstart"></a><a id="TOMSTART"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStart</a></b></dt>
+<dt><b><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomStart</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -90,14 +91,14 @@ Scrolls the start character position to appear on the top line. (Default value).
 </tr>
 <tr>
 <td width="40%"><a id="tomNoUpScroll"></a><a id="tomnoupscroll"></a><a id="TOMNOUPSCROLL"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomNoUpScroll</a></b></dt>
+<dt><b><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomNoUpScroll</a></b></dt>
 </dl>
 </td>
 <td width="60%"></td>
 </tr>
 <tr>
 <td width="40%"><a id="tomNoVpScroll"></a><a id="tomnovpscroll"></a><a id="TOMNOVPSCROLL"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomNoVpScroll</a></b></dt>
+<dt><b><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomNoVpScroll</a></b></dt>
 </dl>
 </td>
 <td width="60%"></td>

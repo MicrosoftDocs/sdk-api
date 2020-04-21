@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetFlags
 title: IXpsSigningOptions::GetFlags (xpsdigitalsignature.h)
-description: Gets the XPS_SIGN_FLAGS value that specifies the signing flags to be used for this signature.helpviewer_keywords: ["GetFlags","GetFlags method [XPS Documents and Packaging]","GetFlags method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetFlags method","IXpsSigningOptions.GetFlags","IXpsSigningOptions::GetFlags","xps.ixpssigningoptions_getflags","xpsdigitalsignature/IXpsSigningOptions::GetFlags"]
+description: Gets the XPS_SIGN_FLAGS value that specifies the signing flags to be used for this signature.
+helpviewer_keywords: ["GetFlags","GetFlags method [XPS Documents and Packaging]","GetFlags method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetFlags method","IXpsSigningOptions.GetFlags","IXpsSigningOptions::GetFlags","xps.ixpssigningoptions_getflags","xpsdigitalsignature/IXpsSigningOptions::GetFlags"]
 old-location: xps\ixpssigningoptions_getflags.htm
 tech.root: printdocs
 ms.assetid: 02d07300-e8f2-44fa-a562-5cec03af9a8c
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
+Gets the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignatu
 
 ### -param flags [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
+The <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
 
 
 ## -returns
@@ -88,7 +89,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a>
+<a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a>
  
 
  

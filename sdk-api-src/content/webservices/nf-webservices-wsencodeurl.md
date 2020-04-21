@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsEncodeUrl
 title: WsEncodeUrl function (webservices.h)
-description: Encodes the specified WS_URL into a URL string given its component parts. Values are escaped as necessary, combined, and stored in the specified WS_HEAP, and the result is returned as a WS_STRING.helpviewer_keywords: ["WsEncodeUrl","WsEncodeUrl function [Web Services for Windows]","webservices/WsEncodeUrl","wsw.wsencodeurl"]
+description: Encodes the specified WS_URL into a URL string given its component parts. Values are escaped as necessary, combined, and stored in the specified WS_HEAP, and the result is returned as a WS_STRING.
+helpviewer_keywords: ["WsEncodeUrl","WsEncodeUrl function [Web Services for Windows]","webservices/WsEncodeUrl","wsw.wsencodeurl"]
 old-location: wsw\wsencodeurl.htm
 tech.root: wsw
 ms.assetid: 8253b062-072b-4d37-8b82-407df1bea6b4
@@ -66,7 +67,7 @@ A reference to the  <a href="https://docs.microsoft.com/windows/desktop/api/webs
 
 ### -param flags [in]
 
-The value of this parameter determines the URL scheme evaluation method.  See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_writer_encoding_type">WS_URL_FLAGS</a>.
+The value of this parameter determines the URL scheme evaluation method.  See <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_writer_encoding_type">WS_URL_FLAGS</a>.
                 
 
 

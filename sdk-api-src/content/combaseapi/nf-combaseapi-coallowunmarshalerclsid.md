@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoAllowUnmarshalerCLSID
 title: CoAllowUnmarshalerCLSID function (combaseapi.h)
-description: Adds an unmarshaler CLSID to the allowed list for the calling process only.helpviewer_keywords: ["CoAllowUnmarshalerCLSID","CoAllowUnmarshalerCLSID function [COM]","com.coallowunmarshalerclsid","combaseapi/CoAllowUnmarshalerCLSID"]
+description: Adds an unmarshaler CLSID to the allowed list for the calling process only.
+helpviewer_keywords: ["CoAllowUnmarshalerCLSID","CoAllowUnmarshalerCLSID function [COM]","com.coallowunmarshalerclsid","combaseapi/CoAllowUnmarshalerCLSID"]
 old-location: com\coallowunmarshalerclsid.htm
 tech.root: com
 ms.assetid: 4655C6B6-02CE-42B2-A157-0C0325D1BE52
@@ -92,7 +93,7 @@ For example, it's appropriate to call the <b>CoAllowUnmarshalerCLSID</b> functio
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
+<a href="/windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
 
 
 

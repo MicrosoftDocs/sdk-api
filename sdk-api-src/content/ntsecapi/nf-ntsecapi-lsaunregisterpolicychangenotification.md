@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaUnregisterPolicyChangeNotification
 title: LsaUnregisterPolicyChangeNotification function (ntsecapi.h)
-description: The LsaUnregisterPolicyChangeNotification function disables a previously registered notification event.helpviewer_keywords: ["LsaUnregisterPolicyChangeNotification","LsaUnregisterPolicyChangeNotification function [Security]","PolicyNotifyAccountDomainInformation","PolicyNotifyAuditEventsInformation","PolicyNotifyDnsDomainInformation","PolicyNotifyDomainEfsInformation","PolicyNotifyDomainKerberosTicketInformation","PolicyNotifyServerRoleInformation","_lsa_lsaunregisterpolicychangenotification","ntsecapi/LsaUnregisterPolicyChangeNotification","security.lsaunregisterpolicychangenotification"]
+description: The LsaUnregisterPolicyChangeNotification function disables a previously registered notification event.
+helpviewer_keywords: ["LsaUnregisterPolicyChangeNotification","LsaUnregisterPolicyChangeNotification function [Security]","PolicyNotifyAccountDomainInformation","PolicyNotifyAuditEventsInformation","PolicyNotifyDnsDomainInformation","PolicyNotifyDomainEfsInformation","PolicyNotifyDomainKerberosTicketInformation","PolicyNotifyServerRoleInformation","_lsa_lsaunregisterpolicychangenotification","ntsecapi/LsaUnregisterPolicyChangeNotification","security.lsaunregisterpolicychangenotification"]
 old-location: security\lsaunregisterpolicychangenotification.htm
 tech.root: SecMgmt
 ms.assetid: c1000904-20a6-40db-9b59-2cbb79e00a67
@@ -60,7 +61,7 @@ The <b>LsaUnregisterPolicyChangeNotification</b> function disables a previously 
 ### -param InformationClass [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ne-ntsecapi-policy_notification_information_class">POLICY_NOTIFICATION_INFORMATION_CLASS</a> value that specifies the policy changes that your application will stop receiving notifications for. Specify one of the following values. 
+<a href="/windows/win32/api/ntsecapi/ne-ntsecapi-policy_notification_information_class">POLICY_NOTIFICATION_INFORMATION_CLASS</a> value that specifies the policy changes that your application will stop receiving notifications for. Specify one of the following values. 
 
 
 

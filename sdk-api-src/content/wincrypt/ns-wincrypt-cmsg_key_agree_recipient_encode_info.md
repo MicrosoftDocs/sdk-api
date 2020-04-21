@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO
 title: CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO (wincrypt.h)
-description: Contains information about a message recipient that is using key agreement key management.helpviewer_keywords: ["*PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO","CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE","CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO","CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure [Security]","CMSG_KEY_AGREE_STATIC_KEY_CHOICE","PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO","PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure pointer [Security]","_crypto2_cmsg_key_agree_recipient_encode_info","security.cmsg_key_agree_recipient_encode_info","wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO","wincrypt/PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO"]
+description: Contains information about a message recipient that is using key agreement key management.
+helpviewer_keywords: ["*PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO","CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE","CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO","CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure [Security]","CMSG_KEY_AGREE_STATIC_KEY_CHOICE","PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO","PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure pointer [Security]","_crypto2_cmsg_key_agree_recipient_encode_info","security.cmsg_key_agree_recipient_encode_info","wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO","wincrypt/PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO"]
 old-location: security\cmsg_key_agree_recipient_encode_info.htm
 tech.root: SecCrypto
 ms.assetid: f8691df7-3cc1-48cb-8787-84c7046b280f
@@ -159,7 +160,7 @@ The number of elements in the <b>rgpRecipientEncryptedKeys</b> array.
 
 ### -field rgpRecipientEncryptedKeys
 
-An array of  <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_recipient_encrypted_key_encode_info">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a> structures, one for each recipient to receive this key agreement key. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this structure.
+An array of  <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_recipient_encrypted_key_encode_info">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a> structures, one for each recipient to receive this key agreement key. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this structure.
 
 
 ## -see-also
@@ -179,7 +180,7 @@ An array of  <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-w
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_recipient_encrypted_key_encode_info">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a>
+<a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_recipient_encrypted_key_encode_info">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a>
 
 
 

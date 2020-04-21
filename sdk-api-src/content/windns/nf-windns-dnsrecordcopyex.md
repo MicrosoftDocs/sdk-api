@@ -1,7 +1,8 @@
 ---
 UID: NF:windns.DnsRecordCopyEx
 title: DnsRecordCopyEx function (windns.h)
-description: The DnsRecordCopyEx function creates a copy of a specified resource record (RR). The DnsRecordCopyEx function is also capable of converting the character encoding during the copy operation.helpviewer_keywords: ["DnsRecordCopyEx","DnsRecordCopyEx function [DNS]","_dns_dnsrecordcopyex","dns.dnsrecordcopyex","windns/DnsRecordCopyEx"]
+description: The DnsRecordCopyEx function creates a copy of a specified resource record (RR). The DnsRecordCopyEx function is also capable of converting the character encoding during the copy operation.
+helpviewer_keywords: ["DnsRecordCopyEx","DnsRecordCopyEx function [DNS]","_dns_dnsrecordcopyex","dns.dnsrecordcopyex","windns/DnsRecordCopyEx"]
 old-location: dns\dnsrecordcopyex.htm
 tech.root: DNS
 ms.assetid: b5a74799-75fc-4489-9efa-c15b2def2ae7
@@ -61,7 +62,7 @@ The
 
 ### -param pRecord [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the RR to be copied.
+A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the RR to be copied.
 
 
 ### -param CharSetIn [in]
@@ -97,7 +98,7 @@ The <i>CharSetIn</i> parameter is used only if the character encoding of the sou
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 

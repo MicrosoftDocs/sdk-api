@@ -1,7 +1,8 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetClientCertificateByName
 title: IBackgroundCopyJobHttpOptions::SetClientCertificateByName (bits2_5.h)
-description: Specifies the subject name of the client certificate to use for client authentication in an HTTPS (SSL) request.helpviewer_keywords: ["CA","IBackgroundCopyJobHttpOptions interface [BITS]","SetClientCertificateByName method","IBackgroundCopyJobHttpOptions.SetClientCertificateByName","IBackgroundCopyJobHttpOptions::SetClientCertificateByName","MY","ROOT","SPC","SetClientCertificateByName","SetClientCertificateByName method [BITS]","SetClientCertificateByName method [BITS]","IBackgroundCopyJobHttpOptions interface","bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyname","bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByName"]
+description: Specifies the subject name of the client certificate to use for client authentication in an HTTPS (SSL) request.
+helpviewer_keywords: ["CA","IBackgroundCopyJobHttpOptions interface [BITS]","SetClientCertificateByName method","IBackgroundCopyJobHttpOptions.SetClientCertificateByName","IBackgroundCopyJobHttpOptions::SetClientCertificateByName","MY","ROOT","SPC","SetClientCertificateByName","SetClientCertificateByName method [BITS]","SetClientCertificateByName method [BITS]","IBackgroundCopyJobHttpOptions interface","bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyname","bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByName"]
 old-location: bits\ibackgroundcopyjobhttpoptions_setclientcertificatebyname.htm
 tech.root: Bits
 ms.assetid: 8262b360-ab05-42a3-b5e7-178dc9f23fc6
@@ -60,7 +61,7 @@ Specifies the subject name of the client certificate to use for client authentic
 
 ### -param StoreLocation [in]
 
-Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
+Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
 
 
 ### -param StoreName [in]
@@ -163,7 +164,7 @@ The user does not have permission to access the store location.
 </dl>
 </td>
 <td width="60%">
-The value for <i>StoreLocation</i> is not defined in the <a href="https://docs.microsoft.com/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
+The value for <i>StoreLocation</i> is not defined in the <a href="/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
 
 </td>
 </tr>

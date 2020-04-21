@@ -1,7 +1,8 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD_EX
 title: MINIDUMP_THREAD_EX (minidumpapiset.h)
-description: Contains extended information for a specific thread.helpviewer_keywords: ["*PMINIDUMP_THREAD_EX","MINIDUMP_THREAD_EX","MINIDUMP_THREAD_EX structure","PMINIDUMP_THREAD_EX","PMINIDUMP_THREAD_EX structure pointer","_MINIDUMP_THREAD_EX","_win32_minidump_thread_ex_str","base.minidump_thread_ex_str","minidumpapiset/MINIDUMP_THREAD_EX","minidumpapiset/PMINIDUMP_THREAD_EX"]
+description: Contains extended information for a specific thread.
+helpviewer_keywords: ["*PMINIDUMP_THREAD_EX","MINIDUMP_THREAD_EX","MINIDUMP_THREAD_EX structure","PMINIDUMP_THREAD_EX","PMINIDUMP_THREAD_EX structure pointer","_MINIDUMP_THREAD_EX","_win32_minidump_thread_ex_str","base.minidump_thread_ex_str","minidumpapiset/MINIDUMP_THREAD_EX","minidumpapiset/PMINIDUMP_THREAD_EX"]
 old-location: base\minidump_thread_ex_str.htm
 tech.root: Debug
 ms.assetid: aa99bdf3-29b7-4865-8935-810388f3d2b3
@@ -86,13 +87,13 @@ The thread environment block.
 ### -field Stack
 
 A 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a> structure.
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a> structure.
 
 
 ### -field ThreadContext
 
 A 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
 
 
 ### -field BackingStore
@@ -105,11 +106,11 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a>
  
 
  

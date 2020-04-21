@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmCalloutCreateEnumHandle0
 title: FwpmCalloutCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of callout objects.helpviewer_keywords: ["FwpmCalloutCreateEnumHandle0","FwpmCalloutCreateEnumHandle0 function [Filtering]","fwp.fwpmcalloutcreateenumhandle0_func","fwpmu/FwpmCalloutCreateEnumHandle0"]
+description: Creates a handle used to enumerate a set of callout objects.
+helpviewer_keywords: ["FwpmCalloutCreateEnumHandle0","FwpmCalloutCreateEnumHandle0 function [Filtering]","fwp.fwpmcalloutcreateenumhandle0_func","fwpmu/FwpmCalloutCreateEnumHandle0"]
 old-location: fwp\fwpmcalloutcreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: bd37eebb-8a07-4b67-9595-34cc96463254
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: [FWPM_CALLOUT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_enum_template0)a>*</b>
+Type: [FWPM_CALLOUT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_enum_template0)*</b>
 
 Template to selectively restrict the enumeration.
 
@@ -153,7 +154,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_CALLOUT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_enum_template0)a>
+[FWPM_CALLOUT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_enum_template0)
  
 
  

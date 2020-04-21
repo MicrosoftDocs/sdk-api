@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationManagerEventHandler
 title: IUIAnimationManagerEventHandler (uianimation.h)
-description: Defines a method for handling status updates to an animation manager.helpviewer_keywords: ["IUIAnimationManagerEventHandler","IUIAnimationManagerEventHandler interface [Windows Animation]","IUIAnimationManagerEventHandler interface [Windows Animation]","described","uianimation.iuianimationmanagereventhandler","uianimation/IUIAnimationManagerEventHandler"]
+description: Defines a method for handling status updates to an animation manager.
+helpviewer_keywords: ["IUIAnimationManagerEventHandler","IUIAnimationManagerEventHandler interface [Windows Animation]","IUIAnimationManagerEventHandler interface [Windows Animation]","described","uianimation.iuianimationmanagereventhandler","uianimation/IUIAnimationManagerEventHandler"]
 old-location: uianimation\iuianimationmanagereventhandler.htm
 tech.root: UIAnimation
 ms.assetid: caefafb8-55f8-47c3-adc7-26708b90d2cd
@@ -92,7 +93,7 @@ Handles status changes to the animation manager.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
  
 
  

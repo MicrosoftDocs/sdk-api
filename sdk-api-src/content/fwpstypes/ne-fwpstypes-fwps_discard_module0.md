@@ -1,7 +1,8 @@
 ---
 UID: NE:fwpstypes.FWPS_DISCARD_MODULE0_
 title: FWPS_DISCARD_MODULE0 (fwpstypes.h)
-description: The FWPS_DISCARD_MODULE0 enumeration type specifies the type of module that discarded the data.Note  FWPS_DISCARD_MODULE0 is a specific version of FWPS_DISCARD_MODULE.helpviewer_keywords: ["FWPS_DISCARD_MODULE0","FWPS_DISCARD_MODULE0 enumeration [Network Drivers Starting with Windows Vista]","FWPS_DISCARD_MODULE_GENERAL","FWPS_DISCARD_MODULE_MAX","FWPS_DISCARD_MODULE_NETWORK","FWPS_DISCARD_MODULE_TRANSPORT","fwpstypes/FWPS_DISCARD_MODULE0","fwpstypes/FWPS_DISCARD_MODULE_GENERAL","fwpstypes/FWPS_DISCARD_MODULE_MAX","fwpstypes/FWPS_DISCARD_MODULE_NETWORK","fwpstypes/FWPS_DISCARD_MODULE_TRANSPORT","netvista.fwps_discard_module0","wfp_ref_4_enum_9cf37d53-bbf0-45ec-adc8-e690b4fd8aea.xml"]
+description: The FWPS_DISCARD_MODULE0 enumeration type specifies the type of module that discarded the data.Note  FWPS_DISCARD_MODULE0 is a specific version of FWPS_DISCARD_MODULE.
+helpviewer_keywords: ["FWPS_DISCARD_MODULE0","FWPS_DISCARD_MODULE0 enumeration [Network Drivers Starting with Windows Vista]","FWPS_DISCARD_MODULE_GENERAL","FWPS_DISCARD_MODULE_MAX","FWPS_DISCARD_MODULE_NETWORK","FWPS_DISCARD_MODULE_TRANSPORT","fwpstypes/FWPS_DISCARD_MODULE0","fwpstypes/FWPS_DISCARD_MODULE_GENERAL","fwpstypes/FWPS_DISCARD_MODULE_MAX","fwpstypes/FWPS_DISCARD_MODULE_NETWORK","fwpstypes/FWPS_DISCARD_MODULE_TRANSPORT","netvista.fwps_discard_module0","wfp_ref_4_enum_9cf37d53-bbf0-45ec-adc8-e690b4fd8aea.xml"]
 old-location: netvista\fwps_discard_module0.htm
 tech.root: NetVista
 ms.assetid: d9237268-a5e1-4b1c-91f7-9e894876ca87
@@ -84,7 +85,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The 
-    [FWPS_DISCARD_METADATA0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0)a> structure
+    [FWPS_DISCARD_METADATA0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0) structure
     contains a member of type FWPS_DISCARD_MODULE0 that specifies the type of module that discarded the
     data.
 
@@ -96,7 +97,7 @@ The
 
 
 
-[FWPS_DISCARD_METADATA0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0)a>
+[FWPS_DISCARD_METADATA0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0)
  
 
  

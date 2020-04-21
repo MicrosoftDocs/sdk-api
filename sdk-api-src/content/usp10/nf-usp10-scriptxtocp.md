@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptXtoCP
 title: ScriptXtoCP function (usp10.h)
-description: Generates the leading or trailing edge of a logical character cluster from the x offset of a run.helpviewer_keywords: ["ScriptXtoCP","ScriptXtoCP function [Internationalization for Windows Applications]","_win32_ScriptXtoCP","intl.scriptxtocp","usp10/ScriptXtoCP"]
+description: Generates the leading or trailing edge of a logical character cluster from the x offset of a run.
+helpviewer_keywords: ["ScriptXtoCP","ScriptXtoCP function [Internationalization for Windows Applications]","_win32_ScriptXtoCP","intl.scriptxtocp","usp10/ScriptXtoCP"]
 old-location: intl\scriptxtocp.htm
 tech.root: Intl
 ms.assetid: 98548d60-4cbd-4808-8027-1d8058c41d6d
@@ -62,7 +63,7 @@ Generates the leading or trailing edge of a logical character cluster from the x
 
 ### -param iX [in]
 
-Offset, in logical units, from the end of the run specified by the <b>fLogicalOrder</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure indicated by the <i>psa</i> parameter.
+Offset, in logical units, from the end of the run specified by the <b>fLogicalOrder</b> member of the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure indicated by the <i>psa</i> parameter.
 
 
 ### -param cChars [in]
@@ -82,7 +83,7 @@ Pointer to an array of logical clusters.
 
 ### -param psva [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a> structures containing the visual attributes for the glyph.
+Pointer to an array of <a href="/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a> structures containing the visual attributes for the glyph.
 
 
 ### -param piAdvance [in]
@@ -92,7 +93,7 @@ Pointer to an array of advance widths.
 
 ### -param psa [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure. The <b>fLogicalOrder</b> member indicates <b>TRUE</b> to use the leading edge of the run, or <b>FALSE</b> to use the trailing edge.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure. The <b>fLogicalOrder</b> member indicates <b>TRUE</b> to use the leading edge of the run, or <b>FALSE</b> to use the trailing edge.
 
 
 ### -param piCP [out]
@@ -156,11 +157,11 @@ When <i>iX</i> indicates a position outside the run, <b>ScriptXtoCP</b> acts as 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>
 
 
 

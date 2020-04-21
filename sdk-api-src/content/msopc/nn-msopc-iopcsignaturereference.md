@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcSignatureReference
 title: IOpcSignatureReference (msopc.h)
-description: Represents a reference to XML markup that has been or will be signed.helpviewer_keywords: ["IOpcSignatureReference","IOpcSignatureReference interface [Open Packaging Conventions]","IOpcSignatureReference interface [Open Packaging Conventions]","described","msopc/IOpcSignatureReference","opc.iopcsignaturereference"]
+description: Represents a reference to XML markup that has been or will be signed.
+helpviewer_keywords: ["IOpcSignatureReference","IOpcSignatureReference interface [Open Packaging Conventions]","IOpcSignatureReference interface [Open Packaging Conventions]","described","msopc/IOpcSignatureReference","opc.iopcsignaturereference"]
 old-location: opc\iopcsignaturereference.htm
 tech.root: OPC
 ms.assetid: 2ce40bc7-754a-4f69-9348-75603e2257a4
@@ -238,7 +239,7 @@ The following signature markup shows a serialized reference to a signed, child e
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_ENUM_TEMPLATE0_
 title: IPSEC_SA_ENUM_TEMPLATE0 (ipsectypes.h)
-description: Specifies a template used for restricting the enumeration of IPsec security associations (SAs).helpviewer_keywords: ["IPSEC_SA_ENUM_TEMPLATE0","IPSEC_SA_ENUM_TEMPLATE0 structure [Filtering]","fwp.ipsec_sa_enum_template0_struct","ipsectypes/IPSEC_SA_ENUM_TEMPLATE0"]
+description: Specifies a template used for restricting the enumeration of IPsec security associations (SAs).
+helpviewer_keywords: ["IPSEC_SA_ENUM_TEMPLATE0","IPSEC_SA_ENUM_TEMPLATE0 structure [Filtering]","fwp.ipsec_sa_enum_template0_struct","ipsectypes/IPSEC_SA_ENUM_TEMPLATE0"]
 old-location: fwp\ipsec_sa_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 6a00af2b-0b39-4d9f-9335-4817df693b52
@@ -61,7 +62,7 @@ The <b>IPSEC_SA_ENUM_TEMPLATE0</b> structure specifies a  template used for rest
 
 Direction of the SA.
 
-See [FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)a> for more information.
+See [FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction) for more information.
 
 
 ## -remarks
@@ -78,7 +79,7 @@ See [FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-f
 
 
 
-[FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)a>
+[FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)
 
 
 

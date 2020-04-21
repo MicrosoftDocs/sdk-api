@@ -1,7 +1,8 @@
 ---
 UID: NC:mssip.pCryptSIPGetCaps
 title: pCryptSIPGetCaps (mssip.h)
-description: Is implemented by an subject interface package (SIP) to report capabilities.helpviewer_keywords: ["mssip/pCryptSIPGetCaps","pCryptSIPGetCaps","pCryptSIPGetCaps callback","pCryptSIPGetCaps callback function [Security]","security.pfncryptsipgetcaps"]
+description: Is implemented by an subject interface package (SIP) to report capabilities.
+helpviewer_keywords: ["mssip/pCryptSIPGetCaps","pCryptSIPGetCaps","pCryptSIPGetCaps callback","pCryptSIPGetCaps callback function [Security]","security.pfncryptsipgetcaps"]
 old-location: security\pfncryptsipgetcaps.htm
 tech.root: SecCrypto
 ms.assetid: 8EA46B67-F542-4B15-81F4-3DD83DD45764
@@ -59,7 +60,7 @@ The <b>pCryptSIPGetCaps</b> function is implemented by an <a href="https://docs.
 
 ### -param *pSubjInfo [in]
 
-Pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that specifies subject information data to the SIP APIs.
+Pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that specifies subject information data to the SIP APIs.
 
 
 ### -param *pCaps [in, out]
@@ -80,7 +81,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-ms
 
 
 
-[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a>
+[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)
  
 
  

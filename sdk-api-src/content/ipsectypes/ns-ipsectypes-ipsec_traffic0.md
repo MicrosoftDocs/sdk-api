@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRAFFIC0_
 title: IPSEC_TRAFFIC0 (ipsectypes.h)
-description: Specifies parameters to describe IPsec traffic.helpviewer_keywords: ["IPSEC_TRAFFIC0","IPSEC_TRAFFIC0 structure [Filtering]","fwp.ipsec_traffic0_struct","ipsectypes/IPSEC_TRAFFIC0"]
+description: Specifies parameters to describe IPsec traffic.
+helpviewer_keywords: ["IPSEC_TRAFFIC0","IPSEC_TRAFFIC0 structure [Filtering]","fwp.ipsec_traffic0_struct","ipsectypes/IPSEC_TRAFFIC0"]
 old-location: fwp\ipsec_traffic0_struct.htm
 tech.root: fwp
 ms.assetid: 5be2da29-73d6-4381-8bde-3a3945ea7b5a
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TRAFFIC0</b> structure specifies parameters to describe IPsec traffic.
-[IPSEC_TRAFFIC1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic1)a> is available.</div><div> </div>
+[IPSEC_TRAFFIC1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,7 +62,7 @@ The <b>IPSEC_TRAFFIC0</b> structure specifies parameters to describe IPsec traff
 
 Internet Protocol (IP) version. 
 
-See [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a> for more information.
+See [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version) for more information.
 
 
 ### -field localV4Address
@@ -96,7 +97,7 @@ Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 Type of IPsec traffic.
 
-See [IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)a> for more information.
+See [IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type) for more information.
 
 
 ### -field ipsecFilterId
@@ -138,11 +139,11 @@ For IPsec tunnel mode, the <b>localV*Address</b> and  <b>remoteV*Address</b> mem
 
 
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>
+[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
 
 
-[IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)a>
+[IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:clfsw32.ScanLogContainers
 title: ScanLogContainers function (clfsw32.h)
-description: Enumerates log containers. Call this function repeatedly to iterate over all log containers.helpviewer_keywords: ["CLFS_SCAN_BACKWARD","CLFS_SCAN_CLOSE","CLFS_SCAN_FORWARD","CLFS_SCAN_INIT","ScanLogContainers","ScanLogContainers function [Files]","clfsw32/ScanLogContainers","fs.scanlogcontainers"]
+description: Enumerates log containers. Call this function repeatedly to iterate over all log containers.
+helpviewer_keywords: ["CLFS_SCAN_BACKWARD","CLFS_SCAN_CLOSE","CLFS_SCAN_FORWARD","CLFS_SCAN_INIT","ScanLogContainers","ScanLogContainers function [Files]","clfsw32/ScanLogContainers","fs.scanlogcontainers"]
 old-location: fs\scanlogcontainers.htm
 tech.root: Clfs
 ms.assetid: a3a374ab-e5e9-47c0-9a62-d880823035b5
@@ -59,7 +60,7 @@ Enumerates log containers. Call this function repeatedly to iterate over all log
 
 ### -param pcxScan [in, out]
 
-A pointer to a client-allocated <a href="https://docs.microsoft.com/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a> structure  that  the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogcontainerscancontext">CreateLogContainerScanContext</a> function initializes. 
+A pointer to a client-allocated <a href="/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a> structure  that  the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogcontainerscancontext">CreateLogContainerScanContext</a> function initializes. 
 
 
 ### -param eScanMode [in]
@@ -165,7 +166,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a>
+<a href="/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a>
 
 
 

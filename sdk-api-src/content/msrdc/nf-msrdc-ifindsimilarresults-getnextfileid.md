@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.IFindSimilarResults.GetNextFileId
 title: IFindSimilarResults::GetNextFileId (msrdc.h)
-description: Retrieves the next valid similarity file ID in the file list that was returned by the ISimilarity::FindSimilarFileId method.helpviewer_keywords: ["GetNextFileId","GetNextFileId method [Remote Differential Compression]","GetNextFileId method [Remote Differential Compression]","IFindSimilarResults interface","IFindSimilarResults interface [Remote Differential Compression]","GetNextFileId method","IFindSimilarResults.GetNextFileId","IFindSimilarResults::GetNextFileId","fs.ifindsimilarresults_getnextfileid","msrdc/IFindSimilarResults::GetNextFileId","rdc.ifindsimilarresults_getnextfileid"]
+description: Retrieves the next valid similarity file ID in the file list that was returned by the ISimilarity::FindSimilarFileId method.
+helpviewer_keywords: ["GetNextFileId","GetNextFileId method [Remote Differential Compression]","GetNextFileId method [Remote Differential Compression]","IFindSimilarResults interface","IFindSimilarResults interface [Remote Differential Compression]","GetNextFileId method","IFindSimilarResults.GetNextFileId","IFindSimilarResults::GetNextFileId","fs.ifindsimilarresults_getnextfileid","msrdc/IFindSimilarResults::GetNextFileId","rdc.ifindsimilarresults_getnextfileid"]
 old-location: rdc\ifindsimilarresults_getnextfileid.htm
 tech.root: rdc
 ms.assetid: 881e0ae6-311f-4bc4-9660-b0e96b7b9bd2
@@ -64,7 +65,7 @@ A pointer to a variable that receives the number of traits that were matched.
 
 ### -param similarityFileId [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similarityfileid">SimilarityFileId</a> structure that contains the similarity file ID of the matching file.
+A pointer to a <a href="/windows/win32/api/msrdc/ns-msrdc-similarityfileid">SimilarityFileId</a> structure that contains the similarity file ID of the matching file.
 
 
 ## -returns

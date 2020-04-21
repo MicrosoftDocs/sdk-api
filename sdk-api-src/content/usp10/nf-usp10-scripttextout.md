@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptTextOut
 title: ScriptTextOut function (usp10.h)
-description: Displays text for the specified script shape and place information.helpviewer_keywords: ["ScriptTextOut","ScriptTextOut function [Internationalization for Windows Applications]","_win32_ScriptTextOut","intl.scripttextout","usp10/ScriptTextOut"]
+description: Displays text for the specified script shape and place information.
+helpviewer_keywords: ["ScriptTextOut","ScriptTextOut function [Internationalization for Windows Applications]","_win32_ScriptTextOut","intl.scripttextout","usp10/ScriptTextOut"]
 old-location: intl\scripttextout.htm
 tech.root: Intl
 ms.assetid: 8d69caeb-4c02-4a9f-9dd5-ac3c13561a57
@@ -92,7 +93,7 @@ Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> struc
 
 ### -param psa [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>.
 
 
 ### -param pwcReserved [in]
@@ -145,9 +146,9 @@ Returns 0 if successful. The function returns a nonzero HRESULT value if it does
 
 This function calls the operating system <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> function for text display. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>.
 
-All arrays are in display order unless the <b>fLogicalOrder</b> member is set in the <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure indicated by <i>psa</i>.
+All arrays are in display order unless the <b>fLogicalOrder</b> member is set in the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure indicated by <i>psa</i>.
 
-For any run that is rendered right-to-left and was generated in logical order by forcing the <b>fLogicalOrder</b> member of <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>, the application must call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> (hdc, TA_RIGHT) and give the right-side coordinate before calling <b>ScriptTextOut</b>.
+For any run that is rendered right-to-left and was generated in logical order by forcing the <b>fLogicalOrder</b> member of <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>, the application must call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> (hdc, TA_RIGHT) and give the right-side coordinate before calling <b>ScriptTextOut</b>.
 
 The array indicated by <i>piJustify</i> provides cell widths for each glyph. When the width of a glyph differs from the unjustified width, specified by <i>piAdvance</i>, space is added to or removed from the glyph cell at its trailing edge. The glyph is always aligned with the leading edge of its cell. This rule applies even in visual order.
 
@@ -175,7 +176,7 @@ The application should not use <b>ScriptTextOut</b> to write to a metafile unles
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 

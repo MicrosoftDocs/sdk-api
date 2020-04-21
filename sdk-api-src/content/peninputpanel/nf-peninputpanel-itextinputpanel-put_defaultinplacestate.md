@@ -1,7 +1,8 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_DefaultInPlaceState
 title: ITextInputPanel::put_DefaultInPlaceState (peninputpanel.h)
-description: Gets or sets the default in-place state as specified by the InPlaceState Enumeration.helpviewer_keywords: ["00778a2c-9903-46a0-a5b3-c2ac4c355462","DefaultInPlaceState property [Tablet PC]","DefaultInPlaceState property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","DefaultInPlaceState property","ITextInputPanel.DefaultInPlaceState","ITextInputPanel.get_DefaultInPlaceState","ITextInputPanel.put_DefaultInPlaceState","ITextInputPanel::DefaultInPlaceState","ITextInputPanel::get_DefaultInPlaceState","ITextInputPanel::put_DefaultInPlaceState","peninputpanel/ITextInputPanel::DefaultInPlaceState","peninputpanel/ITextInputPanel::get_DefaultInPlaceState","peninputpanel/ITextInputPanel::put_DefaultInPlaceState","put_DefaultInPlaceState","tablet.itextinputpanel_defaultinplacestate"]
+description: Gets or sets the default in-place state as specified by the InPlaceState Enumeration.
+helpviewer_keywords: ["00778a2c-9903-46a0-a5b3-c2ac4c355462","DefaultInPlaceState property [Tablet PC]","DefaultInPlaceState property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","DefaultInPlaceState property","ITextInputPanel.DefaultInPlaceState","ITextInputPanel.get_DefaultInPlaceState","ITextInputPanel.put_DefaultInPlaceState","ITextInputPanel::DefaultInPlaceState","ITextInputPanel::get_DefaultInPlaceState","ITextInputPanel::put_DefaultInPlaceState","peninputpanel/ITextInputPanel::DefaultInPlaceState","peninputpanel/ITextInputPanel::get_DefaultInPlaceState","peninputpanel/ITextInputPanel::put_DefaultInPlaceState","put_DefaultInPlaceState","tablet.itextinputpanel_defaultinplacestate"]
 old-location: tablet\itextinputpanel_defaultinplacestate.htm
 tech.root: tablet
 ms.assetid: 00778a2c-9903-46a0-a5b3-c2ac4c355462
@@ -58,7 +59,7 @@ ms.custom: 19H1
 ]
 
 
-Gets or sets the default in-place state as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
+Gets or sets the default in-place state as specified by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
 
 
 
@@ -72,7 +73,7 @@ This property is read/write.
 
 
 
-Set this property to <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState_Expanded</a> to have the Input Panel open without requiring the user to tap the hover target. Setting the default state to <b>InPlaceState_HoverTarget</b> overrides the Input Panel's heuristics for remaining expanded. When switching between fields, setting the default forces Input Panel to the collapsed or hover state, after a focus change. The system default is <b>InPlaceState_Auto</b>.
+Set this property to <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState_Expanded</a> to have the Input Panel open without requiring the user to tap the hover target. Setting the default state to <b>InPlaceState_HoverTarget</b> overrides the Input Panel's heuristics for remaining expanded. When switching between fields, setting the default forces Input Panel to the collapsed or hover state, after a focus change. The system default is <b>InPlaceState_Auto</b>.
 
 
 #### Examples

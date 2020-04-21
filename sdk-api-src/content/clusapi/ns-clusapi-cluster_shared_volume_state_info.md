@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi._CLUSTER_SHARED_VOLUME_STATE_INFO
 title: CLUSTER_SHARED_VOLUME_STATE_INFO (clusapi.h)
-description: Represents information about the state of a Cluster Shared Volume (CSV).helpviewer_keywords: ["*PCLUSTER_SHARED_VOLUME_STATE_INFO","CLUSTER_SHARED_VOLUME_STATE_INFO","CLUSTER_SHARED_VOLUME_STATE_INFO structure [Failover Cluster]","PCLUSTER_SHARED_VOLUME_STATE_INFO","PCLUSTER_SHARED_VOLUME_STATE_INFO structure pointer [Failover Cluster]","clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO","clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO","mscs.cluster_shared_volume_state_info"]
+description: Represents information about the state of a Cluster Shared Volume (CSV).
+helpviewer_keywords: ["*PCLUSTER_SHARED_VOLUME_STATE_INFO","CLUSTER_SHARED_VOLUME_STATE_INFO","CLUSTER_SHARED_VOLUME_STATE_INFO structure [Failover Cluster]","PCLUSTER_SHARED_VOLUME_STATE_INFO","PCLUSTER_SHARED_VOLUME_STATE_INFO structure pointer [Failover Cluster]","clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO","clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO","mscs.cluster_shared_volume_state_info"]
 old-location: mscs\cluster_shared_volume_state_info.htm
 tech.root: MsCS
 ms.assetid: 0E0DEF0B-C755-4B34-90D8-56BFEFEF2525
@@ -77,7 +78,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-clu
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/clusapi/ns-clusapi-cluster_shared_volume_state_info_ex">CLUSTER_SHARED_VOLUME_STATE_INFO_EX</a>
+<a href="/windows/win32/api/clusapi/ns-clusapi-cluster_shared_volume_state_info_ex">CLUSTER_SHARED_VOLUME_STATE_INFO_EX</a>
 
 
 

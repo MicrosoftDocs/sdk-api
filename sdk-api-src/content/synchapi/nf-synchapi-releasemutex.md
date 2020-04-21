@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.ReleaseMutex
 title: ReleaseMutex function (synchapi.h)
-description: Releases ownership of the specified mutex object.helpviewer_keywords: ["ReleaseMutex","ReleaseMutex function","_win32_releasemutex","base.releasemutex","synchapi/ReleaseMutex","winbase/ReleaseMutex"]
+description: Releases ownership of the specified mutex object.
+helpviewer_keywords: ["ReleaseMutex","ReleaseMutex function","_win32_releasemutex","base.releasemutex","synchapi/ReleaseMutex","winbase/ReleaseMutex"]
 old-location: base\releasemutex.htm
 tech.root: Sync
 ms.assetid: c3e4daa8-92de-455c-847c-ea59225b3aa2
@@ -67,7 +68,7 @@ Releases ownership of the specified mutex object.
 
 A handle to the mutex object. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> or 
-[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw)a> function returns this handle. 
+[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw) function returns this handle. 
 
 
 

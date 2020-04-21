@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateLeaf
 title: IConditionFactory2::CreateLeaf (structuredquery.h)
-description: Creates a leaf condition node for any value. The returned object supports ICondition and ICondition2.helpviewer_keywords: ["CreateLeaf","CreateLeaf method [search]","CreateLeaf method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateLeaf method","IConditionFactory2.CreateLeaf","IConditionFactory2::CreateLeaf","_search_IConditionFactory2_CreateLeaf","search._search_IConditionFactory2_CreateLeaf","structuredquery/IConditionFactory2::CreateLeaf"]
+description: Creates a leaf condition node for any value. The returned object supports ICondition and ICondition2.
+helpviewer_keywords: ["CreateLeaf","CreateLeaf method [search]","CreateLeaf method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateLeaf method","IConditionFactory2.CreateLeaf","IConditionFactory2::CreateLeaf","_search_IConditionFactory2_CreateLeaf","search._search_IConditionFactory2_CreateLeaf","structuredquery/IConditionFactory2::CreateLeaf"]
 old-location: search\_search_IConditionFactory2_CreateLeaf.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory\createleaf.htm
@@ -67,9 +68,9 @@ The name of the property of the leaf condition as a REFPROPERTYKEY. If the leaf 
 
 ### -param cop [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a></b>
+Type: <b><a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a></b>
 
-A <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration. If the leaf has no particular operation, then use <i>COP_IMPLICIT</i>.
+A <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration. If the leaf has no particular operation, then use <i>COP_IMPLICIT</i>.
 
 
 ### -param propvar [in]
@@ -175,11 +176,11 @@ A virtual property has one or more metadata items in which the key is "MapsToRel
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

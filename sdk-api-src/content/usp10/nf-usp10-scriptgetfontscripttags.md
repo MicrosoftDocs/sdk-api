@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptGetFontScriptTags
 title: ScriptGetFontScriptTags function (usp10.h)
-description: Retrieves a list of scripts available in the font for OpenType processing. Scripts comprising the list are retrieved from the font located in the supplied device context or from the script shaping engine that processes the font of the current run.helpviewer_keywords: ["ScriptGetFontScriptTags","ScriptGetFontScriptTags function [Internationalization for Windows Applications]","_win32_ScriptGetFontScriptTags","intl.scriptgetfontscripttags","usp10/ScriptGetFontScriptTags"]
+description: Retrieves a list of scripts available in the font for OpenType processing. Scripts comprising the list are retrieved from the font located in the supplied device context or from the script shaping engine that processes the font of the current run.
+helpviewer_keywords: ["ScriptGetFontScriptTags","ScriptGetFontScriptTags function [Internationalization for Windows Applications]","_win32_ScriptGetFontScriptTags","intl.scriptgetfontscripttags","usp10/ScriptGetFontScriptTags"]
 old-location: intl\scriptgetfontscripttags.htm
 tech.root: Intl
 ms.assetid: d93dd2d6-93c5-4781-8645-fd3f0b45c9b7
@@ -72,7 +73,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cac
 
 ### -param psa [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the appropriate font script tags can be retrieved. The application supplies a non-<b>NULL</b> value for this parameter to retrieve script tags appropriate for the current run.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the appropriate font script tags can be retrieved. The application supplies a non-<b>NULL</b> value for this parameter to retrieve script tags appropriate for the current run.
 
 Alternatively, the application can set this parameter to <b>NULL</b> to retrieve unfiltered results.
 
@@ -84,7 +85,7 @@ The length of the array specified by <i>pScriptTags</i>.
 
 ### -param pScriptTags [out]
 
-Pointer to a buffer in which this function retrieves an array of <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structures defining script tags from the device context or the scripting engine associated with the current run. If the value of the <b>eScript</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure provided in the <i>psa</i> parameter has a definite script tag associated with it and the tag is present in the font, <i>pScriptTags</i> contains only this tag.
+Pointer to a buffer in which this function retrieves an array of <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structures defining script tags from the device context or the scripting engine associated with the current run. If the value of the <b>eScript</b> member of the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure provided in the <i>psa</i> parameter has a definite script tag associated with it and the tag is present in the font, <i>pScriptTags</i> contains only this tag.
 
 
 ### -param pcTags [out]
@@ -137,7 +138,7 @@ If a tag corresponding to a particular script is present, a shaping engine might
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NE:bluetoothapis._BLUETOOTH_IO_CAPABILITY
 title: BLUETOOTH_IO_CAPABILITY (bluetoothapis.h)
-description: BLUETOOTH_IO_CAPABILITY enumeration defines the input/output capabilities of a Bluetooth Device.helpviewer_keywords: ["BLUETOOTH_IO_CAPABILITY","BLUETOOTH_IO_CAPABILITY enumeration [Bluetooth]","BLUETOOTH_IO_CAPABILITY_DISPLAYONLY","BLUETOOTH_IO_CAPABILITY_DISPLAYYESNO","BLUETOOTH_IO_CAPABILITY_KEYBOARDONLY","BLUETOOTH_IO_CAPABILITY_NOINPUTNOOUTPUT","BLUETOOTH_IO_CAPABILITY_UNDEFINED","bluetooth.bluetooth_io_capability","bluetoothapis/BLUETOOTH_IO_CAPABILITY","bluetoothapis/BLUETOOTH_IO_CAPABILITY_DISPLAYONLY","bluetoothapis/BLUETOOTH_IO_CAPABILITY_DISPLAYYESNO","bluetoothapis/BLUETOOTH_IO_CAPABILITY_KEYBOARDONLY","bluetoothapis/BLUETOOTH_IO_CAPABILITY_NOINPUTNOOUTPUT","bluetoothapis/BLUETOOTH_IO_CAPABILITY_UNDEFINED"]
+description: BLUETOOTH_IO_CAPABILITY enumeration defines the input/output capabilities of a Bluetooth Device.
+helpviewer_keywords: ["BLUETOOTH_IO_CAPABILITY","BLUETOOTH_IO_CAPABILITY enumeration [Bluetooth]","BLUETOOTH_IO_CAPABILITY_DISPLAYONLY","BLUETOOTH_IO_CAPABILITY_DISPLAYYESNO","BLUETOOTH_IO_CAPABILITY_KEYBOARDONLY","BLUETOOTH_IO_CAPABILITY_NOINPUTNOOUTPUT","BLUETOOTH_IO_CAPABILITY_UNDEFINED","bluetooth.bluetooth_io_capability","bluetoothapis/BLUETOOTH_IO_CAPABILITY","bluetoothapis/BLUETOOTH_IO_CAPABILITY_DISPLAYONLY","bluetoothapis/BLUETOOTH_IO_CAPABILITY_DISPLAYYESNO","bluetoothapis/BLUETOOTH_IO_CAPABILITY_KEYBOARDONLY","bluetoothapis/BLUETOOTH_IO_CAPABILITY_NOINPUTNOOUTPUT","bluetoothapis/BLUETOOTH_IO_CAPABILITY_UNDEFINED"]
 old-location: bluetooth\bluetooth_io_capability.htm
 tech.root: bluetooth
 ms.assetid: f1cd4fc9-5206-4f38-a2b9-621ca4c6ab86
@@ -87,7 +88,7 @@ The input/output capabilities for the Bluetooth device are undefined.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_authenticate_response">BLUETOOTH_AUTHENTICATE_RESPONSE</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_authenticate_response">BLUETOOTH_AUTHENTICATE_RESPONSE</a>
  
 
  

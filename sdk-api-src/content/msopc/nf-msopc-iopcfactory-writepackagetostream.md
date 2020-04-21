@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcFactory.WritePackageToStream
 title: IOpcFactory::WritePackageToStream (msopc.h)
-description: Serializes a package that is represented by a package object.helpviewer_keywords: ["IOpcFactory interface [Open Packaging Conventions]","WritePackageToStream method","IOpcFactory.WritePackageToStream","IOpcFactory::WritePackageToStream","WritePackageToStream","WritePackageToStream method [Open Packaging Conventions]","WritePackageToStream method [Open Packaging Conventions]","IOpcFactory interface","msopc/IOpcFactory::WritePackageToStream","opc.iopcfactory_writepackagetostream"]
+description: Serializes a package that is represented by a package object.
+helpviewer_keywords: ["IOpcFactory interface [Open Packaging Conventions]","WritePackageToStream method","IOpcFactory.WritePackageToStream","IOpcFactory::WritePackageToStream","WritePackageToStream","WritePackageToStream method [Open Packaging Conventions]","WritePackageToStream method [Open Packaging Conventions]","IOpcFactory interface","msopc/IOpcFactory::WritePackageToStream","opc.iopcfactory_writepackagetostream"]
 old-location: opc\iopcfactory_writepackagetostream.htm
 tech.root: OPC
 ms.assetid: b155700d-3037-4c6e-b2f2-bba39513d7d3
@@ -101,7 +102,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>flags</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_write_flags">OPC_WRITE_FLAGS</a> enumeration value.
+The value passed in the <i>flags</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_write_flags">OPC_WRITE_FLAGS</a> enumeration value.
 
 </td>
 </tr>
@@ -200,7 +201,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_write_flags">OPC_WRITE_FLAGS</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_write_flags">OPC_WRITE_FLAGS</a>
 
 
 

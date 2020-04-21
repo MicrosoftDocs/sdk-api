@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetElements
 title: DhcpEnumSubnetElements function (dhcpsapi.h)
-description: Returns an enumerated list of elements for a specific DHCP subnet.helpviewer_keywords: ["DhcpEnumSubnetElements","DhcpEnumSubnetElements function [DHCP]","dhcp.dhcpenumsubnetelements","dhcpsapi/DhcpEnumSubnetElements"]
+description: Returns an enumerated list of elements for a specific DHCP subnet.
+helpviewer_keywords: ["DhcpEnumSubnetElements","DhcpEnumSubnetElements function [DHCP]","dhcp.dhcpenumsubnetelements","dhcpsapi/DhcpEnumSubnetElements"]
 old-location: dhcp\dhcpenumsubnetelements.htm
 tech.root: DHCP
 ms.assetid: 1e2f1476-2a73-4298-80f7-c57efdc10fd2
@@ -71,7 +72,7 @@ Unicode string that specifies the IPv4 address of the DHCP server.
 ### -param EnumElementType [in]
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value that indicates the type of subnet element to enumerate.
+<a href="/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value that indicates the type of subnet element to enumerate.
 
 
 ### -param ResumeHandle [in, out]
@@ -173,7 +174,7 @@ The specified IPv4 subnet does not exist on the DHCP server.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a>
+<a href="/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a>
 
 
 

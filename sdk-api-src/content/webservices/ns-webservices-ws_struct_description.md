@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_STRUCT_DESCRIPTION
 title: WS_STRUCT_DESCRIPTION (webservices.h)
-description: Information about C struct type, and how it maps to an XML element. This is used with WS_STRUCT_TYPE.helpviewer_keywords: ["WS_STRUCT_DESCRIPTION","WS_STRUCT_DESCRIPTION structure [Web Services for Windows]","webservices/WS_STRUCT_DESCRIPTION","wsw.ws_struct_description"]
+description: Information about C struct type, and how it maps to an XML element. This is used with WS_STRUCT_TYPE.
+helpviewer_keywords: ["WS_STRUCT_DESCRIPTION","WS_STRUCT_DESCRIPTION structure [Web Services for Windows]","webservices/WS_STRUCT_DESCRIPTION","wsw.ws_struct_description"]
 old-location: wsw\ws_struct_description.htm
 tech.root: wsw
 ms.assetid: b426a07e-9993-4cea-8847-fc80e9d0b451
@@ -165,7 +166,7 @@ Note that the fields descriptions of a structure are serialized and deserialized
 The deserialization process is also restrictive. All the content must be deserialized according
                 to the field descriptions. By default any unhandled elements and attributes will cause the deserialization
                 process to fail. However, trailing contents of the element are ignored and discarded when
-                <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_input_type">WS_STRUCT_IGNORE_TRAILING_ELEMENT_CONTENT</a> flag is set. Similarly, unhandled attributes are
+                <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_input_type">WS_STRUCT_IGNORE_TRAILING_ELEMENT_CONTENT</a> flag is set. Similarly, unhandled attributes are
                 ignored and discarded when <b>WS_STRUCT_IGNORE_UNHANDLED_ATTRIBUTES</b> flag is set.
             
 

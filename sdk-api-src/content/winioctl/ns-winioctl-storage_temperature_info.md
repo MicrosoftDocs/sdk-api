@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._STORAGE_TEMPERATURE_INFO
 title: STORAGE_TEMPERATURE_INFO
-description: Describes device temperature data. Returned as part of STORAGE_TEMPERATURE_DATA_DESCRIPTOR when querying for temperature data with an IOCTL_STORAGE_QUERY_PROPERTY request.helpviewer_keywords: ["*PSTORAGE_TEMPERATURE_INFO","PSTORAGE_TEMPERATURE_INFO","PSTORAGE_TEMPERATURE_INFO structure pointer [Files]","STORAGE_TEMPERATURE_INFO","STORAGE_TEMPERATURE_INFO structure [Files]","fs.storage_temperature_info","winioctl/PSTORAGE_TEMPERATURE_INFO","winioctl/STORAGE_TEMPERATURE_INFO"]
+description: Describes device temperature data. Returned as part of STORAGE_TEMPERATURE_DATA_DESCRIPTOR when querying for temperature data with an IOCTL_STORAGE_QUERY_PROPERTY request.
+helpviewer_keywords: ["*PSTORAGE_TEMPERATURE_INFO","PSTORAGE_TEMPERATURE_INFO","PSTORAGE_TEMPERATURE_INFO structure pointer [Files]","STORAGE_TEMPERATURE_INFO","STORAGE_TEMPERATURE_INFO structure [Files]","fs.storage_temperature_info","winioctl/PSTORAGE_TEMPERATURE_INFO","winioctl/STORAGE_TEMPERATURE_INFO"]
 old-location: fs\storage_temperature_info.htm
 tech.root: FileIO
 ms.assetid: 236B4AC7-AF5E-4556-9FFD-D64C450E6492
@@ -48,7 +49,7 @@ req.redist:
 ## -description
 
 
-Describes  device temperature data. Returned as part of <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-storage_temperature_data_descriptor">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> when querying for temperature data with an <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request. 
+Describes  device temperature data. Returned as part of <a href="/windows/win32/api/winioctl/ns-winioctl-storage_temperature_data_descriptor">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> when querying for temperature data with an <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request. 
 
 
 ## -struct-fields

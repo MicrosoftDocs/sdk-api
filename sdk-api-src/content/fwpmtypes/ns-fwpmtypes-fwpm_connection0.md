@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_CONNECTION0_
 title: FWPM_CONNECTION0 (fwpmtypes.h)
-description: Stores the state associated with a connection object.helpviewer_keywords: ["FWPM_CONNECTION0","FWPM_CONNECTION0 structure [Filtering]","fwp.fwpm_connection0","fwpmtypes/FWPM_CONNECTION0"]
+description: Stores the state associated with a connection object.
+helpviewer_keywords: ["FWPM_CONNECTION0","FWPM_CONNECTION0 structure [Filtering]","fwp.fwpm_connection0","fwpmtypes/FWPM_CONNECTION0"]
 old-location: fwp\fwpm_connection0.htm
 tech.root: fwp
 ms.assetid: 76a923d4-57a9-47ba-af91-ee33c3c5b34b
@@ -66,7 +67,7 @@ The run-time identifier for the connection.
 
 ### -field ipVersion
 
-Type: [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a></b>
+Type: [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)</b>
 
 The IP version being used. 
 
@@ -116,35 +117,35 @@ Uniquely identifies the provider associated with this connection.
 
 ### -field ipsecTrafficModeType
 
-Type: [IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)a></b>
+Type: [IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)</b>
 
 The type of IPsec traffic.
 
 
 ### -field keyModuleType
 
-Type: [IKEEXT_KEY_MODULE_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type)a></b>
+Type: [IKEEXT_KEY_MODULE_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type)</b>
 
 The type of keying module.
 
 
 ### -field mmCrypto
 
-Type: [IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)a></b>
+Type: [IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)</b>
 
 An IKE/AuthIP main mode proposal.
 
 
 ### -field mmPeer
 
-Type: [IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)a></b>
+Type: [IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)</b>
 
 Main mode credential information.
 
 
 ### -field emPeer
 
-Type: [IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)a></b>
+Type: [IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)</b>
 
 Extended mode credential information.
 
@@ -182,23 +183,23 @@ Time that the connection was created.
 
 
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>
+[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
 
 
-[IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)a>
+[IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)
 
 
 
-[IKEEXT_KEY_MODULE_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type)a>
+[IKEEXT_KEY_MODULE_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type)
 
 
 
-[IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)a>
+[IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)
 
 
 
-[IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)a>
+[IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)
  
 
  

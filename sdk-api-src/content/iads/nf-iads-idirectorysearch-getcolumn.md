@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IDirectorySearch.GetColumn
 title: IDirectorySearch::GetColumn (iads.h)
-description: The IDirectorySearch::GetColumn method gets data from a named column of the search result.helpviewer_keywords: ["GetColumn","GetColumn method [ADSI]","GetColumn method [ADSI]","IDirectorySearch interface","IDirectorySearch interface [ADSI]","GetColumn method","IDirectorySearch.GetColumn","IDirectorySearch::GetColumn","_ds_idirectorysearch_getcolumn","adsi.idirectorysearch__getcolumn","adsi.idirectorysearch_getcolumn","iads/IDirectorySearch::GetColumn"]
+description: The IDirectorySearch::GetColumn method gets data from a named column of the search result.
+helpviewer_keywords: ["GetColumn","GetColumn method [ADSI]","GetColumn method [ADSI]","IDirectorySearch interface","IDirectorySearch interface [ADSI]","GetColumn method","IDirectorySearch.GetColumn","IDirectorySearch::GetColumn","_ds_idirectorysearch_getcolumn","adsi.idirectorysearch__getcolumn","adsi.idirectorysearch_getcolumn","iads/IDirectorySearch::GetColumn"]
 old-location: adsi\idirectorysearch_getcolumn.htm
 tech.root: adsi
 ms.assetid: 3bcacb24-a4b4-4fad-ab7c-79ef7a67064d
@@ -91,7 +92,7 @@ For other return values, see  <a href="https://docs.microsoft.com/windows/deskto
 
 The method allocates the memory for the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_search_column">ADS_SEARCH_COLUMN</a> structure to hold the data of the column. But the caller must free the memory by calling  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-freecolumn">IDirectorySearch::FreeColumn</a>.
 
-The <b>IDirectorySearch::GetColumn</b> method tries to read the schema definition of the requested attribute so it can return the attribute values in the appropriate format in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures, contained in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_search_column">ADS_SEARCH_COLUMN</a> structure. However, <b>GetColumn</b> can succeed even when the schema definition is not available, in which case the <b>dwADsType</b> member of the <b>ADS_SEARCH_COLUMN</b> structure returns ADSTYPE_PROV_SPECIFIC and the value is returned in an <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_prov_specific">ADS_PROV_SPECIFIC</a> structure. When you process the results of a <b>GetColumn</b> call, you must verify <b>dwADsType</b> to ensure that the data was returned in the expected format.
+The <b>IDirectorySearch::GetColumn</b> method tries to read the schema definition of the requested attribute so it can return the attribute values in the appropriate format in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures, contained in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_search_column">ADS_SEARCH_COLUMN</a> structure. However, <b>GetColumn</b> can succeed even when the schema definition is not available, in which case the <b>dwADsType</b> member of the <b>ADS_SEARCH_COLUMN</b> structure returns ADSTYPE_PROV_SPECIFIC and the value is returned in an <a href="/windows/win32/api/iads/ns-iads-ads_prov_specific">ADS_PROV_SPECIFIC</a> structure. When you process the results of a <b>GetColumn</b> call, you must verify <b>dwADsType</b> to ensure that the data was returned in the expected format.
 
 
 #### Examples

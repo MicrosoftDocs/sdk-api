@@ -1,7 +1,8 @@
 ---
 UID: NS:cfgmgr32.DMA_Resource_s
 title: DMA_RESOURCE (cfgmgr32.h)
-description: The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance.helpviewer_keywords: ["*PDMA_RESOURCE","DMA_RESOURCE","DMA_RESOURCE structure [Device and Driver Installation]","PDMA_RESOURCE","PDMA_RESOURCE structure pointer [Device and Driver Installation]","cfgmgr32/DMA_RESOURCE","cfgmgr32/PDMA_RESOURCE","cfgmgrst_7efdb1b3-3104-4bbe-81a6-e118a75a70a3.xml","devinst.dma_resource"]
+description: The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance.
+helpviewer_keywords: ["*PDMA_RESOURCE","DMA_RESOURCE","DMA_RESOURCE structure [Device and Driver Installation]","PDMA_RESOURCE","PDMA_RESOURCE structure pointer [Device and Driver Installation]","cfgmgr32/DMA_RESOURCE","cfgmgr32/PDMA_RESOURCE","cfgmgrst_7efdb1b3-3104-4bbe-81a6-e118a75a70a3.xml","devinst.dma_resource"]
 old-location: devinst\dma_resource.htm
 tech.root: devinst
 ms.assetid: 226a5ca1-10e1-47a7-8bd9-b153a0784ccb
@@ -59,7 +60,7 @@ The DMA_RESOURCE structure is used for specifying either a resource list or a re
 
 ### -field DMA_Header
 
-A [DMA_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des)a> structure.
+A [DMA_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des) structure.
 
 
 ### -field DMA_Data
@@ -76,7 +77,7 @@ Zero.
 
 #### For a resource requirements list:
 
-A [DMA_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range)a> array.
+A [DMA_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range) array.
 
 
 ## -see-also
@@ -84,11 +85,11 @@ A [DMA_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr3
 
 
 
-[DMA_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des)a>
+[DMA_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des)
 
 
 
-[DMA_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range)a>
+[DMA_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range)
  
 
  

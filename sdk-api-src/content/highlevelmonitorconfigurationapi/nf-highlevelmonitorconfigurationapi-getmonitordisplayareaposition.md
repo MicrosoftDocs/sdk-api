@@ -1,7 +1,8 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorDisplayAreaPosition
 title: GetMonitorDisplayAreaPosition function (highlevelmonitorconfigurationapi.h)
-description: Retrieves a monitor's minimum, maximum, and current horizontal or vertical position.helpviewer_keywords: ["GetMonitorDisplayAreaPosition","GetMonitorDisplayAreaPosition function [Monitor Configuration]","highlevelmonitorconfigurationapi/GetMonitorDisplayAreaPosition","monitor.getmonitordisplayareaposition"]
+description: Retrieves a monitor's minimum, maximum, and current horizontal or vertical position.
+helpviewer_keywords: ["GetMonitorDisplayAreaPosition","GetMonitorDisplayAreaPosition function [Monitor Configuration]","highlevelmonitorconfigurationapi/GetMonitorDisplayAreaPosition","monitor.getmonitordisplayareaposition"]
 old-location: monitor\getmonitordisplayareaposition.htm
 tech.root: Monitor
 ms.assetid: d6dca744-634e-420f-a025-5be9d136969f
@@ -66,7 +67,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param ptPositionType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_position_type">MC_POSITION_TYPE</a> enumeration, specifying whether to retrieve the horizontal position or the vertical position.
+A member of the <a href="/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_position_type">MC_POSITION_TYPE</a> enumeration, specifying whether to retrieve the horizontal position or the vertical position.
           
 
 

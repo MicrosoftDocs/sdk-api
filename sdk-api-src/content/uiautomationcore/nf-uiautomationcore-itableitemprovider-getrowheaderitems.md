@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ITableItemProvider.GetRowHeaderItems
 title: ITableItemProvider::GetRowHeaderItems (uiautomationcore.h)
-description: Retrieves a collection of Microsoft UI Automation provider representing all the row headers associated with a table item or cell.helpviewer_keywords: ["GetRowHeaderItems","GetRowHeaderItems method [Windows Accessibility]","GetRowHeaderItems method [Windows Accessibility]","ITableItemProvider interface","ITableItemProvider interface [Windows Accessibility]","GetRowHeaderItems method","ITableItemProvider.GetRowHeaderItems","ITableItemProvider::GetRowHeaderItems","uiauto.uiauto_ITableItemProvider_GetRowHeaderItems","uiauto_ITableItemProvider_GetRowHeaderItems","uiautomationcore/ITableItemProvider::GetRowHeaderItems","winauto.uiauto_ITableItemProvider_GetRowHeaderItems"]
+description: Retrieves a collection of Microsoft UI Automation provider representing all the row headers associated with a table item or cell.
+helpviewer_keywords: ["GetRowHeaderItems","GetRowHeaderItems method [Windows Accessibility]","GetRowHeaderItems method [Windows Accessibility]","ITableItemProvider interface","ITableItemProvider interface [Windows Accessibility]","GetRowHeaderItems method","ITableItemProvider.GetRowHeaderItems","ITableItemProvider::GetRowHeaderItems","uiauto.uiauto_ITableItemProvider_GetRowHeaderItems","uiauto_ITableItemProvider_GetRowHeaderItems","uiautomationcore/ITableItemProvider::GetRowHeaderItems","winauto.uiauto_ITableItemProvider_GetRowHeaderItems"]
 old-location: winauto\uiauto_ITableItemProvider_GetRowHeaderItems.htm
 tech.root: WinAuto
 ms.assetid: 02717f9a-93dd-4963-bbc7-a1eb257bf5e5
@@ -61,9 +62,9 @@ Retrieves a collection of Microsoft UI Automation provider
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
-Receives a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains an array of pointers to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> interfaces
+Receives a pointer to a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains an array of pointers to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> interfaces
 				of the row headers. This parameter is passed uninitialized.
 
 

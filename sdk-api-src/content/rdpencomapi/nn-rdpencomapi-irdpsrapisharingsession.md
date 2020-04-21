@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPISharingSession
 title: IRDPSRAPISharingSession (rdpencomapi.h)
-description: The main object that an application must create to start a collaboration session.helpviewer_keywords: ["IRDPSRAPISharingSession","IRDPSRAPISharingSession interface [RDP]","IRDPSRAPISharingSession interface [RDP]","described","rdp.irdpsrapisharingsession","rdpencomapi/IRDPSRAPISharingSession"]
+description: The main object that an application must create to start a collaboration session.
+helpviewer_keywords: ["IRDPSRAPISharingSession","IRDPSRAPISharingSession interface [RDP]","IRDPSRAPISharingSession interface [RDP]","described","rdp.irdpsrapisharingsession","rdpencomapi/IRDPSRAPISharingSession"]
 old-location: rdp\irdpsrapisharingsession.htm
 tech.root: rdp
 ms.assetid: 531382ec-d94f-411e-bd43-86cd3066ac26
@@ -54,7 +55,7 @@ The main object that an application must create  to start a collaboration sessio
 The session object is hosted in-process by RdpEncom.dll. Even if the object is hosted in-process, there can be only one instance of this object created within a Winlogon session. Creating a second object will fail.
 
 This interface uses the  single-threaded apartment (STA) threading model.
-The object exposes a source interface that is used for firing session-specific events (<a href="https://docs.microsoft.com/windows/win32/api/rdpencomapi/nn-rdpencomapi-_irdpsessionevents">_IRDPSessionEvents</a>) and a dual interface that is used for managing a session.
+The object exposes a source interface that is used for firing session-specific events (<a href="/windows/win32/api/rdpencomapi/nn-rdpencomapi-_irdpsessionevents">_IRDPSessionEvents</a>) and a dual interface that is used for managing a session.
 
 
 ## -inheritance

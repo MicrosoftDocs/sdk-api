@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateCompoundFromArray
 title: IConditionFactory2::CreateCompoundFromArray (structuredquery.h)
-description: Creates a leaf condition node that is a conjunction (AND) or a disjunction (OR) from an array of condition nodes. The returned object supports ICondition and ICondition2.helpviewer_keywords: ["CreateCompoundFromArray","CreateCompoundFromArray method [search]","CreateCompoundFromArray method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateCompoundFromArray method","IConditionFactory2.CreateCompoundFromArray","IConditionFactory2::CreateCompoundFromArray","_search_IConditionFactory2_CreateCompoundFromArray","search._search_IConditionFactory2_CreateCompoundFromArray","structuredquery/IConditionFactory2::CreateCompoundFromArray"]
+description: Creates a leaf condition node that is a conjunction (AND) or a disjunction (OR) from an array of condition nodes. The returned object supports ICondition and ICondition2.
+helpviewer_keywords: ["CreateCompoundFromArray","CreateCompoundFromArray method [search]","CreateCompoundFromArray method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateCompoundFromArray method","IConditionFactory2.CreateCompoundFromArray","IConditionFactory2::CreateCompoundFromArray","_search_IConditionFactory2_CreateCompoundFromArray","search._search_IConditionFactory2_CreateCompoundFromArray","structuredquery/IConditionFactory2::CreateCompoundFromArray"]
 old-location: search\_search_IConditionFactory2_CreateCompoundFromArray.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory\createcompoundfromarray.htm
@@ -59,9 +60,9 @@ Creates a leaf condition node that is a conjunction (AND) or a disjunction (OR) 
 
 ### -param ct [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a></b>
+Type: <b><a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a></b>
 
-A <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a> enumeration that must be set to either the <i>CT_AND_CONDITION</i> or <i>CT_OR_CONDITION</i> flag.
+A <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a> enumeration that must be set to either the <i>CT_AND_CONDITION</i> or <i>CT_OR_CONDITION</i> flag.
 
 
 ### -param ppcondSubs [in]
@@ -128,11 +129,11 @@ For default options, use the <i>CONDITION_CREATION_DEFAULT</i> flag.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

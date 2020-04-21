@@ -76,7 +76,7 @@ The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-vers
 
 The power setting for an interface has changed.
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_power_setting~r1">WLAN_POWER_SETTING</a> enumeration value that identifies the new power setting of an interface.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_power_setting~r1">WLAN_POWER_SETTING</a> enumeration value that identifies the new power setting of an interface.
 
 
 ### -field wlan_notification_acm_scan_complete
@@ -182,7 +182,7 @@ The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-vers
 
 A state change has occurred for an adhoc network. 
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_adhoc_network_state~r1">WLAN_ADHOC_NETWORK_STATE</a> enumeration value that identifies the new  adhoc network state.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_adhoc_network_state~r1">WLAN_ADHOC_NETWORK_STATE</a> enumeration value that identifies the new  adhoc network state.
 
 
 ### -field wlan_notification_acm_profile_unblocked
@@ -239,7 +239,7 @@ The callback function is called with a pointer to a <a href="https://docs.micros
 
 <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a>
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_adhoc_network_state~r1">WLAN_ADHOC_NETWORK_STATE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_adhoc_network_state~r1">WLAN_ADHOC_NETWORK_STATE</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_notification_data">WLAN_CONNECTION_NOTIFICATION_DATA</a>
 
@@ -247,7 +247,7 @@ The callback function is called with a pointer to a <a href="https://docs.micros
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_power_setting~r1">WLAN_POWER_SETTING</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_power_setting~r1">WLAN_POWER_SETTING</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetfilterlist">WlanGetFilterList</a>
 

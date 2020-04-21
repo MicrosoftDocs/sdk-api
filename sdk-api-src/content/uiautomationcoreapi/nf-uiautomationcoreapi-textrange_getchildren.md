@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_GetChildren
 title: TextRange_GetChildren function (uiautomationcoreapi.h)
-description: Returns all UI Automation elements contained within the specified text range.helpviewer_keywords: ["TextRange_GetChildren","TextRange_GetChildren function [Windows Accessibility]","uiauto.uiauto_TextRange_GetChildrenConPat","uiauto_TextRange_GetChildrenConPat","uiautomationcoreapi/TextRange_GetChildren","winauto.uiauto_TextRange_GetChildrenConPat"]
+description: Returns all UI Automation elements contained within the specified text range.
+helpviewer_keywords: ["TextRange_GetChildren","TextRange_GetChildren function [Windows Accessibility]","uiauto.uiauto_TextRange_GetChildrenConPat","uiauto_TextRange_GetChildrenConPat","uiautomationcoreapi/TextRange_GetChildren","winauto.uiauto_TextRange_GetChildrenConPat"]
 old-location: winauto\uiauto_TextRange_GetChildrenConPat.htm
 tech.root: WinAuto
 ms.assetid: b8ee94c3-3da2-4f66-ba75-64bc4d40543b
@@ -66,7 +67,7 @@ A text range object.
 
 ### -param pRetVal [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 When this function returns, contains 
 				an array of nodes that are children of the text range in the UI Automation tree.

@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_StartIpAddress
 title: IWdsTransportServicePolicy::get_StartIpAddress (wdstptmgmt.h)
-description: Enables a WDS client computer to configure the start of a multicast IP address range for a specified type of IP address.helpviewer_keywords: ["IWdsTransportServicePolicy interface [Windows Deployment Services]","StartIpAddress property","IWdsTransportServicePolicy.StartIpAddress","IWdsTransportServicePolicy.get_StartIpAddress","IWdsTransportServicePolicy::StartIpAddress","IWdsTransportServicePolicy::get_StartIpAddress","IWdsTransportServicePolicy::put_StartIpAddress","StartIpAddress property [Windows Deployment Services]","StartIpAddress property [Windows Deployment Services]","IWdsTransportServicePolicy interface","get_StartIpAddress","wds.iwdstransportservicepolicy_startipaddress","wdstptmgmt/IWdsTransportServicePolicy::StartIpAddress","wdstptmgmt/IWdsTransportServicePolicy::get_StartIpAddress","wdstptmgmt/IWdsTransportServicePolicy::put_StartIpAddress"]
+description: Enables a WDS client computer to configure the start of a multicast IP address range for a specified type of IP address.
+helpviewer_keywords: ["IWdsTransportServicePolicy interface [Windows Deployment Services]","StartIpAddress property","IWdsTransportServicePolicy.StartIpAddress","IWdsTransportServicePolicy.get_StartIpAddress","IWdsTransportServicePolicy::StartIpAddress","IWdsTransportServicePolicy::get_StartIpAddress","IWdsTransportServicePolicy::put_StartIpAddress","StartIpAddress property [Windows Deployment Services]","StartIpAddress property [Windows Deployment Services]","IWdsTransportServicePolicy interface","get_StartIpAddress","wds.iwdstransportservicepolicy_startipaddress","wdstptmgmt/IWdsTransportServicePolicy::StartIpAddress","wdstptmgmt/IWdsTransportServicePolicy::get_StartIpAddress","wdstptmgmt/IWdsTransportServicePolicy::put_StartIpAddress"]
 old-location: wds\iwdstransportservicepolicy_startipaddress.htm
 tech.root: wds
 ms.assetid: 2ff25e3f-15a4-4dc2-b383-ca9027a650da
@@ -77,7 +78,7 @@ When setting the start IP address, this property validates that it is a valid mu
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_type">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
+<a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_type">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
  
 
  

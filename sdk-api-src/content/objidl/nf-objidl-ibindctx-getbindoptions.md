@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IBindCtx.GetBindOptions
 title: IBindCtx::GetBindOptions (objidl.h)
-description: Retrieves the binding options stored in this bind context.helpviewer_keywords: ["GetBindOptions","GetBindOptions method [COM]","GetBindOptions method [COM]","IBindCtx interface","IBindCtx interface [COM]","GetBindOptions method","IBindCtx.GetBindOptions","IBindCtx::GetBindOptions","_com_ibindctx_getbindoptions","com.ibindctx_getbindoptions","objidl/IBindCtx::GetBindOptions"]
+description: Retrieves the binding options stored in this bind context.
+helpviewer_keywords: ["GetBindOptions","GetBindOptions method [COM]","GetBindOptions method [COM]","IBindCtx interface","IBindCtx interface [COM]","GetBindOptions method","IBindCtx.GetBindOptions","IBindCtx::GetBindOptions","_com_ibindctx_getbindoptions","com.ibindctx_getbindoptions","objidl/IBindCtx::GetBindOptions"]
 old-location: com\ibindctx_getbindoptions.htm
 tech.root: com
 ms.assetid: ccb239ee-922f-4e66-8aca-7651c0243a2b
@@ -59,7 +60,7 @@ Retrieves the binding options stored in this bind context.
 
 ### -param pbindopts [in, out]
 
-A pointer to an initialized structure that receives the current binding parameters on return. See [BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1)a>.
+A pointer to an initialized structure that receives the current binding parameters on return. See [BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1).
 
 
 ## -returns
@@ -94,11 +95,11 @@ You must initialize the structure that is filled in by this method. Before calli
 
 
 
-[BIND_OPTS2](/windows/win32/api/objidl/ns-objidl-bind_opts2~r1)a>
+[BIND_OPTS2](/windows/win32/api/objidl/ns-objidl-bind_opts2~r1)
 
 
 
-[BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1)a>
+[BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1)
 
 
 

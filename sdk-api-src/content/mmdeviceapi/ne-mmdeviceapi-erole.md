@@ -1,7 +1,8 @@
 ---
 UID: NE:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0002
 title: ERole (mmdeviceapi.h)
-description: The ERole enumeration defines constants that indicate the role that the system has assigned to an audio endpoint device.helpviewer_keywords: ["ERole","ERole enumeration [Core Audio]","ERole_enum_count","coreaudio.erole","eCommunications","eConsole","eMultimedia","mmdeviceapi/ERole","mmdeviceapi/ERole_enum_count","mmdeviceapi/eCommunications","mmdeviceapi/eConsole","mmdeviceapi/eMultimedia"]
+description: The ERole enumeration defines constants that indicate the role that the system has assigned to an audio endpoint device.
+helpviewer_keywords: ["ERole","ERole enumeration [Core Audio]","ERole_enum_count","coreaudio.erole","eCommunications","eConsole","eMultimedia","mmdeviceapi/ERole","mmdeviceapi/ERole_enum_count","mmdeviceapi/eCommunications","mmdeviceapi/eConsole","mmdeviceapi/eMultimedia"]
 old-location: coreaudio\erole.htm
 tech.root: CoreAudio
 ms.assetid: 0d0d3174-8489-4951-858c-024d58477ae0
@@ -77,14 +78,14 @@ Voice communications (talking to another person).
 
 ### -field ERole_enum_count
 
-The number of members in the <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">ERole</a> enumeration (not counting the ERole_enum_count member).
+The number of members in the <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">ERole</a> enumeration (not counting the ERole_enum_count member).
 
 
 ## -remarks
 
 
 
-The <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">IMMDeviceEnumerator::GetDefaultAudioEndpoint</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">IMMNotificationClient::OnDefaultDeviceChanged</a> methods use the constants defined in the <b>ERole</b> enumeration.
+The <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">IMMDeviceEnumerator::GetDefaultAudioEndpoint</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">IMMNotificationClient::OnDefaultDeviceChanged</a> methods use the constants defined in the <b>ERole</b> enumeration.
 
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles">Device Roles</a>. 
 

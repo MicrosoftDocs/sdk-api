@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceSet.Create
 title: IOpcSignaturePartReferenceSet::Create (msopc.h)
-description: Creates an IOpcSignaturePartReference interface pointer that represents a reference to a part to be signed, and adds the new interface to the set.helpviewer_keywords: ["Create","Create method [Open Packaging Conventions]","Create method [Open Packaging Conventions]","IOpcSignaturePartReferenceSet interface","IOpcSignaturePartReferenceSet interface [Open Packaging Conventions]","Create method","IOpcSignaturePartReferenceSet.Create","IOpcSignaturePartReferenceSet::Create","msopc/IOpcSignaturePartReferenceSet::Create","opc.iopcsignaturepartreferenceset_create"]
+description: Creates an IOpcSignaturePartReference interface pointer that represents a reference to a part to be signed, and adds the new interface to the set.
+helpviewer_keywords: ["Create","Create method [Open Packaging Conventions]","Create method [Open Packaging Conventions]","IOpcSignaturePartReferenceSet interface","IOpcSignaturePartReferenceSet interface [Open Packaging Conventions]","Create method","IOpcSignaturePartReferenceSet.Create","IOpcSignaturePartReferenceSet::Create","msopc/IOpcSignaturePartReferenceSet::Create","opc.iopcsignaturepartreferenceset_create"]
 old-location: opc\iopcsignaturepartreferenceset_create.htm
 tech.root: OPC
 ms.assetid: 63162b37-0262-4d92-a14f-726fe4c87cc1
@@ -110,7 +111,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>transformMethod</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a> enumeration value.
+The value passed in the <i>transformMethod</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a> enumeration value.
 
 </td>
 </tr>
@@ -178,7 +179,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
 
 
 

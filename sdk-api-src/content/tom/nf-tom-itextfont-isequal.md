@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.IsEqual
 title: ITextFont::IsEqual (tom.h)
-description: Determines whether this text font object has the same properties as the specified text font object.helpviewer_keywords: ["ITextFont interface [Windows Controls]","IsEqual method","ITextFont.IsEqual","ITextFont::IsEqual","IsEqual","IsEqual method [Windows Controls]","IsEqual method [Windows Controls]","ITextFont interface","_win32_ITextFont_IsEqual","_win32_ITextFont_IsEqual_cpp","controls.ITextFont_IsEqual","controls._win32_ITextFont_IsEqual","tom/ITextFont::IsEqual"]
+description: Determines whether this text font object has the same properties as the specified text font object.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","IsEqual method","ITextFont.IsEqual","ITextFont::IsEqual","IsEqual","IsEqual method [Windows Controls]","IsEqual method [Windows Controls]","ITextFont interface","_win32_ITextFont_IsEqual","_win32_ITextFont_IsEqual_cpp","controls.ITextFont_IsEqual","controls._win32_ITextFont_IsEqual","tom/ITextFont::IsEqual"]
 old-location: controls\ITextFont_IsEqual.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontisequal.htm
@@ -86,7 +87,7 @@ If the text font objects have the same properties, the method succeeds and retur
 
 
 
-The text font objects are equal only if <i>pFont</i> belongs to the same Text Object Model (TOM) object as the current font object. The <b>ITextFont::IsEqual</b> method ignores entries for which either font object has an <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomUndefined</a>.
+The text font objects are equal only if <i>pFont</i> belongs to the same Text Object Model (TOM) object as the current font object. The <b>ITextFont::IsEqual</b> method ignores entries for which either font object has an <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomUndefined</a>.
 
 
 

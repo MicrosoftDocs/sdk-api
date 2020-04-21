@@ -1,7 +1,8 @@
 ---
 UID: NF:iaccess.IAccessControl.GrantAccessRights
 title: IAccessControl::GrantAccessRights (iaccess.h)
-description: Merges the new list of access rights with the existing access rights on the object.helpviewer_keywords: ["GrantAccessRights","GrantAccessRights method [COM]","GrantAccessRights method [COM]","IAccessControl interface","IAccessControl interface [COM]","GrantAccessRights method","IAccessControl.GrantAccessRights","IAccessControl::GrantAccessRights","_com_iaccesscontrol_grantaccessrights","com.iaccesscontrol_grantaccessrights","iaccess/IAccessControl::GrantAccessRights"]
+description: Merges the new list of access rights with the existing access rights on the object.
+helpviewer_keywords: ["GrantAccessRights","GrantAccessRights method [COM]","GrantAccessRights method [COM]","IAccessControl interface","IAccessControl interface [COM]","GrantAccessRights method","IAccessControl.GrantAccessRights","IAccessControl::GrantAccessRights","_com_iaccesscontrol_grantaccessrights","com.iaccesscontrol_grantaccessrights","iaccess/IAccessControl::GrantAccessRights"]
 old-location: com\iaccesscontrol_grantaccessrights.htm
 tech.root: com
 ms.assetid: f8ec6743-633b-4c79-afac-68eb20e07b2a
@@ -59,7 +60,7 @@ Merges the new list of access rights with the existing access rights on the obje
 
 ### -param pAccessList [in]
 
-A pointer to the [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a)a> structure that contains an array of access lists for the object.
+A pointer to the [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a) structure that contains an array of access lists for the object.
 
 
 ## -returns
@@ -85,7 +86,7 @@ Following a merge, the access rights on an object are ordered as follows:
 <li>[New Access Allowed]</li>
 <li>[Old Access Allowed]</li>
 </ol>
-The system-supplied implementation of [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a)a> structure be set to 1. In addition, the <b>lpProperty</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_property_entrya">ACTRL_PROPERTY_ENTRYW</a> structure must be <b>NULL</b> to indicate that the access entry list applies to the object itself.
+The system-supplied implementation of [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a) structure be set to 1. In addition, the <b>lpProperty</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_property_entrya">ACTRL_PROPERTY_ENTRYW</a> structure must be <b>NULL</b> to indicate that the access entry list applies to the object itself.
 
 
 

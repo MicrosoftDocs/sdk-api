@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetBleedBox
 title: IXpsOMPage::GetBleedBox (xpsobjectmodel.h)
-description: Gets the dimensions of the page's bleed box.helpviewer_keywords: ["GetBleedBox","GetBleedBox method [XPS Documents and Packaging]","GetBleedBox method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetBleedBox method","IXpsOMPage.GetBleedBox","IXpsOMPage::GetBleedBox","xps.ixpsompage_getbleedbox","xpsobjectmodel/IXpsOMPage::GetBleedBox"]
+description: Gets the dimensions of the page's bleed box.
+helpviewer_keywords: ["GetBleedBox","GetBleedBox method [XPS Documents and Packaging]","GetBleedBox method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetBleedBox method","IXpsOMPage.GetBleedBox","IXpsOMPage::GetBleedBox","xps.ixpsompage_getbleedbox","xpsobjectmodel/IXpsOMPage::GetBleedBox"]
 old-location: xps\ixpsompage_getbleedbox.htm
 tech.root: printdocs
 ms.assetid: 2ce82a0e-b01c-4c1e-8907-31f51dc51f10
@@ -110,7 +111,7 @@ The default bleed box of a page is:
 <table>
 <tr>
 <th>
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> field</th>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> field</th>
 <th>Default value</th>
 </tr>
 <tr>
@@ -152,7 +153,7 @@ The default bleed box of a page is:
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
  
 
  

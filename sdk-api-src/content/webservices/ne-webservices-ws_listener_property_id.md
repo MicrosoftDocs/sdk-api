@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_36
 title: WS_LISTENER_PROPERTY_ID (webservices.h)
-description: Each listener property is of type WS_LISTENER_PROPERTY, is identified by an ID, and has an associated value. If a property is not specified when the listener is created, then its default value is used.helpviewer_keywords: ["WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL","WS_LISTENER_PROPERTY_CHANNEL_BINDING","WS_LISTENER_PROPERTY_CHANNEL_TYPE","WS_LISTENER_PROPERTY_CLOSE_TIMEOUT","WS_LISTENER_PROPERTY_CONNECT_TIMEOUT","WS_LISTENER_PROPERTY_CUSTOM_LISTENER_CALLBACKS","WS_LISTENER_PROPERTY_CUSTOM_LISTENER_INSTANCE","WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS","WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT","WS_LISTENER_PROPERTY_ID","WS_LISTENER_PROPERTY_ID enumeration [Web Services for Windows]","WS_LISTENER_PROPERTY_IP_VERSION","WS_LISTENER_PROPERTY_IS_MULTICAST","WS_LISTENER_PROPERTY_LISTEN_BACKLOG","WS_LISTENER_PROPERTY_MULTICAST_INTERFACES","WS_LISTENER_PROPERTY_MULTICAST_LOOPBACK","WS_LISTENER_PROPERTY_STATE","WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS","WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS","webservices/WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL","webservices/WS_LISTENER_PROPERTY_CHANNEL_BINDING","webservices/WS_LISTENER_PROPERTY_CHANNEL_TYPE","webservices/WS_LISTENER_PROPERTY_CLOSE_TIMEOUT","webservices/WS_LISTENER_PROPERTY_CONNECT_TIMEOUT","webservices/WS_LISTENER_PROPERTY_CUSTOM_LISTENER_CALLBACKS","webservices/WS_LISTENER_PROPERTY_CUSTOM_LISTENER_INSTANCE","webservices/WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS","webservices/WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT","webservices/WS_LISTENER_PROPERTY_ID","webservices/WS_LISTENER_PROPERTY_IP_VERSION","webservices/WS_LISTENER_PROPERTY_IS_MULTICAST","webservices/WS_LISTENER_PROPERTY_LISTEN_BACKLOG","webservices/WS_LISTENER_PROPERTY_MULTICAST_INTERFACES","webservices/WS_LISTENER_PROPERTY_MULTICAST_LOOPBACK","webservices/WS_LISTENER_PROPERTY_STATE","webservices/WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS","webservices/WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS","wsw.ws_listener_property_id"]
+description: Each listener property is of type WS_LISTENER_PROPERTY, is identified by an ID, and has an associated value. If a property is not specified when the listener is created, then its default value is used.
+helpviewer_keywords: ["WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL","WS_LISTENER_PROPERTY_CHANNEL_BINDING","WS_LISTENER_PROPERTY_CHANNEL_TYPE","WS_LISTENER_PROPERTY_CLOSE_TIMEOUT","WS_LISTENER_PROPERTY_CONNECT_TIMEOUT","WS_LISTENER_PROPERTY_CUSTOM_LISTENER_CALLBACKS","WS_LISTENER_PROPERTY_CUSTOM_LISTENER_INSTANCE","WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS","WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT","WS_LISTENER_PROPERTY_ID","WS_LISTENER_PROPERTY_ID enumeration [Web Services for Windows]","WS_LISTENER_PROPERTY_IP_VERSION","WS_LISTENER_PROPERTY_IS_MULTICAST","WS_LISTENER_PROPERTY_LISTEN_BACKLOG","WS_LISTENER_PROPERTY_MULTICAST_INTERFACES","WS_LISTENER_PROPERTY_MULTICAST_LOOPBACK","WS_LISTENER_PROPERTY_STATE","WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS","WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS","webservices/WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL","webservices/WS_LISTENER_PROPERTY_CHANNEL_BINDING","webservices/WS_LISTENER_PROPERTY_CHANNEL_TYPE","webservices/WS_LISTENER_PROPERTY_CLOSE_TIMEOUT","webservices/WS_LISTENER_PROPERTY_CONNECT_TIMEOUT","webservices/WS_LISTENER_PROPERTY_CUSTOM_LISTENER_CALLBACKS","webservices/WS_LISTENER_PROPERTY_CUSTOM_LISTENER_INSTANCE","webservices/WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS","webservices/WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT","webservices/WS_LISTENER_PROPERTY_ID","webservices/WS_LISTENER_PROPERTY_IP_VERSION","webservices/WS_LISTENER_PROPERTY_IS_MULTICAST","webservices/WS_LISTENER_PROPERTY_LISTEN_BACKLOG","webservices/WS_LISTENER_PROPERTY_MULTICAST_INTERFACES","webservices/WS_LISTENER_PROPERTY_MULTICAST_LOOPBACK","webservices/WS_LISTENER_PROPERTY_STATE","webservices/WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS","webservices/WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS","wsw.ws_listener_property_id"]
 old-location: wsw\ws_listener_property_id.htm
 tech.root: wsw
 ms.assetid: 4998d538-628f-4939-9db9-612e882e68b1
@@ -269,7 +270,7 @@ Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf
 
 The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a> structure is a <b>ULONG</b>.
 
-The property value contains a set of flags (see <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_buffer_property_id">WS_URL_MATCHING_OPTIONS</a>) which
+The property value contains a set of flags (see <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_buffer_property_id">WS_URL_MATCHING_OPTIONS</a>) which
                     specify how to match the URL in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_TO_HEADER</a> of any received messages.
                 
 
@@ -291,7 +292,7 @@ Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf
 
 The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a> structure is a <b>ULONG</b>.
 
-The property value contains a set of flags (see <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_buffer_property_id">WS_URL_MATCHING_OPTIONS</a>) which
+The property value contains a set of flags (see <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_buffer_property_id">WS_URL_MATCHING_OPTIONS</a>) which
                     specify how to match the transport URL of any accepted channels.  See
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_TRANSPORT_URL</a> for more information on the transport URL.
                 
@@ -316,7 +317,7 @@ This property only controls the verification of the message once it has been rec
 Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_custom_listener_callbacks">WS_LISTENER_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_listener_callbacks">WS_CUSTOM_LISTENER_CALLBACKS</a> structure.
+The accompanying <b>value</b> member of the <a href="/windows/win32/api/webservices/ns-webservices-ws_custom_listener_callbacks">WS_LISTENER_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_listener_callbacks">WS_CUSTOM_LISTENER_CALLBACKS</a> structure.
 
 This property is used to specify callbacks that
                     define the implementation of a custom listener.
@@ -371,7 +372,7 @@ This property can be used to obtain the underlying listener
 Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_disallowed_user_agent_substrings">WS_LISTENER_PROPERTY</a> structure is a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_disallowed_user_agent_substrings">WS_DISALLOWED_USER_AGENT_SUBSTRINGS</a> which specifies the list of disallowed user
+The accompanying <b>value</b> member of the <a href="/windows/win32/api/webservices/ns-webservices-ws_disallowed_user_agent_substrings">WS_LISTENER_PROPERTY</a> structure is a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_disallowed_user_agent_substrings">WS_DISALLOWED_USER_AGENT_SUBSTRINGS</a> which specifies the list of disallowed user
                     agents sub-strings.
                     <ul>
 <li>Upon receiving the HTTP request, the UserAgent header value is extracted.

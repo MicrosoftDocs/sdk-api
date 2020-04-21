@@ -1,7 +1,8 @@
 ---
 UID: NS:tspubplugin2com.__MIDL_ItsPubPlugin2_0001
 title: pluginResource2FileAssociation (tspubplugin2com.h)
-description: Contains information about a file association in RemoteApp and Desktop Connection.helpviewer_keywords: ["pluginResource2FileAssociation","pluginResource2FileAssociation structure [Remote Desktop Services]","termserv.pluginresource2fileassociation","tspubplugin2com/pluginResource2FileAssociation"]
+description: Contains information about a file association in RemoteApp and Desktop Connection.
+helpviewer_keywords: ["pluginResource2FileAssociation","pluginResource2FileAssociation structure [Remote Desktop Services]","termserv.pluginresource2fileassociation","tspubplugin2com/pluginResource2FileAssociation"]
 old-location: termserv\pluginresource2fileassociation.htm
 tech.root: TermServ
 ms.assetid: A3485D5F-EBF0-480B-9AD2-534361E82B40
@@ -93,7 +94,7 @@ A byte array that contains the icon to display for files with the specified exte
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/tspubplugin2com/ns-tspubplugin2com-pluginresource2">pluginResource2</a>
+<a href="/windows/win32/api/tspubplugin2com/ns-tspubplugin2com-pluginresource2">pluginResource2</a>
  
 
  

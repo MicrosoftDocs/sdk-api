@@ -81,7 +81,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 ### -param Params [in]
 
-Parameters for which the client is interested in registering for notification, in the form of a <a href="https://docs.microsoft.com/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPCAPI_PARAMS_ARRAY</a> structure.
+Parameters for which the client is interested in registering for notification, in the form of a <a href="/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPCAPI_PARAMS_ARRAY</a> structure.
 
 
 ### -param Handle [in, out]
@@ -137,7 +137,7 @@ Version 2 of the DHCP Client API provides only event-based notification. With ev
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPCAPI_PARAMS_ARRAY</a>
+<a href="/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPCAPI_PARAMS_ARRAY</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:callobj.ICallFrame.GetParamInfo
 title: ICallFrame::GetParamInfo (callobj.h)
-description: Retrieves the information for the specified parameter.helpviewer_keywords: ["GetParamInfo","GetParamInfo method [COM]","GetParamInfo method [COM]","ICallFrame interface","ICallFrame interface [COM]","GetParamInfo method","ICallFrame.GetParamInfo","ICallFrame::GetParamInfo","_com_icallframe_getparaminfo","callobj/ICallFrame::GetParamInfo","com.icallframe_getparaminfo"]
+description: Retrieves the information for the specified parameter.
+helpviewer_keywords: ["GetParamInfo","GetParamInfo method [COM]","GetParamInfo method [COM]","ICallFrame interface","ICallFrame interface [COM]","GetParamInfo method","ICallFrame.GetParamInfo","ICallFrame::GetParamInfo","_com_icallframe_getparaminfo","callobj/ICallFrame::GetParamInfo","com.icallframe_getparaminfo"]
 old-location: com\icallframe_getparaminfo.htm
 tech.root: com
 ms.assetid: fb75930d-8e1b-4e97-87f2-bb9d171658a8
@@ -64,7 +65,7 @@ The parameter number.
 
 ### -param pInfo [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/callobj/ns-callobj-callframeparaminfo">CALLFRAMEPARAMINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/callobj/ns-callobj-callframeparaminfo">CALLFRAMEPARAMINFO</a> structure.
 
 
 ## -returns

@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV4GetClientInfo
 title: DhcpV4GetClientInfo function (dhcpsapi.h)
-description: Retrieves DHCP client lease record information from the DHCP server database.helpviewer_keywords: ["DhcpV4GetClientInfo","DhcpV4GetClientInfo function [DHCP]","dhcp.dhcpv4getclientinfo","dhcpsapi/DhcpV4GetClientInfo"]
+description: Retrieves DHCP client lease record information from the DHCP server database.
+helpviewer_keywords: ["DhcpV4GetClientInfo","DhcpV4GetClientInfo function [DHCP]","dhcp.dhcpv4getclientinfo","dhcpsapi/DhcpV4GetClientInfo"]
 old-location: dhcp\dhcpv4getclientinfo.htm
 tech.root: DHCP
 ms.assetid: bf6df3ba-bbea-4140-960c-fb34cfe160eb
@@ -64,7 +65,7 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 
 ### -param SearchInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that defines the key used to search for the client lease record on the DHCP server.
+Pointer to a <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that defines the key used to search for the client lease record on the DHCP server.
 
 
 ### -param ClientInfo [out]

@@ -1,7 +1,8 @@
 ---
 UID: NF:winber.ber_printf
 title: ber_printf function (winber.h)
-description: Used to encode a BER element and is similar to sprintf_s.helpviewer_keywords: ["_ldap_ber_printf","ber_printf","ber_printf function [LDAP]","ldap.ber__printf","ldap.ber_printf","winber/ber_printf"]
+description: Used to encode a BER element and is similar to sprintf_s.
+helpviewer_keywords: ["_ldap_ber_printf","ber_printf","ber_printf function [LDAP]","ldap.ber__printf","ldap.ber_printf","winber/ber_printf"]
 old-location: ldap\ber_printf.htm
 tech.root: ldap
 ms.assetid: 6bae449b-eb75-4598-aacc-65567de67997
@@ -127,7 +128,7 @@ The format string can contain format characters listed in the following table.
 </tr>
 <tr>
 <td><b>V</b></td>
-<td><b>Several octet strings</b>. A NULL-terminated array of <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval*</a> is supplied. Be aware that a construct like <b>{</b><b>v</b><b>}</b> is used to get an actual SEQUENCE OF octet strings. The <b>t</b> format modifier cannot be used with this format character.</td>
+<td><b>Several octet strings</b>. A NULL-terminated array of <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval*</a> is supplied. Be aware that a construct like <b>{</b><b>v</b><b>}</b> is used to get an actual SEQUENCE OF octet strings. The <b>t</b> format modifier cannot be used with this format character.</td>
 </tr>
 <tr>
 <td><b>X</b></td>
@@ -174,7 +175,7 @@ Each left brace (<b>{</b>) character must be paired with a right brace (<b>}</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
  
 
  

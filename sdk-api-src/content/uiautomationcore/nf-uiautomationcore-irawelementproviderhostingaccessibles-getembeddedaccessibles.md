@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles
 title: IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles (uiautomationcore.h)
-description: Retrieves the IAccessible interface pointers of the windowless Microsoft ActiveX controls that are hosted by this provider.helpviewer_keywords: ["GetEmbeddedAccessibles","GetEmbeddedAccessibles method [Windows Accessibility]","GetEmbeddedAccessibles method [Windows Accessibility]","IRawElementProviderHostingAccessibles interface","IRawElementProviderHostingAccessibles interface [Windows Accessibility]","GetEmbeddedAccessibles method","IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles","IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles","uiautomationcore/IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles","winauto.uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles"]
+description: Retrieves the IAccessible interface pointers of the windowless Microsoft ActiveX controls that are hosted by this provider.
+helpviewer_keywords: ["GetEmbeddedAccessibles","GetEmbeddedAccessibles method [Windows Accessibility]","GetEmbeddedAccessibles method [Windows Accessibility]","IRawElementProviderHostingAccessibles interface","IRawElementProviderHostingAccessibles interface [Windows Accessibility]","GetEmbeddedAccessibles method","IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles","IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles","uiautomationcore/IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles","winauto.uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles"]
 old-location: winauto\uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles.htm
 tech.root: WinAuto
 ms.assetid: E428B87C-25FE-437B-AAE8-7E3BC79BBE6B
@@ -59,7 +60,7 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> pointers of the hosted windowless ActiveX controls.
 

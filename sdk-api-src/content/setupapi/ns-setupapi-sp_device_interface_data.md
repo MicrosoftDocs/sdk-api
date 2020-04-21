@@ -1,7 +1,8 @@
 ---
 UID: NS:setupapi._SP_DEVICE_INTERFACE_DATA
 title: SP_DEVICE_INTERFACE_DATA (setupapi.h)
-description: An SP_DEVICE_INTERFACE_DATA structure defines a device interface in a device information set.helpviewer_keywords: ["*PSP_DEVICE_INTERFACE_DATA","PSP_DEVICE_INTERFACE_DATA","PSP_DEVICE_INTERFACE_DATA structure pointer [Device and Driver Installation]","SP_DEVICE_INTERFACE_DATA","SP_DEVICE_INTERFACE_DATA structure [Device and Driver Installation]","SP_INTERFACE_DEVICE_DATA","devinst.sp_device_interface_data","di-struct_6ad1a986-b29c-4adc-af28-e8895eee5ac4.xml","setupapi/PSP_DEVICE_INTERFACE_DATA","setupapi/SP_DEVICE_INTERFACE_DATA"]
+description: An SP_DEVICE_INTERFACE_DATA structure defines a device interface in a device information set.
+helpviewer_keywords: ["*PSP_DEVICE_INTERFACE_DATA","PSP_DEVICE_INTERFACE_DATA","PSP_DEVICE_INTERFACE_DATA structure pointer [Device and Driver Installation]","SP_DEVICE_INTERFACE_DATA","SP_DEVICE_INTERFACE_DATA structure [Device and Driver Installation]","SP_INTERFACE_DEVICE_DATA","devinst.sp_device_interface_data","di-struct_6ad1a986-b29c-4adc-af28-e8895eee5ac4.xml","setupapi/PSP_DEVICE_INTERFACE_DATA","setupapi/SP_DEVICE_INTERFACE_DATA"]
 old-location: devinst\sp_device_interface_data.htm
 tech.root: devinst
 ms.assetid: df142e95-aa1c-4d3e-90c6-bac86effbd5d
@@ -111,7 +112,7 @@ A SetupAPI function that takes an instance of the SP_DEVICE_INTERFACE_DATA struc
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/setupapi/ns-setupapi-sp_device_interface_detail_data_a">SP_DEVICE_INTERFACE_DETAIL_DATA</a>
+<a href="/windows/win32/api/setupapi/ns-setupapi-sp_device_interface_detail_data_a">SP_DEVICE_INTERFACE_DETAIL_DATA</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._STORAGE_DESCRIPTOR_HEADER
 title: STORAGE_DESCRIPTOR_HEADER
-description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve the properties of a storage device or adapter.helpviewer_keywords: ["*PSTORAGE_DESCRIPTOR_HEADER","PSTORAGE_DESCRIPTOR_HEADER","PSTORAGE_DESCRIPTOR_HEADER structure pointer [Files]","STORAGE_DESCRIPTOR_HEADER","STORAGE_DESCRIPTOR_HEADER structure [Files]","fs.storage_descriptor_header","winioctl/PSTORAGE_DESCRIPTOR_HEADER","winioctl/STORAGE_DESCRIPTOR_HEADER"]
+description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve the properties of a storage device or adapter.
+helpviewer_keywords: ["*PSTORAGE_DESCRIPTOR_HEADER","PSTORAGE_DESCRIPTOR_HEADER","PSTORAGE_DESCRIPTOR_HEADER structure pointer [Files]","STORAGE_DESCRIPTOR_HEADER","STORAGE_DESCRIPTOR_HEADER structure [Files]","fs.storage_descriptor_header","winioctl/PSTORAGE_DESCRIPTOR_HEADER","winioctl/STORAGE_DESCRIPTOR_HEADER"]
 old-location: fs\storage_descriptor_header.htm
 tech.root: FileIO
 ms.assetid: f98e53d5-45cb-4c3f-b04d-8eecd98655d2
@@ -102,7 +103,7 @@ The data retrieved by
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-storage_access_alignment_descriptor">STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-storage_access_alignment_descriptor">STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR</a>
 
 
 

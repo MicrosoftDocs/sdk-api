@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfRange.ShiftStartToRange
 title: ITfRange::ShiftStartToRange (msctf.h)
-description: ITfRange::ShiftStartToRange methodhelpviewer_keywords: ["ITfRange interface [Text Services Framework]","ShiftStartToRange method","ITfRange.ShiftStartToRange","ITfRange::ShiftStartToRange","ShiftStartToRange","ShiftStartToRange method [Text Services Framework]","ShiftStartToRange method [Text Services Framework]","ITfRange interface","_tsf_itfrange_shiftstarttorange_ref","msctf/ITfRange::ShiftStartToRange","tsf.itfrange_shiftstarttorange"]
+description: ITfRange::ShiftStartToRange method
+helpviewer_keywords: ["ITfRange interface [Text Services Framework]","ShiftStartToRange method","ITfRange.ShiftStartToRange","ITfRange::ShiftStartToRange","ShiftStartToRange","ShiftStartToRange method [Text Services Framework]","ShiftStartToRange method [Text Services Framework]","ITfRange interface","_tsf_itfrange_shiftstarttorange_ref","msctf/ITfRange::ShiftStartToRange","tsf.itfrange_shiftstarttorange"]
 old-location: tsf\itfrange_shiftstarttorange.htm
 tech.root: TSF
 ms.assetid: 8e3e40a0-71ba-4abf-ac99-99d66856746c
@@ -67,7 +68,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-m
 
 ### -param aPos [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor</a> values that specifies which anchor of <i>pRange</i> the start anchor is moved to.
+Contains one of the <a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor</a> values that specifies which anchor of <i>pRange</i> the start anchor is moved to.
 
 
 ## -returns
@@ -173,7 +174,7 @@ ITfRange::ShiftStart
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
+<a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
  
 

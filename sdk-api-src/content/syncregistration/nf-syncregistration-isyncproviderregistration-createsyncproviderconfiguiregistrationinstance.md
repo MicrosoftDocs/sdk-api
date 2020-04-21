@@ -1,7 +1,8 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance
 title: ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance (syncregistration.h)
-description: Creates an in-memory instance of a synchronization provider configuration UI.helpviewer_keywords: ["CreateSyncProviderConfigUIRegistrationInstance","CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync]","CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync]","ISyncProviderRegistration interface","ISyncProviderRegistration interface [Windows Sync]","CreateSyncProviderConfigUIRegistrationInstance method","ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance","ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance","syncregistration/ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance","winsync.isyncproviderregistration_createsyncproviderconfiguiregistrationinstance"]
+description: Creates an in-memory instance of a synchronization provider configuration UI.
+helpviewer_keywords: ["CreateSyncProviderConfigUIRegistrationInstance","CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync]","CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync]","ISyncProviderRegistration interface","ISyncProviderRegistration interface [Windows Sync]","CreateSyncProviderConfigUIRegistrationInstance method","ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance","ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance","syncregistration/ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance","winsync.isyncproviderregistration_createsyncproviderconfiguiregistrationinstance"]
 old-location: winsync\isyncproviderregistration_createsyncproviderconfiguiregistrationinstance.htm
 tech.root: winsync
 ms.assetid: a61b07b3-45ce-429e-9641-4cebc5b44c1b
@@ -59,7 +60,7 @@ Creates an in-memory instance of a synchronization provider configuration UI.
 
 ### -param pConfigUIConfig [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure that contains the configuration UI registration information.
+A <a href="/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure that contains the configuration UI registration information.
 
 
 ### -param ppConfigUIInfo [out]
@@ -135,7 +136,7 @@ The configuration UI is not registered on the system until the <b>ISyncProviderC
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration Structure</a>
+<a href="/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration Structure</a>
  
 
  

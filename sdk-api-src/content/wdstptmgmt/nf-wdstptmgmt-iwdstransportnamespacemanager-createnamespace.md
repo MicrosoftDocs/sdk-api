@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespaceManager.CreateNamespace
 title: IWdsTransportNamespaceManager::CreateNamespace (wdstptmgmt.h)
-description: Creates an object of an IWdsTransportNamespace interface that can be registered on the current WDS transport server.helpviewer_keywords: ["CreateNamespace","CreateNamespace method [Windows Deployment Services]","CreateNamespace method [Windows Deployment Services]","IWdsTransportNamespaceManager interface","IWdsTransportNamespaceManager interface [Windows Deployment Services]","CreateNamespace method","IWdsTransportNamespaceManager.CreateNamespace","IWdsTransportNamespaceManager::CreateNamespace","wds.iwdstransportnamespacemanager_createnamespace","wdstptmgmt/IWdsTransportNamespaceManager::CreateNamespace"]
+description: Creates an object of an IWdsTransportNamespace interface that can be registered on the current WDS transport server.
+helpviewer_keywords: ["CreateNamespace","CreateNamespace method [Windows Deployment Services]","CreateNamespace method [Windows Deployment Services]","IWdsTransportNamespaceManager interface","IWdsTransportNamespaceManager interface [Windows Deployment Services]","CreateNamespace method","IWdsTransportNamespaceManager.CreateNamespace","IWdsTransportNamespaceManager::CreateNamespace","wds.iwdstransportnamespacemanager_createnamespace","wdstptmgmt/IWdsTransportNamespaceManager::CreateNamespace"]
 old-location: wds\iwdstransportnamespacemanager_createnamespace.htm
 tech.root: wds
 ms.assetid: fda205d6-f99a-4fec-96bb-0e37e9ca16ce
@@ -59,7 +60,7 @@ Creates an object of an <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ### -param NamespaceType [in]
 
-The type of the new namespace object. This can be one of the namespace types listed by the <a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration. 
+The type of the new namespace object. This can be one of the namespace types listed by the <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration. 
 
 
 ### -param bszNamespaceName [in]
@@ -104,7 +105,7 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a>
+<a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a>
  
 
  

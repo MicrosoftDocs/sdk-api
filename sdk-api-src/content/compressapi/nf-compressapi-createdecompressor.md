@@ -1,7 +1,8 @@
 ---
 UID: NF:compressapi.CreateDecompressor
 title: CreateDecompressor function (compressapi.h)
-description: Generates a new DECOMPRESSOR_HANDLE.helpviewer_keywords: ["COMPRESS_ALGORITHM_LZMS","COMPRESS_ALGORITHM_MSZIP","COMPRESS_ALGORITHM_XPRESS","COMPRESS_ALGORITHM_XPRESS_HUFF","CreateDecompressor","CreateDecompressor function [Compression API]","cmpapi.createdecompressor","compressapi/CreateDecompressor"]
+description: Generates a new DECOMPRESSOR_HANDLE.
+helpviewer_keywords: ["COMPRESS_ALGORITHM_LZMS","COMPRESS_ALGORITHM_MSZIP","COMPRESS_ALGORITHM_XPRESS","COMPRESS_ALGORITHM_XPRESS_HUFF","CreateDecompressor","CreateDecompressor function [Compression API]","cmpapi.createdecompressor","compressapi/CreateDecompressor"]
 old-location: cmpapi\createdecompressor.htm
 tech.root: cmpapi
 ms.assetid: a30b3ebe-24ef-4615-a555-a0383b46cd15
@@ -121,7 +122,7 @@ LZMS compression algorithm
 
 ### -param AllocationRoutines [in, optional]
 
-Optional memory allocation and deallocation routines in a <a href="https://docs.microsoft.com/windows/win32/api/compressapi/ns-compressapi-compress_allocation_routines">COMPRESS_ALLOCATION_ROUTINES</a> structure.
+Optional memory allocation and deallocation routines in a <a href="/windows/win32/api/compressapi/ns-compressapi-compress_allocation_routines">COMPRESS_ALLOCATION_ROUTINES</a> structure.
 
 
 ### -param DecompressorHandle [out]
@@ -152,7 +153,7 @@ If the compression algorithm fails for some internal reason, the error from <a h
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/compressapi/ns-compressapi-compress_allocation_routines">COMPRESS_ALLOCATION_ROUTINES</a>
+<a href="/windows/win32/api/compressapi/ns-compressapi-compress_allocation_routines">COMPRESS_ALLOCATION_ROUTINES</a>
 
 
 

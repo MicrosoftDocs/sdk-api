@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_AUTH_TRANSFORM_ID0_
 title: IPSEC_AUTH_TRANSFORM_ID0 (ipsectypes.h)
-description: Is used to uniquely identify the hash algorithm used in an IPsec security association (SA).helpviewer_keywords: ["IPSEC_AUTH_CONFIG_GCM_AES_128","IPSEC_AUTH_CONFIG_GCM_AES_192","IPSEC_AUTH_CONFIG_GCM_AES_256","IPSEC_AUTH_CONFIG_HMAC_MD5_96","IPSEC_AUTH_CONFIG_HMAC_SHA_1_96","IPSEC_AUTH_CONFIG_HMAC_SHA_256_128","IPSEC_AUTH_TRANSFORM_ID0","IPSEC_AUTH_TRANSFORM_ID0 structure [Filtering]","fwp.ipsec_auth_transform_id0_struct","ipsectypes/IPSEC_AUTH_TRANSFORM_ID0"]
+description: Is used to uniquely identify the hash algorithm used in an IPsec security association (SA).
+helpviewer_keywords: ["IPSEC_AUTH_CONFIG_GCM_AES_128","IPSEC_AUTH_CONFIG_GCM_AES_192","IPSEC_AUTH_CONFIG_GCM_AES_256","IPSEC_AUTH_CONFIG_HMAC_MD5_96","IPSEC_AUTH_CONFIG_HMAC_SHA_1_96","IPSEC_AUTH_CONFIG_HMAC_SHA_256_128","IPSEC_AUTH_TRANSFORM_ID0","IPSEC_AUTH_TRANSFORM_ID0 structure [Filtering]","fwp.ipsec_auth_transform_id0_struct","ipsectypes/IPSEC_AUTH_TRANSFORM_ID0"]
 old-location: fwp\ipsec_auth_transform_id0_struct.htm
 tech.root: fwp
 ms.assetid: b8474e98-451d-4347-9369-367f16f83cf6
@@ -59,7 +60,7 @@ The <b>IPSEC_AUTH_TRANSFORM_ID0</b> structure is used to uniquely identify the h
 
 ### -field authType
 
-The type of the hash algorithm as specified by [IPSEC_AUTH_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_auth_type)a>.
+The type of the hash algorithm as specified by [IPSEC_AUTH_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_auth_type).
 
 
 ### -field authConfig

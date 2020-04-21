@@ -1,7 +1,8 @@
 ---
 UID: NE:minidumpapiset._MINIDUMP_TYPE
 title: MINIDUMP_TYPE (minidumpapiset.h)
-description: Identifies the type of information that will be written to the minidump file by the MiniDumpWriteDump function.helpviewer_keywords: ["MINIDUMP_TYPE","MINIDUMP_TYPE enumeration","MiniDumpFilterMemory","MiniDumpFilterModulePaths","MiniDumpFilterTriage","MiniDumpIgnoreInaccessibleMemory","MiniDumpNormal","MiniDumpScanMemory","MiniDumpValidTypeFlags","MiniDumpWithCodeSegs","MiniDumpWithDataSegs","MiniDumpWithFullAuxiliaryState","MiniDumpWithFullMemory","MiniDumpWithFullMemoryInfo","MiniDumpWithHandleData","MiniDumpWithIndirectlyReferencedMemory","MiniDumpWithModuleHeaders","MiniDumpWithPrivateReadWriteMemory","MiniDumpWithPrivateWriteCopyMemory","MiniDumpWithProcessThreadData","MiniDumpWithThreadInfo","MiniDumpWithTokenInformation","MiniDumpWithUnloadedModules","MiniDumpWithoutAuxiliaryState","MiniDumpWithoutOptionalData","_win32_minidump_type","base.minidump_type","minidumpapiset/MINIDUMP_TYPE","minidumpapiset/MiniDumpFilterMemory","minidumpapiset/MiniDumpFilterModulePaths","minidumpapiset/MiniDumpFilterTriage","minidumpapiset/MiniDumpIgnoreInaccessibleMemory","minidumpapiset/MiniDumpNormal","minidumpapiset/MiniDumpScanMemory","minidumpapiset/MiniDumpValidTypeFlags","minidumpapiset/MiniDumpWithCodeSegs","minidumpapiset/MiniDumpWithDataSegs","minidumpapiset/MiniDumpWithFullAuxiliaryState","minidumpapiset/MiniDumpWithFullMemory","minidumpapiset/MiniDumpWithFullMemoryInfo","minidumpapiset/MiniDumpWithHandleData","minidumpapiset/MiniDumpWithIndirectlyReferencedMemory","minidumpapiset/MiniDumpWithModuleHeaders","minidumpapiset/MiniDumpWithPrivateReadWriteMemory","minidumpapiset/MiniDumpWithPrivateWriteCopyMemory","minidumpapiset/MiniDumpWithProcessThreadData","minidumpapiset/MiniDumpWithThreadInfo","minidumpapiset/MiniDumpWithTokenInformation","minidumpapiset/MiniDumpWithUnloadedModules","minidumpapiset/MiniDumpWithoutAuxiliaryState","minidumpapiset/MiniDumpWithoutOptionalData"]
+description: Identifies the type of information that will be written to the minidump file by the MiniDumpWriteDump function.
+helpviewer_keywords: ["MINIDUMP_TYPE","MINIDUMP_TYPE enumeration","MiniDumpFilterMemory","MiniDumpFilterModulePaths","MiniDumpFilterTriage","MiniDumpIgnoreInaccessibleMemory","MiniDumpNormal","MiniDumpScanMemory","MiniDumpValidTypeFlags","MiniDumpWithCodeSegs","MiniDumpWithDataSegs","MiniDumpWithFullAuxiliaryState","MiniDumpWithFullMemory","MiniDumpWithFullMemoryInfo","MiniDumpWithHandleData","MiniDumpWithIndirectlyReferencedMemory","MiniDumpWithModuleHeaders","MiniDumpWithPrivateReadWriteMemory","MiniDumpWithPrivateWriteCopyMemory","MiniDumpWithProcessThreadData","MiniDumpWithThreadInfo","MiniDumpWithTokenInformation","MiniDumpWithUnloadedModules","MiniDumpWithoutAuxiliaryState","MiniDumpWithoutOptionalData","_win32_minidump_type","base.minidump_type","minidumpapiset/MINIDUMP_TYPE","minidumpapiset/MiniDumpFilterMemory","minidumpapiset/MiniDumpFilterModulePaths","minidumpapiset/MiniDumpFilterTriage","minidumpapiset/MiniDumpIgnoreInaccessibleMemory","minidumpapiset/MiniDumpNormal","minidumpapiset/MiniDumpScanMemory","minidumpapiset/MiniDumpValidTypeFlags","minidumpapiset/MiniDumpWithCodeSegs","minidumpapiset/MiniDumpWithDataSegs","minidumpapiset/MiniDumpWithFullAuxiliaryState","minidumpapiset/MiniDumpWithFullMemory","minidumpapiset/MiniDumpWithFullMemoryInfo","minidumpapiset/MiniDumpWithHandleData","minidumpapiset/MiniDumpWithIndirectlyReferencedMemory","minidumpapiset/MiniDumpWithModuleHeaders","minidumpapiset/MiniDumpWithPrivateReadWriteMemory","minidumpapiset/MiniDumpWithPrivateWriteCopyMemory","minidumpapiset/MiniDumpWithProcessThreadData","minidumpapiset/MiniDumpWithThreadInfo","minidumpapiset/MiniDumpWithTokenInformation","minidumpapiset/MiniDumpWithUnloadedModules","minidumpapiset/MiniDumpWithoutAuxiliaryState","minidumpapiset/MiniDumpWithoutOptionalData"]
 old-location: base\minidump_type.htm
 tech.root: Debug
 ms.assetid: 89ae3a75-5f02-4c5e-9d72-95fb8ef94985
@@ -104,7 +105,7 @@ Stack and backing store memory written to the minidump file should be filtered t
 
 Stack and backing store memory should be scanned for pointer references to modules in the module list. If a 
       module is referenced by stack or backing store memory, the <b>ModuleWriteFlags</b> member of 
-      the <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> structure is 
+      the <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> structure is 
       set to <b>ModuleReferencedByMemory</b>.
 
 
@@ -167,7 +168,7 @@ Reduce the data that is dumped by eliminating memory regions that are not essent
 ### -field MiniDumpWithFullMemoryInfo
 
 Include memory region information. For more information, see 
-      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>.
+      <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>.
       
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
@@ -176,7 +177,7 @@ Include memory region information. For more information, see
 ### -field MiniDumpWithThreadInfo
 
 Include thread state information. For more information, see 
-      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_info_list">MINIDUMP_THREAD_INFO_LIST</a>.
+      <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_info_list">MINIDUMP_THREAD_INFO_LIST</a>.
       
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.

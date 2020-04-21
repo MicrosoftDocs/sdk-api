@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IQueryParser.SetMultiOption
 title: IQueryParser::SetMultiOption (structuredquery.h)
-description: Sets a complex option, such as a specified condition generator, to use when parsing an input string.helpviewer_keywords: ["IQueryParser interface [search]","SetMultiOption method","IQueryParser.SetMultiOption","IQueryParser::SetMultiOption","SetMultiOption","SetMultiOption method [search]","SetMultiOption method [search]","IQueryParser interface","_search_IQueryParser_SetMultiOption","search._search_IQueryParser_SetMultiOption","structuredquery/IQueryParser::SetMultiOption"]
+description: Sets a complex option, such as a specified condition generator, to use when parsing an input string.
+helpviewer_keywords: ["IQueryParser interface [search]","SetMultiOption method","IQueryParser.SetMultiOption","IQueryParser::SetMultiOption","SetMultiOption","SetMultiOption method [search]","SetMultiOption method [search]","IQueryParser interface","_search_IQueryParser_SetMultiOption","search._search_IQueryParser_SetMultiOption","structuredquery/IQueryParser::SetMultiOption"]
 old-location: search\_search_IQueryParser_SetMultiOption.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\setmultioption.htm
@@ -59,7 +60,7 @@ Sets a complex option, such as a specified condition generator, to use when pars
 
 ### -param option [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a></b>
+Type: <b><a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a></b>
 
 The complex option to be set.
         
@@ -69,7 +70,7 @@ The complex option to be set.
 
 Type: <b>LPCWSTR</b>
 
-A Unicode string that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a>.
+A Unicode string that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a>.
         
 
 
@@ -77,7 +78,7 @@ A Unicode string that is interpreted differently for each value of the <i>option
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-structured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a>.
+Pointer to a <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-structured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a>.
         
 
 

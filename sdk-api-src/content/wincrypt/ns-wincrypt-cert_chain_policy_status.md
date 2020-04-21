@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_CHAIN_POLICY_STATUS
 title: CERT_CHAIN_POLICY_STATUS (wincrypt.h)
-description: Holds certificate chain status information returned by the CertVerifyCertificateChainPolicy function when the certificate chains are validated.helpviewer_keywords: ["*PCERT_CHAIN_POLICY_STATUS","CERT_CHAIN_POLICY_STATUS","CERT_CHAIN_POLICY_STATUS structure [Security]","CERT_E_CHAINING","CERT_E_CN_NO_MATCH","CERT_E_CRITICAL","CERT_E_EXPIRED","CERT_E_INVALID_NAME","CERT_E_INVALID_POLICY","CERT_E_PURPOSE","CERT_E_REVOCATION_FAILURE","CERT_E_REVOKED","CERT_E_ROLE","CERT_E_UNTRUSTEDROOT","CERT_E_UNTRUSTEDTESTROOT","CERT_E_VALIDITYPERIODNESTING","CERT_E_WRONG_USAGE","CRYPT_E_NO_REVOCATION_CHECK","CRYPT_E_REVOCATION_OFFLINE","CRYPT_E_REVOKED","PCERT_CHAIN_POLICY_STATUS","PCERT_CHAIN_POLICY_STATUS structure pointer [Security]","TRUST_E_BASIC_CONSTRAINTS","TRUST_E_CERT_SIGNATURE","_crypto2_cert_chain_policy_status","security.cert_chain_policy_status","wincrypt/CERT_CHAIN_POLICY_STATUS","wincrypt/PCERT_CHAIN_POLICY_STATUS"]
+description: Holds certificate chain status information returned by the CertVerifyCertificateChainPolicy function when the certificate chains are validated.
+helpviewer_keywords: ["*PCERT_CHAIN_POLICY_STATUS","CERT_CHAIN_POLICY_STATUS","CERT_CHAIN_POLICY_STATUS structure [Security]","CERT_E_CHAINING","CERT_E_CN_NO_MATCH","CERT_E_CRITICAL","CERT_E_EXPIRED","CERT_E_INVALID_NAME","CERT_E_INVALID_POLICY","CERT_E_PURPOSE","CERT_E_REVOCATION_FAILURE","CERT_E_REVOKED","CERT_E_ROLE","CERT_E_UNTRUSTEDROOT","CERT_E_UNTRUSTEDTESTROOT","CERT_E_VALIDITYPERIODNESTING","CERT_E_WRONG_USAGE","CRYPT_E_NO_REVOCATION_CHECK","CRYPT_E_REVOCATION_OFFLINE","CRYPT_E_REVOKED","PCERT_CHAIN_POLICY_STATUS","PCERT_CHAIN_POLICY_STATUS structure pointer [Security]","TRUST_E_BASIC_CONSTRAINTS","TRUST_E_CERT_SIGNATURE","_crypto2_cert_chain_policy_status","security.cert_chain_policy_status","wincrypt/CERT_CHAIN_POLICY_STATUS","wincrypt/PCERT_CHAIN_POLICY_STATUS"]
 old-location: security\cert_chain_policy_status.htm
 tech.root: SecCrypto
 ms.assetid: 599a09b6-fe9e-4489-99ae-8a88fa78a660
@@ -440,7 +441,7 @@ Index that indicates the element in a chain where an error or condition that is 
 ### -field pvExtraPolicyStatus
 
 A pointer to a structure. The structure type is determined by the value of the <b>pszPolicyOID</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function. In addition to <b>dwError</b> errors, policy OID–specific extra status can also be returned here to provide additional chain status information. This pointer can be optionally set to point to an 
-<a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-authenticode_extra_cert_chain_policy_status">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
+<a href="/windows/win32/api/wincrypt/ns-wincrypt-authenticode_extra_cert_chain_policy_status">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
 
 
 ## -remarks

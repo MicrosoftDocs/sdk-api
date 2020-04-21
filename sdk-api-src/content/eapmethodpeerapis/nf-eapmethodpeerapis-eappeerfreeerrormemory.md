@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerFreeErrorMemory
 title: EapPeerFreeErrorMemory function (eapmethodpeerapis.h)
-description: Releases error-specific memory allocated by the EAP peer method.helpviewer_keywords: ["EapPeerFreeErrorMemory","EapPeerFreeErrorMemory function [EAPHost]","eaphost.eappeerfreeerrormemory","eapmethodpeerapis/EapPeerFreeErrorMemory"]
+description: Releases error-specific memory allocated by the EAP peer method.
+helpviewer_keywords: ["EapPeerFreeErrorMemory","EapPeerFreeErrorMemory function [EAPHost]","eaphost.eappeerfreeerrormemory","eapmethodpeerapis/EapPeerFreeErrorMemory"]
 old-location: eaphost\eappeerfreeerrormemory.htm
 tech.root: eaphost
 ms.assetid: 85b4197c-5caf-4e2b-94fd-e651712dd39d
@@ -76,7 +77,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-configuration-functions)a>
+[EAPHost Peer Method Configuration Functions](/windows/win32/eaphost/eaphost-peer-method-configuration-functions)
 
 
 

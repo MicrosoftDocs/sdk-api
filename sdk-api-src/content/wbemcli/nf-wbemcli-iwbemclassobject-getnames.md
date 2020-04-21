@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetNames
 title: IWbemClassObject::GetNames (wbemcli.h)
-description: Retrieves the names of the properties in the object.helpviewer_keywords: ["GetNames","GetNames method [Windows Management Instrumentation]","GetNames method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","GetNames method","IWbemClassObject.GetNames","IWbemClassObject::GetNames","_hmm_iwbemclassobject_getnames","wbemcli/IWbemClassObject::GetNames","wmi.iwbemclassobject_getnames"]
+description: Retrieves the names of the properties in the object.
+helpviewer_keywords: ["GetNames","GetNames method [Windows Management Instrumentation]","GetNames method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","GetNames method","IWbemClassObject.GetNames","IWbemClassObject::GetNames","_hmm_iwbemclassobject_getnames","wbemcli/IWbemClassObject::GetNames","wmi.iwbemclassobject_getnames"]
 old-location: wmi\iwbemclassobject_getnames.htm
 tech.root: WmiSdk
 ms.assetid: fc75fb17-52a2-40dd-b333-fcd01cae1430
@@ -202,7 +203,7 @@ For more information about using <b>SAFEARRAY</b> structures of
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_condition_flag_type">WBEM_CONDITION_FLAG_TYPE</a>
+<a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_condition_flag_type">WBEM_CONDITION_FLAG_TYPE</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device5.CreateMetaCommand
 title: ID3D12Device5::CreateMetaCommand (d3d12.h)
-description: Creates an instance of the specified meta command.helpviewer_keywords: ["CreateMetaCommand","CreateMetaCommand method","CreateMetaCommand method","ID3D12Device5 interface","ID3D12Device5 interface","CreateMetaCommand method","ID3D12Device5.CreateMetaCommand","ID3D12Device5::CreateMetaCommand","d3d12/ID3D12Device5::CreateMetaCommand","direct3d12.id3d12device5_createmetacommand"]
+description: Creates an instance of the specified meta command.
+helpviewer_keywords: ["CreateMetaCommand","CreateMetaCommand method","CreateMetaCommand method","ID3D12Device5 interface","ID3D12Device5 interface","CreateMetaCommand method","ID3D12Device5.CreateMetaCommand","ID3D12Device5::CreateMetaCommand","d3d12/ID3D12Device5::CreateMetaCommand","direct3d12.id3d12device5_createmetacommand"]
 old-location: direct3d12\id3d12device5_createmetacommand.htm
 tech.root: direct3d12
 ms.assetid: 70AB644F-7406-4271-89C9-8D38FE3B4D7A
@@ -77,13 +78,13 @@ A <a href="/windows/win32/WinProg/windows-data-types">SIZE_T</a> containing the 
 
 Type: <b>REFIID</b>
 
-A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppMetaCommand</i>. This is expected to be the GUID of <a href="https://docs.microsoft.com/windows/win32/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>.
+A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppMetaCommand</i>. This is expected to be the GUID of <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>.
 
 ### -param ppMetaCommand [out]
 
 Type: <b>void**</b>
 
-A pointer to a memory block that receives a pointer to the meta command. This is the address of a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>, representing  the meta command created.
+A pointer to a memory block that receives a pointer to the meta command. This is the address of a pointer to an <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>, representing  the meta command created.
 
 ## -returns
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2ipdef.sockaddr_in6
 title: SOCKADDR_IN6_LH (ws2ipdef.h)
-description: The SOCKADDR_IN6 structure specifies a transport address and port for the AF_INET6 address family.helpviewer_keywords: ["*LPSOCKADDR_IN6","*LPSOCKADDR_IN6_LH","*PSOCKADDR_IN6","*PSOCKADDR_IN6_LH","PSOCKADDR_IN6","PSOCKADDR_IN6 structure pointer [Network Drivers Starting with Windows Vista]","SOCKADDR_IN6","SOCKADDR_IN6 structure [Network Drivers Starting with Windows Vista]","SOCKADDR_IN6_LH","netvista.sockaddr_in6","ws2ipdef/PSOCKADDR_IN6","ws2ipdef/SOCKADDR_IN6","wskref_7e70684f-ef0d-45c5-8075-3e9b6fa87337.xml"]
+description: The SOCKADDR_IN6 structure specifies a transport address and port for the AF_INET6 address family.
+helpviewer_keywords: ["*LPSOCKADDR_IN6","*LPSOCKADDR_IN6_LH","*PSOCKADDR_IN6","*PSOCKADDR_IN6_LH","PSOCKADDR_IN6","PSOCKADDR_IN6 structure pointer [Network Drivers Starting with Windows Vista]","SOCKADDR_IN6","SOCKADDR_IN6 structure [Network Drivers Starting with Windows Vista]","SOCKADDR_IN6_LH","netvista.sockaddr_in6","ws2ipdef/PSOCKADDR_IN6","ws2ipdef/SOCKADDR_IN6","wskref_7e70684f-ef0d-45c5-8075-3e9b6fa87337.xml"]
 old-location: netvista\sockaddr_in6.htm
 tech.root: NetVista
 ms.assetid: ef2955d2-5dc1-420b-a9e0-32a584059d5a
@@ -186,7 +187,7 @@ All of the data in the SOCKADDR_IN6 structure, except for the address family, mu
 The size of the SOCKADDR_IN6 structure is too large to fit in the memory space that is provided by a 
     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure. For a structure that is
     guaranteed to be large enough to contain a transport address for all possible address families, see 
-    [SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)a>.
+    [SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh).
 
 
 
@@ -208,7 +209,7 @@ The size of the SOCKADDR_IN6 structure is too large to fit in the memory space t
 
 
 
-[SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)a>
+[SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)
  
 
  

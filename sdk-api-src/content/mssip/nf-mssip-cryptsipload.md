@@ -1,7 +1,8 @@
 ---
 UID: NF:mssip.CryptSIPLoad
 title: CryptSIPLoad function (mssip.h)
-description: Loads the dynamic-link library (DLL) that implements a subject interface package (SIP) and assigns appropriate library export functions to a SIP_DISPATCH_INFO structure.helpviewer_keywords: ["CryptSIPLoad","CryptSIPLoad function [Security]","mssip/CryptSIPLoad","security.cryptsipload"]
+description: Loads the dynamic-link library (DLL) that implements a subject interface package (SIP) and assigns appropriate library export functions to a SIP_DISPATCH_INFO structure.
+helpviewer_keywords: ["CryptSIPLoad","CryptSIPLoad function [Security]","mssip/CryptSIPLoad","security.cryptsipload"]
 old-location: security\cryptsipload.htm
 tech.root: SecCrypto
 ms.assetid: 3378ecee-bd5d-45e5-9a1f-a3734d086782
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The [SIP_DISPATCH_INFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info)a> structure. The exported functions must have been previously registered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a> function.
+The [SIP_DISPATCH_INFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info) structure. The exported functions must have been previously registered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a> function.
 
 
 ## -parameters
@@ -69,7 +70,7 @@ This parameter is reserved and must be set to zero.
 
 ### -param pSipDispatch [in, out]
 
-A pointer to a [SIP_DISPATCH_INFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info)a> structure that contains pointers to SIP provider functions that are specific to the subject type. The caller must initialize this structure to binary zeros, and set the <b>cbSize</b> member to <code>sizeof(SIP_DISPATCH_INFO)</code> before calling the <b>CryptSIPLoad</b> function.
+A pointer to a [SIP_DISPATCH_INFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info) structure that contains pointers to SIP provider functions that are specific to the subject type. The caller must initialize this structure to binary zeros, and set the <b>cbSize</b> member to <code>sizeof(SIP_DISPATCH_INFO)</code> before calling the <b>CryptSIPLoad</b> function.
 
 
 ## -returns

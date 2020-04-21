@@ -1,7 +1,8 @@
 ---
 UID: NC:winwlx.PWLX_QUERY_TS_LOGON_CREDENTIALS
 title: PWLX_QUERY_TS_LOGON_CREDENTIALS (winwlx.h)
-description: Called by a replacement GINA DLL to retrieve credentials information if Terminal Services is enabled. The GINA DLL can then use this information to fill in a logon box automatically and attempt to log the user in.helpviewer_keywords: ["PWLX_QUERY_TS_LOGON_CREDENTIALS","PWLX_QUERY_TS_LOGON_CREDENTIALS callback","WlxQueryTsLogonCredentials","WlxQueryTsLogonCredentials callback function [Security]","security.wlxquerytslogoncredentials","winwlx/WlxQueryTsLogonCredentials"]
+description: Called by a replacement GINA DLL to retrieve credentials information if Terminal Services is enabled. The GINA DLL can then use this information to fill in a logon box automatically and attempt to log the user in.
+helpviewer_keywords: ["PWLX_QUERY_TS_LOGON_CREDENTIALS","PWLX_QUERY_TS_LOGON_CREDENTIALS callback","WlxQueryTsLogonCredentials","WlxQueryTsLogonCredentials callback function [Security]","security.wlxquerytslogoncredentials","winwlx/WlxQueryTsLogonCredentials"]
 old-location: security\wlxquerytslogoncredentials.htm
 tech.root: SecAuthN
 ms.assetid: 1365b798-682e-4cdb-b8f5-9e7c65366154
@@ -61,7 +62,7 @@ Called by a replacement
 
 ### -param pCred [out]
 
-When the return value is <b>TRUE</b>, <i>pCred</i> specifies a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v2_0">WLX_CLIENT_CREDENTIALS_INFO_V2_0</a> structure that contains the credentials to use for auto logon.
+When the return value is <b>TRUE</b>, <i>pCred</i> specifies a pointer to a <a href="/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v2_0">WLX_CLIENT_CREDENTIALS_INFO_V2_0</a> structure that contains the credentials to use for auto logon.
 
 
 ## -returns
@@ -125,7 +126,7 @@ Other Winlogon support functions that may be called when Terminal Services is en
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v2_0">WLX_CLIENT_CREDENTIALS_INFO_V2_0</a>
+<a href="/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v2_0">WLX_CLIENT_CREDENTIALS_INFO_V2_0</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadTerminate
 title: IComThreadEvents::OnThreadTerminate (comsvcs.h)
-description: Generated when a single-threaded apartment (STA) thread is terminated.helpviewer_keywords: ["IComThreadEvents interface [COM+]","OnThreadTerminate method","IComThreadEvents.OnThreadTerminate","IComThreadEvents::OnThreadTerminate","OnThreadTerminate","OnThreadTerminate method [COM+]","OnThreadTerminate method [COM+]","IComThreadEvents interface","_dtc_IComThreadEvents_OnThreadTerminate","comsvcs/IComThreadEvents::OnThreadTerminate","cos.icomthreadevents_onthreadterminate"]
+description: Generated when a single-threaded apartment (STA) thread is terminated.
+helpviewer_keywords: ["IComThreadEvents interface [COM+]","OnThreadTerminate method","IComThreadEvents.OnThreadTerminate","IComThreadEvents::OnThreadTerminate","OnThreadTerminate","OnThreadTerminate method [COM+]","OnThreadTerminate method [COM+]","IComThreadEvents interface","_dtc_IComThreadEvents_OnThreadTerminate","comsvcs/IComThreadEvents::OnThreadTerminate","cos.icomthreadevents_onthreadterminate"]
 old-location: cos\icomthreadevents_onthreadterminate.htm
 tech.root: cossdk
 ms.assetid: 8483962c-46c9-4ef1-8c7e-391a04334293
@@ -59,7 +60,7 @@ Generated when a single-threaded apartment (STA) thread is terminated.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param ThreadID [in]

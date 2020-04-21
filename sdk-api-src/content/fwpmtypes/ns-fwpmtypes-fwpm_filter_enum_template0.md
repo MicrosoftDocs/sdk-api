@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER_ENUM_TEMPLATE0_
 title: FWPM_FILTER_ENUM_TEMPLATE0 (fwpmtypes.h)
-description: Is used for enumerating filters.helpviewer_keywords: ["FWPM_FILTER_ENUM_TEMPLATE0","FWPM_FILTER_ENUM_TEMPLATE0 structure [Filtering]","FWP_ACTION_FLAG_CALLOUT","FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH","FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY","FWP_FILTER_ENUM_FLAG_INCLUDE_BOOTTIME","FWP_FILTER_ENUM_FLAG_INCLUDE_DISABLED","FWP_FILTER_ENUM_FLAG_SORTED","fwp.fwpm_filter_enum_template0_struct","fwpmtypes/FWPM_FILTER_ENUM_TEMPLATE0"]
+description: Is used for enumerating filters.
+helpviewer_keywords: ["FWPM_FILTER_ENUM_TEMPLATE0","FWPM_FILTER_ENUM_TEMPLATE0 structure [Filtering]","FWP_ACTION_FLAG_CALLOUT","FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH","FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY","FWP_FILTER_ENUM_FLAG_INCLUDE_BOOTTIME","FWP_FILTER_ENUM_FLAG_INCLUDE_DISABLED","FWP_FILTER_ENUM_FLAG_SORTED","fwp.fwpm_filter_enum_template0_struct","fwpmtypes/FWPM_FILTER_ENUM_TEMPLATE0"]
 old-location: fwp\fwpm_filter_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 5ae77ee2-42b2-4794-afec-80360fe4f4da
@@ -69,7 +70,7 @@ Layer whose fields are to be enumerated.
 
 ### -field enumType
 
-A [FWP_FILTER_ENUM_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type)a> value that determines how the filter conditions are interpreted. 
+A [FWP_FILTER_ENUM_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type) value that determines how the filter conditions are interpreted. 
 
 
 ### -field flags
@@ -135,7 +136,7 @@ Include disabled filters; ignored if the <b>FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY</
 
 ### -field providerContextTemplate
 
-A <a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> structure that is used to limit the number of filters enumerated. If non-<b>NULL</b>, only enumerate filters whose provider context matches the
+A <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> structure that is used to limit the number of filters enumerated. If non-<b>NULL</b>, only enumerate filters whose provider context matches the
    template. 
 
 
@@ -146,7 +147,7 @@ Number of filter conditions. If zero, then all filters match.
 
 ### -field filterCondition
 
-An array of [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a> structures that contain distinct filter conditions (duplicated filter conditions will generate an error). 
+An array of [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0) structures that contain distinct filter conditions (duplicated filter conditions will generate an error). 
 
 
 ### -field actionMask
@@ -206,15 +207,15 @@ Uniquely identifies the callout.
 
 
 
-[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a>
+[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
+<a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
 
 
 
-[FWP_FILTER_ENUM_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type)a>
+[FWP_FILTER_ENUM_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type)
 
 
 

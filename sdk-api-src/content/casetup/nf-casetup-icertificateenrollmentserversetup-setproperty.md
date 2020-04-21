@@ -1,7 +1,8 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.SetProperty
 title: ICertificateEnrollmentServerSetup::SetProperty (casetup.h)
-description: Specifies a CESSetupProperty enumeration value for the Certificate Enrollment Web Service (CES) configuration.helpviewer_keywords: ["ICertificateEnrollmentServerSetup interface [Security]","SetProperty method","ICertificateEnrollmentServerSetup.SetProperty","ICertificateEnrollmentServerSetup::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","ICertificateEnrollmentServerSetup interface","casetup/ICertificateEnrollmentServerSetup::SetProperty","security.icertificateenrollmentserversetup_setproperty"]
+description: Specifies a CESSetupProperty enumeration value for the Certificate Enrollment Web Service (CES) configuration.
+helpviewer_keywords: ["ICertificateEnrollmentServerSetup interface [Security]","SetProperty method","ICertificateEnrollmentServerSetup.SetProperty","ICertificateEnrollmentServerSetup::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","ICertificateEnrollmentServerSetup interface","casetup/ICertificateEnrollmentServerSetup::SetProperty","security.icertificateenrollmentserversetup_setproperty"]
 old-location: security\icertificateenrollmentserversetup_setproperty.htm
 tech.root: SecCrypto
 ms.assetid: D2E20195-D81F-4717-83D2-BF8DC1D1779B
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetProperty</b> method specifies a <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the Certificate Enrollment Web Service (CES) configuration.
+The <b>SetProperty</b> method specifies a <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the Certificate Enrollment Web Service (CES) configuration.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ The <b>SetProperty</b> method specifies a <a href="https://docs.microsoft.com/wi
 
 ### -param propertyId [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value that specifies the property value to retrieve.
+A <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value that specifies the property value to retrieve.
 
 
 ### -param pPropertyValue [in]
@@ -83,7 +84,7 @@ A pointer to a <b>VARIANT</b> variable that contains the property value.
 </dl>
 </td>
 <td width="60%">
-The <i>propertyId</i> argument is not a member of the <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration type.
+The <i>propertyId</i> argument is not a member of the <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration type.
 
 Also, if you are setting the <b>ENUM_CESSETUPPROP_AUTHENTICATION</b> property, you must specify one of the following values in the <i>pPropertyValue</i> argument:<ul>
 <li><b>X509AuthKerberos</b></li>

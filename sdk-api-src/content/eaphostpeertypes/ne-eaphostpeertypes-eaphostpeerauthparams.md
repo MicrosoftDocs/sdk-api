@@ -1,7 +1,8 @@
 ---
 UID: NE:eaphostpeertypes.tagEapHostPeerAuthParams
 title: EapHostPeerAuthParams (eaphostpeertypes.h)
-description: Defines the set of possible authentication parameter values.helpviewer_keywords: ["EapHostNapInfo","EapHostPeerAuthParams","EapHostPeerAuthParams enumeration [EAPHost]","EapHostPeerAuthStatus","EapHostPeerIdentity","EapHostPeerIdentityExtendedInfo","eaphost.eaphostpeerauthparams","eaphostpeertypes/EapHostNapInfo","eaphostpeertypes/EapHostPeerAuthParams","eaphostpeertypes/EapHostPeerAuthStatus","eaphostpeertypes/EapHostPeerIdentity","eaphostpeertypes/EapHostPeerIdentityExtendedInfo"]
+description: Defines the set of possible authentication parameter values.
+helpviewer_keywords: ["EapHostNapInfo","EapHostPeerAuthParams","EapHostPeerAuthParams enumeration [EAPHost]","EapHostPeerAuthStatus","EapHostPeerIdentity","EapHostPeerIdentityExtendedInfo","eaphost.eaphostpeerauthparams","eaphostpeertypes/EapHostNapInfo","eaphostpeertypes/EapHostPeerAuthParams","eaphostpeertypes/EapHostPeerAuthStatus","eaphostpeertypes/EapHostPeerIdentity","eaphostpeertypes/EapHostPeerIdentityExtendedInfo"]
 old-location: eaphost\eaphostpeerauthparams.htm
 tech.root: eaphost
 ms.assetid: adbb08d7-36a0-4e10-b0bc-2fb7030c2fcc
@@ -74,7 +75,7 @@ Contains extended user identity information for the supplicant from the identity
 
 ### -field EapHostNapInfo
 
-Windows 7 or later: Contains NAP-related information for the supplicant in an [EapHostPeerNapInfo](https://docs.microsoft.com/windows/win32/eaphost/eaphostpeernapinfo)a> structure.
+Windows 7 or later: Contains NAP-related information for the supplicant in an [EapHostPeerNapInfo](/windows/win32/eaphost/eaphostpeernapinfo) structure.
 
 
 ### -field v1_enum
@@ -87,7 +88,7 @@ Windows 7 or later: Contains NAP-related information for the supplicant in an [
 
 
 
-[EAPHost Supplicant Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-enumerations)a>
+[EAPHost Supplicant Enumerations](/windows/win32/eaphost/eap-host-supplicant-enumerations)
 
 
 

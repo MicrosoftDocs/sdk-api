@@ -1,7 +1,8 @@
 ---
 UID: NF:eappapis.EapHostPeerGetResult
 title: EapHostPeerGetResult function (eappapis.h)
-description: Obtains the authentication result for the specified EAP authentication session.helpviewer_keywords: ["EapHostPeerGetResult","EapHostPeerGetResult function [EAPHost]","eaphost.eaphostpeergetresult","eappapis/EapHostPeerGetResult"]
+description: Obtains the authentication result for the specified EAP authentication session.
+helpviewer_keywords: ["EapHostPeerGetResult","EapHostPeerGetResult function [EAPHost]","eaphost.eaphostpeergetresult","eappapis/EapHostPeerGetResult"]
 old-location: eaphost\eaphostpeergetresult.htm
 tech.root: eaphost
 ms.assetid: e1f0fc05-d9cd-4a37-ba74-89ac9948a292
@@ -110,7 +111,7 @@ The supplicant calls <b>EapHostPeerGetResult</b> on completion of an authenticat
 
 
 
-[EAPHost Supplicant Run-time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
+[EAPHost Supplicant Run-time Functions](/windows/win32/eaphost/eap-host-supplicant-run-time-functions)
 
 
 

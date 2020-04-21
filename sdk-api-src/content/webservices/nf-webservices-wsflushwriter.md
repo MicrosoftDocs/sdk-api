@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsFlushWriter
 title: WsFlushWriter function (webservices.h)
-description: Instructs the writer to invoke the callbackspecified in WS_XML_WRITER_STREAM_OUTPUT if sufficient data has been buffered.helpviewer_keywords: ["WsFlushWriter","WsFlushWriter function [Web Services for Windows]","webservices/WsFlushWriter","wsw.wsflushwriter"]
+description: Instructs the writer to invoke the callbackspecified in WS_XML_WRITER_STREAM_OUTPUT if sufficient data has been buffered.
+helpviewer_keywords: ["WsFlushWriter","WsFlushWriter function [Web Services for Windows]","webservices/WsFlushWriter","wsw.wsflushwriter"]
 old-location: wsw\wsflushwriter.htm
 tech.root: wsw
 ms.assetid: ba631942-d5a0-4d93-9899-c3f0ebd4aae5
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instructs the writer to invoke the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_stream_output">callback</a>specified in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_stream_output">WS_XML_WRITER_STREAM_OUTPUT</a> if sufficient data has been buffered.
+Instructs the writer to invoke the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_stream_output">callback</a>specified in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_stream_output">WS_XML_WRITER_STREAM_OUTPUT</a> if sufficient data has been buffered.
       
 
 
@@ -141,14 +142,14 @@ If necessary, the <b>WsFlushWriter</b> should be called before <a href="https://
 By specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> the buffered data will be written asynchronously.
       
 
-This function is a no-op if the writer is using <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_buffer_output">WS_XML_WRITER_BUFFER_OUTPUT</a>.
+This function is a no-op if the writer is using <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_buffer_output">WS_XML_WRITER_BUFFER_OUTPUT</a>.
       
 
 If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a> has been called, but the element has not been committed (see <b>WsWriteStartElement</b>)
         then this element will not be flushed.
       
 
-If this function is called when using <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a> and there are
+If this function is called when using <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a> and there are
         no open elements on the writer, then the supporting MIME parts will be generated and emitted.  Once this
         occurs, any API that attempts to write further to the XML document will return <b>WS_E_INVALID_OPERATION</b>.
       (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)

@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.IPsecSaContextGetSpi0
 title: IPsecSaContextGetSpi0 function (fwpmu.h)
-description: Retrieves the security parameters index (SPI) for a security association (SA) context.helpviewer_keywords: ["IPsecSaContextGetSpi0","IPsecSaContextGetSpi0 function [Filtering]","fwp.ipsecsacontextgetspi0","fwpmu/IPsecSaContextGetSpi0"]
+description: Retrieves the security parameters index (SPI) for a security association (SA) context.
+helpviewer_keywords: ["IPsecSaContextGetSpi0","IPsecSaContextGetSpi0 function [Filtering]","fwp.ipsecsacontextgetspi0","fwpmu/IPsecSaContextGetSpi0"]
 old-location: fwp\ipsecsacontextgetspi0.htm
 tech.root: fwp
 ms.assetid: dac82051-db36-450a-a59a-61df6bad6694
@@ -73,7 +74,7 @@ A runtime identifier for the SA context. This identifier was received from the s
 
 ### -param getSpi [in]
 
-Type: [IPSEC_GETSPI0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi0)a>*</b>
+Type: [IPSEC_GETSPI0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi0)*</b>
 
 The inbound IPsec traffic.
 
@@ -152,7 +153,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[IPSEC_GETSPI0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi0)a>
+[IPSEC_GETSPI0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi0)
 
 
 

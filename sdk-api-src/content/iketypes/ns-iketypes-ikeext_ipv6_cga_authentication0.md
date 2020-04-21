@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_IPV6_CGA_AUTHENTICATION0_
 title: IKEEXT_IPV6_CGA_AUTHENTICATION0 (iketypes.h)
-description: Is used to specify various parameters for IPV6 cryptographically generated address (CGA) authentication.helpviewer_keywords: ["IKEEXT_IPV6_CGA_AUTHENTICATION0","IKEEXT_IPV6_CGA_AUTHENTICATION0 structure [Filtering]","fwp.ikeext_ipv6_cga_authentication0","iketypes/IKEEXT_IPV6_CGA_AUTHENTICATION0"]
+description: Is used to specify various parameters for IPV6 cryptographically generated address (CGA) authentication.
+helpviewer_keywords: ["IKEEXT_IPV6_CGA_AUTHENTICATION0","IKEEXT_IPV6_CGA_AUTHENTICATION0 structure [Filtering]","fwp.ikeext_ipv6_cga_authentication0","iketypes/IKEEXT_IPV6_CGA_AUTHENTICATION0"]
 old-location: fwp\ikeext_ipv6_cga_authentication0.htm
 tech.root: fwp
 ms.assetid: 6b472140-f3e3-45b9-81f3-9c428b687fe4
@@ -80,7 +81,7 @@ Same semantics as the <b>dwProvType</b> member of the <a href="https://docs.micr
 
 ### -field cgaModifier
 
-A [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a> structure containing a modifier used during CGA generation.
+A [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16) structure containing a modifier used during CGA generation.
 
 See CGA RFC for more information.
 
@@ -110,7 +111,7 @@ See CGA RFC for more information.
 
 
 
-[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a>
+[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
 
 
 

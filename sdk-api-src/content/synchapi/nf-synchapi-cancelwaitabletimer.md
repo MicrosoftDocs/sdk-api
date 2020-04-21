@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.CancelWaitableTimer
 title: CancelWaitableTimer function (synchapi.h)
-description: Sets the specified waitable timer to the inactive state.helpviewer_keywords: ["CancelWaitableTimer","CancelWaitableTimer function","_win32_cancelwaitabletimer","base.cancelwaitabletimer","synchapi/CancelWaitableTimer","winbase/CancelWaitableTimer"]
+description: Sets the specified waitable timer to the inactive state.
+helpviewer_keywords: ["CancelWaitableTimer","CancelWaitableTimer function","_win32_cancelwaitabletimer","base.cancelwaitabletimer","synchapi/CancelWaitableTimer","winbase/CancelWaitableTimer"]
 old-location: base\cancelwaitabletimer.htm
 tech.root: Sync
 ms.assetid: 614a237b-71b3-4091-975d-4c0b3cd6ec69
@@ -66,8 +67,8 @@ Sets the specified waitable timer to the inactive state.
 ### -param hTimer [in]
 
 A handle to the timer object. The 
-[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)a> or 
-[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a> function returns this handle. The handle must have the <b>TIMER_MODIFY_STATE</b> access right. For more information, see 
+[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw) or 
+[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw) function returns this handle. The handle must have the <b>TIMER_MODIFY_STATE</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>. 
 
 
@@ -108,11 +109,11 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)a>
+[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)
 
 
 
-[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a>
+[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)
 
 
 

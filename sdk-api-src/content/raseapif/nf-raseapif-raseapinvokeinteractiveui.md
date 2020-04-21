@@ -1,7 +1,8 @@
 ---
 UID: NF:raseapif.RasEapInvokeInteractiveUI
 title: RasEapInvokeInteractiveUI function (raseapif.h)
-description: The RAS connection manager calls the RasEapInvokeInteractiveUI function to display a dialog to obtain authentication data from the user.helpviewer_keywords: ["RasEapInvokeInteractiveUI","RasEapInvokeInteractiveUI callback","RasEapInvokeInteractiveUI callback function [EAP]","_eap_raseapinvokeinteractiveui","eap.raseapinvokeinteractiveui","raseapif/RasEapInvokeInteractiveUI"]
+description: The RAS connection manager calls the RasEapInvokeInteractiveUI function to display a dialog to obtain authentication data from the user.
+helpviewer_keywords: ["RasEapInvokeInteractiveUI","RasEapInvokeInteractiveUI callback","RasEapInvokeInteractiveUI callback function [EAP]","_eap_raseapinvokeinteractiveui","eap.raseapinvokeinteractiveui","raseapif/RasEapInvokeInteractiveUI"]
 old-location: eap\raseapinvokeinteractiveui.htm
 tech.root: EAP
 ms.assetid: 71dd40c9-acbd-4fb6-800d-d3f83a61b7b8
@@ -139,15 +140,15 @@ The interactive user interface must support
 
 
 
-[EAP Functions](https://docs.microsoft.com/windows/win32/eap/eap-functions)a>
+[EAP Functions](/windows/win32/eap/eap-functions)
 
 
 
-[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
+[Extensible Authentication Protocol Reference](/windows/win32/eap/extensible-authentication-protocol-reference)
 
 
 
-[Interactive User Interface](https://docs.microsoft.com/windows/win32/eap/interactive-user-interface)a>
+[Interactive User Interface](/windows/win32/eap/interactive-user-interface)
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.InterlockedExchangeSubtract
 title: InterlockedExchangeSubtract function (winbase.h)
-description: Performs an atomic subtraction of two values.helpviewer_keywords: ["InterlockedExchangeSubtract","InterlockedExchangeSubtract function","base.interlockedexchangesubtract","winbase/InterlockedExchangeSubtract"]
+description: Performs an atomic subtraction of two values.
+helpviewer_keywords: ["InterlockedExchangeSubtract","InterlockedExchangeSubtract function","base.interlockedexchangesubtract","winbase/InterlockedExchangeSubtract"]
 old-location: base\interlockedexchangesubtract.htm
 tech.root: Sync
 ms.assetid: 9917323D-38C4-446E-B59A-52493A6020ED
@@ -94,19 +95,19 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchange</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAdd</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangePointer</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangePointer</a>
 
 
 

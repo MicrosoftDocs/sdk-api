@@ -1,7 +1,8 @@
 ---
 UID: NF:mscat.CryptCATCDFClose
 title: CryptCATCDFClose function (mscat.h)
-description: Closes a catalog definition file (CDF) and frees the memory for the corresponding CRYPTCATCDF structure.helpviewer_keywords: ["CryptCATCDFClose","CryptCATCDFClose function [Security]","mscat/CryptCATCDFClose","security.cryptcatcdfclose"]
+description: Closes a catalog definition file (CDF) and frees the memory for the corresponding CRYPTCATCDF structure.
+helpviewer_keywords: ["CryptCATCDFClose","CryptCATCDFClose function [Security]","mscat/CryptCATCDFClose","security.cryptcatcdfclose"]
 old-location: security\cryptcatcdfclose.htm
 tech.root: SecCrypto
 ms.assetid: 9f2a1175-f9fe-4f4d-bf6f-e4f4c59739ec
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CryptCATCDFClose</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a> structure. <b>CryptCATCDFClose</b> is called by <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>.
+The [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure. <b>CryptCATCDFClose</b> is called by <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ The [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-
 
 ### -param pCDF [in]
 
-A pointer to a [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a> structure.
+A pointer to a [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure.
 
 
 ## -returns
@@ -87,7 +88,7 @@ Before closing the catalog output file specified in  <i>pCDF</i>, the <b>CryptCA
 
 
 
-[CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a>
+[CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)
 
 
 

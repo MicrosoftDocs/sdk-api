@@ -1,7 +1,8 @@
 ---
 UID: NF:audioclient.IAudioClient2.IsOffloadCapable
 title: IAudioClient2::IsOffloadCapable (audioclient.h)
-description: The IsOffloadCapable method retrieves information about whether or not the endpoint on which a stream is created is capable of supporting an offloaded audio stream.helpviewer_keywords: ["IAudioClient2 interface [Core Audio]","IsOffloadCapable method","IAudioClient2.IsOffloadCapable","IAudioClient2::IsOffloadCapable","IsOffloadCapable","IsOffloadCapable method [Core Audio]","IsOffloadCapable method [Core Audio]","IAudioClient2 interface","audioclient/IAudioClient2::IsOffloadCapable","coreaudio.iaudioclient2_isoffloadcapable"]
+description: The IsOffloadCapable method retrieves information about whether or not the endpoint on which a stream is created is capable of supporting an offloaded audio stream.
+helpviewer_keywords: ["IAudioClient2 interface [Core Audio]","IsOffloadCapable method","IAudioClient2.IsOffloadCapable","IAudioClient2::IsOffloadCapable","IsOffloadCapable","IsOffloadCapable method [Core Audio]","IsOffloadCapable method [Core Audio]","IAudioClient2 interface","audioclient/IAudioClient2::IsOffloadCapable","coreaudio.iaudioclient2_isoffloadcapable"]
 old-location: coreaudio\iaudioclient2_isoffloadcapable.htm
 tech.root: CoreAudio
 ms.assetid: 275A6EB4-E6C7-4510-8EEA-BDBAFB1C06C3
@@ -81,7 +82,7 @@ The <b>IsOffloadCapable</b> method returns <b>S_OK</b> to indicate that it has c
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category">AUDIO_STREAM_CATEGORY</a>
+<a href="/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category">AUDIO_STREAM_CATEGORY</a>
 
 
 

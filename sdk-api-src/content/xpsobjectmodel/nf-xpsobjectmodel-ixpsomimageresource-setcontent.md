@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResource.SetContent
 title: IXpsOMImageResource::SetContent (xpsobjectmodel.h)
-description: Sets the read-only stream to be associated with this resource.helpviewer_keywords: ["IXpsOMImageResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMImageResource.SetContent","IXpsOMImageResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMImageResource interface","xps.ixpsomimageresource_setcontent","xpsobjectmodel/IXpsOMImageResource::SetContent"]
+description: Sets the read-only stream to be associated with this resource.
+helpviewer_keywords: ["IXpsOMImageResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMImageResource.SetContent","IXpsOMImageResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMImageResource interface","xps.ixpsomimageresource_setcontent","xpsobjectmodel/IXpsOMImageResource::SetContent"]
 old-location: xps\ixpsomimageresource_setcontent.htm
 tech.root: printdocs
 ms.assetid: 91dc565f-4ccb-497c-b5d2-f9b60884b094
@@ -64,7 +65,7 @@ The read-only stream to be associated with this resource.
 
 ### -param imageType [in]
 
-The  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a> value that describes the type of image in the stream.
+The  <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a> value that describes the type of image in the stream.
 
 
 ### -param partName [in]
@@ -109,7 +110,7 @@ Because <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
  
 
  

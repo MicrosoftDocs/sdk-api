@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_81
 title: WS_TYPE (webservices.h)
-description: The types supported for serialization.helpviewer_keywords: ["WS_ANY_ATTRIBUTES_TYPE","WS_BOOL_TYPE","WS_BYTES_TYPE","WS_BYTE_ARRAY_TYPE","WS_CHAR_ARRAY_TYPE","WS_CUSTOM_TYPE","WS_DATETIME_TYPE","WS_DECIMAL_TYPE","WS_DESCRIPTION_TYPE","WS_DOUBLE_TYPE","WS_DURATION_TYPE","WS_ENDPOINT_ADDRESS_TYPE","WS_ENUM_TYPE","WS_FAULT_TYPE","WS_FLOAT_TYPE","WS_GUID_TYPE","WS_INT16_TYPE","WS_INT32_TYPE","WS_INT64_TYPE","WS_INT8_TYPE","WS_STRING_TYPE","WS_STRUCT_TYPE","WS_TIMESPAN_TYPE","WS_TYPE","WS_TYPE enumeration [Web Services for Windows]","WS_UINT16_TYPE","WS_UINT32_TYPE","WS_UINT64_TYPE","WS_UINT8_TYPE","WS_UNION_TYPE","WS_UNIQUE_ID_TYPE","WS_UTF8_ARRAY_TYPE","WS_VOID_TYPE","WS_WSZ_TYPE","WS_XML_BUFFER_TYPE","WS_XML_QNAME_TYPE","WS_XML_STRING_TYPE","webservices/WS_ANY_ATTRIBUTES_TYPE","webservices/WS_BOOL_TYPE","webservices/WS_BYTES_TYPE","webservices/WS_BYTE_ARRAY_TYPE","webservices/WS_CHAR_ARRAY_TYPE","webservices/WS_CUSTOM_TYPE","webservices/WS_DATETIME_TYPE","webservices/WS_DECIMAL_TYPE","webservices/WS_DESCRIPTION_TYPE","webservices/WS_DOUBLE_TYPE","webservices/WS_DURATION_TYPE","webservices/WS_ENDPOINT_ADDRESS_TYPE","webservices/WS_ENUM_TYPE","webservices/WS_FAULT_TYPE","webservices/WS_FLOAT_TYPE","webservices/WS_GUID_TYPE","webservices/WS_INT16_TYPE","webservices/WS_INT32_TYPE","webservices/WS_INT64_TYPE","webservices/WS_INT8_TYPE","webservices/WS_STRING_TYPE","webservices/WS_STRUCT_TYPE","webservices/WS_TIMESPAN_TYPE","webservices/WS_TYPE","webservices/WS_UINT16_TYPE","webservices/WS_UINT32_TYPE","webservices/WS_UINT64_TYPE","webservices/WS_UINT8_TYPE","webservices/WS_UNION_TYPE","webservices/WS_UNIQUE_ID_TYPE","webservices/WS_UTF8_ARRAY_TYPE","webservices/WS_VOID_TYPE","webservices/WS_WSZ_TYPE","webservices/WS_XML_BUFFER_TYPE","webservices/WS_XML_QNAME_TYPE","webservices/WS_XML_STRING_TYPE","wsw.ws_type"]
+description: The types supported for serialization.
+helpviewer_keywords: ["WS_ANY_ATTRIBUTES_TYPE","WS_BOOL_TYPE","WS_BYTES_TYPE","WS_BYTE_ARRAY_TYPE","WS_CHAR_ARRAY_TYPE","WS_CUSTOM_TYPE","WS_DATETIME_TYPE","WS_DECIMAL_TYPE","WS_DESCRIPTION_TYPE","WS_DOUBLE_TYPE","WS_DURATION_TYPE","WS_ENDPOINT_ADDRESS_TYPE","WS_ENUM_TYPE","WS_FAULT_TYPE","WS_FLOAT_TYPE","WS_GUID_TYPE","WS_INT16_TYPE","WS_INT32_TYPE","WS_INT64_TYPE","WS_INT8_TYPE","WS_STRING_TYPE","WS_STRUCT_TYPE","WS_TIMESPAN_TYPE","WS_TYPE","WS_TYPE enumeration [Web Services for Windows]","WS_UINT16_TYPE","WS_UINT32_TYPE","WS_UINT64_TYPE","WS_UINT8_TYPE","WS_UNION_TYPE","WS_UNIQUE_ID_TYPE","WS_UTF8_ARRAY_TYPE","WS_VOID_TYPE","WS_WSZ_TYPE","WS_XML_BUFFER_TYPE","WS_XML_QNAME_TYPE","WS_XML_STRING_TYPE","webservices/WS_ANY_ATTRIBUTES_TYPE","webservices/WS_BOOL_TYPE","webservices/WS_BYTES_TYPE","webservices/WS_BYTE_ARRAY_TYPE","webservices/WS_CHAR_ARRAY_TYPE","webservices/WS_CUSTOM_TYPE","webservices/WS_DATETIME_TYPE","webservices/WS_DECIMAL_TYPE","webservices/WS_DESCRIPTION_TYPE","webservices/WS_DOUBLE_TYPE","webservices/WS_DURATION_TYPE","webservices/WS_ENDPOINT_ADDRESS_TYPE","webservices/WS_ENUM_TYPE","webservices/WS_FAULT_TYPE","webservices/WS_FLOAT_TYPE","webservices/WS_GUID_TYPE","webservices/WS_INT16_TYPE","webservices/WS_INT32_TYPE","webservices/WS_INT64_TYPE","webservices/WS_INT8_TYPE","webservices/WS_STRING_TYPE","webservices/WS_STRUCT_TYPE","webservices/WS_TIMESPAN_TYPE","webservices/WS_TYPE","webservices/WS_UINT16_TYPE","webservices/WS_UINT32_TYPE","webservices/WS_UINT64_TYPE","webservices/WS_UINT8_TYPE","webservices/WS_UNION_TYPE","webservices/WS_UNIQUE_ID_TYPE","webservices/WS_UTF8_ARRAY_TYPE","webservices/WS_VOID_TYPE","webservices/WS_WSZ_TYPE","webservices/WS_XML_BUFFER_TYPE","webservices/WS_XML_QNAME_TYPE","webservices/WS_XML_STRING_TYPE","wsw.ws_type"]
 old-location: wsw\ws_type.htm
 tech.root: wsw
 ms.assetid: eb3732fd-1197-4e1c-b5b5-9a34aaa0951e
@@ -101,27 +102,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -175,27 +176,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -249,27 +250,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -323,27 +324,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -397,27 +398,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -471,27 +472,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -545,27 +546,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -619,27 +620,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -693,27 +694,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -767,27 +768,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -841,27 +842,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -915,27 +916,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -989,27 +990,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -1063,27 +1064,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -1137,27 +1138,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -1211,27 +1212,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -1288,29 +1289,29 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_XML_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE_ITEM</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE_ITEM</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented by setting the chars field to <b>NULL</b> and specifying a length of 0.
                     A nil string is distinquished from an empty string based on whether or not the chars field 
@@ -1373,29 +1374,29 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_XML_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE_ITEM</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE_ITEM</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -1451,29 +1452,29 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE_ITEM</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE_ITEM</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented by setting the bytes field to <b>NULL</b> and specifying a length of 0.  
                     A nil array is distinquished from an empty array based on whether or not the bytes field is 
@@ -1532,29 +1533,29 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE_ITEM</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE_ITEM</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented by setting the bytes field to <b>NULL</b> and specifying a length of 0.  
                     A nil string is distinquished from an empty string based on whether or not the bytes field is 
@@ -1610,28 +1611,28 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_POINTER</b>.
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_POINTER</b>.
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -1684,29 +1685,29 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE_ITEM</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE_ITEM</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -1840,29 +1841,29 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE_ITEM</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE_ITEM</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil string is represented by setting the chars field to <b>NULL</b> and specifying a length of 0.
                     A nil string is distinquished from an empty string based on whether or not the chars field is
@@ -1924,20 +1925,20 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
 </ul>
 A nil string is represented by setting the bytes field to <b>NULL</b> and specifying a length of 0.
                     A nil string is distinquished from an empty string based on whether or not the bytes field is
@@ -1996,20 +1997,20 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
 </ul>
 A nil array is represented by setting the array pointer field to <b>NULL</b> and specifying a length of 0.
                     A nil array is distinquished from an empty array based on whether or not the array pointer field is
@@ -2047,7 +2048,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_TYPE_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -2123,29 +2124,29 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_POINTER</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_POINTER</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_POINTER</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_POINTER</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_POINTER</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_POINTER</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -2212,25 +2213,25 @@ Regardless of what <a href="https://docs.microsoft.com/windows/desktop/api/webse
                     can always be used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>.
                 
 
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_POINTER</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_POINTER</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -2244,10 +2245,10 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 ### -field WS_ENDPOINT_ADDRESS_TYPE
 
 Used when serializing <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> .  The associated type description points to a
-                    <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_endpoint_address_description">WS_ENDPOINT_ADDRESS_DESCRIPTION</a> which provides information about how to serialize the endpoint address.
+                    <a href="/windows/win32/api/webservices/ns-webservices-ws_endpoint_address_description">WS_ENDPOINT_ADDRESS_DESCRIPTION</a> which provides information about how to serialize the endpoint address.
                 
 
-This type requires a <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_endpoint_address_description">WS_ENDPOINT_ADDRESS_DESCRIPTION</a> type description
+This type requires a <a href="/windows/win32/api/webservices/ns-webservices-ws_endpoint_address_description">WS_ENDPOINT_ADDRESS_DESCRIPTION</a> type description
                     to be supplied which provides information about the serialization format.
                 
 
@@ -2273,26 +2274,26 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_POINTER</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_POINTER</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_POINTER</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_POINTER</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -2333,26 +2334,26 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_POINTER</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_POINTER</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_POINTER</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_POINTER</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_POINTER</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_POINTER</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -2377,19 +2378,19 @@ This type can only be used within the <a href="https://docs.microsoft.com/window
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a>.
                 
 
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_POINTER</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> | <b>WS_FIELD_POINTER</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a>
 </li>
 </ul>
 This type can be used with the following <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> values:
@@ -2403,10 +2404,10 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
                     is not one of the other <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>s.  The value will be initialized as
                     follows:
                     <ul>
-<li>If <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> is specified, then the field will
+<li>If <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> is specified, then the field will
                         be set to <b>NULL</b>.
                         </li>
-<li>If <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> is not specified, then the field will
+<li>If <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> is not specified, then the field will
                         be set to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> if allowed for the type and 
                         specified, otherwise it will be set to all zeros.  The size of the field is specified as part of
                         the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_void_description">WS_VOID_DESCRIPTION</a>.  If a <b>WS_VOID_DESCRIPTION</b>is not specified, the field is interpreted as being size 0.
@@ -2421,7 +2422,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
                     used to discard the XML content when deserializing, or ignore the field when serializing.  
                     Since the values are not stored, a field of the structure is not required.  The field 
                     offset should be zero and the field size should be zero (which is the default if a 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_void_description">WS_VOID_DESCRIPTION</a> is not specified).  The <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_void_description">WS_VOID_DESCRIPTION</a> is not specified).  The <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> 
                     option should not be used.
                 </li>
 </ul>
@@ -2471,27 +2472,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_POINTER</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_POINTER</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -2545,27 +2546,27 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_POINTER</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_POINTER</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> | <b>WS_FIELD_NILLABLE</b> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented using a <b>NULL</b> pointer.
                 
@@ -2622,21 +2623,21 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
 <li>0
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>
 </li>
 </ul>
 This type does not support nil values.
                 
 
 This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
-                    When used with <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>, the default value in the 
+                    When used with <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>, the default value in the 
                     union is specified using the nonEnumValue of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.
                 
 
@@ -2664,7 +2665,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ANY_ATTRIBUTES_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>

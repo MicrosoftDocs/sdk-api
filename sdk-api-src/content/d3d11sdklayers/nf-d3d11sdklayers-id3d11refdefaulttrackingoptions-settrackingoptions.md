@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11RefDefaultTrackingOptions.SetTrackingOptions
 title: ID3D11RefDefaultTrackingOptions::SetTrackingOptions (d3d11sdklayers.h)
-description: Sets graphics processing unit (GPU) debug reference default tracking options for specific resource types.helpviewer_keywords: ["ID3D11RefDefaultTrackingOptions interface [Direct3D 11]","SetTrackingOptions method","ID3D11RefDefaultTrackingOptions.SetTrackingOptions","ID3D11RefDefaultTrackingOptions::SetTrackingOptions","SetTrackingOptions","SetTrackingOptions method [Direct3D 11]","SetTrackingOptions method [Direct3D 11]","ID3D11RefDefaultTrackingOptions interface","d3d11sdklayers/ID3D11RefDefaultTrackingOptions::SetTrackingOptions","direct3d11.id3d11refdefaulttrackingoptions_settrackingoptions"]
+description: Sets graphics processing unit (GPU) debug reference default tracking options for specific resource types.
+helpviewer_keywords: ["ID3D11RefDefaultTrackingOptions interface [Direct3D 11]","SetTrackingOptions method","ID3D11RefDefaultTrackingOptions.SetTrackingOptions","ID3D11RefDefaultTrackingOptions::SetTrackingOptions","SetTrackingOptions","SetTrackingOptions method [Direct3D 11]","SetTrackingOptions method [Direct3D 11]","ID3D11RefDefaultTrackingOptions interface","d3d11sdklayers/ID3D11RefDefaultTrackingOptions::SetTrackingOptions","direct3d11.id3d11refdefaulttrackingoptions_settrackingoptions"]
 old-location: direct3d11\id3d11refdefaulttrackingoptions_settrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0
@@ -67,7 +68,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/ne-d3d1
 
 ### -param Options
 
-A combination of <a href="https://docs.microsoft.com/windows/win32/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_shader_tracking_options">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on"; otherwise the tracking option is set to "off."
+A combination of <a href="/windows/win32/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_shader_tracking_options">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on"; otherwise the tracking option is set to "off."
 
 
 ## -returns

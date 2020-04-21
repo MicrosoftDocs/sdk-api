@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCreateTempFile
 title: MFCreateTempFile function (mfapi.h)
-description: Creates a byte stream that is backed by a temporary local file.helpviewer_keywords: ["1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678","MFCreateTempFile","MFCreateTempFile function [Media Foundation]","mf.mfcreatetempfile","mfapi/MFCreateTempFile"]
+description: Creates a byte stream that is backed by a temporary local file.
+helpviewer_keywords: ["1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678","MFCreateTempFile","MFCreateTempFile function [Media Foundation]","mf.mfcreatetempfile","mfapi/MFCreateTempFile"]
 old-location: mf\mfcreatetempfile.htm
 tech.root: medfound
 ms.assetid: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678
@@ -60,19 +61,19 @@ Creates a byte stream that is backed by a temporary local file.
 
 ### -param AccessMode
 
-The requested access mode, specified as a member of the <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ne-mfobjects-mf_file_accessmode">MF_FILE_ACCESSMODE</a> enumeration.
+The requested access mode, specified as a member of the <a href="/windows/win32/api/mfobjects/ne-mfobjects-mf_file_accessmode">MF_FILE_ACCESSMODE</a> enumeration.
           
 
 
 ### -param OpenMode
 
-The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ne-mfobjects-mf_file_openmode">MF_FILE_OPENMODE</a> enumeration.
+The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="/windows/win32/api/mfobjects/ne-mfobjects-mf_file_openmode">MF_FILE_OPENMODE</a> enumeration.
           
 
 
 ### -param fFlags
 
-Bitwise <b>OR</b> of values from the <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ne-mfobjects-mf_file_flags">MF_FILE_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of values from the <a href="/windows/win32/api/mfobjects/ne-mfobjects-mf_file_flags">MF_FILE_FLAGS</a> enumeration.
           
 
 

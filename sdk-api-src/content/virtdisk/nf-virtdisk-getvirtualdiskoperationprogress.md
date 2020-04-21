@@ -1,7 +1,8 @@
 ---
 UID: NF:virtdisk.GetVirtualDiskOperationProgress
 title: GetVirtualDiskOperationProgress function (virtdisk.h)
-description: Checks the progress of an asynchronous virtual hard disk (VHD) operation.helpviewer_keywords: ["GetVirtualDiskOperationProgress","GetVirtualDiskOperationProgress function [VHD]","vdssys/GetVirtualDiskOperationProgress","vhd.getvirtualdiskoperationprogress","virtdisk/GetVirtualDiskOperationProgress"]
+description: Checks the progress of an asynchronous virtual hard disk (VHD) operation.
+helpviewer_keywords: ["GetVirtualDiskOperationProgress","GetVirtualDiskOperationProgress function [VHD]","vdssys/GetVirtualDiskOperationProgress","vhd.getvirtualdiskoperationprogress","virtdisk/GetVirtualDiskOperationProgress"]
 old-location: vhd\getvirtualdiskoperationprogress.htm
 tech.root: VStor
 ms.assetid: 392a5258-306d-4c06-a632-85e6fc65ddc9
@@ -71,7 +72,7 @@ A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/min
 
 ### -param Progress [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_disk_progress">VIRTUAL_DISK_PROGRESS</a> 
+A pointer to a <a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_disk_progress">VIRTUAL_DISK_PROGRESS</a> 
      structure that receives the current virtual disk operation progress.
 
 
@@ -105,7 +106,7 @@ If the function fails, the return value is an error code and the value of the
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_disk_progress">VIRTUAL_DISK_PROGRESS</a>
+<a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_disk_progress">VIRTUAL_DISK_PROGRESS</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmRegisterForChangeNotification
 title: RtmRegisterForChangeNotification function (rtmv2.h)
-description: The RtmRegisterForChangeNotification function informs the routing table manager that the client should receive change notifications for the specified types of changes.helpviewer_keywords: ["RTM_CHANGE_TYPE_ALL","RTM_CHANGE_TYPE_BEST","RTM_CHANGE_TYPE_FORWARDING","RTM_NOTIFY_ONLY_MARKED_DESTS","RtmRegisterForChangeNotification","RtmRegisterForChangeNotification function [RAS]","_rtmv2ref_rtmregisterforchangenotification","rras.rtmregisterforchangenotification","rtmv2/RtmRegisterForChangeNotification"]
+description: The RtmRegisterForChangeNotification function informs the routing table manager that the client should receive change notifications for the specified types of changes.
+helpviewer_keywords: ["RTM_CHANGE_TYPE_ALL","RTM_CHANGE_TYPE_BEST","RTM_CHANGE_TYPE_FORWARDING","RTM_NOTIFY_ONLY_MARKED_DESTS","RtmRegisterForChangeNotification","RtmRegisterForChangeNotification function [RAS]","_rtmv2ref_rtmregisterforchangenotification","rras.rtmregisterforchangenotification","rtmv2/RtmRegisterForChangeNotification"]
 old-location: rras\rtmregisterforchangenotification.htm
 tech.root: RRAS
 ms.assetid: b6e04984-ac92-44a2-a18c-018c6b1b49a9
@@ -127,7 +128,7 @@ Notify the client of changes to destinations that the client has marked. If this
 ### -param NotifyContext [in]
 
 Specifies the notification context that the 
-<a href="https://docs.microsoft.com/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> uses to indicate new changes. The notification context is the <i>Context2</i> parameter of the 
+<a href="/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> uses to indicate new changes. The notification context is the <i>Context2</i> parameter of the 
 <b>RTM_EVENT_CALLBACK</b> callback.
 
 
@@ -212,7 +213,7 @@ A client calls
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmmarkdestforchangenotification">RtmMarkDestForChangeNotification</a> when it is registering for changes to a specific destination.
 
 The routing table manager uses the 
-<a href="https://docs.microsoft.com/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> callback, specified when the client called 
+<a href="/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> callback, specified when the client called 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>, to notify the client when changes have occurred; the client must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetchangeddests">RtmGetChangedDests</a> to receive the actual change information.
 

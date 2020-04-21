@@ -1,7 +1,8 @@
 ---
 UID: NF:docobj.IOleDocument.GetDocMiscStatus
 title: IOleDocument::GetDocMiscStatus (docobj.h)
-description: Retrieves status information about the document object.helpviewer_keywords: ["GetDocMiscStatus","GetDocMiscStatus method [COM]","GetDocMiscStatus method [COM]","IOleDocument interface","IOleDocument interface [COM]","GetDocMiscStatus method","IOleDocument.GetDocMiscStatus","IOleDocument::GetDocMiscStatus","_ole_ioledocument_getdocmiscstatus","com.ioledocument_getdocmiscstatus","docobj/IOleDocument::GetDocMiscStatus"]
+description: Retrieves status information about the document object.
+helpviewer_keywords: ["GetDocMiscStatus","GetDocMiscStatus method [COM]","GetDocMiscStatus method [COM]","IOleDocument interface","IOleDocument interface [COM]","GetDocMiscStatus method","IOleDocument.GetDocMiscStatus","IOleDocument::GetDocMiscStatus","_ole_ioledocument_getdocmiscstatus","com.ioledocument_getdocmiscstatus","docobj/IOleDocument::GetDocMiscStatus"]
 old-location: com\ioledocument_getdocmiscstatus.htm
 tech.root: com
 ms.assetid: de279d46-057e-4c3a-8af3-14f7b65147fd
@@ -59,7 +60,7 @@ Retrieves status information about the document object.
 
 ### -param pdwStatus [out]
 
-A pointer to the information on supported behaviors. Possible values are taken from the <a href="https://docs.microsoft.com/windows/win32/api/docobj/ne-docobj-docmisc">DOCMISC</a> enumeration.
+A pointer to the information on supported behaviors. Possible values are taken from the <a href="/windows/win32/api/docobj/ne-docobj-docmisc">DOCMISC</a> enumeration.
 
 
 ## -returns
@@ -102,7 +103,7 @@ Values from this enumerator are also stored in the registry as the value of the 
 By calling this method prior to activating a document object, containers can take whatever steps are necessary to support or otherwise accommodate the specified behaviors.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-This method must be completely implemented in any document object, even if the dereferenced value of <i>pdwStatus</i> is zero. E_NOTIMPL is not an acceptable return value. Normally, the returned <a href="https://docs.microsoft.com/windows/win32/api/docobj/ne-docobj-docmisc">DOCMISC</a> value should be hard-coded for performance.
+This method must be completely implemented in any document object, even if the dereferenced value of <i>pdwStatus</i> is zero. E_NOTIMPL is not an acceptable return value. Normally, the returned <a href="/windows/win32/api/docobj/ne-docobj-docmisc">DOCMISC</a> value should be hard-coded for performance.
 
 
 
@@ -112,7 +113,7 @@ This method must be completely implemented in any document object, even if the d
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/docobj/ne-docobj-docmisc">DOCMISC</a>
+<a href="/windows/win32/api/docobj/ne-docobj-docmisc">DOCMISC</a>
 
 
 

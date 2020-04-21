@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetInputParameterDesc
 title: ID3D11ShaderReflection::GetInputParameterDesc (d3d11shader.h)
-description: Get an input-parameter description for a shader.helpviewer_keywords: ["06783a52-4fd2-1c86-8b0d-40efb3e6ac1e","GetInputParameterDesc","GetInputParameterDesc method [Direct3D 11]","GetInputParameterDesc method [Direct3D 11]","ID3D11ShaderReflection interface","ID3D11ShaderReflection interface [Direct3D 11]","GetInputParameterDesc method","ID3D11ShaderReflection.GetInputParameterDesc","ID3D11ShaderReflection::GetInputParameterDesc","d3d11shader/ID3D11ShaderReflection::GetInputParameterDesc","direct3d11.id3d11shaderreflection_getinputparameterdesc"]
+description: Get an input-parameter description for a shader.
+helpviewer_keywords: ["06783a52-4fd2-1c86-8b0d-40efb3e6ac1e","GetInputParameterDesc","GetInputParameterDesc method [Direct3D 11]","GetInputParameterDesc method [Direct3D 11]","ID3D11ShaderReflection interface","ID3D11ShaderReflection interface [Direct3D 11]","GetInputParameterDesc method","ID3D11ShaderReflection.GetInputParameterDesc","ID3D11ShaderReflection::GetInputParameterDesc","d3d11shader/ID3D11ShaderReflection::GetInputParameterDesc","direct3d11.id3d11shaderreflection_getinputparameterdesc"]
 old-location: direct3d11\id3d11shaderreflection_getinputparameterdesc.htm
 tech.root: direct3d11
 ms.assetid: 6483634d-6050-4218-98ee-a7062efcbe64
@@ -66,9 +67,9 @@ A zero-based parameter index.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A pointer to a shader-input-signature description. See <a href="https://docs.microsoft.com/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>.
+A pointer to a shader-input-signature description. See <a href="/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>.
           
 
 

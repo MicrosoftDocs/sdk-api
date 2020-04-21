@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0_
 title: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0 (iketypes.h)
-description: Various statistics common to IKE and Authip.helpviewer_keywords: ["IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0","IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0 structure [Filtering]","fwp.ikeext_ip_version_specific_common_statistics0","iketypes/IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0"]
+description: Various statistics common to IKE and Authip.
+helpviewer_keywords: ["IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0","IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0 structure [Filtering]","fwp.ikeext_ip_version_specific_common_statistics0","iketypes/IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0"]
 old-location: fwp\ikeext_ip_version_specific_common_statistics0.htm
 tech.root: fwp
 ms.assetid: 0cacb7de-9f20-47ac-b040-8d65ede3bef3
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0</b> structure contains various statistics common to IKE and Authip.
-[IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics1)a> is available.</div><div> </div>
+[IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics1) is available.</div><div> </div>
 
 ## -struct-fields
 

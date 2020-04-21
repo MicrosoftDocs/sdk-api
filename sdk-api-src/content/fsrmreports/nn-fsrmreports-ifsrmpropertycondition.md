@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrmreports.IFsrmPropertyCondition
 title: IFsrmPropertyCondition (fsrmreports.h)
-description: Defines a property condition that the file management job uses to determine if the file is expired.helpviewer_keywords: ["IFsrmPropertyCondition","IFsrmPropertyCondition interface [File Server Resource Manager]","IFsrmPropertyCondition interface [File Server Resource Manager]","described","fs.ifsrmpropertycondition","fsrm.ifsrmpropertycondition","fsrm/IFsrmPropertyCondition"]
+description: Defines a property condition that the file management job uses to determine if the file is expired.
+helpviewer_keywords: ["IFsrmPropertyCondition","IFsrmPropertyCondition interface [File Server Resource Manager]","IFsrmPropertyCondition interface [File Server Resource Manager]","described","fs.ifsrmpropertycondition","fsrm.ifsrmpropertycondition","fsrm/IFsrmPropertyCondition"]
 old-location: fsrm\ifsrmpropertycondition.htm
 tech.root: fsrm
 ms.assetid: 5c50b86b-f166-459e-92ce-63faa374c407
@@ -92,7 +93,7 @@ Removes this property condition from the collection of property conditions speci
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-[Name](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_name)a>
+[Name](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_name)
 
 
 </td>
@@ -124,7 +125,7 @@ The comparison operator used to determine whether property condition is met.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-[Value](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_value)a>
+[Value](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_value)
 
 
 </td>
@@ -144,7 +145,7 @@ The property condition's value.
 
 
 
-The property condition specifies the classification property in the file to test. When the file management job runs, it gets the value of the classification property and uses the comparison operator to compare the value of the specified classification property (see the [Value](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_value)a> property). If this condition  and all the other specified conditions for the job are met, FSRM can expire the file or call the custom action if it is defined.
+The property condition specifies the classification property in the file to test. When the file management job runs, it gets the value of the classification property and uses the comparison operator to compare the value of the specified classification property (see the [Value](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_value) property). If this condition  and all the other specified conditions for the job are met, FSRM can expire the file or call the custom action if it is defined.
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationPriorityComparison2.HasPriority
 title: IUIAnimationPriorityComparison2::HasPriority (uianimation.h)
-description: Determines the relative priority between a scheduled storyboard and a new storyboard.helpviewer_keywords: ["HasPriority","HasPriority method [Windows Animation]","HasPriority method [Windows Animation]","IUIAnimationPriorityComparison2 interface","IUIAnimationPriorityComparison2 interface [Windows Animation]","HasPriority method","IUIAnimationPriorityComparison2.HasPriority","IUIAnimationPriorityComparison2::HasPriority","uianimation.iuianimationprioritycomparison2_haspriority","uianimation/IUIAnimationPriorityComparison2::HasPriority"]
+description: Determines the relative priority between a scheduled storyboard and a new storyboard.
+helpviewer_keywords: ["HasPriority","HasPriority method [Windows Animation]","HasPriority method [Windows Animation]","IUIAnimationPriorityComparison2 interface","IUIAnimationPriorityComparison2 interface [Windows Animation]","HasPriority method","IUIAnimationPriorityComparison2.HasPriority","IUIAnimationPriorityComparison2::HasPriority","uianimation.iuianimationprioritycomparison2_haspriority","uianimation/IUIAnimationPriorityComparison2::HasPriority"]
 old-location: uianimation\iuianimationprioritycomparison2_haspriority.htm
 tech.root: UIAnimation
 ms.assetid: A448144F-37B2-46E5-AA0D-604CE3FDEAA4
@@ -155,13 +156,13 @@ To resolve a scheduling conflict,
 </ul>
 
 
-If none of the  preceding options is allowed by the priorty comparison objects, the attempt to schedule the storyboard fails and Windows Animation returns <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_scheduling_result">UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY</a> to the calling application.
+If none of the  preceding options is allowed by the priorty comparison objects, the attempt to schedule the storyboard fails and Windows Animation returns <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_scheduling_result">UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY</a> to the calling application.
 
 Note that for the new storyboard to be successfully scheduled, it must begin before its longest acceptable delay has elapsed.  This is determined by <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-setlongestacceptabledelay">IUIAnimationStoryboard::SetLongestAcceptableDelay</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setdefaultlongestacceptabledelay">IUIAnimationManager2::SetDefaultLongestAcceptableDelay</a> (if neither is called, the default is 0.0 seconds).  If the longest acceptable delay is <b>UI_ANIMATION_SECONDS_EVENTUALLY</b>, any finite delay will be sufficient.
 
-The <i>priorityEffect</i> parameter describes the possible effect on the new storyboard if <b>HasPriority</b> were to return <b>S_FALSE</b>.  If <i>priorityEffect</i> is <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_priority_effect">UI_ANIMATION_PRIORITY_EFFECT_FAILURE</a>, it is possible that returning <b>S_FALSE</b> will result in a failure to schedule the new storyboard. (It is also possible that the animation manager will be allowed to resolve the conflict in a different way by another priority comparison object.)  If <i>priorityEffect</i> is <b>UI_ANIMATION_PRIORITY_EFFECT_DELAY</b>, the only downside of returning <b>S_FALSE</b> is that the storyboard might begin later than it would have if <i>HasPriority</i> had returned <b>S_OK</b>.
+The <i>priorityEffect</i> parameter describes the possible effect on the new storyboard if <b>HasPriority</b> were to return <b>S_FALSE</b>.  If <i>priorityEffect</i> is <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_priority_effect">UI_ANIMATION_PRIORITY_EFFECT_FAILURE</a>, it is possible that returning <b>S_FALSE</b> will result in a failure to schedule the new storyboard. (It is also possible that the animation manager will be allowed to resolve the conflict in a different way by another priority comparison object.)  If <i>priorityEffect</i> is <b>UI_ANIMATION_PRIORITY_EFFECT_DELAY</b>, the only downside of returning <b>S_FALSE</b> is that the storyboard might begin later than it would have if <i>HasPriority</i> had returned <b>S_OK</b>.
 
-When <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_priority_effect">UI_ANIMATION_PRIORITY_EFFECT_DELAY</a> is passed to <b>HasPriority</b>, the animation manager has already determined that it can schedule the new storyboard to begin before its longest acceptable delay has elapsed, but it is in effect asking the application if the storyboard should begin even earlier.  In some scenarios, it might be best to reduce the latency of an animation by returning <b>S_OK</b>.  In others, it might be preferable to let scheduled animations complete whenever possible, in which case <b>HasPriority</b> should return <b>S_FALSE</b>.  <b>UI_ANIMATION_PRIORITY_EFFECT_DELAY</b> is only passed to <b>HasPriority</b> when the animation manager is considering canceling or trimming a storyboard.
+When <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_priority_effect">UI_ANIMATION_PRIORITY_EFFECT_DELAY</a> is passed to <b>HasPriority</b>, the animation manager has already determined that it can schedule the new storyboard to begin before its longest acceptable delay has elapsed, but it is in effect asking the application if the storyboard should begin even earlier.  In some scenarios, it might be best to reduce the latency of an animation by returning <b>S_OK</b>.  In others, it might be preferable to let scheduled animations complete whenever possible, in which case <b>HasPriority</b> should return <b>S_FALSE</b>.  <b>UI_ANIMATION_PRIORITY_EFFECT_DELAY</b> is only passed to <b>HasPriority</b> when the animation manager is considering canceling or trimming a storyboard.
 
 
 
@@ -191,7 +192,7 @@ When <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianim
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_priority_effect">UI_ANIMATION_PRIORITY_EFFECT</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_priority_effect">UI_ANIMATION_PRIORITY_EFFECT</a>
  
 
  

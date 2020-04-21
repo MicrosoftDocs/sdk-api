@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComAppEvents.OnAppForceShutdown
 title: IComAppEvents::OnAppForceShutdown (comsvcs.h)
-description: Generated when an application server is forced to shut down.helpviewer_keywords: ["IComAppEvents interface [COM+]","OnAppForceShutdown method","IComAppEvents.OnAppForceShutdown","IComAppEvents::OnAppForceShutdown","OnAppForceShutdown","OnAppForceShutdown method [COM+]","OnAppForceShutdown method [COM+]","IComAppEvents interface","_dtc_icomappevents_onappforceshutdown","comsvcs/IComAppEvents::OnAppForceShutdown","cos.icomappevents_onappforceshutdown"]
+description: Generated when an application server is forced to shut down.
+helpviewer_keywords: ["IComAppEvents interface [COM+]","OnAppForceShutdown method","IComAppEvents.OnAppForceShutdown","IComAppEvents::OnAppForceShutdown","OnAppForceShutdown","OnAppForceShutdown method [COM+]","OnAppForceShutdown method [COM+]","IComAppEvents interface","_dtc_icomappevents_onappforceshutdown","comsvcs/IComAppEvents::OnAppForceShutdown","cos.icomappevents_onappforceshutdown"]
 old-location: cos\icomappevents_onappforceshutdown.htm
 tech.root: cossdk
 ms.assetid: a7e845fc-be7f-484f-88b9-78206598b57d
@@ -59,7 +60,7 @@ Generated when an application server is forced to shut down. This is usually ini
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidApp [in]

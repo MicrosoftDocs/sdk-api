@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_AUTHENTICATION0_
 title: IKEEXT_CERTIFICATE_AUTHENTICATION0 (iketypes.h)
-description: Is used to specify various parameters for authentication with certificates.helpviewer_keywords: ["IKEEXT_CERTIFICATE_AUTHENTICATION0","IKEEXT_CERTIFICATE_AUTHENTICATION0 structure [Filtering]","IKEEXT_CERT_AUTH_ALLOW_HTTP_CERT_LOOKUP","IKEEXT_CERT_AUTH_DISABLE_SSL_CERT_VALIDATION","IKEEXT_CERT_AUTH_ENABLE_CRL_CHECK_STRONG","IKEEXT_CERT_AUTH_FLAG_DISABLE_CRL_CHECK","IKEEXT_CERT_AUTH_FLAG_SSL_ONE_WAY","IKEEXT_CERT_AUTH_URL_CONTAINS_BUNDLE","fwp.ikeext_certificate_authentication0","iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION0"]
+description: Is used to specify various parameters for authentication with certificates.
+helpviewer_keywords: ["IKEEXT_CERTIFICATE_AUTHENTICATION0","IKEEXT_CERTIFICATE_AUTHENTICATION0 structure [Filtering]","IKEEXT_CERT_AUTH_ALLOW_HTTP_CERT_LOOKUP","IKEEXT_CERT_AUTH_DISABLE_SSL_CERT_VALIDATION","IKEEXT_CERT_AUTH_ENABLE_CRL_CHECK_STRONG","IKEEXT_CERT_AUTH_FLAG_DISABLE_CRL_CHECK","IKEEXT_CERT_AUTH_FLAG_SSL_ONE_WAY","IKEEXT_CERT_AUTH_URL_CONTAINS_BUNDLE","fwp.ikeext_certificate_authentication0","iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION0"]
 old-location: fwp\ikeext_certificate_authentication0.htm
 tech.root: fwp
 ms.assetid: e9f9625d-b68b-4b7d-a587-39dac04dd991
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The [IKEEXT_CERTIFICATE_AUTHENTICATION1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication1)a> is available. For Windows 8, [IKEEXT_CERTIFICATE_AUTHENTICATION2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication2)a> is available.</div>
+The [IKEEXT_CERTIFICATE_AUTHENTICATION1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication1) is available. For Windows 8, [IKEEXT_CERTIFICATE_AUTHENTICATION2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication2) is available.</div>
 <div> </div>
 
 
@@ -63,7 +64,7 @@ The [IKEEXT_CERTIFICATE_AUTHENTICATION1](https://docs.microsoft.com/windows/desk
 
 Certificate configuration type for inbound peer certificate verification.
 
-See [IKEEXT_CERT_CONFIG_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_config_type)a> for more information.
+See [IKEEXT_CERT_CONFIG_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_config_type) for more information.
 
 
 ### -field inboundRootArraySize
@@ -79,7 +80,7 @@ Explicit trust list for verifying the peer certificate chain.
 
 Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST</b>.
 
-See [IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0)a> for more information.
+See [IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0) for more information.
 
 
 ### -field inboundEnterpriseStoreConfig
@@ -88,7 +89,7 @@ Enterprise store configuration for verifying the peer certificate chain.
 
 Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ENTERPRISE_STORE</b>.
 
-See [IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0)a> for more information.
+See [IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0) for more information.
 
 
 ### -field inboundTrustedRootStoreConfig
@@ -97,14 +98,14 @@ Trusted root store configuration for verifying the peer certificate chain.
 
 Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE</b>.
 
-See [IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0)a> for more information.
+See [IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0) for more information.
 
 
 ### -field outboundConfigType
 
 Certificate configuration type for outbound local certificate verification.
 
-See [IKEEXT_CERT_CONFIG_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_config_type)a> for more information.
+See [IKEEXT_CERT_CONFIG_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_config_type) for more information.
 
 
 ### -field outboundRootArraySize
@@ -120,7 +121,7 @@ Explicit trust list for selecting a certificate chain to send to the peer.
 
 Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST</b>.
 
-See [IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0)a> for more information.
+See [IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0) for more information.
 
 
 ### -field outboundEnterpriseStoreConfig
@@ -129,7 +130,7 @@ Enterprise store configuration for selecting  the certificate chain.
 
 Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ENTERPRISE_STORE</b>.
 
-See [IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0)a> for more information.
+See [IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0) for more information.
 
 
 ### -field outboundTrustedRootStoreConfig
@@ -138,7 +139,7 @@ Trusted root store configuration for selecting the certificate chain.
 
 Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ROOT_STORE</b>.
 
-See [IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0)a> for more information.
+See [IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0) for more information.
 
 
 ### -field flags
@@ -236,15 +237,15 @@ Available only on Windows 7, Windows Server 2008 R2, and later.
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[IKEEXT_CERT_CONFIG_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_config_type)a>
+[IKEEXT_CERT_CONFIG_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_config_type)
 
 
 
-[IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0)a>
+[IKEEXT_CERT_ROOT_CONFIG0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_root_config0)
 
 
 

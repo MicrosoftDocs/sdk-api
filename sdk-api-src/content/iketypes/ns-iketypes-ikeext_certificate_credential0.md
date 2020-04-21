@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_CREDENTIAL0_
 title: IKEEXT_CERTIFICATE_CREDENTIAL0 (iketypes.h)
-description: Is used to store credential information specific to certificate authentication.helpviewer_keywords: ["IKEEXT_CERTIFICATE_CREDENTIAL0","IKEEXT_CERTIFICATE_CREDENTIAL0 structure [Filtering]","IKEEXT_CERT_CREDENTIAL_FLAG_NAP_CERT","fwp.ikeext_certificate_credential0","iketypes/IKEEXT_CERTIFICATE_CREDENTIAL0"]
+description: Is used to store credential information specific to certificate authentication.
+helpviewer_keywords: ["IKEEXT_CERTIFICATE_CREDENTIAL0","IKEEXT_CERTIFICATE_CREDENTIAL0 structure [Filtering]","IKEEXT_CERT_CREDENTIAL_FLAG_NAP_CERT","fwp.ikeext_certificate_credential0","iketypes/IKEEXT_CERTIFICATE_CREDENTIAL0"]
 old-location: fwp\ikeext_certificate_credential0.htm
 tech.root: fwp
 ms.assetid: 926a7e74-a225-4234-8be0-c8731840756a
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CERTIFICATE_CREDENTIAL0</b> structure is used to store credential information specific to certificate authentication.
-[IKEEXT_CERTIFICATE_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential1)a> is available.</div><div> </div>
+[IKEEXT_CERTIFICATE_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,14 +62,14 @@ The <b>IKEEXT_CERTIFICATE_CREDENTIAL0</b> structure is used to store credential 
 
 Encoded subject name of the certificate used for authentication.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 
 ### -field certHash
 
 SHA thumbprint of the certificate.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 
 ### -field flags

@@ -1,7 +1,8 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerCredentialsXml2Blob
 title: EapHostPeerCredentialsXml2Blob function (eaphostpeerconfigapis.h)
-description: Generates the credentials BLOB.helpviewer_keywords: ["EapHostPeerCredentialsXml2Blob","EapHostPeerCredentialsXml2Blob function [EAPHost]","eaphost.eaphostpeercredentialsxml2blob","eaphostpeerconfigapis/EapHostPeerCredentialsXml2Blob"]
+description: Generates the credentials BLOB.
+helpviewer_keywords: ["EapHostPeerCredentialsXml2Blob","EapHostPeerCredentialsXml2Blob function [EAPHost]","eaphost.eaphostpeercredentialsxml2blob","eaphostpeerconfigapis/EapHostPeerCredentialsXml2Blob"]
 old-location: eaphost\eaphostpeercredentialsxml2blob.htm
 tech.root: eaphost
 ms.assetid: ef8475f0-047d-4858-b3c1-3ddf41c1847f
@@ -64,7 +65,7 @@ Not used. Set to 0.
 
 ### -param pCredentialsDoc [in]
 
- A pointer to an XML node of a document that contains credentials which are either user or machine credentials depending on the configuration passed in. The XML document is created with the [EapHostUserCredentials Schema](https://docs.microsoft.com/windows/win32/eaphost/eaphostusercredentialsschema-schema)a>.
+ A pointer to an XML node of a document that contains credentials which are either user or machine credentials depending on the configuration passed in. The XML document is created with the [EapHostUserCredentials Schema](/windows/win32/eaphost/eaphostusercredentialsschema-schema).
 
 
 ### -param dwSizeOfConfigIn [in]
@@ -124,7 +125,7 @@ The configuration BLOB is originally returned by one of the following methods.
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
 
 
 

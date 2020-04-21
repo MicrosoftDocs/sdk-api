@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_CRITERIA0_
 title: IKEEXT_CERTIFICATE_CRITERIA0 (iketypes.h)
-description: Contains a set of criteria to applied to an authentication method.helpviewer_keywords: ["IKEEXT_CERTIFICATE_CRITERIA0","IKEEXT_CERTIFICATE_CRITERIA0 structure [Filtering]","fwp.ikeext_certificate_criteria0","iketypes/IKEEXT_CERTIFICATE_CRITERIA0"]
+description: Contains a set of criteria to applied to an authentication method.
+helpviewer_keywords: ["IKEEXT_CERTIFICATE_CRITERIA0","IKEEXT_CERTIFICATE_CRITERIA0 structure [Filtering]","fwp.ikeext_certificate_criteria0","iketypes/IKEEXT_CERTIFICATE_CRITERIA0"]
 old-location: fwp\ikeext_certificate_criteria0.htm
 tech.root: fwp
 ms.assetid: dbcb0e25-fdde-44d9-bfad-b3605f563773
@@ -59,7 +60,7 @@ The <b>IKEEXT_CERTIFICATE_CRITERIA0</b> structure contains a set of criteria to 
 
 ### -field certData
 
-Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a></b>
+Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)</b>
 
 X509/ASN.1 encoded name of the root certificate. Should be empty when
    specifying Enterprise or trusted root store config.
@@ -67,21 +68,21 @@ X509/ASN.1 encoded name of the root certificate. Should be empty when
 
 ### -field certHash
 
-Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a></b>
+Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)</b>
 
   16-character hexadecimal string that represents the ID, thumbprint or HASH of the end certificate.
 
 
 ### -field eku
 
-Type: [IKEEXT_CERT_EKUS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0)a>*</b>
+Type: [IKEEXT_CERT_EKUS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0)*</b>
 
 The specific extended key usage (EKU) object identifiers (OIDs) selected for the criteria on the end certificate.
 
 
 ### -field name
 
-Type: [IKEEXT_CERT_NAME0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0)a>*</b>
+Type: [IKEEXT_CERT_NAME0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0)*</b>
 
 The name/subject selected for the criteria on the end certificate.
 
@@ -107,15 +108,15 @@ The <b>certData</b> member refers to the encoded name of the root certificate, w
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[IKEEXT_CERT_EKUS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0)a>
+[IKEEXT_CERT_EKUS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0)
 
 
 
-[IKEEXT_CERT_NAME0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0)a>
+[IKEEXT_CERT_NAME0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0)
  
 
  

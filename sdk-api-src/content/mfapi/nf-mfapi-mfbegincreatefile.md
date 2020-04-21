@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFBeginCreateFile
 title: MFBeginCreateFile function (mfapi.h)
-description: Begins an asynchronous request to create a byte stream from a file.helpviewer_keywords: ["MFBeginCreateFile","MFBeginCreateFile function [Media Foundation]","aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd","mf.mfbegincreatefile","mfapi/MFBeginCreateFile"]
+description: Begins an asynchronous request to create a byte stream from a file.
+helpviewer_keywords: ["MFBeginCreateFile","MFBeginCreateFile function [Media Foundation]","aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd","mf.mfbegincreatefile","mfapi/MFBeginCreateFile"]
 old-location: mf\mfbegincreatefile.htm
 tech.root: medfound
 ms.assetid: aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd
@@ -62,17 +63,17 @@ Begins an asynchronous request to create a byte stream from a file.
 
 ### -param AccessMode [in]
 
-The requested access mode, specified as a member of the <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ne-mfobjects-mf_file_accessmode">MF_FILE_ACCESSMODE</a> enumeration.
+The requested access mode, specified as a member of the <a href="/windows/win32/api/mfobjects/ne-mfobjects-mf_file_accessmode">MF_FILE_ACCESSMODE</a> enumeration.
 
 
 ### -param OpenMode [in]
 
-The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ne-mfobjects-mf_file_openmode">MF_FILE_OPENMODE</a> enumeration.
+The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="/windows/win32/api/mfobjects/ne-mfobjects-mf_file_openmode">MF_FILE_OPENMODE</a> enumeration.
 
 
 ### -param fFlags [in]
 
-Bitwise <b>OR</b> of values from the <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ne-mfobjects-mf_file_flags">MF_FILE_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of values from the <a href="/windows/win32/api/mfobjects/ne-mfobjects-mf_file_flags">MF_FILE_FLAGS</a> enumeration.
 
 
 ### -param pwszFilePath [in]

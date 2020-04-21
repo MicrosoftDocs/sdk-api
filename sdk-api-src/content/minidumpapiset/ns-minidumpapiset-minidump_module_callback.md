@@ -1,7 +1,8 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MODULE_CALLBACK
 title: MINIDUMP_MODULE_CALLBACK (minidumpapiset.h)
-description: Contains module information for the MiniDumpCallback function when the callback type is ModuleCallback.helpviewer_keywords: ["*PMINIDUMP_MODULE_CALLBACK","MINIDUMP_MODULE_CALLBACK","MINIDUMP_MODULE_CALLBACK structure","PMINIDUMP_MODULE_CALLBACK","PMINIDUMP_MODULE_CALLBACK structure pointer","_MINIDUMP_MODULE_CALLBACK","_win32_minidump_module_callback_str","base.minidump_module_callback_str","minidumpapiset/MINIDUMP_MODULE_CALLBACK","minidumpapiset/PMINIDUMP_MODULE_CALLBACK"]
+description: Contains module information for the MiniDumpCallback function when the callback type is ModuleCallback.
+helpviewer_keywords: ["*PMINIDUMP_MODULE_CALLBACK","MINIDUMP_MODULE_CALLBACK","MINIDUMP_MODULE_CALLBACK structure","PMINIDUMP_MODULE_CALLBACK","PMINIDUMP_MODULE_CALLBACK structure pointer","_MINIDUMP_MODULE_CALLBACK","_win32_minidump_module_callback_str","base.minidump_module_callback_str","minidumpapiset/MINIDUMP_MODULE_CALLBACK","minidumpapiset/PMINIDUMP_MODULE_CALLBACK"]
 old-location: base\minidump_module_callback_str.htm
 tech.root: Debug
 ms.assetid: 8ca48df0-ed0e-4ee3-a20a-d89057be37f3
@@ -115,7 +116,7 @@ The size of the miscellaneous record of the module in the <b>MiscRecord</b> memb
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:ocidl.tagExtentInfo
 title: DVEXTENTINFO (ocidl.h)
-description: Represents the sizing data used in IViewObjectEx::GetNaturalExtent.helpviewer_keywords: ["DVEXTENTINFO","DVEXTENTINFO structure [COM]","_ole_DVEXTENTINFO","com.dvextentinfo","ocidl/DVEXTENTINFO"]
+description: Represents the sizing data used in IViewObjectEx::GetNaturalExtent.
+helpviewer_keywords: ["DVEXTENTINFO","DVEXTENTINFO structure [COM]","_ole_DVEXTENTINFO","com.dvextentinfo","ocidl/DVEXTENTINFO"]
 old-location: com\dvextentinfo.htm
 tech.root: com
 ms.assetid: bd603de2-39db-43a1-a391-01dcfedc073f
@@ -64,7 +65,7 @@ The size of the structure, in bytes.
 
 ### -field dwExtentMode
 
-Indicates whether the sizing mode is content or integral sizing. See the <a href="https://docs.microsoft.com/windows/win32/api/ocidl/ne-ocidl-dvextentmode">DVEXTENTMODE</a> enumeration for possible values.
+Indicates whether the sizing mode is content or integral sizing. See the <a href="/windows/win32/api/ocidl/ne-ocidl-dvextentmode">DVEXTENTMODE</a> enumeration for possible values.
 
 
 ### -field sizelProposed
@@ -77,7 +78,7 @@ The proposed size in content sizing or the preferred size in integral sizing.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ocidl/ne-ocidl-dvextentmode">DVEXTENTMODE</a>
+<a href="/windows/win32/api/ocidl/ne-ocidl-dvextentmode">DVEXTENTMODE</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetOrigin
 title: IXpsOMGlyphs::SetOrigin (xpsobjectmodel.h)
-description: Sets the starting position of the text.helpviewer_keywords: ["IXpsOMGlyphs interface [XPS Documents and Packaging]","SetOrigin method","IXpsOMGlyphs.SetOrigin","IXpsOMGlyphs::SetOrigin","SetOrigin","SetOrigin method [XPS Documents and Packaging]","SetOrigin method [XPS Documents and Packaging]","IXpsOMGlyphs interface","xps.ixpsomglyphs_setorigin","xpsobjectmodel/IXpsOMGlyphs::SetOrigin"]
+description: Sets the starting position of the text.
+helpviewer_keywords: ["IXpsOMGlyphs interface [XPS Documents and Packaging]","SetOrigin method","IXpsOMGlyphs.SetOrigin","IXpsOMGlyphs::SetOrigin","SetOrigin","SetOrigin method [XPS Documents and Packaging]","SetOrigin method [XPS Documents and Packaging]","IXpsOMGlyphs interface","xps.ixpsomglyphs_setorigin","xpsobjectmodel/IXpsOMGlyphs::SetOrigin"]
 old-location: xps\ixpsomglyphs_setorigin.htm
 tech.root: printdocs
 ms.assetid: f5491bf0-bc40-491e-bf5e-f3fb580e10b4
@@ -59,7 +60,7 @@ Sets the starting position of the text.
 
 ### -param origin [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure that contains the coordinates to be set as the text's starting position.
+The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure that contains the coordinates to be set as the text's starting position.
 
 
 ## -returns
@@ -138,7 +139,7 @@ In the units of the effective coordinate space, the origin specifies the x and y
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsSecurityUtility
 title: IADsSecurityUtility (iads.h)
-description: The IADsSecurityUtility interface is used to get, set, or retrieve the security descriptor on a file, fileshare, or registry key.helpviewer_keywords: ["IADsSecurityUtility","IADsSecurityUtility interface [ADSI]","IADsSecurityUtility interface [ADSI]","described","_ds_iadssecurityutility","adsi.iadssecurityutility","iads/IADsSecurityUtility"]
+description: The IADsSecurityUtility interface is used to get, set, or retrieve the security descriptor on a file, fileshare, or registry key.
+helpviewer_keywords: ["IADsSecurityUtility","IADsSecurityUtility interface [ADSI]","IADsSecurityUtility interface [ADSI]","described","_ds_iadssecurityutility","adsi.iadssecurityutility","iads/IADsSecurityUtility"]
 old-location: adsi\iadssecurityutility.htm
 tech.root: adsi
 ms.assetid: 781eda1e-1f13-4bb4-ae8e-c9bf4c08e125
@@ -138,11 +139,11 @@ For more information and a code example that shows how to use the <b>IADsSecurit
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
 
 
 

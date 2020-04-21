@@ -1,7 +1,8 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0008
 title: RdcSignaturePointer (msrdc.h)
-description: Describes an array of RdcSignature structures.helpviewer_keywords: ["RdcSignaturePointer","RdcSignaturePointer structure [Remote Differential Compression]","fs.rdcsignaturepointer","msrdc/RdcSignaturePointer","rdc.rdcsignaturepointer"]
+description: Describes an array of RdcSignature structures.
+helpviewer_keywords: ["RdcSignaturePointer","RdcSignaturePointer structure [Remote Differential Compression]","fs.rdcsignaturepointer","msrdc/RdcSignaturePointer","rdc.rdcsignaturepointer"]
 old-location: rdc\rdcsignaturepointer.htm
 tech.root: rdc
 ms.assetid: ece0fddf-1c06-493d-aed9-6bc86bb014f3
@@ -52,7 +53,7 @@ ms.custom: 19H1
 The 
    <b>RdcSignaturePointer</b> structure
    describes an array 
-    of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures. The 
+    of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures. The 
     <b>RdcSignaturePointer</b> structure is used as both input 
     and output by the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a> 
@@ -66,7 +67,7 @@ The
 
 ### -field m_Size
 
-Contains the number of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures in 
+Contains the number of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures in 
       array pointed to by <b>m_Data</b>.
 
 
@@ -75,12 +76,12 @@ Contains the number of <a href="https://docs.microsoft.com/windows/win32/api/msr
 When the structure is passed to the 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a> 
       method, this member should be zero. On return this member will contain the number of 
-      <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures that were filled.
+      <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures that were filled.
 
 
 ### -field m_Data
 
-Address of an array of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures.
+Address of an array of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures.
 
 
 ## -see-also
@@ -92,7 +93,7 @@ Address of an array of <a href="https://docs.microsoft.com/windows/win32/api/msr
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a>
+<a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a>
 
 
 
