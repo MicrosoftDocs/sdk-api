@@ -47,7 +47,7 @@ req.redist:
 
 ## -description
 
-Specifies various types of storage media. Parameters and members of type **STORAGE_MEDIA_TYPE** also accept values from the [MEDIA_TYPE](./ne-winioctl-media_type.md) enumeration type.
+Specifies various types of storage media. Parameters and members of type **STORAGE_MEDIA_TYPE** also accept values from the [MEDIA_TYPE](ne-winioctl-media_type.md) enumeration type.
 
 
 ## -enum-fields
@@ -376,6 +376,6 @@ STK 9840.
 
 ## -see-also
 
-* [DEVICE_MEDIA_INFO](./ns-winioctl-device_media_info.md)
-* [MEDIA_TYPE](./ne-winioctl-media_type.md)
+* [DEVICE_MEDIA_INFO](ns-winioctl-device_media_info.md)
+* [MEDIA_TYPE](ne-winioctl-media_type.md)
 * [NTMS_MEDIATYPEINFORMATION](../ntmsapi/ns-ntmsapi-ntms_mediatypeinformation.md)
