@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.WakeByAddressAll
 title: WakeByAddressAll function (synchapi.h)
-description: Wakes all threads that are waiting for the value of an address to change.helpviewer_keywords: ["WakeByAddressAll","WakeByAddressAll function","base.wakebyaddressall","synchapi/WakeByAddressAll"]
+description: Wakes all threads that are waiting for the value of an address to change.
+helpviewer_keywords: ["WakeByAddressAll","WakeByAddressAll function","base.wakebyaddressall","synchapi/WakeByAddressAll"]
 old-location: base\wakebyaddressall.htm
 tech.root: Sync
 ms.assetid: 2d538cea-06cb-4973-8677-27ebcde0aa6f
@@ -26,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Synchronization.lib
-req.dll: Kernel32.dll
+req.dll: API-MS-Win-Core-Synch-l1-2-0.dll.dll
 req.irql: 
 topic_type:
 - APIRef
