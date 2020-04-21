@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpcsdk.DhcpUndoRequestParams
 title: DhcpUndoRequestParams function (dhcpcsdk.h)
-description: The DhcpUndoRequestParams function removes persistent requests previously made with a DhcpRequestParams function call.helpviewer_keywords: ["DhcpUndoRequestParams","DhcpUndoRequestParams function [DHCP]","_dhcp_dhcpundorequestparams","dhcp.dhcpundorequestparams","dhcpcsdk/DhcpUndoRequestParams"]
+description: The DhcpUndoRequestParams function removes persistent requests previously made with a DhcpRequestParams function call.
+helpviewer_keywords: ["DhcpUndoRequestParams","DhcpUndoRequestParams function [DHCP]","_dhcp_dhcpundorequestparams","dhcp.dhcpundorequestparams","dhcpcsdk/DhcpUndoRequestParams"]
 old-location: dhcp\dhcpundorequestparams.htm
 tech.root: DHCP
 ms.assetid: a70fc72e-0fbd-4ee7-ae87-780fdc942384
@@ -71,7 +72,7 @@ Reserved for future use. Must be set to <b>NULL</b>.
 
 ### -param AdapterName [in]
 
-Name of the adapter for which information is no longer required.  Must be under 256 characters.
+GUID of the adapter for which information is no longer required.  Must be under 256 characters.
 
 <div class="alert"><b>Note</b>  This parameter is no longer used.</div>
 <div> </div>
@@ -115,7 +116,3 @@ Persistent requests are typically made by the setup or installer process associa
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcprequestparams">DhcpRequestParams</a>
- 
-
- 
-

@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6RequestParams
 title: Dhcpv6RequestParams function (dhcpv6csdk.h)
-description: Requests options from the DHCPv6 client cache or directly from the DHCPv6 server.helpviewer_keywords: ["Dhcpv6RequestParams","Dhcpv6RequestParams function [DHCP]","dhcp.dhcpv6requestparams","dhcpv6csdk/Dhcpv6RequestParams"]
+description: Requests options from the DHCPv6 client cache or directly from the DHCPv6 server.
+helpviewer_keywords: ["Dhcpv6RequestParams","Dhcpv6RequestParams function [DHCP]","dhcp.dhcpv6requestparams","dhcpv6csdk/Dhcpv6RequestParams"]
 old-location: dhcp\dhcpv6requestparams.htm
 tech.root: DHCP
 ms.assetid: dfe94735-ee9d-4781-9d54-90a10d0e243a
@@ -69,12 +70,12 @@ Reserved for future use.  Must be set to <b>NULL</b>.
 
 ### -param adapterName
 
-Name of the adapter for which this request is meant.  This parameter must not be <b>NULL</b>.
+GUID of the adapter for which this request is meant.  This parameter must not be <b>NULL</b>.
 
 
 ### -param classId
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to use to send on the wire.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to use to send on the wire. This parameter is optional.
 
 
 ### -param recdParams
@@ -114,7 +115,7 @@ Returned if one of the following conditions are true:
 
 <ul>
 <li><i>reserved</i> has a value that is not <b>NULL</b>.</li>
-<li><i>AdapterName</i> is <b>NULL</b>.</li>
+<li><i>AdapterName</i> is <b>NULL</b>. Or no adapter is found with the GUID specified. </li>
 <li><i>pSize</i> is <b>NULL</b>.</li>
 <li><i>buffer</i> is <b>NULL</b>.</li>
 </ul>
@@ -131,8 +132,17 @@ The call to this API was made with insufficient memory allocated for the <i>Buff
 
 </td>
 </tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_NAME</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>AdapterName</i> is not in the correct format. It should be in this format: {00000000-0000-0000-0000-000000000000}.
+
+</td>
+</tr>
+
 </table>
- 
-
-
-
