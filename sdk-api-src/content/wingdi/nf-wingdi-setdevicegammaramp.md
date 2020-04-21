@@ -1,4 +1,3 @@
-
 ---
 UID: NF:wingdi.SetDeviceGammaRamp
 title: SetDeviceGammaRamp function (wingdi.h)
