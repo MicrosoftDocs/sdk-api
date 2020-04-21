@@ -154,4 +154,4 @@ iSCSI bus.
 
 ## -see-also
 
-* [DEVICE_MEDIA_INFO](./ns-winioctl-device_media_info.md)
+* [DEVICE_MEDIA_INFO](ns-winioctl-device_media_info.md)
