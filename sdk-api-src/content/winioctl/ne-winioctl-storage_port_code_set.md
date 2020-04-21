@@ -95,4 +95,4 @@ Storage adapter driver is an SD-port miniport driver.
 ## -see-also
 
 * [Disk Management Enumeration Types](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types)
-* [STORAGE_MINIPORT_DESCRIPTOR](./ns-winioctl-storage_miniport_descriptor.md)
+* [STORAGE_MINIPORT_DESCRIPTOR](ns-winioctl-storage_miniport_descriptor.md)
