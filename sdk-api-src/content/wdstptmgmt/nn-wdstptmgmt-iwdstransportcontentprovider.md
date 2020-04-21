@@ -1,7 +1,7 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportContentProvider
 title: IWdsTransportContentProvider (wdstptmgmt.h)
-description: Used to describe a content provider.
+description: Used to describe a content provider.helpviewer_keywords: ["IWdsTransportContentProvider","IWdsTransportContentProvider interface [Windows Deployment Services]","IWdsTransportContentProvider interface [Windows Deployment Services]","described","wds.iwdstransportcontentprovider","wdstptmgmt/IWdsTransportContentProvider"]
 old-location: wds\iwdstransportcontentprovider.htm
 tech.root: wds
 ms.assetid: DF94E03F-0A9A-4467-B932-28227B6BB3C4

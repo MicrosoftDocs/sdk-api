@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.InterlockedExchange8
 title: InterlockedExchange8 function (winnt.h)
-description: Sets an 8-bit variable to the specified value as an atomic operation.
+description: Sets an 8-bit variable to the specified value as an atomic operation.helpviewer_keywords: ["InterlockedExchange8","InterlockedExchange8 function","base.interlockedexchange8","winnt/InterlockedExchange8"]
 old-location: base\interlockedexchange8.htm
 tech.root: Sync
 ms.assetid: fe07fac0-b9f2-419e-a086-09bc73125c4e

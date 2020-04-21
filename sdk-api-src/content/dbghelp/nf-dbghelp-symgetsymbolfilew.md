@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetSymbolFileW
 title: SymGetSymbolFileW function (dbghelp.h)
-description: Locates a symbol file in the specified symbol path.
+description: Locates a symbol file in the specified symbol path.helpviewer_keywords: ["SymGetSymbolFile","SymGetSymbolFile function","SymGetSymbolFileW","base.symgetsymbolfile","dbghelp/SymGetSymbolFile","dbghelp/SymGetSymbolFileW","sfDbg","sfImage","sfMpd","sfPdb"]
 old-location: base\symgetsymbolfile.htm
 tech.root: Debug
 ms.assetid: 8e78e0ef-e68c-4270-8c63-9513f3069ed0

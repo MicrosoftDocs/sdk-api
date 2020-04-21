@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsFreeMessage
 title: WsFreeMessage function (webservices.h)
-description: Releases the memory resource associated with a Message object.
+description: Releases the memory resource associated with a Message object.helpviewer_keywords: ["WsFreeMessage","WsFreeMessage function [Web Services for Windows]","webservices/WsFreeMessage","wsw.wsfreemessage"]
 old-location: wsw\wsfreemessage.htm
 tech.root: wsw
 ms.assetid: 50e08300-9445-4741-9298-bd80fc777041
@@ -64,13 +64,5 @@ A pointer to the <b>Message</b> object to release.  The pointer must reference a
                     by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemessage">WsCreateMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemessageforchannel">WsCreateMessageForChannel</a> and the referenced value may not be <b>NULL</b>.
                 
                 
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

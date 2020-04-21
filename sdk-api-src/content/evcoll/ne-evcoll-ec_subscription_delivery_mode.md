@@ -1,7 +1,7 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_DELIVERY_MODE
 title: EC_SUBSCRIPTION_DELIVERY_MODE (evcoll.h)
-description: Defines values that indicate how events are delivered in a subscription.
+description: Defines values that indicate how events are delivered in a subscription.helpviewer_keywords: ["EC_SUBSCRIPTION_DELIVERY_MODE","EC_SUBSCRIPTION_DELIVERY_MODE enumeration","EcDeliveryModePull","EcDeliveryModePush","evcoll/EC_SUBSCRIPTION_DELIVERY_MODE","evcoll/EcDeliveryModePull","evcoll/EcDeliveryModePush","wec.ec_subscription_delivery_mode","wes.ec_subscription_delivery_mode"]
 old-location: wec\ec_subscription_delivery_mode.htm
 tech.root: WEC
 ms.assetid: ece884d6-df3c-44d0-a10c-affcf3107148

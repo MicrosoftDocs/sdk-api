@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.SetPreservedKeyDescription
 title: ITfKeystrokeMgr::SetPreservedKeyDescription (msctf.h)
-description: ITfKeystrokeMgr::SetPreservedKeyDescription method
+description: ITfKeystrokeMgr::SetPreservedKeyDescription methodhelpviewer_keywords: ["ITfKeystrokeMgr interface [Text Services Framework]","SetPreservedKeyDescription method","ITfKeystrokeMgr.SetPreservedKeyDescription","ITfKeystrokeMgr::SetPreservedKeyDescription","SetPreservedKeyDescription","SetPreservedKeyDescription method [Text Services Framework]","SetPreservedKeyDescription method [Text Services Framework]","ITfKeystrokeMgr interface","_tsf_itfkeystrokemgr_setpreservedkeydescription_ref","msctf/ITfKeystrokeMgr::SetPreservedKeyDescription","tsf.itfkeystrokemgr_setpreservedkeydescription"]
 old-location: tsf\itfkeystrokemgr_setpreservedkeydescription.htm
 tech.root: TSF
 ms.assetid: feb83f22-652c-4fec-b35d-a0cc41eab533
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Modifies the description string of an existing preserved key.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithObjectsAndSidA
 title: BuildTrusteeWithObjectsAndSidA function (aclapi.h)
-description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values.
+description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values.helpviewer_keywords: ["BuildTrusteeWithObjectsAndSid","BuildTrusteeWithObjectsAndSid function [Security]","BuildTrusteeWithObjectsAndSidA","BuildTrusteeWithObjectsAndSidW","_win32_buildtrusteewithobjectsandsid","aclapi/BuildTrusteeWithObjectsAndSid","aclapi/BuildTrusteeWithObjectsAndSidA","aclapi/BuildTrusteeWithObjectsAndSidW","security.buildtrusteewithobjectsandsid"]
 old-location: security\buildtrusteewithobjectsandsid.htm
 tech.root: SecAuthZ
 ms.assetid: e940a87f-013e-458c-bdc1-9e81c7d905e0
@@ -91,15 +91,6 @@ A pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> str
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the trustee.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

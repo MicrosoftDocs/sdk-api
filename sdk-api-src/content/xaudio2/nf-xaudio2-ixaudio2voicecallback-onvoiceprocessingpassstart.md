@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnVoiceProcessingPassStart
 title: IXAudio2VoiceCallback::OnVoiceProcessingPassStart (xaudio2.h)
-description: Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.
+description: Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.helpviewer_keywords: ["IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs]","OnVoiceProcessingPassStart method","IXAudio2VoiceCallback.OnVoiceProcessingPassStart","IXAudio2VoiceCallback::OnVoiceProcessingPassStart","OnVoiceProcessingPassStart","OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs]","OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs]","IXAudio2VoiceCallback interface","xaudio2.ixaudio2voicecallback_interface_onvoiceprocessingpassstart","xaudio2/IXAudio2VoiceCallback::OnVoiceProcessingPassStart"]
 old-location: xaudio2\ixaudio2voicecallback_interface_onvoiceprocessingpassstart.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnVoiceProcessingPassStart(UINT32)
@@ -63,15 +63,6 @@ The number of bytes that must be submitted immediately to avoid starvation. This
 
 <div class="alert"><b>Note</b>  In a situation where there is always plenty of data available on the source voice, <i>BytesRequired</i> should always report zero, because it doesn't need any samples immediately to avoid glitching.</div>
 <div> </div>
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
 
 ## -remarks
 

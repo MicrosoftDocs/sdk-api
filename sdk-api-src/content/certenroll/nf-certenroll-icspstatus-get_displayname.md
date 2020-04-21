@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICspStatus.get_DisplayName
 title: ICspStatus::get_DisplayName (certenroll.h)
-description: Retrieves a string that contains the name of the provider, the algorithm name, and the operations that can be performed by the algorithm.
+description: Retrieves a string that contains the name of the provider, the algorithm name, and the operations that can be performed by the algorithm.helpviewer_keywords: ["DisplayName property [Security]","DisplayName property [Security]","ICspStatus interface","ICspStatus interface [Security]","DisplayName property","ICspStatus.DisplayName","ICspStatus.get_DisplayName","ICspStatus::DisplayName","ICspStatus::get_DisplayName","certenroll/ICspStatus::DisplayName","certenroll/ICspStatus::get_DisplayName","get_DisplayName","security.icspstatus_displayname"]
 old-location: security\icspstatus_displayname.htm
 tech.root: seccertenroll
 ms.assetid: 7c778f78-1e94-4e84-a51a-3c0171f19db6

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.DiscardResource
 title: ID3D12GraphicsCommandList::DiscardResource (d3d12.h)
-description: Discards a resource.
+description: Discards a resource.helpviewer_keywords: ["DiscardResource","DiscardResource method","DiscardResource method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","DiscardResource method","ID3D12GraphicsCommandList.DiscardResource","ID3D12GraphicsCommandList::DiscardResource","d3d12/ID3D12GraphicsCommandList::DiscardResource","direct3d12.id3d12graphicscommandlist_discardresource"]
 old-location: direct3d12\id3d12graphicscommandlist_discardresource.htm
 tech.root: direct3d12
 ms.assetid: 2F4DBA5B-F586-4126-8867-BEE650F6D161
@@ -71,16 +71,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_discard_region">D3D12_DISCARD_REGION</a> structure that describes details for the discard-resource operation.
             
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

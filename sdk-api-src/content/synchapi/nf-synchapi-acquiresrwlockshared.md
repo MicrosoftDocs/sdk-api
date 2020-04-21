@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.AcquireSRWLockShared
 title: AcquireSRWLockShared function (synchapi.h)
-description: Acquires a slim reader/writer (SRW) lock in shared mode.
+description: Acquires a slim reader/writer (SRW) lock in shared mode.helpviewer_keywords: ["AcquireSRWLockShared","AcquireSRWLockShared function","base.acquiresrwlockshared","synchapi/AcquireSRWLockShared","winbase/AcquireSRWLockShared"]
 old-location: base\acquiresrwlockshared.htm
 tech.root: Sync
 ms.assetid: 86e6d915-c25d-4aee-9ec6-acb970da7069
@@ -67,15 +67,6 @@ Acquires a slim reader/writer (SRW) lock in shared mode.
 ### -param SRWLock [in, out]
 
 A pointer to the SRW lock.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

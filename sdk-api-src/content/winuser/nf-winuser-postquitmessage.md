@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.PostQuitMessage
 title: PostQuitMessage function (winuser.h)
-description: Indicates to the system that a thread has made a request to terminate (quit). It is typically used in response to a WM_DESTROY message.
+description: Indicates to the system that a thread has made a request to terminate (quit). It is typically used in response to a WM_DESTROY message.helpviewer_keywords: ["PostQuitMessage","PostQuitMessage function [Windows and Messages]","_win32_PostQuitMessage","_win32_postquitmessage_cpp","winmsg.postquitmessage","winui._win32_postquitmessage","winuser/PostQuitMessage"]
 old-location: winmsg\postquitmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postquitmessage.htm
@@ -71,15 +71,6 @@ Indicates to the system that a thread has made a request to terminate (quit). It
 Type: <b>int</b>
 
 The application exit code. This value is used as the <i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

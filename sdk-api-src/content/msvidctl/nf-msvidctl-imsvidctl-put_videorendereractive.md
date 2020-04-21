@@ -1,7 +1,7 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_VideoRendererActive
 title: IMSVidCtl::put_VideoRendererActive (msvidctl.h)
-description: The put_VideoRendererActive method specifies the active video renderer.
+description: The put_VideoRendererActive method specifies the active video renderer.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","put_VideoRendererActive method","IMSVidCtl.put_VideoRendererActive","IMSVidCtl::put_VideoRendererActive","IMSVidCtlput_VideoRendererActive","mstv.imsvidctl_put_videorendereractive","msvidctl/IMSVidCtl::put_VideoRendererActive","put_VideoRendererActive","put_VideoRendererActive method [Microsoft TV Technologies]","put_VideoRendererActive method [Microsoft TV Technologies]","IMSVidCtl interface"]
 old-location: mstv\imsvidctl_put_videorendereractive.htm
 tech.root: mstv
 ms.assetid: fb6e1db7-b980-4706-a1f1-cd6d8423bfb2

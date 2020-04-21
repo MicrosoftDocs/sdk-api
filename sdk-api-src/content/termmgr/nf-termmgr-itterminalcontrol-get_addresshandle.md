@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITTerminalControl.get_AddressHandle
 title: ITTerminalControl::get_AddressHandle (termmgr.h)
-description: The get_AddressHandle method gets the MSP address handle.
+description: The get_AddressHandle method gets the MSP address handle.helpviewer_keywords: ["ITTerminalControl interface [TAPI 2.2]","get_AddressHandle method","ITTerminalControl.get_AddressHandle","ITTerminalControl::get_AddressHandle","_tapi3_itterminalcontrol_get_addresshandle","get_AddressHandle","get_AddressHandle method [TAPI 2.2]","get_AddressHandle method [TAPI 2.2]","ITTerminalControl interface","tapi3.itterminalcontrol_get_addresshandle","termmgr/ITTerminalControl::get_AddressHandle"]
 old-location: tapi3\itterminalcontrol_get_addresshandle.htm
 tech.root: Tapi
 ms.assetid: 6f222dea-059a-4eda-bcbc-cd6c61cdf2fa

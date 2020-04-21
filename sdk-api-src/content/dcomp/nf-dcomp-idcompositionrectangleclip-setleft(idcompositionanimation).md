@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetLeft(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetLeft(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the Left property of a clip rectangle.
+description: Animates the value of the Left property of a clip rectangle.helpviewer_keywords: ["IDCompositionRectangleClip interface [DirectComposition]","SetLeft method","IDCompositionRectangleClip.SetLeft","IDCompositionRectangleClip.SetLeft(IDCompositionAnimation)","IDCompositionRectangleClip::SetLeft","IDCompositionRectangleClip::SetLeft(IDCompositionAnimation)","IDCompositionRectangleClip::SetLeft(IDCompositionAnimation*)","SetLeft","SetLeft method [DirectComposition]","SetLeft method [DirectComposition]","IDCompositionRectangleClip interface","dcomp/IDCompositionRectangleClip::SetLeft","directcomp.idcompositionrectangleclip_setleft_idcompositionanimation"]
 old-location: directcomp\idcompositionrectangleclip_setleft_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 72AF8017-646D-4DD2-B350-FE9B64E30CC0

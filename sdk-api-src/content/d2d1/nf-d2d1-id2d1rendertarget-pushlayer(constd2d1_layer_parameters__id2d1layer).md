@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.PushLayer(const D2D1_LAYER_PARAMETERS &,ID2D1Layer)
 title: ID2D1RenderTarget::PushLayer(const D2D1_LAYER_PARAMETERS &,ID2D1Layer) (d2d1.h)
-description: Adds the specified layer to the render target so that it receives all subsequent drawing operations until PopLayer is called.
+description: Adds the specified layer to the render target so that it receives all subsequent drawing operations until PopLayer is called.helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","PushLayer method","ID2D1RenderTarget.PushLayer","ID2D1RenderTarget.PushLayer(const D2D1_LAYER_PARAMETERS &","ID2D1Layer)","ID2D1RenderTarget::PushLayer","ID2D1RenderTarget::PushLayer(const D2D1_LAYER_PARAMETERS &","ID2D1Layer)","PushLayer","PushLayer method [Direct2D]","PushLayer method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::PushLayer","direct2d.ID2D1RenderTarget_PushLayer_ref_D2D1_LAYER_PARAMETERS_ptr_ID2D1Layer"]
 old-location: direct2d\ID2D1RenderTarget_PushLayer_ref_D2D1_LAYER_PARAMETERS_ptr_ID2D1Layer.htm
 tech.root: Direct2D
 ms.assetid: 905e9c76-d09e-4df8-8343-520d856ec6b8
@@ -72,15 +72,6 @@ The layer that receives subsequent drawing operations.
 
 <div class="alert"><b>Note</b>  Starting with Windows 8, this parameter is optional. If a layer is not specified, Direct2D manages the layer resource automatically.</div>
 <div> </div>
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
 
 ## -remarks
 

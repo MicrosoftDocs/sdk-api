@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetTarget
 title: ID2D1DeviceContext::GetTarget (d2d1_1.h)
-description: Gets the target currently associated with the device context.
+description: Gets the target currently associated with the device context.helpviewer_keywords: ["GetTarget","GetTarget method [Direct2D]","GetTarget method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","GetTarget method","ID2D1DeviceContext.GetTarget","ID2D1DeviceContext::GetTarget","d2d1_1/ID2D1DeviceContext::GetTarget","direct2d.id2d1devicecontext_gettarget"]
 old-location: direct2d\id2d1devicecontext_gettarget.htm
 tech.root: Direct2D
 ms.assetid: a70307db-863a-4c59-a327-fb71a5d58f84
@@ -62,15 +62,6 @@ Gets the target currently associated with the device context.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>**</b>
 
 When this method returns, contains the address of a pointer to the target currently associated with the device context.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

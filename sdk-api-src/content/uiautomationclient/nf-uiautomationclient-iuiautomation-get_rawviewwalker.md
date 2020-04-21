@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_RawViewWalker
 title: IUIAutomation::get_RawViewWalker (uiautomationclient.h)
-description: Retrieves a tree walker object used to traverse an unfiltered view of the Microsoft UI Automation tree.
+description: Retrieves a tree walker object used to traverse an unfiltered view of the Microsoft UI Automation tree.helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","RawViewWalker property","IUIAutomation.RawViewWalker","IUIAutomation.get_RawViewWalker","IUIAutomation::RawViewWalker","IUIAutomation::get_RawViewWalker","RawViewWalker property [Windows Accessibility]","RawViewWalker property [Windows Accessibility]","IUIAutomation interface","get_RawViewWalker","uiauto.uiauto_IUIAutomation_RawViewWalker","uiauto_IUIAutomation_RawViewWalker","uiautomationclient/IUIAutomation::RawViewWalker","uiautomationclient/IUIAutomation::get_RawViewWalker","winauto.uiauto_IUIAutomation_RawViewWalker"]
 old-location: winauto\uiauto_IUIAutomation_RawViewWalker.htm
 tech.root: WinAuto
 ms.assetid: 1c76140d-50da-41d6-a997-926396f37a36

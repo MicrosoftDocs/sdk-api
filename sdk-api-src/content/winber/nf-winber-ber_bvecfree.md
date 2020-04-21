@@ -1,7 +1,7 @@
 ---
 UID: NF:winber.ber_bvecfree
 title: ber_bvecfree function (winber.h)
-description: The ber_bvecfree function frees an array of berval structures.
+description: The ber_bvecfree function frees an array of berval structures.helpviewer_keywords: ["_ldap_ber_bvecfree","ber_bvecfree","ber_bvecfree function [LDAP]","ldap.ber__bvecfree","ldap.ber_bvecfree","winber/ber_bvecfree"]
 old-location: ldap\ber_bvecfree.htm
 tech.root: ldap
 ms.assetid: 5c2b53e4-257e-4c3f-b712-345e6b33341b

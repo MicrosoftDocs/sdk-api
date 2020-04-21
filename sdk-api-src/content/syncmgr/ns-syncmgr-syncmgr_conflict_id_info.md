@@ -1,7 +1,7 @@
 ---
 UID: NS:syncmgr.SYNCMGR_CONFLICT_ID_INFO
 title: SYNCMGR_CONFLICT_ID_INFO (syncmgr.h)
-description: Describes conflict ID information structure.
+description: Describes conflict ID information structure.helpviewer_keywords: ["*PSYNCMGR_CONFLICT_ID_INFO","PSYNCMGR_CONFLICT_ID_INFO","PSYNCMGR_CONFLICT_ID_INFO structure pointer [Windows Shell]","SYNCMGR_CONFLICT_ID_INFO","SYNCMGR_CONFLICT_ID_INFO structure [Windows Shell]","_shell_SYNCMGR_CONFLICT_ID_INFO","shell.SYNCMGR_CONFLICT_ID_INFO","syncmgr/PSYNCMGR_CONFLICT_ID_INFO","syncmgr/SYNCMGR_CONFLICT_ID_INFO"]
 old-location: shell\SYNCMGR_CONFLICT_ID_INFO.htm
 tech.root: shell
 ms.assetid: 9a54ef7e-0b22-436e-891b-80610ddaef00

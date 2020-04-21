@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.GetStoredSettings
 title: ISettingsContext::GetStoredSettings (wcmconfig.h)
-description: Gets the stored setting changes from the context for the given namespace.
+description: Gets the stored setting changes from the context for the given namespace.helpviewer_keywords: ["GetStoredSettings","GetStoredSettings method [SMI]","GetStoredSettings method [SMI]","ISettingsContext interface","ISettingsContext interface [SMI]","GetStoredSettings method","ISettingsContext.GetStoredSettings","ISettingsContext::GetStoredSettings","smi.isettingscontext_getstoredsettings","wcmconfig/ISettingsContext::GetStoredSettings"]
 old-location: smi\isettingscontext_getstoredsettings.htm
 tech.root: SMI
 ms.assetid: 29ec0b36-31f2-4078-b1a4-872a8ed340e3

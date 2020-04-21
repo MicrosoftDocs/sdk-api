@@ -1,7 +1,7 @@
 ---
 UID: NN:evr.IMFTopologyServiceLookup
 title: IMFTopologyServiceLookup (evr.h)
-description: Enables a custom video mixer or video presenter to get interface pointers from the Enhanced Video Renderer (EVR).
+description: Enables a custom video mixer or video presenter to get interface pointers from the Enhanced Video Renderer (EVR).helpviewer_keywords: ["IMFTopologyServiceLookup","IMFTopologyServiceLookup interface [Media Foundation]","IMFTopologyServiceLookup interface [Media Foundation]","described","a912c17a-40ef-441c-bfc9-7ef49d22070f","evr/IMFTopologyServiceLookup","mf.imftopologyservicelookup"]
 old-location: mf\imftopologyservicelookup.htm
 tech.root: medfound
 ms.assetid: a912c17a-40ef-441c-bfc9-7ef49d22070f

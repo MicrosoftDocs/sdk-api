@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE
 title: WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE (webservices.h)
-description: HTTP header authentication security template information to be filled in by application. Associated with WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE_TYPE.
+description: HTTP header authentication security template information to be filled in by application. Associated with WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE_TYPE.helpviewer_keywords: ["WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE","WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE structure [Web Services for Windows]","webservices/WS_HTTP_HEADER_AUTH_BINDING_TEMPLATE","wsw.ws_http_header_auth_binding_template"]
 old-location: wsw\ws_http_header_auth_binding_template.htm
 tech.root: wsw
 ms.assetid: 400b2c68-54bd-4918-90fb-f441efaf69e7

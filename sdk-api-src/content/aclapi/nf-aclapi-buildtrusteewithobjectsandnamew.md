@@ -1,7 +1,7 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithObjectsAndNameW
 title: BuildTrusteeWithObjectsAndNameW function (aclapi.h)
-description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the name of the trustee.
+description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the name of the trustee.helpviewer_keywords: ["BuildTrusteeWithObjectsAndName","BuildTrusteeWithObjectsAndName function [Security]","BuildTrusteeWithObjectsAndNameA","BuildTrusteeWithObjectsAndNameW","_win32_buildtrusteewithobjectsandname","aclapi/BuildTrusteeWithObjectsAndName","aclapi/BuildTrusteeWithObjectsAndNameA","aclapi/BuildTrusteeWithObjectsAndNameW","security.buildtrusteewithobjectsandname"]
 old-location: security\buildtrusteewithobjectsandname.htm
 tech.root: SecAuthZ
 ms.assetid: 62edadfe-0a7b-43ec-bd02-a63f928c7618
@@ -92,15 +92,6 @@ A pointer to a string that specifies the name that corresponds to the InheritedO
 ### -param Name [in, optional]
 
 A pointer to a string that specifies the name used to identify the trustee.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

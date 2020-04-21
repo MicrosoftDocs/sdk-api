@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._SID_IDENTIFIER_AUTHORITY
 title: SID_IDENTIFIER_AUTHORITY (winnt.h)
-description: Represents the top-level authority of a security identifier (SID).
+description: Represents the top-level authority of a security identifier (SID).helpviewer_keywords: ["*PSID_IDENTIFIER_AUTHORITY","PSID_IDENTIFIER_AUTHORITY","PSID_IDENTIFIER_AUTHORITY structure pointer [Security]","SID_IDENTIFIER_AUTHORITY","SID_IDENTIFIER_AUTHORITY structure [Security]","_SID_IDENTIFIER_AUTHORITY","_win32_sid_identifier_authority_str","security.sid_identifier_authority","winnt/PSID_IDENTIFIER_AUTHORITY","winnt/SID_IDENTIFIER_AUTHORITY"]
 old-location: security\sid_identifier_authority.htm
 tech.root: SecAuthZ
 ms.assetid: 450a6d2d-d2e4-4098-90af-a8024ddcfcb5

@@ -1,7 +1,7 @@
 ---
 UID: NS:ipmib._MIB_ICMP
 title: MIB_ICMP (ipmib.h)
-description: Contains the Internet Control Message Protocol (ICMP) statistics for a particular computer.
+description: Contains the Internet Control Message Protocol (ICMP) statistics for a particular computer.helpviewer_keywords: ["*PMIB_ICMP","MIB_ICMP","MIB_ICMP structure [MIB]","PMIB_ICMP","PMIB_ICMP structure pointer [MIB]","_mpr_mib_icmp","ipmib/MIB_ICMP","ipmib/PMIB_ICMP","iprtrmib/MIB_ICMP","iprtrmib/PMIB_ICMP","mib.mib_icmp","rras.mib_icmp"]
 old-location: mib\mib_icmp.htm
 tech.root: MIB
 ms.assetid: 45ccaacb-f2cd-4be5-94ef-48d4403d5f60

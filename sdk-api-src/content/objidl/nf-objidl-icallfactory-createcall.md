@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.ICallFactory.CreateCall
 title: ICallFactory::CreateCall (objidl.h)
-description: Creates an instance of the call object that corresponds to a specified asynchronous interface.
+description: Creates an instance of the call object that corresponds to a specified asynchronous interface.helpviewer_keywords: ["CreateCall","CreateCall method [COM]","CreateCall method [COM]","ICallFactory interface","ICallFactory interface [COM]","CreateCall method","ICallFactory.CreateCall","ICallFactory::CreateCall","_com_icallfactory_createcall","com.icallfactory_createcall","objidlbase/ICallFactory::CreateCall"]
 old-location: com\icallfactory_createcall.htm
 tech.root: com
 ms.assetid: 8df51aeb-4852-4dab-b1e9-e149ee115ea8

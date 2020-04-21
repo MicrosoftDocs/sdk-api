@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.GetBounds
 title: Image::GetBounds (gdiplusheaders.h)
-description: The Image::GetBounds method gets the bounding rectangle for this image.
+description: The Image::GetBounds method gets the bounding rectangle for this image.helpviewer_keywords: ["GetBounds","GetBounds method [GDI+]","GetBounds method [GDI+]","Image class","Image class [GDI+]","GetBounds method","Image.GetBounds","Image::GetBounds","_gdiplus_CLASS_Image_GetBounds_srcRect_srcUnit_","gdiplus._gdiplus_CLASS_Image_GetBounds_srcRect_srcUnit_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetBounds_srcRect_srcUnit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getbounds_74srcrect_srcunit.htm

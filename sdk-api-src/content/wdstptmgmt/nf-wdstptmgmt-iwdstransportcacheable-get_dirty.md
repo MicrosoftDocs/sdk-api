@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCacheable.get_Dirty
 title: IWdsTransportCacheable::get_Dirty (wdstptmgmt.h)
-description: Receives a value that indicates whether object data has been modified.
+description: Receives a value that indicates whether object data has been modified.helpviewer_keywords: ["Dirty property [Windows Deployment Services]","Dirty property [Windows Deployment Services]","IWdsTransportCacheable interface","IWdsTransportCacheable interface [Windows Deployment Services]","Dirty property","IWdsTransportCacheable.Dirty","IWdsTransportCacheable.get_Dirty","IWdsTransportCacheable::Dirty","IWdsTransportCacheable::get_Dirty","get_Dirty","wds.iwdstransportcacheable_dirty","wdstptmgmt/IWdsTransportCacheable::Dirty","wdstptmgmt/IWdsTransportCacheable::get_Dirty"]
 old-location: wds\iwdstransportcacheable_dirty.htm
 tech.root: wds
 ms.assetid: f73e3013-e060-45bc-987c-d41cd01beef7

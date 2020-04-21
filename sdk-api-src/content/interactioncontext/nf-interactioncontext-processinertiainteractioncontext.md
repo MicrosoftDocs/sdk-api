@@ -1,7 +1,7 @@
 ---
 UID: NF:interactioncontext.ProcessInertiaInteractionContext
 title: ProcessInertiaInteractionContext function (interactioncontext.h)
-description: Sends timer input to the Interaction Context object for inertia processing.
+description: Sends timer input to the Interaction Context object for inertia processing.helpviewer_keywords: ["ProcessInertiaInteractionContext","ProcessInertiaInteractionContext function","input_intcontext.processinertiainteractioncontext","interactioncontext.processinertiainteractioncontext","interactioncontext/ProcessInertiaInteractionContext"]
 old-location: input_intcontext\processinertiainteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: e1f18294-feb2-4340-8ed5-d76600c3d93a

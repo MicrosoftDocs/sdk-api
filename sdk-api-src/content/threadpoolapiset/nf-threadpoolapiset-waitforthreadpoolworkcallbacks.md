@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.WaitForThreadpoolWorkCallbacks
 title: WaitForThreadpoolWorkCallbacks function (threadpoolapiset.h)
-description: Waits for outstanding work callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.
+description: Waits for outstanding work callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.helpviewer_keywords: ["WaitForThreadpoolWorkCallbacks","WaitForThreadpoolWorkCallbacks function","base.waitforthreadpoolworkcallbacks","threadpoolapiset/WaitForThreadpoolWorkCallbacks","winbase/WaitForThreadpoolWorkCallbacks"]
 old-location: base\waitforthreadpoolworkcallbacks.htm
 tech.root: ProcThread
 ms.assetid: 97c16892-d6ef-4216-ac79-344e83ab35bc
@@ -70,15 +70,6 @@ A <b>TP_WORK</b> structure that defines the work object. The <a href="https://do
 ### -param fCancelPendingCallbacks [in]
 
 Indicates whether to cancel queued callbacks that have not yet started to execute.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

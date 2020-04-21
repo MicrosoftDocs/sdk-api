@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateRenderTargetView
 title: ID3D12Device::CreateRenderTargetView (d3d12.h)
-description: Creates a render-target view for accessing resource data.
+description: Creates a render-target view for accessing resource data.helpviewer_keywords: ["CreateRenderTargetView","CreateRenderTargetView method","CreateRenderTargetView method","ID3D12Device interface","ID3D12Device interface","CreateRenderTargetView method","ID3D12Device.CreateRenderTargetView","ID3D12Device::CreateRenderTargetView","d3d12/ID3D12Device::CreateRenderTargetView","direct3d12.id3d12device_createrendertargetview"]
 old-location: direct3d12\id3d12device_createrendertargetview.htm
 tech.root: direct3d12
 ms.assetid: B5BFAE54-4FAC-47E5-A7F1-3F9E78FED3B4
@@ -84,15 +84,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-
 
 Describes the CPU descriptor handle that represents the destination where the newly-created render target view will reside.
           
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CurrentCanRotate
 title: IUIAutomationTransformPattern::get_CurrentCanRotate (uiautomationclient.h)
-description: Indicates whether the element can be rotated.
+description: Indicates whether the element can be rotated.helpviewer_keywords: ["CurrentCanRotate property [Windows Accessibility]","CurrentCanRotate property [Windows Accessibility]","IUIAutomationTransformPattern interface","IUIAutomationTransformPattern interface [Windows Accessibility]","CurrentCanRotate property","IUIAutomationTransformPattern.CurrentCanRotate","IUIAutomationTransformPattern.get_CurrentCanRotate","IUIAutomationTransformPattern::CurrentCanRotate","IUIAutomationTransformPattern::get_CurrentCanRotate","get_CurrentCanRotate","uiauto.uiauto_IUIAutomationTransformPattern_CurrentCanRotate","uiauto_IUIAutomationTransformPattern_CurrentCanRotate","uiautomationclient/IUIAutomationTransformPattern::CurrentCanRotate","uiautomationclient/IUIAutomationTransformPattern::get_CurrentCanRotate","winauto.uiauto_IUIAutomationTransformPattern_CurrentCanRotate"]
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CurrentCanRotate.htm
 tech.root: WinAuto
 ms.assetid: e6e5d5da-24f2-4b76-854c-756fb7f6661a

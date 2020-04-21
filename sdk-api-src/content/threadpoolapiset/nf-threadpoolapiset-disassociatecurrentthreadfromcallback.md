@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.DisassociateCurrentThreadFromCallback
 title: DisassociateCurrentThreadFromCallback function (threadpoolapiset.h)
-description: Removes the association between the currently executing callback function and the object that initiated the callback. The current thread will no longer count as executing a callback on behalf of the object.
+description: Removes the association between the currently executing callback function and the object that initiated the callback. The current thread will no longer count as executing a callback on behalf of the object.helpviewer_keywords: ["DisassociateCurrentThreadFromCallback","DisassociateCurrentThreadFromCallback function","base.disassociatecurrentthreadfromcallback","threadpoolapiset/DisassociateCurrentThreadFromCallback","winbase/DisassociateCurrentThreadFromCallback"]
 old-location: base\disassociatecurrentthreadfromcallback.htm
 tech.root: ProcThread
 ms.assetid: f25f936c-2570-4e8c-807b-42000cd878bb
@@ -65,15 +65,6 @@ Removes the association between the currently executing callback function and th
 ### -param pci [in, out]
 
 A <b>TP_CALLBACK_INSTANCE</b> structure that defines the callback instance. The structure is passed to the callback function.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoDisconnectObject
 title: CoDisconnectObject function (combaseapi.h)
-description: Disconnects all remote process connections being maintained on behalf of all the interface pointers that point to a specified object.
+description: Disconnects all remote process connections being maintained on behalf of all the interface pointers that point to a specified object.helpviewer_keywords: ["CoDisconnectObject","CoDisconnectObject function [COM]","_com_CoDisconnectObject","com.codisconnectobject","combaseapi/CoDisconnectObject"]
 old-location: com\codisconnectobject.htm
 tech.root: com
 ms.assetid: 4293316a-bafe-4fca-ad6a-68d8e99c8fba

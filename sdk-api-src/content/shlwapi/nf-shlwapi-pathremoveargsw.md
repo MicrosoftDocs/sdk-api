@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathRemoveArgsW
 title: PathRemoveArgsW function (shlwapi.h)
-description: Removes any arguments from a given path.
+description: Removes any arguments from a given path.helpviewer_keywords: ["PathRemoveArgs","PathRemoveArgs function [Windows Shell]","PathRemoveArgsA","PathRemoveArgsW","_win32_PathRemoveArgs","shell.PathRemoveArgs","shlwapi/PathRemoveArgs","shlwapi/PathRemoveArgsA","shlwapi/PathRemoveArgsW"]
 old-location: shell\PathRemoveArgs.htm
 tech.root: shell
 ms.assetid: 430072bc-4ddc-4b3d-bf32-fb60d7b56faf
@@ -66,15 +66,6 @@ Removes any arguments from a given path.
 Type: <b>LPTSTR</b>
 
 Pointer to a null-terminated string of length MAX_PATH that contains the path from which to remove arguments.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

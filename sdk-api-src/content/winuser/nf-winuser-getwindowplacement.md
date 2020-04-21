@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetWindowPlacement
 title: GetWindowPlacement function (winuser.h)
-description: Retrieves the show state and the restored, minimized, and maximized positions of the specified window.
+description: Retrieves the show state and the restored, minimized, and maximized positions of the specified window.helpviewer_keywords: ["GetWindowPlacement","GetWindowPlacement function [Windows and Messages]","_win32_GetWindowPlacement","_win32_getwindowplacement_cpp","winmsg.getwindowplacement","winui._win32_getwindowplacement","winuser/GetWindowPlacement"]
 old-location: winmsg\getwindowplacement.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowplacement.htm

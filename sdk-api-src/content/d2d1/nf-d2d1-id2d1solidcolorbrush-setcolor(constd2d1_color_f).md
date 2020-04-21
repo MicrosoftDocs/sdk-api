@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1SolidColorBrush.SetColor(const D2D1_COLOR_F)
 title: ID2D1SolidColorBrush::SetColor(const D2D1_COLOR_F) (d2d1.h)
-description: Specifies the color of this solid color brush.
+description: Specifies the color of this solid color brush.helpviewer_keywords: ["ID2D1SolidColorBrush interface [Direct2D]","SetColor method","ID2D1SolidColorBrush.SetColor","ID2D1SolidColorBrush.SetColor(const D2D1_COLOR_F)","ID2D1SolidColorBrush::SetColor","ID2D1SolidColorBrush::SetColor(const D2D1_COLOR_F)","SetColor","SetColor method [Direct2D]","SetColor method [Direct2D]","ID2D1SolidColorBrush interface","d2d1/ID2D1SolidColorBrush::SetColor","direct2d.ID2D1SolidColorBrush_SetColor_ptr_COLOR_F"]
 old-location: direct2d\ID2D1SolidColorBrush_SetColor_ptr_COLOR_F.htm
 tech.root: Direct2D
 ms.assetid: 3ae172a2-dbd8-4ca7-8151-a73fec95d6d9
@@ -62,15 +62,6 @@ Specifies the color of this solid color brush.
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f">D2D1_COLOR_F</a>*</b>
 
 The color of this solid color brush.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

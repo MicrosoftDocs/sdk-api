@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfDisplayAttributeInfo.Reset
 title: IEnumTfDisplayAttributeInfo::Reset (msctf.h)
-description: IEnumTfDisplayAttributeInfo::Reset method
+description: IEnumTfDisplayAttributeInfo::Reset methodhelpviewer_keywords: ["IEnumTfDisplayAttributeInfo interface [Text Services Framework]","Reset method","IEnumTfDisplayAttributeInfo.Reset","IEnumTfDisplayAttributeInfo::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfDisplayAttributeInfo interface","_tsf_ienumtfdisplayattributeinfo_reset_ref","msctf/IEnumTfDisplayAttributeInfo::Reset","tsf.ienumtfdisplayattributeinfo_reset"]
 old-location: tsf\ienumtfdisplayattributeinfo_reset.htm
 tech.root: TSF
 ms.assetid: fdfcf505-ae4a-4f7e-91f2-3e79efd56162

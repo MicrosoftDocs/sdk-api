@@ -1,7 +1,7 @@
 ---
 UID: NF:tvratings.IXDSToRat.Init
 title: IXDSToRat::Init (tvratings.h)
-description: The Init method sets the XDSToRat object to its initial state.
+description: The Init method sets the XDSToRat object to its initial state.helpviewer_keywords: ["IXDSToRat interface [Microsoft TV Technologies]","Init method","IXDSToRat.Init","IXDSToRat::Init","IXDSToRatInit","Init","Init method [Microsoft TV Technologies]","Init method [Microsoft TV Technologies]","IXDSToRat interface","mstv.ixdstorat_init","tvratings/IXDSToRat::Init"]
 old-location: mstv\ixdstorat_init.htm
 tech.root: mstv
 ms.assetid: c7c38755-46d3-4100-ba14-c153c4a6a517

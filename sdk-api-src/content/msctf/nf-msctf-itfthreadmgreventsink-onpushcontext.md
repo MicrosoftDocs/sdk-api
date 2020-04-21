@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnPushContext
 title: ITfThreadMgrEventSink::OnPushContext (msctf.h)
-description: ITfThreadMgrEventSink::OnPushContext method
+description: ITfThreadMgrEventSink::OnPushContext methodhelpviewer_keywords: ["ITfThreadMgrEventSink interface [Text Services Framework]","OnPushContext method","ITfThreadMgrEventSink.OnPushContext","ITfThreadMgrEventSink::OnPushContext","OnPushContext","OnPushContext method [Text Services Framework]","OnPushContext method [Text Services Framework]","ITfThreadMgrEventSink interface","_tsf_itfthreadmgreventsink_onpushcontext_ref","msctf/ITfThreadMgrEventSink::OnPushContext","tsf.itfthreadmgreventsink_onpushcontext"]
 old-location: tsf\itfthreadmgreventsink_onpushcontext.htm
 tech.root: TSF
 ms.assetid: 80fbb861-1a12-4a9a-8f96-332c2f736f2d
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when a context is added to the context stack
 
 ## -parameters
 

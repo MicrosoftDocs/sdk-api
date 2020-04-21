@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfPropertyStore.OnTextUpdated
 title: ITfPropertyStore::OnTextUpdated (msctf.h)
-description: ITfPropertyStore::OnTextUpdated method
+description: ITfPropertyStore::OnTextUpdated methodhelpviewer_keywords: ["ITfPropertyStore interface [Text Services Framework]","OnTextUpdated method","ITfPropertyStore.OnTextUpdated","ITfPropertyStore::OnTextUpdated","OnTextUpdated","OnTextUpdated method [Text Services Framework]","OnTextUpdated method [Text Services Framework]","ITfPropertyStore interface","TF_TU_CORRECTION","_tsf_itfpropertystore_ontextupdated_ref","msctf/ITfPropertyStore::OnTextUpdated","tsf.itfpropertystore_ontextupdated"]
 old-location: tsf\itfpropertystore_ontextupdated.htm
 tech.root: TSF
 ms.assetid: 6e3d6341-6e5b-445e-b6ac-48853a5b56f2
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the text that the property store applies to is modified.
 
 ## -parameters
 

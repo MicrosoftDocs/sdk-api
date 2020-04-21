@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IMenuButton.SetButtonState
 title: IMenuButton::SetButtonState (mmc.h)
-description: The IMenuButton::SetButtonState method enables a user to change the state of a menu button.
+description: The IMenuButton::SetButtonState method enables a user to change the state of a menu button.helpviewer_keywords: ["ENABLED","HIDDEN","IMenuButton interface [MMC]","SetButtonState method","IMenuButton.SetButtonState","IMenuButton::SetButtonState","SetButtonState","SetButtonState method [MMC]","SetButtonState method [MMC]","IMenuButton interface","_slate_imenubutton_setbuttonstate","mmc.imenubutton_setbuttonstate","mmc/IMenuButton::SetButtonState"]
 old-location: mmc\imenubutton_setbuttonstate.htm
 tech.root: mmc
 ms.assetid: 28f4faf7-9fb2-4be0-84b6-e3e8f7450c34

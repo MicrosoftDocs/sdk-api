@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_4.ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData
 title: ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData (d3d11_4.h)
-description: Sets the HDR metadata describing the display on which the content will be presented.
+description: Sets the HDR metadata describing the display on which the content will be presented.helpviewer_keywords: ["ID3D11VideoContext2 interface [Media Foundation]","VideoProcessorSetOutputHDRMetaData method","ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData","ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData","VideoProcessorSetOutputHDRMetaData","VideoProcessorSetOutputHDRMetaData method [Media Foundation]","VideoProcessorSetOutputHDRMetaData method [Media Foundation]","ID3D11VideoContext2 interface","d3d11_4/ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData","mf.id3d11videocontext2_videoprocessorsetoutputhdrmetadata"]
 old-location: mf\id3d11videocontext2_videoprocessorsetoutputhdrmetadata.htm
 tech.root: medfound
 ms.assetid: 5905E3F2-B0A3-4FF6-B498-BC24BFD3F58F
@@ -83,15 +83,6 @@ Pointer to the metadata information.
 For <b>DXGI_HDR_METADATA_TYPE_NONE</b>, this should be NULL.
 
 For <b>DXGI_HDR_METADATA_TYPE_HDR10</b>, this is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ns-dxgi1_5-dxgi_hdr_metadata_hdr10">DXGI_HDR_METADATA_HDR10</a> structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

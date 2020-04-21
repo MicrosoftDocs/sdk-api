@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordDescriptorByIndex
 title: IISDB_NBIT::GetRecordDescriptorByIndex (dvbsiparser.h)
-description: Retrieves a descriptor for a specified record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT) based on the descriptor index.
+description: Retrieves a descriptor for a specified record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT) based on the descriptor index.helpviewer_keywords: ["GetRecordDescriptorByIndex","GetRecordDescriptorByIndex method [Microsoft TV Technologies]","GetRecordDescriptorByIndex method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetRecordDescriptorByIndex method","IISDB_NBIT.GetRecordDescriptorByIndex","IISDB_NBIT::GetRecordDescriptorByIndex","dvbsiparser/IISDB_NBIT::GetRecordDescriptorByIndex","mstv.iisdb_nbit_getrecorddescriptorbyindex"]
 old-location: mstv\iisdb_nbit_getrecorddescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 0f7da95d-ba3f-4cdc-aea0-38abae260159

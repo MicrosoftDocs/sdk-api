@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IEnumOLEVERB.Skip
 title: IEnumOLEVERB::Skip (oleidl.h)
-description: Skips over the specified number of items in the enumeration sequence.
+description: Skips over the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumOLEVERB interface [COM]","Skip method","IEnumOLEVERB.Skip","IEnumOLEVERB::Skip","Skip","Skip method [COM]","Skip method [COM]","IEnumOLEVERB interface","_ole_ienumoleverb_skip","com.ienumoleverb_skip","oleidl/IEnumOLEVERB::Skip"]
 old-location: com\ienumoleverb_skip.htm
 tech.root: com
 ms.assetid: f949f993-1c4c-4d42-ba23-93330f0e9967

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase2.SerializeWithOptions
 title: ISyncChangeBatchBase2::SerializeWithOptions (winsync.h)
-description: Serializes the change batch object data to a byte array, based on the specified version and serialization options.
+description: Serializes the change batch object data to a byte array, based on the specified version and serialization options.helpviewer_keywords: ["ISyncChangeBatchBase2 interface [Windows Sync]","SerializeWithOptions method","ISyncChangeBatchBase2.SerializeWithOptions","ISyncChangeBatchBase2::SerializeWithOptions","SerializeWithOptions","SerializeWithOptions method [Windows Sync]","SerializeWithOptions method [Windows Sync]","ISyncChangeBatchBase2 interface","winsync.isyncchangebatchbase2_serializewithoptions","winsync/ISyncChangeBatchBase2::SerializeWithOptions"]
 old-location: winsync\isyncchangebatchbase2_serializewithoptions.htm
 tech.root: winsync
 ms.assetid: 6e686e6f-08b1-4a58-ac0f-30c48f70dd60

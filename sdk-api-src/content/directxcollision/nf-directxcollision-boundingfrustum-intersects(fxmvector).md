@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Intersects(FXMVECTOR)
 title: BoundingFrustum::Intersects(FXMVECTOR)
-description: Test the BoundingFrustum for intersection with a plane.
+description: Test the BoundingFrustum for intersection with a plane.helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","Intersects method","BoundingFrustum.Intersects","BoundingFrustum.Intersects(FXMVECTOR)","BoundingFrustum.Intersects(XMVECTOR)","BoundingFrustum::Intersects","BoundingFrustum::Intersects(FXMVECTOR)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_intersects_7"]
 old-location: dxmath\boundingfrustum_intersects_7.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.Intersects(XMVECTOR)

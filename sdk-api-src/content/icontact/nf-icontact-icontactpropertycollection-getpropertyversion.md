@@ -1,7 +1,7 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.GetPropertyVersion
 title: IContactPropertyCollection::GetPropertyVersion (icontact.h)
-description: Retrieves the version number for the current property in the enumeration.
+description: Retrieves the version number for the current property in the enumeration.helpviewer_keywords: ["GetPropertyVersion","GetPropertyVersion method [Windows Contacts]","GetPropertyVersion method [Windows Contacts]","IContactPropertyCollection interface","IContactPropertyCollection interface [Windows Contacts]","GetPropertyVersion method","IContactPropertyCollection.GetPropertyVersion","IContactPropertyCollection::GetPropertyVersion","_wincontacts_IContactPropertyCollection_GetPropertyVersion","icontact/IContactPropertyCollection::GetPropertyVersion","wincontacts._wincontacts_IContactPropertyCollection_GetPropertyVersion"]
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyVersion.htm
 tech.root: wincontacts
 ms.assetid: ff10129e-45cb-41a4-8800-22b33a238b65

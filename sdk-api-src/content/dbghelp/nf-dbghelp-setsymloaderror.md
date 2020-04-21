@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SetSymLoadError
 title: SetSymLoadError function (dbghelp.h)
-description: Sets a symbol load error.
+description: Sets a symbol load error.helpviewer_keywords: ["SetSymLoadError","SetSymLoadError function","base.setsymloaderror","dbghelp/SetSymLoadError"]
 old-location: base\setsymloaderror.htm
 tech.root: Debug
 ms.assetid: E3225AEB-AFF9-432F-B4FA-D9125210258A

@@ -1,7 +1,7 @@
 ---
 UID: NS:wininet.__unnamed_struct_9
 title: INTERNET_CONNECTED_INFO (wininet.h)
-description: Contains the information to set the global online/offline state.
+description: Contains the information to set the global online/offline state.helpviewer_keywords: ["*LPINTERNET_CONNECTED_INFO","INTERNET_CONNECTED_INFO","INTERNET_CONNECTED_INFO structure [WinINet]","INTERNET_STATE_BUSY","INTERNET_STATE_CONNECTED","INTERNET_STATE_DISCONNECTED","INTERNET_STATE_DISCONNECTED_BY_USER","INTERNET_STATE_IDLE","LPINTERNET_CONNECTED_INFO","LPINTERNET_CONNECTED_INFO structure pointer [WinINet]","_inet_internet_connected_info_structure","wininet.internet_connected_info","wininet/ LPINTERNET_CONNECTED_INFO","wininet/INTERNET_CONNECTED_INFO"]
 old-location: wininet\internet_connected_info.htm
 tech.root: wininet
 ms.assetid: 585dbacb-33b1-4655-9ae3-5dacf30a70da

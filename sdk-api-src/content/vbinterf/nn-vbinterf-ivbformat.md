@@ -1,7 +1,7 @@
 ---
 UID: NN:vbinterf.IVBFormat
 title: IVBFormat (vbinterf.h)
-description: Provides formatting support for controls on a Visual Basic container.
+description: Provides formatting support for controls on a Visual Basic container.helpviewer_keywords: ["IVBFormat","IVBFormat interface [COM]","IVBFormat interface [COM]","described","_com_IVBFormat","com.ivbformat","vbinterf/IVBFormat"]
 old-location: com\ivbformat.htm
 tech.root: com
 ms.assetid: 6b05c0c7-6f38-42cf-bf7b-2a54a4302b68

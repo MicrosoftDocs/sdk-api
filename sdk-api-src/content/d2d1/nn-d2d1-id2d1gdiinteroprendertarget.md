@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1GdiInteropRenderTarget
 title: ID2D1GdiInteropRenderTarget (d2d1.h)
-description: Provides access to an device context that can accept GDI drawing commands.
+description: Provides access to an device context that can accept GDI drawing commands.helpviewer_keywords: ["ID2D1GdiInteropRenderTarget","ID2D1GdiInteropRenderTarget interface [Direct2D]","ID2D1GdiInteropRenderTarget interface [Direct2D]","described","d2d1/ID2D1GdiInteropRenderTarget","direct2d.ID2D1GdiInteropRenderTarget"]
 old-location: direct2d\ID2D1GdiInteropRenderTarget.htm
 tech.root: Direct2D
 ms.assetid: cb992ddd-21b2-4eba-b7c4-e391bdd23a9d

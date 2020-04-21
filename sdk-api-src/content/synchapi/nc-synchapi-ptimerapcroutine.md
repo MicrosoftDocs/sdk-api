@@ -1,7 +1,7 @@
 ---
 UID: NC:synchapi.PTIMERAPCROUTINE
 title: PTIMERAPCROUTINE (synchapi.h)
-description: An application-defined timer completion routine. Specify this address when calling the SetWaitableTimer function.
+description: An application-defined timer completion routine. Specify this address when calling the SetWaitableTimer function.helpviewer_keywords: ["PTIMERAPCROUTINE","PTIMERAPCROUTINE callback","PTIMERAPCROUTINE callback function","_win32_timerapcproc","base.timerapcproc","synchapi/PTIMERAPCROUTINE"]
 old-location: base\timerapcproc.htm
 tech.root: Sync
 ms.assetid: 4e9f7bee-9c39-40d2-8588-0b3a1d7f9ede
@@ -75,15 +75,6 @@ The low-order portion of the UTC-based time at which the timer was signaled. Thi
 ### -param dwTimerHighValue [in]
 
 The high-order portion of the UTC-based time at which the timer was signaled. This value corresponds to the <b>dwHighDateTime</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

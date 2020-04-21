@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfFnLMInternal.ProcessLattice
 title: ITfFnLMInternal::ProcessLattice (ctffunc.h)
-description: ITfFnLMInternal::ProcessLattice method
+description: ITfFnLMInternal::ProcessLattice methodhelpviewer_keywords: ["ITfFnLMInternal interface [Text Services Framework]","ProcessLattice method","ITfFnLMInternal.ProcessLattice","ITfFnLMInternal::ProcessLattice","ProcessLattice","ProcessLattice method [Text Services Framework]","ProcessLattice method [Text Services Framework]","ITfFnLMInternal interface","_tsf_itffnlminternal_processlattice_ref","ctffunc/ITfFnLMInternal::ProcessLattice","tsf.itffnlminternal_processlattice"]
 old-location: tsf\itffnlminternal_processlattice.htm
 tech.root: TSF
 ms.assetid: bbee5966-b971-4e76-8078-fd2c5d34afcf
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Not used.
 
 ## -parameters
 

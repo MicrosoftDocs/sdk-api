@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IAdviseSink.OnDataChange
 title: IAdviseSink::OnDataChange (objidl.h)
-description: Called by the server to notify a data object's currently registered advise sinks that data in the object has changed.
+description: Called by the server to notify a data object's currently registered advise sinks that data in the object has changed.helpviewer_keywords: ["IAdviseSink interface [COM]","OnDataChange method","IAdviseSink.OnDataChange","IAdviseSink::OnDataChange","OnDataChange","OnDataChange method [COM]","OnDataChange method [COM]","IAdviseSink interface","_ole_iadvisesink_ondatachange","com.iadvisesink_ondatachange","objidl/IAdviseSink::OnDataChange"]
 old-location: com\iadvisesink_ondatachange.htm
 tech.root: com
 ms.assetid: 834a5328-3a1f-4edb-aad0-be8ab87acb04
@@ -65,15 +65,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns
 ### -param pStgmed [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure, which defines the storage medium (global memory, disk file, storage object, stream object, GDI object, or undefined) and ownership of that medium for the calling data object.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

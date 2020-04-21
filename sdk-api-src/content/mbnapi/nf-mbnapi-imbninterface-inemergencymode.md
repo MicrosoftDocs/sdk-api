@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnInterface.InEmergencyMode
 title: IMbnInterface::InEmergencyMode (mbnapi.h)
-description: Determines whether the device is in emergency mode.
+description: Determines whether the device is in emergency mode.helpviewer_keywords: ["IMbnInterface interface [Microsoft Broadband Networks]","InEmergencyMode method","IMbnInterface.InEmergencyMode","IMbnInterface::InEmergencyMode","InEmergencyMode","InEmergencyMode method [Microsoft Broadband Networks]","InEmergencyMode method [Microsoft Broadband Networks]","IMbnInterface interface","mbn.imbninterface_inemergencymode","mbnapi/IMbnInterface::InEmergencyMode"]
 old-location: mbn\imbninterface_inemergencymode.htm
 tech.root: mbn
 ms.assetid: b4ce2c10-627d-4cbe-a884-7bb8731c3bcf

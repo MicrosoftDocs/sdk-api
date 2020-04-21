@@ -1,7 +1,7 @@
 ---
 UID: NC:resapi.PQUORUM_RESOURCE_LOST
 title: PQUORUM_RESOURCE_LOST (resapi.h)
-description: Called when control of the quorum resource has been lost.
+description: Called when control of the quorum resource has been lost.helpviewer_keywords: ["PQUORUM_RESOURCE_LOST","PQUORUM_RESOURCE_LOST callback function [Failover Cluster]","QuorumResourceLost","QuorumResourceLost callback","QuorumResourceLost callback function [Failover Cluster]","_wolf_quorumresourcelost","mscs.quorumresourcelost","resapi/PQUORUM_RESOURCE_LOST","resapi/QuorumResourceLost"]
 old-location: mscs\quorumresourcelost.htm
 tech.root: MsCS
 ms.assetid: 353eaf47-f93e-4243-8bed-7b6f07513a3c
@@ -73,15 +73,6 @@ Called when control of the <a href="https://docs.microsoft.com/previous-versions
 Handle identifying the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> to which this callback 
        applies. The value for <i>ResourceHandle</i> should be the handle passed in during the 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a> call for this resource.
-
-
-## -returns
-
-
-
-This function has no return values.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NS:tapi.linemonitortone_tag
 title: LINEMONITORTONE (tapi.h)
-description: The LINEMONITORTONE structure describes a tone to be monitored. This is used as an entry in an array. The lineMonitorTones and TSPI_lineMonitorTones functions use this structure.
+description: The LINEMONITORTONE structure describes a tone to be monitored. This is used as an entry in an array. The lineMonitorTones and TSPI_lineMonitorTones functions use this structure.helpviewer_keywords: ["*LPLINEMONITORTONE","LINEMONITORTONE","LINEMONITORTONE structure [TAPI 2.2]","LPLINEMONITORTONE","LPLINEMONITORTONE structure pointer [TAPI 2.2]","_tapi2_linemonitortone_str","tapi/LINEMONITORTONE","tapi/LPLINEMONITORTONE","tapi2.linemonitortone_str"]
 old-location: tapi2\linemonitortone_str.htm
 tech.root: Tapi
 ms.assetid: f2d37591-2f1e-458f-b4d4-ab63eb31d33a

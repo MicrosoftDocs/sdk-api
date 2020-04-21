@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._KERB_CERTIFICATE_INFO
 title: KERB_CERTIFICATE_INFO (ntsecapi.h)
-description: Contains the certificate information.
+description: Contains the certificate information.helpviewer_keywords: ["*PKERB_CERTIFICATE_INFO","KERB_CERTIFICATE_INFO","KERB_CERTIFICATE_INFO structure [Security]","PKERB_CERTIFICATE_INFO","PKERB_CERTIFICATE_INFO structure pointer [Security]","ntsecapi/KERB_CERTIFICATE_INFO","ntsecapi/PKERB_CERTIFICATE_INFO","security.kerb_certificate_info"]
 old-location: security\kerb_certificate_info.htm
 tech.root: SecAuthN
 ms.assetid: 1E8CA0FE-02DF-4FAA-B0ED-5882DF38B78A

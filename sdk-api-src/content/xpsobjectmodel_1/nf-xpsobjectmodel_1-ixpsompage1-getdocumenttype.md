@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMPage1.GetDocumentType
 title: IXpsOMPage1::GetDocumentType (xpsobjectmodel_1.h)
-description: Gets the type of FixedPage markup that was used to initialize this page. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.
+description: Gets the type of FixedPage markup that was used to initialize this page. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.helpviewer_keywords: ["GetDocumentType","GetDocumentType method [XPS Documents and Packaging]","GetDocumentType method [XPS Documents and Packaging]","IXpsOMPage1 interface","IXpsOMPage1 interface [XPS Documents and Packaging]","GetDocumentType method","IXpsOMPage1.GetDocumentType","IXpsOMPage1::GetDocumentType","xps.ixpsompage1_getdocumenttype","xpsobjectmodel_1/IXpsOMPage1::GetDocumentType"]
 old-location: xps\ixpsompage1_getdocumenttype.htm
 tech.root: printdocs
 ms.assetid: b2456ffc-7a9d-41c2-b693-eb71909ccf3d

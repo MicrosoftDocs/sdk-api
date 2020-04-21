@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Close
 title: IWMWriterNetworkSink::Close (wmsdkidl.h)
-description: The Close method disconnects all clients from the network sink, and releases the port.
+description: The Close method disconnects all clients from the network sink, and releases the port.helpviewer_keywords: ["Close","Close method [windows Media Format]","Close method [windows Media Format]","IWMWriterNetworkSink interface","IWMWriterNetworkSink interface [windows Media Format]","Close method","IWMWriterNetworkSink.Close","IWMWriterNetworkSink::Close","IWMWriterNetworkSinkClose","wmformat.iwmwriternetworksink_close","wmsdkidl/IWMWriterNetworkSink::Close"]
 old-location: wmformat\iwmwriternetworksink_close.htm
 tech.root: wmformat
 ms.assetid: 7e36b94b-e6d3-46a0-8874-edd545e0e5b1

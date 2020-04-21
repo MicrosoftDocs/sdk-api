@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitiveImpl.IsDirty
 title: IMILBitmapEffectPrimitiveImpl::IsDirty (mileffects.h)
-description: Determines whether the effect needs to be updated.
+description: Determines whether the effect needs to be updated.helpviewer_keywords: ["IMILBitmapEffectPrimitiveImpl interface [WPF Bitmap Effects]","IsDirty method","IMILBitmapEffectPrimitiveImpl.IsDirty","IMILBitmapEffectPrimitiveImpl::IsDirty","IsDirty","IsDirty method [WPF Bitmap Effects]","IsDirty method [WPF Bitmap Effects]","IMILBitmapEffectPrimitiveImpl interface","_wibe_imilbitmapeffectprimitiveimpl_isdirty","mileffects/IMILBitmapEffectPrimitiveImpl::IsDirty","wibe._wibe_imilbitmapeffectprimitiveimpl_isdirty"]
 old-location: wibe\_wibe_imilbitmapeffectprimitiveimpl_isdirty.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitiveimpl\isdirty.htm

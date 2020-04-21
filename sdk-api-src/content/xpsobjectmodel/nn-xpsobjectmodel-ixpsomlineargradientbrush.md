@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMLinearGradientBrush
 title: IXpsOMLinearGradientBrush (xpsobjectmodel.h)
-description: Specifies a linear gradient, which is the color gradient along a vector.
+description: Specifies a linear gradient, which is the color gradient along a vector.helpviewer_keywords: ["IXpsOMLinearGradientBrush","IXpsOMLinearGradientBrush interface [XPS Documents and Packaging]","IXpsOMLinearGradientBrush interface [XPS Documents and Packaging]","described","xps.ixpsomlineargradientbrush","xpsobjectmodel/IXpsOMLinearGradientBrush"]
 old-location: xps\ixpsomlineargradientbrush.htm
 tech.root: printdocs
 ms.assetid: 739bf088-0f09-47c1-9b49-6c279395f15b

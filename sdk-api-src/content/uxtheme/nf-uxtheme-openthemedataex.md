@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.OpenThemeDataEx
 title: OpenThemeDataEx function (uxtheme.h)
-description: Opens the theme data associated with a window for specified theme classes.
+description: Opens the theme data associated with a window for specified theme classes.helpviewer_keywords: ["OTD_FORCE_RECT_SIZING","OTD_NONCLIENT","OpenThemeDataEx","OpenThemeDataEx function [Windows Controls]","controls.OpenThemeDataEx","controls.inet_OpenThemeDataEx","inet_OpenThemeDataEx","inet_OpenThemeDataEx_cpp","uxtheme/OpenThemeDataEx"]
 old-location: controls\OpenThemeDataEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedataex.htm

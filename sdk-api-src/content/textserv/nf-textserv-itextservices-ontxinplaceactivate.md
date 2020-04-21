@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextServices.OnTxInPlaceActivate
 title: ITextServices::OnTxInPlaceActivate (textserv.h)
-description: Notifies the text services object that this control is in-place active.
+description: Notifies the text services object that this control is in-place active.helpviewer_keywords: ["ITextServices interface [Windows Controls]","OnTxInPlaceActivate method","ITextServices.OnTxInPlaceActivate","ITextServices::OnTxInPlaceActivate","OnTxInPlaceActivate","OnTxInPlaceActivate method [Windows Controls]","OnTxInPlaceActivate method [Windows Controls]","ITextServices interface","_win32_ITextServices_OnTxInPlaceActivate","_win32_ITextServices_OnTxInPlaceActivate_cpp","controls.ITextServices_OnTxInPlaceActivate","controls._win32_ITextServices_OnTxInPlaceActivate","textserv/ITextServices::OnTxInPlaceActivate"]
 old-location: controls\ITextServices_OnTxInPlaceActivate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxinplaceactivate.htm

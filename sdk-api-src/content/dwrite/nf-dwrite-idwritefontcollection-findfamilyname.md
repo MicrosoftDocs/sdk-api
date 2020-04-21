@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFontCollection.FindFamilyName
 title: IDWriteFontCollection::FindFamilyName (dwrite.h)
-description: Finds the font family with the specified family name.
+description: Finds the font family with the specified family name.helpviewer_keywords: ["FindFamilyName","FindFamilyName method [Direct Write]","FindFamilyName method [Direct Write]","IDWriteFontCollection interface","IDWriteFontCollection interface [Direct Write]","FindFamilyName method","IDWriteFontCollection.FindFamilyName","IDWriteFontCollection::FindFamilyName","directwrite.IDWriteFontCollection_FindFamilyName","dwrite/IDWriteFontCollection::FindFamilyName"]
 old-location: directwrite\IDWriteFontCollection_FindFamilyName.htm
 tech.root: DirectWrite
 ms.assetid: 5537988f-aba0-4477-be01-72a5f8e66395

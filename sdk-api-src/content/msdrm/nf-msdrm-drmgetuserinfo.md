@@ -1,7 +1,7 @@
 ---
 UID: NF:msdrm.DRMGetUserInfo
 title: DRMGetUserInfo function (msdrm.h)
-description: Obtains information about a user.
+description: Obtains information about a user.helpviewer_keywords: ["DRMGetUserInfo","DRMGetUserInfo function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetUserInfo","rm.drmgetuserinfo"]
 old-location: rm\drmgetuserinfo.htm
 tech.root: AdRms_Sdk
 ms.assetid: 98c0640d-8ee1-4072-989d-16a2e8ba09b3

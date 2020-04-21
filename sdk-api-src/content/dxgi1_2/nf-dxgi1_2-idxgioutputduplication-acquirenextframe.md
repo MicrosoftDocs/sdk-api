@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.AcquireNextFrame
 title: IDXGIOutputDuplication::AcquireNextFrame (dxgi1_2.h)
-description: Indicates that the application is ready to process the next desktop image.
+description: Indicates that the application is ready to process the next desktop image.helpviewer_keywords: ["AcquireNextFrame","AcquireNextFrame method [DXGI]","AcquireNextFrame method [DXGI]","IDXGIOutputDuplication interface","IDXGIOutputDuplication interface [DXGI]","AcquireNextFrame method","IDXGIOutputDuplication.AcquireNextFrame","IDXGIOutputDuplication::AcquireNextFrame","direct3ddxgi.idxgioutputduplication_acquirenextframe","dxgi1_2/IDXGIOutputDuplication::AcquireNextFrame"]
 old-location: direct3ddxgi\idxgioutputduplication_acquirenextframe.htm
 tech.root: direct3ddxgi
 ms.assetid: C4F8C462-C8D8-4418-9543-7C8C32CE9498

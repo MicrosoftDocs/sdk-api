@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPropertyList.Reset
 title: IADsPropertyList::Reset (iads.h)
-description: Resets the list to the first item.
+description: Resets the list to the first item.helpviewer_keywords: ["IADsPropertyList interface [ADSI]","Reset method","IADsPropertyList.Reset","IADsPropertyList::Reset","Reset","Reset method [ADSI]","Reset method [ADSI]","IADsPropertyList interface","_ds_iadspropertylist_reset","adsi.iadspropertylist__reset","adsi.iadspropertylist_reset","iads/IADsPropertyList::Reset"]
 old-location: adsi\iadspropertylist_reset.htm
 tech.root: adsi
 ms.assetid: ca9f92e5-d81f-40e5-8223-38fd8312ef7c

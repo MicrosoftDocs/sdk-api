@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DSGetShaderResources
 title: ID3D11DeviceContext::DSGetShaderResources (d3d11.h)
-description: Get the domain-shader resources.
+description: Get the domain-shader resources.helpviewer_keywords: ["3f3f8f89-3e09-81e0-f528-c36e15994027","DSGetShaderResources","DSGetShaderResources method [Direct3D 11]","DSGetShaderResources method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","DSGetShaderResources method","ID3D11DeviceContext.DSGetShaderResources","ID3D11DeviceContext::DSGetShaderResources","d3d11/ID3D11DeviceContext::DSGetShaderResources","direct3d11.id3d11devicecontext_dsgetshaderresources"]
 old-location: direct3d11\id3d11devicecontext_dsgetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: 6308e37c-a30f-4927-946b-33d882f9cce8
@@ -77,15 +77,6 @@ The number of resources to get from the device. Up to a maximum of 128 slots are
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a>**</b>
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">shader resource view</a> interfaces to be returned by the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

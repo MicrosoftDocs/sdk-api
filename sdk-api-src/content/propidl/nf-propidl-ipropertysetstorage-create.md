@@ -1,7 +1,7 @@
 ---
 UID: NF:propidl.IPropertySetStorage.Create
 title: IPropertySetStorage::Create (propidl.h)
-description: Creates and opens a new property set in the property set storage object.
+description: Creates and opens a new property set in the property set storage object.helpviewer_keywords: ["Create","Create method [Structured Storage]","Create method [Structured Storage]","IPropertySetStorage interface","IPropertySetStorage interface [Structured Storage]","Create method","IPropertySetStorage.Create","IPropertySetStorage::Create","_stg_ipropertysetstorage_create","propidl/IPropertySetStorage::Create","stg.ipropertysetstorage_create"]
 old-location: stg\ipropertysetstorage_create.htm
 tech.root: Stg
 ms.assetid: 9307788d-bce6-4025-8043-8b68e874a62b

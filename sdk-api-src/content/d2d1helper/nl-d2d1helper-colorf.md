@@ -1,7 +1,7 @@
 ---
 UID: NL:d2d1helper.ColorF
 title: ColorF (d2d1helper.h)
-description: Defines a set of constants that represents known colors and provides convenience methods for instantiating different colors.
+description: Defines a set of constants that represents known colors and provides convenience methods for instantiating different colors.helpviewer_keywords: ["ColorF","ColorF class [Direct2D]","ColorF class [Direct2D]","described","D2D1.ColorF","d2d1/ColorF","direct2d.colorf"]
 old-location: direct2d\colorf.htm
 tech.root: Direct2D
 ms.assetid: 36f5cf3e-00a4-45d2-816c-85c18eb948f4

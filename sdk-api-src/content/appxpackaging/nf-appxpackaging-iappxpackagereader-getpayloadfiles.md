@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetPayloadFiles
 title: IAppxPackageReader::GetPayloadFiles (appxpackaging.h)
-description: Retrieves an enumerator that iterates through the payload files in the package.
+description: Retrieves an enumerator that iterates through the payload files in the package.helpviewer_keywords: ["GetPayloadFiles","GetPayloadFiles method [App packaging and management]","GetPayloadFiles method [App packaging and management]","IAppxPackageReader interface","IAppxPackageReader interface [App packaging and management]","GetPayloadFiles method","IAppxPackageReader.GetPayloadFiles","IAppxPackageReader::GetPayloadFiles","appxpackaging/IAppxPackageReader::GetPayloadFiles","appxpkg.iappxpackagereader_getpayloadfiles"]
 old-location: appxpkg\iappxpackagereader_getpayloadfiles.htm
 tech.root: appxpkg
 ms.assetid: 20883A4E-BE7B-4312-978A-3BF9362CA6DA

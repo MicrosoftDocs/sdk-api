@@ -1,7 +1,7 @@
 ---
 UID: NF:methodco.MethodContext.GetStatusObject
 title: MethodContext::GetStatusObject (methodco.h)
-description: The GetStatusObject method gets an internal pointer to IWbemClassObject information. WMI does not implement any functionality based on the pointer.
+description: The GetStatusObject method gets an internal pointer to IWbemClassObject information. WMI does not implement any functionality based on the pointer.helpviewer_keywords: ["?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ","GetStatusObject","GetStatusObject method [Windows Management Instrumentation]","GetStatusObject method [Windows Management Instrumentation]","MethodContext interface","MethodContext interface [Windows Management Instrumentation]","GetStatusObject method","MethodContext.GetStatusObject","MethodContext::GetStatusObject","methodco/MethodContext::GetStatusObject","wmi.methodcontext_getstatusobject"]
 old-location: wmi\methodcontext_getstatusobject.htm
 tech.root: WmiSdk
 ms.assetid: dc68eddb-7991-42bd-bc0e-4f5d890ca468

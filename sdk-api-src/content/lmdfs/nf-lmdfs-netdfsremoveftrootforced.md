@@ -1,7 +1,7 @@
 ---
 UID: NF:lmdfs.NetDfsRemoveFtRootForced
 title: NetDfsRemoveFtRootForced function (lmdfs.h)
-description: Removes the specified root target from a domain-based Distributed File System (DFS) namespace, even if the root target server is offline.
+description: Removes the specified root target from a domain-based Distributed File System (DFS) namespace, even if the root target server is offline.helpviewer_keywords: ["NetDfsRemoveFtRootForced","NetDfsRemoveFtRootForced function [Distributed File System]","_win32_netdfsremoveftrootforced","dfs.netdfsremoveftrootforced","fs.netdfsremoveftrootforced","lmdfs/NetDfsRemoveFtRootForced","netmgmt.netdfsremoveftrootforced"]
 old-location: dfs\netdfsremoveftrootforced.htm
 tech.root: Dfs
 ms.assetid: 4eaa0e2a-fa09-4a20-98e1-4c0c4ff5d0ef

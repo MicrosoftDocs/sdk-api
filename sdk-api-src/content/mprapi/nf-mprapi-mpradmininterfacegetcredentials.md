@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceGetCredentials
 title: MprAdminInterfaceGetCredentials function (mprapi.h)
-description: Use the MprAdminInterfaceGetCredentials function to retrieve the domain, user name, and password for dialing out on the specified demand-dial interface.
+description: Use the MprAdminInterfaceGetCredentials function to retrieve the domain, user name, and password for dialing out on the specified demand-dial interface.helpviewer_keywords: ["MprAdminInterfaceGetCredentials","MprAdminInterfaceGetCredentials function [RAS]","_mpr_mpradmininterfacegetcredentials","mprapi/MprAdminInterfaceGetCredentials","rras.mpradmininterfacegetcredentials"]
 old-location: rras\mpradmininterfacegetcredentials.htm
 tech.root: RRAS
 ms.assetid: 0ec18926-1ee9-4e28-9284-9d95d06be2e4

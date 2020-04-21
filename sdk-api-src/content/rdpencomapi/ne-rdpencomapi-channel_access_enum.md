@@ -1,7 +1,7 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0005
 title: CHANNEL_ACCESS_ENUM (rdpencomapi.h)
-description: Defines values for the type of access granted to the attendee for the channel.
+description: Defines values for the type of access granted to the attendee for the channel.helpviewer_keywords: ["CHANNEL_ACCESS_ENUM","CHANNEL_ACCESS_ENUM enumeration [RDP]","CHANNEL_ACCESS_ENUM_NONE","CHANNEL_ACCESS_ENUM_SENDRECEIVE","rdp.channel_access_enum","rdpencomapi/CHANNEL_ACCESS_ENUM","rdpencomapi/CHANNEL_ACCESS_ENUM_NONE","rdpencomapi/CHANNEL_ACCESS_ENUM_SENDRECEIVE"]
 old-location: rdp\channel_access_enum.htm
 tech.root: rdp
 ms.assetid: 7d07954f-6514-4512-a934-6140de826ece

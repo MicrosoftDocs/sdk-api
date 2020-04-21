@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.GetThemeTextMetrics
 title: GetThemeTextMetrics function (uxtheme.h)
-description: Retrieves information about the font specified by a visual style for a particular part.
+description: Retrieves information about the font specified by a visual style for a particular part.helpviewer_keywords: ["GetThemeTextMetrics","GetThemeTextMetrics function [Windows Controls]","controls.GetThemeTextMetrics","controls.inet_GetThemeTextMetrics","inet_GetThemeTextMetrics","inet_GetThemeTextMetrics_cpp","uxtheme/GetThemeTextMetrics"]
 old-location: controls\GetThemeTextMetrics.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetextmetrics.htm

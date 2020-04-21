@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStreamPrioritization
 title: IMFASFProfile::GetStreamPrioritization (wmcontainer.h)
-description: IMFASFProfile::GetStreamPrioritization method
+description: IMFASFProfile::GetStreamPrioritization methodhelpviewer_keywords: ["28c542b9-a121-4002-83ae-d6dcfa6f0b6a","GetStreamPrioritization","GetStreamPrioritization method [Media Foundation]","GetStreamPrioritization method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","GetStreamPrioritization method","IMFASFProfile.GetStreamPrioritization","IMFASFProfile::GetStreamPrioritization","mf.imfasfprofile_getstreamprioritization","wmcontainer/IMFASFProfile::GetStreamPrioritization"]
 old-location: mf\imfasfprofile_getstreamprioritization.htm
 tech.root: medfound
 ms.assetid: 28c542b9-a121-4002-83ae-d6dcfa6f0b6a

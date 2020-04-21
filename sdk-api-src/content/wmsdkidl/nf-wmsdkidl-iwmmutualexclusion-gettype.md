@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion.GetType
 title: IWMMutualExclusion::GetType (wmsdkidl.h)
-description: The GetType method retrieves the GUID of the type of mutual exclusion required.
+description: The GetType method retrieves the GUID of the type of mutual exclusion required.helpviewer_keywords: ["GetType","GetType method [windows Media Format]","GetType method [windows Media Format]","IWMMutualExclusion interface","IWMMutualExclusion interface [windows Media Format]","GetType method","IWMMutualExclusion.GetType","IWMMutualExclusion::GetType","IWMMutualExclusionGetType","wmformat.iwmmutualexclusion_gettype","wmsdkidl/IWMMutualExclusion::GetType"]
 old-location: wmformat\iwmmutualexclusion_gettype.htm
 tech.root: wmformat
 ms.assetid: 546bb0d1-a11e-4bf7-92fc-cef938d792bb

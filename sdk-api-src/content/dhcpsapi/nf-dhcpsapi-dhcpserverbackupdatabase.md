@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpServerBackupDatabase
 title: DhcpServerBackupDatabase function (dhcpsapi.h)
-description: Backs up the DHCP server database configuration, settings, and DHCP client lease record to a specified file location.
+description: Backs up the DHCP server database configuration, settings, and DHCP client lease record to a specified file location.helpviewer_keywords: ["DhcpServerBackupDatabase","DhcpServerBackupDatabase function [DHCP]","dhcp.dhcpserverbackupdatabase","dhcpsapi/DhcpServerBackupDatabase"]
 old-location: dhcp\dhcpserverbackupdatabase.htm
 tech.root: DHCP
 ms.assetid: 90e37a33-6d58-4bfc-99e7-e1c244f927ed

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Brush.GetTransform
 title: ID2D1Brush::GetTransform (d2d1.h)
-description: Gets the transform applied to this brush.
+description: Gets the transform applied to this brush.helpviewer_keywords: ["GetTransform","GetTransform method [Direct2D]","GetTransform method [Direct2D]","ID2D1Brush interface","ID2D1Brush interface [Direct2D]","GetTransform method","ID2D1Brush.GetTransform","ID2D1Brush::GetTransform","d2d1/ID2D1Brush::GetTransform","direct2d.ID2D1Brush_GetTransform"]
 old-location: direct2d\ID2D1Brush_GetTransform.htm
 tech.root: Direct2D
 ms.assetid: f28282e8-f994-4501-a327-fcceb8379f70
@@ -62,15 +62,6 @@ Gets the transform applied to this brush.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The transform applied to this brush.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

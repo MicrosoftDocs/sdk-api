@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsReplicaFreeInfo
 title: DsReplicaFreeInfo function (ntdsapi.h)
-description: Frees the replication state data structure allocated by the DsReplicaGetInfo or DsReplicaGetInfo2 functions.
+description: Frees the replication state data structure allocated by the DsReplicaGetInfo or DsReplicaGetInfo2 functions.helpviewer_keywords: ["DsReplicaFreeInfo","DsReplicaFreeInfo function [Active Directory]","ad.dsreplicafreeinfo","ntdsapi/DsReplicaFreeInfo"]
 old-location: ad\dsreplicafreeinfo.htm
 tech.root: ad
 ms.assetid: 32ce378e-a178-4970-b3bd-3887866e97af
@@ -65,15 +65,6 @@ Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ntds
 ### -param pInfo [in]
 
 Pointer to the replication data structure allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> functions.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

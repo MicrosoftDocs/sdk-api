@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_MasterClientId
 title: IWdsTransportSession::get_MasterClientId (wdstptmgmt.h)
-description: Receives a unique client ID assigned by the WDS server that identifies the master client for this session.
+description: Receives a unique client ID assigned by the WDS server that identifies the master client for this session.helpviewer_keywords: ["IWdsTransportSession interface [Windows Deployment Services]","MasterClientId property","IWdsTransportSession.MasterClientId","IWdsTransportSession.get_MasterClientId","IWdsTransportSession::MasterClientId","IWdsTransportSession::get_MasterClientId","MasterClientId property [Windows Deployment Services]","MasterClientId property [Windows Deployment Services]","IWdsTransportSession interface","get_MasterClientId","wds.iwdstransportsession_masterclientid","wdstptmgmt/IWdsTransportSession::MasterClientId","wdstptmgmt/IWdsTransportSession::get_MasterClientId"]
 old-location: wds\iwdstransportsession_masterclientid.htm
 tech.root: wds
 ms.assetid: 6259ee20-b5ed-47c0-853a-2d3cad19b387

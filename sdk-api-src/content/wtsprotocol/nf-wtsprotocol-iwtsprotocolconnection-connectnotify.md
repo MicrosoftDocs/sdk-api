@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.ConnectNotify
 title: IWTSProtocolConnection::ConnectNotify (wtsprotocol.h)
-description: IWTSProtocolConnection::ConnectNotify is no longer available. Instead, use IWRdsProtocolConnection::ConnectNotify.
+description: IWTSProtocolConnection::ConnectNotify is no longer available. Instead, use IWRdsProtocolConnection::ConnectNotify.helpviewer_keywords: ["ConnectNotify","ConnectNotify method [Remote Desktop Services]","ConnectNotify method [Remote Desktop Services]","IWTSProtocolConnection interface","IWTSProtocolConnection interface [Remote Desktop Services]","ConnectNotify method","IWTSProtocolConnection.ConnectNotify","IWTSProtocolConnection::ConnectNotify","termserv.iwtsprotocolconnection_connectnotify","wtsprotocol/IWTSProtocolConnection::ConnectNotify"]
 old-location: termserv\iwtsprotocolconnection_connectnotify.htm
 tech.root: TermServ
 ms.assetid: 9109d867-d9dc-4b95-a674-9f59ed7aa6a4

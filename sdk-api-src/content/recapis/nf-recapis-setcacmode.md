@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.SetCACMode
 title: SetCACMode function (recapis.h)
-description: Specifies character Autocomplete mode for character or word recognition.You cannot turn off character Autocomplete after it is set.
+description: Specifies character Autocomplete mode for character or word recognition.You cannot turn off character Autocomplete after it is set.helpviewer_keywords: ["4f51e2e1-612a-484e-acba-6f3ae268082a","CAC_FULL","CAC_PREFIX","CAC_RANDOM","SetCACMode","SetCACMode function [Tablet PC]","recapis/SetCACMode","tablet.setcacmode"]
 old-location: tablet\setcacmode.htm
 tech.root: tablet
 ms.assetid: 4f51e2e1-612a-484e-acba-6f3ae268082a

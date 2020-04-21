@@ -1,7 +1,7 @@
 ---
 UID: NF:libloaderapi.DisableThreadLibraryCalls
 title: DisableThreadLibraryCalls function (libloaderapi.h)
-description: Disables the DLL_THREAD_ATTACH and DLL_THREAD_DETACH notifications for the specified dynamic-link library (DLL).
+description: Disables the DLL_THREAD_ATTACH and DLL_THREAD_DETACH notifications for the specified dynamic-link library (DLL).helpviewer_keywords: ["DisableThreadLibraryCalls","DisableThreadLibraryCalls function","_win32_disablethreadlibrarycalls","base.disablethreadlibrarycalls","libloaderapi/DisableThreadLibraryCalls","winbase/DisableThreadLibraryCalls"]
 old-location: base\disablethreadlibrarycalls.htm
 tech.root: Dlls
 ms.assetid: 25e0e533-35e3-48c6-80a5-f063d38d87ca
@@ -95,8 +95,7 @@ The
 
 Do not call this function from a DLL that is linked to the static C run-time library (CRT). The static CRT requires DLL_THREAD_ATTACH and DLL_THREAD_DETATCH notifications to function properly.
 
-
-
+This function does not perform any optimizations if static [Thread Local Storage (TLS)](https://docs.microsoft.com/en-us/windows/win32/procthread/thread-local-storage) is enabled. Static TLS is enabled when using **thread_local** variables, **__declspec( thread )** variables, or function-local **static**.
 
 ## -see-also
 

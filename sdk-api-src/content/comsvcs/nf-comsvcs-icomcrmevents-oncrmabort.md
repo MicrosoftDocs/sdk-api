@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMAbort
 title: IComCRMEvents::OnCRMAbort (comsvcs.h)
-description: Generated when CRM clerk receives an abort notification to pass on to the CRM compensator.
+description: Generated when CRM clerk receives an abort notification to pass on to the CRM compensator.helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMAbort method","IComCRMEvents.OnCRMAbort","IComCRMEvents::OnCRMAbort","OnCRMAbort","OnCRMAbort method [COM+]","OnCRMAbort method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMAbort","comsvcs/IComCRMEvents::OnCRMAbort","cos.icomcrmevents_oncrmabort"]
 old-location: cos\icomcrmevents_oncrmabort.htm
 tech.root: cossdk
 ms.assetid: 9def1696-8bc7-4294-a848-ff8ad2632ed6

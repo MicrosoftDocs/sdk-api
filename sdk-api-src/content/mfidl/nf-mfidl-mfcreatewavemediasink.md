@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateWAVEMediaSink
 title: MFCreateWAVEMediaSink function (mfidl.h)
-description: Creates an WAVE archive sink. The WAVE archive sink takes audio and writes it to an .wav file.
+description: Creates an WAVE archive sink. The WAVE archive sink takes audio and writes it to an .wav file.helpviewer_keywords: ["MFCreateWAVEMediaSink","MFCreateWAVEMediaSink function [Media Foundation]","mf.mfcreatewavemediasink","mfidl/MFCreateWAVEMediaSink"]
 old-location: mf\mfcreatewavemediasink.htm
 tech.root: medfound
 ms.assetid: AF2FAE46-E7A0-4294-8EE1-499AE11CD1E3

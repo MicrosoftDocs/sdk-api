@@ -1,7 +1,7 @@
 ---
 UID: NF:effects.IWMPEffects.GetPresetCount
 title: IWMPEffects::GetPresetCount (effects.h)
-description: The GetPresetCount method gets the preset count.
+description: The GetPresetCount method gets the preset count.helpviewer_keywords: ["EffectsGetPresetCount","GetPresetCount","GetPresetCount method [Windows Media Player]","GetPresetCount method [Windows Media Player]","IWMPEffects interface","IWMPEffects interface [Windows Media Player]","GetPresetCount method","IWMPEffects.GetPresetCount","IWMPEffects::GetPresetCount","effects/IWMPEffects::GetPresetCount","wmp.iwmpeffects_getpresetcount"]
 old-location: wmp\iwmpeffects_getpresetcount.htm
 tech.root: WMP
 ms.assetid: 6eee859b-8f39-4951-814a-41913df152db

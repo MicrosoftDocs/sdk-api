@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.RestoreDC
 title: RestoreDC function (wingdi.h)
-description: The RestoreDC function restores a device context (DC) to the specified state. The DC is restored by popping state information off a stack created by earlier calls to the SaveDC function.
+description: The RestoreDC function restores a device context (DC) to the specified state. The DC is restored by popping state information off a stack created by earlier calls to the SaveDC function.helpviewer_keywords: ["RestoreDC","RestoreDC function [Windows GDI]","_win32_RestoreDC","gdi.restoredc","wingdi/RestoreDC"]
 old-location: gdi\restoredc.htm
 tech.root: gdi
 ms.assetid: 7043edbb-b3ea-4946-a2ba-cae356b04d1d

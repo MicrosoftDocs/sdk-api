@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.RemoveFromRegistry
 title: IX509PolicyServerUrl::RemoveFromRegistry (certenroll.h)
-description: Unregisters a certificate enrollment policy (CEP) server.
+description: Unregisters a certificate enrollment policy (CEP) server.helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509PolicyServerUrl interface [Security]","RemoveFromRegistry method","IX509PolicyServerUrl.RemoveFromRegistry","IX509PolicyServerUrl::RemoveFromRegistry","RemoveFromRegistry","RemoveFromRegistry method [Security]","RemoveFromRegistry method [Security]","IX509PolicyServerUrl interface","certenroll/IX509PolicyServerUrl::RemoveFromRegistry","security.ix509policyserverurl_removefromregistry"]
 old-location: security\ix509policyserverurl_removefromregistry.htm
 tech.root: seccertenroll
 ms.assetid: 18f9a445-99db-43b1-bee0-35bfbd1de0a5

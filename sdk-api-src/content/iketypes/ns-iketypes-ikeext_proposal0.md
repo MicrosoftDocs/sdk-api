@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_PROPOSAL0_
 title: IKEEXT_PROPOSAL0 (iketypes.h)
-description: Is used to store an IKE/AuthIP main mode proposal.
+description: Is used to store an IKE/AuthIP main mode proposal.helpviewer_keywords: ["IKEEXT_PROPOSAL0","IKEEXT_PROPOSAL0 structure [Filtering]","fwp.ikeext_proposal0","iketypes/IKEEXT_PROPOSAL0"]
 old-location: fwp\ikeext_proposal0.htm
 tech.root: fwp
 ms.assetid: 59568ef7-12bd-407a-a8ee-9bf261f49883

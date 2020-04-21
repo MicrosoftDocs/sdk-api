@@ -1,7 +1,7 @@
 ---
 UID: NF:imagehlp.ImageRemoveCertificate
 title: ImageRemoveCertificate function (imagehlp.h)
-description: Removes the specified certificate from the given file.
+description: Removes the specified certificate from the given file.helpviewer_keywords: ["ImageRemoveCertificate","ImageRemoveCertificate function","_win32_imageremovecertificate","base.imageremovecertificate","imagehlp/ImageRemoveCertificate"]
 old-location: base\imageremovecertificate.htm
 tech.root: Debug
 ms.assetid: e06da4c5-6641-47f8-9dd9-4a1593e11f7b

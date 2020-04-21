@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetTitleRestrictions
 title: IXblIdpAuthTokenResult::GetTitleRestrictions (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use.helpviewer_keywords: ["GetTitleRestrictions","GetTitleRestrictions method","GetTitleRestrictions method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetTitleRestrictions method","IXblIdpAuthTokenResult.GetTitleRestrictions","IXblIdpAuthTokenResult::GetTitleRestrictions","xblidp.ixblidpauthtokenresult_gettitlerestrictions","xblidpauthmanager/IXblIdpAuthTokenResult::GetTitleRestrictions"]
 old-location: xblidp\ixblidpauthtokenresult_gettitlerestrictions.htm
 tech.root: xblidp
 ms.assetid: 1C1DD5CF-3237-42EA-A152-E35A07CC46A2

@@ -1,7 +1,7 @@
 ---
 UID: NN:rometadataapi.IMetaDataImport2
 title: IMetaDataImport2 (rometadataapi.h)
-description: Extends the IMetaDataImport interface to provide the capability of working with generic types.
+description: Extends the IMetaDataImport interface to provide the capability of working with generic types.helpviewer_keywords: ["IMetaDataImport2","IMetaDataImport2 interface [Windows Runtime]","IMetaDataImport2 interface [Windows Runtime]","described","rometadataapi/IMetaDataImport2","winrt.imetadataimport2"]
 old-location: winrt\imetadataimport2.htm
 tech.root: WinRT
 ms.assetid: 32c462e0-d4b8-44db-b24b-c86b46be85bf

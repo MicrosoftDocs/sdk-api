@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLGetPKeyId
 title: SLGetPKeyId function (slpublic.h)
-description: Gets the registered product key ID associated with the product.
+description: Gets the registered product key ID associated with the product.helpviewer_keywords: ["SLGetPKeyId","SLGetPKeyId function [Security]","security.slgetpkeyid","slpublic/SLGetPKeyId"]
 old-location: security\slgetpkeyid.htm
 tech.root: SecSLApi
 ms.assetid: 6255b66f-d121-47a9-a5a6-eca5483b14dd

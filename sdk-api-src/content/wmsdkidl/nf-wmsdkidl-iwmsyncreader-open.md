@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.Open
 title: IWMSyncReader::Open (wmsdkidl.h)
-description: The Open method opens a file for reading. Unlike IWMReader::Open, this method is a synchronous call.
+description: The Open method opens a file for reading. Unlike IWMReader::Open, this method is a synchronous call.helpviewer_keywords: ["IWMSyncReader interface [windows Media Format]","Open method","IWMSyncReader.Open","IWMSyncReader::Open","IWMSyncReaderOpen","Open","Open method [windows Media Format]","Open method [windows Media Format]","IWMSyncReader interface","wmformat.iwmsyncreader_open","wmsdkidl/IWMSyncReader::Open"]
 old-location: wmformat\iwmsyncreader_open.htm
 tech.root: wmformat
 ms.assetid: dab1a9c4-487c-4b20-909e-05f3504698f5

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI8FromUI2
 title: VarI8FromUI2 function (oleauto.h)
-description: Converts an unsigned short value to an 8-byte integer value.
+description: Converts an unsigned short value to an 8-byte integer value.helpviewer_keywords: ["VarI8FromUI2","VarI8FromUI2 function [Automation]","_oa96_VarI8FromUI2","automat.vari8fromui2","oleauto/VarI8FromUI2"]
 old-location: automat\vari8fromui2.htm
 tech.root: automat
 ms.assetid: 1b11b69a-1f9e-400d-99a0-6c75d784c570

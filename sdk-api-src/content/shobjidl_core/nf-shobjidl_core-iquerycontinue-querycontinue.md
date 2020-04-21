@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IQueryContinue.QueryContinue
 title: IQueryContinue::QueryContinue (shobjidl_core.h)
-description: Returns S_OK if the operation associated with the current instance of this interface should continue.
+description: Returns S_OK if the operation associated with the current instance of this interface should continue.helpviewer_keywords: ["IQueryContinue interface [Windows Shell]","QueryContinue method","IQueryContinue.QueryContinue","IQueryContinue::QueryContinue","QueryContinue","QueryContinue method [Windows Shell]","QueryContinue method [Windows Shell]","IQueryContinue interface","inet_IQueryContinue_QueryContinue","shell.IQueryContinue_QueryContinue","shobjidl_core/IQueryContinue::QueryContinue"]
 old-location: shell\IQueryContinue_QueryContinue.htm
 tech.root: shell
 ms.assetid: 9beabfc9-56b9-4778-8027-939aa986086a

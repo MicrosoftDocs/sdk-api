@@ -1,7 +1,7 @@
 ---
 UID: NS:mftransform._MFT_INPUT_STREAM_INFO
 title: MFT_INPUT_STREAM_INFO (mftransform.h)
-description: Contains information about an input stream on a Media Foundation transform (MFT). To get these values, call IMFTransform::GetInputStreamInfo.
+description: Contains information about an input stream on a Media Foundation transform (MFT). To get these values, call IMFTransform::GetInputStreamInfo.helpviewer_keywords: ["MFT_INPUT_STREAM_INFO","MFT_INPUT_STREAM_INFO structure [Media Foundation]","de3d6d70-3525-42a0-bc1a-2625e7ebd918","mf.mft_input_stream_info","mftransform/MFT_INPUT_STREAM_INFO"]
 old-location: mf\mft_input_stream_info.htm
 tech.root: medfound
 ms.assetid: de3d6d70-3525-42a0-bc1a-2625e7ebd918

@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_Lifespan
 title: SecPkgContext_Lifespan (sspi.h)
-description: The SecPkgContext_Lifespan structure indicates the life span of a security context. The QueryContextAttributes (General) function uses this structure.
+description: The SecPkgContext_Lifespan structure indicates the life span of a security context. The QueryContextAttributes (General) function uses this structure.helpviewer_keywords: ["*PSecPkgContext_Lifespan","PSecPkgContext_Lifespan","PSecPkgContext_Lifespan structure pointer [Security]","SecPkgContext_Lifespan","SecPkgContext_Lifespan structure [Security]","_ssp_secpkgcontext_lifespan","security.secpkgcontext_lifespan","sspi/PSecPkgContext_Lifespan","sspi/SecPkgContext_Lifespan"]
 old-location: security\secpkgcontext_lifespan.htm
 tech.root: SecAuthN
 ms.assetid: 7ef45795-f6af-4dac-a498-c6f8c915a168

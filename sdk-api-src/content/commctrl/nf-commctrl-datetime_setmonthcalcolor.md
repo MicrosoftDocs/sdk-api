@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.DateTime_SetMonthCalColor
 title: DateTime_SetMonthCalColor macro (commctrl.h)
-description: Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the DTM_SETMCCOLOR message explicitly.
+description: Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the DTM_SETMCCOLOR message explicitly.helpviewer_keywords: ["DateTime_SetMonthCalColor","DateTime_SetMonthCalColor macro [Windows Controls]","MCSC_BACKGROUND","MCSC_MONTHBK","MCSC_TEXT","MCSC_TITLEBK","MCSC_TITLETEXT","MCSC_TRAILINGTEXT","_win32_DateTime_SetMonthCalColor","_win32_DateTime_SetMonthCalColor_cpp","commctrl/DateTime_SetMonthCalColor","controls.DateTime_SetMonthCalColor","controls._win32_DateTime_SetMonthCalColor"]
 old-location: controls\DateTime_SetMonthCalColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalcolor.htm

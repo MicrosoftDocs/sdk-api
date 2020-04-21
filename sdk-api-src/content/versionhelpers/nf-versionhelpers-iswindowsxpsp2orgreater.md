@@ -1,7 +1,7 @@
 ---
 UID: NF:versionhelpers.IsWindowsXPSP2OrGreater
 title: IsWindowsXPSP2OrGreater function (versionhelpers.h)
-description: Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 2 (SP2) version.
+description: Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 2 (SP2) version.helpviewer_keywords: ["IsWindowsXPSP2OrGreater","IsWindowsXPSP2OrGreater function","base.iswindowsxpsp2orgreater","versionhelpers/IsWindowsXPSP2OrGreater"]
 old-location: base\iswindowsxpsp2orgreater.htm
 tech.root: SysInfo
 ms.assetid: DA957BA8-AD28-4096-8BE5-B77CA55B9324

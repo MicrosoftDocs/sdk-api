@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetCASetupProperty
 title: ICertSrvSetup::SetCASetupProperty (casetup.h)
-description: Sets a property value for a certification authority (CA) configuration.
+description: Sets a property value for a certification authority (CA) configuration.helpviewer_keywords: ["ICertSrvSetup interface [Security]","SetCASetupProperty method","ICertSrvSetup.SetCASetupProperty","ICertSrvSetup::SetCASetupProperty","SetCASetupProperty","SetCASetupProperty method [Security]","SetCASetupProperty method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::SetCASetupProperty","security.icertsrvsetup_setcasetupproperty"]
 old-location: security\icertsrvsetup_setcasetupproperty.htm
 tech.root: SecCrypto
 ms.assetid: 91df1926-a4b6-4ba2-ab59-0258293fc1c0

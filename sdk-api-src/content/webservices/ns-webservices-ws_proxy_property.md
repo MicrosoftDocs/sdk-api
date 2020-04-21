@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_PROXY_PROPERTY
 title: WS_PROXY_PROPERTY (webservices.h)
-description: Specifies a proxy property.
+description: Specifies a proxy property.helpviewer_keywords: ["WS_PROXY_PROPERTY","WS_PROXY_PROPERTY structure [Web Services for Windows]","webservices/WS_PROXY_PROPERTY","wsw.ws_proxy_property"]
 old-location: wsw\ws_proxy_property.htm
 tech.root: wsw
 ms.assetid: eb8ce473-bf9e-4eae-8c40-8e2972a26d41

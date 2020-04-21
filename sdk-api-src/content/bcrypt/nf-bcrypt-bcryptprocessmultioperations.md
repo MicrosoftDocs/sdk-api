@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptProcessMultiOperations
 title: BCryptProcessMultiOperations function (bcrypt.h)
-description: The BCryptProcessMultiOperations function processes a sequence of operations on a multi-object state.
+description: The BCryptProcessMultiOperations function processes a sequence of operations on a multi-object state.helpviewer_keywords: ["BCryptProcessMultiOperations","BCryptProcessMultiOperations function [Security]","bcrypt/BCryptProcessMultiOperations","security.bcryptprocessmultioperation"]
 old-location: security\bcryptprocessmultioperation.htm
 tech.root: SecCNG
 ms.assetid: 5FD28AC3-46D2-4F06-BF06-F5FEF8E531F5

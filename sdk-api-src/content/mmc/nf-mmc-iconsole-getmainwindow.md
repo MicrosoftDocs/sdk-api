@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IConsole.GetMainWindow
 title: IConsole::GetMainWindow (mmc.h)
-description: Retrieves a handle to the main frame window.
+description: Retrieves a handle to the main frame window.helpviewer_keywords: ["GetMainWindow","GetMainWindow method [MMC]","GetMainWindow method [MMC]","IConsole interface","IConsole interface [MMC]","GetMainWindow method","IConsole.GetMainWindow","IConsole::GetMainWindow","mmc.iconsole_getmainwindow","mmc/IConsole::GetMainWindow"]
 old-location: mmc\iconsole_getmainwindow.htm
 tech.root: mmc
 ms.assetid: C861307B-38DD-4FC0-A790-59E26AB6F7AD

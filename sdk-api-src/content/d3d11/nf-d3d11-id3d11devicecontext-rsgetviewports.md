@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.RSGetViewports
 title: ID3D11DeviceContext::RSGetViewports (d3d11.h)
-description: Gets the array of viewports bound to the rasterizer stage.
+description: Gets the array of viewports bound to the rasterizer stage.helpviewer_keywords: ["19831c51-f6c4-f65f-6ada-c90fa97f0a32","ID3D11DeviceContext interface [Direct3D 11]","RSGetViewports method","ID3D11DeviceContext.RSGetViewports","ID3D11DeviceContext::RSGetViewports","RSGetViewports","RSGetViewports method [Direct3D 11]","RSGetViewports method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::RSGetViewports","direct3d11.id3d11devicecontext_rsgetviewports"]
 old-location: direct3d11\id3d11devicecontext_rsgetviewports.htm
 tech.root: direct3d11
 ms.assetid: 9932182f-8e62-41fe-9004-7fb0b591630f
@@ -79,15 +79,6 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d
             For info about how the viewport size depends on the device <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a>, which has changed between Direct3D 11
             and Direct3D 10, see <b>D3D11_VIEWPORT</b>.
           
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

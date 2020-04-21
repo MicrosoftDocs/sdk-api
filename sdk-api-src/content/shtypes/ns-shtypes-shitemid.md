@@ -1,7 +1,7 @@
 ---
 UID: NS:shtypes._SHITEMID
 title: SHITEMID (shtypes.h)
-description: Defines an item identifier.
+description: Defines an item identifier.helpviewer_keywords: ["*LPSHITEMID","SHITEMID","SHITEMID structure [Windows Shell]","_win32_SHITEMID","shell.SHITEMID","shtypes/SHITEMID"]
 old-location: shell\SHITEMID.htm
 tech.root: shell
 ms.assetid: 794c8425-2319-4339-881c-c5083ab05638

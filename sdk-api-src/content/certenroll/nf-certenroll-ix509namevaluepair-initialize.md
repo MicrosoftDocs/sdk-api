@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509NameValuePair.Initialize
 title: IX509NameValuePair::Initialize (certenroll.h)
-description: Initializes the object from strings that contain the name and associated value.
+description: Initializes the object from strings that contain the name and associated value.helpviewer_keywords: ["IX509NameValuePair interface [Security]","Initialize method","IX509NameValuePair.Initialize","IX509NameValuePair::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","IX509NameValuePair interface","certenroll/IX509NameValuePair::Initialize","security.ix509namevaluepair_initialize_method"]
 old-location: security\ix509namevaluepair_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 3e935718-a59a-443e-bff2-a010a41e7756

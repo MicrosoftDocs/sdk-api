@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSGetViewports
 title: ID3D10Device::RSGetViewports (d3d10.h)
-description: Get the array of viewports bound to the rasterizer stage
+description: Get the array of viewports bound to the rasterizer stagehelpviewer_keywords: ["ID3D10Device interface [Direct3D 10]","RSGetViewports method","ID3D10Device.RSGetViewports","ID3D10Device::RSGetViewports","RSGetViewports","RSGetViewports method [Direct3D 10]","RSGetViewports method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::RSGetViewports","d9ea7cbf-16e9-686e-f682-4c7619caae2c","direct3d10.id3d10device_rsgetviewports"]
 old-location: direct3d10\id3d10device_rsgetviewports.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rsgetviewports.htm
@@ -74,15 +74,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-
 
 An array of viewports (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_viewport">D3D10_VIEWPORT</a>) to be filled with information from the device. If NumViewports is greater than 
         the actual number of viewports currently bound, then unused members of the array will contain 0.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -see-also

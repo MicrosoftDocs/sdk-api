@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvCompletePDEV
 title: DrvCompletePDEV function (winddi.h)
-description: The DrvCompletePDEV function stores the GDI handle of the physical device being created.
+description: The DrvCompletePDEV function stores the GDI handle of the physical device being created.helpviewer_keywords: ["DrvCompletePDEV","DrvCompletePDEV function [Display Devices]","ddifncs_7d8109c8-3f74-4ae2-99d3-e2d18ff4cc32.xml","display.drvcompletepdev","winddi/DrvCompletePDEV"]
 old-location: display\drvcompletepdev.htm
 tech.root: display
 ms.assetid: 6343c6cc-f2f3-4776-a747-7a5b5cebef5f
@@ -65,15 +65,6 @@ Handle to the physical device, which was returned to GDI when it called <a href=
 ### -param hdev
 
 Handle to the physical device that has been installed. This is the GDI handle for the physical device being created. The driver should use this handle when calling GDI functions.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

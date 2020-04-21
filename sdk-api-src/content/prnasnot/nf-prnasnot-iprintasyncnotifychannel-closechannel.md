@@ -1,7 +1,7 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyChannel.CloseChannel
 title: IPrintAsyncNotifyChannel::CloseChannel (prnasnot.h)
-description: Closes the channel.
+description: Closes the channel.helpviewer_keywords: ["CloseChannel","CloseChannel method [Windows GDI]","CloseChannel method [Windows GDI]","IPrintAsyncNotifyChannel interface","IPrintAsyncNotifyChannel interface [Windows GDI]","CloseChannel method","IPrintAsyncNotifyChannel.CloseChannel","IPrintAsyncNotifyChannel::CloseChannel","_win32_IPrintAsyncNotifyChannel_CloseChannel","gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel","prnasnot/IPrintAsyncNotifyChannel::CloseChannel"]
 old-location: gdi\iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel.htm
 tech.root: printdocs
 ms.assetid: d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7

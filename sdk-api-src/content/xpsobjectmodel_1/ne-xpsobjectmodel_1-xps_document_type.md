@@ -1,7 +1,7 @@
 ---
 UID: NE:xpsobjectmodel_1.__MIDL___MIDL_itf_xpsobjectmodel_1_0000_0000_0001
 title: XPS_DOCUMENT_TYPE (xpsobjectmodel_1.h)
-description: Indicates the format into which the document was serialized.
+description: Indicates the format into which the document was serialized.helpviewer_keywords: ["XPS_DOCUMENT_TYPE","XPS_DOCUMENT_TYPE enumeration [XPS Documents and Packaging]","XPS_DOCUMENT_TYPE_OPENXPS","XPS_DOCUMENT_TYPE_UNSPECIFIED","XPS_DOCUMENT_TYPE_XPS","xps.xps_document_type","xpsobjectmodel_1/XPS_DOCUMENT_TYPE","xpsobjectmodel_1/XPS_DOCUMENT_TYPE_OPENXPS","xpsobjectmodel_1/XPS_DOCUMENT_TYPE_UNSPECIFIED","xpsobjectmodel_1/XPS_DOCUMENT_TYPE_XPS"]
 old-location: xps\xps_document_type.htm
 tech.root: printdocs
 ms.assetid: C34629CB-7F8C-4126-BBE3-BF506D7586E9

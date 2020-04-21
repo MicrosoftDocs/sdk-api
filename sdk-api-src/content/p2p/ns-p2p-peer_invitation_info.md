@@ -1,7 +1,7 @@
 ---
 UID: NS:p2p.peer_invitation_info_tag
 title: PEER_INVITATION_INFO (p2p.h)
-description: The PEER_INVITATION_INFO structure defines information about an invitation to join a peer group.
+description: The PEER_INVITATION_INFO structure defines information about an invitation to join a peer group.helpviewer_keywords: ["*PPEER_INVITATION_INFO","PEER_GROUP_ROLE_ADMIN","PEER_GROUP_ROLE_MEMBER","PEER_INVITATION_INFO","PEER_INVITATION_INFO structure [Peer Networking]","PNRP_CLOUD_NAME_LOCAL","PNRP_CLOUD_NO_FLAGS","PNRP_GLOBAL_SCOPE","PNRP_LINK_LOCAL_SCOPE","PNRP_LOCAL_SCOPE","PPEER_INVITATION_INFO","PPEER_INVITATION_INFO structure pointer [Peer Networking]","p2p.peer_invitation_info","p2p/PPEER_INVITATION_INFO","p2p/peer_invitation_info_tag"]
 old-location: p2p\peer_invitation_info.htm
 tech.root: P2PSdk
 ms.assetid: 215df4ed-83e3-40c3-a38e-89d92ce38707

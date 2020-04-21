@@ -1,7 +1,7 @@
 ---
 UID: NN:vpnotify.IVPNotify
 title: IVPNotify (vpnotify.h)
-description: Supports a private communication mechanism between the Overlay Mixer filter and a VPE decoder filter that represents a hardware decoder.Only the Overlay Mixer filter implements this interface. Applications should never use it.
+description: Supports a private communication mechanism between the Overlay Mixer filter and a VPE decoder filter that represents a hardware decoder.Only the Overlay Mixer filter implements this interface. Applications should never use it.helpviewer_keywords: ["IVPNotify","IVPNotify interface [DirectShow]","IVPNotify interface [DirectShow]","described","IVPNotifyInterface","dshow.ivpnotify","vpnotify/IVPNotify"]
 old-location: dshow\ivpnotify.htm
 tech.root: DirectShow
 ms.assetid: 6b40ba9e-8562-4d31-beaf-e4d4858bf145

@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeLib.ReleaseTLibAttr
 title: ITypeLib::ReleaseTLibAttr (oaidl.h)
-description: Releases the TLIBATTR originally obtained from GetLibAttr.
+description: Releases the TLIBATTR originally obtained from GetLibAttr.helpviewer_keywords: ["ITypeLib interface [Automation]","ReleaseTLibAttr method","ITypeLib.ReleaseTLibAttr","ITypeLib::ReleaseTLibAttr","ReleaseTLibAttr","ReleaseTLibAttr method [Automation]","ReleaseTLibAttr method [Automation]","ITypeLib interface","_oa96_ITypeLib_ReleaseTLibAttr","automat.itypelib_releasetlibattr","oaidl/ITypeLib::ReleaseTLibAttr"]
 old-location: automat\itypelib_releasetlibattr.htm
 tech.root: automat
 ms.assetid: a5b9ee66-ab66-4ad9-a6bf-93bd98e3905c
@@ -60,15 +60,6 @@ Releases the TLIBATTR originally obtained from <a href="https://docs.microsoft.c
 ### -param pTLibAttr [in]
 
 The TLIBATTR to be freed.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

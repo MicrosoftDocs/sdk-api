@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateTapePartition
 title: CreateTapePartition function (winbase.h)
-description: Reformats a tape.
+description: Reformats a tape.helpviewer_keywords: ["CreateTapePartition","CreateTapePartition function [Backup]","TAPE_FIXED_PARTITIONS","TAPE_INITIATOR_PARTITIONS","TAPE_SELECT_PARTITIONS","_win32_createtapepartition","backup.createtapepartition","base.createtapepartition","winbase/CreateTapePartition"]
 old-location: backup\createtapepartition.htm
 tech.root: Backup
 ms.assetid: 9add07a2-1f70-4c9a-b278-4bc8b6c9d043

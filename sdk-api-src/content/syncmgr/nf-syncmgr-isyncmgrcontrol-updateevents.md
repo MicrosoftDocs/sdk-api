@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateEvents
 title: ISyncMgrControl::UpdateEvents (syncmgr.h)
-description: Informs Sync Center that events have been added for a specific handler or item.
+description: Informs Sync Center that events have been added for a specific handler or item.helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","UpdateEvents method","ISyncMgrControl.UpdateEvents","ISyncMgrControl::UpdateEvents","UpdateEvents","UpdateEvents method [Windows Shell]","UpdateEvents method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_UpdateEvents","shell.ISyncMgrControl_UpdateEvents","syncmgr/ISyncMgrControl::UpdateEvents"]
 old-location: shell\ISyncMgrControl_UpdateEvents.htm
 tech.root: shell
 ms.assetid: 72848e6a-eec3-45fc-b599-a5a8da2e1070

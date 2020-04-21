@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.ClearMarkers
 title: GraphicsPath::ClearMarkers (gdipluspath.h)
-description: The GraphicsPath::ClearMarkers method clears the markers from this path.
+description: The GraphicsPath::ClearMarkers method clears the markers from this path.helpviewer_keywords: ["ClearMarkers","ClearMarkers method [GDI+]","ClearMarkers method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","ClearMarkers method","GraphicsPath.ClearMarkers","GraphicsPath::ClearMarkers","_gdiplus_CLASS_GraphicsPath_ClearMarkers_","gdiplus._gdiplus_CLASS_GraphicsPath_ClearMarkers_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_ClearMarkers_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\clearmarkers.htm

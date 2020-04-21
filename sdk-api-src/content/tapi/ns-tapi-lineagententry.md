@@ -1,7 +1,7 @@
 ---
 UID: NS:tapi.lineagententry_tag
 title: LINEAGENTENTRY (tapi.h)
-description: The LINEAGENTENTRY structure describes an individual ACD agent. The LINEAGENTLIST structure can contain an array of LINEAGENTENTRY structures.
+description: The LINEAGENTENTRY structure describes an individual ACD agent. The LINEAGENTLIST structure can contain an array of LINEAGENTENTRY structures.helpviewer_keywords: ["*LPLINEAGENTENTRY","LINEAGENTENTRY","LINEAGENTENTRY structure [TAPI 2.2]","LPLINEAGENTENTRY","LPLINEAGENTENTRY structure pointer [TAPI 2.2]","_tapi2_lineagententry_str","tapi/LINEAGENTENTRY","tapi/LPLINEAGENTENTRY","tapi2.lineagententry_str"]
 old-location: tapi2\lineagententry_str.htm
 tech.root: Tapi
 ms.assetid: 89feff58-3396-4999-be24-4d14839378e1

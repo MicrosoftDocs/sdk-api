@@ -1,7 +1,7 @@
 ---
 UID: NL:textserv.ITextHost
 title: ITextHost (textserv.h)
-description: The ITextHost interface is used by a text services object to obtain text host services.
+description: The ITextHost interface is used by a text services object to obtain text host services.helpviewer_keywords: ["ITextHost","ITextHost interface [Windows Controls]","ITextHost interface [Windows Controls]","described","_win32_ITextHost","_win32_ITextHost_cpp","controls.ITextHost","controls._win32_ITextHost","textserv/ITextHost"]
 old-location: controls\ITextHost.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost.htm

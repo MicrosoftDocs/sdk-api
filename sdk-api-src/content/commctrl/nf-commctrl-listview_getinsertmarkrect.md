@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_GetInsertMarkRect
 title: ListView_GetInsertMarkRect macro (commctrl.h)
-description: Gets the rectangle that bounds the insertion point. You can use this macro or send the LVM_GETINSERTMARKRECT message explicitly.
+description: Gets the rectangle that bounds the insertion point. You can use this macro or send the LVM_GETINSERTMARKRECT message explicitly.helpviewer_keywords: ["ListView_GetInsertMarkRect","ListView_GetInsertMarkRect macro [Windows Controls]","_win32_ListView_GetInsertMarkRect","_win32_ListView_GetInsertMarkRect_cpp","commctrl/ListView_GetInsertMarkRect","controls.ListView_GetInsertMarkRect","controls._win32_ListView_GetInsertMarkRect"]
 old-location: controls\ListView_GetInsertMarkRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmarkrect.htm

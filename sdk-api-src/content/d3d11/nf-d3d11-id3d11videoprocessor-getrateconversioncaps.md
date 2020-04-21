@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessor.GetRateConversionCaps
 title: ID3D11VideoProcessor::GetRateConversionCaps (d3d11.h)
-description: Gets the rate conversion capabilities of the video processor.
+description: Gets the rate conversion capabilities of the video processor.helpviewer_keywords: ["GetRateConversionCaps","GetRateConversionCaps method [Media Foundation]","GetRateConversionCaps method [Media Foundation]","ID3D11VideoProcessor interface","ID3D11VideoProcessor interface [Media Foundation]","GetRateConversionCaps method","ID3D11VideoProcessor.GetRateConversionCaps","ID3D11VideoProcessor::GetRateConversionCaps","d3d11/ID3D11VideoProcessor::GetRateConversionCaps","mf.id3d11videoprocessor_getrateconversioncaps"]
 old-location: mf\id3d11videoprocessor_getrateconversioncaps.htm
 tech.root: medfound
 ms.assetid: CC1ED2C7-8277-4F2A-801D-7534CE383DAD
@@ -60,15 +60,6 @@ Gets the rate conversion capabilities of the video processor.
 ### -param pCaps [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_rate_conversion_caps">D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS</a> structure that receives the rate conversion capabilities.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

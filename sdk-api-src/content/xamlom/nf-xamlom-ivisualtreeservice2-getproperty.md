@@ -1,7 +1,7 @@
 ---
 UID: NF:xamlom.IVisualTreeService2.GetProperty
 title: IVisualTreeService2::GetProperty (xamlom.h)
-description: Gets the effective value of the specified dependency property.
+description: Gets the effective value of the specified dependency property.helpviewer_keywords: ["GetProperty","GetProperty method","GetProperty method","IVisualTreeService2 interface","IVisualTreeService2 interface","GetProperty method","IVisualTreeService2.GetProperty","IVisualTreeService2::GetProperty","xaml_diagnostics.ivisualtreeservice2_getproperty","xamlom/IVisualTreeService2::GetProperty"]
 old-location: xaml_diagnostics\ivisualtreeservice2_getproperty.htm
 tech.root: xaml_diagnostics
 ms.assetid: 6FC5A7CF-A5EF-48B1-8DCD-4885BAFA0055

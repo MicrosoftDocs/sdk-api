@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ULongPtrMult
 title: ULongPtrMult function (intsafe.h)
-description: Multiplies one value of type ULONG_PTR by another.
+description: Multiplies one value of type ULONG_PTR by another.helpviewer_keywords: ["ULongPtrMult","ULongPtrMult function [Windows Shell]","_shell_ULongPtrMult","intsafe/ULongPtrMult","shell.ULongPtrMult"]
 old-location: shell\ULongPtrMult.htm
 tech.root: shell
 ms.assetid: e3ee5794-b872-4286-b4f3-1c5cab0e42a8

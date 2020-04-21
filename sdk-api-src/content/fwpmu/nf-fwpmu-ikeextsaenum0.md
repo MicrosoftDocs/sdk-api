@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IkeextSaEnum0
 title: IkeextSaEnum0 function (fwpmu.h)
-description: Returns the next page of results from the IKE/AuthIP security association (SA) enumerator.
+description: Returns the next page of results from the IKE/AuthIP security association (SA) enumerator.helpviewer_keywords: ["IkeextSaEnum0","IkeextSaEnum0 function [Filtering]","fwp.ikeextsaenum0","fwpmu/IkeextSaEnum0"]
 old-location: fwp\ikeextsaenum0.htm
 tech.root: fwp
 ms.assetid: a38e266d-2155-4dd4-b12e-5f1a40ca776e

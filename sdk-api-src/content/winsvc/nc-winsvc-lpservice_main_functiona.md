@@ -1,7 +1,7 @@
 ---
 UID: NC:winsvc.LPSERVICE_MAIN_FUNCTIONA
 title: LPSERVICE_MAIN_FUNCTIONA (winsvc.h)
-description: The entry point for a service.
+description: The entry point for a service.helpviewer_keywords: ["LPSERVICE_MAIN_FUNCTION","LPSERVICE_MAIN_FUNCTION callback","LPSERVICE_MAIN_FUNCTION callback function","LPSERVICE_MAIN_FUNCTIONA","LPSERVICE_MAIN_FUNCTIONW","ServiceMain","_win32_servicemain","base.servicemain","winsvc/LPSERVICE_MAIN_FUNCTION","winsvc/LPSERVICE_MAIN_FUNCTIONA","winsvc/LPSERVICE_MAIN_FUNCTIONW"]
 old-location: base\servicemain.htm
 tech.root: Services
 ms.assetid: d7f3235e-91bd-4107-a30c-4a8f9a6c731e
@@ -85,15 +85,6 @@ The null-terminated argument strings passed to the service by the call to  the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a> function that started the service. If there are no arguments, this parameter can be NULL. Otherwise, the first argument (lpszArgv[0]) is the name of the service, followed by any additional arguments (lpszArgv[1] through lpszArgv[dwArgc-1]).
 
 If the user starts a manual service using the Services snap-in from the Control Panel, the strings for the <i>lpszArgv</i> parameter come from the properties dialog box for the service (from the Services snap-in, right-click the service entry, click <b>Properties</b>, and enter the parameters in <b>Start parameters</b>.)
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

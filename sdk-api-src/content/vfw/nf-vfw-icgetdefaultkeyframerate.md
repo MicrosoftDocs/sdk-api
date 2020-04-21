@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.ICGetDefaultKeyFrameRate
 title: ICGetDefaultKeyFrameRate macro (vfw.h)
-description: The ICGetDefaultKeyFrameRate macro queries a video compression driver for its default (or preferred) key-frame spacing. You can use this macro or explicitly call the ICM_GETDEFAULTKEYFRAMERATE message.
+description: The ICGetDefaultKeyFrameRate macro queries a video compression driver for its default (or preferred) key-frame spacing. You can use this macro or explicitly call the ICM_GETDEFAULTKEYFRAMERATE message.helpviewer_keywords: ["ICGetDefaultKeyFrameRate","ICGetDefaultKeyFrameRate macro [Windows Multimedia]","_win32_ICGetDefaultKeyFrameRate","multimedia.icgetdefaultkeyframerate","vfw/ICGetDefaultKeyFrameRate"]
 old-location: multimedia\icgetdefaultkeyframerate.htm
 tech.root: Multimedia
 ms.assetid: 81ae287a-13e3-4bf0-bdd8-915a81e78d32

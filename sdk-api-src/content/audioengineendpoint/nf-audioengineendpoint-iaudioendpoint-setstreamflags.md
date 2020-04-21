@@ -1,7 +1,7 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpoint.SetStreamFlags
 title: IAudioEndpoint::SetStreamFlags (audioengineendpoint.h)
-description: Sets the stream configuration flags on the audio endpoint.
+description: Sets the stream configuration flags on the audio endpoint.helpviewer_keywords: ["IAudioEndpoint interface [Remote Desktop Services]","SetStreamFlags method","IAudioEndpoint.SetStreamFlags","IAudioEndpoint::SetStreamFlags","SetStreamFlags","SetStreamFlags method [Remote Desktop Services]","SetStreamFlags method [Remote Desktop Services]","IAudioEndpoint interface","audioengineendpoint/IAudioEndpoint::SetStreamFlags","termserv.iaudioendpoint_setstreamflags"]
 old-location: termserv\iaudioendpoint_setstreamflags.htm
 tech.root: TermServ
 ms.assetid: f6713912-ba7e-4e3e-95d9-8318c40a7042

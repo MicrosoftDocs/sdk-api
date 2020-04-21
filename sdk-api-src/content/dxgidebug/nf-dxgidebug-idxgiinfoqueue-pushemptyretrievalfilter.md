@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushEmptyRetrievalFilter
 title: IDXGIInfoQueue::PushEmptyRetrievalFilter (dxgidebug.h)
-description: Pushes an empty retrieval filter onto the retrieval-filter stack.
+description: Pushes an empty retrieval filter onto the retrieval-filter stack.helpviewer_keywords: ["IDXGIInfoQueue interface [DXGI]","PushEmptyRetrievalFilter method","IDXGIInfoQueue.PushEmptyRetrievalFilter","IDXGIInfoQueue::PushEmptyRetrievalFilter","PushEmptyRetrievalFilter","PushEmptyRetrievalFilter method [DXGI]","PushEmptyRetrievalFilter method [DXGI]","IDXGIInfoQueue interface","direct3ddxgi.idxgiinfoqueue_pushemptyretrievalfilter","dxgidebug/IDXGIInfoQueue::PushEmptyRetrievalFilter"]
 old-location: direct3ddxgi\idxgiinfoqueue_pushemptyretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: F6125FB9-EA1B-4052-A527-F4E5FAEE5C61

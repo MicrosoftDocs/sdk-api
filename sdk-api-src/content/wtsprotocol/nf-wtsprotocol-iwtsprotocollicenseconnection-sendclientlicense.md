@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLicenseConnection.SendClientLicense
 title: IWTSProtocolLicenseConnection::SendClientLicense (wtsprotocol.h)
-description: IWTSProtocolLicenseConnection::SendClientLicense is no longer available. Instead, use IWRdsProtocolLicenseConnection::SendClientLicense.
+description: IWTSProtocolLicenseConnection::SendClientLicense is no longer available. Instead, use IWRdsProtocolLicenseConnection::SendClientLicense.helpviewer_keywords: ["IWTSProtocolLicenseConnection interface [Remote Desktop Services]","SendClientLicense method","IWTSProtocolLicenseConnection.SendClientLicense","IWTSProtocolLicenseConnection::SendClientLicense","SendClientLicense","SendClientLicense method [Remote Desktop Services]","SendClientLicense method [Remote Desktop Services]","IWTSProtocolLicenseConnection interface","termserv.iwtsprotocollicenseconnection_sendclientlicense","wtsprotocol/IWTSProtocolLicenseConnection::SendClientLicense"]
 old-location: termserv\iwtsprotocollicenseconnection_sendclientlicense.htm
 tech.root: TermServ
 ms.assetid: cafd23ed-2085-4d58-a9b1-1918995fa09c

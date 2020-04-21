@@ -1,7 +1,7 @@
 ---
 UID: NE:cfapi.CF_HYDRATION_POLICY_MODIFIER
 title: CF_HYDRATION_POLICY_MODIFIER (cfapi.h)
-description: Allows a sync provider to control how placeholder files should be hydrated by the platform. This is a modifier that can be used with the primary policy:\_CF_HYDRATION_POLICY_PRIMARY.
+description: Allows a sync provider to control how placeholder files should be hydrated by the platform. This is a modifier that can be used with the primary policy:\_CF_HYDRATION_POLICY_PRIMARY.helpviewer_keywords: ["CF_HYDRATION_POLICY_MODIFIER","CF_HYDRATION_POLICY_MODIFIER enumeration","CF_HYDRATION_POLICY_MODIFIER_AUTO_DEHYDRATION_ALLOWED","CF_HYDRATION_POLICY_MODIFIER_NONE","CF_HYDRATION_POLICY_MODIFIER_STREAMING_ALLOWED","CF_HYDRATION_POLICY_MODIFIER_VALIDATION_REQUIRED","cfapi/CF_HYDRATION_POLICY_MODIFIER","cfapi/CF_HYDRATION_POLICY_MODIFIER_AUTO_DEHYDRATION_ALLOWED","cfapi/CF_HYDRATION_POLICY_MODIFIER_NONE","cfapi/CF_HYDRATION_POLICY_MODIFIER_STREAMING_ALLOWED","cfapi/CF_HYDRATION_POLICY_MODIFIER_VALIDATION_REQUIRED","cloudApi.cf_hydration_policy_modifier"]
 old-location: cloudapi\cf_hydration_policy_modifier.htm
 tech.root: cfApi
 ms.assetid: A98C635E-7E18-4E18-B19A-D3FD85A53CBB

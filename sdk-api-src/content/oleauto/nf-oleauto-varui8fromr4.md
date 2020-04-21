@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI8FromR4
 title: VarUI8FromR4 function (oleauto.h)
-description: Converts a float value to an 8-byte unsigned integer value.
+description: Converts a float value to an 8-byte unsigned integer value.helpviewer_keywords: ["VarUI8FromR4","VarUI8FromR4 function [Automation]","_oa96_VarUI8FromR4","automat.varui8fromr4","oleauto/VarUI8FromR4"]
 old-location: automat\varui8fromr4.htm
 tech.root: automat
 ms.assetid: 53d2e497-d75a-4fe1-a59d-705298301e2d

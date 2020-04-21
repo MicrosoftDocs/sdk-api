@@ -1,7 +1,7 @@
 ---
 UID: NS:oaidl.tagEXCEPINFO
 title: EXCEPINFO (oaidl.h)
-description: Describes an exception that occurred during IDispatch::Invoke.
+description: Describes an exception that occurred during IDispatch::Invoke.helpviewer_keywords: ["*LPEXCEPINFO","EXCEPINFO","EXCEPINFO structure [Automation]","LPEXCEPINFO","LPEXCEPINFO structure pointer [Automation]","_oa96_EXCEPINFO","automat.excepinfo","oaidl/EXCEPINFO","oaidl/LPEXCEPINFO"]
 old-location: automat\excepinfo.htm
 tech.root: automat
 ms.assetid: 29583e58-10a6-4679-a5c6-d51f2b50b074

@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP.SetText
 title: ITextStoreACP::SetText (textstor.h)
-description: The ITextStoreACP::SetText method sets the text selection to the supplied character positions.
+description: The ITextStoreACP::SetText method sets the text selection to the supplied character positions.helpviewer_keywords: ["ITextStoreACP interface [Text Services Framework]","SetText method","ITextStoreACP.SetText","ITextStoreACP::SetText","SetText","SetText method [Text Services Framework]","SetText method [Text Services Framework]","ITextStoreACP interface","_tsf_itextstoreacp_settext_ref","acpNewEnd","acpOldEnd","acpStart","textstor/ITextStoreACP::SetText","tsf.itextstoreacp_settext"]
 old-location: tsf\itextstoreacp_settext.htm
 tech.root: TSF
 ms.assetid: aebeb6bc-7791-4c45-8563-eec6a738bd63

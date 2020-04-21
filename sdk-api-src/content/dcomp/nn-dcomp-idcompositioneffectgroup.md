@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionEffectGroup
 title: IDCompositionEffectGroup (dcomp.h)
-description: Represents a group of bitmap effects that are applied together to modify the rasterization of a visual's subtree.
+description: Represents a group of bitmap effects that are applied together to modify the rasterization of a visual's subtree.helpviewer_keywords: ["IDCompositionEffectGroup","IDCompositionEffectGroup interface [DirectComposition]","IDCompositionEffectGroup interface [DirectComposition]","described","dcomp/IDCompositionEffectGroup","directcomp.idcompositioneffectgroup"]
 old-location: directcomp\idcompositioneffectgroup.htm
 tech.root: directcomp
 ms.assetid: B8C5A4D8-F161-4383-B117-B89E85C65B19

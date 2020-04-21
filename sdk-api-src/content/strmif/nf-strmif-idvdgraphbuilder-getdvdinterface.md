@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdGraphBuilder.GetDvdInterface
 title: IDvdGraphBuilder::GetDvdInterface (strmif.h)
-description: The GetDvdInterface method retrieves interfaces from the DVD-Video playback graph to make DVD-Video playback development easier.
+description: The GetDvdInterface method retrieves interfaces from the DVD-Video playback graph to make DVD-Video playback development easier.helpviewer_keywords: ["GetDvdInterface","GetDvdInterface method [DirectShow]","GetDvdInterface method [DirectShow]","IDvdGraphBuilder interface","IDvdGraphBuilder interface [DirectShow]","GetDvdInterface method","IDvdGraphBuilder.GetDvdInterface","IDvdGraphBuilder::GetDvdInterface","IDvdGraphBuilderGetDvdInterface","dshow.idvdgraphbuilder_getdvdinterface","strmif/IDvdGraphBuilder::GetDvdInterface"]
 old-location: dshow\idvdgraphbuilder_getdvdinterface.htm
 tech.root: DirectShow
 ms.assetid: e16cb767-87a9-49f6-a3a7-88166f2abe73

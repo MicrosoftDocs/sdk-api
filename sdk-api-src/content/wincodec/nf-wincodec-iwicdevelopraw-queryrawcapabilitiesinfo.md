@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.QueryRawCapabilitiesInfo
 title: IWICDevelopRaw::QueryRawCapabilitiesInfo (wincodec.h)
-description: Retrieves information about which capabilities are supported for a raw image.
+description: Retrieves information about which capabilities are supported for a raw image.helpviewer_keywords: ["IWICDevelopRaw interface [Windows Imaging Component]","QueryRawCapabilitiesInfo method","IWICDevelopRaw.QueryRawCapabilitiesInfo","IWICDevelopRaw::QueryRawCapabilitiesInfo","QueryRawCapabilitiesInfo","QueryRawCapabilitiesInfo method [Windows Imaging Component]","QueryRawCapabilitiesInfo method [Windows Imaging Component]","IWICDevelopRaw interface","_wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo","wic._wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo","wincodec/IWICDevelopRaw::QueryRawCapabilitiesInfo"]
 old-location: wic\_wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo.htm
 tech.root: wic
 ms.assetid: a16ada3c-34ae-47ce-9660-90e50d78802a

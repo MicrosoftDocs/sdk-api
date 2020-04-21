@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidEVR
 title: IMSVidEVR (segment.h)
-description: The IMSVidEVR interface represents the Enhanced Video Renderer (EVR) filter within the Video Control filter graph.
+description: The IMSVidEVR interface represents the Enhanced Video Renderer (EVR) filter within the Video Control filter graph.helpviewer_keywords: ["IMSVidEVR","IMSVidEVR interface [Microsoft TV Technologies]","IMSVidEVR interface [Microsoft TV Technologies]","described","IMSVidEVRInterface","mstv.imsvidevr","segment/IMSVidEVR"]
 old-location: mstv\imsvidevr.htm
 tech.root: mstv
 ms.assetid: 437f515b-0353-4ff2-b8c2-5dd27d4e12f7

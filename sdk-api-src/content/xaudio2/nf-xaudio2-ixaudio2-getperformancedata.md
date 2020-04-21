@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2.GetPerformanceData
 title: IXAudio2::GetPerformanceData (xaudio2.h)
-description: Returns current resource usage details, such as available memory or CPU usage.
+description: Returns current resource usage details, such as available memory or CPU usage.helpviewer_keywords: ["GetPerformanceData","GetPerformanceData method [XAudio2 Audio Mixing APIs]","GetPerformanceData method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","IXAudio2 interface [XAudio2 Audio Mixing APIs]","GetPerformanceData method","IXAudio2.GetPerformanceData","IXAudio2::GetPerformanceData","xaudio2.ixaudio2_interface_getperformancedata","xaudio2/IXAudio2::GetPerformanceData"]
 old-location: xaudio2\ixaudio2_interface_getperformancedata.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.GetPerformanceData(XAUDIO2_PERFORMANCE_DATA@)
@@ -60,15 +60,6 @@ Returns current resource usage details, such as available memory or CPU usage.
 ### -param pPerfData [out]
 
 On success, pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_performance_data">XAUDIO2_PERFORMANCE_DATA</a> structure that is returned. 
-
-
-
-## -returns
-
-
-
-This method does not return a value.
-
 
 
 

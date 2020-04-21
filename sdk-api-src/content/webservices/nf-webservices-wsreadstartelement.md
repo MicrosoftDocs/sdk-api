@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsReadStartElement
 title: WsReadStartElement function (webservices.h)
-description: Calling this function advances the reader past a start element skipping any whitespace.
+description: Calling this function advances the reader past a start element skipping any whitespace.helpviewer_keywords: ["WsReadStartElement","WsReadStartElement function [Web Services for Windows]","webservices/WsReadStartElement","wsw.wsreadstartelement"]
 old-location: wsw\wsreadstartelement.htm
 tech.root: wsw
 ms.assetid: 88661ae5-2112-4a41-8fcd-03c74f6ec170

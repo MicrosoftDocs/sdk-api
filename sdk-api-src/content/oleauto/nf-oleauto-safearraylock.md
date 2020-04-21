@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SafeArrayLock
 title: SafeArrayLock function (oleauto.h)
-description: Increments the lock count of an array, and places a pointer to the array data in pvData of the array descriptor.
+description: Increments the lock count of an array, and places a pointer to the array data in pvData of the array descriptor.helpviewer_keywords: ["SafeArrayLock","SafeArrayLock function [Automation]","_oa96_SafeArrayLock","automat.safearraylock","oleauto/SafeArrayLock"]
 old-location: automat\safearraylock.htm
 tech.root: automat
 ms.assetid: cb29d862-c7c5-4852-b017-c29e88d5f1c4

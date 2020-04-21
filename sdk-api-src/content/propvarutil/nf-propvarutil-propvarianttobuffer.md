@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantToBuffer
 title: PropVariantToBuffer function (propvarutil.h)
-description: Extracts the buffer value from a PROPVARIANT structure of type VT_VECTOR | VT_UI1 or VT_ARRRAY | VT_UI1.
+description: Extracts the buffer value from a PROPVARIANT structure of type VT_VECTOR | VT_UI1 or VT_ARRRAY | VT_UI1.helpviewer_keywords: ["PropVariantToBuffer","PropVariantToBuffer function [Windows Properties]","properties.PropVariantToBuffer","propvarutil/PropVariantToBuffer","shell.PropVariantToBuffer","shell_PropVariantToBuffer"]
 old-location: properties\PropVariantToBuffer.htm
 tech.root: properties
 ms.assetid: 8adfc942-ad91-43bb-8d23-8994026666ff

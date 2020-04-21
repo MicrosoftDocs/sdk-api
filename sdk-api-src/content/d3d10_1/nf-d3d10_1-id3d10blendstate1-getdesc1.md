@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10_1.ID3D10BlendState1.GetDesc1
 title: ID3D10BlendState1::GetDesc1 (d3d10_1.h)
-description: Get the blend state.
+description: Get the blend state.helpviewer_keywords: ["GetDesc1","GetDesc1 method [Direct3D 10]","GetDesc1 method [Direct3D 10]","ID3D10BlendState1 interface","ID3D10BlendState1 interface [Direct3D 10]","GetDesc1 method","ID3D10BlendState1.GetDesc1","ID3D10BlendState1::GetDesc1","b4b6a61b-f094-530a-21fb-49f9704b2b79","d3d10_1/ID3D10BlendState1::GetDesc1","direct3d10.id3d10blendstate1_getdesc1"]
 old-location: direct3d10\id3d10blendstate1_getdesc1.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10blendstate1_getdesc1.htm
@@ -62,15 +62,6 @@ Get the blend state.
 Type: <b><a href="https://msdn.microsoft.com/1da6dc74-ff15-4707-866d-5aaf80c495f9">D3D10_BLEND_DESC1</a>*</b>
 
 A pointer to the blend state (see <a href="https://msdn.microsoft.com/1da6dc74-ff15-4707-866d-5aaf80c495f9">D3D10_BLEND_DESC1</a>).
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFTopology.GetNode
 title: IMFTopology::GetNode (mfidl.h)
-description: Gets a node in the topology, specified by index.
+description: Gets a node in the topology, specified by index.helpviewer_keywords: ["97053d10-5ac7-40c0-b46b-77d401284d58","GetNode","GetNode method [Media Foundation]","GetNode method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","GetNode method","IMFTopology.GetNode","IMFTopology::GetNode","mf.imftopology_getnode","mfidl/IMFTopology::GetNode"]
 old-location: mf\imftopology_getnode.htm
 tech.root: medfound
 ms.assetid: 97053d10-5ac7-40c0-b46b-77d401284d58

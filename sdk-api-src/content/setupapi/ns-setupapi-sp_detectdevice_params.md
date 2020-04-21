@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_DETECTDEVICE_PARAMS
 title: SP_DETECTDEVICE_PARAMS (setupapi.h)
-description: An SP_DETECTDEVICE_PARAMS structure corresponds to a DIF_DETECT installation request.
+description: An SP_DETECTDEVICE_PARAMS structure corresponds to a DIF_DETECT installation request.helpviewer_keywords: ["*PSP_DETECTDEVICE_PARAMS","PSP_DETECTDEVICE_PARAMS","PSP_DETECTDEVICE_PARAMS structure pointer [Device and Driver Installation]","SP_DETECTDEVICE_PARAMS","SP_DETECTDEVICE_PARAMS structure [Device and Driver Installation]","devinst.sp_detectdevice_params","di-struct_6de1fd38-be9a-42e6-ae10-5825aef12880.xml","setupapi/PSP_DETECTDEVICE_PARAMS","setupapi/SP_DETECTDEVICE_PARAMS"]
 old-location: devinst\sp_detectdevice_params.htm
 tech.root: devinst
 ms.assetid: 77682651-217f-4e3a-9d0e-0a93d315de53

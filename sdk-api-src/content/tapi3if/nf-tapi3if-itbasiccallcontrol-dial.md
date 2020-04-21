@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Dial
 title: ITBasicCallControl::Dial (tapi3if.h)
-description: The Dial method dials the specified address.
+description: The Dial method dials the specified address.helpviewer_keywords: ["Dial","Dial method [TAPI 2.2]","Dial method [TAPI 2.2]","ITBasicCallControl interface","ITBasicCallControl interface [TAPI 2.2]","Dial method","ITBasicCallControl.Dial","ITBasicCallControl::Dial","_tapi3_itbasiccallcontrol_dial","tapi3.itbasiccallcontrol_dial","tapi3if/ITBasicCallControl::Dial"]
 old-location: tapi3\itbasiccallcontrol_dial.htm
 tech.root: Tapi
 ms.assetid: 31fea4d8-9028-48d5-9f5d-53f1451103c7

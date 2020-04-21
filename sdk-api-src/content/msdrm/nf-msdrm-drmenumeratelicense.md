@@ -1,7 +1,7 @@
 ---
 UID: NF:msdrm.DRMEnumerateLicense
 title: DRMEnumerateLicense function (msdrm.h)
-description: Enumerates valid licenses, machine certificates or rights account certificates, revocation lists for the current user, or issuance license templates.
+description: Enumerates valid licenses, machine certificates or rights account certificates, revocation lists for the current user, or issuance license templates.helpviewer_keywords: ["DRMEnumerateLicense","DRMEnumerateLicense function [Active Directory Rights Management Services SDK 1.0]","DRM_EL_CLIENTLICENSOR","DRM_EL_CLIENTLICENSOR_LID","DRM_EL_EUL","DRM_EL_EUL_LID","DRM_EL_EXPIRED","DRM_EL_GROUPIDENTITY","DRM_EL_GROUPIDENTITY_LID","DRM_EL_GROUPIDENTITY_NAME","DRM_EL_ISSUANCELICENSE_TEMPLATE","DRM_EL_ISSUANCELICENSE_TEMPLATE_LID","DRM_EL_ISSUERNAME","DRM_EL_MACHINE","DRM_EL_REVOCATIONLIST","DRM_EL_REVOCATIONLIST_LID","DRM_EL_SPECIFIED_CLIENTLICENSOR","DRM_EL_SPECIFIED_GROUPIDENTITY","msdrm/DRMEnumerateLicense","rm.drmenumeratelicense"]
 old-location: rm\drmenumeratelicense.htm
 tech.root: AdRms_Sdk
 ms.assetid: 7a7797f2-d219-4a17-ac3d-96134cd14a55

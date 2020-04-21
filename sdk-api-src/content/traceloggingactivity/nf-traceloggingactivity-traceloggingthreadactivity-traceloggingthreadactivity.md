@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingThreadActivity.TraceLoggingThreadActivity
 title: TraceLoggingThreadActivity::TraceLoggingThreadActivity (traceloggingactivity.h)
-description: Initializes a new instance of the TraceLoggingThreadActivity class.
+description: Initializes a new instance of the TraceLoggingThreadActivity class.helpviewer_keywords: ["TraceLoggingThreadActivity","TraceLoggingThreadActivity interface","TraceLoggingThreadActivity method","TraceLoggingThreadActivity method","TraceLoggingThreadActivity method","TraceLoggingThreadActivity interface","TraceLoggingThreadActivity.TraceLoggingThreadActivity","TraceLoggingThreadActivity::TraceLoggingThreadActivity","tracelogging.traceloggingthreadactivity_traceloggingthreadactivity","traceloggingactivity/TraceLoggingThreadActivity::TraceLoggingThreadActivity"]
 old-location: tracelogging\traceloggingthreadactivity_traceloggingthreadactivity.htm
 tech.root: tracelogging
 ms.assetid: A83EE18B-F443-42B8-841D-83CF2BA0FCBC
@@ -58,15 +58,6 @@ Initializes a new instance of the  <a href="https://docs.microsoft.com/windows/d
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

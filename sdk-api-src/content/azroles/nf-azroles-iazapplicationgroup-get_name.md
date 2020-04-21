@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_Name
 title: IAzApplicationGroup::get_Name (azroles.h)
-description: Sets or retrieves the name of the application group.
+description: Sets or retrieves the name of the application group.helpviewer_keywords: ["AzApplicationGroup object [Security]","Name property","IAzApplicationGroup interface [Security]","Name property","IAzApplicationGroup.Name","IAzApplicationGroup.get_Name","IAzApplicationGroup::Name","IAzApplicationGroup::get_Name","IAzApplicationGroup::put_Name","Name property [Security]","Name property [Security]","AzApplicationGroup object","Name property [Security]","IAzApplicationGroup interface","azroles/IAzApplicationGroup::Name","azroles/IAzApplicationGroup::get_Name","azroles/IAzApplicationGroup::put_Name","get_Name","security.iazapplicationgroup_name"]
 old-location: security\iazapplicationgroup_name.htm
 tech.root: SecAuthZ
 ms.assetid: a42fb625-d04e-4884-b644-2007f6dc52ba

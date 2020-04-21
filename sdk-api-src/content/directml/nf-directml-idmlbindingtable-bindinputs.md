@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.IDMLBindingTable.BindInputs
 title: IDMLBindingTable::BindInputs
-description: Binds a set of resources as input tensors.
+description: Binds a set of resources as input tensors.helpviewer_keywords: ["BindInputs","BindInputs method","BindInputs method","IDMLBindingTable interface","IDMLBindingTable interface","BindInputs method","IDMLBindingTable.BindInputs","IDMLBindingTable::BindInputs","direct3d12.idmlbindingtable_bindinputs","directml/IDMLBindingTable::BindInputs"]
 old-location: direct3d12\idmlbindingtable_bindinputs.htm
 tech.root: direct3d12
 ms.assetid: 125E5CBE-8ADF-4725-9F1D-66C38CD7A567
@@ -74,10 +74,6 @@ This parameter determines the size of the *bindings* array (if provided).
 Type: **const [DML_BINDING_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_desc)\***
 
 An optional pointer to a constant array of [DML_BINDING_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_desc) containing descriptions of the tensor resources to bind.
-
-## -returns
-
-This method doesn't return a value.
 
 ## -see-also
 

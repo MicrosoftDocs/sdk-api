@@ -1,7 +1,7 @@
 ---
 UID: NS:http._HTTP_SSL_INFO
 title: HTTP_SSL_INFO (http.h)
-description: Contains data for a connection that uses Secure Sockets Layer (SSL), obtained through the SSL handshake.
+description: Contains data for a connection that uses Secure Sockets Layer (SSL), obtained through the SSL handshake.helpviewer_keywords: ["*PHTTP_SSL_INFO","HTTP_SSL_INFO","HTTP_SSL_INFO structure [HTTP]","PHTTP_SSL_INFO","PHTTP_SSL_INFO structure pointer [HTTP]","_http_http_ssl_info","http.http_ssl_info","http/HTTP_SSL_INFO","http/PHTTP_SSL_INFO"]
 old-location: http\http_ssl_info.htm
 tech.root: http
 ms.assetid: 35aac36d-87a1-45b2-acb1-6969c992d0cf

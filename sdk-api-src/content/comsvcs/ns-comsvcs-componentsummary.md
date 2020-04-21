@@ -1,7 +1,7 @@
 ---
 UID: NS:comsvcs._ComponentSummary
 title: ComponentSummary (comsvcs.h)
-description: Represents summary information about a COM+ component hosted in a particular process. It can also represent a Services Without Components (SWC) context.
+description: Represents summary information about a COM+ component hosted in a particular process. It can also represent a Services Without Components (SWC) context.helpviewer_keywords: ["ComponentSummary","ComponentSummary structure [COM+]","comsvcs/ComponentSummary","cos.componentsummary"]
 old-location: cos\componentsummary.htm
 tech.root: cossdk
 ms.assetid: df752c4a-6a8d-4eac-b3dc-1647bf8a8e5a

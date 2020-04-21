@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetOwnerModuleFromUdp6Entry
 title: GetOwnerModuleFromUdp6Entry function (iphlpapi.h)
-description: Retrieves data about the module that issued the context bind for a specific IPv6 UDP endpoint in a MIB table row.
+description: Retrieves data about the module that issued the context bind for a specific IPv6 UDP endpoint in a MIB table row.helpviewer_keywords: ["GetOwnerModuleFromUdp6Entry","GetOwnerModuleFromUdp6Entry function [IP Helper]","iphlp.getownermodulefromudp6entry","iphlpapi/GetOwnerModuleFromUdp6Entry"]
 old-location: iphlp\getownermodulefromudp6entry.htm
 tech.root: IpHlp
 ms.assetid: 01ed27b6-3ca6-4c9c-8910-a71a073c2ca2

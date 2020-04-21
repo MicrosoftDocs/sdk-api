@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFBufferListNotify.OnAddSourceBuffer
 title: IMFBufferListNotify::OnAddSourceBuffer (mfmediaengine.h)
-description: Indicates that a IMFSourceBuffer has been added.
+description: Indicates that a IMFSourceBuffer has been added.helpviewer_keywords: ["IMFBufferListNotify interface [Media Foundation]","OnAddSourceBuffer method","IMFBufferListNotify.OnAddSourceBuffer","IMFBufferListNotify::OnAddSourceBuffer","OnAddSourceBuffer","OnAddSourceBuffer method [Media Foundation]","OnAddSourceBuffer method [Media Foundation]","IMFBufferListNotify interface","mf.imfbufferlistnotify_onaddsourcebuffer","mfmediaengine/IMFBufferListNotify::OnAddSourceBuffer"]
 old-location: mf\imfbufferlistnotify_onaddsourcebuffer.htm
 tech.root: medfound
 ms.assetid: 94b943d7-b67a-4f35-b5a6-2e89b4018ff3
@@ -55,15 +55,6 @@ Indicates that a <a href="https://docs.microsoft.com/windows/desktop/api/mfmedia
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

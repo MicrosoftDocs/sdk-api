@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi.IDiscRecorder.Close
 title: IDiscRecorder::Close (imapi.h)
-description: Releases exclusive access to a disc recorder. This restores file system access to the drive.
+description: Releases exclusive access to a disc recorder. This restores file system access to the drive.helpviewer_keywords: ["Close","Close method [IMAPI]","Close method [IMAPI]","IDiscRecorder interface","IDiscRecorder interface [IMAPI]","Close method","IDiscRecorder.Close","IDiscRecorder::Close","_win32_idiscrecorder_close","base.idiscrecorder_close","imapi.idiscrecorder_close","imapi/IDiscRecorder::Close"]
 old-location: imapi\idiscrecorder_close.htm
 tech.root: imapi
 ms.assetid: 39af9413-6068-4165-8a26-509389a6d1f2

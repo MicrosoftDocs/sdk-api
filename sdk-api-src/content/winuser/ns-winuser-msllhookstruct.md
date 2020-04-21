@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMSLLHOOKSTRUCT
 title: MSLLHOOKSTRUCT (winuser.h)
-description: Contains information about a low-level mouse input event.
+description: Contains information about a low-level mouse input event.helpviewer_keywords: ["*LPMSLLHOOKSTRUCT","*PMSLLHOOKSTRUCT","LLMHF_INJECTED","LLMHF_LOWER_IL_INJECTED","LPMSLLHOOKSTRUCT","LPMSLLHOOKSTRUCT structure pointer [Windows and Messages]","MSLLHOOKSTRUCT","MSLLHOOKSTRUCT structure [Windows and Messages]","PMSLLHOOKSTRUCT","PMSLLHOOKSTRUCT structure pointer [Windows and Messages]","XBUTTON1","XBUTTON2","_win32_MSLLHOOKSTRUCT_str","_win32_msllhookstruct_str_cpp","winmsg.msllhookstruct","winui._win32_msllhookstruct_str","winuser/LPMSLLHOOKSTRUCT","winuser/MSLLHOOKSTRUCT","winuser/PMSLLHOOKSTRUCT"]
 old-location: winmsg\msllhookstruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\msllhookstruct.htm

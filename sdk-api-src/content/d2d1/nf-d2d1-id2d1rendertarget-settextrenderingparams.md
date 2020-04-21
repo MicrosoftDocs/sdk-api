@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.SetTextRenderingParams
 title: ID2D1RenderTarget::SetTextRenderingParams (d2d1.h)
-description: Specifies text rendering options to be applied to all subsequent text and glyph drawing operations.
+description: Specifies text rendering options to be applied to all subsequent text and glyph drawing operations.helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","SetTextRenderingParams method","ID2D1RenderTarget.SetTextRenderingParams","ID2D1RenderTarget::SetTextRenderingParams","SetTextRenderingParams","SetTextRenderingParams method [Direct2D]","SetTextRenderingParams method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::SetTextRenderingParams","direct2d.ID2D1RenderTarget_SetTextRenderingParams"]
 old-location: direct2d\ID2D1RenderTarget_SetTextRenderingParams.htm
 tech.root: Direct2D
 ms.assetid: ab4b29a5-72a7-49dc-9131-696f888b0355
@@ -62,15 +62,6 @@ Specifies text rendering options to be applied to all subsequent text and glyph 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>*</b>
 
 The text rendering options to be applied to all subsequent text and glyph drawing operations; <b>NULL</b> to clear current text rendering options. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

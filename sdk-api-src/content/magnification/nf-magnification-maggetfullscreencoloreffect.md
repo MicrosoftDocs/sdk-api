@@ -1,7 +1,7 @@
 ---
 UID: NF:magnification.MagGetFullscreenColorEffect
 title: MagGetFullscreenColorEffect function (magnification.h)
-description: Retrieves the color transformation matrix associated with the full-screen magnifier.
+description: Retrieves the color transformation matrix associated with the full-screen magnifier.helpviewer_keywords: ["MagGetFullscreenColorEffect","MagGetFullscreenColorEffect function [Magnification API]","magapi.magapi_maggetfullscreencoloreffect","magnification/MagGetFullscreenColorEffect"]
 old-location: magapi\magapi_maggetfullscreencoloreffect.htm
 tech.root: magapi
 ms.assetid: 1C37DB20-1267-447B-A34F-E3EC83F51907

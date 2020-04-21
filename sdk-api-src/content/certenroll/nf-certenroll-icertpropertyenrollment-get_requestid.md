@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.get_RequestId
 title: ICertPropertyEnrollment::get_RequestId (certenroll.h)
-description: Retrieves a unique certificate request identifier.
+description: Retrieves a unique certificate request identifier.helpviewer_keywords: ["ICertPropertyEnrollment interface [Security]","RequestId property","ICertPropertyEnrollment.RequestId","ICertPropertyEnrollment.get_RequestId","ICertPropertyEnrollment::RequestId","ICertPropertyEnrollment::get_RequestId","RequestId property [Security]","RequestId property [Security]","ICertPropertyEnrollment interface","certenroll/ICertPropertyEnrollment::RequestId","certenroll/ICertPropertyEnrollment::get_RequestId","get_RequestId","security.icertpropertyenrollment_requestid_property"]
 old-location: security\icertpropertyenrollment_requestid_property.htm
 tech.root: seccertenroll
 ms.assetid: a9e2000c-7d64-43f1-b891-b5cd6f46201f

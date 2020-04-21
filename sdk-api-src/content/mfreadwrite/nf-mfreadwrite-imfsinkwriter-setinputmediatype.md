@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.SetInputMediaType
 title: IMFSinkWriter::SetInputMediaType (mfreadwrite.h)
-description: Sets the input format for a stream on the sink writer.
+description: Sets the input format for a stream on the sink writer.helpviewer_keywords: ["IMFSinkWriter interface [Media Foundation]","SetInputMediaType method","IMFSinkWriter.SetInputMediaType","IMFSinkWriter::SetInputMediaType","SetInputMediaType","SetInputMediaType method [Media Foundation]","SetInputMediaType method [Media Foundation]","IMFSinkWriter interface","mf.imfsinkwriter_setinputmediatype","mfreadwrite/IMFSinkWriter::SetInputMediaType"]
 old-location: mf\imfsinkwriter_setinputmediatype.htm
 tech.root: medfound
 ms.assetid: 02a73f73-3b25-4578-9a7e-c9f8a4c8cd99

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter2.SetWMDRMNetEncryption
 title: IWMDRMWriter2::SetWMDRMNetEncryption (wmsdkidl.h)
-description: The SetWMDRMNetEncryption method configures the writer to receive input samples encoded with Windows Media DRM 10 for Network Devices.
+description: The SetWMDRMNetEncryption method configures the writer to receive input samples encoded with Windows Media DRM 10 for Network Devices.helpviewer_keywords: ["IWMDRMWriter2 interface [windows Media Format]","SetWMDRMNetEncryption method","IWMDRMWriter2.SetWMDRMNetEncryption","IWMDRMWriter2::SetWMDRMNetEncryption","IWMDRMWriter2SetWMDRMNetEncryption","SetWMDRMNetEncryption","SetWMDRMNetEncryption method [windows Media Format]","SetWMDRMNetEncryption method [windows Media Format]","IWMDRMWriter2 interface","wmformat.iwmdrmwriter2_setwmdrmnetencryption","wmsdkidl/IWMDRMWriter2::SetWMDRMNetEncryption"]
 old-location: wmformat\iwmdrmwriter2_setwmdrmnetencryption.htm
 tech.root: wmformat
 ms.assetid: ecbc7dda-de24-40ce-9c42-44a14ab63881

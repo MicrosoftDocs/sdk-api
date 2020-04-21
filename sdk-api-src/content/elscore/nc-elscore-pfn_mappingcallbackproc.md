@@ -1,7 +1,7 @@
 ---
 UID: NC:elscore.PFN_MAPPINGCALLBACKPROC
 title: PFN_MAPPINGCALLBACKPROC (elscore.h)
-description: An application-defined callback function that asynchronously processes data produced by the MappingRecognizeText function.
+description: An application-defined callback function that asynchronously processes data produced by the MappingRecognizeText function.helpviewer_keywords: ["MappingCallbackProc","MappingCallbackProc callback function [Internationalization for Windows Applications]","PFN_MAPPINGCALLBACKPROC","PFN_MAPPINGCALLBACKPROC callback","elscore/MappingCallbackProc","intl.mappingcallbackproc"]
 old-location: intl\mappingcallbackproc.htm
 tech.root: Intl
 ms.assetid: 7a324708-4f1b-467c-af1a-da36d1f7eba0
@@ -75,15 +75,6 @@ Size, in bytes, of the private application data. This size is the same as that p
 ### -param Result [in]
 
 Return code from <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>. The return code is S_OK if the function succeeded, or an error code otherwise.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

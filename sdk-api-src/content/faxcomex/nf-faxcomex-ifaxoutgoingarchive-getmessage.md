@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.GetMessage
 title: IFaxOutgoingArchive::GetMessage (faxcomex.h)
-description: The IFaxOutgoingArchive::GetMessage method returns a fax message from the archive of outbound faxes by using the fax message ID.
+description: The IFaxOutgoingArchive::GetMessage method returns a fax message from the archive of outbound faxes by using the fax message ID.helpviewer_keywords: ["GetMessage","GetMessage method [Fax Service]","GetMessage method [Fax Service]","IFaxOutgoingArchive interface","IFaxOutgoingArchive interface [Fax Service]","GetMessage method","IFaxOutgoingArchive.GetMessage","IFaxOutgoingArchive::GetMessage","_mfax_faxoutgoingarchive.getmessage_cpp","fax._mfax_faxoutgoingarchive_getmessage_cpp","faxcomex/IFaxOutgoingArchive::GetMessage"]
 old-location: fax\_mfax_faxoutgoingarchive_getmessage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7did_cpp.htm

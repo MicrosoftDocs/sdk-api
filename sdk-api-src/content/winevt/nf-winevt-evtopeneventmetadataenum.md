@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtOpenEventMetadataEnum
 title: EvtOpenEventMetadataEnum function (winevt.h)
-description: Gets a handle that you use to enumerate the list of events that the provider defines.
+description: Gets a handle that you use to enumerate the list of events that the provider defines.helpviewer_keywords: ["EvtOpenEventMetadataEnum","EvtOpenEventMetadataEnum function [EventLog]","wes.evtopeneventmetadataenum","winevt/EvtOpenEventMetadataEnum"]
 old-location: wes\evtopeneventmetadataenum.htm
 tech.root: wes
 ms.assetid: e1d2e5d5-89db-4bda-9803-37f26d1fe30f

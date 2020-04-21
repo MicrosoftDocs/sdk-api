@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxJobStatus
 title: IFaxJobStatus (faxcomex.h)
-description: The IFaxJobStatus interface is used for notifications and to hold the dynamic information of the job.
+description: The IFaxJobStatus interface is used for notifications and to hold the dynamic information of the job.helpviewer_keywords: ["IFaxJobStatus","IFaxJobStatus interface [Fax Service]","IFaxJobStatus interface [Fax Service]","described","_mfax_faxjobstatus_cpp","fax._mfax_faxjobstatus_cpp","faxcomex/IFaxJobStatus"]
 old-location: fax\_mfax_faxjobstatus_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3p6b_cpp.htm

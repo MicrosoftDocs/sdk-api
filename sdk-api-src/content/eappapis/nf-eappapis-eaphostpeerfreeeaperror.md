@@ -1,7 +1,7 @@
 ---
 UID: NF:eappapis.EapHostPeerFreeEapError
 title: EapHostPeerFreeEapError function (eappapis.h)
-description: Frees EAP_ERROR structures returned by EAPHost run-time APIs.
+description: Frees EAP_ERROR structures returned by EAPHost run-time APIs.helpviewer_keywords: ["EapHostPeerFreeEapError","EapHostPeerFreeEapError function [EAPHost]","eaphost.eaphostpeerfreeeaperror","eappapis/EapHostPeerFreeEapError"]
 old-location: eaphost\eaphostpeerfreeeaperror.htm
 tech.root: eaphost
 ms.assetid: 36f9b5dd-821d-4cc5-a1dd-587098635d17
@@ -99,15 +99,6 @@ If any  of the following run-time APIs are called and an <a href="https://docs.m
 ### -param pEapError [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that  contains the error data to free.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

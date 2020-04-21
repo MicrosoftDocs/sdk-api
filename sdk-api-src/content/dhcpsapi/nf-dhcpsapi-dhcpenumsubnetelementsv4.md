@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetElementsV4
 title: DhcpEnumSubnetElementsV4 function (dhcpsapi.h)
-description: Returns an enumerated list of elements for a specific DHCP subnet. This function extends DhcpEnumSubnetElements by returning a list of DHCP_SUBNET_ELEMENT_DATA_V4 structures, which can contain IP reservations based on client type.
+description: Returns an enumerated list of elements for a specific DHCP subnet. This function extends DhcpEnumSubnetElements by returning a list of DHCP_SUBNET_ELEMENT_DATA_V4 structures, which can contain IP reservations based on client type.helpviewer_keywords: ["DhcpEnumSubnetElementsV4","DhcpEnumSubnetElementsV4 function [DHCP]","dhcp.dhcpenumsubnetelementsv4","dhcpsapi/DhcpEnumSubnetElementsV4"]
 old-location: dhcp\dhcpenumsubnetelementsv4.htm
 tech.root: DHCP
 ms.assetid: 561a7aac-eed9-4a80-a4a4-f3a7727ae92a

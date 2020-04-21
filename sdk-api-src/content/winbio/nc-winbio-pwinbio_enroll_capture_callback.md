@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio.PWINBIO_ENROLL_CAPTURE_CALLBACK
 title: PWINBIO_ENROLL_CAPTURE_CALLBACK (winbio.h)
-description: Called by the Windows Biometric Framework to return results from the asynchronous WinBioEnrollCaptureWithCallback function.
+description: Called by the Windows Biometric Framework to return results from the asynchronous WinBioEnrollCaptureWithCallback function.helpviewer_keywords: ["PWINBIO_ENROLL_CAPTURE_CALLBACK","PWINBIO_ENROLL_CAPTURE_CALLBACK function","PWINBIO_ENROLL_CAPTURE_CALLBACK function pointer [Windows Biometric Framework API]","secbiomet.pwinbio_enroll_capture_callback","winbio/PWINBIO_ENROLL_CAPTURE_CALLBACK"]
 old-location: secbiomet\pwinbio_enroll_capture_callback.htm
 tech.root: SecBioMet
 ms.assetid: B43C8A68-4D39-4275-891C-2DFE97DC4D64
@@ -81,15 +81,6 @@ Error code returned by the capture operation.
 ### -param RejectDetail [in]
 
 Additional information about the failure, if any, to perform the operation. For more information,  see Remarks.
-
-
-## -returns
-
-
-
-Do not return a value from your implementation of this function.
-
-
 
 
 ## -remarks

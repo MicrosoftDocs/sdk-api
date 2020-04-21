@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.INamedEntityCollector.Add
 title: INamedEntityCollector::Add (structuredquery.h)
-description: Adds a single (potential) named entity to this INamedEntityCollector collection, as identified in a tokenized span of the input string being parsed.
+description: Adds a single (potential) named entity to this INamedEntityCollector collection, as identified in a tokenized span of the input string being parsed.helpviewer_keywords: ["Add","Add method [search]","Add method [search]","INamedEntityCollector interface","INamedEntityCollector interface [search]","Add method","INamedEntityCollector.Add","INamedEntityCollector::Add","_search_INamedEntityCollector_Add","search._search_INamedEntityCollector_Add","structuredquery/INamedEntityCollector::Add"]
 old-location: search\_search_INamedEntityCollector_Add.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentitycollector\add.htm

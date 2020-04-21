@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPointerInactive.OnInactiveSetCursor
 title: IPointerInactive::OnInactiveSetCursor (ocidl.h)
-description: Sets the mouse pointer for an inactive object. This method is called by the container on receipt of a WM_SETCURSOR method when an inactive object is under the mouse pointer.
+description: Sets the mouse pointer for an inactive object. This method is called by the container on receipt of a WM_SETCURSOR method when an inactive object is under the mouse pointer.helpviewer_keywords: ["IPointerInactive interface [COM]","OnInactiveSetCursor method","IPointerInactive.OnInactiveSetCursor","IPointerInactive::OnInactiveSetCursor","OnInactiveSetCursor","OnInactiveSetCursor method [COM]","OnInactiveSetCursor method [COM]","IPointerInactive interface","_ctrl_ipointerinactive_oninactivesetcursor","com.ipointerinactive_oninactivesetcursor","ocidl/IPointerInactive::OnInactiveSetCursor"]
 old-location: com\ipointerinactive_oninactivesetcursor.htm
 tech.root: com
 ms.assetid: f2c87f5e-5c8e-487c-ad18-ea95f334e01d

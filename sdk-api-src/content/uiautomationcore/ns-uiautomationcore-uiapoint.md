@@ -1,7 +1,7 @@
 ---
 UID: NS:uiautomationcore.UiaPoint
 title: UiaPoint (uiautomationcore.h)
-description: Contains the coordinates of a point.
+description: Contains the coordinates of a point.helpviewer_keywords: ["UiaPoint","UiaPoint structure [Windows Accessibility]","uiauto.uiauto_UiaPointStruct","uiauto_UiaPointStruct","uiautomationcore/UiaPoint","winauto.uiauto_UiaPointStruct"]
 old-location: winauto\uiauto_UiaPointStruct.htm
 tech.root: WinAuto
 ms.assetid: 2969cb79-fb78-404e-bcac-edf68001fa08

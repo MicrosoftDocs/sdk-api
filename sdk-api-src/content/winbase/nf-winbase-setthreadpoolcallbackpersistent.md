@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackPersistent
 title: SetThreadpoolCallbackPersistent function (winbase.h)
-description: Specifies that the callback should run on a persistent thread.
+description: Specifies that the callback should run on a persistent thread.helpviewer_keywords: ["SetThreadpoolCallbackPersistent","SetThreadpoolCallbackPersistent function","base.setthreadpoolcallbackpersistent","winbase/SetThreadpoolCallbackPersistent"]
 old-location: base\setthreadpoolcallbackpersistent.htm
 tech.root: ProcThread
 ms.assetid: 3f209586-5452-4928-8f97-70648b22460d
@@ -60,15 +60,6 @@ Specifies that the callback should run on a persistent thread.
 ### -param pcbe [in, out]
 
 A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a> function returns this structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

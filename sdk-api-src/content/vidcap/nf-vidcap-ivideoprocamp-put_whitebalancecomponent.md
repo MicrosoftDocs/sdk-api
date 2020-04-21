@@ -1,7 +1,7 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_WhiteBalanceComponent
 title: IVideoProcAmp::put_WhiteBalanceComponent (vidcap.h)
-description: The put_WhiteBalanceComponent method sets the camera's white balance, specified as red and blue component values.
+description: The put_WhiteBalanceComponent method sets the camera's white balance, specified as red and blue component values.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","put_WhiteBalanceComponent method","IVideoProcAmp.put_WhiteBalanceComponent","IVideoProcAmp::put_WhiteBalanceComponent","IVideoProcAmpput_WhiteBalanceComponent","dshow.ivideoprocamp_put_whitebalancecomponent","put_WhiteBalanceComponent","put_WhiteBalanceComponent method [DirectShow]","put_WhiteBalanceComponent method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::put_WhiteBalanceComponent"]
 old-location: dshow\ivideoprocamp_put_whitebalancecomponent.htm
 tech.root: DirectShow
 ms.assetid: 800d7ddb-9f66-4fc4-a246-e6501377b9ce

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.UpdateSubresource1
 title: ID3D11DeviceContext1::UpdateSubresource1 (d3d11_1.h)
-description: The CPU copies data from memory to a subresource created in non-mappable memory.
+description: The CPU copies data from memory to a subresource created in non-mappable memory.helpviewer_keywords: ["ID3D11DeviceContext1 interface [Direct3D 11]","UpdateSubresource1 method","ID3D11DeviceContext1.UpdateSubresource1","ID3D11DeviceContext1::UpdateSubresource1","UpdateSubresource1","UpdateSubresource1 method [Direct3D 11]","UpdateSubresource1 method [Direct3D 11]","ID3D11DeviceContext1 interface","d3d11_1/ID3D11DeviceContext1::UpdateSubresource1","direct3d11.id3d11devicecontext1_updatesubresource1"]
 old-location: direct3d11\id3d11devicecontext1_updatesubresource1.htm
 tech.root: direct3d11
 ms.assetid: 7D89591C-F3F7-4A4F-A91A-AC67D9A573AF
@@ -107,15 +107,6 @@ The size of one depth slice of source data.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_copy_flags">D3D11_COPY_FLAGS</a>-typed value that specifies how to perform the update operation. If you specify zero for no update option, <b>UpdateSubresource1</b> behaves like <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-updatesubresource">ID3D11DeviceContext::UpdateSubresource</a>. For existing display drivers that can't process these flags, the runtime doesn't use them.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

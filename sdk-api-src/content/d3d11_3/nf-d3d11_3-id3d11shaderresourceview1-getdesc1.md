@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_3.ID3D11ShaderResourceView1.GetDesc1
 title: ID3D11ShaderResourceView1::GetDesc1 (d3d11_3.h)
-description: Gets the shader-resource view's description.
+description: Gets the shader-resource view's description.helpviewer_keywords: ["GetDesc1","GetDesc1 method [Direct3D 11]","GetDesc1 method [Direct3D 11]","ID3D11ShaderResourceView1 interface","ID3D11ShaderResourceView1 interface [Direct3D 11]","GetDesc1 method","ID3D11ShaderResourceView1.GetDesc1","ID3D11ShaderResourceView1::GetDesc1","d3d11_3/ID3D11ShaderResourceView1::GetDesc1","direct3d11.id3d11shaderresourceview1_getdesc1"]
 old-location: direct3d11\id3d11shaderresourceview1_getdesc1.htm
 tech.root: direct3d11
 ms.assetid: A0551927-0BDA-4C26-9F35-0A96B83A2617
@@ -63,15 +63,6 @@ Gets the shader-resource view's description.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_shader_resource_view_desc1">D3D11_SHADER_RESOURCE_VIEW_DESC1</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_shader_resource_view_desc1">D3D11_SHADER_RESOURCE_VIEW_DESC1</a> structure that receives the description of the shader-resource view.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawGlyphRun
 title: ID2D1RenderTarget::DrawGlyphRun (d2d1.h)
-description: Draws the specified glyphs.
+description: Draws the specified glyphs.helpviewer_keywords: ["DrawGlyphRun","DrawGlyphRun method [Direct2D]","DrawGlyphRun method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawGlyphRun method","ID2D1RenderTarget.DrawGlyphRun","ID2D1RenderTarget::DrawGlyphRun","d2d1/ID2D1RenderTarget::DrawGlyphRun","direct2d.ID2D1RenderTarget_DrawGlyphRun"]
 old-location: direct2d\ID2D1RenderTarget_DrawGlyphRun.htm
 tech.root: Direct2D
 ms.assetid: 064ede6c-139c-4160-9c50-460179d46f97
@@ -83,15 +83,6 @@ The brush used to paint the specified glyphs.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 A value that indicates how glyph metrics are used to measure text when it is formatted.  The default value is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE_NATURAL</a>. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

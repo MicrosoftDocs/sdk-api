@@ -1,7 +1,7 @@
 ---
 UID: NF:inputscope.SetInputScopeXML
 title: SetInputScopeXML function (inputscope.h)
-description: Do not use.
+description: Do not use.helpviewer_keywords: ["SetInputScopeXML","SetInputScopeXML function [Text Services Framework]","inputscope/SetInputScopeXML","tsf.SetInputScopeXML"]
 old-location: tsf\SetInputScopeXML.htm
 tech.root: TSF
 ms.assetid: bd770852-412a-4097-b22f-02f240516770

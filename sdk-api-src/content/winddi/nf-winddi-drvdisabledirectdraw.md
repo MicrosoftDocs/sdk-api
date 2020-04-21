@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvDisableDirectDraw
 title: DrvDisableDirectDraw function (winddi.h)
-description: The DrvDisableDirectDraw function disables hardware for DirectDraw use.
+description: The DrvDisableDirectDraw function disables hardware for DirectDraw use.helpviewer_keywords: ["DrvDisableDirectDraw","DrvDisableDirectDraw function [Display Devices]","ddfncs_7abbe471-0671-4e98-8eba-ceb25216d961.xml","display.drvdisabledirectdraw","winddi/DrvDisableDirectDraw"]
 old-location: display\drvdisabledirectdraw.htm
 tech.root: display
 ms.assetid: 7675019e-ac05-40e8-a934-a0928800ebe3
@@ -60,15 +60,6 @@ The <b>DrvDisableDirectDraw</b> function disables hardware for DirectDraw use.
 ### -param dhpdev
 
 Handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> that was returned by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> routine.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

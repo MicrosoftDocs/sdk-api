@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo.GetRoot
 title: IDvdInfo::GetRoot (strmif.h)
-description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the root directory that is set in the player.
+description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the root directory that is set in the player.helpviewer_keywords: ["GetRoot","GetRoot method [DirectShow]","GetRoot method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetRoot method","IDvdInfo.GetRoot","IDvdInfo::GetRoot","IDvdInfoGetRoot","dshow.idvdinfo_getroot","strmif/IDvdInfo::GetRoot"]
 old-location: dshow\idvdinfo_getroot.htm
 tech.root: DirectShow
 ms.assetid: e3869da3-15c9-449e-bb0e-29dd4625a857

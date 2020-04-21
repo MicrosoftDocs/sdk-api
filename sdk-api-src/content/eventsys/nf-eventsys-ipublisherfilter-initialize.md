@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IPublisherFilter.Initialize
 title: IPublisherFilter::Initialize (eventsys.h)
-description: Associates an event method with a collection of subscription objects.
+description: Associates an event method with a collection of subscription objects.helpviewer_keywords: ["IPublisherFilter interface [COM+]","Initialize method","IPublisherFilter.Initialize","IPublisherFilter::Initialize","Initialize","Initialize method [COM+]","Initialize method [COM+]","IPublisherFilter interface","_cos_IPublisherFilter_Initialize","cos.ipublisherfilter_initialize","eventsys/IPublisherFilter::Initialize"]
 old-location: cos\ipublisherfilter_initialize.htm
 tech.root: cossdk
 ms.assetid: 803201c7-7fa8-4db5-858f-3d5af302ee88

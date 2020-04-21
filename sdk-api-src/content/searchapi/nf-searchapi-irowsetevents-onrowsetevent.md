@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnRowsetEvent
 title: IRowsetEvents::OnRowsetEvent (searchapi.h)
-description: Called by the indexer to notify clients of an event related to the client rowset.
+description: Called by the indexer to notify clients of an event related to the client rowset.helpviewer_keywords: ["IRowsetEvents interface [search]","OnRowsetEvent method","IRowsetEvents.OnRowsetEvent","IRowsetEvents::OnRowsetEvent","OnRowsetEvent","OnRowsetEvent method [search]","OnRowsetEvent method [search]","IRowsetEvents interface","_search_IRowsetEvents_OnRowsetEvent","search._search_IRowsetEvents_OnRowsetEvent","searchapi/IRowsetEvents::OnRowsetEvent"]
 old-location: search\_search_IRowsetEvents_OnRowsetEvent.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onrowsetevent.htm

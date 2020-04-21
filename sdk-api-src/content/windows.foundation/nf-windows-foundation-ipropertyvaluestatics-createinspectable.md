@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateInspectable
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-description: Creates a new IPropertyValue object that contains the specified IInspectable object.
+description: Creates a new IPropertyValue object that contains the specified IInspectable object.helpviewer_keywords: ["CreateInspectable","CreateInspectable method [Windows Runtime]","CreateInspectable method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateInspectable method","IPropertyValueStatics.CreateInspectable","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateInspectable","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateInspectable","winrt.ipropertyvaluefactory_createinspectable","winrt.ipropertyvaluestatics_createinspectable"]
 old-location: winrt\ipropertyvaluestatics_createinspectable.htm
 tech.root: WinRT
 ms.assetid: 6FCAD9E9-AB44-4D26-BD75-26B1C25FA524

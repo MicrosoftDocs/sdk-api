@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetSerialization
 title: ICredentialProviderCredential::GetSerialization (credentialprovider.h)
-description: Called in response to an attempt to submit this credential to the underlying authentication engine.
+description: Called in response to an attempt to submit this credential to the underlying authentication engine.helpviewer_keywords: ["GetSerialization","GetSerialization method [Windows Shell]","GetSerialization method [Windows Shell]","ICredentialProviderCredential interface","ICredentialProviderCredential interface [Windows Shell]","GetSerialization method","ICredentialProviderCredential.GetSerialization","ICredentialProviderCredential::GetSerialization","credentialprovider/ICredentialProviderCredential::GetSerialization","shell.ICredentialProviderCredential_GetSerialization","shell_ICredentialProviderCredential_GetSerialization"]
 old-location: shell\ICredentialProviderCredential_GetSerialization.htm
 tech.root: shell
 ms.assetid: c5f7ba25-c38a-431a-b4ad-0e2409f763a3

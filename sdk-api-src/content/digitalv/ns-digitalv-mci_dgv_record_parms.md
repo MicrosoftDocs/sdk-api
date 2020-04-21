@@ -1,7 +1,7 @@
 ---
 UID: NS:digitalv.__unnamed_struct_17
 title: MCI_DGV_RECORD_PARMS (digitalv.h)
-description: The MCI_DGV_RECORD_PARMS structure contains parameters for the MCI_RECORD command for digital-video devices.
+description: The MCI_DGV_RECORD_PARMS structure contains parameters for the MCI_RECORD command for digital-video devices.helpviewer_keywords: ["*LPMCI_DGV_RECORD_PARMS","MCI_DGV_RECORD_PARMS","MCI_DGV_RECORD_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_RECORD_PARMS_str","digitalv/MCI_DGV_RECORD_PARMS","multimedia.mci_dgv_record_parms"]
 old-location: multimedia\mci_dgv_record_parms.htm
 tech.root: Multimedia
 ms.assetid: c0a537b1-d38c-41fa-8bd7-bee90ac625a7

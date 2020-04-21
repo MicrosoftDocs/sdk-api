@@ -1,7 +1,7 @@
 ---
 UID: NF:drt.DrtDeleteIpv6UdpTransport
 title: DrtDeleteIpv6UdpTransport function (drt.h)
-description: DrtDeleteIpv6UdpTransport function deletes a transport based on the IPv6 UDP protocol.
+description: DrtDeleteIpv6UdpTransport function deletes a transport based on the IPv6 UDP protocol.helpviewer_keywords: ["DrtDeleteIpv6UdpTransport","DrtDeleteIpv6UdpTransport function [Peer Networking]","drt/DrtDeleteIpv6UdpTransport","p2p.drtdeleteipv6udptransport"]
 old-location: p2p\drtdeleteipv6udptransport.htm
 tech.root: P2PSdk
 ms.assetid: 9b078f63-36b1-448b-b0c2-d452699157d8

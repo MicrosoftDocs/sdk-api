@@ -1,7 +1,7 @@
 ---
 UID: NN:structuredquery.IConditionFactory
 title: IConditionFactory (structuredquery.h)
-description: Provides methods for creating or resolving a condition tree that was obtained by parsing a query string.
+description: Provides methods for creating or resolving a condition tree that was obtained by parsing a query string.helpviewer_keywords: ["IConditionFactory","IConditionFactory interface [search]","IConditionFactory interface [search]","described","_search_IConditionFactory","search._search_IConditionFactory","structuredquery/IConditionFactory"]
 old-location: search\_search_IConditionFactory.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\iconditionfactory.htm

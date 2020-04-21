@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagBITMAPFILEHEADER
 title: BITMAPFILEHEADER (wingdi.h)
-description: The BITMAPFILEHEADER structure contains information about the type, size, and layout of a file that contains a DIB.
+description: The BITMAPFILEHEADER structure contains information about the type, size, and layout of a file that contains a DIB.helpviewer_keywords: ["*LPBITMAPFILEHEADER","*PBITMAPFILEHEADER","BITMAPFILEHEADER","BITMAPFILEHEADER structure [Windows GDI]","PBITMAPFILEHEADER","PBITMAPFILEHEADER structure pointer [Windows GDI]","_win32_BITMAPFILEHEADER_str","gdi.bitmapfileheader","wingdi/BITMAPFILEHEADER","wingdi/PBITMAPFILEHEADER"]
 old-location: gdi\bitmapfileheader.htm
 tech.root: gdi
 ms.assetid: ae24c4db-fc29-4c97-bf78-069794c8d844

@@ -1,7 +1,7 @@
 ---
 UID: NF:filehc.SetDotStuffState
 title: SetDotStuffState function (filehc.h)
-description: Enables dot stuffing to be set in an FIO_CONTEXT structure.
+description: Enables dot stuffing to be set in an FIO_CONTEXT structure.helpviewer_keywords: ["SetDotStuffState","SetDotStuffState function [Windows API]","filehc/SetDotStuffState","winprog._setdotstuffstate"]
 old-location: winprog\_setdotstuffstate.htm
 tech.root: DevNotes
 ms.assetid: 3acfaf74-ec36-4afb-b358-425bd5062153
@@ -70,15 +70,6 @@ Specifies whether the dot stuff state is known. If <b>TRUE</b>, the message requ
 ### -param fRequiresStuffing [in]
 
 Specifies whether dot stuffing is required. If <i>fKnown</i> is  <b>TRUE</b>, <i>fRequiresStuffing</i> can be either <b>TRUE</b> or <b>FALSE</b>. If <i>fKnown</i> is <b>FALSE</b>, <i>fRequiresStuffing</i> is ignored.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

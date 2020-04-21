@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.Add
 title: ICertificatePolicies::Add (certenroll.h)
-description: Adds an object to the collection.
+description: Adds an object to the collection.helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICertificatePolicies interface","ICertificatePolicies interface [Security]","Add method","ICertificatePolicies.Add","ICertificatePolicies::Add","certenroll/ICertificatePolicies::Add","security.icertificatepolicies_add_method"]
 old-location: security\icertificatepolicies_add_method.htm
 tech.root: seccertenroll
 ms.assetid: 85dc750c-ef18-4136-962e-c95bcca05b9a

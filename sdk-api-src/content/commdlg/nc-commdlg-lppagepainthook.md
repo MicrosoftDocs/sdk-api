@@ -1,7 +1,7 @@
 ---
 UID: NC:commdlg.LPPAGEPAINTHOOK
 title: LPPAGEPAINTHOOK (commdlg.h)
-description: Receives messages that allow you to customize drawing of the sample page in the Page Setup dialog box. The PagePaintHook hook procedure is an application-defined or library-defined callback function used with the PageSetupDlg function.
+description: Receives messages that allow you to customize drawing of the sample page in the Page Setup dialog box. The PagePaintHook hook procedure is an application-defined or library-defined callback function used with the PageSetupDlg function.helpviewer_keywords: ["LPPAGEPAINTHOOK","LPPAGEPAINTHOOK callback","LPPAGEPAINTHOOK callback function [Dialog Boxes]","_win32_PagePaintHook","_win32_pagepainthook_cpp","commdlg/LPPAGEPAINTHOOK","dlgbox.pagepainthook","winui._win32_pagepainthook"]
 old-location: dlgbox\pagepainthook.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\pagepainthook.htm

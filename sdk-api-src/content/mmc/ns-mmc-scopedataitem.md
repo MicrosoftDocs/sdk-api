@@ -1,7 +1,7 @@
 ---
 UID: NS:mmc._SCOPEDATAITEM
 title: SCOPEDATAITEM (mmc.h)
-description: The SCOPEDATAITEM structure specifies items to be inserted into the scope pane.
+description: The SCOPEDATAITEM structure specifies items to be inserted into the scope pane.helpviewer_keywords: ["*LPSCOPEDATAITEM","LPSCOPEDATAITEM","LPSCOPEDATAITEM structure pointer [MMC]","SCOPEDATAITEM","SCOPEDATAITEM structure [MMC]","SDI_CHILDREN","SDI_FIRST","SDI_IMAGE","SDI_NEXT","SDI_OPENIMAGE","SDI_PARAM","SDI_PARENT","SDI_PREVIOUS","SDI_STATE","SDI_STR","_slate_scopedataitem","mmc.scopedataitem","mmc/LPSCOPEDATAITEM","mmc/SCOPEDATAITEM"]
 old-location: mmc\scopedataitem.htm
 tech.root: mmc
 ms.assetid: c392f25c-80e7-4c91-9063-36143320b9aa

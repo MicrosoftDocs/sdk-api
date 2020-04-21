@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IESLicenseRenewalResultEvent
 title: IESLicenseRenewalResultEvent (tuner.h)
-description: Implements methods that get information from a LicenseRenewalResult event.
+description: Implements methods that get information from a LicenseRenewalResult event.helpviewer_keywords: ["IESLicenseRenewalResultEvent","IESLicenseRenewalResultEvent interface [DirectShow]","IESLicenseRenewalResultEvent interface [DirectShow]","described","mstv.ieslicenserenewalresultevent","tuner/IESLicenseRenewalResultEvent"]
 old-location: mstv\ieslicenserenewalresultevent.htm
 tech.root: mstv
 ms.assetid: 6f9cbec4-7934-41fc-b387-3f45aa273a72

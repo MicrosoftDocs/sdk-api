@@ -1,7 +1,7 @@
 ---
 UID: NF:clfsw32.ReadLogArchiveMetadata
 title: ReadLogArchiveMetadata function (clfsw32.h)
-description: Copies a range of the archive view of the metadata to the specified buffer.
+description: Copies a range of the archive view of the metadata to the specified buffer.helpviewer_keywords: ["ReadLogArchiveMetadata","ReadLogArchiveMetadata function [Files]","clfsw32/ReadLogArchiveMetadata","fs.readlogarchivemetadata"]
 old-location: fs\readlogarchivemetadata.htm
 tech.root: Clfs
 ms.assetid: b0b8528d-30fc-4995-b82d-5577af8d299d

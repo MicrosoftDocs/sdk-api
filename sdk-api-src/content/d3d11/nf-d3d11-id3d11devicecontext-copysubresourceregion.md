@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CopySubresourceRegion
 title: ID3D11DeviceContext::CopySubresourceRegion (d3d11.h)
-description: Copy a region from a source resource to a destination resource.
+description: Copy a region from a source resource to a destination resource.helpviewer_keywords: ["4fcc18c3-ca99-b51e-9162-bb8b4121db03","CopySubresourceRegion","CopySubresourceRegion method [Direct3D 11]","CopySubresourceRegion method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CopySubresourceRegion method","ID3D11DeviceContext.CopySubresourceRegion","ID3D11DeviceContext::CopySubresourceRegion","d3d11/ID3D11DeviceContext::CopySubresourceRegion","direct3d11.id3d11devicecontext_copysubresourceregion"]
 old-location: direct3d11\id3d11devicecontext_copysubresourceregion.htm
 tech.root: direct3d11
 ms.assetid: aed89483-9870-445d-96e3-a9cee764f0ad
@@ -114,15 +114,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-
 A pointer to a 3D box (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_box">D3D11_BOX</a>) that defines the source subresource that can be copied. If <b>NULL</b>, the entire source subresource is copied. The box must fit within the source resource.
 
 An empty box results in a no-op. A box is empty if the top value is greater than or equal to the bottom value, or the left value is greater than or equal to the right value, or the front value is greater than or equal to the back value. When the box is empty, <b>CopySubresourceRegion</b> doesn't perform a copy operation.
-
-
-## -returns
-
-
-
-Returns nothing
-
-
 
 
 ## -remarks

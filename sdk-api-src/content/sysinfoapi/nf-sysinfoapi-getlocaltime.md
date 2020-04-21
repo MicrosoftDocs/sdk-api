@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.GetLocalTime
 title: GetLocalTime function (sysinfoapi.h)
-description: Retrieves the current local date and time.
+description: Retrieves the current local date and time.helpviewer_keywords: ["GetLocalTime","GetLocalTime function","_win32_getlocaltime","base.getlocaltime","sysinfoapi/GetLocalTime"]
 old-location: base\getlocaltime.htm
 tech.root: SysInfo
 ms.assetid: a63fcd36-de48-4437-a823-837884cc2bf9
@@ -71,15 +71,6 @@ To retrieve the current date and time in Coordinated Universal Time (UTC) format
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure to receive the current local date and time.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

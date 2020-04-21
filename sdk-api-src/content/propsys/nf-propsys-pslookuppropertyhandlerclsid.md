@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSLookupPropertyHandlerCLSID
 title: PSLookupPropertyHandlerCLSID function (propsys.h)
-description: Gets the class identifier (CLSID) of a per-computer, registered file property handler.
+description: Gets the class identifier (CLSID) of a per-computer, registered file property handler.helpviewer_keywords: ["PSLookupPropertyHandlerCLSID","PSLookupPropertyHandlerCLSID function [Windows Properties]","_shell_PSLookupPropertyHandlerCLSID","properties.PSLookupPropertyHandlerCLSID","propsys/PSLookupPropertyHandlerCLSID","shell.PSLookupPropertyHandlerCLSID"]
 old-location: properties\PSLookupPropertyHandlerCLSID.htm
 tech.root: properties
 ms.assetid: 43f90a33-9bd6-4e47-ab92-5e0d01ba268a

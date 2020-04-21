@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationcore.AnimationStyle
 title: AnimationStyle (uiautomationcore.h)
-description: Contains values for the AnimationStyle text attribute.
+description: Contains values for the AnimationStyle text attribute.helpviewer_keywords: ["AnimationStyle","AnimationStyle enumeration [Windows Accessibility]","AnimationStyle_BlinkingBackground","AnimationStyle_LasVegasLights","AnimationStyle_MarchingBlackAnts","AnimationStyle_MarchingRedAnts","AnimationStyle_None","AnimationStyle_Other","AnimationStyle_Shimmer","AnimationStyle_SparkleText","uiauto.uiauto_AnimationStyleEnum","uiauto_AnimationStyleEnum","uiautomationcore/AnimationStyle","uiautomationcore/AnimationStyle_BlinkingBackground","uiautomationcore/AnimationStyle_LasVegasLights","uiautomationcore/AnimationStyle_MarchingBlackAnts","uiautomationcore/AnimationStyle_MarchingRedAnts","uiautomationcore/AnimationStyle_None","uiautomationcore/AnimationStyle_Other","uiautomationcore/AnimationStyle_Shimmer","uiautomationcore/AnimationStyle_SparkleText","winauto.uiauto_AnimationStyleEnum"]
 old-location: winauto\uiauto_AnimationStyleEnum.htm
 tech.root: WinAuto
 ms.assetid: 0298e162-1e10-499a-9209-69c674bcb64b

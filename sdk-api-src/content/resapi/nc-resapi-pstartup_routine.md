@@ -1,7 +1,7 @@
 ---
 UID: NC:resapi.PSTARTUP_ROUTINE
 title: PSTARTUP_ROUTINE (resapi.h)
-description: Loads a resource DLL, returning a structure containing a function table and a version number.
+description: Loads a resource DLL, returning a structure containing a function table and a version number.helpviewer_keywords: ["PSTARTUP_ROUTINE","PSTARTUP_ROUTINE callback function [Failover Cluster]","Startup","Startup callback","Startup callback function [Failover Cluster]","_wolf_startup","mscs.startup","resapi/PSTARTUP_ROUTINE","resapi/Startup"]
 old-location: mscs\startup.htm
 tech.root: MsCS
 ms.assetid: b07a2c32-2ff5-4917-9bcb-e1cfe445b3b3

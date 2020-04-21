@@ -1,7 +1,7 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATAssessmentInfo.get_Title
 title: IProvideWinSATAssessmentInfo::get_Title (winsatcominterfacei.h)
-description: Retrieves the title of the subcomponent.
+description: Retrieves the title of the subcomponent.helpviewer_keywords: ["IProvideWinSATAssessmentInfo interface [WinSAT]","Title property","IProvideWinSATAssessmentInfo.Title","IProvideWinSATAssessmentInfo.get_Title","IProvideWinSATAssessmentInfo::Title","IProvideWinSATAssessmentInfo::get_Title","Title property [WinSAT]","Title property [WinSAT]","IProvideWinSATAssessmentInfo interface","get_Title","winsat.iprovidewinsatassessmentinfo_title","winsatcominterfacei/IProvideWinSATAssessmentInfo::Title","winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Title"]
 old-location: winsat\iprovidewinsatassessmentinfo_title.htm
 tech.root: WinSAT
 ms.assetid: 11c9c59f-97d6-41d1-ab0e-7901e126b07c

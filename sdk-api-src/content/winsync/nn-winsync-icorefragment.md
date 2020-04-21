@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.ICoreFragment
 title: ICoreFragment (winsync.h)
-description: Represents knowledge of all items in the scope for a specific set of change units.
+description: Represents knowledge of all items in the scope for a specific set of change units.helpviewer_keywords: ["ICoreFragment","ICoreFragment interface [Windows Sync]","ICoreFragment interface [Windows Sync]","described","winsync.icorefragment","winsync/ICoreFragment"]
 old-location: winsync\icorefragment.htm
 tech.root: winsync
 ms.assetid: 3e232531-ad44-4ad1-b186-46edbc07291b

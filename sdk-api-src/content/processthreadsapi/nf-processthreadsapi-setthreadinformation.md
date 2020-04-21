@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.SetThreadInformation
 title: SetThreadInformation function (processthreadsapi.h)
-description: Sets information for the specified thread.
+description: Sets information for the specified thread.helpviewer_keywords: ["SetThreadInformation","SetThreadInformation function","base.setthreadinformation","processthreadsapi/SetThreadInformation"]
 old-location: base\setthreadinformation.htm
 tech.root: ProcThread
 ms.assetid: c0159bea-870a-46b7-a350-91fe52efae49
@@ -64,7 +64,7 @@ Sets information for the specified thread.
 
 ### -param hThread [in]
 
-A handle to the thread. The handle must have THREAD_QUERY_INFORMATION access right. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+A handle to the thread. The handle must have THREAD_SET_INFORMATION access right. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 
 ### -param ThreadInformationClass [in]

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManRunShellCommand
 title: WSManRunShellCommand function (wsman.h)
-description: Starts the execution of a command within an existing shell and does not wait for the completion of the command.
+description: Starts the execution of a command within an existing shell and does not wait for the completion of the command.helpviewer_keywords: ["WSManRunShellCommand","WSManRunShellCommand function [Windows Remote Management]","winrm.wsmanrunshellcommand","wsman/WSManRunShellCommand"]
 old-location: winrm\wsmanrunshellcommand.htm
 tech.root: winrm
 ms.assetid: 8f5c89f8-418c-4a4d-9a52-0fc01ec636b2
@@ -90,13 +90,5 @@ Defines an asynchronous structure. The asynchronous structure contains an option
 ### -param command [out]
 
 Defines the command object associated with a command within a shell. This handle is returned on a successful call and is used to send and receive data and to signal the command. This handle should be closed  by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanclosecommand">WSManCloseCommand</a> method. This parameter cannot be <b>NULL</b>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

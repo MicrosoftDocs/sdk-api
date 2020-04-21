@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformationCollection.Add
 title: ICertSrvSetupKeyInformationCollection::Add (casetup.h)
-description: Adds an ICertSrvSetupKeyInformation object to the collection.
+description: Adds an ICertSrvSetupKeyInformation object to the collection.helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICertSrvSetupKeyInformationCollection interface","ICertSrvSetupKeyInformationCollection interface [Security]","Add method","ICertSrvSetupKeyInformationCollection.Add","ICertSrvSetupKeyInformationCollection::Add","casetup/ICertSrvSetupKeyInformationCollection::Add","security.icertsrvsetupkeyinformationcollection_add"]
 old-location: security\icertsrvsetupkeyinformationcollection_add.htm
 tech.root: SecCrypto
 ms.assetid: 8f342787-13f7-4bca-8320-61bb5112ee34

@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_count_entries
 title: ldap_count_entries function (winldap.h)
-description: The ldap_count_entries function counts the number of search entries that a server returned.
+description: The ldap_count_entries function counts the number of search entries that a server returned.helpviewer_keywords: ["_ldap_ldap_count_entries","ldap.ldap__count__entries","ldap.ldap_count_entries","ldap_count_entries","ldap_count_entries function [LDAP]","winldap/ldap_count_entries"]
 old-location: ldap\ldap_count_entries.htm
 tech.root: ldap
 ms.assetid: 6e53b914-2ad8-408a-9671-50a01a8a42f1

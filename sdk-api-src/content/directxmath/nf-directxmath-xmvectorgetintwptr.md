@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorGetIntWPtr
 title: XMVectorGetIntWPtr function (directxmath.h)
-description: Retrieves the w component of an XMVECTOR Data Type containing integer data, and stores that component's value in an instance of uint32_t referred to by a pointer.
+description: Retrieves the w component of an XMVECTOR Data Type containing integer data, and stores that component's value in an instance of uint32_t referred to by a pointer.helpviewer_keywords: ["Use DirectX..XMVectorGetIntWPtr","XMVectorGetIntWPtr","XMVectorGetIntWPtr method [DirectX Math Support APIs]","dxmath.xmvectorgetintwptr"]
 old-location: dxmath\xmvectorgetintwptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetIntWPtr(uint32_t@,XMVECTOR)

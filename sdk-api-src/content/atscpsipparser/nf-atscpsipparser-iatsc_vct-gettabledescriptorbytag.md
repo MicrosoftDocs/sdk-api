@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetTableDescriptorByTag
 title: IATSC_VCT::GetTableDescriptorByTag (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetTableDescriptorByTag","GetTableDescriptorByTag method [Microsoft TV Technologies]","GetTableDescriptorByTag method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetTableDescriptorByTag method","IATSC_VCT.GetTableDescriptorByTag","IATSC_VCT::GetTableDescriptorByTag","IATSC_VCTGetTableDescriptorByTag","atscpsipparser/IATSC_VCT::GetTableDescriptorByTag","mstv.iatsc_vct_gettabledescriptorbytag"]
 old-location: mstv\iatsc_vct_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: 2ae29f5c-430a-45a0-870e-41b209572775

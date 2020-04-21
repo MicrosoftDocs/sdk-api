@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.RemoveItem
 title: ITfLangBarItemMgr::RemoveItem (ctfutb.h)
-description: ITfLangBarItemMgr::RemoveItem method
+description: ITfLangBarItemMgr::RemoveItem methodhelpviewer_keywords: ["ITfLangBarItemMgr interface [Text Services Framework]","RemoveItem method","ITfLangBarItemMgr.RemoveItem","ITfLangBarItemMgr::RemoveItem","RemoveItem","RemoveItem method [Text Services Framework]","RemoveItem method [Text Services Framework]","ITfLangBarItemMgr interface","_tsf_itflangbaritemmgr_removeitem_ref","ctfutb/ITfLangBarItemMgr::RemoveItem","tsf.itflangbaritemmgr_removeitem"]
 old-location: tsf\itflangbaritemmgr_removeitem.htm
 tech.root: TSF
 ms.assetid: 5a56a8f4-8011-4847-869f-c859ec90da3b
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Removes an item from the language bar.
 
 ## -parameters
 

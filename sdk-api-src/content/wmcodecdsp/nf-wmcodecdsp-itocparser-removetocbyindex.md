@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.RemoveTocByIndex
 title: ITocParser::RemoveTocByIndex (wmcodecdsp.h)
-description: The RemoveTocByIndex method removes a table of contents, specified by an index, from the TOC Parser object.
+description: The RemoveTocByIndex method removes a table of contents, specified by an index, from the TOC Parser object.helpviewer_keywords: ["ITocParser interface [Media Foundation]","RemoveTocByIndex method","ITocParser.RemoveTocByIndex","ITocParser::RemoveTocByIndex","RemoveTocByIndex","RemoveTocByIndex method [Media Foundation]","RemoveTocByIndex method [Media Foundation]","ITocParser interface","codecapi.itocparser_removetocbyindex","mf.itocparser_removetocbyindex","wmcodecdsp/ITocParser::RemoveTocByIndex"]
 old-location: mf\itocparser_removetocbyindex.htm
 tech.root: medfound
 ms.assetid: 7ec459bf-c631-4ad4-beb3-4cd1e89c1d35

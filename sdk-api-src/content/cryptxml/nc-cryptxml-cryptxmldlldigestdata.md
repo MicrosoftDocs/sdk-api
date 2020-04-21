@@ -1,7 +1,7 @@
 ---
 UID: NC:cryptxml.CryptXmlDllDigestData
 title: CryptXmlDllDigestData (cryptxml.h)
-description: Puts data into the digest.
+description: Puts data into the digest.helpviewer_keywords: ["CryptXmlDllDigestData","CryptXmlDllDigestData callback","CryptXmlDllDigestData callback function [Security]","cryptxml/CryptXmlDllDigestData","security.cryptxmldlldigestdata"]
 old-location: security\cryptxmldlldigestdata.htm
 tech.root: SecCrypto
 ms.assetid: b18a6e96-f5ed-4e48-af8c-4599c1864bf4

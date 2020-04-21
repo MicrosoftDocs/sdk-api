@@ -1,7 +1,7 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_HTTPProxyPort
 title: IAMNetShowConfig::get_HTTPProxyPort (qnetwork.h)
-description: The get_HTTPProxyPort method retrieves the HTTP proxy port.
+description: The get_HTTPProxyPort method retrieves the HTTP proxy port.helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_HTTPProxyPort method","IAMNetShowConfig.get_HTTPProxyPort","IAMNetShowConfig::get_HTTPProxyPort","IAMNetShowConfigget_HTTPProxyPort","dshow.iamnetshowconfig_get_httpproxyport","get_HTTPProxyPort","get_HTTPProxyPort method [DirectShow]","get_HTTPProxyPort method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_HTTPProxyPort"]
 old-location: dshow\iamnetshowconfig_get_httpproxyport.htm
 tech.root: DirectShow
 ms.assetid: 4a0325bb-83d6-4fbc-a513-0b6002013a60

@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidClosedCaptioning3.get_TeleTextFilter
 title: IMSVidClosedCaptioning3::get_TeleTextFilter (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["IMSVidClosedCaptioning3 interface [Microsoft TV Technologies]","get_TeleTextFilter method","IMSVidClosedCaptioning3.get_TeleTextFilter","IMSVidClosedCaptioning3::get_TeleTextFilter","IMSVidClosedCaptioning3getTeleTextFilter","get_TeleTextFilter","get_TeleTextFilter method [Microsoft TV Technologies]","get_TeleTextFilter method [Microsoft TV Technologies]","IMSVidClosedCaptioning3 interface","mstv.imsvidclosedcaptioning3_get_teletextfilter","segment/IMSVidClosedCaptioning3::get_TeleTextFilter"]
 old-location: mstv\imsvidclosedcaptioning3_get_teletextfilter.htm
 tech.root: mstv
 ms.assetid: 95376533-e684-4a8e-ac60-6c52bf0f82ae

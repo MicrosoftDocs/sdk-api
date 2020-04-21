@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Header_InsertItem
 title: Header_InsertItem macro (commctrl.h)
-description: Inserts a new item into a header control. You can use this macro or send the HDM_INSERTITEM message explicitly.
+description: Inserts a new item into a header control. You can use this macro or send the HDM_INSERTITEM message explicitly.helpviewer_keywords: ["Header_InsertItem","Header_InsertItem macro [Windows Controls]","_win32_Header_InsertItem","_win32_Header_InsertItem_cpp","commctrl/Header_InsertItem","controls.Header_InsertItem","controls._win32_Header_InsertItem"]
 old-location: controls\Header_InsertItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_insertitem.htm

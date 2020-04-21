@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutput1.GetDisplaySurfaceData1
 title: IDXGIOutput1::GetDisplaySurfaceData1 (dxgi1_2.h)
-description: Copies the display surface (front buffer) to a user-provided resource.
+description: Copies the display surface (front buffer) to a user-provided resource.helpviewer_keywords: ["GetDisplaySurfaceData1","GetDisplaySurfaceData1 method [DXGI]","GetDisplaySurfaceData1 method [DXGI]","IDXGIOutput1 interface","IDXGIOutput1 interface [DXGI]","GetDisplaySurfaceData1 method","IDXGIOutput1.GetDisplaySurfaceData1","IDXGIOutput1::GetDisplaySurfaceData1","direct3ddxgi.idxgioutput1_getdisplaysurfacedata1","dxgi1_2/IDXGIOutput1::GetDisplaySurfaceData1"]
 old-location: direct3ddxgi\idxgioutput1_getdisplaysurfacedata1.htm
 tech.root: direct3ddxgi
 ms.assetid: 120BC7CD-A4B2-4688-9A11-0BD59761B5F1

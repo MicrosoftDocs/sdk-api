@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSSetShaderResources
 title: ID3D11DeviceContext::PSSetShaderResources (d3d11.h)
-description: Bind an array of shader resources to the pixel shader stage.
+description: Bind an array of shader resources to the pixel shader stage.helpviewer_keywords: ["321c7b79-1c69-8b42-8a25-c6a5965c84d5","ID3D11DeviceContext interface [Direct3D 11]","PSSetShaderResources method","ID3D11DeviceContext.PSSetShaderResources","ID3D11DeviceContext::PSSetShaderResources","PSSetShaderResources","PSSetShaderResources method [Direct3D 11]","PSSetShaderResources method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::PSSetShaderResources","direct3d11.id3d11devicecontext_pssetshaderresources"]
 old-location: direct3d11\id3d11devicecontext_pssetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: acccbde4-68d0-4c76-bf77-643884af1bbe
@@ -77,15 +77,6 @@ Number of shader resources to set. Up to a maximum of 128 slots are available fo
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a>*</b>
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">shader resource view</a> interfaces to set to the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

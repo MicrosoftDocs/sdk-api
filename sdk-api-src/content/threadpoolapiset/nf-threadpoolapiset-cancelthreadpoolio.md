@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.CancelThreadpoolIo
 title: CancelThreadpoolIo function (threadpoolapiset.h)
-description: Cancels the notification from the StartThreadpoolIo function.
+description: Cancels the notification from the StartThreadpoolIo function.helpviewer_keywords: ["CancelThreadpoolIo","CancelThreadpoolIo function","base.cancelthreadpoolio","threadpoolapiset/CancelThreadpoolIo","winbase/CancelThreadpoolIo"]
 old-location: base\cancelthreadpoolio.htm
 tech.root: ProcThread
 ms.assetid: e3af8313-2e09-4c88-8cef-671efd4228c7
@@ -65,15 +65,6 @@ Cancels the notification from the <a href="https://docs.microsoft.com/windows/de
 ### -param pio [in, out]
 
 A <b>TP_IO</b> structure that defines the I/O completion object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio">CreateThreadpoolIo</a> function returns this structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

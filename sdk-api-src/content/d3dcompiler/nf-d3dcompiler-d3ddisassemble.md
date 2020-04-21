@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcompiler.D3DDisassemble
 title: D3DDisassemble function (d3dcompiler.h)
-description: Disassembles compiled HLSL code.
+description: Disassembles compiled HLSL code.helpviewer_keywords: ["102070a9-01bc-45ad-cbcb-2ef04db4d6e7","D3DDisassemble","D3DDisassemble function [HLSL]","d3dcompiler/D3DDisassemble","direct3dhlsl.d3ddisassemble"]
 old-location: direct3dhlsl\d3ddisassemble.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3ddisassemble.htm

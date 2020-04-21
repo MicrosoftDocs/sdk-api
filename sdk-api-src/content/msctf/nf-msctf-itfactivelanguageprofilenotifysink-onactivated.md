@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfActiveLanguageProfileNotifySink.OnActivated
 title: ITfActiveLanguageProfileNotifySink::OnActivated (msctf.h)
-description: ITfActiveLanguageProfileNotifySink::OnActivated method
+description: ITfActiveLanguageProfileNotifySink::OnActivated methodhelpviewer_keywords: ["ITfActiveLanguageProfileNotifySink interface [Text Services Framework]","OnActivated method","ITfActiveLanguageProfileNotifySink.OnActivated","ITfActiveLanguageProfileNotifySink::OnActivated","OnActivated","OnActivated method [Text Services Framework]","OnActivated method [Text Services Framework]","ITfActiveLanguageProfileNotifySink interface","_tsf_itfactivelanguageprofilenotifysink_onactivated_ref","msctf/ITfActiveLanguageProfileNotifySink::OnActivated","tsf.itfactivelanguageprofilenotifysink_onactivated"]
 old-location: tsf\itfactivelanguageprofilenotifysink_onactivated.htm
 tech.root: TSF
 ms.assetid: 89444189-254e-4a3c-9c8e-79c8b96aee34

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EnableNonClientDpiScaling
 title: EnableNonClientDpiScaling function (winuser.h)
-description: In high-DPI displays, enables automatic display scaling of the non-client area portions of the specified top-level window. Must be called during the initialization of that window.
+description: In high-DPI displays, enables automatic display scaling of the non-client area portions of the specified top-level window. Must be called during the initialization of that window.helpviewer_keywords: ["EnableNonClientDpiScaling","EnableNonClientDpiScaling function [High DPI]","hidpi.enablenonclientdpiscaling","winuser/EnableNonClientDpiScaling"]
 old-location: hidpi\enablenonclientdpiscaling.htm
 tech.root: hidpi
 ms.assetid: 3459B040-B73F-4581-BA29-0B2F0241801E

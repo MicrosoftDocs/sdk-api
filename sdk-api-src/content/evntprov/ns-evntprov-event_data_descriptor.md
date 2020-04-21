@@ -1,7 +1,7 @@
 ---
 UID: NS:evntprov._EVENT_DATA_DESCRIPTOR
 title: EVENT_DATA_DESCRIPTOR (evntprov.h)
-description: Defines one of the data items of the event data.
+description: Defines one of the data items of the event data.helpviewer_keywords: ["*PEVENT_DATA_DESCRIPTOR","EVENT_DATA_DESCRIPTOR","EVENT_DATA_DESCRIPTOR structure [ETW]","PEVENT_DATA_DESCRIPTOR","PEVENT_DATA_DESCRIPTOR structure pointer [ETW]","_EVENT_DATA_DESCRIPTOR","base.event_data_descriptor","etw.event_data_descriptor","evntprov/EVENT_DATA_DESCRIPTOR","evntprov/PEVENT_DATA_DESCRIPTOR"]
 old-location: etw\event_data_descriptor.htm
 tech.root: ETW
 ms.assetid: 452ce6f6-3857-4f88-b501-44dd6091b97e

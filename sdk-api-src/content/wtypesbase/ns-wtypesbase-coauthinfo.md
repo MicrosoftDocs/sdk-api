@@ -1,7 +1,7 @@
 ---
 UID: NS:wtypesbase._COAUTHINFO
 title: COAUTHINFO (wtypesbase.h)
-description: Contains the authentication settings used while making a remote activation request from the client computer to the server computer.
+description: Contains the authentication settings used while making a remote activation request from the client computer to the server computer.helpviewer_keywords: ["COAUTHINFO","COAUTHINFO structure [COM]","_COAUTHINFO","_com_COAUTHINFO","com.coauthinfo","wtypesbase/COAUTHINFO"]
 old-location: com\coauthinfo.htm
 tech.root: com
 ms.assetid: 8cbe27b6-c676-49f2-8341-9e180c335636

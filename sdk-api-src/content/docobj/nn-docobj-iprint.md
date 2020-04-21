@@ -1,7 +1,7 @@
 ---
 UID: NN:docobj.IPrint
 title: IPrint (docobj.h)
-description: Enables compound documents in general and active documents in particular to support programmatic printing.
+description: Enables compound documents in general and active documents in particular to support programmatic printing.helpviewer_keywords: ["IPrint","IPrint interface [COM]","IPrint interface [COM]","described","_ctrl_iprint","com.iprint","docobj/IPrint"]
 old-location: com\iprint.htm
 tech.root: com
 ms.assetid: eb0d15c0-8a34-4211-b840-29d5862cf767

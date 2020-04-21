@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
 title: ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider (syncregistration.h)
-description: Creates and registers a new synchronization provider.
+description: Creates and registers a new synchronization provider.helpviewer_keywords: ["CreateAndRegisterNewSyncProvider","CreateAndRegisterNewSyncProvider method [Windows Sync]","CreateAndRegisterNewSyncProvider method [Windows Sync]","ISyncProviderConfigUI interface","ISyncProviderConfigUI interface [Windows Sync]","CreateAndRegisterNewSyncProvider method","ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider","ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider","syncregistration/ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider","winsync.isyncproviderconfigui_createandregisternewsyncprovider"]
 old-location: winsync\isyncproviderconfigui_createandregisternewsyncprovider.htm
 tech.root: winsync
 ms.assetid: 4b256431-ed9a-414d-88c2-89f02000410d

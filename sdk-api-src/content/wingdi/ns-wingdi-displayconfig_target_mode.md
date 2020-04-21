@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_MODE
 title: DISPLAYCONFIG_TARGET_MODE (wingdi.h)
-description: The DISPLAYCONFIG_TARGET_MODE structure describes a display path target mode.
+description: The DISPLAYCONFIG_TARGET_MODE structure describes a display path target mode.helpviewer_keywords: ["CCD_Structures_e251116b-4e11-42a0-9171-fa3935003510.xml","DISPLAYCONFIG_TARGET_MODE","DISPLAYCONFIG_TARGET_MODE structure [Display Devices]","display.displayconfig_target_mode","wingdi/DISPLAYCONFIG_TARGET_MODE"]
 old-location: display\displayconfig_target_mode.htm
 tech.root: display
 ms.assetid: c81768f0-67d3-4ddd-94c8-013b1e4cf83e

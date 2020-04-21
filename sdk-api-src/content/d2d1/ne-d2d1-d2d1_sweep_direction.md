@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_SWEEP_DIRECTION
 title: D2D1_SWEEP_DIRECTION (d2d1.h)
-description: Defines the direction that an elliptical arc is drawn.
+description: Defines the direction that an elliptical arc is drawn.helpviewer_keywords: ["D2D1_SWEEP_DIRECTION","D2D1_SWEEP_DIRECTION enumeration [Direct2D]","D2D1_SWEEP_DIRECTION_CLOCKWISE","D2D1_SWEEP_DIRECTION_COUNTER_CLOCKWISE","d2d1/D2D1_SWEEP_DIRECTION","d2d1/D2D1_SWEEP_DIRECTION_CLOCKWISE","d2d1/D2D1_SWEEP_DIRECTION_COUNTER_CLOCKWISE","direct2d.D2D1_SWEEP_DIRECTION"]
 old-location: direct2d\D2D1_SWEEP_DIRECTION.htm
 tech.root: Direct2D
 ms.assetid: 97e6f384-7a42-4852-b948-66010bffed22

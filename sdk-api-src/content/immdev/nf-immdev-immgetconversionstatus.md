@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmGetConversionStatus
 title: ImmGetConversionStatus function (immdev.h)
-description: Retrieves the current conversion status.
+description: Retrieves the current conversion status.helpviewer_keywords: ["ImmGetConversionStatus","ImmGetConversionStatus function [Internationalization for Windows Applications]","_win32_ImmGetConversionStatus","imm/ImmGetConversionStatus","intl.immgetconversionstatus"]
 old-location: intl\immgetconversionstatus.htm
 tech.root: Intl
 ms.assetid: 64220427-e352-4445-9476-35e6246e59cd

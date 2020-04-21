@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.ITDispatchMapper
 title: ITDispatchMapper (tapi3if.h)
-description: The ITDispatchMapper interface allows an application to retrieve the dispatch pointer of another interface on an object, given the dispatch pointer of one interface and the GUID of another.
+description: The ITDispatchMapper interface allows an application to retrieve the dispatch pointer of another interface on an object, given the dispatch pointer of one interface and the GUID of another.helpviewer_keywords: ["ITDispatchMapper","ITDispatchMapper interface [TAPI 2.2]","ITDispatchMapper interface [TAPI 2.2]","described","_tapi3_itdispatchmapper","tapi3.itdispatchmapper","tapi3if/ITDispatchMapper"]
 old-location: tapi3\itdispatchmapper.htm
 tech.root: Tapi
 ms.assetid: 65286ea6-b9a6-423b-9833-2d41ef2fd8de

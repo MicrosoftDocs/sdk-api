@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarFormatDateTime
 title: VarFormatDateTime function (oleauto.h)
-description: Formats a variant containing named date and time information into a string.
+description: Formats a variant containing named date and time information into a string.helpviewer_keywords: ["VarFormatDateTime","VarFormatDateTime function [Automation]","_oa96_VarFormatDateTime","automat.varformatdatetime","oleauto/VarFormatDateTime"]
 old-location: automat\varformatdatetime.htm
 tech.root: automat
 ms.assetid: ae97d984-fc08-4e4d-a711-9ceb38aebe1e

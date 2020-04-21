@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateLayer(const D2D1_SIZE_F,ID2D1Layer)
 title: ID2D1RenderTarget::CreateLayer (d2d1.h)
-description: Creates a layer resource that can be used with this render target and its compatible render targets.
+description: Creates a layer resource that can be used with this render target and its compatible render targets.helpviewer_keywords: ["CreateLayer","CreateLayer methods [Direct2D]","ID2D1RenderTarget.CreateLayer","ID2D1RenderTarget::CreateLayer","d2d1/CreateLayer","direct2d.id2d1rendertarget_createlayer"]
 old-location: direct2d\id2d1rendertarget_createlayer.htm
 tech.root: Direct2D
 ms.assetid: 074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7

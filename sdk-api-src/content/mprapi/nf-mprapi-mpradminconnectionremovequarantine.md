@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminConnectionRemoveQuarantine
 title: MprAdminConnectionRemoveQuarantine function (mprapi.h)
-description: The MprAdminConnectionRemoveQuarantine function removes quarantine filters on a dialed-in RAS client if the filters were applied as a result of Internet Authentication Service (IAS) policies.
+description: The MprAdminConnectionRemoveQuarantine function removes quarantine filters on a dialed-in RAS client if the filters were applied as a result of Internet Authentication Service (IAS) policies.helpviewer_keywords: ["MprAdminConnectionRemoveQuarantine","MprAdminConnectionRemoveQuarantine function [RAS]","_mpr_mpradminconnectionremovequarantine","mprapi/MprAdminConnectionRemoveQuarantine","rras.mpradminconnectionremovequarantine"]
 old-location: rras\mpradminconnectionremovequarantine.htm
 tech.root: RRAS
 ms.assetid: 9d8c33b4-4227-4538-bc0e-f663d1d560f1

@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_phoneSetLamp
 title: TSPI_phoneSetLamp function (tspi.h)
-description: The TSPI_phoneSetLamp function causes the specified lamp to be set on the specified open phone device in the specified lamp mode.
+description: The TSPI_phoneSetLamp function causes the specified lamp to be set on the specified open phone device in the specified lamp mode.helpviewer_keywords: ["TSPI_phoneSetLamp","TSPI_phoneSetLamp function [TAPI 2.2]","_tspi_tspi_phonesetlamp","tspi.tspi_phonesetlamp","tspi/TSPI_phoneSetLamp"]
 old-location: tspi\tspi_phonesetlamp.htm
 tech.root: Tapi
 ms.assetid: d525b5d2-f5f8-490b-9db8-06881060efe5

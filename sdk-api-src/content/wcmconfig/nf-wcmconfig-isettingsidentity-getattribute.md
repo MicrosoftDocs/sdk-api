@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.GetAttribute
 title: ISettingsIdentity::GetAttribute (wcmconfig.h)
-description: Gets an identity attribute for a namespace identity.
+description: Gets an identity attribute for a namespace identity.helpviewer_keywords: ["GetAttribute","GetAttribute method [SMI]","GetAttribute method [SMI]","ISettingsIdentity interface","ISettingsIdentity interface [SMI]","GetAttribute method","ISettingsIdentity.GetAttribute","ISettingsIdentity::GetAttribute","smi.isettingsidentity_getattribute","wcmconfig/ISettingsIdentity::GetAttribute"]
 old-location: smi\isettingsidentity_getattribute.htm
 tech.root: SMI
 ms.assetid: d79bf4be-f3ed-426b-a880-b9ab8aee0092

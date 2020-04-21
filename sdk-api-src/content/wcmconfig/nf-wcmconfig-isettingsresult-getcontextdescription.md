@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetContextDescription
 title: ISettingsResult::GetContextDescription (wcmconfig.h)
-description: Returns the description of the context that surrounds the error.
+description: Returns the description of the context that surrounds the error.helpviewer_keywords: ["GetContextDescription","GetContextDescription method [SMI]","GetContextDescription method [SMI]","ISettingsResult interface","ISettingsResult interface [SMI]","GetContextDescription method","ISettingsResult.GetContextDescription","ISettingsResult::GetContextDescription","smi.isettingsresult_getcontextdescription","wcmconfig/ISettingsResult::GetContextDescription"]
 old-location: smi\isettingsresult_getcontextdescription.htm
 tech.root: SMI
 ms.assetid: d2bb39ce-9c49-46ab-b7d7-e4e4794f6b5a

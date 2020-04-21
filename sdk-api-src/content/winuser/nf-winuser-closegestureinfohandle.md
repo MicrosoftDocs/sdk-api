@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CloseGestureInfoHandle
 title: CloseGestureInfoHandle function (winuser.h)
-description: Closes resources associated with a gesture information handle.
+description: Closes resources associated with a gesture information handle.helpviewer_keywords: ["CloseGestureInfoHandle","CloseGestureInfoHandle function [Windows Touch]","wintouch.closegestureinfohandle","winuser/CloseGestureInfoHandle"]
 old-location: wintouch\closegestureinfohandle.htm
 tech.root: wintouch
 ms.assetid: f2bf98b2-a4f7-4b63-b9ae-b2534415cb4b

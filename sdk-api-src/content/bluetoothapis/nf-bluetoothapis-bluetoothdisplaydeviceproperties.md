@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothDisplayDeviceProperties
 title: BluetoothDisplayDeviceProperties function (bluetoothapis.h)
-description: Starts Control Panel device information property sheet.
+description: Starts Control Panel device information property sheet.helpviewer_keywords: ["BluetoothDisplayDeviceProperties","BluetoothDisplayDeviceProperties function [Bluetooth]","bluetooth.bluetoothdisplaydeviceproperties","bluetoothapis/BluetoothDisplayDeviceProperties"]
 old-location: bluetooth\bluetoothdisplaydeviceproperties.htm
 tech.root: bluetooth
 ms.assetid: cb33cf35-eb1e-4953-a779-4eb38afe0c34

@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDraw7.EvaluateMode
 title: IDirectDraw7::EvaluateMode (ddraw.h)
-description: Used after a call to IDirectDraw7::StartModeTest to pass or fail each mode that the test presents and to step through the modes until the test is complete.
+description: Used after a call to IDirectDraw7::StartModeTest to pass or fail each mode that the test presents and to step through the modes until the test is complete.helpviewer_keywords: ["DDEM_MODEFAILED","DDEM_MODEPASSED","EvaluateMode","EvaluateMode method [DirectDraw]","EvaluateMode method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","EvaluateMode method","IDirectDraw7.EvaluateMode","IDirectDraw7::EvaluateMode","ddraw/IDirectDraw7::EvaluateMode","directdraw.idirectdraw7_evaluatemode"]
 old-location: directdraw\idirectdraw7_evaluatemode.htm
 tech.root: directdraw
 ms.assetid: c8027183-07b5-4b7f-8c36-7bd711dac7dd

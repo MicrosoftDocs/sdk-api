@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_GPU_VIRTUAL_ADDRESS_RANGE
 title: D3D12_GPU_VIRTUAL_ADDRESS_RANGE (d3d12.h)
-description: Represents a GPU virtual address range.
+description: Represents a GPU virtual address range.helpviewer_keywords: ["D3D12_GPU_VIRTUAL_ADDRESS_RANGE","D3D12_GPU_VIRTUAL_ADDRESS_RANGE structure","PD3D12_GPU_VIRTUAL_ADDRESS_RANGE","PD3D12_GPU_VIRTUAL_ADDRESS_RANGE structure pointer","d3d12/D3D12_GPU_VIRTUAL_ADDRESS_RANGE","d3d12/PD3D12_GPU_VIRTUAL_ADDRESS_RANGE","direct3d12.d3d12_gpu_virtual_address_range"]
 old-location: direct3d12\d3d12_gpu_virtual_address_range.htm
 tech.root: direct3d12
 ms.assetid: BDAA2A62-628F-4517-B755-FC0865047D09

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IEmailAction.get_Server
 title: IEmailAction::get_Server (taskschd.h)
-description: Gets or sets the name of the SMTP server that you use to send email from.
+description: Gets or sets the name of the SMTP server that you use to send email from.helpviewer_keywords: ["IEmailAction interface [Task Scheduler]","Server property","IEmailAction.Server","IEmailAction.get_Server","IEmailAction::Server","IEmailAction::get_Server","IEmailAction::put_Server","Server property [Task Scheduler]","Server property [Task Scheduler]","IEmailAction interface","get_Server","taskschd.iemailaction_server","taskschd/IEmailAction::Server","taskschd/IEmailAction::get_Server","taskschd/IEmailAction::put_Server"]
 old-location: taskschd\iemailaction_server.htm
 tech.root: taskschd
 ms.assetid: c781f189-f27b-4f37-af53-144e1ae8cb75

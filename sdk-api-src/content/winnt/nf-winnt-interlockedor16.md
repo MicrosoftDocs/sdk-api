@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.InterlockedOr16
 title: InterlockedOr16 function (winnt.h)
-description: Performs an atomic OR operation on the specified SHORT values.
+description: Performs an atomic OR operation on the specified SHORT values.helpviewer_keywords: ["InterlockedOr16","InterlockedOr16 function","base.interlockedor16","winnt/InterlockedOr16"]
 old-location: base\interlockedor16.htm
 tech.root: Sync
 ms.assetid: 9840313d-3c42-42ce-91b9-fde684834716

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.UnregisterForEvent
 title: ICodecAPI::UnregisterForEvent (strmif.h)
-description: The UnregisterForEvent method unregisters the application for a specified encoder event.
+description: The UnregisterForEvent method unregisters the application for a specified encoder event.helpviewer_keywords: ["ICodecAPI interface [DirectShow]","UnregisterForEvent method","ICodecAPI.UnregisterForEvent","ICodecAPI::UnregisterForEvent","ICodecAPIUnregisterForEvent","UnregisterForEvent","UnregisterForEvent method [DirectShow]","UnregisterForEvent method [DirectShow]","ICodecAPI interface","dshow.icodecapi_unregisterforevent","strmif/ICodecAPI::UnregisterForEvent"]
 old-location: dshow\icodecapi_unregisterforevent.htm
 tech.root: DirectShow
 ms.assetid: d6f48379-664a-498f-8872-2272778588db

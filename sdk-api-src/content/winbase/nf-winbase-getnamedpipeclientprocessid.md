@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetNamedPipeClientProcessId
 title: GetNamedPipeClientProcessId function (winbase.h)
-description: Retrieves the client process identifier for the specified named pipe.
+description: Retrieves the client process identifier for the specified named pipe.helpviewer_keywords: ["GetNamedPipeClientProcessId","GetNamedPipeClientProcessId function","base.getnamedpipeclientprocessid","winbase/GetNamedPipeClientProcessId"]
 old-location: base\getnamedpipeclientprocessid.htm
 tech.root: ipc
 ms.assetid: 7001eb89-3d91-44e3-b245-b19e8ab5f9fe

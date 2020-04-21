@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_SEARCH_INFO
 title: DHCP_SEARCH_INFO (dhcpsapi.h)
-description: The DHCP_SEARCH_INFO structure defines the DHCP client record data used to search against for particular server operations.
+description: The DHCP_SEARCH_INFO structure defines the DHCP client record data used to search against for particular server operations.helpviewer_keywords: ["*LPDHCP_SEARCH_INFO","DHCP_SEARCH_INFO","DHCP_SEARCH_INFO structure [DHCP]","LPDHCP_SEARCH_INFO","LPDHCP_SEARCH_INFO structure pointer [DHCP]","dhcp.dhcp_search_info","dhcpsapi/LPDHCP_SEARCH_INFO","dhcpsapi/_DHCP_CLIENT_SEARCH_INFO"]
 old-location: dhcp\dhcp_search_info.htm
 tech.root: DHCP
 ms.assetid: 3c6f85d7-c156-4379-bad9-0705698f12e5

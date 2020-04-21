@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_LAYER_OPTIONS
 title: D2D1_LAYER_OPTIONS (d2d1.h)
-description: Specifies options that can be applied when a layer resource is applied to create a layer.
+description: Specifies options that can be applied when a layer resource is applied to create a layer.helpviewer_keywords: ["D2D1_LAYER_OPTIONS","D2D1_LAYER_OPTIONS enumeration [Direct2D]","D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE","D2D1_LAYER_OPTIONS_NONE","d2d1/D2D1_LAYER_OPTIONS","d2d1/D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE","d2d1/D2D1_LAYER_OPTIONS_NONE","direct2d.D2D1_LAYER_OPTIONS"]
 old-location: direct2d\D2D1_LAYER_OPTIONS.htm
 tech.root: Direct2D
 ms.assetid: d278211a-e99c-429d-9752-45c305f52ed8

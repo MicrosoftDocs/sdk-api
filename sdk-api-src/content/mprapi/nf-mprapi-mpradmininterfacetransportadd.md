@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceTransportAdd
 title: MprAdminInterfaceTransportAdd function (mprapi.h)
-description: The MprAdminInterfaceTransportAdd function adds a transport (for example, IP or IPX) to a specified interface.
+description: The MprAdminInterfaceTransportAdd function adds a transport (for example, IP or IPX) to a specified interface.helpviewer_keywords: ["MprAdminInterfaceTransportAdd","MprAdminInterfaceTransportAdd function [RAS]","_mpr_mpradmininterfacetransportadd","mprapi/MprAdminInterfaceTransportAdd","rras.mpradmininterfacetransportadd"]
 old-location: rras\mpradmininterfacetransportadd.htm
 tech.root: RRAS
 ms.assetid: 5978a8d3-78ea-4dc2-a957-32f00c81f52d

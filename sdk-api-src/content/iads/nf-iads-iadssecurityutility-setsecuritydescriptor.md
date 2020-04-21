@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsSecurityUtility.SetSecurityDescriptor
 title: IADsSecurityUtility::SetSecurityDescriptor (iads.h)
-description: Sets the security descriptor for the specified file, file share, or registry key.
+description: Sets the security descriptor for the specified file, file share, or registry key.helpviewer_keywords: ["File","File share","IADsSecurityUtility interface [ADSI]","SetSecurityDescriptor method","IADsSecurityUtility.SetSecurityDescriptor","IADsSecurityUtility::SetSecurityDescriptor","Registry key","SetSecurityDescriptor","SetSecurityDescriptor method [ADSI]","SetSecurityDescriptor method [ADSI]","IADsSecurityUtility interface","_ds_iadssecurityutility_setsecuritydescriptor","adsi.iadssecurityutility__setsecuritydescriptor","adsi.iadssecurityutility_setsecuritydescriptor","iads/IADsSecurityUtility::SetSecurityDescriptor"]
 old-location: adsi\iadssecurityutility_setsecuritydescriptor.htm
 tech.root: adsi
 ms.assetid: f0f5c1fb-14fa-4d84-aa82-0d5e24ec5c2b

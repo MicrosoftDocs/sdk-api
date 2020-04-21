@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CurrentHorizontallyScrollable
 title: IUIAutomationScrollPattern::get_CurrentHorizontallyScrollable (uiautomationclient.h)
-description: Indicates whether the element can scroll horizontally.
+description: Indicates whether the element can scroll horizontally.helpviewer_keywords: ["CurrentHorizontallyScrollable property [Windows Accessibility]","CurrentHorizontallyScrollable property [Windows Accessibility]","IUIAutomationScrollPattern interface","IUIAutomationScrollPattern interface [Windows Accessibility]","CurrentHorizontallyScrollable property","IUIAutomationScrollPattern.CurrentHorizontallyScrollable","IUIAutomationScrollPattern.get_CurrentHorizontallyScrollable","IUIAutomationScrollPattern::CurrentHorizontallyScrollable","IUIAutomationScrollPattern::get_CurrentHorizontallyScrollable","get_CurrentHorizontallyScrollable","uiauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontallyScrollable","uiauto_IUIAutomationScrollPattern_CurrentHorizontallyScrollable","uiautomationclient/IUIAutomationScrollPattern::CurrentHorizontallyScrollable","uiautomationclient/IUIAutomationScrollPattern::get_CurrentHorizontallyScrollable","winauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontallyScrollable"]
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentHorizontallyScrollable.htm
 tech.root: WinAuto
 ms.assetid: 4107440a-4bfc-42df-87b0-47b9eb3ce2e6

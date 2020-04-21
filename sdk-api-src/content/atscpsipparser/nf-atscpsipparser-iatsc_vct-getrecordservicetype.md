@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordServiceType
 title: IATSC_VCT::GetRecordServiceType (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordServiceType","GetRecordServiceType method [Microsoft TV Technologies]","GetRecordServiceType method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetRecordServiceType method","IATSC_VCT.GetRecordServiceType","IATSC_VCT::GetRecordServiceType","IATSC_VCTGetRecordServiceType","atscpsipparser/IATSC_VCT::GetRecordServiceType","mstv.iatsc_vct_getrecordservicetype"]
 old-location: mstv\iatsc_vct_getrecordservicetype.htm
 tech.root: mstv
 ms.assetid: 8975a42e-69f8-43b8-8c02-2f03a4dde29f

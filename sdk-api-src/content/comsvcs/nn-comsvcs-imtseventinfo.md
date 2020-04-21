@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IMtsEventInfo
 title: IMtsEventInfo (comsvcs.h)
-description: Describes user-defined events.
+description: Describes user-defined events.helpviewer_keywords: ["IMtsEventInfo","IMtsEventInfo interface [COM+]","IMtsEventInfo interface [COM+]","described","_dtc_IMtsEventInfo_Interface","comsvcs/IMtsEventInfo","cos.imtseventinfo"]
 old-location: cos\imtseventinfo.htm
 tech.root: cossdk
 ms.assetid: 9508df6d-281b-4a02-bb95-233b369b8279

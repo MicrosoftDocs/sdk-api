@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderResourceVariable.SetResource
 title: ID3D10EffectShaderResourceVariable::SetResource (d3d10effect.h)
-description: Set a shader resource.
+description: Set a shader resource.helpviewer_keywords: ["3d29c7fc-bf2b-b4a6-8e20-260642ff2139","ID3D10EffectShaderResourceVariable interface [Direct3D 10]","SetResource method","ID3D10EffectShaderResourceVariable.SetResource","ID3D10EffectShaderResourceVariable::SetResource","SetResource","SetResource method [Direct3D 10]","SetResource method [Direct3D 10]","ID3D10EffectShaderResourceVariable interface","d3d10effect/ID3D10EffectShaderResourceVariable::SetResource","direct3d10.id3d10effectshaderresourcevariable_setresource"]
 old-location: direct3d10\id3d10effectshaderresourcevariable_setresource.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshaderresourcevariable_setresource.htm

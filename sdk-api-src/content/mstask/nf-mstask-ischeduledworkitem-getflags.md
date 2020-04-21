@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetFlags
 title: IScheduledWorkItem::GetFlags (mstask.h)
-description: Retrieves the flags that modify the behavior of any type of work item.
+description: Retrieves the flags that modify the behavior of any type of work item.helpviewer_keywords: ["GetFlags","GetFlags method [Task Scheduler]","GetFlags method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetFlags method","IScheduledWorkItem.GetFlags","IScheduledWorkItem::GetFlags","_msb_ischeduledworkitem_getflags","mstask/IScheduledWorkItem::GetFlags","taskschd.ischeduledworkitem_getflags"]
 old-location: taskschd\ischeduledworkitem_getflags.htm
 tech.root: taskschd
 ms.assetid: 0fe3c184-2689-44de-b60f-92d31eaa5285

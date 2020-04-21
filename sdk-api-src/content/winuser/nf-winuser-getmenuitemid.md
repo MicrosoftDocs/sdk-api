@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetMenuItemID
 title: GetMenuItemID function (winuser.h)
-description: Retrieves the menu item identifier of a menu item located at the specified position in a menu.
+description: Retrieves the menu item identifier of a menu item located at the specified position in a menu.helpviewer_keywords: ["GetMenuItemID","GetMenuItemID function [Menus and Other Resources]","_win32_GetMenuItemID","_win32_getmenuitemid_cpp","menurc.getmenuitemid","winui._win32_getmenuitemid","winuser/GetMenuItemID"]
 old-location: menurc\getmenuitemid.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuitemid.htm

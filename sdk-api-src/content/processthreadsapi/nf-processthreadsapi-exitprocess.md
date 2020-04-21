@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.ExitProcess
 title: ExitProcess function (processthreadsapi.h)
-description: Ends the calling process and all its threads.
+description: Ends the calling process and all its threads.helpviewer_keywords: ["ExitProcess","ExitProcess function","_win32_exitprocess","base.exitprocess","processthreadsapi/ExitProcess","winbase/ExitProcess"]
 old-location: base\exitprocess.htm
 tech.root: ProcThread
 ms.assetid: c26dbf15-62e8-4892-b7c5-2e6c085e4cd5
@@ -67,15 +67,6 @@ Ends the calling process and all its threads.
 ### -param uExitCode [in]
 
 The exit code for the process and all threads.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

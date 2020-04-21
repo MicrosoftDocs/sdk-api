@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleTranslateAccelerator
 title: OleTranslateAccelerator function (ole2.h)
-description: Called by the object application, allows an object's container to translate accelerators according to the container's accelerator table.
+description: Called by the object application, allows an object's container to translate accelerators according to the container's accelerator table.helpviewer_keywords: ["OleTranslateAccelerator","OleTranslateAccelerator function [COM]","_ole_OleTranslateAccelerator","com.oletranslateaccelerator","ole2/OleTranslateAccelerator"]
 old-location: com\oletranslateaccelerator.htm
 tech.root: com
 ms.assetid: c590efef-7f03-4ae6-a35f-eff2fc4da3d9

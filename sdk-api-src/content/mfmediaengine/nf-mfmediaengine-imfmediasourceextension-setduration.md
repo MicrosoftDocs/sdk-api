@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.SetDuration
 title: IMFMediaSourceExtension::SetDuration (mfmediaengine.h)
-description: Sets the duration of the media source in 100-nanosecond units.
+description: Sets the duration of the media source in 100-nanosecond units.helpviewer_keywords: ["IMFMediaSourceExtension interface [Media Foundation]","SetDuration method","IMFMediaSourceExtension.SetDuration","IMFMediaSourceExtension::SetDuration","SetDuration","SetDuration method [Media Foundation]","SetDuration method [Media Foundation]","IMFMediaSourceExtension interface","mf.imfmediasourceextension_setduration","mfmediaengine/IMFMediaSourceExtension::SetDuration"]
 old-location: mf\imfmediasourceextension_setduration.htm
 tech.root: medfound
 ms.assetid: dc3dc600-ca81-40da-9edb-0af283ba9221

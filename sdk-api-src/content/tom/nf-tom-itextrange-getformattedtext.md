@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.GetFormattedText
 title: ITextRange::GetFormattedText (tom.h)
-description: Gets an ITextRange object with the specified range's formatted text.
+description: Gets an ITextRange object with the specified range's formatted text.helpviewer_keywords: ["GetFormattedText","GetFormattedText method [Windows Controls]","GetFormattedText method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","GetFormattedText method","ITextRange.GetFormattedText","ITextRange::GetFormattedText","_win32_ITextRange_GetFormattedText","_win32_ITextRange_GetFormattedText_cpp","controls.ITextRange_GetFormattedText","controls._win32_ITextRange_GetFormattedText","tom/ITextRange::GetFormattedText"]
 old-location: controls\ITextRange_GetFormattedText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getformattedtext.htm

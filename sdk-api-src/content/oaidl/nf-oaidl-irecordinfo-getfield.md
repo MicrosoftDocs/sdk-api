@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetField
 title: IRecordInfo::GetField (oaidl.h)
-description: Returns a pointer to the VARIANT containing the value of a given field name.
+description: Returns a pointer to the VARIANT containing the value of a given field name.helpviewer_keywords: ["GetField","GetField method [Automation]","GetField method [Automation]","IRecordInfo interface","IRecordInfo interface [Automation]","GetField method","IRecordInfo.GetField","IRecordInfo::GetField","_oa96_IRecordInfo_GetField","automat.irecordinfo_getfield","oaidl/IRecordInfo::GetField"]
 old-location: automat\irecordinfo_getfield.htm
 tech.root: automat
 ms.assetid: 6765371c-209a-4794-bff8-83560171affb

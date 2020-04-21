@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.Resize
 title: IUIAutomationTransformPattern::Resize (uiautomationclient.h)
-description: Resizes the UI Automation element.
+description: Resizes the UI Automation element.helpviewer_keywords: ["IUIAutomationTransformPattern interface [Windows Accessibility]","Resize method","IUIAutomationTransformPattern.Resize","IUIAutomationTransformPattern::Resize","Resize","Resize method [Windows Accessibility]","Resize method [Windows Accessibility]","IUIAutomationTransformPattern interface","uiauto.uiauto_IUIAutomationTransformPattern_Resize","uiauto_IUIAutomationTransformPattern_Resize","uiautomationclient/IUIAutomationTransformPattern::Resize","winauto.uiauto_IUIAutomationTransformPattern_Resize"]
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Resize.htm
 tech.root: WinAuto
 ms.assetid: af5611ef-d14c-44c2-8065-7c7581a16198

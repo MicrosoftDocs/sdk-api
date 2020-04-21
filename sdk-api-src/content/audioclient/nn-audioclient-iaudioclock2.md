@@ -1,7 +1,7 @@
 ---
 UID: NN:audioclient.IAudioClock2
 title: IAudioClock2 (audioclient.h)
-description: The IAudioClock2 interface is used to get the current device position.
+description: The IAudioClock2 interface is used to get the current device position.helpviewer_keywords: ["IAudioClock2","IAudioClock2 interface [Core Audio]","IAudioClock2 interface [Core Audio]","described","audioclient/IAudioClock2","coreaudio.iaudioclock2"]
 old-location: coreaudio\iaudioclock2.htm
 tech.root: CoreAudio
 ms.assetid: 4820c93a-a5d8-4ab9-aefc-9377fc76e745

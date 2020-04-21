@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.CLRES_V2_FUNCTION_TABLE_SET
 title: CLRES_V2_FUNCTION_TABLE_SET macro (resapi.h)
-description: Initializes a function table for version 2.0 of the Resource API.
+description: Initializes a function table for version 2.0 of the Resource API.helpviewer_keywords: ["CLRES_V2_FUNCTION_TABLE_SET","CLRES_V2_FUNCTION_TABLE_SET macro [Failover Cluster]","mscs.clres_v2_function_table_set","resapi/CLRES_V2_FUNCTION_TABLE_SET"]
 old-location: mscs\clres_v2_function_table_set.htm
 tech.root: MsCS
 ms.assetid: DFBCD256-F4E0-4C78-AD4A-54A229B40C5E

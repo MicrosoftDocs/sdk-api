@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmCollection.Cancel
 title: IFsrmCollection::Cancel (fsrm.h)
-description: Cancels the collection of objects when the objects are collected asynchronously.
+description: Cancels the collection of objects when the objects are collected asynchronously.helpviewer_keywords: ["Cancel","Cancel method [File Server Resource Manager]","Cancel method [File Server Resource Manager]","IFsrmCollection interface","IFsrmCollection interface [File Server Resource Manager]","Cancel method","IFsrmCollection.Cancel","IFsrmCollection::Cancel","fs.ifsrmcollection_cancel","fsrm.ifsrmcollection_cancel","fsrm/IFsrmCollection::Cancel"]
 old-location: fsrm\ifsrmcollection_cancel.htm
 tech.root: fsrm
 ms.assetid: f51f1a8d-a857-4a17-96ca-1f3ed391b7d7

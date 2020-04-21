@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IApartmentShutdown.OnUninitialize
 title: IApartmentShutdown::OnUninitialize (objidl.h)
-description: Called when a registered apartment is shut down.
+description: Called when a registered apartment is shut down.helpviewer_keywords: ["IApartmentShutdown interface [Windows Runtime]","OnUninitialize method","IApartmentShutdown.OnUninitialize","IApartmentShutdown::OnUninitialize","OnUninitialize","OnUninitialize method [Windows Runtime]","OnUninitialize method [Windows Runtime]","IApartmentShutdown interface","objidl/IApartmentShutdown::OnUninitialize","winrt.iapartmentshutdown_onuninitialize"]
 old-location: winrt\iapartmentshutdown_onuninitialize.htm
 tech.root: WinRT
 ms.assetid: FAEBC952-EDCB-4855-AB2B-193B87E3ECF7
@@ -60,15 +60,6 @@ Called when a registered apartment is shut down.
 ### -param ui64ApartmentIdentifier [in]
 
 The apartment Identifier of the apartment that is shutting down
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

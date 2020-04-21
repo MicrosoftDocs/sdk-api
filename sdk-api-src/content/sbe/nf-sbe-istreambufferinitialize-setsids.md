@@ -1,7 +1,7 @@
 ---
 UID: NF:sbe.IStreamBufferInitialize.SetSIDs
 title: IStreamBufferInitialize::SetSIDs (sbe.h)
-description: The SetSIDs method sets the security identifiers (SIDs) that are used to protect access to the backing files.
+description: The SetSIDs method sets the security identifiers (SIDs) that are used to protect access to the backing files.helpviewer_keywords: ["IStreamBufferInitialize interface [Microsoft TV Technologies]","SetSIDs method","IStreamBufferInitialize.SetSIDs","IStreamBufferInitialize::SetSIDs","IStreamBufferInitializeSetSIDs","SetSIDs","SetSIDs method [Microsoft TV Technologies]","SetSIDs method [Microsoft TV Technologies]","IStreamBufferInitialize interface","mstv.istreambufferinitialize_setsids","sbe/IStreamBufferInitialize::SetSIDs"]
 old-location: mstv\istreambufferinitialize_setsids.htm
 tech.root: mstv
 ms.assetid: bd25a967-9335-4bbd-ac85-f8b25f2be563

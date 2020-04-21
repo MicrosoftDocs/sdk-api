@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfUIElements.Next
 title: IEnumTfUIElements::Next (msctf.h)
-description: The IEnumTfUIElements::Next method obtains, from the current position, the specified number of elements in the enumeration sequence.
+description: The IEnumTfUIElements::Next method obtains, from the current position, the specified number of elements in the enumeration sequence.helpviewer_keywords: ["IEnumTfUIElements interface [Text Services Framework]","Next method","IEnumTfUIElements.Next","IEnumTfUIElements::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfUIElements interface","msctf/IEnumTfUIElements::Next","tsf.ienumtfuielements_next"]
 old-location: tsf\ienumtfuielements_next.htm
 tech.root: TSF
 ms.assetid: ed3cdae9-5626-4967-97b8-51c94ac23963

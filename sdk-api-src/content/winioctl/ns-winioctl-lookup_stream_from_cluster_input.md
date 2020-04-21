@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._LOOKUP_STREAM_FROM_CLUSTER_INPUT
 title: LOOKUP_STREAM_FROM_CLUSTER_INPUT
-description: Passed as input to the FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code.
+description: Passed as input to the FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code.helpviewer_keywords: ["*PLOOKUP_STREAM_FROM_CLUSTER_INPUT","LOOKUP_STREAM_FROM_CLUSTER_INPUT","LOOKUP_STREAM_FROM_CLUSTER_INPUT structure [Files]","PLOOKUP_STREAM_FROM_CLUSTER_INPUT","PLOOKUP_STREAM_FROM_CLUSTER_INPUT structure pointer [Files]","fs.lookup_stream_from_cluster_input","winioctl/LOOKUP_STREAM_FROM_CLUSTER_INPUT","winioctl/PLOOKUP_STREAM_FROM_CLUSTER_INPUT"]
 old-location: fs\lookup_stream_from_cluster_input.htm
 tech.root: FileIO
 ms.assetid: 4b398ae8-a396-4917-bcb8-aa5f5920296f

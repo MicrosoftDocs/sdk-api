@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IAdviseSink.OnViewChange
 title: IAdviseSink::OnViewChange (objidl.h)
-description: Notifies an object's registered advise sinks that its view has changed.
+description: Notifies an object's registered advise sinks that its view has changed.helpviewer_keywords: ["IAdviseSink interface [COM]","OnViewChange method","IAdviseSink.OnViewChange","IAdviseSink::OnViewChange","OnViewChange","OnViewChange method [COM]","OnViewChange method [COM]","IAdviseSink interface","_ole_iadvisesink_onviewchange","com.iadvisesink_onviewchange","objidl/IAdviseSink::OnViewChange"]
 old-location: com\iadvisesink_onviewchange.htm
 tech.root: com
 ms.assetid: f2cb3a5b-826b-428a-9e92-e5d08880bddc
@@ -65,15 +65,6 @@ The aspect, or view, of the object. Contains a value taken from the <a href="htt
 ### -param lindex [in]
 
 The portion of the view that has changed. Currently only -1 is valid.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

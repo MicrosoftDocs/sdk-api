@@ -1,7 +1,7 @@
 ---
 UID: NF:mdhcp.IMcastScope.get_ServerID
 title: IMcastScope::get_ServerID (mdhcp.h)
-description: The get_ServerID method obtains the server ID associated with this scope.
+description: The get_ServerID method obtains the server ID associated with this scope.helpviewer_keywords: ["IMcastScope interface [TAPI 2.2]","get_ServerID method","IMcastScope.get_ServerID","IMcastScope::get_ServerID","_tapi3_imcastscope_get_serverid","get_ServerID","get_ServerID method [TAPI 2.2]","get_ServerID method [TAPI 2.2]","IMcastScope interface","mdhcp/IMcastScope::get_ServerID","tapi3.imcastscope_get_serverid"]
 old-location: tapi3\imcastscope_get_serverid.htm
 tech.root: Tapi
 ms.assetid: 80c0ecca-647f-4e5e-92d6-fc95368715ad

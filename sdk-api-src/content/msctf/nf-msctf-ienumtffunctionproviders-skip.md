@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Skip
 title: IEnumTfFunctionProviders::Skip (msctf.h)
-description: IEnumTfFunctionProviders::Skip method
+description: IEnumTfFunctionProviders::Skip methodhelpviewer_keywords: ["IEnumTfFunctionProviders interface [Text Services Framework]","Skip method","IEnumTfFunctionProviders.Skip","IEnumTfFunctionProviders::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfFunctionProviders interface","_tsf_ienumtffunctionproviders_skip_ref","msctf/IEnumTfFunctionProviders::Skip","tsf.ienumtffunctionproviders_skip"]
 old-location: tsf\ienumtffunctionproviders_skip.htm
 tech.root: TSF
 ms.assetid: fb529c7c-c4fa-4dc7-a648-847ecefacf60

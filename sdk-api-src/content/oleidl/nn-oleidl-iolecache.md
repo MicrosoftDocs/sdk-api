@@ -1,7 +1,7 @@
 ---
 UID: NN:oleidl.IOleCache
 title: IOleCache (oleidl.h)
-description: Provides control of the presentation data that gets cached inside of an object. Cached presentation data is available to the container of the object even when the server application is not running or is unavailable.
+description: Provides control of the presentation data that gets cached inside of an object. Cached presentation data is available to the container of the object even when the server application is not running or is unavailable.helpviewer_keywords: ["IOleCache","IOleCache interface [COM]","IOleCache interface [COM]","described","_ole_iolecache","com.iolecache","oleidl/IOleCache"]
 old-location: com\iolecache.htm
 tech.root: com
 ms.assetid: b5ef85d0-b54e-4831-87f1-ac6763179181

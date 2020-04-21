@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12SharingContract.SharedFenceSignal
 title: ID3D12SharingContract::SharedFenceSignal (d3d12sdklayers.h)
-description: Signals a shared fence between the D3D layers and diagnostics tools.
+description: Signals a shared fence between the D3D layers and diagnostics tools.helpviewer_keywords: ["ID3D12SharingContract interface","SharedFenceSignal method","ID3D12SharingContract.SharedFenceSignal","ID3D12SharingContract::SharedFenceSignal","SharedFenceSignal","SharedFenceSignal method","SharedFenceSignal method","ID3D12SharingContract interface","d3d12sdklayers/ID3D12SharingContract::SharedFenceSignal","direct3d12.id3d12sharingcontract_sharedfencesignal"]
 old-location: direct3d12\id3d12sharingcontract_sharedfencesignal.htm
 tech.root: direct3d12
 ms.assetid: E90576A7-B665-4911-A17E-FD328CD71458
@@ -69,15 +69,6 @@ A pointer to the shared fence to signal.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 An unsigned 64bit value to signal the shared fence with.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

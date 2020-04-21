@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.SetPageIndex
 title: ITfCandidateListUIElement::SetPageIndex (msctf.h)
-description: The ITfCandidateListUIElement::SetPageIndex method sets the page index.
+description: The ITfCandidateListUIElement::SetPageIndex method sets the page index.helpviewer_keywords: ["ITfCandidateListUIElement interface [Text Services Framework]","SetPageIndex method","ITfCandidateListUIElement.SetPageIndex","ITfCandidateListUIElement::SetPageIndex","SetPageIndex","SetPageIndex method [Text Services Framework]","SetPageIndex method [Text Services Framework]","ITfCandidateListUIElement interface","msctf/ITfCandidateListUIElement::SetPageIndex","tsf.itfcandidatelistuielement_setpageindex"]
 old-location: tsf\itfcandidatelistuielement_setpageindex.htm
 tech.root: TSF
 ms.assetid: 2e7a5185-2e4b-4f8e-b7c0-d9462d61b113

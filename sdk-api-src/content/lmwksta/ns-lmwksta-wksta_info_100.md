@@ -1,7 +1,7 @@
 ---
 UID: NS:lmwksta._WKSTA_INFO_100
 title: WKSTA_INFO_100 (lmwksta.h)
-description: Contains information about a workstation environment, including platform-specific information, the names of the domain and the local computer, and information concerning the operating system.
+description: Contains information about a workstation environment, including platform-specific information, the names of the domain and the local computer, and information concerning the operating system.helpviewer_keywords: ["*LPWKSTA_INFO_100","*PWKSTA_INFO_100","LPWKSTA_INFO_100","LPWKSTA_INFO_100 structure pointer [Network Management]","PLATFORM_ID_DOS","PLATFORM_ID_NT","PLATFORM_ID_OS2","PLATFORM_ID_OSF","PLATFORM_ID_VMS","PWKSTA_INFO_100","PWKSTA_INFO_100 structure pointer [Network Management]","WKSTA_INFO_100","WKSTA_INFO_100 structure [Network Management]","_win32_wksta_info_100_str","lmwksta/LPWKSTA_INFO_100","lmwksta/PWKSTA_INFO_100","lmwksta/WKSTA_INFO_100","netmgmt.wksta_info_100_str"]
 old-location: netmgmt\wksta_info_100_str.htm
 tech.root: NetMgmt
 ms.assetid: c705dadd-cf55-44d9-bf36-09e078112479

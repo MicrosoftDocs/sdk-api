@@ -1,7 +1,7 @@
 ---
 UID: NS:bits2_0._BG_FILE_RANGE
 title: BG_FILE_RANGE (bits2_0.h)
-description: Identifies a range of bytes to download from a file.
+description: Identifies a range of bytes to download from a file.helpviewer_keywords: ["BG_FILE_RANGE","BG_FILE_RANGE structure [BITS]","bits.bg_file_range","bits2_0/BG_FILE_RANGE"]
 old-location: bits\bg_file_range.htm
 tech.root: Bits
 ms.assetid: 4ed20321-fb89-410b-906e-9f2c4366645a

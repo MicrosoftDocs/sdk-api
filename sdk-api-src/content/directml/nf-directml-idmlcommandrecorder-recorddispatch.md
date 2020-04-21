@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.IDMLCommandRecorder.RecordDispatch
 title: IDMLCommandRecorder::RecordDispatch
-description: Records execution of a dispatchable object (an operator initializer, or a compiled operator) onto a command list.
+description: Records execution of a dispatchable object (an operator initializer, or a compiled operator) onto a command list.helpviewer_keywords: ["IDMLCommandRecorder interface","RecordDispatch method","IDMLCommandRecorder.RecordDispatch","IDMLCommandRecorder::RecordDispatch","RecordDispatch","RecordDispatch method","RecordDispatch method","IDMLCommandRecorder interface","direct3d12.idmlcommandrecorder_recorddispatch","directml/IDMLCommandRecorder::RecordDispatch"]
 old-location: direct3d12\idmlcommandrecorder_recorddispatch.htm
 tech.root: direct3d12
 ms.assetid: E76A4CD7-A6A9-4B3F-9E81-3C1BAEB32657
@@ -118,15 +118,6 @@ Type: <b>[IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindin
 
 A pointer to an [IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindingtable) interface representing the bindings to use for executing the dispatchable object. If the [DML_EXECUTION_FLAG_DESCRIPTORS_VOLATILE](/windows/desktop/api/directml/ne-directml-dml_execution_flags)
           flag was not set, then you must fill out all required bindings, otherwise an error will result.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetNumChannels
 title: IDeviceModelPlugIn::GetNumChannels (wcsplugin.h)
-description: Returns the number of device channels in the parameter pNumChannels.
+description: Returns the number of device channels in the parameter pNumChannels.helpviewer_keywords: ["GetNumChannels","GetNumChannels method [Windows Color System]","GetNumChannels method [Windows Color System]","IDeviceModelPlugIn interface","IDeviceModelPlugIn interface [Windows Color System]","GetNumChannels method","IDeviceModelPlugIn.GetNumChannels","IDeviceModelPlugIn::GetNumChannels","_color_IDeviceModelPlugIn::GetNumChannels","wcs.IDeviceModelPlugIn_GetNumChannels","wcsplugin/IDeviceModelPlugIn::GetNumChannels"]
 old-location: wcs\IDeviceModelPlugIn_GetNumChannels.htm
 tech.root: WCS
 ms.assetid: 3963eaf1-2516-4ac5-9f9f-9962f9d42adb

@@ -1,7 +1,7 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Unload
 title: IDirectMusicSynth::Unload (dmusics.h)
-description: The Unload method unloads a DLS resource (waveform or articulation data for a MIDI instrument) that was previously downloaded by a call to IDirectMusicSynth::Download.
+description: The Unload method unloads a DLS resource (waveform or articulation data for a MIDI instrument) that was previously downloaded by a call to IDirectMusicSynth::Download.helpviewer_keywords: ["IDirectMusicSynth interface [Audio Devices]","Unload method","IDirectMusicSynth.Unload","IDirectMusicSynth::Unload","Unload","Unload method [Audio Devices]","Unload method [Audio Devices]","IDirectMusicSynth interface","audio.idirectmusicsynth_unload","audmp-routines_7a0213c4-3cd1-4c6f-ab4a-064d08782629.xml","dmusics/IDirectMusicSynth::Unload"]
 old-location: audio\idirectmusicsynth_unload.htm
 tech.root: audio
 ms.assetid: 608ebffe-873a-40ed-a411-245e8b6ceabd

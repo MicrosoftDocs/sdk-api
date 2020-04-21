@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SOSetTargets
 title: ID3D12GraphicsCommandList::SOSetTargets (d3d12.h)
-description: Sets the stream output buffer views.
+description: Sets the stream output buffer views.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SOSetTargets method","ID3D12GraphicsCommandList.SOSetTargets","ID3D12GraphicsCommandList::SOSetTargets","SOSetTargets","SOSetTargets method","SOSetTargets method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SOSetTargets","direct3d12.id3d12graphicscommandlist_sosettargets"]
 old-location: direct3d12\id3d12graphicscommandlist_sosettargets.htm
 tech.root: direct3d12
 ms.assetid: 40683FD6-5B9F-411C-AC0A-6641E0A3D688
@@ -81,16 +81,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-
 
 Specifies an array of  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_stream_output_buffer_view">D3D12_STREAM_OUTPUT_BUFFER_VIEW</a> structures.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -see-also

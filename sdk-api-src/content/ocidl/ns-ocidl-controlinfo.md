@@ -1,7 +1,7 @@
 ---
 UID: NS:ocidl.tagCONTROLINFO
 title: CONTROLINFO (ocidl.h)
-description: Contains parameters that describe a control's keyboard mnemonics and keyboard behavior. The structure is populated during the IOleControl::GetControlInfo method.
+description: Contains parameters that describe a control's keyboard mnemonics and keyboard behavior. The structure is populated during the IOleControl::GetControlInfo method.helpviewer_keywords: ["*LPCONTROLINFO","CONTROLINFO","CONTROLINFO structure [COM]","LPCONTROLINFO","LPCONTROLINFO structure pointer [COM]","_ctrl_CONTROLINFO","com.controlinfo","ocidl/CONTROLINFO","ocidl/LPCONTROLINFO"]
 old-location: com\controlinfo.htm
 tech.root: com
 ms.assetid: 3f22dc1d-554a-4dd1-a79a-121117f65caf

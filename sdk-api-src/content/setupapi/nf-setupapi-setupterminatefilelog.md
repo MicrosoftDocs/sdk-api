@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupTerminateFileLog
 title: SetupTerminateFileLog function (setupapi.h)
-description: The SetupTerminateFileLog function releases resources associated with a file log.
+description: The SetupTerminateFileLog function releases resources associated with a file log.helpviewer_keywords: ["SetupTerminateFileLog","SetupTerminateFileLog function [Setup API]","_setupapi_setupterminatefilelog","setup.setupterminatefilelog","setupapi/SetupTerminateFileLog"]
 old-location: setup\setupterminatefilelog.htm
 tech.root: SetupApi
 ms.assetid: a230063a-2b4a-4ed3-8624-4859a17f8ccc

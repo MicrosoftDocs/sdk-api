@@ -1,7 +1,7 @@
 ---
 UID: NE:mfidl._MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 title: MF_TRANSCODE_ADJUST_PROFILE_FLAGS (mfidl.h)
-description: Defines the profile flags that are set in the MF_TRANSCODE_ADJUST_PROFILE attribute.
+description: Defines the profile flags that are set in the MF_TRANSCODE_ADJUST_PROFILE attribute.helpviewer_keywords: ["MF_TRANSCODE_ADJUST_PROFILE_DEFAULT","MF_TRANSCODE_ADJUST_PROFILE_FLAGS","MF_TRANSCODE_ADJUST_PROFILE_FLAGS enumeration [Media Foundation]","MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES","mf.mf_transcode_adjust_profile_flags","mfidl/MF_TRANSCODE_ADJUST_PROFILE_DEFAULT","mfidl/MF_TRANSCODE_ADJUST_PROFILE_FLAGS","mfidl/MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES"]
 old-location: mf\mf_transcode_adjust_profile_flags.htm
 tech.root: medfound
 ms.assetid: 65d7350f-a9d9-43c0-b3b6-c6169a727b4e

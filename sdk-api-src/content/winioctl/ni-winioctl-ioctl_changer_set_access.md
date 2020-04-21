@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_SET_ACCESS
 title: IOCTL_CHANGER_SET_ACCESS
-description: Sets the state of the device's insert/eject port, door, or keypad.
+description: Sets the state of the device's insert/eject port, door, or keypad.helpviewer_keywords: ["IOCTL_CHANGER_SET_ACCESS","IOCTL_CHANGER_SET_ACCESS control","IOCTL_CHANGER_SET_ACCESS control code","_win32_ioctl_changer_set_access","base.ioctl_changer_set_access","winioctl/IOCTL_CHANGER_SET_ACCESS"]
 old-location: base\ioctl_changer_set_access.htm
 tech.root: devio
 ms.assetid: 567817d5-60cd-494c-94d9-0899e1142242

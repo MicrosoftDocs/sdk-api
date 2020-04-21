@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterCallback2.OnStreamError
 title: IMFSinkWriterCallback2::OnStreamError (mfreadwrite.h)
-description: Called when an asynchronous error occurs with the IMFSinkWriter.
+description: Called when an asynchronous error occurs with the IMFSinkWriter.helpviewer_keywords: ["IMFSinkWriterCallback2 interface [Media Foundation]","OnStreamError method","IMFSinkWriterCallback2.OnStreamError","IMFSinkWriterCallback2::OnStreamError","OnStreamError","OnStreamError method [Media Foundation]","OnStreamError method [Media Foundation]","IMFSinkWriterCallback2 interface","mf.imfsinkwritercallback2_onstreamerror","mfreadwrite/IMFSinkWriterCallback2::OnStreamError"]
 old-location: mf\imfsinkwritercallback2_onstreamerror.htm
 tech.root: medfound
 ms.assetid: 31239998-9D12-46A4-B3F3-68167F6EFFDD

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.GetCurrentColumnHeaders
 title: IUIAutomationTablePattern::GetCurrentColumnHeaders (uiautomationclient.h)
-description: Retrieves a collection of UI Automation elements representing all the column headers in a table.
+description: Retrieves a collection of UI Automation elements representing all the column headers in a table.helpviewer_keywords: ["GetCurrentColumnHeaders","GetCurrentColumnHeaders method [Windows Accessibility]","GetCurrentColumnHeaders method [Windows Accessibility]","IUIAutomationTablePattern interface","IUIAutomationTablePattern interface [Windows Accessibility]","GetCurrentColumnHeaders method","IUIAutomationTablePattern.GetCurrentColumnHeaders","IUIAutomationTablePattern::GetCurrentColumnHeaders","uiauto.uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders","uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders","uiautomationclient/IUIAutomationTablePattern::GetCurrentColumnHeaders","winauto.uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders"]
 old-location: winauto\uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders.htm
 tech.root: WinAuto
 ms.assetid: 4f31bfa6-0a4a-4cd6-9f5d-2964696d4acd

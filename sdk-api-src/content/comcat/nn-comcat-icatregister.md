@@ -1,7 +1,7 @@
 ---
 UID: NN:comcat.ICatRegister
 title: ICatRegister (comcat.h)
-description: Provides methods for registering and unregistering component category information in the registry. This includes both the human-readable names of categories and the categories implemented/required by a given component or class.
+description: Provides methods for registering and unregistering component category information in the registry. This includes both the human-readable names of categories and the categories implemented/required by a given component or class.helpviewer_keywords: ["ICatRegister","ICatRegister interface [COM]","ICatRegister interface [COM]","described","_com_icatregister","com.icatregister","comcat/ICatRegister"]
 old-location: com\icatregister.htm
 tech.root: com
 ms.assetid: 3f4f9beb-51db-407f-91ea-6e32ff5796ce

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.GetStreamDescriptorByIndex
 title: IMFPresentationDescriptor::GetStreamDescriptorByIndex (mfidl.h)
-description: Retrieves a stream descriptor for a stream in the presentation. The stream descriptor contains information about the stream.
+description: Retrieves a stream descriptor for a stream in the presentation. The stream descriptor contains information about the stream.helpviewer_keywords: ["1db28049-cd62-4b1b-932b-b4d4e12fd671","GetStreamDescriptorByIndex","GetStreamDescriptorByIndex method [Media Foundation]","GetStreamDescriptorByIndex method [Media Foundation]","IMFPresentationDescriptor interface","IMFPresentationDescriptor interface [Media Foundation]","GetStreamDescriptorByIndex method","IMFPresentationDescriptor.GetStreamDescriptorByIndex","IMFPresentationDescriptor::GetStreamDescriptorByIndex","mf.imfpresentationdescriptor_getstreamdescriptorbyindex","mfidl/IMFPresentationDescriptor::GetStreamDescriptorByIndex"]
 old-location: mf\imfpresentationdescriptor_getstreamdescriptorbyindex.htm
 tech.root: medfound
 ms.assetid: 1db28049-cd62-4b1b-932b-b4d4e12fd671

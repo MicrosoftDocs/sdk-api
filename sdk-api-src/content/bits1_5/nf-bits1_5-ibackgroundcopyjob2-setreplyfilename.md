@@ -1,7 +1,7 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.SetReplyFileName
 title: IBackgroundCopyJob2::SetReplyFileName
-description: Specifies the name of the file to contain the reply data from the server application. Call this method only if the job's type is BG_JOB_TYPE_UPLOAD_REPLY.
+description: Specifies the name of the file to contain the reply data from the server application. Call this method only if the job's type is BG_JOB_TYPE_UPLOAD_REPLY.helpviewer_keywords: ["IBackgroundCopyJob2 interface [BITS]","SetReplyFileName method","IBackgroundCopyJob2.SetReplyFileName","IBackgroundCopyJob2::SetReplyFileName","SetReplyFileName","SetReplyFileName method [BITS]","SetReplyFileName method [BITS]","IBackgroundCopyJob2 interface","_drz_ibackgroundcopyjob2_setreplyfilename","bits.ibackgroundcopyjob2_setreplyfilename","bits1_5/IBackgroundCopyJob2::SetReplyFileName"]
 old-location: bits\ibackgroundcopyjob2_setreplyfilename.htm
 tech.root: Bits
 ms.assetid: 9f8591a3-ecc2-497a-ac12-67e5862efde4

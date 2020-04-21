@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateHueRotationEffect
 title: IDCompositionDevice3::CreateHueRotationEffect (dcomp.h)
-description: Creates an instance of IDCompositionHueRotationEffect.
+description: Creates an instance of IDCompositionHueRotationEffect.helpviewer_keywords: ["CreateHueRotationEffect","CreateHueRotationEffect method [DirectComposition]","CreateHueRotationEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateHueRotationEffect method","IDCompositionDevice3.CreateHueRotationEffect","IDCompositionDevice3::CreateHueRotationEffect","dcomp/IDCompositionDevice3::CreateHueRotationEffect","directcomp.idcompositiondevice3_createhuerotationeffect"]
 old-location: directcomp\idcompositiondevice3_createhuerotationeffect.htm
 tech.root: directcomp
 ms.assetid: 4DA99723-CC21-454B-A24A-3988A15861D2

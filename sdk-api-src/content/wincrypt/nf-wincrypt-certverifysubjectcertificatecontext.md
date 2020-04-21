@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertVerifySubjectCertificateContext
 title: CertVerifySubjectCertificateContext function (wincrypt.h)
-description: The CertVerifySubjectCertificateContext function performs the enabled verification checks on a certificate by checking the validity of the certificate's issuer. The new Certificate Chain Verification Functions are recommended instead of this function.
+description: The CertVerifySubjectCertificateContext function performs the enabled verification checks on a certificate by checking the validity of the certificate's issuer. The new Certificate Chain Verification Functions are recommended instead of this function.helpviewer_keywords: ["CERT_STORE_REVOCATION_FLAG","CERT_STORE_SIGNATURE_FLAG","CERT_STORE_TIME_VALIDITY_FLAG","CertVerifySubjectCertificateContext","CertVerifySubjectCertificateContext function [Security]","_crypto2_certverifysubjectcertificatecontext","security.certverifysubjectcertificatecontext","wincrypt/CertVerifySubjectCertificateContext"]
 old-location: security\certverifysubjectcertificatecontext.htm
 tech.root: SecCrypto
 ms.assetid: 063b19cf-d3b3-4ec3-bfd3-9406eecd3e10

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_ProductRevision
 title: IDiscRecorder2::get_ProductRevision (imapi2.h)
-description: Retrieves the product revision code of the device.
+description: Retrieves the product revision code of the device.helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_ProductRevision method","IDiscRecorder2.get_ProductRevision","IDiscRecorder2::get_ProductRevision","get_ProductRevision","get_ProductRevision method [IMAPI]","get_ProductRevision method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_productrevision","imapi2/IDiscRecorder2::get_ProductRevision"]
 old-location: imapi\idiscrecorder2_get_productrevision.htm
 tech.root: imapi
 ms.assetid: 0d727937-8581-4001-96f2-f83795e1ee52

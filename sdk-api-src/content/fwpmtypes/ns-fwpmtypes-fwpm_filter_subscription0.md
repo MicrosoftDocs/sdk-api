@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER_SUBSCRIPTION0_
 title: FWPM_FILTER_SUBSCRIPTION0 (fwpmtypes.h)
-description: Is used to subscribe for change notifications.
+description: Is used to subscribe for change notifications.helpviewer_keywords: ["FWPM_FILTER_SUBSCRIPTION0","FWPM_FILTER_SUBSCRIPTION0 structure [Filtering]","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE","fwp.fwpm_filter_subscription0_struct","fwpmtypes/FWPM_FILTER_SUBSCRIPTION0"]
 old-location: fwp\fwpm_filter_subscription0_struct.htm
 tech.root: fwp
 ms.assetid: 723d2e27-420d-4eea-9ae1-d624807bf4ec

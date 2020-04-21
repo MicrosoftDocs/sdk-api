@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsPack.Recover
 title: IVdsPack::Recover (vds.h)
-description: Returns a failing or failed pack to a healthy state, if possible. This method is supported only for dynamic packs.
+description: Returns a failing or failed pack to a healthy state, if possible. This method is supported only for dynamic packs.helpviewer_keywords: ["IVdsPack interface [VDS]","Recover method","IVdsPack.Recover","IVdsPack::Recover","Recover","Recover method [VDS]","Recover method [VDS]","IVdsPack interface","base.ivdspack_recover","vds/IVdsPack::Recover"]
 old-location: base\ivdspack_recover.htm
 tech.root: VDS
 ms.assetid: e558c2f4-e1a9-47c0-9b2f-972457e27bbf

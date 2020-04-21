@@ -1,7 +1,7 @@
 ---
 UID: NE:strmif._AM_GRAPH_CONFIG_RECONNECT_FLAGS
 title: AM_GRAPH_CONFIG_RECONNECT_FLAGS (strmif.h)
-description: Specifies how to reconnect filters when dynamically rebuilding the filter graph.
+description: Specifies how to reconnect filters when dynamically rebuilding the filter graph.helpviewer_keywords: ["AM_GRAPH_CONFIG_RECONNECT_CACHE_REMOVED_FILTERS","AM_GRAPH_CONFIG_RECONNECT_DIRECTCONNECT","AM_GRAPH_CONFIG_RECONNECT_FLAGS","AM_GRAPH_CONFIG_RECONNECT_FLAGS","AM_GRAPH_CONFIG_RECONNECT_FLAGS enumeration [DirectShow]","AM_GRAPH_CONFIG_RECONNECT_FLAGSEnumeration","AM_GRAPH_CONFIG_RECONNECT_USE_ONLY_CACHED_FILTERS","dshow.am_graph_config_reconnect_flags","strmif/AM_GRAPH_CONFIG_RECONNECT_CACHE_REMOVED_FILTERS","strmif/AM_GRAPH_CONFIG_RECONNECT_DIRECTCONNECT","strmif/AM_GRAPH_CONFIG_RECONNECT_FLAGS","strmif/AM_GRAPH_CONFIG_RECONNECT_USE_ONLY_CACHED_FILTERS"]
 old-location: dshow\am_graph_config_reconnect_flags.htm
 tech.root: DirectShow
 ms.assetid: 59f47597-3270-48b3-b927-09b434373eac

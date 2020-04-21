@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetDesignGlyphMetrics
 title: IDWriteFontFace::GetDesignGlyphMetrics (dwrite.h)
-description: Obtains ideal (resolution-independent) glyph metrics in font design units.
+description: Obtains ideal (resolution-independent) glyph metrics in font design units.helpviewer_keywords: ["GetDesignGlyphMetrics","GetDesignGlyphMetrics method [Direct Write]","GetDesignGlyphMetrics method [Direct Write]","IDWriteFontFace interface","IDWriteFontFace interface [Direct Write]","GetDesignGlyphMetrics method","IDWriteFontFace.GetDesignGlyphMetrics","IDWriteFontFace::GetDesignGlyphMetrics","directwrite.IDWriteFontFace_GetDesignGlyphMetrics","dwrite/IDWriteFontFace::GetDesignGlyphMetrics"]
 old-location: directwrite\IDWriteFontFace_GetDesignGlyphMetrics.htm
 tech.root: DirectWrite
 ms.assetid: 4da03cbe-5287-4d9c-aaa2-cff3dbf259fc

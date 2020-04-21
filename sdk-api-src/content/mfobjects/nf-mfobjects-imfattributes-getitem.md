@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetItem
 title: IMFAttributes::GetItem (mfobjects.h)
-description: Retrieves the value associated with a key.
+description: Retrieves the value associated with a key.helpviewer_keywords: ["8cc4e529-d5a0-4342-82ac-ae5b28bfd61d","GetItem","GetItem method [Media Foundation]","GetItem method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetItem method","IMFAttributes.GetItem","IMFAttributes::GetItem","mf.imfattributes_getitem","mfobjects/IMFAttributes::GetItem"]
 old-location: mf\imfattributes_getitem.htm
 tech.root: medfound
 ms.assetid: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d

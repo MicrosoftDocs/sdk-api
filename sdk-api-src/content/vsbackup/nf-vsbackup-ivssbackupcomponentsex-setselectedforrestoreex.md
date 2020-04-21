@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx.SetSelectedForRestoreEx
 title: IVssBackupComponentsEx::SetSelectedForRestoreEx (vsbackup.h)
-description: The SetSelectedForRestoreEx method indicates whether the specified selectable component is selected for restoration to a specified writer instance.
+description: The SetSelectedForRestoreEx method indicates whether the specified selectable component is selected for restoration to a specified writer instance.helpviewer_keywords: ["IVssBackupComponentsEx interface [VSS]","SetSelectedForRestoreEx method","IVssBackupComponentsEx.SetSelectedForRestoreEx","IVssBackupComponentsEx::SetSelectedForRestoreEx","SetSelectedForRestoreEx","SetSelectedForRestoreEx method [VSS]","SetSelectedForRestoreEx method [VSS]","IVssBackupComponentsEx interface","base.ivssbackupcomponentsex_setselectedforrestoreex","vsbackup/IVssBackupComponentsEx::SetSelectedForRestoreEx"]
 old-location: base\ivssbackupcomponentsex_setselectedforrestoreex.htm
 tech.root: VSS
 ms.assetid: 469e6d61-85c6-4385-92be-df6addefe37f

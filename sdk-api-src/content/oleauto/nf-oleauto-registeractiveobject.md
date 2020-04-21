@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.RegisterActiveObject
 title: RegisterActiveObject function (oleauto.h)
-description: Registers an object as the active object for its class.
+description: Registers an object as the active object for its class.helpviewer_keywords: ["RegisterActiveObject","RegisterActiveObject function [Automation]","_oa96_RegisterActiveObject","automat.registeractiveobject","oleauto/RegisterActiveObject"]
 old-location: automat\registeractiveobject.htm
 tech.root: automat
 ms.assetid: ba15bb69-7b65-47ea-b938-f235e3d9f9ee

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IDataObject.SetData
 title: IDataObject::SetData (objidl.h)
-description: Called by an object containing a data source to transfer data to the object that implements this method.
+description: Called by an object containing a data source to transfer data to the object that implements this method.helpviewer_keywords: ["IDataObject interface [COM]","SetData method","IDataObject.SetData","IDataObject::SetData","SetData","SetData method [COM]","SetData method [COM]","IDataObject interface","_ole_idataobject_setdata","com.idataobject_setdata","objidl/IDataObject::SetData"]
 old-location: com\idataobject_setdata.htm
 tech.root: com
 ms.assetid: 7430d12c-ab07-4a9c-a845-4743818afbc7

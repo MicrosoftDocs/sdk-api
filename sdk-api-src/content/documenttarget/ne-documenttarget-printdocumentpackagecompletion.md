@@ -1,7 +1,7 @@
 ---
 UID: NE:documenttarget.PrintDocumentPackageCompletion
 title: PrintDocumentPackageCompletion (documenttarget.h)
-description: The PrintDocumentPackageCompletion enumeration specifies the status of the print operation.
+description: The PrintDocumentPackageCompletion enumeration specifies the status of the print operation.helpviewer_keywords: ["PrintDocumentPackageCompletion","PrintDocumentPackageCompletion enumeration [XPS Documents and Packaging]","PrintDocumentPackageCompletion_Canceled","PrintDocumentPackageCompletion_Completed","PrintDocumentPackageCompletion_Failed","PrintDocumentPackageCompletion_InProgress","documenttarget/PrintDocumentPackageCompletion","documenttarget/PrintDocumentPackageCompletion_Canceled","documenttarget/PrintDocumentPackageCompletion_Completed","documenttarget/PrintDocumentPackageCompletion_Failed","documenttarget/PrintDocumentPackageCompletion_InProgress","xps.printdocumentpackagecompletion"]
 old-location: xps\printdocumentpackagecompletion.htm
 tech.root: printdocs
 ms.assetid: E8E1F5D3-8CA2-406A-B969-7F5C6F13E064

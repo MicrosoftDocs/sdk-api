@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHLimitInputEdit
 title: SHLimitInputEdit function (shlobj_core.h)
-description: Sets limits on valid characters for an edit control.
+description: Sets limits on valid characters for an edit control.helpviewer_keywords: ["SHLimitInputEdit","SHLimitInputEdit function [Windows Shell]","_shell_SHLimitInputEdit","shell.SHLimitInputEdit","shlobj_core/SHLimitInputEdit"]
 old-location: shell\SHLimitInputEdit.htm
 tech.root: shell
 ms.assetid: 3f03374f-8dfe-4b80-9ecc-12c6548f2865

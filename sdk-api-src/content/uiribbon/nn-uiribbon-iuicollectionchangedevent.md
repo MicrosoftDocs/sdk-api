@@ -1,7 +1,7 @@
 ---
 UID: NN:uiribbon.IUICollectionChangedEvent
 title: IUICollectionChangedEvent (uiribbon.h)
-description: The IUICollectionChangedEvent interface is implemented by the application and defines the method required to handle changes to a collection at run time.
+description: The IUICollectionChangedEvent interface is implemented by the application and defines the method required to handle changes to a collection at run time.helpviewer_keywords: ["IUICollectionChangedEvent","IUICollectionChangedEvent interface [Windows Ribbon]","IUICollectionChangedEvent interface [Windows Ribbon]","described","scenicintent_IUICollectionChangedEvent","uiribbon/IUICollectionChangedEvent","windowsribbon.windowsribbon_iuicollectionchangedevent"]
 old-location: windowsribbon\windowsribbon_iuicollectionchangedevent.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollectionchangedevent\iuicollectionchangedevent.htm

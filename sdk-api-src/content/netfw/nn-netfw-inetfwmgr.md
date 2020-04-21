@@ -1,7 +1,7 @@
 ---
 UID: NN:netfw.INetFwMgr
 title: INetFwMgr (netfw.h)
-description: The INetFwMgr interface provides access to the firewall settings for a computer.
+description: The INetFwMgr interface provides access to the firewall settings for a computer.helpviewer_keywords: ["INetFwMgr","INetFwMgr interface [ICS/ICF]","INetFwMgr interface [ICS/ICF]","described","ics.inetfwmgr","netfw/INetFwMgr"]
 old-location: ics\inetfwmgr.htm
 tech.root: ics
 ms.assetid: 7534ea10-7553-4ec2-af68-0b0393ffc003

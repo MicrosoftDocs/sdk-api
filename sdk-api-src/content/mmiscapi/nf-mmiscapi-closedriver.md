@@ -1,7 +1,7 @@
 ---
 UID: NF:mmiscapi.CloseDriver
 title: CloseDriver function (mmiscapi.h)
-description: Closes an installable driver.
+description: Closes an installable driver.helpviewer_keywords: ["CloseDriver","CloseDriver function [Windows Multimedia]","_win32_CloseDriver","mmsystem/CloseDriver","multimedia.closedriver"]
 old-location: multimedia\closedriver.htm
 tech.root: Multimedia
 ms.assetid: 47d5c666-614d-4836-8e7d-0fe6b53d399f

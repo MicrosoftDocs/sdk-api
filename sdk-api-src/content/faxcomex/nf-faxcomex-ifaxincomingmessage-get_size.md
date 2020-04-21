@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_Size
 title: IFaxIncomingMessage::get_Size (faxcomex.h)
-description: The Size property is a value that indicates the size of the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax message.
+description: The Size property is a value that indicates the size of the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax message.helpviewer_keywords: ["IFaxIncomingMessage interface [Fax Service]","Size property","IFaxIncomingMessage.Size","IFaxIncomingMessage.get_Size","IFaxIncomingMessage::Size","IFaxIncomingMessage::get_Size","Size property [Fax Service]","Size property [Fax Service]","IFaxIncomingMessage interface","_mfax_faxincomingmessage.size","fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_size_cpp","fax._mfax_faxincomingmessage_size","faxcomex/IFaxIncomingMessage::Size","faxcomex/IFaxIncomingMessage::get_Size","get_Size"]
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_size_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0did.htm

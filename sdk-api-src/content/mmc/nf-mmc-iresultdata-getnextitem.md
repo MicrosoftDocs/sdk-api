@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IResultData.GetNextItem
 title: IResultData::GetNextItem (mmc.h)
-description: The IResultData::GetNextItem method gets the next item in the result view with the specified state flags set.
+description: The IResultData::GetNextItem method gets the next item in the result view with the specified state flags set.helpviewer_keywords: ["GetNextItem","GetNextItem method [MMC]","GetNextItem method [MMC]","IResultData interface","GetNextItem method [MMC]","IResultData2 interface","IResultData interface [MMC]","GetNextItem method","IResultData.GetNextItem","IResultData2 interface [MMC]","GetNextItem method","IResultData2::GetNextItem","IResultData::GetNextItem","_slate_iresultdata_getnextitem","mmc.iresultdata_getnextitem","mmc/IResultData2::GetNextItem","mmc/IResultData::GetNextItem"]
 old-location: mmc\iresultdata_getnextitem.htm
 tech.root: mmc
 ms.assetid: 1123fa48-969c-4208-83f2-e8ef4f72f0bb

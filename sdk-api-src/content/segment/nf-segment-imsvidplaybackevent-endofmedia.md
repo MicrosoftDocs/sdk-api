@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidPlaybackEvent.EndOfMedia
 title: IMSVidPlaybackEvent::EndOfMedia (segment.h)
-description: This topic applies to Windows XP or later.
+description: This topic applies to Windows XP or later.helpviewer_keywords: ["EndOfMedia","EndOfMedia method [Microsoft TV Technologies]","EndOfMedia method [Microsoft TV Technologies]","IMSVidPlaybackEvent interface","IMSVidPlaybackEvent interface [Microsoft TV Technologies]","EndOfMedia method","IMSVidPlaybackEvent.EndOfMedia","IMSVidPlaybackEvent::EndOfMedia","IMSVidPlaybackEventEndOfMedia","mstv.imsvidplaybackevent_endofmedia","segment/IMSVidPlaybackEvent::EndOfMedia"]
 old-location: mstv\imsvidplaybackevent_endofmedia.htm
 tech.root: mstv
 ms.assetid: 00c73b5e-dc0f-4ffd-930f-e93ce3d1e179

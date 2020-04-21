@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmCalloutGetById0
 title: FwpmCalloutGetById0 function (fwpmu.h)
-description: Retrieves a callout object.
+description: Retrieves a callout object.helpviewer_keywords: ["FwpmCalloutGetById0","FwpmCalloutGetById0 function [Filtering]","fwp.fwpmcalloutgetbyid0_func","fwpmu/FwpmCalloutGetById0"]
 old-location: fwp\fwpmcalloutgetbyid0_func.htm
 tech.root: fwp
 ms.assetid: d02eca94-fe08-4a80-9a3f-3a870aa10eed

@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCRYPT_INIT_AUTH_MODE_INFO
 title: BCRYPT_INIT_AUTH_MODE_INFO macro (bcrypt.h)
-description: Initializes a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure for use in calls to BCryptEncrypt and BCryptDecrypt functions.
+description: Initializes a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure for use in calls to BCryptEncrypt and BCryptDecrypt functions.helpviewer_keywords: ["BCRYPT_INIT_AUTH_MODE_INFO","BCRYPT_INIT_AUTH_MODE_INFO macro [Security]","bcrypt/BCRYPT_INIT_AUTH_MODE_INFO","security.bcrypt_init_auth_mode_info"]
 old-location: security\bcrypt_init_auth_mode_info.htm
 tech.root: SecCNG
 ms.assetid: 5c825337-bd60-48e4-9d71-bfd1d38ab171

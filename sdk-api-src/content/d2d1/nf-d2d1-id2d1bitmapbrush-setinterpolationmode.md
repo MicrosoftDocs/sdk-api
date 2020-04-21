@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.SetInterpolationMode
 title: ID2D1BitmapBrush::SetInterpolationMode (d2d1.h)
-description: Specifies the interpolation mode used when the brush bitmap is scaled or rotated.
+description: Specifies the interpolation mode used when the brush bitmap is scaled or rotated.helpviewer_keywords: ["ID2D1BitmapBrush interface [Direct2D]","SetInterpolationMode method","ID2D1BitmapBrush.SetInterpolationMode","ID2D1BitmapBrush::SetInterpolationMode","SetInterpolationMode","SetInterpolationMode method [Direct2D]","SetInterpolationMode method [Direct2D]","ID2D1BitmapBrush interface","d2d1/ID2D1BitmapBrush::SetInterpolationMode","direct2d.ID2D1BitmapBrush_SetInterpolationMode"]
 old-location: direct2d\ID2D1BitmapBrush_SetInterpolationMode.htm
 tech.root: Direct2D
 ms.assetid: ad2a4211-c8ae-4242-9d6a-6548375f52a7
@@ -62,15 +62,6 @@ Specifies the interpolation mode used when the brush bitmap is scaled or rotated
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE</a></b>
 
 The interpolation mode used when the brush bitmap is scaled or rotated.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

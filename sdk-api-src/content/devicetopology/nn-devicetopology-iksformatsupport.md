@@ -1,7 +1,7 @@
 ---
 UID: NN:devicetopology.IKsFormatSupport
 title: IKsFormatSupport (devicetopology.h)
-description: The IKsFormatSupport interface provides information about the audio data formats that are supported by a software-configured I/O connection (typically a DMA channel) between an audio adapter device and system memory.
+description: The IKsFormatSupport interface provides information about the audio data formats that are supported by a software-configured I/O connection (typically a DMA channel) between an audio adapter device and system memory.helpviewer_keywords: ["IKsFormatSupport","IKsFormatSupport interface [Core Audio]","IKsFormatSupport interface [Core Audio]","described","coreaudio.iksformatsupport","devicetopology/IKsFormatSupport"]
 old-location: coreaudio\iksformatsupport.htm
 tech.root: CoreAudio
 ms.assetid: 53a29b57-1650-4e4d-b9d2-95307063a733

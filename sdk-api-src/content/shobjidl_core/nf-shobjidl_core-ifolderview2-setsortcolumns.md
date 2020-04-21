@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetSortColumns
 title: IFolderView2::SetSortColumns (shobjidl_core.h)
-description: Sets and sorts the view by the given sort columns.
+description: Sets and sorts the view by the given sort columns.helpviewer_keywords: ["IFolderView2 interface [Windows Shell]","SetSortColumns method","IFolderView2.SetSortColumns","IFolderView2::SetSortColumns","SetSortColumns","SetSortColumns method [Windows Shell]","SetSortColumns method [Windows Shell]","IFolderView2 interface","_shell_IFolderView2_SetSortColumns","shell.IFolderView2_SetSortColumns","shobjidl_core/IFolderView2::SetSortColumns"]
 old-location: shell\IFolderView2_SetSortColumns.htm
 tech.root: shell
 ms.assetid: 54dfac6b-8355-4064-9f54-4172975b8028

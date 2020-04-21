@@ -1,7 +1,7 @@
 ---
 UID: NS:wsman._WSMAN_AUTHZ_QUOTA
 title: WSMAN_AUTHZ_QUOTA (wsman.h)
-description: Reports quota information on a per-user basis for authorization plug-ins.
+description: Reports quota information on a per-user basis for authorization plug-ins.helpviewer_keywords: ["WSMAN_AUTHZ_QUOTA","WSMAN_AUTHZ_QUOTA structure [Windows Remote Management]","winrm.wsman_authz_quota","wsman/WSMAN_AUTHZ_QUOTA"]
 old-location: winrm\wsman_authz_quota.htm
 tech.root: winrm
 ms.assetid: dff093be-34cb-4e31-b3ff-b1ad8ecc7069

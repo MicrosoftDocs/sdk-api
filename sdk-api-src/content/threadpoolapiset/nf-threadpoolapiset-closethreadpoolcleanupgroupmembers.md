@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolCleanupGroupMembers
 title: CloseThreadpoolCleanupGroupMembers function (threadpoolapiset.h)
-description: Releases the members of the specified cleanup group, waits for all callback functions to complete, and optionally cancels any outstanding callback functions.
+description: Releases the members of the specified cleanup group, waits for all callback functions to complete, and optionally cancels any outstanding callback functions.helpviewer_keywords: ["CloseThreadpoolCleanupGroupMembers","CloseThreadpoolCleanupGroupMembers function","base.closethreadpoolcleanupgroupmembers","threadpoolapiset/CloseThreadpoolCleanupGroupMembers","winbase/CloseThreadpoolCleanupGroupMembers"]
 old-location: base\closethreadpoolcleanupgroupmembers.htm
 tech.root: ProcThread
 ms.assetid: 9c78db13-d8dd-4eda-83d9-c9dbbfc6e822
@@ -75,15 +75,6 @@ If this parameter is TRUE, the function cancels outstanding callbacks that have 
 ### -param pvCleanupContext [in, out, optional]
 
 The application-defined data to pass to the application's cleanup group callback function. You can specify the callback function when you call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadpoolcallbackcleanupgroup">SetThreadpoolCallbackCleanupGroup</a>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

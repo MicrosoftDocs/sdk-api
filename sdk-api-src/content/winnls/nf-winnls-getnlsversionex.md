@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.GetNLSVersionEx
 title: GetNLSVersionEx function (winnls.h)
-description: Retrieves information about the current version of a specified NLS capability for a locale specified by name.Note  The application should call this function in preference to GetNLSVersion if designed to run only on Windows Vista and later.
+description: Retrieves information about the current version of a specified NLS capability for a locale specified by name.Note  The application should call this function in preference to GetNLSVersion if designed to run only on Windows Vista and later.helpviewer_keywords: ["GetNLSVersionEx","GetNLSVersionEx function [Internationalization for Windows Applications]","_win32_GetNLSVersionEx","intl.getnlsversionex","winnls/GetNLSVersionEx"]
 old-location: intl\getnlsversionex.htm
 tech.root: Intl
 ms.assetid: 255e6774-eb70-41db-a372-8796166ee8d6

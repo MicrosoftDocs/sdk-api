@@ -1,7 +1,7 @@
 ---
 UID: NF:msports.ComDBOpen
 title: ComDBOpen function (msports.h)
-description: ComDBOpen returns a handle to the COM port database.
+description: ComDBOpen returns a handle to the COM port database.helpviewer_keywords: ["ComDBOpen","ComDBOpen function [Serial Ports]","comdb_ab14e7a4-69f0-42fc-82b5-df6f5863779a.xml","msports/ComDBOpen","serports.comdbopen"]
 old-location: serports\comdbopen.htm
 tech.root: serports
 ms.assetid: 6ae22de0-b71e-441d-af12-8518a3f474e3

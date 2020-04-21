@@ -1,7 +1,7 @@
 ---
 UID: NF:usp10.ScriptGetFontProperties
 title: ScriptGetFontProperties function (usp10.h)
-description: Retrieves information from the font cache on the special glyphs used by a font.
+description: Retrieves information from the font cache on the special glyphs used by a font.helpviewer_keywords: ["ScriptGetFontProperties","ScriptGetFontProperties function [Internationalization for Windows Applications]","_win32_ScriptGetFontProperties","intl.scriptgetfontproperties","usp10/ScriptGetFontProperties"]
 old-location: intl\scriptgetfontproperties.htm
 tech.root: Intl
 ms.assetid: eaad115c-4c1a-43e8-8dff-9d9640ef6ad7

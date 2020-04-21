@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IPart.GetControlInterface
 title: IPart::GetControlInterface (devicetopology.h)
-description: The GetControlInterface method gets a reference to the specified control interface, if this part supports it.
+description: The GetControlInterface method gets a reference to the specified control interface, if this part supports it.helpviewer_keywords: ["GetControlInterface","GetControlInterface method [Core Audio]","GetControlInterface method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetControlInterface method","IPart.GetControlInterface","IPart::GetControlInterface","IPartGetControlInterface","coreaudio.ipart_getcontrolinterface","devicetopology/IPart::GetControlInterface"]
 old-location: coreaudio\ipart_getcontrolinterface.htm
 tech.root: CoreAudio
 ms.assetid: 802f3c19-5a71-41b0-922a-f216fd60495c

@@ -1,7 +1,7 @@
 ---
 UID: NS:xapofx.FXEQ_PARAMETERS
 title: FXEQ_PARAMETERS (xapofx.h)
-description: Parameters for use with the FXEQ XAPO.
+description: Parameters for use with the FXEQ XAPO.helpviewer_keywords: ["FXEQ_PARAMETERS","FXEQ_PARAMETERS structure [XAudio2 Audio Mixing APIs]","xapofx/FXEQ_PARAMETERS","xaudio2.fxeq_parameters"]
 old-location: xaudio2\fxeq_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXEQ_PARAMETERS

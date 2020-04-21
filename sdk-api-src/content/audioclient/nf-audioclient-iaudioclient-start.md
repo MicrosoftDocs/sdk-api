@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IAudioClient.Start
 title: IAudioClient::Start (audioclient.h)
-description: The Start method starts the audio stream.
+description: The Start method starts the audio stream.helpviewer_keywords: ["IAudioClient interface [Core Audio]","Start method","IAudioClient.Start","IAudioClient::Start","IAudioClientStart","Start","Start method [Core Audio]","Start method [Core Audio]","IAudioClient interface","audioclient/IAudioClient::Start","coreaudio.iaudioclient_start"]
 old-location: coreaudio\iaudioclient_start.htm
 tech.root: CoreAudio
 ms.assetid: 706f9833-7f06-4bdc-96d5-6872f6effcb9

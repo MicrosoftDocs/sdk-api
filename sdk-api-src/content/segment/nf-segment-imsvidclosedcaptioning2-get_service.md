@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidClosedCaptioning2.get_Service
 title: IMSVidClosedCaptioning2::get_Service (segment.h)
-description: The get_Service method retrieves the current closed captioning service.
+description: The get_Service method retrieves the current closed captioning service.helpviewer_keywords: ["IMSVidClosedCaptioning2 interface [Microsoft TV Technologies]","get_Service method","IMSVidClosedCaptioning2.get_Service","IMSVidClosedCaptioning2::get_Service","IMSVidClosedCaptioning2get_Service","get_Service","get_Service method [Microsoft TV Technologies]","get_Service method [Microsoft TV Technologies]","IMSVidClosedCaptioning2 interface","mstv.imsvidclosedcaptioning2_get_service","segment/IMSVidClosedCaptioning2::get_Service"]
 old-location: mstv\imsvidclosedcaptioning2_get_service.htm
 tech.root: mstv
 ms.assetid: 165e5c75-3ce1-4b37-b577-5aea4af65019

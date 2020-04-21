@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnInterface.SetPreferredProviders
 title: IMbnInterface::SetPreferredProviders (mbnapi.h)
-description: Updates the preferred providers list for the device.
+description: Updates the preferred providers list for the device.helpviewer_keywords: ["IMbnInterface interface [Microsoft Broadband Networks]","SetPreferredProviders method","IMbnInterface.SetPreferredProviders","IMbnInterface::SetPreferredProviders","SetPreferredProviders","SetPreferredProviders method [Microsoft Broadband Networks]","SetPreferredProviders method [Microsoft Broadband Networks]","IMbnInterface interface","mbn.imbninterface_setpreferredproviders","mbnapi/IMbnInterface::SetPreferredProviders"]
 old-location: mbn\imbninterface_setpreferredproviders.htm
 tech.root: mbn
 ms.assetid: 2ea95b4a-07d9-40d6-bb82-091b49c965c4

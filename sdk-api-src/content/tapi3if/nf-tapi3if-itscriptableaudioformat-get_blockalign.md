@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_BlockAlign
 title: ITScriptableAudioFormat::get_BlockAlign (tapi3if.h)
-description: The get_BlockAlign method returns the value for the nBlockAlign member in the WAVEFORMATEX structure.
+description: The get_BlockAlign method returns the value for the nBlockAlign member in the WAVEFORMATEX structure.helpviewer_keywords: ["ITScriptableAudioFormat interface [TAPI 2.2]","get_BlockAlign method","ITScriptableAudioFormat.get_BlockAlign","ITScriptableAudioFormat::get_BlockAlign","_tapi3_itscriptableaudioformat_get_blockalign","get_BlockAlign","get_BlockAlign method [TAPI 2.2]","get_BlockAlign method [TAPI 2.2]","ITScriptableAudioFormat interface","tapi3.itscriptableaudioformat_get_blockalign","tapi3if/ITScriptableAudioFormat::get_BlockAlign"]
 old-location: tapi3\itscriptableaudioformat_get_blockalign.htm
 tech.root: Tapi
 ms.assetid: 1f96d37e-af8b-4f0e-9bc0-467e3684fadb

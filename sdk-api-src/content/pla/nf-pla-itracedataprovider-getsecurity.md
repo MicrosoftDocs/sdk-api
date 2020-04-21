@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataProvider.GetSecurity
 title: ITraceDataProvider::GetSecurity (pla.h)
-description: Retrieves the security information for the trace data provider.
+description: Retrieves the security information for the trace data provider.helpviewer_keywords: ["GetSecurity","GetSecurity method [PLA]","GetSecurity method [PLA]","ITraceDataProvider interface","ITraceDataProvider interface [PLA]","GetSecurity method","ITraceDataProvider.GetSecurity","ITraceDataProvider::GetSecurity","pla.itracedataprovider_getsecurity","pla/ITraceDataProvider::GetSecurity"]
 old-location: pla\itracedataprovider_getsecurity.htm
 tech.root: PLA
 ms.assetid: 2f1618db-aa43-4cac-a652-db172781e988

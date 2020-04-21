@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.AcquireSRWLockExclusive
 title: AcquireSRWLockExclusive function (synchapi.h)
-description: Acquires a slim reader/writer (SRW) lock in exclusive mode.
+description: Acquires a slim reader/writer (SRW) lock in exclusive mode.helpviewer_keywords: ["AcquireSRWLockExclusive","AcquireSRWLockExclusive function","base.acquiresrwlockexclusive","synchapi/AcquireSRWLockExclusive","winbase/AcquireSRWLockExclusive"]
 old-location: base\acquiresrwlockexclusive.htm
 tech.root: Sync
 ms.assetid: 02e987a2-4c2f-4ccb-8816-c04320b568c1
@@ -67,15 +67,6 @@ Acquires a slim reader/writer (SRW) lock in exclusive mode.
 ### -param SRWLock [in, out]
 
 A pointer to the SRW lock.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

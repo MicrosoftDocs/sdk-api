@@ -1,7 +1,7 @@
 ---
 UID: NN:wsdattachment.IWSDOutboundAttachment
 title: IWSDOutboundAttachment (wsdattachment.h)
-description: Enables applications to send attachment data in a message using a MIME container.
+description: Enables applications to send attachment data in a message using a MIME container.helpviewer_keywords: ["IWSDOutboundAttachment","IWSDOutboundAttachment interface","IWSDOutboundAttachment interface","described","ncd.iwsdoutboundattachment","wsdattachment/IWSDOutboundAttachment"]
 old-location: ncd\iwsdoutboundattachment.htm
 tech.root: WsdApi
 ms.assetid: ba2f2038-e6ef-4ad4-a1fb-50e225394c60

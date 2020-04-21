@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAcceleratorKey
 title: IUIAutomationElement::get_CachedAcceleratorKey (uiautomationclient.h)
-description: Retrieves the cached accelerator key for the element.
+description: Retrieves the cached accelerator key for the element.helpviewer_keywords: ["CachedAcceleratorKey property [Windows Accessibility]","CachedAcceleratorKey property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedAcceleratorKey property","IUIAutomationElement.CachedAcceleratorKey","IUIAutomationElement.get_CachedAcceleratorKey","IUIAutomationElement::CachedAcceleratorKey","IUIAutomationElement::get_CachedAcceleratorKey","get_CachedAcceleratorKey","uiauto.uiauto_IUIAutomationElement_CachedAcceleratorKey","uiauto_IUIAutomationElement_CachedAcceleratorKey","uiautomationclient/IUIAutomationElement::CachedAcceleratorKey","uiautomationclient/IUIAutomationElement::get_CachedAcceleratorKey","winauto.uiauto_IUIAutomationElement_CachedAcceleratorKey"]
 old-location: winauto\uiauto_IUIAutomationElement_CachedAcceleratorKey.htm
 tech.root: WinAuto
 ms.assetid: 52767d3d-7cda-4973-894b-d5e5996c7439

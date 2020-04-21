@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgr.GetGlobalCompartment
 title: ITfThreadMgr::GetGlobalCompartment (msctf.h)
-description: ITfThreadMgr::GetGlobalCompartment method
+description: ITfThreadMgr::GetGlobalCompartment methodhelpviewer_keywords: ["GetGlobalCompartment","GetGlobalCompartment method [Text Services Framework]","GetGlobalCompartment method [Text Services Framework]","ITfThreadMgr interface","ITfThreadMgr interface [Text Services Framework]","GetGlobalCompartment method","ITfThreadMgr.GetGlobalCompartment","ITfThreadMgr::GetGlobalCompartment","_tsf_itfthreadmgr_getglobalcompartment_ref","msctf/ITfThreadMgr::GetGlobalCompartment","tsf.itfthreadmgr_getglobalcompartment"]
 old-location: tsf\itfthreadmgr_getglobalcompartment.htm
 tech.root: TSF
 ms.assetid: 801e2c3a-0445-4630-83ba-55f51ef2704e
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the global compartment manager object.
 
 ## -parameters
 

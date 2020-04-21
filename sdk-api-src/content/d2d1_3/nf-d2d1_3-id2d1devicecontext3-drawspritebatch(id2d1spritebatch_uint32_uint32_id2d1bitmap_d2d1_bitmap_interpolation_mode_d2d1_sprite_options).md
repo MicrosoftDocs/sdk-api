@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext3.DrawSpriteBatch(ID2D1SpriteBatch,UINT32,UINT32,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS)
 title: ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,UINT32,UINT32,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS) (d2d1_3.h)
-description: Renders part or all of the given sprite batch to the device context using the specified drawing options.
+description: Renders part or all of the given sprite batch to the device context using the specified drawing options.helpviewer_keywords: ["DrawSpriteBatch","DrawSpriteBatch method [Direct2D]","DrawSpriteBatch method [Direct2D]","ID2D1DeviceContext3 interface","ID2D1DeviceContext3 interface [Direct2D]","DrawSpriteBatch method","ID2D1DeviceContext3.DrawSpriteBatch","ID2D1DeviceContext3.DrawSpriteBatch(ID2D1SpriteBatch","UINT32","UINT32","ID2D1Bitmap","D2D1_BITMAP_INTERPOLATION_MODE","D2D1_SPRITE_OPTIONS)","ID2D1DeviceContext3::DrawSpriteBatch","ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch","UINT32","UINT32","ID2D1Bitmap","D2D1_BITMAP_INTERPOLATION_MODE","D2D1_SPRITE_OPTIONS)","d2d1_3/ID2D1DeviceContext3::DrawSpriteBatch","direct2d.id2d1devicecontext3_drawspritebatch"]
 old-location: direct2d\id2d1devicecontext3_drawspritebatch.htm
 tech.root: Direct2D
 ms.assetid: 407529D4-6FA3-4C09-876C-03A8A8D1390D
@@ -97,15 +97,6 @@ The interpolation mode to use when drawing this sprite batch. This determines ho
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_sprite_options">D2D1_SPRITE_OPTIONS</a></b>
 
 The additional drawing options, if any, to be used for this sprite batch.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

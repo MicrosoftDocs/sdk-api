@@ -1,7 +1,7 @@
 ---
 UID: NF:lmaccess.NetUserGetGroups
 title: NetUserGetGroups function (lmaccess.h)
-description: The NetUserGetGroups function retrieves a list of global groups to which a specified user belongs.
+description: The NetUserGetGroups function retrieves a list of global groups to which a specified user belongs.helpviewer_keywords: ["0","1","NetUserGetGroups","NetUserGetGroups function [Network Management]","_win32_netusergetgroups","lmaccess/NetUserGetGroups","netmgmt.netusergetgroups"]
 old-location: netmgmt\netusergetgroups.htm
 tech.root: NetMgmt
 ms.assetid: ecf1a94c-5dda-4f49-81bd-93e551e089f1

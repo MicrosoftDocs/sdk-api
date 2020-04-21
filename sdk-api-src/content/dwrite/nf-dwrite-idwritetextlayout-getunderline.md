@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetUnderline
 title: IDWriteTextLayout::GetUnderline (dwrite.h)
-description: Gets the underline presence of the text at the specified position.
+description: Gets the underline presence of the text at the specified position.helpviewer_keywords: ["GetUnderline","GetUnderline method [Direct Write]","GetUnderline method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetUnderline method","IDWriteTextLayout.GetUnderline","IDWriteTextLayout::GetUnderline","directwrite.IDWriteTextLayout_GetUnderline","dwrite/IDWriteTextLayout::GetUnderline"]
 old-location: directwrite\IDWriteTextLayout_GetUnderline.htm
 tech.root: DirectWrite
 ms.assetid: cd34ba6b-748c-44ca-8db6-d4715a057def

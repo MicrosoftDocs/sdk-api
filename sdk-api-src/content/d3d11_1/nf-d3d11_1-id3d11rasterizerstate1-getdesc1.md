@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11RasterizerState1.GetDesc1
 title: ID3D11RasterizerState1::GetDesc1 (d3d11_1.h)
-description: Gets the description for rasterizer state that you used to create the rasterizer-state object.
+description: Gets the description for rasterizer state that you used to create the rasterizer-state object.helpviewer_keywords: ["GetDesc1","GetDesc1 method [Direct3D 11]","GetDesc1 method [Direct3D 11]","ID3D11RasterizerState1 interface","ID3D11RasterizerState1 interface [Direct3D 11]","GetDesc1 method","ID3D11RasterizerState1.GetDesc1","ID3D11RasterizerState1::GetDesc1","d3d11_1/ID3D11RasterizerState1::GetDesc1","direct3d11.id3d11rasterizerstate1_getdesc1"]
 old-location: direct3d11\id3d11rasterizerstate1_getdesc1.htm
 tech.root: direct3d11
 ms.assetid: A16EFA79-6138-4F3B-B4ED-E525C07DD4EF
@@ -61,15 +61,6 @@ Gets the description for rasterizer state that you used to create the rasterizer
 ### -param pDesc [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-cd3d11_rasterizer_desc1">D3D11_RASTERIZER_DESC1</a> structure that receives a description of the rasterizer state. This rasterizer state can specify forced sample count.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

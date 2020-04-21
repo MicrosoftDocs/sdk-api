@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetPinvokeMap
 title: IMetaDataImport::GetPinvokeMap (rometadataapi.h)
-description: Gets a ModuleRef token to represent the target assembly of a PInvoke call.
+description: Gets a ModuleRef token to represent the target assembly of a PInvoke call.helpviewer_keywords: ["GetPinvokeMap","GetPinvokeMap method [Windows Runtime]","GetPinvokeMap method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetPinvokeMap method","IMetaDataImport.GetPinvokeMap","IMetaDataImport::GetPinvokeMap","rometadataapi/IMetaDataImport::GetPinvokeMap","winrt.imetadataimport_getpinvokemap"]
 old-location: winrt\imetadataimport_getpinvokemap.htm
 tech.root: WinRT
 ms.assetid: bf83785d-ba4f-4a11-84ee-92d010c8a1fc

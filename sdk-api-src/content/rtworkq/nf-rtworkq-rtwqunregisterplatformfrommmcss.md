@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqUnregisterPlatformFromMMCSS
 title: RtwqUnregisterPlatformFromMMCSS function (rtworkq.h)
-description: Unregisters the platform work queues from a Multimedia Class Scheduler Service (MMCSS) task.
+description: Unregisters the platform work queues from a Multimedia Class Scheduler Service (MMCSS) task.helpviewer_keywords: ["RtwqUnregisterPlatformFromMMCSS","RtwqUnregisterPlatformFromMMCSS function","base.rtwqunregisterplatformfrommmcss","rtworkq/RtwqUnregisterPlatformFromMMCSS"]
 old-location: base\rtwqunregisterplatformfrommmcss.htm
 tech.root: ProcThread
 ms.assetid: 12fca5ba-640d-4c6f-878b-7744331bbcff

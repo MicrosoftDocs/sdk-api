@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.put_OutputEnable
 title: IAMAnalogVideoDecoder::put_OutputEnable (strmif.h)
-description: The put_OutputEnable method enables or disables the video port bus.
+description: The put_OutputEnable method enables or disables the video port bus.helpviewer_keywords: ["IAMAnalogVideoDecoder interface [DirectShow]","put_OutputEnable method","IAMAnalogVideoDecoder.put_OutputEnable","IAMAnalogVideoDecoder::put_OutputEnable","IAMAnalogVideoDecoderput_OutputEnable","dshow.iamanalogvideodecoder_put_outputenable","put_OutputEnable","put_OutputEnable method [DirectShow]","put_OutputEnable method [DirectShow]","IAMAnalogVideoDecoder interface","strmif/IAMAnalogVideoDecoder::put_OutputEnable"]
 old-location: dshow\iamanalogvideodecoder_put_outputenable.htm
 tech.root: DirectShow
 ms.assetid: 93163db3-ea9a-4383-b382-7d574ef24dfc

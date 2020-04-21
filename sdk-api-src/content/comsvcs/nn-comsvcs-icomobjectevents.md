@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IComObjectEvents
 title: IComObjectEvents (comsvcs.h)
-description: Notifies the subscriber if an instance of a just-in-time (JIT) activated object has been created or freed.
+description: Notifies the subscriber if an instance of a just-in-time (JIT) activated object has been created or freed.helpviewer_keywords: ["IComObjectEvents","IComObjectEvents interface [COM+]","IComObjectEvents interface [COM+]","described","_dtc_IComObjectEvents","comsvcs/IComObjectEvents","cos.icomobjectevents"]
 old-location: cos\icomobjectevents.htm
 tech.root: cossdk
 ms.assetid: 4354fc5b-4d72-4a56-b246-2ae2cf9b5ae1

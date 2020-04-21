@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure
 title: ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure (d3d12.h)
-description: Copies a source acceleration structure to destination memory while applying the specified transformation.
+description: Copies a source acceleration structure to destination memory while applying the specified transformation.helpviewer_keywords: ["CopyRaytracingAccelerationStructure","CopyRaytracingAccelerationStructure method","CopyRaytracingAccelerationStructure method","ID3D12GraphicsCommandList4 interface","ID3D12GraphicsCommandList4 interface","CopyRaytracingAccelerationStructure method","ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure","ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure","d3d12/ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure","direct3d12.id3d12graphicscommandlist4_copyraytracingaccelerationstructure"]
 old-location: direct3d12\id3d12graphicscommandlist4_copyraytracingaccelerationstructure.htm
 tech.root: direct3d12
 ms.assetid: 13E0E477-9CD5-484B-9532-AB6D415CF6CB
@@ -80,15 +80,6 @@ The resource state that the memory pointed to must be in depends on the <i>Mode<
 ### -param Mode [in]
 
 The type of copy operation to perform. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE</a>.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

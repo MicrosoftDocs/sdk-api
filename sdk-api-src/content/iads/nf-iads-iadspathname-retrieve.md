@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPathname.Retrieve
 title: IADsPathname::Retrieve (iads.h)
-description: The IADsPathname::Retrieve method retrieves the path of the object with different format types.
+description: The IADsPathname::Retrieve method retrieves the path of the object with different format types.helpviewer_keywords: ["IADsPathname interface [ADSI]","Retrieve method","IADsPathname.Retrieve","IADsPathname::Retrieve","Retrieve","Retrieve method [ADSI]","Retrieve method [ADSI]","IADsPathname interface","_ds_iadspathname_retrieve","adsi.iadspathname__retrieve","adsi.iadspathname_retrieve","iads/IADsPathname::Retrieve"]
 old-location: adsi\iadspathname_retrieve.htm
 tech.root: adsi
 ms.assetid: c34f2a5e-5faf-45bf-acc6-8db5fc8bf5fa

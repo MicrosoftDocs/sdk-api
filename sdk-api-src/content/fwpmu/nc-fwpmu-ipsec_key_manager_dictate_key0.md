@@ -1,7 +1,7 @@
 ---
 UID: NC:fwpmu.IPSEC_KEY_MANAGER_DICTATE_KEY0
 title: IPSEC_KEY_MANAGER_DICTATE_KEY0 (fwpmu.h)
-description: Used by the Trusted Intermediary Agent (TIA) to dictate keys for the SA being negotiated.
+description: Used by the Trusted Intermediary Agent (TIA) to dictate keys for the SA being negotiated.helpviewer_keywords: ["IPSEC_KEY_MANAGER_DICTATE_KEY0","IPSEC_KEY_MANAGER_DICTATE_KEY0 function","IPSEC_KEY_MANAGER_DICTATE_KEY0 function pointer [Filtering]","fwp.ipsec_key_dictate_key0","fwp.ipsec_key_manager_dictate_key0","fwpmu/IPSEC_KEY_MANAGER_DICTATE_KEY0"]
 old-location: fwp\ipsec_key_manager_dictate_key0.htm
 tech.root: fwp
 ms.assetid: A69E44FF-A58D-426B-BD59-8EB4B5A63B66

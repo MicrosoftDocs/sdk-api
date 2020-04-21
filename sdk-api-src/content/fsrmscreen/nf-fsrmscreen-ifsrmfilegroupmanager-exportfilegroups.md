@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.ExportFileGroups
 title: IFsrmFileGroupManager::ExportFileGroups (fsrmscreen.h)
-description: Exports the specified file groups as an XML string.
+description: Exports the specified file groups as an XML string.helpviewer_keywords: ["ExportFileGroups","ExportFileGroups method [File Server Resource Manager]","ExportFileGroups method [File Server Resource Manager]","FsrmFileGroupManager class","ExportFileGroups method [File Server Resource Manager]","IFsrmFileGroupManager interface","FsrmFileGroupManager class [File Server Resource Manager]","ExportFileGroups method","IFsrmFileGroupManager interface [File Server Resource Manager]","ExportFileGroups method","IFsrmFileGroupManager.ExportFileGroups","IFsrmFileGroupManager::ExportFileGroups","fs.ifsrmfilegroupmanager_exportfilegroups","fsrm.ifsrmfilegroupmanager_exportfilegroups","fsrmscreen/IFsrmFileGroupManager::ExportFileGroups"]
 old-location: fsrm\ifsrmfilegroupmanager_exportfilegroups.htm
 tech.root: fsrm
 ms.assetid: 59d7ef32-f06b-4167-8e28-da88da27ab0a

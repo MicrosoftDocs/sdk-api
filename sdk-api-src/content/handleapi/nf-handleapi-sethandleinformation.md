@@ -1,7 +1,7 @@
 ---
 UID: NF:handleapi.SetHandleInformation
 title: SetHandleInformation function (handleapi.h)
-description: Sets certain properties of an object handle.
+description: Sets certain properties of an object handle.helpviewer_keywords: ["HANDLE_FLAG_INHERIT","HANDLE_FLAG_PROTECT_FROM_CLOSE","SetHandleInformation","SetHandleInformation function","_win32_sethandleinformation","base.sethandleinformation","handleapi/SetHandleInformation"]
 old-location: base\sethandleinformation.htm
 tech.root: SysInfo
 ms.assetid: a3fa8b92-cba2-414e-9fb8-d0fcb98ede36

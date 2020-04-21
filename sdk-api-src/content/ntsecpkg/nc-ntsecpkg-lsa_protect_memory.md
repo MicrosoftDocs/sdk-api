@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.LSA_PROTECT_MEMORY
 title: LSA_PROTECT_MEMORY (ntsecpkg.h)
-description: Encrypts the specified memory buffer.
+description: Encrypts the specified memory buffer.helpviewer_keywords: ["LSA_PROTECT_MEMORY","LSA_PROTECT_MEMORY callback","LsaProtectMemory","LsaProtectMemory callback function [Security]","ntsecpkg/LsaProtectMemory","security.lsaprotectmemory"]
 old-location: security\lsaprotectmemory.htm
 tech.root: SecAuthN
 ms.assetid: c851fe8b-be22-4966-ab99-f177989cf382
@@ -65,15 +65,6 @@ On input, a pointer to the buffer to be encrypted. On output, a pointer to the e
 ### -param BufferSize [in]
 
 The size, in bytes, of the <i>Buffer</i> buffer.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

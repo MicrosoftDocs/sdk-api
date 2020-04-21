@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.SetEventWhenCallbackReturns
 title: SetEventWhenCallbackReturns function (threadpoolapiset.h)
-description: Specifies the event that the thread pool will set when the current callback completes.
+description: Specifies the event that the thread pool will set when the current callback completes.helpviewer_keywords: ["SetEventWhenCallbackReturns","SetEventWhenCallbackReturns function","base.seteventwhencallbackreturns","threadpoolapiset/SetEventWhenCallbackReturns","winbase/SetEventWhenCallbackReturns"]
 old-location: base\seteventwhencallbackreturns.htm
 tech.root: ProcThread
 ms.assetid: 50e127bc-d518-4f84-88ea-b262572d5248
@@ -70,15 +70,6 @@ A <b>TP_CALLBACK_INSTANCE</b> structure that defines the callback instance. The 
 ### -param evt [in]
 
 A handle to the event to be set.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

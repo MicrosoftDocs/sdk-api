@@ -1,7 +1,7 @@
 ---
 UID: NN:upnphost.IUPnPDeviceControl
 title: IUPnPDeviceControl (upnphost.h)
-description: The IUPnPDeviceControl interface is the central point of management for a device and its service objects.
+description: The IUPnPDeviceControl interface is the central point of management for a device and its service objects.helpviewer_keywords: ["IUPnPDeviceControl","IUPnPDeviceControl interface [UPnP APIs]","IUPnPDeviceControl interface [UPnP APIs]","described","_upnp_iupnpdevicecontrol","upnp.iupnpdevicecontrol","upnphost/IUPnPDeviceControl"]
 old-location: upnp\iupnpdevicecontrol.htm
 tech.root: upnp
 ms.assetid: c5d68459-f4ba-4df1-a00c-be86e24ce29f

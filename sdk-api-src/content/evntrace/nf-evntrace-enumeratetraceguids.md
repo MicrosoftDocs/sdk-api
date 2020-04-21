@@ -1,7 +1,7 @@
 ---
 UID: NF:evntrace.EnumerateTraceGuids
 title: EnumerateTraceGuids function (evntrace.h)
-description: The EnumerateTraceGuids function retrieves information about registered event trace providers that are running on the computer.
+description: The EnumerateTraceGuids function retrieves information about registered event trace providers that are running on the computer.helpviewer_keywords: ["EnumerateTraceGuids","EnumerateTraceGuids function [ETW]","_evt_enumeratetraceguids","base.enumeratetraceguids","etw.enumeratetraceguids","evntrace/EnumerateTraceGuids"]
 old-location: etw\enumeratetraceguids.htm
 tech.root: ETW
 ms.assetid: 9a9e2f53-9916-4a9c-a08e-c8affd5fc4c9

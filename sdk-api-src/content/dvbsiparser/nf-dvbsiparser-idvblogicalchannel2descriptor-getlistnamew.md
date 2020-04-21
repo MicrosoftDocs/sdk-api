@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListNameW
 title: IDvbLogicalChannel2Descriptor::GetListNameW (dvbsiparser.h)
-description: Gets the name of a channel list from a Digital Video Broadcast (DVB) logical channel descriptor.
+description: Gets the name of a channel list from a Digital Video Broadcast (DVB) logical channel descriptor.helpviewer_keywords: ["GetListNameW","GetListNameW method [Microsoft TV Technologies]","GetListNameW method [Microsoft TV Technologies]","IDvbLogicalChannel2Descriptor interface","IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies]","GetListNameW method","IDvbLogicalChannel2Descriptor.GetListNameW","IDvbLogicalChannel2Descriptor::GetListNameW","dvbsiparser/IDvbLogicalChannel2Descriptor::GetListNameW","mstv.idvblogicalchannel2descriptor_getlistnamew"]
 old-location: mstv\idvblogicalchannel2descriptor_getlistnamew.htm
 tech.root: mstv
 ms.assetid: cbfee1d5-8a38-4c9a-ae5e-2d91970c132e

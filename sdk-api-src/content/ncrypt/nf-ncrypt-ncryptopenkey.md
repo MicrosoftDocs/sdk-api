@@ -1,7 +1,7 @@
 ---
 UID: NF:ncrypt.NCryptOpenKey
 title: NCryptOpenKey function (ncrypt.h)
-description: Opens a key that exists in the specified CNG key storage provider.
+description: Opens a key that exists in the specified CNG key storage provider.helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","NCRYPT_MACHINE_KEY_FLAG","NCRYPT_SILENT_FLAG","NCryptOpenKey","NCryptOpenKey function [Security]","ncrypt/NCryptOpenKey","security.ncryptopenkey_func"]
 old-location: security\ncryptopenkey_func.htm
 tech.root: SecCNG
 ms.assetid: 581c5d89-730d-4d8c-b3bb-a28edec25910

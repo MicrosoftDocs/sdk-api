@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetExpansionVelocity
 title: IManipulationProcessor::GetExpansionVelocity (manipulations.h)
-description: The GetExpansionVelocity method calculates the rate that the target object is expanding at.
+description: The GetExpansionVelocity method calculates the rate that the target object is expanding at.helpviewer_keywords: ["GetExpansionVelocity","GetExpansionVelocity method [Windows Touch]","GetExpansionVelocity method [Windows Touch]","IManipulationProcessor interface","IManipulationProcessor interface [Windows Touch]","GetExpansionVelocity method","IManipulationProcessor.GetExpansionVelocity","IManipulationProcessor::GetExpansionVelocity","manipulations/IManipulationProcessor::GetExpansionVelocity","wintouch.imanipulationprocessor_getexpansionvelocity"]
 old-location: wintouch\imanipulationprocessor_getexpansionvelocity.htm
 tech.root: wintouch
 ms.assetid: 5dbaeaa3-4abf-485e-9f84-8450dce14fc9

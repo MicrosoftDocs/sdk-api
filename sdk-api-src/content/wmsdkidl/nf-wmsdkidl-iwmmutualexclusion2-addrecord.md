@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.AddRecord
 title: IWMMutualExclusion2::AddRecord (wmsdkidl.h)
-description: The AddRecord method adds a record to the mutual exclusion object.
+description: The AddRecord method adds a record to the mutual exclusion object.helpviewer_keywords: ["AddRecord","AddRecord method [windows Media Format]","AddRecord method [windows Media Format]","IWMMutualExclusion2 interface","IWMMutualExclusion2 interface [windows Media Format]","AddRecord method","IWMMutualExclusion2.AddRecord","IWMMutualExclusion2::AddRecord","IWMMutualExclusion2AddRecord","wmformat.iwmmutualexclusion2_addrecord","wmsdkidl/IWMMutualExclusion2::AddRecord"]
 old-location: wmformat\iwmmutualexclusion2_addrecord.htm
 tech.root: wmformat
 ms.assetid: 58eaa4b2-65d3-44b1-8e3d-1aac01057d0f

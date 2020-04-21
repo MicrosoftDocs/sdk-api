@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPLibrarySharingServices.isLibraryShared
 title: IWMPLibrarySharingServices::isLibraryShared (wmp.h)
-description: The isLibraryShared method retrieves a value indicating whether the user's library is shared.
+description: The isLibraryShared method retrieves a value indicating whether the user's library is shared.helpviewer_keywords: ["IWMPLibrarySharingServices interface [Windows Media Player]","isLibraryShared method","IWMPLibrarySharingServices.isLibraryShared","IWMPLibrarySharingServices::isLibraryShared","IWMPLibrarySharingServicesisLibraryShared","isLibraryShared","isLibraryShared method [Windows Media Player]","isLibraryShared method [Windows Media Player]","IWMPLibrarySharingServices interface","wmp.iwmplibrarysharingservices_islibraryshared","wmp/IWMPLibrarySharingServices::isLibraryShared"]
 old-location: wmp\iwmplibrarysharingservices_islibraryshared.htm
 tech.root: WMP
 ms.assetid: fc0a1396-5b43-43dd-9e0d-b5b3a8cf5cdd

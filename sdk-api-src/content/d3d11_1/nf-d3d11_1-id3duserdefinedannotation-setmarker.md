@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3DUserDefinedAnnotation.SetMarker
 title: ID3DUserDefinedAnnotation::SetMarker (d3d11_1.h)
-description: Marks a single point of execution in code.
+description: Marks a single point of execution in code.helpviewer_keywords: ["ID3DUserDefinedAnnotation interface [Direct3D 11]","SetMarker method","ID3DUserDefinedAnnotation.SetMarker","ID3DUserDefinedAnnotation::SetMarker","SetMarker","SetMarker method [Direct3D 11]","SetMarker method [Direct3D 11]","ID3DUserDefinedAnnotation interface","d3d11_1/ID3DUserDefinedAnnotation::SetMarker","direct3d11.id3duserdefinedannotation_setmarker"]
 old-location: direct3d11\id3duserdefinedannotation_setmarker.htm
 tech.root: direct3d11
 ms.assetid: EACF3660-C6A7-4C46-816C-0D9D292903B5
@@ -62,15 +62,6 @@ Marks a single point of execution in code.
 
 A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name of the marker. The name is not relevant to the operating system. You can choose a name that is meaningful when the calling application is running under the Direct3D profiling tool.
 A <b>NULL</b> pointer produces undefined results.
-
-
-## -returns
-
-
-
-This method returns no values.
-
-
 
 
 ## -remarks

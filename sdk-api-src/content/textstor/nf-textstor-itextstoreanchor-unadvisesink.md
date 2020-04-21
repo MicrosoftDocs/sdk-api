@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.UnadviseSink
 title: ITextStoreAnchor::UnadviseSink (textstor.h)
-description: ITextStoreAnchor::UnadviseSink method
+description: ITextStoreAnchor::UnadviseSink methodhelpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","UnadviseSink method","ITextStoreAnchor.UnadviseSink","ITextStoreAnchor::UnadviseSink","UnadviseSink","UnadviseSink method [Text Services Framework]","UnadviseSink method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::UnadviseSink","tsf.itextstoreanchor_unadvisesink"]
 old-location: tsf\itextstoreanchor_unadvisesink.htm
 tech.root: TSF
 ms.assetid: 01ddc659-0ed9-41e9-bde9-92aad9d74716
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called by an application to indicate that it no longer requires notifications from the TSF manager.
 
 ## -parameters
 

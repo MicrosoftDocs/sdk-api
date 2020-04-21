@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetGuidHeapSize
 title: IMetaDataTables::GetGuidHeapSize (rometadataapi.h)
-description: Gets the size, in bytes, of the GUID heap.
+description: Gets the size, in bytes, of the GUID heap.helpviewer_keywords: ["GetGuidHeapSize","GetGuidHeapSize method [Windows Runtime]","GetGuidHeapSize method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetGuidHeapSize method","IMetaDataTables.GetGuidHeapSize","IMetaDataTables::GetGuidHeapSize","rometadataapi/IMetaDataTables::GetGuidHeapSize","winrt.imetadatatables_getguidheapsize"]
 old-location: winrt\imetadatatables_getguidheapsize.htm
 tech.root: WinRT
 ms.assetid: 56b0f15f-caf3-44e0-8cec-7ca3f2edb74d

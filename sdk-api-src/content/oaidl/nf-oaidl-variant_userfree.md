@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.VARIANT_UserFree
 title: VARIANT_UserFree function (oaidl.h)
-description: Frees resources on the server side when called by RPC stub files.
+description: Frees resources on the server side when called by RPC stub files.helpviewer_keywords: ["VARIANT_UserFree","VARIANT_UserFree function [Automation]","_oa96_VARIANT_UserFree","automat.variant_userfree","oaidl/VARIANT_UserFree"]
 old-location: automat\variant_userfree.htm
 tech.root: automat
 ms.assetid: 0432892b-af22-43d1-be3c-a98af950f0a7
@@ -65,13 +65,5 @@ The data used by RPC.
 ### -param arg2 [in]
 
 The object.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

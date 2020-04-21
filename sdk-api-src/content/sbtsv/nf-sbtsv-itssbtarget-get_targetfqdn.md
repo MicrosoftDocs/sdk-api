@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_TargetFQDN
 title: ITsSbTarget::get_TargetFQDN (sbtsv.h)
-description: Retrieves or specifies the fully qualified domain name of the target.
+description: Retrieves or specifies the fully qualified domain name of the target.helpviewer_keywords: ["ITsSbTarget interface [Remote Desktop Services]","TargetFQDN property","ITsSbTarget.TargetFQDN","ITsSbTarget.get_TargetFQDN","ITsSbTarget::TargetFQDN","ITsSbTarget::get_TargetFQDN","ITsSbTarget::put_TargetFQDN","ITsSbTargetEx interface [Remote Desktop Services]","TargetFQDN property","ITsSbTargetEx.TargetFQDN","ITsSbTargetEx::get_TargetFQDN","ITsSbTargetEx::put_TargetFQDN","TargetFQDN property [Remote Desktop Services]","TargetFQDN property [Remote Desktop Services]","ITsSbTarget interface","TargetFQDN property [Remote Desktop Services]","ITsSbTargetEx interface","get_TargetFQDN","sbtsv/ITsSbTarget::TargetFQDN","sbtsv/ITsSbTarget::get_TargetFQDN","sbtsv/ITsSbTarget::put_TargetFQDN","sbtsv/ITsSbTargetEx::TargetFQDN","sbtsv/ITsSbTargetEx::get_TargetFQDN","sbtsv/ITsSbTargetEx::put_TargetFQDN","termserv.itssbtarget_targetfqdn"]
 old-location: termserv\itssbtarget_targetfqdn.htm
 tech.root: TermServ
 ms.assetid: 37fa2889-e218-499f-b0e1-6172b04f5328

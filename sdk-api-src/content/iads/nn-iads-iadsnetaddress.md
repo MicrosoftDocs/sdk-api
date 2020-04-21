@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsNetAddress
 title: IADsNetAddress (iads.h)
-description: The IADsNetAddress interface provides methods for an ADSI client to access the Net Address attribute.
+description: The IADsNetAddress interface provides methods for an ADSI client to access the Net Address attribute.helpviewer_keywords: ["IADsNetAddress","IADsNetAddress interface [ADSI]","IADsNetAddress interface [ADSI]","described","NetAddress","_ds_iadsnetaddress","adsi.iadsnetaddress","iads/IADsNetAddress"]
 old-location: adsi\iadsnetaddress.htm
 tech.root: adsi
 ms.assetid: 71e48dd4-4e86-494f-835e-38bda29fc543

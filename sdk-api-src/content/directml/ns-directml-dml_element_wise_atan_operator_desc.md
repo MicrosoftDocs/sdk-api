@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_ATAN_OPERATOR_DESC
 title: DML_ELEMENT_WISE_ATAN_OPERATOR_DESC
-description: Describes a DirectML trigonometric operator that performs the element-wise arctangent function f(x) = atan(x * scale + bias), where the scale and bias terms are optional.
+description: Describes a DirectML trigonometric operator that performs the element-wise arctangent function f(x) = atan(x * scale + bias), where the scale and bias terms are optional.helpviewer_keywords: ["DML_ELEMENT_WISE_ATAN_OPERATOR_DESC","DML_ELEMENT_WISE_ATAN_OPERATOR_DESC structure","direct3d12.dml_element_wise_atan_operator_desc","directml/DML_ELEMENT_WISE_ATAN_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_atan_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 5317D380-D4BA-4AF2-B64B-F5954AADF352

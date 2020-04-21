@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBstrFromCy
 title: VarBstrFromCy function (oleauto.h)
-description: Converts a currency value to a BSTR value.
+description: Converts a currency value to a BSTR value.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","LOCALE_USE_NLS","VarBstrFromCy","VarBstrFromCy function [Automation]","_oa96_VarBstrFromCy","automat.varbstrfromcy","oleauto/VarBstrFromCy"]
 old-location: automat\varbstrfromcy.htm
 tech.root: automat
 ms.assetid: 5aa53d2c-ca43-4f10-a517-00a2fe80016e

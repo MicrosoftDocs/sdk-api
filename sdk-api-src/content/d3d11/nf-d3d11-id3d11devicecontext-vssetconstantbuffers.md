@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSSetConstantBuffers
 title: ID3D11DeviceContext::VSSetConstantBuffers (d3d11.h)
-description: Sets the constant buffers used by the vertex shader pipeline stage.
+description: Sets the constant buffers used by the vertex shader pipeline stage.helpviewer_keywords: ["2cf038d8-59ab-1d57-c785-ed14b6a1c06e","ID3D11DeviceContext interface [Direct3D 11]","VSSetConstantBuffers method","ID3D11DeviceContext.VSSetConstantBuffers","ID3D11DeviceContext::VSSetConstantBuffers","VSSetConstantBuffers","VSSetConstantBuffers method [Direct3D 11]","VSSetConstantBuffers method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::VSSetConstantBuffers","direct3d11.id3d11devicecontext_vssetconstantbuffers"]
 old-location: direct3d11\id3d11devicecontext_vssetconstantbuffers.htm
 tech.root: direct3d11
 ms.assetid: c6f9674b-89fe-4e1e-b814-6ddd98a9cb98
@@ -80,15 +80,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 Array of constant buffers (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>) being given to the device.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

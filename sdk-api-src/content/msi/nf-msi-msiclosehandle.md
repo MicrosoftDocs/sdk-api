@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiCloseHandle
 title: MsiCloseHandle function (msi.h)
-description: The MsiCloseHandle function closes an open installation handle.
+description: The MsiCloseHandle function closes an open installation handle.helpviewer_keywords: ["MsiCloseHandle","MsiCloseHandle function","_msi_msiclosehandle","msi/MsiCloseHandle","setup.msiclosehandle"]
 old-location: setup\msiclosehandle.htm
 tech.root: Msi
 ms.assetid: b9e90ed4-fda8-4628-a713-67c651e1b572

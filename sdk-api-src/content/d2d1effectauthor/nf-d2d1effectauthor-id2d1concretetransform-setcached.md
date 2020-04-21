@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ConcreteTransform.SetCached
 title: ID2D1ConcreteTransform::SetCached (d2d1effectauthor.h)
-description: Sets whether the output of the specified transform is cached.
+description: Sets whether the output of the specified transform is cached.helpviewer_keywords: ["ID2D1ConcreteTransform interface [Direct2D]","SetCached method","ID2D1ConcreteTransform.SetCached","ID2D1ConcreteTransform::SetCached","SetCached","SetCached method [Direct2D]","SetCached method [Direct2D]","ID2D1ConcreteTransform interface","d2d1effectauthor/ID2D1ConcreteTransform::SetCached","direct2d.id2d1concretetransform_setcached"]
 old-location: direct2d\id2d1concretetransform_setcached.htm
 tech.root: Direct2D
 ms.assetid: A1600D5A-BEE9-4EBE-BC2E-53B6B80EE4EA
@@ -63,15 +63,6 @@ Sets whether the output of the specified transform is cached.
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if the output should be cached; otherwise,  <b>FALSE</b>.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

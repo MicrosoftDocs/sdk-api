@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.add
 title: IWMPFolderMonitorServices::add (wmp.h)
-description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The add method adds a folder to the list of monitored folders.
+description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The add method adds a folder to the list of monitored folders.helpviewer_keywords: ["IWMPFolderMonitorServices interface [Windows Media Player]","add method","IWMPFolderMonitorServices.add","IWMPFolderMonitorServices::add","IWMPFolderMonitorServicesadd","add","add method [Windows Media Player]","add method [Windows Media Player]","IWMPFolderMonitorServices interface","wmp.iwmpfoldermonitorservices_add","wmp/IWMPFolderMonitorServices::add"]
 old-location: wmp\iwmpfoldermonitorservices_add.htm
 tech.root: WMP
 ms.assetid: f12bbc31-ce9d-4d0c-af1e-9078e7948eeb

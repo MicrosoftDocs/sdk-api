@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.OpenPlaylistSwitch
 title: IWMPEvents::OpenPlaylistSwitch (wmp.h)
-description: The OpenPlaylistSwitch event occurs when a title on a DVD begins playing.
+description: The OpenPlaylistSwitch event occurs when a title on a DVD begins playing.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","OpenPlaylistSwitch method","IWMPEvents.OpenPlaylistSwitch","IWMPEvents::OpenPlaylistSwitch","IWMPEventsOpenPlaylistSwitch","OpenPlaylistSwitch","OpenPlaylistSwitch method [Windows Media Player]","OpenPlaylistSwitch method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__openplaylistswitch","wmp/IWMPEvents::OpenPlaylistSwitch"]
 old-location: wmp\iwmpevents_iwmpevents__openplaylistswitch.htm
 tech.root: WMP
 ms.assetid: 08fef94e-82ef-4606-a7d5-6258fddd8717
@@ -63,15 +63,6 @@ The <b>OpenPlaylistSwitch</b> event occurs when a title on a DVD begins playing.
 ### -param pItem [in]
 
 Pointer to an <b>IDispatch</b> interface for the given playlist.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

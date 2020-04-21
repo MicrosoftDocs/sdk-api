@@ -1,7 +1,7 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PostCommitSnapshots
 title: IVssProviderCreateSnapshotSet::PostCommitSnapshots (vsprov.h)
-description: Is called after all providers involved in the shadow copy set have succeeded with CommitSnapshots.
+description: Is called after all providers involved in the shadow copy set have succeeded with CommitSnapshots.helpviewer_keywords: ["IVssProviderCreateSnapshotSet interface [VSS]","PostCommitSnapshots method","IVssProviderCreateSnapshotSet.PostCommitSnapshots","IVssProviderCreateSnapshotSet::PostCommitSnapshots","PostCommitSnapshots","PostCommitSnapshots method [VSS]","PostCommitSnapshots method [VSS]","IVssProviderCreateSnapshotSet interface","base.ivssprovidercreatesnapshotset_postcommitsnapshots","vsprov/IVssProviderCreateSnapshotSet::PostCommitSnapshots"]
 old-location: base\ivssprovidercreatesnapshotset_postcommitsnapshots.htm
 tech.root: VSS
 ms.assetid: 191b263b-1bcf-4617-95d4-5b4c1ed714ee

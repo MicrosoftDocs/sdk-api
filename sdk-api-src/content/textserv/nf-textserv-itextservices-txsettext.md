@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextServices.TxSetText
 title: ITextServices::TxSetText (textserv.h)
-description: Sets all of the text in the control.
+description: Sets all of the text in the control.helpviewer_keywords: ["ITextServices interface [Windows Controls]","TxSetText method","ITextServices.TxSetText","ITextServices::TxSetText","TxSetText","TxSetText method [Windows Controls]","TxSetText method [Windows Controls]","ITextServices interface","_win32_ITextServices_TxSetText","_win32_ITextServices_TxSetText_cpp","controls.ITextServices_TxSetText","controls._win32_ITextServices_TxSetText","textserv/ITextServices::TxSetText"]
 old-location: controls\ITextServices_TxSetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsettext.htm

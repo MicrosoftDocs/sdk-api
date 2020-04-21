@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchFindExtension
 title: PathCchFindExtension function (pathcch.h)
-description: Searches a path to find its file name extension, such as &#0034;.exe&#0034; or &#0034;.ini&#0034;.
+description: Searches a path to find its file name extension, such as &#0034;.exe&#0034; or &#0034;.ini&#0034;.helpviewer_keywords: ["PathCchFindExtension","PathCchFindExtension function [Windows Shell]","pathcch/PathCchFindExtension","shell.PathCchFindExtension"]
 old-location: shell\PathCchFindExtension.htm
 tech.root: shell
 ms.assetid: dac6cf02-7b53-449c-b788-4a7b6d1622ed
@@ -50,18 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Searches a path to find its file name extension, such as ".exe" or ".ini". This function does not search for a specific extension; it searches for the presence of any extension.
 
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathfindextensiona">PathFindExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathfindextensiona">PathFindExtension</a> to prevent the possibility of a buffer overrun.</div>
 
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathfindextensiona">PathFindExtension</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
-
-
 
 
 ### -param pszPath [in]
@@ -81,9 +77,5 @@ The address of a pointer that, when this function returns successfully, points t
 
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

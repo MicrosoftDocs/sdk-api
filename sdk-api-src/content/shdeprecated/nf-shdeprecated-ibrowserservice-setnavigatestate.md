@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetNavigateState
 title: IBrowserService::SetNavigateState (shdeprecated.h)
-description: Deprecated. Sets the current navigation state. This method affects the cursor and animation.
+description: Deprecated. Sets the current navigation state. This method affects the cursor and animation.helpviewer_keywords: ["BNS_BEGIN_NAVIGATE","BNS_NAVIGATE","BNS_NORMAL","IBrowserService interface [Windows Shell]","SetNavigateState method","IBrowserService.SetNavigateState","IBrowserService::SetNavigateState","SetNavigateState","SetNavigateState method [Windows Shell]","SetNavigateState method [Windows Shell]","IBrowserService interface","shdeprecated/IBrowserService::SetNavigateState","shell.IBrowserService_SetNavigateState","zone_IBrowserService_SetNavigateState"]
 old-location: shell\IBrowserService_SetNavigateState.htm
 tech.root: shell
 ms.assetid: 3cdbe902-f208-43f8-9019-d61c22635196

@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateSmoothStopTransition
 title: IUIAnimationTransitionLibrary2::CreateSmoothStopTransition (uianimation.h)
-description: Creates a smooth-stop scalar transition.
+description: Creates a smooth-stop scalar transition.helpviewer_keywords: ["CreateSmoothStopTransition","CreateSmoothStopTransition method [Windows Animation]","CreateSmoothStopTransition method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateSmoothStopTransition method","IUIAnimationTransitionLibrary2.CreateSmoothStopTransition","IUIAnimationTransitionLibrary2::CreateSmoothStopTransition","uianimation.iuianimationtransitionlibrary2_createsmoothstoptransition","uianimation/IUIAnimationTransitionLibrary2::CreateSmoothStopTransition"]
 old-location: uianimation\iuianimationtransitionlibrary2_createsmoothstoptransition.htm
 tech.root: UIAnimation
 ms.assetid: 011FFBF8-31A9-4253-B034-5836B7B74409

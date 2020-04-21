@@ -1,7 +1,7 @@
 ---
 UID: NS:naptypes.tagIpv4Address
 title: Ipv4Address (naptypes.h)
-description: Defines an IPv4 address.
+description: Defines an IPv4 address.helpviewer_keywords: ["Ipv4Address","Ipv4Address structure [NAP]","nap.ipv4address_struct","naptypes/Ipv4Address"]
 old-location: nap\ipv4address_struct.htm
 tech.root: NAP
 ms.assetid: 75f1c6db-c1d5-46dd-b455-ffe49af921d2

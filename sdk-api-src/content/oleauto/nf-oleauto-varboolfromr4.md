@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBoolFromR4
 title: VarBoolFromR4 function (oleauto.h)
-description: Converts a float value to a Boolean value.
+description: Converts a float value to a Boolean value.helpviewer_keywords: ["VarBoolFromR4","VarBoolFromR4 function [Automation]","_oa96_VarBoolFromR4","automat.varboolfromr4","oleauto/VarBoolFromR4"]
 old-location: automat\varboolfromr4.htm
 tech.root: automat
 ms.assetid: c382d989-7009-4ea5-b2c8-fe4857296f4a

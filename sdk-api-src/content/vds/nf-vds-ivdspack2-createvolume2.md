@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsPack2.CreateVolume2
 title: IVdsPack2::CreateVolume2 (vds.h)
-description: Creates a volume in a disk pack with an optional alignment parameter.
+description: Creates a volume in a disk pack with an optional alignment parameter.helpviewer_keywords: ["CreateVolume2","CreateVolume2 method","CreateVolume2 method","IVdsPack2 interface","IVdsPack2 interface","CreateVolume2 method","IVdsPack2.CreateVolume2","IVdsPack2::CreateVolume2","base.ivdspack2_createvolume2","vds/IVdsPack2::CreateVolume2"]
 old-location: base\ivdspack2_createvolume2.htm
 tech.root: VDS
 ms.assetid: cc7de88b-af6c-4d39-9297-49e33810466a

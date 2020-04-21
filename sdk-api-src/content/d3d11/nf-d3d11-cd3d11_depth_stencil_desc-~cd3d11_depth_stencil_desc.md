@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.CD3D11_DEPTH_STENCIL_DESC.~CD3D11_DEPTH_STENCIL_DESC
 title: CD3D11_DEPTH_STENCIL_DESC::~CD3D11_DEPTH_STENCIL_DESC (d3d11.h)
-description: Destroys an instance of a CD3D11_DEPTH_STENCIL_DESC structure.
+description: Destroys an instance of a CD3D11_DEPTH_STENCIL_DESC structure.helpviewer_keywords: ["CD3D11_DEPTH_STENCIL_DESC interface [Direct3D 11]","~CD3D11_DEPTH_STENCIL_DESC destructor","CD3D11_DEPTH_STENCIL_DESC.~CD3D11_DEPTH_STENCIL_DESC","CD3D11_DEPTH_STENCIL_DESC::~CD3D11_DEPTH_STENCIL_DESC","CD3D11_DEPTH_STENCIL_DESC::~CD3D11_DEPTH_STENCIL_DESC()","d3d11/CD3D11_DEPTH_STENCIL_DESC::~CD3D11_DEPTH_STENCIL_DESC","direct3d11.cd3d11_depth_stencil_desc__cd3d11_depth_stencil_desc__","~CD3D11_DEPTH_STENCIL_DESC","~CD3D11_DEPTH_STENCIL_DESC destructor [Direct3D 11]","~CD3D11_DEPTH_STENCIL_DESC destructor [Direct3D 11]","CD3D11_DEPTH_STENCIL_DESC interface"]
 old-location: direct3d11\cd3d11_depth_stencil_desc__cd3d11_depth_stencil_desc__.htm
 tech.root: direct3d11
 ms.assetid: FD4813F6-54C5-44F8-B700-FB8A6B0E8DDF

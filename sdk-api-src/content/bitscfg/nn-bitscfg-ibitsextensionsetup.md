@@ -1,7 +1,7 @@
 ---
 UID: NN:bitscfg.IBITSExtensionSetup
 title: IBITSExtensionSetup (bitscfg.h)
-description: Use the IBITSExtensionSetup interface to enable or disable BITS uploads to a virtual directory.
+description: Use the IBITSExtensionSetup interface to enable or disable BITS uploads to a virtual directory.helpviewer_keywords: ["IBITSExtensionSetup","IBITSExtensionSetup interface [BITS]","IBITSExtensionSetup interface [BITS]","described","_drz_ibitsextensionsetup","bits.ibitsextensionsetup","bitscfg/IBITSExtensionSetup"]
 old-location: bits\ibitsextensionsetup.htm
 tech.root: Bits
 ms.assetid: 840608ef-9c07-43f7-9cfd-20996a18bb50

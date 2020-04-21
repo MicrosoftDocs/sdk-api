@@ -1,7 +1,7 @@
 ---
 UID: NF:srpapi.SrpCloseThreadNetworkContext
 title: SrpCloseThreadNetworkContext function (srpapi.h)
-description: Restores a thread back to the original context, which may have been optionally returned from SrpCreateThreadNetworkContext.
+description: Restores a thread back to the original context, which may have been optionally returned from SrpCreateThreadNetworkContext.helpviewer_keywords: ["EDP.srpclosethreadnetworkcontext","SrpCloseThreadNetworkContext","SrpCloseThreadNetworkContext function","srpapi/SrpCloseThreadNetworkContext"]
 old-location: edp\srpclosethreadnetworkcontext.htm
 tech.root: EDP
 ms.assetid: AB8DD527-BABA-40D0-A423-2BEAAA544B2B

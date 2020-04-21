@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.CreateFromBoundingBox
 title: BoundingOrientedBox::CreateFromBoundingBox
-description: Creates a BoundingOrientedBox from a BoundingBox.
+description: Creates a BoundingOrientedBox from a BoundingBox.helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","CreateFromBoundingBox method","BoundingOrientedBox.CreateFromBoundingBox","BoundingOrientedBox::CreateFromBoundingBox","CreateFromBoundingBox","CreateFromBoundingBox method [DirectX Math Support APIs]","CreateFromBoundingBox method [DirectX Math Support APIs]","BoundingOrientedBox interface","dxmath.boundingorientedbox_createfromboundingbox"]
 old-location: dxmath\boundingorientedbox_createfromboundingbox.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.CreateFromBoundingBox(BoundingOrientedBox@,BoundingBox)
@@ -65,15 +65,6 @@ The new <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3
 ### -param box [in, ref]
 
 The [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox) the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> should contain.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

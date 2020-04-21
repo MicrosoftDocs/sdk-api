@@ -1,7 +1,7 @@
 ---
 UID: NF:swdevice.SwDeviceClose
 title: SwDeviceClose function (swdevice.h)
-description: Closes the software device handle. When the handle is closed, PnP will initiate the process of removing the device.
+description: Closes the software device handle. When the handle is closed, PnP will initiate the process of removing the device.helpviewer_keywords: ["SwDeviceClose","SwDeviceClose function","swdevice.swdeviceclose","swdevice/SwDeviceClose"]
 old-location: swdevice\swdeviceclose.htm
 tech.root: swdevice
 ms.assetid: C5E659CD-203A-4021-AB3F-3AFEE2B31E7C
@@ -62,15 +62,6 @@ Closes the software device handle.  When the handle is closed, PnP will initiate
 ### -param hSwDevice [in]
 
 The <b>HSWDEVICE</b> handle to close.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

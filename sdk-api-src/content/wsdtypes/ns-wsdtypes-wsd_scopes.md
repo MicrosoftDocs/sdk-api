@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdtypes._WSD_SCOPES
 title: WSD_SCOPES (wsdtypes.h)
-description: A collection of scopes used in WS-Discovery messaging.
+description: A collection of scopes used in WS-Discovery messaging.helpviewer_keywords: ["WSD_SCOPES","WSD_SCOPES structure","ncd.wsd_scopes_struct","wsdtypes/WSD_SCOPES"]
 old-location: ncd\wsd_scopes_struct.htm
 tech.root: WsdApi
 ms.assetid: 3415fef0-dbf4-4ece-bad0-6cd6831404db

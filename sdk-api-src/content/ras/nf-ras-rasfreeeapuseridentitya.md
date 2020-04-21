@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasFreeEapUserIdentityA
 title: RasFreeEapUserIdentityA function (ras.h)
-description: Use the RasFreeEapUserIdentity function to free the memory buffer returned by RasGetEapUserIdentity.
+description: Use the RasFreeEapUserIdentity function to free the memory buffer returned by RasGetEapUserIdentity.helpviewer_keywords: ["RasFreeEapUserIdentity","RasFreeEapUserIdentity function [RAS]","RasFreeEapUserIdentityA","RasFreeEapUserIdentityW","_ras_rasfreeeapuseridentity","ras/RasFreeEapUserIdentity","ras/RasFreeEapUserIdentityA","ras/RasFreeEapUserIdentityW","rras.rasfreeeapuseridentity"]
 old-location: rras\rasfreeeapuseridentity.htm
 tech.root: RRAS
 ms.assetid: 84102fdc-b44a-415e-b67e-58c82e662a23
@@ -67,15 +67,6 @@ Pointer to the
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377247(v=vs.85)">RASEAPUSERIDENTITY</a> structure returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuseridentitya">RasGetEapUserIdentity</a> function. 
 <b>RasFreeEapUserIdentity</b> frees the memory occupied by this structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

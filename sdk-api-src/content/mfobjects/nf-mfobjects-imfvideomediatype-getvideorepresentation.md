@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFVideoMediaType.GetVideoRepresentation
 title: IMFVideoMediaType::GetVideoRepresentation (mfobjects.h)
-description: Retrieves an alternative representation of the media type.
+description: Retrieves an alternative representation of the media type.helpviewer_keywords: ["2f8fddef-b9b8-4473-a8d0-d6e44ad32648","GetVideoRepresentation","GetVideoRepresentation method [Media Foundation]","GetVideoRepresentation method [Media Foundation]","IMFVideoMediaType interface","IMFVideoMediaType interface [Media Foundation]","GetVideoRepresentation method","IMFVideoMediaType.GetVideoRepresentation","IMFVideoMediaType::GetVideoRepresentation","mf.imfvideomediatype_getvideorepresentation","mfobjects/IMFVideoMediaType::GetVideoRepresentation"]
 old-location: mf\imfvideomediatype_getvideorepresentation.htm
 tech.root: medfound
 ms.assetid: 2f8fddef-b9b8-4473-a8d0-d6e44ad32648

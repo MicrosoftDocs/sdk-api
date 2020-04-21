@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymRegisterFunctionEntryCallback
 title: SymRegisterFunctionEntryCallback function (dbghelp.h)
-description: Registers a callback function for use by the stack walking procedure on Alpha computers.
+description: Registers a callback function for use by the stack walking procedure on Alpha computers.helpviewer_keywords: ["SymRegisterFunctionEntryCallback","SymRegisterFunctionEntryCallback function","SymRegisterFunctionEntryCallback64","SymRegisterFunctionEntryCallback64 function","_win32_symregisterfunctionentrycallback64","base.symregisterfunctionentrycallback64","dbghelp/SymRegisterFunctionEntryCallback","dbghelp/SymRegisterFunctionEntryCallback64"]
 old-location: base\symregisterfunctionentrycallback64.htm
 tech.root: Debug
 ms.assetid: 5915055f-2c6c-4a0e-ad0f-c5bd74558802

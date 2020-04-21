@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.SetMenuToolbar
 title: IShellMenu::SetMenuToolbar (shobjidl_core.h)
-description: Adds a menu to the menuband.
+description: Adds a menu to the menuband.helpviewer_keywords: ["IShellMenu interface [Windows Shell]","SetMenuToolbar method","IShellMenu.SetMenuToolbar","IShellMenu::SetMenuToolbar","SMSET_BOTTOM","SMSET_DONTOWN","SMSET_TOP","SetMenuToolbar","SetMenuToolbar method [Windows Shell]","SetMenuToolbar method [Windows Shell]","IShellMenu interface","_shell_IShellMenu_SetMenuToolbar","shell.IShellMenu_SetMenuToolbar","shobjidl_core/IShellMenu::SetMenuToolbar"]
 old-location: shell\IShellMenu_SetMenuToolbar.htm
 tech.root: shell
 ms.assetid: 6067f2be-883a-4271-95ad-16fd868b37a0

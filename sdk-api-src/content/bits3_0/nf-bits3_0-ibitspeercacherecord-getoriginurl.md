@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetOriginUrl
 title: IBitsPeerCacheRecord::GetOriginUrl (bits3_0.h)
-description: Gets the origin URL of the cached file.
+description: Gets the origin URL of the cached file.helpviewer_keywords: ["GetOriginUrl","GetOriginUrl method [BITS]","GetOriginUrl method [BITS]","IBitsPeerCacheRecord interface","IBitsPeerCacheRecord interface [BITS]","GetOriginUrl method","IBitsPeerCacheRecord.GetOriginUrl","IBitsPeerCacheRecord::GetOriginUrl","bits.ibitspeercacherecord_getoriginurl","bits3_0/IBitsPeerCacheRecord::GetOriginUrl"]
 old-location: bits\ibitspeercacherecord_getoriginurl.htm
 tech.root: Bits
 ms.assetid: 9d74df3a-89e0-4a3a-82f3-c2e79c609b21

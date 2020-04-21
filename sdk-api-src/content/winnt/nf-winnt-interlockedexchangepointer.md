@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.InterlockedExchangePointer
 title: InterlockedExchangePointer function (winnt.h)
-description: Atomically exchanges a pair of addresses.
+description: Atomically exchanges a pair of addresses.helpviewer_keywords: ["InterlockedExchangePointer","InterlockedExchangePointer function","_win32_interlockedexchangepointer","base.interlockedexchangepointer","winnt/InterlockedExchangePointer"]
 old-location: base\interlockedexchangepointer.htm
 tech.root: Sync
 ms.assetid: 479aede8-e9e3-42c2-9081-94c150c7f274

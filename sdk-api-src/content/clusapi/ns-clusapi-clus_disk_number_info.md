@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._CLUS_DISK_NUMBER_INFO
 title: CLUS_DISK_NUMBER_INFO (clusapi.h)
-description: Represents information about the disk number of a physical disk.
+description: Represents information about the disk number of a physical disk.helpviewer_keywords: ["*PCLUS_DISK_NUMBER_INFO","CLUS_DISK_NUMBER_INFO","CLUS_DISK_NUMBER_INFO structure [Failover Cluster]","PCLUS_DISK_NUMBER_INFO","PCLUS_DISK_NUMBER_INFO structure pointer [Failover Cluster]","clusapi/CLUS_DISK_NUMBER_INFO","clusapi/PCLUS_DISK_NUMBER_INFO","mscs.clus_disk_number_info"]
 old-location: mscs\clus_disk_number_info.htm
 tech.root: MsCS
 ms.assetid: FF13CF5E-67EA-41B8-986C-B90691F82BF1

@@ -1,7 +1,7 @@
 ---
 UID: NF:ddeml.DdeGetLastError
 title: DdeGetLastError function (ddeml.h)
-description: Retrieves the most recent error code set by the failure of a Dynamic Data Exchange Management Library (DDEML) function and resets the error code to DMLERR_NO_ERROR.
+description: Retrieves the most recent error code set by the failure of a Dynamic Data Exchange Management Library (DDEML) function and resets the error code to DMLERR_NO_ERROR.helpviewer_keywords: ["DdeGetLastError","DdeGetLastError function [Data Exchange]","_win32_DdeGetLastError","_win32_ddegetlasterror_cpp","dataxchg.ddegetlasterror","ddeml/DdeGetLastError","winui._win32_ddegetlasterror"]
 old-location: dataxchg\ddegetlasterror.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddegetlasterror.htm

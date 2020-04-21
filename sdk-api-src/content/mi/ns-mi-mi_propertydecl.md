@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_PropertyDecl
 title: MI_PropertyDecl (mi.h)
-description: Represents a class property (element) in a class's declaration.
+description: Represents a class property (element) in a class's declaration.helpviewer_keywords: ["MI_FLAG_KEY","MI_FLAG_PROPERTY","MI_PropertyDecl","MI_PropertyDecl structure [Windows Management Infrastructure (MI)]","mi/MI_PropertyDecl","wmi._mi_propertydecl","wmi_v2.mi_propertydecl"]
 old-location: wmi_v2\mi_propertydecl.htm
 tech.root: wmi_v2
 ms.assetid: bc5e5c1e-3483-4762-8063-047308dc3652

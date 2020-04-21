@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.Add
 title: INetFwOpenPorts::Add (netfw.h)
-description: Opens a new port and adds it to the collection.
+description: Opens a new port and adds it to the collection.helpviewer_keywords: ["Add","Add method [ICS/ICF]","Add method [ICS/ICF]","INetFwOpenPorts interface","INetFwOpenPorts interface [ICS/ICF]","Add method","INetFwOpenPorts.Add","INetFwOpenPorts::Add","ics.inetfwopenports_add","netfw/INetFwOpenPorts::Add"]
 old-location: ics\inetfwopenports_add.htm
 tech.root: ics
 ms.assetid: fd97333d-9bd5-4ab2-9189-75a7f7f52622

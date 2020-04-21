@@ -1,7 +1,7 @@
 ---
 UID: NS:tssbx.__MIDL_IWTSSBPlugin_0007
 title: WTSSBX_MACHINE_INFO (tssbx.h)
-description: Contains information about a computer and its current state.
+description: Contains information about a computer and its current state.helpviewer_keywords: ["WTSSBX_MACHINE_INFO","WTSSBX_MACHINE_INFO structure [Remote Desktop Services]","__MIDL_IWTSSBPlugin_0007","termserv.wtssbx_machine_info","tssbx/WTSSBX_MACHINE_INFO"]
 old-location: termserv\wtssbx_machine_info.htm
 tech.root: TermServ
 ms.assetid: 88d49ae4-bf48-4b04-8a16-58d32efd62fa

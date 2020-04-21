@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.OpenSharedHandle
 title: ID3D12Device::OpenSharedHandle (d3d12.h)
-description: Opens a handle for shared resources, shared heaps, and shared fences, by using HANDLE and REFIID.
+description: Opens a handle for shared resources, shared heaps, and shared fences, by using HANDLE and REFIID.helpviewer_keywords: ["ID3D12Device interface","OpenSharedHandle method","ID3D12Device.OpenSharedHandle","ID3D12Device::OpenSharedHandle","OpenSharedHandle","OpenSharedHandle method","OpenSharedHandle method","ID3D12Device interface","d3d12/ID3D12Device::OpenSharedHandle","direct3d12.id3d12device_opensharedhandle"]
 old-location: direct3d12\id3d12device_opensharedhandle.htm
 tech.root: direct3d12
 ms.assetid: 4F428B06-2906-4ED6-BB75-5DACF2155FA9

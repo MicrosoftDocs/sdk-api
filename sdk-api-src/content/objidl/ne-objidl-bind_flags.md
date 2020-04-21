@@ -1,7 +1,7 @@
 ---
 UID: NE:objidl.tagBIND_FLAGS
 title: BIND_FLAGS (objidl.h)
-description: Controls aspects of moniker binding operations.
+description: Controls aspects of moniker binding operations.helpviewer_keywords: ["BIND_FLAGS","BIND_FLAGS enumeration [COM]","BIND_JUSTTESTEXISTENCE","BIND_MAYBOTHERUSER","_com_BIND_FLAGS","com.bind_flags","objidl/BIND_FLAGS","objidl/BIND_JUSTTESTEXISTENCE","objidl/BIND_MAYBOTHERUSER"]
 old-location: com\bind_flags.htm
 tech.root: com
 ms.assetid: e8884e82-5de2-4a1f-b79c-d431afe9e87e

@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteClass
 title: DhcpDeleteClass function (dhcpsapi.h)
-description: Deletes a DHCP class from the DHCP server.
+description: Deletes a DHCP class from the DHCP server.helpviewer_keywords: ["DhcpDeleteClass","DhcpDeleteClass function [DHCP]","dhcp.dhcpdeleteclass","dhcpsapi/DhcpDeleteClass"]
 old-location: dhcp\dhcpdeleteclass.htm
 tech.root: DHCP
 ms.assetid: 45659805-d0d0-4b84-ac98-4a0f53133b0c

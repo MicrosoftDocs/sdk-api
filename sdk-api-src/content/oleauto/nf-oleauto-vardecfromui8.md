@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarDecFromUI8
 title: VarDecFromUI8 function (oleauto.h)
-description: Converts an 8-byte unsigned integer value to a decimal value.
+description: Converts an 8-byte unsigned integer value to a decimal value.helpviewer_keywords: ["VarDecFromUI8","VarDecFromUI8 function [Automation]","_oa96_VarDecFromUI8","automat.vardecfromui8","oleauto/VarDecFromUI8"]
 old-location: automat\vardecfromui8.htm
 tech.root: automat
 ms.assetid: 67f408d2-6510-4b3d-83a4-e18ae6492aea

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetFontFile
 title: IDWriteFontFaceReference::GetFontFile (dwrite_3.h)
-description: Obtains the font file representing a font face.
+description: Obtains the font file representing a font face.helpviewer_keywords: ["GetFontFile","GetFontFile method [Direct Write]","GetFontFile method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","GetFontFile method","IDWriteFontFaceReference.GetFontFile","IDWriteFontFaceReference::GetFontFile","directwrite.idwritefontfacereference_getfontfile","dwrite_3/IDWriteFontFaceReference::GetFontFile"]
 old-location: directwrite\idwritefontfacereference_getfontfile.htm
 tech.root: DirectWrite
 ms.assetid: 4ceef760-32af-5b55-62ca-88adcc23696f

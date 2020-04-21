@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.GetRoot
 title: ID2D1SvgDocument::GetRoot (d2d1svg.h)
-description: Gets the root element of the document.
+description: Gets the root element of the document.helpviewer_keywords: ["GetRoot","GetRoot method [Direct2D]","GetRoot method [Direct2D]","ID2D1SvgDocument interface","ID2D1SvgDocument interface [Direct2D]","GetRoot method","ID2D1SvgDocument.GetRoot","ID2D1SvgDocument::GetRoot","d2d1svg/ID2D1SvgDocument::GetRoot","direct2d.id2d1svgdocument_getroot"]
 old-location: direct2d\id2d1svgdocument_getroot.htm
 tech.root: Direct2D
 ms.assetid: 01E11639-7564-41F4-BFA4-28B05FC50583
@@ -62,15 +62,6 @@ Gets the root element of the document.
 Type: <b>ID2D1SvgElement**</b>
 
 Outputs the root element of the document.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Id
 title: IWdsTransportNamespace::get_Id (wdstptmgmt.h)
-description: Receives the unique namespace ID for a namespace that has been registered on the server.
+description: Receives the unique namespace ID for a namespace that has been registered on the server.helpviewer_keywords: ["IWdsTransportNamespace interface [Windows Deployment Services]","Id property","IWdsTransportNamespace.Id","IWdsTransportNamespace.get_Id","IWdsTransportNamespace::Id","IWdsTransportNamespace::get_Id","Id property [Windows Deployment Services]","Id property [Windows Deployment Services]","IWdsTransportNamespace interface","get_Id","wds.iwdstransportnamespace_id","wdstptmgmt/IWdsTransportNamespace::Id","wdstptmgmt/IWdsTransportNamespace::get_Id"]
 old-location: wds\iwdstransportnamespace_id.htm
 tech.root: wds
 ms.assetid: cdbe5807-ba03-45ce-be05-34d352357e04

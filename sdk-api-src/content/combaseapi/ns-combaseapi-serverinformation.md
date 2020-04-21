@@ -1,7 +1,7 @@
 ---
 UID: NS:combaseapi.tagServerInformation
 title: ServerInformation (combaseapi.h)
-description: Represents the implementation of a Component Object Model (COM) interface in a server process.
+description: Represents the implementation of a Component Object Model (COM) interface in a server process.helpviewer_keywords: ["*PServerInformation","PServerInformation","PServerInformation structure pointer [Windows Runtime]","ServerInformation","ServerInformation structure [Windows Runtime]","combaseapi/PServerInformation","combaseapi/ServerInformation","winrt.serverinformation"]
 old-location: winrt\serverinformation.htm
 tech.root: WinRT
 ms.assetid: 568246B8-48F7-4A83-B7DE-24F36B2C3F49

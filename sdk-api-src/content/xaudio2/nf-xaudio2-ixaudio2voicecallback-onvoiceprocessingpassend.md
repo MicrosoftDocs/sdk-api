@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnVoiceProcessingPassEnd
 title: IXAudio2VoiceCallback::OnVoiceProcessingPassEnd (xaudio2.h)
-description: Called just after the processing pass for the voice ends.
+description: Called just after the processing pass for the voice ends.helpviewer_keywords: ["IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs]","OnVoiceProcessingPassEnd method","IXAudio2VoiceCallback.OnVoiceProcessingPassEnd","IXAudio2VoiceCallback::OnVoiceProcessingPassEnd","OnVoiceProcessingPassEnd","OnVoiceProcessingPassEnd method [XAudio2 Audio Mixing APIs]","OnVoiceProcessingPassEnd method [XAudio2 Audio Mixing APIs]","IXAudio2VoiceCallback interface","xaudio2.ixaudio2voicecallback_interface_onvoiceprocessingpassend","xaudio2/IXAudio2VoiceCallback::OnVoiceProcessingPassEnd"]
 old-location: xaudio2\ixaudio2voicecallback_interface_onvoiceprocessingpassend.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnVoiceProcessingPassEnd
@@ -55,15 +55,6 @@ Called just after the processing pass for the voice ends.
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

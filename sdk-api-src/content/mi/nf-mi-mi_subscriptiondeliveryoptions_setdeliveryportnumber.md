@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber
 title: MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber function (mi.h)
-description: Sets the subscription delivery port number.
+description: Sets the subscription delivery port number.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber","MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber","wmi_v2.mi_subscriptiondeliveryoptions_setdeliveryportnumber"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setdeliveryportnumber.htm
 tech.root: wmi_v2
 ms.assetid: e5498e1a-d08b-421f-ba31-35b1378af871

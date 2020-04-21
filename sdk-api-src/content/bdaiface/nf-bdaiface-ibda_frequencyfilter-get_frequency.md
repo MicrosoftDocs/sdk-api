@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.get_Frequency
 title: IBDA_FrequencyFilter::get_Frequency (bdaiface.h)
-description: The get_Frequency method retrieves the frequency.
+description: The get_Frequency method retrieves the frequency.helpviewer_keywords: ["IBDA_FrequencyFilter interface [Microsoft TV Technologies]","get_Frequency method","IBDA_FrequencyFilter.get_Frequency","IBDA_FrequencyFilter::get_Frequency","IBDA_FrequencyFilterget_Frequency","bdaiface/IBDA_FrequencyFilter::get_Frequency","get_Frequency","get_Frequency method [Microsoft TV Technologies]","get_Frequency method [Microsoft TV Technologies]","IBDA_FrequencyFilter interface","mstv.ibda_frequencyfilter_get_frequency"]
 old-location: mstv\ibda_frequencyfilter_get_frequency.htm
 tech.root: mstv
 ms.assetid: 0eba0f92-45a7-4c5e-9450-f3c7a176288c

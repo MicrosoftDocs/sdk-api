@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetBoundsRect
 title: GetBoundsRect function (wingdi.h)
-description: The GetBoundsRect function obtains the current accumulated bounding rectangle for a specified device context.
+description: The GetBoundsRect function obtains the current accumulated bounding rectangle for a specified device context.helpviewer_keywords: ["DCB_RESET","GetBoundsRect","GetBoundsRect function [Windows GDI]","_win32_GetBoundsRect","gdi.getboundsrect","wingdi/GetBoundsRect"]
 old-location: gdi\getboundsrect.htm
 tech.root: gdi
 ms.assetid: 139d4550-9adc-48b3-a15c-03ae1f1ef1ab

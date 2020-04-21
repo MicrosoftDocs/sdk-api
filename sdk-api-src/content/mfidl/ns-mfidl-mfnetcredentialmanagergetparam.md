@@ -1,7 +1,7 @@
 ---
 UID: NS:mfidl._MFNetCredentialManagerGetParam
 title: MFNetCredentialManagerGetParam (mfidl.h)
-description: Contains the authentication information for the credential manager.
+description: Contains the authentication information for the credential manager.helpviewer_keywords: ["951d74df-11f8-4623-a81b-63e632f80d0e","MFNetCredentialManagerGetParam","MFNetCredentialManagerGetParam structure [Media Foundation]","mf.mfnetcredentialmanagergetparam","mfidl/MFNetCredentialManagerGetParam"]
 old-location: mf\mfnetcredentialmanagergetparam.htm
 tech.root: medfound
 ms.assetid: 951d74df-11f8-4623-a81b-63e632f80d0e

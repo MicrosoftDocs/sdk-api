@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.RemoveSubscriberProperty
 title: IEventSubscription::RemoveSubscriberProperty (eventsys.h)
-description: Removes a property and its value from the property bag that defines subscriber context.
+description: Removes a property and its value from the property bag that defines subscriber context.helpviewer_keywords: ["IEventSubscription interface [COM+]","RemoveSubscriberProperty method","IEventSubscription.RemoveSubscriberProperty","IEventSubscription::RemoveSubscriberProperty","RemoveSubscriberProperty","RemoveSubscriberProperty method [COM+]","RemoveSubscriberProperty method [COM+]","IEventSubscription interface","_cos_IEventSubscription_RemoveSubscriberProperty","cos.ieventsubscription_removesubscriberproperty","eventsys/IEventSubscription::RemoveSubscriberProperty"]
 old-location: cos\ieventsubscription_removesubscriberproperty.htm
 tech.root: cossdk
 ms.assetid: 3c0cd763-8528-4f8b-8a09-c36860cad9b7

@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmNetEventUnsubscribe0
 title: FwpmNetEventUnsubscribe0 function (fwpmu.h)
-description: Is used to cancel a net event subscription and stop receiving notifications.
+description: Is used to cancel a net event subscription and stop receiving notifications.helpviewer_keywords: ["FwpmNetEventUnsubscribe0","FwpmNetEventUnsubscribe0 function [Filtering]","fwp.fwpmneteventunsubscribe0","fwpmu/FwpmNetEventUnsubscribe0"]
 old-location: fwp\fwpmneteventunsubscribe0.htm
 tech.root: fwp
 ms.assetid: e7d6faba-c280-4867-a9d9-d1bf28e831ef

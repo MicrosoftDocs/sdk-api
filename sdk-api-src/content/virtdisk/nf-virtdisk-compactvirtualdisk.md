@@ -1,7 +1,7 @@
 ---
 UID: NF:virtdisk.CompactVirtualDisk
 title: CompactVirtualDisk function (virtdisk.h)
-description: Reduces the size of a virtual hard disk (VHD) backing store file.
+description: Reduces the size of a virtual hard disk (VHD) backing store file.helpviewer_keywords: ["CompactVirtualDisk","CompactVirtualDisk function [VHD]","vdssys/CompactVirtualDisk","vhd.compactvirtualdisk","virtdisk/CompactVirtualDisk"]
 old-location: vhd\compactvirtualdisk.htm
 tech.root: VStor
 ms.assetid: 8f887ef9-6be5-455a-8904-2047f2efe13c

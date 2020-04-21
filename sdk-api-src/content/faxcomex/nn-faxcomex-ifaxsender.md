@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxSender
 title: IFaxSender (faxcomex.h)
-description: The IFaxSender interface defines a messaging object used by a fax client application to retrieve and set sender information about fax senders. The object also includes methods to store sender data in and retrieve sender data from the local registry.
+description: The IFaxSender interface defines a messaging object used by a fax client application to retrieve and set sender information about fax senders. The object also includes methods to store sender data in and retrieve sender data from the local registry.helpviewer_keywords: ["IFaxSender","IFaxSender interface [Fax Service]","IFaxSender interface [Fax Service]","described","_mfax_faxsender_cpp","fax._mfax_faxsender_cpp","faxcomex/IFaxSender"]
 old-location: fax\_mfax_faxsender_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0gtu_cpp.htm

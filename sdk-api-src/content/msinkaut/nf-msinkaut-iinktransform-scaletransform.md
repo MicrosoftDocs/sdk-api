@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTransform.ScaleTransform
 title: IInkTransform::ScaleTransform (msinkaut.h)
-description: Applies the specified horizontal and vertical factors to the transform or ink.
+description: Applies the specified horizontal and vertical factors to the transform or ink.helpviewer_keywords: ["IInkTransform interface [Tablet PC]","ScaleTransform method","IInkTransform.ScaleTransform","IInkTransform::ScaleTransform","ScaleTransform","ScaleTransform method [Tablet PC]","ScaleTransform method [Tablet PC]","IInkTransform interface","a4140abe-adc8-492d-bb8c-96fba5ca3bd0","msinkaut/IInkTransform::ScaleTransform","tablet.inktransform_scaletransform"]
 old-location: tablet\inktransform_scaletransform.htm
 tech.root: tablet
 ms.assetid: 49da109e-afca-4695-94ab-e4ed00d82e5a

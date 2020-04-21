@@ -1,7 +1,7 @@
 ---
 UID: NF:msdrm.DRMAcquireIssuanceLicenseTemplate
 title: DRMAcquireIssuanceLicenseTemplate function (msdrm.h)
-description: Asynchronously retrieves issuance license templates from a server.
+description: Asynchronously retrieves issuance license templates from a server.helpviewer_keywords: ["DRMAcquireIssuanceLicenseTemplate","DRMAcquireIssuanceLicenseTemplate function [Active Directory Rights Management Services SDK 1.0]","DRM_AILT_CANCEL","DRM_AILT_NONSILENT","DRM_AILT_OBTAIN_ALL","msdrm/DRMAcquireIssuanceLicenseTemplate","rm.drmacquireissuancelicensetemplate"]
 old-location: rm\drmacquireissuancelicensetemplate.htm
 tech.root: AdRms_Sdk
 ms.assetid: 15f6d38a-d4f2-4af4-8bbc-bc44ac14db0c

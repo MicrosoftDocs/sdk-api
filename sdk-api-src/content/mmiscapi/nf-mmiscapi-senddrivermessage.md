@@ -1,7 +1,7 @@
 ---
 UID: NF:mmiscapi.SendDriverMessage
 title: SendDriverMessage function (mmiscapi.h)
-description: Sends the specified message to the installable driver.
+description: Sends the specified message to the installable driver.helpviewer_keywords: ["DRV_CONFIGURE","DRV_INSTALL","DRV_QUERYCONFIGURE","DRV_REMOVE","ISendDriverMessage","SendDriverMessage","SendDriverMessage function [Windows Multimedia]","_win32_SendDriverMessage","mmsystem/SendDriverMessage","multimedia.senddrivermessage"]
 old-location: multimedia\senddrivermessage.htm
 tech.root: Multimedia
 ms.assetid: 4787ccb7-3a32-4d55-9a3b-183e2f70735a

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.ImagehlpApiVersionEx
 title: ImagehlpApiVersionEx function (dbghelp.h)
-description: Modifies the version information of the library used by the application.
+description: Modifies the version information of the library used by the application.helpviewer_keywords: ["ImagehlpApiVersionEx","ImagehlpApiVersionEx function","_win32_imagehlpapiversionex","base.imagehlpapiversionex","dbghelp/ImagehlpApiVersionEx"]
 old-location: base\imagehlpapiversionex.htm
 tech.root: Debug
 ms.assetid: 86a26160-ebad-4d6e-b559-3d59f2beb5ca

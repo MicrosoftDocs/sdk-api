@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_ECC_SIGNATURE
 title: CERT_ECC_SIGNATURE (wincrypt.h)
-description: Contains the r and s values for an Elliptic Curve Digital Signature Algorithm (ECDSA) signature.
+description: Contains the r and s values for an Elliptic Curve Digital Signature Algorithm (ECDSA) signature.helpviewer_keywords: ["*PCERT_ECC_SIGNATURE","CERT_ECC_SIGNATURE","CERT_ECC_SIGNATURE structure [Security]","PCERT_ECC_SIGNATURE","PCERT_ECC_SIGNATURE structure pointer [Security]","security.cert_ecc_signature","wincrypt/CERT_ECC_SIGNATURE","wincrypt/PCERT_ECC_SIGNATURE"]
 old-location: security\cert_ecc_signature.htm
 tech.root: SecCrypto
 ms.assetid: f341d839-c06d-40e9-a6ed-79a627918110

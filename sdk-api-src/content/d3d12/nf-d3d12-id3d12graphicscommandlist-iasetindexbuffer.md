@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.IASetIndexBuffer
 title: ID3D12GraphicsCommandList::IASetIndexBuffer (d3d12.h)
-description: Sets the view for the index buffer.
+description: Sets the view for the index buffer.helpviewer_keywords: ["IASetIndexBuffer","IASetIndexBuffer method","IASetIndexBuffer method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","IASetIndexBuffer method","ID3D12GraphicsCommandList.IASetIndexBuffer","ID3D12GraphicsCommandList::IASetIndexBuffer","d3d12/ID3D12GraphicsCommandList::IASetIndexBuffer","direct3d12.id3d12graphicscommandlist_iasetindexbuffer"]
 old-location: direct3d12\id3d12graphicscommandlist_iasetindexbuffer.htm
 tech.root: direct3d12
 ms.assetid: EB776EC7-42F2-47D3-A1FA-771EC6C4E3AB
@@ -64,16 +64,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-
 
 The view specifies the index buffer's address, size, and <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>, as a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_index_buffer_view">D3D12_INDEX_BUFFER_VIEW</a> structure.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

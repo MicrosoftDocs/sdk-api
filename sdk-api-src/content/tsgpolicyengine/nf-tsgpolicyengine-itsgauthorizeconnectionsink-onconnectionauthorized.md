@@ -1,7 +1,7 @@
 ---
 UID: NF:tsgpolicyengine.ITSGAuthorizeConnectionSink.OnConnectionAuthorized
 title: ITSGAuthorizeConnectionSink::OnConnectionAuthorized (tsgpolicyengine.h)
-description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a connection.
+description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a connection.helpviewer_keywords: ["ITSGAuthorizeConnectionSink interface [Remote Desktop Services]","OnConnectionAuthorized method","ITSGAuthorizeConnectionSink.OnConnectionAuthorized","ITSGAuthorizeConnectionSink::OnConnectionAuthorized","OnConnectionAuthorized","OnConnectionAuthorized method [Remote Desktop Services]","OnConnectionAuthorized method [Remote Desktop Services]","ITSGAuthorizeConnectionSink interface","SESSION_TIMEOUT_ACTION_DISCONNECT","SESSION_TIMEOUT_ACTION_SILENT_REAUTH","termserv.itsgauthorizeconnectionsink_onconnectionauthorized","tsgpolicyengine/ITSGAuthorizeConnectionSink::OnConnectionAuthorized"]
 old-location: termserv\itsgauthorizeconnectionsink_onconnectionauthorized.htm
 tech.root: TermServ
 ms.assetid: 1151aa89-944b-4497-8a8c-c6d67fbd4051

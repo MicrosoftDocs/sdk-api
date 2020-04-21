@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.OMSetDepthStencilState
 title: ID3D10Device::OMSetDepthStencilState (d3d10.h)
-description: Sets the depth-stencil state of the output-merger stage.
+description: Sets the depth-stencil state of the output-merger stage.helpviewer_keywords: ["75af58f4-0720-3b37-1633-f4ae71d23ebd","ID3D10Device interface [Direct3D 10]","OMSetDepthStencilState method","ID3D10Device.OMSetDepthStencilState","ID3D10Device::OMSetDepthStencilState","OMSetDepthStencilState","OMSetDepthStencilState method [Direct3D 10]","OMSetDepthStencilState method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::OMSetDepthStencilState","direct3d10.id3d10device_omsetdepthstencilstate"]
 old-location: direct3d10\id3d10device_omsetdepthstencilstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omsetdepthstencilstate.htm
@@ -71,15 +71,6 @@ Pointer to a depth-stencil state interface (see <a href="https://docs.microsoft.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Reference value to perform against when doing a depth-stencil test. See remarks.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

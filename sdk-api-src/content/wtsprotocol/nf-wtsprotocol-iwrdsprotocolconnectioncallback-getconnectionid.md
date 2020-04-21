@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.GetConnectionId
 title: IWRdsProtocolConnectionCallback::GetConnectionId (wtsprotocol.h)
-description: Retrieves the connection identifier.
+description: Retrieves the connection identifier.helpviewer_keywords: ["GetConnectionId","GetConnectionId method [Remote Desktop Services]","GetConnectionId method [Remote Desktop Services]","IWRdsProtocolConnectionCallback interface","IWRdsProtocolConnectionCallback interface [Remote Desktop Services]","GetConnectionId method","IWRdsProtocolConnectionCallback.GetConnectionId","IWRdsProtocolConnectionCallback::GetConnectionId","termserv.iwrdsprotocolconnectioncallback_getconnectionid","wtsprotocol/IWRdsProtocolConnectionCallback::GetConnectionId"]
 old-location: termserv\iwrdsprotocolconnectioncallback_getconnectionid.htm
 tech.root: TermServ
 ms.assetid: 2EE03CA1-25D5-4B03-A2F1-EC167BD694B3

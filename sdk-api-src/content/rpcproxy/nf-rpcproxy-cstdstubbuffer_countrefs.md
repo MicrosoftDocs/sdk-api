@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_CountRefs
 title: CStdStubBuffer_CountRefs function (rpcproxy.h)
-description: The CStdStubBuffer_CountRefs function implements the IRpcStubBuffer::CountRefs method.
+description: The CStdStubBuffer_CountRefs function implements the IRpcStubBuffer::CountRefs method.helpviewer_keywords: ["CStdStubBuffer_CountRefs","CStdStubBuffer_CountRefs function [RPC]","rpc.cstdstubbuffer_countrefs","rpcproxy/CStdStubBuffer_CountRefs"]
 old-location: rpc\cstdstubbuffer_countrefs.htm
 tech.root: Rpc
 ms.assetid: ad330a86-27d9-453d-af9b-4a7f62d641bf

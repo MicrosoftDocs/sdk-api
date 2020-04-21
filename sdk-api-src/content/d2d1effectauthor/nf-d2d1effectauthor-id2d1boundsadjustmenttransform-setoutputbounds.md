@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BoundsAdjustmentTransform.SetOutputBounds
 title: ID2D1BoundsAdjustmentTransform::SetOutputBounds (d2d1effectauthor.h)
-description: This sets the output bounds for the support transform.
+description: This sets the output bounds for the support transform.helpviewer_keywords: ["ID2D1BoundsAdjustmentTransform interface [Direct2D]","SetOutputBounds method","ID2D1BoundsAdjustmentTransform.SetOutputBounds","ID2D1BoundsAdjustmentTransform::SetOutputBounds","SetOutputBounds","SetOutputBounds method [Direct2D]","SetOutputBounds method [Direct2D]","ID2D1BoundsAdjustmentTransform interface","d2d1effectauthor/ID2D1BoundsAdjustmentTransform::SetOutputBounds","direct2d.id2d1boundsadjustmenttransform_setoutputbounds"]
 old-location: direct2d\id2d1boundsadjustmenttransform_setoutputbounds.htm
 tech.root: Direct2D
 ms.assetid: AC0E392A-0410-44BC-8B52-FAD97D45970F
@@ -63,15 +63,6 @@ This sets the output bounds for the support transform.
 Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847950(v=vs.85)">D2D1_RECT_L</a>*</b>
 
 The output bounds.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

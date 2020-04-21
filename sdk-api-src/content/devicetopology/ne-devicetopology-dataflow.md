@@ -1,7 +1,7 @@
 ---
 UID: NE:devicetopology.__MIDL___MIDL_itf_devicetopology_0000_0000_0011
 title: DataFlow (devicetopology.h)
-description: The DataFlow enumeration indicates the data-flow direction of an audio stream through a connector.
+description: The DataFlow enumeration indicates the data-flow direction of an audio stream through a connector.helpviewer_keywords: ["DataFlow","DataFlow","DataFlow enumeration [Core Audio]","In","Out","coreaudio.dataflow","devicetopology/DataFlow","devicetopology/In","devicetopology/Out"]
 old-location: coreaudio\dataflow.htm
 tech.root: CoreAudio
 ms.assetid: bdc2336c-5609-43f2-9b65-d8806f0fc63b

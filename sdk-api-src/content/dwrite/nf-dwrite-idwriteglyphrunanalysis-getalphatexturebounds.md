@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteGlyphRunAnalysis.GetAlphaTextureBounds
 title: IDWriteGlyphRunAnalysis::GetAlphaTextureBounds (dwrite.h)
-description: Gets the bounding rectangle of the physical pixels affected by the glyph run.
+description: Gets the bounding rectangle of the physical pixels affected by the glyph run.helpviewer_keywords: ["GetAlphaTextureBounds","GetAlphaTextureBounds method [Direct Write]","GetAlphaTextureBounds method [Direct Write]","IDWriteGlyphRunAnalysis interface","IDWriteGlyphRunAnalysis interface [Direct Write]","GetAlphaTextureBounds method","IDWriteGlyphRunAnalysis.GetAlphaTextureBounds","IDWriteGlyphRunAnalysis::GetAlphaTextureBounds","directwrite.IDWriteGlyphRunAnalysis_GetAlphaTextureBounds","dwrite/IDWriteGlyphRunAnalysis::GetAlphaTextureBounds"]
 old-location: directwrite\IDWriteGlyphRunAnalysis_GetAlphaTextureBounds.htm
 tech.root: DirectWrite
 ms.assetid: 9058edb7-23b2-418a-abcc-3ee827a79144

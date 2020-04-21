@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpool
 title: CloseThreadpool function (threadpoolapiset.h)
-description: Closes the specified thread pool.
+description: Closes the specified thread pool.helpviewer_keywords: ["CloseThreadpool","CloseThreadpool function","base.closethreadpool","threadpoolapiset/CloseThreadpool","winbase/CloseThreadpool"]
 old-location: base\closethreadpool.htm
 tech.root: ProcThread
 ms.assetid: 84f673b5-d9b1-4f3d-9ae6-b1ad173268cd
@@ -65,15 +65,6 @@ Closes the specified thread pool.
 ### -param ptpp [in, out]
 
 A <b>TP_POOL</b> structure that defines the thread pool. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool">CreateThreadpool</a> function returns this structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

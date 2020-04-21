@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.EnableLanguageProfileByDefault
 title: ITfInputProcessorProfiles::EnableLanguageProfileByDefault (msctf.h)
-description: ITfInputProcessorProfiles::EnableLanguageProfileByDefault method
+description: ITfInputProcessorProfiles::EnableLanguageProfileByDefault methodhelpviewer_keywords: ["EnableLanguageProfileByDefault","EnableLanguageProfileByDefault method [Text Services Framework]","EnableLanguageProfileByDefault method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","EnableLanguageProfileByDefault method","ITfInputProcessorProfiles.EnableLanguageProfileByDefault","ITfInputProcessorProfiles::EnableLanguageProfileByDefault","_tsf_itfinputprocessorprofiles_enablelanguageprofilebydefault_ref","msctf/ITfInputProcessorProfiles::EnableLanguageProfileByDefault","tsf.itfinputprocessorprofiles_enablelanguageprofilebydefault"]
 old-location: tsf\itfinputprocessorprofiles_enablelanguageprofilebydefault.htm
 tech.root: TSF
 ms.assetid: 5ab40219-278d-4721-88a1-b0bd2e3d8d2f
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Enables or disables a language profile by default for all users.
 
 ## -parameters
 

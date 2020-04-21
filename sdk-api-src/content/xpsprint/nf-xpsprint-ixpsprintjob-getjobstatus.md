@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsprint.IXpsPrintJob.GetJobStatus
 title: IXpsPrintJob::GetJobStatus (xpsprint.h)
-description: Gets the current status of the print job.
+description: Gets the current status of the print job.helpviewer_keywords: ["GetJobStatus","GetJobStatus method [Windows GDI]","GetJobStatus method [Windows GDI]","IXpsPrintJob interface","IXpsPrintJob interface [Windows GDI]","GetJobStatus method","IXpsPrintJob.GetJobStatus","IXpsPrintJob::GetJobStatus","gdi.ixpsprintjob_getjobstatus","xpsprint/IXpsPrintJob::GetJobStatus"]
 old-location: gdi\ixpsprintjob_getjobstatus.htm
 tech.root: printdocs
 ms.assetid: e2a55aec-f8a5-40b4-8c26-1488df49eed0

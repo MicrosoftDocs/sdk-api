@@ -1,7 +1,7 @@
 ---
 UID: NN:tom.ITextSelection
 title: ITextSelection (tom.h)
-description: A text selection is a text range with selection highlighting.
+description: A text selection is a text range with selection highlighting.helpviewer_keywords: ["ITextSelection","ITextSelection interface [Windows Controls]","ITextSelection interface [Windows Controls]","described","_win32_ITextSelection","_win32_ITextSelection_cpp","controls.ITextSelection","controls._win32_ITextSelection","tom/ITextSelection"]
 old-location: controls\ITextSelection.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextselection.htm

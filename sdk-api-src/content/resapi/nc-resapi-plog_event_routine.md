@@ -1,7 +1,7 @@
 ---
 UID: NC:resapi.PLOG_EVENT_ROUTINE
 title: PLOG_EVENT_ROUTINE (resapi.h)
-description: Records an event in the cluster log.
+description: Records an event in the cluster log.helpviewer_keywords: ["LOG_ERROR","LOG_INFORMATION","LOG_SEVERE","LOG_WARNING","LogEvent","LogEvent callback","LogEvent callback function [Failover Cluster]","PLOG_EVENT_ROUTINE","PLOG_EVENT_ROUTINE callback function [Failover Cluster]","_wolf_logevent","mscs.logevent","resapi/LogEvent","resapi/PLOG_EVENT_ROUTINE"]
 old-location: mscs\logevent.htm
 tech.root: MsCS
 ms.assetid: 91389083-e007-4d64-885f-e5188e74b9d8
@@ -122,15 +122,6 @@ Arguments to be passed to <a href="https://docs.microsoft.com/windows/desktop/ap
        <i>FormatString</i> to satisfy the syntax requirements of 
        <b>FormatMessage</b>. Arguments must be separated by 
        commas.
-
-
-## -returns
-
-
-
-This function has no return values.
-
-
 
 
 ## -remarks

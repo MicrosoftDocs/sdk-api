@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Session
 title: MI_Session (mi.h)
-description: An object that is associated with a destination and has a set of credentials and options associated with it. .
+description: An object that is associated with a destination and has a set of credentials and options associated with it. .helpviewer_keywords: ["MI_Session","MI_Session structure [Windows Management Infrastructure (MI)]","mi/MI_Session","wmi._mi_session","wmi_v2.mi_session"]
 old-location: wmi_v2\mi_session.htm
 tech.root: wmi_v2
 ms.assetid: 68a69321-0aa9-423e-a72f-aa2f4dee2d51

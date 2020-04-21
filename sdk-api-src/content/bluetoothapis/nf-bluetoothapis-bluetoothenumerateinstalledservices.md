@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothEnumerateInstalledServices
 title: BluetoothEnumerateInstalledServices function (bluetoothapis.h)
-description: The BluetoothEnumerateInstalledServices function enumerates the services GUIDs (Globally Unique Identifiers) enabled on a Bluetooth device.
+description: The BluetoothEnumerateInstalledServices function enumerates the services GUIDs (Globally Unique Identifiers) enabled on a Bluetooth device.helpviewer_keywords: ["BluetoothEnumerateInstalledServices","BluetoothEnumerateInstalledServices function [Bluetooth]","bluetooth.bluetoothenumerateinstalledservices","bluetoothapis/BluetoothEnumerateInstalledServices"]
 old-location: bluetooth\bluetoothenumerateinstalledservices.htm
 tech.root: bluetooth
 ms.assetid: 6f32c776-3c4d-4b0f-ab81-1e880d979d3b

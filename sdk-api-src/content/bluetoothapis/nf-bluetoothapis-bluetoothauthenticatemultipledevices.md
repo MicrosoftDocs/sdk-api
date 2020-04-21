@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothAuthenticateMultipleDevices
 title: BluetoothAuthenticateMultipleDevices function (bluetoothapis.h)
-description: Enables the caller to prompt for multiple devices to be authenticated during a single instance of the Bluetooth Connection wizard.
+description: Enables the caller to prompt for multiple devices to be authenticated during a single instance of the Bluetooth Connection wizard.helpviewer_keywords: ["BluetoothAuthenticateMultipleDevices","BluetoothAuthenticateMultipleDevices function [Bluetooth]","bluetooth.bluetoothauthenticatemultipledevices","bluetoothapis/BluetoothAuthenticateMultipleDevices"]
 old-location: bluetooth\bluetoothauthenticatemultipledevices.htm
 tech.root: bluetooth
 ms.assetid: 81dd4925-7f0a-468f-b706-244ce99e91df

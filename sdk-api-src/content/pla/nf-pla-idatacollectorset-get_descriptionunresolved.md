@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_DescriptionUnresolved
 title: IDataCollectorSet::get_DescriptionUnresolved (pla.h)
-description: Retrieves the description of the data collector set in its original form.
+description: Retrieves the description of the data collector set in its original form.helpviewer_keywords: ["DescriptionUnresolved property [PLA]","DescriptionUnresolved property [PLA]","IDataCollectorSet interface","IDataCollectorSet interface [PLA]","DescriptionUnresolved property","IDataCollectorSet.DescriptionUnresolved","IDataCollectorSet.get_DescriptionUnresolved","IDataCollectorSet::DescriptionUnresolved","IDataCollectorSet::get_DescriptionUnresolved","get_DescriptionUnresolved","pla.idatacollectorset_descriptionunresolved","pla/IDataCollectorSet::DescriptionUnresolved","pla/IDataCollectorSet::get_DescriptionUnresolved"]
 old-location: pla\idatacollectorset_descriptionunresolved.htm
 tech.root: PLA
 ms.assetid: 153159b2-54dc-477a-92eb-18328ea3351b

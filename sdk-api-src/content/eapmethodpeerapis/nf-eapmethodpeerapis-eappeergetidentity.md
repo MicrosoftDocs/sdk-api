@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetIdentity
 title: EapPeerGetIdentity function (eapmethodpeerapis.h)
-description: Returns the user data and user identity after being called by EAPHost.
+description: Returns the user data and user identity after being called by EAPHost.helpviewer_keywords: ["EapPeerGetIdentity","EapPeerGetIdentity function [EAPHost]","eaphost.eappeergetidentity","eapmethodpeerapis/EapPeerGetIdentity"]
 old-location: eaphost\eappeergetidentity.htm
 tech.root: eaphost
 ms.assetid: 24ae093f-5ddf-4b09-934f-d0e945335cde

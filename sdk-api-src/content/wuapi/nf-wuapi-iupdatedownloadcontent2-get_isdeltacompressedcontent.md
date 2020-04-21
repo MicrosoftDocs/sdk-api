@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContent2.get_IsDeltaCompressedContent
 title: IUpdateDownloadContent2::get_IsDeltaCompressedContent (wuapi.h)
-description: Gets a Boolean value that indicates whether an update is a binary update or a full-file update.
+description: Gets a Boolean value that indicates whether an update is a binary update or a full-file update.helpviewer_keywords: ["IUpdateDownloadContent2 interface [Windows Update Agent]","IsDeltaCompressedContent property","IUpdateDownloadContent2.IsDeltaCompressedContent","IUpdateDownloadContent2.get_IsDeltaCompressedContent","IUpdateDownloadContent2::IsDeltaCompressedContent","IUpdateDownloadContent2::get_IsDeltaCompressedContent","IsDeltaCompressedContent property [Windows Update Agent]","IsDeltaCompressedContent property [Windows Update Agent]","IUpdateDownloadContent2 interface","get_IsDeltaCompressedContent","wua.iupdatedownloadcontent2_isdeltacompressedcontent","wuapi/IUpdateDownloadContent2::IsDeltaCompressedContent","wuapi/IUpdateDownloadContent2::get_IsDeltaCompressedContent"]
 old-location: wua\iupdatedownloadcontent2_isdeltacompressedcontent.htm
 tech.root: Wua_Sdk
 ms.assetid: 1140051f-c2cd-4fe1-b7fd-aa21bbcd7889

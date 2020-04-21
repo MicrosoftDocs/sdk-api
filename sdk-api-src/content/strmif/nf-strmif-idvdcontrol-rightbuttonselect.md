@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl.RightButtonSelect
 title: IDvdControl::RightButtonSelect (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the right directional button from the displayed menu.
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the right directional button from the displayed menu.helpviewer_keywords: ["IDvdControl interface [DirectShow]","RightButtonSelect method","IDvdControl.RightButtonSelect","IDvdControl::RightButtonSelect","IDvdControlRightButtonSelect","RightButtonSelect","RightButtonSelect method [DirectShow]","RightButtonSelect method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_rightbuttonselect","strmif/IDvdControl::RightButtonSelect"]
 old-location: dshow\idvdcontrol_rightbuttonselect.htm
 tech.root: DirectShow
 ms.assetid: 67ca86cd-37a7-48ce-80d9-585d345e83fc

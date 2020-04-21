@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.SetPerTcp6ConnectionEStats
 title: SetPerTcp6ConnectionEStats function (iphlpapi.h)
-description: Sets a value in the read/write information for an IPv6 TCP connection. This function is used to enable or disable extended statistics for an IPv6 TCP connection.
+description: Sets a value in the read/write information for an IPv6 TCP connection. This function is used to enable or disable extended statistics for an IPv6 TCP connection.helpviewer_keywords: ["SetPerTcp6ConnectionEStats","SetPerTcp6ConnectionEStats function [IP Helper]","TcpConnectionEstatsBandwidth","TcpConnectionEstatsData","TcpConnectionEstatsFineRtt","TcpConnectionEstatsObsRec","TcpConnectionEstatsPath","TcpConnectionEstatsRec","TcpConnectionEstatsSendBuff","TcpConnectionEstatsSndCong","iphlp.setpertcp6connectionestats","iphlpapi/SetPerTcp6ConnectionEStats"]
 old-location: iphlp\setpertcp6connectionestats.htm
 tech.root: IpHlp
 ms.assetid: 89ace750-ec32-46cb-8526-233f847ba9f4

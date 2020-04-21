@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateImageResource
 title: IXpsOMObjectFactory::CreateImageResource (xpsobjectmodel.h)
-description: Creates an IXpsOMImageResource interface, which is used to access an image resource stream.
+description: Creates an IXpsOMImageResource interface, which is used to access an image resource stream.helpviewer_keywords: ["CreateImageResource","CreateImageResource method [XPS Documents and Packaging]","CreateImageResource method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateImageResource method","IXpsOMObjectFactory.CreateImageResource","IXpsOMObjectFactory::CreateImageResource","xps.ixpsomobjectfactory_createimageresource","xpsobjectmodel/IXpsOMObjectFactory::CreateImageResource"]
 old-location: xps\ixpsomobjectfactory_createimageresource.htm
 tech.root: printdocs
 ms.assetid: 267f6e3e-ed1d-4ce7-a554-a943ac3f469d

@@ -1,7 +1,7 @@
 ---
 UID: NF:xinput.XInputEnable
 title: XInputEnable function (xinput.h)
-description: Sets the reporting state of XInput.
+description: Sets the reporting state of XInput.helpviewer_keywords: ["XInputEnable","XInputEnable function [XInput Game Controller APIs]","xinput.xinputenable","xinput/XInputEnable"]
 old-location: xinput\xinputenable.htm
 tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputEnable(BOOL)
@@ -62,15 +62,6 @@ Sets the reporting state of XInput.
 ### -param enable [in]
 
 If enable is <b>FALSE</b>, XInput will only send neutral data in response to <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetState</a> (all buttons up, axes centered, and triggers at 0). <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a> calls will be registered but not sent to the device. Sending any value other than <b>FALSE </b>will restore reading and writing functionality to normal.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

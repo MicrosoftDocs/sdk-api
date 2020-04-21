@@ -1,7 +1,7 @@
 ---
 UID: NF:interactioncontext.GetCrossSlideParameterInteractionContext
 title: GetCrossSlideParameterInteractionContext function (interactioncontext.h)
-description: Gets the cross-slide interaction behavior.
+description: Gets the cross-slide interaction behavior.helpviewer_keywords: ["GetCrossSlideParameterInteractionContext","GetCrossSlideParameterInteractionContext function","input_intcontext.getcrossslideparameterinteractioncontext","interactioncontext.getcrossslideparameterinteractioncontext","interactioncontext/GetCrossSlideParameterInteractionContext"]
 old-location: input_intcontext\getcrossslideparameterinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 19e934c6-8cd7-4302-a903-bd7865aef908

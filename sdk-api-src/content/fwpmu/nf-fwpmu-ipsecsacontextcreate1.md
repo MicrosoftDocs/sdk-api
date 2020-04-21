@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecSaContextCreate1
 title: IPsecSaContextCreate1 function (fwpmu.h)
-description: Creates an IPsec security association (SA) context.
+description: Creates an IPsec security association (SA) context.helpviewer_keywords: ["IPsecSaContextCreate1","IPsecSaContextCreate1 function [Filtering]","fwp.ipsecsacontextcreate1","fwpmu/IPsecSaContextCreate1"]
 old-location: fwp\ipsecsacontextcreate1.htm
 tech.root: fwp
 ms.assetid: b0eab185-fae2-4133-b3f2-22d609cb94d1

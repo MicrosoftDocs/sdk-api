@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IPersistTuneXmlUtility2
 title: IPersistTuneXmlUtility2 (tuner.h)
-description: Defines utility methods for serializing tuning requests (objects that implement the ITuneRequest interface) to XML tuning request strings.
+description: Defines utility methods for serializing tuning requests (objects that implement the ITuneRequest interface) to XML tuning request strings.helpviewer_keywords: ["IPersistTuneXmlUtility2","IPersistTuneXmlUtility2 interface [Microsoft TV Technologies]","IPersistTuneXmlUtility2 interface [Microsoft TV Technologies]","described","mstv.ipersisttunexmlutility2","tuner/IPersistTuneXmlUtility2"]
 old-location: mstv\ipersisttunexmlutility2.htm
 tech.root: mstv
 ms.assetid: d909d505-2ae9-4488-b4c1-42ca32661bf3

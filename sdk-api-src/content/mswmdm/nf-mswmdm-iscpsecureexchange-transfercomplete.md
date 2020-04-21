@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.ISCPSecureExchange.TransferComplete
 title: ISCPSecureExchange::TransferComplete (mswmdm.h)
-description: The TransferComplete method is called by Windows Media Device Manager to signal the end of a secure transfer of data. In this method, the secure content provider can perform any additional processing required to enable the content on the target device.
+description: The TransferComplete method is called by Windows Media Device Manager to signal the end of a secure transfer of data. In this method, the secure content provider can perform any additional processing required to enable the content on the target device.helpviewer_keywords: ["ISCPSecureExchange interface [windows Media Device Manager]","TransferComplete method","ISCPSecureExchange.TransferComplete","ISCPSecureExchange::TransferComplete","ISCPSecureExchangeTransferComplete","TransferComplete","TransferComplete method [windows Media Device Manager]","TransferComplete method [windows Media Device Manager]","ISCPSecureExchange interface","mswmdm/ISCPSecureExchange::TransferComplete","wmdm.iscpsecureexchange_transfercomplete"]
 old-location: wmdm\iscpsecureexchange_transfercomplete.htm
 tech.root: WMDM
 ms.assetid: 8a7a6de0-ab37-4764-8feb-82676e1e62ab

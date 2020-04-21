@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_SERVER_CONFIG_INFO
 title: DHCP_SERVER_CONFIG_INFO (dhcpsapi.h)
-description: The DHCP_SERVER_CONFIG_INFO structure defines the data used to configure the DHCP server.
+description: The DHCP_SERVER_CONFIG_INFO structure defines the data used to configure the DHCP server.helpviewer_keywords: ["*LPDHCP_SERVER_CONFIG_INFO","DHCP_SERVER_CONFIG_INFO","DHCP_SERVER_CONFIG_INFO structure [DHCP]","DHCP_SERVER_USE_RPC_OVER_LPC","DHCP_SERVER_USE_RPC_OVER_NP","DHCP_SERVER_USE_RPC_OVER_TCPIP","LPDHCP_SERVER_CONFIG_INFO","LPDHCP_SERVER_CONFIG_INFO structure pointer [DHCP]","dhcp.dhcp_server_config_info","dhcpsapi/LPDHCP_SERVER_CONFIG_INFO","dhcpsapi/_DHCP_SERVER_CONFIG_INFO"]
 old-location: dhcp\dhcp_server_config_info.htm
 tech.root: DHCP
 ms.assetid: 3c7226fd-703c-4981-b82b-180b4070d671

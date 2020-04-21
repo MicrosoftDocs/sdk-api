@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdtypes._WSD_HOST_METADATA
 title: WSD_HOST_METADATA (wsdtypes.h)
-description: Provides metadata for all services hosted by a device.
+description: Provides metadata for all services hosted by a device.helpviewer_keywords: ["WSD_HOST_METADATA","WSD_HOST_METADATA structure","ncd.wsd_host_metadata_struct","wsdtypes/WSD_HOST_METADATA"]
 old-location: ncd\wsd_host_metadata_struct.htm
 tech.root: WsdApi
 ms.assetid: da774582-3b27-470d-9b6a-ac2b106a47b9

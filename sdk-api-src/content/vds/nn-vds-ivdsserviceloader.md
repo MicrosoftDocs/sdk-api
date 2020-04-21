@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsServiceLoader
 title: IVdsServiceLoader (vds.h)
-description: Instantiates a service loader object.
+description: Instantiates a service loader object.helpviewer_keywords: ["IVdsServiceLoader","IVdsServiceLoader interface [VDS]","IVdsServiceLoader interface [VDS]","described","base.ivdsserviceloader","vds/IVdsServiceLoader"]
 old-location: base\ivdsserviceloader.htm
 tech.root: VDS
 ms.assetid: 43533ee7-4e44-48c9-8c9d-0992426d79ba

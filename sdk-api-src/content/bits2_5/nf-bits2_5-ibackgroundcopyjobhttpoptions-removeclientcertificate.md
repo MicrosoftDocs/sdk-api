@@ -1,7 +1,7 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.RemoveClientCertificate
 title: IBackgroundCopyJobHttpOptions::RemoveClientCertificate (bits2_5.h)
-description: Removes the client certificate from the job.
+description: Removes the client certificate from the job.helpviewer_keywords: ["IBackgroundCopyJobHttpOptions interface [BITS]","RemoveClientCertificate method","IBackgroundCopyJobHttpOptions.RemoveClientCertificate","IBackgroundCopyJobHttpOptions::RemoveClientCertificate","RemoveClientCertificate","RemoveClientCertificate method [BITS]","RemoveClientCertificate method [BITS]","IBackgroundCopyJobHttpOptions interface","bits.ibackgroundcopyjobhttpoptions_removeclientcertificate","bits2_5/IBackgroundCopyJobHttpOptions::RemoveClientCertificate"]
 old-location: bits\ibackgroundcopyjobhttpoptions_removeclientcertificate.htm
 tech.root: Bits
 ms.assetid: b4fb7213-5f6b-407f-bc44-6d11886ed5ad

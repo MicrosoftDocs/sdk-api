@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_PROTOCOL_COMMAND
 title: IOCTL_STORAGE_PROTOCOL_COMMAND
-description: Windows applications can use this control code to return properties of a storage device or adapter. The request indicates the kind of information to retrieve, such as inquiry data for a device or capabilities and limitations of an adapter.
+description: Windows applications can use this control code to return properties of a storage device or adapter. The request indicates the kind of information to retrieve, such as inquiry data for a device or capabilities and limitations of an adapter.helpviewer_keywords: ["IOCTL_STORAGE_PROTOCOL_COMMAND","IOCTL_STORAGE_PROTOCOL_COMMAND control","IOCTL_STORAGE_PROTOCOL_COMMAND control code [Files]","fs.ioctl_storage_protocol_command","winioctl/IOCTL_STORAGE_PROTOCOL_COMMAND"]
 old-location: fs\ioctl_storage_protocol_command.htm
 tech.root: FileIO
 ms.assetid: 77027740-CDFD-422A-B458-C36B2E346EFD

@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetResult
 title: EapPeerGetResult function (eapmethodpeerapis.h)
-description: Obtains the result of an authentication session from the EAP method.
+description: Obtains the result of an authentication session from the EAP method.helpviewer_keywords: ["EapPeerGetResult","EapPeerGetResult function [EAPHost]","eaphost.eappeergetresult","eapmethodpeerapis/EapPeerGetResult"]
 old-location: eaphost\eappeergetresult.htm
 tech.root: eaphost
 ms.assetid: fc73cf5f-68c5-403b-8bf1-6befa2c4f5d8

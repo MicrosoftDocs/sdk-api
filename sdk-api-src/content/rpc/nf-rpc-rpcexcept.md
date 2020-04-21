@@ -1,7 +1,7 @@
 ---
 UID: NF:rpc.RpcExcept
 title: RpcExcept macro (rpc.h)
-description: The RpcExcept statement provides structured exception handling for RPC applications.
+description: The RpcExcept statement provides structured exception handling for RPC applications.helpviewer_keywords: ["RpcExcept","RpcExcept macro [RPC]","_rpc_rpcexcept","rpc.rpcexcept","rpc/RpcExcept"]
 old-location: rpc\rpcexcept.htm
 tech.root: Rpc
 ms.assetid: 5bd57250-1fd7-4aeb-aa53-4fd2c8d84836

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManCreateShellEx
 title: WSManCreateShellEx function (wsman.h)
-description: Creates a shell object by using the same functionality as the WSManCreateShell function, with the addition of a client-specified shell ID.
+description: Creates a shell object by using the same functionality as the WSManCreateShell function, with the addition of a client-specified shell ID.helpviewer_keywords: ["WSManCreateShellEx","WSManCreateShellEx function [Windows Remote Management]","winrm.wsmancreateshellex","wsman/WSManCreateShellEx"]
 old-location: winrm\wsmancreateshellex.htm
 tech.root: winrm
 ms.assetid: A339FC95-2235-4102-A0FC-7FB01132B7A1
@@ -100,13 +100,5 @@ Defines an asynchronous structure. The asynchronous structure contains an option
 ### -param shell [out]
 
 Defines a shell handle that uniquely identifies the shell object. The resource handle is used to track the client endpoint for the shell and is used by other WinRM methods to interact with the shell object. The shell object should be deleted by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancloseshell">WSManCloseShell</a> method. This parameter cannot be <b>NULL</b>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

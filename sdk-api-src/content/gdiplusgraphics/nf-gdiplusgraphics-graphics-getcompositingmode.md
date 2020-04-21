@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetCompositingMode
 title: Graphics::GetCompositingMode (gdiplusgraphics.h)
-description: The Graphics::GetCompositingMode method gets the compositing mode currently set for this Graphics object.
+description: The Graphics::GetCompositingMode method gets the compositing mode currently set for this Graphics object.helpviewer_keywords: ["GetCompositingMode","GetCompositingMode method [GDI+]","GetCompositingMode method [GDI+]","Graphics class","Graphics class [GDI+]","GetCompositingMode method","Graphics.GetCompositingMode","Graphics::GetCompositingMode","_gdiplus_CLASS_Graphics_GetCompositingMode_","gdiplus._gdiplus_CLASS_Graphics_GetCompositingMode_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetCompositingMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getcompositingmode.htm

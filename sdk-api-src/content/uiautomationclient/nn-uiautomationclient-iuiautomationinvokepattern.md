@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationInvokePattern
 title: IUIAutomationInvokePattern (uiautomationclient.h)
-description: Exposes a method that enables a client application to invoke the action of a control (typically a button).
+description: Exposes a method that enables a client application to invoke the action of a control (typically a button).helpviewer_keywords: ["IUIAutomationInvokePattern","IUIAutomationInvokePattern interface [Windows Accessibility]","IUIAutomationInvokePattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationInvokePattern","uiauto_IUIAutomationInvokePattern","uiautomationclient/IUIAutomationInvokePattern","winauto.uiauto_IUIAutomationInvokePattern"]
 old-location: winauto\uiauto_IUIAutomationInvokePattern.htm
 tech.root: WinAuto
 ms.assetid: 08031f22-9b36-4d85-9e15-2139551b893b

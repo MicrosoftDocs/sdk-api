@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetPipelineState
 title: ID3D12GraphicsCommandList::SetPipelineState (d3d12.h)
-description: Sets all shaders and programs most of the fixed-function state of the graphics processing unit (GPU) pipeline.
+description: Sets all shaders and programs most of the fixed-function state of the graphics processing unit (GPU) pipeline.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetPipelineState method","ID3D12GraphicsCommandList.SetPipelineState","ID3D12GraphicsCommandList::SetPipelineState","SetPipelineState","SetPipelineState method","SetPipelineState method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetPipelineState","direct3d12.id3d12graphicscommandlist_setpipelinestate"]
 old-location: direct3d12\id3d12graphicscommandlist_setpipelinestate.htm
 tech.root: direct3d12
 ms.assetid: 751E09A4-D8FE-4DEA-86D9-1C84265F2F21
@@ -64,16 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinestate">ID3D12PipelineState</a> containing the pipeline state data.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -see-also

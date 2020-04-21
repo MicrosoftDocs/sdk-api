@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfMessagePump.GetMessageW
 title: ITfMessagePump::GetMessageW (msctf.h)
-description: ITfMessagePump::GetMessageW method
+description: ITfMessagePump::GetMessageW methodhelpviewer_keywords: ["GetMessageW","GetMessageW method [Text Services Framework]","GetMessageW method [Text Services Framework]","ITfMessagePump interface","ITfMessagePump interface [Text Services Framework]","GetMessageW method","ITfMessagePump.GetMessageW","ITfMessagePump::GetMessageW","_tsf_itfmessagepump_getmessagew_ref","msctf/ITfMessagePump::GetMessageW","tsf.itfmessagepump_getmessagew"]
 old-location: tsf\itfmessagepump_getmessagew.htm
 tech.root: TSF
 ms.assetid: e2283d04-f5b8-4b86-9fa5-517e46417b07
@@ -49,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a message from the message queue and does not return until a message is obtained. This is the Unicode version of this method.
 
 ## -parameters
 

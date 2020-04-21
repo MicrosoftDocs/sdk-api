@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.midiOutGetID
 title: midiOutGetID function (mmeapi.h)
-description: The midiOutGetID function retrieves the device identifier for the given MIDI output device.
+description: The midiOutGetID function retrieves the device identifier for the given MIDI output device.helpviewer_keywords: ["_win32_midiOutGetID","midiOutGetID","midiOutGetID function [Windows Multimedia]","mmeapi/midiOutGetID","multimedia.midioutgetid"]
 old-location: multimedia\midioutgetid.htm
 tech.root: Multimedia
 ms.assetid: ce90f680-52e1-4883-9367-88e5baca7ef5

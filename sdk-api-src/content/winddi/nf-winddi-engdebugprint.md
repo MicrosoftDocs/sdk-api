@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngDebugPrint
 title: EngDebugPrint function (winddi.h)
-description: The EngDebugPrint function prints the specified debug message to the kernel debugger.
+description: The EngDebugPrint function prints the specified debug message to the kernel debugger.helpviewer_keywords: ["EngDebugPrint","EngDebugPrint function [Display Devices]","display.engdebugprint","gdifncs_e3529861-721f-41f3-aedc-12ef88353b24.xml","winddi/EngDebugPrint"]
 old-location: display\engdebugprint.htm
 tech.root: display
 ms.assetid: 2480adec-68b6-4ffe-8b20-2ca7cb1a4d79

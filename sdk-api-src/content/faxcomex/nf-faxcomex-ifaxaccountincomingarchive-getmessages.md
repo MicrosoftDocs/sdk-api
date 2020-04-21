@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxAccountIncomingArchive.GetMessages
 title: IFaxAccountIncomingArchive::GetMessages (faxcomex.h)
-description: Returns a new iterator (archive cursor) for the archive of inbound fax messages for a particular fax account.
+description: Returns a new iterator (archive cursor) for the archive of inbound fax messages for a particular fax account.helpviewer_keywords: ["GetMessages","GetMessages method [Fax Service]","GetMessages method [Fax Service]","IFaxAccountIncomingArchive interface","IFaxAccountIncomingArchive interface [Fax Service]","GetMessages method","IFaxAccountIncomingArchive.GetMessages","IFaxAccountIncomingArchive::GetMessages","_mfax_faxaccountincomingarchive.getmessages","fax._mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_getmessages_cpp","fax._mfax_faxaccountincomingarchive_getmessages","faxcomex/IFaxAccountIncomingArchive::GetMessages"]
 old-location: fax\_mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_getmessages_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingarchive\getmessages.htm

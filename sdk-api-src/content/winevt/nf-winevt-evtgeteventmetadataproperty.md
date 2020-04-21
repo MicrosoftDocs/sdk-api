@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtGetEventMetadataProperty
 title: EvtGetEventMetadataProperty function (winevt.h)
-description: Gets the specified event metadata property.
+description: Gets the specified event metadata property.helpviewer_keywords: ["EvtGetEventMetadataProperty","EvtGetEventMetadataProperty function [EventLog]","wes.evtgeteventmetadataproperty","winevt/EvtGetEventMetadataProperty"]
 old-location: wes\evtgeteventmetadataproperty.htm
 tech.root: wes
 ms.assetid: 2a5c53e3-bbb4-4245-a640-86b58d1a3c52

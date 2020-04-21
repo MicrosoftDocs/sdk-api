@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.SOGetTargets
 title: ID3D10Device::SOGetTargets (d3d10.h)
-description: Get the target output buffers for the StreamOutput stage of the pipeline.
+description: Get the target output buffers for the StreamOutput stage of the pipeline.helpviewer_keywords: ["1b186699-d71b-b02e-0591-a512a5b0109d","ID3D10Device interface [Direct3D 10]","SOGetTargets method","ID3D10Device.SOGetTargets","ID3D10Device::SOGetTargets","SOGetTargets","SOGetTargets method [Direct3D 10]","SOGetTargets method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::SOGetTargets","direct3d10.id3d10device_sogettargets"]
 old-location: direct3d10\id3d10device_sogettargets.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_sogettargets.htm
@@ -77,15 +77,6 @@ An array of output buffers (see <a href="https://docs.microsoft.com/windows/desk
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Array of offsets to the output buffers from <i>ppSOTargets</i>, one offset for each buffer. The offset values are in bytes.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

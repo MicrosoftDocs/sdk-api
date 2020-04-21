@@ -1,7 +1,7 @@
 ---
 UID: NF:amsi.AmsiCloseSession
 title: AmsiCloseSession function (amsi.h)
-description: Close a session that was opened by AmsiOpenSession.
+description: Close a session that was opened by AmsiOpenSession.helpviewer_keywords: ["AmsiCloseSession","AmsiCloseSession function [Antimalware Scan Interface]","amsi.amsiclosesession","amsi/AmsiCloseSession"]
 old-location: amsi\amsiclosesession.htm
 tech.root: AMSI
 ms.assetid: 1DF760A2-22AE-427E-8395-1EE34BD7BCAB
@@ -65,15 +65,6 @@ The handle of type HAMSICONTEXT that was initially received from <a href="https:
 ### -param amsiSession [in]
 
 The handle of type HAMSISESSION that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

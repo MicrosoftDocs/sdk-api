@@ -1,7 +1,7 @@
 ---
 UID: NN:atscpsipparser.IATSC_ETT
 title: IATSC_ETT (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IATSC_ETT","IATSC_ETT interface [Microsoft TV Technologies]","IATSC_ETT interface [Microsoft TV Technologies]","described","IATSC_ETTInterface","atscpsipparser/IATSC_ETT","mstv.iatsc_ett"]
 old-location: mstv\iatsc_ett.htm
 tech.root: mstv
 ms.assetid: ae52e81e-4de1-480c-82bf-c9629064970c

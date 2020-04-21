@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Initialize
 title: IDirectDrawSurface7::Initialize (ddraw.h)
-description: Initializes a DirectDrawSurface object.
+description: Initializes a DirectDrawSurface object.helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","Initialize method","IDirectDrawSurface7.Initialize","IDirectDrawSurface7::Initialize","Initialize","Initialize method [DirectDraw]","Initialize method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::Initialize","directdraw.idirectdrawsurface7_initialize"]
 old-location: directdraw\idirectdrawsurface7_initialize.htm
 tech.root: directdraw
 ms.assetid: 98b9a05f-ff61-4c58-9c09-625077eb64ad

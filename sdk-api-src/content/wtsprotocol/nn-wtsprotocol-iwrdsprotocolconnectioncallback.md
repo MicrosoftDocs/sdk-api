@@ -1,7 +1,7 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolConnectionCallback
 title: IWRdsProtocolConnectionCallback (wtsprotocol.h)
-description: Exposes methods that provide information about the status of a client connection and that perform actions for the client. This interface is implemented by the Remote Desktop Services service and called by the protocol.
+description: Exposes methods that provide information about the status of a client connection and that perform actions for the client. This interface is implemented by the Remote Desktop Services service and called by the protocol.helpviewer_keywords: ["IWRdsProtocolConnectionCallback","IWRdsProtocolConnectionCallback interface [Remote Desktop Services]","IWRdsProtocolConnectionCallback interface [Remote Desktop Services]","described","termserv.iwrdsprotocolconnectioncallback","wtsprotocol/IWRdsProtocolConnectionCallback"]
 old-location: termserv\iwrdsprotocolconnectioncallback.htm
 tech.root: TermServ
 ms.assetid: 81a73688-f39e-4960-8587-602d56c11e7e

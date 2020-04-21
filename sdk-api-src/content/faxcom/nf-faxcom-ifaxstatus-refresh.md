@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxStatus.Refresh
 title: IFaxStatus::Refresh (faxcom.h)
-description: The Refresh method updates FaxStatus object information for the associated parent FaxPort object.
+description: The Refresh method updates FaxStatus object information for the associated parent FaxPort object.helpviewer_keywords: ["IFaxStatus interface [Fax Service]","Refresh method","IFaxStatus.Refresh","IFaxStatus::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxStatus interface","_mfax_ifaxstatus_refresh","fax._mfax_ifaxstatus_mfax_ifaxstatus_refresh_cpp","fax._mfax_ifaxstatus_refresh","faxcom/IFaxStatus::Refresh"]
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_53c8.htm

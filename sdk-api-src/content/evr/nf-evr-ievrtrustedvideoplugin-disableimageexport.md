@@ -1,7 +1,7 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.DisableImageExport
 title: IEVRTrustedVideoPlugin::DisableImageExport (evr.h)
-description: Enables or disables the ability of the plug-in to export the video image.
+description: Enables or disables the ability of the plug-in to export the video image.helpviewer_keywords: ["DisableImageExport","DisableImageExport method [Media Foundation]","DisableImageExport method [Media Foundation]","IEVRTrustedVideoPlugin interface","IEVRTrustedVideoPlugin interface [Media Foundation]","DisableImageExport method","IEVRTrustedVideoPlugin.DisableImageExport","IEVRTrustedVideoPlugin::DisableImageExport","dd9811f7-7a9f-4b7e-8425-cb25efe0a71d","evr/IEVRTrustedVideoPlugin::DisableImageExport","mf.ievrtrustedvideoplugin_disableimageexport"]
 old-location: mf\ievrtrustedvideoplugin_disableimageexport.htm
 tech.root: medfound
 ms.assetid: dd9811f7-7a9f-4b7e-8425-cb25efe0a71d

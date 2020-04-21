@@ -1,7 +1,7 @@
 ---
 UID: NE:iwstdec._AM_WST_SERVICE
 title: AM_WST_SERVICE (iwstdec.h)
-description: The AM_WST_SERVICE enumeration is not supported.
+description: The AM_WST_SERVICE enumeration is not supported.helpviewer_keywords: ["*PAM_WST_SERVICE","AM_WST_SERVICE","AM_WST_SERVICE","AM_WST_SERVICE enumeration [DirectShow]","AM_WST_SERVICEEnumeration","AM_WST_SERVICE_IDS","AM_WST_SERVICE_Invalid","AM_WST_SERVICE_None","AM_WST_SERVICE_Text","PAM_WST_SERVICE","PAM_WST_SERVICE enumeration pointer [DirectShow]","dshow.am_wst_service","iwstdec/AM_WST_SERVICE","iwstdec/AM_WST_SERVICE_IDS","iwstdec/AM_WST_SERVICE_Invalid","iwstdec/AM_WST_SERVICE_None","iwstdec/AM_WST_SERVICE_Text","iwstdec/PAM_WST_SERVICE"]
 old-location: dshow\am_wst_service.htm
 tech.root: DirectShow
 ms.assetid: 63c20aff-eb30-44fd-bc8d-e155d7014f73

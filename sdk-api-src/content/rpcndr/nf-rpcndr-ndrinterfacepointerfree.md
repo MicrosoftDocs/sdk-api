@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.NdrInterfacePointerFree
 title: NdrInterfacePointerFree function (rpcndr.h)
-description: The NdrInterfacePointerFree function releases the interface pointer.
+description: The NdrInterfacePointerFree function releases the interface pointer.helpviewer_keywords: ["NdrInterfacePointerFree","NdrInterfacePointerFree function [RPC]","rpc.ndrinterfacepointerfree","rpcndr/NdrInterfacePointerFree"]
 old-location: rpc\ndrinterfacepointerfree.htm
 tech.root: Rpc
 ms.assetid: fc40b621-b823-4a14-bd72-eab6086ec998
@@ -70,13 +70,5 @@ Pointer to the interface pointer to be released.
 ### -param pFormat [in]
 
 Pointer to the format string description.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

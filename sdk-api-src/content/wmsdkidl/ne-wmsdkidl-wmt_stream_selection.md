@@ -1,7 +1,7 @@
 ---
 UID: NE:wmsdkidl.WMT_STREAM_SELECTION
 title: WMT_STREAM_SELECTION (wmsdkidl.h)
-description: The WMT_STREAM_SELECTION enumeration type defines the playback status of a stream.
+description: The WMT_STREAM_SELECTION enumeration type defines the playback status of a stream.helpviewer_keywords: ["WMT_CLEANPOINT_ONLY","WMT_OFF","WMT_ON","WMT_STREAM_SELECTION","WMT_STREAM_SELECTION enumeration [windows Media Format]","wmformat.wmt_stream_selection","wmsdkidl/WMT_CLEANPOINT_ONLY","wmsdkidl/WMT_OFF","wmsdkidl/WMT_ON","wmsdkidl/WMT_STREAM_SELECTION"]
 old-location: wmformat\wmt_stream_selection.htm
 tech.root: wmformat
 ms.assetid: 7191d608-1a25-48c0-858b-c5e93f9d8e6e

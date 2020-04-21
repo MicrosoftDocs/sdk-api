@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptGenRandom
 title: BCryptGenRandom function (bcrypt.h)
-description: Generates a random number.
+description: Generates a random number.helpviewer_keywords: ["BCRYPT_RNG_USE_ENTROPY_IN_BUFFER","BCRYPT_USE_SYSTEM_PREFERRED_RNG","BCryptGenRandom","BCryptGenRandom function [Security]","bcrypt/BCryptGenRandom","security.bcryptgenrandom_func"]
 old-location: security\bcryptgenrandom_func.htm
 tech.root: SecCNG
 ms.assetid: 7c6cee3a-f2c5-46f3-8cfe-984316f323d9

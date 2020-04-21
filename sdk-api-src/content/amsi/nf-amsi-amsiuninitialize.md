@@ -1,7 +1,7 @@
 ---
 UID: NF:amsi.AmsiUninitialize
 title: AmsiUninitialize function (amsi.h)
-description: Remove the instance of the AMSI API that was originally opened by AmsiInitialize.
+description: Remove the instance of the AMSI API that was originally opened by AmsiInitialize.helpviewer_keywords: ["AmsiUninitialize","AmsiUninitialize function [Antimalware Scan Interface]","amsi.amsiuninitialize","amsi/AmsiUninitialize"]
 old-location: amsi\amsiuninitialize.htm
 tech.root: AMSI
 ms.assetid: DAC1AAE6-3160-4A82-8E81-9CB245AFD653
@@ -60,15 +60,6 @@ Remove the instance of the AMSI API that was originally opened by <a href="https
 ### -param amsiContext [in]
 
 The handle of type HAMSICONTEXT that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

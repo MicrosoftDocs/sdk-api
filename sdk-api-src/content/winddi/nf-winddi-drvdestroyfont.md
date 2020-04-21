@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvDestroyFont
 title: DrvDestroyFont function (winddi.h)
-description: The DrvDestroyFont function notifies the driver that a font realization is no longer needed and that the driver can now free any associated data structures it has allocated.
+description: The DrvDestroyFont function notifies the driver that a font realization is no longer needed and that the driver can now free any associated data structures it has allocated.helpviewer_keywords: ["DrvDestroyFont","DrvDestroyFont function [Display Devices]","ddifncs_a73e0b14-897a-423d-a9db-8c4ba831a36b.xml","display.drvdestroyfont","winddi/DrvDestroyFont"]
 old-location: display\drvdestroyfont.htm
 tech.root: display
 ms.assetid: aee3efbc-715d-42f2-a718-00057720175a
@@ -60,15 +60,6 @@ The <b>DrvDestroyFont</b> function notifies the driver that a font realization i
 ### -param pfo
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that identifies the font instance.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

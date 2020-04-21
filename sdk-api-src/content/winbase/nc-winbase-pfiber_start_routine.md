@@ -1,7 +1,7 @@
 ---
 UID: NC:winbase.PFIBER_START_ROUTINE
 title: PFIBER_START_ROUTINE (winbase.h)
-description: An application-defined function used with the CreateFiber function. It serves as the starting address for a fiber.
+description: An application-defined function used with the CreateFiber function. It serves as the starting address for a fiber.helpviewer_keywords: ["LPFIBER_START_ROUTINE","PFIBER_START_ROUTINE","PFIBER_START_ROUTINE callback","PFIBER_START_ROUTINE callback function","_win32_fiberproc","base.fiberproc","winbase/PFIBER_START_ROUTINE"]
 old-location: base\fiberproc.htm
 tech.root: ProcThread
 ms.assetid: 368d98f3-1ecd-47a0-98cc-0636f055ae41
@@ -72,15 +72,6 @@ An application-defined function used with the
 
 The fiber data passed using the <i>lpParameter</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> function.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

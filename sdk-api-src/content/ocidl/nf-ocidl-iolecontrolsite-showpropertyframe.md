@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleControlSite.ShowPropertyFrame
 title: IOleControlSite::ShowPropertyFrame (ocidl.h)
-description: Instructs a container to display a property sheet for the control embedded in this site.
+description: Instructs a container to display a property sheet for the control embedded in this site.helpviewer_keywords: ["IOleControlSite interface [COM]","ShowPropertyFrame method","IOleControlSite.ShowPropertyFrame","IOleControlSite::ShowPropertyFrame","ShowPropertyFrame","ShowPropertyFrame method [COM]","ShowPropertyFrame method [COM]","IOleControlSite interface","_ctrl_iolecontrolsite_showpropertyframe","com.iolecontrolsite_showpropertyframe","ocidl/IOleControlSite::ShowPropertyFrame"]
 old-location: com\iolecontrolsite_showpropertyframe.htm
 tech.root: com
 ms.assetid: 88421303-8f90-4ff3-90e4-74cb6d64a541

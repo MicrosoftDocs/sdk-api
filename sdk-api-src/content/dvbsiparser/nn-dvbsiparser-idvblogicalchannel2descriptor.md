@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IDvbLogicalChannel2Descriptor
 title: IDvbLogicalChannel2Descriptor (dvbsiparser.h)
-description: Implements methods that get data from a logical channel descriptor (LCD) in a Digital Video Broadcast (DVB) MPEG-2 stream that uses the format defined in the Nordig specification used in Scandinavian countries.
+description: Implements methods that get data from a logical channel descriptor (LCD) in a Digital Video Broadcast (DVB) MPEG-2 stream that uses the format defined in the Nordig specification used in Scandinavian countries.helpviewer_keywords: ["IDvbLogicalChannel2Descriptor","IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies]","IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbLogicalChannel2Descriptor","mstv.idvblogicalchannel2descriptor"]
 old-location: mstv\idvblogicalchannel2descriptor.htm
 tech.root: mstv
 ms.assetid: dc60db7f-ae49-48dd-bd8a-62899e5ca7a3

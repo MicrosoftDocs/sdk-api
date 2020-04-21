@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_CERT_NAME0_
 title: IKEEXT_CERT_NAME0 (iketypes.h)
-description: Specifies certificate selection &#0034;subject&#0034; criteria for an authentication method.
+description: Specifies certificate selection &#0034;subject&#0034; criteria for an authentication method.helpviewer_keywords: ["IKEEXT_CERT_NAME0","IKEEXT_CERT_NAME0 structure [Filtering]","fwp.ikeext_cert_name0","iketypes/IKEEXT_CERT_NAME0"]
 old-location: fwp\ikeext_cert_name0.htm
 tech.root: fwp
 ms.assetid: 50e04e10-cae1-4fcd-990e-3e9b538627ed

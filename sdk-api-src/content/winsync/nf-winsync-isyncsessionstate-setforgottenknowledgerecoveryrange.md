@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncSessionState.SetForgottenKnowledgeRecoveryRange
 title: ISyncSessionState::SetForgottenKnowledgeRecoveryRange (winsync.h)
-description: Sets the recovery range when the session is performing forgotten knowledge recovery.
+description: Sets the recovery range when the session is performing forgotten knowledge recovery.helpviewer_keywords: ["ISyncSessionState interface [Windows Sync]","SetForgottenKnowledgeRecoveryRange method","ISyncSessionState.SetForgottenKnowledgeRecoveryRange","ISyncSessionState::SetForgottenKnowledgeRecoveryRange","SetForgottenKnowledgeRecoveryRange","SetForgottenKnowledgeRecoveryRange method [Windows Sync]","SetForgottenKnowledgeRecoveryRange method [Windows Sync]","ISyncSessionState interface","winsync.isyncsessionstate_setforgottenknowledgerecoveryrange","winsync/ISyncSessionState::SetForgottenKnowledgeRecoveryRange"]
 old-location: winsync\isyncsessionstate_setforgottenknowledgerecoveryrange.htm
 tech.root: winsync
 ms.assetid: 2de6bfb3-bde9-49ee-97eb-acc1671efd0d

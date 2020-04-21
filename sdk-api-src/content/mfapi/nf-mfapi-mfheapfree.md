@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFHeapFree
 title: MFHeapFree function (mfapi.h)
-description: Frees a block of memory that was allocated by calling the MFHeapAlloc function.
+description: Frees a block of memory that was allocated by calling the MFHeapAlloc function.helpviewer_keywords: ["MFHeapFree","MFHeapFree function [Media Foundation]","c4a03a20-5398-4fe0-9a1f-3bc162c624cd","mf.mfheapfree","mfapi/MFHeapFree"]
 old-location: mf\mfheapfree.htm
 tech.root: medfound
 ms.assetid: c4a03a20-5398-4fe0-9a1f-3bc162c624cd
@@ -63,15 +63,6 @@ Frees a block of memory that was allocated by calling the <a href="https://docs.
 ### -param pv [in]
 
 Pointer to the memory to free.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NS:msctf.TF_HALTCOND
 title: TF_HALTCOND (msctf.h)
-description: The TF_HALTCOND structure is used to contain conditions of a range shift.
+description: The TF_HALTCOND structure is used to contain conditions of a range shift.helpviewer_keywords: ["TF_HALTCOND","TF_HALTCOND structure [Text Services Framework]","_tsf_tf_haltcond_ref","msctf/TF_HALTCOND","tsf.tf_haltcond"]
 old-location: tsf\tf_haltcond.htm
 tech.root: TSF
 ms.assetid: 055f3228-1e3b-4e31-9035-e509a98016a8

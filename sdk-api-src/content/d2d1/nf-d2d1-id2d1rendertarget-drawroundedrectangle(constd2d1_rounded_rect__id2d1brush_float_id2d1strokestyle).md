@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush,FLOAT,ID2D1StrokeStyle) (d2d1.h)
-description: Draws the outline of the specified rounded rectangle using the specified stroke style.
+description: Draws the outline of the specified rounded rectangle using the specified stroke style.helpviewer_keywords: ["DrawRoundedRectangle","DrawRoundedRectangle method [Direct2D]","DrawRoundedRectangle method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawRoundedRectangle method","ID2D1RenderTarget.DrawRoundedRectangle","ID2D1RenderTarget.DrawRoundedRectangle(const D2D1_ROUNDED_RECT &","ID2D1Brush","FLOAT","ID2D1StrokeStyle)","ID2D1RenderTarget::DrawRoundedRectangle","ID2D1RenderTarget::DrawRoundedRectangle(const D2D1_ROUNDED_RECT &","ID2D1Brush","FLOAT","ID2D1StrokeStyle)","d2d1/ID2D1RenderTarget::DrawRoundedRectangle","direct2d.ID2D1RenderTarget_DrawRoundedRectangle_ref_D2D1_ROUNDED_RECT_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle"]
 old-location: direct2d\ID2D1RenderTarget_DrawRoundedRectangle_ref_D2D1_ROUNDED_RECT_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle.htm
 tech.root: Direct2D
 ms.assetid: 599638af-ebbb-4a45-96cf-ba3852e87237
@@ -83,15 +83,6 @@ The width of the stroke, in device-independent pixels. The value must be greater
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
 
 The style of the rounded rectangle's stroke, or <b>NULL</b> to paint a solid stroke. The default value is <b>NULL</b>.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

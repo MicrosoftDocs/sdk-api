@@ -1,7 +1,7 @@
 ---
 UID: NC:wingdi.LINEDDAPROC
 title: LINEDDAPROC (wingdi.h)
-description: The LineDDAProc function is an application-defined callback function used with the LineDDA function.
+description: The LineDDAProc function is an application-defined callback function used with the LineDDA function.helpviewer_keywords: ["LineDDAProc","LineDDAProc callback","LineDDAProc callback function [Windows GDI]","_win32_LineDDAProc","gdi.lineddaproc","wingdi/LineDDAProc"]
 old-location: gdi\lineddaproc.htm
 tech.root: gdi
 ms.assetid: 4a8b1120-4b0b-4029-8b49-4371c0627bba
@@ -85,15 +85,6 @@ Specifies the y-coordinate, in logical units, of the current point.
 #### - lpData [in]
 
 Pointer to the application-defined data.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

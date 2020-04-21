@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngSetPointerShape
 title: EngSetPointerShape function (winddi.h)
-description: The EngSetPointerShape function sets the pointer shape for the calling driver.
+description: The EngSetPointerShape function sets the pointer shape for the calling driver.helpviewer_keywords: ["EngSetPointerShape","EngSetPointerShape function [Display Devices]","display.engsetpointershape","gdifncs_468e4611-6696-4535-af00-014999695d6e.xml","winddi/EngSetPointerShape"]
 old-location: display\engsetpointershape.htm
 tech.root: display
 ms.assetid: 9b3a1e44-f3c6-4160-8d5d-d114511ad201

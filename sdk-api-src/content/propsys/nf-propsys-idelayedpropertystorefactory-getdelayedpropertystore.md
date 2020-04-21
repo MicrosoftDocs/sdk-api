@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IDelayedPropertyStoreFactory.GetDelayedPropertyStore
 title: IDelayedPropertyStoreFactory::GetDelayedPropertyStore (propsys.h)
-description: Gets an IPropertyStore interface object, as specified.
+description: Gets an IPropertyStore interface object, as specified.helpviewer_keywords: ["GetDelayedPropertyStore","GetDelayedPropertyStore method [Windows Shell]","GetDelayedPropertyStore method [Windows Shell]","IDelayedPropertyStoreFactory interface","IDelayedPropertyStoreFactory interface [Windows Shell]","GetDelayedPropertyStore method","IDelayedPropertyStoreFactory.GetDelayedPropertyStore","IDelayedPropertyStoreFactory::GetDelayedPropertyStore","STOREID_FALLBACK","STOREID_FILE","STOREID_INNATE","_shell_IDelayedPropertyStoreFactory_GetDelayedPropertyStore","propsys/IDelayedPropertyStoreFactory::GetDelayedPropertyStore","shell.IDelayedPropertyStoreFactory_GetDelayedPropertyStore"]
 old-location: shell\IDelayedPropertyStoreFactory_GetDelayedPropertyStore.htm
 tech.root: shell
 ms.assetid: 26df5fec-2a21-454e-9539-877c00a4f8fb

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IMessageMover.MoveMessages
 title: IMessageMover::MoveMessages (comsvcs.h)
-description: Moves all messages from the source queue to the destination queue.
+description: Moves all messages from the source queue to the destination queue.helpviewer_keywords: ["IMessageMover interface [COM+]","MoveMessages method","IMessageMover.MoveMessages","IMessageMover::MoveMessages","MoveMessages","MoveMessages method [COM+]","MoveMessages method [COM+]","IMessageMover interface","_cos_IMessageMover_MoveMessages","comsvcs/IMessageMover::MoveMessages","cos.imessagemover_movemessages"]
 old-location: cos\imessagemover_movemessages.htm
 tech.root: cossdk
 ms.assetid: ebe06730-710b-42ce-b905-be87971b19c3

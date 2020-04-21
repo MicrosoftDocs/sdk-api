@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.TiledResourceBarrier
 title: ID3D11DeviceContext2::TiledResourceBarrier (d3d11_2.h)
-description: Specifies a data access ordering constraint between multiple tiled resources.
+description: Specifies a data access ordering constraint between multiple tiled resources.helpviewer_keywords: ["ID3D11DeviceContext2 interface [Direct3D 11]","TiledResourceBarrier method","ID3D11DeviceContext2.TiledResourceBarrier","ID3D11DeviceContext2::TiledResourceBarrier","TiledResourceBarrier","TiledResourceBarrier method [Direct3D 11]","TiledResourceBarrier method [Direct3D 11]","ID3D11DeviceContext2 interface","d3d11_2/ID3D11DeviceContext2::TiledResourceBarrier","direct3d11.id3d11devicecontext2_tiledresourcebarrier"]
 old-location: direct3d11\id3d11devicecontext2_tiledresourcebarrier.htm
 tech.root: direct3d11
 ms.assetid: D53A4336-53D8-4264-9A9B-B775AA026939
@@ -70,15 +70,6 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>*</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11view">ID3D11View</a> for a resource that was created with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_TILED</a> flag.  Access operations on this object must begin after the access operations on the object that <i>pTiledResourceOrViewAccessBeforeBarrier</i> specifies.
-
-
-## -returns
-
-
-
-Returns nothing
-
-
 
 
 ## -remarks

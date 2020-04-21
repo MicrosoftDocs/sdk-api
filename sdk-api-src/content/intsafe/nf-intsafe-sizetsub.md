@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.SizeTSub
 title: SizeTSub function (intsafe.h)
-description: Subtracts one value of type size_t from another.
+description: Subtracts one value of type size_t from another.helpviewer_keywords: ["SizeTSub","SizeTSub function [Windows Shell]","_shell_SizeTSub","intsafe/SizeTSub","shell.SizeTSub"]
 old-location: shell\SizeTSub.htm
 tech.root: shell
 ms.assetid: 6a7b22e7-504b-4065-80fa-b972f0360b5c

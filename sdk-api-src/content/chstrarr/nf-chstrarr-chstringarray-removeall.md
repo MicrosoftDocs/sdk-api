@@ -1,7 +1,7 @@
 ---
 UID: NF:chstrarr.CHStringArray.RemoveAll
 title: CHStringArray::RemoveAll (chstrarr.h)
-description: The RemoveAll method removes all the CHString members from this array.
+description: The RemoveAll method removes all the CHString members from this array.helpviewer_keywords: ["CHStringArray interface [Windows Management Instrumentation]","RemoveAll method","CHStringArray.RemoveAll","CHStringArray::RemoveAll","RemoveAll","RemoveAll method [Windows Management Instrumentation]","RemoveAll method [Windows Management Instrumentation]","CHStringArray interface","_hmm_chstringarray_removeall","chstrarr/CHStringArray::RemoveAll","wmi.chstringarray_removeall"]
 old-location: wmi\chstringarray_removeall.htm
 tech.root: WmiSdk
 ms.assetid: be9df3fd-afa5-4f07-99cd-ddccdeaa3fd3
@@ -62,15 +62,6 @@ The <b>RemoveAll</b> method removes all the <a href="https://docs.microsoft.com/
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

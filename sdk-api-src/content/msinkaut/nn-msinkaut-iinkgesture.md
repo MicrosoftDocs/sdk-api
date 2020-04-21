@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkGesture
 title: IInkGesture (msinkaut.h)
-description: Represents the ability to query particular properties of a gesture returned from a gesture recognition.
+description: Represents the ability to query particular properties of a gesture returned from a gesture recognition.helpviewer_keywords: ["87a1db34-371e-4c02-a470-55f35dfbf4ab","IInkGesture","IInkGesture interface [Tablet PC]","IInkGesture interface [Tablet PC]","described","msinkaut/IInkGesture","tablet.iinkgesture"]
 old-location: tablet\iinkgesture.htm
 tech.root: tablet
 ms.assetid: 87a1db34-371e-4c02-a470-55f35dfbf4ab

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IStream_Size
 title: IStream_Size function (shlwapi.h)
-description: Retrieves the size, in bytes, of a specified stream.
+description: Retrieves the size, in bytes, of a specified stream.helpviewer_keywords: ["IStream_Size","IStream_Size function [Windows Shell]","_win32_IStream_Size","shell.IStream_Size","shlwapi/IStream_Size"]
 old-location: shell\IStream_Size.htm
 tech.root: shell
 ms.assetid: 93c7c24d-6431-4859-b0b8-b36392bc5108

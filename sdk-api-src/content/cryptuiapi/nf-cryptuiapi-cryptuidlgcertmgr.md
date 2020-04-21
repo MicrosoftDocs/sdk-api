@@ -1,7 +1,7 @@
 ---
 UID: NF:cryptuiapi.CryptUIDlgCertMgr
 title: CryptUIDlgCertMgr function (cryptuiapi.h)
-description: Displays a dialog box that allows the user to manage certificates.
+description: Displays a dialog box that allows the user to manage certificates.helpviewer_keywords: ["CryptUIDlgCertMgr","CryptUIDlgCertMgr function [Security]","cryptuiapi/CryptUIDlgCertMgr","security.cryptuidlgcertmgr"]
 old-location: security\cryptuidlgcertmgr.htm
 tech.root: SecCrypto
 ms.assetid: 8d94694e-1724-42aa-99bb-6ed2c6d3bc0e

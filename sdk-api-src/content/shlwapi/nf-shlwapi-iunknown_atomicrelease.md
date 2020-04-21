@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IUnknown_AtomicRelease
 title: IUnknown_AtomicRelease function (shlwapi.h)
-description: Releases a Component Object Model (COM) pointer and sets it to NULL.
+description: Releases a Component Object Model (COM) pointer and sets it to NULL.helpviewer_keywords: ["IUnknown_AtomicRelease","IUnknown_AtomicRelease function [Windows Shell]","_win32_IUnknown_AtomicRelease","shell.IUnknown_AtomicRelease","shlwapi/IUnknown_AtomicRelease"]
 old-location: shell\IUnknown_AtomicRelease.htm
 tech.root: shell
 ms.assetid: 6bb3f9cf-bf28-4f94-8557-56c1952384ec
@@ -66,15 +66,6 @@ Releases a Component Object Model (COM) pointer and sets it to <b>NULL</b>.
 Type: <b>void**</b>
 
 The address of a pointer to a COM interface.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

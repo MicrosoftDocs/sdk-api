@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetSystemPowerState
 title: SetSystemPowerState function (winbase.h)
-description: Suspends the system by shutting power down. Depending on the ForceFlag parameter, the function either suspends operation immediately or requests permission from all applications and device drivers before doing so.
+description: Suspends the system by shutting power down. Depending on the ForceFlag parameter, the function either suspends operation immediately or requests permission from all applications and device drivers before doing so.helpviewer_keywords: ["SetSystemPowerState","SetSystemPowerState function","_win32_setsystempowerstate","base.setsystempowerstate","winbase/SetSystemPowerState"]
 old-location: base\setsystempowerstate.htm
 tech.root: power
 ms.assetid: 58cf4e29-2a2e-499a-85ce-0034f4323cfe

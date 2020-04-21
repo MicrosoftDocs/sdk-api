@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnChangedItem
 title: IRowsetEvents::OnChangedItem (searchapi.h)
-description: Called by the indexer to notify clients that an item has been modified. This item may have matched some (or all) of the criteria for the client rowset.
+description: Called by the indexer to notify clients that an item has been modified. This item may have matched some (or all) of the criteria for the client rowset.helpviewer_keywords: ["IRowsetEvents interface [search]","OnChangedItem method","IRowsetEvents.OnChangedItem","IRowsetEvents::OnChangedItem","OnChangedItem","OnChangedItem method [search]","OnChangedItem method [search]","IRowsetEvents interface","_search_IRowsetEvents_OnChangedItem","search._search_IRowsetEvents_OnChangedItem","searchapi/IRowsetEvents::OnChangedItem"]
 old-location: search\_search_IRowsetEvents_OnChangedItem.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onchangeditem.htm

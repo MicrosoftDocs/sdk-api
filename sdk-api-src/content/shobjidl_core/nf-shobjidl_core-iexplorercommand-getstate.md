@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetState
 title: IExplorerCommand::GetState (shobjidl_core.h)
-description: Gets state information associated with a specified Windows Explorer command item.
+description: Gets state information associated with a specified Windows Explorer command item.helpviewer_keywords: ["GetState","GetState method [Windows Shell]","GetState method [Windows Shell]","IExplorerCommand interface","IExplorerCommand interface [Windows Shell]","GetState method","IExplorerCommand.GetState","IExplorerCommand::GetState","_shell_IExplorerCommand_GetState","shell.IExplorerCommand_GetState","shobjidl_core/IExplorerCommand::GetState"]
 old-location: shell\IExplorerCommand_GetState.htm
 tech.root: shell
 ms.assetid: bb600cb5-9b7e-45dc-beca-0a913c214084

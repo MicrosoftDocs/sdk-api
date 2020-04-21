@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfMessagePump.PeekMessageW
 title: ITfMessagePump::PeekMessageW (msctf.h)
-description: ITfMessagePump::PeekMessageW method
+description: ITfMessagePump::PeekMessageW methodhelpviewer_keywords: ["ITfMessagePump interface [Text Services Framework]","PeekMessageW method","ITfMessagePump.PeekMessageW","ITfMessagePump::PeekMessageW","PeekMessageW","PeekMessageW method [Text Services Framework]","PeekMessageW method [Text Services Framework]","ITfMessagePump interface","_tsf_itfmessagepump_peekmessagew_ref","msctf/ITfMessagePump::PeekMessageW","tsf.itfmessagepump_peekmessagew"]
 old-location: tsf\itfmessagepump_peekmessagew.htm
 tech.root: TSF
 ms.assetid: 05a3a7e1-4b83-4257-bfe8-7f79405ff02a
@@ -49,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a message from the message queue and returns if no message is obtained. This is the Unicode version of this method.
 
 ## -parameters
 

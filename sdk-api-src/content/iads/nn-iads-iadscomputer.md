@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsComputer
 title: IADsComputer (iads.h)
-description: The IADsComputer interface is a dual interface that inherits from IADs.
+description: The IADsComputer interface is a dual interface that inherits from IADs.helpviewer_keywords: ["IADsComputer","IADsComputer interface [ADSI]","IADsComputer interface [ADSI]","described","_ds_iadscomputer","adsi.iadscomputer","iads/IADsComputer"]
 old-location: adsi\iadscomputer.htm
 tech.root: adsi
 ms.assetid: e2b90a98-5777-42c2-95dd-4623e738c4da

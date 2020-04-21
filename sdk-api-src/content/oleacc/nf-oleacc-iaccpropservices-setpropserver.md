@@ -1,7 +1,7 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetPropServer
 title: IAccPropServices::SetPropServer (oleacc.h)
-description: Servers use SetPropServer to specify a callback object to be used to annotate an array of properties for the accessible element.
+description: Servers use SetPropServer to specify a callback object to be used to annotate an array of properties for the accessible element.helpviewer_keywords: ["IAccPropServices interface [Windows Accessibility]","SetPropServer method","IAccPropServices.SetPropServer","IAccPropServices::SetPropServer","SetPropServer","SetPropServer method [Windows Accessibility]","SetPropServer method [Windows Accessibility]","IAccPropServices interface","_msaa_IAccPropServices_SetPropServer","msaa.iaccpropservices_iaccpropservices__setpropserver","oleacc/IAccPropServices::SetPropServer","winauto.iaccpropservices_iaccpropservices__setpropserver"]
 old-location: winauto\iaccpropservices_iaccpropservices__setpropserver.htm
 tech.root: WinAuto
 ms.assetid: 15e43a38-4cb3-43ca-a0fc-28faf49057dc

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.PositionChange
 title: IWMPEvents::PositionChange (wmp.h)
-description: The PositionChange event occurs when the current playback position within the media item has been changed.
+description: The PositionChange event occurs when the current playback position within the media item has been changed.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","PositionChange method","IWMPEvents.PositionChange","IWMPEvents::PositionChange","IWMPEventsPositionChange","PositionChange","PositionChange method [Windows Media Player]","PositionChange method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__positionchange","wmp/IWMPEvents::PositionChange"]
 old-location: wmp\iwmpevents_iwmpevents__positionchange.htm
 tech.root: WMP
 ms.assetid: 644aaab0-8028-4dd2-9f56-f97db2b22d69
@@ -68,15 +68,6 @@ Specifies the original position.
 ### -param newPosition [in]
 
 Specifies the new position.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetSourceFromByteStream
 title: IMFMediaEngineEx::SetSourceFromByteStream (mfmediaengine.h)
-description: Opens a media resource from a byte stream.
+description: Opens a media resource from a byte stream.helpviewer_keywords: ["IMFMediaEngineEx interface [Media Foundation]","SetSourceFromByteStream method","IMFMediaEngineEx.SetSourceFromByteStream","IMFMediaEngineEx::SetSourceFromByteStream","SetSourceFromByteStream","SetSourceFromByteStream method [Media Foundation]","SetSourceFromByteStream method [Media Foundation]","IMFMediaEngineEx interface","mf.imfmediaengineex_setsourcefrombytestream","mfmediaengine/IMFMediaEngineEx::SetSourceFromByteStream"]
 old-location: mf\imfmediaengineex_setsourcefrombytestream.htm
 tech.root: medfound
 ms.assetid: F643383E-AABA-4F32-BCE9-0AA4FD635A0F

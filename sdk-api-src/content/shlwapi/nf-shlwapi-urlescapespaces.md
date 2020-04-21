@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.UrlEscapeSpaces
 title: UrlEscapeSpaces macro (shlwapi.h)
-description: A macro that converts space characters into their corresponding escape sequence.
+description: A macro that converts space characters into their corresponding escape sequence.helpviewer_keywords: ["UrlEscapeSpaces","UrlEscapeSpaces function [Windows Shell]","_win32_UrlEscapeSpaces","shell.UrlEscapeSpaces","shlwapi/UrlEscapeSpaces"]
 old-location: shell\UrlEscapeSpaces.htm
 tech.root: shell
 ms.assetid: d6d676f1-0ef3-4701-99b2-ca520b39ce6e

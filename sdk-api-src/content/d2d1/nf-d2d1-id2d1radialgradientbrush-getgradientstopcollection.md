@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.GetGradientStopCollection
 title: ID2D1RadialGradientBrush::GetGradientStopCollection (d2d1.h)
-description: Retrieves the ID2D1GradientStopCollection associated with this radial gradient brush object.
+description: Retrieves the ID2D1GradientStopCollection associated with this radial gradient brush object.helpviewer_keywords: ["GetGradientStopCollection","GetGradientStopCollection method [Direct2D]","GetGradientStopCollection method [Direct2D]","ID2D1RadialGradientBrush interface","ID2D1RadialGradientBrush interface [Direct2D]","GetGradientStopCollection method","ID2D1RadialGradientBrush.GetGradientStopCollection","ID2D1RadialGradientBrush::GetGradientStopCollection","d2d1/ID2D1RadialGradientBrush::GetGradientStopCollection","direct2d.ID2D1RadialGradientBrush_GetGradientStopCollection"]
 old-location: direct2d\ID2D1RadialGradientBrush_GetGradientStopCollection.htm
 tech.root: Direct2D
 ms.assetid: e09a7b3d-4c37-4d39-985f-a24a3bfe2d04
@@ -62,15 +62,6 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>**</b>
 
 The  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a> object associated with this linear gradient brush object. This parameter is passed uninitialized.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

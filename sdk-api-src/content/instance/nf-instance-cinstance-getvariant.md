@@ -1,7 +1,7 @@
 ---
 UID: NF:instance.CInstance.GetVariant
 title: CInstance::GetVariant (instance.h)
-description: The GetVariant method retrieves a VARIANT property.
+description: The GetVariant method retrieves a VARIANT property.helpviewer_keywords: ["?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z","CInstance interface [Windows Management Instrumentation]","GetVariant method","CInstance.GetVariant","CInstance::GetVariant","GetVariant","GetVariant method [Windows Management Instrumentation]","GetVariant method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_getvariant","instance/CInstance::GetVariant","wmi.cinstance_getvariant"]
 old-location: wmi\cinstance_getvariant.htm
 tech.root: WmiSdk
 ms.assetid: 84160043-bb63-422b-99be-3f55df4c15be

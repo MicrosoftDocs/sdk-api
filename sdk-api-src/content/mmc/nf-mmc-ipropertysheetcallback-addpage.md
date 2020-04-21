@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IPropertySheetCallback.AddPage
 title: IPropertySheetCallback::AddPage (mmc.h)
-description: The IPropertySheetCallback::AddPage method enables a snap-in to add a page to a property sheet.
+description: The IPropertySheetCallback::AddPage method enables a snap-in to add a page to a property sheet.helpviewer_keywords: ["AddPage","AddPage method [MMC]","AddPage method [MMC]","IPropertySheetCallback interface","IPropertySheetCallback interface [MMC]","AddPage method","IPropertySheetCallback.AddPage","IPropertySheetCallback::AddPage","_slate_ipropertysheetcallback_addpage","mmc.ipropertysheetcallback_addpage","mmc/IPropertySheetCallback::AddPage"]
 old-location: mmc\ipropertysheetcallback_addpage.htm
 tech.root: mmc
 ms.assetid: db19fc38-7111-42f2-83a9-a08473a4d49b

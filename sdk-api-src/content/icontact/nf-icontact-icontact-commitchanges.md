@@ -1,7 +1,7 @@
 ---
 UID: NF:icontact.IContact.CommitChanges
 title: IContact::CommitChanges (icontact.h)
-description: Saves changes made to this contact to the contact file.
+description: Saves changes made to this contact to the contact file.helpviewer_keywords: ["CommitChanges","CommitChanges method [Windows Contacts]","CommitChanges method [Windows Contacts]","IContact interface","IContact interface [Windows Contacts]","CommitChanges method","IContact.CommitChanges","IContact::CommitChanges","_wincontacts_IContact_CommitChanges","icontact/IContact::CommitChanges","wincontacts._wincontacts_IContact_CommitChanges"]
 old-location: wincontacts\_wincontacts_IContact_CommitChanges.htm
 tech.root: wincontacts
 ms.assetid: b06f7d25-03ae-4630-9aa9-09cfbcecc416

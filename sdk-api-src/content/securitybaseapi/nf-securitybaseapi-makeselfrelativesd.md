@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.MakeSelfRelativeSD
 title: MakeSelfRelativeSD function (securitybaseapi.h)
-description: Creates a security descriptor in self-relative format by using a security descriptor in absolute format as a template.
+description: Creates a security descriptor in self-relative format by using a security descriptor in absolute format as a template.helpviewer_keywords: ["MakeSelfRelativeSD","MakeSelfRelativeSD function [Security]","_win32_makeselfrelativesd","security.makeselfrelativesd","securitybaseapi/MakeSelfRelativeSD"]
 old-location: security\makeselfrelativesd.htm
 tech.root: SecAuthZ
 ms.assetid: 497c7e2f-75b7-41b9-9693-37e041b7af58

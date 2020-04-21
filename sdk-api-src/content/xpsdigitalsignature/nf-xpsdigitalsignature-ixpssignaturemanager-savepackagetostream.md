@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.SavePackageToStream
 title: IXpsSignatureManager::SavePackageToStream (xpsdigitalsignature.h)
-description: Saves the XPS package by writing it to a stream.
+description: Saves the XPS package by writing it to a stream.helpviewer_keywords: ["IXpsSignatureManager interface [XPS Documents and Packaging]","SavePackageToStream method","IXpsSignatureManager.SavePackageToStream","IXpsSignatureManager::SavePackageToStream","SavePackageToStream","SavePackageToStream method [XPS Documents and Packaging]","SavePackageToStream method [XPS Documents and Packaging]","IXpsSignatureManager interface","xps.ixpssignaturemanager_savepackagetostream","xpsdigitalsignature/IXpsSignatureManager::SavePackageToStream"]
 old-location: xps\ixpssignaturemanager_savepackagetostream.htm
 tech.root: printdocs
 ms.assetid: 1a29c8e2-2e5d-4cc0-adfd-6debabca9243

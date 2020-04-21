@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI1FromCy
 title: VarI1FromCy function (oleauto.h)
-description: Converts a currency value to a char value.
+description: Converts a currency value to a char value.helpviewer_keywords: ["VarI1FromCy","VarI1FromCy function [Automation]","_oa96_VarI1FromCy","automat.vari1fromcy","oleauto/VarI1FromCy"]
 old-location: automat\vari1fromcy.htm
 tech.root: automat
 ms.assetid: 9ceaabd0-8d36-4706-92a1-73a675b2ae34

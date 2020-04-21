@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluseffects.Effect.UseAuxData
 title: Effect::UseAuxData (gdipluseffects.h)
-description: The Effect::UseAuxData method sets or clears a flag that specifies whether the Bitmap::ApplyEffect method should return a pointer to the auxiliary data that it creates.
+description: The Effect::UseAuxData method sets or clears a flag that specifies whether the Bitmap::ApplyEffect method should return a pointer to the auxiliary data that it creates.helpviewer_keywords: ["Effect class [GDI+]","UseAuxData method","Effect.UseAuxData","Effect::UseAuxData","UseAuxData","UseAuxData method [GDI+]","UseAuxData method [GDI+]","Effect class","_gdiplus_CLASS_Effect_UseAuxData_","gdiplus._gdiplus_CLASS_Effect_UseAuxData_"]
 old-location: gdiplus\_gdiplus_CLASS_Effect_UseAuxData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\useauxdata.htm
@@ -63,15 +63,6 @@ The <b>Effect::UseAuxData</b> method sets or clears a flag that specifies whethe
 Type: <b>const BOOL</b>
 
 Set to <b>TRUE</b> to specify that <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">ApplyEffect</a> should return a pointer to its auxiliary data; <b>FALSE</b> otherwise.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

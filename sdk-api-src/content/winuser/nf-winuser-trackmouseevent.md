@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.TrackMouseEvent
 title: TrackMouseEvent function (winuser.h)
-description: Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time.
+description: Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time.helpviewer_keywords: ["TrackMouseEvent","TrackMouseEvent function [Keyboard and Mouse Input]","_win32_TrackMouseEvent","_win32_trackmouseevent_cpp","inputdev.trackmouseevent","winui._win32_trackmouseevent","winuser/TrackMouseEvent"]
 old-location: inputdev\trackmouseevent.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\trackmouseevent.htm

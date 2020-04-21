@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.SetUserEnabled
 title: IGPMGPO::SetUserEnabled (gpmgmt.h)
-description: Enables or disables the user settings in the GPO.
+description: Enables or disables the user settings in the GPO.helpviewer_keywords: ["GPMGPO class [GPMC]","SetUserEnabled method","IGPMGPO interface [GPMC]","SetUserEnabled method","IGPMGPO.SetUserEnabled","IGPMGPO::SetUserEnabled","SetUserEnabled","SetUserEnabled method [GPMC]","SetUserEnabled method [GPMC]","GPMGPO class","SetUserEnabled method [GPMC]","IGPMGPO interface","_win32_igpmgpo_setuserenabled","gpmc.igpmgpo_setuserenabled","gpmgmt/IGPMGPO::SetUserEnabled"]
 old-location: gpmc\igpmgpo_setuserenabled.htm
 tech.root: gpmc
 ms.assetid: 25a86f15-a5b0-4412-931b-444f4a684dc6

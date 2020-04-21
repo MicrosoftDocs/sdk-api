@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetPolicyServerUrl
 title: IX509EnrollmentPolicyServer::GetPolicyServerUrl (certenroll.h)
-description: Retrieves a string value that contains the URL for the certificate enrollment policy (CEP) server.
+description: Retrieves a string value that contains the URL for the certificate enrollment policy (CEP) server.helpviewer_keywords: ["GetPolicyServerUrl","GetPolicyServerUrl method [Security]","GetPolicyServerUrl method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetPolicyServerUrl method","IX509EnrollmentPolicyServer.GetPolicyServerUrl","IX509EnrollmentPolicyServer::GetPolicyServerUrl","certenroll/IX509EnrollmentPolicyServer::GetPolicyServerUrl","security.ix509enrollmentpolicyserver_getpolicyserverurl"]
 old-location: security\ix509enrollmentpolicyserver_getpolicyserverurl.htm
 tech.root: seccertenroll
 ms.assetid: 34fb1430-afde-43f2-a425-dcb25c9ea58d

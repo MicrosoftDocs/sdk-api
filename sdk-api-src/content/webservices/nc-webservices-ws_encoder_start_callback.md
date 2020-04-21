@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_ENCODER_START_CALLBACK
 title: WS_ENCODER_START_CALLBACK (webservices.h)
-description: Starts encoding a message.
+description: Starts encoding a message.helpviewer_keywords: ["WS_ENCODER_START_CALLBACK","WS_ENCODER_START_CALLBACK callback","WS_ENCODER_START_CALLBACK callback function [Web Services for Windows]","webservices/WS_ENCODER_START_CALLBACK","wsw.ws_encoder_start_callback"]
 old-location: wsw\ws_encoder_start_callback.htm
 tech.root: wsw
 ms.assetid: 308e3d24-e3df-4dc8-a727-d3d8ebe8d5d4

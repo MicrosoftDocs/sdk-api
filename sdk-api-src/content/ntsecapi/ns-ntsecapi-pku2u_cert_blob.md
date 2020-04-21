@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._PKU2U_CERT_BLOB
 title: PKU2U_CERT_BLOB (ntsecapi.h)
-description: Specifies PKU2U certificate data.
+description: Specifies PKU2U certificate data.helpviewer_keywords: ["*PPKU2U_CERT_BLOB","PKU2U_CERT_BLOB","PKU2U_CERT_BLOB structure [Security]","PPKU2U_CERT_BLOB","PPKU2U_CERT_BLOB structure pointer [Security]","ntsecapi/PKU2U_CERT_BLOB","ntsecapi/PPKU2U_CERT_BLOB","security.pku2u_cert_blob"]
 old-location: security\pku2u_cert_blob.htm
 tech.root: SecAuthN
 ms.assetid: f840e81e-3fed-4d05-8ac4-b19ce0267517

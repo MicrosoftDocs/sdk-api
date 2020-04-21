@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SetResourceMinLOD
 title: ID3D11DeviceContext::SetResourceMinLOD (d3d11.h)
-description: Sets the minimum level-of-detail (LOD) for a resource.
+description: Sets the minimum level-of-detail (LOD) for a resource.helpviewer_keywords: ["09f84905-66c1-c11b-7669-74d84525bebd","ID3D11DeviceContext interface [Direct3D 11]","SetResourceMinLOD method","ID3D11DeviceContext.SetResourceMinLOD","ID3D11DeviceContext::SetResourceMinLOD","SetResourceMinLOD","SetResourceMinLOD method [Direct3D 11]","SetResourceMinLOD method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::SetResourceMinLOD","direct3d11.id3d11devicecontext_setresourceminlod"]
 old-location: direct3d11\id3d11devicecontext_setresourceminlod.htm
 tech.root: direct3d11
 ms.assetid: c718bc0b-fb3b-49fd-91f1-098edc0c115d
@@ -70,15 +70,6 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn
 Type: <b>FLOAT</b>
 
 The level-of-detail, which ranges between 0 and the maximum number of mipmap levels of the resource. For example, the maximum number of mipmap levels of a 1D texture is specified in the  <b>MipLevels</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture1d_desc">D3D11_TEXTURE1D_DESC</a> structure.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

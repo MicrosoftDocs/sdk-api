@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IChannelTuneRequest.get_Channel
 title: IChannelTuneRequest::get_Channel (tuner.h)
-description: The get_Channel method gets the channel to be tuned.
+description: The get_Channel method gets the channel to be tuned.helpviewer_keywords: ["IChannelTuneRequest interface [Microsoft TV Technologies]","get_Channel method","IChannelTuneRequest.get_Channel","IChannelTuneRequest::get_Channel","IChannelTuneRequestget_Channel","get_Channel","get_Channel method [Microsoft TV Technologies]","get_Channel method [Microsoft TV Technologies]","IChannelTuneRequest interface","mstv.ichanneltunerequest_get_channel","tuner/IChannelTuneRequest::get_Channel"]
 old-location: mstv\ichanneltunerequest_get_channel.htm
 tech.root: mstv
 ms.assetid: 1a529416-9b7a-41f4-961a-741b1a581d5f

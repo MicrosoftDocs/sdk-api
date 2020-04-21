@@ -1,7 +1,7 @@
 ---
 UID: NF:callobj.ICallFrame.Copy
 title: ICallFrame::Copy (callobj.h)
-description: Creates a copy of this call frame and all of its associated data.
+description: Creates a copy of this call frame and all of its associated data.helpviewer_keywords: ["Copy","Copy method [COM]","Copy method [COM]","ICallFrame interface","ICallFrame interface [COM]","Copy method","ICallFrame.Copy","ICallFrame::Copy","_com_icallframe_copy","callobj/ICallFrame::Copy","com.icallframe_copy"]
 old-location: com\icallframe_copy.htm
 tech.root: com
 ms.assetid: bf2d2e55-d9d1-48d6-817c-382c739d1acd

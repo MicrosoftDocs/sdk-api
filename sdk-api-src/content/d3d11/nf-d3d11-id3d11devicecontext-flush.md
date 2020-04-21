@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.Flush
 title: ID3D11DeviceContext::Flush (d3d11.h)
-description: Sends queued-up commands in the command buffer to the graphics processing unit (GPU).
+description: Sends queued-up commands in the command buffer to the graphics processing unit (GPU).helpviewer_keywords: ["Flush","Flush method [Direct3D 11]","Flush method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","Flush method","ID3D11DeviceContext.Flush","ID3D11DeviceContext::Flush","b14698ec-f6ed-febc-05d4-5a02d568e816","d3d11/ID3D11DeviceContext::Flush","direct3d11.id3d11devicecontext_flush"]
 old-location: direct3d11\id3d11devicecontext_flush.htm
 tech.root: direct3d11
 ms.assetid: e204c585-4996-4274-a654-b9912e957fe6
@@ -56,15 +56,6 @@ Sends queued-up commands in the command buffer to the graphics processing unit (
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

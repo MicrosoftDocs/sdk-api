@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport2.get_PluggableSuperclasses
 title: ITTerminalSupport2::get_PluggableSuperclasses (tapi3if.h)
-description: The get_PluggableSuperclasses method returns a collection of ITPluggableTerminalSuperclassInfo superclass information interface pointers.
+description: The get_PluggableSuperclasses method returns a collection of ITPluggableTerminalSuperclassInfo superclass information interface pointers.helpviewer_keywords: ["ITTerminalSupport2 interface [TAPI 2.2]","get_PluggableSuperclasses method","ITTerminalSupport2.get_PluggableSuperclasses","ITTerminalSupport2::get_PluggableSuperclasses","_tapi3_itterminalsupport2_get_pluggablesuperclasses","get_PluggableSuperclasses","get_PluggableSuperclasses method [TAPI 2.2]","get_PluggableSuperclasses method [TAPI 2.2]","ITTerminalSupport2 interface","tapi3.itterminalsupport2_get_pluggablesuperclasses","tapi3if/ITTerminalSupport2::get_PluggableSuperclasses"]
 old-location: tapi3\itterminalsupport2_get_pluggablesuperclasses.htm
 tech.root: Tapi
 ms.assetid: 6d66aeca-5ac2-4019-b326-71c3bfb6d28e

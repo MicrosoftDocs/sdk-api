@@ -1,7 +1,7 @@
 ---
 UID: NF:encdec.IDTFilter.put_BlockedRatingAttributes
 title: IDTFilter::put_BlockedRatingAttributes (encdec.h)
-description: The put_BlockedRatingAttributes method specifies whether to block content that has a specified rating.
+description: The put_BlockedRatingAttributes method specifies whether to block content that has a specified rating.helpviewer_keywords: ["IDTFilter interface [Microsoft TV Technologies]","put_BlockedRatingAttributes method","IDTFilter.put_BlockedRatingAttributes","IDTFilter::put_BlockedRatingAttributes","IDTFilterput_BlockedRatingAttributes","encdec/IDTFilter::put_BlockedRatingAttributes","mstv.idtfilter_put_blockedratingattributes","put_BlockedRatingAttributes","put_BlockedRatingAttributes method [Microsoft TV Technologies]","put_BlockedRatingAttributes method [Microsoft TV Technologies]","IDTFilter interface"]
 old-location: mstv\idtfilter_put_blockedratingattributes.htm
 tech.root: mstv
 ms.assetid: ae81e427-305e-43b8-ad4d-e23f0bbbdc4a

@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMENUBARINFO
 title: MENUBARINFO (winuser.h)
-description: Contains menu bar information.
+description: Contains menu bar information.helpviewer_keywords: ["*LPMENUBARINFO","*PMENUBARINFO","MENUBARINFO","MENUBARINFO structure [Menus and Other Resources]","PMENUBARINFO","PMENUBARINFO structure pointer [Menus and Other Resources]","_win32_MENUBARINFO_str","_win32_menubarinfo_str_cpp","menurc.menubarinfo","winui._win32_menubarinfo_str","winuser/MENUBARINFO","winuser/PMENUBARINFO"]
 old-location: menurc\menubarinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menubarinfo.htm

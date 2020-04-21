@@ -1,7 +1,7 @@
 ---
 UID: NF:winwlx.WlxDisplaySASNotice
 title: WlxDisplaySASNotice function (winwlx.h)
-description: Winlogon calls this function when no user is logged on.
+description: Winlogon calls this function when no user is logged on.helpviewer_keywords: ["WlxDisplaySASNotice","WlxDisplaySASNotice function [Security]","_gina_wlxdisplaysasnotice","security.wlxdisplaysasnotice","winwlx/WlxDisplaySASNotice"]
 old-location: security\wlxdisplaysasnotice.htm
 tech.root: SecAuthN
 ms.assetid: 2b56c037-aae6-4cb7-932f-15cf18c4444a
@@ -63,15 +63,6 @@ The <b>WlxDisplaySASNotice</b> function must be implemented by a replacement <a 
 
 A pointer to the GINA context associated with this window station. This is the context value that the GINA returns when Winlogon calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

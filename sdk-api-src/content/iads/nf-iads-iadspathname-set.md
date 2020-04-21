@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPathname.Set
 title: IADsPathname::Set (iads.h)
-description: Sets up the Pathname object for parsing a directory path.
+description: Sets up the Pathname object for parsing a directory path.helpviewer_keywords: ["IADsPathname interface [ADSI]","Set method","IADsPathname.Set","IADsPathname::Set","Set","Set method [ADSI]","Set method [ADSI]","IADsPathname interface","_ds_iadspathname_set","adsi.iadspathname__set","adsi.iadspathname_set","iads/IADsPathname::Set"]
 old-location: adsi\iadspathname_set.htm
 tech.root: adsi
 ms.assetid: 1672c1b0-1008-41e7-8ca4-eefb559f523d

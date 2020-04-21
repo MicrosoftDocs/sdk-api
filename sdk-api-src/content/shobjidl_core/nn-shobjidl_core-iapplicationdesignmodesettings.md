@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IApplicationDesignModeSettings
 title: IApplicationDesignModeSettings (shobjidl_core.h)
-description: Enables development tool applications to dynamically spoof system and user states, such as native display resolution, device scale factor, and application view state, for the purpose of testing Windows Store apps running in design mode for a wide range of form factors without the need for the actual hardware. Also enables testing of changes in normally user-controlled state to test Windows Store apps under a variety of scenarios.
+description: Enables development tool applications to dynamically spoof system and user states, such as native display resolution, device scale factor, and application view state, for the purpose of testing Windows Store apps running in design mode for a wide range of form factors without the need for the actual hardware. Also enables testing of changes in normally user-controlled state to test Windows Store apps under a variety of scenarios.helpviewer_keywords: ["IApplicationDesignModeSettings","IApplicationDesignModeSettings interface [Windows Shell]","IApplicationDesignModeSettings interface [Windows Shell]","described","shell.IApplicationDesignModeSettings","shobjidl_core/IApplicationDesignModeSettings"]
 old-location: shell\IApplicationDesignModeSettings.htm
 tech.root: shell
 ms.assetid: D26C9A87-8C29-4029-BF8A-E0566DC2DF2A

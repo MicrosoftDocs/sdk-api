@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorSplatSignMask
 title: XMVectorSplatSignMask function (directxmath.h)
-description: Returns a vector, each of whose components are the sign mask (0x80000000).
+description: Returns a vector, each of whose components are the sign mask (0x80000000).helpviewer_keywords: ["Use DirectX..XMVectorSplatSignMask","XMVectorSplatSignMask","XMVectorSplatSignMask method [DirectX Math Support APIs]","dxmath.xmvectorsplatsignmask"]
 old-location: dxmath\xmvectorsplatsignmask.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatSignMask

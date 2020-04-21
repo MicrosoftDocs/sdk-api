@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_2.IDXGIDisplayControl.IsStereoEnabled
 title: IDXGIDisplayControl::IsStereoEnabled (dxgi1_2.h)
-description: Retrieves a Boolean value that indicates whether the operating system's stereoscopic 3D display behavior is enabled.
+description: Retrieves a Boolean value that indicates whether the operating system's stereoscopic 3D display behavior is enabled.helpviewer_keywords: ["IDXGIDisplayControl interface [DXGI]","IsStereoEnabled method","IDXGIDisplayControl.IsStereoEnabled","IDXGIDisplayControl::IsStereoEnabled","IsStereoEnabled","IsStereoEnabled method [DXGI]","IsStereoEnabled method [DXGI]","IDXGIDisplayControl interface","direct3ddxgi.idxgidisplaycontrol_IsStereoEnabled","dxgi1_2/IDXGIDisplayControl::IsStereoEnabled"]
 old-location: direct3ddxgi\idxgidisplaycontrol_IsStereoEnabled.htm
 tech.root: direct3ddxgi
 ms.assetid: AE6AA254-3534-4E0F-A206-BAC4536B8B80

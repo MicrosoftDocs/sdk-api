@@ -1,7 +1,7 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetChannelVolumeLevelScalar
 title: IAudioEndpointVolume::GetChannelVolumeLevelScalar (endpointvolume.h)
-description: The GetChannelVolumeLevelScalar method gets the normalized, audio-tapered volume level of the specified channel of the audio stream that enters or leaves the audio endpoint device.
+description: The GetChannelVolumeLevelScalar method gets the normalized, audio-tapered volume level of the specified channel of the audio stream that enters or leaves the audio endpoint device.helpviewer_keywords: ["GetChannelVolumeLevelScalar","GetChannelVolumeLevelScalar method [Core Audio]","GetChannelVolumeLevelScalar method [Core Audio]","IAudioEndpointVolume interface","IAudioEndpointVolume interface [Core Audio]","GetChannelVolumeLevelScalar method","IAudioEndpointVolume.GetChannelVolumeLevelScalar","IAudioEndpointVolume::GetChannelVolumeLevelScalar","IAudioEndpointVolumeGetChannelVolumeLevelScalar","coreaudio.iaudioendpointvolume_getchannelvolumelevelscalar","endpointvolume/IAudioEndpointVolume::GetChannelVolumeLevelScalar"]
 old-location: coreaudio\iaudioendpointvolume_getchannelvolumelevelscalar.htm
 tech.root: CoreAudio
 ms.assetid: e33d0010-9ea4-4375-9f23-81309f800988

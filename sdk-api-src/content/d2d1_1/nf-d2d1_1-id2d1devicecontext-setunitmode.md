@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.SetUnitMode
 title: ID2D1DeviceContext::SetUnitMode (d2d1_1.h)
-description: Sets what units will be used to interpret values passed into the device context.
+description: Sets what units will be used to interpret values passed into the device context.helpviewer_keywords: ["ID2D1DeviceContext interface [Direct2D]","SetUnitMode method","ID2D1DeviceContext.SetUnitMode","ID2D1DeviceContext::SetUnitMode","SetUnitMode","SetUnitMode method [Direct2D]","SetUnitMode method [Direct2D]","ID2D1DeviceContext interface","d2d1_1/ID2D1DeviceContext::SetUnitMode","direct2d.id2d1devicecontext_setunitmode"]
 old-location: direct2d\id2d1devicecontext_setunitmode.htm
 tech.root: Direct2D
 ms.assetid: a5774b9a-4458-47e7-821a-4ac4b70468e3
@@ -64,15 +64,6 @@ Sets what units will be used to interpret values passed into the device context.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_unit_mode">D2D1_UNIT_MODE</a></b>
 
 An enumeration defining how passed-in units will be interpreted by the device context.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

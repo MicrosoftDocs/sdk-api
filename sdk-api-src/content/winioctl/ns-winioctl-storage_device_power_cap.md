@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._STORAGE_DEVICE_POWER_CAP
 title: STORAGE_DEVICE_POWER_CAP
-description: This structure is used as an input and output buffer for the IOCTL_STORAGE_DEVICE_POWER_CAP.
+description: This structure is used as an input and output buffer for the IOCTL_STORAGE_DEVICE_POWER_CAP.helpviewer_keywords: ["*PSTORAGE_DEVICE_POWER_CAP","PSTORAGE_DEVICE_POWER_CAP","PSTORAGE_DEVICE_POWER_CAP structure pointer [Files]","STORAGE_DEVICE_POWER_CAP","STORAGE_DEVICE_POWER_CAP structure [Files]","fs.storage_device_power_cap","winioctl/PSTORAGE_DEVICE_POWER_CAP","winioctl/STORAGE_DEVICE_POWER_CAP"]
 old-location: fs\storage_device_power_cap.htm
 tech.root: FileIO
 ms.assetid: B81C7D08-980E-4BA2-8CF8-7B6E58709102

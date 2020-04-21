@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetClassPropertyKeysExW
 title: SetupDiGetClassPropertyKeysExW function (setupapi.h)
-description: The SetupDiGetClassPropertyKeysEx function retrieves an array of the device property keys that represent the device properties that are set for a device setup class or a device interface class on a local or a remote computer.
+description: The SetupDiGetClassPropertyKeysEx function retrieves an array of the device property keys that represent the device properties that are set for a device setup class or a device interface class on a local or a remote computer.helpviewer_keywords: ["SetupDiGetClassPropertyKeysEx","SetupDiGetClassPropertyKeysEx function [Device and Driver Installation]","SetupDiGetClassPropertyKeysExW","devinst.setupdigetclasspropertykeysex","di-rtns_3f3e4cd6-af28-409f-8e1e-7e06067d7082.xml","setupapi/SetupDiGetClassPropertyKeysEx"]
 old-location: devinst\setupdigetclasspropertykeysex.htm
 tech.root: devinst
 ms.assetid: dde6fdbd-e189-4ec7-95c7-b655ea7083c1

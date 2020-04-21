@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetErrorDlg
 title: InternetErrorDlg function (wininet.h)
-description: Displays a dialog box for the error that is passed to InternetErrorDlg, if an appropriate dialog box exists.
+description: Displays a dialog box for the error that is passed to InternetErrorDlg, if an appropriate dialog box exists.helpviewer_keywords: ["InternetErrorDlg","InternetErrorDlg function [WinINet]","_inet_interneterrordlg_function","wininet.interneterrordlg","wininet/InternetErrorDlg"]
 old-location: wininet\interneterrordlg.htm
 tech.root: wininet
 ms.assetid: 09384ba9-e5cc-48fd-a52c-15df223f87dc

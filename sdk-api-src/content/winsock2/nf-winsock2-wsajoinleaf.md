@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSAJoinLeaf
 title: WSAJoinLeaf function (winsock2.h)
-description: The WSAJoinLeaf function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the specified FLOWSPEC structures.
+description: The WSAJoinLeaf function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the specified FLOWSPEC structures.helpviewer_keywords: ["WSAJoinLeaf","WSAJoinLeaf function [Winsock]","_win32_wsajoinleaf_2","winsock.wsajoinleaf_2","winsock2/WSAJoinLeaf"]
 old-location: winsock\wsajoinleaf_2.htm
 tech.root: WinSock
 ms.assetid: ef9efa03-feed-4f0d-b874-c646cce745c9

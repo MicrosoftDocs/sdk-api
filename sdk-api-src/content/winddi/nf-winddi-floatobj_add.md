@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.FLOATOBJ_Add
 title: FLOATOBJ_Add function (winddi.h)
-description: The FLOATOBJ_Add function adds the two FLOATOBJs, and returns with the result in the first parameter.
+description: The FLOATOBJ_Add function adds the two FLOATOBJs, and returns with the result in the first parameter.helpviewer_keywords: ["FLOATOBJ_Add","FLOATOBJ_Add function [Display Devices]","display.floatobj_add","gdifncs_484fa853-6c4e-4bc1-95a3-7f7b40828fcc.xml","winddi/FLOATOBJ_Add"]
 old-location: display\floatobj_add.htm
 tech.root: display
 ms.assetid: 6502d863-ab3e-46d2-8da4-c2f1b01fe344
@@ -65,15 +65,6 @@ Pointer to the first FLOATOBJ operand. When the function returns, *<i>pf</i> wil
 ### -param arg2 [in]
 
 Pointer to the second FLOATOBJ operand.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

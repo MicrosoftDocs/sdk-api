@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.D2D1MakeRotateMatrix
 title: D2D1MakeRotateMatrix function (d2d1.h)
-description: Creates a rotation transformation that rotates by the specified angle about the specified point.
+description: Creates a rotation transformation that rotates by the specified angle about the specified point.helpviewer_keywords: ["D2D1MakeRotateMatrix","D2D1MakeRotateMatrix function [Direct2D]","d2d1/D2D1MakeRotateMatrix","direct2d.d2d1makerotatematrix"]
 old-location: direct2d\d2d1makerotatematrix.htm
 tech.root: Direct2D
 ms.assetid: 5e066328-5b0f-4e7a-9bf4-df55521fcc2b
@@ -76,15 +76,6 @@ The point about which to rotate.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 When this method returns, contains the new rotation transformation. You must allocate storage for this parameter.  
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_RAYTRACING_INSTANCE_DESC
 title: D3D12_RAYTRACING_INSTANCE_DESC (d3d12.h)
-description: Describes an instance of a raytracing acceleration structure used in GPU memory during the acceleration structure build process.
+description: Describes an instance of a raytracing acceleration structure used in GPU memory during the acceleration structure build process.helpviewer_keywords: ["D3D12_RAYTRACING_INSTANCE_DESC","D3D12_RAYTRACING_INSTANCE_DESC structure","PD3D12_RAYTRACING_INSTANCE_DESC","PD3D12_RAYTRACING_INSTANCE_DESC structure pointer","d3d12/D3D12_RAYTRACING_INSTANCE_DESC","d3d12/PD3D12_RAYTRACING_INSTANCE_DESC","direct3d12.d3d12_raytracing_instance_desc"]
 old-location: direct3d12\d3d12_raytracing_instance_desc.htm
 tech.root: direct3d12
 ms.assetid: 816B0281-EC69-4EA1-AE32-6B3E178117DE

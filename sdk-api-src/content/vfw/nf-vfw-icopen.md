@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.ICOpen
 title: ICOpen function (vfw.h)
-description: The ICOpen function opens a compressor or decompressor.
+description: The ICOpen function opens a compressor or decompressor.helpviewer_keywords: ["ICOpen","ICOpen function [Windows Multimedia]","_win32_ICOpen","multimedia.icopen","vfw/ICOpen"]
 old-location: multimedia\icopen.htm
 tech.root: Multimedia
 ms.assetid: 2637b6ef-2324-40db-99e4-773fcb6fdbf6

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHChangeNotify
 title: SHChangeNotify function (shlobj_core.h)
-description: Notifies the system of an event that an application has performed. An application should use this function if it performs an action that may affect the Shell.
+description: Notifies the system of an event that an application has performed. An application should use this function if it performs an action that may affect the Shell.helpviewer_keywords: ["SHCNE_ALLEVENTS","SHCNE_ASSOCCHANGED","SHCNE_ATTRIBUTES","SHCNE_CREATE","SHCNE_DELETE","SHCNE_DISKEVENTS","SHCNE_DRIVEADD","SHCNE_DRIVEADDGUI","SHCNE_DRIVEREMOVED","SHCNE_EXTENDED_EVENT","SHCNE_FREESPACE","SHCNE_GLOBALEVENTS","SHCNE_INTERRUPT","SHCNE_MEDIAINSERTED","SHCNE_MEDIAREMOVED","SHCNE_MKDIR","SHCNE_NETSHARE","SHCNE_NETUNSHARE","SHCNE_RENAMEFOLDER","SHCNE_RENAMEITEM","SHCNE_RMDIR","SHCNE_SERVERDISCONNECT","SHCNE_UPDATEDIR","SHCNE_UPDATEIMAGE","SHCNE_UPDATEITEM","SHCNF_DWORD","SHCNF_FLUSH","SHCNF_FLUSHNOWAIT","SHCNF_IDLIST","SHCNF_NOTIFYRECURSIVE","SHCNF_PATH","SHCNF_PRINTER","SHChangeNotify","SHChangeNotify function [Windows Shell]","_win32_SHChangeNotify","shell.SHChangeNotify","shlobj_core/SHChangeNotify"]
 old-location: shell\SHChangeNotify.htm
 tech.root: shell
 ms.assetid: a9222ce9-0d06-4fd0-af3a-fd0e979713ce
@@ -286,15 +286,6 @@ Optional. First event-dependent value.
 Type: <b>LPCVOID</b>
 
 Optional. Second event-dependent value.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

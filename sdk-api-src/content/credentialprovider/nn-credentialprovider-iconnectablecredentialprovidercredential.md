@@ -1,7 +1,7 @@
 ---
 UID: NN:credentialprovider.IConnectableCredentialProviderCredential
 title: IConnectableCredentialProviderCredential (credentialprovider.h)
-description: Exposes methods for connecting and disconnecting IConnectableCredentialProviderCredential objects.
+description: Exposes methods for connecting and disconnecting IConnectableCredentialProviderCredential objects.helpviewer_keywords: ["IConnectableCredentialProviderCredential","IConnectableCredentialProviderCredential interface [Windows Shell]","IConnectableCredentialProviderCredential interface [Windows Shell]","described","_shell_IConnectableCredentialProviderCredential","credentialprovider/IConnectableCredentialProviderCredential","shell.IConnectableCredentialProviderCredential"]
 old-location: shell\IConnectableCredentialProviderCredential.htm
 tech.root: shell
 ms.assetid: fe5f3145-b428-42c9-ab1d-1c0e63c4454b

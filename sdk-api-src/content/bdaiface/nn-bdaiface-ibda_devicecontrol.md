@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_DeviceControl
 title: IBDA_DeviceControl (bdaiface.h)
-description: The IBDA_DeviceControl interface is implemented on all BDA device filters.
+description: The IBDA_DeviceControl interface is implemented on all BDA device filters.helpviewer_keywords: ["IBDA_DeviceControl","IBDA_DeviceControl interface [Microsoft TV Technologies]","IBDA_DeviceControl interface [Microsoft TV Technologies]","described","IBDA_DeviceControlInterface","bdaiface/IBDA_DeviceControl","mstv.ibda_devicecontrol"]
 old-location: mstv\ibda_devicecontrol.htm
 tech.root: mstv
 ms.assetid: 41e167b0-100e-41d2-8759-0411a10931ae

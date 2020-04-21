@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.IDMLBindingTable.BindTemporaryResource
 title: IDMLBindingTable::BindTemporaryResource
-description: Binds a buffer to use as temporary scratch memory. You can determine the required size of this buffer range by calling IDMLDispatchable::GetBindingProperties.
+description: Binds a buffer to use as temporary scratch memory. You can determine the required size of this buffer range by calling IDMLDispatchable::GetBindingProperties.helpviewer_keywords: ["BindTemporaryResource","BindTemporaryResource method","BindTemporaryResource method","IDMLBindingTable interface","IDMLBindingTable interface","BindTemporaryResource method","IDMLBindingTable.BindTemporaryResource","IDMLBindingTable::BindTemporaryResource","direct3d12.idmlbindingtable_bindtemporaryresource","directml/IDMLBindingTable::BindTemporaryResource"]
 old-location: direct3d12\idmlbindingtable_bindtemporaryresource.htm
 tech.root: direct3d12
 ms.assetid: B4673D07-997A-4D9A-B0B8-B615687BFD6C
@@ -83,15 +83,6 @@ The supplied buffer range to be bound as the temporary buffer must have its star
 Type: <b>const [DML_BINDING_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_desc)*</b>
 
 An optional pointer to a [DML_BINDING_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_desc) containing the description of a tensor resource to bind.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

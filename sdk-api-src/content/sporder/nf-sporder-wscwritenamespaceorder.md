@@ -1,7 +1,7 @@
 ---
 UID: NF:sporder.WSCWriteNameSpaceOrder
 title: WSCWriteNameSpaceOrder function (sporder.h)
-description: Changes the order of available Windows Sockets (Winsock) 2 namespace providers. The order of the namespace providers determines the priority of the namespace when enumerated or queried for name resolution.
+description: Changes the order of available Windows Sockets (Winsock) 2 namespace providers. The order of the namespace providers determines the priority of the namespace when enumerated or queried for name resolution.helpviewer_keywords: ["WSCWriteNameSpaceOrder","WSCWriteNameSpaceOrder function [Winsock]","sporder/WSCWriteNameSpaceOrder","winsock.wscwritenamespaceorder"]
 old-location: winsock\wscwritenamespaceorder.htm
 tech.root: WinSock
 ms.assetid: 00a06104-570f-4cd5-9520-bc73516ac7a5

@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetReferrer
 title: IBrowserService::SetReferrer (shdeprecated.h)
-description: Deprecated. Sets the pointer to an item identifier list (PIDL) used for zone checking when creating a new window.
+description: Deprecated. Sets the pointer to an item identifier list (PIDL) used for zone checking when creating a new window.helpviewer_keywords: ["IBrowserService interface [Windows Shell]","SetReferrer method","IBrowserService.SetReferrer","IBrowserService::SetReferrer","SetReferrer","SetReferrer method [Windows Shell]","SetReferrer method [Windows Shell]","IBrowserService interface","shdeprecated/IBrowserService::SetReferrer","shell.IBrowserService_SetReferrer","zone_IBrowserService_SetReferrer"]
 old-location: shell\IBrowserService_SetReferrer.htm
 tech.root: shell
 ms.assetid: 6458f28c-4eab-45dc-bc99-24e5f9ea3553

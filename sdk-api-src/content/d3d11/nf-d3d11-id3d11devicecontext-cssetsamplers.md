@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSSetSamplers
 title: ID3D11DeviceContext::CSSetSamplers (d3d11.h)
-description: Set an array of sampler states to the compute-shader stage.
+description: Set an array of sampler states to the compute-shader stage.helpviewer_keywords: ["CSSetSamplers","CSSetSamplers method [Direct3D 11]","CSSetSamplers method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CSSetSamplers method","ID3D11DeviceContext.CSSetSamplers","ID3D11DeviceContext::CSSetSamplers","aa74392c-a8c7-cf2c-b761-f00d5b5b4fb9","d3d11/ID3D11DeviceContext::CSSetSamplers","direct3d11.id3d11devicecontext_cssetsamplers"]
 old-location: direct3d11\id3d11devicecontext_cssetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 8b7f5c6d-0d9d-4b8b-a812-1e2b3b7386e9
@@ -77,15 +77,6 @@ Number of samplers in the array. Each pipeline stage has a total of 16 sampler s
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>*</b>
 
 Pointer to an array of sampler-state interfaces (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>). See Remarks.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

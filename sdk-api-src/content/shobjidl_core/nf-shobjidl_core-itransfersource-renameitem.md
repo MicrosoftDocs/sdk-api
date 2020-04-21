@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.RenameItem
 title: ITransferSource::RenameItem (shobjidl_core.h)
-description: Changes the name of an item, returning the IShellItem with the new name.
+description: Changes the name of an item, returning the IShellItem with the new name.helpviewer_keywords: ["ITransferSource interface [Windows Shell]","RenameItem method","ITransferSource.RenameItem","ITransferSource::RenameItem","RenameItem","RenameItem method [Windows Shell]","RenameItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_RenameItem","shell.ITransferSource_RenameItem","shobjidl_core/ITransferSource::RenameItem"]
 old-location: shell\ITransferSource_RenameItem.htm
 tech.root: shell
 ms.assetid: 793eba59-6d21-4c7b-8fdb-bb7658fc410e

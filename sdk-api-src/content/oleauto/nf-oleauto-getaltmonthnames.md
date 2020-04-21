@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.GetAltMonthNames
 title: GetAltMonthNames function (oleauto.h)
-description: Retrieves the secondary (alternate) month names.
+description: Retrieves the secondary (alternate) month names.helpviewer_keywords: ["GetAltMonthNames","GetAltMonthNames function [Automation]","_oa96_GetAltMonthNames","automat.getaltmonthnames","oleauto/GetAltMonthNames"]
 old-location: automat\getaltmonthnames.htm
 tech.root: automat
 ms.assetid: dfde73f2-edb9-4ab9-9394-d859e61a6db8

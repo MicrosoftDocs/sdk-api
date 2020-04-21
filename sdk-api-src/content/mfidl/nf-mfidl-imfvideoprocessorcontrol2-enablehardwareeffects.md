@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl2.EnableHardwareEffects
 title: IMFVideoProcessorControl2::EnableHardwareEffects (mfidl.h)
-description: Enables effects that were implemented with IDirectXVideoProcessor::VideoProcessorBlt.
+description: Enables effects that were implemented with IDirectXVideoProcessor::VideoProcessorBlt.helpviewer_keywords: ["EnableHardwareEffects","EnableHardwareEffects method [Media Foundation]","EnableHardwareEffects method [Media Foundation]","IMFVideoProcessorControl2 interface","IMFVideoProcessorControl2 interface [Media Foundation]","EnableHardwareEffects method","IMFVideoProcessorControl2.EnableHardwareEffects","IMFVideoProcessorControl2::EnableHardwareEffects","mf.imfvideoprocessorcontrol2_enablehardwareeffects","mfidl/IMFVideoProcessorControl2::EnableHardwareEffects"]
 old-location: mf\imfvideoprocessorcontrol2_enablehardwareeffects.htm
 tech.root: medfound
 ms.assetid: 682B1FAA-05D5-40E3-98BD-DDEFB0C5B4AF

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Bitmap1.GetSurface
 title: ID2D1Bitmap1::GetSurface (d2d1_1.h)
-description: Gets either the surface that was specified when the bitmap was created, or the default surface created when the bitmap was created.
+description: Gets either the surface that was specified when the bitmap was created, or the default surface created when the bitmap was created.helpviewer_keywords: ["GetSurface","GetSurface method [Direct2D]","GetSurface method [Direct2D]","ID2D1Bitmap1 interface","ID2D1Bitmap1 interface [Direct2D]","GetSurface method","ID2D1Bitmap1.GetSurface","ID2D1Bitmap1::GetSurface","d2d1_1/ID2D1Bitmap1::GetSurface","direct2d.id2d1bitmap1_getsurface"]
 old-location: direct2d\id2d1bitmap1_getsurface.htm
 tech.root: Direct2D
 ms.assetid: f9cb3830-7c1a-4254-a3fd-f1c056bec0c0

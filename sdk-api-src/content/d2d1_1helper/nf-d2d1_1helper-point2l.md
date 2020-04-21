@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1helper.Point2L
 title: Point2L function (d2d1_1helper.h)
-description: Returns a point struct of long integers.
+description: Returns a point struct of long integers.helpviewer_keywords: ["Point2L","Point2L function [Direct2D]","d2d1_1helper/Point2L","direct2d.point2l"]
 old-location: direct2d\point2l.htm
 tech.root: Direct2D
 ms.assetid: 25F6819F-BDCB-4E1E-95F0-00251A534ACC

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1GradientStopCollection.GetGradientStops
 title: ID2D1GradientStopCollection::GetGradientStops (d2d1.h)
-description: Copies the gradient stops from the collection into an array of D2D1_GRADIENT_STOP structures.
+description: Copies the gradient stops from the collection into an array of D2D1_GRADIENT_STOP structures.helpviewer_keywords: ["GetGradientStops","GetGradientStops method [Direct2D]","GetGradientStops method [Direct2D]","ID2D1GradientStopCollection interface","ID2D1GradientStopCollection interface [Direct2D]","GetGradientStops method","ID2D1GradientStopCollection.GetGradientStops","ID2D1GradientStopCollection::GetGradientStops","d2d1/ID2D1GradientStopCollection::GetGradientStops","direct2d.ID2D1GradientStopCollection_GetGradientStops"]
 old-location: direct2d\ID2D1GradientStopCollection_GetGradientStops.htm
 tech.root: Direct2D
 ms.assetid: a5ae1b14-2694-4593-8eba-17d93b45bb9c
@@ -69,15 +69,6 @@ A pointer to a one-dimensional array of <a href="https://docs.microsoft.com/wind
 Type: <b>UINT</b>
 
 A value indicating the number of gradient stops to copy. If the value is less than the number of gradient stops in the collection, the remaining gradient stops are omitted. If the value is larger than the number of gradient stops in the collection, the extra gradient stops are set to <b>NULL</b>. To obtain the number of gradient stops in the collection, use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getgradientstopcount">GetGradientStopCount</a> method.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

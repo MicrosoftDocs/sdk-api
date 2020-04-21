@@ -1,7 +1,7 @@
 ---
 UID: NS:strmif._AllocatorProperties
 title: ALLOCATOR_PROPERTIES (strmif.h)
-description: The ALLOCATOR_PROPERTIES structure describes an allocator's count, size, alignment, and prefix properties.
+description: The ALLOCATOR_PROPERTIES structure describes an allocator's count, size, alignment, and prefix properties.helpviewer_keywords: ["ALLOCATOR_PROPERTIES","ALLOCATOR_PROPERTIES structure [DirectShow]","ALLOCATOR_PROPERTIESStructure","dshow.allocator_properties","strmif/ALLOCATOR_PROPERTIES"]
 old-location: dshow\allocator_properties.htm
 tech.root: DirectShow
 ms.assetid: 813e4693-b549-4045-aff5-08f2dd754b6e

@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IISDB_LDT
 title: IISDB_LDT (dvbsiparser.h)
-description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT). An LDT contains data used to collect reference information from other tables.
+description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT). An LDT contains data used to collect reference information from other tables.helpviewer_keywords: ["IISDB_LDT","IISDB_LDT interface [Microsoft TV Technologies]","IISDB_LDT interface [Microsoft TV Technologies]","described","dvbsiparser/IISDB_LDT","mstv.iisdb_ldt"]
 old-location: mstv\iisdb_ldt.htm
 tech.root: mstv
 ms.assetid: 4fdf82f2-e931-406b-a8cb-7b24c1d0b8d3

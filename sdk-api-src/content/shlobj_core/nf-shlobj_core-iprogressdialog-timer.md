@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.Timer
 title: IProgressDialog::Timer (shlobj_core.h)
-description: Resets the progress dialog box timer to zero.
+description: Resets the progress dialog box timer to zero.helpviewer_keywords: ["IProgressDialog interface [Windows Shell]","Timer method","IProgressDialog.Timer","IProgressDialog::Timer","PDTIMER_PAUSE","PDTIMER_RESET","PDTIMER_RESUME","Timer","Timer method [Windows Shell]","Timer method [Windows Shell]","IProgressDialog interface","_win32_IProgressDialog_Timer","shell.IProgressDialog_Timer","shlobj_core/IProgressDialog::Timer"]
 old-location: shell\IProgressDialog_Timer.htm
 tech.root: shell
 ms.assetid: ab048787-e555-4d5d-994a-1fc6f273312b

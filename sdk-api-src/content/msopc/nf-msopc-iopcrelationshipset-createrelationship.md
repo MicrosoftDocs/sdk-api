@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.CreateRelationship
 title: IOpcRelationshipSet::CreateRelationship (msopc.h)
-description: Creates a relationship object that represents a specified relationship, then adds to the set a pointer to the object's IOpcRelationship interface.
+description: Creates a relationship object that represents a specified relationship, then adds to the set a pointer to the object's IOpcRelationship interface.helpviewer_keywords: ["CreateRelationship","CreateRelationship method [Open Packaging Conventions]","CreateRelationship method [Open Packaging Conventions]","IOpcRelationshipSet interface","IOpcRelationshipSet interface [Open Packaging Conventions]","CreateRelationship method","IOpcRelationshipSet.CreateRelationship","IOpcRelationshipSet::CreateRelationship","msopc/IOpcRelationshipSet::CreateRelationship","opc.iopcrelationshipset_createrelationship"]
 old-location: opc\iopcrelationshipset_createrelationship.htm
 tech.root: OPC
 ms.assetid: 0cbf7446-d94e-447f-a82b-3d56a8036c19

@@ -1,7 +1,7 @@
 ---
 UID: NS:dwrite.DWRITE_GLYPH_RUN_DESCRIPTION
 title: DWRITE_GLYPH_RUN_DESCRIPTION (dwrite.h)
-description: Contains additional properties related to those in DWRITE_GLYPH_RUN.
+description: Contains additional properties related to those in DWRITE_GLYPH_RUN.helpviewer_keywords: ["DWRITE_GLYPH_RUN_DESCRIPTION","DWRITE_GLYPH_RUN_DESCRIPTION structure [Direct Write]","directwrite.dwrite_glyph_run_description","dwrite/DWRITE_GLYPH_RUN_DESCRIPTION"]
 old-location: directwrite\dwrite_glyph_run_description.htm
 tech.root: DirectWrite
 ms.assetid: 0fb25253-274a-42b7-8491-525d0550ce39

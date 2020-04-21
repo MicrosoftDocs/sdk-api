@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetDocString
 title: ICreateTypeInfo::SetDocString (oaidl.h)
-description: Sets the documentation string displayed by type browsers.
+description: Sets the documentation string displayed by type browsers.helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetDocString method","ICreateTypeInfo.SetDocString","ICreateTypeInfo::SetDocString","SetDocString","SetDocString method [Automation]","SetDocString method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetDocString","automat.icreatetypeinfo_setdocstring","oaidl/ICreateTypeInfo::SetDocString"]
 old-location: automat\icreatetypeinfo_setdocstring.htm
 tech.root: automat
 ms.assetid: 927c449b-1d38-4449-a1fd-63fb82c0d660

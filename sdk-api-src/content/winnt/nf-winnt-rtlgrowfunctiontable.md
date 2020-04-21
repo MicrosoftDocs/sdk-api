@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.RtlGrowFunctionTable
 title: RtlGrowFunctionTable function (winnt.h)
-description: Reports that a dynamic function table has increased in size.
+description: Reports that a dynamic function table has increased in size.helpviewer_keywords: ["RtlGrowFunctionTable","RtlGrowFunctionTable function","base.rtlgrowfunctiontable","winnt/RtlGrowFunctionTable"]
 old-location: base\rtlgrowfunctiontable.htm
 tech.root: Debug
 ms.assetid: b917b732-4017-4365-b312-90bebfdd877b

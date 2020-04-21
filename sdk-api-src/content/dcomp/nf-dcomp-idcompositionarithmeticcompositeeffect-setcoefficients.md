@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficients
 title: IDCompositionArithmeticCompositeEffect::SetCoefficients (dcomp.h)
-description: Sets the coefficients for the equation used to composite the two input images.
+description: Sets the coefficients for the equation used to composite the two input images.helpviewer_keywords: ["IDCompositionArithmeticCompositeEffect interface [DirectComposition]","SetCoefficients method","IDCompositionArithmeticCompositeEffect.SetCoefficients","IDCompositionArithmeticCompositeEffect::SetCoefficients","SetCoefficients","SetCoefficients method [DirectComposition]","SetCoefficients method [DirectComposition]","IDCompositionArithmeticCompositeEffect interface","dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficients","directcomp.idcompositionarithmeticcompositeeffect_setcoefficients"]
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficients.htm
 tech.root: directcomp
 ms.assetid: 02A98C38-1D6E-43ED-8744-D3029F4BF573

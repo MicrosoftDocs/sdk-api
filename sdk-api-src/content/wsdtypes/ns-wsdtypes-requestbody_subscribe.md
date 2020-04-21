@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_1
 title: REQUESTBODY_Subscribe (wsdtypes.h)
-description: Represents a WS-Eventing Subscribe request message.
+description: Represents a WS-Eventing Subscribe request message.helpviewer_keywords: ["REQUESTBODY_Subscribe","REQUESTBODY_Subscribe structure","ncd.requestbody_subscribe_struct","wsdtypes/REQUESTBODY_Subscribe"]
 old-location: ncd\requestbody_subscribe_struct.htm
 tech.root: WsdApi
 ms.assetid: 28e7ee55-ad82-4ee6-9716-80951525ca96

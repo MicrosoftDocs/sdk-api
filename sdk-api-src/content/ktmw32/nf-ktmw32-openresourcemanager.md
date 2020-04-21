@@ -1,7 +1,7 @@
 ---
 UID: NF:ktmw32.OpenResourceManager
 title: OpenResourceManager function (ktmw32.h)
-description: Opens an existing resource manager (RM).
+description: Opens an existing resource manager (RM).helpviewer_keywords: ["OpenResourceManager","OpenResourceManager function [Files]","fs.openresourcemanager","ktmw32/OpenResourceManager"]
 old-location: fs\openresourcemanager.htm
 tech.root: ktm
 ms.assetid: 396b586f-c594-4481-b095-862e9058519c

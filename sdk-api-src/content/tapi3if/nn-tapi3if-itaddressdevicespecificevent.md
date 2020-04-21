@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.ITAddressDeviceSpecificEvent
 title: ITAddressDeviceSpecificEvent (tapi3if.h)
-description: The ITAddressDeviceSpecificEvent exposes methods that allow an application to retrieve information about a device-specific event.
+description: The ITAddressDeviceSpecificEvent exposes methods that allow an application to retrieve information about a device-specific event.helpviewer_keywords: ["ITAddressDeviceSpecificEvent","ITAddressDeviceSpecificEvent interface [TAPI 2.2]","ITAddressDeviceSpecificEvent interface [TAPI 2.2]","described","_tapi3_itaddressdevicespecificevent","tapi3.itaddressdevicespecificevent","tapi3if/ITAddressDeviceSpecificEvent"]
 old-location: tapi3\itaddressdevicespecificevent.htm
 tech.root: Tapi
 ms.assetid: 8590e9b1-2bbf-47e5-96de-8765a475a972

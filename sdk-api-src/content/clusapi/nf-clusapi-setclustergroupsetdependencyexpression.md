@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.SetClusterGroupSetDependencyExpression
 title: SetClusterGroupSetDependencyExpression function (clusapi.h)
-description: Sets the dependency expression for a cluster groupset.
+description: Sets the dependency expression for a cluster groupset.helpviewer_keywords: ["PCLUSAPI_SET_CLUSTER_GROUP_GROUPSET_DEPENDENCY_EXPRESSION","PCLUSAPI_SET_CLUSTER_GROUP_GROUPSET_DEPENDENCY_EXPRESSION function [Failover Cluster]","SetClusterGroupSetDependencyExpression","SetClusterGroupSetDependencyExpression function [Failover Cluster]","clusapi/PCLUSAPI_SET_CLUSTER_GROUP_GROUPSET_DEPENDENCY_EXPRESSION","clusapi/SetClusterGroupSetDependencyExpression","mscs.setclustergroupcollectiondependencyexpression"]
 old-location: mscs\setclustergroupcollectiondependencyexpression.htm
 tech.root: MsCS
 ms.assetid: 1bde6ef6-a415-4fa2-8618-0304c38d9434

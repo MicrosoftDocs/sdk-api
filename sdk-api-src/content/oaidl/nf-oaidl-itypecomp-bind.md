@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeComp.Bind
 title: ITypeComp::Bind (oaidl.h)
-description: Maps a name to a member of a type, or binds global variables and functions contained in a type library.
+description: Maps a name to a member of a type, or binds global variables and functions contained in a type library.helpviewer_keywords: ["Bind","Bind method [Automation]","Bind method [Automation]","ITypeComp interface","ITypeComp interface [Automation]","Bind method","ITypeComp.Bind","ITypeComp::Bind","_oa96_ITypeComp_Bind","automat.itypecomp_bind","oaidl/ITypeComp::Bind"]
 old-location: automat\itypecomp_bind.htm
 tech.root: automat
 ms.assetid: 04814179-2555-4ba5-a08c-bff776c03ca3

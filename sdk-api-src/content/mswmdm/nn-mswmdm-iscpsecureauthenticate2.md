@@ -1,7 +1,7 @@
 ---
 UID: NN:mswmdm.ISCPSecureAuthenticate2
 title: ISCPSecureAuthenticate2 (mswmdm.h)
-description: The ISCPSecureAuthenticate2 interface extends ISCPSecureAuthenticate by providing a way to get a session object.
+description: The ISCPSecureAuthenticate2 interface extends ISCPSecureAuthenticate by providing a way to get a session object.helpviewer_keywords: ["ISCPSecureAuthenticate2","ISCPSecureAuthenticate2 interface [windows Media Device Manager]","ISCPSecureAuthenticate2 interface [windows Media Device Manager]","described","ISCPSecureAuthenticate2Interface","mswmdm/ISCPSecureAuthenticate2","wmdm.iscpsecureauthenticate2"]
 old-location: wmdm\iscpsecureauthenticate2.htm
 tech.root: WMDM
 ms.assetid: 8123f4d2-dcd4-4ff8-a7cf-be8d5f2bf285

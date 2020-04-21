@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFHttpDownloadSessionProvider
 title: IMFHttpDownloadSessionProvider (mfidl.h)
-description: Applications implement this interface in order to provide custom a custom HTTP or HTTPS download implementation.
+description: Applications implement this interface in order to provide custom a custom HTTP or HTTPS download implementation.helpviewer_keywords: ["IMFHttpDownloadSessionProvider","IMFHttpDownloadSessionProvider interface [Media Foundation]","IMFHttpDownloadSessionProvider interface [Media Foundation]","described","mf.imfhttpdownloadsessionprovider","mfidl/IMFHttpDownloadSessionProvider"]
 old-location: mf\imfhttpdownloadsessionprovider.htm
 tech.root: medfound
 ms.assetid: 4A3A96FB-A7C5-40BB-AB8F-12A7F00FDCD1

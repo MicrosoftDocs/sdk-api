@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.GetVersionNumber
 title: IDVB_BAT::GetVersionNumber (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","IDVB_BAT interface","IDVB_BAT interface [Microsoft TV Technologies]","GetVersionNumber method","IDVB_BAT.GetVersionNumber","IDVB_BAT::GetVersionNumber","IDVB_BATGetVersionNumber","dvbsiparser/IDVB_BAT::GetVersionNumber","mstv.idvb_bat_getversionnumber"]
 old-location: mstv\idvb_bat_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 2548a4b5-7789-42ef-9094-22deb6d72260

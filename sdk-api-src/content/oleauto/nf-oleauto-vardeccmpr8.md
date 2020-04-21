@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarDecCmpR8
 title: VarDecCmpR8 function (oleauto.h)
-description: Compares a variant of type decimal with the a value of type double.
+description: Compares a variant of type decimal with the a value of type double.helpviewer_keywords: ["VarDecCmpR8","VarDecCmpR8 function [Automation]","_oa96_VarDecCmpR8","automat.vardeccmpr8","oleauto/VarDecCmpR8"]
 old-location: automat\vardeccmpr8.htm
 tech.root: automat
 ms.assetid: b078ead4-3df6-42b0-8844-143969e7e71e

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F &,ID2D1Brush,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE)
 title: ID2D1RenderTarget::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F &,ID2D1Brush,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE) (d2d1.h)
-description: Draws the specified text using the format information provided by an IDWriteTextFormat object.
+description: Draws the specified text using the format information provided by an IDWriteTextFormat object.helpviewer_keywords: ["DrawText","DrawText method [Direct2D]","DrawText method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawText method","ID2D1RenderTarget.DrawText","ID2D1RenderTarget.DrawText(const WCHAR","UINT32","IDWriteTextFormat","const D2D1_RECT_F &","ID2D1Brush","D2D1_DRAW_TEXT_OPTIONS","DWRITE_MEASURING_MODE)","ID2D1RenderTarget::DrawText","ID2D1RenderTarget::DrawText(const WCHAR","UINT32","IDWriteTextFormat","const D2D1_RECT_F &","ID2D1Brush","D2D1_DRAW_TEXT_OPTIONS","DWRITE_MEASURING_MODE)","d2d1/ID2D1RenderTarget::DrawText","direct2d.ID2D1RenderTarget_DrawText_ptr_WCHAR_ptr_IDWriteTextFormat_ref_D2D_RECT_F_ptr_ID2D1Brush_D2D1_DRAW_TEXT_OPTIONS_DWRITE_TEXT_MEASURING_METHOD"]
 old-location: direct2d\ID2D1RenderTarget_DrawText_ptr_WCHAR_ptr_IDWriteTextFormat_ref_D2D_RECT_F_ptr_ID2D1Brush_D2D1_DRAW_TEXT_OPTIONS_DWRITE_TEXT_MEASURING_METHOD.htm
 tech.root: Direct2D
 ms.assetid: 226de985-0d7a-4891-83a0-b1f022ff8bd3
@@ -104,15 +104,6 @@ A value that indicates whether the text should be snapped to pixel boundaries an
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 A value that indicates how glyph metrics are used to measure text when it is formatted.  The default value is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE_NATURAL</a>. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

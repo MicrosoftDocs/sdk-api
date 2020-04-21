@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemSink.OnMenuSelect
 title: ITfSystemLangBarItemSink::OnMenuSelect (ctfutb.h)
-description: ITfSystemLangBarItemSink::OnMenuSelect method
+description: ITfSystemLangBarItemSink::OnMenuSelect methodhelpviewer_keywords: ["ITfSystemLangBarItemSink interface [Text Services Framework]","OnMenuSelect method","ITfSystemLangBarItemSink.OnMenuSelect","ITfSystemLangBarItemSink::OnMenuSelect","OnMenuSelect","OnMenuSelect method [Text Services Framework]","OnMenuSelect method [Text Services Framework]","ITfSystemLangBarItemSink interface","_tsf_itfsystemlangbaritemsink_onmenuselect_ref","ctfutb/ITfSystemLangBarItemSink::OnMenuSelect","tsf.itfsystemlangbaritemsink_onmenuselect"]
 old-location: tsf\itfsystemlangbaritemsink_onmenuselect.htm
 tech.root: TSF
 ms.assetid: 43c20f95-64b5-458a-8469-0d8b284b66dd
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the user selects an item in the system menu added by the system language bar menu extension.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.FindFirstItem
 title: Image::FindFirstItem (gdiplusheaders.h)
-description: The Image::FindFirstItem method retrieves the description and the data size of the first metadata item in this Image object.
+description: The Image::FindFirstItem method retrieves the description and the data size of the first metadata item in this Image object.helpviewer_keywords: ["FindFirstItem","FindFirstItem method [GDI+]","FindFirstItem method [GDI+]","Image class","Image class [GDI+]","FindFirstItem method","Image.FindFirstItem","Image::FindFirstItem","_gdiplus_CLASS_Image_FindFirstItem_","gdiplus._gdiplus_CLASS_Image_FindFirstItem_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_FindFirstItem_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\findfirstitem.htm

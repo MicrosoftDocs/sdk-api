@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUserArray.SetProviderFilter
 title: ICredentialProviderUserArray::SetProviderFilter (credentialprovider.h)
-description: Limits the set of users in the array to either local accounts or Microsoft accounts.
+description: Limits the set of users in the array to either local accounts or Microsoft accounts.helpviewer_keywords: ["ICredentialProviderUserArray interface [Windows Shell]","SetProviderFilter method","ICredentialProviderUserArray.SetProviderFilter","ICredentialProviderUserArray::SetProviderFilter","SetProviderFilter","SetProviderFilter method [Windows Shell]","SetProviderFilter method [Windows Shell]","ICredentialProviderUserArray interface","credentialprovider/ICredentialProviderUserArray::SetProviderFilter","shell.ICredentialProviderUserArray_SetProviderFilter"]
 old-location: shell\ICredentialProviderUserArray_SetProviderFilter.htm
 tech.root: shell
 ms.assetid: 86FC48BF-FEEA-40c4-91CA-21FFAC210CFA

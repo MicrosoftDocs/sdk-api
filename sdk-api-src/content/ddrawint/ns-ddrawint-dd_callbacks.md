@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint.DD_CALLBACKS
 title: DD_CALLBACKS (ddrawint.h)
-description: The DD_CALLBACKS structure contains entry pointers to the callback functions that a device driver supports.
+description: The DD_CALLBACKS structure contains entry pointers to the callback functions that a device driver supports.helpviewer_keywords: ["*PDD_CALLBACKS","DD_CALLBACKS","DD_CALLBACKS structure [Display Devices]","ddrawint/DD_CALLBACKS","ddstrcts_c4da6934-e140-40db-b7dc-686c205cb877.xml","display.dd_callbacks"]
 old-location: display\dd_callbacks.htm
 tech.root: display
 ms.assetid: d68b2772-dca6-417a-8e03-d3b2843fb69d

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.Remove
 title: IMFSourceBuffer::Remove (mfmediaengine.h)
-description: Removes the media segments defined by the specified time range from the IMFSourceBuffer.
+description: Removes the media segments defined by the specified time range from the IMFSourceBuffer.helpviewer_keywords: ["IMFSourceBuffer interface [Media Foundation]","Remove method","IMFSourceBuffer.Remove","IMFSourceBuffer::Remove","Remove","Remove method [Media Foundation]","Remove method [Media Foundation]","IMFSourceBuffer interface","mf.imfsourcebuffer_remove","mfmediaengine/IMFSourceBuffer::Remove"]
 old-location: mf\imfsourcebuffer_remove.htm
 tech.root: medfound
 ms.assetid: 86536d73-18c0-4acc-81ec-72f1dfe400c5

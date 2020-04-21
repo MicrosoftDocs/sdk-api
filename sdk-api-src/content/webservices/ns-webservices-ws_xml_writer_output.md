@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_OUTPUT
 title: WS_XML_WRITER_OUTPUT (webservices.h)
-description: Specifies where the writer should emit the bytes that comprise the xml document.
+description: Specifies where the writer should emit the bytes that comprise the xml document.helpviewer_keywords: ["WS_XML_WRITER_OUTPUT","WS_XML_WRITER_OUTPUT structure [Web Services for Windows]","webservices/WS_XML_WRITER_OUTPUT","wsw.ws_xml_writer_output"]
 old-location: wsw\ws_xml_writer_output.htm
 tech.root: wsw
 ms.assetid: 367e6f98-9351-4a08-b8ce-036e7f2788e4

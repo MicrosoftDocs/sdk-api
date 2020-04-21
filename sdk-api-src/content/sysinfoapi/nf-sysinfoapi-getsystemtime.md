@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.GetSystemTime
 title: GetSystemTime function (sysinfoapi.h)
-description: Retrieves the current system date and time. The system time is expressed in Coordinated Universal Time (UTC).
+description: Retrieves the current system date and time. The system time is expressed in Coordinated Universal Time (UTC).helpviewer_keywords: ["GetSystemTime","GetSystemTime function","_win32_getsystemtime","base.getsystemtime","sysinfoapi/GetSystemTime"]
 old-location: base\getsystemtime.htm
 tech.root: SysInfo
 ms.assetid: 9ed8386b-f035-446f-b0f8-12e0d3f23aac
@@ -71,15 +71,6 @@ To retrieve the current system date and time in local time, use the <a href="htt
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure to receive the current system date and time. The <i>lpSystemTime</i> parameter must not be <b>NULL</b>. Using <b>NULL</b> will result in an access violation.
-
-
-## -returns
-
-
-
-This function does not return a value or provide extended error information.
-
-
 
 
 ## -remarks

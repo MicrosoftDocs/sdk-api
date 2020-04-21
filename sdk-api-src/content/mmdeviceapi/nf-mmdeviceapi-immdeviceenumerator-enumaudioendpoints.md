@@ -1,7 +1,7 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.EnumAudioEndpoints
 title: IMMDeviceEnumerator::EnumAudioEndpoints (mmdeviceapi.h)
-description: The EnumAudioEndpoints method generates a collection of audio endpoint devices that meet the specified criteria.
+description: The EnumAudioEndpoints method generates a collection of audio endpoint devices that meet the specified criteria.helpviewer_keywords: ["EnumAudioEndpoints","EnumAudioEndpoints method [Core Audio]","EnumAudioEndpoints method [Core Audio]","IMMDeviceEnumerator interface","IMMDeviceEnumerator interface [Core Audio]","EnumAudioEndpoints method","IMMDeviceEnumerator.EnumAudioEndpoints","IMMDeviceEnumerator::EnumAudioEndpoints","IMMDeviceEnumeratorEnumAudioEndpoints","coreaudio.immdeviceenumerator_enumaudioendpoints","mmdeviceapi/IMMDeviceEnumerator::EnumAudioEndpoints"]
 old-location: coreaudio\immdeviceenumerator_enumaudioendpoints.htm
 tech.root: CoreAudio
 ms.assetid: ebdd2dcd-82c5-423f-a85d-04388f5078ec

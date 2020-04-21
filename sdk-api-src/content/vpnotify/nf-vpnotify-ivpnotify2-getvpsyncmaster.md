@@ -1,7 +1,7 @@
 ---
 UID: NF:vpnotify.IVPNotify2.GetVPSyncMaster
 title: IVPNotify2::GetVPSyncMaster (vpnotify.h)
-description: The GetVPSyncMaster method checks whether the video port controls the synchronization of the VGA.
+description: The GetVPSyncMaster method checks whether the video port controls the synchronization of the VGA.helpviewer_keywords: ["GetVPSyncMaster","GetVPSyncMaster method [DirectShow]","GetVPSyncMaster method [DirectShow]","IVPNotify2 interface","IVPNotify2 interface [DirectShow]","GetVPSyncMaster method","IVPNotify2.GetVPSyncMaster","IVPNotify2::GetVPSyncMaster","IVPNotify2GetVPSyncMaster","dshow.ivpnotify2_getvpsyncmaster","vpnotify/IVPNotify2::GetVPSyncMaster"]
 old-location: dshow\ivpnotify2_getvpsyncmaster.htm
 tech.root: DirectShow
 ms.assetid: afc75615-1be5-4f1f-ace2-f3a17420b591

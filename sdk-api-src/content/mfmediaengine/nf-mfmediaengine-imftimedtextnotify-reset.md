@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.Reset
 title: IMFTimedTextNotify::Reset (mfmediaengine.h)
-description: Resets the timed-text-notify object.
+description: Resets the timed-text-notify object.helpviewer_keywords: ["IMFTimedTextNotify interface [Media Foundation]","Reset method","IMFTimedTextNotify.Reset","IMFTimedTextNotify::Reset","Reset","Reset method [Media Foundation]","Reset method [Media Foundation]","IMFTimedTextNotify interface","mf.imftimedtextnotify_reset","mfmediaengine/IMFTimedTextNotify::Reset"]
 old-location: mf\imftimedtextnotify_reset.htm
 tech.root: medfound
 ms.assetid: 2743B39A-7C57-418C-897F-5B4952840135
@@ -55,15 +55,6 @@ Resets the timed-text-notify object.
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

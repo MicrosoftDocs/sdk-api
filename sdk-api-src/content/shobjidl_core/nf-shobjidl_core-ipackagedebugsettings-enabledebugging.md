@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.EnableDebugging
 title: IPackageDebugSettings::EnableDebugging (shobjidl_core.h)
-description: Enables debug mode for the processes of the specified package.
+description: Enables debug mode for the processes of the specified package.helpviewer_keywords: ["EnableDebugging","EnableDebugging method [Windows Shell]","EnableDebugging method [Windows Shell]","IPackageDebugSettings interface","IPackageDebugSettings interface [Windows Shell]","EnableDebugging method","IPackageDebugSettings.EnableDebugging","IPackageDebugSettings::EnableDebugging","shell.IPackageDebugSettings_EnableDebugging","shobjidl_core/IPackageDebugSettings::EnableDebugging"]
 old-location: shell\IPackageDebugSettings_EnableDebugging.htm
 tech.root: shell
 ms.assetid: a3afae41-b46e-47c8-95bb-a0aa747c6353

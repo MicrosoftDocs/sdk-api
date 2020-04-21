@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3cc.ITAgent
 title: ITAgent (tapi3cc.h)
-description: Agents are the heart of a call center.
+description: Agents are the heart of a call center.helpviewer_keywords: ["ITAgent","ITAgent interface [TAPI 2.2]","ITAgent interface [TAPI 2.2]","described","_tapi3_itagent","tapi3.itagent","tapi3cc/ITAgent"]
 old-location: tapi3\itagent.htm
 tech.root: Tapi
 ms.assetid: 6c1409c9-da73-4d21-bf56-07e9ab7b33a0

@@ -1,7 +1,7 @@
 ---
 UID: NC:wdstci.PFN_WdsTransportClientSessionComplete
 title: PFN_WdsTransportClientSessionComplete (wdstci.h)
-description: The PFN_WdsTransportClientSessionCompete callback is used by the client to indicate that no more callbacks will be sent to the consumer and that the session either completed successfully or encountered a non-recoverable error.
+description: The PFN_WdsTransportClientSessionCompete callback is used by the client to indicate that no more callbacks will be sent to the consumer and that the session either completed successfully or encountered a non-recoverable error.helpviewer_keywords: ["PFN_WdsTransportClientSessionComplete","PFN_WdsTransportClientSessionComplete callback","PFN_WdsTransportClientSessionComplete callback function [Windows Deployment Services]","wds.pfn_wdstransportclientsessioncomplete","wdstci/PFN_WdsTransportClientSessionComplete"]
 old-location: wds\pfn_wdstransportclientsessioncomplete.htm
 tech.root: wds
 ms.assetid: 1c7b8137-bf74-486c-a90e-6becfec5ddc8
@@ -70,15 +70,6 @@ Pointer to the caller specific data for this session.  This data was specified i
 ### -param dwError [in]
 
 The overall status of the file transfer.  If the session succeeded, this value will be set to <b>ERROR_SUCCESS</b>.  If the session did not succeed, the error code for the session will be set.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

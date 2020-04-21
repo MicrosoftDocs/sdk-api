@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost.TxInvalidateRect
 title: ITextHost::TxInvalidateRect (textserv.h)
-description: Specifies a rectangle for the text host to add to the update region of the text host window.
+description: Specifies a rectangle for the text host to add to the update region of the text host window.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxInvalidateRect method","ITextHost.TxInvalidateRect","ITextHost::TxInvalidateRect","TxInvalidateRect","TxInvalidateRect method [Windows Controls]","TxInvalidateRect method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxInvalidateRect","_win32_ITextHost_TxInvalidateRect_cpp","controls.ITextHost_TxInvalidateRect","controls._win32_ITextHost_TxInvalidateRect","textserv/ITextHost::TxInvalidateRect"]
 old-location: controls\ITextHost_TxInvalidateRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxinvalidaterect.htm
@@ -69,15 +69,6 @@ The invalid rectangle.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Specifies whether the background within the update region is to be erased when the update region is processed. If this parameter is <b>TRUE</b>, the background is erased when the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function is called. If this parameter is <b>FALSE</b>, the background remains unchanged. 
-
-
-## -returns
-
-
-
-This method has no return value.
-
-
 
 
 ## -remarks

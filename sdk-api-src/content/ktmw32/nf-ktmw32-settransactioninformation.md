@@ -1,7 +1,7 @@
 ---
 UID: NF:ktmw32.SetTransactionInformation
 title: SetTransactionInformation function (ktmw32.h)
-description: Sets the transaction information for the specified transaction.
+description: Sets the transaction information for the specified transaction.helpviewer_keywords: ["SetTransactionInformation","SetTransactionInformation function [Files]","fs.settransactioninformation","ktmw32/SetTransactionInformation"]
 old-location: fs\settransactioninformation.htm
 tech.root: ktm
 ms.assetid: e33d221b-cd06-4f20-a4b5-407a04362ba0

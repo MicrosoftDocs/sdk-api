@@ -1,7 +1,7 @@
 ---
 UID: NF:wpcapi.IWPCWebSettings.RequestURLOverride
 title: IWPCWebSettings::RequestURLOverride (wpcapi.h)
-description: Requests that the Parental Controls web restrictions subsystem set the specified primary and sub URLs to the allowed state.
+description: Requests that the Parental Controls web restrictions subsystem set the specified primary and sub URLs to the allowed state.helpviewer_keywords: ["IWPCWebSettings interface","RequestURLOverride method","IWPCWebSettings.RequestURLOverride","IWPCWebSettings::RequestURLOverride","RequestURLOverride","RequestURLOverride method","RequestURLOverride method","IWPCWebSettings interface","parcon.iwpcwebsettings_requesturloverride","wpcapi/IWPCWebSettings::RequestURLOverride"]
 old-location: parcon\iwpcwebsettings_requesturloverride.htm
 tech.root: parcon
 ms.assetid: 2e229b0e-59ae-4fcf-a398-32bc20611802

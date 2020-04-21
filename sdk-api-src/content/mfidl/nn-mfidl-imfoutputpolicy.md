@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFOutputPolicy
 title: IMFOutputPolicy (mfidl.h)
-description: Encapsulates a usage policy from an input trust authority (ITA).
+description: Encapsulates a usage policy from an input trust authority (ITA).helpviewer_keywords: ["76af8e03-9584-4f4b-ab2c-8a0ff2c3485b","IMFOutputPolicy","IMFOutputPolicy interface [Media Foundation]","IMFOutputPolicy interface [Media Foundation]","described","mf.imfoutputpolicy","mfidl/IMFOutputPolicy"]
 old-location: mf\imfoutputpolicy.htm
 tech.root: medfound
 ms.assetid: 76af8e03-9584-4f4b-ab2c-8a0ff2c3485b

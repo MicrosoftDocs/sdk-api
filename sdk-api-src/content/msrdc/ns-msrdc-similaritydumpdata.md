@@ -1,7 +1,7 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0014
 title: SimilarityDumpData (msrdc.h)
-description: Contains the similarity information that was returned for a file by the ISimilarityTableDumpState::GetNextData method.
+description: Contains the similarity information that was returned for a file by the ISimilarityTableDumpState::GetNextData method.helpviewer_keywords: ["SimilarityDumpData","SimilarityDumpData structure [Remote Differential Compression]","fs.similaritydumpdata","msrdc/SimilarityDumpData","rdc.similaritydumpdata"]
 old-location: rdc\similaritydumpdata.htm
 tech.root: rdc
 ms.assetid: 0200008c-5664-445f-ae65-0eb004856a4c

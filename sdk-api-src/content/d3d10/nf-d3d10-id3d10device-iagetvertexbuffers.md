@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.IAGetVertexBuffers
 title: ID3D10Device::IAGetVertexBuffers (d3d10.h)
-description: Get the vertex buffers bound to the input-assembler stage.
+description: Get the vertex buffers bound to the input-assembler stage.helpviewer_keywords: ["8b5abcbf-002c-c104-ad3f-1b179ff1df50","IAGetVertexBuffers","IAGetVertexBuffers method [Direct3D 10]","IAGetVertexBuffers method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","IAGetVertexBuffers method","ID3D10Device.IAGetVertexBuffers","ID3D10Device::IAGetVertexBuffers","d3d10/ID3D10Device::IAGetVertexBuffers","direct3d10.id3d10device_iagetvertexbuffers"]
 old-location: direct3d10\id3d10device_iagetvertexbuffers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iagetvertexbuffers.htm
@@ -91,15 +91,6 @@ Pointer to an array of stride values returned by the method; one stride value fo
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Pointer to an array of offset values returned by the method; one offset value for each buffer in the vertex-buffer array. Each offset is the number of bytes between the first element of a vertex buffer and the first element that will be used.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

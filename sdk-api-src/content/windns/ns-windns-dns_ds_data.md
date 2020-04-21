@@ -1,7 +1,7 @@
 ---
 UID: NS:windns.__unnamed_struct_25
 title: DNS_DS_DATA (windns.h)
-description: Represents a DS resource record (RR) as specified in section 2 of RFC 4034 and is used to verify the contents of DNS_DNSKEY_DATA.
+description: Represents a DS resource record (RR) as specified in section 2 of RFC 4034 and is used to verify the contents of DNS_DNSKEY_DATA.helpviewer_keywords: ["*PDNS_DS_DATA","1","2","3","4","5","DNS_DS_DATA","DNS_DS_DATA structure [DNS]","PDNS_DS_DATA","PDNS_DS_DATA structure pointer [DNS]","dns.dns_ds_data","windns/DNS_DS_DATA","windns/PDNS_DS_DATA"]
 old-location: dns\dns_ds_data.htm
 tech.root: DNS
 ms.assetid: 8624cc27-feb5-4e4a-8970-40aa1d43960e

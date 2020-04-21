@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Skip
 title: IEnumTfCandidates::Skip (ctffunc.h)
-description: IEnumTfCandidates::Skip method
+description: IEnumTfCandidates::Skip methodhelpviewer_keywords: ["IEnumTfCandidates interface [Text Services Framework]","Skip method","IEnumTfCandidates.Skip","IEnumTfCandidates::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfCandidates interface","_tsf_ienumtfcandidates_skip_ref","ctffunc/IEnumTfCandidates::Skip","tsf.ienumtfcandidates_skip"]
 old-location: tsf\ienumtfcandidates_skip.htm
 tech.root: TSF
 ms.assetid: f32587f2-cdfa-4cbc-8a5c-f6630c7866f9
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Moves the current position forward in the enumeration sequence by the specified number of elements.
 
 ## -parameters
 

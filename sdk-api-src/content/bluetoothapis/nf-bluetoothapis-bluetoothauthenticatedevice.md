@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothAuthenticateDevice
 title: BluetoothAuthenticateDevice function (bluetoothapis.h)
-description: Sends an authentication request to a remote Bluetooth device.
+description: Sends an authentication request to a remote Bluetooth device.helpviewer_keywords: ["BluetoothAuthenticateDevice","BluetoothAuthenticateDevice function [Bluetooth]","bluetooth.bluetoothauthenticatedevice","bluetoothapis/BluetoothAuthenticateDevice"]
 old-location: bluetooth\bluetoothauthenticatedevice.htm
 tech.root: bluetooth
 ms.assetid: 9f8ff768-a794-4a61-a215-ae17e9acf620

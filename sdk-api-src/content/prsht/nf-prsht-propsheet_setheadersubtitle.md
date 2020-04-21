@@ -1,7 +1,7 @@
 ---
 UID: NF:prsht.PropSheet_SetHeaderSubTitle
 title: PropSheet_SetHeaderSubTitle macro (prsht.h)
-description: Sets the subtitle text for the header of a wizard's interior page. You can use this macro or send the PSM_SETHEADERSUBTITLE message explicitly.
+description: Sets the subtitle text for the header of a wizard's interior page. You can use this macro or send the PSM_SETHEADERSUBTITLE message explicitly.helpviewer_keywords: ["PropSheet_SetHeaderSubTitle","PropSheet_SetHeaderSubTitle macro [Windows Controls]","_win32_PropSheet_SetHeaderSubTitle","_win32_PropSheet_SetHeaderSubTitle_cpp","controls.PropSheet_SetHeaderSubTitle","controls._win32_PropSheet_SetHeaderSubTitle","prsht/PropSheet_SetHeaderSubTitle"]
 old-location: controls\PropSheet_SetHeaderSubTitle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setheadersubtitle.htm

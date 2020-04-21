@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.GetRegisteredProperties
 title: ISyncProviderConfigUI::GetRegisteredProperties (syncregistration.h)
-description: Obtains configuration UI properties for reading and writing.
+description: Obtains configuration UI properties for reading and writing.helpviewer_keywords: ["GetRegisteredProperties","GetRegisteredProperties method [Windows Sync]","GetRegisteredProperties method [Windows Sync]","ISyncProviderConfigUI interface","ISyncProviderConfigUI interface [Windows Sync]","GetRegisteredProperties method","ISyncProviderConfigUI.GetRegisteredProperties","ISyncProviderConfigUI::GetRegisteredProperties","syncregistration/ISyncProviderConfigUI::GetRegisteredProperties","winsync.isyncproviderconfigui_getregisteredproperties"]
 old-location: winsync\isyncproviderconfigui_getregisteredproperties.htm
 tech.root: winsync
 ms.assetid: c96091d7-4b80-445b-911a-fde612eafce9

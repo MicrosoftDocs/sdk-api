@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPart
 title: IXpsOMPart (xpsobjectmodel.h)
-description: The base interface for all XPS document part interfaces.
+description: The base interface for all XPS document part interfaces.helpviewer_keywords: ["IXpsOMPart","IXpsOMPart interface [XPS Documents and Packaging]","IXpsOMPart interface [XPS Documents and Packaging]","described","xps.ixpsompart","xpsobjectmodel/IXpsOMPart"]
 old-location: xps\ixpsompart.htm
 tech.root: printdocs
 ms.assetid: 71cd0155-6c95-42ca-bfc3-dffd43d95dc9

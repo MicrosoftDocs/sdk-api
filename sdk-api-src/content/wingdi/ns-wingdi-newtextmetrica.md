@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagNEWTEXTMETRICA
 title: NEWTEXTMETRICA (wingdi.h)
-description: The NEWTEXTMETRIC structure contains data that describes a physical font.
+description: The NEWTEXTMETRIC structure contains data that describes a physical font.helpviewer_keywords: ["*LPNEWTEXTMETRICA","*NPNEWTEXTMETRICA","*PNEWTEXTMETRICA","NEWTEXTMETRIC","NEWTEXTMETRIC structure [Windows GDI]","NEWTEXTMETRICA","NEWTEXTMETRICW","PNEWTEXTMETRIC","PNEWTEXTMETRIC structure pointer [Windows GDI]","_win32_NEWTEXTMETRIC_str","gdi.newtextmetric","wingdi/NEWTEXTMETRIC","wingdi/NEWTEXTMETRICA","wingdi/NEWTEXTMETRICW","wingdi/PNEWTEXTMETRIC"]
 old-location: gdi\newtextmetric.htm
 tech.root: gdi
 ms.assetid: 0dd7fee0-0771-4c72-9843-0fee308da5cc

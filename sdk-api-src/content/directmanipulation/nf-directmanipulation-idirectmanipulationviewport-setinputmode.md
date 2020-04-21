@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetInputMode
 title: IDirectManipulationViewport::SetInputMode (directmanipulation.h)
-description: Specifies if input is visible to the UI thread.
+description: Specifies if input is visible to the UI thread.helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","SetInputMode method","IDirectManipulationViewport.SetInputMode","IDirectManipulationViewport::SetInputMode","SetInputMode","SetInputMode method [Direct Manipulation]","SetInputMode method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_setinputmode","directmanipulation/IDirectManipulationViewport::SetInputMode"]
 old-location: directmanipulation\idirectmanipulationviewport_setinputmode.htm
 tech.root: directmanipulation
 ms.assetid: 2be1c8a1-a729-4851-b103-b108b9a96e2d

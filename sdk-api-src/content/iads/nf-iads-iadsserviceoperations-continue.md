@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsServiceOperations.Continue
 title: IADsServiceOperations::Continue (iads.h)
-description: The IADsServiceOperations::Continue method resumes a service operation paused by the IADsServiceOperations::Pause method.
+description: The IADsServiceOperations::Continue method resumes a service operation paused by the IADsServiceOperations::Pause method.helpviewer_keywords: ["Continue","Continue method [ADSI]","Continue method [ADSI]","IADsServiceOperations interface","IADsServiceOperations interface [ADSI]","Continue method","IADsServiceOperations.Continue","IADsServiceOperations::Continue","_ds_iadsserviceoperations_continue","adsi.iadsserviceoperations__continue","adsi.iadsserviceoperations_continue","iads/IADsServiceOperations::Continue"]
 old-location: adsi\iadsserviceoperations_continue.htm
 tech.root: adsi
 ms.assetid: de7627b4-8873-4324-b833-ff4cf018a428

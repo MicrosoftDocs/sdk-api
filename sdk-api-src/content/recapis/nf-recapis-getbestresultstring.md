@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.GetBestResultString
 title: GetBestResultString function (recapis.h)
-description: Retrieves the best result string.
+description: Retrieves the best result string.helpviewer_keywords: ["97d60330-c808-4d16-a197-7bad7ca9080e","GetBestResultString","GetBestResultString function [Tablet PC]","recapis/GetBestResultString","tablet.getbestresultstring"]
 old-location: tablet\getbestresultstring.htm
 tech.root: tablet
 ms.assetid: 97d60330-c808-4d16-a197-7bad7ca9080e

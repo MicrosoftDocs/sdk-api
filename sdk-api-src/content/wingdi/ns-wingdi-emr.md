@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMR
 title: EMR (wingdi.h)
-description: The EMR structure provides the base structure for all enhanced metafile records. An enhanced metafile record contains the parameters for a specific GDI function used to create part of a picture in an enhanced format metafile.
+description: The EMR structure provides the base structure for all enhanced metafile records. An enhanced metafile record contains the parameters for a specific GDI function used to create part of a picture in an enhanced format metafile.helpviewer_keywords: ["*PEMR","EMR","EMR structure [Windows GDI]","PEMR","PEMR structure pointer [Windows GDI]","_win32_EMR_str","gdi.emr","wingdi/EMR","wingdi/PEMR"]
 old-location: gdi\emr.htm
 tech.root: gdi
 ms.assetid: 06582047-b64b-44ec-ae27-1f8ed7c56b97

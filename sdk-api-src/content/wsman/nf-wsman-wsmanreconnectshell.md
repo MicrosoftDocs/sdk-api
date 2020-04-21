@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManReconnectShell
 title: WSManReconnectShell function (wsman.h)
-description: Reconnects a previously disconnected shell session. To reconnect the shell session's associated commands, use WSManReconnectShellCommand.
+description: Reconnects a previously disconnected shell session. To reconnect the shell session's associated commands, use WSManReconnectShellCommand.helpviewer_keywords: ["WSManReconnectShell","WSManReconnectShell function [Windows Remote Management]","winrm.wsmanreconnectshell","wsman/WSManReconnectShell"]
 old-location: winrm\wsmanreconnectshell.htm
 tech.root: winrm
 ms.assetid: 92D9D3FE-73A1-45FA-AD8A-344AB909C6F7
@@ -70,13 +70,5 @@ This parameter is reserved for future use and must be set to zero.
 ### -param async [in]
 
 Defines an asynchronous structure to contain an optional user context and a mandatory callback function. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_shell_async">WSMAN_SHELL_ASYNC</a>. This parameter cannot be <b>NULL</b>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

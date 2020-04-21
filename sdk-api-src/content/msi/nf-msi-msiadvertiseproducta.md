@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiAdvertiseProductA
 title: MsiAdvertiseProductA function (msi.h)
-description: The MsiAdvertiseProduct function generates an advertise script or advertises a product to the computer.
+description: The MsiAdvertiseProduct function generates an advertise script or advertises a product to the computer.helpviewer_keywords: ["ADVERTISEFLAGS_MACHINEASSIGN","ADVERTISEFLAGS_USERASSIGN","MsiAdvertiseProduct","MsiAdvertiseProduct function","MsiAdvertiseProductA","MsiAdvertiseProductW","_msi_msiadvertiseproduct","msi/MsiAdvertiseProduct","msi/MsiAdvertiseProductA","msi/MsiAdvertiseProductW","setup.msiadvertiseproduct"]
 old-location: setup\msiadvertiseproduct.htm
 tech.root: Msi
 ms.assetid: b28736cb-7097-4f6e-a158-a525a32d9b58

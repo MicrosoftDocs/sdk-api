@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsPathname
 title: IADsPathname (iads.h)
-description: Parses the X.500 and Windows path in ADSI.
+description: Parses the X.500 and Windows path in ADSI.helpviewer_keywords: ["IADsPathname","IADsPathname interface [ADSI]","IADsPathname interface [ADSI]","described","Pathname","_ds_iadspathname","adsi.iadspathname","iads/IADsPathname"]
 old-location: adsi\iadspathname.htm
 tech.root: adsi
 ms.assetid: 9aa26d6c-aa86-4a23-a986-b8cb9057772a

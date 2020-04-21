@@ -1,7 +1,7 @@
 ---
 UID: NF:upnphost.IUPnPDeviceControl.Initialize
 title: IUPnPDeviceControl::Initialize (upnphost.h)
-description: The Initialize method is used to initialize the device. The device host invokes this method.
+description: The Initialize method is used to initialize the device. The device host invokes this method.helpviewer_keywords: ["IUPnPDeviceControl interface [UPnP APIs]","Initialize method","IUPnPDeviceControl.Initialize","IUPnPDeviceControl::Initialize","Initialize","Initialize method [UPnP APIs]","Initialize method [UPnP APIs]","IUPnPDeviceControl interface","_upnp_iupnpdevicecontrol_initialize","upnp.iupnpdevicecontrol_initialize","upnphost/IUPnPDeviceControl::Initialize"]
 old-location: upnp\iupnpdevicecontrol_initialize.htm
 tech.root: upnp
 ms.assetid: 0c1ea343-f04b-414d-92cf-044cb117bc9c

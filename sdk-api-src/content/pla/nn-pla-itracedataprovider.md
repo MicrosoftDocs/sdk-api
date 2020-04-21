@@ -1,7 +1,7 @@
 ---
 UID: NN:pla.ITraceDataProvider
 title: ITraceDataProvider (pla.h)
-description: Specifies a trace provider to enable in the trace session.
+description: Specifies a trace provider to enable in the trace session.helpviewer_keywords: ["ITraceDataProvider","ITraceDataProvider interface [PLA]","ITraceDataProvider interface [PLA]","described","base.itracedataprovider","pla.itracedataprovider","pla/ITraceDataProvider"]
 old-location: pla\itracedataprovider.htm
 tech.root: PLA
 ms.assetid: bd2a49c1-8e18-4a14-a797-07f2b9c25812

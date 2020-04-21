@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CopyDescriptors
 title: ID3D12Device::CopyDescriptors (d3d12.h)
-description: Copies descriptors from a source to a destination.
+description: Copies descriptors from a source to a destination.helpviewer_keywords: ["CopyDescriptors","CopyDescriptors method","CopyDescriptors method","ID3D12Device interface","ID3D12Device interface","CopyDescriptors method","ID3D12Device.CopyDescriptors","ID3D12Device::CopyDescriptors","d3d12/ID3D12Device::CopyDescriptors","direct3d12.id3d12device_copydescriptors"]
 old-location: direct3d12\id3d12device_copydescriptors.htm
 tech.root: direct3d12
 ms.assetid: F995EF34-74FF-4FCA-A018-E2F48DF92450
@@ -112,16 +112,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the type of descriptor heap to copy with.
           
-
-
-## -returns
-
-
-
-Returns nothing.
-          
-
-
 
 
 ## -see-also

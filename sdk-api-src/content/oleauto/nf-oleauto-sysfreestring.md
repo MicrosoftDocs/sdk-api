@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SysFreeString
 title: SysFreeString function (oleauto.h)
-description: Deallocates a string allocated previously by SysAllocString, SysAllocStringByteLen, SysReAllocString, SysAllocStringLen, or SysReAllocStringLen.
+description: Deallocates a string allocated previously by SysAllocString, SysAllocStringByteLen, SysReAllocString, SysAllocStringLen, or SysReAllocStringLen.helpviewer_keywords: ["SysFreeString","SysFreeString function [Automation]","_oa96_SysFreeString","automat.sysfreestring","oleauto/SysFreeString"]
 old-location: automat\sysfreestring.htm
 tech.root: automat
 ms.assetid: 8f230ee3-5f6e-4cb9-a910-9c90b754dcd3
@@ -60,13 +60,5 @@ Deallocates a string allocated previously by <a href="https://docs.microsoft.com
 ### -param bstrString [in, optional]
 
 The previously allocated string. If this parameter is <b>NULL</b>, the function simply returns.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

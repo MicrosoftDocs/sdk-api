@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetValue
 title: ICredentialProviderUser::GetValue (credentialprovider.h)
-description: Retrieves a specified property value set for the user.
+description: Retrieves a specified property value set for the user.helpviewer_keywords: ["GetValue","GetValue method [Windows Shell]","GetValue method [Windows Shell]","ICredentialProviderUser interface","ICredentialProviderUser interface [Windows Shell]","GetValue method","ICredentialProviderUser.GetValue","ICredentialProviderUser::GetValue","credentialprovider/ICredentialProviderUser::GetValue","shell.ICredentialProviderUser_GetValue"]
 old-location: shell\ICredentialProviderUser_GetValue.htm
 tech.root: shell
 ms.assetid: CA8CD897-127E-4113-A5A5-08110E0E6C17

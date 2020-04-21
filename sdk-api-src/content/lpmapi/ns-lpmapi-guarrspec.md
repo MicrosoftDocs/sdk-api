@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_26
 title: GuarRspec (lpmapi.h)
-description: The GuarRspec structure contains guaranteed Rspec information.
+description: The GuarRspec structure contains guaranteed Rspec information.helpviewer_keywords: ["GuarRspec","GuarRspec structure [QOS]","lpmapi/GuarRspec","qos.guarrspec"]
 old-location: qos\guarrspec.htm
 tech.root: QOS
 ms.assetid: b5a2daa1-9783-44c2-baa6-5164dedf498f

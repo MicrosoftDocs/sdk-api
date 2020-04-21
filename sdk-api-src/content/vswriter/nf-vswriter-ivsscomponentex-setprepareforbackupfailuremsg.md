@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssComponentEx.SetPrepareForBackupFailureMsg
 title: IVssComponentEx::SetPrepareForBackupFailureMsg (vswriter.h)
-description: Sets a PrepareForBackup failure message string for a component.
+description: Sets a PrepareForBackup failure message string for a component.helpviewer_keywords: ["IVssComponentEx interface","SetPrepareForBackupFailureMsg method","IVssComponentEx.SetPrepareForBackupFailureMsg","IVssComponentEx::SetPrepareForBackupFailureMsg","SetPrepareForBackupFailureMsg","SetPrepareForBackupFailureMsg method","SetPrepareForBackupFailureMsg method","IVssComponentEx interface","base.ivsscomponentex_setprepareforbackupfailuremsg","vswriter/IVssComponentEx::SetPrepareForBackupFailureMsg"]
 old-location: base\ivsscomponentex_setprepareforbackupfailuremsg.htm
 tech.root: VSS
 ms.assetid: b2c48c06-8bfc-431b-aab3-89ec9b30a9a0

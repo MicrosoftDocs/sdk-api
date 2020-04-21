@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.VssFreeSnapshotProperties
 title: VssFreeSnapshotProperties function (vsbackup.h)
-description: The VssFreeSnapshotProperties function is used to free the contents of a VSS_SNAPSHOT_PROP structure as part of managing its life cycle.
+description: The VssFreeSnapshotProperties function is used to free the contents of a VSS_SNAPSHOT_PROP structure as part of managing its life cycle.helpviewer_keywords: ["VssFreeSnapshotProperties","VssFreeSnapshotProperties function [VSS]","VssFreeSnapshotPropertiesInternal","_win32_vssfreesnapshotproperties","base.vssfreesnapshotproperties","vsbackup/VssFreeSnapshotProperties","vsbackup/VssFreeSnapshotPropertiesInternal"]
 old-location: base\vssfreesnapshotproperties.htm
 tech.root: VSS
 ms.assetid: d5b5883b-03d5-4a83-af2e-f4d22e26ee82
@@ -72,15 +72,6 @@ This function can also be used to initialize a
 
 Pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> 
       object.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NN:propsys.IPropertyStoreCapabilities
 title: IPropertyStoreCapabilities (propsys.h)
-description: Exposes a method that determines whether a property can be edited in the UI by the user.
+description: Exposes a method that determines whether a property can be edited in the UI by the user.helpviewer_keywords: ["IPropertyStoreCapabilities","IPropertyStoreCapabilities interface [Windows Properties]","IPropertyStoreCapabilities interface [Windows Properties]","described","_shell_IPropertyStoreCapabilities","properties.IPropertyStoreCapabilities","propsys/IPropertyStoreCapabilities","shell.IPropertyStoreCapabilities"]
 old-location: properties\IPropertyStoreCapabilities.htm
 tech.root: properties
 ms.assetid: b4e51201-47af-449f-9050-aec3207320f5

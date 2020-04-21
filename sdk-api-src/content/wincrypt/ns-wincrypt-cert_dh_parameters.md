@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_DH_PARAMETERS
 title: CERT_DH_PARAMETERS (wincrypt.h)
-description: Contains parameters associated with a Diffie/Hellman public key algorithm.
+description: Contains parameters associated with a Diffie/Hellman public key algorithm.helpviewer_keywords: ["*PCERT_DH_PARAMETERS","CERT_DH_PARAMETERS","CERT_DH_PARAMETERS structure [Security]","PCERT_DH_PARAMETERS","PCERT_DH_PARAMETERS structure pointer [Security]","_crypto2_cert_dh_parameters","security.cert_dh_parameters","wincrypt/CERT_DH_PARAMETERS","wincrypt/PCERT_DH_PARAMETERS"]
 old-location: security\cert_dh_parameters.htm
 tech.root: SecCrypto
 ms.assetid: bd57236a-1763-4a43-83f4-95131d8adec9

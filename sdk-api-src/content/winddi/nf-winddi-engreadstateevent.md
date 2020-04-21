@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngReadStateEvent
 title: EngReadStateEvent function (winddi.h)
-description: The EngReadStateEvent function returns the current state of the specified event object:\_signaled or nonsignaled.
+description: The EngReadStateEvent function returns the current state of the specified event object:\_signaled or nonsignaled.helpviewer_keywords: ["EngReadStateEvent","EngReadStateEvent function [Display Devices]","display.engreadstateevent","gdifncs_921fb236-706b-405c-affd-25811f97c7de.xml","winddi/EngReadStateEvent"]
 old-location: display\engreadstateevent.htm
 tech.root: display
 ms.assetid: 32dddcc0-4cf2-467f-b1a6-03c9892d3473

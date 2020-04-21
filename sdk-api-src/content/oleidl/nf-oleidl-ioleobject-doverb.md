@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleObject.DoVerb
 title: IOleObject::DoVerb (oleidl.h)
-description: Requests that an object perform an action in response to an end-user's action. The possible actions are enumerated for the object in IOleObject::EnumVerbs.
+description: Requests that an object perform an action in response to an end-user's action. The possible actions are enumerated for the object in IOleObject::EnumVerbs.helpviewer_keywords: ["DoVerb","DoVerb method [COM]","DoVerb method [COM]","IOleObject interface","IOleObject interface [COM]","DoVerb method","IOleObject.DoVerb","IOleObject::DoVerb","_ole_ioleobject_doverb","com.ioleobject_doverb","oleidl/IOleObject::DoVerb"]
 old-location: com\ioleobject_doverb.htm
 tech.root: com
 ms.assetid: fabd6a0a-7b0c-4c99-af22-8b117addd5f7

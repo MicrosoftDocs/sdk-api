@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminAcceptNewConnection3
 title: MprAdminAcceptNewConnection3 function (mprapi.h)
-description: Remote Access Service calls the MprAdminAcceptNewConnection3 function each time a new user dials in and successfully completes RAS authentication. MprAdminAcceptNewConnection3 determines whether the user is allowed to connect.
+description: Remote Access Service calls the MprAdminAcceptNewConnection3 function each time a new user dials in and successfully completes RAS authentication. MprAdminAcceptNewConnection3 determines whether the user is allowed to connect.helpviewer_keywords: ["MprAdminAcceptNewConnection3","MprAdminAcceptNewConnection3 callback","MprAdminAcceptNewConnection3 callback function [RAS]","mprapi/MprAdminAcceptNewConnection3","rras.mpradminacceptnewconnection3"]
 old-location: rras\mpradminacceptnewconnection3.htm
 tech.root: RRAS
 ms.assetid: c457b972-e326-4c6d-b146-f6ce4e18e3ea

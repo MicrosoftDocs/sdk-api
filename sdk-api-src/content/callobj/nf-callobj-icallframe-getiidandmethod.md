@@ -1,7 +1,7 @@
 ---
 UID: NF:callobj.ICallFrame.GetIIDAndMethod
 title: ICallFrame::GetIIDAndMethod (callobj.h)
-description: Retrieves the interface ID or the method number.
+description: Retrieves the interface ID or the method number.helpviewer_keywords: ["GetIIDAndMethod","GetIIDAndMethod method [COM]","GetIIDAndMethod method [COM]","ICallFrame interface","ICallFrame interface [COM]","GetIIDAndMethod method","ICallFrame.GetIIDAndMethod","ICallFrame::GetIIDAndMethod","_com_icallframe_getiidandmethod","callobj/ICallFrame::GetIIDAndMethod","com.icallframe_getiidandmethod"]
 old-location: com\icallframe_getiidandmethod.htm
 tech.root: com
 ms.assetid: 938798ef-ddc8-4182-9216-d130c4f0e4ae

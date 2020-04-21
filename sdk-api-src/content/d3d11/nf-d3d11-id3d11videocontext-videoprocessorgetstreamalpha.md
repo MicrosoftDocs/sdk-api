@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamAlpha
 title: ID3D11VideoContext::VideoProcessorGetStreamAlpha (d3d11.h)
-description: Gets the planar alpha for an input stream on the video processor.
+description: Gets the planar alpha for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamAlpha method","ID3D11VideoContext.VideoProcessorGetStreamAlpha","ID3D11VideoContext::VideoProcessorGetStreamAlpha","VideoProcessorGetStreamAlpha","VideoProcessorGetStreamAlpha method [Media Foundation]","VideoProcessorGetStreamAlpha method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamAlpha","mf.id3d11videocontext_videoprocessorgetstreamalpha"]
 old-location: mf\id3d11videocontext_videoprocessorgetstreamalpha.htm
 tech.root: medfound
 ms.assetid: E2DB0672-54D9-4DDB-B6EA-9935237C33FB
@@ -77,15 +77,6 @@ Receives the value <b>TRUE</b> if planar alpha is enabled, or <b>FALSE</b> other
 ### -param pAlpha [out]
 
 Receives the planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaque).
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

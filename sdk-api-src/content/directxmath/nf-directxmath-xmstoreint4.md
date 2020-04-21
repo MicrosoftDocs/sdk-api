@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMStoreInt4
 title: XMStoreInt4 function (directxmath.h)
-description: Stores an XMVECTOR in a 4-element uint32_t array.
+description: Stores an XMVECTOR in a 4-element uint32_t array.helpviewer_keywords: ["Use DirectX..XMStoreInt4","XMStoreInt4","XMStoreInt4 method [DirectX Math Support APIs]","dxmath.xmstoreint4"]
 old-location: dxmath\xmstoreint4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreInt4(VOID@,XMVECTOR)

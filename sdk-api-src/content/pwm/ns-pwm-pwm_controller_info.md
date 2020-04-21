@@ -1,7 +1,7 @@
 ---
 UID: NS:pwm._PWM_CONTROLLER_INFO
 title: PWM_CONTROLLER_INFO (pwm.h)
-description: Represents the static information that characterizes a Pulse Width Modulation (PWM) controller.
+description: Represents the static information that characterizes a Pulse Width Modulation (PWM) controller.helpviewer_keywords: ["PWM_CONTROLLER_GET_INFO_OUTPUT","PWM_CONTROLLER_INFO","PWM_CONTROLLER_INFO structure","base.pwm_controller_info","pwm/PWM_CONTROLLER_INFO"]
 old-location: base\pwm_controller_info.htm
 tech.root: devio
 ms.assetid: 64002D7B-0752-4EC9-88E7-D166CBDE0AB5

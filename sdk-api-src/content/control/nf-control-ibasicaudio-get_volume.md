@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IBasicAudio.get_Volume
 title: IBasicAudio::get_Volume (control.h)
-description: The get_Volume method retrieves the volume (amplitude) of the audio signal.
+description: The get_Volume method retrieves the volume (amplitude) of the audio signal.helpviewer_keywords: ["IBasicAudio interface [DirectShow]","get_Volume method","IBasicAudio.get_Volume","IBasicAudio::get_Volume","IBasicAudioget_Volume","control/IBasicAudio::get_Volume","dshow.ibasicaudio_get_volume","get_Volume","get_Volume method [DirectShow]","get_Volume method [DirectShow]","IBasicAudio interface"]
 old-location: dshow\ibasicaudio_get_volume.htm
 tech.root: DirectShow
 ms.assetid: 3258da5a-ab44-4c8a-813b-79a0c28693a3

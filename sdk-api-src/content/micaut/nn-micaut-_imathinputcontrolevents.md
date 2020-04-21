@@ -1,7 +1,7 @@
 ---
 UID: NN:micaut._IMathInputControlEvents
 title: _IMathInputControlEvents (micaut.h)
-description: Exposes the math input control event handlers.
+description: Exposes the math input control event handlers.helpviewer_keywords: ["_IMathInputControlEvents","_IMathInputControlEvents interface [Tablet PC]","_IMathInputControlEvents interface [Tablet PC]","described","micaut/_IMathInputControlEvents","tablet._imathinputcontrolevents"]
 old-location: tablet\_imathinputcontrolevents.htm
 tech.root: tablet
 ms.assetid: e055ab45-53a8-4795-aff6-72987faad5ef

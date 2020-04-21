@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.PixelOffsetMode
 title: PixelOffsetMode (gdiplusenums.h)
-description: The PixelOffsetMode enumeration specifies the pixel offset mode of a Graphics object. This enumeration is used by the Graphics::GetPixelOffsetMode and Graphics::SetPixelOffsetMode methods of the Graphics class.
+description: The PixelOffsetMode enumeration specifies the pixel offset mode of a Graphics object. This enumeration is used by the Graphics::GetPixelOffsetMode and Graphics::SetPixelOffsetMode methods of the Graphics class.helpviewer_keywords: ["PixelOffsetMode","PixelOffsetMode enumeration [GDI+]","PixelOffsetModeDefault","PixelOffsetModeHalf","PixelOffsetModeHighQuality","PixelOffsetModeHighSpeed","PixelOffsetModeInvalid","PixelOffsetModeNone","_gdiplus_ENUM_PixelOffsetMode","gdiplus._gdiplus_ENUM_PixelOffsetMode","gdiplusenums/PixelOffsetMode","gdiplusenums/PixelOffsetModeDefault","gdiplusenums/PixelOffsetModeHalf","gdiplusenums/PixelOffsetModeHighQuality","gdiplusenums/PixelOffsetModeHighSpeed","gdiplusenums/PixelOffsetModeInvalid","gdiplusenums/PixelOffsetModeNone"]
 old-location: gdiplus\_gdiplus_ENUM_PixelOffsetMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\pixeloffsetmode.htm

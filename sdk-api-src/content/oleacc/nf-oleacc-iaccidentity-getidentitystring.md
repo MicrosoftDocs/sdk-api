@@ -1,7 +1,7 @@
 ---
 UID: NF:oleacc.IAccIdentity.GetIdentityString
 title: IAccIdentity::GetIdentityString (oleacc.h)
-description: Retrieves a string of bytes (an identity string) that uniquely identifies an accessible element.
+description: Retrieves a string of bytes (an identity string) that uniquely identifies an accessible element.helpviewer_keywords: ["GetIdentityString","GetIdentityString method [Windows Accessibility]","GetIdentityString method [Windows Accessibility]","IAccIdentity interface","IAccIdentity interface [Windows Accessibility]","GetIdentityString method","IAccIdentity.GetIdentityString","IAccIdentity::GetIdentityString","_msaa_IAccIdentity_GetIdentityString","msaa.iaccidentity_iaccidentity__getidentitystring","oleacc/IAccIdentity::GetIdentityString","winauto.iaccidentity_iaccidentity__getidentitystring"]
 old-location: winauto\iaccidentity_iaccidentity__getidentitystring.htm
 tech.root: WinAuto
 ms.assetid: 38467491-c432-456a-9128-723fc7dde189

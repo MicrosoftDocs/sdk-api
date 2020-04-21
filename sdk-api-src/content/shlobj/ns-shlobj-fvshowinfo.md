@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj.__unnamed_struct_0
 title: FVSHOWINFO (shlobj.h)
-description: Contains information that the file viewer uses to display a file.
+description: Contains information that the file viewer uses to display a file.helpviewer_keywords: ["*LPFVSHOWINFO","FVSHOWINFO","FVSHOWINFO structure [Windows Shell]","FVSIF_CANVIEWIT","FVSIF_NEWFAILED","FVSIF_NEWFILE","FVSIF_PINNED","FVSIF_RECT","LPFVSHOWINFO","LPFVSHOWINFO structure pointer [Windows Shell]","_win32_FVSHOWINFO","shell.FVSHOWINFO","shlobj/FVSHOWINFO","shlobj/LPFVSHOWINFO"]
 old-location: shell\FVSHOWINFO.htm
 tech.root: shell
 ms.assetid: 8f399964-1ce4-4a9c-8cea-650a698783d3

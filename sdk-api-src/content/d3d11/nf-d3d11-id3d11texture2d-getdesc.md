@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Texture2D.GetDesc
 title: ID3D11Texture2D::GetDesc (d3d11.h)
-description: Get the properties of the texture resource.
+description: Get the properties of the texture resource.helpviewer_keywords: ["GetDesc","GetDesc method [Direct3D 11]","GetDesc method [Direct3D 11]","ID3D11Texture2D interface","ID3D11Texture2D interface [Direct3D 11]","GetDesc method","ID3D11Texture2D.GetDesc","ID3D11Texture2D::GetDesc","a43ecef2-d8a7-2b25-5691-78a828b9d806","d3d11/ID3D11Texture2D::GetDesc","direct3d11.id3d11texture2d_getdesc"]
 old-location: direct3d11\id3d11texture2d_getdesc.htm
 tech.root: direct3d11
 ms.assetid: 408e0914-9582-4639-9778-02e121ea0763
@@ -63,15 +63,6 @@ Get the properties of the texture resource.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture2d_desc">D3D11_TEXTURE2D_DESC</a>*</b>
 
 Pointer to a resource description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture2d_desc">D3D11_TEXTURE2D_DESC</a>).
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -see-also

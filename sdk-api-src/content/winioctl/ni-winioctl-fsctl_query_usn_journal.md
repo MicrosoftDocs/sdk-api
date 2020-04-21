@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_QUERY_USN_JOURNAL
 title: FSCTL_QUERY_USN_JOURNAL
-description: Queries for information on the current update sequence number (USN) change journal, its records, and its capacity.
+description: Queries for information on the current update sequence number (USN) change journal, its records, and its capacity.helpviewer_keywords: ["FSCTL_QUERY_USN_JOURNAL","FSCTL_QUERY_USN_JOURNAL control","FSCTL_QUERY_USN_JOURNAL control code [Files]","_win32_fsctl_query_usn_journal","base.fsctl_query_usn_journal","fs.fsctl_query_usn_journal","winioctl/FSCTL_QUERY_USN_JOURNAL"]
 old-location: fs\fsctl_query_usn_journal.htm
 tech.root: FileIO
 ms.assetid: 9491b054-934a-4b76-bf77-f397b6386f82

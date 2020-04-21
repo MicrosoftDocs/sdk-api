@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HTTP_GREATER_VERSION
 title: HTTP_GREATER_VERSION macro (http.h)
-description: Returns a non-zero value if an HTTP_VERSION structure is greater than a specified major/minor version combination, or zero otherwise.
+description: Returns a non-zero value if an HTTP_VERSION structure is greater than a specified major/minor version combination, or zero otherwise.helpviewer_keywords: ["HTTP_GREATER_VERSION","HTTP_GREATER_VERSION macro [HTTP]","_http_http_greater_version","http.http_greater_version","http/HTTP_GREATER_VERSION"]
 old-location: http\http_greater_version.htm
 tech.root: http
 ms.assetid: 741b6f26-4c87-459e-a672-daf098f0c9e6

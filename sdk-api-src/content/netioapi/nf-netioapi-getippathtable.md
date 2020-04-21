@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.GetIpPathTable
 title: GetIpPathTable function (netioapi.h)
-description: The GetIpPathTable function retrieves the IP path table on the local computer.
+description: The GetIpPathTable function retrieves the IP path table on the local computer.helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","GetIpPathTable","GetIpPathTable function [IP Helper]","iphlp.getippathtable","netioapi/GetIpPathTable"]
 old-location: iphlp\getippathtable.htm
 tech.root: IpHlp
 ms.assetid: e03816a4-0b86-4e0b-a45e-8148c8ba5472

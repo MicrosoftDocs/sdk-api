@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._editstream
 title: EDITSTREAM (richedit.h)
-description: Contains information that an application passes to a rich edit control in a EM_STREAMIN or EM_STREAMOUT message. The rich edit control uses the information to transfer a stream of data into or out of the control.
+description: Contains information that an application passes to a rich edit control in a EM_STREAMIN or EM_STREAMOUT message. The rich edit control uses the information to transfer a stream of data into or out of the control.helpviewer_keywords: ["EDITSTREAM","EDITSTREAM structure [Windows Controls]","_win32_EDITSTREAM_str","_win32_EDITSTREAM_str_cpp","controls.EDITSTREAM","controls._win32_EDITSTREAM_str","richedit/EDITSTREAM"]
 old-location: controls\EDITSTREAM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\editstream.htm

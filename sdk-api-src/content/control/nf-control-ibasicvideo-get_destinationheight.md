@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IBasicVideo.get_DestinationHeight
 title: IBasicVideo::get_DestinationHeight (control.h)
-description: The get_DestinationHeight method retrieves the height of the destination rectangle.
+description: The get_DestinationHeight method retrieves the height of the destination rectangle.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_DestinationHeight method","IBasicVideo.get_DestinationHeight","IBasicVideo::get_DestinationHeight","IBasicVideoget_DestinationHeight","control/IBasicVideo::get_DestinationHeight","dshow.ibasicvideo_get_destinationheight","get_DestinationHeight","get_DestinationHeight method [DirectShow]","get_DestinationHeight method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_get_destinationheight.htm
 tech.root: DirectShow
 ms.assetid: 21d6c74a-2adb-4015-b0df-5acb26c22212

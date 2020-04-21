@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.GetAt
 title: IXpsOMGeometryFigureCollection::GetAt (xpsobjectmodel.h)
-description: Gets an IXpsOMGeometryFigure interface pointer from a specified location in the collection.
+description: Gets an IXpsOMGeometryFigure interface pointer from a specified location in the collection.helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsOMGeometryFigureCollection interface","IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging]","GetAt method","IXpsOMGeometryFigureCollection.GetAt","IXpsOMGeometryFigureCollection::GetAt","xps.ixpsomgeometryfigurecollection_getat","xpsobjectmodel/IXpsOMGeometryFigureCollection::GetAt"]
 old-location: xps\ixpsomgeometryfigurecollection_getat.htm
 tech.root: printdocs
 ms.assetid: adf36d84-7bfd-4a8c-b6e7-5a8622245ae5

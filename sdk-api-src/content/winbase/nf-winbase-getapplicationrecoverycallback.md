@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetApplicationRecoveryCallback
 title: GetApplicationRecoveryCallback function (winbase.h)
-description: Retrieves a pointer to the callback routine registered for the specified process. The address returned is in the virtual address space of the process.
+description: Retrieves a pointer to the callback routine registered for the specified process. The address returned is in the virtual address space of the process.helpviewer_keywords: ["GetApplicationRecoveryCallback","GetApplicationRecoveryCallback function [Recovery]","base.getapplicationrecoverycallback","recovery.getapplicationrecoverycallback","winbase/GetApplicationRecoveryCallback"]
 old-location: recovery\getapplicationrecoverycallback.htm
 tech.root: Recovery
 ms.assetid: 974147de-1249-4062-a492-4db9646043c6

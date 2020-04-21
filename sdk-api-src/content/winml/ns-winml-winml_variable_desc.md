@@ -1,7 +1,7 @@
 ---
 UID: NS:winml.WINML_VARIABLE_DESC
 title: WINML_VARIABLE_DESC (winml.h)
-description: Contains description properties of the variable.
+description: Contains description properties of the variable.helpviewer_keywords: ["MachineLearning.winml_variable_desc","PWINML_VARIABLE_DESC","PWINML_VARIABLE_DESC structure pointer","WINML_VARIABLE_DESC","WINML_VARIABLE_DESC structure","winml/PWINML_VARIABLE_DESC","winml/WINML_VARIABLE_DESC"]
 old-location: machinelearning\winml_variable_desc.htm
 tech.root: MachineLearning
 ms.assetid: 94FBC8E4-13BD-49A5-A720-0827479A43A6

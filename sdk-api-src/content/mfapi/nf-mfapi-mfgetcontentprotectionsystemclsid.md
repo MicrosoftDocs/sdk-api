@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFGetContentProtectionSystemCLSID
 title: MFGetContentProtectionSystemCLSID function (mfapi.h)
-description: Gets the class identifier for a content protection system.
+description: Gets the class identifier for a content protection system.helpviewer_keywords: ["MFGetContentProtectionSystemCLSID","MFGetContentProtectionSystemCLSID function [Media Foundation]","mf.mfgetcontentprotectionsystemclsid","mfapi/MFGetContentProtectionSystemCLSID"]
 old-location: mf\mfgetcontentprotectionsystemclsid.htm
 tech.root: medfound
 ms.assetid: 03E1AF8D-69C7-4988-A699-0BD71ED635AF

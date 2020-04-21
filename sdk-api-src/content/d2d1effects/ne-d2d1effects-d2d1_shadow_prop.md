@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects.D2D1_SHADOW_PROP
 title: D2D1_SHADOW_PROP (d2d1effects.h)
-description: Identifiers for properties of the Shadow effect.
+description: Identifiers for properties of the Shadow effect.helpviewer_keywords: ["D2D1_SHADOW_PROP","D2D1_SHADOW_PROP enumeration [Direct2D]","D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION","D2D1_SHADOW_PROP_COLOR","D2D1_SHADOW_PROP_OPTIMIZATION","d2d1effects/D2D1_SHADOW_PROP","d2d1effects/D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION","d2d1effects/D2D1_SHADOW_PROP_COLOR","d2d1effects/D2D1_SHADOW_PROP_OPTIMIZATION","direct2d.d2d1_shadow_prop"]
 old-location: direct2d\d2d1_shadow_prop.htm
 tech.root: Direct2D
 ms.assetid: 332B5743-D702-4DBC-8482-FEAD43641C3A

@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.InterlockedExchange
 title: InterlockedExchange function (winnt.h)
-description: Sets a 32-bit variable to the specified value as an atomic operation.
+description: Sets a 32-bit variable to the specified value as an atomic operation.helpviewer_keywords: ["InterlockedExchange","InterlockedExchange function","_win32_interlockedexchange","base.interlockedexchange","winnt/InterlockedExchange"]
 old-location: base\interlockedexchange.htm
 tech.root: Sync
 ms.assetid: 22142195-b592-4a7b-9b23-e31984cc1d41

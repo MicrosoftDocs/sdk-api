@@ -1,7 +1,7 @@
 ---
 UID: NS:schannel._SCH_CRED_SECRET_PRIVKEY
 title: SCH_CRED_SECRET_PRIVKEY (schannel.h)
-description: Contains private key information needed to authenticate a client or server.
+description: Contains private key information needed to authenticate a client or server.helpviewer_keywords: ["*PSCH_CRED_SECRET_PRIVKEY","PSCH_CRED_SECRET_PRIVKEY","PSCH_CRED_SECRET_PRIVKEY structure pointer [Security]","SCH_CRED_SECRET_PRIVKEY","SCH_CRED_SECRET_PRIVKEY structure [Security]","_ssp_sch_cred_secret_privkey","schannel/PSCH_CRED_SECRET_PRIVKEY","schannel/SCH_CRED_SECRET_PRIVKEY","security.sch_cred_secret_privkey"]
 old-location: security\sch_cred_secret_privkey.htm
 tech.root: SecAuthN
 ms.assetid: 3d637716-e4cd-427c-bc80-7d0ace6ac521

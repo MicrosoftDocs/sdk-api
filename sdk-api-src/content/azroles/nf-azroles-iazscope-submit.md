@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope.Submit
 title: IAzScope::Submit (azroles.h)
-description: Persists changes made to the IAzScope object.
+description: Persists changes made to the IAzScope object.helpviewer_keywords: ["AzScope object [Security]","Submit method","IAzScope interface [Security]","Submit method","IAzScope.Submit","IAzScope::Submit","Submit","Submit method [Security]","Submit method [Security]","AzScope object","Submit method [Security]","IAzScope interface","azroles/IAzScope::Submit","security.iazscope_submit"]
 old-location: security\iazscope_submit.htm
 tech.root: SecAuthZ
 ms.assetid: c06f1994-71d9-4867-a5ed-8fa90206994f

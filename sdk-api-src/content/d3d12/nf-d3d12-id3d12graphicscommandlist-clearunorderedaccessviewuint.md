@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint
 title: ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint (d3d12.h)
-description: Sets all the elements in a unordered-access view (UAV) to the specified integer values.
+description: Sets all the elements in a unordered-access view (UAV) to the specified integer values.helpviewer_keywords: ["ClearUnorderedAccessViewUint","ClearUnorderedAccessViewUint method","ClearUnorderedAccessViewUint method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","ClearUnorderedAccessViewUint method","ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint","ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint","d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint","direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewuint"]
 old-location: direct3d12\id3d12graphicscommandlist_clearunorderedaccessviewuint.htm
 tech.root: direct3d12
 ms.assetid: A048BF0C-9141-4DDF-91F9-B53464033A44
@@ -88,10 +88,6 @@ Type: <b>const D3D12_RECT*</b>
 
 An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view to clear. If <b>NULL</b>, then <b>ClearUnorderedAccessViewUint</b> clears the entire resource view.
           
-## -returns
-
-This method doesn't return a value.
-
 ## -remarks
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>

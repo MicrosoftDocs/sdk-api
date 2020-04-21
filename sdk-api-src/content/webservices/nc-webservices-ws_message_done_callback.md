@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_MESSAGE_DONE_CALLBACK
 title: WS_MESSAGE_DONE_CALLBACK (webservices.h)
-description: Notifies the caller that the message has completed its use of either the WS_XML_READER structure that was supplied to WsReadEnvelopeStartfunction, or of the WS_XML_WRITER structure supplied to the WsWriteEnvelopeStart function.
+description: Notifies the caller that the message has completed its use of either the WS_XML_READER structure that was supplied to WsReadEnvelopeStartfunction, or of the WS_XML_WRITER structure supplied to the WsWriteEnvelopeStart function.helpviewer_keywords: ["WS_MESSAGE_DONE_CALLBACK","WS_MESSAGE_DONE_CALLBACK callback","WS_MESSAGE_DONE_CALLBACK callback function [Web Services for Windows]","webservices/WS_MESSAGE_DONE_CALLBACK","wsw.ws_message_done_callback"]
 old-location: wsw\ws_message_done_callback.htm
 tech.root: wsw
 ms.assetid: 59ab7cbe-dc66-4e74-bec9-ffb25173ff87
@@ -65,15 +65,6 @@ A pointer to <b>state</b> information passed to the  <a href="https://docs.micro
 This parameter can be used to specify a pointer to user-defined
                     data required by the callback.
                 
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

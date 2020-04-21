@@ -2,6 +2,7 @@
 UID: NF:dhcpcsdk.DhcpRequestParams
 title: DhcpRequestParams function (dhcpcsdk.h)
 description: The DhcpRequestParams function enables callers to synchronously, or synchronously and persistently obtain DHCP data from a DHCP server.
+helpviewer_keywords: ["DHCPCAPI_REQUEST_PERSISTENT","DHCPCAPI_REQUEST_SYNCHRONOUS","DhcpRequestParams","DhcpRequestParams function [DHCP]","_dhcp_dhcprequestparams","dhcp.dhcprequestparams","dhcpcsdk/DhcpRequestParams"]
 old-location: dhcp\dhcprequestparams.htm
 tech.root: DHCP
 ms.assetid: 5fcbd1d9-8170-4c2b-ac98-6c04107c46e7
@@ -98,7 +99,7 @@ Reserved for future use. Must be set to <b>NULL</b>.
 
 ### -param AdapterName [in]
 
-Name of the adapter on which requested data is being made. Must be under 256 characters.
+GUID of the adapter on which requested data is being made. Must be under 256 characters.
 
 
 ### -param ClassId [in]
@@ -225,7 +226,3 @@ To see the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpundorequestparams">DhcpUndoRequestParams</a>
- 
-
- 
-

@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.Add
 title: IEventObjectCollection::Add (eventsys.h)
-description: Adds an event object to the collection.
+description: Adds an event object to the collection.helpviewer_keywords: ["Add","Add method [COM+]","Add method [COM+]","IEventObjectCollection interface","IEventObjectCollection interface [COM+]","Add method","IEventObjectCollection.Add","IEventObjectCollection::Add","_cos_IEventObjectCollection_Add","cos.ieventobjectcollection_add","eventsys/IEventObjectCollection::Add"]
 old-location: cos\ieventobjectcollection_add.htm
 tech.root: cossdk
 ms.assetid: ca08e56a-2ade-4209-a61a-b9dae021e888

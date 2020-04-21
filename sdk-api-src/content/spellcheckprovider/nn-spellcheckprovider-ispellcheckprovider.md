@@ -1,7 +1,7 @@
 ---
 UID: NN:spellcheckprovider.ISpellCheckProvider
 title: ISpellCheckProvider (spellcheckprovider.h)
-description: Represents a particular spell checker provider for a particular language, to be used by the spell checking infrastructure.
+description: Represents a particular spell checker provider for a particular language, to be used by the spell checking infrastructure.helpviewer_keywords: ["ISpellCheckProvider","ISpellCheckProvider interface [Internationalization for Windows Applications]","ISpellCheckProvider interface [Internationalization for Windows Applications]","described","intl.ispellcheckprovider","spellcheckprovider/ISpellCheckProvider"]
 old-location: intl\ispellcheckprovider.htm
 tech.root: Intl
 ms.assetid: D7C8831E-6FCE-45E0-B2EB-4EB2B1F7911F

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdspxe.PxeProviderUnRegister
 title: PxeProviderUnRegister function (wdspxe.h)
-description: Removes a provider from the list of registered providers.
+description: Removes a provider from the list of registered providers.helpviewer_keywords: ["PxeProviderUnRegister","PxeProviderUnRegister function [Windows Deployment Services]","wds.pxeproviderunregister","wdspxe/PxeProviderUnRegister"]
 old-location: wds\pxeproviderunregister.htm
 tech.root: wds
 ms.assetid: b468d865-c680-4f72-a10c-3d91542df8d3

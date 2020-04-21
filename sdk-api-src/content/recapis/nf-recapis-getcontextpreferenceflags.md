@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.GetContextPreferenceFlags
 title: GetContextPreferenceFlags function (recapis.h)
-description: Gets the context preference flags.
+description: Gets the context preference flags.helpviewer_keywords: ["GetContextPreferenceFlags","GetContextPreferenceFlags function [Tablet PC]","recapis/GetContextPreferenceFlags","tablet.getcontextpreferenceflags"]
 old-location: tablet\getcontextpreferenceflags.htm
 tech.root: tablet
 ms.assetid: 0804cd56-7baf-4b93-97b5-4131118b72b6

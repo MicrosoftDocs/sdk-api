@@ -1,7 +1,7 @@
 ---
 UID: NN:tsgauthenticationengine.ITSGAuthenticateUserSink
 title: ITSGAuthenticateUserSink (tsgauthenticationengine.h)
-description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about authentication events.
+description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about authentication events.helpviewer_keywords: ["ITSGAuthenticateUserSink","ITSGAuthenticateUserSink interface [Remote Desktop Services]","ITSGAuthenticateUserSink interface [Remote Desktop Services]","described","termserv.itsgauthenticateusersink","tsgauthenticationengine/ITSGAuthenticateUserSink"]
 old-location: termserv\itsgauthenticateusersink.htm
 tech.root: TermServ
 ms.assetid: 6cc0dca7-1bc7-4229-9f3b-74d600776210

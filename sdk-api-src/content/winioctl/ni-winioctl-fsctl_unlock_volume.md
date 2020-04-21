@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_UNLOCK_VOLUME
 title: FSCTL_UNLOCK_VOLUME
-description: Unlocks a volume.
+description: Unlocks a volume.helpviewer_keywords: ["FSCTL_UNLOCK_VOLUME","FSCTL_UNLOCK_VOLUME control","FSCTL_UNLOCK_VOLUME control code [Files]","_win32_fsctl_unlock_volume","base.fsctl_unlock_volume","fs.fsctl_unlock_volume","winioctl/FSCTL_UNLOCK_VOLUME"]
 old-location: fs\fsctl_unlock_volume.htm
 tech.root: FileIO
 ms.assetid: 84ca7f8d-6a0a-43d6-9970-9c01099eaad4

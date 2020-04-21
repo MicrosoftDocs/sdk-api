@@ -1,7 +1,7 @@
 ---
 UID: NS:minwinbase._UNLOAD_DLL_DEBUG_INFO
 title: UNLOAD_DLL_DEBUG_INFO (minwinbase.h)
-description: Contains information about a dynamic-link library (DLL) that has just been unloaded.
+description: Contains information about a dynamic-link library (DLL) that has just been unloaded.helpviewer_keywords: ["*LPUNLOAD_DLL_DEBUG_INFO","LPUNLOAD_DLL_DEBUG_INFO","LPUNLOAD_DLL_DEBUG_INFO structure pointer","UNLOAD_DLL_DEBUG_INFO","UNLOAD_DLL_DEBUG_INFO structure","_UNLOAD_DLL_DEBUG_INFO","_win32_unload_dll_debug_info_str","base.unload_dll_debug_info_str","minwinbase/LPUNLOAD_DLL_DEBUG_INFO","minwinbase/UNLOAD_DLL_DEBUG_INFO"]
 old-location: base\unload_dll_debug_info_str.htm
 tech.root: Debug
 ms.assetid: a4ece775-a49e-406b-8eae-264f978eb597

@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.ICDecompressGetFormatSize
 title: ICDecompressGetFormatSize macro (vfw.h)
-description: The ICDecompressGetFormatSize macro requests the size of the output format of the decompressed data from a video decompression driver. You can use this macro or explicitly call the ICM_DECOMPRESS_GET_FORMAT message.
+description: The ICDecompressGetFormatSize macro requests the size of the output format of the decompressed data from a video decompression driver. You can use this macro or explicitly call the ICM_DECOMPRESS_GET_FORMAT message.helpviewer_keywords: ["ICDecompressGetFormatSize","ICDecompressGetFormatSize macro [Windows Multimedia]","_win32_ICDecompressGetFormatSize","multimedia.icdecompressgetformatsize","vfw/ICDecompressGetFormatSize"]
 old-location: multimedia\icdecompressgetformatsize.htm
 tech.root: Multimedia
 ms.assetid: 249a9d02-a51e-46f2-aea4-71460392705f

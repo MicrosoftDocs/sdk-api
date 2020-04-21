@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.GetKeepTogether
 title: ITextPara::GetKeepTogether (tom.h)
-description: Determines whether page breaks are allowed within paragraphs.
+description: Determines whether page breaks are allowed within paragraphs.helpviewer_keywords: ["GetKeepTogether","GetKeepTogether method [Windows Controls]","GetKeepTogether method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetKeepTogether method","ITextPara.GetKeepTogether","ITextPara::GetKeepTogether","_win32_ITextPara_GetKeepTogether","_win32_ITextPara_GetKeepTogether_cpp","controls.ITextPara_GetKeepTogether","controls._win32_ITextPara_GetKeepTogether","tom/ITextPara::GetKeepTogether","tomFalse","tomTrue","tomUndefined"]
 old-location: controls\ITextPara_GetKeepTogether.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeeptogether.htm

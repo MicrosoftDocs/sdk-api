@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngFntCacheAlloc
 title: EngFntCacheAlloc function (winddi.h)
-description: The EngFntCacheAlloc function allocates storage for a font that is to be stored in cached memory.
+description: The EngFntCacheAlloc function allocates storage for a font that is to be stored in cached memory.helpviewer_keywords: ["EngFntCacheAlloc","EngFntCacheAlloc function [Display Devices]","display.engfntcachealloc","gdifncs_c2f9bace-a686-42e3-b72c-bd6d109786a6.xml","winddi/EngFntCacheAlloc"]
 old-location: display\engfntcachealloc.htm
 tech.root: display
 ms.assetid: fd0765e0-decd-46fb-872e-4c750713abe6

@@ -1,7 +1,7 @@
 ---
 UID: NS:rectypes.tagLINE_SEGMENT
 title: LINE_SEGMENT (rectypes.h)
-description: Describes the start and end points of a line recognition segment, such as the baseline or midline.
+description: Describes the start and end points of a line recognition segment, such as the baseline or midline.helpviewer_keywords: ["LINE_SEGMENT","LINE_SEGMENT structure [Tablet PC]","e9d4079d-28d2-4975-a33f-1f4ec5175c36","rectypes/LINE_SEGMENT","tablet.line_segment"]
 old-location: tablet\line_segment.htm
 tech.root: tablet
 ms.assetid: e9d4079d-28d2-4975-a33f-1f4ec5175c36

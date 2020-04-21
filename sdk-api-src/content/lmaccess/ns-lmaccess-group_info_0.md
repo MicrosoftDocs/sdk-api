@@ -1,7 +1,7 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_0
 title: GROUP_INFO_0 (lmaccess.h)
-description: The GROUP_INFO_0 structure contains the name of a global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
+description: The GROUP_INFO_0 structure contains the name of a global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.helpviewer_keywords: ["*LPGROUP_INFO_0","*PGROUP_INFO_0","GROUP_INFO_0","GROUP_INFO_0 structure [Network Management]","LPGROUP_INFO_0","LPGROUP_INFO_0 structure pointer [Network Management]","PGROUP_INFO_0","PGROUP_INFO_0 structure pointer [Network Management]","_win32_group_info_0_str","lmaccess/GROUP_INFO_0","lmaccess/LPGROUP_INFO_0","lmaccess/PGROUP_INFO_0","netmgmt.group_info_0_str"]
 old-location: netmgmt\group_info_0_str.htm
 tech.root: NetMgmt
 ms.assetid: 019796d1-b987-45d2-90df-1d3b484217a9

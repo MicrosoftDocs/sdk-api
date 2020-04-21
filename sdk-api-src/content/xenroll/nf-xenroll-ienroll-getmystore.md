@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.getMyStore
 title: IEnroll::getMyStore (xenroll.h)
-description: The getMyStore method is not implemented.
+description: The getMyStore method is not implemented.helpviewer_keywords: ["IEnroll interface [Security]","getMyStore method","IEnroll.getMyStore","IEnroll2 interface [Security]","getMyStore method","IEnroll2::getMyStore","IEnroll::getMyStore","getMyStore","getMyStore method [Security]","getMyStore method [Security]","IEnroll interface","getMyStore method [Security]","IEnroll2 interface","security.ienroll4_getmystore","xenroll/IEnroll2::getMyStore","xenroll/IEnroll::getMyStore"]
 old-location: security\ienroll4_getmystore.htm
 tech.root: SecCrypto
 ms.assetid: 79e464d2-73f5-4cb2-b3f3-be7d0b1414b4

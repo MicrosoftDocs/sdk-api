@@ -1,7 +1,7 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0024
 title: XPS_COLOR (xpsobjectmodel.h)
-description: The contents of the XPS_COLOR structure when the colorType is XPS_COLOR_TYPE_CONTEXT.
+description: The contents of the XPS_COLOR structure when the colorType is XPS_COLOR_TYPE_CONTEXT.helpviewer_keywords: ["XPS_COLOR","XPS_COLOR structure [XPS Documents and Packaging]","XPS_COLOR_TYPE_CONTEXT","XPS_COLOR_TYPE_CONTEXT structure [XPS Documents and Packaging]","xps.xps_color_type_context","xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT"]
 old-location: xps\xps_color_type_context.htm
 tech.root: printdocs
 ms.assetid: 76dcabb0-2407-4877-9f52-100883746695

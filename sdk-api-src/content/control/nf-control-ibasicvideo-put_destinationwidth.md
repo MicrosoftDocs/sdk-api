@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IBasicVideo.put_DestinationWidth
 title: IBasicVideo::put_DestinationWidth (control.h)
-description: The put_DestinationWidth method sets the width of the destination rectangle.
+description: The put_DestinationWidth method sets the width of the destination rectangle.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","put_DestinationWidth method","IBasicVideo.put_DestinationWidth","IBasicVideo::put_DestinationWidth","IBasicVideoput_DestinationWidth","control/IBasicVideo::put_DestinationWidth","dshow.ibasicvideo_put_destinationwidth","put_DestinationWidth","put_DestinationWidth method [DirectShow]","put_DestinationWidth method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_put_destinationwidth.htm
 tech.root: DirectShow
 ms.assetid: 4ae22194-19ca-4a20-9b4f-d9f39e346606

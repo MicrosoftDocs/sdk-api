@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMWriterFileSink
 title: IWMWriterFileSink (wmsdkidl.h)
-description: The IWMWriterFileSink interface is used to open a file to which the writer can write data. The file sink object exposes this interface. To create the file sink object, call the WMCreateWriterFileSink function.
+description: The IWMWriterFileSink interface is used to open a file to which the writer can write data. The file sink object exposes this interface. To create the file sink object, call the WMCreateWriterFileSink function.helpviewer_keywords: ["IWMWriterFileSink","IWMWriterFileSink interface [windows Media Format]","IWMWriterFileSink interface [windows Media Format]","described","IWMWriterFileSinkInterface","wmformat.iwmwriterfilesink","wmsdkidl/IWMWriterFileSink"]
 old-location: wmformat\iwmwriterfilesink.htm
 tech.root: wmformat
 ms.assetid: af47b130-353e-411d-8432-09ecd20a70d2

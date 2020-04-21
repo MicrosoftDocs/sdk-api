@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespaceScheduledCast.StartTransmission
 title: IWdsTransportNamespaceScheduledCast::StartTransmission (wdstptmgmt.h)
-description: Starts a transmission on a namespace.
+description: Starts a transmission on a namespace.helpviewer_keywords: ["IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services]","StartTransmission method","IWdsTransportNamespaceScheduledCast.StartTransmission","IWdsTransportNamespaceScheduledCast::StartTransmission","StartTransmission","StartTransmission method [Windows Deployment Services]","StartTransmission method [Windows Deployment Services]","IWdsTransportNamespaceScheduledCast interface","wds.iwdstransportnamespacescheduledcast_starttransmission","wdstptmgmt/IWdsTransportNamespaceScheduledCast::StartTransmission"]
 old-location: wds\iwdstransportnamespacescheduledcast_starttransmission.htm
 tech.root: wds
 ms.assetid: 408ba96e-1a88-4a53-9cbe-8f2763542659

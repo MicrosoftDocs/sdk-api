@@ -1,7 +1,7 @@
 ---
 UID: NF:evcoll.EcOpenSubscription
 title: EcOpenSubscription function (evcoll.h)
-description: Opens an existing subscription or creates a new subscription.
+description: Opens an existing subscription or creates a new subscription.helpviewer_keywords: ["EcOpenSubscription","EcOpenSubscription function","evcoll/EcOpenSubscription","wec.ecopensubscription","wes.ecopensubscription"]
 old-location: wec\ecopensubscription.htm
 tech.root: WEC
 ms.assetid: 3b4ef765-b557-4142-ba7d-e2556bd067ec

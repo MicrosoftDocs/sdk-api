@@ -1,7 +1,7 @@
 ---
 UID: NF:swdevice.SwMemFree
 title: SwMemFree function (swdevice.h)
-description: Frees memory that other Software Device API functions allocated.
+description: Frees memory that other Software Device API functions allocated.helpviewer_keywords: ["SwMemFree","SwMemFree function","swdevice.swmemfree","swdevice/SwMemFree"]
 old-location: swdevice\swmemfree.htm
 tech.root: swdevice
 ms.assetid: DBA39124-D93A-4865-B4CB-B2FA66FBD417
@@ -62,15 +62,6 @@ Frees memory that other Software Device API functions allocated.
 ### -param pMem [in]
 
 A pointer to the block of memory to free.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -see-also

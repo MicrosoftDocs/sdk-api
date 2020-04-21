@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIPerfCounterLogger.LogValue
 title: IRDPSRAPIPerfCounterLogger::LogValue (rdpencomapi.h)
-description: Logs a value.
+description: Logs a value.helpviewer_keywords: ["IRDPSRAPIPerfCounterLogger interface [RDP]","LogValue method","IRDPSRAPIPerfCounterLogger.LogValue","IRDPSRAPIPerfCounterLogger::LogValue","LogValue","LogValue method [RDP]","LogValue method [RDP]","IRDPSRAPIPerfCounterLogger interface","rdp.irdpsrapiperfcounterlogger_logvalue","rdpencomapi/IRDPSRAPIPerfCounterLogger::LogValue"]
 old-location: rdp\irdpsrapiperfcounterlogger_logvalue.htm
 tech.root: rdp
 ms.assetid: B6EF608E-5AA9-4AB7-920D-F6E567E1258C

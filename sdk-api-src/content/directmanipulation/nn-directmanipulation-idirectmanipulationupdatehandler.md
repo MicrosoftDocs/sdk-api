@@ -1,7 +1,7 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationUpdateHandler
 title: IDirectManipulationUpdateHandler (directmanipulation.h)
-description: Defines methods for handling manipulation update events.
+description: Defines methods for handling manipulation update events.helpviewer_keywords: ["IDirectManipulationUpdateHandler","IDirectManipulationUpdateHandler interface [Direct Manipulation]","IDirectManipulationUpdateHandler interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationupdatehandler","directmanipulation/IDirectManipulationUpdateHandler"]
 old-location: directmanipulation\idirectmanipulationupdatehandler.htm
 tech.root: directmanipulation
 ms.assetid: a963abb5-63b8-44d1-910c-ea795398d3de

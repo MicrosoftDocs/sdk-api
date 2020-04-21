@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoFreeUnusedLibraries
 title: CoFreeUnusedLibraries function (combaseapi.h)
-description: Unloads any DLLs that are no longer in use, probably because the DLL no longer has any instantiated COM objects outstanding.
+description: Unloads any DLLs that are no longer in use, probably because the DLL no longer has any instantiated COM objects outstanding.helpviewer_keywords: ["CoFreeUnusedLibraries","CoFreeUnusedLibraries function [COM]","_com_CoFreeUnusedLibraries","com.cofreeunusedlibraries","combaseapi/CoFreeUnusedLibraries"]
 old-location: com\cofreeunusedlibraries.htm
 tech.root: com
 ms.assetid: 188e9a3b-39cc-454e-af65-4ac797e275d4
@@ -60,15 +60,6 @@ Unloads any DLLs that are no longer in use, probably because the DLL no longer h
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This function does not return a value.
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriterCallback2
 title: IMFSinkWriterCallback2 (mfreadwrite.h)
-description: Extends the IMFSinkWriterCallback interface.
+description: Extends the IMFSinkWriterCallback interface.helpviewer_keywords: ["IMFSinkWriterCallback2","IMFSinkWriterCallback2 interface [Media Foundation]","IMFSinkWriterCallback2 interface [Media Foundation]","described","mf.imfsinkwritercallback2","mfreadwrite/IMFSinkWriterCallback2"]
 old-location: mf\imfsinkwritercallback2.htm
 tech.root: medfound
 ms.assetid: 92885A3C-137D-42DD-A65D-D2CE56A69A68

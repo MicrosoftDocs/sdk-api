@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDisp.CreateStrokes
 title: IInkDisp::CreateStrokes (msinkaut.h)
-description: Creates a new InkStrokes collection from existing IInkStrokeDisp objects.
+description: Creates a new InkStrokes collection from existing IInkStrokeDisp objects.helpviewer_keywords: ["21e68151-38c9-414f-840c-c2687a05aea4","CreateStrokes","CreateStrokes method [Tablet PC]","CreateStrokes method [Tablet PC]","IInkDisp interface","IInkDisp interface [Tablet PC]","CreateStrokes method","IInkDisp.CreateStrokes","IInkDisp::CreateStrokes","msinkaut/IInkDisp::CreateStrokes","tablet.inkdisp_createstrokes"]
 old-location: tablet\inkdisp_createstrokes.htm
 tech.root: tablet
 ms.assetid: 21e68151-38c9-414f-840c-c2687a05aea4

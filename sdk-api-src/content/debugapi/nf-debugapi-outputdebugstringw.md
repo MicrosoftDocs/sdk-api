@@ -1,7 +1,7 @@
 ---
 UID: NF:debugapi.OutputDebugStringW
 title: OutputDebugStringW function (debugapi.h)
-description: Sends a string to the debugger for display.
+description: Sends a string to the debugger for display.helpviewer_keywords: ["OutputDebugString","OutputDebugString function","OutputDebugStringA","OutputDebugStringW","_win32_outputdebugstring","base.outputdebugstring","debugapi/OutputDebugString","debugapi/OutputDebugStringA","debugapi/OutputDebugStringW"]
 old-location: base\outputdebugstring.htm
 tech.root: Debug
 ms.assetid: ca23d9a9-65b7-4a36-bd09-857a6997f482
@@ -69,15 +69,6 @@ Sends a string to the debugger for display.
 ### -param lpOutputString [in, optional]
 
 The null-terminated string to be displayed.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

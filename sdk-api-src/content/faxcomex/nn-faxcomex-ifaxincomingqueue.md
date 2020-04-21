@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxIncomingQueue
 title: IFaxIncomingQueue (faxcomex.h)
-description: The IFaxIncomingQueue interface is used by a fax client application to manage the inbound fax jobs (FaxIncomingJobs object) in the job queue. The object also includes a method to block inbound faxes from the fax job queue.
+description: The IFaxIncomingQueue interface is used by a fax client application to manage the inbound fax jobs (FaxIncomingJobs object) in the job queue. The object also includes a method to block inbound faxes from the fax job queue.helpviewer_keywords: ["IFaxIncomingQueue","IFaxIncomingQueue interface [Fax Service]","IFaxIncomingQueue interface [Fax Service]","described","_mfax_faxincomingqueue_cpp","fax._mfax_faxincomingqueue_cpp","faxcomex/IFaxIncomingQueue"]
 old-location: fax\_mfax_faxincomingqueue_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4x7p_cpp.htm

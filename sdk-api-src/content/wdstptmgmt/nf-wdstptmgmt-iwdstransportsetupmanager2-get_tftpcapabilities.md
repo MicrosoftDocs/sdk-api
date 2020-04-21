@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager2.get_TftpCapabilities
 title: IWdsTransportSetupManager2::get_TftpCapabilities (wdstptmgmt.h)
-description: Receives a mask of WDSTRANSPORT_TFTP_CAPABILITY values that indicates which WDS TFTP features are supported by the WDS TFTP server.
+description: Receives a mask of WDSTRANSPORT_TFTP_CAPABILITY values that indicates which WDS TFTP features are supported by the WDS TFTP server.helpviewer_keywords: ["IWdsTransportSetupManager2 interface [Windows Deployment Services]","TftpCapabilities property","IWdsTransportSetupManager2.TftpCapabilities","IWdsTransportSetupManager2.get_TftpCapabilities","IWdsTransportSetupManager2::TftpCapabilities","IWdsTransportSetupManager2::get_TftpCapabilities","TftpCapabilities property [Windows Deployment Services]","TftpCapabilities property [Windows Deployment Services]","IWdsTransportSetupManager2 interface","get_TftpCapabilities","wds.iwdstransportsetupmanager2_tftpcapabilities","wdstptmgmt/IWdsTransportSetupManager2::TftpCapabilities","wdstptmgmt/IWdsTransportSetupManager2::get_TftpCapabilities"]
 old-location: wds\iwdstransportsetupmanager2_tftpcapabilities.htm
 tech.root: wds
 ms.assetid: 8F8655E8-4842-411B-B408-00815B2998A5

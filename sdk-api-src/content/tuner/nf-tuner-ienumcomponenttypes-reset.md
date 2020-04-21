@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IEnumComponentTypes.Reset
 title: IEnumComponentTypes::Reset (tuner.h)
-description: The Reset method moves the iterator to the beginning of the collection.
+description: The Reset method moves the iterator to the beginning of the collection.helpviewer_keywords: ["IEnumComponentTypes interface [Microsoft TV Technologies]","Reset method","IEnumComponentTypes.Reset","IEnumComponentTypes::Reset","IEnumComponentTypesReset","Reset","Reset method [Microsoft TV Technologies]","Reset method [Microsoft TV Technologies]","IEnumComponentTypes interface","mstv.ienumcomponenttypes_reset","tuner/IEnumComponentTypes::Reset"]
 old-location: mstv\ienumcomponenttypes_reset.htm
 tech.root: mstv
 ms.assetid: 7eead32c-a02c-41c1-8cfb-a52180219697

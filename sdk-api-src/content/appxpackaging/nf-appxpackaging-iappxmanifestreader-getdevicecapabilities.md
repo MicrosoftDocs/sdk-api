@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetDeviceCapabilities
 title: IAppxManifestReader::GetDeviceCapabilities (appxpackaging.h)
-description: Gets an enumerator that iterates through the device capabilities defined in the manifest.
+description: Gets an enumerator that iterates through the device capabilities defined in the manifest.helpviewer_keywords: ["GetDeviceCapabilities","GetDeviceCapabilities method [App packaging and management]","GetDeviceCapabilities method [App packaging and management]","IAppxManifestReader interface","IAppxManifestReader interface [App packaging and management]","GetDeviceCapabilities method","IAppxManifestReader.GetDeviceCapabilities","IAppxManifestReader::GetDeviceCapabilities","appxpackaging/IAppxManifestReader::GetDeviceCapabilities","appxpkg.iappxmanifestreader_getdevicecapabilities"]
 old-location: appxpkg\iappxmanifestreader_getdevicecapabilities.htm
 tech.root: appxpkg
 ms.assetid: 06257DB1-992E-4A8D-8221-76DA3DF0FA1F

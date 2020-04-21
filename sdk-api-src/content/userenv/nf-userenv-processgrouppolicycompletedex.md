@@ -1,7 +1,7 @@
 ---
 UID: NF:userenv.ProcessGroupPolicyCompletedEx
 title: ProcessGroupPolicyCompletedEx function (userenv.h)
-description: The ProcessGroupPolicyCompletedEx function notifies the system that the specified policy extension has finished applying policy. The function also reports the status of Resultant Set of Policy (RSoP) logging.
+description: The ProcessGroupPolicyCompletedEx function notifies the system that the specified policy extension has finished applying policy. The function also reports the status of Resultant Set of Policy (RSoP) logging.helpviewer_keywords: ["ProcessGroupPolicyCompletedEx","ProcessGroupPolicyCompletedEx function [Group Policy]","_win32_processgrouppolicycompletedex","policy.processgrouppolicycompletedex","userenv/ProcessGroupPolicyCompletedEx"]
 old-location: policy\processgrouppolicycompletedex.htm
 tech.root: Policy
 ms.assetid: 0d899190-7345-4762-ab59-b89e2e87d10f

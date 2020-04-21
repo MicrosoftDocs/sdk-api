@@ -1,7 +1,7 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_SIGNAL
 title: WSMAN_PLUGIN_SIGNAL (wsman.h)
-description: Defines the signal callback for a plug-in.
+description: Defines the signal callback for a plug-in.helpviewer_keywords: ["WSMAN_PLUGIN_SIGNAL","WSMAN_PLUGIN_SIGNAL callback","WSMAN_PLUGIN_SIGNAL callback function [Windows Remote Management]","WSMAN_SIGNAL_SHELL_CODE_CTRL_BREAK","WSMAN_SIGNAL_SHELL_CODE_CTRL_C","WSMAN_SIGNAL_SHELL_CODE_TERMINATE","WSManPluginSignal","winrm.wsman_plugin_signal","wsman/WSMAN_PLUGIN_SIGNAL"]
 old-location: winrm\wsman_plugin_signal.htm
 tech.root: winrm
 ms.assetid: 380f9d24-d315-4289-add9-ebc2a6b8ca32
@@ -110,15 +110,6 @@ The signal for CTRL+C was received, and the process was halted. The plug-in shou
 The signal for CTRL+BREAK was received, and the process was halted. The plug-in should call the 
         <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> 
         function.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

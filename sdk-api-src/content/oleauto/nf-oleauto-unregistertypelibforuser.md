@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.UnRegisterTypeLibForUser
 title: UnRegisterTypeLibForUser function (oleauto.h)
-description: Removes type library information that was registered by using RegisterTypeLibForUser.
+description: Removes type library information that was registered by using RegisterTypeLibForUser.helpviewer_keywords: ["UnRegisterTypeLibForUser","UnRegisterTypeLibForUser function [Automation]","_oa96_UnRegisterTypeLibForUser","automat.unregistertypelibforuser","oleauto/UnRegisterTypeLibForUser"]
 old-location: automat\unregistertypelibforuser.htm
 tech.root: automat
 ms.assetid: 2d88f97b-b1f6-4682-abf5-304ee752e2ae

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetScaleX(float)
 title: IDCompositionScaleTransform::SetScaleX(float) (dcomp.h)
-description: Changes the value of the ScaleX property of a 2D scale transform.
+description: Changes the value of the ScaleX property of a 2D scale transform.helpviewer_keywords: ["IDCompositionScaleTransform interface [DirectComposition]","SetScaleX method","IDCompositionScaleTransform.SetScaleX","IDCompositionScaleTransform.SetScaleX(float)","IDCompositionScaleTransform::SetScaleX","IDCompositionScaleTransform::SetScaleX(float)","SetScaleX","SetScaleX method [DirectComposition]","SetScaleX method [DirectComposition]","IDCompositionScaleTransform interface","dcomp/IDCompositionScaleTransform::SetScaleX","directcomp.idcompositionscaletransform_setscalex_float"]
 old-location: directcomp\idcompositionscaletransform_setscalex_float.htm
 tech.root: directcomp
 ms.assetid: 4976851C-E711-4A31-8243-6CC10DF16717

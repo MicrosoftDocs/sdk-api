@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.ResolveQueryData
 title: ID3D12VideoProcessCommandList::ResolveQueryData
-description: Extracts data from a query.
+description: Extracts data from a query.helpviewer_keywords: ["ID3D12VideoProcessCommandList::ResolveQueryData","ResolveQueryData","ID3D12VideoProcessCommandList.ResolveQueryData","ID3D12VideoProcessCommandList::ResolveQueryData","ID3D12VideoProcessCommandList.ResolveQueryData"]
 tech.root: mf
 ms.assetid: a30beb4e-98e3-4644-843d-c206eb4ef138
 ms.date: 05/28/2019
@@ -71,10 +71,6 @@ A pointer to an [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/
 ### -param AlignedDestinationBufferOffset
 
 The alignment offset into the destination buffer. This must be a multiple of 8 bytes.
-
-## -returns
-
-This method returns void.
 
 ## -remarks
 

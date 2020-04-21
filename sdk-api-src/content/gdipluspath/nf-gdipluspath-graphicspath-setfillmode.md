@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.SetFillMode
 title: GraphicsPath::SetFillMode (gdipluspath.h)
-description: The GraphicsPath::SetFillMode method sets the fill mode of this path.
+description: The GraphicsPath::SetFillMode method sets the fill mode of this path.helpviewer_keywords: ["GraphicsPath class [GDI+]","SetFillMode method","GraphicsPath.SetFillMode","GraphicsPath::SetFillMode","SetFillMode","SetFillMode method [GDI+]","SetFillMode method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_SetFillMode_fillmode_","gdiplus._gdiplus_CLASS_GraphicsPath_SetFillMode_fillmode_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_SetFillMode_fillmode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\setfillmode.htm

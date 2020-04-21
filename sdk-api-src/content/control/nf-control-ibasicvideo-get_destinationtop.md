@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IBasicVideo.get_DestinationTop
 title: IBasicVideo::get_DestinationTop (control.h)
-description: The get_DestinationTop method retrieves the y-coordinate of the destination rectangle.
+description: The get_DestinationTop method retrieves the y-coordinate of the destination rectangle.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_DestinationTop method","IBasicVideo.get_DestinationTop","IBasicVideo::get_DestinationTop","IBasicVideoget_DestinationTop","control/IBasicVideo::get_DestinationTop","dshow.ibasicvideo_get_destinationtop","get_DestinationTop","get_DestinationTop method [DirectShow]","get_DestinationTop method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_get_destinationtop.htm
 tech.root: DirectShow
 ms.assetid: 79690655-ac84-4119-9d87-799990424f00

@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1SimplifiedGeometrySink
 title: ID2D1SimplifiedGeometrySink (d2d1.h)
-description: Describes a geometric path that does not contain quadratic bezier curves or arcs.
+description: Describes a geometric path that does not contain quadratic bezier curves or arcs.helpviewer_keywords: ["ID2D1SimplifiedGeometrySink","ID2D1SimplifiedGeometrySink interface [Direct2D]","ID2D1SimplifiedGeometrySink interface [Direct2D]","described","d2d1/ID2D1SimplifiedGeometrySink","direct2d.ID2D1SimplifiedGeometrySink"]
 old-location: direct2d\ID2D1SimplifiedGeometrySink.htm
 tech.root: Direct2D
 ms.assetid: cf877a25-7b9f-4db0-ac53-b4a350795a86

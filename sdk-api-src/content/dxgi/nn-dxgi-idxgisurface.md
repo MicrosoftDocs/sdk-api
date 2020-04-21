@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi.IDXGISurface
 title: IDXGISurface (dxgi.h)
-description: The IDXGISurface interface implements methods for image-data objects.
+description: The IDXGISurface interface implements methods for image-data objects.helpviewer_keywords: ["IDXGISurface","IDXGISurface interface [DXGI]","IDXGISurface interface [DXGI]","described","acd37adc-fb69-8924-76b4-598005b98bc9","direct3ddxgi.idxgisurface","dxgi/IDXGISurface"]
 old-location: direct3ddxgi\idxgisurface.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface.htm

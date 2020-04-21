@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetFinalIntegerVectorValue
 title: IUIAnimationVariable2::GetFinalIntegerVectorValue (uianimation.h)
-description: Gets the final integer value of the animation variable for the specified dimension. This is the value after all currently scheduled animations have completed.
+description: Gets the final integer value of the animation variable for the specified dimension. This is the value after all currently scheduled animations have completed.helpviewer_keywords: ["GetFinalIntegerVectorValue","GetFinalIntegerVectorValue method [Windows Animation]","GetFinalIntegerVectorValue method [Windows Animation]","IUIAnimationVariable2 interface","IUIAnimationVariable2 interface [Windows Animation]","GetFinalIntegerVectorValue method","IUIAnimationVariable2.GetFinalIntegerVectorValue","IUIAnimationVariable2::GetFinalIntegerVectorValue","uianimation.iuianimationvariable2_getfinalintegervectorvalue","uianimation/IUIAnimationVariable2::GetFinalIntegerVectorValue"]
 old-location: uianimation\iuianimationvariable2_getfinalintegervectorvalue.htm
 tech.root: UIAnimation
 ms.assetid: 191DA982-E3F1-4E37-A4D8-7813201E6B6B

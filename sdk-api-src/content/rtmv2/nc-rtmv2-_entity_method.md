@@ -1,7 +1,7 @@
 ---
 UID: NC:rtmv2._ENTITY_METHOD
 title: _ENTITY_METHOD (rtmv2.h)
-description: The RTM_ENTITY_EXPORT_METHOD callback is the prototype for any method exported by a client.
+description: The RTM_ENTITY_EXPORT_METHOD callback is the prototype for any method exported by a client.helpviewer_keywords: ["RTM_ENTITY_EXPORT_METHOD","RTM_ENTITY_EXPORT_METHOD callback function [RAS]","RTM_ENTITY_EXPORT_METHOD callback function pointer [RAS]","_ENTITY_METHOD","_ENTITY_METHOD callback","_rtmv2ref_rtm_entity_export_method","rras.rtm_entity_export_method","rtmv2/RTM_ENTITY_EXPORT_METHOD"]
 old-location: rras\rtm_entity_export_method.htm
 tech.root: RRAS
 ms.assetid: bf564898-e540-458b-861c-0f57082d40a1
@@ -77,15 +77,6 @@ Handle to the method to be invoked. Contains an input buffer.
 
 An array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_output">RTM_ENTITY_METHOD_OUTPUT</a> structures. Each structure consists of a (method identifier, correct output) tuple.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

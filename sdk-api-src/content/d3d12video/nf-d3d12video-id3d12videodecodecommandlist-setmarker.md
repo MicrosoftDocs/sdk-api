@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.SetMarker
 title: ID3D12VideoDecodeCommandList::SetMarker
-description: For internal use only. Not intended to be called directly.
+description: For internal use only. Not intended to be called directly.helpviewer_keywords: ["ID3D12VideoDecodeCommandList::SetMarker","SetMarker","ID3D12VideoDecodeCommandList.SetMarker","ID3D12VideoDecodeCommandList::SetMarker","ID3D12VideoDecodeCommandList.SetMarker"]
 tech.root: mf
 ms.assetid: e44da7c0-192f-42e2-8130-9fbe06fe4e4a
 ms.date: 05/28/2019
@@ -59,10 +59,6 @@ Internal.
 ### -param Size
 
 Internal. 
-
-## -returns
-
-This method returns void.
 
 ## -remarks
 

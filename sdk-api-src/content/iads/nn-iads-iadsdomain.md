@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsDomain
 title: IADsDomain (iads.h)
-description: The IADsDomain interface is a dual interface that inherits from IADs.
+description: The IADsDomain interface is a dual interface that inherits from IADs.helpviewer_keywords: ["IADsDomain","IADsDomain interface [ADSI]","IADsDomain interface [ADSI]","described","_ds_iadsdomain","adsi.iadsdomain","iads/IADsDomain"]
 old-location: adsi\iadsdomain.htm
 tech.root: adsi
 ms.assetid: 9d4b1e9c-93b1-4aee-b20d-a7693fd0a61b

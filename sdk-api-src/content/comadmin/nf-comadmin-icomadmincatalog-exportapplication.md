@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ExportApplication
 title: ICOMAdminCatalog::ExportApplication (comadmin.h)
-description: Exports a COM+ application or application proxy to a file, ready for installation on different computers.
+description: Exports a COM+ application or application proxy to a file, ready for installation on different computers.helpviewer_keywords: ["COMAdminExportApplicationProxy","COMAdminExportForceOverwriteOfFile","COMAdminExportIn10Format","COMAdminExportNoUsers","COMAdminExportUsers","ExportApplication","ExportApplication method [COM+]","ExportApplication method [COM+]","ICOMAdminCatalog interface","ICOMAdminCatalog interface [COM+]","ExportApplication method","ICOMAdminCatalog.ExportApplication","ICOMAdminCatalog::ExportApplication","_cos_ICOMAdminCatalog_ExportApplication","comadmin/ICOMAdminCatalog::ExportApplication","cos.icomadmincatalog_exportapplication"]
 old-location: cos\icomadmincatalog_exportapplication.htm
 tech.root: cossdk
 ms.assetid: 431c0299-56c2-4ec3-8ecc-ee1cbec3eff6

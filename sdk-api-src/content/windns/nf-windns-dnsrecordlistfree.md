@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsRecordListFree
 title: DnsRecordListFree macro (windns.h)
-description: Frees memory allocated for DNS records obtained using the DnsQuery function.
+description: Frees memory allocated for DNS records obtained using the DnsQuery function.helpviewer_keywords: ["DnsRecordListFree","DnsRecordListFree function [DNS]","_dns_dnsrecordlistfree","dns.dnsrecordlistfree","windns/DnsRecordListFree"]
 old-location: dns\dnsrecordlistfree.htm
 tech.root: DNS
 ms.assetid: fc4c0cb4-646f-4946-8f07-b5a858f7064a

@@ -1,7 +1,7 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.get_pluginVersion
 title: ItsPubPlugin::get_pluginVersion (tspubplugincom.h)
-description: Retrieves the version of the plug-in.
+description: Retrieves the version of the plug-in.helpviewer_keywords: ["ItsPubPlugin interface [Remote Desktop Services]","pluginVersion property","ItsPubPlugin.get_pluginVersion","ItsPubPlugin.pluginVersion","ItsPubPlugin::get_pluginVersion","ItsPubPlugin::pluginVersion","get_pluginVersion","pluginVersion property [Remote Desktop Services]","pluginVersion property [Remote Desktop Services]","ItsPubPlugin interface","termserv.itspubplugin_pluginversion","tspubplugincom/ItsPubPlugin::get_pluginVersion","tspubplugincom/ItsPubPlugin::pluginVersion"]
 old-location: termserv\itspubplugin_pluginversion.htm
 tech.root: TermServ
 ms.assetid: 39e5cc01-3945-4e78-bbce-bff5d5a5f22d

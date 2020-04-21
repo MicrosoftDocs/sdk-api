@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_ARRAY
 title: DHCP_CLIENT_INFO_ARRAY (dhcpsapi.h)
-description: The DHCP_CLIENT_INFO_ARRAY structure defines an array of DHCP_CLIENT_INFO structures for use with enumeration functions.
+description: The DHCP_CLIENT_INFO_ARRAY structure defines an array of DHCP_CLIENT_INFO structures for use with enumeration functions.helpviewer_keywords: ["*LPDHCP_CLIENT_INFO_ARRAY","DHCP_CLIENT_INFO_ARRAY","DHCP_CLIENT_INFO_ARRAY structure [DHCP]","LPDHCP_CLIENT_INFO_ARRAY","LPDHCP_CLIENT_INFO_ARRAY structure pointer [DHCP]","dhcp.dhcp_client_info_array","dhcpsapi/LPDHCP_CLIENT_INFO_ARRAY","dhcpsapi/_DHCP_CLIENT_INFO_ARRAY"]
 old-location: dhcp\dhcp_client_info_array.htm
 tech.root: DHCP
 ms.assetid: 32bb0664-5227-4c84-a2d8-c3b348ae451c

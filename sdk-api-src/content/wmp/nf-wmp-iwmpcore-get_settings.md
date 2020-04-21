@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPCore.get_settings
 title: IWMPCore::get_settings (wmp.h)
-description: The get_settings method retrieves a pointer to an IWMPSettings interface.
+description: The get_settings method retrieves a pointer to an IWMPSettings interface.helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_settings method","IWMPCore.get_settings","IWMPCore::get_settings","IWMPCoreget_settings","get_settings","get_settings method [Windows Media Player]","get_settings method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_get_settings","wmp/IWMPCore::get_settings"]
 old-location: wmp\iwmpcore_get_settings.htm
 tech.root: WMP
 ms.assetid: 4bbffaff-99e4-4aae-9b8f-cdb86648fdd9

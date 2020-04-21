@@ -1,7 +1,7 @@
 ---
 UID: NS:mfapi._MFPinholeCameraIntrinsics
 title: MFPinholeCameraIntrinsics (mfapi.h)
-description: Contains zero or 1 pinhole camera intrinsic models that describe how to project a 3D point in physical world onto the 2D image frame of a camera.
+description: Contains zero or 1 pinhole camera intrinsic models that describe how to project a 3D point in physical world onto the 2D image frame of a camera.helpviewer_keywords: ["MFPinholeCameraIntrinsics","MFPinholeCameraIntrinsics structure [Media Foundation]","PMFPinholeCameraIntrinsics","PMFPinholeCameraIntrinsics structure pointer [Media Foundation]","mf.mfpinholecameraintrinsics","mfapi/MFPinholeCameraIntrinsics","mfapi/PMFPinholeCameraIntrinsics"]
 old-location: mf\mfpinholecameraintrinsics.htm
 tech.root: medfound
 ms.assetid: 477F4DF6-CAE5-4BCD-A7D9-B1656DEA11E6

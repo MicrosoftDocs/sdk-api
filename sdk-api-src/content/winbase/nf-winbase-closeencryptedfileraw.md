@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CloseEncryptedFileRaw
 title: CloseEncryptedFileRaw function (winbase.h)
-description: Closes an encrypted file after a backup or restore operation, and frees associated system resources.
+description: Closes an encrypted file after a backup or restore operation, and frees associated system resources.helpviewer_keywords: ["CloseEncryptedFileRaw","CloseEncryptedFileRaw function [Files]","base.closeencryptedfileraw","fs.closeencryptedfileraw","winbase/CloseEncryptedFileRaw"]
 old-location: fs\closeencryptedfileraw.htm
 tech.root: FileIO
 ms.assetid: 54bf7114-0ebb-4d9c-bc67-2ac351dbe55d
@@ -64,15 +64,6 @@ or restore operation, and frees associated system resources. This is one of a gr
 
 A pointer to a system-defined context block. The
          <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa">OpenEncryptedFileRaw</a> function returns the context block.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

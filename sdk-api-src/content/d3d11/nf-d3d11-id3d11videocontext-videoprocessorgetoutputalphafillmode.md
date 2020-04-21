@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputAlphaFillMode
 title: ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode (d3d11.h)
-description: Gets the current alpha fill mode for the video processor.
+description: Gets the current alpha fill mode for the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetOutputAlphaFillMode method","ID3D11VideoContext.VideoProcessorGetOutputAlphaFillMode","ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode","VideoProcessorGetOutputAlphaFillMode","VideoProcessorGetOutputAlphaFillMode method [Media Foundation]","VideoProcessorGetOutputAlphaFillMode method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode","mf.id3d11videocontext_videoprocessorgetoutputalphafillmode"]
 old-location: mf\id3d11videocontext_videoprocessorgetoutputalphafillmode.htm
 tech.root: medfound
 ms.assetid: 23F37D9C-3D33-4A07-AC54-5273A09BF540
@@ -70,15 +70,6 @@ Receives the alpha fill mode, as a <a href="https://docs.microsoft.com/windows/d
 ### -param pStreamIndex [out]
 
 If the alpha fill mode is <b>D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM</b>, this parameter receives the zero-based index of an input stream. The input stream provides the alpha values for the alpha fill.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

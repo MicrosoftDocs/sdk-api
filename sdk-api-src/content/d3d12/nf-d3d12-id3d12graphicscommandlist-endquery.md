@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.EndQuery
 title: ID3D12GraphicsCommandList::EndQuery (d3d12.h)
-description: Ends a running query.
+description: Ends a running query.helpviewer_keywords: ["EndQuery","EndQuery method","EndQuery method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","EndQuery method","ID3D12GraphicsCommandList.EndQuery","ID3D12GraphicsCommandList::EndQuery","d3d12/ID3D12GraphicsCommandList::EndQuery","direct3d12.id3d12graphicscommandlist_endquery"]
 old-location: direct3d12\id3d12graphicscommandlist_endquery.htm
 tech.root: direct3d12
 ms.assetid: 591B277C-44C7-4C21-86B1-239F6A71308D
@@ -80,16 +80,6 @@ Type: <b>UINT</b>
 
 Specifies the index of the query in the query heap.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

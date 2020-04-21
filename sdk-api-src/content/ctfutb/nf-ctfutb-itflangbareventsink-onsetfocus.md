@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.OnSetFocus
 title: ITfLangBarEventSink::OnSetFocus (ctfutb.h)
-description: ITfLangBarEventSink::OnSetFocus method
+description: ITfLangBarEventSink::OnSetFocus methodhelpviewer_keywords: ["ITfLangBarEventSink interface [Text Services Framework]","OnSetFocus method","ITfLangBarEventSink.OnSetFocus","ITfLangBarEventSink::OnSetFocus","OnSetFocus","OnSetFocus method [Text Services Framework]","OnSetFocus method [Text Services Framework]","ITfLangBarEventSink interface","_tsf_itflangbareventsink_onsetfocus_ref","ctfutb/ITfLangBarEventSink::OnSetFocus","tsf.itflangbareventsink_onsetfocus"]
 old-location: tsf\itflangbareventsink_onsetfocus.htm
 tech.root: TSF
 ms.assetid: 66d70ff3-dcd4-42cd-bda4-7dbdf1c99da5
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the thread the event sink was installed from receives the input focus.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:mixerocx.IMixerOCX.GetStatus
 title: IMixerOCX::GetStatus (mixerocx.h)
-description: The GetStatus method returns the current status of the Overlay Mixer. (Not implemented.).
+description: The GetStatus method returns the current status of the Overlay Mixer. (Not implemented.).helpviewer_keywords: ["GetStatus","GetStatus method [DirectShow]","GetStatus method [DirectShow]","IMixerOCX interface","IMixerOCX interface [DirectShow]","GetStatus method","IMixerOCX.GetStatus","IMixerOCX::GetStatus","IMixerOCXGetStatus","dshow.imixerocx_getstatus","mixerocx/IMixerOCX::GetStatus"]
 old-location: dshow\imixerocx_getstatus.htm
 tech.root: DirectShow
 ms.assetid: 2be28eec-99cd-4a4e-91fc-77bb51ec6fb3

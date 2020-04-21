@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizers.Item
 title: IInkRecognizers::Item (msinkaut.h)
-description: Retrieves the IInkRecognizer object at the specified index within the InkRecognizers collection.
+description: Retrieves the IInkRecognizer object at the specified index within the InkRecognizers collection.helpviewer_keywords: ["65c169f0-fe61-4609-809c-52c53cfcba7f","IInkRecognizers interface [Tablet PC]","Item method","IInkRecognizers.Item","IInkRecognizers::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkRecognizers interface","msinkaut/IInkRecognizers::Item","tablet.inkrecognizers_item"]
 old-location: tablet\inkrecognizers_item.htm
 tech.root: tablet
 ms.assetid: 65c169f0-fe61-4609-809c-52c53cfcba7f

@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidDataServices
 title: IMSVidDataServices (segment.h)
-description: The IMSVidDataServices interface represents the data services feature. The MSVidDataServices feature object exposes this interface.
+description: The IMSVidDataServices interface represents the data services feature. The MSVidDataServices feature object exposes this interface.helpviewer_keywords: ["IMSVidDataServices","IMSVidDataServices interface [Microsoft TV Technologies]","IMSVidDataServices interface [Microsoft TV Technologies]","described","IMSVidDataServicesInterface","mstv.imsviddataservices","segment/IMSVidDataServices"]
 old-location: mstv\imsviddataservices.htm
 tech.root: mstv
 ms.assetid: 6f70aa63-849c-4170-80c1-359210be4d61

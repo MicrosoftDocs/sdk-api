@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromRipMediaError
 title: IWMPEvents3::CdromRipMediaError (wmp.h)
-description: The CdromRipMediaError event occurs when an error happens while ripping an individual track from a CD.
+description: The CdromRipMediaError event occurs when an error happens while ripping an individual track from a CD.helpviewer_keywords: ["CdromRipMediaError","CdromRipMediaError method [Windows Media Player]","CdromRipMediaError method [Windows Media Player]","IWMPEvents3 interface","IWMPEvents3 interface [Windows Media Player]","CdromRipMediaError method","IWMPEvents3.CdromRipMediaError","IWMPEvents3::CdromRipMediaError","IWMPEvents3CdromRipMediaError","wmp.iwmpevents3_iwmpevents3__cdromripmediaerror","wmp/IWMPEvents3::CdromRipMediaError"]
 old-location: wmp\iwmpevents3_iwmpevents3__cdromripmediaerror.htm
 tech.root: WMP
 ms.assetid: 103f6d52-5b59-422d-918d-5004cbdfc75a
@@ -68,15 +68,6 @@ Pointer to the <b>IWMPCdromRip</b> interface that represents the ripping operati
 ### -param pMedia [in]
 
 Pointer to the <b>IDispatch</b> interface that represents the media item that raised the error. Call <b>QueryInterface</b> through this pointer to retrieve a pointer to <b>IWMPMedia</b>.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

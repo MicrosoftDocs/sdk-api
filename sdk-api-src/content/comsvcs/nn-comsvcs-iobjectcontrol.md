@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IObjectControl
 title: IObjectControl (comsvcs.h)
-description: Defines context-specific initialization and cleanup procedures for your COM+ objects, and specifies whether the objects can be recycled.
+description: Defines context-specific initialization and cleanup procedures for your COM+ objects, and specifies whether the objects can be recycled.helpviewer_keywords: ["IObjectControl","IObjectControl interface [COM+]","IObjectControl interface [COM+]","described","_cos_IObjectControl","comsvcs/IObjectControl","cos.iobjectcontrol"]
 old-location: cos\iobjectcontrol.htm
 tech.root: cossdk
 ms.assetid: cbc63f97-dfc7-4e1f-97f9-2043f8bea1d4

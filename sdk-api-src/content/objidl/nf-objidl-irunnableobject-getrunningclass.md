@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IRunnableObject.GetRunningClass
 title: IRunnableObject::GetRunningClass (objidl.h)
-description: Retrieves the CLSID of a running object.
+description: Retrieves the CLSID of a running object.helpviewer_keywords: ["GetRunningClass","GetRunningClass method [COM]","GetRunningClass method [COM]","IRunnableObject interface","IRunnableObject interface [COM]","GetRunningClass method","IRunnableObject.GetRunningClass","IRunnableObject::GetRunningClass","_com_irunnableobject_getrunningclass","com.irunnableobject_getrunningclass","objidl/IRunnableObject::GetRunningClass"]
 old-location: com\irunnableobject_getrunningclass.htm
 tech.root: com
 ms.assetid: dfe80741-ceda-44cd-8506-1807bb664ad0

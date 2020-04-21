@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetWindowDisplayAffinity
 title: GetWindowDisplayAffinity function (winuser.h)
-description: Retrieves the current display affinity setting, from any process, for a given window.
+description: Retrieves the current display affinity setting, from any process, for a given window.helpviewer_keywords: ["GetWindowDisplayAffinity","GetWindowDisplayAffinity function [Windows and Messages]","_win32_GetWindowDisplayAffinity","_win32_getwindowdisplayaffinity_cpp","winmsg.getwindowdisplayaffinity","winui._win32_getwindowdisplayaffinity","winuser/GetWindowDisplayAffinity"]
 old-location: winmsg\getwindowdisplayaffinity.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowdisplayaffinity.htm

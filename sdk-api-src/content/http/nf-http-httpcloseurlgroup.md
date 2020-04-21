@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpCloseUrlGroup
 title: HttpCloseUrlGroup function (http.h)
-description: Closes the URL Group identified by the URL Group ID.
+description: Closes the URL Group identified by the URL Group ID.helpviewer_keywords: ["HttpCloseUrlGroup","HttpCloseUrlGroup function [HTTP]","http.httpcloseurlgroup","http/HttpCloseUrlGroup"]
 old-location: http\httpcloseurlgroup.htm
 tech.root: http
 ms.assetid: 8b8e4ec9-3d85-4d64-98dc-86e5fd093e93

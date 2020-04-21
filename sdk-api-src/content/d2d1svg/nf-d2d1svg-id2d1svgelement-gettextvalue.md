@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetTextValue
 title: ID2D1SvgElement::GetTextValue (d2d1svg.h)
-description: Gets the value of a text content element.
+description: Gets the value of a text content element.helpviewer_keywords: ["GetTextValue","GetTextValue method [Direct2D]","GetTextValue method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetTextValue method","ID2D1SvgElement.GetTextValue","ID2D1SvgElement::GetTextValue","d2d1svg/ID2D1SvgElement::GetTextValue","direct2d.id2d1svgelement_gettextvalue"]
 old-location: direct2d\id2d1svgelement_gettextvalue.htm
 tech.root: Direct2D
 ms.assetid: 97B396BE-467A-4B5D-A87B-8B2B8BC6E71D

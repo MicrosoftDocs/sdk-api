@@ -1,7 +1,7 @@
 ---
 UID: NN:bits.IEnumBackgroundCopyJobs
 title: IEnumBackgroundCopyJobs (bits.h)
-description: Use the IEnumBackgroundCopyJobs interface to enumerate the list of jobs in the transfer queue. To get an IEnumBackgroundCopyJobs interface pointer, call the IBackgroundCopyManager::EnumJobs method.
+description: Use the IEnumBackgroundCopyJobs interface to enumerate the list of jobs in the transfer queue. To get an IEnumBackgroundCopyJobs interface pointer, call the IBackgroundCopyManager::EnumJobs method.helpviewer_keywords: ["IEnumBackgroundCopyJobs","IEnumBackgroundCopyJobs interface [BITS]","IEnumBackgroundCopyJobs interface [BITS]","described","_drz_ienumbackgroundcopyjobs","bits.ienumbackgroundcopyjobs","bits/IEnumBackgroundCopyJobs"]
 old-location: bits\ienumbackgroundcopyjobs.htm
 tech.root: Bits
 ms.assetid: 21ff88da-9fae-478f-bcba-488ed7a89608

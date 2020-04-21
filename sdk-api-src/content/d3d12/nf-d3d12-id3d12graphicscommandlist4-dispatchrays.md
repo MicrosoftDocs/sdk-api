@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.DispatchRays
 title: ID3D12GraphicsCommandList4::DispatchRays (d3d12.h)
-description: Launch the threads of a ray generation shader.
+description: Launch the threads of a ray generation shader.helpviewer_keywords: ["DispatchRays","DispatchRays method","DispatchRays method","ID3D12GraphicsCommandList4 interface","ID3D12GraphicsCommandList4 interface","DispatchRays method","ID3D12GraphicsCommandList4.DispatchRays","ID3D12GraphicsCommandList4::DispatchRays","d3d12/ID3D12GraphicsCommandList4::DispatchRays","direct3d12.id3d12graphicscommandlist4_dispatchrays"]
 old-location: direct3d12\id3d12graphicscommandlist4_dispatchrays.htm
 tech.root: direct3d12
 ms.assetid: 157F4609-B9AF-40EC-A2E6-33D5A897A813
@@ -60,15 +60,6 @@ Launch the threads of a ray generation shader.
 ### -param pDesc [in]
 
 A description of the ray dispatch
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

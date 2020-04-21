@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvSynchronize
 title: DrvSynchronize function (winddi.h)
-description: The DrvSynchronize function informs the driver that GDI needs to access a device-managed surface. This function allows asynchronous drawing operations performed by a device's coprocessor to be coordinated with GDI accesses.
+description: The DrvSynchronize function informs the driver that GDI needs to access a device-managed surface. This function allows asynchronous drawing operations performed by a device's coprocessor to be coordinated with GDI accesses.helpviewer_keywords: ["DrvSynchronize","DrvSynchronize function [Display Devices]","ddifncs_dadafaae-d13a-4a52-b179-a8b14a835a24.xml","display.drvsynchronize","winddi/DrvSynchronize"]
 old-location: display\drvsynchronize.htm
 tech.root: display
 ms.assetid: ed9b7db3-1409-4aa6-9ee1-9ece53e747a6
@@ -65,15 +65,6 @@ Handle to the physical device's <a href="https://docs.microsoft.com/windows-hard
 ### -param prcl
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure. This parameter should be ignored by the driver.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

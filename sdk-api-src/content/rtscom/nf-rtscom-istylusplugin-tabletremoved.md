@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IStylusPlugin.TabletRemoved
 title: IStylusPlugin::TabletRemoved (rtscom.h)
-description: Notifies an implementing plug-in when an ITablet object is removed from the system.
+description: Notifies an implementing plug-in when an ITablet object is removed from the system.helpviewer_keywords: ["IStylusPlugin interface [Tablet PC]","TabletRemoved method","IStylusPlugin.TabletRemoved","IStylusPlugin::TabletRemoved","TabletRemoved","TabletRemoved method [Tablet PC]","TabletRemoved method [Tablet PC]","IStylusPlugin interface","b953c2f8-3f49-4b7a-af4a-528c8815b066","rtscom/IStylusPlugin::TabletRemoved","tablet.istylusplugin_tabletremoved"]
 old-location: tablet\istylusplugin_tabletremoved.htm
 tech.root: tablet
 ms.assetid: b953c2f8-3f49-4b7a-af4a-528c8815b066

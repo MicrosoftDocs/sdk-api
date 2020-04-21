@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-add
 title: WBEMTimeSpan::operator-add (wbemtime.h)
-description: The WBEMTimeSpan class add operator adds one time span to another, placing the sum in a new WBEMTimeSpan object returned by the method.
+description: The WBEMTimeSpan class add operator adds one time span to another, placing the sum in a new WBEMTimeSpan object returned by the method.helpviewer_keywords: ["WBEMTimeSpan interface [Windows Management Instrumentation]","operator+ method","WBEMTimeSpan.operator+","WBEMTimeSpan.operator-add","WBEMTimeSpan::operator+","WBEMTimeSpan::operator-add","_hmm_wbemtimespan_operator_plus","operator+","operator+ method [Windows Management Instrumentation]","operator+ method [Windows Management Instrumentation]","WBEMTimeSpan interface","wbemtime/WBEMTimeSpan::operator+","wmi.wbemtimespan_operator_plus"]
 old-location: wmi\wbemtimespan_operator_plus.htm
 tech.root: WmiSdk
 ms.assetid: 48e0fcbe-a8a0-4193-b55f-ed4bb7d98614

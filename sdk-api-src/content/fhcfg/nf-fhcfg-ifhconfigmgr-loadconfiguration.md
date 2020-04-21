@@ -1,7 +1,7 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.LoadConfiguration
 title: IFhConfigMgr::LoadConfiguration (fhcfg.h)
-description: Loads the File History configuration information for the current user into an FhConfigMgr object.
+description: Loads the File History configuration information for the current user into an FhConfigMgr object.helpviewer_keywords: ["FhConfigMgr class [Windows API]","LoadConfiguration method","IFhConfigMgr interface [Windows API]","LoadConfiguration method","IFhConfigMgr.LoadConfiguration","IFhConfigMgr::LoadConfiguration","LoadConfiguration","LoadConfiguration method [Windows API]","LoadConfiguration method [Windows API]","FhConfigMgr class","LoadConfiguration method [Windows API]","IFhConfigMgr interface","fhcfg/IFhConfigMgr::LoadConfiguration","winprog.ifhconfigmgr_loadconfiguration"]
 old-location: winprog\ifhconfigmgr_loadconfiguration.htm
 tech.root: DevNotes
 ms.assetid: 9959AF70-87C2-45E0-A409-959494AF393B

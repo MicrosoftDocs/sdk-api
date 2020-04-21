@@ -1,7 +1,7 @@
 ---
 UID: NS:gdiplusinit.GdiplusStartupOutput
 title: GdiplusStartupOutput (gdiplusinit.h)
-description: The GdiplusStartup function uses the GdiplusStartupOutput structure to return (in its output parameter) a pointer to a hook function and a pointer to an unhook function.
+description: The GdiplusStartup function uses the GdiplusStartupOutput structure to return (in its output parameter) a pointer to a hook function and a pointer to an unhook function.helpviewer_keywords: ["GdiplusStartupOutput","GdiplusStartupOutput structure [GDI+]","_gdiplus_STRUC_GdiplusStartupOutput","gdiplus._gdiplus_STRUC_GdiplusStartupOutput","gdiplusinit/GdiplusStartupOutput"]
 old-location: gdiplus\_gdiplus_STRUC_GdiplusStartupOutput.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusstartupoutput.htm

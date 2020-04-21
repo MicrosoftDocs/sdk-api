@@ -1,7 +1,7 @@
 ---
 UID: NF:spellcheck.IEnumSpellingError.Next
 title: IEnumSpellingError::Next (spellcheck.h)
-description: Gets the next spelling error.
+description: Gets the next spelling error.helpviewer_keywords: ["IEnumSpellingError interface [Internationalization for Windows Applications]","Next method","IEnumSpellingError.Next","IEnumSpellingError::Next","Next","Next method [Internationalization for Windows Applications]","Next method [Internationalization for Windows Applications]","IEnumSpellingError interface","intl.ienumspellingerror_next","spellcheck/IEnumSpellingError::Next"]
 old-location: intl\ienumspellingerror_next.htm
 tech.root: Intl
 ms.assetid: c0fba585-2511-4162-8232-4e0510dc9261

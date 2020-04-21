@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.EnumContexts
 title: ITfDocumentMgr::EnumContexts (msctf.h)
-description: ITfDocumentMgr::EnumContexts method
+description: ITfDocumentMgr::EnumContexts methodhelpviewer_keywords: ["EnumContexts","EnumContexts method [Text Services Framework]","EnumContexts method [Text Services Framework]","ITfDocumentMgr interface","ITfDocumentMgr interface [Text Services Framework]","EnumContexts method","ITfDocumentMgr.EnumContexts","ITfDocumentMgr::EnumContexts","_tsf_itfdocumentmgr_enumcontexts_ref","msctf/ITfDocumentMgr::EnumContexts","tsf.itfdocumentmgr_enumcontexts"]
 old-location: tsf\itfdocumentmgr_enumcontexts.htm
 tech.root: TSF
 ms.assetid: 0656301a-9e24-4b13-bc39-7d9085c0d6f2
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a context enumerator.
 
 ## -parameters
 

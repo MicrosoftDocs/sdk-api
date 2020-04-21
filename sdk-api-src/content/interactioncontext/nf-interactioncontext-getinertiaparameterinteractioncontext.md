@@ -1,7 +1,7 @@
 ---
 UID: NF:interactioncontext.GetInertiaParameterInteractionContext
 title: GetInertiaParameterInteractionContext function (interactioncontext.h)
-description: Gets the inertia behavior of a manipulation (translation, rotation, scaling).
+description: Gets the inertia behavior of a manipulation (translation, rotation, scaling).helpviewer_keywords: ["GetInertiaParameterInteractionContext","GetInertiaParameterInteractionContext function","input_intcontext.getinertiaparameterinteractioncontext","interactioncontext.getinertiaparameterinteractioncontext","interactioncontext/GetInertiaParameterInteractionContext"]
 old-location: input_intcontext\getinertiaparameterinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: e3ae71e2-be61-49c1-82a1-2fa82fe9a7ba

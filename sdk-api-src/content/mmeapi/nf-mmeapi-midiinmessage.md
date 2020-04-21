@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.midiInMessage
 title: midiInMessage function (mmeapi.h)
-description: The midiInMessage function sends a message to the MIDI device driver.
+description: The midiInMessage function sends a message to the MIDI device driver.helpviewer_keywords: ["_win32_midiInMessage","midiInMessage","midiInMessage function [Windows Multimedia]","mmeapi/midiInMessage","multimedia.midiinmessage"]
 old-location: multimedia\midiinmessage.htm
 tech.root: Multimedia
 ms.assetid: c58a5800-df2e-43bd-9798-66d7cb9f3a19

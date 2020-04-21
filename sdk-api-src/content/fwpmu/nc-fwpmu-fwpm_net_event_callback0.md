@@ -1,7 +1,7 @@
 ---
 UID: NC:fwpmu.FWPM_NET_EVENT_CALLBACK0
 title: FWPM_NET_EVENT_CALLBACK0 (fwpmu.h)
-description: Is used to add custom behavior to the net event subscription process.
+description: Is used to add custom behavior to the net event subscription process.helpviewer_keywords: ["FWPM_NET_EVENT_CALLBACK0","FWPM_NET_EVENT_CALLBACK0 callback","FWPM_NET_EVENT_CALLBACK0 callback function [Filtering]","fwp.fwpm_net_event_callback0_func","fwpmu/FWPM_NET_EVENT_CALLBACK0"]
 old-location: fwp\fwpm_net_event_callback0_func.htm
 tech.root: fwp
 ms.assetid: 69b311c5-ac08-490b-823b-4049f7c46975
@@ -69,15 +69,6 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 Type: [FWPM_NET_EVENT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1)a>*</b>
 
 The net event information.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

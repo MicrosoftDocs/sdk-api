@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IShellIconOverlayManager.RefreshOverlayImages
 title: IShellIconOverlayManager::RefreshOverlayImages (shlobj_core.h)
-description: Refreshes the overlay cache, the image list, or both.
+description: Refreshes the overlay cache, the image list, or both.helpviewer_keywords: ["IShellIconOverlayManager interface [Windows Shell]","RefreshOverlayImages method","IShellIconOverlayManager.RefreshOverlayImages","IShellIconOverlayManager::RefreshOverlayImages","RefreshOverlayImages","RefreshOverlayImages method [Windows Shell]","RefreshOverlayImages method [Windows Shell]","IShellIconOverlayManager interface","SIOM_ICONINDEX","SIOM_OVERLAYINDEX","_win32_IShellIconOverlayManager_RefreshOverlayImages","shell.IShellIconOverlayManager_RefreshOverlayImages","shlobj_core/IShellIconOverlayManager::RefreshOverlayImages"]
 old-location: shell\IShellIconOverlayManager_RefreshOverlayImages.htm
 tech.root: shell
 ms.assetid: 79b1e1c7-a008-4f68-88a2-379715167410

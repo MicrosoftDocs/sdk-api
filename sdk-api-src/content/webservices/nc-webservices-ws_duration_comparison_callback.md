@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_DURATION_COMPARISON_CALLBACK
 title: WS_DURATION_COMPARISON_CALLBACK (webservices.h)
-description: Compares two durations.
+description: Compares two durations.helpviewer_keywords: ["WS_DURATION_COMPARISON_CALLBACK","WS_DURATION_COMPARISON_CALLBACK callback","WS_DURATION_COMPARISON_CALLBACK callback function [Web Services for Windows]","webservices/WS_DURATION_COMPARISON_CALLBACK","wsw.ws_duration_comparison_callback"]
 old-location: wsw\ws_duration_comparison_callback.htm
 tech.root: wsw
 ms.assetid: 69f5d387-15b1-41cc-a0f8-047b8f6adb93

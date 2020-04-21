@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsOpenServiceProxy
 title: WsOpenServiceProxy function (webservices.h)
-description: Opens a Service Proxy to a Service endpoint.
+description: Opens a Service Proxy to a Service endpoint.helpviewer_keywords: ["WsOpenServiceProxy","WsOpenServiceProxy function [Web Services for Windows]","webservices/WsOpenServiceProxy","wsw.wsopenserviceproxy"]
 old-location: wsw\wsopenserviceproxy.htm
 tech.root: wsw
 ms.assetid: b8a0afc7-2004-419d-8ab2-ce197c7e396d

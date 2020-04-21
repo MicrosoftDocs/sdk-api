@@ -1,7 +1,7 @@
 ---
 UID: NN:subscriptionservices.IWMPSubscriptionServiceCallback
 title: IWMPSubscriptionServiceCallback (subscriptionservices.h)
-description: Note  This section describes functionality designed for use by online stores.
+description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPSubscriptionServiceCallback","IWMPSubscriptionServiceCallback interface [Windows Media Player]","IWMPSubscriptionServiceCallback interface [Windows Media Player]","described","IWMPSubscriptionServiceCallbackInterface","subscriptionservices/IWMPSubscriptionServiceCallback","wmp.iwmpsubscriptionservicecallback"]
 old-location: wmp\iwmpsubscriptionservicecallback.htm
 tech.root: WMP
 ms.assetid: c40d492e-030a-4e67-9199-09f44f39a507

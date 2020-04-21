@@ -1,7 +1,7 @@
 ---
 UID: NF:mmiscapi.mmioSetInfo
 title: mmioSetInfo function (mmiscapi.h)
-description: The mmioSetInfo function updates the information retrieved by the mmioGetInfo function about a file opened by using the mmioOpen function. Use this function to terminate direct buffer access of a file opened for buffered I/O.
+description: The mmioSetInfo function updates the information retrieved by the mmioGetInfo function about a file opened by using the mmioOpen function. Use this function to terminate direct buffer access of a file opened for buffered I/O.helpviewer_keywords: ["_win32_mmioSetInfo","mmioSetInfo","mmioSetInfo function [Windows Multimedia]","mmsystem/mmioSetInfo","multimedia.mmiosetinfo"]
 old-location: multimedia\mmiosetinfo.htm
 tech.root: Multimedia
 ms.assetid: 3b46ebd6-15e0-4b16-b967-0271946390db

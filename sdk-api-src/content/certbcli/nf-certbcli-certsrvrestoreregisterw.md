@@ -1,7 +1,7 @@
 ---
 UID: NF:certbcli.CertSrvRestoreRegisterW
 title: CertSrvRestoreRegisterW function (certbcli.h)
-description: Registers a Certificate Services restore.
+description: Registers a Certificate Services restore.helpviewer_keywords: ["CertSrvRestoreRegister","CertSrvRestoreRegister function [Security]","CertSrvRestoreRegisterW","FNCERTSRVRESTOREREGISTERW","FNCERTSRVRESTOREREGISTERW function [Security]","_certsrv_certsrvrestoreregister","certbcli/CertSrvRestoreRegister","certbcli/CertSrvRestoreRegisterW","certbcli/FNCERTSRVRESTOREREGISTERW","security.certsrvrestoreregister"]
 old-location: security\certsrvrestoreregister.htm
 tech.root: SecCrypto
 ms.assetid: 4549ba26-d52c-4779-b27d-126cef6ef15d

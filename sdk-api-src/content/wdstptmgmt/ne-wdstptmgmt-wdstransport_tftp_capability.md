@@ -1,7 +1,7 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0012
 title: WDSTRANSPORT_TFTP_CAPABILITY (wdstptmgmt.h)
-description: Indicates which features are supported by the WDS TFTP server.
+description: Indicates which features are supported by the WDS TFTP server.helpviewer_keywords: ["*PWDSTRANSPORT_TFTP_CAPABILITY","WDSTRANSPORT_TFTP_CAPABILITY","WDSTRANSPORT_TFTP_CAPABILITY enumeration [Windows Deployment Services]","WDSTRANSPORT_TFTP_CAPABILITY","*PWDSTRANSPORT_TFTP_CAPABILITY","WDSTRANSPORT_TFTP_CAPABILITY","*PWDSTRANSPORT_TFTP_CAPABILITY enumeration [Windows Deployment Services]","WdsTptTftpCapMaximumBlockSize","WdsTptTftpCapVariableWindow","wds.wdstransport_tftp_capability","wdstptmgmt/WDSTRANSPORT_TFTP_CAPABILITY","wdstptmgmt/WdsTptTftpCapMaximumBlockSize","wdstptmgmt/WdsTptTftpCapVariableWindow"]
 old-location: wds\wdstransport_tftp_capability.htm
 tech.root: wds
 ms.assetid: 3D8F193B-6EEA-4E40-A53C-EB0768E0DE83

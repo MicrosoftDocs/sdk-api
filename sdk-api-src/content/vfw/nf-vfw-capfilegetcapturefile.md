@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.capFileGetCaptureFile
 title: capFileGetCaptureFile macro (vfw.h)
-description: The capFileGetCaptureFile macro returns the name of the current capture file. You can use this macro or explicitly call the WM_CAP_FILE_GET_CAPTURE_FILE message.
+description: The capFileGetCaptureFile macro returns the name of the current capture file. You can use this macro or explicitly call the WM_CAP_FILE_GET_CAPTURE_FILE message.helpviewer_keywords: ["_win32_capFileGetCaptureFile","capFileGetCaptureFile","capFileGetCaptureFile macro [Windows Multimedia]","multimedia.capfilegetcapturefile","vfw/capFileGetCaptureFile"]
 old-location: multimedia\capfilegetcapturefile.htm
 tech.root: Multimedia
 ms.assetid: ea18ee1e-a53e-4032-ae9a-86f61365faaf

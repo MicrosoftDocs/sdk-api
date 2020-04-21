@@ -1,7 +1,7 @@
 ---
 UID: NF:reconcil.IReconcilableObject.GetProgressFeedbackMaxEstimate
 title: IReconcilableObject::GetProgressFeedbackMaxEstimate (reconcil.h)
-description: Retrieves an estimated measurement of the amount of work required to complete a reconciliation.
+description: Retrieves an estimated measurement of the amount of work required to complete a reconciliation.helpviewer_keywords: ["GetProgressFeedbackMaxEstimate","GetProgressFeedbackMaxEstimate method [Legacy Windows Environment Features]","GetProgressFeedbackMaxEstimate method [Legacy Windows Environment Features]","IReconcilableObject interface","IReconcilableObject interface [Legacy Windows Environment Features]","GetProgressFeedbackMaxEstimate method","IReconcilableObject.GetProgressFeedbackMaxEstimate","IReconcilableObject::GetProgressFeedbackMaxEstimate","_win32_IReconcilableObject_GetProgressFeedbackMaxEstimate","lwef.ireconcilableobject_getprogressfeedbackmaxestimate","reconcil/IReconcilableObject::GetProgressFeedbackMaxEstimate","shell.ireconcilableobject_getprogressfeedbackmaxestimate"]
 old-location: lwef\ireconcilableobject_getprogressfeedbackmaxestimate.htm
 tech.root: lwef
 ms.assetid: fdaa7f59-3aba-4a9e-b394-a76029ddab13

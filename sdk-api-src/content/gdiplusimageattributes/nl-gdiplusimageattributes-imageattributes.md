@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplusimageattributes.ImageAttributes
 title: ImageAttributes (gdiplusimageattributes.h)
-description: An ImageAttributes object contains information about how bitmap and metafile colors are manipulated during rendering.
+description: An ImageAttributes object contains information about how bitmap and metafile colors are manipulated during rendering.helpviewer_keywords: ["ImageAttributes","ImageAttributes class [GDI+]","ImageAttributes class [GDI+]","described","_gdiplus_CLASS_ImageAttributes_Class","gdiplus._gdiplus_CLASS_ImageAttributes_Class","gdiplusimageattributes/ImageAttributes"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributes.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateSessions
 title: ITsSbGlobalStore::EnumerateSessions (sbtsv.h)
-description: Returns an array that contains sessions on the specified provider.
+description: Returns an array that contains sessions on the specified provider.helpviewer_keywords: ["EnumerateSessions","EnumerateSessions method [Remote Desktop Services]","EnumerateSessions method [Remote Desktop Services]","ITsSbGlobalStore interface","ITsSbGlobalStore interface [Remote Desktop Services]","EnumerateSessions method","ITsSbGlobalStore.EnumerateSessions","ITsSbGlobalStore::EnumerateSessions","sbtsv/ITsSbGlobalStore::EnumerateSessions","termserv.itssbglobalstore_enumeratesessions"]
 old-location: termserv\itssbglobalstore_enumeratesessions.htm
 tech.root: TermServ
 ms.assetid: 16fe9154-913a-4b7f-8ab5-ea8654b7cc98

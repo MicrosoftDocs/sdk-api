@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetFileSecurityA
 title: SetFileSecurityA function (winbase.h)
-description: Sets the security of a file or directory object.
+description: Sets the security of a file or directory object.helpviewer_keywords: ["SetFileSecurity","SetFileSecurity function [Security]","SetFileSecurityA","SetFileSecurityW","_win32_setfilesecurity","security.setfilesecurity","winbase/SetFileSecurity","winbase/SetFileSecurityA","winbase/SetFileSecurityW"]
 old-location: security\setfilesecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 27766c97-7ac5-40fc-b798-7cd07e496c0d

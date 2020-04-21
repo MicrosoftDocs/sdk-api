@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceStateChanged
 title: ITextInputPanelEventSink::InPlaceStateChanged (peninputpanel.h)
-description: Occurs when the In-Place state has changed.
+description: Occurs when the In-Place state has changed.helpviewer_keywords: ["ITextInputPanelEventSink interface [Tablet PC]","InPlaceStateChanged method","ITextInputPanelEventSink.InPlaceStateChanged","ITextInputPanelEventSink::InPlaceStateChanged","InPlaceStateChanged","InPlaceStateChanged method [Tablet PC]","InPlaceStateChanged method [Tablet PC]","ITextInputPanelEventSink interface","bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2","peninputpanel/ITextInputPanelEventSink::InPlaceStateChanged","tablet.itextinputpaneleventsink_inplacestatechanged"]
 old-location: tablet\itextinputpaneleventsink_inplacestatechanged.htm
 tech.root: tablet
 ms.assetid: bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2

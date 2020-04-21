@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkRenderer
 title: IInkRenderer (msinkaut.h)
-description: .
+description: .helpviewer_keywords: ["IInkRenderer","IInkRenderer interface [Tablet PC]","IInkRenderer interface [Tablet PC]","described","msinkaut/IInkRenderer","tablet.iinkrenderer"]
 old-location: tablet\iinkrenderer.htm
 tech.root: tablet
 ms.assetid: 2AB56616-3F67-4428-8A99-FCE733A5FDBF

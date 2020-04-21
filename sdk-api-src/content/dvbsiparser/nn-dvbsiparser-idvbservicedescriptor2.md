@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IDvbServiceDescriptor2
 title: IDvbServiceDescriptor2 (dvbsiparser.h)
-description: Implements methods that get the string values from fields in a Digital Video Broadcast (DVB) service descriptor. The service descriptor describes the service type, and provides the names of the service provider and the service in text form.
+description: Implements methods that get the string values from fields in a Digital Video Broadcast (DVB) service descriptor. The service descriptor describes the service type, and provides the names of the service provider and the service in text form.helpviewer_keywords: ["IDvbServiceDescriptor2","IDvbServiceDescriptor2 interface [Microsoft TV Technologies]","IDvbServiceDescriptor2 interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbServiceDescriptor2","mstv.idvbservicedescriptor2"]
 old-location: mstv\idvbservicedescriptor2.htm
 tech.root: mstv
 ms.assetid: 795c4a5c-c363-401b-8b26-447903163f80

@@ -1,7 +1,7 @@
 ---
 UID: NF:lpmapi.LPM_DeleteState
 title: LPM_DeleteState function (lpmapi.h)
-description: The LPM_DeleteState function is called by the PCM to delete the LPMs' RSVP state information.
+description: The LPM_DeleteState function is called by the PCM to delete the LPMs' RSVP state information.helpviewer_keywords: ["ADM_CTRL_FAILED","FLOW_DURATION","LPM_DeleteState","LPM_DeleteState callback","LPM_DeleteState callback function [QOS]","RCVD_PATH_TEAR","RCVD_RESV_TEAR","STATE_TIMEOUT","_gqos_lpm_deletestate","lpmapi/LPM_DeleteState","qos.lpm_deletestate"]
 old-location: qos\lpm_deletestate.htm
 tech.root: QOS
 ms.assetid: 54251572-22a6-4652-a88c-7ed696911c18
@@ -131,15 +131,6 @@ Reason for deleting the state. Possible values are:
 #### FLOW_DURATION
 
 LPMs can use <i>DeleteReason</i> for statistical gathering or any other use.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

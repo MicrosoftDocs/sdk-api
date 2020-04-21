@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetError
 title: IBackgroundCopyJob::GetError (bits.h)
-description: Retrieves the error interface after an error occurs.
+description: Retrieves the error interface after an error occurs.helpviewer_keywords: ["GetError","GetError method [BITS]","GetError method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetError method","IBackgroundCopyJob.GetError","IBackgroundCopyJob::GetError","_drz_ibackgroundcopyjob_geterror","bits.ibackgroundcopyjob_geterror","bits/IBackgroundCopyJob::GetError"]
 old-location: bits\ibackgroundcopyjob_geterror.htm
 tech.root: Bits
 ms.assetid: 2ad4c913-2d1e-4490-968c-960178a57e3b

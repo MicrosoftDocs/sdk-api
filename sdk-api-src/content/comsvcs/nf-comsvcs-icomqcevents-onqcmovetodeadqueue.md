@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCMoveToDeadQueue
 title: IComQCEvents::OnQCMoveToDeadQueue (comsvcs.h)
-description: Generated when a message is moved to the dead letter queue and cannot be delivered.
+description: Generated when a message is moved to the dead letter queue and cannot be delivered.helpviewer_keywords: ["IComQCEvents interface [COM+]","OnQCMoveToDeadQueue method","IComQCEvents.OnQCMoveToDeadQueue","IComQCEvents::OnQCMoveToDeadQueue","OnQCMoveToDeadQueue","OnQCMoveToDeadQueue method [COM+]","OnQCMoveToDeadQueue method [COM+]","IComQCEvents interface","_dtc_IComQCEvents_OnQCMoveToDeadQueue","comsvcs/IComQCEvents::OnQCMoveToDeadQueue","cos.icomqcevents_onqcmovetodeadqueue"]
 old-location: cos\icomqcevents_onqcmovetodeadqueue.htm
 tech.root: cossdk
 ms.assetid: 54117583-4e8d-4ae9-8262-781f5f81636d

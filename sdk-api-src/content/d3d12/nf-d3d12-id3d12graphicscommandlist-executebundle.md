@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ExecuteBundle
 title: ID3D12GraphicsCommandList::ExecuteBundle (d3d12.h)
-description: Executes a bundle.
+description: Executes a bundle.helpviewer_keywords: ["ExecuteBundle","ExecuteBundle method","ExecuteBundle method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","ExecuteBundle method","ID3D12GraphicsCommandList.ExecuteBundle","ID3D12GraphicsCommandList::ExecuteBundle","d3d12/ID3D12GraphicsCommandList::ExecuteBundle","direct3d12.id3d12graphicscommandlist_executebundle"]
 old-location: direct3d12\id3d12graphicscommandlist_executebundle.htm
 tech.root: direct3d12
 ms.assetid: B8AE4448-041D-47F6-9F0F-AE74FFEF6E41
@@ -64,16 +64,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-
 
 Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a> that determines the bundle to be executed.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

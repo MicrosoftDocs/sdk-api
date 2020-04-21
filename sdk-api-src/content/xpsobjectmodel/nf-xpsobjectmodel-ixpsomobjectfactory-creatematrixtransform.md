@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateMatrixTransform
 title: IXpsOMObjectFactory::CreateMatrixTransform (xpsobjectmodel.h)
-description: Creates an IXpsOMMatrixTransform interface that specifies an affine matrix transform.
+description: Creates an IXpsOMMatrixTransform interface that specifies an affine matrix transform.helpviewer_keywords: ["CreateMatrixTransform","CreateMatrixTransform method [XPS Documents and Packaging]","CreateMatrixTransform method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateMatrixTransform method","IXpsOMObjectFactory.CreateMatrixTransform","IXpsOMObjectFactory::CreateMatrixTransform","xps.ixpsomobjectfactory_creatematrixtransform","xpsobjectmodel/IXpsOMObjectFactory::CreateMatrixTransform"]
 old-location: xps\ixpsomobjectfactory_creatematrixtransform.htm
 tech.root: printdocs
 ms.assetid: 10377a1f-67b4-4fae-81f7-e6bf50e1c2b2

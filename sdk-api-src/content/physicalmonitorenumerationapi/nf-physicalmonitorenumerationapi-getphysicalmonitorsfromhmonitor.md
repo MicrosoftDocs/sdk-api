@@ -1,7 +1,7 @@
 ---
 UID: NF:physicalmonitorenumerationapi.GetPhysicalMonitorsFromHMONITOR
 title: GetPhysicalMonitorsFromHMONITOR function (physicalmonitorenumerationapi.h)
-description: Retrieves the physical monitors associated with an HMONITOR monitor handle.
+description: Retrieves the physical monitors associated with an HMONITOR monitor handle.helpviewer_keywords: ["GetPhysicalMonitorsFromHMONITOR","GetPhysicalMonitorsFromHMONITOR function [Monitor Configuration]","monitor.getphysicalmonitorsfromhmonitor","physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR"]
 old-location: monitor\getphysicalmonitorsfromhmonitor.htm
 tech.root: Monitor
 ms.assetid: f2ac8a6a-3be9-4155-ad13-c256b96da792

@@ -1,7 +1,7 @@
 ---
 UID: NF:msacm.acmDriverDetails
 title: acmDriverDetails function (msacm.h)
-description: The acmDriverDetails function queries a specified ACM driver to determine its capabilities.
+description: The acmDriverDetails function queries a specified ACM driver to determine its capabilities.helpviewer_keywords: ["_win32_acmDriverDetails","acmDriverDetails","acmDriverDetails function [Windows Multimedia]","acmDriverDetailsA","acmDriverDetailsW","msacm/acmDriverDetails","msacm/acmDriverDetailsA","msacm/acmDriverDetailsW","multimedia.acmdriverdetails"]
 old-location: multimedia\acmdriverdetails.htm
 tech.root: Multimedia
 ms.assetid: f8fcce73-1cac-463d-8e2d-1372d6b64614

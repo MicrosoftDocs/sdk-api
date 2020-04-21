@@ -1,7 +1,7 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_DATA
 title: DXVAHD_STREAM_DATA (dxvahd.h)
-description: Contains per-stream data for the IDXVAHD_VideoProcessor::VideoProcessBltHD method.
+description: Contains per-stream data for the IDXVAHD_VideoProcessor::VideoProcessBltHD method.helpviewer_keywords: ["DXVAHD_STREAM_DATA","DXVAHD_STREAM_DATA structure [Media Foundation]","dxvahd/DXVAHD_STREAM_DATA","mf.dxvahd_stream_data"]
 old-location: mf\dxvahd_stream_data.htm
 tech.root: medfound
 ms.assetid: 95d74c87-5884-4004-926f-108e9bbb012d

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetCommMask
 title: GetCommMask function (winbase.h)
-description: Retrieves the value of the event mask for a specified communications device.
+description: Retrieves the value of the event mask for a specified communications device.helpviewer_keywords: ["EV_BREAK","EV_CTS","EV_DSR","EV_ERR","EV_EVENT1","EV_EVENT2","EV_PERR","EV_RING","EV_RLSD","EV_RX80FULL","EV_RXCHAR","EV_RXFLAG","EV_TXEMPTY","GetCommMask","GetCommMask function","_win32_getcommmask","base.getcommmask","winbase/GetCommMask"]
 old-location: base\getcommmask.htm
 tech.root: devio
 ms.assetid: 502aa563-c783-4a98-8596-74514a5b261e

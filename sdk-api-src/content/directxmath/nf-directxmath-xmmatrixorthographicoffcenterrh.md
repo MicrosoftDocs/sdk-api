@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixOrthographicOffCenterRH
 title: XMMatrixOrthographicOffCenterRH function (directxmath.h)
-description: Builds a custom orthogonal projection matrix for a right-handed coordinate system.
+description: Builds a custom orthogonal projection matrix for a right-handed coordinate system.helpviewer_keywords: ["Use DirectX..XMMatrixOrthographicOffCenterRH","XMMatrixOrthographicOffCenterRH","XMMatrixOrthographicOffCenterRH method [DirectX Math Support APIs]","dxmath.xmmatrixorthographicoffcenterrh"]
 old-location: dxmath\xmmatrixorthographicoffcenterrh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixOrthographicOffCenterRH(float,float,float,float,float,float)

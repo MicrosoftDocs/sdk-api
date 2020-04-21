@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchCombine
 title: PathCchCombine function (pathcch.h)
-description: Combines two path fragments into a single path.
+description: Combines two path fragments into a single path.helpviewer_keywords: ["PathCchCombine","PathCchCombine function [Windows Shell]","pathcch/PathCchCombine","shell.PathCchCombine"]
 old-location: shell\PathCchCombine.htm
 tech.root: shell
 ms.assetid: 506a4165-f572-4521-958f-56a0296f9c05
@@ -50,8 +50,6 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Combines two path fragments into a single path. This function also canonicalizes any relative path elements, removing "." and ".." elements to simplify the final path.
 
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a> in that you are restricted to a final path of length MAX_PATH.
@@ -60,12 +58,10 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
+<div class="alert"><b>Note</b>  This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccombine">PathAllocCombine</a> should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> to prevent the possibility of a buffer overrun.</div>
 
-<div class="alert"><b>Note</b>  This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccombine">PathAllocCombine</a> should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
-
-
 
 
 ### -param pszPathOut [out]
@@ -90,8 +86,6 @@ A pointer to the second path string. If this path begins with a single backslash
 
 ## -returns
 
-
-
 This function returns an <b>HRESULT</b> code, including the following.
 
 <table>
@@ -107,7 +101,6 @@ This function returns an <b>HRESULT</b> code, including the following.
 </td>
 <td width="60%">
 The function succeeded. Note that this also includes the case of an empty extension, such as a period with no characters following it. In that case, the original string is returned unaltered.
-
 </td>
 </tr>
 <tr>
@@ -117,8 +110,7 @@ The function succeeded. Note that this also includes the case of an empty extens
 </dl>
 </td>
 <td width="60%">
-This value can be caused by several things, such as the <i>pszPathOut</i> param being set to <b>NULL</b>, or the <i>cchPathOut</i> value being set to 0 or a value greater than PATHCCH_MAX_CCH.
-
+This value can be caused by several things, such as the <i>pszPathOut</i> param being set to <b>NULL</b>, or the <i>cchPathOut</i> value being set to 0 or a value greater than <b>PATHCCH_MAX_CCH</b>.
 </td>
 </tr>
 <tr>
@@ -129,7 +121,6 @@ This value can be caused by several things, such as the <i>pszPathOut</i> param 
 </td>
 <td width="60%">
 The function could not allocate enough memory to perform the operation.
-
 </td>
 </tr>
 <tr>
@@ -139,40 +130,22 @@ The function could not allocate enough memory to perform the operation.
 </dl>
 </td>
 <td width="60%">
-The size of one or both of the original paths exceeded PATHCCH_MAX_CCH.
-
+The size of one or both of the original paths exceeded <b>PATHCCH_MAX_CCH</b>.
 </td>
 </tr>
 </table>
- 
-
-
 
 
 ## -remarks
 
-
-
 If both <i>pszPathIn</i> and <i>pszMore</i> are <b>NULL</b> or point to empty strings, a single backslash is copied to the buffer pointed to by <i>pszPathOut</i>.
-
-
 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>
- 
-
- 
 

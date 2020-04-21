@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsPath
 title: IADsPath (iads.h)
-description: The IADsPath interface provides methods for an ADSI client to access the Path attribute.
+description: The IADsPath interface provides methods for an ADSI client to access the Path attribute.helpviewer_keywords: ["IADsPath","IADsPath interface [ADSI]","IADsPath interface [ADSI]","described","_ds_iadspath","adsi.iadspath","iads/IADsPath"]
 old-location: adsi\iadspath.htm
 tech.root: adsi
 ms.assetid: e588195c-eb4f-48d3-a2fa-777dd6dc2901

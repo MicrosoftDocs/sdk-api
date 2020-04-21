@@ -1,7 +1,7 @@
 ---
 UID: NF:dsgetdc.DsGetForestTrustInformationW
 title: DsGetForestTrustInformationW function (dsgetdc.h)
-description: Obtains forest trust data for a specified domain.
+description: Obtains forest trust data for a specified domain.helpviewer_keywords: ["DS_GFTI_UPDATE_TDO","DsGetForestTrustInformationW","DsGetForestTrustInformationW function [Active Directory]","ad.dsgetforesttrustinformationw","dsgetdc/DsGetForestTrustInformationW"]
 old-location: ad\dsgetforesttrustinformationw.htm
 tech.root: ad
 ms.assetid: c94fdc5b-920b-4807-9cbf-3172ec1c7386

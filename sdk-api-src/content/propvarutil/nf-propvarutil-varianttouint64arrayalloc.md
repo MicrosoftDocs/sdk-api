@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.VariantToUInt64ArrayAlloc
 title: VariantToUInt64ArrayAlloc function (propvarutil.h)
-description: Extracts data from a vector structure into a newly-allocated unsigned Int64 array.
+description: Extracts data from a vector structure into a newly-allocated unsigned Int64 array.helpviewer_keywords: ["VariantToUInt64ArrayAlloc","VariantToUInt64ArrayAlloc function [Windows Properties]","_shell_VariantToUInt64ArrayAlloc","properties.VariantToUInt64ArrayAlloc","propvarutil/VariantToUInt64ArrayAlloc","shell.VariantToUInt64ArrayAlloc"]
 old-location: properties\VariantToUInt64ArrayAlloc.htm
 tech.root: properties
 ms.assetid: 898edef6-a688-4a39-897c-70f29952db49

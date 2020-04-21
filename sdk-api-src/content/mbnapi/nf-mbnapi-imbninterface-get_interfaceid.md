@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnInterface.get_InterfaceID
 title: IMbnInterface::get_InterfaceID (mbnapi.h)
-description: The interface ID.
+description: The interface ID.helpviewer_keywords: ["IMbnInterface interface [Microsoft Broadband Networks]","InterfaceID property","IMbnInterface.InterfaceID","IMbnInterface.get_InterfaceID","IMbnInterface::InterfaceID","IMbnInterface::get_InterfaceID","InterfaceID property [Microsoft Broadband Networks]","InterfaceID property [Microsoft Broadband Networks]","IMbnInterface interface","get_InterfaceID","mbn.imbninterface_interfaceid","mbnapi/IMbnInterface::InterfaceID","mbnapi/IMbnInterface::get_InterfaceID"]
 old-location: mbn\imbninterface_interfaceid.htm
 tech.root: mbn
 ms.assetid: 9828567b-ef5e-44b7-90ce-1788cd8dd947

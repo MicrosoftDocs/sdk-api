@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.Sign
 title: IOpcDigitalSignatureManager::Sign (msopc.h)
-description: Signs the package by generating a signature by using the specified certificate and IOpcSigningOptions interface pointer.
+description: Signs the package by generating a signature by using the specified certificate and IOpcSigningOptions interface pointer.helpviewer_keywords: ["IOpcDigitalSignatureManager interface [Open Packaging Conventions]","Sign method","IOpcDigitalSignatureManager.Sign","IOpcDigitalSignatureManager::Sign","Sign","Sign method [Open Packaging Conventions]","Sign method [Open Packaging Conventions]","IOpcDigitalSignatureManager interface","msopc/IOpcDigitalSignatureManager::Sign","opc.iopcdigitalsignaturemanager_sign"]
 old-location: opc\iopcdigitalsignaturemanager_sign.htm
 tech.root: OPC
 ms.assetid: 5d40cae4-67d5-40a6-bd63-cf6243a703eb

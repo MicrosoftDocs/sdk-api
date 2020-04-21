@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_phoneGetLamp
 title: TSPI_phoneGetLamp function (tspi.h)
-description: The TSPI_phoneGetLamp function returns the current lamp mode of the specified lamp.
+description: The TSPI_phoneGetLamp function returns the current lamp mode of the specified lamp.helpviewer_keywords: ["TSPI_phoneGetLamp","TSPI_phoneGetLamp function [TAPI 2.2]","_tspi_tspi_phonegetlamp","tspi.tspi_phonegetlamp","tspi/TSPI_phoneGetLamp"]
 old-location: tspi\tspi_phonegetlamp.htm
 tech.root: Tapi
 ms.assetid: 121032ec-e9ec-4896-b114-3db2b3336812

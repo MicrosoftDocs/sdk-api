@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IDeskBand2.SetCompositionState
 title: IDeskBand2::SetCompositionState (shobjidl.h)
-description: Sets the composition state.
+description: Sets the composition state.helpviewer_keywords: ["IDeskBand2 interface [Windows Shell]","SetCompositionState method","IDeskBand2.SetCompositionState","IDeskBand2::SetCompositionState","SetCompositionState","SetCompositionState method [Windows Shell]","SetCompositionState method [Windows Shell]","IDeskBand2 interface","_shell_IDeskBand2_SetCompositionState","shell.IDeskBand2_SetCompositionState","shobjidl/IDeskBand2::SetCompositionState"]
 old-location: shell\IDeskBand2_SetCompositionState.htm
 tech.root: shell
 ms.assetid: 183cc6fa-4dc4-4272-8d61-a0a426aeefda

@@ -1,7 +1,7 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportServer2
 title: IWdsTransportServer2 (wdstptmgmt.h)
-description: This interface inherits from the IWdsTransportServer interface and extends it. It is available beginning with Windows Server 2012.
+description: This interface inherits from the IWdsTransportServer interface and extends it. It is available beginning with Windows Server 2012.helpviewer_keywords: ["IWdsTransportServer2","IWdsTransportServer2 interface [Windows Deployment Services]","IWdsTransportServer2 interface [Windows Deployment Services]","described","wds.iwdstransportserver2","wdstptmgmt/IWdsTransportServer2"]
 old-location: wds\iwdstransportserver2.htm
 tech.root: wds
 ms.assetid: 27BB5319-74F0-480A-9600-8940491FB7E0

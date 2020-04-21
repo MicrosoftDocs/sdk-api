@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.CurrentPlaylistItemAvailable
 title: IWMPEvents::CurrentPlaylistItemAvailable (wmp.h)
-description: The CurrentPlaylistItemAvailable event occurs when the current playlist item becomes available.
+description: The CurrentPlaylistItemAvailable event occurs when the current playlist item becomes available.helpviewer_keywords: ["CurrentPlaylistItemAvailable","CurrentPlaylistItemAvailable method [Windows Media Player]","CurrentPlaylistItemAvailable method [Windows Media Player]","IWMPEvents interface","IWMPEvents interface [Windows Media Player]","CurrentPlaylistItemAvailable method","IWMPEvents.CurrentPlaylistItemAvailable","IWMPEvents::CurrentPlaylistItemAvailable","IWMPEventsCurrentPlaylistItemAvailable","wmp.iwmpevents_iwmpevents__currentplaylistitemavailable","wmp/IWMPEvents::CurrentPlaylistItemAvailable"]
 old-location: wmp\iwmpevents_iwmpevents__currentplaylistitemavailable.htm
 tech.root: WMP
 ms.assetid: 77209df0-3b3d-4fc8-b560-a2c02138e746
@@ -63,15 +63,6 @@ The <b>CurrentPlaylistItemAvailable</b> event occurs when the current playlist i
 ### -param bstrItemName [in]
 
 Specifies the item name.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

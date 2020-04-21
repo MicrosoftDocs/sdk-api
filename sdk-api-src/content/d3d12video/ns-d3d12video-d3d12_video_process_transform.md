@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_TRANSFORM
 title: D3D12_VIDEO_PROCESS_TRANSFORM
-description: Specifies transform parameters for video processing.
+description: Specifies transform parameters for video processing.helpviewer_keywords: ["D3D12_VIDEO_PROCESS_TRANSFORM","D3D12_VIDEO_PROCESS_TRANSFORM",""]
 tech.root: mf
 ms.assetid: 1939e664-81b1-4138-8103-3d721e38d19a
 ms.date: 05/28/2019

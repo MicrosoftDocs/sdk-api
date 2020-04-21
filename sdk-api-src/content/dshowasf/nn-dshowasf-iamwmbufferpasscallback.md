@@ -1,7 +1,7 @@
 ---
 UID: NN:dshowasf.IAMWMBufferPassCallback
 title: IAMWMBufferPassCallback (dshowasf.h)
-description: The IAMWMBufferPassCallback interface is provided for advanced scenarios in which applications need access to an INSSBuffer3 sample before it is passed downstream for further processing.
+description: The IAMWMBufferPassCallback interface is provided for advanced scenarios in which applications need access to an INSSBuffer3 sample before it is passed downstream for further processing.helpviewer_keywords: ["IAMWMBufferPassCallback","IAMWMBufferPassCallback interface [windows Media Format]","IAMWMBufferPassCallback interface [windows Media Format]","described","IAMWMBufferPassCallbackInterface","dshowasf/IAMWMBufferPassCallback","wmformat.iamwmbufferpasscallback"]
 old-location: wmformat\iamwmbufferpasscallback.htm
 tech.root: wmformat
 ms.assetid: 5bf0ae2e-504b-471b-bfc9-aa48f534e03f

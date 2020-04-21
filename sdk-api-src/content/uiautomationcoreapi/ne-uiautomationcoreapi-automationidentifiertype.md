@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationcoreapi.AutomationIdentifierType
 title: AutomationIdentifierType (uiautomationcoreapi.h)
-description: Contains values used in the UiaLookupId function.
+description: Contains values used in the UiaLookupId function.helpviewer_keywords: ["AutomationIdentifierType","AutomationIdentifierType enumeration [Windows Accessibility]","AutomationIdentifierType_Annotation","AutomationIdentifierType_Changes","AutomationIdentifierType_ControlType","AutomationIdentifierType_Event","AutomationIdentifierType_HeadingLevel","AutomationIdentifierType_LandmarkType","AutomationIdentifierType_Pattern","AutomationIdentifierType_Property","AutomationIdentifierType_Style","AutomationIdentifierType_TextAttribute","uiauto.uiauto_AutomationIdTypeEnum","uiauto_AutomationIdTypeEnum","uiautomationcoreapi/AutomationIdentifierType","uiautomationcoreapi/AutomationIdentifierType_Annotation","uiautomationcoreapi/AutomationIdentifierType_Changes","uiautomationcoreapi/AutomationIdentifierType_ControlType","uiautomationcoreapi/AutomationIdentifierType_Event","uiautomationcoreapi/AutomationIdentifierType_HeadingLevel","uiautomationcoreapi/AutomationIdentifierType_LandmarkType","uiautomationcoreapi/AutomationIdentifierType_Pattern","uiautomationcoreapi/AutomationIdentifierType_Property","uiautomationcoreapi/AutomationIdentifierType_Style","uiautomationcoreapi/AutomationIdentifierType_TextAttribute","winauto.uiauto_AutomationIdTypeEnum"]
 old-location: winauto\uiauto_AutomationIdTypeEnum.htm
 tech.root: WinAuto
 ms.assetid: 798afc92-73bc-4a76-a8bb-afa804038205

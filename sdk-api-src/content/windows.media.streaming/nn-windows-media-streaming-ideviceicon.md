@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.media.streaming.IDeviceIcon
 title: IDeviceIcon (windows.media.streaming.h)
-description: Encapsulates the methods needed to provide information about the icon of a DLNA Device.
+description: Encapsulates the methods needed to provide information about the icon of a DLNA Device.helpviewer_keywords: ["IDeviceIcon","IDeviceIcon interface [Media Streaming API]","IDeviceIcon interface [Media Streaming API]","described","mediastreaming.ideviceicon","windows/IDeviceIcon"]
 old-location: mediastreaming\ideviceicon.htm
 tech.root: mediastreaming
 ms.assetid: F86C9107-447D-47F7-A711-0687A30EF58E

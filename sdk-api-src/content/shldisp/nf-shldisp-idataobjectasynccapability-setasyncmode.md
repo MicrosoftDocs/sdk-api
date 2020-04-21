@@ -1,7 +1,7 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.SetAsyncMode
 title: IDataObjectAsyncCapability::SetAsyncMode (shldisp.h)
-description: Called by a drop source to specify whether the data object supports asynchronous data extraction.
+description: Called by a drop source to specify whether the data object supports asynchronous data extraction.helpviewer_keywords: ["IDataObjectAsyncCapability interface [Windows Shell]","SetAsyncMode method","IDataObjectAsyncCapability.SetAsyncMode","IDataObjectAsyncCapability::SetAsyncMode","SetAsyncMode","SetAsyncMode method [Windows Shell]","SetAsyncMode method [Windows Shell]","IDataObjectAsyncCapability interface","shell.IDataObjectAsyncCapability_SetAsyncMode","shldisp/IDataObjectAsyncCapability::SetAsyncMode"]
 old-location: shell\IDataObjectAsyncCapability_SetAsyncMode.htm
 tech.root: shell
 ms.assetid: 97DCCA78-F25E-47de-8292-F0C6ED9DFD35

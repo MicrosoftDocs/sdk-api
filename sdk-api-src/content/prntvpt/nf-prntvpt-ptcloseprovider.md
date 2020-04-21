@@ -1,7 +1,7 @@
 ---
 UID: NF:prntvpt.PTCloseProvider
 title: PTCloseProvider function (prntvpt.h)
-description: Closes a print ticket provider handle.
+description: Closes a print ticket provider handle.helpviewer_keywords: ["PTCloseProvider","PTCloseProvider function [Windows GDI]","_win32_PTCloseProvider","gdi.ptcloseprovider","prntvpt/PTCloseProvider"]
 old-location: gdi\ptcloseprovider.htm
 tech.root: printdocs
 ms.assetid: 28e85b53-fd0c-4210-ae2b-794efaf65bd4

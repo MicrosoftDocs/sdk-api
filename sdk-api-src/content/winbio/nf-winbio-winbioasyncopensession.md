@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio.WinBioAsyncOpenSession
 title: WinBioAsyncOpenSession function (winbio.h)
-description: Asynchronously connects to a biometric service provider and one or more biometric units. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
+description: Asynchronously connects to a biometric service provider and one or more biometric units. Starting with Windows 10, build 1607, this function is available to use with a mobile image.helpviewer_keywords: ["WINBIO_ASYNC_NOTIFY_CALLBACK","WINBIO_ASYNC_NOTIFY_MESSAGE","WINBIO_DB_BOOTSTRAP","WINBIO_DB_DEFAULT","WINBIO_DB_ONCHIP","WINBIO_FLAG_ADVANCED","WINBIO_FLAG_BASIC","WINBIO_FLAG_DEFAULT","WINBIO_FLAG_MAINTENANCE","WINBIO_FLAG_RAW","WINBIO_POOL_PRIVATE","WINBIO_POOL_SYSTEM","WinBioAsyncOpenSession","WinBioAsyncOpenSession function [Windows Biometric Framework API]","secbiomet.winbioasyncopensession","winbio/WinBioAsyncOpenSession"]
 old-location: secbiomet\winbioasyncopensession.htm
 tech.root: SecBioMet
 ms.assetid: 711EDE14-A2EE-415D-8FB6-562D71D68146

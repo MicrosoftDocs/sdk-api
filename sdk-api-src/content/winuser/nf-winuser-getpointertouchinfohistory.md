@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetPointerTouchInfoHistory
 title: GetPointerTouchInfoHistory function (winuser.h)
-description: Gets the touch-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type PT_TOUCH).
+description: Gets the touch-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type PT_TOUCH).helpviewer_keywords: ["GetPointerTouchInfoHistory","GetPointerTouchInfoHistory function [Input Messages and Notifications]","inputmsg.getpointertouchinfohistory","winuser/GetPointerTouchInfoHistory"]
 old-location: inputmsg\getpointertouchinfohistory.htm
 tech.root: InputMsg
 ms.assetid: 9fdfbde7-4126-4c1b-b870-479f846e1aa9

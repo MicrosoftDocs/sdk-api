@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDevice.Refresh
 title: IFaxDevice::Refresh (faxcomex.h)
-description: The IFaxDevice::Refresh method refreshes FaxDevice object information from the fax server. When the IFaxDevice::Refresh method is called, any configuration changes made after the last IFaxDevice::Save method call are lost.
+description: The IFaxDevice::Refresh method refreshes FaxDevice object information from the fax server. When the IFaxDevice::Refresh method is called, any configuration changes made after the last IFaxDevice::Save method call are lost.helpviewer_keywords: ["IFaxDevice interface [Fax Service]","Refresh method","IFaxDevice.Refresh","IFaxDevice::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxDevice interface","_mfax_faxdevice.refresh","fax._mfax_faxdevice_cpp_mfax_faxdevice_refresh_cpp","fax._mfax_faxdevice_refresh","faxcomex/IFaxDevice::Refresh"]
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6ka0.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:projectedfslib.PrjGetOnDiskFileState
 title: PrjGetOnDiskFileState function (projectedfslib.h)
-description: Gets the on-disk file state for a file or directory.
+description: Gets the on-disk file state for a file or directory.helpviewer_keywords: ["PrjGetOnDiskFileState","PrjGetOnDiskFileState function","ProjFS.prjgetondiskfilestate","projectedfslib/PrjGetOnDiskFileState"]
 old-location: projfs\prjgetondiskfilestate.htm
 tech.root: ProjFS
 ms.assetid: E302C472-1360-43D9-8AB9-26C93F97F00F

@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.ITransactionResourcePool
 title: ITransactionResourcePool (comsvcs.h)
-description: Maintains a list of pooled objects, keyed by IObjPool, that are used until the transaction completes.
+description: Maintains a list of pooled objects, keyed by IObjPool, that are used until the transaction completes.helpviewer_keywords: ["ITransactionResourcePool","ITransactionResourcePool interface [COM+]","ITransactionResourcePool interface [COM+]","described","_cos_ITransactionResourcePool","comsvcs/ITransactionResourcePool","cos.itransactionresourcepool"]
 old-location: cos\itransactionresourcepool.htm
 tech.root: cossdk
 ms.assetid: bf7ca849-6025-4358-bf2d-629d80e06a04

@@ -1,7 +1,7 @@
 ---
 UID: NS:dwrite_1.DWRITE_PANOSE
 title: DWRITE_PANOSE (dwrite_1.h)
-description: The DWRITE_PANOSE union describes typeface classification values that you use with IDWriteFont1::GetPanose to select and match the font.
+description: The DWRITE_PANOSE union describes typeface classification values that you use with IDWriteFont1::GetPanose to select and match the font.helpviewer_keywords: ["DWRITE_PANOSE","DWRITE_PANOSE union [Direct Write]","directwrite.dwrite_panose","dwrite_1/DWRITE_PANOSE"]
 old-location: directwrite\dwrite_panose.htm
 tech.root: DirectWrite
 ms.assetid: B65B4C8E-1CA0-47AC-AA3F-8F2EACC5C11A

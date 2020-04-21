@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.CommitPendingInput
 title: IPenInputPanel::CommitPendingInput (peninputpanel.h)
-description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sends collected ink to the recognizer and posts the recognition result.
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sends collected ink to the recognizer and posts the recognition result.helpviewer_keywords: ["4dd0f334-174a-495c-b363-149960ae2253","CommitPendingInput","CommitPendingInput method [Tablet PC]","CommitPendingInput method [Tablet PC]","IPenInputPanel interface","IPenInputPanel interface [Tablet PC]","CommitPendingInput method","IPenInputPanel.CommitPendingInput","IPenInputPanel::CommitPendingInput","peninputpanel/IPenInputPanel::CommitPendingInput","tablet.peninputpanel_commitpendinginput"]
 old-location: tablet\peninputpanel_commitpendinginput.htm
 tech.root: tablet
 ms.assetid: 4dd0f334-174a-495c-b363-149960ae2253

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISingleItemException.GetItemId
 title: ISingleItemException::GetItemId (winsync.h)
-description: Gets the ID of the item that is specified in the exception.
+description: Gets the ID of the item that is specified in the exception.helpviewer_keywords: ["GetItemId","GetItemId method [Windows Sync]","GetItemId method [Windows Sync]","ISingleItemException interface","ISingleItemException interface [Windows Sync]","GetItemId method","ISingleItemException.GetItemId","ISingleItemException::GetItemId","winsync.isingleitemexception_getitemid","winsync/ISingleItemException::GetItemId"]
 old-location: winsync\isingleitemexception_getitemid.htm
 tech.root: winsync
 ms.assetid: 1bcea395-d383-434f-b3a6-cffd4419fce3

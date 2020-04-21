@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfReadOnlyProperty.EnumRanges
 title: ITfReadOnlyProperty::EnumRanges (msctf.h)
-description: ITfReadOnlyProperty::EnumRanges method
+description: ITfReadOnlyProperty::EnumRanges methodhelpviewer_keywords: ["EnumRanges","EnumRanges method [Text Services Framework]","EnumRanges method [Text Services Framework]","ITfReadOnlyProperty interface","ITfReadOnlyProperty interface [Text Services Framework]","EnumRanges method","ITfReadOnlyProperty.EnumRanges","ITfReadOnlyProperty::EnumRanges","_tsf_itfreadonlyproperty_enumranges_ref","msctf/ITfReadOnlyProperty::EnumRanges","tsf.itfreadonlyproperty_enumranges"]
 old-location: tsf\itfreadonlyproperty_enumranges.htm
 tech.root: TSF
 ms.assetid: 201c518b-f06f-4c4f-aa56-f8d21f477814
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumeration of ranges that contain unique values of the property within the given range.
 
 ## -parameters
 

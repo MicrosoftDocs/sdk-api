@@ -1,7 +1,7 @@
 ---
 UID: NE:netsh._NS_REQS
 title: NS_REQS (netsh.h)
-description: Specifies the number of events.
+description: Specifies the number of events.helpviewer_keywords: ["NS_REQS","NS_REQS enumeration [NetShell]","netsh/NS_REQS","netshell.ns_reqs"]
 old-location: netshell\ns_reqs.htm
 tech.root: netshell
 ms.assetid: f8510cef-9b7d-4827-8b09-7584bf32b220

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IRegTreeItem.SetCheckState
 title: IRegTreeItem::SetCheckState (shobjidl_core.h)
-description: Sets the state of a check box item in a tree-view control.
+description: Sets the state of a check box item in a tree-view control.helpviewer_keywords: ["FALSE","IRegTreeItem interface [Windows Shell]","SetCheckState method","IRegTreeItem.SetCheckState","IRegTreeItem::SetCheckState","SetCheckState","SetCheckState method [Windows Shell]","SetCheckState method [Windows Shell]","IRegTreeItem interface","TRUE","_win32_IRegTreeItem_SetCheckState","shell.IRegTreeItem_SetCheckState","shobjidl_core/IRegTreeItem::SetCheckState"]
 old-location: shell\IRegTreeItem_SetCheckState.htm
 tech.root: shell
 ms.assetid: 0ba25491-8d18-4040-a256-9078b91e4f3f

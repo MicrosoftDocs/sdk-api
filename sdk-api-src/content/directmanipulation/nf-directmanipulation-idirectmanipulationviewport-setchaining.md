@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetChaining
 title: IDirectManipulationViewport::SetChaining (directmanipulation.h)
-description: Specifies the motion types supported in a viewport that can be chained to a parent viewport.
+description: Specifies the motion types supported in a viewport that can be chained to a parent viewport.helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","SetChaining method","IDirectManipulationViewport.SetChaining","IDirectManipulationViewport::SetChaining","SetChaining","SetChaining method [Direct Manipulation]","SetChaining method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_setchaining","directmanipulation/IDirectManipulationViewport::SetChaining"]
 old-location: directmanipulation\idirectmanipulationviewport_setchaining.htm
 tech.root: directmanipulation
 ms.assetid: c172e985-4dc4-4d2a-a9e1-d88bc86ff75b

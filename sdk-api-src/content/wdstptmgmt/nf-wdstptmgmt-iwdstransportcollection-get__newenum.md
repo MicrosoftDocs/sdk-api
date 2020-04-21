@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCollection.get__NewEnum
 title: IWdsTransportCollection::get__NewEnum (wdstptmgmt.h)
-description: Receives a pointer to an enumerator that can be used to iterate over the objects in this collection.
+description: Receives a pointer to an enumerator that can be used to iterate over the objects in this collection.helpviewer_keywords: ["IWdsTransportCollection interface [Windows Deployment Services]","_NewEnum property","IWdsTransportCollection._NewEnum","IWdsTransportCollection.get__NewEnum","IWdsTransportCollection::_NewEnum","IWdsTransportCollection::get__NewEnum","_NewEnum property [Windows Deployment Services]","_NewEnum property [Windows Deployment Services]","IWdsTransportCollection interface","get__NewEnum","wds.iwdstransportcollection__newenum","wdstptmgmt/IWdsTransportCollection::_NewEnum","wdstptmgmt/IWdsTransportCollection::get__NewEnum"]
 old-location: wds\iwdstransportcollection__newenum.htm
 tech.root: wds
 ms.assetid: b1b51f0b-ae79-4e59-8517-456d8ef2048c

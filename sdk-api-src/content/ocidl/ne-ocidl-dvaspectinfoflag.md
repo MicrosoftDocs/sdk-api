@@ -1,7 +1,7 @@
 ---
 UID: NE:ocidl.tagAspectInfoFlag
 title: DVASPECTINFOFLAG (ocidl.h)
-description: Indicates whether an object can support optimized drawing of itself.
+description: Indicates whether an object can support optimized drawing of itself.helpviewer_keywords: ["DVASPECTINFOFLAG","DVASPECTINFOFLAG enumeration [COM]","DVASPECTINFOFLAG_CANOPTIMIZE","_ole_DVASPECTINFOFLAG","com.dvaspectinfoflag","ocidl/DVASPECTINFOFLAG","ocidl/DVASPECTINFOFLAG_CANOPTIMIZE"]
 old-location: com\dvaspectinfoflag.htm
 tech.root: com
 ms.assetid: 639871a6-85ab-41e2-92fa-7f1e72e9cb38

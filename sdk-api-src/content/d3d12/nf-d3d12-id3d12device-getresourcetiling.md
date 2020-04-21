@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetResourceTiling
 title: ID3D12Device::GetResourceTiling (d3d12.h)
-description: Gets info about how a tiled resource is broken into tiles.
+description: Gets info about how a tiled resource is broken into tiles.helpviewer_keywords: ["GetResourceTiling","GetResourceTiling method","GetResourceTiling method","ID3D12Device interface","ID3D12Device interface","GetResourceTiling method","ID3D12Device.GetResourceTiling","ID3D12Device::GetResourceTiling","d3d12/ID3D12Device::GetResourceTiling","direct3d12.id3d12device_getresourcetiling"]
 old-location: direct3d12\id3d12device_getresourcetiling.htm
 tech.root: direct3d12
 ms.assetid: 32574750-92D3-4CAF-90C6-BA0DEF1E5464
@@ -112,16 +112,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-
 
 Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_tiling">D3D12_SUBRESOURCE_TILING</a> structure that <b>GetResourceTiling</b> fills with info about subresource tiles. If subresource tiles are part of packed mipmaps, <b>GetResourceTiling</b> sets the members of D3D12_SUBRESOURCE_TILING to zeros, except the <i>StartTileIndexInOverallResource</i> member, which <b>GetResourceTiling</b> sets to D3D12_PACKED_TILE (0xffffffff). The D3D12_PACKED_TILE constant indicates that the whole <b>D3D12_SUBRESOURCE_TILING</b> structure is meaningless for this situation, and the info that the <i>pPackedMipDesc</i> parameter points to applies.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

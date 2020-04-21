@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest
 title: IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest (wsmandisp.h)
-description: Returns the value of the proxy authentication flag WSManFlagProxyAuthenticationUseDigest for use in the authenticationMechanism parameter of the IWSManConnectionOptionsEx2::SetProxy method.
+description: Returns the value of the proxy authentication flag WSManFlagProxyAuthenticationUseDigest for use in the authenticationMechanism parameter of the IWSManConnectionOptionsEx2::SetProxy method.helpviewer_keywords: ["IWSManConnectionOptionsEx2 interface [Windows Remote Management]","ProxyAuthenticationUseDigest method","IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest","IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest","ProxyAuthenticationUseDigest","ProxyAuthenticationUseDigest method [Windows Remote Management]","ProxyAuthenticationUseDigest method [Windows Remote Management]","IWSManConnectionOptionsEx2 interface","winrm.iwsmanconnectionoptionsex2_proxyauthenticationusedigest","wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest"]
 old-location: winrm\iwsmanconnectionoptionsex2_proxyauthenticationusedigest.htm
 tech.root: winrm
 ms.assetid: 6813d121-2f02-4678-80fc-161dcb1d78ea

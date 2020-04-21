@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnLockGranted
 title: ITextStoreAnchorSink::OnLockGranted (textstor.h)
-description: ITextStoreAnchorSink::OnLockGranted method
+description: ITextStoreAnchorSink::OnLockGranted methodhelpviewer_keywords: ["ITextStoreAnchorSink interface [Text Services Framework]","OnLockGranted method","ITextStoreAnchorSink.OnLockGranted","ITextStoreAnchorSink::OnLockGranted","OnLockGranted","OnLockGranted method [Text Services Framework]","OnLockGranted method [Text Services Framework]","ITextStoreAnchorSink interface","TS_LF_READ","TS_LF_READWRITE","_tsf_itextstoreanchorsink_onlockgranted_ref","textstor/ITextStoreAnchorSink::OnLockGranted","tsf.itextstoreanchorsink_onlockgranted"]
 old-location: tsf\itextstoreanchorsink_onlockgranted.htm
 tech.root: TSF
 ms.assetid: 4a2ab828-1eb8-4aae-bebd-dc8b406fd58f
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to grant a document lock.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:lpmapi.LPM_CommitResv
 title: LPM_CommitResv function (lpmapi.h)
-description: The LPM_CommitResv function is called by the PCM to obtain reservation commitment decisions from the LPM.
+description: The LPM_CommitResv function is called by the PCM to obtain reservation commitment decisions from the LPM.helpviewer_keywords: ["LPM_CommitResv","LPM_CommitResv callback","LPM_CommitResv callback function [QOS]","RESOURCES_ALLOCATED","RESOURCES_MODIFIED","_gqos_lpm_commitresv","lpmapi/LPM_CommitResv","qos.lpm_commitresv"]
 old-location: qos\lpm_commitresv.htm
 tech.root: QOS
 ms.assetid: 3a04e96d-d91e-47de-9958-75fbd32cba6b
@@ -105,15 +105,6 @@ Value of the commitment decision reached by the LPM. The following list indicate
 
 
 #### RESOURCES_MODIFIED
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

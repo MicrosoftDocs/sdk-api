@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetCredentialCount
 title: ICredentialProvider::GetCredentialCount (credentialprovider.h)
-description: Gets the number of available credentials under this credential provider.
+description: Gets the number of available credentials under this credential provider.helpviewer_keywords: ["GetCredentialCount","GetCredentialCount method [Windows Shell]","GetCredentialCount method [Windows Shell]","ICredentialProvider interface","ICredentialProvider interface [Windows Shell]","GetCredentialCount method","ICredentialProvider.GetCredentialCount","ICredentialProvider::GetCredentialCount","credentialprovider/ICredentialProvider::GetCredentialCount","shell.ICredentialProvider_GetCredentialCount","shell_ICredentialProvider_GetCredentialCount"]
 old-location: shell\ICredentialProvider_GetCredentialCount.htm
 tech.root: shell
 ms.assetid: 7d940d46-d4c2-4ab5-8559-416d78d3579e

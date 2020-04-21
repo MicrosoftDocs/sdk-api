@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICatalogObject.IsPropertyWriteOnly
 title: ICatalogObject::IsPropertyWriteOnly (comadmin.h)
-description: Indicates whether the specified property can be read using Value.
+description: Indicates whether the specified property can be read using Value.helpviewer_keywords: ["ICatalogObject interface [COM+]","IsPropertyWriteOnly method","ICatalogObject.IsPropertyWriteOnly","ICatalogObject::IsPropertyWriteOnly","IsPropertyWriteOnly","IsPropertyWriteOnly method [COM+]","IsPropertyWriteOnly method [COM+]","ICatalogObject interface","_cos_ICatalogObject_IsPropertyWriteOnly","comadmin/ICatalogObject::IsPropertyWriteOnly","cos.icatalogobject_ispropertywriteonly"]
 old-location: cos\icatalogobject_ispropertywriteonly.htm
 tech.root: cossdk
 ms.assetid: 463ca1eb-5386-4265-882b-fa29c4cbe877

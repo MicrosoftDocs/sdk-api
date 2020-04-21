@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IPersistStorage.HandsOffStorage
 title: IPersistStorage::HandsOffStorage (objidl.h)
-description: Instructs the object to release all storage objects that have been passed to it by its container and to enter HandsOff mode.
+description: Instructs the object to release all storage objects that have been passed to it by its container and to enter HandsOff mode.helpviewer_keywords: ["HandsOffStorage","HandsOffStorage method [COM]","HandsOffStorage method [COM]","IPersistStorage interface","IPersistStorage interface [COM]","HandsOffStorage method","IPersistStorage.HandsOffStorage","IPersistStorage::HandsOffStorage","_com_ipersiststorage_handsoffstorage","com.ipersiststorage_handsoffstorage","objidl/IPersistStorage::HandsOffStorage"]
 old-location: com\ipersiststorage_handsoffstorage.htm
 tech.root: com
 ms.assetid: 1e5ef26f-d8e7-4fa6-bfc4-19dace35314d

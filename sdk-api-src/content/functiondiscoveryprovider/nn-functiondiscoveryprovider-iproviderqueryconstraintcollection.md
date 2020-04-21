@@ -1,7 +1,7 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderQueryConstraintCollection
 title: IProviderQueryConstraintCollection (functiondiscoveryprovider.h)
-description: This interface is accessible to the provider through the IFunctionDiscoveryProviderQuery::GetQueryConstraints method.
+description: This interface is accessible to the provider through the IFunctionDiscoveryProviderQuery::GetQueryConstraints method.helpviewer_keywords: ["IProviderQueryConstraintCollection","IProviderQueryConstraintCollection interface","IProviderQueryConstraintCollection interface","described","functiondiscoveryprovider/IProviderQueryConstraintCollection","ncd.iproviderqueryconstraintcollection"]
 old-location: ncd\iproviderqueryconstraintcollection.htm
 tech.root: FunDisc
 ms.assetid: 4d8ff5b9-ec4a-4ec6-b133-3d315f9c017b

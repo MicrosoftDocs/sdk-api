@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateDeviceSource
 title: MFCreateDeviceSource function (mfidl.h)
-description: Creates a media source for a hardware capture device.
+description: Creates a media source for a hardware capture device.helpviewer_keywords: ["MFCreateDeviceSource","MFCreateDeviceSource function [Media Foundation]","mf.mfcreatedevicesource","mfidl/MFCreateDeviceSource"]
 old-location: mf\mfcreatedevicesource.htm
 tech.root: medfound
 ms.assetid: 9f80b604-1cc2-4d0d-b94e-a2b9dab1fdde

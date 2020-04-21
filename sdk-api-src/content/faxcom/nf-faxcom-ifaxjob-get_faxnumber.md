@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxJob.get_FaxNumber
 title: IFaxJob::get_FaxNumber (faxcom.h)
-description: The IFaxJob::get_FaxNumber property is a null-terminated string that contains the fax number to which the fax server will transmit the fax job. The IFaxJob::get_FaxNumber property applies only to outgoing fax transmissions.
+description: The IFaxJob::get_FaxNumber property is a null-terminated string that contains the fax number to which the fax server will transmit the fax job. The IFaxJob::get_FaxNumber property applies only to outgoing fax transmissions.helpviewer_keywords: ["FaxNumber property [Fax Service]","FaxNumber property [Fax Service]","IFaxJob interface","IFaxJob interface [Fax Service]","FaxNumber property","IFaxJob.FaxNumber","IFaxJob.get_FaxNumber","IFaxJob::FaxNumber","IFaxJob::get_FaxNumber","_mfax_ifaxjob_get_faxnumber","fax._mfax_ifaxjob_get_faxnumber","fax._mfax_ifaxjob_mfax_ifaxjob_get_faxnumber_cpp","faxcom/IFaxJob::FaxNumber","faxcom/IFaxJob::get_FaxNumber","get_FaxNumber"]
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_faxnumber_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_42wi.htm

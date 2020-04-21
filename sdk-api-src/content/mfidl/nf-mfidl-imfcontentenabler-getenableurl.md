@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.GetEnableURL
 title: IMFContentEnabler::GetEnableURL (mfidl.h)
-description: Retrieves a URL for performing a manual content enabling action.
+description: Retrieves a URL for performing a manual content enabling action.helpviewer_keywords: ["1a44216d-36e5-4b5c-9585-5297d5e429f9","GetEnableURL","GetEnableURL method [Media Foundation]","GetEnableURL method [Media Foundation]","IMFContentEnabler interface","IMFContentEnabler interface [Media Foundation]","GetEnableURL method","IMFContentEnabler.GetEnableURL","IMFContentEnabler::GetEnableURL","mf.imfcontentenabler_getenableurl","mfidl/IMFContentEnabler::GetEnableURL"]
 old-location: mf\imfcontentenabler_getenableurl.htm
 tech.root: medfound
 ms.assetid: 1a44216d-36e5-4b5c-9585-5297d5e429f9

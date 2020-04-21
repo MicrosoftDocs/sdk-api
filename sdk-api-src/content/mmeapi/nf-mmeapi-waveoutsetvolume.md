@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.waveOutSetVolume
 title: waveOutSetVolume function (mmeapi.h)
-description: The waveOutSetVolume function sets the volume level of the specified waveform-audio output device.
+description: The waveOutSetVolume function sets the volume level of the specified waveform-audio output device.helpviewer_keywords: ["_win32_waveOutSetVolume","mmeapi/waveOutSetVolume","multimedia.waveoutsetvolume","waveOutSetVolume","waveOutSetVolume function [Windows Multimedia]"]
 old-location: multimedia\waveoutsetvolume.htm
 tech.root: Multimedia
 ms.assetid: 6dcc53ae-b663-4812-8c93-a573b8dc6e57

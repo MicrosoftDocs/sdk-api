@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.InitializeThreadpoolEnvironment
 title: InitializeThreadpoolEnvironment function (winbase.h)
-description: Initializes a callback environment.
+description: Initializes a callback environment.helpviewer_keywords: ["InitializeThreadpoolEnvironment","InitializeThreadpoolEnvironment function","base.initializethreadpoolenvironment","winbase/InitializeThreadpoolEnvironment"]
 old-location: base\initializethreadpoolenvironment.htm
 tech.root: ProcThread
 ms.assetid: ad610b7a-9865-4feb-81d2-491f9f87ef3e
@@ -60,15 +60,6 @@ Initializes a callback environment.
 ### -param pcbe [out]
 
 A <b>TP_CALLBACK_ENVIRON</b> structure that defines a callback environment.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

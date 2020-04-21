@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITSubStream.PauseSubStream
 title: ITSubStream::PauseSubStream (tapi3if.h)
-description: The PauseSubStream method pauses the substream.
+description: The PauseSubStream method pauses the substream.helpviewer_keywords: ["ITSubStream interface [TAPI 2.2]","PauseSubStream method","ITSubStream.PauseSubStream","ITSubStream::PauseSubStream","PauseSubStream","PauseSubStream method [TAPI 2.2]","PauseSubStream method [TAPI 2.2]","ITSubStream interface","_tapi3_itsubstream_pausesubstream","tapi3.itsubstream_pausesubstream","tapi3if/ITSubStream::PauseSubStream"]
 old-location: tapi3\itsubstream_pausesubstream.htm
 tech.root: Tapi
 ms.assetid: 77bd3726-3996-45a6-88be-cb033f5dddc0

@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CoFreeAllLibraries
 title: CoFreeAllLibraries function (objbase.h)
-description: Frees all the DLLs that have been loaded with the CoLoadLibrary function (called internally by CoGetClassObject), regardless of whether they are currently in use.
+description: Frees all the DLLs that have been loaded with the CoLoadLibrary function (called internally by CoGetClassObject), regardless of whether they are currently in use.helpviewer_keywords: ["CoFreeAllLibraries","CoFreeAllLibraries function [COM]","_com_CoFreeAllLibraries","com.cofreealllibraries","objbase/CoFreeAllLibraries"]
 old-location: com\cofreealllibraries.htm
 tech.root: com
 ms.assetid: 20616c05-21c6-4895-a1b5-4bae1aa417c7
@@ -55,15 +55,6 @@ Frees all the DLLs that have been loaded with the <a href="https://docs.microsof
 ## -parameters
 
 
-
-
-
-
-## -returns
-
-
-
-This function does not return a value.
 
 
 

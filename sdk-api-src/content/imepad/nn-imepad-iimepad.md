@@ -1,7 +1,7 @@
 ---
 UID: NN:imepad.IImePad
 title: IImePad (imepad.h)
-description: The IImePad interface inserts text into apps from IMEPadApplets that implement the IImePadApplet interface.
+description: The IImePad interface inserts text into apps from IMEPadApplets that implement the IImePadApplet interface.helpviewer_keywords: ["IImePad","IImePad interface [Internationalization for Windows Applications]","IImePad interface [Internationalization for Windows Applications]","described","imepad/IImePad","intl.iimepad"]
 old-location: intl\iimepad.htm
 tech.root: Intl
 ms.assetid: 6604112A-5BD5-4B2C-AECC-D09180B04D7F

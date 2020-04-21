@@ -1,7 +1,7 @@
 ---
 UID: NE:mmc.tagIconIdentifier
 title: IconIdentifier (mmc.h)
-description: The IconIdentifier enumeration is introduced in MMC 1.2.
+description: The IconIdentifier enumeration is introduced in MMC 1.2.helpviewer_keywords: ["IconIdentifier","IconIdentifier enumeration [MMC]","Icon_Error","Icon_First","Icon_Information","Icon_Last","Icon_None","Icon_Question","Icon_Warning","_slate_iconidentifier","mmc.iconidentifier","mmc/IconIdentifier","mmc/Icon_Error","mmc/Icon_First","mmc/Icon_Information","mmc/Icon_Last","mmc/Icon_None","mmc/Icon_Question","mmc/Icon_Warning"]
 old-location: mmc\iconidentifier.htm
 tech.root: mmc
 ms.assetid: 5ed7302e-1e2f-46cc-b272-f6c06afe7552

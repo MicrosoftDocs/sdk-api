@@ -1,7 +1,7 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEYINFO_PARAM
 title: CRYPT_XML_KEYINFO_PARAM (cryptxml.h)
-description: Is used by the CryptXmlSign function to specify the members of the KeyInfo element to be encoded.
+description: Is used by the CryptXmlSign function to specify the members of the KeyInfo element to be encoded.helpviewer_keywords: ["CRYPT_XML_KEYINFO_PARAM","CRYPT_XML_KEYINFO_PARAM structure [Security]","cryptxml/CRYPT_XML_KEYINFO_PARAM","security.crypt_xml_keyinfo_param"]
 old-location: security\crypt_xml_keyinfo_param.htm
 tech.root: SecCrypto
 ms.assetid: cbde3f67-d948-452a-9958-52563dc7a8b5

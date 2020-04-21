@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IInstallationJob.get_Updates
 title: IInstallationJob::get_Updates (wuapi.h)
-description: Gets an interface that contains a read-only collection of the updates that are specified in the installation or uninstallation.
+description: Gets an interface that contains a read-only collection of the updates that are specified in the installation or uninstallation.helpviewer_keywords: ["IInstallationJob interface [Windows Update Agent]","Updates property","IInstallationJob.Updates","IInstallationJob.get_Updates","IInstallationJob::Updates","IInstallationJob::get_Updates","Updates property [Windows Update Agent]","Updates property [Windows Update Agent]","IInstallationJob interface","get_Updates","wua.iinstallationjob_updates","wuapi/IInstallationJob::Updates","wuapi/IInstallationJob::get_Updates"]
 old-location: wua\iinstallationjob_updates.htm
 tech.root: Wua_Sdk
 ms.assetid: f6a21db3-1182-4650-8502-814db88cbacb

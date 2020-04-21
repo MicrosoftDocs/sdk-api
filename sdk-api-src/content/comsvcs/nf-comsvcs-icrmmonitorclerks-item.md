@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.Item
 title: ICrmMonitorClerks::Item (comsvcs.h)
-description: Retrieves the instance CLSID of the CRM clerk for the specified index.
+description: Retrieves the instance CLSID of the CRM clerk for the specified index.helpviewer_keywords: ["ICrmMonitorClerks interface [COM+]","Item method","ICrmMonitorClerks.Item","ICrmMonitorClerks::Item","Item","Item method [COM+]","Item method [COM+]","ICrmMonitorClerks interface","_dtc_ICrmMonitorClerks_Item","comsvcs/ICrmMonitorClerks::Item","cos.icrmmonitorclerks_item"]
 old-location: cos\icrmmonitorclerks_item.htm
 tech.root: cossdk
 ms.assetid: af25d159-95e6-4695-9350-9a3c1bc034e9

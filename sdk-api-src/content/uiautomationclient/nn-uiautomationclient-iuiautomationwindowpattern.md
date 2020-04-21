@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationWindowPattern
 title: IUIAutomationWindowPattern (uiautomationclient.h)
-description: Provides access to the fundamental functionality of a window.
+description: Provides access to the fundamental functionality of a window.helpviewer_keywords: ["IUIAutomationWindowPattern","IUIAutomationWindowPattern interface [Windows Accessibility]","IUIAutomationWindowPattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationWindowPattern","uiauto_IUIAutomationWindowPattern","uiautomationclient/IUIAutomationWindowPattern","winauto.uiauto_IUIAutomationWindowPattern"]
 old-location: winauto\uiauto_IUIAutomationWindowPattern.htm
 tech.root: WinAuto
 ms.assetid: 251fefdf-48c7-444a-89fc-fb27b10dcb0a

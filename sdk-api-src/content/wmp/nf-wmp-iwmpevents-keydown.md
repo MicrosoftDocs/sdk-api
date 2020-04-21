@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.KeyDown
 title: IWMPEvents::KeyDown (wmp.h)
-description: The KeyDown event occurs when a key is pressed.
+description: The KeyDown event occurs when a key is pressed.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","KeyDown method","IWMPEvents.KeyDown","IWMPEvents::KeyDown","IWMPEventsKeyDown","KeyDown","KeyDown method [Windows Media Player]","KeyDown method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__keydown","wmp/IWMPEvents::KeyDown"]
 old-location: wmp\iwmpevents_iwmpevents__keydown.htm
 tech.root: WMP
 ms.assetid: 3759d40c-414a-4f91-93eb-0ad4a4b091b9
@@ -68,15 +68,6 @@ Specifies which physical key is pressed. For possible values, see the Remarks se
 ### -param nShiftState [in]
 
 A bitfield with the least significant bits corresponding to the SHIFT key (bit 0), the CTRL key (bit 1), and the ALT key (bit 2). These bits correspond to the values 1, 2, and 4, respectively. The shift argument indicates the state of these keys. Some, all, or none of the bits can be set, indicating that some, all, or none of the keys are pressed.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

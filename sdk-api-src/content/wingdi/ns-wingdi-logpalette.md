@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagLOGPALETTE
 title: LOGPALETTE (wingdi.h)
-description: The LOGPALETTE structure defines a logical palette.
+description: The LOGPALETTE structure defines a logical palette.helpviewer_keywords: ["*LPLOGPALETTE","*NPLOGPALETTE","*PLOGPALETTE","LOGPALETTE","LOGPALETTE structure [Windows GDI]","_win32_LOGPALETTE_str","gdi.logpalette","tagLOGPALETTE","wingdi/LOGPALETTE"]
 old-location: gdi\logpalette.htm
 tech.root: gdi
 ms.assetid: 99d70a0e-ac61-4a88-a500-66443e7882ad

@@ -1,7 +1,7 @@
 ---
 UID: NF:evntprov.EventDescGetKeyword
 title: EventDescGetKeyword function (evntprov.h)
-description: Retrieves the keyword from the event descriptor.
+description: Retrieves the keyword from the event descriptor.helpviewer_keywords: ["EventDescGetKeyword","EventDescGetKeyword function [ETW]","base.eventdescgetkeyword_func","etw.eventdescgetkeyword_func","evntprov/EventDescGetKeyword"]
 old-location: etw\eventdescgetkeyword_func.htm
 tech.root: ETW
 ms.assetid: 4c96fad0-23c4-44cc-8b8f-2d62f08429d2

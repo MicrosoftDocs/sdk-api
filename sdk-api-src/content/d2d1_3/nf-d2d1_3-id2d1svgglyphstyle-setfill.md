@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1SvgGlyphStyle.SetFill
 title: ID2D1SvgGlyphStyle::SetFill (d2d1_3.h)
-description: Provides values to an SVG glyph for fill.
+description: Provides values to an SVG glyph for fill.helpviewer_keywords: ["ID2D1SvgGlyphStyle interface [Direct2D]","SetFill method","ID2D1SvgGlyphStyle.SetFill","ID2D1SvgGlyphStyle::SetFill","SetFill","SetFill method [Direct2D]","SetFill method [Direct2D]","ID2D1SvgGlyphStyle interface","d2d1_3/ID2D1SvgGlyphStyle::SetFill","direct2d.id2d1svgglyphstyle_setfill"]
 old-location: direct2d\id2d1svgglyphstyle_setfill.htm
 tech.root: Direct2D
 ms.assetid: 7F8D423C-6A3A-4240-87E9-515F5FE29C1D

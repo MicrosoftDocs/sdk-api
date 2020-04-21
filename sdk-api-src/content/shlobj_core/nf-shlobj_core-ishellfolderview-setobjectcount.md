@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetObjectCount
 title: IShellFolderView::SetObjectCount (shlobj_core.h)
-description: SetObjectCount is no longer available.
+description: SetObjectCount is no longer available.helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","SetObjectCount method","IShellFolderView.SetObjectCount","IShellFolderView::SetObjectCount","SFVSOC_INVALIDATE_ALL","SFVSOC_NOSCROLL","SetObjectCount","SetObjectCount method [Windows Shell]","SetObjectCount method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_SetObjectCount","shell.IShellFolderView_SetObjectCount","shlobj_core/IShellFolderView::SetObjectCount"]
 old-location: shell\IShellFolderView_SetObjectCount.htm
 tech.root: shell
 ms.assetid: 0656fb51-1d10-42a5-bd4a-3ceb606c7176

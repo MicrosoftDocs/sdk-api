@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePage
 title: IXpsOMObjectFactory::CreatePage (xpsobjectmodel.h)
-description: Creates an IXpsOMPage interface, which provides the root node of a tree of objects that represent the contents of a single page.
+description: Creates an IXpsOMPage interface, which provides the root node of a tree of objects that represent the contents of a single page.helpviewer_keywords: ["CreatePage","CreatePage method [XPS Documents and Packaging]","CreatePage method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePage method","IXpsOMObjectFactory.CreatePage","IXpsOMObjectFactory::CreatePage","xps.ixpsomobjectfactory_createpage","xpsobjectmodel/IXpsOMObjectFactory::CreatePage"]
 old-location: xps\ixpsomobjectfactory_createpage.htm
 tech.root: printdocs
 ms.assetid: 9212ccd8-0793-40cc-bab5-609ea74715f7

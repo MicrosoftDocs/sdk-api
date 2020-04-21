@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteLocalizedStrings.GetStringLength
 title: IDWriteLocalizedStrings::GetStringLength (dwrite.h)
-description: Gets the length in characters (not including the null terminator) of the string with the specified index.
+description: Gets the length in characters (not including the null terminator) of the string with the specified index.helpviewer_keywords: ["GetStringLength","GetStringLength method [Direct Write]","GetStringLength method [Direct Write]","IDWriteLocalizedStrings interface","IDWriteLocalizedStrings interface [Direct Write]","GetStringLength method","IDWriteLocalizedStrings.GetStringLength","IDWriteLocalizedStrings::GetStringLength","directwrite.IDWriteLocalizedStrings_GetStringLength","dwrite/IDWriteLocalizedStrings::GetStringLength"]
 old-location: directwrite\IDWriteLocalizedStrings_GetStringLength.htm
 tech.root: DirectWrite
 ms.assetid: 8dd55a10-d654-4d09-b2ee-d51e504d83c9

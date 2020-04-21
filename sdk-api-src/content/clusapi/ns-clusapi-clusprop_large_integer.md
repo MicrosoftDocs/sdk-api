@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi.CLUSPROP_LARGE_INTEGER
 title: CLUSPROP_LARGE_INTEGER (clusapi.h)
-description: Describes a signed large integer.
+description: Describes a signed large integer.helpviewer_keywords: ["*PCLUSPROP_LARGE_INTEGER","CLUSPROP_LARGE_INTEGER","CLUSPROP_LARGE_INTEGER structure [Failover Cluster]","PCLUSPROP_LARGE_INTEGER","PCLUSPROP_LARGE_INTEGER structure pointer [Failover Cluster]","_wolf_clusprop_large_integer","clusapi/CLUSPROP_LARGE_INTEGER","clusapi/PCLUSPROP_LARGE_INTEGER","mscs.clusprop_large_integer"]
 old-location: mscs\clusprop_large_integer.htm
 tech.root: MsCS
 ms.assetid: 3e0849e6-3d93-47cb-858d-9891451b8dfd

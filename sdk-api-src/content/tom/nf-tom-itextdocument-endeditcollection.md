@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument.EndEditCollection
 title: ITextDocument::EndEditCollection (tom.h)
-description: Turns off edit collection (also called undo grouping).
+description: Turns off edit collection (also called undo grouping).helpviewer_keywords: ["EndEditCollection","EndEditCollection method [Windows Controls]","EndEditCollection method [Windows Controls]","ITextDocument interface","ITextDocument interface [Windows Controls]","EndEditCollection method","ITextDocument.EndEditCollection","ITextDocument::EndEditCollection","_win32_ITextDocument_EndEditCollection","_win32_ITextDocument_EndEditCollection_cpp","controls.ITextDocument_EndEditCollection","controls._win32_ITextDocument_EndEditCollection","tom/ITextDocument::EndEditCollection"]
 old-location: controls\ITextDocument_EndEditCollection.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endeditcollection.htm

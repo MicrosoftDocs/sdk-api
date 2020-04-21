@@ -1,7 +1,7 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceReportMessage.RegisterErrorLogMessage
 title: IWorkspaceReportMessage::RegisterErrorLogMessage (workspaceruntime.h)
-description: Registers the specified error message to use in the UI.
+description: Registers the specified error message to use in the UI.helpviewer_keywords: ["IWorkspaceReportMessage interface [Remote Desktop Services]","RegisterErrorLogMessage method","IWorkspaceReportMessage.RegisterErrorLogMessage","IWorkspaceReportMessage::RegisterErrorLogMessage","RegisterErrorLogMessage","RegisterErrorLogMessage method [Remote Desktop Services]","RegisterErrorLogMessage method [Remote Desktop Services]","IWorkspaceReportMessage interface","RegisterErrorLogMessage method [Remote Desktop Services]","Workspace object","Workspace object [Remote Desktop Services]","RegisterErrorLogMessage method","termserv.iworkspacereportmessage_registererrorlogmessage","workspaceruntime/IWorkspaceReportMessage::RegisterErrorLogMessage"]
 old-location: termserv\iworkspacereportmessage_registererrorlogmessage.htm
 tech.root: TermServ
 ms.assetid: 3aca491f-2cbd-4f04-a06c-986c37e6ce5a

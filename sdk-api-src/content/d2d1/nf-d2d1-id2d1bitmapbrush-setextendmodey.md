@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.SetExtendModeY
 title: ID2D1BitmapBrush::SetExtendModeY (d2d1.h)
-description: Specifies how the brush vertically tiles those areas that extend past its bitmap.
+description: Specifies how the brush vertically tiles those areas that extend past its bitmap.helpviewer_keywords: ["ID2D1BitmapBrush interface [Direct2D]","SetExtendModeY method","ID2D1BitmapBrush.SetExtendModeY","ID2D1BitmapBrush::SetExtendModeY","SetExtendModeY","SetExtendModeY method [Direct2D]","SetExtendModeY method [Direct2D]","ID2D1BitmapBrush interface","d2d1/ID2D1BitmapBrush::SetExtendModeY","direct2d.ID2D1BitmapBrush_SetExtendModeY"]
 old-location: direct2d\ID2D1BitmapBrush_SetExtendModeY.htm
 tech.root: Direct2D
 ms.assetid: 6039ad41-e4b4-41e2-a4b1-31ad93ba88fd
@@ -62,15 +62,6 @@ Specifies how the brush vertically tiles those areas that extend past its bitmap
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
 
 A value that specifies how the brush vertically tiles those areas that extend past its bitmap.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

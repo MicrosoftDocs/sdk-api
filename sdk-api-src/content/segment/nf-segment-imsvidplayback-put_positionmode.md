@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidPlayback.put_PositionMode
 title: IMSVidPlayback::put_PositionMode (segment.h)
-description: The put_PositionMode method specifies how position values will be interpreted by this interface.
+description: The put_PositionMode method specifies how position values will be interpreted by this interface.helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","put_PositionMode method","IMSVidPlayback.put_PositionMode","IMSVidPlayback::put_PositionMode","IMSVidPlaybackput_PositionMode","mstv.imsvidplayback_put_positionmode","put_PositionMode","put_PositionMode method [Microsoft TV Technologies]","put_PositionMode method [Microsoft TV Technologies]","IMSVidPlayback interface","segment/IMSVidPlayback::put_PositionMode"]
 old-location: mstv\imsvidplayback_put_positionmode.htm
 tech.root: mstv
 ms.assetid: b2ff0b7e-c35d-4ea9-92de-a31654781687

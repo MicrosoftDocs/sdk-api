@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.Refresh
 title: IFaxIncomingJob::Refresh (faxcomex.h)
-description: The Refresh method refreshes FaxIncomingJob object information from the fax server.
+description: The Refresh method refreshes FaxIncomingJob object information from the fax server.helpviewer_keywords: ["IFaxIncomingJob interface [Fax Service]","Refresh method","IFaxIncomingJob.Refresh","IFaxIncomingJob::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxIncomingJob interface","_mfax_faxincomingjob.refresh","fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_refresh_cpp","fax._mfax_faxincomingjob_refresh","faxcomex/IFaxIncomingJob::Refresh"]
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9fzc.htm

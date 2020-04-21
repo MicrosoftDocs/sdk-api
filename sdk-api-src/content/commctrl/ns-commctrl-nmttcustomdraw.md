@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMTTCUSTOMDRAW
 title: NMTTCUSTOMDRAW (commctrl.h)
-description: Contains information specific to an NM_CUSTOMDRAW notification code sent by a tooltip control.
+description: Contains information specific to an NM_CUSTOMDRAW notification code sent by a tooltip control.helpviewer_keywords: ["*LPNMTTCUSTOMDRAW","LPNMTTCUSTOMDRAW","LPNMTTCUSTOMDRAW structure pointer [Windows Controls]","NMTTCUSTOMDRAW","NMTTCUSTOMDRAW structure [Windows Controls]","_win32_NMTTCUSTOMDRAW","_win32_NMTTCUSTOMDRAW_cpp","commctrl/LPNMTTCUSTOMDRAW","commctrl/NMTTCUSTOMDRAW","controls.NMTTCUSTOMDRAW","controls._win32_NMTTCUSTOMDRAW"]
 old-location: controls\NMTTCUSTOMDRAW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\nmttcustomdraw.htm

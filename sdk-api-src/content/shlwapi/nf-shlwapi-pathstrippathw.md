@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathStripPathW
 title: PathStripPathW function (shlwapi.h)
-description: Removes the path portion of a fully qualified path and file.
+description: Removes the path portion of a fully qualified path and file.helpviewer_keywords: ["PathStripPath","PathStripPath function [Windows Shell]","PathStripPathA","PathStripPathW","_win32_PathStripPath","shell.PathStripPath","shlwapi/PathStripPath","shlwapi/PathStripPathA","shlwapi/PathStripPathW"]
 old-location: shell\PathStripPath.htm
 tech.root: shell
 ms.assetid: 84b439f2-f570-4e7f-bc3f-e0fdd185ea15
@@ -68,13 +68,5 @@ Removes the path portion of a fully qualified path and file.
 Type: <b>LPTSTR</b>
 
 A pointer to a null-terminated string of length MAX_PATH that contains the path and file name. When this function returns successfully, the string contains only the file name, with the path removed.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

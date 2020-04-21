@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuningSpace.put_FriendlyName
 title: ITuningSpace::put_FriendlyName (tuner.h)
-description: The put_FriendlyName method sets the localized, user-friendly name of the tuning space.
+description: The put_FriendlyName method sets the localized, user-friendly name of the tuning space.helpviewer_keywords: ["ITuningSpace interface [Microsoft TV Technologies]","put_FriendlyName method","ITuningSpace.put_FriendlyName","ITuningSpace::put_FriendlyName","ITuningSpaceput_FriendlyName","mstv.ituningspace_put_friendlyname","put_FriendlyName","put_FriendlyName method [Microsoft TV Technologies]","put_FriendlyName method [Microsoft TV Technologies]","ITuningSpace interface","tuner/ITuningSpace::put_FriendlyName"]
 old-location: mstv\ituningspace_put_friendlyname.htm
 tech.root: mstv
 ms.assetid: 97457657-9d28-4c8e-9db6-61271aa127e3

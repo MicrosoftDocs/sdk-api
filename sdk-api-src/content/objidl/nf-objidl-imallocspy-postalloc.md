@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMallocSpy.PostAlloc
 title: IMallocSpy::PostAlloc (objidl.h)
-description: Performs operations required after calling IMalloc::Alloc.
+description: Performs operations required after calling IMalloc::Alloc.helpviewer_keywords: ["IMallocSpy interface [COM]","PostAlloc method","IMallocSpy.PostAlloc","IMallocSpy::PostAlloc","PostAlloc","PostAlloc method [COM]","PostAlloc method [COM]","IMallocSpy interface","_com_imallocspy_postalloc","com.imallocspy_postalloc","objidl/IMallocSpy::PostAlloc"]
 old-location: com\imallocspy_postalloc.htm
 tech.root: com
 ms.assetid: eaf2cb92-afdb-4f1f-a46a-83b6c72db07f

@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.ICertPropertyArchived
 title: ICertPropertyArchived (certenroll.h)
-description: Represents a certificate property that identifies whether a certificate has been archived.
+description: Represents a certificate property that identifies whether a certificate has been archived.helpviewer_keywords: ["ICertPropertyArchived","ICertPropertyArchived interface [Security]","ICertPropertyArchived interface [Security]","described","certenroll/ICertPropertyArchived","security.icertpropertyarchived"]
 old-location: security\icertpropertyarchived.htm
 tech.root: seccertenroll
 ms.assetid: 81219ad9-4717-40e5-9ecd-d3df980e23c6

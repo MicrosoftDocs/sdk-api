@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsNameTranslate.Init
 title: IADsNameTranslate::Init (iads.h)
-description: Initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the credentials of the current user.
+description: Initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the credentials of the current user.helpviewer_keywords: ["IADsNameTranslate interface [ADSI]","Init method","IADsNameTranslate.Init","IADsNameTranslate::Init","Init","Init method [ADSI]","Init method [ADSI]","IADsNameTranslate interface","_ds_iadsnametranslate_init","adsi.iadsnametranslate__init","adsi.iadsnametranslate_init","iads/IADsNameTranslate::Init"]
 old-location: adsi\iadsnametranslate_init.htm
 tech.root: adsi
 ms.assetid: dad31301-b18b-44ec-b32f-93d0bb5b6189

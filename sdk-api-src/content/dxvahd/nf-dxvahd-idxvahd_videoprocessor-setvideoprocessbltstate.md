@@ -1,7 +1,7 @@
 ---
 UID: NF:dxvahd.IDXVAHD_VideoProcessor.SetVideoProcessBltState
 title: IDXVAHD_VideoProcessor::SetVideoProcessBltState (dxvahd.h)
-description: Sets a state parameter for a blit operation by a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+description: Sets a state parameter for a blit operation by a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.helpviewer_keywords: ["IDXVAHD_VideoProcessor interface [Media Foundation]","SetVideoProcessBltState method","IDXVAHD_VideoProcessor.SetVideoProcessBltState","IDXVAHD_VideoProcessor::SetVideoProcessBltState","SetVideoProcessBltState","SetVideoProcessBltState method [Media Foundation]","SetVideoProcessBltState method [Media Foundation]","IDXVAHD_VideoProcessor interface","dxvahd/IDXVAHD_VideoProcessor::SetVideoProcessBltState","mf.idxvahd_videoprocessor_setvideoprocessbltstate"]
 old-location: mf\idxvahd_videoprocessor_setvideoprocessbltstate.htm
 tech.root: medfound
 ms.assetid: adc08662-7977-402d-9eb1-505333550fc8

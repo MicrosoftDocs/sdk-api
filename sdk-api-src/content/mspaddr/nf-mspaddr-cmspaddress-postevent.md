@@ -1,7 +1,7 @@
 ---
 UID: NF:mspaddr.CMSPAddress.PostEvent
 title: CMSPAddress::PostEvent (mspaddr.h)
-description: The PostEvent method is called by the MSPCall to post an event to TAPI3. This method puts the event at the end of the event list and signals TAPI3. Locks the event list.
+description: The PostEvent method is called by the MSPCall to post an event to TAPI3. This method puts the event at the end of the event list and signals TAPI3. Locks the event list.helpviewer_keywords: ["CMSPAddress interface [TAPI 2.2]","PostEvent method","CMSPAddress.PostEvent","CMSPAddress::PostEvent","PostEvent","PostEvent method [TAPI 2.2]","PostEvent method [TAPI 2.2]","CMSPAddress interface","_tapi3_cmspaddress_postevent","mspaddr/CMSPAddress::PostEvent","tapi3.cmspaddress_postevent"]
 old-location: tapi3\cmspaddress_postevent.htm
 tech.root: Tapi
 ms.assetid: 25050c11-c270-4fc0-85b4-0f48622a5ec5

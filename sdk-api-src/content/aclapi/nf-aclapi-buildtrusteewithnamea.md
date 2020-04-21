@@ -1,7 +1,7 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithNameA
 title: BuildTrusteeWithNameA function (aclapi.h)
-description: Initializes a TRUSTEE structure. The caller specifies the trustee name. The function sets other members of the structure to default values.
+description: Initializes a TRUSTEE structure. The caller specifies the trustee name. The function sets other members of the structure to default values.helpviewer_keywords: ["BuildTrusteeWithName","BuildTrusteeWithName function [Security]","BuildTrusteeWithNameA","BuildTrusteeWithNameW","MultipleTrusteeOperation","TrusteeForm","TrusteeType","_win32_buildtrusteewithname","aclapi/BuildTrusteeWithName","aclapi/BuildTrusteeWithNameA","aclapi/BuildTrusteeWithNameW","pMultipleTrustee","security.buildtrusteewithname"]
 old-location: security\buildtrusteewithname.htm
 tech.root: SecAuthZ
 ms.assetid: a66c23ac-8211-40fd-bfe8-ef9089bf3745
@@ -123,15 +123,6 @@ TRUSTEE_IS_UNKNOWN
 </tr>
 </table>
  
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

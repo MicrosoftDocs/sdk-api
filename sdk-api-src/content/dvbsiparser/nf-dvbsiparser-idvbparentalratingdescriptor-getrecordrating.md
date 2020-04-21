@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbParentalRatingDescriptor.GetRecordRating
 title: IDvbParentalRatingDescriptor::GetRecordRating (dvbsiparser.h)
-description: Gets a code that indicates the age-based rating for a Digital Video Broadcast (DVB) broadcast from a DVB parental rating descriptor.
+description: Gets a code that indicates the age-based rating for a Digital Video Broadcast (DVB) broadcast from a DVB parental rating descriptor.helpviewer_keywords: ["GetRecordRating","GetRecordRating method [Microsoft TV Technologies]","GetRecordRating method [Microsoft TV Technologies]","IDvbParentalRatingDescriptor interface","IDvbParentalRatingDescriptor interface [Microsoft TV Technologies]","GetRecordRating method","IDvbParentalRatingDescriptor.GetRecordRating","IDvbParentalRatingDescriptor::GetRecordRating","dvbsiparser/IDvbParentalRatingDescriptor::GetRecordRating","mstv.idvbparentalratingdescriptor_getrecordrating"]
 old-location: mstv\idvbparentalratingdescriptor_getrecordrating.htm
 tech.root: mstv
 ms.assetid: 1b439669-6458-46d3-882d-5f20f2f22f23

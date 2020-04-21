@@ -1,7 +1,7 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
 title: WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT (wsman.h)
-description: Defines the release command callback for the plug-in.
+description: Defines the release command callback for the plug-in.helpviewer_keywords: ["WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT","WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT callback","WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT callback function [Windows Remote Management]","WSManPluginReleaseCommandContext","winrm.wsman_plugin_release_command_context","wsman/WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT"]
 old-location: winrm\wsman_plugin_release_command_context.htm
 tech.root: winrm
 ms.assetid: 9a81f8da-1c71-4eab-aa21-002cee4f1164
@@ -67,13 +67,5 @@ Specifies the context that was received when the shell was created.
 ### -param commandContext [in]
 
 If this request is aimed at a command and not a shell, this is the context returned from the <b>winrm create</b> operation;  otherwise, this parameter is <b>NULL</b>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IComponentAuthenticate.SACGetProtocols
 title: IComponentAuthenticate::SACGetProtocols (mswmdm.h)
-description: The SACGetProtocols method is used by a component to discover the authentication protocols supported by another component.
+description: The SACGetProtocols method is used by a component to discover the authentication protocols supported by another component.helpviewer_keywords: ["IComponentAuthenticate interface [windows Media Device Manager]","SACGetProtocols method","IComponentAuthenticate.SACGetProtocols","IComponentAuthenticate::SACGetProtocols","IComponentAuthenticateSACGetProtocols","SACGetProtocols","SACGetProtocols method [windows Media Device Manager]","SACGetProtocols method [windows Media Device Manager]","IComponentAuthenticate interface","mswmdm/IComponentAuthenticate::SACGetProtocols","wmdm.icomponentauthenticate_sacgetprotocols"]
 old-location: wmdm\icomponentauthenticate_sacgetprotocols.htm
 tech.root: WMDM
 ms.assetid: db01f2a4-5cd5-4acc-be17-37b4c9861cc9

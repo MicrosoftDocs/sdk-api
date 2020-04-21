@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.TpSetCallbackThreadpool
 title: TpSetCallbackThreadpool function (winnt.h)
-description: Assigns a thread pool to a callback environment.
+description: Assigns a thread pool to a callback environment.helpviewer_keywords: ["TpSetCallbackThreadpool","TpSetCallbackThreadpool function","base.tpsetcallbackthreadpool","winnt/TpSetCallbackThreadpool"]
 old-location: base\tpsetcallbackthreadpool.htm
 tech.root: ProcThread
 ms.assetid: A1BED20A-9DB5-4B5A-B1AD-60454176AB1D
@@ -65,15 +65,6 @@ A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. Th
 ### -param Pool [in]
 
 A <b>TP_POOL</b> structure that defines a thread pool. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool">CreateThreadpool</a> function returns this structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

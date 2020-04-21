@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRangeACP.SetExtent
 title: ITfRangeACP::SetExtent (msctf.h)
-description: ITfRangeACP::SetExtent method
+description: ITfRangeACP::SetExtent methodhelpviewer_keywords: ["ITfRangeACP interface [Text Services Framework]","SetExtent method","ITfRangeACP.SetExtent","ITfRangeACP::SetExtent","SetExtent","SetExtent method [Text Services Framework]","SetExtent method [Text Services Framework]","ITfRangeACP interface","_tsf_itfrangeacp_setextent_ref","msctf/ITfRangeACP::SetExtent","tsf.itfrangeacp_setextent"]
 old-location: tsf\itfrangeacp_setextent.htm
 tech.root: TSF
 ms.assetid: 7b409ba8-dce6-4b42-8cfe-f159de1cad2c
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the application character position and length of the range object.
 
 ## -parameters
 

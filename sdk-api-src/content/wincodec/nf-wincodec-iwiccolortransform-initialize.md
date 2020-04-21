@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICColorTransform.Initialize
 title: IWICColorTransform::Initialize (wincodec.h)
-description: Initializes an IWICColorTransform with a IWICBitmapSource and transforms it from one IWICColorContext to another.
+description: Initializes an IWICColorTransform with a IWICBitmapSource and transforms it from one IWICColorContext to another.helpviewer_keywords: ["IWICColorTransform interface [Windows Imaging Component]","Initialize method","IWICColorTransform.Initialize","IWICColorTransform::Initialize","Initialize","Initialize method [Windows Imaging Component]","Initialize method [Windows Imaging Component]","IWICColorTransform interface","_wic_codec_iwiccolortransform_initialize","wic._wic_codec_iwiccolortransform_initialize","wincodec/IWICColorTransform::Initialize"]
 old-location: wic\_wic_codec_iwiccolortransform_initialize.htm
 tech.root: wic
 ms.assetid: 572a014b-10f9-4b76-9090-04ac13edfc3d

@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRCREATECOLORSPACEW
 title: EMRCREATECOLORSPACEW (wingdi.h)
-description: The EMRCREATECOLORSPACEW structure contains members for the CreateColorSpace enhanced metafile record. It differs from EMRCREATECOLORSPACE in that it has a Unicode logical color space and also has an optional array containing raw source profile data.
+description: The EMRCREATECOLORSPACEW structure contains members for the CreateColorSpace enhanced metafile record. It differs from EMRCREATECOLORSPACE in that it has a Unicode logical color space and also has an optional array containing raw source profile data.helpviewer_keywords: ["*PEMRCREATECOLORSPACEW","EMRCREATECOLORSPACEW","EMRCREATECOLORSPACEW structure [Windows GDI]","PEMRCREATECOLORSPACEW","PEMRCREATECOLORSPACEW structure pointer [Windows GDI]","_win32_EMRCREATECOLORSPACEW_str","gdi.emrcreatecolorspacew","wingdi/EMRCREATECOLORSPACEW","wingdi/PEMRCREATECOLORSPACEW"]
 old-location: gdi\emrcreatecolorspacew.htm
 tech.root: gdi
 ms.assetid: eac364ad-ef17-4f60-ac4c-39d8a9af618b

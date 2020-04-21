@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetMethodAttributes
 title: IPortableDeviceServiceCapabilities::GetMethodAttributes (portabledeviceapi.h)
-description: Retrieves the attributes used to describe a given method.
+description: Retrieves the attributes used to describe a given method.helpviewer_keywords: ["GetMethodAttributes","GetMethodAttributes method [Windows Portable Devices SDK]","GetMethodAttributes method [Windows Portable Devices SDK]","IPortableDeviceServiceCapabilities interface","IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK]","GetMethodAttributes method","IPortableDeviceServiceCapabilities.GetMethodAttributes","IPortableDeviceServiceCapabilities::GetMethodAttributes","portabledeviceapi/IPortableDeviceServiceCapabilities::GetMethodAttributes","wpdsdk.iportabledeviceservicecapabilities_getmethodattributes"]
 old-location: wpdsdk\iportabledeviceservicecapabilities_getmethodattributes.htm
 tech.root: wpd_sdk
 ms.assetid: 4cd125ea-545f-461b-90e1-88d3e3a6c032

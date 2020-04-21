@@ -1,7 +1,7 @@
 ---
 UID: NF:winwlx.WlxDisplayLockedNotice
 title: WlxDisplayLockedNotice function (winwlx.h)
-description: Allows the GINA to display information about the lock, such as who locked the workstation and when it was locked.
+description: Allows the GINA to display information about the lock, such as who locked the workstation and when it was locked.helpviewer_keywords: ["WlxDisplayLockedNotice","WlxDisplayLockedNotice function [Security]","_gina_wlxdisplaylockednotice","security.wlxdisplaylockednotice","winwlx/WlxDisplayLockedNotice"]
 old-location: security\wlxdisplaylockednotice.htm
 tech.root: SecAuthN
 ms.assetid: f8209ac4-e79b-4997-8dc3-c9224e10822b
@@ -65,15 +65,6 @@ The <b>WlxDisplayLockedNotice</b> function must be implemented by a replacement 
 
 Pointer to the GINA context associated with this window station. This is the context value that the GINA returns when Winlogon calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
-
-
-## -returns
-
-
-
-This function has no return values.
-
-
 
 
 ## -remarks

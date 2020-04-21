@@ -1,7 +1,7 @@
 ---
 UID: NC:windns.DNS_SERVICE_BROWSE_CALLBACK
 title: DNS_SERVICE_BROWSE_CALLBACK callback function
-description: Used to asynchronously return the results of a DNS-SD query.
+description: Used to asynchronously return the results of a DNS-SD query.helpviewer_keywords: ["DNS_SERVICE_BROWSE_CALLBACK"]
 ms.date: 02/19/2019
 ms.keywords: DNS_SERVICE_BROWSE_CALLBACK
 f1_keywords:
@@ -53,9 +53,6 @@ A pointer to the user context that was passed to [DnsServiceBrowse](nf-windns-dn
 
 ### -param pDnsRecord
 A pointer to a [DNS_RECORD](/windows/win32/api/windns/ns-windns-dns_recordw) structure that contains a list of records describing a discovered service on the network. If not `nullptr`, then you are responsible for freeing the returned RR sets using [DnsRecordListFree](/windows/desktop/api/windns/nf-windns-dnsrecordlistfree).
-
-## -returns
-This callback function does not return a value.
 
 ## -remarks
 

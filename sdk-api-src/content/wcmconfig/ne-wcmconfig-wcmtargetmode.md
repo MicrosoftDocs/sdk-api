@@ -1,7 +1,7 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0001
 title: WcmTargetMode (wcmconfig.h)
-description: Enumerates the various target modes.
+description: Enumerates the various target modes.helpviewer_keywords: ["OfflineMode","OnlineMode","WcmTargetMode","WcmTargetMode enumeration [SMI]","smi.wcmtargetmode","wcmconfig/OfflineMode","wcmconfig/OnlineMode","wcmconfig/WcmTargetMode"]
 old-location: smi\wcmtargetmode.htm
 tech.root: SMI
 ms.assetid: 7a3b61f4-c98f-4c59-98dd-b513f69ac7d8

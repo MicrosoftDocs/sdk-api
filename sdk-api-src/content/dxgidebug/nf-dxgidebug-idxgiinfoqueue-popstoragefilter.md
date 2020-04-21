@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PopStorageFilter
 title: IDXGIInfoQueue::PopStorageFilter (dxgidebug.h)
-description: Pops a storage filter from the top of the storage-filter stack.
+description: Pops a storage filter from the top of the storage-filter stack.helpviewer_keywords: ["IDXGIInfoQueue interface [DXGI]","PopStorageFilter method","IDXGIInfoQueue.PopStorageFilter","IDXGIInfoQueue::PopStorageFilter","PopStorageFilter","PopStorageFilter method [DXGI]","PopStorageFilter method [DXGI]","IDXGIInfoQueue interface","direct3ddxgi.idxgiinfoqueue_popstoragefilter","dxgidebug/IDXGIInfoQueue::PopStorageFilter"]
 old-location: direct3ddxgi\idxgiinfoqueue_popstoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: B621336B-9334-4408-988F-6F5DBB2C4B53
@@ -60,15 +60,6 @@ Pops a storage filter from the top of the storage-filter stack.
 ### -param Producer [in]
 
  A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that pops the filter.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

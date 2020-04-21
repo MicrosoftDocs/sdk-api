@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SAML_MESSAGE_SECURITY_BINDING
 title: WS_SAML_MESSAGE_SECURITY_BINDING (webservices.h)
-description: The security binding subtype for specifying the use of a SAML assertion as a message security token.
+description: The security binding subtype for specifying the use of a SAML assertion as a message security token.helpviewer_keywords: ["WS_SAML_MESSAGE_SECURITY_BINDING","WS_SAML_MESSAGE_SECURITY_BINDING structure [Web Services for Windows]","webservices/WS_SAML_MESSAGE_SECURITY_BINDING","wsw.ws_saml_message_security_binding"]
 old-location: wsw\ws_saml_message_security_binding.htm
 tech.root: wsw
 ms.assetid: 713afe9a-49b8-419a-b78b-d3b5a4a8d073

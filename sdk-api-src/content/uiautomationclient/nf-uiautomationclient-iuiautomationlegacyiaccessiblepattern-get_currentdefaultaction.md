@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentDefaultAction
 title: IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction (uiautomationclient.h)
-description: Retrieves the Microsoft Active Accessibility current default action for the element.
+description: Retrieves the Microsoft Active Accessibility current default action for the element.helpviewer_keywords: ["CurrentDefaultAction property [Windows Accessibility]","CurrentDefaultAction property [Windows Accessibility]","IUIAutomationLegacyIAccessiblePattern interface","IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","CurrentDefaultAction property","IUIAutomationLegacyIAccessiblePattern.CurrentDefaultAction","IUIAutomationLegacyIAccessiblePattern.get_CurrentDefaultAction","IUIAutomationLegacyIAccessiblePattern::CurrentDefaultAction","IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction","get_CurrentDefaultAction","uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction","uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentDefaultAction","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction","winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction"]
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction.htm
 tech.root: WinAuto
 ms.assetid: d9fe2161-db5a-4e41-9f07-17cb3e4ce78a

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1ImageBrush.SetExtendModeY
 title: ID2D1ImageBrush::SetExtendModeY (d2d1_1.h)
-description: Sets the extend mode on the y-axis.
+description: Sets the extend mode on the y-axis.helpviewer_keywords: ["ID2D1ImageBrush interface [Direct2D]","SetExtendModeY method","ID2D1ImageBrush.SetExtendModeY","ID2D1ImageBrush::SetExtendModeY","SetExtendModeY","SetExtendModeY method [Direct2D]","SetExtendModeY method [Direct2D]","ID2D1ImageBrush interface","d2d1_1/ID2D1ImageBrush::SetExtendModeY","direct2d.id2d1imagebrush_setextendmodey"]
 old-location: direct2d\id2d1imagebrush_setextendmodey.htm
 tech.root: Direct2D
 ms.assetid: 8c71dff4-f682-4649-8e29-41bcd4b911a6
@@ -62,15 +62,6 @@ Sets the extend mode on the y-axis.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
 
 The extend mode on the y-axis of the image.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

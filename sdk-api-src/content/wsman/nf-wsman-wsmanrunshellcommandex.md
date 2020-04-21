@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManRunShellCommandEx
 title: WSManRunShellCommandEx function (wsman.h)
-description: Provides the same functionality as the WSManRunShellCommand function, with the addition of a command ID option.
+description: Provides the same functionality as the WSManRunShellCommand function, with the addition of a command ID option.helpviewer_keywords: ["WSManRunShellCommandEx","WSManRunShellCommandEx function [Windows Remote Management]","winrm.wsmanrunshellcommandex","wsman/WSManRunShellCommandEx"]
 old-location: winrm\wsmanrunshellcommandex.htm
 tech.root: winrm
 ms.assetid: 3FEAB627-C38F-4709-BA17-0AFF76015A97
@@ -95,13 +95,5 @@ Defines an asynchronous structure. The asynchronous structure contains an option
 ### -param command [out]
 
 Defines the command object associated with a command within a shell. This handle is returned on a successful call and is used to send and receive data and to signal the command. This handle should be closed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanclosecommand">WSManCloseCommand</a> method. This parameter cannot be <b>NULL</b>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

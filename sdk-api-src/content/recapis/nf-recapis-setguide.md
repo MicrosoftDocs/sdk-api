@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.SetGuide
 title: SetGuide function (recapis.h)
-description: Sets the recognition guide to use for boxed or lined input. You must call this function before you add strokes to the context.
+description: Sets the recognition guide to use for boxed or lined input. You must call this function before you add strokes to the context.helpviewer_keywords: ["3ca3c743-83f9-46b0-851a-cba6e4ed980a","SetGuide","SetGuide function [Tablet PC]","recapis/SetGuide","tablet.setguide"]
 old-location: tablet\setguide.htm
 tech.root: tablet
 ms.assetid: 3ca3c743-83f9-46b0-851a-cba6e4ed980a

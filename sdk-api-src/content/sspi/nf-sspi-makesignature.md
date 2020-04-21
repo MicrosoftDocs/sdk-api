@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.MakeSignature
 title: MakeSignature function (sspi.h)
-description: Generates a cryptographic checksum of the message, and also includes sequencing information to prevent message loss or insertion.
+description: Generates a cryptographic checksum of the message, and also includes sequencing information to prevent message loss or insertion.helpviewer_keywords: ["0","1","2","3","4","MakeSignature","MakeSignature function [Security]","_ssp_makesignature","security.makesignature","sspi/MakeSignature"]
 old-location: security\makesignature.htm
 tech.root: SecAuthN
 ms.assetid: d17824b0-6121-48a3-b19b-d4fae3e1348e

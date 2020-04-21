@@ -1,7 +1,7 @@
 ---
 UID: NS:ddkmapi._DDLOCKIN
 title: DDLOCKIN (ddkmapi.h)
-description: The DDLOCKIN structure contains the Microsoft DirectDraw object and DirectDraw surface handle information.
+description: The DDLOCKIN structure contains the Microsoft DirectDraw object and DirectDraw surface handle information.helpviewer_keywords: ["*LPDDLOCKIN","DDLOCKIN","DDLOCKIN structure [Display Devices]","LPDDLOCKIN","LPDDLOCKIN structure pointer [Display Devices]","ddkmapi/DDLOCKIN","ddkmapi/LPDDLOCKIN","ddstrcts_b8a5f627-94dd-4353-b9f1-edc6f65adaba.xml","display.ddlockin"]
 old-location: display\ddlockin.htm
 tech.root: display
 ms.assetid: 47bc1879-80a5-4850-a303-dbbebbd83de6

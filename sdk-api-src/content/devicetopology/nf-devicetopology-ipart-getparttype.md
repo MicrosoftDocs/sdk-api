@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IPart.GetPartType
 title: IPart::GetPartType (devicetopology.h)
-description: The GetPartType method gets the part type of this part.
+description: The GetPartType method gets the part type of this part.helpviewer_keywords: ["GetPartType","GetPartType method [Core Audio]","GetPartType method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetPartType method","IPart.GetPartType","IPart::GetPartType","IPartGetPartType","coreaudio.ipart_getparttype","devicetopology/IPart::GetPartType"]
 old-location: coreaudio\ipart_getparttype.htm
 tech.root: CoreAudio
 ms.assetid: 79af1dce-b946-4ef2-af36-4437603966da

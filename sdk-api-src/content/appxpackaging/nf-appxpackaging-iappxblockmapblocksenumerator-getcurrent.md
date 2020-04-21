@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlocksEnumerator.GetCurrent
 title: IAppxBlockMapBlocksEnumerator::GetCurrent (appxpackaging.h)
-description: Gets the block at the current position of the enumerator.
+description: Gets the block at the current position of the enumerator.helpviewer_keywords: ["GetCurrent","GetCurrent method [App packaging and management]","GetCurrent method [App packaging and management]","IAppxBlockMapBlocksEnumerator interface","IAppxBlockMapBlocksEnumerator interface [App packaging and management]","GetCurrent method","IAppxBlockMapBlocksEnumerator.GetCurrent","IAppxBlockMapBlocksEnumerator::GetCurrent","appxpackaging/IAppxBlockMapBlocksEnumerator::GetCurrent","appxpkg.iappxblockmapblocksenumerator_getcurrent"]
 old-location: appxpkg\iappxblockmapblocksenumerator_getcurrent.htm
 tech.root: appxpkg
 ms.assetid: A546BD4D-DA7A-4A50-BD45-2219D70DF0F9

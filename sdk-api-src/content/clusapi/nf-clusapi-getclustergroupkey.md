@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.GetClusterGroupKey
 title: GetClusterGroupKey function (clusapi.h)
-description: Opens the root of the cluster database subtree for a group.
+description: Opens the root of the cluster database subtree for a group.helpviewer_keywords: ["GetClusterGroupKey","GetClusterGroupKey function [Failover Cluster]","_wolf_getclustergroupkey","clusapi/GetClusterGroupKey","mscs.getclustergroupkey"]
 old-location: mscs\getclustergroupkey.htm
 tech.root: MsCS
 ms.assetid: 86f34e31-f240-485f-a5b6-e4de922b8d97

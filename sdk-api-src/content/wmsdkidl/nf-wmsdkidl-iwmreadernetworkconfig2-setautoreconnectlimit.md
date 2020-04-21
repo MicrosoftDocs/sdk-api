@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetAutoReconnectLimit
 title: IWMReaderNetworkConfig2::SetAutoReconnectLimit (wmsdkidl.h)
-description: The SetAutoReconnectLimit method sets the maximum number of times the reader will attempt to reconnect to the server in the case of an unexpected disconnection.
+description: The SetAutoReconnectLimit method sets the maximum number of times the reader will attempt to reconnect to the server in the case of an unexpected disconnection.helpviewer_keywords: ["IWMReaderNetworkConfig2 interface [windows Media Format]","SetAutoReconnectLimit method","IWMReaderNetworkConfig2.SetAutoReconnectLimit","IWMReaderNetworkConfig2::SetAutoReconnectLimit","IWMReaderNetworkConfig2SetAutoReconnectLimit","SetAutoReconnectLimit","SetAutoReconnectLimit method [windows Media Format]","SetAutoReconnectLimit method [windows Media Format]","IWMReaderNetworkConfig2 interface","wmformat.iwmreadernetworkconfig2_setautoreconnectlimit","wmsdkidl/IWMReaderNetworkConfig2::SetAutoReconnectLimit"]
 old-location: wmformat\iwmreadernetworkconfig2_setautoreconnectlimit.htm
 tech.root: wmformat
 ms.assetid: 0ef6bb5c-6369-4b80-a227-da790b1ab6da

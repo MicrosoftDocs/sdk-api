@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Edit_GetFileLineIndex
 title: Edit_GetFileLineIndex macro (commctrl.h)
-description: Gets the index of the file (or logical) line of text based on the specified visible line. You can use this macro or send the EM_FILELINEINDEX message explicitly.
+description: Gets the index of the file (or logical) line of text based on the specified visible line. You can use this macro or send the EM_FILELINEINDEX message explicitly.helpviewer_keywords: ["Edit_GetFileLineIndex","Edit_GetFileLineIndex macro [Windows Controls]","commctrl/Edit_GetFileLineIndex","controls.edit_getfilelineindex"]
 old-location: controls\edit_getfilelineindex.htm
 tech.root: Controls
 ms.assetid: FC119B71-BC5C-437E-9DBE-DD907F459D45

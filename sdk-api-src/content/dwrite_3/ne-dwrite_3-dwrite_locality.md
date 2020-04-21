@@ -1,7 +1,7 @@
 ---
 UID: NE:dwrite_3.DWRITE_LOCALITY
 title: DWRITE_LOCALITY (dwrite_3.h)
-description: Specifies the location of a resource.
+description: Specifies the location of a resource.helpviewer_keywords: ["DWRITE_LOCALITY","DWRITE_LOCALITY enumeration [Direct Write]","DWRITE_LOCALITY_LOCAL","DWRITE_LOCALITY_PARTIAL","DWRITE_LOCALITY_REMOTE","directwrite.dwrite_locality","dwrite_3/DWRITE_LOCALITY","dwrite_3/DWRITE_LOCALITY_LOCAL","dwrite_3/DWRITE_LOCALITY_PARTIAL","dwrite_3/DWRITE_LOCALITY_REMOTE"]
 old-location: directwrite\dwrite_locality.htm
 tech.root: DirectWrite
 ms.assetid: DEBFE4E0-C995-4468-9702-44EA37F1BCFF

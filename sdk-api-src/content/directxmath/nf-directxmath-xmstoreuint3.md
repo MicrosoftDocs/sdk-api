@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMStoreUInt3
 title: XMStoreUInt3 function (directxmath.h)
-description: Stores unsigned integer data from an XMVECTOR in an XMUINT3 structure.
+description: Stores unsigned integer data from an XMVECTOR in an XMUINT3 structure.helpviewer_keywords: ["Use DirectX..XMStoreUInt3","XMStoreUInt3","XMStoreUInt3 method [DirectX Math Support APIs]","dxmath.xmstoreuint3"]
 old-location: dxmath\xmstoreuint3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUInt3(XMUINT3@,XMVECTOR)

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorSaturate
 title: XMVectorSaturate function (directxmath.h)
-description: Saturates each component of a vector to the range 0.0f to 1.0f.
+description: Saturates each component of a vector to the range 0.0f to 1.0f.helpviewer_keywords: ["Use DirectX..XMVectorSaturate","XMVectorSaturate","XMVectorSaturate method [DirectX Math Support APIs]","dxmath.xmvectorsaturate"]
 old-location: dxmath\xmvectorsaturate.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorSaturate(XMVECTOR)

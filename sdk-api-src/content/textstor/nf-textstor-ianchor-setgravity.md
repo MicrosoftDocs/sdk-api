@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.IAnchor.SetGravity
 title: IAnchor::SetGravity (textstor.h)
-description: IAnchor::SetGravity method
+description: IAnchor::SetGravity methodhelpviewer_keywords: ["IAnchor interface [Text Services Framework]","SetGravity method","IAnchor.SetGravity","IAnchor::SetGravity","SetGravity","SetGravity method [Text Services Framework]","SetGravity method [Text Services Framework]","IAnchor interface","textstor/IAnchor::SetGravity","tsf.ianchor_setgravity"]
 old-location: tsf\ianchor_setgravity.htm
 tech.root: TSF
 ms.assetid: c532abcf-9ae0-4566-80f7-0bb4ae908fce
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the gravity of the anchor.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.Clear
 title: IWSDHttpMessageParameters::Clear (wsdbase.h)
-description: Clears the HTTP headers used for SOAP-over-HTTP transmissions.
+description: Clears the HTTP headers used for SOAP-over-HTTP transmissions.helpviewer_keywords: ["Clear","Clear method","Clear method","IWSDHttpMessageParameters interface","IWSDHttpMessageParameters interface","Clear method","IWSDHttpMessageParameters.Clear","IWSDHttpMessageParameters::Clear","ncd.iwsdhttpmessageparameters_clear","wsdbase/IWSDHttpMessageParameters::Clear"]
 old-location: ncd\iwsdhttpmessageparameters_clear.htm
 tech.root: WsdApi
 ms.assetid: e5cd5c07-3326-4508-89ac-939466381b12

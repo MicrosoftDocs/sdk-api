@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_CIPHER_ALGORITHM0_
 title: IKEEXT_CIPHER_ALGORITHM0 (iketypes.h)
-description: Stores information about the IKE/AuthIP encryption algorithm.
+description: Stores information about the IKE/AuthIP encryption algorithm.helpviewer_keywords: ["IKEEXT_CIPHER_ALGORITHM0","IKEEXT_CIPHER_ALGORITHM0 structure [Filtering]","fwp.ikeext_cipher_algorithm0","iketypes/IKEEXT_CIPHER_ALGORITHM0"]
 old-location: fwp\ikeext_cipher_algorithm0.htm
 tech.root: fwp
 ms.assetid: 940714a3-d098-4d02-9209-fcf3b24ee4e7

@@ -1,7 +1,7 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ProgramDeleted
 title: IGuideDataEvent::ProgramDeleted (bdatif.h)
-description: The ProgramDeleted method is called when a program has been deleted.
+description: The ProgramDeleted method is called when a program has been deleted.helpviewer_keywords: ["IGuideDataEvent interface [Microsoft TV Technologies]","ProgramDeleted method","IGuideDataEvent.ProgramDeleted","IGuideDataEvent::ProgramDeleted","IGuideDataEventProgramDeleted","ProgramDeleted","ProgramDeleted method [Microsoft TV Technologies]","ProgramDeleted method [Microsoft TV Technologies]","IGuideDataEvent interface","bdatif/IGuideDataEvent::ProgramDeleted","mstv.iguidedataevent_programdeleted"]
 old-location: mstv\iguidedataevent_programdeleted.htm
 tech.root: mstv
 ms.assetid: 4a71e139-1c09-473c-8195-0a55601d2f17

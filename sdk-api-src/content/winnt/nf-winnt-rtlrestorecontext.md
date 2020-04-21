@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.RtlRestoreContext
 title: RtlRestoreContext function (winnt.h)
-description: Restores the context of the caller to the specified context record.
+description: Restores the context of the caller to the specified context record.helpviewer_keywords: ["RtlRestoreContext","RtlRestoreContext function","base.rtlrestorecontext","winnt/RtlRestoreContext"]
 old-location: base\rtlrestorecontext.htm
 tech.root: Debug
 ms.assetid: f5304d17-bc67-4e0f-a535-efca4e65c74c

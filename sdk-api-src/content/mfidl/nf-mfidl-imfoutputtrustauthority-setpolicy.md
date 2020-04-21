@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFOutputTrustAuthority.SetPolicy
 title: IMFOutputTrustAuthority::SetPolicy (mfidl.h)
-description: Sets one or more policy objects on the output trust authority (OTA).
+description: Sets one or more policy objects on the output trust authority (OTA).helpviewer_keywords: ["IMFOutputTrustAuthority interface [Media Foundation]","SetPolicy method","IMFOutputTrustAuthority.SetPolicy","IMFOutputTrustAuthority::SetPolicy","SetPolicy","SetPolicy method [Media Foundation]","SetPolicy method [Media Foundation]","IMFOutputTrustAuthority interface","f5102ef3-472f-4a38-889c-e1c25dd46765","mf.imfoutputtrustauthority_setpolicy","mfidl/IMFOutputTrustAuthority::SetPolicy"]
 old-location: mf\imfoutputtrustauthority_setpolicy.htm
 tech.root: medfound
 ms.assetid: f5102ef3-472f-4a38-889c-e1c25dd46765

@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ILocator.put_OuterFECRate
 title: ILocator::put_OuterFECRate (tuner.h)
-description: The put_OuterFECRate method sets the outer FEC rate.
+description: The put_OuterFECRate method sets the outer FEC rate.helpviewer_keywords: ["IDigitalLocatorput_OuterFECRate","ILocator interface [Microsoft TV Technologies]","put_OuterFECRate method","ILocator.put_OuterFECRate","ILocator::put_OuterFECRate","mstv.ilocator_put_outerfecrate","put_OuterFECRate","put_OuterFECRate method [Microsoft TV Technologies]","put_OuterFECRate method [Microsoft TV Technologies]","ILocator interface","tuner/ILocator::put_OuterFECRate"]
 old-location: mstv\ilocator_put_outerfecrate.htm
 tech.root: mstv
 ms.assetid: 0fd3fa42-4ed6-459b-a6a2-23ed67832780

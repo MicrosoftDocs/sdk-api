@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRoot32BitConstants
 title: ID3D12GraphicsCommandList::SetComputeRoot32BitConstants (d3d12.h)
-description: Sets a group of constants in the compute root signature.
+description: Sets a group of constants in the compute root signature.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetComputeRoot32BitConstants method","ID3D12GraphicsCommandList.SetComputeRoot32BitConstants","ID3D12GraphicsCommandList::SetComputeRoot32BitConstants","SetComputeRoot32BitConstants","SetComputeRoot32BitConstants method","SetComputeRoot32BitConstants method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetComputeRoot32BitConstants","direct3d12.id3d12graphicscommandlist_setcomputeroot32bitconstants"]
 old-location: direct3d12\id3d12graphicscommandlist_setcomputeroot32bitconstants.htm
 tech.root: direct3d12
 ms.assetid: A4623522-4748-4999-80EC-E6AC8934136A
@@ -84,16 +84,6 @@ The source data for the group of constants to set.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The offset, in 32-bit values, to set the first constant of the group in the root signature.
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -see-also

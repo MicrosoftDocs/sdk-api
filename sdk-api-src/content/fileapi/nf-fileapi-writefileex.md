@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.WriteFileEx
 title: WriteFileEx function (fileapi.h)
-description: Writes data to the specified file or input/output (I/O) device. It reports its completion status asynchronously, calling the specified completion routine when writing is completed or canceled and the calling thread is in an alertable wait state.
+description: Writes data to the specified file or input/output (I/O) device. It reports its completion status asynchronously, calling the specified completion routine when writing is completed or canceled and the calling thread is in an alertable wait state.helpviewer_keywords: ["WriteFileEx","WriteFileEx function [Files]","_win32_writefileex","base.writefileex","fileapi/WriteFileEx","fs.writefileex","winbase/WriteFileEx"]
 old-location: fs\writefileex.htm
 tech.root: FileIO
 ms.assetid: 6995c4ee-ba91-41d5-b72d-19dc2eb95945

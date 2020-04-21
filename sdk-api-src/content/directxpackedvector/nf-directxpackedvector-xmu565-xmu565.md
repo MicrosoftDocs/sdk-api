@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565
 title: XMU565::XMU565 (directxpackedvector.h)
-description: Default constructor for XMU565.
+description: Default constructor for XMU565.helpviewer_keywords: ["XMU565","XMU565 constructor [DirectX Math Support APIs]","XMU565 constructor [DirectX Math Support APIs]","XMU565 structure","XMU565 structure [DirectX Math Support APIs]","XMU565 constructor","XMU565.XMU565","XMU565.XMU565()","XMU565::XMU565","dxmath.xmu565_ctor_1"]
 old-location: dxmath\xmu565_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.#ctor

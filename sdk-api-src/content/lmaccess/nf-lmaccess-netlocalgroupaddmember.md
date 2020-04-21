@@ -1,7 +1,7 @@
 ---
 UID: NF:lmaccess.NetLocalGroupAddMember
 title: NetLocalGroupAddMember function (lmaccess.h)
-description: The NetLocalGroupAddMember function is obsolete. You should use the NetLocalGroupAddMembers function instead.
+description: The NetLocalGroupAddMember function is obsolete. You should use the NetLocalGroupAddMembers function instead.helpviewer_keywords: ["NetLocalGroupAddMember","NetLocalGroupAddMember function [Network Management]","_win32_netlocalgroupaddmember","lmaccess/NetLocalGroupAddMember","netmgmt.netlocalgroupaddmember"]
 old-location: netmgmt\netlocalgroupaddmember.htm
 tech.root: NetMgmt
 ms.assetid: df249dfd-2509-4e67-af4d-b152b95d0eae

@@ -1,7 +1,7 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.SetBackgroundColor
 title: IMFVideoProcessor::SetBackgroundColor (evr9.h)
-description: Sets the background color for the composition rectangle. The background color is used for letterboxing the video image.
+description: Sets the background color for the composition rectangle. The background color is used for letterboxing the video image.helpviewer_keywords: ["IMFVideoProcessor interface [Media Foundation]","SetBackgroundColor method","IMFVideoProcessor.SetBackgroundColor","IMFVideoProcessor::SetBackgroundColor","SetBackgroundColor","SetBackgroundColor method [Media Foundation]","SetBackgroundColor method [Media Foundation]","IMFVideoProcessor interface","evr9/IMFVideoProcessor::SetBackgroundColor","fb654dba-1f03-48a7-ac8e-fa0c82f29849","mf.imfvideoprocessor_setbackgroundcolor"]
 old-location: mf\imfvideoprocessor_setbackgroundcolor.htm
 tech.root: medfound
 ms.assetid: fb654dba-1f03-48a7-ac8e-fa0c82f29849

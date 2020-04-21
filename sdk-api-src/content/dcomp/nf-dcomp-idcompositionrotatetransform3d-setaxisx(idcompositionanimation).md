@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAxisX(IDCompositionAnimation)
 title: IDCompositionRotateTransform3D::SetAxisX(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the AxisX property of a 3D rotation transform. The AxisX property specifies the x-coordinate for the axis vector of rotation. The default value is zero.
+description: Animates the value of the AxisX property of a 3D rotation transform. The AxisX property specifies the x-coordinate for the axis vector of rotation. The default value is zero.helpviewer_keywords: ["IDCompositionRotateTransform3D interface [DirectComposition]","SetAxisX method","IDCompositionRotateTransform3D.SetAxisX","IDCompositionRotateTransform3D.SetAxisX(IDCompositionAnimation)","IDCompositionRotateTransform3D::SetAxisX","IDCompositionRotateTransform3D::SetAxisX(IDCompositionAnimation)","IDCompositionRotateTransform3D::SetAxisX(IDCompositionAnimation*)","SetAxisX","SetAxisX method [DirectComposition]","SetAxisX method [DirectComposition]","IDCompositionRotateTransform3D interface","dcomp/IDCompositionRotateTransform3D::SetAxisX","directcomp.idcompositionrotatetransform3d_setaxisx_idcompositionanimation"]
 old-location: directcomp\idcompositionrotatetransform3d_setaxisx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: EC871F31-BFBC-4AF6-9A1C-BD4EBBBCD6C3

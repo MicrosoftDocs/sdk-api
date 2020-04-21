@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFont.HasCharacter
 title: IDWriteFont::HasCharacter (dwrite.h)
-description: Determines whether the font supports a specified character.
+description: Determines whether the font supports a specified character.helpviewer_keywords: ["HasCharacter","HasCharacter method [Direct Write]","HasCharacter method [Direct Write]","IDWriteFont interface","IDWriteFont interface [Direct Write]","HasCharacter method","IDWriteFont.HasCharacter","IDWriteFont::HasCharacter","directwrite.IDWriteFont_HasCharacter","dwrite/IDWriteFont::HasCharacter"]
 old-location: directwrite\IDWriteFont_HasCharacter.htm
 tech.root: DirectWrite
 ms.assetid: 5392119a-dfc3-4947-9a0f-fa66ee6359d6

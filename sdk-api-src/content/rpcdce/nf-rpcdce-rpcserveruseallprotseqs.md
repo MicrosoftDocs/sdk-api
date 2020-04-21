@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcServerUseAllProtseqs
 title: RpcServerUseAllProtseqs function (rpcdce.h)
-description: The RpcServerUseAllProtseqs function tells the RPC run-time library to use all supported protocol sequences for receiving remote procedure calls.
+description: The RpcServerUseAllProtseqs function tells the RPC run-time library to use all supported protocol sequences for receiving remote procedure calls.helpviewer_keywords: ["RpcServerUseAllProtseqs","RpcServerUseAllProtseqs function [RPC]","_rpc_rpcserveruseallprotseqs","rpc.rpcserveruseallprotseqs","rpcdce/RpcServerUseAllProtseqs"]
 old-location: rpc\rpcserveruseallprotseqs.htm
 tech.root: Rpc
 ms.assetid: e7379656-d6b7-4e5f-9251-7b112a40c6d5

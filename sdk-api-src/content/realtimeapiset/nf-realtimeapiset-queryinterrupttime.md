@@ -1,7 +1,7 @@
 ---
 UID: NF:realtimeapiset.QueryInterruptTime
 title: QueryInterruptTime function (realtimeapiset.h)
-description: Gets the current interrupt-time count.
+description: Gets the current interrupt-time count.helpviewer_keywords: ["QueryInterruptTime","QueryInterruptTime function","base.queryinterrupttime","realtimeapiset/QueryInterruptTime"]
 old-location: base\queryinterrupttime.htm
 tech.root: SysInfo
 ms.assetid: FB2B179B-5E44-4201-86E2-DB386607FD90
@@ -65,15 +65,6 @@ Gets the current interrupt-time count. For a more precise count, use <a href="ht
 ### -param lpInterruptTime [out]
 
 A pointer to a ULONGLONG in which to receive the interrupt-time count in system time units of 100 nanoseconds. Divide by ten million, or 1e7, to get seconds (there are 1e9 nanoseconds in a second, so there are 1e7 100-nanoseconds in a second).
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

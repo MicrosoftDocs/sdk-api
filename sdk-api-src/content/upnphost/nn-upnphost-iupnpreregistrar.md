@@ -1,7 +1,7 @@
 ---
 UID: NN:upnphost.IUPnPReregistrar
 title: IUPnPReregistrar (upnphost.h)
-description: The IUPnPReregistrar interface allows the application to re-register a UPnP-based device with the device host.
+description: The IUPnPReregistrar interface allows the application to re-register a UPnP-based device with the device host.helpviewer_keywords: ["IUPnPReregistrar","IUPnPReregistrar interface [UPnP APIs]","IUPnPReregistrar interface [UPnP APIs]","described","_upnp_iupnpreregistrar","upnp.iupnpreregistrar","upnphost/IUPnPReregistrar"]
 old-location: upnp\iupnpreregistrar.htm
 tech.root: upnp
 ms.assetid: e01f325b-8fbd-43f2-a835-41cd3232f62e

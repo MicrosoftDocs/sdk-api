@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.ContainedBy
 title: BoundingOrientedBox::ContainedBy
-description: Tests whether the BoundingOrientedBox is contained by a frustum.
+description: Tests whether the BoundingOrientedBox is contained by a frustum.helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","ContainedBy method","BoundingOrientedBox.ContainedBy","BoundingOrientedBox::ContainedBy","ContainedBy","ContainedBy method [DirectX Math Support APIs]","ContainedBy method [DirectX Math Support APIs]","BoundingOrientedBox interface","dxmath.boundingorientedbox_containedby"]
 old-location: dxmath\boundingorientedbox_containedby.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.ContainedBy(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)

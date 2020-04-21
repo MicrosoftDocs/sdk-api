@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamColorSpace
 title: ID3D11VideoContext::VideoProcessorGetStreamColorSpace (d3d11.h)
-description: Gets the color space for an input stream of the video processor.
+description: Gets the color space for an input stream of the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamColorSpace method","ID3D11VideoContext.VideoProcessorGetStreamColorSpace","ID3D11VideoContext::VideoProcessorGetStreamColorSpace","VideoProcessorGetStreamColorSpace","VideoProcessorGetStreamColorSpace method [Media Foundation]","VideoProcessorGetStreamColorSpace method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamColorSpace","mf.id3d11videocontext_videoprocessorgetstreamcolorspace"]
 old-location: mf\id3d11videocontext_videoprocessorgetstreamcolorspace.htm
 tech.root: medfound
 ms.assetid: 4D66147C-D4FC-40BC-B406-B40B6EA24D94
@@ -72,15 +72,6 @@ The zero-based index of the input stream. To get the maximum number of streams, 
 ### -param pColorSpace [out]
 
 Receives a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_color_space">D3D11_VIDEO_PROCESSOR_COLOR_SPACE</a> value that specifies the color space.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

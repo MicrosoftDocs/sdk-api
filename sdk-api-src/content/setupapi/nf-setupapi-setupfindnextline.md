@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupFindNextLine
 title: SetupFindNextLine function (setupapi.h)
-description: The SetupFindNextLine returns the location of the next line in an INF file section relative to ContextIn.Line.
+description: The SetupFindNextLine returns the location of the next line in an INF file section relative to ContextIn.Line.helpviewer_keywords: ["SetupFindNextLine","SetupFindNextLine function [Setup API]","_setupapi_setupfindnextline","setup.setupfindnextline","setupapi/SetupFindNextLine"]
 old-location: setup\setupfindnextline.htm
 tech.root: SetupApi
 ms.assetid: ba5b3c62-c6b7-4ec1-83e2-45cdc910a34d

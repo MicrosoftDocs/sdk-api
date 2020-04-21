@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPLibrarySharingServices
 title: IWMPLibrarySharingServices (wmp.h)
-description: The IWMPLibrarySharingServices interface provides methods to manage library sharing.To use this interface, you must create a remoted instance of the Windows Media Player control.
+description: The IWMPLibrarySharingServices interface provides methods to manage library sharing.To use this interface, you must create a remoted instance of the Windows Media Player control.helpviewer_keywords: ["IWMPLibrarySharingServices","IWMPLibrarySharingServices interface [Windows Media Player]","IWMPLibrarySharingServices interface [Windows Media Player]","described","IWMPLibrarySharingServicesInterface","wmp.iwmplibrarysharingservices","wmp/IWMPLibrarySharingServices"]
 old-location: wmp\iwmplibrarysharingservices.htm
 tech.root: WMP
 ms.assetid: 24cac18c-a3aa-4cd0-b5f7-025db2eed0b8

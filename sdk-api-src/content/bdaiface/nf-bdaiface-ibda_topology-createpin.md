@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.CreatePin
 title: IBDA_Topology::CreatePin (bdaiface.h)
-description: The CreatePin method creates an instance of a specified pin type.
+description: The CreatePin method creates an instance of a specified pin type.helpviewer_keywords: ["CreatePin","CreatePin method [Microsoft TV Technologies]","CreatePin method [Microsoft TV Technologies]","IBDA_Topology interface","IBDA_Topology interface [Microsoft TV Technologies]","CreatePin method","IBDA_Topology.CreatePin","IBDA_Topology::CreatePin","IBDA_TopologyCreatePin","bdaiface/IBDA_Topology::CreatePin","mstv.ibda_topology_createpin"]
 old-location: mstv\ibda_topology_createpin.htm
 tech.root: mstv
 ms.assetid: ced0f8a8-7a34-4357-8795-491e60a22e91

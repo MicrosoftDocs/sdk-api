@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2spi.WSCInstallNameSpaceEx
 title: WSCInstallNameSpaceEx function (ws2spi.h)
-description: Installs a namespace provider.
+description: Installs a namespace provider.helpviewer_keywords: ["WSCInstallNameSpaceEx","WSCInstallNameSpaceEx function [Winsock]","winsock.wscinstallnamespaceex","ws2spi/WSCInstallNameSpaceEx"]
 old-location: winsock\wscinstallnamespaceex.htm
 tech.root: WinSock
 ms.assetid: 13dde602-c958-4312-a16f-a393dd6fb829

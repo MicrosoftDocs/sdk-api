@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsServiceOperations
 title: IADsServiceOperations (iads.h)
-description: The IADsServiceOperations interface is a dual interface that inherits from IADs.
+description: The IADsServiceOperations interface is a dual interface that inherits from IADs.helpviewer_keywords: ["IADsServiceOperations","IADsServiceOperations interface [ADSI]","IADsServiceOperations interface [ADSI]","described","_ds_iadsserviceoperations","adsi.iadsserviceoperations","iads/IADsServiceOperations"]
 old-location: adsi\iadsserviceoperations.htm
 tech.root: adsi
 ms.assetid: f2459ca2-8a14-4343-bec6-ef3775dbf415

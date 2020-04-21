@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_Channels
 title: ITScriptableAudioFormat::get_Channels (tapi3if.h)
-description: The get_Channels method returns the value for the nChannels member in the WAVEFORMATEX structure.
+description: The get_Channels method returns the value for the nChannels member in the WAVEFORMATEX structure.helpviewer_keywords: ["ITScriptableAudioFormat interface [TAPI 2.2]","get_Channels method","ITScriptableAudioFormat.get_Channels","ITScriptableAudioFormat::get_Channels","_tapi3_itscriptableaudioformat_get_channels","get_Channels","get_Channels method [TAPI 2.2]","get_Channels method [TAPI 2.2]","ITScriptableAudioFormat interface","tapi3.itscriptableaudioformat_get_channels","tapi3if/ITScriptableAudioFormat::get_Channels"]
 old-location: tapi3\itscriptableaudioformat_get_channels.htm
 tech.root: Tapi
 ms.assetid: 3d92b08f-d108-4ea5-beac-cff2fad258cc

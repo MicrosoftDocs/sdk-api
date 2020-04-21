@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenException
 title: IFsrmFileScreenException (fsrmscreen.h)
-description: Used to configure an exception that excludes the specified files from the file screening process.
+description: Used to configure an exception that excludes the specified files from the file screening process.helpviewer_keywords: ["IFsrmFileScreenException","IFsrmFileScreenException interface [File Server Resource Manager]","IFsrmFileScreenException interface [File Server Resource Manager]","described","fs.ifsrmfilescreenexception","fsrm.ifsrmfilescreenexception","fsrmscreen/IFsrmFileScreenException"]
 old-location: fsrm\ifsrmfilescreenexception.htm
 tech.root: fsrm
 ms.assetid: 188e76dd-6df6-412f-8d51-fc727075de80

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.DrawSvgGlyphRun
 title: ID2D1DeviceContext4::DrawSvgGlyphRun (d2d1_3.h)
-description: Draws a color glyph run that has the format of DWRITE_GLYPH_IMAGE_FORMATS_SVG.
+description: Draws a color glyph run that has the format of DWRITE_GLYPH_IMAGE_FORMATS_SVG.helpviewer_keywords: ["DrawSvgGlyphRun","DrawSvgGlyphRun method [Direct2D]","DrawSvgGlyphRun method [Direct2D]","ID2D1DeviceContext4 interface","ID2D1DeviceContext4 interface [Direct2D]","DrawSvgGlyphRun method","ID2D1DeviceContext4.DrawSvgGlyphRun","ID2D1DeviceContext4::DrawSvgGlyphRun","d2d1_3/ID2D1DeviceContext4::DrawSvgGlyphRun","direct2d.id2d1devicecontext4_drawsvgglyphrun"]
 old-location: direct2d\id2d1devicecontext4_drawsvgglyphrun.htm
 tech.root: Direct2D
 ms.assetid: 20E9047F-3671-4C6D-8A46-C3F77E16BC1C
@@ -98,15 +98,6 @@ The index used to select a color palette within a color font. Note that this not
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 Indicates the measuring method used for text layout.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_FILTER_GLOBAL_INFO
 title: DHCP_FILTER_GLOBAL_INFO (dhcpsapi.h)
-description: Contains information about the enabling and disabling of the allow and deny filter lists.
+description: Contains information about the enabling and disabling of the allow and deny filter lists.helpviewer_keywords: ["*LPDHCP_FILTER_GLOBAL_INFO","DHCP_FILTER_GLOBAL_INFO","DHCP_FILTER_GLOBAL_INFO structure [DHCP]","PDHCP_FILTER_GLOBAL_INFO","PDHCP_FILTER_GLOBAL_INFO structure pointer [DHCP]","dhcp.dhcp_filter_global_info","dhcpsapi/DHCP_FILTER_GLOBAL_INFO","dhcpsapi/PDHCP_FILTER_GLOBAL_INFO"]
 old-location: dhcp\dhcp_filter_global_info.htm
 tech.root: DHCP
 ms.assetid: babf9cdb-bd43-41ea-9cb4-209ff129b0f2

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.TrackProperties
 title: ITfContext::TrackProperties (msctf.h)
-description: ITfContext::TrackProperties method
+description: ITfContext::TrackProperties methodhelpviewer_keywords: ["ITfContext interface [Text Services Framework]","TrackProperties method","ITfContext.TrackProperties","ITfContext::TrackProperties","TrackProperties","TrackProperties method [Text Services Framework]","TrackProperties method [Text Services Framework]","ITfContext interface","_tsf_itfcontext_trackproperties_ref","msctf/ITfContext::TrackProperties","tsf.itfcontext_trackproperties"]
 old-location: tsf\itfcontext_trackproperties.htm
 tech.root: TSF
 ms.assetid: e283a45d-b585-4a26-89db-7ed706f0f593
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a special property that can enumerate multiple properties over multiple ranges.
 
 ## -parameters
 

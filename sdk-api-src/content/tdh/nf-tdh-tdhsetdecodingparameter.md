@@ -1,7 +1,7 @@
 ---
 UID: NF:tdh.TdhSetDecodingParameter
 title: TdhSetDecodingParameter function (tdh.h)
-description: Sets the value of a decoding parameter.
+description: Sets the value of a decoding parameter.helpviewer_keywords: ["TdhSetDecodingParameter","TdhSetDecodingParameter function [ETW]","etw.tdhsetdecodingparameter","tdh/TdhSetDecodingParameter"]
 old-location: etw\tdhsetdecodingparameter.htm
 tech.root: ETW
 ms.assetid: 00a286f4-cf0f-46d5-a797-bb7494a68034

@@ -1,7 +1,7 @@
 ---
 UID: NN:spellcheck.IUserDictionariesRegistrar
 title: IUserDictionariesRegistrar (spellcheck.h)
-description: Manages the registration of user dictionaries.
+description: Manages the registration of user dictionaries.helpviewer_keywords: ["IUserDictionariesRegistrar","IUserDictionariesRegistrar interface [Internationalization for Windows Applications]","IUserDictionariesRegistrar interface [Internationalization for Windows Applications]","described","intl.iuserdictionariesregistrar","spellcheck/IUserDictionariesRegistrar"]
 old-location: intl\iuserdictionariesregistrar.htm
 tech.root: Intl
 ms.assetid: eca9446a-268e-4318-a5e7-8bb8592c9660

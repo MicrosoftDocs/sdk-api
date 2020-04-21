@@ -1,7 +1,7 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Logout
 title: IWMPContentPartner::Logout (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Logout method ends the user's online store session.
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Logout method ends the user's online store session.helpviewer_keywords: ["IWMPContentPartner interface [Windows Media Player]","Logout method","IWMPContentPartner.Logout","IWMPContentPartner::Logout","IWMPContentPartnerLogout","Logout","Logout method [Windows Media Player]","Logout method [Windows Media Player]","IWMPContentPartner interface","contentpartner/IWMPContentPartner::Logout","wmp.iwmpcontentpartner_logout"]
 old-location: wmp\iwmpcontentpartner_logout.htm
 tech.root: WMP
 ms.assetid: 8919dd66-1ec0-4551-8132-7067957bb545

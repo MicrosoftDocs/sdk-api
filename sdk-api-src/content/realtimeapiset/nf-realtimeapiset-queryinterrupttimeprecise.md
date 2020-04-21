@@ -1,7 +1,7 @@
 ---
 UID: NF:realtimeapiset.QueryInterruptTimePrecise
 title: QueryInterruptTimePrecise function (realtimeapiset.h)
-description: Gets the current interrupt-time count, in a more precise form than QueryInterruptTime does.
+description: Gets the current interrupt-time count, in a more precise form than QueryInterruptTime does.helpviewer_keywords: ["QueryInterruptTimePrecise","QueryInterruptTimePrecise function","base.queryinterrupttimeprecise","realtimeapiset/QueryInterruptTimePrecise"]
 old-location: base\queryinterrupttimeprecise.htm
 tech.root: SysInfo
 ms.assetid: 0F65A707-0899-4F79-B7CD-16C9143C4173
@@ -65,15 +65,6 @@ Gets the current interrupt-time count, in a more precise form than <a href="http
 ### -param lpInterruptTimePrecise [out]
 
 A pointer to a ULONGLONG in which to receive the interrupt-time count in system time units of 100 nanoseconds. Divide by ten million, or 1e7, to get seconds (there are 1e9 nanoseconds in a second, so there are 1e7 100-nanoseconds in a second).
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

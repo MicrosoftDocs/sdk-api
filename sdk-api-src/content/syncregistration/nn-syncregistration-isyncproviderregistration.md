@@ -1,7 +1,7 @@
 ---
 UID: NN:syncregistration.ISyncProviderRegistration
 title: ISyncProviderRegistration (syncregistration.h)
-description: Represents synchronization provider registration.
+description: Represents synchronization provider registration.helpviewer_keywords: ["ISyncProviderRegistration","ISyncProviderRegistration interface [Windows Sync]","ISyncProviderRegistration interface [Windows Sync]","described","syncregistration/ISyncProviderRegistration","winsync.isyncproviderregistration"]
 old-location: winsync\isyncproviderregistration.htm
 tech.root: winsync
 ms.assetid: e7cf0c05-9d07-4630-ae34-9a9dd81492b2

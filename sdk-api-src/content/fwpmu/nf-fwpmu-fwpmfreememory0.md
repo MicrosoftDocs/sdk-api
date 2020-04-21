@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmFreeMemory0
 title: FwpmFreeMemory0 function (fwpmu.h)
-description: Is used to release memory resources allocated by the Windows Filtering Platform (WFP) functions.
+description: Is used to release memory resources allocated by the Windows Filtering Platform (WFP) functions.helpviewer_keywords: ["FwpmFreeMemory0","FwpmFreeMemory0 function [Filtering]","fwp.fwpmfreememory0_func","fwpmu/FwpmFreeMemory0"]
 old-location: fwp\fwpmfreememory0_func.htm
 tech.root: fwp
 ms.assetid: ba9f8c1e-f75c-4bf0-b68b-e21a358575fc
@@ -62,15 +62,6 @@ The <b>FwpmFreeMemory0</b> function is used to release memory resources allocate
 Type: <b>void**</b>
 
 Address of the pointer to be freed.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

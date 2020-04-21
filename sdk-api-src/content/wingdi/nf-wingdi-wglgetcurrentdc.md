@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.wglGetCurrentDC
 title: wglGetCurrentDC function (wingdi.h)
-description: The wglGetCurrentDC function obtains a handle to the device context that is associated with the current OpenGL rendering context of the calling thread.
+description: The wglGetCurrentDC function obtains a handle to the device context that is associated with the current OpenGL rendering context of the calling thread.helpviewer_keywords: ["_ogl_wglGetCurrentDC","opengl.wglgetcurrentdc","wglGetCurrentDC","wglGetCurrentDC function [OpenGL]","wingdi/wglGetCurrentDC"]
 old-location: opengl\wglgetcurrentdc.htm
 tech.root: OpenGL
 ms.assetid: 026f6181-75a2-4781-8762-d5599ce90af2

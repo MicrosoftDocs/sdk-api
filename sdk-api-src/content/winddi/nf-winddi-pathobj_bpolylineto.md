@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.PATHOBJ_bPolyLineTo
 title: PATHOBJ_bPolyLineTo function (winddi.h)
-description: The PATHOBJ_bPolyLineTo function draws lines from the current position in a path through the specified points.
+description: The PATHOBJ_bPolyLineTo function draws lines from the current position in a path through the specified points.helpviewer_keywords: ["PATHOBJ_bPolyLineTo","PATHOBJ_bPolyLineTo function [Display Devices]","display.pathobj_bpolylineto","gdifncs_eaa54bcf-8b39-4661-a2cf-79198ffa1df6.xml","winddi/PATHOBJ_bPolyLineTo"]
 old-location: display\pathobj_bpolylineto.htm
 tech.root: display
 ms.assetid: 468d20e3-a78b-47b3-9c56-ef355181eb63

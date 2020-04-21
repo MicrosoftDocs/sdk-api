@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputBackgroundColor
 title: ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor (d3d11.h)
-description: Gets the current background color for the video processor.
+description: Gets the current background color for the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetOutputBackgroundColor method","ID3D11VideoContext.VideoProcessorGetOutputBackgroundColor","ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor","VideoProcessorGetOutputBackgroundColor","VideoProcessorGetOutputBackgroundColor method [Media Foundation]","VideoProcessorGetOutputBackgroundColor method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor","mf.id3d11videocontext_videoprocessorgetoutputbackgroundcolor"]
 old-location: mf\id3d11videocontext_videoprocessorgetoutputbackgroundcolor.htm
 tech.root: medfound
 ms.assetid: B22666BC-EADF-4812-B299-1EA45F1943C4
@@ -70,15 +70,6 @@ Receives the value <b>TRUE</b> if the background color is a YCbCr color, or <b>F
 ### -param pColor [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_color">D3D11_VIDEO_COLOR</a> structure. The method fills in the structure with the background color.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

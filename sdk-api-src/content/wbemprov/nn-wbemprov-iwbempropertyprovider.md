@@ -1,7 +1,7 @@
 ---
 UID: NN:wbemprov.IWbemPropertyProvider
 title: IWbemPropertyProvider (wbemprov.h)
-description: Supports retrieving and updating individual properties in an instance of a WMI class.
+description: Supports retrieving and updating individual properties in an instance of a WMI class.helpviewer_keywords: ["IWbemPropertyProvider","IWbemPropertyProvider interface [Windows Management Instrumentation]","IWbemPropertyProvider interface [Windows Management Instrumentation]","described","_hmm_iwbempropertyprovider","wbemprov/IWbemPropertyProvider","wmi.iwbempropertyprovider"]
 old-location: wmi\iwbempropertyprovider.htm
 tech.root: WmiSdk
 ms.assetid: 8a7910ae-4258-4486-80ff-82b1081083cc

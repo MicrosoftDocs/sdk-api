@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IEnumComponentTypes.Clone
 title: IEnumComponentTypes::Clone (tuner.h)
-description: The Clone method creates a new copy of the collection and all its sub-objects.
+description: The Clone method creates a new copy of the collection and all its sub-objects.helpviewer_keywords: ["Clone","Clone method [Microsoft TV Technologies]","Clone method [Microsoft TV Technologies]","IEnumComponentTypes interface","IEnumComponentTypes interface [Microsoft TV Technologies]","Clone method","IEnumComponentTypes.Clone","IEnumComponentTypes::Clone","IEnumComponentTypesClone","mstv.ienumcomponenttypes_clone","tuner/IEnumComponentTypes::Clone"]
 old-location: mstv\ienumcomponenttypes_clone.htm
 tech.root: mstv
 ms.assetid: 777c7302-5b5b-4263-ad9e-3d1bff5328fc

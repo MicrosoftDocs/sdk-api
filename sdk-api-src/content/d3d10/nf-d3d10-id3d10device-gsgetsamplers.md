@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSGetSamplers
 title: ID3D10Device::GSGetSamplers (d3d10.h)
-description: Get an array of sampler states from the geometry shader pipeline stage.
+description: Get an array of sampler states from the geometry shader pipeline stage.helpviewer_keywords: ["GSGetSamplers","GSGetSamplers method [Direct3D 10]","GSGetSamplers method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GSGetSamplers method","ID3D10Device.GSGetSamplers","ID3D10Device::GSGetSamplers","d3d10/ID3D10Device::GSGetSamplers","d4899d8d-c796-58f0-bf8b-42bb650492dc","direct3d10.id3d10device_gsgetsamplers"]
 old-location: direct3d10\id3d10device_gsgetsamplers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gsgetsamplers.htm
@@ -77,15 +77,6 @@ Number of samplers to get from the device. Each pipeline stage has a total of 16
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>**</b>
 
 Arry of sampler-state pointers (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>) to be returned by the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

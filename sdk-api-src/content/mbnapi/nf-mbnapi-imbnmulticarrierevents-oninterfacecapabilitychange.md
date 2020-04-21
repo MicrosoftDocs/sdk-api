@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnInterfaceCapabilityChange
 title: IMbnMultiCarrierEvents::OnInterfaceCapabilityChange (mbnapi.h)
-description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetHomeProvider operation that updates the interface capabilities.
+description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetHomeProvider operation that updates the interface capabilities.helpviewer_keywords: ["IMbnMultiCarrierEvents interface [Microsoft Broadband Networks]","OnInterfaceCapabilityChange method","IMbnMultiCarrierEvents.OnInterfaceCapabilityChange","IMbnMultiCarrierEvents::OnInterfaceCapabilityChange","OnInterfaceCapabilityChange","OnInterfaceCapabilityChange method [Microsoft Broadband Networks]","OnInterfaceCapabilityChange method [Microsoft Broadband Networks]","IMbnMultiCarrierEvents interface","mbn.imbnmulticarrierevents_oninterfacecapabilitychange","mbnapi/IMbnMultiCarrierEvents::OnInterfaceCapabilityChange"]
 old-location: mbn\imbnmulticarrierevents_oninterfacecapabilitychange.htm
 tech.root: mbn
 ms.assetid: 5701E0EB-FBDC-4791-97AA-B31F87763854

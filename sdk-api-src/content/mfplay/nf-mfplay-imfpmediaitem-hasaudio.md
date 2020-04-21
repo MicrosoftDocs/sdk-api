@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.HasAudio
 title: IMFPMediaItem::HasAudio (mfplay.h)
-description: Queries whether the media item contains an audio stream.
+description: Queries whether the media item contains an audio stream.helpviewer_keywords: ["HasAudio","HasAudio method [Media Foundation]","HasAudio method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","HasAudio method","IMFPMediaItem.HasAudio","IMFPMediaItem::HasAudio","mf.imfpmediaitem_hasaudio","mfplay/IMFPMediaItem::HasAudio"]
 old-location: mf\imfpmediaitem_hasaudio.htm
 tech.root: medfound
 ms.assetid: 38d308d7-77e3-4f13-82e7-677ac94234e7

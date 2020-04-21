@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathUndecorateW
 title: PathUndecorateW function (shlwapi.h)
-description: Removes the decoration from a path string.
+description: Removes the decoration from a path string.helpviewer_keywords: ["PathUndecorate","PathUndecorate function [Windows Shell]","PathUndecorateA","PathUndecorateW","_win32_PathUndecorate","shell.PathUndecorate","shlwapi/PathUndecorate","shlwapi/PathUndecorateA","shlwapi/PathUndecorateW"]
 old-location: shell\PathUndecorate.htm
 tech.root: shell
 ms.assetid: 2d98ad60-8a7d-4b8d-9b5c-27e348bdc2c3
@@ -65,15 +65,6 @@ Removes the decoration from a path string.
 Type: <b>LPTSTR</b>
 
 A null-terminated string of length MAX_PATH that contains the path. When the function returns, <i>pszPath</i> points to the undecorated string.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

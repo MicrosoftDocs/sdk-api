@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.EndSendRequest
 title: IMFHttpDownloadRequest::EndSendRequest (mfidl.h)
-description: Invoked by Microsoft Media Foundation to complete the asynchronous operation started by BeginSendRequest.
+description: Invoked by Microsoft Media Foundation to complete the asynchronous operation started by BeginSendRequest.helpviewer_keywords: ["EndSendRequest","EndSendRequest method [Media Foundation]","EndSendRequest method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","EndSendRequest method","IMFHttpDownloadRequest.EndSendRequest","IMFHttpDownloadRequest::EndSendRequest","mf.imfhttpdownloadrequest_endsendrequest","mfidl/IMFHttpDownloadRequest::EndSendRequest"]
 old-location: mf\imfhttpdownloadrequest_endsendrequest.htm
 tech.root: medfound
 ms.assetid: 2B1554C7-2814-4A9E-BBAC-B25C78775420

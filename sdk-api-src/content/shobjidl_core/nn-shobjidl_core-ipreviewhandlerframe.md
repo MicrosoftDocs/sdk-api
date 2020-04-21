@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IPreviewHandlerFrame
 title: IPreviewHandlerFrame (shobjidl_core.h)
-description: Enables preview handlers to pass keyboard shortcuts to the host. This interface retrieves a list of keyboard shortcuts and directs the host to handle a keyboard shortcut.
+description: Enables preview handlers to pass keyboard shortcuts to the host. This interface retrieves a list of keyboard shortcuts and directs the host to handle a keyboard shortcut.helpviewer_keywords: ["IPreviewHandlerFrame","IPreviewHandlerFrame interface [Windows Shell]","IPreviewHandlerFrame interface [Windows Shell]","described","_shell_IPreviewHandlerFrame","shell.IPreviewHandlerFrame","shobjidl_core/IPreviewHandlerFrame"]
 old-location: shell\IPreviewHandlerFrame.htm
 tech.root: shell
 ms.assetid: 4e1316e5-f736-4a9b-887b-ddc48a615c42

@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.MakeWordList
 title: MakeWordList function (recapis.h)
-description: Creates a word list.
+description: Creates a word list.helpviewer_keywords: ["MakeWordList","MakeWordList function [Tablet PC]","b406a646-ab98-4852-af6d-9f4864ad8cf9","recapis/MakeWordList","tablet.makewordlist"]
 old-location: tablet\makewordlist.htm
 tech.root: tablet
 ms.assetid: b406a646-ab98-4852-af6d-9f4864ad8cf9

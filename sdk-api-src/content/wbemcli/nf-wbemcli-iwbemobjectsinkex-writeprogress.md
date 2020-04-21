@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteProgress
 title: IWbemObjectSinkEx::WriteProgress (wbemcli.h)
-description: TBD
+description: TBDhelpviewer_keywords: ["IWbemObjectSinkEx interface [Windows Management Instrumentation]","WriteProgress method","IWbemObjectSinkEx.WriteProgress","IWbemObjectSinkEx::WriteProgress","WriteProgress","WriteProgress method [Windows Management Instrumentation]","WriteProgress method [Windows Management Instrumentation]","IWbemObjectSinkEx interface","wbemcli/IWbemObjectSinkEx::WriteProgress","wmi.iwbemobjectsinkex_writeprogress"]
 old-location: wmi\iwbemobjectsinkex_writeprogress.htm
 tech.root: WmiSdk
 ms.assetid: 78323321-942d-47f2-82e6-19ae2ea39b6a

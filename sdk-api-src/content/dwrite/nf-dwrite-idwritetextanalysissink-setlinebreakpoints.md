@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSink.SetLineBreakpoints
 title: IDWriteTextAnalysisSink::SetLineBreakpoints (dwrite.h)
-description: Sets line-break opportunities for each character, starting from the specified position.
+description: Sets line-break opportunities for each character, starting from the specified position.helpviewer_keywords: ["IDWriteTextAnalysisSink interface [Direct Write]","SetLineBreakpoints method","IDWriteTextAnalysisSink.SetLineBreakpoints","IDWriteTextAnalysisSink::SetLineBreakpoints","SetLineBreakpoints","SetLineBreakpoints method [Direct Write]","SetLineBreakpoints method [Direct Write]","IDWriteTextAnalysisSink interface","directwrite.idwritetextanalysissink_setlinebreakpoints","dwrite/IDWriteTextAnalysisSink::SetLineBreakpoints"]
 old-location: directwrite\idwritetextanalysissink_setlinebreakpoints.htm
 tech.root: DirectWrite
 ms.assetid: 423f1f0e-b2bd-48b6-aa3b-c79a2b542d5d

@@ -1,7 +1,7 @@
 ---
 UID: NF:wct.CloseThreadWaitChainSession
 title: CloseThreadWaitChainSession function (wct.h)
-description: Closes the specified WCT session and cancels any outstanding asynchronous operations.
+description: Closes the specified WCT session and cancels any outstanding asynchronous operations.helpviewer_keywords: ["CloseThreadWaitChainSession","CloseThreadWaitChainSession function","base.closethreadwaitchainsession","wct/CloseThreadWaitChainSession"]
 old-location: base\closethreadwaitchainsession.htm
 tech.root: Debug
 ms.assetid: dc288418-01e4-4737-9c63-e6e6b73b5d13
@@ -62,15 +62,6 @@ Closes the specified WCT session and cancels any outstanding asynchronous operat
 ### -param WctHandle [in]
 
 A handle to the WCT session created by the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a> function.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

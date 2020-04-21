@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.DispInvoke
 title: DispInvoke function (oleauto.h)
-description: Automatically calls member functions on an interface, given the type information for the interface.
+description: Automatically calls member functions on an interface, given the type information for the interface.helpviewer_keywords: ["DISPATCH_METHOD","DISPATCH_PROPERTYGET","DISPATCH_PROPERTYPUT","DISPATCH_PROPERTYPUTREF","DispInvoke","DispInvoke function [Automation]","_oa96_DispInvoke","automat.dispinvoke","oleauto/DispInvoke"]
 old-location: automat\dispinvoke.htm
 tech.root: automat
 ms.assetid: 69b89e5c-2a04-4a6a-beb0-18e68f8866ac

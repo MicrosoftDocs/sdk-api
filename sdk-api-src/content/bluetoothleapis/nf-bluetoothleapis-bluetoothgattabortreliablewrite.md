@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTAbortReliableWrite
 title: BluetoothGATTAbortReliableWrite function (bluetoothleapis.h)
-description: Specifies the end of reliable write procedures, and the writes should be aborted.
+description: Specifies the end of reliable write procedures, and the writes should be aborted.helpviewer_keywords: ["BluetoothGATTAbortReliableWrite","BluetoothGATTAbortReliableWrite function [Bluetooth Devices]","bltooth.bluetoothgattabortreliablewrite","bluetoothleapis/BluetoothGATTAbortReliableWrite"]
 old-location: bltooth\bluetoothgattabortreliablewrite.htm
 tech.root: bltooth
 ms.assetid: 6EC1D80A-6327-4D5A-8460-87C339669BDA

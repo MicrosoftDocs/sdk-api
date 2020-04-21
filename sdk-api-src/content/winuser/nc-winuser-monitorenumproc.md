@@ -1,7 +1,7 @@
 ---
 UID: NC:winuser.MONITORENUMPROC
 title: MONITORENUMPROC (winuser.h)
-description: A MonitorEnumProc function is an application-defined callback function that is called by the EnumDisplayMonitors function.
+description: A MonitorEnumProc function is an application-defined callback function that is called by the EnumDisplayMonitors function.helpviewer_keywords: ["MonitorEnumProc","MonitorEnumProc callback","MonitorEnumProc callback function [Windows GDI]","_win32_MonitorEnumProc","gdi.monitorenumproc","winuser/MonitorEnumProc"]
 old-location: gdi\monitorenumproc.htm
 tech.root: gdi
 ms.assetid: 2d69e363-2b2c-450f-9069-488b80991217

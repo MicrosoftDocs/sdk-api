@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusinit.GdiplusShutdown
 title: GdiplusShutdown function (gdiplusinit.h)
-description: The GdiplusShutdown function cleans up resources used by Windows GDI+. Each call to GdiplusStartup should be paired with a call to GdiplusShutdown.
+description: The GdiplusShutdown function cleans up resources used by Windows GDI+. Each call to GdiplusStartup should be paired with a call to GdiplusShutdown.helpviewer_keywords: ["GdiplusShutdown","GdiplusShutdown function [GDI+]","_gdiplus_FUNC_GdiplusShutdown_","gdiplus._gdiplus_FUNC_GdiplusShutdown_","gdiplusinit/GdiplusShutdown"]
 old-location: gdiplus\_gdiplus_FUNC_GdiplusShutdown_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\gdiplusshutdown.htm
@@ -63,15 +63,6 @@ The <b>GdiplusShutdown</b> function cleans up resources used by Windows GDI+. Ea
 Type: <b>ULONG_PTR</b>
 
 Token returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>. 
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NS:devicetopology._LUID
 title: LUID (devicetopology.h)
-description: The LUID structure stores the video port identifier. This structure is stored in the PortId member of the KSJACK_SINK_INFORMATION structure.
+description: The LUID structure stores the video port identifier. This structure is stored in the PortId member of the KSJACK_SINK_INFORMATION structure.helpviewer_keywords: ["*PLUID","LUID","LUID structure [Core Audio]","PLUID","PLUID structure pointer [Core Audio]","_LUID","coreaudio.luid","devicetopology/LUID","devicetopology/PLUID"]
 old-location: coreaudio\luid.htm
 tech.root: CoreAudio
 ms.assetid: fce02fa7-ce96-417a-b389-cf19e1e3b91c

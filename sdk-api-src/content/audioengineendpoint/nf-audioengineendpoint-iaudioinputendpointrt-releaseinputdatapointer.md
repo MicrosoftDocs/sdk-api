@@ -1,7 +1,7 @@
 ---
 UID: NF:audioengineendpoint.IAudioInputEndpointRT.ReleaseInputDataPointer
 title: IAudioInputEndpointRT::ReleaseInputDataPointer (audioengineendpoint.h)
-description: Releases the acquired data pointer.
+description: Releases the acquired data pointer.helpviewer_keywords: ["IAudioInputEndpointRT interface [Remote Desktop Services]","ReleaseInputDataPointer method","IAudioInputEndpointRT.ReleaseInputDataPointer","IAudioInputEndpointRT::ReleaseInputDataPointer","ReleaseInputDataPointer","ReleaseInputDataPointer method [Remote Desktop Services]","ReleaseInputDataPointer method [Remote Desktop Services]","IAudioInputEndpointRT interface","audioengineendpoint/IAudioInputEndpointRT::ReleaseInputDataPointer","termserv.iaudioinputendpointrt_releaseinputdatapointer"]
 old-location: termserv\iaudioinputendpointrt_releaseinputdatapointer.htm
 tech.root: TermServ
 ms.assetid: 9dd3f72a-79fe-4d07-a301-d0960e30a2d1
@@ -67,15 +67,6 @@ The number of frames that have been
 ### -param pDataPointer [in]
 
 The pointer to the buffer retrieved by                  the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioinputendpointrt-getinputdatapointer">GetInputDataPointer</a> method received  in the <i>pConnectionProperty</i>-&gt;<b>pBuffer</b> member.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

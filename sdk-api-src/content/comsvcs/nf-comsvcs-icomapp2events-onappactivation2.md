@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComApp2Events.OnAppActivation2
 title: IComApp2Events::OnAppActivation2 (comsvcs.h)
-description: Generated when the server application process is loaded.
+description: Generated when the server application process is loaded.helpviewer_keywords: ["IComApp2Events interface [COM+]","OnAppActivation2 method","IComApp2Events.OnAppActivation2","IComApp2Events::OnAppActivation2","OnAppActivation2","OnAppActivation2 method [COM+]","OnAppActivation2 method [COM+]","IComApp2Events interface","_dtc_IComApp2Events_OnAppActivation2","comsvcs/IComApp2Events::OnAppActivation2","cos.icomapp2events_onappactivation2"]
 old-location: cos\icomapp2events_onappactivation2.htm
 tech.root: cossdk
 ms.assetid: d621f46e-19c2-4fab-8820-a5716cb7cdc4

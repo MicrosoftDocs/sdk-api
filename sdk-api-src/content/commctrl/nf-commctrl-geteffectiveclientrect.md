@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.GetEffectiveClientRect
 title: GetEffectiveClientRect function (commctrl.h)
-description: Calculates the dimensions of a rectangle in the client area that contains all the specified controls.
+description: Calculates the dimensions of a rectangle in the client area that contains all the specified controls.helpviewer_keywords: ["GetEffectiveClientRect","GetEffectiveClientRect function [Windows Controls]","_win32_GetEffectiveClientRect","_win32_GetEffectiveClientRect_cpp","commctrl/GetEffectiveClientRect","controls.GetEffectiveClientRect","controls._win32_GetEffectiveClientRect"]
 old-location: controls\GetEffectiveClientRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\geteffectiveclientrect.htm
@@ -76,15 +76,6 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a>*</b>
 
 A pointer to a null-terminated array of integers that identify controls in the client area. Each control requires a pair of consecutive elements. The first element of the pair must be nonzero and the second element of the pair must be the control identifier. The first pair represents the menu and is ignored. The last element must be zero to identify the end of the array. 
-
-
-## -returns
-
-
-
-No return value. 
-
-
 
 
 ## -remarks

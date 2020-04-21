@@ -1,7 +1,7 @@
 ---
 UID: NS:cfgmgr32.DMA_Resource_s
 title: DMA_RESOURCE (cfgmgr32.h)
-description: The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance.
+description: The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance.helpviewer_keywords: ["*PDMA_RESOURCE","DMA_RESOURCE","DMA_RESOURCE structure [Device and Driver Installation]","PDMA_RESOURCE","PDMA_RESOURCE structure pointer [Device and Driver Installation]","cfgmgr32/DMA_RESOURCE","cfgmgr32/PDMA_RESOURCE","cfgmgrst_7efdb1b3-3104-4bbe-81a6-e118a75a70a3.xml","devinst.dma_resource"]
 old-location: devinst\dma_resource.htm
 tech.root: devinst
 ms.assetid: 226a5ca1-10e1-47a7-8bd9-b153a0784ccb

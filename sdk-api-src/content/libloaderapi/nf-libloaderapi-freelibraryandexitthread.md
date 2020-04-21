@@ -1,7 +1,7 @@
 ---
 UID: NF:libloaderapi.FreeLibraryAndExitThread
 title: FreeLibraryAndExitThread function (libloaderapi.h)
-description: Decrements the reference count of a loaded dynamic-link library (DLL) by one, then calls ExitThread to terminate the calling thread.
+description: Decrements the reference count of a loaded dynamic-link library (DLL) by one, then calls ExitThread to terminate the calling thread.helpviewer_keywords: ["FreeLibraryAndExitThread","FreeLibraryAndExitThread function","_win32_freelibraryandexitthread","base.freelibraryandexitthread","libloaderapi/FreeLibraryAndExitThread","winbase/FreeLibraryAndExitThread"]
 old-location: base\freelibraryandexitthread.htm
 tech.root: Dlls
 ms.assetid: be63fdbf-b3a4-44a8-99b4-b41e159952a7
@@ -78,15 +78,6 @@ Do not call this function with a handle returned by the <a href="https://docs.mi
 ### -param dwExitCode [in]
 
 The exit code for the calling thread.
-
-
-## -returns
-
-
-
-This function does not return a value. Invalid module handles are ignored.
-
-
 
 
 ## -remarks

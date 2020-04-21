@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.ReleaseMutexWhenCallbackReturns
 title: ReleaseMutexWhenCallbackReturns function (threadpoolapiset.h)
-description: Specifies the mutex that the thread pool will release when the current callback completes.
+description: Specifies the mutex that the thread pool will release when the current callback completes.helpviewer_keywords: ["ReleaseMutexWhenCallbackReturns","ReleaseMutexWhenCallbackReturns function","base.releasemutexwhencallbackreturns","threadpoolapiset/ReleaseMutexWhenCallbackReturns","winbase/ReleaseMutexWhenCallbackReturns"]
 old-location: base\releasemutexwhencallbackreturns.htm
 tech.root: ProcThread
 ms.assetid: 0e82c041-8191-477d-8a2e-819b8920bbc8
@@ -70,15 +70,6 @@ A <b>TP_CALLBACK_INSTANCE</b> structure that defines the callback instance. The 
 ### -param mut [in]
 
 A handle to the mutex.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

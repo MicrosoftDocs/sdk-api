@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.SetFlags
 title: IMFASFIndexer::SetFlags (wmcontainer.h)
-description: Sets indexer options.
+description: Sets indexer options.helpviewer_keywords: ["7df6aba2-d63f-4a1a-b6e8-6894f92993b1","IMFASFIndexer interface [Media Foundation]","SetFlags method","IMFASFIndexer.SetFlags","IMFASFIndexer::SetFlags","SetFlags","SetFlags method [Media Foundation]","SetFlags method [Media Foundation]","IMFASFIndexer interface","mf.imfasfindexer_setflags","wmcontainer/IMFASFIndexer::SetFlags"]
 old-location: mf\imfasfindexer_setflags.htm
 tech.root: medfound
 ms.assetid: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1

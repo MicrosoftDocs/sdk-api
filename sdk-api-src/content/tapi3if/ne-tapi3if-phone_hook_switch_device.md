@@ -1,7 +1,7 @@
 ---
 UID: NE:tapi3if.PHONE_HOOK_SWITCH_DEVICE
 title: PHONE_HOOK_SWITCH_DEVICE (tapi3if.h)
-description: The PHONE_HOOK_SWITCH_DEVICE enum is used to indicate the types of switch hooks on a phone device.
+description: The PHONE_HOOK_SWITCH_DEVICE enum is used to indicate the types of switch hooks on a phone device.helpviewer_keywords: ["PHONE_HOOK_SWITCH_DEVICE","PHONE_HOOK_SWITCH_DEVICE enumeration [TAPI 2.2]","PHSD_HANDSET","PHSD_HEADSET","PHSD_SPEAKERPHONE","_tapi3_phone_hook_switch_device","tapi3.phone_hook_switch_device","tapi3if/PHONE_HOOK_SWITCH_DEVICE","tapi3if/PHSD_HANDSET","tapi3if/PHSD_HEADSET","tapi3if/PHSD_SPEAKERPHONE"]
 old-location: tapi3\phone_hook_switch_device.htm
 tech.root: Tapi
 ms.assetid: 20b17e2f-f745-41ef-91ac-d2ab21d43695

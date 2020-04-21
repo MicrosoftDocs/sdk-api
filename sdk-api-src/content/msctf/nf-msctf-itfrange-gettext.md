@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRange.GetText
 title: ITfRange::GetText (msctf.h)
-description: The ITfRange::GetText method obtains the content covered by this range of text.
+description: The ITfRange::GetText method obtains the content covered by this range of text.helpviewer_keywords: ["GetText","GetText method [Text Services Framework]","GetText method [Text Services Framework]","ITfRange interface","ITfRange interface [Text Services Framework]","GetText method","ITfRange.GetText","ITfRange::GetText","TF_TF_IGNOREEND","TF_TF_MOVESTART","_tsf_itfrange_gettext_ref","msctf/ITfRange::GetText","tsf.itfrange_gettext"]
 old-location: tsf\itfrange_gettext.htm
 tech.root: TSF
 ms.assetid: b38a8de3-947f-469c-9f0d-f0482ea86884

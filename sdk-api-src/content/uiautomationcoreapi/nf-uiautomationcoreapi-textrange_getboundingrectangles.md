@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_GetBoundingRectangles
 title: TextRange_GetBoundingRectangles function (uiautomationcoreapi.h)
-description: Retrieves the minimum number of bounding rectangles that can enclose the range, one rectangle per line.
+description: Retrieves the minimum number of bounding rectangles that can enclose the range, one rectangle per line.helpviewer_keywords: ["TextRange_GetBoundingRectangles","TextRange_GetBoundingRectangles function [Windows Accessibility]","uiauto.uiauto_TextRange_GetBoundingRectanglesConPat","uiauto_TextRange_GetBoundingRectanglesConPat","uiautomationcoreapi/TextRange_GetBoundingRectangles","winauto.uiauto_TextRange_GetBoundingRectanglesConPat"]
 old-location: winauto\uiauto_TextRange_GetBoundingRectanglesConPat.htm
 tech.root: WinAuto
 ms.assetid: f6b9e6b5-554d-46cb-a423-e7e3f6fb3a04

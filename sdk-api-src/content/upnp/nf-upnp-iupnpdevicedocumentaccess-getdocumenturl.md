@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPDeviceDocumentAccess.GetDocumentURL
 title: IUPnPDeviceDocumentAccess::GetDocumentURL (upnp.h)
-description: The GetDocumentURL method returns the URL from which the device description document can be loaded.
+description: The GetDocumentURL method returns the URL from which the device description document can be loaded.helpviewer_keywords: ["GetDocumentURL","GetDocumentURL method [UPnP APIs]","GetDocumentURL method [UPnP APIs]","IUPnPDeviceDocumentAccess interface","IUPnPDeviceDocumentAccess interface [UPnP APIs]","GetDocumentURL method","IUPnPDeviceDocumentAccess.GetDocumentURL","IUPnPDeviceDocumentAccess::GetDocumentURL","_upnp_iupnpdevicedocumentaccess_getdocumenturl","upnp.iupnpdevicedocumentaccess_getdocumenturl","upnp/IUPnPDeviceDocumentAccess::GetDocumentURL"]
 old-location: upnp\iupnpdevicedocumentaccess_getdocumenturl.htm
 tech.root: upnp
 ms.assetid: 7845e543-47c6-4751-8e29-2508b2adb090

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateResourceTexture
 title: ID2D1EffectContext::CreateResourceTexture (d2d1effectauthor.h)
-description: Creates or finds the given resource texture, depending on whether a resource id is specified.
+description: Creates or finds the given resource texture, depending on whether a resource id is specified.helpviewer_keywords: ["CreateResourceTexture","CreateResourceTexture method [Direct2D]","CreateResourceTexture method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CreateResourceTexture method","ID2D1EffectContext.CreateResourceTexture","ID2D1EffectContext::CreateResourceTexture","d2d1effectauthor/ID2D1EffectContext::CreateResourceTexture","direct2d.id2d1contextinternal_createresourcetexture"]
 old-location: direct2d\id2d1contextinternal_createresourcetexture.htm
 tech.root: Direct2D
 ms.assetid: 265888DA-03C2-42F0-92D8-FEB542F9BAA4

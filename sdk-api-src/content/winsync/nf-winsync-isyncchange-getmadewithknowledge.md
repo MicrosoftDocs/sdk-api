@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncChange.GetMadeWithKnowledge
 title: ISyncChange::GetMadeWithKnowledge (winsync.h)
-description: Gets the made-with knowledge for this change.
+description: Gets the made-with knowledge for this change.helpviewer_keywords: ["GetMadeWithKnowledge","GetMadeWithKnowledge method [Windows Sync]","GetMadeWithKnowledge method [Windows Sync]","ISyncChange interface","ISyncChange interface [Windows Sync]","GetMadeWithKnowledge method","ISyncChange.GetMadeWithKnowledge","ISyncChange::GetMadeWithKnowledge","winsync.isyncchange_getmadewithknowledge","winsync/ISyncChange::GetMadeWithKnowledge"]
 old-location: winsync\isyncchange_getmadewithknowledge.htm
 tech.root: winsync
 ms.assetid: 536e7575-e3c7-4f40-83f4-6fb7a7c2d2ba

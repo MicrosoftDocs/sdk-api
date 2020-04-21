@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.GetTimes
 title: IShellItemResources::GetTimes (shobjidl_core.h)
-description: Gets file times.
+description: Gets file times.helpviewer_keywords: ["GetTimes","GetTimes method [Windows Shell]","GetTimes method [Windows Shell]","IShellItemResources interface","IShellItemResources interface [Windows Shell]","GetTimes method","IShellItemResources.GetTimes","IShellItemResources::GetTimes","_shell_IShellItemResources_GetTimes","shell.IShellItemResources_GetTimes","shobjidl_core/IShellItemResources::GetTimes"]
 old-location: shell\IShellItemResources_GetTimes.htm
 tech.root: shell
 ms.assetid: 4857b824-2b58-4c26-bbab-8a799d20f584

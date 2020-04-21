@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothIsConnectable
 title: BluetoothIsConnectable function (bluetoothapis.h)
-description: The BluetoothIsConnectable function determines whether a Bluetooth radio or radios is connectable.
+description: The BluetoothIsConnectable function determines whether a Bluetooth radio or radios is connectable.helpviewer_keywords: ["BluetoothIsConnectable","BluetoothIsConnectable function [Bluetooth]","bluetooth.bluetoothisconnectable","bluetoothapis/BluetoothIsConnectable"]
 old-location: bluetooth\bluetoothisconnectable.htm
 tech.root: bluetooth
 ms.assetid: e20ad938-cab4-4017-95bf-8d6843f048eb

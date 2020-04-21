@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Effect.GetInput
 title: ID2D1Effect::GetInput (d2d1_1.h)
-description: Gets the given input image by index.
+description: Gets the given input image by index.helpviewer_keywords: ["GetInput","GetInput method [Direct2D]","GetInput method [Direct2D]","ID2D1Effect interface","ID2D1Effect interface [Direct2D]","GetInput method","ID2D1Effect.GetInput","ID2D1Effect::GetInput","d2d1_1/ID2D1Effect::GetInput","direct2d.id2d1effect_getinput"]
 old-location: direct2d\id2d1effect_getinput.htm
 tech.root: Direct2D
 ms.assetid: fca22cc2-2299-4f74-8dc9-d931b899d4fb
@@ -69,15 +69,6 @@ The index of the image to retrieve.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>**</b>
 
 When this method returns, contains the address of a pointer to the image that is identified by <i>Index</i>.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

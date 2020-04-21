@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManConnectShellCommand
 title: WSManConnectShellCommand function (wsman.h)
-description: Connects to an existing command running in a shell.
+description: Connects to an existing command running in a shell.helpviewer_keywords: ["WSManConnectShellCommand","WSManConnectShellCommand function [Windows Remote Management]","winrm.wsmanconnectshellcommand","wsman/WSManConnectShellCommand"]
 old-location: winrm\wsmanconnectshellcommand.htm
 tech.root: winrm
 ms.assetid: 860EC6F8-35A9-4C12-9247-4E14E6B1D66A
@@ -90,13 +90,5 @@ Defines an asynchronous structure to contain an optional user context and a mand
 ### -param command [out]
 
 This handle is returned on a successful call and is used to send and receive data and to signal the command. When you have finished using this handle, close it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanclosecommand">WSManCloseCommand</a> method. This parameter cannot be <b>NULL</b>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

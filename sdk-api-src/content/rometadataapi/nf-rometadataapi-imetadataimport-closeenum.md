@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.CloseEnum
 title: IMetaDataImport::CloseEnum (rometadataapi.h)
-description: Closes the enumerator that is identified by the specified handle.
+description: Closes the enumerator that is identified by the specified handle.helpviewer_keywords: ["CloseEnum","CloseEnum method [Windows Runtime]","CloseEnum method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","CloseEnum method","IMetaDataImport.CloseEnum","IMetaDataImport::CloseEnum","rometadataapi/IMetaDataImport::CloseEnum","winrt.imetadataimport_closeenum"]
 old-location: winrt\imetadataimport_closeenum.htm
 tech.root: WinRT
 ms.assetid: 3495afdf-ca88-4967-b7b3-6320114b9c50
@@ -60,15 +60,6 @@ Closes the enumerator that is identified by the specified handle.
 ### -param hEnum [in]
 
 The handle of the enumerator to close.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

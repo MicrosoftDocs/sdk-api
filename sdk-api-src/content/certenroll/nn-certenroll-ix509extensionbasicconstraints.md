@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.IX509ExtensionBasicConstraints
 title: IX509ExtensionBasicConstraints (certenroll.h)
-description: Enables you to specify whether the certificate subject is a certification authority and, if so, the depth of the subordinate certification authority chain that can exist beneath the certification authority for which this extension ID is defined.
+description: Enables you to specify whether the certificate subject is a certification authority and, if so, the depth of the subordinate certification authority chain that can exist beneath the certification authority for which this extension ID is defined.helpviewer_keywords: ["IX509ExtensionBasicConstraints","IX509ExtensionBasicConstraints interface [Security]","IX509ExtensionBasicConstraints interface [Security]","described","certenroll/IX509ExtensionBasicConstraints","security.ix509extensionbasicconstraints"]
 old-location: security\ix509extensionbasicconstraints.htm
 tech.root: seccertenroll
 ms.assetid: 81a1d567-191f-463c-ba67-0867025d8756

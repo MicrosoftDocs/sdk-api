@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.Edit_GetText
 title: Edit_GetText macro (windowsx.h)
-description: Gets the text of an edit control.
+description: Gets the text of an edit control.helpviewer_keywords: ["Edit_GetText","Edit_GetText macro [Windows Controls]","_win32_edit_GetText","_win32_edit_GetText_cpp","controls._win32_edit_GetText","controls.edit_GetText","windowsx/Edit_GetText"]
 old-location: controls\edit_GetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_gettext.htm

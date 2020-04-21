@@ -1,7 +1,7 @@
 ---
 UID: NE:isysmon.__MIDL___MIDL_itf_sysmon_0000_0000_0001
 title: SysmonFileType (isysmon.h)
-description: Determines the format in which the counter data is saved to a file.
+description: Determines the format in which the counter data is saved to a file.helpviewer_keywords: ["SysmonFileType","SysmonFileType enumeration [SysMon]","base.sysmonfiletype","isysmon/SysmonFileType","isysmon/sysmonFileBlg","isysmon/sysmonFileCsv","isysmon/sysmonFileGif","isysmon/sysmonFileHtml","isysmon/sysmonFileReport","isysmon/sysmonFileRetiredBlg","isysmon/sysmonFileTsv","sysmon.sysmonfiletype","sysmonFileBlg","sysmonFileCsv","sysmonFileGif","sysmonFileHtml","sysmonFileReport","sysmonFileRetiredBlg","sysmonFileTsv"]
 old-location: sysmon\sysmonfiletype.htm
 tech.root: SysMon
 ms.assetid: a3db8565-6316-445e-8fb2-b0bfb08bf72c

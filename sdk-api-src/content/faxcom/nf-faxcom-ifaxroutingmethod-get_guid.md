@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_Guid
 title: IFaxRoutingMethod::get_Guid (faxcom.h)
-description: The IFaxRoutingMethod::get_Guid property is a null-terminated string that contains the GUID that uniquely identifies the fax routing method.
+description: The IFaxRoutingMethod::get_Guid property is a null-terminated string that contains the GUID that uniquely identifies the fax routing method.helpviewer_keywords: ["Guid property [Fax Service]","Guid property [Fax Service]","IFaxRoutingMethod interface","IFaxRoutingMethod interface [Fax Service]","Guid property","IFaxRoutingMethod.Guid","IFaxRoutingMethod.get_Guid","IFaxRoutingMethod::Guid","IFaxRoutingMethod::get_Guid","_mfax_ifaxroutingmethod_get_guid","fax._mfax_ifaxroutingmethod_get_guid","fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_guid_cpp","faxcom/IFaxRoutingMethod::Guid","faxcom/IFaxRoutingMethod::get_Guid","get_Guid"]
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_guid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1les.htm

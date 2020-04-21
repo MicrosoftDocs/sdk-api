@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionEffectGroup.SetTransform3D
 title: IDCompositionEffectGroup::SetTransform3D (dcomp.h)
-description: Sets the 3D transformation effect object that modifies the rasterization of the visuals that this effect group is applied to.
+description: Sets the 3D transformation effect object that modifies the rasterization of the visuals that this effect group is applied to.helpviewer_keywords: ["IDCompositionEffectGroup interface [DirectComposition]","SetTransform3D method","IDCompositionEffectGroup.SetTransform3D","IDCompositionEffectGroup::SetTransform3D","SetTransform3D","SetTransform3D method [DirectComposition]","SetTransform3D method [DirectComposition]","IDCompositionEffectGroup interface","dcomp/IDCompositionEffectGroup::SetTransform3D","directcomp.idcompositioneffectgroup_settransform3d"]
 old-location: directcomp\idcompositioneffectgroup_settransform3d.htm
 tech.root: directcomp
 ms.assetid: 40935581-D45C-496B-90B9-152963F0B55A

@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.CStdAsyncStubBuffer2_Disconnect
 title: CStdAsyncStubBuffer2_Disconnect function (rpcproxy.h)
-description: Implements the IRpcStubBuffer::Disconnect method and disconnects the server object from the stub.
+description: Implements the IRpcStubBuffer::Disconnect method and disconnects the server object from the stub.helpviewer_keywords: ["CStdAsyncStubBuffer2_Disconnect","CStdAsyncStubBuffer2_Disconnect function [RPC]","rpc.cstdasyncstubbuffer2_disconnect","rpcproxy/CStdAsyncStubBuffer2_Disconnect"]
 old-location: rpc\cstdasyncstubbuffer2_disconnect.htm
 tech.root: Rpc
 ms.assetid: 66887935-271F-46A7-BBA3-CE15488008D8
@@ -64,15 +64,6 @@ Implements  the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/n
 ### -param pthis [in]
 
 Pointer to  the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object. 
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

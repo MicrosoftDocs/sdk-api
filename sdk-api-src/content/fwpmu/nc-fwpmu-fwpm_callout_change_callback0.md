@@ -1,7 +1,7 @@
 ---
 UID: NC:fwpmu.FWPM_CALLOUT_CHANGE_CALLBACK0
 title: FWPM_CALLOUT_CHANGE_CALLBACK0 (fwpmu.h)
-description: Is used to add custom behavior to the callout change notification process.
+description: Is used to add custom behavior to the callout change notification process.helpviewer_keywords: ["FWPM_CALLOUT_CHANGE_CALLBACK0","FWPM_CALLOUT_CHANGE_CALLBACK0 callback","FWPM_CALLOUT_CHANGE_CALLBACK0 callback function [Filtering]","fwp.fwpm_callout_change_callback0_func","fwpmu/FWPM_CALLOUT_CHANGE_CALLBACK0"]
 old-location: fwp\fwpm_callout_change_callback0_func.htm
 tech.root: fwp
 ms.assetid: 82c678a5-adba-42ea-b85c-4bbdcec78673
@@ -69,15 +69,6 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 Type: [FWPM_CALLOUT_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_change0)a>*</b>
 
 The change notification information.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

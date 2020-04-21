@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IDigitalCableTuneRequest.get_SourceID
 title: IDigitalCableTuneRequest::get_SourceID (tuner.h)
-description: The get_SourceID method retrieves the source identifier, which maps to a physical channel.
+description: The get_SourceID method retrieves the source identifier, which maps to a physical channel.helpviewer_keywords: ["IDigitalCableTuneRequest interface [Microsoft TV Technologies]","get_SourceID method","IDigitalCableTuneRequest.get_SourceID","IDigitalCableTuneRequest::get_SourceID","IDigitalCableTuneRequestget_SourceID","get_SourceID","get_SourceID method [Microsoft TV Technologies]","get_SourceID method [Microsoft TV Technologies]","IDigitalCableTuneRequest interface","mstv.idigitalcabletunerequest_get_sourceid","tuner/IDigitalCableTuneRequest::get_SourceID"]
 old-location: mstv\idigitalcabletunerequest_get_sourceid.htm
 tech.root: mstv
 ms.assetid: 3767a8b4-f318-4242-9b30-f1293b3f7091

@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.Reset
 title: IGestureRecognizer::Reset (rtscom.h)
-description: Deletes past stroke information from the GestureRecognizer Class object.
+description: Deletes past stroke information from the GestureRecognizer Class object.helpviewer_keywords: ["05676701-2977-453f-b2b9-7a256899e2b1","IGestureRecognizer interface [Tablet PC]","Reset method","IGestureRecognizer.Reset","IGestureRecognizer::Reset","Reset","Reset method [Tablet PC]","Reset method [Tablet PC]","IGestureRecognizer interface","rtscom/IGestureRecognizer::Reset","tablet.igesturerecognizer_reset"]
 old-location: tablet\igesturerecognizer_reset.htm
 tech.root: tablet
 ms.assetid: 05676701-2977-453f-b2b9-7a256899e2b1

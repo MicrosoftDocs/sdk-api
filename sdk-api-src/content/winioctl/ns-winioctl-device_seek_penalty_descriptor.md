@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._DEVICE_SEEK_PENALTY_DESCRIPTOR
 title: DEVICE_SEEK_PENALTY_DESCRIPTOR
-description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the seek penalty descriptor data for a device.
+description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the seek penalty descriptor data for a device.helpviewer_keywords: ["*PDEVICE_SEEK_PENALTY_DESCRIPTOR","DEVICE_SEEK_PENALTY_DESCRIPTOR","DEVICE_SEEK_PENALTY_DESCRIPTOR structure [Files]","PDEVICE_SEEK_PENALTY_DESCRIPTOR","PDEVICE_SEEK_PENALTY_DESCRIPTOR structure pointer [Files]","fs.device_seek_penalty_descriptor","winioctl/DEVICE_SEEK_PENALTY_DESCRIPTOR","winioctl/PDEVICE_SEEK_PENALTY_DESCRIPTOR"]
 old-location: fs\device_seek_penalty_descriptor.htm
 tech.root: FileIO
 ms.assetid: b3fbf27a-dac8-4fd2-8c0d-f621f0123c98

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSSetShader
 title: ID3D10Device::PSSetShader (d3d10.h)
-description: Sets a pixel shader to the device.
+description: Sets a pixel shader to the device.helpviewer_keywords: ["ID3D10Device interface [Direct3D 10]","PSSetShader method","ID3D10Device.PSSetShader","ID3D10Device::PSSetShader","PSSetShader","PSSetShader method [Direct3D 10]","PSSetShader method [Direct3D 10]","ID3D10Device interface","b8f271c1-e769-e3d0-3526-6f08dae50a2a","d3d10/ID3D10Device::PSSetShader","direct3d10.id3d10device_pssetshader"]
 old-location: direct3d10\id3d10device_pssetshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_pssetshader.htm
@@ -63,15 +63,6 @@ Sets a pixel shader to the device.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10pixelshader">ID3D10PixelShader</a>*</b>
 
 Pointer to a pixel shader (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10pixelshader">ID3D10PixelShader</a>). Passing in <b>NULL</b> disables the shader for this pipeline stage.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

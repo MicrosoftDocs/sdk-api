@@ -1,7 +1,7 @@
 ---
 UID: NN:fhcfg.IFhReassociation
 title: IFhReassociation (fhcfg.h)
-description: This interface allows client applications to reassociate a File History configuration from a File History target with the current user.
+description: This interface allows client applications to reassociate a File History configuration from a File History target with the current user.helpviewer_keywords: ["IFhReassociation","IFhReassociation interface [Windows API]","IFhReassociation interface [Windows API]","described","fhcfg/IFhReassociation","winprog.ifhreassociation"]
 old-location: winprog\ifhreassociation.htm
 tech.root: DevNotes
 ms.assetid: B1CBD7DD-5B4D-4B3E-BE7D-B6497ABFB588

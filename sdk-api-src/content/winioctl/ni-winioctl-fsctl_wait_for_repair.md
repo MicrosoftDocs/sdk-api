@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_WAIT_FOR_REPAIR
 title: FSCTL_WAIT_FOR_REPAIR
-description: Returns when the specified repairs are completed.
+description: Returns when the specified repairs are completed.helpviewer_keywords: ["FSCTL_WAIT_FOR_REPAIR","FSCTL_WAIT_FOR_REPAIR control","FSCTL_WAIT_FOR_REPAIR control code [Files]","fs.fsctl_wait_for_repair","winioctl/FSCTL_WAIT_FOR_REPAIR"]
 old-location: fs\fsctl_wait_for_repair.htm
 tech.root: FileIO
 ms.assetid: 593ca2f0-1455-4b46-925a-61ad07f8fb5c

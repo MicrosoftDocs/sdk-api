@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.get_Item
 title: IEventObjectCollection::get_Item (eventsys.h)
-description: An item in the collection.
+description: An item in the collection.helpviewer_keywords: ["IEventObjectCollection interface [COM+]","Item property","IEventObjectCollection.Item","IEventObjectCollection.get_Item","IEventObjectCollection::Item","IEventObjectCollection::get_Item","Item property [COM+]","Item property [COM+]","IEventObjectCollection interface","cos.ieventobjectcollection_item","eventsys/IEventObjectCollection::Item","eventsys/IEventObjectCollection::get_Item","get_Item"]
 old-location: cos\ieventobjectcollection_item.htm
 tech.root: cossdk
 ms.assetid: 6d037759-3b13-4f4d-b27d-a3a20be0f0aa

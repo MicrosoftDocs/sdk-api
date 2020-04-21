@@ -1,7 +1,7 @@
 ---
 UID: NS:directxmath.XMUINT4
 title: XMUINT4 (directxmath.h)
-description: A 4D vector where each component is an unsigned integer.
+description: A 4D vector where each component is an unsigned integer.helpviewer_keywords: ["XMUINT4","XMUINT4 structure [DirectX Math Support APIs]","directxmath/XMUINT4","dxmath.xmuint4"]
 old-location: dxmath\xmuint4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUINT4

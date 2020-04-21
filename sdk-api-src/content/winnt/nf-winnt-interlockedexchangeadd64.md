@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.InterlockedExchangeAdd64
 title: InterlockedExchangeAdd64 function (winnt.h)
-description: Performs an atomic addition of two 64-bit values.
+description: Performs an atomic addition of two 64-bit values.helpviewer_keywords: ["InterlockedExchangeAdd64","InterlockedExchangeAdd64 function","base.interlockedexchangeadd64","winnt/InterlockedExchangeAdd64"]
 old-location: base\interlockedexchangeadd64.htm
 tech.root: Sync
 ms.assetid: f8cab5f8-8054-4c02-9a6d-80fd9d98cf74

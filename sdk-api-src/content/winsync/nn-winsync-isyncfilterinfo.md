@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.ISyncFilterInfo
 title: ISyncFilterInfo (winsync.h)
-description: Represents information about a filter that is used to control the data that is included in an ISyncChangeBatch object.
+description: Represents information about a filter that is used to control the data that is included in an ISyncChangeBatch object.helpviewer_keywords: ["ISyncFilterInfo","ISyncFilterInfo interface [Windows Sync]","ISyncFilterInfo interface [Windows Sync]","described","winsync.isyncfilterinfo","winsync/ISyncFilterInfo"]
 old-location: winsync\isyncfilterinfo.htm
 tech.root: winsync
 ms.assetid: 89a6d1c4-691d-4356-9ef5-1364b5a7507d

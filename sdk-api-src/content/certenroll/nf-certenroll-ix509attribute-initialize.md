@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Attribute.Initialize
 title: IX509Attribute::Initialize (certenroll.h)
-description: Initializes the object from an object identifier (OID) and a value.
+description: Initializes the object from an object identifier (OID) and a value.helpviewer_keywords: ["IX509Attribute interface [Security]","Initialize method","IX509Attribute.Initialize","IX509Attribute::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","IX509Attribute interface","certenroll/IX509Attribute::Initialize","security.ix509attribute_initialize_method"]
 old-location: security\ix509attribute_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 82457ca3-4aae-4f47-950c-1146c8614a5b

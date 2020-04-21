@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.ResizeMapping
 title: ISimilarityTraitsMapping::ResizeMapping (msrdc.h)
-description: Resizes the file mapping object for a similarity traits table file.
+description: Resizes the file mapping object for a similarity traits table file.helpviewer_keywords: ["ISimilarityTraitsMapping interface [Remote Differential Compression]","ResizeMapping method","ISimilarityTraitsMapping.ResizeMapping","ISimilarityTraitsMapping::ResizeMapping","ResizeMapping","ResizeMapping method [Remote Differential Compression]","ResizeMapping method [Remote Differential Compression]","ISimilarityTraitsMapping interface","fs.isimilaritytraitsmapping_resizemapping","msrdc/ISimilarityTraitsMapping::ResizeMapping","rdc.isimilaritytraitsmapping_resizemapping"]
 old-location: rdc\isimilaritytraitsmapping_resizemapping.htm
 tech.root: rdc
 ms.assetid: ea4fe3f9-7422-4673-90e4-4907fb8dd690

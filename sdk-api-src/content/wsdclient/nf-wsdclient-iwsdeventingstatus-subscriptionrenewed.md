@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdclient.IWSDEventingStatus.SubscriptionRenewed
 title: IWSDEventingStatus::SubscriptionRenewed (wsdclient.h)
-description: Called when the subscription for the specified event action was successfully renewed.
+description: Called when the subscription for the specified event action was successfully renewed.helpviewer_keywords: ["IWSDEventingStatus interface","SubscriptionRenewed method","IWSDEventingStatus.SubscriptionRenewed","IWSDEventingStatus::SubscriptionRenewed","SubscriptionRenewed","SubscriptionRenewed method","SubscriptionRenewed method","IWSDEventingStatus interface","ncd.iwsdeventingstatus_subscriptionrenewed","wsdclient/IWSDEventingStatus::SubscriptionRenewed"]
 old-location: ncd\iwsdeventingstatus_subscriptionrenewed.htm
 tech.root: WsdApi
 ms.assetid: 5f5c0b43-9c91-4d82-be98-1fd4fe7f9794
@@ -60,15 +60,6 @@ Called when the subscription for the specified event action was successfully ren
 ### -param pszSubscriptionAction [in]
 
 URI of the event action.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

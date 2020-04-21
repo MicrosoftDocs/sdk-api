@@ -1,7 +1,7 @@
 ---
 UID: NC:resapi.PEXTEND_RES_CONTROL_CALL
 title: PEXTEND_RES_CONTROL_CALL (resapi.h)
-description: Extends the timeout for a call to a resource control code. The PEXTEND_RES_CONTROL_CALL type defines a pointer to this function.
+description: Extends the timeout for a call to a resource control code. The PEXTEND_RES_CONTROL_CALL type defines a pointer to this function.helpviewer_keywords: ["ExtendControlCall","ExtendControlCall callback","ExtendControlCall callback function [Failover Cluster]","PEXTEND_RES_CONTROL_CALL","PEXTEND_RES_CONTROL_CALL callback function [Failover Cluster]","mscs.extendcontrolcall","resapi/ExtendControlCall","resapi/PEXTEND_RES_CONTROL_CALL"]
 old-location: mscs\extendcontrolcall.htm
 tech.root: MsCS
 ms.assetid: 79607FE9-96E5-4854-BC92-8FF1C474B3D6

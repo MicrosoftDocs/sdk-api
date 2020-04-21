@@ -1,7 +1,7 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0023_0002
 title: ROWSETEVENT_TYPE (searchapi.h)
-description: Describes the type of change to the rowset's data.
+description: Describes the type of change to the rowset's data.helpviewer_keywords: ["ROWSETEVENT_TYPE","ROWSETEVENT_TYPE enumeration [search]","ROWSETEVENT_TYPE_DATAEXPIRED","ROWSETEVENT_TYPE_FOREGROUNDLOST","ROWSETEVENT_TYPE_SCOPESTATISTICS","_search_ROWSETEVENT_TYPE","search._search_ROWSETEVENT_TYPE","searchapi/ROWSETEVENT_TYPE","searchapi/ROWSETEVENT_TYPE_DATAEXPIRED","searchapi/ROWSETEVENT_TYPE_FOREGROUNDLOST","searchapi/ROWSETEVENT_TYPE_SCOPESTATISTICS"]
 old-location: search\_search_ROWSETEVENT_TYPE.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\rowsetevent_type.htm

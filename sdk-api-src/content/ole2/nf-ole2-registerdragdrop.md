@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.RegisterDragDrop
 title: RegisterDragDrop function (ole2.h)
-description: Registers the specified window as one that can be the target of an OLE drag-and-drop operation and specifies the IDropTarget instance to use for drop operations.
+description: Registers the specified window as one that can be the target of an OLE drag-and-drop operation and specifies the IDropTarget instance to use for drop operations.helpviewer_keywords: ["RegisterDragDrop","RegisterDragDrop function [COM]","_ole_RegisterDragDrop","com.registerdragdrop","ole2/RegisterDragDrop"]
 old-location: com\registerdragdrop.htm
 tech.root: com
 ms.assetid: 00726271-4436-41f5-b7cc-666cd77216bc

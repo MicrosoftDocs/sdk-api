@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUSHORTN2.XMUSHORTN2(float,float)
 title: XMUSHORTN2::XMUSHORTN2(float,float) (directxpackedvector.h)
-description: Initializes a new instance of XMUSHORTN2 from two normalized floatarguments.
+description: Initializes a new instance of XMUSHORTN2 from two normalized floatarguments.helpviewer_keywords: ["XMUSHORTN2","XMUSHORTN2 constructor [DirectX Math Support APIs]","XMUSHORTN2 constructor [DirectX Math Support APIs]","XMUSHORTN2 structure","XMUSHORTN2 structure [DirectX Math Support APIs]","XMUSHORTN2 constructor","XMUSHORTN2.XMUSHORTN2","XMUSHORTN2.XMUSHORTN2(float","float)","XMUSHORTN2::XMUSHORTN2","XMUSHORTN2::XMUSHORTN2(float","float)","dxmath.xmushortn2_ctor_4"]
 old-location: dxmath\xmushortn2_ctor_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORTN2.#ctor(float,float)

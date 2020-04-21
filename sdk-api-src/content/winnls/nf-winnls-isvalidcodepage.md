@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.IsValidCodePage
 title: IsValidCodePage function (winnls.h)
-description: Determines if a specified code page is valid.
+description: Determines if a specified code page is valid.helpviewer_keywords: ["IsValidCodePage","IsValidCodePage function [Internationalization for Windows Applications]","_win32_IsValidCodePage","intl.isvalidcodepage","winnls/IsValidCodePage"]
 old-location: intl\isvalidcodepage.htm
 tech.root: Intl
 ms.assetid: 7bd16f61-a534-4ada-ae27-d5deb47870a9

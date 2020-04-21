@@ -1,7 +1,7 @@
 ---
 UID: NF:prntvpt.PTReleaseMemory
 title: PTReleaseMemory function (prntvpt.h)
-description: Releases buffers associated with print tickets and print capabilities.
+description: Releases buffers associated with print tickets and print capabilities.helpviewer_keywords: ["PTReleaseMemory","PTReleaseMemory function [Windows GDI]","_win32_PTReleaseMemory","gdi.ptreleasememory","prntvpt/PTReleaseMemory"]
 old-location: gdi\ptreleasememory.htm
 tech.root: printdocs
 ms.assetid: d568b3a9-7f13-4e4e-8bbc-f4ab0009fe83

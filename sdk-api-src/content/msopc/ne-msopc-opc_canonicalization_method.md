@@ -1,7 +1,7 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0001
 title: OPC_CANONICALIZATION_METHOD (msopc.h)
-description: Describes the canonicalization method to be applied to XML markup.
+description: Describes the canonicalization method to be applied to XML markup.helpviewer_keywords: ["OPC_CANONICALIZATION_C14N","OPC_CANONICALIZATION_C14N_WITH_COMMENTS","OPC_CANONICALIZATION_METHOD","OPC_CANONICALIZATION_METHOD enumeration [Open Packaging Conventions]","OPC_CANONICALIZATION_NONE","msopc/OPC_CANONICALIZATION_C14N","msopc/OPC_CANONICALIZATION_C14N_WITH_COMMENTS","msopc/OPC_CANONICALIZATION_METHOD","msopc/OPC_CANONICALIZATION_NONE","opc.opc_canonicalization_method"]
 old-location: opc\opc_canonicalization_method.htm
 tech.root: OPC
 ms.assetid: f8401d12-da2e-4b35-b473-ebe3d1f91abd

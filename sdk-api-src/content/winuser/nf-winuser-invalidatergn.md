@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.InvalidateRgn
 title: InvalidateRgn function (winuser.h)
-description: The InvalidateRgn function invalidates the client area within the specified region by adding it to the current update region of a window.
+description: The InvalidateRgn function invalidates the client area within the specified region by adding it to the current update region of a window.helpviewer_keywords: ["InvalidateRgn","InvalidateRgn function [Windows GDI]","_win32_InvalidateRgn","gdi.invalidatergn","winuser/InvalidateRgn"]
 old-location: gdi\invalidatergn.htm
 tech.root: gdi
 ms.assetid: b5b44efe-8045-4e54-89f9-1766689a053d

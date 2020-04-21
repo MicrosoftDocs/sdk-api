@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsFreeSpnArrayW
 title: DsFreeSpnArrayW function (ntdsapi.h)
-description: Frees an array returned from the DsGetSpn function.
+description: Frees an array returned from the DsGetSpn function.helpviewer_keywords: ["DsFreeSpnArray","DsFreeSpnArray function [Active Directory]","DsFreeSpnArrayA","DsFreeSpnArrayW","_glines_dsfreespnarray","ad.dsfreespnarray","ntdsapi/DsFreeSpnArray","ntdsapi/DsFreeSpnArrayA","ntdsapi/DsFreeSpnArrayW"]
 old-location: ad\dsfreespnarray.htm
 tech.root: ad
 ms.assetid: 1c229933-432d-4ded-be3b-3bd339a0abe4
@@ -68,15 +68,6 @@ Specifies the number of elements contained in <i>rpszSpn</i>.
 ### -param rpszSpn [in]
 
 Pointer to an array returned from <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSpn</a>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

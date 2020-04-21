@@ -1,7 +1,7 @@
 ---
 UID: NN:richole.IRichEditOleCallback
 title: IRichEditOleCallback (richole.h)
-description: The IRichEditOleCallback interface is used by a rich text edit control to retrieve OLE-related information from its client.
+description: The IRichEditOleCallback interface is used by a rich text edit control to retrieve OLE-related information from its client.helpviewer_keywords: ["IRichEditOleCallback","IRichEditOleCallback interface [Windows Controls]","IRichEditOleCallback interface [Windows Controls]","described","_win32_IRichEditOleCallback","_win32_IRichEditOleCallback_cpp","controls.IRichEditOleCallback","controls._win32_IRichEditOleCallback","richole/IRichEditOleCallback"]
 old-location: controls\IRichEditOleCallback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback.htm

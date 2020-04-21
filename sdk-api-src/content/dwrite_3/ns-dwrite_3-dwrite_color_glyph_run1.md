@@ -1,7 +1,7 @@
 ---
 UID: NS:dwrite_3.DWRITE_COLOR_GLYPH_RUN1
 title: DWRITE_COLOR_GLYPH_RUN1 (dwrite_3.h)
-description: Represents a color glyph run. The IDWriteFactory4::TranslateColorGlyphRun method returns an ordered collection of color glyph runs of varying types depending on what the font supports.
+description: Represents a color glyph run. The IDWriteFactory4::TranslateColorGlyphRun method returns an ordered collection of color glyph runs of varying types depending on what the font supports.helpviewer_keywords: ["DWRITE_COLOR_GLYPH_RUN1","DWRITE_COLOR_GLYPH_RUN1 structure [Direct Write]","directwrite.dwrite_color_glyph_run1","dwrite_3/DWRITE_COLOR_GLYPH_RUN1"]
 old-location: directwrite\dwrite_color_glyph_run1.htm
 tech.root: DirectWrite
 ms.assetid: 4433AFDF-F034-43DF-A030-4D7DD6E9CFF5

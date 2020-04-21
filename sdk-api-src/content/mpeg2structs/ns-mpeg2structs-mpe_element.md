@@ -1,7 +1,7 @@
 ---
 UID: NS:mpeg2structs._MPE_ELEMENT
 title: MPE_ELEMENT (mpeg2structs.h)
-description: The MPE_ELEMENT structure contains information from a multi-protocol encapsulation (MPE) element.
+description: The MPE_ELEMENT structure contains information from a multi-protocol encapsulation (MPE) element.helpviewer_keywords: ["*PMPE_ELEMENT","MPE_ELEMENT","MPE_ELEMENT structure [Microsoft TV Technologies]","PMPE_ELEMENT","PMPE_ELEMENT structure pointer [Microsoft TV Technologies]","mpeg2structs/MPE_ELEMENT","mpeg2structs/PMPE_ELEMENT","mstv.mpe_element"]
 old-location: mstv\mpe_element.htm
 tech.root: mstv
 ms.assetid: 2753160b-de52-4d62-960a-c200c6f5f29a

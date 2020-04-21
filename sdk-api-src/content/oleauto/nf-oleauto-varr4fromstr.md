@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarR4FromStr
 title: VarR4FromStr function (oleauto.h)
-description: Converts an OLECHAR string to a float value.
+description: Converts an OLECHAR string to a float value.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_DATEVALUEONLY","VAR_TIMEVALUEONLY","VarR4FromStr","VarR4FromStr function [Automation]","_oa96_VarR4FromStr","automat.varr4fromstr","oleauto/VarR4FromStr"]
 old-location: automat\varr4fromstr.htm
 tech.root: automat
 ms.assetid: ac90e093-3d18-4f3b-94bb-59ac111eadce

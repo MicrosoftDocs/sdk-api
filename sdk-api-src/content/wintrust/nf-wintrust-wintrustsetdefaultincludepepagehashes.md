@@ -1,7 +1,7 @@
 ---
 UID: NF:wintrust.WintrustSetDefaultIncludePEPageHashes
 title: WintrustSetDefaultIncludePEPageHashes function (wintrust.h)
-description: Sets the default setting that determines whether page hashes are included when creating subject interface package (SIP) indirect data for PE files.
+description: Sets the default setting that determines whether page hashes are included when creating subject interface package (SIP) indirect data for PE files.helpviewer_keywords: ["WintrustSetDefaultIncludePEPageHashes","WintrustSetDefaultIncludePEPageHashes function [Security]","security.wintrustsetdefaultincludepepagehashes","wintrust/WintrustSetDefaultIncludePEPageHashes"]
 old-location: security\wintrustsetdefaultincludepepagehashes.htm
 tech.root: SecCrypto
 ms.assetid: af48e570-e71d-488f-831c-35834242db3c
@@ -64,15 +64,6 @@ This setting is only used if neither the <b>SPC_EXC_PE_PAGE_HASHES_FLAG</b> or t
 ### -param fIncludePEPageHashes [in]
 
 Determines whether page hashes are included when creating SIP indirect data for PE files. If this parameter is nonzero, page hashes are included. If this parameter is zero, page hashes are not included. The value is zero by default.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

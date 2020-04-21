@@ -1,7 +1,7 @@
 ---
 UID: NF:uiribbon.IUIFramework.Destroy
 title: IUIFramework::Destroy (uiribbon.h)
-description: Terminates and releases all objects, hooks, and references for an instance of the Windows Ribbon framework.
+description: Terminates and releases all objects, hooks, and references for an instance of the Windows Ribbon framework.helpviewer_keywords: ["Destroy","Destroy method [Windows Ribbon]","Destroy method [Windows Ribbon]","IUIFramework interface","IUIFramework interface [Windows Ribbon]","Destroy method","IUIFramework.Destroy","IUIFramework::Destroy","scenicintent_IUIFramework_Destroy","uiribbon/IUIFramework::Destroy","windowsribbon.windowsribbon_iuiframework_destroy"]
 old-location: windowsribbon\windowsribbon_iuiframework_destroy.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\destroy.htm

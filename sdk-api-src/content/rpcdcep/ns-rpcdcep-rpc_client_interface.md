@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcdcep._RPC_CLIENT_INTERFACE
 title: RPC_CLIENT_INTERFACE (rpcdcep.h)
-description: The RPC_CLIENT_INTERFACE structure is part of the private interface between the run-time libraries and the stubs. Most distributed applications that use Microsoft RPC do not need this structure.
+description: The RPC_CLIENT_INTERFACE structure is part of the private interface between the run-time libraries and the stubs. Most distributed applications that use Microsoft RPC do not need this structure.helpviewer_keywords: ["*PRPC_CLIENT_INTERFACE","RPC_CLIENT_INTERFACE","RPC_CLIENT_INTERFACE structure [RPC]","_rpc_rpc_client_interface","rpc.rpc_client_interface","rpcdcep/RPC_CLIENT_INTERFACE"]
 old-location: rpc\rpc_client_interface.htm
 tech.root: Rpc
 ms.assetid: be995f3b-1d4f-4622-9a00-ddaaeab3788d

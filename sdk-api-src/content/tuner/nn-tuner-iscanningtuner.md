@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IScanningTuner
 title: IScanningTuner (tuner.h)
-description: The IScanningTuner interface is implemented on the BDA Network Provider filter.
+description: The IScanningTuner interface is implemented on the BDA Network Provider filter.helpviewer_keywords: ["IScanningTuner","IScanningTuner interface [Microsoft TV Technologies]","IScanningTuner interface [Microsoft TV Technologies]","described","IScanningTunerInterface","mstv.iscanningtuner","tuner/IScanningTuner"]
 old-location: mstv\iscanningtuner.htm
 tech.root: mstv
 ms.assetid: faa99b87-ddbb-4e38-8681-bd5c8c4f81f3

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackPriority
 title: SetThreadpoolCallbackPriority function (winbase.h)
-description: Specifies the priority of a callback function relative to other work items in the same thread pool.
+description: Specifies the priority of a callback function relative to other work items in the same thread pool.helpviewer_keywords: ["SetThreadpoolCallbackPriority","SetThreadpoolCallbackPriority function","TP_CALLBACK_PRIORITY_HIGH","TP_CALLBACK_PRIORITY_LOW","TP_CALLBACK_PRIORITY_NORMAL","base.setthreadpoolcallbackpriority","winbase/SetThreadpoolCallbackPriority"]
 old-location: base\setthreadpoolcallbackpriority.htm
 tech.root: ProcThread
 ms.assetid: c24d3e9b-5a4e-43e1-a903-b612d022aa97
@@ -103,15 +103,6 @@ The callback should run at normal priority.
 </tr>
 </table>
  
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

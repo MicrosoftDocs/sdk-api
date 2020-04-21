@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfFnGetPreferredTouchKeyboardLayout.GetLayout
 title: ITfFnGetPreferredTouchKeyboardLayout::GetLayout (ctffunc.h)
-description: Obtains the touch keyboard layout identifier of the layout that the IME directs the touch keyboard to show while the IME is active.
+description: Obtains the touch keyboard layout identifier of the layout that the IME directs the touch keyboard to show while the IME is active.helpviewer_keywords: ["GetLayout","GetLayout method [Text Services Framework]","GetLayout method [Text Services Framework]","ITfFnGetPreferredTouchKeyboardLayout interface","ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework]","GetLayout method","ITfFnGetPreferredTouchKeyboardLayout.GetLayout","ITfFnGetPreferredTouchKeyboardLayout::GetLayout","ctffunc/ITfFnGetPreferredTouchKeyboardLayout::GetLayout","tsf.itffngetpreferredtouchkeyboardlayout_getlayout"]
 old-location: tsf\itffngetpreferredtouchkeyboardlayout_getlayout.htm
 tech.root: TSF
 ms.assetid: 03C14744-A4A3-4C62-8E7F-CDCC638BBCA1

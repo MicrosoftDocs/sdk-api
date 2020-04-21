@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorGetInfo
 title: EapMethodAuthenticatorGetInfo function (eapmethodauthenticatorapis.h)
-description: Obtains a set of function pointers for an implementation of the loaded EAP authenticator method.EapMethodAuthenticatorGetInfo is a function prototype.
+description: Obtains a set of function pointers for an implementation of the loaded EAP authenticator method.EapMethodAuthenticatorGetInfo is a function prototype.helpviewer_keywords: ["EapMethodAuthenticatorGetInfo","EapMethodAuthenticatorGetInfo function [EAPHost]","eaphost.eapmethodauthenticatorgetinfo","eapmethodauthenticatorapis/EapMethodAuthenticatorGetInfo"]
 old-location: eaphost\eapmethodauthenticatorgetinfo.htm
 tech.root: eaphost
 ms.assetid: 83a643bb-5d2e-4227-b82e-e63035860f46

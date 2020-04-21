@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidFilePlayback.get_FileName
 title: IMSVidFilePlayback::get_FileName (segment.h)
-description: The get_FileName method retrieves the name of the file to play.
+description: The get_FileName method retrieves the name of the file to play.helpviewer_keywords: ["IMSVidFilePlayback interface [Microsoft TV Technologies]","get_FileName method","IMSVidFilePlayback.get_FileName","IMSVidFilePlayback::get_FileName","IMSVidFilePlaybackget_FileName","get_FileName","get_FileName method [Microsoft TV Technologies]","get_FileName method [Microsoft TV Technologies]","IMSVidFilePlayback interface","mstv.imsvidfileplayback_get_filename","segment/IMSVidFilePlayback::get_FileName"]
 old-location: mstv\imsvidfileplayback_get_filename.htm
 tech.root: mstv
 ms.assetid: c8e01204-fb8e-4ebb-97d9-04dda15c491a

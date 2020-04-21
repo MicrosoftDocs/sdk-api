@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.CreateErrorInfo
 title: CreateErrorInfo function (oleauto.h)
-description: Creates an instance of a generic error object.
+description: Creates an instance of a generic error object.helpviewer_keywords: ["CreateErrorInfo","CreateErrorInfo function [Automation]","_oa96_CreateErrorInfo","automat.createerrorinfo","oleauto/CreateErrorInfo"]
 old-location: automat\createerrorinfo.htm
 tech.root: automat
 ms.assetid: 6a9dd862-754a-48e3-8be5-d1fbd1d38f2b

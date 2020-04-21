@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsWriteStartAttribute
 title: WsWriteStartAttribute function (webservices.h)
-description: This operation starts writing an attribute to the current element.
+description: This operation starts writing an attribute to the current element.helpviewer_keywords: ["WsWriteStartAttribute","WsWriteStartAttribute function [Web Services for Windows]","webservices/WsWriteStartAttribute","wsw.wswritestartattribute"]
 old-location: wsw\wswritestartattribute.htm
 tech.root: wsw
 ms.assetid: 9fd1eed9-6d8b-4b2e-a7ad-54a7f584734f

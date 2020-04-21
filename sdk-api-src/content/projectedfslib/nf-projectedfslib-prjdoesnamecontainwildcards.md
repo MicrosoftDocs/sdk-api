@@ -1,7 +1,7 @@
 ---
 UID: NF:projectedfslib.PrjDoesNameContainWildCards
 title: PrjDoesNameContainWildCards function (projectedfslib.h)
-description: Determines whether a name contains wildcard characters.
+description: Determines whether a name contains wildcard characters.helpviewer_keywords: ["PrjDoesNameContainWildCards","PrjDoesNameContainWildCards function","ProjFS.prjdoesnamecontainwildcards","projectedfslib/PrjDoesNameContainWildCards"]
 old-location: projfs\prjdoesnamecontainwildcards.htm
 tech.root: ProjFS
 ms.assetid: AE1896D4-0DFB-477F-ADD8-C6C14DAD27CD

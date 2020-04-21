@@ -1,7 +1,7 @@
 ---
 UID: NF:comcat.IEnumGUID.Reset
 title: IEnumGUID::Reset (comcat.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning.helpviewer_keywords: ["IEnumGUID interface [COM]","Reset method","IEnumGUID.Reset","IEnumGUID::Reset","Reset","Reset method [COM]","Reset method [COM]","IEnumGUID interface","_com_ienumguid_reset","com.ienumguid_reset","comcat/IEnumGUID::Reset"]
 old-location: com\ienumguid_reset.htm
 tech.root: com
 ms.assetid: 5f31c45a-c7a2-4cdc-a468-76a31a9ba1e9

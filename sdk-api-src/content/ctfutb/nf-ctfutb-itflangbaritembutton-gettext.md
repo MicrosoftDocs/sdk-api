@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemButton.GetText
 title: ITfLangBarItemButton::GetText (ctfutb.h)
-description: ITfLangBarItemButton::GetText method
+description: ITfLangBarItemButton::GetText methodhelpviewer_keywords: ["GetText","GetText method [Text Services Framework]","GetText method [Text Services Framework]","ITfLangBarItemButton interface","ITfLangBarItemButton interface [Text Services Framework]","GetText method","ITfLangBarItemButton.GetText","ITfLangBarItemButton::GetText","_tsf_itflangbaritembutton_gettext_ref","ctfutb/ITfLangBarItemButton::GetText","tsf.itflangbaritembutton_gettext"]
 old-location: tsf\itflangbaritembutton_gettext.htm
 tech.root: TSF
 ms.assetid: 9c50f934-d968-4a3d-8455-8923d98b926e
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the text to be displayed for the button in the language bar.
 
 ## -parameters
 

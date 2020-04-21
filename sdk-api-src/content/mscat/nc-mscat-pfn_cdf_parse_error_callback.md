@@ -1,7 +1,7 @@
 ---
 UID: NC:mscat.PFN_CDF_PARSE_ERROR_CALLBACK
 title: PFN_CDF_PARSE_ERROR_CALLBACK (mscat.h)
-description: Called for Catalog Definition Function errors while parsing a catalog definition file (CDF).
+description: Called for Catalog Definition Function errors while parsing a catalog definition file (CDF).helpviewer_keywords: ["PFN_CDF_PARSE_ERROR_CALLBACK","PFN_CDF_PARSE_ERROR_CALLBACK callback","PFN_CDF_PARSE_ERROR_CALLBACK callback function [Security]","mscat/PFN_CDF_PARSE_ERROR_CALLBACK","security.pfn_cdf_parse_error_callback"]
 old-location: security\pfn_cdf_parse_error_callback.htm
 tech.root: SecCrypto
 ms.assetid: 94c12ad7-dcb0-4099-8eba-da38367f0d79
@@ -70,15 +70,6 @@ A value that indicates the type of error.
 ### -param *pwszLine [in]
 
 A pointer to a null-terminated string that contains the CDF line in which the error occurred.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

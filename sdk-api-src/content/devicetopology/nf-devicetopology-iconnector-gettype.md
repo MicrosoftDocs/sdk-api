@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IConnector.GetType
 title: IConnector::GetType (devicetopology.h)
-description: The GetType method gets the type of this connector.
+description: The GetType method gets the type of this connector.helpviewer_keywords: ["GetType","GetType method [Core Audio]","GetType method [Core Audio]","IConnector interface","IConnector interface [Core Audio]","GetType method","IConnector.GetType","IConnector::GetType","IConnectorGetType","coreaudio.iconnector_gettype","devicetopology/IConnector::GetType"]
 old-location: coreaudio\iconnector_gettype.htm
 tech.root: CoreAudio
 ms.assetid: 0e50d371-0a2e-4004-9225-4a9da7c3f139

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetSharpness
 title: IWICDevelopRaw::SetSharpness (wincodec.h)
-description: Sets the sharpness value of the raw image.
+description: Sets the sharpness value of the raw image.helpviewer_keywords: ["IWICDevelopRaw interface [Windows Imaging Component]","SetSharpness method","IWICDevelopRaw.SetSharpness","IWICDevelopRaw::SetSharpness","SetSharpness","SetSharpness method [Windows Imaging Component]","SetSharpness method [Windows Imaging Component]","IWICDevelopRaw interface","_wic_codec_iwicdevelopraw_setsharpness","wic._wic_codec_iwicdevelopraw_setsharpness","wincodec/IWICDevelopRaw::SetSharpness"]
 old-location: wic\_wic_codec_iwicdevelopraw_setsharpness.htm
 tech.root: wic
 ms.assetid: 0c989362-0c76-4028-ac27-c49e3ec1c6fd

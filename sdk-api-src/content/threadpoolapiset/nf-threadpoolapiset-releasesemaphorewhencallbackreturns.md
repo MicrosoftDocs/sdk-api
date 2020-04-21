@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.ReleaseSemaphoreWhenCallbackReturns
 title: ReleaseSemaphoreWhenCallbackReturns function (threadpoolapiset.h)
-description: Specifies the semaphore that the thread pool will release when the current callback completes.
+description: Specifies the semaphore that the thread pool will release when the current callback completes.helpviewer_keywords: ["ReleaseSemaphoreWhenCallbackReturns","ReleaseSemaphoreWhenCallbackReturns function","base.releasesemaphorewhencallbackreturns","threadpoolapiset/ReleaseSemaphoreWhenCallbackReturns","winbase/ReleaseSemaphoreWhenCallbackReturns"]
 old-location: base\releasesemaphorewhencallbackreturns.htm
 tech.root: ProcThread
 ms.assetid: d5c8d6a0-6bb1-4ecb-aaba-665d81cb3d14
@@ -75,15 +75,6 @@ A handle to the semaphore.
 ### -param crel [in]
 
 The amount by which to increment the semaphore object's count.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

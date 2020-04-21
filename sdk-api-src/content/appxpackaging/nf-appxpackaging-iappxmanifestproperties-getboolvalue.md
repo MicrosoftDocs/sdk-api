@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxManifestProperties.GetBoolValue
 title: IAppxManifestProperties::GetBoolValue (appxpackaging.h)
-description: Gets the value of the specified Boolean element in the properties section.
+description: Gets the value of the specified Boolean element in the properties section.helpviewer_keywords: ["GetBoolValue","GetBoolValue method [App packaging and management]","GetBoolValue method [App packaging and management]","IAppxManifestProperties interface","IAppxManifestProperties interface [App packaging and management]","GetBoolValue method","IAppxManifestProperties.GetBoolValue","IAppxManifestProperties::GetBoolValue","appxpackaging/IAppxManifestProperties::GetBoolValue","appxpkg.iappxmanifestproperties_getboolvalue"]
 old-location: appxpkg\iappxmanifestproperties_getboolvalue.htm
 tech.root: appxpkg
 ms.assetid: 228FD28A-E65E-484B-81EF-83CC993F05D6

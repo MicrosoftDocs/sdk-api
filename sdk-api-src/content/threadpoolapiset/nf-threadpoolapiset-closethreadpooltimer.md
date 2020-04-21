@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolTimer
 title: CloseThreadpoolTimer function (threadpoolapiset.h)
-description: Releases the specified timer object.
+description: Releases the specified timer object.helpviewer_keywords: ["CloseThreadpoolTimer","CloseThreadpoolTimer function","base.closethreadpooltimer","threadpoolapiset/CloseThreadpoolTimer","winbase/CloseThreadpoolTimer"]
 old-location: base\closethreadpooltimer.htm
 tech.root: ProcThread
 ms.assetid: c1270c5d-a1f5-4481-a343-c1ff3301a56e
@@ -65,15 +65,6 @@ Releases the specified timer object.
 ### -param pti [in, out]
 
 A <b>TP_TIMER</b> structure that defines the timer object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer">CreateThreadpoolTimer</a> function returns this structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.QueryActiveShellView
 title: IShellBrowser::QueryActiveShellView (shobjidl_core.h)
-description: Retrieves the currently active (displayed) Shell view object.
+description: Retrieves the currently active (displayed) Shell view object.helpviewer_keywords: ["IShellBrowser interface [Windows Shell]","QueryActiveShellView method","IShellBrowser.QueryActiveShellView","IShellBrowser::QueryActiveShellView","QueryActiveShellView","QueryActiveShellView method [Windows Shell]","QueryActiveShellView method [Windows Shell]","IShellBrowser interface","_win32_IShellBrowser_QueryActiveShellView","shell.IShellBrowser_QueryActiveShellView","shobjidl_core/IShellBrowser::QueryActiveShellView"]
 old-location: shell\IShellBrowser_QueryActiveShellView.htm
 tech.root: shell
 ms.assetid: d03e41dc-72dc-4f34-ae5b-b5ef8b2f146d

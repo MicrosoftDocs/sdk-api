@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsinternaladminnetsource.IWMSInternalAdminNetSource3
 title: IWMSInternalAdminNetSource3 (wmsinternaladminnetsource.h)
-description: The IWMSInternalAdminNetSource3 interface provides improved methods to find proxy servers.To obtain a pointer to an instance of this interface, call the QueryInterface method of the IDispatch method retrieved by INSNetSourceCreator::GetNetSourceAdminInterface.
+description: The IWMSInternalAdminNetSource3 interface provides improved methods to find proxy servers.To obtain a pointer to an instance of this interface, call the QueryInterface method of the IDispatch method retrieved by INSNetSourceCreator::GetNetSourceAdminInterface.helpviewer_keywords: ["IWMSInternalAdminNetSource3","IWMSInternalAdminNetSource3 interface [windows Media Format]","IWMSInternalAdminNetSource3 interface [windows Media Format]","described","IWMSInternalAdminNetSource3Interface","wmformat.iwmsinternaladminnetsource3","wmsinternaladminnetsource/IWMSInternalAdminNetSource3"]
 old-location: wmformat\iwmsinternaladminnetsource3.htm
 tech.root: wmformat
 ms.assetid: b4ca08a4-6e2d-4646-b101-67bac67300b1

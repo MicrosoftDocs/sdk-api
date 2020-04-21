@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_ApplicationData
 title: IAzAuthorizationStore::get_ApplicationData (azroles.h)
-description: Sets or retrieves an opaque field that can be used by the application to store information.
+description: Sets or retrieves an opaque field that can be used by the application to store information.helpviewer_keywords: ["ApplicationData property [Security]","ApplicationData property [Security]","AzAuthorizationStore object","ApplicationData property [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","ApplicationData property","IAzAuthorizationStore interface [Security]","ApplicationData property","IAzAuthorizationStore.ApplicationData","IAzAuthorizationStore.get_ApplicationData","IAzAuthorizationStore::ApplicationData","IAzAuthorizationStore::get_ApplicationData","IAzAuthorizationStore::put_ApplicationData","azroles/IAzAuthorizationStore::ApplicationData","azroles/IAzAuthorizationStore::get_ApplicationData","azroles/IAzAuthorizationStore::put_ApplicationData","get_ApplicationData","security.azadminmanager_applicationdata","security.azauthorizationstore_applicationdata"]
 old-location: security\azauthorizationstore_applicationdata.htm
 tech.root: SecAuthZ
 ms.assetid: 21a76185-6bcf-405a-a2c5-5509b51ed16e

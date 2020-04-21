@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.PushAxisAlignedClip(const D2D1_RECT_F &,D2D1_ANTIALIAS_MODE)
 title: ID2D1RenderTarget::PushAxisAlignedClip(const D2D1_RECT_F &,D2D1_ANTIALIAS_MODE) (d2d1.h)
-description: Specifies a rectangle to which all subsequent drawing operations are clipped.
+description: Specifies a rectangle to which all subsequent drawing operations are clipped.helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","PushAxisAlignedClip method","ID2D1RenderTarget.PushAxisAlignedClip","ID2D1RenderTarget.PushAxisAlignedClip(const D2D1_RECT_F &","D2D1_ANTIALIAS_MODE)","ID2D1RenderTarget::PushAxisAlignedClip","ID2D1RenderTarget::PushAxisAlignedClip(const D2D1_RECT_F &","D2D1_ANTIALIAS_MODE)","PushAxisAlignedClip","PushAxisAlignedClip method [Direct2D]","PushAxisAlignedClip method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::PushAxisAlignedClip","direct2d.ID2D1RenderTarget_PushAxisAlignedClip_ref_D2D_RECT_F_D2D1_ANTIALIAS_MODE"]
 old-location: direct2d\ID2D1RenderTarget_PushAxisAlignedClip_ref_D2D_RECT_F_D2D1_ANTIALIAS_MODE.htm
 tech.root: Direct2D
 ms.assetid: a6a0743c-e964-41f5-807f-541f00f552b5
@@ -70,15 +70,6 @@ The size and position of the clipping area, in device-independent pixels.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE</a></b>
 
 The antialiasing mode that is used to draw the edges of clip rects that have subpixel boundaries, and to blend the clip with the scene contents. The blending is performed once when the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-popaxisalignedclip">PopAxisAlignedClip</a> method is called, and does not apply to each primitive within the layer. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

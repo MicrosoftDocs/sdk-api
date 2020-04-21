@@ -1,7 +1,7 @@
 ---
 UID: NF:locationapi.ILocationReport.GetValue
 title: ILocationReport::GetValue (locationapi.h)
-description: Retrieves a property value from the location report.
+description: Retrieves a property value from the location report.helpviewer_keywords: ["GetValue","GetValue method [WinLocation]","GetValue method [WinLocation]","ILocationReport interface","ILocationReport interface [WinLocation]","GetValue method","ILocationReport.GetValue","ILocationReport::GetValue","WinLocation_COM_Ref.ilocationreport_getvalue","locationapi/ILocationReport::GetValue"]
 old-location: winlocation_com_ref\ilocationreport_getvalue.htm
 tech.root: locationapi
 ms.assetid: a4bc1cc8-e246-4740-8290-afc8cd6def09

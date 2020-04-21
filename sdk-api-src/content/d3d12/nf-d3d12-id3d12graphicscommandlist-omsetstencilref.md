@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.OMSetStencilRef
 title: ID3D12GraphicsCommandList::OMSetStencilRef (d3d12.h)
-description: Sets the reference value for depth stencil tests.
+description: Sets the reference value for depth stencil tests.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","OMSetStencilRef method","ID3D12GraphicsCommandList.OMSetStencilRef","ID3D12GraphicsCommandList::OMSetStencilRef","OMSetStencilRef","OMSetStencilRef method","OMSetStencilRef method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::OMSetStencilRef","direct3d12.id3d12graphicscommandlist_omsetstencilref"]
 old-location: direct3d12\id3d12graphicscommandlist_omsetstencilref.htm
 tech.root: direct3d12
 ms.assetid: 96C5C209-71A2-4096-A86C-D376AC1AB46C
@@ -63,16 +63,6 @@ Type: <b>UINT</b>
 
 Reference value to perform against when doing a depth-stencil test.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -see-also

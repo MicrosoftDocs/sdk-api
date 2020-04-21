@@ -1,7 +1,7 @@
 ---
 UID: NF:mmddk.mmTaskBlock
 title: mmTaskBlock function (mmddk.h)
-description: The mmTaskBlock function is deprecated. Applications should not use this function.
+description: The mmTaskBlock function is deprecated. Applications should not use this function.helpviewer_keywords: ["mmTaskBlock","mmTaskBlock function [Windows Multimedia]","mmddk/mmTaskBlock","multimedia.mmtaskblock"]
 old-location: multimedia\mmtaskblock.htm
 tech.root: Multimedia
 ms.assetid: eaa3fcb3-85ee-4ae7-98c6-7873ef587241
@@ -63,13 +63,5 @@ The <b>mmTaskBlock</b> function is deprecated. Applications should not use this 
 ### -param h
 
 Reserved.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

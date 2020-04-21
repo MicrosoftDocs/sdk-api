@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSGetState
 title: ID3D10Device::RSGetState (d3d10.h)
-description: Get the rasterizer state from the rasterizer stage of the pipeline.
+description: Get the rasterizer state from the rasterizer stage of the pipeline.helpviewer_keywords: ["ID3D10Device interface [Direct3D 10]","RSGetState method","ID3D10Device.RSGetState","ID3D10Device::RSGetState","RSGetState","RSGetState method [Direct3D 10]","RSGetState method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::RSGetState","direct3d10.id3d10device_rsgetstate","e6855c5c-5337-9573-7375-39d3e0d3e83c"]
 old-location: direct3d10\id3d10device_rsgetstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rsgetstate.htm
@@ -63,15 +63,6 @@ Get the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10rasterizerstate">ID3D10RasterizerState</a>**</b>
 
 Address of a pointer to a rasterizer-state interface (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10rasterizerstate">ID3D10RasterizerState</a>) to fill with information from the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

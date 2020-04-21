@@ -1,7 +1,7 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationFrameInfoProvider
 title: IDirectManipulationFrameInfoProvider (directmanipulation.h)
-description: Represents a time-keeping object that measures the latency of the composition infrastructure used by the application and provides this data to Direct Manipulation.
+description: Represents a time-keeping object that measures the latency of the composition infrastructure used by the application and provides this data to Direct Manipulation.helpviewer_keywords: ["IDirectManipulationFrameInfoProvider","IDirectManipulationFrameInfoProvider interface [Direct Manipulation]","IDirectManipulationFrameInfoProvider interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationframeinfoprovider","directmanipulation/IDirectManipulationFrameInfoProvider"]
 old-location: directmanipulation\idirectmanipulationframeinfoprovider.htm
 tech.root: directmanipulation
 ms.assetid: 15B7CA2A-DEC3-479B-BD41-38A57037002F

@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpGetClientInfo
 title: DhcpGetClientInfo function (dhcpsapi.h)
-description: The DhcpGetClientInfo function returns information about a specific DHCP client.
+description: The DhcpGetClientInfo function returns information about a specific DHCP client.helpviewer_keywords: ["DhcpGetClientInfo","DhcpGetClientInfo function [DHCP]","dhcp.dhcpgetclientinfo","dhcpsapi/DhcpGetClientInfo"]
 old-location: dhcp\dhcpgetclientinfo.htm
 tech.root: DHCP
 ms.assetid: 67095868-7e02-4d82-b2f0-70c413fa8ed6

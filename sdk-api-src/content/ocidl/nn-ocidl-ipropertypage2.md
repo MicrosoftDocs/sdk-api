@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IPropertyPage2
 title: IPropertyPage2 (ocidl.h)
-description: An extension to IPropertyPage to support initial selection of a property on a page.
+description: An extension to IPropertyPage to support initial selection of a property on a page.helpviewer_keywords: ["IPropertyPage2","IPropertyPage2 interface [COM]","IPropertyPage2 interface [COM]","described","_ctrl_ipropertypage2","com.ipropertypage2","ocidl/IPropertyPage2"]
 old-location: com\ipropertypage2.htm
 tech.root: com
 ms.assetid: 65cd8f97-f88c-433c-b4e7-9dace7193ec1

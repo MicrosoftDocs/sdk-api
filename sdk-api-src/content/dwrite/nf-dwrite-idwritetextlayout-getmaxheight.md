@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetMaxHeight
 title: IDWriteTextLayout::GetMaxHeight (dwrite.h)
-description: Gets the layout maximum height.
+description: Gets the layout maximum height.helpviewer_keywords: ["GetMaxHeight","GetMaxHeight method [Direct Write]","GetMaxHeight method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetMaxHeight method","IDWriteTextLayout.GetMaxHeight","IDWriteTextLayout::GetMaxHeight","directwrite.IDWriteTextLayout_GetMaxHeight","dwrite/IDWriteTextLayout::GetMaxHeight"]
 old-location: directwrite\IDWriteTextLayout_GetMaxHeight.htm
 tech.root: DirectWrite
 ms.assetid: 841b48aa-690a-4563-a303-2990f4233d07

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.GetActiveLanguageProfile
 title: ITfInputProcessorProfiles::GetActiveLanguageProfile (msctf.h)
-description: ITfInputProcessorProfiles::GetActiveLanguageProfile method
+description: ITfInputProcessorProfiles::GetActiveLanguageProfile methodhelpviewer_keywords: ["GetActiveLanguageProfile","GetActiveLanguageProfile method [Text Services Framework]","GetActiveLanguageProfile method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","GetActiveLanguageProfile method","ITfInputProcessorProfiles.GetActiveLanguageProfile","ITfInputProcessorProfiles::GetActiveLanguageProfile","_tsf_itfinputprocessorprofiles_getactivelanguageprofile_ref","msctf/ITfInputProcessorProfiles::GetActiveLanguageProfile","tsf.itfinputprocessorprofiles_getactivelanguageprofile"]
 old-location: tsf\itfinputprocessorprofiles_getactivelanguageprofile.htm
 tech.root: TSF
 ms.assetid: 446bfda3-63d9-4070-b758-bdaf267c9911
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the identifier of the currently active language profile for a specific text service.
 
 ## -parameters
 

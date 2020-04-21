@@ -1,7 +1,7 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_CodecCount
 title: IAMNetShowExProps::get_CodecCount (qnetwork.h)
-description: The get_CodecCount method retrieves the number codecs needed to play the file.
+description: The get_CodecCount method retrieves the number codecs needed to play the file.helpviewer_keywords: ["IAMNetShowExProps interface [DirectShow]","get_CodecCount method","IAMNetShowExProps.get_CodecCount","IAMNetShowExProps::get_CodecCount","IAMNetShowExPropsget_CodecCount","dshow.iamnetshowexprops_get_codeccount","get_CodecCount","get_CodecCount method [DirectShow]","get_CodecCount method [DirectShow]","IAMNetShowExProps interface","qnetwork/IAMNetShowExProps::get_CodecCount"]
 old-location: dshow\iamnetshowexprops_get_codeccount.htm
 tech.root: DirectShow
 ms.assetid: 7b16727d-565a-431e-8124-124d72816d65

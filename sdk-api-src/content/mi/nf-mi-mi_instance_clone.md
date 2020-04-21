@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Instance_Clone
 title: MI_Instance_Clone function (mi.h)
-description: Creates a copy of the specified instance on the heap.
+description: Creates a copy of the specified instance on the heap.helpviewer_keywords: ["MI_Instance_Clone","MI_Instance_Clone function [Windows Management Infrastructure (MI)]","mi/MI_Instance_Clone","wmi_v2.mi_instance_clone"]
 old-location: wmi_v2\mi_instance_clone.htm
 tech.root: wmi_v2
 ms.assetid: 9c7a4659-5bc4-4d24-89bc-9da4f2bdf107

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorNotify.NotifyRelease
 title: IMFVideoSampleAllocatorNotify::NotifyRelease (mfidl.h)
-description: Called when a video sample is returned to the allocator.
+description: Called when a video sample is returned to the allocator.helpviewer_keywords: ["IMFVideoSampleAllocatorNotify interface [Media Foundation]","NotifyRelease method","IMFVideoSampleAllocatorNotify.NotifyRelease","IMFVideoSampleAllocatorNotify::NotifyRelease","IMFVideoSampleAllocatorNotifyEx interface [Media Foundation]","NotifyRelease method","IMFVideoSampleAllocatorNotifyEx::NotifyRelease","NotifyRelease","NotifyRelease method [Media Foundation]","NotifyRelease method [Media Foundation]","IMFVideoSampleAllocatorNotify interface","NotifyRelease method [Media Foundation]","IMFVideoSampleAllocatorNotifyEx interface","mf.imfvideosampleallocatornotify_notifyrelease","mfidl/IMFVideoSampleAllocatorNotify::NotifyRelease","mfidl/IMFVideoSampleAllocatorNotifyEx::NotifyRelease"]
 old-location: mf\imfvideosampleallocatornotify_notifyrelease.htm
 tech.root: medfound
 ms.assetid: 0467ebbe-b00d-41c1-8f50-77ca09337b15

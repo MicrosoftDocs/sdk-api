@@ -1,7 +1,7 @@
 ---
 UID: NS:vptype._AMVPSIZE
 title: AMVPSIZE (vptype.h)
-description: The AMVPSIZE structure specifies the width and height for a VP image.
+description: The AMVPSIZE structure specifies the width and height for a VP image.helpviewer_keywords: ["*LPAMVPSIZE","AMVPSIZE","AMVPSIZE structure [DirectShow]","AMVPSIZEStructure","LPAMVPSIZE","LPAMVPSIZE structure pointer [DirectShow]","dshow.amvpsize","vptype/AMVPSIZE","vptype/LPAMVPSIZE"]
 old-location: dshow\amvpsize.htm
 tech.root: DirectShow
 ms.assetid: e36163bc-a7ea-421e-b876-2d459ecb11e8

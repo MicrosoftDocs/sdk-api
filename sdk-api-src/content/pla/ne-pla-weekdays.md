@@ -1,7 +1,7 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0009
 title: WeekDays (pla.h)
-description: Defines the days of the week on which to run the data collector set.
+description: Defines the days of the week on which to run the data collector set.helpviewer_keywords: ["WeekDays","WeekDays enumeration [PLA]","base.weekdays","pla.weekdays","pla/WeekDays","pla/plaEveryday","pla/plaFriday","pla/plaMonday","pla/plaRunOnce","pla/plaSaturday","pla/plaSunday","pla/plaThursday","pla/plaTuesday","pla/plaWednesday","plaEveryday","plaFriday","plaMonday","plaRunOnce","plaSaturday","plaSunday","plaThursday","plaTuesday","plaWednesday"]
 old-location: pla\weekdays.htm
 tech.root: PLA
 ms.assetid: 5246fee3-0536-4525-bab8-5087330a1b49

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector3Project
 title: XMVector3Project function (directxmath.h)
-description: Project a 3D vector from object space into screen space.
+description: Project a 3D vector from object space into screen space.helpviewer_keywords: ["Use DirectX..XMVector3Project","XMVector3Project","XMVector3Project method [DirectX Math Support APIs]","dxmath.xmvector3project"]
 old-location: dxmath\xmvector3project.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3Project(XMVECTOR,float,float,float,float,float,float,XMMATRIX,XMMATRIX,XMMATRIX)

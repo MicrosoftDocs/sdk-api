@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Restore
 title: Graphics::Restore (gdiplusgraphics.h)
-description: The Graphics::Restore method sets the state of this Graphics object to the state stored by a previous call to the Graphics::Save method of this Graphics object.
+description: The Graphics::Restore method sets the state of this Graphics object to the state stored by a previous call to the Graphics::Save method of this Graphics object.helpviewer_keywords: ["Graphics class [GDI+]","Restore method","Graphics.Restore","Graphics::Restore","Restore","Restore method [GDI+]","Restore method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_Restore_gstate_","gdiplus._gdiplus_CLASS_Graphics_Restore_gstate_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Restore_gstate_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\restore.htm

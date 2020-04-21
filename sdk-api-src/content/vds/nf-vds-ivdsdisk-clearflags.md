@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsDisk.ClearFlags
 title: IVdsDisk::ClearFlags (vds.h)
-description: Clears the flags of a disk object.
+description: Clears the flags of a disk object.helpviewer_keywords: ["ClearFlags","ClearFlags method [VDS]","ClearFlags method [VDS]","IVdsDisk interface","IVdsDisk interface [VDS]","ClearFlags method","IVdsDisk.ClearFlags","IVdsDisk::ClearFlags","base.ivdsdisk_clearflags","vds/IVdsDisk::ClearFlags"]
 old-location: base\ivdsdisk_clearflags.htm
 tech.root: VDS
 ms.assetid: 3ee43acd-6dcc-40de-9bb6-de7cfb605f15

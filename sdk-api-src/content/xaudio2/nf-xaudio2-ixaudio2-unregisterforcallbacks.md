@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2.UnregisterForCallbacks
 title: IXAudio2::UnregisterForCallbacks (xaudio2.h)
-description: Removes an IXAudio2EngineCallback pointer from the XAudio2 engine callback list.
+description: Removes an IXAudio2EngineCallback pointer from the XAudio2 engine callback list.helpviewer_keywords: ["IXAudio2 interface [XAudio2 Audio Mixing APIs]","UnregisterForCallbacks method","IXAudio2.UnregisterForCallbacks","IXAudio2::UnregisterForCallbacks","UnregisterForCallbacks","UnregisterForCallbacks method [XAudio2 Audio Mixing APIs]","UnregisterForCallbacks method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","xaudio2.ixaudio2_interface_unregisterforcallbacks","xaudio2/IXAudio2::UnregisterForCallbacks"]
 old-location: xaudio2\ixaudio2_interface_unregisterforcallbacks.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.UnregisterForCallbacks(IXAudio2EngineCallback)
@@ -62,15 +62,6 @@ Removes an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xa
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback">IXAudio2EngineCallback</a> pointer to remove from the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">XAudio2</a> engine callback list. 
 If the given pointer is present more than once in the list, only the first instance in the list will be removed.
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
 
 
 

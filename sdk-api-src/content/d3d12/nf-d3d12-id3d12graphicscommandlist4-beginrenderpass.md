@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.BeginRenderPass
 title: ID3D12GraphicsCommandList4::BeginRenderPass (d3d12.h)
-description: Marks the beginning of a render pass by binding a set of output resources for the duration of the render pass. These bindings are to one or more render target views (RTVs), and/or to a depth stencil view (DSV).
+description: Marks the beginning of a render pass by binding a set of output resources for the duration of the render pass. These bindings are to one or more render target views (RTVs), and/or to a depth stencil view (DSV).helpviewer_keywords: ["BeginRenderPass","BeginRenderPass method","BeginRenderPass method","ID3D12GraphicsCommandList4 interface","ID3D12GraphicsCommandList4 interface","BeginRenderPass method","ID3D12GraphicsCommandList4.BeginRenderPass","ID3D12GraphicsCommandList4::BeginRenderPass","d3d12/ID3D12GraphicsCommandList4::BeginRenderPass","direct3d12.id3d12graphicscommandlist4_beginrenderpass"]
 old-location: direct3d12\id3d12graphicscommandlist4_beginrenderpass.htm
 tech.root: direct3d12
 ms.assetid: 6A7CF754-F2E6-48D4-8A4D-CE64B31267F7
@@ -75,15 +75,6 @@ A pointer to a constant <b>D3D12_RENDER_PASS_DEPTH_STENCIL_DESC</b>, which descr
 ### -param Flags
 
 A <b>D3D12_RENDER_PASS_FLAGS</b>. The nature/requirements of the render pass; for example, whether it is a suspending or a resuming render pass, or whether it wants to write to unordered access view(s).
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteFontList2
 title: IDWriteFontList2
-description: Represents a list of fonts. **IDWriteFontList2** adds new facilities, including retrieving the underlying font set used by the list.
+description: Represents a list of fonts. **IDWriteFontList2** adds new facilities, including retrieving the underlying font set used by the list.helpviewer_keywords: ["IDWriteFontList2","IDWriteFontList2 interface [Direct Write]","IDWriteFontList2 interface [Direct Write]","described","directwrite.idwritefontlist2","dwrite_3/IDWriteFontList2"]
 tech.root: DirectWrite
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontList2, IDWriteFontList2 interface [Direct Write], IDWriteFontList2 interface [Direct Write],described, directwrite.idwritefontlist2, dwrite_3/IDWriteFontList2

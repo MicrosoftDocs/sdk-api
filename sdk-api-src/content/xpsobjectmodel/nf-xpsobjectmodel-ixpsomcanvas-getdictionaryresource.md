@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetDictionaryResource
 title: IXpsOMCanvas::GetDictionaryResource (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMRemoteDictionaryResource interface of the remote dictionary resource.
+description: Gets a pointer to the IXpsOMRemoteDictionaryResource interface of the remote dictionary resource.helpviewer_keywords: ["GetDictionaryResource","GetDictionaryResource method [XPS Documents and Packaging]","GetDictionaryResource method [XPS Documents and Packaging]","IXpsOMCanvas interface","IXpsOMCanvas interface [XPS Documents and Packaging]","GetDictionaryResource method","IXpsOMCanvas.GetDictionaryResource","IXpsOMCanvas::GetDictionaryResource","xps.ixpsomcanvas_getdictionaryresource","xpsobjectmodel/IXpsOMCanvas::GetDictionaryResource"]
 old-location: xps\ixpsomcanvas_getdictionaryresource.htm
 tech.root: printdocs
 ms.assetid: 96fa8c03-ce00-4d10-8a88-228600fdcae7

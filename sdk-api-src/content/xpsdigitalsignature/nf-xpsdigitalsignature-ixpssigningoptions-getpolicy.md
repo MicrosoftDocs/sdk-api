@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetPolicy
 title: IXpsSigningOptions::GetPolicy (xpsdigitalsignature.h)
-description: Gets the XPS_SIGN_POLICY value that specifies the signing policy.
+description: Gets the XPS_SIGN_POLICY value that specifies the signing policy.helpviewer_keywords: ["GetPolicy","GetPolicy method [XPS Documents and Packaging]","GetPolicy method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetPolicy method","IXpsSigningOptions.GetPolicy","IXpsSigningOptions::GetPolicy","xps.ixpssigningoptions_getpolicy","xpsdigitalsignature/IXpsSigningOptions::GetPolicy"]
 old-location: xps\ixpssigningoptions_getpolicy.htm
 tech.root: printdocs
 ms.assetid: 0643ee4d-7991-4570-8dce-8166f007abc8

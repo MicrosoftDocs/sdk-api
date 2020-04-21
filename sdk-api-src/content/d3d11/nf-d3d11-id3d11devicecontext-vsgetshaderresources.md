@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSGetShaderResources
 title: ID3D11DeviceContext::VSGetShaderResources (d3d11.h)
-description: Get the vertex shader resources.
+description: Get the vertex shader resources.helpviewer_keywords: ["ID3D11DeviceContext interface [Direct3D 11]","VSGetShaderResources method","ID3D11DeviceContext.VSGetShaderResources","ID3D11DeviceContext::VSGetShaderResources","VSGetShaderResources","VSGetShaderResources method [Direct3D 11]","VSGetShaderResources method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::VSGetShaderResources","direct3d11.id3d11devicecontext_vsgetshaderresources","ef920fa4-92e7-a2e3-a7a7-0b1beaa77e26"]
 old-location: direct3d11\id3d11devicecontext_vsgetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: 9b7974ea-3194-412d-8040-2d93280f77ac
@@ -77,15 +77,6 @@ The number of resources to get from the device. Up to a maximum of 128 slots are
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a>**</b>
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">shader resource view</a> interfaces to be returned by the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

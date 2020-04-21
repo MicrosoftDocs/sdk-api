@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.LeaveCriticalSection
 title: LeaveCriticalSection function (synchapi.h)
-description: Releases ownership of the specified critical section object.
+description: Releases ownership of the specified critical section object.helpviewer_keywords: ["LeaveCriticalSection","LeaveCriticalSection function","_win32_leavecriticalsection","base.leavecriticalsection","synchapi/LeaveCriticalSection","winbase/LeaveCriticalSection"]
 old-location: base\leavecriticalsection.htm
 tech.root: Sync
 ms.assetid: cf740e1d-351f-478c-bdbb-4a776b84acc5
@@ -67,15 +67,6 @@ Releases ownership of the specified critical section object.
 ### -param lpCriticalSection [in, out]
 
 A pointer to the critical section object.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

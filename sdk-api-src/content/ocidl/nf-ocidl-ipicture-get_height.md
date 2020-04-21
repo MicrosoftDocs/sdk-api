@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPicture.get_Height
 title: IPicture::get_Height (ocidl.h)
-description: Retrieves the current height of the picture in the picture object.
+description: Retrieves the current height of the picture in the picture object.helpviewer_keywords: ["IPicture interface [COM]","get_Height method","IPicture.get_Height","IPicture::get_Height","_ctrl_ipicture_get_height","com.ipicture_get_height","get_Height","get_Height method [COM]","get_Height method [COM]","IPicture interface","ocidl/IPicture::get_Height"]
 old-location: com\ipicture_get_height.htm
 tech.root: com
 ms.assetid: a582cc9d-4356-49ec-9f14-38c75e690fbe

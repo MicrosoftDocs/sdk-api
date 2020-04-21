@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvMovePointer
 title: DrvMovePointer function (winddi.h)
-description: The DrvMovePointer function moves the pointer to a new position and ensures that GDI does not interfere with the display of the pointer.
+description: The DrvMovePointer function moves the pointer to a new position and ensures that GDI does not interfere with the display of the pointer.helpviewer_keywords: ["DrvMovePointer","DrvMovePointer function [Display Devices]","ddifncs_4fda6dd1-abd6-45fa-ba92-d20352fe35c5.xml","display.drvmovepointer","winddi/DrvMovePointer"]
 old-location: display\drvmovepointer.htm
 tech.root: display
 ms.assetid: eb117f39-0823-4eb7-8628-fa4399a13ec6
@@ -79,15 +79,6 @@ When the driver has set the GCAPS_PANNING flag in the <a href="https://docs.micr
 ### -param prcl [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure defining an area that bounds all pixels affected by the pointer on the display. GDI will not draw in this rectangle without first removing the pointer from the screen. This parameter can be <b>NULL</b>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

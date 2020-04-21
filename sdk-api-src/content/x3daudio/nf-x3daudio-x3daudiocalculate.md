@@ -1,7 +1,7 @@
 ---
 UID: NF:x3daudio.X3DAudioCalculate
 title: X3DAudioCalculate function (x3daudio.h)
-description: Calculates DSP settings with respect to 3D parameters.
+description: Calculates DSP settings with respect to 3D parameters.helpviewer_keywords: ["X3DAudioCalculate","X3DAudioCalculate function [XAudio2 Audio Mixing APIs]","x3daudio/X3DAudioCalculate","xaudio2.x3daudiocalculate"]
 old-location: xaudio2\x3daudiocalculate.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioCalculate(const X3DAUDIO_HANDLE,const X3DAUDIO_LISTENER,const X3DAUDIO_EMITTER,UINT32,X3DAUDIO_DSP_SETTINGS@)

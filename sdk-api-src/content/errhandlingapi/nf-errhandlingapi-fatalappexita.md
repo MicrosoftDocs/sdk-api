@@ -1,7 +1,7 @@
 ---
 UID: NF:errhandlingapi.FatalAppExitA
 title: FatalAppExitA function (errhandlingapi.h)
-description: Displays a message box and terminates the application when the message box is closed.
+description: Displays a message box and terminates the application when the message box is closed.helpviewer_keywords: ["FatalAppExit","FatalAppExit function","FatalAppExitA","FatalAppExitW","_win32_fatalappexit","base.fatalappexit","errhandlingapi/FatalAppExit","errhandlingapi/FatalAppExitA","errhandlingapi/FatalAppExitW"]
 old-location: base\fatalappexit.htm
 tech.root: Debug
 ms.assetid: f18d8b16-ffe1-49f1-98be-ba8d49db86ef
@@ -80,15 +80,6 @@ This parameter must be zero.
 ### -param lpMessageText [in]
 
 The null-terminated string that is displayed in the message box.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

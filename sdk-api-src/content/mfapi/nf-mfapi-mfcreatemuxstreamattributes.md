@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFCreateMuxStreamAttributes
 title: MFCreateMuxStreamAttributes function (mfapi.h)
-description: Creates an IMFAttributes describing the content of multiplexed substreams.
+description: Creates an IMFAttributes describing the content of multiplexed substreams.helpviewer_keywords: ["MFCreateMuxStreamAttributes","MFCreateMuxStreamAttributes function [Media Foundation]","mf.mfcreatemuxstreamattributes","mfapi/MFCreateMuxStreamAttributes"]
 old-location: mf\mfcreatemuxstreamattributes.htm
 tech.root: medfound
 ms.assetid: 946D56BC-13A2-4464-8399-22A74E26693E

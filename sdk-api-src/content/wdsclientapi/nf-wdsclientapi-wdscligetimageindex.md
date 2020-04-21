@@ -1,7 +1,7 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageIndex
 title: WdsCliGetImageIndex function (wdsclientapi.h)
-description: Returns the index within the Windows Imaging Format(WIM) file for the current image.
+description: Returns the index within the Windows Imaging Format(WIM) file for the current image.helpviewer_keywords: ["WdsCliGetImageIndex","WdsCliGetImageIndex function [Windows Deployment Services]","wds.wdscligetimageindex","wdsclientapi/WdsCliGetImageIndex"]
 old-location: wds\wdscligetimageindex.htm
 tech.root: wds
 ms.assetid: e90750f0-5b45-40d5-ae6f-23b885cbe714

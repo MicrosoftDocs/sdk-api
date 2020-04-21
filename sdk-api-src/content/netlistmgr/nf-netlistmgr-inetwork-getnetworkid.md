@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetwork.GetNetworkId
 title: INetwork::GetNetworkId (netlistmgr.h)
-description: The GetNetworkId method returns the unique identifier of a network.
+description: The GetNetworkId method returns the unique identifier of a network.helpviewer_keywords: ["GetNetworkId","GetNetworkId method [Network Awareness]","GetNetworkId method [Network Awareness]","INetwork interface","INetwork interface [Network Awareness]","GetNetworkId method","INetwork.GetNetworkId","INetwork::GetNetworkId","netlistmgr/INetwork::GetNetworkId","nla.inetwork_getnetworkid"]
 old-location: nla\inetwork_getnetworkid.htm
 tech.root: nla
 ms.assetid: f2012295-d443-434f-8fe8-b6e38e7cac74

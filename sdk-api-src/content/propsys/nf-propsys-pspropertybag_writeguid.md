@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteGUID
 title: PSPropertyBag_WriteGUID function (propsys.h)
-description: Sets the GUID value of a property in a property bag.
+description: Sets the GUID value of a property in a property bag.helpviewer_keywords: ["PSPropertyBag_WriteGUID","PSPropertyBag_WriteGUID function [Windows Properties]","properties.PSPropertyBag_WriteGUID","propsys/PSPropertyBag_WriteGUID","shell.PSPropertyBag_WriteGUID","shell_PSPropertyBag_WriteGUID"]
 old-location: properties\PSPropertyBag_WriteGUID.htm
 tech.root: properties
 ms.assetid: F50CF010-3A4E-4723-BA9F-CE1B48CA4AA4

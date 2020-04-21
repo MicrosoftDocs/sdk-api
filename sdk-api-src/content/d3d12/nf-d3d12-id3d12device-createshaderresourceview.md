@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateShaderResourceView
 title: ID3D12Device::CreateShaderResourceView (d3d12.h)
-description: Creates a shader-resource view for accessing data in a resource.
+description: Creates a shader-resource view for accessing data in a resource.helpviewer_keywords: ["CreateShaderResourceView","CreateShaderResourceView method","CreateShaderResourceView method","ID3D12Device interface","ID3D12Device interface","CreateShaderResourceView method","ID3D12Device.CreateShaderResourceView","ID3D12Device::CreateShaderResourceView","d3d12/ID3D12Device::CreateShaderResourceView","direct3d12.id3d12device_createshaderresourceview"]
 old-location: direct3d12\id3d12device_createshaderresourceview.htm
 tech.root: direct3d12
 ms.assetid: 4FD7082D-2DA9-469E-BA74-6735D407D5FE
@@ -82,15 +82,6 @@ A null <i>pDesc</i> is used to initialize a default descriptor, if possible. Thi
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 Describes the CPU descriptor handle that represents the shader-resource view. This handle can be created in a shader-visible or non-shader-visible descriptor heap.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

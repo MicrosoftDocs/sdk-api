@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.LookupPersistentTcpPortReservation
 title: LookupPersistentTcpPortReservation function (iphlpapi.h)
-description: Looks up the token for a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
+description: Looks up the token for a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.helpviewer_keywords: ["LookupPersistentTcpPortReservation","LookupPersistentTcpPortReservation function [IP Helper]","iphlp.lookuppersistenttcpportreservation","iphlpapi/LookupPersistentTcpPortReservation"]
 old-location: iphlp\lookuppersistenttcpportreservation.htm
 tech.root: IpHlp
 ms.assetid: 5EBEB774-13A2-49C2-92ED-5271081615AA

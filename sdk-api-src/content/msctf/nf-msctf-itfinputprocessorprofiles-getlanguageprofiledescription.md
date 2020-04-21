@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.GetLanguageProfileDescription
 title: ITfInputProcessorProfiles::GetLanguageProfileDescription (msctf.h)
-description: ITfInputProcessorProfiles::GetLanguageProfileDescription method
+description: ITfInputProcessorProfiles::GetLanguageProfileDescription methodhelpviewer_keywords: ["GetLanguageProfileDescription","GetLanguageProfileDescription method [Text Services Framework]","GetLanguageProfileDescription method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","GetLanguageProfileDescription method","ITfInputProcessorProfiles.GetLanguageProfileDescription","ITfInputProcessorProfiles::GetLanguageProfileDescription","_tsf_itfinputprocessorprofiles_getlanguageprofiledescription_ref","msctf/ITfInputProcessorProfiles::GetLanguageProfileDescription","tsf.itfinputprocessorprofiles_getlanguageprofiledescription"]
 old-location: tsf\itfinputprocessorprofiles_getlanguageprofiledescription.htm
 tech.root: TSF
 ms.assetid: f5838d26-1065-498c-8361-8929c07fc725
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the description string for a language profile.
 
 ## -parameters
 

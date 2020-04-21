@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.ConvertLengthToIpv4Mask
 title: ConvertLengthToIpv4Mask function (netioapi.h)
-description: Converts an IPv4 prefix length to an IPv4 subnet mask.
+description: Converts an IPv4 prefix length to an IPv4 subnet mask.helpviewer_keywords: ["ConvertLengthToIpv4Mask","ConvertLengthToIpv4Mask function [IP Helper]","iphlp.convertlengthtoipv4mask","netioapi/ConvertLengthToIpv4Mask"]
 old-location: iphlp\convertlengthtoipv4mask.htm
 tech.root: IpHlp
 ms.assetid: 5d986301-368e-4984-9f90-e2af1f87cbea

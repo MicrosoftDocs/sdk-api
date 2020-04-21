@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetCount
 title: IDWriteStringList::GetCount (dwrite_3.h)
-description: Gets the number of strings in the string list.
+description: Gets the number of strings in the string list.helpviewer_keywords: ["GetCount","GetCount method [Direct Write]","GetCount method [Direct Write]","IDWriteStringList interface","IDWriteStringList interface [Direct Write]","GetCount method","IDWriteStringList.GetCount","IDWriteStringList::GetCount","directwrite.idwritestringlist_getcount","dwrite_3/IDWriteStringList::GetCount"]
 old-location: directwrite\idwritestringlist_getcount.htm
 tech.root: DirectWrite
 ms.assetid: F185D57A-65F2-4EFA-9C93-DFA89F3FAB01

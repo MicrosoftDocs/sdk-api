@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport2.get_PluggableTerminalClasses
 title: ITTerminalSupport2::get_PluggableTerminalClasses (tapi3if.h)
-description: The get_PluggableTerminalClasses method returns a collection of ITPluggableTerminalClassInfo terminal class information interface pointers.
+description: The get_PluggableTerminalClasses method returns a collection of ITPluggableTerminalClassInfo terminal class information interface pointers.helpviewer_keywords: ["ITTerminalSupport2 interface [TAPI 2.2]","get_PluggableTerminalClasses method","ITTerminalSupport2.get_PluggableTerminalClasses","ITTerminalSupport2::get_PluggableTerminalClasses","_tapi3_itterminalsupport2_get_pluggableterminalclasses","get_PluggableTerminalClasses","get_PluggableTerminalClasses method [TAPI 2.2]","get_PluggableTerminalClasses method [TAPI 2.2]","ITTerminalSupport2 interface","tapi3.itterminalsupport2_get_pluggableterminalclasses","tapi3if/ITTerminalSupport2::get_PluggableTerminalClasses"]
 old-location: tapi3\itterminalsupport2_get_pluggableterminalclasses.htm
 tech.root: Tapi
 ms.assetid: 4bbb7f77-fc67-4b6b-88fa-2dc5bcfb6c48

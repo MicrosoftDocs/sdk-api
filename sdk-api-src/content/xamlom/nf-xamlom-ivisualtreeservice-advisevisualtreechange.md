@@ -1,7 +1,7 @@
 ---
 UID: NF:xamlom.IVisualTreeService.AdviseVisualTreeChange
 title: IVisualTreeService::AdviseVisualTreeChange (xamlom.h)
-description: Starts listening for changes to the visual tree.
+description: Starts listening for changes to the visual tree.helpviewer_keywords: ["AdviseVisualTreeChange","AdviseVisualTreeChange method","AdviseVisualTreeChange method","IVisualTreeService interface","IVisualTreeService interface","AdviseVisualTreeChange method","IVisualTreeService.AdviseVisualTreeChange","IVisualTreeService::AdviseVisualTreeChange","xaml_diagnostics.ivisualtreeservice_advisevisualtreechange","xamlom/IVisualTreeService::AdviseVisualTreeChange"]
 old-location: xaml_diagnostics\ivisualtreeservice_advisevisualtreechange.htm
 tech.root: xaml_diagnostics
 ms.assetid: 83971154-4E40-474C-91AD-2436B1D02CB8

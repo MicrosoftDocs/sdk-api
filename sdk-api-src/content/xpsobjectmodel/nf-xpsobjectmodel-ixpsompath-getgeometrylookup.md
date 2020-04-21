@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetGeometryLookup
 title: IXpsOMPath::GetGeometryLookup (xpsobjectmodel.h)
-description: Gets the lookup key of a shared geometry object that is stored in a resource dictionary and that describes the resolved fill area for this path.
+description: Gets the lookup key of a shared geometry object that is stored in a resource dictionary and that describes the resolved fill area for this path.helpviewer_keywords: ["GetGeometryLookup","GetGeometryLookup method [XPS Documents and Packaging]","GetGeometryLookup method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetGeometryLookup method","IXpsOMPath.GetGeometryLookup","IXpsOMPath::GetGeometryLookup","xps.ixpsompath_getgeometrylookup","xpsobjectmodel/IXpsOMPath::GetGeometryLookup"]
 old-location: xps\ixpsompath_getgeometrylookup.htm
 tech.root: printdocs
 ms.assetid: f40b6ed0-6e75-4f0a-abcc-f13d961df678

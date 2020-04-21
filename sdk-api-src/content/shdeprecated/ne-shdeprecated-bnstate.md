@@ -1,7 +1,7 @@
 ---
 UID: NE:shdeprecated.tagBNSTATE
 title: BNSTATE (shdeprecated.h)
-description: Deprecated. Used by IBrowserService::SetNavigateState and IBrowserService::GetNavigateState to specify navigation states.
+description: Deprecated. Used by IBrowserService::SetNavigateState and IBrowserService::GetNavigateState to specify navigation states.helpviewer_keywords: ["BNSTATE","BNSTATE enumeration [Windows Shell]","BNS_BEGIN_NAVIGATE","BNS_NAVIGATE","BNS_NORMAL","_shell_BNSTATE","shdeprecated/BNSTATE","shdeprecated/BNS_BEGIN_NAVIGATE","shdeprecated/BNS_NAVIGATE","shdeprecated/BNS_NORMAL","shell.BNSTATE"]
 old-location: shell\BNSTATE.htm
 tech.root: shell
 ms.assetid: e49f38f0-51d3-43a7-96f6-1722a4afa848

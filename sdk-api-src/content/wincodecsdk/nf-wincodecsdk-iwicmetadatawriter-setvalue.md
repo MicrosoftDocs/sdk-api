@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.SetValue
 title: IWICMetadataWriter::SetValue (wincodecsdk.h)
-description: Sets the given metadata item.
+description: Sets the given metadata item.helpviewer_keywords: ["IWICMetadataWriter interface [Windows Imaging Component]","SetValue method","IWICMetadataWriter.SetValue","IWICMetadataWriter::SetValue","SetValue","SetValue method [Windows Imaging Component]","SetValue method [Windows Imaging Component]","IWICMetadataWriter interface","_wic_codec_iwicmetadatawriter_setvalue","wic._wic_codec_iwicmetadatawriter_setvalue","wincodecsdk/IWICMetadataWriter::SetValue"]
 old-location: wic\_wic_codec_iwicmetadatawriter_setvalue.htm
 tech.root: wic
 ms.assetid: bda3f959-40d1-45df-a82c-3eba2be33859

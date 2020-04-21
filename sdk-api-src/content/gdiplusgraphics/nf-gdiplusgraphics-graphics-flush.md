@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Flush
 title: Graphics::Flush (gdiplusgraphics.h)
-description: The Graphics::Flush method flushes all pending graphics operations.
+description: The Graphics::Flush method flushes all pending graphics operations.helpviewer_keywords: ["Flush","Flush method [GDI+]","Flush method [GDI+]","Graphics class","Graphics class [GDI+]","Flush method","Graphics.Flush","Graphics::Flush","_gdiplus_CLASS_Graphics_Flush_intention_","gdiplus._gdiplus_CLASS_Graphics_Flush_intention_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Flush_intention_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\flush.htm
@@ -63,15 +63,6 @@ The <b>Graphics::Flush</b> method flushes all pending graphics operations.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-flushintention">FlushIntention</a></b>
 
 Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-flushintention">FlushIntention</a> enumeration that specifies whether pending operations are flushed immediately (not executed) or executed as soon as possible. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

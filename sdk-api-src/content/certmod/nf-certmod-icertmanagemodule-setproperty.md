@@ -1,7 +1,7 @@
 ---
 UID: NF:certmod.ICertManageModule.SetProperty
 title: ICertManageModule::SetProperty (certmod.h)
-description: Allows a module to set a property value.
+description: Allows a module to set a property value.helpviewer_keywords: ["CCertManageModule object [Security]","SetProperty method","Copyright","Description","File Version","ICertManageModule interface [Security]","SetProperty method","ICertManageModule.SetProperty","ICertManageModule::SetProperty","Name","Product Version","SetProperty","SetProperty method [Security]","SetProperty method [Security]","CCertManageModule object","SetProperty method [Security]","ICertManageModule interface","_certsrv_icertmanagemodule_setproperty","certmod/ICertManageModule::SetProperty","security.icertmanagemodule_setproperty"]
 old-location: security\icertmanagemodule_setproperty.htm
 tech.root: SecCrypto
 ms.assetid: 582ace4a-da88-41b7-86dd-d6a74fc9e97a

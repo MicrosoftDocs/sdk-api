@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IOpenControlPanel.GetCurrentView
 title: IOpenControlPanel::GetCurrentView (shobjidl_core.h)
-description: Gets the most recent Control Panel view:\_Classic view or Category view.
+description: Gets the most recent Control Panel view:\_Classic view or Category view.helpviewer_keywords: ["CPVIEW_ALLITEMS","CPVIEW_CATEGORY","CPVIEW_CLASSIC","CPVIEW_HOME","GetCurrentView","GetCurrentView method [Windows Shell]","GetCurrentView method [Windows Shell]","IOpenControlPanel interface","IOpenControlPanel interface [Windows Shell]","GetCurrentView method","IOpenControlPanel.GetCurrentView","IOpenControlPanel::GetCurrentView","_shell_IOpenControlPanel_GetCurrentView","shell.IOpenControlPanel_GetCurrentView","shobjidl_core/IOpenControlPanel::GetCurrentView"]
 old-location: shell\IOpenControlPanel_GetCurrentView.htm
 tech.root: shell
 ms.assetid: ed539638-7953-471f-ac90-ebd4c3929e8e

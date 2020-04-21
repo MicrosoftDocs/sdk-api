@@ -1,7 +1,7 @@
 ---
 UID: NS:oaidl.tagARRAYDESC
 title: ARRAYDESC (oaidl.h)
-description: Describes an array, its element type, and its dimension.
+description: Describes an array, its element type, and its dimension.helpviewer_keywords: ["ARRAYDESC","ARRAYDESC structure [Automation]","_oa96_ARRAYDESC","automat.arraydesc","oaidl/ARRAYDESC"]
 old-location: automat\arraydesc.htm
 tech.root: automat
 ms.assetid: 5d48c9b7-a718-46bd-b8ba-5c92847c9a12

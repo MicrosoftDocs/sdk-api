@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.EndFigure
 title: ID2D1SimplifiedGeometrySink::EndFigure (d2d1.h)
-description: Ends the current figure; optionally, closes it.
+description: Ends the current figure; optionally, closes it.helpviewer_keywords: ["EndFigure","EndFigure method [Direct2D]","EndFigure method [Direct2D]","ID2D1SimplifiedGeometrySink interface","ID2D1SimplifiedGeometrySink interface [Direct2D]","EndFigure method","ID2D1SimplifiedGeometrySink.EndFigure","ID2D1SimplifiedGeometrySink::EndFigure","d2d1/ID2D1SimplifiedGeometrySink::EndFigure","direct2d.ID2D1SimplifiedGeometrySink_EndFigure"]
 old-location: direct2d\ID2D1SimplifiedGeometrySink_EndFigure.htm
 tech.root: Direct2D
 ms.assetid: 31f6aeba-2e81-4b8d-b734-0c501eae331f
@@ -62,15 +62,6 @@ Ends the current figure; optionally, closes it.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_figure_end">D2D1_FIGURE_END</a></b>
 
 A value that indicates whether the current figure is closed. If the figure is closed, a line is drawn between the current point and the start point specified by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">BeginFigure</a>.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

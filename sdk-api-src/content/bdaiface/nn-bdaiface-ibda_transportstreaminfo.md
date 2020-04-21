@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_TransportStreamInfo
 title: IBDA_TransportStreamInfo (bdaiface.h)
-description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IBDA_TransportStreamInfo interface returns the time when the most recent Program Association Table (PAT) section was received.
+description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IBDA_TransportStreamInfo interface returns the time when the most recent Program Association Table (PAT) section was received.helpviewer_keywords: ["IBDA_TransportStreamInfo","IBDA_TransportStreamInfo interface [Microsoft TV Technologies]","IBDA_TransportStreamInfo interface [Microsoft TV Technologies]","described","IBDA_TransportStreamInfoInterface","bdaiface/IBDA_TransportStreamInfo","mstv.ibda_transportstreaminfo"]
 old-location: mstv\ibda_transportstreaminfo.htm
 tech.root: mstv
 ms.assetid: c5f37790-f276-41a5-b5bd-7d8c7a7f587f

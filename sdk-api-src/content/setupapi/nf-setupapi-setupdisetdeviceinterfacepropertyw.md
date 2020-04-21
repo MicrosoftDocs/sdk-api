@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiSetDeviceInterfacePropertyW
 title: SetupDiSetDeviceInterfacePropertyW function (setupapi.h)
-description: The SetupDiSetDeviceInterfaceProperty function sets a device property of a device interface.
+description: The SetupDiSetDeviceInterfaceProperty function sets a device property of a device interface.helpviewer_keywords: ["SetupDiSetDeviceInterfaceProperty","SetupDiSetDeviceInterfaceProperty","SetupDiSetDeviceInterfaceProperty function [Device and Driver Installation]","SetupDiSetDeviceInterfacePropertyW","devinst.setupdisetdeviceinterfaceproperty","di-rtns_046f3d0e-43cc-4a62-be1e-4bbad8e59e48.xml","setupapi/SetupDiSetDeviceInterfaceProperty"]
 old-location: devinst\setupdisetdeviceinterfaceproperty.htm
 tech.root: devinst
 ms.assetid: 5c8da8a3-1c53-42c1-8adc-46743b63f731

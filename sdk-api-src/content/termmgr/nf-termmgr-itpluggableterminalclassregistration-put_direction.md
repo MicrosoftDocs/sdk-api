@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_Direction
 title: ITPluggableTerminalClassRegistration::put_Direction (termmgr.h)
-description: The put_Direction method sets the direction supported by the terminal.
+description: The put_Direction method sets the direction supported by the terminal.helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","put_Direction method","ITPluggableTerminalClassRegistration.put_Direction","ITPluggableTerminalClassRegistration::put_Direction","_tapi3_itpluggableterminalclassregistration_put_direction","put_Direction","put_Direction method [TAPI 2.2]","put_Direction method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_put_direction","termmgr/ITPluggableTerminalClassRegistration::put_Direction"]
 old-location: tapi3\itpluggableterminalclassregistration_put_direction.htm
 tech.root: Tapi
 ms.assetid: b68c0697-e889-471d-857a-d11e974c6552

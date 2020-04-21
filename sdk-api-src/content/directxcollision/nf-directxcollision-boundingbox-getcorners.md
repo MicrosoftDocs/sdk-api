@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingBox.GetCorners
 title: BoundingBox::GetCorners
-description: Retrieves the corners of the BoundingBox.
+description: Retrieves the corners of the BoundingBox.helpviewer_keywords: ["BoundingBox interface [DirectX Math Support APIs]","GetCorners method","BoundingBox.GetCorners","BoundingBox::GetCorners","GetCorners","GetCorners method [DirectX Math Support APIs]","GetCorners method [DirectX Math Support APIs]","BoundingBox interface","Use DirectX..BoundingBox.GetCorners","Use DirectX::::BoundingBox::GetCorners","dxmath.boundingbox_getcorners"]
 old-location: dxmath\boundingbox_getcorners.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.GetCorners(XMFLOAT3)
@@ -60,15 +60,6 @@ Retrieves the corners of the BoundingBox.
 ### -param Corners
 
 A pointer to a buffer that the corners will be written to.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

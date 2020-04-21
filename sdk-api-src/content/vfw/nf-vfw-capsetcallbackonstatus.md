@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.capSetCallbackOnStatus
 title: capSetCallbackOnStatus macro (vfw.h)
-description: The capSetCallbackOnStatus macro sets a status callback function in the application. AVICap calls this procedure whenever the capture window status changes. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_STATUS message.
+description: The capSetCallbackOnStatus macro sets a status callback function in the application. AVICap calls this procedure whenever the capture window status changes. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_STATUS message.helpviewer_keywords: ["_win32_capSetCallbackOnStatus","capSetCallbackOnStatus","capSetCallbackOnStatus macro [Windows Multimedia]","multimedia.capsetcallbackonstatus","vfw/capSetCallbackOnStatus"]
 old-location: multimedia\capsetcallbackonstatus.htm
 tech.root: Multimedia
 ms.assetid: 7024aa3e-d227-4c22-8259-6299e9205f53

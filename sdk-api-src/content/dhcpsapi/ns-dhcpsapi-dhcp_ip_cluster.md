@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_CLUSTER
 title: DHCP_IP_CLUSTER (dhcpsapi.h)
-description: The DHCP_IP_CLUSTER structure defines the address and mast for a network cluster.
+description: The DHCP_IP_CLUSTER structure defines the address and mast for a network cluster.helpviewer_keywords: ["*LPDHCP_IP_CLUSTER","DHCP_IP_CLUSTER","DHCP_IP_CLUSTER structure [DHCP]","LPDHCP_IP_CLUSTER","LPDHCP_IP_CLUSTER structure pointer [DHCP]","dhcp.dhcp_ip_cluster","dhcpsapi/LPDHCP_IP_CLUSTER","dhcpsapi/_DHCP_IP_CLUSTER"]
 old-location: dhcp\dhcp_ip_cluster.htm
 tech.root: DHCP
 ms.assetid: 6dad62c3-c56f-4526-ae5c-dbb74cb13c8f

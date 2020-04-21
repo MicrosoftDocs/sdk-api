@@ -1,7 +1,7 @@
 ---
 UID: NF:usp10.ScriptStringFree
 title: ScriptStringFree function (usp10.h)
-description: Frees a SCRIPT_STRING_ANALYSIS structure.
+description: Frees a SCRIPT_STRING_ANALYSIS structure.helpviewer_keywords: ["ScriptStringFree","ScriptStringFree function [Internationalization for Windows Applications]","_win32_ScriptStringFree","intl.scriptstringfree","usp10/ScriptStringFree"]
 old-location: intl\scriptstringfree.htm
 tech.root: Intl
 ms.assetid: 39d633a7-def7-41ef-80e5-f4c5c90cebba

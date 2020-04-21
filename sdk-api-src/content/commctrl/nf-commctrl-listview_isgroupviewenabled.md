@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_IsGroupViewEnabled
 title: ListView_IsGroupViewEnabled macro (commctrl.h)
-description: Checks whether the list-view control has group view enabled. You can use this macro or send the LVM_ISGROUPVIEWENABLED message explicitly.
+description: Checks whether the list-view control has group view enabled. You can use this macro or send the LVM_ISGROUPVIEWENABLED message explicitly.helpviewer_keywords: ["ListView_IsGroupViewEnabled","ListView_IsGroupViewEnabled macro [Windows Controls]","_win32_ListView_IsGroupViewEnabled","_win32_ListView_IsGroupViewEnabled_cpp","commctrl/ListView_IsGroupViewEnabled","controls.ListView_IsGroupViewEnabled","controls._win32_ListView_IsGroupViewEnabled"]
 old-location: controls\ListView_IsGroupViewEnabled.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_isgroupviewenabled.htm

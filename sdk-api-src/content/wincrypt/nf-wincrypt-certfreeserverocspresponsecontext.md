@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertFreeServerOcspResponseContext
 title: CertFreeServerOcspResponseContext function (wincrypt.h)
-description: Decrements the reference count for a CERT_SERVER_OCSP_RESPONSE_CONTEXT structure.
+description: Decrements the reference count for a CERT_SERVER_OCSP_RESPONSE_CONTEXT structure.helpviewer_keywords: ["CertFreeServerOcspResponseContext","CertFreeServerOcspResponseContext function [Security]","security.certfreeserverocspresponsecontext","wincrypt/CertFreeServerOcspResponseContext"]
 old-location: security\certfreeserverocspresponsecontext.htm
 tech.root: SecCrypto
 ms.assetid: a07fc1e0-6f06-4336-b33c-d4d6a838b609
@@ -60,13 +60,5 @@ The <b>CertFreeServerOcspResponseContext</b> function decrements the reference c
 ### -param pServerOcspResponseContext [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure that contains a value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetserverocspresponsecontext">CertGetServerOcspResponseContext</a> function.
-
-
-## -returns
-
-
-
-This function has no return value.
-
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.NdrClearOutParameters
 title: NdrClearOutParameters function (rpcndr.h)
-description: The NdrClearOutParameters function frees resources of the out parameter and clears its memory if the RPC call to the server fails.
+description: The NdrClearOutParameters function frees resources of the out parameter and clears its memory if the RPC call to the server fails.helpviewer_keywords: ["NdrClearOutParameters","NdrClearOutParameters","NdrClearOutParameters function [RPC]","rpc.ndrclearoutparameters","rpcndr/NdrClearOutParameters"]
 old-location: rpc\ndrclearoutparameters.htm
 tech.root: Rpc
 ms.assetid: f0ae23d5-3ec0-4e41-8c2c-5b6eb9bbb1b8
@@ -70,13 +70,5 @@ Pointer to the format string description.
 ### -param ArgAddr [in, out]
 
 Pointer to the out parameter to be freed.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

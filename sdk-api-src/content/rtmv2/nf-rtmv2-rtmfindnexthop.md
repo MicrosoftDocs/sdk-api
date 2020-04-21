@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmFindNextHop
 title: RtmFindNextHop function (rtmv2.h)
-description: The RtmFindNextHop function finds a specific next hop in a client's next-hop list.
+description: The RtmFindNextHop function finds a specific next hop in a client's next-hop list.helpviewer_keywords: ["RtmFindNextHop","RtmFindNextHop function [RAS]","_rtmv2ref_rtmfindnexthop","rras.rtmfindnexthop","rtmv2/RtmFindNextHop"]
 old-location: rras\rtmfindnexthop.htm
 tech.root: RRAS
 ms.assetid: 82bf88ad-eb6d-4ea5-98a0-72280e341f83

@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetEAS
 title: IAtscPsipParser::GetEAS (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetEAS","GetEAS method [Microsoft TV Technologies]","GetEAS method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetEAS method","IAtscPsipParser.GetEAS","IAtscPsipParser::GetEAS","IAtscPsipParserGetEAS","atscpsipparser/IAtscPsipParser::GetEAS","mstv.iatscpsipparser_geteas"]
 old-location: mstv\iatscpsipparser_geteas.htm
 tech.root: mstv
 ms.assetid: e53b93e3-7269-45aa-8b19-75f78fb44c41

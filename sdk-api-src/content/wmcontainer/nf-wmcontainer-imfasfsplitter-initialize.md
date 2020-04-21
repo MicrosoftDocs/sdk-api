@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.Initialize
 title: IMFASFSplitter::Initialize (wmcontainer.h)
-description: Resets the Advanced Systems Format (ASF) splitter and configures it to parse data from an ASF data section.
+description: Resets the Advanced Systems Format (ASF) splitter and configures it to parse data from an ASF data section.helpviewer_keywords: ["IMFASFSplitter interface [Media Foundation]","Initialize method","IMFASFSplitter.Initialize","IMFASFSplitter::Initialize","Initialize","Initialize method [Media Foundation]","Initialize method [Media Foundation]","IMFASFSplitter interface","dd69c2f9-dabf-4bba-bb3b-75ec3208c189","mf.imfasfsplitter_initialize","wmcontainer/IMFASFSplitter::Initialize"]
 old-location: mf\imfasfsplitter_initialize.htm
 tech.root: medfound
 ms.assetid: dd69c2f9-dabf-4bba-bb3b-75ec3208c189

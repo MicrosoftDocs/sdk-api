@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.Rect.GetSize
 title: Rect::GetSize (gdiplustypes.h)
-description: The Rect::GetSize method gets the width and height of the rectangle.
+description: The Rect::GetSize method gets the width and height of the rectangle.helpviewer_keywords: ["GetSize","GetSize method [GDI+]","GetSize method [GDI+]","Rect class","Rect class [GDI+]","GetSize method","Rect.GetSize","Rect::GetSize","_gdiplus_CLASS_Rect_GetSize_size_","gdiplus._gdiplus_CLASS_Rect_GetSize_size_"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetSize_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getsize_80size.htm
@@ -63,15 +63,6 @@ The <b>Rect::GetSize</b> method gets the width and height of the rectangle.
 Type: <b>Size*</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object that receives the width and height of the rectangle. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

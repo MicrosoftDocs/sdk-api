@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.RSSetScissorRects
 title: ID3D12GraphicsCommandList::RSSetScissorRects (d3d12.h)
-description: Binds an array of scissor rectangles to the rasterizer stage.
+description: Binds an array of scissor rectangles to the rasterizer stage.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","RSSetScissorRects method","ID3D12GraphicsCommandList.RSSetScissorRects","ID3D12GraphicsCommandList::RSSetScissorRects","RSSetScissorRects","RSSetScissorRects method","RSSetScissorRects method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::RSSetScissorRects","direct3d12.id3d12graphicscommandlist_rssetscissorrects"]
 old-location: direct3d12\id3d12graphicscommandlist_rssetscissorrects.htm
 tech.root: direct3d12
 ms.assetid: 5A636CCB-34EB-4642-B588-4107D79F46F5
@@ -72,16 +72,6 @@ Type: <b>const D3D12_RECT*</b>
 
 An array of scissor rectangles.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

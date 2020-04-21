@@ -1,7 +1,7 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyJob3.SetFileACLFlags
 title: IBackgroundCopyJob3::SetFileACLFlags (bits2_0.h)
-description: Specifies the owner and ACL information to maintain when using SMB to download or upload a file.
+description: Specifies the owner and ACL information to maintain when using SMB to download or upload a file.helpviewer_keywords: ["BG_COPY_FILE_ALL","BG_COPY_FILE_DACL","BG_COPY_FILE_GROUP","BG_COPY_FILE_OWNER","BG_COPY_FILE_SACL","IBackgroundCopyJob3 interface [BITS]","SetFileACLFlags method","IBackgroundCopyJob3.SetFileACLFlags","IBackgroundCopyJob3::SetFileACLFlags","SetFileACLFlags","SetFileACLFlags method [BITS]","SetFileACLFlags method [BITS]","IBackgroundCopyJob3 interface","bits.ibackgroundcopyjob3_setfileaclflags","bits2_0/IBackgroundCopyJob3::SetFileACLFlags"]
 old-location: bits\ibackgroundcopyjob3_setfileaclflags.htm
 tech.root: Bits
 ms.assetid: de218e3d-8c42-4cf3-94b9-94dbc5edbb47

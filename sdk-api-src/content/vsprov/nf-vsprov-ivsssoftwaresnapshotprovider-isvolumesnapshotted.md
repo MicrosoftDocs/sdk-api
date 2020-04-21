@@ -1,7 +1,7 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.IsVolumeSnapshotted
 title: IVssSoftwareSnapshotProvider::IsVolumeSnapshotted (vsprov.h)
-description: Determines whether any shadow copies exist for the specified volume.
+description: Determines whether any shadow copies exist for the specified volume.helpviewer_keywords: ["IVssSoftwareSnapshotProvider interface","IsVolumeSnapshotted method","IVssSoftwareSnapshotProvider.IsVolumeSnapshotted","IVssSoftwareSnapshotProvider::IsVolumeSnapshotted","IsVolumeSnapshotted","IsVolumeSnapshotted method","IsVolumeSnapshotted method","IVssSoftwareSnapshotProvider interface","base.ivsssoftwaresnapshotprovider_isvolumesnapshotted","vsprov/IVssSoftwareSnapshotProvider::IsVolumeSnapshotted"]
 old-location: base\ivsssoftwaresnapshotprovider_isvolumesnapshotted.htm
 tech.root: VSS
 ms.assetid: 0dd8cbe4-a8f8-479c-b8f7-ccdd255e978a

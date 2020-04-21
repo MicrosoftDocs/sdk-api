@@ -1,7 +1,7 @@
 ---
 UID: NN:netcon.IEnumNetSharingPublicConnection
 title: IEnumNetSharingPublicConnection (netcon.h)
-description: The IEnumNetSharingPublicConnection interface provides methods for enumerating the currently configured publicly-shared connections.
+description: The IEnumNetSharingPublicConnection interface provides methods for enumerating the currently configured publicly-shared connections.helpviewer_keywords: ["IEnumNetSharingPublicConnection","IEnumNetSharingPublicConnection interface [ICS/ICF]","IEnumNetSharingPublicConnection interface [ICS/ICF]","described","_ics_ienumnetsharingpublicconnection","ics.ienumnetsharingpublicconnection","netcon/IEnumNetSharingPublicConnection"]
 old-location: ics\ienumnetsharingpublicconnection.htm
 tech.root: ics
 ms.assetid: 69f2d4c0-7c25-4a50-988b-3ca6babb489a

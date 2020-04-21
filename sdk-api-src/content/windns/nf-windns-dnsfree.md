@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsFree
 title: DnsFree function (windns.h)
-description: Frees memory allocated for DNS records that was obtained using the DnsQuery function.
+description: Frees memory allocated for DNS records that was obtained using the DnsQuery function.helpviewer_keywords: ["DnsFree","DnsFree function [DNS]","dns.dnsfree","windns/DnsFree"]
 old-location: dns\dnsfree.htm
 tech.root: DNS
 ms.assetid: 32baa672-2106-4c4a-972a-f7f79996b613
@@ -66,15 +66,6 @@ A pointer to the DNS data to be freed.
 ### -param FreeType [in]
 
 A value that specifies the type of DNS data in <i>pData</i>. For more information and a list of values, see the <a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_free_type">DNS_FREE_TYPE</a> enumeration.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

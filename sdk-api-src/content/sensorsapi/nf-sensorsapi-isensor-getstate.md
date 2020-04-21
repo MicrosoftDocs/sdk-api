@@ -1,7 +1,7 @@
 ---
 UID: NF:sensorsapi.ISensor.GetState
 title: ISensor::GetState (sensorsapi.h)
-description: Retrieves the current operational state of the sensor.
+description: Retrieves the current operational state of the sensor.helpviewer_keywords: ["GetState","GetState method","GetState method","ISensor interface","ISensor interface","GetState method","ISensor.GetState","ISensor::GetState","sensorsapi/ISensor::GetState","winsensors_com_ref.isensor_getstate"]
 old-location: winsensors_com_ref\isensor_getstate.htm
 tech.root: SensorsAPI
 ms.assetid: ec8683a5-f2b3-48ce-8732-16429ee16a7f

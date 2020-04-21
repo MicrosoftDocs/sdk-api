@@ -1,7 +1,7 @@
 ---
 UID: NS:shtypes._ITEMIDLIST
 title: ITEMIDLIST (shtypes.h)
-description: Contains a list of item identifiers.
+description: Contains a list of item identifiers.helpviewer_keywords: ["*LPITEMIDLIST","*PIDLIST_ABSOLUTE","*PIDLIST_RELATIVE","*PITEMID_CHILD","*PUIDLIST_RELATIVE","*PUITEMID_CHILD","ITEMIDLIST","ITEMIDLIST structure [Windows Shell]","ITEMIDLIST_ABSOLUTE","ITEMIDLIST_RELATIVE","ITEMID_CHILD","_win32_ITEMIDLIST","shell.ITEMIDLIST","shtypes/ITEMIDLIST"]
 old-location: shell\ITEMIDLIST.htm
 tech.root: shell
 ms.assetid: 60daf071-4e93-4e1c-bc38-894f706db04f

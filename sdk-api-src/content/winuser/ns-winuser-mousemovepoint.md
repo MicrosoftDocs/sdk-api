@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMOUSEMOVEPOINT
 title: MOUSEMOVEPOINT (winuser.h)
-description: Contains information about the mouse's location in screen coordinates.
+description: Contains information about the mouse's location in screen coordinates.helpviewer_keywords: ["*LPMOUSEMOVEPOINT","*PMOUSEMOVEPOINT","MOUSEMOVEPOINT","MOUSEMOVEPOINT structure [Keyboard and Mouse Input]","PMOUSEMOVEPOINT","PMOUSEMOVEPOINT structure pointer [Keyboard and Mouse Input]","_win32_MOUSEMOVEPOINT_str","_win32_mousemovepoint_str_cpp","inputdev.mousemovepoint","winui._win32_mousemovepoint_str","winuser/MOUSEMOVEPOINT","winuser/PMOUSEMOVEPOINT"]
 old-location: inputdev\mousemovepoint.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputstructures\mousemovepoint.htm

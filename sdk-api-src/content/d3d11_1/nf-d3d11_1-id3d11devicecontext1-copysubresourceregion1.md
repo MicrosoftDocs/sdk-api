@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.CopySubresourceRegion1
 title: ID3D11DeviceContext1::CopySubresourceRegion1 (d3d11_1.h)
-description: Copies a region from a source resource to a destination resource.
+description: Copies a region from a source resource to a destination resource.helpviewer_keywords: ["CopySubresourceRegion1","CopySubresourceRegion1 method [Direct3D 11]","CopySubresourceRegion1 method [Direct3D 11]","ID3D11DeviceContext1 interface","ID3D11DeviceContext1 interface [Direct3D 11]","CopySubresourceRegion1 method","ID3D11DeviceContext1.CopySubresourceRegion1","ID3D11DeviceContext1::CopySubresourceRegion1","d3d11_1/ID3D11DeviceContext1::CopySubresourceRegion1","direct3d11.id3d11devicecontext1_copysubresourceregion1"]
 old-location: direct3d11\id3d11devicecontext1_copysubresourceregion1.htm
 tech.root: direct3d11
 ms.assetid: 1963011F-C3E2-428D-B667-195A4976510B
@@ -121,15 +121,6 @@ An empty box results in a no-op. A box is empty if the top value is greater than
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_copy_flags">D3D11_COPY_FLAGS</a>-typed value that specifies how to perform the copy operation. If you specify zero for no copy option, <b>CopySubresourceRegion1</b> behaves like <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-copysubresourceregion">ID3D11DeviceContext::CopySubresourceRegion</a>. For existing display drivers that can't process these flags, the runtime doesn't use them. 
-
-
-## -returns
-
-
-
-Returns nothing
-
-
 
 
 ## -remarks

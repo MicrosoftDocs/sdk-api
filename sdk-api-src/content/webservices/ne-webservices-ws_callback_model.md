@@ -1,7 +1,7 @@
 ---
 UID: NE:webservices.__unnamed_enum_14
 title: WS_CALLBACK_MODEL (webservices.h)
-description: Specifies the threading behavior of a callback (for example, a WS_ASYNC_CALLBACK).
+description: Specifies the threading behavior of a callback (for example, a WS_ASYNC_CALLBACK).helpviewer_keywords: ["WS_CALLBACK_MODEL","WS_CALLBACK_MODEL enumeration [Web Services for Windows]","WS_LONG_CALLBACK","WS_SHORT_CALLBACK","webservices/WS_CALLBACK_MODEL","webservices/WS_LONG_CALLBACK","webservices/WS_SHORT_CALLBACK","wsw.ws_callback_model"]
 old-location: wsw\ws_callback_model.htm
 tech.root: wsw
 ms.assetid: 6a8e4c0b-3c0a-4bd3-bbac-40e6f499a055

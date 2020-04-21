@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_GET_RETRIEVAL_POINTERS
 title: FSCTL_GET_RETRIEVAL_POINTERS
-description: Given a file handle, retrieves a data structure that describes the allocation and location on disk of a specific file, or, given a volume handle, the locations of bad clusters on a volume.
+description: Given a file handle, retrieves a data structure that describes the allocation and location on disk of a specific file, or, given a volume handle, the locations of bad clusters on a volume.helpviewer_keywords: ["FSCTL_GET_RETRIEVAL_POINTERS","FSCTL_GET_RETRIEVAL_POINTERS control","FSCTL_GET_RETRIEVAL_POINTERS control code [Files]","_win32_fsctl_get_retrieval_pointers","base.fsctl_get_retrieval_pointers","fs.fsctl_get_retrieval_pointers","winioctl/FSCTL_GET_RETRIEVAL_POINTERS"]
 old-location: fs\fsctl_get_retrieval_pointers.htm
 tech.root: FileIO
 ms.assetid: 002f6703-8db3-4034-a79f-3fa9c4159115

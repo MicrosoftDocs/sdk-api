@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.GetFolderByName
 title: IKnownFolderManager::GetFolderByName (shobjidl_core.h)
-description: Gets an object that represents a known folder identified by its canonical name.
+description: Gets an object that represents a known folder identified by its canonical name.helpviewer_keywords: ["GetFolderByName","GetFolderByName method [Windows Shell]","GetFolderByName method [Windows Shell]","IKnownFolderManager interface","IKnownFolderManager interface [Windows Shell]","GetFolderByName method","IKnownFolderManager.GetFolderByName","IKnownFolderManager::GetFolderByName","_shell_IKnownFolderManager_GetFolderByName","shell.IKnownFolderManager_GetFolderByName","shobjidl_core/IKnownFolderManager::GetFolderByName"]
 old-location: shell\IKnownFolderManager_GetFolderByName.htm
 tech.root: shell
 ms.assetid: cfabc06c-825d-488d-919e-4cd9109eae52

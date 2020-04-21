@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi.CLUSTERVERSIONINFO_NT4
 title: CLUSTERVERSIONINFO_NT4 (clusapi.h)
-description: TBD.
+description: TBD.helpviewer_keywords: ["*PCLUSTERVERSIONINFO_NT4","CLUSTERVERSIONINFO_NT4","CLUSTERVERSIONINFO_NT4 structure [Failover Cluster]","PCLUSTERVERSIONINFO_NT4","PCLUSTERVERSIONINFO_NT4 structure pointer [Failover Cluster]","clusapi/CLUSTERVERSIONINFO_NT4","clusapi/PCLUSTERVERSIONINFO_NT4","mscs.clusterversioninfo_nt4"]
 old-location: mscs\clusterversioninfo_nt4.htm
 tech.root: MsCS
 ms.assetid: 1420C1B9-3361-4D7C-B968-34967C0818F4

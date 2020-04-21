@@ -1,7 +1,7 @@
 ---
 UID: NN:mixerocx.IMixerOCX
 title: IMixerOCX (mixerocx.h)
-description: The IMixerOCX interface is implemented on the Overlay Mixer.
+description: The IMixerOCX interface is implemented on the Overlay Mixer.helpviewer_keywords: ["IMixerOCX","IMixerOCX interface [DirectShow]","IMixerOCX interface [DirectShow]","described","IMixerOCXInterface","dshow.imixerocx","mixerocx/IMixerOCX"]
 old-location: dshow\imixerocx.htm
 tech.root: DirectShow
 ms.assetid: b80d720d-921d-4d24-a168-49944cfcc411

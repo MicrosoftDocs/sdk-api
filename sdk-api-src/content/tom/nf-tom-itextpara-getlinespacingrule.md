@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.GetLineSpacingRule
 title: ITextPara::GetLineSpacingRule (tom.h)
-description: Retrieves the line-spacing rule for the text range.
+description: Retrieves the line-spacing rule for the text range.helpviewer_keywords: ["GetLineSpacingRule","GetLineSpacingRule method [Windows Controls]","GetLineSpacingRule method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetLineSpacingRule method","ITextPara.GetLineSpacingRule","ITextPara::GetLineSpacingRule","_win32_ITextPara_GetLineSpacingRule","_win32_ITextPara_GetLineSpacingRule_cpp","controls.ITextPara_GetLineSpacingRule","controls._win32_ITextPara_GetLineSpacingRule","tom/ITextPara::GetLineSpacingRule","tomLineSpace1pt5","tomLineSpaceAtLeast","tomLineSpaceDouble","tomLineSpaceExactly","tomLineSpaceMultiple","tomLineSpacePercent","tomLineSpaceSingle"]
 old-location: controls\ITextPara_GetLineSpacingRule.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlinespacingrule.htm

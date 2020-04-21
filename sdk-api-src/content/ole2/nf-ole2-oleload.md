@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleLoad
 title: OleLoad function (ole2.h)
-description: Loads into memory an object nested within a specified storage object.
+description: Loads into memory an object nested within a specified storage object.helpviewer_keywords: ["OleLoad","OleLoad function [COM]","_ole_OleLoad","com.oleload","ole2/OleLoad"]
 old-location: com\oleload.htm
 tech.root: com
 ms.assetid: f2d8bb2e-5bd1-4991-a80c-ed06bfd5c9f9

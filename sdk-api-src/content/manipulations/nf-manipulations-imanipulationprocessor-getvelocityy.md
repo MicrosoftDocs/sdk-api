@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetVelocityY
 title: IManipulationProcessor::GetVelocityY (manipulations.h)
-description: Calculates and returns the vertical velocity.
+description: Calculates and returns the vertical velocity.helpviewer_keywords: ["GetVelocityY","GetVelocityY method [Windows Touch]","GetVelocityY method [Windows Touch]","IManipulationProcessor interface","IManipulationProcessor interface [Windows Touch]","GetVelocityY method","IManipulationProcessor.GetVelocityY","IManipulationProcessor::GetVelocityY","manipulations/IManipulationProcessor::GetVelocityY","wintouch.imanipulationprocessor_getvelocityy"]
 old-location: wintouch\imanipulationprocessor_getvelocityy.htm
 tech.root: wintouch
 ms.assetid: b531c4e5-8437-4869-9264-3fe131b8acc8

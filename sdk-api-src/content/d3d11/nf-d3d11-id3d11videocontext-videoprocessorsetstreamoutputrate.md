@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamOutputRate
 title: ID3D11VideoContext::VideoProcessorSetStreamOutputRate (d3d11.h)
-description: Sets the rate at which the video processor produces output frames for an input stream.
+description: Sets the rate at which the video processor produces output frames for an input stream.helpviewer_keywords: ["FALSE","ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamOutputRate method","ID3D11VideoContext.VideoProcessorSetStreamOutputRate","ID3D11VideoContext::VideoProcessorSetStreamOutputRate","TRUE","VideoProcessorSetStreamOutputRate","VideoProcessorSetStreamOutputRate method [Media Foundation]","VideoProcessorSetStreamOutputRate method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamOutputRate","mf.id3d11videocontext_videoprocessorsetstreamoutputrate"]
 old-location: mf\id3d11videocontext_videoprocessorsetstreamoutputrate.htm
 tech.root: medfound
 ms.assetid: D353F6E8-B465-46CB-AA47-8B097AB4AF2A
@@ -108,15 +108,6 @@ Interpolate frames.
 ### -param pCustomRate [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure. If <i>OutputRate</i> is <b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM</b>,  this parameter specifies the exact output rate. Otherwise, this parameter is ignored and can be <b>NULL</b>.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

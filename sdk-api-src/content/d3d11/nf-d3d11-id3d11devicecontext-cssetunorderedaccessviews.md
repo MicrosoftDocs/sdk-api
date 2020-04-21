@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSSetUnorderedAccessViews
 title: ID3D11DeviceContext::CSSetUnorderedAccessViews (d3d11.h)
-description: Sets an array of views for an unordered resource.
+description: Sets an array of views for an unordered resource.helpviewer_keywords: ["16820cec-2cc5-1d17-4d7f-118d1fd9660b","CSSetUnorderedAccessViews","CSSetUnorderedAccessViews method [Direct3D 11]","CSSetUnorderedAccessViews method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CSSetUnorderedAccessViews method","ID3D11DeviceContext.CSSetUnorderedAccessViews","ID3D11DeviceContext::CSSetUnorderedAccessViews","d3d11/ID3D11DeviceContext::CSSetUnorderedAccessViews","direct3d11.id3d11devicecontext_cssetunorderedaccessviews"]
 old-location: direct3d11\id3d11devicecontext_cssetunorderedaccessviews.htm
 tech.root: direct3d11
 ms.assetid: 384a15c0-a035-4f83-a927-e2f763e5fb44
@@ -90,15 +90,6 @@ An array of append and consume buffer offsets. A value of -1 indicates to keep t
             <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_buffer_uav_flag">D3D11_BUFFER_UAV_FLAG_APPEND</a> or <b>D3D11_BUFFER_UAV_FLAG_COUNTER</b> specified
             when the UAV was created; otherwise, the argument is ignored.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

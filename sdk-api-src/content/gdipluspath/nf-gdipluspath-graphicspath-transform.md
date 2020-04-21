@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Transform
 title: GraphicsPath::Transform (gdipluspath.h)
-description: The GraphicsPath::Transform method multiplies each of this path's data points by a specified matrix.
+description: The GraphicsPath::Transform method multiplies each of this path's data points by a specified matrix.helpviewer_keywords: ["GraphicsPath class [GDI+]","Transform method","GraphicsPath.Transform","GraphicsPath::Transform","Transform","Transform method [GDI+]","Transform method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_Transform_matrix_","gdiplus._gdiplus_CLASS_GraphicsPath_Transform_matrix_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Transform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\transform.htm

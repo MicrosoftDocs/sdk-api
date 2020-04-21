@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBstrFromI2
 title: VarBstrFromI2 function (oleauto.h)
-description: Converts a short value to a BSTR value.
+description: Converts a short value to a BSTR value.helpviewer_keywords: ["VarBstrFromI2","VarBstrFromI2 function [Automation]","_oa96_VarBstrFromI2","automat.varbstrfromi2","oleauto/VarBstrFromI2"]
 old-location: automat\varbstrfromi2.htm
 tech.root: automat
 ms.assetid: 0c9051f9-1c2f-4882-bff9-7d28440dd06d

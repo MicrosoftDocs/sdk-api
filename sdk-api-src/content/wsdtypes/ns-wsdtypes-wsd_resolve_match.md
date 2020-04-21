@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdtypes._WSD_RESOLVE_MATCH
 title: WSD_RESOLVE_MATCH (wsdtypes.h)
-description: Represents a ResolveMatch message.
+description: Represents a ResolveMatch message.helpviewer_keywords: ["WSD_RESOLVE_MATCH","WSD_RESOLVE_MATCH structure","ncd.wsd_resolve_match_struct","wsdtypes/WSD_RESOLVE_MATCH"]
 old-location: ncd\wsd_resolve_match_struct.htm
 tech.root: WsdApi
 ms.assetid: eabcc3af-282c-4299-8061-6cddf14eca6b

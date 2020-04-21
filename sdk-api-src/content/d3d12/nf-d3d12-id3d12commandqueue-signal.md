@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.Signal
 title: ID3D12CommandQueue::Signal (d3d12.h)
-description: Updates a fence to a specified value.
+description: Updates a fence to a specified value.helpviewer_keywords: ["ID3D12CommandQueue interface","Signal method","ID3D12CommandQueue.Signal","ID3D12CommandQueue::Signal","Signal","Signal method","Signal method","ID3D12CommandQueue interface","d3d12/ID3D12CommandQueue::Signal","direct3d12.id3d12commandqueue_signal"]
 old-location: direct3d12\id3d12commandqueue_signal.htm
 tech.root: direct3d12
 ms.assetid: 487E2DED-C741-4376-9EE2-3DDD2F4F76BB

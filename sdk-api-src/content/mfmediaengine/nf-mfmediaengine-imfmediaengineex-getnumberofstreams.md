@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetNumberOfStreams
 title: IMFMediaEngineEx::GetNumberOfStreams (mfmediaengine.h)
-description: Gets the number of streams in the media resource.
+description: Gets the number of streams in the media resource.helpviewer_keywords: ["GetNumberOfStreams","GetNumberOfStreams method [Media Foundation]","GetNumberOfStreams method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","GetNumberOfStreams method","IMFMediaEngineEx.GetNumberOfStreams","IMFMediaEngineEx::GetNumberOfStreams","mf.imfmediaengineex_getnumberofstreams","mfmediaengine/IMFMediaEngineEx::GetNumberOfStreams"]
 old-location: mf\imfmediaengineex_getnumberofstreams.htm
 tech.root: medfound
 ms.assetid: 7F3E805A-FE5C-4B75-9333-AE9819CFAFFA

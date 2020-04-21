@@ -1,7 +1,7 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6Initialize
 title: PxeDhcpv6Initialize function (wdspxe.h)
-description: Initializes a response packet as a DHCPv6 reply packet.
+description: Initializes a response packet as a DHCPv6 reply packet.helpviewer_keywords: ["PxeDhcpv6Initialize","PxeDhcpv6Initialize function [Windows Deployment Services]","wds.pxedhcpv6initialize","wdspxe/PxeDhcpv6Initialize"]
 old-location: wds\pxedhcpv6initialize.htm
 tech.root: wds
 ms.assetid: B9287BDA-3C7A-457C-8D70-E27A0B9BAE99

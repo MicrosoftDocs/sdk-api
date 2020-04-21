@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.QueryTarget
 title: ITsSbResourcePluginStore::QueryTarget (sbtsv.h)
-description: Returns the target that has the specified target name and farm name.
+description: Returns the target that has the specified target name and farm name.helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","QueryTarget method","ITsSbResourcePluginStore.QueryTarget","ITsSbResourcePluginStore::QueryTarget","ITsSbResourcePluginStoreEx interface [Remote Desktop Services]","QueryTarget method","ITsSbResourcePluginStoreEx::QueryTarget","QueryTarget","QueryTarget method [Remote Desktop Services]","QueryTarget method [Remote Desktop Services]","ITsSbResourcePluginStore interface","QueryTarget method [Remote Desktop Services]","ITsSbResourcePluginStoreEx interface","sbtsv/ITsSbResourcePluginStore::QueryTarget","sbtsv/ITsSbResourcePluginStoreEx::QueryTarget","termserv.itssbresourcepluginstore_querytarget"]
 old-location: termserv\itssbresourcepluginstore_querytarget.htm
 tech.root: TermServ
 ms.assetid: ef78c055-edf6-4f0c-b47c-836ef85310bf

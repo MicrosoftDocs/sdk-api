@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.RemoveConflicts
 title: ISyncMgrConflictStore::RemoveConflicts (syncmgr.h)
-description: Deletes a set of conflicts, specified by conflict ID, from the store.
+description: Deletes a set of conflicts, specified by conflict ID, from the store.helpviewer_keywords: ["ISyncMgrConflictStore interface [Windows Shell]","RemoveConflicts method","ISyncMgrConflictStore.RemoveConflicts","ISyncMgrConflictStore::RemoveConflicts","RemoveConflicts","RemoveConflicts method [Windows Shell]","RemoveConflicts method [Windows Shell]","ISyncMgrConflictStore interface","_shell_ISyncMgrConflictStore_RemoveConflicts","shell.ISyncMgrConflictStore_RemoveConflicts","syncmgr/ISyncMgrConflictStore::RemoveConflicts"]
 old-location: shell\ISyncMgrConflictStore_RemoveConflicts.htm
 tech.root: shell
 ms.assetid: d6fbb322-7bb0-4ad0-bf01-2fe407689fe5

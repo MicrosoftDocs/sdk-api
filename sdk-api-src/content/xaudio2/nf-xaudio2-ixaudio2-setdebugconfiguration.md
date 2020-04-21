@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2.SetDebugConfiguration
 title: IXAudio2::SetDebugConfiguration (xaudio2.h)
-description: Changes global debug logging options for XAudio2.
+description: Changes global debug logging options for XAudio2.helpviewer_keywords: ["IXAudio2 interface [XAudio2 Audio Mixing APIs]","SetDebugConfiguration method","IXAudio2.SetDebugConfiguration","IXAudio2::SetDebugConfiguration","SetDebugConfiguration","SetDebugConfiguration method [XAudio2 Audio Mixing APIs]","SetDebugConfiguration method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","xaudio2.ixaudio2_interface_setdebugconfiguration","xaudio2/IXAudio2::SetDebugConfiguration"]
 old-location: xaudio2\ixaudio2_interface_setdebugconfiguration.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.SetDebugConfiguration(XAUDIO2_DEBUG_CONFIGURATION)
@@ -65,15 +65,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-
 ### -param X2DEFAULT
 
 This parameter is reserved and must be NULL.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

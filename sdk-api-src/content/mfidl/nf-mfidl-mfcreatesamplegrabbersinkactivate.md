@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateSampleGrabberSinkActivate
 title: MFCreateSampleGrabberSinkActivate function (mfidl.h)
-description: Creates an activation object for the sample grabber media sink.
+description: Creates an activation object for the sample grabber media sink.helpviewer_keywords: ["MFCreateSampleGrabberSinkActivate","MFCreateSampleGrabberSinkActivate function [Media Foundation]","ac8e415e-5df8-4fdb-adf6-c3c717c3d625","mf.mfcreatesamplegrabbersinkactivate","mfidl/MFCreateSampleGrabberSinkActivate"]
 old-location: mf\mfcreatesamplegrabbersinkactivate.htm
 tech.root: medfound
 ms.assetid: ac8e415e-5df8-4fdb-adf6-c3c717c3d625

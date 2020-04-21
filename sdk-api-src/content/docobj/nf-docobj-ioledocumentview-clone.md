@@ -1,7 +1,7 @@
 ---
 UID: NF:docobj.IOleDocumentView.Clone
 title: IOleDocumentView::Clone (docobj.h)
-description: Creates a duplicate view object with an internal state identical to that of the current view.
+description: Creates a duplicate view object with an internal state identical to that of the current view.helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IOleDocumentView interface","IOleDocumentView interface [COM]","Clone method","IOleDocumentView.Clone","IOleDocumentView::Clone","_ole_ioledocumentview_clone","com.ioledocumentview_clone","docobj/IOleDocumentView::Clone"]
 old-location: com\ioledocumentview_clone.htm
 tech.root: com
 ms.assetid: d8acc469-26f6-4f1b-94a5-4839aa235a1d

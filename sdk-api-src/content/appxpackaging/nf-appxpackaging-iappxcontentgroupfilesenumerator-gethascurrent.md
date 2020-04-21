@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupFilesEnumerator.GetHasCurrent
 title: IAppxContentGroupFilesEnumerator::GetHasCurrent (appxpackaging.h)
-description: Determines whether there is a file at the current position of the enumerator.
+description: Determines whether there is a file at the current position of the enumerator.helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxContentGroupFilesEnumerator interface","IAppxContentGroupFilesEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxContentGroupFilesEnumerator.GetHasCurrent","IAppxContentGroupFilesEnumerator::GetHasCurrent","appxpackaging/IAppxContentGroupFilesEnumerator::GetHasCurrent","appxpkg.iappxcontentgroupfilesenumerator__gethascurrent"]
 old-location: appxpkg\iappxcontentgroupfilesenumerator__gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: 3F058122-35E9-4CEF-96B0-1597CC106FB2

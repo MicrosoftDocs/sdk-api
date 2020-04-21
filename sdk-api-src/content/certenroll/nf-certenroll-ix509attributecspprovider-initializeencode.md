@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509AttributeCspProvider.InitializeEncode
 title: IX509AttributeCspProvider::InitializeEncode (certenroll.h)
-description: Initializes the attribute from information about the provider.
+description: Initializes the attribute from information about the provider.helpviewer_keywords: ["IX509AttributeCspProvider interface [Security]","InitializeEncode method","IX509AttributeCspProvider.InitializeEncode","IX509AttributeCspProvider::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IX509AttributeCspProvider interface","certenroll/IX509AttributeCspProvider::InitializeEncode","security.ix509attributecspprovider_initializeencode_method"]
 old-location: security\ix509attributecspprovider_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: b0b45ea2-b682-4065-8624-08c34581b5ea

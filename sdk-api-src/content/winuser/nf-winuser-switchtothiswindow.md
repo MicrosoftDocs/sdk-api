@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SwitchToThisWindow
 title: SwitchToThisWindow function (winuser.h)
-description: Switches focus to the specified window and brings it to the foreground.
+description: Switches focus to the specified window and brings it to the foreground.helpviewer_keywords: ["SwitchToThisWindow","SwitchToThisWindow function [Windows and Messages]","_win32_SwitchToThisWindow","_win32_switchtothiswindow_cpp","winmsg.switchtothiswindow","winui._win32_switchtothiswindow","winuser/SwitchToThisWindow"]
 old-location: winmsg\switchtothiswindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\switchtothiswindow.htm
@@ -77,15 +77,6 @@ Type: <b>BOOL</b>
 A <b>TRUE</b> for this parameter indicates that the window
 				is being switched to using the Alt/Ctl+Tab key sequence.  This parameter
 				should be <b>FALSE</b> otherwise. 
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

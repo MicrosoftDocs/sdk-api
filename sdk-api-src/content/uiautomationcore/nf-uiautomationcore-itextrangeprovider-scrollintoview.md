@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.ScrollIntoView
 title: ITextRangeProvider::ScrollIntoView (uiautomationcore.h)
-description: Causes the text control to scroll vertically until the text range is visible in the viewport.
+description: Causes the text control to scroll vertically until the text range is visible in the viewport.helpviewer_keywords: ["ITextRangeProvider interface [Windows Accessibility]","ScrollIntoView method","ITextRangeProvider.ScrollIntoView","ITextRangeProvider::ScrollIntoView","ScrollIntoView","ScrollIntoView method [Windows Accessibility]","ScrollIntoView method [Windows Accessibility]","ITextRangeProvider interface","uiauto.uiauto_ITextRangeProvider_ScrollIntoView","uiauto_ITextRangeProvider_ScrollIntoView","uiautomationcore/ITextRangeProvider::ScrollIntoView","winauto.uiauto_ITextRangeProvider_ScrollIntoView"]
 old-location: winauto\uiauto_ITextRangeProvider_ScrollIntoView.htm
 tech.root: WinAuto
 ms.assetid: 58044de0-124f-4efd-a14f-4865f3278421

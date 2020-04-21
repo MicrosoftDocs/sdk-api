@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMREBARCHILDSIZE
 title: NMREBARCHILDSIZE (commctrl.h)
-description: Contains information used in handling the RBN_CHILDSIZE notification code.
+description: Contains information used in handling the RBN_CHILDSIZE notification code.helpviewer_keywords: ["*LPNMREBARCHILDSIZE","LPNMREBARCHILDSIZE","LPNMREBARCHILDSIZE structure pointer [Windows Controls]","NMREBARCHILDSIZE","NMREBARCHILDSIZE structure [Windows Controls]","_win32_NMREBARCHILDSIZE","_win32_NMREBARCHILDSIZE_cpp","commctrl/LPNMREBARCHILDSIZE","commctrl/NMREBARCHILDSIZE","controls.NMREBARCHILDSIZE","controls._win32_NMREBARCHILDSIZE"]
 old-location: controls\NMREBARCHILDSIZE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarchildsize.htm

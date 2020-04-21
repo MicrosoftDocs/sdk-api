@@ -1,7 +1,7 @@
 ---
 UID: NE:ndattrib.__MIDL___MIDL_itf_ndattrib_0000_0000_0002
 title: REPAIR_RISK (ndattrib.h)
-description: The REPAIR_RISK enumeration specifies whether repair changes are persistent and whether they can be undone.
+description: The REPAIR_RISK enumeration specifies whether repair changes are persistent and whether they can be undone.helpviewer_keywords: ["REPAIR_RISK","REPAIR_RISK enumeration [NDF]","RR_NORISK","RR_NOROLLBACK","RR_ROLLBACK","ndattrib/REPAIR_RISK","ndattrib/RR_NORISK","ndattrib/RR_NOROLLBACK","ndattrib/RR_ROLLBACK","ndf.repair_risk"]
 old-location: ndf\repair_risk.htm
 tech.root: NDF
 ms.assetid: 016e047e-9962-4b27-bd5d-8dd6b826ae03

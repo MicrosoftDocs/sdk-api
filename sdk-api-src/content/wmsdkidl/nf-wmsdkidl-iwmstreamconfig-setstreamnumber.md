@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetStreamNumber
 title: IWMStreamConfig::SetStreamNumber (wmsdkidl.h)
-description: The SetStreamNumber method specifies the stream number.
+description: The SetStreamNumber method specifies the stream number.helpviewer_keywords: ["IWMStreamConfig interface [windows Media Format]","SetStreamNumber method","IWMStreamConfig.SetStreamNumber","IWMStreamConfig::SetStreamNumber","IWMStreamConfigSetStreamNumber","SetStreamNumber","SetStreamNumber method [windows Media Format]","SetStreamNumber method [windows Media Format]","IWMStreamConfig interface","wmformat.iwmstreamconfig_setstreamnumber","wmsdkidl/IWMStreamConfig::SetStreamNumber"]
 old-location: wmformat\iwmstreamconfig_setstreamnumber.htm
 tech.root: wmformat
 ms.assetid: aea8b219-5b47-4176-ad96-d52646d96578

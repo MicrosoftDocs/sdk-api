@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.CreateRoundRectRgn
 title: CreateRoundRectRgn function (wingdi.h)
-description: The CreateRoundRectRgn function creates a rectangular region with rounded corners.
+description: The CreateRoundRectRgn function creates a rectangular region with rounded corners.helpviewer_keywords: ["CreateRoundRectRgn","CreateRoundRectRgn function [Windows GDI]","_win32_CreateRoundRectRgn","gdi.createroundrectrgn","wingdi/CreateRoundRectRgn"]
 old-location: gdi\createroundrectrgn.htm
 tech.root: gdi
 ms.assetid: 16f387e1-b00c-4755-8b21-1ee0f25bc46b

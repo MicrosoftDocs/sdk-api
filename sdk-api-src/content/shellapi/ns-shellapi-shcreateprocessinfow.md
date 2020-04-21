@@ -1,7 +1,7 @@
 ---
 UID: NS:shellapi._SHCREATEPROCESSINFOW
 title: SHCREATEPROCESSINFOW (shellapi.h)
-description: Contains the information needed by SHCreateProcessAsUserW to create a process.
+description: Contains the information needed by SHCreateProcessAsUserW to create a process.helpviewer_keywords: ["*PSHCREATEPROCESSINFOW","PSHCREATEPROCESSINFOW","PSHCREATEPROCESSINFOW structure pointer [Windows Shell]","SEE_MASK_CLASSKEY","SEE_MASK_CLASSNAME","SEE_MASK_CONNECTNETDRV","SEE_MASK_DOENVSUBST","SEE_MASK_FLAG_DDEWAIT","SEE_MASK_FLAG_NO_UI","SEE_MASK_HMONITOR","SEE_MASK_NOCLOSEPROCESS","SEE_MASK_NO_CONSOLE","SEE_MASK_UNICODE","SHCREATEPROCESSINFOW","SHCREATEPROCESSINFOW structure [Windows Shell]","_win32_SHCREATEPROCESSINFOW_str","shell.SHCREATEPROCESSINFOW_str","shellapi/PSHCREATEPROCESSINFOW","shellapi/SHCREATEPROCESSINFOW"]
 old-location: shell\SHCREATEPROCESSINFOW_str.htm
 tech.root: shell
 ms.assetid: f51d22c5-ea3e-4040-9761-7555f8f7e0aa

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceStatusChange
 title: IWMPEvents2::DeviceStatusChange (wmp.h)
-description: The DeviceStatusChange event occurs when the partnership status of a device changes.
+description: The DeviceStatusChange event occurs when the partnership status of a device changes.helpviewer_keywords: ["DeviceStatusChange","DeviceStatusChange method [Windows Media Player]","DeviceStatusChange method [Windows Media Player]","IWMPEvents2 interface","IWMPEvents2 interface [Windows Media Player]","DeviceStatusChange method","IWMPEvents2.DeviceStatusChange","IWMPEvents2::DeviceStatusChange","IWMPEvents2DeviceStatusChange","wmp.iwmpevents2_iwmpevents2__devicestatuschange","wmp/IWMPEvents2::DeviceStatusChange"]
 old-location: wmp\iwmpevents2_iwmpevents2__devicestatuschange.htm
 tech.root: WMP
 ms.assetid: f9781dde-e813-4e2d-820d-5a0803bfbe4e
@@ -68,15 +68,6 @@ Address of the <b>IWMPSyncDevice</b> interface that represents the device for wh
 ### -param NewStatus [in]
 
 <b>WMPDeviceStatus</b> enumeration value that represents the new status for the device specified by <i>pDevice</i>.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

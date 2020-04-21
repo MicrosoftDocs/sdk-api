@@ -1,7 +1,7 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_SEND
 title: WSMAN_PLUGIN_SEND (wsman.h)
-description: Defines the send callback for a plug-in.
+description: Defines the send callback for a plug-in.helpviewer_keywords: ["WSMAN_PLUGIN_SEND","WSMAN_PLUGIN_SEND callback","WSMAN_PLUGIN_SEND callback function [Windows Remote Management]","WSManPluginSend","winrm.wsman_plugin_send","wsman/WSMAN_PLUGIN_SEND"]
 old-location: winrm\wsman_plugin_send.htm
 tech.root: winrm
 ms.assetid: d287915b-9af9-4b87-9456-224e96e6dc20
@@ -89,13 +89,5 @@ Specifies the stream that is associated with the inbound object.
 ### -param *inboundData
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that contains data being sent to the specified stream. It is in the form of binary data.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
 
 

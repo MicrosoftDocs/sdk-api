@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODER_HEAP_DESC
 title: D3D12_VIDEO_DECODER_HEAP_DESC
-description: Describes a ID3D12VideoDecoderHeap.
+description: Describes a ID3D12VideoDecoderHeap.helpviewer_keywords: ["D3D12_VIDEO_DECODER_HEAP_DESC","D3D12_VIDEO_DECODER_HEAP_DESC",""]
 tech.root: mf
 ms.assetid: c7a67ba0-08c0-46d2-84c8-ec5d3b127b89
 ms.date: 05/28/2019

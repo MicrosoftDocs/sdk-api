@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetPointerPenInfo
 title: GetPointerPenInfo function (winuser.h)
-description: Gets the pen-based information for the specified pointer (of type PT_PEN) associated with the current message.
+description: Gets the pen-based information for the specified pointer (of type PT_PEN) associated with the current message.helpviewer_keywords: ["GetPointerPenInfo","GetPointerPenInfo function [Input Messages and Notifications]","inputmsg.getpointerpeninfo","winuser/GetPointerPenInfo"]
 old-location: inputmsg\getpointerpeninfo.htm
 tech.root: InputMsg
 ms.assetid: 5f1f7252-a4aa-4b06-94c9-2aa365cf0100

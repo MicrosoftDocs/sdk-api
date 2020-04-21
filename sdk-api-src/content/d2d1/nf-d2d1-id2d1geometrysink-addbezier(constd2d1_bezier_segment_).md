@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1GeometrySink.AddBezier(const D2D1_BEZIER_SEGMENT &)
 title: ID2D1GeometrySink::AddBezier(const D2D1_BEZIER_SEGMENT &) (d2d1.h)
-description: Creates a cubic Bezier curve between the current point and the specified end point.
+description: Creates a cubic Bezier curve between the current point and the specified end point.helpviewer_keywords: ["AddBezier","AddBezier method [Direct2D]","AddBezier method [Direct2D]","ID2D1GeometrySink interface","ID2D1GeometrySink interface [Direct2D]","AddBezier method","ID2D1GeometrySink.AddBezier","ID2D1GeometrySink.AddBezier(const D2D1_BEZIER_SEGMENT &)","ID2D1GeometrySink::AddBezier","ID2D1GeometrySink::AddBezier(const D2D1_BEZIER_SEGMENT &)","d2d1/ID2D1GeometrySink::AddBezier","direct2d.ID2D1GeometrySink_AddBezier_ref_D2D1_BEZIER_SEGMENT"]
 old-location: direct2d\ID2D1GeometrySink_AddBezier_ref_D2D1_BEZIER_SEGMENT.htm
 tech.root: Direct2D
 ms.assetid: f6633960-eff5-4e51-9b08-c8a07c5e11d3
@@ -62,15 +62,6 @@ Creates  a cubic Bezier curve between the current point and the specified end po
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_bezier_segment">D2D1_BEZIER_SEGMENT</a></b>
 
 A structure that describes the control points and end point of the Bezier curve to add.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

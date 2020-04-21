@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Session_Close
 title: MI_Session_Close function (mi.h)
-description: Closes a session and releases all associated memory.
+description: Closes a session and releases all associated memory.helpviewer_keywords: ["MI_Session_Close","MI_Session_Close function [Windows Management Infrastructure (MI)]","mi/MI_Session_Close","wmi_v2.mi_session_close"]
 old-location: wmi_v2\mi_session_close.htm
 tech.root: wmi_v2
 ms.assetid: c77a93b0-446c-417b-81ab-746c639477f7

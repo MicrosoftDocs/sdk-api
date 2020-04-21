@@ -1,7 +1,7 @@
 ---
 UID: NE:certenroll.EnrollmentSelectionStatus
 title: EnrollmentSelectionStatus (certenroll.h)
-description: Specifies whether the enrollment status of an object will be monitored during the enrollment process.
+description: Specifies whether the enrollment status of an object will be monitored during the enrollment process.helpviewer_keywords: ["EnrollmentSelectionStatus","EnrollmentSelectionStatus enumeration [Security]","SelectedNo","SelectedYes","certenroll/EnrollmentSelectionStatus","certenroll/SelectedNo","certenroll/SelectedYes","security.enrollmentselectionstatus_enum"]
 old-location: security\enrollmentselectionstatus_enum.htm
 tech.root: seccertenroll
 ms.assetid: a762d81b-0426-483c-a9c0-70f531f4b6ac

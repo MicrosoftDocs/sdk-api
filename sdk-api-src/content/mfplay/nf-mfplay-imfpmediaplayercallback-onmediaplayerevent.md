@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayerCallback.OnMediaPlayerEvent
 title: IMFPMediaPlayerCallback::OnMediaPlayerEvent (mfplay.h)
-description: Called by the MFPlay player object to notify the application of a playback event.
+description: Called by the MFPlay player object to notify the application of a playback event.helpviewer_keywords: ["IMFPMediaPlayerCallback interface [Media Foundation]","OnMediaPlayerEvent method","IMFPMediaPlayerCallback.OnMediaPlayerEvent","IMFPMediaPlayerCallback::OnMediaPlayerEvent","OnMediaPlayerEvent","OnMediaPlayerEvent method [Media Foundation]","OnMediaPlayerEvent method [Media Foundation]","IMFPMediaPlayerCallback interface","mf.imfpmediaplayercallback_onmediaplayerevent","mfplay/IMFPMediaPlayerCallback::OnMediaPlayerEvent"]
 old-location: mf\imfpmediaplayercallback_onmediaplayerevent.htm
 tech.root: medfound
 ms.assetid: 2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8
@@ -65,15 +65,6 @@ Called by the MFPlay player object to notify the application of a playback event
 ### -param pEventHeader [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/ns-mfplay-mfp_event_header">MFP_EVENT_HEADER</a> structure that contains information about the event.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

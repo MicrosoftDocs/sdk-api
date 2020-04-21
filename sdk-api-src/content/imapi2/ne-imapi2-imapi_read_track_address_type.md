@@ -1,7 +1,7 @@
 ---
 UID: NE:imapi2._IMAPI_READ_TRACK_ADDRESS_TYPE
 title: IMAPI_READ_TRACK_ADDRESS_TYPE (imapi2.h)
-description: Defines values that indicate how to interpret track addresses for the current disc profile of a randomly-writable, hardware-defect-managed media type.
+description: Defines values that indicate how to interpret track addresses for the current disc profile of a randomly-writable, hardware-defect-managed media type.helpviewer_keywords: ["*PIMAPI_READ_TRACK_ADDRESS_TYPE","IMAPI_READ_TRACK_ADDRESS_TYPE","IMAPI_READ_TRACK_ADDRESS_TYPE enumeration [IMAPI]","IMAPI_READ_TRACK_ADDRESS_TYPE_LBA","IMAPI_READ_TRACK_ADDRESS_TYPE_SESSION","IMAPI_READ_TRACK_ADDRESS_TYPE_TRACK","PIMAPI_READ_TRACK_ADDRESS_TYPE","PIMAPI_READ_TRACK_ADDRESS_TYPE enumeration pointer [IMAPI]","imapi.imapi_read_track_address_type","imapi2/IMAPI_READ_TRACK_ADDRESS_TYPE","imapi2/IMAPI_READ_TRACK_ADDRESS_TYPE_LBA","imapi2/IMAPI_READ_TRACK_ADDRESS_TYPE_SESSION","imapi2/IMAPI_READ_TRACK_ADDRESS_TYPE_TRACK","imapi2/PIMAPI_READ_TRACK_ADDRESS_TYPE"]
 old-location: imapi\imapi_read_track_address_type.htm
 tech.root: imapi
 ms.assetid: 228bcc7b-603f-420d-a8a9-cde5b0bbf2e3

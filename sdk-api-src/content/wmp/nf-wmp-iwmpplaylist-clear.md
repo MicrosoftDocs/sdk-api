@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPPlaylist.clear
 title: IWMPPlaylist::clear (wmp.h)
-description: The clear method is reserved for future use.
+description: The clear method is reserved for future use.helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","clear method","IWMPPlaylist.clear","IWMPPlaylist::clear","IWMPPlaylistclear","clear","clear method [Windows Media Player]","clear method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_clear","wmp/IWMPPlaylist::clear"]
 old-location: wmp\iwmpplaylist_clear.htm
 tech.root: WMP
 ms.assetid: 3de2410d-e35a-4f27-bdcf-2a6d85eafe9d

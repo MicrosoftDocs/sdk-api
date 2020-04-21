@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleUndoUnit.Do
 title: IOleUndoUnit::Do (ocidl.h)
-description: Instructs the undo unit to carry out its action. Note that if it contains child undo units, it must call their Do methods as well.
+description: Instructs the undo unit to carry out its action. Note that if it contains child undo units, it must call their Do methods as well.helpviewer_keywords: ["Do","Do method [COM]","Do method [COM]","IOleUndoUnit interface","IOleUndoUnit interface [COM]","Do method","IOleUndoUnit.Do","IOleUndoUnit::Do","_ole_ioleundounit_do","com.ioleundounit_do","ocidl/IOleUndoUnit::Do"]
 old-location: com\ioleundounit_do.htm
 tech.root: com
 ms.assetid: 5f087779-ef92-41c9-94e6-61d07d5731a7

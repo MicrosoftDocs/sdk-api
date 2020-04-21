@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.SetDocumentStructureResource
 title: IXpsOMDocument::SetDocumentStructureResource (xpsobjectmodel.h)
-description: Sets the IXpsOMDocumentStructureResource interface for the document.
+description: Sets the IXpsOMDocumentStructureResource interface for the document.helpviewer_keywords: ["IXpsOMDocument interface [XPS Documents and Packaging]","SetDocumentStructureResource method","IXpsOMDocument.SetDocumentStructureResource","IXpsOMDocument::SetDocumentStructureResource","SetDocumentStructureResource","SetDocumentStructureResource method [XPS Documents and Packaging]","SetDocumentStructureResource method [XPS Documents and Packaging]","IXpsOMDocument interface","xps.ixpsomdocument_setdocumentstructureresource","xpsobjectmodel/IXpsOMDocument::SetDocumentStructureResource"]
 old-location: xps\ixpsomdocument_setdocumentstructureresource.htm
 tech.root: printdocs
 ms.assetid: 86d62b73-b7a7-4470-9e55-f4eab50531d0

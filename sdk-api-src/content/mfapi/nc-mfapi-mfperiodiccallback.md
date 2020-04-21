@@ -1,7 +1,7 @@
 ---
 UID: NC:mfapi.MFPERIODICCALLBACK
 title: MFPERIODICCALLBACK (mfapi.h)
-description: Callback function for the MFAddPeriodicCallback function.
+description: Callback function for the MFAddPeriodicCallback function.helpviewer_keywords: ["9449fa04-867c-4f27-a05c-ff0d6e912c53","MFPERIODICCALLBACK","MFPERIODICCALLBACK callback","MFPERIODICCALLBACK callback function [Media Foundation]","mf.mfperiodiccallback_callback","mfapi/MFPERIODICCALLBACK"]
 old-location: mf\mfperiodiccallback_callback.htm
 tech.root: medfound
 ms.assetid: 9449fa04-867c-4f27-a05c-ff0d6e912c53
@@ -63,15 +63,6 @@ Callback function for the <a href="https://docs.microsoft.com/windows/desktop/ap
 ### -param *pContext [in]
 
 Pointer to the <b>IUnknown</b> interface, or <b>NULL</b>. This pointer is specified by the caller in the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

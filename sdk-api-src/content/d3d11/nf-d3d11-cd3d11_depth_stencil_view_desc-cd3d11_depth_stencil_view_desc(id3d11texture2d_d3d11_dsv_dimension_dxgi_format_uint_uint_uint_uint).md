@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.CD3D11_DEPTH_STENCIL_VIEW_DESC.CD3D11_DEPTH_STENCIL_VIEW_DESC(ID3D11Texture2D,D3D11_DSV_DIMENSION,DXGI_FORMAT,UINT,UINT,UINT,UINT)
 title: CD3D11_DEPTH_STENCIL_VIEW_DESC::CD3D11_DEPTH_STENCIL_VIEW_DESC(ID3D11Texture2D,D3D11_DSV_DIMENSION,DXGI_FORMAT,UINT,UINT,UINT,UINT) (d3d11.h)
-description: Instantiates a new instance of a CD3D11_DEPTH_STENCIL_VIEW_DESC structure that is initialized with 2D texture values.
+description: Instantiates a new instance of a CD3D11_DEPTH_STENCIL_VIEW_DESC structure that is initialized with 2D texture values.helpviewer_keywords: ["CD3D11_DEPTH_STENCIL_VIEW_DESC","CD3D11_DEPTH_STENCIL_VIEW_DESC interface [Direct3D 11]","CD3D11_DEPTH_STENCIL_VIEW_DESC method","CD3D11_DEPTH_STENCIL_VIEW_DESC method [Direct3D 11]","CD3D11_DEPTH_STENCIL_VIEW_DESC method [Direct3D 11]","CD3D11_DEPTH_STENCIL_VIEW_DESC interface","CD3D11_DEPTH_STENCIL_VIEW_DESC.CD3D11_DEPTH_STENCIL_VIEW_DESC","CD3D11_DEPTH_STENCIL_VIEW_DESC.CD3D11_DEPTH_STENCIL_VIEW_DESC(ID3D11Texture2D","D3D11_DSV_DIMENSION","DXGI_FORMAT","UINT","UINT","UINT","UINT)","CD3D11_DEPTH_STENCIL_VIEW_DESC::CD3D11_DEPTH_STENCIL_VIEW_DESC","CD3D11_DEPTH_STENCIL_VIEW_DESC::CD3D11_DEPTH_STENCIL_VIEW_DESC(ID3D11Texture2D","D3D11_DSV_DIMENSION","DXGI_FORMAT","UINT","UINT","UINT","UINT)","CD3D11_DEPTH_STENCIL_VIEW_DESC::CD3D11_DEPTH_STENCIL_VIEW_DESC(const D3D11_DEPTH_STENCIL_VIEW_DESC&)","d3d11/CD3D11_DEPTH_STENCIL_VIEW_DESC::CD3D11_DEPTH_STENCIL_VIEW_DESC","direct3d11.cd3d11_depth_stencil_view_desc_cd3d11_depth_stencil_view_desc_d3d11_depth_stencil_view_desc_"]
 old-location: 
 tech.root: direct3d11
 ms.assetid: 004D684C-5209-4BB4-BF68-FC7AD9B79429
@@ -81,10 +81,6 @@ Number of elements in the array.
 
 A value that describes whether the texture is read only.
 Pass 0 to specify that it is not read only; otherwise, pass one of the members of the **D3D11_DSV_FLAG** enumerated type.
-
-## -returns
-
-This method does not return a value.
 
 ## -see-also
 

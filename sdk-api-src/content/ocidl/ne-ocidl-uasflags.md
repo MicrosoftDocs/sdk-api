@@ -1,7 +1,7 @@
 ---
 UID: NE:ocidl.tagUASFLAGS
 title: UASFLAGS (ocidl.h)
-description: Provides information about the parent undo unit.
+description: Provides information about the parent undo unit.helpviewer_keywords: ["UASFLAGS","UASFLAGS enumeration [COM]","UAS_BLOCKED","UAS_MASK","UAS_NOPARENTENABLE","UAS_NORMAL","_ole_UASFLAGS","com.uasflags","ocidl/UASFLAGS","ocidl/UAS_BLOCKED","ocidl/UAS_MASK","ocidl/UAS_NOPARENTENABLE","ocidl/UAS_NORMAL"]
 old-location: com\uasflags.htm
 tech.root: com
 ms.assetid: cf711180-e38a-4cff-bd2d-2cfca41b376d

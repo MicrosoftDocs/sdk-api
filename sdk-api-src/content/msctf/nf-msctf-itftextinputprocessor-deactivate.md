@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfTextInputProcessor.Deactivate
 title: ITfTextInputProcessor::Deactivate (msctf.h)
-description: ITfTextInputProcessor::Deactivate method
+description: ITfTextInputProcessor::Deactivate methodhelpviewer_keywords: ["Deactivate","Deactivate method [Text Services Framework]","Deactivate method [Text Services Framework]","ITfTextInputProcessor interface","ITfTextInputProcessor interface [Text Services Framework]","Deactivate method","ITfTextInputProcessor.Deactivate","ITfTextInputProcessor::Deactivate","_tsf_itftextinputprocessor_deactivate_ref","msctf/ITfTextInputProcessor::Deactivate","tsf.itftextinputprocessor_deactivate"]
 old-location: tsf\itftextinputprocessor_deactivate.htm
 tech.root: TSF
 ms.assetid: 427190fc-f246-47c6-84e0-a28808a86b6b
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Deactivates a text service when a user session ends.
 
 ## -parameters
 

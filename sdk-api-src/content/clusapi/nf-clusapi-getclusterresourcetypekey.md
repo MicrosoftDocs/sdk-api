@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.GetClusterResourceTypeKey
 title: GetClusterResourceTypeKey function (clusapi.h)
-description: Opens the root of the cluster database subtree for a resource type.
+description: Opens the root of the cluster database subtree for a resource type.helpviewer_keywords: ["GetClusterResourceTypeKey","GetClusterResourceTypeKey function [Failover Cluster]","_wolf_getclusterresourcetypekey","clusapi/GetClusterResourceTypeKey","mscs.getclusterresourcetypekey"]
 old-location: mscs\getclusterresourcetypekey.htm
 tech.root: MsCS
 ms.assetid: facc22b2-221d-4d82-85ae-5b9a463c5858

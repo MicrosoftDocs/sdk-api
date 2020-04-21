@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.SetDoubleStrike
 title: ITextFont2::SetDoubleStrike (tom.h)
-description: Sets whether characters are displayed with double horizontal lines through the center.
+description: Sets whether characters are displayed with double horizontal lines through the center.helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetDoubleStrike method","ITextFont2.SetDoubleStrike","ITextFont2::SetDoubleStrike","SetDoubleStrike","SetDoubleStrike method [Windows Controls]","SetDoubleStrike method [Windows Controls]","ITextFont2 interface","controls.itextfont2_setdoublestrike","tom/ITextFont2::SetDoubleStrike"]
 old-location: controls\itextfont2_setdoublestrike.htm
 tech.root: Controls
 ms.assetid: bed8ce93-5c3a-43ee-b9c7-c1fd42481bbd

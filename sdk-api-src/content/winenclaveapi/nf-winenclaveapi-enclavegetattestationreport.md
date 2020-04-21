@@ -1,7 +1,7 @@
 ---
 UID: NF:winenclaveapi.EnclaveGetAttestationReport
 title: EnclaveGetAttestationReport function (winenclaveapi.h)
-description: Gets an enclave attestation report that describes the current enclave and is signed by the authority that is responsible for the type of the enclave.
+description: Gets an enclave attestation report that describes the current enclave and is signed by the authority that is responsible for the type of the enclave.helpviewer_keywords: ["EnclaveGetAttestationReport","EnclaveGetAttestationReport function","base.enclavegetattestationreport","winenclaveapi/EnclaveGetAttestationReport"]
 old-location: base\enclavegetattestationreport.htm
 tech.root: Memory
 ms.assetid: FEE8F05B-540F-4C10-A90C-55607A4E9293

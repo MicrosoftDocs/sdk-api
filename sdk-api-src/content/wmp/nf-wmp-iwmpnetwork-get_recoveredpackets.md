@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_recoveredPackets
 title: IWMPNetwork::get_recoveredPackets (wmp.h)
-description: The get_recoveredPackets method retrieves the number of recovered packets.
+description: The get_recoveredPackets method retrieves the number of recovered packets.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_recoveredPackets method","IWMPNetwork.get_recoveredPackets","IWMPNetwork::get_recoveredPackets","IWMPNetworkget_recoveredPackets","get_recoveredPackets","get_recoveredPackets method [Windows Media Player]","get_recoveredPackets method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_recoveredpackets","wmp/IWMPNetwork::get_recoveredPackets"]
 old-location: wmp\iwmpnetwork_get_recoveredpackets.htm
 tech.root: WMP
 ms.assetid: 1c1b41c3-286c-4d1f-ab2f-ce088289eaae

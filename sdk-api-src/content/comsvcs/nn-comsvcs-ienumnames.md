@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IEnumNames
 title: IEnumNames (comsvcs.h)
-description: Enumerates names.
+description: Enumerates names.helpviewer_keywords: ["IEnumNames","IEnumNames interface [COM+]","IEnumNames interface [COM+]","described","_cos_IEnumNames","comsvcs/IEnumNames","cos.ienumnames"]
 old-location: cos\ienumnames.htm
 tech.root: cossdk
 ms.assetid: 9f70b554-3cdd-4a4b-b180-c6de6182a46a

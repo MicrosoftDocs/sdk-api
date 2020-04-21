@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawLine
 title: ID2D1RenderTarget::DrawLine (d2d1.h)
-description: Draws a line between the specified points using the specified stroke style.
+description: Draws a line between the specified points using the specified stroke style.helpviewer_keywords: ["DrawLine","DrawLine method [Direct2D]","DrawLine method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawLine method","ID2D1RenderTarget.DrawLine","ID2D1RenderTarget::DrawLine","d2d1/ID2D1RenderTarget::DrawLine","direct2d.ID2D1RenderTarget_DrawLine"]
 old-location: direct2d\ID2D1RenderTarget_DrawLine.htm
 tech.root: Direct2D
 ms.assetid: 7eb70308-4142-4d32-a070-9e937579b896
@@ -90,15 +90,6 @@ The width of the stroke, in device-independent pixels. The value must be greater
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
 
 The style of stroke to paint, or <b>NULL</b> to paint a solid line.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

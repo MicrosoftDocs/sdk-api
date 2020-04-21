@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.NdrComplexStructBufferSize
 title: NdrComplexStructBufferSize function (rpcndr.h)
-description: The NdrComplexStructBufferSize function calculates the required buffer size, in bytes, to marshal the complex structure.
+description: The NdrComplexStructBufferSize function calculates the required buffer size, in bytes, to marshal the complex structure.helpviewer_keywords: ["NdrComplexStructBufferSize","NdrComplexStructBufferSize function [Windows API]","rpcndr/NdrComplexStructBufferSize","winprog.ndrcomplexstructbuffersize"]
 old-location: winprog\ndrcomplexstructbuffersize.htm
 tech.root: DevNotes
 ms.assetid: 8280c0fc-5015-4b7b-a271-64377441694c
@@ -70,15 +70,6 @@ Pointer to the complex structure to be calculated.
 ### -param pFormat [in]
 
 Pointer to the format string description.
-
-
-## -returns
-
-
-
-This function has no return values.
-
-
 
 
 ## -see-also

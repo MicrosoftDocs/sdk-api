@@ -1,7 +1,7 @@
 ---
 UID: NF:propidl.IEnumSTATPROPSETSTG.Skip
 title: IEnumSTATPROPSETSTG::Skip (propidl.h)
-description: Skips a specified number of STATPROPSETSTG structures in the enumeration sequence.
+description: Skips a specified number of STATPROPSETSTG structures in the enumeration sequence.helpviewer_keywords: ["IEnumSTATPROPSETSTG interface [Structured Storage]","Skip method","IEnumSTATPROPSETSTG.Skip","IEnumSTATPROPSETSTG::Skip","Skip","Skip method [Structured Storage]","Skip method [Structured Storage]","IEnumSTATPROPSETSTG interface","propidlbase/IEnumSTATPROPSETSTG::Skip","stg.ienumstatpropsetstg_skip"]
 old-location: stg\ienumstatpropsetstg_skip.htm
 tech.root: Stg
 ms.assetid: 48275ca5-f9d1-42cb-b218-f51488a91bf8

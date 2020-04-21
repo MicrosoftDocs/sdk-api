@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetUnicodeString
 title: IXpsOMGlyphsEditor::SetUnicodeString (xpsobjectmodel.h)
-description: Sets the text in unescaped UTF-16 scalar values.
+description: Sets the text in unescaped UTF-16 scalar values.helpviewer_keywords: ["IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","SetUnicodeString method","IXpsOMGlyphsEditor.SetUnicodeString","IXpsOMGlyphsEditor::SetUnicodeString","SetUnicodeString","SetUnicodeString method [XPS Documents and Packaging]","SetUnicodeString method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","xps.ixpsomglyphseditor_setunicodestring","xpsobjectmodel/IXpsOMGlyphsEditor::SetUnicodeString"]
 old-location: xps\ixpsomglyphseditor_setunicodestring.htm
 tech.root: printdocs
 ms.assetid: 68d5ab7d-63e4-403d-a689-6fc0a10e007c

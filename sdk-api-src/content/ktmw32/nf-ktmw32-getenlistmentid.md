@@ -1,7 +1,7 @@
 ---
 UID: NF:ktmw32.GetEnlistmentId
 title: GetEnlistmentId function (ktmw32.h)
-description: Obtains the identifier (ID) for the specified enlistment.
+description: Obtains the identifier (ID) for the specified enlistment.helpviewer_keywords: ["GetEnlistmentId","GetEnlistmentId function [Files]","fs.getenlistmentid","ktmw32/GetEnlistmentId"]
 old-location: fs\getenlistmentid.htm
 tech.root: ktm
 ms.assetid: ffd37a2e-6bac-4566-bb15-eafce8a11c3b

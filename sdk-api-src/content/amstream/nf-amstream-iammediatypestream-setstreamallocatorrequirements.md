@@ -1,7 +1,7 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.SetStreamAllocatorRequirements
 title: IAMMediaTypeStream::SetStreamAllocatorRequirements (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The SetStreamAllocatorRequirements sets the allocator requirements for the stream. This method is not currently implemented.
+description: Note  This interface is deprecated. New applications should not use it. The SetStreamAllocatorRequirements sets the allocator requirements for the stream. This method is not currently implemented.helpviewer_keywords: ["IAMMediaTypeStream interface [DirectShow]","SetStreamAllocatorRequirements method","IAMMediaTypeStream.SetStreamAllocatorRequirements","IAMMediaTypeStream::SetStreamAllocatorRequirements","IAMMediaTypeStreamSetStreamAllocatorRequirements","SetStreamAllocatorRequirements","SetStreamAllocatorRequirements method [DirectShow]","SetStreamAllocatorRequirements method [DirectShow]","IAMMediaTypeStream interface","amstream/IAMMediaTypeStream::SetStreamAllocatorRequirements","dshow.iammediatypestream_setstreamallocatorrequirements"]
 old-location: dshow\iammediatypestream_setstreamallocatorrequirements.htm
 tech.root: DirectShow
 ms.assetid: d34a00dd-e863-4356-97f9-da3776ecb47b

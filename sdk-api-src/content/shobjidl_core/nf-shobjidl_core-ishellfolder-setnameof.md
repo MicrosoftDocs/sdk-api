@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.SetNameOf
 title: IShellFolder::SetNameOf (shobjidl_core.h)
-description: Sets the display name of a file object or subfolder, changing the item identifier in the process.
+description: Sets the display name of a file object or subfolder, changing the item identifier in the process.helpviewer_keywords: ["IShellFolder interface [Windows Shell]","SetNameOf method","IShellFolder.SetNameOf","IShellFolder2 interface [Windows Shell]","SetNameOf method","IShellFolder2::SetNameOf","IShellFolder::SetNameOf","SetNameOf","SetNameOf method [Windows Shell]","SetNameOf method [Windows Shell]","IShellFolder interface","SetNameOf method [Windows Shell]","IShellFolder2 interface","_win32_IShellFolder_SetNameOf","shell.IShellFolder_SetNameOf","shobjidl_core/IShellFolder2::SetNameOf","shobjidl_core/IShellFolder::SetNameOf"]
 old-location: shell\IShellFolder_SetNameOf.htm
 tech.root: shell
 ms.assetid: b975df89-9289-4344-9c55-f11ee83229dd

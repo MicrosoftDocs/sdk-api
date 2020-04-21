@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsFreeMetadata
 title: WsFreeMetadata function (webservices.h)
-description: Releases the memory resource associated with a metadata object.
+description: Releases the memory resource associated with a metadata object.helpviewer_keywords: ["WsFreeMetadata","WsFreeMetadata function [Web Services for Windows]","webservices/WsFreeMetadata","wsw.wsfreemetadata"]
 old-location: wsw\wsfreemetadata.htm
 tech.root: wsw
 ms.assetid: 4e159619-3807-4e7f-9198-fb74962ae141
@@ -63,15 +63,6 @@ Releases the memory resource associated with a metadata object.
 A pointer to the metadata object to release.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-metadata">WS_METADATA</a> object returned
                     by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a> and the referenced value may not be <b>NULL</b>.
                 
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

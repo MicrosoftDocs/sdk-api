@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_PREDICATION_OP
 title: D3D12_PREDICATION_OP (d3d12.h)
-description: Specifies the predication operation to apply.
+description: Specifies the predication operation to apply.helpviewer_keywords: ["D3D12_PREDICATION_OP","D3D12_PREDICATION_OP enumeration","D3D12_PREDICATION_OP_EQUAL_ZERO","D3D12_PREDICATION_OP_NOT_EQUAL_ZERO","d3d12/D3D12_PREDICATION_OP","d3d12/D3D12_PREDICATION_OP_EQUAL_ZERO","d3d12/D3D12_PREDICATION_OP_NOT_EQUAL_ZERO","direct3d12.d3d12_predication_op"]
 old-location: direct3d12\d3d12_predication_op.htm
 tech.root: direct3d12
 ms.assetid: 2A650FE4-7D24-4852-9435-7C3CB73848AB

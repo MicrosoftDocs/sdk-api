@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.FreeKnownFolderDefinitionFields
 title: FreeKnownFolderDefinitionFields function (shobjidl_core.h)
-description: Frees the allocated fields in the result from IKnownFolder::GetFolderDefinition.
+description: Frees the allocated fields in the result from IKnownFolder::GetFolderDefinition.helpviewer_keywords: ["FreeKnownFolderDefinitionFields","FreeKnownFolderDefinitionFields function [Windows Shell]","_shell_FreeKnownFolderDefinitionFields","shell.FreeKnownFolderDefinitionFields","shobjidl_core/FreeKnownFolderDefinitionFields"]
 old-location: shell\FreeKnownFolderDefinitionFields.htm
 tech.root: shell
 ms.assetid: 0ad17dd3-e612-403a-b8c3-e93d5f259c1f
@@ -62,15 +62,6 @@ Frees the allocated fields in the result from <a href="https://docs.microsoft.co
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-knownfolder_definition">KNOWNFOLDER_DEFINITION</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-knownfolder_definition">KNOWNFOLDER_DEFINITION</a> structure that contains information about the given known folder.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

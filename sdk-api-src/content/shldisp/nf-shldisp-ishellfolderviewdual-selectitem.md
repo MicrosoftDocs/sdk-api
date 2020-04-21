@@ -1,7 +1,7 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.SelectItem
 title: IShellFolderViewDual::SelectItem (shldisp.h)
-description: Sets the selection state of an item in the view.
+description: Sets the selection state of an item in the view.helpviewer_keywords: ["IShellFolderViewDual interface [Windows Shell]","SelectItem method","IShellFolderViewDual.SelectItem","IShellFolderViewDual::SelectItem","SelectItem","SelectItem method [Windows Shell]","SelectItem method [Windows Shell]","IShellFolderViewDual interface","_shell_IShellFolderViewDual_SelectItem","shell.IShellFolderViewDual_SelectItem","shldisp/IShellFolderViewDual::SelectItem"]
 old-location: shell\IShellFolderViewDual_SelectItem.htm
 tech.root: shell
 ms.assetid: fb9bc12f-bf5f-42f2-a1cd-160298f7c73a

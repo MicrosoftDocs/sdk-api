@@ -1,7 +1,7 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemBalloon
 title: ITfLangBarItemBalloon (ctfutb.h)
-description: The ITfLangBarItemBalloon interface is implemented by an application or text service and is used by the language bar manager to obtain information specific to a balloon item on the language bar.
+description: The ITfLangBarItemBalloon interface is implemented by an application or text service and is used by the language bar manager to obtain information specific to a balloon item on the language bar.helpviewer_keywords: ["ITfLangBarItemBalloon","ITfLangBarItemBalloon interface [Text Services Framework]","ITfLangBarItemBalloon interface [Text Services Framework]","described","_tsf_itflangbaritemballoon_ref","ctfutb/ITfLangBarItemBalloon","tsf.itflangbaritemballoon"]
 old-location: tsf\itflangbaritemballoon.htm
 tech.root: TSF
 ms.assetid: 619a6f21-fbac-455c-a702-0302ce13112b

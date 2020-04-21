@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetBltStatus
 title: IDirectDrawSurface7::GetBltStatus (ddraw.h)
-description: Obtains status about a bit block transfer (bitblt) operation.
+description: Obtains status about a bit block transfer (bitblt) operation.helpviewer_keywords: ["DDGBS_CANBLT","DDGBS_ISBLTDONE","GetBltStatus","GetBltStatus method [DirectDraw]","GetBltStatus method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetBltStatus method","IDirectDrawSurface7.GetBltStatus","IDirectDrawSurface7::GetBltStatus","ddraw/IDirectDrawSurface7::GetBltStatus","directdraw.idirectdrawsurface7_getbltstatus"]
 old-location: directdraw\idirectdrawsurface7_getbltstatus.htm
 tech.root: directdraw
 ms.assetid: 1f446300-065b-47c1-9778-fb4a5b2ea4bd

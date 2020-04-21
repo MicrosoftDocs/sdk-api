@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PopRetrievalFilter
 title: IDXGIInfoQueue::PopRetrievalFilter (dxgidebug.h)
-description: Pops a retrieval filter from the top of the retrieval-filter stack.
+description: Pops a retrieval filter from the top of the retrieval-filter stack.helpviewer_keywords: ["IDXGIInfoQueue interface [DXGI]","PopRetrievalFilter method","IDXGIInfoQueue.PopRetrievalFilter","IDXGIInfoQueue::PopRetrievalFilter","PopRetrievalFilter","PopRetrievalFilter method [DXGI]","PopRetrievalFilter method [DXGI]","IDXGIInfoQueue interface","direct3ddxgi.idxgiinfoqueue_popretrievalfilter","dxgidebug/IDXGIInfoQueue::PopRetrievalFilter"]
 old-location: direct3ddxgi\idxgiinfoqueue_popretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: E766B599-1168-4E8C-9433-0200D34CD38D
@@ -60,15 +60,6 @@ Pops a retrieval filter from the top of the retrieval-filter stack.
 ### -param Producer [in]
 
  A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that pops the filter.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

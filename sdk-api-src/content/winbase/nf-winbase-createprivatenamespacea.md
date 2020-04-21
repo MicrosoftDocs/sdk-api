@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreatePrivateNamespaceA
 title: CreatePrivateNamespaceA function (winbase.h)
-description: Creates a private namespace.
+description: Creates a private namespace.helpviewer_keywords: ["CreatePrivateNamespace","CreatePrivateNamespace function","CreatePrivateNamespaceA","CreatePrivateNamespaceW","base.createprivatenamespace","winbase/CreatePrivateNamespace","winbase/CreatePrivateNamespaceA","winbase/CreatePrivateNamespaceW"]
 old-location: base\createprivatenamespace.htm
 tech.root: Sync
 ms.assetid: bb6331b0-88cb-4695-b159-6e8750440a69

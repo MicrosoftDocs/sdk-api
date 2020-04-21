@@ -1,7 +1,7 @@
 ---
 UID: NF:jobapi2.SetIoRateControlInformationJobObject
 title: SetIoRateControlInformationJobObject function (jobapi2.h)
-description: Sets I/O limits on a job object.
+description: Sets I/O limits on a job object.helpviewer_keywords: ["SetIoRateControlInformationJobObject","SetIoRateControlInformationJobObject function","base.setioratecontrolinformationjobobject","jobapi2/SetIoRateControlInformationJobObject"]
 old-location: base\setioratecontrolinformationjobobject.htm
 tech.root: ProcThread
 ms.assetid: 7E108E01-6D43-4336-BFE0-5EE655FD5D45

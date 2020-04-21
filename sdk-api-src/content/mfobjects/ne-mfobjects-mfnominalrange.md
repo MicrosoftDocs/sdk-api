@@ -1,7 +1,7 @@
 ---
 UID: NE:mfobjects._MFNominalRange
 title: MFNominalRange (mfobjects.h)
-description: Specifies whether color data includes headroom and toeroom.
+description: Specifies whether color data includes headroom and toeroom.helpviewer_keywords: ["MFNominalRange","MFNominalRange enumeration [Media Foundation]","MFNominalRange_0_255","MFNominalRange_16_235","MFNominalRange_48_208","MFNominalRange_64_127","MFNominalRange_Normal","MFNominalRange_Unknown","MFNominalRange_Wide","fe7547f8-84cd-461a-8d33-dbc0b90add37","mf.mfnominalrange","mfobjects/MFNominalRange","mfobjects/MFNominalRange_0_255","mfobjects/MFNominalRange_16_235","mfobjects/MFNominalRange_48_208","mfobjects/MFNominalRange_64_127","mfobjects/MFNominalRange_Normal","mfobjects/MFNominalRange_Unknown","mfobjects/MFNominalRange_Wide"]
 old-location: mf\mfnominalrange.htm
 tech.root: medfound
 ms.assetid: fe7547f8-84cd-461a-8d33-dbc0b90add37

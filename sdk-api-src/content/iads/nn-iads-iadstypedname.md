@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsTypedName
 title: IADsTypedName (iads.h)
-description: The IADsTypedName interface provides methods for an ADSI client to access the Typed Name attribute.
+description: The IADsTypedName interface provides methods for an ADSI client to access the Typed Name attribute.helpviewer_keywords: ["IADsTypedName","IADsTypedName interface [ADSI]","IADsTypedName interface [ADSI]","described","TypedName","_ds_iadstypedname","adsi.iadstypedname","iads/IADsTypedName"]
 old-location: adsi\iadstypedname.htm
 tech.root: adsi
 ms.assetid: ed57fad7-6cc6-4127-b8d2-da295bc0c5fe

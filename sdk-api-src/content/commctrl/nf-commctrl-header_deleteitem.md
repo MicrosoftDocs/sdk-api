@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Header_DeleteItem
 title: Header_DeleteItem macro (commctrl.h)
-description: Deletes an item from a header control. You can use this macro or send the HDM_DELETEITEM message explicitly.
+description: Deletes an item from a header control. You can use this macro or send the HDM_DELETEITEM message explicitly.helpviewer_keywords: ["Header_DeleteItem","Header_DeleteItem macro [Windows Controls]","_win32_Header_DeleteItem","_win32_Header_DeleteItem_cpp","commctrl/Header_DeleteItem","controls.Header_DeleteItem","controls._win32_Header_DeleteItem"]
 old-location: controls\Header_DeleteItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_deleteitem.htm

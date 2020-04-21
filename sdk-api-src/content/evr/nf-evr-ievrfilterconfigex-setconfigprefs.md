@@ -1,7 +1,7 @@
 ---
 UID: NF:evr.IEVRFilterConfigEx.SetConfigPrefs
 title: IEVRFilterConfigEx::SetConfigPrefs (evr.h)
-description: Sets the configuration parameters for the Microsoft DirectShow Enhanced Video Renderer Filter (EVR).
+description: Sets the configuration parameters for the Microsoft DirectShow Enhanced Video Renderer Filter (EVR).helpviewer_keywords: ["IEVRFilterConfigEx interface [Media Foundation]","SetConfigPrefs method","IEVRFilterConfigEx.SetConfigPrefs","IEVRFilterConfigEx::SetConfigPrefs","SetConfigPrefs","SetConfigPrefs method [Media Foundation]","SetConfigPrefs method [Media Foundation]","IEVRFilterConfigEx interface","evr/IEVRFilterConfigEx::SetConfigPrefs","mf.ievrfilterconfigex_setconfigprefs"]
 old-location: mf\ievrfilterconfigex_setconfigprefs.htm
 tech.root: medfound
 ms.assetid: 6a565c7a-a8d7-433b-b454-262661c2c084

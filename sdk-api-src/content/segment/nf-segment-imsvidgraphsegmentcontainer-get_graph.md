@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidGraphSegmentContainer.get_Graph
 title: IMSVidGraphSegmentContainer::get_Graph (segment.h)
-description: The get_Graph method returns a pointer to the Filter Graph Manager.
+description: The get_Graph method returns a pointer to the Filter Graph Manager.helpviewer_keywords: ["IMSVidGraphSegmentContainer interface [Microsoft TV Technologies]","get_Graph method","IMSVidGraphSegmentContainer.get_Graph","IMSVidGraphSegmentContainer::get_Graph","IMSVidGraphSegmentContainerget_Graph","get_Graph","get_Graph method [Microsoft TV Technologies]","get_Graph method [Microsoft TV Technologies]","IMSVidGraphSegmentContainer interface","mstv.imsvidgraphsegmentcontainer_get_graph","segment/IMSVidGraphSegmentContainer::get_Graph"]
 old-location: mstv\imsvidgraphsegmentcontainer_get_graph.htm
 tech.root: mstv
 ms.assetid: fecc2953-84d6-4d1b-bb3f-5b966debef1e

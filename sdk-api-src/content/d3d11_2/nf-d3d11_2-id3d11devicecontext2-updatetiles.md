@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.UpdateTiles
 title: ID3D11DeviceContext2::UpdateTiles (d3d11_2.h)
-description: Updates tiles by copying from app memory to the tiled resource.
+description: Updates tiles by copying from app memory to the tiled resource.helpviewer_keywords: ["ID3D11DeviceContext2 interface [Direct3D 11]","UpdateTiles method","ID3D11DeviceContext2.UpdateTiles","ID3D11DeviceContext2::UpdateTiles","UpdateTiles","UpdateTiles method [Direct3D 11]","UpdateTiles method [Direct3D 11]","ID3D11DeviceContext2 interface","d3d11_2/ID3D11DeviceContext2::UpdateTiles","direct3d11.id3d11devicecontext2_updatetiles"]
 old-location: direct3d11\id3d11devicecontext2_updatetiles.htm
 tech.root: direct3d11
 ms.assetid: EB0F9CBD-29B2-484D-8923-6686C73487F7
@@ -93,15 +93,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ne-d3d11_2-d3d11_tile_copy_flag">D3D11_TILE_COPY_FLAG</a>-typed values that are combined by using a bitwise OR operation. The only valid value is <b>D3D11_TILE_COPY_NO_OVERWRITE</b>.
  The other values aren't meaningful here, though
 by definition the <b>D3D11_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE</b> value is basically what <b>UpdateTiles</b> does, but sources from app memory.
-
-
-
-## -returns
-
-
-
-Returns nothing
-
 
 
 

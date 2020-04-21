@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11_4.ID3D11Device5
 title: ID3D11Device5 (d3d11_4.h)
-description: The device interface represents a virtual adapter; it is used to create resources. ID3D11Device5 adds new methods to those in ID3D11Device4.
+description: The device interface represents a virtual adapter; it is used to create resources. ID3D11Device5 adds new methods to those in ID3D11Device4.helpviewer_keywords: ["ID3D11Device5","ID3D11Device5 interface [Direct3D 11]","ID3D11Device5 interface [Direct3D 11]","described","d3d11_4/ID3D11Device5","direct3d11.id3d11device5"]
 old-location: direct3d11\id3d11device5.htm
 tech.root: direct3d11
 ms.assetid: C077BAD4-08D2-4F1F-8313-5066F68F014C

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstant
 title: ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstant (d3d12.h)
-description: Sets a constant in the graphics root signature.
+description: Sets a constant in the graphics root signature.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetGraphicsRoot32BitConstant method","ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstant","ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstant","SetGraphicsRoot32BitConstant","SetGraphicsRoot32BitConstant method","SetGraphicsRoot32BitConstant method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstant","direct3d12.id3d12graphicscommandlist_setgraphicsroot32bitconstant"]
 old-location: direct3d12\id3d12graphicscommandlist_setgraphicsroot32bitconstant.htm
 tech.root: direct3d12
 ms.assetid: F53090CC-05E9-4892-B6BF-0A849A5D98EF
@@ -80,16 +80,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The offset, in 32-bit values, to set the constant in the root signature.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -see-also

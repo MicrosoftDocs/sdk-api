@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContentCollection.get_Item
 title: IUpdateDownloadContentCollection::get_Item (wuapi.h)
-description: Gets the download content for an update from an IUpdateDownloadContentCollection interface.
+description: Gets the download content for an update from an IUpdateDownloadContentCollection interface.helpviewer_keywords: ["IUpdateDownloadContentCollection interface [Windows Update Agent]","Item property","IUpdateDownloadContentCollection.Item","IUpdateDownloadContentCollection.get_Item","IUpdateDownloadContentCollection::Item","IUpdateDownloadContentCollection::get_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","IUpdateDownloadContentCollection interface","get_Item","wua.iupdatedownloadcontentcollection_item","wuapi/IUpdateDownloadContentCollection::Item","wuapi/IUpdateDownloadContentCollection::get_Item"]
 old-location: wua\iupdatedownloadcontentcollection_item.htm
 tech.root: Wua_Sdk
 ms.assetid: 64684a77-e264-40a5-a517-e4b58947c613

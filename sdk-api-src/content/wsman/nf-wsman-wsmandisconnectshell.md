@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManDisconnectShell
 title: WSManDisconnectShell function (wsman.h)
-description: Disconnects the network connection of an active shell and its associated commands.
+description: Disconnects the network connection of an active shell and its associated commands.helpviewer_keywords: ["WSManDisconnectShell","WSManDisconnectShell function [Windows Remote Management]","winrm.wsmandisconnectshell","wsman/WSManDisconnectShell"]
 old-location: winrm\wsmandisconnectshell.htm
 tech.root: winrm
 ms.assetid: 018F6E37-477B-4823-8597-CF80367EEB88
@@ -83,15 +83,6 @@ A pointer to a
 Defines an asynchronous structure to contain an optional user context and a mandatory callback function. 
       For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_shell_async">WSMAN_SHELL_ASYNC</a>. This 
       parameter cannot be <b>NULL</b>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

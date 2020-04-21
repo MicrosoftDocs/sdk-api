@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITAddress.get_Calls
 title: ITAddress::get_Calls (tapi3if.h)
-description: The get_Calls method creates a collection of calls currently active on the address. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateCalls method.
+description: The get_Calls method creates a collection of calls currently active on the address. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateCalls method.helpviewer_keywords: ["ITAddress interface [TAPI 2.2]","get_Calls method","ITAddress.get_Calls","ITAddress::get_Calls","_tapi3_itaddress_get_calls","get_Calls","get_Calls method [TAPI 2.2]","get_Calls method [TAPI 2.2]","ITAddress interface","tapi3.itaddress_get_calls","tapi3if/ITAddress::get_Calls"]
 old-location: tapi3\itaddress_get_calls.htm
 tech.root: Tapi
 ms.assetid: b0b16578-0530-4ff9-a7ce-d36527ed2da9

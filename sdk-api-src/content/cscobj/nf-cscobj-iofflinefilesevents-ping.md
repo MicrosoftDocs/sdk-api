@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.Ping
 title: IOfflineFilesEvents::Ping (cscobj.h)
-description: This event is delivered to all registered event subscribers on a periodic basis.
+description: This event is delivered to all registered event subscribers on a periodic basis.helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","Ping method","IOfflineFilesEvents.Ping","IOfflineFilesEvents::Ping","Ping","Ping method [Offline Files]","Ping method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::Ping","of.iofflinefilesevents_ping"]
 old-location: of\iofflinefilesevents_ping.htm
 tech.root: offlinefiles
 ms.assetid: edde2f37-f082-4382-8908-181bc42d30ef

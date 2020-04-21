@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfEditRecord.GetSelectionStatus
 title: ITfEditRecord::GetSelectionStatus (msctf.h)
-description: ITfEditRecord::GetSelectionStatus method
+description: ITfEditRecord::GetSelectionStatus methodhelpviewer_keywords: ["GetSelectionStatus","GetSelectionStatus method [Text Services Framework]","GetSelectionStatus method [Text Services Framework]","ITfEditRecord interface","ITfEditRecord interface [Text Services Framework]","GetSelectionStatus method","ITfEditRecord.GetSelectionStatus","ITfEditRecord::GetSelectionStatus","_tsf_itfeditrecord_getselectionstatus_ref","msctf/ITfEditRecord::GetSelectionStatus","tsf.itfeditrecord_getselectionstatus"]
 old-location: tsf\itfeditrecord_getselectionstatus.htm
 tech.root: TSF
 ms.assetid: ad7dbd71-6241-45a0-9815-1f0eedc5213a
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if the selection has changed during the edit session.
 
 ## -parameters
 

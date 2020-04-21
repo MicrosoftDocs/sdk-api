@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.FreeIDListArray
 title: FreeIDListArray function (shobjidl_core.h)
-description: Frees the memory used by an pointer to an item identifier list (PIDL) list array.
+description: Frees the memory used by an pointer to an item identifier list (PIDL) list array.helpviewer_keywords: ["FreeIDListArray","FreeIDListArray function [Windows Shell]","_shell_FreeIDListArray","shell.FreeIDListArray","shobjidl_core/FreeIDListArray"]
 old-location: shell\FreeIDListArray.htm
 tech.root: shell
 ms.assetid: 42496da6-452e-45cb-9061-74eba95aff7e
@@ -69,13 +69,5 @@ A pointer to the list of <i>cItems</i> PIDLs, stored as an array.
 Type: <b>UINT</b>
 
 The number of items in the array.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 

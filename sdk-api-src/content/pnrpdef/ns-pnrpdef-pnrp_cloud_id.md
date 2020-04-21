@@ -1,7 +1,7 @@
 ---
 UID: NS:pnrpdef._PNRP_CLOUD_ID
 title: PNRP_CLOUD_ID (pnrpdef.h)
-description: The PNRP_CLOUD_ID structure contains the values that define a network cloud.
+description: The PNRP_CLOUD_ID structure contains the values that define a network cloud.helpviewer_keywords: ["*PPNRP_CLOUD_ID","PNRP_CLOUD_ID","PNRP_CLOUD_ID structure [Peer Networking]","PPNRP_CLOUD_ID","PPNRP_CLOUD_ID structure pointer [Peer Networking]","p2p.pnrp_cloud_id","pnrpdef/PNRP_CLOUD_ID","pnrpdef/PPNRP_CLOUD_ID"]
 old-location: p2p\pnrp_cloud_id.htm
 tech.root: P2PSdk
 ms.assetid: 8187ce9e-e1a9-4dce-902e-8a1c43b4b047

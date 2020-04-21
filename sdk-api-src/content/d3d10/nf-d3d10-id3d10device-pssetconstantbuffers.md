@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSSetConstantBuffers
 title: ID3D10Device::PSSetConstantBuffers (d3d10.h)
-description: Set the constant buffers used by the pixel shader pipeline stage.
+description: Set the constant buffers used by the pixel shader pipeline stage.helpviewer_keywords: ["ID3D10Device interface [Direct3D 10]","PSSetConstantBuffers method","ID3D10Device.PSSetConstantBuffers","ID3D10Device::PSSetConstantBuffers","PSSetConstantBuffers","PSSetConstantBuffers method [Direct3D 10]","PSSetConstantBuffers method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::PSSetConstantBuffers","direct3d10.id3d10device_pssetconstantbuffers","e734dbaf-deb3-e52f-f92f-645994c1bd7d"]
 old-location: direct3d10\id3d10device_pssetconstantbuffers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_pssetconstantbuffers.htm
@@ -77,15 +77,6 @@ Number of buffers to set.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10buffer">ID3D10Buffer</a>*</b>
 
 Array of constant buffers (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10buffer">ID3D10Buffer</a>) being given to the device.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

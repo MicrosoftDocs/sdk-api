@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_6
 title: RESPONSEBODY_GetStatus (wsdtypes.h)
-description: Represents a WS-Eventing GetStatus response message.
+description: Represents a WS-Eventing GetStatus response message.helpviewer_keywords: ["RESPONSEBODY_GetStatus","RESPONSEBODY_GetStatus structure","ncd.responsebody_getstatus","wsdtypes/RESPONSEBODY_GetMetadata"]
 old-location: ncd\responsebody_getstatus.htm
 tech.root: WsdApi
 ms.assetid: 41db6c35-b722-4b46-bfc2-7bbfe50aaa0a

@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.GetSystemInfo
 title: GetSystemInfo function (sysinfoapi.h)
-description: Retrieves information about the current system.
+description: Retrieves information about the current system.helpviewer_keywords: ["GetSystemInfo","GetSystemInfo function","_win32_getsysteminfo","base.getsysteminfo","sysinfoapi/GetSystemInfo"]
 old-location: base\getsysteminfo.htm
 tech.root: SysInfo
 ms.assetid: f6d745af-729a-494e-90b4-19fe7d97c7af
@@ -72,15 +72,6 @@ To retrieve accurate information for an application running on WOW64, call the
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a> structure that receives the information.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IAGetPrimitiveTopology
 title: ID3D11DeviceContext::IAGetPrimitiveTopology (d3d11.h)
-description: Get information about the primitive type, and data order that describes input data for the input assembler stage.
+description: Get information about the primitive type, and data order that describes input data for the input assembler stage.helpviewer_keywords: ["83077387-5c62-f840-c94a-b5edcab58593","IAGetPrimitiveTopology","IAGetPrimitiveTopology method [Direct3D 11]","IAGetPrimitiveTopology method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","IAGetPrimitiveTopology method","ID3D11DeviceContext.IAGetPrimitiveTopology","ID3D11DeviceContext::IAGetPrimitiveTopology","d3d11/ID3D11DeviceContext::IAGetPrimitiveTopology","direct3d11.id3d11devicecontext_iagetprimitivetopology"]
 old-location: direct3d11\id3d11devicecontext_iagetprimitivetopology.htm
 tech.root: direct3d11
 ms.assetid: 99f82993-72c2-47b5-a2fe-16bb1e7bd2e3
@@ -63,15 +63,6 @@ Get information about the primitive type, and data order that describes input da
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476189(v=vs.85)">D3D11_PRIMITIVE_TOPOLOGY</a>*</b>
 
 A pointer to the type of primitive, and ordering of the primitive data (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476189(v=vs.85)">D3D11_PRIMITIVE_TOPOLOGY</a>).
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -see-also

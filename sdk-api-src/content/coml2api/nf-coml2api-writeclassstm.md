@@ -1,7 +1,7 @@
 ---
 UID: NF:coml2api.WriteClassStm
 title: WriteClassStm function (coml2api.h)
-description: The WriteClassStm function stores the specified CLSID in the stream.
+description: The WriteClassStm function stores the specified CLSID in the stream.helpviewer_keywords: ["WriteClassStm","WriteClassStm function [Structured Storage]","_stg_writeclassstm","coml2api/WriteClassStm","stg.writeclassstm"]
 old-location: stg\writeclassstm.htm
 tech.root: Stg
 ms.assetid: c08bfbc8-f7ac-4534-8c98-c732c6daa2f7

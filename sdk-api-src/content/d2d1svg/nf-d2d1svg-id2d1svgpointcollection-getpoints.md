@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPointCollection.GetPoints
 title: ID2D1SvgPointCollection::GetPoints (d2d1svg.h)
-description: Gets points from the points array.
+description: Gets points from the points array.helpviewer_keywords: ["GetPoints","GetPoints method [Direct2D]","GetPoints method [Direct2D]","ID2D1SvgPointCollection interface","ID2D1SvgPointCollection interface [Direct2D]","GetPoints method","ID2D1SvgPointCollection.GetPoints","ID2D1SvgPointCollection::GetPoints","d2d1svg/ID2D1SvgPointCollection::GetPoints","direct2d.id2d1svgpointcollection_getpoints"]
 old-location: direct2d\id2d1svgpointcollection_getpoints.htm
 tech.root: Direct2D
 ms.assetid: 886039FB-0640-4B20-84E2-4B3EC2AFA234

@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE (wincrypt.h)
-description: Initializes the provider.
+description: Initializes the provider.helpviewer_keywords: ["PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback function [Security]","security.pfn_crypt_object_locator_provider_initialize","wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE"]
 old-location: security\pfn_crypt_object_locator_provider_initialize.htm
 tech.root: SecCrypto
 ms.assetid: DBDE5B98-AC31-4CA0-A7C6-1FCD8FAC51FC

@@ -1,7 +1,7 @@
 ---
 UID: NS:minwinbase._SYSTEMTIME
 title: SYSTEMTIME (minwinbase.h)
-description: Specifies a date and time, using individual members for the month, day, year, weekday, hour, minute, second, and millisecond. The time is either in coordinated universal time (UTC) or local time, depending on the function that is being called.
+description: Specifies a date and time, using individual members for the month, day, year, weekday, hour, minute, second, and millisecond. The time is either in coordinated universal time (UTC) or local time, depending on the function that is being called.helpviewer_keywords: ["*LPSYSTEMTIME","*PSYSTEMTIME","PSYSTEMTIME","PSYSTEMTIME structure pointer","SYSTEMTIME","SYSTEMTIME structure","_SYSTEMTIME","_win32_systemtime_str","base.systemtime_str","minwinbase/PSYSTEMTIME","minwinbase/SYSTEMTIME"]
 old-location: base\systemtime_str.htm
 tech.root: SysInfo
 ms.assetid: f77cdf86-0f97-4a89-b565-95b46fa7d65b
@@ -325,7 +325,7 @@ The millisecond. The valid values for this member are 0 through 999.
 ## -remarks
 
 > [!NOTE]
-> The <b>SYSTEMTIME</b> does not check to see if the date represented is a real and valid date. When working with this API, you should ensure its validity, especially in leap reat scenarios. See [leap day readiness](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/it-s-2020-is-your-code-ready-for-leap-day/ba-p/1157279) for more information.
+> The <b>SYSTEMTIME</b> does not check to see if the date represented is a real and valid date. When working with this API, you should ensure its validity, especially in leap year scenarios. See [leap day readiness](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/it-s-2020-is-your-code-ready-for-leap-day/ba-p/1157279) for more information.
 
 It is not recommended that you add and subtract values from the 
 <b>SYSTEMTIME</b> structure to obtain relative times. Instead, you should

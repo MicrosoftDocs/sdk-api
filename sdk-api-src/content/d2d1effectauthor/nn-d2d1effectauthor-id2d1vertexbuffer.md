@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1VertexBuffer
 title: ID2D1VertexBuffer (d2d1effectauthor.h)
-description: Defines a mappable single-dimensional vertex buffer.
+description: Defines a mappable single-dimensional vertex buffer.helpviewer_keywords: ["ID2D1VertexBuffer","ID2D1VertexBuffer interface [Direct2D]","ID2D1VertexBuffer interface [Direct2D]","described","d2d1effectauthor/ID2D1VertexBuffer","direct2d.id2d1vertexbuffer"]
 old-location: direct2d\id2d1vertexbuffer.htm
 tech.root: Direct2D
 ms.assetid: 1DBCDF93-83C6-4B02-9E94-8024D7849DF7

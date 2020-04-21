@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.TpSetCallbackActivationContext
 title: TpSetCallbackActivationContext function (winnt.h)
-description: Assigns an activation context to the callback environment.
+description: Assigns an activation context to the callback environment.helpviewer_keywords: ["TpSetCallbackActivationContext","TpSetCallbackActivationContext function","base.tpsetcallbackactivationcontext","winnt/TpSetCallbackActivationContext"]
 old-location: base\tpsetcallbackactivationcontext.htm
 tech.root: ProcThread
 ms.assetid: C4715789-0DF7-436B-881F-4360A7528246
@@ -65,15 +65,6 @@ A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. Th
 ### -param ActivationContext [in, optional]
 
 Pointer to an <b>_ACTIVATION_CONTEXT</b> structure.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfMessagePump.PeekMessageA
 title: ITfMessagePump::PeekMessageA (msctf.h)
-description: ITfMessagePump::PeekMessageA method
+description: ITfMessagePump::PeekMessageA methodhelpviewer_keywords: ["ITfMessagePump interface [Text Services Framework]","PeekMessageA method","ITfMessagePump.PeekMessageA","ITfMessagePump::PeekMessageA","PeekMessageA","PeekMessageA method [Text Services Framework]","PeekMessageA method [Text Services Framework]","ITfMessagePump interface","_tsf_itfmessagepump_peekmessagea_ref","msctf/ITfMessagePump::PeekMessageA","tsf.itfmessagepump_peekmessagea"]
 old-location: tsf\itfmessagepump_peekmessagea.htm
 tech.root: TSF
 ms.assetid: 4b20fa18-f5c3-4f3b-bb93-0e352d620d31
@@ -49,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a message from the message queue and returns if no message is obtained. This is the ANSI version of this method.
 
 ## -parameters
 

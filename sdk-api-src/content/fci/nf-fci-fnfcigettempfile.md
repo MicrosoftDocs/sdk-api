@@ -1,7 +1,7 @@
 ---
 UID: NF:fci.FNFCIGETTEMPFILE
 title: FNFCIGETTEMPFILE macro (fci.h)
-description: The FNFCIGETTEMPFILE macro provides the declaration for the application-defined callback function to obtain a temporary file name.
+description: The FNFCIGETTEMPFILE macro provides the declaration for the application-defined callback function to obtain a temporary file name.helpviewer_keywords: ["FNFCIGETTEMPFILE","FNFCIGETTEMPFILE macro [Windows API]","fci/FNFCIGETTEMPFILE","winprog.fnfcigettempfile"]
 old-location: winprog\fnfcigettempfile.htm
 tech.root: DevNotes
 ms.assetid: 8978f688-d8f1-437a-b298-eed1e7dac012

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSAConnectByList
 title: WSAConnectByList function (winsock2.h)
-description: Establishes a connection to one out of a collection of possible endpoints represented by a set of destination addresses (host names and ports).
+description: Establishes a connection to one out of a collection of possible endpoints represented by a set of destination addresses (host names and ports).helpviewer_keywords: ["WSAConnectByList","WSAConnectByList function [Winsock]","winsock.wsaconnectbylist","winsock2/WSAConnectByList"]
 old-location: winsock\wsaconnectbylist.htm
 tech.root: WinSock
 ms.assetid: 7323d814-e96e-44b9-8ade-a9317e4fbf17

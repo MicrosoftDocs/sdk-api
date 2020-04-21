@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Label
 title: ITsSbTaskInfo::get_Label (sbtsv.h)
-description: Retrieves the label that describes the purpose of the task.
+description: Retrieves the label that describes the purpose of the task.helpviewer_keywords: ["ITsSbTaskInfo interface [Remote Desktop Services]","Label property","ITsSbTaskInfo.Label","ITsSbTaskInfo.get_Label","ITsSbTaskInfo::Label","ITsSbTaskInfo::get_Label","Label property [Remote Desktop Services]","Label property [Remote Desktop Services]","ITsSbTaskInfo interface","get_Label","sbtsv/ITsSbTaskInfo::Label","sbtsv/ITsSbTaskInfo::get_Label","termserv.itssbtaskinfo_label"]
 old-location: termserv\itssbtaskinfo_label.htm
 tech.root: TermServ
 ms.assetid: 075de6a4-53b0-43b0-9bca-03bf312fff6e

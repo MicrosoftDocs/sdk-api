@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.DurationUnitChange
 title: IWMPEvents::DurationUnitChange (wmp.h)
-description: The DurationUnitChange event is reserved for future use.
+description: The DurationUnitChange event is reserved for future use.helpviewer_keywords: ["DurationUnitChange","DurationUnitChange method [Windows Media Player]","DurationUnitChange method [Windows Media Player]","IWMPEvents interface","IWMPEvents interface [Windows Media Player]","DurationUnitChange method","IWMPEvents.DurationUnitChange","IWMPEvents::DurationUnitChange","IWMPEventsDurationUnitChange","wmp.iwmpevents_iwmpevents__durationunitchange","wmp/IWMPEvents::DurationUnitChange"]
 old-location: wmp\iwmpevents_iwmpevents__durationunitchange.htm
 tech.root: WMP
 ms.assetid: 03041012-fbb7-42ee-84a6-80b90091fedd
@@ -63,15 +63,6 @@ The <b>DurationUnitChange</b> event is reserved for future use.
 ### -param NewDurationUnit [in]
 
 Not supported.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

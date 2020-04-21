@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfTransitoryExtensionUIElement.GetDocumentMgr
 title: ITfTransitoryExtensionUIElement::GetDocumentMgr (msctf.h)
-description: The ITfTransitoryExtensionUIElement::GetDocumentMgr method returns the pointer of the transitory document manager.
+description: The ITfTransitoryExtensionUIElement::GetDocumentMgr method returns the pointer of the transitory document manager.helpviewer_keywords: ["GetDocumentMgr","GetDocumentMgr method [Text Services Framework]","GetDocumentMgr method [Text Services Framework]","ITfTransitoryExtensionUIElement interface","ITfTransitoryExtensionUIElement interface [Text Services Framework]","GetDocumentMgr method","ITfTransitoryExtensionUIElement.GetDocumentMgr","ITfTransitoryExtensionUIElement::GetDocumentMgr","msctf/ITfTransitoryExtensionUIElement::GetDocumentMgr","tsf.itftransitoryextensionuielement_getdocumentmgr"]
 old-location: tsf\itftransitoryextensionuielement_getdocumentmgr.htm
 tech.root: TSF
 ms.assetid: 199598fc-09e8-4d3b-b460-c76a1e4ee623

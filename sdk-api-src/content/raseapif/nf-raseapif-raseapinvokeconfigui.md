@@ -1,7 +1,7 @@
 ---
 UID: NF:raseapif.RasEapInvokeConfigUI
 title: RasEapInvokeConfigUI function (raseapif.h)
-description: The RAS connection manager calls the RasEapInvokeConfigUI function to display a dialog to obtain configuration information from the user.
+description: The RAS connection manager calls the RasEapInvokeConfigUI function to display a dialog to obtain configuration information from the user.helpviewer_keywords: ["RAS_EAP_FLAG_8021X_AUTH","RAS_EAP_FLAG_GUEST_ACCESS","RAS_EAP_FLAG_ROUTER","RasEapInvokeConfigUI","RasEapInvokeConfigUI callback","RasEapInvokeConfigUI callback function [EAP]","_eap_raseapinvokeconfigui","eap.raseapinvokeconfigui","raseapif/RasEapInvokeConfigUI"]
 old-location: eap\raseapinvokeconfigui.htm
 tech.root: EAP
 ms.assetid: cdd9b081-e654-445e-9383-3665258f5cfa

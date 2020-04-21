@@ -1,7 +1,7 @@
 ---
 UID: NN:oleidl.IOleInPlaceObject
 title: IOleInPlaceObject (oleidl.h)
-description: Manages the activation and deactivation of in-place objects, and determines how much of the in-place object should be visible.
+description: Manages the activation and deactivation of in-place objects, and determines how much of the in-place object should be visible.helpviewer_keywords: ["IOleInPlaceObject","IOleInPlaceObject interface [COM]","IOleInPlaceObject interface [COM]","described","_ole_ioleinplaceobject","com.ioleinplaceobject","oleidl/IOleInPlaceObject"]
 old-location: com\ioleinplaceobject.htm
 tech.root: com
 ms.assetid: c14de79d-e844-49cf-ae70-6c3e417fab90

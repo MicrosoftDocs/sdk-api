@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabUnregisterEvent
 title: PeerCollabUnregisterEvent function (p2p.h)
-description: Deregisters an application from notification about specific peer collaboration events.
+description: Deregisters an application from notification about specific peer collaboration events.helpviewer_keywords: ["PeerCollabUnregisterEvent","PeerCollabUnregisterEvent function [Peer Networking]","p2p.peercollabunregisterevent","p2p/PeerCollabUnregisterEvent"]
 old-location: p2p\peercollabunregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: dc1bcdaa-e58e-4567-9fd2-e1fa9071880f

@@ -1,7 +1,7 @@
 ---
 UID: NN:netcon.INetConnectionProps
 title: INetConnectionProps (netcon.h)
-description: Use the INetConnectionProps interface to retrieve the properties for a connection.
+description: Use the INetConnectionProps interface to retrieve the properties for a connection.helpviewer_keywords: ["INetConnectionProps","INetConnectionProps interface [ICS/ICF]","INetConnectionProps interface [ICS/ICF]","described","_ics_inetconnectionprops","ics.inetconnectionprops","netcon/INetConnectionProps"]
 old-location: ics\inetconnectionprops.htm
 tech.root: ics
 ms.assetid: 8152f75c-1c93-4c30-8a13-c47fd5dde4af

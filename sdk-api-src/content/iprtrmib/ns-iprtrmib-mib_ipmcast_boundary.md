@@ -1,7 +1,7 @@
 ---
 UID: NS:iprtrmib._MIB_IPMCAST_BOUNDARY
 title: MIB_IPMCAST_BOUNDARY (iprtrmib.h)
-description: Contains a row in a MIB_IPMCAST_BOUNDARY_TABLE structure that lists a router's scoped IPv4 multicast address boundaries.
+description: Contains a row in a MIB_IPMCAST_BOUNDARY_TABLE structure that lists a router's scoped IPv4 multicast address boundaries.helpviewer_keywords: ["*PMIB_IPMCAST_BOUNDARY","MIB_IPMCAST_BOUNDARY","MIB_IPMCAST_BOUNDARY structure [MIB]","PMIB_IPMCAST_BOUNDARY","PMIB_IPMCAST_BOUNDARY structure pointer [MIB]","iprtrmib/MIB_IPMCAST_BOUNDARY","iprtrmib/PMIB_IPMCAST_BOUNDARY","mib.mib_ipmcast_boundary"]
 old-location: mib\mib_ipmcast_boundary.htm
 tech.root: MIB
 ms.assetid: a3d900be-14c9-4ad9-bc2e-382849a6d1c6

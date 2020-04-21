@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSignal.GetSignalError
 title: IMbnSignal::GetSignalError (mbnapi.h)
-description: Gets the received signal error rate.
+description: Gets the received signal error rate.helpviewer_keywords: ["GetSignalError","GetSignalError method [Microsoft Broadband Networks]","GetSignalError method [Microsoft Broadband Networks]","IMbnSignal interface","IMbnSignal interface [Microsoft Broadband Networks]","GetSignalError method","IMbnSignal.GetSignalError","IMbnSignal::GetSignalError","mbn.imbnsignal_getsignalerror","mbnapi/IMbnSignal::GetSignalError"]
 old-location: mbn\imbnsignal_getsignalerror.htm
 tech.root: mbn
 ms.assetid: 028adb54-9c81-4a5b-85f7-5c12ce8d84e4

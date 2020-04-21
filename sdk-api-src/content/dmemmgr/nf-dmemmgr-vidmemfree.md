@@ -1,7 +1,7 @@
 ---
 UID: NF:dmemmgr.VidMemFree
 title: VidMemFree function (dmemmgr.h)
-description: The VidMemFree function frees off-screen memory allocated for a display driver by HeapVidMemAllocAligned.
+description: The VidMemFree function frees off-screen memory allocated for a display driver by HeapVidMemAllocAligned.helpviewer_keywords: ["VidMemFree","VidMemFree function [Display Devices]","display.vidmemfree","dmemmgr/VidMemFree","gdifncs_a3a43790-1189-4c79-965c-aa20f04c7405.xml"]
 old-location: display\vidmemfree.htm
 tech.root: display
 ms.assetid: f1d3b5a0-f1e3-4977-8081-839b4e36971f
@@ -65,15 +65,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-
 ### -param ptr [in]
 
 Specifies the FLATPTR offset of the allocated surface. This data type is equivalent to a ULONG_PTR.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NF:dxva2api.DXVA2CreateVideoService
 title: DXVA2CreateVideoService function (dxva2api.h)
-description: Creates a DirectX Video Acceleration (DXVA) services object.
+description: Creates a DirectX Video Acceleration (DXVA) services object.helpviewer_keywords: ["DXVA2CreateVideoService","DXVA2CreateVideoService function [Media Foundation]","dxva2api/DXVA2CreateVideoService","e62dbacb-f638-4307-ba56-88415d881fc9","mf.dxva2createvideoservice"]
 old-location: mf\dxva2createvideoservice.htm
 tech.root: medfound
 ms.assetid: e62dbacb-f638-4307-ba56-88415d881fc9

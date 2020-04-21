@@ -1,7 +1,7 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetVideoAcceleratorGUIDs
 title: IAMVideoAccelerator::GetVideoAcceleratorGUIDs (videoacc.h)
-description: The GetVideoAcceleratorGUIDs method gets a list of DirectX Video Acceleration (DXVA) profiles supported by the display driver.
+description: The GetVideoAcceleratorGUIDs method gets a list of DirectX Video Acceleration (DXVA) profiles supported by the display driver.helpviewer_keywords: ["GetVideoAcceleratorGUIDs","GetVideoAcceleratorGUIDs method [DirectShow]","GetVideoAcceleratorGUIDs method [DirectShow]","IAMVideoAccelerator interface","IAMVideoAccelerator interface [DirectShow]","GetVideoAcceleratorGUIDs method","IAMVideoAccelerator.GetVideoAcceleratorGUIDs","IAMVideoAccelerator::GetVideoAcceleratorGUIDs","IAMVideoAcceleratorGetVideoAcceleratorGUIDs","dshow.iamvideoaccelerator_getvideoacceleratorguids","videoacc/IAMVideoAccelerator::GetVideoAcceleratorGUIDs"]
 old-location: dshow\iamvideoaccelerator_getvideoacceleratorguids.htm
 tech.root: DirectShow
 ms.assetid: 808ba120-f0e1-4348-94e7-69a27c77cf42

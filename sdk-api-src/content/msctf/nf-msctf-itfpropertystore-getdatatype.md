@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfPropertyStore.GetDataType
 title: ITfPropertyStore::GetDataType (msctf.h)
-description: ITfPropertyStore::GetDataType method
+description: ITfPropertyStore::GetDataType methodhelpviewer_keywords: ["GetDataType","GetDataType method [Text Services Framework]","GetDataType method [Text Services Framework]","ITfPropertyStore interface","ITfPropertyStore interface [Text Services Framework]","GetDataType method","ITfPropertyStore.GetDataType","ITfPropertyStore::GetDataType","_tsf_itfpropertystore_getdatatype_ref","msctf/ITfPropertyStore::GetDataType","tsf.itfpropertystore_getdatatype"]
 old-location: tsf\itfpropertystore_getdatatype.htm
 tech.root: TSF
 ms.assetid: 700c704f-d336-443d-825b-cb376bba966c
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+This method is reserved, but must be implemented.
 
 ## -parameters
 

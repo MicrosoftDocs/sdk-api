@@ -1,7 +1,7 @@
 ---
 UID: NN:spellcheck.IOptionDescription
 title: IOptionDescription (spellcheck.h)
-description: Represents the description of a spell checker option.
+description: Represents the description of a spell checker option.helpviewer_keywords: ["IOptionDescription","IOptionDescription interface [Internationalization for Windows Applications]","IOptionDescription interface [Internationalization for Windows Applications]","described","intl.ioptiondescription","spellcheck/IOptionDescription"]
 old-location: intl\ioptiondescription.htm
 tech.root: Intl
 ms.assetid: 809d1a71-bb14-4516-9624-2f10fe19a5d9

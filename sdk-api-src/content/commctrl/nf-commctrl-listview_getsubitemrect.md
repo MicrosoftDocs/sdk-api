@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_GetSubItemRect
 title: ListView_GetSubItemRect macro (commctrl.h)
-description: Gets information about the rectangle that surrounds a subitem in a list-view control.
+description: Gets information about the rectangle that surrounds a subitem in a list-view control.helpviewer_keywords: ["LVIR_BOUNDS","LVIR_ICON","LVIR_LABEL","ListView_GetSubItemRect","ListView_GetSubItemRect macro [Windows Controls]","_win32_ListView_GetSubItemRect","_win32_ListView_GetSubItemRect_cpp","commctrl/ListView_GetSubItemRect","controls.ListView_GetSubItemRect","controls._win32_ListView_GetSubItemRect"]
 old-location: controls\ListView_GetSubItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getsubitemrect.htm

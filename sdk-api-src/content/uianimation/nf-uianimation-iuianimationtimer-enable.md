@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.Enable
 title: IUIAnimationTimer::Enable (uianimation.h)
-description: Enables the animation timer.
+description: Enables the animation timer.helpviewer_keywords: ["Enable","Enable method [Windows Animation]","Enable method [Windows Animation]","IUIAnimationTimer interface","IUIAnimationTimer interface [Windows Animation]","Enable method","IUIAnimationTimer.Enable","IUIAnimationTimer::Enable","uianimation.iuianimationtimer_enable","uianimation/IUIAnimationTimer::Enable"]
 old-location: uianimation\iuianimationtimer_enable.htm
 tech.root: UIAnimation
 ms.assetid: b2efd694-67ff-4e6e-9a47-d0ce70dbd85a

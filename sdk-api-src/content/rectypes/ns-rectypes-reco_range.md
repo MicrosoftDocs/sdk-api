@@ -1,7 +1,7 @@
 ---
 UID: NS:rectypes.tagRECO_RANGE
 title: RECO_RANGE (rectypes.h)
-description: The structure is obsolete.
+description: The structure is obsolete.helpviewer_keywords: ["212de1c5-b61e-4e6e-a781-cba63b820504","RECO_RANGE","RECO_RANGE structure [Tablet PC]","rectypes/RECO_RANGE","tablet.reco_range"]
 old-location: tablet\reco_range.htm
 tech.root: tablet
 ms.assetid: 212de1c5-b61e-4e6e-a781-cba63b820504

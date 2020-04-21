@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsRequests
 title: DeleteNtmsRequests function (ntmsapi.h)
-description: The DeleteNtmsRequests function deletes a request or a list of requests from the RSM database.
+description: The DeleteNtmsRequests function deletes a request or a list of requests from the RSM database.helpviewer_keywords: ["DeleteNtmsRequests","DeleteNtmsRequests function [Files]","NTMS_LIBREQUEST","NTMS_OPREQUEST","_zaw_deletentmsrequests","base.deletentmsrequests","fs.deletentmsrequests","ntmsapi/DeleteNtmsRequests"]
 old-location: fs\deletentmsrequests.htm
 tech.root: Rsm
 ms.assetid: 5368184a-419c-4cb7-b27f-b55fc26b4e81

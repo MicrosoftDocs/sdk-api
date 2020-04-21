@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.CreateTraceDataProvider
 title: ITraceDataProviderCollection::CreateTraceDataProvider (pla.h)
-description: Creates a trace data provider object.
+description: Creates a trace data provider object.helpviewer_keywords: ["CreateTraceDataProvider","CreateTraceDataProvider method [PLA]","CreateTraceDataProvider method [PLA]","ITraceDataProviderCollection interface","ITraceDataProviderCollection interface [PLA]","CreateTraceDataProvider method","ITraceDataProviderCollection.CreateTraceDataProvider","ITraceDataProviderCollection::CreateTraceDataProvider","pla.itracedataprovidercollection_createtracedataprovider","pla/ITraceDataProviderCollection::CreateTraceDataProvider"]
 old-location: pla\itracedataprovidercollection_createtracedataprovider.htm
 tech.root: PLA
 ms.assetid: 234de4d8-896f-462d-8785-8b768697bf2e

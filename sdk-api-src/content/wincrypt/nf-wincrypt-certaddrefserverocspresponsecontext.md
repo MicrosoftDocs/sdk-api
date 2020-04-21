@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertAddRefServerOcspResponseContext
 title: CertAddRefServerOcspResponseContext function (wincrypt.h)
-description: Increments the reference count for a CERT_SERVER_OCSP_RESPONSE_CONTEXT structure.
+description: Increments the reference count for a CERT_SERVER_OCSP_RESPONSE_CONTEXT structure.helpviewer_keywords: ["CertAddRefServerOcspResponseContext","CertAddRefServerOcspResponseContext function [Security]","security.certaddrefserverocspresponsecontext","wincrypt/CertAddRefServerOcspResponseContext"]
 old-location: security\certaddrefserverocspresponsecontext.htm
 tech.root: SecCrypto
 ms.assetid: b7cdce9b-25fe-4fb9-b266-61989793699b
@@ -60,15 +60,6 @@ The <b>CertAddRefServerOcspResponseContext</b> function increments the reference
 ### -param pServerOcspResponseContext [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> returned by <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetserverocspresponsecontext">CertGetServerOcspResponseContext</a>.
-
-
-## -returns
-
-
-
-The function has no return value.
-
-
 
 
 ## -remarks

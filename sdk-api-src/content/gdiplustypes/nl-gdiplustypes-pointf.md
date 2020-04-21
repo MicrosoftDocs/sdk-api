@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplustypes.PointF
 title: PointF (gdiplustypes.h)
-description: The PointF class encapsulates a point in a 2-D coordinate system.
+description: The PointF class encapsulates a point in a 2-D coordinate system.helpviewer_keywords: ["PointF","PointF class [GDI+]","PointF class [GDI+]","described","_gdiplus_CLASS_PointF_Class","gdiplus._gdiplus_CLASS_PointF_Class","gdiplustypes/PointF"]
 old-location: gdiplus\_gdiplus_CLASS_PointF_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointf.htm

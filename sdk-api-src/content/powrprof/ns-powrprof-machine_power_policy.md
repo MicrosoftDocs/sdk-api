@@ -1,7 +1,7 @@
 ---
 UID: NS:powrprof._MACHINE_POWER_POLICY
 title: MACHINE_POWER_POLICY (powrprof.h)
-description: Contains computer power policy settings that are unique to each power scheme on the computer.
+description: Contains computer power policy settings that are unique to each power scheme on the computer.helpviewer_keywords: ["*PMACHINE_POWER_POLICY","MACHINE_POWER_POLICY","MACHINE_POWER_POLICY structure","PMACHINE_POWER_POLICY","PMACHINE_POWER_POLICY structure pointer","_win32_machine_power_policy_str","base.machine_power_policy_str","powrprof/MACHINE_POWER_POLICY","powrprof/PMACHINE_POWER_POLICY"]
 old-location: base\machine_power_policy_str.htm
 tech.root: power
 ms.assetid: 41dca573-a73d-430c-9bd3-083e72aecbdc

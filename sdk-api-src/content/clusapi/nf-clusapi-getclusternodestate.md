@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.GetClusterNodeState
 title: GetClusterNodeState function (clusapi.h)
-description: Returns the current state of a node.
+description: Returns the current state of a node.helpviewer_keywords: ["GetClusterNodeState","GetClusterNodeState function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_NODE_STATE","PCLUSAPI_GET_CLUSTER_NODE_STATE function [Failover Cluster]","_wolf_getclusternodestate","clusapi/GetClusterNodeState","clusapi/PCLUSAPI_GET_CLUSTER_NODE_STATE","mscs.getclusternodestate"]
 old-location: mscs\getclusternodestate.htm
 tech.root: MsCS
 ms.assetid: 94c83582-3d99-4a20-ad58-1af4e8190781

@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminConnectionHangupNotification3
 title: MprAdminConnectionHangupNotification3 function (mprapi.h)
-description: Remote Access Service calls the MprAdminConnectionHangupNotification3 function after the last link for the specified connection has been dismantled.
+description: Remote Access Service calls the MprAdminConnectionHangupNotification3 function after the last link for the specified connection has been dismantled.helpviewer_keywords: ["MprAdminConnectionHangupNotification3","MprAdminConnectionHangupNotification3 callback","MprAdminConnectionHangupNotification3 callback function [RAS]","mprapi/MprAdminConnectionHangupNotification3","rras.mpradminconnectionhangupnotification3"]
 old-location: rras\mpradminconnectionhangupnotification3.htm
 tech.root: RRAS
 ms.assetid: 8c31d345-8f57-47f5-a021-e399f7ccca5d
@@ -80,15 +80,6 @@ Pointer to a
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_3">RAS_CONNECTION_3</a> structure that describes this connection.
-
-
-## -returns
-
-
-
-This function does not have a return value.
-
-
 
 
 ## -remarks

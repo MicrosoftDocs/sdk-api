@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetInterpolationColors
 title: PathGradientBrush::SetInterpolationColors (gdipluspath.h)
-description: The PathGradientBrush::SetInterpolationColors method sets the preset colors and the blend positions of this path gradient brush.
+description: The PathGradientBrush::SetInterpolationColors method sets the preset colors and the blend positions of this path gradient brush.helpviewer_keywords: ["PathGradientBrush class [GDI+]","SetInterpolationColors method","PathGradientBrush.SetInterpolationColors","PathGradientBrush::SetInterpolationColors","SetInterpolationColors","SetInterpolationColors method [GDI+]","SetInterpolationColors method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_SetInterpolationColors_presetColors_blendPositions_count_","gdiplus._gdiplus_CLASS_PathGradientBrush_SetInterpolationColors_presetColors_blendPositions_count_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetInterpolationColors_presetColors_blendPositions_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setinterpolationcolors_29presetcolors_blendpositions_count.htm

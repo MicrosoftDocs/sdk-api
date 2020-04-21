@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.AreGlyphsLocal
 title: IDWriteFontFace3::AreGlyphsLocal (dwrite_3.h)
-description: Determines whether the specified glyphs are local.
+description: Determines whether the specified glyphs are local.helpviewer_keywords: ["AreGlyphsLocal","AreGlyphsLocal method [Direct Write]","AreGlyphsLocal method [Direct Write]","IDWriteFontFace3 interface","IDWriteFontFace3 interface [Direct Write]","AreGlyphsLocal method","IDWriteFontFace3.AreGlyphsLocal","IDWriteFontFace3::AreGlyphsLocal","directwrite.idwritefontface3_areglyphslocal","dwrite_3/IDWriteFontFace3::AreGlyphsLocal"]
 old-location: directwrite\idwritefontface3_areglyphslocal.htm
 tech.root: DirectWrite
 ms.assetid: e8d5b51d-c5b5-6ea5-eda0-36cc9ec425d3

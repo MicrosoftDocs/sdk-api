@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.UInt32x32To64
 title: UInt32x32To64 macro (winnt.h)
-description: Multiplies two unsigned 32-bit integers, returning an unsigned 64-bit integer result.
+description: Multiplies two unsigned 32-bit integers, returning an unsigned 64-bit integer result.helpviewer_keywords: ["UInt32x32To64","UInt32x32To64 macro [Windows API]","_win32_uint32x32to64","winnt/UInt32x32To64","winprog.uint32x32to64"]
 old-location: winprog\uint32x32to64.htm
 tech.root: WinProg
 ms.assetid: 369e0574-df8b-4e65-bbba-7a7961caebe7

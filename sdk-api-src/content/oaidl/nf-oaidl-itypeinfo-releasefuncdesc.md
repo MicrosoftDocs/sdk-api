@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeInfo.ReleaseFuncDesc
 title: ITypeInfo::ReleaseFuncDesc (oaidl.h)
-description: Releases a FUNCDESC previously returned by ITypeInfo::GetFuncDesc.
+description: Releases a FUNCDESC previously returned by ITypeInfo::GetFuncDesc.helpviewer_keywords: ["ITypeInfo interface [Automation]","ReleaseFuncDesc method","ITypeInfo.ReleaseFuncDesc","ITypeInfo::ReleaseFuncDesc","ReleaseFuncDesc","ReleaseFuncDesc method [Automation]","ReleaseFuncDesc method [Automation]","ITypeInfo interface","_oa96_ITypeInfo_ReleaseFuncDesc","automat.itypeinfo_releasefuncdesc","oaidl/ITypeInfo::ReleaseFuncDesc"]
 old-location: automat\itypeinfo_releasefuncdesc.htm
 tech.root: automat
 ms.assetid: 5c407301-87fd-4f79-89e1-c6db5d1cf36b
@@ -60,15 +60,6 @@ Releases a FUNCDESC previously returned by <a href="https://docs.microsoft.com/p
 ### -param pFuncDesc [in]
 
 The FUNCDESC to be freed.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

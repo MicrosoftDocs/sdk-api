@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CreateAntiMoniker
 title: CreateAntiMoniker function (objbase.h)
-description: Creates and returns a new anti-moniker.
+description: Creates and returns a new anti-moniker.helpviewer_keywords: ["CreateAntiMoniker","CreateAntiMoniker function [COM]","_com_CreateAntiMoniker","com.createantimoniker","objbase/CreateAntiMoniker"]
 old-location: com\createantimoniker.htm
 tech.root: com
 ms.assetid: 1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf

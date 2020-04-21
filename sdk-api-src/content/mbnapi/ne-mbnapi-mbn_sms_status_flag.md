@@ -1,7 +1,7 @@
 ---
 UID: NE:mbnapi.MBN_SMS_STATUS_FLAG
 title: MBN_SMS_STATUS_FLAG (mbnapi.h)
-description: The MBN_SMS_STATUS_FLAG enumerated type indicates the status of a device's SMS message store.
+description: The MBN_SMS_STATUS_FLAG enumerated type indicates the status of a device's SMS message store.helpviewer_keywords: ["MBN_SMS_FLAG_MESSAGE_STORE_FULL","MBN_SMS_FLAG_NEW_MESSAGE","MBN_SMS_FLAG_NONE","MBN_SMS_STATUS_FLAG","MBN_SMS_STATUS_FLAG enumeration [Microsoft Broadband Networks]","mbn.mbn_sms_status_flag","mbnapi/MBN_SMS_FLAG_MESSAGE_STORE_FULL","mbnapi/MBN_SMS_FLAG_NEW_MESSAGE","mbnapi/MBN_SMS_FLAG_NONE","mbnapi/MBN_SMS_STATUS_FLAG"]
 old-location: mbn\mbn_sms_status_flag.htm
 tech.root: mbn
 ms.assetid: 835cfdfa-face-4779-8bbf-e35076b85521

@@ -1,7 +1,7 @@
 ---
 UID: NF:appmgmt.GetLocalManagedApplications
 title: GetLocalManagedApplications function (appmgmt.h)
-description: The GetLocalManagedApplications function can be run on the target computer to get a list of managed applications on that computer.
+description: The GetLocalManagedApplications function can be run on the target computer to get a list of managed applications on that computer.helpviewer_keywords: ["GetLocalManagedApplications","GetLocalManagedApplications function [Group Policy]","appmgmt/GetLocalManagedApplications","policy.getlocalmanagedapplications"]
 old-location: policy\getlocalmanagedapplications.htm
 tech.root: Policy
 ms.assetid: 4606ff09-7e23-4953-aeef-cac822995d35

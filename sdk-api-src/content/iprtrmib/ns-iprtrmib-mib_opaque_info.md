@@ -1,7 +1,7 @@
 ---
 UID: NS:iprtrmib._MIB_OPAQUE_INFO
 title: MIB_OPAQUE_INFO (iprtrmib.h)
-description: Contains information returned from a MIB opaque query.
+description: Contains information returned from a MIB opaque query.helpviewer_keywords: ["*PMIB_OPAQUE_INFO","MIB_OPAQUE_INFO","MIB_OPAQUE_INFO structure [MIB]","PMIB_OPAQUE_INFO","PMIB_OPAQUE_INFO structure pointer [MIB]","_mpr_mib_opaque_info","iprtrmib/MIB_OPAQUE_INFO","iprtrmib/PMIB_OPAQUE_INFO","mib.mib_opaque_info","rras.mib_opaque_info"]
 old-location: mib\mib_opaque_info.htm
 tech.root: MIB
 ms.assetid: d364b08b-80b9-4320-b5bb-e1627d3ce889

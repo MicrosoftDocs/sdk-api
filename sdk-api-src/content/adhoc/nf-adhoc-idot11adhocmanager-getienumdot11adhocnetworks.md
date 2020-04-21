@@ -1,7 +1,7 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.GetIEnumDot11AdHocNetworks
 title: IDot11AdHocManager::GetIEnumDot11AdHocNetworks (adhoc.h)
-description: Returns a list of available ad hoc network destinations within connection range.
+description: Returns a list of available ad hoc network destinations within connection range.helpviewer_keywords: ["GetIEnumDot11AdHocNetworks","GetIEnumDot11AdHocNetworks method [NativeWIFI]","GetIEnumDot11AdHocNetworks method [NativeWIFI]","IDot11AdHocManager interface","IDot11AdHocManager interface [NativeWIFI]","GetIEnumDot11AdHocNetworks method","IDot11AdHocManager.GetIEnumDot11AdHocNetworks","IDot11AdHocManager::GetIEnumDot11AdHocNetworks","adhoc/IDot11AdHocManager::GetIEnumDot11AdHocNetworks","nwifi.idot11adhocmanager_getienumdot11adhocnetworks"]
 old-location: nwifi\idot11adhocmanager_getienumdot11adhocnetworks.htm
 tech.root: NativeWiFi
 ms.assetid: 3d37fad8-18e8-4280-9fa8-e40c742ec8ba

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetPredication
 title: ID3D12GraphicsCommandList::SetPredication (d3d12.h)
-description: Sets a rendering predicate.
+description: Sets a rendering predicate.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetPredication method","ID3D12GraphicsCommandList.SetPredication","ID3D12GraphicsCommandList::SetPredication","SetPredication","SetPredication method","SetPredication method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetPredication","direct3d12.id3d12graphicscommandlist_setpredication"]
 old-location: direct3d12\id3d12graphicscommandlist_setpredication.htm
 tech.root: direct3d12
 ms.assetid: 21526012-A675-40E8-A11C-4CBA5C12B9CF
@@ -80,16 +80,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-
 
 Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op">D3D12_PREDICATION_OP</a>, such as D3D12_PREDICATION_OP_EQUAL_ZERO or D3D12_PREDICATION_OP_NOT_EQUAL_ZERO.
           
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

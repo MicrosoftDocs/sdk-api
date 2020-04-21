@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFSensorGroup
 title: IMFSensorGroup (mfidl.h)
-description: Represents a group of sensor devices from which an IMFMediaSource can be created.
+description: Represents a group of sensor devices from which an IMFMediaSource can be created.helpviewer_keywords: ["IMFSensorGroup","IMFSensorGroup interface [Media Foundation]","IMFSensorGroup interface [Media Foundation]","described","mf.imfsensorgroup","mfidl/IMFSensorGroup"]
 old-location: mf\imfsensorgroup.htm
 tech.root: medfound
 ms.assetid: 7CED3EF6-E844-4B3A-8181-CA44FC4675EC

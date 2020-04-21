@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.ResolveSubresource
 title: ID3D10Device::ResolveSubresource (d3d10.h)
-description: Copy a multisampled resource into a non-multisampled resource. This API is most useful when re-using the resulting rendertarget of one render pass as an input to a second render pass.
+description: Copy a multisampled resource into a non-multisampled resource. This API is most useful when re-using the resulting rendertarget of one render pass as an input to a second render pass.helpviewer_keywords: ["ID3D10Device interface [Direct3D 10]","ResolveSubresource method","ID3D10Device.ResolveSubresource","ID3D10Device::ResolveSubresource","ResolveSubresource","ResolveSubresource method [Direct3D 10]","ResolveSubresource method [Direct3D 10]","ID3D10Device interface","ba86f6c0-1c03-0ae4-a93b-f0475c4a5a37","d3d10/ID3D10Device::ResolveSubresource","direct3d10.id3d10device_resolvesubresource"]
 old-location: direct3d10\id3d10device_resolvesubresource.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_resolvesubresource.htm
@@ -91,15 +91,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource. See remarks.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

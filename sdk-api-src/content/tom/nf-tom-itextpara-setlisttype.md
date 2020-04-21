@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.SetListType
 title: ITextPara::SetListType (tom.h)
-description: Sets the type of list to be used for paragraphs.
+description: Sets the type of list to be used for paragraphs.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetListType method","ITextPara.SetListType","ITextPara::SetListType","SetListType","SetListType method [Windows Controls]","SetListType method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetListType","_win32_ITextPara_SetListType_cpp","controls.ITextPara_SetListType","controls._win32_ITextPara_SetListType","tom/ITextPara::SetListType"]
 old-location: controls\ITextPara_SetListType.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlisttype.htm

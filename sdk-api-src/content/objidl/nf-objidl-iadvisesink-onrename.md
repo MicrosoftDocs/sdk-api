@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IAdviseSink.OnRename
 title: IAdviseSink::OnRename (objidl.h)
-description: Called by the server to notify all registered advisory sinks that the object has been renamed.
+description: Called by the server to notify all registered advisory sinks that the object has been renamed.helpviewer_keywords: ["IAdviseSink interface [COM]","OnRename method","IAdviseSink.OnRename","IAdviseSink::OnRename","OnRename","OnRename method [COM]","OnRename method [COM]","IAdviseSink interface","_ole_iadvisesink_onrename","com.iadvisesink_onrename","objidl/IAdviseSink::OnRename"]
 old-location: com\iadvisesink_onrename.htm
 tech.root: com
 ms.assetid: ec9926fb-d69e-430c-b67d-24c52d806bb5
@@ -62,15 +62,6 @@ Called by the server to notify all registered advisory sinks that the object has
 ### -param pmk [in]
 
  A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the new full moniker of the object.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

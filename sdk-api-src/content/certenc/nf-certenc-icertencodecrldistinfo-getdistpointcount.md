@@ -1,7 +1,7 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.GetDistPointCount
 title: ICertEncodeCRLDistInfo::GetDistPointCount (certenc.h)
-description: Returns the number of certificate revocation list (CRL) distribution points in a CRL distribution information array.
+description: Returns the number of certificate revocation list (CRL) distribution points in a CRL distribution information array.helpviewer_keywords: ["CCertEncodeCRLDistInfo object [Security]","GetDistPointCount method","GetDistPointCount","GetDistPointCount method [Security]","GetDistPointCount method [Security]","CCertEncodeCRLDistInfo object","GetDistPointCount method [Security]","ICertEncodeCRLDistInfo interface","ICertEncodeCRLDistInfo interface [Security]","GetDistPointCount method","ICertEncodeCRLDistInfo.GetDistPointCount","ICertEncodeCRLDistInfo::GetDistPointCount","_certsrv_icertencodecrldistinfo_getdistpointcount","certenc/ICertEncodeCRLDistInfo::GetDistPointCount","security.icertencodecrldistinfo_getdistpointcount"]
 old-location: security\icertencodecrldistinfo_getdistpointcount.htm
 tech.root: SecCrypto
 ms.assetid: 8c7d0d14-e755-4223-8cd5-0ebc784960cf

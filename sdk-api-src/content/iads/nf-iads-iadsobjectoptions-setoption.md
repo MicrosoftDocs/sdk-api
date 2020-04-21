@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsObjectOptions.SetOption
 title: IADsObjectOptions::SetOption (iads.h)
-description: Sets a provider-specific option for manipulating a directory object.
+description: Sets a provider-specific option for manipulating a directory object.helpviewer_keywords: ["IADsObjectOptions interface [ADSI]","SetOption method","IADsObjectOptions.SetOption","IADsObjectOptions::SetOption","SetOption","SetOption method [ADSI]","SetOption method [ADSI]","IADsObjectOptions interface","_ds_iadsobjectoptions_setoption","adsi.iadsobjectoptions__setoption","adsi.iadsobjectoptions_setoption","iads/IADsObjectOptions::SetOption"]
 old-location: adsi\iadsobjectoptions_setoption.htm
 tech.root: adsi
 ms.assetid: e6e43c99-fc8b-4f34-82cf-8cf30c506859

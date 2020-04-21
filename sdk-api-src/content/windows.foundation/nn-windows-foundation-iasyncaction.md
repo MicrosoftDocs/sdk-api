@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.foundation.IAsyncAction
 title: IAsyncAction (windows.foundation.h)
-description: Represents an asynchronous action.
+description: Represents an asynchronous action.helpviewer_keywords: ["IAsyncAction","IAsyncAction interface [Windows Runtime]","IAsyncAction interface [Windows Runtime]","described","windows/IAsyncAction","winrt.iasyncaction"]
 old-location: winrt\iasyncaction.htm
 tech.root: WinRT
 ms.assetid: E5D567F6-FFDE-4E51-8D52-638D30252549

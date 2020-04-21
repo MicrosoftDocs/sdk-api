@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfEditRecord.GetTextAndPropertyUpdates
 title: ITfEditRecord::GetTextAndPropertyUpdates (msctf.h)
-description: ITfEditRecord::GetTextAndPropertyUpdates method
+description: ITfEditRecord::GetTextAndPropertyUpdates methodhelpviewer_keywords: ["0","GetTextAndPropertyUpdates","GetTextAndPropertyUpdates method [Text Services Framework]","GetTextAndPropertyUpdates method [Text Services Framework]","ITfEditRecord interface","ITfEditRecord interface [Text Services Framework]","GetTextAndPropertyUpdates method","ITfEditRecord.GetTextAndPropertyUpdates","ITfEditRecord::GetTextAndPropertyUpdates","TF_GTP_INCL_TEXT","_tsf_itfeditrecord_gettextandpropertyupdates_ref","msctf/ITfEditRecord::GetTextAndPropertyUpdates","tsf.itfeditrecord_gettextandpropertyupdates"]
 old-location: tsf\itfeditrecord_gettextandpropertyupdates.htm
 tech.root: TSF
 ms.assetid: bfc9cba0-298c-4823-b70a-366bdc5bfb29
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumerator that contains a collection of range objects that cover the specified properties and/or text that changed during the edit session.
 
 ## -parameters
 

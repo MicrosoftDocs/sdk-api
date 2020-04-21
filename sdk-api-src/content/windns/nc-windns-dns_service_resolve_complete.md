@@ -1,7 +1,7 @@
 ---
 UID: NC:windns.DNS_SERVICE_RESOLVE_COMPLETE
 title: DNS_SERVICE_RESOLVE_COMPLETE callback function
-description: Used to asynchronously return the results of a service resolve operation.
+description: Used to asynchronously return the results of a service resolve operation.helpviewer_keywords: ["DNS_SERVICE_RESOLVE_COMPLETE"]
 ms.date: 02/19/2019
 ms.keywords: DNS_SERVICE_RESOLVE_COMPLETE
 f1_keywords:
@@ -53,9 +53,6 @@ A pointer to the user context that was passed to [DnsServiceResolve](nf-windns-d
 
 ### -param pInstance
 A pointer to a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure that contains detailed information about a service on the network. If not `nullptr`, then you are responsible for freeing the data using [DnsServiceFreeInstance](nf-windns-dnsservicefreeinstance.md).
-
-## -returns
-This callback function does not return a value.
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptMsgSignCTL
 title: CryptMsgSignCTL function (wincrypt.h)
-description: The CryptMsgSignCTL function creates a signed message containing an encoded CTL.
+description: The CryptMsgSignCTL function creates a signed message containing an encoded CTL.helpviewer_keywords: ["CryptMsgSignCTL","CryptMsgSignCTL function [Security]","_crypto2_cryptmsgsignctl","security.cryptmsgsignctl","wincrypt/CryptMsgSignCTL"]
 old-location: security\cryptmsgsignctl.htm
 tech.root: SecCrypto
 ms.assetid: 85ae8ce3-d0a7-4fcb-beaa-ede09d30930e

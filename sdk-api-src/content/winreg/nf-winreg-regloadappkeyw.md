@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegLoadAppKeyW
 title: RegLoadAppKeyW function (winreg.h)
-description: Loads the specified registry hive as an application hive.
+description: Loads the specified registry hive as an application hive.helpviewer_keywords: ["RegLoadAppKey","RegLoadAppKey function","RegLoadAppKeyA","RegLoadAppKeyW","base.regloadappkey","winreg/RegLoadAppKey","winreg/RegLoadAppKeyA","winreg/RegLoadAppKeyW"]
 old-location: base\regloadappkey.htm
 tech.root: SysInfo
 ms.assetid: 88eb79c1-9ea0-436e-ad2e-9ce05b8dcb2c

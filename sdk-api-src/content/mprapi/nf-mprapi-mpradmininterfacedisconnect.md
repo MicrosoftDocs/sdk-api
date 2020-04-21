@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceDisconnect
 title: MprAdminInterfaceDisconnect function (mprapi.h)
-description: The MprAdminInterfaceDisconnect function disconnects a connected WAN interface.
+description: The MprAdminInterfaceDisconnect function disconnects a connected WAN interface.helpviewer_keywords: ["MprAdminInterfaceDisconnect","MprAdminInterfaceDisconnect function [RAS]","_mpr_mpradmininterfacedisconnect","mprapi/MprAdminInterfaceDisconnect","rras.mpradmininterfacedisconnect"]
 old-location: rras\mpradmininterfacedisconnect.htm
 tech.root: RRAS
 ms.assetid: 32499e2f-9c67-4314-adbf-75482a9d511e

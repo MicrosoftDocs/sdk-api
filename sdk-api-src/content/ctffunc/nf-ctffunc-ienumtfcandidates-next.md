@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Next
 title: IEnumTfCandidates::Next (ctffunc.h)
-description: IEnumTfCandidates::Next method
+description: IEnumTfCandidates::Next methodhelpviewer_keywords: ["IEnumTfCandidates interface [Text Services Framework]","Next method","IEnumTfCandidates.Next","IEnumTfCandidates::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfCandidates interface","_tsf_ienumtfcandidates_next_ref","ctffunc/IEnumTfCandidates::Next","tsf.ienumtfcandidates_next"]
 old-location: tsf\ienumtfcandidates_next.htm
 tech.root: TSF
 ms.assetid: 50aaa3c0-6998-49de-9753-7be38625a10d
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains, from the current position, the specified number of elements in the enumeration sequence.
 
 ## -parameters
 

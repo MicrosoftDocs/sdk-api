@@ -1,7 +1,7 @@
 ---
 UID: NF:ktmw32.RenameTransactionManager
 title: RenameTransactionManager function (ktmw32.h)
-description: Renames a transaction manager (TM) object. This function can only be used on named TM handles.
+description: Renames a transaction manager (TM) object. This function can only be used on named TM handles.helpviewer_keywords: ["RenameTransactionManager","RenameTransactionManager function [Files]","fs.renametransactionmanager","ktmw32/RenameTransactionManager"]
 old-location: fs\renametransactionmanager.htm
 tech.root: ktm
 ms.assetid: 2767e689-1342-458f-a215-a29d774c0648

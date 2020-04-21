@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi._ABCFLOAT
 title: ABCFLOAT (wingdi.h)
-description: The ABCFLOAT structure contains the A, B, and C widths of a font character.
+description: The ABCFLOAT structure contains the A, B, and C widths of a font character.helpviewer_keywords: ["*LPABCFLOAT","*NPABCFLOAT","*PABCFLOAT","ABCFLOAT","ABCFLOAT structure [Windows GDI]","PABCFLOAT","PABCFLOAT structure pointer [Windows GDI]","_win32_ABCFLOAT_str","gdi.abcfloat","wingdi/ABCFLOAT","wingdi/PABCFLOAT"]
 old-location: gdi\abcfloat.htm
 tech.root: gdi
 ms.assetid: 540bb00c-f0e2-4ddd-98d1-cf3ed86b6ce0

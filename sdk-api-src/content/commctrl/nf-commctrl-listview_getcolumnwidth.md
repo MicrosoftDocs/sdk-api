@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_GetColumnWidth
 title: ListView_GetColumnWidth macro (commctrl.h)
-description: Gets the width of a column in report or list view. You can use this macro or send the LVM_GETCOLUMNWIDTH message explicitly.
+description: Gets the width of a column in report or list view. You can use this macro or send the LVM_GETCOLUMNWIDTH message explicitly.helpviewer_keywords: ["ListView_GetColumnWidth","ListView_GetColumnWidth macro [Windows Controls]","_win32_ListView_GetColumnWidth","_win32_ListView_GetColumnWidth_cpp","commctrl/ListView_GetColumnWidth","controls.ListView_GetColumnWidth","controls._win32_ListView_GetColumnWidth"]
 old-location: controls\ListView_GetColumnWidth.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcolumnwidth.htm

@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.ISearchCompletedCallbackArgs
 title: ISearchCompletedCallbackArgs (wuapi.h)
-description: Contains information about the completion of an asynchronous search. It also acts as a parameter to the SearchCompletedCallback delegate.
+description: Contains information about the completion of an asynchronous search. It also acts as a parameter to the SearchCompletedCallback delegate.helpviewer_keywords: ["ISearchCompletedCallbackArgs","ISearchCompletedCallbackArgs interface [Windows Update Agent]","ISearchCompletedCallbackArgs interface [Windows Update Agent]","described","wua.isearchcompletedcallbackargs","wuapi/ISearchCompletedCallbackArgs"]
 old-location: wua\isearchcompletedcallbackargs.htm
 tech.root: Wua_Sdk
 ms.assetid: 809e4a09-3ad8-4e7f-8ace-ae613d05a7e1

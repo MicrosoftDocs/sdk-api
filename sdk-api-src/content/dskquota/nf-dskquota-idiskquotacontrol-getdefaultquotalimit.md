@@ -1,7 +1,7 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GetDefaultQuotaLimit
 title: IDiskQuotaControl::GetDefaultQuotaLimit (dskquota.h)
-description: Retrieves the default quota limit for the volume.
+description: Retrieves the default quota limit for the volume.helpviewer_keywords: ["GetDefaultQuotaLimit","GetDefaultQuotaLimit method [Files]","GetDefaultQuotaLimit method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GetDefaultQuotaLimit method","IDiskQuotaControl.GetDefaultQuotaLimit","IDiskQuotaControl::GetDefaultQuotaLimit","_win32_idiskquotacontrol_getdefaultquotalimit","base.idiskquotacontrol_getdefaultquotalimit","dskquota/IDiskQuotaControl::GetDefaultQuotaLimit","fs.idiskquotacontrol_getdefaultquotalimit"]
 old-location: fs\idiskquotacontrol_getdefaultquotalimit.htm
 tech.root: FileIO
 ms.assetid: 05af5869-0c77-4078-b6af-601a7df44244

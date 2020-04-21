@@ -1,7 +1,7 @@
 ---
 UID: NF:snmp.SnmpUtilOidToA
 title: SnmpUtilOidToA function (snmp.h)
-description: The SnmpUtilOidToA function converts an object identifier (OID) to a null-terminated string. This function is an element of the SNMP Utility API.
+description: The SnmpUtilOidToA function converts an object identifier (OID) to a null-terminated string. This function is an element of the SNMP Utility API.helpviewer_keywords: ["SnmpUtilOidToA","SnmpUtilOidToA function [SNMP]","_snmp_snmputiloidtoa","snmp.snmputiloidtoa","snmp/SnmpUtilOidToA"]
 old-location: snmp\snmputiloidtoa.htm
 tech.root: SNMP
 ms.assetid: c21124ac-f2f8-4096-9100-639ded42d198

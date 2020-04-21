@@ -1,7 +1,7 @@
 ---
 UID: NS:mmc._MMC_TASK_DISPLAY_BITMAP
 title: MMC_TASK_DISPLAY_BITMAP (mmc.h)
-description: The MMC_TASK_DISPLAY_BITMAP structure is introduced in MMC 1.1.
+description: The MMC_TASK_DISPLAY_BITMAP structure is introduced in MMC 1.1.helpviewer_keywords: ["MMC_TASK_DISPLAY_BITMAP","MMC_TASK_DISPLAY_BITMAP structure [MMC]","_slate_mmc_task_display_bitmap","mmc.mmc_task_display_bitmap","mmc/MMC_TASK_DISPLAY_BITMAP"]
 old-location: mmc\mmc_task_display_bitmap.htm
 tech.root: mmc
 ms.assetid: 9895eef1-7870-4092-8bf9-c13f38b74173

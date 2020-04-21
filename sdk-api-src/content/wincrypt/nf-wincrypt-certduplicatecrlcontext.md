@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertDuplicateCRLContext
 title: CertDuplicateCRLContext function (wincrypt.h)
-description: The CertDuplicateCRLContext function duplicates a certificate revocation list (CRL) context by incrementing its reference count.
+description: The CertDuplicateCRLContext function duplicates a certificate revocation list (CRL) context by incrementing its reference count.helpviewer_keywords: ["CertDuplicateCRLContext","CertDuplicateCRLContext function [Security]","_crypto2_certduplicatecrlcontext","security.certduplicatecrlcontext","wincrypt/CertDuplicateCRLContext"]
 old-location: security\certduplicatecrlcontext.htm
 tech.root: SecCrypto
 ms.assetid: ea14c494-d1c7-46d0-9d56-fc89a4b4afa9

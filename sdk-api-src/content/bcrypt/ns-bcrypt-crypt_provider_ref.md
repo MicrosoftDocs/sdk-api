@@ -1,7 +1,7 @@
 ---
 UID: NS:bcrypt._CRYPT_PROVIDER_REF
 title: CRYPT_PROVIDER_REF (bcrypt.h)
-description: Contains information about a cryptographic interface that a provider supports.
+description: Contains information about a cryptographic interface that a provider supports.helpviewer_keywords: ["*PCRYPT_PROVIDER_REF","CRYPT_PROVIDER_REF","CRYPT_PROVIDER_REF structure [Security]","PCRYPT_PROVIDER_REF","PCRYPT_PROVIDER_REF structure pointer [Security]","bcrypt/CRYPT_PROVIDER_REF","bcrypt/PCRYPT_PROVIDER_REF","security.crypt_provider_ref"]
 old-location: security\crypt_provider_ref.htm
 tech.root: SecCNG
 ms.assetid: 3bd4a07c-8b80-4bbc-9922-88ea007f6ccd

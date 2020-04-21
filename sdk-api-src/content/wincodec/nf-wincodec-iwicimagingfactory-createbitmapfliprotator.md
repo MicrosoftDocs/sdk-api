@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapFlipRotator
 title: IWICImagingFactory::CreateBitmapFlipRotator (wincodec.h)
-description: Creates a new instance of an IWICBitmapFlipRotator object.
+description: Creates a new instance of an IWICBitmapFlipRotator object.helpviewer_keywords: ["CreateBitmapFlipRotator","CreateBitmapFlipRotator method [Windows Imaging Component]","CreateBitmapFlipRotator method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateBitmapFlipRotator method","IWICImagingFactory.CreateBitmapFlipRotator","IWICImagingFactory::CreateBitmapFlipRotator","_wic_codec_iwicimagingfactory_createbitmapfliprotator","wic._wic_codec_iwicimagingfactory_createbitmapfliprotator","wincodec/IWICImagingFactory::CreateBitmapFlipRotator"]
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfliprotator.htm
 tech.root: wic
 ms.assetid: ec044a38-b39d-4421-8e56-a8be0586cc49

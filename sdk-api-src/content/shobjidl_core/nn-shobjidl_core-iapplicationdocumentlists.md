@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IApplicationDocumentLists
 title: IApplicationDocumentLists (shobjidl_core.h)
-description: Exposes methods that allow an application to retrieve the contents of the Recent or Frequent categories in a Jump List.
+description: Exposes methods that allow an application to retrieve the contents of the Recent or Frequent categories in a Jump List.helpviewer_keywords: ["IApplicationDocumentLists","IApplicationDocumentLists interface [Windows Shell]","IApplicationDocumentLists interface [Windows Shell]","described","_shell_IApplicationDocumentLists","shell.IApplicationDocumentLists","shobjidl_core/IApplicationDocumentLists"]
 old-location: shell\IApplicationDocumentLists.htm
 tech.root: shell
 ms.assetid: 1912d8fd-1724-4a4b-b74a-e05db12ffead

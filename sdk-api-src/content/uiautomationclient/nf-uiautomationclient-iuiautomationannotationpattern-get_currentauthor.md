@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentAuthor
 title: IUIAutomationAnnotationPattern::get_CurrentAuthor (uiautomationclient.h)
-description: Retrieves the name of the annotation author.
+description: Retrieves the name of the annotation author.helpviewer_keywords: ["CurrentAuthor property [Windows Accessibility]","CurrentAuthor property [Windows Accessibility]","IUIAutomationAnnotationPattern interface","IUIAutomationAnnotationPattern interface [Windows Accessibility]","CurrentAuthor property","IUIAutomationAnnotationPattern.CurrentAuthor","IUIAutomationAnnotationPattern.get_CurrentAuthor","IUIAutomationAnnotationPattern::CurrentAuthor","IUIAutomationAnnotationPattern::get_CurrentAuthor","get_CurrentAuthor","uiautomationclient/IUIAutomationAnnotationPattern::CurrentAuthor","uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAuthor","winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAuthor"]
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentAuthor.htm
 tech.root: WinAuto
 ms.assetid: 8F1573D5-3804-4C1D-A838-1D5D837BCE25

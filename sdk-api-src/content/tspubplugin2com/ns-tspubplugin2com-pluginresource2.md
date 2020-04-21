@@ -1,7 +1,7 @@
 ---
 UID: NS:tspubplugin2com.__MIDL_ItsPubPlugin2_0002
 title: pluginResource2 (tspubplugin2com.h)
-description: Contains additional information about a resource that can be assigned to users in RemoteApp and Desktop Connection.
+description: Contains additional information about a resource that can be assigned to users in RemoteApp and Desktop Connection.helpviewer_keywords: ["pluginResource2","pluginResource2 structure [Remote Desktop Services]","termserv.pluginresource2","tspubplugin2com/pluginResource2"]
 old-location: termserv\pluginresource2.htm
 tech.root: TermServ
 ms.assetid: BD4761C7-377C-499C-B984-3B126C704089

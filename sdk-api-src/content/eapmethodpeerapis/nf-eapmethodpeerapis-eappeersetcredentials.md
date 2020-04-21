@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerSetCredentials
 title: EapPeerSetCredentials function (eapmethodpeerapis.h)
-description: Supplies new or updated authentication credentials to the EAP method.
+description: Supplies new or updated authentication credentials to the EAP method.helpviewer_keywords: ["EapPeerSetCredentials","EapPeerSetCredentials function [EAPHost]","eaphost.eappeersetcredentials","eapmethodpeerapis/EapPeerSetCredentials"]
 old-location: eaphost\eappeersetcredentials.htm
 tech.root: eaphost
 ms.assetid: d50a72bd-0b3f-4b68-be96-5debb3fd99f8

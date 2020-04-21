@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._KERB_RETRIEVE_TKT_RESPONSE
 title: KERB_RETRIEVE_TKT_RESPONSE (ntsecapi.h)
-description: Contains the response from retrieving a ticket.
+description: Contains the response from retrieving a ticket.helpviewer_keywords: ["*PKERB_RETRIEVE_TKT_RESPONSE","KERB_RETRIEVE_TKT_RESPONSE","KERB_RETRIEVE_TKT_RESPONSE structure [Security]","PKERB_RETRIEVE_TKT_RESPONSE","PKERB_RETRIEVE_TKT_RESPONSE structure pointer [Security]","_lsa_kerb_retrieve_tkt_response","ntsecapi/KERB_RETRIEVE_TKT_RESPONSE","ntsecapi/PKERB_RETRIEVE_TKT_RESPONSE","security.kerb_retrieve_tkt_response"]
 old-location: security\kerb_retrieve_tkt_response.htm
 tech.root: SecAuthN
 ms.assetid: 682d4076-dc65-4291-8a82-981f207ae432

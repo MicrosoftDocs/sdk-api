@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IBaseFilter.EnumPins
 title: IBaseFilter::EnumPins (strmif.h)
-description: The EnumPins method enumerates the pins on this filter.
+description: The EnumPins method enumerates the pins on this filter.helpviewer_keywords: ["EnumPins","EnumPins method [DirectShow]","EnumPins method [DirectShow]","IBaseFilter interface","IBaseFilter interface [DirectShow]","EnumPins method","IBaseFilter.EnumPins","IBaseFilter::EnumPins","IBaseFilterEnumPins","dshow.ibasefilter_enumpins","strmif/IBaseFilter::EnumPins"]
 old-location: dshow\ibasefilter_enumpins.htm
 tech.root: DirectShow
 ms.assetid: 02675c93-7901-40f6-a9fc-f6f13f56acca

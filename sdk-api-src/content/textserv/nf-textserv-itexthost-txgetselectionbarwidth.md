@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost.TxGetSelectionBarWidth
 title: ITextHost::TxGetSelectionBarWidth (textserv.h)
-description: Returns the size of selection bar in HIMETRIC.
+description: Returns the size of selection bar in HIMETRIC.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxGetSelectionBarWidth method","ITextHost.TxGetSelectionBarWidth","ITextHost::TxGetSelectionBarWidth","TxGetSelectionBarWidth","TxGetSelectionBarWidth method [Windows Controls]","TxGetSelectionBarWidth method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxGetSelectionBarWidth","_win32_ITextHost_TxGetSelectionBarWidth_cpp","controls.ITextHost_TxGetSelectionBarWidth","controls._win32_ITextHost_TxGetSelectionBarWidth","textserv/ITextHost::TxGetSelectionBarWidth"]
 old-location: controls\ITextHost_TxGetSelectionBarWidth.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetselectionbarwidth.htm

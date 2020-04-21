@@ -1,7 +1,7 @@
 ---
 UID: NS:ocidl.tagExtentInfo
 title: DVEXTENTINFO (ocidl.h)
-description: Represents the sizing data used in IViewObjectEx::GetNaturalExtent.
+description: Represents the sizing data used in IViewObjectEx::GetNaturalExtent.helpviewer_keywords: ["DVEXTENTINFO","DVEXTENTINFO structure [COM]","_ole_DVEXTENTINFO","com.dvextentinfo","ocidl/DVEXTENTINFO"]
 old-location: com\dvextentinfo.htm
 tech.root: com
 ms.assetid: bd603de2-39db-43a1-a391-01dcfedc073f

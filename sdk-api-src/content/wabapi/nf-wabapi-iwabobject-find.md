@@ -1,7 +1,7 @@
 ---
 UID: NF:wabapi.IWABObject.Find
 title: IWABObject::Find (wabapi.h)
-description: Launches the Windows Address Book (WAB) Find dialog box.
+description: Launches the Windows Address Book (WAB) Find dialog box.helpviewer_keywords: ["Find","Find method [Windows Address Book]","Find method [Windows Address Book]","IWABObject interface","IWABObject interface [Windows Address Book]","Find method","IWABObject.Find","IWABObject::Find","_wab_IWABObject_Find","wab._wab_IWABObject_Find","wabapi/IWABObject::Find"]
 old-location: wab\_wab_IWABObject_Find.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\find.htm

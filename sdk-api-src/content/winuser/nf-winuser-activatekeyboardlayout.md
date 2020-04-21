@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ActivateKeyboardLayout
 title: ActivateKeyboardLayout function (winuser.h)
-description: Sets the input locale identifier (formerly called the keyboard layout handle) for the calling thread or the current process. The input locale identifier specifies a locale as well as the physical layout of the keyboard.
+description: Sets the input locale identifier (formerly called the keyboard layout handle) for the calling thread or the current process. The input locale identifier specifies a locale as well as the physical layout of the keyboard.helpviewer_keywords: ["ActivateKeyboardLayout","ActivateKeyboardLayout function [Keyboard and Mouse Input]","HKL_NEXT","HKL_PREV","KLF_REORDER","KLF_RESET","KLF_SETFORPROCESS","KLF_SHIFTLOCK","KLF_UNLOADPREVIOUS","_win32_ActivateKeyboardLayout","_win32_activatekeyboardlayout_cpp","inputdev.activatekeyboardlayout","winui._win32_activatekeyboardlayout","winuser/ActivateKeyboardLayout"]
 old-location: inputdev\activatekeyboardlayout.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\activatekeyboardlayout.htm

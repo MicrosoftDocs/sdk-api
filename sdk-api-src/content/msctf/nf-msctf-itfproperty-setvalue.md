@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfProperty.SetValue
 title: ITfProperty::SetValue (msctf.h)
-description: ITfProperty::SetValue method
+description: ITfProperty::SetValue methodhelpviewer_keywords: ["ITfProperty interface [Text Services Framework]","SetValue method","ITfProperty.SetValue","ITfProperty::SetValue","SetValue","SetValue method [Text Services Framework]","SetValue method [Text Services Framework]","ITfProperty interface","_tsf_itfproperty_setvalue_ref","msctf/ITfProperty::SetValue","tsf.itfproperty_setvalue"]
 old-location: tsf\itfproperty_setvalue.htm
 tech.root: TSF
 ms.assetid: 72064f9f-311e-4d7b-9ead-4fe2b7f528a8
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the value of the property for a range.
 
 ## -parameters
 

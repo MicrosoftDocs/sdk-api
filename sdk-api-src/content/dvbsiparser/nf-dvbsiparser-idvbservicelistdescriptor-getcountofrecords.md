@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetCountOfRecords
 title: IDvbServiceListDescriptor::GetCountOfRecords (dvbsiparser.h)
-description: Gets an indexed count of service records for a Digital Video Broadcast (DVB) service list descriptor.
+description: Gets an indexed count of service records for a Digital Video Broadcast (DVB) service list descriptor.helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IDvbServiceListDescriptor interface","IDvbServiceListDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IDvbServiceListDescriptor.GetCountOfRecords","IDvbServiceListDescriptor::GetCountOfRecords","dvbsiparser/IDvbServiceListDescriptor::GetCountOfRecords","mstv.idvbservicelistdescriptor_getcountofrecords"]
 old-location: mstv\idvbservicelistdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 8a3dd6b9-a7a1-49fd-806d-05c726bbe99e

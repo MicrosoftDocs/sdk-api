@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvEnablePDEV
 title: DrvEnablePDEV function (winddi.h)
-description: The DrvEnablePDEV function returns a description of the physical device's characteristics to GDI.
+description: The DrvEnablePDEV function returns a description of the physical device's characteristics to GDI.helpviewer_keywords: ["DrvEnablePDEV","DrvEnablePDEV function [Display Devices]","ddifncs_62a5b81b-a608-4da0-8315-3268fb6f65da.xml","display.drvenablepdev","winddi/DrvEnablePDEV"]
 old-location: display\drvenablepdev.htm
 tech.root: display
 ms.assetid: 9a7ed18a-f21c-486b-9261-59a3fe5aef9e

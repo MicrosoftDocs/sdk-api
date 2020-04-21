@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection
 title: IXpsOMSignatureBlockResourceCollection (xpsobjectmodel.h)
-description: A collection of IXpsOMSignatureBlockResource interface pointers.
+description: A collection of IXpsOMSignatureBlockResource interface pointers.helpviewer_keywords: ["IXpsOMSignatureBlockResourceCollection","IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging]","IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging]","described","xps.ixpsomsignatureblockresourcecollection","xpsobjectmodel/IXpsOMSignatureBlockResourceCollection"]
 old-location: xps\ixpsomsignatureblockresourcecollection.htm
 tech.root: printdocs
 ms.assetid: 681bdb9c-69dd-4bf6-a4b3-c490f7a0363e

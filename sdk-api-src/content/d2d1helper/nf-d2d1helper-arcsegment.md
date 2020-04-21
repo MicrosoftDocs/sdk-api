@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.ArcSegment
 title: ArcSegment function (d2d1helper.h)
-description: Creates a D2D1_ARC_SEGMENT structure.
+description: Creates a D2D1_ARC_SEGMENT structure.helpviewer_keywords: ["ArcSegment","ArcSegment function [Direct2D]","d2d1helper/ArcSegment","direct2d.arcsegment"]
 old-location: direct2d\arcsegment.htm
 tech.root: Direct2D
 ms.assetid: 0a2e7b92-2d0a-4898-ad3e-2142347e8c31

@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.IMSCEPSetup.PostUnInstall
 title: IMSCEPSetup::PostUnInstall (casetup.h)
-description: Is not implemented. It is reserved for future use.
+description: Is not implemented. It is reserved for future use.helpviewer_keywords: ["IMSCEPSetup interface [Security]","PostUnInstall method","IMSCEPSetup.PostUnInstall","IMSCEPSetup::PostUnInstall","PostUnInstall","PostUnInstall method [Security]","PostUnInstall method [Security]","IMSCEPSetup interface","casetup/IMSCEPSetup::PostUnInstall","security.imscepsetup_postuninstall"]
 old-location: security\imscepsetup_postuninstall.htm
 tech.root: SecCrypto
 ms.assetid: 8989ebde-0d33-4f9a-a4dc-82562eab5976

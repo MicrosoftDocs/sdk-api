@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.DrawImage(ID2D1Effect,D2D1_POINT_2F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE)
 title: ID2D1DeviceContext::DrawImage(ID2D1Effect,D2D1_POINT_2F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE) (d2d1_1.h)
-description: Draws an image to the device context.
+description: Draws an image to the device context.helpviewer_keywords: ["DrawImage","DrawImage method [Direct2D]","DrawImage method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","DrawImage method","ID2D1DeviceContext.DrawImage","ID2D1DeviceContext.DrawImage(ID2D1Effect","D2D1_POINT_2F","D2D1_INTERPOLATION_MODE","D2D1_COMPOSITE_MODE)","ID2D1DeviceContext::DrawImage","ID2D1DeviceContext::DrawImage(ID2D1Effect","D2D1_POINT_2F","D2D1_INTERPOLATION_MODE","D2D1_COMPOSITE_MODE)","d2d1_1/ID2D1DeviceContext::DrawImage","direct2d.id2d1devicecontext_drawimage6"]
 old-location: direct2d\id2d1devicecontext_drawimage6.htm
 tech.root: Direct2D
 ms.assetid: E490FC76-5A32-4DCC-8EA3-0B24A2C733D4
@@ -83,15 +83,6 @@ The interpolation mode that will be used to scale the image if necessary.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_composite_mode">D2D1_COMPOSITE_MODE</a></b>
 
 The composite mode that will be applied to the limits of the currently selected clip. The default value is <b>D2D1_COMPOSITE_MODE_SOURCE_OVER</b>
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

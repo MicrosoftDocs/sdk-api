@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.DeleteSynchronizationBarrier
 title: DeleteSynchronizationBarrier function (synchapi.h)
-description: Deletes a synchronization barrier.
+description: Deletes a synchronization barrier.helpviewer_keywords: ["DeleteSynchronizationBarrier","DeleteSynchronizationBarrier function","base.deletesynchronizationbarrier","synchapi/DeleteSynchronizationBarrier"]
 old-location: base\deletesynchronizationbarrier.htm
 tech.root: Sync
 ms.assetid: 04626b6f-f5f7-4042-9786-7cabd68636ac

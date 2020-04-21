@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI1FromI8
 title: VarI1FromI8 function (oleauto.h)
-description: Converts an 8-byte integer value to a char value.
+description: Converts an 8-byte integer value to a char value.helpviewer_keywords: ["VarI1FromI8","VarI1FromI8 function [Automation]","_oa96_VarI1FromI8","automat.vari1fromi8","oleauto/VarI1FromI8"]
 old-location: automat\vari1fromi8.htm
 tech.root: automat
 ms.assetid: be96da1e-e392-4b1f-8951-aa9be644c787

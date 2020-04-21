@@ -1,7 +1,7 @@
 ---
 UID: NC:mapi.MAPILOGON
 title: MAPILOGON (mapi.h)
-description: The MAPILogon function begins a Simple MAPI session, loading the default message store and address book providers.
+description: The MAPILogon function begins a Simple MAPI session, loading the default message store and address book providers.helpviewer_keywords: ["MAPILogon","MAPILogon callback","MAPILogon callback function","MAPI_FORCE_DOWNLOAD","MAPI_LOGON_UI","MAPI_NEW_SESSION","MAPI_PASSWORD_UI","mapi.mapilogon","mapi/MAPILogon"]
 old-location: mapi\mapilogon.htm
 tech.root: WindowsMAPI
 ms.assetid: 5a61f0f2-347e-40fb-b7f9-6b42690cbcd8

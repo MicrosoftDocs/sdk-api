@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictItems.GetItem
 title: ISyncMgrConflictItems::GetItem (syncmgr.h)
-description: Gets a specified conflict data item.
+description: Gets a specified conflict data item.helpviewer_keywords: ["GetItem","GetItem method [Windows Shell]","GetItem method [Windows Shell]","ISyncMgrConflictItems interface","ISyncMgrConflictItems interface [Windows Shell]","GetItem method","ISyncMgrConflictItems.GetItem","ISyncMgrConflictItems::GetItem","_shell_ISyncMgrConflictItems_GetItem","shell.ISyncMgrConflictItems_GetItem","syncmgr/ISyncMgrConflictItems::GetItem"]
 old-location: shell\ISyncMgrConflictItems_GetItem.htm
 tech.root: shell
 ms.assetid: f75a0cc5-1f82-426a-bb66-f34000219300

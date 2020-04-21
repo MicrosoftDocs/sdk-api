@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsService
 title: IADsService (iads.h)
-description: The IADsService interface is a dual interface that inherits from IADs.
+description: The IADsService interface is a dual interface that inherits from IADs.helpviewer_keywords: ["IADsService","IADsService interface [ADSI]","IADsService interface [ADSI]","described","_ds_iadsservice","adsi.iadsservice","iads/IADsService"]
 old-location: adsi\iadsservice.htm
 tech.root: adsi
 ms.assetid: b59a6594-1109-4913-8a83-4888e56e71d0

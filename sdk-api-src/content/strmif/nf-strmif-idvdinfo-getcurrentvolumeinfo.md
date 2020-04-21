@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentVolumeInfo
 title: IDvdInfo::GetCurrentVolumeInfo (strmif.h)
-description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current DVD volume information.
+description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current DVD volume information.helpviewer_keywords: ["GetCurrentVolumeInfo","GetCurrentVolumeInfo method [DirectShow]","GetCurrentVolumeInfo method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentVolumeInfo method","IDvdInfo.GetCurrentVolumeInfo","IDvdInfo::GetCurrentVolumeInfo","IDvdInfoGetCurrentVolumeInfo","dshow.idvdinfo_getcurrentvolumeinfo","strmif/IDvdInfo::GetCurrentVolumeInfo"]
 old-location: dshow\idvdinfo_getcurrentvolumeinfo.htm
 tech.root: DirectShow
 ms.assetid: 2da53db9-5565-4bca-ba0a-90f7e07ccbb9

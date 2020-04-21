@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaCollectionAttributeStringAdded
 title: IWMPEvents::MediaCollectionAttributeStringAdded (wmp.h)
-description: The MediaCollectionAttributeStringAdded event occurs when an attribute is added to the library.
+description: The MediaCollectionAttributeStringAdded event occurs when an attribute is added to the library.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","MediaCollectionAttributeStringAdded method","IWMPEvents.MediaCollectionAttributeStringAdded","IWMPEvents::MediaCollectionAttributeStringAdded","IWMPEventsMediaCollectionAttributeStringAdded","MediaCollectionAttributeStringAdded","MediaCollectionAttributeStringAdded method [Windows Media Player]","MediaCollectionAttributeStringAdded method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__mediacollectionattributestringadded","wmp/IWMPEvents::MediaCollectionAttributeStringAdded"]
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringadded.htm
 tech.root: WMP
 ms.assetid: c18aa7d1-2788-473d-8ade-5e897b83a4d6
@@ -68,15 +68,6 @@ Specifies the attribute name. For information about the attributes supported by 
 ### -param bstrAttribVal [in]
 
 Specifies the attribute value.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.ICDraw
 title: ICDraw function (vfw.h)
-description: The ICDraw function decompresses an image for drawing.
+description: The ICDraw function decompresses an image for drawing.helpviewer_keywords: ["ICDraw","ICDraw function [Windows Multimedia]","_win32_ICDraw","multimedia.icdraw","vfw/ICDraw"]
 old-location: multimedia\icdraw.htm
 tech.root: Multimedia
 ms.assetid: 0bf2c264-6adf-4773-95df-9cd77e73c022

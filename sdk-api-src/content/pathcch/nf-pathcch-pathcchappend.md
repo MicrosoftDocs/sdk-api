@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchAppend
 title: PathCchAppend function (pathcch.h)
-description: Appends one path to the end of another.This function differs from PathCchAppendEx in that you are restricted to a final path of length MAX_PATH.This function differs from PathAppend in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
+description: Appends one path to the end of another.This function differs from PathCchAppendEx in that you are restricted to a final path of length MAX_PATH.This function differs from PathAppend in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.helpviewer_keywords: ["PathCchAppend","PathCchAppend function [Windows Shell]","pathcch/PathCchAppend","shell.PathCchAppend"]
 old-location: shell\PathCchAppend.htm
 tech.root: shell
 ms.assetid: b64884ad-15c7-495e-8037-34daf68f8cf7
@@ -50,21 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Appends one path to the end of another.
 
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappendex">PathCchAppendEx</a> in that you are restricted to a final path of length MAX_PATH.
 
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathappenda">PathAppend</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
+<div class="alert"><b>Note</b>  This function, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappendex">PathCchAppendEx</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathappenda">PathAppend</a> to prevent the possibility of a buffer overrun.</div>
 
-<div class="alert"><b>Note</b>  This function, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappendex">PathCchAppendEx</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathappenda">PathAppend</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param pszPath [in, out]
 
@@ -83,8 +78,6 @@ A pointer to the path to append to the end of the path pointed to by <i>pszPath<
 
 ## -returns
 
-
-
 If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> code, including the following.
 
 <table>
@@ -99,8 +92,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 </dl>
 </td>
 <td width="60%">
-Either <i>pszPath</i> or <i>pszMore</i> is <b>NULL</b>, <i>cchPath</i> is 0, or <i>cchPath</i> is greater than PATHCCH_MAX_CCH.
-
+Either <i>pszPath</i> or <i>pszMore</i> is <b>NULL</b>, <i>cchPath</i> is 0, or <i>cchPath</i> is greater than <b>PATHCCH_MAX_CCH</b>.
 </td>
 </tr>
 <tr>
@@ -110,8 +102,7 @@ Either <i>pszPath</i> or <i>pszMore</i> is <b>NULL</b>, <i>cchPath</i> is 0, or 
 </dl>
 </td>
 <td width="60%">
-The resulting string would exceed PATHCCH_MAX_CCH.
-
+The resulting string would exceed <b>PATHCCH_MAX_CCH</b>.
 </td>
 </tr>
 <tr>
@@ -122,31 +113,17 @@ The resulting string would exceed PATHCCH_MAX_CCH.
 </td>
 <td width="60%">
 The function could not allocate a buffer of the neccessary size.
-
 </td>
 </tr>
 </table>
  
 
-
-
-
 ## -remarks
-
-
 
 This function inserts a backslash between the two strings, if one is not already present.
 
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappendex">PathCchAppendEx</a>
- 
-
- 
 

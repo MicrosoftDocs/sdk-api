@@ -1,7 +1,7 @@
 ---
 UID: NC:rpcdce.RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
 title: RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN (rpcdce.h)
-description: The RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN is a user-defined callback that can be implemented for each defined interface group. This callback is invoked by the RPC runtime when it detects that the idle state of an interface group has changed.
+description: The RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN is a user-defined callback that can be implemented for each defined interface group. This callback is invoked by the RPC runtime when it detects that the idle state of an interface group has changed.helpviewer_keywords: ["RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN","RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN callback","RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN callback function [RPC]","rpc.rpc_interface_group_idle_callback_fn","rpcdce/RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN"]
 old-location: rpc\rpc_interface_group_idle_callback_fn.htm
 tech.root: Rpc
 ms.assetid: D34F2902-80EE-4011-A837-2A8C21E5A136
@@ -70,15 +70,6 @@ A user-defined context provided at interface group creation.
 ### -param IsGroupIdle [in]
 
 <b>TRUE</b> if the interface group has just become idle.  <b>FALSE</b> if the interface group was previously idle but has since received new activity.  
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

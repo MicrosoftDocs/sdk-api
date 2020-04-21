@@ -1,7 +1,7 @@
 ---
 UID: NF:uiribbon.IUIApplication.OnCreateUICommand
 title: IUIApplication::OnCreateUICommand (uiribbon.h)
-description: Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an IUICommandHandler.
+description: Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an IUICommandHandler.helpviewer_keywords: ["IUIApplication interface [Windows Ribbon]","OnCreateUICommand method","IUIApplication.OnCreateUICommand","IUIApplication::OnCreateUICommand","OnCreateUICommand","OnCreateUICommand method [Windows Ribbon]","OnCreateUICommand method [Windows Ribbon]","IUIApplication interface","scenicintent_IUIApplication_OnCreateUICommand","uiribbon/IUIApplication::OnCreateUICommand","windowsribbon.windowsribbon_iuiapplication_oncreateuicommand"]
 old-location: windowsribbon\windowsribbon_iuiapplication_oncreateuicommand.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\oncreateuicommand.htm

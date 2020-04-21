@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents3.StringCollectionChange
 title: IWMPEvents3::StringCollectionChange (wmp.h)
-description: The StringCollectionChange event occurs when a string collection changes.
+description: The StringCollectionChange event occurs when a string collection changes.helpviewer_keywords: ["IWMPEvents3 interface [Windows Media Player]","StringCollectionChange method","IWMPEvents3.StringCollectionChange","IWMPEvents3::StringCollectionChange","IWMPEvents3StringCollectionChange","StringCollectionChange","StringCollectionChange method [Windows Media Player]","StringCollectionChange method [Windows Media Player]","IWMPEvents3 interface","wmp.iwmpevents3_iwmpevents3__stringcollectionchange","wmp/IWMPEvents3::StringCollectionChange"]
 old-location: wmp\iwmpevents3_iwmpevents3__stringcollectionchange.htm
 tech.root: WMP
 ms.assetid: 93880116-e354-49d0-ba02-391fbb4d3f8c
@@ -74,15 +74,6 @@ Pointer to the <b>IDispatch</b> interface that represents the string collection 
 ### -param lCollectionIndex [in]
 
 The index of the string collection item that changed.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

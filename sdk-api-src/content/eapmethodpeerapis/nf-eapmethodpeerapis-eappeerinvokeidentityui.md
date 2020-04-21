@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerInvokeIdentityUI
 title: EapPeerInvokeIdentityUI function (eapmethodpeerapis.h)
-description: Raises a custom interactive user interface dialog to obtain user identity information for the EAP method on the client.
+description: Raises a custom interactive user interface dialog to obtain user identity information for the EAP method on the client.helpviewer_keywords: ["EapPeerInvokeIdentityUI","EapPeerInvokeIdentityUI function [EAPHost]","eaphost.eappeerinvokeidentityui","eapmethodpeerapis/EapPeerInvokeIdentityUI"]
 old-location: eaphost\eappeerinvokeidentityui.htm
 tech.root: eaphost
 ms.assetid: 9b3a525a-2322-496e-83c7-a3180235583a

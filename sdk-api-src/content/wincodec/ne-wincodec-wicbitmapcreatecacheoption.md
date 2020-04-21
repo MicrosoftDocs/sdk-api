@@ -1,7 +1,7 @@
 ---
 UID: NE:wincodec.WICBitmapCreateCacheOption
 title: WICBitmapCreateCacheOption (wincodec.h)
-description: Specifies the desired cache usage.
+description: Specifies the desired cache usage.helpviewer_keywords: ["WICBitmapCacheOnDemand","WICBitmapCacheOnLoad","WICBitmapCreateCacheOption","WICBitmapCreateCacheOption enumeration [Windows Imaging Component]","WICBitmapNoCache","_wic_codec_wicbitmapcreatecacheoption","wic._wic_codec_wicbitmapcreatecacheoption","wincodec/WICBitmapCacheOnDemand","wincodec/WICBitmapCacheOnLoad","wincodec/WICBitmapCreateCacheOption","wincodec/WICBitmapNoCache"]
 old-location: wic\_wic_codec_wicbitmapcreatecacheoption.htm
 tech.root: wic
 ms.assetid: 121d394d-e818-44c5-bf44-3b01df61c780

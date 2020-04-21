@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.SetPolyFillMode
 title: SetPolyFillMode function (wingdi.h)
-description: The SetPolyFillMode function sets the polygon fill mode for functions that fill polygons.
+description: The SetPolyFillMode function sets the polygon fill mode for functions that fill polygons.helpviewer_keywords: ["ALTERNATE","SetPolyFillMode","SetPolyFillMode function [Windows GDI]","WINDING","_win32_SetPolyFillMode","gdi.setpolyfillmode","wingdi/SetPolyFillMode"]
 old-location: gdi\setpolyfillmode.htm
 tech.root: gdi
 ms.assetid: 233926c4-2658-405d-89b6-05ece844623d

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.Initialize
 title: INameSpaceTreeControl::Initialize (shobjidl_core.h)
-description: Initializes an INameSpaceTreeControl object.
+description: Initializes an INameSpaceTreeControl object.helpviewer_keywords: ["INameSpaceTreeControl interface [Windows Shell]","Initialize method","INameSpaceTreeControl.Initialize","INameSpaceTreeControl::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","INameSpaceTreeControl interface","_shell_INameSpaceTreeControl_Initialize","shell.INameSpaceTreeControl_Initialize","shobjidl_core/INameSpaceTreeControl::Initialize"]
 old-location: shell\INameSpaceTreeControl_Initialize.htm
 tech.root: shell
 ms.assetid: dfc602bd-6e4e-492d-8bf4-1499319adee7

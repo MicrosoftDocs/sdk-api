@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfComposition.GetRange
 title: ITfComposition::GetRange (msctf.h)
-description: ITfComposition::GetRange method
+description: ITfComposition::GetRange methodhelpviewer_keywords: ["GetRange","GetRange method [Text Services Framework]","GetRange method [Text Services Framework]","ITfComposition interface","ITfComposition interface [Text Services Framework]","GetRange method","ITfComposition.GetRange","ITfComposition::GetRange","_tsf_itfcomposition_getrange_ref","msctf/ITfComposition::GetRange","tsf.itfcomposition_getrange"]
 old-location: tsf\itfcomposition_getrange.htm
 tech.root: TSF
 ms.assetid: 14a726c3-6531-4d49-9f22-20460be02b81

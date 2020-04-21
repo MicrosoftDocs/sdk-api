@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationExpandCollapsePattern.Expand
 title: IUIAutomationExpandCollapsePattern::Expand (uiautomationclient.h)
-description: Displays all child nodes, controls, or content of the element.
+description: Displays all child nodes, controls, or content of the element.helpviewer_keywords: ["Expand","Expand method [Windows Accessibility]","Expand method [Windows Accessibility]","IUIAutomationExpandCollapsePattern interface","IUIAutomationExpandCollapsePattern interface [Windows Accessibility]","Expand method","IUIAutomationExpandCollapsePattern.Expand","IUIAutomationExpandCollapsePattern::Expand","uiauto.uiauto_IUIAutomationExpandCollapsePattern_Expand","uiauto_IUIAutomationExpandCollapsePattern_Expand","uiautomationclient/IUIAutomationExpandCollapsePattern::Expand","winauto.uiauto_IUIAutomationExpandCollapsePattern_Expand"]
 old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_Expand.htm
 tech.root: WinAuto
 ms.assetid: bc21cffc-63fe-4c5d-9c4d-35e1bab67a7c

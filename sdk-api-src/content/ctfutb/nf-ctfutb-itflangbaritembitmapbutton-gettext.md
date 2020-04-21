@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.GetText
 title: ITfLangBarItemBitmapButton::GetText (ctfutb.h)
-description: ITfLangBarItemBitmapButton::GetText method
+description: ITfLangBarItemBitmapButton::GetText methodhelpviewer_keywords: ["GetText","GetText method [Text Services Framework]","GetText method [Text Services Framework]","ITfLangBarItemBitmapButton interface","ITfLangBarItemBitmapButton interface [Text Services Framework]","GetText method","ITfLangBarItemBitmapButton.GetText","ITfLangBarItemBitmapButton::GetText","_tsf_itflangbaritembitmapbutton_gettext_ref","ctfutb/ITfLangBarItemBitmapButton::GetText","tsf.itflangbaritembitmapbutton_gettext"]
 old-location: tsf\itflangbaritembitmapbutton_gettext.htm
 tech.root: TSF
 ms.assetid: ac37ea79-59bb-44c1-aace-b3c0dccfd377
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the text to be displayed for the bitmap button in the language bar.
 
 ## -parameters
 

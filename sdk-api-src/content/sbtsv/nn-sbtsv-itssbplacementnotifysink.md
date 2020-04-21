@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbPlacementNotifySink
 title: ITsSbPlacementNotifySink (sbtsv.h)
-description: Exposes methods that return information about environments to Remote Desktop Connection Broker (RD Connection Broker).
+description: Exposes methods that return information about environments to Remote Desktop Connection Broker (RD Connection Broker).helpviewer_keywords: ["ITsSbPlacementNotifySink","ITsSbPlacementNotifySink interface [Remote Desktop Services]","ITsSbPlacementNotifySink interface [Remote Desktop Services]","described","sbtsv/ITsSbPlacementNotifySink","termserv.itssbplacementnotifysink"]
 old-location: termserv\itssbplacementnotifysink.htm
 tech.root: TermServ
 ms.assetid: 7abc5454-141a-47bc-b9cd-341b41a093d2

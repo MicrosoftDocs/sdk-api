@@ -1,7 +1,7 @@
 ---
 UID: NF:icontact.IContact.GetPath
 title: IContact::GetPath (icontact.h)
-description: Retrieves the file system path used to load this contact.
+description: Retrieves the file system path used to load this contact.helpviewer_keywords: ["GetPath","GetPath method [Windows Contacts]","GetPath method [Windows Contacts]","IContact interface","IContact interface [Windows Contacts]","GetPath method","IContact.GetPath","IContact::GetPath","_wincontacts_IContact_GetPath","icontact/IContact::GetPath","wincontacts._wincontacts_IContact_GetPath"]
 old-location: wincontacts\_wincontacts_IContact_GetPath.htm
 tech.root: wincontacts
 ms.assetid: 4b037961-f2a4-4e75-a664-d70257bed426

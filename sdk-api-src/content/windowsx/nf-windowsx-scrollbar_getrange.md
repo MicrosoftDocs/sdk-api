@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ScrollBar_GetRange
 title: ScrollBar_GetRange macro (windowsx.h)
-description: Gets the range of a scroll bar.
+description: Gets the range of a scroll bar.helpviewer_keywords: ["ScrollBar_GetRange","ScrollBar_GetRange macro [Windows Controls]","_win32_ScrollBar_GetRange","_win32_ScrollBar_GetRange_cpp","controls.ScrollBar_GetRange","controls._win32_ScrollBar_GetRange","windowsx/ScrollBar_GetRange"]
 old-location: controls\ScrollBar_GetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_getrange.htm

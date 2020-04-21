@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderGetContentMetadata
 title: WdsTransportProviderGetContentMetadata function (wdstpdi.h)
-description: Retrieves metadata for an open content stream.
+description: Retrieves metadata for an open content stream.helpviewer_keywords: ["WdsTransportProviderGetContentMetadata","WdsTransportProviderGetContentMetadata callback","WdsTransportProviderGetContentMetadata callback function [Windows Deployment Services]","wds.wdstransportprovidergetcontentmetadata","wdstpdi/WdsTransportProviderGetContentMetadata"]
 old-location: wds\wdstransportprovidergetcontentmetadata.htm
 tech.root: wds
 ms.assetid: ed243373-b5ff-418d-811c-544589ea11ac

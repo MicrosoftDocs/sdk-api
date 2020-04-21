@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetMarker
 title: ID3D12GraphicsCommandList::SetMarker (d3d12.h)
-description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command list.
+description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command list.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetMarker method","ID3D12GraphicsCommandList.SetMarker","ID3D12GraphicsCommandList::SetMarker","SetMarker","SetMarker method","SetMarker method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetMarker","direct3d12.id3d12graphicscommandlist_setmarker"]
 old-location: direct3d12\id3d12graphicscommandlist_setmarker.htm
 tech.root: direct3d12
 ms.assetid: 521844B8-0EF8-4F09-ABCE-E8C96129F548
@@ -78,16 +78,6 @@ Internal.
 Type: <b>UINT</b>
 
 Internal.
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
 
 
 ## -remarks

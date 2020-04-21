@@ -1,7 +1,7 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.VolumeStepDown
 title: IAudioEndpointVolume::VolumeStepDown (endpointvolume.h)
-description: The VolumeStepDown method decrements, by one step, the volume level of the audio stream that enters or leaves the audio endpoint device.
+description: The VolumeStepDown method decrements, by one step, the volume level of the audio stream that enters or leaves the audio endpoint device.helpviewer_keywords: ["IAudioEndpointVolume interface [Core Audio]","VolumeStepDown method","IAudioEndpointVolume.VolumeStepDown","IAudioEndpointVolume::VolumeStepDown","IAudioEndpointVolumeVolumeStepDown","VolumeStepDown","VolumeStepDown method [Core Audio]","VolumeStepDown method [Core Audio]","IAudioEndpointVolume interface","coreaudio.iaudioendpointvolume_volumestepdown","endpointvolume/IAudioEndpointVolume::VolumeStepDown"]
 old-location: coreaudio\iaudioendpointvolume_volumestepdown.htm
 tech.root: CoreAudio
 ms.assetid: c334d780-784b-4fa3-bf4f-ea5d65459baf

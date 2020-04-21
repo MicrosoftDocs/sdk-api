@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPJOINLEAF
 title: LPWSPJOINLEAF (ws2spi.h)
-description: The LPWSPJoinLeaf function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.
+description: The LPWSPJoinLeaf function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.helpviewer_keywords: ["LPWSPJOINLEAF","WSPJoinLeaf","WSPJoinLeaf function [Winsock]","_win32_wspjoinleaf_2","winsock.wspjoinleaf_2","ws2spi/WSPJoinLeaf"]
 old-location: winsock\wspjoinleaf_2.htm
 tech.root: WinSock
 ms.assetid: 3b0451e2-0e4c-4da7-b16c-37c242632bdd

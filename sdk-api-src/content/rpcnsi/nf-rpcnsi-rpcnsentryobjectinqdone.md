@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryObjectInqDone
 title: RpcNsEntryObjectInqDone function (rpcnsi.h)
-description: The RpcNsEntryObjectInqDone function deletes the inquiry context for a name-service database entry's objects.
+description: The RpcNsEntryObjectInqDone function deletes the inquiry context for a name-service database entry's objects.helpviewer_keywords: ["RpcNsEntryObjectInqDone","RpcNsEntryObjectInqDone function [RPC]","_rpc_rpcnsentryobjectinqdone","rpc.rpcnsentryobjectinqdone","rpcnsi/RpcNsEntryObjectInqDone"]
 old-location: rpc\rpcnsentryobjectinqdone.htm
 tech.root: Rpc
 ms.assetid: de1ed214-1018-498a-81a9-7932d4eead0b

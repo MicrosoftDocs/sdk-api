@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceCreate
 title: MprConfigInterfaceCreate function (mprapi.h)
-description: The MprConfigInterfaceCreate function creates a router interface in the specified router configuration.
+description: The MprConfigInterfaceCreate function creates a router interface in the specified router configuration.helpviewer_keywords: ["MprConfigInterfaceCreate","MprConfigInterfaceCreate function [RAS]","_mpr_mprconfiginterfacecreate","mprapi/MprConfigInterfaceCreate","rras.mprconfiginterfacecreate"]
 old-location: rras\mprconfiginterfacecreate.htm
 tech.root: RRAS
 ms.assetid: e368aa3c-bb80-49ed-a1da-39777dada960

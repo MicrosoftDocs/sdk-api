@@ -1,7 +1,7 @@
 ---
 UID: NE:mfidl._MF_TRANSCODE_TOPOLOGYMODE_FLAGS
 title: MF_TRANSCODE_TOPOLOGYMODE_FLAGS (mfidl.h)
-description: Defines flags for the MF_TRANSCODE_TOPOLOGYMODE attribute.
+description: Defines flags for the MF_TRANSCODE_TOPOLOGYMODE attribute.helpviewer_keywords: ["MF_TRANSCODE_TOPOLOGYMODE_FLAGS","MF_TRANSCODE_TOPOLOGYMODE_FLAGS enumeration [Media Foundation]","MF_TRANSCODE_TOPOLOGYMODE_HARDWARE_ALLOWED","MF_TRANSCODE_TOPOLOGYMODE_SOFTWARE_ONLY","mf.mf_transcode_topologymode_flags","mfidl/MF_TRANSCODE_TOPOLOGYMODE_FLAGS","mfidl/MF_TRANSCODE_TOPOLOGYMODE_HARDWARE_ALLOWED","mfidl/MF_TRANSCODE_TOPOLOGYMODE_SOFTWARE_ONLY"]
 old-location: mf\mf_transcode_topologymode_flags.htm
 tech.root: medfound
 ms.assetid: 9a98a052-9fb0-4c63-bc9c-8e112e37973f

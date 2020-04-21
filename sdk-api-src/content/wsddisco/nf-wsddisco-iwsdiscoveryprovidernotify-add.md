@@ -1,7 +1,7 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.Add
 title: IWSDiscoveryProviderNotify::Add (wsddisco.h)
-description: Provides information on either a newly announced discovery host (from a Hello message), or a match to a user initiated query.
+description: Provides information on either a newly announced discovery host (from a Hello message), or a match to a user initiated query.helpviewer_keywords: ["Add","Add method","Add method","IWSDiscoveryProviderNotify interface","IWSDiscoveryProviderNotify interface","Add method","IWSDiscoveryProviderNotify.Add","IWSDiscoveryProviderNotify::Add","ncd.iwsdiscoveryprovidernotify_add","wsddisco/IWSDiscoveryProviderNotify::Add"]
 old-location: ncd\iwsdiscoveryprovidernotify_add.htm
 tech.root: WsdApi
 ms.assetid: 4e36157f-444d-4e59-bc30-c6def9c51cea

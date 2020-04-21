@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12sdklayers.D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR
 title: D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR (d3d12sdklayers.h)
-description: Describes the amount of artificial slowdown inserted by the debug device to simulate lower-performance graphics adapters.
+description: Describes the amount of artificial slowdown inserted by the debug device to simulate lower-performance graphics adapters.helpviewer_keywords: ["D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR","D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR structure","d3d12sdklayers/D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR","direct3d12.d3d12_debug_device_gpu_slowdown_performance_factor"]
 old-location: direct3d12\d3d12_debug_device_gpu_slowdown_performance_factor.htm
 tech.root: direct3d12
 ms.assetid: C137DFAA-7AB9-49A6-882D-61ADE6E9E046

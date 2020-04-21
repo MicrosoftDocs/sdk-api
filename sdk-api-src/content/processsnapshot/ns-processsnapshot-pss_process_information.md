@@ -1,7 +1,7 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_0
 title: PSS_PROCESS_INFORMATION (processsnapshot.h)
-description: Holds process information returned by PssQuerySnapshot.
+description: Holds process information returned by PssQuerySnapshot.helpviewer_keywords: ["PSS_PROCESS_INFORMATION","PSS_PROCESS_INFORMATION structure","proc_snap.pss_process_information","processsnapshot/PSS_PROCESS_INFORMATION"]
 old-location: proc_snap\pss_process_information.htm
 tech.root: proc_snap
 ms.assetid: D629FA42-B501-4A0E-9B53-6D70E580B687

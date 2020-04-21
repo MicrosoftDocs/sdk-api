@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.ITransferAdviseSink
 title: ITransferAdviseSink (shobjidl_core.h)
-description: Exposes methods supporting status collection and failure information.
+description: Exposes methods supporting status collection and failure information.helpviewer_keywords: ["ITransferAdviseSink","ITransferAdviseSink interface [Windows Shell]","ITransferAdviseSink interface [Windows Shell]","described","_shell_ITransferAdviseSink","shell.ITransferAdviseSink","shobjidl_core/ITransferAdviseSink"]
 old-location: shell\ITransferAdviseSink.htm
 tech.root: shell
 ms.assetid: 70866a03-2b22-4518-a9e6-2f06edaa4b5d

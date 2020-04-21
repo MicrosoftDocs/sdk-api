@@ -1,7 +1,7 @@
 ---
 UID: NN:natupnp.IStaticPortMappingCollection
 title: IStaticPortMappingCollection (natupnp.h)
-description: The IStaticPortMappingCollection interface provides methods to manage the collection of static port mappings.
+description: The IStaticPortMappingCollection interface provides methods to manage the collection of static port mappings.helpviewer_keywords: ["IStaticPortMappingCollection","IStaticPortMappingCollection interface [ICS/ICF]","IStaticPortMappingCollection interface [ICS/ICF]","described","_ics_istaticportmappingcollection","ics.istaticportmappingcollection","natupnp/IStaticPortMappingCollection"]
 old-location: ics\istaticportmappingcollection.htm
 tech.root: ics
 ms.assetid: 4858c474-b57e-4baa-8e82-10bc41e026cd

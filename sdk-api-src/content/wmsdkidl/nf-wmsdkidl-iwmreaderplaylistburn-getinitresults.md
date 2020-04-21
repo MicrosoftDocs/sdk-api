@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.GetInitResults
 title: IWMReaderPlaylistBurn::GetInitResults (wmsdkidl.h)
-description: The GetInitResults method retrieves the results of the playlist file check.
+description: The GetInitResults method retrieves the results of the playlist file check.helpviewer_keywords: ["GetInitResults","GetInitResults method [windows Media Format]","GetInitResults method [windows Media Format]","IWMReaderPlaylistBurn interface","IWMReaderPlaylistBurn interface [windows Media Format]","GetInitResults method","IWMReaderPlaylistBurn.GetInitResults","IWMReaderPlaylistBurn::GetInitResults","IWMReaderPlaylistBurnGetInitResults","wmformat.iwmreaderplaylistburn_getinitresults","wmsdkidl/IWMReaderPlaylistBurn::GetInitResults"]
 old-location: wmformat\iwmreaderplaylistburn_getinitresults.htm
 tech.root: wmformat
 ms.assetid: 9f9db03b-0bcc-4442-b97e-f6a2f8d179fa

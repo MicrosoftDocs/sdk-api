@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.IDMLBindingTable.Reset
 title: IDMLBindingTable::Reset
-description: Resets the binding table to wrap a new range of descriptors, potentially for a different operator or initializer. This allows dynamic reuse of the binding table.
+description: Resets the binding table to wrap a new range of descriptors, potentially for a different operator or initializer. This allows dynamic reuse of the binding table.helpviewer_keywords: ["IDMLBindingTable interface","Reset method","IDMLBindingTable.Reset","IDMLBindingTable::Reset","Reset","Reset method","Reset method","IDMLBindingTable interface","direct3d12.idmlbindingtable_reset","directml/IDMLBindingTable::Reset"]
 old-location: direct3d12\idmlbindingtable_reset.htm
 tech.root: direct3d12
 ms.assetid: 85A816F8-CD3A-43B0-B63C-C58BC47438B1

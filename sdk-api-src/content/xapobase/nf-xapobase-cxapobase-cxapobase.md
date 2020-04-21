@@ -1,7 +1,7 @@
 ---
 UID: NF:xapobase.CXAPOBase.CXAPOBase
 title: CXAPOBase::CXAPOBase (xapobase.h)
-description: Creates an instance of the CXAPOBase class.
+description: Creates an instance of the CXAPOBase class.helpviewer_keywords: ["CXAPOBase","CXAPOBase interface [XAudio2 Audio Mixing APIs]","CXAPOBase method","CXAPOBase method [XAudio2 Audio Mixing APIs]","CXAPOBase method [XAudio2 Audio Mixing APIs]","CXAPOBase interface","CXAPOBase.CXAPOBase","CXAPOBase::CXAPOBase","xapobase/CXAPOBase::CXAPOBase","xaudio2.cxapobase_cxapobase"]
 old-location: xaudio2\cxapobase_cxapobase.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.CXAPOBase(const XAPO_REGISTRATION_PROPERTIES)
@@ -61,15 +61,6 @@ Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/a
 ### -param pRegistrationProperties
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties for the XAPO. 
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

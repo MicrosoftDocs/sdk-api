@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnPinManager.GetPinList
 title: IMbnPinManager::GetPinList (mbnapi.h)
-description: Gets a list of different PIN types supported by the device.
+description: Gets a list of different PIN types supported by the device.helpviewer_keywords: ["GetPinList","GetPinList method [Microsoft Broadband Networks]","GetPinList method [Microsoft Broadband Networks]","IMbnPinManager interface","IMbnPinManager interface [Microsoft Broadband Networks]","GetPinList method","IMbnPinManager.GetPinList","IMbnPinManager::GetPinList","mbn.imbnpinmanager_getpinlist","mbnapi/IMbnPinManager::GetPinList"]
 old-location: mbn\imbnpinmanager_getpinlist.htm
 tech.root: mbn
 ms.assetid: 732906dd-7d1e-49a1-a3cc-60075eed9c7c

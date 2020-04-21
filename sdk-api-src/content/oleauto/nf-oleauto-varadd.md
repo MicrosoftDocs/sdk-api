@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarAdd
 title: VarAdd function (oleauto.h)
-description: Returns the sum of two variants.
+description: Returns the sum of two variants.helpviewer_keywords: ["VarAdd","VarAdd function [Automation]","_oa96_VarAdd","automat.varadd","oleauto/VarAdd"]
 old-location: automat\varadd.htm
 tech.root: automat
 ms.assetid: bdec33b1-cbdd-4ec3-83b2-4e5655ecf5bb

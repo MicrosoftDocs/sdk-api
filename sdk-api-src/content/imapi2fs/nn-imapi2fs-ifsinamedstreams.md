@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2fs.IFsiNamedStreams
 title: IFsiNamedStreams (imapi2fs.h)
-description: Use this interface to enumerate the named streams associated with a file in a file system image.
+description: Use this interface to enumerate the named streams associated with a file in a file system image.helpviewer_keywords: ["IFsiNamedStreams","IFsiNamedStreams interface [IMAPI]","IFsiNamedStreams interface [IMAPI]","described","imapi.ifsinamedstreams","imapi2fs/IFsiNamedStreams"]
 old-location: imapi\ifsinamedstreams.htm
 tech.root: imapi
 ms.assetid: 383a83e4-5dc2-459a-a58f-b6ce7a656348

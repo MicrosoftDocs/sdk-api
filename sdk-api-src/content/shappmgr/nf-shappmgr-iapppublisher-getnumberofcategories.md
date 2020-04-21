@@ -1,7 +1,7 @@
 ---
 UID: NF:shappmgr.IAppPublisher.GetNumberOfCategories
 title: IAppPublisher::GetNumberOfCategories (shappmgr.h)
-description: Obsolete. Clients of the Add/Remove Programs Control Panel Application may return E_NOTIMPL.
+description: Obsolete. Clients of the Add/Remove Programs Control Panel Application may return E_NOTIMPL.helpviewer_keywords: ["GetNumberOfCategories","GetNumberOfCategories method [Windows Shell]","GetNumberOfCategories method [Windows Shell]","IAppPublisher interface","IAppPublisher interface [Windows Shell]","GetNumberOfCategories method","IAppPublisher.GetNumberOfCategories","IAppPublisher::GetNumberOfCategories","inet_IAppPublisher_GetNumberOfCategories","shappmgr/IAppPublisher::GetNumberOfCategories","shell.IAppPublisher_GetNumberOfCategories"]
 old-location: shell\IAppPublisher_GetNumberOfCategories.htm
 tech.root: shell
 ms.assetid: 5f03b2e6-7202-477f-84ef-2dfaaa484880

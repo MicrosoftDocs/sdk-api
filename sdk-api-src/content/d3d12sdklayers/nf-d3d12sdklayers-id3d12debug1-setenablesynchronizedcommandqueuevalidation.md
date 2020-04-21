@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation
 title: ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation (d3d12sdklayers.h)
-description: Enables or disables dependent command queue synchronization when using a D3D12 device with the debug layer enabled.
+description: Enables or disables dependent command queue synchronization when using a D3D12 device with the debug layer enabled.helpviewer_keywords: ["ID3D12Debug1 interface","SetEnableSynchronizedCommandQueueValidation method","ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation","ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation","SetEnableSynchronizedCommandQueueValidation","SetEnableSynchronizedCommandQueueValidation method","SetEnableSynchronizedCommandQueueValidation method","ID3D12Debug1 interface","d3d12sdklayers/ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation","direct3d12.id3d12debugdevice1_setenablesynchronizedcommandqueuevalidation"]
 old-location: direct3d12\id3d12debugdevice1_setenablesynchronizedcommandqueuevalidation.htm
 tech.root: direct3d12
 ms.assetid: B2038241-201B-402B-9B5A-BA2D2239A62A
@@ -62,15 +62,6 @@ Enables or disables dependent command queue synchronization when using a D3D12 d
 Type: <b>BOOL</b>
 
 TRUE to enable Dependent Command Queue Synchronization, otherwise FALSE.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -remarks

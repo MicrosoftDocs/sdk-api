@@ -1,7 +1,7 @@
 ---
 UID: NF:rrascfg.IEAPProviderConfig.Uninitialize
 title: IEAPProviderConfig::Uninitialize (rrascfg.h)
-description: The system calls the Uninitialize method to shut down the specified EAP configuration session.
+description: The system calls the Uninitialize method to shut down the specified EAP configuration session.helpviewer_keywords: ["IEAPProviderConfig interface [EAP]","Uninitialize method","IEAPProviderConfig.Uninitialize","IEAPProviderConfig::Uninitialize","Uninitialize","Uninitialize method [EAP]","Uninitialize method [EAP]","IEAPProviderConfig interface","_eap_ieapproviderconfig_uninitialize","eap.ieapproviderconfig_uninitialize","rrascfg/IEAPProviderConfig::Uninitialize"]
 old-location: eap\ieapproviderconfig_uninitialize.htm
 tech.root: EAP
 ms.assetid: f96ffa3f-cd3c-4979-87b3-1a2afb7a3621

@@ -1,7 +1,7 @@
 ---
 UID: NF:roerrorapi.RoFailFastWithErrorContext
 title: RoFailFastWithErrorContext function
-description: Raises a non-continuable exception in the current process.
+description: Raises a non-continuable exception in the current process.helpviewer_keywords: ["RoFailFastWithErrorContext","RoFailFastWithErrorContext function [Windows Runtime]","roerrorapi/RoFailFastWithErrorContext","winrt.rofailfastwitherrorcontext"]
 old-location: winrt\rofailfastwitherrorcontext.htm
 tech.root: WinRT
 ms.assetid: 1BD47795-1B5E-42A4-B88F-7DE5160668E7
@@ -61,15 +61,6 @@ Raises a non-continuable exception in the current process.
 ### -param hrError [in]
 
 The <b>HRESULT</b> associated with the current error. The exception is raised for any value of <i>hrError</i>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

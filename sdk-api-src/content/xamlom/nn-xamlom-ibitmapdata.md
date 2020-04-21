@@ -1,7 +1,7 @@
 ---
 UID: NN:xamlom.IBitmapData
 title: IBitmapData (xamlom.h)
-description: Represents an image associated with a node in the visual tree.
+description: Represents an image associated with a node in the visual tree.helpviewer_keywords: ["IBitmapData","IBitmapData interface","IBitmapData interface","described","xaml_diagnostics.ibitmapdata","xamlom/IBitmapData"]
 old-location: xaml_diagnostics\ibitmapdata.htm
 tech.root: xaml_diagnostics
 ms.assetid: 5B833E2A-D150-4ECA-88C8-CEEDBF2E23C6

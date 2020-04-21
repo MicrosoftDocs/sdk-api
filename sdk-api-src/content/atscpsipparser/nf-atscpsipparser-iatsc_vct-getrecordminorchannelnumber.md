@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordMinorChannelNumber
 title: IATSC_VCT::GetRecordMinorChannelNumber (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordMinorChannelNumber","GetRecordMinorChannelNumber method [Microsoft TV Technologies]","GetRecordMinorChannelNumber method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetRecordMinorChannelNumber method","IATSC_VCT.GetRecordMinorChannelNumber","IATSC_VCT::GetRecordMinorChannelNumber","IATSC_VCTGetRecordMinorChannelNumber","atscpsipparser/IATSC_VCT::GetRecordMinorChannelNumber","mstv.iatsc_vct_getrecordminorchannelnumber"]
 old-location: mstv\iatsc_vct_getrecordminorchannelnumber.htm
 tech.root: mstv
 ms.assetid: e0c6eecb-7543-4476-882c-29b1ee103359

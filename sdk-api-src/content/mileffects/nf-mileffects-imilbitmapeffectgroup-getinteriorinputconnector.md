@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroup.GetInteriorInputConnector
 title: IMILBitmapEffectGroup::GetInteriorInputConnector (mileffects.h)
-description: Retrieves the input connector for an effect at the given index.
+description: Retrieves the input connector for an effect at the given index.helpviewer_keywords: ["GetInteriorInputConnector","GetInteriorInputConnector method [WPF Bitmap Effects]","GetInteriorInputConnector method [WPF Bitmap Effects]","IMILBitmapEffectGroup interface","IMILBitmapEffectGroup interface [WPF Bitmap Effects]","GetInteriorInputConnector method","IMILBitmapEffectGroup.GetInteriorInputConnector","IMILBitmapEffectGroup::GetInteriorInputConnector","_wibe_imilbitmapeffectgroup_getinteriorinputconnector","mileffects/IMILBitmapEffectGroup::GetInteriorInputConnector","wibe._wibe_imilbitmapeffectgroup_getinteriorinputconnector"]
 old-location: wibe\_wibe_imilbitmapeffectgroup_getinteriorinputconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroup\getinteriorinputconnector.htm

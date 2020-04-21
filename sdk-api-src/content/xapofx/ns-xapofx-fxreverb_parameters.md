@@ -1,7 +1,7 @@
 ---
 UID: NS:xapofx.FXREVERB_PARAMETERS
 title: FXREVERB_PARAMETERS (xapofx.h)
-description: Parameters for use with the FXReverb XAPO.
+description: Parameters for use with the FXReverb XAPO.helpviewer_keywords: ["FXREVERB_PARAMETERS","FXREVERB_PARAMETERS structure [XAudio2 Audio Mixing APIs]","xapofx/FXREVERB_PARAMETERS","xaudio2.fxreverb_parameters"]
 old-location: xaudio2\fxreverb_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXREVERB_PARAMETERS

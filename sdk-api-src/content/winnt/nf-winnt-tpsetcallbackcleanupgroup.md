@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.TpSetCallbackCleanupGroup
 title: TpSetCallbackCleanupGroup function (winnt.h)
-description: Associates the specified cleanup group with the specified callback environment.
+description: Associates the specified cleanup group with the specified callback environment.helpviewer_keywords: ["TpSetCallbackCleanupGroup","TpSetCallbackCleanupGroup function","base.tpsetcallbackcleanupgroup","winnt/TpSetCallbackCleanupGroup"]
 old-location: base\tpsetcallbackcleanupgroup.htm
 tech.root: ProcThread
 ms.assetid: B14084F5-2686-4522-8024-71A07541CFE2
@@ -70,15 +70,6 @@ A <b>TP_CLEANUP_GROUP</b> structure that defines the cleanup group. The <a href=
 ### -param CleanupGroupCancelCallback [in, optional]
 
 The cleanup callback to be called if the cleanup group is canceled before the associated object is released. The function is called when you call <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroupmembers">CloseThreadpoolCleanupGroupMembers</a>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

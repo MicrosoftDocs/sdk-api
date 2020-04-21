@@ -1,7 +1,7 @@
 ---
 UID: NF:projectedfslib.PrjWriteFileData
 title: PrjWriteFileData function (projectedfslib.h)
-description: TBD.
+description: TBD.helpviewer_keywords: ["PrjWriteFileData","PrjWriteFileData function","ProjFS.prjwritefiledata","projectedfslib/PrjWriteFileData"]
 old-location: projfs\prjwritefiledata.htm
 tech.root: ProjFS
 ms.assetid: A09D8E74-D574-41C6-A586-86E03839DA89

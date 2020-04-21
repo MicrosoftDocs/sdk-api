@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.GetWindowTheme
 title: GetWindowTheme function (uxtheme.h)
-description: Retrieves a theme handle to a window that has visual styles applied.
+description: Retrieves a theme handle to a window that has visual styles applied.helpviewer_keywords: ["GetWindowTheme","GetWindowTheme function [Windows Controls]","controls.GetWindowTheme","controls.inet_GetWindowTheme","inet_GetWindowTheme","inet_GetWindowTheme_cpp","uxtheme/GetWindowTheme"]
 old-location: controls\GetWindowTheme.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getwindowtheme.htm

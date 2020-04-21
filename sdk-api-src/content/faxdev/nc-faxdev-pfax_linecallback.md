@@ -1,7 +1,7 @@
 ---
 UID: NC:faxdev.PFAX_LINECALLBACK
 title: PFAX_LINECALLBACK (faxdev.h)
-description: The FaxLineCallback function is an application-defined or library-defined callback function that the fax service calls to deliver Telephony Application Programming Interface (TAPI) events to the fax service provider (FSP).
+description: The FaxLineCallback function is an application-defined or library-defined callback function that the fax service calls to deliver Telephony Application Programming Interface (TAPI) events to the fax service provider (FSP).helpviewer_keywords: ["FaxLineCallback","FaxLineCallback callback function [Fax Service]","PFAX_LINECALLBACK","PFAX_LINECALLBACK callback","_mfax_faxlinecallback","fax._mfax_faxlinecallback","faxdev/FaxLineCallback"]
 old-location: fax\_mfax_faxlinecallback.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8xpn.htm
@@ -106,15 +106,6 @@ Specifies a parameter for the message.
 Type: <b>DWORD_PTR</b>
 
 Specifies a parameter for the message.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

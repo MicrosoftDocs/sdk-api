@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12DeviceRemovedExtendedDataSettings
 title: ID3D12DeviceRemovedExtendedDataSettings interface
-description: This interface controls Device Removed Extended Data (DRED) settings.
+description: This interface controls Device Removed Extended Data (DRED) settings.helpviewer_keywords: ["ID3D12DeviceRemovedExtendedDataSettings","ID3D12DeviceRemovedExtendedDataSettings interface","ID3D12DeviceRemovedExtendedDataSettings interface","described","d3d12/ID3D12DeviceRemovedExtendedDataSettings","direct3d12.id3d12deviceremovedextendeddatasettings"]
 tech.root: direct3d12
 ms.date: 02/08/2019
 ms.keywords: ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtendedDataSettings interface, ID3D12DeviceRemovedExtendedDataSettings interface,described, d3d12/ID3D12DeviceRemovedExtendedDataSettings, direct3d12.id3d12deviceremovedextendeddatasettings

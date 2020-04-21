@@ -1,7 +1,7 @@
 ---
 UID: NC:winnt.RTL_UMS_SCHEDULER_ENTRY_POINT
 title: RTL_UMS_SCHEDULER_ENTRY_POINT (winnt.h)
-description: The application-defined user-mode scheduling (UMS) scheduler entry point function associated with a UMS completion list.
+description: The application-defined user-mode scheduling (UMS) scheduler entry point function associated with a UMS completion list.helpviewer_keywords: ["0","1","RTL_UMS_SCHEDULER_ENTRY_POINT","RTL_UMS_SCHEDULER_ENTRY_POINT callback","UmsSchedulerProc","UmsSchedulerProc callback function","UmsSchedulerStartup","UmsSchedulerThreadBlocked","UmsSchedulerThreadYield","base.umsschedulerproc","winnt/UmsSchedulerProc"]
 old-location: base\umsschedulerproc.htm
 tech.root: ProcThread
 ms.assetid: 10de1c48-255d-45c3-acf0-25f8a564b585
@@ -149,15 +149,6 @@ If the <i>Reason</i> parameter is <b>UmsSchedulerStartup</b>, this parameter is 
 If the <i>Reason</i> parameter is <b>UmsSchedulerThreadYield</b> this parameter is the SchedulerParam parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-umsthreadyield">UmsThreadYield</a> function that triggered the entry point call. 
 
 If the <i>Reason</i> parameter is <b>UmsSchedulerThreadBlocked</b>, this parameter is NULL.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 
 
 ## -remarks

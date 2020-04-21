@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.DebugServerRelease
 title: IRpcStubBuffer::DebugServerRelease (objidl.h)
-description: Releases an interface pointer that was previously returned by DebugServerQueryInterface.
+description: Releases an interface pointer that was previously returned by DebugServerQueryInterface.helpviewer_keywords: ["DebugServerRelease","DebugServerRelease method [COM]","DebugServerRelease method [COM]","IRpcStubBuffer interface","IRpcStubBuffer interface [COM]","DebugServerRelease method","IRpcStubBuffer.DebugServerRelease","IRpcStubBuffer::DebugServerRelease","_com_irpcstubbuffer_debugserverrelease","com.irpcstubbuffer_debugserverrelease","objidlbase/IRpcStubBuffer::DebugServerRelease"]
 old-location: com\irpcstubbuffer_debugserverrelease.htm
 tech.root: com
 ms.assetid: 511f6e55-fb1d-4500-80fd-83e3fe2779d1
@@ -60,15 +60,6 @@ Releases an interface pointer that was previously returned by <a href="https://d
 ### -param pv [in]
 
 A pointer to the interface that the caller no longer needs.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
 
 
 ## -see-also

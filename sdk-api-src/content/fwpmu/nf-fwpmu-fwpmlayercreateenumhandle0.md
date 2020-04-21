@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmLayerCreateEnumHandle0
 title: FwpmLayerCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of layer objects.
+description: Creates a handle used to enumerate a set of layer objects.helpviewer_keywords: ["FwpmLayerCreateEnumHandle0","FwpmLayerCreateEnumHandle0 function [Filtering]","fwp.fwpmlayercreateenumhandle0_func","fwpmu/FwpmLayerCreateEnumHandle0"]
 old-location: fwp\fwpmlayercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 94738168-9f02-420a-96cd-b7c3f6418c6f

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Counter.GetDesc
 title: ID3D10Counter::GetDesc (d3d10.h)
-description: Get a counter description.
+description: Get a counter description.helpviewer_keywords: ["4104c0fc-f402-406e-fc83-bc193e61234b","GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10Counter interface","ID3D10Counter interface [Direct3D 10]","GetDesc method","ID3D10Counter.GetDesc","ID3D10Counter::GetDesc","d3d10/ID3D10Counter::GetDesc","direct3d10.id3d10counter_getdesc"]
 old-location: direct3d10\id3d10counter_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10counter_getdesc.htm
@@ -63,15 +63,6 @@ Get a counter description.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_counter_desc">D3D10_COUNTER_DESC</a>*</b>
 
 Pointer to a counter description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_counter_desc">D3D10_COUNTER_DESC</a>).
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -see-also

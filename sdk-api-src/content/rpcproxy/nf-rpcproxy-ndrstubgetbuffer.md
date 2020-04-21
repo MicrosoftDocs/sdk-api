@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.NdrStubGetBuffer
 title: NdrStubGetBuffer function (rpcproxy.h)
-description: The NdrStubGetBuffer function retrieves a buffer from the RPC channel.
+description: The NdrStubGetBuffer function retrieves a buffer from the RPC channel.helpviewer_keywords: ["NdrStubGetBuffer","NdrStubGetBuffer function [RPC]","rpc.ndrstubgetbuffer","rpcproxy/NdrStubGetBuffer"]
 old-location: rpc\ndrstubgetbuffer.htm
 tech.root: Rpc
 ms.assetid: ab877b5a-5c44-46eb-bd03-26410eccc765
@@ -70,15 +70,6 @@ Pointer to RPC channel.
 ### -param pStubMsg [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The  <b>pRpcMsg</b> member points to a structure whose <b>Buffer</b> member points to the newly allocated buffer. Structure is for internal use only; do not modify.
-
-
-## -returns
-
-
-
-This function has no return value. Throws an exception upon error.
-
-
 
 
 ## -see-also

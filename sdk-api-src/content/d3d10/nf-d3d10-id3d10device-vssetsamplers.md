@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSSetSamplers
 title: ID3D10Device::VSSetSamplers (d3d10.h)
-description: Set an array of sampler states to the vertex shader pipeline stage.
+description: Set an array of sampler states to the vertex shader pipeline stage.helpviewer_keywords: ["ID3D10Device interface [Direct3D 10]","VSSetSamplers method","ID3D10Device.VSSetSamplers","ID3D10Device::VSSetSamplers","VSSetSamplers","VSSetSamplers method [Direct3D 10]","VSSetSamplers method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::VSSetSamplers","direct3d10.id3d10device_vssetsamplers","f52bec26-138b-dd22-78d6-1674e519b377"]
 old-location: direct3d10\id3d10device_vssetsamplers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vssetsamplers.htm
@@ -77,15 +77,6 @@ Number of samplers in the array. Each pipeline stage has a total of 16 sampler s
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>*</b>
 
 Pointer to an array of sampler-state interfaces (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>). See Remarks.
-
-
-## -returns
-
-
-
-Returns nothing.
-
-
 
 
 ## -remarks

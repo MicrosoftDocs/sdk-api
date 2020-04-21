@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.get_VITCLine
 title: IAMTimecodeGenerator::get_VITCLine (strmif.h)
-description: The get_VITCLine method retrieves which line(s) the vertical interval timecode information has been inserted into.
+description: The get_VITCLine method retrieves which line(s) the vertical interval timecode information has been inserted into.helpviewer_keywords: ["IAMTimecodeGenerator interface [DirectShow]","get_VITCLine method","IAMTimecodeGenerator.get_VITCLine","IAMTimecodeGenerator::get_VITCLine","IAMTimecodeGeneratorget_VITCLine","dshow.iamtimecodegenerator_get_vitcline","get_VITCLine","get_VITCLine method [DirectShow]","get_VITCLine method [DirectShow]","IAMTimecodeGenerator interface","strmif/IAMTimecodeGenerator::get_VITCLine"]
 old-location: dshow\iamtimecodegenerator_get_vitcline.htm
 tech.root: DirectShow
 ms.assetid: 0a1595a6-30ae-46ab-bfda-102b4dbc67ef

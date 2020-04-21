@@ -1,7 +1,7 @@
 ---
 UID: NN:ehstorapi.IEnhancedStorageSilo
 title: IEnhancedStorageSilo (ehstorapi.h)
-description: IEnhancedStorageSilo interface is the point of access for an IEEE 1667 silo and is used to obtain information and perform operations at the silo level.
+description: IEnhancedStorageSilo interface is the point of access for an IEEE 1667 silo and is used to obtain information and perform operations at the silo level.helpviewer_keywords: ["IEnhancedStorageSilo","IEnhancedStorageSilo interface [Enhanced Storage]","IEnhancedStorageSilo interface [Enhanced Storage]","described","ehstorapi/IEnhancedStorageSilo","enstor.ienhancedstoragesilo"]
 old-location: enstor\ienhancedstoragesilo.htm
 tech.root: enstor
 ms.assetid: 041e66d2-f772-407d-85f7-71f226c7ec4b

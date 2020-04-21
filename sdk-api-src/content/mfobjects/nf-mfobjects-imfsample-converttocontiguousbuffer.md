@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFSample.ConvertToContiguousBuffer
 title: IMFSample::ConvertToContiguousBuffer (mfobjects.h)
-description: Converts a sample with multiple buffers into a sample with a single buffer.
+description: Converts a sample with multiple buffers into a sample with a single buffer.helpviewer_keywords: ["6ea950eb-7f2e-4549-93dc-fa62f95b7b66","ConvertToContiguousBuffer","ConvertToContiguousBuffer method [Media Foundation]","ConvertToContiguousBuffer method [Media Foundation]","IMFSample interface","IMFSample interface [Media Foundation]","ConvertToContiguousBuffer method","IMFSample.ConvertToContiguousBuffer","IMFSample::ConvertToContiguousBuffer","mf.imfsample_converttocontiguousbuffer","mfobjects/IMFSample::ConvertToContiguousBuffer"]
 old-location: mf\imfsample_converttocontiguousbuffer.htm
 tech.root: medfound
 ms.assetid: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66
