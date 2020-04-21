@@ -76,6 +76,6 @@ Specifies the upper limit of the list of query types. This is used to validate t
 ## -see-also
 
 * [Disk Management Enumeration Types](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types)
-* [IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property)
-* [STORAGE_PROPERTY_ID](https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_property_id)
-* [STORAGE_PROPERTY_QUERY](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query)
+* [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
+* [STORAGE_PROPERTY_ID](ne-winioctl-storage_property_id.md)
+* [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md)
