@@ -52,14 +52,14 @@ To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapise
 
 ```cpp
 BOOL DeviceIoControl(
-  (HANDLE) hDevice,                 // handle to device
-  IOCTL_DISK_SET_DRIVE_LAYOUT_EX,   // dwIoControlCode
-  (LPVOID) lpInBuffer,              // input buffer
-  (DWORD) nInBufferSize,            // size of input buffer
-  NULL,                             // lpOutBuffer
-  0,                                // nOutBufferSize
-  (LPDWORD) lpBytesReturned,        // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
+  (HANDLE) hDevice,                // handle to device
+  IOCTL_DISK_SET_DRIVE_LAYOUT_EX,  //dwIoControlCode
+  (LPVOID) lpInBuffer,             // input buffer
+  (DWORD) nInBufferSize,           // size of input buffer
+  NULL,                            // lpOutBuffer
+  0,                               // nOutBufferSize
+  (LPDWORD) lpBytesReturned,       // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped      // OVERLAPPED structure
 );
 ```
 
