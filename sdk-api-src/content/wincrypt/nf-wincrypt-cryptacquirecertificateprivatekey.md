@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptAcquireCertificatePrivateKey
 title: CryptAcquireCertificatePrivateKey function (wincrypt.h)
-description: Obtains the private key for a certificate.helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","CERT_NCRYPT_KEY_SPEC","CRYPT_ACQUIRE_ WINDOWS_HANDLE_FLAG","CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_CACHE_FLAG","CRYPT_ACQUIRE_COMPARE_KEY_FLAG","CRYPT_ACQUIRE_NO_HEALING","CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_SILENT_FLAG","CRYPT_ACQUIRE_USE_PROV_INFO_FLAG","CryptAcquireCertificatePrivateKey","CryptAcquireCertificatePrivateKey function [Security]","_crypto2_cryptacquirecertificateprivatekey","security.cryptacquirecertificateprivatekey","wincrypt/CryptAcquireCertificatePrivateKey"]
+description: Obtains the private key for a certificate.
+helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","CERT_NCRYPT_KEY_SPEC","CRYPT_ACQUIRE_ WINDOWS_HANDLE_FLAG","CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_CACHE_FLAG","CRYPT_ACQUIRE_COMPARE_KEY_FLAG","CRYPT_ACQUIRE_NO_HEALING","CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_SILENT_FLAG","CRYPT_ACQUIRE_USE_PROV_INFO_FLAG","CryptAcquireCertificatePrivateKey","CryptAcquireCertificatePrivateKey function [Security]","_crypto2_cryptacquirecertificateprivatekey","security.cryptacquirecertificateprivatekey","wincrypt/CryptAcquireCertificatePrivateKey"]
 old-location: security\cryptacquirecertificateprivatekey.htm
 tech.root: SecCrypto
 ms.assetid: 53c9aec9-701d-4c21-9814-d344a8dde0c1
@@ -289,7 +290,7 @@ The address of a <b>BOOL</b> variable that receives a value that indicates wheth
 </ul>
 If this variable receives <b>FALSE</b>, the calling application must not release the handle returned in the <i>phCryptProvOrNCryptKey</i> variable. The handle will be released on the last free action of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>.
 
-If this variable receives <b>TRUE</b>, the caller is responsible for releasing the handle returned in the <i>phCryptProvOrNCryptKey</i> variable. If the <i>pdwKeySpec</i> variable receives the <b>CERT_NCRYPT_KEY_SPEC</b> flag, the handle must be released by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function; otherwise, the handle is released by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function.
+If this variable receives <b>TRUE</b>, the caller is responsible for releasing the handle returned in the <i>phCryptProvOrNCryptKey</i> variable. If the <i>pdwKeySpec</i> variable receives <b>CERT_NCRYPT_KEY_SPEC</b> value, the handle must be released by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function; otherwise, the handle is released by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function.
 
 
 ## -returns
