@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextEnum1
 title: FwpmProviderContextEnum1 function (fwpmu.h)
-description: Returns the next page of results from the provider context enumerator.helpviewer_keywords: ["FwpmProviderContextEnum1","FwpmProviderContextEnum1 function [Filtering]","fwp.fwpmprovidercontextenum1_func","fwpmu/FwpmProviderContextEnum1"]
+description: Returns the next page of results from the provider context enumerator.
+helpviewer_keywords: ["FwpmProviderContextEnum1","FwpmProviderContextEnum1 function [Filtering]","fwp.fwpmprovidercontextenum1_func","fwpmu/FwpmProviderContextEnum1"]
 old-location: fwp\fwpmprovidercontextenum1_func.htm
 tech.root: fwp
 ms.assetid: 97a6e562-0423-438d-ab21-48c0f0830610
@@ -80,7 +81,7 @@ The number of provider context objects requested.
 
 ### -param entries [out]
 
-Type: [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)a>***</b>
+Type: [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)***</b>
 
 The returned provider context objects.
 
@@ -165,7 +166,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-[FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)a>
+[FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)
 
 
 

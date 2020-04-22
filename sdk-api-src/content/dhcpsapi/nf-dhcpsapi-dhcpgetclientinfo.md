@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpGetClientInfo
 title: DhcpGetClientInfo function (dhcpsapi.h)
-description: The DhcpGetClientInfo function returns information about a specific DHCP client.helpviewer_keywords: ["DhcpGetClientInfo","DhcpGetClientInfo function [DHCP]","dhcp.dhcpgetclientinfo","dhcpsapi/DhcpGetClientInfo"]
+description: The DhcpGetClientInfo function returns information about a specific DHCP client.
+helpviewer_keywords: ["DhcpGetClientInfo","DhcpGetClientInfo function [DHCP]","dhcp.dhcpgetclientinfo","dhcpsapi/DhcpGetClientInfo"]
 old-location: dhcp\dhcpgetclientinfo.htm
 tech.root: DHCP
 ms.assetid: 67095868-7e02-4d82-b2f0-70c413fa8ed6
@@ -65,7 +66,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 ### -param SearchInfo [in]
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that contains the parameters for the search.
+<a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that contains the parameters for the search.
 
 
 ### -param ClientInfo [out]
@@ -104,7 +105,7 @@ This function requires host byte ordering for all <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a>
+<a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a>
 
 
 

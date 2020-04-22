@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComSecurityEvents.OnAuthenticateFail
 title: IComSecurityEvents::OnAuthenticateFail (comsvcs.h)
-description: Generated when a method call level authentication fails.helpviewer_keywords: ["IComSecurityEvents interface [COM+]","OnAuthenticateFail method","IComSecurityEvents.OnAuthenticateFail","IComSecurityEvents::OnAuthenticateFail","OnAuthenticateFail","OnAuthenticateFail method [COM+]","OnAuthenticateFail method [COM+]","IComSecurityEvents interface","_dtc_IComSecurityEvents_OnAuthenticateFail","comsvcs/IComSecurityEvents::OnAuthenticateFail","cos.icomsecurityevents_onauthenticatefail"]
+description: Generated when a method call level authentication fails.
+helpviewer_keywords: ["IComSecurityEvents interface [COM+]","OnAuthenticateFail method","IComSecurityEvents.OnAuthenticateFail","IComSecurityEvents::OnAuthenticateFail","OnAuthenticateFail","OnAuthenticateFail method [COM+]","OnAuthenticateFail method [COM+]","IComSecurityEvents interface","_dtc_IComSecurityEvents_OnAuthenticateFail","comsvcs/IComSecurityEvents::OnAuthenticateFail","cos.icomsecurityevents_onauthenticatefail"]
 old-location: cos\icomsecurityevents_onauthenticatefail.htm
 tech.root: cossdk
 ms.assetid: 3ead4865-924c-40fb-9ed8-5b98c603c5cf
@@ -59,7 +60,7 @@ Generated when a method call level authentication fails.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidActivity [in]

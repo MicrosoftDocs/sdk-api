@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmFormatDetailsA
 title: acmFormatDetailsA function (msacm.h)
-description: The acmFormatDetails function queries the ACM for format details for a specific waveform-audio format tag.helpviewer_keywords: ["_win32_acmFormatDetails","acmFormatDetails","acmFormatDetails function [Windows Multimedia]","acmFormatDetailsA","acmFormatDetailsW","msacm/acmFormatDetails","msacm/acmFormatDetailsA","msacm/acmFormatDetailsW","multimedia.acmformatdetails"]
+description: The acmFormatDetails function queries the ACM for format details for a specific waveform-audio format tag.
+helpviewer_keywords: ["_win32_acmFormatDetails","acmFormatDetails","acmFormatDetails function [Windows Multimedia]","acmFormatDetailsA","acmFormatDetailsW","msacm/acmFormatDetails","msacm/acmFormatDetailsA","msacm/acmFormatDetailsW","multimedia.acmformatdetails"]
 old-location: multimedia\acmformatdetails.htm
 tech.root: Multimedia
 ms.assetid: 2a6a9b8f-758b-4443-b1c7-e277f22bac5b
@@ -70,7 +71,7 @@ Handle to the ACM driver to query for waveform-audio format details for a format
 
 ### -param pafd
 
-Pointer to an [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure to contain the format details for the given format tag.
+Pointer to an [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails) structure to contain the format details for the given format tag.
 
 
 ### -param fdwDetails
@@ -86,7 +87,7 @@ Flags for getting the waveform-audio format tag details. The following values ar
 </tr>
 <tr>
 <td>ACM_FORMATDETAILSF_FORMAT</td>
-[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure was given and the remaining details should be returned. The <b>dwFormatTag</b> member of the <b>ACMFORMATDETAILS</b> structure must be initialized to the same format tag as <b>pwfx</b> specifies. This query type can be used to get a string description of an arbitrary format structure. If an application specifies an ACM driver handle for <i>had</i>, details on the format will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
+[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails) structure was given and the remaining details should be returned. The <b>dwFormatTag</b> member of the <b>ACMFORMATDETAILS</b> structure must be initialized to the same format tag as <b>pwfx</b> specifies. This query type can be used to get a string description of an arbitrary format structure. If an application specifies an ACM driver handle for <i>had</i>, details on the format will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
 </tr>
 <tr>
 <td>ACM_FORMATDETAILSF_INDEX</td>

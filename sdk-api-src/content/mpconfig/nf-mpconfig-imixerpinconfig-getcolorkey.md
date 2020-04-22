@@ -1,7 +1,8 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetColorKey
 title: IMixerPinConfig::GetColorKey (mpconfig.h)
-description: The GetColorKey method retrieves the color key being used by a video stream.helpviewer_keywords: ["GetColorKey","GetColorKey method [DirectShow]","GetColorKey method [DirectShow]","IMixerPinConfig interface","IMixerPinConfig interface [DirectShow]","GetColorKey method","IMixerPinConfig.GetColorKey","IMixerPinConfig::GetColorKey","IMixerPinConfigGetColorKey","dshow.imixerpinconfig_getcolorkey","mpconfig/IMixerPinConfig::GetColorKey"]
+description: The GetColorKey method retrieves the color key being used by a video stream.
+helpviewer_keywords: ["GetColorKey","GetColorKey method [DirectShow]","GetColorKey method [DirectShow]","IMixerPinConfig interface","IMixerPinConfig interface [DirectShow]","GetColorKey method","IMixerPinConfig.GetColorKey","IMixerPinConfig::GetColorKey","IMixerPinConfigGetColorKey","dshow.imixerpinconfig_getcolorkey","mpconfig/IMixerPinConfig::GetColorKey"]
 old-location: dshow\imixerpinconfig_getcolorkey.htm
 tech.root: DirectShow
 ms.assetid: 07e97d05-f273-4e93-8da8-838975d6f96c
@@ -63,12 +64,12 @@ The <code>GetColorKey</code> method retrieves the color key being used by a vide
 
 ### -param pColorKey [out]
 
-Pointer to a [COLORKEY](/windows/win32/api/strmif/ns-strmif-colorkey)a> structure that contains the key type and a palette index.
+Pointer to a [COLORKEY](/windows/win32/api/strmif/ns-strmif-colorkey) structure that contains the key type and a palette index.
 
 
 ### -param pColor [out]
 
-Pointer to a value indicating the 8-bit palette index of the [COLORKEY](/windows/win32/api/strmif/ns-strmif-colorkey)a> returned if the current display mode is 8-bit palettized. Otherwise it is a value representing the color key in the pixel format of the current display mode.
+Pointer to a value indicating the 8-bit palette index of the [COLORKEY](/windows/win32/api/strmif/ns-strmif-colorkey) returned if the current display mode is 8-bit palettized. Otherwise it is a value representing the color key in the pixel format of the current display mode.
 
 
 ## -returns

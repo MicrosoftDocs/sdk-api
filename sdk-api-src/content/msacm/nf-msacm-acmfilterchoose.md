@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmFilterChoose
 title: acmFilterChoose function (msacm.h)
-description: The acmFilterChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio filter.helpviewer_keywords: ["_win32_acmFilterChoose","acmFilterChoose","acmFilterChoose function [Windows Multimedia]","acmFilterChooseA","acmFilterChooseW","msacm/acmFilterChoose","msacm/acmFilterChooseA","msacm/acmFilterChooseW","multimedia.acmfilterchoose"]
+description: The acmFilterChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio filter.
+helpviewer_keywords: ["_win32_acmFilterChoose","acmFilterChoose","acmFilterChoose function [Windows Multimedia]","acmFilterChooseA","acmFilterChooseW","msacm/acmFilterChoose","msacm/acmFilterChooseA","msacm/acmFilterChooseW","multimedia.acmfilterchoose"]
 old-location: multimedia\acmfilterchoose.htm
 tech.root: Multimedia
 ms.assetid: 9d8f659f-46f7-4399-a538-24c887c0fbee
@@ -65,7 +66,7 @@ The <b>acmFilterChoose</b> function creates an ACM-defined dialog box that enabl
 
 ### -param pafltrc
 
-Pointer to an [ACMFILTERCHOOSE](/windows/win32/api/msacm/nf-msacm-acmfilterchoose)a> structure that contains information used to initialize the dialog box. When <b>acmFilterChoose</b> returns, this structure contains information about the user's filter selection.
+Pointer to an [ACMFILTERCHOOSE](/windows/win32/api/msacm/nf-msacm-acmfilterchoose) structure that contains information used to initialize the dialog box. When <b>acmFilterChoose</b> returns, this structure contains information about the user's filter selection.
 
 The <b>pwfltr</b> member of this structure must contain a valid pointer to a memory location that will contain the returned filter header structure. The <b>cbwfltr</b> member must be filled in with the size, in bytes, of this memory buffer.
 
@@ -99,7 +100,7 @@ The user chose the Cancel button or the Close command on the System menu to clos
 </dl>
 </td>
 <td width="60%">
-The buffer identified by the [ACMFILTERCHOOSE](/windows/win32/api/msacm/nf-msacm-acmfilterchoose)a> structure is too small to contain the selected filter.
+The buffer identified by the [ACMFILTERCHOOSE](/windows/win32/api/msacm/nf-msacm-acmfilterchoose) structure is too small to contain the selected filter.
 
 </td>
 </tr>

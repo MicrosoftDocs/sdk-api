@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.IAnchor.SetGravity
 title: IAnchor::SetGravity (textstor.h)
-description: IAnchor::SetGravity methodhelpviewer_keywords: ["IAnchor interface [Text Services Framework]","SetGravity method","IAnchor.SetGravity","IAnchor::SetGravity","SetGravity","SetGravity method [Text Services Framework]","SetGravity method [Text Services Framework]","IAnchor interface","textstor/IAnchor::SetGravity","tsf.ianchor_setgravity"]
+description: IAnchor::SetGravity method
+helpviewer_keywords: ["IAnchor interface [Text Services Framework]","SetGravity method","IAnchor.SetGravity","IAnchor::SetGravity","SetGravity","SetGravity method [Text Services Framework]","SetGravity method [Text Services Framework]","IAnchor interface","textstor/IAnchor::SetGravity","tsf.ianchor_setgravity"]
 old-location: tsf\ianchor_setgravity.htm
 tech.root: TSF
 ms.assetid: c532abcf-9ae0-4566-80f7-0bb4ae908fce
@@ -57,7 +58,7 @@ Sets the gravity of the anchor.
 
 ### -param gravity [in]
 
-Contains a value from the <a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a> enumeration that specifies a new forward or backward gravity for the anchor.
+Contains a value from the <a href="/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a> enumeration that specifies a new forward or backward gravity for the anchor.
 
 
 ## -returns
@@ -105,7 +106,7 @@ The method was successful.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a>
+<a href="/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_SUBLAYER0_
 title: FWPM_SUBLAYER0 (fwpmtypes.h)
-description: Stores the state associated with a sublayer.helpviewer_keywords: ["FWPM_SUBLAYER0","FWPM_SUBLAYER0 structure [Filtering]","FWPM_SUBLAYER_FLAG_PERSISTENT","fwp.fwpm_sublayer0_struct","fwpmtypes/FWPM_SUBLAYER0"]
+description: Stores the state associated with a sublayer.
+helpviewer_keywords: ["FWPM_SUBLAYER0","FWPM_SUBLAYER0 structure [Filtering]","FWPM_SUBLAYER_FLAG_PERSISTENT","fwp.fwpm_sublayer0_struct","fwpmtypes/FWPM_SUBLAYER0"]
 old-location: fwp\fwpm_sublayer0_struct.htm
 tech.root: fwp
 ms.assetid: ce689b1d-1f5c-4dde-96cd-9001de3827aa
@@ -66,7 +67,7 @@ If the GUID is zero-initialized in the call to <a href="https://docs.microsoft.c
 
 ### -field displayData
 
-Allows sublayers to be annotated in human-readable form.   The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a> structure is required.
+Allows sublayers to be annotated in human-readable form.   The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0) structure is required.
 
 
 ### -field flags
@@ -99,7 +100,7 @@ Uniquely identifies the provider that manages this sublayer.
 
 ### -field providerData
 
-An [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure that contains optional provider-specific data that allows providers to store additional context info with the object.
+An [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) structure that contains optional provider-specific data that allows providers to store additional context info with the object.
 
 
 ### -field weight

@@ -1,7 +1,8 @@
 ---
 UID: NS:eapmethodpeerapis._EAP_PEER_METHOD_ROUTINES
 title: EAP_PEER_METHOD_ROUTINES (eapmethodpeerapis.h)
-description: Contains a set of function pointers to the EAPHost Peer Method APIs.helpviewer_keywords: ["EAP_PEER_METHOD_ROUTINES","EAP_PEER_METHOD_ROUTINES structure [EAPHost]","eaphost.eap_peer_method_routines","eapmethodpeerapis/EAP_PEER_METHOD_ROUTINES"]
+description: Contains a set of function pointers to the EAPHost Peer Method APIs.
+helpviewer_keywords: ["EAP_PEER_METHOD_ROUTINES","EAP_PEER_METHOD_ROUTINES structure [EAPHost]","eaphost.eap_peer_method_routines","eapmethodpeerapis/EAP_PEER_METHOD_ROUTINES"]
 old-location: eaphost\eap_peer_method_routines.htm
 tech.root: eaphost
 ms.assetid: fb15d5d0-f27b-4249-bf6f-afc67f6ae7dc
@@ -88,7 +89,7 @@ A function pointer for <a href="https://docs.microsoft.com/previous-versions/win
 
 #### dwflags
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 
@@ -161,7 +162,7 @@ A function pointer for <a href="https://docs.microsoft.com/previous-versions/win
 
 #### dwFlags
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  new EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  new EAP authentication session behavior.
 
 
 
@@ -274,7 +275,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eapmethodt
 
 #### pEapOutput
 
-Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
+Pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
 
 
 
@@ -396,7 +397,7 @@ Pointer to an address that contains a byte buffer with the new supplicant UI con
 
 #### pEapOutput
 
- A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
+ A pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
 
 
 
@@ -448,7 +449,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/n
 
 #### pEapOutput
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that specifies the suggested action the supplicant should take as a response to the updated attributes.
+A pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that specifies the suggested action the supplicant should take as a response to the updated attributes.
 
 
 
@@ -542,7 +543,7 @@ The other functions in the EAP Peer Method API set are called by a peer-based EA
 
 
 
-[EAPHost Peer Method Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-peer-method-structures)a>
+[EAPHost Peer Method Structures](/windows/win32/eaphost/eap-host-peer-method-structures)
 
 
 

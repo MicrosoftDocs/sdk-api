@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsStartWriterCanonicalization
 title: WsStartWriterCanonicalization function (webservices.h)
-description: Starts canonicalization on the specified XML writer.helpviewer_keywords: ["WsStartWriterCanonicalization","WsStartWriterCanonicalization function [Web Services for Windows]","webservices/WsStartWriterCanonicalization","wsw.wsstartwritercanonicalization"]
+description: Starts canonicalization on the specified XML writer.
+helpviewer_keywords: ["WsStartWriterCanonicalization","WsStartWriterCanonicalization function [Web Services for Windows]","webservices/WsStartWriterCanonicalization","wsw.wsstartwritercanonicalization"]
 old-location: wsw\wsstartwritercanonicalization.htm
 tech.root: wsw
 ms.assetid: e9ea26d6-a136-4103-ac67-42e943ea67b5
@@ -79,7 +80,7 @@ Caller-defined state that should be passed when invoking the <a href="https://do
 
 ### -param properties
 
-An array of optional properties controlling how canonicalization is to be performed.  See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a>.
+An array of optional properties controlling how canonicalization is to be performed.  See <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a>.
         
 
 

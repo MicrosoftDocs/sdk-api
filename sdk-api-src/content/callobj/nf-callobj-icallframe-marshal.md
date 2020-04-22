@@ -1,7 +1,8 @@
 ---
 UID: NF:callobj.ICallFrame.Marshal
 title: ICallFrame::Marshal (callobj.h)
-description: Marshals the call frame by turning its reachable data into a flat buffer without disturbing the frame.helpviewer_keywords: ["ICallFrame interface [COM]","Marshal method","ICallFrame.Marshal","ICallFrame::Marshal","Marshal","Marshal method [COM]","Marshal method [COM]","ICallFrame interface","_com_icallframe_marshal","callobj/ICallFrame::Marshal","com.icallframe_marshal"]
+description: Marshals the call frame by turning its reachable data into a flat buffer without disturbing the frame.
+helpviewer_keywords: ["ICallFrame interface [COM]","Marshal method","ICallFrame.Marshal","ICallFrame::Marshal","Marshal","Marshal method [COM]","Marshal method [COM]","ICallFrame interface","_com_icallframe_marshal","callobj/ICallFrame::Marshal","com.icallframe_marshal"]
 old-location: com\icallframe_marshal.htm
 tech.root: com
 ms.assetid: cab40c31-1f89-4da9-a1e0-ef946b34665c
@@ -60,7 +61,7 @@ Marshals the call frame by turning its reachable data into a flat buffer without
 
 ### -param pmshlContext [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/callobj/ns-callobj-callframe_marshalcontext">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how marshalling is carried out.
+A pointer to the <a href="/windows/win32/api/callobj/ns-callobj-callframe_marshalcontext">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how marshalling is carried out.
 
 
 ### -param mshlflags [in]

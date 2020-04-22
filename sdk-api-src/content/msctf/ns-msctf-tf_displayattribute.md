@@ -1,7 +1,8 @@
 ---
 UID: NS:msctf.TF_DISPLAYATTRIBUTE
 title: TF_DISPLAYATTRIBUTE (msctf.h)
-description: The TF_DISPLAYATTRIBUTE structure contains display attribute data for rendering text.helpviewer_keywords: ["TF_DISPLAYATTRIBUTE","TF_DISPLAYATTRIBUTE structure [Text Services Framework]","_tsf_tf_displayattribute_ref","msctf/TF_DISPLAYATTRIBUTE","tsf.tf_displayattribute"]
+description: The TF_DISPLAYATTRIBUTE structure contains display attribute data for rendering text.
+helpviewer_keywords: ["TF_DISPLAYATTRIBUTE","TF_DISPLAYATTRIBUTE structure [Text Services Framework]","_tsf_tf_displayattribute_ref","msctf/TF_DISPLAYATTRIBUTE","tsf.tf_displayattribute"]
 old-location: tsf\tf_displayattribute.htm
 tech.root: TSF
 ms.assetid: 29faaa22-ea03-4a2e-a035-7979e2a89fc9
@@ -72,7 +73,7 @@ Contains a <b>TF_DA_COLOR</b> structure that defines the text background color.
 
 ### -field lsStyle
 
-Contains a <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tf_da_linestyle">TF_DA_LINESTYLE</a> enumeration value that defines the underline style.
+Contains a <a href="/windows/win32/api/msctf/ne-msctf-tf_da_linestyle">TF_DA_LINESTYLE</a> enumeration value that defines the underline style.
 
 
 ### -field fBoldLine
@@ -87,7 +88,7 @@ Contains a <b>TF_DA_COLOR</b> structure that defines the color of the underline.
 
 ### -field bAttr
 
-Contains a <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tf_da_attr_info">TF_DA_ATTR_INFO</a> value that defines text conversion display attribute data.
+Contains a <a href="/windows/win32/api/msctf/ne-msctf-tf_da_attr_info">TF_DA_ATTR_INFO</a> value that defines text conversion display attribute data.
 
 
 ## -see-also
@@ -95,7 +96,7 @@ Contains a <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tf_da_attr_info">TF_DA_ATTR_INFO
+<a href="/windows/win32/api/msctf/ne-msctf-tf_da_attr_info">TF_DA_ATTR_INFO
       </a>
 
 
@@ -105,7 +106,7 @@ Contains a <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tf_da_linestyle">TF_DA_LINESTYLE
+<a href="/windows/win32/api/msctf/ne-msctf-tf_da_linestyle">TF_DA_LINESTYLE
       </a>
  
 

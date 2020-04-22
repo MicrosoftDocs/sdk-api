@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.IntNativeArrayToSafeArray
 title: IUIAutomation::IntNativeArrayToSafeArray (uiautomationclient.h)
-description: Converts an array of integers to a SAFEARRAY.helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","IntNativeArrayToSafeArray method","IUIAutomation.IntNativeArrayToSafeArray","IUIAutomation::IntNativeArrayToSafeArray","IntNativeArrayToSafeArray","IntNativeArrayToSafeArray method [Windows Accessibility]","IntNativeArrayToSafeArray method [Windows Accessibility]","IUIAutomation interface","uiauto.uiauto_IUIAutomation_IntNativeArrayToSafeArray","uiauto_IUIAutomation_IntNativeArrayToSafeArray","uiautomationclient/IUIAutomation::IntNativeArrayToSafeArray","winauto.uiauto_IUIAutomation_IntNativeArrayToSafeArray"]
+description: Converts an array of integers to a SAFEARRAY.
+helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","IntNativeArrayToSafeArray method","IUIAutomation.IntNativeArrayToSafeArray","IUIAutomation::IntNativeArrayToSafeArray","IntNativeArrayToSafeArray","IntNativeArrayToSafeArray method [Windows Accessibility]","IntNativeArrayToSafeArray method [Windows Accessibility]","IUIAutomation interface","uiauto.uiauto_IUIAutomation_IntNativeArrayToSafeArray","uiauto_IUIAutomation_IntNativeArrayToSafeArray","uiautomationclient/IUIAutomation::IntNativeArrayToSafeArray","winauto.uiauto_IUIAutomation_IntNativeArrayToSafeArray"]
 old-location: winauto\uiauto_IUIAutomation_IntNativeArrayToSafeArray.htm
 tech.root: WinAuto
 ms.assetid: f8fd2c2b-f8c7-454b-ad03-aeeb4bbcef61
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts an array of integers to a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>.
+Converts an array of integers to a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>.
 
 
 ## -parameters
@@ -73,7 +74,7 @@ The number of elements in <i>array</i>.
 
 ### -param safeArray [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives a pointer to the allocated SAFEARRAY.
 

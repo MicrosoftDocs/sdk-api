@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.SetTable
 title: IUIAutomationProxyFactoryMapping::SetTable (uiautomationclient.h)
-description: Sets the table of proxy factories.helpviewer_keywords: ["IUIAutomationProxyFactoryMapping interface [Windows Accessibility]","SetTable method","IUIAutomationProxyFactoryMapping.SetTable","IUIAutomationProxyFactoryMapping::SetTable","SetTable","SetTable method [Windows Accessibility]","SetTable method [Windows Accessibility]","IUIAutomationProxyFactoryMapping interface","uiauto.uiauto_IUIAutomationProxyFactoryMapping_SetTable","uiauto_IUIAutomationProxyFactoryMapping_SetTable","uiautomationclient/IUIAutomationProxyFactoryMapping::SetTable","winauto.uiauto_IUIAutomationProxyFactoryMapping_SetTable"]
+description: Sets the table of proxy factories.
+helpviewer_keywords: ["IUIAutomationProxyFactoryMapping interface [Windows Accessibility]","SetTable method","IUIAutomationProxyFactoryMapping.SetTable","IUIAutomationProxyFactoryMapping::SetTable","SetTable","SetTable method [Windows Accessibility]","SetTable method [Windows Accessibility]","IUIAutomationProxyFactoryMapping interface","uiauto.uiauto_IUIAutomationProxyFactoryMapping_SetTable","uiauto_IUIAutomationProxyFactoryMapping_SetTable","uiautomationclient/IUIAutomationProxyFactoryMapping::SetTable","winauto.uiauto_IUIAutomationProxyFactoryMapping_SetTable"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_SetTable.htm
 tech.root: WinAuto
 ms.assetid: 8b3675a4-a4d5-40ed-bb11-7e4d50746019
@@ -59,7 +60,7 @@ Sets the table of proxy factories.
 
 ### -param factoryList [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 A pointer to the proxy factories to include in the table.
 

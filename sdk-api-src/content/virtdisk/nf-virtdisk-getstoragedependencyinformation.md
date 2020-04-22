@@ -1,7 +1,8 @@
 ---
 UID: NF:virtdisk.GetStorageDependencyInformation
 title: GetStorageDependencyInformation function (virtdisk.h)
-description: Returns the relationships between virtual hard disks (VHDs) or CD or DVD image file (ISO) or the volumes contained within those disks and their parent disk or volume.helpviewer_keywords: ["GetStorageDependencyInformation","GetStorageDependencyInformation function [VHD]","vdssys/GetStorageDependencyInformation","vhd.getstoragedependencyinformation","virtdisk/GetStorageDependencyInformation"]
+description: Returns the relationships between virtual hard disks (VHDs) or CD or DVD image file (ISO) or the volumes contained within those disks and their parent disk or volume.
+helpviewer_keywords: ["GetStorageDependencyInformation","GetStorageDependencyInformation function [VHD]","vdssys/GetStorageDependencyInformation","vhd.getstoragedependencyinformation","virtdisk/GetStorageDependencyInformation"]
 old-location: vhd\getstoragedependencyinformation.htm
 tech.root: VStor
 ms.assetid: 9ed3ec7c-5e50-4e81-bba7-798f2fbcf29d
@@ -72,7 +73,7 @@ If the <i>Flags</i> parameter specifies the
 ### -param Flags [in]
 
 A valid combination of 
-     <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-get_storage_dependency_flag">GET_STORAGE_DEPENDENCY_FLAG</a> values.
+     <a href="/windows/win32/api/virtdisk/ne-virtdisk-get_storage_dependency_flag">GET_STORAGE_DEPENDENCY_FLAG</a> values.
 
 
 ### -param StorageDependencyInfoSize [in]
@@ -84,7 +85,7 @@ Size, in bytes, of the buffer that the <i>StorageDependencyInfo</i> parameter re
 ### -param StorageDependencyInfo [in, out]
 
 A pointer to a buffer to receive the populated 
-     [STORAGE_DEPENDENCY_INFO](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info)a> structure, which is a 
+     [STORAGE_DEPENDENCY_INFO](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info) structure, which is a 
      variable-length structure.
 
 

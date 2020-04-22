@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetCenter
 title: IXpsOMRadialGradientBrush::GetCenter (xpsobjectmodel.h)
-description: Gets the center point of the radial gradient region ellipse.helpviewer_keywords: ["GetCenter","GetCenter method [XPS Documents and Packaging]","GetCenter method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","GetCenter method","IXpsOMRadialGradientBrush.GetCenter","IXpsOMRadialGradientBrush::GetCenter","xps.ixpsomradialgradientbrush_getcenter","xpsobjectmodel/IXpsOMRadialGradientBrush::GetCenter"]
+description: Gets the center point of the radial gradient region ellipse.
+helpviewer_keywords: ["GetCenter","GetCenter method [XPS Documents and Packaging]","GetCenter method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","GetCenter method","IXpsOMRadialGradientBrush.GetCenter","IXpsOMRadialGradientBrush::GetCenter","xps.ixpsomradialgradientbrush_getcenter","xpsobjectmodel/IXpsOMRadialGradientBrush::GetCenter"]
 old-location: xps\ixpsomradialgradientbrush_getcenter.htm
 tech.root: printdocs
 ms.assetid: 92ce3433-6c3d-4759-81f8-055fdcc58dcf
@@ -130,7 +131,7 @@ The following illustration shows the parts of a radial gradient. <i>center</i> g
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

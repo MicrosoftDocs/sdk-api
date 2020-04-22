@@ -1,7 +1,8 @@
 ---
 UID: NF:mergemod.IMsmMerge.ExtractFiles
 title: IMsmMerge::ExtractFiles (mergemod.h)
-description: The ExtractFiles method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see the ExtractFiles method of the Merge object.helpviewer_keywords: ["ExtractFiles","ExtractFiles method","ExtractFiles method","IMsmMerge interface","IMsmMerge interface","ExtractFiles method","IMsmMerge.ExtractFiles","IMsmMerge::ExtractFiles","_msi_extractfiles_function","mergemod/IMsmMerge::ExtractFiles","setup.imsmmerge_extractfiles"]
+description: The ExtractFiles method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see the ExtractFiles method of the Merge object.
+helpviewer_keywords: ["ExtractFiles","ExtractFiles method","ExtractFiles method","IMsmMerge interface","IMsmMerge interface","ExtractFiles method","IMsmMerge.ExtractFiles","IMsmMerge::ExtractFiles","_msi_extractfiles_function","mergemod/IMsmMerge::ExtractFiles","setup.imsmmerge_extractfiles"]
 old-location: setup\imsmmerge_extractfiles.htm
 tech.root: Msi
 ms.assetid: e5bafd2d-0750-4aa6-87e8-22ef3cfdd5ff
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>ExtractFiles</b> method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see  the 
-[ExtractFiles](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-extractfiles)a> method of the 
+[ExtractFiles](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-extractfiles) method of the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object.  
 
 <b>IMsmMerge2::ExtractFiles</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::ExtractFiles</b>      All Mergemod.dll versions.

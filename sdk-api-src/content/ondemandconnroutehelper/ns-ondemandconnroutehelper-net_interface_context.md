@@ -1,7 +1,8 @@
 ---
 UID: NS:ondemandconnroutehelper._NET_INTERFACE_CONTEXT
 title: NET_INTERFACE_CONTEXT (ondemandconnroutehelper.h)
-description: The interface context that is part of the NET_INTERFACE_CONTEXT_TABLE structure.helpviewer_keywords: ["NET_INTERFACE_CONTEXT","NET_INTERFACE_CONTEXT structure [Network Awareness]","PNET_INTERFACE_CONTEXT","PNET_INTERFACE_CONTEXT structure pointer [Network Awareness]","nla.net_interface_context","ondemandconnroutehelper/NET_INTERFACE_CONTEXT","ondemandconnroutehelper/PNET_INTERFACE_CONTEXT"]
+description: The interface context that is part of the NET_INTERFACE_CONTEXT_TABLE structure.
+helpviewer_keywords: ["NET_INTERFACE_CONTEXT","NET_INTERFACE_CONTEXT structure [Network Awareness]","PNET_INTERFACE_CONTEXT","PNET_INTERFACE_CONTEXT structure pointer [Network Awareness]","nla.net_interface_context","ondemandconnroutehelper/NET_INTERFACE_CONTEXT","ondemandconnroutehelper/PNET_INTERFACE_CONTEXT"]
 old-location: nla\net_interface_context.htm
 tech.root: nla
 ms.assetid: 71342454-5AEF-4C96-8914-ED8859BD9D81
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The interface context that is part of the <a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context_table">NET_INTERFACE_CONTEXT_TABLE</a> structure.
+The interface context that is part of the <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context_table">NET_INTERFACE_CONTEXT_TABLE</a> structure.
 
 
 ## -struct-fields
@@ -76,7 +77,7 @@ The configuration name.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context_table">NET_INTERFACE_CONTEXT_TABLE</a>
+<a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context_table">NET_INTERFACE_CONTEXT_TABLE</a>
  
 
  

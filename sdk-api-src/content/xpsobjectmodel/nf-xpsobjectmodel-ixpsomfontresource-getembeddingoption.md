@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResource.GetEmbeddingOption
 title: IXpsOMFontResource::GetEmbeddingOption (xpsobjectmodel.h)
-description: Gets the embedding option that will be applied when the resource is serialized.helpviewer_keywords: ["GetEmbeddingOption","GetEmbeddingOption method [XPS Documents and Packaging]","GetEmbeddingOption method [XPS Documents and Packaging]","IXpsOMFontResource interface","IXpsOMFontResource interface [XPS Documents and Packaging]","GetEmbeddingOption method","IXpsOMFontResource.GetEmbeddingOption","IXpsOMFontResource::GetEmbeddingOption","XPS_FONT_EMBEDDING_NORMAL","XPS_FONT_EMBEDDING_OBFUSCATED","XPS_FONT_EMBEDDING_RESTRICTED","xps.ixpsomfontresource_getembeddingoption","xpsobjectmodel/IXpsOMFontResource::GetEmbeddingOption"]
+description: Gets the embedding option that will be applied when the resource is serialized.
+helpviewer_keywords: ["GetEmbeddingOption","GetEmbeddingOption method [XPS Documents and Packaging]","GetEmbeddingOption method [XPS Documents and Packaging]","IXpsOMFontResource interface","IXpsOMFontResource interface [XPS Documents and Packaging]","GetEmbeddingOption method","IXpsOMFontResource.GetEmbeddingOption","IXpsOMFontResource::GetEmbeddingOption","XPS_FONT_EMBEDDING_NORMAL","XPS_FONT_EMBEDDING_OBFUSCATED","XPS_FONT_EMBEDDING_RESTRICTED","xps.ixpsomfontresource_getembeddingoption","xpsobjectmodel/IXpsOMFontResource::GetEmbeddingOption"]
 old-location: xps\ixpsomfontresource_getembeddingoption.htm
 tech.root: printdocs
 ms.assetid: 8c4b3741-2c9c-4964-ae51-53dd738e8d9b
@@ -61,7 +62,7 @@ Gets the embedding option that will be applied when the resource is serialized.
 
 The stream's embedding option.
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a> value describes how the resource is obfuscated. The following possible values are returned in this parameter:
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a> value describes how the resource is obfuscated. The following possible values are returned in this parameter:
 
 <table>
 <tr>
@@ -124,7 +125,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a>
  
 
  

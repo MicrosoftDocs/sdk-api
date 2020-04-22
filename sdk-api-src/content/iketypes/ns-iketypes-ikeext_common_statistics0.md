@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_COMMON_STATISTICS0_
 title: IKEEXT_COMMON_STATISTICS0 (iketypes.h)
-description: Various statistics common to IKE and Authip.helpviewer_keywords: ["IKEEXT_COMMON_STATISTICS0","IKEEXT_COMMON_STATISTICS0 structure [Filtering]","fwp.ikeext_common_statistics0","iketypes/IKEEXT_COMMON_STATISTICS0"]
+description: Various statistics common to IKE and Authip.
+helpviewer_keywords: ["IKEEXT_COMMON_STATISTICS0","IKEEXT_COMMON_STATISTICS0 structure [Filtering]","fwp.ikeext_common_statistics0","iketypes/IKEEXT_COMMON_STATISTICS0"]
 old-location: fwp\ikeext_common_statistics0.htm
 tech.root: fwp
 ms.assetid: a53ef735-3223-4ff5-9b2a-d40ab0f53570
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_COMMON_STATISTICS0</b> structure contains various statistics common to IKE and Authip.
-[IKEEXT_COMMON_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics1)a> is available.</div><div> </div>
+[IKEEXT_COMMON_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,14 +62,14 @@ The <b>IKEEXT_COMMON_STATISTICS0</b> structure contains various statistics commo
 
 IPv4 common statistics.
 
-See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics0">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0</a> for more information.
+See <a href="/windows/win32/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics0">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0</a> for more information.
 
 
 ### -field v6Statistics
 
 IPv6 common statistics.
 
-See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics0">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0</a> for more information.
+See <a href="/windows/win32/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics0">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0</a> for more information.
 
 
 ### -field totalPacketsReceived

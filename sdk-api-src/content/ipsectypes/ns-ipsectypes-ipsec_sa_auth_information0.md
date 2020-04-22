@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_AUTH_INFORMATION0_
 title: IPSEC_SA_AUTH_INFORMATION0 (ipsectypes.h)
-description: Stores information about the authentication algorithm of an IPsec security association (SA).helpviewer_keywords: ["IPSEC_SA_AUTH_INFORMATION0","IPSEC_SA_AUTH_INFORMATION0 structure [Filtering]","fwp.ipsec_sa_auth_information0_struct","ipsectypes/IPSEC_SA_AUTH_INFORMATION0"]
+description: Stores information about the authentication algorithm of an IPsec security association (SA).
+helpviewer_keywords: ["IPSEC_SA_AUTH_INFORMATION0","IPSEC_SA_AUTH_INFORMATION0 structure [Filtering]","fwp.ipsec_sa_auth_information0_struct","ipsectypes/IPSEC_SA_AUTH_INFORMATION0"]
 old-location: fwp\ipsec_sa_auth_information0_struct.htm
 tech.root: fwp
 ms.assetid: 54a03edd-94cb-478a-a647-473872408701
@@ -59,12 +60,12 @@ The <b>IPSEC_SA_AUTH_INFORMATION0</b> structure stores information about the aut
 
 ### -field authTransform
 
-Authentication algorithm details as specified by [IPSEC_AUTH_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0)a>.
+Authentication algorithm details as specified by [IPSEC_AUTH_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0).
 
 
 ### -field authKey
 
-Key used for the authentication algorithm stored in a [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure.
+Key used for the authentication algorithm stored in a [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) structure.
 
 
 ## -remarks
@@ -81,11 +82,11 @@ Key used for the authentication algorithm stored in a [FWP_BYTE_BLOB](https://do
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[IPSEC_AUTH_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0)a>
+[IPSEC_AUTH_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0)
 
 
 

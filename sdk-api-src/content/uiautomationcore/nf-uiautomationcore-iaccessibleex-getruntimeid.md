@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.GetRuntimeId
 title: IAccessibleEx::GetRuntimeId (uiautomationcore.h)
-description: Retrieves the runtime identifier of this element.helpviewer_keywords: ["GetRuntimeId","GetRuntimeId method [Windows Accessibility]","GetRuntimeId method [Windows Accessibility]","IAccessibleEx interface","IAccessibleEx interface [Windows Accessibility]","GetRuntimeId method","IAccessibleEx.GetRuntimeId","IAccessibleEx::GetRuntimeId","uiauto.uiauto_IAccessibleEx_GetRuntimeId","uiauto_IAccessibleEx_GetRuntimeId","uiautomationcore/IAccessibleEx::GetRuntimeId","winauto.uiauto_IAccessibleEx_GetRuntimeId"]
+description: Retrieves the runtime identifier of this element.
+helpviewer_keywords: ["GetRuntimeId","GetRuntimeId method [Windows Accessibility]","GetRuntimeId method [Windows Accessibility]","IAccessibleEx interface","IAccessibleEx interface [Windows Accessibility]","GetRuntimeId method","IAccessibleEx.GetRuntimeId","IAccessibleEx::GetRuntimeId","uiauto.uiauto_IAccessibleEx_GetRuntimeId","uiauto_IAccessibleEx_GetRuntimeId","uiautomationcore/IAccessibleEx::GetRuntimeId","winauto.uiauto_IAccessibleEx_GetRuntimeId"]
 old-location: winauto\uiauto_IAccessibleEx_GetRuntimeId.htm
 tech.root: WinAuto
 ms.assetid: 00aeac66-398a-4c80-85e2-32bff0ae100f
@@ -59,7 +60,7 @@ Retrieves the runtime identifier of this element.
 
 ### -param pRetVal [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives a pointer to the runtime identifier.
 

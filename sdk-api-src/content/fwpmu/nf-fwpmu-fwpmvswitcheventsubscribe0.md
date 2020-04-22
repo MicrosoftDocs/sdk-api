@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmvSwitchEventSubscribe0
 title: FwpmvSwitchEventSubscribe0 function (fwpmu.h)
-description: Is used to request the delivery of notifications regarding a particular vSwitch event.helpviewer_keywords: ["FwpmvSwitchEventSubscribe0","FwpmvSwitchEventSubscribe0 function [Filtering]","fwp.fwpmvswitcheventsubscribe0","fwpmu/FwpmvSwitchEventSubscribe0"]
+description: Is used to request the delivery of notifications regarding a particular vSwitch event.
+helpviewer_keywords: ["FwpmvSwitchEventSubscribe0","FwpmvSwitchEventSubscribe0 function [Filtering]","fwp.fwpmvswitcheventsubscribe0","fwpmu/FwpmvSwitchEventSubscribe0"]
 old-location: fwp\fwpmvswitcheventsubscribe0.htm
 tech.root: fwp
 ms.assetid: 1264a58d-81e1-4877-915d-6ed3d7d15512
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param subscription [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event_subscription0">FWPM_VSWITCH_EVENT_SUBSCRIPTION0</a>*</b>
+Type: <b>const <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event_subscription0">FWPM_VSWITCH_EVENT_SUBSCRIPTION0</a>*</b>
 
 The notifications which will be delivered.
 

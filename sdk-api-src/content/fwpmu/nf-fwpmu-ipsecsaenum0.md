@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.IPsecSaEnum0
 title: IPsecSaEnum0 function (fwpmu.h)
-description: Returns the next page of results from the IPsec security association (SA) enumerator.helpviewer_keywords: ["IPsecSaEnum0","IPsecSaEnum0 function [Filtering]","fwp.ipsecsaenum0_func","fwpmu/IPsecSaEnum0"]
+description: Returns the next page of results from the IPsec security association (SA) enumerator.
+helpviewer_keywords: ["IPsecSaEnum0","IPsecSaEnum0 function [Filtering]","fwp.ipsecsaenum0_func","fwpmu/IPsecSaEnum0"]
 old-location: fwp\ipsecsaenum0_func.htm
 tech.root: fwp
 ms.assetid: dea82534-4b73-4c74-9cea-d17ba8aff2e7
@@ -80,7 +81,7 @@ The number of enumeration entries requested.
 
 ### -param entries [out]
 
-Type: [IPSEC_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0)a>***</b>
+Type: [IPSEC_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0)***</b>
 
 Addresses of the enumeration entries.
 
@@ -165,7 +166,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-[IPSEC_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0)a>
+[IPSEC_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0)
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.OpenMapping
 title: ISimilarityTraitsMapping::OpenMapping (msrdc.h)
-description: Opens the file mapping object for a similarity traits table file.helpviewer_keywords: ["ISimilarityTraitsMapping interface [Remote Differential Compression]","OpenMapping method","ISimilarityTraitsMapping.OpenMapping","ISimilarityTraitsMapping::OpenMapping","OpenMapping","OpenMapping method [Remote Differential Compression]","OpenMapping method [Remote Differential Compression]","ISimilarityTraitsMapping interface","fs.isimilaritytraitsmapping_openmapping","msrdc/ISimilarityTraitsMapping::OpenMapping","rdc.isimilaritytraitsmapping_openmapping"]
+description: Opens the file mapping object for a similarity traits table file.
+helpviewer_keywords: ["ISimilarityTraitsMapping interface [Remote Differential Compression]","OpenMapping method","ISimilarityTraitsMapping.OpenMapping","ISimilarityTraitsMapping::OpenMapping","OpenMapping","OpenMapping method [Remote Differential Compression]","OpenMapping method [Remote Differential Compression]","ISimilarityTraitsMapping interface","fs.isimilaritytraitsmapping_openmapping","msrdc/ISimilarityTraitsMapping::OpenMapping","rdc.isimilaritytraitsmapping_openmapping"]
 old-location: rdc\isimilaritytraitsmapping_openmapping.htm
 tech.root: rdc
 ms.assetid: 278d7b78-28c6-41ee-9060-5f7d757ef494
@@ -60,7 +61,7 @@ Opens the file mapping object for a similarity traits table file.
 ### -param accessMode [in]
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdcmappingaccessmode">RdcMappingAccessMode</a> enumeration value that specifies the desired access to the file mapping object.
+<a href="/windows/win32/api/msrdc/ne-msrdc-rdcmappingaccessmode">RdcMappingAccessMode</a> enumeration value that specifies the desired access to the file mapping object.
 
 
 ### -param begin [in]

@@ -1,7 +1,8 @@
 ---
 UID: NF:winsxs.IAssemblyName.GetDisplayName
 title: IAssemblyName::GetDisplayName (winsxs.h)
-description: The GetDisplayName method gets a string representation of the side-by-side assembly name.helpviewer_keywords: ["GetDisplayName","GetDisplayName method [Side-by-side Assemblies]","GetDisplayName method [Side-by-side Assemblies]","IAssemblyName interface","IAssemblyName interface [Side-by-side Assemblies]","GetDisplayName method","IAssemblyName.GetDisplayName","IAssemblyName::GetDisplayName","setup.iassemblyname_getdisplayname","winsxs/IAssemblyName::GetDisplayName"]
+description: The GetDisplayName method gets a string representation of the side-by-side assembly name.
+helpviewer_keywords: ["GetDisplayName","GetDisplayName method [Side-by-side Assemblies]","GetDisplayName method [Side-by-side Assemblies]","IAssemblyName interface","IAssemblyName interface [Side-by-side Assemblies]","GetDisplayName method","IAssemblyName.GetDisplayName","IAssemblyName::GetDisplayName","setup.iassemblyname_getdisplayname","winsxs/IAssemblyName::GetDisplayName"]
 old-location: setup\iassemblyname_getdisplayname.htm
 tech.root: SbsCs
 ms.assetid: d2d74d67-a893-4f2f-8161-80bf3d5cbedb
@@ -69,7 +70,7 @@ When calling this method, set this parameter to the size of the buffer specified
 
 ### -param dwDisplayFlags [in]
 
-One or more of the options of the <a href="https://docs.microsoft.com/windows/win32/api/winsxs/ne-winsxs-asm_display_flags">ASM_DISPLAY_FLAGS</a> enumeration to specify which portions of the assembly's name to include in the string representation of the assembly name. The default for <i>dwDisplayFlags</i> is 0, which returns all portions of the assembly's display name.
+One or more of the options of the <a href="/windows/win32/api/winsxs/ne-winsxs-asm_display_flags">ASM_DISPLAY_FLAGS</a> enumeration to specify which portions of the assembly's name to include in the string representation of the assembly name. The default for <i>dwDisplayFlags</i> is 0, which returns all portions of the assembly's display name.
 
 
 ## -returns

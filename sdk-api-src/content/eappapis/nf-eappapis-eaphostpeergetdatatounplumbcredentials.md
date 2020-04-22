@@ -1,7 +1,8 @@
 ---
 UID: NF:eappapis.EapHostPeerGetDataToUnplumbCredentials
 title: EapHostPeerGetDataToUnplumbCredentials function (eappapis.h)
-description: Returns the Connection Id,User Impersonation Token and Eaphost Process Id used by EAPHost to save the credentials for SSO. This data is needed to unplumb previously plumbed credentials.helpviewer_keywords: ["EapHostPeerGetDataToUnplumbCredentials","EapHostPeerGetDataToUnplumbCredentials function [EAPHost]","eaphost.eaphostpeergetdatatounplumbcredentials","eappapis/EapHostPeerGetDataToUnplumbCredentials"]
+description: Returns the Connection Id,User Impersonation Token and Eaphost Process Id used by EAPHost to save the credentials for SSO. This data is needed to unplumb previously plumbed credentials.
+helpviewer_keywords: ["EapHostPeerGetDataToUnplumbCredentials","EapHostPeerGetDataToUnplumbCredentials function [EAPHost]","eaphost.eaphostpeergetdatatounplumbcredentials","eappapis/EapHostPeerGetDataToUnplumbCredentials"]
 old-location: eaphost\eaphostpeergetdatatounplumbcredentials.htm
 tech.root: eaphost
 ms.assetid: E0796AA8-594F-4B21-884D-BD2DD6E2549C
@@ -90,7 +91,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-[EAPHost Supplicant Run-time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
+[EAPHost Supplicant Run-time Functions](/windows/win32/eaphost/eap-host-supplicant-run-time-functions)
 
 
 

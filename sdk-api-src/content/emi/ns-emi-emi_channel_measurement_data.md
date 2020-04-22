@@ -1,7 +1,8 @@
 ---
 UID: NS:emi.__unnamed_struct_2
 title: EMI_CHANNEL_MEASUREMENT_DATA (emi.h)
-description: The EMI_MEASUREMENT_DATA structure provides data about the current energy measurement and the time at which the measurement was taken.helpviewer_keywords: ["EMI_CHANNEL_MEASUREMENT_DATA","EMI_MEASUREMENT_DATA","EMI_MEASUREMENT_DATA structure [Power Metering and Budgeting Devices]","EMI_MEASUREMENT_DATA_V1","PEMI_MEASUREMENT_DATA","PEMI_MEASUREMENT_DATA structure pointer [Power Metering and Budgeting Devices]","emi/EMI_MEASUREMENT_DATA","emi/PEMI_MEASUREMENT_DATA","powermeter.emi_measurement_data"]
+description: The EMI_MEASUREMENT_DATA structure provides data about the current energy measurement and the time at which the measurement was taken.
+helpviewer_keywords: ["EMI_CHANNEL_MEASUREMENT_DATA","EMI_MEASUREMENT_DATA","EMI_MEASUREMENT_DATA structure [Power Metering and Budgeting Devices]","EMI_MEASUREMENT_DATA_V1","PEMI_MEASUREMENT_DATA","PEMI_MEASUREMENT_DATA structure pointer [Power Metering and Budgeting Devices]","emi/EMI_MEASUREMENT_DATA","emi/PEMI_MEASUREMENT_DATA","powermeter.emi_measurement_data"]
 old-location: powermeter\emi_measurement_data.htm
 tech.root: powermeter
 ms.assetid: 5D8E8146-D6B4-427B-9B17-0FB4FB0372A8
@@ -59,7 +60,7 @@ The <b>EMI_MEASUREMENT_DATA</b> structure provides data about the current energy
 
 ### -field AbsoluteEnergy
 
-The total accumulated energy in the units specified by the [EMI_METADATA](/windows/win32/api/emi/ns-emi-emi_metadata_v1)a> struct returned by <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a>. In <b>EMI_VERSION_V1</b>, the only supported unit is picowatt-hours.
+The total accumulated energy in the units specified by the [EMI_METADATA](/windows/win32/api/emi/ns-emi-emi_metadata_v1) struct returned by <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a>. In <b>EMI_VERSION_V1</b>, the only supported unit is picowatt-hours.
 
 
 ### -field AbsoluteTime

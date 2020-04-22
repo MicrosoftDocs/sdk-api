@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnEnableCommit
 title: IComObjectEvents::OnEnableCommit (comsvcs.h)
-description: Generated when the client calls EnableCommit on a context.helpviewer_keywords: ["IComObjectEvents interface [COM+]","OnEnableCommit method","IComObjectEvents.OnEnableCommit","IComObjectEvents::OnEnableCommit","OnEnableCommit","OnEnableCommit method [COM+]","OnEnableCommit method [COM+]","IComObjectEvents interface","_dtc_IComObjectEvents_OnEnableCommit","comsvcs/IComObjectEvents::OnEnableCommit","cos.icomobjectevents_onenablecommit"]
+description: Generated when the client calls EnableCommit on a context.
+helpviewer_keywords: ["IComObjectEvents interface [COM+]","OnEnableCommit method","IComObjectEvents.OnEnableCommit","IComObjectEvents::OnEnableCommit","OnEnableCommit","OnEnableCommit method [COM+]","OnEnableCommit method [COM+]","IComObjectEvents interface","_dtc_IComObjectEvents_OnEnableCommit","comsvcs/IComObjectEvents::OnEnableCommit","cos.icomobjectevents_onenablecommit"]
 old-location: cos\icomobjectevents_onenablecommit.htm
 tech.root: cossdk
 ms.assetid: 88fdf857-1dbd-4a6b-87c6-0d72eeeab9b4
@@ -59,7 +60,7 @@ Generated when the client calls <a href="https://docs.microsoft.com/windows/desk
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param CtxtID [in]

@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcSignatureRelationshipReference
 title: IOpcSignatureRelationshipReference (msopc.h)
-description: Represents a reference to a Relationships part that contains relationships that have been or will be signed.helpviewer_keywords: ["IOpcSignatureRelationshipReference","IOpcSignatureRelationshipReference interface [Open Packaging Conventions]","IOpcSignatureRelationshipReference interface [Open Packaging Conventions]","described","msopc/IOpcSignatureRelationshipReference","opc.iopcsignaturerelationshipreference"]
+description: Represents a reference to a Relationships part that contains relationships that have been or will be signed.
+helpviewer_keywords: ["IOpcSignatureRelationshipReference","IOpcSignatureRelationshipReference interface [Open Packaging Conventions]","IOpcSignatureRelationshipReference interface [Open Packaging Conventions]","described","msopc/IOpcSignatureRelationshipReference","opc.iopcsignaturerelationshipreference"]
 old-location: opc\iopcsignaturerelationshipreference.htm
 tech.root: OPC
 ms.assetid: 24aebfff-6b4f-49cb-988f-670ffed7d815
@@ -181,11 +182,11 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_relationships_signing_option">OPC_RELATIONSHIPS_SIGNING_OPTION</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_relationships_signing_option">OPC_RELATIONSHIPS_SIGNING_OPTION</a>
 
 
 

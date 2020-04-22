@@ -1,7 +1,8 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0004
 title: RdcNeed (msrdc.h)
-description: Contains information about a chunk that is required to synchronize two sets of data.helpviewer_keywords: ["RdcNeed","RdcNeed structure [Remote Differential Compression]","fs.rdcneed","msrdc/RdcNeed","rdc.rdcneed"]
+description: Contains information about a chunk that is required to synchronize two sets of data.
+helpviewer_keywords: ["RdcNeed","RdcNeed structure [Remote Differential Compression]","fs.rdcneed","msrdc/RdcNeed","rdc.rdcneed"]
 old-location: rdc\rdcneed.htm
 tech.root: rdc
 ms.assetid: 086e82f1-b033-48e2-b648-895c04751cc9
@@ -78,11 +79,11 @@ Length, in bytes, of the chunk of data that is to be copied to the target data.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcneedpointer">RdcNeedPointer</a>
+<a href="/windows/win32/api/msrdc/ns-msrdc-rdcneedpointer">RdcNeedPointer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdcneedtype">RdcNeedType</a>
+<a href="/windows/win32/api/msrdc/ne-msrdc-rdcneedtype">RdcNeedType</a>
 
 
 

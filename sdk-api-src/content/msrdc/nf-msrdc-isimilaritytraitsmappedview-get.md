@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.Get
 title: ISimilarityTraitsMappedView::Get (msrdc.h)
-description: Returns information about the mapped view of a similarity traits table file.helpviewer_keywords: ["Get","Get method [Remote Differential Compression]","Get method [Remote Differential Compression]","ISimilarityTraitsMappedView interface","ISimilarityTraitsMappedView interface [Remote Differential Compression]","Get method","ISimilarityTraitsMappedView.Get","ISimilarityTraitsMappedView::Get","fs.isimilaritytraitsmappedview_get","msrdc/ISimilarityTraitsMappedView::Get","rdc.isimilaritytraitsmappedview_get"]
+description: Returns information about the mapped view of a similarity traits table file.
+helpviewer_keywords: ["Get","Get method [Remote Differential Compression]","Get method [Remote Differential Compression]","ISimilarityTraitsMappedView interface","ISimilarityTraitsMappedView interface [Remote Differential Compression]","Get method","ISimilarityTraitsMappedView.Get","ISimilarityTraitsMappedView::Get","fs.isimilaritytraitsmappedview_get","msrdc/ISimilarityTraitsMappedView::Get","rdc.isimilaritytraitsmappedview_get"]
 old-location: rdc\isimilaritytraitsmappedview_get.htm
 tech.root: rdc
 ms.assetid: 57542583-528e-49cb-9ece-f49ecfc6b1cd
@@ -74,7 +75,7 @@ Minimum number of bytes of data to be mapped in the mapped view.
 
 ### -param viewInfo [out]
 
-Pointer to a location that receives a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritymappedviewinfo">SimilarityMappedViewInfo</a> structure containing information about the mapped view.
+Pointer to a location that receives a <a href="/windows/win32/api/msrdc/ns-msrdc-similaritymappedviewinfo">SimilarityMappedViewInfo</a> structure containing information about the mapped view.
 
 
 ## -returns

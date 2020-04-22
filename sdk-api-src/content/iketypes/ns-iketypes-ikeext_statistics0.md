@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_STATISTICS0_
 title: IKEEXT_STATISTICS0 (iketypes.h)
-description: Stores various IKE/AuthIP statistics.helpviewer_keywords: ["IKEEXT_STATISTICS0","IKEEXT_STATISTICS0 structure [Filtering]","fwp.ikeext_statistics0","iketypes/IKEEXT_STATISTICS0"]
+description: Stores various IKE/AuthIP statistics.
+helpviewer_keywords: ["IKEEXT_STATISTICS0","IKEEXT_STATISTICS0 structure [Filtering]","fwp.ikeext_statistics0","iketypes/IKEEXT_STATISTICS0"]
 old-location: fwp\ikeext_statistics0.htm
 tech.root: fwp
 ms.assetid: aefacc39-92a5-4d73-ac3c-0b5bf1407a90
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_STATISTICS0</b> structure stores various IKE/AuthIP statistics.
-[IKEEXT_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics1)a> is available.</div><div> </div>
+[IKEEXT_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,21 +62,21 @@ The <b>IKEEXT_STATISTICS0</b> structure stores various IKE/AuthIP statistics.
 
 Statistics specific to IKE.
 
-See [IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0)a> for more information.
+See [IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0) for more information.
 
 
 ### -field authipStatistics
 
 Statistics specific to AuthIP.
 
-See [IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0)a> for more information.
+See [IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0) for more information.
 
 
 ### -field commonStatistics
 
 Statistics common to IKE and AuthIP.
 
-See [IKEEXT_COMMON_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics0)a> for more information.
+See [IKEEXT_COMMON_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics0) for more information.
 
 
 ## -see-also
@@ -83,7 +84,7 @@ See [IKEEXT_COMMON_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/i
 
 
 
-[IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0)a>
+[IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0)
 
 
 

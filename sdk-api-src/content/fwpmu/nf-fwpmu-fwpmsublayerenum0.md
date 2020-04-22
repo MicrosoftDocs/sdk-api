@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerEnum0
 title: FwpmSubLayerEnum0 function (fwpmu.h)
-description: Returns the next page of results from the sublayer enumerator.helpviewer_keywords: ["FwpmSubLayerEnum0","FwpmSubLayerEnum0 function [Filtering]","fwp.fwpmsublayerenum0_func","fwpmu/FwpmSubLayerEnum0"]
+description: Returns the next page of results from the sublayer enumerator.
+helpviewer_keywords: ["FwpmSubLayerEnum0","FwpmSubLayerEnum0 function [Filtering]","fwp.fwpmsublayerenum0_func","fwpmu/FwpmSubLayerEnum0"]
 old-location: fwp\fwpmsublayerenum0_func.htm
 tech.root: fwp
 ms.assetid: 2f370d6f-4670-401e-840e-11f775dbd873
@@ -80,7 +81,7 @@ The number of sublayer entries requested.
 
 ### -param entries [out]
 
-Type: [FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)a>***</b>
+Type: [FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)***</b>
 
 Addresses of the enumeration entries.
 
@@ -167,7 +168,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-[FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)a>
+[FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
 title: CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO (cryptuiapi.h)
-description: Used with the CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure to contain information about the PVK file used by the digital signature wizard.helpviewer_keywords: ["*PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO structure [Security]","PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO","PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO structure pointer [Security]","cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO","cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO","security.cryptui_wiz_digital_sign_pvk_file_info"]
+description: Used with the CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure to contain information about the PVK file used by the digital signature wizard.
+helpviewer_keywords: ["*PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO structure [Security]","PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO","PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO structure pointer [Security]","cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO","cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO","security.cryptui_wiz_digital_sign_pvk_file_info"]
 old-location: security\cryptui_wiz_digital_sign_pvk_file_info.htm
 tech.root: SecCrypto
 ms.assetid: 0e737661-2cc3-47be-ab32-0efbc18fefbd
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a> structure to contain information about the PVK file used by the digital signature wizard.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</b> structure is used with the <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a> structure to contain information about the PVK file used by the digital signature wizard.
 
 
 ## -struct-fields
@@ -84,7 +85,7 @@ Contains the provider type identifier. For more information about the provider t
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a>
+<a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a>
 
 
 

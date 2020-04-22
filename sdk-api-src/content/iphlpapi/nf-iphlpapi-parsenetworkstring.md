@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.ParseNetworkString
 title: ParseNetworkString function (iphlpapi.h)
-description: Parses the input network string and checks whether it is a legal representation of the specified IP network string type. If the string matches a type and its specification, the function can optionally return the parsed result.helpviewer_keywords: ["NET_STRING_ANY_ADDRESS","NET_STRING_ANY_ADDRESS_NO_SCOPE","NET_STRING_ANY_SERVICE","NET_STRING_ANY_SERVICE_NO_SCOPE","NET_STRING_IPV4_ADDRESS","NET_STRING_IPV4_NETWORK","NET_STRING_IPV4_SERVICE","NET_STRING_IPV6_ADDRESS","NET_STRING_IPV6_ADDRESS_NO_SCOPE","NET_STRING_IPV6_NETWORK","NET_STRING_IPV6_SERVICE","NET_STRING_IPV6_SERVICE_NO_SCOPE","NET_STRING_IP_ADDRESS","NET_STRING_IP_ADDRESS_NO_SCOPE","NET_STRING_IP_NETWORK","NET_STRING_IP_SERVICE","NET_STRING_IP_SERVICE_NO_SCOPE","NET_STRING_NAMED_ADDRESS","NET_STRING_NAMED_SERVICE","ParseNetworkString","ParseNetworkString function [IP Helper]","iphlp.parsenetworkstring","iphlpapi/ParseNetworkString"]
+description: Parses the input network string and checks whether it is a legal representation of the specified IP network string type. If the string matches a type and its specification, the function can optionally return the parsed result.
+helpviewer_keywords: ["NET_STRING_ANY_ADDRESS","NET_STRING_ANY_ADDRESS_NO_SCOPE","NET_STRING_ANY_SERVICE","NET_STRING_ANY_SERVICE_NO_SCOPE","NET_STRING_IPV4_ADDRESS","NET_STRING_IPV4_NETWORK","NET_STRING_IPV4_SERVICE","NET_STRING_IPV6_ADDRESS","NET_STRING_IPV6_ADDRESS_NO_SCOPE","NET_STRING_IPV6_NETWORK","NET_STRING_IPV6_SERVICE","NET_STRING_IPV6_SERVICE_NO_SCOPE","NET_STRING_IP_ADDRESS","NET_STRING_IP_ADDRESS_NO_SCOPE","NET_STRING_IP_NETWORK","NET_STRING_IP_SERVICE","NET_STRING_IP_SERVICE_NO_SCOPE","NET_STRING_NAMED_ADDRESS","NET_STRING_NAMED_SERVICE","ParseNetworkString","ParseNetworkString function [IP Helper]","iphlp.parsenetworkstring","iphlpapi/ParseNetworkString"]
 old-location: iphlp\parsenetworkstring.htm
 tech.root: IpHlp
 ms.assetid: 43bc866f-7776-4f59-9ed6-4c6fc4da7f83
@@ -436,7 +437,7 @@ The <b>ParseNetworkString</b> function can parse representations of IPv4 or IPv6
     services using DNS names.
 
 
-The [NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)a> structure pointed to by the <i>AddressInfo</i> parameter. The SOCKADDR_IN and SOCKADDR structures are defined in the  <i>Ws2def.h</i> header file which is automatically included by the <i>Winsock2.h</i> header file. The SOCKADDR_IN6 structure is defined in the <i>Ws2ipdef.h</i> header file which is automatically included by the <i>Ws2tcpip.h</i> header file. In order to use the <b>ParseNetworkString</b> function  and the <b>NET_ADDRESS_INFO</b> structure, the <i>Winsock2.h</i> and <i>Ws2tcpip.h</i> header files must be included before the <i>Iphlpapi.h</i> header file.  
+The [NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info) structure pointed to by the <i>AddressInfo</i> parameter. The SOCKADDR_IN and SOCKADDR structures are defined in the  <i>Ws2def.h</i> header file which is automatically included by the <i>Winsock2.h</i> header file. The SOCKADDR_IN6 structure is defined in the <i>Ws2ipdef.h</i> header file which is automatically included by the <i>Ws2tcpip.h</i> header file. In order to use the <b>ParseNetworkString</b> function  and the <b>NET_ADDRESS_INFO</b> structure, the <i>Winsock2.h</i> and <i>Ws2tcpip.h</i> header files must be included before the <i>Iphlpapi.h</i> header file.  
 
 
 
@@ -446,11 +447,11 @@ The [NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/n
 
 
 
-[NET_ADDRESS_FORMAT](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ne-iphlpapi-net_address_format)a>
+[NET_ADDRESS_FORMAT](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ne-iphlpapi-net_address_format)
 
 
 
-[NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)a>
+[NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)
 
 
 

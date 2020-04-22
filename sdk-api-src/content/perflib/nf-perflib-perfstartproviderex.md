@@ -1,7 +1,8 @@
 ---
 UID: NF:perflib.PerfStartProviderEx
 title: PerfStartProviderEx function (perflib.h)
-description: Registers the provider.helpviewer_keywords: ["PerfStartProviderEx","PerfStartProviderEx function [Perf]","perf.perfstartproviderex","perflib/PerfStartProviderEx"]
+description: Registers the provider.
+helpviewer_keywords: ["PerfStartProviderEx","PerfStartProviderEx function [Perf]","perf.perfstartproviderex","perflib/PerfStartProviderEx"]
 old-location: perf\perfstartproviderex.htm
 tech.root: perfctrs
 ms.assetid: 9f3aefbf-0836-46fc-8a53-858c3c94cef9
@@ -66,7 +67,7 @@ GUID that uniquely identifies the provider. The <b>providerGuid</b> attribute of
 
 ### -param ProviderContext [in, optional]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/perflib/ns-perflib-perf_provider_context">PERF_PROVIDER_CONTEXT</a> structure that contains pointers to the control callback, memory management routines, and context information.  
+A <a href="/windows/win32/api/perflib/ns-perflib-perf_provider_context">PERF_PROVIDER_CONTEXT</a> structure that contains pointers to the control callback, memory management routines, and context information.  
 
 
 ### -param Provider [out]

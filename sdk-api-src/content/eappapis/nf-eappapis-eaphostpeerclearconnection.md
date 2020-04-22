@@ -1,7 +1,8 @@
 ---
 UID: NF:eappapis.EapHostPeerClearConnection
 title: EapHostPeerClearConnection function (eappapis.h)
-description: Clears the authentication session connection.helpviewer_keywords: ["EapHostPeerClearConnection","EapHostPeerClearConnection function [EAPHost]","eaphost.eaphostpeerclearconnection","eappapis/EapHostPeerClearConnection"]
+description: Clears the authentication session connection.
+helpviewer_keywords: ["EapHostPeerClearConnection","EapHostPeerClearConnection function [EAPHost]","eaphost.eaphostpeerclearconnection","eappapis/EapHostPeerClearConnection"]
 old-location: eaphost\eaphostpeerclearconnection.htm
 tech.root: eaphost
 ms.assetid: 1d997e4e-6e7f-47db-9957-9658e54c0bdf
@@ -72,7 +73,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-[EAPHost Supplicant Run-time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
+[EAPHost Supplicant Run-time Functions](/windows/win32/eaphost/eap-host-supplicant-run-time-functions)
 
 
 

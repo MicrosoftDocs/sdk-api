@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothSendAuthenticationResponse
 title: BluetoothSendAuthenticationResponse function (bluetoothapis.h)
-description: The BluetoothSendAuthenticationResponse function is called when an authentication request to send the passkey response is received.helpviewer_keywords: ["BluetoothSendAuthenticationResponse","BluetoothSendAuthenticationResponse function [Bluetooth]","bluetooth.bluetoothsendauthenticationresponse","bluetoothapis/BluetoothSendAuthenticationResponse"]
+description: The BluetoothSendAuthenticationResponse function is called when an authentication request to send the passkey response is received.
+helpviewer_keywords: ["BluetoothSendAuthenticationResponse","BluetoothSendAuthenticationResponse function [Bluetooth]","bluetooth.bluetoothsendauthenticationresponse","bluetoothapis/BluetoothSendAuthenticationResponse"]
 old-location: bluetooth\bluetoothsendauthenticationresponse.htm
 tech.root: bluetooth
 ms.assetid: 4483f04e-09a2-4bd4-879c-c3a263c685de
@@ -65,7 +66,7 @@ Optional handle to the local radio handle, or <b>NULL</b>. If <b>NULL</b>, the f
 
 ### -param pbtdi
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure describing the Bluetooth device being authenticated. This can be the same structure passed to the callback function.
+Pointer to a <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure describing the Bluetooth device being authenticated. This can be the same structure passed to the callback function.
 
 
 ### -param pszPasskey
@@ -118,7 +119,7 @@ The device returned a failure code during authentication.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 

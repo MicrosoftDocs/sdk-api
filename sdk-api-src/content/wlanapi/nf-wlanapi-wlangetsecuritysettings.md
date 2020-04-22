@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanGetSecuritySettings
 title: WlanGetSecuritySettings function (wlanapi.h)
-description: Gets the security settings associated with a configurable object.helpviewer_keywords: ["WlanGetSecuritySettings","WlanGetSecuritySettings function [NativeWIFI]","nwifi.wlangetsecuritysettings","wlan_opcode_value_type_set_by_group_policy","wlan_opcode_value_type_set_by_user","wlanapi/WlanGetSecuritySettings"]
+description: Gets the security settings associated with a configurable object.
+helpviewer_keywords: ["WlanGetSecuritySettings","WlanGetSecuritySettings function [NativeWIFI]","nwifi.wlangetsecuritysettings","wlan_opcode_value_type_set_by_group_policy","wlan_opcode_value_type_set_by_user","wlanapi/WlanGetSecuritySettings"]
 old-location: nwifi\wlangetsecuritysettings.htm
 tech.root: NativeWiFi
 ms.assetid: 5e14a70c-c049-4cd1-8675-2b01ed11463f
@@ -69,7 +70,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wla
 
 ### -param pValueType [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value that specifies the source of the security settings.
+A pointer to a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value that specifies the source of the security settings.
 
 <table>
 <tr>

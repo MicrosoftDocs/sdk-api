@@ -1,7 +1,8 @@
 ---
 UID: NI:winioctl.FSCTL_QUERY_ON_DISK_VOLUME_INFO
 title: FSCTL_QUERY_ON_DISK_VOLUME_INFO
-description: Requests UDF-specific volume information.helpviewer_keywords: ["FSCTL_QUERY_ON_DISK_VOLUME_INFO","FSCTL_QUERY_ON_DISK_VOLUME_INFO control","FSCTL_QUERY_ON_DISK_VOLUME_INFO control code [Files]","fs.fsctl_query_on_disk_volume_info","winioctl/FSCTL_QUERY_ON_DISK_VOLUME_INFO"]
+description: Requests UDF-specific volume information.
+helpviewer_keywords: ["FSCTL_QUERY_ON_DISK_VOLUME_INFO","FSCTL_QUERY_ON_DISK_VOLUME_INFO control","FSCTL_QUERY_ON_DISK_VOLUME_INFO control code [Files]","fs.fsctl_query_on_disk_volume_info","winioctl/FSCTL_QUERY_ON_DISK_VOLUME_INFO"]
 old-location: fs\fsctl_query_on_disk_volume_info.htm
 tech.root: FileIO
 ms.assetid: 6d34007e-4e6f-433e-9d85-9b2743e1c1d2
@@ -220,7 +221,7 @@ No
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-file_query_on_disk_vol_info_buffer">FILE_QUERY_ON_DISK_VOL_INFO_BUFFER</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-file_query_on_disk_vol_info_buffer">FILE_QUERY_ON_DISK_VOL_INFO_BUFFER</a>
 
 
 

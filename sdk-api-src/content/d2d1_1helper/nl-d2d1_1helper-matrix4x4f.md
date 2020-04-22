@@ -1,7 +1,8 @@
 ---
 UID: NL:d2d1_1helper.Matrix4x4F
 title: Matrix4x4F (d2d1_1helper.h)
-description: The Matrix4x4F class represents a 4-by-4 matrix and provides convenience methods for creating matrices.helpviewer_keywords: ["Matrix4x4F","Matrix4x4F class [Direct2D]","Matrix4x4F class [Direct2D]","described","d2d1_1helper/Matrix4x4F","direct2d.matrix4x4f"]
+description: The Matrix4x4F class represents a 4-by-4 matrix and provides convenience methods for creating matrices.
+helpviewer_keywords: ["Matrix4x4F","Matrix4x4F class [Direct2D]","Matrix4x4F class [Direct2D]","described","d2d1_1helper/Matrix4x4F","direct2d.matrix4x4f"]
 old-location: direct2d\matrix4x4f.htm
 tech.root: Direct2D
 ms.assetid: 113861DF-2E6D-4930-82DC-AA592882E21C
@@ -54,7 +55,7 @@ The <b>Matrix4x4F</b> class represents a 4-by-4 matrix and provides convenience 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">Matrix4x4F</b> has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/windows/win32/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator-mult">Operators</a></li>
+<li><a href="/windows/win32/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator-mult">Operators</a></li>
 </ul><h3><a id="methods"></a>Methods</h3>The <b>Matrix4x4F</b> class has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -187,7 +188,7 @@ Skews the matrix in the Y direction.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator-mult">operator*</a>
+<a href="/windows/win32/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator-mult">operator*</a>
 </td>
 <td align="left" width="63%">
 Multiplies this matrix with the specified matrix and returns the result.
@@ -358,7 +359,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">Matrix4x4F</b> class has thes
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator-mult">operator*</a>
+<a href="/windows/win32/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator-mult">operator*</a>
 </td>
 <td align="left" width="63%">
 Multiplies this matrix with the specified matrix and returns the result.

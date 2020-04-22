@@ -1,7 +1,8 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.ProcessOutput
 title: IMFDeviceTransform::ProcessOutput (mftransform.h)
-description: The ProcessOutput method gets the processed output from the Device MFT output streams.helpviewer_keywords: ["IMFDeviceTransform interface [Streaming Media Devices]","ProcessOutput method","IMFDeviceTransform.ProcessOutput","IMFDeviceTransform::ProcessOutput","ProcessOutput","ProcessOutput method [Streaming Media Devices]","ProcessOutput method [Streaming Media Devices]","IMFDeviceTransform interface","mftransform/IMFDeviceTransform::ProcessOutput","stream.imfdevicetransform_processoutput"]
+description: The ProcessOutput method gets the processed output from the Device MFT output streams.
+helpviewer_keywords: ["IMFDeviceTransform interface [Streaming Media Devices]","ProcessOutput method","IMFDeviceTransform.ProcessOutput","IMFDeviceTransform::ProcessOutput","ProcessOutput","ProcessOutput method [Streaming Media Devices]","ProcessOutput method [Streaming Media Devices]","IMFDeviceTransform interface","mftransform/IMFDeviceTransform::ProcessOutput","stream.imfdevicetransform_processoutput"]
 old-location: stream\imfdevicetransform_processoutput.htm
 tech.root: stream
 ms.assetid: A99242D6-5225-493C-A5A8-CFDBB49D01A0
@@ -59,7 +60,7 @@ The <b>ProcessOutput</b> method gets the processed output from the Device MFT ou
 
 ### -param dwFlags [in]
 
-Bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_process_output_flags">_MFT_PROCESS_OUTPUT_FLAGS</a> enumeration.
+Bitwise OR of zero or more flags from the <a href="/windows/win32/api/mftransform/ne-mftransform-_mft_process_output_flags">_MFT_PROCESS_OUTPUT_FLAGS</a> enumeration.
 
 
 ### -param cOutputBufferCount [in]
@@ -74,7 +75,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/m
 
 ### -param pdwStatus [in]
 
-Receives a bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_process_output_status">_MFT_PROCESS_OUTPUT_STATUS</a> enumeration.
+Receives a bitwise OR of zero or more flags from the <a href="/windows/win32/api/mftransform/ne-mftransform-_mft_process_output_status">_MFT_PROCESS_OUTPUT_STATUS</a> enumeration.
 
 
 ## -returns

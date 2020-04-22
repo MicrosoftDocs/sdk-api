@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IConditionFactory.MakeNot
 title: IConditionFactory::MakeNot (structuredquery.h)
-description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).helpviewer_keywords: ["IConditionFactory interface [search]","MakeNot method","IConditionFactory.MakeNot","IConditionFactory::MakeNot","MakeNot","MakeNot method [search]","MakeNot method [search]","IConditionFactory interface","_search_IConditionFactory_MakeNot","search._search_IConditionFactory_MakeNot","structuredquery/IConditionFactory::MakeNot"]
+description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
+helpviewer_keywords: ["IConditionFactory interface [search]","MakeNot method","IConditionFactory.MakeNot","IConditionFactory::MakeNot","MakeNot","MakeNot method [search]","MakeNot method [search]","IConditionFactory interface","_search_IConditionFactory_MakeNot","search._search_IConditionFactory_MakeNot","structuredquery/IConditionFactory::MakeNot"]
 old-location: search\_search_IConditionFactory_MakeNot.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makenot.htm
@@ -110,11 +111,11 @@ Applications that need to execute queries based on the condition tree would typi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

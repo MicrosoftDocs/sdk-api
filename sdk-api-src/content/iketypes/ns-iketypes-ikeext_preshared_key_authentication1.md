@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_PRESHARED_KEY_AUTHENTICATION1__
 title: IKEEXT_PRESHARED_KEY_AUTHENTICATION1 (iketypes.h)
-description: Stores information needed for pre-shared key authentication.helpviewer_keywords: ["IKEEXT_PRESHARED_KEY_AUTHENTICATION1","IKEEXT_PRESHARED_KEY_AUTHENTICATION1 structure [Filtering]","IKEEXT_PSK_FLAG_LOCAL_AUTH_ONLY","IKEEXT_PSK_FLAG_REMOTE_AUTH_ONLY","fwp.ikeext_preshared_key_authentication1","iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION1"]
+description: Stores information needed for pre-shared key authentication.
+helpviewer_keywords: ["IKEEXT_PRESHARED_KEY_AUTHENTICATION1","IKEEXT_PRESHARED_KEY_AUTHENTICATION1 structure [Filtering]","IKEEXT_PSK_FLAG_LOCAL_AUTH_ONLY","IKEEXT_PSK_FLAG_REMOTE_AUTH_ONLY","fwp.ikeext_preshared_key_authentication1","iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION1"]
 old-location: fwp\ikeext_preshared_key_authentication1.htm
 tech.root: fwp
 ms.assetid: b2009797-f5fd-4d14-8a59-832f9a0acff1
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION1</b> structure stores information needed for pre-shared key authentication.
-[IKEEXT_PRESHARED_KEY_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0)a> is available.</div><div> </div>
+[IKEEXT_PRESHARED_KEY_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -59,7 +60,7 @@ The <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION1</b> structure stores information nee
 
 ### -field presharedKey
 
-The pre-shared key specified by [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>.
+The pre-shared key specified by [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob).
 
 
 ### -field flags
@@ -104,7 +105,7 @@ Applicable only to IKEv2.
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 

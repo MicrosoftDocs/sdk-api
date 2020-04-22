@@ -1,7 +1,8 @@
 ---
 UID: NN:rrascfg.IEAPProviderConfig
 title: IEAPProviderConfig (rrascfg.h)
-description: UI for EAP provider.helpviewer_keywords: ["IEAPProviderConfig","IEAPProviderConfig interface [EAP]","IEAPProviderConfig interface [EAP]","described","_eap_ieapproviderconfig","eap.ieapproviderconfig","rrascfg/IEAPProviderConfig"]
+description: UI for EAP provider.
+helpviewer_keywords: ["IEAPProviderConfig","IEAPProviderConfig interface [EAP]","IEAPProviderConfig interface [EAP]","described","_eap_ieapproviderconfig","eap.ieapproviderconfig","rrascfg/IEAPProviderConfig"]
 old-location: eap\ieapproviderconfig.htm
 tech.root: EAP
 ms.assetid: 1e0283b7-ceb3-4c8a-99d9-1a1f1eb5eeb0
@@ -119,11 +120,11 @@ Shuts down an EAP configuration session.
 
 
 
-[EAP Interfaces](https://docs.microsoft.com/windows/win32/eap/eap-interfaces)a>
+[EAP Interfaces](/windows/win32/eap/eap-interfaces)
 
 
 
-[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
+[Extensible Authentication Protocol Reference](/windows/win32/eap/extensible-authentication-protocol-reference)
  
 
  

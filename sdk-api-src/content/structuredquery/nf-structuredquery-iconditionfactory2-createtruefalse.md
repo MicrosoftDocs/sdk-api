@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateTrueFalse
 title: IConditionFactory2::CreateTrueFalse (structuredquery.h)
-description: Creates a search condition that is either TRUE or FALSE.helpviewer_keywords: ["CreateTrueFalse","CreateTrueFalse method [search]","CreateTrueFalse method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateTrueFalse method","IConditionFactory2.CreateTrueFalse","IConditionFactory2::CreateTrueFalse","_search_IConditionFactory2_CreateTrueFalse","search._search_IConditionFactory2_CreateTrueFalse","structuredquery/IConditionFactory2::CreateTrueFalse"]
+description: Creates a search condition that is either TRUE or FALSE.
+helpviewer_keywords: ["CreateTrueFalse","CreateTrueFalse method [search]","CreateTrueFalse method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateTrueFalse method","IConditionFactory2.CreateTrueFalse","IConditionFactory2::CreateTrueFalse","_search_IConditionFactory2_CreateTrueFalse","search._search_IConditionFactory2_CreateTrueFalse","structuredquery/IConditionFactory2::CreateTrueFalse"]
 old-location: search\_search_IConditionFactory2_CreateTrueFalse.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createtruefalse.htm
@@ -115,11 +116,11 @@ For default options, use the <i>CONDITION_CREATION_DEFAULT</i> flag.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

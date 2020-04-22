@@ -1,7 +1,8 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_LOCAL_SERVICE_INFO
 title: BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT (bluetoothapis.h)
-description: Contains local service information for a Bluetooth device.helpviewer_keywords: ["BLUETOOTH_LOCAL_SERVICE_INFO","BLUETOOTH_LOCAL_SERVICE_INFO structure [Bluetooth]","BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT","_BLUETOOTH_LOCAL_SERVICE_INFO","bluetooth.bluetooth_local_service_info","bluetoothapis/BLUETOOTH_LOCAL_SERVICE_INFO"]
+description: Contains local service information for a Bluetooth device.
+helpviewer_keywords: ["BLUETOOTH_LOCAL_SERVICE_INFO","BLUETOOTH_LOCAL_SERVICE_INFO structure [Bluetooth]","BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT","_BLUETOOTH_LOCAL_SERVICE_INFO","bluetooth.bluetooth_local_service_info","bluetoothapis/BLUETOOTH_LOCAL_SERVICE_INFO"]
 old-location: bluetooth\bluetooth_local_service_info.htm
 tech.root: bluetooth
 ms.assetid: d16fe6f1-4b76-4dbe-825e-e3995d2b4961
@@ -64,7 +65,7 @@ If <b>TRUE</b>, specifies that the advertised services are enabled; otherwise th
 
 ### -field btAddr
 
-A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_address_struct">BLUETOOTH_ADDRESS</a> structure that contains the address of a remote device. This address is used when advertising services to a device.
+A <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_address_struct">BLUETOOTH_ADDRESS</a> structure that contains the address of a remote device. This address is used when advertising services to a device.
 
 
 ### -field szName

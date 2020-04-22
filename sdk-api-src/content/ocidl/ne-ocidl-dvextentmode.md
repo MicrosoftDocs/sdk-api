@@ -1,7 +1,8 @@
 ---
 UID: NE:ocidl.tagExtentMode
 title: DVEXTENTMODE (ocidl.h)
-description: Indicates whether the sizing mode is content or integral sizing.helpviewer_keywords: ["DVEXTENTMODE","DVEXTENTMODE enumeration [COM]","DVEXTENT_CONTENT","DVEXTENT_INTEGRAL","_ole_DVEXTENTMODE","com.dvextentmode","ocidl/DVEXTENTMODE","ocidl/DVEXTENT_CONTENT","ocidl/DVEXTENT_INTEGRAL"]
+description: Indicates whether the sizing mode is content or integral sizing.
+helpviewer_keywords: ["DVEXTENTMODE","DVEXTENTMODE enumeration [COM]","DVEXTENT_CONTENT","DVEXTENT_INTEGRAL","_ole_DVEXTENTMODE","com.dvextentmode","ocidl/DVEXTENTMODE","ocidl/DVEXTENT_CONTENT","ocidl/DVEXTENT_INTEGRAL"]
 old-location: com\dvextentmode.htm
 tech.root: com
 ms.assetid: 5848c26d-d185-4ad9-8841-bb8b622364ee
@@ -72,7 +73,7 @@ Indicates that the container will provide a proposed size to the object for its 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ocidl/ns-ocidl-dvextentinfo">DVEXTENTINFO</a>
+<a href="/windows/win32/api/ocidl/ns-ocidl-dvextentinfo">DVEXTENTINFO</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:msrdc.ISimilarityTraitsTable
 title: ISimilarityTraitsTable (msrdc.h)
-description: Defines methods for storing per-file similarity data and performing similarity lookups.helpviewer_keywords: ["ISimilarityTraitsTable","ISimilarityTraitsTable interface [Remote Differential Compression]","ISimilarityTraitsTable interface [Remote Differential Compression]","described","fs.isimilaritytraitstable","msrdc/ISimilarityTraitsTable","rdc.isimilaritytraitstable"]
+description: Defines methods for storing per-file similarity data and performing similarity lookups.
+helpviewer_keywords: ["ISimilarityTraitsTable","ISimilarityTraitsTable interface [Remote Differential Compression]","ISimilarityTraitsTable interface [Remote Differential Compression]","described","fs.isimilaritytraitstable","msrdc/ISimilarityTraitsTable","rdc.isimilaritytraitstable"]
 old-location: rdc\isimilaritytraitstable.htm
 tech.root: rdc
 ms.assetid: 0985e27c-aa70-43c1-bcec-00ef14f2df58
@@ -72,7 +73,7 @@ The <b>ISimilarityTraitsTable</b> interface has these methods.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-append">Append</a>
 </td>
 <td align="left" width="63%">
-Adds a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure to the similarity traits table.
+Adds a <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure to the similarity traits table.
 
 </td>
 </tr>

@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceRecycle
 title: IComResourceEvents::OnResourceRecycle (comsvcs.h)
-description: Generated when an object is finished with a resource.helpviewer_keywords: ["IComResourceEvents interface [COM+]","OnResourceRecycle method","IComResourceEvents.OnResourceRecycle","IComResourceEvents::OnResourceRecycle","OnResourceRecycle","OnResourceRecycle method [COM+]","OnResourceRecycle method [COM+]","IComResourceEvents interface","_dtc_IComResourceEvents_OnResourceRecycle","comsvcs/IComResourceEvents::OnResourceRecycle","cos.icomresourceevents_onresourcerecycle"]
+description: Generated when an object is finished with a resource.
+helpviewer_keywords: ["IComResourceEvents interface [COM+]","OnResourceRecycle method","IComResourceEvents.OnResourceRecycle","IComResourceEvents::OnResourceRecycle","OnResourceRecycle","OnResourceRecycle method [COM+]","OnResourceRecycle method [COM+]","IComResourceEvents interface","_dtc_IComResourceEvents_OnResourceRecycle","comsvcs/IComResourceEvents::OnResourceRecycle","cos.icomresourceevents_onresourcerecycle"]
 old-location: cos\icomresourceevents_onresourcerecycle.htm
 tech.root: cossdk
 ms.assetid: 615e0f73-2935-4ef3-94c9-5c74b5c82db4
@@ -59,7 +60,7 @@ Generated when an object is finished with a resource.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param ObjectID [in]

@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._CACHE_RELATIONSHIP
 title: CACHE_RELATIONSHIP (winnt.h)
-description: Describes cache attributes. This structure is used with the GetLogicalProcessorInformationEx function.helpviewer_keywords: ["*PCACHE_RELATIONSHIP","CACHE_RELATIONSHIP","CACHE_RELATIONSHIP structure","PCACHE_RELATIONSHIP","PCACHE_RELATIONSHIP structure pointer","_CACHE_RELATIONSHIP","base.cache_relationship","winnt/CACHE_RELATIONSHIP","winnt/PCACHE_RELATIONSHIP"]
+description: Describes cache attributes. This structure is used with the GetLogicalProcessorInformationEx function.
+helpviewer_keywords: ["*PCACHE_RELATIONSHIP","CACHE_RELATIONSHIP","CACHE_RELATIONSHIP structure","PCACHE_RELATIONSHIP","PCACHE_RELATIONSHIP structure pointer","_CACHE_RELATIONSHIP","base.cache_relationship","winnt/CACHE_RELATIONSHIP","winnt/PCACHE_RELATIONSHIP"]
 old-location: base\cache_relationship.htm
 tech.root: ProcThread
 ms.assetid: f8fe521b-02d6-4c58-8ef8-653280add111
@@ -150,7 +151,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+<a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
  
 
  

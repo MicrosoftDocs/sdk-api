@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptGetTimeValidObject
 title: CryptGetTimeValidObject function (wincrypt.h)
-description: Retrieves a CRL, an OCSP response, or CTL object that is valid within a given context and time.helpviewer_keywords: ["CRYPT_ACCUMULATIVE_TIMEOUT","CRYPT_CACHE_ONLY_RETRIEVAL","CRYPT_CHECK_FRESHNESS_TIME_VALIDITY","CRYPT_DONT_CHECK_TIME_VALIDITY","CRYPT_DONT_VERIFY_SIGNATURE","CRYPT_KEEP_TIME_VALID","CRYPT_OCSP_ONLY_RETRIEVAL","CRYPT_WIRE_ONLY_RETRIEVAL","CryptGetTimeValidObject","CryptGetTimeValidObject function [Security]","TIME_VALID_OID_GET_CRL","TIME_VALID_OID_GET_CRL_FROM_CERT","TIME_VALID_OID_GET_CTL","TIME_VALID_OID_GET_FRESHEST_CRL_FROM_CERT","TIME_VALID_OID_GET_FRESHEST_CRL_FROM_CRL","security.cryptgettimevalidobject","wincrypt/CryptGetTimeValidObject"]
+description: Retrieves a CRL, an OCSP response, or CTL object that is valid within a given context and time.
+helpviewer_keywords: ["CRYPT_ACCUMULATIVE_TIMEOUT","CRYPT_CACHE_ONLY_RETRIEVAL","CRYPT_CHECK_FRESHNESS_TIME_VALIDITY","CRYPT_DONT_CHECK_TIME_VALIDITY","CRYPT_DONT_VERIFY_SIGNATURE","CRYPT_KEEP_TIME_VALID","CRYPT_OCSP_ONLY_RETRIEVAL","CRYPT_WIRE_ONLY_RETRIEVAL","CryptGetTimeValidObject","CryptGetTimeValidObject function [Security]","TIME_VALID_OID_GET_CRL","TIME_VALID_OID_GET_CRL_FROM_CERT","TIME_VALID_OID_GET_CTL","TIME_VALID_OID_GET_FRESHEST_CRL_FROM_CERT","TIME_VALID_OID_GET_FRESHEST_CRL_FROM_CRL","security.cryptgettimevalidobject","wincrypt/CryptGetTimeValidObject"]
 old-location: security\cryptgettimevalidobject.htm
 tech.root: SecCrypto
 ms.assetid: dd639b43-1560-4e9f-a778-9e20484ae012
@@ -275,7 +276,7 @@ A pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api
 
 ### -param pExtraInfo [in, out, optional]
 
-A pointer to an optional <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_get_time_valid_object_extra_info">CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</a> structure that contains extra information about the cache entry for an object.
+A pointer to an optional <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_get_time_valid_object_extra_info">CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</a> structure that contains extra information about the cache entry for an object.
 
 
 ## -returns

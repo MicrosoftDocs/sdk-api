@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphIndices
 title: IXpsOMGlyphs::GetGlyphIndices (xpsobjectmodel.h)
-description: Gets an array of XPS_GLYPH_INDEX structures that describe the specific glyph indices in the font.helpviewer_keywords: ["GetGlyphIndices","GetGlyphIndices method [XPS Documents and Packaging]","GetGlyphIndices method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetGlyphIndices method","IXpsOMGlyphs.GetGlyphIndices","IXpsOMGlyphs::GetGlyphIndices","xps.ixpsomglyphs_getglyphindices","xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndices"]
+description: Gets an array of XPS_GLYPH_INDEX structures that describe the specific glyph indices in the font.
+helpviewer_keywords: ["GetGlyphIndices","GetGlyphIndices method [XPS Documents and Packaging]","GetGlyphIndices method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetGlyphIndices method","IXpsOMGlyphs.GetGlyphIndices","IXpsOMGlyphs::GetGlyphIndices","xps.ixpsomglyphs_getglyphindices","xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndices"]
 old-location: xps\ixpsomglyphs_getglyphindices.htm
 tech.root: printdocs
 ms.assetid: 6698ae0b-3525-4612-8234-8ba4dd2870a0
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
+Gets an array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
 
 
 ## -parameters
@@ -59,12 +60,12 @@ Gets an array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobject
 
 ### -param indexCount [in, out]
 
-The number of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that will fit in  the array that is referenced by <i>glyphIndices</i>. When the method returns, <i>indexCount</i>  will contain the number of <b>XPS_GLYPH_INDEX</b> structures that are returned in the array referenced by <i>glyphIndices</i>.
+The number of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that will fit in  the array that is referenced by <i>glyphIndices</i>. When the method returns, <i>indexCount</i>  will contain the number of <b>XPS_GLYPH_INDEX</b> structures that are returned in the array referenced by <i>glyphIndices</i>.
 
 
 ### -param glyphIndices [in, out]
 
-The address of an array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that receive the glyph indices.
+The address of an array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that receive the glyph indices.
 
 
 ## -returns
@@ -124,7 +125,7 @@ The method succeeded.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphindexcount">GetGlyphIndexCount</a> gets the number of elements in the glyph index array.
 
-The glyph indices override the default <b>cmap</b> mapping from the <b>UnicodeString</b> to the glyph index. The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structure also contains advance width as well as vertical and horizontal offset information.
+The glyph indices override the default <b>cmap</b> mapping from the <b>UnicodeString</b> to the glyph index. The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structure also contains advance width as well as vertical and horizontal offset information.
 
 
 
@@ -150,7 +151,7 @@ The glyph indices override the default <b>cmap</b> mapping from the <b>UnicodeSt
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a>
  
 
  

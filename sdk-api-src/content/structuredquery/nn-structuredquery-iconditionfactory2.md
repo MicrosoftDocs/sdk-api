@@ -1,7 +1,8 @@
 ---
 UID: NN:structuredquery.IConditionFactory2
 title: IConditionFactory2 (structuredquery.h)
-description: Extends the functionality of IConditionFactory. IConditionFactory2 provides methods for creating or resolving a condition tree that was obtained by parsing a query string.helpviewer_keywords: ["IConditionFactory2","IConditionFactory2 interface [search]","IConditionFactory2 interface [search]","described","_search_IConditionFactory2","search._search_IConditionFactory2","structuredquery/IConditionFactory2"]
+description: Extends the functionality of IConditionFactory. IConditionFactory2 provides methods for creating or resolving a condition tree that was obtained by parsing a query string.
+helpviewer_keywords: ["IConditionFactory2","IConditionFactory2 interface [search]","IConditionFactory2 interface [search]","described","_search_IConditionFactory2","search._search_IConditionFactory2","structuredquery/IConditionFactory2"]
 old-location: search\_search_IConditionFactory2.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\iconditionfactory2.htm
@@ -174,11 +175,11 @@ condition trees.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

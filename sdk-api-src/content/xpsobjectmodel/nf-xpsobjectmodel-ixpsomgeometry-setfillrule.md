@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.SetFillRule
 title: IXpsOMGeometry::SetFillRule (xpsobjectmodel.h)
-description: Sets the XPS_FILL_RULE value that describes the fill rule to be used.helpviewer_keywords: ["IXpsOMGeometry interface [XPS Documents and Packaging]","SetFillRule method","IXpsOMGeometry.SetFillRule","IXpsOMGeometry::SetFillRule","SetFillRule","SetFillRule method [XPS Documents and Packaging]","SetFillRule method [XPS Documents and Packaging]","IXpsOMGeometry interface","xps.ixpsomgeometry_setfillrule","xpsobjectmodel/IXpsOMGeometry::SetFillRule"]
+description: Sets the XPS_FILL_RULE value that describes the fill rule to be used.
+helpviewer_keywords: ["IXpsOMGeometry interface [XPS Documents and Packaging]","SetFillRule method","IXpsOMGeometry.SetFillRule","IXpsOMGeometry::SetFillRule","SetFillRule","SetFillRule method [XPS Documents and Packaging]","SetFillRule method [XPS Documents and Packaging]","IXpsOMGeometry interface","xps.ixpsomgeometry_setfillrule","xpsobjectmodel/IXpsOMGeometry::SetFillRule"]
 old-location: xps\ixpsomgeometry_setfillrule.htm
 tech.root: printdocs
 ms.assetid: e219a505-48e0-46b0-a739-d46fb898bc58
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Sets the  <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Sets the  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/n
 
 ### -param fillRule [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
 
 
 ## -returns
@@ -91,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>fillRule</i> is not a valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value.
+<i>fillRule</i> is not a valid <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value.
 
 </td>
 </tr>
@@ -105,7 +106,7 @@ The method succeeded.
 
 
 
-For more information about how the file rule determines whether a point is inside the fill region, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a>. 
+For more information about how the file rule determines whether a point is inside the fill region, see <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a>. 
 
 In the document markup, this value corresponds to the <b>FillRule</b> attribute of the <b>PathGeometry</b> element.
 
@@ -129,7 +130,7 @@ In the document markup, this value corresponds to the <b>FillRule</b> attribute 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a>
  
 
  

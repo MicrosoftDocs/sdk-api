@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionRectangleClip
 title: IDCompositionRectangleClip (dcomp.h)
-description: Represents a clip object that restricts the rendering of a visual subtree to the specified rectangular region. Optionally, the clip object may have rounded corners specified.helpviewer_keywords: ["IDCompositionRectangleClip","IDCompositionRectangleClip interface [DirectComposition]","IDCompositionRectangleClip interface [DirectComposition]","described","dcomp/IDCompositionRectangleClip","directcomp.idcompositionrectangleclip"]
+description: Represents a clip object that restricts the rendering of a visual subtree to the specified rectangular region. Optionally, the clip object may have rounded corners specified.
+helpviewer_keywords: ["IDCompositionRectangleClip","IDCompositionRectangleClip interface [DirectComposition]","IDCompositionRectangleClip interface [DirectComposition]","described","dcomp/IDCompositionRectangleClip","directcomp.idcompositionrectangleclip"]
 old-location: directcomp\idcompositionrectangleclip.htm
 tech.root: directcomp
 ms.assetid: 486bcdb9-e353-4ca2-b24c-af863dda7470
@@ -175,7 +176,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(constd2d_rect_f_)">IDCompositionVisual::SetClip</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(constd2d_rect_f_)">IDCompositionVisual::SetClip</a>
  
 
  

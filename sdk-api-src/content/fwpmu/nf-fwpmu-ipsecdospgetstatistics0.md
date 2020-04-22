@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.IPsecDospGetStatistics0
 title: IPsecDospGetStatistics0 function (fwpmu.h)
-description: The IPsecDospGetStatistics0 function retrieves Internet Protocol Security (IPsec) DoS Protection statistics.helpviewer_keywords: ["IPsecDospGetStatistics0","IPsecDospGetStatistics0 function [Filtering]","fwp.ipsecdospgetstatistics0","fwpmu/IPsecDospGetStatistics0"]
+description: The IPsecDospGetStatistics0 function retrieves Internet Protocol Security (IPsec) DoS Protection statistics.
+helpviewer_keywords: ["IPsecDospGetStatistics0","IPsecDospGetStatistics0 function [Filtering]","fwp.ipsecdospgetstatistics0","fwpmu/IPsecDospGetStatistics0"]
 old-location: fwp\ipsecdospgetstatistics0.htm
 tech.root: fwp
 ms.assetid: eb71e7c8-403c-4774-bc59-71e4a56ee1c4
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param idpStatistics [out]
 
-Type: [IPSEC_DOSP_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_statistics0)a>*</b>
+Type: [IPSEC_DOSP_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_statistics0)*</b>
 
 Top-level object of IPsec DoS Protection statistics organization.
 
@@ -143,7 +144,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[IPSEC_DOSP_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_statistics0)a>
+[IPSEC_DOSP_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_statistics0)
  
 
  

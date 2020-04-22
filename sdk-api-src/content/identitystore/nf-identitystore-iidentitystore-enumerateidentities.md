@@ -1,7 +1,8 @@
 ---
 UID: NF:identitystore.IIdentityStore.EnumerateIdentities
 title: IIdentityStore::EnumerateIdentities (identitystore.h)
-description: Gets a pointer to an IEnumUnknown interface pointer that can be used to enumerate identities across identity providers.helpviewer_keywords: ["EnumerateIdentities","EnumerateIdentities method [Security]","EnumerateIdentities method [Security]","IIdentityStore interface","IIdentityStore interface [Security]","EnumerateIdentities method","IIdentityStore.EnumerateIdentities","IIdentityStore::EnumerateIdentities","identitystore/IIdentityStore::EnumerateIdentities","security.iidentitystore_enumerateidentities"]
+description: Gets a pointer to an IEnumUnknown interface pointer that can be used to enumerate identities across identity providers.
+helpviewer_keywords: ["EnumerateIdentities","EnumerateIdentities method [Security]","EnumerateIdentities method [Security]","IIdentityStore interface","IIdentityStore interface [Security]","EnumerateIdentities method","IIdentityStore.EnumerateIdentities","IIdentityStore::EnumerateIdentities","identitystore/IIdentityStore::EnumerateIdentities","security.iidentitystore_enumerateidentities"]
 old-location: security\iidentitystore_enumerateidentities.htm
 tech.root: SecAuthN
 ms.assetid: df1a53e0-6296-49ed-b0f0-85e9dc9ab947
@@ -59,7 +60,7 @@ The <b>EnumerateIdentities</b> method gets a pointer to an <a href="https://docs
 
 ### -param eIdentityType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/identitycommon/ne-identitycommon-identity_type">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
+A value of the <a href="/windows/win32/api/identitycommon/ne-identitycommon-identity_type">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
 
 
 ### -param pFilterkey [in, optional]

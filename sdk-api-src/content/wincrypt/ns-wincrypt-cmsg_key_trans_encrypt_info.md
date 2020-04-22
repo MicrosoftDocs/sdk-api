@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_TRANS_ENCRYPT_INFO
 title: CMSG_KEY_TRANS_ENCRYPT_INFO (wincrypt.h)
-description: Contains encryption information for a key transport recipient of enveloped data.helpviewer_keywords: ["*PCMSG_KEY_TRANS_ENCRYPT_INFO","CMSG_KEY_TRANS_ENCRYPT_FREE_OBJID_FLAG","CMSG_KEY_TRANS_ENCRYPT_FREE_PARA_FLAG","CMSG_KEY_TRANS_ENCRYPT_INFO","CMSG_KEY_TRANS_ENCRYPT_INFO structure [Security]","PCMSG_KEY_TRANS_ENCRYPT_INFO","PCMSG_KEY_TRANS_ENCRYPT_INFO structure pointer [Security]","security.cmsg_key_trans_encrypt_info","wincrypt/CMSG_KEY_TRANS_ENCRYPT_INFO","wincrypt/PCMSG_KEY_TRANS_ENCRYPT_INFO"]
+description: Contains encryption information for a key transport recipient of enveloped data.
+helpviewer_keywords: ["*PCMSG_KEY_TRANS_ENCRYPT_INFO","CMSG_KEY_TRANS_ENCRYPT_FREE_OBJID_FLAG","CMSG_KEY_TRANS_ENCRYPT_FREE_PARA_FLAG","CMSG_KEY_TRANS_ENCRYPT_INFO","CMSG_KEY_TRANS_ENCRYPT_INFO structure [Security]","PCMSG_KEY_TRANS_ENCRYPT_INFO","PCMSG_KEY_TRANS_ENCRYPT_INFO structure pointer [Security]","security.cmsg_key_trans_encrypt_info","wincrypt/CMSG_KEY_TRANS_ENCRYPT_INFO","wincrypt/PCMSG_KEY_TRANS_ENCRYPT_INFO"]
 old-location: security\cmsg_key_trans_encrypt_info.htm
 tech.root: SecCrypto
 ms.assetid: f3122acb-92c8-4803-8c74-8b3a2cf2e16e
@@ -116,7 +117,7 @@ The <b>Parameters</b> <b>pbData</b> member of the <a href="https://docs.microsof
 
 
 
- When called with the <i>dwMsgType</i> parameter set to <b>CMSG_ENVELOPED</b>, the <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_key_trans_recipient_encode_info">CryptMsgOpenToEncode</a> function initializes the <b>CMSG_KEY_TRANS_ENCRYPT_INFO</b> structure from the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_trans_recipient_encode_info">CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO</a> structure. The <b>CryptMsgOpenToEncode</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_trans">PFN_CMSG_EXPORT_KEY_TRANS</a> function to update the <b>CMSG_KEY_TRANS_ENCRYPT_INFO</b> structure. If the callback function cannot be found, the <b>CryptMsgOpenToEncode</b> function fills this structure with default key information from the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_content_encrypt_info">CMSG_CONTENT_ENCRYPT_INFO</a> structure.
+ When called with the <i>dwMsgType</i> parameter set to <b>CMSG_ENVELOPED</b>, the <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_key_trans_recipient_encode_info">CryptMsgOpenToEncode</a> function initializes the <b>CMSG_KEY_TRANS_ENCRYPT_INFO</b> structure from the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_trans_recipient_encode_info">CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO</a> structure. The <b>CryptMsgOpenToEncode</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_trans">PFN_CMSG_EXPORT_KEY_TRANS</a> function to update the <b>CMSG_KEY_TRANS_ENCRYPT_INFO</b> structure. If the callback function cannot be found, the <b>CryptMsgOpenToEncode</b> function fills this structure with default key information from the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_content_encrypt_info">CMSG_CONTENT_ENCRYPT_INFO</a> structure.
 
 The following members of the <b>CMSG_KEY_TRANS_ENCRYPT_INFO</b> structure can be updated by the callback function:<dl>
 <dd><b>EncryptedKey</b></dd>

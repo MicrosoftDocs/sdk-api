@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_CALLOUT_CHANGE0_
 title: FWPM_CALLOUT_CHANGE0 (fwpmtypes.h)
-description: Specifies a change notification dispatched to subscribers.helpviewer_keywords: ["FWPM_CALLOUT_CHANGE0","FWPM_CALLOUT_CHANGE0 structure [Filtering]","fwp.fwpm_callout_change0_struct","fwpmtypes/FWPM_CALLOUT_CHANGE0"]
+description: Specifies a change notification dispatched to subscribers.
+helpviewer_keywords: ["FWPM_CALLOUT_CHANGE0","FWPM_CALLOUT_CHANGE0 structure [Filtering]","fwp.fwpm_callout_change0_struct","fwpmtypes/FWPM_CALLOUT_CHANGE0"]
 old-location: fwp\fwpm_callout_change0_struct.htm
 tech.root: fwp
 ms.assetid: 70e2eaae-dd75-4acc-87fb-ab2ad450a234
@@ -59,7 +60,7 @@ The <b>FWPM_CALLOUT_CHANGE0</b> structure specifies a change notification dispat
 
 ### -field changeType
 
-A [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a> value that specifies the type of change.
+A [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type) value that specifies the type of change.
 
 
 ### -field calloutKey
@@ -86,7 +87,7 @@ LUID of the callout that changed.
 
 
 
-[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a>
+[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)
 
 
 

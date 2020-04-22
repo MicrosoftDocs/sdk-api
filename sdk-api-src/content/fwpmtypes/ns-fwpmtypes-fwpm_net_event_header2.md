@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_HEADER2_
 title: FWPM_NET_EVENT_HEADER2 (fwpmtypes.h)
-description: Contains information common to all events.helpviewer_keywords: ["FWPM_NET_EVENT_FLAG_APP_ID_SET","FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET","FWPM_NET_EVENT_FLAG_IP_VERSION_SET","FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET","FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET","FWPM_NET_EVENT_FLAG_PACKAGE_ID_SET","FWPM_NET_EVENT_FLAG_REAUTH_REASON_SET","FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET","FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET","FWPM_NET_EVENT_FLAG_SCOPE_ID_SET","FWPM_NET_EVENT_FLAG_USER_ID_SET","FWPM_NET_EVENT_HEADER2","FWPM_NET_EVENT_HEADER2 structure [Filtering]","fwp.fwpm_net_event_header2","fwpmtypes/FWPM_NET_EVENT_HEADER2"]
+description: Contains information common to all events.
+helpviewer_keywords: ["FWPM_NET_EVENT_FLAG_APP_ID_SET","FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET","FWPM_NET_EVENT_FLAG_IP_VERSION_SET","FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET","FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET","FWPM_NET_EVENT_FLAG_PACKAGE_ID_SET","FWPM_NET_EVENT_FLAG_REAUTH_REASON_SET","FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET","FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET","FWPM_NET_EVENT_FLAG_SCOPE_ID_SET","FWPM_NET_EVENT_FLAG_USER_ID_SET","FWPM_NET_EVENT_HEADER2","FWPM_NET_EVENT_HEADER2 structure [Filtering]","fwp.fwpm_net_event_header2","fwpmtypes/FWPM_NET_EVENT_HEADER2"]
 old-location: fwp\fwpm_net_event_header2.htm
 tech.root: fwp
 ms.assetid: 1120d807-9188-4674-9acd-4b96e680f8af
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_HEADER2</b> structure contains information common to all events.
-[FWPM_NET_EVENT_HEADER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0)a> is available.</div><div> </div>
+[FWPM_NET_EVENT_HEADER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -195,7 +196,7 @@ The <b>packageSid</b> member is set.
 
 ### -field ipVersion
 
-Type: [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a></b>
+Type: [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)</b>
 
 The IP version being used. 
 
@@ -218,7 +219,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field localAddrV6
 
-Type: [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a></b>
+Type: [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)</b>
 
 The IPv6 local address.
 
@@ -236,7 +237,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field remoteAddrV6
 
-Type: [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a></b>
+Type: [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)</b>
 
 The IPv6 remote address.
 
@@ -266,7 +267,7 @@ The IPv6 scope ID.
 
 ### -field appId
 
-Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a></b>
+Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)</b>
 
 The application ID of the local application associated with the event.
 
@@ -280,7 +281,7 @@ The user ID corresponding to the traffic.
 
 ### -field addressFamily
 
-Type: [FWP_AF](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)a></b>
+Type: [FWP_AF](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)</b>
 
 A superset of non-Internet protocols.
 
@@ -299,19 +300,19 @@ The security identifier (SID) representing the package identifier (also referred
 
 
 
-[FWP_AF](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)a>
+[FWP_AF](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)
 
 
 
-[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a>
+[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>
+[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
  
 
  

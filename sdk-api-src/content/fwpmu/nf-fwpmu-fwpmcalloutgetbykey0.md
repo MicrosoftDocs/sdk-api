@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmCalloutGetByKey0
 title: FwpmCalloutGetByKey0 function (fwpmu.h)
-description: Retrieves a callout object.helpviewer_keywords: ["FwpmCalloutGetByKey0","FwpmCalloutGetByKey0 function [Filtering]","fwp.fwpmcalloutgetbykey0_func","fwpmu/FwpmCalloutGetByKey0"]
+description: Retrieves a callout object.
+helpviewer_keywords: ["FwpmCalloutGetByKey0","FwpmCalloutGetByKey0 function [Filtering]","fwp.fwpmcalloutgetbykey0_func","fwpmu/FwpmCalloutGetByKey0"]
 old-location: fwp\fwpmcalloutgetbykey0_func.htm
 tech.root: fwp
 ms.assetid: 05c5ac43-adf1-419c-8a39-32f8dddd3b98
@@ -73,7 +74,7 @@ Unique identifier of the callout. This GUID was specified in the <b>calloutKey</
 
 ### -param callout [out]
 
-Type: [FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)a>**</b>
+Type: [FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)**</b>
 
 Information about the state associated with the callout.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)a>
+[FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)
 
 
 

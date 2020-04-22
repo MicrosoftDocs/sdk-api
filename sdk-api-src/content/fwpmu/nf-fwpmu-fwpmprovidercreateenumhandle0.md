@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmProviderCreateEnumHandle0
 title: FwpmProviderCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of providers.helpviewer_keywords: ["FwpmProviderCreateEnumHandle0","FwpmProviderCreateEnumHandle0 function [Filtering]","fwp.fwpmprovidercreateenumhandle0_func","fwpmu/FwpmProviderCreateEnumHandle0"]
+description: Creates a handle used to enumerate a set of providers.
+helpviewer_keywords: ["FwpmProviderCreateEnumHandle0","FwpmProviderCreateEnumHandle0 function [Filtering]","fwp.fwpmprovidercreateenumhandle0_func","fwpmu/FwpmProviderCreateEnumHandle0"]
 old-location: fwp\fwpmprovidercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: f32d728d-eacc-4027-a1b1-31272425fd26
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: [FWPM_PROVIDER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_enum_template0)a>*</b>
+Type: [FWPM_PROVIDER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_enum_template0)*</b>
 
 Template to selectively restrict the enumeration.
 
@@ -153,7 +154,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_PROVIDER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_enum_template0)a>
+[FWPM_PROVIDER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_enum_template0)
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadUnassignApartment
 title: IComThreadEvents::OnThreadUnassignApartment (comsvcs.h)
-description: Generated when an activity is unassigned from an apartment thread.helpviewer_keywords: ["IComThreadEvents interface [COM+]","OnThreadUnassignApartment method","IComThreadEvents.OnThreadUnassignApartment","IComThreadEvents::OnThreadUnassignApartment","OnThreadUnassignApartment","OnThreadUnassignApartment method [COM+]","OnThreadUnassignApartment method [COM+]","IComThreadEvents interface","_dtc_IComThreadEvents_OnThreadUnassignApartment","comsvcs/IComThreadEvents::OnThreadUnassignApartment","cos.icomthreadevents_onthreadunassignapartment"]
+description: Generated when an activity is unassigned from an apartment thread.
+helpviewer_keywords: ["IComThreadEvents interface [COM+]","OnThreadUnassignApartment method","IComThreadEvents.OnThreadUnassignApartment","IComThreadEvents::OnThreadUnassignApartment","OnThreadUnassignApartment","OnThreadUnassignApartment method [COM+]","OnThreadUnassignApartment method [COM+]","IComThreadEvents interface","_dtc_IComThreadEvents_OnThreadUnassignApartment","comsvcs/IComThreadEvents::OnThreadUnassignApartment","cos.icomthreadevents_onthreadunassignapartment"]
 old-location: cos\icomthreadevents_onthreadunassignapartment.htm
 tech.root: cossdk
 ms.assetid: c57b2427-9c39-4068-b531-9f18264746a1
@@ -59,7 +60,7 @@ Generated when an activity is unassigned from an apartment thread.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param AptID [in]

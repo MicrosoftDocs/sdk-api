@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.Stop
 title: ISpatialAudioObjectRenderStreamBase::Stop (spatialaudioclient.h)
-description: Stops a running audio stream.helpviewer_keywords: ["ISpatialAudioObjectRenderStreamBase interface [Core Audio]","Stop method","ISpatialAudioObjectRenderStreamBase.Stop","ISpatialAudioObjectRenderStreamBase::Stop","Stop","Stop method [Core Audio]","Stop method [Core Audio]","ISpatialAudioObjectRenderStreamBase interface","coreaudio.ispatialaudioobjectrenderstream_stop","spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Stop"]
+description: Stops a running audio stream.
+helpviewer_keywords: ["ISpatialAudioObjectRenderStreamBase interface [Core Audio]","Stop method","ISpatialAudioObjectRenderStreamBase.Stop","ISpatialAudioObjectRenderStreamBase::Stop","Stop","Stop method [Core Audio]","Stop method [Core Audio]","ISpatialAudioObjectRenderStreamBase interface","coreaudio.ispatialaudioobjectrenderstream_stop","spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Stop"]
 old-location: coreaudio\ispatialaudioobjectrenderstream_stop.htm
 tech.root: CoreAudio
 ms.assetid: 6ECD17AB-C37D-4F4E-9D7F-EC48FC3B838C
@@ -80,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
+The <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
 
 </td>
 </tr>
@@ -152,7 +153,7 @@ The media associated with the spatial audio stream uses an unsupported format.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

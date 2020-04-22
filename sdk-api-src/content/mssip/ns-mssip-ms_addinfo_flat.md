@@ -1,7 +1,8 @@
 ---
 UID: NS:mssip.MS_ADDINFO_FLAT_
 title: MS_ADDINFO_FLAT (mssip.h)
-description: Provides additional information about flat or end-to-end subject types.helpviewer_keywords: ["*PMS_ADDINFO_FLAT","MS_ADDINFO_FLAT","MS_ADDINFO_FLAT structure [Security]","PMS_ADDINFO_FLAT","PMS_ADDINFO_FLAT structure pointer [Security]","mssip/MS_ADDINFO_FLAT_","mssip/PMS_ADDINFO_FLAT","security.ms_addinfo_flat"]
+description: Provides additional information about flat or end-to-end subject types.
+helpviewer_keywords: ["*PMS_ADDINFO_FLAT","MS_ADDINFO_FLAT","MS_ADDINFO_FLAT structure [Security]","PMS_ADDINFO_FLAT","PMS_ADDINFO_FLAT structure pointer [Security]","mssip/MS_ADDINFO_FLAT_","mssip/PMS_ADDINFO_FLAT","security.ms_addinfo_flat"]
 old-location: security\ms_addinfo_flat.htm
 tech.root: SecCrypto
 ms.assetid: 9f5bebd1-8eda-456d-9339-3334a19c0ea4
@@ -64,5 +65,5 @@ The size, in bytes, of this structure.
 
 ### -field pIndirectData
 
-A [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of a flat file subject.
+A [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data) structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of a flat file subject.
 

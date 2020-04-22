@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindRadioClose
 title: BluetoothFindRadioClose function (bluetoothapis.h)
-description: The BluetoothFindRadioClose function closes the enumeration handle associated with finding Bluetooth radios.helpviewer_keywords: ["BluetoothFindRadioClose","BluetoothFindRadioClose function [Bluetooth]","bluetooth.bluetoothfindradioclose","bluetoothapis/BluetoothFindRadioClose"]
+description: The BluetoothFindRadioClose function closes the enumeration handle associated with finding Bluetooth radios.
+helpviewer_keywords: ["BluetoothFindRadioClose","BluetoothFindRadioClose function [Bluetooth]","bluetooth.bluetoothfindradioclose","bluetoothapis/BluetoothFindRadioClose"]
 old-location: bluetooth\bluetoothfindradioclose.htm
 tech.root: bluetooth
 ms.assetid: 859771b1-d06c-414b-81cb-bb3913fd0380
@@ -78,7 +79,7 @@ Returns <b>TRUE</b> when the handle is successfully closed. Returns <b>FALSE</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_find_radio_params">BLUETOOTH_FIND_RADIO_PARAMS</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_find_radio_params">BLUETOOTH_FIND_RADIO_PARAMS</a>
 
 
 

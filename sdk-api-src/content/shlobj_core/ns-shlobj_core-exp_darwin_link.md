@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_2
 title: EXP_DARWIN_LINK (shlobj_core.h)
-description: Holds an extra data block used by IShellLinkDataList. It holds the link's Windows Installer ID.helpviewer_keywords: ["*LPEXP_DARWIN_LINK","EXP_DARWIN_ID_SIG","EXP_DARWIN_LINK","EXP_DARWIN_LINK structure [Windows Shell]","LPEXP_DARWIN_LINK","LPEXP_DARWIN_LINK structure pointer [Windows Shell]","_win32_EXP_DARWIN_LINK_str","shell.EXP_DARWIN_LINK_str","shlobj_core/EXP_DARWIN_LINK","shlobj_core/LPEXP_DARWIN_LINK"]
+description: Holds an extra data block used by IShellLinkDataList. It holds the link's Windows Installer ID.
+helpviewer_keywords: ["*LPEXP_DARWIN_LINK","EXP_DARWIN_ID_SIG","EXP_DARWIN_LINK","EXP_DARWIN_LINK structure [Windows Shell]","LPEXP_DARWIN_LINK","LPEXP_DARWIN_LINK structure pointer [Windows Shell]","_win32_EXP_DARWIN_LINK_str","shell.EXP_DARWIN_LINK_str","shlobj_core/EXP_DARWIN_LINK","shlobj_core/LPEXP_DARWIN_LINK"]
 old-location: shell\EXP_DARWIN_LINK_str.htm
 tech.root: shell
 ms.assetid: 016c539e-6035-4752-99b6-71e2d7199bf0
@@ -59,10 +60,10 @@ Holds an extra data block used by <a href="https://docs.microsoft.com/windows/de
 
 ### -field dbh
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shlobj_core/ns-shlobj_core-datablock_header">DATABLOCK_HEADER</a></b>
+Type: <b><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-datablock_header">DATABLOCK_HEADER</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/shlobj_core/ns-shlobj_core-datablock_header">DATABLOCK_HEADER</a> structure stating the size and signature of the <b>EXP_DARWIN_LINK</b> structure. The following is the only recognized signature value.
+<a href="/windows/win32/api/shlobj_core/ns-shlobj_core-datablock_header">DATABLOCK_HEADER</a> structure stating the size and signature of the <b>EXP_DARWIN_LINK</b> structure. The following is the only recognized signature value.
 
 
 

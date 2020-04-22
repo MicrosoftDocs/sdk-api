@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilGetMultiSzValue
 title: ResUtilGetMultiSzValue function (resapi.h)
-description: Returns a multiple string value from the cluster database.helpviewer_keywords: ["ResUtilGetMultiSzValue","ResUtilGetMultiSzValue function [Failover Cluster]","_wolf_resutilgetmultiszvalue","mscs.resutilgetmultiszvalue","resapi/ResUtilGetMultiSzValue"]
+description: Returns a multiple string value from the cluster database.
+helpviewer_keywords: ["ResUtilGetMultiSzValue","ResUtilGetMultiSzValue function [Failover Cluster]","_wolf_resutilgetmultiszvalue","mscs.resutilgetmultiszvalue","resapi/ResUtilGetMultiSzValue"]
 old-location: mscs\resutilgetmultiszvalue.htm
 tech.root: MsCS
 ms.assetid: 09547806-16f4-40ce-8713-591a7691a588
@@ -139,7 +140,7 @@ When you are finished with the memory allocated for the value returned by the
 
 
 
-[ResUtilGetExpandSzValue](/windows/win32/api/resapi/nf-resapi-resutilgetexpandszvalue)a>
+[ResUtilGetExpandSzValue](/windows/win32/api/resapi/nf-resapi-resutilgetexpandszvalue)
 
 
 

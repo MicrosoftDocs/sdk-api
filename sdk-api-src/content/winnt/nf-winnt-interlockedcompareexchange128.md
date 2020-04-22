@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.InterlockedCompareExchange128
 title: InterlockedCompareExchange128 function (winnt.h)
-description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 128-bit values and exchanges with another 128-bit value based on the outcome of the comparison.helpviewer_keywords: ["InterlockedCompareExchange128","InterlockedCompareExchange128 function","base.interlockedcompareexchange128","winnt/InterlockedCompareExchange128"]
+description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 128-bit values and exchanges with another 128-bit value based on the outcome of the comparison.
+helpviewer_keywords: ["InterlockedCompareExchange128","InterlockedCompareExchange128 function","base.interlockedcompareexchange128","winnt/InterlockedCompareExchange128"]
 old-location: base\interlockedcompareexchange128.htm
 tech.root: Sync
 ms.assetid: 55a5ec1d-9c81-479e-a630-81756bf620d1
@@ -53,7 +54,7 @@ Performs an atomic compare-and-exchange operation on the specified values. The f
 
 To operate on 16-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedcompareexchange16">InterlockedCompareExchange16</a> function.
 
-To operate on 32-bit values, use the <a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a> function.
+To operate on 32-bit values, use the <a href="/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a> function.
 
 To operate on 64-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedcompareexchange64">InterlockedCompareExchange64</a> function.
 
@@ -129,7 +130,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a>
 
 
 

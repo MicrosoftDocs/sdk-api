@@ -1,7 +1,8 @@
 ---
 UID: NS:virtdisk._CREATE_VIRTUAL_DISK_PARAMETERS
 title: CREATE_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
-description: Contains virtual hard disk (VHD) creation parameters, providing control over, and information about, the newly created virtual disk.helpviewer_keywords: ["*PCREATE_VIRTUAL_DISK_PARAMETERS","CREATE_VIRTUAL_DISK_PARAMETERS","CREATE_VIRTUAL_DISK_PARAMETERS structure [VHD]","CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_BLOCK_SIZE","CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_SECTOR_SIZE","CREATE_VIRTUAL_DISK_VERSION_1","CREATE_VIRTUAL_DISK_VERSION_2","PCREATE_VIRTUAL_DISK_PARAMETERS","PCREATE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD]","_CREATE_VIRTUAL_DISK_PARAMETERS","vdssys/CREATE_VIRTUAL_DISK_PARAMETERS","vdssys/PCREATE_VIRTUAL_DISK_PARAMETERS","vhd.create_virtual_disk_parameters","virtdisk/CREATE_VIRTUAL_DISK_PARAMETERS","virtdisk/PCREATE_VIRTUAL_DISK_PARAMETERS"]
+description: Contains virtual hard disk (VHD) creation parameters, providing control over, and information about, the newly created virtual disk.
+helpviewer_keywords: ["*PCREATE_VIRTUAL_DISK_PARAMETERS","CREATE_VIRTUAL_DISK_PARAMETERS","CREATE_VIRTUAL_DISK_PARAMETERS structure [VHD]","CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_BLOCK_SIZE","CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_SECTOR_SIZE","CREATE_VIRTUAL_DISK_VERSION_1","CREATE_VIRTUAL_DISK_VERSION_2","PCREATE_VIRTUAL_DISK_PARAMETERS","PCREATE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD]","_CREATE_VIRTUAL_DISK_PARAMETERS","vdssys/CREATE_VIRTUAL_DISK_PARAMETERS","vdssys/PCREATE_VIRTUAL_DISK_PARAMETERS","vhd.create_virtual_disk_parameters","virtdisk/CREATE_VIRTUAL_DISK_PARAMETERS","virtdisk/PCREATE_VIRTUAL_DISK_PARAMETERS"]
 old-location: vhd\create_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: 797e21ae-a4c4-48df-8124-e5c2fad22f33
@@ -61,7 +62,7 @@ Contains virtual hard disk (VHD) creation parameters, providing control over, an
 
 ### -field Version
 
-A value from the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-create_virtual_disk_version">CREATE_VIRTUAL_DISK_VERSION</a> 
+A value from the <a href="/windows/win32/api/virtdisk/ne-virtdisk-create_virtual_disk_version">CREATE_VIRTUAL_DISK_VERSION</a> 
       enumeration that is the discriminant for the union.
 
 <table>
@@ -315,19 +316,19 @@ If this parameter is not <b>NULL</b>, <b>ParentPath</b> must be
 ### -field Version2.OpenFlags
 
 Zero or more flags from the 
-        <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration describing 
+        <a href="/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration describing 
         how the virtual disk is to be opened.
 
 
 ### -field Version2.ParentVirtualStorageType
 
-A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
+A <a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
         the parent virtual disk specified in the <b>ParentPath</b> member.
 
 
 ### -field Version2.SourceVirtualStorageType
 
-A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
+A <a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
         the source virtual disk specified in the <b>SourcePath</b> member.
 
 
@@ -497,7 +498,7 @@ Resiliency <b>GUID</b> for the file.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-createvirtualdisk">CreateVirtualDisk</a>
+<a href="/windows/win32/api/virtdisk/nf-virtdisk-createvirtualdisk">CreateVirtualDisk</a>
 
 
 

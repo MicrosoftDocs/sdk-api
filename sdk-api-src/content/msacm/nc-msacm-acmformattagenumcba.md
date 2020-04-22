@@ -1,7 +1,8 @@
 ---
 UID: NC:msacm.ACMFORMATTAGENUMCBA
 title: ACMFORMATTAGENUMCBA (msacm.h)
-description: The acmFormatTagEnumCallback function specifies a callback function used with the acmFormatTagEnum function. The acmFormatTagEnumCallback name is a placeholder for an application-defined function name.helpviewer_keywords: ["ACMFORMATTAGENUMCB","ACMFORMATTAGENUMCB callback","ACMFORMATTAGENUMCB callback function [Windows Multimedia]","ACMFORMATTAGENUMCBA","ACMFORMATTAGENUMCBW","_win32_acmFormatTagEnumCallback","acmFormatTagEnumCallback","msacm/ACMFORMATTAGENUMCB","msacm/ACMFORMATTAGENUMCBA","msacm/ACMFORMATTAGENUMCBW","multimedia.acmformattagenumcallback"]
+description: The acmFormatTagEnumCallback function specifies a callback function used with the acmFormatTagEnum function. The acmFormatTagEnumCallback name is a placeholder for an application-defined function name.
+helpviewer_keywords: ["ACMFORMATTAGENUMCB","ACMFORMATTAGENUMCB callback","ACMFORMATTAGENUMCB callback function [Windows Multimedia]","ACMFORMATTAGENUMCBA","ACMFORMATTAGENUMCBW","_win32_acmFormatTagEnumCallback","acmFormatTagEnumCallback","msacm/ACMFORMATTAGENUMCB","msacm/ACMFORMATTAGENUMCBA","msacm/ACMFORMATTAGENUMCBW","multimedia.acmformattagenumcallback"]
 old-location: multimedia\acmformattagenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 4ab42348-0fd2-418f-a2e6-db478d3a3e33
@@ -69,7 +70,7 @@ Handle to the ACM driver identifier.
 
 ### -param paftd
 
-Pointer to an [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)a> structure that contains the enumerated format tag details.
+Pointer to an [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails) structure that contains the enumerated format tag details.
 
 
 ### -param dwInstance
@@ -79,7 +80,7 @@ Application-defined value specified in the <a href="https://docs.microsoft.com/w
 
 ### -param fdwSupport
 
-Driver-support flags specific to the format tag. These flags are identical to the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure. This parameter can be a combination of the following values and indicates which operations the driver supports with the format tag.
+Driver-support flags specific to the format tag. These flags are identical to the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure. This parameter can be a combination of the following values and indicates which operations the driver supports with the format tag.
 
 <table>
 <tr>

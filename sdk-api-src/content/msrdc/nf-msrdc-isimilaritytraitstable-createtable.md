@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.CreateTable
 title: ISimilarityTraitsTable::CreateTable (msrdc.h)
-description: Creates or opens a similarity traits table.helpviewer_keywords: ["CreateTable","CreateTable method [Remote Differential Compression]","CreateTable method [Remote Differential Compression]","ISimilarityTraitsTable interface","ISimilarityTraitsTable interface [Remote Differential Compression]","CreateTable method","ISimilarityTraitsTable.CreateTable","ISimilarityTraitsTable::CreateTable","fs.isimilaritytraitstable_createtable","msrdc/ISimilarityTraitsTable::CreateTable","rdc.isimilaritytraitstable_createtable"]
+description: Creates or opens a similarity traits table.
+helpviewer_keywords: ["CreateTable","CreateTable method [Remote Differential Compression]","CreateTable method [Remote Differential Compression]","ISimilarityTraitsTable interface","ISimilarityTraitsTable interface [Remote Differential Compression]","CreateTable method","ISimilarityTraitsTable.CreateTable","ISimilarityTraitsTable::CreateTable","fs.isimilaritytraitstable_createtable","msrdc/ISimilarityTraitsTable::CreateTable","rdc.isimilaritytraitstable_createtable"]
 old-location: rdc\isimilaritytraitstable_createtable.htm
 tech.root: rdc
 ms.assetid: 35fd9ea1-85bf-424c-b0e2-dcdfbb6940fb
@@ -74,7 +75,7 @@ A pointer to a  security descriptor to use when opening the file. If this parame
 
 ### -param isNew [out]
 
-A pointer to a variable that receives an  <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdccreatedtables">RdcCreatedTables</a> enumeration value that describes the state of the similarity traits table. If a new table is created, this variable receives <b>RDCTABLE_New</b>. If an existing table is used, this variable receives <b>RDCTABLE_Existing</b>. If this method fails, this variable receives <b>RDCTABLE_InvalidOrUnknown</b>.
+A pointer to a variable that receives an  <a href="/windows/win32/api/msrdc/ne-msrdc-rdccreatedtables">RdcCreatedTables</a> enumeration value that describes the state of the similarity traits table. If a new table is created, this variable receives <b>RDCTABLE_New</b>. If an existing table is used, this variable receives <b>RDCTABLE_Existing</b>. If this method fails, this variable receives <b>RDCTABLE_InvalidOrUnknown</b>.
 
 
 ## -returns

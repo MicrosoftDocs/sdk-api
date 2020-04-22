@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFTGetInfo
 title: MFTGetInfo function (mfapi.h)
-description: Gets information from the registry about a Media Foundation transform (MFT).helpviewer_keywords: ["MFTGetInfo","MFTGetInfo function [Media Foundation]","d1bac1c7-3f9b-46b7-bdf7-c32983c648ee","mf.mftgetinfo","mfapi/MFTGetInfo"]
+description: Gets information from the registry about a Media Foundation transform (MFT).
+helpviewer_keywords: ["MFTGetInfo","MFTGetInfo function [Media Foundation]","d1bac1c7-3f9b-46b7-bdf7-c32983c648ee","mf.mftgetinfo","mfapi/MFTGetInfo"]
 old-location: mf\mftgetinfo.htm
 tech.root: medfound
 ms.assetid: d1bac1c7-3f9b-46b7-bdf7-c32983c648ee
@@ -72,7 +73,7 @@ Receives a pointer to a wide-character string containing the friendly name of th
 
 ### -param ppInputTypes [out]
 
-Receives a pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array describes an input format that the MFT supports. The caller must free the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. This parameter can be <b>NULL</b>.
+Receives a pointer to an array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array describes an input format that the MFT supports. The caller must free the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. This parameter can be <b>NULL</b>.
           
 
 
@@ -84,7 +85,7 @@ Receives the number of elements in the <i>ppInputTypes</i> array. If <i>ppInputT
 
 ### -param ppOutputTypes [out]
 
-Receives a pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array describes an output format that the MFT supports. The caller must free the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. This parameter can be <b>NULL</b>.
+Receives a pointer to an array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array describes an output format that the MFT supports. The caller must free the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. This parameter can be <b>NULL</b>.
           
 
 

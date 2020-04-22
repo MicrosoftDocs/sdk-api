@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1_
 title: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1 (ipsectypes.h)
-description: Stores aggregate IPsec kernel packet drop statistics.helpviewer_keywords: ["IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1","IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1 structure [Filtering]","fwp.ipsec_aggregate_drop_packet_statistics1_struct","ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0"]
+description: Stores aggregate IPsec kernel packet drop statistics.
+helpviewer_keywords: ["IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1","IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1 structure [Filtering]","fwp.ipsec_aggregate_drop_packet_statistics1_struct","ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0"]
 old-location: fwp\ipsec_aggregate_drop_packet_statistics1_struct.htm
 tech.root: fwp
 ms.assetid: 8ee7150e-ac6e-4f8e-99af-1b92b4e54615
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1</b> structure stores aggregate IPsec kernel packet drop statistics.
-[IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_drop_packet_statistics0)a> is available.</div><div> </div>
+[IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_drop_packet_statistics0) is available.</div><div> </div>
 
 ## -struct-fields
 

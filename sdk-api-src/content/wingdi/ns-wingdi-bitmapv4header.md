@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.__unnamed_struct_0
 title: BITMAPV4HEADER (wingdi.h)
-description: The BITMAPV4HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.Applications can use the BITMAPV5HEADER structure for added functionality.helpviewer_keywords: ["*LPBITMAPV4HEADER","*PBITMAPV4HEADER","BITMAPV4HEADER","BITMAPV4HEADER structure [Windows GDI]","PBITMAPV4HEADER","PBITMAPV4HEADER structure pointer [Windows GDI]","_win32_BITMAPV4HEADER_str","gdi.bitmapv4header","wingdi/BITMAPV4HEADER","wingdi/PBITMAPV4HEADER"]
+description: The BITMAPV4HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.Applications can use the BITMAPV5HEADER structure for added functionality.
+helpviewer_keywords: ["*LPBITMAPV4HEADER","*PBITMAPV4HEADER","BITMAPV4HEADER","BITMAPV4HEADER structure [Windows GDI]","PBITMAPV4HEADER","PBITMAPV4HEADER structure pointer [Windows GDI]","_win32_BITMAPV4HEADER_str","gdi.bitmapv4header","wingdi/BITMAPV4HEADER","wingdi/PBITMAPV4HEADER"]
 old-location: gdi\bitmapv4header.htm
 tech.root: gdi
 ms.assetid: 17c50d55-1c95-4178-82ba-7f504aa63c83
@@ -243,7 +244,7 @@ See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi
 
 ### -field bV4Endpoints
 
-A <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a> structure that specifies the x, y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for the logical color space associated with the bitmap. This member is ignored unless the <b>bV4CSType</b> member specifies LCS_CALIBRATED_RGB.
+A <a href="/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a> structure that specifies the x, y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for the logical color space associated with the bitmap. This member is ignored unless the <b>bV4CSType</b> member specifies LCS_CALIBRATED_RGB.
 
 <div class="alert"><b>Note</b>  A <i>color space</i> is a model for representing color numerically in terms of three or more coordinates. For example, the RGB color space represents colors in terms of the red, green, and blue coordinates.</div>
 <div> </div>
@@ -297,7 +298,7 @@ The <b>BITMAPV4HEADER</b> structure is extended to allow a JPEG or PNG image to 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a>
 
 
 

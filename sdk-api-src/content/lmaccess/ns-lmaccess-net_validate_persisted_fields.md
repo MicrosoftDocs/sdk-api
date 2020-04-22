@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_PERSISTED_FIELDS
 title: NET_VALIDATE_PERSISTED_FIELDS (lmaccess.h)
-description: The NET_VALIDATE_PERSISTED_FIELDS structure contains information about a user's password properties.helpviewer_keywords: ["*PNET_VALIDATE_PERSISTED_FIELDS","NET_VALIDATE_BAD_PASSWORD_COUNT","NET_VALIDATE_BAD_PASSWORD_TIME","NET_VALIDATE_LOCKOUT_TIME","NET_VALIDATE_PASSWORD_HISTORY","NET_VALIDATE_PASSWORD_HISTORY_LENGTH","NET_VALIDATE_PASSWORD_LAST_SET","NET_VALIDATE_PERSISTED_FIELDS","NET_VALIDATE_PERSISTED_FIELDS structure [Network Management]","PNET_VALIDATE_PERSISTED_FIELDS","PNET_VALIDATE_PERSISTED_FIELDS structure pointer [Network Management]","lmaccess/NET_VALIDATE_PERSISTED_FIELDS","lmaccess/PNET_VALIDATE_PERSISTED_FIELDS","netmgmt.net_validate_persisted_fields"]
+description: The NET_VALIDATE_PERSISTED_FIELDS structure contains information about a user's password properties.
+helpviewer_keywords: ["*PNET_VALIDATE_PERSISTED_FIELDS","NET_VALIDATE_BAD_PASSWORD_COUNT","NET_VALIDATE_BAD_PASSWORD_TIME","NET_VALIDATE_LOCKOUT_TIME","NET_VALIDATE_PASSWORD_HISTORY","NET_VALIDATE_PASSWORD_HISTORY_LENGTH","NET_VALIDATE_PASSWORD_LAST_SET","NET_VALIDATE_PERSISTED_FIELDS","NET_VALIDATE_PERSISTED_FIELDS structure [Network Management]","PNET_VALIDATE_PERSISTED_FIELDS","PNET_VALIDATE_PERSISTED_FIELDS structure pointer [Network Management]","lmaccess/NET_VALIDATE_PERSISTED_FIELDS","lmaccess/PNET_VALIDATE_PERSISTED_FIELDS","netmgmt.net_validate_persisted_fields"]
 old-location: netmgmt\net_validate_persisted_fields.htm
 tech.root: NetMgmt
 ms.assetid: 1e6ea28a-a007-4cd1-b5d6-686bcf019fa1
@@ -180,7 +181,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/
 
 Note that it is the application's responsibility to save all changed persistent data as well as any user object information. The next time the application calls <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a> on the same instance of the user object, the application must provide the required fields from the persistent information.
 
-The <a href="https://docs.microsoft.com/windows/win32/api/lmaccess/ns-lmaccess-net_validate_authentication_input_arg">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_password_reset_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_output_arg">NET_VALIDATE_OUTPUT_ARG</a> structures contain a <b>NET_VALIDATE_PERSISTED_FIELDS</b> structure.
+The <a href="/windows/win32/api/lmaccess/ns-lmaccess-net_validate_authentication_input_arg">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_password_reset_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_output_arg">NET_VALIDATE_OUTPUT_ARG</a> structures contain a <b>NET_VALIDATE_PERSISTED_FIELDS</b> structure.
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._DEVICE_MEDIA_INFO
 title: DEVICE_MEDIA_INFO
-description: Provides information about the media supported by a device.helpviewer_keywords: ["*PDEVICE_MEDIA_INFO","DEVICE_MEDIA_INFO","DEVICE_MEDIA_INFO structure","MEDIA_CURRENTLY_MOUNTED","MEDIA_ERASEABLE","MEDIA_READ_ONLY","MEDIA_READ_WRITE","MEDIA_WRITE_ONCE","MEDIA_WRITE_PROTECTED","PDEVICE_MEDIA_INFO","PDEVICE_MEDIA_INFO structure pointer","_win32_device_media_info_str","base.device_media_info_str","winioctl/DEVICE_MEDIA_INFO","winioctl/PDEVICE_MEDIA_INFO"]
+description: Provides information about the media supported by a device.
+helpviewer_keywords: ["*PDEVICE_MEDIA_INFO","DEVICE_MEDIA_INFO","DEVICE_MEDIA_INFO structure","MEDIA_CURRENTLY_MOUNTED","MEDIA_ERASEABLE","MEDIA_READ_ONLY","MEDIA_READ_WRITE","MEDIA_WRITE_ONCE","MEDIA_WRITE_PROTECTED","PDEVICE_MEDIA_INFO","PDEVICE_MEDIA_INFO structure pointer","_win32_device_media_info_str","base.device_media_info_str","winioctl/DEVICE_MEDIA_INFO","winioctl/PDEVICE_MEDIA_INFO"]
 old-location: base\device_media_info_str.htm
 tech.root: devio
 ms.assetid: 90367411-3008-4e37-9884-e586fc5162d9
@@ -277,7 +278,7 @@ The SCSI-specific current operating density for read/write operations.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
 
 
 

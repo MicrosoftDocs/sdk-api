@@ -1,7 +1,8 @@
 ---
 UID: NF:mscat.CryptCATCDFEnumCatAttributes
 title: CryptCATCDFEnumCatAttributes function (mscat.h)
-description: Enumerates catalog-level attributes within the CatalogHeader section of a catalog definition file (CDF).helpviewer_keywords: ["CryptCATCDFEnumCatAttributes","CryptCATCDFEnumCatAttributes function [Security]","mscat/CryptCATCDFEnumCatAttributes","security.cryptcatcdfenumcatattributes"]
+description: Enumerates catalog-level attributes within the CatalogHeader section of a catalog definition file (CDF).
+helpviewer_keywords: ["CryptCATCDFEnumCatAttributes","CryptCATCDFEnumCatAttributes function [Security]","mscat/CryptCATCDFEnumCatAttributes","security.cryptcatcdfenumcatattributes"]
 old-location: security\cryptcatcdfenumcatattributes.htm
 tech.root: SecCrypto
 ms.assetid: 01889cb9-7bf4-4591-9bb2-b263c4effe0c
@@ -61,12 +62,12 @@ The <b>CryptCATCDFEnumCatAttributes</b> function enumerates catalog-level attrib
 
 ### -param pCDF [in]
 
-A pointer to a [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a> structure.
+A pointer to a [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure.
 
 
 ### -param pPrevAttr [in]
 
-A pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a> structure for a catalog attribute in the CDF pointed to by <i>pCDF</i>.
+A pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure for a catalog attribute in the CDF pointed to by <i>pCDF</i>.
 
 
 ### -param pfnParseError [in]
@@ -78,7 +79,7 @@ A pointer to a user-defined function to handle file parse errors.
 
 
 
-Upon success, this function returns a pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a> structure. The <b>CryptCATCDFEnumCatAttributes</b> function returns a <b>NULL</b> pointer if it fails.
+Upon success, this function returns a pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure. The <b>CryptCATCDFEnumCatAttributes</b> function returns a <b>NULL</b> pointer if it fails.
 
 
 
@@ -121,11 +122,11 @@ The following example shows the correct sequence of assignments for the <i>pPrev
 
 
 
-[CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a>
+[CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)
 
 
 
-[CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a>
+[CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)
 
 
 

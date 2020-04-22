@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStream.ActivateSpatialAudioObject
 title: ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject (spatialaudioclient.h)
-description: Activates an ISpatialAudioObject for audio rendering.helpviewer_keywords: ["ActivateSpatialAudioObject","ActivateSpatialAudioObject method [Core Audio]","ActivateSpatialAudioObject method [Core Audio]","ISpatialAudioObjectRenderStream interface","ISpatialAudioObjectRenderStream interface [Core Audio]","ActivateSpatialAudioObject method","ISpatialAudioObjectRenderStream.ActivateSpatialAudioObject","ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject","coreaudio.ispatialaudioobjectrenderstream_activatespatialaudioobject","spatialaudioclient/ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject"]
+description: Activates an ISpatialAudioObject for audio rendering.
+helpviewer_keywords: ["ActivateSpatialAudioObject","ActivateSpatialAudioObject method [Core Audio]","ActivateSpatialAudioObject method [Core Audio]","ISpatialAudioObjectRenderStream interface","ISpatialAudioObjectRenderStream interface [Core Audio]","ActivateSpatialAudioObject method","ISpatialAudioObjectRenderStream.ActivateSpatialAudioObject","ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject","coreaudio.ispatialaudioobjectrenderstream_activatespatialaudioobject","spatialaudioclient/ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject"]
 old-location: coreaudio\ispatialaudioobjectrenderstream_activatespatialaudioobject.htm
 tech.root: CoreAudio
 ms.assetid: 1B99E7FB-0796-4902-9B00-470FD08F8AFA
@@ -97,7 +98,7 @@ The system has reached the maximum number of simultaneous audio objects.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
+The <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
 
 </td>
 </tr>

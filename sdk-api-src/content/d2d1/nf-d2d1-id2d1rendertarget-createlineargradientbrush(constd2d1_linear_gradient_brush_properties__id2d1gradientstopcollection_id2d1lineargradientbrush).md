@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateLinearGradientBrush(const D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1LinearGradientBrush)
 title: ID2D1RenderTarget::CreateLinearGradientBrush(const D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES &,ID2D1GradientStopCollection,ID2D1LinearGradientBrush) (d2d1.h)
-description: Creates an ID2D1LinearGradientBrush that contains the specified gradient stops, has no transform, and has a base opacity of 1.0.helpviewer_keywords: ["CreateLinearGradientBrush","CreateLinearGradientBrush method [Direct2D]","CreateLinearGradientBrush method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateLinearGradientBrush method","ID2D1RenderTarget.CreateLinearGradientBrush","ID2D1RenderTarget.CreateLinearGradientBrush(const D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES &","ID2D1GradientStopCollection","ID2D1LinearGradientBrush)","ID2D1RenderTarget::CreateLinearGradientBrush","ID2D1RenderTarget::CreateLinearGradientBrush(const D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES &","ID2D1GradientStopCollection","ID2D1LinearGradientBrush)","d2d1/ID2D1RenderTarget::CreateLinearGradientBrush","direct2d.ID2D1RenderTarget_CreateLinearGradientBrush_overload2","direct2d.ID2D1RenderTarget_CreateLinearGradientBrush_ref_D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES_ptr_ID2D1GradientStopCollection_ptr_ptr_ID2D1LinearGradientBrush"]
+description: Creates an ID2D1LinearGradientBrush that contains the specified gradient stops, has no transform, and has a base opacity of 1.0.
+helpviewer_keywords: ["CreateLinearGradientBrush","CreateLinearGradientBrush method [Direct2D]","CreateLinearGradientBrush method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateLinearGradientBrush method","ID2D1RenderTarget.CreateLinearGradientBrush","ID2D1RenderTarget.CreateLinearGradientBrush(const D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES &","ID2D1GradientStopCollection","ID2D1LinearGradientBrush)","ID2D1RenderTarget::CreateLinearGradientBrush","ID2D1RenderTarget::CreateLinearGradientBrush(const D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES &","ID2D1GradientStopCollection","ID2D1LinearGradientBrush)","d2d1/ID2D1RenderTarget::CreateLinearGradientBrush","direct2d.ID2D1RenderTarget_CreateLinearGradientBrush_overload2","direct2d.ID2D1RenderTarget_CreateLinearGradientBrush_ref_D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES_ptr_ID2D1GradientStopCollection_ptr_ptr_ID2D1LinearGradientBrush"]
 old-location: direct2d\ID2D1RenderTarget_CreateLinearGradientBrush_overload2.htm
 tech.root: Direct2D
 ms.assetid: b13314ca-3b0b-4d51-99cc-0a56eae223f1
@@ -99,7 +100,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">CreateGradientStopCollection</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">CreateGradientStopCollection</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcSignatureRelationshipReferenceSet
 title: IOpcSignatureRelationshipReferenceSet (msopc.h)
-description: An unordered set of IOpcSignatureRelationshipReference interface pointers that represent references to Relationships parts that contain relationships to be signed.helpviewer_keywords: ["IOpcSignatureRelationshipReferenceSet","IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions]","IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions]","described","msopc/IOpcSignatureRelationshipReferenceSet","opc.iopcsignaturerelationshipreferenceset"]
+description: An unordered set of IOpcSignatureRelationshipReference interface pointers that represent references to Relationships parts that contain relationships to be signed.
+helpviewer_keywords: ["IOpcSignatureRelationshipReferenceSet","IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions]","IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions]","described","msopc/IOpcSignatureRelationshipReferenceSet","opc.iopcsignaturerelationshipreferenceset"]
 old-location: opc\iopcsignaturerelationshipreferenceset.htm
 tech.root: OPC
 ms.assetid: 89ea7243-54ee-487b-a58a-0721af9db8c3
@@ -153,11 +154,11 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_relationships_signing_option">OPC_RELATIONSHIPS_SIGNING_OPTION</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_relationships_signing_option">OPC_RELATIONSHIPS_SIGNING_OPTION</a>
 
 
 

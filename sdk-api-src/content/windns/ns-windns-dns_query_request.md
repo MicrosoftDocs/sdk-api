@@ -1,7 +1,8 @@
 ---
 UID: NS:windns._DNS_QUERY_REQUEST
 title: DNS_QUERY_REQUEST (windns.h)
-description: The DNS_QUERY_REQUEST structure contains the DNS query parameters used in a call to DnsQueryEx.helpviewer_keywords: ["*PDNS_QUERY_REQUEST","DNS_QUERY_REQUEST","DNS_QUERY_REQUEST structure [DNS]","DNS_QUERY_REQUEST_VERSION1","PDNS_QUERY_REQUEST","PDNS_QUERY_REQUEST structure pointer [DNS]","dns.dns_query_request","windns/DNS_QUERY_REQUEST","windns/PDNS_QUERY_REQUEST"]
+description: The DNS_QUERY_REQUEST structure contains the DNS query parameters used in a call to DnsQueryEx.
+helpviewer_keywords: ["*PDNS_QUERY_REQUEST","DNS_QUERY_REQUEST","DNS_QUERY_REQUEST structure [DNS]","DNS_QUERY_REQUEST_VERSION1","PDNS_QUERY_REQUEST","PDNS_QUERY_REQUEST structure pointer [DNS]","dns.dns_query_request","windns/DNS_QUERY_REQUEST","windns/PDNS_QUERY_REQUEST"]
 old-location: dns\dns_query_request.htm
 tech.root: DNS
 ms.assetid: 9C382800-DE71-4481-AC8D-9F89D6F59EE6
@@ -75,7 +76,7 @@ A pointer to a string that represents the DNS name to query.
 
 ### -field QueryType
 
-A value that represents the Resource Record (RR) <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a> that is queried. <b>QueryType</b> determines the format of data pointed to by <b>pQueryRecords</b> returned in the <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a> structure. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the format of data pointed to by <b>pQueryRecords</b> is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
+A value that represents the Resource Record (RR) <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a> that is queried. <b>QueryType</b> determines the format of data pointed to by <b>pQueryRecords</b> returned in the <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a> structure. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the format of data pointed to by <b>pQueryRecords</b> is <a href="/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
 
 
 ### -field QueryOptions
@@ -85,7 +86,7 @@ A value that contains a bitmap of <a href="https://docs.microsoft.com/windows/de
 
 ### -field pDnsServerList
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_addr_array">DNS_ADDR_ARRAY</a> structure that contains a list of DNS servers to use in the query.
+A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_addr_array">DNS_ADDR_ARRAY</a> structure that contains a list of DNS servers to use in the query.
 
 
 ### -field InterfaceIndex

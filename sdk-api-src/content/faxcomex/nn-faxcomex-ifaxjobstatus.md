@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxJobStatus
 title: IFaxJobStatus (faxcomex.h)
-description: The IFaxJobStatus interface is used for notifications and to hold the dynamic information of the job.helpviewer_keywords: ["IFaxJobStatus","IFaxJobStatus interface [Fax Service]","IFaxJobStatus interface [Fax Service]","described","_mfax_faxjobstatus_cpp","fax._mfax_faxjobstatus_cpp","faxcomex/IFaxJobStatus"]
+description: The IFaxJobStatus interface is used for notifications and to hold the dynamic information of the job.
+helpviewer_keywords: ["IFaxJobStatus","IFaxJobStatus interface [Fax Service]","IFaxJobStatus interface [Fax Service]","described","_mfax_faxjobstatus_cpp","fax._mfax_faxjobstatus_cpp","faxcomex/IFaxJobStatus"]
 old-location: fax\_mfax_faxjobstatus_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3p6b_cpp.htm
@@ -56,7 +57,7 @@ The <b>IFaxJobStatus</b> interface is used for notifications and to hold the dyn
 
 
 
-You do not create the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobstatus">FaxJobStatus</a> object. It is received as part of a notification when you implement <a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingjobchanged">IFaxServerNotify::OnIncomingJobChanged</a> or <a href="https://msdn.microsoft.com/132747ed-04b4-4803-976c-5274d8c9f73d">IFaxServerNotify::OnOutgoingJobChanged</a>, which include a parameter of the type <b>FaxJobStatus</b>. When the event occurs and the implemented function is called, you receive this object containing the dynamic information.
+You do not create the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobstatus">FaxJobStatus</a> object. It is received as part of a notification when you implement <a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingjobchanged">IFaxServerNotify::OnIncomingJobChanged</a> or <a href="https://msdn.microsoft.com/132747ed-04b4-4803-976c-5274d8c9f73d">IFaxServerNotify::OnOutgoingJobChanged</a>, which include a parameter of the type <b>FaxJobStatus</b>. When the event occurs and the implemented function is called, you receive this object containing the dynamic information.
 
 
 

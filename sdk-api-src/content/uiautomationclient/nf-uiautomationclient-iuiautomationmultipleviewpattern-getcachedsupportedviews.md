@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.GetCachedSupportedViews
 title: IUIAutomationMultipleViewPattern::GetCachedSupportedViews (uiautomationclient.h)
-description: Retrieves a collection of control-specific view identifiers from the cache.helpviewer_keywords: ["GetCachedSupportedViews","GetCachedSupportedViews method [Windows Accessibility]","GetCachedSupportedViews method [Windows Accessibility]","IUIAutomationMultipleViewPattern interface","IUIAutomationMultipleViewPattern interface [Windows Accessibility]","GetCachedSupportedViews method","IUIAutomationMultipleViewPattern.GetCachedSupportedViews","IUIAutomationMultipleViewPattern::GetCachedSupportedViews","uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews","uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews","uiautomationclient/IUIAutomationMultipleViewPattern::GetCachedSupportedViews","winauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews"]
+description: Retrieves a collection of control-specific view identifiers from the cache.
+helpviewer_keywords: ["GetCachedSupportedViews","GetCachedSupportedViews method [Windows Accessibility]","GetCachedSupportedViews method [Windows Accessibility]","IUIAutomationMultipleViewPattern interface","IUIAutomationMultipleViewPattern interface [Windows Accessibility]","GetCachedSupportedViews method","IUIAutomationMultipleViewPattern.GetCachedSupportedViews","IUIAutomationMultipleViewPattern::GetCachedSupportedViews","uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews","uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews","uiautomationclient/IUIAutomationMultipleViewPattern::GetCachedSupportedViews","winauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews"]
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews.htm
 tech.root: WinAuto
 ms.assetid: 7d6874c2-adf9-441a-931e-15b65b7a427c
@@ -59,7 +60,7 @@ Retrieves a collection of control-specific view identifiers from the cache.
 
 ### -param retVal [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives a pointer to an array of view identifiers.
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform3D.SetOffsetZ(IDCompositionAnimation)
 title: IDCompositionTranslateTransform3D::SetOffsetZ(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the OffsetZ property of a 3D translation transform effect. The OffsetZ property specifies the distance to translate along the z-axis.helpviewer_keywords: ["IDCompositionTranslateTransform3D interface [DirectComposition]","SetOffsetZ method","IDCompositionTranslateTransform3D.SetOffsetZ","IDCompositionTranslateTransform3D.SetOffsetZ(IDCompositionAnimation)","IDCompositionTranslateTransform3D::SetOffsetZ","IDCompositionTranslateTransform3D::SetOffsetZ(IDCompositionAnimation)","IDCompositionTranslateTransform3D::SetOffsetZ(IDCompositionAnimation*)","SetOffsetZ","SetOffsetZ method [DirectComposition]","SetOffsetZ method [DirectComposition]","IDCompositionTranslateTransform3D interface","dcomp/IDCompositionTranslateTransform3D::SetOffsetZ","directcomp.idcompositiontranslatetransform3d_setoffsetz_idcompositionanimation"]
+description: Animates the value of the OffsetZ property of a 3D translation transform effect. The OffsetZ property specifies the distance to translate along the z-axis.
+helpviewer_keywords: ["IDCompositionTranslateTransform3D interface [DirectComposition]","SetOffsetZ method","IDCompositionTranslateTransform3D.SetOffsetZ","IDCompositionTranslateTransform3D.SetOffsetZ(IDCompositionAnimation)","IDCompositionTranslateTransform3D::SetOffsetZ","IDCompositionTranslateTransform3D::SetOffsetZ(IDCompositionAnimation)","IDCompositionTranslateTransform3D::SetOffsetZ(IDCompositionAnimation*)","SetOffsetZ","SetOffsetZ method [DirectComposition]","SetOffsetZ method [DirectComposition]","IDCompositionTranslateTransform3D interface","dcomp/IDCompositionTranslateTransform3D::SetOffsetZ","directcomp.idcompositiontranslatetransform3d_setoffsetz_idcompositionanimation"]
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsetz_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: CAD58523-FBAD-4451-916A-E157F17F0A81
@@ -98,11 +99,11 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsetx(float)">IDCompositionTranslateTransform3D::SetOffsetX</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsetx(float)">IDCompositionTranslateTransform3D::SetOffsetX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsety(float)">IDCompositionTranslateTransform3D::SetOffsetY</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsety(float)">IDCompositionTranslateTransform3D::SetOffsetY</a>
  
 
  

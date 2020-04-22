@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflection.GetOutputParameterDesc
 title: ID3D10ShaderReflection::GetOutputParameterDesc (d3d10shader.h)
-description: Get an output-parameter description for a shader.helpviewer_keywords: ["GetOutputParameterDesc","GetOutputParameterDesc method [Direct3D 10]","GetOutputParameterDesc method [Direct3D 10]","ID3D10ShaderReflection interface","ID3D10ShaderReflection interface [Direct3D 10]","GetOutputParameterDesc method","ID3D10ShaderReflection.GetOutputParameterDesc","ID3D10ShaderReflection::GetOutputParameterDesc","d3d10shader/ID3D10ShaderReflection::GetOutputParameterDesc","direct3d10.id3d10shaderreflection_getoutputparameterdesc","e1ba0a0a-1c0d-b2cd-1246-59c039de1f0c"]
+description: Get an output-parameter description for a shader.
+helpviewer_keywords: ["GetOutputParameterDesc","GetOutputParameterDesc method [Direct3D 10]","GetOutputParameterDesc method [Direct3D 10]","ID3D10ShaderReflection interface","ID3D10ShaderReflection interface [Direct3D 10]","GetOutputParameterDesc method","ID3D10ShaderReflection.GetOutputParameterDesc","ID3D10ShaderReflection::GetOutputParameterDesc","d3d10shader/ID3D10ShaderReflection::GetOutputParameterDesc","direct3d10.id3d10shaderreflection_getoutputparameterdesc","e1ba0a0a-1c0d-b2cd-1246-59c039de1f0c"]
 old-location: direct3d10\id3d10shaderreflection_getoutputparameterdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection_getoutputparameterdesc.htm
@@ -66,9 +67,9 @@ A zero-based parameter index.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d10shader/ns-d3d10shader-d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d10shader/ns-d3d10shader-d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A pointer to a shader-output-parameter description. See <a href="https://docs.microsoft.com/windows/win32/api/d3d10shader/ns-d3d10shader-d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>.
+A pointer to a shader-output-parameter description. See <a href="/windows/win32/api/d3d10shader/ns-d3d10shader-d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>.
 
 
 ## -returns

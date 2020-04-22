@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_LAYER_STATISTICS0_
 title: FWPM_LAYER_STATISTICS0 (fwpmtypes.h)
-description: Stores statistics related to a layer.helpviewer_keywords: ["FWPM_LAYER_STATISTICS0","FWPM_LAYER_STATISTICS0 structure [Filtering]","fwp.fwpm_layer_statistics0","fwpmtypes/FWPM_LAYER_STATISTICS0"]
+description: Stores statistics related to a layer.
+helpviewer_keywords: ["FWPM_LAYER_STATISTICS0","FWPM_LAYER_STATISTICS0 structure [Filtering]","fwp.fwpm_layer_statistics0","fwpmtypes/FWPM_LAYER_STATISTICS0"]
 old-location: fwp\fwpm_layer_statistics0.htm
 tech.root: fwp
 ms.assetid: cc8e0159-fe28-4718-b5fe-d38d180b3e2c
@@ -104,7 +105,7 @@ Type: <b>UINT32</b>
 
 
 
-[FWPM_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_statistics0)a>
+[FWPM_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_statistics0)
  
 
  

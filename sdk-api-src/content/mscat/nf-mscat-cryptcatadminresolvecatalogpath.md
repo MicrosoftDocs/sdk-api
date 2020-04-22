@@ -1,7 +1,8 @@
 ---
 UID: NF:mscat.CryptCATAdminResolveCatalogPath
 title: CryptCATAdminResolveCatalogPath function (mscat.h)
-description: Retrieves the fully qualified path of the specified catalog.helpviewer_keywords: ["CryptCATAdminResolveCatalogPath","CryptCATAdminResolveCatalogPath function [Security]","mscat/CryptCATAdminResolveCatalogPath","security.cryptcatadminresolvecatalogpath"]
+description: Retrieves the fully qualified path of the specified catalog.
+helpviewer_keywords: ["CryptCATAdminResolveCatalogPath","CryptCATAdminResolveCatalogPath function [Security]","mscat/CryptCATAdminResolveCatalogPath","security.cryptcatadminresolvecatalogpath"]
 old-location: security\cryptcatadminresolvecatalogpath.htm
 tech.root: SecCrypto
 ms.assetid: bdbfa02d-8801-40d4-84f4-bc5a449bce50
@@ -71,7 +72,7 @@ The name of the catalog file for which to retrieve the fully qualified path.
 
 ### -param psCatInfo [in, out]
 
-A pointer to the [CATALOG_INFO](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-catalog_info)a> structure. This value cannot be <b>NULL</b>. Upon return from this function, the <i>wszCatalogFile</i> member of the <b>CATALOG_INFO</b> structure contains the catalog file name.
+A pointer to the [CATALOG_INFO](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-catalog_info) structure. This value cannot be <b>NULL</b>. Upon return from this function, the <i>wszCatalogFile</i> member of the <b>CATALOG_INFO</b> structure contains the catalog file name.
 
 
 ### -param dwFlags [in]

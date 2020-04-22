@@ -1,7 +1,8 @@
 ---
 UID: NF:mscat.CryptCATCatalogInfoFromContext
 title: CryptCATCatalogInfoFromContext function (mscat.h)
-description: Retrieves catalog information from a specified catalog context.helpviewer_keywords: ["CryptCATCatalogInfoFromContext","CryptCATCatalogInfoFromContext function [Security]","mscat/CryptCATCatalogInfoFromContext","security.cryptcatcataloginfofromcontext"]
+description: Retrieves catalog information from a specified catalog context.
+helpviewer_keywords: ["CryptCATCatalogInfoFromContext","CryptCATCatalogInfoFromContext function [Security]","mscat/CryptCATCatalogInfoFromContext","security.cryptcatcataloginfofromcontext"]
 old-location: security\cryptcatcataloginfofromcontext.htm
 tech.root: SecCrypto
 ms.assetid: ec195fcc-1cff-4dd6-9075-c4904b653da7
@@ -67,7 +68,7 @@ A handle to the catalog context. This value cannot be <b>NULL</b>.
 
 ### -param psCatInfo [in, out]
 
-A pointer to the [CATALOG_INFO](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-catalog_info)a> structure. This value cannot be <b>NULL</b>. Upon return from this function, the <i>wszCatalogFile</i> member of the CATALOG_INFO structure contains the catalog file name.
+A pointer to the [CATALOG_INFO](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-catalog_info) structure. This value cannot be <b>NULL</b>. Upon return from this function, the <i>wszCatalogFile</i> member of the CATALOG_INFO structure contains the catalog file name.
 
 
 ### -param dwFlags [in]

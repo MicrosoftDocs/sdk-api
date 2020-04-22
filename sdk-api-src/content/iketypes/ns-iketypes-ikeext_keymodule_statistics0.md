@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_KEYMODULE_STATISTICS0_
 title: IKEEXT_KEYMODULE_STATISTICS0 (iketypes.h)
-description: Contains various statistics specific to the keying module.helpviewer_keywords: ["IKEEXT_KEYMODULE_STATISTICS0","IKEEXT_KEYMODULE_STATISTICS0 structure [Filtering]","fwp.ikeext_keymodule_statistics0","iketypes/IKEEXT_KEYMODULE_STATISTICS0"]
+description: Contains various statistics specific to the keying module.
+helpviewer_keywords: ["IKEEXT_KEYMODULE_STATISTICS0","IKEEXT_KEYMODULE_STATISTICS0 structure [Filtering]","fwp.ikeext_keymodule_statistics0","iketypes/IKEEXT_KEYMODULE_STATISTICS0"]
 old-location: fwp\ikeext_keymodule_statistics0.htm
 tech.root: fwp
 ms.assetid: 87dca500-bf57-463a-a6de-db270430ae29
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_KEYMODULE_STATISTICS0</b> structure contains various statistics specific to the keying module.
-[IKEEXT_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1)a> is available.</div><div> </div>
+[IKEEXT_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,14 +62,14 @@ The <b>IKEEXT_KEYMODULE_STATISTICS0</b> structure contains various statistics sp
 
 IPv4 common statistics.
 
-See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics0">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</a> for more information.
+See <a href="/windows/win32/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics0">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</a> for more information.
 
 
 ### -field v6Statistics
 
 IPv6 common statistics.
 
-See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics0">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</a> for more information.
+See <a href="/windows/win32/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics0">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</a> for more information.
 
 
 ### -field errorFrequencyTable

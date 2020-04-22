@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.Update
 title: IUIAnimationManager2::Update (uianimation.h)
-description: Updates the values of all animation variables.helpviewer_keywords: ["IUIAnimationManager2 interface [Windows Animation]","Update method","IUIAnimationManager2.Update","IUIAnimationManager2::Update","Update","Update method [Windows Animation]","Update method [Windows Animation]","IUIAnimationManager2 interface","uianimation.iuianimationmanager2_update","uianimation/IUIAnimationManager2::Update"]
+description: Updates the values of all animation variables.
+helpviewer_keywords: ["IUIAnimationManager2 interface [Windows Animation]","Update method","IUIAnimationManager2.Update","IUIAnimationManager2::Update","Update","Update method [Windows Animation]","Update method [Windows Animation]","IUIAnimationManager2 interface","uianimation.iuianimationmanager2_update","uianimation/IUIAnimationManager2::Update"]
 old-location: uianimation\iuianimationmanager2_update.htm
 tech.root: UIAnimation
 ms.assetid: 5735ABDB-E1AE-41C0-9F37-92084CEF6FAD
@@ -81,7 +82,7 @@ Returns S_OK if successful; otherwise an <b>HRESULT</b> error code. See <a href=
 
 
 
-Calling this method advances the animation manager to <i>timeNow</i>, changes the status of all storyboards as necessary, and updates any animation variables to appropriate interpolated values. If the animation manager is paused, no storyboards or variables are updated. If the animation  mode is <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_mode">UI_ANIMATION_MODE_DISABLED</a>, all scheduled storyboards finish playing immediately. If the values of any variables change during this call, the value of <i>updateResult</i> is <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_VARIABLES_CHANGED</a>; otherwise, it is <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_NO_CHANGE</a>.
+Calling this method advances the animation manager to <i>timeNow</i>, changes the status of all storyboards as necessary, and updates any animation variables to appropriate interpolated values. If the animation manager is paused, no storyboards or variables are updated. If the animation  mode is <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_mode">UI_ANIMATION_MODE_DISABLED</a>, all scheduled storyboards finish playing immediately. If the values of any variables change during this call, the value of <i>updateResult</i> is <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_VARIABLES_CHANGED</a>; otherwise, it is <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_NO_CHANGE</a>.
       
 
 
@@ -108,11 +109,11 @@ Calling this method advances the animation manager to <i>timeNow</i>, changes th
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_mode">UI_ANIMATION_MODE</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_mode">UI_ANIMATION_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_RESULT</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_RESULT</a>
  
 
  

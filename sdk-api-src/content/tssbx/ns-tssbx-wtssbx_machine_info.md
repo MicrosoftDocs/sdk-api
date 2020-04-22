@@ -1,7 +1,8 @@
 ---
 UID: NS:tssbx.__MIDL_IWTSSBPlugin_0007
 title: WTSSBX_MACHINE_INFO (tssbx.h)
-description: Contains information about a computer and its current state.helpviewer_keywords: ["WTSSBX_MACHINE_INFO","WTSSBX_MACHINE_INFO structure [Remote Desktop Services]","__MIDL_IWTSSBPlugin_0007","termserv.wtssbx_machine_info","tssbx/WTSSBX_MACHINE_INFO"]
+description: Contains information about a computer and its current state.
+helpviewer_keywords: ["WTSSBX_MACHINE_INFO","WTSSBX_MACHINE_INFO structure [Remote Desktop Services]","__MIDL_IWTSSBPlugin_0007","termserv.wtssbx_machine_info","tssbx/WTSSBX_MACHINE_INFO"]
 old-location: termserv\wtssbx_machine_info.htm
 tech.root: TermServ
 ms.assetid: 88d49ae4-bf48-4b04-8a16-58d32efd62fa
@@ -59,7 +60,7 @@ Contains information about a computer and its current state.
 
 ### -field ClientConnectInfo
 
-A <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_connect_info">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the computer.
+A <a href="/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_connect_info">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the computer.
 
 
 ### -field wczFarmName
@@ -69,7 +70,7 @@ A Unicode string that contains the name of the farm in RD Connection Broker tha
 
 ### -field InternalIPAddress
 
-A <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ns-tssbx-wtssbx_ip_address">WTSSBX_IP_ADDRESS</a> structure that contains the internal IP address of this computer. RD Connection Broker uses this IP address for redirection purposes.
+A <a href="/windows/win32/api/tssbx/ns-tssbx-wtssbx_ip_address">WTSSBX_IP_ADDRESS</a> structure that contains the internal IP address of this computer. RD Connection Broker uses this IP address for redirection purposes.
 
 
 ### -field dwMaxSessionsLimit
@@ -84,17 +85,17 @@ The server weight value of this computer. RD Connection Broker uses this value 
 
 ### -field SingleSessionMode
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_session_mode">WTSSBX_MACHINE_SESSION_MODE</a> enumeration type that indicates the computer's session mode.
+A value of the <a href="/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_session_mode">WTSSBX_MACHINE_SESSION_MODE</a> enumeration type that indicates the computer's session mode.
 
 
 ### -field InDrain
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_drain">WTSSBX_MACHINE_DRAIN</a> enumeration type that indicates whether the computer is accepting new user sessions.
+A value of the <a href="/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_drain">WTSSBX_MACHINE_DRAIN</a> enumeration type that indicates whether the computer is accepting new user sessions.
 
 
 ### -field MachineState
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_state">WTSSBX_MACHINE_STATE</a> enumeration type that indicates the state of the computer.
+A value of the <a href="/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_state">WTSSBX_MACHINE_STATE</a> enumeration type that indicates the state of the computer.
 
 
 ## -see-also

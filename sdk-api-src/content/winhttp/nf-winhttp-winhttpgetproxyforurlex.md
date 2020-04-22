@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpGetProxyForUrlEx
 title: WinHttpGetProxyForUrlEx function (winhttp.h)
-description: Retrieves the proxy data for the specified URL.helpviewer_keywords: ["WinHttpGetProxyForUrlEx","WinHttpGetProxyForUrlEx function [WinHTTP]","http.winhttpgetproxyforurlex","winhttp/WinHttpGetProxyForUrlEx"]
+description: Retrieves the proxy data for the specified URL.
+helpviewer_keywords: ["WinHttpGetProxyForUrlEx","WinHttpGetProxyForUrlEx function [WinHTTP]","http.winhttpgetproxyforurlex","winhttp/WinHttpGetProxyForUrlEx"]
 old-location: http\winhttpgetproxyforurlex.htm
 tech.root: WinHttp
 ms.assetid: 28479a55-7a25-4254-b27a-45e09b166dd5
@@ -69,7 +70,7 @@ A pointer to a null-terminated Unicode string that contains a URL for which prox
 
 ### -param pAutoProxyOptions [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_autoproxy_options">WINHTTP_AUTOPROXY_OPTIONS</a> structure that specifies the auto-proxy options to use.
+A pointer to a <a href="/windows/win32/api/winhttp/ns-winhttp-winhttp_autoproxy_options">WINHTTP_AUTOPROXY_OPTIONS</a> structure that specifies the auto-proxy options to use.
 
 
 ### -param pContext [in]

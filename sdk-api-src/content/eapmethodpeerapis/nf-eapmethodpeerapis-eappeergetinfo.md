@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetInfo
 title: EapPeerGetInfo function (eapmethodpeerapis.h)
-description: Obtains a set of function pointers for an implementation of the EAP peer method EapPeerGetInfo currently loaded on the EAPHost service.helpviewer_keywords: ["EapPeerGetInfo","EapPeerGetInfo function [EAPHost]","eaphost.eappeergetinfo","eapmethodpeerapis/EapPeerGetInfo"]
+description: Obtains a set of function pointers for an implementation of the EAP peer method EapPeerGetInfo currently loaded on the EAPHost service.
+helpviewer_keywords: ["EapPeerGetInfo","EapPeerGetInfo function [EAPHost]","eaphost.eappeergetinfo","eapmethodpeerapis/EapPeerGetInfo"]
 old-location: eaphost\eappeergetinfo.htm
 tech.root: eaphost
 ms.assetid: 99b7e136-b502-435b-9c62-a0e106ec8ec5
@@ -64,7 +65,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 ### -param pEapInfo [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapmethodpeerapis/ns-eapmethodpeerapis-eap_peer_method_routines">EAP_PEER_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to supplicant calls made to the peer-based EAPHost.
+A pointer to an <a href="/windows/win32/api/eapmethodpeerapis/ns-eapmethodpeerapis-eap_peer_method_routines">EAP_PEER_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to supplicant calls made to the peer-based EAPHost.
 
 
 ### -param ppEapError [out]
@@ -133,7 +134,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-run-time-functions)a>
+[EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
  
 
  

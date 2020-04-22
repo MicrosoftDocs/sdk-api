@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionCommit
 title: IComLTxEvents::OnLtxTransactionCommit (comsvcs.h)
-description: Generated when a transaction is committed.helpviewer_keywords: ["IComLTxEvents interface [COM+]","OnLtxTransactionCommit method","IComLTxEvents.OnLtxTransactionCommit","IComLTxEvents::OnLtxTransactionCommit","OnLtxTransactionCommit","OnLtxTransactionCommit method [COM+]","OnLtxTransactionCommit method [COM+]","IComLTxEvents interface","comsvcs/IComLTxEvents::OnLtxTransactionCommit","cos.icomltxevents_onltxtransactioncommit"]
+description: Generated when a transaction is committed.
+helpviewer_keywords: ["IComLTxEvents interface [COM+]","OnLtxTransactionCommit method","IComLTxEvents.OnLtxTransactionCommit","IComLTxEvents::OnLtxTransactionCommit","OnLtxTransactionCommit","OnLtxTransactionCommit method [COM+]","OnLtxTransactionCommit method [COM+]","IComLTxEvents interface","comsvcs/IComLTxEvents::OnLtxTransactionCommit","cos.icomltxevents_onltxtransactioncommit"]
 old-location: cos\icomltxevents_onltxtransactioncommit.htm
 tech.root: cossdk
 ms.assetid: c3462a79-6056-4a57-b971-78d8b4bd2a70
@@ -62,7 +63,7 @@ The event ID for this event is EID_LTXCOMMIT.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidLtx [in]

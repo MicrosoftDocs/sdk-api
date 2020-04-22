@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComMethod2Events.OnMethodException2
 title: IComMethod2Events::OnMethodException2 (comsvcs.h)
-description: Generated when an object's method generates an exception.helpviewer_keywords: ["IComMethod2Events interface [COM+]","OnMethodException2 method","IComMethod2Events.OnMethodException2","IComMethod2Events::OnMethodException2","OnMethodException2","OnMethodException2 method [COM+]","OnMethodException2 method [COM+]","IComMethod2Events interface","_dtc_IComMethod2Events_OnMethodException2","comsvcs/IComMethod2Events::OnMethodException2","cos.icommethod2events_onmethodexception2"]
+description: Generated when an object's method generates an exception.
+helpviewer_keywords: ["IComMethod2Events interface [COM+]","OnMethodException2 method","IComMethod2Events.OnMethodException2","IComMethod2Events::OnMethodException2","OnMethodException2","OnMethodException2 method [COM+]","OnMethodException2 method [COM+]","IComMethod2Events interface","_dtc_IComMethod2Events_OnMethodException2","comsvcs/IComMethod2Events::OnMethodException2","cos.icommethod2events_onmethodexception2"]
 old-location: cos\icommethod2events_onmethodexception2.htm
 tech.root: cossdk
 ms.assetid: a797a578-2d0d-45f0-820a-2616f6c65a42
@@ -59,7 +60,7 @@ Generated when an object's method generates an exception.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param oid [in]

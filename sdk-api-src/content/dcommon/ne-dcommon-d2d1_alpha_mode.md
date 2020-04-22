@@ -1,7 +1,8 @@
 ---
 UID: NE:dcommon.D2D1_ALPHA_MODE
 title: D2D1_ALPHA_MODE (dcommon.h)
-description: Specifies how the alpha value of a bitmap or render target should be treated.helpviewer_keywords: ["D2D1_ALPHA_MODE","D2D1_ALPHA_MODE enumeration [Direct2D]","D2D1_ALPHA_MODE_IGNORE","D2D1_ALPHA_MODE_PREMULTIPLIED","D2D1_ALPHA_MODE_STRAIGHT","D2D1_ALPHA_MODE_UNKNOWN","dcommon/D2D1_ALPHA_MODE","dcommon/D2D1_ALPHA_MODE_IGNORE","dcommon/D2D1_ALPHA_MODE_PREMULTIPLIED","dcommon/D2D1_ALPHA_MODE_STRAIGHT","dcommon/D2D1_ALPHA_MODE_UNKNOWN","direct2d.D2D1_ALPHA_MODE"]
+description: Specifies how the alpha value of a bitmap or render target should be treated.
+helpviewer_keywords: ["D2D1_ALPHA_MODE","D2D1_ALPHA_MODE enumeration [Direct2D]","D2D1_ALPHA_MODE_IGNORE","D2D1_ALPHA_MODE_PREMULTIPLIED","D2D1_ALPHA_MODE_STRAIGHT","D2D1_ALPHA_MODE_UNKNOWN","dcommon/D2D1_ALPHA_MODE","dcommon/D2D1_ALPHA_MODE_IGNORE","dcommon/D2D1_ALPHA_MODE_PREMULTIPLIED","dcommon/D2D1_ALPHA_MODE_STRAIGHT","dcommon/D2D1_ALPHA_MODE_UNKNOWN","direct2d.D2D1_ALPHA_MODE"]
 old-location: direct2d\D2D1_ALPHA_MODE.htm
 tech.root: Direct2D
 ms.assetid: f1b1e735-2e89-4dc1-9fee-dfb4626ef453
@@ -98,7 +99,7 @@ Regardless of the alpha mode of the render target, <a href="https://docs.microso
 <h3><a id="Alpha_Mode_for_Render_Targets"></a><a id="alpha_mode_for_render_targets"></a><a id="ALPHA_MODE_FOR_RENDER_TARGETS"></a>Alpha Mode for Render Targets</h3>
 Regardless of the alpha mode setting, a render target's contents support transparency. For example, if you draw a partially transparent red rectangle with a render target with an alpha mode of <b>D2D1_ALPHA_MODE_IGNORE</b>, the rectangle will appear pink (if the background is white), as you might expect.
 
-If you draw a partially transparent red rectangle when the alpha mode is [CreateCompatibleRenderTarget](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(d2d1_size_f_d2d1_size_u_d2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget))a> method) to create a bitmap that supports transparency. 
+If you draw a partially transparent red rectangle when the alpha mode is [CreateCompatibleRenderTarget](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(d2d1_size_f_d2d1_size_u_d2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)) method) to create a bitmap that supports transparency. 
 
 <h3><a id="ClearType_and_Alpha_Modes"></a><a id="cleartype_and_alpha_modes"></a><a id="CLEARTYPE_AND_ALPHA_MODES"></a>ClearType and Alpha Modes</h3>
 If you specify an alpha mode other than <b>D2D1_ALPHA_MODE_IGNORE</b> for a render target, the text antialiasing mode automatically changes from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode">D2D1_TEXT_ANTIALIAS_MODE CLEARTYPE</a>  to <b>D2D1_TEXT_ANTIALIAS_MODE GRAYSCALE</b>. (When you specify an alpha mode of <b>D2D1_ALPHA_MODE_UNKNOWN</b>, Direct2D sets the alpha for you depending on the type of render target. For a list of what the <b>D2D1_ALPHA_MODE_UNKNOWN</b> setting resolves to for each render target, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a> overview.) 
@@ -106,8 +107,8 @@ If you specify an alpha mode other than <b>D2D1_ALPHA_MODE_IGNORE</b> for a rend
 You can use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a> method to change the text antialias mode  back to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode">D2D1_TEXT_ANTIALIAS_MODE CLEARTYPE</a>, but rendering ClearType text to a transparent surface can create unpredictable results. If you want to render ClearType text to an transparent render target, we recommend that you use one of the following two techniques. 
 
 <ul>
-<li>Use the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)">PushAxisAlignedClip</a> method to clip the render target to the area where the text will be rendered,    then call the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-clear">Clear</a> method and specify an opaque color, then render your text.</li>
-<li>Use <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f_id2d1brush_float_id2d1strokestyle)">DrawRectangle</a> to draw an opaque rectangle behind the area where the text will be rendered.</li>
+<li>Use the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)">PushAxisAlignedClip</a> method to clip the render target to the area where the text will be rendered,    then call the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-clear">Clear</a> method and specify an opaque color, then render your text.</li>
+<li>Use <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f_id2d1brush_float_id2d1strokestyle)">DrawRectangle</a> to draw an opaque rectangle behind the area where the text will be rendered.</li>
 </ul>
 
 

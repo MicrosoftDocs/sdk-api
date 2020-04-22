@@ -1,7 +1,8 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetStatus
 title: IDot11AdHocInterface::GetStatus (adhoc.h)
-description: Gets the connection status of the active network associated with this NIC.helpviewer_keywords: ["GetStatus","GetStatus method [NativeWIFI]","GetStatus method [NativeWIFI]","IDot11AdHocInterface interface","IDot11AdHocInterface interface [NativeWIFI]","GetStatus method","IDot11AdHocInterface.GetStatus","IDot11AdHocInterface::GetStatus","adhoc/IDot11AdHocInterface::GetStatus","nwifi.idot11adhocinterface_getstatus"]
+description: Gets the connection status of the active network associated with this NIC.
+helpviewer_keywords: ["GetStatus","GetStatus method [NativeWIFI]","GetStatus method [NativeWIFI]","IDot11AdHocInterface interface","IDot11AdHocInterface interface [NativeWIFI]","GetStatus method","IDot11AdHocInterface.GetStatus","IDot11AdHocInterface::GetStatus","adhoc/IDot11AdHocInterface::GetStatus","nwifi.idot11adhocinterface_getstatus"]
 old-location: nwifi\idot11adhocinterface_getstatus.htm
 tech.root: NativeWiFi
 ms.assetid: 54e271dc-b710-4229-9682-2919af6cd998
@@ -59,7 +60,7 @@ Gets the connection status of the active network associated with this NIC. You c
 
 ### -param pState [in, out]
 
-A pointer to a  <a href="https://docs.microsoft.com/windows/win32/api/adhoc/ne-adhoc-dot11_adhoc_network_connection_status">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the connection state.
+A pointer to a  <a href="/windows/win32/api/adhoc/ne-adhoc-dot11_adhoc_network_connection_status">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the connection state.
 
 
 ## -returns

@@ -1,7 +1,8 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.ReportResult
 title: ICredentialProviderCredential::ReportResult (credentialprovider.h)
-description: Translates a received error status code into the appropriate user-readable message.helpviewer_keywords: ["ICredentialProviderCredential interface [Windows Shell]","ReportResult method","ICredentialProviderCredential.ReportResult","ICredentialProviderCredential::ReportResult","ReportResult","ReportResult method [Windows Shell]","ReportResult method [Windows Shell]","ICredentialProviderCredential interface","credentialprovider/ICredentialProviderCredential::ReportResult","shell.ICredentialProviderCredential_ReportResult","shell_ICredentialProviderCredential_ReportResult"]
+description: Translates a received error status code into the appropriate user-readable message.
+helpviewer_keywords: ["ICredentialProviderCredential interface [Windows Shell]","ReportResult method","ICredentialProviderCredential.ReportResult","ICredentialProviderCredential::ReportResult","ReportResult","ReportResult method [Windows Shell]","ReportResult method [Windows Shell]","ICredentialProviderCredential interface","credentialprovider/ICredentialProviderCredential::ReportResult","shell.ICredentialProviderCredential_ReportResult","shell_ICredentialProviderCredential_ReportResult"]
 old-location: shell\ICredentialProviderCredential_ReportResult.htm
 tech.root: shell
 ms.assetid: 13d6dda7-4a4f-45bf-af91-72f80497b9f7
@@ -80,7 +81,7 @@ A pointer to the error message that will be displayed to the user. May be <b>NUL
 
 ### -param pcpsiOptionalStatusIcon [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_status_icon">CREDENTIAL_PROVIDER_STATUS_ICON</a>*</b>
+Type: <b><a href="/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_status_icon">CREDENTIAL_PROVIDER_STATUS_ICON</a>*</b>
 
 A pointer to an icon  that will shown on the credential. May be <b>NULL</b>.
 

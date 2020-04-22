@@ -1,7 +1,8 @@
 ---
 UID: NN:spatialaudiohrtf.ISpatialAudioObjectRenderStreamForHrtf
 title: ISpatialAudioObjectRenderStreamForHrtf (spatialaudiohrtf.h)
-description: Provides methods for controlling an Hrtf spatial audio object render stream, including starting, stopping, and resetting the stream.helpviewer_keywords: ["ISpatialAudioObjectRenderStreamForHrtf","ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio]","ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio]","described","coreaudio.ispatialaudiorenderstreamforhrtf","spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf"]
+description: Provides methods for controlling an Hrtf spatial audio object render stream, including starting, stopping, and resetting the stream.
+helpviewer_keywords: ["ISpatialAudioObjectRenderStreamForHrtf","ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio]","ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio]","described","coreaudio.ispatialaudiorenderstreamforhrtf","spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf"]
 old-location: coreaudio\ispatialaudiorenderstreamforhrtf.htm
 tech.root: CoreAudio
 ms.assetid: 9DFEF82A-1571-47AB-BE0E-059BCCC8289A
@@ -56,7 +57,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectRenderStreamForHrtf</b> interface inherits from <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>. <b>ISpatialAudioObjectRenderStreamForHrtf</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectRenderStreamForHrtf</b> interface inherits from <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>. <b>ISpatialAudioObjectRenderStreamForHrtf</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,7 +86,7 @@ Activates an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudi
 
 
 
-<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a> interface.</div>
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a> interface.</div>
 <div> </div>
 
 

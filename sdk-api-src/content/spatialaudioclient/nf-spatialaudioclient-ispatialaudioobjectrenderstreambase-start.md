@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.Start
 title: ISpatialAudioObjectRenderStreamBase::Start (spatialaudioclient.h)
-description: Starts the spatial audio stream.helpviewer_keywords: ["ISpatialAudioObjectRenderStreamBase interface [Core Audio]","Start method","ISpatialAudioObjectRenderStreamBase.Start","ISpatialAudioObjectRenderStreamBase::Start","Start","Start method [Core Audio]","Start method [Core Audio]","ISpatialAudioObjectRenderStreamBase interface","coreaudio.ispatialaudioobjectrenderstream_start","spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Start"]
+description: Starts the spatial audio stream.
+helpviewer_keywords: ["ISpatialAudioObjectRenderStreamBase interface [Core Audio]","Start method","ISpatialAudioObjectRenderStreamBase.Start","ISpatialAudioObjectRenderStreamBase::Start","Start","Start method [Core Audio]","Start method [Core Audio]","ISpatialAudioObjectRenderStreamBase interface","coreaudio.ispatialaudioobjectrenderstream_start","spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Start"]
 old-location: coreaudio\ispatialaudioobjectrenderstream_start.htm
 tech.root: CoreAudio
 ms.assetid: 25D968AC-F5D2-4CAB-87ED-29FC63E5A5A4
@@ -90,7 +91,7 @@ The audio stream has not been stopped. Stop the stream by calling <a href="https
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
+The <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
 
 </td>
 </tr>
@@ -165,7 +166,7 @@ The stream must have been previously stopped with a call to <a href="https://doc
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

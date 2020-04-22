@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.StrFormatByteSizeEx
 title: StrFormatByteSizeEx function (shlwapi.h)
-description: Converts a numeric value into a string that represents the number in bytes, kilobytes, megabytes, or gigabytes, depending on the size.helpviewer_keywords: ["StrFormatByteSizeEx","StrFormatByteSizeEx function [Windows Shell]","_win32_StrFormatByteSizeEx","shell.StrFormatByteSizeEx","shlwapi/StrFormatByteSizeEx"]
+description: Converts a numeric value into a string that represents the number in bytes, kilobytes, megabytes, or gigabytes, depending on the size.
+helpviewer_keywords: ["StrFormatByteSizeEx","StrFormatByteSizeEx function [Windows Shell]","_win32_StrFormatByteSizeEx","shell.StrFormatByteSizeEx","shlwapi/StrFormatByteSizeEx"]
 old-location: shell\StrFormatByteSizeEx.htm
 tech.root: shell
 ms.assetid: 9ecc6427-e7bb-43ec-ab78-665ef52f8b10
@@ -68,9 +69,9 @@ The numeric value to be converted.
 
 ### -param flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a></b>
+Type: <b><a href="/windows/win32/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a></b>
 
-One of the <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a> enumeration values that specifies whether to round or truncate undisplayed digits. This value cannot be NULL.
+One of the <a href="/windows/win32/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a> enumeration values that specifies whether to round or truncate undisplayed digits. This value cannot be NULL.
 
 
 ### -param pszBuf [out]

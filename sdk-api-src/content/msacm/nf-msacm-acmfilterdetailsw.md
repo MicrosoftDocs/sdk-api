@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmFilterDetailsW
 title: acmFilterDetailsW function (msacm.h)
-description: The acmFilterDetails function queries the ACM for details about a filter with a specific waveform-audio filter tag.helpviewer_keywords: ["_win32_acmFilterDetails","acmFilterDetails","acmFilterDetails function [Windows Multimedia]","acmFilterDetailsA","acmFilterDetailsW","msacm/acmFilterDetails","msacm/acmFilterDetailsA","msacm/acmFilterDetailsW","multimedia.acmfilterdetails"]
+description: The acmFilterDetails function queries the ACM for details about a filter with a specific waveform-audio filter tag.
+helpviewer_keywords: ["_win32_acmFilterDetails","acmFilterDetails","acmFilterDetails function [Windows Multimedia]","acmFilterDetailsA","acmFilterDetailsW","msacm/acmFilterDetails","msacm/acmFilterDetailsA","msacm/acmFilterDetailsW","multimedia.acmfilterdetails"]
 old-location: multimedia\acmfilterdetails.htm
 tech.root: Multimedia
 ms.assetid: ab29362e-fa85-4833-a2c8-df5cfacc6140
@@ -70,7 +71,7 @@ Handle to the ACM driver to query for waveform-audio filter details for a filter
 
 ### -param pafd
 
-Pointer to the [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a> structure that is to receive the filter details for the given filter tag.
+Pointer to the [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails) structure that is to receive the filter details for the given filter tag.
 
 
 ### -param fdwDetails
@@ -86,7 +87,7 @@ Flags for getting the details. The following values are defined.
 </tr>
 <tr>
 <td>ACM_FILTERDETAILSF_FILTER</td>
-[ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a> structure was given and the remaining details should be returned. The <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure must be initialized to the same filter tag <b>pwfltr</b> specifies. This query type can be used to get a string description of an arbitrary filter structure. If an application specifies an ACM driver handle for <i>had</i>, details on the filter will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
+[ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails) structure was given and the remaining details should be returned. The <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure must be initialized to the same filter tag <b>pwfltr</b> specifies. This query type can be used to get a string description of an arbitrary filter structure. If an application specifies an ACM driver handle for <i>had</i>, details on the filter will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
 </tr>
 <tr>
 <td>ACM_FILTERDETAILSF_INDEX</td>

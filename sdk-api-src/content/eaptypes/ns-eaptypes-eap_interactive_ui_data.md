@@ -1,7 +1,8 @@
 ---
 UID: NS:eaptypes._EAP_INTERACTIVE_UI_DATA
 title: EAP_INTERACTIVE_UI_DATA (eaptypes.h)
-description: Contains configuration information for interactive UI components raised on an EAP supplicant.helpviewer_keywords: ["EAP_INTERACTIVE_UI_DATA","EAP_INTERACTIVE_UI_DATA structure [EAPHost]","EAP_INTERACTIVE_UI_DATA_VERSION","eaphost.eap_interactive_ui_data","eaptypes/EAP_INTERACTIVE_UI_DATA"]
+description: Contains configuration information for interactive UI components raised on an EAP supplicant.
+helpviewer_keywords: ["EAP_INTERACTIVE_UI_DATA","EAP_INTERACTIVE_UI_DATA structure [EAPHost]","EAP_INTERACTIVE_UI_DATA_VERSION","eaphost.eap_interactive_ui_data","eaptypes/EAP_INTERACTIVE_UI_DATA"]
 old-location: eaphost\eap_interactive_ui_data.htm
 tech.root: eaphost
 ms.assetid: 68141611-4a1c-409e-8ed2-3d21a76640c3
@@ -116,7 +117,7 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 
 
-[EAPHost Supplicant Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-structures)a>
+[EAPHost Supplicant Structures](/windows/win32/eaphost/eap-host-supplicant-structures)
 
 
 
@@ -128,11 +129,11 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 
 
-[EAP_CRED_REQ](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-req)a>
+[EAP_CRED_REQ](/windows/win32/eaphost/eap-cred-req)
 
 
 
-[EAP_CRED_RESP](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-resp)a>
+[EAP_CRED_RESP](/windows/win32/eaphost/eap-cred-resp)
 
 
 
@@ -140,11 +141,11 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 
 
-[SSO Password Change Behavior](https://docs.microsoft.com/windows/win32/eaphost/sso-password-change-behavior-)a>
+[SSO Password Change Behavior](/windows/win32/eaphost/sso-password-change-behavior-)
 
 
 
-[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
+[SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
  
 
  

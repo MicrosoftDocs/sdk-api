@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IQueryParserManager.SetOption
 title: IQueryParserManager::SetOption (structuredquery.h)
-description: Changes a single option in this IQueryParserManager object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.helpviewer_keywords: ["IQueryParserManager interface [search]","SetOption method","IQueryParserManager.SetOption","IQueryParserManager::SetOption","SetOption","SetOption method [search]","SetOption method [search]","IQueryParserManager interface","_search_IQueryParserManager_SetOption","search._search_IQueryParserManager_SetOption","structuredquery/IQueryParserManager::SetOption"]
+description: Changes a single option in this IQueryParserManager object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.
+helpviewer_keywords: ["IQueryParserManager interface [search]","SetOption method","IQueryParserManager.SetOption","IQueryParserManager::SetOption","SetOption","SetOption method [search]","SetOption method [search]","IQueryParserManager interface","_search_IQueryParserManager_SetOption","search._search_IQueryParserManager_SetOption","structuredquery/IQueryParserManager::SetOption"]
 old-location: search\_search_IQueryParserManager_SetOption.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\setoption.htm
@@ -59,9 +60,9 @@ Changes a single option in this <a href="https://docs.microsoft.com/windows/desk
 
 ### -param option [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-query_parser_manager_option">QUERY_PARSER_MANAGER_OPTION</a></b>
+Type: <b><a href="/windows/win32/api/structuredquery/ne-structuredquery-query_parser_manager_option">QUERY_PARSER_MANAGER_OPTION</a></b>
 
-The <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-query_parser_manager_option">QUERY_PARSER_MANAGER_OPTION</a> to be changed.
+The <a href="/windows/win32/api/structuredquery/ne-structuredquery-query_parser_manager_option">QUERY_PARSER_MANAGER_OPTION</a> to be changed.
 
 
 ### -param pOptionValue [in]

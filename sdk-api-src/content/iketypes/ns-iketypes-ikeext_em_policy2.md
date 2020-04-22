@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_EM_POLICY2_
 title: IKEEXT_EM_POLICY2 (iketypes.h)
-description: Is used to store AuthIP's extended mode negotiation policy.helpviewer_keywords: ["IKEEXT_EM_POLICY2","IKEEXT_EM_POLICY2 structure [Filtering]","fwp.ikeext_em_policy2","iketypes/IKEEXT_EM_POLICY2"]
+description: Is used to store AuthIP's extended mode negotiation policy.
+helpviewer_keywords: ["IKEEXT_EM_POLICY2","IKEEXT_EM_POLICY2 structure [Filtering]","fwp.ikeext_em_policy2","iketypes/IKEEXT_EM_POLICY2"]
 old-location: fwp\ikeext_em_policy2.htm
 tech.root: fwp
 ms.assetid: 01e3122b-812f-4c01-a514-dc0d513de822
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_EM_POLICY2</b> structure is used to store AuthIP's extended mode negotiation policy.
-[IKEEXT_EM_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy0)a>  is available.</div><div> </div>
+[IKEEXT_EM_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy0)  is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -66,7 +67,7 @@ Type: <b>UINT32</b>
 
 ### -field authenticationMethods
 
-Type: [IKEEXT_AUTHENTICATION_METHOD2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2)a>*</b>
+Type: [IKEEXT_AUTHENTICATION_METHOD2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2)*</b>
 
 size_is(numAuthenticationMethods)
 
@@ -75,7 +76,7 @@ Array of acceptable authentication methods.
 
 ### -field initiatorImpersonationType
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a></b>
+Type: <b><a href="/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a></b>
 
 Type of impersonation.
 
@@ -85,11 +86,11 @@ Type of impersonation.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a>
+<a href="/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a>
 
 
 
-[IKEEXT_AUTHENTICATION_METHOD2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2)a>
+[IKEEXT_AUTHENTICATION_METHOD2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2)
 
 
 

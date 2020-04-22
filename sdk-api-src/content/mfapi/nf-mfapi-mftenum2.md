@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFTEnum2
 title: MFTEnum2 function (mfapi.h)
-description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria.helpviewer_keywords: ["MFTEnum2","MFTEnum2 function [Media Foundation]","mf.mftenum2","mfapi/MFTEnum2"]
+description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria.
+helpviewer_keywords: ["MFTEnum2","MFTEnum2 function [Media Foundation]","mf.mftenum2","mfapi/MFTEnum2"]
 old-location: mf\mftenum2.htm
 tech.root: medfound
 ms.assetid: 1BF74B1F-46D9-46E8-A9DC-5A9666C3CAFB
@@ -64,19 +65,19 @@ A GUID that specifies the category of MFTs to enumerate. For a list of MFT categ
 
 ### -param Flags [in]
 
-The bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
+The bitwise <b>OR</b> of zero or more flags from the <a href="/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
 
 
 ### -param pInputType [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an input media type to match. 
+A pointer to an <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an input media type to match. 
 
 This parameter can be <b>NULL</b>. If <b>NULL</b>, all input types are matched.
 
 
 ### -param pOutputType [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an output media type to match.
+A pointer to an <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an output media type to match.
 
 This parameter can be <b>NULL</b>. If <b>NULL</b>, all output types are matched.
 

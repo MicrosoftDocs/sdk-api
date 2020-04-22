@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CRYPT_RETRIEVE_AUX_INFO
 title: CRYPT_RETRIEVE_AUX_INFO (wincrypt.h)
-description: Contains optional information to pass to the CryptRetrieveObjectByUrl function.helpviewer_keywords: ["*PCRYPT_RETRIEVE_AUX_INFO","CRYPT_RETRIEVE_AUX_INFO","CRYPT_RETRIEVE_AUX_INFO structure [Security]","PCRYPT_RETRIEVE_AUX_INFO","PCRYPT_RETRIEVE_AUX_INFO structure pointer [Security]","_crypto2_crypt_retrieve_aux_info","security.crypt_retrieve_aux_info","wincrypt/CRYPT_RETRIEVE_AUX_INFO","wincrypt/PCRYPT_RETRIEVE_AUX_INFO"]
+description: Contains optional information to pass to the CryptRetrieveObjectByUrl function.
+helpviewer_keywords: ["*PCRYPT_RETRIEVE_AUX_INFO","CRYPT_RETRIEVE_AUX_INFO","CRYPT_RETRIEVE_AUX_INFO structure [Security]","PCRYPT_RETRIEVE_AUX_INFO","PCRYPT_RETRIEVE_AUX_INFO structure pointer [Security]","_crypto2_crypt_retrieve_aux_info","security.crypt_retrieve_aux_info","wincrypt/CRYPT_RETRIEVE_AUX_INFO","wincrypt/PCRYPT_RETRIEVE_AUX_INFO"]
 old-location: security\crypt_retrieve_aux_info.htm
 tech.root: SecCrypto
 ms.assetid: 33ea51e7-c3e3-4cf8-ade0-099cb8b2e651
@@ -74,7 +75,7 @@ A value that specifies a limit to the number of byes retrieved. A value of zero 
 
 ### -field pPreFetchInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cryptnet_url_cache_pre_fetch_info">CRYPTNET_URL_CACHE_PRE_FETCH_INFO</a> structure. To get prefetch information, set its <b>cbSize</b> upon input. For no prefetch information, except for <b>cbSize</b>, the data structure contains zero upon return.
+A pointer to a <a href="/windows/win32/api/wincrypt/ns-wincrypt-cryptnet_url_cache_pre_fetch_info">CRYPTNET_URL_CACHE_PRE_FETCH_INFO</a> structure. To get prefetch information, set its <b>cbSize</b> upon input. For no prefetch information, except for <b>cbSize</b>, the data structure contains zero upon return.
 
 
 ### -field pFlushInfo

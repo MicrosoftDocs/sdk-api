@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.CreateProcessAsUserW
 title: CreateProcessAsUserW function (processthreadsapi.h)
-description: Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token.helpviewer_keywords: ["CreateProcessAsUser","CreateProcessAsUser function","CreateProcessAsUserA","CreateProcessAsUserW","_win32_createprocessasuser","base.createprocessasuser","processthreadsapi/CreateProcessAsUser","processthreadsapi/CreateProcessAsUserA","processthreadsapi/CreateProcessAsUserW"]
+description: Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token.
+helpviewer_keywords: ["CreateProcessAsUser","CreateProcessAsUser function","CreateProcessAsUserA","CreateProcessAsUserW","_win32_createprocessasuser","base.createprocessasuser","processthreadsapi/CreateProcessAsUser","processthreadsapi/CreateProcessAsUserA","processthreadsapi/CreateProcessAsUserW"]
 old-location: base\createprocessasuser.htm
 tech.root: ProcThread
 ms.assetid: 6b3f4dd9-500b-420e-804a-401a9e188be8
@@ -224,13 +225,13 @@ Handles in
 ### -param lpProcessInformation [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> structure that receives identification information about the new process. 
+<a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> structure that receives identification information about the new process. 
 
 
 
 
 Handles in 
-<a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> must be closed with 
+<a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> must be closed with 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
 
 
@@ -279,7 +280,7 @@ The
 The process is assigned a process identifier. The identifier is valid until the process terminates. It can be used to identify the process, or specified in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess">OpenProcess</a> function to open a handle to the process. The initial thread in the process is also assigned a thread identifier. It can be specified in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function to open a handle to the thread. The identifier is valid until the thread terminates and can be used to uniquely identify the thread within the system. These identifiers are returned in the 
-<a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> structure.
+<a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> structure.
 
 The calling thread can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a> function to wait until the new process has finished its initialization and is waiting for user input with no input pending. This can be useful for synchronization between parent and child processes, because 
@@ -356,7 +357,7 @@ For an example, see
 
 
 
-[GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)a>
+[GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)
 
 
 
@@ -368,7 +369,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a>
+<a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a>
 
 
 

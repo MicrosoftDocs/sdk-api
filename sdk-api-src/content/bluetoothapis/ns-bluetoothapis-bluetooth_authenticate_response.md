@@ -1,7 +1,8 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_AUTHENTICATE_RESPONSE
 title: BLUETOOTH_AUTHENTICATE_RESPONSE (bluetoothapis.h)
-description: BLUETOOTH_AUTHENTICATE_RESPONSE structure contains information passed in response to a BTH_REMOTE_AUTHENTICATE_REQUEST event.helpviewer_keywords: ["*PBLUETOOTH_AUTHENTICATE_RESPONSE","BLUETOOTH_AUTHENTICATE_RESPONSE","BLUETOOTH_AUTHENTICATE_RESPONSE structure [Bluetooth]","PBLUETOOTH_AUTHENTICATE_RESPONSE","PBLUETOOTH_AUTHENTICATE_RESPONSE structure pointer [Bluetooth]","bluetooth.bluetooth_authenticate_response","bluetoothapis/BLUETOOTH_AUTHENTICATE_RESPONSE","bluetoothapis/PBLUETOOTH_AUTHENTICATE_RESPONSE"]
+description: BLUETOOTH_AUTHENTICATE_RESPONSE structure contains information passed in response to a BTH_REMOTE_AUTHENTICATE_REQUEST event.
+helpviewer_keywords: ["*PBLUETOOTH_AUTHENTICATE_RESPONSE","BLUETOOTH_AUTHENTICATE_RESPONSE","BLUETOOTH_AUTHENTICATE_RESPONSE structure [Bluetooth]","PBLUETOOTH_AUTHENTICATE_RESPONSE","PBLUETOOTH_AUTHENTICATE_RESPONSE structure pointer [Bluetooth]","bluetooth.bluetooth_authenticate_response","bluetoothapis/BLUETOOTH_AUTHENTICATE_RESPONSE","bluetoothapis/PBLUETOOTH_AUTHENTICATE_RESPONSE"]
 old-location: bluetooth\bluetooth_authenticate_response.htm
 tech.root: bluetooth
 ms.assetid: fc7eda84-3e7b-49e9-a1a6-e1759c894e1a
@@ -59,14 +60,14 @@ The <b>BLUETOOTH_AUTHENTICATE_RESPONSE</b> structure contains information passed
 
 ### -field bthAddressRemote
 
-A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_address_struct">BLUETOOTH_ADDRESS</a> structure that contains the address of the device requesting the authentication response.  
+A <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_address_struct">BLUETOOTH_ADDRESS</a> structure that contains the address of the device requesting the authentication response.  
 
 <div class="alert"><b>Note</b>  This information can be found in the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-bluetooth_authentication_callback_params">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
 <div> </div>
 
 ### -field authMethod
 
-A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the supported authentication method. 
+A <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the supported authentication method. 
 
 <div class="alert"><b>Note</b>  This information can be found in the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-bluetooth_authentication_callback_params">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
 <div> </div>
@@ -130,7 +131,7 @@ Contains information for passkey authentication.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
+<a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
  
 
  

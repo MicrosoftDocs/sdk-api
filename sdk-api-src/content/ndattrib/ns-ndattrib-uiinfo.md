@@ -1,7 +1,8 @@
 ---
 UID: NS:ndattrib.tagUiInfo
 title: UiInfo (ndattrib.h)
-description: The UiInfo structure is used to display repair messages to the user.helpviewer_keywords: ["*PUiInfo","UiInfo","UiInfo structure [NDF]","UiInfo","*PUiInfo","UiInfo","*PUiInfo structure [NDF]","ndattrib/UiInfo","ndf.uiinfo"]
+description: The UiInfo structure is used to display repair messages to the user.
+helpviewer_keywords: ["*PUiInfo","UiInfo","UiInfo structure [NDF]","UiInfo","*PUiInfo","UiInfo","*PUiInfo structure [NDF]","ndattrib/UiInfo","ndf.uiinfo"]
 old-location: ndf\uiinfo.htm
 tech.root: NDF
 ms.assetid: 62d3c908-8fc4-4bd9-94ac-94dfcf8db395
@@ -59,7 +60,7 @@ The <b>UiInfo</b> structure is used to display repair messages to the user.
 
 ### -field type
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/ndattrib/ne-ndattrib-ui_info_type">UI_INFO_TYPE</a></b>
+Type: <b><a href="/windows/win32/api/ndattrib/ne-ndattrib-ui_info_type">UI_INFO_TYPE</a></b>
 
 The type of user interface (UI) to use. This can be one of the values shown in the following members.
 
@@ -101,7 +102,7 @@ Use a direct user interface. Used when <b>type</b> is set to UIT_DUI.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ndattrib/ne-ndattrib-ui_info_type">UI_INFO_TYPE</a>
+<a href="/windows/win32/api/ndattrib/ne-ndattrib-ui_info_type">UI_INFO_TYPE</a>
  
 
  

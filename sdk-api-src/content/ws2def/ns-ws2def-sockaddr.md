@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2def.sockaddr
 title: SOCKADDR (ws2def.h)
-description: The SOCKADDR structure is a generic structure that specifies a transport address.helpviewer_keywords: ["*LPSOCKADDR","*PSOCKADDR","PSOCKADDR","PSOCKADDR structure pointer [Network Drivers Starting with Windows Vista]","SOCKADDR","SOCKADDR structure [Network Drivers Starting with Windows Vista]","netvista.sockaddr","ws2def/PSOCKADDR","ws2def/SOCKADDR","wskref_4198a308-7f9c-4c7c-ba32-8f11e65e2349.xml"]
+description: The SOCKADDR structure is a generic structure that specifies a transport address.
+helpviewer_keywords: ["*LPSOCKADDR","*PSOCKADDR","PSOCKADDR","PSOCKADDR structure pointer [Network Drivers Starting with Windows Vista]","SOCKADDR","SOCKADDR structure [Network Drivers Starting with Windows Vista]","netvista.sockaddr","ws2def/PSOCKADDR","ws2def/SOCKADDR","wskref_4198a308-7f9c-4c7c-ba32-8f11e65e2349.xml"]
 old-location: netvista\sockaddr.htm
 tech.root: NetVista
 ms.assetid: af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a
@@ -76,7 +77,7 @@ An array of 14 bytes that contains the transport address data.
 The SOCKADDR structure is large enough to contain a transport address for most address families. For a
     structure that is guaranteed to be large enough to contain a transport address for all possible address
     families, see 
-    [SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)a>.
+    [SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh).
 
 A WSK application typically does not access the 
     <b>sa_data</b> member directly. Instead, a pointer to a SOCKADDR structure is normally cast to a pointer
@@ -90,7 +91,7 @@ A WSK application typically does not access the
 
 
 
-[SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)a>
+[SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)
 
 
 

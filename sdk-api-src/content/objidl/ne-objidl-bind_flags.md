@@ -1,7 +1,8 @@
 ---
 UID: NE:objidl.tagBIND_FLAGS
 title: BIND_FLAGS (objidl.h)
-description: Controls aspects of moniker binding operations.helpviewer_keywords: ["BIND_FLAGS","BIND_FLAGS enumeration [COM]","BIND_JUSTTESTEXISTENCE","BIND_MAYBOTHERUSER","_com_BIND_FLAGS","com.bind_flags","objidl/BIND_FLAGS","objidl/BIND_JUSTTESTEXISTENCE","objidl/BIND_MAYBOTHERUSER"]
+description: Controls aspects of moniker binding operations.
+helpviewer_keywords: ["BIND_FLAGS","BIND_FLAGS enumeration [COM]","BIND_JUSTTESTEXISTENCE","BIND_MAYBOTHERUSER","_com_BIND_FLAGS","com.bind_flags","objidl/BIND_FLAGS","objidl/BIND_JUSTTESTEXISTENCE","objidl/BIND_MAYBOTHERUSER"]
 old-location: com\bind_flags.htm
 tech.root: com
 ms.assetid: e8884e82-5de2-4a1f-b79c-d431afe9e87e
@@ -77,11 +78,11 @@ If this flag is specified, the caller is not interested in having the operation 
 
 
 
-[BIND_OPTS2](/windows/win32/api/objidl/ns-objidl-bind_opts2~r1)a>
+[BIND_OPTS2](/windows/win32/api/objidl/ns-objidl-bind_opts2~r1)
 
 
 
-[BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1)a>
+[BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1)
  
 
  

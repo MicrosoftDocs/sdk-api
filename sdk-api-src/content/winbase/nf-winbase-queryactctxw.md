@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.QueryActCtxW
 title: QueryActCtxW function (winbase.h)
-description: The QueryActCtxW function queries the activation context.helpviewer_keywords: ["ActivationContextBasicInformation","ActivationContextDetailedInformation","AssemblyDetailedInformationInActivationContext","CompatibilityInformationInActivationContext","FileInformationInAssemblyOfAssemblyInActivationContext","QUERY_ACTCTX_FLAG_ACTCTX_IS_ADDRESS","QUERY_ACTCTX_FLAG_ACTCTX_IS_HMODULE","QUERY_ACTCTX_FLAG_USE_ACTIVE_ACTCTX","QueryActCtxW","QueryActCtxW function [Side-by-side Assemblies]","RunlevelInformationInActivationContext","_win32_queryactctxw","setup.queryactctxw","winbase/QueryActCtxW"]
+description: The QueryActCtxW function queries the activation context.
+helpviewer_keywords: ["ActivationContextBasicInformation","ActivationContextDetailedInformation","AssemblyDetailedInformationInActivationContext","CompatibilityInformationInActivationContext","FileInformationInAssemblyOfAssemblyInActivationContext","QUERY_ACTCTX_FLAG_ACTCTX_IS_ADDRESS","QUERY_ACTCTX_FLAG_ACTCTX_IS_HMODULE","QUERY_ACTCTX_FLAG_USE_ACTIVE_ACTCTX","QueryActCtxW","QueryActCtxW function [Side-by-side Assemblies]","RunlevelInformationInActivationContext","_win32_queryactctxw","setup.queryactctxw","winbase/QueryActCtxW"]
 old-location: setup\queryactctxw.htm
 tech.root: SbsCs
 ms.assetid: 7d45f63f-0baf-4236-b245-d36f9eb32e8c
@@ -193,7 +194,7 @@ Not available.
 <td width="60%">
 If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the returned buffer contains detailed information about the activation context. This information is in the form of the 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-activation_context_detailed_information">ACTIVATION_CONTEXT_DETAILED_INFORMATION</a> structure.
+<a href="/windows/win32/api/winnt/ns-winnt-activation_context_detailed_information">ACTIVATION_CONTEXT_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -206,7 +207,7 @@ If
 <td width="60%">
 If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the buffer contains information about the assembly that has the index specified in <i>pvSubInstance</i>. This information is in the form of the 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-activation_context_assembly_detailed_information">ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION</a> structure.
+<a href="/windows/win32/api/winnt/ns-winnt-activation_context_assembly_detailed_information">ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -233,7 +234,7 @@ Information about a file in one of the assemblies in Activation Context. The <i>
 <td width="60%">
 If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the buffer contains information about requested run level of the activation context. This information is in the form of the 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-activation_context_run_level_information">ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION</a> structure.
+<a href="/windows/win32/api/winnt/ns-winnt-activation_context_run_level_information">ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not available.
 
@@ -248,7 +249,7 @@ If
 <td width="60%">
 If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the buffer contains information about requested compatibility context. This information is in the form of the 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-activation_context_compatibility_information">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
+<a href="/windows/win32/api/winnt/ns-winnt-activation_context_compatibility_information">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
 
 <b>Windows Server 2008 and earlier, and Windows Vista and earlier:  </b>This value is not available. This option is available beginning with Windows Server 2008 R2 and Windows 7.
 

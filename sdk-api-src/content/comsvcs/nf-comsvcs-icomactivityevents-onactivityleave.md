@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityLeave
 title: IComActivityEvents::OnActivityLeave (comsvcs.h)
-description: Generated when an activity thread is left.helpviewer_keywords: ["IComActivityEvents interface [COM+]","OnActivityLeave method","IComActivityEvents.OnActivityLeave","IComActivityEvents::OnActivityLeave","OnActivityLeave","OnActivityLeave method [COM+]","OnActivityLeave method [COM+]","IComActivityEvents interface","_dtc_IComActivityEvents_OnActivityLeave","comsvcs/IComActivityEvents::OnActivityLeave","cos.icomactivityevents_onactivityleave"]
+description: Generated when an activity thread is left.
+helpviewer_keywords: ["IComActivityEvents interface [COM+]","OnActivityLeave method","IComActivityEvents.OnActivityLeave","IComActivityEvents::OnActivityLeave","OnActivityLeave","OnActivityLeave method [COM+]","OnActivityLeave method [COM+]","IComActivityEvents interface","_dtc_IComActivityEvents_OnActivityLeave","comsvcs/IComActivityEvents::OnActivityLeave","cos.icomactivityevents_onactivityleave"]
 old-location: cos\icomactivityevents_onactivityleave.htm
 tech.root: cossdk
 ms.assetid: f39a8ce1-9c17-47eb-9405-c6a69dee88cc
@@ -59,7 +60,7 @@ Generated when an activity thread is left.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidCurrent [in]

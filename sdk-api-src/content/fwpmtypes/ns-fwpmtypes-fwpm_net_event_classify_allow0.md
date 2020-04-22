@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_CLASSIFY_ALLOW0
 title: FWPM_NET_EVENT_CLASSIFY_ALLOW0 (fwpmtypes.h)
-description: Contains information that describes allowed traffic as enforced by the WFP classify engine.helpviewer_keywords: ["FWPM_NET_EVENT_CLASSIFY_ALLOW0","FWPM_NET_EVENT_CLASSIFY_ALLOW0 structure [Filtering]","fwp.fwpm_net_event_classify_allow0","fwpmtypes/FWPM_NET_EVENT_CLASSIFY_ALLOW0"]
+description: Contains information that describes allowed traffic as enforced by the WFP classify engine.
+helpviewer_keywords: ["FWPM_NET_EVENT_CLASSIFY_ALLOW0","FWPM_NET_EVENT_CLASSIFY_ALLOW0 structure [Filtering]","fwp.fwpm_net_event_classify_allow0","fwpmtypes/FWPM_NET_EVENT_CLASSIFY_ALLOW0"]
 old-location: fwp\fwpm_net_event_classify_allow0.htm
 tech.root: fwp
 ms.assetid: 4c7b665e-b248-4506-8d5f-bd27b05d8d50
@@ -111,7 +112,7 @@ If true, indicates that the packet originated from (or was heading to) the loopb
 
 
 
-[FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2)a>
+[FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2)
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NS:virtdisk._SET_VIRTUAL_DISK_INFO
 title: SET_VIRTUAL_DISK_INFO (virtdisk.h)
-description: Contains virtual hard disk (VHD) information to use when you call the SetVirtualDiskInformation function to set VHD properties.helpviewer_keywords: ["*PSET_VIRTUAL_DISK_INFO","PSET_VIRTUAL_DISK_INFO","PSET_VIRTUAL_DISK_INFO structure pointer [VHD]","SET_VIRTUAL_DISK_INFO","SET_VIRTUAL_DISK_INFO structure [VHD]","_SET_VIRTUAL_DISK_INFO","vdssys/PSET_VIRTUAL_DISK_INFO","vdssys/SET_VIRTUAL_DISK_INFO","vhd.set_virtual_disk_info","virtdisk/PSET_VIRTUAL_DISK_INFO","virtdisk/SET_VIRTUAL_DISK_INFO"]
+description: Contains virtual hard disk (VHD) information to use when you call the SetVirtualDiskInformation function to set VHD properties.
+helpviewer_keywords: ["*PSET_VIRTUAL_DISK_INFO","PSET_VIRTUAL_DISK_INFO","PSET_VIRTUAL_DISK_INFO structure pointer [VHD]","SET_VIRTUAL_DISK_INFO","SET_VIRTUAL_DISK_INFO structure [VHD]","_SET_VIRTUAL_DISK_INFO","vdssys/PSET_VIRTUAL_DISK_INFO","vdssys/SET_VIRTUAL_DISK_INFO","vhd.set_virtual_disk_info","virtdisk/PSET_VIRTUAL_DISK_INFO","virtdisk/SET_VIRTUAL_DISK_INFO"]
 old-location: vhd\set_virtual_disk_info.htm
 tech.root: VStor
 ms.assetid: 04b2bb75-7905-469a-abf1-15591dc64686
@@ -50,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains virtual hard disk (VHD) information to use when you call the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-setvirtualdiskinformation">SetVirtualDiskInformation</a> function to set VHD properties.
+Contains virtual hard disk (VHD) information to use when you call the <a href="/windows/win32/api/virtdisk/nf-virtdisk-setvirtualdiskinformation">SetVirtualDiskInformation</a> function to set VHD properties.
 
 
 ## -struct-fields
@@ -60,7 +61,7 @@ Contains virtual hard disk (VHD) information to use when you call the <a href="h
 
 ### -field Version
 
-A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-set_virtual_disk_info_version">SET_VIRTUAL_DISK_INFO_VERSION</a> 
+A <a href="/windows/win32/api/virtdisk/ne-virtdisk-set_virtual_disk_info_version">SET_VIRTUAL_DISK_INFO_VERSION</a> 
       enumeration that specifies the version of the 
       <b>SET_VIRTUAL_DISK_INFO</b> structure being passed to or 
       from the VHD functions. This determines the type of information set.

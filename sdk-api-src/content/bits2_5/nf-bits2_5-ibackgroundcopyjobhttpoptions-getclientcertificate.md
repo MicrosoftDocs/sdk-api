@@ -1,7 +1,8 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.GetClientCertificate
 title: IBackgroundCopyJobHttpOptions::GetClientCertificate (bits2_5.h)
-description: Retrieves the client certificate from the job.helpviewer_keywords: ["GetClientCertificate","GetClientCertificate method [BITS]","GetClientCertificate method [BITS]","IBackgroundCopyJobHttpOptions interface","IBackgroundCopyJobHttpOptions interface [BITS]","GetClientCertificate method","IBackgroundCopyJobHttpOptions.GetClientCertificate","IBackgroundCopyJobHttpOptions::GetClientCertificate","bits.ibackgroundcopyjobhttpoptions_getclientcertificate","bits2_5/IBackgroundCopyJobHttpOptions::GetClientCertificate"]
+description: Retrieves the client certificate from the job.
+helpviewer_keywords: ["GetClientCertificate","GetClientCertificate method [BITS]","GetClientCertificate method [BITS]","IBackgroundCopyJobHttpOptions interface","IBackgroundCopyJobHttpOptions interface [BITS]","GetClientCertificate method","IBackgroundCopyJobHttpOptions.GetClientCertificate","IBackgroundCopyJobHttpOptions::GetClientCertificate","bits.ibackgroundcopyjobhttpoptions_getclientcertificate","bits2_5/IBackgroundCopyJobHttpOptions::GetClientCertificate"]
 old-location: bits\ibackgroundcopyjobhttpoptions_getclientcertificate.htm
 tech.root: Bits
 ms.assetid: cd317bf9-1d4b-438e-beec-15ea7da90fc9
@@ -60,7 +61,7 @@ Retrieves the client certificate from the job.
 
 ### -param pStoreLocation [out]
 
-Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
+Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
 
 
 ### -param pStoreName [out]

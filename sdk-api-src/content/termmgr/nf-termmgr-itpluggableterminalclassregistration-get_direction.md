@@ -1,7 +1,8 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Direction
 title: ITPluggableTerminalClassRegistration::get_Direction (termmgr.h)
-description: The get_Direction method gets the direction supported by the terminal.helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_Direction method","ITPluggableTerminalClassRegistration.get_Direction","ITPluggableTerminalClassRegistration::get_Direction","_tapi3_itpluggableterminalclassregistration_get_direction","get_Direction","get_Direction method [TAPI 2.2]","get_Direction method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_direction","termmgr/ITPluggableTerminalClassRegistration::get_Direction"]
+description: The get_Direction method gets the direction supported by the terminal.
+helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_Direction method","ITPluggableTerminalClassRegistration.get_Direction","ITPluggableTerminalClassRegistration::get_Direction","_tapi3_itpluggableterminalclassregistration_get_direction","get_Direction","get_Direction method [TAPI 2.2]","get_Direction method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_direction","termmgr/ITPluggableTerminalClassRegistration::get_Direction"]
 old-location: tapi3\itpluggableterminalclassregistration_get_direction.htm
 tech.root: Tapi
 ms.assetid: 67f2f241-2389-476f-a412-af456c1c3376
@@ -61,7 +62,7 @@ The
 ### -param pDirection [out]
 
 The 
-<a href="https://docs.microsoft.com/windows/win32/api/termmgr/ne-termmgr-tmgr_direction">TMGR_DIRECTION</a> descriptor of the terminal direction.
+<a href="/windows/win32/api/termmgr/ne-termmgr-tmgr_direction">TMGR_DIRECTION</a> descriptor of the terminal direction.
 
 
 ## -returns

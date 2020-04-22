@@ -1,7 +1,8 @@
 ---
 UID: NS:windns._DnsRecordFlags
 title: DNS_RECORD_FLAGS (windns.h)
-description: The DNS_RECORD_FLAGS structure is used to set flags for use in the DNS_RECORD structure.helpviewer_keywords: ["DNS_RECORD_FLAGS","DNS_RECORD_FLAGS structure [DNS]","_DnsRecordFlags","_dns_dns_record_flags","dns.dns_record_flags","windns/DNS_RECORD_FLAGS"]
+description: The DNS_RECORD_FLAGS structure is used to set flags for use in the DNS_RECORD structure.
+helpviewer_keywords: ["DNS_RECORD_FLAGS","DNS_RECORD_FLAGS structure [DNS]","_DnsRecordFlags","_dns_dns_record_flags","dns.dns_record_flags","windns/DNS_RECORD_FLAGS"]
 old-location: dns\dns_record_flags.htm
 tech.root: DNS
 ms.assetid: 53c1c8bc-20b0-4b15-b2b6-9c9854f73ee3
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>DNS_RECORD_FLAGS</b> structure is used to set flags for use in the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure.
 
 
 ## -struct-fields
@@ -61,7 +62,7 @@ The
 
 ### -field Section
 
-A <a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_section">DNS_SECTION</a> value that specifies the section of interest returned from the 
+A <a href="/windows/win32/api/windns/ne-windns-dns_section">DNS_SECTION</a> value that specifies the section of interest returned from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function call.
 
 
@@ -91,7 +92,7 @@ Reserved. Do not use.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

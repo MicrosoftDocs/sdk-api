@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetStartPoint
 title: IXpsOMGeometryFigure::GetStartPoint (xpsobjectmodel.h)
-description: Gets the starting point of the figure.helpviewer_keywords: ["GetStartPoint","GetStartPoint method [XPS Documents and Packaging]","GetStartPoint method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetStartPoint method","IXpsOMGeometryFigure.GetStartPoint","IXpsOMGeometryFigure::GetStartPoint","xps.ixpsomgeometryfigure_getstartpoint","xpsobjectmodel/IXpsOMGeometryFigure::GetStartPoint"]
+description: Gets the starting point of the figure.
+helpviewer_keywords: ["GetStartPoint","GetStartPoint method [XPS Documents and Packaging]","GetStartPoint method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetStartPoint method","IXpsOMGeometryFigure.GetStartPoint","IXpsOMGeometryFigure::GetStartPoint","xps.ixpsomgeometryfigure_getstartpoint","xpsobjectmodel/IXpsOMGeometryFigure::GetStartPoint"]
 old-location: xps\ixpsomgeometryfigure_getstartpoint.htm
 tech.root: printdocs
 ms.assetid: 7dbd829e-eaae-42f4-ae39-9ec35cbd3102
@@ -123,7 +124,7 @@ In the document markup, the value returned in <i>startPoint</i> corresponds to t
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

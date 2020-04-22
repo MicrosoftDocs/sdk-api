@@ -1,7 +1,8 @@
 ---
 UID: NS:dbghelp._LOADED_IMAGE
 title: LOADED_IMAGE (dbghelp.h)
-description: Contains information about the loaded image.helpviewer_keywords: ["*PLOADED_IMAGE","IMAGE_FILE_32BIT_MACHINE","IMAGE_FILE_AGGRESIVE_WS_TRIM","IMAGE_FILE_BYTES_REVERSED_HI","IMAGE_FILE_BYTES_REVERSED_LO","IMAGE_FILE_DEBUG_STRIPPED","IMAGE_FILE_DLL","IMAGE_FILE_EXECUTABLE_IMAGE","IMAGE_FILE_LARGE_ADDRESS_AWARE","IMAGE_FILE_LINE_NUMS_STRIPPED","IMAGE_FILE_LOCAL_SYMS_STRIPPED","IMAGE_FILE_NET_RUN_FROM_SWAP","IMAGE_FILE_RELOCS_STRIPPED","IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP","IMAGE_FILE_SYSTEM","IMAGE_FILE_UP_SYSTEM_ONLY","LOADED_IMAGE","LOADED_IMAGE structure","PLOADED_IMAGE","PLOADED_IMAGE structure pointer","_win32_loaded_image_str","base.loaded_image_str","dbghelp/LOADED_IMAGE","dbghelp/PLOADED_IMAGE"]
+description: Contains information about the loaded image.
+helpviewer_keywords: ["*PLOADED_IMAGE","IMAGE_FILE_32BIT_MACHINE","IMAGE_FILE_AGGRESIVE_WS_TRIM","IMAGE_FILE_BYTES_REVERSED_HI","IMAGE_FILE_BYTES_REVERSED_LO","IMAGE_FILE_DEBUG_STRIPPED","IMAGE_FILE_DLL","IMAGE_FILE_EXECUTABLE_IMAGE","IMAGE_FILE_LARGE_ADDRESS_AWARE","IMAGE_FILE_LINE_NUMS_STRIPPED","IMAGE_FILE_LOCAL_SYMS_STRIPPED","IMAGE_FILE_NET_RUN_FROM_SWAP","IMAGE_FILE_RELOCS_STRIPPED","IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP","IMAGE_FILE_SYSTEM","IMAGE_FILE_UP_SYSTEM_ONLY","LOADED_IMAGE","LOADED_IMAGE structure","PLOADED_IMAGE","PLOADED_IMAGE structure pointer","_win32_loaded_image_str","base.loaded_image_str","dbghelp/LOADED_IMAGE","dbghelp/PLOADED_IMAGE"]
 old-location: base\loaded_image_str.htm
 tech.root: Debug
 ms.assetid: 8bfc6b47-23d6-45e1-a733-5b938d6312da
@@ -75,7 +76,7 @@ The base address of the mapped file.
 ### -field FileHeader
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure.
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure.
 
 
 ### -field LastRvaSection
@@ -330,7 +331,7 @@ typedef struct _LIST_ENTRY {
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_CLASSIFY_OPTION0_
 title: FWPM_CLASSIFY_OPTION0 (fwpmtypes.h)
-description: The FWPM_CLASSIFY_OPTION0 structure.helpviewer_keywords: ["FWPM_CLASSIFY_OPTION0","FWPM_CLASSIFY_OPTION0 structure [Filtering]","fwp.fwpm_classify_option0","fwpmtypes/FWPM_CLASSIFY_OPTION0"]
+description: The FWPM_CLASSIFY_OPTION0 structure.
+helpviewer_keywords: ["FWPM_CLASSIFY_OPTION0","FWPM_CLASSIFY_OPTION0 structure [Filtering]","fwp.fwpm_classify_option0","fwpmtypes/FWPM_CLASSIFY_OPTION0"]
 old-location: fwp\fwpm_classify_option0.htm
 tech.root: fwp
 ms.assetid: 11f2f873-d27e-411c-ba5b-a93134e1f027
@@ -59,12 +60,12 @@ The <b>FWPM_CLASSIFY_OPTION0</b> structure is used to define unicast and multica
 
 ### -field type
 
-An [FWP_CLASSIFY_OPTION_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type)a> value.
+An [FWP_CLASSIFY_OPTION_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type) value.
 
 
 ### -field value
 
-An [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a> structure.
+An [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) structure.
 
 
 ## -remarks
@@ -136,15 +137,15 @@ The following table lists possible values for the members of a <b>FWPM_CLASSIFY_
 
 
 
-[FWPM_CLASSIFY_OPTIONS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_options0)a>
+[FWPM_CLASSIFY_OPTIONS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_options0)
 
 
 
-[FWP_CLASSIFY_OPTION_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type)a>
+[FWP_CLASSIFY_OPTION_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type)
 
 
 
-[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a>
+[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)
 
 
 

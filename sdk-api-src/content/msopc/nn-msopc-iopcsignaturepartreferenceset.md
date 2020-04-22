@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcSignaturePartReferenceSet
 title: IOpcSignaturePartReferenceSet (msopc.h)
-description: An unordered set of IOpcSignaturePartReference interface pointers that represent references to parts to be signed.helpviewer_keywords: ["IOpcSignaturePartReferenceSet","IOpcSignaturePartReferenceSet interface [Open Packaging Conventions]","IOpcSignaturePartReferenceSet interface [Open Packaging Conventions]","described","msopc/IOpcSignaturePartReferenceSet","opc.iopcsignaturepartreferenceset"]
+description: An unordered set of IOpcSignaturePartReference interface pointers that represent references to parts to be signed.
+helpviewer_keywords: ["IOpcSignaturePartReferenceSet","IOpcSignaturePartReferenceSet interface [Open Packaging Conventions]","IOpcSignaturePartReferenceSet interface [Open Packaging Conventions]","described","msopc/IOpcSignaturePartReferenceSet","opc.iopcsignaturepartreferenceset"]
 old-location: opc\iopcsignaturepartreferenceset.htm
 tech.root: OPC
 ms.assetid: c6f453e4-e0f5-4ecc-b622-6b30778ff719
@@ -147,7 +148,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
 
 
 

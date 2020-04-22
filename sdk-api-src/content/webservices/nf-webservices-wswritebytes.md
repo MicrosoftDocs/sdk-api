@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsWriteBytes
 title: WsWriteBytes function (webservices.h)
-description: Writes bytes to the writer in a format optimized for the encoding. When writing in a text encoding, it will emit the bytes encoded in base64. When writing to a binary format, it will emit the bytes directly.helpviewer_keywords: ["WsWriteBytes","WsWriteBytes function [Web Services for Windows]","webservices/WsWriteBytes","wsw.wswritebytes"]
+description: Writes bytes to the writer in a format optimized for the encoding. When writing in a text encoding, it will emit the bytes encoded in base64. When writing to a binary format, it will emit the bytes directly.
+helpviewer_keywords: ["WsWriteBytes","WsWriteBytes function [Web Services for Windows]","webservices/WsWriteBytes","wsw.wswritebytes"]
 old-location: wsw\wswritebytes.htm
 tech.root: wsw
 ms.assetid: 1fa9ecfc-c791-459f-ae11-ffcdc82b7145
@@ -142,12 +143,12 @@ A quota was exceeded.
         not be combined with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritecharsutf8">WsWriteCharsUtf8</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritetext">WsWriteText</a>when writing an attribute.
       
 
-For the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, if the byteCount exceeds the maxInlineByteCount specified
+For the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, if the byteCount exceeds the maxInlineByteCount specified
         during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> then the bytes will be buffered and  placed in their own MIME part.  Otherwise
         the bytes are encoded in base64 and placed directly in the document.
       
 
-For the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, if the element containing the bytes has an attribute with
+For the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, if the element containing the bytes has an attribute with
         the name 'contentType' and the namespace 'http://www.w3.org/2004/11/xmlmime', then the value of the attribute
         will be reflected in the content type header for the MIME part as described in 
         XML-binary Optimized Packaging.

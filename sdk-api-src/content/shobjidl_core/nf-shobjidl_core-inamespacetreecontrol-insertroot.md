@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.InsertRoot
 title: INameSpaceTreeControl::InsertRoot (shobjidl_core.h)
-description: Inserts a Shell item on a root item in a tree.helpviewer_keywords: ["INameSpaceTreeControl interface [Windows Shell]","InsertRoot method","INameSpaceTreeControl.InsertRoot","INameSpaceTreeControl::InsertRoot","InsertRoot","InsertRoot method [Windows Shell]","InsertRoot method [Windows Shell]","INameSpaceTreeControl interface","NSTCRS_EXPANDED","NSTCRS_HIDDEN","NSTCRS_VISIBLE","_shell_INameSpaceTreeControl_InsertRoot","shell.INameSpaceTreeControl_InsertRoot","shobjidl_core/INameSpaceTreeControl::InsertRoot"]
+description: Inserts a Shell item on a root item in a tree.
+helpviewer_keywords: ["INameSpaceTreeControl interface [Windows Shell]","InsertRoot method","INameSpaceTreeControl.InsertRoot","INameSpaceTreeControl::InsertRoot","InsertRoot","InsertRoot method [Windows Shell]","InsertRoot method [Windows Shell]","INameSpaceTreeControl interface","NSTCRS_EXPANDED","NSTCRS_HIDDEN","NSTCRS_VISIBLE","_shell_INameSpaceTreeControl_InsertRoot","shell.INameSpaceTreeControl_InsertRoot","shobjidl_core/INameSpaceTreeControl::InsertRoot"]
 old-location: shell\INameSpaceTreeControl_InsertRoot.htm
 tech.root: shell
 ms.assetid: 5d487896-a2ee-4bf3-82d8-90f23a4ff213
@@ -73,9 +74,9 @@ A pointer to the Shell item that is being inserted.
 
 ### -param grfEnumFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a></b>
 
-Enumerates the qualities of the root and all of its children. One of the values of type <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a>.
+Enumerates the qualities of the root and all of its children. One of the values of type <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a>.
 
 
 ### -param grfRootStyle [in]
@@ -107,7 +108,7 @@ The root is expanded upon initialization.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter">IShellItemFilter</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter">IShellItemFilter</a> that enables you to filter which items in the tree are displayed. If supplied, every item is customizable with a <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> flag. This value can be <b>NULL</b> if no filter is required.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter">IShellItemFilter</a> that enables you to filter which items in the tree are displayed. If supplied, every item is customizable with a <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> flag. This value can be <b>NULL</b> if no filter is required.
 
 
 ## -returns

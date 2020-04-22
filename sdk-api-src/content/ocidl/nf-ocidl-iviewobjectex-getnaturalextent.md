@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IViewObjectEx.GetNaturalExtent
 title: IViewObjectEx::GetNaturalExtent (ocidl.h)
-description: Provides sizing hints from the container for the object to use as the user resizes it.helpviewer_keywords: ["DVASPECT_CONTENT","DVASPECT_DOCPRINT","DVASPECT_ICON","DVASPECT_THUMBNAIL","GetNaturalExtent","GetNaturalExtent method [COM]","GetNaturalExtent method [COM]","IViewObjectEx interface","IViewObjectEx interface [COM]","GetNaturalExtent method","IViewObjectEx.GetNaturalExtent","IViewObjectEx::GetNaturalExtent","_ole_iviewobjectex_getnaturalextent","com.iviewobjectex_getnaturalextent","ocidl/IViewObjectEx::GetNaturalExtent"]
+description: Provides sizing hints from the container for the object to use as the user resizes it.
+helpviewer_keywords: ["DVASPECT_CONTENT","DVASPECT_DOCPRINT","DVASPECT_ICON","DVASPECT_THUMBNAIL","GetNaturalExtent","GetNaturalExtent method [COM]","GetNaturalExtent method [COM]","IViewObjectEx interface","IViewObjectEx interface [COM]","GetNaturalExtent method","IViewObjectEx.GetNaturalExtent","IViewObjectEx::GetNaturalExtent","_ole_iviewobjectex_getnaturalextent","com.iviewobjectex_getnaturalextent","ocidl/IViewObjectEx::GetNaturalExtent"]
 old-location: com\iviewobjectex_getnaturalextent.htm
 tech.root: com
 ms.assetid: 5759c482-2dea-4b94-956d-9560f72acbd5
@@ -127,7 +128,7 @@ Specifies the information context for the target device indicated by the ptd par
 
 ### -param pExtentInfo [in]
 
-Pointer to <a href="https://docs.microsoft.com/windows/win32/api/ocidl/ns-ocidl-dvextentinfo">DVEXTENTINFO</a> structure that specifies the sizing data.
+Pointer to <a href="/windows/win32/api/ocidl/ns-ocidl-dvextentinfo">DVEXTENTINFO</a> structure that specifies the sizing data.
 
 
 ### -param pSizel [out]
@@ -180,7 +181,7 @@ This method was not implemented.
 
 There are two general approaches to sizing a control. The first approach gives the control responsibility for sizing itself; the second approach gives the container responsibility for sizing the control. The first approach is called autosizing. There are two alternatives involved in the second approach: content sizing and integral sizing.
 
-The <b>IViewObjectEx::GetNaturalExtent</b> method supports both content and integral sizing. In content sizing, the container passes the <a href="https://docs.microsoft.com/windows/win32/api/ocidl/ns-ocidl-dvextentinfo">DVEXTENTINFO</a> structure to the object into which the object returns a suggested size. In integral sizing, the container passes a preferred size to the object in <b>DVEXTENTINFO</b>, and the object actually adjusts its height. Integral sizing is used when the user rubberbands a new size in design mode.
+The <b>IViewObjectEx::GetNaturalExtent</b> method supports both content and integral sizing. In content sizing, the container passes the <a href="/windows/win32/api/ocidl/ns-ocidl-dvextentinfo">DVEXTENTINFO</a> structure to the object into which the object returns a suggested size. In integral sizing, the container passes a preferred size to the object in <b>DVEXTENTINFO</b>, and the object actually adjusts its height. Integral sizing is used when the user rubberbands a new size in design mode.
 
 Autosizing typically occurs with objects such as the Label control which resizes if the autosize property was enabled and the associated text changed. Autosizing is handled differently depending on the state of the object.
 

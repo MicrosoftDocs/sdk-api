@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmNetEventCreateEnumHandle0
 title: FwpmNetEventCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of network events.helpviewer_keywords: ["FwpmNetEventCreateEnumHandle0","FwpmNetEventCreateEnumHandle0 function [Filtering]","fwp.fwpmneteventcreateenumhandle0","fwpmu/FwpmNetEventCreateEnumHandle0"]
+description: Creates a handle used to enumerate a set of network events.
+helpviewer_keywords: ["FwpmNetEventCreateEnumHandle0","FwpmNetEventCreateEnumHandle0 function [Filtering]","fwp.fwpmneteventcreateenumhandle0","fwpmu/FwpmNetEventCreateEnumHandle0"]
 old-location: fwp\fwpmneteventcreateenumhandle0.htm
 tech.root: fwp
 ms.assetid: 82e0f189-f283-43b2-b9d4-29e754c5c95e
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: [FWPM_NET_EVENT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0)a>*</b>
+Type: [FWPM_NET_EVENT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0)*</b>
 
   Template to selectively restrict the enumeration.
 
@@ -154,7 +155,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_NET_EVENT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0)a>
+[FWPM_NET_EVENT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0)
 
 
 

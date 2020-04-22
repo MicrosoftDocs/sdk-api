@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetMinimumSupportedVersion
 title: ISyncKnowledge2::GetMinimumSupportedVersion (winsync.h)
-description: Gets the minimum supported version of Microsoft Sync Framework components that can be used with this object.helpviewer_keywords: ["GetMinimumSupportedVersion","GetMinimumSupportedVersion method [Windows Sync]","GetMinimumSupportedVersion method [Windows Sync]","ISyncKnowledge2 interface","ISyncKnowledge2 interface [Windows Sync]","GetMinimumSupportedVersion method","ISyncKnowledge2.GetMinimumSupportedVersion","ISyncKnowledge2::GetMinimumSupportedVersion","winsync.isyncknowledge2_getminimumsupportedversion","winsync/ISyncKnowledge2::GetMinimumSupportedVersion"]
+description: Gets the minimum supported version of Microsoft Sync Framework components that can be used with this object.
+helpviewer_keywords: ["GetMinimumSupportedVersion","GetMinimumSupportedVersion method [Windows Sync]","GetMinimumSupportedVersion method [Windows Sync]","ISyncKnowledge2 interface","ISyncKnowledge2 interface [Windows Sync]","GetMinimumSupportedVersion method","ISyncKnowledge2.GetMinimumSupportedVersion","ISyncKnowledge2::GetMinimumSupportedVersion","winsync.isyncknowledge2_getminimumsupportedversion","winsync/ISyncKnowledge2::GetMinimumSupportedVersion"]
 old-location: winsync\isyncknowledge2_getminimumsupportedversion.htm
 tech.root: winsync
 ms.assetid: 06b5794e-ba46-499f-b85c-f0acb4fd79a7
@@ -131,7 +132,7 @@ For an overview of what is involved in building synchronization providers using 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_full_enumeration_action">SYNC_SERIALIZATION_VERSION Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-sync_full_enumeration_action">SYNC_SERIALIZATION_VERSION Enumeration</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetOptions
 title: IFileDialog::SetOptions (shobjidl_core.h)
-description: Sets flags to control the behavior of the dialog.helpviewer_keywords: ["IFileDialog interface [Windows Shell]","SetOptions method","IFileDialog.SetOptions","IFileDialog::SetOptions","SetOptions","SetOptions method [Windows Shell]","SetOptions method [Windows Shell]","IFileDialog interface","shell.IFileDialog_SetOptions","shell_IFileDialog_SetOptions","shobjidl_core/IFileDialog::SetOptions"]
+description: Sets flags to control the behavior of the dialog.
+helpviewer_keywords: ["IFileDialog interface [Windows Shell]","SetOptions method","IFileDialog.SetOptions","IFileDialog::SetOptions","SetOptions","SetOptions method [Windows Shell]","SetOptions method [Windows Shell]","IFileDialog interface","shell.IFileDialog_SetOptions","shell_IFileDialog_SetOptions","shobjidl_core/IFileDialog::SetOptions"]
 old-location: shell\IFileDialog_SetOptions.htm
 tech.root: shell
 ms.assetid: 99def5c2-3fc3-416c-80a6-6009927ab63e
@@ -61,7 +62,7 @@ Sets flags to control the behavior of the dialog.
 
 Type: <b>FILEOPENDIALOGOPTIONS</b>
 
-One or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_fileopendialogoptions">FILEOPENDIALOGOPTIONS</a> values.
+One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_fileopendialogoptions">FILEOPENDIALOGOPTIONS</a> values.
 
 
 ## -returns

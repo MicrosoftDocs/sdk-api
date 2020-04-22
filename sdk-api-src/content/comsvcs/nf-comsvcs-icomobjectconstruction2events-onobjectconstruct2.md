@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComObjectConstruction2Events.OnObjectConstruct2
 title: IComObjectConstruction2Events::OnObjectConstruct2 (comsvcs.h)
-description: Generated when a constructed object is created.helpviewer_keywords: ["IComObjectConstruction2Events interface [COM+]","OnObjectConstruct2 method","IComObjectConstruction2Events.OnObjectConstruct2","IComObjectConstruction2Events::OnObjectConstruct2","OnObjectConstruct2","OnObjectConstruct2 method [COM+]","OnObjectConstruct2 method [COM+]","IComObjectConstruction2Events interface","_dtc_IComObjectConstruction2Events_OnObjectConstruct2","comsvcs/IComObjectConstruction2Events::OnObjectConstruct2","cos.icomobjectconstruction2events_onobjectconstruct2"]
+description: Generated when a constructed object is created.
+helpviewer_keywords: ["IComObjectConstruction2Events interface [COM+]","OnObjectConstruct2 method","IComObjectConstruction2Events.OnObjectConstruct2","IComObjectConstruction2Events::OnObjectConstruct2","OnObjectConstruct2","OnObjectConstruct2 method [COM+]","OnObjectConstruct2 method [COM+]","IComObjectConstruction2Events interface","_dtc_IComObjectConstruction2Events_OnObjectConstruct2","comsvcs/IComObjectConstruction2Events::OnObjectConstruct2","cos.icomobjectconstruction2events_onobjectconstruct2"]
 old-location: cos\icomobjectconstruction2events_onobjectconstruct2.htm
 tech.root: cossdk
 ms.assetid: c71157b3-e5e4-4b20-bab7-7047587a20f1
@@ -59,7 +60,7 @@ Generated when a constructed object is created.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidObject [in]

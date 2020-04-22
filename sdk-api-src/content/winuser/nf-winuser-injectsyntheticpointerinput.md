@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.InjectSyntheticPointerInput
 title: InjectSyntheticPointerInput function (winuser.h)
-description: Simulates pointer input (pen or touch).helpviewer_keywords: ["InjectSyntheticPointerInput","InjectSyntheticPointerInput function","input_pointerdevice.injectsyntheticpointerinput","winuser/InjectSyntheticPointerInput"]
+description: Simulates pointer input (pen or touch).
+helpviewer_keywords: ["InjectSyntheticPointerInput","InjectSyntheticPointerInput function","input_pointerdevice.injectsyntheticpointerinput","winuser/InjectSyntheticPointerInput"]
 old-location: input_pointerdevice\injectsyntheticpointerinput.htm
 tech.root: Input_PointerDevice
 ms.assetid: 9F7FC5E2-F4B8-42C2-A4BE-240E36AFC13B
@@ -77,9 +78,9 @@ The ptPixelLocation for each POINTER_TYPE_INFO is specified relative to top left
 The number of contacts. 
 
 
-For <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a> this value must be greater than 0 and less than or equal to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">MAX_TOUCH_COUNT</a>. 
+For <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a> this value must be greater than 0 and less than or equal to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">MAX_TOUCH_COUNT</a>. 
 
-For <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a> this value must be 1.
+For <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a> this value must be 1.
 
 
 ## -returns

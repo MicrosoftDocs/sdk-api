@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_compare_ext_s
 title: ldap_compare_ext_s function (winldap.h)
-description: Use the ldap_compare_ext_s function to determine if an attribute, for a given entry, holds a known value.helpviewer_keywords: ["_ldap_ldap_compare_ext_s","ldap.ldap__compare__ext__s","ldap.ldap_compare_ext_s","ldap_compare_ext_s","ldap_compare_ext_s function [LDAP]","ldap_compare_ext_sA","ldap_compare_ext_sW","winldap/ldap_compare_ext_s","winldap/ldap_compare_ext_sA","winldap/ldap_compare_ext_sW"]
+description: Use the ldap_compare_ext_s function to determine if an attribute, for a given entry, holds a known value.
+helpviewer_keywords: ["_ldap_ldap_compare_ext_s","ldap.ldap__compare__ext__s","ldap.ldap_compare_ext_s","ldap_compare_ext_s","ldap_compare_ext_s function [LDAP]","ldap_compare_ext_sA","ldap_compare_ext_sW","winldap/ldap_compare_ext_s","winldap/ldap_compare_ext_sA","winldap/ldap_compare_ext_sW"]
 old-location: ldap\ldap_compare_ext_s.htm
 tech.root: ldap
 ms.assetid: b22568b1-5043-422e-9c4e-cc51cc77d143
@@ -82,7 +83,7 @@ A pointer to a null-terminated string that contains the string attribute value t
 ### -param Data [in]
 
 The 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> attribute value to be compared to the attribute value. Set to <b>NULL</b> if not used.
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> attribute value to be compared to the attribute value. Set to <b>NULL</b> if not used.
 
 
 ### -param ServerControls [in]
@@ -142,7 +143,7 @@ Multithreading: Calls to <b>ldap_compare_ext_s</b> are thread-safe.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
 
 
 

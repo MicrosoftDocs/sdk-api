@@ -1,7 +1,8 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputStatus
 title: IMFTransform::GetOutputStatus (mftransform.h)
-description: Queries whether the Media Foundation transform (MFT) is ready to produce output data.helpviewer_keywords: ["3eb82f76-088b-4abc-9f3a-dfa5ecd1068d","GetOutputStatus","GetOutputStatus method [Media Foundation]","GetOutputStatus method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetOutputStatus method","IMFTransform.GetOutputStatus","IMFTransform::GetOutputStatus","mf.imftransform_getoutputstatus","mftransform/IMFTransform::GetOutputStatus"]
+description: Queries whether the Media Foundation transform (MFT) is ready to produce output data.
+helpviewer_keywords: ["3eb82f76-088b-4abc-9f3a-dfa5ecd1068d","GetOutputStatus","GetOutputStatus method [Media Foundation]","GetOutputStatus method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetOutputStatus method","IMFTransform.GetOutputStatus","IMFTransform::GetOutputStatus","mf.imftransform_getoutputstatus","mftransform/IMFTransform::GetOutputStatus"]
 old-location: mf\imftransform_getoutputstatus.htm
 tech.root: medfound
 ms.assetid: 3eb82f76-088b-4abc-9f3a-dfa5ecd1068d
@@ -61,7 +62,7 @@ Queries whether the Media Foundation transform (MFT) is ready to produce output 
 
 ### -param pdwFlags [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_output_status_flags">_MFT_OUTPUT_STATUS_FLAGS</a> enumeration, or zero. If the value is <b>MFT_OUTPUT_STATUS_SAMPLE_READY</b>, the MFT can produce an output sample.
+Receives a member of the <a href="/windows/win32/api/mftransform/ne-mftransform-_mft_output_status_flags">_MFT_OUTPUT_STATUS_FLAGS</a> enumeration, or zero. If the value is <b>MFT_OUTPUT_STATUS_SAMPLE_READY</b>, the MFT can produce an output sample.
           
 
 

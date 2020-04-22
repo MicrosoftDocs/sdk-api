@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.SetItemState
 title: INameSpaceTreeControl::SetItemState (shobjidl_core.h)
-description: Sets state information for a Shell item.helpviewer_keywords: ["INameSpaceTreeControl interface [Windows Shell]","SetItemState method","INameSpaceTreeControl.SetItemState","INameSpaceTreeControl::SetItemState","SetItemState","SetItemState method [Windows Shell]","SetItemState method [Windows Shell]","INameSpaceTreeControl interface","_shell_INameSpaceTreeControl_SetItemState","shell.INameSpaceTreeControl_SetItemState","shobjidl_core/INameSpaceTreeControl::SetItemState"]
+description: Sets state information for a Shell item.
+helpviewer_keywords: ["INameSpaceTreeControl interface [Windows Shell]","SetItemState method","INameSpaceTreeControl.SetItemState","INameSpaceTreeControl::SetItemState","SetItemState","SetItemState method [Windows Shell]","SetItemState method [Windows Shell]","INameSpaceTreeControl interface","_shell_INameSpaceTreeControl_SetItemState","shell.INameSpaceTreeControl_SetItemState","shobjidl_core/INameSpaceTreeControl::SetItemState"]
 old-location: shell\INameSpaceTreeControl_SetItemState.htm
 tech.root: shell
 ms.assetid: f57c5abc-0803-409d-9938-3826f9d8058d
@@ -66,14 +67,14 @@ A pointer to the Shell item for which to set the state.
 
 ### -param nstcisMask [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a></b>
 
-Specifies which information is being set, in the form of a bitmap. One or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a> constants.
+Specifies which information is being set, in the form of a bitmap. One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a> constants.
 
 
 ### -param nstcisFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a></b>
 
 A bitmap that contains the values to set for the flags specified in <i>nstcisMask</i>.
 

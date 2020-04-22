@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IConnector.GetConnectedTo
 title: IConnector::GetConnectedTo (devicetopology.h)
-description: The GetConnectedTo method gets the connector to which this connector is connected.helpviewer_keywords: ["GetConnectedTo","GetConnectedTo method [Core Audio]","GetConnectedTo method [Core Audio]","IConnector interface","IConnector interface [Core Audio]","GetConnectedTo method","IConnector.GetConnectedTo","IConnector::GetConnectedTo","IConnectorGetConnectedTo","coreaudio.iconnector_getconnectedto","devicetopology/IConnector::GetConnectedTo"]
+description: The GetConnectedTo method gets the connector to which this connector is connected.
+helpviewer_keywords: ["GetConnectedTo","GetConnectedTo method [Core Audio]","GetConnectedTo method [Core Audio]","IConnector interface","IConnector interface [Core Audio]","GetConnectedTo method","IConnector.GetConnectedTo","IConnector::GetConnectedTo","IConnectorGetConnectedTo","coreaudio.iconnector_getconnectedto","devicetopology/IConnector::GetConnectedTo"]
 old-location: coreaudio\iconnector_getconnectedto.htm
 tech.root: CoreAudio
 ms.assetid: bee0187c-5650-4b54-89b7-e63874048ed0
@@ -121,7 +122,7 @@ The device topology on the other side of the connection is not active (that is, 
 
 For code examples that call this method, see the implementations of the GetHardwareDeviceTopology and SelectCaptureDevice functions in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
-For information about Software_IO connections, see <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ne-devicetopology-connectortype">ConnectorType Enumeration</a>. For information about the HRESULT_FROM_WIN32 macro, see the Windows SDK documentation. For information about the DEVICE_STATE_NOTPRESENT device state, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-state-xxx-constants">DEVICE_STATE_XXX Constants</a>.
+For information about Software_IO connections, see <a href="/windows/win32/api/devicetopology/ne-devicetopology-connectortype">ConnectorType Enumeration</a>. For information about the HRESULT_FROM_WIN32 macro, see the Windows SDK documentation. For information about the DEVICE_STATE_NOTPRESENT device state, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-state-xxx-constants">DEVICE_STATE_XXX Constants</a>.
 
 
 

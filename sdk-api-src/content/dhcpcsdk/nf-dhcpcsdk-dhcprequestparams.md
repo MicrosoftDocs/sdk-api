@@ -217,7 +217,7 @@ To see the
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPCAPI_PARAMS_ARRAY</a>
+<a href="/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPCAPI_PARAMS_ARRAY</a>
 
 
 

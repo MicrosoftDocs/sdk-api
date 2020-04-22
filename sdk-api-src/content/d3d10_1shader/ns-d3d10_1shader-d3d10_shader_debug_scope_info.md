@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_SCOPE_INFO
 title: D3D10_SHADER_DEBUG_SCOPE_INFO (d3d10_1shader.h)
-description: Contains scope data that maps variable names to debug variables.helpviewer_keywords: ["98b3a0e8-be0d-c4db-defc-df94817adf46","D3D10_SHADER_DEBUG_SCOPE_INFO","D3D10_SHADER_DEBUG_SCOPE_INFO structure [Direct3D 10]","d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_INFO","direct3d10.d3d10_shader_debug_scope_info"]
+description: Contains scope data that maps variable names to debug variables.
+helpviewer_keywords: ["98b3a0e8-be0d-c4db-defc-df94817adf46","D3D10_SHADER_DEBUG_SCOPE_INFO","D3D10_SHADER_DEBUG_SCOPE_INFO structure [Direct3D 10]","d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_INFO","direct3d10.d3d10_shader_debug_scope_info"]
 old-location: direct3d10\d3d10_shader_debug_scope_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_scope_info.htm
@@ -59,7 +60,7 @@ Contains scope data that maps variable names to debug variables.
 
 ### -field ScopeType
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_scopetype">D3D10_SHADER_DEBUG_SCOPETYPE</a></b>
+Type: <b><a href="/windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_scopetype">D3D10_SHADER_DEBUG_SCOPETYPE</a></b>
 
 Specifies the scope type.
 
@@ -96,7 +97,7 @@ Offset an array of UINT values with <b>uVariables</b> members contianing the sco
 
 
 
-The <b>D3D10_SHADER_DEBUG_SCOPE_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_SCOPE_INFO</b> structure is used with the <a href="/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 

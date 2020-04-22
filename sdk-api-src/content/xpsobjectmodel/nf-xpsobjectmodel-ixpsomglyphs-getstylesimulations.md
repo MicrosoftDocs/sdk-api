@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetStyleSimulations
 title: IXpsOMGlyphs::GetStyleSimulations (xpsobjectmodel.h)
-description: Gets the style simulations that will be applied when rendering the glyphs.helpviewer_keywords: ["GetStyleSimulations","GetStyleSimulations method [XPS Documents and Packaging]","GetStyleSimulations method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetStyleSimulations method","IXpsOMGlyphs.GetStyleSimulations","IXpsOMGlyphs::GetStyleSimulations","xps.ixpsomglyphs_getstylesimulations","xpsobjectmodel/IXpsOMGlyphs::GetStyleSimulations"]
+description: Gets the style simulations that will be applied when rendering the glyphs.
+helpviewer_keywords: ["GetStyleSimulations","GetStyleSimulations method [XPS Documents and Packaging]","GetStyleSimulations method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetStyleSimulations method","IXpsOMGlyphs.GetStyleSimulations","IXpsOMGlyphs::GetStyleSimulations","xps.ixpsomglyphs_getstylesimulations","xpsobjectmodel/IXpsOMGlyphs::GetStyleSimulations"]
 old-location: xps\ixpsomglyphs_getstylesimulations.htm
 tech.root: printdocs
 ms.assetid: 5678f67e-ed26-4846-b2f7-4e7f9690ca43
@@ -59,7 +60,7 @@ Gets the style simulations that will  be applied when rendering the glyphs.
 
 ### -param styleSimulations [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a> value that describes the style simulations to be applied.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a> value that describes the style simulations to be applied.
 
 
 ## -returns
@@ -118,7 +119,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a>
  
 
  

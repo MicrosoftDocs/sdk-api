@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase._llseek
 title: _llseek function (winbase.h)
-description: Repositions the file pointer for the specified file.helpviewer_keywords: ["_llseek","_llseek function [Windows API]","winbase/_llseek","winprog._llseek"]
+description: Repositions the file pointer for the specified file.
+helpviewer_keywords: ["_llseek","_llseek function [Windows API]","winbase/_llseek","winprog._llseek"]
 old-location: winprog\_llseek.htm
 tech.root: DevNotes
 ms.assetid: 1861bd5a-97e6-463d-9586-22458a1d9210
@@ -65,7 +66,7 @@ Repositions the file pointer for the specified file.
 
 ### -param hFile
 
-A handle to an open file. This handle is created by <a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-_lcreat">_lcreat</a>.
+A handle to an open file. This handle is created by <a href="/windows/win32/api/winbase/nf-winbase-_lcreat">_lcreat</a>.
 
 
 ### -param lOffset

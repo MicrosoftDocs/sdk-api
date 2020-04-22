@@ -1,7 +1,8 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceScheduledCastManualStart
 title: IWdsTransportNamespaceScheduledCastManualStart (wdstptmgmt.h)
-description: An administrator must start transmission on an object of an IWdsTransportNamespaceScheduledCastManualStart interface. Applications can continue to join sessions of the namespace until the administrator starts transmission.helpviewer_keywords: ["IWdsTransportNamespaceScheduledCastManualStart","IWdsTransportNamespaceScheduledCastManualStart interface [Windows Deployment Services]","IWdsTransportNamespaceScheduledCastManualStart interface [Windows Deployment Services]","described","wds.iwdstransportnamespacescheduledcastmanualstart","wdstptmgmt/IWdsTransportNamespaceScheduledCastManualStart"]
+description: An administrator must start transmission on an object of an IWdsTransportNamespaceScheduledCastManualStart interface. Applications can continue to join sessions of the namespace until the administrator starts transmission.
+helpviewer_keywords: ["IWdsTransportNamespaceScheduledCastManualStart","IWdsTransportNamespaceScheduledCastManualStart interface [Windows Deployment Services]","IWdsTransportNamespaceScheduledCastManualStart interface [Windows Deployment Services]","described","wds.iwdstransportnamespacescheduledcastmanualstart","wdstptmgmt/IWdsTransportNamespaceScheduledCastManualStart"]
 old-location: wds\iwdstransportnamespacescheduledcastmanualstart.htm
 tech.root: wds
 ms.assetid: ffbbdd4c-5d64-4ec0-a2f3-a5d31aec6402
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-An administrator must start transmission on an object of an <b>IWdsTransportNamespaceScheduledCastManualStart</b> interface.  Applications can continue to join sessions of the namespace until the administrator starts transmission. This type of namespace is represented by the <b>WdsTptNamespaceTypeScheduledCastManualStart</b> value of the <a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
+An administrator must start transmission on an object of an <b>IWdsTransportNamespaceScheduledCastManualStart</b> interface.  Applications can continue to join sessions of the namespace until the administrator starts transmission. This type of namespace is represented by the <b>WdsTptNamespaceTypeScheduledCastManualStart</b> value of the <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
 
 
 ## -see-also

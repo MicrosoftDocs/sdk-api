@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetAdvisoryPageDimensions
 title: IXpsOMPageReference::SetAdvisoryPageDimensions (xpsobjectmodel.h)
-description: Sets the suggested dimensions of the page.helpviewer_keywords: ["IXpsOMPageReference interface [XPS Documents and Packaging]","SetAdvisoryPageDimensions method","IXpsOMPageReference.SetAdvisoryPageDimensions","IXpsOMPageReference::SetAdvisoryPageDimensions","SetAdvisoryPageDimensions","SetAdvisoryPageDimensions method [XPS Documents and Packaging]","SetAdvisoryPageDimensions method [XPS Documents and Packaging]","IXpsOMPageReference interface","xps.ixpsompagereference_setadvisorypagedimensions","xpsobjectmodel/IXpsOMPageReference::SetAdvisoryPageDimensions"]
+description: Sets the suggested dimensions of the page.
+helpviewer_keywords: ["IXpsOMPageReference interface [XPS Documents and Packaging]","SetAdvisoryPageDimensions method","IXpsOMPageReference.SetAdvisoryPageDimensions","IXpsOMPageReference::SetAdvisoryPageDimensions","SetAdvisoryPageDimensions","SetAdvisoryPageDimensions method [XPS Documents and Packaging]","SetAdvisoryPageDimensions method [XPS Documents and Packaging]","IXpsOMPageReference interface","xps.ixpsompagereference_setadvisorypagedimensions","xpsobjectmodel/IXpsOMPageReference::SetAdvisoryPageDimensions"]
 old-location: xps\ixpsompagereference_setadvisorypagedimensions.htm
 tech.root: printdocs
 ms.assetid: 8286fd78-a7d8-4bf4-9b08-b93e19abccf9
@@ -95,7 +96,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-Either <i>pageDimensions</i> is <b>NULL</b> or a field in the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that is referenced by <i>pageDimensions</i> contains a value that is not valid.
+Either <i>pageDimensions</i> is <b>NULL</b> or a field in the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that is referenced by <i>pageDimensions</i> contains a value that is not valid.
 
 </td>
 </tr>
@@ -120,7 +121,7 @@ The advisory page size described in <i>pageDimensions</i> was not valid. The <b>
 
 
 
-The <b>height</b> and <b>width</b>  members of the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that is referenced by <i>pageDimensions</i> must have values that are greater than or equal to +1.0, if those fields' values are to be set, or –1.0 if not. For example, if an advisory  dimension were to be set just for the page width,  <i>pageDimensions.width</i> would have the desired value and <i>pageDimensions.height</i> would have the value of –1.0.
+The <b>height</b> and <b>width</b>  members of the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that is referenced by <i>pageDimensions</i> must have values that are greater than or equal to +1.0, if those fields' values are to be set, or –1.0 if not. For example, if an advisory  dimension were to be set just for the page width,  <i>pageDimensions.width</i> would have the desired value and <i>pageDimensions.height</i> would have the value of –1.0.
 
 
 
@@ -138,7 +139,7 @@ The <b>height</b> and <b>width</b>  members of the <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
  
 
  

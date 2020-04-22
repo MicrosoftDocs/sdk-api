@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerSetCredentials
 title: EapPeerSetCredentials function (eapmethodpeerapis.h)
-description: Supplies new or updated authentication credentials to the EAP method.helpviewer_keywords: ["EapPeerSetCredentials","EapPeerSetCredentials function [EAPHost]","eaphost.eappeersetcredentials","eapmethodpeerapis/EapPeerSetCredentials"]
+description: Supplies new or updated authentication credentials to the EAP method.
+helpviewer_keywords: ["EapPeerSetCredentials","EapPeerSetCredentials function [EAPHost]","eaphost.eappeersetcredentials","eapmethodpeerapis/EapPeerSetCredentials"]
 old-location: eaphost\eappeersetcredentials.htm
 tech.root: eaphost
 ms.assetid: d50a72bd-0b3f-4b68-be96-5debb3fd99f8
@@ -93,7 +94,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-run-time-functions)a>
+[EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
 
 
 

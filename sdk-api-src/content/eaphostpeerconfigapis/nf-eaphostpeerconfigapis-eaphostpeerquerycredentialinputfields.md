@@ -1,7 +1,8 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerQueryCredentialInputFields
 title: EapHostPeerQueryCredentialInputFields function (eaphostpeerconfigapis.h)
-description: Allows the user to determine what kind of credentials are required by the methods to perform authentication in a Single-Sign-On (SSO) scenario.helpviewer_keywords: ["EapHostPeerQueryCredentialInputFields","EapHostPeerQueryCredentialInputFields function [EAPHost]","eaphost.eaphostpeerquerycredentialinputfields","eaphostpeerconfigapis/EapHostPeerQueryCredentialInputFields"]
+description: Allows the user to determine what kind of credentials are required by the methods to perform authentication in a Single-Sign-On (SSO) scenario.
+helpviewer_keywords: ["EapHostPeerQueryCredentialInputFields","EapHostPeerQueryCredentialInputFields function [EAPHost]","eaphost.eaphostpeerquerycredentialinputfields","eaphostpeerconfigapis/EapHostPeerQueryCredentialInputFields"]
 old-location: eaphost\eaphostpeerquerycredentialinputfields.htm
 tech.root: eaphost
 ms.assetid: f71aad69-89f3-463b-afd7-9873d582d03b
@@ -69,7 +70,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param dwEapConnDataSize [in]
@@ -112,11 +113,11 @@ After <b>EapHostPeerQueryCredentialInputFields</b>, EAPHost calls <a href="https
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
 
 
 
-[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
+[SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
  
 
  

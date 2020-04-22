@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_SESSION0_
 title: FWPM_SESSION0 (fwpmtypes.h)
-description: Stores the state associated with a client session.helpviewer_keywords: ["FWPM_SESSION0","FWPM_SESSION0 structure [Filtering]","FWPM_SESSION_FLAG_DYNAMIC","FWPM_SESSION_FLAG_RESERVED","fwp.fwpm_session0_struct","fwpmtypes/FWPM_SESSION0"]
+description: Stores the state associated with a client session.
+helpviewer_keywords: ["FWPM_SESSION0","FWPM_SESSION0 structure [Filtering]","FWPM_SESSION_FLAG_DYNAMIC","FWPM_SESSION_FLAG_RESERVED","fwp.fwpm_session0_struct","fwpmtypes/FWPM_SESSION0"]
 old-location: fwp\fwpm_session0_struct.htm
 tech.root: fwp
 ms.assetid: 9f259ab7-cec9-44c1-8914-2850235470b3
@@ -69,7 +70,7 @@ If this member is zero in the
 
 Allows sessions to be annotated in a human-readable form.
 
-See [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a> for more information.
+See [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0) for more information.
 
 
 ### -field flags
@@ -152,7 +153,7 @@ The members <b>processId</b>, <b>sid</b>,  <b>username</b>, and <b>kernelMode</b
 
 
 
-[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a>
+[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)
 
 
 

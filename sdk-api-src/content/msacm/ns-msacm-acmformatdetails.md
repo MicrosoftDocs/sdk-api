@@ -1,7 +1,8 @@
 ---
 UID: NS:msacm.tACMFORMATDETAILS
 title: ACMFORMATDETAILS (msacm.h)
-description: The ACMFORMATDETAILS structure details a waveform-audio format for a specific format tag for an ACM driver.helpviewer_keywords: ["*LPACMFORMATDETAILS","*PACMFORMATDETAILS","ACMDRIVERDETAILS_SUPPORTF_ASYNC","ACMDRIVERDETAILS_SUPPORTF_CODEC","ACMDRIVERDETAILS_SUPPORTF_CONVERTER","ACMDRIVERDETAILS_SUPPORTF_FILTER","ACMDRIVERDETAILS_SUPPORTF_HARDWARE","ACMFORMATDETAILS","ACMFORMATDETAILS structure [Windows Multimedia]","msacm/ACMFORMATDETAILS","multimedia.acmformatdetails_COLLISION956","multimedia.acmformatdetails_struct"]
+description: The ACMFORMATDETAILS structure details a waveform-audio format for a specific format tag for an ACM driver.
+helpviewer_keywords: ["*LPACMFORMATDETAILS","*PACMFORMATDETAILS","ACMDRIVERDETAILS_SUPPORTF_ASYNC","ACMDRIVERDETAILS_SUPPORTF_CODEC","ACMDRIVERDETAILS_SUPPORTF_CONVERTER","ACMDRIVERDETAILS_SUPPORTF_FILTER","ACMDRIVERDETAILS_SUPPORTF_HARDWARE","ACMFORMATDETAILS","ACMFORMATDETAILS structure [Windows Multimedia]","msacm/ACMFORMATDETAILS","multimedia.acmformatdetails_COLLISION956","multimedia.acmformatdetails_struct"]
 old-location: multimedia\acmformatdetails_struct.htm
 tech.root: Multimedia
 ms.assetid: a0760541-c083-447d-a812-dd7f05afb622
@@ -65,7 +66,7 @@ Size, in bytes, of the <b>ACMFORMATDETAILS</b> structure. This member must be in
 
 ### -field dwFormatIndex
 
-Index of the format to retrieve details for. The index ranges from zero to one less than the number of standard formats supported by an ACM driver for a format tag. The number of standard formats supported by a driver for a format tag is contained in the [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)a> structure. The <b>dwFormatIndex</b> member is used only when an application queries standard format details about a driver by index; otherwise, this member should be zero. Also, this member will be set to zero by the ACM when an application queries for details on a format; in other words, this member is used only for input and is never returned by the ACM or an ACM driver.
+Index of the format to retrieve details for. The index ranges from zero to one less than the number of standard formats supported by an ACM driver for a format tag. The number of standard formats supported by a driver for a format tag is contained in the [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails) structure. The <b>dwFormatIndex</b> member is used only when an application queries standard format details about a driver by index; otherwise, this member should be zero. Also, this member will be set to zero by the ACM when an application queries for details on a format; in other words, this member is used only for input and is never returned by the ACM or an ACM driver.
 
 
 ### -field dwFormatTag
@@ -75,7 +76,7 @@ Waveform-audio format tag that the <b>ACMFORMATDETAILS</b> structure describes. 
 
 ### -field fdwSupport
 
-Driver-support flags specific to the specified format. These flags are identical to the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure. This member can be a combination of the following values and indicates which operations the driver supports for the format tag:
+Driver-support flags specific to the specified format. These flags are identical to the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure. This member can be a combination of the following values and indicates which operations the driver supports for the format tag:
 
 <table>
 <tr>
@@ -156,11 +157,11 @@ String that describes the format for the <b>dwFormatTag</b> type. If the <a href
 
 
 
-[ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a>
+[ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)
 
 
 
-[ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)a>
+[ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)
 
 
 

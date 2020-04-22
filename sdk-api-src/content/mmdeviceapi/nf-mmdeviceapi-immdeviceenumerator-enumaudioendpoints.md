@@ -1,7 +1,8 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.EnumAudioEndpoints
 title: IMMDeviceEnumerator::EnumAudioEndpoints (mmdeviceapi.h)
-description: The EnumAudioEndpoints method generates a collection of audio endpoint devices that meet the specified criteria.helpviewer_keywords: ["EnumAudioEndpoints","EnumAudioEndpoints method [Core Audio]","EnumAudioEndpoints method [Core Audio]","IMMDeviceEnumerator interface","IMMDeviceEnumerator interface [Core Audio]","EnumAudioEndpoints method","IMMDeviceEnumerator.EnumAudioEndpoints","IMMDeviceEnumerator::EnumAudioEndpoints","IMMDeviceEnumeratorEnumAudioEndpoints","coreaudio.immdeviceenumerator_enumaudioendpoints","mmdeviceapi/IMMDeviceEnumerator::EnumAudioEndpoints"]
+description: The EnumAudioEndpoints method generates a collection of audio endpoint devices that meet the specified criteria.
+helpviewer_keywords: ["EnumAudioEndpoints","EnumAudioEndpoints method [Core Audio]","EnumAudioEndpoints method [Core Audio]","IMMDeviceEnumerator interface","IMMDeviceEnumerator interface [Core Audio]","EnumAudioEndpoints method","IMMDeviceEnumerator.EnumAudioEndpoints","IMMDeviceEnumerator::EnumAudioEndpoints","IMMDeviceEnumeratorEnumAudioEndpoints","coreaudio.immdeviceenumerator_enumaudioendpoints","mmdeviceapi/IMMDeviceEnumerator::EnumAudioEndpoints"]
 old-location: coreaudio\immdeviceenumerator_enumaudioendpoints.htm
 tech.root: CoreAudio
 ms.assetid: ebdd2dcd-82c5-423f-a85d-04388f5078ec
@@ -62,7 +63,7 @@ The <b>EnumAudioEndpoints</b> method generates a collection of audio endpoint de
 
 ### -param dataFlow [in]
 
-The data-flow direction for the endpoint devices in the collection. The caller should set this parameter to one of the following <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">EDataFlow</a> enumeration values:
+The data-flow direction for the endpoint devices in the collection. The caller should set this parameter to one of the following <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">EDataFlow</a> enumeration values:
 
 eRender
 

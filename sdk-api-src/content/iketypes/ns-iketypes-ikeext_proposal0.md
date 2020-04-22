@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_PROPOSAL0_
 title: IKEEXT_PROPOSAL0 (iketypes.h)
-description: Is used to store an IKE/AuthIP main mode proposal.helpviewer_keywords: ["IKEEXT_PROPOSAL0","IKEEXT_PROPOSAL0 structure [Filtering]","fwp.ikeext_proposal0","iketypes/IKEEXT_PROPOSAL0"]
+description: Is used to store an IKE/AuthIP main mode proposal.
+helpviewer_keywords: ["IKEEXT_PROPOSAL0","IKEEXT_PROPOSAL0 structure [Filtering]","fwp.ikeext_proposal0","iketypes/IKEEXT_PROPOSAL0"]
 old-location: fwp\ikeext_proposal0.htm
 tech.root: fwp
 ms.assetid: 59568ef7-12bd-407a-a8ee-9bf261f49883
@@ -59,12 +60,12 @@ The <b>IKEEXT_PROPOSAL0</b> structure is used to store an IKE/AuthIP main mode p
 
 ### -field cipherAlgorithm
 
-Parameters for the encryption algorithm specified by [IKEEXT_CIPHER_ALGORITHM0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cipher_algorithm0)a>.
+Parameters for the encryption algorithm specified by [IKEEXT_CIPHER_ALGORITHM0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cipher_algorithm0).
 
 
 ### -field integrityAlgorithm
 
-Parameters for the hash algorithm specified by [IKEEXT_INTEGRITY_ALGORITHM0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_integrity_algorithm0)a>.
+Parameters for the hash algorithm specified by [IKEEXT_INTEGRITY_ALGORITHM0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_integrity_algorithm0).
 
 
 ### -field maxLifetimeSeconds
@@ -74,7 +75,7 @@ Main mode security association (SA) lifetime in seconds.
 
 ### -field dhGroup
 
-The Diffie Hellman group specified by [IKEEXT_DH_GROUP](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_dh_group)a>.
+The Diffie Hellman group specified by [IKEEXT_DH_GROUP](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_dh_group).
 
 
 ### -field quickModeLimit
@@ -101,15 +102,15 @@ from this proposal.
 
 
 
-[IKEEXT_CIPHER_ALGORITHM0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cipher_algorithm0)a>
+[IKEEXT_CIPHER_ALGORITHM0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cipher_algorithm0)
 
 
 
-[IKEEXT_DH_GROUP](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_dh_group)a>
+[IKEEXT_DH_GROUP](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_dh_group)
 
 
 
-[IKEEXT_INTEGRITY_ALGORITHM0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_integrity_algorithm0)a>
+[IKEEXT_INTEGRITY_ALGORITHM0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_integrity_algorithm0)
 
 
 

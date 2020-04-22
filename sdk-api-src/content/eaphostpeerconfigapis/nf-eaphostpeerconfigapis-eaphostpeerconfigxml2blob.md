@@ -1,7 +1,8 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerConfigXml2Blob
 title: EapHostPeerConfigXml2Blob function (eaphostpeerconfigapis.h)
-description: Converts XML into the configuration BLOB.helpviewer_keywords: ["EapHostPeerConfigXml2Blob","EapHostPeerConfigXml2Blob function [EAPHost]","eaphost.eaphostpeerconfigxml2blob","eaphostpeerconfigapis/EapHostPeerConfigXml2Blob"]
+description: Converts XML into the configuration BLOB.
+helpviewer_keywords: ["EapHostPeerConfigXml2Blob","EapHostPeerConfigXml2Blob function [EAPHost]","eaphost.eaphostpeerconfigxml2blob","eaphostpeerconfigapis/EapHostPeerConfigXml2Blob"]
 old-location: eaphost\eaphostpeerconfigxml2blob.htm
 tech.root: eaphost
 ms.assetid: 728fab9e-6aa4-49c0-ab1f-89686543524c
@@ -76,7 +77,7 @@ A pointer to the size, in bytes, of the configuration BLOB.
 
 ### -param ppConfigOut [out]
 
-A pointer to a pointer to a byte buffer that contains the configuration data converted from XML. The configuration data is created inside [EapHostConfig Schema](https://docs.microsoft.com/windows/win32/eaphost/eaphostconfigschema-schema)a> element. The buffer is of size <i>pdwSizeOfConfigOut</i>. After consuming the data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory">EapHostPeerFreeMemory</a>.  
+A pointer to a pointer to a byte buffer that contains the configuration data converted from XML. The configuration data is created inside [EapHostConfig Schema](/windows/win32/eaphost/eaphostconfigschema-schema) element. The buffer is of size <i>pdwSizeOfConfigOut</i>. After consuming the data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory">EapHostPeerFreeMemory</a>.  
 
 
 ### -param pEapMethodType [out]
@@ -94,7 +95,7 @@ A pointer a pointer to an <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
 
 
 

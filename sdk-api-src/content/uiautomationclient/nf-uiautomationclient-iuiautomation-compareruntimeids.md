@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CompareRuntimeIds
 title: IUIAutomation::CompareRuntimeIds (uiautomationclient.h)
-description: Compares two integer arrays containing run-time identifiers (IDs) to determine whether their content is the same and they belong to the same UI element.helpviewer_keywords: ["CompareRuntimeIds","CompareRuntimeIds method [Windows Accessibility]","CompareRuntimeIds method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CompareRuntimeIds method","IUIAutomation.CompareRuntimeIds","IUIAutomation::CompareRuntimeIds","uiauto.uiauto_IUIAutomation_CompareRuntimeIds","uiauto_IUIAutomation_CompareRuntimeIds","uiautomationclient/IUIAutomation::CompareRuntimeIds","winauto.uiauto_IUIAutomation_CompareRuntimeIds"]
+description: Compares two integer arrays containing run-time identifiers (IDs) to determine whether their content is the same and they belong to the same UI element.
+helpviewer_keywords: ["CompareRuntimeIds","CompareRuntimeIds method [Windows Accessibility]","CompareRuntimeIds method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CompareRuntimeIds method","IUIAutomation.CompareRuntimeIds","IUIAutomation::CompareRuntimeIds","uiauto.uiauto_IUIAutomation_CompareRuntimeIds","uiauto_IUIAutomation_CompareRuntimeIds","uiautomationclient/IUIAutomation::CompareRuntimeIds","winauto.uiauto_IUIAutomation_CompareRuntimeIds"]
 old-location: winauto\uiauto_IUIAutomation_CompareRuntimeIds.htm
 tech.root: WinAuto
 ms.assetid: b0c481eb-3545-439c-bf6a-347b98ea35de
@@ -59,14 +60,14 @@ Compares two integer arrays containing run-time identifiers (IDs) to determine w
 
 ### -param runtimeId1 [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 The first ID to compare.
 
 
 ### -param runtimeId2 [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 The second ID to compare
 

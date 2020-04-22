@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.SetGradientOrigin
 title: IXpsOMRadialGradientBrush::SetGradientOrigin (xpsobjectmodel.h)
-description: Sets the origin point of the radial gradient.helpviewer_keywords: ["IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","SetGradientOrigin method","IXpsOMRadialGradientBrush.SetGradientOrigin","IXpsOMRadialGradientBrush::SetGradientOrigin","SetGradientOrigin","SetGradientOrigin method [XPS Documents and Packaging]","SetGradientOrigin method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","xps.ixpsomradialgradientbrush_setgradientorigin","xpsobjectmodel/IXpsOMRadialGradientBrush::SetGradientOrigin"]
+description: Sets the origin point of the radial gradient.
+helpviewer_keywords: ["IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","SetGradientOrigin method","IXpsOMRadialGradientBrush.SetGradientOrigin","IXpsOMRadialGradientBrush::SetGradientOrigin","SetGradientOrigin","SetGradientOrigin method [XPS Documents and Packaging]","SetGradientOrigin method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","xps.ixpsomradialgradientbrush_setgradientorigin","xpsobjectmodel/IXpsOMRadialGradientBrush::SetGradientOrigin"]
 old-location: xps\ixpsomradialgradientbrush_setgradientorigin.htm
 tech.root: printdocs
 ms.assetid: 101bebbf-854c-49fa-bc5c-8c81c5d2f7f9
@@ -91,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The point described by <i>origin</i> was not valid. The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure must contain valid and finite floating-point values.
+The point described by <i>origin</i> was not valid. The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure must contain valid and finite floating-point values.
 
 </td>
 </tr>
@@ -141,7 +142,7 @@ The following illustration shows the parts of a radial gradient. <i>origin</i> s
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

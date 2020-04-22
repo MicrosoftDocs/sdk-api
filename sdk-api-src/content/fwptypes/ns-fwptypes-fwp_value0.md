@@ -1,7 +1,8 @@
 ---
 UID: NS:fwptypes.FWP_VALUE0_
 title: FWP_VALUE0 (fwptypes.h)
-description: Defines a data value that can be one of a number of different data types.helpviewer_keywords: ["FWP_VALUE0","FWP_VALUE0 structure [Filtering]","fwp.fwp_value0_struct","fwptypes/FWP_VALUE0"]
+description: Defines a data value that can be one of a number of different data types.
+helpviewer_keywords: ["FWP_VALUE0","FWP_VALUE0 structure [Filtering]","fwp.fwp_value0_struct","fwptypes/FWP_VALUE0"]
 old-location: fwp\fwp_value0_struct.htm
 tech.root: fwp
 ms.assetid: d3ffe19b-2c9b-4c7b-82c1-f9b846546212
@@ -61,7 +62,7 @@ The <b>FWP_VALUE0</b> structure defines a data value that can be one of a number
 
 The type of data for this value. 
 
-See [FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)a> for more information.
+See [FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type) for more information.
 
 
 ### -field uint8
@@ -251,7 +252,7 @@ A pointer to a double-precision floating-point  value.
 
 case(FWP_BYTE_ARRAY16_TYPE)
 
-A pointer to a [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a>  structure.
+A pointer to a [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)  structure.
 
 
 
@@ -259,7 +260,7 @@ A pointer to a [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api
 
 case(FWP_BYTE_BLOB_TYPE)
 
-A pointer to a [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>  structure.
+A pointer to a [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)  structure.
 
 
 
@@ -275,7 +276,7 @@ A pointer to a SID.
 
 case(FWP_SECURITY_DESCRIPTOR_TYPE)
 
-A pointer to a security descriptor contained in a [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>  structure. The data contained in the blob is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+A pointer to a security descriptor contained in a [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)  structure. The data contained in the blob is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 
 
@@ -291,7 +292,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes
 
 case(FWP_TOKEN_ACCESS_INFORMATION_TYPE)
 
-A pointer to token access information contained in a [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>  structure. The data contained in the blob is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_access_information">TOKEN_ACCESS_INFORMATION</a> structure.
+A pointer to token access information contained in a [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)  structure. The data contained in the blob is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_access_information">TOKEN_ACCESS_INFORMATION</a> structure.
 
 
 
@@ -329,15 +330,15 @@ When IP addresses are stored in FWP_UINT32 format or when IP port is stored in F
 
 
 
-[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a>
+[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)a>
+[FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)
 
 
 

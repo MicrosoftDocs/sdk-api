@@ -1,7 +1,8 @@
 ---
 UID: NE:virtdisk._EXPAND_VIRTUAL_DISK_VERSION
 title: EXPAND_VIRTUAL_DISK_VERSION (virtdisk.h)
-description: Contains the version of the virtual disk EXPAND_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.helpviewer_keywords: ["EXPAND_VIRTUAL_DISK_VERSION","EXPAND_VIRTUAL_DISK_VERSION enumeration [VHD]","EXPAND_VIRTUAL_DISK_VERSION_1","EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED","vdssys/EXPAND_VIRTUAL_DISK_VERSION","vdssys/EXPAND_VIRTUAL_DISK_VERSION_1","vdssys/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED","vhd.expand_virtual_disk_version","virtdisk/EXPAND_VIRTUAL_DISK_VERSION","virtdisk/EXPAND_VIRTUAL_DISK_VERSION_1","virtdisk/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED"]
+description: Contains the version of the virtual disk EXPAND_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
+helpviewer_keywords: ["EXPAND_VIRTUAL_DISK_VERSION","EXPAND_VIRTUAL_DISK_VERSION enumeration [VHD]","EXPAND_VIRTUAL_DISK_VERSION_1","EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED","vdssys/EXPAND_VIRTUAL_DISK_VERSION","vdssys/EXPAND_VIRTUAL_DISK_VERSION_1","vdssys/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED","vhd.expand_virtual_disk_version","virtdisk/EXPAND_VIRTUAL_DISK_VERSION","virtdisk/EXPAND_VIRTUAL_DISK_VERSION_1","virtdisk/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED"]
 old-location: vhd\expand_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 28651993-81ad-4dfc-9c8b-3768fab5d3ae
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 
 Contains the version of the virtual disk 
-    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-expand_virtual_disk_parameters">EXPAND_VIRTUAL_DISK_PARAMETERS</a> structure 
+    <a href="/windows/win32/api/virtdisk/ns-virtdisk-expand_virtual_disk_parameters">EXPAND_VIRTUAL_DISK_PARAMETERS</a> structure 
     to use in calls to virtual disk functions.
 
 

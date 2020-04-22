@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.GetStartPoint
 title: IXpsOMLinearGradientBrush::GetStartPoint (xpsobjectmodel.h)
-description: Gets the start point of the gradient.helpviewer_keywords: ["GetStartPoint","GetStartPoint method [XPS Documents and Packaging]","GetStartPoint method [XPS Documents and Packaging]","IXpsOMLinearGradientBrush interface","IXpsOMLinearGradientBrush interface [XPS Documents and Packaging]","GetStartPoint method","IXpsOMLinearGradientBrush.GetStartPoint","IXpsOMLinearGradientBrush::GetStartPoint","xps.ixpsomlineargradientbrush_getstartpoint","xpsobjectmodel/IXpsOMLinearGradientBrush::GetStartPoint"]
+description: Gets the start point of the gradient.
+helpviewer_keywords: ["GetStartPoint","GetStartPoint method [XPS Documents and Packaging]","GetStartPoint method [XPS Documents and Packaging]","IXpsOMLinearGradientBrush interface","IXpsOMLinearGradientBrush interface [XPS Documents and Packaging]","GetStartPoint method","IXpsOMLinearGradientBrush.GetStartPoint","IXpsOMLinearGradientBrush::GetStartPoint","xps.ixpsomlineargradientbrush_getstartpoint","xpsobjectmodel/IXpsOMLinearGradientBrush::GetStartPoint"]
 old-location: xps\ixpsomlineargradientbrush_getstartpoint.htm
 tech.root: printdocs
 ms.assetid: 03e9884b-6249-4ccb-a6ee-d360655c5f75
@@ -127,7 +128,7 @@ The coordinates are relative to the page and are expressed in the units of the t
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

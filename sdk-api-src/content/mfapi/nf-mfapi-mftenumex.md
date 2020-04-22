@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFTEnumEx
 title: MFTEnumEx function (mfapi.h)
-description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria. This function extends the MFTEnum function.helpviewer_keywords: ["MFTEnumEx","MFTEnumEx function [Media Foundation]","mf.mftenumex","mfapi/MFTEnumEx"]
+description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria. This function extends the MFTEnum function.
+helpviewer_keywords: ["MFTEnumEx","MFTEnumEx function [Media Foundation]","mf.mftenumex","mfapi/MFTEnumEx"]
 old-location: mf\mftenumex.htm
 tech.root: medfound
 ms.assetid: e065ae51-85dd-48ef-9322-de4ade62c0fe
@@ -64,19 +65,19 @@ A GUID that specifies the category of MFTs to enumerate. For a list of MFT categ
 
 ### -param Flags [in]
 
-The bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
+The bitwise <b>OR</b> of zero or more flags from the <a href="/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
 
 
 ### -param pInputType [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an input media type to match. 
+A pointer to an <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an input media type to match. 
 
 This parameter can be <b>NULL</b>. If <b>NULL</b>, all input types are matched.
 
 
 ### -param pOutputType [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an output media type to match.
+A pointer to an <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an output media type to match.
 
 This parameter can be <b>NULL</b>. If <b>NULL</b>, all output types are matched.
 

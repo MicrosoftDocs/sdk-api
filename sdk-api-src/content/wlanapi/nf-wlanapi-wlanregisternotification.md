@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanRegisterNotification
 title: WlanRegisterNotification function (wlanapi.h)
-description: Is used to register and unregister notifications on all wireless interfaces.helpviewer_keywords: ["WLAN_NOTIFICATION_SOURCE_ACM","WLAN_NOTIFICATION_SOURCE_ALL","WLAN_NOTIFICATION_SOURCE_HNWK","WLAN_NOTIFICATION_SOURCE_IHV","WLAN_NOTIFICATION_SOURCE_MSM","WLAN_NOTIFICATION_SOURCE_NONE","WLAN_NOTIFICATION_SOURCE_ONEX","WLAN_NOTIFICATION_SOURCE_SECURITY","WlanRegisterNotification","WlanRegisterNotification function [NativeWIFI]","nwifi.wlanregisternotification","wlanapi/WlanRegisterNotification"]
+description: Is used to register and unregister notifications on all wireless interfaces.
+helpviewer_keywords: ["WLAN_NOTIFICATION_SOURCE_ACM","WLAN_NOTIFICATION_SOURCE_ALL","WLAN_NOTIFICATION_SOURCE_HNWK","WLAN_NOTIFICATION_SOURCE_IHV","WLAN_NOTIFICATION_SOURCE_MSM","WLAN_NOTIFICATION_SOURCE_NONE","WLAN_NOTIFICATION_SOURCE_ONEX","WLAN_NOTIFICATION_SOURCE_SECURITY","WlanRegisterNotification","WlanRegisterNotification function [NativeWIFI]","nwifi.wlanregisternotification","wlanapi/WlanRegisterNotification"]
 old-location: nwifi\wlanregisternotification.htm
 tech.root: NativeWiFi
 ms.assetid: e24810da-ed3b-41c4-b7b1-290b01e26cd5
@@ -306,11 +307,11 @@ An application can time out and query the current interface state instead of wai
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_hosted_network_notification_code">WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_hosted_network_notification_code">WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a>
 
 
 
@@ -322,7 +323,7 @@ An application can time out and query the current interface state instead of wai
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a>
 
 
 

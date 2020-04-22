@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComTransaction2Events.OnTransactionPrepare2
 title: IComTransaction2Events::OnTransactionPrepare2 (comsvcs.h)
-description: Generated when the transaction is in the prepare phase of the commit protocol.helpviewer_keywords: ["IComTransaction2Events interface [COM+]","OnTransactionPrepare2 method","IComTransaction2Events.OnTransactionPrepare2","IComTransaction2Events::OnTransactionPrepare2","OnTransactionPrepare2","OnTransactionPrepare2 method [COM+]","OnTransactionPrepare2 method [COM+]","IComTransaction2Events interface","_cos_IComTransaction2Events_OnTransactionPrepare2","comsvcs/IComTransaction2Events::OnTransactionPrepare2","cos.icomtransaction2events_ontransactionprepare2"]
+description: Generated when the transaction is in the prepare phase of the commit protocol.
+helpviewer_keywords: ["IComTransaction2Events interface [COM+]","OnTransactionPrepare2 method","IComTransaction2Events.OnTransactionPrepare2","IComTransaction2Events::OnTransactionPrepare2","OnTransactionPrepare2","OnTransactionPrepare2 method [COM+]","OnTransactionPrepare2 method [COM+]","IComTransaction2Events interface","_cos_IComTransaction2Events_OnTransactionPrepare2","comsvcs/IComTransaction2Events::OnTransactionPrepare2","cos.icomtransaction2events_ontransactionprepare2"]
 old-location: cos\icomtransaction2events_ontransactionprepare2.htm
 tech.root: cossdk
 ms.assetid: 1b2ea10f-7b74-474e-bdf1-040d789fa7c9
@@ -59,7 +60,7 @@ Generated when the transaction is in the prepare phase of the commit protocol.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidTx [in]

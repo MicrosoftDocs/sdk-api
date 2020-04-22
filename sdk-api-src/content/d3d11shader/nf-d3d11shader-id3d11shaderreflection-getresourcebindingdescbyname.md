@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetResourceBindingDescByName
 title: ID3D11ShaderReflection::GetResourceBindingDescByName (d3d11shader.h)
-description: Get a description of how a resource is bound to a shader.helpviewer_keywords: ["70b00d95-7ff3-a94d-2a18-469be48c36b3","GetResourceBindingDescByName","GetResourceBindingDescByName method [Direct3D 11]","GetResourceBindingDescByName method [Direct3D 11]","ID3D11ShaderReflection interface","ID3D11ShaderReflection interface [Direct3D 11]","GetResourceBindingDescByName method","ID3D11ShaderReflection.GetResourceBindingDescByName","ID3D11ShaderReflection::GetResourceBindingDescByName","d3d11shader/ID3D11ShaderReflection::GetResourceBindingDescByName","direct3d11.id3d11shaderreflection_getresourcebindingdescbyname"]
+description: Get a description of how a resource is bound to a shader.
+helpviewer_keywords: ["70b00d95-7ff3-a94d-2a18-469be48c36b3","GetResourceBindingDescByName","GetResourceBindingDescByName method [Direct3D 11]","GetResourceBindingDescByName method [Direct3D 11]","ID3D11ShaderReflection interface","ID3D11ShaderReflection interface [Direct3D 11]","GetResourceBindingDescByName method","ID3D11ShaderReflection.GetResourceBindingDescByName","ID3D11ShaderReflection::GetResourceBindingDescByName","d3d11shader/ID3D11ShaderReflection::GetResourceBindingDescByName","direct3d11.id3d11shaderreflection_getresourcebindingdescbyname"]
 old-location: direct3d11\id3d11shaderreflection_getresourcebindingdescbyname.htm
 tech.root: direct3d11
 ms.assetid: b4bddcc0-c2fd-4dac-b999-cfbe1d318777
@@ -66,9 +67,9 @@ The constant-buffer name of the resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a>*</b>
 
-A pointer to an input-binding description. See <a href="https://docs.microsoft.com/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a>.
+A pointer to an input-binding description. See <a href="/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a>.
 
 
 ## -returns

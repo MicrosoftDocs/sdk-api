@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Header_InsertItem
 title: Header_InsertItem macro (commctrl.h)
-description: Inserts a new item into a header control. You can use this macro or send the HDM_INSERTITEM message explicitly.helpviewer_keywords: ["Header_InsertItem","Header_InsertItem macro [Windows Controls]","_win32_Header_InsertItem","_win32_Header_InsertItem_cpp","commctrl/Header_InsertItem","controls.Header_InsertItem","controls._win32_Header_InsertItem"]
+description: Inserts a new item into a header control. You can use this macro or send the HDM_INSERTITEM message explicitly.
+helpviewer_keywords: ["Header_InsertItem","Header_InsertItem macro [Windows Controls]","_win32_Header_InsertItem","_win32_Header_InsertItem_cpp","commctrl/Header_InsertItem","controls.Header_InsertItem","controls._win32_Header_InsertItem"]
 old-location: controls\Header_InsertItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_insertitem.htm
@@ -77,7 +78,7 @@ The index of the item after which the new item is to be inserted. The new item i
 
 Type: <b>const LPHDITEM</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure that contains information about the new item. 
+A pointer to an <a href="/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure that contains information about the new item. 
 
 
 ## -remarks

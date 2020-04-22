@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ChangeDisplaySettingsExW
 title: ChangeDisplaySettingsExW function (winuser.h)
-description: The ChangeDisplaySettingsEx function changes the settings of the specified display device to the specified graphics mode.helpviewer_keywords: ["CDS_DISABLE_UNSAFE_MODES","CDS_ENABLE_UNSAFE_MODES","CDS_FULLSCREEN","CDS_GLOBAL","CDS_NORESET","CDS_RESET","CDS_SET_PRIMARY","CDS_TEST","CDS_UPDATEREGISTRY","CDS_VIDEOPARAMETERS","ChangeDisplaySettingsEx","ChangeDisplaySettingsEx function [Windows GDI]","ChangeDisplaySettingsExA","ChangeDisplaySettingsExW","_win32_ChangeDisplaySettingsEx","gdi.changedisplaysettingsex","winuser/ChangeDisplaySettingsEx","winuser/ChangeDisplaySettingsExA","winuser/ChangeDisplaySettingsExW"]
+description: The ChangeDisplaySettingsEx function changes the settings of the specified display device to the specified graphics mode.
+helpviewer_keywords: ["CDS_DISABLE_UNSAFE_MODES","CDS_ENABLE_UNSAFE_MODES","CDS_FULLSCREEN","CDS_GLOBAL","CDS_NORESET","CDS_RESET","CDS_SET_PRIMARY","CDS_TEST","CDS_UPDATEREGISTRY","CDS_VIDEOPARAMETERS","ChangeDisplaySettingsEx","ChangeDisplaySettingsEx function [Windows GDI]","ChangeDisplaySettingsExA","ChangeDisplaySettingsExW","_win32_ChangeDisplaySettingsEx","gdi.changedisplaysettingsex","winuser/ChangeDisplaySettingsEx","winuser/ChangeDisplaySettingsExA","winuser/ChangeDisplaySettingsExW"]
 old-location: gdi\changedisplaysettingsex.htm
 tech.root: gdi
 ms.assetid: 1448e04c-1452-4eab-bda4-4d249cb67a24
@@ -71,9 +72,9 @@ The <i>lpszDeviceName</i> parameter can be <b>NULL</b>. A <b>NULL</b> value spec
 
 ### -param lpDevMode [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure that describes the new graphics mode. If <i>lpDevMode</i> is <b>NULL</b>, all the values currently in the registry will be used for the display setting. Passing <b>NULL</b> for the <i>lpDevMode</i> parameter and 0 for the <i>dwFlags</i> parameter is the easiest way to return to the default mode after a dynamic mode change.
+A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure that describes the new graphics mode. If <i>lpDevMode</i> is <b>NULL</b>, all the values currently in the registry will be used for the display setting. Passing <b>NULL</b> for the <i>lpDevMode</i> parameter and 0 for the <i>dwFlags</i> parameter is the easiest way to return to the default mode after a dynamic mode change.
 
-The <b>dmSize</b> member must be initialized to the size, in bytes, of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. The <b>dmDriverExtra</b> member must be initialized to indicate the number of bytes of private driver data following the <b>DEVMODE</b> structure. In addition, you can use any of the following members of the <b>DEVMODE</b> structure.
+The <b>dmSize</b> member must be initialized to the size, in bytes, of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. The <b>dmDriverExtra</b> member must be initialized to indicate the number of bytes of private driver data following the <b>DEVMODE</b> structure. In addition, you can use any of the following members of the <b>DEVMODE</b> structure.
 
 <table>
 <tr>
@@ -107,7 +108,7 @@ The <b>dmSize</b> member must be initialized to the size, in bytes, of the <a hr
 </table>
  
 
-In addition to using one or more of the preceding <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> members, you must also set one or more of the following values in the <b>dmFields</b> member to change the display settings.
+In addition to using one or more of the preceding <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> members, you must also set one or more of the following values in the <b>dmFields</b> member to change the display settings.
 
 <table>
 <tr>
@@ -393,7 +394,7 @@ The computer must be restarted for the graphics mode to work.
 
 
 
-To ensure that the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure passed to <b>ChangeDisplaySettingsEx</b> is valid and contains only values supported by the display driver, use the <b>DEVMODE</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function.
+To ensure that the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure passed to <b>ChangeDisplaySettingsEx</b> is valid and contains only values supported by the display driver, use the <b>DEVMODE</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function.
 
 When adding a display monitor to a multiple-monitor system programmatically, set <b>DEVMODE.dmFields</b> to DM_POSITION and specify a position (in <b>DEVMODE.dmPosition</b>) for the monitor you are adding that is adjacent to at least one pixel of the display area of an existing monitor. To detach the monitor, set <b>DEVMODE.dmFields</b> to DM_POSITION but set <b>DEVMODE.dmPelsWidth</b> and <b>DEVMODE.dmPelsHeight</b> to zero. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors</a>.
 
@@ -446,7 +447,7 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

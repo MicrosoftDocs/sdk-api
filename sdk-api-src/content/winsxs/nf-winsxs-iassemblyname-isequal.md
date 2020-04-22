@@ -1,7 +1,8 @@
 ---
 UID: NF:winsxs.IAssemblyName.IsEqual
 title: IAssemblyName::IsEqual (winsxs.h)
-description: The IsEqual method compares the current assembly name to another assembly name.helpviewer_keywords: ["IAssemblyName interface [Side-by-side Assemblies]","IsEqual method","IAssemblyName.IsEqual","IAssemblyName::IsEqual","IsEqual","IsEqual method [Side-by-side Assemblies]","IsEqual method [Side-by-side Assemblies]","IAssemblyName interface","setup.iassemblyname_isequal","winsxs/IAssemblyName::IsEqual"]
+description: The IsEqual method compares the current assembly name to another assembly name.
+helpviewer_keywords: ["IAssemblyName interface [Side-by-side Assemblies]","IsEqual method","IAssemblyName.IsEqual","IAssemblyName::IsEqual","IsEqual","IsEqual method [Side-by-side Assemblies]","IsEqual method [Side-by-side Assemblies]","IAssemblyName interface","setup.iassemblyname_isequal","winsxs/IAssemblyName::IsEqual"]
 old-location: setup\iassemblyname_isequal.htm
 tech.root: SbsCs
 ms.assetid: 798102ce-b696-4940-941d-c3fd3054c584
@@ -64,7 +65,7 @@ A pointer to another  <a href="https://docs.microsoft.com/windows/desktop/api/wi
 
 ### -param dwCmpFlags [in]
 
-Indicates which portion of the assembly names are to be compared. The value can be one of the options of the <a href="https://docs.microsoft.com/windows/win32/api/winsxs/ne-winsxs-asm_cmp_flags">ASM_CMP_FLAGS</a> enumeration.
+Indicates which portion of the assembly names are to be compared. The value can be one of the options of the <a href="/windows/win32/api/winsxs/ne-winsxs-asm_cmp_flags">ASM_CMP_FLAGS</a> enumeration.
 
 
 ## -returns

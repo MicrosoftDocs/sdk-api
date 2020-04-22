@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.ImageNtHeader
 title: ImageNtHeader function (dbghelp.h)
-description: Locates the IMAGE_NT_HEADERS structure in a PE image and returns a pointer to the data.helpviewer_keywords: ["ImageNtHeader","ImageNtHeader function","_win32_imagentheader","base.imagentheader","dbghelp/ImageNtHeader"]
+description: Locates the IMAGE_NT_HEADERS structure in a PE image and returns a pointer to the data.
+helpviewer_keywords: ["ImageNtHeader","ImageNtHeader function","_win32_imagentheader","base.imagentheader","dbghelp/ImageNtHeader"]
 old-location: base\imagentheader.htm
 tech.root: Debug
 ms.assetid: bf796c81-84d1-43e6-a2ff-b0be6f4603e0
@@ -52,7 +53,7 @@ ms.custom: 19H1
 
 
 Locates the 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure in a PE image and returns a pointer to the data.
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure in a PE image and returns a pointer to the data.
 
 
 ## -parameters
@@ -71,7 +72,7 @@ The base address of an image that is mapped into memory by a call to the
 
 
 If the function succeeds, the return value is a pointer to an 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure.
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -97,7 +98,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
 
 
 

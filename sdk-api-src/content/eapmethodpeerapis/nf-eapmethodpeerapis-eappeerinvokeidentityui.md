@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerInvokeIdentityUI
 title: EapPeerInvokeIdentityUI function (eapmethodpeerapis.h)
-description: Raises a custom interactive user interface dialog to obtain user identity information for the EAP method on the client.helpviewer_keywords: ["EapPeerInvokeIdentityUI","EapPeerInvokeIdentityUI function [EAPHost]","eaphost.eappeerinvokeidentityui","eapmethodpeerapis/EapPeerInvokeIdentityUI"]
+description: Raises a custom interactive user interface dialog to obtain user identity information for the EAP method on the client.
+helpviewer_keywords: ["EapPeerInvokeIdentityUI","EapPeerInvokeIdentityUI function [EAPHost]","eaphost.eappeerinvokeidentityui","eapmethodpeerapis/EapPeerInvokeIdentityUI"]
 old-location: eaphost\eappeerinvokeidentityui.htm
 tech.root: eaphost
 ms.assetid: 9b3a525a-2322-496e-83c7-a3180235583a
@@ -64,7 +65,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param hwndParent [in]
@@ -128,7 +129,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-configuration-functions)a>
+[EAPHost Peer Method Configuration Functions](/windows/win32/eaphost/eaphost-peer-method-configuration-functions)
 
 
 

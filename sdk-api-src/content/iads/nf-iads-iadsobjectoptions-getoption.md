@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsObjectOptions.GetOption
 title: IADsObjectOptions::GetOption (iads.h)
-description: Gets a provider-specific option for a directory object.helpviewer_keywords: ["GetOption","GetOption method [ADSI]","GetOption method [ADSI]","IADsObjectOptions interface","IADsObjectOptions interface [ADSI]","GetOption method","IADsObjectOptions.GetOption","IADsObjectOptions::GetOption","_ds_iadsobjectoptions_getoption","adsi.iadsobjectoptions__getoption","adsi.iadsobjectoptions_getoption","iads/IADsObjectOptions::GetOption"]
+description: Gets a provider-specific option for a directory object.
+helpviewer_keywords: ["GetOption","GetOption method [ADSI]","GetOption method [ADSI]","IADsObjectOptions interface","IADsObjectOptions interface [ADSI]","GetOption method","IADsObjectOptions.GetOption","IADsObjectOptions::GetOption","_ds_iadsobjectoptions_getoption","adsi.iadsobjectoptions__getoption","adsi.iadsobjectoptions_getoption","iads/IADsObjectOptions::GetOption"]
 old-location: adsi\iadsobjectoptions_getoption.htm
 tech.root: adsi
 ms.assetid: 77a994d2-81ae-4afb-be5c-be8d7159a2c2
@@ -59,7 +60,7 @@ The <b>IADsOptions.GetOption</b> method gets a provider-specific option for a di
 
 ### -param lnOption
 
-Indicates the provider-specific option to get. This parameter can be any value in the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a> enumeration.
+Indicates the provider-specific option to get. This parameter can be any value in the  <a href="/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a> enumeration.
 
 
 ### -param pvValue
@@ -85,7 +86,7 @@ The method supports the standard return values, including <b>S_OK</b> if the ope
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a>
 
 
 

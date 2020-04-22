@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComTransactionEvents.OnTransactionCommit
 title: IComTransactionEvents::OnTransactionCommit (comsvcs.h)
-description: Generated when a transaction commits.helpviewer_keywords: ["IComTransactionEvents interface [COM+]","OnTransactionCommit method","IComTransactionEvents.OnTransactionCommit","IComTransactionEvents::OnTransactionCommit","OnTransactionCommit","OnTransactionCommit method [COM+]","OnTransactionCommit method [COM+]","IComTransactionEvents interface","_dtc_IComTransactionEvents_OnTransactionCommit","comsvcs/IComTransactionEvents::OnTransactionCommit","cos.icomtransactionevents_ontransactioncommit"]
+description: Generated when a transaction commits.
+helpviewer_keywords: ["IComTransactionEvents interface [COM+]","OnTransactionCommit method","IComTransactionEvents.OnTransactionCommit","IComTransactionEvents::OnTransactionCommit","OnTransactionCommit","OnTransactionCommit method [COM+]","OnTransactionCommit method [COM+]","IComTransactionEvents interface","_dtc_IComTransactionEvents_OnTransactionCommit","comsvcs/IComTransactionEvents::OnTransactionCommit","cos.icomtransactionevents_ontransactioncommit"]
 old-location: cos\icomtransactionevents_ontransactioncommit.htm
 tech.root: cossdk
 ms.assetid: c86b8b07-3dd0-48b8-9119-cb438238fc50
@@ -59,7 +60,7 @@ Generated when a transaction commits.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidTx [in]

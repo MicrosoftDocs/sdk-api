@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_ResultingImageType
 title: IRawCDImageCreator::get_ResultingImageType (imapi2.h)
-description: Retrieves the value that specifies the type of image file that will be generated.helpviewer_keywords: ["IRawCDImageCreator interface [IMAPI]","get_ResultingImageType method","IRawCDImageCreator.get_ResultingImageType","IRawCDImageCreator::get_ResultingImageType","get_ResultingImageType","get_ResultingImageType method [IMAPI]","get_ResultingImageType method [IMAPI]","IRawCDImageCreator interface","imapi.irawcdimagecreator_get_resultingimagetype","imapi2/IRawCDImageCreator::get_ResultingImageType"]
+description: Retrieves the value that specifies the type of image file that will be generated.
+helpviewer_keywords: ["IRawCDImageCreator interface [IMAPI]","get_ResultingImageType method","IRawCDImageCreator.get_ResultingImageType","IRawCDImageCreator::get_ResultingImageType","get_ResultingImageType","get_ResultingImageType method [IMAPI]","get_ResultingImageType method [IMAPI]","IRawCDImageCreator interface","imapi.irawcdimagecreator_get_resultingimagetype","imapi2/IRawCDImageCreator::get_ResultingImageType"]
 old-location: imapi\irawcdimagecreator_get_resultingimagetype.htm
 tech.root: imapi
 ms.assetid: 006486f7-f766-44a1-a088-71035567a75d
@@ -59,7 +60,7 @@ Retrieves the value that specifies the type of image file that will be generated
 
 ### -param value [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a> enumeration that defines the current type set for the  image file.
+Pointer to an <a href="/windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a> enumeration that defines the current type set for the  image file.
 
 
 ## -returns
