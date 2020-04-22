@@ -61,12 +61,12 @@ Creates a blend-state object that encapsulates blend state for the <a href="http
 
 ### -param pBlendStateDesc [in]
 
-A pointer to a  <a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d11_1/ns-d3d11_1-d3d11_blend_desc1">D3D11_BLEND_DESC1</a> structure that describes blend state.
+A pointer to a  <a href="https://docs.microsoft.com/windows/win32/api/d3d11_1/ns-d3d11_1-d3d11_blend_desc1">D3D11_BLEND_DESC1</a> structure that describes blend state.
 
 
 ### -param ppBlendState [out, optional]
 
-Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11blendstate1">ID3D11BlendState1</a> interface for the blend-state object created.
+Address of a pointer to the <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11blendstate1">ID3D11BlendState1</a> interface for the blend-state object created.
 
 
 ## -returns
@@ -74,7 +74,7 @@ Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/
 
 
 This method returns E_OUTOFMEMORY if there is insufficient memory to create the blend-state object.  
-        See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a> for other possible return values.
+        See <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a> for other possible return values.
 
 
 
@@ -83,7 +83,7 @@ This method returns E_OUTOFMEMORY if there is insufficient memory to create the 
 
 
 
-The logical operations (those that enable bitwise logical operations between pixel shader output and render target contents, refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_render_target_blend_desc1">D3D11_RENDER_TARGET_BLEND_DESC1</a> ) are only available on certain feature levels; call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkfeaturesupport">CheckFeatureSupport</a> with D3D11_FEATURE_D3D11_OPTIONS set, to ensure support by checking the boolean field  <i>OutputMergerLogicOp</i> of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options">D3D11_FEATURE_DATA_D3D11_OPTIONS</a>.
+The logical operations (those that enable bitwise logical operations between pixel shader output and render target contents, refer to <a href="/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_render_target_blend_desc1">D3D11_RENDER_TARGET_BLEND_DESC1</a> ) are only available on certain feature levels; call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkfeaturesupport">CheckFeatureSupport</a> with D3D11_FEATURE_D3D11_OPTIONS set, to ensure support by checking the boolean field  <i>OutputMergerLogicOp</i> of <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options">D3D11_FEATURE_DATA_D3D11_OPTIONS</a>.
 
 An app can create up to 4096 unique blend-state objects. For each object created, the runtime checks to see if a previous object 
       has the same state. If such a previous object exists, the runtime will return a pointer to previous instance instead of creating a duplicate object.
@@ -96,7 +96,7 @@ An app can create up to 4096 unique blend-state objects. For each object created
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a>
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a>
  
 
  
