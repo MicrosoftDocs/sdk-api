@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerSubscriptionsGet0
 title: FwpmSubLayerSubscriptionsGet0 function (fwpmu.h)
-description: Retrieves an array of all the current sub-layer change notification subscriptions.helpviewer_keywords: ["FwpmSubLayerSubscriptionsGet0","FwpmSubLayerSubscriptionsGet0 function [Filtering]","fwp.fwpmsublayersubscriptionsget0_func","fwpmu/FwpmSubLayerSubscriptionsGet0"]
+description: Retrieves an array of all the current sub-layer change notification subscriptions.
+helpviewer_keywords: ["FwpmSubLayerSubscriptionsGet0","FwpmSubLayerSubscriptionsGet0 function [Filtering]","fwp.fwpmsublayersubscriptionsget0_func","fwpmu/FwpmSubLayerSubscriptionsGet0"]
 old-location: fwp\fwpmsublayersubscriptionsget0_func.htm
 tech.root: fwp
 ms.assetid: ca00c768-d8fe-4f61-8b23-2f3a79b4116c
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param entries [out]
 
-Type: [FWPM_SUBLAYER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0)a>***</b>
+Type: [FWPM_SUBLAYER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0)***</b>
 
 The current sublayer change notification subscriptions.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_SUBLAYER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0)a>
+[FWPM_SUBLAYER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0)
  
 
  

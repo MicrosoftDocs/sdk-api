@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendSyncEvent
 title: IRDPViewerInputSink::SendSyncEvent (rdpencomapi.h)
-description: Sends an event message to indicate a change in the state of the keyboard, such as when the Caps Lock key is pressed.helpviewer_keywords: ["IRDPViewerInputSink interface [RDP]","SendSyncEvent method","IRDPViewerInputSink.SendSyncEvent","IRDPViewerInputSink::SendSyncEvent","SendSyncEvent","SendSyncEvent method [RDP]","SendSyncEvent method [RDP]","IRDPViewerInputSink interface","rdp.irdpviewerinputsink_sendsyncevent","rdpencomapi/IRDPViewerInputSink::SendSyncEvent"]
+description: Sends an event message to indicate a change in the state of the keyboard, such as when the Caps Lock key is pressed.
+helpviewer_keywords: ["IRDPViewerInputSink interface [RDP]","SendSyncEvent method","IRDPViewerInputSink.SendSyncEvent","IRDPViewerInputSink::SendSyncEvent","SendSyncEvent","SendSyncEvent method [RDP]","SendSyncEvent method [RDP]","IRDPViewerInputSink interface","rdp.irdpviewerinputsink_sendsyncevent","rdpencomapi/IRDPViewerInputSink::SendSyncEvent"]
 old-location: rdp\irdpviewerinputsink_sendsyncevent.htm
 tech.root: rdp
 ms.assetid: C8B59CAF-DFBE-4569-99B2-DECF1F1DBB56
@@ -61,7 +62,7 @@ Sends an event message to indicate a change in the state of the keyboard, such a
 
 ### -param syncFlags
 
-For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/rdpencomapi/ne-rdpencomapi-rdpsrapi_kbd_sync_flag">RDPSRAPI_KBD_SYNC_FLAG</a> enumeration.
+For possible values, see the <a href="/windows/win32/api/rdpencomapi/ne-rdpencomapi-rdpsrapi_kbd_sync_flag">RDPSRAPI_KBD_SYNC_FLAG</a> enumeration.
 
 
 ## -returns

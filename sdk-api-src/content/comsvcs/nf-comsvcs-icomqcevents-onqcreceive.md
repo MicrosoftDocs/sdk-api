@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCReceive
 title: IComQCEvents::OnQCReceive (comsvcs.h)
-description: Generated when a message is successfully de-queued even though the queued components service might find something wrong with the contents.helpviewer_keywords: ["IComQCEvents interface [COM+]","OnQCReceive method","IComQCEvents.OnQCReceive","IComQCEvents::OnQCReceive","OnQCReceive","OnQCReceive method [COM+]","OnQCReceive method [COM+]","IComQCEvents interface","_dtc_IComQCEvents_OnQCReceive","comsvcs/IComQCEvents::OnQCReceive","cos.icomqcevents_onqcreceive"]
+description: Generated when a message is successfully de-queued even though the queued components service might find something wrong with the contents.
+helpviewer_keywords: ["IComQCEvents interface [COM+]","OnQCReceive method","IComQCEvents.OnQCReceive","IComQCEvents::OnQCReceive","OnQCReceive","OnQCReceive method [COM+]","OnQCReceive method [COM+]","IComQCEvents interface","_dtc_IComQCEvents_OnQCReceive","comsvcs/IComQCEvents::OnQCReceive","cos.icomqcevents_onqcreceive"]
 old-location: cos\icomqcevents_onqcreceive.htm
 tech.root: cossdk
 ms.assetid: d4404fad-c656-4cbf-90d1-a09a7162a38f
@@ -59,7 +60,7 @@ Generated when a message is successfully de-queued even though the queued compon
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param QueueID [in]

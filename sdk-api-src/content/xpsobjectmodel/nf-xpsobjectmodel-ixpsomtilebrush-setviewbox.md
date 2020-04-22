@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetViewbox
 title: IXpsOMTileBrush::SetViewbox (xpsobjectmodel.h)
-description: Sets the portion of the source content to be used as the tile image.helpviewer_keywords: ["IXpsOMTileBrush interface [XPS Documents and Packaging]","SetViewbox method","IXpsOMTileBrush.SetViewbox","IXpsOMTileBrush::SetViewbox","SetViewbox","SetViewbox method [XPS Documents and Packaging]","SetViewbox method [XPS Documents and Packaging]","IXpsOMTileBrush interface","xps.ixpsomtilebrush_setviewbox","xpsobjectmodel/IXpsOMTileBrush::SetViewbox"]
+description: Sets the portion of the source content to be used as the tile image.
+helpviewer_keywords: ["IXpsOMTileBrush interface [XPS Documents and Packaging]","SetViewbox method","IXpsOMTileBrush.SetViewbox","IXpsOMTileBrush::SetViewbox","SetViewbox","SetViewbox method [XPS Documents and Packaging]","SetViewbox method [XPS Documents and Packaging]","IXpsOMTileBrush interface","xps.ixpsomtilebrush_setviewbox","xpsobjectmodel/IXpsOMTileBrush::SetViewbox"]
 old-location: xps\ixpsomtilebrush_setviewbox.htm
 tech.root: printdocs
 ms.assetid: a4a0a9c7-15d5-493e-8ed3-9644f59796fd
@@ -59,7 +60,7 @@ Sets the portion of the source content to be used as the tile image.
 
 ### -param viewbox [in]
 
-An <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that describes the portion of the source content   to be used as the tile image.
+An <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that describes the portion of the source content   to be used as the tile image.
 
 
 ## -returns
@@ -153,7 +154,7 @@ The preceding parameter values correspond to the  source image as:<dl>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
  
 
  

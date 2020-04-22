@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionReflection.GetResourceBindingDesc
 title: ID3D12FunctionReflection::GetResourceBindingDesc (d3d12shader.h)
-description: Gets a description of how a resource is bound to a function.helpviewer_keywords: ["GetResourceBindingDesc","GetResourceBindingDesc method","GetResourceBindingDesc method","ID3D12FunctionReflection interface","ID3D12FunctionReflection interface","GetResourceBindingDesc method","ID3D12FunctionReflection.GetResourceBindingDesc","ID3D12FunctionReflection::GetResourceBindingDesc","d3d12shader/ID3D12FunctionReflection::GetResourceBindingDesc","direct3d12.id3d12functionreflection_getresourcebindingdesc"]
+description: Gets a description of how a resource is bound to a function.
+helpviewer_keywords: ["GetResourceBindingDesc","GetResourceBindingDesc method","GetResourceBindingDesc method","ID3D12FunctionReflection interface","ID3D12FunctionReflection interface","GetResourceBindingDesc method","ID3D12FunctionReflection.GetResourceBindingDesc","ID3D12FunctionReflection::GetResourceBindingDesc","d3d12shader/ID3D12FunctionReflection::GetResourceBindingDesc","direct3d12.id3d12functionreflection_getresourcebindingdesc"]
 old-location: direct3d12\id3d12functionreflection_getresourcebindingdesc.htm
 tech.root: direct3d12
 ms.assetid: DBABC959-0692-4DB9-9726-AFE6972A6B52
@@ -68,9 +69,9 @@ A zero-based resource index.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc">D3D12_SHADER_INPUT_BIND_DESC</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc">D3D12_SHADER_INPUT_BIND_DESC</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc">D3D12_SHADER_INPUT_BIND_DESC</a> structure that describes input binding of the resource.
+A pointer to a <a href="/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc">D3D12_SHADER_INPUT_BIND_DESC</a> structure that describes input binding of the resource.
           
 
 

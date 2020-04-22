@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanSetProfileEapXmlUserData
 title: WlanSetProfileEapXmlUserData function (wlanapi.h)
-description: Sets the Extensible Authentication Protocol (EAP) user credentials as specified by an XML string.helpviewer_keywords: ["WLAN_SET_EAPHOST_DATA_ALL_USERS","WlanSetProfileEapXmlUserData","WlanSetProfileEapXmlUserData function [NativeWIFI]","nwifi.wlansetprofileeapxmluserdata","wlanapi/WlanSetProfileEapXmlUserData"]
+description: Sets the Extensible Authentication Protocol (EAP) user credentials as specified by an XML string.
+helpviewer_keywords: ["WLAN_SET_EAPHOST_DATA_ALL_USERS","WlanSetProfileEapXmlUserData","WlanSetProfileEapXmlUserData function [NativeWIFI]","nwifi.wlansetprofileeapxmluserdata","wlanapi/WlanSetProfileEapXmlUserData"]
 old-location: nwifi\wlansetprofileeapxmluserdata.htm
 tech.root: NativeWiFi
 ms.assetid: c34c39c0-8200-438a-8353-238225aea5cb
@@ -106,7 +107,7 @@ Set EAP host data for all users of this profile.
 
 A pointer to XML data used to set the user credentials. 
 
-The XML data must be based on the <a href="https://docs.microsoft.com/windows/win32/eaphost/eaphostusercredentialsschema-schema">EAPHost User Credentials schema</a>. To view sample user credential XML data, see EAPHost <a href="https://docs.microsoft.com/windows/win32/eaphost/user-profiles">User Properties</a>.
+The XML data must be based on the <a href="/windows/win32/eaphost/eaphostusercredentialsschema-schema">EAPHost User Credentials schema</a>. To view sample user credential XML data, see EAPHost <a href="/windows/win32/eaphost/user-profiles">User Properties</a>.
 
 
 ### -param pReserved

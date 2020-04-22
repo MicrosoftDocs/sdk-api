@@ -1,7 +1,8 @@
 ---
 UID: NS:qossp._RSVP_STATUS_INFO
 title: RSVP_STATUS_INFO (qossp.h)
-description: The QOS object RSVP_STATUS_INFO provides information regarding the status of RSVP for a given flow, including event notifications associated with monitoring FD_QOS events, as well as error information.helpviewer_keywords: ["*LPRSVP_STATUS_INFO","LPRSVP_STATUS_INFO","LPRSVP_STATUS_INFO structure pointer [QOS]","RSVP_STATUS_INFO","RSVP_STATUS_INFO structure [QOS]","_gqos_rsvp_status_info","qos.rsvp_status_info","qossp/LPRSVP_STATUS_INFO","qossp/RSVP_STATUS_INFO"]
+description: The QOS object RSVP_STATUS_INFO provides information regarding the status of RSVP for a given flow, including event notifications associated with monitoring FD_QOS events, as well as error information.
+helpviewer_keywords: ["*LPRSVP_STATUS_INFO","LPRSVP_STATUS_INFO","LPRSVP_STATUS_INFO structure pointer [QOS]","RSVP_STATUS_INFO","RSVP_STATUS_INFO structure [QOS]","_gqos_rsvp_status_info","qos.rsvp_status_info","qossp/LPRSVP_STATUS_INFO","qossp/RSVP_STATUS_INFO"]
 old-location: qos\rsvp_status_info.htm
 tech.root: QOS
 ms.assetid: ffb271e5-cdfe-4ac9-929e-9a0a81894238
@@ -86,7 +87,7 @@ Additional mechanism for storing or returning provider-specific status informati
 
 When applications register their interest in FD_QOS events (see 
 <a href="https://docs.microsoft.com/previous-versions/aa374065(v=vs.80)">QOS Events</a>), event and error information is associated with the event in the form of the 
-<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure that is associated with the event. For more detailed information associated with that event, applications can investigate the <b>RSVP_STATUS_INFO</b> object that is provided in 
+<a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure that is associated with the event. For more detailed information associated with that event, applications can investigate the <b>RSVP_STATUS_INFO</b> object that is provided in 
 <a href="https://docs.microsoft.com/previous-versions/aa374467(v=vs.80)">the ProviderSpecific buffer</a> of the event-associated 
 <b>QOS</b> structure.
 
@@ -102,7 +103,7 @@ When applications register their interest in FD_QOS events (see
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a>
+<a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a>
 
 
 

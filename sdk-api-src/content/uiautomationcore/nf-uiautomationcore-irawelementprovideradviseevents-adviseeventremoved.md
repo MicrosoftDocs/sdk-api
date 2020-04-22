@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderAdviseEvents.AdviseEventRemoved
 title: IRawElementProviderAdviseEvents::AdviseEventRemoved (uiautomationcore.h)
-description: Notifies the Microsoft UI Automation provider when a UI Automation client stops listening for a specific event, including a property-changed event.helpviewer_keywords: ["AdviseEventRemoved","AdviseEventRemoved method [Windows Accessibility]","AdviseEventRemoved method [Windows Accessibility]","IRawElementProviderAdviseEvents interface","IRawElementProviderAdviseEvents interface [Windows Accessibility]","AdviseEventRemoved method","IRawElementProviderAdviseEvents.AdviseEventRemoved","IRawElementProviderAdviseEvents::AdviseEventRemoved","uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved","uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved","uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventRemoved","winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved"]
+description: Notifies the Microsoft UI Automation provider when a UI Automation client stops listening for a specific event, including a property-changed event.
+helpviewer_keywords: ["AdviseEventRemoved","AdviseEventRemoved method [Windows Accessibility]","AdviseEventRemoved method [Windows Accessibility]","IRawElementProviderAdviseEvents interface","IRawElementProviderAdviseEvents interface [Windows Accessibility]","AdviseEventRemoved method","IRawElementProviderAdviseEvents.AdviseEventRemoved","IRawElementProviderAdviseEvents::AdviseEventRemoved","uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved","uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved","uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventRemoved","winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved"]
 old-location: winauto\uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved.htm
 tech.root: WinAuto
 ms.assetid: 42c9aeeb-dc08-4c13-ae86-2c0fb93e5c17
@@ -67,7 +68,7 @@ The identifier of the event being removed. For a list of event IDs, see <a href=
 
 ### -param propertyIDs [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 A pointer to the identifiers of the properties being removed, or <b>NULL</b>if the event listener being removed is not listening for property events.
 

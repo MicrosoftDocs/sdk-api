@@ -1,7 +1,8 @@
 ---
 UID: NF:physicalmonitorenumerationapi.GetPhysicalMonitorsFromHMONITOR
 title: GetPhysicalMonitorsFromHMONITOR function (physicalmonitorenumerationapi.h)
-description: Retrieves the physical monitors associated with an HMONITOR monitor handle.helpviewer_keywords: ["GetPhysicalMonitorsFromHMONITOR","GetPhysicalMonitorsFromHMONITOR function [Monitor Configuration]","monitor.getphysicalmonitorsfromhmonitor","physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR"]
+description: Retrieves the physical monitors associated with an HMONITOR monitor handle.
+helpviewer_keywords: ["GetPhysicalMonitorsFromHMONITOR","GetPhysicalMonitorsFromHMONITOR function [Monitor Configuration]","monitor.getphysicalmonitorsfromhmonitor","physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR"]
 old-location: monitor\getphysicalmonitorsfromhmonitor.htm
 tech.root: Monitor
 ms.assetid: f2ac8a6a-3be9-4155-ad13-c256b96da792
@@ -71,7 +72,7 @@ Number of elements in <i>pPhysicalMonitorArray</i>. To get the required size of 
 
 ### -param pPhysicalMonitorArray [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-physical_monitor">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
+Pointer to an array of <a href="/windows/win32/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-physical_monitor">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
           
 
 

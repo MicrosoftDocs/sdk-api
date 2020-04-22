@@ -1,7 +1,8 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorColorTemperature
 title: SetMonitorColorTemperature function (highlevelmonitorconfigurationapi.h)
-description: Sets a monitor's color temperature.helpviewer_keywords: ["SetMonitorColorTemperature","SetMonitorColorTemperature function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorColorTemperature","monitor.setmonitorcolortemperature"]
+description: Sets a monitor's color temperature.
+helpviewer_keywords: ["SetMonitorColorTemperature","SetMonitorColorTemperature function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorColorTemperature","monitor.setmonitorcolortemperature"]
 old-location: monitor\setmonitorcolortemperature.htm
 tech.root: Monitor
 ms.assetid: a7f2753c-810f-41e5-9378-4072e8d4bc38
@@ -65,7 +66,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param ctCurrentColorTemperature [in]
 
-Color temperature, specified as a member of the <a href="https://docs.microsoft.com/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_color_temperature">MC_COLOR_TEMPERATURE</a> enumeration.
+Color temperature, specified as a member of the <a href="/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_color_temperature">MC_COLOR_TEMPERATURE</a> enumeration.
           
 
 

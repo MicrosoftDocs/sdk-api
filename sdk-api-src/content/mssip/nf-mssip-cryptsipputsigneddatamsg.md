@@ -1,7 +1,8 @@
 ---
 UID: NF:mssip.CryptSIPPutSignedDataMsg
 title: CryptSIPPutSignedDataMsg function (mssip.h)
-description: Stores an Authenticode signature in the target file.helpviewer_keywords: ["CryptSIPPutSignedDataMsg","CryptSIPPutSignedDataMsg function [Security]","PKCS_7_ASN_ENCODING","X509_ASN_ENCODING","mssip/CryptSIPPutSignedDataMsg","security.cryptsipputsigneddatamsg"]
+description: Stores an Authenticode signature in the target file.
+helpviewer_keywords: ["CryptSIPPutSignedDataMsg","CryptSIPPutSignedDataMsg function [Security]","PKCS_7_ASN_ENCODING","X509_ASN_ENCODING","mssip/CryptSIPPutSignedDataMsg","security.cryptsipputsigneddatamsg"]
 old-location: security\cryptsipputsigneddatamsg.htm
 tech.root: SecCrypto
 ms.assetid: 731f64bf-49f0-4799-b84a-9ca04292aa91
@@ -59,7 +60,7 @@ The <b>CryptSIPPutSignedDataMsg</b> function stores an <a href="https://docs.mic
 
 ### -param pSubjectInfo [in]
 
-Pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that contains information about the message subject.
+Pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
 
 
 ### -param dwEncodingType [in]
@@ -153,8 +154,8 @@ This code can be returned for the following reasons:
 <li>The <i>pdwIndex</i> is <b>NULL</b>.</li>
 <li>The <i>pbSignedDataMsg</i> is <b>NULL</b>.</li>
 <li>The value of the <i>cbSignedDataMsg</i> parameter is less than one.</li>
-[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure.</li>
-[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure.</li>
+[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure.</li>
+[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure.</li>
 </ul>
 </td>
 </tr>

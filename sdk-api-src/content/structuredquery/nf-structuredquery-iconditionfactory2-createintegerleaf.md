@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateIntegerLeaf
 title: IConditionFactory2::CreateIntegerLeaf (structuredquery.h)
-description: Creates a leaf condition node for an integer value. The returned object supports ICondition and ICondition2.helpviewer_keywords: ["CreateIntegerLeaf","CreateIntegerLeaf method [search]","CreateIntegerLeaf method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateIntegerLeaf method","IConditionFactory2.CreateIntegerLeaf","IConditionFactory2::CreateIntegerLeaf","_search_IConditionFactory2_CreateIntegerLeaf","search._search_IConditionFactory2_CreateIntegerLeaf","structuredquery/IConditionFactory2::CreateIntegerLeaf"]
+description: Creates a leaf condition node for an integer value. The returned object supports ICondition and ICondition2.
+helpviewer_keywords: ["CreateIntegerLeaf","CreateIntegerLeaf method [search]","CreateIntegerLeaf method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateIntegerLeaf method","IConditionFactory2.CreateIntegerLeaf","IConditionFactory2::CreateIntegerLeaf","_search_IConditionFactory2_CreateIntegerLeaf","search._search_IConditionFactory2_CreateIntegerLeaf","structuredquery/IConditionFactory2::CreateIntegerLeaf"]
 old-location: search\_search_IConditionFactory2_CreateIntegerLeaf.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createintegerleaf.htm
@@ -66,9 +67,9 @@ The name of the property of the leaf condition as a REFPROPERTYKEY. If the leaf 
 
 ### -param cop [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a></b>
+Type: <b><a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a></b>
 
-A <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration. If the leaf has no particular operation, then use <i>COP_IMPLICIT</i>.
+A <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration. If the leaf has no particular operation, then use <i>COP_IMPLICIT</i>.
 
 
 ### -param lValue [in]
@@ -128,11 +129,11 @@ For default options, use the <i>CONDITION_CREATION_DEFAULT</i> flag.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

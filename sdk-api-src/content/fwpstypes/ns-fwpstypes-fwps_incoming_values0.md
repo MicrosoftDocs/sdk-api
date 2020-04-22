@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpstypes.FWPS_INCOMING_VALUES0_
 title: FWPS_INCOMING_VALUES0 (fwpstypes.h)
-description: The FWPS_INCOMING_VALUES0 structure defines data values that are passed by the filter engine to a callout's classifyFn callout function.Note  FWPS_INCOMING_VALUES0 is a specific version of FWPS_INCOMING_VALUES.helpviewer_keywords: ["FWPS_INCOMING_VALUES0","FWPS_INCOMING_VALUES0 structure [Network Drivers Starting with Windows Vista]","fwpstypes/FWPS_INCOMING_VALUES0","netvista.fwps_incoming_values0","wfp_ref_3_struct_3_fwps_F-O_8a5ec685-98ff-49f2-9e78-72d409fece93.xml"]
+description: The FWPS_INCOMING_VALUES0 structure defines data values that are passed by the filter engine to a callout's classifyFn callout function.Note  FWPS_INCOMING_VALUES0 is a specific version of FWPS_INCOMING_VALUES.
+helpviewer_keywords: ["FWPS_INCOMING_VALUES0","FWPS_INCOMING_VALUES0 structure [Network Drivers Starting with Windows Vista]","fwpstypes/FWPS_INCOMING_VALUES0","netvista.fwps_incoming_values0","wfp_ref_3_struct_3_fwps_F-O_8a5ec685-98ff-49f2-9e78-72d409fece93.xml"]
 old-location: netvista\fwps_incoming_values0.htm
 tech.root: NetVista
 ms.assetid: 62cec782-3d55-4bf0-a3a1-4eb2f11d5813
@@ -70,7 +71,7 @@ The run-time filtering layer identifier for the filtering layer at which the dat
 ### -field valueCount
 
 The number of 
-     [FWPS_INCOMING_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0)a> structures in the
+     [FWPS_INCOMING_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0) structures in the
      array pointed to by the 
      <b>incomingValue</b> member.
 
@@ -78,7 +79,7 @@ The number of
 ### -field incomingValue
 
 A pointer to an array of 
-     [FWPS_INCOMING_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0)a> structures that
+     [FWPS_INCOMING_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0) structures that
      contain the data values.
 
 
@@ -97,7 +98,7 @@ The filter engine passes a pointer to an FWPS_INCOMING_VALUES0 structure to a ca
 
 
 
-[FWPS_INCOMING_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0)a>
+[FWPS_INCOMING_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0)
 
 
 

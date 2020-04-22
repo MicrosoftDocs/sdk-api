@@ -1,7 +1,8 @@
 ---
 UID: NF:cryptuiapi.CryptUIWizExport
 title: CryptUIWizExport function (cryptuiapi.h)
-description: Exports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a file.helpviewer_keywords: ["CRYPTUI_WIZ_EXPORT_NO_DELETE_PRIVATE_KEY","CRYPTUI_WIZ_EXPORT_PRIVATE_KEY","CRYPTUI_WIZ_IGNORE_NO_UI_FLAG_FOR_CSPS","CRYPTUI_WIZ_NO_UI","CRYPTUI_WIZ_NO_UI_EXCEPT_CSP","CryptUIWizExport","CryptUIWizExport function [Security]","cryptuiapi/CryptUIWizExport","security.cryptuiwizexport"]
+description: Exports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a file.
+helpviewer_keywords: ["CRYPTUI_WIZ_EXPORT_NO_DELETE_PRIVATE_KEY","CRYPTUI_WIZ_EXPORT_PRIVATE_KEY","CRYPTUI_WIZ_IGNORE_NO_UI_FLAG_FOR_CSPS","CRYPTUI_WIZ_NO_UI","CRYPTUI_WIZ_NO_UI_EXCEPT_CSP","CryptUIWizExport","CryptUIWizExport function [Security]","cryptuiapi/CryptUIWizExport","security.cryptuiwizexport"]
 old-location: security\cryptuiwizexport.htm
 tech.root: SecCrypto
 ms.assetid: 62537d51-c761-4180-b857-58c819ea66aa
@@ -144,9 +145,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiap
 
 ### -param pvoid [in]
 
-If the <b>dwSubjectChoice</b> member of  the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_export_certcontext_info">CRYPTUI_WIZ_EXPORT_INFO</a> structure that <i>pExportInfo</i> references is <b>CRYPTUI_WIZ_EXPORT_CERT_CONTEXT</b>, and if the  <b>CRYPTUI_WIZ_NO_UI</b> flag is set in <i>dwFlags</i>, this parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_export_certcontext_info">CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</a> structure. 
+If the <b>dwSubjectChoice</b> member of  the <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_export_certcontext_info">CRYPTUI_WIZ_EXPORT_INFO</a> structure that <i>pExportInfo</i> references is <b>CRYPTUI_WIZ_EXPORT_CERT_CONTEXT</b>, and if the  <b>CRYPTUI_WIZ_NO_UI</b> flag is set in <i>dwFlags</i>, this parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_export_certcontext_info">CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</a> structure. 
 
-If the <b>CRYPTUI_WIZ_NO_UI</b> flag is not set in <i>dwFlags</i>, this parameter is optional and can be <b>NULL</b>. If this parameter is not <b>NULL</b>, the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_export_certcontext_info">CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</a> structure contains the values that are displayed to the user as the default choices.
+If the <b>CRYPTUI_WIZ_NO_UI</b> flag is not set in <i>dwFlags</i>, this parameter is optional and can be <b>NULL</b>. If this parameter is not <b>NULL</b>, the <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_export_certcontext_info">CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</a> structure contains the values that are displayed to the user as the default choices.
 
 
 ## -returns
@@ -166,7 +167,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-er
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_export_certcontext_info">CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</a>
+<a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_export_certcontext_info">CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</a>
 
 
 

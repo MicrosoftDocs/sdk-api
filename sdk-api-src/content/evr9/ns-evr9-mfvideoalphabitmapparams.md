@@ -1,7 +1,8 @@
 ---
 UID: NS:evr9.MFVideoAlphaBitmapParams
 title: MFVideoAlphaBitmapParams (evr9.h)
-description: Specifies how the enhanced video renderer (EVR) alpha-blends a bitmap with the video.helpviewer_keywords: ["3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce","MFVideoAlphaBitmapParams","MFVideoAlphaBitmapParams structure [Media Foundation]","evr9/MFVideoAlphaBitmapParams","mf.mfvideoalphabitmapparams"]
+description: Specifies how the enhanced video renderer (EVR) alpha-blends a bitmap with the video.
+helpviewer_keywords: ["3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce","MFVideoAlphaBitmapParams","MFVideoAlphaBitmapParams structure [Media Foundation]","evr9/MFVideoAlphaBitmapParams","mf.mfvideoalphabitmapparams"]
 old-location: mf\mfvideoalphabitmapparams.htm
 tech.root: medfound
 ms.assetid: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce
@@ -62,7 +63,7 @@ Specifies how the enhanced video renderer (EVR) alpha-blends a bitmap with the v
 
 ### -field dwFlags
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/evr9/ne-evr9-mfvideoalphabitmapflags">MFVideoAlphaBitmapFlags</a> enumeration. These flags indicate which of the other structure members contain valid information.
+Bitwise OR of one or more flags from the <a href="/windows/win32/api/evr9/ne-evr9-mfvideoalphabitmapflags">MFVideoAlphaBitmapFlags</a> enumeration. These flags indicate which of the other structure members contain valid information.
 
 
 ### -field clrSrcKey

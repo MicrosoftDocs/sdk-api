@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPath
 title: IXpsOMPath (xpsobjectmodel.h)
-description: Describes a non-text visual item.helpviewer_keywords: ["IXpsOMPath","IXpsOMPath interface [XPS Documents and Packaging]","IXpsOMPath interface [XPS Documents and Packaging]","described","xps.ixpsompath","xpsobjectmodel/IXpsOMPath"]
+description: Describes a non-text visual item.
+helpviewer_keywords: ["IXpsOMPath","IXpsOMPath interface [XPS Documents and Packaging]","IXpsOMPath interface [XPS Documents and Packaging]","described","xps.ixpsompath","xpsobjectmodel/IXpsOMPath"]
 old-location: xps\ixpsompath.htm
 tech.root: printdocs
 ms.assetid: 93257a77-3fef-400e-bfe1-06e760ba4b93
@@ -203,7 +204,7 @@ Gets the style of the end cap to be used on the stroke dash.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokedashes">GetStrokeDashes</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdashcollection">IXpsOMDashCollection</a> interface that contains the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures that  define the dash pattern of the stroke.
+Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdashcollection">IXpsOMDashCollection</a> interface that contains the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures that  define the dash pattern of the stroke.
             
 
 </td>

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.AppendRoot
 title: INameSpaceTreeControl::AppendRoot (shobjidl_core.h)
-description: Appends a Shell item to the list of roots in a tree.helpviewer_keywords: ["AppendRoot","AppendRoot method [Windows Shell]","AppendRoot method [Windows Shell]","INameSpaceTreeControl interface","INameSpaceTreeControl interface [Windows Shell]","AppendRoot method","INameSpaceTreeControl.AppendRoot","INameSpaceTreeControl::AppendRoot","NSTCRS_EXPANDED","NSTCRS_HIDDEN","NSTCRS_VISIBLE","_shell_INameSpaceTreeControl_AppendRoot","shell.INameSpaceTreeControl_AppendRoot","shobjidl_core/INameSpaceTreeControl::AppendRoot"]
+description: Appends a Shell item to the list of roots in a tree.
+helpviewer_keywords: ["AppendRoot","AppendRoot method [Windows Shell]","AppendRoot method [Windows Shell]","INameSpaceTreeControl interface","INameSpaceTreeControl interface [Windows Shell]","AppendRoot method","INameSpaceTreeControl.AppendRoot","INameSpaceTreeControl::AppendRoot","NSTCRS_EXPANDED","NSTCRS_HIDDEN","NSTCRS_VISIBLE","_shell_INameSpaceTreeControl_AppendRoot","shell.INameSpaceTreeControl_AppendRoot","shobjidl_core/INameSpaceTreeControl::AppendRoot"]
 old-location: shell\INameSpaceTreeControl_AppendRoot.htm
 tech.root: shell
 ms.assetid: a280d183-9215-43c2-bba3-63c34ba33285
@@ -66,9 +67,9 @@ Pointer to the Shell item that is being appended.
 
 ### -param grfEnumFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a></b>
 
-Enumerates the qualities of the root and all of its children. One or more of the values of type <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a>. These flags can be combined using a bitwise OR.
+Enumerates the qualities of the root and all of its children. One or more of the values of type <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a>. These flags can be combined using a bitwise OR.
 
 
 ### -param grfRootStyle [in]
@@ -100,7 +101,7 @@ The root is expanded upon initialization.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter">IShellItemFilter</a>*</b>
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter">IShellItemFilter</a> that enables you to filter which items in the tree are displayed. If supplied, every item is customizable with a <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> flag. This value can be <b>NULL</b> if no filter is required.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter">IShellItemFilter</a> that enables you to filter which items in the tree are displayed. If supplied, every item is customizable with a <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> flag. This value can be <b>NULL</b> if no filter is required.
 
 
 ## -returns

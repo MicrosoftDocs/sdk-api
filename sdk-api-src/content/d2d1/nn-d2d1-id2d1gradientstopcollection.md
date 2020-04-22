@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1.ID2D1GradientStopCollection
 title: ID2D1GradientStopCollection (d2d1.h)
-description: Represents an collection of D2D1_GRADIENT_STOP objects for linear and radial gradient brushes.helpviewer_keywords: ["ID2D1GradientStopCollection","ID2D1GradientStopCollection interface [Direct2D]","ID2D1GradientStopCollection interface [Direct2D]","described","d2d1/ID2D1GradientStopCollection","direct2d.ID2D1GradientStopCollection"]
+description: Represents an collection of D2D1_GRADIENT_STOP objects for linear and radial gradient brushes.
+helpviewer_keywords: ["ID2D1GradientStopCollection","ID2D1GradientStopCollection interface [Direct2D]","ID2D1GradientStopCollection interface [Direct2D]","described","d2d1/ID2D1GradientStopCollection","direct2d.ID2D1GradientStopCollection"]
 old-location: direct2d\ID2D1GradientStopCollection.htm
 tech.root: Direct2D
 ms.assetid: 982abf9c-4778-4871-a494-5843f0c0addc
@@ -111,7 +112,7 @@ Copies the gradient stops from the collection into an array of <a href="https://
 
 
 <h3><a id="Creating_ID2D1GradientStopCollection_Objects"></a><a id="creating_id2d1gradientstopcollection_objects"></a><a id="CREATING_ID2D1GRADIENTSTOPCOLLECTION_OBJECTS"></a>Creating ID2D1GradientStopCollection Objects</h3>
-To create an <b>ID2D1GradientStopCollection</b>, use the  <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a> method.  
+To create an <b>ID2D1GradientStopCollection</b>, use the  <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a> method.  
 
 A gradient stop collection is a device-dependent resource: your application should create gradient stop collections after it initializes the render target with which the gradient stop collection will be used, and recreate the gradient stop collection whenever the render target needs recreated. (For more information about resources, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
 

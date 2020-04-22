@@ -1,7 +1,8 @@
 ---
 UID: NF:clfsw32.CreateLogContainerScanContext
 title: CreateLogContainerScanContext function (clfsw32.h)
-description: Creates a scan context to use with ScanLogContainers to enumerate all log containers that are associated with a log, and performs the first scan.helpviewer_keywords: ["CLFS_SCAN_BACKWARD","CLFS_SCAN_FORWARD","CLFS_SCAN_INIT","CreateLogContainerScanContext","CreateLogContainerScanContext function [Files]","clfsw32/CreateLogContainerScanContext","fs.createlogcontainerscancontext"]
+description: Creates a scan context to use with ScanLogContainers to enumerate all log containers that are associated with a log, and performs the first scan.
+helpviewer_keywords: ["CLFS_SCAN_BACKWARD","CLFS_SCAN_FORWARD","CLFS_SCAN_INIT","CreateLogContainerScanContext","CreateLogContainerScanContext function [Files]","clfsw32/CreateLogContainerScanContext","fs.createlogcontainerscancontext"]
 old-location: fs\createlogcontainerscancontext.htm
 tech.root: Clfs
 ms.assetid: 863e600c-3a7b-47b4-9cc3-dcee1bfcc66b
@@ -77,7 +78,7 @@ The number of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-cl
 
 This number is the number of containers scanned with each scan call so the caller knows the scan is complete when the number of containers returned is less than this value.
 
-On exit, a pointer to the system-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures is placed in the <b>pinfoContainer</b> member of the client-allocated <a href="https://docs.microsoft.com/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a> structure. This member is   pointed to by the <i>pcxScan</i> parameter (that is, "pcxScan-&gt;pinfoContainer[]"), and the actual number of structures in the array is placed in "pcxScan-&gt;cContainersReturned".
+On exit, a pointer to the system-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures is placed in the <b>pinfoContainer</b> member of the client-allocated <a href="/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a> structure. This member is   pointed to by the <i>pcxScan</i> parameter (that is, "pcxScan-&gt;pinfoContainer[]"), and the actual number of structures in the array is placed in "pcxScan-&gt;cContainersReturned".
 
 The client must call <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a> with the <i>eScanMode</i> parameter set to <b>CLFS_SCAN_CLOSE</b>  so that it can free this array; otherwise, memory leaks result.
 
@@ -131,7 +132,7 @@ This mode initializes the container context and returns the first set of contain
 
 ### -param pcxScan [in, out]
 
-A pointer to a client-allocated <a href="https://docs.microsoft.com/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a> structure that receives a scan context that can be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a> function when a client scans the log containers of a dedicated log.
+A pointer to a client-allocated <a href="/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a> structure that receives a scan context that can be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a> function when a client scans the log containers of a dedicated log.
 
 
 ### -param pOverlapped [in, out, optional]
@@ -180,7 +181,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a>
+<a href="/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:windns.__unnamed_struct_16
 title: DNS_SIG_DATAW (windns.h)
-description: Structure represents a DNS Security Extensions (DNSSEC) cryptographic signature (SIG) resource record (RR) as specified in RFC 4034.helpviewer_keywords: ["*PDNS_RRSIG_DATA","*PDNS_RRSIG_DATAW","*PDNS_SIG_DATA","*PDNS_SIG_DATAW","1","2","3","4","5","DNS_RRSIG_DATA","DNS_RRSIG_DATA structure [DNS]","DNS_RRSIG_DATAW","DNS_SIG_DATA","DNS_SIG_DATAW","PDNS_RRSIG_DATA","PDNS_RRSIG_DATA structure pointer [DNS]","dns.dns_rrsig_data","windns/DNS_RRSIG_DATA","windns/PDNS_RRSIG_DATA"]
+description: Structure represents a DNS Security Extensions (DNSSEC) cryptographic signature (SIG) resource record (RR) as specified in RFC 4034.
+helpviewer_keywords: ["*PDNS_RRSIG_DATA","*PDNS_RRSIG_DATAW","*PDNS_SIG_DATA","*PDNS_SIG_DATAW","1","2","3","4","5","DNS_RRSIG_DATA","DNS_RRSIG_DATA structure [DNS]","DNS_RRSIG_DATAW","DNS_SIG_DATA","DNS_SIG_DATAW","PDNS_RRSIG_DATA","PDNS_RRSIG_DATA structure pointer [DNS]","dns.dns_rrsig_data","windns/DNS_RRSIG_DATA","windns/PDNS_RRSIG_DATA"]
 old-location: dns\dns_rrsig_data.htm
 tech.root: DNS
 ms.assetid: 09c2f515-acc1-402f-8e62-a0d273031633
@@ -187,7 +188,7 @@ Reserved for padding. Do not use.
 
 The 
 <b>DNS_RRSIG_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -201,7 +202,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

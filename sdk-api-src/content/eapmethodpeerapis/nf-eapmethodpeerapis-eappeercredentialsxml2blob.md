@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerCredentialsXml2Blob
 title: EapPeerCredentialsXml2Blob function (eapmethodpeerapis.h)
-description: Converts XML into the configuration BLOB.helpviewer_keywords: ["EapPeerCredentialsXml2Blob","EapPeerCredentialsXml2Blob function [EAPHost]","eaphost.eappeercredentialsxml2blob","eapmethodpeerapis/EapPeerCredentialsXml2Blob"]
+description: Converts XML into the configuration BLOB.
+helpviewer_keywords: ["EapPeerCredentialsXml2Blob","EapPeerCredentialsXml2Blob function [EAPHost]","eaphost.eappeercredentialsxml2blob","eapmethodpeerapis/EapPeerCredentialsXml2Blob"]
 old-location: eaphost\eappeercredentialsxml2blob.htm
 tech.root: eaphost
 ms.assetid: 45a13be7-9a01-467b-97db-ca896d945ee7
@@ -69,7 +70,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-
 
 ### -param pCredentialsDoc [in]
 
-A pointer to an XML node that contains credentials, which are either user or machine credentials depending on the configuration passed in. The XML document is created with the [EapHostUserCredentials Schema](https://docs.microsoft.com/windows/win32/eaphost/eaphostusercredentialsschema-schema)a>. 
+A pointer to an XML node that contains credentials, which are either user or machine credentials depending on the configuration passed in. The XML document is created with the [EapHostUserCredentials Schema](/windows/win32/eaphost/eaphostusercredentialsschema-schema). 
 
 
 ### -param pConfigIn [in]
@@ -102,7 +103,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-[EAPHost Peer Method Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-configuration-functions)a>
+[EAPHost Peer Method Configuration Functions](/windows/win32/eaphost/eaphost-peer-method-configuration-functions)
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyCallback.JobError
 title: IBackgroundCopyCallback::JobError (bits.h)
-description: BITS calls your implementation of the JobError method when the state of the job changes to BG_JOB_STATE_ERROR.helpviewer_keywords: ["IBackgroundCopyCallback interface [BITS]","JobError method","IBackgroundCopyCallback.JobError","IBackgroundCopyCallback::JobError","JobError","JobError method [BITS]","JobError method [BITS]","IBackgroundCopyCallback interface","_drz_ibackgroundcopycallback_joberror","bits.ibackgroundcopycallback_joberror","bits/IBackgroundCopyCallback::JobError"]
+description: BITS calls your implementation of the JobError method when the state of the job changes to BG_JOB_STATE_ERROR.
+helpviewer_keywords: ["IBackgroundCopyCallback interface [BITS]","JobError method","IBackgroundCopyCallback.JobError","IBackgroundCopyCallback::JobError","JobError","JobError method [BITS]","JobError method [BITS]","IBackgroundCopyCallback interface","_drz_ibackgroundcopycallback_joberror","bits.ibackgroundcopycallback_joberror","bits/IBackgroundCopyCallback::JobError"]
 old-location: bits\ibackgroundcopycallback_joberror.htm
 tech.root: Bits
 ms.assetid: 3e206195-1a8c-435e-9b8f-6517b8e3c4ca
@@ -102,7 +103,7 @@ Transient errors do not generate calls to the
 
 To determine whether the upload, reply, or server application portion of an upload reply job failed, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterror">IBackgroundCopyError::GetError</a> method to retrieve the 
-[context](/windows/win32/api/bits/ne-bits-bg_error_context)a> in which the error occurred. The server application failed if the context is BG_ERROR_CONTEXT_REMOTE_APPLICATION. The context for upload and reply is BG_ERROR_CONTEXT_REMOTE_FILE. The reply failed if the <b>BytesTotal</b> member of the 
+[context](/windows/win32/api/bits/ne-bits-bg_error_context) in which the error occurred. The server application failed if the context is BG_ERROR_CONTEXT_REMOTE_APPLICATION. The context for upload and reply is BG_ERROR_CONTEXT_REMOTE_FILE. The reply failed if the <b>BytesTotal</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a> structure is not BG_SIZE_UNKNOWN. Otherwise, the upload failed.
 
 <div class="alert"><b>Note</b>  BITS supports up to four simultaneous notifications per user. If one or more applications  block all four notifications for a user from returning, an application running as the same user will not receive  notifications until one or more of the blocking notifications return. To reduce the chance that your callback blocks other notifications, keep your implementation short.</div>

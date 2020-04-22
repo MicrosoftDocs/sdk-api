@@ -1,7 +1,8 @@
 ---
 UID: NS:evntrace._ENABLE_TRACE_PARAMETERS_V1
 title: ENABLE_TRACE_PARAMETERS_V1 (evntrace.h)
-description: Defines the information used to enable a provider.helpviewer_keywords: ["*PENABLE_TRACE_PARAMETERS_V1","ENABLE_TRACE_PARAMETERS_V1","ENABLE_TRACE_PARAMETERS_V1 structure [ETW]","EVENT_ENABLE_PROPERTY_SID","EVENT_ENABLE_PROPERTY_STACK_TRACE","EVENT_ENABLE_PROPERTY_TS_ID","PENABLE_TRACE_PARAMETERS_V1","PENABLE_TRACE_PARAMETERS_V1 structure pointer [ETW]","_ENABLE_TRACE_PARAMETERS_V1","etw.enable_trace_parameters_v1","evntrace/ENABLE_TRACE_PARAMETERS_V1","evntrace/PENABLE_TRACE_PARAMETERS_V1"]
+description: Defines the information used to enable a provider.
+helpviewer_keywords: ["*PENABLE_TRACE_PARAMETERS_V1","ENABLE_TRACE_PARAMETERS_V1","ENABLE_TRACE_PARAMETERS_V1 structure [ETW]","EVENT_ENABLE_PROPERTY_SID","EVENT_ENABLE_PROPERTY_STACK_TRACE","EVENT_ENABLE_PROPERTY_TS_ID","PENABLE_TRACE_PARAMETERS_V1","PENABLE_TRACE_PARAMETERS_V1 structure pointer [ETW]","_ENABLE_TRACE_PARAMETERS_V1","etw.enable_trace_parameters_v1","evntrace/ENABLE_TRACE_PARAMETERS_V1","evntrace/PENABLE_TRACE_PARAMETERS_V1"]
 old-location: etw\enable_trace_parameters_v1.htm
 tech.root: ETW
 ms.assetid: 6FC5EF54-2D05-4246-A8E8-7FDA0ABA0D4B
@@ -103,7 +104,7 @@ If you set <b>EVENT_ENABLE_PROPERTY_STACK_TRACE</b>, ETW will drop the event if 
 
 If the stack is longer than the maximum number of frames (192), the frames will be cut from the bottom of the stack.
 
-For consumers,  the events will include the <a href="https://docs.microsoft.com/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> or <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.
+For consumers,  the events will include the <a href="/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> or <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.
 
 </td>
 </tr>

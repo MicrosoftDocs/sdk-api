@@ -1,7 +1,8 @@
 ---
 UID: NF:virtdisk.MergeVirtualDisk
 title: MergeVirtualDisk function (virtdisk.h)
-description: Merges a child virtual hard disk (VHD) in a differencing chain with one or more parent virtual disks in the chain.helpviewer_keywords: ["MergeVirtualDisk","MergeVirtualDisk function [VHD]","vdssys/MergeVirtualDisk","vhd.mergevirtualdisk","virtdisk/MergeVirtualDisk"]
+description: Merges a child virtual hard disk (VHD) in a differencing chain with one or more parent virtual disks in the chain.
+helpviewer_keywords: ["MergeVirtualDisk","MergeVirtualDisk function [VHD]","vdssys/MergeVirtualDisk","vhd.mergevirtualdisk","virtdisk/MergeVirtualDisk"]
 old-location: vhd\mergevirtualdisk.htm
 tech.root: VStor
 ms.assetid: 9a9068d1-2f81-42a2-a3b2-6030a24a4445
@@ -59,17 +60,17 @@ Merges a child virtual hard disk (VHD) in a differencing chain with one or more 
 
 ### -param VirtualDiskHandle [in]
 
-A handle to the open virtual disk, which must have been opened using the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag. For information on how to open a virtual disk, see the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
+A handle to the open virtual disk, which must have been opened using the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag. For information on how to open a virtual disk, see the <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
 
 
 ### -param Flags [in]
 
-Must be the <b>MERGE_VIRTUAL_DISK_FLAG_NONE</b> value of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-merge_virtual_disk_flag">MERGE_VIRTUAL_DISK_FLAG</a> enumeration.
+Must be the <b>MERGE_VIRTUAL_DISK_FLAG_NONE</b> value of the <a href="/windows/win32/api/virtdisk/ne-virtdisk-merge_virtual_disk_flag">MERGE_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-merge_virtual_disk_parameters">MERGE_VIRTUAL_DISK_PARAMETERS</a> structure that contains merge parameter data.
+A pointer to a valid <a href="/windows/win32/api/virtdisk/ns-virtdisk-merge_virtual_disk_parameters">MERGE_VIRTUAL_DISK_PARAMETERS</a> structure that contains merge parameter data.
 
 
 ### -param Overlapped [in, optional]
@@ -102,7 +103,7 @@ Merging a disk requires that the affected disks be detached during the operation
 
 The caller must have READ|WRITE access to the backing store for the affected disks.
 
-The RWDepth of the disk must be greater than the merge depth  specified by the [OPEN_VIRTUAL_DISK_PARAMETERS](/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters)a>.
+The RWDepth of the disk must be greater than the merge depth  specified by the [OPEN_VIRTUAL_DISK_PARAMETERS](/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters).
 
 Merge modifies the parent disk being merged into, therefore any other differencing disks dependent on that parent will no longer be valid.
 

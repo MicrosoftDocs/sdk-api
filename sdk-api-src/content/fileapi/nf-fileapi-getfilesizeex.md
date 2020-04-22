@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.GetFileSizeEx
 title: GetFileSizeEx function (fileapi.h)
-description: Retrieves the size of the specified file.helpviewer_keywords: ["GetFileSizeEx","GetFileSizeEx function [Files]","_win32_getfilesizeex","base.getfilesizeex","fileapi/GetFileSizeEx","fs.getfilesizeex","winbase/GetFileSizeEx"]
+description: Retrieves the size of the specified file.
+helpviewer_keywords: ["GetFileSizeEx","GetFileSizeEx function [Files]","_win32_getfilesizeex","base.getfilesizeex","fileapi/GetFileSizeEx","fs.getfilesizeex","winbase/GetFileSizeEx"]
 old-location: fs\getfilesizeex.htm
 tech.root: FileIO
 ms.assetid: 782457bc-8f37-4eec-8ff3-b148fd0a7345
@@ -74,7 +75,7 @@ A handle to the file. The handle must have been created with the
 
 ### -param lpFileSize [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that 
+A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that 
       receives the file size, in bytes.
 
 
@@ -172,7 +173,7 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
  
 
  

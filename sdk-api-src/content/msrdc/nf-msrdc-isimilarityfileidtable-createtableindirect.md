@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.CreateTableIndirect
 title: ISimilarityFileIdTable::CreateTableIndirect (msrdc.h)
-description: Creates or opens a similarity file ID table using the RDC application's implementation of the IRdcFileWriter interface.helpviewer_keywords: ["CreateTableIndirect","CreateTableIndirect method [Remote Differential Compression]","CreateTableIndirect method [Remote Differential Compression]","ISimilarityFileIdTable interface","ISimilarityFileIdTable interface [Remote Differential Compression]","CreateTableIndirect method","ISimilarityFileIdTable.CreateTableIndirect","ISimilarityFileIdTable::CreateTableIndirect","fs.isimilarityfileidtable_createtableindirect","msrdc/ISimilarityFileIdTable::CreateTableIndirect","rdc.isimilarityfileidtable_createtableindirect"]
+description: Creates or opens a similarity file ID table using the RDC application's implementation of the IRdcFileWriter interface.
+helpviewer_keywords: ["CreateTableIndirect","CreateTableIndirect method [Remote Differential Compression]","CreateTableIndirect method [Remote Differential Compression]","ISimilarityFileIdTable interface","ISimilarityFileIdTable interface [Remote Differential Compression]","CreateTableIndirect method","ISimilarityFileIdTable.CreateTableIndirect","ISimilarityFileIdTable::CreateTableIndirect","fs.isimilarityfileidtable_createtableindirect","msrdc/ISimilarityFileIdTable::CreateTableIndirect","rdc.isimilarityfileidtable_createtableindirect"]
 old-location: rdc\isimilarityfileidtable_createtableindirect.htm
 tech.root: rdc
 ms.assetid: 6e472ab0-efa4-4edd-8d78-68d5a66cf41c
@@ -75,7 +76,7 @@ The size, in bytes, of the file IDs that will be stored in the similarity file I
 
 ### -param isNew [out]
 
-A pointer to a variable that receives an  <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdccreatedtables">RdcCreatedTables</a> enumeration value that describes the state of the similarity file ID table. If a new table is created, this variable receives <b>RDCTABLE_New</b>. If an existing table is used, this variable receives <b>RDCTABLE_Existing</b>. If this method fails, this variable receives <b>RDCTABLE_InvalidOrUnknown</b>.
+A pointer to a variable that receives an  <a href="/windows/win32/api/msrdc/ne-msrdc-rdccreatedtables">RdcCreatedTables</a> enumeration value that describes the state of the similarity file ID table. If a new table is created, this variable receives <b>RDCTABLE_New</b>. If an existing table is used, this variable receives <b>RDCTABLE_Existing</b>. If this method fails, this variable receives <b>RDCTABLE_InvalidOrUnknown</b>.
 
 
 ## -returns

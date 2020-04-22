@@ -1,7 +1,8 @@
 ---
 UID: NE:dxvahd._DXVAHD_BLT_STATE
 title: DXVAHD_BLT_STATE (dxvahd.h)
-description: Specifies state parameters for blit operations when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).helpviewer_keywords: ["DXVAHD_BLT_STATE","DXVAHD_BLT_STATE enumeration [Media Foundation]","DXVAHD_BLT_STATE_ALPHA_FILL","DXVAHD_BLT_STATE_BACKGROUND_COLOR","DXVAHD_BLT_STATE_CONSTRICTION","DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE","DXVAHD_BLT_STATE_PRIVATE","DXVAHD_BLT_STATE_TARGET_RECT","dxvahd/DXVAHD_BLT_STATE","dxvahd/DXVAHD_BLT_STATE_ALPHA_FILL","dxvahd/DXVAHD_BLT_STATE_BACKGROUND_COLOR","dxvahd/DXVAHD_BLT_STATE_CONSTRICTION","dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE","dxvahd/DXVAHD_BLT_STATE_PRIVATE","dxvahd/DXVAHD_BLT_STATE_TARGET_RECT","mf.dxvahd_blt_state"]
+description: Specifies state parameters for blit operations when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+helpviewer_keywords: ["DXVAHD_BLT_STATE","DXVAHD_BLT_STATE enumeration [Media Foundation]","DXVAHD_BLT_STATE_ALPHA_FILL","DXVAHD_BLT_STATE_BACKGROUND_COLOR","DXVAHD_BLT_STATE_CONSTRICTION","DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE","DXVAHD_BLT_STATE_PRIVATE","DXVAHD_BLT_STATE_TARGET_RECT","dxvahd/DXVAHD_BLT_STATE","dxvahd/DXVAHD_BLT_STATE_ALPHA_FILL","dxvahd/DXVAHD_BLT_STATE_BACKGROUND_COLOR","dxvahd/DXVAHD_BLT_STATE_CONSTRICTION","dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE","dxvahd/DXVAHD_BLT_STATE_PRIVATE","dxvahd/DXVAHD_BLT_STATE_TARGET_RECT","mf.dxvahd_blt_state"]
 old-location: mf\dxvahd_blt_state.htm
 tech.root: medfound
 ms.assetid: cd5f56ff-61d7-49df-8114-f6a14de8e06b
@@ -66,12 +67,12 @@ Specifies the target rectangle, which is the area within the destination surface
 
 ### -field DXVAHD_BLT_STATE_BACKGROUND_COLOR
 
-Specifies the background color. The state data is a <a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_background_color_data">DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA</a> structure.
+Specifies the background color. The state data is a <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_background_color_data">DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA</a> structure.
 
 
 ### -field DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE
 
-Specifies the output color space.  The state data is a <a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_output_color_space_data">DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a> structure.
+Specifies the output color space.  The state data is a <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_output_color_space_data">DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a> structure.
 
 
 ### -field DXVAHD_BLT_STATE_ALPHA_FILL

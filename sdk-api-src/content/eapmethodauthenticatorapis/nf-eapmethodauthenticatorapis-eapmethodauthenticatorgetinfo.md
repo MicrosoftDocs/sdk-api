@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorGetInfo
 title: EapMethodAuthenticatorGetInfo function (eapmethodauthenticatorapis.h)
-description: Obtains a set of function pointers for an implementation of the loaded EAP authenticator method.EapMethodAuthenticatorGetInfo is a function prototype.helpviewer_keywords: ["EapMethodAuthenticatorGetInfo","EapMethodAuthenticatorGetInfo function [EAPHost]","eaphost.eapmethodauthenticatorgetinfo","eapmethodauthenticatorapis/EapMethodAuthenticatorGetInfo"]
+description: Obtains a set of function pointers for an implementation of the loaded EAP authenticator method.EapMethodAuthenticatorGetInfo is a function prototype.
+helpviewer_keywords: ["EapMethodAuthenticatorGetInfo","EapMethodAuthenticatorGetInfo function [EAPHost]","eaphost.eapmethodauthenticatorgetinfo","eapmethodauthenticatorapis/EapMethodAuthenticatorGetInfo"]
 old-location: eaphost\eapmethodauthenticatorgetinfo.htm
 tech.root: eaphost
 ms.assetid: 83a643bb-5d2e-4227-b82e-e63035860f46
@@ -66,7 +67,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 ### -param pEapInfo [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapmethodauthenticatorapis/ns-eapmethodauthenticatorapis-eap_authenticator_method_routines">EAP_AUTHENTICATOR_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to specific RPC calls that can be made by EAP peer method functions.
+A pointer to an <a href="/windows/win32/api/eapmethodauthenticatorapis/ns-eapmethodauthenticatorapis-eap_authenticator_method_routines">EAP_AUTHENTICATOR_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to specific RPC calls that can be made by EAP peer method functions.
 
 
 ### -param ppEapError [out]
@@ -124,7 +125,7 @@ This call is performed by a authenticator-based EAPHost using a function pointer
 
 
 
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
  
 
  

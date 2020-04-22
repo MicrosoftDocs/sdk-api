@@ -1,7 +1,8 @@
 ---
 UID: NS:windns.__unnamed_struct_42
 title: DNS_WINSR_DATAA (windns.h)
-description: The DNS_WINSR_DATA structure represents a DNS Windows Internet Name Service reverse-lookup (WINSR) record.helpviewer_keywords: ["*PDNS_WINSR_DATA","*PDNS_WINSR_DATAA","DNS_WINSR_DATA","DNS_WINSR_DATA structure [DNS]","DNS_WINSR_DATAA","DNS_WINS_FLAG_LOCAL","DNS_WINS_FLAG_SCOPE","PDNS_WINSR_DATA","PDNS_WINSR_DATA structure pointer [DNS]","_dns_dns_winsr_data","dns.dns_winsr_data","windns/DNS_WINSR_DATA","windns/PDNS_WINSR_DATA"]
+description: The DNS_WINSR_DATA structure represents a DNS Windows Internet Name Service reverse-lookup (WINSR) record.
+helpviewer_keywords: ["*PDNS_WINSR_DATA","*PDNS_WINSR_DATAA","DNS_WINSR_DATA","DNS_WINSR_DATA structure [DNS]","DNS_WINSR_DATAA","DNS_WINS_FLAG_LOCAL","DNS_WINS_FLAG_SCOPE","PDNS_WINSR_DATA","PDNS_WINSR_DATA structure pointer [DNS]","_dns_dns_winsr_data","dns.dns_winsr_data","windns/DNS_WINSR_DATA","windns/PDNS_WINSR_DATA"]
 old-location: dns\dns_winsr_data.htm
 tech.root: DNS
 ms.assetid: a7e79e30-905f-42a5-a4de-02d71adfe95e
@@ -112,7 +113,7 @@ A pointer to a string that represents the domain name to append to the name retu
 
 The 
 <b>DNS_WINSR_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -122,7 +123,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

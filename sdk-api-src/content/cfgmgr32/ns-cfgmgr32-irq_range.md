@@ -1,7 +1,8 @@
 ---
 UID: NS:cfgmgr32.IRQ_Range_s
 title: IRQ_RANGE (cfgmgr32.h)
-description: The IRQ_RANGE structure specifies a resource requirements list that describes IRQ line usage for a device instance. For more information about resource requirements lists, see Hardware Resources.helpviewer_keywords: ["*PIRQ_RANGE","IRQ_RANGE","IRQ_RANGE structure [Device and Driver Installation]","PIRQ_RANGE","PIRQ_RANGE structure pointer [Device and Driver Installation]","cfgmgr32/IRQ_RANGE","cfgmgr32/PIRQ_RANGE","cfgmgrst_6ee86ca7-d07d-4f1b-9c94-96766a5fd4cb.xml","devinst.irq_range"]
+description: The IRQ_RANGE structure specifies a resource requirements list that describes IRQ line usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
+helpviewer_keywords: ["*PIRQ_RANGE","IRQ_RANGE","IRQ_RANGE structure [Device and Driver Installation]","PIRQ_RANGE","PIRQ_RANGE structure pointer [Device and Driver Installation]","cfgmgr32/IRQ_RANGE","cfgmgr32/PIRQ_RANGE","cfgmgrst_6ee86ca7-d07d-4f1b-9c94-96766a5fd4cb.xml","devinst.irq_range"]
 old-location: devinst\irq_range.htm
 tech.root: devinst
 ms.assetid: 973834cc-0798-414f-a937-5ab14c214559
@@ -74,7 +75,7 @@ The highest-numbered of a range of contiguous IRQ lines that can be allocated to
 
 ### -field IRQR_Flags
 
-One bit flag from [IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)a> structure.
+One bit flag from [IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32) structure.
 
 
 ## -see-also
@@ -82,7 +83,7 @@ One bit flag from [IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmg
 
 
 
-[IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)a>
+[IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)
  
 
  

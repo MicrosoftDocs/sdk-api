@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.CreatePrivateObjectSecurityEx
 title: CreatePrivateObjectSecurityEx function (securitybaseapi.h)
-description: Allocates and initializes a self-relative security descriptor for a new private object created by the resource manager calling this function.helpviewer_keywords: ["CreatePrivateObjectSecurityEx","CreatePrivateObjectSecurityEx function [Security]","SEF_AVOID_OWNER_CHECK","SEF_AVOID_OWNER_RESTRICTION","SEF_AVOID_PRIVILEGE_CHECK","SEF_DACL_AUTO_INHERIT","SEF_DEFAULT_DESCRIPTOR_FOR_OBJECT","SEF_DEFAULT_GROUP_FROM_PARENT","SEF_DEFAULT_OWNER_FROM_PARENT","SEF_MACL_NO_EXECUTE_UP","SEF_MACL_NO_READ_UP","SEF_MACL_NO_WRITE_UP","SEF_SACL_AUTO_INHERIT","_win32_createprivateobjectsecurityex","security.createprivateobjectsecurityex","securitybaseapi/CreatePrivateObjectSecurityEx"]
+description: Allocates and initializes a self-relative security descriptor for a new private object created by the resource manager calling this function.
+helpviewer_keywords: ["CreatePrivateObjectSecurityEx","CreatePrivateObjectSecurityEx function [Security]","SEF_AVOID_OWNER_CHECK","SEF_AVOID_OWNER_RESTRICTION","SEF_AVOID_PRIVILEGE_CHECK","SEF_DACL_AUTO_INHERIT","SEF_DEFAULT_DESCRIPTOR_FOR_OBJECT","SEF_DEFAULT_GROUP_FROM_PARENT","SEF_DEFAULT_OWNER_FROM_PARENT","SEF_MACL_NO_EXECUTE_UP","SEF_MACL_NO_READ_UP","SEF_MACL_NO_WRITE_UP","SEF_SACL_AUTO_INHERIT","_win32_createprivateobjectsecurityex","security.createprivateobjectsecurityex","securitybaseapi/CreatePrivateObjectSecurityEx"]
 old-location: security\createprivateobjectsecurityex.htm
 tech.root: SecAuthZ
 ms.assetid: edc62121-2625-4ee1-9450-38cb47574bb9
@@ -380,7 +381,7 @@ If the <i>CreatorDescriptor</i> security descriptor contains a SACL, <i>Token</i
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/securitybaseapi/#functions">Client/Server Access Control Functions</a>
+<a href="/windows/win32/api/securitybaseapi/#functions">Client/Server Access Control Functions</a>
 
 
 

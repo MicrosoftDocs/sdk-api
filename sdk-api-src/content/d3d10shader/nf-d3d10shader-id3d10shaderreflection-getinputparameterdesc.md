@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflection.GetInputParameterDesc
 title: ID3D10ShaderReflection::GetInputParameterDesc (d3d10shader.h)
-description: Get an input-parameter description for a shader.helpviewer_keywords: ["944856ef-d7fa-07b3-e7de-3d7d604ff3e0","GetInputParameterDesc","GetInputParameterDesc method [Direct3D 10]","GetInputParameterDesc method [Direct3D 10]","ID3D10ShaderReflection interface","ID3D10ShaderReflection interface [Direct3D 10]","GetInputParameterDesc method","ID3D10ShaderReflection.GetInputParameterDesc","ID3D10ShaderReflection::GetInputParameterDesc","d3d10shader/ID3D10ShaderReflection::GetInputParameterDesc","direct3d10.id3d10shaderreflection_getinputparameterdesc"]
+description: Get an input-parameter description for a shader.
+helpviewer_keywords: ["944856ef-d7fa-07b3-e7de-3d7d604ff3e0","GetInputParameterDesc","GetInputParameterDesc method [Direct3D 10]","GetInputParameterDesc method [Direct3D 10]","ID3D10ShaderReflection interface","ID3D10ShaderReflection interface [Direct3D 10]","GetInputParameterDesc method","ID3D10ShaderReflection.GetInputParameterDesc","ID3D10ShaderReflection::GetInputParameterDesc","d3d10shader/ID3D10ShaderReflection::GetInputParameterDesc","direct3d10.id3d10shaderreflection_getinputparameterdesc"]
 old-location: direct3d10\id3d10shaderreflection_getinputparameterdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection_getinputparameterdesc.htm
@@ -66,9 +67,9 @@ A zero-based parameter index.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d10shader/ns-d3d10shader-d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d10shader/ns-d3d10shader-d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A pointer to a shader-input-signature description. See <a href="https://docs.microsoft.com/windows/win32/api/d3d10shader/ns-d3d10shader-d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>.
+A pointer to a shader-input-signature description. See <a href="/windows/win32/api/d3d10shader/ns-d3d10shader-d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>.
 
 
 ## -returns

@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpstypes.FWPS_FILTER1_
 title: FWPS_FILTER1 (fwpstypes.h)
-description: The FWPS_FILTER1 structure defines a run-time filter in the filter engine.Note  FWPS_FILTER1 is the specific version of FWPS_FILTER used in Windows 7 and later.helpviewer_keywords: ["FWPS_FILTER1","FWPS_FILTER1 structure [Network Drivers Starting with Windows Vista]","FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT","FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED","fwpstypes/FWPS_FILTER1","netvista.fwps_filter1","wfp_ref_3_struct_3_fwps_F-O_4091c3ca-8d86-4a94-a138-01a6ce09cca8.xml"]
+description: The FWPS_FILTER1 structure defines a run-time filter in the filter engine.Note  FWPS_FILTER1 is the specific version of FWPS_FILTER used in Windows 7 and later.
+helpviewer_keywords: ["FWPS_FILTER1","FWPS_FILTER1 structure [Network Drivers Starting with Windows Vista]","FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT","FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED","fwpstypes/FWPS_FILTER1","netvista.fwps_filter1","wfp_ref_3_struct_3_fwps_F-O_4091c3ca-8d86-4a94-a138-01a6ce09cca8.xml"]
 old-location: netvista\fwps_filter1.htm
 tech.root: NetVista
 ms.assetid: 3a5f6f0a-0162-4e64-b3c1-60021ef2dd95
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>FWPS_FILTER1</b> structure defines a run-time filter in the filter engine.
-[FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)a> is available.</div><div> </div>
+[FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -130,7 +131,7 @@ This flag indicates to a callout's
 ### -field numFilterConditions
 
 The number of 
-     [FWPS_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0)a> structures in
+     [FWPS_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0) structures in
      the array pointed to by the 
      <b>filterCondition</b> member. This member can be zero.
 
@@ -138,7 +139,7 @@ The number of
 ### -field filterCondition
 
 A pointer to an array of 
-     [FWPS_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0)a> structures.
+     [FWPS_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0) structures.
      These structures define the run-time filtering conditions for the filter. If the 
      <b>numFilterConditions</b> member is zero, then this pointer will be <b>NULL</b>.
 
@@ -146,7 +147,7 @@ A pointer to an array of
 ### -field action
 
 An 
-     [FWPS_ACTION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0)a> structure that specifies the
+     [FWPS_ACTION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0) structure that specifies the
      action that the filter should take if all of the filter's filtering conditions are true.
 
 
@@ -164,7 +165,7 @@ A context value that is associated with the filter. A callout can set this membe
 
 ### -field providerContext
 
-A pointer to the provider context, which is formatted as a [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)a> structure. If the filter uses a callout, and the callout has the FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT flag set, this member will contain the provider context from the corresponding [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)a> structure. Otherwise, this parameter is
+A pointer to the provider context, which is formatted as a [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1) structure. If the filter uses a callout, and the callout has the FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT flag set, this member will contain the provider context from the corresponding [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0) structure. Otherwise, this parameter is
      <b>NULL</b>. 
      
 
@@ -196,27 +197,27 @@ The
 
 
 
-[FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)a>
+[FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)
 
 
 
-[FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)a>
+[FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)
 
 
 
-[FWPS_ACTION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0)a>
+[FWPS_ACTION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0)
 
 
 
-[FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)a>
+[FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)
 
 
 
-[FWPS_FILTER2](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2)a>
+[FWPS_FILTER2](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2)
 
 
 
-[FWPS_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0)a>
+[FWPS_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0)
 
 
 

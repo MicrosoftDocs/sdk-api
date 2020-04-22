@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.SpGetExtendedInformationFn
 title: SpGetExtendedInformationFn (ntsecpkg.h)
-description: Provides extended information about a security package.helpviewer_keywords: ["SpGetExtendedInformation","SpGetExtendedInformation callback function [Security]","SpGetExtendedInformationFn","SpGetExtendedInformationFn callback","_ssp_spgetextendedinformation","ntsecpkg/SpGetExtendedInformation","security.spgetextendedinformation"]
+description: Provides extended information about a security package.
+helpviewer_keywords: ["SpGetExtendedInformation","SpGetExtendedInformation callback function [Security]","SpGetExtendedInformationFn","SpGetExtendedInformationFn callback","_ssp_spgetextendedinformation","ntsecpkg/SpGetExtendedInformation","security.spgetextendedinformation"]
 old-location: security\spgetextendedinformation.htm
 tech.root: SecAuthN
 ms.assetid: e3cb602a-2c98-4e9c-bfbc-f12f353ce3e3
@@ -60,7 +61,7 @@ The <b>SpGetExtendedInformation</b> function provides extended information about
 ### -param Class [in]
 
 A value from the 
-<a href="https://docs.microsoft.com/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration indicating the type of extended information.
+<a href="/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration indicating the type of extended information.
 
 
 ### -param *ppInformation [out]
@@ -105,7 +106,7 @@ A pointer to the <b>SpGetExtendedInformation</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a>
+<a href="/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkRectangle
 title: IInkRectangle (msinkaut.h)
-description: .helpviewer_keywords: ["IInkRectangle","IInkRectangle interface [Tablet PC]","IInkRectangle interface [Tablet PC]","described","msinkaut/IInkRectangle","tablet.iinkrectangle"]
+description: .
+helpviewer_keywords: ["IInkRectangle","IInkRectangle interface [Tablet PC]","IInkRectangle interface [Tablet PC]","described","msinkaut/IInkRectangle","tablet.iinkrectangle"]
 old-location: tablet\iinkrectangle.htm
 tech.root: tablet
 ms.assetid: 9E438012-0991-46AA-8D0F-2C561F523EC2
@@ -177,4 +178,4 @@ Gets or sets the top position of the <a href="https://docs.microsoft.com/windows
 
 ## -see-also
 
-[InkRectangle class](https://docs.microsoft.com/windows/win32/tablet/inkrectangle-class)
+[InkRectangle class](/windows/win32/tablet/inkrectangle-class)

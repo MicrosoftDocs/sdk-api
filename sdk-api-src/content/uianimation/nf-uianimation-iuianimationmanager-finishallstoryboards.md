@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.FinishAllStoryboards
 title: IUIAnimationManager::FinishAllStoryboards (uianimation.h)
-description: Finishes all active storyboards within the specified time interval.helpviewer_keywords: ["FinishAllStoryboards","FinishAllStoryboards method [Windows Animation]","FinishAllStoryboards method [Windows Animation]","IUIAnimationManager interface","IUIAnimationManager interface [Windows Animation]","FinishAllStoryboards method","IUIAnimationManager.FinishAllStoryboards","IUIAnimationManager::FinishAllStoryboards","uianimation.iuianimationmanager_finishallstoryboards","uianimation/IUIAnimationManager::FinishAllStoryboards"]
+description: Finishes all active storyboards within the specified time interval.
+helpviewer_keywords: ["FinishAllStoryboards","FinishAllStoryboards method [Windows Animation]","FinishAllStoryboards method [Windows Animation]","IUIAnimationManager interface","IUIAnimationManager interface [Windows Animation]","FinishAllStoryboards method","IUIAnimationManager.FinishAllStoryboards","IUIAnimationManager::FinishAllStoryboards","uianimation.iuianimationmanager_finishallstoryboards","uianimation/IUIAnimationManager::FinishAllStoryboards"]
 old-location: uianimation\iuianimationmanager_finishallstoryboards.htm
 tech.root: UIAnimation
 ms.assetid: db5ba70c-3904-4053-881a-b1412beb35f3
@@ -100,7 +101,7 @@ Calling <b>FinishAllStoryboards</b> ensures that all active storyboards finish w
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

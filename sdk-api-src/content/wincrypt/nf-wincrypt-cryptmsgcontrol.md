@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptMsgControl
 title: CryptMsgControl function (wincrypt.h)
-description: Performs a control operation after a message has been decoded by a final call to the CryptMsgUpdate function.helpviewer_keywords: ["CMSG_CRYPT_RELEASE_CONTEXT_FLAG","CMSG_CTRL_ADD_ATTR_CERT","CMSG_CTRL_ADD_CERT","CMSG_CTRL_ADD_CMS_SIGNER_INFO","CMSG_CTRL_ADD_CRL","CMSG_CTRL_ADD_SIGNER","CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR","CMSG_CTRL_DECRYPT","CMSG_CTRL_DECRYPT","CMSG_CTRL_KEY_TRANS_DECRYPT","CMSG_CTRL_KEY_AGREE_DECRYPT","or CMSG_CTRL_MAIL_LIST_DECRYPT","and the streamed enveloped message is being decoded","CMSG_CTRL_DEL_ATTR_CERT","CMSG_CTRL_DEL_CERT","CMSG_CTRL_DEL_CRL","CMSG_CTRL_DEL_SIGNER","CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR","CMSG_CTRL_ENABLE_STRONG_SIGNATURE","CMSG_CTRL_KEY_AGREE_DECRYPT","CMSG_CTRL_KEY_TRANS_DECRYPT","CMSG_CTRL_MAIL_LIST_DECRYPT","CMSG_CTRL_VERIFY_HASH","CMSG_CTRL_VERIFY_SIGNATURE","CMSG_CTRL_VERIFY_SIGNATURE_EX","CryptMsgControl","CryptMsgControl function [Security]","_crypto2_cryptmsgcontrol","security.cryptmsgcontrol","wincrypt/CryptMsgControl"]
+description: Performs a control operation after a message has been decoded by a final call to the CryptMsgUpdate function.
+helpviewer_keywords: ["CMSG_CRYPT_RELEASE_CONTEXT_FLAG","CMSG_CTRL_ADD_ATTR_CERT","CMSG_CTRL_ADD_CERT","CMSG_CTRL_ADD_CMS_SIGNER_INFO","CMSG_CTRL_ADD_CRL","CMSG_CTRL_ADD_SIGNER","CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR","CMSG_CTRL_DECRYPT","CMSG_CTRL_DECRYPT","CMSG_CTRL_KEY_TRANS_DECRYPT","CMSG_CTRL_KEY_AGREE_DECRYPT","or CMSG_CTRL_MAIL_LIST_DECRYPT","and the streamed enveloped message is being decoded","CMSG_CTRL_DEL_ATTR_CERT","CMSG_CTRL_DEL_CERT","CMSG_CTRL_DEL_CRL","CMSG_CTRL_DEL_SIGNER","CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR","CMSG_CTRL_ENABLE_STRONG_SIGNATURE","CMSG_CTRL_KEY_AGREE_DECRYPT","CMSG_CTRL_KEY_TRANS_DECRYPT","CMSG_CTRL_MAIL_LIST_DECRYPT","CMSG_CTRL_VERIFY_HASH","CMSG_CTRL_VERIFY_SIGNATURE","CMSG_CTRL_VERIFY_SIGNATURE_EX","CryptMsgControl","CryptMsgControl function [Security]","_crypto2_cryptmsgcontrol","security.cryptmsgcontrol","wincrypt/CryptMsgControl"]
 old-location: security\cryptmsgcontrol.htm
 tech.root: SecCrypto
 ms.assetid: a990d44d-2993-429f-b817-2a834105ecef
@@ -170,7 +171,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-c
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_ctrl_add_signer_unauth_attr_para">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains the index of the signer and a BLOB  that contains the unauthenticated attribute information to be added to the message.
+A <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_ctrl_add_signer_unauth_attr_para">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains the index of the signer and a BLOB  that contains the unauthenticated attribute information to be added to the message.
 
 </td>
 </tr>
@@ -237,7 +238,7 @@ The index of the signer to be deleted.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_ctrl_del_signer_unauth_attr_para">CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains an index  that specifies the signer and the index  that specifies the signer's unauthenticated attribute to be deleted.
+A <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_ctrl_del_signer_unauth_attr_para">CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains an index  that specifies the signer and the index  that specifies the signer's unauthenticated attribute to be deleted.
 
 </td>
 </tr>
@@ -324,7 +325,7 @@ A
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_ctrl_verify_signature_ex_para">CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</a>   structure that specifies the signer index and public key to verify the message signature. The signer public key can be a 
+A <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_ctrl_verify_signature_ex_para">CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</a>   structure that specifies the signer index and public key to verify the message signature. The signer public key can be a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a certificate context, or a certificate chain context.
 
 </td>

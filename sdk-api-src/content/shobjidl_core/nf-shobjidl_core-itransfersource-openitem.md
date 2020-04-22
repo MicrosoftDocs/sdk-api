@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.OpenItem
 title: ITransferSource::OpenItem (shobjidl_core.h)
-description: Opens the item for copying. Returns an object that can be enumerated for resources (IShellItemResources).helpviewer_keywords: ["ITransferSource interface [Windows Shell]","OpenItem method","ITransferSource.OpenItem","ITransferSource::OpenItem","OpenItem","OpenItem method [Windows Shell]","OpenItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_OpenItem","shell.ITransferSource_OpenItem","shobjidl_core/ITransferSource::OpenItem"]
+description: Opens the item for copying. Returns an object that can be enumerated for resources (IShellItemResources).
+helpviewer_keywords: ["ITransferSource interface [Windows Shell]","OpenItem method","ITransferSource.OpenItem","ITransferSource::OpenItem","OpenItem","OpenItem method [Windows Shell]","OpenItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_OpenItem","shell.ITransferSource_OpenItem","shobjidl_core/ITransferSource::OpenItem"]
 old-location: shell\ITransferSource_OpenItem.htm
 tech.root: shell
 ms.assetid: 8f051923-2798-43e9-8e8d-95eec5f618aa
@@ -66,9 +67,9 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjid
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
 
-The flags that control the file operation. One or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
+The flags that control the file operation. One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ### -param riid [out]

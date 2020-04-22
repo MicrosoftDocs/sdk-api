@@ -1,7 +1,8 @@
 ---
 UID: NF:winfax.FaxStartPrintJobW
 title: FaxStartPrintJobW function (winfax.h)
-description: A fax client application calls the FaxStartPrintJob function to start printing an outbound fax transmission on the specified fax printer.helpviewer_keywords: ["FaxStartPrintJob","FaxStartPrintJob function [Fax Service]","FaxStartPrintJobA","FaxStartPrintJobW","_mfax_faxstartprintjob","fax._mfax_faxstartprintjob","winfax/FaxStartPrintJob","winfax/FaxStartPrintJobA","winfax/FaxStartPrintJobW"]
+description: A fax client application calls the FaxStartPrintJob function to start printing an outbound fax transmission on the specified fax printer.
+helpviewer_keywords: ["FaxStartPrintJob","FaxStartPrintJob function [Fax Service]","FaxStartPrintJobA","FaxStartPrintJobW","_mfax_faxstartprintjob","fax._mfax_faxstartprintjob","winfax/FaxStartPrintJob","winfax/FaxStartPrintJobA","winfax/FaxStartPrintJobW"]
 old-location: fax\_mfax_faxstartprintjob.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3dwi.htm
@@ -183,7 +184,7 @@ The function returns a handle to a device context. The handle is used by the <a 
 
 <div class="alert"><b>Note</b>  The application must also call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-abortdoc">AbortDoc</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enddoc">EndDoc</a> function to complete the print job, and call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a> function to deallocate the handle to the printer device context. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-printing-a-fax-to-a-device-context">Printing a Fax to a Device Context</a>.</div>
 <div> </div>
-A fax client application should not call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a> GDI function to create the fax printer device context; nor should it call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startpage">StartPage</a> printing function to start a fax print job. Instead, the application should call the <b>FaxStartPrintJob</b> function. This is because <b>FaxStartPrintJob</b> modifies information in the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure specific to the fax printer of interest.
+A fax client application should not call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a> GDI function to create the fax printer device context; nor should it call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startpage">StartPage</a> printing function to start a fax print job. Instead, the application should call the <b>FaxStartPrintJob</b> function. This is because <b>FaxStartPrintJob</b> modifies information in the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure specific to the fax printer of interest.
 
 The change prevents the display of the Fax Send Wizard that collects information from the user. The fax server uses the data in the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_print_infoa">FAX_PRINT_INFO</a> structure pointed to by the <i>PrintInfo</i> parameter to print the fax transmission. This structure contains data the Fax Send Wizard would have collected, had the wizard been displayed.
 
@@ -201,7 +202,7 @@ A fax client application must call the <b>FaxStartPrintJob</b> function before c
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel_1.IXpsOMRemoteDictionaryResource1
 title: IXpsOMRemoteDictionaryResource1 (xpsobjectmodel_1.h)
-description: Extends IXpsOMRemoteDictionaryResource to provide methods that support OpenXPS documents.helpviewer_keywords: ["IXpsOMRemoteDictionaryResource1","IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging]","described","xps.ixpsomremotedictionaryresource1","xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1"]
+description: Extends IXpsOMRemoteDictionaryResource to provide methods that support OpenXPS documents.
+helpviewer_keywords: ["IXpsOMRemoteDictionaryResource1","IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging]","described","xps.ixpsomremotedictionaryresource1","xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1"]
 old-location: xps\ixpsomremotedictionaryresource1.htm
 tech.root: printdocs
 ms.assetid: 4B8DEDC7-4D7A-408F-9B2B-67B6FC87372F
@@ -73,7 +74,7 @@ The <b>IXpsOMRemoteDictionaryResource1</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsomremotedictionaryresource1-getdocumenttype">GetDocumentType</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> of the resource.
+Gets the <a href="/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> of the resource.
 
 </td>
 </tr>

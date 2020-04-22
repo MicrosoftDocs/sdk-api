@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptIsComplex
 title: ScriptIsComplex function (usp10.h)
-description: Determines whether a Unicode string requires complex script processing.helpviewer_keywords: ["SIC_ASCIIDIGIT","SIC_COMPLEX","SIC_NEUTRAL","ScriptIsComplex","ScriptIsComplex function [Internationalization for Windows Applications]","_win32_ScriptIsComplex","intl.scriptiscomplex","usp10/ScriptIsComplex"]
+description: Determines whether a Unicode string requires complex script processing.
+helpviewer_keywords: ["SIC_ASCIIDIGIT","SIC_COMPLEX","SIC_NEUTRAL","ScriptIsComplex","ScriptIsComplex function [Internationalization for Windows Applications]","_win32_ScriptIsComplex","intl.scriptiscomplex","usp10/ScriptIsComplex"]
 old-location: intl\scriptiscomplex.htm
 tech.root: Intl
 ms.assetid: 4f8c5494-1887-45f8-92f2-1a767a7d00da
@@ -85,7 +86,7 @@ Flags specifying testing details. This parameter can have one of the following v
 </dl>
 </td>
 <td width="60%">
-Treat digits U+0030 to U+0039 as complex. The application sets this flag if the string is displayed with digit substitution enabled. If the application is following the user's National Language Support (NLS) settings using the <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptrecorddigitsubstitution">ScriptRecordDigitSubstitution</a> function, it can pass a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a> structure with the <b>DigitSubstitute</b> member set to SCRIPT_DIGITSUBSTITUTE_NONE.
+Treat digits U+0030 to U+0039 as complex. The application sets this flag if the string is displayed with digit substitution enabled. If the application is following the user's National Language Support (NLS) settings using the <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptrecorddigitsubstitution">ScriptRecordDigitSubstitution</a> function, it can pass a <a href="/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a> structure with the <b>DigitSubstitute</b> member set to SCRIPT_DIGITSUBSTITUTE_NONE.
 
 </td>
 </tr>
@@ -142,7 +143,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-wit
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a>
 
 
 

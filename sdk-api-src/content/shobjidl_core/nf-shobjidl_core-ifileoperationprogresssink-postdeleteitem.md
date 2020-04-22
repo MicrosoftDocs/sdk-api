@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostDeleteItem
 title: IFileOperationProgressSink::PostDeleteItem (shobjidl_core.h)
-description: Performs caller-implemented actions after the delete process for each item is complete.helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PostDeleteItem method","IFileOperationProgressSink.PostDeleteItem","IFileOperationProgressSink::PostDeleteItem","PostDeleteItem","PostDeleteItem method [Windows Shell]","PostDeleteItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PostDeleteItem","shell.IFileOperationProgressSink_PostDeleteItem","shobjidl_core/IFileOperationProgressSink::PostDeleteItem"]
+description: Performs caller-implemented actions after the delete process for each item is complete.
+helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PostDeleteItem method","IFileOperationProgressSink.PostDeleteItem","IFileOperationProgressSink::PostDeleteItem","PostDeleteItem","PostDeleteItem method [Windows Shell]","PostDeleteItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PostDeleteItem","shell.IFileOperationProgressSink_PostDeleteItem","shobjidl_core/IFileOperationProgressSink::PostDeleteItem"]
 old-location: shell\IFileOperationProgressSink_PostDeleteItem.htm
 tech.root: shell
 ms.assetid: 6bd69585-3801-4029-9f60-ab1e6fe5108c
@@ -61,7 +62,7 @@ Performs caller-implemented actions after the delete process for each item is co
 
 Type: <b>DWORD</b>
 
-bitwise value that contains flags that were used during the delete operation. Some values can be set or changed during the delete operation. See <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
+bitwise value that contains flags that were used during the delete operation. Some values can be set or changed during the delete operation. See <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
 
 
 ### -param psiItem [in]

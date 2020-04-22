@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetScaleZ(float)
 title: IDCompositionScaleTransform3D::SetScaleZ (dcomp.h)
-description: Changes the value of the ScaleZ property of a 3D scale transform.helpviewer_keywords: ["IDCompositionScaleTransform3D interface [DirectComposition]","SetScaleZ method","IDCompositionScaleTransform3D.SetScaleZ","IDCompositionScaleTransform3D::SetScaleZ","IDCompositionScaleTransform3D::SetScaleZ(float)","SetScaleZ","SetScaleZ method [DirectComposition]","SetScaleZ method [DirectComposition]","IDCompositionScaleTransform3D interface","dcomp/IDCompositionScaleTransform3D::SetScaleZ","directcomp.idcompositionscaletransform3d_setscalez_float"]
+description: Changes the value of the ScaleZ property of a 3D scale transform.
+helpviewer_keywords: ["IDCompositionScaleTransform3D interface [DirectComposition]","SetScaleZ method","IDCompositionScaleTransform3D.SetScaleZ","IDCompositionScaleTransform3D::SetScaleZ","IDCompositionScaleTransform3D::SetScaleZ(float)","SetScaleZ","SetScaleZ method [DirectComposition]","SetScaleZ method [DirectComposition]","IDCompositionScaleTransform3D interface","dcomp/IDCompositionScaleTransform3D::SetScaleZ","directcomp.idcompositionscaletransform3d_setscalez_float"]
 old-location: directcomp\idcompositionscaletransform3d_setscalez_float.htm
 tech.root: directcomp
 ms.assetid: 9238ACAD-C6A6-4804-BF12-B28A498C03A9
@@ -98,11 +99,11 @@ If the ScaleZ property was previously animated, this method removes the animatio
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalex(float)">IDCompositionScaleTransform3D::SetScaleX</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalex(float)">IDCompositionScaleTransform3D::SetScaleX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscaley(float)">IDCompositionScaleTransform3D::SetScaleY</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscaley(float)">IDCompositionScaleTransform3D::SetScaleY</a>
  
 
  

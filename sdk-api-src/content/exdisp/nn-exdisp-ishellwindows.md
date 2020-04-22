@@ -1,7 +1,8 @@
 ---
 UID: NN:exdisp.IShellWindows
 title: IShellWindows (exdisp.h)
-description: Provides access to the collection of open Shell windows.helpviewer_keywords: ["IShellWindows","IShellWindows interface [Windows Shell]","IShellWindows interface [Windows Shell]","described","_win32_IShellWindows","exdisp/IShellWindows","shell.IShellWindows"]
+description: Provides access to the collection of open Shell windows.
+helpviewer_keywords: ["IShellWindows","IShellWindows interface [Windows Shell]","IShellWindows interface [Windows Shell]","described","_win32_IShellWindows","exdisp/IShellWindows","shell.IShellWindows"]
 old-location: shell\IShellWindows.htm
 tech.root: shell
 ms.assetid: e609c8b6-2b2e-4188-894c-5c85960206ea
@@ -70,7 +71,7 @@ The <b>IShellWindows</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/win32/api/exdisp/nf-exdisp-ishellwindows-_newenum">_NewEnum</a>
+<a href="/windows/win32/api/exdisp/nf-exdisp-ishellwindows-_newenum">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection of Shell windows.

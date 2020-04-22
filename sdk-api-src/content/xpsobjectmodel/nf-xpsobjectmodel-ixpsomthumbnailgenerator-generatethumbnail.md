@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMThumbnailGenerator.GenerateThumbnail
 title: IXpsOMThumbnailGenerator::GenerateThumbnail (xpsobjectmodel.h)
-description: Generates a thumbnail image of a page.helpviewer_keywords: ["GenerateThumbnail","GenerateThumbnail method [XPS Documents and Packaging]","GenerateThumbnail method [XPS Documents and Packaging]","IXpsOMThumbnailGenerator interface","IXpsOMThumbnailGenerator interface [XPS Documents and Packaging]","GenerateThumbnail method","IXpsOMThumbnailGenerator.GenerateThumbnail","IXpsOMThumbnailGenerator::GenerateThumbnail","xps.ixpsomthumbnailgenerator_generatethumbnail","xpsobjectmodel/IXpsOMThumbnailGenerator::GenerateThumbnail"]
+description: Generates a thumbnail image of a page.
+helpviewer_keywords: ["GenerateThumbnail","GenerateThumbnail method [XPS Documents and Packaging]","GenerateThumbnail method [XPS Documents and Packaging]","IXpsOMThumbnailGenerator interface","IXpsOMThumbnailGenerator interface [XPS Documents and Packaging]","GenerateThumbnail method","IXpsOMThumbnailGenerator.GenerateThumbnail","IXpsOMThumbnailGenerator::GenerateThumbnail","xps.ixpsomthumbnailgenerator_generatethumbnail","xpsobjectmodel/IXpsOMThumbnailGenerator::GenerateThumbnail"]
 old-location: xps\ixpsomthumbnailgenerator_generatethumbnail.htm
 tech.root: printdocs
 ms.assetid: 8a2431f0-50e5-43a9-8940-62d9babad297
@@ -64,12 +65,12 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobje
 
 ### -param thumbnailType [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a> value that specifies the type of thumbnail image to create.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a> value that specifies the type of thumbnail image to create.
 
 
 ### -param thumbnailSize [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_thumbnail_size">XPS_THUMBNAIL_SIZE</a> value that specifies the image size of the thumbnail to create.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_thumbnail_size">XPS_THUMBNAIL_SIZE</a> value that specifies the image size of the thumbnail to create.
 
 
 ### -param imageResourcePartName [in]
@@ -125,8 +126,8 @@ The method succeeded.
 One of the following parameters contains a value that is not valid:
 
 <ul>
-<li><i>thumbnailType</i>: The image type must be PNG (<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE_PNG</a>) or JPEG (<b>XPS_IMAGE_TYPE_JPEG</b>)</li>
-<li><i>thumbnailSize</i>: <i>thumbnailSize</i> must be a member of  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_thumbnail_size">XPS_THUMBNAIL_SIZE</a>
+<li><i>thumbnailType</i>: The image type must be PNG (<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE_PNG</a>) or JPEG (<b>XPS_IMAGE_TYPE_JPEG</b>)</li>
+<li><i>thumbnailSize</i>: <i>thumbnailSize</i> must be a member of  <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_thumbnail_size">XPS_THUMBNAIL_SIZE</a>
 </li>
 </ul>
 </td>
@@ -166,11 +167,11 @@ One of the following parameters contains a value that is not valid:
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_thumbnail_size">XPS_THUMBNAIL_SIZE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_thumbnail_size">XPS_THUMBNAIL_SIZE</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetRuntimeId
 title: UiaGetRuntimeId function (uiautomationcoreapi.h)
-description: Retrieves the runtime identifier of a UI Automation node.helpviewer_keywords: ["UiaGetRuntimeId","UiaGetRuntimeId function [Windows Accessibility]","uiauto.uiauto_UiaGetRuntimeIdAutoMeth","uiauto_UiaGetRuntimeIdAutoMeth","uiautomationcoreapi/UiaGetRuntimeId","winauto.uiauto_UiaGetRuntimeIdAutoMeth"]
+description: Retrieves the runtime identifier of a UI Automation node.
+helpviewer_keywords: ["UiaGetRuntimeId","UiaGetRuntimeId function [Windows Accessibility]","uiauto.uiauto_UiaGetRuntimeIdAutoMeth","uiauto_UiaGetRuntimeIdAutoMeth","uiautomationcoreapi/UiaGetRuntimeId","winauto.uiauto_UiaGetRuntimeIdAutoMeth"]
 old-location: winauto\uiauto_UiaGetRuntimeIdAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 3b339cda-3569-4705-b5cf-028c354d627e
@@ -66,9 +67,9 @@ The node for which the identifier is being requested.
 
 ### -param pruntimeId [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
-The address of a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the runtime identifier of the type VT_I4. This parameter is passed uninitialized.
+The address of a variable that receives a pointer to a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the runtime identifier of the type VT_I4. This parameter is passed uninitialized.
 
 
 ## -returns

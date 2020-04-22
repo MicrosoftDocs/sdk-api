@@ -1,7 +1,8 @@
 ---
 UID: NF:exdisp.IShellWindows.get_Count
 title: IShellWindows::get_Count (exdisp.h)
-description: Gets the number of windows in the Shell windows collection.helpviewer_keywords: ["IShellWindows interface [Windows Shell]","get_Count method","IShellWindows.get_Count","IShellWindows::get_Count","_win32_IShellWindows_get_Count","exdisp/IShellWindows::get_Count","get_Count","get_Count method [Windows Shell]","get_Count method [Windows Shell]","IShellWindows interface","shell.IShellWindows_get_Count"]
+description: Gets the number of windows in the Shell windows collection.
+helpviewer_keywords: ["IShellWindows interface [Windows Shell]","get_Count method","IShellWindows.get_Count","IShellWindows::get_Count","_win32_IShellWindows_get_Count","exdisp/IShellWindows::get_Count","get_Count","get_Count method [Windows Shell]","get_Count method [Windows Shell]","IShellWindows interface","shell.IShellWindows_get_Count"]
 old-location: shell\IShellWindows_get_Count.htm
 tech.root: shell
 ms.assetid: 50781569-4c80-4304-96f3-8a135cea3b20
@@ -89,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/exdisp/nf-exdisp-ishellwindows-_newenum">IShellWindows::_NewEnum</a>
+<a href="/windows/win32/api/exdisp/nf-exdisp-ishellwindows-_newenum">IShellWindows::_NewEnum</a>
  
 
  

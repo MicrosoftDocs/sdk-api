@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetBufferPrecision
 title: ID2D1GradientStopCollection1::GetBufferPrecision (d2d1_1.h)
-description: Gets the precision of the gradient buffer.helpviewer_keywords: ["GetBufferPrecision","GetBufferPrecision method [Direct2D]","GetBufferPrecision method [Direct2D]","ID2D1GradientStopCollection1 interface","ID2D1GradientStopCollection1 interface [Direct2D]","GetBufferPrecision method","ID2D1GradientStopCollection1.GetBufferPrecision","ID2D1GradientStopCollection1::GetBufferPrecision","d2d1_1/ID2D1GradientStopCollection1::GetBufferPrecision","direct2d.id2d1gradientstopcollection1_getbufferprecision"]
+description: Gets the precision of the gradient buffer.
+helpviewer_keywords: ["GetBufferPrecision","GetBufferPrecision method [Direct2D]","GetBufferPrecision method [Direct2D]","ID2D1GradientStopCollection1 interface","ID2D1GradientStopCollection1 interface [Direct2D]","GetBufferPrecision method","ID2D1GradientStopCollection1.GetBufferPrecision","ID2D1GradientStopCollection1::GetBufferPrecision","d2d1_1/ID2D1GradientStopCollection1::GetBufferPrecision","direct2d.id2d1gradientstopcollection1_getbufferprecision"]
 old-location: direct2d\id2d1gradientstopcollection1_getbufferprecision.htm
 tech.root: Direct2D
 ms.assetid: 6a59c903-0fa8-4d2c-b426-8d3c3410c6bd
@@ -74,7 +75,7 @@ The buffer precision of the gradient buffer.
 
 
 
-If this object was created using <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method returns D2D1_BUFFER_PRECISION_8BPC_UNORM.
+If this object was created using <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method returns D2D1_BUFFER_PRECISION_8BPC_UNORM.
   
 
 
@@ -97,7 +98,7 @@ If this object was created using <a href="https://docs.microsoft.com/windows/win
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

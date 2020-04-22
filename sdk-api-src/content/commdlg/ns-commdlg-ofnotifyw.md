@@ -1,7 +1,8 @@
 ---
 UID: NS:commdlg._OFNOTIFYW
 title: OFNOTIFYW (commdlg.h)
-description: Contains information about a WM_NOTIFY message sent to an OFNHookProc hook procedure for an Open or Save As dialog box. The lParam parameter of the WM_NOTIFY message is a pointer to an OFNOTIFY structure.helpviewer_keywords: ["*LPOFNOTIFYW","LPOFNOTIFY","LPOFNOTIFY structure pointer [Dialog Boxes]","OFNOTIFY","OFNOTIFY structure [Dialog Boxes]","OFNOTIFYA","OFNOTIFYW","_win32_OFNOTIFY_str","_win32_ofnotify_str_cpp","commdlg/LPOFNOTIFY","commdlg/OFNOTIFY","commdlg/OFNOTIFYA","commdlg/OFNOTIFYW","dlgbox.ofnotify_str","winui._win32_ofnotify_str"]
+description: Contains information about a WM_NOTIFY message sent to an OFNHookProc hook procedure for an Open or Save As dialog box. The lParam parameter of the WM_NOTIFY message is a pointer to an OFNOTIFY structure.
+helpviewer_keywords: ["*LPOFNOTIFYW","LPOFNOTIFY","LPOFNOTIFY structure pointer [Dialog Boxes]","OFNOTIFY","OFNOTIFY structure [Dialog Boxes]","OFNOTIFYA","OFNOTIFYW","_win32_OFNOTIFY_str","_win32_ofnotify_str_cpp","commdlg/LPOFNOTIFY","commdlg/OFNOTIFY","commdlg/OFNOTIFYA","commdlg/OFNOTIFYW","dlgbox.ofnotify_str","winui._win32_ofnotify_str"]
 old-location: dlgbox\ofnotify_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\ofnotify.htm
@@ -70,7 +71,7 @@ The <b>code</b> member of this structure can be one of the following notificatio
 
 Type: <b>LPOPENFILENAME</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure that was specified when the <b>Open</b> or <b>Save As</b> dialog box was created. For some of the notification messages, this structure contains additional information about the event that caused the notification. 
+A pointer to the <a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure that was specified when the <b>Open</b> or <b>Save As</b> dialog box was created. For some of the notification messages, this structure contains additional information about the event that caused the notification. 
 
 
 ### -field pszFile
@@ -134,7 +135,7 @@ Not all of the <b>Open</b> and <b>Save As</b> notification messages use the <b>O
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a>
+<a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a>
 
 
 

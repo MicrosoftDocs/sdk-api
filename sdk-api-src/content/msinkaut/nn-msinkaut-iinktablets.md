@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkTablets
 title: IInkTablets (msinkaut.h)
-description: .helpviewer_keywords: ["IInkTablets","IInkTablets interface [Tablet PC]","IInkTablets interface [Tablet PC]","described","msinkaut/IInkTablets","tablet.iinktablets"]
+description: .
+helpviewer_keywords: ["IInkTablets","IInkTablets interface [Tablet PC]","IInkTablets interface [Tablet PC]","described","msinkaut/IInkTablets","tablet.iinktablets"]
 old-location: tablet\iinktablets.htm
 tech.root: tablet
 ms.assetid: 98052ECB-9385-45C9-A03C-3F312ADD9872
@@ -131,4 +132,4 @@ Creating the InkCollector control behind a transparent control (such as a GroupB
 
 ## -see-also
 
-[InkCollector class](https://docs.microsoft.com/windows/win32/tablet/inkcollector-class)
+[InkCollector class](/windows/win32/tablet/inkcollector-class)

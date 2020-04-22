@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IDirectoryObject.GetObjectAttributes
 title: IDirectoryObject::GetObjectAttributes (iads.h)
-description: Retrieves one or more specified attributes of the directory service object.helpviewer_keywords: ["GetObjectAttributes","GetObjectAttributes method [ADSI]","GetObjectAttributes method [ADSI]","IDirectoryObject interface","IDirectoryObject interface [ADSI]","GetObjectAttributes method","IDirectoryObject.GetObjectAttributes","IDirectoryObject::GetObjectAttributes","_ds_idirectoryobject_getobjectattributes","adsi.idirectoryobject__getobjectattributes","adsi.idirectoryobject_getobjectattributes","iads/IDirectoryObject::GetObjectAttributes"]
+description: Retrieves one or more specified attributes of the directory service object.
+helpviewer_keywords: ["GetObjectAttributes","GetObjectAttributes method [ADSI]","GetObjectAttributes method [ADSI]","IDirectoryObject interface","IDirectoryObject interface [ADSI]","GetObjectAttributes method","IDirectoryObject.GetObjectAttributes","IDirectoryObject::GetObjectAttributes","_ds_idirectoryobject_getobjectattributes","adsi.idirectoryobject__getobjectattributes","adsi.idirectoryobject_getobjectattributes","iads/IDirectoryObject::GetObjectAttributes"]
 old-location: adsi\idirectoryobject_getobjectattributes.htm
 tech.root: adsi
 ms.assetid: 6e3d046f-eac0-4955-925b-71ab15df9ed3
@@ -101,7 +102,7 @@ ADSI allocates the memory for the array of <a href="https://docs.microsoft.com/w
 
 The order of attributes returned in <i>ppAttributeEntries</i> is not necessarily the same as requested in <i>pAttributeNames</i>.
 
-The <b>IDirectoryObject::GetObjectAttributes</b> method attempts to read the schema definition of the requested attributes so it can return the attribute values in the appropriate format in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures contained in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures. However, <b>GetObjectAttributes</b> can succeed even when the schema definition is not available, in which case the <b>dwADsType</b> member of the <b>ADS_ATTR_INFO</b> structure returns ADSTYPE_PROV_SPECIFIC and the value is returned in an <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_prov_specific">ADS_PROV_SPECIFIC</a> structure. When you process the results of a <b>GetObjectAttributes</b> call, verify <b>dwADsType</b> to ensure that the data was returned in the expected format.
+The <b>IDirectoryObject::GetObjectAttributes</b> method attempts to read the schema definition of the requested attributes so it can return the attribute values in the appropriate format in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures contained in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures. However, <b>GetObjectAttributes</b> can succeed even when the schema definition is not available, in which case the <b>dwADsType</b> member of the <b>ADS_ATTR_INFO</b> structure returns ADSTYPE_PROV_SPECIFIC and the value is returned in an <a href="/windows/win32/api/iads/ns-iads-ads_prov_specific">ADS_PROV_SPECIFIC</a> structure. When you process the results of a <b>GetObjectAttributes</b> call, verify <b>dwADsType</b> to ensure that the data was returned in the expected format.
 
 
 #### Examples

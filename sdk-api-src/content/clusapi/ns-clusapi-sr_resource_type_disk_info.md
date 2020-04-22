@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_DISK_INFO
 title: SR_RESOURCE_TYPE_DISK_INFO (clusapi.h)
-description: Describes a set of information that indicates whether a disk is eligible for replication.helpviewer_keywords: ["*PSR_RESOURCE_TYPE_DISK_INFO","PSR_RESOURCE_TYPE_DISK_INFO","PSR_RESOURCE_TYPE_DISK_INFO structure pointer [Failover Cluster]","SR_RESOURCE_TYPE_DISK_INFO","SR_RESOURCE_TYPE_DISK_INFO structure [Failover Cluster]","clusapi/PSR_RESOURCE_TYPE_DISK_INFO","clusapi/SR_RESOURCE_TYPE_DISK_INFO","msclus/PSR_RESOURCE_TYPE_DISK_INFO","msclus/SR_RESOURCE_TYPE_DISK_INFO","mscs.sr_resource_type_disk_info"]
+description: Describes a set of information that indicates whether a disk is eligible for replication.
+helpviewer_keywords: ["*PSR_RESOURCE_TYPE_DISK_INFO","PSR_RESOURCE_TYPE_DISK_INFO","PSR_RESOURCE_TYPE_DISK_INFO structure pointer [Failover Cluster]","SR_RESOURCE_TYPE_DISK_INFO","SR_RESOURCE_TYPE_DISK_INFO structure [Failover Cluster]","clusapi/PSR_RESOURCE_TYPE_DISK_INFO","clusapi/SR_RESOURCE_TYPE_DISK_INFO","msclus/PSR_RESOURCE_TYPE_DISK_INFO","msclus/SR_RESOURCE_TYPE_DISK_INFO","mscs.sr_resource_type_disk_info"]
 old-location: mscs\sr_resource_type_disk_info.htm
 tech.root: MsCS
 ms.assetid: 8A53714D-D125-4B83-B51D-DF0EADE4C4E0
@@ -84,7 +85,7 @@ The cluster resource identifier of the disk.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/clusapi/ns-clusapi-sr_resource_type_eligible_disks_result">SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT</a>
+<a href="/windows/win32/api/clusapi/ns-clusapi-sr_resource_type_eligible_disks_result">SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT</a>
  
 
  

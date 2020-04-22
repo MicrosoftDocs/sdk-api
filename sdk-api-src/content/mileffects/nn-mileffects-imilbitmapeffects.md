@@ -1,7 +1,8 @@
 ---
 UID: NN:mileffects.IMILBitmapEffects
 title: IMILBitmapEffects (mileffects.h)
-description: Exposes methods that define an enumeration of effects.helpviewer_keywords: ["IMILBitmapEffects","IMILBitmapEffects interface [WPF Bitmap Effects]","IMILBitmapEffects interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffects","mileffects/IMILBitmapEffects","wibe._wibe_imilbitmapeffects"]
+description: Exposes methods that define an enumeration of effects.
+helpviewer_keywords: ["IMILBitmapEffects","IMILBitmapEffects interface [WPF Bitmap Effects]","IMILBitmapEffects interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffects","mileffects/IMILBitmapEffects","wibe._wibe_imilbitmapeffects"]
 old-location: wibe\_wibe_imilbitmapeffects.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\imilbitmapeffects.htm
@@ -69,7 +70,7 @@ The <b>IMILBitmapEffects</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/win32/api/mileffects/nf-mileffects-imilbitmapeffects-_newenum">_NewEnum</a>
+<a href="/windows/win32/api/mileffects/nf-mileffects-imilbitmapeffects-_newenum">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves a new enumeration.

@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptGetLogicalWidths
 title: ScriptGetLogicalWidths function (usp10.h)
-description: Converts the glyph advance widths for a specific font into logical widths.helpviewer_keywords: ["ScriptGetLogicalWidths","ScriptGetLogicalWidths function [Internationalization for Windows Applications]","_win32_ScriptGetLogicalWidths","intl.scriptgetlogicalwidths","usp10/ScriptGetLogicalWidths"]
+description: Converts the glyph advance widths for a specific font into logical widths.
+helpviewer_keywords: ["ScriptGetLogicalWidths","ScriptGetLogicalWidths function [Internationalization for Windows Applications]","_win32_ScriptGetLogicalWidths","intl.scriptgetlogicalwidths","usp10/ScriptGetLogicalWidths"]
 old-location: intl\scriptgetlogicalwidths.htm
 tech.root: Intl
 ms.assetid: ecedd0a1-aad8-4527-be46-6f7dd26a9e9b
@@ -62,7 +63,7 @@ Converts the glyph <a href="https://docs.microsoft.com/windows/desktop/Intl/unis
 
 ### -param psa [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure.
 
 
 ### -param cChars [in]
@@ -87,7 +88,7 @@ Pointer to an array of logical clusters.
 
 ### -param psva [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a> structure defining visual attributes.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a> structure defining visual attributes.
 
 
 ### -param piDx [out]
@@ -122,11 +123,11 @@ This function is useful for recording widths in a font-independent manner. It co
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>
 
 
 

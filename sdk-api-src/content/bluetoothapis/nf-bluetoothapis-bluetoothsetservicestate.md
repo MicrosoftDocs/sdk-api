@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothSetServiceState
 title: BluetoothSetServiceState function (bluetoothapis.h)
-description: Enables or disables services for a Bluetooth device.helpviewer_keywords: ["BluetoothSetServiceState","BluetoothSetServiceState function [Bluetooth]","bluetooth.bluetoothsetservicestate","bluetoothapis/BluetoothSetServiceState"]
+description: Enables or disables services for a Bluetooth device.
+helpviewer_keywords: ["BluetoothSetServiceState","BluetoothSetServiceState function [Bluetooth]","bluetooth.bluetoothsetservicestate","bluetoothapis/BluetoothSetServiceState"]
 old-location: bluetooth\bluetoothsetservicestate.htm
 tech.root: bluetooth
 ms.assetid: 9c68139c-6f55-4b5a-bea0-64681e32a7c5
@@ -66,7 +67,7 @@ A handle of the local Bluetooth radio.
 
 ### -param pbtdi
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure. Must be a previously found radio address.
+A pointer to a <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure. Must be a previously found radio address.
 
 
 ### -param pGuidService
@@ -146,11 +147,11 @@ If a non-supported service is enabled, a driver is not installed.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotificationEx.NotifySessionChangeEx
 title: ITsSbResourceNotificationEx::NotifySessionChangeEx (sbtsv.h)
-description: Notifies registered plug-ins about state changes in a session object.helpviewer_keywords: ["ITsSbResourceNotificationEx interface [Remote Desktop Services]","NotifySessionChangeEx method","ITsSbResourceNotificationEx.NotifySessionChangeEx","ITsSbResourceNotificationEx::NotifySessionChangeEx","NotifySessionChangeEx","NotifySessionChangeEx method [Remote Desktop Services]","NotifySessionChangeEx method [Remote Desktop Services]","ITsSbResourceNotificationEx interface","sbtsv/ITsSbResourceNotificationEx::NotifySessionChangeEx","termserv.itssbresourcenotificationex_notifysessionchangeex"]
+description: Notifies registered plug-ins about state changes in a session object.
+helpviewer_keywords: ["ITsSbResourceNotificationEx interface [Remote Desktop Services]","NotifySessionChangeEx method","ITsSbResourceNotificationEx.NotifySessionChangeEx","ITsSbResourceNotificationEx::NotifySessionChangeEx","NotifySessionChangeEx","NotifySessionChangeEx method [Remote Desktop Services]","NotifySessionChangeEx method [Remote Desktop Services]","ITsSbResourceNotificationEx interface","sbtsv/ITsSbResourceNotificationEx::NotifySessionChangeEx","termserv.itssbresourcenotificationex_notifysessionchangeex"]
 old-location: termserv\itssbresourcenotificationex_notifysessionchangeex.htm
 tech.root: TermServ
 ms.assetid: 75f7371a-fd3e-4045-b8fe-23d57d75b27a
@@ -79,7 +80,7 @@ Identifies the session that changed.
 
 ### -param sessionState [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssession_state">TSSESSION_STATE</a> value specifying he type of change that occurred.
+A <a href="/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssession_state">TSSESSION_STATE</a> value specifying he type of change that occurred.
 
 
 ## -returns

@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerCollabDeleteEndpointData
 title: PeerCollabDeleteEndpointData function (p2p.h)
-description: Deletes the peer endpoint data on the calling peer node that matches the supplied endpoint data.helpviewer_keywords: ["PeerCollabDeleteEndpointData","PeerCollabDeleteEndpointData function [Peer Networking]","p2p.peercollabdeleteendpointdata","p2p/PeerCollabDeleteEndpointData"]
+description: Deletes the peer endpoint data on the calling peer node that matches the supplied endpoint data.
+helpviewer_keywords: ["PeerCollabDeleteEndpointData","PeerCollabDeleteEndpointData function [Peer Networking]","p2p.peercollabdeleteendpointdata","p2p/PeerCollabDeleteEndpointData"]
 old-location: p2p\peercollabdeleteendpointdata.htm
 tech.root: P2PSdk
 ms.assetid: bafaef04-d7f6-4873-bd38-db156817b0c8
@@ -59,7 +60,7 @@ The <b>PeerCollabDeleteEndpointData</b> function deletes the peer endpoint data 
 
 ### -param pcEndpoint [in]
 
-Pointer to a [PEER_ENDPOINT](/windows/win32/api/p2p/ns-p2p-peer_endpoint)a> structure that contains the peer endpoint information to delete from the current peer node.
+Pointer to a [PEER_ENDPOINT](/windows/win32/api/p2p/ns-p2p-peer_endpoint) structure that contains the peer endpoint information to delete from the current peer node.
 
 
 ## -returns
@@ -115,7 +116,7 @@ The function <b>PeerCollabDeleteEndpointData</b> is used to remove cached endpoi
 
 
 
-[PEER_ENDPOINT](/windows/win32/api/p2p/ns-p2p-peer_endpoint)a>
+[PEER_ENDPOINT](/windows/win32/api/p2p/ns-p2p-peer_endpoint)
 
 
 

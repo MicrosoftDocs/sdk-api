@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetValueNormalization
 title: ICondition::GetValueNormalization (structuredquerycondition.h)
-description: Retrieves the character-normalized value of the search condition node.helpviewer_keywords: ["GetValueNormalization","GetValueNormalization method [search]","GetValueNormalization method [search]","ICondition interface","ICondition interface [search]","GetValueNormalization method","ICondition.GetValueNormalization","ICondition::GetValueNormalization","_search_ICondition_GetValueNormalization","search._search_ICondition_GetValueNormalization","structuredquerycondition/ICondition::GetValueNormalization"]
+description: Retrieves the character-normalized value of the search condition node.
+helpviewer_keywords: ["GetValueNormalization","GetValueNormalization method [search]","GetValueNormalization method [search]","ICondition interface","ICondition interface [search]","GetValueNormalization method","ICondition.GetValueNormalization","ICondition::GetValueNormalization","_search_ICondition_GetValueNormalization","search._search_ICondition_GetValueNormalization","structuredquerycondition/ICondition::GetValueNormalization"]
 old-location: search\_search_ICondition_GetValueNormalization.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getvaluenormalization.htm
@@ -91,11 +92,11 @@ In <b>Windows 7 and later</b>, if the value of the leaf node is <b>VT_EMPTY</b
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

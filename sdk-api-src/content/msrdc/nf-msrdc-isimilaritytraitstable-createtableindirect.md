@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.CreateTableIndirect
 title: ISimilarityTraitsTable::CreateTableIndirect (msrdc.h)
-description: Creates or opens a similarity traits table using the RDC application's implementation of the ISimilarityTraitsMapping interface.helpviewer_keywords: ["CreateTableIndirect","CreateTableIndirect method [Remote Differential Compression]","CreateTableIndirect method [Remote Differential Compression]","ISimilarityTraitsTable interface","ISimilarityTraitsTable interface [Remote Differential Compression]","CreateTableIndirect method","ISimilarityTraitsTable.CreateTableIndirect","ISimilarityTraitsTable::CreateTableIndirect","fs.isimilaritytraitstable_createtableindirect","msrdc/ISimilarityTraitsTable::CreateTableIndirect","rdc.isimilaritytraitstable_createtableindirect"]
+description: Creates or opens a similarity traits table using the RDC application's implementation of the ISimilarityTraitsMapping interface.
+helpviewer_keywords: ["CreateTableIndirect","CreateTableIndirect method [Remote Differential Compression]","CreateTableIndirect method [Remote Differential Compression]","ISimilarityTraitsTable interface","ISimilarityTraitsTable interface [Remote Differential Compression]","CreateTableIndirect method","ISimilarityTraitsTable.CreateTableIndirect","ISimilarityTraitsTable::CreateTableIndirect","fs.isimilaritytraitstable_createtableindirect","msrdc/ISimilarityTraitsTable::CreateTableIndirect","rdc.isimilaritytraitstable_createtableindirect"]
 old-location: rdc\isimilaritytraitstable_createtableindirect.htm
 tech.root: rdc
 ms.assetid: 55bd485f-33f7-4247-bc13-f5e2c7e70028
@@ -69,7 +70,7 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msr
 
 ### -param isNew [out]
 
-A pointer to a variable that receives an  <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdccreatedtables">RdcCreatedTables</a> enumeration value that describes the state of the similarity traits table. If a new table is created, this variable receives <b>RDCTABLE_New</b>. If an existing table is used, this variable receives <b>RDCTABLE_Existing</b>. If this method fails, this variable receives <b>RDCTABLE_InvalidOrUnknown</b>.
+A pointer to a variable that receives an  <a href="/windows/win32/api/msrdc/ne-msrdc-rdccreatedtables">RdcCreatedTables</a> enumeration value that describes the state of the similarity traits table. If a new table is created, this variable receives <b>RDCTABLE_New</b>. If an existing table is used, this variable receives <b>RDCTABLE_Existing</b>. If this method fails, this variable receives <b>RDCTABLE_InvalidOrUnknown</b>.
 
 
 ## -returns

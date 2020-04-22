@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmCalloutSubscriptionsGet0
 title: FwpmCalloutSubscriptionsGet0 function (fwpmu.h)
-description: Retrieves an array of all the current callout change notification subscriptions.helpviewer_keywords: ["FwpmCalloutSubscriptionsGet0","FwpmCalloutSubscriptionsGet0 function [Filtering]","fwp.fwpmcalloutsubscriptionsget0_func","fwpmu/FwpmCalloutSubscriptionsGet0"]
+description: Retrieves an array of all the current callout change notification subscriptions.
+helpviewer_keywords: ["FwpmCalloutSubscriptionsGet0","FwpmCalloutSubscriptionsGet0 function [Filtering]","fwp.fwpmcalloutsubscriptionsget0_func","fwpmu/FwpmCalloutSubscriptionsGet0"]
 old-location: fwp\fwpmcalloutsubscriptionsget0_func.htm
 tech.root: fwp
 ms.assetid: 72e51167-c69e-4412-b83e-c66f91c9b96e
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param entries [out]
 
-Type: [FWPM_CALLOUT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_subscription0)a>***</b>
+Type: [FWPM_CALLOUT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_subscription0)***</b>
 
 Addresses of the current callout change notification subscriptions.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_CALLOUT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_subscription0)a>
+[FWPM_CALLOUT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_subscription0)
  
 
  

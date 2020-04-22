@@ -1,7 +1,8 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_UNLOADED_MODULE
 title: MINIDUMP_UNLOADED_MODULE (minidumpapiset.h)
-description: Contains information about a module that has been unloaded. This information can help diagnose problems calling code that is no longer loaded.helpviewer_keywords: ["*PMINIDUMP_UNLOADED_MODULE","MINIDUMP_UNLOADED_MODULE","MINIDUMP_UNLOADED_MODULE structure","PMINIDUMP_UNLOADED_MODULE","PMINIDUMP_UNLOADED_MODULE structure pointer","_MINIDUMP_UNLOADED_MODULE","_win32_minidump_unloaded_module_str","base.minidump_unloaded_module_str","minidumpapiset/MINIDUMP_UNLOADED_MODULE","minidumpapiset/PMINIDUMP_UNLOADED_MODULE"]
+description: Contains information about a module that has been unloaded. This information can help diagnose problems calling code that is no longer loaded.
+helpviewer_keywords: ["*PMINIDUMP_UNLOADED_MODULE","MINIDUMP_UNLOADED_MODULE","MINIDUMP_UNLOADED_MODULE structure","PMINIDUMP_UNLOADED_MODULE","PMINIDUMP_UNLOADED_MODULE structure pointer","_MINIDUMP_UNLOADED_MODULE","_win32_minidump_unloaded_module_str","base.minidump_unloaded_module_str","minidumpapiset/MINIDUMP_UNLOADED_MODULE","minidumpapiset/PMINIDUMP_UNLOADED_MODULE"]
 old-location: base\minidump_unloaded_module_str.htm
 tech.root: Debug
 ms.assetid: d2ae58fa-561c-4135-a757-88598ebda57a
@@ -88,7 +89,7 @@ An RVA to a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module_list">MINIDUMP_UNLOADED_MODULE_LIST</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module_list">MINIDUMP_UNLOADED_MODULE_LIST</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NC:msi.INSTALLUI_HANDLER_RECORD
 title: INSTALLUI_HANDLER_RECORD (msi.h)
-description: The INSTALLUI_HANDLER_RECORD function prototype defines a callback function that the installer calls for progress notification and error messages. Call the MsiSetExternalUIRecord function to enable a record-base external user-interface (UI) handler.helpviewer_keywords: ["INSTALLMESSAGE_ACTIONDATA","INSTALLMESSAGE_ACTIONSTART","INSTALLMESSAGE_COMMONDATA","INSTALLMESSAGE_ERROR","INSTALLMESSAGE_FATALEXIT","INSTALLMESSAGE_FILESINUSE","INSTALLMESSAGE_INFO","INSTALLMESSAGE_INITIALIZE","INSTALLMESSAGE_INSTALLEND","INSTALLMESSAGE_INSTALLSTART","INSTALLMESSAGE_OUTOFDISKSPACE","INSTALLMESSAGE_PROGRESS","INSTALLMESSAGE_RESOLVESOURCE","INSTALLMESSAGE_RMFILESINUSE","INSTALLMESSAGE_SHOWDIALOG","INSTALLMESSAGE_TERMINATE","INSTALLMESSAGE_USER","INSTALLMESSAGE_WARNING","INSTALLUI_HANDLER","INSTALLUI_HANDLER callback function pointer","INSTALLUI_HANDLER_RECORD","INSTALLUI_HANDLER_RECORD callback","INSTALLUI_HANDLER_RECORD callback function","InstallUIHandlerRecord","MB_ABORTRETRYIGNORE","MB_DEFBUTTON1","MB_DEFBUTTON2","MB_DEFBUTTON3","MB_ICONEXCLAMATION","MB_ICONWARNING","MB_ICONINFORMATION","MB_ICONASTERISK","MB_ICONQUESTION","MB_ICONSTOP","MB_ICONERROR","MB_ICONHAND","MB_OK","MB_OKCANCEL","MB_RETRYCANCEL","MB_YESNO","MB_YESNOCANCEL","msi/INSTALLUI_HANDLER_RECORD","setup.installui_handler_record"]
+description: The INSTALLUI_HANDLER_RECORD function prototype defines a callback function that the installer calls for progress notification and error messages. Call the MsiSetExternalUIRecord function to enable a record-base external user-interface (UI) handler.
+helpviewer_keywords: ["INSTALLMESSAGE_ACTIONDATA","INSTALLMESSAGE_ACTIONSTART","INSTALLMESSAGE_COMMONDATA","INSTALLMESSAGE_ERROR","INSTALLMESSAGE_FATALEXIT","INSTALLMESSAGE_FILESINUSE","INSTALLMESSAGE_INFO","INSTALLMESSAGE_INITIALIZE","INSTALLMESSAGE_INSTALLEND","INSTALLMESSAGE_INSTALLSTART","INSTALLMESSAGE_OUTOFDISKSPACE","INSTALLMESSAGE_PROGRESS","INSTALLMESSAGE_RESOLVESOURCE","INSTALLMESSAGE_RMFILESINUSE","INSTALLMESSAGE_SHOWDIALOG","INSTALLMESSAGE_TERMINATE","INSTALLMESSAGE_USER","INSTALLMESSAGE_WARNING","INSTALLUI_HANDLER","INSTALLUI_HANDLER callback function pointer","INSTALLUI_HANDLER_RECORD","INSTALLUI_HANDLER_RECORD callback","INSTALLUI_HANDLER_RECORD callback function","InstallUIHandlerRecord","MB_ABORTRETRYIGNORE","MB_DEFBUTTON1","MB_DEFBUTTON2","MB_DEFBUTTON3","MB_ICONEXCLAMATION","MB_ICONWARNING","MB_ICONINFORMATION","MB_ICONASTERISK","MB_ICONQUESTION","MB_ICONSTOP","MB_ICONERROR","MB_ICONHAND","MB_OK","MB_OKCANCEL","MB_RETRYCANCEL","MB_YESNO","MB_YESNOCANCEL","msi/INSTALLUI_HANDLER_RECORD","setup.installui_handler_record"]
 old-location: setup\installui_handler_record.htm
 tech.root: Msi
 ms.assetid: de714639-f519-4c78-811e-b3b1f04d8450
@@ -429,7 +430,7 @@ The following defaults should be used if any of the preceding messages are missi
 
 ### -param hRecord
 
-Specifies a handle to the record object. For information about record objects, see the <a href="https://docs.microsoft.com/windows/win32/msi/database-functions#record-processing-functions">Record Processing Functions</a>.
+Specifies a handle to the record object. For information about record objects, see the <a href="/windows/win32/msi/database-functions#record-processing-functions">Record Processing Functions</a>.
 
 
 ## -returns

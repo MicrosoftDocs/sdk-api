@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmProviderAdd0
 title: FwpmProviderAdd0 function (fwpmu.h)
-description: Adds a new provider to the system.helpviewer_keywords: ["FwpmProviderAdd0","FwpmProviderAdd0 function [Filtering]","fwp.fwpmprovideradd0_func","fwpmu/FwpmProviderAdd0"]
+description: Adds a new provider to the system.
+helpviewer_keywords: ["FwpmProviderAdd0","FwpmProviderAdd0 function [Filtering]","fwp.fwpmprovideradd0_func","fwpmu/FwpmProviderAdd0"]
 old-location: fwp\fwpmprovideradd0_func.htm
 tech.root: fwp
 ms.assetid: e76f03e2-0853-465a-9f82-c29d35de32c9
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call  <a href="https://docs.mic
 
 ### -param provider [in]
 
-Type: [FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)a>*</b>
+Type: [FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)*</b>
 
 The provider object to be added.
 
@@ -137,7 +138,7 @@ Failure to communicate with the remote or local firewall engine.
 
 If the caller supplies a null security descriptor, the system will assign a default security descriptor.
 
-Boot-time objects are added to the Base Filtering Engine (BFE) when the TCP/IP driver starts, and are removed once the BFE finishes initialization.  Persistent objects are added when the BFE starts. If a policy provider has a persistent policy that is not intended to be enforced if its associated service is disabled, the caller can specify an optional service name in the [FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)a> structure.  This service then owns the persistent policy object.  At start, the BFE only adds the following types of persistent objects to the system.
+Boot-time objects are added to the Base Filtering Engine (BFE) when the TCP/IP driver starts, and are removed once the BFE finishes initialization.  Persistent objects are added when the BFE starts. If a policy provider has a persistent policy that is not intended to be enforced if its associated service is disabled, the caller can specify an optional service name in the [FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0) structure.  This service then owns the persistent policy object.  At start, the BFE only adds the following types of persistent objects to the system.
 
 <ul>
 <li>The object is not associated with a provider.</li>
@@ -159,7 +160,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)a>
+[FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)
  
 
  

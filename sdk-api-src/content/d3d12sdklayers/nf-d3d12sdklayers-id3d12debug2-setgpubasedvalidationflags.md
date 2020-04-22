@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12Debug2.SetGPUBasedValidationFlags
 title: ID3D12Debug2::SetGPUBasedValidationFlags (d3d12sdklayers.h)
-description: This method configures the level of GPU-based validation that the debug device is to perform at runtime.helpviewer_keywords: ["ID3D12Debug2 interface","SetGPUBasedValidationFlags method","ID3D12Debug2.SetGPUBasedValidationFlags","ID3D12Debug2::SetGPUBasedValidationFlags","SetGPUBasedValidationFlags","SetGPUBasedValidationFlags method","SetGPUBasedValidationFlags method","ID3D12Debug2 interface","d3d12sdklayers/ID3D12Debug2::SetGPUBasedValidationFlags","direct3d12.id3d12debug2_setgpubasedvalidationflags"]
+description: This method configures the level of GPU-based validation that the debug device is to perform at runtime.
+helpviewer_keywords: ["ID3D12Debug2 interface","SetGPUBasedValidationFlags method","ID3D12Debug2.SetGPUBasedValidationFlags","ID3D12Debug2::SetGPUBasedValidationFlags","SetGPUBasedValidationFlags","SetGPUBasedValidationFlags method","SetGPUBasedValidationFlags method","ID3D12Debug2 interface","d3d12sdklayers/ID3D12Debug2::SetGPUBasedValidationFlags","direct3d12.id3d12debug2_setgpubasedvalidationflags"]
 old-location: direct3d12\id3d12debug2_setgpubasedvalidationflags.htm
 tech.root: direct3d12
 ms.assetid: EA774CC4-7675-46AA-9CDF-56C8B9507702
@@ -61,4 +62,4 @@ This method overrides the default behavior of GPU-based validation so it must be
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug2">ID3D12Debug2</a>
+<a href="/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug2">ID3D12Debug2</a>

@@ -1,7 +1,8 @@
 ---
 UID: NF:peerdist.PeerDistServerPublishStream
 title: PeerDistServerPublishStream function (peerdist.h)
-description: PeerDistServerPublishStream function initializes a new stream to be published to the Peer Distribution service.helpviewer_keywords: ["PeerDistServerPublishStream","PeerDistServerPublishStream function [Peer Networking]","p2p.peerdistserverpublishstream","peerdist/PeerDistServerPublishStream"]
+description: PeerDistServerPublishStream function initializes a new stream to be published to the Peer Distribution service.
+helpviewer_keywords: ["PeerDistServerPublishStream","PeerDistServerPublishStream function [Peer Networking]","p2p.peerdistserverpublishstream","peerdist/PeerDistServerPublishStream"]
 old-location: p2p\peerdistserverpublishstream.htm
 tech.root: P2PSdk
 ms.assetid: 2133e578-f89d-4cfd-a522-12c2531babaa
@@ -79,7 +80,7 @@ The length, in bytes, of the content to be published. This value can be 0 if the
 
 ### -param pPublishOptions [in, optional]
 
-Pointer to a [PEERDIST_PUBLICATION_OPTIONS](/windows/win32/api/peerdist/ns-peerdist-peerdist_publication_options)a> structure that specifies content publishing rules.
+Pointer to a [PEERDIST_PUBLICATION_OPTIONS](/windows/win32/api/peerdist/ns-peerdist-peerdist_publication_options) structure that specifies content publishing rules.
 
 
 ### -param hCompletionPort [in, optional]

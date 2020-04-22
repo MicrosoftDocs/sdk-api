@@ -1,7 +1,8 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_FIELD_TYPE
 title: CREDENTIAL_PROVIDER_FIELD_TYPE (credentialprovider.h)
-description: Specifies a type of credential field. Used by CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR.helpviewer_keywords: ["CPFT_CHECKBOX","CPFT_COMBOBOX","CPFT_COMMAND_LINK","CPFT_EDIT_TEXT","CPFT_INVALID","CPFT_LARGE_TEXT","CPFT_PASSWORD_TEXT","CPFT_SMALL_TEXT","CPFT_SUBMIT_BUTTON","CPFT_TILE_IMAGE","CREDENTIAL_PROVIDER_FIELD_TYPE","CREDENTIAL_PROVIDER_FIELD_TYPE enumeration [Windows Shell]","credentialprovider/CPFT_CHECKBOX","credentialprovider/CPFT_COMBOBOX","credentialprovider/CPFT_COMMAND_LINK","credentialprovider/CPFT_EDIT_TEXT","credentialprovider/CPFT_INVALID","credentialprovider/CPFT_LARGE_TEXT","credentialprovider/CPFT_PASSWORD_TEXT","credentialprovider/CPFT_SMALL_TEXT","credentialprovider/CPFT_SUBMIT_BUTTON","credentialprovider/CPFT_TILE_IMAGE","credentialprovider/CREDENTIAL_PROVIDER_FIELD_TYPE","shell.CREDENTIAL_PROVIDER_FIELD_TYPE","shell_CREDENTIAL_PROVIDER_FIELD_TYPE"]
+description: Specifies a type of credential field. Used by CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR.
+helpviewer_keywords: ["CPFT_CHECKBOX","CPFT_COMBOBOX","CPFT_COMMAND_LINK","CPFT_EDIT_TEXT","CPFT_INVALID","CPFT_LARGE_TEXT","CPFT_PASSWORD_TEXT","CPFT_SMALL_TEXT","CPFT_SUBMIT_BUTTON","CPFT_TILE_IMAGE","CREDENTIAL_PROVIDER_FIELD_TYPE","CREDENTIAL_PROVIDER_FIELD_TYPE enumeration [Windows Shell]","credentialprovider/CPFT_CHECKBOX","credentialprovider/CPFT_COMBOBOX","credentialprovider/CPFT_COMMAND_LINK","credentialprovider/CPFT_EDIT_TEXT","credentialprovider/CPFT_INVALID","credentialprovider/CPFT_LARGE_TEXT","credentialprovider/CPFT_PASSWORD_TEXT","credentialprovider/CPFT_SMALL_TEXT","credentialprovider/CPFT_SUBMIT_BUTTON","credentialprovider/CPFT_TILE_IMAGE","credentialprovider/CREDENTIAL_PROVIDER_FIELD_TYPE","shell.CREDENTIAL_PROVIDER_FIELD_TYPE","shell_CREDENTIAL_PROVIDER_FIELD_TYPE"]
 old-location: shell\CREDENTIAL_PROVIDER_FIELD_TYPE.htm
 tech.root: shell
 ms.assetid: 5af9f007-9588-4574-a5ce-3f01ec0b45e8
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a type of credential field. Used by <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a>.
+Specifies a type of credential field. Used by <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a>.
 
 
 ## -enum-fields

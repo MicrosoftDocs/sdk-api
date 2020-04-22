@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmIPsecTunnelAdd1
 title: FwpmIPsecTunnelAdd1 function (fwpmu.h)
-description: Adds a new Internet Protocol Security (IPsec) tunnel mode policy to the system.helpviewer_keywords: ["FWPM_TUNNEL_FLAG_ENABLE_VIRTUAL_IF_TUNNELING","FWPM_TUNNEL_FLAG_POINT_TO_POINT","FwpmIPsecTunnelAdd1","FwpmIpsecTunnelAdd1","FwpmIpsecTunnelAdd1 function [Filtering]","fwp.fwpmipsectunneladd1","fwpmu/FwpmIpsecTunnelAdd1"]
+description: Adds a new Internet Protocol Security (IPsec) tunnel mode policy to the system.
+helpviewer_keywords: ["FWPM_TUNNEL_FLAG_ENABLE_VIRTUAL_IF_TUNNELING","FWPM_TUNNEL_FLAG_POINT_TO_POINT","FwpmIPsecTunnelAdd1","FwpmIpsecTunnelAdd1","FwpmIpsecTunnelAdd1 function [Filtering]","fwp.fwpmipsectunneladd1","fwpmu/FwpmIpsecTunnelAdd1"]
 old-location: fwp\fwpmipsectunneladd1.htm
 tech.root: fwp
 ms.assetid: 9ae40cf5-7ecf-4399-b196-ae58fe55afdb
@@ -101,14 +102,14 @@ Enables virtual interface-based IPsec tunnel mode.
 
 ### -param mainModePolicy [in, optional]
 
-Type: [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)a>*</b>
+Type: [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)*</b>
 
 The Main Mode policy for the IPsec tunnel.
 
 
 ### -param tunnelPolicy [in]
 
-Type: [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)a>*</b>
+Type: [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)*</b>
 
 The Quick Mode policy for the IPsec tunnel.
 
@@ -224,11 +225,11 @@ with <b>FWP_E_INCOMPATIBLE_TXN</b>.  See <a href="https://docs.microsoft.com/win
 
 
 
-[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a>
+[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)
 
 
 
-[FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)a>
+[FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)
  
 
  

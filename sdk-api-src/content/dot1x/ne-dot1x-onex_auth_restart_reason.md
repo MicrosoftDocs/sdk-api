@@ -1,7 +1,8 @@
 ---
 UID: NE:dot1x._ONEX_AUTH_RESTART_REASON
 title: ONEX_AUTH_RESTART_REASON (dot1x.h)
-description: Specifies the possible reasons that 802.1X authentication was restarted.helpviewer_keywords: ["ONEX_AUTH_RESTART_REASON","ONEX_AUTH_RESTART_REASON enumeration [NativeWIFI]","OneXRestartReasonAltCredsTrial","OneXRestartReasonInvalid","OneXRestartReasonMsmInitiated","OneXRestartReasonOneXAuthTimeout","OneXRestartReasonOneXConfigurationChanged","OneXRestartReasonOneXHeldStateTimeout","OneXRestartReasonOneXUserChanged","OneXRestartReasonPeerInitiated","OneXRestartReasonQuarantineStateChanged","PONEX_AUTH_RESTART_REASON","PONEX_AUTH_RESTART_REASON enumeration pointer [NativeWIFI]","dot1x/ONEX_AUTH_RESTART_REASON","dot1x/OneXRestartReasonAltCredsTrial","dot1x/OneXRestartReasonInvalid","dot1x/OneXRestartReasonMsmInitiated","dot1x/OneXRestartReasonOneXAuthTimeout","dot1x/OneXRestartReasonOneXConfigurationChanged","dot1x/OneXRestartReasonOneXHeldStateTimeout","dot1x/OneXRestartReasonOneXUserChanged","dot1x/OneXRestartReasonPeerInitiated","dot1x/OneXRestartReasonQuarantineStateChanged","dot1x/PONEX_AUTH_RESTART_REASON","nwifi.onex_auth_restart_reason"]
+description: Specifies the possible reasons that 802.1X authentication was restarted.
+helpviewer_keywords: ["ONEX_AUTH_RESTART_REASON","ONEX_AUTH_RESTART_REASON enumeration [NativeWIFI]","OneXRestartReasonAltCredsTrial","OneXRestartReasonInvalid","OneXRestartReasonMsmInitiated","OneXRestartReasonOneXAuthTimeout","OneXRestartReasonOneXConfigurationChanged","OneXRestartReasonOneXHeldStateTimeout","OneXRestartReasonOneXUserChanged","OneXRestartReasonPeerInitiated","OneXRestartReasonQuarantineStateChanged","PONEX_AUTH_RESTART_REASON","PONEX_AUTH_RESTART_REASON enumeration pointer [NativeWIFI]","dot1x/ONEX_AUTH_RESTART_REASON","dot1x/OneXRestartReasonAltCredsTrial","dot1x/OneXRestartReasonInvalid","dot1x/OneXRestartReasonMsmInitiated","dot1x/OneXRestartReasonOneXAuthTimeout","dot1x/OneXRestartReasonOneXConfigurationChanged","dot1x/OneXRestartReasonOneXHeldStateTimeout","dot1x/OneXRestartReasonOneXUserChanged","dot1x/OneXRestartReasonPeerInitiated","dot1x/OneXRestartReasonQuarantineStateChanged","dot1x/PONEX_AUTH_RESTART_REASON","nwifi.onex_auth_restart_reason"]
 old-location: nwifi\onex_auth_restart_reason.htm
 tech.root: NativeWiFi
 ms.assetid: 794231da-ef4e-4419-9ff8-9b23483853d1
@@ -60,7 +61,7 @@ The <b>ONEX_AUTH_RESTART_REASON</b> enumerated type specifies the possible reaso
 
 ### -field OneXRestartReasonPeerInitiated
 
-The EAPHost component (the peer) requested the 802.1x module to restart 802.1X authentication. This results from a <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerProcessReceivedPacket</a> function call that returns an <a href="https://docs.microsoft.com/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a> enumeration value of <b>EapHostPeerResponseStartAuthentication</b> in the <i>pEapOutput</i> parameter. 
+The EAPHost component (the peer) requested the 802.1x module to restart 802.1X authentication. This results from a <a href="/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerProcessReceivedPacket</a> function call that returns an <a href="https://docs.microsoft.com/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a> enumeration value of <b>EapHostPeerResponseStartAuthentication</b> in the <i>pEapOutput</i> parameter. 
 
 
 ### -field OneXRestartReasonMsmInitiated
@@ -133,7 +134,7 @@ The <b>ONEX_AUTH_RESTART_REASON</b> specifies the possible values for the reason
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a>
+<a href="/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a>
 
 
 

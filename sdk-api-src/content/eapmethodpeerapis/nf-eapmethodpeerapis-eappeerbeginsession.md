@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerBeginSession
 title: EapPeerBeginSession function (eapmethodpeerapis.h)
-description: Starts an EAP authentication session on the peer EAPHost using the EAP method.helpviewer_keywords: ["EapPeerBeginSession","EapPeerBeginSession function [EAPHost]","eaphost.eappeerbeginsession","eapmethodpeerapis/EapPeerBeginSession"]
+description: Starts an EAP authentication session on the peer EAPHost using the EAP method.
+helpviewer_keywords: ["EapPeerBeginSession","EapPeerBeginSession function [EAPHost]","eaphost.eappeerbeginsession","eapmethodpeerapis/EapPeerBeginSession"]
 old-location: eaphost\eappeerbeginsession.htm
 tech.root: eaphost
 ms.assetid: 770a548c-c227-4708-bc40-08bf2681c90f
@@ -59,7 +60,7 @@ Starts an EAP authentication session on the peer EAPHost using the EAP method.
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  new EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  new EAP authentication session behavior.
 
 
 ### -param pAttributeArray [in]
@@ -122,7 +123,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-run-time-functions)a>
+[EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
 
 
 
@@ -130,7 +131,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
+[SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
  
 
  

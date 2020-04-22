@@ -1,7 +1,8 @@
 ---
 UID: NE:minidumpapiset._THREAD_WRITE_FLAGS
 title: THREAD_WRITE_FLAGS (minidumpapiset.h)
-description: Identifies the type of thread information that will be written to the minidump file by the MiniDumpWriteDump function.helpviewer_keywords: ["THREAD_WRITE_FLAGS","THREAD_WRITE_FLAGS enumeration","ThreadWriteBackingStore","ThreadWriteContext","ThreadWriteInstructionWindow","ThreadWriteStack","ThreadWriteThread","ThreadWriteThreadData","ThreadWriteThreadInfo","_win32_thread_write_flags","base.thread_write_flags","minidumpapiset/THREAD_WRITE_FLAGS","minidumpapiset/ThreadWriteBackingStore","minidumpapiset/ThreadWriteContext","minidumpapiset/ThreadWriteInstructionWindow","minidumpapiset/ThreadWriteStack","minidumpapiset/ThreadWriteThread","minidumpapiset/ThreadWriteThreadData","minidumpapiset/ThreadWriteThreadInfo"]
+description: Identifies the type of thread information that will be written to the minidump file by the MiniDumpWriteDump function.
+helpviewer_keywords: ["THREAD_WRITE_FLAGS","THREAD_WRITE_FLAGS enumeration","ThreadWriteBackingStore","ThreadWriteContext","ThreadWriteInstructionWindow","ThreadWriteStack","ThreadWriteThread","ThreadWriteThreadData","ThreadWriteThreadInfo","_win32_thread_write_flags","base.thread_write_flags","minidumpapiset/THREAD_WRITE_FLAGS","minidumpapiset/ThreadWriteBackingStore","minidumpapiset/ThreadWriteContext","minidumpapiset/ThreadWriteInstructionWindow","minidumpapiset/ThreadWriteStack","minidumpapiset/ThreadWriteThread","minidumpapiset/ThreadWriteThreadData","minidumpapiset/ThreadWriteThreadInfo"]
 old-location: base\thread_write_flags.htm
 tech.root: Debug
 ms.assetid: b2d933c0-5e52-4078-82ea-844c2415eb45
@@ -102,7 +103,7 @@ When the minidump type includes <b>MiniDumpWithThreadInfo</b>, this flag is set.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a>
 
 
 

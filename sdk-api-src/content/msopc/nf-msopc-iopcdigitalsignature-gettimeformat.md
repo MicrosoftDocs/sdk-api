@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetTimeFormat
 title: IOpcDigitalSignature::GetTimeFormat (msopc.h)
-description: Gets the format of the string returned by the GetSigningTime method.helpviewer_keywords: ["GetTimeFormat","GetTimeFormat method [Open Packaging Conventions]","GetTimeFormat method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetTimeFormat method","IOpcDigitalSignature.GetTimeFormat","IOpcDigitalSignature::GetTimeFormat","msopc/IOpcDigitalSignature::GetTimeFormat","opc.iopcdigitalsignature_gettimeformat"]
+description: Gets the format of the string returned by the GetSigningTime method.
+helpviewer_keywords: ["GetTimeFormat","GetTimeFormat method [Open Packaging Conventions]","GetTimeFormat method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetTimeFormat method","IOpcDigitalSignature.GetTimeFormat","IOpcDigitalSignature::GetTimeFormat","msopc/IOpcDigitalSignature::GetTimeFormat","opc.iopcdigitalsignature_gettimeformat"]
 old-location: opc\iopcdigitalsignature_gettimeformat.htm
 tech.root: OPC
 ms.assetid: df142c4d-27dc-4db3-9a37-78c5703c8119
@@ -59,7 +60,7 @@ Gets the format of the string returned by the <a href="https://docs.microsoft.co
 
 ### -param timeFormat [out, retval]
 
-An <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a> value that describes the format of the string returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignature-getsigningtime">GetSigningTime</a>.
+An <a href="/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a> value that describes the format of the string returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignature-getsigningtime">GetSigningTime</a>.
 
 
 ## -returns

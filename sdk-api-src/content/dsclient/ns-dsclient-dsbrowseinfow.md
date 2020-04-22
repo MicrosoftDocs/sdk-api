@@ -1,7 +1,8 @@
 ---
 UID: NS:dsclient.__unnamed_struct_5
 title: DSBROWSEINFOW (dsclient.h)
-description: The DSBROWSEINFO structure is used with the DsBrowseForContainer function to supply and return data about the Active Directory container browser dialog box.helpviewer_keywords: ["*PDSBROWSEINFOW","DSBI_CHECKBOXES","DSBI_DONTSIGNSEAL","DSBI_ENTIREDIRECTORY","DSBI_EXPANDONOPEN","DSBI_HASCREDENTIALS","DSBI_IGNORETREATASLEAF","DSBI_INCLUDEHIDDEN","DSBI_NOBUTTONS","DSBI_NOLINES","DSBI_NOLINESATROOT","DSBI_NOROOT","DSBI_RETURNOBJECTCLASS","DSBI_RETURN_FORMAT","DSBI_SIMPLEAUTHENTICATE","DSBROWSEINFO","DSBROWSEINFO structure [Active Directory]","DSBROWSEINFOA","DSBROWSEINFOW","DSBROWSEINFOW structure [Active Directory]","PDSBROWSEINFOW","PDSBROWSEINFOW structure pointer [Active Directory]","_glines_dsbrowseinfo","ad.dsbrowseinfo","dsclient/DSBROWSEINFO","dsclient/DSBROWSEINFOA","dsclient/DSBROWSEINFOW","dsclient/PDSBROWSEINFOW"]
+description: The DSBROWSEINFO structure is used with the DsBrowseForContainer function to supply and return data about the Active Directory container browser dialog box.
+helpviewer_keywords: ["*PDSBROWSEINFOW","DSBI_CHECKBOXES","DSBI_DONTSIGNSEAL","DSBI_ENTIREDIRECTORY","DSBI_EXPANDONOPEN","DSBI_HASCREDENTIALS","DSBI_IGNORETREATASLEAF","DSBI_INCLUDEHIDDEN","DSBI_NOBUTTONS","DSBI_NOLINES","DSBI_NOLINESATROOT","DSBI_NOROOT","DSBI_RETURNOBJECTCLASS","DSBI_RETURN_FORMAT","DSBI_SIMPLEAUTHENTICATE","DSBROWSEINFO","DSBROWSEINFO structure [Active Directory]","DSBROWSEINFOA","DSBROWSEINFOW","DSBROWSEINFOW structure [Active Directory]","PDSBROWSEINFOW","PDSBROWSEINFOW structure pointer [Active Directory]","_glines_dsbrowseinfo","ad.dsbrowseinfo","dsclient/DSBROWSEINFO","dsclient/DSBROWSEINFOA","dsclient/DSBROWSEINFOW","dsclient/PDSBROWSEINFOW"]
 old-location: ad\dsbrowseinfo.htm
 tech.root: ad
 ms.assetid: eaa2da41-1ddf-42d3-b721-6649ad49acf1
@@ -196,7 +197,7 @@ Contains an application-defined 32-bit value passed as the <i>lpData</i> paramet
 
 ### -field dwReturnFormat
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> values that specifies the format that the ADSI path returned in <b>pszPath</b> will accept.
+Contains one of the <a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> values that specifies the format that the ADSI path returned in <b>pszPath</b> will accept.
 
 
 ### -field pUserName
@@ -294,7 +295,7 @@ Indicates that secure authentication is not required when calling <a href="https
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
 
 
 

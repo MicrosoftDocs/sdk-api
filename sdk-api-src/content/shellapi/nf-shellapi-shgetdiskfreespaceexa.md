@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.SHGetDiskFreeSpaceExA
 title: SHGetDiskFreeSpaceExA function (shellapi.h)
-description: Retrieves disk space information for a disk volume.helpviewer_keywords: ["SHGetDiskFreeSpace","SHGetDiskFreeSpaceEx","SHGetDiskFreeSpaceEx function [Windows Shell]","SHGetDiskFreeSpaceExA","SHGetDiskFreeSpaceExW","_shell_SHGetDiskFreeSpaceEx","shell.SHGetDiskFreeSpaceEx","shellapi/SHGetDiskFreeSpaceEx","shellapi/SHGetDiskFreeSpaceExA","shellapi/SHGetDiskFreeSpaceExW"]
+description: Retrieves disk space information for a disk volume.
+helpviewer_keywords: ["SHGetDiskFreeSpace","SHGetDiskFreeSpaceEx","SHGetDiskFreeSpaceEx function [Windows Shell]","SHGetDiskFreeSpaceExA","SHGetDiskFreeSpaceExW","_shell_SHGetDiskFreeSpaceEx","shell.SHGetDiskFreeSpaceEx","shellapi/SHGetDiskFreeSpaceEx","shellapi/SHGetDiskFreeSpaceExA","shellapi/SHGetDiskFreeSpaceExW"]
 old-location: shell\SHGetDiskFreeSpaceEx.htm
 tech.root: shell
 ms.assetid: f8adbfa8-124a-4934-b5dc-16e261c15a8b
@@ -68,21 +69,21 @@ A null-terminated string that specifies the volume for which size information is
 
 ### -param pulFreeBytesAvailableToCaller [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
 
 Pointer to a value that receives the number of bytes on the volume available to the calling application. If the operating system implements per-user quotas, this value may be less than the total number of free bytes on the volume.
 
 
 ### -param pulTotalNumberOfBytes [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
 
 Pointer to a value that receives the total size of the volume, in bytes.
 
 
 ### -param pulTotalNumberOfFreeBytes [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
 
 Pointer to a value that receives the number of bytes of free space on the volume.
 

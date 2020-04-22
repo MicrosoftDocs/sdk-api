@@ -1,7 +1,8 @@
 ---
 UID: NF:iaccess.IAccessControl.GetAllAccessRights
 title: IAccessControl::GetAllAccessRights (iaccess.h)
-description: Gets the entire list of access rights and/or the owner and group for the specified object.helpviewer_keywords: ["GetAllAccessRights","GetAllAccessRights method [COM]","GetAllAccessRights method [COM]","IAccessControl interface","IAccessControl interface [COM]","GetAllAccessRights method","IAccessControl.GetAllAccessRights","IAccessControl::GetAllAccessRights","_com_iaccesscontrol_getallaccessrights","com.iaccesscontrol_getallaccessrights","iaccess/IAccessControl::GetAllAccessRights"]
+description: Gets the entire list of access rights and/or the owner and group for the specified object.
+helpviewer_keywords: ["GetAllAccessRights","GetAllAccessRights method [COM]","GetAllAccessRights method [COM]","IAccessControl interface","IAccessControl interface [COM]","GetAllAccessRights method","IAccessControl.GetAllAccessRights","IAccessControl::GetAllAccessRights","_com_iaccesscontrol_getallaccessrights","com.iaccesscontrol_getallaccessrights","iaccess/IAccessControl::GetAllAccessRights"]
 old-location: com\iaccesscontrol_getallaccessrights.htm
 tech.root: com
 ms.assetid: 8c8551fb-8ba9-4a52-b6f8-bd11e4006fe9
@@ -64,7 +65,7 @@ The name of the property. If you are using the COM implementation of <a href="ht
 
 ### -param ppAccessList [out]
 
-The address of the pointer variable that receives a pointer to the access list structure. This parameter cannot be [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a)a>.
+The address of the pointer variable that receives a pointer to the access list structure. This parameter cannot be [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a).
 
 If the call succeeds, the caller must free the allocated memory with the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function. Note that the memory is allocate(all_nodes), which means that all the substructures are allocated in one block. Therefore, the entire data structure must be freed by a single call to <b>CoTaskMemFree</b>.
 
@@ -93,7 +94,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-[ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a)a>
+[ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a)
 
 
 

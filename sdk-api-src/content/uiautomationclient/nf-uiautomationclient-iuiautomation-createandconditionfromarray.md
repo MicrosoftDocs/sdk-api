@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateAndConditionFromArray
 title: IUIAutomation::CreateAndConditionFromArray (uiautomationclient.h)
-description: Creates a condition that selects elements based on multiple conditions, all of which must be true.helpviewer_keywords: ["CreateAndConditionFromArray","CreateAndConditionFromArray method [Windows Accessibility]","CreateAndConditionFromArray method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateAndConditionFromArray method","IUIAutomation.CreateAndConditionFromArray","IUIAutomation::CreateAndConditionFromArray","uiauto.uiauto_IUIAutomation_CreateAndConditionFromArray","uiauto_IUIAutomation_CreateAndConditionFromArray","uiautomationclient/IUIAutomation::CreateAndConditionFromArray","winauto.uiauto_IUIAutomation_CreateAndConditionFromArray"]
+description: Creates a condition that selects elements based on multiple conditions, all of which must be true.
+helpviewer_keywords: ["CreateAndConditionFromArray","CreateAndConditionFromArray method [Windows Accessibility]","CreateAndConditionFromArray method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateAndConditionFromArray method","IUIAutomation.CreateAndConditionFromArray","IUIAutomation::CreateAndConditionFromArray","uiauto.uiauto_IUIAutomation_CreateAndConditionFromArray","uiauto_IUIAutomation_CreateAndConditionFromArray","uiautomationclient/IUIAutomation::CreateAndConditionFromArray","winauto.uiauto_IUIAutomation_CreateAndConditionFromArray"]
 old-location: winauto\uiauto_IUIAutomation_CreateAndConditionFromArray.htm
 tech.root: WinAuto
 ms.assetid: ec9ad1a1-72c7-4fc6-8812-577b44b4c5eb
@@ -59,7 +60,7 @@ Creates a condition that selects elements based on multiple conditions, all of w
 
 ### -param conditions [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 A pointer to the conditions to be combined.
 

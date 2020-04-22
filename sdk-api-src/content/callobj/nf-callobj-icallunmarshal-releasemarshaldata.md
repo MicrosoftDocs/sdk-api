@@ -1,7 +1,8 @@
 ---
 UID: NF:callobj.ICallUnmarshal.ReleaseMarshalData
 title: ICallUnmarshal::ReleaseMarshalData (callobj.h)
-description: Releases resources that may be held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet and calls the CoReleaseMarshalData function on each interface pointer.helpviewer_keywords: ["ICallUnmarshal interface [COM]","ReleaseMarshalData method","ICallUnmarshal.ReleaseMarshalData","ICallUnmarshal::ReleaseMarshalData","ReleaseMarshalData","ReleaseMarshalData method [COM]","ReleaseMarshalData method [COM]","ICallUnmarshal interface","_com_icallunmarshal_releasemarshaldata","callobj/ICallUnmarshal::ReleaseMarshalData","com.icallunmarshal_releasemarshaldata"]
+description: Releases resources that may be held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet and calls the CoReleaseMarshalData function on each interface pointer.
+helpviewer_keywords: ["ICallUnmarshal interface [COM]","ReleaseMarshalData method","ICallUnmarshal.ReleaseMarshalData","ICallUnmarshal::ReleaseMarshalData","ReleaseMarshalData","ReleaseMarshalData method [COM]","ReleaseMarshalData method [COM]","ICallUnmarshal interface","_com_icallunmarshal_releasemarshaldata","callobj/ICallUnmarshal::ReleaseMarshalData","com.icallunmarshal_releasemarshaldata"]
 old-location: com\icallunmarshal_releasemarshaldata.htm
 tech.root: com
 ms.assetid: c7b1aff8-338a-491a-908f-5f85dddd89b7
@@ -84,7 +85,7 @@ The data representation with which the data was marshaled.
 
 ### -param pcontext [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/callobj/ns-callobj-callframe_marshalcontext">CALLFRAME_MARSHALCONTEXT</a> structure that contains information about the context in which unmarshaling is to be carried out.
+A pointer to a <a href="/windows/win32/api/callobj/ns-callobj-callframe_marshalcontext">CALLFRAME_MARSHALCONTEXT</a> structure that contains information about the context in which unmarshaling is to be carried out.
 
 
 ## -returns

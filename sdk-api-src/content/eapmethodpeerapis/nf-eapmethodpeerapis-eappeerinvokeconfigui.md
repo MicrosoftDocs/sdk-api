@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerInvokeConfigUI
 title: EapPeerInvokeConfigUI function (eapmethodpeerapis.h)
-description: Raises the EAP method's specific connection configuration user interface dialog on the client.helpviewer_keywords: ["EapPeerInvokeConfigUI","EapPeerInvokeConfigUI function [EAPHost]","eaphost.eappeerinvokeconfigui","eapmethodpeerapis/EapPeerInvokeConfigUI"]
+description: Raises the EAP method's specific connection configuration user interface dialog on the client.
+helpviewer_keywords: ["EapPeerInvokeConfigUI","EapPeerInvokeConfigUI function [EAPHost]","eaphost.eappeerinvokeconfigui","eapmethodpeerapis/EapPeerInvokeConfigUI"]
 old-location: eaphost\eappeerinvokeconfigui.htm
 tech.root: eaphost
 ms.assetid: ac15a065-d0a3-403f-ae5f-175f77e2507f
@@ -69,7 +70,7 @@ A handle to the parent window which will spawn the connection configuration user
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param dwSizeOfConnectionDataIn [in]
@@ -113,7 +114,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-configuration-functions)a>
+[EAPHost Peer Method Configuration Functions](/windows/win32/eaphost/eaphost-peer-method-configuration-functions)
  
 
  

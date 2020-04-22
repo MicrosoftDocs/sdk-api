@@ -1,7 +1,8 @@
 ---
 UID: NF:aclapi.TreeSetNamedSecurityInfoA
 title: TreeSetNamedSecurityInfoA function (aclapi.h)
-description: Sets specified security information in the security descriptor of a specified tree of objects.helpviewer_keywords: ["TREE_SEC_INFO_RESET","TREE_SEC_INFO_RESET_KEEP_EXPLICIT","TREE_SEC_INFO_SET","TreeSetNamedSecurityInfo","TreeSetNamedSecurityInfo function [Security]","TreeSetNamedSecurityInfoA","TreeSetNamedSecurityInfoW","aclapi/TreeSetNamedSecurityInfo","aclapi/TreeSetNamedSecurityInfoA","aclapi/TreeSetNamedSecurityInfoW","security.treesetnamedsecurityinfo"]
+description: Sets specified security information in the security descriptor of a specified tree of objects.
+helpviewer_keywords: ["TREE_SEC_INFO_RESET","TREE_SEC_INFO_RESET_KEEP_EXPLICIT","TREE_SEC_INFO_SET","TreeSetNamedSecurityInfo","TreeSetNamedSecurityInfo function [Security]","TreeSetNamedSecurityInfoA","TreeSetNamedSecurityInfoW","aclapi/TreeSetNamedSecurityInfo","aclapi/TreeSetNamedSecurityInfoA","aclapi/TreeSetNamedSecurityInfoW","security.treesetnamedsecurityinfo"]
 old-location: security\treesetnamedsecurityinfo.htm
 tech.root: SecAuthZ
 ms.assetid: caa711c3-301b-4ed7-b1f4-dc6a48563905
@@ -176,7 +177,7 @@ If no progress function is to be used, set this parameter to <b>NULL</b>.
 
 ### -param ProgressInvokeSetting [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/accctrl/ne-accctrl-prog_invoke_setting">PROG_INVOKE_SETTING</a> enumeration that specifies the initial setting for the progress function.
+A value of the <a href="/windows/win32/api/accctrl/ne-accctrl-prog_invoke_setting">PROG_INVOKE_SETTING</a> enumeration that specifies the initial setting for the progress function.
 
 
 ### -param Args [in, optional]

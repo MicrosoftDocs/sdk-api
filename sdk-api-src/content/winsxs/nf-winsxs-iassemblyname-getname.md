@@ -1,7 +1,8 @@
 ---
 UID: NF:winsxs.IAssemblyName.GetName
 title: IAssemblyName::GetName (winsxs.h)
-description: The GetName method returns the name portion of the assembly name.helpviewer_keywords: ["GetName","GetName method [Side-by-side Assemblies]","GetName method [Side-by-side Assemblies]","IAssemblyName interface","IAssemblyName interface [Side-by-side Assemblies]","GetName method","IAssemblyName.GetName","IAssemblyName::GetName","setup.iassemblyname_getname","winsxs/IAssemblyName::GetName"]
+description: The GetName method returns the name portion of the assembly name.
+helpviewer_keywords: ["GetName","GetName method [Side-by-side Assemblies]","GetName method [Side-by-side Assemblies]","IAssemblyName interface","IAssemblyName interface [Side-by-side Assemblies]","GetName method","IAssemblyName.GetName","IAssemblyName::GetName","setup.iassemblyname_getname","winsxs/IAssemblyName::GetName"]
 old-location: setup\iassemblyname_getname.htm
 tech.root: SbsCs
 ms.assetid: b27ebe4e-02b6-473f-a8cb-c68a3e65e493
@@ -110,7 +111,7 @@ The method did not succeed.
 
 
 
-This method is equivalent to using the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getproperty">GetProperty</a> method with the <i>PropertyId</i> set to the <b>ASM_NAME_NAME</b> option of <a href="https://docs.microsoft.com/windows/win32/api/winsxs/ne-winsxs-asm_name">ASM_NAME</a>. In case ASM_NAME_NAME is not set, the size of the buffer returned by <i>lpcwBuffer</i> is  0, and the content of <i>pwzName</i> is undefined.
+This method is equivalent to using the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getproperty">GetProperty</a> method with the <i>PropertyId</i> set to the <b>ASM_NAME_NAME</b> option of <a href="/windows/win32/api/winsxs/ne-winsxs-asm_name">ASM_NAME</a>. In case ASM_NAME_NAME is not set, the size of the buffer returned by <i>lpcwBuffer</i> is  0, and the content of <i>pwzName</i> is undefined.
 
 
 

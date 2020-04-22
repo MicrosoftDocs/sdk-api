@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT_CHANGE0_
 title: FWPM_PROVIDER_CONTEXT_CHANGE0 (fwpmtypes.h)
-description: Change notification dispatched to subscribers.helpviewer_keywords: ["FWPM_PROVIDER_CONTEXT_CHANGE0","FWPM_PROVIDER_CONTEXT_CHANGE0 structure [Filtering]","fwp.fwpm_provider_context_change0_struct","fwpmtypes/FWPM_PROVIDER_CONTEXT_CHANGE0"]
+description: Change notification dispatched to subscribers.
+helpviewer_keywords: ["FWPM_PROVIDER_CONTEXT_CHANGE0","FWPM_PROVIDER_CONTEXT_CHANGE0 structure [Filtering]","fwp.fwpm_provider_context_change0_struct","fwpmtypes/FWPM_PROVIDER_CONTEXT_CHANGE0"]
 old-location: fwp\fwpm_provider_context_change0_struct.htm
 tech.root: fwp
 ms.assetid: 78786d91-1e2f-4846-9636-8d5d6acf5a7d
@@ -61,7 +62,7 @@ The <b>FWPM_PROVIDER_CONTEXT_CHANGE0</b> structure contains a change notificatio
 
 Type of change.
 
-See [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a> for more information.
+See [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type) for more information.
 
 
 ### -field providerContextKey
@@ -88,7 +89,7 @@ LUID of the provider context that changed.
 
 
 
-[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a>
+[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)
 
 
 

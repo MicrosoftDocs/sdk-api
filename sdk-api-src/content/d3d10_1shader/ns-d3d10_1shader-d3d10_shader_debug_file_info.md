@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_FILE_INFO
 title: D3D10_SHADER_DEBUG_FILE_INFO (d3d10_1shader.h)
-description: Describes files included by a shader.helpviewer_keywords: ["D3D10_SHADER_DEBUG_FILE_INFO","D3D10_SHADER_DEBUG_FILE_INFO structure [Direct3D 10]","ac4c1ede-a189-df0e-6b8f-755a37f8de3d","d3d10_1shader/D3D10_SHADER_DEBUG_FILE_INFO","direct3d10.d3d10_shader_debug_file_info"]
+description: Describes files included by a shader.
+helpviewer_keywords: ["D3D10_SHADER_DEBUG_FILE_INFO","D3D10_SHADER_DEBUG_FILE_INFO structure [Direct3D 10]","ac4c1ede-a189-df0e-6b8f-755a37f8de3d","d3d10_1shader/D3D10_SHADER_DEBUG_FILE_INFO","direct3d10.d3d10_shader_debug_file_info"]
 old-location: direct3d10\d3d10_shader_debug_file_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_file_info.htm
@@ -89,7 +90,7 @@ Length of the file.
 
 
 
-The <b>D3D10_SHADER_DEBUG_FILE_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_FILE_INFO</b> structure is used with the <a href="/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 

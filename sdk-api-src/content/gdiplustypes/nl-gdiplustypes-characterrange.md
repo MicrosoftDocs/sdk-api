@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplustypes.CharacterRange
 title: CharacterRange (gdiplustypes.h)
-description: A CharacterRange object specifies a range of character positions within a string.helpviewer_keywords: ["CharacterRange","CharacterRange class [GDI+]","CharacterRange class [GDI+]","described","_gdiplus_CLASS_CharacterRange_Class","gdiplus._gdiplus_CLASS_CharacterRange_Class","gdiplustypes/CharacterRange"]
+description: A CharacterRange object specifies a range of character positions within a string.
+helpviewer_keywords: ["CharacterRange","CharacterRange class [GDI+]","CharacterRange class [GDI+]","described","_gdiplus_CLASS_CharacterRange_Class","gdiplus._gdiplus_CLASS_CharacterRange_Class","gdiplustypes/CharacterRange"]
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrange.htm
@@ -88,10 +89,10 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/n
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-[CharacterRange::operator=](/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-operator-assign)a>
+[CharacterRange::operator=](/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-operator-assign)
 </td>
 <td align="left" width="63%">
-The [CharacterRange::operator=](/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-operator-assign)a> method sets this <b>CharacterRange</b> object equal to the specified <b>CharacterRange</b> object.
+The [CharacterRange::operator=](/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-operator-assign) method sets this <b>CharacterRange</b> object equal to the specified <b>CharacterRange</b> object.
 
 </td>
 </tr>

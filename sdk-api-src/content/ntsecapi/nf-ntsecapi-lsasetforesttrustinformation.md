@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaSetForestTrustInformation
 title: LsaSetForestTrustInformation function (ntsecapi.h)
-description: Sets the forest trust information for a specified Local Security Authority&#160;TrustedDomain object.helpviewer_keywords: ["LsaSetForestTrustInformation","LsaSetForestTrustInformation function [Security]","ntsecapi/LsaSetForestTrustInformation","security.lsasetforesttrustinformation"]
+description: Sets the forest trust information for a specified Local Security Authority&#160;TrustedDomain object.
+helpviewer_keywords: ["LsaSetForestTrustInformation","LsaSetForestTrustInformation function [Security]","ntsecapi/LsaSetForestTrustInformation","security.lsasetforesttrustinformation"]
 old-location: security\lsasetforesttrustinformation.htm
 tech.root: SecAuthN
 ms.assetid: 8b0f90ed-7dd4-4803-97c6-31d191b6d2b3
@@ -79,7 +80,7 @@ Boolean value that specifies whether changes to the <a href="https://docs.micros
 
 ### -param CollisionInfo [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_information">LSA_FOREST_TRUST_COLLISION_INFORMATION</a> structure that returns information about any collisions that occurred.
+Pointer to a pointer to an <a href="/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_information">LSA_FOREST_TRUST_COLLISION_INFORMATION</a> structure that returns information about any collisions that occurred.
 
 
 ## -returns

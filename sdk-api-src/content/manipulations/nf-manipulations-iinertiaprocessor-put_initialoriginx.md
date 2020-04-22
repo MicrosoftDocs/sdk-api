@@ -1,7 +1,8 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialOriginX
 title: IInertiaProcessor::put_InitialOriginX (manipulations.h)
-description: The InitialOriginX property specifies the starting horizontal location for a target with inertia.helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialOriginX property","IInertiaProcessor.InitialOriginX","IInertiaProcessor.put_InitialOriginX","IInertiaProcessor::InitialOriginX","IInertiaProcessor::get_InitialOriginX","IInertiaProcessor::put_InitialOriginX","InitialOriginX property [Windows Touch]","InitialOriginX property [Windows Touch]","IInertiaProcessor interface","manipulations/IInertiaProcessor::InitialOriginX","manipulations/IInertiaProcessor::get_InitialOriginX","manipulations/IInertiaProcessor::put_InitialOriginX","put_InitialOriginX","wintouch.iinertiaprocessor_initialoriginx"]
+description: The InitialOriginX property specifies the starting horizontal location for a target with inertia.
+helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialOriginX property","IInertiaProcessor.InitialOriginX","IInertiaProcessor.put_InitialOriginX","IInertiaProcessor::InitialOriginX","IInertiaProcessor::get_InitialOriginX","IInertiaProcessor::put_InitialOriginX","InitialOriginX property [Windows Touch]","InitialOriginX property [Windows Touch]","IInertiaProcessor interface","manipulations/IInertiaProcessor::InitialOriginX","manipulations/IInertiaProcessor::get_InitialOriginX","manipulations/IInertiaProcessor::put_InitialOriginX","put_InitialOriginX","wintouch.iinertiaprocessor_initialoriginx"]
 old-location: wintouch\iinertiaprocessor_initialoriginx.htm
 tech.root: wintouch
 ms.assetid: 6c710bd7-6fbe-4bc3-8966-b83d4500625a
@@ -74,7 +75,7 @@ All locations used for the inertia and manipulation processor are relative. If y
 	      you pass screen coordinates to the manipulation (or inertia) processor; if you want to use absolute coordinates, 
 			you pass those into the processor you are using. 
 
-Call this function to set the initial state of inertia. You would call this function most likely during the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
+Call this function to set the initial state of inertia. You would call this function most likely during the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_INPUT_INFO
 title: D3D10_SHADER_DEBUG_INPUT_INFO (d3d10_1shader.h)
-description: Describes a shader input.helpviewer_keywords: ["985acea2-3d0c-4a4c-f9db-ed556aec5b34","D3D10_SHADER_DEBUG_INPUT_INFO","D3D10_SHADER_DEBUG_INPUT_INFO structure [Direct3D 10]","d3d10_1shader/D3D10_SHADER_DEBUG_INPUT_INFO","direct3d10.d3d10_shader_debug_input_info"]
+description: Describes a shader input.
+helpviewer_keywords: ["985acea2-3d0c-4a4c-f9db-ed556aec5b34","D3D10_SHADER_DEBUG_INPUT_INFO","D3D10_SHADER_DEBUG_INPUT_INFO structure [Direct3D 10]","d3d10_1shader/D3D10_SHADER_DEBUG_INPUT_INFO","direct3d10.d3d10_shader_debug_input_info"]
 old-location: direct3d10\d3d10_shader_debug_input_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_input_info.htm
@@ -66,7 +67,7 @@ Index into array of variables to initialize.
 
 ### -field InitialRegisterSet
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_regtype">D3D10_SHADER_DEBUG_REGTYPE</a></b>
+Type: <b><a href="/windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_regtype">D3D10_SHADER_DEBUG_REGTYPE</a></b>
 
 Must be D3D10_SHADER_DEBUG_REG_INPUT, D3D10_SHADER_DEBUG_REG_CBUFFER or D3D10_SHADER_DEBUG_REG_TBUFFER.
 
@@ -103,7 +104,7 @@ Initial value if the variable is a literal.
 
 
 
-The <b>D3D10_SHADER_DEBUG_INPUT_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_INPUT_INFO</b> structure is used with the <a href="/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 

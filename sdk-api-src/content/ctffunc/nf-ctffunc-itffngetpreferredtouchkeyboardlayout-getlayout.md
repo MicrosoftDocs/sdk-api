@@ -1,7 +1,8 @@
 ---
 UID: NF:ctffunc.ITfFnGetPreferredTouchKeyboardLayout.GetLayout
 title: ITfFnGetPreferredTouchKeyboardLayout::GetLayout (ctffunc.h)
-description: Obtains the touch keyboard layout identifier of the layout that the IME directs the touch keyboard to show while the IME is active.helpviewer_keywords: ["GetLayout","GetLayout method [Text Services Framework]","GetLayout method [Text Services Framework]","ITfFnGetPreferredTouchKeyboardLayout interface","ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework]","GetLayout method","ITfFnGetPreferredTouchKeyboardLayout.GetLayout","ITfFnGetPreferredTouchKeyboardLayout::GetLayout","ctffunc/ITfFnGetPreferredTouchKeyboardLayout::GetLayout","tsf.itffngetpreferredtouchkeyboardlayout_getlayout"]
+description: Obtains the touch keyboard layout identifier of the layout that the IME directs the touch keyboard to show while the IME is active.
+helpviewer_keywords: ["GetLayout","GetLayout method [Text Services Framework]","GetLayout method [Text Services Framework]","ITfFnGetPreferredTouchKeyboardLayout interface","ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework]","GetLayout method","ITfFnGetPreferredTouchKeyboardLayout.GetLayout","ITfFnGetPreferredTouchKeyboardLayout::GetLayout","ctffunc/ITfFnGetPreferredTouchKeyboardLayout::GetLayout","tsf.itffngetpreferredtouchkeyboardlayout_getlayout"]
 old-location: tsf\itffngetpreferredtouchkeyboardlayout_getlayout.htm
 tech.root: TSF
 ms.assetid: 03C14744-A4A3-4C62-8E7F-CDCC638BBCA1
@@ -59,7 +60,7 @@ Obtains the touch keyboard layout identifier of the layout that the IME directs 
 
 ### -param pTKBLayoutType [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ctffunc/ne-ctffunc-tkblayouttype">TKBLayoutType</a> enumeration that receives the layout type.
+Pointer to a <a href="/windows/win32/api/ctffunc/ne-ctffunc-tkblayouttype">TKBLayoutType</a> enumeration that receives the layout type.
 
 
 ### -param pwPreferredLayoutId [out]
@@ -81,7 +82,7 @@ The touch keyboard always expects S_OK.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ctffunc/ne-ctffunc-tkblayouttype">TKBLayoutType</a> is an enumeration with the following values.
+<a href="/windows/win32/api/ctffunc/ne-ctffunc-tkblayouttype">TKBLayoutType</a> is an enumeration with the following values.
 
 <table>
 <tr>

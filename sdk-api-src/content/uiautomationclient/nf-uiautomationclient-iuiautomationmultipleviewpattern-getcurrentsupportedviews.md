@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.GetCurrentSupportedViews
 title: IUIAutomationMultipleViewPattern::GetCurrentSupportedViews (uiautomationclient.h)
-description: Retrieves a collection of control-specific view identifiers.helpviewer_keywords: ["GetCurrentSupportedViews","GetCurrentSupportedViews method [Windows Accessibility]","GetCurrentSupportedViews method [Windows Accessibility]","IUIAutomationMultipleViewPattern interface","IUIAutomationMultipleViewPattern interface [Windows Accessibility]","GetCurrentSupportedViews method","IUIAutomationMultipleViewPattern.GetCurrentSupportedViews","IUIAutomationMultipleViewPattern::GetCurrentSupportedViews","uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews","uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews","uiautomationclient/IUIAutomationMultipleViewPattern::GetCurrentSupportedViews","winauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews"]
+description: Retrieves a collection of control-specific view identifiers.
+helpviewer_keywords: ["GetCurrentSupportedViews","GetCurrentSupportedViews method [Windows Accessibility]","GetCurrentSupportedViews method [Windows Accessibility]","IUIAutomationMultipleViewPattern interface","IUIAutomationMultipleViewPattern interface [Windows Accessibility]","GetCurrentSupportedViews method","IUIAutomationMultipleViewPattern.GetCurrentSupportedViews","IUIAutomationMultipleViewPattern::GetCurrentSupportedViews","uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews","uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews","uiautomationclient/IUIAutomationMultipleViewPattern::GetCurrentSupportedViews","winauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews"]
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews.htm
 tech.root: WinAuto
 ms.assetid: 9380797a-b546-4e36-9403-d34cea672ace
@@ -59,7 +60,7 @@ Retrieves a collection of control-specific view identifiers.
 
 ### -param retVal [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives a pointer to an array of view identifiers.
 

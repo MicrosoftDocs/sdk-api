@@ -1,7 +1,8 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentInPlaceState
 title: ITextInputPanel::get_CurrentInPlaceState (peninputpanel.h)
-description: Gets the current in-place state as specified by the InPlaceState Enumeration.helpviewer_keywords: ["3ca27156-ed34-4cac-ba26-edded586272a","CurrentInPlaceState property [Tablet PC]","CurrentInPlaceState property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","CurrentInPlaceState property","ITextInputPanel.CurrentInPlaceState","ITextInputPanel.get_CurrentInPlaceState","ITextInputPanel::CurrentInPlaceState","ITextInputPanel::get_CurrentInPlaceState","get_CurrentInPlaceState","peninputpanel/ITextInputPanel::CurrentInPlaceState","peninputpanel/ITextInputPanel::get_CurrentInPlaceState","tablet.itextinputpanel_currentinplacestate"]
+description: Gets the current in-place state as specified by the InPlaceState Enumeration.
+helpviewer_keywords: ["3ca27156-ed34-4cac-ba26-edded586272a","CurrentInPlaceState property [Tablet PC]","CurrentInPlaceState property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","CurrentInPlaceState property","ITextInputPanel.CurrentInPlaceState","ITextInputPanel.get_CurrentInPlaceState","ITextInputPanel::CurrentInPlaceState","ITextInputPanel::get_CurrentInPlaceState","get_CurrentInPlaceState","peninputpanel/ITextInputPanel::CurrentInPlaceState","peninputpanel/ITextInputPanel::get_CurrentInPlaceState","tablet.itextinputpanel_currentinplacestate"]
 old-location: tablet\itextinputpanel_currentinplacestate.htm
 tech.root: tablet
 ms.assetid: 3ca27156-ed34-4cac-ba26-edded586272a
@@ -56,7 +57,7 @@ ms.custom: 19H1
 ]
 
 
-Gets the current in-place state as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
+Gets the current in-place state as specified by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
 
 
 
@@ -70,7 +71,7 @@ This property is read-only.
 
 
 
-When the Tablet PC Input Panel is closed or hidden, the current in-place state is reset to the default state, unless the default state is <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">Auto</a>, in which case, the current in-place state is reset to <b>Hover</b>.
+When the Tablet PC Input Panel is closed or hidden, the current in-place state is reset to the default state, unless the default state is <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">Auto</a>, in which case, the current in-place state is reset to <b>Hover</b>.
 
 
 #### Examples

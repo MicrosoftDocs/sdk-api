@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.IRdcSimilarityGenerator.Results
 title: IRdcSimilarityGenerator::Results (msrdc.h)
-description: Retrieves the similarity data that was generated for a file by the signature generator.helpviewer_keywords: ["IRdcSimilarityGenerator interface [Remote Differential Compression]","Results method","IRdcSimilarityGenerator.Results","IRdcSimilarityGenerator::Results","Results","Results method [Remote Differential Compression]","Results method [Remote Differential Compression]","IRdcSimilarityGenerator interface","fs.irdcsimilaritygenerator_results","msrdc/IRdcSimilarityGenerator::Results","rdc.irdcsimilaritygenerator_results"]
+description: Retrieves the similarity data that was generated for a file by the signature generator.
+helpviewer_keywords: ["IRdcSimilarityGenerator interface [Remote Differential Compression]","Results method","IRdcSimilarityGenerator.Results","IRdcSimilarityGenerator::Results","Results","Results method [Remote Differential Compression]","Results method [Remote Differential Compression]","IRdcSimilarityGenerator interface","fs.irdcsimilaritygenerator_results","msrdc/IRdcSimilarityGenerator::Results","rdc.irdcsimilaritygenerator_results"]
 old-location: rdc\irdcsimilaritygenerator_results.htm
 tech.root: rdc
 ms.assetid: 572c38e2-0bd4-427e-9ba3-f69539410d4d
@@ -61,7 +62,7 @@ This method cannot be called until signature generation is completed. For more i
 
 ### -param similarityData [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure that will receive the similarity data.
+A pointer to a <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure that will receive the similarity data.
 
 
 ## -returns

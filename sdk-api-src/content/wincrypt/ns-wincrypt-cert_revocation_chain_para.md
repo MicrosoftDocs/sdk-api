@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_REVOCATION_CHAIN_PARA
 title: CERT_REVOCATION_CHAIN_PARA (wincrypt.h)
-description: Contains parameters used for building a chain for an independent online certificate status protocol (OCSP) response signer certificate.helpviewer_keywords: ["*PCERT_REVOCATION_CHAIN_PARA","CERT_CHAIN_REVOCATION_CHECK_OCSP_CERT","CERT_REVOCATION_CHAIN_PARA","CERT_REVOCATION_CHAIN_PARA structure [Security]","PCERT_REVOCATION_CHAIN_PARA","PCERT_REVOCATION_CHAIN_PARA structure pointer [Security]","security.cert_revocation_chain_para","wincrypt/CERT_REVOCATION_CHAIN_PARA","wincrypt/PCERT_REVOCATION_CHAIN_PARA"]
+description: Contains parameters used for building a chain for an independent online certificate status protocol (OCSP) response signer certificate.
+helpviewer_keywords: ["*PCERT_REVOCATION_CHAIN_PARA","CERT_CHAIN_REVOCATION_CHECK_OCSP_CERT","CERT_REVOCATION_CHAIN_PARA","CERT_REVOCATION_CHAIN_PARA structure [Security]","PCERT_REVOCATION_CHAIN_PARA","PCERT_REVOCATION_CHAIN_PARA structure pointer [Security]","security.cert_revocation_chain_para","wincrypt/CERT_REVOCATION_CHAIN_PARA","wincrypt/PCERT_REVOCATION_CHAIN_PARA"]
 old-location: security\cert_revocation_chain_para.htm
 tech.root: SecCrypto
 ms.assetid: 9cdcc81a-aef1-4a1e-94f8-7aa461225dae
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CERT_REVOCATION_CHAIN_PARA</b> structure contains parameters used for building a chain for an independent <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_get_time_valid_object_extra_info">online certificate status protocol</a> (OCSP) response signer certificate. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_para">CERT_REVOCATION_PARA</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_get_time_valid_object_extra_info">CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</a> structure definitions include optional pointers to this structure.
+The <b>CERT_REVOCATION_CHAIN_PARA</b> structure contains parameters used for building a chain for an independent <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_get_time_valid_object_extra_info">online certificate status protocol</a> (OCSP) response signer certificate. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_para">CERT_REVOCATION_PARA</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_get_time_valid_object_extra_info">CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</a> structure definitions include optional pointers to this structure.
 
 
 ## -struct-fields

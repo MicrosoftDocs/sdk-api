@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsSetFaultErrorDetail
 title: WsSetFaultErrorDetail function (webservices.h)
-description: Write the fault detail stored in a WS_ERROR object.helpviewer_keywords: ["WsSetFaultErrorDetail","WsSetFaultErrorDetail function [Web Services for Windows]","webservices/WsSetFaultErrorDetail","wsw.wssetfaulterrordetail"]
+description: Write the fault detail stored in a WS_ERROR object.
+helpviewer_keywords: ["WsSetFaultErrorDetail","WsSetFaultErrorDetail function [Web Services for Windows]","webservices/WsSetFaultErrorDetail","wsw.wssetfaulterrordetail"]
 old-location: wsw\wssetfaulterrordetail.htm
 tech.root: wsw
 ms.assetid: 469982a5-42da-40e7-a053-4820fee58828
@@ -159,7 +160,7 @@ This API will serialize the value of the detail field of
             
 
 This functions supports the following scenarios, based on the contents
-                of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_fault_detail_description">WS_ELEMENT_DESCRIPTION</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault_detail_description">WS_FAULT_DETAIL_DESCRIPTION</a> supplied:
+                of the <a href="/windows/win32/api/webservices/ns-webservices-ws_fault_detail_description">WS_ELEMENT_DESCRIPTION</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault_detail_description">WS_FAULT_DETAIL_DESCRIPTION</a> supplied:
             
 
 <ul>

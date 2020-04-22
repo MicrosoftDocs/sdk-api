@@ -1,7 +1,8 @@
 ---
 UID: NC:scesvc.PFSCE_QUERY_INFO
 title: PFSCE_QUERY_INFO (scesvc.h)
-description: Queries service-specific information from the Security Configuration file or analysis database.helpviewer_keywords: ["FALSE","PFSCE_QUERY_INFO","PFSCE_QUERY_INFO callback","PFSCE_QUERY_INFO callback function [Security]","SCESVC_ANALYSIS_INFO","SCESVC_CONFIGURATION_INFO","SCE_SERVICE_ANALYSIS_INFO","SCE_SERVICE_CONFIGURATION_INFO","TRUE","_config_pfsce_query_info","scesvc/PFSCE_QUERY_INFO","security.pfsce_query_info"]
+description: Queries service-specific information from the Security Configuration file or analysis database.
+helpviewer_keywords: ["FALSE","PFSCE_QUERY_INFO","PFSCE_QUERY_INFO callback","PFSCE_QUERY_INFO callback function [Security]","SCESVC_ANALYSIS_INFO","SCESVC_CONFIGURATION_INFO","SCE_SERVICE_ANALYSIS_INFO","SCE_SERVICE_CONFIGURATION_INFO","TRUE","_config_pfsce_query_info","scesvc/PFSCE_QUERY_INFO","security.pfsce_query_info"]
 old-location: security\pfsce_query_info.htm
 tech.root: SecMgmt
 ms.assetid: a0e4a205-46d4-47c9-97cf-66f6bec34a1b
@@ -307,11 +308,11 @@ The Security Configuration tool set allocates buffers when <i>PFSCE_QUERY_INFO</
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info">SCESVC_ANALYSIS_INFO</a>
+<a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info">SCESVC_ANALYSIS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info">SCESVC_CONFIGURATION_INFO</a>
+<a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info">SCESVC_CONFIGURATION_INFO</a>
  
 
  

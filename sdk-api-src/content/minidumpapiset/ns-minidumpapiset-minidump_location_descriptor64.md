@@ -1,7 +1,8 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_LOCATION_DESCRIPTOR64
 title: MINIDUMP_LOCATION_DESCRIPTOR64 (minidumpapiset.h)
-description: Contains information describing the location of a data stream within a minidump file.helpviewer_keywords: ["MINIDUMP_LOCATION_DESCRIPTOR","MINIDUMP_LOCATION_DESCRIPTOR structure","MINIDUMP_LOCATION_DESCRIPTOR64","_MINIDUMP_LOCATION_DESCRIPTOR","_win32_minidump_location_descriptor_str","base.minidump_location_descriptor_str","minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR"]
+description: Contains information describing the location of a data stream within a minidump file.
+helpviewer_keywords: ["MINIDUMP_LOCATION_DESCRIPTOR","MINIDUMP_LOCATION_DESCRIPTOR structure","MINIDUMP_LOCATION_DESCRIPTOR64","_MINIDUMP_LOCATION_DESCRIPTOR","_win32_minidump_location_descriptor_str","base.minidump_location_descriptor_str","minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR"]
 old-location: base\minidump_location_descriptor_str.htm
 tech.root: Debug
 ms.assetid: aef17239-9b56-4d49-8347-610270f8612b
@@ -101,7 +102,7 @@ typedef struct _MINIDUMP_LOCATION_DESCRIPTOR64 {
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a>
  
 
  

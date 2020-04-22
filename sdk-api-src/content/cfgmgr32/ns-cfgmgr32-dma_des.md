@@ -1,7 +1,8 @@
 ---
 UID: NS:cfgmgr32.DMA_Des_s
 title: DMA_DES (cfgmgr32.h)
-description: The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance.helpviewer_keywords: ["*PDMA_DES","DMA_DES","DMA_DES structure [Device and Driver Installation]","PDMA_DES","PDMA_DES structure pointer [Device and Driver Installation]","cfgmgr32/DMA_DES","cfgmgr32/PDMA_DES","cfgmgrst_342a3feb-d7c8-46bb-8672-009f024374d7.xml","devinst.dma_des"]
+description: The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance.
+helpviewer_keywords: ["*PDMA_DES","DMA_DES","DMA_DES structure [Device and Driver Installation]","PDMA_DES","PDMA_DES structure pointer [Device and Driver Installation]","cfgmgr32/DMA_DES","cfgmgr32/PDMA_DES","cfgmgrst_342a3feb-d7c8-46bb-8672-009f024374d7.xml","devinst.dma_des"]
 old-location: devinst\dma_des.htm
 tech.root: devinst
 ms.assetid: e357132d-ba40-4c14-813c-505aadc94a26
@@ -71,7 +72,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the [DMA_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource)a> structure.
+The number of elements in the [DMA_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource) structure.
 
 
 ### -field DD_Type
@@ -279,11 +280,11 @@ The DMA channel allocated to the device.
 
 
 
-[DMA_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range)a>
+[DMA_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range)
 
 
 
-[DMA_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource)a>
+[DMA_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource)
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NS:commdlg._OFNOTIFYEXW
 title: OFNOTIFYEXW (commdlg.h)
-description: Contains information about a CDN_INCLUDEITEM notification message.helpviewer_keywords: ["*LPOFNOTIFYEXW","LPOFNOTIFYEX","LPOFNOTIFYEX structure pointer [Dialog Boxes]","OFNOTIFYEX","OFNOTIFYEX structure [Dialog Boxes]","OFNOTIFYEXA","OFNOTIFYEXW","_win32_OFNOTIFYEX_str","_win32_ofnotifyex_str_cpp","commdlg/LPOFNOTIFYEX","commdlg/OFNOTIFYEX","commdlg/OFNOTIFYEXA","commdlg/OFNOTIFYEXW","dlgbox.ofnotifyex_str","winui._win32_ofnotifyex_str"]
+description: Contains information about a CDN_INCLUDEITEM notification message.
+helpviewer_keywords: ["*LPOFNOTIFYEXW","LPOFNOTIFYEX","LPOFNOTIFYEX structure pointer [Dialog Boxes]","OFNOTIFYEX","OFNOTIFYEX structure [Dialog Boxes]","OFNOTIFYEXA","OFNOTIFYEXW","_win32_OFNOTIFYEX_str","_win32_ofnotifyex_str_cpp","commdlg/LPOFNOTIFYEX","commdlg/OFNOTIFYEX","commdlg/OFNOTIFYEXA","commdlg/OFNOTIFYEXW","dlgbox.ofnotifyex_str","winui._win32_ofnotifyex_str"]
 old-location: dlgbox\ofnotifyex_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\ofnotifyex.htm
@@ -70,7 +71,7 @@ The <b>code</b> member of this structure identifies the notification message bei
 
 Type: <b>LPOPENFILENAME</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure containing the values specified when the <b>Open</b> or <b>Save As</b> dialog box was created. 
+A pointer to an <a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure containing the values specified when the <b>Open</b> or <b>Save As</b> dialog box was created. 
 
 
 ### -field psf
@@ -112,7 +113,7 @@ A pointer to an item identifier list that identifies an item in the container id
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a>
+<a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a>
 
 
 

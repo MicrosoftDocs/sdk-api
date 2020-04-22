@@ -1,7 +1,8 @@
 ---
 UID: NF:virtdisk.RawSCSIVirtualDisk
 title: RawSCSIVirtualDisk function (virtdisk.h)
-description: Issues an embedded SCSI request directly to a virtual hard disk.helpviewer_keywords: ["RawSCSIVirtualDisk","RawSCSIVirtualDisk function [VHD]","vdssys/RawSCSIVirtualDisk","vhd.rawscsivirtualdisk","virtdisk/RawSCSIVirtualDisk"]
+description: Issues an embedded SCSI request directly to a virtual hard disk.
+helpviewer_keywords: ["RawSCSIVirtualDisk","RawSCSIVirtualDisk function [VHD]","vdssys/RawSCSIVirtualDisk","vhd.rawscsivirtualdisk","virtdisk/RawSCSIVirtualDisk"]
 old-location: vhd\rawscsivirtualdisk.htm
 tech.root: VStor
 ms.assetid: AB766EC7-2D6E-44EB-9C5C-C840A77242CE
@@ -61,23 +62,23 @@ Issues an embedded SCSI request directly to a virtual hard disk.
 ### -param VirtualDiskHandle [in]
 
 A handle to an open virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function. This handle may also be a handle to a Remote Shared Virtual Disk. For information on how to open a Remote Shared Virtual Disk, see the <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rsvd/c865c326-47d6-4a91-a62d-0e8f26007d15">Remote Shared Virtual Disk Protocol</a> documentation. 
+      <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function. This handle may also be a handle to a Remote Shared Virtual Disk. For information on how to open a Remote Shared Virtual Disk, see the <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rsvd/c865c326-47d6-4a91-a62d-0e8f26007d15">Remote Shared Virtual Disk Protocol</a> documentation. 
 
 
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_parameters">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure that contains snapshot deletion data.
+A pointer to a valid <a href="/windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_parameters">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure that contains snapshot deletion data.
 
 
 ### -param Flags [in]
 
-SCSI virtual disk flags, which must be a valid combination of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-raw_scsi_virtual_disk_flag">RAW_SCSI_VIRTUAL_DISK_FLAG</a> enumeration.
+SCSI virtual disk flags, which must be a valid combination of the <a href="/windows/win32/api/virtdisk/ne-virtdisk-raw_scsi_virtual_disk_flag">RAW_SCSI_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param Response [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_response">RAW_SCSI_VIRTUAL_DISK_RESPONSE</a> structure that contains the results of processing the SCSI command. 
+A pointer to a <a href="/windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_response">RAW_SCSI_VIRTUAL_DISK_RESPONSE</a> structure that contains the results of processing the SCSI command. 
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsSecurityUtility.SetSecurityDescriptor
 title: IADsSecurityUtility::SetSecurityDescriptor (iads.h)
-description: Sets the security descriptor for the specified file, file share, or registry key.helpviewer_keywords: ["File","File share","IADsSecurityUtility interface [ADSI]","SetSecurityDescriptor method","IADsSecurityUtility.SetSecurityDescriptor","IADsSecurityUtility::SetSecurityDescriptor","Registry key","SetSecurityDescriptor","SetSecurityDescriptor method [ADSI]","SetSecurityDescriptor method [ADSI]","IADsSecurityUtility interface","_ds_iadssecurityutility_setsecuritydescriptor","adsi.iadssecurityutility__setsecuritydescriptor","adsi.iadssecurityutility_setsecuritydescriptor","iads/IADsSecurityUtility::SetSecurityDescriptor"]
+description: Sets the security descriptor for the specified file, file share, or registry key.
+helpviewer_keywords: ["File","File share","IADsSecurityUtility interface [ADSI]","SetSecurityDescriptor method","IADsSecurityUtility.SetSecurityDescriptor","IADsSecurityUtility::SetSecurityDescriptor","Registry key","SetSecurityDescriptor","SetSecurityDescriptor method [ADSI]","SetSecurityDescriptor method [ADSI]","IADsSecurityUtility interface","_ds_iadssecurityutility_setsecuritydescriptor","adsi.iadssecurityutility__setsecuritydescriptor","adsi.iadssecurityutility_setsecuritydescriptor","iads/IADsSecurityUtility::SetSecurityDescriptor"]
 old-location: adsi\iadssecurityutility_setsecuritydescriptor.htm
 tech.root: adsi
 ms.assetid: f0f5c1fb-14fa-4d84-aa82-0d5e24ec5c2b
@@ -82,7 +83,7 @@ A valid registry syntax. For example, "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ADs
 
 ### -param lPathFormat [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a> values which specifies the format of the <i>varPath</i> parameter.
+Contains one of the <a href="/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a> values which specifies the format of the <i>varPath</i> parameter.
 
 
 ### -param varData [in]
@@ -92,7 +93,7 @@ A <b>VARIANT</b> that contains the new security descriptor. The format of the se
 
 ### -param lDataFormat [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a> values which specifies the format of the security descriptor contained in the <i>VarData</i> parameter. The following list identifies the possible values for this parameter and the format of the <i>VarData</i> parameter.
+Contains one of the <a href="/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a> values which specifies the format of the security descriptor contained in the <i>VarData</i> parameter. The following list identifies the possible values for this parameter and the format of the <i>VarData</i> parameter.
 
 
 ## -returns
@@ -165,11 +166,11 @@ Cleanup:
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
 
 
 

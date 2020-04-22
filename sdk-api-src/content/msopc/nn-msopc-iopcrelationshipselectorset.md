@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcRelationshipSelectorSet
 title: IOpcRelationshipSelectorSet (msopc.h)
-description: An unordered set of IOpcRelationshipSelector interface pointers that represent the selection criteria that is used to identify relationships for signing.helpviewer_keywords: ["IOpcRelationshipSelectorSet","IOpcRelationshipSelectorSet interface [Open Packaging Conventions]","IOpcRelationshipSelectorSet interface [Open Packaging Conventions]","described","msopc/IOpcRelationshipSelectorSet","opc.iopcrelationshipselectorset"]
+description: An unordered set of IOpcRelationshipSelector interface pointers that represent the selection criteria that is used to identify relationships for signing.
+helpviewer_keywords: ["IOpcRelationshipSelectorSet","IOpcRelationshipSelectorSet interface [Open Packaging Conventions]","IOpcRelationshipSelectorSet interface [Open Packaging Conventions]","described","msopc/IOpcRelationshipSelectorSet","opc.iopcrelationshipselectorset"]
 old-location: opc\iopcrelationshipselectorset.htm
 tech.root: OPC
 ms.assetid: cb23cbe2-764c-47e4-bd32-2791ddde9eee
@@ -147,7 +148,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_relationship_selector">OPC_RELATIONSHIP_SELECTOR</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_relationship_selector">OPC_RELATIONSHIP_SELECTOR</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMDeliver
 title: IComCRMEvents::OnCRMDeliver (comsvcs.h)
-description: Generated when a CRM clerk delivers a record to a CRM compensator.helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMDeliver method","IComCRMEvents.OnCRMDeliver","IComCRMEvents::OnCRMDeliver","OnCRMDeliver","OnCRMDeliver method [COM+]","OnCRMDeliver method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMDeliver","comsvcs/IComCRMEvents::OnCRMDeliver","cos.icomcrmevents_oncrmdeliver"]
+description: Generated when a CRM clerk delivers a record to a CRM compensator.
+helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMDeliver method","IComCRMEvents.OnCRMDeliver","IComCRMEvents::OnCRMDeliver","OnCRMDeliver","OnCRMDeliver method [COM+]","OnCRMDeliver method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMDeliver","comsvcs/IComCRMEvents::OnCRMDeliver","cos.icomcrmevents_oncrmdeliver"]
 old-location: cos\icomcrmevents_oncrmdeliver.htm
 tech.root: cossdk
 ms.assetid: e93e5548-b833-43a9-a73e-1ccad9d252b6
@@ -59,7 +60,7 @@ Generated when a CRM clerk delivers a record to a CRM compensator.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidClerkCLSID [in]

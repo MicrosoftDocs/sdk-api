@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteClientInfo
 title: DhcpDeleteClientInfo function (dhcpsapi.h)
-description: The DhcpDeleteClientInfo function deletes a client information record from the DHCP server.helpviewer_keywords: ["DhcpDeleteClientInfo","DhcpDeleteClientInfo function [DHCP]","dhcp.dhcpdeleteclientinfo","dhcpsapi/DhcpDeleteClientInfo"]
+description: The DhcpDeleteClientInfo function deletes a client information record from the DHCP server.
+helpviewer_keywords: ["DhcpDeleteClientInfo","DhcpDeleteClientInfo function [DHCP]","dhcp.dhcpdeleteclientinfo","dhcpsapi/DhcpDeleteClientInfo"]
 old-location: dhcp\dhcpdeleteclientinfo.htm
 tech.root: DHCP
 ms.assetid: abbf4843-2a4f-4d09-9a21-33587ad0d3e8
@@ -65,7 +66,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 ### -param ClientInfo [in]
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> union structure that contains one of the following items used to search the DHCP client record database: the client IP address, the client MAC address, or the client network name. All records matching the value will be deleted; for example, if a client IP address of 192.1.1.10 is supplied, all records with this address in the <b>ClientIpAddress</b> field will be deleted.
+<a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> union structure that contains one of the following items used to search the DHCP client record database: the client IP address, the client MAC address, or the client network name. All records matching the value will be deleted; for example, if a client IP address of 192.1.1.10 is supplied, all records with this address in the <b>ClientIpAddress</b> field will be deleted.
 
 
 ## -returns
@@ -91,7 +92,7 @@ This function requires host byte ordering for all <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a>
+<a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a>
 
 
 

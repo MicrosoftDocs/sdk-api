@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMMatrixTransform
 title: IXpsOMMatrixTransform (xpsobjectmodel.h)
-description: Specifies an affine matrix transform that can be applied to other objects in the object model.helpviewer_keywords: ["IXpsOMMatrixTransform","IXpsOMMatrixTransform interface [XPS Documents and Packaging]","IXpsOMMatrixTransform interface [XPS Documents and Packaging]","described","xps.ixpsommatrixtransform","xpsobjectmodel/IXpsOMMatrixTransform"]
+description: Specifies an affine matrix transform that can be applied to other objects in the object model.
+helpviewer_keywords: ["IXpsOMMatrixTransform","IXpsOMMatrixTransform interface [XPS Documents and Packaging]","IXpsOMMatrixTransform interface [XPS Documents and Packaging]","described","xps.ixpsommatrixtransform","xpsobjectmodel/IXpsOMMatrixTransform"]
 old-location: xps\ixpsommatrixtransform.htm
 tech.root: printdocs
 ms.assetid: d21457bc-9445-4ca2-ab9f-1e3f55e2e635
@@ -81,7 +82,7 @@ Makes a deep copy of the interface.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsommatrixtransform-getmatrix">GetMatrix</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a> structure, which specifies the transform matrix.
+Gets the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a> structure, which specifies the transform matrix.
             
 
 </td>
@@ -91,7 +92,7 @@ Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsommatrixtransform-setmatrix">SetMatrix</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a> structure, which specifies the transform matrix.
+Sets the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a> structure, which specifies the transform matrix.
             
 
 </td>
@@ -170,7 +171,7 @@ else
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle) (d2d1.h)
-description: Draws the outline of the specified ellipse using the specified stroke style.helpviewer_keywords: ["DrawEllipse","DrawEllipse method [Direct2D]","DrawEllipse method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawEllipse method","ID2D1RenderTarget.DrawEllipse","ID2D1RenderTarget.DrawEllipse(const D2D1_ELLIPSE &","ID2D1Brush","FLOAT","ID2D1StrokeStyle)","ID2D1RenderTarget::DrawEllipse","ID2D1RenderTarget::DrawEllipse(const D2D1_ELLIPSE &","ID2D1Brush","FLOAT","ID2D1StrokeStyle)","d2d1/ID2D1RenderTarget::DrawEllipse","direct2d.ID2D1RenderTarget_DrawEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle"]
+description: Draws the outline of the specified ellipse using the specified stroke style.
+helpviewer_keywords: ["DrawEllipse","DrawEllipse method [Direct2D]","DrawEllipse method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawEllipse method","ID2D1RenderTarget.DrawEllipse","ID2D1RenderTarget.DrawEllipse(const D2D1_ELLIPSE &","ID2D1Brush","FLOAT","ID2D1StrokeStyle)","ID2D1RenderTarget::DrawEllipse","ID2D1RenderTarget::DrawEllipse(const D2D1_ELLIPSE &","ID2D1Brush","FLOAT","ID2D1StrokeStyle)","d2d1/ID2D1RenderTarget::DrawEllipse","direct2d.ID2D1RenderTarget_DrawEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle"]
 old-location: direct2d\ID2D1RenderTarget_DrawEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle.htm
 tech.root: Direct2D
 ms.assetid: 3cd3aad6-72fc-41a3-a792-6ecac838c080
@@ -89,7 +90,7 @@ The style of stroke to apply to the ellipse's outline, or <b>NULL</b> to paint a
 
 
 
-The <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse_id2d1brush_float_id2d1strokestyle)">DrawEllipse</a> method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>DrawEllipse</b>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
+The <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse_id2d1brush_float_id2d1strokestyle)">DrawEllipse</a> method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>DrawEllipse</b>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
 #### Examples

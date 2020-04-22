@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkTransform
 title: IInkTransform (msinkaut.h)
-description: .helpviewer_keywords: ["IInkTransform","IInkTransform interface [Tablet PC]","IInkTransform interface [Tablet PC]","described","msinkaut/IInkTransform","tablet.iinktransform"]
+description: .
+helpviewer_keywords: ["IInkTransform","IInkTransform interface [Tablet PC]","IInkTransform interface [Tablet PC]","described","msinkaut/IInkTransform","tablet.iinktransform"]
 old-location: tablet\iinktransform.htm
 tech.root: tablet
 ms.assetid: 1C9562EF-8CF4-4F0C-94FC-3ED54F6493E5
@@ -262,4 +263,4 @@ Gets or sets the element in the second row, second column of the affine transfor
 
 ## -see-also
 
-[InkTransform class](https://docs.microsoft.com/windows/win32/tablet/inktransform-class)
+[InkTransform class](/windows/win32/tablet/inktransform-class)

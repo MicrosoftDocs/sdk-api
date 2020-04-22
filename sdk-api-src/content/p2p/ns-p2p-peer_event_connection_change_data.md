@@ -1,7 +1,8 @@
 ---
 UID: NS:p2p.peer_event_connection_change_data_tag
 title: PEER_EVENT_CONNECTION_CHANGE_DATA (p2p.h)
-description: Points to the PEER_EVENT_CONNECTION_CHANGE_DATA structure if one of the following peer events is triggered.helpviewer_keywords: ["*PPEER_EVENT_CONNECTION_CHANGE_DATA","PEER_CONNECTED","PEER_CONNECTION_FAILED","PEER_DISCONNECTED","PEER_EVENT_CONNECTION_CHANGE_DATA","PEER_EVENT_CONNECTION_CHANGE_DATA structure [Peer Networking]","PPEER_EVENT_CONNECTION_CHANGE_DATA","PPEER_EVENT_CONNECTION_CHANGE_DATA structure pointer [Peer Networking]","p2p.peer_event_connection_change_data","p2p/PPEER_EVENT_CONNECTION_CHANGE_DATA","p2p/peer_event_connection_change_data_tag"]
+description: Points to the PEER_EVENT_CONNECTION_CHANGE_DATA structure if one of the following peer events is triggered.
+helpviewer_keywords: ["*PPEER_EVENT_CONNECTION_CHANGE_DATA","PEER_CONNECTED","PEER_CONNECTION_FAILED","PEER_DISCONNECTED","PEER_EVENT_CONNECTION_CHANGE_DATA","PEER_EVENT_CONNECTION_CHANGE_DATA structure [Peer Networking]","PPEER_EVENT_CONNECTION_CHANGE_DATA","PPEER_EVENT_CONNECTION_CHANGE_DATA structure pointer [Peer Networking]","p2p.peer_event_connection_change_data","p2p/PPEER_EVENT_CONNECTION_CHANGE_DATA","p2p/peer_event_connection_change_data_tag"]
 old-location: p2p\peer_event_connection_change_data.htm
 tech.root: P2PSdk
 ms.assetid: 0d73432c-c1e5-4fa9-a812-377b22a47440
@@ -167,7 +168,7 @@ Specifies the unique ID for the node that has changed.
 
 
 
-[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a>
+[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)
  
 
  

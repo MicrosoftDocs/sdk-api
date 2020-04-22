@@ -1,7 +1,8 @@
 ---
 UID: NS:shdeprecated.SToolbarItem
 title: TOOLBARITEM (shdeprecated.h)
-description: Deprecated. Data used in IBrowserService2::_GetToolbarItem, IBrowserService2::v_MayGetNextToolbarFocus, and IBrowserService2::_SetFocus to define a toolbar item.helpviewer_keywords: ["*LPTOOLBARITEM","LPTOOLBARITEM","LPTOOLBARITEM structure pointer [Windows Shell]","TOOLBARITEM","TOOLBARITEM structure [Windows Shell]","_shell_TOOLBARITEM","shdeprecated/LPTOOLBARITEM","shdeprecated/TOOLBARITEM","shell.TOOLBARITEM"]
+description: Deprecated. Data used in IBrowserService2::_GetToolbarItem, IBrowserService2::v_MayGetNextToolbarFocus, and IBrowserService2::_SetFocus to define a toolbar item.
+helpviewer_keywords: ["*LPTOOLBARITEM","LPTOOLBARITEM","LPTOOLBARITEM structure pointer [Windows Shell]","TOOLBARITEM","TOOLBARITEM structure [Windows Shell]","_shell_TOOLBARITEM","shdeprecated/LPTOOLBARITEM","shdeprecated/TOOLBARITEM","shell.TOOLBARITEM"]
 old-location: shell\TOOLBARITEM.htm
 tech.root: shell
 ms.assetid: 7378f2f3-c164-46fe-9989-a7a57fceb48a
@@ -50,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Data used in <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbaritem">IBrowserService2::_GetToolbarItem</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-v_maygetnexttoolbarfocus">IBrowserService2::v_MayGetNextToolbarFocus</a>, and <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_setfocus">IBrowserService2::_SetFocus</a> to define a toolbar item.
+Deprecated. Data used in <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbaritem">IBrowserService2::_GetToolbarItem</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-v_maygetnexttoolbarfocus">IBrowserService2::v_MayGetNextToolbarFocus</a>, and <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_setfocus">IBrowserService2::_SetFocus</a> to define a toolbar item.
 
 
 ## -struct-fields

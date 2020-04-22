@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.ResetDCA
 title: ResetDCA function (wingdi.h)
-description: The ResetDC function updates the specified printer or plotter device context (DC) using the specified information.helpviewer_keywords: ["ResetDC","ResetDC function [Windows GDI]","ResetDCA","ResetDCW","_win32_ResetDC","gdi.resetdc","wingdi/ResetDC","wingdi/ResetDCA","wingdi/ResetDCW"]
+description: The ResetDC function updates the specified printer or plotter device context (DC) using the specified information.
+helpviewer_keywords: ["ResetDC","ResetDC function [Windows GDI]","ResetDCA","ResetDCW","_win32_ResetDC","gdi.resetdc","wingdi/ResetDC","wingdi/ResetDCA","wingdi/ResetDCW"]
 old-location: gdi\resetdc.htm
 tech.root: gdi
 ms.assetid: 3f77db51-90d1-4a87-812b-1e129ae8fde9
@@ -68,7 +69,7 @@ A handle to the DC to update.
 
 ### -param lpdm [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure containing information about the new DC.
+A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure containing information about the new DC.
 
 
 ## -returns
@@ -92,7 +93,7 @@ The <b>ResetDC</b> function cannot be used to change the driver name, device nam
 
 An application can pass an information DC to the <b>ResetDC</b> function. In that situation, <b>ResetDC</b> will always return a printer DC.
 
-<b>ICM:</b> The color profile of the DC specified by the <i>hdc</i> parameter will be reset based on the information contained in the <b>lpInitData</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure.
+<b>ICM:</b> The color profile of the DC specified by the <i>hdc</i> parameter will be reset based on the information contained in the <b>lpInitData</b> member of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure.
 
 
 
@@ -102,7 +103,7 @@ An application can pass an information DC to the <b>ResetDC</b> function. In tha
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

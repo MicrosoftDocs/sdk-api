@@ -1,7 +1,8 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 title: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
-description: The IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code communicates attribute information to the volume manager and storage system device.helpviewer_keywords: ["IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES","IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control","IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code","base.ioctl_storage_manage_data_set_attributes","winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES"]
+description: The IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code communicates attribute information to the volume manager and storage system device.
+helpviewer_keywords: ["IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES","IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control","IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code","base.ioctl_storage_manage_data_set_attributes","winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES"]
 old-location: base\ioctl_storage_manage_data_set_attributes.htm
 tech.root: devio
 ms.assetid: 48e797ec-dad2-4a9e-9ccd-aaa65ece8da4
@@ -155,13 +156,13 @@ Use the
     control code for sending storage system-specific information to the volume manager and storage system.
 
 The input buffers passed through the <i>lpInBuffer</i> parameter start with a 
-     <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+     <a href="/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
      structure but may contain additional parameters before the list of data set ranges depending on the value of the 
      <b>Action</b> member of the 
      <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES</b> 
      structure. The output buffers returned 
      through the <i>lpOutBuffer</i> parameter start with a 
-     <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a> 
+     <a href="/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a> 
      structure but then can contain additional data depending on the value of the <b>Action</b> 
      member of the 
      <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</b> 
@@ -184,14 +185,14 @@ The input buffers passed through the <i>lpInBuffer</i> parameter start with a
 <tr>
 <td><b>DeviceDsmAction_Notification</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_dsm_notification_parameters">DEVICE_DSM_NOTIFICATION_PARAMETERS</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-device_dsm_notification_parameters">DEVICE_DSM_NOTIFICATION_PARAMETERS</a>
 </td>
 <td>None</td>
 </tr>
 <tr>
 <td><b>DeviceDsmAction_OffloadRead</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_read_parameters">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_read_parameters">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
 </td>
 <td>
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_read_output">STORAGE_OFFLOAD_READ_OUTPUT</a>
@@ -200,7 +201,7 @@ The input buffers passed through the <i>lpInBuffer</i> parameter start with a
 <tr>
 <td><b>DeviceDsmAction_OffloadWrite</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_write_parameters">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_write_parameters">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a>
 </td>
 <td>
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_write_output">STORAGE_OFFLOAD_WRITE_OUTPUT</a>
@@ -210,13 +211,13 @@ The input buffers passed through the <i>lpInBuffer</i> parameter start with a
 <td><b>DeviceDsmAction_Allocation</b></td>
 <td>None</td>
 <td>
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_data_set_lb_provisioning_state">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-device_data_set_lb_provisioning_state">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a>
 </td>
 </tr>
 <tr>
 <td><b>DeviceDsmAction_Repair</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_data_set_repair_parameters">DEVICE_DATA_SET_REPAIR_PARAMETERS</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-device_data_set_repair_parameters">DEVICE_DATA_SET_REPAIR_PARAMETERS</a>
 </td>
 <td>None</td>
 </tr>
@@ -241,7 +242,7 @@ The input buffers passed through the <i>lpInBuffer</i> parameter start with a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

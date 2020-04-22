@@ -1,7 +1,8 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.WTSSBX_MachineChangeNotification
 title: IWTSSBPlugin::WTSSBX_MachineChangeNotification (tssbx.h)
-description: Notifies the plug-in that a change occurred in the server environment.helpviewer_keywords: ["IWTSSBPlugin interface [Remote Desktop Services]","WTSSBX_MachineChangeNotification method","IWTSSBPlugin.WTSSBX_MachineChangeNotification","IWTSSBPlugin::WTSSBX_MachineChangeNotification","WTSSBX_MachineChangeNotification","WTSSBX_MachineChangeNotification method [Remote Desktop Services]","WTSSBX_MachineChangeNotification method [Remote Desktop Services]","IWTSSBPlugin interface","termserv.iwtssbplugin_wtssbx_machinechangenotification","tssbx/IWTSSBPlugin::WTSSBX_MachineChangeNotification"]
+description: Notifies the plug-in that a change occurred in the server environment.
+helpviewer_keywords: ["IWTSSBPlugin interface [Remote Desktop Services]","WTSSBX_MachineChangeNotification method","IWTSSBPlugin.WTSSBX_MachineChangeNotification","IWTSSBPlugin::WTSSBX_MachineChangeNotification","WTSSBX_MachineChangeNotification","WTSSBX_MachineChangeNotification method [Remote Desktop Services]","WTSSBX_MachineChangeNotification method [Remote Desktop Services]","IWTSSBPlugin interface","termserv.iwtssbplugin_wtssbx_machinechangenotification","tssbx/IWTSSBPlugin::WTSSBX_MachineChangeNotification"]
 old-location: termserv\iwtssbplugin_wtssbx_machinechangenotification.htm
 tech.root: TermServ
 ms.assetid: 226ca68e-6c3d-4160-a569-ca0b92cb9316
@@ -63,7 +64,7 @@ Notifies the plug-in that a change occurred in the server environment.
 
 ### -param NotificationType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ne-tssbx-wtssbx_notification_type">WTSSBX_NOTIFICATION_TYPE</a> enumeration type that indicates the type of event that occurred.
+A value of the <a href="/windows/win32/api/tssbx/ne-tssbx-wtssbx_notification_type">WTSSBX_NOTIFICATION_TYPE</a> enumeration type that indicates the type of event that occurred.
 
 
 ### -param MachineId [in]
@@ -73,7 +74,7 @@ The ID of the server on which the change  occurred.
 
 ### -param pMachineInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_info">WTSSBX_MACHINE_INFO</a> structure that contains information about the server that changed. Only the members that changed are reported in this structure. The other members are set to zero.
+A pointer to a <a href="/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_info">WTSSBX_MACHINE_INFO</a> structure that contains information about the server that changed. Only the members that changed are reported in this structure. The other members are set to zero.
 
 
 ## -returns

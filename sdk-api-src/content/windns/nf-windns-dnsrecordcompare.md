@@ -1,7 +1,8 @@
 ---
 UID: NF:windns.DnsRecordCompare
 title: DnsRecordCompare function (windns.h)
-description: The DnsRecordCompare function compares two DNS resource records (RR).helpviewer_keywords: ["DnsRecordCompare","DnsRecordCompare function [DNS]","_dns_dnsrecordcompare","dns.dnsrecordcompare","windns/DnsRecordCompare"]
+description: The DnsRecordCompare function compares two DNS resource records (RR).
+helpviewer_keywords: ["DnsRecordCompare","DnsRecordCompare function [DNS]","_dns_dnsrecordcompare","dns.dnsrecordcompare","windns/DnsRecordCompare"]
 old-location: dns\dnsrecordcompare.htm
 tech.root: DNS
 ms.assetid: c4449a23-d6d3-4f27-a963-a84144983e5e
@@ -60,12 +61,12 @@ The
 
 ### -param pRecord1 [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the first DNS RR of the comparison pair.
+A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the first DNS RR of the comparison pair.
 
 
 ### -param pRecord2 [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the second DNS RR of the comparison pair.
+A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the second DNS RR of the comparison pair.
 
 
 ## -returns
@@ -92,7 +93,7 @@ When comparing records, DNS RRs that are stored using different character encodi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 

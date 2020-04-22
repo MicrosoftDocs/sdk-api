@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetCenterX(float)
 title: IDCompositionRotateTransform3D::SetCenterX (dcomp.h)
-description: Changes the value of the CenterX property of a 3D rotation transform. The CenterX property specifies the x-coordinate of the point about which the rotation is performed. The default value is zero.helpviewer_keywords: ["IDCompositionRotateTransform3D interface [DirectComposition]","SetCenterX method","IDCompositionRotateTransform3D.SetCenterX","IDCompositionRotateTransform3D::SetCenterX","IDCompositionRotateTransform3D::SetCenterX(float)","SetCenterX","SetCenterX method [DirectComposition]","SetCenterX method [DirectComposition]","IDCompositionRotateTransform3D interface","dcomp/IDCompositionRotateTransform3D::SetCenterX","directcomp.idcompositionrotatetransform3d_setcenterx_float"]
+description: Changes the value of the CenterX property of a 3D rotation transform. The CenterX property specifies the x-coordinate of the point about which the rotation is performed. The default value is zero.
+helpviewer_keywords: ["IDCompositionRotateTransform3D interface [DirectComposition]","SetCenterX method","IDCompositionRotateTransform3D.SetCenterX","IDCompositionRotateTransform3D::SetCenterX","IDCompositionRotateTransform3D::SetCenterX(float)","SetCenterX","SetCenterX method [DirectComposition]","SetCenterX method [DirectComposition]","IDCompositionRotateTransform3D interface","dcomp/IDCompositionRotateTransform3D::SetCenterX","directcomp.idcompositionrotatetransform3d_setcenterx_float"]
 old-location: directcomp\idcompositionrotatetransform3d_setcenterx_float.htm
 tech.root: directcomp
 ms.assetid: 669A3002-23C0-44FA-ABC9-B4AE1C8A2C81
@@ -98,11 +99,11 @@ If the CenterX property was previously animated, this method removes the animati
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcentery(float)">IDCompositionRotateTransform3D::SetCenterY</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcentery(float)">IDCompositionRotateTransform3D::SetCenterY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterz(float)">IDCompositionRotateTransform3D::SetCenterZ</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterz(float)">IDCompositionRotateTransform3D::SetCenterZ</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetEffectiveClientArea
 title: IBrowserService2::_GetEffectiveClientArea (shdeprecated.h)
-description: Deprecated. Used with IBrowserService2::_GetViewBorderRect to negotiate the dimensions of the browser view.helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_GetEffectiveClientArea method","IBrowserService2._GetEffectiveClientArea","IBrowserService2::_GetEffectiveClientArea","_GetEffectiveClientArea","_GetEffectiveClientArea method [Windows Shell]","_GetEffectiveClientArea method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_GetEffectiveClientArea","shell.IBrowserService2__GetEffectiveClientArea","zone_IBrowserService2__GetEffectiveClientArea"]
+description: Deprecated. Used with IBrowserService2::_GetViewBorderRect to negotiate the dimensions of the browser view.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_GetEffectiveClientArea method","IBrowserService2._GetEffectiveClientArea","IBrowserService2::_GetEffectiveClientArea","_GetEffectiveClientArea","_GetEffectiveClientArea method [Windows Shell]","_GetEffectiveClientArea method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_GetEffectiveClientArea","shell.IBrowserService2__GetEffectiveClientArea","zone_IBrowserService2__GetEffectiveClientArea"]
 old-location: shell\IBrowserService2__GetEffectiveClientArea.htm
 tech.root: shell
 ms.assetid: c0c53cd4-4b85-42d5-98c3-22ef46644a3f
@@ -50,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Used with <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_getviewborderrect">IBrowserService2::_GetViewBorderRect</a> to negotiate the dimensions of the browser view.
+Deprecated. Used with <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_getviewborderrect">IBrowserService2::_GetViewBorderRect</a> to negotiate the dimensions of the browser view.
 
 
 ## -parameters

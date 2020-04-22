@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMBegin
 title: IComCRMEvents::OnCRMBegin (comsvcs.h)
-description: Generated when a CRM clerk is starting, either due to a client registering a compensator or during recovery.helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMBegin method","IComCRMEvents.OnCRMBegin","IComCRMEvents::OnCRMBegin","OnCRMBegin","OnCRMBegin method [COM+]","OnCRMBegin method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMBegin","comsvcs/IComCRMEvents::OnCRMBegin","cos.icomcrmevents_oncrmbegin"]
+description: Generated when a CRM clerk is starting, either due to a client registering a compensator or during recovery.
+helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMBegin method","IComCRMEvents.OnCRMBegin","IComCRMEvents::OnCRMBegin","OnCRMBegin","OnCRMBegin method [COM+]","OnCRMBegin method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMBegin","comsvcs/IComCRMEvents::OnCRMBegin","cos.icomcrmevents_oncrmbegin"]
 old-location: cos\icomcrmevents_oncrmbegin.htm
 tech.root: cossdk
 ms.assetid: 8975cb5e-024f-40bf-acd7-c5af0abd88a0
@@ -59,7 +60,7 @@ Generated when a CRM clerk is starting, either due to a client registering a com
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidClerkCLSID [in]

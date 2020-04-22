@@ -1,7 +1,8 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.SetProperty
 title: ICertificateEnrollmentPolicyServerSetup::SetProperty (casetup.h)
-description: Specifies a CEPSetupProperty enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.helpviewer_keywords: ["ICertificateEnrollmentPolicyServerSetup interface [Security]","SetProperty method","ICertificateEnrollmentPolicyServerSetup.SetProperty","ICertificateEnrollmentPolicyServerSetup::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","ICertificateEnrollmentPolicyServerSetup interface","casetup/ICertificateEnrollmentPolicyServerSetup::SetProperty","security.icertificateenrollmentpolicyserversetup_setproperty"]
+description: Specifies a CEPSetupProperty enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
+helpviewer_keywords: ["ICertificateEnrollmentPolicyServerSetup interface [Security]","SetProperty method","ICertificateEnrollmentPolicyServerSetup.SetProperty","ICertificateEnrollmentPolicyServerSetup::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","ICertificateEnrollmentPolicyServerSetup interface","casetup/ICertificateEnrollmentPolicyServerSetup::SetProperty","security.icertificateenrollmentpolicyserversetup_setproperty"]
 old-location: security\icertificateenrollmentpolicyserversetup_setproperty.htm
 tech.root: SecCrypto
 ms.assetid: 81E20BFF-B4EC-4FA5-A881-5BDCE3FC3057
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetProperty</b> method specifies a <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
+The <b>SetProperty</b> method specifies a <a href="/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ The <b>SetProperty</b> method specifies a <a href="https://docs.microsoft.com/wi
 
 ### -param propertyId [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration that specifies the property value to set. The following values are valid.
+A value of the <a href="/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration that specifies the property value to set. The following values are valid.
 
 <table>
 <tr>
@@ -134,7 +135,7 @@ If you specify <b>ENUM_CEPSETUPPROP_KEYBASED_RENEWAL</b> in the <i>propertyId</i
 </dl>
 </td>
 <td width="60%">
-The <i>propertyId</i> argument is not a member of the <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration type or you have tried to set the <b>ENUM_CEPSETUPPROP_URL</b> value.
+The <i>propertyId</i> argument is not a member of the <a href="/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration type or you have tried to set the <b>ENUM_CEPSETUPPROP_URL</b> value.
 
 </td>
 </tr>

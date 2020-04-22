@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.Int32x32To64
 title: Int32x32To64 macro (winnt.h)
-description: Multiplies two signed 32-bit integers, returning a signed 64-bit integer result.helpviewer_keywords: ["Int32x32To64","Int32x32To64 macro [Windows API]","_win32_int32x32to64","winnt/Int32x32To64","winprog.int32x32to64"]
+description: Multiplies two signed 32-bit integers, returning a signed 64-bit integer result.
+helpviewer_keywords: ["Int32x32To64","Int32x32To64 macro [Windows API]","_win32_int32x32to64","winnt/Int32x32To64","winprog.int32x32to64"]
 old-location: winprog\int32x32to64.htm
 tech.root: WinProg
 ms.assetid: 5c0caf42-2a2f-4eae-b0be-e8bb1b87dd9d
@@ -74,7 +75,7 @@ The second signed 32-bit integer for the multiplication operation.
 This function is implemented on all platforms by optimal inline code: a single multiply instruction that returns a 64-bit result.
 
 Please note that the function's return value is a 64-bit value, not a 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure.
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure.
 
 
 

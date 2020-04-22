@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsGetFaultErrorDetail
 title: WsGetFaultErrorDetail function (webservices.h)
-description: Read the fault detail stored in a WS_ERROR object.helpviewer_keywords: ["WsGetFaultErrorDetail","WsGetFaultErrorDetail function [Web Services for Windows]","webservices/WsGetFaultErrorDetail","wsw.wsgetfaulterrordetail"]
+description: Read the fault detail stored in a WS_ERROR object.
+helpviewer_keywords: ["WsGetFaultErrorDetail","WsGetFaultErrorDetail function [Web Services for Windows]","webservices/WsGetFaultErrorDetail","wsw.wsgetfaulterrordetail"]
 old-location: wsw\wsgetfaulterrordetail.htm
 tech.root: wsw
 ms.assetid: 426c292f-64a5-411f-a63e-6be05fe93438
@@ -179,7 +180,7 @@ This API deserializes the value from the detail field of
             
 
 This functions supports the following scenarios, based on the contents
-                of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_fault_detail_description">WS_ELEMENT_DESCRIPTION</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault_detail_description">WS_FAULT_DETAIL_DESCRIPTION</a> supplied:
+                of the <a href="/windows/win32/api/webservices/ns-webservices-ws_fault_detail_description">WS_ELEMENT_DESCRIPTION</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault_detail_description">WS_FAULT_DETAIL_DESCRIPTION</a> supplied:
             
 
 <ul>

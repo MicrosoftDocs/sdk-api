@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcSignaturePartReference
 title: IOpcSignaturePartReference (msopc.h)
-description: Represents a reference to a part that has been or will be signed.helpviewer_keywords: ["IOpcSignaturePartReference","IOpcSignaturePartReference interface [Open Packaging Conventions]","IOpcSignaturePartReference interface [Open Packaging Conventions]","described","msopc/IOpcSignaturePartReference","opc.iopcsignaturepartreference"]
+description: Represents a reference to a part that has been or will be signed.
+helpviewer_keywords: ["IOpcSignaturePartReference","IOpcSignaturePartReference interface [Open Packaging Conventions]","IOpcSignaturePartReference interface [Open Packaging Conventions]","described","msopc/IOpcSignaturePartReference","opc.iopcsignaturepartreference"]
 old-location: opc\iopcsignaturepartreference.htm
 tech.root: OPC
 ms.assetid: b4bbf854-96b4-412b-a22d-c810423a3752
@@ -191,7 +192,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
 
 
 

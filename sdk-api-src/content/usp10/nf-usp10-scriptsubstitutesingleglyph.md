@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptSubstituteSingleGlyph
 title: ScriptSubstituteSingleGlyph function (usp10.h)
-description: Enables substitution of a single glyph with one alternate form of the same glyph for OpenType processing.helpviewer_keywords: ["ScriptSubstituteSingleGlyph","ScriptSubstituteSingleGlyph function [Internationalization for Windows Applications]","_win32_ScriptSubstituteSingleGlyph","intl.scriptsubstitutesingleglyph","usp10/ScriptSubstituteSingleGlyph"]
+description: Enables substitution of a single glyph with one alternate form of the same glyph for OpenType processing.
+helpviewer_keywords: ["ScriptSubstituteSingleGlyph","ScriptSubstituteSingleGlyph function [Internationalization for Windows Applications]","_win32_ScriptSubstituteSingleGlyph","intl.scriptsubstitutesingleglyph","usp10/ScriptSubstituteSingleGlyph"]
 old-location: intl\scriptsubstitutesingleglyph.htm
 tech.root: Intl
 ms.assetid: 1aecde5a-ddca-4163-9159-dafc15f9ca59
@@ -72,7 +73,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cac
 
 ### -param psa [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine so that the correct substitute glyph is used.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine so that the correct substitute glyph is used.
 
 Alternatively, the application can set this parameter to <b>NULL</b> to retrieve unfiltered results.
 
@@ -140,7 +141,7 @@ This function uses one-to-one substitution in which the application can substitu
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 

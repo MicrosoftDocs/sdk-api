@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.VirtualAlloc2
 title: VirtualAlloc2 function (memoryapi.h)
-description: Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero.helpviewer_keywords: ["MEM_COMMIT","MEM_LARGE_PAGES","MEM_PHYSICAL","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE","MEM_RESERVE_PLACEHOLDER","MEM_RESET","MEM_RESET_UNDO","MEM_TOP_DOWN","VirtualAlloc2","VirtualAlloc2 function","base.virtualalloc2","memoryapi/VirtualAlloc2"]
+description: Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero.
+helpviewer_keywords: ["MEM_COMMIT","MEM_LARGE_PAGES","MEM_PHYSICAL","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE","MEM_RESERVE_PLACEHOLDER","MEM_RESET","MEM_RESET_UNDO","MEM_TOP_DOWN","VirtualAlloc2","VirtualAlloc2 function","base.virtualalloc2","memoryapi/VirtualAlloc2"]
 old-location: base\virtualalloc2.htm
 tech.root: Memory
 ms.assetid: 5021062F-E414-49A1-8B70-BE2A57A90E54
@@ -313,7 +314,7 @@ If <i>BaseAddress</i> specifies an address within an enclave, <i>PageProtection<
 
 ### -param ExtendedParameters [in, out, optional]
 
-An optional pointer to one or more  extended parameters of type <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-mem_extended_parameter">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
+An optional pointer to one or more  extended parameters of type <a href="/windows/win32/api/winnt/ns-winnt-mem_extended_parameter">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
 
 
 ### -param ParameterCount [in]

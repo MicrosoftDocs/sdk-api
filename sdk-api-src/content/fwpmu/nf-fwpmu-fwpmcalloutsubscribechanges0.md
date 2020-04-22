@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmCalloutSubscribeChanges0
 title: FwpmCalloutSubscribeChanges0 function (fwpmu.h)
-description: Is used to request the delivery of notifications regarding changes in a particular callout.helpviewer_keywords: ["FwpmCalloutSubscribeChanges0","FwpmCalloutSubscribeChanges0 function [Filtering]","fwp.fwpmcalloutsubscribechanges0_func","fwpmu/FwpmCalloutSubscribeChanges0"]
+description: Is used to request the delivery of notifications regarding changes in a particular callout.
+helpviewer_keywords: ["FwpmCalloutSubscribeChanges0","FwpmCalloutSubscribeChanges0 function [Filtering]","fwp.fwpmcalloutsubscribechanges0_func","fwpmu/FwpmCalloutSubscribeChanges0"]
 old-location: fwp\fwpmcalloutsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: 1460603c-6897-4559-b376-b87a6c2f4309
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param subscription [in]
 
-Type: [FWPM_CALLOUT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_subscription0)a>*</b>
+Type: [FWPM_CALLOUT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_subscription0)*</b>
 
 The notifications which will be delivered.
 
@@ -172,7 +173,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_CALLOUT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_subscription0)a>
+[FWPM_CALLOUT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_subscription0)
 
 
 

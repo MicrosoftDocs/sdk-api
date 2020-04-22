@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFTRegister
 title: MFTRegister function (mfapi.h)
-description: Adds information about a Media Foundation transform (MFT) to the registry.helpviewer_keywords: ["MFTRegister","MFTRegister function [Media Foundation]","MFT_CODEC_MERIT_Attribute","MFT_ENUM_FLAG_ASYNCMFT","MFT_ENUM_FLAG_FIELDOFUSE","MFT_ENUM_FLAG_HARDWARE","MFT_ENUM_FLAG_SYNCMFT","MFT_ENUM_FLAG_TRANSCODE_ONLY","fb3a2b67-d3e4-4d5f-960a-3979f4780904","mf.mftregister","mfapi/MFTRegister"]
+description: Adds information about a Media Foundation transform (MFT) to the registry.
+helpviewer_keywords: ["MFTRegister","MFTRegister function [Media Foundation]","MFT_CODEC_MERIT_Attribute","MFT_ENUM_FLAG_ASYNCMFT","MFT_ENUM_FLAG_FIELDOFUSE","MFT_ENUM_FLAG_HARDWARE","MFT_ENUM_FLAG_SYNCMFT","MFT_ENUM_FLAG_TRANSCODE_ONLY","fb3a2b67-d3e4-4d5f-960a-3979f4780904","mf.mftregister","mfapi/MFTRegister"]
 old-location: mf\mftregister.htm
 tech.root: medfound
 ms.assetid: fb3a2b67-d3e4-4d5f-960a-3979f4780904
@@ -79,7 +80,7 @@ Wide-character string that contains the friendly name of the MFT.
 
 ### -param Flags [in]
 
-Bitwise <b>OR</b> of zero or more of the following flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a>  enumeration:
+Bitwise <b>OR</b> of zero or more of the following flags from the <a href="/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a>  enumeration:
 
 <table>
 <tr>
@@ -162,7 +163,7 @@ Number of elements in the <i>pInputTypes</i> array.
 
 ### -param pInputTypes [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array specifies an input format that the MFT supports.  This parameter can be <b>NULL</b>.
+Pointer to an array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array specifies an input format that the MFT supports.  This parameter can be <b>NULL</b>.
 
 This parameter can be <b>NULL</b>. However, if the parameter is <b>NULL</b>, the MFT will be enumerated only when an application specifies <b>NULL</b> for the desired input type.
 
@@ -175,7 +176,7 @@ Number of elements in the <i>pOutputTypes</i> array.
 
 ### -param pOutputTypes [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array defines an output format that the MFT supports. 
+Pointer to an array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array defines an output format that the MFT supports. 
 
 This parameter can be <b>NULL</b>. However, if the parameter is <b>NULL</b>, the MFT will be enumerated only when an application specifies <b>NULL</b> for the desired output type.
 
@@ -280,7 +281,7 @@ On 64-bit Windows, the 32-bit version of this function registers the MFT in the 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a>
+<a href="/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a>
  
 
  

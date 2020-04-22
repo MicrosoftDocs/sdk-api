@@ -1,7 +1,8 @@
 ---
 UID: NE:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0002
 title: AAAccountingDataType (tsgpolicyengine.h)
-description: Specifies the type of event that the ITSGAccountingEngine::DoAccounting method is being notified of.helpviewer_keywords: ["AAAccountingDataType","AAAccountingDataType enumeration [Remote Desktop Services]","AA_MAIN_SESSION_CLOSED","AA_MAIN_SESSION_CREATION","AA_SUB_SESSION_CLOSED","AA_SUB_SESSION_CREATION","termserv.aaaccountingdatatype","tsgpolicyengine/AAAccountingDataType","tsgpolicyengine/AA_MAIN_SESSION_CLOSED","tsgpolicyengine/AA_MAIN_SESSION_CREATION","tsgpolicyengine/AA_SUB_SESSION_CLOSED","tsgpolicyengine/AA_SUB_SESSION_CREATION"]
+description: Specifies the type of event that the ITSGAccountingEngine::DoAccounting method is being notified of.
+helpviewer_keywords: ["AAAccountingDataType","AAAccountingDataType enumeration [Remote Desktop Services]","AA_MAIN_SESSION_CLOSED","AA_MAIN_SESSION_CREATION","AA_SUB_SESSION_CLOSED","AA_SUB_SESSION_CREATION","termserv.aaaccountingdatatype","tsgpolicyengine/AAAccountingDataType","tsgpolicyengine/AA_MAIN_SESSION_CLOSED","tsgpolicyengine/AA_MAIN_SESSION_CREATION","tsgpolicyengine/AA_SUB_SESSION_CLOSED","tsgpolicyengine/AA_SUB_SESSION_CREATION"]
 old-location: termserv\aaaccountingdatatype.htm
 tech.root: TermServ
 ms.assetid: 2864d044-266c-44e4-90d3-ccd75bf08348
@@ -62,7 +63,7 @@ Specifies the type of event that the <a href="https://docs.microsoft.com/windows
 
 A new session was created.
 
-The following fields in the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>userName</b></li>
@@ -75,7 +76,7 @@ The following fields in the <a href="https://docs.microsoft.com/windows/win32/ap
 
 A new subsession was created by an  existing connection.
 
-The following fields in the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>userName</b></li>
@@ -90,7 +91,7 @@ The following fields in the <a href="https://docs.microsoft.com/windows/win32/ap
 
 A subsession was closed.
 
-The following fields in the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>numberOfBytesTransfered</b></li>
@@ -103,7 +104,7 @@ The following fields in the <a href="https://docs.microsoft.com/windows/win32/ap
 
 A connection was closed.
 
-The following fields in the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>mainSessionId</b></li>

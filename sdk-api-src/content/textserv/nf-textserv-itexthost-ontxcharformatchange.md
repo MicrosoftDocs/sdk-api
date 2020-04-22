@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextHost.OnTxCharFormatChange
 title: ITextHost::OnTxCharFormatChange (textserv.h)
-description: Sets the default character format for the text host.helpviewer_keywords: ["ITextHost interface [Windows Controls]","OnTxCharFormatChange method","ITextHost.OnTxCharFormatChange","ITextHost::OnTxCharFormatChange","OnTxCharFormatChange","OnTxCharFormatChange method [Windows Controls]","OnTxCharFormatChange method [Windows Controls]","ITextHost interface","_win32_ITextHost_OnTxCharFormatChange","_win32_ITextHost_OnTxCharFormatChange_cpp","controls.ITextHost_OnTxCharFormatChange","controls._win32_ITextHost_OnTxCharFormatChange","textserv/ITextHost::OnTxCharFormatChange"]
+description: Sets the default character format for the text host.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","OnTxCharFormatChange method","ITextHost.OnTxCharFormatChange","ITextHost::OnTxCharFormatChange","OnTxCharFormatChange","OnTxCharFormatChange method [Windows Controls]","OnTxCharFormatChange method [Windows Controls]","ITextHost interface","_win32_ITextHost_OnTxCharFormatChange","_win32_ITextHost_OnTxCharFormatChange_cpp","controls.ITextHost_OnTxCharFormatChange","controls._win32_ITextHost_OnTxCharFormatChange","textserv/ITextHost::OnTxCharFormatChange"]
 old-location: controls\ITextHost_OnTxCharFormatChange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxcharformatchange.htm
@@ -59,7 +60,7 @@ Sets the default character format for the text host.
 
 ### -param pCF [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>*</b>
+Type: <b>const <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>*</b>
 
 The new default-character format. 
 
@@ -112,7 +113,7 @@ Unspecified error.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>
+<a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>
 
 
 

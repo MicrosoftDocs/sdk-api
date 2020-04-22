@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothRemoveDevice
 title: BluetoothRemoveDevice function (bluetoothapis.h)
-description: Removes authentication between a Bluetooth device and the computer and clears cached service information for the device.helpviewer_keywords: ["BluetoothRemoveDevice","BluetoothRemoveDevice function [Bluetooth]","bluetooth.bluetoothremovedevice","bluetoothapis/BluetoothRemoveDevice"]
+description: Removes authentication between a Bluetooth device and the computer and clears cached service information for the device.
+helpviewer_keywords: ["BluetoothRemoveDevice","BluetoothRemoveDevice function [Bluetooth]","bluetooth.bluetoothremovedevice","bluetoothapis/BluetoothRemoveDevice"]
 old-location: bluetooth\bluetoothremovedevice.htm
 tech.root: bluetooth
 ms.assetid: dd4f6468-ccc2-4072-95c5-97553308ae47
@@ -87,11 +88,11 @@ The <b>BluetoothRemoveDevice</b> function fails if the device indicated by <i>pA
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
 
 
 

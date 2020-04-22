@@ -1,7 +1,8 @@
 ---
 UID: NS:windns.__unnamed_struct_6
 title: DNS_SOA_DATAA (windns.h)
-description: The DNS_SOA_DATA structure represents a DNS start of authority (SOA) record as specified in section 3.3.13 of RFC 1035.helpviewer_keywords: ["*PDNS_SOA_DATA","*PDNS_SOA_DATAA","DNS_SOA_DATA","DNS_SOA_DATA structure [DNS]","DNS_SOA_DATAA","PDNS_SOA_DATA","PDNS_SOA_DATA structure pointer [DNS]","_dns_dns_soa_data","dns.dns_soa_data","windns/DNS_SOA_DATA","windns/PDNS_SOA_DATA"]
+description: The DNS_SOA_DATA structure represents a DNS start of authority (SOA) record as specified in section 3.3.13 of RFC 1035.
+helpviewer_keywords: ["*PDNS_SOA_DATA","*PDNS_SOA_DATAA","DNS_SOA_DATA","DNS_SOA_DATA structure [DNS]","DNS_SOA_DATAA","PDNS_SOA_DATA","PDNS_SOA_DATA structure pointer [DNS]","_dns_dns_soa_data","dns.dns_soa_data","windns/DNS_SOA_DATA","windns/PDNS_SOA_DATA"]
 old-location: dns\dns_soa_data.htm
 tech.root: DNS
 ms.assetid: 715cbb70-91fe-47ac-a713-1fe0701d4f8c
@@ -99,7 +100,7 @@ The lower limit on the time, in seconds, that a DNS server or caching resolver a
 
 The 
 <b>DNS_SOA_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -109,7 +110,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

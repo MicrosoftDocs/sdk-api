@@ -1,7 +1,8 @@
 ---
 UID: NS:mftransform._MFT_OUTPUT_STREAM_INFO
 title: MFT_OUTPUT_STREAM_INFO (mftransform.h)
-description: Contains information about an output stream on a Media Foundation transform (MFT). To get these values, call IMFTransform::GetOutputStreamInfo.helpviewer_keywords: ["4181d8b8-7c1b-4f8e-a0c6-63ab039539f6","MFT_OUTPUT_STREAM_INFO","MFT_OUTPUT_STREAM_INFO structure [Media Foundation]","mf.mft_output_stream_info","mftransform/MFT_OUTPUT_STREAM_INFO"]
+description: Contains information about an output stream on a Media Foundation transform (MFT). To get these values, call IMFTransform::GetOutputStreamInfo.
+helpviewer_keywords: ["4181d8b8-7c1b-4f8e-a0c6-63ab039539f6","MFT_OUTPUT_STREAM_INFO","MFT_OUTPUT_STREAM_INFO structure [Media Foundation]","mf.mft_output_stream_info","mftransform/MFT_OUTPUT_STREAM_INFO"]
 old-location: mf\mft_output_stream_info.htm
 tech.root: medfound
 ms.assetid: 4181d8b8-7c1b-4f8e-a0c6-63ab039539f6
@@ -62,7 +63,7 @@ Contains information about an output stream on a Media Foundation transform (MFT
 
 ### -field dwFlags
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_output_stream_info_flags">_MFT_OUTPUT_STREAM_INFO_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="/windows/win32/api/mftransform/ne-mftransform-_mft_output_stream_info_flags">_MFT_OUTPUT_STREAM_INFO_FLAGS</a> enumeration.
 
 
 ### -field cbSize

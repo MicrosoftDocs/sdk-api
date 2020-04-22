@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionReflection.GetResourceBindingDescByName
 title: ID3D12FunctionReflection::GetResourceBindingDescByName (d3d12shader.h)
-description: Gets a description of how a resource is bound to a function.helpviewer_keywords: ["GetResourceBindingDescByName","GetResourceBindingDescByName method","GetResourceBindingDescByName method","ID3D12FunctionReflection interface","ID3D12FunctionReflection interface","GetResourceBindingDescByName method","ID3D12FunctionReflection.GetResourceBindingDescByName","ID3D12FunctionReflection::GetResourceBindingDescByName","d3d12shader/ID3D12FunctionReflection::GetResourceBindingDescByName","direct3d12.id3d12functionreflection_getresourcebindingdescbyname"]
+description: Gets a description of how a resource is bound to a function.
+helpviewer_keywords: ["GetResourceBindingDescByName","GetResourceBindingDescByName method","GetResourceBindingDescByName method","ID3D12FunctionReflection interface","ID3D12FunctionReflection interface","GetResourceBindingDescByName method","ID3D12FunctionReflection.GetResourceBindingDescByName","ID3D12FunctionReflection::GetResourceBindingDescByName","d3d12shader/ID3D12FunctionReflection::GetResourceBindingDescByName","direct3d12.id3d12functionreflection_getresourcebindingdescbyname"]
 old-location: direct3d12\id3d12functionreflection_getresourcebindingdescbyname.htm
 tech.root: direct3d12
 ms.assetid: CF13496F-4317-4FFF-85CA-08FC64E320F4
@@ -68,9 +69,9 @@ The constant-buffer name of the resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc">D3D12_SHADER_INPUT_BIND_DESC</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc">D3D12_SHADER_INPUT_BIND_DESC</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc">D3D12_SHADER_INPUT_BIND_DESC</a> structure that describes input binding of the resource.
+A pointer to a <a href="/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc">D3D12_SHADER_INPUT_BIND_DESC</a> structure that describes input binding of the resource.
           
 
 

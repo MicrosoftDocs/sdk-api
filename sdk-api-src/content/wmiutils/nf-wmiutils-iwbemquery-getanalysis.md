@@ -1,7 +1,8 @@
 ---
 UID: NF:wmiutils.IWbemQuery.GetAnalysis
 title: IWbemQuery::GetAnalysis (wmiutils.h)
-description: Gets the results of a successful query parse.helpviewer_keywords: ["GetAnalysis","GetAnalysis method [Windows Management Instrumentation]","GetAnalysis method [Windows Management Instrumentation]","IWbemQuery interface","IWbemQuery interface [Windows Management Instrumentation]","GetAnalysis method","IWbemQuery.GetAnalysis","IWbemQuery::GetAnalysis","WMIQ_ANALYSIS_ASSOC_QUERY","WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX","WMIQ_ANALYSIS_QUERY_TEXT","WMIQ_ANALYSIS_RPN_SEQUENCE","_hmm_iwbemquery_getanalysis","wmi.iwbemquery_getanalysis","wmiutils/IWbemQuery::GetAnalysis"]
+description: Gets the results of a successful query parse.
+helpviewer_keywords: ["GetAnalysis","GetAnalysis method [Windows Management Instrumentation]","GetAnalysis method [Windows Management Instrumentation]","IWbemQuery interface","IWbemQuery interface [Windows Management Instrumentation]","GetAnalysis method","IWbemQuery.GetAnalysis","IWbemQuery::GetAnalysis","WMIQ_ANALYSIS_ASSOC_QUERY","WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX","WMIQ_ANALYSIS_QUERY_TEXT","WMIQ_ANALYSIS_RPN_SEQUENCE","_hmm_iwbemquery_getanalysis","wmi.iwbemquery_getanalysis","wmiutils/IWbemQuery::GetAnalysis"]
 old-location: wmi\iwbemquery_getanalysis.htm
 tech.root: WmiSdk
 ms.assetid: 06cd2593-58f5-46b9-9100-debad0280d90
@@ -66,13 +67,13 @@ Type of analysis to get.
 
 #### WMIQ_ANALYSIS_RPN_SEQUENCE (1)
 
-Used if the query has a SELECT clause. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a> structure.
+Used if the query has a SELECT clause. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a> structure.
 
 
 
 #### WMIQ_ANALYSIS_ASSOC_QUERY (2)
 
-Used to return information about association type queries. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemassocqueryinf">SWbemAssocQueryInf</a> structure.
+Used to return information about association type queries. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemassocqueryinf">SWbemAssocQueryInf</a> structure.
 
 
 
@@ -119,11 +120,11 @@ This method returns an <b>HRESULT</b> that indicates the status of a method call
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemassocqueryinf">SWbemAssocQueryInf</a>
+<a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemassocqueryinf">SWbemAssocQueryInf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a>
+<a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a>
  
 
  

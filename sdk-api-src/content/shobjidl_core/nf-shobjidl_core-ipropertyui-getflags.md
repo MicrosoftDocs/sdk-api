@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetFlags
 title: IPropertyUI::GetFlags (shobjidl_core.h)
-description: Developers should use IPropertyDescription instead. Gets property feature flags for a specified property.helpviewer_keywords: ["GetFlags","GetFlags method [Windows Properties]","GetFlags method [Windows Properties]","IPropertyUI interface","IPropertyUI interface [Windows Properties]","GetFlags method","IPropertyUI.GetFlags","IPropertyUI::GetFlags","_shell_IPropertyUI_GetFlags","properties.IPropertyUI_GetFlags","shell.IPropertyUI_GetFlags","shobjidl_core/IPropertyUI::GetFlags"]
+description: Developers should use IPropertyDescription instead. Gets property feature flags for a specified property.
+helpviewer_keywords: ["GetFlags","GetFlags method [Windows Properties]","GetFlags method [Windows Properties]","IPropertyUI interface","IPropertyUI interface [Windows Properties]","GetFlags method","IPropertyUI.GetFlags","IPropertyUI::GetFlags","_shell_IPropertyUI_GetFlags","properties.IPropertyUI_GetFlags","shell.IPropertyUI_GetFlags","shobjidl_core/IPropertyUI::GetFlags"]
 old-location: properties\IPropertyUI_GetFlags.htm
 tech.root: properties
 ms.assetid: 8ADF50C1-CD6C-489c-9599-2AEB5C5FF00C
@@ -73,9 +74,9 @@ The PROPID of the property.
 
 ### -param pflags [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_propertyui_flags">PROPERTYUI_FLAGS</a>*</b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_propertyui_flags">PROPERTYUI_FLAGS</a>*</b>
 
-The <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_propertyui_flags">PROPERTYUI_FLAGS</a> for the property.
+The <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_propertyui_flags">PROPERTYUI_FLAGS</a> for the property.
 
 
 ## -returns

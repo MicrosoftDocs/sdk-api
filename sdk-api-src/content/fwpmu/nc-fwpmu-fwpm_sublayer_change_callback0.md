@@ -1,7 +1,8 @@
 ---
 UID: NC:fwpmu.FWPM_SUBLAYER_CHANGE_CALLBACK0
 title: FWPM_SUBLAYER_CHANGE_CALLBACK0 (fwpmu.h)
-description: Is used to added custom behavior to the sublayer change notification process.helpviewer_keywords: ["FWPM_SUBLAYER_CHANGE_CALLBACK0","FWPM_SUBLAYER_CHANGE_CALLBACK0 callback","FWPM_SUBLAYER_CHANGE_CALLBACK0 callback function [Filtering]","fwp.fwpm_sublayer_change_callback0_func","fwpmu/FWPM_SUBLAYER_CHANGE_CALLBACK0"]
+description: Is used to added custom behavior to the sublayer change notification process.
+helpviewer_keywords: ["FWPM_SUBLAYER_CHANGE_CALLBACK0","FWPM_SUBLAYER_CHANGE_CALLBACK0 callback","FWPM_SUBLAYER_CHANGE_CALLBACK0 callback function [Filtering]","fwp.fwpm_sublayer_change_callback0_func","fwpmu/FWPM_SUBLAYER_CHANGE_CALLBACK0"]
 old-location: fwp\fwpm_sublayer_change_callback0_func.htm
 tech.root: fwp
 ms.assetid: b608d13f-bc76-478b-b18f-527f438a1222
@@ -66,7 +67,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param *change [in]
 
-Type: [FWPM_SUBLAYER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_change0)a>*</b>
+Type: [FWPM_SUBLAYER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_change0)*</b>
 
 The change notification information.
 
@@ -87,7 +88,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpm
 
 
 
-[FWPM_SUBLAYER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_change0)a>
+[FWPM_SUBLAYER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_change0)
 
 
 

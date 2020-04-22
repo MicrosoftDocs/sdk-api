@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetViewport
 title: IXpsOMTileBrush::SetViewport (xpsobjectmodel.h)
-description: Sets the portion of the destination geometry that is covered by a single tile.helpviewer_keywords: ["IXpsOMTileBrush interface [XPS Documents and Packaging]","SetViewport method","IXpsOMTileBrush.SetViewport","IXpsOMTileBrush::SetViewport","SetViewport","SetViewport method [XPS Documents and Packaging]","SetViewport method [XPS Documents and Packaging]","IXpsOMTileBrush interface","xps.ixpsomtilebrush_setviewport","xpsobjectmodel/IXpsOMTileBrush::SetViewport"]
+description: Sets the portion of the destination geometry that is covered by a single tile.
+helpviewer_keywords: ["IXpsOMTileBrush interface [XPS Documents and Packaging]","SetViewport method","IXpsOMTileBrush.SetViewport","IXpsOMTileBrush::SetViewport","SetViewport","SetViewport method [XPS Documents and Packaging]","SetViewport method [XPS Documents and Packaging]","IXpsOMTileBrush interface","xps.ixpsomtilebrush_setviewport","xpsobjectmodel/IXpsOMTileBrush::SetViewport"]
 old-location: xps\ixpsomtilebrush_setviewport.htm
 tech.root: printdocs
 ms.assetid: e4a60f8d-3389-4420-851c-48483acecf0a
@@ -59,7 +60,7 @@ Sets the portion of the destination geometry that is covered by a single tile.
 
 ### -param viewport [in]
 
-An <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that describes the portion of the destination geometry that is covered by a single  tile.
+An <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that describes the portion of the destination geometry that is covered by a single  tile.
 
 
 ## -returns
@@ -139,7 +140,7 @@ The viewport is the portion of the output area where the tile is drawn. In the f
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
  
 
  

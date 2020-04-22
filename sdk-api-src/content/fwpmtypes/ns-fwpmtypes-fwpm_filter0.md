@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER0_
 title: FWPM_FILTER0 (fwpmtypes.h)
-description: Stores the state associated with a filter.helpviewer_keywords: ["FWPM_FILTER0","FWPM_FILTER0 structure [Filtering]","FWPM_FILTER_FLAG_BOOTTIME","FWPM_FILTER_FLAG_CLEAR_ACTION_RIGHT","FWPM_FILTER_FLAG_DISABLED","FWPM_FILTER_FLAG_HAS_PROVIDER_CONTEXT","FWPM_FILTER_FLAG_INDEXED","FWPM_FILTER_FLAG_NONE","FWPM_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED","FWPM_FILTER_FLAG_PERSISTENT","FWP_EMPTY","FWP_UINT64","FWP_UINT8","fwp.fwpm_filter0","fwpmtypes/FWPM_FILTER0"]
+description: Stores the state associated with a filter.
+helpviewer_keywords: ["FWPM_FILTER0","FWPM_FILTER0 structure [Filtering]","FWPM_FILTER_FLAG_BOOTTIME","FWPM_FILTER_FLAG_CLEAR_ACTION_RIGHT","FWPM_FILTER_FLAG_DISABLED","FWPM_FILTER_FLAG_HAS_PROVIDER_CONTEXT","FWPM_FILTER_FLAG_INDEXED","FWPM_FILTER_FLAG_NONE","FWPM_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED","FWPM_FILTER_FLAG_PERSISTENT","FWP_EMPTY","FWP_UINT64","FWP_UINT8","fwp.fwpm_filter0","fwpmtypes/FWPM_FILTER0"]
 old-location: fwp\fwpm_filter0.htm
 tech.root: fwp
 ms.assetid: e1925824-01c2-426a-a8f0-4d5882812a9e
@@ -67,7 +68,7 @@ If the GUID is initialized to zero in the
 
 ### -field displayData
 
-A [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a> structure that contains human-readable annotations associated with the filter.  The <b>name</b> member of the <b>FWPM_DISPLAY_DATA0</b> structure is required.
+A [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0) structure that contains human-readable annotations associated with the filter.  The <b>name</b> member of the <b>FWPM_DISPLAY_DATA0</b> structure is required.
 
 
 ### -field flags
@@ -182,7 +183,7 @@ Optional GUID of the policy provider that manages this filter. See <a href="http
 
 ### -field providerData
 
-A [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure that contains optional provider-specific data used by providers to store additional context information with the object.
+A [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) structure that contains optional provider-specific data used by providers to store additional context information with the object.
 
 
 ### -field layerKey
@@ -200,7 +201,7 @@ If this is set to IID_NULL, the filter is added to the default sublayer.
 ### -field weight
 
 
-A [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a> structure that specifies the weight of the filter. Possible type values for <b>weight</b> are as follows.
+A [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) structure that specifies the weight of the filter. Possible type values for <b>weight</b> are as follows.
 
 
 
@@ -254,7 +255,7 @@ Number of filter conditions.
 
 ### -field filterCondition
 
-Array of  [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a> structures that contain all the filtering conditions. All must be true for the action to be
+Array of  [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0) structures that contain all the filtering conditions. All must be true for the action to be
    performed. In other words, the conditions are evaluated using the AND operator. If no
    conditions are specified, the action is always performed. 
 
@@ -263,7 +264,7 @@ Array of  [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/ap
 
 ### -field action
 
-A [FWPM_ACTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_action0)a> structure that specifies the action to be performed if all the filter conditions are true. 
+A [FWPM_ACTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_action0) structure that specifies the action to be performed if all the filter conditions are true. 
 
 
 ### -field rawContext
@@ -293,7 +294,7 @@ LUID identifying the filter. This is also the LUID of the corresponding
 
 ### -field effectiveWeight
 
-An [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a> structure that contains the weight assigned to <b>FWPS_FILTER0</b>, which is documented in the WDK. 
+An [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) structure that contains the weight assigned to <b>FWPS_FILTER0</b>, which is documented in the WDK. 
 
 
 ## -remarks
@@ -314,19 +315,19 @@ The last members, <b>filterId</b> and <b>effectiveWeight</b>, provides additiona
 
 
 
-[FWPM_ACTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_action0)a>
+[FWPM_ACTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_action0)
 
 
 
-[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a>
+[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)
 
 
 
-[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a>
+[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)
 
 
 
-[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a>
+[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)
 
 
 

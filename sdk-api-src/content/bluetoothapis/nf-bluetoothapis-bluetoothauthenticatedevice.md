@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothAuthenticateDevice
 title: BluetoothAuthenticateDevice function (bluetoothapis.h)
-description: Sends an authentication request to a remote Bluetooth device.helpviewer_keywords: ["BluetoothAuthenticateDevice","BluetoothAuthenticateDevice function [Bluetooth]","bluetooth.bluetoothauthenticatedevice","bluetoothapis/BluetoothAuthenticateDevice"]
+description: Sends an authentication request to a remote Bluetooth device.
+helpviewer_keywords: ["BluetoothAuthenticateDevice","BluetoothAuthenticateDevice function [Bluetooth]","bluetooth.bluetoothauthenticatedevice","bluetoothapis/BluetoothAuthenticateDevice"]
 old-location: bluetooth\bluetoothauthenticatedevice.htm
 tech.root: bluetooth
 ms.assetid: 9f8ff768-a794-4a61-a215-ae17e9acf620
@@ -69,7 +70,7 @@ A valid local radio handle, or <b>NULL</b>. If <b>NULL</b>, authentication is at
 
 ### -param pbtbi
 
-A structure of type <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> that contains the record of the Bluetooth device to be authenticated.
+A structure of type <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> that contains the record of the Bluetooth device to be authenticated.
 
 
 ### -param pszPasskey
@@ -210,7 +211,7 @@ Transparent mode is started when <i>pszPasskey</i> is not <b>NULL</b>. In Transp
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 

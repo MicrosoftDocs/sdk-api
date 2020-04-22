@@ -1,7 +1,8 @@
 ---
 UID: NS:cfgmgr32.Mem_Des_s
 title: MEM_DES (cfgmgr32.h)
-description: The MEM_DES structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.helpviewer_keywords: ["*PMEM_DES","MEM_DES","MEM_DES structure [Device and Driver Installation]","PMEM_DES","PMEM_DES structure pointer [Device and Driver Installation]","cfgmgr32/MEM_DES","cfgmgr32/PMEM_DES","cfgmgrst_cdbb69b5-e18f-4721-bb66-c6160d959f10.xml","devinst.mem_des"]
+description: The MEM_DES structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
+helpviewer_keywords: ["*PMEM_DES","MEM_DES","MEM_DES structure [Device and Driver Installation]","PMEM_DES","PMEM_DES structure pointer [Device and Driver Installation]","cfgmgr32/MEM_DES","cfgmgr32/PMEM_DES","cfgmgrst_cdbb69b5-e18f-4721-bb66-c6160d959f10.xml","devinst.mem_des"]
 old-location: devinst\mem_des.htm
 tech.root: devinst
 ms.assetid: 1a9ee8f2-fabe-4351-b11e-93f46e190d66
@@ -71,7 +72,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the [MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)a> array that is included in the [MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)a> structure.
+The number of elements in the [MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range) array that is included in the [MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource) structure.
 
 
 ### -field MD_Type
@@ -377,11 +378,11 @@ Bitmask for the bit within <b>MD_Flags</b> that specifies the combine-write cach
 
 
 
-[MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)a>
+[MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)
 
 
 
-[MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)a>
+[MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)
  
 
  

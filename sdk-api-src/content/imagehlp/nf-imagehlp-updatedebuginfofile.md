@@ -1,7 +1,8 @@
 ---
 UID: NF:imagehlp.UpdateDebugInfoFile
 title: UpdateDebugInfoFile function (imagehlp.h)
-description: Uses the specified information to update the corresponding fields in the symbol file.helpviewer_keywords: ["UpdateDebugInfoFile","UpdateDebugInfoFile function","_win32_updatedebuginfofile","base.updatedebuginfofile","imagehlp/UpdateDebugInfoFile"]
+description: Uses the specified information to update the corresponding fields in the symbol file.
+helpviewer_keywords: ["UpdateDebugInfoFile","UpdateDebugInfoFile function","_win32_updatedebuginfofile","base.updatedebuginfofile","imagehlp/UpdateDebugInfoFile"]
 old-location: base\updatedebuginfofile.htm
 tech.root: Debug
 ms.assetid: b29026e2-3063-447c-9449-7105deb3d744
@@ -78,7 +79,7 @@ A pointer to a buffer that receives the name of the symbol file that was updated
 ### -param NtHeaders [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure that specifies the new header information.
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure that specifies the new header information.
 
 
 ## -returns
@@ -99,7 +100,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 The 
 <b>UpdateDebugInfoFile</b> function takes the information stored in the 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure and updates the corresponding fields in the symbol file. Any time an image file is modified, this function should be called to keep the numbers in sync. Specifically, whenever an image checksum changes, the symbol file should be updated to match.
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure and updates the corresponding fields in the symbol file. Any time an image file is modified, this function should be called to keep the numbers in sync. Specifically, whenever an image checksum changes, the symbol file should be updated to match.
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -111,7 +112,7 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
 
 
 

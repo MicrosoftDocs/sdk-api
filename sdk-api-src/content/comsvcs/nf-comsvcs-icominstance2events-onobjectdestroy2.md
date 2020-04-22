@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComInstance2Events.OnObjectDestroy2
 title: IComInstance2Events::OnObjectDestroy2 (comsvcs.h)
-description: Generated when a client releases an object.helpviewer_keywords: ["IComInstance2Events interface [COM+]","OnObjectDestroy2 method","IComInstance2Events.OnObjectDestroy2","IComInstance2Events::OnObjectDestroy2","OnObjectDestroy2","OnObjectDestroy2 method [COM+]","OnObjectDestroy2 method [COM+]","IComInstance2Events interface","_dtc_IComInstance2Events_OnObjectDestroy2","comsvcs/IComInstance2Events::OnObjectDestroy2","cos.icominstance2events_onobjectdestroy2"]
+description: Generated when a client releases an object.
+helpviewer_keywords: ["IComInstance2Events interface [COM+]","OnObjectDestroy2 method","IComInstance2Events.OnObjectDestroy2","IComInstance2Events::OnObjectDestroy2","OnObjectDestroy2","OnObjectDestroy2 method [COM+]","OnObjectDestroy2 method [COM+]","IComInstance2Events interface","_dtc_IComInstance2Events_OnObjectDestroy2","comsvcs/IComInstance2Events::OnObjectDestroy2","cos.icominstance2events_onobjectdestroy2"]
 old-location: cos\icominstance2events_onobjectdestroy2.htm
 tech.root: cossdk
 ms.assetid: eeaf62b1-4c25-4232-829b-b2b147575ce9
@@ -59,7 +60,7 @@ Generated when a client releases an object.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param CtxtID [in]

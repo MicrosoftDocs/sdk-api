@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.GetAvailableDynamicObjectCount
 title: ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount (spatialaudioclient.h)
-description: Gets the number of dynamic spatial audio objects that are currently available.helpviewer_keywords: ["GetAvailableDynamicObjectCount","GetAvailableDynamicObjectCount method [Core Audio]","GetAvailableDynamicObjectCount method [Core Audio]","ISpatialAudioObjectRenderStreamBase interface","ISpatialAudioObjectRenderStreamBase interface [Core Audio]","GetAvailableDynamicObjectCount method","ISpatialAudioObjectRenderStreamBase.GetAvailableDynamicObjectCount","ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount","coreaudio.ispatialaudioobjectrenderstream_getavailabledynamicobjectcount","spatialaudioclient/ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount"]
+description: Gets the number of dynamic spatial audio objects that are currently available.
+helpviewer_keywords: ["GetAvailableDynamicObjectCount","GetAvailableDynamicObjectCount method [Core Audio]","GetAvailableDynamicObjectCount method [Core Audio]","ISpatialAudioObjectRenderStreamBase interface","ISpatialAudioObjectRenderStreamBase interface [Core Audio]","GetAvailableDynamicObjectCount method","ISpatialAudioObjectRenderStreamBase.GetAvailableDynamicObjectCount","ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount","coreaudio.ispatialaudioobjectrenderstream_getavailabledynamicobjectcount","spatialaudioclient/ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount"]
 old-location: coreaudio\ispatialaudioobjectrenderstream_getavailabledynamicobjectcount.htm
 tech.root: CoreAudio
 ms.assetid: 5E17B53A-B999-4B08-9DFB-96D55E7F9CF7
@@ -81,7 +82,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
+The <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
 
 </td>
 </tr>
@@ -159,7 +160,7 @@ You should not call this method after streaming has started, as the value is alr
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

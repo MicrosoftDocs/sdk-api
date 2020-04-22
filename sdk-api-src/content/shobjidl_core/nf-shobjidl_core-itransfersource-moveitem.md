@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.MoveItem
 title: ITransferSource::MoveItem (shobjidl_core.h)
-description: Moves the item within the volume/namespace, returning the IShellItem in its new location.helpviewer_keywords: ["ITransferSource interface [Windows Shell]","MoveItem method","ITransferSource.MoveItem","ITransferSource::MoveItem","MoveItem","MoveItem method [Windows Shell]","MoveItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_MoveItem","shell.ITransferSource_MoveItem","shobjidl_core/ITransferSource::MoveItem"]
+description: Moves the item within the volume/namespace, returning the IShellItem in its new location.
+helpviewer_keywords: ["ITransferSource interface [Windows Shell]","MoveItem method","ITransferSource.MoveItem","ITransferSource::MoveItem","MoveItem","MoveItem method [Windows Shell]","MoveItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_MoveItem","shell.ITransferSource_MoveItem","shobjidl_core/ITransferSource::MoveItem"]
 old-location: shell\ITransferSource_MoveItem.htm
 tech.root: shell
 ms.assetid: de59291c-12ad-4639-bc10-d8416a979eb7
@@ -80,9 +81,9 @@ Pointer to a null-terminated buffer that contains the destination path.
 
 ### -param flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
 
-Flags that control the file operation. One or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
+Flags that control the file operation. One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ### -param ppsiNew [out]

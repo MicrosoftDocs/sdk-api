@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilGetBinaryValue
 title: ResUtilGetBinaryValue function (resapi.h)
-description: Returns a binary value from the cluster database.helpviewer_keywords: ["PRESUTIL_GET_BINARY_VALUE","PRESUTIL_GET_BINARY_VALUE function [Failover Cluster]","ResUtilGetBinaryValue","ResUtilGetBinaryValue function [Failover Cluster]","_wolf_resutilgetbinaryvalue","mscs.resutilgetbinaryvalue","resapi/PRESUTIL_GET_BINARY_VALUE","resapi/ResUtilGetBinaryValue"]
+description: Returns a binary value from the cluster database.
+helpviewer_keywords: ["PRESUTIL_GET_BINARY_VALUE","PRESUTIL_GET_BINARY_VALUE function [Failover Cluster]","ResUtilGetBinaryValue","ResUtilGetBinaryValue function [Failover Cluster]","_wolf_resutilgetbinaryvalue","mscs.resutilgetbinaryvalue","resapi/PRESUTIL_GET_BINARY_VALUE","resapi/ResUtilGetBinaryValue"]
 old-location: mscs\resutilgetbinaryvalue.htm
 tech.root: MsCS
 ms.assetid: d5068cc4-1fdc-430a-a48b-8e024bc20ca3
@@ -130,7 +131,7 @@ The  <b>ResUtilGetBinaryValue</b> utility function takes care of allocating the 
 
 
 
-[ResUtilGetExpandSzValue](/windows/win32/api/resapi/nf-resapi-resutilgetexpandszvalue)a>
+[ResUtilGetExpandSzValue](/windows/win32/api/resapi/nf-resapi-resutilgetexpandszvalue)
 
 
 

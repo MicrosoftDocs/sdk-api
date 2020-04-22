@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGradientBrush
 title: IXpsOMGradientBrush (xpsobjectmodel.h)
-description: This interface describes a gradient that is made up of gradient stops. Classes that inherit from IXpsOMGradientBrush specify different ways of interpreting gradient stops.helpviewer_keywords: ["IXpsOMGradientBrush","IXpsOMGradientBrush interface [XPS Documents and Packaging]","IXpsOMGradientBrush interface [XPS Documents and Packaging]","described","xps.ixpsomgradientbrush","xpsobjectmodel/IXpsOMGradientBrush"]
+description: This interface describes a gradient that is made up of gradient stops. Classes that inherit from IXpsOMGradientBrush specify different ways of interpreting gradient stops.
+helpviewer_keywords: ["IXpsOMGradientBrush","IXpsOMGradientBrush interface [XPS Documents and Packaging]","IXpsOMGradientBrush interface [XPS Documents and Packaging]","described","xps.ixpsomgradientbrush","xpsobjectmodel/IXpsOMGradientBrush"]
 old-location: xps\ixpsomgradientbrush.htm
 tech.root: printdocs
 ms.assetid: d381b813-5368-4ffe-a9a1-0f5027ae9d80
@@ -93,7 +94,7 @@ Gets a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xps
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientbrush-getspreadmethod">GetSpreadMethod</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region will be rendered.
+Gets the <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region will be rendered.
 
 </td>
 </tr>
@@ -131,7 +132,7 @@ Gets the name of the lookup key  of the shared matrix transform interface that i
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientbrush-setcolorinterpolationmode">SetColorInterpolationMode</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation">XPS_COLOR_INTERPOLATION</a> value, which describes the gamma function to be used for color interpolation.
+Sets the <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation">XPS_COLOR_INTERPOLATION</a> value, which describes the gamma function to be used for color interpolation.
             
 
 </td>
@@ -141,7 +142,7 @@ Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientbrush-setspreadmethod">SetSpreadMethod</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region is to be rendered.
+Sets the <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region is to be rendered.
             
 
 </td>
@@ -182,7 +183,7 @@ Gradient stops  define the color at specific locations along the gradient path; 
 As shown in the figure that follows, the gradient region of a radial gradient is the area enclosed by the ellipse that is described by the center point and the x and y radii that extend from the center point. The spread area is the area outside of that ellipse. The gradient path is a radial line that sweeps the entire gradient region from the gradient origin to the ellipse that bounds the gradient region. In the following illustration, the gradient path is not shown.
 
 <img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient1.png"/>
-The spread method describes how the spread area is filled. Implementation of the spread method depends on the gradient type (linear or radial). The following illustration shows several examples of how the spread area can be filled. For  information about different spread methods, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a>.
+The spread method describes how the spread area is filled. Implementation of the spread method depends on the gradient type (linear or radial). The following illustration shows several examples of how the spread area can be filled. For  information about different spread methods, see <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a>.
 
 <img alt="An illustration that shows examples of the spread method" src="./images/XPS_Spread_Method.png"/>
  The transform  determines how the resulting gradient is transformed. The visible part of the gradient that is ultimately rendered in the image is determined by the path, stroke, or glyph that is using the gradient brush.

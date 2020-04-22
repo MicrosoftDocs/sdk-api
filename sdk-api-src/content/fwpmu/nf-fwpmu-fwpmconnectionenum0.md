@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmConnectionEnum0
 title: FwpmConnectionEnum0 function (fwpmu.h)
-description: Returns the next page of results from the connection object enumerator.helpviewer_keywords: ["FwpmConnectionEnum0","FwpmConnectionEnum0 function [Filtering]","fwp.fwpmconnectionenum0","fwpmu/FwpmConnectionEnum0"]
+description: Returns the next page of results from the connection object enumerator.
+helpviewer_keywords: ["FwpmConnectionEnum0","FwpmConnectionEnum0 function [Filtering]","fwp.fwpmconnectionenum0","fwpmu/FwpmConnectionEnum0"]
 old-location: fwp\fwpmconnectionenum0.htm
 tech.root: fwp
 ms.assetid: ad4c8759-f1f8-460f-b1e1-78149ce3b386
@@ -80,7 +81,7 @@ Number of connection objects requested.
 
 ### -param entries [out]
 
-Type: [FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)a>***</b>
+Type: [FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)***</b>
 
 Addresses of enumeration entries.
 
@@ -163,7 +164,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-[FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)a>
+[FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)
 
 
 

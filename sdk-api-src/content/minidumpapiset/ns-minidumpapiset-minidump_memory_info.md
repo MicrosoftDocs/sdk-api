@@ -1,7 +1,8 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MEMORY_INFO
 title: MINIDUMP_MEMORY_INFO (minidumpapiset.h)
-description: Describes a region of memory.helpviewer_keywords: ["*PMINIDUMP_MEMORY_INFO","MEM_COMMIT","MEM_FREE","MEM_IMAGE","MEM_MAPPED","MEM_PRIVATE","MEM_RESERVE","MINIDUMP_MEMORY_INFO","MINIDUMP_MEMORY_INFO structure","PMINIDUMP_MEMORY_INFO","PMINIDUMP_MEMORY_INFO structure pointer","_MINIDUMP_MEMORY_INFO","base.minidump_memory_info_str","minidumpapiset/MINIDUMP_MEMORY_INFO","minidumpapiset/PMINIDUMP_MEMORY_INFO"]
+description: Describes a region of memory.
+helpviewer_keywords: ["*PMINIDUMP_MEMORY_INFO","MEM_COMMIT","MEM_FREE","MEM_IMAGE","MEM_MAPPED","MEM_PRIVATE","MEM_RESERVE","MINIDUMP_MEMORY_INFO","MINIDUMP_MEMORY_INFO structure","PMINIDUMP_MEMORY_INFO","PMINIDUMP_MEMORY_INFO structure pointer","_MINIDUMP_MEMORY_INFO","base.minidump_memory_info_str","minidumpapiset/MINIDUMP_MEMORY_INFO","minidumpapiset/PMINIDUMP_MEMORY_INFO"]
 old-location: base\minidump_memory_info_str.htm
 tech.root: Debug
 ms.assetid: e9a797b9-5cad-48c0-bb33-ca9c13de8239
@@ -194,7 +195,7 @@ A variable for alignment.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>
  
 
  

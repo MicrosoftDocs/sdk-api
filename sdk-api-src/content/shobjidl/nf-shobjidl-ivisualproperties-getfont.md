@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IVisualProperties.GetFont
 title: IVisualProperties::GetFont (shobjidl.h)
-description: Gets the current attributes set on the font.helpviewer_keywords: ["GetFont","GetFont method [Windows Shell]","GetFont method [Windows Shell]","IVisualProperties interface","IVisualProperties interface [Windows Shell]","GetFont method","IVisualProperties.GetFont","IVisualProperties::GetFont","_shell_IVisualProperties_GetFont","shell.IVisualProperties_GetFont","shobjidl/IVisualProperties::GetFont"]
+description: Gets the current attributes set on the font.
+helpviewer_keywords: ["GetFont","GetFont method [Windows Shell]","GetFont method [Windows Shell]","IVisualProperties interface","IVisualProperties interface [Windows Shell]","GetFont method","IVisualProperties.GetFont","IVisualProperties::GetFont","_shell_IVisualProperties_GetFont","shell.IVisualProperties_GetFont","shobjidl/IVisualProperties::GetFont"]
 old-location: shell\IVisualProperties_GetFont.htm
 tech.root: shell
 ms.assetid: d12e2091-37cb-4a9e-abfc-8795d18bddd2
@@ -61,7 +62,7 @@ Gets the current attributes set on the font.
 
 Type: <b>LOGFONTW*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dimm/ns-dimm-logfonta">LOGFONT</a> structure that, when this method returns successfully, receives the current attributes of the font.
+A pointer to a <a href="/windows/win32/api/dimm/ns-dimm-logfonta">LOGFONT</a> structure that, when this method returns successfully, receives the current attributes of the font.
 
 
 ## -returns

@@ -1,7 +1,8 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_HANDLE_OBJECT_INFORMATION
 title: MINIDUMP_HANDLE_OBJECT_INFORMATION (minidumpapiset.h)
-description: Contains object-specific information for a handle.helpviewer_keywords: ["MINIDUMP_HANDLE_OBJECT_INFORMATION","MINIDUMP_HANDLE_OBJECT_INFORMATION structure","_MINIDUMP_HANDLE_OBJECT_INFORMATION","base.minidump_handle_object_information","minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION"]
+description: Contains object-specific information for a handle.
+helpviewer_keywords: ["MINIDUMP_HANDLE_OBJECT_INFORMATION","MINIDUMP_HANDLE_OBJECT_INFORMATION structure","_MINIDUMP_HANDLE_OBJECT_INFORMATION","base.minidump_handle_object_information","minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION"]
 old-location: base\minidump_handle_object_information.htm
 tech.root: Debug
 ms.assetid: fb79de10-7a98-4a21-b394-63e5279b6681
@@ -65,7 +66,7 @@ An RVA to a
 
 ### -field InfoType
 
-The object information type. This member is one of the values from the <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_handle_object_information_type">MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE</a> enumeration.
+The object information type. This member is one of the values from the <a href="/windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_handle_object_information_type">MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE</a> enumeration.
 
 
 ### -field SizeOfInfo
@@ -78,7 +79,7 @@ The size of the information that follows this member, in bytes.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor_2">MINIDUMP_HANDLE_DESCRIPTOR_2</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor_2">MINIDUMP_HANDLE_DESCRIPTOR_2</a>
  
 
  

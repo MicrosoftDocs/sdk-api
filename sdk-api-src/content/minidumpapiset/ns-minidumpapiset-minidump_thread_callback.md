@@ -1,7 +1,8 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD_CALLBACK
 title: MINIDUMP_THREAD_CALLBACK (minidumpapiset.h)
-description: Contains thread information for the MiniDumpCallback function when the callback type is ThreadCallback.helpviewer_keywords: ["*PMINIDUMP_THREAD_CALLBACK","MINIDUMP_THREAD_CALLBACK","MINIDUMP_THREAD_CALLBACK structure","PMINIDUMP_THREAD_CALLBACK","PMINIDUMP_THREAD_CALLBACK structure pointer","_MINIDUMP_THREAD_CALLBACK","_win32_minidump_thread_callback_str","base.minidump_thread_callback_str","minidumpapiset/MINIDUMP_THREAD_CALLBACK","minidumpapiset/PMINIDUMP_THREAD_CALLBACK"]
+description: Contains thread information for the MiniDumpCallback function when the callback type is ThreadCallback.
+helpviewer_keywords: ["*PMINIDUMP_THREAD_CALLBACK","MINIDUMP_THREAD_CALLBACK","MINIDUMP_THREAD_CALLBACK structure","PMINIDUMP_THREAD_CALLBACK","PMINIDUMP_THREAD_CALLBACK structure pointer","_MINIDUMP_THREAD_CALLBACK","_win32_minidump_thread_callback_str","base.minidump_thread_callback_str","minidumpapiset/MINIDUMP_THREAD_CALLBACK","minidumpapiset/PMINIDUMP_THREAD_CALLBACK"]
 old-location: base\minidump_thread_callback_str.htm
 tech.root: Debug
 ms.assetid: 31da83e6-af8c-440c-b715-78c9c6ac4b9f
@@ -104,7 +105,7 @@ The ending address of the thread stack.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a>
 
 
 

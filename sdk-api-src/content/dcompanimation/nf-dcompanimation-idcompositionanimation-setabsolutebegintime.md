@@ -1,7 +1,8 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.SetAbsoluteBeginTime
 title: IDCompositionAnimation::SetAbsoluteBeginTime (dcompanimation.h)
-description: Sets the absolute time at which the animation function starts.helpviewer_keywords: ["IDCompositionAnimation interface [DirectComposition]","SetAbsoluteBeginTime method","IDCompositionAnimation.SetAbsoluteBeginTime","IDCompositionAnimation::SetAbsoluteBeginTime","SetAbsoluteBeginTime","SetAbsoluteBeginTime method [DirectComposition]","SetAbsoluteBeginTime method [DirectComposition]","IDCompositionAnimation interface","dcompanimation/IDCompositionAnimation::SetAbsoluteBeginTime","directcomp.idcompositionanimation_setabsolutebegintime"]
+description: Sets the absolute time at which the animation function starts.
+helpviewer_keywords: ["IDCompositionAnimation interface [DirectComposition]","SetAbsoluteBeginTime method","IDCompositionAnimation.SetAbsoluteBeginTime","IDCompositionAnimation::SetAbsoluteBeginTime","SetAbsoluteBeginTime","SetAbsoluteBeginTime method [DirectComposition]","SetAbsoluteBeginTime method [DirectComposition]","IDCompositionAnimation interface","dcompanimation/IDCompositionAnimation::SetAbsoluteBeginTime","directcomp.idcompositionanimation_setabsolutebegintime"]
 old-location: directcomp\idcompositionanimation_setabsolutebegintime.htm
 tech.root: directcomp
 ms.assetid: 661049EC-DAA2-46A5-B600-C3F0EF8B3EDF
@@ -59,7 +60,7 @@ Sets the absolute time at which the animation function starts.
 
 ### -param beginTime [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 The starting time for this animation.
 

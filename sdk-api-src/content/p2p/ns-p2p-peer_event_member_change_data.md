@@ -1,7 +1,8 @@
 ---
 UID: NS:p2p.peer_event_member_change_data_tag
 title: PEER_EVENT_MEMBER_CHANGE_DATA (p2p.h)
-description: The PEER_EVENT_MEMBER_CHANGE_DATA structure contains data that describes a change in the status of a peer group member.helpviewer_keywords: ["*PPEER_EVENT_MEMBER_CHANGE_DATA","PEER_EVENT_MEMBER_CHANGE_DATA","PEER_EVENT_MEMBER_CHANGE_DATA structure [Peer Networking]","PPEER_EVENT_MEMBER_CHANGE_DATA","PPEER_EVENT_MEMBER_CHANGE_DATA structure pointer [Peer Networking]","p2p.peer_event_member_change_data","p2p/PPEER_EVENT_MEMBER_CHANGE_DATA","p2p/peer_event_member_change_data_tag"]
+description: The PEER_EVENT_MEMBER_CHANGE_DATA structure contains data that describes a change in the status of a peer group member.
+helpviewer_keywords: ["*PPEER_EVENT_MEMBER_CHANGE_DATA","PEER_EVENT_MEMBER_CHANGE_DATA","PEER_EVENT_MEMBER_CHANGE_DATA structure [Peer Networking]","PPEER_EVENT_MEMBER_CHANGE_DATA","PPEER_EVENT_MEMBER_CHANGE_DATA structure pointer [Peer Networking]","p2p.peer_event_member_change_data","p2p/PPEER_EVENT_MEMBER_CHANGE_DATA","p2p/peer_event_member_change_data_tag"]
 old-location: p2p\peer_event_member_change_data.htm
 tech.root: P2PSdk
 ms.assetid: 5ba37006-1ded-4996-a190-d789e5cc0755
@@ -77,7 +78,7 @@ Pointer to a Unicode string that contains the peer name of the peer group member
 
 
 
-[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a>
+[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)
 
 
 

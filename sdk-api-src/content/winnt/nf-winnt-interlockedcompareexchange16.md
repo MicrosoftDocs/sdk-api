@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.InterlockedCompareExchange16
 title: InterlockedCompareExchange16 function (winnt.h)
-description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 16-bit values and exchanges with another 16-bit value based on the outcome of the comparison.helpviewer_keywords: ["InterlockedCompareExchange16","InterlockedCompareExchange16 function","base.interlockedcompareexchange16","winnt/InterlockedCompareExchange16"]
+description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 16-bit values and exchanges with another 16-bit value based on the outcome of the comparison.
+helpviewer_keywords: ["InterlockedCompareExchange16","InterlockedCompareExchange16 function","base.interlockedcompareexchange16","winnt/InterlockedCompareExchange16"]
 old-location: base\interlockedcompareexchange16.htm
 tech.root: Sync
 ms.assetid: 5bf2e0d7-1b64-4622-8b6f-4ac903027064
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 16-bit values and exchanges with another 16-bit value based on the outcome of the comparison.
 
-To operate on 32-bit values, use the <a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a> function.
+To operate on 32-bit values, use the <a href="/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a> function.
 
 To operate on 64-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedcompareexchange64">InterlockedCompareExchange64</a> function.
 
@@ -120,7 +121,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange">InterlockedCompareExchange</a>
 
 
 

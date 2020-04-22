@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont2.GetPositionSubSuper
 title: ITextFont2::GetPositionSubSuper (tom.h)
-description: Gets the subscript or superscript position relative to the baseline.helpviewer_keywords: ["GetPositionSubSuper","GetPositionSubSuper method [Windows Controls]","GetPositionSubSuper method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetPositionSubSuper method","ITextFont2.GetPositionSubSuper","ITextFont2::GetPositionSubSuper","controls.itextfont2_getpositionsubsuper","tom/ITextFont2::GetPositionSubSuper"]
+description: Gets the subscript or superscript position relative to the baseline.
+helpviewer_keywords: ["GetPositionSubSuper","GetPositionSubSuper method [Windows Controls]","GetPositionSubSuper method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetPositionSubSuper method","ITextFont2.GetPositionSubSuper","ITextFont2::GetPositionSubSuper","controls.itextfont2_getpositionsubsuper","tom/ITextFont2::GetPositionSubSuper"]
 old-location: controls\itextfont2_getpositionsubsuper.htm
 tech.root: Controls
 ms.assetid: c7e53a94-b218-47d1-b366-3bbf7779516e
@@ -81,7 +82,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 The subscript or superscript position is relative to the baseline as a percent of the font height.
 
-Subscripts and superscripts in math zones are handled using the <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomSubscript</a>, <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomSuperscript</a>, <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomSubSup</a>, and <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomLeftSubSup</a> mathematical objects. See <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a>.
+Subscripts and superscripts in math zones are handled using the <a href="/windows/win32/api/tom/ne-tom-objecttype">tomSubscript</a>, <a href="/windows/win32/api/tom/ne-tom-objecttype">tomSuperscript</a>, <a href="/windows/win32/api/tom/ne-tom-objecttype">tomSubSup</a>, and <a href="/windows/win32/api/tom/ne-tom-objecttype">tomLeftSubSup</a> mathematical objects. See <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a>.
 
 
 

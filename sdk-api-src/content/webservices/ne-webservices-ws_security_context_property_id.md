@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_76
 title: WS_SECURITY_CONTEXT_PROPERTY_ID (webservices.h)
-description: Identifies a property of a security context object. This enumeration is used with WsGetSecurityContextProperty.helpviewer_keywords: ["WS_SECURITY_CONTEXT_PROPERTY_ID","WS_SECURITY_CONTEXT_PROPERTY_ID enumeration [Web Services for Windows]","WS_SECURITY_CONTEXT_PROPERTY_IDENTIFIER","WS_SECURITY_CONTEXT_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN","WS_SECURITY_CONTEXT_PROPERTY_SAML_ASSERTION","WS_SECURITY_CONTEXT_PROPERTY_USERNAME","webservices/WS_SECURITY_CONTEXT_PROPERTY_ID","webservices/WS_SECURITY_CONTEXT_PROPERTY_IDENTIFIER","webservices/WS_SECURITY_CONTEXT_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN","webservices/WS_SECURITY_CONTEXT_PROPERTY_SAML_ASSERTION","webservices/WS_SECURITY_CONTEXT_PROPERTY_USERNAME","wsw.ws_security_context_property_id"]
+description: Identifies a property of a security context object. This enumeration is used with WsGetSecurityContextProperty.
+helpviewer_keywords: ["WS_SECURITY_CONTEXT_PROPERTY_ID","WS_SECURITY_CONTEXT_PROPERTY_ID enumeration [Web Services for Windows]","WS_SECURITY_CONTEXT_PROPERTY_IDENTIFIER","WS_SECURITY_CONTEXT_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN","WS_SECURITY_CONTEXT_PROPERTY_SAML_ASSERTION","WS_SECURITY_CONTEXT_PROPERTY_USERNAME","webservices/WS_SECURITY_CONTEXT_PROPERTY_ID","webservices/WS_SECURITY_CONTEXT_PROPERTY_IDENTIFIER","webservices/WS_SECURITY_CONTEXT_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN","webservices/WS_SECURITY_CONTEXT_PROPERTY_SAML_ASSERTION","webservices/WS_SECURITY_CONTEXT_PROPERTY_USERNAME","wsw.ws_security_context_property_id"]
 old-location: wsw\ws_security_context_property_id.htm
 tech.root: wsw
 ms.assetid: fd2b92d4-9834-4d4b-85c3-8ea8d2c8bd8c
@@ -82,7 +83,7 @@ If a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webs
 
 ### -field WS_SECURITY_CONTEXT_PROPERTY_SAML_ASSERTION
 
-If a <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_saml_message_security_binding">WS_SAML_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
+If a <a href="/windows/win32/api/webservices/ns-webservices-ws_saml_message_security_binding">WS_SAML_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
           is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> that represents the SAML assertion that was used during the establishment of the security context.
         
 

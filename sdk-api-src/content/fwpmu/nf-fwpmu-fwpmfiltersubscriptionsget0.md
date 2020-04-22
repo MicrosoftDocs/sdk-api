@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmFilterSubscriptionsGet0
 title: FwpmFilterSubscriptionsGet0 function (fwpmu.h)
-description: Retrieves an array of all the current filter change notification subscriptions.helpviewer_keywords: ["FwpmFilterSubscriptionsGet0","FwpmFilterSubscriptionsGet0 function [Filtering]","fwp.fwpmfiltersubscriptionsget0_func","fwpmu/FwpmFilterSubscriptionsGet0"]
+description: Retrieves an array of all the current filter change notification subscriptions.
+helpviewer_keywords: ["FwpmFilterSubscriptionsGet0","FwpmFilterSubscriptionsGet0 function [Filtering]","fwp.fwpmfiltersubscriptionsget0_func","fwpmu/FwpmFilterSubscriptionsGet0"]
 old-location: fwp\fwpmfiltersubscriptionsget0_func.htm
 tech.root: fwp
 ms.assetid: 347c7792-12bc-4a2c-b4c2-7a71ee4a3709
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param entries [out]
 
-Type: [FWPM_FILTER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)a>***</b>
+Type: [FWPM_FILTER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)***</b>
 
 The current filter change notification subscriptions.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_FILTER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)a>
+[FWPM_FILTER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)
  
 
  

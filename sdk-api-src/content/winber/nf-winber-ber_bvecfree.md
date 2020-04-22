@@ -1,7 +1,8 @@
 ---
 UID: NF:winber.ber_bvecfree
 title: ber_bvecfree function (winber.h)
-description: The ber_bvecfree function frees an array of berval structures.helpviewer_keywords: ["_ldap_ber_bvecfree","ber_bvecfree","ber_bvecfree function [LDAP]","ldap.ber__bvecfree","ldap.ber_bvecfree","winber/ber_bvecfree"]
+description: The ber_bvecfree function frees an array of berval structures.
+helpviewer_keywords: ["_ldap_ber_bvecfree","ber_bvecfree","ber_bvecfree function [LDAP]","ldap.ber__bvecfree","ldap.ber_bvecfree","winber/ber_bvecfree"]
 old-location: ldap\ber_bvecfree.htm
 tech.root: ldap
 ms.assetid: 5c2b53e4-257e-4c3f-b712-345e6b33341b
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>ber_bvecfree</b> function frees an array of 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures.
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures.
 
 
 ## -parameters
@@ -60,7 +61,7 @@ The <b>ber_bvecfree</b> function frees an array of
 
 ### -param pBerVal [in]
 
-Pointer to a NULL-terminated array of <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures to be deallocated.
+Pointer to a NULL-terminated array of <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures to be deallocated.
 
 
 ## -returns
@@ -77,9 +78,9 @@ None.
 
 
 Use this function only to free an array of 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_scanf">ber_scanf</a> with the <b>V</b> character included in the format string.
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_scanf">ber_scanf</a> with the <b>V</b> character included in the format string.
 
-An application should not call this function to free a <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that it has allocated.
+An application should not call this function to free a <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that it has allocated.
 
 
 
@@ -93,7 +94,7 @@ An application should not call this function to free a <a href="https://docs.mic
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara2.GetProperty
 title: ITextPara2::GetProperty (tom.h)
-description: Gets the value of the specified property.helpviewer_keywords: ["GetProperty","GetProperty method [Windows Controls]","GetProperty method [Windows Controls]","ITextPara2 interface","ITextPara2 interface [Windows Controls]","GetProperty method","ITextPara2.GetProperty","ITextPara2::GetProperty","controls.itextpara2_getproperty","tom/ITextPara2::GetProperty"]
+description: Gets the value of the specified property.
+helpviewer_keywords: ["GetProperty","GetProperty method [Windows Controls]","GetProperty method [Windows Controls]","ITextPara2 interface","ITextPara2 interface [Windows Controls]","GetProperty method","ITextPara2.GetProperty","ITextPara2::GetProperty","controls.itextpara2_getproperty","tom/ITextPara2::GetProperty"]
 old-location: controls\itextpara2_getproperty.htm
 tech.root: Controls
 ms.assetid: 628ec2d7-2553-4a76-a5e6-c3a5bef3f8d6
@@ -86,12 +87,12 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-The <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomParaPropMathAlign</a> property sets the math alignment for math paragraphs in a text paragraph. It can have one of the following values.<dl>
-<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignDefault</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignCenterGroup</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignCenter</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignLeft</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignRight</a></dd>
+The <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomParaPropMathAlign</a> property sets the math alignment for math paragraphs in a text paragraph. It can have one of the following values.<dl>
+<dd><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignDefault</a></dd>
+<dd><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignCenterGroup</a></dd>
+<dd><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignCenter</a></dd>
+<dd><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignLeft</a></dd>
+<dd><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignRight</a></dd>
 </dl>
 
 

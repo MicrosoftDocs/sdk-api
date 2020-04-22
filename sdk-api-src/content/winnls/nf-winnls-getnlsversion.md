@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.GetNLSVersion
 title: GetNLSVersion function (winnls.h)
-description: Retrieves information about the current version of a specified NLS capability for a locale specified by identifier.Note  For interoperability reasons, the application should prefer the GetNLSVersionEx function to GetNLSVersion because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. This recommendation applies especially to custom locales, for which GetNLSVersionEx retrieves enough information to determine if sort behavior has changed. Any application that runs only on Windows Vista and later should use GetNLSVersionEx or at least pass the NLSVERSIONINFOEX structure when calling GetNLSVersion to obtain additional sorting versioning data.helpviewer_keywords: ["GetNLSVersion","GetNLSVersion function [Internationalization for Windows Applications]","_win32_GetNLSVersion","intl.getnlsversion","winnls/GetNLSVersion"]
+description: Retrieves information about the current version of a specified NLS capability for a locale specified by identifier.Note  For interoperability reasons, the application should prefer the GetNLSVersionEx function to GetNLSVersion because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. This recommendation applies especially to custom locales, for which GetNLSVersionEx retrieves enough information to determine if sort behavior has changed. Any application that runs only on Windows Vista and later should use GetNLSVersionEx or at least pass the NLSVERSIONINFOEX structure when calling GetNLSVersion to obtain additional sorting versioning data.
+helpviewer_keywords: ["GetNLSVersion","GetNLSVersion function [Internationalization for Windows Applications]","_win32_GetNLSVersion","intl.getnlsversion","winnls/GetNLSVersion"]
 old-location: intl\getnlsversion.htm
 tech.root: Intl
 ms.assetid: 09bc53e1-69f4-4a71-82b3-1b1b84a1b84f
@@ -103,7 +104,7 @@ The NLS capability to query. This value must be COMPARE_STRING. See the <a href=
 
 ### -param lpVersionInformation [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a> structure. The application must initialize the <b>dwNLSVersionInfoSize</b> member to <code>sizeof(NLSVERSIONINFO)</code>.
+Pointer to an <a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a> structure. The application must initialize the <b>dwNLSVersionInfoSize</b> member to <code>sizeof(NLSVERSIONINFO)</code>.
 
 <div class="alert"><b>Note</b>  On Windows Vista and later, the function can alternatively provide version information in an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure.</div>
 <div> </div>
@@ -144,7 +145,7 @@ This function allows an application such as Active Directory to determine if an 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a>
+<a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a>
 
 
 

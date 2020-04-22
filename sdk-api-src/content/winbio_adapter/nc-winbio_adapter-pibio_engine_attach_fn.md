@@ -1,7 +1,8 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_ATTACH_FN
 title: PIBIO_ENGINE_ATTACH_FN (winbio_adapter.h)
-description: Adds an engine adapter to the processing pipeline of the biometric unit.helpviewer_keywords: ["EngineAdapterAttach","EngineAdapterAttach callback function [Windows Biometric Framework API]","PIBIO_ENGINE_ATTACH_FN","PIBIO_ENGINE_ATTACH_FN callback","secbiomet.engineadapterattach","winbio_adapter/EngineAdapterAttach"]
+description: Adds an engine adapter to the processing pipeline of the biometric unit.
+helpviewer_keywords: ["EngineAdapterAttach","EngineAdapterAttach callback function [Windows Biometric Framework API]","PIBIO_ENGINE_ATTACH_FN","PIBIO_ENGINE_ATTACH_FN callback","secbiomet.engineadapterattach","winbio_adapter/EngineAdapterAttach"]
 old-location: secbiomet\engineadapterattach.htm
 tech.root: SecBioMet
 ms.assetid: e797952b-c7dd-41ad-9536-97d7ce1a7a5d
@@ -116,7 +117,7 @@ The <b>EngineContext</b> member of the <a href="https://docs.microsoft.com/windo
 
 
 
-This function is called before the storage adapter has been initialized for the biometric unit. Therefore, this function must not call any functions referenced by the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>StorageInterface</b> member of the pipeline object.
+This function is called before the storage adapter has been initialized for the biometric unit. Therefore, this function must not call any functions referenced by the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>StorageInterface</b> member of the pipeline object.
 
 When implementing this function, you must allocate and manage any resources required by the adapter and attach these to the biometric unit pipeline. To do this, allocate a private <b>WINBIO_ENGINE_CONTEXT</b> structure on the  heap, initialize it, and set its address in the <b>EngineContext</b> member of the pipeline object.
 

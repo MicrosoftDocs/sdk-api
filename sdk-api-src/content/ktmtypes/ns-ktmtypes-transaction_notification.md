@@ -1,7 +1,8 @@
 ---
 UID: NS:ktmtypes._TRANSACTION_NOTIFICATION
 title: TRANSACTION_NOTIFICATION (ktmtypes.h)
-description: Contains the data that is associated with a transaction notification.helpviewer_keywords: ["*PTRANSACTION_NOTIFICATION","PTRANSACTION_NOTIFICATION","PTRANSACTION_NOTIFICATION structure pointer [Files]","TRANSACTION_NOTIFICATION","TRANSACTION_NOTIFICATION structure [Files]","fs.transaction_notification","ktmtypes/PTRANSACTION_NOTIFICATION","ktmtypes/TRANSACTION_NOTIFICATION"]
+description: Contains the data that is associated with a transaction notification.
+helpviewer_keywords: ["*PTRANSACTION_NOTIFICATION","PTRANSACTION_NOTIFICATION","PTRANSACTION_NOTIFICATION structure pointer [Files]","TRANSACTION_NOTIFICATION","TRANSACTION_NOTIFICATION structure [Files]","fs.transaction_notification","ktmtypes/PTRANSACTION_NOTIFICATION","ktmtypes/TRANSACTION_NOTIFICATION"]
 old-location: fs\transaction_notification.htm
 tech.root: ktm
 ms.assetid: 4f87de9d-a068-4ab9-8f38-b75f20552b1d
@@ -71,13 +72,13 @@ The <a href="https://docs.microsoft.com/windows/desktop/Ktm/notification-mask">N
 ### -field TmVirtualClock
 
 The latest virtual clock value that is associated with this transaction. See 
-      <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
+      <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
 
 
 ### -field ArgumentLength
 
 Indicates the number of bytes for the 
-      <a href="https://docs.microsoft.com/windows/win32/api/ktmtypes/ns-ktmtypes-transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a> 
+      <a href="/windows/win32/api/ktmtypes/ns-ktmtypes-transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a> 
       structure that follow this 
       <b>TRANSACTION_NOTIFICATION</b> structure.
 
@@ -107,7 +108,7 @@ Indicates the number of bytes for the
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ktmtypes/ns-ktmtypes-transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
+<a href="/windows/win32/api/ktmtypes/ns-ktmtypes-transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:ktmw32.PrePrepareComplete
 title: PrePrepareComplete function (ktmw32.h)
-description: Signals that this resource manager has completed its preprepare work, so that other resource managers can now begin their prepare operations.helpviewer_keywords: ["PrePrepareComplete","PrePrepareComplete function [Files]","fs.prepreparecomplete","ktmw32/PrePrepareComplete"]
+description: Signals that this resource manager has completed its preprepare work, so that other resource managers can now begin their prepare operations.
+helpviewer_keywords: ["PrePrepareComplete","PrePrepareComplete function [Files]","fs.prepreparecomplete","ktmw32/PrePrepareComplete"]
 old-location: fs\prepreparecomplete.htm
 tech.root: ktm
 ms.assetid: b4a70a51-2c49-4626-9fca-9ca6e0d21a53
@@ -64,7 +65,7 @@ A handle to the enlistment.
 
 ### -param TmVirtualClock [in]
 
-The latest virtual clock value received for this preprepare operation. If you specify <b>NULL</b>, the virtual clock value is not changed. See <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
+The latest virtual clock value received for this preprepare operation. If you specify <b>NULL</b>, the virtual clock value is not changed. See <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
 
 To change the virtual clock value, this value must be greater than the current value returned in the COMMIT notification.
 

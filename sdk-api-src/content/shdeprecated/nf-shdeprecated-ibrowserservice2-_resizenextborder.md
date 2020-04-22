@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._ResizeNextBorder
 title: IBrowserService2::_ResizeNextBorder (shdeprecated.h)
-description: Deprecated. Resizes the border of the browser view in response to the addition or removal of toolbars.helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_ResizeNextBorder method","IBrowserService2._ResizeNextBorder","IBrowserService2::_ResizeNextBorder","_ResizeNextBorder","_ResizeNextBorder method [Windows Shell]","_ResizeNextBorder method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_ResizeNextBorder","shell.IBrowserService2__ResizeNextBorder","zone_IBrowserService2__ResizeNextBorder"]
+description: Deprecated. Resizes the border of the browser view in response to the addition or removal of toolbars.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_ResizeNextBorder method","IBrowserService2._ResizeNextBorder","IBrowserService2::_ResizeNextBorder","_ResizeNextBorder","_ResizeNextBorder method [Windows Shell]","_ResizeNextBorder method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_ResizeNextBorder","shell.IBrowserService2__ResizeNextBorder","zone_IBrowserService2__ResizeNextBorder"]
 old-location: shell\IBrowserService2__ResizeNextBorder.htm
 tech.root: shell
 ms.assetid: 9d7c618a-2948-44cf-8e47-96d33c08c9a5
@@ -80,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The implementation of this method calls <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizenextborderhelper">IBrowserService2::_ResizeNextBorderHelper</a>.
+The implementation of this method calls <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizenextborderhelper">IBrowserService2::_ResizeNextBorderHelper</a>.
 
 
 
