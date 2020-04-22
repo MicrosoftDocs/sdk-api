@@ -1,7 +1,8 @@
 ---
 UID: NS:windns.__unnamed_struct_4
 title: DNS_PTR_DATAA (windns.h)
-description: The DNS_PTR_DATA structure represents a DNS pointer (PTR) record as specified in section 3.3.12 of RFC 1035.helpviewer_keywords: ["*PDNS_PTR_DATA","*PDNS_PTR_DATAA","DNS_PTR_DATA","DNS_PTR_DATA structure [DNS]","DNS_PTR_DATAA","PDNS_PTR_DATA","PDNS_PTR_DATA structure pointer [DNS]","_dns_dns_ptr_data","dns.dns_ptr_data","windns/DNS_PTR_DATA","windns/PDNS_PTR_DATA"]
+description: The DNS_PTR_DATA structure represents a DNS pointer (PTR) record as specified in section 3.3.12 of RFC 1035.
+helpviewer_keywords: ["*PDNS_PTR_DATA","*PDNS_PTR_DATAA","DNS_PTR_DATA","DNS_PTR_DATA structure [DNS]","DNS_PTR_DATAA","PDNS_PTR_DATA","PDNS_PTR_DATA structure pointer [DNS]","_dns_dns_ptr_data","dns.dns_ptr_data","windns/DNS_PTR_DATA","windns/PDNS_PTR_DATA"]
 old-location: dns\dns_ptr_data.htm
 tech.root: DNS
 ms.assetid: 8b7f8898-ac91-46da-876c-889c427068a3
@@ -69,7 +70,7 @@ A pointer to a string that represents the pointer (PTR) record data.
 
 The 
 <b>DNS_PTR_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -79,7 +80,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_UNION_DESCRIPTION
 title: WS_UNION_DESCRIPTION (webservices.h)
-description: Information about the choices within a union type. This is used with WS_UNION_TYPE.helpviewer_keywords: ["WS_UNION_DESCRIPTION","WS_UNION_DESCRIPTION structure [Web Services for Windows]","webservices/WS_UNION_DESCRIPTION","wsw.ws_union_description"]
+description: Information about the choices within a union type. This is used with WS_UNION_TYPE.
+helpviewer_keywords: ["WS_UNION_DESCRIPTION","WS_UNION_DESCRIPTION structure [Web Services for Windows]","webservices/WS_UNION_DESCRIPTION","wsw.ws_union_description"]
 old-location: wsw\ws_union_description.htm
 tech.root: wsw
 ms.assetid: 04eddc88-f0ba-4a0b-8078-12c0d955d055
@@ -103,7 +104,7 @@ The offset of the enumeration field which controls which choice is
 
 This value corresponds to the enum value used when none of the
                     choices are currently set.  This field is only used when the
-                    field is optional (<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> was specified).
+                    field is optional (<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> was specified).
                 
 
 
@@ -259,7 +260,7 @@ The following restrictions apply to the field descriptions:
                 a wrapper element name and namespace has been specified.
                 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> may not be used.
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> may not be used.
             </li>
 </ul>
 

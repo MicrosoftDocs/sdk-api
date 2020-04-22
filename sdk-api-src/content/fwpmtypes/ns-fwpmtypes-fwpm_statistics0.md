@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_STATISTICS0_
 title: FWPM_STATISTICS0 (fwpmtypes.h)
-description: Stores statistics related to connections at specific layers.helpviewer_keywords: ["FWPM_STATISTICS0","FWPM_STATISTICS0 structure [Filtering]","fwp.fwpm_statistics0","fwpmtypes/FWPM_STATISTICS0"]
+description: Stores statistics related to connections at specific layers.
+helpviewer_keywords: ["FWPM_STATISTICS0","FWPM_STATISTICS0 structure [Filtering]","fwp.fwpm_statistics0","fwpmtypes/FWPM_STATISTICS0"]
 old-location: fwp\fwpm_statistics0.htm
 tech.root: fwp
 ms.assetid: c3ac6871-79b1-4378-8f3c-a56e85fd2a3b
@@ -61,12 +62,12 @@ The <b>FWPM_STATISTICS0</b> structure stores statistics related to connections a
 
 Type: <b>UINT32</b>
 
-Number of [FWPM_LAYER_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0)a> structures in the <b>layerStatistics</b> member.
+Number of [FWPM_LAYER_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0) structures in the <b>layerStatistics</b> member.
 
 
 ### -field layerStatistics
 
-Type: [FWPM_LAYER_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0)a>*</b>
+Type: [FWPM_LAYER_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0)*</b>
 
 Statistics related to the layer.
 
@@ -301,7 +302,7 @@ Number of active IPv6 outbound connections.
 
 
 
-[FWPM_LAYER_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0)a>
+[FWPM_LAYER_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0)
  
 
  

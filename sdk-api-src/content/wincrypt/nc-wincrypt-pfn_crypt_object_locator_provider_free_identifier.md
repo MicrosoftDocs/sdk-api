@@ -1,7 +1,8 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER (wincrypt.h)
-description: Releases memory for an object identifier.helpviewer_keywords: ["PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback function [Security]","security.pfn_crypt_object_locator_provider_free_identifier","wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER"]
+description: Releases memory for an object identifier.
+helpviewer_keywords: ["PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback function [Security]","security.pfn_crypt_object_locator_provider_free_identifier","wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER"]
 old-location: security\pfn_crypt_object_locator_provider_free_identifier.htm
 tech.root: SecCrypto
 ms.assetid: C2ED3B51-8B98-412C-A571-D107F2BEC5F1
@@ -86,7 +87,7 @@ The <b>PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER</b> function is current
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a>
+<a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a>
 
 
 

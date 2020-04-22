@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothUpdateDeviceRecord
 title: BluetoothUpdateDeviceRecord function (bluetoothapis.h)
-description: Updates the local computer cache about a Bluetooth device.helpviewer_keywords: ["BluetoothUpdateDeviceRecord","BluetoothUpdateDeviceRecord function [Bluetooth]","bluetooth.bluetoothupdatedevicerecord","bluetoothapis/BluetoothUpdateDeviceRecord"]
+description: Updates the local computer cache about a Bluetooth device.
+helpviewer_keywords: ["BluetoothUpdateDeviceRecord","BluetoothUpdateDeviceRecord function [Bluetooth]","bluetooth.bluetoothupdatedevicerecord","bluetoothapis/BluetoothUpdateDeviceRecord"]
 old-location: bluetooth\bluetoothupdatedevicerecord.htm
 tech.root: bluetooth
 ms.assetid: afcf6708-1c2a-43ac-8e5e-1bd0ce7456fc
@@ -61,7 +62,7 @@ The <b>BluetoothUpdateDeviceRecord</b> function updates the local computer cache
 
 ### -param pbtdi
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure to update. For more information, see the Remarks section.
+A pointer to the <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure to update. For more information, see the Remarks section.
 
 
 ## -returns
@@ -107,7 +108,7 @@ The <b>dwSize</b> member of the structure pointed to in the <i>pbtdi</i> paramet
 
 
 
-When updating a Bluetooth device record, the requirements for members of the <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure, listed in the following table, must be observed.<table>
+When updating a Bluetooth device record, the requirements for members of the <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure, listed in the following table, must be observed.<table>
 <tr>
 <th>Member</th>
 <th>Requirement</th>
@@ -137,11 +138,11 @@ When updating a Bluetooth device record, the requirements for members of the <a 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
 
 
 

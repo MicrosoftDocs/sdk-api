@@ -1,7 +1,8 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_DesiredRotation
 title: IInertiaProcessor::get_DesiredRotation (manipulations.h)
-description: The DesiredRotation property specifies how far the current inertia processor object should manipulate the target object in radians.helpviewer_keywords: ["DesiredRotation property [Windows Touch]","DesiredRotation property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","DesiredRotation property","IInertiaProcessor.DesiredRotation","IInertiaProcessor.get_DesiredRotation","IInertiaProcessor::DesiredRotation","IInertiaProcessor::get_DesiredRotation","IInertiaProcessor::put_DesiredRotation","get_DesiredRotation","manipulations/IInertiaProcessor::DesiredRotation","manipulations/IInertiaProcessor::get_DesiredRotation","manipulations/IInertiaProcessor::put_DesiredRotation","wintouch.iinertiaprocessor_desiredrotation"]
+description: The DesiredRotation property specifies how far the current inertia processor object should manipulate the target object in radians.
+helpviewer_keywords: ["DesiredRotation property [Windows Touch]","DesiredRotation property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","DesiredRotation property","IInertiaProcessor.DesiredRotation","IInertiaProcessor.get_DesiredRotation","IInertiaProcessor::DesiredRotation","IInertiaProcessor::get_DesiredRotation","IInertiaProcessor::put_DesiredRotation","get_DesiredRotation","manipulations/IInertiaProcessor::DesiredRotation","manipulations/IInertiaProcessor::get_DesiredRotation","manipulations/IInertiaProcessor::put_DesiredRotation","wintouch.iinertiaprocessor_desiredrotation"]
 old-location: wintouch\iinertiaprocessor_desiredrotation.htm
 tech.root: wintouch
 ms.assetid: 42fcda66-8992-4a44-b4d5-04d4f2c7e25a
@@ -68,7 +69,7 @@ This property is read/write.
 If inertia processing has already started, setting <b>DesiredRotation</b> will reset the inertia engine to the initial state with new deceleration value applied.
       
 
-Call this function to set the initial state of inertia. You would call this function most likely during the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
+Call this function to set the initial state of inertia. You would call this function most likely during the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
 
 
 

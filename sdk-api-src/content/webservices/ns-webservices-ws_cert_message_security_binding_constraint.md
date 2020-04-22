@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT
 title: WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT (webservices.h)
-description: A security binding constraint that can be used with WS_XML_TOKEN_MESSAGE_SECURITY_BINDING.helpviewer_keywords: ["WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT","WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows]","webservices/WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT","wsw.ws_cert_message_security_binding_constraint"]
+description: A security binding constraint that can be used with WS_XML_TOKEN_MESSAGE_SECURITY_BINDING.
+helpviewer_keywords: ["WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT","WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows]","webservices/WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT","wsw.ws_cert_message_security_binding_constraint"]
 old-location: wsw\ws_cert_message_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: 81f42654-8f94-4231-a798-67fbbe46e812
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 A security binding constraint that can be used with 
-                <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a>.
+                <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a>.
             
 
 

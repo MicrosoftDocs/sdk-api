@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.IPsecSaContextCreate0
 title: IPsecSaContextCreate0 function (fwpmu.h)
-description: Creates an IPsec security association (SA) context.helpviewer_keywords: ["IPsecSaContextCreate0","IPsecSaContextCreate0 function [Filtering]","fwp.ipsecsacontextcreate0","fwpmu/IPsecSaContextCreate0"]
+description: Creates an IPsec security association (SA) context.
+helpviewer_keywords: ["IPsecSaContextCreate0","IPsecSaContextCreate0 function [Filtering]","fwp.ipsecsacontextcreate0","fwpmu/IPsecSaContextCreate0"]
 old-location: fwp\ipsecsacontextcreate0.htm
 tech.root: fwp
 ms.assetid: 50b85c07-2e21-4c89-928b-8954348b9aba
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param outboundTraffic [in]
 
-Type: [IPSEC_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)a>*</b>
+Type: [IPSEC_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)*</b>
 
 The outbound traffic of the SA. 
 
@@ -157,7 +158,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[IPSEC_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)a>
+[IPSEC_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)
  
 
  

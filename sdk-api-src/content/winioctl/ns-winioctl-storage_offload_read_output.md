@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._STORAGE_OFFLOAD_READ_OUTPUT
 title: STORAGE_OFFLOAD_READ_OUTPUT
-description: Output structure for the DeviceDsmAction_OffloadRead action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.helpviewer_keywords: ["*PSTORAGE_OFFLOAD_READ_OUTPUT","PSTORAGE_OFFLOAD_READ_OUTPUT","PSTORAGE_OFFLOAD_READ_OUTPUT structure pointer","STORAGE_OFFLOAD_READ_OUTPUT","STORAGE_OFFLOAD_READ_OUTPUT structure","STORAGE_OFFLOAD_READ_RANGE_TRUNCATED","base.storage_offload_read_output","winioctl/PSTORAGE_OFFLOAD_READ_OUTPUT","winioctl/STORAGE_OFFLOAD_READ_OUTPUT"]
+description: Output structure for the DeviceDsmAction_OffloadRead action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
+helpviewer_keywords: ["*PSTORAGE_OFFLOAD_READ_OUTPUT","PSTORAGE_OFFLOAD_READ_OUTPUT","PSTORAGE_OFFLOAD_READ_OUTPUT structure pointer","STORAGE_OFFLOAD_READ_OUTPUT","STORAGE_OFFLOAD_READ_OUTPUT structure","STORAGE_OFFLOAD_READ_RANGE_TRUNCATED","base.storage_offload_read_output","winioctl/PSTORAGE_OFFLOAD_READ_OUTPUT","winioctl/STORAGE_OFFLOAD_READ_OUTPUT"]
 old-location: base\storage_offload_read_output.htm
 tech.root: devio
 ms.assetid: 93eaa8dd-b244-4fdd-abd4-c7cab46cb2a6
@@ -113,11 +114,11 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-s
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_read_parameters">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_read_parameters">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes_output">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes_output">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a>
 
 
 

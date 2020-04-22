@@ -1,7 +1,8 @@
 ---
 UID: NS:shobjidl.NSTCCUSTOMDRAW
 title: NSTCCUSTOMDRAW (shobjidl.h)
-description: Custom draw structure used by INameSpaceTreeControlCustomDraw methods.helpviewer_keywords: ["NSTCCUSTOMDRAW","NSTCCUSTOMDRAW structure [Windows Shell]","_shell_NSTCCUSTOMDRAW","shell.NSTCCUSTOMDRAW","shobjidl/NSTCCUSTOMDRAW"]
+description: Custom draw structure used by INameSpaceTreeControlCustomDraw methods.
+helpviewer_keywords: ["NSTCCUSTOMDRAW","NSTCCUSTOMDRAW structure [Windows Shell]","_shell_NSTCCUSTOMDRAW","shell.NSTCCUSTOMDRAW","shobjidl/NSTCCUSTOMDRAW"]
 old-location: shell\NSTCCUSTOMDRAW.htm
 tech.root: shell
 ms.assetid: 95747075-4882-4c29-8653-941ac04db54b
@@ -68,14 +69,14 @@ A pointer to a Shell item.
 
 Type: <b>UINT</b>
 
-The current item state. See <a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a> for more detail.
+The current item state. See <a href="/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a> for more detail.
 
 
 ### -field nstcis
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a></b>
 
-The state of a tree item. See <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a>.
+The state of a tree item. See <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a>.
 
 
 ### -field pszText

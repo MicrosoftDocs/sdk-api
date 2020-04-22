@@ -1,7 +1,8 @@
 ---
 UID: NS:msctf.TF_SELECTIONSTYLE
 title: TF_SELECTIONSTYLE (msctf.h)
-description: The TF_SELECTIONSTYLE structure represents the style of a selection.helpviewer_keywords: ["TF_SELECTIONSTYLE","TF_SELECTIONSTYLE structure [Text Services Framework]","_tsf_tf_selectionstyle_ref","msctf/TF_SELECTIONSTYLE","tsf.tf_selectionstyle"]
+description: The TF_SELECTIONSTYLE structure represents the style of a selection.
+helpviewer_keywords: ["TF_SELECTIONSTYLE","TF_SELECTIONSTYLE structure [Text Services Framework]","_tsf_tf_selectionstyle_ref","msctf/TF_SELECTIONSTYLE","tsf.tf_selectionstyle"]
 old-location: tsf\tf_selectionstyle.htm
 tech.root: TSF
 ms.assetid: 3a38172b-611b-445f-be24-ea2a19178255
@@ -62,7 +63,7 @@ The <b>TF_SELECTIONSTYLE</b> structure represents the style of a selection.
 
 ### -field ase
 
-Specifies the active end of the selection. For more information, see <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfactiveselend">TfActiveSelEnd</a>.
+Specifies the active end of the selection. For more information, see <a href="/windows/win32/api/msctf/ne-msctf-tfactiveselend">TfActiveSelEnd</a>.
 
 
 ### -field fInterimChar
@@ -89,7 +90,7 @@ An interim character selection spans exactly one character and is visually repre
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfactiveselend">TfActiveSelEnd
+<a href="/windows/win32/api/msctf/ne-msctf-tfactiveselend">TfActiveSelEnd
       </a>
  
 

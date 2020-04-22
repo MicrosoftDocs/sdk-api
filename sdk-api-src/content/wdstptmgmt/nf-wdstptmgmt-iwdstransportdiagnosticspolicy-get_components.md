@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportDiagnosticsPolicy.get_Components
 title: IWdsTransportDiagnosticsPolicy::get_Components (wdstptmgmt.h)
-description: Enables a WDS client to configure which WDS transport components have event logging.helpviewer_keywords: ["Components property [Windows Deployment Services]","Components property [Windows Deployment Services]","IWdsTransportDiagnosticsPolicy interface","IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services]","Components property","IWdsTransportDiagnosticsPolicy.Components","IWdsTransportDiagnosticsPolicy.get_Components","IWdsTransportDiagnosticsPolicy::Components","IWdsTransportDiagnosticsPolicy::get_Components","IWdsTransportDiagnosticsPolicy::put_Components","get_Components","wds.iwdstransportdiagnosticspolicy_components","wdstptmgmt/IWdsTransportDiagnosticsPolicy::Components","wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Components","wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Components"]
+description: Enables a WDS client to configure which WDS transport components have event logging.
+helpviewer_keywords: ["Components property [Windows Deployment Services]","Components property [Windows Deployment Services]","IWdsTransportDiagnosticsPolicy interface","IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services]","Components property","IWdsTransportDiagnosticsPolicy.Components","IWdsTransportDiagnosticsPolicy.get_Components","IWdsTransportDiagnosticsPolicy::Components","IWdsTransportDiagnosticsPolicy::get_Components","IWdsTransportDiagnosticsPolicy::put_Components","get_Components","wds.iwdstransportdiagnosticspolicy_components","wdstptmgmt/IWdsTransportDiagnosticsPolicy::Components","wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Components","wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Components"]
 old-location: wds\iwdstransportdiagnosticspolicy_components.htm
 tech.root: wds
 ms.assetid: da05fd59-641c-4d9b-ad87-d65e682c400e
@@ -68,7 +69,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_diagnostics_component_flags">WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS</a>
+<a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_diagnostics_component_flags">WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS</a>
  
 
  

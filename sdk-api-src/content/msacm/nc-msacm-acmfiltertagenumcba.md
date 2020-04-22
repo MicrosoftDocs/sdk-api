@@ -1,7 +1,8 @@
 ---
 UID: NC:msacm.ACMFILTERTAGENUMCBA
 title: ACMFILTERTAGENUMCBA (msacm.h)
-description: The acmFilterTagEnumCallback function specifies a callback function used with the acmFilterTagEnum function. The acmFilterTagEnumCallback function name is a placeholder for an application-defined function name.helpviewer_keywords: ["ACMFILTERTAGENUMCB","ACMFILTERTAGENUMCB callback","ACMFILTERTAGENUMCBA","ACMFILTERTAGENUMCBW","_win32_acmFilterTagEnumCallback","acmFilterTagEnumCallback","acmFilterTagEnumCallback callback function [Windows Multimedia]","msacm/ACMFILTERTAGENUMCBA","msacm/ACMFILTERTAGENUMCBW","msacm/acmFilterTagEnumCallback","multimedia.acmfiltertagenumcallback"]
+description: The acmFilterTagEnumCallback function specifies a callback function used with the acmFilterTagEnum function. The acmFilterTagEnumCallback function name is a placeholder for an application-defined function name.
+helpviewer_keywords: ["ACMFILTERTAGENUMCB","ACMFILTERTAGENUMCB callback","ACMFILTERTAGENUMCBA","ACMFILTERTAGENUMCBW","_win32_acmFilterTagEnumCallback","acmFilterTagEnumCallback","acmFilterTagEnumCallback callback function [Windows Multimedia]","msacm/ACMFILTERTAGENUMCBA","msacm/ACMFILTERTAGENUMCBW","msacm/acmFilterTagEnumCallback","multimedia.acmfiltertagenumcallback"]
 old-location: multimedia\acmfiltertagenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 63469be1-d657-4e95-9978-d31140ccd46f
@@ -69,7 +70,7 @@ Handle to the ACM driver identifier.
 
 ### -param paftd
 
-Pointer to an [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails)a> structure that contains the enumerated filter tag details.
+Pointer to an [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails) structure that contains the enumerated filter tag details.
 
 
 ### -param dwInstance
@@ -79,7 +80,7 @@ Application-defined value specified in <a href="https://docs.microsoft.com/windo
 
 ### -param fdwSupport
 
-Driver-support flags specific to the driver identifier [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure. This parameter can be a combination of the following values and identifies which operations the driver supports with the filter tag.
+Driver-support flags specific to the driver identifier [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure. This parameter can be a combination of the following values and identifies which operations the driver supports with the filter tag.
 
 <table>
 <tr>

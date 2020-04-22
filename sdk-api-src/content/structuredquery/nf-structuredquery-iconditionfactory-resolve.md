@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IConditionFactory.Resolve
 title: IConditionFactory::Resolve (structuredquery.h)
-description: Performs a variety of transformations on a condition tree, including the following:\_resolves conditions with relative date/time expressions to conditions with absolute date/time (as a VT_FILETIME); turns other recognized named entities into condition trees with actual values; simplifies condition trees; replaces virtual or compound properties with OR trees of other properties; removes condition trees resulting from queries with property keywords that had no condition applied.helpviewer_keywords: ["IConditionFactory interface [search]","Resolve method","IConditionFactory.Resolve","IConditionFactory::Resolve","Resolve","Resolve method [search]","Resolve method [search]","IConditionFactory interface","_search_IConditionFactory_Resolve","search._search_IConditionFactory_Resolve","structuredquery/IConditionFactory::Resolve"]
+description: Performs a variety of transformations on a condition tree, including the following:\_resolves conditions with relative date/time expressions to conditions with absolute date/time (as a VT_FILETIME); turns other recognized named entities into condition trees with actual values; simplifies condition trees; replaces virtual or compound properties with OR trees of other properties; removes condition trees resulting from queries with property keywords that had no condition applied.
+helpviewer_keywords: ["IConditionFactory interface [search]","Resolve method","IConditionFactory.Resolve","IConditionFactory::Resolve","Resolve","Resolve method [search]","Resolve method [search]","IConditionFactory interface","_search_IConditionFactory_Resolve","search._search_IConditionFactory_Resolve","structuredquery/IConditionFactory::Resolve"]
 old-location: search\_search_IConditionFactory_Resolve.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\resolve.htm
@@ -116,11 +117,11 @@ The StructuredQuerySample code sample, available on <a href="https://code.msdn.m
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

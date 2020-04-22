@@ -1,7 +1,8 @@
 ---
 UID: NE:ipsectypes.IPSEC_TOKEN_TYPE_
 title: IPSEC_TOKEN_TYPE (ipsectypes.h)
-description: An IPsec token type.helpviewer_keywords: ["IPSEC_TOKEN_TYPE","IPSEC_TOKEN_TYPE enumeration [Filtering]","IPSEC_TOKEN_TYPE_IMPERSONATION","IPSEC_TOKEN_TYPE_MACHINE","IPSEC_TOKEN_TYPE_MAX","fwp.ipsec_token_type","ipsectypes/IPSEC_TOKEN_TYPE","ipsectypes/IPSEC_TOKEN_TYPE_IMPERSONATION","ipsectypes/IPSEC_TOKEN_TYPE_MACHINE","ipsectypes/IPSEC_TOKEN_TYPE_MAX"]
+description: An IPsec token type.
+helpviewer_keywords: ["IPSEC_TOKEN_TYPE","IPSEC_TOKEN_TYPE enumeration [Filtering]","IPSEC_TOKEN_TYPE_IMPERSONATION","IPSEC_TOKEN_TYPE_MACHINE","IPSEC_TOKEN_TYPE_MAX","fwp.ipsec_token_type","ipsectypes/IPSEC_TOKEN_TYPE","ipsectypes/IPSEC_TOKEN_TYPE_IMPERSONATION","ipsectypes/IPSEC_TOKEN_TYPE_MACHINE","ipsectypes/IPSEC_TOKEN_TYPE_MAX"]
 old-location: fwp\ipsec_token_type.htm
 tech.root: fwp
 ms.assetid: 68eb9301-33d9-4ab9-b3e7-0fc83b6f0f1d
@@ -77,7 +78,7 @@ Maximum value for testing only.
 
 
 
-[IPSEC_TOKEN0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0)a>
+[IPSEC_TOKEN0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0)
  
 
  

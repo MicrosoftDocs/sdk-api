@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMWrite
 title: IComCRMEvents::OnCRMWrite (comsvcs.h)
-description: Generated when a CRM clerk receives a request to write a log record, either from the CRM worker or CRM compensator.helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMWrite method","IComCRMEvents.OnCRMWrite","IComCRMEvents::OnCRMWrite","OnCRMWrite","OnCRMWrite method [COM+]","OnCRMWrite method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMWrite","comsvcs/IComCRMEvents::OnCRMWrite","cos.icomcrmevents_oncrmwrite"]
+description: Generated when a CRM clerk receives a request to write a log record, either from the CRM worker or CRM compensator.
+helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMWrite method","IComCRMEvents.OnCRMWrite","IComCRMEvents::OnCRMWrite","OnCRMWrite","OnCRMWrite method [COM+]","OnCRMWrite method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMWrite","comsvcs/IComCRMEvents::OnCRMWrite","cos.icomcrmevents_oncrmwrite"]
 old-location: cos\icomcrmevents_oncrmwrite.htm
 tech.root: cossdk
 ms.assetid: 095452e3-a38d-4602-a925-8fa6445ddbc8
@@ -59,7 +60,7 @@ Generated when a CRM clerk receives a request to write a log record, either from
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidClerkCLSID [in]

@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IRowsetPrioritization.GetScopePriority
 title: IRowsetPrioritization::GetScopePriority (searchapi.h)
-description: Retrieves the current indexer prioritization level for the scope specified by this query.helpviewer_keywords: ["GetScopePriority","GetScopePriority method [search]","GetScopePriority method [search]","IRowsetPrioritization interface","IRowsetPrioritization interface [search]","GetScopePriority method","IRowsetPrioritization.GetScopePriority","IRowsetPrioritization::GetScopePriority","_search_IRowsetPrioritization_GetScopePriority","search._search_IRowsetPrioritization_GetScopePriority","searchapi/IRowsetPrioritization::GetScopePriority"]
+description: Retrieves the current indexer prioritization level for the scope specified by this query.
+helpviewer_keywords: ["GetScopePriority","GetScopePriority method [search]","GetScopePriority method [search]","IRowsetPrioritization interface","IRowsetPrioritization interface [search]","GetScopePriority method","IRowsetPrioritization.GetScopePriority","IRowsetPrioritization::GetScopePriority","_search_IRowsetPrioritization_GetScopePriority","search._search_IRowsetPrioritization_GetScopePriority","searchapi/IRowsetPrioritization::GetScopePriority"]
 old-location: search\_search_IRowsetPrioritization_GetScopePriority.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\getscopepriority.htm
@@ -61,9 +62,9 @@ Retrieves the current indexer prioritization level for the scope specified by th
 
 ### -param priority [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>*</b>
+Type: <b><a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>*</b>
 
-The current indexer prioritization level as the <a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a> enumeration.
+The current indexer prioritization level as the <a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a> enumeration.
         
 
 
@@ -116,19 +117,19 @@ The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
 
 
 

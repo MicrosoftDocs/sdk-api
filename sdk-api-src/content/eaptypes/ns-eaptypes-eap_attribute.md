@@ -1,7 +1,8 @@
 ---
 UID: NS:eaptypes._EAP_ATTRIBUTE
 title: EAP_ATTRIBUTE (eaptypes.h)
-description: Contains an EAP attribute.helpviewer_keywords: ["EAP_ATTRIBUTE","EAP_ATTRIBUTE structure [EAPHost]","EapAttribute","EapAttribute structure [EAPHost]","eaphost.eap_attribute","eaptypes/EAP_ATTRIBUTE","eaptypes/EapAttribute"]
+description: Contains an EAP attribute.
+helpviewer_keywords: ["EAP_ATTRIBUTE","EAP_ATTRIBUTE structure [EAPHost]","EapAttribute","EapAttribute structure [EAPHost]","eaphost.eap_attribute","eaptypes/EAP_ATTRIBUTE","eaptypes/EapAttribute"]
 old-location: eaphost\eap_attribute.htm
 tech.root: eaphost
 ms.assetid: a8fe754a-ce6f-45f4-9536-7ffda2183e9e
@@ -92,7 +93,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-
 
 
 
-[Common EAPHost API Structures](https://docs.microsoft.com/windows/win32/eaphost/common-eap-host-api-structures)a>
+[Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
 
 
 

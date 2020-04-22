@@ -1,7 +1,8 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioObjectForMetadataCommands
 title: ISpatialAudioObjectForMetadataCommands (spatialaudiometadata.h)
-description: Used to write metadata commands for spatial audio.helpviewer_keywords: ["ISpatialAudioObjectForMetadataCommands","ISpatialAudioObjectForMetadataCommands interface [Core Audio]","ISpatialAudioObjectForMetadataCommands interface [Core Audio]","described","coreaudio.ispatialaudioobjectformetadatacommands","spatialaudiometadata/ISpatialAudioObjectForMetadataCommands"]
+description: Used to write metadata commands for spatial audio.
+helpviewer_keywords: ["ISpatialAudioObjectForMetadataCommands","ISpatialAudioObjectForMetadataCommands interface [Core Audio]","ISpatialAudioObjectForMetadataCommands interface [Core Audio]","described","coreaudio.ispatialaudioobjectformetadatacommands","spatialaudiometadata/ISpatialAudioObjectForMetadataCommands"]
 old-location: coreaudio\ispatialaudioobjectformetadatacommands.htm
 tech.root: CoreAudio
 ms.assetid: B142D5CC-7321-4F3C-804D-50E728C37D10
@@ -56,7 +57,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForMetadataCommands</b> interface inherits from <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObjectForMetadataCommands</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForMetadataCommands</b> interface inherits from <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObjectForMetadataCommands</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,7 +86,7 @@ Writes a metadata command to the spatial audio object, each command may only be 
 
 
 
-<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
 <div> </div>
 
 

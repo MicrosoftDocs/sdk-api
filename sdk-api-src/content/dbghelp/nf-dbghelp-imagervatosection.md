@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.ImageRvaToSection
 title: ImageRvaToSection function (dbghelp.h)
-description: Locates a relative virtual address (RVA) within the image header of a file that is mapped as a file and returns a pointer to the section table entry for that RVA.helpviewer_keywords: ["ImageRvaToSection","ImageRvaToSection function","_win32_imagervatosection","base.imagervatosection","dbghelp/ImageRvaToSection"]
+description: Locates a relative virtual address (RVA) within the image header of a file that is mapped as a file and returns a pointer to the section table entry for that RVA.
+helpviewer_keywords: ["ImageRvaToSection","ImageRvaToSection function","_win32_imagervatosection","base.imagervatosection","dbghelp/ImageRvaToSection"]
 old-location: base\imagervatosection.htm
 tech.root: Debug
 ms.assetid: a11df748-242b-4dd8-bf57-7ac02548b701
@@ -60,7 +61,7 @@ Locates a relative virtual address (RVA) within the image header of a file that 
 ### -param NtHeaders [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure. This structure can be obtained by calling the 
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure. This structure can be obtained by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagentheader">ImageNtHeader</a> function.
 
 
@@ -105,7 +106,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
 
 
 

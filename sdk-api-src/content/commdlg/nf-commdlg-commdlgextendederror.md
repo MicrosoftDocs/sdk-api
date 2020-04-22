@@ -1,7 +1,8 @@
 ---
 UID: NF:commdlg.CommDlgExtendedError
 title: CommDlgExtendedError function (commdlg.h)
-description: Returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.helpviewer_keywords: ["CommDlgExtendedError","CommDlgExtendedError function [Dialog Boxes]","_win32_CommDlgExtendedError","_win32_commdlgextendederror_cpp","commdlg/CommDlgExtendedError","dlgbox.commdlgextendederror","winui._win32_commdlgextendederror"]
+description: Returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.
+helpviewer_keywords: ["CommDlgExtendedError","CommDlgExtendedError function [Dialog Boxes]","_win32_CommDlgExtendedError","_win32_commdlgextendederror_cpp","commdlg/CommDlgExtendedError","dlgbox.commdlgextendederror","winui._win32_commdlgextendederror"]
 old-location: dlgbox\commdlgextendederror.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\commdlgextendederror.htm
@@ -278,7 +279,7 @@ To use the default printer, replace the <a href="https://docs.microsoft.com/wind
 </dl>
 </td>
 <td width="60%">
-The data in the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structures describes two different printers.
+The data in the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structures describes two different printers.
 
 </td>
 </tr>
@@ -290,7 +291,7 @@ The data in the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-
 </dl>
 </td>
 <td width="60%">
-The printer driver failed to initialize a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure.
+The printer driver failed to initialize a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure.
 
 </td>
 </tr>
@@ -374,7 +375,7 @@ The [devices] section of the WIN.INI file did not contain an entry for the reque
 </dl>
 </td>
 <td width="60%">
-The PD_RETURNDEFAULT flag was specified in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a> structure, but the 
+The PD_RETURNDEFAULT flag was specified in the <b>Flags</b> member of the <a href="/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a> structure, but the 
 							<b>hDevMode</b> or <b>hDevNames</b> member was not <b>NULL</b>.
 
 </td>
@@ -444,7 +445,7 @@ The following error codes can be returned for the <a href="https://docs.microsof
 </dl>
 </td>
 <td width="60%">
-The buffer pointed to by the <b>lpstrFile</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure is too small for the file name specified by the user. The first two bytes of the 
+The buffer pointed to by the <b>lpstrFile</b> member of the <a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure is too small for the file name specified by the user. The first two bytes of the 
 							<b>lpstrFile</b> buffer contain an integer value specifying the size required to receive the full name, in 
 							characters.
 
@@ -507,7 +508,7 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1">CHOOSECOLOR</a>
+<a href="/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1">CHOOSECOLOR</a>
 
 
 
@@ -555,15 +556,15 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a>
+<a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga">PAGESETUPDLG</a>
+<a href="/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga">PAGESETUPDLG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a>
+<a href="/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a>
 
 
 

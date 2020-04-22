@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerGetByKey0
 title: FwpmSubLayerGetByKey0 function (fwpmu.h)
-description: Retrieves a sublayer by its key.helpviewer_keywords: ["FwpmSubLayerGetByKey0","FwpmSubLayerGetByKey0 function [Filtering]","fwp.fwpmsublayergetbykey0_func","fwpmu/FwpmSubLayerGetByKey0"]
+description: Retrieves a sublayer by its key.
+helpviewer_keywords: ["FwpmSubLayerGetByKey0","FwpmSubLayerGetByKey0 function [Filtering]","fwp.fwpmsublayergetbykey0_func","fwpmu/FwpmSubLayerGetByKey0"]
 old-location: fwp\fwpmsublayergetbykey0_func.htm
 tech.root: fwp
 ms.assetid: 3435b4fb-abea-43cc-b1a9-a8bea673d72e
@@ -73,7 +74,7 @@ Unique identifier of  the sublayer. This is the same GUID that was specified whe
 
 ### -param subLayer [out]
 
-Type: [FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)a>**</b>
+Type: [FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)**</b>
 
 The sublayer information.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)a>
+[FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)
 
 
 

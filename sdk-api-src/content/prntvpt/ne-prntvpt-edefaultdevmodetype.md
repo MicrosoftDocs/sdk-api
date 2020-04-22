@@ -1,7 +1,8 @@
 ---
 UID: NE:prntvpt.tagEDefaultDevmodeType
 title: EDefaultDevmodeType (prntvpt.h)
-description: Enables users to specify which DEVMODE to use as the source of default values when a print ticket does not specify all possible settings.helpviewer_keywords: ["EDefaultDevmodeType","EDefaultDevmodeType enumeration [Windows GDI]","_win32_EDefaultDevmodeType","gdi.edefaultdevmodetype","kPrinterDefaultDevmode","kUserDefaultDevmode","prntvpt/EDefaultDevmodeType","prntvpt/kPrinterDefaultDevmode","prntvpt/kUserDefaultDevmode"]
+description: Enables users to specify which DEVMODE to use as the source of default values when a print ticket does not specify all possible settings.
+helpviewer_keywords: ["EDefaultDevmodeType","EDefaultDevmodeType enumeration [Windows GDI]","_win32_EDefaultDevmodeType","gdi.edefaultdevmodetype","kPrinterDefaultDevmode","kUserDefaultDevmode","prntvpt/EDefaultDevmodeType","prntvpt/kPrinterDefaultDevmode","prntvpt/kUserDefaultDevmode"]
 old-location: gdi\edefaultdevmodetype.htm
 tech.root: printdocs
 ms.assetid: f3144ff6-1228-4e17-b118-fe70136edeea
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables users to specify which <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> to use as the source of default values when a print ticket does not specify all possible settings.
+Enables users to specify which <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> to use as the source of default values when a print ticket does not specify all possible settings.
 
 
 ## -enum-fields

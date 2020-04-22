@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmCalloutEnum0
 title: FwpmCalloutEnum0 function (fwpmu.h)
-description: Returns the next page of results from the callout enumerator.helpviewer_keywords: ["FwpmCalloutEnum0","FwpmCalloutEnum0 function [Filtering]","fwp.fwpmcalloutenum0_func","fwpmu/FwpmCalloutEnum0"]
+description: Returns the next page of results from the callout enumerator.
+helpviewer_keywords: ["FwpmCalloutEnum0","FwpmCalloutEnum0 function [Filtering]","fwp.fwpmcalloutenum0_func","fwpmu/FwpmCalloutEnum0"]
 old-location: fwp\fwpmcalloutenum0_func.htm
 tech.root: fwp
 ms.assetid: 6e6667d2-7147-43ed-a2fd-91baad1eb296
@@ -80,7 +81,7 @@ The number of callout objects requested.
 
 ### -param entries [out]
 
-Type: [FWP_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)a>***</b>
+Type: [FWP_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)***</b>
 
 Addresses of the enumeration entries.
 
@@ -167,7 +168,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-[FWP_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)a>
+[FWP_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)
 
 
 

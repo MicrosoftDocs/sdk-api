@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.IPsecSaContextAddInbound1
 title: IPsecSaContextAddInbound1 function (fwpmu.h)
-description: The IPsecSaContextAddInbound1 function adds an inbound IPsec security association (SA) bundle to an existing SA context.Note  IPsecSaContextAddInbound1 is the specific implementation of IPsecSaContextAddInbound used in Windows 7 and later.helpviewer_keywords: ["IPsecSaContextAddInbound1","IPsecSaContextAddInbound1 function [Filtering]","fwp.ipsecsacontextaddinbound1","fwpmu/IPsecSaContextAddInbound1"]
+description: The IPsecSaContextAddInbound1 function adds an inbound IPsec security association (SA) bundle to an existing SA context.Note  IPsecSaContextAddInbound1 is the specific implementation of IPsecSaContextAddInbound used in Windows 7 and later.
+helpviewer_keywords: ["IPsecSaContextAddInbound1","IPsecSaContextAddInbound1 function [Filtering]","fwp.ipsecsacontextaddinbound1","fwpmu/IPsecSaContextAddInbound1"]
 old-location: fwp\ipsecsacontextaddinbound1.htm
 tech.root: fwp
 ms.assetid: a6717ff9-41f9-4cbc-9493-b9d80a137571
@@ -73,7 +74,7 @@ Identifier for the existing IPsec SA context. This is the value returned in the 
 
 ### -param inboundBundle [in]
 
-Type: [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a>*</b>
+Type: [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)*</b>
 
 The inbound IPsec SA bundle to be added to the SA context.
 
@@ -136,7 +137,7 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-[IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a>
+[IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)
 
 
 

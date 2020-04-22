@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothSetLocalServiceInfo
 title: BluetoothSetLocalServiceInfo function (bluetoothapis.h)
-description: Sets local service information for a specific Bluetooth radio.helpviewer_keywords: ["BluetoothSetLocalServiceInfo","BluetoothSetLocalServiceInfo function [Bluetooth Devices]","bltooth.bluetoothsetlocalserviceinfo","bluetoothapis/BluetoothSetLocalServiceInfo","bth_funcs_036c64a4-5050-4d5d-8217-fc4ff9ef300d.xml"]
+description: Sets local service information for a specific Bluetooth radio.
+helpviewer_keywords: ["BluetoothSetLocalServiceInfo","BluetoothSetLocalServiceInfo function [Bluetooth Devices]","bltooth.bluetoothsetlocalserviceinfo","bluetoothapis/BluetoothSetLocalServiceInfo","bth_funcs_036c64a4-5050-4d5d-8217-fc4ff9ef300d.xml"]
 old-location: bltooth\bluetoothsetlocalserviceinfo.htm
 tech.root: bltooth
 ms.assetid: ab76f5d5-b7b6-4dc5-967d-5fe19260b5ad
@@ -79,7 +80,7 @@ An instance ID for the device node of the Plug and Play (PnP) ID.
 
 ### -param pServiceInfoIn [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_local_service_info_struct">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure that describes the local service to
+A pointer to a <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_local_service_info_struct">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure that describes the local service to
      set.
 
 
@@ -172,7 +173,7 @@ To use Bluetooth APIs like
     <a href="https://docs.microsoft.com/previous-versions/ff536681(v=vs.85)">Installing a Bluetooth
     Device</a>.</div>
 <div> </div>
-The <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_local_service_info_struct">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure is defined in the SDK 
+The <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_local_service_info_struct">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure is defined in the SDK 
     BluetoothApis.h header file.
 
 
@@ -183,7 +184,7 @@ The <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluet
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_local_service_info_struct">BLUETOOTH_LOCAL_SERVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_local_service_info_struct">BLUETOOTH_LOCAL_SERVICE_INFO</a>
  
 
  

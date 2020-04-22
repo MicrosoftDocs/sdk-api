@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFolderView.ItemCount
 title: IFolderView::ItemCount (shobjidl_core.h)
-description: Gets the number of items in the folder. This can be the number of all items, or a subset such as the number of selected items.helpviewer_keywords: ["IFolderView interface [Windows Shell]","ItemCount method","IFolderView.ItemCount","IFolderView::ItemCount","ItemCount","ItemCount method [Windows Shell]","ItemCount method [Windows Shell]","IFolderView interface","_shell_IFolderView_ItemCount","shell.IFolderView_ItemCount","shobjidl_core/IFolderView::ItemCount"]
+description: Gets the number of items in the folder. This can be the number of all items, or a subset such as the number of selected items.
+helpviewer_keywords: ["IFolderView interface [Windows Shell]","ItemCount method","IFolderView.ItemCount","IFolderView::ItemCount","ItemCount","ItemCount method [Windows Shell]","ItemCount method [Windows Shell]","IFolderView interface","_shell_IFolderView_ItemCount","shell.IFolderView_ItemCount","shobjidl_core/IFolderView::ItemCount"]
 old-location: shell\IFolderView_ItemCount.htm
 tech.root: shell
 ms.assetid: dadf91c5-7d27-4b1b-875b-6f0615440f47
@@ -61,7 +62,7 @@ Gets the number of items in the folder. This can be the number of all items, or 
 
 Type: <b>UINT</b>
 
-Flags from the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> enumeration that limit the count to certain types of items.
+Flags from the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> enumeration that limit the count to certain types of items.
 
 
 ### -param pcItems [out]

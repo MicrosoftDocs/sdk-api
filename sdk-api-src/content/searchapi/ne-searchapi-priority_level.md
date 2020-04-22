@@ -1,7 +1,8 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0022_0001
 title: PRIORITY_LEVEL (searchapi.h)
-description: Used by the IRowsetPrioritization interface to sets or retrieve the current indexer prioritization level for the scope specified by a query.helpviewer_keywords: ["PRIORITY_LEVEL","PRIORITY_LEVEL enumeration [search]","PRIORITY_LEVEL_DEFAULT","PRIORITY_LEVEL_FOREGROUND","PRIORITY_LEVEL_HIGH","PRIORITY_LEVEL_LOW","_search_PRIORITY_LEVEL","search._search_PRIORITY_LEVEL","searchapi/PRIORITY_LEVEL","searchapi/PRIORITY_LEVEL_DEFAULT","searchapi/PRIORITY_LEVEL_FOREGROUND","searchapi/PRIORITY_LEVEL_HIGH","searchapi/PRIORITY_LEVEL_LOW"]
+description: Used by the IRowsetPrioritization interface to sets or retrieve the current indexer prioritization level for the scope specified by a query.
+helpviewer_keywords: ["PRIORITY_LEVEL","PRIORITY_LEVEL enumeration [search]","PRIORITY_LEVEL_DEFAULT","PRIORITY_LEVEL_FOREGROUND","PRIORITY_LEVEL_HIGH","PRIORITY_LEVEL_LOW","_search_PRIORITY_LEVEL","search._search_PRIORITY_LEVEL","searchapi/PRIORITY_LEVEL","searchapi/PRIORITY_LEVEL_DEFAULT","searchapi/PRIORITY_LEVEL_FOREGROUND","searchapi/PRIORITY_LEVEL_HIGH","searchapi/PRIORITY_LEVEL_LOW"]
 old-location: search\_search_PRIORITY_LEVEL.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\priority_level.htm
@@ -103,15 +104,15 @@ The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
 
 
 

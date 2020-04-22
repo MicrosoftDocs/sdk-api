@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmStreamOpen
 title: acmStreamOpen function (msacm.h)
-description: The acmStreamOpen function opens an ACM conversion stream. Conversion streams are used to convert data from one specified audio format to another.helpviewer_keywords: ["_win32_acmStreamOpen","acmStreamOpen","acmStreamOpen function [Windows Multimedia]","msacm/acmStreamOpen","multimedia.acmstreamopen"]
+description: The acmStreamOpen function opens an ACM conversion stream. Conversion streams are used to convert data from one specified audio format to another.
+helpviewer_keywords: ["_win32_acmStreamOpen","acmStreamOpen","acmStreamOpen function [Windows Multimedia]","msacm/acmStreamOpen","multimedia.acmstreamopen"]
 old-location: multimedia\acmstreamopen.htm
 tech.root: Multimedia
 ms.assetid: 9e323d35-e640-4c6d-ab74-c4abacaea1bd
@@ -83,7 +84,7 @@ Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs
 
 ### -param pwfltr
 
-Pointer to a [WAVEFILTER](/windows/win32/api/mmreg/ns-mmreg-wavefilter)a> structure that identifies the desired filtering operation to perform on the conversion stream. If no filtering operation is desired, this parameter can be <b>NULL</b>. If a filter is specified, the source (<i>pwfxSrc</i>) and destination (<i>pwfxDst</i>) formats must be the same.
+Pointer to a [WAVEFILTER](/windows/win32/api/mmreg/ns-mmreg-wavefilter) structure that identifies the desired filtering operation to perform on the conversion stream. If no filtering operation is desired, this parameter can be <b>NULL</b>. If a filter is specified, the source (<i>pwfxSrc</i>) and destination (<i>pwfxDst</i>) formats must be the same.
 
 
 ### -param dwCallback
@@ -109,7 +110,7 @@ Flags for opening the conversion stream. The following values are defined.
 </tr>
 <tr>
 <td>ACM_STREAMOPENF_ASYNC</td>
-[ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader)a> structure for the ACMSTREAMHEADER_STATUSF_DONE flag.</td>
+[ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader) structure for the ACMSTREAMHEADER_STATUSF_DONE flag.</td>
 </tr>
 <tr>
 <td>ACM_STREAMOPENF_NONREALTIME</td>
@@ -213,7 +214,7 @@ The system is unable to allocate resources.
 
 If an ACM driver cannot perform real-time conversions and the ACM_STREAMOPENF_NONREALTIME flag is not specified for the <i>fdwOpen</i> parameter, the open operation will fail returning an ACMERR_NOTPOSSIBLE error code. An application can use the ACM_STREAMOPENF_QUERY flag to determine if real-time conversions are supported for input.
 
-If an application uses a window to receive callback information, the MM_ACM_OPEN, MM_ACM_CLOSE, and MM_ACM_DONE messages are sent to the window procedure function to indicate the progress of the conversion stream. In this case, the [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader)a> structure for MM_ACM_DONE, but it is not used for MM_ACM_OPEN and MM_ACM_CLOSE.
+If an application uses a window to receive callback information, the MM_ACM_OPEN, MM_ACM_CLOSE, and MM_ACM_DONE messages are sent to the window procedure function to indicate the progress of the conversion stream. In this case, the [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader) structure for MM_ACM_DONE, but it is not used for MM_ACM_OPEN and MM_ACM_CLOSE.
 
 If an application uses a function to receive callback information, the MM_ACM_OPEN, MM_ACM_CLOSE, and MM_ACM_DONE messages are sent to the function to indicate the progress of waveform-audio output. The callback function must reside in a dynamic-link library (DLL).
 

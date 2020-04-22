@@ -1,7 +1,8 @@
 ---
 UID: NS:windns.__unnamed_struct_14
 title: DNS_WKS_DATA (windns.h)
-description: The DNS_WKS_DATA structure represents a DNS well-known services (WKS) record as specified in section 3.4.2 of RFC 1035.helpviewer_keywords: ["*PDNS_WKS_DATA","DNS_WKS_DATA","DNS_WKS_DATA structure [DNS]","PDNS_WKS_DATA","PDNS_WKS_DATA structure pointer [DNS]","Transmission Control Protocol (TCP)","User Datagram Protocol (UDP)","_dns_dns_wks_data","dns.dns_wks_data","windns/DNS_WKS_DATA","windns/PDNS_WKS_DATA"]
+description: The DNS_WKS_DATA structure represents a DNS well-known services (WKS) record as specified in section 3.4.2 of RFC 1035.
+helpviewer_keywords: ["*PDNS_WKS_DATA","DNS_WKS_DATA","DNS_WKS_DATA structure [DNS]","PDNS_WKS_DATA","PDNS_WKS_DATA structure pointer [DNS]","Transmission Control Protocol (TCP)","User Datagram Protocol (UDP)","_dns_dns_wks_data","dns.dns_wks_data","windns/DNS_WKS_DATA","windns/PDNS_WKS_DATA"]
 old-location: dns\dns_wks_data.htm
 tech.root: DNS
 ms.assetid: 94477345-74e7-40bf-a75b-e4bf67f1c17b
@@ -87,7 +88,7 @@ A variable-length bitmask whose bits correspond to the port number of well known
 
 The 
 <b>DNS_WKS_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -97,7 +98,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

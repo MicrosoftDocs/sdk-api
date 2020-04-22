@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothSendAuthenticationResponseEx
 title: BluetoothSendAuthenticationResponseEx function (bluetoothapis.h)
-description: The BluetoothSendAuthenticationResponseEx function is called when an authentication request to send the passkey or a Numeric Comparison response is made.helpviewer_keywords: ["BluetoothSendAuthenticationResponseEx","BluetoothSendAuthenticationResponseEx function [Bluetooth]","bluetooth.bluetoothsendauthenticationresponseex","bluetoothapis/BluetoothSendAuthenticationResponseEx"]
+description: The BluetoothSendAuthenticationResponseEx function is called when an authentication request to send the passkey or a Numeric Comparison response is made.
+helpviewer_keywords: ["BluetoothSendAuthenticationResponseEx","BluetoothSendAuthenticationResponseEx function [Bluetooth]","bluetooth.bluetoothsendauthenticationresponseex","bluetoothapis/BluetoothSendAuthenticationResponseEx"]
 old-location: bluetooth\bluetoothsendauthenticationresponseex.htm
 tech.root: bluetooth
 ms.assetid: f23f90e3-c86f-44e4-a164-620105b19f08
@@ -67,7 +68,7 @@ A handle of the Bluetooth radio device to specify local service information for.
 
 ### -param pauthResponse [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_authenticate_response">BLUETOOTH_AUTHENTICATE_RESPONSE</a> structure containing the response to the <b>BTH_REMOTE_AUTHENTICATE_REQUEST</b> event.
+Pointer to a <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_authenticate_response">BLUETOOTH_AUTHENTICATE_RESPONSE</a> structure containing the response to the <b>BTH_REMOTE_AUTHENTICATE_REQUEST</b> event.
 
 
 ## -returns

@@ -1,7 +1,8 @@
 ---
 UID: NS:mssip.SIP_DISPATCH_INFO_
 title: SIP_DISPATCH_INFO (mssip.h)
-description: Contains a set of function pointers assigned by the CryptSIPLoad function that your application uses to perform subject interface package (SIP) operations.helpviewer_keywords: ["*LPSIP_DISPATCH_INFO","PSIP_DISPATCH_INFO","PSIP_DISPATCH_INFO structure pointer [Security]","SIP_DISPATCH_INFO","SIP_DISPATCH_INFO structure [Security]","mssip/PSIP_DISPATCH_INFO","mssip/SIP_DISPATCH_INFO","security.sip_dispatch_info"]
+description: Contains a set of function pointers assigned by the CryptSIPLoad function that your application uses to perform subject interface package (SIP) operations.
+helpviewer_keywords: ["*LPSIP_DISPATCH_INFO","PSIP_DISPATCH_INFO","PSIP_DISPATCH_INFO structure pointer [Security]","SIP_DISPATCH_INFO","SIP_DISPATCH_INFO structure [Security]","mssip/PSIP_DISPATCH_INFO","mssip/SIP_DISPATCH_INFO","security.sip_dispatch_info"]
 old-location: security\sip_dispatch_info.htm
 tech.root: SecCrypto
 ms.assetid: d34b5081-0af8-4dcc-8133-a91d0603d419
@@ -79,12 +80,12 @@ A pointer to the function that stores the signed data for the subject. The signa
 
 ### -field pfCreate
 
-A pointer to the function that returns a [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)a>  structure that contains the subject data. This structure contains the hash of the target. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipcreateindirectdata">CryptSIPCreateIndirectData</a>.
+A pointer to the function that returns a [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)  structure that contains the subject data. This structure contains the hash of the target. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipcreateindirectdata">CryptSIPCreateIndirectData</a>.
 
 
 ### -field pfVerify
 
-A pointer to the function that verifies the [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)a>  structure that contains the subject data. This structure contains the hash of the target. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipverifyindirectdata">CryptSIPVerifyIndirectData</a>.
+A pointer to the function that verifies the [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)  structure that contains the subject data. This structure contains the hash of the target. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipverifyindirectdata">CryptSIPVerifyIndirectData</a>.
 
 
 ### -field pfRemove

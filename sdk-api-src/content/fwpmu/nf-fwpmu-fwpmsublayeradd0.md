@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerAdd0
 title: FwpmSubLayerAdd0 function (fwpmu.h)
-description: Adds a new sublayer to the system.helpviewer_keywords: ["FwpmSubLayerAdd0","FwpmSubLayerAdd0 function [Filtering]","fwp.fwpmsublayeradd0_func","fwpmu/FwpmSubLayerAdd0"]
+description: Adds a new sublayer to the system.
+helpviewer_keywords: ["FwpmSubLayerAdd0","FwpmSubLayerAdd0 function [Filtering]","fwp.fwpmsublayeradd0_func","fwpmu/FwpmSubLayerAdd0"]
 old-location: fwp\fwpmsublayeradd0_func.htm
 tech.root: fwp
 ms.assetid: 85a6f4a9-297f-491d-b2f7-38de21dbe06c
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call  <a href="https://docs.mic
 
 ### -param subLayer [in]
 
-Type: [FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)a>*</b>
+Type: [FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)*</b>
 
 The sublayer to be added.
 
@@ -219,7 +220,7 @@ void main()
 
 
 
-[FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)a>
+[FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)
 
 
 

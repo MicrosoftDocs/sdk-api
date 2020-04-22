@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged
 title: IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged (uianimation.h)
-description: Handles events that occur when the value of an animation variable changes.helpviewer_keywords: ["IUIAnimationVariableIntegerChangeHandler interface [Windows Animation]","OnIntegerValueChanged method","IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged","IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged","OnIntegerValueChanged","OnIntegerValueChanged method [Windows Animation]","OnIntegerValueChanged method [Windows Animation]","IUIAnimationVariableIntegerChangeHandler interface","uianimation.iuianimationvariableintegerchangehandler_onintegervaluechanged","uianimation/IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged"]
+description: Handles events that occur when the value of an animation variable changes.
+helpviewer_keywords: ["IUIAnimationVariableIntegerChangeHandler interface [Windows Animation]","OnIntegerValueChanged method","IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged","IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged","OnIntegerValueChanged","OnIntegerValueChanged method [Windows Animation]","OnIntegerValueChanged method [Windows Animation]","IUIAnimationVariableIntegerChangeHandler interface","uianimation.iuianimationvariableintegerchangehandler_onintegervaluechanged","uianimation/IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged"]
 old-location: uianimation\iuianimationvariableintegerchangehandler_onintegervaluechanged.htm
 tech.root: UIAnimation
 ms.assetid: e12224a2-c8f3-45eb-a254-d624de16e12d
@@ -165,7 +166,7 @@ By default, a call made in a callback method to any other animation method resul
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_rounding_mode">UI_ANIMATION_ROUNDING_MODE </a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_rounding_mode">UI_ANIMATION_ROUNDING_MODE </a>
  
 
  

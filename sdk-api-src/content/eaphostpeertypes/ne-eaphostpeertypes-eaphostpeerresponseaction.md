@@ -1,7 +1,8 @@
 ---
 UID: NE:eaphostpeertypes.tagEapHostPeerResponseAction
 title: EapHostPeerResponseAction (eaphostpeertypes.h)
-description: Defines the set of actions an EAP authenticator or peer method can indicate to a supplicant during authentication.helpviewer_keywords: ["EapHostPeerResponseAction","EapHostPeerResponseAction enumeration [EAPHost]","EapHostPeerResponseDiscard","EapHostPeerResponseInvokeUI","EapHostPeerResponseNone","EapHostPeerResponseRespond","EapHostPeerResponseResult","EapHostPeerResponseSend","EapHostPeerResponseStartAuthentication","eaphost.eaphostpeerresponseaction","eaphostpeertypes/EapHostPeerResponseAction","eaphostpeertypes/EapHostPeerResponseDiscard","eaphostpeertypes/EapHostPeerResponseInvokeUI","eaphostpeertypes/EapHostPeerResponseNone","eaphostpeertypes/EapHostPeerResponseRespond","eaphostpeertypes/EapHostPeerResponseResult","eaphostpeertypes/EapHostPeerResponseSend","eaphostpeertypes/EapHostPeerResponseStartAuthentication"]
+description: Defines the set of actions an EAP authenticator or peer method can indicate to a supplicant during authentication.
+helpviewer_keywords: ["EapHostPeerResponseAction","EapHostPeerResponseAction enumeration [EAPHost]","EapHostPeerResponseDiscard","EapHostPeerResponseInvokeUI","EapHostPeerResponseNone","EapHostPeerResponseRespond","EapHostPeerResponseResult","EapHostPeerResponseSend","EapHostPeerResponseStartAuthentication","eaphost.eaphostpeerresponseaction","eaphostpeertypes/EapHostPeerResponseAction","eaphostpeertypes/EapHostPeerResponseDiscard","eaphostpeertypes/EapHostPeerResponseInvokeUI","eaphostpeertypes/EapHostPeerResponseNone","eaphostpeertypes/EapHostPeerResponseRespond","eaphostpeertypes/EapHostPeerResponseResult","eaphostpeertypes/EapHostPeerResponseSend","eaphostpeertypes/EapHostPeerResponseStartAuthentication"]
 old-location: eaphost\eaphostpeerresponseaction.htm
 tech.root: eaphost
 ms.assetid: 59bf6e02-90b5-4f9a-9865-b71852c61db9
@@ -105,7 +106,7 @@ The supplicant should invoke a user interface dialog on the client.
 
 
 
-[EAPHost Supplicant Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-enumerations)a>
+[EAPHost Supplicant Enumerations](/windows/win32/eaphost/eap-host-supplicant-enumerations)
  
 
  

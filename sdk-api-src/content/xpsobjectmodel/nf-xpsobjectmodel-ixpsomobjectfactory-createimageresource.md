@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateImageResource
 title: IXpsOMObjectFactory::CreateImageResource (xpsobjectmodel.h)
-description: Creates an IXpsOMImageResource interface, which is used to access an image resource stream.helpviewer_keywords: ["CreateImageResource","CreateImageResource method [XPS Documents and Packaging]","CreateImageResource method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateImageResource method","IXpsOMObjectFactory.CreateImageResource","IXpsOMObjectFactory::CreateImageResource","xps.ixpsomobjectfactory_createimageresource","xpsobjectmodel/IXpsOMObjectFactory::CreateImageResource"]
+description: Creates an IXpsOMImageResource interface, which is used to access an image resource stream.
+helpviewer_keywords: ["CreateImageResource","CreateImageResource method [XPS Documents and Packaging]","CreateImageResource method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateImageResource method","IXpsOMObjectFactory.CreateImageResource","IXpsOMObjectFactory::CreateImageResource","xps.ixpsomobjectfactory_createimageresource","xpsobjectmodel/IXpsOMObjectFactory::CreateImageResource"]
 old-location: xps\ixpsomobjectfactory_createimageresource.htm
 tech.root: printdocs
 ms.assetid: 267f6e3e-ed1d-4ce7-a554-a943ac3f469d
@@ -66,7 +67,7 @@ The read-only stream to be associated with this resource. This parameter must 	n
 
 ### -param contentType [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a> value that describes the image type of the stream that is referenced by <i>acquiredStream</i>.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a> value that describes the image type of the stream that is referenced by <i>acquiredStream</i>.
 
 
 ### -param partUri [in]
@@ -108,7 +109,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>contentType</i> was not a valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a> value.
+<i>contentType</i> was not a valid <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a> value.
 
 </td>
 </tr>
@@ -214,7 +215,7 @@ else
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
  
 
  

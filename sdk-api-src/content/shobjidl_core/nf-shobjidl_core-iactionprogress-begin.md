@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.Begin
 title: IActionProgress::Begin (shobjidl_core.h)
-description: Called when an action has begun that requires its progress be displayed to the user.helpviewer_keywords: ["Begin","Begin method [Windows Shell]","Begin method [Windows Shell]","IActionProgress interface","IActionProgress interface [Windows Shell]","Begin method","IActionProgress.Begin","IActionProgress::Begin","shell.IActionProgress_Begin","shell_IActionProgress_Begin","shobjidl_core/IActionProgress::Begin"]
+description: Called when an action has begun that requires its progress be displayed to the user.
+helpviewer_keywords: ["Begin","Begin method [Windows Shell]","Begin method [Windows Shell]","IActionProgress interface","IActionProgress interface [Windows Shell]","Begin method","IActionProgress.Begin","IActionProgress::Begin","shell.IActionProgress_Begin","shell_IActionProgress_Begin","shobjidl_core/IActionProgress::Begin"]
 old-location: shell\IActionProgress_Begin.htm
 tech.root: shell
 ms.assetid: c26dd072-6d59-4c6c-a273-682ded994612
@@ -66,9 +67,9 @@ The action being performed. See <a href="https://docs.microsoft.com/windows/desk
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a></b>
 
-Optional flags that request certain UI operations be enabled or disabled. See <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a> for a list of acceptable values.
+Optional flags that request certain UI operations be enabled or disabled. See <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a> for a list of acceptable values.
 
 
 ## -returns
@@ -109,7 +110,7 @@ This method should be called when an action is beginning. The values of <i>actio
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a>
+<a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a>
  
 
  

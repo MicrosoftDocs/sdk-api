@@ -1,7 +1,8 @@
 ---
 UID: NE:objidlbase.tagGLOBALOPT_PROPERTIES
 title: GLOBALOPT_PROPERTIES (objidlbase.h)
-description: Identifies process-global options that you can set or query by using the IGlobalOptions interface.helpviewer_keywords: ["COMGLB_APPID","COMGLB_EXCEPTION_HANDLING","COMGLB_RO_SETTINGS","COMGLB_RPC_THREADPOOL_SETTING","COMGLB_UNMARSHALING_POLICY","GLOBALOPT_PROPERTIES","GLOBALOPT_PROPERTIES enumeration [COM]","com.globalopt_properties","objidl/COMGLB_APPID","objidl/COMGLB_EXCEPTION_HANDLING","objidl/COMGLB_RO_SETTINGS","objidl/COMGLB_RPC_THREADPOOL_SETTING","objidl/COMGLB_UNMARSHALING_POLICY","objidl/GLOBALOPT_PROPERTIES"]
+description: Identifies process-global options that you can set or query by using the IGlobalOptions interface.
+helpviewer_keywords: ["COMGLB_APPID","COMGLB_EXCEPTION_HANDLING","COMGLB_RO_SETTINGS","COMGLB_RPC_THREADPOOL_SETTING","COMGLB_UNMARSHALING_POLICY","GLOBALOPT_PROPERTIES","GLOBALOPT_PROPERTIES enumeration [COM]","com.globalopt_properties","objidl/COMGLB_APPID","objidl/COMGLB_EXCEPTION_HANDLING","objidl/COMGLB_RO_SETTINGS","objidl/COMGLB_RPC_THREADPOOL_SETTING","objidl/COMGLB_UNMARSHALING_POLICY","objidl/GLOBALOPT_PROPERTIES"]
 old-location: com\globalopt_properties.htm
 tech.root: com
 ms.assetid: 210BAEAF-D6FF-46E0-A187-D89EBB655B9C
@@ -97,7 +98,7 @@ Defines the policy that's applied in the <a href="https://docs.microsoft.com/win
 
 
 
-The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values from the <a href="https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a> enumeration.
+The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values from the <a href="/windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a> enumeration.
 
 
 
@@ -111,7 +112,7 @@ The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values fr
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
+<a href="/windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
 
 
 

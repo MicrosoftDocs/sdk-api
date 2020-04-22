@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara2.SetFontAlignment
 title: ITextPara2::SetFontAlignment (tom.h)
-description: Sets the paragraph font alignment for Chinese, Japanese, Korean text.helpviewer_keywords: ["ITextPara2 interface [Windows Controls]","SetFontAlignment method","ITextPara2.SetFontAlignment","ITextPara2::SetFontAlignment","SetFontAlignment","SetFontAlignment method [Windows Controls]","SetFontAlignment method [Windows Controls]","ITextPara2 interface","controls.itextpara2_setfontalignment","tom/ITextPara2::SetFontAlignment"]
+description: Sets the paragraph font alignment for Chinese, Japanese, Korean text.
+helpviewer_keywords: ["ITextPara2 interface [Windows Controls]","SetFontAlignment method","ITextPara2.SetFontAlignment","ITextPara2::SetFontAlignment","SetFontAlignment","SetFontAlignment method [Windows Controls]","SetFontAlignment method [Windows Controls]","ITextPara2 interface","controls.itextpara2_setfontalignment","tom/ITextPara2::SetFontAlignment"]
 old-location: controls\itextpara2_setfontalignment.htm
 tech.root: Controls
 ms.assetid: 2ed1f7f2-9523-4dda-bac0-c1eb3d217102
@@ -70,19 +71,19 @@ The paragraph font alignment. It can be one of the following values.
 <th>Font Alignment States</th>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentAuto</a> (default)</td>
+<td><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentAuto</a> (default)</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentTop</a></td>
+<td><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentTop</a></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentBaseline</a></td>
+<td><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentBaseline</a></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentBottom</a></td>
+<td><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentBottom</a></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentCenter</a></td>
+<td><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentCenter</a></td>
 </tr>
 </table>
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.RedirectLogonError
 title: IWTSProtocolLogonErrorRedirector::RedirectLogonError (wtsprotocol.h)
-description: IWTSProtocolLogonErrorRedirector::RedirectLogonError is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectLogonError.helpviewer_keywords: ["IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services]","RedirectLogonError method","IWTSProtocolLogonErrorRedirector.RedirectLogonError","IWTSProtocolLogonErrorRedirector::RedirectLogonError","RedirectLogonError","RedirectLogonError method [Remote Desktop Services]","RedirectLogonError method [Remote Desktop Services]","IWTSProtocolLogonErrorRedirector interface","STATUS_ACCOUNT_DISABLED","STATUS_ACCOUNT_RESTRICTION","STATUS_BAD_VALIDATION_CLASS","STATUS_INVALID_LOGON_HOURS","STATUS_INVALID_WORKSTATION","STATUS_LOGON_FAILURE","STATUS_NO_LOGON_SERVERS","STATUS_NO_SUCH_PACKAGE","STATUS_PASSWORD_EXPIRED","STATUS_QUOTA_EXCEEDED","termserv.iwtsprotocollogonerrorredirector_redirectlogonerror","wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectLogonError"]
+description: IWTSProtocolLogonErrorRedirector::RedirectLogonError is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectLogonError.
+helpviewer_keywords: ["IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services]","RedirectLogonError method","IWTSProtocolLogonErrorRedirector.RedirectLogonError","IWTSProtocolLogonErrorRedirector::RedirectLogonError","RedirectLogonError","RedirectLogonError method [Remote Desktop Services]","RedirectLogonError method [Remote Desktop Services]","IWTSProtocolLogonErrorRedirector interface","STATUS_ACCOUNT_DISABLED","STATUS_ACCOUNT_RESTRICTION","STATUS_BAD_VALIDATION_CLASS","STATUS_INVALID_LOGON_HOURS","STATUS_INVALID_WORKSTATION","STATUS_LOGON_FAILURE","STATUS_NO_LOGON_SERVERS","STATUS_NO_SUCH_PACKAGE","STATUS_PASSWORD_EXPIRED","STATUS_QUOTA_EXCEEDED","termserv.iwtsprotocollogonerrorredirector_redirectlogonerror","wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectLogonError"]
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectlogonerror.htm
 tech.root: TermServ
 ms.assetid: 10cd07c3-9617-4ef8-9b30-541a3206e7e4
@@ -146,7 +147,7 @@ An integer that contains the message box type. For more information, see the <b>
 
 ### -param pResponse [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that specifies to the Remote Desktop Services service the preferred response to the logon error.
+A pointer to a <a href="/windows/win32/api/wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that specifies to the Remote Desktop Services service the preferred response to the logon error.
 
 
 ## -returns

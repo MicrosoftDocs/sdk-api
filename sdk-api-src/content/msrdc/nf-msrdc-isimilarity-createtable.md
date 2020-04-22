@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarity.CreateTable
 title: ISimilarity::CreateTable (msrdc.h)
-description: Creates or opens a similarity traits table and a similarity file ID table.helpviewer_keywords: ["CreateTable","CreateTable method [Remote Differential Compression]","CreateTable method [Remote Differential Compression]","ISimilarity interface","ISimilarity interface [Remote Differential Compression]","CreateTable method","ISimilarity.CreateTable","ISimilarity::CreateTable","fs.isimilarity_createtable","msrdc/ISimilarity::CreateTable","rdc.isimilarity_createtable"]
+description: Creates or opens a similarity traits table and a similarity file ID table.
+helpviewer_keywords: ["CreateTable","CreateTable method [Remote Differential Compression]","CreateTable method [Remote Differential Compression]","ISimilarity interface","ISimilarity interface [Remote Differential Compression]","CreateTable method","ISimilarity.CreateTable","ISimilarity::CreateTable","fs.isimilarity_createtable","msrdc/ISimilarity::CreateTable","rdc.isimilarity_createtable"]
 old-location: rdc\isimilarity_createtable.htm
 tech.root: rdc
 ms.assetid: 808c20f9-054d-475d-8ca3-ee2dde871426
@@ -79,7 +80,7 @@ The size, in bytes, of each file ID to be stored in the similarity file id table
 
 ### -param isNew [out]
 
-A pointer to  a variable that receives an  <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdccreatedtables">RdcCreatedTables</a> enumeration value that describes the state of the tables. If new tables are created, this variable receives <b>RDCTABLE_New</b>. If existing tables are used, this variable receives <b>RDCTABLE_Existing</b>. If this method fails, this variable receives <b>RDCTABLE_InvalidOrUnknown</b>.
+A pointer to  a variable that receives an  <a href="/windows/win32/api/msrdc/ne-msrdc-rdccreatedtables">RdcCreatedTables</a> enumeration value that describes the state of the tables. If new tables are created, this variable receives <b>RDCTABLE_New</b>. If existing tables are used, this variable receives <b>RDCTABLE_Existing</b>. If this method fails, this variable receives <b>RDCTABLE_InvalidOrUnknown</b>.
 
 
 ## -returns

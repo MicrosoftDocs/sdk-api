@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_POLICY1_
 title: IKEEXT_POLICY1 (iketypes.h)
-description: Is used to store the IKE/AuthIP main mode negotiation policy.helpviewer_keywords: ["IKEEXT_POLICY1","IKEEXT_POLICY1 structure [Filtering]","IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS","IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH","IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY","IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY","fwp.ikeext_policy1","iketypes/IKEEXT_POLICY1"]
+description: Is used to store the IKE/AuthIP main mode negotiation policy.
+helpviewer_keywords: ["IKEEXT_POLICY1","IKEEXT_POLICY1 structure [Filtering]","IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS","IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH","IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY","IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY","fwp.ikeext_policy1","iketypes/IKEEXT_POLICY1"]
 old-location: fwp\ikeext_policy1.htm
 tech.root: fwp
 ms.assetid: 0834b147-9892-4afe-a5c8-cb782918a868
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_POLICY1</b> structure is used to store the IKE/AuthIP main mode negotiation policy.
-[IKEEXT_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy0)a> is available.</div><div> </div>
+[IKEEXT_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -71,14 +72,14 @@ Number of authentication methods.
 
 Array of acceptable authentication methods.
 
-See  [IKEEXT_AUTHENTICATION_METHOD1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1)a> for more information.
+See  [IKEEXT_AUTHENTICATION_METHOD1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1) for more information.
 
 
 ### -field initiatorImpersonationType
 
 Type of impersonation. Applies only to AuthIP. 
 
-See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a> for more information.
+See <a href="/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a> for more information.
 
 
 ### -field numIkeProposals
@@ -90,7 +91,7 @@ Number of main mode proposals.
 
 Array of main mode proposals. 
 
-See [IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)a> for more information.
+See [IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0) for more information.
 
 
 ### -field flags
@@ -167,15 +168,15 @@ The number of seconds for which IKEv2 SA negotiation packets will be retransmitt
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a>
+<a href="/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a>
 
 
 
-[IKEEXT_AUTHENTICATION_METHOD1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1)a>
+[IKEEXT_AUTHENTICATION_METHOD1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1)
 
 
 
-[IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)a>
+[IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)
 
 
 

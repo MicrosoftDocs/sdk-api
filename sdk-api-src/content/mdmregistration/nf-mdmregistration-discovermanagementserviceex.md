@@ -1,7 +1,8 @@
 ---
 UID: NF:mdmregistration.DiscoverManagementServiceEx
 title: DiscoverManagementServiceEx function (mdmregistration.h)
-description: Discovers the MDM service using a candidate server.helpviewer_keywords: ["DiscoverManagementServiceEx","DiscoverManagementServiceEx function [MDM Registration]","mdmreg.discovermanagementserviceex","mdmregistration/DiscoverManagementServiceEx"]
+description: Discovers the MDM service using a candidate server.
+helpviewer_keywords: ["DiscoverManagementServiceEx","DiscoverManagementServiceEx function [MDM Registration]","mdmreg.discovermanagementserviceex","mdmregistration/DiscoverManagementServiceEx"]
 old-location: mdmreg\discovermanagementserviceex.htm
 tech.root: MDMReg
 ms.assetid: 600269ff-df88-49ed-b151-df0302cbc4d4
@@ -73,7 +74,7 @@ Address of a <b>NULL</b>-terminated Unicode string containing the discovery serv
 
 ### -param ppMgmtInfo [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/win32/api/mdmregistration/ns-mdmregistration-management_service_info">MANAGEMENT_SERVICE_INFO</a> 
+Address of a <a href="/windows/win32/api/mdmregistration/ns-mdmregistration-management_service_info">MANAGEMENT_SERVICE_INFO</a> 
       structure that contains pointers to the URIs of the management and authentication services.
 
 
@@ -109,7 +110,7 @@ This function is not available before Windows Server 2012 R2 Update and Window
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/mdmregistration/ns-mdmregistration-management_service_info">MANAGEMENT_SERVICE_INFO</a>
+<a href="/windows/win32/api/mdmregistration/ns-mdmregistration-management_service_info">MANAGEMENT_SERVICE_INFO</a>
 
 
 

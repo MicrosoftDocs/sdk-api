@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawEllipse(const D2D1_ELLIPSE,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawEllipse (d2d1.h)
-description: Draws the outline of an ellipse with the specified dimensions and stroke.helpviewer_keywords: ["DrawEllipse","DrawEllipse methods [Direct2D]","ID2D1RenderTarget.DrawEllipse","ID2D1RenderTarget::DrawEllipse","d2d1/DrawEllipse","direct2d.id2d1rendertarget_drawellipse"]
+description: Draws the outline of an ellipse with the specified dimensions and stroke.
+helpviewer_keywords: ["DrawEllipse","DrawEllipse methods [Direct2D]","ID2D1RenderTarget.DrawEllipse","ID2D1RenderTarget::DrawEllipse","d2d1/DrawEllipse","direct2d.id2d1rendertarget_drawellipse"]
 old-location: direct2d\id2d1rendertarget_drawellipse.htm
 tech.root: Direct2D
 ms.assetid: dabbb399-2d72-41c3-8b2f-aea49d7ad0cb
@@ -98,7 +99,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse_id2d1brush)">FillEllipse</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse_id2d1brush)">FillEllipse</a>
 
 
 

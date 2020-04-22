@@ -1,7 +1,8 @@
 ---
 UID: NS:eapauthenticatoractiondefine.tagEapPeerMethodOuput
 title: EapPeerMethodOutput (eapauthenticatoractiondefine.h)
-description: Contains the action information returned by an EAP peer method.helpviewer_keywords: ["EapPeerMethodOutput","EapPeerMethodOutput structure [EAPHost]","eapauthenticatoractiondefine/EapPeerMethodOutput","eaphost.eappeermethodoutput"]
+description: Contains the action information returned by an EAP peer method.
+helpviewer_keywords: ["EapPeerMethodOutput","EapPeerMethodOutput structure [EAPHost]","eapauthenticatoractiondefine/EapPeerMethodOutput","eaphost.eappeermethodoutput"]
 old-location: eaphost\eappeermethodoutput.htm
 tech.root: eaphost
 ms.assetid: fb3d423e-8509-4478-87d5-86bcbd90a8e7
@@ -60,7 +61,7 @@ Contains the action information returned by an EAP peer method.
 ### -field action
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction">EapPeerMethodResponseAction</a> enumeration value that indicates the response EAPHost should take as a result of the EAP peer method operation.
+<a href="/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction">EapPeerMethodResponseAction</a> enumeration value that indicates the response EAPHost should take as a result of the EAP peer method operation.
 
 
 ### -field fAllowNotifications
@@ -73,7 +74,7 @@ If <b>TRUE</b>, allows EAPHost to raise a notification to the user; otherwise, d
 
 
 
-[EAPHost Peer Method Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-peer-method-structures)a>
+[EAPHost Peer Method Structures](/windows/win32/eaphost/eap-host-peer-method-structures)
  
 
  

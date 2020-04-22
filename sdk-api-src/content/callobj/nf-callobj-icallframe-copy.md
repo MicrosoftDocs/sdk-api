@@ -1,7 +1,8 @@
 ---
 UID: NF:callobj.ICallFrame.Copy
 title: ICallFrame::Copy (callobj.h)
-description: Creates a copy of this call frame and all of its associated data.helpviewer_keywords: ["Copy","Copy method [COM]","Copy method [COM]","ICallFrame interface","ICallFrame interface [COM]","Copy method","ICallFrame.Copy","ICallFrame::Copy","_com_icallframe_copy","callobj/ICallFrame::Copy","com.icallframe_copy"]
+description: Creates a copy of this call frame and all of its associated data.
+helpviewer_keywords: ["Copy","Copy method [COM]","Copy method [COM]","ICallFrame interface","ICallFrame interface [COM]","Copy method","ICallFrame.Copy","ICallFrame::Copy","_com_icallframe_copy","callobj/ICallFrame::Copy","com.icallframe_copy"]
 old-location: com\icallframe_copy.htm
 tech.root: com
 ms.assetid: bf2d2e55-d9d1-48d6-817c-382c739d1acd
@@ -59,7 +60,7 @@ Creates a copy of this call frame and all of its associated data.
 
 ### -param copyControl [in]
 
-Determines whether the copied call frame data can be shared with data in the parent frame by determining its lifetime dependency on the parent frame. For a list of values, see the <a href="https://docs.microsoft.com/windows/win32/api/callobj/ne-callobj-callframe_copy">CALLFRAME_COPY</a> enumeration. If the CALLFRAME_COPY_NESTED flag is set, then the client will be responsible for using the copied call frame in a manner that its lifetime is nested in the lifetime of its parent frame making the data sharable. If the CALLFRAME_COPY_INDEPENDENT is set, then the lifetime of the copied frame will be independent of the parents.
+Determines whether the copied call frame data can be shared with data in the parent frame by determining its lifetime dependency on the parent frame. For a list of values, see the <a href="/windows/win32/api/callobj/ne-callobj-callframe_copy">CALLFRAME_COPY</a> enumeration. If the CALLFRAME_COPY_NESTED flag is set, then the client will be responsible for using the copied call frame in a manner that its lifetime is nested in the lifetime of its parent frame making the data sharable. If the CALLFRAME_COPY_INDEPENDENT is set, then the lifetime of the copied frame will be independent of the parents.
 
 
 ### -param pWalker [in]

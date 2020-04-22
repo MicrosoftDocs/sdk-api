@@ -1,7 +1,8 @@
 ---
 UID: NS:windns.__unnamed_struct_37
 title: DNS_TSIG_DATAW (windns.h)
-description: The DNS_TSIG_DATA structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in RFC 2845 and RFC 3645.helpviewer_keywords: ["*PDNS_TSIG_DATA","*PDNS_TSIG_DATAW","DNS_RCODE_BADKEY","DNS_RCODE_BADSIG","DNS_RCODE_BADTIME","DNS_TSIG_DATA","DNS_TSIG_DATA structure [DNS]","DNS_TSIG_DATAW","PDNS_TSIG_DATA","PDNS_TSIG_DATA structure pointer [DNS]","_dns_dns_tsig_data","dns.dns_tsig_data","gss-tsig","gss.microsoft.com","windns/DNS_TSIG_DATA","windns/PDNS_TSIG_DATA"]
+description: The DNS_TSIG_DATA structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in RFC 2845 and RFC 3645.
+helpviewer_keywords: ["*PDNS_TSIG_DATA","*PDNS_TSIG_DATAW","DNS_RCODE_BADKEY","DNS_RCODE_BADSIG","DNS_RCODE_BADTIME","DNS_TSIG_DATA","DNS_TSIG_DATA structure [DNS]","DNS_TSIG_DATAW","PDNS_TSIG_DATA","PDNS_TSIG_DATA structure pointer [DNS]","_dns_dns_tsig_data","dns.dns_tsig_data","gss-tsig","gss.microsoft.com","windns/DNS_TSIG_DATA","windns/PDNS_TSIG_DATA"]
 old-location: dns\dns_tsig_data.htm
 tech.root: DNS
 ms.assetid: 32077169-d319-45c0-982f-8d470cd70111
@@ -149,7 +150,7 @@ The <b>pSignature</b> field is bad.
 </dl>
 </td>
 <td width="60%">
-The <b>pKey</b> field of the <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_tkey_dataw">DNS_TKEY_DATA</a> RR is bad.
+The <b>pKey</b> field of the <a href="/windows/win32/api/windns/ns-windns-dns_tkey_dataw">DNS_TKEY_DATA</a> RR is bad.
 
 </td>
 </tr>
@@ -193,7 +194,7 @@ Reserved for future use. Do not use.
 
 The 
 <b>DNS_TSIG_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -203,11 +204,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_tkey_dataw">DNS_TKEY_DATA</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_tkey_dataw">DNS_TKEY_DATA</a>
  
 
  

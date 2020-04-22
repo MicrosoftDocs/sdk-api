@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignature
 title: IXpsSignature (xpsdigitalsignature.h)
-description: Represents a single digital signature.helpviewer_keywords: ["IXpsSignature","IXpsSignature interface [XPS Documents and Packaging]","IXpsSignature interface [XPS Documents and Packaging]","described","xps.ixpssignature","xpsdigitalsignature/IXpsSignature"]
+description: Represents a single digital signature.
+helpviewer_keywords: ["IXpsSignature","IXpsSignature interface [XPS Documents and Packaging]","IXpsSignature interface [XPS Documents and Packaging]","described","xps.ixpssignature","xpsdigitalsignature/IXpsSignature"]
 old-location: xps\ixpssignature.htm
 tech.root: printdocs
 ms.assetid: 23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5
@@ -102,7 +103,7 @@ Gets a pointer to an <a href="https://docs.microsoft.com/previous-versions/windo
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getpolicy">GetPolicy</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
+Gets the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
             
 
 </td>
@@ -219,7 +220,7 @@ An <b>IXpsSignature</b> interface may represent a signature that is not XPS comp
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
+<a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
  
 
  

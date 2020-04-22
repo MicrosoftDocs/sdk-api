@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceTrack
 title: IComResourceEvents::OnResourceTrack (comsvcs.h)
-description: Generated when a resource is tracked.helpviewer_keywords: ["IComResourceEvents interface [COM+]","OnResourceTrack method","IComResourceEvents.OnResourceTrack","IComResourceEvents::OnResourceTrack","OnResourceTrack","OnResourceTrack method [COM+]","OnResourceTrack method [COM+]","IComResourceEvents interface","_dtc_IComResourceEvents_OnResourceTrack","comsvcs/IComResourceEvents::OnResourceTrack","cos.icomresourceevents_onresourcetrack"]
+description: Generated when a resource is tracked.
+helpviewer_keywords: ["IComResourceEvents interface [COM+]","OnResourceTrack method","IComResourceEvents.OnResourceTrack","IComResourceEvents::OnResourceTrack","OnResourceTrack","OnResourceTrack method [COM+]","OnResourceTrack method [COM+]","IComResourceEvents interface","_dtc_IComResourceEvents_OnResourceTrack","comsvcs/IComResourceEvents::OnResourceTrack","cos.icomresourceevents_onresourcetrack"]
 old-location: cos\icomresourceevents_onresourcetrack.htm
 tech.root: cossdk
 ms.assetid: 8845cf07-f796-45bd-9d3d-261cf0903050
@@ -59,7 +60,7 @@ Generated when a resource is tracked.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param ObjectID [in]

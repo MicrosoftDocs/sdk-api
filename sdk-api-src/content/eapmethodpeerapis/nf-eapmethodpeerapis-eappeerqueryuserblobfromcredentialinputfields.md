@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerQueryUserBlobFromCredentialInputFields
 title: EapPeerQueryUserBlobFromCredentialInputFields function (eapmethodpeerapis.h)
-description: Defines the implementation of an EAP method function that obtains the user BLOB data provided in an interactive Single-Sign-On (SSO) UI raised on the supplicant.helpviewer_keywords: ["EapPeerQueryUserBlobFromCredentialInputFields","EapPeerQueryUserBlobFromCredentialInputFields function [EAPHost]","eaphost.eappeerqueryuserblobfrominteractiveuiinputfields","eapmethodpeerapis/EapPeerQueryUserBlobFromCredentialInputFields"]
+description: Defines the implementation of an EAP method function that obtains the user BLOB data provided in an interactive Single-Sign-On (SSO) UI raised on the supplicant.
+helpviewer_keywords: ["EapPeerQueryUserBlobFromCredentialInputFields","EapPeerQueryUserBlobFromCredentialInputFields function [EAPHost]","eaphost.eappeerqueryuserblobfrominteractiveuiinputfields","eapmethodpeerapis/EapPeerQueryUserBlobFromCredentialInputFields"]
 old-location: eaphost\eappeerqueryuserblobfrominteractiveuiinputfields.htm
 tech.root: eaphost
 ms.assetid: decfe3cd-642e-41c8-9bec-d079a0f74504
@@ -69,7 +70,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param dwEapConnDataSize [in]
@@ -124,7 +125,7 @@ After <b>EapPeerQueryUserBlobFromCredentialInputFields</b>, EAPHost calls <a hre
 
 
 
-[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
+[SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
  
 
  

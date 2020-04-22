@@ -188,7 +188,6 @@ Indicates that the caller is querying for topology information from the adapter.
 
 Indicates that the caller is querying for topology information from the device. Data is returned using the [STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR](ns-winioctl-storage_physical_topology_descriptor.md) structure.
 
-
 ### -field StorageDeviceAttributesProperty
 
 Reserved for future use.
@@ -196,21 +195,15 @@ Reserved for future use.
 
 ### -field StorageDeviceManagementStatus
 
-
 ### -field StorageAdapterSerialNumberProperty
-
 
 ### -field StorageDeviceLocationProperty
 
-
 ### -field StorageDeviceNumaProperty
-
 
 ### -field StorageDeviceZonedDeviceProperty
 
-
 ### -field StorageDeviceUnsafeShutdownCount
-
 
 ### -field StorageDeviceEnduranceProperty
 
@@ -226,3 +219,4 @@ The optional output buffer returned through the *lpOutBuffer* parameter of the [
 * [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
 * [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md)
 * [STORAGE_QUERY_TYPE](ne-winioctl-storage_query_type.md)
+

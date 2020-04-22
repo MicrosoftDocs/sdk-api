@@ -1,7 +1,8 @@
 ---
 UID: NS:wmiutils.tag_SWbemRpnEncodedQuery
 title: SWbemRpnEncodedQuery (wmiutils.h)
-description: The SWbemRpnEncodedQuery structure contains information from the IWbemQuery::GetAnalysis method when you use the WMIQ_ANALYSIS_RPN_SEQUENCE analysis type. Not all the fields in the structure are used actively, because some are reserved for future use.helpviewer_keywords: ["SWbemRpnEncodedQuery","SWbemRpnEncodedQuery structure [Windows Management Instrumentation]","WMIQ_RPN_FROM_CLASS_LIST","WMIQ_RPN_FROM_PATH","WMIQ_RPN_FROM_UNARY","wmi.swbemrpnencodedquery","wmiutils/SWbemRpnEncodedQuery"]
+description: The SWbemRpnEncodedQuery structure contains information from the IWbemQuery::GetAnalysis method when you use the WMIQ_ANALYSIS_RPN_SEQUENCE analysis type. Not all the fields in the structure are used actively, because some are reserved for future use.
+helpviewer_keywords: ["SWbemRpnEncodedQuery","SWbemRpnEncodedQuery structure [Windows Management Instrumentation]","WMIQ_RPN_FROM_CLASS_LIST","WMIQ_RPN_FROM_PATH","WMIQ_RPN_FROM_UNARY","wmi.swbemrpnencodedquery","wmiutils/SWbemRpnEncodedQuery"]
 old-location: wmi\swbemrpnencodedquery.htm
 tech.root: WmiSdk
 ms.assetid: 0f7e77a8-4ee6-421b-be4a-b58055a58c39
@@ -89,7 +90,7 @@ Number of elements listed in a SELECT clause. For example, in the statement <cod
 
 ### -field m_ppSelectList
 
-Structure used to store property names. This field is used  with the  <b>m_uSelectListSize</b> field. For example, in the statement <code>SELECT a,b,c FROM d</code>, <b>m_uSelectListSize</b> is 3, and the <b>m_ppszNameList</b> field of the <b>m_ppSelectList</b> structure contains the strings "a", "b" and "c". For more information, see <a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemqueryqualifiedname">SWbemQueryQualifiedName</a>.
+Structure used to store property names. This field is used  with the  <b>m_uSelectListSize</b> field. For example, in the statement <code>SELECT a,b,c FROM d</code>, <b>m_uSelectListSize</b> is 3, and the <b>m_ppszNameList</b> field of the <b>m_ppSelectList</b> structure contains the strings "a", "b" and "c". For more information, see <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemqueryqualifiedname">SWbemQueryQualifiedName</a>.
 
 
 ### -field m_uFromTargetType
@@ -137,7 +138,7 @@ Number of tokens in the WHERE clause. For example, in the statement <code>SELECT
 
 ### -field m_ppRpnWhereClause
 
-<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnQueryToken</a>
+<a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnQueryToken</a>
 <code>SELECT * FROM a, b WHERE c &lt; 1000 AND d ISA e</code>
 <code>c &lt; 1000</code>
 <code>d ISA e</code>
@@ -179,11 +180,11 @@ Used if there is  a GROUP WITHIN clause to indicate the interval over which to g
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemqueryqualifiedname">SWbemQueryQualifiedName</a>
+<a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemqueryqualifiedname">SWbemQueryQualifiedName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnQueryToken</a>
+<a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnQueryToken</a>
  
 
  

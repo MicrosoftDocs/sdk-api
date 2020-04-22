@@ -1,7 +1,8 @@
 ---
 UID: NS:opmapi._OPM_OUTPUT_ID_DATA
 title: OPM_OUTPUT_ID_DATA (opmapi.h)
-description: Contains the result from an OPM_GET_OUTPUT_ID status request.helpviewer_keywords: ["OPM_OUTPUT_ID_DATA","OPM_OUTPUT_ID_DATA structure [Media Foundation]","mf.opm_output_id_data","opmapi/OPM_OUTPUT_ID_DATA"]
+description: Contains the result from an OPM_GET_OUTPUT_ID status request.
+helpviewer_keywords: ["OPM_OUTPUT_ID_DATA","OPM_OUTPUT_ID_DATA structure [Media Foundation]","mf.opm_output_id_data","opmapi/OPM_OUTPUT_ID_DATA"]
 old-location: mf\opm_output_id_data.htm
 tech.root: medfound
 ms.assetid: 3fb56b5d-470c-4ca2-bf8b-5c3761c7cf06
@@ -59,7 +60,7 @@ Contains the result from an <a href="https://docs.microsoft.com/windows/desktop/
 
 ### -field rnRandomNumber
 
-An <a href="https://docs.microsoft.com/windows/win32/api/opmapi/ns-opmapi-opm_copp_compatible_get_info_parameters">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-opm_copp_compatible_get_info_parameters">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
+An <a href="/windows/win32/api/opmapi/ns-opmapi-opm_copp_compatible_get_info_parameters">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-opm_copp_compatible_get_info_parameters">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
 
 
 ### -field ulStatusFlags

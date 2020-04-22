@@ -1,7 +1,8 @@
 ---
 UID: NF:ktmw32.RollbackEnlistment
 title: RollbackEnlistment function (ktmw32.h)
-description: Rolls back the specified transaction that is associated with an enlistment. This function cannot be called for read-only enlistments.helpviewer_keywords: ["RollbackEnlistment","RollbackEnlistment function [Files]","fs.rollbackenlistment","ktmw32/RollbackEnlistment"]
+description: Rolls back the specified transaction that is associated with an enlistment. This function cannot be called for read-only enlistments.
+helpviewer_keywords: ["RollbackEnlistment","RollbackEnlistment function [Files]","fs.rollbackenlistment","ktmw32/RollbackEnlistment"]
 old-location: fs\rollbackenlistment.htm
 tech.root: ktm
 ms.assetid: e62c0c81-6802-4a76-94bb-617933490e83
@@ -64,7 +65,7 @@ A handle to the enlistment.
 
 ### -param TmVirtualClock [in]
 
-The latest virtual clock value received for this enlistment. See <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
+The latest virtual clock value received for this enlistment. See <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
 
 
 ## -returns

@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_TRAFFIC0_
 title: IKEEXT_TRAFFIC0 (iketypes.h)
-description: Specifies the IKE/Authip traffic.helpviewer_keywords: ["IKEEXT_TRAFFIC0","IKEEXT_TRAFFIC0 structure [Filtering]","fwp.ikeext_traffic0","iketypes/IKEEXT_TRAFFIC0"]
+description: Specifies the IKE/Authip traffic.
+helpviewer_keywords: ["IKEEXT_TRAFFIC0","IKEEXT_TRAFFIC0 structure [Filtering]","fwp.ikeext_traffic0","iketypes/IKEEXT_TRAFFIC0"]
 old-location: fwp\ikeext_traffic0.htm
 tech.root: fwp
 ms.assetid: 99cb3774-7afd-44fd-9c3e-e2d913aaeecb
@@ -59,7 +60,7 @@ The <b>IKEEXT_TRAFFIC0</b> structure specifies the IKE/Authip traffic.
 
 ### -field ipVersion
 
-IP version specified by [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>.
+IP version specified by [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version).
 
 
 ### -field localV4Address
@@ -109,7 +110,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>
+[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
 
 

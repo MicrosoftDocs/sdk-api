@@ -1,7 +1,8 @@
 ---
 UID: NS:mstcpip._REAL_TIME_NOTIFICATION_SETTING_INPUT
 title: REAL_TIME_NOTIFICATION_SETTING_INPUT (mstcpip.h)
-description: Provides input settings to apply for the REAL_TIME_NOTIFICATION_CAPABILITY transport setting for a TCP socket that is used with ControlChannelTrigger to receive background network notifications in a Windows Store app.helpviewer_keywords: ["*PREAL_TIME_NOTIFICATION_SETTING_INPUT","PREAL_TIME_NOTIFICATION_SETTING_INPUT","PREAL_TIME_NOTIFICATION_SETTING_INPUT structure pointer [Winsock]","REAL_TIME_NOTIFICATION_SETTING_INPUT","REAL_TIME_NOTIFICATION_SETTING_INPUT structure [Winsock]","mstcpip/PREAL_TIME_NOTIFICATION_SETTING_INPUT","mstcpip/REAL_TIME_NOTIFICATION_SETTING_INPUT","winsock.real_time_notification_setting_input"]
+description: Provides input settings to apply for the REAL_TIME_NOTIFICATION_CAPABILITY transport setting for a TCP socket that is used with ControlChannelTrigger to receive background network notifications in a Windows Store app.
+helpviewer_keywords: ["*PREAL_TIME_NOTIFICATION_SETTING_INPUT","PREAL_TIME_NOTIFICATION_SETTING_INPUT","PREAL_TIME_NOTIFICATION_SETTING_INPUT structure pointer [Winsock]","REAL_TIME_NOTIFICATION_SETTING_INPUT","REAL_TIME_NOTIFICATION_SETTING_INPUT structure [Winsock]","mstcpip/PREAL_TIME_NOTIFICATION_SETTING_INPUT","mstcpip/REAL_TIME_NOTIFICATION_SETTING_INPUT","winsock.real_time_notification_setting_input"]
 old-location: winsock\real_time_notification_setting_input.htm
 tech.root: WinSock
 ms.assetid: A008310D-D812-4DCD-A3F2-64FEEEB31DB8
@@ -89,7 +90,7 @@ The <b>REAL_TIME_NOTIFICATION_SETTING_INPUT</b>  structure is supported on Windo
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/mstcpip/ns-mstcpip-real_time_notification_setting_output">REAL_TIME_NOTIFICATION_SETTING_OUTPUT</a>
+<a href="/windows/win32/api/mstcpip/ns-mstcpip-real_time_notification_setting_output">REAL_TIME_NOTIFICATION_SETTING_OUTPUT</a>
 
 
 

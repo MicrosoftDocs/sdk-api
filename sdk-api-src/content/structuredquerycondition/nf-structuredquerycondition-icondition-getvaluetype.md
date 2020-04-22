@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetValueType
 title: ICondition::GetValueType (structuredquerycondition.h)
-description: Retrieves the semantic type of the value of the search condition node.helpviewer_keywords: ["GetValueType","GetValueType method [search]","GetValueType method [search]","ICondition interface","ICondition interface [search]","GetValueType method","ICondition.GetValueType","ICondition::GetValueType","_search_ICondition_GetValueType","search._search_ICondition_GetValueType","structuredquerycondition/ICondition::GetValueType"]
+description: Retrieves the semantic type of the value of the search condition node.
+helpviewer_keywords: ["GetValueType","GetValueType method [search]","GetValueType method [search]","ICondition interface","ICondition interface [search]","GetValueType method","ICondition.GetValueType","ICondition::GetValueType","_search_ICondition_GetValueType","search._search_ICondition_GetValueType","structuredquerycondition/ICondition::GetValueType"]
 old-location: search\_search_ICondition_GetValueType.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getvaluetype.htm
@@ -83,11 +84,11 @@ Returns S_OK if successful, E_FAIL if this is not a leaf node, or an error value
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

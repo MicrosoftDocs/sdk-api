@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerShutdown
 title: EapPeerShutdown function (eapmethodpeerapis.h)
-description: Shuts down the EAP method and prepares to unload its corresponding DLL.helpviewer_keywords: ["EapPeerShutdown","EapPeerShutdown function [EAPHost]","eaphost.eappeershutdown","eapmethodpeerapis/EapPeerShutdown"]
+description: Shuts down the EAP method and prepares to unload its corresponding DLL.
+helpviewer_keywords: ["EapPeerShutdown","EapPeerShutdown function [EAPHost]","eaphost.eappeershutdown","eapmethodpeerapis/EapPeerShutdown"]
 old-location: eaphost\eappeershutdown.htm
 tech.root: eaphost
 ms.assetid: 7d08a349-fdfc-40bc-97f4-4429ff6ade7e
@@ -76,7 +77,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-run-time-functions)a>
+[EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmFilterEnumA
 title: acmFilterEnumA function (msacm.h)
-description: The acmFilterEnum function enumerates waveform-audio filters available for a given filter tag from an ACM driver. This function continues enumerating until there are no more suitable filters for the filter tag or the callback function returns FALSE.helpviewer_keywords: ["_win32_acmFilterEnum","acmFilterEnum","acmFilterEnum function [Windows Multimedia]","acmFilterEnumA","acmFilterEnumW","msacm/acmFilterEnum","msacm/acmFilterEnumA","msacm/acmFilterEnumW","multimedia.acmfilterenum"]
+description: The acmFilterEnum function enumerates waveform-audio filters available for a given filter tag from an ACM driver. This function continues enumerating until there are no more suitable filters for the filter tag or the callback function returns FALSE.
+helpviewer_keywords: ["_win32_acmFilterEnum","acmFilterEnum","acmFilterEnum function [Windows Multimedia]","acmFilterEnumA","acmFilterEnumW","msacm/acmFilterEnum","msacm/acmFilterEnumA","msacm/acmFilterEnumW","multimedia.acmfilterenum"]
 old-location: multimedia\acmfilterenum.htm
 tech.root: Multimedia
 ms.assetid: ee8154d6-3aa1-49ce-96c5-7b8526f02a8a
@@ -70,7 +71,7 @@ Handle to the ACM driver to query for waveform-audio filter details. If this par
 
 ### -param pafd
 
-Pointer to the [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a> structure that contains the filter details when it is passed to the function specified by <i>fnCallback</i>. When your application calls <b>acmFilterEnum</b>, the <b>cbStruct</b>, <b>pwfltr</b>, and <b>cbwfltr</b> members of this structure must be initialized. The <b>dwFilterTag</b> member must also be initialized to either WAVE_FILTER_UNKNOWN or a valid filter tag.
+Pointer to the [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails) structure that contains the filter details when it is passed to the function specified by <i>fnCallback</i>. When your application calls <b>acmFilterEnum</b>, the <b>cbStruct</b>, <b>pwfltr</b>, and <b>cbwfltr</b> members of this structure must be initialized. The <b>dwFilterTag</b> member must also be initialized to either WAVE_FILTER_UNKNOWN or a valid filter tag.
 
 
 ### -param fnCallback
@@ -96,7 +97,7 @@ Flags for enumerating the filters for a given filter tag. The following values a
 </tr>
 <tr>
 <td>ACM_FILTERENUMF_DWFILTERTAG</td>
-[ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a> structure is valid. The enumerator will enumerate only a filter that conforms to this attribute. The <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure must be equal to the <b>dwFilterTag</b> member of the <b>WAVEFILTER</b> structure.</td>
+[ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails) structure is valid. The enumerator will enumerate only a filter that conforms to this attribute. The <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure must be equal to the <b>dwFilterTag</b> member of the <b>WAVEFILTER</b> structure.</td>
 </tr>
 </table>
  

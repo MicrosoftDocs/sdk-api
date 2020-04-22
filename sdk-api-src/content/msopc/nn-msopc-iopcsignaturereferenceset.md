@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcSignatureReferenceSet
 title: IOpcSignatureReferenceSet (msopc.h)
-description: An unordered set of IOpcSignatureReference interface pointers that represent references to XML elements to be signed.helpviewer_keywords: ["IOpcSignatureReferenceSet","IOpcSignatureReferenceSet interface [Open Packaging Conventions]","IOpcSignatureReferenceSet interface [Open Packaging Conventions]","described","msopc/IOpcSignatureReferenceSet","opc.iopcsignaturereferenceset"]
+description: An unordered set of IOpcSignatureReference interface pointers that represent references to XML elements to be signed.
+helpviewer_keywords: ["IOpcSignatureReferenceSet","IOpcSignatureReferenceSet interface [Open Packaging Conventions]","IOpcSignatureReferenceSet interface [Open Packaging Conventions]","described","msopc/IOpcSignatureReferenceSet","opc.iopcsignaturereferenceset"]
 old-location: opc\iopcsignaturereferenceset.htm
 tech.root: OPC
 ms.assetid: 7955ac86-de6e-4911-a107-a1617c14e685
@@ -144,7 +145,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
 
 
 

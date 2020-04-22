@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator2.GetDependencies
 title: IUIAnimationInterpolator2::GetDependencies (uianimation.h)
-description: For the given dimension, GetDependencies retrieves the aspects of the interpolator that depend on the initial value or velocity that is passed to the IUIAnimationInterpolator2::SetInitialValueAndVelocity method or the duration that is passed to the IUIAnimationInterpolator2::SetDuration method.helpviewer_keywords: ["GetDependencies","GetDependencies method [Windows Animation]","GetDependencies method [Windows Animation]","IUIAnimationInterpolator2 interface","IUIAnimationInterpolator2 interface [Windows Animation]","GetDependencies method","IUIAnimationInterpolator2.GetDependencies","IUIAnimationInterpolator2::GetDependencies","uianimation.iuianimationinterpolator2_getdependencies","uianimation/IUIAnimationInterpolator2::GetDependencies"]
+description: For the given dimension, GetDependencies retrieves the aspects of the interpolator that depend on the initial value or velocity that is passed to the IUIAnimationInterpolator2::SetInitialValueAndVelocity method or the duration that is passed to the IUIAnimationInterpolator2::SetDuration method.
+helpviewer_keywords: ["GetDependencies","GetDependencies method [Windows Animation]","GetDependencies method [Windows Animation]","IUIAnimationInterpolator2 interface","IUIAnimationInterpolator2 interface [Windows Animation]","GetDependencies method","IUIAnimationInterpolator2.GetDependencies","IUIAnimationInterpolator2::GetDependencies","uianimation.iuianimationinterpolator2_getdependencies","uianimation/IUIAnimationInterpolator2::GetDependencies"]
 old-location: uianimation\iuianimationinterpolator2_getdependencies.htm
 tech.root: UIAnimation
 ms.assetid: DC6F046E-1A35-4FB9-9016-853AF2B598DE
@@ -88,7 +89,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 This method is called to identify which aspects of the custom interpolator are affected by certain inputs: value, velocity, and duration. For each of these inputs, the interpolator returns either of the following:
 
 <ul>
-<li>The bitwise-OR of any members of <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_dependencies">UI_ANIMATION_DEPENDENCIES</a> that apply.</li>
+<li>The bitwise-OR of any members of <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_dependencies">UI_ANIMATION_DEPENDENCIES</a> that apply.</li>
 <li><b>UI_ANIMATION_DEPENDENCY_NONE</b> if nothing depends on the input.</li>
 </ul>
 For example, consider an interpolator that:

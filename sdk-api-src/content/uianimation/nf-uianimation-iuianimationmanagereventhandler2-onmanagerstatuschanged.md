@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationManagerEventHandler2.OnManagerStatusChanged
 title: IUIAnimationManagerEventHandler2::OnManagerStatusChanged (uianimation.h)
-description: Handles status changes to an animation manager.helpviewer_keywords: ["IUIAnimationManagerEventHandler2 interface [Windows Animation]","OnManagerStatusChanged method","IUIAnimationManagerEventHandler2.OnManagerStatusChanged","IUIAnimationManagerEventHandler2::OnManagerStatusChanged","OnManagerStatusChanged","OnManagerStatusChanged method [Windows Animation]","OnManagerStatusChanged method [Windows Animation]","IUIAnimationManagerEventHandler2 interface","uianimation.iuianimationmanagereventhandler2_onmanagerstatuschanged","uianimation/IUIAnimationManagerEventHandler2::OnManagerStatusChanged"]
+description: Handles status changes to an animation manager.
+helpviewer_keywords: ["IUIAnimationManagerEventHandler2 interface [Windows Animation]","OnManagerStatusChanged method","IUIAnimationManagerEventHandler2.OnManagerStatusChanged","IUIAnimationManagerEventHandler2::OnManagerStatusChanged","OnManagerStatusChanged","OnManagerStatusChanged method [Windows Animation]","OnManagerStatusChanged method [Windows Animation]","IUIAnimationManagerEventHandler2 interface","uianimation.iuianimationmanagereventhandler2_onmanagerstatuschanged","uianimation/IUIAnimationManagerEventHandler2::OnManagerStatusChanged"]
 old-location: uianimation\iuianimationmanagereventhandler2_onmanagerstatuschanged.htm
 tech.root: UIAnimation
 ms.assetid: 398A52B3-E7FA-466E-BCED-0A6E91633CF7
@@ -98,7 +99,7 @@ Calls made to other Windows Animation methods from <b>IUIAnimationManager2::OnMa
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
  
 
  

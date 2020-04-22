@@ -1,7 +1,8 @@
 ---
 UID: NS:evntcons._EVENT_HEADER_EXTENDED_DATA_ITEM
 title: EVENT_HEADER_EXTENDED_DATA_ITEM (evntcons.h)
-description: Defines the extended data that ETW collects as part of the event data.helpviewer_keywords: ["*PEVENT_HEADER_EXTENDED_DATA_ITEM","EVENT_HEADER_EXTENDED_DATA_ITEM","EVENT_HEADER_EXTENDED_DATA_ITEM structure [ETW]","EVENT_HEADER_EXT_TYPE_EVENT_KEY","EVENT_HEADER_EXT_TYPE_EVENT_SCHEMA_TL","EVENT_HEADER_EXT_TYPE_INSTANCE_INFO","EVENT_HEADER_EXT_TYPE_PROCESS_START_KEY","EVENT_HEADER_EXT_TYPE_PROV_TRAITS","EVENT_HEADER_EXT_TYPE_RELATED_ACTIVITYID","EVENT_HEADER_EXT_TYPE_SID","EVENT_HEADER_EXT_TYPE_STACK_TRACE32","EVENT_HEADER_EXT_TYPE_STACK_TRACE64","EVENT_HEADER_EXT_TYPE_TS_ID","PEVENT_HEADER_EXTENDED_DATA_ITEM","PEVENT_HEADER_EXTENDED_DATA_ITEM structure pointer [ETW]","_EVENT_HEADER_EXTENDED_DATA_ITEM","base.event_header_extended_data_item","etw.event_header_extended_data_item","relogger/EVENT_HEADER_EXTENDED_DATA_ITEM","relogger/PEVENT_HEADER_EXTENDED_DATA_ITEM"]
+description: Defines the extended data that ETW collects as part of the event data.
+helpviewer_keywords: ["*PEVENT_HEADER_EXTENDED_DATA_ITEM","EVENT_HEADER_EXTENDED_DATA_ITEM","EVENT_HEADER_EXTENDED_DATA_ITEM structure [ETW]","EVENT_HEADER_EXT_TYPE_EVENT_KEY","EVENT_HEADER_EXT_TYPE_EVENT_SCHEMA_TL","EVENT_HEADER_EXT_TYPE_INSTANCE_INFO","EVENT_HEADER_EXT_TYPE_PROCESS_START_KEY","EVENT_HEADER_EXT_TYPE_PROV_TRAITS","EVENT_HEADER_EXT_TYPE_RELATED_ACTIVITYID","EVENT_HEADER_EXT_TYPE_SID","EVENT_HEADER_EXT_TYPE_STACK_TRACE32","EVENT_HEADER_EXT_TYPE_STACK_TRACE64","EVENT_HEADER_EXT_TYPE_TS_ID","PEVENT_HEADER_EXTENDED_DATA_ITEM","PEVENT_HEADER_EXTENDED_DATA_ITEM structure pointer [ETW]","_EVENT_HEADER_EXTENDED_DATA_ITEM","base.event_header_extended_data_item","etw.event_header_extended_data_item","relogger/EVENT_HEADER_EXTENDED_DATA_ITEM","relogger/PEVENT_HEADER_EXTENDED_DATA_ITEM"]
 old-location: etw\event_header_extended_data_item.htm
 tech.root: ETW
 ms.assetid: 130dc14b-7488-48ab-a31d-310c0f4ee13f
@@ -77,7 +78,7 @@ Type of extended data. The following are possible values.
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windows/win32/api/evntcons/ns-evntcons-event_extended_item_related_activityid">EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID</a> structure that contains the related activity identifier if you called <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a> to write the event.
+The <b>DataPtr</b> member points to an <a href="/windows/win32/api/evntcons/ns-evntcons-event_extended_item_related_activityid">EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID</a> structure that contains the related activity identifier if you called <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a> to write the event.
 
 </td>
 </tr>
@@ -117,7 +118,7 @@ The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace32">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> structure that contains the call stack if the event is captured on a 32-bit computer.
+The <b>DataPtr</b> member points to an <a href="/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace32">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> structure that contains the call stack if the event is captured on a 32-bit computer.
 
 </td>
 </tr>
@@ -127,7 +128,7 @@ The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> structure that contains the call stack if the event is captured on a 64-bit computer.
+The <b>DataPtr</b> member points to an <a href="/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> structure that contains the call stack if the event is captured on a 64-bit computer.
 
 </td>
 </tr>

@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkSetProperty
 title: WlanHostedNetworkSetProperty function (wlanapi.h)
-description: Sets static properties of the wireless Hosted Network.helpviewer_keywords: ["WlanHostedNetworkSetProperty","WlanHostedNetworkSetProperty function [NativeWIFI]","nwifi.wlanhostednetworksetproperty","wlan_hosted_network_opcode_connection_settings","wlan_hosted_network_opcode_enable","wlanapi/WlanHostedNetworkSetProperty"]
+description: Sets static properties of the wireless Hosted Network.
+helpviewer_keywords: ["WlanHostedNetworkSetProperty","WlanHostedNetworkSetProperty function [NativeWIFI]","nwifi.wlanhostednetworksetproperty","wlan_hosted_network_opcode_connection_settings","wlan_hosted_network_opcode_enable","wlanapi/WlanHostedNetworkSetProperty"]
 old-location: nwifi\wlanhostednetworksetproperty.htm
 tech.root: NativeWiFi
 ms.assetid: 88139383-f5d5-4e42-b41e-ea754a89356d
@@ -237,7 +238,7 @@ The data type associated with the buffer pointed to by the <i>pvData</i> paramet
 
 </td>
 <td width="60%">
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_connection_settings">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a> structure is passed in the <i>pvData</i> parameter.
+A pointer to a <a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_connection_settings">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a> structure is passed in the <i>pvData</i> parameter.
 
 </td>
 </tr>
@@ -287,7 +288,7 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_connection_settings">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a>
+<a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_connection_settings">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a>
 
 
 

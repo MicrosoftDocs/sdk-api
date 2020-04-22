@@ -1,7 +1,8 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioObjectForMetadataItems
 title: ISpatialAudioObjectForMetadataItems (spatialaudiometadata.h)
-description: Used to write spatial audio metadata for applications that require multiple metadata items per buffer with frame-accurate placement.helpviewer_keywords: ["ISpatialAudioObjectForMetadataItems","ISpatialAudioObjectForMetadataItems interface [Core Audio]","ISpatialAudioObjectForMetadataItems interface [Core Audio]","described","coreaudio.ispatialaudioobjectformetadataitems","spatialaudiometadata/ISpatialAudioObjectForMetadataItems"]
+description: Used to write spatial audio metadata for applications that require multiple metadata items per buffer with frame-accurate placement.
+helpviewer_keywords: ["ISpatialAudioObjectForMetadataItems","ISpatialAudioObjectForMetadataItems interface [Core Audio]","ISpatialAudioObjectForMetadataItems interface [Core Audio]","described","coreaudio.ispatialaudioobjectformetadataitems","spatialaudiometadata/ISpatialAudioObjectForMetadataItems"]
 old-location: coreaudio\ispatialaudioobjectformetadataitems.htm
 tech.root: CoreAudio
 ms.assetid: 4861D2AA-E685-4A72-BE98-6FEEB72ACF67
@@ -56,7 +57,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForMetadataItems</b> interface inherits from <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObjectForMetadataItems</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForMetadataItems</b> interface inherits from <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObjectForMetadataItems</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -103,7 +104,7 @@ Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sp
 
 
 
-<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
 <div> </div>
 
 
@@ -113,7 +114,7 @@ Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sp
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+<a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
  
 
  

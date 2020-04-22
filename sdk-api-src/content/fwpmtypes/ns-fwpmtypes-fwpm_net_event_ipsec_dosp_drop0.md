@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_IPSEC_DOSP_DROP0_
 title: FWPM_NET_EVENT_IPSEC_DOSP_DROP0 (fwpmtypes.h)
-description: Contains information that describes an IPsec DoS Protection drop event.helpviewer_keywords: ["FWPM_NET_EVENT_IPSEC_DOSP_DROP0","FWPM_NET_EVENT_IPSEC_DOSP_DROP0 structure [Filtering]","fwp.fwpm_net_event_ipsec_dosp_drop0","fwpmtypes/FWPM_NET_EVENT_IPSEC_DOSP_DROP0"]
+description: Contains information that describes an IPsec DoS Protection drop event.
+helpviewer_keywords: ["FWPM_NET_EVENT_IPSEC_DOSP_DROP0","FWPM_NET_EVENT_IPSEC_DOSP_DROP0 structure [Filtering]","fwp.fwpm_net_event_ipsec_dosp_drop0","fwpmtypes/FWPM_NET_EVENT_IPSEC_DOSP_DROP0"]
 old-location: fwp\fwpm_net_event_ipsec_dosp_drop0.htm
 tech.root: fwp
 ms.assetid: 7b28a81f-bf80-4739-989e-a276a0ca8a3a
@@ -61,7 +62,7 @@ The <b>FWPM_NET_EVENT_IPSEC_DOSP_DROP0</b> structure contains information that d
 
 Internet Protocol (IP) version.
 
-See [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a> for more information.
+See [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version) for more information.
 
 
 ### -field publicHostV4Addr
@@ -99,7 +100,7 @@ Contains the  error code for the failure.
 
 ### -field direction
 
-An [FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)a> value that specifies whether the dropped packet is inbound or outbound.
+An [FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction) value that specifies whether the dropped packet is inbound or outbound.
 
 
 ## -remarks
@@ -116,7 +117,7 @@ An [FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fw
 
 
 
-[FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)a>
+[FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)
 
 
 

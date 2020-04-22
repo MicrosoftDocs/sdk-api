@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothEnumerateInstalledServices
 title: BluetoothEnumerateInstalledServices function (bluetoothapis.h)
-description: The BluetoothEnumerateInstalledServices function enumerates the services GUIDs (Globally Unique Identifiers) enabled on a Bluetooth device.helpviewer_keywords: ["BluetoothEnumerateInstalledServices","BluetoothEnumerateInstalledServices function [Bluetooth]","bluetooth.bluetoothenumerateinstalledservices","bluetoothapis/BluetoothEnumerateInstalledServices"]
+description: The BluetoothEnumerateInstalledServices function enumerates the services GUIDs (Globally Unique Identifiers) enabled on a Bluetooth device.
+helpviewer_keywords: ["BluetoothEnumerateInstalledServices","BluetoothEnumerateInstalledServices function [Bluetooth]","bluetooth.bluetoothenumerateinstalledservices","bluetoothapis/BluetoothEnumerateInstalledServices"]
 old-location: bluetooth\bluetoothenumerateinstalledservices.htm
 tech.root: bluetooth
 ms.assetid: 6f32c776-3c4d-4b0f-ab81-1e880d979d3b
@@ -66,7 +67,7 @@ Handle of the local Bluetooth radio device. If <b>NULL</b>,   all local radios a
 
 ### -param pbtdi
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure.
+Pointer to a <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure.
 
 
 ### -param pcServiceInout
@@ -114,11 +115,11 @@ The call succeeded. The <i>pGuidServices</i> parameter contains an incomplete li
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfRange.CompareEnd
 title: ITfRange::CompareEnd (msctf.h)
-description: The ITfRange::CompareEnd method compares the end anchor position of this range of text to an anchor in another range.helpviewer_keywords: ["+1","-1","0","CompareEnd","CompareEnd method [Text Services Framework]","CompareEnd method [Text Services Framework]","ITfRange interface","ITfRange interface [Text Services Framework]","CompareEnd method","ITfRange.CompareEnd","ITfRange::CompareEnd","TF_ANCHOR_END","TF_ANCHOR_START","_tsf_itfrange_compareend_ref","msctf/ITfRange::CompareEnd","tsf.itfrange_compareend"]
+description: The ITfRange::CompareEnd method compares the end anchor position of this range of text to an anchor in another range.
+helpviewer_keywords: ["+1","-1","0","CompareEnd","CompareEnd method [Text Services Framework]","CompareEnd method [Text Services Framework]","ITfRange interface","ITfRange interface [Text Services Framework]","CompareEnd method","ITfRange.CompareEnd","ITfRange::CompareEnd","TF_ANCHOR_END","TF_ANCHOR_START","_tsf_itfrange_compareend_ref","msctf/ITfRange::CompareEnd","tsf.itfrange_compareend"]
 old-location: tsf\itfrange_compareend.htm
 tech.root: TSF
 ms.assetid: 23841f07-f2ea-4365-a8cb-128c4fb210ab
@@ -248,7 +249,7 @@ This method is identical to <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
+<a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
  
 

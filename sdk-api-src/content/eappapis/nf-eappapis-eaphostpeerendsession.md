@@ -1,7 +1,8 @@
 ---
 UID: NF:eappapis.EapHostPeerEndSession
 title: EapHostPeerEndSession function (eappapis.h)
-description: Terminates the current EAP authentication session between EAPHost and the calling supplicant, and clears data stored for the session.helpviewer_keywords: ["EapHostPeerEndSession","EapHostPeerEndSession function [EAPHost]","eaphost.eaphostpeerendsession","eappapis/EapHostPeerEndSession"]
+description: Terminates the current EAP authentication session between EAPHost and the calling supplicant, and clears data stored for the session.
+helpviewer_keywords: ["EapHostPeerEndSession","EapHostPeerEndSession function [EAPHost]","eaphost.eaphostpeerendsession","eappapis/EapHostPeerEndSession"]
 old-location: eaphost\eaphostpeerendsession.htm
 tech.root: eaphost
 ms.assetid: 6571b50b-f613-4da6-8262-1df2cf97a735
@@ -72,7 +73,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-[EAPHost Supplicant Run-time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
+[EAPHost Supplicant Run-time Functions](/windows/win32/eaphost/eap-host-supplicant-run-time-functions)
 
 
 

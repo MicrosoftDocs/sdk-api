@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCReceiveFail
 title: IComQCEvents::OnQCReceiveFail (comsvcs.h)
-description: Generated when the receive message fails.helpviewer_keywords: ["IComQCEvents interface [COM+]","OnQCReceiveFail method","IComQCEvents.OnQCReceiveFail","IComQCEvents::OnQCReceiveFail","OnQCReceiveFail","OnQCReceiveFail method [COM+]","OnQCReceiveFail method [COM+]","IComQCEvents interface","_dtc_IComQCEvents_OnQCReceiveFail","comsvcs/IComQCEvents::OnQCReceiveFail","cos.icomqcevents_onqcreceivefail"]
+description: Generated when the receive message fails.
+helpviewer_keywords: ["IComQCEvents interface [COM+]","OnQCReceiveFail method","IComQCEvents.OnQCReceiveFail","IComQCEvents::OnQCReceiveFail","OnQCReceiveFail","OnQCReceiveFail method [COM+]","OnQCReceiveFail method [COM+]","IComQCEvents interface","_dtc_IComQCEvents_OnQCReceiveFail","comsvcs/IComQCEvents::OnQCReceiveFail","cos.icomqcevents_onqcreceivefail"]
 old-location: cos\icomqcevents_onqcreceivefail.htm
 tech.root: cossdk
 ms.assetid: 21d685ce-b65f-4d13-b653-e6c6d1afa704
@@ -59,7 +60,7 @@ Generated when the receive message fails.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param QueueID [in]

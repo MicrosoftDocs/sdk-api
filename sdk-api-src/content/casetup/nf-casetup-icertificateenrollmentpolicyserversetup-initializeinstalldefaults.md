@@ -1,7 +1,8 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults
 title: ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults (casetup.h)
-description: Initializes the ICertificateEnrollmentPolicyServerSetup object with a default configuration.helpviewer_keywords: ["ICertificateEnrollmentPolicyServerSetup interface [Security]","InitializeInstallDefaults method","ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults","ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults","InitializeInstallDefaults","InitializeInstallDefaults method [Security]","InitializeInstallDefaults method [Security]","ICertificateEnrollmentPolicyServerSetup interface","casetup/ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults","security.icertificateenrollmentpolicyserversetup_initializeinstalldefaults"]
+description: Initializes the ICertificateEnrollmentPolicyServerSetup object with a default configuration.
+helpviewer_keywords: ["ICertificateEnrollmentPolicyServerSetup interface [Security]","InitializeInstallDefaults method","ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults","ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults","InitializeInstallDefaults","InitializeInstallDefaults method [Security]","InitializeInstallDefaults method [Security]","ICertificateEnrollmentPolicyServerSetup interface","casetup/ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults","security.icertificateenrollmentpolicyserversetup_initializeinstalldefaults"]
 old-location: security\icertificateenrollmentpolicyserversetup_initializeinstalldefaults.htm
 tech.root: SecCrypto
 ms.assetid: C7E82D9B-DC1A-4268-8973-5D07D977451D
@@ -141,7 +142,7 @@ You must call the <b>InitializeInstallDefaults</b> method before calling any met
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a>
+<a href="/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a>
 
 
 

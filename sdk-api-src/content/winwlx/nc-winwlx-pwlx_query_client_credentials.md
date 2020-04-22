@@ -1,7 +1,8 @@
 ---
 UID: NC:winwlx.PWLX_QUERY_CLIENT_CREDENTIALS
 title: PWLX_QUERY_CLIENT_CREDENTIALS (winwlx.h)
-description: Called by a replacement GINA DLL if Terminal Services is enabled. GINA calls this function to retrieve the credentials of remote Terminal Services clients that are not using an Internet connector license.helpviewer_keywords: ["PWLX_QUERY_CLIENT_CREDENTIALS","PWLX_QUERY_CLIENT_CREDENTIALS callback","WlxQueryClientCredentials","WlxQueryClientCredentials callback function [Security]","_gina_wlxqueryclientcredentials","security.wlxqueryclientcredentials","winwlx/WlxQueryClientCredentials"]
+description: Called by a replacement GINA DLL if Terminal Services is enabled. GINA calls this function to retrieve the credentials of remote Terminal Services clients that are not using an Internet connector license.
+helpviewer_keywords: ["PWLX_QUERY_CLIENT_CREDENTIALS","PWLX_QUERY_CLIENT_CREDENTIALS callback","WlxQueryClientCredentials","WlxQueryClientCredentials callback function [Security]","_gina_wlxqueryclientcredentials","security.wlxqueryclientcredentials","winwlx/WlxQueryClientCredentials"]
 old-location: security\wlxqueryclientcredentials.htm
 tech.root: SecAuthN
 ms.assetid: b563606d-f4d5-48d7-914d-a11ed5f536a1
@@ -65,7 +66,7 @@ The GINA DLL can use this information to fill in a logon box automatically and a
 ### -param pCred [out]
 
 Specifies a pointer to a 
-<a href="https://docs.microsoft.com/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v1_0">WLX_CLIENT_CREDENTIALS_INFO_V1_0</a> structure that contains the credentials of the client on return.
+<a href="/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v1_0">WLX_CLIENT_CREDENTIALS_INFO_V1_0</a> structure that contains the credentials of the client on return.
 
 
 ## -returns

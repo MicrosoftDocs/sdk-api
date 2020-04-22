@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.IAnchor.ShiftRegion
 title: IAnchor::ShiftRegion (textstor.h)
-description: IAnchor::ShiftRegion methodhelpviewer_keywords: ["FALSE","IAnchor interface [Text Services Framework]","ShiftRegion method","IAnchor.ShiftRegion","IAnchor::ShiftRegion","ShiftRegion","ShiftRegion method [Text Services Framework]","ShiftRegion method [Text Services Framework]","IAnchor interface","TRUE","TS_SD_BACKWARD","TS_SD_FORWARD","TS_SHIFT_COUNT_HIDDEN","TS_SHIFT_COUNT_ONLY","textstor/IAnchor::ShiftRegion","tsf.ianchor_shiftregion"]
+description: IAnchor::ShiftRegion method
+helpviewer_keywords: ["FALSE","IAnchor interface [Text Services Framework]","ShiftRegion method","IAnchor.ShiftRegion","IAnchor::ShiftRegion","ShiftRegion","ShiftRegion method [Text Services Framework]","ShiftRegion method [Text Services Framework]","IAnchor interface","TRUE","TS_SD_BACKWARD","TS_SD_FORWARD","TS_SHIFT_COUNT_HIDDEN","TS_SHIFT_COUNT_ONLY","textstor/IAnchor::ShiftRegion","tsf.ianchor_shiftregion"]
 old-location: tsf\ianchor_shiftregion.htm
 tech.root: TSF
 ms.assetid: f24f0155-fab6-46fb-9bff-598cd25e17ea
@@ -90,7 +91,7 @@ The anchor is not shifted.
 
 ### -param dir [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tsshiftdir">TsShiftDir</a> values that specifies which adjacent region the anchor is moved to.
+Contains one of the <a href="/windows/win32/api/textstor/ne-textstor-tsshiftdir">TsShiftDir</a> values that specifies which adjacent region the anchor is moved to.
 
 <table>
 <tr>
@@ -223,7 +224,7 @@ An input parameter value is invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tsshiftdir">TsShiftDir
+<a href="/windows/win32/api/textstor/ne-textstor-tsshiftdir">TsShiftDir
       </a>
  
 

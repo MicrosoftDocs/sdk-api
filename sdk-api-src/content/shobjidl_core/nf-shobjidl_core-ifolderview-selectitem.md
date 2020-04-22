@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFolderView.SelectItem
 title: IFolderView::SelectItem (shobjidl_core.h)
-description: Selects an item in the folder's view.helpviewer_keywords: ["IFolderView interface [Windows Shell]","SelectItem method","IFolderView.SelectItem","IFolderView::SelectItem","SelectItem","SelectItem method [Windows Shell]","SelectItem method [Windows Shell]","IFolderView interface","_shell_IFolderView_SelectItem","shell.IFolderView_SelectItem","shobjidl_core/IFolderView::SelectItem"]
+description: Selects an item in the folder's view.
+helpviewer_keywords: ["IFolderView interface [Windows Shell]","SelectItem method","IFolderView.SelectItem","IFolderView::SelectItem","SelectItem","SelectItem method [Windows Shell]","SelectItem method [Windows Shell]","IFolderView interface","_shell_IFolderView_SelectItem","shell.IFolderView_SelectItem","shobjidl_core/IFolderView::SelectItem"]
 old-location: shell\IFolderView_SelectItem.htm
 tech.root: shell
 ms.assetid: 6db262ea-861b-4bc5-955f-b81945313ea8
@@ -68,7 +69,7 @@ The index of the item to select in the folder's view.
 
 Type: <b>DWORD</b>
 
-One of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svsif">_SVSIF</a> constants that specify the type of selection to apply.
+One of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svsif">_SVSIF</a> constants that specify the type of selection to apply.
 
 
 ## -returns

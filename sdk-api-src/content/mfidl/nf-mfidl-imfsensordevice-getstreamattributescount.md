@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetStreamAttributesCount
 title: IMFSensorDevice::GetStreamAttributesCount (mfidl.h)
-description: Gets the count of stream attribute stores for the sensor device. This number represents the number of total streams available for the device because every valid stream must have an attribute store that contains at least the stream ID and stream category.helpviewer_keywords: ["GetStreamAttributesCount","GetStreamAttributesCount method [Media Foundation]","GetStreamAttributesCount method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetStreamAttributesCount method","IMFSensorDevice.GetStreamAttributesCount","IMFSensorDevice::GetStreamAttributesCount","mf.imfsensordevice_getstreamattributescount","mfidl/IMFSensorDevice::GetStreamAttributesCount"]
+description: Gets the count of stream attribute stores for the sensor device. This number represents the number of total streams available for the device because every valid stream must have an attribute store that contains at least the stream ID and stream category.
+helpviewer_keywords: ["GetStreamAttributesCount","GetStreamAttributesCount method [Media Foundation]","GetStreamAttributesCount method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetStreamAttributesCount method","IMFSensorDevice.GetStreamAttributesCount","IMFSensorDevice::GetStreamAttributesCount","mf.imfsensordevice_getstreamattributescount","mfidl/IMFSensorDevice::GetStreamAttributesCount"]
 old-location: mf\imfsensordevice_getstreamattributescount.htm
 tech.root: medfound
 ms.assetid: C6A0C4E6-7939-42C1-A499-7C92D83CB418
@@ -62,7 +63,7 @@ Gets the count of stream attribute stores for the sensor device. This number rep
 
 ### -param eType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/win32/api/mfidl/ne-mfidl-mfsensorstreamtype">MFSensorStreamType</a> enumeration specifying whether the attribute store count is being requested for an input or output stream.  
+A member of the <a href="/windows/win32/api/mfidl/ne-mfidl-mfsensorstreamtype">MFSensorStreamType</a> enumeration specifying whether the attribute store count is being requested for an input or output stream.  
 
 
 ### -param pdwCount [out]
@@ -128,7 +129,7 @@ The sensor group has not been initialized.
 
 The caller can use the number of stream attributes to indicate the number of streams provided by the sensor device.  
 
-<div class="alert"><b>Note</b>  Depending on the sharing mode in which the sensor device was activated, not all streams may be present during runtime.  Streams marked as shared, i.e. with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devicestream-frameserver-shared">MF_DEVICESTREAM_FRAMESERVER_SHARED</a> attribute set to non-zero value, and streams with pins with the category <b>PINNAME_VIDEO_PREVIEW</b> will be present in devices that are set to used shared mode. Put a device in shared mode by passing <a href="https://docs.microsoft.com/windows/win32/api/mfidl/ne-mfidl-mfsensordevicemode">MFSensorDeviceMode_Shared</a> into <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-setsensordevicemode">SetSensorDeviceMode</a>.
+<div class="alert"><b>Note</b>  Depending on the sharing mode in which the sensor device was activated, not all streams may be present during runtime.  Streams marked as shared, i.e. with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devicestream-frameserver-shared">MF_DEVICESTREAM_FRAMESERVER_SHARED</a> attribute set to non-zero value, and streams with pins with the category <b>PINNAME_VIDEO_PREVIEW</b> will be present in devices that are set to used shared mode. Put a device in shared mode by passing <a href="/windows/win32/api/mfidl/ne-mfidl-mfsensordevicemode">MFSensorDeviceMode_Shared</a> into <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-setsensordevicemode">SetSensorDeviceMode</a>.
 If no streams are marked as shared and no preview stream is available, the first capture stream, with the category <b>PINNAME_VIDEO_CAPTURE</b>,  will be shared.
 </div>
 <div> </div>

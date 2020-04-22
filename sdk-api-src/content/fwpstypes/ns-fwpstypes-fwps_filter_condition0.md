@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpstypes.FWPS_FILTER_CONDITION0_
 title: FWPS_FILTER_CONDITION0 (fwpstypes.h)
-description: The FWPS_FILTER_CONDITION0 structure defines a run-time filtering condition for a filter.Note  FWPS_FILTER_CONDITION0 is a specific version of FWPS_FILTER_CONDITION.helpviewer_keywords: ["FWPS_FILTER_CONDITION0","FWPS_FILTER_CONDITION0 structure [Network Drivers Starting with Windows Vista]","fwpstypes/FWPS_FILTER_CONDITION0","netvista.fwps_filter_condition0","wfp_ref_3_struct_3_fwps_F-O_93287819-7faf-41d5-a128-946293c1eb73.xml"]
+description: The FWPS_FILTER_CONDITION0 structure defines a run-time filtering condition for a filter.Note  FWPS_FILTER_CONDITION0 is a specific version of FWPS_FILTER_CONDITION.
+helpviewer_keywords: ["FWPS_FILTER_CONDITION0","FWPS_FILTER_CONDITION0 structure [Network Drivers Starting with Windows Vista]","fwpstypes/FWPS_FILTER_CONDITION0","netvista.fwps_filter_condition0","wfp_ref_3_struct_3_fwps_F-O_93287819-7faf-41d5-a128-946293c1eb73.xml"]
 old-location: netvista\fwps_filter_condition0.htm
 tech.root: NetVista
 ms.assetid: d4a20939-4866-4402-9b29-d94c2170807c
@@ -91,7 +92,7 @@ An
 
 The 
     <b>filterCondition</b> member of the 
-    [FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)a> structure points to an array of
+    [FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0) structure points to an array of
     FWPS_FILTER_CONDITION0 structures that specify the run-time filtering conditions for a filter.
 
 
@@ -102,7 +103,7 @@ The
 
 
 
-[FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)a>
+[FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)
 
 
 

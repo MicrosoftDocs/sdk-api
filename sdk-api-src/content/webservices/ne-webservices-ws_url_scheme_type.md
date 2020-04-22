@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_100
 title: WS_URL_SCHEME_TYPE (webservices.h)
-description: The set of schemes used with WsDecodeUrl, WsEncodeUrl, and WsCombineUrl.helpviewer_keywords: ["WS_URL_HTTPS_SCHEME_TYPE","WS_URL_HTTP_SCHEME_TYPE","WS_URL_NETPIPE_SCHEME_TYPE","WS_URL_NETTCP_SCHEME_TYPE","WS_URL_SCHEME_TYPE","WS_URL_SCHEME_TYPE enumeration [Web Services for Windows]","WS_URL_SOAPUDP_SCHEME_TYPE","webservices/WS_URL_HTTPS_SCHEME_TYPE","webservices/WS_URL_HTTP_SCHEME_TYPE","webservices/WS_URL_NETPIPE_SCHEME_TYPE","webservices/WS_URL_NETTCP_SCHEME_TYPE","webservices/WS_URL_SCHEME_TYPE","webservices/WS_URL_SOAPUDP_SCHEME_TYPE","wsw.ws_url_scheme_type"]
+description: The set of schemes used with WsDecodeUrl, WsEncodeUrl, and WsCombineUrl.
+helpviewer_keywords: ["WS_URL_HTTPS_SCHEME_TYPE","WS_URL_HTTP_SCHEME_TYPE","WS_URL_NETPIPE_SCHEME_TYPE","WS_URL_NETTCP_SCHEME_TYPE","WS_URL_SCHEME_TYPE","WS_URL_SCHEME_TYPE enumeration [Web Services for Windows]","WS_URL_SOAPUDP_SCHEME_TYPE","webservices/WS_URL_HTTPS_SCHEME_TYPE","webservices/WS_URL_HTTP_SCHEME_TYPE","webservices/WS_URL_NETPIPE_SCHEME_TYPE","webservices/WS_URL_NETTCP_SCHEME_TYPE","webservices/WS_URL_SCHEME_TYPE","webservices/WS_URL_SOAPUDP_SCHEME_TYPE","wsw.ws_url_scheme_type"]
 old-location: wsw\ws_url_scheme_type.htm
 tech.root: wsw
 ms.assetid: e8763719-6ba0-4e5e-bb71-625d36a45eaf
@@ -85,6 +86,6 @@ Denotes the "soap.udp" scheme: <a href="https://docs.microsoft.com/windows/deskt
 
 ### -field WS_URL_NETPIPE_SCHEME_TYPE
 
-Windows 8 or later: Denotes the "net.pipe" scheme: <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_netpipe_url">WS_NETPIPE_URL</a>
+Windows 8 or later: Denotes the "net.pipe" scheme: <a href="/windows/win32/api/webservices/ns-webservices-ws_netpipe_url">WS_NETPIPE_URL</a>
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioObjectRenderStreamForMetadata
 title: ISpatialAudioObjectRenderStreamForMetadata (spatialaudiometadata.h)
-description: Provides methods for controlling a spatial audio object render stream for metadata, including starting, stopping, and resetting the stream.helpviewer_keywords: ["ISpatialAudioObjectRenderStreamForMetadata","ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio]","ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio]","described","coreaudio.ispatialaudioobjectrenderstreamformetadata","spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata"]
+description: Provides methods for controlling a spatial audio object render stream for metadata, including starting, stopping, and resetting the stream.
+helpviewer_keywords: ["ISpatialAudioObjectRenderStreamForMetadata","ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio]","ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio]","described","coreaudio.ispatialaudioobjectrenderstreamformetadata","spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata"]
 old-location: coreaudio\ispatialaudioobjectrenderstreamformetadata.htm
 tech.root: CoreAudio
 ms.assetid: 1623B280-FC12-4C19-9D4A-D8463D1A1046
@@ -58,7 +59,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 
 
-<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a> interface.</div>
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a> interface.</div>
 <div> </div>
 
 
@@ -68,7 +69,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

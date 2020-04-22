@@ -1,7 +1,8 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0078_0004
 title: ADS_ESCAPE_MODE_ENUM (iads.h)
-description: Specifies how escape characters are displayed in a directory path.helpviewer_keywords: ["ADS_ESCAPEDMODE_DEFAULT","ADS_ESCAPEDMODE_OFF","ADS_ESCAPEDMODE_OFF_EX","ADS_ESCAPEDMODE_ON","ADS_ESCAPE_MODE_ENUM","ADS_ESCAPE_MODE_ENUM enumeration [ADSI]","_ds_ads_escape_mode_enum","adsi.ads__escape__mode__enum","adsi.ads_escape_mode_enum","iads/ADS_ESCAPEDMODE_DEFAULT","iads/ADS_ESCAPEDMODE_OFF","iads/ADS_ESCAPEDMODE_OFF_EX","iads/ADS_ESCAPEDMODE_ON","iads/ADS_ESCAPE_MODE_ENUM"]
+description: Specifies how escape characters are displayed in a directory path.
+helpviewer_keywords: ["ADS_ESCAPEDMODE_DEFAULT","ADS_ESCAPEDMODE_OFF","ADS_ESCAPEDMODE_OFF_EX","ADS_ESCAPEDMODE_ON","ADS_ESCAPE_MODE_ENUM","ADS_ESCAPE_MODE_ENUM enumeration [ADSI]","_ds_ads_escape_mode_enum","adsi.ads__escape__mode__enum","adsi.ads_escape_mode_enum","iads/ADS_ESCAPEDMODE_DEFAULT","iads/ADS_ESCAPEDMODE_OFF","iads/ADS_ESCAPEDMODE_OFF_EX","iads/ADS_ESCAPEDMODE_ON","iads/ADS_ESCAPE_MODE_ENUM"]
 old-location: adsi\ads_escape_mode_enum.htm
 tech.root: adsi
 ms.assetid: f69934bc-69ac-4822-b92d-89c94f55e036
@@ -59,7 +60,7 @@ The <b>ADS_ESCAPE_MODE_ENUM</b> enumeration specifies how escape characters are 
 
 ### -field ADS_ESCAPEDMODE_DEFAULT
 
-The default escape mode provides a convenient option to specify the escape mode. It has the effect of minimal escape operation appropriate for a chosen format. Thus, the default behavior depends on the value that  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> uses to retrieve the directory paths.
+The default escape mode provides a convenient option to specify the escape mode. It has the effect of minimal escape operation appropriate for a chosen format. Thus, the default behavior depends on the value that  <a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> uses to retrieve the directory paths.
 
 <table>
 <tr>
@@ -151,7 +152,7 @@ To obtain correct behavior, the LDAP special characters must be escaped before t
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
 
 
 

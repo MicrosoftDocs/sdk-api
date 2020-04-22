@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetIdentity
 title: EapPeerGetIdentity function (eapmethodpeerapis.h)
-description: Returns the user data and user identity after being called by EAPHost.helpviewer_keywords: ["EapPeerGetIdentity","EapPeerGetIdentity function [EAPHost]","eaphost.eappeergetidentity","eapmethodpeerapis/EapPeerGetIdentity"]
+description: Returns the user data and user identity after being called by EAPHost.
+helpviewer_keywords: ["EapPeerGetIdentity","EapPeerGetIdentity function [EAPHost]","eaphost.eappeergetidentity","eapmethodpeerapis/EapPeerGetIdentity"]
 old-location: eaphost\eappeergetidentity.htm
 tech.root: eaphost
 ms.assetid: 24ae093f-5ddf-4b09-934f-d0e945335cde
@@ -59,7 +60,7 @@ Returns the user data and user identity after being called by EAPHost.
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param dwSizeofConnectionData [in]
@@ -129,7 +130,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-run-time-functions)a>
+[EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostNewItem
 title: IFileOperationProgressSink::PostNewItem (shobjidl_core.h)
-description: Performs caller-implemented actions after the new item is created.helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PostNewItem method","IFileOperationProgressSink.PostNewItem","IFileOperationProgressSink::PostNewItem","PostNewItem","PostNewItem method [Windows Shell]","PostNewItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PostNewItem","shell.IFileOperationProgressSink_PostNewItem","shobjidl_core/IFileOperationProgressSink::PostNewItem"]
+description: Performs caller-implemented actions after the new item is created.
+helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PostNewItem method","IFileOperationProgressSink.PostNewItem","IFileOperationProgressSink::PostNewItem","PostNewItem","PostNewItem method [Windows Shell]","PostNewItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PostNewItem","shell.IFileOperationProgressSink_PostNewItem","shobjidl_core/IFileOperationProgressSink::PostNewItem"]
 old-location: shell\IFileOperationProgressSink_PostNewItem.htm
 tech.root: shell
 ms.assetid: 250ca9b8-951d-4ce8-bfb7-d512f4a59a39
@@ -61,7 +62,7 @@ Performs caller-implemented actions after the new item is created.
 
 Type: <b>DWORD</b>
 
-bitwise value that contains flags that were used during the creation operation. Some values can be set or changed during the creation operation. See <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
+bitwise value that contains flags that were used during the creation operation. Some values can be set or changed during the creation operation. See <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
 
 
 ### -param psiDestinationFolder [in]

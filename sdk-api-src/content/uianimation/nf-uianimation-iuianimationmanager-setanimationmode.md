@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.SetAnimationMode
 title: IUIAnimationManager::SetAnimationMode (uianimation.h)
-description: Sets the animation mode.helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","SetAnimationMode method","IUIAnimationManager.SetAnimationMode","IUIAnimationManager::SetAnimationMode","SetAnimationMode","SetAnimationMode method [Windows Animation]","SetAnimationMode method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_setanimationmode","uianimation/IUIAnimationManager::SetAnimationMode"]
+description: Sets the animation mode.
+helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","SetAnimationMode method","IUIAnimationManager.SetAnimationMode","IUIAnimationManager::SetAnimationMode","SetAnimationMode","SetAnimationMode method [Windows Animation]","SetAnimationMode method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_setanimationmode","uianimation/IUIAnimationManager::SetAnimationMode"]
 old-location: uianimation\iuianimationmanager_setanimationmode.htm
 tech.root: UIAnimation
 ms.assetid: b5d6c5f1-1e1c-497f-a556-f419e2c68585
@@ -89,7 +90,7 @@ This method is used to enable or disable animation globally. While animation is 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_mode">UI_ANIMATION_MODE</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_mode">UI_ANIMATION_MODE</a>
  
 
  

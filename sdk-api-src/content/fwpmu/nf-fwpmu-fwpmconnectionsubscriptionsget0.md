@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmConnectionSubscriptionsGet0
 title: FwpmConnectionSubscriptionsGet0 function (fwpmu.h)
-description: Retrieves an array of all the current connection object change notification subscriptions.helpviewer_keywords: ["FwpmConnectionSubscriptionsGet0","FwpmConnectionSubscriptionsGet0 function [Filtering]","fwp.fwpmconnectionsubscriptionsget0","fwpmu/FwpmConnectionSubscriptionsGet0"]
+description: Retrieves an array of all the current connection object change notification subscriptions.
+helpviewer_keywords: ["FwpmConnectionSubscriptionsGet0","FwpmConnectionSubscriptionsGet0 function [Filtering]","fwp.fwpmconnectionsubscriptionsget0","fwpmu/FwpmConnectionSubscriptionsGet0"]
 old-location: fwp\fwpmconnectionsubscriptionsget0.htm
 tech.root: fwp
 ms.assetid: fc6c94be-9c2f-4b32-9cf5-4af33b8f1c97
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param entries [out]
 
-Type: [FWPM_CONNECTION_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)a>***</b>
+Type: [FWPM_CONNECTION_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)***</b>
 
 The current connection object notification subscriptions. 
 
@@ -145,7 +146,7 @@ The returned array (but not the individual entries in the array) must be freed t
 
 
 
-[FWPM_CONNECTION_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)a>
+[FWPM_CONNECTION_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)
  
 
  

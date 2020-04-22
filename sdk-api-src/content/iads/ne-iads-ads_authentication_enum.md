@@ -1,7 +1,8 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0018
 title: ADS_AUTHENTICATION_ENUM (iads.h)
-description: Specifies authentication options used in ADSI for binding to directory service objects.helpviewer_keywords: ["ADS_AUTHENTICATION_ENUM","ADS_AUTHENTICATION_ENUM enumeration [ADSI]","ADS_AUTH_RESERVED","ADS_FAST_BIND","ADS_NO_AUTHENTICATION","ADS_NO_REFERRAL_CHASING","ADS_PROMPT_CREDENTIALS","ADS_READONLY_SERVER","ADS_SECURE_AUTHENTICATION","ADS_SERVER_BIND","ADS_USE_DELEGATION","ADS_USE_ENCRYPTION","ADS_USE_SEALING","ADS_USE_SIGNING","ADS_USE_SSL","_ds_ads_authentication_enum","adsi.ads__authentication__enum","adsi.ads_authentication_enum","iads/ADS_AUTHENTICATION_ENUM","iads/ADS_AUTH_RESERVED","iads/ADS_FAST_BIND","iads/ADS_NO_AUTHENTICATION","iads/ADS_NO_REFERRAL_CHASING","iads/ADS_PROMPT_CREDENTIALS","iads/ADS_READONLY_SERVER","iads/ADS_SECURE_AUTHENTICATION","iads/ADS_SERVER_BIND","iads/ADS_USE_DELEGATION","iads/ADS_USE_ENCRYPTION","iads/ADS_USE_SEALING","iads/ADS_USE_SIGNING","iads/ADS_USE_SSL"]
+description: Specifies authentication options used in ADSI for binding to directory service objects.
+helpviewer_keywords: ["ADS_AUTHENTICATION_ENUM","ADS_AUTHENTICATION_ENUM enumeration [ADSI]","ADS_AUTH_RESERVED","ADS_FAST_BIND","ADS_NO_AUTHENTICATION","ADS_NO_REFERRAL_CHASING","ADS_PROMPT_CREDENTIALS","ADS_READONLY_SERVER","ADS_SECURE_AUTHENTICATION","ADS_SERVER_BIND","ADS_USE_DELEGATION","ADS_USE_ENCRYPTION","ADS_USE_SEALING","ADS_USE_SIGNING","ADS_USE_SSL","_ds_ads_authentication_enum","adsi.ads__authentication__enum","adsi.ads_authentication_enum","iads/ADS_AUTHENTICATION_ENUM","iads/ADS_AUTH_RESERVED","iads/ADS_FAST_BIND","iads/ADS_NO_AUTHENTICATION","iads/ADS_NO_REFERRAL_CHASING","iads/ADS_PROMPT_CREDENTIALS","iads/ADS_READONLY_SERVER","iads/ADS_SECURE_AUTHENTICATION","iads/ADS_SERVER_BIND","iads/ADS_USE_DELEGATION","iads/ADS_USE_ENCRYPTION","iads/ADS_USE_SEALING","iads/ADS_USE_SIGNING","iads/ADS_USE_SSL"]
 old-location: adsi\ads_authentication_enum.htm
 tech.root: adsi
 ms.assetid: 3a45e0c2-5392-456d-80c9-ebd17d056a85
@@ -167,7 +168,7 @@ If an Active Directory DNS server name is passed in the LDAP path, this forces a
 Specify this flag to turn referral chasing off for the life of the connection. However, even when this flag 
        is specified, ADSI still allows the setting of referral chasing behavior for container enumeration when set 
        using <b>ADS_OPTION_REFERRALS</b> in 
-       <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a> (as documented in container enumeration 
+       <a href="/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a> (as documented in container enumeration 
        with referral chasing in 
        <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions::SetOption</a>) and 
        searching separately (as documented in 

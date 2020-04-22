@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorSetAttributes
 title: EapMethodAuthenticatorSetAttributes function (eapmethodauthenticatorapis.h)
-description: Provides updated EAP authentication attributes to set on the EAP authenticator method.helpviewer_keywords: ["EapMethodAuthenticatorSetAttributes","EapMethodAuthenticatorSetAttributes function [EAPHost]","eaphost.eapmethodauthenticatorsetattributes","eapmethodauthenticatorapis/EapMethodAuthenticatorSetAttributes"]
+description: Provides updated EAP authentication attributes to set on the EAP authenticator method.
+helpviewer_keywords: ["EapMethodAuthenticatorSetAttributes","EapMethodAuthenticatorSetAttributes function [EAPHost]","eaphost.eapmethodauthenticatorsetattributes","eapmethodauthenticatorapis/EapMethodAuthenticatorSetAttributes"]
 old-location: eaphost\eapmethodauthenticatorsetattributes.htm
 tech.root: eaphost
 ms.assetid: 0cc4df3a-6438-4770-9b13-c9d2a798822c
@@ -71,7 +72,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 ### -param pEapOutput [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration that specifies the suggested action the supplicant should take as a response to the updated attributes.
+A pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration that specifies the suggested action the supplicant should take as a response to the updated attributes.
 
 
 ### -param ppEapError [out]
@@ -93,7 +94,7 @@ This call is performed by a authenticator-based EAPHost using a function pointer
 
 
 
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
 
 
 

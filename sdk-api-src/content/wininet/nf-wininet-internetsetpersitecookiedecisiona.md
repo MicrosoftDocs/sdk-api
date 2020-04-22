@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetSetPerSiteCookieDecisionA
 title: InternetSetPerSiteCookieDecisionA function (wininet.h)
-description: Sets a decision on cookies for a given domain.helpviewer_keywords: ["InternetSetPerSiteCookieDecision","InternetSetPerSiteCookieDecision function [WinINet]","InternetSetPerSiteCookieDecisionA","InternetSetPerSiteCookieDecisionW","wininet.internetsetpersitecookiedecision","wininet/InternetSetPerSiteCookieDecision","wininet/InternetSetPerSiteCookieDecisionA","wininet/InternetSetPerSiteCookieDecisionW"]
+description: Sets a decision on cookies for a given domain.
+helpviewer_keywords: ["InternetSetPerSiteCookieDecision","InternetSetPerSiteCookieDecision function [WinINet]","InternetSetPerSiteCookieDecisionA","InternetSetPerSiteCookieDecisionW","wininet.internetsetpersitecookiedecision","wininet/InternetSetPerSiteCookieDecision","wininet/InternetSetPerSiteCookieDecisionA","wininet/InternetSetPerSiteCookieDecisionW"]
 old-location: wininet\internetsetpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: c25699b9-f79a-443b-b9a4-461c379fa8e4
@@ -66,7 +67,7 @@ An <b>LPCTSTR</b> that points to a string containing a domain.
 
 ### -param dwDecision [in]
 
-A value of type <b>DWORD</b> that contains one of the <a href="https://docs.microsoft.com/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration values.
+A value of type <b>DWORD</b> that contains one of the <a href="/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration values.
 
 
 ## -returns

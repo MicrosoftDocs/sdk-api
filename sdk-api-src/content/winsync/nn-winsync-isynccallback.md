@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.ISyncCallback
 title: ISyncCallback (winsync.h)
-description: Represents application callbacks that are used to notify the application of synchronization events.helpviewer_keywords: ["ISyncCallback","ISyncCallback interface [Windows Sync]","ISyncCallback interface [Windows Sync]","described","winsync.isynccallback","winsync/ISyncCallback"]
+description: Represents application callbacks that are used to notify the application of synchronization events.
+helpviewer_keywords: ["ISyncCallback","ISyncCallback interface [Windows Sync]","ISyncCallback interface [Windows Sync]","described","winsync.isynccallback","winsync/ISyncCallback"]
 old-location: winsync\isynccallback.htm
 tech.root: winsync
 ms.assetid: f6c96e02-e9db-402c-8197-580f688b068f
@@ -83,7 +84,7 @@ Occurs before a change is applied.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onconflict">OnConflict</a>
 </td>
 <td align="left" width="63%">
-Occurs when a conflict is detected when the concurrency conflict resolution policy is set to <a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CRP_NONE</a>.
+Occurs when a conflict is detected when the concurrency conflict resolution policy is set to <a href="/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CRP_NONE</a>.
 
 
 </td>
@@ -126,7 +127,7 @@ Occurs when a synchronization provider sets a recoverable error while it is load
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CONFLICT_RESOLUTION_POLICY Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CONFLICT_RESOLUTION_POLICY Enumeration</a>
 
 
 

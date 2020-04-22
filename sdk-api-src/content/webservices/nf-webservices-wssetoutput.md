@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsSetOutput
 title: WsSetOutput function (webservices.h)
-description: Sets the encoding and output callbacks for the writer. The callbacks are used to provides buffers to the writer and to perform asynchronous i/o.helpviewer_keywords: ["WsSetOutput","WsSetOutput function [Web Services for Windows]","webservices/WsSetOutput","wsw.wssetoutput"]
+description: Sets the encoding and output callbacks for the writer. The callbacks are used to provides buffers to the writer and to perform asynchronous i/o.
+helpviewer_keywords: ["WsSetOutput","WsSetOutput function [Web Services for Windows]","webservices/WsSetOutput","wsw.wssetoutput"]
 old-location: wsw\wssetoutput.htm
 tech.root: wsw
 ms.assetid: f0b47817-0ad1-408c-a6da-9a7b0fb2e34b
@@ -67,8 +68,8 @@ The writer for which the output will be set.
 
 ### -param encoding [in, optional]
 
-The encoding describes the format of the input bytes.  This should be one of <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_text_encoding">WS_XML_WRITER_TEXT_ENCODING</a>,
-          <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_binary_encoding">WS_XML_WRITER_BINARY_ENCODING</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>.
+The encoding describes the format of the input bytes.  This should be one of <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_text_encoding">WS_XML_WRITER_TEXT_ENCODING</a>,
+          <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_binary_encoding">WS_XML_WRITER_BINARY_ENCODING</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>.
         
 
 
@@ -137,12 +138,12 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webser
 If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_encoding">encoding</a> is not <b>NULL</b>, then <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_output">WS_XML_WRITER_OUTPUT</a> must be non-<b>NULL</b> as well.
       
 
-If <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_buffer_output">WS_XML_WRITER_OUTPUT</a> is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_buffer_output">WS_XML_WRITER_BUFFER_OUTPUT</a> then the writer will buffer the generated
+If <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_buffer_output">WS_XML_WRITER_OUTPUT</a> is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_buffer_output">WS_XML_WRITER_BUFFER_OUTPUT</a> then the writer will buffer the generated
         bytes of the document.  Use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetwriterproperty">WsGetWriterProperty</a> with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_XML_WRITER_PROPERTY_BUFFERS</a> or
         <b>WS_XML_WRITER_PROPERTY_BYTES</b> to obtain these bytes.  In this mode <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsflushwriter">WsFlushWriter</a> has no effect.
       
 
-If <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_stream_output">WS_XML_WRITER_OUTPUT</a> is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_stream_output">WS_XML_WRITER_STREAM_OUTPUT</a> then the writer will pass the generated
+If <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_stream_output">WS_XML_WRITER_OUTPUT</a> is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_stream_output">WS_XML_WRITER_STREAM_OUTPUT</a> then the writer will pass the generated
         bytes of the document to the specified <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_write_callback">WS_WRITE_CALLBACK</a> during calls to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsflushwriter">WsFlushWriter</a>.
       
 

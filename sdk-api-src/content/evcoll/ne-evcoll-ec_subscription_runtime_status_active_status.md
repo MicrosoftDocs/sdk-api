@@ -1,7 +1,8 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
 title: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS (evcoll.h)
-description: Specifies the status of a subscription or an event source with respect to a subscription.helpviewer_keywords: ["EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS","EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS enumeration","EcRuntimeStatusActiveStatusActive","EcRuntimeStatusActiveStatusDisabled","EcRuntimeStatusActiveStatusInactive","EcRuntimeStatusActiveStatusTrying","evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS","evcoll/EcRuntimeStatusActiveStatusActive","evcoll/EcRuntimeStatusActiveStatusDisabled","evcoll/EcRuntimeStatusActiveStatusInactive","evcoll/EcRuntimeStatusActiveStatusTrying","wec.ec_subscription_runtime_status_active_status","wes.ec_subscription_runtime_status_active_status"]
+description: Specifies the status of a subscription or an event source with respect to a subscription.
+helpviewer_keywords: ["EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS","EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS enumeration","EcRuntimeStatusActiveStatusActive","EcRuntimeStatusActiveStatusDisabled","EcRuntimeStatusActiveStatusInactive","EcRuntimeStatusActiveStatusTrying","evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS","evcoll/EcRuntimeStatusActiveStatusActive","evcoll/EcRuntimeStatusActiveStatusDisabled","evcoll/EcRuntimeStatusActiveStatusInactive","evcoll/EcRuntimeStatusActiveStatusTrying","wec.ec_subscription_runtime_status_active_status","wes.ec_subscription_runtime_status_active_status"]
 old-location: wec\ec_subscription_runtime_status_active_status.htm
 tech.root: WEC
 ms.assetid: 254305fe-5646-4661-98e2-b02f5d240da1
@@ -69,7 +70,7 @@ The subscription or event source is running.
 
 ### -field EcRuntimeStatusActiveStatusInactive
 
-The subscription or event source is inactive. You can query the System event log to see the error events sent by the Event Collector service. Use the <a href="https://docs.microsoft.com/windows/win32/api/evcoll/ne-evcoll-ec_subscription_runtime_status_info_id">EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID</a> values to obtain information on why the subscription or source is inactive.
+The subscription or event source is inactive. You can query the System event log to see the error events sent by the Event Collector service. Use the <a href="/windows/win32/api/evcoll/ne-evcoll-ec_subscription_runtime_status_info_id">EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID</a> values to obtain information on why the subscription or source is inactive.
 
 
 ### -field EcRuntimeStatusActiveStatusTrying

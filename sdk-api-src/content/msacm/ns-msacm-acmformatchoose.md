@@ -1,7 +1,8 @@
 ---
 UID: NS:msacm.tACMFORMATCHOOSE
 title: ACMFORMATCHOOSE (msacm.h)
-description: The ACMFORMATCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio format selection dialog box.helpviewer_keywords: ["*LPACMFORMATCHOOSE","*PACMFORMATCHOOSE","ACMFORMATCHOOSE","ACMFORMATCHOOSE structure [Windows Multimedia]","ACMFORMATCHOOSE_STYLEF_CONTEXTHELP","ACMFORMATCHOOSE_STYLEF_ENABLEHOOK","ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATE","ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATEHANDLE","ACMFORMATCHOOSE_STYLEF_INITTOWFXSTRUCT","ACMFORMATCHOOSE_STYLEF_SHOWHELP","ACM_FORMATENUMF_CONVERT","ACM_FORMATENUMF_HARDWARE","ACM_FORMATENUMF_INPUT","ACM_FORMATENUMF_NCHANNELS","ACM_FORMATENUMF_NSAMPLESPERSEC","ACM_FORMATENUMF_OUTPUT","ACM_FORMATENUMF_SUGGEST","ACM_FORMATENUMF_WBITSPERSAMPLE","ACM_FORMATENUMF_WFORMATTAG","msacm/ACMFORMATCHOOSE","multimedia.acmformatchoose_struct"]
+description: The ACMFORMATCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio format selection dialog box.
+helpviewer_keywords: ["*LPACMFORMATCHOOSE","*PACMFORMATCHOOSE","ACMFORMATCHOOSE","ACMFORMATCHOOSE structure [Windows Multimedia]","ACMFORMATCHOOSE_STYLEF_CONTEXTHELP","ACMFORMATCHOOSE_STYLEF_ENABLEHOOK","ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATE","ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATEHANDLE","ACMFORMATCHOOSE_STYLEF_INITTOWFXSTRUCT","ACMFORMATCHOOSE_STYLEF_SHOWHELP","ACM_FORMATENUMF_CONVERT","ACM_FORMATENUMF_HARDWARE","ACM_FORMATENUMF_INPUT","ACM_FORMATENUMF_NCHANNELS","ACM_FORMATENUMF_NSAMPLESPERSEC","ACM_FORMATENUMF_OUTPUT","ACM_FORMATENUMF_SUGGEST","ACM_FORMATENUMF_WBITSPERSAMPLE","ACM_FORMATENUMF_WFORMATTAG","msacm/ACMFORMATCHOOSE","multimedia.acmformatchoose_struct"]
 old-location: multimedia\acmformatchoose_struct.htm
 tech.root: Multimedia
 ms.assetid: b5e36dbd-9eaf-479a-af4c-ce07e4b6f042
@@ -160,12 +161,12 @@ Pointer to a string to be placed in the title bar of the dialog box. If this mem
 
 ### -field szFormatTag
 
-Buffer containing a null-terminated string describing the format tag of the format selection when the [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
+Buffer containing a null-terminated string describing the format tag of the format selection when the [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails) structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
 
 
 ### -field szFormat
 
-Buffer containing a null-terminated string describing the format attributes of the format selection when the [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatdetails">acmFormatDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
+Buffer containing a null-terminated string describing the format attributes of the format selection when the [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails) structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatdetails">acmFormatDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
 
 
 ### -field pszName
@@ -311,11 +312,11 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a>
+[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)
 
 
 
-[ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)a>
+[ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)
 
 
 

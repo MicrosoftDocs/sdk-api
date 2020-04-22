@@ -1,7 +1,8 @@
 ---
 UID: NF:mscat.CryptCATPutAttrInfo
 title: CryptCATPutAttrInfo function (mscat.h)
-description: Allocates memory for an attribute and adds it to a catalog member.helpviewer_keywords: ["CRYPTCAT_ATTR_AUTHENTICATED","CRYPTCAT_ATTR_DATAASCII","CRYPTCAT_ATTR_DATABASE64","CRYPTCAT_ATTR_DATAREPLACE","CRYPTCAT_ATTR_NAMEASCII","CRYPTCAT_ATTR_NAMEOBJID","CRYPTCAT_ATTR_UNAUTHENTICATED","CryptCATPutAttrInfo","CryptCATPutAttrInfo function [Security]","mscat/CryptCATPutAttrInfo","security.cryptcatputattrinfo"]
+description: Allocates memory for an attribute and adds it to a catalog member.
+helpviewer_keywords: ["CRYPTCAT_ATTR_AUTHENTICATED","CRYPTCAT_ATTR_DATAASCII","CRYPTCAT_ATTR_DATABASE64","CRYPTCAT_ATTR_DATAREPLACE","CRYPTCAT_ATTR_NAMEASCII","CRYPTCAT_ATTR_NAMEOBJID","CRYPTCAT_ATTR_UNAUTHENTICATED","CryptCATPutAttrInfo","CryptCATPutAttrInfo function [Security]","mscat/CryptCATPutAttrInfo","security.cryptcatputattrinfo"]
 old-location: security\cryptcatputattrinfo.htm
 tech.root: SecCrypto
 ms.assetid: 13d5cdb4-2a15-4442-9e11-c3f76ca03f7e
@@ -66,7 +67,7 @@ A handle to the catalog obtained from the <a href="https://docs.microsoft.com/wi
 
 ### -param pCatMember [in]
 
-A pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a> structure that contains the catalog member.
+A pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains the catalog member.
 
 
 ### -param pwszReferenceTag [in]
@@ -178,7 +179,7 @@ A pointer to a memory buffer that contains the attribute value.
 
 
 
-Upon success, this function returns a pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a> structure that contains the assigned attribute. The caller must not free this pointer or any of its members.
+Upon success, this function returns a pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure that contains the assigned attribute. The caller must not free this pointer or any of its members.
 
 
 If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.

@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerCollabEnumContacts
 title: PeerCollabEnumContacts function (p2p.h)
-description: Returns a handle to an enumerated set that contains all of the peer collaboration network contacts currently available on the calling peer.helpviewer_keywords: ["PeerCollabEnumContacts","PeerCollabEnumContacts function [Peer Networking]","p2p.peercollabenumcontacts","p2p/PeerCollabEnumContacts"]
+description: Returns a handle to an enumerated set that contains all of the peer collaboration network contacts currently available on the calling peer.
+helpviewer_keywords: ["PeerCollabEnumContacts","PeerCollabEnumContacts function [Peer Networking]","p2p.peercollabenumcontacts","p2p/PeerCollabEnumContacts"]
 old-location: p2p\peercollabenumcontacts.htm
 tech.root: P2PSdk
 ms.assetid: e5a259e5-c5cb-4a7e-8f60-29e4d7cc6ede
@@ -116,7 +117,7 @@ The Windows Peer infrastructure is not initialized. Calling the relevant initial
 
 
 
-To obtain the individual peer contacts, pass the returned handle to [PEER_CONTACT](/windows/win32/api/p2p/ns-p2p-peer_contact)a> structures will be returned. To close the enumeration and release the resources associated with it, pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>. Individual items returned by the enumeration must be released with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+To obtain the individual peer contacts, pass the returned handle to [PEER_CONTACT](/windows/win32/api/p2p/ns-p2p-peer_contact) structures will be returned. To close the enumeration and release the resources associated with it, pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>. Individual items returned by the enumeration must be released with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 
 

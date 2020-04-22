@@ -1,7 +1,8 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_DETACH_FN
 title: PIBIO_SENSOR_DETACH_FN (winbio_adapter.h)
-description: Releases adapter specific resources attached to the pipeline.helpviewer_keywords: ["PIBIO_SENSOR_DETACH_FN","PIBIO_SENSOR_DETACH_FN callback","SensorAdapterDetach","SensorAdapterDetach callback function [Windows Biometric Framework API]","secbiomet.sensoradapterdetach","winbio_adapter/SensorAdapterDetach"]
+description: Releases adapter specific resources attached to the pipeline.
+helpviewer_keywords: ["PIBIO_SENSOR_DETACH_FN","PIBIO_SENSOR_DETACH_FN callback","SensorAdapterDetach","SensorAdapterDetach callback function [Windows Biometric Framework API]","secbiomet.sensoradapterdetach","winbio_adapter/SensorAdapterDetach"]
 old-location: secbiomet\sensoradapterdetach.htm
 tech.root: SecBioMet
 ms.assetid: 58124c44-4343-44c1-84a2-c03455d68199
@@ -111,7 +112,7 @@ If the <b>SensorContext</b> field in the pipeline object is <b>NULL</b> when thi
 
 Before returning S_OK, this function must set the <b>SensorContext</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure to <b>NULL</b>.
 
-Because this function is called after the storage and engine adapters have been removed from the pipeline, your implementation of this function must not call any functions referenced by the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_ENGINE_INTERFACE</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structures pointed to by the <b>EngineInterface</b> and <b>StorageInterface</b> members of the pipeline object.
+Because this function is called after the storage and engine adapters have been removed from the pipeline, your implementation of this function must not call any functions referenced by the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_ENGINE_INTERFACE</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structures pointed to by the <b>EngineInterface</b> and <b>StorageInterface</b> members of the pipeline object.
 
 Because the <b>SensorHandle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure will contain  a valid handle even after  <i>SensorAdapterDetach</i> is called, you can use the handle to access the sensor device if necessary. This function should not close the sensor handle. The Windows biometric Framework will do so after <i>SensorAdapterDetach</i> returns.
 

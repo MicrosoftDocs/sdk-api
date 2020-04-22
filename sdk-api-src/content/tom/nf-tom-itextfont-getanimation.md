@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.GetAnimation
 title: ITextFont::GetAnimation (tom.h)
-description: Gets the animation type.helpviewer_keywords: ["GetAnimation","GetAnimation method [Windows Controls]","GetAnimation method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetAnimation method","ITextFont.GetAnimation","ITextFont::GetAnimation","_win32_ITextFont_GetAnimation","_win32_ITextFont_GetAnimation_cpp","controls.ITextFont_GetAnimation","controls._win32_ITextFont_GetAnimation","tom/ITextFont::GetAnimation"]
+description: Gets the animation type.
+helpviewer_keywords: ["GetAnimation","GetAnimation method [Windows Controls]","GetAnimation method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetAnimation method","ITextFont.GetAnimation","ITextFont::GetAnimation","_win32_ITextFont_GetAnimation","_win32_ITextFont_GetAnimation_cpp","controls.ITextFont_GetAnimation","controls._win32_ITextFont_GetAnimation","tom/ITextFont::GetAnimation"]
 old-location: controls\ITextFont_GetAnimation.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getanimation.htm
@@ -64,15 +65,15 @@ Type: <b>long*</b>
 One of the following animation types. 
 					
 
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomNoAnimation</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomLasVegasLights</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomBlinkingBackground</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSparkleText</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMarchingBlackAnts</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMarchingRedAnts</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomShimmer</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomWipeDown</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomWipeRight</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomNoAnimation</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomLasVegasLights</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomBlinkingBackground</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomSparkleText</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomMarchingBlackAnts</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomMarchingRedAnts</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomShimmer</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomWipeDown</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomWipeRight</a>
 
 ## -returns
 

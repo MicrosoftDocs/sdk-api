@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._STORAGE_OFFLOAD_WRITE_OUTPUT
 title: STORAGE_OFFLOAD_WRITE_OUTPUT
-description: Output structure for the DeviceDsmAction_OffloadWrite action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.helpviewer_keywords: ["*PSTORAGE_OFFLOAD_WRITE_OUTPUT","PSTORAGE_OFFLOAD_WRITE_OUTPUT","PSTORAGE_OFFLOAD_WRITE_OUTPUT structure pointer","STORAGE_OFFLOAD_TOKEN_INVALID","STORAGE_OFFLOAD_WRITE_OUTPUT","STORAGE_OFFLOAD_WRITE_OUTPUT structure","STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED","base.storage_offload_write_output","winioctl/PSTORAGE_OFFLOAD_WRITE_OUTPUT","winioctl/STORAGE_OFFLOAD_WRITE_OUTPUT"]
+description: Output structure for the DeviceDsmAction_OffloadWrite action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
+helpviewer_keywords: ["*PSTORAGE_OFFLOAD_WRITE_OUTPUT","PSTORAGE_OFFLOAD_WRITE_OUTPUT","PSTORAGE_OFFLOAD_WRITE_OUTPUT structure pointer","STORAGE_OFFLOAD_TOKEN_INVALID","STORAGE_OFFLOAD_WRITE_OUTPUT","STORAGE_OFFLOAD_WRITE_OUTPUT structure","STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED","base.storage_offload_write_output","winioctl/PSTORAGE_OFFLOAD_WRITE_OUTPUT","winioctl/STORAGE_OFFLOAD_WRITE_OUTPUT"]
 old-location: base\storage_offload_write_output.htm
 tech.root: devio
 ms.assetid: 9da3ac28-93fd-45b7-9ebe-1436593bf591
@@ -108,7 +109,7 @@ The length of the copied content.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes_output">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes_output">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a>
 
 
 

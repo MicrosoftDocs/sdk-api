@@ -1,7 +1,8 @@
 ---
 UID: NC:cryptxml.CryptXmlDllGetInterface
 title: CryptXmlDllGetInterface (cryptxml.h)
-description: Retrieves a pointer to the cryptographic extension functions for the specified algorithm.helpviewer_keywords: ["CryptXmlDllGetInterface","CryptXmlDllGetInterface callback","CryptXmlDllGetInterface callback function [Security]","cryptxml/CryptXmlDllGetInterface","security.cryptxmldllgetinterface"]
+description: Retrieves a pointer to the cryptographic extension functions for the specified algorithm.
+helpviewer_keywords: ["CryptXmlDllGetInterface","CryptXmlDllGetInterface callback","CryptXmlDllGetInterface callback function [Security]","cryptxml/CryptXmlDllGetInterface","security.cryptxmldllgetinterface"]
 old-location: security\cryptxmldllgetinterface.htm
 tech.root: SecCrypto
 ms.assetid: a547e869-3c9f-4408-9895-29fae0cc6066
@@ -90,7 +91,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 The cryptographic extensions DLL must export the <b>CryptXmlDllGetInterface</b> entry.
 
 
-To get the <a href="https://docs.microsoft.com/windows/win32/api/cryptxml/ns-cryptxml-crypt_xml_cryptographic_interface">CRYPT_XML_CRYPTOGRAPHIC_INTERFACE</a>  table, CryptXml loads the registered cryptographic extensions DLL by using the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function, and then it calls the
+To get the <a href="/windows/win32/api/cryptxml/ns-cryptxml-crypt_xml_cryptographic_interface">CRYPT_XML_CRYPTOGRAPHIC_INTERFACE</a>  table, CryptXml loads the registered cryptographic extensions DLL by using the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function, and then it calls the
 <b>CryptXmlDllGetInterface</b> function.
 
 

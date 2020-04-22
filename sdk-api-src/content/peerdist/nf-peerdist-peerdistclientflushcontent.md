@@ -1,7 +1,8 @@
 ---
 UID: NF:peerdist.PeerDistClientFlushContent
 title: PeerDistClientFlushContent function (peerdist.h)
-description: The PeerDistClientFlushContent function allows a client to remove content added to the local cache with the PeerDistClientAddData function using the associated PEERDIST_CONTENT_TAG.helpviewer_keywords: ["PeerDistClientFlushContent","PeerDistClientFlushContent function [Peer Networking]","p2p.peerdistclientflushcontent","peerdist/PeerDistClientFlushContent"]
+description: The PeerDistClientFlushContent function allows a client to remove content added to the local cache with the PeerDistClientAddData function using the associated PEERDIST_CONTENT_TAG.
+helpviewer_keywords: ["PeerDistClientFlushContent","PeerDistClientFlushContent function [Peer Networking]","p2p.peerdistclientflushcontent","peerdist/PeerDistClientFlushContent"]
 old-location: p2p\peerdistclientflushcontent.htm
 tech.root: P2PSdk
 ms.assetid: bb77499b-520b-4def-97d8-504983953d4b
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)a>.
+The [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag).
 
 
 ## -parameters
@@ -64,7 +65,7 @@ A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.co
 
 ### -param pContentTag [in]
 
-Pointer to a [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)a> structure that contains the tag supplied when <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> is called.
+Pointer to a [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag) structure that contains the tag supplied when <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> is called.
 
 
 ### -param hCompletionPort [in, optional]
@@ -157,7 +158,7 @@ The <i>pContentTag</i> is a client supplied tag passed to <a href="https://docs.
 
 
 
-[PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)a>
+[PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)
 
 
 

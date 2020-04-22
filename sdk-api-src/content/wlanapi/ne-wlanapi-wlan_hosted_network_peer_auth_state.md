@@ -1,7 +1,8 @@
 ---
 UID: NE:wlanapi._WLAN_HOSTED_NETWORK_PEER_AUTH_STATE
 title: WLAN_HOSTED_NETWORK_PEER_AUTH_STATE (wlanapi.h)
-description: Specifies the possible values for the authentication state of a peer on the wireless Hosted Network.helpviewer_keywords: ["*PWLAN_HOSTED_NETWORK_PEER_AUTH_STATE","PWLAN_HOSTED_NETWORK_PEER_STATE","PWLAN_HOSTED_NETWORK_PEER_STATE enumeration pointer [NativeWIFI]","WLAN_HOSTED_NETWORK_PEER_AUTH_STATE","WLAN_HOSTED_NETWORK_PEER_AUTH_STATE enumeration [NativeWIFI]","nwifi.wlan_hosted_network_peer_auth_state","wlan_hosted_network_peer_state_authenticated","wlan_hosted_network_peer_state_invalid","wlanapi/PWLAN_HOSTED_NETWORK_PEER_STATE","wlanapi/WLAN_HOSTED_NETWORK_PEER_AUTH_STATE","wlanapi/wlan_hosted_network_peer_state_authenticated","wlanapi/wlan_hosted_network_peer_state_invalid"]
+description: Specifies the possible values for the authentication state of a peer on the wireless Hosted Network.
+helpviewer_keywords: ["*PWLAN_HOSTED_NETWORK_PEER_AUTH_STATE","PWLAN_HOSTED_NETWORK_PEER_STATE","PWLAN_HOSTED_NETWORK_PEER_STATE enumeration pointer [NativeWIFI]","WLAN_HOSTED_NETWORK_PEER_AUTH_STATE","WLAN_HOSTED_NETWORK_PEER_AUTH_STATE enumeration [NativeWIFI]","nwifi.wlan_hosted_network_peer_auth_state","wlan_hosted_network_peer_state_authenticated","wlan_hosted_network_peer_state_invalid","wlanapi/PWLAN_HOSTED_NETWORK_PEER_STATE","wlanapi/WLAN_HOSTED_NETWORK_PEER_AUTH_STATE","wlanapi/wlan_hosted_network_peer_state_authenticated","wlanapi/wlan_hosted_network_peer_state_invalid"]
 old-location: nwifi\wlan_hosted_network_peer_auth_state.htm
 tech.root: NativeWiFi
 ms.assetid: 9953ad0c-eafc-49ad-b9a3-09fbfba805e5
@@ -86,7 +87,7 @@ The <b>WLAN_HOSTED_NETWORK_PEER_AUTH_STATE</b> enumerated type is an extension t
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
+<a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.IQueryAssociations.Init
 title: IQueryAssociations::Init (shlwapi.h)
-description: Initializes the IQueryAssociations interface and sets the root key to the appropriate ProgID.helpviewer_keywords: ["CLSID","Executable name","File name extension","IQueryAssociations interface [Windows Shell]","Init method","IQueryAssociations.Init","IQueryAssociations::Init","Init","Init method [Windows Shell]","Init method [Windows Shell]","IQueryAssociations interface","ProgID","_win32_IQueryAssociations_Init","shell.IQueryAssociations_Init","shlwapi/IQueryAssociations::Init"]
+description: Initializes the IQueryAssociations interface and sets the root key to the appropriate ProgID.
+helpviewer_keywords: ["CLSID","Executable name","File name extension","IQueryAssociations interface [Windows Shell]","Init method","IQueryAssociations.Init","IQueryAssociations::Init","Init","Init method [Windows Shell]","Init method [Windows Shell]","IQueryAssociations interface","ProgID","_win32_IQueryAssociations_Init","shell.IQueryAssociations_Init","shlwapi/IQueryAssociations::Init"]
 old-location: shell\IQueryAssociations_Init.htm
 tech.root: shell
 ms.assetid: cb1bcfc1-dbaa-48f8-8547-408f6560753e
@@ -59,21 +60,21 @@ Initializes the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a></b>
+Type: <b><a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a></b>
 
-A flag that specifies how the search is to be initialized. It is typically set to zero, but it can also take one of the following <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a> values. 
+A flag that specifies how the search is to be initialized. It is typically set to zero, but it can also take one of the following <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a> values. 
 					
                     
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_INIT_BYEXENAME</a>
+<a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_INIT_BYEXENAME</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_INIT_DEFAULTTOFOLDER</a>
+<a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_INIT_DEFAULTTOFOLDER</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_INIT_DEFAULTTOSTAR</a>
+<a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_INIT_DEFAULTTOSTAR</a>
 </li>
 </ul>
 
@@ -105,7 +106,7 @@ An application's ProgID, such as <b>Word.Document.8</b>.
 
 #### Executable name
 
-The name of an application's .exe file. The <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+The name of an application's .exe file. The <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 
 ### -param hkProgid [in, optional]

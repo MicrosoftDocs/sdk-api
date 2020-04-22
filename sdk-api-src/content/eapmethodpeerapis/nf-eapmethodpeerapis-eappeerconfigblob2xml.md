@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerConfigBlob2Xml
 title: EapPeerConfigBlob2Xml function (eapmethodpeerapis.h)
-description: Converts the configuration BLOB to XML.helpviewer_keywords: ["EapPeerConfigBlob2Xml","EapPeerConfigBlob2Xml function [EAPHost]","eaphost.eappeerconfigblob2xml","eapmethodpeerapis/EapPeerConfigBlob2Xml"]
+description: Converts the configuration BLOB to XML.
+helpviewer_keywords: ["EapPeerConfigBlob2Xml","EapPeerConfigBlob2Xml function [EAPHost]","eaphost.eappeerconfigblob2xml","eapmethodpeerapis/EapPeerConfigBlob2Xml"]
 old-location: eaphost\eappeerconfigblob2xml.htm
 tech.root: eaphost
 ms.assetid: 0b6c8047-08bb-4cb7-9ef2-81793a497c65
@@ -80,7 +81,7 @@ The size, in bytes, of the configuration BLOB.
 ### -param ppConfigDoc [out]
 
 A pointer to a pointer to an XML document that  contains the converted configuration. If the EAP method does not support
-                the [EapHostConfig Schema](https://docs.microsoft.com/windows/win32/eaphost/eaphostconfigschema-schema)a> configuration element.
+                the [EapHostConfig Schema](/windows/win32/eaphost/eaphostconfigschema-schema) configuration element.
 
 
 ### -param ppEapError [out]
@@ -93,7 +94,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-[EAPHost Peer Method Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-configuration-functions)a>
+[EAPHost Peer Method Configuration Functions](/windows/win32/eaphost/eaphost-peer-method-configuration-functions)
  
 
  

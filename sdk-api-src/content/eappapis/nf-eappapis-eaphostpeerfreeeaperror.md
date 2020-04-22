@@ -1,7 +1,8 @@
 ---
 UID: NF:eappapis.EapHostPeerFreeEapError
 title: EapHostPeerFreeEapError function (eappapis.h)
-description: Frees EAP_ERROR structures returned by EAPHost run-time APIs.helpviewer_keywords: ["EapHostPeerFreeEapError","EapHostPeerFreeEapError function [EAPHost]","eaphost.eaphostpeerfreeeaperror","eappapis/EapHostPeerFreeEapError"]
+description: Frees EAP_ERROR structures returned by EAPHost run-time APIs.
+helpviewer_keywords: ["EapHostPeerFreeEapError","EapHostPeerFreeEapError function [EAPHost]","eaphost.eaphostpeerfreeeaperror","eappapis/EapHostPeerFreeEapError"]
 old-location: eaphost\eaphostpeerfreeeaperror.htm
 tech.root: eaphost
 ms.assetid: 36f9b5dd-821d-4cc5-a1dd-587098635d17
@@ -117,11 +118,11 @@ To release all memory allocated by EAPHost for a authentication session, the cal
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
 
 
 
-[EAPHost Supplicant Frequently Asked Questions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-supplicant-frequently-asked-questions)a>
+[EAPHost Supplicant Frequently Asked Questions](/windows/win32/eaphost/eaphost-supplicant-frequently-asked-questions)
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_INFO_ARRAY_EX
 title: EAP_METHOD_INFO_ARRAY_EX (eaptypes.h)
-description: Contains information about all of the EAP methods installed on the client computer.helpviewer_keywords: ["EAP_METHOD_INFO_ARRAY_EX","EAP_METHOD_INFO_ARRAY_EX structure [EAPHost]","PEAP_METHOD_INFO_ARRAY_EX","PEAP_METHOD_INFO_ARRAY_EX structure pointer [EAPHost]","eaphost.eap_method_info_array_ex","eaptypes/EAP_METHOD_INFO_ARRAY_EX","eaptypes/PEAP_METHOD_INFO_ARRAY_EX"]
+description: Contains information about all of the EAP methods installed on the client computer.
+helpviewer_keywords: ["EAP_METHOD_INFO_ARRAY_EX","EAP_METHOD_INFO_ARRAY_EX structure [EAPHost]","PEAP_METHOD_INFO_ARRAY_EX","PEAP_METHOD_INFO_ARRAY_EX structure pointer [EAPHost]","eaphost.eap_method_info_array_ex","eaptypes/EAP_METHOD_INFO_ARRAY_EX","eaptypes/PEAP_METHOD_INFO_ARRAY_EX"]
 old-location: eaphost\eap_method_info_array_ex.htm
 tech.root: eaphost
 ms.assetid: 3deb04da-3071-4ddd-a7cb-82a1c47c3677
@@ -72,11 +73,11 @@ Pointer to the address of the first element in an array of <a href="https://docs
 
 
 
-[Common EAPHost API Structures](https://docs.microsoft.com/windows/win32/eaphost/common-eap-host-api-structures)a>
+[Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
 
 
 
-[EAP Method Properties](https://docs.microsoft.com/windows/win32/eaphost/eap-method-properties)a>
+[EAP Method Properties](/windows/win32/eaphost/eap-method-properties)
 
 
 

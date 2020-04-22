@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetTileMode
 title: IXpsOMTileBrush::SetTileMode (xpsobjectmodel.h)
-description: Sets the XPS_TILE_MODE value that describes the tiling mode of the brush.helpviewer_keywords: ["IXpsOMTileBrush interface [XPS Documents and Packaging]","SetTileMode method","IXpsOMTileBrush.SetTileMode","IXpsOMTileBrush::SetTileMode","SetTileMode","SetTileMode method [XPS Documents and Packaging]","SetTileMode method [XPS Documents and Packaging]","IXpsOMTileBrush interface","xps.ixpsomtilebrush_settilemode","xpsobjectmodel/IXpsOMTileBrush::SetTileMode"]
+description: Sets the XPS_TILE_MODE value that describes the tiling mode of the brush.
+helpviewer_keywords: ["IXpsOMTileBrush interface [XPS Documents and Packaging]","SetTileMode method","IXpsOMTileBrush.SetTileMode","IXpsOMTileBrush::SetTileMode","SetTileMode","SetTileMode method [XPS Documents and Packaging]","SetTileMode method [XPS Documents and Packaging]","IXpsOMTileBrush interface","xps.ixpsomtilebrush_settilemode","xpsobjectmodel/IXpsOMTileBrush::SetTileMode"]
 old-location: xps\ixpsomtilebrush_settilemode.htm
 tech.root: printdocs
 ms.assetid: 5901e5ec-1907-404b-b1a8-a00e13d3eab8
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
+Sets the <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
             
 
 
@@ -60,7 +61,7 @@ Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne
 
 ### -param tileMode [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value to be set.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value to be set.
 
 
 ## -returns
@@ -92,7 +93,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>tileMode</i> was not a valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value.
+<i>tileMode</i> was not a valid <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value.
 
 </td>
 </tr>
@@ -106,7 +107,7 @@ The method succeeded.
 
 
 
-The tile mode determines how the tile image is repeated to fill the output area. If the tile mode value is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
+The tile mode determines how the tile image is repeated to fill the output area. If the tile mode value is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
 
 <img alt="An illustration that shows different examples of different tile mode behaviors" src="./images/TileMode.png"/>
 
@@ -125,7 +126,7 @@ The tile mode determines how the tile image is repeated to fill the output area.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a>
  
 
  

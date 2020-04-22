@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanQueryInterface
 title: WlanQueryInterface function (wlanapi.h)
-description: The WlanQueryInterface function queries various parameters of a specified interface.helpviewer_keywords: ["WlanQueryInterface","WlanQueryInterface function [NativeWIFI]","nwifi.wlanqueryinterface","wlanapi/WlanQueryInterface"]
+description: The WlanQueryInterface function queries various parameters of a specified interface.
+helpviewer_keywords: ["WlanQueryInterface","WlanQueryInterface function [NativeWIFI]","nwifi.wlanqueryinterface","wlanapi/WlanQueryInterface"]
 old-location: nwifi\wlanqueryinterface.htm
 tech.root: NativeWiFi
 ms.assetid: e20eb9a3-5824-48ee-b13e-b0252bbf495e
@@ -70,7 +71,7 @@ The GUID of the interface to be queried.
 
 ### -param OpCode [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode~r1">WLAN_INTF_OPCODE</a> value that specifies the parameter to be queried.  The following table lists the valid constants along with the data type of the parameter in <i>ppData</i>.
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode~r1">WLAN_INTF_OPCODE</a> value that specifies the parameter to be queried.  The following table lists the valid constants along with the data type of the parameter in <i>ppData</i>.
 
 <table>
 <tr>
@@ -100,7 +101,7 @@ A <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_
 <tr>
 <td>wlan_intf_opcode_interface_state </td>
 <td>
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state~r1">WLAN_INTERFACE_STATE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state~r1">WLAN_INTERFACE_STATE</a>
 </td>
 </tr>
 <tr>
@@ -184,7 +185,7 @@ Pointer to the memory location that contains the queried value of the parameter 
 
 ### -param pWlanOpcodeValueType [out, optional]
 
-If passed a non-<b>NULL</b> value, points to a <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value that specifies the type of opcode returned. This parameter may be <b>NULL</b>. 
+If passed a non-<b>NULL</b> value, points to a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value that specifies the type of opcode returned. This parameter may be <b>NULL</b>. 
 
 
 ## -returns
@@ -601,15 +602,15 @@ int wmain()
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state~r1">WLAN_INTERFACE_STATE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state~r1">WLAN_INTERFACE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode~r1">WLAN_INTF_OPCODE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode~r1">WLAN_INTF_OPCODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a>
 
 
 

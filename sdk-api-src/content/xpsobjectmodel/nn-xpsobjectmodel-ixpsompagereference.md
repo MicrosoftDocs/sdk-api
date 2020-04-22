@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPageReference
 title: IXpsOMPageReference (xpsobjectmodel.h)
-description: Enables virtualization of pages in an XPS document.helpviewer_keywords: ["IXpsOMPageReference","IXpsOMPageReference interface [XPS Documents and Packaging]","IXpsOMPageReference interface [XPS Documents and Packaging]","described","xps.ixpsompagereference","xpsobjectmodel/IXpsOMPageReference"]
+description: Enables virtualization of pages in an XPS document.
+helpviewer_keywords: ["IXpsOMPageReference","IXpsOMPageReference interface [XPS Documents and Packaging]","IXpsOMPageReference interface [XPS Documents and Packaging]","described","xps.ixpsompagereference","xpsobjectmodel/IXpsOMPageReference"]
 old-location: xps\ixpsompagereference.htm
 tech.root: printdocs
 ms.assetid: cdebab24-f918-4235-b4d5-5ee1007ade87
@@ -170,7 +171,7 @@ Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xp
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-hasrestrictedfonts">HasRestrictedFonts</a>
 </td>
 <td align="left" width="63%">
-Gets a Boolean value that indicates whether the document sub-tree of the referenced page includes any Glyphs that have a font resource whose  <b>EmbeddingOption</b> property is set to <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING_RESTRICTED</a>.
+Gets a Boolean value that indicates whether the document sub-tree of the referenced page includes any Glyphs that have a font resource whose  <b>EmbeddingOption</b> property is set to <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING_RESTRICTED</a>.
 
 </td>
 </tr>

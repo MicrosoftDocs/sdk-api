@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMDone
 title: IComCRMEvents::OnCRMDone (comsvcs.h)
-description: Generated when CRM clerk is done processing transaction outcome notifications.helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMDone method","IComCRMEvents.OnCRMDone","IComCRMEvents::OnCRMDone","OnCRMDone","OnCRMDone method [COM+]","OnCRMDone method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMDone","comsvcs/IComCRMEvents::OnCRMDone","cos.icomcrmevents_oncrmdone"]
+description: Generated when CRM clerk is done processing transaction outcome notifications.
+helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMDone method","IComCRMEvents.OnCRMDone","IComCRMEvents::OnCRMDone","OnCRMDone","OnCRMDone method [COM+]","OnCRMDone method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMDone","comsvcs/IComCRMEvents::OnCRMDone","cos.icomcrmevents_oncrmdone"]
 old-location: cos\icomcrmevents_oncrmdone.htm
 tech.root: cossdk
 ms.assetid: 8845fd4d-a1a8-40cf-9359-5a2900432f32
@@ -59,7 +60,7 @@ Generated when CRM clerk is done processing transaction outcome notifications.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidClerkCLSID [in]

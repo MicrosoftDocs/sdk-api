@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsGetCustomHeader
 title: WsGetCustomHeader function (webservices.h)
-description: Finds an application-defined header of the message and deserializes it.helpviewer_keywords: ["WsGetCustomHeader","WsGetCustomHeader function [Web Services for Windows]","webservices/WsGetCustomHeader","wsw.wsgetcustomheader"]
+description: Finds an application-defined header of the message and deserializes it.
+helpviewer_keywords: ["WsGetCustomHeader","WsGetCustomHeader function [Web Services for Windows]","webservices/WsGetCustomHeader","wsw.wsgetcustomheader"]
 old-location: wsw\wsgetcustomheader.htm
 tech.root: wsw
 ms.assetid: bdfb441b-afc4-4be8-b437-f299a31ce84b
@@ -125,7 +126,7 @@ The interpretation of this parameter depends on the <a href="https://docs.micros
 
 ### -param headerAttributes
 
-Returns the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_text_type">WS_HEADER_ATTRIBUTES</a> for this header.
+Returns the <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_text_type">WS_HEADER_ATTRIBUTES</a> for this header.
                     The pointer may be <b>NULL</b>, in which case no attributes are returned.
                 
 

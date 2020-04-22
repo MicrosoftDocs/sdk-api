@@ -47,7 +47,6 @@ req.redist:
 
 ## -description
 
-
 Requests UDF-specific volume information.
 
 To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
@@ -64,6 +63,7 @@ BOOL DeviceIoControl(
   (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
 );
 ```
+
 
 ## -ioctlparameters
 

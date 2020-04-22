@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsNameTranslate.SetEx
 title: IADsNameTranslate::SetEx (iads.h)
-description: Establishes an array of objects for name translation.helpviewer_keywords: ["IADsNameTranslate interface [ADSI]","SetEx method","IADsNameTranslate.SetEx","IADsNameTranslate::SetEx","SetEx","SetEx method [ADSI]","SetEx method [ADSI]","IADsNameTranslate interface","_ds_iadsnametranslate_setex","adsi.iadsnametranslate__setex","adsi.iadsnametranslate_setex","iads/IADsNameTranslate::SetEx"]
+description: Establishes an array of objects for name translation.
+helpviewer_keywords: ["IADsNameTranslate interface [ADSI]","SetEx method","IADsNameTranslate.SetEx","IADsNameTranslate::SetEx","SetEx","SetEx method [ADSI]","SetEx method [ADSI]","IADsNameTranslate interface","_ds_iadsnametranslate_setex","adsi.iadsnametranslate__setex","adsi.iadsnametranslate_setex","iads/IADsNameTranslate::SetEx"]
 old-location: adsi\iadsnametranslate_setex.htm
 tech.root: adsi
 ms.assetid: e8a5014e-d848-46b7-a336-7801ff1f6b08
@@ -59,7 +60,7 @@ The <b>IADsNameTranslate::SetEx</b> method establishes an array of objects for n
 
 ### -param lnFormatType
 
-The format type of the input names. For more information, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>.
+The format type of the input names. For more information, see  <a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>.
 
 
 ### -param pvar
@@ -188,7 +189,7 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::SetEx</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 

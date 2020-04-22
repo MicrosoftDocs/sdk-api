@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmSessionCreateEnumHandle0
 title: FwpmSessionCreateEnumHandle0 function (fwpmu.h)
-description: Creates a handle used to enumerate a set of session objects.helpviewer_keywords: ["FwpmSessionCreateEnumHandle0","FwpmSessionCreateEnumHandle0 function [Filtering]","fwp.fwpmsessioncreateenumhandle0_func","fwpmu/FwpmSessionCreateEnumHandle0"]
+description: Creates a handle used to enumerate a set of session objects.
+helpviewer_keywords: ["FwpmSessionCreateEnumHandle0","FwpmSessionCreateEnumHandle0 function [Filtering]","fwp.fwpmsessioncreateenumhandle0_func","fwpmu/FwpmSessionCreateEnumHandle0"]
 old-location: fwp\fwpmsessioncreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 018944eb-698b-4d3e-a9ba-253b8bbebea7
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: [FWPM_SESSION_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session_enum_template0)a>*</b>
+Type: [FWPM_SESSION_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session_enum_template0)*</b>
 
 Template to selectively restrict the enumeration.
 
@@ -154,7 +155,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_SESSION_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session_enum_template0)a>
+[FWPM_SESSION_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session_enum_template0)
 
 
 

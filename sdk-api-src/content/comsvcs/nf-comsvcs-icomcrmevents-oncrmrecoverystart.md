@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMRecoveryStart
 title: IComCRMEvents::OnCRMRecoveryStart (comsvcs.h)
-description: Generated when CRM recovery has started.helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMRecoveryStart method","IComCRMEvents.OnCRMRecoveryStart","IComCRMEvents::OnCRMRecoveryStart","OnCRMRecoveryStart","OnCRMRecoveryStart method [COM+]","OnCRMRecoveryStart method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMRecoveryStart","comsvcs/IComCRMEvents::OnCRMRecoveryStart","cos.icomcrmevents_oncrmrecoverystart"]
+description: Generated when CRM recovery has started.
+helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMRecoveryStart method","IComCRMEvents.OnCRMRecoveryStart","IComCRMEvents::OnCRMRecoveryStart","OnCRMRecoveryStart","OnCRMRecoveryStart method [COM+]","OnCRMRecoveryStart method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMRecoveryStart","comsvcs/IComCRMEvents::OnCRMRecoveryStart","cos.icomcrmevents_oncrmrecoverystart"]
 old-location: cos\icomcrmevents_oncrmrecoverystart.htm
 tech.root: cossdk
 ms.assetid: ac958f4b-1af4-4cfc-8fb4-92e89fdba771
@@ -59,7 +60,7 @@ Generated when CRM recovery has started.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidApp [in]

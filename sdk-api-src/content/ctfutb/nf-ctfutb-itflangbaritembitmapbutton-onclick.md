@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.OnClick
 title: ITfLangBarItemBitmapButton::OnClick (ctfutb.h)
-description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BUTTON style.helpviewer_keywords: ["ITfLangBarItemBitmapButton interface [Text Services Framework]","OnClick method","ITfLangBarItemBitmapButton.OnClick","ITfLangBarItemBitmapButton::OnClick","OnClick","OnClick method [Text Services Framework]","OnClick method [Text Services Framework]","ITfLangBarItemBitmapButton interface","_tsf_itflangbaritembitmapbutton_onclick_ref","ctfutb/ITfLangBarItemBitmapButton::OnClick","tsf.itflangbaritembitmapbutton_onclick"]
+description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BUTTON style.
+helpviewer_keywords: ["ITfLangBarItemBitmapButton interface [Text Services Framework]","OnClick method","ITfLangBarItemBitmapButton.OnClick","ITfLangBarItemBitmapButton::OnClick","OnClick","OnClick method [Text Services Framework]","OnClick method [Text Services Framework]","ITfLangBarItemBitmapButton interface","_tsf_itflangbaritembitmapbutton_onclick_ref","ctfutb/ITfLangBarItemBitmapButton::OnClick","tsf.itflangbaritembitmapbutton_onclick"]
 old-location: tsf\itflangbaritembitmapbutton_onclick.htm
 tech.root: TSF
 ms.assetid: 8d376d22-897d-4032-9c9e-7d0f93d73fac
@@ -59,7 +60,7 @@ This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BU
 
 ### -param click [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick</a> value that indicates which mouse button was used to click the button.
+Contains a <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick</a> value that indicates which mouse button was used to click the button.
 
 
 ### -param pt [in]
@@ -128,7 +129,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
+<a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
       </a>
  
 

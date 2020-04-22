@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcompiler.D3DCompressShaders
 title: D3DCompressShaders function (d3dcompiler.h)
-description: Compresses a set of shaders into a more compact form.helpviewer_keywords: ["D3DCompressShaders","D3DCompressShaders function [HLSL]","d3dcompiler/D3DCompressShaders","direct3dhlsl.d3dcompressshaders"]
+description: Compresses a set of shaders into a more compact form.
+helpviewer_keywords: ["D3DCompressShaders","D3DCompressShaders function [HLSL]","d3dcompiler/D3DCompressShaders","direct3dhlsl.d3dcompressshaders"]
 old-location: direct3dhlsl\d3dcompressshaders.htm
 tech.root: direct3dhlsl
 ms.assetid: e53a0d36-3cd4-4327-8969-6a864b38a15b
@@ -66,9 +67,9 @@ The number of shaders to compress.
 
 ### -param pShaderData [in]
 
-Type: [D3D_SHADER_DATA](/windows/win32/api/d3dcompiler/ns-d3dcompiler-d3d_shader_data)a>*</b>
+Type: [D3D_SHADER_DATA](/windows/win32/api/d3dcompiler/ns-d3dcompiler-d3d_shader_data)*</b>
 
-An array of [D3D_SHADER_DATA](/windows/win32/api/d3dcompiler/ns-d3dcompiler-d3d_shader_data)a> structures that describe the set of shaders to compress.
+An array of [D3D_SHADER_DATA](/windows/win32/api/d3dcompiler/ns-d3dcompiler-d3d_shader_data) structures that describe the set of shaders to compress.
 
 
 ### -param uFlags [in]

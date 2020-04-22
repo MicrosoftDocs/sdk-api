@@ -1,7 +1,8 @@
 ---
 UID: NS:opmapi._OPM_SET_PROTECTION_LEVEL_PARAMETERS
 title: OPM_SET_PROTECTION_LEVEL_PARAMETERS (opmapi.h)
-description: Contains data for the OPM_SET_PROTECTION_LEVEL command in Output Protection Manager (OPM).helpviewer_keywords: ["OPM_SET_PROTECTION_LEVEL_PARAMETERS","OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Media Foundation]","mf.opm_set_protection_level_parameters","opmapi/OPM_SET_PROTECTION_LEVEL_PARAMETERS"]
+description: Contains data for the OPM_SET_PROTECTION_LEVEL command in Output Protection Manager (OPM).
+helpviewer_keywords: ["OPM_SET_PROTECTION_LEVEL_PARAMETERS","OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Media Foundation]","mf.opm_set_protection_level_parameters","opmapi/OPM_SET_PROTECTION_LEVEL_PARAMETERS"]
 old-location: mf\opm_set_protection_level_parameters.htm
 tech.root: medfound
 ms.assetid: 074c30b2-ad79-4ace-89fb-859fac016ebf
@@ -115,7 +116,7 @@ Reserved for future use. Set to zero.
 
 
 
-The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/win32/api/dxva9typ/ns-dxva9typ-dxva_coppsetprotectionlevelcmddata">DXVA_COPPSetProtectionLevelCmdData</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="/windows/win32/api/dxva9typ/ns-dxva9typ-dxva_coppsetprotectionlevelcmddata">DXVA_COPPSetProtectionLevelCmdData</a> structure used in Certified Output Protection Protocol (COPP).
 
 
 

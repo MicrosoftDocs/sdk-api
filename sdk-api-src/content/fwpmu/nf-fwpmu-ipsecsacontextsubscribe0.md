@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.IPsecSaContextSubscribe0
 title: IPsecSaContextSubscribe0 function (fwpmu.h)
-description: Is used to request the delivery of notifications regarding a particular IPsec security association (SA) context.helpviewer_keywords: ["IPsecSaContextSubscribe0","IPsecSaContextSubscribe0 function [Filtering]","fwp.ipsecsacontextsubscribe0","fwpmu/IPsecSaContextSubscribe0"]
+description: Is used to request the delivery of notifications regarding a particular IPsec security association (SA) context.
+helpviewer_keywords: ["IPsecSaContextSubscribe0","IPsecSaContextSubscribe0 function [Filtering]","fwp.ipsecsacontextsubscribe0","fwpmu/IPsecSaContextSubscribe0"]
 old-location: fwp\ipsecsacontextsubscribe0.htm
 tech.root: fwp
 ms.assetid: dadb22b2-6b20-401f-b2b5-256135a345b1
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param subscription [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>*</b>
+Type: <b>const <a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>*</b>
 
 The notifications which will be delivered.
 
@@ -166,7 +167,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
  
 
  

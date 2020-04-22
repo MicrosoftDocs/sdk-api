@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleConvertOLESTREAMToIStorage
 title: OleConvertOLESTREAMToIStorage function (ole2.h)
-description: Converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object without specifying presentation data.helpviewer_keywords: ["OleConvertOLESTREAMToIStorage","OleConvertOLESTREAMToIStorage function [Structured Storage]","_stg_oleconvertolestreamtoistorage","ole2/OleConvertOLESTREAMToIStorage","stg.oleconvertolestreamtoistorage"]
+description: Converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object without specifying presentation data.
+helpviewer_keywords: ["OleConvertOLESTREAMToIStorage","OleConvertOLESTREAMToIStorage function [Structured Storage]","_stg_oleconvertolestreamtoistorage","ole2/OleConvertOLESTREAMToIStorage","stg.oleconvertolestreamtoistorage"]
 old-location: stg\oleconvertolestreamtoistorage.htm
 tech.root: Stg
 ms.assetid: 8fed879c-5f97-4450-8259-da9643dd828c
@@ -155,7 +156,7 @@ hRes = OleLoad(pStgChild, &IID_IOleObject, pClientSite, ppvObj);
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a>
+<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a>
 
 
 

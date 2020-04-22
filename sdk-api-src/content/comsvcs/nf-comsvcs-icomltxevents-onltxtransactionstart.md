@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionStart
 title: IComLTxEvents::OnLtxTransactionStart (comsvcs.h)
-description: Generated when a transaction is started.helpviewer_keywords: ["IComLTxEvents interface [COM+]","OnLtxTransactionStart method","IComLTxEvents.OnLtxTransactionStart","IComLTxEvents::OnLtxTransactionStart","OnLtxTransactionStart","OnLtxTransactionStart method [COM+]","OnLtxTransactionStart method [COM+]","IComLTxEvents interface","comsvcs/IComLTxEvents::OnLtxTransactionStart","cos.icomltxevents_onltxtransactionstart"]
+description: Generated when a transaction is started.
+helpviewer_keywords: ["IComLTxEvents interface [COM+]","OnLtxTransactionStart method","IComLTxEvents.OnLtxTransactionStart","IComLTxEvents::OnLtxTransactionStart","OnLtxTransactionStart","OnLtxTransactionStart method [COM+]","OnLtxTransactionStart method [COM+]","IComLTxEvents interface","comsvcs/IComLTxEvents::OnLtxTransactionStart","cos.icomltxevents_onltxtransactionstart"]
 old-location: cos\icomltxevents_onltxtransactionstart.htm
 tech.root: cossdk
 ms.assetid: 0d063e3f-d7f8-45b1-995f-29903c42ec37
@@ -61,7 +62,7 @@ The event ID for this event is EID_LTXSTART.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidLtx [in]

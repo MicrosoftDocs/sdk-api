@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateOrConditionFromArray
 title: IUIAutomation::CreateOrConditionFromArray (uiautomationclient.h)
-description: Creates a combination of two or more conditions where a match exists if any of the conditions is true.helpviewer_keywords: ["CreateOrConditionFromArray","CreateOrConditionFromArray method [Windows Accessibility]","CreateOrConditionFromArray method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateOrConditionFromArray method","IUIAutomation.CreateOrConditionFromArray","IUIAutomation::CreateOrConditionFromArray","uiauto.uiauto_IUIAutomation_CreateOrConditionFromArray","uiauto_IUIAutomation_CreateOrConditionFromArray","uiautomationclient/IUIAutomation::CreateOrConditionFromArray","winauto.uiauto_IUIAutomation_CreateOrConditionFromArray"]
+description: Creates a combination of two or more conditions where a match exists if any of the conditions is true.
+helpviewer_keywords: ["CreateOrConditionFromArray","CreateOrConditionFromArray method [Windows Accessibility]","CreateOrConditionFromArray method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateOrConditionFromArray method","IUIAutomation.CreateOrConditionFromArray","IUIAutomation::CreateOrConditionFromArray","uiauto.uiauto_IUIAutomation_CreateOrConditionFromArray","uiauto_IUIAutomation_CreateOrConditionFromArray","uiautomationclient/IUIAutomation::CreateOrConditionFromArray","winauto.uiauto_IUIAutomation_CreateOrConditionFromArray"]
 old-location: winauto\uiauto_IUIAutomation_CreateOrConditionFromArray.htm
 tech.root: WinAuto
 ms.assetid: acd15fd0-ac15-4477-8e89-4d7a4f9c93c6
@@ -59,7 +60,7 @@ Creates a combination of two or more conditions where a match exists if any of t
 
 ### -param conditions [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 A pointer to the conditions.
 

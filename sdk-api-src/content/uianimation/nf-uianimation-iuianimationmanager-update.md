@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.Update
 title: IUIAnimationManager::Update (uianimation.h)
-description: Updates the values of all animation variables.helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","Update method","IUIAnimationManager.Update","IUIAnimationManager::Update","Update","Update method [Windows Animation]","Update method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_update","uianimation/IUIAnimationManager::Update"]
+description: Updates the values of all animation variables.
+helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","Update method","IUIAnimationManager.Update","IUIAnimationManager::Update","Update","Update method [Windows Animation]","Update method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_update","uianimation/IUIAnimationManager::Update"]
 old-location: uianimation\iuianimationmanager_update.htm
 tech.root: UIAnimation
 ms.assetid: 6008fe44-8d86-4a56-a1e2-7bc144b224b2
@@ -140,11 +141,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_mode">UI_ANIMATION_MODE</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_mode">UI_ANIMATION_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_RESULT</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_RESULT</a>
  
 
  

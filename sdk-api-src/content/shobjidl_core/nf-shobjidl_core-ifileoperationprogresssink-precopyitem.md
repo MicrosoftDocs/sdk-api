@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreCopyItem
 title: IFileOperationProgressSink::PreCopyItem (shobjidl_core.h)
-description: Performs caller-implemented actions before the copy process for each item begins.helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PreCopyItem method","IFileOperationProgressSink.PreCopyItem","IFileOperationProgressSink::PreCopyItem","PreCopyItem","PreCopyItem method [Windows Shell]","PreCopyItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PreCopyItem","shell.IFileOperationProgressSink_PreCopyItem","shobjidl_core/IFileOperationProgressSink::PreCopyItem"]
+description: Performs caller-implemented actions before the copy process for each item begins.
+helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PreCopyItem method","IFileOperationProgressSink.PreCopyItem","IFileOperationProgressSink::PreCopyItem","PreCopyItem","PreCopyItem method [Windows Shell]","PreCopyItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PreCopyItem","shell.IFileOperationProgressSink_PreCopyItem","shobjidl_core/IFileOperationProgressSink::PreCopyItem"]
 old-location: shell\IFileOperationProgressSink_PreCopyItem.htm
 tech.root: shell
 ms.assetid: ee436179-197d-49f6-986c-62a1ea930af5
@@ -61,7 +62,7 @@ Performs caller-implemented actions before the copy process for each item begins
 
 Type: <b>DWORD</b>
 
-bitwise value that contains flags that control the operation. See <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
+bitwise value that contains flags that control the operation. See <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
 
 
 ### -param psiItem [in]

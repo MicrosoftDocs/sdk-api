@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_FIELD_DESCRIPTION
 title: WS_FIELD_DESCRIPTION (webservices.h)
-description: Represents serialization information about a field within a structure.helpviewer_keywords: ["WS_FIELD_DESCRIPTION","WS_FIELD_DESCRIPTION structure [Web Services for Windows]","webservices/WS_FIELD_DESCRIPTION","wsw.ws_field_description"]
+description: Represents serialization information about a field within a structure.
+helpviewer_keywords: ["WS_FIELD_DESCRIPTION","WS_FIELD_DESCRIPTION structure [Web Services for Windows]","webservices/WS_FIELD_DESCRIPTION","wsw.ws_field_description"]
 old-location: wsw\ws_field_description.htm
 tech.root: wsw
 ms.assetid: 8b562fab-f3c5-4732-b993-f7f61ca14ab6
@@ -112,7 +113,7 @@ The offset of the field within the containing structure.
 
 ### -field options
 
-Additional flags for the field.  See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> for 
+Additional flags for the field.  See <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> for 
                     a list of flags.  If no flags are needed, this may be 0.
                 
 
@@ -124,7 +125,7 @@ Points to a default value for the field.  This is used in the following instance
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> was specified, and the XML did not contain
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> was specified, and the XML did not contain
                     the value.
                     </li>
 <li>

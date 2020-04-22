@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.SetRadiiSizes
 title: IXpsOMRadialGradientBrush::SetRadiiSizes (xpsobjectmodel.h)
-description: Sets the sizes of the radii that define ellipse of the radial gradient region.helpviewer_keywords: ["IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","SetRadiiSizes method","IXpsOMRadialGradientBrush.SetRadiiSizes","IXpsOMRadialGradientBrush::SetRadiiSizes","SetRadiiSizes","SetRadiiSizes method [XPS Documents and Packaging]","SetRadiiSizes method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","xps.ixpsomradialgradientbrush_setradiisizes","xpsobjectmodel/IXpsOMRadialGradientBrush::SetRadiiSizes"]
+description: Sets the sizes of the radii that define ellipse of the radial gradient region.
+helpviewer_keywords: ["IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","SetRadiiSizes method","IXpsOMRadialGradientBrush.SetRadiiSizes","IXpsOMRadialGradientBrush::SetRadiiSizes","SetRadiiSizes","SetRadiiSizes method [XPS Documents and Packaging]","SetRadiiSizes method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","xps.ixpsomradialgradientbrush_setradiisizes","xpsobjectmodel/IXpsOMRadialGradientBrush::SetRadiiSizes"]
 old-location: xps\ixpsomradialgradientbrush_setradiisizes.htm
 tech.root: printdocs
 ms.assetid: 2d32c0a7-1069-4c76-ba5c-5978e3fd7125
@@ -59,7 +60,7 @@ Sets the sizes of the radii that define ellipse of the radial gradient region.
 
 ### -param radiiSizes [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that  receives the sizes of the radii.
+The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that  receives the sizes of the radii.
 
 <table>
 <tr>
@@ -121,7 +122,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-One of the sizes described by <i>radiiSizes</i> is not valid. The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure must contain valid, finite, and non-negative floating-point values.
+One of the sizes described by <i>radiiSizes</i> is not valid. The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure must contain valid, finite, and non-negative floating-point values.
 
 </td>
 </tr>
@@ -169,7 +170,7 @@ The following illustration identifies the parts of a radial gradient.    <i>radi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
  
 
  

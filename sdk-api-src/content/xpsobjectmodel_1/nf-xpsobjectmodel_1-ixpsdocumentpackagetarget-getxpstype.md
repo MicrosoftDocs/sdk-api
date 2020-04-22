@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsDocumentPackageTarget.GetXpsType
 title: IXpsDocumentPackageTarget::GetXpsType (xpsobjectmodel_1.h)
-description: Gets the XPS_DOCUMENT_TYPE enumerated value for the document package.helpviewer_keywords: ["GetXpsType","GetXpsType method [XPS Documents and Packaging]","GetXpsType method [XPS Documents and Packaging]","IXpsDocumentPackageTarget interface","IXpsDocumentPackageTarget interface [XPS Documents and Packaging]","GetXpsType method","IXpsDocumentPackageTarget.GetXpsType","IXpsDocumentPackageTarget::GetXpsType","xps.ixpsdocumentpackagetarget_getxpstype","xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsType"]
+description: Gets the XPS_DOCUMENT_TYPE enumerated value for the document package.
+helpviewer_keywords: ["GetXpsType","GetXpsType method [XPS Documents and Packaging]","GetXpsType method [XPS Documents and Packaging]","IXpsDocumentPackageTarget interface","IXpsDocumentPackageTarget interface [XPS Documents and Packaging]","GetXpsType method","IXpsDocumentPackageTarget.GetXpsType","IXpsDocumentPackageTarget::GetXpsType","xps.ixpsdocumentpackagetarget_getxpstype","xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsType"]
 old-location: xps\ixpsdocumentpackagetarget_getxpstype.htm
 tech.root: printdocs
 ms.assetid: A2B2523F-2F07-4331-A8EA-84BB6636B948
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> enumerated value for the document package.
+Gets the <a href="/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> enumerated value for the document package.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/
 
 ### -param documentType [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> enumerated value.
+The <a href="/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> enumerated value.
 
 
 ## -returns
@@ -80,7 +81,7 @@ This method returns an HRESULT value. If the method call fails, it returns the a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a>
+<a href="/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a>
  
 
  

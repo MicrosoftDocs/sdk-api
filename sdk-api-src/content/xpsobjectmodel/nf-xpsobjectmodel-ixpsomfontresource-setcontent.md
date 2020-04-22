@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResource.SetContent
 title: IXpsOMFontResource::SetContent (xpsobjectmodel.h)
-description: Sets the read-only stream to be associated with this resource.helpviewer_keywords: ["IXpsOMFontResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMFontResource.SetContent","IXpsOMFontResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMFontResource interface","XPS_FONT_EMBEDDING_NORMAL","XPS_FONT_EMBEDDING_OBFUSCATED","XPS_FONT_EMBEDDING_RESTRICTED","xps.ixpsomfontresource_setcontent","xpsobjectmodel/IXpsOMFontResource::SetContent"]
+description: Sets the read-only stream to be associated with this resource.
+helpviewer_keywords: ["IXpsOMFontResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMFontResource.SetContent","IXpsOMFontResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMFontResource interface","XPS_FONT_EMBEDDING_NORMAL","XPS_FONT_EMBEDDING_OBFUSCATED","XPS_FONT_EMBEDDING_RESTRICTED","xps.ixpsomfontresource_setcontent","xpsobjectmodel/IXpsOMFontResource::SetContent"]
 old-location: xps\ixpsomfontresource_setcontent.htm
 tech.root: printdocs
 ms.assetid: 87a9d003-9406-4c94-b814-4986d213ee47
@@ -64,7 +65,7 @@ The read-only stream to be associated with this resource.
 
 ### -param embeddingOption [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a> value that describes how the resource is to be obfuscated.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a> value that describes how the resource is to be obfuscated.
 
 <table>
 <tr>
@@ -153,7 +154,7 @@ Because <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a>
  
 
  

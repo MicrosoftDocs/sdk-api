@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerCollabEnumObjects
 title: PeerCollabEnumObjects function (p2p.h)
-description: Returns the handle to an enumeration that contains the peer objects associated with a specific peer's endpoint.helpviewer_keywords: ["PeerCollabEnumObjects","PeerCollabEnumObjects function [Peer Networking]","p2p.peercollabenumobjects","p2p/PeerCollabEnumObjects"]
+description: Returns the handle to an enumeration that contains the peer objects associated with a specific peer's endpoint.
+helpviewer_keywords: ["PeerCollabEnumObjects","PeerCollabEnumObjects function [Peer Networking]","p2p.peercollabenumobjects","p2p/PeerCollabEnumObjects"]
 old-location: p2p\peercollabenumobjects.htm
 tech.root: P2PSdk
 ms.assetid: a9ac2603-b007-4d1c-ac11-c72aeb06e663
@@ -163,7 +164,7 @@ If the user is publishing a picture, the picture can be obtained by retrieving t
 
 
 
-[PEER_CONTACT](/windows/win32/api/p2p/ns-p2p-peer_contact)a>
+[PEER_CONTACT](/windows/win32/api/p2p/ns-p2p-peer_contact)
 
 
 

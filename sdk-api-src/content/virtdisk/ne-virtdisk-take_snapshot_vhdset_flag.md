@@ -1,7 +1,8 @@
 ---
 UID: NE:virtdisk._TAKE_SNAPSHOT_VHDSET_FLAG
 title: TAKE_SNAPSHOT_VHDSET_FLAG (virtdisk.h)
-description: Contains flags affecting the behavior of the TakeSnapshotVhdSet function.helpviewer_keywords: ["*PTAKE_SNAPSHOT_VHDSET_FLAG","PTAKE_SNAPSHOT_VHDSET_FLAG","PTAKE_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD]","TAKE_SNAPSHOT_VHDSET_FLAG","TAKE_SNAPSHOT_VHDSET_FLAG enumeration [VHD]","TAKE_SNAPSHOT_VHDSET_FLAG_NONE","vdssys/ TAKE_SNAPSHOT_VHDSET_FLAG_NONE","vdssys/PTAKE_SNAPSHOT_VHDSET_FLAG","vdssys/TAKE_SNAPSHOT_VHDSET_FLAG","vhd.take_snapshot_vhdset_flag","virtdisk/ TAKE_SNAPSHOT_VHDSET_FLAG_NONE","virtdisk/PTAKE_SNAPSHOT_VHDSET_FLAG","virtdisk/TAKE_SNAPSHOT_VHDSET_FLAG"]
+description: Contains flags affecting the behavior of the TakeSnapshotVhdSet function.
+helpviewer_keywords: ["*PTAKE_SNAPSHOT_VHDSET_FLAG","PTAKE_SNAPSHOT_VHDSET_FLAG","PTAKE_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD]","TAKE_SNAPSHOT_VHDSET_FLAG","TAKE_SNAPSHOT_VHDSET_FLAG enumeration [VHD]","TAKE_SNAPSHOT_VHDSET_FLAG_NONE","vdssys/ TAKE_SNAPSHOT_VHDSET_FLAG_NONE","vdssys/PTAKE_SNAPSHOT_VHDSET_FLAG","vdssys/TAKE_SNAPSHOT_VHDSET_FLAG","vhd.take_snapshot_vhdset_flag","virtdisk/ TAKE_SNAPSHOT_VHDSET_FLAG_NONE","virtdisk/PTAKE_SNAPSHOT_VHDSET_FLAG","virtdisk/TAKE_SNAPSHOT_VHDSET_FLAG"]
 old-location: vhd\take_snapshot_vhdset_flag.htm
 tech.root: VStor
 ms.assetid: 2A714FFB-E462-418E-B0AC-E7929619604B
@@ -52,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Contains flags affecting the behavior of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-takesnapshotvhdset">TakeSnapshotVhdSet</a> function.
+Contains flags affecting the behavior of the <a href="/windows/win32/api/virtdisk/nf-virtdisk-takesnapshotvhdset">TakeSnapshotVhdSet</a> function.
 
 
 ## -enum-fields

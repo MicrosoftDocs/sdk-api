@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnDeviceStatusChange
 title: _IFaxServerNotify2::OnDeviceStatusChange (faxcomex.h)
-description: The fax service calls the IFaxServerNotify2::OnDeviceStatusChange method when there is a change to a fax device status.helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnDeviceStatusChange method","IFaxServerNotify2.OnDeviceStatusChange","IFaxServerNotify2::OnDeviceStatusChange","OnDeviceStatusChange","OnDeviceStatusChange method [Fax Service]","OnDeviceStatusChange method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnDeviceStatusChange","_IFaxServerNotify2::OnDeviceStatusChange","_mfax_ifaxservernotify2_ondevicestatuschange","fax._mfax_ifaxservernotify2_ondevicestatuschange","faxcomex/IFaxServerNotify2::OnDeviceStatusChange"]
+description: The fax service calls the IFaxServerNotify2::OnDeviceStatusChange method when there is a change to a fax device status.
+helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnDeviceStatusChange method","IFaxServerNotify2.OnDeviceStatusChange","IFaxServerNotify2::OnDeviceStatusChange","OnDeviceStatusChange","OnDeviceStatusChange method [Fax Service]","OnDeviceStatusChange method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnDeviceStatusChange","_IFaxServerNotify2::OnDeviceStatusChange","_mfax_ifaxservernotify2_ondevicestatuschange","fax._mfax_ifaxservernotify2_ondevicestatuschange","faxcomex/IFaxServerNotify2::OnDeviceStatusChange"]
 old-location: fax\_mfax_ifaxservernotify2_ondevicestatuschange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_ondevicestatuschange.htm
@@ -125,7 +126,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
+<a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
  
 
  

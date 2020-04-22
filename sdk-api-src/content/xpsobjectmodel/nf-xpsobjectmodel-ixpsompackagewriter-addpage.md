@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.AddPage
 title: IXpsOMPackageWriter::AddPage (xpsobjectmodel.h)
-description: Writes a new FixedPage part to the currently open FixedDocument part in the package.helpviewer_keywords: ["AddPage","AddPage method [XPS Documents and Packaging]","AddPage method [XPS Documents and Packaging]","IXpsOMPackageWriter interface","AddPage method [XPS Documents and Packaging]","IXpsOMPackageWriter3D interface","IXpsOMPackageWriter interface [XPS Documents and Packaging]","AddPage method","IXpsOMPackageWriter.AddPage","IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","AddPage method","IXpsOMPackageWriter3D::AddPage","IXpsOMPackageWriter::AddPage","xps.ixpsompackagewriter_addpage","xpsobjectmodel/IXpsOMPackageWriter3D::AddPage","xpsobjectmodel/IXpsOMPackageWriter::AddPage"]
+description: Writes a new FixedPage part to the currently open FixedDocument part in the package.
+helpviewer_keywords: ["AddPage","AddPage method [XPS Documents and Packaging]","AddPage method [XPS Documents and Packaging]","IXpsOMPackageWriter interface","AddPage method [XPS Documents and Packaging]","IXpsOMPackageWriter3D interface","IXpsOMPackageWriter interface [XPS Documents and Packaging]","AddPage method","IXpsOMPackageWriter.AddPage","IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","AddPage method","IXpsOMPackageWriter3D::AddPage","IXpsOMPackageWriter::AddPage","xps.ixpsompackagewriter_addpage","xpsobjectmodel/IXpsOMPackageWriter3D::AddPage","xpsobjectmodel/IXpsOMPackageWriter::AddPage"]
 old-location: xps\ixpsompackagewriter_addpage.htm
 tech.root: printdocs
 ms.assetid: d7ea638d-f95c-4d72-8f55-cbb6a7d1ae8d
@@ -65,7 +66,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xp
 
 ### -param advisoryPageDimensions [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that contains page dimensions.
+The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that contains page dimensions.
 
 Size is described in XPS units. There are 96 XPS units per inch.  For example, the dimensions of an 8.5" by 11.0" page are 816 by 1,056 XPS units.
 
@@ -221,7 +222,7 @@ If <i>pagePrintTicket</i> contains a <b>NULL</b> pointer and the package writer 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
  
 
  

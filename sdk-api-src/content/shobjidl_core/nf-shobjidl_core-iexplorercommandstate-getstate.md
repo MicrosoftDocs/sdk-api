@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommandState.GetState
 title: IExplorerCommandState::GetState (shobjidl_core.h)
-description: Gets the command state associated with a specified Shell item.helpviewer_keywords: ["GetState","GetState method [Windows Shell]","GetState method [Windows Shell]","IExplorerCommandState interface","IExplorerCommandState interface [Windows Shell]","GetState method","IExplorerCommandState.GetState","IExplorerCommandState::GetState","_shell_IExplorerCommandState_GetState","shell.IExplorerCommandState_GetState","shobjidl_core/IExplorerCommandState::GetState"]
+description: Gets the command state associated with a specified Shell item.
+helpviewer_keywords: ["GetState","GetState method [Windows Shell]","GetState method [Windows Shell]","IExplorerCommandState interface","IExplorerCommandState interface [Windows Shell]","GetState method","IExplorerCommandState.GetState","IExplorerCommandState::GetState","_shell_IExplorerCommandState_GetState","shell.IExplorerCommandState_GetState","shobjidl_core/IExplorerCommandState::GetState"]
 old-location: shell\IExplorerCommandState_GetState.htm
 tech.root: shell
 ms.assetid: a93bc6af-bea3-48c1-b3bd-a2bb2a0582a7
@@ -73,9 +74,9 @@ Type: <b>BOOL</b>
 
 ### -param pCmdState [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_expcmdstate">EXPCMDSTATE</a>*</b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_expcmdstate">EXPCMDSTATE</a>*</b>
 
-A pointer to a value that, when this method returns successfully, receives one or more Windows Explorer command states indicated by the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_expcmdstate">EXPCMDSTATE</a> constants.
+A pointer to a value that, when this method returns successfully, receives one or more Windows Explorer command states indicated by the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_expcmdstate">EXPCMDSTATE</a> constants.
 
 
 ## -returns

@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetSigningTimeFormat
 title: IXpsSigningOptions::GetSigningTimeFormat (xpsdigitalsignature.h)
-description: Gets the format of the signing time string.helpviewer_keywords: ["GetSigningTimeFormat","GetSigningTimeFormat method [XPS Documents and Packaging]","GetSigningTimeFormat method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetSigningTimeFormat method","IXpsSigningOptions.GetSigningTimeFormat","IXpsSigningOptions::GetSigningTimeFormat","xps.ixpssigningoptions_getsigningtimeformat","xpsdigitalsignature/IXpsSigningOptions::GetSigningTimeFormat"]
+description: Gets the format of the signing time string.
+helpviewer_keywords: ["GetSigningTimeFormat","GetSigningTimeFormat method [XPS Documents and Packaging]","GetSigningTimeFormat method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetSigningTimeFormat method","IXpsSigningOptions.GetSigningTimeFormat","IXpsSigningOptions::GetSigningTimeFormat","xps.ixpssigningoptions_getsigningtimeformat","xpsdigitalsignature/IXpsSigningOptions::GetSigningTimeFormat"]
 old-location: xps\ixpssigningoptions_getsigningtimeformat.htm
 tech.root: printdocs
 ms.assetid: 79af4463-1651-44d2-9143-b1f922ba5cfb
@@ -59,7 +60,7 @@ Gets the format of the signing time string.
 
 ### -param timeFormat [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a> value that specifies the format of the signing time string.
+The <a href="/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a> value that specifies the format of the signing time string.
 
 
 ## -returns
@@ -75,7 +76,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-For more information about the format of the date-time string that is passed in <i>timeFormat</i>, see <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>.
+For more information about the format of the date-time string that is passed in <i>timeFormat</i>, see <a href="/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>.
 
 If a signing time format has not been set,  <b>OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS</b> will be used as the default format.
 
@@ -95,7 +96,7 @@ If a signing time format has not been set,  <b>OPC_SIGNATURE_TIME_FORMAT_MILLISE
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmFilterEnum0
 title: FwpmFilterEnum0 function (fwpmu.h)
-description: Returns the next page of results from the filter enumerator.helpviewer_keywords: ["FwpmFilterEnum0","FwpmFilterEnum0 function [Filtering]","fwp.fwpmfilterenum0_func","fwpmu/FwpmFilterEnum0"]
+description: Returns the next page of results from the filter enumerator.
+helpviewer_keywords: ["FwpmFilterEnum0","FwpmFilterEnum0 function [Filtering]","fwp.fwpmfilterenum0_func","fwpmu/FwpmFilterEnum0"]
 old-location: fwp\fwpmfilterenum0_func.htm
 tech.root: fwp
 ms.assetid: ced06ffd-668f-4d2b-b727-b705ad6a3149
@@ -80,7 +81,7 @@ The number of filter objects requested.
 
 ### -param entries [out]
 
-Type: [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)a>***</b>
+Type: [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)***</b>
 
 Addresses of enumeration entries.
 
@@ -167,7 +168,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-[FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)a>
+[FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)
 
 
 

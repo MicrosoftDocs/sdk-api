@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmIPsecTunnelAdd2
 title: FwpmIPsecTunnelAdd2 function (fwpmu.h)
-description: Adds a new Internet Protocol Security (IPsec) tunnel mode policy to the system.helpviewer_keywords: ["FWPM_TUNNEL_FLAG_ENABLE_VIRTUAL_IF_TUNNELING","FWPM_TUNNEL_FLAG_POINT_TO_POINT","FwpmIPsecTunnelAdd2","FwpmIPsecTunnelAdd2 function [Filtering]","fwp.fwpmipsectunneladd2","fwpmu/FwpmIPsecTunnelAdd2"]
+description: Adds a new Internet Protocol Security (IPsec) tunnel mode policy to the system.
+helpviewer_keywords: ["FWPM_TUNNEL_FLAG_ENABLE_VIRTUAL_IF_TUNNELING","FWPM_TUNNEL_FLAG_POINT_TO_POINT","FwpmIPsecTunnelAdd2","FwpmIPsecTunnelAdd2 function [Filtering]","fwp.fwpmipsectunneladd2","fwpmu/FwpmIPsecTunnelAdd2"]
 old-location: fwp\fwpmipsectunneladd2.htm
 tech.root: fwp
 ms.assetid: 32c7d472-4904-46d3-b50e-08eaa0e06df0
@@ -101,14 +102,14 @@ Enables virtual interface-based IPsec tunnel mode.
 
 ### -param mainModePolicy [in, optional]
 
-Type: [FWPM_PROVIDER_CONTEXT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2)a>*</b>
+Type: [FWPM_PROVIDER_CONTEXT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2)*</b>
 
 The Main Mode policy for the IPsec tunnel.
 
 
 ### -param tunnelPolicy [in]
 
-Type: [FWPM_PROVIDER_CONTEXT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2)a>*</b>
+Type: [FWPM_PROVIDER_CONTEXT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2)*</b>
 
 The Quick Mode policy for the IPsec tunnel.
 
@@ -122,7 +123,7 @@ Number of filter conditions present in the <i>filterConditions</i> parameter.
 
 ### -param filterConditions [in]
 
-Type: [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a>*</b>
+Type: [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)*</b>
 
 Array of filter conditions that describe the traffic which should be tunneled by IPsec.
 
@@ -224,11 +225,11 @@ with <b>FWP_E_INCOMPATIBLE_TXN</b>.  See <a href="https://docs.microsoft.com/win
 
 
 
-[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a>
+[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)
 
 
 
-[FWPM_PROVIDER_CONTEXT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2)a>
+[FWPM_PROVIDER_CONTEXT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2)
 
 
 

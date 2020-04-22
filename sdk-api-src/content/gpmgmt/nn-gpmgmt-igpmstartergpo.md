@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMStarterGPO
 title: IGPMStarterGPO (gpmgmt.h)
-description: The IGPMStarterGPO interface supports methods that enable you to manage Starter Group Policy Objects (GPOs) in the directory service.helpviewer_keywords: ["IGPMStarterGPO","IGPMStarterGPO interface [GPMC]","IGPMStarterGPO interface [GPMC]","described","gpmc.igpmstartergpo","gpmgmt/IGPMStarterGPO"]
+description: The IGPMStarterGPO interface supports methods that enable you to manage Starter Group Policy Objects (GPOs) in the directory service.
+helpviewer_keywords: ["IGPMStarterGPO","IGPMStarterGPO interface [GPMC]","IGPMStarterGPO interface [GPMC]","described","gpmc.igpmstartergpo","gpmgmt/IGPMStarterGPO"]
 old-location: gpmc\igpmstartergpo.htm
 tech.root: gpmc
 ms.assetid: 5ce7a7b4-e1c0-4e76-98c2-41462ec4ea17
@@ -348,7 +349,7 @@ The <b>IGPMStarterGPO</b> interface has three properties that do not have a coun
 <li>The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Product</a> 
      property contains the name of the product that the Template is designed to manage.  For example a Template might ship to configure MS Office.  This attribute is applicable to System Templates.  For custom Templates this attribute will be blank.  This attribute is read-only.</li>
 <li>The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Type</a> 
-     property is an enum value,  <a href="https://docs.microsoft.com/windows/win32/api/gpmgmt/ne-gpmgmt-gpmstartergpotype">GPMStarterGPOType</a>, that specifies the type of the attribute.  The Type may be either a system  Starter Group Policy object or a custom Starter Group Policy object.</li>
+     property is an enum value,  <a href="/windows/win32/api/gpmgmt/ne-gpmgmt-gpmstartergpotype">GPMStarterGPOType</a>, that specifies the type of the attribute.  The Type may be either a system  Starter Group Policy object or a custom Starter Group Policy object.</li>
 </ul>
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-save">Save</a> method has no corresponding method in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo2">IGPMGPO2</a> interface.  The <b>Save</b> method will generate a CAB file containing all the contents of a single Starter GPO.  The objective of this method is to allow a user to save a Starter GPO in a form that can be easily redistributed. There is no way to create a CAB file containing multiple Starter GPOs.
 

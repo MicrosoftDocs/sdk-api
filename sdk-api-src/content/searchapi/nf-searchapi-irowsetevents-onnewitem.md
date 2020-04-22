@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnNewItem
 title: IRowsetEvents::OnNewItem (searchapi.h)
-description: Called by the indexer to notify clients of a new item that may match some (or all) of the criteria for the client rowset.helpviewer_keywords: ["IRowsetEvents interface [search]","OnNewItem method","IRowsetEvents.OnNewItem","IRowsetEvents::OnNewItem","OnNewItem","OnNewItem method [search]","OnNewItem method [search]","IRowsetEvents interface","_search_IRowsetEvents_OnNewItem","search._search_IRowsetEvents_OnNewItem","searchapi/IRowsetEvents::OnNewItem"]
+description: Called by the indexer to notify clients of a new item that may match some (or all) of the criteria for the client rowset.
+helpviewer_keywords: ["IRowsetEvents interface [search]","OnNewItem method","IRowsetEvents.OnNewItem","IRowsetEvents::OnNewItem","OnNewItem","OnNewItem method [search]","OnNewItem method [search]","IRowsetEvents interface","_search_IRowsetEvents_OnNewItem","search._search_IRowsetEvents_OnNewItem","searchapi/IRowsetEvents::OnNewItem"]
 old-location: search\_search_IRowsetEvents_OnNewItem.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onnewitem.htm
@@ -69,9 +70,9 @@ The new item that may match the original search criteria of the rowset.
 
 ### -param newItemState [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a></b>
+Type: <b><a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a></b>
 
-Specifies whether the new item matches all or some of the criteria for your rowset, as a <a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a> enumeration.
+Specifies whether the new item matches all or some of the criteria for your rowset, as a <a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a> enumeration.
         
 
 
@@ -90,7 +91,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a> indicates the degree to which the new item may match the original search criteria of a rowset:
+The <a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a> indicates the degree to which the new item may match the original search criteria of a rowset:
         
 
 <ul>
@@ -122,19 +123,19 @@ The <a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
 
 
 

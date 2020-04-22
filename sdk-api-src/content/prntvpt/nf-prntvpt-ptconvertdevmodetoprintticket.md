@@ -1,7 +1,8 @@
 ---
 UID: NF:prntvpt.PTConvertDevModeToPrintTicket
 title: PTConvertDevModeToPrintTicket function (prntvpt.h)
-description: Converts a DEVMODE structure to a print ticket inside an IStream.helpviewer_keywords: ["PTConvertDevModeToPrintTicket","PTConvertDevModeToPrintTicket function [Windows GDI]","_win32_PTConvertDevModeToPrintTicket","gdi.ptconvertdevmodetoprintticket","prntvpt/PTConvertDevModeToPrintTicket"]
+description: Converts a DEVMODE structure to a print ticket inside an IStream.
+helpviewer_keywords: ["PTConvertDevModeToPrintTicket","PTConvertDevModeToPrintTicket function [Windows GDI]","_win32_PTConvertDevModeToPrintTicket","gdi.ptconvertdevmodetoprintticket","prntvpt/PTConvertDevModeToPrintTicket"]
 old-location: gdi\ptconvertdevmodetoprintticket.htm
 tech.root: printdocs
 ms.assetid: 22ebb9e7-10c6-4512-b749-d61f74bc82ed
@@ -50,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure to a print ticket inside an <a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream</a>.
+Converts a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure to a print ticket inside an <a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream</a>.
 
 
 ## -parameters
@@ -65,12 +66,12 @@ A handle to an open print ticket provider. This handle is returned by the <a hre
 
 ### -param cbDevmode
 
-The size of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> in bytes.
+The size of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> in bytes.
 
 
 ### -param pDevmode [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>.
+A pointer to the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>.
 
 
 ### -param scope [in]

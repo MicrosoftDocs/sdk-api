@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetError
 title: IBackgroundCopyError::GetError (bits.h)
-description: Retrieves the error code and identify the context in which the error occurred.helpviewer_keywords: ["GetError","GetError method [BITS]","GetError method [BITS]","IBackgroundCopyError interface","IBackgroundCopyError interface [BITS]","GetError method","IBackgroundCopyError.GetError","IBackgroundCopyError::GetError","_drz_ibackgroundcopyerror_geterror","bits.ibackgroundcopyerror_geterror","bits/IBackgroundCopyError::GetError"]
+description: Retrieves the error code and identify the context in which the error occurred.
+helpviewer_keywords: ["GetError","GetError method [BITS]","GetError method [BITS]","IBackgroundCopyError interface","IBackgroundCopyError interface [BITS]","GetError method","IBackgroundCopyError.GetError","IBackgroundCopyError::GetError","_drz_ibackgroundcopyerror_geterror","bits.ibackgroundcopyerror_geterror","bits/IBackgroundCopyError::GetError"]
 old-location: bits\ibackgroundcopyerror_geterror.htm
 tech.root: Bits
 ms.assetid: abdf115d-3ff2-4664-b053-f55872ad24ab
@@ -60,7 +61,7 @@ Retrieves the error code and identify the context in which the error occurred.
 ### -param pContext [out]
 
 Context in which the error occurred. For a list of context values, see the 
-[BG_ERROR_CONTEXT](/windows/win32/api/bits/ne-bits-bg_error_context)a> enumeration.
+[BG_ERROR_CONTEXT](/windows/win32/api/bits/ne-bits-bg_error_context) enumeration.
 
 
 ### -param pCode [out]

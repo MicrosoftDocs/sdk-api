@@ -1,7 +1,8 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InputAreaChanging
 title: ITextInputPanelEventSink::InputAreaChanging (peninputpanel.h)
-description: Occurs when the input area is about to change on the Tablet PC Input Panel.helpviewer_keywords: ["ITextInputPanelEventSink interface [Tablet PC]","InputAreaChanging method","ITextInputPanelEventSink.InputAreaChanging","ITextInputPanelEventSink::InputAreaChanging","InputAreaChanging","InputAreaChanging method [Tablet PC]","InputAreaChanging method [Tablet PC]","ITextInputPanelEventSink interface","e5f96798-2428-4acd-9d9a-addfdf14bb84","peninputpanel/ITextInputPanelEventSink::InputAreaChanging","tablet.itextinputpaneleventsink_inputareachanging"]
+description: Occurs when the input area is about to change on the Tablet PC Input Panel.
+helpviewer_keywords: ["ITextInputPanelEventSink interface [Tablet PC]","InputAreaChanging method","ITextInputPanelEventSink.InputAreaChanging","ITextInputPanelEventSink::InputAreaChanging","InputAreaChanging","InputAreaChanging method [Tablet PC]","InputAreaChanging method [Tablet PC]","ITextInputPanelEventSink interface","e5f96798-2428-4acd-9d9a-addfdf14bb84","peninputpanel/ITextInputPanelEventSink::InputAreaChanging","tablet.itextinputpaneleventsink_inputareachanging"]
 old-location: tablet\itextinputpaneleventsink_inputareachanging.htm
 tech.root: tablet
 ms.assetid: e5f96798-2428-4acd-9d9a-addfdf14bb84
@@ -62,12 +63,12 @@ Occurs when the input area is about to change on the Tablet PC Input Panel.
 
 ### -param oldInputArea [in]
 
-The current input area as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
+The current input area as defined by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
 
 
 ### -param newInputArea [in]
 
-The input area the Input Panel is changing to as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
+The input area the Input Panel is changing to as defined by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
 
 
 ## -returns

@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwProducts.Register
 title: INetFwProducts::Register (netfw.h)
-description: The Register method registers a third-party firewall product.helpviewer_keywords: ["INetFwProducts interface [ICS/ICF]","Register method","INetFwProducts.Register","INetFwProducts::Register","Register","Register method [ICS/ICF]","Register method [ICS/ICF]","INetFwProducts interface","ics.inetfwproducts_register","netfw/INetFwProducts::Register"]
+description: The Register method registers a third-party firewall product.
+helpviewer_keywords: ["INetFwProducts interface [ICS/ICF]","Register method","INetFwProducts.Register","INetFwProducts::Register","Register","Register method [ICS/ICF]","Register method [ICS/ICF]","INetFwProducts interface","ics.inetfwproducts_register","netfw/INetFwProducts::Register"]
 old-location: ics\inetfwproducts_register.htm
 tech.root: ics
 ms.assetid: eea30680-f1c7-454d-896c-5116209fdc2c
@@ -149,7 +150,7 @@ Registrations only last for the lifetime of the Windows Firewall service. Third-
 
 Registrations are removed when a returned registration object is released by the third-party firewall or when the third-party firewall process exits.
 
-A user mode code module using this API should be linked with the /integritycheck linker flag. This flag sets  <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_optional_header32">IMAGE_DLLCHARACTERISTICS_FORCE_INTEGRITY</a> in the image PE header OptionalHeader.DllCharacteristics field, which  enforces a signature check at load time.  The code module should be digitally signed, consistent with the Authenticode signing procedure.
+A user mode code module using this API should be linked with the /integritycheck linker flag. This flag sets  <a href="/windows/win32/api/winnt/ns-winnt-image_optional_header32">IMAGE_DLLCHARACTERISTICS_FORCE_INTEGRITY</a> in the image PE header OptionalHeader.DllCharacteristics field, which  enforces a signature check at load time.  The code module should be digitally signed, consistent with the Authenticode signing procedure.
 
 
 

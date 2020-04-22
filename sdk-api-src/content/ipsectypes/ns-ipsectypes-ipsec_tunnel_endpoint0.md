@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_TUNNEL_ENDPOINT0_
 title: IPSEC_TUNNEL_ENDPOINT0 (ipsectypes.h)
-description: Used to store address information for an end point of a tunnel mode SA.helpviewer_keywords: ["IPSEC_TUNNEL_ENDPOINT0","IPSEC_TUNNEL_ENDPOINT0 structure [Filtering]","fwp.ipsec_tunnel_endpoint0","ipsectypes/IPSEC_TUNNEL_ENDPOINT0"]
+description: Used to store address information for an end point of a tunnel mode SA.
+helpviewer_keywords: ["IPSEC_TUNNEL_ENDPOINT0","IPSEC_TUNNEL_ENDPOINT0 structure [Filtering]","fwp.ipsec_tunnel_endpoint0","ipsectypes/IPSEC_TUNNEL_ENDPOINT0"]
 old-location: fwp\ipsec_tunnel_endpoint0.htm
 tech.root: fwp
 ms.assetid: e536e9b0-1128-4548-9461-3cdeba509873
@@ -59,7 +60,7 @@ The <b>IPSEC_TUNNEL_ENDPOINT0</b> structure is used to store address information
 
 ### -field ipVersion
 
-Type: [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a></b>
+Type: [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)</b>
 
 Specifies the IP version. In tunnel mode, this is the version of the outer header.
 
@@ -113,11 +114,11 @@ case(FWP_IP_VERSION_V6)
 
 
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>
+[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
 
 
-[IPSEC_TUNNEL_ENDPOINTS2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)a>
+[IPSEC_TUNNEL_ENDPOINTS2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)
 
 
 

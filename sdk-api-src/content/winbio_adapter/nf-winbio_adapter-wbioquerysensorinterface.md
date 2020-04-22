@@ -1,7 +1,8 @@
 ---
 UID: NF:winbio_adapter.WbioQuerySensorInterface
 title: WbioQuerySensorInterface function (winbio_adapter.h)
-description: Retrieves a pointer to the WINBIO_SENSOR_INTERFACE structure for the sensor adapter.helpviewer_keywords: ["WbioQuerySensorInterface","WbioQuerySensorInterface function [Windows Biometric Framework API]","secbiomet.wbioquerysensorinterface","winbio_adapter/WbioQuerySensorInterface"]
+description: Retrieves a pointer to the WINBIO_SENSOR_INTERFACE structure for the sensor adapter.
+helpviewer_keywords: ["WbioQuerySensorInterface","WbioQuerySensorInterface function [Windows Biometric Framework API]","secbiomet.wbioquerysensorinterface","winbio_adapter/WbioQuerySensorInterface"]
 old-location: secbiomet\wbioquerysensorinterface.htm
 tech.root: SecBioMet
 ms.assetid: 83ca38e1-3258-4676-bcdd-4876ec8f3ae1
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a> structure for the sensor adapter.
+Retrieves a pointer to the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a> structure for the sensor adapter.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/win32/api
 
 ### -param SensorInterface [out]
 
-Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a> structure.
+Address of a variable that receives a pointer to the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a> structure.
 
 
 ## -returns

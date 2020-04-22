@@ -1,7 +1,8 @@
 ---
 UID: NN:manipulations._IManipulationEvents
 title: _IManipulationEvents (manipulations.h)
-description: Handles manipulation and inertia events.helpviewer_keywords: ["_IManipulationEvents","_IManipulationEvents interface [Windows Touch]","_IManipulationEvents interface [Windows Touch]","described","manipulations/_IManipulationEvents","wintouch._imanipulationevents"]
+description: Handles manipulation and inertia events.
+helpviewer_keywords: ["_IManipulationEvents","_IManipulationEvents interface [Windows Touch]","_IManipulationEvents interface [Windows Touch]","described","manipulations/_IManipulationEvents","wintouch._imanipulationevents"]
 old-location: wintouch\_imanipulationevents.htm
 tech.root: wintouch
 ms.assetid: be392a13-3165-44ff-bcd6-ed0075c669c4
@@ -69,7 +70,7 @@ The <b>_IManipulationEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a>
+<a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a>
 </td>
 <td align="left" width="63%">
 Handles the event when manipulation or inertia finishes.
@@ -78,7 +79,7 @@ Handles the event when manipulation or inertia finishes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta">ManipulationDelta</a>
+<a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta">ManipulationDelta</a>
 </td>
 <td align="left" width="63%">
 Handles events that happen when a manipulated object changes.
@@ -87,7 +88,7 @@ Handles events that happen when a manipulated object changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted">ManipulationStarted</a>
+<a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted">ManipulationStarted</a>
 </td>
 <td align="left" width="63%">
 Handles the event when manipulation or inertia begins.

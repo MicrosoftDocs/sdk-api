@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCreateFile
 title: MFCreateFile function (mfapi.h)
-description: Creates a byte stream from a file.helpviewer_keywords: ["29269ea4-151f-4819-ae49-9f1c13a901e5","MFCreateFile","MFCreateFile function [Media Foundation]","mf.mfcreatefile","mfapi/MFCreateFile"]
+description: Creates a byte stream from a file.
+helpviewer_keywords: ["29269ea4-151f-4819-ae49-9f1c13a901e5","MFCreateFile","MFCreateFile function [Media Foundation]","mf.mfcreatefile","mfapi/MFCreateFile"]
 old-location: mf\mfcreatefile.htm
 tech.root: medfound
 ms.assetid: 29269ea4-151f-4819-ae49-9f1c13a901e5
@@ -60,19 +61,19 @@ Creates a byte stream from a file.
 
 ### -param AccessMode
 
-The requested access mode, specified as a member of the <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ne-mfobjects-mf_file_accessmode">MF_FILE_ACCESSMODE</a> enumeration.
+The requested access mode, specified as a member of the <a href="/windows/win32/api/mfobjects/ne-mfobjects-mf_file_accessmode">MF_FILE_ACCESSMODE</a> enumeration.
           
 
 
 ### -param OpenMode
 
-The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ne-mfobjects-mf_file_openmode">MF_FILE_OPENMODE</a> enumeration.
+The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="/windows/win32/api/mfobjects/ne-mfobjects-mf_file_openmode">MF_FILE_OPENMODE</a> enumeration.
           
 
 
 ### -param fFlags
 
-Bitwise <b>OR</b> of values from the <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ne-mfobjects-mf_file_flags">MF_FILE_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of values from the <a href="/windows/win32/api/mfobjects/ne-mfobjects-mf_file_flags">MF_FILE_FLAGS</a> enumeration.
           
 
 

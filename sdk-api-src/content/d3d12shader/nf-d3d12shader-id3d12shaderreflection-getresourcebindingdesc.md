@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetResourceBindingDesc
 title: ID3D12ShaderReflection::GetResourceBindingDesc (d3d12shader.h)
-description: Gets a description of how a resource is bound to a shader.helpviewer_keywords: ["GetResourceBindingDesc","GetResourceBindingDesc method","GetResourceBindingDesc method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetResourceBindingDesc method","ID3D12ShaderReflection.GetResourceBindingDesc","ID3D12ShaderReflection::GetResourceBindingDesc","d3d12shader/ID3D12ShaderReflection::GetResourceBindingDesc","direct3d12.id3d12shaderreflection_getresourcebindingdesc"]
+description: Gets a description of how a resource is bound to a shader.
+helpviewer_keywords: ["GetResourceBindingDesc","GetResourceBindingDesc method","GetResourceBindingDesc method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetResourceBindingDesc method","ID3D12ShaderReflection.GetResourceBindingDesc","ID3D12ShaderReflection::GetResourceBindingDesc","d3d12shader/ID3D12ShaderReflection::GetResourceBindingDesc","direct3d12.id3d12shaderreflection_getresourcebindingdesc"]
 old-location: direct3d12\id3d12shaderreflection_getresourcebindingdesc.htm
 tech.root: direct3d12
 ms.assetid: 3E9A168D-CD9E-4256-9E0B-19B9295E511E
@@ -68,9 +69,9 @@ A zero-based resource index.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc">D3D12_SHADER_INPUT_BIND_DESC</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc">D3D12_SHADER_INPUT_BIND_DESC</a>*</b>
 
-A pointer to an input-binding description. See <a href="https://docs.microsoft.com/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc">D3D12_SHADER_INPUT_BIND_DESC</a>.
+A pointer to an input-binding description. See <a href="/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc">D3D12_SHADER_INPUT_BIND_DESC</a>.
           
 
 

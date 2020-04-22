@@ -1,7 +1,8 @@
 ---
 UID: NS:eapmethodtypes.tagEapPacket
 title: EapPacket (eapmethodtypes.h)
-description: Contains a packet of opaque data sent during an EAP authentication session.helpviewer_keywords: ["EapPacket","EapPacket structure [EAPHost]","eaphost.eappacket","eapmethodtypes/EapPacket"]
+description: Contains a packet of opaque data sent during an EAP authentication session.
+helpviewer_keywords: ["EapPacket","EapPacket structure [EAPHost]","eaphost.eappacket","eapmethodtypes/EapPacket"]
 old-location: eaphost\eappacket.htm
 tech.root: eaphost
 ms.assetid: a5d78db0-990f-4318-8f1a-4e903221845f
@@ -82,7 +83,7 @@ The packet message data. This opaque data block continues after the first byte f
 
 
 
-[Common EAPHost API Structures](https://docs.microsoft.com/windows/win32/eaphost/common-eap-host-api-structures)a>
+[Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
 
 
 

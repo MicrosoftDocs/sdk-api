@@ -1,7 +1,8 @@
 ---
 UID: NF:casetup.IMSCEPSetup.GetMSCEPSetupProperty
 title: IMSCEPSetup::GetMSCEPSetupProperty (casetup.h)
-description: Gets a property value for a Network Device Enrollment Service (NDES) configuration.helpviewer_keywords: ["GetMSCEPSetupProperty","GetMSCEPSetupProperty method [Security]","GetMSCEPSetupProperty method [Security]","IMSCEPSetup interface","IMSCEPSetup interface [Security]","GetMSCEPSetupProperty method","IMSCEPSetup.GetMSCEPSetupProperty","IMSCEPSetup::GetMSCEPSetupProperty","casetup/IMSCEPSetup::GetMSCEPSetupProperty","security.imscepsetup_getmscepsetupproperty"]
+description: Gets a property value for a Network Device Enrollment Service (NDES) configuration.
+helpviewer_keywords: ["GetMSCEPSetupProperty","GetMSCEPSetupProperty method [Security]","GetMSCEPSetupProperty method [Security]","IMSCEPSetup interface","IMSCEPSetup interface [Security]","GetMSCEPSetupProperty method","IMSCEPSetup.GetMSCEPSetupProperty","IMSCEPSetup::GetMSCEPSetupProperty","casetup/IMSCEPSetup::GetMSCEPSetupProperty","security.imscepsetup_getmscepsetupproperty"]
 old-location: security\imscepsetup_getmscepsetupproperty.htm
 tech.root: SecCrypto
 ms.assetid: b598331d-b54b-4e12-bea4-99cf1e6a5872
@@ -59,12 +60,12 @@ The <b>GetMSCEPSetupProperty</b> method gets a property value for a Network Devi
 
 ### -param propertyId [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-mscepsetupproperty">MSCEPSetupProperty</a> enumeration that specifies the type of property to get.
+A value of the <a href="/windows/win32/api/casetup/ne-casetup-mscepsetupproperty">MSCEPSetupProperty</a> enumeration that specifies the type of property to get.
 
 
 ### -param pVal [out]
 
-A <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-mscepsetupproperty">MSCEPSetupProperty</a>.
+A <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="/windows/win32/api/casetup/ne-casetup-mscepsetupproperty">MSCEPSetupProperty</a>.
 
 
 ## -see-also

@@ -1,7 +1,8 @@
 ---
 UID: NF:virtdisk.CreateVirtualDisk
 title: CreateVirtualDisk function (virtdisk.h)
-description: Creates a virtual hard disk (VHD) image file, either using default parameters or using an existing virtual disk or physical disk.helpviewer_keywords: ["CreateVirtualDisk","CreateVirtualDisk function [VHD]","vdssys/CreateVirtualDisk","vhd.createvirtualdisk","virtdisk/CreateVirtualDisk"]
+description: Creates a virtual hard disk (VHD) image file, either using default parameters or using an existing virtual disk or physical disk.
+helpviewer_keywords: ["CreateVirtualDisk","CreateVirtualDisk function [VHD]","vdssys/CreateVirtualDisk","vhd.createvirtualdisk","virtdisk/CreateVirtualDisk"]
 old-location: vhd\createvirtualdisk.htm
 tech.root: VStor
 ms.assetid: 9d9f187e-dea1-48ca-a3fe-9e9c513e9088
@@ -60,7 +61,7 @@ Creates a virtual hard disk (VHD) image file, either using default parameters or
 
 ### -param VirtualStorageType [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure 
+A pointer to a <a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure 
      that contains the desired disk type and vendor information.
 
 
@@ -89,7 +90,7 @@ An optional pointer to a
 ### -param Flags [in]
 
 Creation flags, which must be a valid combination of the 
-     <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-create_virtual_disk_flag">CREATE_VIRTUAL_DISK_FLAG</a> enumeration.
+     <a href="/windows/win32/api/virtdisk/ne-virtdisk-create_virtual_disk_flag">CREATE_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param ProviderSpecificFlags [in]
@@ -100,7 +101,7 @@ Flags specific to the type of virtual disk being created. May be zero if none ar
 ### -param Parameters [in]
 
 A pointer to a valid 
-     <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-create_virtual_disk_parameters">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
+     <a href="/windows/win32/api/virtdisk/ns-virtdisk-create_virtual_disk_parameters">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
      that contains creation parameter data.
 
 
@@ -186,7 +187,7 @@ When creating the various types of virtual disks, the following combinations of 
 The <b>CreateVirtualDisk</b> function can also be used 
     as a mechanism for converting one type of virtual disk to another, or a physical disk to a virtual disk. This is 
     accomplished through the use of the <b>SourcePath</b> member of the 
-    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-create_virtual_disk_parameters">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
+    <a href="/windows/win32/api/virtdisk/ns-virtdisk-create_virtual_disk_parameters">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
     to pre-populate the new virtual disk with block data from the source disk.
 
 
@@ -201,7 +202,7 @@ The <b>CreateVirtualDisk</b> function can also be used
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>
+<a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>
 
 
 

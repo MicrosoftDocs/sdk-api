@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDashCollection
 title: IXpsOMDashCollection (xpsobjectmodel.h)
-description: A collection of XPS_DASH structures.helpviewer_keywords: ["IXpsOMDashCollection","IXpsOMDashCollection interface [XPS Documents and Packaging]","IXpsOMDashCollection interface [XPS Documents and Packaging]","described","xps.ixpsomdashcollection","xpsobjectmodel/IXpsOMDashCollection"]
+description: A collection of XPS_DASH structures.
+helpviewer_keywords: ["IXpsOMDashCollection","IXpsOMDashCollection interface [XPS Documents and Packaging]","IXpsOMDashCollection interface [XPS Documents and Packaging]","described","xps.ixpsomdashcollection","xpsobjectmodel/IXpsOMDashCollection"]
 old-location: xps\ixpsomdashcollection.htm
 tech.root: printdocs
 ms.assetid: 02a152a1-e117-42fb-8428-a2b28e6540a9
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-A collection of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures.
+A collection of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures.
 
 
 ## -inheritance
@@ -72,7 +73,7 @@ The <b>IXpsOMDashCollection</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-append">Append</a>
 </td>
 <td align="left" width="63%">
-Appends an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure to the end of the collection.
+Appends an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure to the end of the collection.
             
 
 </td>
@@ -82,7 +83,7 @@ Appends an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-getat">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure from a specified location in the collection.
+Gets an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure from a specified location in the collection.
             
 
 </td>
@@ -92,7 +93,7 @@ Gets an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
-Gets the number of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures in the collection.
+Gets the number of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures in the collection.
             
 
 </td>
@@ -102,7 +103,7 @@ Gets the number of <a href="https://docs.microsoft.com/windows/win32/api/xpsobje
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-insertat">InsertAt</a>
 </td>
 <td align="left" width="63%">
-Inserts an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure at a specified location in the collection.
+Inserts an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure at a specified location in the collection.
             
 
 </td>
@@ -112,7 +113,7 @@ Inserts an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-removeat">RemoveAt</a>
 </td>
 <td align="left" width="63%">
-Removes and frees an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure from a specified location in the collection.
+Removes and frees an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure from a specified location in the collection.
             
 
 </td>
@@ -122,7 +123,7 @@ Removes and frees an <a href="https://docs.microsoft.com/windows/win32/api/xpsob
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-setat">SetAt</a>
 </td>
 <td align="left" width="63%">
-Replaces an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure at a specified location in the collection.
+Replaces an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure at a specified location in the collection.
             
 
 </td>
@@ -156,7 +157,7 @@ For more information about the collection methods, see <a href="https://docs.mic
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
  
 
  

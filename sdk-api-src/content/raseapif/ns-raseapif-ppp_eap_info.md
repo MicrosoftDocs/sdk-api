@@ -1,7 +1,8 @@
 ---
 UID: NS:raseapif._PPP_EAP_INFO
 title: PPP_EAP_INFO (raseapif.h)
-description: The PPP_EAP_INFO structure provides information to the Connection Manager about the authentication protocol, including pointers to functions located in the EAP DLL.helpviewer_keywords: ["*PPPP_EAP_INFO","PPPP_EAP_INFO","PPPP_EAP_INFO structure pointer [EAP]","PPP_EAP_INFO","PPP_EAP_INFO structure [EAP]","_eap_ppp_eap_info","eap.ppp_eap_info","raseapif/PPPP_EAP_INFO","raseapif/PPP_EAP_INFO"]
+description: The PPP_EAP_INFO structure provides information to the Connection Manager about the authentication protocol, including pointers to functions located in the EAP DLL.
+helpviewer_keywords: ["*PPPP_EAP_INFO","PPPP_EAP_INFO","PPPP_EAP_INFO structure pointer [EAP]","PPP_EAP_INFO","PPP_EAP_INFO structure [EAP]","_eap_ppp_eap_info","eap.ppp_eap_info","raseapif/PPPP_EAP_INFO","raseapif/PPP_EAP_INFO"]
 old-location: eap\ppp_eap_info.htm
 tech.root: EAP
 ms.assetid: 722e8185-3408-418b-ae80-e2ed261edcd1
@@ -175,11 +176,11 @@ A given EAP DLL may implement more than one authentication protocol. Use the <b>
 
 
 
-[EAP Structures](https://docs.microsoft.com/windows/win32/eap/eap-structures)a>
+[EAP Structures](/windows/win32/eap/eap-structures)
 
 
 
-[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
+[Extensible Authentication Protocol Reference](/windows/win32/eap/extensible-authentication-protocol-reference)
 
 
 

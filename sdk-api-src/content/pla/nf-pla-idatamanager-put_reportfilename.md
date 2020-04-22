@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataManager.put_ReportFileName
 title: IDataManager::put_ReportFileName (pla.h)
-description: Retrieves or sets the name of the HTML file that results from converting the file in the IDataManager::RuleTargetFileName property from XML to HTML.helpviewer_keywords: ["IDataManager interface [PLA]","ReportFileName property","IDataManager.ReportFileName","IDataManager.put_ReportFileName","IDataManager::ReportFileName","IDataManager::get_ReportFileName","IDataManager::put_ReportFileName","ReportFileName property [PLA]","ReportFileName property [PLA]","IDataManager interface","base.idatamanager_reportfilename","pla.idatamanager_reportfilename","pla/IDataManager::ReportFileName","pla/IDataManager::get_ReportFileName","pla/IDataManager::put_ReportFileName","put_ReportFileName"]
+description: Retrieves or sets the name of the HTML file that results from converting the file in the IDataManager::RuleTargetFileName property from XML to HTML.
+helpviewer_keywords: ["IDataManager interface [PLA]","ReportFileName property","IDataManager.ReportFileName","IDataManager.put_ReportFileName","IDataManager::ReportFileName","IDataManager::get_ReportFileName","IDataManager::put_ReportFileName","ReportFileName property [PLA]","ReportFileName property [PLA]","IDataManager interface","base.idatamanager_reportfilename","pla.idatamanager_reportfilename","pla/IDataManager::ReportFileName","pla/IDataManager::get_ReportFileName","pla/IDataManager::put_ReportFileName","put_ReportFileName"]
 old-location: pla\idatamanager_reportfilename.htm
 tech.root: PLA
 ms.assetid: 5b4c1d99-2f41-423a-b019-845dcd61d516
@@ -63,7 +64,7 @@ This property is read/write.
 
 
 
-For details, see the <b>plaCreateHtml</b> value of the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-datamanagersteps">DataManagerSteps</a> enumeration.
+For details, see the <b>plaCreateHtml</b> value of the <a href="/windows/win32/api/pla/ne-pla-datamanagersteps">DataManagerSteps</a> enumeration.
 
 
 

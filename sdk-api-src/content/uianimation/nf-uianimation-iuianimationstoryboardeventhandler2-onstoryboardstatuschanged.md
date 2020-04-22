@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboardEventHandler2.OnStoryboardStatusChanged
 title: IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged (uianimation.h)
-description: Handles storyboard status change events.helpviewer_keywords: ["IUIAnimationStoryboardEventHandler2 interface [Windows Animation]","OnStoryboardStatusChanged method","IUIAnimationStoryboardEventHandler2.OnStoryboardStatusChanged","IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged","OnStoryboardStatusChanged","OnStoryboardStatusChanged method [Windows Animation]","OnStoryboardStatusChanged method [Windows Animation]","IUIAnimationStoryboardEventHandler2 interface","uianimation.iuianimationstoryboardeventhandler2_onstoryboardstatuschanged","uianimation/IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged"]
+description: Handles storyboard status change events.
+helpviewer_keywords: ["IUIAnimationStoryboardEventHandler2 interface [Windows Animation]","OnStoryboardStatusChanged method","IUIAnimationStoryboardEventHandler2.OnStoryboardStatusChanged","IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged","OnStoryboardStatusChanged","OnStoryboardStatusChanged method [Windows Animation]","OnStoryboardStatusChanged method [Windows Animation]","IUIAnimationStoryboardEventHandler2 interface","uianimation.iuianimationstoryboardeventhandler2_onstoryboardstatuschanged","uianimation/IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged"]
 old-location: uianimation\iuianimationstoryboardeventhandler2_onstoryboardstatuschanged.htm
 tech.root: UIAnimation
 ms.assetid: 6C428A75-755D-4171-A714-83FC65A9D972
@@ -205,7 +206,7 @@ By default, a call made in a callback method to any other animation method resul
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

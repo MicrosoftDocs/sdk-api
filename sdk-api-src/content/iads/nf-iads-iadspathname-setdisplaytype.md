@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsPathname.SetDisplayType
 title: IADsPathname::SetDisplayType (iads.h)
-description: Specifies how to display the path of an object.helpviewer_keywords: ["IADsPathname interface [ADSI]","SetDisplayType method","IADsPathname.SetDisplayType","IADsPathname::SetDisplayType","SetDisplayType","SetDisplayType method [ADSI]","SetDisplayType method [ADSI]","IADsPathname interface","_ds_iadspathname_setdisplaytype","adsi.iadspathname__setdisplaytype","adsi.iadspathname_setdisplaytype","iads/IADsPathname::SetDisplayType"]
+description: Specifies how to display the path of an object.
+helpviewer_keywords: ["IADsPathname interface [ADSI]","SetDisplayType method","IADsPathname.SetDisplayType","IADsPathname::SetDisplayType","SetDisplayType","SetDisplayType method [ADSI]","SetDisplayType method [ADSI]","IADsPathname interface","_ds_iadspathname_setdisplaytype","adsi.iadspathname__setdisplaytype","adsi.iadspathname_setdisplaytype","iads/IADsPathname::SetDisplayType"]
 old-location: adsi\iadspathname_setdisplaytype.htm
 tech.root: adsi
 ms.assetid: 2d975482-74f6-4ffa-a243-baa5f6a8d200
@@ -59,7 +60,7 @@ The <b>IADsPathname::SetDisplayType</b> method specifies how to display the path
 
 ### -param lnDisplayType
 
-The display type of a path  as defined in  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_display_enum">ADS_DISPLAY_ENUM</a>.
+The display type of a path  as defined in  <a href="/windows/win32/api/iads/ne-iads-ads_display_enum">ADS_DISPLAY_ENUM</a>.
 
 
 ## -returns
@@ -80,7 +81,7 @@ This method supports the standard return values, including the following:
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_display_enum">ADS_DISPLAY_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_display_enum">ADS_DISPLAY_ENUM</a>
 
 
 

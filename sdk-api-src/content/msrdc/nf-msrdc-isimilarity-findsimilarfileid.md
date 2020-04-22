@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarity.FindSimilarFileId
 title: ISimilarity::FindSimilarFileId (msrdc.h)
-description: Returns a list of files that are similar to a given file.helpviewer_keywords: ["FindSimilarFileId","FindSimilarFileId method [Remote Differential Compression]","FindSimilarFileId method [Remote Differential Compression]","ISimilarity interface","ISimilarity interface [Remote Differential Compression]","FindSimilarFileId method","ISimilarity.FindSimilarFileId","ISimilarity::FindSimilarFileId","fs.isimilarity_findsimilarfileid","msrdc/ISimilarity::FindSimilarFileId","rdc.isimilarity_findsimilarfileid"]
+description: Returns a list of files that are similar to a given file.
+helpviewer_keywords: ["FindSimilarFileId","FindSimilarFileId method [Remote Differential Compression]","FindSimilarFileId method [Remote Differential Compression]","ISimilarity interface","ISimilarity interface [Remote Differential Compression]","FindSimilarFileId method","ISimilarity.FindSimilarFileId","ISimilarity::FindSimilarFileId","fs.isimilarity_findsimilarfileid","msrdc/ISimilarity::FindSimilarFileId","rdc.isimilarity_findsimilarfileid"]
 old-location: rdc\isimilarity_findsimilarfileid.htm
 tech.root: rdc
 ms.assetid: 70a205fc-d90a-43fc-88f4-2f3a573c5a82
@@ -59,7 +60,7 @@ Returns a list of files that are similar to a given file.
 
 ### -param similarityData [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure that contains similarity information for the file.
+A pointer to a <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure that contains similarity information for the file.
 
 
 ### -param numberOfMatchesRequired

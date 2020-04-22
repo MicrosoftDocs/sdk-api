@@ -1,7 +1,8 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0001
 title: ADSTYPEENUM (iads.h)
-description: Used to identify the data type of an ADSI property value.helpviewer_keywords: ["ADSTYPE","ADSTYPE enumeration [ADSI]","ADSTYPEENUM","ADSTYPEENUM enumeration [ADSI]","ADSTYPE_BACKLINK","ADSTYPE_BOOLEAN","ADSTYPE_CASEIGNORE_LIST","ADSTYPE_CASE_EXACT_STRING","ADSTYPE_CASE_IGNORE_STRING","ADSTYPE_DN_STRING","ADSTYPE_DN_WITH_BINARY","ADSTYPE_DN_WITH_STRING","ADSTYPE_EMAIL","ADSTYPE_FAXNUMBER","ADSTYPE_HOLD","ADSTYPE_INTEGER","ADSTYPE_INVALID","ADSTYPE_LARGE_INTEGER","ADSTYPE_NETADDRESS","ADSTYPE_NT_SECURITY_DESCRIPTOR","ADSTYPE_NUMERIC_STRING","ADSTYPE_OBJECT_CLASS","ADSTYPE_OCTET_LIST","ADSTYPE_OCTET_STRING","ADSTYPE_PATH","ADSTYPE_POSTALADDRESS","ADSTYPE_PRINTABLE_STRING","ADSTYPE_PROV_SPECIFIC","ADSTYPE_REPLICAPOINTER","ADSTYPE_TIMESTAMP","ADSTYPE_TYPEDNAME","ADSTYPE_UNKNOWN","ADSTYPE_UTC_TIME","_ds_adstypeenum","adsi.adstypeenum","iads/ADSTYPE","iads/ADSTYPEENUM","iads/ADSTYPE_BACKLINK","iads/ADSTYPE_BOOLEAN","iads/ADSTYPE_CASEIGNORE_LIST","iads/ADSTYPE_CASE_EXACT_STRING","iads/ADSTYPE_CASE_IGNORE_STRING","iads/ADSTYPE_DN_STRING","iads/ADSTYPE_DN_WITH_BINARY","iads/ADSTYPE_DN_WITH_STRING","iads/ADSTYPE_EMAIL","iads/ADSTYPE_FAXNUMBER","iads/ADSTYPE_HOLD","iads/ADSTYPE_INTEGER","iads/ADSTYPE_INVALID","iads/ADSTYPE_LARGE_INTEGER","iads/ADSTYPE_NETADDRESS","iads/ADSTYPE_NT_SECURITY_DESCRIPTOR","iads/ADSTYPE_NUMERIC_STRING","iads/ADSTYPE_OBJECT_CLASS","iads/ADSTYPE_OCTET_LIST","iads/ADSTYPE_OCTET_STRING","iads/ADSTYPE_PATH","iads/ADSTYPE_POSTALADDRESS","iads/ADSTYPE_PRINTABLE_STRING","iads/ADSTYPE_PROV_SPECIFIC","iads/ADSTYPE_REPLICAPOINTER","iads/ADSTYPE_TIMESTAMP","iads/ADSTYPE_TYPEDNAME","iads/ADSTYPE_UNKNOWN","iads/ADSTYPE_UTC_TIME"]
+description: Used to identify the data type of an ADSI property value.
+helpviewer_keywords: ["ADSTYPE","ADSTYPE enumeration [ADSI]","ADSTYPEENUM","ADSTYPEENUM enumeration [ADSI]","ADSTYPE_BACKLINK","ADSTYPE_BOOLEAN","ADSTYPE_CASEIGNORE_LIST","ADSTYPE_CASE_EXACT_STRING","ADSTYPE_CASE_IGNORE_STRING","ADSTYPE_DN_STRING","ADSTYPE_DN_WITH_BINARY","ADSTYPE_DN_WITH_STRING","ADSTYPE_EMAIL","ADSTYPE_FAXNUMBER","ADSTYPE_HOLD","ADSTYPE_INTEGER","ADSTYPE_INVALID","ADSTYPE_LARGE_INTEGER","ADSTYPE_NETADDRESS","ADSTYPE_NT_SECURITY_DESCRIPTOR","ADSTYPE_NUMERIC_STRING","ADSTYPE_OBJECT_CLASS","ADSTYPE_OCTET_LIST","ADSTYPE_OCTET_STRING","ADSTYPE_PATH","ADSTYPE_POSTALADDRESS","ADSTYPE_PRINTABLE_STRING","ADSTYPE_PROV_SPECIFIC","ADSTYPE_REPLICAPOINTER","ADSTYPE_TIMESTAMP","ADSTYPE_TYPEDNAME","ADSTYPE_UNKNOWN","ADSTYPE_UTC_TIME","_ds_adstypeenum","adsi.adstypeenum","iads/ADSTYPE","iads/ADSTYPEENUM","iads/ADSTYPE_BACKLINK","iads/ADSTYPE_BOOLEAN","iads/ADSTYPE_CASEIGNORE_LIST","iads/ADSTYPE_CASE_EXACT_STRING","iads/ADSTYPE_CASE_IGNORE_STRING","iads/ADSTYPE_DN_STRING","iads/ADSTYPE_DN_WITH_BINARY","iads/ADSTYPE_DN_WITH_STRING","iads/ADSTYPE_EMAIL","iads/ADSTYPE_FAXNUMBER","iads/ADSTYPE_HOLD","iads/ADSTYPE_INTEGER","iads/ADSTYPE_INVALID","iads/ADSTYPE_LARGE_INTEGER","iads/ADSTYPE_NETADDRESS","iads/ADSTYPE_NT_SECURITY_DESCRIPTOR","iads/ADSTYPE_NUMERIC_STRING","iads/ADSTYPE_OBJECT_CLASS","iads/ADSTYPE_OCTET_LIST","iads/ADSTYPE_OCTET_STRING","iads/ADSTYPE_PATH","iads/ADSTYPE_POSTALADDRESS","iads/ADSTYPE_PRINTABLE_STRING","iads/ADSTYPE_PROV_SPECIFIC","iads/ADSTYPE_REPLICAPOINTER","iads/ADSTYPE_TIMESTAMP","iads/ADSTYPE_TYPEDNAME","iads/ADSTYPE_UNKNOWN","iads/ADSTYPE_UTC_TIME"]
 old-location: adsi\adstypeenum.htm
 tech.root: adsi
 ms.assetid: e601bae5-80bf-43f5-846f-11327889419a
@@ -194,21 +195,21 @@ The data is of an undefined type.
 
 ### -field ADSTYPE_DN_WITH_BINARY
 
-The data is of <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_dn_with_binary">ADS_DN_WITH_BINARY</a> used for mapping a distinguished name to a nonvarying GUID. For more information, see Remarks.
+The data is of <a href="/windows/win32/api/iads/ns-iads-ads_dn_with_binary">ADS_DN_WITH_BINARY</a> used for mapping a distinguished name to a nonvarying GUID. For more information, see Remarks.
 
 
 ### -field ADSTYPE_DN_WITH_STRING
 
-The data is of <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_dn_with_string">ADS_DN_WITH_STRING</a> used for mapping a distinguished name to a nonvarying string value. For more information, see Remarks.
+The data is of <a href="/windows/win32/api/iads/ns-iads-ads_dn_with_string">ADS_DN_WITH_STRING</a> used for mapping a distinguished name to a nonvarying string value. For more information, see Remarks.
 
 
 ## -remarks
 
 
 
-When extending the active directory schema to add <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_dn_with_binary">ADS_DN_WITH_BINARY</a>, you must also specify the "otherWellKnownGuid" attribute definition. Add the following to the ldf file attribute definition: "omObjectClass:: KoZIhvcUAQEBCw=="
+When extending the active directory schema to add <a href="/windows/win32/api/iads/ns-iads-ads_dn_with_binary">ADS_DN_WITH_BINARY</a>, you must also specify the "otherWellKnownGuid" attribute definition. Add the following to the ldf file attribute definition: "omObjectClass:: KoZIhvcUAQEBCw=="
 
-When extending the active directory schema to add <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_dn_with_string">ADS_DN_WITH_STRING</a>, you must also specify the "otherWellKnownGuid" attribute definition. Add the following to the ldf file attribute definition: "omObjectClass:: KoZIhvcUAQEBDA=="
+When extending the active directory schema to add <a href="/windows/win32/api/iads/ns-iads-ads_dn_with_string">ADS_DN_WITH_STRING</a>, you must also specify the "otherWellKnownGuid" attribute definition. Add the following to the ldf file attribute definition: "omObjectClass:: KoZIhvcUAQEBDA=="
 
 Because VBScript cannot read data from a type library, VBScript applications do not recognize symbolic constants, as defined above. Use the numerical constants instead to set the appropriate flags in your VBScript application. To use the symbolic constants as a good programming practice, write explicit declarations of such constants, as done here, in your VBScript application.
 

@@ -1,7 +1,8 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0022
 title: ADS_PREFERENCES_ENUM (iads.h)
-description: The ADS_PREFERENCES_ENUM enumeration specifies the query preferences of the OLE DB provider for ADSI.helpviewer_keywords: ["ADSIPROP_ADSIFLAG","ADSIPROP_ASYNCHRONOUS","ADSIPROP_ATTRIBTYPES_ONLY","ADSIPROP_CACHE_RESULTS","ADSIPROP_CHASE_REFERRALS","ADSIPROP_DEREF_ALIASES","ADSIPROP_PAGED_TIME_LIMIT","ADSIPROP_PAGESIZE","ADSIPROP_SEARCH_SCOPE","ADSIPROP_SIZE_LIMIT","ADSIPROP_SORT_ON","ADSIPROP_TIMEOUT","ADSIPROP_TIME_LIMIT","ADS_PREFERENCES_ENUM","ADS_PREFERENCES_ENUM enumeration [ADSI]","_ds_ads_preferences_enum","adsi.ads__preferences__enum","adsi.ads_preferences_enum","iads/ADSIPROP_ADSIFLAG","iads/ADSIPROP_ASYNCHRONOUS","iads/ADSIPROP_ATTRIBTYPES_ONLY","iads/ADSIPROP_CACHE_RESULTS","iads/ADSIPROP_CHASE_REFERRALS","iads/ADSIPROP_DEREF_ALIASES","iads/ADSIPROP_PAGED_TIME_LIMIT","iads/ADSIPROP_PAGESIZE","iads/ADSIPROP_SEARCH_SCOPE","iads/ADSIPROP_SIZE_LIMIT","iads/ADSIPROP_SORT_ON","iads/ADSIPROP_TIMEOUT","iads/ADSIPROP_TIME_LIMIT","iads/ADS_PREFERENCES_ENUM"]
+description: The ADS_PREFERENCES_ENUM enumeration specifies the query preferences of the OLE DB provider for ADSI.
+helpviewer_keywords: ["ADSIPROP_ADSIFLAG","ADSIPROP_ASYNCHRONOUS","ADSIPROP_ATTRIBTYPES_ONLY","ADSIPROP_CACHE_RESULTS","ADSIPROP_CHASE_REFERRALS","ADSIPROP_DEREF_ALIASES","ADSIPROP_PAGED_TIME_LIMIT","ADSIPROP_PAGESIZE","ADSIPROP_SEARCH_SCOPE","ADSIPROP_SIZE_LIMIT","ADSIPROP_SORT_ON","ADSIPROP_TIMEOUT","ADSIPROP_TIME_LIMIT","ADS_PREFERENCES_ENUM","ADS_PREFERENCES_ENUM enumeration [ADSI]","_ds_ads_preferences_enum","adsi.ads__preferences__enum","adsi.ads_preferences_enum","iads/ADSIPROP_ADSIFLAG","iads/ADSIPROP_ASYNCHRONOUS","iads/ADSIPROP_ATTRIBTYPES_ONLY","iads/ADSIPROP_CACHE_RESULTS","iads/ADSIPROP_CHASE_REFERRALS","iads/ADSIPROP_DEREF_ALIASES","iads/ADSIPROP_PAGED_TIME_LIMIT","iads/ADSIPROP_PAGESIZE","iads/ADSIPROP_SEARCH_SCOPE","iads/ADSIPROP_SIZE_LIMIT","iads/ADSIPROP_SORT_ON","iads/ADSIPROP_TIMEOUT","iads/ADSIPROP_TIME_LIMIT","iads/ADS_PREFERENCES_ENUM"]
 old-location: adsi\ads_preferences_enum.htm
 tech.root: adsi
 ms.assetid: 9a6e3235-b7a6-4f63-910c-0d286b3be018
@@ -64,7 +65,7 @@ Requests an asynchronous search.
 
 ### -field ADSIPROP_DEREF_ALIASES
 
-Specifies that aliases of found objects are to be resolved. Use  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_derefenum">ADS_DEREFENUM</a> to specify how to perform this operation.
+Specifies that aliases of found objects are to be resolved. Use  <a href="/windows/win32/api/iads/ne-iads-ads_derefenum">ADS_DEREFENUM</a> to specify how to perform this operation.
 
 
 ### -field ADSIPROP_SIZE_LIMIT
@@ -84,7 +85,7 @@ Indicates that the search should obtain only the name of attributes to which val
 
 ### -field ADSIPROP_SEARCH_SCOPE
 
-Specifies the search scope that should be observed by the server. For more information about the appropriate settings, see the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_scopeenum">ADS_SCOPEENUM</a> enumeration.
+Specifies the search scope that should be observed by the server. For more information about the appropriate settings, see the  <a href="/windows/win32/api/iads/ne-iads-ads_scopeenum">ADS_SCOPEENUM</a> enumeration.
 
 
 ### -field ADSIPROP_TIMEOUT
@@ -104,7 +105,7 @@ Specifies the time limit, in seconds, that the server should observe to search a
 
 ### -field ADSIPROP_CHASE_REFERRALS
 
-Specifies that referrals may be chased. If the root search is not specified in the naming context of the server or when the search results cross a naming context (for example, when you have child domains and search in the parent domain), the server sends a referral message to the client which the client can choose to ignore or chase. By default, this option is set to ADS_CHASE_REFERRALS_EXTERNAL. For more information about referrals chasing, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_chase_referrals_enum">ADS_CHASE_REFERRALS_ENUM</a>.
+Specifies that referrals may be chased. If the root search is not specified in the naming context of the server or when the search results cross a naming context (for example, when you have child domains and search in the parent domain), the server sends a referral message to the client which the client can choose to ignore or chase. By default, this option is set to ADS_CHASE_REFERRALS_EXTERNAL. For more information about referrals chasing, see  <a href="/windows/win32/api/iads/ne-iads-ads_chase_referrals_enum">ADS_CHASE_REFERRALS_ENUM</a>.
 
 
 ### -field ADSIPROP_SORT_ON
@@ -140,15 +141,15 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_chase_referrals_enum">ADS_CHASE_REFERRALS_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_chase_referrals_enum">ADS_CHASE_REFERRALS_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_derefenum">ADS_DEREFENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_derefenum">ADS_DEREFENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_scopeenum">ADS_SCOPEENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_scopeenum">ADS_SCOPEENUM</a>
 
 
 

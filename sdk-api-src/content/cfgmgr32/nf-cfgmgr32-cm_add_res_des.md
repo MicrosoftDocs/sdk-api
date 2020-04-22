@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Add_Res_Des
 title: CM_Add_Res_Des function (cfgmgr32.h)
-description: The CM_Add_Res_Des function adds a resource descriptor to a logical configuration.helpviewer_keywords: ["CM_Add_Res_Des","CM_Add_Res_Des function [Device and Driver Installation]","cfgmgr32/CM_Add_Res_Des","cfgmgrfn_86ee6b93-0cdd-4f18-87c2-8c8d0c33d39f.xml","devinst.cm_add_res_des"]
+description: The CM_Add_Res_Des function adds a resource descriptor to a logical configuration.
+helpviewer_keywords: ["CM_Add_Res_Des","CM_Add_Res_Des function [Device and Driver Installation]","cfgmgr32/CM_Add_Res_Des","cfgmgrfn_86ee6b93-0cdd-4f18-87c2-8c8d0c33d39f.xml","devinst.cm_add_res_des"]
 old-location: devinst\cm_add_res_des.htm
 tech.root: devinst
 ms.assetid: 0097b53a-c1c8-4e76-beef-812a953073b6
@@ -112,7 +113,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)a>
+[BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)
 
 
 </td>
@@ -124,7 +125,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[CS_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_resource)a>
+[CS_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_resource)
 
 
 </td>
@@ -148,7 +149,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[DMA_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource)a>
+[DMA_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource)
 
 
 </td>
@@ -160,7 +161,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)a>
+[IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)
 
 
 </td>
@@ -172,7 +173,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[IRQ_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)a>
+[IRQ_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)
 
 
 </td>
@@ -184,7 +185,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)a>
+[MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)
 
 
 </td>
@@ -196,7 +197,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[MFCARD_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_resource)a>
+[MFCARD_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_resource)
 
 
 </td>
@@ -208,7 +209,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[PCCARD_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource)a>
+[PCCARD_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource)
 
 
 </td>

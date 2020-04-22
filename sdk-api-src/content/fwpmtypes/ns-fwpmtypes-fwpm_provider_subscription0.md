@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_SUBSCRIPTION0_
 title: FWPM_PROVIDER_SUBSCRIPTION0 (fwpmtypes.h)
-description: Used to subscribe for change notifications.helpviewer_keywords: ["FWPM_PROVIDER_SUBSCRIPTION0","FWPM_PROVIDER_SUBSCRIPTION0 structure [Filtering]","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE","fwp.fwpm_provider_subscription0_struct","fwpmtypes/FWPM_PROVIDER_SUBSCRIPTION0"]
+description: Used to subscribe for change notifications.
+helpviewer_keywords: ["FWPM_PROVIDER_SUBSCRIPTION0","FWPM_PROVIDER_SUBSCRIPTION0 structure [Filtering]","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE","fwp.fwpm_provider_subscription0_struct","fwpmtypes/FWPM_PROVIDER_SUBSCRIPTION0"]
 old-location: fwp\fwpm_provider_subscription0_struct.htm
 tech.root: fwp
 ms.assetid: 651d9c40-50d4-407d-9d2a-4b7ad308150c
@@ -63,7 +64,7 @@ The <b>FWPM_PROVIDER_SUBSCRIPTION0</b> structure is used to subscribe for change
 
  Enumeration template for limiting the subscription.
 
-See [FWPM_PROVIDER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_enum_template0)a> for more information.
+See [FWPM_PROVIDER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_enum_template0) for more information.
 
 
 ### -field flags
@@ -123,7 +124,7 @@ If
 
 
 
-[FWPM_PROVIDER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_enum_template0)a>
+[FWPM_PROVIDER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_enum_template0)
 
 
 

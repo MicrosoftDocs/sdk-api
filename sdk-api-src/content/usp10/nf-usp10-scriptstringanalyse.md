@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptStringAnalyse
 title: ScriptStringAnalyse function (usp10.h)
-description: Analyzes a plain text string.helpviewer_keywords: ["SSA_BREAK","SSA_CLIP","SSA_DZWG","SSA_FALLBACK","SSA_FIT","SSA_GCP","SSA_GLYPHS","SSA_HIDEHOTKEY","SSA_HOTKEY","SSA_HOTKEYONLY","SSA_LINK","SSA_METAFILE","SSA_PASSWORD","SSA_RTL","SSA_TAB","ScriptStringAnalyse","ScriptStringAnalyse function [Internationalization for Windows Applications]","_win32_ScriptStringAnalyse","intl.scriptstringanalyse","usp10/ScriptStringAnalyse"]
+description: Analyzes a plain text string.
+helpviewer_keywords: ["SSA_BREAK","SSA_CLIP","SSA_DZWG","SSA_FALLBACK","SSA_FIT","SSA_GCP","SSA_GLYPHS","SSA_HIDEHOTKEY","SSA_HOTKEY","SSA_HOTKEYONLY","SSA_LINK","SSA_METAFILE","SSA_PASSWORD","SSA_RTL","SSA_TAB","ScriptStringAnalyse","ScriptStringAnalyse function [Internationalization for Windows Applications]","_win32_ScriptStringAnalyse","intl.scriptstringanalyse","usp10/ScriptStringAnalyse"]
 old-location: intl\scriptstringanalyse.htm
 tech.root: Intl
 ms.assetid: 6d0e7070-159e-436b-85b5-cabb3da83f5e
@@ -258,12 +259,12 @@ Width required for fitting or clipping.
 
 ### -param psControl [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a> structure. The application can set this parameter to <b>NULL</b> to indicate that all <b>SCRIPT_CONTROL</b> members are set to 0.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a> structure. The application can set this parameter to <b>NULL</b> to indicate that all <b>SCRIPT_CONTROL</b> members are set to 0.
 
 
 ### -param psState [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> structure. The application can set this parameter to <b>NULL</b> to indicate that all <b>SCRIPT_STATE</b> members are set to 0. The <b>uBidiLevel</b> member of <b>SCRIPT_STATE</b> is ignored. The value used is derived from the SSA_RTL flag in combination with the layout of the device context.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> structure. The application can set this parameter to <b>NULL</b> to indicate that all <b>SCRIPT_STATE</b> members are set to 0. The <b>uBidiLevel</b> member of <b>SCRIPT_STATE</b> is ignored. The value used is derived from the SSA_RTL flag in combination with the layout of the device context.
 
 
 ### -param piDx [in, optional]
@@ -273,7 +274,7 @@ Pointer to the requested logical dx array.
 
 ### -param pTabdef [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_tabdef">SCRIPT_TABDEF</a> structure. This value is only required if <i>dwFlags</i> is set to SSA_TAB.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_tabdef">SCRIPT_TABDEF</a> structure. This value is only required if <i>dwFlags</i> is set to SSA_TAB.
 
 
 ### -param pbInClass [in]
@@ -324,11 +325,11 @@ Although the functionality of <b>ScriptStringAnalyse</b> can be implemented by d
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a>
 
 
 
@@ -336,7 +337,7 @@ Although the functionality of <b>ScriptStringAnalyse</b> can be implemented by d
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_tabdef">SCRIPT_TABDEF</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_tabdef">SCRIPT_TABDEF</a>
 
 
 

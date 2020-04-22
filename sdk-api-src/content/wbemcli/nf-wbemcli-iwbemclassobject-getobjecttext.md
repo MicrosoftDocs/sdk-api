@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetObjectText
 title: IWbemClassObject::GetObjectText (wbemcli.h)
-description: The IWbemClassObject::GetObjectText method returns a textual rendering of the object in the MOF syntax.helpviewer_keywords: ["GetObjectText","GetObjectText method [Windows Management Instrumentation]","GetObjectText method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","GetObjectText method","IWbemClassObject.GetObjectText","IWbemClassObject::GetObjectText","_hmm_iwbemclassobject_getobjecttext","wbemcli/IWbemClassObject::GetObjectText","wmi.iwbemclassobject_getobjecttext"]
+description: The IWbemClassObject::GetObjectText method returns a textual rendering of the object in the MOF syntax.
+helpviewer_keywords: ["GetObjectText","GetObjectText method [Windows Management Instrumentation]","GetObjectText method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","GetObjectText method","IWbemClassObject.GetObjectText","IWbemClassObject::GetObjectText","_hmm_iwbemclassobject_getobjecttext","wbemcli/IWbemClassObject::GetObjectText","wmi.iwbemclassobject_getobjecttext"]
 old-location: wmi\iwbemclassobject_getobjecttext.htm
 tech.root: WmiSdk
 ms.assetid: 7e874e9a-7417-4b3f-95c5-398fe92bfdf8
@@ -112,7 +113,7 @@ The following algorithm is used to reconstruct the text of the parameters of a m
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_text_flag_type">WBEM_TEXT_FLAG_TYPE</a>
+<a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_text_flag_type">WBEM_TEXT_FLAG_TYPE</a>
  
 
  

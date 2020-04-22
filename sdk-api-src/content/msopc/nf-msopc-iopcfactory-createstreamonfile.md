@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcFactory.CreateStreamOnFile
 title: IOpcFactory::CreateStreamOnFile (msopc.h)
-description: Creates a stream over a file.helpviewer_keywords: ["CreateStreamOnFile","CreateStreamOnFile method [Open Packaging Conventions]","CreateStreamOnFile method [Open Packaging Conventions]","IOpcFactory interface","IOpcFactory interface [Open Packaging Conventions]","CreateStreamOnFile method","IOpcFactory.CreateStreamOnFile","IOpcFactory::CreateStreamOnFile","msopc/IOpcFactory::CreateStreamOnFile","opc.iopcfactory_createstreamonfile"]
+description: Creates a stream over a file.
+helpviewer_keywords: ["CreateStreamOnFile","CreateStreamOnFile method [Open Packaging Conventions]","CreateStreamOnFile method [Open Packaging Conventions]","IOpcFactory interface","IOpcFactory interface [Open Packaging Conventions]","CreateStreamOnFile method","IOpcFactory.CreateStreamOnFile","IOpcFactory::CreateStreamOnFile","msopc/IOpcFactory::CreateStreamOnFile","opc.iopcfactory_createstreamonfile"]
 old-location: opc\iopcfactory_createstreamonfile.htm
 tech.root: OPC
 ms.assetid: d41bb51d-127c-4b24-8c93-4224404e0b2d
@@ -113,7 +114,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>ioMode</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_stream_io_mode">OPC_STREAM_IO_MODE</a> enumeration value.
+The value passed in the <i>ioMode</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_stream_io_mode">OPC_STREAM_IO_MODE</a> enumeration value.
 
 </td>
 </tr>
@@ -195,7 +196,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_stream_io_mode">OPC_STREAM_IO_MODE</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_stream_io_mode">OPC_STREAM_IO_MODE</a>
 
 
 

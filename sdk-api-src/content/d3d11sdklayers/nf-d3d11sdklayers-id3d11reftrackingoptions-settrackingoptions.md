@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11RefTrackingOptions.SetTrackingOptions
 title: ID3D11RefTrackingOptions::SetTrackingOptions (d3d11sdklayers.h)
-description: Sets graphics processing unit (GPU) debug reference tracking options.helpviewer_keywords: ["ID3D11RefTrackingOptions interface [Direct3D 11]","SetTrackingOptions method","ID3D11RefTrackingOptions.SetTrackingOptions","ID3D11RefTrackingOptions::SetTrackingOptions","SetTrackingOptions","SetTrackingOptions method [Direct3D 11]","SetTrackingOptions method [Direct3D 11]","ID3D11RefTrackingOptions interface","d3d11sdklayers/ID3D11RefTrackingOptions::SetTrackingOptions","direct3d11.id3d11reftrackingoptions_settrackingoptions"]
+description: Sets graphics processing unit (GPU) debug reference tracking options.
+helpviewer_keywords: ["ID3D11RefTrackingOptions interface [Direct3D 11]","SetTrackingOptions method","ID3D11RefTrackingOptions.SetTrackingOptions","ID3D11RefTrackingOptions::SetTrackingOptions","SetTrackingOptions","SetTrackingOptions method [Direct3D 11]","SetTrackingOptions method [Direct3D 11]","ID3D11RefTrackingOptions interface","d3d11sdklayers/ID3D11RefTrackingOptions::SetTrackingOptions","direct3d11.id3d11reftrackingoptions_settrackingoptions"]
 old-location: direct3d11\id3d11reftrackingoptions_settrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: 2C782DBE-BA76-4D2E-82D6-1A03941B2FB1
@@ -60,7 +61,7 @@ Sets graphics processing unit (GPU) debug reference tracking options.
 
 ### -param uOptions
 
-A combination of <a href="https://docs.microsoft.com/windows/win32/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_shader_tracking_options">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on"; otherwise the tracking option is set to "off."
+A combination of <a href="/windows/win32/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_shader_tracking_options">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on"; otherwise the tracking option is set to "off."
 
 
 ## -returns

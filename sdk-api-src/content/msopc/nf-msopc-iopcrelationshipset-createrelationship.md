@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.CreateRelationship
 title: IOpcRelationshipSet::CreateRelationship (msopc.h)
-description: Creates a relationship object that represents a specified relationship, then adds to the set a pointer to the object's IOpcRelationship interface.helpviewer_keywords: ["CreateRelationship","CreateRelationship method [Open Packaging Conventions]","CreateRelationship method [Open Packaging Conventions]","IOpcRelationshipSet interface","IOpcRelationshipSet interface [Open Packaging Conventions]","CreateRelationship method","IOpcRelationshipSet.CreateRelationship","IOpcRelationshipSet::CreateRelationship","msopc/IOpcRelationshipSet::CreateRelationship","opc.iopcrelationshipset_createrelationship"]
+description: Creates a relationship object that represents a specified relationship, then adds to the set a pointer to the object's IOpcRelationship interface.
+helpviewer_keywords: ["CreateRelationship","CreateRelationship method [Open Packaging Conventions]","CreateRelationship method [Open Packaging Conventions]","IOpcRelationshipSet interface","IOpcRelationshipSet interface [Open Packaging Conventions]","CreateRelationship method","IOpcRelationshipSet.CreateRelationship","IOpcRelationshipSet::CreateRelationship","msopc/IOpcRelationshipSet::CreateRelationship","opc.iopcrelationshipset_createrelationship"]
 old-location: opc\iopcrelationshipset_createrelationship.htm
 tech.root: OPC
 ms.assetid: 0cbf7446-d94e-447f-a82b-3d56a8036c19
@@ -121,7 +122,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>targetMode</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_uri_target_mode">OPC_URI_TARGET_MODE</a> enumeration value.
+The value passed in the <i>targetMode</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_uri_target_mode">OPC_URI_TARGET_MODE</a> enumeration value.
 
 </td>
 </tr>
@@ -263,7 +264,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_uri_target_mode">OPC_URI_TARGET_MODE</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_uri_target_mode">OPC_URI_TARGET_MODE</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.GetNLSVersionEx
 title: GetNLSVersionEx function (winnls.h)
-description: Retrieves information about the current version of a specified NLS capability for a locale specified by name.Note  The application should call this function in preference to GetNLSVersion if designed to run only on Windows Vista and later.helpviewer_keywords: ["GetNLSVersionEx","GetNLSVersionEx function [Internationalization for Windows Applications]","_win32_GetNLSVersionEx","intl.getnlsversionex","winnls/GetNLSVersionEx"]
+description: Retrieves information about the current version of a specified NLS capability for a locale specified by name.Note  The application should call this function in preference to GetNLSVersion if designed to run only on Windows Vista and later.
+helpviewer_keywords: ["GetNLSVersionEx","GetNLSVersionEx function [Internationalization for Windows Applications]","_win32_GetNLSVersionEx","intl.getnlsversionex","winnls/GetNLSVersionEx"]
 old-location: intl\getnlsversionex.htm
 tech.root: Intl
 ms.assetid: 255e6774-eb70-41db-a372-8796166ee8d6
@@ -91,7 +92,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-nam
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure. The application must initialize the <b>dwNLSVersionInfoSize</b> member to <code> sizeof(NLSVERSIONINFOEX)</code>. 
 
-<div class="alert"><b>Note</b>  On Windows Vista and later, the function can alternatively provide version information in an <a href="https://docs.microsoft.com/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a> structure.</div>
+<div class="alert"><b>Note</b>  On Windows Vista and later, the function can alternatively provide version information in an <a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a> structure.</div>
 <div> </div>
 
 ## -returns
@@ -152,7 +153,7 @@ This function supports <a href="https://docs.microsoft.com/windows/desktop/Intl/
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a>
+<a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a>
 
 
 

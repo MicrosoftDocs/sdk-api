@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateGeneratorParameters
 title: IRdcLibrary::CreateGeneratorParameters (msrdc.h)
-description: Returns an IRdcGeneratorParameters interface pointer initialized with the parameters necessary for a signature generator.helpviewer_keywords: ["CreateGeneratorParameters","CreateGeneratorParameters method [Remote Differential Compression]","CreateGeneratorParameters method [Remote Differential Compression]","IRdcLibrary interface","IRdcLibrary interface [Remote Differential Compression]","CreateGeneratorParameters method","IRdcLibrary.CreateGeneratorParameters","IRdcLibrary::CreateGeneratorParameters","fs.irdclibrary_creategeneratorparameters","msrdc/IRdcLibrary::CreateGeneratorParameters","rdc.irdclibrary_creategeneratorparameters"]
+description: Returns an IRdcGeneratorParameters interface pointer initialized with the parameters necessary for a signature generator.
+helpviewer_keywords: ["CreateGeneratorParameters","CreateGeneratorParameters method [Remote Differential Compression]","CreateGeneratorParameters method [Remote Differential Compression]","IRdcLibrary interface","IRdcLibrary interface [Remote Differential Compression]","CreateGeneratorParameters method","IRdcLibrary.CreateGeneratorParameters","IRdcLibrary::CreateGeneratorParameters","fs.irdclibrary_creategeneratorparameters","msrdc/IRdcLibrary::CreateGeneratorParameters","rdc.irdclibrary_creategeneratorparameters"]
 old-location: rdc\irdclibrary_creategeneratorparameters.htm
 tech.root: rdc
 ms.assetid: a39e26bc-7493-4def-af6d-cf3620ec8a9f
@@ -63,7 +64,7 @@ The
 ### -param parametersType [in]
 
 Specifies the type of signature generator for the created parameters, enumerated by the 
-    <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a> enumeration. The initial 
+    <a href="/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a> enumeration. The initial 
   release of RDC only supports one type, <b>RDCGENTYPE_FilterMax</b>.
 
 
@@ -95,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a>
+<a href="/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a>
 
 
 

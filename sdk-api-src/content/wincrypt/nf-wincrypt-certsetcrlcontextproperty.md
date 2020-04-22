@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertSetCRLContextProperty
 title: CertSetCRLContextProperty function (wincrypt.h)
-description: Sets an extended property for the specified certificate revocation list (CRL) context.helpviewer_keywords: ["CERT_ACCESS_STATE_PROP_ID","CERT_ARCHIVED_PROP_ID","CERT_AUTO_ENROLL_PROP_ID","CERT_CTL_USAGE_PROP_ID","CERT_DESCRIPTION_PROP_ID","CERT_ENHKEY_USAGE_PROP_ID","CERT_FRIENDLY_NAME_PROP_ID","CERT_ISSUER_CHAIN_PUB_KEY_CNG_ALG_BIT_LENGTH_PROP_ID","CERT_ISSUER_CHAIN_SIGN_HASH_CNG_ALG_PROP_ID","CERT_ISSUER_PUB_KEY_BIT_LENGTH_PROP_ID","CERT_KEY_CONTEXT_PROP_ID","CERT_KEY_IDENTIFIER_PROP_ID","CERT_KEY_PROV_HANDLE_PROP_ID","CERT_KEY_PROV_INFO_PROP_ID","CERT_KEY_SPEC_PROP_ID","CERT_MD5_HASH_PROP_ID","CERT_NEXT_UPDATE_LOCATION_PROP_ID","CERT_PVK_FILE_PROP_ID","CERT_SHA1_HASH_PROP_ID","CERT_SIGNATURE_HASH_PROP_ID","CERT_SIGN_HASH_CNG_ALG_PROP_ID","CertSetCRLContextProperty","CertSetCRLContextProperty function [Security]","_crypto2_certsetcrlcontextproperty","security.certsetcrlcontextproperty","wincrypt/CertSetCRLContextProperty"]
+description: Sets an extended property for the specified certificate revocation list (CRL) context.
+helpviewer_keywords: ["CERT_ACCESS_STATE_PROP_ID","CERT_ARCHIVED_PROP_ID","CERT_AUTO_ENROLL_PROP_ID","CERT_CTL_USAGE_PROP_ID","CERT_DESCRIPTION_PROP_ID","CERT_ENHKEY_USAGE_PROP_ID","CERT_FRIENDLY_NAME_PROP_ID","CERT_ISSUER_CHAIN_PUB_KEY_CNG_ALG_BIT_LENGTH_PROP_ID","CERT_ISSUER_CHAIN_SIGN_HASH_CNG_ALG_PROP_ID","CERT_ISSUER_PUB_KEY_BIT_LENGTH_PROP_ID","CERT_KEY_CONTEXT_PROP_ID","CERT_KEY_IDENTIFIER_PROP_ID","CERT_KEY_PROV_HANDLE_PROP_ID","CERT_KEY_PROV_INFO_PROP_ID","CERT_KEY_SPEC_PROP_ID","CERT_MD5_HASH_PROP_ID","CERT_NEXT_UPDATE_LOCATION_PROP_ID","CERT_PVK_FILE_PROP_ID","CERT_SHA1_HASH_PROP_ID","CERT_SIGNATURE_HASH_PROP_ID","CERT_SIGN_HASH_CNG_ALG_PROP_ID","CertSetCRLContextProperty","CertSetCRLContextProperty function [Security]","_crypto2_certsetcrlcontextproperty","security.certsetcrlcontextproperty","wincrypt/CertSetCRLContextProperty"]
 old-location: security\certsetcrlcontextproperty.htm
 tech.root: SecCrypto
 ms.assetid: 7e4a0a39-ce55-4171-9b66-31c1c28d895f
@@ -170,7 +171,7 @@ Sets a <b>null</b>-terminated Unicode character string that contains the display
 </dl>
 </td>
 <td width="60%">
-Data type for <i>pvData</i>: Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure.
+Data type for <i>pvData</i>: Pointer to a <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure.
 
 
 
@@ -199,7 +200,7 @@ The following is an example:
 </dl>
 </td>
 <td width="60%">
-Data type for <i>pvData</i>: Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure.
+Data type for <i>pvData</i>: Pointer to a <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure.
 
 
 
@@ -238,7 +239,7 @@ This property is explicitly set by the verify revocation functions.
 </dl>
 </td>
 <td width="60%">
-Data type for <i>pvData</i>: Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure.
+Data type for <i>pvData</i>: Pointer to a <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure.
 
 
 
@@ -370,7 +371,7 @@ Sets the SHA1 hash. You can compute the hash by using
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvData</i>: Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure.
+Data type of <i>pvData</i>: Pointer to a <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure.
 
 Sets the L”<i>&lt;SIGNATURE&gt;</i>/<i>&lt;HASH&gt;</i>” string representing the certificate signature. The <i>&lt;SIGNATURE&gt;</i> value identifies the CNG public key algorithm. The following algorithms are supported:
 

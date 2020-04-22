@@ -1,7 +1,8 @@
 ---
 UID: NE:tapi3.__MIDL___MIDL_itf_tapi3_0000_0018_0004
 title: MSP_EVENT (tapi3.h)
-description: The MSP_EVENT enumerator defines the type of event information contained in MSP_EVENT_INFO.helpviewer_keywords: ["ME_ADDRESS_EVENT","ME_CALL_EVENT","ME_PRIVATE_EVENT","ME_TSP_DATA","MSP_EVENT","MSP_EVENT enumeration [TAPI 2.2]","_tapi3_msp_event","msp/ME_ADDRESS_EVENT","msp/ME_CALL_EVENT","msp/ME_PRIVATE_EVENT","msp/ME_TSP_DATA","msp/MSP_EVENT","tapi3.msp_event"]
+description: The MSP_EVENT enumerator defines the type of event information contained in MSP_EVENT_INFO.
+helpviewer_keywords: ["ME_ADDRESS_EVENT","ME_CALL_EVENT","ME_PRIVATE_EVENT","ME_TSP_DATA","MSP_EVENT","MSP_EVENT enumeration [TAPI 2.2]","_tapi3_msp_event","msp/ME_ADDRESS_EVENT","msp/ME_CALL_EVENT","msp/ME_PRIVATE_EVENT","msp/ME_TSP_DATA","msp/MSP_EVENT","tapi3.msp_event"]
 old-location: tapi3\msp_event.htm
 tech.root: Tapi
 ms.assetid: 53e19eff-b5f0-43fd-b59b-e85e75220282
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>MSP_EVENT</b> enumerator defines the type of event information contained in 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>.
+<a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>.
 
 
 ## -enum-fields
@@ -105,7 +106,7 @@ The event buffer is an
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>
+<a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>
 
 
 

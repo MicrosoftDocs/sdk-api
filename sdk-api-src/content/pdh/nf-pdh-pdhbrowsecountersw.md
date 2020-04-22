@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhBrowseCountersW
 title: PdhBrowseCountersW function (pdh.h)
-description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. To use handles to data sources, use the PdhBrowseCountersH function.helpviewer_keywords: ["PdhBrowseCounters","PdhBrowseCounters function [Perf]","PdhBrowseCountersA","PdhBrowseCountersW","_win32_pdhbrowsecounters","base.pdhbrowsecounters","pdh/PdhBrowseCounters","pdh/PdhBrowseCountersA","pdh/PdhBrowseCountersW","perf.pdhbrowsecounters"]
+description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. To use handles to data sources, use the PdhBrowseCountersH function.
+helpviewer_keywords: ["PdhBrowseCounters","PdhBrowseCounters function [Perf]","PdhBrowseCountersA","PdhBrowseCountersW","_win32_pdhbrowsecounters","base.pdhbrowsecounters","pdh/PdhBrowseCounters","pdh/PdhBrowseCountersA","pdh/PdhBrowseCountersW","perf.pdhbrowsecounters"]
 old-location: perf\pdhbrowsecounters.htm
 tech.root: perfctrs
 ms.assetid: 4e9e4b20-a573-4f6d-97e8-63bcc675032b
@@ -66,7 +67,7 @@ To use handles to data sources, use the
 ### -param pBrowseDlgData [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure that specifies the behavior of the dialog box.
+<a href="/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure that specifies the behavior of the dialog box.
 
 
 ## -returns
@@ -111,7 +112,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a>
+<a href="/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a>
 
 
 

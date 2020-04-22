@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecapi._LSA_AUTH_INFORMATION
 title: LSA_AUTH_INFORMATION (ntsecapi.h)
-description: The LSA_AUTH_INFORMATION structure contains authentication information for a trusted domain.helpviewer_keywords: ["*PLSA_AUTH_INFORMATION","LSA_AUTH_INFORMATION","LSA_AUTH_INFORMATION structure [Security]","PLSA_AUTH_INFORMATION","PLSA_AUTH_INFORMATION structure pointer [Security]","TRUST_AUTH_TYPE_CLEAR","TRUST_AUTH_TYPE_NONE","TRUST_AUTH_TYPE_NT4OWF","TRUST_AUTH_TYPE_VERSION","_LSA_AUTH_INFORMATION","_lsa_lsa_auth_information","ntsecapi/LSA_AUTH_INFORMATION","ntsecapi/PLSA_AUTH_INFORMATION","security.lsa_auth_information"]
+description: The LSA_AUTH_INFORMATION structure contains authentication information for a trusted domain.
+helpviewer_keywords: ["*PLSA_AUTH_INFORMATION","LSA_AUTH_INFORMATION","LSA_AUTH_INFORMATION structure [Security]","PLSA_AUTH_INFORMATION","PLSA_AUTH_INFORMATION structure pointer [Security]","TRUST_AUTH_TYPE_CLEAR","TRUST_AUTH_TYPE_NONE","TRUST_AUTH_TYPE_NT4OWF","TRUST_AUTH_TYPE_VERSION","_LSA_AUTH_INFORMATION","_lsa_lsa_auth_information","ntsecapi/LSA_AUTH_INFORMATION","ntsecapi/PLSA_AUTH_INFORMATION","security.lsa_auth_information"]
 old-location: security\lsa_auth_information.htm
 tech.root: SecMgmt
 ms.assetid: 61c17831-4a82-4766-b5af-e97a6d467462
@@ -60,7 +61,7 @@ The <b>LSA_AUTH_INFORMATION</b> structure contains authentication information fo
 ### -field LastUpdateTime
 
 A 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that uses the Coordinated Universal Time (Greenwich Mean Time) format to indicate the time that this value was set. For more information about Coordinated Universal Time, see the 
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that uses the Coordinated Universal Time (Greenwich Mean Time) format to indicate the time that this value was set. For more information about Coordinated Universal Time, see the 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 

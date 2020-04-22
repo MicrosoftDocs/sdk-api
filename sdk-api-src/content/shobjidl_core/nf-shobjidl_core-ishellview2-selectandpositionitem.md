@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellView2.SelectAndPositionItem
 title: IShellView2::SelectAndPositionItem (shobjidl_core.h)
-description: Selects and positions an item in a Shell View.helpviewer_keywords: ["IShellView2 interface [Windows Shell]","SelectAndPositionItem method","IShellView2.SelectAndPositionItem","IShellView2::SelectAndPositionItem","SelectAndPositionItem","SelectAndPositionItem method [Windows Shell]","SelectAndPositionItem method [Windows Shell]","IShellView2 interface","_win32_IShellView2_SelectAndPositionItem","shell.IShellView2_SelectAndPositionItem","shobjidl_core/IShellView2::SelectAndPositionItem"]
+description: Selects and positions an item in a Shell View.
+helpviewer_keywords: ["IShellView2 interface [Windows Shell]","SelectAndPositionItem method","IShellView2.SelectAndPositionItem","IShellView2::SelectAndPositionItem","SelectAndPositionItem","SelectAndPositionItem method [Windows Shell]","SelectAndPositionItem method [Windows Shell]","IShellView2 interface","_win32_IShellView2_SelectAndPositionItem","shell.IShellView2_SelectAndPositionItem","shobjidl_core/IShellView2::SelectAndPositionItem"]
 old-location: shell\IShellView2_SelectAndPositionItem.htm
 tech.root: shell
 ms.assetid: d78f152b-2dcb-410d-821a-56601a3c57f2
@@ -68,7 +69,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/
 
 Type: <b>UINT</b>
 
-One of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svsif">_SVSIF</a> constants that specify the type of selection to apply.
+One of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svsif">_SVSIF</a> constants that specify the type of selection to apply.
 
 
 ### -param ppt

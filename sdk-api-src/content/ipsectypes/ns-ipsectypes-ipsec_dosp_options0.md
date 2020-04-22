@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_DOSP_OPTIONS0_
 title: IPSEC_DOSP_OPTIONS0 (ipsectypes.h)
-description: Used to store configuration parameters for IPsec DoS Protection.helpviewer_keywords: ["IPSEC_DOSP_FLAG_DISABLE_AUTHIP","IPSEC_DOSP_FLAG_DISABLE_DEFAULT_BLOCK","IPSEC_DOSP_FLAG_ENABLE_IKEV1","IPSEC_DOSP_FLAG_ENABLE_IKEV2","IPSEC_DOSP_FLAG_FILTER_BLOCK","IPSEC_DOSP_FLAG_FILTER_EXEMPT","IPSEC_DOSP_OPTIONS0","IPSEC_DOSP_OPTIONS0 structure [Filtering]","fwp.ipsec_dosp_options0","ipsectypes/IPSEC_DOSP_OPTIONS0"]
+description: Used to store configuration parameters for IPsec DoS Protection.
+helpviewer_keywords: ["IPSEC_DOSP_FLAG_DISABLE_AUTHIP","IPSEC_DOSP_FLAG_DISABLE_DEFAULT_BLOCK","IPSEC_DOSP_FLAG_ENABLE_IKEV1","IPSEC_DOSP_FLAG_ENABLE_IKEV2","IPSEC_DOSP_FLAG_FILTER_BLOCK","IPSEC_DOSP_FLAG_FILTER_EXEMPT","IPSEC_DOSP_OPTIONS0","IPSEC_DOSP_OPTIONS0 structure [Filtering]","fwp.ipsec_dosp_options0","ipsectypes/IPSEC_DOSP_OPTIONS0"]
 old-location: fwp\ipsec_dosp_options0.htm
 tech.root: fwp
 ms.assetid: 7f180a05-ce8a-4f3b-8e97-d0b6f7f9f8ca
@@ -227,12 +228,12 @@ Pointer to an array of internal network facing interface identifiers for which D
 
 ### -field publicV6AddrMask
 
-Optional public IPv6 address or subnet for this policy, as specified in [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>.
+Optional public IPv6 address or subnet for this policy, as specified in [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask).
 
 
 ### -field internalV6AddrMask
 
-Optional internal IPv6 address or subnet for this policy, as specified in [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>.
+Optional internal IPv6 address or subnet for this policy, as specified in [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask).
 
 
 ## -remarks
@@ -249,7 +250,7 @@ Optional internal IPv6 address or subnet for this policy, as specified in [FWP_V
 
 
 
-[FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>
+[FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)
 
 
 

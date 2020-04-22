@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.FinishAllStoryboards
 title: IUIAnimationManager2::FinishAllStoryboards (uianimation.h)
-description: Finishes all active storyboards within the specified time interval.helpviewer_keywords: ["FinishAllStoryboards","FinishAllStoryboards method [Windows Animation]","FinishAllStoryboards method [Windows Animation]","IUIAnimationManager2 interface","IUIAnimationManager2 interface [Windows Animation]","FinishAllStoryboards method","IUIAnimationManager2.FinishAllStoryboards","IUIAnimationManager2::FinishAllStoryboards","uianimation.iuianimationmanager2_finishallstoryboards","uianimation/IUIAnimationManager2::FinishAllStoryboards"]
+description: Finishes all active storyboards within the specified time interval.
+helpviewer_keywords: ["FinishAllStoryboards","FinishAllStoryboards method [Windows Animation]","FinishAllStoryboards method [Windows Animation]","IUIAnimationManager2 interface","IUIAnimationManager2 interface [Windows Animation]","FinishAllStoryboards method","IUIAnimationManager2.FinishAllStoryboards","IUIAnimationManager2::FinishAllStoryboards","uianimation.iuianimationmanager2_finishallstoryboards","uianimation/IUIAnimationManager2::FinishAllStoryboards"]
 old-location: uianimation\iuianimationmanager2_finishallstoryboards.htm
 tech.root: UIAnimation
 ms.assetid: 830A5D30-68FF-4226-AC7C-7B1C5F7BA367
@@ -77,8 +78,8 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 Calling the <b>FinishAllStoryboards</b> method ensures that all active storyboards finish within the specified completion deadline. If a storyboard is scheduled to play past the deadline, it is compressed.
 
-A storyboard is considered active if a call to the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-getstatus">IUIAnimationStoryboard::GetStatus</a> method returns <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_PLAYING</a> 
-         or <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_SCHEDULED</a>.
+A storyboard is considered active if a call to the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-getstatus">IUIAnimationStoryboard::GetStatus</a> method returns <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_PLAYING</a> 
+         or <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_SCHEDULED</a>.
 
 
 
@@ -100,7 +101,7 @@ A storyboard is considered active if a call to the <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

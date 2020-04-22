@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.IRdcSignatureReader.ReadHeader
 title: IRdcSignatureReader::ReadHeader (msrdc.h)
-description: Reads the signature header and returns a copy of the parameters used to generate the signatures.helpviewer_keywords: ["IRdcSignatureReader interface [Remote Differential Compression]","ReadHeader method","IRdcSignatureReader.ReadHeader","IRdcSignatureReader::ReadHeader","ReadHeader","ReadHeader method [Remote Differential Compression]","ReadHeader method [Remote Differential Compression]","IRdcSignatureReader interface","fs.irdcsignaturereader_readheader","msrdc/IRdcSignatureReader::ReadHeader","rdc.irdcsignaturereader_readheader"]
+description: Reads the signature header and returns a copy of the parameters used to generate the signatures.
+helpviewer_keywords: ["IRdcSignatureReader interface [Remote Differential Compression]","ReadHeader method","IRdcSignatureReader.ReadHeader","IRdcSignatureReader::ReadHeader","ReadHeader","ReadHeader method [Remote Differential Compression]","ReadHeader method [Remote Differential Compression]","IRdcSignatureReader interface","fs.irdcsignaturereader_readheader","msrdc/IRdcSignatureReader::ReadHeader","rdc.irdcsignaturereader_readheader"]
 old-location: rdc\irdcsignaturereader_readheader.htm
 tech.root: rdc
 ms.assetid: c0f4d31d-338f-49fc-9f1a-e8e31ffa1bc7
@@ -62,7 +63,7 @@ The
 
 ### -param rdc_ErrorCode [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdc_errorcode">RDC_ErrorCode</a> enumeration that will 
+Address of a <a href="/windows/win32/api/msrdc/ne-msrdc-rdc_errorcode">RDC_ErrorCode</a> enumeration that will 
       receive any RDC-specific error code.
 
 
@@ -84,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdc_errorcode">RDC_ErrorCode</a>
+<a href="/windows/win32/api/msrdc/ne-msrdc-rdc_errorcode">RDC_ErrorCode</a>
  
 
  

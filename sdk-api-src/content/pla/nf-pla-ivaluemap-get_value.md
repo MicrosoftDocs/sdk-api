@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IValueMap.get_Value
 title: IValueMap::get_Value (pla.h)
-description: Retrieves or sets the value of the collection.helpviewer_keywords: ["IValueMap interface [PLA]","Value property","IValueMap.Value","IValueMap.get_Value","IValueMap::Value","IValueMap::get_Value","IValueMap::put_Value","Value property [PLA]","Value property [PLA]","IValueMap interface","base.ivaluemap_value","get_Value","pla.ivaluemap_value","pla/IValueMap::Value","pla/IValueMap::get_Value","pla/IValueMap::put_Value"]
+description: Retrieves or sets the value of the collection.
+helpviewer_keywords: ["IValueMap interface [PLA]","Value property","IValueMap.Value","IValueMap.get_Value","IValueMap::Value","IValueMap::get_Value","IValueMap::put_Value","Value property [PLA]","Value property [PLA]","IValueMap interface","base.ivaluemap_value","get_Value","pla.ivaluemap_value","pla/IValueMap::Value","pla/IValueMap::get_Value","pla/IValueMap::put_Value"]
 old-location: pla\ivaluemap_value.htm
 tech.root: PLA
 ms.assetid: 9f344845-956e-4254-82e2-e4e00f6a371b
@@ -65,9 +66,9 @@ This property is read/write.
 
 Depending on the value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_valuemaptype">IValueMap::ValueMapType</a> property, this value is either one of the values in the collection or the value derived by combining all the item values in the collection with the <b>OR</b> operator.
 
-The variant type is VT_UI8 if the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-valuemaptype">ValueMapType</a> enumeration is <b>plaIndex</b>, <b>plaFlag</b> or <b>plaFlagArray</b>.
+The variant type is VT_UI8 if the <a href="/windows/win32/api/pla/ne-pla-valuemaptype">ValueMapType</a> enumeration is <b>plaIndex</b>, <b>plaFlag</b> or <b>plaFlagArray</b>.
 
-The variant type is VT_UI4 if the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-valuemaptype">ValueMapType</a> enumeration is <b>plaValidation</b>.
+The variant type is VT_UI4 if the <a href="/windows/win32/api/pla/ne-pla-valuemaptype">ValueMapType</a> enumeration is <b>plaValidation</b>.
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.ReleaseStgMedium
 title: ReleaseStgMedium function (ole2.h)
-description: Frees the specified storage medium.helpviewer_keywords: ["ReleaseStgMedium","ReleaseStgMedium function [COM]","_ole_ReleaseStgMedium","com.releasestgmedium","ole2/ReleaseStgMedium"]
+description: Frees the specified storage medium.
+helpviewer_keywords: ["ReleaseStgMedium","ReleaseStgMedium function [COM]","_ole_ReleaseStgMedium","com.releasestgmedium","ole2/ReleaseStgMedium"]
 old-location: com\releasestgmedium.htm
 tech.root: com
 ms.assetid: da7d7bcb-0b5b-4053-8f0e-ff311c424375
@@ -72,7 +73,7 @@ Pointer to the storage medium that is to be freed.
 
 The <b>ReleaseStgMedium</b> function calls the appropriate method or function to release the specified storage medium. Use this function during data transfer operations where storage medium structures are parameters, such as <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a>. In addition to identifying the type of the storage medium, this structure specifies the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method for releasing the storage medium when it is no longer needed.
 
-It is common to pass a <a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> from one body of code to another, such as in <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a>, in which the one called can allocate a medium and return it to the caller. <b>ReleaseStgMedium</b> permits flexibility in whether the receiving body of code owns the medium, or whether the original provider of the medium still owns it, in which case the receiving code needs to inform the provider that it can free the medium.
+It is common to pass a <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> from one body of code to another, such as in <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a>, in which the one called can allocate a medium and return it to the caller. <b>ReleaseStgMedium</b> permits flexibility in whether the receiving body of code owns the medium, or whether the original provider of the medium still owns it, in which case the receiving code needs to inform the provider that it can free the medium.
 
 When the original provider of the medium is responsible for freeing the medium, the provider calls <b>ReleaseStgMedium</b>, specifying the medium and the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer as the <b>punkForRelease</b> structure member. Depending on the type of storage medium being freed, one of the following actions is taken, followed by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the specified <b>IUnknown</b> pointer.
 
@@ -160,7 +161,7 @@ In either case, after the call to <b>ReleaseStgMedium</b>, the specified storage
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a>
+<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a>
  
 
  

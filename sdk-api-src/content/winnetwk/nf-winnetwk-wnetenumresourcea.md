@@ -1,7 +1,8 @@
 ---
 UID: NF:winnetwk.WNetEnumResourceA
 title: WNetEnumResourceA function (winnetwk.h)
-description: The WNetEnumResource function continues an enumeration of network resources that was started by a call to the WNetOpenEnum function.helpviewer_keywords: ["WNetEnumResource","WNetEnumResource function [Windows Networking (WNet)]","WNetEnumResourceA","WNetEnumResourceW","_win32_wnetenumresource","winnetwk/WNetEnumResource","winnetwk/WNetEnumResourceA","winnetwk/WNetEnumResourceW","wnet.wnetenumresource"]
+description: The WNetEnumResource function continues an enumeration of network resources that was started by a call to the WNetOpenEnum function.
+helpviewer_keywords: ["WNetEnumResource","WNetEnumResource function [Windows Networking (WNet)]","WNetEnumResourceA","WNetEnumResourceW","_win32_wnetenumresource","winnetwk/WNetEnumResource","winnetwk/WNetEnumResourceA","winnetwk/WNetEnumResourceW","wnet.wnetenumresource"]
 old-location: wnet\wnetenumresource.htm
 tech.root: WNet
 ms.assetid: 2c58c6d0-d5fe-447e-be39-df34072c160e
@@ -80,7 +81,7 @@ If the function succeeds, on return the variable pointed to by this parameter co
 ### -param lpBuffer [out]
 
 Pointer to the buffer that receives the enumeration results. The results are returned as an array of 
-<a href="https://docs.microsoft.com/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structures. Note that the buffer you allocate must be large enough to hold the structures, plus the strings to which their members point. For more information, see the following Remarks section. 
+<a href="/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structures. Note that the buffer you allocate must be large enough to hold the structures, plus the strings to which their members point. For more information, see the following Remarks section. 
 
 
 

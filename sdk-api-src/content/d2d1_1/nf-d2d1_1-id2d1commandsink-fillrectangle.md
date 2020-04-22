@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.FillRectangle
 title: ID2D1CommandSink::FillRectangle (d2d1_1.h)
-description: Indicates to the command sink a rectangle to be filled.helpviewer_keywords: ["FillRectangle","FillRectangle method [Direct2D]","FillRectangle method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","FillRectangle method","ID2D1CommandSink.FillRectangle","ID2D1CommandSink::FillRectangle","d2d1_1/ID2D1CommandSink::FillRectangle","direct2d.id2d1commandsink_fillrectangle"]
+description: Indicates to the command sink a rectangle to be filled.
+helpviewer_keywords: ["FillRectangle","FillRectangle method [Direct2D]","FillRectangle method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","FillRectangle method","ID2D1CommandSink.FillRectangle","ID2D1CommandSink::FillRectangle","d2d1_1/ID2D1CommandSink::FillRectangle","direct2d.id2d1commandsink_fillrectangle"]
 old-location: direct2d\id2d1commandsink_fillrectangle.htm
 tech.root: Direct2D
 ms.assetid: c970a962-8d03-4de8-9252-9babfa411e5f
@@ -96,7 +97,7 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillrectangle(constd2d1_rect_f_id2d1brush)">ID2D1RenderTarget::FillRectangle</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillrectangle(constd2d1_rect_f_id2d1brush)">ID2D1RenderTarget::FillRectangle</a>
  
 
  

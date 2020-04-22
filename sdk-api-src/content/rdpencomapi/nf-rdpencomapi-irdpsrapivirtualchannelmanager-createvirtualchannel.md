@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannelManager.CreateVirtualChannel
 title: IRDPSRAPIVirtualChannelManager::CreateVirtualChannel (rdpencomapi.h)
-description: Creates a virtual channel.helpviewer_keywords: ["CHANNEL_PRIORITY_HI","CHANNEL_PRIORITY_LO","CHANNEL_PRIORITY_MED","CreateVirtualChannel","CreateVirtualChannel method [RDP]","CreateVirtualChannel method [RDP]","IRDPSRAPIVirtualChannelManager interface","IRDPSRAPIVirtualChannelManager interface [RDP]","CreateVirtualChannel method","IRDPSRAPIVirtualChannelManager.CreateVirtualChannel","IRDPSRAPIVirtualChannelManager::CreateVirtualChannel","rdp.irdpsrapivirtualchannelmanager_createvirtualchannel","rdpencomapi/IRDPSRAPIVirtualChannelManager::CreateVirtualChannel"]
+description: Creates a virtual channel.
+helpviewer_keywords: ["CHANNEL_PRIORITY_HI","CHANNEL_PRIORITY_LO","CHANNEL_PRIORITY_MED","CreateVirtualChannel","CreateVirtualChannel method [RDP]","CreateVirtualChannel method [RDP]","IRDPSRAPIVirtualChannelManager interface","IRDPSRAPIVirtualChannelManager interface [RDP]","CreateVirtualChannel method","IRDPSRAPIVirtualChannelManager.CreateVirtualChannel","IRDPSRAPIVirtualChannelManager::CreateVirtualChannel","rdp.irdpsrapivirtualchannelmanager_createvirtualchannel","rdpencomapi/IRDPSRAPIVirtualChannelManager::CreateVirtualChannel"]
 old-location: rdp\irdpsrapivirtualchannelmanager_createvirtualchannel.htm
 tech.root: rdp
 ms.assetid: 0185af26-a29d-4227-bad6-2633de18617e
@@ -93,7 +94,7 @@ The priority of the channel. This parameter can be one of the following values.
 
 Type: <b>unsigned long</b>
 
-Flags that determine how data is sent on the channel. This parameter can be 0 or <a href="https://docs.microsoft.com/windows/win32/api/rdpencomapi/ne-rdpencomapi-channel_flags">CHANNEL_FLAGS_UNCOMPRESSED</a>.
+Flags that determine how data is sent on the channel. This parameter can be 0 or <a href="/windows/win32/api/rdpencomapi/ne-rdpencomapi-channel_flags">CHANNEL_FLAGS_UNCOMPRESSED</a>.
 
 
 ### -param ppChannel [out]

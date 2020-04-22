@@ -1,7 +1,8 @@
 ---
 UID: NC:cryptdlg.PFNCMFILTERPROC
 title: PFNCMFILTERPROC (cryptdlg.h)
-description: Filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the CertSelectCertificate function.helpviewer_keywords: ["PFNCMFILTERPROC","PFNCMFILTERPROC callback","PFNCMFILTERPROC callback function [Security]","cryptdlg/PFNCMFILTERPROC","security.pfncmfilterproc"]
+description: Filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the CertSelectCertificate function.
+helpviewer_keywords: ["PFNCMFILTERPROC","PFNCMFILTERPROC callback","PFNCMFILTERPROC callback function [Security]","cryptdlg/PFNCMFILTERPROC","security.pfncmfilterproc"]
 old-location: security\pfncmfilterproc.htm
 tech.root: SecCrypto
 ms.assetid: f870a8a7-c504-491a-b9ac-045766e46348
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PFNCMFILTERPROC</b> function is a filter procedure that filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function.  <b>PFNCMFILTERPROC</b> is an application-defined callback function that is specified in the <a href="https://docs.microsoft.com/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a> structure. The <b>CERT_SELECT_STRUCT</b> structure is a parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. The <b>PFNCMFILTERPROC</b> function must be implemented by the developer to suit each application.
+The <b>PFNCMFILTERPROC</b> function is a filter procedure that filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function.  <b>PFNCMFILTERPROC</b> is an application-defined callback function that is specified in the <a href="/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a> structure. The <b>CERT_SELECT_STRUCT</b> structure is a parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. The <b>PFNCMFILTERPROC</b> function must be implemented by the developer to suit each application.
 
 
 ## -parameters
@@ -103,7 +104,7 @@ Return a nonzero value (<b>TRUE</b>) to display the certificate. Return zero (<b
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a>
+<a href="/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a>
 
 
 

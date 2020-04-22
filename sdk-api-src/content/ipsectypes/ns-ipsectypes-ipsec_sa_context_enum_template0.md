@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT_ENUM_TEMPLATE0_
 title: IPSEC_SA_CONTEXT_ENUM_TEMPLATE0 (ipsectypes.h)
-description: Enumeration template used to enumerate security association (SA) contexts.helpviewer_keywords: ["IPSEC_SA_CONTEXT_ENUM_TEMPLATE0","IPSEC_SA_CONTEXT_ENUM_TEMPLATE0 structure [Filtering]","fwp.ipsec_sa_context_enum_template0","ipsectypes/IPSEC_SA_CONTEXT_ENUM_TEMPLATE0"]
+description: Enumeration template used to enumerate security association (SA) contexts.
+helpviewer_keywords: ["IPSEC_SA_CONTEXT_ENUM_TEMPLATE0","IPSEC_SA_CONTEXT_ENUM_TEMPLATE0 structure [Filtering]","fwp.ipsec_sa_context_enum_template0","ipsectypes/IPSEC_SA_CONTEXT_ENUM_TEMPLATE0"]
 old-location: fwp\ipsec_sa_context_enum_template0.htm
 tech.root: fwp
 ms.assetid: 2e099545-4075-4ea0-9035-53ce334decc4
@@ -59,16 +60,16 @@ The <b>IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</b>	structure is an enumeration template 
 
 ### -field localSubNet
 
-An [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a> structure that specifies a subnet from which SA contexts that contain a local address will be returned.  This member may be empty.
+An [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0) structure that specifies a subnet from which SA contexts that contain a local address will be returned.  This member may be empty.
 
-Acceptable type values for this member are: [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>.
+Acceptable type values for this member are: [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask).
 
 
 ### -field remoteSubNet
 
-An [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a> structure that specifies a subnet from which SA contexts that contain a remote address will be returned.  This member may be empty.
+An [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0) structure that specifies a subnet from which SA contexts that contain a remote address will be returned.  This member may be empty.
 
-Acceptable type values for this member are: [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>.
+Acceptable type values for this member are: [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask).
 
 
 ## -remarks
@@ -85,7 +86,7 @@ Acceptable type values for this member are: [FWP_V6_ADDR_AND_MASK](https://docs.
 
 
 
-[FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a>
+[FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)
  
 
  

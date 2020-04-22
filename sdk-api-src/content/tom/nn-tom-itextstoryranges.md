@@ -1,7 +1,8 @@
 ---
 UID: NN:tom.ITextStoryRanges
 title: ITextStoryRanges (tom.h)
-description: The purpose of the ITextStoryRanges interface is to enumerate the stories in an ITextDocument.helpviewer_keywords: ["ITextStoryRanges","ITextStoryRanges interface [Windows Controls]","ITextStoryRanges interface [Windows Controls]","described","_win32_ITextStoryRanges","_win32_ITextStoryRanges_cpp","controls.ITextStoryRanges","controls._win32_ITextStoryRanges","tom/ITextStoryRanges"]
+description: The purpose of the ITextStoryRanges interface is to enumerate the stories in an ITextDocument.
+helpviewer_keywords: ["ITextStoryRanges","ITextStoryRanges interface [Windows Controls]","ITextStoryRanges interface [Windows Controls]","described","_win32_ITextStoryRanges","_win32_ITextStoryRanges_cpp","controls.ITextStoryRanges","controls._win32_ITextStoryRanges","tom/ITextStoryRanges"]
 old-location: controls\ITextStoryRanges.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextstoryranges.htm
@@ -69,7 +70,7 @@ The <b>ITextStoryRanges</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/win32/api/tom/nf-tom-itextstoryranges-_newenum">_NewEnum</a>
+<a href="/windows/win32/api/tom/nf-tom-itextstoryranges-_newenum">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an 

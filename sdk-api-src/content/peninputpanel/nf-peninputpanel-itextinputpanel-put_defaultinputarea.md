@@ -1,7 +1,8 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_DefaultInputArea
 title: ITextInputPanel::put_DefaultInputArea (peninputpanel.h)
-description: Gets or sets the default input area as specified by the PanelInputArea Enumeration.helpviewer_keywords: ["3e221516-631a-4d15-a9ef-bd05c6928067","DefaultInputArea property [Tablet PC]","DefaultInputArea property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","DefaultInputArea property","ITextInputPanel.DefaultInputArea","ITextInputPanel.get_DefaultInputArea","ITextInputPanel.put_DefaultInputArea","ITextInputPanel::DefaultInputArea","ITextInputPanel::get_DefaultInputArea","ITextInputPanel::put_DefaultInputArea","peninputpanel/ITextInputPanel::DefaultInputArea","peninputpanel/ITextInputPanel::get_DefaultInputArea","peninputpanel/ITextInputPanel::put_DefaultInputArea","put_DefaultInputArea","tablet.itextinputpanel_defaultinputarea"]
+description: Gets or sets the default input area as specified by the PanelInputArea Enumeration.
+helpviewer_keywords: ["3e221516-631a-4d15-a9ef-bd05c6928067","DefaultInputArea property [Tablet PC]","DefaultInputArea property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","DefaultInputArea property","ITextInputPanel.DefaultInputArea","ITextInputPanel.get_DefaultInputArea","ITextInputPanel.put_DefaultInputArea","ITextInputPanel::DefaultInputArea","ITextInputPanel::get_DefaultInputArea","ITextInputPanel::put_DefaultInputArea","peninputpanel/ITextInputPanel::DefaultInputArea","peninputpanel/ITextInputPanel::get_DefaultInputArea","peninputpanel/ITextInputPanel::put_DefaultInputArea","put_DefaultInputArea","tablet.itextinputpanel_defaultinputarea"]
 old-location: tablet\itextinputpanel_defaultinputarea.htm
 tech.root: tablet
 ms.assetid: 3e221516-631a-4d15-a9ef-bd05c6928067
@@ -58,7 +59,7 @@ ms.custom: 19H1
 ]
 
 
-Gets or sets the default input area as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
+Gets or sets the default input area as specified by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
 
 
 
@@ -72,7 +73,7 @@ This property is read/write.
 
 
 
-The system default is <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea_Auto</a>, except in password fields where the system default is <b>PanelInputArea_Keyboard</b>. Setting the default input area overrides the system default in all cases, except when an input area is unavailable because the current recognizer does not support that mode or because there is no recognizer for the current input language.
+The system default is <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea_Auto</a>, except in password fields where the system default is <b>PanelInputArea_Keyboard</b>. Setting the default input area overrides the system default in all cases, except when an input area is unavailable because the current recognizer does not support that mode or because there is no recognizer for the current input language.
 
 
 #### Examples

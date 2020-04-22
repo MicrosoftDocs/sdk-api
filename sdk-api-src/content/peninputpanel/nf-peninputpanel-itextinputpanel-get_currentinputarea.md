@@ -1,7 +1,8 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentInputArea
 title: ITextInputPanel::get_CurrentInputArea (peninputpanel.h)
-description: Gets the current input area as specified by the PanelInputArea Enumeration.helpviewer_keywords: ["47ffdda4-bfe2-4ee0-bfda-cad73a346b1e","CurrentInputArea property [Tablet PC]","CurrentInputArea property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","CurrentInputArea property","ITextInputPanel.CurrentInputArea","ITextInputPanel.get_CurrentInputArea","ITextInputPanel::CurrentInputArea","ITextInputPanel::get_CurrentInputArea","get_CurrentInputArea","peninputpanel/ITextInputPanel::CurrentInputArea","peninputpanel/ITextInputPanel::get_CurrentInputArea","tablet.itextinputpanel_currentinputarea"]
+description: Gets the current input area as specified by the PanelInputArea Enumeration.
+helpviewer_keywords: ["47ffdda4-bfe2-4ee0-bfda-cad73a346b1e","CurrentInputArea property [Tablet PC]","CurrentInputArea property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","CurrentInputArea property","ITextInputPanel.CurrentInputArea","ITextInputPanel.get_CurrentInputArea","ITextInputPanel::CurrentInputArea","ITextInputPanel::get_CurrentInputArea","get_CurrentInputArea","peninputpanel/ITextInputPanel::CurrentInputArea","peninputpanel/ITextInputPanel::get_CurrentInputArea","tablet.itextinputpanel_currentinputarea"]
 old-location: tablet\itextinputpanel_currentinputarea.htm
 tech.root: tablet
 ms.assetid: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e
@@ -56,7 +57,7 @@ ms.custom: 19H1
 ]
 
 
-Gets the current input area as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
+Gets the current input area as specified by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
 
 
 
@@ -70,7 +71,7 @@ This property is read-only.
 
 
 
-The current input area is different from the default input area when the user has explicitly switched input areas. It is also different if the default input area is unavailable because the current recognizer does not support that mode or because there is no recognizer for the current input language. When the Tablet PC Input Panel is closed or hidden, the current input areas is reset to equal the default input area, unless the default state is <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">Auto</a>, in which case, the current input area is not reset and represents the last visible input area.
+The current input area is different from the default input area when the user has explicitly switched input areas. It is also different if the default input area is unavailable because the current recognizer does not support that mode or because there is no recognizer for the current input language. When the Tablet PC Input Panel is closed or hidden, the current input areas is reset to equal the default input area, unless the default state is <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">Auto</a>, in which case, the current input area is not reset and represents the last visible input area.
 
 
 #### Examples

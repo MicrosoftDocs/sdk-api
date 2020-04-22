@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.ISyncChangeBatchBase2
 title: ISyncChangeBatchBase2 (winsync.h)
-description: Represents additional capabilities of an ISyncChangeBatchBase object.helpviewer_keywords: ["ISyncChangeBatchBase2","ISyncChangeBatchBase2 interface [Windows Sync]","ISyncChangeBatchBase2 interface [Windows Sync]","described","winsync.isyncchangebatchbase2","winsync/ISyncChangeBatchBase2"]
+description: Represents additional capabilities of an ISyncChangeBatchBase object.
+helpviewer_keywords: ["ISyncChangeBatchBase2","ISyncChangeBatchBase2 interface [Windows Sync]","ISyncChangeBatchBase2 interface [Windows Sync]","described","winsync.isyncchangebatchbase2","winsync/ISyncChangeBatchBase2"]
 old-location: winsync\isyncchangebatchbase2.htm
 tech.root: winsync
 ms.assetid: 45f10ed0-b3ce-41f5-b2d9-9166bff2abec
@@ -118,7 +119,7 @@ An <b>ISyncChangeBatchBase2</b> object can be obtained by passing <b>IID_ISyncCh
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SyncSerializationVersion Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SyncSerializationVersion Enumeration</a>
 
 
 

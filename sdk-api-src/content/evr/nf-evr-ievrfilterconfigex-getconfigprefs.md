@@ -1,7 +1,8 @@
 ---
 UID: NF:evr.IEVRFilterConfigEx.GetConfigPrefs
 title: IEVRFilterConfigEx::GetConfigPrefs (evr.h)
-description: Gets the configuration parameters for the Microsoft DirectShow Enhanced Video Renderer Filter filter.helpviewer_keywords: ["GetConfigPrefs","GetConfigPrefs method [Media Foundation]","GetConfigPrefs method [Media Foundation]","IEVRFilterConfigEx interface","IEVRFilterConfigEx interface [Media Foundation]","GetConfigPrefs method","IEVRFilterConfigEx.GetConfigPrefs","IEVRFilterConfigEx::GetConfigPrefs","evr/IEVRFilterConfigEx::GetConfigPrefs","mf.ievrfilterconfigex_getconfigprefs"]
+description: Gets the configuration parameters for the Microsoft DirectShow Enhanced Video Renderer Filter filter.
+helpviewer_keywords: ["GetConfigPrefs","GetConfigPrefs method [Media Foundation]","GetConfigPrefs method [Media Foundation]","IEVRFilterConfigEx interface","IEVRFilterConfigEx interface [Media Foundation]","GetConfigPrefs method","IEVRFilterConfigEx.GetConfigPrefs","IEVRFilterConfigEx::GetConfigPrefs","evr/IEVRFilterConfigEx::GetConfigPrefs","mf.ievrfilterconfigex_getconfigprefs"]
 old-location: mf\ievrfilterconfigex_getconfigprefs.htm
 tech.root: medfound
 ms.assetid: 8b286b77-de5f-44ce-82f4-d11a76fe2c4d
@@ -59,7 +60,7 @@ Gets the configuration parameters for the Microsoft DirectShow <a href="https://
 
 ### -param pdwConfigFlags [out]
 
-Receives a  bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/win32/api/evr/ne-evr-evrfilterconfigprefs">EVRFilterConfigPrefs</a> enumeration.
+Receives a  bitwise <b>OR</b> of flags from the <a href="/windows/win32/api/evr/ne-evr-evrfilterconfigprefs">EVRFilterConfigPrefs</a> enumeration.
 
 
 ## -returns

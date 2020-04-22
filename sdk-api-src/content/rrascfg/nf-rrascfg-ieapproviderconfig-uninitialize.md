@@ -1,7 +1,8 @@
 ---
 UID: NF:rrascfg.IEAPProviderConfig.Uninitialize
 title: IEAPProviderConfig::Uninitialize (rrascfg.h)
-description: The system calls the Uninitialize method to shut down the specified EAP configuration session.helpviewer_keywords: ["IEAPProviderConfig interface [EAP]","Uninitialize method","IEAPProviderConfig.Uninitialize","IEAPProviderConfig::Uninitialize","Uninitialize","Uninitialize method [EAP]","Uninitialize method [EAP]","IEAPProviderConfig interface","_eap_ieapproviderconfig_uninitialize","eap.ieapproviderconfig_uninitialize","rrascfg/IEAPProviderConfig::Uninitialize"]
+description: The system calls the Uninitialize method to shut down the specified EAP configuration session.
+helpviewer_keywords: ["IEAPProviderConfig interface [EAP]","Uninitialize method","IEAPProviderConfig.Uninitialize","IEAPProviderConfig::Uninitialize","Uninitialize","Uninitialize method [EAP]","Uninitialize method [EAP]","IEAPProviderConfig interface","_eap_ieapproviderconfig_uninitialize","eap.ieapproviderconfig_uninitialize","rrascfg/IEAPProviderConfig::Uninitialize"]
 old-location: eap\ieapproviderconfig_uninitialize.htm
 tech.root: EAP
 ms.assetid: f96ffa3f-cd3c-4979-87b3-1a2afb7a3621
@@ -147,11 +148,11 @@ The DLL that implements
 
 
 
-[EAP Interfaces](https://docs.microsoft.com/windows/win32/eap/eap-interfaces)a>
+[EAP Interfaces](/windows/win32/eap/eap-interfaces)
 
 
 
-[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
+[Extensible Authentication Protocol Reference](/windows/win32/eap/extensible-authentication-protocol-reference)
 
 
 
